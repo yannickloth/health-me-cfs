@@ -1,5 +1,5 @@
 {
-  description = "Flake for LaTeX template repo";
+  description = "ME/CFS documentation with automated quality assurance subagents";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -19,7 +19,7 @@
         default = document;
 
         document = pkgs.stdenvNoCC.mkDerivation rec {
-          name = "latex-document";
+          name = "mecfs-documentation";
           src = pkgs.lib.cleanSourceWith {
             src = self;
             filter = path: type:

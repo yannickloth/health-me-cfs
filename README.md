@@ -1,5 +1,5 @@
-# latex-template
-Template for LaTeX projects with Nix-based reproducible builds and modular preamble system.
+# ME/CFS Documentation Project
+Comprehensive documentation of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), built with LaTeX for professional medical and scientific typesetting.
 
 ## Quick Start
 
@@ -15,7 +15,7 @@ Template for LaTeX projects with Nix-based reproducible builds and modular pream
    nix build              # Output: result/ms.pdf
    ```
 
-3. **Edit** `ms.tex` and rebuild as needed
+3. **Edit** [ms.tex](ms.tex) and rebuild as needed
 
 ## Building
 
@@ -30,10 +30,20 @@ Template for LaTeX projects with Nix-based reproducible builds and modular pream
 
 ## Project Structure
 
-- `ms.tex` - Main document (rename as needed for your project)
+- [ms.tex](ms.tex) - Main ME/CFS documentation source
 - [infolead-latex-templates/](infolead-latex-templates/) - Git submodule with reusable LaTeX preambles
-- `flake.nix` - Nix build configuration for reproducible builds
+- [flake.nix](flake.nix) - Nix build configuration for reproducible builds
 - `.gitignore` - Pre-configured for LaTeX build artifacts
+
+## Document Contents
+
+This documentation aims to provide an exhaustive overview of ME/CFS, covering:
+- Clinical definitions and diagnostic criteria
+- Pathophysiology and proposed mechanisms
+- Symptoms and disease progression
+- Current research findings
+- Treatment approaches and management strategies
+- Patient experiences and quality of life impacts
 
 ## Updating the Preamble
 
@@ -43,14 +53,14 @@ The project uses a git submodule for shared LaTeX preambles. To update to the la
 git submodule update --remote infolead-latex-templates
 ```
 
-## Customizing for Your Project
+## Contributing
 
-When creating a new project from this template:
+Contributions to improve the accuracy and completeness of this documentation are welcome. When contributing:
 
-1. **Rename the main document** - Change `ms.tex` to match your project (e.g., `thesis.tex`, `report.tex`)
-2. **Update flake.nix** - If you rename the main document, update the `mainFile` variable in [flake.nix](flake.nix)
-3. **Customize the preamble** - Edit `ms.tex` to load only the preamble modules you need (see below)
-4. **Update this README** - Replace template content with your project-specific information
+1. Ensure all medical claims are properly cited with peer-reviewed sources
+2. Follow the established document structure and LaTeX conventions
+3. Run the build process to verify no compilation errors
+4. Consider using the subagent system (see [.claude/CLAUDE.md](.claude/CLAUDE.md)) for automated quality checks
 
 ## Preamble Modules
 

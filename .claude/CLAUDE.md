@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-LaTeX document authoring with automatic subagent delegation.
+LaTeX-based ME/CFS documentation with automatic subagent delegation for quality assurance.
 
 ## Build
 
@@ -19,11 +19,11 @@ This project uses custom subagents in `.claude/agents/`. Claude automatically de
 |-------|-------|----------|
 | `syntax-fixer` | haiku | Build errors, warnings, overfull boxes |
 | `formatting-fixer` | haiku | Markdown in .tex, formatting issues |
-| `dictionary-manager` | haiku | LTeX warnings, spelling false positives |
-| `content-reviewer` | sonnet | Checking consistency, completeness |
+| `dictionary-manager` | haiku | LTeX warnings, medical terminology false positives |
+| `content-reviewer` | sonnet | Checking consistency, completeness, section coherence |
 | `style-naturalizer` | sonnet | AI-sounding text needs humanizing |
-| `math-verifier` | opus | Verifying proofs, derivations |
-| `logic-auditor` | opus | Circular reasoning, completeness gaps |
+| `math-verifier` | opus | Verifying statistical analyses, calculations |
+| `logic-auditor` | opus | Circular reasoning, argument gaps, claim verification |
 
 ### How It Works
 
@@ -53,8 +53,17 @@ Trigger with: "run the pre-commit workflow" or "review section 3"
 
 | File | Load When |
 |------|-----------|
-| `writing-style.md` | Editing prose, naturalizing text |
+| `writing-style.md` | Editing prose, naturalizing text, medical writing |
 | `build-system.md` | Build issues, deployment |
 | `preamble-setup.md` | Preamble configuration |
 | `latex-conventions.md` | Formatting questions |
 | `systems/mcp-integration.md` | MCP/LSP setup |
+
+## Medical Documentation Guidelines
+
+When working with ME/CFS content:
+- Medical terminology should be added to LTeX dictionary (use `dictionary-manager`)
+- All clinical claims require citations
+- Patient-reported data should be clearly distinguished from clinical findings
+- Use appropriate theorem-like environments for diagnostic criteria
+- Maintain neutral, evidence-based tone throughout
