@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nix build:*)",
+      "Bash(nix run:*)",
+      "Bash(latexmk:*)",
+      "Bash(pdflatex:*)",
+      "Bash(bibtex:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Read(./**/*.tex)",
+      "Read(./**/*.bib)",
+      "Read(./**/*.sty)",
+      "Read(./.claude/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ \"$CLAUDE_TOOL_INPUT_PATH\" == *.tex ]]; then echo '[hook] .tex file modified - consider running nix build to check for errors'; fi",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "syntax-fixer",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[hook] Syntax fixes complete - rebuilding to verify'; nix build 2>&1 | tail -20",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

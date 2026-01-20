@@ -1,0 +1,3 @@
+[submodule "infolead-latex-templates"]
+	path = infolead-latex-templates
+	url = git@github.com:yannickloth/infolead-latex-templates.git

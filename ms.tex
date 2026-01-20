@@ -1,0 +1,202 @@
+\documentclass[11pt,oneside,a4paper,numbers=noenddot,headheight=27.2pt]{scrbook}
+
+% Increase text area to reduce excessive bottom margin (DIV=12 vs. default ~10-11)
+% This reclaims ~20-25mm from bottom margin while preserving readability
+\KOMAoptions{DIV=12}
+
+% Path to shared preamble (git submodule - relative to this document)
+\newcommand{\preamble}{infolead-latex-templates}
+
+% KOMA-Script configuration (must load early)
+\input{\preamble/koma-config.tex}
+
+% Core packages (shared across multiple features)
+% NOTE: Must load BEFORE typography.tex as it provides newunicodechar package
+\input{\preamble/packages.tex}
+
+% Typography and fonts (requires newunicodechar from packages.tex)
+\input{\preamble/typography.tex}
+
+% Mathematical configuration
+\input{\preamble/math.tex}
+
+% Colored boxes (required by unified theorems module)
+\usepackage[most]{tcolorbox}
+
+% Unified theorem-like environments
+% Includes: standard math theorems, IVP environments, and scientific claims
+\input{\preamble/theorems.tex}
+
+% Custom axiom counter with Roman numerals (CGT-specific)
+% \input{axiom-roman-numerals.tex}  % Commented out - file not present
+
+% Feature-specific modules (each includes its own \usepackage statements)
+\input{\preamble/bibliography.tex}   % Citation support
+\input{\preamble/tables.tex}         % Table formatting
+\input{\preamble/diagrams.tex}       % TikZ diagrams
+\input{\preamble/algorithms.tex}     % Algorithm pseudocode
+\input{\preamble/listings.tex}       % Code listings
+
+% Spacing adjustments
+\input{\preamble/spacing.tex}
+
+% Page headers and footers (KOMA-Script)
+\input{\preamble/koma-headers.tex}
+
+% Custom footer: "Page X of Y — TITLE — DATE"
+\usepackage{lastpage}
+\usepackage{refcount}
+
+% Apply custom footer to ALL page styles (including plain)
+\cfoot{Page \pagemark{} of \pageref*{LastPage} — Causal Graph Theory: Volume I (Foundations) — \today}
+\cfoot*{Page \pagemark{} of \pageref*{LastPage} — Causal Graph Theory: Volume I (Foundations) — \today}
+
+% Macro to compute page count rounded down to nearest hundred
+\newcommand{\RoundedPageCount}{%
+  \number\numexpr(\getpagerefnumber{LastPage}/100)*100\relax%
+}
+
+% Chemistry formulas
+\usepackage[version=4]{mhchem}
+
+% Feynman slash notation
+\usepackage{slashed}
+
+% pifont package
+\usepackage{pifont}
+
+% Extend alphabetic counters beyond 26 (A-Z) using AA, AB, etc.
+\usepackage{alphalph}
+
+% Index support (must load before hyperref)
+\usepackage{imakeidx}
+\makeindex[intoc,title={Index},columns=2]
+
+% Lorem ipsum placeholder text
+\usepackage{lipsum}
+
+% Hyperref (MUST load last)
+% Note: hyperref.tex includes a fix for >26 chapters when alphalph is loaded
+\input{\preamble/hyperref.tex}
+
+% Cross-volume references: enable Book 1 to reference labels from Books 2 and 3
+% (xr-hyper MUST be loaded AFTER hyperref)
+% \usepackage{xr-hyper}
+% \externaldocument{ms-book2}  % Commented out - ms-book2 not present
+\newcommand{\yannickloth}{Ing. Yannick Loth, M.Sc. (Management)}
+% Update hyperref colors to use USAT theme
+\hypersetup{
+    colorlinks=true,
+    filecolor=viridis_purple,        % formerly ViridisPlum
+    linkcolor=viridis_darker_blue,   % formerly ViridisDarkerBlue
+    citecolor=viridis_green,         % formerly ViridisGreen
+    urlcolor=viridis_blue,           % formerly ViridisBlue
+    menucolor=viridis_purple,
+    pdftitle={BOOK/ARTICLE TITLE},
+    pdfauthor={\yannickloth},
+    pdfpagemode=UseNone % Opens without the sidebar for a cleaner start
+}
+
+
+% PDF metadata uses current date automatically via pdfTeX primitives
+
+% Define keywords environment (replaces IEEEkeywords)
+\newenvironment{keywords}{%
+    \vspace{0.5\baselineskip}
+    \noindent\textbf{Keywords:}
+}{\par\vspace{0.5\baselineskip}}
+
+% Hyphenation hints for technical terminology
+\hyphenation{
+  infor-ma-tion-theo-re-tic
+  strong-ly-cou-pled
+  three-di-men-sion-al
+  four-di-men-sion-al
+  elec-tro-mag-net-ic
+  topo-log-i-cal-ly
+  spon-ta-neous-ly
+  syn-chro-ni-za-tion
+  in-ter-pre-ta-tion
+  ex-per-i-men-tal
+  com-pu-ta-tion-al-ly
+  di-men-sion-al-anal-y-sis
+  de-fect-wave-func-tion
+  de-fect-pat-tern
+  glu-on-dress-ing
+  graph-to-pol-o-gy
+  Pon-te-cor-vo-Ma-ki-Na-ka-ga-wa-Sa-ka-ta
+  Ca-bib-bo-Ko-ba-ya-shi-Mas-ka-wa
+  com-pre-hen-sive
+  per-tur-ba-tive
+  con-fine-ment
+  fal-si-fi-able
+  grav-i-ta-tion-al
+}
+
+% Adjust line-breaking parameters to reduce overfull boxes
+\tolerance=1500
+\emergencystretch=3em
+\hfuzz=0.5pt  % Suppress warnings for overflows < 0.5pt
+
+\begin{document}
+
+% Title and metadata
+\title{ARTICLE/BOOK TITLE}
+\subtitle{SUBTITLE}
+\author{\yannickloth\\
+    \small Software Architect \& Independent Researcher\\
+    \small Messancy, Belgium\\
+    \small \href{mailto:yl@infolead.eu}{yl@infolead.eu}\\
+    \small ORCID: \href{https://orcid.org/0009-0003-5754-827X}{0009-0003-5754-827X}\\
+    \small DOI: \href{https://doi.org/}{10.5281/zenodo.}}
+\date{\today}
+\maketitle
+
+\clearpage
+
+% Front matter (roman page numbers, unnumbered chapters)
+\frontmatter
+% \include{contents/shared/keywords}
+% \include{contents/shared/license}
+% \include{contents/shared/author-bio}
+% \include{contents/shared/ai-disclosure}
+% \include{contents/shared/reading-guide}
+
+% Table of contents
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Switch to main matter (arabic page numbers, chapter numbering starts at 1)
+\mainmatter
+
+\chapter{Introduction}
+
+\lipsum[1-3]
+
+\section{Background}
+
+\lipsum[4-6]
+
+\section{Research Questions}
+
+\lipsum[7-9]
+
+\chapter{Methodology}
+
+\lipsum[10-15]
+
+% =============================================================================
+% APPENDICES
+% =============================================================================
+\appendix
+
+% \include{appendix.tex}
+
+% Bibliography
+\printbibliography[heading=bibintoc]
+
+% Index (Volume I only)
+\printindex
+
+\end{document}
