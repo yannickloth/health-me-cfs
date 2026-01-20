@@ -24,14 +24,13 @@
 \usepackage[most]{tcolorbox}
 
 % Unified theorem-like environments
-% Includes: standard math theorems, IVP environments, and scientific claims
+% Includes: standard math theorems, environments, and scientific claims
 \input{\preamble/theorems.tex}
-
-% Custom axiom counter with Roman numerals (CGT-specific)
-% \input{axiom-roman-numerals.tex}  % Commented out - file not present
 
 % Feature-specific modules (each includes its own \usepackage statements)
 \input{\preamble/bibliography.tex}   % Citation support
+\addbibresource{references.bib}       % Project bibliography
+
 \input{\preamble/tables.tex}         % Table formatting
 \input{\preamble/diagrams.tex}       % TikZ diagrams
 \input{\preamble/algorithms.tex}     % Algorithm pseudocode
@@ -48,8 +47,8 @@
 \usepackage{refcount}
 
 % Apply custom footer to ALL page styles (including plain)
-\cfoot{Page \pagemark{} of \pageref*{LastPage} — Causal Graph Theory: Volume I (Foundations) — \today}
-\cfoot*{Page \pagemark{} of \pageref*{LastPage} — Causal Graph Theory: Volume I (Foundations) — \today}
+\cfoot{Page \pagemark{} of \pageref*{LastPage} — Myalgic Encephalomyelitis/Chronic Fatigue Syndrome — \today}
+\cfoot*{Page \pagemark{} of \pageref*{LastPage} — Myalgic Encephalomyelitis/Chronic Fatigue Syndrome — \today}
 
 % Macro to compute page count rounded down to nearest hundred
 \newcommand{\RoundedPageCount}{%
@@ -92,7 +91,7 @@
     citecolor=viridis_green,         % formerly ViridisGreen
     urlcolor=viridis_blue,           % formerly ViridisBlue
     menucolor=viridis_purple,
-    pdftitle={BOOK/ARTICLE TITLE},
+    pdftitle={Myalgic Encephalomyelitis / Chronic Fatigue Syndrome},
     pdfauthor={\yannickloth},
     pdfpagemode=UseNone % Opens without the sidebar for a cleaner start
 }
@@ -106,31 +105,25 @@
     \noindent\textbf{Keywords:}
 }{\par\vspace{0.5\baselineskip}}
 
-% Hyphenation hints for technical terminology
+% Hyphenation hints for medical terminology
 \hyphenation{
-  infor-ma-tion-theo-re-tic
-  strong-ly-cou-pled
-  three-di-men-sion-al
-  four-di-men-sion-al
-  elec-tro-mag-net-ic
-  topo-log-i-cal-ly
-  spon-ta-neous-ly
-  syn-chro-ni-za-tion
-  in-ter-pre-ta-tion
-  ex-per-i-men-tal
-  com-pu-ta-tion-al-ly
-  di-men-sion-al-anal-y-sis
-  de-fect-wave-func-tion
-  de-fect-pat-tern
-  glu-on-dress-ing
-  graph-to-pol-o-gy
-  Pon-te-cor-vo-Ma-ki-Na-ka-ga-wa-Sa-ka-ta
-  Ca-bib-bo-Ko-ba-ya-shi-Mas-ka-wa
-  com-pre-hen-sive
-  per-tur-ba-tive
-  con-fine-ment
-  fal-si-fi-able
-  grav-i-ta-tion-al
+  my-al-gic
+  en-ceph-a-lo-my-e-li-tis
+  im-mu-no-log-i-cal
+  neu-ro-in-flam-ma-tion
+  mi-to-chon-dri-al
+  post-ex-er-tion-al
+  ortho-stat-ic
+  au-to-nom-ic
+  sym-pto-ma-tol-o-gy
+  patho-phys-i-ol-o-gy
+  cog-ni-tive
+  im-pair-ment
+  dys-reg-u-la-tion
+  hypo-thal-am-ic-pi-tu-i-tary-ad-re-nal
+  cere-bro-spi-nal
+  im-mu-no-de-fi-cien-cy
+  multi-sys-tem
 }
 
 % Adjust line-breaking parameters to reduce overfull boxes
@@ -141,8 +134,8 @@
 \begin{document}
 
 % Title and metadata
-\title{ARTICLE/BOOK TITLE}
-\subtitle{SUBTITLE}
+\title{Myalgic Encephalomyelitis / Chronic Fatigue Syndrome}
+\subtitle{A Comprehensive Medical Documentation}
 \author{\yannickloth\\
     \small Software Architect \& Independent Researcher\\
     \small Messancy, Belgium\\
@@ -156,11 +149,11 @@
 
 % Front matter (roman page numbers, unnumbered chapters)
 \frontmatter
-% \include{contents/shared/keywords}
-% \include{contents/shared/license}
-% \include{contents/shared/author-bio}
-% \include{contents/shared/ai-disclosure}
-% \include{contents/shared/reading-guide}
+\include{contents/shared/keywords}
+\include{contents/shared/license}
+\include{contents/shared/author-bio}
+\include{contents/shared/ai-disclosure}
+\include{contents/shared/reading-guide}
 
 % Table of contents
 \tableofcontents
@@ -170,33 +163,79 @@
 % Switch to main matter (arabic page numbers, chapter numbering starts at 1)
 \mainmatter
 
-\chapter{Introduction}
+% =============================================================================
+% PART I: CLINICAL OVERVIEW
+% =============================================================================
+\include{contents/part1-clinical/part1-intro}
+\include{contents/part1-clinical/ch01-introduction}
+\include{contents/part1-clinical/ch02-core-symptoms}
+\include{contents/part1-clinical/ch03-additional-symptoms}
+\include{contents/part1-clinical/ch04-diagnostic-criteria}
+\include{contents/part1-clinical/ch05-disease-course}
 
-\lipsum[1-3]
+% =============================================================================
+% PART II: PATHOPHYSIOLOGY AND BIOLOGICAL MECHANISMS
+% =============================================================================
+\include{contents/part2-pathophysiology/part2-intro}
+\include{contents/part2-pathophysiology/ch06-energy-metabolism}
+\include{contents/part2-pathophysiology/ch07-immune-dysfunction}
+\include{contents/part2-pathophysiology/ch08-neurological}
+\include{contents/part2-pathophysiology/ch09-endocrine}
+\include{contents/part2-pathophysiology/ch10-cardiovascular}
+\include{contents/part2-pathophysiology/ch11-gut-microbiome}
+\include{contents/part2-pathophysiology/ch12-genetics-epigenetics}
+\include{contents/part2-pathophysiology/ch13-integrative-models}
 
-\section{Background}
+% =============================================================================
+% PART III: TREATMENT AND MANAGEMENT
+% =============================================================================
+\include{contents/part3-treatment/part3-intro}
+\include{contents/part3-treatment/ch14-symptom-management}
+\include{contents/part3-treatment/ch15-medications-systems}
+\include{contents/part3-treatment/ch16-supplements-nutraceuticals}
+\include{contents/part3-treatment/ch17-lifestyle-interventions}
+\include{contents/part3-treatment/ch18-emerging-therapies}
+\include{contents/part3-treatment/ch19-integrative-approaches}
 
-\lipsum[4-6]
+% =============================================================================
+% PART IV: RESEARCH AND EVIDENCE SYNTHESIS
+% =============================================================================
+\include{contents/part4-research/part4-intro}
+\include{contents/part4-research/ch20-biomarker-research}
+\include{contents/part4-research/ch21-clinical-trials}
+\include{contents/part4-research/ch22-mechanistic-studies}
+\include{contents/part4-research/ch23-epidemiology-outcomes}
+\include{contents/part4-research/ch24-controversies}
 
-\section{Research Questions}
-
-\lipsum[7-9]
-
-\chapter{Methodology}
-
-\lipsum[10-15]
+% =============================================================================
+% PART V: MATHEMATICAL AND COMPUTATIONAL MODELING
+% =============================================================================
+\include{contents/part5-modeling/part5-intro}
+\include{contents/part5-modeling/ch25-modeling-foundations}
+\include{contents/part5-modeling/ch26-energy-metabolism-models}
+\include{contents/part5-modeling/ch27-immune-system-models}
+\include{contents/part5-modeling/ch28-neuroendocrine-models}
+\include{contents/part5-modeling/ch29-integrated-systems}
+\include{contents/part5-modeling/ch30-temporal-evolution}
+\include{contents/part5-modeling/ch31-predictive-applications}
 
 % =============================================================================
 % APPENDICES
 % =============================================================================
 \appendix
 
-% \include{appendix.tex}
+\include{contents/appendices/appendix-a-terminology}
+\include{contents/appendices/appendix-b-abbreviations}
+\include{contents/appendices/appendix-c-diagnostic-tools}
+\include{contents/appendices/appendix-d-resources}
+\include{contents/appendices/appendix-e-mathematical-details}
+\include{contents/appendices/appendix-f-supplement-guide}
+\include{contents/appendices/appendix-g-research-synthesis}
 
 % Bibliography
 \printbibliography[heading=bibintoc]
 
-% Index (Volume I only)
+% Index
 \printindex
 
 \end{document}
