@@ -38,6 +38,10 @@
             # Create cache directory for latexmk
             mkdir -p .cache/texmf-var .build
 
+            # Pre-create output subdirectories for aux files (required by latexmk -outdir)
+            find contents -type d -exec mkdir -p .build/{} \;
+            mkdir -p .build/contents/shared
+
             # Run latexmk - output goes to .build
             env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
               latexmk -interaction=nonstopmode -pdf -pdflatex \

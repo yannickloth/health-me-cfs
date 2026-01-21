@@ -22,6 +22,7 @@ This project uses custom subagents in `.claude/agents/`. Claude automatically de
 | `dictionary-manager` | haiku | LTeX warnings, medical terminology false positives |
 | `content-reviewer` | sonnet | Checking consistency, completeness, section coherence |
 | `style-naturalizer` | sonnet | AI-sounding text needs humanizing |
+| `literature-researcher` | sonnet | Finding citations, medical research, evidence verification |
 | `math-verifier` | opus | Verifying statistical analyses, calculations |
 | `logic-auditor` | opus | Circular reasoning, argument gaps, claim verification |
 

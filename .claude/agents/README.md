@@ -37,6 +37,7 @@ System prompt / instructions for the agent...
 |-------|----------|
 | `content-reviewer` | consistency, completeness, coherence |
 | `style-naturalizer` | AI-sounding text, robotic prose |
+| `literature-researcher` | finding citations, medical research, evidence verification |
 
 ### Opus (deep analysis)
 | Agent | Triggers |

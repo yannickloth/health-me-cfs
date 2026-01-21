@@ -346,3 +346,6 @@ result-*
 # direnv
 .direnv/
 .envrc.cache
+
+# Reference materials
+Literature/
