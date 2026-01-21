@@ -64,6 +64,37 @@ Immunoadsorption selectively removes immunoglobulins (including pathogenic autoa
 If GPCR autoantibodies drive symptoms and B cells continuously produce them, effective treatment may require both: (1) acute removal of existing autoantibodies via immunoadsorption or BC007, combined with (2) depletion of autoreactive B cells to prevent regeneration. This could explain why rituximab (B-cell depleting) showed initial promise but failed in larger trials---if circulating autoantibodies persist for months after B-cell depletion, symptom improvement would be delayed beyond trial endpoints. A protocol combining immunoadsorption followed by B-cell depletion, then monitoring autoantibody titers and symptoms, could test this hypothesis.
 \end{speculation}
 
+\subsubsection{Daratumumab: Targeting Plasma Cells (2025 Pilot Trial)}
+
+A groundbreaking 2025 pilot study published in \textit{Frontiers in Medicine} tested daratumumab, an anti-CD38 monoclonal antibody that targets plasmablasts and long-lived plasma cells---a novel approach distinct from prior B-cell targeting strategies.
+
+\paragraph{Rationale}
+Unlike rituximab (which targets CD20 on B cells), daratumumab depletes plasma cells that actively produce autoantibodies. The hypothesis: if GPCR autoantibodies emerge after infection and are continuously secreted by long-lived plasma cells in bone marrow or gut wall, targeting these cells directly may be more effective than depleting their B-cell precursors.
+
+\paragraph{Study Design and Results}
+\begin{itemize}
+    \item \textbf{Participants}: 10 female patients with moderate-to-severe ME/CFS
+    \item \textbf{Intervention}: Subcutaneous daratumumab 1800~mg (4--7 injections over 12 weeks)
+    \item \textbf{Response rate}: 6 of 10 patients (60\%) showed marked improvement
+    \item \textbf{Physical function}: SF-36 Physical Function increased from 25.9 to 55.0 at 8--9 months ($p$=0.002)
+    \item \textbf{Symptom burden}: DePaul Questionnaire scores dropped from 72.3 to 43.1 ($p$=0.002)
+    \item \textbf{Activity levels}: Mean daily steps increased from 3,359 to 5,862; five responders sustained $>$10,000 daily steps
+    \item \textbf{Sustained response}: Five of six responders maintained improvement with SF-36 scores of 80--95
+\end{itemize}
+
+\paragraph{Safety}
+All planned treatments were administered with no serious adverse events. Serum IgG showed transient reduction (54\% in responders vs 40\% in non-responders), suggesting plasma cell contribution to symptoms.
+
+\paragraph{Predictors}
+Low baseline natural killer (NK) cell count was significantly associated with lack of clinical improvement, suggesting immune dysregulation patterns may predict response.
+
+\paragraph{Implications}
+This trial provides the strongest evidence to date for a plasma cell-mediated autoimmune mechanism in a subset of ME/CFS patients. The contrast with rituximab failures is instructive: rituximab targets B cells but not established plasma cells, so circulating autoantibodies persist for months even after B-cell depletion. Daratumumab's success suggests that \textbf{the continuous stream of autoantibodies from long-lived plasma cells}---not the B cells themselves---may be the critical driver.
+
+\begin{open_question}[Identifying the Autoimmune Subgroup]
+Which ME/CFS patients are most likely to respond to plasma cell depletion? The 60\% response rate suggests heterogeneity. Potential biomarkers for patient selection include: elevated GPCR autoantibody titers, post-infectious onset pattern, specific HLA types, or degree of IgG reduction post-treatment. Randomized controlled trials with biomarker stratification are urgently needed.
+\end{open_question}
+
 \subsection{Cytokine Modulation}
 
 Cytokine abnormalities are well-documented in ME/CFS, though patterns vary between patients and disease stages.
@@ -169,6 +200,46 @@ A multi-component mitochondrial support protocol might include:
 \end{itemize}
 The rationale: single-agent approaches may fail because the electron transport chain requires all components functional. Simultaneously supporting multiple elements while stimulating biogenesis of new mitochondria might achieve what individual supplements cannot.
 \end{speculation}
+
+\subsection{NAD$^+$ Precursor Therapy}
+
+Given the evidence for NAD$^+$ metabolism abnormalities in ME/CFS (see Chapter~\ref{ch:energy-metabolism}), supplementation with NAD$^+$ precursors represents a promising therapeutic avenue.
+
+\subsubsection{Nicotinamide Riboside (NR)}
+
+Nicotinamide riboside is a form of vitamin B3 that serves as a precursor to NAD$^+$, bypassing rate-limiting steps in the salvage pathway.
+
+\paragraph{Mechanism}
+NAD$^+$ is essential for:
+\begin{itemize}
+    \item Mitochondrial electron transport chain function
+    \item Sirtuin activation (cellular stress response, mitophagy)
+    \item DNA repair via PARP enzymes
+    \item Cellular redox balance
+\end{itemize}
+
+\paragraph{Clinical Evidence}
+A 2025 randomized controlled trial in Long COVID (which shares substantial symptom overlap with ME/CFS) evaluated NR at 2000~mg/day:
+\begin{itemize}
+    \item \textbf{Sample}: 58 participants with Long COVID randomized 2:1 to NR vs placebo
+    \item \textbf{NAD$^+$ response}: Levels increased 2.6- to 3.1-fold after 5--10 weeks of supplementation
+    \item \textbf{Cognitive outcomes}: Variable; overall group differences limited but many individuals showed encouraging improvements after $\geq$10 weeks
+    \item \textbf{Safety}: Well-tolerated at high doses (1000--2000~mg daily) with no significant adverse effects
+\end{itemize}
+
+Earlier research on oral NADH (a reduced form) in ME/CFS showed reductions in anxiety and maximum heart rate, though effects on fatigue and quality of life were inconsistent.
+
+\paragraph{Practical Considerations}
+\begin{itemize}
+    \item Commercial NR supplements are widely available
+    \item Typical doses: 300--1000~mg daily; research doses up to 2000~mg
+    \item Response may require 10+ weeks of consistent supplementation
+    \item Cost can be substantial for high-dose regimens
+\end{itemize}
+
+\subsubsection{Nicotinamide Mononucleotide (NMN)}
+
+NMN is another NAD$^+$ precursor, one step closer to NAD$^+$ in the biosynthetic pathway. Some researchers hypothesize it may be more efficient than NR, though comparative clinical trials are lacking. Similar safety profile and availability to NR.
 
 \subsection{Metabolic Modulators}
 
@@ -353,6 +424,356 @@ This sequential approach addresses the possibility that treating downstream prob
 \begin{open_question}[Identifying the Critical Intervention Point]
 In complex, multi-system illness, is there a ``keystone'' dysfunction that, if corrected, allows other systems to normalize? Or must multiple systems be addressed simultaneously? Identification of critical intervention points---perhaps through computational modeling of system interactions---could dramatically improve treatment efficiency.
 \end{open_question}
+
+\section{CPET-Derived Multi-Target Protocols}
+\label{sec:cpet-protocols}
+
+The objective demonstration of metabolic failure via two-day cardiopulmonary exercise testing~\cite{keller2024cpet} has catalyzed development of novel treatment protocols targeting the specific dysfunctions revealed: autonomic-mitochondrial coupling failure, prolonged recovery kinetics, and exercise-induced oxidative damage. This section presents integrated protocols derived from these findings.
+
+\subsection{The Autonomic-Metabolic Recovery Protocol}
+\label{subsec:autonomic-metabolic-protocol}
+
+\textbf{Rationale:} Keller et al.\ identified autonomic dysregulation as the primary driver of Day 2 CPET failure~\cite{keller2024cpet}. Walitt et al.\ documented central catecholamine deficiency~\cite{walitt2024deep}. Heng et al.\ showed cellular ATP depletion~\cite{heng2025mecfs}. These findings suggest a bidirectional feedback loop: catecholamine deficiency impairs autonomic control → poor tissue perfusion → mitochondrial oxidative stress → catecholamine enzyme damage → worsening autonomic function.
+
+\textbf{Hypothesis:} Breaking this loop requires simultaneous support for both autonomic neurotransmitter synthesis and mitochondrial protection.
+
+\subsubsection{Protocol Components}
+
+\paragraph{Catecholamine Support (Morning Administration)}
+
+\begin{itemize}
+    \item \textbf{L-tyrosine}: 1500--3000~mg upon waking (empty stomach for better absorption)
+    \begin{itemize}
+        \item Precursor for dopamine and norepinephrine synthesis
+        \item Lower doses (500--1000~mg) for patients sensitive to stimulation
+        \item Monitor for anxiety, jitteriness; reduce dose if occurs
+    \end{itemize}
+
+    \item \textbf{Cofactor support}:
+    \begin{itemize}
+        \item Vitamin B6 (pyridoxal-5-phosphate): 25--50~mg (required for aromatic amino acid decarboxylase)
+        \item Vitamin C: 1000~mg (required for dopamine $\beta$-hydroxylase)
+        \item Iron: If deficient, supplement to restore ferritin $>$50--75~ng/mL (required for tyrosine hydroxylase)
+        \item Copper: 1--2~mg if dietary intake inadequate (required for dopamine $\beta$-hydroxylase)
+    \end{itemize}
+
+    \item \textbf{BH4 support} (rate-limiting cofactor):
+    \begin{itemize}
+        \item \textit{Option 1}: Sapropterin (prescription BH4) 5--10~mg/kg/day if accessible
+        \item \textit{Option 2}: Methylfolate 1--5~mg + methylcobalamin 1--5~mg (supports BH4 recycling via DHFR pathway)
+        \item \textit{Option 3}: 5-MTHF + vitamin C combination (vitamin C regenerates oxidized BH4)
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Mitochondrial Protection (Split Dosing)}
+
+\begin{itemize}
+    \item \textbf{MitoQ} 10--20~mg morning:
+    \begin{itemize}
+        \item Mitochondria-targeted ubiquinone conjugated to lipophilic cation
+        \item Accumulates in inner mitochondrial membrane; scavenges ROS at source
+        \item Human trials show safety; may be superior to standard CoQ10 for oxidative stress
+    \end{itemize}
+
+    \item \textbf{N-acetylcysteine (NAC)} 600~mg twice daily (morning and afternoon):
+    \begin{itemize}
+        \item Cysteine donor for glutathione synthesis
+        \item Established safety profile; FDA-approved for acetaminophen overdose
+        \item Split dosing maintains glutathione throughout day
+    \end{itemize}
+
+    \item \textbf{Alpha-lipoic acid} 300--600~mg morning:
+    \begin{itemize}
+        \item Mitochondrial antioxidant; regenerates other antioxidants (glutathione, vitamins C/E)
+        \item Supports BH4 recycling
+        \item Use R-lipoic acid form for better bioavailability
+    \end{itemize}
+
+    \item \textbf{PQQ (pyrroloquinoline quinone)} 10--20~mg morning:
+    \begin{itemize}
+        \item Supports mitochondrial biogenesis via PGC-1$\alpha$ activation
+        \item May help replace damaged mitochondria over time
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Timing Rationale}
+
+\begin{itemize}
+    \item \textbf{Morning catecholamine support}: Aligns with natural circadian peak; supports daytime autonomic function
+    \item \textbf{Continuous antioxidant coverage}: NAC split dosing; MitoQ has 24-hour residence time
+    \item \textbf{Avoid evening stimulation}: Tyrosine/BH4 may impair sleep if taken late
+\end{itemize}
+
+\subsubsection{Expected Timeline and Outcomes}
+
+\begin{itemize}
+    \item \textbf{Weeks 1--2}: Possible initial stimulation from tyrosine; adjust dose as needed
+    \item \textbf{Weeks 4--8}: Gradual improvement in PEM recovery time, orthostatic tolerance, cognitive function
+    \item \textbf{Weeks 12--16}: If effective, may see improved baseline energy, reduced crash severity, shorter recovery periods
+    \item \textbf{Assessment}: Consider repeat two-day CPET at 6 months if accessible to quantify functional improvement
+\end{itemize}
+
+\subsubsection{Safety Considerations}
+
+\begin{itemize}
+    \item \textbf{Contraindications}:
+    \begin{itemize}
+        \item Tyrosine: hyperthyroidism, phenylketonuria (PKU), use with MAOIs
+        \item NAC: active peptic ulcer (theoretical risk), asthma (may trigger bronchospasm in rare cases)
+        \item BH4/methylfolate: may unmask B12 deficiency; ensure adequate B12 status first
+    \end{itemize}
+    \item \textbf{Drug interactions}:
+    \begin{itemize}
+        \item Tyrosine may potentiate sympathomimetics, thyroid hormones
+        \item NAC may reduce efficacy of nitroglycerin
+        \item Alpha-lipoic acid may lower blood glucose; monitor if diabetic
+    \end{itemize}
+    \item \textbf{Monitoring}: Baseline and periodic blood pressure, heart rate; symptom tracking
+\end{itemize}
+
+\subsubsection{Qualification}
+
+\begin{warning}[Speculative Protocol]
+This protocol is \textbf{highly speculative}. While each component has safety data and the mechanistic rationale is sound, the specific combination has not been tested in controlled trials. This represents an experimental approach for patients who have exhausted standard options and are working with knowledgeable physicians. It should not be considered standard of care.
+\end{warning}
+
+\subsection{The Mitochondrial Turnover Acceleration Protocol}
+\label{subsec:mito-turnover-protocol}
+
+\textbf{Rationale:} The 13-day recovery period after CPET~\cite{keller2024cpet} approximates mitochondrial turnover time in muscle (10--15 days). Hypothesis: exercise-induced ROS damage creates dysfunctional mitochondria that must be physically replaced. Accelerating both removal (mitophagy) and regeneration (biogenesis) might shorten recovery time.
+
+\subsubsection{Protocol Components}
+
+\paragraph{Mitophagy Enhancement (Evening Dosing)}
+
+\begin{itemize}
+    \item \textbf{Urolithin A} 500--1000~mg evening:
+    \begin{itemize}
+        \item Directly activates mitophagy via PINK1/Parkin pathway
+        \item Usually derived from gut bacteria converting ellagitannins (from pomegranates/nuts)
+        \item Direct supplementation bypasses need for microbial conversion
+        \item Human trials in aging adults show improved mitochondrial function, muscle endurance
+        \item Proprietary formulation (Mitopure®) has most human safety/efficacy data
+    \end{itemize}
+
+    \item \textbf{Spermidine} 1--3~mg evening:
+    \begin{itemize}
+        \item General autophagy inducer
+        \item Found naturally in wheat germ, soybeans, aged cheese
+        \item Human longevity trials show safety
+        \item Evening dosing aligns with natural nocturnal autophagy peak
+    \end{itemize}
+
+    \item \textbf{Time-restricted eating} (optional, if tolerated):
+    \begin{itemize}
+        \item 14--16 hour daily fast (e.g., 7 PM to 9--11 AM)
+        \item Stimulates autophagy/mitophagy during fasting window
+        \item CAUTION: Many ME/CFS patients cannot tolerate fasting due to hypoglycemia symptoms
+        \item Only attempt if already metabolically flexible; discontinue if worsens symptoms
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Mitochondrial Biogenesis Support (Morning Dosing)}
+
+\begin{itemize}
+    \item \textbf{NAD$^+$ precursors}:
+    \begin{itemize}
+        \item \textit{Option 1}: NMN (nicotinamide mononucleotide) 500--1000~mg morning
+        \item \textit{Option 2}: NR (nicotinamide riboside) 500--1000~mg morning
+        \item Activate sirtuins (SIRT1, SIRT3) and PGC-1$\alpha$ (master regulator of mitochondrial biogenesis)
+        \item Human trials show NAD+ elevation, improved muscle function
+        \item Morning dosing supports daytime energy metabolism
+    \end{itemize}
+
+    \item \textbf{Resveratrol} 200--500~mg morning (optional):
+    \begin{itemize}
+        \item SIRT1 activator; synergizes with NAD+ precursors
+        \item Enhances PGC-1$\alpha$ activity
+        \item Use micronized formulation for better absorption
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Complementary Interventions}
+
+\begin{itemize}
+    \item \textbf{Resistance training} (if tolerated):
+    \begin{itemize}
+        \item In healthy individuals, resistance exercise stimulates mitochondrial biogenesis
+        \item In ME/CFS, requires extreme caution: isometric holds (5--10 seconds) below PEM threshold
+        \item Heart rate must stay below AT - 15 bpm
+        \item Frequency: no more than every 3--4 days initially
+        \item This is HIGH RISK; only for stable mild-moderate patients
+    \end{itemize}
+
+    \item \textbf{Cold exposure} (if tolerated):
+    \begin{itemize}
+        \item Mild cold activates PGC-1$\alpha$ via $\beta$-adrenergic signaling
+        \item Options: cold showers (gradually progressing from 30 seconds), cryotherapy
+        \item CAUTION: Cold may exacerbate symptoms in some patients; discontinue if adverse
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Expected Timeline}
+
+\begin{itemize}
+    \item \textbf{Weeks 1--4}: Mitophagy may initially increase fatigue as damaged mitochondria are cleared
+    \item \textbf{Weeks 8--12}: Biogenesis begins to dominate; gradual energy improvement
+    \item \textbf{Weeks 12--16}: If effective, reduced PEM severity, faster recovery from unavoidable exertion
+    \item \textbf{Assessment}: Repeat two-day CPET at 6 months to measure objective improvement in Day 2 performance
+\end{itemize}
+
+\subsubsection{Safety and Qualification}
+
+\begin{itemize}
+    \item \textbf{Safety}: Urolithin A, spermidine, NAD+ precursors have human safety data
+    \item \textbf{Caution}: Stimulating autophagy requires cellular energy; may initially worsen symptoms in severe patients
+    \item \textbf{Recommendation}: Start at low doses (half stated amounts), titrate slowly over weeks
+    \item \textbf{Severe patients}: May not tolerate this approach; prioritize stabilization first
+\end{itemize}
+
+\begin{warning}[Experimental Protocol]
+This protocol is \textbf{speculative}. The hypothesis that accelerating mitochondrial turnover will shorten ME/CFS recovery time is logical but unproven. The interventions listed have safety data from other populations but have not been tested specifically for ME/CFS post-exertional recovery.
+\end{warning}
+
+\subsection{The Post-Exertion Emergency Protocol}
+\label{subsec:post-exertion-protocol}
+
+\textbf{Rationale:} For patients who must undergo unavoidable exertion (medical procedures, essential activities), can targeted interventions immediately post-exertion reduce PEM severity or shorten duration?
+
+\textbf{Hypothesis:} The 13-day recovery reflects cumulative damage + impaired repair. Aggressive antioxidant support and vagal stimulation immediately post-exertion might mitigate damage and accelerate recovery.
+
+\subsubsection{Immediate Post-Exertion (Within 1--2 Hours)}
+
+\begin{itemize}
+    \item \textbf{High-dose antioxidants}:
+    \begin{itemize}
+        \item NAC 1200--1800~mg (acute oxidative stress buffer)
+        \item Vitamin C 2000--3000~mg (regenerates other antioxidants)
+        \item Alpha-lipoic acid 600~mg
+    \end{itemize}
+
+    \item \textbf{Vagal stimulation} (activate parasympathetic recovery):
+    \begin{itemize}
+        \item Deep breathing: 6 breaths/minute for 10--20 minutes (activates vagal reflexes)
+        \item Cold water face immersion: 30--60 seconds (triggers dive reflex, strong vagal activation)
+        \item Transcutaneous auricular VNS device if available: 30--60 minutes
+    \end{itemize}
+
+    \item \textbf{Complete rest}:
+    \begin{itemize}
+        \item Horizontal position, minimal stimulation
+        \item No additional cognitive or physical demands
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Days 1--5 Post-Exertion}
+
+\begin{itemize}
+    \item \textbf{Continue antioxidant support}: NAC 600~mg twice daily, vitamin C 1000--2000~mg daily
+    \item \textbf{Anti-inflammatory support}: Omega-3 fatty acids 2--4~g EPA+DHA daily, curcumin 500--1000~mg daily
+    \item \textbf{Mitophagy enhancement}: Urolithin A 500--1000~mg evening (clear damaged mitochondria)
+    \item \textbf{Vagal toning}: Daily breathing exercises, humming/singing, cold exposure if tolerated
+    \item \textbf{Sleep optimization}: Prioritize sleep architecture (melatonin 0.5--3~mg, magnesium glycinate 300--400~mg evening)
+\end{itemize}
+
+\subsubsection{Monitoring}
+
+\begin{itemize}
+    \item Track symptom severity daily (0--10 scale for fatigue, cognitive function, pain)
+    \item Note PEM onset time, peak severity, resolution
+    \item If multiple trials, compare PEM severity/duration with vs. without protocol
+\end{itemize}
+
+\subsubsection{Qualification}
+
+\begin{warning}[Unproven Emergency Intervention]
+This protocol is \textbf{entirely speculative}. No studies have tested whether post-exertion interventions reduce ME/CFS PEM. The rationale is based on known antioxidant and vagal effects, but efficacy for PEM prevention is unknown. This is offered for desperate situations (unavoidable medical procedures) where patients want to try something despite lack of evidence. It is not a substitute for proper pacing, which remains the evidence-based approach.
+\end{warning}
+
+\subsection{Personalized Metabolomics-Guided Protocol (Future Direction)}
+\label{subsec:metabolomics-protocol}
+
+\textbf{Concept:} Use post-exercise metabolomics to identify individual metabolic bottlenecks, then target repletion.
+
+\textbf{Proposed research protocol:}
+\begin{enumerate}
+    \item Baseline metabolomics (plasma/serum) before CPET
+    \item Serial samples: 30 min, 2 hours, 6 hours post-CPET
+    \item Identify metabolites showing $>$30\% decline
+    \item Cluster patients by depletion patterns
+    \item Targeted repletion trial: provide individualized supplementation
+    \item Measure whether Day 2 CPET deterioration is reduced
+\end{enumerate}
+
+\textbf{Hypothetical examples:}
+\begin{itemize}
+    \item \textbf{Carnitine depletion pattern}: Supplement with L-carnitine 2--3~g/day
+    \item \textbf{Glutathione depletion pattern}: Aggressive NAC + glycine + selenium
+    \item \textbf{Purine nucleotide depletion}: D-ribose 5--15~g/day + magnesium
+    \item \textbf{Tryptophan/kynurenine imbalance}: Consider IDO inhibition (experimental)
+\end{itemize}
+
+\textbf{Current status:} Not clinically available. Metabolomics is expensive and requires specialized facilities. However, if pilot studies show promise, standardized metabolic phenotyping could eventually become accessible.
+
+\subsection{Clinical Implementation Guidance}
+
+\subsubsection{Patient Selection}
+
+\begin{itemize}
+    \item \textbf{Autonomic-Metabolic Protocol}: Mild-to-moderate patients; orthostatic symptoms; cognitive dysfunction
+    \item \textbf{Mitochondrial Turnover Protocol}: Patients with severe PEM, prolonged recovery; not for severely affected patients initially
+    \item \textbf{Post-Exertion Emergency}: Any severity when unavoidable exertion necessary
+    \item \textbf{Metabolomics-Guided}: Research setting only currently
+\end{itemize}
+
+\subsubsection{Sequencing}
+
+For patients trying multiple approaches:
+\begin{enumerate}
+    \item Start with lowest-risk interventions: circadian stabilization, vagal toning, basic antioxidants
+    \item Add Autonomic-Metabolic Protocol after 4--8 weeks if tolerated
+    \item Consider Mitochondrial Turnover Protocol after 12 weeks if stable
+    \item Reserve Post-Exertion Emergency for specific situations
+\end{enumerate}
+
+\subsubsection{Monitoring and Adjustment}
+
+\begin{itemize}
+    \item Symptom diaries: daily ratings of energy, PEM, cognitive function
+    \item Heart rate variability tracking (if accessible): indicates autonomic function improvement
+    \item Functional measures: steps per day, activity duration before PEM
+    \item Blood work: Baseline and 3-month CBC, CMP, iron studies, homocysteine (if using methylated B vitamins)
+    \item Discontinue or reduce dose if: increased anxiety, insomnia, worsening symptoms beyond initial adjustment period
+\end{itemize}
+
+\subsubsection{Integration with Standard Care}
+
+These protocols complement, not replace:
+\begin{itemize}
+    \item Strict pacing (the evidence-based foundation)
+    \item Sleep optimization
+    \item Treatment of comorbidities (POTS, MCAS, etc.)
+    \item Nutritional adequacy
+    \item Psychological support
+\end{itemize}
+
+\subsection{Research Priorities}
+
+To validate and refine these protocols:
+\begin{enumerate}
+    \item \textbf{Pilot safety trial}: Autonomic-Metabolic Protocol in 20--30 ME/CFS patients; primary outcome: safety and tolerability; secondary: symptom measures at 12 weeks
+
+    \item \textbf{Mechanistic study}: Serial biomarkers (catecholamines, oxidative stress markers, mitochondrial function assays) before/during/after protocol; correlate with symptom response
+
+    \item \textbf{Two-day CPET as outcome}: Repeat CPET at 6 months; measure if Day 2 deterioration is reduced in treatment arm vs. control
+
+    \item \textbf{Metabolomics phenotyping}: Post-exercise metabolomics in 50--100 patients; identify metabolic subgroups; test if subgroup-specific interventions work better than one-size-fits-all
+
+    \item \textbf{Comparative effectiveness}: Autonomic-Metabolic Protocol vs. Mitochondrial Turnover Protocol vs. combined; which works best for whom?
+\end{enumerate}
+
+The two-day CPET provides the objective outcome measure that has long been lacking in ME/CFS research, making these trials feasible and interpretable.
+
 
 \section{Evaluating Emerging Therapies}
 \label{sec:evaluating-therapies}
