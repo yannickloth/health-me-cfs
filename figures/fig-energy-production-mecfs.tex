@@ -1,0 +1,84 @@
+% Figure: Impaired Energy Production in ME/CFS
+% Multiple dysfunction points reduce ATP and cause system-wide failures
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.68, every node/.style={scale=0.68},
+    % Styles
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=3cm, align=center, minimum height=1cm},
+    arrow/.style={-latex, very thick, green!70!black},
+    impaired-arrow/.style={-latex, very thick, red!70!black},
+    cascade-arrow/.style={-latex, thick, orange!80!black, dashed},
+    note/.style={font=\scriptsize\itshape, text width=2.8cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, red!70!black] at (0, 9) {ME/CFS: Impaired Energy Production};
+
+% LEFT SIDE: Impaired pathway
+\begin{scope}[xshift=-4cm]
+    % Glucose (preserved)
+    \node[normal] (glucose) at (0, 7) {Glucose};
+
+    % Glycolysis (relatively preserved)
+    \node[normal] (glycolysis) at (0, 5.2) {Glycolysis\\(preserved)};
+    \draw[arrow] (glucose) -- (glycolysis);
+
+    % Pyruvate - IMPAIRED
+    \node[impaired] (pyruvate) at (0, 3.2) {Pyruvate handling\\{\color{red}\textbf{IMPAIRED}}};
+    \draw[impaired-arrow] (glycolysis) -- (pyruvate);
+    \node[note, left=0.3cm of pyruvate, text=red!70!black] {Early lactate\\shift};
+
+    % Krebs - IMPAIRED
+    \node[impaired] (krebs) at (0, 1.2) {Krebs Cycle\\{\color{red}\textbf{Aconitase damaged}}};
+    \draw[impaired-arrow] (pyruvate) -- (krebs);
+    \node[note, left=0.3cm of krebs, text=red!70!black] {ROS damage\\to enzymes};
+
+    % ETC - IMPAIRED
+    \node[impaired] (etc) at (0, -0.8) {ETC\\{\color{red}\textbf{Complex I/III leak}}};
+    \draw[impaired-arrow] (krebs) -- (etc);
+    \node[note, left=0.3cm of etc, text=red!70!black] {5--10\%\\electron leak};
+
+    % ATP - REDUCED
+    \node[impaired, fill=red!25] (atp) at (0, -3) {\textbf{REDUCED ATP}\\$\sim$50--70\% normal};
+    \draw[impaired-arrow] (etc) -- (atp);
+\end{scope}
+
+% RIGHT SIDE: System failures from ATP deficit
+\begin{scope}[xshift=4.5cm]
+    % Central deficit node
+    \node[pathological, minimum width=3.5cm] (deficit) at (0, 4) {\textbf{ATP DEFICIT}\\Cellular energy crisis};
+
+    % System failures
+    \node[pathological] (muscle) at (-2.2, 1.5) {\textbf{Muscle}\\Weakness\\PEM\\Lactate};
+
+    \node[pathological] (brain) at (2.2, 1.5) {\textbf{Brain}\\Fog\\Memory\\Processing};
+
+    \node[pathological] (immune) at (-2.2, -1) {\textbf{Immune}\\T-cell failure\\NK impaired};
+
+    \node[pathological] (cardio) at (2.2, -1) {\textbf{Cardiac}\\Ion pumps\\Arrhythmia};
+
+    \node[pathological] (autonomic) at (0, -3.2) {\textbf{Autonomic}\\Catecholamines\\POTS};
+
+    % Cascade arrows
+    \draw[cascade-arrow] (deficit) -- (muscle);
+    \draw[cascade-arrow] (deficit) -- (brain);
+    \draw[cascade-arrow] (deficit) -- (immune);
+    \draw[cascade-arrow] (deficit) -- (cardio);
+    \draw[cascade-arrow] (deficit) -- (autonomic);
+\end{scope}
+
+% Arrow connecting left to right
+\draw[cascade-arrow, line width=2pt] (-1.5, -3) -- (1.8, 4);
+
+% Key point box
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -5.5) {
+\textbf{Dysfunction points:} (1) Early lactate shift at pyruvate; (2) Aconitase inactivation by ROS; (3) Complex I/III electron leakage. \textbf{Result:} Every ATP-dependent system fails---this is not ``tiredness'' but active cellular energy crisis.
+};
+
+\end{tikzpicture}
+\caption{ME/CFS energy production dysfunction and systemic consequences.}
+\label{fig:energy-cascade-mecfs}
+\end{figure}

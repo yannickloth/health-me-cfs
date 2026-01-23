@@ -1,0 +1,92 @@
+% Figure: HPA Axis Dysregulation in ME/CFS
+% Blunted response, excessive feedback, systemic consequences
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.60, every node/.style={scale=0.60},
+    % Styles
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
+    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.5cm, align=center, minimum height=0.85cm},
+    impaired-arrow/.style={-latex, very thick, red!70!black},
+    feedback/.style={-latex, thick, red!70!black, dashed},
+    cascade-arrow/.style={-latex, thick, orange!80!black, dashed},
+    note/.style={font=\scriptsize\itshape, text width=2.2cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, red!70!black] at (0, 9.5) {ME/CFS: HPA Axis Dysregulation};
+
+% LEFT SIDE: Impaired pathway
+\begin{scope}[xshift=-4.5cm]
+    % Stressor
+    \node[normal] (stressor) at (0, 7.5) {Stressor};
+
+    % Hypothalamus - blunted
+    \node[impaired] (hypothalamus) at (0, 5.5) {Hypothalamus\\{\color{red}\textbf{Blunted CRH}}\\{\color{red}Hypersensitive feedback}};
+    \draw[impaired-arrow] (stressor) -- (hypothalamus);
+
+    % Pituitary - impaired
+    \node[impaired] (pituitary) at (0, 3.3) {Pituitary\\{\color{red}\textbf{Low ACTH}}\\{\color{red}Reduced reserve}};
+    \draw[impaired-arrow] (hypothalamus) -- (pituitary);
+
+    % Adrenal - atrophy
+    \node[impaired] (adrenal) at (0, 1.1) {Adrenal Cortex\\{\color{red}\textbf{Atrophy/exhaustion}}\\{\color{red}Low output}};
+    \draw[impaired-arrow] (pituitary) -- (adrenal);
+    \node[note, left=0.2cm of adrenal, text=red!70!black] {Flattened\\rhythm:\\low all day};
+
+    % Low cortisol
+    \node[impaired, fill=red!25] (cortisol) at (0, -1.3) {\textbf{Low Cortisol}\\{\color{red}Can't mobilize energy}\\{\color{red}Can't suppress inflammation}};
+    \draw[impaired-arrow] (adrenal) -- (cortisol);
+
+    % Excessive feedback
+    \node[impaired, text width=2.5cm] (feedback-box) at (3.5, 3.3) {\textbf{Excessive}\\  \textbf{Feedback}\\Over-suppression};
+    \draw[feedback, bend left=20] (cortisol.east) to (feedback-box.south);
+    \draw[feedback] (feedback-box) -- (hypothalamus);
+    \draw[feedback] (feedback-box) -- (pituitary);
+
+    % No recovery
+    \node[impaired] (no-recovery) at (0, -3.5) {No Resolution\\{\color{red}Persistent dysfunction}};
+    \draw[impaired-arrow] (cortisol) -- (no-recovery);
+\end{scope}
+
+% RIGHT SIDE: System failures
+\begin{scope}[xshift=4.5cm]
+    % Central dysfunction
+    \node[pathological, minimum width=3.2cm] (hpa) at (0, 5) {\textbf{HPA AXIS}\\  \textbf{DYSFUNCTION}};
+
+    % Six consequences in 2x3 grid
+    \node[pathological] (stress) at (-2, 2.5) {\textbf{Stress}\\  \textbf{Intolerance}\\Can't cope\\Crashes};
+
+    \node[pathological] (inflam) at (2, 2.5) {\textbf{Inflammation}\\  \textbf{Unchecked}\\No cortisol brake\\Cytokines high};
+
+    \node[pathological] (metabolic) at (-2, 0) {\textbf{Metabolic}\\Hypoglycemia\\Poor energy\\mobilization};
+
+    \node[pathological] (autonomic) at (2, 0) {\textbf{Autonomic}\\Orthostatic\\intolerance\\Low volume};
+
+    \node[pathological] (mood) at (-2, -2.5) {\textbf{Mood}\\Depression\\Anxiety\\Brain fog};
+
+    \node[pathological] (immune) at (2, -2.5) {\textbf{Immune}\\Th1/Th2\\imbalance\\Autoimmunity};
+
+    % Cascade arrows
+    \draw[cascade-arrow] (hpa) -- (stress);
+    \draw[cascade-arrow] (hpa) -- (inflam);
+    \draw[cascade-arrow] (hpa) -- (metabolic);
+    \draw[cascade-arrow] (hpa) -- (autonomic);
+    \draw[cascade-arrow] (hpa) -- (mood);
+    \draw[cascade-arrow] (hpa) -- (immune);
+
+    % Feedback from inflammation
+    \draw[cascade-arrow, bend left=30, line width=1.5pt] (inflam.north) to (hpa.east);
+    \node[font=\scriptsize, red!50!black, text width=1.5cm, align=center] at (3.5, 4) {Inflammation\\worsens HPA};
+\end{scope}
+
+% Key point box
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -6.5) {
+\textbf{Blunted stress response:} Hypersensitive negative feedback over-suppresses the HPA axis. Low cortisol means inability to mobilize energy for stress, unchecked inflammation, metabolic instability, autonomic dysfunction, and mood problems. Inflammation feeds back to worsen HPA function.
+};
+
+\end{tikzpicture}
+\caption{ME/CFS HPA axis dysregulation with blunted response and systemic consequences.}
+\label{fig:hpa-axis-mecfs}
+\end{figure}

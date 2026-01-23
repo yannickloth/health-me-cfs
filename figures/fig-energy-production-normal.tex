@@ -1,0 +1,57 @@
+% Figure: Normal Cellular Energy Production
+% How healthy cells produce ATP through glycolysis, Krebs cycle, and oxidative phosphorylation
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75},
+    % Styles
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4cm, align=center, minimum height=1.2cm},
+    output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4cm, align=center, minimum height=1.2cm},
+    arrow/.style={-latex, very thick, green!70!black},
+    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, green!70!black] at (0, 9) {Normal Cellular Energy Production};
+
+% Glucose input
+\node[process] (glucose) at (0, 7.5) {\textbf{Glucose}\\(from food digestion)};
+
+% Glycolysis
+\node[process] (glycolysis) at (0, 5.5) {\textbf{Glycolysis}\\(in cytosol)};
+\draw[arrow] (glucose) -- (glycolysis);
+\node[note, right=1cm of glycolysis] {Produces:\\2 ATP\\2 NADH\\2 Pyruvate};
+
+% Pyruvate conversion
+\node[process] (pyruvate) at (0, 3.5) {\textbf{Pyruvate $\rightarrow$ Acetyl-CoA}\\(enters mitochondria)};
+\draw[arrow] (glycolysis) -- (pyruvate);
+
+% Krebs Cycle
+\node[process] (krebs) at (0, 1.5) {\textbf{Krebs Cycle}\\(mitochondrial matrix)};
+\draw[arrow] (pyruvate) -- (krebs);
+\node[note, right=1cm of krebs] {Produces:\\3 NADH, FADH\textsubscript{2}\\GTP per cycle};
+
+% Electron Transport Chain
+\node[process] (etc) at (0, -0.5) {\textbf{Electron Transport Chain}\\(Complexes I--IV)};
+\draw[arrow] (krebs) -- (etc);
+\node[note, right=1cm of etc] {Electron leak:\\$<$2\% normal};
+
+% ATP output
+\node[output] (atp) at (0, -2.7) {\textbf{30--32 ATP per glucose}\\Abundant cellular energy};
+\draw[arrow] (etc) -- (atp);
+
+% Key point box
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -5) {
+\textbf{Key points:}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+\item Efficient conversion of glucose to ATP
+\item Minimal electron leakage ($<$2\%) in healthy mitochondria
+\item NADH and FADH\textsubscript{2} carry electrons to the ETC
+\item Brain uses 20\% of total ATP production at rest
+\end{itemize}
+};
+
+\end{tikzpicture}
+\caption{Normal cellular energy production pathway.}
+\label{fig:energy-cascade-normal}
+\end{figure}

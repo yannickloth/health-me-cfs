@@ -1,0 +1,81 @@
+% Figure: Tryptophan-Kynurenine Dysregulation in ME/CFS
+% Inflammation drives tryptophan away from serotonin, toxic metabolites accumulate
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.62, every node/.style={scale=0.62},
+    % Styles
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3cm, align=center, minimum height=0.9cm},
+    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=3cm, align=center, minimum height=0.9cm},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.6cm, align=center, minimum height=0.9cm},
+    arrow/.style={-latex, very thick, green!70!black},
+    impaired-arrow/.style={-latex, very thick, red!70!black},
+    cascade-arrow/.style={-latex, thick, orange!80!black, dashed},
+    note/.style={font=\scriptsize\itshape, text width=2.3cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, red!70!black] at (0, 9) {ME/CFS: Tryptophan Pathway Dysregulation};
+
+% TOP: Dysregulated pathway
+\begin{scope}[yshift=5cm]
+    % Tryptophan
+    \node[normal] (trp) at (0, 2.5) {Tryptophan};
+
+    % LEFT: Serotonin - STARVED
+    \node[impaired] (tph) at (-4, 0) {TPH (1\%)\\{\color{red}\textbf{Starved}}\\{\color{red}\textbf{BH\textsubscript{4} depleted}}};
+    \draw[impaired-arrow, thin] (trp) -- node[above left, font=\scriptsize] {1\%} (tph);
+
+    \node[impaired, fill=red!25] (serotonin) at (-4, -2.2) {\textbf{Serotonin}\\{\color{red}SEVERELY LOW}};
+    \draw[impaired-arrow] (tph) -- (serotonin);
+
+    % RIGHT: Kynurenine - HYPERACTIVE
+    \node[impaired] (ido) at (4, 0) {IDO (99\%)\\{\color{red}\textbf{Inflammation-driven}}\\{\color{red}\textbf{IFN-$\gamma$ activated}}};
+    \draw[impaired-arrow, line width=2.5pt] (trp) -- node[above right, font=\scriptsize] {99\%} (ido);
+
+    \node[impaired] (kyn) at (4, -2.2) {Kynurenine\\{\color{red}ELEVATED}};
+    \draw[impaired-arrow] (ido) -- (kyn);
+
+    % Quinolinic acid - TOXIC
+    \node[impaired, fill=red!30] (quin) at (4, -4.2) {\textbf{Quinolinic Acid}\\{\color{red}TOXIC LEVELS}};
+    \draw[impaired-arrow, line width=2pt] (kyn) -- (quin);
+\end{scope}
+
+% BOTTOM: Dual pathology consequences
+\begin{scope}[yshift=-4cm]
+    % Serotonin deficit consequences (left)
+    \node[pathological] (sero-def) at (-5, 2) {\textbf{SEROTONIN}\\  \textbf{DEFICIT}};
+
+    \node[pathological] (mood) at (-6.5, -0.5) {\textbf{Mood}\\Depression\\Anxiety};
+    \node[pathological] (sleep) at (-5, -0.5) {\textbf{Sleep}\\Insomnia\\Non-restorative};
+    \node[pathological] (pain) at (-3.5, -0.5) {\textbf{Pain}\\Hyperalgesia\\Allodynia};
+
+    \draw[cascade-arrow] (sero-def) -- (mood);
+    \draw[cascade-arrow] (sero-def) -- (sleep);
+    \draw[cascade-arrow] (sero-def) -- (pain);
+
+    % Quinolinic acid consequences (right)
+    \node[pathological] (quin-tox) at (5, 2) {\textbf{QUINOLINIC}\\  \textbf{TOXICITY}};
+
+    \node[pathological] (excito) at (3.5, -0.5) {\textbf{Excitotoxicity}\\NMDA\\Ca\textsuperscript{2+} influx};
+    \node[pathological] (neuroinf) at (5, -0.5) {\textbf{Neuro-}\\  \textbf{inflammation}\\Microglia};
+    \node[pathological] (white) at (6.5, -0.5) {\textbf{White matter}\\Oligodendrocyte\\death};
+
+    \draw[cascade-arrow] (quin-tox) -- (excito);
+    \draw[cascade-arrow] (quin-tox) -- (neuroinf);
+    \draw[cascade-arrow] (quin-tox) -- (white);
+\end{scope}
+
+% Arrows from pathway to consequences
+\draw[cascade-arrow, line width=1.5pt] (-4, 0.3) -- (-5, -1.5);
+\draw[cascade-arrow, line width=1.5pt] (4, -1.5) -- (5, -1.5);
+
+% Key point box
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -7) {
+\textbf{Dual pathology:} Inflammation activates IDO, stealing 99\% of tryptophan for kynurenine pathway. Result: (1) Serotonin starvation causes mood, sleep, and pain problems; (2) Quinolinic acid reaches neurotoxic levels causing NMDA excitotoxicity and neuroinflammation.
+};
+
+\end{tikzpicture}
+\caption{ME/CFS tryptophan dysregulation causing serotonin deficit and quinolinic acid toxicity.}
+\label{fig:tryptophan-mecfs}
+\end{figure}

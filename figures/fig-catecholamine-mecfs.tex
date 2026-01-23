@@ -1,0 +1,90 @@
+% Figure: Catecholamine Synthesis Failure in ME/CFS
+% Multiple bottlenecks reduce norepinephrine/epinephrine production
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.65, every node/.style={scale=0.65},
+    % Styles
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3cm, align=center, minimum height=0.9cm},
+    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=3cm, align=center, minimum height=0.9cm},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.9cm},
+    arrow/.style={-latex, very thick, green!70!black},
+    impaired-arrow/.style={-latex, very thick, red!70!black},
+    cascade-arrow/.style={-latex, thick, orange!80!black, dashed},
+    note/.style={font=\scriptsize\itshape, text width=2.5cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, red!70!black] at (0, 9) {ME/CFS: Catecholamine Synthesis Failure};
+
+% LEFT SIDE: Impaired pathway
+\begin{scope}[xshift=-4cm]
+    % Tyrosine (normal)
+    \node[normal] (tyrosine) at (0, 7) {Tyrosine};
+
+    % Bottleneck 1: TH impaired
+    \node[impaired] (th) at (0, 5) {Tyrosine Hydroxylase\\{\color{red}\textbf{ATP-limited}}\\{\color{red}\textbf{BH\textsubscript{4} depleted}}};
+    \draw[impaired-arrow] (tyrosine) -- (th);
+    \node[note, left=0.2cm of th, text=red!70!black] {Bottleneck 1:\\Energy deficit};
+
+    % L-DOPA (reduced)
+    \node[impaired] (ldopa) at (0, 3) {L-DOPA\\{\color{red}reduced}};
+    \draw[impaired-arrow] (th) -- (ldopa);
+
+    % DDC (may be impaired)
+    \node[impaired] (ddc) at (0, 1.2) {DOPA Decarboxylase\\{\color{red}B\textsubscript{6} deficiency?}};
+    \draw[impaired-arrow] (ldopa) -- (ddc);
+
+    % Dopamine (reduced)
+    \node[impaired] (dopamine) at (0, -0.6) {Dopamine\\{\color{red}reduced}};
+    \draw[impaired-arrow] (ddc) -- (dopamine);
+
+    % Bottleneck 2: DBH impaired
+    \node[impaired] (dbh) at (0, -2.4) {Dopamine $\beta$-Hydroxylase\\{\color{red}\textbf{Vitamin C depleted}}};
+    \draw[impaired-arrow] (dopamine) -- (dbh);
+    \node[note, left=0.2cm of dbh, text=red!70!black] {Bottleneck 2:\\Cofactor depletion};
+
+    % Severely reduced outputs
+    \node[impaired, fill=red!25] (ne) at (0, -4.4) {\textbf{Norepinephrine}\\{\color{red}SEVERELY LOW}};
+    \draw[impaired-arrow] (dbh) -- (ne);
+
+    \node[impaired, fill=red!25] (epi) at (0, -6.2) {\textbf{Epinephrine}\\{\color{red}SEVERELY LOW}};
+    \draw[impaired-arrow] (ne) -- (epi);
+\end{scope}
+
+% RIGHT SIDE: System failures
+\begin{scope}[xshift=4.5cm]
+    % Central deficit
+    \node[pathological, minimum width=3.5cm] (deficit) at (0, 3) {\textbf{CATECHOLAMINE}\\  \textbf{DEFICIT}};
+
+    % Five consequences
+    \node[pathological] (autonomic) at (-2, 0.5) {\textbf{Autonomic}\\POTS\\Orthostatic\\intolerance};
+
+    \node[pathological] (cognitive) at (2, 0.5) {\textbf{Cognitive}\\Brain fog\\Attention\\Memory};
+
+    \node[pathological] (stress) at (-2, -2.5) {\textbf{Stress}\\Can't cope\\Crashes\\HPA issues};
+
+    \node[pathological] (energy) at (2, -2.5) {\textbf{Energy}\\Metabolic\\slowdown\\Temperature};
+
+    \node[pathological] (motivation) at (0, -5) {\textbf{Motivation}\\Anhedonia\\Avolition\\Low drive};
+
+    % Cascade arrows
+    \draw[cascade-arrow] (deficit) -- (autonomic);
+    \draw[cascade-arrow] (deficit) -- (cognitive);
+    \draw[cascade-arrow] (deficit) -- (stress);
+    \draw[cascade-arrow] (deficit) -- (energy);
+    \draw[cascade-arrow] (deficit) -- (motivation);
+\end{scope}
+
+% Arrow connecting left to right
+\draw[cascade-arrow, line width=2pt] (-1.5, -5) -- (1.5, 3);
+
+% Key point box
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=11cm, align=left, font=\small] at (0, -8) {
+\textbf{Two major bottlenecks:} (1) Tyrosine hydroxylase impaired by ATP deficit and BH\textsubscript{4} depletion; (2) Dopamine $\beta$-hydroxylase impaired by vitamin C depletion. Low catecholamines cause autonomic dysfunction, cognitive impairment, and stress intolerance.
+};
+
+\end{tikzpicture}
+\caption{ME/CFS catecholamine synthesis failure and systemic consequences.}
+\label{fig:catecholamine-mecfs}
+\end{figure}

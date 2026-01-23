@@ -1,0 +1,104 @@
+% Figure: Immune Dysfunction in ME/CFS
+% Paradoxical state: chronic inflammation but impaired function
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.58, every node/.style={scale=0.58},
+    % Styles
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
+    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.4cm, align=center, minimum height=0.85cm},
+    impaired-arrow/.style={-latex, very thick, red!70!black},
+    cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.3pt},
+    note/.style={font=\scriptsize\itshape, text width=2.2cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, red!70!black] at (0, 9.5) {ME/CFS: Immune Dysfunction Cycles};
+
+% TOP: Failed response pathway
+\begin{scope}[yshift=5.5cm]
+    \node[normal] (pathogen) at (0, 2) {Pathogen\\Exposure};
+
+    \node[impaired] (innate) at (0, 0) {Innate Response\\{\color{red}\textbf{NK cells impaired}}\\{\color{green!70!black}But chronic cytokines}};
+    \draw[impaired-arrow] (pathogen) -- (innate);
+    \node[note, right=0.3cm of innate, text=red!70!black] {Paradox:\\can't kill but\\inflamed};
+
+    \node[impaired] (adaptive) at (0, -2) {Adaptive Response\\{\color{red}T-cell exhaustion}\\{\color{red}Th1/Th2 imbalance}};
+    \draw[impaired-arrow] (innate) -- (adaptive);
+
+    \node[impaired] (clearance) at (0, -4) {Poor Clearance\\{\color{red}Persistent pathogens}\\{\color{red}Viral reactivation}};
+    \draw[impaired-arrow] (adaptive) -- (clearance);
+
+    \node[impaired, fill=red!25] (failed) at (0, -6) {\textbf{Failed Resolution}\\{\color{red}No anti-inflammatory}\\{\color{red}Chronic inflammation}};
+    \draw[impaired-arrow] (clearance) -- (failed);
+\end{scope}
+
+% BOTTOM: Two vicious cycles
+\begin{scope}[yshift=-5cm]
+    \def\radius{2.4}
+
+    % LEFT CYCLE: Chronic Inflammation
+    \def\leftx{-4.5}
+    \node[font=\small\bfseries, red!40!black] at (\leftx, 3.5) {Cycle 1: Inflammation};
+
+    \node[pathological] (inflam) at (\leftx, \radius + 0.5)
+        {\textbf{Chronic}\\  \textbf{Inflammation}\\IL-1, IL-6, TNF-$\alpha$};
+
+    \node[pathological] (ido) at (\leftx + \radius*0.95, 0.5 + \radius*0.31)
+        {\textbf{IDO}\\  \textbf{Activation}\\TRP depletion};
+
+    \node[pathological] (atp-immune) at (\leftx + \radius*0.59, 0.5 - \radius*0.81)
+        {\textbf{Energy}\\  \textbf{Deficit}\\ATP-limited};
+
+    \node[pathological] (poor) at (\leftx - \radius*0.59, 0.5 - \radius*0.81)
+        {\textbf{Poor}\\  \textbf{Control}\\Pathogens persist};
+
+    \node[pathological] (more) at (\leftx - \radius*0.95, 0.5 + \radius*0.31)
+        {\textbf{More}\\  \textbf{Activation}\\More cytokines};
+
+    \draw[cycle-arrow, bend left=18] (inflam) to (ido);
+    \draw[cycle-arrow, bend left=18] (ido) to (atp-immune);
+    \draw[cycle-arrow, bend left=18] (atp-immune) to (poor);
+    \draw[cycle-arrow, bend left=18] (poor) to (more);
+    \draw[cycle-arrow, bend left=18] (more) to (inflam);
+
+    % RIGHT CYCLE: Exhaustion
+    \def\rightx{4.5}
+    \node[font=\small\bfseries, red!40!black] at (\rightx, 3.5) {Cycle 2: Exhaustion};
+
+    \node[pathological] (chronic) at (\rightx, \radius + 0.5)
+        {\textbf{Chronic}\\  \textbf{Activation}\\Always "on"};
+
+    \node[pathological] (tcell) at (\rightx + \radius*0.95, 0.5 + \radius*0.31)
+        {\textbf{T-cell}\\  \textbf{Exhaustion}\\PD-1 up};
+
+    \node[pathological] (nk) at (\rightx + \radius*0.59, 0.5 - \radius*0.81)
+        {\textbf{NK Cell}\\  \textbf{Dysfunction}\\Low cytotoxicity};
+
+    \node[pathological] (failclear) at (\rightx - \radius*0.59, 0.5 - \radius*0.81)
+        {\textbf{Failed}\\  \textbf{Clearance}\\Viral reactivation};
+
+    \node[pathological] (sustained) at (\rightx - \radius*0.95, 0.5 + \radius*0.31)
+        {\textbf{Sustained}\\  \textbf{Signals}\\Danger signals};
+
+    \draw[cycle-arrow, bend left=18] (chronic) to (tcell);
+    \draw[cycle-arrow, bend left=18] (tcell) to (nk);
+    \draw[cycle-arrow, bend left=18] (nk) to (failclear);
+    \draw[cycle-arrow, bend left=18] (failclear) to (sustained);
+    \draw[cycle-arrow, bend left=18] (sustained) to (chronic);
+
+    % Connection between cycles
+    \draw[cycle-arrow, <->, line width=2pt, red!60!black] (poor) -- (failclear);
+    \node[font=\scriptsize, red!60!black, text width=1.8cm, align=center] at (0, -1.8) {Cycles\\reinforce};
+\end{scope}
+
+% Key point box
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -8.5) {
+\textbf{Paradoxical immune state:} Chronically inflamed yet unable to clear pathogens. Two reinforcing cycles: (1) Inflammation $\rightarrow$ IDO activation $\rightarrow$ energy deficit $\rightarrow$ poor control $\rightarrow$ more inflammation; (2) Chronic activation $\rightarrow$ T-cell/NK exhaustion $\rightarrow$ failed clearance $\rightarrow$ sustained signals.
+};
+
+\end{tikzpicture}
+\caption{ME/CFS immune dysfunction with chronic inflammation and exhaustion cycles.}
+\label{fig:immune-mecfs}
+\end{figure}

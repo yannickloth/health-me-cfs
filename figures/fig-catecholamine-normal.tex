@@ -1,0 +1,57 @@
+% Figure: Normal Catecholamine Synthesis
+% Efficient production of norepinephrine and epinephrine from tyrosine
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75},
+    % Styles
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
+    output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
+    arrow/.style={-latex, very thick, green!70!black},
+    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, green!70!black] at (0, 9.5) {Normal Catecholamine Synthesis};
+
+% Tyrosine
+\node[process] (tyrosine) at (0, 8) {\textbf{Tyrosine}\\(from dietary protein)};
+
+% Step 1: Tyrosine hydroxylase
+\node[process] (th) at (0, 6) {\textbf{Tyrosine Hydroxylase}\\+ BH\textsubscript{4}, Fe, O\textsubscript{2}};
+\draw[arrow] (tyrosine) -- (th);
+\node[note, right=0.8cm of th] {Rate-limiting step\\Requires ATP};
+
+% L-DOPA
+\node[process] (ldopa) at (0, 4) {\textbf{L-DOPA}};
+\draw[arrow] (th) -- (ldopa);
+
+% Step 2: DOPA decarboxylase
+\node[process] (ddc) at (0, 2) {\textbf{DOPA Decarboxylase}\\+ Vitamin B\textsubscript{6}};
+\draw[arrow] (ldopa) -- (ddc);
+
+% Dopamine
+\node[process] (dopamine) at (0, 0) {\textbf{Dopamine}};
+\draw[arrow] (ddc) -- (dopamine);
+
+% Step 3: Dopamine beta-hydroxylase
+\node[process] (dbh) at (0, -2) {\textbf{Dopamine $\beta$-Hydroxylase}\\+ Vitamin C, Copper};
+\draw[arrow] (dopamine) -- (dbh);
+
+% Norepinephrine
+\node[output] (ne) at (0, -4) {\textbf{Norepinephrine}\\Alertness, focus, stress response};
+\draw[arrow] (dbh) -- (ne);
+
+% Epinephrine (optional path)
+\node[output] (epi) at (0, -6) {\textbf{Epinephrine}\\(in adrenal medulla)\\Fight-or-flight response};
+\draw[arrow] (ne) -- (epi);
+
+% Key cofactors summary
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -8.5) {
+\textbf{Essential cofactors:} BH\textsubscript{4} (tetrahydrobiopterin), Iron, Vitamin B\textsubscript{6}, Vitamin C, Copper. Adequate ATP is required for the rate-limiting tyrosine hydroxylase step.
+};
+
+\end{tikzpicture}
+\caption{Normal catecholamine synthesis pathway from tyrosine to norepinephrine and epinephrine.}
+\label{fig:catecholamine-normal}
+\end{figure}

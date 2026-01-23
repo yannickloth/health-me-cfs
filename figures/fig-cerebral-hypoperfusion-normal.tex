@@ -1,0 +1,42 @@
+% Figure: Normal Cerebral Blood Flow
+% Adequate perfusion meets brain's high metabolic demands
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75},
+    % Styles
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
+    output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
+    arrow/.style={-latex, very thick, green!70!black},
+    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+]
+
+% Title
+\node[font=\large\bfseries, green!70!black] at (0, 8.5) {Normal Cerebral Blood Flow};
+
+% Cardiac output
+\node[process] (cardiac) at (0, 7) {\textbf{Cardiac Output}\\Normal stroke volume\\Adequate blood pressure};
+
+% Cerebral autoregulation
+\node[process] (autoreg) at (0, 4.8) {\textbf{Cerebral Autoregulation}\\Maintains flow 50--150 mmHg\\Vasodilation/constriction};
+\draw[arrow] (cardiac) -- (autoreg);
+\node[note, right=0.8cm of autoreg] {Adjusts vessel\\diameter to\\maintain flow};
+
+% Normal CBF
+\node[output] (cbf) at (0, 2.6) {\textbf{Cerebral Blood Flow}\\50--60 mL/100g/min\\Meets O\textsubscript{2}/glucose demand};
+\draw[arrow] (autoreg) -- (cbf);
+\node[note, right=0.8cm of cbf] {Brain uses\\20\% of cardiac\\output at rest};
+
+% Brain function
+\node[output] (brain) at (0, 0.4) {\textbf{Normal Brain Function}\\Cognition intact\\Energy metabolism stable\\Neurotransmission normal};
+\draw[arrow] (cbf) -- (brain);
+
+% Key point box
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -2.2) {
+\textbf{Key points:} The brain requires constant, high blood flow due to its enormous metabolic demands. Autoregulation maintains stable perfusion across a wide range of blood pressures. Adequate O\textsubscript{2} and glucose delivery, plus CO\textsubscript{2}/lactate removal, enable normal cognitive function.
+};
+
+\end{tikzpicture}
+\caption{Normal cerebral blood flow regulation meeting brain metabolic demands.}
+\label{fig:cerebral-hypoperfusion-normal}
+\end{figure}
