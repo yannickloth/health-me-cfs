@@ -15,13 +15,47 @@
 \input{\preamble/packages.tex}
 
 % Typography and fonts (requires newunicodechar from packages.tex)
-\input{\preamble/typography.tex}
+% Override fonts for this document only (Palatino instead of kpfonts)
+% This provides a different visual signature for anonymous publication
+\usepackage{newpxtext}
+\usepackage{newpxmath}
+
+% NOTE: Skipping typography.tex because it loads kpfonts, which conflicts with newpxmath
+% Instead, we manually include only the unicode character definitions
+% \input{\preamble/typography.tex}
+
+% Symbol support (for \texteuro) - needed from typography.tex
+\usepackage{textcomp}
+
+% Define Unicode characters for LaTeX (from typography.tex)
+\newunicodechar{↔}{$\leftrightarrow$}
+\newunicodechar{↮}{$\nleftrightarrow$}
+\newunicodechar{├}{+}
+\newunicodechar{─}{-}
+\newunicodechar{│}{|}
+\newunicodechar{└}{+}
+\newunicodechar{≤}{$\leq$}
+\newunicodechar{≈}{$\approx$}
+\newunicodechar{✓}{$\checkmark$}
+\newunicodechar{μ}{$\mu$}
+
+% Euro symbol command
+\newcommand{\euro}{\texteuro}
+
+% Use Optima-like sans-serif (TeX Gyre Adventor) for headings
+% Adventor pairs beautifully with Palatino's classical proportions
+\usepackage{tgadventor}
+\setkomafont{disposition}{\normalfont\sffamily\bfseries}
+\setkomafont{descriptionlabel}{\normalfont\sffamily\bfseries}
 
 % Mathematical configuration
 \input{\preamble/math.tex}
 
 % Colored boxes (required by unified theorems module)
 \usepackage[most]{tcolorbox}
+
+% TikZ library for shadows in diagrams
+\usetikzlibrary{shadows}
 
 % Unified theorem-like environments
 % Includes: standard math theorems, environments, and scientific claims
@@ -86,7 +120,7 @@
 % (xr-hyper MUST be loaded AFTER hyperref)
 % \usepackage{xr-hyper}
 % \externaldocument{ms-book2}  % Commented out - ms-book2 not present
-\newcommand{\yannickloth}{Ing. Yannick Loth, M.Sc. (Management)}
+\newcommand{\yannickloth}{Anonymous Notadoctor}
 % Update hyperref colors to use USAT theme
 \hypersetup{
     colorlinks=true,
@@ -137,17 +171,25 @@
 
 \begin{document}
 
-% Title and metadata
-\title{Myalgic Encephalomyelitis / Chronic Fatigue Syndrome}
-\subtitle{A Comprehensive Medical Documentation}
-\author{\yannickloth\\
-    \small Software Architect \& Independent Researcher\\
-    \small Messancy, Belgium\\
-    \small \href{mailto:yl@infolead.eu}{yl@infolead.eu}\\
-    \small ORCID: \href{https://orcid.org/0009-0003-5754-827X}{0009-0003-5754-827X}\\
-    \small DOI: \href{https://doi.org/}{10.5281/zenodo.}}
-\date{\today}
-\maketitle
+% Custom title page (standard format, not KOMA-specific)
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+
+{\LARGE\bfseries Myalgic Encephalomyelitis / Chronic Fatigue Syndrome\par}
+\vspace{1cm}
+{\Large A Comprehensive Medical Documentation\par}
+\vspace{2cm}
+{\large \yannickloth\par}
+\vspace{0.5cm}
+{\normalsize Independent Patient-Researcher\par}
+\vspace{0.3cm}
+{\normalsize Contact: See patient community forums in Appendix D\par}
+
+\vfill
+
+{\normalsize \today\par}
+\end{titlepage}
 
 \clearpage
 
@@ -196,6 +238,8 @@
 % =============================================================================
 \include{contents/part3-treatment/part3-intro}
 \include{contents/part3-treatment/ch14-symptom-management}
+\include{contents/part3-treatment/ch14a-urgent-action-severe}
+\include{contents/part3-treatment/ch14b-action-mild-moderate}
 \include{contents/part3-treatment/ch15-medications-systems}
 \include{contents/part3-treatment/ch16-supplements-nutraceuticals}
 \include{contents/part3-treatment/ch17-lifestyle-interventions}
