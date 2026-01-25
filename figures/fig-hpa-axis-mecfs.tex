@@ -3,15 +3,16 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.60, every node/.style={scale=0.60},
+\begin{tikzpicture}[scale=1, every node/.style={scale=1},
     % Styles
-    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
-    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
-    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.5cm, align=center, minimum height=0.85cm},
-    impaired-arrow/.style={-latex, very thick, red!70!black},
-    feedback/.style={-latex, thick, red!70!black, dashed},
-    cascade-arrow/.style={-latex, thick, orange!80!black, dashed},
-    note/.style={font=\scriptsize\itshape, text width=2.2cm, align=center},
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3cm, align=center, minimum height=1cm},
+    impaired/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    severe/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=3.2cm, align=center, minimum height=1.1cm, drop shadow},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.95cm},
+    impaired-arrow/.style={-latex, very thick, red!70!black, line width=1.2pt},
+    feedback/.style={-latex, thick, red!70!black, dashed, line width=1.1pt},
+    cascade-arrow/.style={-latex, thick, orange!80!black, dashed, line width=1.1pt},
+    note/.style={font=\small\itshape, text width=2.4cm, align=left, red!60!black},
 ]
 
 % Title
@@ -20,33 +21,35 @@
 % LEFT SIDE: Impaired pathway
 \begin{scope}[xshift=-4.5cm]
     % Stressor
-    \node[normal] (stressor) at (0, 7.5) {Stressor};
+    \node[normal] (stressor) at (0, 7.5) {\textbf{Stressor}\\[2pt] Same intensity};
 
     % Hypothalamus - blunted
-    \node[impaired] (hypothalamus) at (0, 5.5) {Hypothalamus\\{\color{red}\textbf{Blunted CRH}}\\{\color{red}Hypersensitive feedback}};
+    \node[impaired] (hypothalamus) at (0, 5.8) {\textbf{Hypothalamus}\\[2pt] {\color{red!80!black}Blunted CRH}\\Hypersensitive feedback};
     \draw[impaired-arrow] (stressor) -- (hypothalamus);
 
     % Pituitary - impaired
-    \node[impaired] (pituitary) at (0, 3.3) {Pituitary\\{\color{red}\textbf{Low ACTH}}\\{\color{red}Reduced reserve}};
+    \node[impaired] (pituitary) at (0, 3.9) {\textbf{Pituitary}\\[2pt] {\color{red!80!black}Low ACTH}\\Reduced reserve};
     \draw[impaired-arrow] (hypothalamus) -- (pituitary);
 
     % Adrenal - atrophy
-    \node[impaired] (adrenal) at (0, 1.1) {Adrenal Cortex\\{\color{red}\textbf{Atrophy/exhaustion}}\\{\color{red}Low output}};
+    \node[impaired] (adrenal) at (0, 2) {\textbf{Adrenal Cortex}\\[2pt] {\color{red!80!black}Atrophy/exhaustion}\\Low output};
     \draw[impaired-arrow] (pituitary) -- (adrenal);
-    \node[note, left=0.2cm of adrenal, text=red!70!black] {Flattened\\rhythm:\\low all day};
+    \node[note, left=0.25cm of adrenal, anchor=east] {
+        \textbullet~Flattened\\~~~rhythm\\~~~(low all day)
+    };
 
     % Low cortisol
-    \node[impaired, fill=red!25] (cortisol) at (0, -1.3) {\textbf{Low Cortisol}\\{\color{red}Can't mobilize energy}\\{\color{red}Can't suppress inflammation}};
+    \node[severe] (cortisol) at (0, -0.2) {\textbf{LOW CORTISOL}\\[3pt] \textit{Cannot respond to stress}\\[2pt] {\color{red!80!black}Energy \& inflammation issues}};
     \draw[impaired-arrow] (adrenal) -- (cortisol);
 
     % Excessive feedback
-    \node[impaired, text width=2.5cm] (feedback-box) at (3.5, 3.3) {\textbf{Excessive}\\  \textbf{Feedback}\\Over-suppression};
+    \node[impaired, text width=2.8cm] (feedback-box) at (3.8, 3.9) {\textbf{Excessive Feedback}\\[2pt] Over-suppression};
     \draw[feedback, bend left=20] (cortisol.east) to (feedback-box.south);
     \draw[feedback] (feedback-box) -- (hypothalamus);
     \draw[feedback] (feedback-box) -- (pituitary);
 
     % No recovery
-    \node[impaired] (no-recovery) at (0, -3.5) {No Resolution\\{\color{red}Persistent dysfunction}};
+    \node[impaired] (no-recovery) at (0, -2.5) {\textbf{No Resolution}\\[2pt] Persistent dysfunction};
     \draw[impaired-arrow] (cortisol) -- (no-recovery);
 \end{scope}
 
@@ -82,8 +85,13 @@
 \end{scope}
 
 % Key point box
-\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -6.5) {
-\textbf{Blunted stress response:} Hypersensitive negative feedback over-suppresses the HPA axis. Low cortisol means inability to mobilize energy for stress, unchecked inflammation, metabolic instability, autonomic dysfunction, and mood problems. Inflammation feeds back to worsen HPA function.
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small, inner sep=8pt] at (0, -6.5) {
+\textbf{Blunted stress response:}\\[4pt]
+\textbullet~Hypersensitive negative feedback over-suppresses HPA axis\\
+\textbullet~Low cortisol $\rightarrow$ cannot mobilize energy for stress response\\
+\textbullet~Unchecked inflammation, metabolic instability, autonomic dysfunction\\
+\textbullet~Flattened circadian cortisol rhythm (low throughout day)\\[4pt]
+Chronic inflammation feeds back to further worsen HPA function.
 };
 
 \end{tikzpicture}

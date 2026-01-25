@@ -3,40 +3,49 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75},
+\begin{tikzpicture}[scale=1, every node/.style={scale=1},
     % Styles
-    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
-    output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
-    arrow/.style={-latex, very thick, green!70!black},
-    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
+    adaptive/.style={draw=green!70!black, fill=green!20, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
+    resolution/.style={draw=green!50!black, fill=green!30, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.3cm, drop shadow},
+    arrow/.style={-latex, very thick, green!70!black, line width=1.2pt},
+    note/.style={font=\small\itshape, text width=3.8cm, align=left, green!40!black},
 ]
 
 % Title
 \node[font=\large\bfseries, green!70!black] at (0, 9) {Normal Immune Response};
 
 % Pathogen exposure
-\node[process] (pathogen) at (0, 7.5) {\textbf{Pathogen Exposure}\\Virus, bacteria, etc.};
+\node[process] (pathogen) at (0, 7.5) {\textbf{Pathogen Exposure}\\[2pt] Virus, bacteria, etc.};
 
 % Innate response
-\node[process] (innate) at (0, 5.5) {\textbf{Innate Response}\\NK cells, macrophages\\Measured cytokine release};
+\node[process] (innate) at (0, 5.8) {\textbf{Innate Response}\\[2pt] NK cells, macrophages\\Measured cytokine release};
 \draw[arrow] (pathogen) -- (innate);
 
 % Adaptive response
-\node[process] (adaptive) at (0, 3.5) {\textbf{Adaptive Response}\\T-cell activation\\B-cell antibody production};
+\node[adaptive] (adaptive) at (0, 3.8) {\textbf{Adaptive Response}\\[2pt] T-cell activation\\B-cell antibody production};
 \draw[arrow] (innate) -- (adaptive);
 
 % Pathogen clearance
-\node[process] (clearance) at (0, 1.5) {\textbf{Pathogen Clearance}\\Effective elimination\\Memory cells formed};
+\node[adaptive] (clearance) at (0, 1.8) {\textbf{Pathogen Clearance}\\[2pt] Effective elimination\\Memory cells formed};
 \draw[arrow] (adaptive) -- (clearance);
-\node[note, right=0.8cm of clearance] {Immune memory\\protects against\\future infection};
+\node[note, right=1cm of clearance, anchor=west] {
+    \textbullet~Immune memory formed\\
+    \textbullet~Protection established\\
+    \textbullet~Ready for re-exposure
+};
 
-% Resolution
-\node[output] (resolution) at (0, -0.7) {\textbf{Resolution}\\Anti-inflammatory signals\\Inflammation stops\\Full recovery};
+% Resolution - emphasized as key success marker
+\node[resolution] (resolution) at (0, -0.5) {\textbf{RESOLUTION}\\[3pt] \textit{Anti-inflammatory signals}\\IL-10, TGF-$\beta$, resolvins\\[2pt] \textbf{Full Recovery}};
 \draw[arrow] (clearance) -- (resolution);
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -3.2) {
-\textbf{Normal immune cycle:} Activation $\rightarrow$ Response $\rightarrow$ Clearance $\rightarrow$ Resolution. Anti-inflammatory signals (IL-10, TGF-$\beta$, resolvins) terminate inflammation after pathogen elimination. The system returns to baseline, ready for the next challenge.
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt] at (0, -3) {
+\textbf{Key characteristics:}\\[4pt]
+\textbullet~Complete pathogen clearance\\
+\textbullet~Active resolution phase with anti-inflammatory mediators\\
+\textbullet~Return to baseline homeostasis\\
+\textbullet~System ready for next immune challenge
 };
 
 \end{tikzpicture}

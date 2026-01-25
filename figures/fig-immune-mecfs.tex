@@ -3,14 +3,15 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.58, every node/.style={scale=0.58},
+\begin{tikzpicture}[scale=1, every node/.style={scale=1},
     % Styles
-    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
-    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.85cm},
-    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.4cm, align=center, minimum height=0.85cm},
-    impaired-arrow/.style={-latex, very thick, red!70!black},
-    cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.3pt},
-    note/.style={font=\scriptsize\itshape, text width=2.2cm, align=center},
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3cm, align=center, minimum height=1cm},
+    impaired/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    severe/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=3.2cm, align=center, minimum height=1.1cm, drop shadow},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.6cm, align=center, minimum height=0.95cm},
+    impaired-arrow/.style={-latex, very thick, red!70!black, line width=1.2pt},
+    cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.6pt},
+    note/.style={font=\small\itshape, text width=2.5cm, align=left, red!60!black},
 ]
 
 % Title
@@ -18,19 +19,21 @@
 
 % TOP: Failed response pathway
 \begin{scope}[yshift=5.5cm]
-    \node[normal] (pathogen) at (0, 2) {Pathogen\\Exposure};
+    \node[normal] (pathogen) at (0, 2) {\textbf{Pathogen Exposure}\\[2pt] Virus, bacteria, etc.};
 
-    \node[impaired] (innate) at (0, 0) {Innate Response\\{\color{red}\textbf{NK cells impaired}}\\{\color{green!70!black}But chronic cytokines}};
+    \node[impaired] (innate) at (0, 0.2) {\textbf{Innate Response}\\[2pt] {\color{red!80!black}NK cells impaired}\\But chronic cytokines};
     \draw[impaired-arrow] (pathogen) -- (innate);
-    \node[note, right=0.3cm of innate, text=red!70!black] {Paradox:\\can't kill but\\inflamed};
+    \node[note, right=0.4cm of innate, anchor=west] {
+        \textbullet~Paradox:\\~~~can't kill\\~~~but inflamed
+    };
 
-    \node[impaired] (adaptive) at (0, -2) {Adaptive Response\\{\color{red}T-cell exhaustion}\\{\color{red}Th1/Th2 imbalance}};
+    \node[impaired] (adaptive) at (0, -2) {\textbf{Adaptive Response}\\[2pt] T-cell exhaustion\\Th1/Th2 imbalance};
     \draw[impaired-arrow] (innate) -- (adaptive);
 
-    \node[impaired] (clearance) at (0, -4) {Poor Clearance\\{\color{red}Persistent pathogens}\\{\color{red}Viral reactivation}};
+    \node[impaired] (clearance) at (0, -4.2) {\textbf{Poor Clearance}\\[2pt] Persistent pathogens\\Viral reactivation};
     \draw[impaired-arrow] (adaptive) -- (clearance);
 
-    \node[impaired, fill=red!25] (failed) at (0, -6) {\textbf{Failed Resolution}\\{\color{red}No anti-inflammatory}\\{\color{red}Chronic inflammation}};
+    \node[severe] (failed) at (0, -6.5) {\textbf{FAILED RESOLUTION}\\[3pt] \textit{No resolution phase}\\[2pt] Chronic inflammation};
     \draw[impaired-arrow] (clearance) -- (failed);
 \end{scope}
 
@@ -94,8 +97,11 @@
 \end{scope}
 
 % Key point box
-\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -8.5) {
-\textbf{Paradoxical immune state:} Chronically inflamed yet unable to clear pathogens. Two reinforcing cycles: (1) Inflammation $\rightarrow$ IDO activation $\rightarrow$ energy deficit $\rightarrow$ poor control $\rightarrow$ more inflammation; (2) Chronic activation $\rightarrow$ T-cell/NK exhaustion $\rightarrow$ failed clearance $\rightarrow$ sustained signals.
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small, inner sep=8pt] at (0, -8.5) {
+\textbf{Paradoxical immune state:} Chronically inflamed yet unable to clear pathogens.\\[4pt]
+\textbullet~\textbf{Cycle 1 (Inflammation):} Chronic cytokines $\rightarrow$ IDO activation $\rightarrow$ energy deficit $\rightarrow$ poor pathogen control $\rightarrow$ more inflammation\\
+\textbullet~\textbf{Cycle 2 (Exhaustion):} Chronic activation $\rightarrow$ T-cell/NK exhaustion $\rightarrow$ failed clearance $\rightarrow$ sustained danger signals\\[4pt]
+The two cycles reinforce each other, creating persistent immune dysfunction.
 };
 
 \end{tikzpicture}

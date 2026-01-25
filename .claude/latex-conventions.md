@@ -38,16 +38,56 @@ project/
 - Non-breaking space before: `Section~\ref{sec:foo}`
 
 ### Environments
+
+**IMPORTANT:** Always use environments from [infolead-latex-templates](../infolead-latex-templates/) when available.
+
+See [template-environments.md](template-environments.md) for complete reference.
+
+### Common Patterns
+
 ```latex
-\begin{theorem}[Name]
+% Standard mathematical theorem
+\begin{theorem}[Optional Name]
 \label{thm:name}
-Statement.
+Statement of the theorem.
 \end{theorem}
 
 \begin{proof}
-Content.
+Proof content.
 \end{proof}
+
+% Scientific claim with tcolorbox styling
+\begin{hypothesis}[Energy Dysfunction]
+\label{hyp:energy}
+Mitochondrial ATP production is impaired in ME/CFS patients.
+\end{hypothesis}
+
+% Research finding
+\begin{achievement}[Biomarker Discovery]
+\label{ach:il8}
+We identified IL-8 elevation as a consistent marker across all patient cohorts.
+\end{achievement}
+
+% Warning or limitation
+\begin{warning}[Study Limitation]
+Sample size limited to 42 participants from a single center.
+\end{warning}
 ```
+
+### Environment Selection Guidelines
+
+1. **Check template first:** Before creating custom environments, consult [template-environments.md](template-environments.md)
+2. **Use template-advisor:** Run `template-advisor` agent when unsure
+3. **Standard math:** Use `theorem`, `lemma`, `definition`, `example`
+4. **Scientific claims:** Use `hypothesis`, `achievement`, `prediction`, `warning`, etc.
+5. **Project-specific only when necessary:** ME/CFS-specific diagnostic criteria, custom scales
+
+### Available Template Categories
+
+- **Standard Math:** theorem, lemma, corollary, proposition, definition, example, remark
+- **IVP/Design:** principle, directive, pattern, construction, observation
+- **Scientific Claims:** achievement, prediction, hypothesis, axiom, warning, requirement, open_question
+- **Structure:** chapterabstract, roadmap, conclusion, derivation
 
 ## Anti-Patterns
 

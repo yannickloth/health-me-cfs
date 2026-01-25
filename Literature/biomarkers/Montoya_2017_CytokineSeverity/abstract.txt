@@ -1,0 +1,14 @@
+Cytokine signature associated with disease severity in chronic fatigue syndrome patients
+
+Jose G. Montoya, Tyson H. Holmes, Jill N. Anderson, Holden T. Maecker, Yael Rosenberg-Hasson, Ian J. Valencia, Lily Chu, Jarred W. Younger, Cristina M. Tato, Mark M. Davis
+
+Proceedings of the National Academy of Sciences (PNAS), August 2017; 114(34):E7150-E7158
+
+ABSTRACT:
+Chronic fatigue syndrome (CFS)/myalgic encephalomyelitis (ME) is a complex, debilitating disorder characterized by extreme fatigue and other symptoms that are not improved by rest. Despite its significant impact on quality of life, the underlying pathophysiology remains unclear, and there are no validated biomarkers. We measured 51 cytokines in plasma samples from 192 CFS/ME patients and 392 healthy controls using a multiplex array. Although only two cytokines differed significantly between patients and controls overall (TGF-β higher and resistin lower in patients), 17 cytokines showed significant upward linear trends correlating with disease severity. Thirteen of these 17 cytokines are proinflammatory, suggesting that inflammation severity tracks with symptom severity. The 17 severity-correlated cytokines included: CCL11 (Eotaxin-1), CXCL1 (GRO-α), CXCL10 (IP-10), IFN-γ, IL-4, IL-5, IL-7, IL-12p70, IL-13, IL-17F, leptin, G-CSF, GM-CSF, LIF, NGF, SCF, and TGF-α. Only CXCL9 (MIG) inversely correlated with fatigue duration. These findings suggest that immune dysregulation, particularly involving proinflammatory cytokines, plays an important role in ME/CFS and that symptom severity is reflected by the degree of immune activation.
+
+DOI: 10.1073/pnas.1710519114
+PMID: 28760971
+PMCID: PMC5576836
+URL: https://www.pnas.org/doi/10.1073/pnas.1710519114
+Retrieved: 2026-01-23

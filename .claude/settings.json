@@ -13,7 +13,8 @@
       "Read(./**/*.tex)",
       "Read(./**/*.bib)",
       "Read(./**/*.sty)",
-      "Read(./.claude/**)"
+      "Read(./.claude/**)",
+      "Bash(find:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",

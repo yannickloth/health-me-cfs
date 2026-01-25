@@ -1,0 +1,14 @@
+Distinct plasma immune signatures in ME/CFS are present early in the course of illness
+
+Mady Hornig, José G. Montoya, Nancy G. Klimas, Susan Levine, Donna Felsenstein, Lucinda Bateman, Daniel L. Peterson, C. Gunnar Gottschalk, Andrew F. Schultz, Xiaoyu Che, Meredith L. Eddy, Anthony L. Komaroff, W. Ian Lipkin
+
+Science Advances, February 2015; 1(1):e1400121
+
+ABSTRACT:
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex disease with no confirmed diagnostic biomarker. We investigated immune signatures in ME/CFS using multiplex immunoassays for 51 cytokines/chemokines in plasma samples from 298 ME/CFS patients and 348 healthy controls. We found distinct immune differences depending on disease duration. Early ME/CFS cases (illness duration <3 years, n=52) showed prominent activation of both pro- and anti-inflammatory cytokines, with elevated levels of IL-1α, IL-8, IL-10, IL-12p40, IL-17F, IFN-γ, CXCL1, CXCL9, and IL-5. In contrast, patients with longer disease duration (>3 years, n=246) had cytokine profiles that normalized or showed no significant differences from controls. The findings suggest a transition from initial immune activation to exhaustion or adaptation over time. Importantly, we identified a signature of 17 cytokines that could distinguish early ME/CFS from controls, providing evidence for immune-based biomarkers. The correlation with illness duration rather than severity suggests that ME/CFS immunopathology evolves over time.
+
+DOI: 10.1126/sciadv.1400121
+PMID: 26079000
+PMCID: PMC4465185
+URL: https://www.science.org/doi/10.1126/sciadv.1400121
+Retrieved: 2026-01-23

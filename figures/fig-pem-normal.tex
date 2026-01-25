@@ -3,40 +3,49 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75},
+\begin{tikzpicture}[scale=1, every node/.style={scale=1},
     % Styles
-    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
-    output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
-    arrow/.style={-latex, very thick, green!70!black},
-    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
+    adaptive/.style={draw=green!70!black, fill=green!20, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
+    benefit/.style={draw=green!50!black, fill=green!30, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.3cm, drop shadow},
+    arrow/.style={-latex, very thick, green!70!black, line width=1.2pt},
+    note/.style={font=\small\itshape, text width=3.8cm, align=left, green!40!black},
 ]
 
 % Title
 \node[font=\large\bfseries, green!70!black] at (0, 9) {Normal Exercise Response};
 
 % Exercise
-\node[process] (exercise) at (0, 7.5) {\textbf{Physical Activity}\\(within capacity)};
+\node[process] (exercise) at (0, 7.5) {\textbf{Physical Activity}\\[2pt] Within energy envelope};
 
 % Metabolic response
-\node[process] (atp) at (0, 5.5) {\textbf{ATP Utilization}\\Glycogen depletion\\Minor lactate production};
+\node[process] (atp) at (0, 5.8) {\textbf{ATP Utilization}\\[2pt] Glycogen depletion\\Minor lactate production};
 \draw[arrow] (exercise) -- (atp);
 
 % Adaptive signaling
-\node[process] (signaling) at (0, 3.5) {\textbf{Adaptive Signaling}\\PGC-1$\alpha$, AMPK activation\\Mitochondrial biogenesis};
+\node[adaptive] (signaling) at (0, 3.5) {\textbf{Adaptive Signaling}\\[2pt] PGC-1$\alpha$, AMPK activation\\Mitochondrial biogenesis};
 \draw[arrow] (atp) -- (signaling);
-\node[note, right=0.8cm of signaling] {Hormesis:\\beneficial stress\\response};
+\node[note, right=1cm of signaling, anchor=west] {
+    \textbullet~Hormesis effect\\
+    \textbullet~Beneficial stress\\
+    \textbullet~Growth signaling
+};
 
 % Recovery
-\node[process] (recovery) at (0, 1.5) {\textbf{Rapid Recovery}\\ATP restored (hours)\\Glycogen restored (1 day)};
+\node[adaptive] (recovery) at (0, 1.3) {\textbf{Rapid Recovery}\\[2pt] ATP restored (hours)\\Glycogen restored (1 day)};
 \draw[arrow] (signaling) -- (recovery);
 
 % Positive outcome
-\node[output] (outcome) at (0, -0.7) {\textbf{NET BENEFIT}\\Increased capacity\\Improved fitness\\Positive adaptation};
+\node[benefit] (outcome) at (0, -1) {\textbf{NET BENEFIT}\\[3pt] \textit{Training effect}\\[2pt] Increased capacity\\Improved fitness};
 \draw[arrow] (recovery) -- (outcome);
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -3.2) {
-\textbf{Normal exercise adaptation:} Temporary fatigue triggers beneficial adaptations. Recovery occurs within hours to 1 day. Each exercise bout increases capacity---this is the training effect that makes healthy people stronger.
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt] at (0, -3.5) {
+\textbf{Key characteristics:}\\[4pt]
+\textbullet~Activity within capacity triggers beneficial adaptations\\
+\textbullet~Recovery completes within hours to 1 day\\
+\textbullet~Progressive overload increases fitness (training effect)\\
+\textbullet~Each exercise bout strengthens the system
 };
 
 \end{tikzpicture}

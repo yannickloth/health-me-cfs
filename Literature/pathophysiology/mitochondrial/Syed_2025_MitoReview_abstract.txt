@@ -1,0 +1,18 @@
+Mitochondrial Dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome
+
+Abu Mohammad Syed, Alexander K. Karius, Jin Ma, Ping-yuan Wang, Paul M. Hwang
+
+Physiology (Bethesda)
+Published online: February 17, 2025
+Available in PMC: July 1, 2025
+
+DOI: 10.1152/physiol.00056.2024
+PMID: 39960432
+PMCID: PMC12151296
+URL: https://journals.physiology.org/doi/full/10.1152/physiol.00056.2024
+
+ABSTRACT:
+
+ME/CFS is a debilitating multisystem disorder of unclear etiology that affects many individuals worldwide, with prolonged fatigue following exertion as a hallmark feature. This review examines mitochondrial dysfunction and its potential role in disease pathogenesis, noting similarities with long COVID that suggest underlying dysfunction in energy production in both conditions. Research documents lower mitochondrial metabolism and ATP synthesis rates in ME/CFS patients' skeletal muscles, alongside increased intracellular acidosis consistent with more glycolytic activity. This metabolic shift contributes to exercise intolerance and slow fatigue recovery. Studies reveal elevated levels of lipid peroxidation products, protein carbonyls, and oxidized DNA bases combined with reduced antioxidants like coenzyme Q10, creating redox imbalance that damages cellular components and impairs mitochondrial respiration. Recent findings highlight WASF3 (Wiskott-Aldrich Syndrome Protein Family Member 3) as mediating mitochondrial dysfunction through ER stress pathways. Treatment strategies targeting mitochondrial function include coenzyme Q10, NADH supplementation, ER stress modulators, and metabolic enhancers, though these provide modest benefits with variable efficacy, highlighting the need for targeted interventions.
+
+Retrieved: 2026-01-23

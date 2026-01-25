@@ -2,6 +2,8 @@
 
 This file contains detailed information about the preamble system architecture. Reference this when setting up new LaTeX documents or modifying preamble configuration.
 
+**CRITICAL:** All preamble modules come from [infolead-latex-templates](../infolead-latex-templates/). Never create duplicate preamble files in the project.
+
 ## Shared Preamble System
 
 The [infolead-latex-templates](infolead-latex-templates/) submodule provides a modular preamble following the **Independent Variation Principle (IVP)**: each concern (tables, diagrams, algorithms, etc.) is self-contained with its own package imports and configuration.
@@ -40,3 +42,26 @@ Only load these if needed for your document:
 - `listings.tex` - Code syntax highlighting with JSON support
 - `tables.tex` - Professional table formatting (booktabs)
 - `bibliography.tex` - Citation support
+
+## Theorem Environments
+
+All theorem-like environments are defined in `theorems.tex`:
+- Requires `\usepackage[most]{tcolorbox}` to be loaded BEFORE `theorems.tex`
+- Automatically loads `colors.tex` for environment styling
+- See [template-environments.md](template-environments.md) for complete reference
+
+## Adding Project-Specific Customizations
+
+After loading all template modules:
+
+```latex
+% Load all template modules
+\input{\preamble/theorems.tex}
+\input{\preamble/hyperref.tex}  % Always last from template
+
+% Now add project-specific customizations
+\newenvironment{mecfs-severity-scale}{...}{...}  % ME/CFS-specific
+\newcommand{\PEM}{\textsc{pem}\xspace}           % Project abbreviations
+```
+
+**Golden Rule:** If it's reusable across multiple academic documents, add it to the template. If it's ME/CFS-specific, keep it in the project.

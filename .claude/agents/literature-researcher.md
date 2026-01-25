@@ -105,15 +105,25 @@ When evidence is:
 - Note when terminology has changed over time (CFS → ME/CFS)
 - Flag deprecated terms (e.g., "chronic fatigue" alone is too broad)
 
+## Handoff to literature-manager
+
+When you find relevant papers, hand off to `literature-manager` agent for:
+- Downloading PDFs and organizing in Literature folder
+- Creating synthesis files (notes.md, key-findings.md)
+- Adding to references.bib
+- Updating appendix bibliography
+- Integrating into main document
+
+**Your role:** Find and evaluate papers
+**literature-manager role:** Download, organize, and integrate
+
 ## Boundaries
 
 This agent does NOT:
-- Edit document content (report findings only)
+- Download or organize papers (use literature-manager)
+- Edit document content (report findings, let literature-manager integrate)
 - Make medical recommendations
 - Assess mathematical proofs (use math-verifier)
 - Fix LaTeX formatting (use syntax-fixer or formatting-fixer)
 
 Focus solely on finding, evaluating, and reporting relevant medical literature.
-
-## Download
-Download available reference papers/articles into the `Literature/` folder.

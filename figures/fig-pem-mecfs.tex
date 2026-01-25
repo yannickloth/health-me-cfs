@@ -3,95 +3,106 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.60, every node/.style={scale=0.60},
+\begin{tikzpicture}[scale=1, every node/.style={scale=1},
     % Styles
-    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.9cm},
-    impaired/.style={draw=red!70!black, fill=red!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.9cm},
-    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.5cm, align=center, minimum height=0.9cm},
-    impaired-arrow/.style={-latex, very thick, red!70!black},
-    cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.5pt},
-    note/.style={font=\scriptsize\itshape, text width=2.3cm, align=center},
+    normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3cm, align=center, minimum height=1cm},
+    impaired/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    severe/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=3.2cm, align=center, minimum height=1.1cm, drop shadow},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.6cm, align=center, minimum height=0.95cm},
+    impaired-arrow/.style={-latex, very thick, red!70!black, line width=1.2pt},
+    cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.6pt},
+    note/.style={font=\small\itshape, text width=2.5cm, align=left, red!60!black},
 ]
 
-% Title
-\node[font=\large\bfseries, red!70!black] at (0, 9.5) {ME/CFS: Post-Exertional Malaise (PEM)};
+% Title (centered between left cascade and right cycle)
+\node[font=\large\bfseries, red!70!black] at (-3.8, 9.5) {ME/CFS: Post-Exertional Malaise (PEM)};
 
 % LEFT SIDE: Maladaptive response
-\begin{scope}[xshift=-4.5cm]
+\begin{scope}[xshift=-7.5cm]
     % Activity
-    \node[normal] (exercise) at (0, 7.5) {Physical Activity\\(same intensity)};
+    \node[normal] (exercise) at (0, 8) {\textbf{Physical Activity}\\[2pt] Same intensity as healthy};
 
     % ATP crisis
-    \node[impaired] (atp) at (0, 5.5) {ATP Crisis\\{\color{red}\textbf{Can't meet demand}}\\Early lactate shift};
+    \node[impaired] (atp) at (0, 6.2) {\textbf{ATP Crisis}\\[2pt] {\color{red!80!black}Cannot meet demand}\\Early lactate shift};
     \draw[impaired-arrow] (exercise) -- (atp);
-    \node[note, left=0.2cm of atp, text=red!70!black] {Exceeds\\capacity};
+    \node[note, left=0.9cm of atp, anchor=east] {
+        \textbullet~Exceeds\\~~~capacity
+    };
 
     % Maladaptive response
-    \node[impaired] (maladaptive) at (0, 3.3) {Maladaptive Response\\{\color{red}Oxidative stress}\\{\color{red}Inflammation}};
+    \node[impaired] (maladaptive) at (0, 3.8) {\textbf{Maladaptive Response}\\[2pt] Oxidative stress\\Inflammation};
     \draw[impaired-arrow] (atp) -- (maladaptive);
 
     % Delayed crash
-    \node[impaired] (delayed) at (0, 1.1) {Delayed Deterioration\\{\color{red}\textbf{24--72 hours later}}\\Symptoms worsen};
+    \node[impaired] (delayed) at (0, 1.4) {\textbf{Delayed Crash}\\[2pt] {\color{red!80!black}24--72 hours later}\\Symptoms worsen};
     \draw[impaired-arrow] (maladaptive) -- (delayed);
-    \node[note, left=0.2cm of delayed, text=red!70!black] {The "PEM\\delay"};
+    \node[note, left=0.9cm of delayed, anchor=east] {
+        \textbullet~PEM\\~~~delay\\~~~phase
+    };
 
     % Poor recovery
-    \node[impaired] (poor) at (0, -1.1) {Slow Recovery\\Days to weeks\\Incomplete healing};
+    \node[impaired] (poor) at (0, -1) {\textbf{Prolonged Recovery}\\[2pt] Days to weeks\\Incomplete healing};
     \draw[impaired-arrow] (delayed) -- (poor);
 
     % Negative outcome
-    \node[impaired, fill=red!25] (outcome) at (0, -3.3) {\textbf{NET HARM}\\{\color{red}Decreased capacity}\\{\color{red}Disease progression}};
+    \node[severe] (outcome) at (0, -3.5) {\textbf{NET HARM}\\[3pt] \textit{Progressive damage}\\[2pt] {\color{red!80!black}Decreased capacity}};
     \draw[impaired-arrow] (poor) -- (outcome);
 \end{scope}
 
-% RIGHT SIDE: PEM vicious cycle
-\begin{scope}[xshift=4cm, yshift=1cm]
+% RIGHT SIDE: PEM vicious cycle (regular pentagon)
+\begin{scope}[xshift=-1cm, yshift=1cm]
     \def\radius{2.8}
     \def\centerx{0}
     \def\centery{0}
 
     % Trigger
-    \node[pathological, minimum width=3cm] (trigger) at (\centerx, \centery + \radius + 1.2)
-        {\textbf{ACTIVITY}\\  \textbf{EXCEEDS CAPACITY}};
+    \node[pathological, minimum width=3cm,text width=5cm] (trigger) at (\centerx, \centery + \radius + 3)
+        {\textbf{ACTIVITY EXCEEDS CAPACITY}};
 
-    % Node 1: ATP deficit
+    % Regular pentagon nodes (72° apart, starting from top)
+    % Node 1: ATP deficit (90°)
     \node[pathological] (atp-def) at (\centerx, \centery + \radius)
         {\textbf{ATP Deficit}\\Ion pump failure\\Lactate};
 
-    % Node 2: Oxidative stress
-    \node[pathological] (ox) at (\centerx + \radius*0.95, \centery + \radius*0.31)
+    % Node 2: Oxidative stress (18° = 90° - 72°)
+    \node[pathological] (ox) at (\centerx + \radius*0.951, \centery + \radius*0.309)
         {\textbf{Oxidative}\\  \textbf{Stress}\\ROS surge};
 
-    % Node 3: Immune activation
-    \node[pathological] (immune) at (\centerx + \radius*0.59, \centery - \radius*0.81)
+    % Node 3: Immune activation (306° = 18° - 72°, or -54°)
+    \node[pathological] (immune) at (\centerx + \radius*0.588, \centery - \radius*0.809)
         {\textbf{Immune}\\IL-1, IL-6\\TNF-$\alpha$};
 
-    % Node 4: Symptoms
-    \node[pathological] (symptoms) at (\centerx - \radius*0.59, \centery - \radius*0.81)
+    % Node 4: Symptoms (234° = 306° - 72°, or -126°)
+    \node[pathological] (symptoms) at (\centerx - \radius*0.588, \centery - \radius*0.809)
         {\textbf{Symptom}\\  \textbf{Surge}\\Fatigue, pain\\Brain fog};
 
-    % Node 5: Metabolic suppression
-    \node[pathological] (metabolic) at (\centerx - \radius*0.95, \centery + \radius*0.31)
+    % Node 5: Metabolic suppression (162° = 234° - 72°)
+    \node[pathological] (metabolic) at (\centerx - \radius*0.951, \centery + \radius*0.309)
         {\textbf{Metabolic}\\  \textbf{Shutdown}\\CDR/dauer};
 
     % Arrow from trigger
     \draw[impaired-arrow, line width=2pt] (trigger) -- (atp-def);
 
-    % Cycle arrows
-    \draw[cycle-arrow, bend left=18] (atp-def) to (ox);
-    \draw[cycle-arrow, bend left=18] (ox) to (immune);
-    \draw[cycle-arrow, bend left=18] (immune) to (symptoms);
-    \draw[cycle-arrow, bend left=18] (symptoms) to (metabolic);
-    \draw[cycle-arrow, bend left=18] (metabolic) to (atp-def);
+    % Cycle arrows (smoother curves)
+    \draw[cycle-arrow, bend left=15] (atp-def) to (ox);
+    \draw[cycle-arrow, bend left=15] (ox) to (immune);
+    \draw[cycle-arrow, bend left=15] (immune) to (symptoms);
+    \draw[cycle-arrow, bend left=15] (symptoms) to (metabolic);
+    \draw[cycle-arrow, bend left=15] (metabolic) to (atp-def);
 
     % Central label
     \node[font=\bfseries, red!40!black] at (\centerx, \centery) {PEM};
     \node[font=\bfseries, red!40!black] at (\centerx, \centery - 0.4) {CYCLE};
 \end{scope}
 
-% Key point box
-\node[draw=red!70!black, fill=red!5, rounded corners, text width=12cm, align=left, font=\small] at (0, -6) {
-\textbf{Critical difference from normal:} Same activity causes ATP crisis, maladaptive inflammatory response, and delayed deterioration 24--72 hours later. Recovery takes days to weeks. Each PEM episode damages the system further. \textbf{Pacing to avoid PEM is essential.}
+% Key point box (below right cycle)
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=9cm, align=left, font=\small, inner sep=8pt] at (-1, -5.2) {
+\textbf{Critical differences from normal:}\\[4pt]
+\textbullet~Same activity triggers ATP crisis and harm cascade\\
+\textbullet~Delayed worsening occurs 24--72 hours post-exertion\\
+\textbullet~Recovery takes days to weeks, often incomplete\\
+\textbullet~Each PEM episode causes progressive damage\\[4pt]
+\textbf{Pacing to stay within energy envelope is essential.}
 };
 
 \end{tikzpicture}

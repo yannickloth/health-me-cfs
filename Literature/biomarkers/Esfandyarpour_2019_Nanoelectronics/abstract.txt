@@ -1,0 +1,18 @@
+A nanoelectronics-blood-based diagnostic biomarker for myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)
+
+R. Esfandyarpour, A. Kashi, M. Nemat-Gorgani, J. Wilhelmy, R.W. Davis
+
+Proceedings of the National Academy of Sciences of the United States of America (PNAS)
+Vol. 116, No. 21, pp. 10250-10257
+Published: April 29, 2019
+
+DOI: 10.1073/pnas.1901274116
+PMID: 31036648
+PMCID: PMC6535016
+URL: https://www.pnas.org/doi/10.1073/pnas.1901274116
+
+ABSTRACT:
+
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex disease with a significant societal impact and an estimated prevalence of ~2 million people in the United States. Despite its high prevalence, ME/CFS remains one of the most mysterious diseases in modern medicine. Currently, ME/CFS lacks well-established blood-based biomarkers and is typically diagnosed by clinical history and exclusion of other disorders. Here, we describe an ultrasensitive and accurate assay using a nanoelectronics biosensor that can be used to establish a diagnostic biomarker and a drug-screening platform for ME/CFS. Peripheral blood mononuclear cells (PBMCs) from patients with ME/CFS and healthy controls were subjected to hyperosmotic stress and then measured using electrochemical impedance spectroscopy. We demonstrated that the assay could accurately identify ME/CFS samples, correctly flagging all 20 ME/CFS patients and none of the 20 healthy controls (P = 4.48E-9). The impedance pattern of ME/CFS samples under hyperosmotic stress showed a unique characteristic that was distinctly different from healthy controls.
+
+Retrieved: 2026-01-23

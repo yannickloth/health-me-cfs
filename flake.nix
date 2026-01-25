@@ -23,8 +23,11 @@
           src = pkgs.lib.cleanSourceWith {
             src = self;
             filter = path: type:
-              let baseName = baseNameOf (toString path);
-              in !(baseName == ".git" || baseName == "result" || baseName == "infolead-latex-templates");
+              let
+                baseName = baseNameOf (toString path);
+                # Exclude git, result, templates, and test files
+              in !(baseName == ".git" || baseName == "result" || baseName == "infolead-latex-templates" ||
+                   pkgs.lib.hasPrefix "test-" baseName);
           };
           buildInputs = [ pkgs.coreutils pkgs.findutils tex ];
           phases = ["unpackPhase" "buildPhase" "installPhase"];
@@ -42,6 +45,11 @@
             find contents -type d -exec mkdir -p .build/{} \;
             mkdir -p .build/contents/shared
 
+            # Copy figures directory so \input{figures/...} works from main directory
+            if [ -d figures ]; then
+              cp -r figures .build/ 2>/dev/null || true
+            fi
+
             # Run latexmk - output goes to .build
             env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
               latexmk -interaction=nonstopmode -pdf -pdflatex \
@@ -58,6 +66,7 @@
         buildInputs = [
           pkgs.gh
           tex
+          pkgs.lynx # useful to extract text from html
           pkgs.elan
           pkgs.code-server
           (pkgs.python3.withPackages (ps: with ps; [

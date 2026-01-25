@@ -3,51 +3,58 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.75, every node/.style={scale=0.75},
+\begin{tikzpicture}[scale=1, every node/.style={scale=1},
     % Styles
-    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
-    output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
-    arrow/.style={-latex, very thick, green!70!black},
-    feedback/.style={-latex, thick, blue!70!black, dashed},
-    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
+    adaptive/.style={draw=green!70!black, fill=green!20, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
+    output/.style={draw=green!50!black, fill=green!30, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.3cm, drop shadow},
+    arrow/.style={-latex, very thick, green!70!black, line width=1.2pt},
+    feedback/.style={-latex, thick, blue!70!black, dashed, line width=1.1pt},
+    note/.style={font=\small\itshape, text width=3.5cm, align=left, green!40!black},
 ]
 
 % Title
 \node[font=\large\bfseries, green!70!black] at (0, 9) {Normal HPA Axis Function};
 
 % Stressor
-\node[process] (stressor) at (0, 7.5) {\textbf{Stressor}\\Physical or psychological};
+\node[process] (stressor) at (0, 7.5) {\textbf{Stressor}\\[2pt] Physical or psychological};
 
 % Hypothalamus
-\node[process] (hypothalamus) at (0, 5.5) {\textbf{Hypothalamus}\\CRH release};
+\node[process] (hypothalamus) at (0, 5.8) {\textbf{Hypothalamus}\\[2pt] CRH release};
 \draw[arrow] (stressor) -- (hypothalamus);
 
 % Pituitary
-\node[process] (pituitary) at (0, 3.5) {\textbf{Pituitary}\\ACTH release};
+\node[adaptive] (pituitary) at (0, 4) {\textbf{Pituitary}\\[2pt] ACTH release};
 \draw[arrow] (hypothalamus) -- (pituitary);
 
 % Adrenal
-\node[process] (adrenal) at (0, 1.5) {\textbf{Adrenal Cortex}\\Cortisol release};
+\node[adaptive] (adrenal) at (0, 2.2) {\textbf{Adrenal Cortex}\\[2pt] Cortisol release};
 \draw[arrow] (pituitary) -- (adrenal);
-\node[note, left=0.8cm of adrenal] {Cortisol rhythm:\\high AM,\\low PM};
+\node[note, left=0.9cm of adrenal, anchor=east] {
+    \textbullet~Cortisol rhythm:\\~~~High AM\\~~~Low PM
+};
 
 % Cortisol effects
-\node[output] (cortisol) at (0, -0.7) {\textbf{Cortisol Effects}\\Mobilize energy\\Anti-inflammatory\\Adaptive response};
+\node[adaptive] (cortisol) at (0, 0.4) {\textbf{Cortisol Effects}\\[2pt] Mobilize energy\\Anti-inflammatory};
 \draw[arrow] (adrenal) -- (cortisol);
 
 % Negative feedback (right side)
-\node[process, text width=3.5cm] (feedback-box) at (5, 3.5) {\textbf{Negative Feedback}\\Cortisol inhibits\\CRH \& ACTH};
+\node[process, text width=3.8cm] (feedback-box) at (5.2, 4) {\textbf{Negative Feedback}\\[2pt] Cortisol inhibits\\CRH \& ACTH};
 \draw[feedback, bend left=25] (cortisol.east) to (feedback-box.south);
 \draw[feedback] (feedback-box) -- (hypothalamus);
 \draw[feedback] (feedback-box) -- (pituitary);
 
 % Recovery
-\node[output] (recovery) at (0, -2.9) {\textbf{Stress Resolution}\\Cortisol normalizes\\Homeostasis restored};
+\node[output] (recovery) at (0, -1.5) {\textbf{STRESS RESOLUTION}\\[3pt] \textit{Return to baseline}\\[2pt] Homeostasis restored};
 \draw[arrow] (cortisol) -- (recovery);
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -5.3) {
-\textbf{Normal stress response:} Stressor activates hypothalamus $\rightarrow$ pituitary $\rightarrow$ adrenal axis. Cortisol mobilizes energy and suppresses inflammation. Negative feedback prevents over-activation. System returns to baseline after stress resolves.
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt] at (0, -4) {
+\textbf{Key characteristics:}\\[4pt]
+\textbullet~Stressor activates hypothalamus $\rightarrow$ pituitary $\rightarrow$ adrenal cascade\\
+\textbullet~Cortisol mobilizes energy and suppresses inflammation\\
+\textbullet~Negative feedback prevents over-activation\\
+\textbullet~System returns to baseline after stress resolves
 };
 
 \end{tikzpicture}
