@@ -35,6 +35,7 @@
 \newunicodechar{│}{|}
 \newunicodechar{└}{+}
 \newunicodechar{≤}{$\leq$}
+\newunicodechar{≥}{$\geq$}
 \newunicodechar{≈}{$\approx$}
 \newunicodechar{✓}{$\checkmark$}
 \newunicodechar{μ}{$\mu$}
@@ -166,30 +167,21 @@
 
 \begin{document}
 
-% Custom title page (standard format, not KOMA-specific)
-\begin{titlepage}
-\centering
-\vspace*{2cm}
-
-{\LARGE\bfseries Myalgic Encephalomyelitis / Chronic Fatigue Syndrome\par}
-\vspace{1cm}
-{\Large A Comprehensive Medical Documentation\par}
-\vspace{2cm}
-{\large \yannickloth\par}
-\vspace{0.5cm}
-{\normalsize Independent Patient-Researcher\par}
-\vspace{0.3cm}
-{\normalsize Contact: See patient community forums in Appendix D\par}
-
-\vfill
-
-{\normalsize \today\par}
-\end{titlepage}
-
-\clearpage
+% Title and metadata (KOMA-Script standard format)
+\title{Myalgic Encephalomyelitis / Chronic Fatigue Syndrome}
+\subtitle{A Comprehensive Medical Documentation}
+\author{Ing. Yannick Loth, M.Sc. (Management)\\
+    \small Software Architect \& Patient-Researcher\\
+    \small Messancy, Belgium\\
+    \small \href{mailto:yl@infolead.eu}{yl@infolead.eu}\\
+    \small ORCID: \href{https://orcid.org/0009-0003-5754-827X}{0009-0003-5754-827X}\\
+    \small DOI: \href{https://doi.org/10.5281/zenodo.18370022}{10.5281/zenodo.18370022}}
+\date{\today}
+\maketitle
 
 % Front matter (roman page numbers, unnumbered chapters)
 \frontmatter
+\include{contents/shared/abstract}
 \include{contents/shared/keywords}
 \include{contents/shared/license}
 \include{contents/shared/author-bio}
@@ -250,18 +242,19 @@
 \include{contents/part4-research/ch22-mechanistic-studies}
 \include{contents/part4-research/ch23-epidemiology-outcomes}
 \include{contents/part4-research/ch24-controversies}
+\include{contents/part4-research/ch25-translational-findings}
 
 % =============================================================================
 % PART V: MATHEMATICAL AND COMPUTATIONAL MODELING
 % =============================================================================
 \include{contents/part5-modeling/part5-intro}
-\include{contents/part5-modeling/ch25-modeling-foundations}
-\include{contents/part5-modeling/ch26-energy-metabolism-models}
-\include{contents/part5-modeling/ch27-immune-system-models}
-\include{contents/part5-modeling/ch28-neuroendocrine-models}
-\include{contents/part5-modeling/ch29-integrated-systems}
-\include{contents/part5-modeling/ch30-temporal-evolution}
-\include{contents/part5-modeling/ch31-predictive-applications}
+\include{contents/part5-modeling/ch26-modeling-foundations}
+\include{contents/part5-modeling/ch27-energy-metabolism-models}
+\include{contents/part5-modeling/ch28-immune-system-models}
+\include{contents/part5-modeling/ch29-neuroendocrine-models}
+\include{contents/part5-modeling/ch30-integrated-systems}
+\include{contents/part5-modeling/ch31-temporal-evolution}
+\include{contents/part5-modeling/ch32-predictive-applications}
 
 % =============================================================================
 % APPENDICES
