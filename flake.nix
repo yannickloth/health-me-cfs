@@ -25,8 +25,9 @@
             filter = path: type:
               let
                 baseName = baseNameOf (toString path);
-                # Exclude git, result, templates, and test files
+                # Exclude git, result, templates, test files, and nix caches
               in !(baseName == ".git" || baseName == "result" || baseName == "infolead-latex-templates" ||
+                   baseName == ".cache" || baseName == ".build" ||
                    pkgs.lib.hasPrefix "test-" baseName);
           };
           buildInputs = [ pkgs.coreutils pkgs.findutils tex ];
@@ -51,14 +52,17 @@
             fi
 
             # Run latexmk - output goes to .build
+            # -f forces processing, -interaction=nonstopmode to continue on warnings
+            # Note: latexmk may report warnings about missing files (from .fls) but still
+            # generate the PDF successfully. We continue if PDF exists.
             env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
               latexmk -interaction=nonstopmode -pdf -pdflatex \
-              -outdir=.build \
-              ms.tex
+              -f -outdir=.build \
+              ms.tex || [ -f .build/ms.pdf ]
           '';
           installPhase = ''
             mkdir -p $out
-            cp .build/ms.pdf $out/ms.pdf
+            cp .build/ms.pdf $out/loth2026-mecfs.pdf
           '';
         };
       };
