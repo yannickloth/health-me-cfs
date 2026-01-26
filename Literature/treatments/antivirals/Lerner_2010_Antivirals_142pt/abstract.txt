@@ -1,0 +1,11 @@
+Subset-directed antiviral treatment of 142 herpesvirus patients with chronic fatigue syndrome
+
+This large cohort study collected data at physician visits every 4-6 weeks from 142 chronic fatigue syndrome (CFS) patients at one clinic from 2001 to 2007. Patients were classified into groups based on herpesvirus serology: Group A (single infection), Group B (co-infections), and Group C (controls).
+
+Group A herpesvirus CFS patients (no coinfections) returned to a near-normal to normal life (P = 0.0001), with long-term EIPS (Energy Index Point Scale) value increasing significantly (primary endpoint, P < 0.0001) with subset-directed long-term valacyclovir and/or valganciclovir therapy.
+
+The study found that EBV nonpermissive replication is the cause of 28.3% of 106 consecutive CFS cases, and is etiologic with human cytomegalovirus and/or human herpes virus 6 as a coinfection in an additional 52.8% of CFS cases, meaning EBV is causally involved in 81% of cases of CFS in this cohort.
+
+DOI: 10.2147/VAAT.S10695
+URL: https://www.dovepress.com/subset-directed-antiviral-treatment-of-142-herpesvirus-patients-with-c-peer-reviewed-fulltext-article-VAAT
+Retrieved: 2026-01-25

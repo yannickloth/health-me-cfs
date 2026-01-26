@@ -1,0 +1,14 @@
+Postacute sequelae of SARS-CoV-2 (PASC, Long COVID) is a long-term consequence of acute COVID-19 infection. Clinical overlap between PASC and myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) has been observed, with shared symptoms including intractable fatigue, postexertional malaise, and orthostatic intolerance. The mechanistic underpinnings of such symptoms are poorly understood.
+
+Early studies suggested deconditioning as the primary explanation for exertional intolerance in PASC. However, cardiopulmonary exercise testing reveals perturbations related to systemic blood flow and ventilatory control associated with acute exercise intolerance in PASC, which are not typical of simple detraining. Hemodynamic and gas exchange derangements in PASC have substantial overlap with those observed with ME/CFS, suggestive of shared mechanisms.
+
+This review illustrates exercise pathophysiologic commonalities between PASC and ME/CFS that will help guide future diagnostics and treatment.
+
+DOI: 10.1016/j.chest.2023.03.049
+PMID: 37054777
+PMCID: PMC10088277
+Journal: CHEST, 2023 Sep;164(3):717-726
+Retrieved: 2026-01-24
+
+Authors: Joseph P, Singh I, Oliveira R, Capone CA, Mullen MP, Cook DB, Stovall MC, Squires J, Madsen K, Waxman AB, Systrom DM
+Affiliation: Division of Pulmonary, Critical Care, and Sleep Medicine, Yale; Division of Pulmonary and Critical Care, Brigham and Women's Hospital, Harvard Medical School

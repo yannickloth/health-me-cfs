@@ -1,0 +1,18 @@
+Six-year follow-up of participants in two clinical trials of rituximab or cyclophosphamide in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome
+
+Rekeland IG, Sørland K, Neteland LL, Fosså A, Alme K, Risa K, Dahl O, Tronstad KJ, Mella O, Fluge Ø.
+PLoS One. 2024 Jul 23;19(7):e0307484.
+
+OBJECTIVES: In this six-year follow-up study, we used patient-reported outcome measures (PROMs) to compare values at baseline, at 18 months, and at six-year follow up from the CycloME and the RituxME trials.
+
+METHODS: Based on the hypothesis that ME/CFS in a subgroup of patients is a variant of an autoimmune disease, we performed two clinical trials between 2014 and 2017. The RituxME trial was a randomized, double-blind and placebo-controlled phase III trial of 151 patients, assessing the B-cell depleting antibody rituximab. The CycloME trial was an open-label phase II trial of 40 patients using intravenous cyclophosphamide. Here we report six-year follow-up from both trials, using the Short Form 36 Physical Function (SF-36 PF) and DePaul short form (DSQ-SF) questionnaires.
+
+RESULT: Of the patients available after six years, 75.7% of RituxME and 94.4% of CycloME patients participated. In the RituxME rituximab group, the mean SF-36 PF scores were 32.9 at baseline, 42.4 at 18 months and 45.5 at six years. In the placebo group, the mean SF-36 PF scores were 32.3 at baseline, 45.5 at 18 months and 43.1 at six years. In the CycloME trial, mean SF-36 PF increased from 35.4 at baseline to 54.4 at 18 months, and 56.7 at six years. At six-year follow-up, 44.1% of cyclophosphamide-, 27.6% of rituximab- and 20.4% of placebo-treated patients had an SF-36 PF ≥ 70, and further, 17.6%, 8.6% and 7.4% of the corresponding patient groups had an SF-36 PF ≥ 90, which is within normal range. In terms of worsening at six years, 5.9% of cyclophosphamide-treated, 10.3% of rituximab-, and 14.8% of placebo-treated patients had a drop in SF-36 PF of 20 points or more from baseline. There were no serious unexpected adverse reactions.
+
+CONCLUSIONS: After six years, 44.1% of the cyclophosphamide group scored an SF-36 PF of at least 70, and 17.6% of at least 90, suggesting that cyclophosphamide in a subgroup may modulate the disease course in a beneficial way. However, cyclophosphamide carries toxicity concerns and should not be used for ME/CFS patients outside clinical trials. Rather, these data should encourage efforts to better understand the disease mechanisms and to search for targeted and less toxic immune modulatory treatment for this patient group.
+
+DOI: 10.1371/journal.pone.0307484
+PMCID: PMC11265720
+PMID: 39042627
+URL: https://pubmed.ncbi.nlm.nih.gov/39042627/
+Retrieved: 2026-01-24

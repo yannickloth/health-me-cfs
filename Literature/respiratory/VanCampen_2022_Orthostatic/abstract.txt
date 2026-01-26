@@ -1,0 +1,14 @@
+Orthostatic intolerance (OI) is a major symptom in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). This study evaluated physiological responses in ME/CFS patients using a standardized 10-minute passive vertical lean test as an orthostatic challenge, measuring heart rate, blood pressure, respiratory rate, and end-tidal CO2 (eTCO2).
+
+The majority of ME/CFS patients (60.3%, 38 of 63 patients) demonstrated abnormal responses during lean testing across visits, with abnormality rates of 51%, 50%, and 45% at visits 1, 2, and 3 respectively.
+
+Hypocapnia (low CO2) was the predominant abnormality. Over 80% of abnormal tests detected hypocapnia either after orthostatic challenge (44 instances) or also while supine (additional 14 instances; total 58 of 68 abnormal tests—85.2%). In comparison, POTS (postural orthostatic tachycardia) was detected in only 25% of abnormal tests, and orthostatic hypotension in 16.1%.
+
+Importantly, anxiety scores did not differ between those with and without hypocapnia, contradicting traditional medical teaching linking hypocapnia to anxiety. The most frequent abnormality, hypocapnia, would be missed without capnography, emphasizing the importance of proper testing equipment.
+
+DOI: 10.1186/s12967-022-03289-8
+PMID: 35172863
+Journal: Journal of Translational Medicine, 2022 Feb 16;20:95
+Retrieved: 2026-01-24
+
+Authors: Benjamin H Natelson (corresponding), Jin-Mann S Lin, Michelle Blate, Sarah Khan, Yang Chen, Elizabeth R Unger

@@ -1,0 +1,15 @@
+This study examined whether low-dose naltrexone (LDN) could restore TRPM3 ion channel function in natural killer cells from ME/CFS patients. The research involved 9 ME/CFS patients on LDN and 9 matched healthy controls.
+
+Low-dose naltrexone (3.0-5.0 mg/day) was administered at a mean dose of 4.06 mg/day for an average duration of approximately 21 months. Patients taking LDN demonstrated restored TRPM3 ion channel activity. Small ionic currents with typical TRPM3-like outward rectification were measured after application of pregnenolone sulfate (PregS) in treated patients, matching healthy controls.
+
+Patients reported significant improvement in cognitive function and immune disturbances (p=0.004 and p=0.024 respectively). A cited retrospective study found 73.9% of ME/CFS patients reported a positive treatment response to LDN treatment.
+
+LDN acts as a mu-opioid receptor antagonist, negating inhibitory effects on TRPM3 channels, which restores calcium signaling critical for natural killer cell immune function.
+
+DOI: 10.3389/fimmu.2021.687806
+PMCID: PMC8313851
+Journal: Frontiers in Immunology, July 13, 2021
+Retrieved: 2026-01-24
+
+Authors: Helene Cabanas, Katsuhiko Muraki, Natalie Eaton-Fitch, Donald Ross Staines, Sonya Marshall-Gradisnik
+Affiliation: National Centre for Neuroimmunology and Emerging Diseases, Griffith University

@@ -1,0 +1,31 @@
+Low-dose naltrexone in the treatment of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS)
+
+Polo O, Pesonen P, Tuominen E.
+Fatigue: Biomedicine, Health & Behavior. 2019;7(4):207-217.
+
+ABSTRACT:
+
+BACKGROUND: Low-dose naltrexone (LDN) is an emerging treatment modality that is being used for various chronic pain and autoimmune conditions. Anecdotal evidence has suggested that LDN could be beneficial in the treatment of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS).
+
+OBJECTIVE: The aim of this study was to evaluate treatment response of ME/CFS patients who were treated with LDN.
+
+METHODS: Medical records of patients who received a diagnosis of ME/CFS and LDN treatment during 2010–2014 were retrospectively analyzed. A total of 218 patients were identified. At baseline, symptoms were evaluated using a detailed questionnaire assessing fatigue, physical performance, cognitive dysfunction, muscle aches, and gastrointestinal symptoms. Treatment response was assessed during follow-up visits. Positive treatment response was defined as reported subjective improvement in symptoms, particularly in physical performance, vigilance/alertness, and/or cognitive function.
+
+RESULTS: Outcome data were available in 92.2% of the patients (mean follow-up time 1.7 years). A positive treatment response to LDN was reported by 73.9% (n = 161) of the patients. Improvement in vigilance/alertness was reported by 51.4% of the patients, physical performance improved in 23.9% and cognitive dysfunction diminished in 21.1%. Mild adverse effects such as insomnia and nausea were common at the beginning of the treatment, but neither severe adverse effects nor long-term adverse symptoms were reported.
+
+CONCLUSION: This retrospective analysis shows that treatment with LDN could be beneficial for ME/CFS patients. The treatment was well tolerated and adverse effects were mild and transient. However, placebo-controlled studies are needed to confirm these findings.
+
+KEYWORDS: Low-dose naltrexone, chronic fatigue syndrome, myalgic encephalomyelitis, ME/CFS, treatment
+
+DOI: 10.1080/21641846.2019.1692770
+URL: https://www.tandfonline.com/doi/full/10.1080/21641846.2019.1692770
+Retrieved: 2026-01-24
+
+STUDY DETAILS:
+- Design: Retrospective chart review (observational)
+- Sample: 218 ME/CFS patients
+- Setting: Sleep and Breathing Center, Tampere, Finland
+- Treatment: LDN 3.0-4.5 mg/day
+- Follow-up: Mean 1.7 years (range not specified)
+- Outcome: Patient-reported subjective improvement
+- Response definition: Self-reported improvement in symptoms

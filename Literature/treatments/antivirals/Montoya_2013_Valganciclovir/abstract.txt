@@ -1,0 +1,15 @@
+Randomized clinical trial to evaluate the efficacy and safety of valganciclovir in a subset of patients with chronic fatigue syndrome
+
+The EVOLVE (Evaluation of Valganciclovir in Longstanding Viral Exposure) study was a double-blind, placebo-controlled randomized trial involving thirty chronic fatigue syndrome (CFS) patients with elevated IgG antibody titers against HHV-6 and EBV. Patients were randomized 2:1 to receive valganciclovir (VGCV) 900mg BID or placebo for 6 months in a double-blind design.
+
+Statistically significant differences in trajectories between groups were observed in the MFI-20 mental fatigue subscore (P = 0.039), FSS (Fatigue Severity Scale) score (P = 0.006), and overall cognitive function (P = 0.025). VGCV patients experienced these improvements within the first 3 months and maintained that benefit over the remaining 9 months. Patients in the VGCV arm were 7.4 times more likely to be classified as responders (P = 0.029).
+
+In the VGCV arm, monocyte counts decreased (P < 0.001), neutrophil counts increased (P = 0.037) and cytokines were more likely to evolve towards a Th1-profile (P < 0.001), suggesting immunomodulatory effects.
+
+VGCV may have clinical benefit in a subset of CFS patients independent of placebo effect, possibly mediated by immunomodulation and/or antiviral effect.
+
+DOI: 10.1002/jmv.23713
+PubMed: 23959519
+URL: https://onlinelibrary.wiley.com/doi/10.1002/jmv.23713
+ClinicalTrials.gov: NCT00478465
+Retrieved: 2026-01-25

@@ -1,0 +1,8 @@
+A six-month trial of valacyclovir in the Epstein-Barr virus subset of chronic fatigue syndrome: improvement in left ventricular function
+
+This study evaluated the safety and efficacy of a 6-month trial of valacyclovir in single-virus Epstein-Barr virus (EBV) persistent infection chronic fatigue syndrome (CFS) patients. Sixteen CFS patients with EBV-persistent infection improved after 6 months of continuous pharmacokinetic dosing with valacyclovir, while nine CFS patients with EBV/human cytomegalovirus co-infection did not benefit from 6 months of similar treatment. Improvements were documented in left ventricular function as measured by cardiac imaging.
+
+DOI: 10.1358/dot.2002.38.8.820095
+PubMed: 12582420
+URL: https://pubmed.ncbi.nlm.nih.gov/12582420/
+Retrieved: 2026-01-25
