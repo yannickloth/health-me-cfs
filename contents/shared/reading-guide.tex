@@ -1,20 +1,53 @@
-\chapter*{How to Use This Document}
-\addcontentsline{toc}{chapter}{How to Use This Document}
+\chapter*{Reading Guide: How to Use This Document}
+\addcontentsline{toc}{chapter}{Reading Guide: How to Use This Document}
+\label{ch:reading-guide}
 
-This comprehensive documentation is organized to serve multiple audiences: researchers, clinicians, patients, caregivers, and advocates. This guide will help you navigate the content effectively.
+This comprehensive documentation is organized to serve multiple audiences: researchers, clinicians, patients, caregivers, and advocates. This guide explains the document structure and how to interpret the specialized environments used throughout.
 
 \section*{Document Organization}
 
-The document is divided into four main parts:
+The document is divided into five main parts:
 
 \begin{description}
-\item[Part I: Clinical Overview] Covers symptoms, diagnostic criteria, and clinical presentation. Start here for understanding what ME/CFS is and how it manifests.
+\item[Part I: Clinical Overview] Covers symptoms, diagnostic criteria, disease course, and clinical presentation. Start here for understanding what ME/CFS is and how it manifests.
 
-\item[Part II: Pathophysiology] Explores mechanisms—known, suspected, and potentially related phenomena. Essential for understanding the biological basis of the disease.
+\item[Part II: Pathophysiology] Explores biological mechanisms---known, suspected, and speculative. Essential for understanding the multisystem nature of the disease.
 
 \item[Part III: Treatment and Management] Documents medications, supplements, lifestyle interventions, and management strategies. Includes both evidence-based approaches and emerging therapies.
 
-\item[Part IV: Research and Evidence] Synthesizes current research, clinical trials, and evidence. Provides detailed summaries of key studies and their findings.
+\item[Part IV: Research and Evidence] Synthesizes current research, clinical trials, biomarker studies, and epidemiology. Provides detailed summaries of key findings.
+
+\item[Part V: Mathematical Modeling] Presents computational and mathematical approaches to understanding ME/CFS systems biology (advanced/technical).
+\end{description}
+
+\section*{Understanding Statement Types}
+
+This manuscript uses formal environments to classify statements by their epistemic status and evidence strength. Understanding these distinctions is essential for critically evaluating medical claims.
+
+\subsection*{Scientific Claims}
+
+\begin{description}
+\item[Achievement] A well-established research finding with strong evidence. Achievements represent replicated results from peer-reviewed studies with adequate sample sizes and methodological rigor. These are the most reliable claims in the document.
+
+\item[Hypothesis] An unproven conjecture or working theory. Hypotheses are clearly marked because they may be wrong. Many ME/CFS mechanisms remain hypothetical due to limited research funding and methodological challenges.
+
+\item[Prediction] A testable claim about future observations or experimental outcomes. Predictions specify what research should find if a hypothesis is correct, providing a path to validation or falsification.
+
+\item[Requirement] A necessary condition for a diagnosis, treatment, or research interpretation to be valid. Requirements specify what must be true for a claim to hold.
+
+\item[Warning] A critical caveat about limitations, risks, or potential misinterpretations. Warnings flag where treatments may be contraindicated, where research is preliminary, or where claims should be interpreted cautiously.
+\end{description}
+
+\subsection*{Evidence Quality Levels}
+
+Throughout this document, research findings are classified by evidence strength:
+
+\begin{description}
+\item[High Certainty] Large sample size (n>100), peer-reviewed in reputable journal, independently replicated, consistent across studies. Can be cited with confidence.
+
+\item[Medium Certainty] Moderate sample (n=20--100), peer-reviewed but single study or limited replication, sound methodology. Promising but requires confirmation.
+
+\item[Low Certainty] Small sample (n<20), preprint or conference abstract, methodological concerns, or contradicted by other studies. Noted as preliminary.
 \end{description}
 
 \section*{Navigation Tips}
@@ -24,16 +57,40 @@ The document is divided into four main parts:
 \item Cross-references appear as clickable hyperlinks in the PDF
 \item The Index provides quick access to terms and concepts
 \item Citations link to the Bibliography for full reference details
+\item Appendix H contains annotated summaries of key papers
+\item Appendix I documents the author's personal case data
 \end{itemize}
 
 \section*{For Different Readers}
 
-\paragraph{Patients and Caregivers:} Focus on Part I (Clinical Overview) and Part III (Treatment). The pathophysiology sections may be technical but can help understand the biological basis of symptoms.
+\paragraph{Patients and Caregivers:} Focus on Part I (Clinical Overview) and Part III (Treatment). The pathophysiology sections may be technical but can help understand symptom mechanisms. Part V (Mathematical Modeling) is optional and highly technical.
 
-\paragraph{Clinicians:} All sections are relevant. Part II provides mechanistic understanding, while Parts III and IV offer evidence-based treatment guidance.
+\paragraph{Clinicians:} All sections are relevant. Part II provides mechanistic understanding, Parts III and IV offer evidence-based treatment guidance, and Appendix I presents a detailed case study with quantitative tracking.
 
-\paragraph{Researchers:} Part II and IV provide detailed mechanistic insights and research synthesis. The appendices contain supplementary technical information.
+\paragraph{Researchers:} Parts II, IV, and V provide detailed mechanistic insights, research synthesis, and modeling approaches. Appendix H contains literature summaries organized by topic.
+
+\section*{Critical Reading Advice}
+
+When evaluating medical claims in this document:
+
+\begin{enumerate}
+\item \textbf{Check the evidence level.} High-certainty findings are more reliable than preliminary results. Many ME/CFS mechanisms remain speculative due to limited research.
+
+\item \textbf{Distinguish established from hypothetical.} Results in \texttt{achievement} environments represent replicated findings. Results in \texttt{hypothesis} environments are working theories that may be revised.
+
+\item \textbf{Note the warnings.} Limitations acknowledged in \texttt{warning} environments indicate where the author recognizes uncertainty or potential problems.
+
+\item \textbf{Remember the author is not a physician.} This work represents independent patient research and literature synthesis, not clinical guidance. All treatment decisions require physician oversight.
+
+\item \textbf{Recognize individual variation.} ME/CFS presents heterogeneously. The personal case data in Appendix I documents one individual's experience and may not generalize to others.
+
+\item \textbf{Consider publication date.} ME/CFS research is rapidly evolving. This document reflects knowledge current at time of publication.
+\end{enumerate}
+
+\section*{Medical Disclaimer}
+
+\textbf{This is not medical advice.} The author has no medical training. This work synthesizes research literature and documents one individual's experience for educational purposes. Always consult qualified healthcare providers before making medical decisions.
 
 \section*{Updates and Corrections}
 
-This is a living document. Updates will be published as new research emerges. Errors or omissions can be reported to the author.
+This is a living document. Updates will be published as new research emerges. The source code is available at \url{https://github.com/yannickloth/health-me-cfs}. Errors or omissions can be reported to the author via email.
