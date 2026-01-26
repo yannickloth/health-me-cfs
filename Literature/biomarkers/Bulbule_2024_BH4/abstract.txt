@@ -1,0 +1,29 @@
+Dysregulation of tetrahydrobiopterin metabolism in myalgic encephalomyelitis/chronic fatigue syndrome by pentose phosphate pathway
+
+Bulbule S, Gottschalk CG, Drosen ME, Peterson D, Arnold LA, Roy A.
+J Cent Nerv Syst Dis. 2024 Aug 19;16:11795735241271675.
+
+BACKGROUND: Tetrahydrobiopterin (BH4) and its oxidized derivative dihydrobiopterin (BH2) were found to be strongly elevated in ME/CFS patients with orthostatic intolerance (ME + OI). However, the molecular mechanism of biopterin biogenesis is poorly understood in ME + OI subjects.
+
+OBJECTIVES: This study aimed to elucidate the biogenesis of biopterins and their impact on the immune system.
+
+DESIGN: Pilot mechanistic study using patient samples and cellular assays.
+
+METHODS: Plasma samples from ME/CFS patients with orthostatic intolerance (ME + OI, n=10) and healthy controls (HC, n=10) were analyzed. BH4 and BH2 levels were measured by competitive ELISA. The level of GTP cyclohydrolase I (GTPCH1 or GCH1) enzyme was quantified in peripheral blood mononuclear cells (PBMCs). Pentose phosphate pathway (PPP) metabolites were measured. In vitro experiments used human microglial cells.
+
+RESULTS: BH4 and BH2 levels were significantly elevated in ME + OI patients. The activation of the non-oxidative pentose phosphate pathway (PPP) was confirmed to be required for the upregulation of both BH4 and BH2 via the purine biosynthetic pathway. Exogenously added plasma samples of ME + OI patients with high BH4 upregulated inducible nitric oxide synthase (iNOS) and nitric oxide (NO) in human microglial cells, suggesting these biopterins could stimulate inflammatory responses in ME + OI patients.
+
+CONCLUSIONS: The augmentation of anaerobic PPP plays a critical role in the biogenesis of biopterins in ME/CFS patients with orthostatic intolerance. Elevated BH4 may contribute to neuroinflammation through iNOS/NO pathway activation.
+
+DOI: 10.1177/11795735241271675
+PMCID: PMC11331476
+PMID: 39161795
+URL: https://pubmed.ncbi.nlm.nih.gov/39161795/
+Retrieved: 2026-01-24
+
+Related earlier study (2023):
+Gottschalk CG, Whelan R, Peterson D, Roy A. Detection of elevated level of tetrahydrobiopterin in serum samples of ME/CFS patients with orthostatic intolerance: A pilot study. Int J Mol Sci. 2023;24(10):8713.
+PMID: 37240059
+DOI: 10.3390/ijms24108713
+- Showed elevated BH4 in CFS (n=32), CFS+OI (n=10), CFS+OI+SFN (n=12) vs controls (n=30)
+- BH4 significantly elevated in all CFS groups (p=0.033 for general CFS, p=0.0223 for CFS+OI)

@@ -1,0 +1,18 @@
+This paper proposes that myalgic encephalomyelitis/chronic fatigue syndrome frequently co-occurs with mast cell activation, dysmenorrhea, endometriosis, postural tachycardia, and small fiber neuropathy through shared vascular dysfunction mechanisms. The main pathomechanisms responsible for this association are excessive spillover of inflammatory mediators into systemic circulation.
+
+The authors identify two distinct mediator pathways:
+- Bradykinin route (ME/CFS dominant): Released from ischemic skeletal muscle; causes preload failure through vasodilation and vascular permeability
+- Histamine route (MCAS dominant): Released by mast cells; produces more anaphylactic/hypotensive responses with stronger venous effects
+
+The authors note that "less overlap seems present between mediators in MCA and ME/CFS," yet both share hyperalgesic and spasmogenic properties enabling symptom overlap.
+
+Beta-2-adrenergic receptor (β2AdR) dysfunction appears central: Autoantibodies and desensitization impair vasodilator capacity, reduce Na+/K+-ATPase stimulation leading to intracellular sodium accumulation and calcium overload, and generate reactive oxygen species from damaged mitochondria perpetuating vascular injury.
+
+"Dysfunctional β2AdR could play a detrimental role by favoring mast cell degranulation," creating bidirectional disease worsening. Mutual triggering occurs: ME/CFS stress desensitizes mast cell-stabilizing receptors while mast cell mediators worsen orthostatic dysfunction and cerebral hypoperfusion characteristic of ME/CFS.
+
+DOI: 10.3390/medicina59050978
+Journal: Medicina (Kaunas), 2023 May 18;59(5):978
+Retrieved: 2026-01-24
+
+Authors: Klaus J Wirth, Matthias Löhn
+Affiliation: Institute of General Pharmacology and Toxicology, University Hospital Frankfurt am Main
