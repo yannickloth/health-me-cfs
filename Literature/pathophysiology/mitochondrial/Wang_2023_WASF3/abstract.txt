@@ -1,0 +1,19 @@
+WASF3 disrupts mitochondrial respiration and may mediate exercise intolerance in myalgic encephalomyelitis/chronic fatigue syndrome
+
+Authors: Wang P-Y, Ma J, Kim Y-C, and colleagues
+Journal: Proceedings of the National Academy of Sciences, 2023;120(34):e2302738120
+DOI: 10.1073/pnas.2302738120
+PMID: 37579159
+PMCID: PMC10450651
+Published: August 22, 2023
+
+ABSTRACT:
+This study identifies endoplasmic reticulum (ER) stress-induced WASF3 protein as a mediator of mitochondrial dysfunction in ME/CFS. Elevated WASF3 disrupts respiratory supercomplex assembly in mitochondria, leading to decreased oxygen consumption and exercise endurance.
+
+The research examined skeletal muscle biopsies from ME/CFS patients (n=14) compared to healthy controls (n=10), plus transgenic mouse models. Muscle samples from ME/CFS patients exhibited elevated WASF3 and aberrant ER stress activation. Transgenic mice with increased WASF3 expression showed markedly decreased treadmill running capacity with concomitantly impaired respiratory supercomplex assembly.
+
+Knocking down WASF3 in patient cells using shRNA improved basal respiration and significantly boosted spare respiratory capacity to control levels. WASF3 transgenic mice showed higher blood lactate levels at rest, mirroring the elevated lactate observed in ME/CFS patients that correlates with post-exertional malaise severity.
+
+Immunoblots of skeletal muscle biopsy samples from ME/CFS patients showed reciprocal relationships between protein levels of Complex IV subunits and WASF3 or PERK (ER stress marker).
+
+Retrieved: 2026-01-23

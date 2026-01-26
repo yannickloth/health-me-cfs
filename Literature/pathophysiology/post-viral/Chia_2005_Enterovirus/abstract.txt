@@ -1,0 +1,27 @@
+The role of enterovirus in chronic fatigue syndrome
+
+Chia JKS.
+J Clin Pathol. 2005 Nov;58(11):1126-32.
+
+Two and a half decades after coining of the term chronic fatigue syndrome (CFS), the diagnosis of this illness is still symptom based and the aetiology remains elusive. Enteroviruses are well known causes of acute respiratory and gastrointestinal infections, with tropism for the central nervous system, muscles, and heart. Initial reports of chronic enteroviral infections causing debilitating symptoms in patients with CFS were met with skeptism, and had been largely forgotten for the past decade. Observations from in vitro experiments and from animal models clearly established a state of chronic persistence through the formation of double stranded RNA, similar to findings reported in muscle biopsies of patients with CFS. Recent evidence not only confirmed the earlier studies, but also clarified the pathogenic role of viral RNA through antiviral treatment. This review summarises the available experimental and clinical evidence that supports the role of enterovirus in chronic fatigue syndrome.
+
+KEYWORDS: enterovirus, chronic fatigue syndrome, double stranded RNA, viral persistence
+
+Key Findings:
+- 48% of CFS patients had enteroviral RNA in stomach biopsies vs 8% of controls
+- Double-stranded RNA (dsRNA) formation enables chronic viral persistence
+- Enterovirus protein VP1 found in muscle biopsies of CFS patients
+- Animal models support chronic enteroviral infection causing fatigue-like symptoms
+- Antiviral treatment (interferon) showed benefit in small subset
+
+DOI: 10.1136/jcp.2004.020255
+PMCID: PMC1770761
+PMID: 16254097
+URL: https://pubmed.ncbi.nlm.nih.gov/16254097/
+Retrieved: 2026-01-24
+
+STUDY DETAILS (from review):
+- Stomach biopsy study: 165 CFS patients, 48% positive for enteroviral RNA vs 8% controls (p<0.001)
+- Used RT-PCR targeting 5' non-coding region of enterovirus genome
+- Viral persistence through non-cytolytic mechanism (dsRNA formation)
+- Evidence from multiple independent groups (Chia, Yousef, McGarry, Cunningham)

@@ -1,0 +1,16 @@
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a debilitating multisystem disorder affecting approximately 1% of the U.S. population, characterized by severe fatigue, post-exertional malaise (PEM), unrefreshing sleep, and cognitive impairment. This review examines mitochondrial dysfunction as a pathogenic factor in ME/CFS, with particular emphasis on recent findings regarding WASF3 protein and endoplasmic reticulum stress.
+
+Multiple studies document impaired mitochondrial function: lower ATP synthesis rate via phosphorus-31 MRS, increased intracellular acidosis consistent with glycolytic shift, and decreased oxygen utilization during exercise. Elevated WASF3 protein levels in patient fibroblasts correlated with increased ER stress and reduced respiratory complex IV (CIV) subunit abundance. WASF3 overexpression disrupts mitochondrial respiratory supercomplexes by interfering with complex III and IV assembly.
+
+Skeletal muscle biopsies from ME/CFS cohorts demonstrated elevated WASF3 protein alongside increased ER stress markers and decreased CIV levels. Transgenic mice overexpressing human WASF3 displayed significantly reduced exercise capacity and higher blood lactate levels, consistent with impaired oxidative metabolism.
+
+The review summarizes therapeutic approaches including CoQ10 and NADH supplementation (improved fatigue, cognition, sleep in RCTs), D-ribose (enhanced energy and mental clarity), and ER stress inhibition (salubrinal reduced WASF3 and restored mitochondrial function in patient cells).
+
+DOI: 10.1152/physiol.00056.2024
+PMID: 39960432
+PMCID: PMC12151296
+Journal: Physiology (Bethesda), 2025, 40(4) [published Feb 17, 2025]
+Retrieved: 2026-01-24
+
+Authors: Abu Mohammad Syed, Alexander K Karius, Jin Ma, Ping-yuan Wang, Paul M Hwang
+Affiliation: Cardiovascular Branch, National Heart, Lung, and Blood Institute, NIH

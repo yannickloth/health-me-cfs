@@ -1,0 +1,42 @@
+Evaluation of viral infection as an etiology of ME/CFS: a systematic review and meta-analysis
+
+Authors: Hwang J-H, Lee J-S, Oh H-M, and colleagues
+Journal: Journal of Translational Medicine, 2023;21(1):763
+DOI: 10.1186/s12967-023-04635-0
+PMID: 37898798
+PMCID: PMC10612276
+Published: October 29, 2023
+
+ABSTRACT:
+This comprehensive systematic review and meta-analysis examined viral infections as an etiological factor in ME/CFS. The analysis included 64 studies with a total of 4,971 ME/CFS patients and 9,221 control subjects, analyzing 18 species of viruses.
+
+METHODS:
+Systematic search of PubMed and Cochrane Library through December 31, 2022. Meta-analysis calculated odds ratios comparing viral infection prevalence in ME/CFS patients versus healthy and diseased controls.
+
+KEY FINDINGS:
+
+Five viruses showed odds ratios >2.0 (indicating moderate to strong associations):
+
+DNA VIRUSES:
+- Human herpesvirus-7 (HHV-7): OR >2.0
+- Parvovirus B19 (including co-infections): OR >2.0
+
+RNA VIRUSES:
+- Borna disease virus (BDV): OR ≥3.47 (STRONGEST ASSOCIATION - exceeded cutoff vs. both healthy and diseased controls, categorized as "moderate association")
+- Enterovirus: OR >2.0
+- Coxsackie B virus: OR >2.0
+
+HETEROGENEITY:
+- EBV (with healthy controls): >50% heterogeneity across studies
+- Enterovirus (with diseased controls): >50% heterogeneity across studies
+- High heterogeneity indicates variability in findings, suggesting possible subgroup effects or methodological differences
+
+CONCLUSION:
+The meta-analysis provides evidence for viral associations with ME/CFS, particularly strong for BDV (OR≥3.47), with moderate associations for HHV-7, parvovirus B19, enteroviruses, and coxsackie B viruses. However, heterogeneity in findings suggests that viral etiology may apply to specific subgroups rather than all ME/CFS patients.
+
+IMPORTANT NOTE: Associations do not prove causation. Elevated viral markers could indicate:
+1. Viral infection triggers ME/CFS onset
+2. ME/CFS immune dysfunction allows viral reactivation
+3. Both conditions share underlying immune susceptibility
+
+Retrieved: 2026-01-23

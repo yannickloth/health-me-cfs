@@ -1,0 +1,19 @@
+This review compares two post-infectious conditions affecting millions globally: Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID. Some patients remain unwell for months after recovering from acute COVID-19, developing persistent fatigue, cognitive issues, headaches, and other debilitating symptoms. The review examines how both conditions share similar underlying biological abnormalities across multiple organ systems.
+
+Between 13-45% of individuals with persistent, debilitating Long COVID symptoms meet the National Academy of Medicine case definition criteria for ME/CFS.
+
+Both conditions demonstrate shared pathophysiological features including:
+- Central and autonomic nervous system abnormalities: Reduced cerebral blood flow, cognitive deficits, autonomic dysfunction
+- Immune response abnormalities: Abnormal cytokine production, autoantibodies, natural killer cell dysfunction
+- Energy metabolism impairment: Impaired ATP generation, mitochondrial dysfunction
+- Redox imbalance: Increased oxidative stress, decreased antioxidants
+- Cardiovascular dysfunction: Reduced exercise capacity, endothelial dysfunction, reduced blood volume
+- Infectious agent reactivation: Reactivation of latent herpesviruses
+- Microbiome alterations: Dysbiosis and proinflammatory changes
+
+DOI: 10.3389/fmed.2023.1187163
+PMCID: PMC10278546
+Journal: Frontiers in Medicine (Lausanne), 2023 Jun 2
+Retrieved: 2026-01-24
+
+Authors: Anthony L Komaroff (Brigham and Women's Hospital, Harvard Medical School), W Ian Lipkin (Columbia University, Mailman School of Public Health)

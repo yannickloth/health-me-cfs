@@ -1,0 +1,32 @@
+The IDO Metabolic Trap Hypothesis for the Etiology of ME/CFS
+
+Authors: Kashi AA, Davis RW, Phair RD
+Journal: Diagnostics (Basel), 2019;9(3):82
+DOI: 10.3390/diagnostics9030082
+PMID: 31357483
+PMCID: PMC6787624
+Published: July 26, 2019
+
+ABSTRACT:
+This paper presents a mathematical model proposing that ME/CFS arises from a "metabolic trap" in tryptophan metabolism. The hypothesis centers on bistability in the kynurenine pathway - the system can exist in either a normal physiological state or a pathological steady-state.
+
+KEY MECHANISMS:
+1. Common damaging mutations in IDO2 (particularly R248W) reduce enzyme function - every ME/CFS patient in the Severely Ill Big Data Study had at least one IDO2 mutation
+2. Substrate inhibition of IDO1: At high tryptophan levels, IDO1 paradoxically decreases kynurenine production
+3. Kinetic asymmetry of LAT1 transporter creates differential tryptophan flux
+4. Critical threshold: Beyond a critical cytosolic tryptophan level, the system inevitably descends into the pathological steady-state
+
+BISTABILITY MODEL:
+The mathematical model identifies two stable equilibria:
+- Physiological state: Normal tryptophan levels, normal IDO1 activity
+- Pathological state (the "trap"): Elevated tryptophan, inhibited IDO1, reduced kynurenine
+
+Once trapped in the pathological state, the system cannot spontaneously return to normal. External perturbation is required to reduce cytosolic tryptophan below the critical threshold, enabling return to the physiological steady-state.
+
+THEORETICAL IMPLICATIONS:
+- Explains why ME/CFS is chronic and difficult to reverse
+- Suggests therapeutic strategy: interventions that reduce cytosolic tryptophan below critical point
+- Accounts for genetic predisposition (IDO2 mutations)
+- Provides testable predictions via metabolomics
+
+Retrieved: 2026-01-23
