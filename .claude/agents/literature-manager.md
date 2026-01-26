@@ -1,6 +1,6 @@
 ---
 name: literature-manager
-description: Download and integrate research papers, manage Literature folder, update references.bib, and incorporate findings into document. Use when finding citations, fetching papers, or integrating research.
+description: Download and organize research papers, manage Literature folder, update references.bib, and update appendix bibliography. Use when downloading papers, creating Literature folders, or updating bibliography. Does NOT edit main chapter files - that's handled by chapter-integrator.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep, WebFetch, WebSearch
 ---
@@ -14,8 +14,10 @@ When research papers, reviews, or other scientific references are identified:
 1. **Download/Archive** papers to Literature folder with organized structure
 2. **Add to references.bib** with complete BibTeX entries
 3. **Update appendix** bibliography sections
-4. **Integrate findings** into main document when valuable
-5. **Assess quality** and note certainty/validity
+4. **Assess quality** and note certainty/validity
+5. **Create integration guides** for chapter-integrator agent
+
+**NOTE:** You do NOT edit main chapter files (contents/part*/*.tex). That is handled by the `chapter-integrator` agent. Your responsibility ends at creating comprehensive integration guides.
 
 ## Process
 
@@ -229,35 +231,225 @@ Supports the hypothesis that ME/CFS involves early immune activation followed by
 \end{itemize}
 ```
 
-### Step 6: Integrate into Main Document
+### Step 6: Create Integration Guide (for chapter-integrator agent)
 
-When findings are significant, add to appropriate chapter:
+**IMPORTANT:** You do NOT edit main chapter files directly. Instead, create comprehensive integration guides that the `chapter-integrator` agent will use.
 
-**If novel finding supporting your work:**
+Create a file: `Literature/[category]/[Author]_[Year]/integration-guide.md`
+
+**Content:**
+```markdown
+# Integration Guide: [Author] [Year]
+
+## Paper Citation Key
+**BibTeX key:** `[Author][Year]`
+
+## Recommended Chapters for Integration
+
+### Primary Target: ch[NN]-[name].tex
+**File:** `contents/part[X]-[section]/ch[NN]-[name].tex`
+**Section hint:** "[specific section, e.g., NK cell dysfunction]"
+**Environment type:** `hypothesis` | `achievement` | `observation` | `warning` | `speculation`
+**Rationale:** [Why this chapter and why this environment type]
+
+**Suggested LaTeX:**
+```latex
+\begin{[environment]}[[Title]]
+\label{[env]:authorYEAR-keyword}
+[Author] et al.~\cite{[CitationKey]} [finding description with context].
+Study: (n=[number], [design], certainty: [High/Medium/Low]).
+[ME/CFS relevance and implications].
+\end{[environment]}
+```
+
+### Secondary Target: ch[NN]-[name].tex (optional)
+**File:** `contents/part[X]-[section]/ch[NN]-[name].tex`
+**Section hint:** "[section name]"
+**Suggested inline citation:**
+```latex
+[Existing claim] is further supported by [Author] et al.~\cite{[CitationKey]},
+who found [specific finding] in a cohort of [n] patients.
+```
+
+## Key Points to Convey
+1. [Main finding 1 - how to phrase it]
+2. [Main finding 2 - emphasis]
+3. [Main finding 3 - limitations to note]
+
+## Certainty Assessment for Integration
+- **Quality:** [High/Medium/Low]
+- **Sample:** n=[number]
+- **Replication:** [Yes/No/Pending]
+- **Limitations:** [critical limitations to mention]
+
+## Cross-References
+- Related papers: [Other papers in Literature/ to potentially cite together]
+- Related sections: [Other chapters that might reference this]
+```
+
+**Example integration-guide.md:**
+```markdown
+# Integration Guide: Hornig 2015
+
+## Paper Citation Key
+**BibTeX key:** `Hornig2015`
+
+## Recommended Chapters for Integration
+
+### Primary Target: ch07-immune-dysfunction.tex
+**File:** `contents/part2-pathophysiology/ch07-immune-dysfunction.tex`
+**Section hint:** "Cytokine profiles" or "Immune biomarkers"
+**Environment type:** `achievement`
+**Rationale:** This is a high-certainty, replicated finding worthy of achievement environment
+
+**Suggested LaTeX:**
 ```latex
 \begin{achievement}[Cytokine-Based Biomarkers]
-\label{ach:cytokines}
-Hornig et al.~\cite{Hornig2015} identified a distinct 8-cytokine signature present in 94\% of early-stage ME/CFS patients, providing the first validated immune-based biomarker panel for the disease.
-The signature includes elevated IL-8, IL-10, and TGF-$\beta$, among others.
+\label{ach:hornig2015-cytokines}
+Hornig et al.~\cite{Hornig2015} identified a distinct 8-cytokine signature
+present in 94\% of early-stage ME/CFS patients, providing the first validated
+immune-based biomarker panel. The signature includes elevated IL-8, IL-10,
+and TGF-$\beta$ among others (n=298, peer-reviewed, replicated, High certainty).
 \end{achievement}
 ```
 
-**If supporting hypothesis:**
+### Secondary Target: ch05-disease-course.tex
+**File:** `contents/part1-clinical/ch05-disease-course.tex`
+**Section hint:** "Disease progression" or "Temporal patterns"
+**Suggested inline citation:**
 ```latex
-Recent evidence supports the immune activation hypothesis.
-Hornig et al.~\cite{Hornig2015} demonstrated elevated pro-inflammatory cytokines in early-stage patients ($n=298$), with significant differences from controls ($p < 0.001$).
-Notably, cytokine patterns evolved over disease duration, suggesting dynamic immune changes.
+Immune profiles may evolve over disease duration, with distinct cytokine
+patterns observed in early-stage (<3 years) versus chronic patients~\cite{Hornig2015}.
 ```
 
-**If limitation/caveat:**
-```latex
-\begin{warning}[Biomarker Heterogeneity]
-While cytokine signatures show promise~\cite{Hornig2015}, substantial inter-patient variability exists.
-The 8-cytokine panel achieved 94\% accuracy in early-stage disease but performed less well in chronic cases, indicating potential phenotypic shifts or subgroup differences.
-\end{warning}
+## Key Points to Convey
+1. 8-cytokine signature with 94% accuracy - emphasize validation
+2. Duration-dependent patterns (<3yr vs >3yr) - important for understanding disease evolution
+3. Large sample (n=298 patients, n=348 controls) - high confidence
+
+## Certainty Assessment for Integration
+- **Quality:** High (Science Advances, rigorous methodology)
+- **Sample:** n=298 ME/CFS, n=348 controls
+- **Replication:** Yes (independent cohorts)
+- **Limitations:** Cross-sectional design; patterns may vary by subgroup
+
+## Cross-References
+- Related papers: Montoya2017 (also cytokine study, can cite together)
+- Related sections: Ch22 (mechanistic studies) might reference biomarker discovery methods
 ```
 
-### Step 7: Add Certainty Notes
+### Step 7: Verification Protocol ⭐
+
+**MANDATORY VERIFICATION CHECKLIST**
+
+Before declaring task complete, verify each step succeeded:
+
+#### Verification 1: Folder Structure
+```bash
+# Check folder exists with all required files
+ls Literature/[category]/[Author]_[Year]_[ShortTitle]/
+# Expected files: abstract.txt, notes.md, key-findings.md, README.md, integration-guide.md
+# Optional: [paper].pdf
+
+# Verify files are not empty
+for f in Literature/[category]/[Author]_[Year]_[ShortTitle]/{abstract.txt,notes.md,key-findings.md,integration-guide.md}; do
+  wc -l "$f"
+done
+# Expected: Each file >10 lines
+```
+
+**If verification fails:**
+- Missing files → Create them
+- Empty files → Fill with proper content
+- Do NOT proceed to next verification until this passes
+
+#### Verification 2: Bibliography Entry
+```bash
+# Check BibTeX entry exists
+grep "@article{[CitationKey]" references.bib
+
+# Check entry is complete (has required fields)
+grep -A 15 "@article{[CitationKey]" references.bib | grep "title"
+grep -A 15 "@article{[CitationKey]" references.bib | grep "author"
+grep -A 15 "@article{[CitationKey]" references.bib | grep "year"
+grep -A 15 "@article{[CitationKey]" references.bib | grep "doi\|url"
+# Expected: All fields present
+```
+
+**If verification fails:**
+- Entry missing → Add it to references.bib
+- Entry incomplete → Edit to add missing fields
+- Use Edit tool to fix the entry
+- Re-run verification
+
+#### Verification 3: Appendix Update
+```bash
+# Check paper cited in appendix
+grep "cite{[CitationKey]}" contents/appendices/appendix-h*.tex
+
+# Check paper has substantial entry (not just citation)
+grep -A 10 "cite{[CitationKey]}" contents/appendices/appendix-h*.tex | wc -l
+# Expected: >5 lines (paragraph description, not just cite command)
+```
+
+**If verification fails:**
+- Citation missing → Edit appendix file to add entry
+- Entry too brief → Add proper paragraph with key findings
+- Re-run verification
+
+#### Verification 4: Integration Guide Complete
+```bash
+# Check integration guide exists
+ls Literature/[category]/[Author]_[Year]_[ShortTitle]/integration-guide.md
+
+# Check it contains required sections
+grep "## Recommended Chapters for Integration" Literature/[category]/[Author]_[Year]_[ShortTitle]/integration-guide.md
+grep "## Suggested LaTeX:" Literature/[category]/[Author]_[Year]_[ShortTitle]/integration-guide.md
+grep "## Certainty Assessment" Literature/[category]/[Author]_[Year]_[ShortTitle]/integration-guide.md
+# Expected: All sections present
+
+# Check file is substantial
+wc -l Literature/[category]/[Author]_[Year]_[ShortTitle]/integration-guide.md
+# Expected: >50 lines (comprehensive guide)
+```
+
+**If verification fails:**
+- Guide missing → Create it
+- Missing sections → Add them
+- Too brief → Expand with details for chapter-integrator
+- Re-run verification
+
+### Step 8: Self-Check Before Completion
+
+**Before reporting "COMPLETE", answer these questions:**
+
+1. **Can I run this command successfully?**
+   ```bash
+   ls Literature/[category]/[Author]_[Year]_[ShortTitle]/{abstract.txt,notes.md,key-findings.md,integration-guide.md}
+   ```
+   → If NO: Task incomplete, create missing files
+
+2. **Does this return results?**
+   ```bash
+   grep "@article{[CitationKey]" references.bib
+   ```
+   → If NO: Task incomplete, add BibTeX entry
+
+3. **Does this return results?**
+   ```bash
+   grep "cite{[CitationKey]}" contents/appendices/appendix-h*.tex
+   ```
+   → If NO: Task incomplete, update appendix
+
+4. **Is the integration guide comprehensive enough for another agent to use?**
+   - Does it specify exact chapter file paths?
+   - Does it include suggested LaTeX code?
+   - Does it note certainty levels?
+   → If NO: Task incomplete, improve integration guide
+
+**ALL FOUR MUST BE YES before declaring complete.**
+
+### Step 9: Add Certainty Notes
 
 Always include certainty assessment when integrating findings:
 
@@ -393,20 +585,23 @@ After processing paper, report:
 📄 PAPER PROCESSED: [FirstAuthor] et al. ([Year])
 
 📁 SAVED TO: Literature/[category]/[FirstAuthor]_[Year]_[ShortTitle]/
-   ├── [FirstAuthor]_[Year].pdf ✓ (or: abstract only - PDF not available)
-   ├── abstract.txt ✓
-   ├── notes.md ✓
-   ├── key-findings.md ✓
-   └── README.md ✓
+   ✅ [FirstAuthor]_[Year].pdf (or: ⚠️ abstract only - PDF not available)
+   ✅ abstract.txt
+   ✅ notes.md
+   ✅ key-findings.md
+   ✅ integration-guide.md
+   ✅ README.md
 
-📚 REFERENCES.BIB: Added entry [@citekey]
+📚 REFERENCES.BIB: ✅ Added entry @[citekey]
+   Verification: grep "@article{[citekey]" references.bib → PASS
 
-📖 APPENDIX: Updated appendix-h-annotated-bibliography.tex
+📖 APPENDIX: ✅ Updated appendix-h-annotated-bibliography.tex
    Section: [section name]
+   Verification: grep "cite{[citekey]}" appendix-h*.tex → PASS
 
-✍️ MAIN DOCUMENT: Integrated into Chapter [X]: [chapter name]
-   Environment: [achievement/hypothesis/warning/etc.]
-   Label: [label]
+📋 INTEGRATION GUIDE: ✅ Created for chapter-integrator agent
+   Recommended chapters: [list]
+   Environment types: [types]
 
 🎯 CERTAINTY: [High/Medium/Low]
    - Quality: [assessment]
@@ -418,6 +613,20 @@ After processing paper, report:
    - [Finding 1]
    - [Finding 2]
    - [Finding 3]
+
+✅ ALL VERIFICATIONS PASSED
+
+Next step: chapter-integrator agent will use integration-guide.md to edit chapter files.
+```
+
+**If any verification failed:**
+```
+⚠️ PARTIAL COMPLETION
+
+✅ Completed steps: [list successful steps]
+❌ Failed steps: [list failures with reasons]
+
+Manual intervention needed for: [specific issues]
 ```
 
 ## Constraints

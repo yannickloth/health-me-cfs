@@ -373,6 +373,189 @@ Content for unnumbered protocol (useful in appendices).
 
 **Note:** `keypoint`, `practicalwarning`, and `continuation` are always unnumbered by design.
 
+## Formalization Environments (Proposed for Template)
+
+These environments support formal modeling of scientific processes with explicit uncertainty quantification. Currently project-specific pending template inclusion decision.
+
+| Environment | Numbering | Purpose | When to Use |
+|-------------|-----------|---------|-------------|
+| `model` | `chapter.X` | Mathematical models (ODEs, equations) | Quantitative models with fitted parameters, validation, predictions |
+| `epcprocess` | `chapter.X` | Event-Driven Process Chains | Biological processes with temporal dynamics, event triggers, probabilities |
+| `causalclaim` | Unnumbered | Causal relationships with certainty | Explicit cause-effect claims with evidence quality (high/medium/low) |
+| `dag` | Standard figure | Causal DAG figures | Directed acyclic graphs showing causal structure with certainty weights |
+
+### Why Event-Driven Process Chains (EPC)?
+
+For biological/medical processes, EPC is superior to pure BPMN because:
+- **Events are first-class entities** (not just sequence markers)
+- **Observable detection criteria** for validation (e.g., "IL-6 > 2.0 pg/mL")
+- **Temporal precision** (latency, duration, probabilities from cohort data)
+- **Natural feedback loops** (common in pathophysiology)
+
+**Structure:** Event → Activity → Event
+- **Events:** Observable state changes with detection criteria
+- **Activities:** Biological responses with durations and mechanisms
+- **Connectors:** Branching probabilities (Recovery 40% vs. Chronic 60%)
+
+### Usage Examples
+
+**EPC Process (Event-Driven Temporal Model):**
+```latex
+\begin{epcprocess}[Post-Exertional Malaise Cascade]
+\label{epc:pem}
+
+% TikZ diagram with event-activity-event chains
+
+\textbf{Events:}
+\begin{itemize}
+  \item[E1] Activity Exceeds Threshold (trigger)
+  \item[E2] Metabolic Shift to Anaerobic (30min-4h latency, 95\% probability)
+  \item[E3] Immune Activation (4-24h latency, 87\% probability)
+  \item[E4] Symptom Peak (24-72h latency, 100\% probability)
+\end{itemize}
+
+\textbf{Activities:}
+\begin{itemize}
+  \item[A1] Metabolic Compensation (E1 → E2, 2h median duration)
+  \item[A2] Immune Detection (E2 → E3, 12h median duration)
+  \item[A3] Symptom Manifestation (E3 → E4, 48h median duration)
+\end{itemize}
+
+\textbf{Branching:} After E4: Recovery (40\%, IF ≥7d rest) vs Chronic (60\%, IF <7d rest)
+
+\textbf{Feedback:} Chronic activation loop re-triggers E2 (certainty 0.6)
+
+\textbf{Data sources:} Light et al.~\cite{Light2012}, Keller et al.~\cite{Keller2014}
+\end{epcprocess}
+```
+
+**Mathematical Model (ODE):**
+```latex
+\begin{model}[ATP Production Dynamics]
+\label{model:atp}
+
+\textbf{Variables:}
+\begin{itemize}
+  \item $A(t)$: ATP concentration at time $t$ (mmol/L)
+  \item $E(t)$: Exertion level (dimensionless, 0-10)
+\end{itemize}
+
+\textbf{Equations:}
+\begin{equation}
+\frac{dA}{dt} = k_{\text{syn}} - k_{\text{cons}} \cdot E(t)
+\end{equation}
+
+\textbf{Parameters:}
+\begin{itemize}
+  \item $k_{\text{syn}} = 0.45 \pm 0.12$ mmol/L/s (synthesis rate, \cite{Tomas2017})
+  \item $k_{\text{cons}} = 0.35 \pm 0.08$ mmol/L/s per unit exertion
+\end{itemize}
+
+\textbf{Predictions:}
+Critical exertion threshold: $E_{\text{crit}} = k_{\text{syn}}/k_{\text{cons}} = 1.29$ (0-10 scale)
+
+\textbf{Validation:}
+Model fit: $R^2 = 0.73$, RMSE = 0.21 mmol/L (\cite{VanNess2010})
+
+\textbf{Limitations:}
+Does not account for multi-day recovery effects
+\end{model}
+```
+
+**Causal Claim with Certainty:**
+```latex
+\begin{causalclaim}[certainty=high]
+Persistent immune activation following viral infection triggers ME/CFS onset in susceptible individuals.
+
+\textbf{Evidence:}
+\begin{itemize}
+  \item Nunes et al.~\cite{Nunes2024}: n=156, $p<0.001$, longitudinal design
+  \item Replicated in \cite{RuizPablos2021}: n=89, mechanistic validation
+\end{itemize}
+
+\textbf{Mechanism:} Incomplete viral clearance → chronic TLR signaling → cytokine production
+\end{causalclaim}
+
+\begin{causalclaim}[certainty=medium]
+Immune activation impairs mitochondrial function through cytokine-mediated pathways.
+
+\textbf{Evidence:} Mechanism demonstrated in cell culture \cite{Syed2025}, but limited in vivo ME/CFS data.
+
+\textbf{Gap:} Need longitudinal studies measuring both immune markers and mitochondrial function.
+\end{causalclaim}
+
+\begin{causalclaim}[certainty=low]
+Mitochondrial dysfunction may trigger further immune dysregulation (feedback loop).
+
+\textbf{Status:} Speculative—theoretical plausibility but no direct empirical evidence in ME/CFS patients.
+\end{causalclaim}
+```
+
+**Causal DAG Figure:**
+```latex
+\begin{dag}[ME/CFS Immune Dysfunction Causal Structure]
+\label{dag:immune}
+
+\centering
+\input{figures/immune-dag.tikz}
+
+\textbf{Legend:}
+\begin{itemize}
+  \item \textcolor{green!70!black}{\textbf{Solid thick}}: High certainty ($\geq 0.7$)
+  \item \textcolor{orange}{\textbf{Solid medium}}: Medium certainty (0.5--0.7)
+  \item \textcolor{red}{\textbf{Dashed thin}}: Low certainty ($< 0.5$)
+\end{itemize}
+
+\textbf{Feedback loops:} Cytokines ↔ Mitochondrial dysfunction (certainty 0.6)
+\end{dag}
+```
+
+### When to Use Each Environment
+
+**For biological processes with temporal dynamics:**
+- Use `epcprocess` (events, activities, branching probabilities)
+- Example: PEM cascade, viral reactivation timeline, 2-day CPET response
+
+**For quantitative mechanistic models:**
+- Use `model` (differential equations, fitted parameters)
+- Only when data is sufficient (≥2 studies, n≥20, temporal data)
+- Example: ATP dynamics, cytokine kinetics, autonomic response
+
+**For causal claims requiring uncertainty qualification:**
+- Use `causalclaim` with certainty level (high/medium/low)
+- Visual distinction by certainty (frame thickness, color intensity)
+- Example: Annotating pathophysiology chapters with evidence quality
+
+**For showing overall causal structure:**
+- Use `dag` (directed acyclic graph with legend)
+- Chapter-level or section-level causal overviews
+- Example: Chapter 13 (Integrative Models), per-system summaries
+
+### Relationship to Existing Environments
+
+| Existing | Formalization | Distinction |
+|----------|---------------|-------------|
+| `hypothesis` | `model` | Hypothesis = qualitative claim; Model = quantitative with equations |
+| `prediction` | `model` | Prediction = single testable claim; Model = complete system with multiple predictions |
+| `derivation` | `model` | Derivation = mathematical proof; Model = empirical model with fitted parameters |
+| `construction` | `epcprocess` | Construction = algorithmic; EPC = empirical workflow with timing data |
+| `observation` | `causalclaim` | Observation = empirical data; Causal claim = inferred causation with certainty |
+
+### Full Specification
+
+See `.claude/template-proposal-formalization-environments.md` for:
+- Complete LaTeX code (colors, tcolorbox definitions)
+- Decision criteria (when to propose to template vs. keep project-specific)
+- Implementation notes (icon choices, parameter syntax)
+
+### Methodology
+
+See `.claude/FORMALIZATION_METHODOLOGY.md` for:
+- Decision matrix (Data × Impact × Maturity → Level/Model type)
+- Evidence quality tiers (High/Medium/Low certainty 0-1 scale)
+- EPC vs. BPMN rationale for biological systems
+- Process-by-process analysis of ME/CFS pathophysiology
+
 ## See Also
 
 - [infolead-latex-templates/README.md](../infolead-latex-templates/README.md) - Comprehensive template documentation
