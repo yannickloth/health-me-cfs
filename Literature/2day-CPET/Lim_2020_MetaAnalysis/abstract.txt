@@ -1,0 +1,9 @@
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a disease with unknown causes characterized by severe systemic exertion intolerance and a cluster of debilitating symptoms following physical and mental exertion, which is referred to as post-exertional malaise (PEM). Cardiopulmonary exercise testing (CPET) has been recently adapted to objectify PEM in ME/CFS. The authors examined whether two-day CPET could be used as one of the potential objective assessment tools for PEM in ME/CFS patients by conducting a systematic review and meta-analysis. Five studies comparing two-day CPET results between ME/CFS patients and healthy controls (HCs) were selected.
+
+The meta-analysis revealed highly significant differences between groups in workload@VT (p=0.01), with ME/CFS patients showing a mean decline of -14.6 Watts on Test 2 while healthy controls improved by +6.5 Watts. The pattern of declining performance on the second test day for ME/CFS patients, contrasted with improved performance in controls, distinguished ME/CFS from other fatiguing conditions like multiple sclerosis and cardiac/pulmonary diseases.
+
+DOI: 10.3390/jcm9124040
+PMCID: PMC7765094
+PMID: Not listed in abstract
+Journal: Journal of Clinical Medicine 2020, 9(12):4040
+Retrieved: 2026-01-24
