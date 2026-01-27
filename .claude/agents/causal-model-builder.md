@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_SECTION only
+**Context budget:** 15-25KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Extract causal statements**
+```bash
+# Find causality language
+grep -n "leads to|causes|results in|triggers" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -20
+# Read only causal statements with context
+```
+
+**Example 2: Identify variables**
+```bash
+# Find entities and measurements
+grep -n "ATP|lactate|mitochondrial|energy production" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -15
+# Read only variable mentions
+```
+
+**Example 3: Map feedback loops**
+```bash
+# Find reciprocal/circular causation
+grep -n "feedback|loop|reciprocal|mutual" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+# Read only feedback sections
+```
+
+
+
 # Causal Model Builder Agent
 
 **Model:** sonnet

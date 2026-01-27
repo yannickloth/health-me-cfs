@@ -5,6 +5,55 @@ model: opus
 tools: [Read, Grep, WebSearch, WebFetch]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** TARGETED only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Extract symptom clusters**
+```bash
+# Find symptom records
+grep -n "symptom|pain|fatigue" .claude/case-data/daily-2025-01-*.json | head -30
+# Read only recent entries, not entire log
+```
+
+**Example 2: Check subtype definitions**
+```bash
+# Find subtype criteria
+grep -n "\\begin{requirement}.*subtype" contents/part1-clinical/ch05-subgroups.tex
+# Read only subtype section, not entire chapter
+```
+
+**Example 3: Correlate with research**
+```bash
+# Find published subtype patterns
+grep -i "subtype|phenotype|cluster" references.bib | head -10
+# Don't read entire bibliography
+```
+
+
+
 ## Tasks
 
 1. **Subtype Identification**

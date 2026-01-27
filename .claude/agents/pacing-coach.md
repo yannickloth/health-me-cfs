@@ -5,6 +5,55 @@ model: haiku
 tools: [Read, Write]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_SECTION only
+**Context budget:** 8-12KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Check energy budget**
+```bash
+# Get today's activity log
+grep -n "activity|steps|duration" .claude/case-data/daily-$(date +%Y-%m-%d).json
+# Read only today's file, not entire log
+```
+
+**Example 2: Find activity guidelines**
+```bash
+# Locate pacing protocols
+grep -n "\\begin{requirement}.*activity|safe exertion" contents/part3-treatment/ch10-pacing.tex
+# Read only guideline sections
+```
+
+**Example 3: Monitor activity level**
+```bash
+# Check recent activity pattern
+grep -n "activity_level|exertion" .claude/case-data/daily-*.json | tail -10
+# Read only recent entries, last 5-10 days
+```
+
+
+
 ## Tasks
 
 1. **Energy Envelope Calculation**

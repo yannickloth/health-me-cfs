@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 10-15KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find broken references**
+```bash
+# Extract all references first
+grep -o "\\ref{[^}]*}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | sort -u
+# Verify each label exists by targeted grep
+```
+
+**Example 2: Find undefined labels**
+```bash
+# Search for label definitions
+grep -n "\\label{immune-activation}" contents/part2-pathophysiology/*.tex
+# Don't read all .tex files, just grep them
+```
+
+**Example 3: Link cross-chapter references**
+```bash
+# Find reference points between chapters
+grep -n "\\label{" contents/part1-clinical/ch04-diagnostic-criteria.tex
+# Read only labels section and verify targets exist
+```
+
+
+
 # protocol-linker
 
 **Model**: sonnet

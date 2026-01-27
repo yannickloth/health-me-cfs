@@ -5,6 +5,55 @@ model: haiku
 tools: Read, Bash, Write
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 5-10KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find tikz syntax errors**
+```bash
+# Locate potential syntax issues
+grep -n "\\draw.*{.*{" figures/fig-energy-production-normal.tex | head -10
+# Read only matching lines, verify syntax
+```
+
+**Example 2: Check node definitions**
+```bash
+# Verify nodes are defined before use
+grep -n "\\node.*(" figures/fig-energy-production-normal.tex | head -5
+# Read only node definitions, check references
+```
+
+**Example 3: Validate color definitions**
+```bash
+# Check color usage in tikz
+grep -n "color=|fill=" figures/fig-energy-production-normal.tex | head -10
+# Read only color lines, verify they're defined
+```
+
+
+
 ## Purpose
 
 Fast, automated validation of TikZ diagrams for spatial correctness, compilation errors, and adherence to layout guidelines. This agent verifies that diagrams meet quality standards before delivery to the user.

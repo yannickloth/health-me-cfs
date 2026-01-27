@@ -1,3 +1,53 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** TARGETED only
+**Context budget:** 15-25KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Extract cited evidence**
+```bash
+# Find citations in target section
+grep -n "\\cite{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+# Read only cited sections and their context
+```
+
+**Example 2: Identify synthesis opportunities**
+```bash
+# Find related findings across chapters
+grep -n "lymphocyte|NK cell" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "lymphocyte|NK cell" contents/part2-pathophysiology/ch08-neurological.tex
+# Read only matching sections, don't load entire chapters
+```
+
+**Example 3: Check hypothesis support**
+```bash
+# Find hypothesis and its evidence
+grep -n "\\begin{hypothesis}" contents/part2-pathophysiology/ch08-neurological.tex
+# Read only hypothesis and following evidence, not entire chapter
+```
+
+
+
 # scientific-insight-generator
 
 **Model**: opus

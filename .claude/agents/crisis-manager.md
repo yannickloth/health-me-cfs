@@ -5,6 +5,55 @@ model: sonnet
 tools: [Read, Write, Bash]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 5-10KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find crisis protocols**
+```bash
+# Locate emergency procedures
+grep -n "\\begin{warning}.*crisis|emergency protocol" contents/appendices/appendix-j-recommendations.tex
+# Read only crisis section, not entire appendix
+```
+
+**Example 2: Check recent crashes**
+```bash
+# Find recent crisis entries
+grep -l "severe crash|PEM worsening" .claude/case-data/daily-*.json | tail -5
+# Read only recent entries, not entire log
+```
+
+**Example 3: Review symptom thresholds**
+```bash
+# Check alert levels
+grep -n "threshold|alert|warning" .claude/case-data/symptom-config.json
+# Don't read full configuration, just thresholds
+```
+
+
+
 ## Tasks
 
 1. **Severe Symptom Monitoring**

@@ -5,6 +5,55 @@ model: sonnet
 tools: [Read, Edit, Write, Grep, Glob, Bash]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 10-15KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Locate today's entry**
+```bash
+# Find today's data file
+find .claude/case-data -name "*2025-01-27*"
+# Don't scan entire case-data directory
+```
+
+**Example 2: Check medication history**
+```bash
+# Search medication log
+grep -n "LDN|CoQ10" .claude/case-data/medications.json | tail -10
+# Read only recent entries, not entire history
+```
+
+**Example 3: Find pattern in symptoms**
+```bash
+# Search for specific symptom across dates
+grep -l "orthostatic" .claude/case-data/daily/*.json | head -5
+# Read only matching files, not all logs
+```
+
+
+
 ## Tasks
 
 1. **Daily Symptom Logging**

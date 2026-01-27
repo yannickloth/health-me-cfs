@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** TARGETED only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find unsupported claims**
+```bash
+# Locate uncertainty language
+grep -n "may|might|possibly|suggests|implies" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -20
+# Read only flagged claims with context
+```
+
+**Example 2: Verify citations**
+```bash
+# Find all citations in section
+grep -o "\\cite{[^}]*}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | sort -u
+# Verify each citation exists and supports claim
+```
+
+**Example 3: Check evidence hierarchy**
+```bash
+# Find citation types and evidence levels
+grep -B1 "\\cite{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -20
+# Read only citations and preceding context
+```
+
+
+
 # Scientific Rigor Auditor Agent
 
 **Model**: `sonnet`

@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_SECTION only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Extract quantitative relationships**
+```bash
+# Find equations and quantitative claims
+grep -n "\\[|\\frac{|approximately|percent" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -20
+# Read only quantitative sections
+```
+
+**Example 2: Find measurement units**
+```bash
+# Locate measured quantities
+grep -n "ATP|kJ|mmol|percentage|mg/dL" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -15
+# Read only measurement mentions
+```
+
+**Example 3: Check parameter ranges**
+```bash
+# Find observed value ranges
+grep -E "[0-9]+(\s*(percent|%|fold|x|times))" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -10
+# Use grep to extract ranges, don't read entire section
+```
+
+
+
 # Quantitative Model Builder Agent
 
 **Model:** opus

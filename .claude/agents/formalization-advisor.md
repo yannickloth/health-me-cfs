@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_SECTION only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find formalizable content**
+```bash
+# Locate mechanisms to formalize
+grep -n "\\begin{hypothesis}|\\begin{observation}" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+# Read only those sections, not entire chapter
+```
+
+**Example 2: Check mathematical notation**
+```bash
+# Find equations and variables
+grep -n "\\[|\\(|\\frac{" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+# Read only math sections
+```
+
+**Example 3: Identify process descriptions**
+```bash
+# Find process narratives
+grep -n "process|step.*leads to|causes" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -15
+# Read only process descriptions, identify formalization candidates
+```
+
+
+
 # Formalization Advisor Agent
 
 **Model:** haiku

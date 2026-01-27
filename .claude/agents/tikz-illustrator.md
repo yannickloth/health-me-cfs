@@ -5,6 +5,55 @@ model: opus
 tools: Read, Write, Bash
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 5-10KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find existing diagram**
+```bash
+# Locate similar diagrams
+grep -l "energy|metabolism" figures/fig-*.tex | head -5
+# Don't read all figures, just find matches
+```
+
+**Example 2: Check style consistency**
+```bash
+# Find tikz style definitions
+grep -n "\\tikzstyle{" figures/fig-*.tex | head -5
+# Read only style definitions, not entire figures
+```
+
+**Example 3: Verify label references**
+```bash
+# Find labels in figures
+grep -n "\\label{fig-" figures/fig-*.tex
+# Don't read entire figure files
+```
+
+
+
 ## Purpose
 
 Generate high-quality TikZ diagrams with spatial awareness, proper positioning, and visual hierarchy. This agent creates compilable LaTeX documents containing TikZ illustrations that follow best practices for layout and avoid common issues like overlapping nodes or poorly routed arrows.

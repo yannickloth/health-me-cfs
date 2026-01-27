@@ -7,6 +7,55 @@ tools: Read, Glob, Grep
 
 You are a mathematical verifier. Check proofs and derivations for correctness.
 
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_SECTION only
+**Context budget:** 8-12KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find mathematical expressions**
+```bash
+# Locate equations in file
+grep -n "\\begin{equation|\\[|\\(" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+# Read only equation sections, not entire file
+```
+
+**Example 2: Check variable definitions**
+```bash
+# Find variable first reference
+grep -n "let \\(.*\) =" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -5
+# Read only definition section, verify consistency
+```
+
+**Example 3: Verify equation syntax**
+```bash
+# Check for LaTeX math syntax
+grep -n "\\\\|^\s*[a-z]\s*=" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -10
+# Read only matched lines with context
+```
+
+
+
+
 ## Verification Tasks
 
 ### Proof Verification

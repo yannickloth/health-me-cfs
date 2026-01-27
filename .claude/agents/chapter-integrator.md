@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 10-15KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find insertion point**
+```bash
+# Find section header by grepping, don't read entire chapter
+grep -n "\\subsection{NK Cell Dysfunction}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+# Read only lines around insertion point (e.g., lines 50-70)
+```
+
+**Example 2: Verify citation exists**
+```bash
+# Check if BibTeX entry exists before reading
+grep -n "^@article{Che2025}" references.bib
+# Don't load entire references.bib
+```
+
+**Example 3: Find environment closing**
+```bash
+# Find where to close environment by grepping for next section
+grep -n "\\subsection{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -3
+# Read only context around insertion point
+```
+
+
+
 # chapter-integrator
 
 **Model**: haiku

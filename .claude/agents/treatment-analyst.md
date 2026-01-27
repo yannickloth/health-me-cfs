@@ -5,6 +5,55 @@ model: opus
 tools: [Read, Write, Bash, Grep, Glob]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 10-15KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Load treatment trial data**
+```bash
+# Find trial file
+find .claude/case-data -name "treatment-LDN-*.json" -type f
+# Don't read all case data, just target trial
+```
+
+**Example 2: Extract measurements**
+```bash
+# Get data points from trial
+grep -n "date|energy|pain" .claude/case-data/treatment-LDN-trial.json | head -30
+# Read only measurement fields, not entire file
+```
+
+**Example 3: Compare to baseline**
+```bash
+# Find baseline and current in trial data
+grep -n "baseline|week.*[0-9]" .claude/case-data/treatment-LDN-trial.json | head -5
+# Read only comparison sections
+```
+
+
+
 ## Tasks
 
 1. **Treatment Effectiveness Analysis**

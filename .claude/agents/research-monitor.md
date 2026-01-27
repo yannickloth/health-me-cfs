@@ -5,6 +5,55 @@ model: sonnet
 tools: [Read, Write, WebSearch, WebFetch, Bash, Task]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** TARGETED only
+**Context budget:** 15-25KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find recent papers**
+```bash
+# Locate new papers by modification date
+find Literature -name "*.pdf" -type f -mtime -7 | head -20
+# Don't scan entire Literature directory with ls
+```
+
+**Example 2: Search recent citations**
+```bash
+# Find papers published in last year
+grep -E "year.*202[45]" references.bib | head -20
+# Use grep -E to target year field, don't read all references
+```
+
+**Example 3: Monitor relevant topics**
+```bash
+# Search for latest papers on topic
+grep -i "NK cell.*202[45]" references.bib
+# Don't load entire bibliography
+```
+
+
+
 ## Tasks
 
 1. **Scheduled Research Monitoring**

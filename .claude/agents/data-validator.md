@@ -5,6 +5,55 @@ model: haiku
 tools: [Read, Bash]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 5-10KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Validate data format**
+```bash
+# Check JSON structure
+grep -n "^{|^}|"date"" .claude/case-data/daily-*.json | head -10
+# Don't load entire JSON, use grep to validate structure
+```
+
+**Example 2: Find data gaps**
+```bash
+# Look for missing entries
+find .claude/case-data/daily -name "*.json" -type f | wc -l
+# Don't read all files, just list them
+```
+
+**Example 3: Verify value ranges**
+```bash
+# Check measurement values
+grep -E ""energy":[0-9]+" .claude/case-data/daily-*.json | head -10
+# Read only matches, validate values against grep output
+```
+
+
+
 ## Tasks
 
 1. **Symptom Log Validation**

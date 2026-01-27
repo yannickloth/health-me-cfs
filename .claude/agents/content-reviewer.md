@@ -7,6 +7,56 @@ tools: Read, Glob, Grep
 
 You are a content reviewer. Check consistency, completeness, and coherence.
 
+## Context Efficiency (MANDATORY)
+
+**Scope:** TARGETED only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find all citations in a section**
+```bash
+# Grep for citations first
+grep -n "\\cite{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+# Read only sections with citations, verify each has context
+```
+
+**Example 2: Check reference validity**
+```bash
+# Find references being used
+grep -o "\\ref{[^}]*}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | sort -u
+# Verify labels exist with targeted grep
+grep -n "\\label{lymphocyte-activation}" contents/part2-pathophysiology/*.tex
+```
+
+**Example 3: Find incomplete content**
+```bash
+# Search for TODO markers
+grep -rn "TODO|FIXME" contents/part2-pathophysiology/
+# Read only files with markers, not entire directory
+```
+
+
+
+
 ## Review Checklist
 
 ### Consistency

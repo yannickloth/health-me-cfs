@@ -4,21 +4,6 @@ LaTeX-based ME/CFS documentation with automatic subagent delegation for quality 
 
 ---
 
-## ⚠️ MANDATORY: Active Agent Delegation
-
-**Claude MUST interpret every user request and immediately delegate to the appropriate specialized agent.**
-
-- **DO NOT** attempt tasks yourself when agents exist for them
-- **DO NOT** "try first then delegate if it fails"
-- **DO** actively parse user intent and map to agent capabilities
-- **DO** spawn agents immediately when their expertise matches the request
-
-This is not a suggestion - it is a core architectural requirement. The agent system provides specialized models, restricted toolsets, verification protocols, and context minimization. Bypassing agents reduces reliability and performance.
-
-See [Active Request Interpretation](#critical-active-request-interpretation) below for detailed examples.
-
----
-
 ## Build
 
 ```bash
@@ -149,44 +134,98 @@ This is not optional - it is a core requirement of the system:
 
 #### Examples of Required Interpretation
 
-**User says:** "The build is broken"
-**Claude interprets:** This requires fixing build errors → delegate to `syntax-fixer` agent immediately
+##### Example 1: Specialized agent exists
 
-**User says:** "Add some citations for this claim about NK cells"
-**Claude interprets:** This requires finding research papers → delegate to `literature-researcher` agent immediately
+- **User:** "The build is broken"
+- **Claude interprets:** Build errors → specialized agent exists → `syntax-fixer` (haiku)
+- **✅ Action:** Spawn `syntax-fixer` immediately
 
-**User says:** "This paragraph sounds robotic"
-**Claude interprets:** This requires naturalizing AI-like text → delegate to `style-naturalizer` agent immediately
+##### Example 2: Specialized agent + risk assessment
 
-**User says:** "Should I use a theorem or definition here?"
-**Claude interprets:** This requires choosing LaTeX environments → delegate to `template-advisor` agent immediately
+- **User:** "Add some citations for this claim about NK cells"
+- **Claude interprets:** Finding papers → specialized agent exists → `literature-researcher` (sonnet)
+- **✅ Action:** Spawn `literature-researcher` immediately
 
-**User says:** "Find papers on mitochondrial dysfunction"
-**Claude interprets:** This requires the full literature pipeline → load and execute `literature-integration-coordinator` workflow immediately
+##### Example 3: Text quality (specialized)
+
+- **User:** "This paragraph sounds robotic"
+- **Claude interprets:** AI-like text → specialized agent exists → `style-naturalizer` (sonnet)
+- **✅ Action:** Spawn `style-naturalizer` immediately
+
+##### Example 4: General task, simple
+
+- **User:** "Rename all instances of `foo` to `bar` in file X"
+- **Claude interprets:** Simple pattern replacement, explicit file, low risk → `haiku-general`
+- **✅ Action:** Spawn `haiku-general` with clear instructions
+
+##### Example 5: General task, requires judgment
+
+- **User:** "Clean up the old files in this directory"
+- **Claude interprets:** Destructive operation, ambiguous ("old"?), no explicit paths → HIGH RISK
+- **✅ Action:** Spawn `sonnet-general` to analyze and confirm before deletion
+
+##### Example 6: Ambiguous deletion request (CRITICAL)
+
+- **User:** "Delete the summary files"
+- **Claude interprets:** Destructive operation, pattern-based ("summary files"), unclear scope → HIGH RISK
+- **✅ Action:** Spawn `sonnet-general` to:
+  1. Identify which files match "summary files"
+  2. Assess their value (check content)
+  3. Confirm with user before deletion
+
+##### Example 7: Complex reasoning needed
+
+- **User:** "Verify the proof in section 3.2 is correct"
+- **Claude interprets:** Mathematical verification → complex reasoning needed → `opus-general`
+- **✅ Action:** Spawn `opus-general` for rigorous analysis
+
+##### Example 8: Workflow coordination
+
+- **User:** "Find papers on mitochondrial dysfunction"
+- **Claude interprets:** Full literature pipeline needed → load workflow
+- **✅ Action:** Load `literature-integration-coordinator` workflow and coordinate specialized agents
 
 #### Anti-Patterns (NEVER DO THIS)
 
+##### Anti-Pattern 1: Attempting specialized tasks without delegation
+
 ❌ **User:** "Fix the build errors"
+
 ❌ **Claude:** "Let me try to fix this myself first..." *(attempts manual fixes)*
 
-✅ **User:** "Fix the build errors"
-✅ **Claude:** "I'll delegate this to the syntax-fixer agent." *(spawns syntax-fixer)*
+✅ **Correct approach:** "I'll delegate this to the syntax-fixer agent." *(spawns syntax-fixer)*
 
----
+##### Anti-Pattern 2: Skipping specialized agents for convenience
 
 ❌ **User:** "This text needs better flow"
+
 ❌ **Claude:** "Let me edit it..." *(makes edits directly)*
 
-✅ **User:** "This text needs better flow"
-✅ **Claude:** "I'll use the style-naturalizer agent for this." *(spawns style-naturalizer)*
+✅ **Correct approach:** "I'll use the style-naturalizer agent for this." *(spawns style-naturalizer)*
 
----
+##### Anti-Pattern 3: Wrong model tier for destructive operations
+
+❌ **User:** "Delete the old implementation files"
+
+❌ **Claude:** "I'll use haiku-general for fast cleanup..." *(routes to haiku without analysis)*
+
+✅ **Correct approach:** "This is a destructive operation with ambiguous scope. I'll use sonnet-general to analyze which files match and confirm before deletion." *(routes to sonnet-general)*
+
+##### Anti-Pattern 4: Not interpreting research requests
 
 ❌ **User:** "Find research on biomarkers"
+
 ❌ **Claude:** "Let me search..." *(uses Grep/WebSearch directly)*
 
-✅ **User:** "Find research on biomarkers"
-✅ **Claude:** "I'll execute the literature-integration-coordinator workflow." *(loads workflow and coordinates agents)*
+✅ **Correct approach:** "I'll execute the literature-integration-coordinator workflow." *(loads workflow and coordinates agents)*
+
+##### Anti-Pattern 5: Using expensive models for simple tasks
+
+❌ **User:** "Change 'colour' to 'color' throughout the file"
+
+❌ **Claude:** "This requires careful analysis..." *(routes to opus-general)*
+
+✅ **Correct approach:** "Simple find-replace operation, explicit file, low risk. I'll use haiku-general." *(routes to haiku-general)*
 
 #### Certainty Requirement
 

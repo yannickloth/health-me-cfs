@@ -1,3 +1,52 @@
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_SECTION only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Extract process steps**
+```bash
+# Find sequential processes
+grep -n "first|second|then|next|finally" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -15
+# Read only process steps
+```
+
+**Example 2: Identify decision points**
+```bash
+# Find conditional logic
+grep -n "if|when|unless|depends on" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -10
+# Read only decision sections
+```
+
+**Example 3: Find evidence for steps**
+```bash
+# Locate evidence supporting each process step
+grep -n "\\cite{|evidence|demonstrated" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -20
+# Read only evidence sections
+```
+
+
+
 # Event-Driven Process Chain (EPC) Model Builder
 
 **Model:** sonnet

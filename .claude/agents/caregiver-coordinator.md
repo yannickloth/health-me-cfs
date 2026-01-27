@@ -5,6 +5,55 @@ model: sonnet
 tools: [Read, Write]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 10-15KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find caregiver guidance**
+```bash
+# Locate caregiver sections
+grep -n "\\section{.*Caregiver}|\\begin{requirement}.*caregiver" contents/appendices/appendix-j-recommendations.tex
+# Read only caregiver section
+```
+
+**Example 2: Get support materials**
+```bash
+# Find caregiver education files
+find .claude/case-data -name "*caregiver*" -o -name "*support*" -type f
+# Don't read entire case-data, just locate files
+```
+
+**Example 3: Review communication protocols**
+```bash
+# Find communication guidelines
+grep -n "communication|explain to|tell family" contents/appendices/appendix-j-recommendations.tex | head -10
+# Read only protocol sections
+```
+
+
+
 ## Tasks
 
 1. **Caregiver Education**

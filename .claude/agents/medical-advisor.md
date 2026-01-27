@@ -5,6 +5,55 @@ model: opus
 tools: [Read, Grep, Glob, WebSearch, WebFetch, Task]
 ---
 
+
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 15-20KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Find treatment evidence**
+```bash
+# Search references for treatment papers
+grep -i "LDN|low-dose naltrexone" references.bib | head -5
+# Don't load entire bibliography, use targeted grep
+```
+
+**Example 2: Check contraindications**
+```bash
+# Find safety information
+grep -n "contraindicated|avoid" contents/part3-treatment/*.tex | head -10
+# Read only safety sections, not entire treatment chapters
+```
+
+**Example 3: Look up medication evidence**
+```bash
+# Find specific drug information
+grep -n "^@.*{.*[Uu]biquinone|CoQ10|coenzyme" references.bib
+# Verify exists before reading full entry
+```
+
+
+
 ## Tasks
 
 1. **Symptom Pattern Analysis**

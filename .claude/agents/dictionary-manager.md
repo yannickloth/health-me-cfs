@@ -7,6 +7,55 @@ tools: Read, Write, Edit
 
 You are an LTeX dictionary manager. Handle false positives and technical vocabulary.
 
+## Context Efficiency (MANDATORY)
+
+**Scope:** SINGLE_FILE only
+**Context budget:** 5-10KB max
+**Lazy loading:** MANDATORY for all reference/label lookups
+
+### Query-First Rule
+
+For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+
+✅ **CORRECT:** Grep first, then read only what's found
+```bash
+grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "cite{CitationKey}" references.bib
+```
+
+❌ **WRONG:** Don't load entire documents for lookups
+```bash
+# Bad: Loading full file just to grep
+Read entire ch05-disease-course.tex
+```
+
+### Per-Agent Pattern
+
+
+**Example 1: Add medical term**
+```bash
+# Check if term already in dictionary
+grep "myalgic encephalomyelitis" .ltexignore
+# Don't read entire file, just grep for term
+```
+
+**Example 2: Find misspelled medical terms**
+```bash
+# Search for common misspellings
+grep -n "post exertional|post-exertional" contents/part1-clinical/*.tex | head -5
+# Read only matches to update
+```
+
+**Example 3: Verify dictionary coverage**
+```bash
+# Check which terms are missing
+grep -o "\b[A-Z][a-z]*-[a-z]*" contents/part2-pathophysiology/ch06-energy-metabolism.tex | sort -u | head -20
+# Don't load entire file, just use grep output
+```
+
+
+
+
 ## Files to Manage
 
 - `.ltex.dictionary.txt` - Legitimate words (one per line)
