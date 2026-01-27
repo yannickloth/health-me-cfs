@@ -1,44 +1,615 @@
 \chapter{Gastrointestinal and Microbiome Dysfunction}
 \label{ch:gut-microbiome}
 
+Gastrointestinal symptoms affect the majority of ME/CFS patients, with 50--90\% reporting irritable bowel syndrome (IBS)-like symptoms. The gut microbiome---the complex ecosystem of bacteria, archaea, fungi, and viruses inhabiting the intestinal tract---has emerged as a key player in ME/CFS pathophysiology, with bidirectional connections to immune function, metabolism, and the central nervous system.
+
+GI dysmotility is one component of the ``Septad'' framework of frequently co-occurring conditions in ME/CFS (Section~\ref{sec:septad}). This chapter examines microbiome alterations, intestinal permeability, motility disorders, and their connections to systemic symptoms.
+
 \section{Gut Microbiome Alterations}
 \label{sec:microbiome}
 
 \subsection{Dysbiosis Patterns}
-% Bacterial diversity changes
-% Specific taxa alterations
-% Functional capacity changes
-% Metabolite production
+
+Multiple studies have documented consistent patterns of gut microbiome alterations in ME/CFS patients, though no single ``ME/CFS signature'' has been established.
+
+\begin{achievement}[Reduced Microbiome Diversity in ME/CFS]
+\label{ach:microbiome-diversity}
+Giloteaux et al.~\cite{Giloteaux2016} performed 16S rRNA sequencing on stool samples from 48 ME/CFS patients and 39 healthy controls, finding:
+\begin{itemize}
+    \item Significantly \textbf{reduced bacterial diversity} in ME/CFS specimens
+    \item Reduction in relative abundance and diversity of \textbf{Firmicutes} phylum
+    \item Increased pro-inflammatory species, decreased anti-inflammatory species
+    \item Machine learning classification achieved 82.93\% accuracy distinguishing ME/CFS from controls
+\end{itemize}
+This foundational study established that dysbiosis is a reproducible feature of ME/CFS (prospective case-control, n=87, High certainty).
+\end{achievement}
+
+\paragraph{Specific Bacterial Taxa Alterations.}
+
+A 2024 systematic review~\cite{MicrobiomeSystematicReview2024} of 11 studies (553 ME/CFS patients, 480 controls) identified consistent patterns:
+
+\textbf{Decreased (health-promoting bacteria):}
+\begin{itemize}
+    \item \textit{Faecalibacterium prausnitzii}---major butyrate producer, inversely correlated with fatigue severity
+    \item \textit{Eubacterium rectale}---butyrate producer
+    \item \textit{Roseburia} species---short-chain fatty acid producers
+    \item Lachnospiraceae family overall
+    \item Firmicutes phylum (contains most butyrate producers)
+\end{itemize}
+
+\textbf{Increased (pro-inflammatory bacteria):}
+\begin{itemize}
+    \item \textit{Enterocloster bolteae} (formerly \textit{Clostridium bolteae})---associated with fatigue in multiple sclerosis and autoimmune diseases
+    \item \textit{Ruminococcus gnavus}---associated with inflammatory bowel disease
+    \item \textit{Bacteroides} genus
+    \item Bacteroidetes phylum overall
+\end{itemize}
+
+\begin{warning}[IBS Co-Morbidity as Confounding Factor]
+\label{warn:ibs-confound}
+Nagy-Szakal et al.~\cite{NagySzakal2017} demonstrated that IBS co-morbidity is the strongest driver of bacterial composition differences in ME/CFS. When analyzing 50 ME/CFS patients with and without IBS:
+\begin{itemize}
+    \item IBS status explained more variance than ME/CFS diagnosis alone
+    \item Integrating metagenomic and metabolomic data improved ME/CFS classification (AUC=0.836)
+    \item Studies not controlling for IBS may overestimate or misattribute microbiome changes
+\end{itemize}
+Given 50--90\% IBS prevalence in ME/CFS, careful phenotyping is essential for research interpretation.
+\end{warning}
+
+\subsection{Functional Capacity Changes}
+
+Beyond taxonomic alterations, ME/CFS patients show impaired microbiome \textit{function}---the metabolic activities bacteria perform.
+
+\begin{achievement}[Deficient Butyrate-Producing Capacity]
+\label{ach:butyrate-deficiency}
+Guo et al.~\cite{ButyrateDeficiency2023} performed multi-omic analysis (metagenomics, metabolomics, qPCR) on 106 ME/CFS cases and 91 controls, demonstrating:
+\begin{itemize}
+    \item Reduced capacity for \textbf{butyrate synthesis} confirmed across all methodologies
+    \item \textit{F. prausnitzii} deficiency correlated with fatigue severity
+    \item Bacterial network disturbances affecting butyrate-producing community
+    \item Fecal short-chain fatty acid levels reduced
+\end{itemize}
+Butyrate is the primary energy source for colonocytes and has anti-inflammatory, barrier-protective, and neuromodulatory functions. Its deficiency may contribute to intestinal permeability and systemic inflammation (multi-center study, n=197, High certainty).
+\end{achievement}
+
+\paragraph{Tryptophan Metabolism Alterations.}
+
+The gut microbiome controls >90\% of tryptophan metabolism, producing serotonin precursors, kynurenine pathway metabolites, and indole derivatives. ME/CFS patients show disrupted tryptophan pathways:
+\begin{itemize}
+    \item Reduced circulating tryptophan affecting serotonergic neurotransmission
+    \item Altered kynurenine pathway metabolites (associated with neuroinflammation)
+    \item Disrupted indole derivative production (aryl hydrocarbon receptor ligands)
+    \item Potential connection to depression, fatigue, and cognitive dysfunction
+\end{itemize}
 
 \subsection{Gut-Brain Axis}
-% Vagal nerve signaling
-% Neurotransmitter production by microbiota
-% Immune system modulation
-% Connection to neurological symptoms
+\label{sec:gut-brain}
+
+The gut-brain axis comprises bidirectional communication between the intestinal microbiome and central nervous system through four major pathways:
+
+\begin{enumerate}
+    \item \textbf{Neural pathway}: Vagus nerve (primary) and spinal afferents
+    \item \textbf{Immune pathway}: Cytokine signaling, gut-associated lymphoid tissue (GALT)
+    \item \textbf{Hormonal pathway}: Neurotransmitters produced by or modulated by microbiota (serotonin, GABA, dopamine precursors)
+    \item \textbf{Metabolic pathway}: Short-chain fatty acids, tryptophan metabolites, bile acids
+\end{enumerate}
+
+\paragraph{Vagal Nerve Signaling.}
+
+The vagus nerve connects the gut microbiome directly to brainstem nuclei controlling autonomic function, inflammation, and mood. Proposed mechanisms in ME/CFS:
+\begin{itemize}
+    \item Viral infections may damage vagal afferents, impairing gut-brain communication
+    \item Dysbiosis alters vagal signaling patterns
+    \item Reduced vagal tone (common in ME/CFS) impairs anti-inflammatory cholinergic pathway
+    \item Bidirectional dysfunction: brain inflammation degrades gut function; gut dysfunction worsens neurological symptoms. The temporal and causal relationships between gut and brain dysfunction in ME/CFS remain unresolved; longitudinal studies are needed to determine which comes first or whether both result from a common upstream cause
+\end{itemize}
+
+\paragraph{Microbial Neurotransmitter Production.}
+
+Intestinal bacteria synthesize or modulate multiple neuroactive compounds:
+\begin{itemize}
+    \item \textbf{Serotonin}: $>$90\% of body's serotonin produced in gut; some studies suggest reduced serotonin metabolism in ME/CFS, though evidence is mixed
+    \item \textbf{GABA}: Produced by \textit{Lactobacillus} and \textit{Bifidobacterium} species
+    \item \textbf{Dopamine precursors}: Generated by intestinal bacteria
+    \item \textbf{Short-chain fatty acids}: Cross blood-brain barrier, modulate microglial function
+\end{itemize}
 
 \subsection{Intestinal Permeability}
-% Leaky gut syndrome
-% Zonulin and tight junctions
-% Lipopolysaccharide (LPS) translocation
-% Systemic inflammation
+\label{sec:leaky-gut}
+
+Intestinal permeability (``leaky gut'') refers to impaired barrier function allowing bacterial products to enter systemic circulation.
+
+\begin{achievement}[Evidence of Bacterial Translocation in ME/CFS]
+\label{ach:bacterial-translocation}
+A 2023 study~\cite{GutPermeability2023} measured intestinal permeability markers in ME/CFS patients compared to fibromyalgia patients and healthy controls:
+\begin{itemize}
+    \item Significantly \textbf{elevated zonulin-1 (ZO-1)} in ME/CFS versus controls
+    \item Elevated \textbf{lipopolysaccharide (LPS)} and soluble CD14 (sCD14)
+    \item \textbf{67\% of ME/CFS patients} showed increased IgA against LPS
+    \item \textbf{40\% showed increased IgM against LPS} (versus 0\% in controls)
+    \item IgA levels correlated with illness severity
+\end{itemize}
+This provides direct evidence of intestinal barrier dysfunction and bacterial product translocation in ME/CFS (case-control, High certainty).
+\end{achievement}
+
+\paragraph{Mechanism of Barrier Dysfunction.}
+
+Tight junction proteins (occludin, claudins, zonula occludens) normally seal the paracellular space between enterocytes. In ME/CFS:
+\begin{itemize}
+    \item Zonulin (prehaptoglobin-2) is released in response to gliadin, bacteria, or other triggers
+    \item Zonulin loosens tight junctions, increasing paracellular permeability
+    \item Gram-negative bacterial LPS enters mesenteric lymph nodes and bloodstream
+    \item LPS triggers TLR4-mediated immune activation and cytokine release
+    \item Chronic low-grade endotoxemia may drive systemic inflammation
+\end{itemize}
+
+\paragraph{Biomarkers of Intestinal Permeability.}
+\begin{itemize}
+    \item \textbf{Zonulin}: Tight junction modulator; elevated suggests active barrier dysfunction
+    \item \textbf{LPS (lipopolysaccharide)}: Bacterial endotoxin; elevated indicates translocation
+    \item \textbf{sCD14}: Soluble form of LPS receptor; marker of monocyte activation
+    \item \textbf{Intestinal fatty acid-binding protein (I-FABP)}: Enterocyte damage marker
+    \item \textbf{Anti-LPS antibodies (IgA, IgM, IgG)}: Indicate immune response to translocated endotoxin
+\end{itemize}
 
 \section{Gastrointestinal Dysfunction}
 \label{sec:gi-dysfunction}
 
+\subsection{Irritable Bowel Syndrome Overlap}
+
+IBS and ME/CFS show profound overlap, complicating both diagnosis and treatment.
+
+\paragraph{Prevalence.}
+\begin{itemize}
+    \item \textbf{50--90\% of ME/CFS patients} meet criteria for IBS (median 51\%)
+    \item Cluster analysis: 59.6\% of ME/CFS patients have ``abdominal discomfort syndrome''
+    \item IBS patients have \textbf{5-fold higher odds} of having CFS compared to general population
+    \item IBS-Constipation (IBS-C) subtype shows higher ME/CFS association than IBS-Diarrhea
+\end{itemize}
+
+\paragraph{Clinical Significance.}
+ME/CFS patients with comorbid IBS demonstrate:
+\begin{itemize}
+    \item More severe fatigue
+    \item Poorer appetite
+    \item Increased abdominal pain
+    \item Greater overall symptom burden
+\end{itemize}
+
 \subsection{Motility Disorders}
-% Gastroparesis
-% IBS patterns
-% Small intestinal bacterial overgrowth (SIBO)
+
+\subsubsection{Gastroparesis}
+
+Delayed gastric emptying is common in ME/CFS and contributes significantly to symptom burden.
+
+\begin{observation}[High Prevalence of Gastroparesis in ME/CFS]
+\label{obs:gastroparesis-prevalence}
+A 2023 gastric emptying scintigraphy study~\cite{GastricDysmotility2023} in ME/CFS patients (n=40) demonstrated:
+\begin{itemize}
+    \item \textbf{72\% showed delayed liquid-phase emptying}
+    \item \textbf{38\% showed delayed solid-phase emptying}
+    \item Degree of delay correlated significantly with symptom severity
+    \item Both liquid and solid delay increased with more severe ME/CFS
+    \item Lower proximal stomach accommodation after meals
+    \item Larger fasting antral area (suggesting visceral hypersensitivity)
+\end{itemize}
+Symptom profiles resembled functional dyspepsia, though autonomic dysfunction likely contributes (cross-sectional, n=40, Medium certainty).
+\end{observation}
+
+\paragraph{Autonomic Connection.}
+
+Gastroparesis in ME/CFS is likely secondary to autonomic dysfunction:
+\begin{itemize}
+    \item Parasympathetic dysfunction associated with delayed gastric emptying
+    \item Vagal nerve impairment reduces gastric motility
+    \item Sympathetic hyperactivation may inhibit digestive function
+    \item Dysautonomia disrupts coordinated antral contractions
+\end{itemize}
+
+\paragraph{Symptoms.}
+\begin{itemize}
+    \item Early satiety (75\% of ME/CFS patients)
+    \item Postprandial fullness and bloating
+    \item Nausea (35\%)
+    \item Abdominal pain (45\%)
+    \item Vomiting (in severe cases)
+\end{itemize}
+
+\subsubsection{Small Intestinal Bacterial Overgrowth (SIBO)}
+\label{sec:sibo}
+
+SIBO occurs when excessive bacteria colonize the small intestine, which is normally relatively sterile. It is increasingly recognized as a major contributor to ME/CFS gastrointestinal symptoms.
+
+\begin{observation}[SIBO Prevalence in ME/CFS]
+\label{obs:sibo-prevalence}
+A retrospective analysis of ME/CFS patients referred for breath testing found:
+\begin{itemize}
+    \item 479 patients referred; 367 completed hydrogen-methane breath tests
+    \item \textbf{41\% SIBO-positive}
+    \item 45\% SIBO-negative
+    \item 14\% equivocal
+    \item \textbf{When excluding equivocal results: 48\% positive} (152/316)
+    \item Predictive factors: older age, IBS diagnosis
+\end{itemize}
+This suggests a substantial proportion of ME/CFS patients have bacterial overgrowth, though the retrospective design and referral bias (patients referred for breath testing likely had more GI symptoms) limit generalizability (retrospective chart review, n=367, Medium certainty).
+\end{observation}
+
+\paragraph{Pathophysiology: Migrating Motor Complex Dysfunction.}
+
+The migrating motor complex (MMC) is a cyclic pattern of electromechanical activity that ``sweeps'' bacteria from the small intestine to the colon during fasting.
+
+\begin{itemize}
+    \item MMC occurs every 90--120 minutes during fasting
+    \item Controlled by Interstitial Cells of Cajal linking smooth muscle to enteric nervous system
+    \item Studies suggest most patients with abnormal MMC develop duodenal bacterial overgrowth
+    \item MMC dysfunction allows bacteria to accumulate in small intestine
+\end{itemize}
+
+\textbf{Factors impairing MMC in ME/CFS:}
+\begin{itemize}
+    \item \textbf{Autonomic dysfunction}: Vagal impairment reduces MMC activity
+    \item \textbf{Post-infectious autoimmunity}: Anti-CdtB and anti-vinculin antibodies (from prior gastroenteritis) damage Interstitial Cells of Cajal
+    \item \textbf{Chronic stress}: Sympathetic activation suppresses MMC
+    \item \textbf{Hypothyroidism}: Modulates enteric nervous system function
+    \item \textbf{Medications}: Opioids, anticholinergics impair motility
+\end{itemize}
+
+\paragraph{SIBO Subtypes.}
+
+Different bacterial populations produce different gases, leading to distinct clinical presentations:
+
+\begin{table}[htbp]
+\centering
+\caption{SIBO Subtypes and Clinical Presentations}
+\label{tab:sibo-subtypes}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Subtype} & \textbf{Gas Produced} & \textbf{Predominant Symptoms} & \textbf{Treatment Focus} \\
+\midrule
+Hydrogen-dominant & H$_2$ & Diarrhea & Rifaximin \\
+Methane (IMO) & CH$_4$ & Constipation & Rifaximin + neomycin \\
+Hydrogen sulfide (ISO) & H$_2$S & Diarrhea, gas, odor & Bismuth, targeted antibiotics \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize{IMO = Intestinal Methanogen Overgrowth; ISO = Intestinal Sulfide Overproduction.}
+\end{table}
+
+\begin{itemize}
+    \item \textbf{Hydrogen-dominant}: Most common; E. coli, Klebsiella, other hydrogen producers
+    \item \textbf{Methane-dominant (IMO)}: Archaea (\textit{Methanobrevibacter smithii}) convert H$_2$ to CH$_4$; slows transit time, causes constipation
+    \item \textbf{Hydrogen sulfide (ISO)}: Sulfate-reducing bacteria; associated with diarrhea; NOT detected by standard H$_2$/CH$_4$ tests (requires Trio-Smart 3-gas test)
+\end{itemize}
+
+\paragraph{Diagnosis: Breath Testing.}
+
+Breath testing remains the primary non-invasive diagnostic method for SIBO.
+
+\textbf{Protocol:}
+\begin{itemize}
+    \item Substrate: Glucose (50--75g) or lactulose (10g)
+    \item Measurements: Every 15 minutes for 120 minutes
+    \item End-expiratory breath samples analyzed for H$_2$, CH$_4$ (and H$_2$S if available)
+\end{itemize}
+
+\textbf{Interpretation:}
+\begin{itemize}
+    \item \textbf{Hydrogen}: Rise $\geq$20 ppm above baseline
+    \item \textbf{Methane}: $\geq$10 ppm at any point
+    \item \textbf{Hydrogen sulfide}: $\geq$3 ppm at any point (Trio-Smart criteria)
+\end{itemize}
+
+\textbf{Glucose vs Lactulose:}
+\begin{itemize}
+    \item Glucose absorbed in proximal small intestine (more specific for SIBO)
+    \item Lactulose reaches colon (may yield false positives)
+    \item Glucose preferred for diagnosis; lactulose may detect distal SIBO
+\end{itemize}
 
 \subsection{Digestive Function}
-% Enzyme production
-% Nutrient absorption
-% Bile acid metabolism
+
+Beyond motility, ME/CFS patients may have impaired digestive capacity:
+
+\begin{itemize}
+    \item \textbf{Pancreatic enzyme insufficiency}: Reduced lipase, protease, amylase secretion
+    \item \textbf{Bile acid malabsorption}: Impaired fat digestion; contributes to diarrhea
+    \item \textbf{Nutrient malabsorption}: Consequent to SIBO, intestinal permeability, and enzyme deficiency
+    \item \textbf{Hypochlorhydria}: Reduced gastric acid (sometimes from PPI overuse) predisposes to SIBO
+\end{itemize}
 
 \section{Metabolites and Short-Chain Fatty Acids}
 \label{sec:metabolites}
 
-% Butyrate, acetate, propionate
-% Effects on immune function
-% Energy substrate provision
-% Epigenetic effects
+Short-chain fatty acids (SCFAs) are produced by bacterial fermentation of dietary fiber and have profound effects on host physiology.
+
+\subsection{Butyrate}
+
+Butyrate is the most metabolically important SCFA, with multiple functions relevant to ME/CFS:
+
+\begin{itemize}
+    \item \textbf{Colonocyte energy}: Primary fuel source for colonic epithelium
+    \item \textbf{Barrier function}: Strengthens tight junctions, reduces permeability
+    \item \textbf{Anti-inflammatory}: Inhibits NF-$\kappa$B, reduces pro-inflammatory cytokines
+    \item \textbf{Immune modulation}: Promotes regulatory T cell differentiation
+    \item \textbf{Neuromodulation}: Crosses blood-brain barrier, affects microglial function
+    \item \textbf{Epigenetic effects}: Histone deacetylase inhibitor
+\end{itemize}
+
+\textbf{Butyrate deficiency in ME/CFS} (see Achievement~\ref{ach:butyrate-deficiency}) may contribute to:
+\begin{itemize}
+    \item Increased intestinal permeability
+    \item Chronic low-grade inflammation
+    \item Impaired immune regulation
+    \item Neuroinflammation
+\end{itemize}
+
+\subsection{Acetate and Propionate}
+
+\begin{itemize}
+    \item \textbf{Acetate}: Most abundant SCFA; enters systemic circulation; substrate for lipogenesis; appetite regulation
+    \item \textbf{Propionate}: Gluconeogenic substrate; cholesterol-lowering effects; modulates immune function
+\end{itemize}
+
+\section{Treatment Approaches}
+\label{sec:gi-treatment}
+
+Treatment of gastrointestinal dysfunction in ME/CFS requires addressing multiple interrelated issues: motility, bacterial overgrowth, permeability, and microbiome composition.
+
+\subsection{SIBO Treatment}
+
+\subsubsection{Antibiotics}
+
+\textbf{Rifaximin (Xifaxan):}
+\begin{itemize}
+    \item Non-absorbed antibiotic targeting small intestine
+    \item \textbf{Dosing}: 550 mg three times daily (1650 mg/day) for 14 days
+    \item Effective for hydrogen-dominant SIBO
+    \item Systematic reviews confirm efficacy and safety
+    \item \textbf{Limitation}: Some patients relapse after completing course
+\end{itemize}
+
+\textbf{Neomycin:}
+\begin{itemize}
+    \item More effective against methane-producing archaea
+    \item Often combined with rifaximin for IMO (methane-dominant)
+    \item \textbf{Dosing}: 500 mg twice daily for 14 days (with rifaximin)
+\end{itemize}
+
+\textbf{Metronidazole:}
+\begin{itemize}
+    \item Used for hydrogen sulfide SIBO
+    \item Alternative when rifaximin unavailable or failed
+    \item More systemic side effects
+\end{itemize}
+
+\begin{warning}[SIBO Recurrence]
+SIBO frequently recurs after antibiotic treatment, particularly if underlying motility dysfunction is not addressed. Addressing root causes (MMC dysfunction, autonomic impairment) and using prokinetics post-treatment may reduce recurrence.
+\end{warning}
+
+\subsubsection{Herbal Antimicrobials}
+
+\begin{observation}[Herbal Therapy Comparable to Rifaximin in Observational Study]
+\label{obs:herbal-sibo}
+A 2014 retrospective study~\cite{HerbalSIBO2014} compared herbal antimicrobials to rifaximin in 104 SIBO patients:
+\begin{itemize}
+    \item \textbf{Herbal therapy}: 46\% breath test normalization
+    \item \textbf{Rifaximin}: 34\% breath test normalization
+    \item Herbal therapy at least as effective as rifaximin in this cohort
+    \item 57\% of rifaximin non-responders achieved normalization with subsequent herbal therapy
+\end{itemize}
+Herbal antimicrobials may represent an alternative for patients preferring non-pharmaceutical approaches or with antibiotic intolerance. However, this was a retrospective, non-randomized comparison; RCT validation is needed before concluding equivalence (retrospective cohort, n=104, Medium certainty).
+\end{observation}
+
+\textbf{Effective herbal agents:}
+\begin{itemize}
+    \item \textbf{Berberine}: Reduces pathogenic bacteria, improves intestinal barrier; more effective against hydrogen-producing bacteria
+    \item \textbf{Allicin} (garlic extract): Antibacterial, antifungal; most effective against methane-producing microbes
+    \item \textbf{Oregano oil}: Active constituents carvacrol (55--85\%) and thymol; disrupts bacterial cell membranes; preserves beneficial \textit{Lactobacillus} and \textit{Bifidobacterium}
+    \item \textbf{Neem}: Broad-spectrum antimicrobial
+\end{itemize}
+
+\textbf{Protocol:}
+\begin{itemize}
+    \item Typical duration: 4--6 weeks
+    \item Often two agents combined (e.g., berberine + oregano oil)
+    \item Reassess with breath testing after treatment
+\end{itemize}
+
+\textbf{Contraindications and Interactions:}
+\begin{itemize}
+    \item \textbf{Berberine}: Inhibits CYP3A4, CYP2D6, and CYP2C9 enzymes; may increase levels of many medications including anticoagulants, immunosuppressants, and statins; contraindicated in pregnancy
+    \item \textbf{Oregano oil}: May lower blood pressure; caution with antihypertensives; avoid in pregnancy
+    \item \textbf{Garlic/allicin}: Antiplatelet effects; avoid with anticoagulants (warfarin, aspirin); discontinue 7--10 days before surgery
+    \item \textbf{General}: All herbal antimicrobials should be used under medical supervision; drug-herb interactions are common
+\end{itemize}
+
+\subsubsection{Elemental Diet}
+
+Elemental diets provide pre-digested nutrients (amino acids, simple sugars, minimal fat) that are absorbed in the proximal small intestine, effectively ``starving'' bacteria of fermentable substrates.
+
+\begin{observation}[Elemental Diet Efficacy]
+\label{obs:elemental-diet}
+Multiple studies demonstrate high efficacy:
+\begin{itemize}
+    \item Classic study: 80\% breath test normalization at 14 days, 85\% at 21 days
+    \item Recent 2025 study~\cite{ElementalDiet2025} with palatable formulation: \textbf{83\% SIBO eradication}
+    \item 100\% normalization in hydrogen-SIBO (n=6)
+    \item 58\% normalization in IMO (n=12)
+    \item 66\% symptom improvement in those who normalized
+\end{itemize}
+Elemental diet is highly effective but requires motivation due to taste and restrictive nature (clinical trials, Medium-High certainty).
+\end{observation}
+
+\textbf{Protocol:}
+\begin{itemize}
+    \item Duration: 14 days exclusive elemental diet (may extend to 21 days if still abnormal at day 15)
+    \item Formulas: Vivonex Plus, mBIOTA Elemental (newer palatable formulation)
+    \item Caloric intake based on individual requirements
+    \item Gradual reintroduction of regular foods over 2 weeks after completion
+\end{itemize}
+
+\subsection{Prokinetics}
+
+Prokinetic agents stimulate gastrointestinal motility and may help prevent SIBO recurrence by restoring MMC function.
+
+\begin{itemize}
+    \item \textbf{Low-dose erythromycin} (50--100 mg at bedtime): Motilin receptor agonist; stimulates MMC. Tachyphylaxis develops with continuous use; drug holidays recommended (3 weeks on, 1 week off).
+
+    \item \textbf{Prucalopride} (Motegrity): Selective 5-HT$_4$ receptor agonist; FDA-approved for chronic constipation. May be more effective for idiopathic gastroparesis.
+
+    \item \textbf{Metoclopramide} (Reglan): Dopamine D2 antagonist; only FDA-approved medication for gastroparesis. \textbf{Warning}: Risk of tardive dyskinesia with prolonged use.
+
+    \item \textbf{Domperidone}: Dopamine antagonist; not available in US (requires FDA expanded access). Cardiac monitoring required (QT prolongation risk).
+\end{itemize}
+
+\begin{warning}[Prokinetic Limitations]
+Prokinetics have limited effectiveness as monotherapy for gastroparesis. They are most useful for:
+\begin{itemize}
+    \item Preventing SIBO recurrence after successful eradication
+    \item Mild-to-moderate gastroparesis
+    \item Combined with dietary modifications
+\end{itemize}
+They do not cure underlying autonomic dysfunction and require careful monitoring for side effects.
+\end{warning}
+
+\subsection{Dietary Interventions}
+
+\subsubsection{Low-FODMAP Diet}
+
+FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyols) are poorly absorbed carbohydrates that are fermented by gut bacteria, producing gas and drawing water into the intestine.
+
+\textbf{Evidence:}
+\begin{itemize}
+    \item Multiple RCTs demonstrate efficacy for IBS symptoms
+    \item Limited direct evidence in ME/CFS, but given 50--90\% IBS overlap, likely beneficial for GI symptoms
+    \item One fibromyalgia study (n=38) showed significant reduction in gut symptoms and widespread pain after 4 weeks
+\end{itemize}
+
+\textbf{Implementation:}
+\begin{enumerate}
+    \item \textbf{Elimination phase} (2--6 weeks): Strict avoidance of high-FODMAP foods
+    \item \textbf{Reintroduction phase}: Systematic testing of individual FODMAP groups
+    \item \textbf{Personalization phase}: Long-term diet based on individual tolerances
+\end{enumerate}
+
+\textbf{Requires dietitian guidance} for proper implementation; not intended as permanent restriction.
+
+\subsubsection{Gastroparesis Diet}
+
+\begin{itemize}
+    \item Small, frequent meals (5--6 per day)
+    \item Low-fat (fat delays gastric emptying)
+    \item Low-fiber during flares (fiber delays emptying)
+    \item Well-cooked, soft foods
+    \item Avoid lying down after meals
+    \item Liquid calories if solid food poorly tolerated
+\end{itemize}
+
+\subsection{Probiotics and Prebiotics}
+
+\subsubsection{Probiotic Evidence in ME/CFS}
+
+\textbf{Lactobacillus casei strain Shirota:}
+\begin{itemize}
+    \item 48 ME/CFS patients, 8 weeks: Significant decrease in anxiety scores versus placebo
+    \item Follow-up study (39 patients, 2 months): Significant reduction in anxiety symptoms
+    \item No change in depression scores
+\end{itemize}
+
+\textbf{Bifidobacterium infantis 35624:}
+\begin{itemize}
+    \item 35 ME/CFS patients, 8 weeks
+    \item Significantly \textbf{reduced inflammatory markers}: CRP, IL-6, TNF-$\alpha$
+    \item 71\% showed reduced pro-inflammatory markers
+    \item Symptom reduction in 3 separate RCTs
+\end{itemize}
+
+\begin{hypothesis}[Strain-Specific Probiotic Effects]
+\label{hyp:probiotic-strain}
+Probiotic effects are highly strain-specific. \textit{B. infantis} 35624 shows strongest evidence for reducing inflammation in ME/CFS, while \textit{L. casei} Shirota may preferentially improve anxiety. Generic ``probiotic'' recommendations are unlikely to be helpful; strain selection should be evidence-based.
+\end{hypothesis}
+
+\begin{warning}[Probiotic Cautions]
+\begin{itemize}
+    \item Not all strains are equally effective; many commercial products lack evidence
+    \item Effects may be transient (requiring ongoing use)
+    \item Individual responses vary substantially
+    \item Quality and viability of commercial products inconsistent
+    \item Some patients report worsening with probiotics (particularly with SIBO)
+\end{itemize}
+\end{warning}
+
+\subsubsection{Prebiotics}
+
+Prebiotics are non-digestible fibers that selectively feed beneficial bacteria:
+\begin{itemize}
+    \item Fructo-oligosaccharides (FOS)
+    \item Galacto-oligosaccharides (GOS)
+    \item Inulin
+    \item Resistant starch
+\end{itemize}
+
+\textbf{Caution in SIBO}: Prebiotics may worsen symptoms in patients with active SIBO by feeding overgrown bacteria. Generally better tolerated after SIBO eradication.
+
+\subsection{Fecal Microbiota Transplantation}
+\label{sec:fmt}
+
+FMT represents the most radical microbiome intervention---complete ecosystem replacement rather than supplementation.
+
+\begin{hypothesis}[FMT for ME/CFS]
+\label{hyp:fmt}
+Rationale for FMT in ME/CFS:
+\begin{itemize}
+    \item Restores microbial diversity impossible to achieve with probiotics alone
+    \item Transfers not just bacteria but bacteriophages, fungi, and metabolites
+    \item Donor microbiome may provide missing metabolic functions (butyrate production, tryptophan metabolism)
+    \item May reset gut-immune interactions
+\end{itemize}
+\end{hypothesis}
+
+\textbf{Current Evidence:}
+\begin{itemize}
+    \item \textbf{Finnish pilot study (2023)}: Randomized, double-blind, placebo-controlled (n=11). FMT was safe but did \textbf{not} relieve symptoms or improve quality of life. However, dose may have been suboptimal (30g vs 70g typically needed).
+    \item \textbf{Norwegian ``Comeback'' study}: Randomized, double-blind, placebo-controlled (n=80). Completed enrollment March 2025; results expected 2026.
+    \item \textbf{RESTORE ME study}: Placebo-controlled (n=160); underway since 2020.
+\end{itemize}
+
+\begin{warning}[FMT Evidence Status]
+FMT for ME/CFS remains \textbf{experimental}. Current evidence is insufficient to recommend routine use:
+\begin{itemize}
+    \item One negative pilot study (small sample, potentially underdosed)
+    \item Large trials ongoing but not yet reported
+    \item Dysbiosis in ME/CFS is association, not proven causality
+    \item Long-term safety of FMT not fully established
+\end{itemize}
+Await results of adequately powered trials before considering FMT for ME/CFS.
+\end{warning}
+
+\section{Integration with Other ME/CFS Pathophysiology}
+\label{sec:gi-integration}
+
+Gastrointestinal dysfunction interconnects with other ME/CFS mechanisms:
+
+\begin{itemize}
+    \item \textbf{Immune dysfunction} (Chapter~\ref{ch:immune-dysfunction}): Intestinal permeability drives LPS-mediated immune activation; GALT dysregulation affects systemic immunity
+
+    \item \textbf{Autonomic dysfunction} (Chapter~\ref{ch:neurological}): Vagal impairment causes gastroparesis and MMC dysfunction; dysautonomia and GI symptoms bidirectionally reinforce each other
+
+    \item \textbf{MCAS} (Section~\ref{sec:septad}): Mast cells in gut mucosa affect motility; SIBO may trigger mast cell activation; mast cell mediators alter intestinal permeability
+
+    \item \textbf{Energy metabolism} (Chapter~\ref{ch:energy-metabolism}): Butyrate deficiency reduces colonocyte energy; malabsorption impairs nutrient availability for mitochondrial function
+
+    \item \textbf{Neurological symptoms}: Gut-brain axis dysfunction contributes to cognitive impairment, mood disturbance, and autonomic symptoms
+\end{itemize}
+
+\begin{open_question}[Causality in Gut-ME/CFS Relationship]
+\label{oq:gut-causality}
+Critical unresolved questions:
+\begin{itemize}
+    \item Does dysbiosis \textit{cause} ME/CFS symptoms, or is it a \textit{consequence} of the disease?
+    \item Can correcting microbiome alterations improve ME/CFS outcomes?
+    \item Which comes first: autonomic dysfunction causing dysmotility, or gut dysfunction driving autonomic symptoms?
+    \item Would microbiome-targeted therapies be disease-modifying or merely symptomatic?
+\end{itemize}
+Answering these questions requires interventional studies with objective outcome measures beyond symptom questionnaires.
+\end{open_question}
