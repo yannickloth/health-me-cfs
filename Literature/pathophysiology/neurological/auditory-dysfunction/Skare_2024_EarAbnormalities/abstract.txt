@@ -1,0 +1,8 @@
+Ear abnormalities in chronic fatigue syndrome (CFS), fibromyalgia (FM), Coronavirus-19 infectious disease (COVID) and long-COVID syndrome (PCS), sick-building syndrome (SBS), post-orthostatic tachycardia syndrome (PoTS), and autoimmune/inflammatory syndrome induced by adjuvants (ASIA): A systematic review
+
+The authors conducted a systematic review of 172 articles (January 1990–January 2024) examining hearing and vestibular disturbances across multiple autoimmune and post-infectious conditions. They concluded that "cochlear complaints are the most frequent in most studies," with vestibular symptoms less commonly reported, and identified multiple pathophysiological mechanisms including viral effects, vascular impairment, autoimmune reactions, and oxidative stress. The review synthesizes evidence across ME/CFS, fibromyalgia, long-COVID, PoTS, and related syndromes, identifying common patterns of ear/auditory dysfunction.
+
+DOI: 10.1016/j.autrev.2024.103606
+PubMed: 39209013
+Journal: Autoimmunity Reviews, 2024, Volume 23(10), Article 103606
+Retrieved: 2026-01-27

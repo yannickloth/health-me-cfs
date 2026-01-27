@@ -1,0 +1,8 @@
+A retrospective cross-sectional study on tinnitus prevalence and disease associations in the Dutch population-based cohort Lifelines
+
+This population-based study examined tinnitus prevalence among 124,609 Dutch participants. Findings indicated that 6.4% reported constant tinnitus while 31.8% experienced tinnitus occasionally or constantly. The research identified established associations with hearing problems and psychiatric disorders, plus novel connections to inflammatory diseases, including rheumatoid arthritis and ulcerative colitis, and functional somatic syndromes such as chronic fatigue syndrome. The study found chronic fatigue syndrome carried an odds ratio of 1.568 for constant tinnitus, suggesting a meaningful association worthy of future mechanistic investigation.
+
+DOI: 10.1016/j.heares.2021.108355
+PubMed: 34607212
+Journal: Hearing Research, 2021, Volume 411, Article 108355
+Retrieved: 2026-01-26

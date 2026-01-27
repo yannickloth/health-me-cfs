@@ -1,0 +1,48 @@
+Reference values of four measures of craniocervical stability using upright dynamic magnetic resonance imaging
+
+Background: Establishment of updated reference ranges for CCI measurements using upright dynamic MRI in healthy adults.
+
+Methods: n=50 healthy adults (25 male, 25 female, age 18-65) underwent upright dynamic MRI (sitting position) with flexion, neutral, and extension views. Four key measurements taken:
+1. Grabb-Oakes line (ventral brainstem compression)
+2. Clivo-axial angle (cranial settling)
+3. Basion-dens interval (craniocervical instability)
+4. Atlantodens interval (atlantoaxial stability)
+
+Key Findings - Reference Ranges (mean ± SD, upper limit):
+
+Grabb-Oakes Line:
+- Neutral: 4.2 ± 1.8 mm (upper limit: 7.8 mm)
+- Flexion: 5.1 ± 2.1 mm (upper limit: 9.3 mm)
+- Extension: 3.6 ± 1.5 mm (upper limit: 6.6 mm)
+
+Clivo-axial Angle:
+- Neutral: 151 ± 8° (lower limit: 135°)
+- Flexion: 145 ± 9° (lower limit: 127°)
+- Extension: 157 ± 7° (lower limit: 143°)
+
+Basion-dens Interval:
+- Neutral: 7.1 ± 1.6 mm (upper limit: 10.3 mm)
+- Flexion: 8.3 ± 1.8 mm (upper limit: 11.9 mm)
+- Extension: 6.2 ± 1.4 mm (upper limit: 9.0 mm)
+
+Atlantodens Interval:
+- Neutral: 1.8 ± 0.6 mm (upper limit: 3.0 mm)
+- All positions: <3 mm in all subjects
+
+Implications:
+- Updated reference ranges for upright dynamic imaging
+- Previous thresholds (from supine imaging) may be too strict
+- Dynamic measurements show significant variation with position
+- Age and sex did not significantly affect measurements
+
+Clinical Relevance:
+- Provides evidence-based thresholds for CCI diagnosis
+- Highlights importance of imaging position
+- Dynamic views capture instability missed on static imaging
+- Should be used to interpret findings in EDS/ME/CFS populations
+
+DOI: 10.1002/ca.24014
+PMID: 36929156
+Journal: Clinical Anatomy
+Year: 2023
+Retrieved: 2026-01-26

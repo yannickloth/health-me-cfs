@@ -1,0 +1,9 @@
+Brainstem Abnormalities in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Scoping Review and Evaluation of Magnetic Resonance Imaging Findings
+
+This scoping review synthesizes MRI research on the brainstem's involvement in ME/CFS. The authors reviewed 11 studies and found evidence of structural changes in white and gray matter, alongside functional connectivity abnormalities. The research suggests "possible mechanisms including astrocyte dysfunction, cerebral perfusion impairment, impaired nerve conduction, and neuroinflammation" affecting the brainstem, which may explain the heterogeneous symptom presentations characteristic of this condition. The brainstem houses critical autonomic, sensory, and motor control centers, making its involvement potentially explanatory for diverse ME/CFS symptoms including auditory processing deficits.
+
+DOI: 10.3389/fneur.2021.769511
+PubMed: 34975729
+PMC: PMC8718708
+Journal: Frontiers in Neurology, 2021, Volume 12, Article 769511
+Retrieved: 2026-01-27

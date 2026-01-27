@@ -1,0 +1,16 @@
+Mast cell disorders are associated with decreased cerebral blood flow and small fiber neuropathy
+
+BACKGROUND: Mast cell disorders including hereditary alpha tryptasemia (HαT) and idiopathic mast cell activation syndrome (MCAS) can be associated with neurologic symptoms such as orthostatic intolerance, pain, and cognitive impairment. The origin of these symptoms is not well understood.
+
+OBJECTIVE: To characterize neurologic findings in patients with HαT and MCAS through objective measurements.
+
+METHODS: Patients with a confirmed diagnosis of HαT or MCAS with neurologic symptoms were referred for standardized autonomic testing encompassing Valsalva maneuver, deep breathing, sudomotor and tilt tests with cerebral blood flow velocity (CBFv) determination, and skin biopsies for small fiber neuropathy (SFN).
+
+RESULTS: There were 15 patients with HαT (age 44.4 ± 15.9 years), 16 with MCAS (34.4 ± 15.5), and 14 matched controls who were evaluated. Baseline serum tryptase level was increased in patients with HαT when compared with patients with MCAS (14.3 ± 2.5 ng/mL vs 3.8 ± 1.8; P <.001) and neurologic symptoms were similar between the 2 groups. When compared with controls, orthostatic CBFv was reduced in HαT (-24.2 ± 14.3%; P <.001) and MCAS (-20.8 ± 5.5%; P <.001). Reduced nerve fibers consistent with SFN were found in 80% of patients with HαT and 81% of those with MCAS. Mild-to-moderate dysautonomia was detected in all patients with HαT and MCAS when results of sympathetic, parasympathetic, and sudomotor tests were combined.
+
+CONCLUSION: We provide evidence of reduced orthostatic CBFv and SFN associated with mild-to-moderate autonomic dysfunction in patients with HαT and MCAS. Our findings suggest that comprehensive autonomic testing may be helpful to explain neurologic symptoms and guide treatment in patients with HαT and MCAS.
+
+DOI: 10.1016/j.anai.2021.10.006
+PMID: 34648976
+Journal: Annals of Allergy, Asthma & Immunology, 2022 Mar;128(3):299-306.e1
+Retrieved: 2026-01-26

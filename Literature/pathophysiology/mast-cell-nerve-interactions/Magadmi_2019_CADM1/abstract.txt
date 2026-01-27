@@ -1,0 +1,14 @@
+CADM1-dependent adhesion strengthens mast cell-sensory neuron interactions and enhances mast cell responsiveness to antigen stimulation
+
+The research investigates how cell adhesion molecule 1 (CADM1) mediates interactions between mast cells and sensory neurons. The study demonstrates that CADM1 is expressed in mast cells and adult sensory neurons and mediates strong adhesion between the two cell types. The findings indicate that neuronal contact enhances mast cell responsiveness to antigen stimulation, suggesting mechanisms underlying painful inflammatory disorders in atopic populations.
+
+Key experimental findings:
+- CADM1 expression confirmed in both mature bone marrow-derived mast cells (BMMCs) and adult dorsal root ganglion (DRG) neurons
+- CADM1-dependent adhesion significantly enhanced mast cell degranulation and IL-6 secretion
+- Blocking CADM1 or reducing its expression abolished enhanced mast cell responses
+- Effects were neuron-specific; HEK 293 cells expressing CADM1 did not replicate neuronal influences
+- TNFα secretion remained unaffected by neuronal contact
+
+DOI: 10.3389/fncel.2019.00262
+URL: https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2019.00262/full
+Retrieved: 2026-01-26

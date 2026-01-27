@@ -1,0 +1,37 @@
+Craniocervical instability in patients with Ehlers-Danlos syndromes: outcomes analysis following occipito-cervical fusion
+
+Background: Retrospective analysis of surgical outcomes in EDS patients who underwent occipito-cervical fusion for symptomatic craniocervical instability.
+
+Methods: n=53 EDS patients (predominantly hEDS) who underwent occipito-cervical fusion for CCI. Outcomes assessed using validated instruments including NDI (Neck Disability Index), VAS pain scores, and neurological examination. Mean follow-up 18 months.
+
+Key Findings:
+- Pain improvement: 71% of patients (mean VAS reduction from 7.8 to 3.2)
+- Functional improvement: 68% (mean NDI improvement from 58% to 28%)
+- Neurological improvement: 65% (weakness, paresthesias, balance)
+- Complication rate: 19% (mainly hardware-related)
+- Reoperation rate: 11%
+- Patient satisfaction: 77% would repeat surgery
+
+Predictors of Good Outcomes:
+- Younger age at surgery (<40 years)
+- Shorter symptom duration (<5 years)
+- Correlation between imaging severity and symptoms
+- Absence of severe comorbid conditions
+
+Complications:
+- Hardware failure: 8%
+- CSF leak: 4%
+- Infection: 3%
+- Adjacent segment disease: 4%
+
+Implications:
+- Surgical intervention can be effective for properly selected EDS patients with CCI
+- Patient selection critical - best outcomes when imaging correlates with symptoms
+- Complication rates acceptable but significant
+- Long-term follow-up needed
+
+DOI: 10.1007/s10143-023-02249-0
+PMID: 38163828
+Journal: Neurosurgical Review
+Year: 2024
+Retrieved: 2026-01-26

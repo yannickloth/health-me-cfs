@@ -1,0 +1,35 @@
+Craniocervical Instability in Ehlers-Danlos Syndrome—A Systematic Review of Diagnostic and Surgical Treatment Criteria
+
+Background: Craniocervical instability (CCI) is increasingly recognized in patients with Ehlers-Danlos syndrome (EDS), particularly hypermobile EDS (hEDS). This systematic review synthesizes current diagnostic criteria and surgical treatment approaches.
+
+Methods: Systematic review of 16 studies including 695 EDS patients with suspected or confirmed CCI. Analysis of diagnostic imaging criteria (static and dynamic MRI, CT), clinical presentation, and surgical outcomes.
+
+Key Findings:
+- Multiple diagnostic measurement systems exist (Grabb-Oakes, clivo-axial angle, atlantodens interval, etc.)
+- Significant heterogeneity in diagnostic thresholds across studies
+- Surgical intervention (occipito-cervical fusion) shows positive outcomes when properly indicated
+- Need for standardized diagnostic criteria is critical
+
+Diagnostic Challenges:
+- No consensus on single "gold standard" measurement
+- Reference ranges vary between studies
+- Dynamic imaging (upright, flexion-extension) provides more information than supine static MRI
+- Clinical presentation must correlate with imaging findings
+
+Clinical Presentation:
+- Headaches (often suboccipital)
+- Neck pain and instability
+- Neurological symptoms (paresthesias, weakness)
+- Autonomic dysfunction
+- Cognitive difficulties
+- Balance problems
+
+Implications for EDS/ME/CFS:
+- Many ME/CFS patients have comorbid EDS or hypermobility
+- CCI may contribute to symptom burden in subset of patients
+- Screening for structural abnormalities warranted in hypermobile patients with progressive neurological symptoms
+
+DOI: 10.1177/21925682211068520
+Journal: Global Spine Journal
+Year: 2022
+Retrieved: 2026-01-26

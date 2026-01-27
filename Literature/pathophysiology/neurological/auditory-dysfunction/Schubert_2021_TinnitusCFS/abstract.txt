@@ -1,0 +1,8 @@
+A retrospective cross-sectional study on tinnitus prevalence and disease associations in the Dutch population-based cohort Lifelines
+
+This investigation examined tinnitus occurrence and connected health conditions using data from over 167,000 participants in the Lifelines cohort study. Among 124,609 individuals analyzed, approximately 6.4% reported experiencing constant tinnitus while 31.8% reported any tinnitus. The research confirmed established associations with hearing difficulties, cardiac arrhythmias, and major depression. Novel connections emerged with inflammatory conditions, thyroid disease, and functional somatic syndromes—specifically noting that chronic fatigue syndrome (OR 1.568) showed association with constant tinnitus presentations.
+
+DOI: 10.1016/j.heares.2021.108355
+PubMed: 34607212
+Journal: Hearing Research, 2021, Volume 411, Article 108355
+Retrieved: 2026-01-27

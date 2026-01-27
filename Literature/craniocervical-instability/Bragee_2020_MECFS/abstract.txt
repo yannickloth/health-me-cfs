@@ -1,0 +1,34 @@
+Signs of Intracranial Hypertension, Hypermobility, and Craniocervical Obstructions in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome
+
+Background: This study investigated structural abnormalities at the craniocervical junction in ME/CFS patients using upright MRI.
+
+Methods: Prospective imaging study of 229 ME/CFS patients (Canadian Consensus Criteria) using upright MRI. Measurements included signs of intracranial hypertension, craniocervical obstructions, and hypermobility indicators.
+
+Key Findings:
+- 80% (183/229) had craniocervical obstructions
+- 78% (179/229) had signs of intracranial hypertension
+- 75% (172/229) met criteria for hypermobility
+- Strong association between hypermobility and structural abnormalities
+
+Specific Findings:
+- Cerebellar tonsillar descent (Chiari malformation): 45%
+- Reduced clivus-canal angle: 58%
+- Increased odontoid retroflexion: 42%
+- Basilar invagination: 23%
+
+Clinical Correlations:
+- Structural abnormalities correlated with severity of orthostatic intolerance
+- Positional symptoms (worse upright) more common in those with obstructions
+- Neurological symptoms (paresthesias, weakness) associated with degree of compression
+
+Implications:
+- High prevalence of structural abnormalities in ME/CFS
+- Upright imaging critical (supine MRI may miss these findings)
+- Subset of ME/CFS may have structural component to symptoms
+- Potential therapeutic target in selected patients
+
+DOI: 10.3389/fneur.2020.00828
+PubMed: 32982905
+Journal: Frontiers in Neurology
+Year: 2020
+Retrieved: 2026-01-26

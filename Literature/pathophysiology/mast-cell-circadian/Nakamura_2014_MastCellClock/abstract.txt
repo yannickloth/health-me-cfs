@@ -1,0 +1,16 @@
+Circadian regulation of allergic reactions by the mast cell clock in mice
+
+BACKGROUND: It remains elusive how allergic symptoms exhibit prominent 24-hour variations. In mammals the circadian clocks present in nearly all cells, including mast cells, drive the daily rhythms of physiology. Recently, we have shown that the circadian clocks drive the daily rhythms in IgE/mast cell-mediated allergic reactions. However, the precise mechanisms, particularly the specific roles of the mast cell-intrinsic clockwork in temporal regulation, remain unclear.
+
+OBJECTIVE: We determined whether the mast cell clockwork contributes to the temporal regulation of IgE/mast cell-mediated allergic reaction.
+
+METHODS: The kinetics of a time of day-dependent variation in passive cutaneous anaphylactic reactions were compared between mast cell-deficient mice reconstituted with bone marrow-derived cultured mast cells generated from mice with a wild-type allele and a dominant negative type mutation of the key clock gene Clock. We also examined the temporal responses of wild-type and Clock-mutated bone marrow-derived cultured mast cells to IgE stimulation in vitro. Furthermore, factors influencing the mast cell clockwork were determined by using in vivo imaging.
+
+RESULTS: The Clock mutation in mast cells resulted in the absence of temporal variations in IgE-mediated degranulation in mast cells both in vivo and in vitro associated with the loss of temporal regulation of FcεRI expression and signaling. Additionally, adrenalectomy abolished the mast cell clockwork in vivo.
+
+CONCLUSION: The mast cell-intrinsic clockwork, entrained by humoral factors from the adrenal gland, primarily contributes to the temporal regulation of IgE/mast cell-mediated allergic reactions. Our results reveal a novel regulatory mechanism for IgE-mediated mast cell responses that might underlie the circadian pathophysiology in patients with allergic diseases.
+
+DOI: 10.1016/j.jaci.2013.07.040
+PMID: 24060274
+Journal: Journal of Allergy and Clinical Immunology, 2014 Feb;133(2):568-75
+Retrieved: 2026-01-26

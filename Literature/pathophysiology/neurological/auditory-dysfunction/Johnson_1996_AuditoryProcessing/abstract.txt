@@ -1,0 +1,8 @@
+Selective impairment of auditory processing in chronic fatigue syndrome: a comparison with multiple sclerosis and healthy controls
+
+The research team compared efficiency of information processing across different sensory modalities in three groups: 20 individuals with chronic fatigue syndrome (CFS), 20 with multiple sclerosis (MS), and 20 healthy controls. Participants completed either auditory or visual versions of a serial-addition task. Key findings revealed that "the group with Chronic Fatigue Syndrome was differentially impaired on the auditory relative to the visual processing task," whereas the MS group showed equal impairment on both versions. The authors interpreted these results through Baddeley's working memory framework, suggesting modality-specific deficits may characterize CFS cognitive dysfunction.
+
+DOI: 10.2466/pms.1996.83.1.51
+PubMed: 8873173
+Journal: Perception & Motor Skills, 1996, Volume 83(1), Pages 51-62
+Retrieved: 2026-01-26

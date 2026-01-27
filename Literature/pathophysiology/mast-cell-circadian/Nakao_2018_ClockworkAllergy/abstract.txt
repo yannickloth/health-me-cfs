@@ -1,0 +1,10 @@
+Clockwork allergy: How the circadian clock underpins allergic reactions
+
+Allergic disease is characterized by marked day-night changes in the clinical symptoms and laboratory parameters of allergy. Recent reports suggest that the circadian clock, which drives a biological rhythm with a periodicity of approximately 24 hours in behavior and physiology, underpins a time of day-dependent variation in allergic reactions. New studies also suggest that disruption of clock activity not only influences temporal variation but can also enhance the severity of allergic reactions and even increase susceptibility to allergic disease. These findings suggest that the circadian clock is a potent regulator of allergic reactions that plays more than a simple circadian timekeeping role in allergy. A better understanding of these processes will provide new insight into previously unknown aspects of the biology of allergies and can lead to the application of clock modifiers to treat allergic disease. Finally, this area of research provides a novel opportunity to consider how modern lifestyles in the developed world are changing the clinical manifestations of allergy as our society quickly transforms into a circadian rhythm-disrupted society in which sleeping, working, and eating habits are out of sync with endogenous circadian rhythmicity. Such findings might reveal lifestyle interventions that enable us to better control allergic disease.
+
+DOI: 10.1016/j.jaci.2018.08.007
+PMID: 30293559
+Journal: Journal of Allergy and Clinical Immunology, 2018 Oct;142(4):1021-1031
+Retrieved: 2026-01-26
+
+Note: This is a comprehensive review article synthesizing the circadian allergy field.
