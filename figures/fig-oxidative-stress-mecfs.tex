@@ -3,10 +3,12 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm,  % Global minimum vertical spacing
+    scale=0.85, every node/.style={scale=0.85},
     % Styles
     impaired/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1cm},
-    severe/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=7.5cm, align=center, minimum height=1.1cm, drop shadow},
+    severe/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=7.5cm, align=center, minimum height=1.1cm},
     pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=3.5cm, align=center, minimum height=1cm},
     impaired-arrow/.style={-latex, very thick, red!70!black, line width=1.2pt},
     cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.6pt},
@@ -14,26 +16,26 @@
 ]
 
 % Title
-\node[font=\large\bfseries, red!70!black] at (0, 6.5) {ME/CFS: Oxidative Stress Vicious Cycle};
+\node[font=\large\bfseries, red!70!black] (title) at (0, 0) {ME/CFS: Oxidative Stress Vicious Cycle};
 
 % TOP: Imbalance
-\begin{scope}[yshift=5cm]
+\begin{scope}[yshift=-3cm]
     % Excessive ROS (left)
-    \node[impaired] (ros) at (-3.5, 0) {\textbf{Excessive ROS}\\[2pt] 5--10\% ETC leak\\Complex I/III damage};
+    \node[impaired, below left=3cm and 4cm of title] (ros) {\textbf{Excessive ROS}\\[2pt] 5--10\% ETC leak\\Complex I/III damage};
 
     % Depleted antioxidants (right)
-    \node[impaired] (antioxidants) at (3.5, 0) {\textbf{Depleted Defense}\\[2pt] GSH $\downarrow$30\%\\SOD/GPx impaired};
+    \node[impaired, below right=3cm and 4cm of title] (antioxidants) {\textbf{Depleted Defense}\\[2pt] GSH $\downarrow$30\%\\SOD/GPx impaired};
 
     % Imbalance
-    \node[severe] (imbalance) at (0, -3.5) {\textbf{ROS IMBALANCE}\\[3pt] \textit{Chronic oxidative stress}\\[2pt] Production $\gg$ Neutralization};
+    \node[severe, below=5.5cm of title] (imbalance) {\textbf{ROS IMBALANCE}\\[3pt] \textit{Chronic oxidative stress}\\[2pt] Production $\gg$ Neutralization};
 
     \draw[impaired-arrow] (ros) -- (imbalance);
     \draw[impaired-arrow] (antioxidants) -- (imbalance);
 \end{scope}
 
-% BOTTOM: Vicious cycle
-\begin{scope}[yshift=-6cm]
-    \def\radius{4}
+% BOTTOM: Vicious cycle with proper radius
+\begin{scope}[yshift=-18cm]
+    \def\radius{4.2}  % Increased from 4.0cm for better spacing
     \def\centerx{0}
     \def\centery{0}
 
@@ -71,10 +73,9 @@
 
 % Arrow from imbalance to cycle
 \draw[impaired-arrow] (imbalance) -- (mito);
-%\draw[impaired-arrow, line width=2pt] (0, 2.5) -- (0, 1.2);
 
 % Key point box
-\node[draw=red!70!black, fill=red!5, rounded corners, text width=11cm, align=left, font=\small, inner sep=8pt] at (0, -12) {
+\node[draw=red!70!black, fill=red!5, rounded corners, text width=11cm, align=left, font=\small, inner sep=8pt] at (0, -27) {
 \textbf{Self-perpetuating damage cascade:}\\[4pt]
 \textbullet~Damaged mitochondria leak more electrons (5--10\% vs. $<$2\%)\\
 \textbullet~Excess ROS damages lipids (4-HNE, MDA), proteins, and DNA\\

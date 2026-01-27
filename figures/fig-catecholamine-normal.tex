@@ -3,7 +3,8 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm,  % Global minimum vertical spacing
     % Styles
     process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
     output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.1cm},
@@ -12,42 +13,42 @@
 ]
 
 % Title
-\node[font=\large\bfseries, green!70!black] at (0, 9.5) {Normal Catecholamine Synthesis};
+\node[font=\large\bfseries, green!70!black] (title) at (0, 0) {Normal Catecholamine Synthesis};
 
 % Tyrosine
-\node[process] (tyrosine) at (0, 8) {\textbf{Tyrosine}\\(from dietary protein)};
+\node[process, below=3cm of title] (tyrosine) {\textbf{Tyrosine}\\(from dietary protein)};
 
 % Step 1: Tyrosine hydroxylase
-\node[process] (th) at (0, 6) {\textbf{Tyrosine Hydroxylase}\\+ BH\textsubscript{4}, Fe, O\textsubscript{2}};
+\node[process, below=of tyrosine] (th) {\textbf{Tyrosine Hydroxylase}\\+ BH\textsubscript{4}, Fe, O\textsubscript{2}};
 \draw[arrow] (tyrosine) -- (th);
-\node[note, right=0.8cm of th] {Rate-limiting step\\Requires ATP};
+\node[note, right=1.5cm of th] {Rate-limiting step\\Requires ATP};
 
 % L-DOPA
-\node[process] (ldopa) at (0, 4) {\textbf{L-DOPA}};
+\node[process, below=of th] (ldopa) {\textbf{L-DOPA}};
 \draw[arrow] (th) -- (ldopa);
 
 % Step 2: DOPA decarboxylase
-\node[process] (ddc) at (0, 2) {\textbf{DOPA Decarboxylase}\\+ Vitamin B\textsubscript{6}};
+\node[process, below=of ldopa] (ddc) {\textbf{DOPA Decarboxylase}\\+ Vitamin B\textsubscript{6}};
 \draw[arrow] (ldopa) -- (ddc);
 
 % Dopamine
-\node[process] (dopamine) at (0, 0) {\textbf{Dopamine}};
+\node[process, below=of ddc] (dopamine) {\textbf{Dopamine}};
 \draw[arrow] (ddc) -- (dopamine);
 
 % Step 3: Dopamine beta-hydroxylase
-\node[process] (dbh) at (0, -2) {\textbf{Dopamine $\beta$-Hydroxylase}\\+ Vitamin C, Copper};
+\node[process, below=of dopamine] (dbh) {\textbf{Dopamine $\beta$-Hydroxylase}\\+ Vitamin C, Copper};
 \draw[arrow] (dopamine) -- (dbh);
 
 % Norepinephrine
-\node[output] (ne) at (0, -4) {\textbf{Norepinephrine}\\Alertness, focus, stress response};
+\node[output, below=of dbh] (ne) {\textbf{Norepinephrine}\\Alertness, focus, stress response};
 \draw[arrow] (dbh) -- (ne);
 
 % Epinephrine (optional path)
-\node[output] (epi) at (0, -6) {\textbf{Epinephrine}\\(in adrenal medulla)\\Fight-or-flight response};
+\node[output, below=of ne] (epi) {\textbf{Epinephrine}\\(in adrenal medulla)\\Fight-or-flight response};
 \draw[arrow] (ne) -- (epi);
 
 % Key cofactors summary
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -8.5) {
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, below=2.5cm of epi] {
 \textbf{Essential cofactors:} BH\textsubscript{4} (tetrahydrobiopterin), Iron, Vitamin B\textsubscript{6}, Vitamin C, Copper. Adequate ATP is required for the rate-limiting tyrosine hydroxylase step.
 };
 

@@ -1,0 +1,15 @@
+Down-regulation of renin-aldosterone and antidiuretic hormone systems in patients with myalgic encephalomyelitis/chronic fatigue syndrome
+
+BACKGROUND:
+Both decrease in plasma volume and increase in heart rate (HR) are characteristic symptoms seen in patients with myalgic encephalomyelitis (ME) who have orthostatic intolerance (OI). To determine the physiopathological background of hypovolemia, the renin-aldosterone and antidiuretic hormone (ADH) systems were evaluated in patients with ME in the present study.
+
+METHODS AND RESULTS:
+Fourteen patients (9 females, mean age: 36±11 years) who had been diagnosed with ME based on the Canadian clinical diagnostic criteria and 13 age- and sex-matched healthy controls (mean age: 32±11 years) were enrolled. Transthoracic echocardiography, a 10-min active standing test, and plasma measurements of aldosterone, plasma renin activity (PRA), ADH, and norepinephrine (NE) were performed in all participants. Both the mean plasma aldosterone (104±37 pg/ml vs. 157±67 pg/ml, p=0.004) and ADH (2.2±1.0 pg/ml vs. 3.3±1.5 pg/ml, p=0.02) concentrations were significantly lower in the ME group than in the Controls. In five patients (50%), the symptoms of OI during the active standing test were ameliorated in association with significant increases in urinary osmotic pressure and decreases in HR following desmopressin treatment.
+
+CONCLUSIONS:
+Both the renin-aldosterone and ADH systems were down-regulated despite the existence of reduction in cardiac preload and output in patients with ME.
+
+DOI: 10.1016/j.jjcc.2016.06.003
+PubMed: 27401397
+Journal: Journal of Cardiology, 2017 Apr;69(4):684-688
+Retrieved: 2026-01-27

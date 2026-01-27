@@ -3,7 +3,8 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm,  % Global minimum vertical spacing
     % Styles
     process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
     adaptive/.style={draw=green!70!black, fill=green!20, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
@@ -13,46 +14,46 @@
 ]
 
 % Title
-\node[font=\large\bfseries, green!70!black] at (0, 9) {Normal Cellular Energy Production};
+\node[font=\large\bfseries, green!70!black] (title) at (0, 0) {Normal Cellular Energy Production};
 
 % Glucose input
-\node[process] (glucose) at (0, 7.5) {\textbf{Glucose}\\[2pt] From food digestion};
+\node[process, below=3cm of title] (glucose) {\textbf{Glucose}\\[2pt] From food digestion};
 
 % Glycolysis
-\node[process] (glycolysis) at (0, 5.8) {\textbf{Glycolysis}\\[2pt] Cytosolic pathway};
+\node[process, below=of glucose] (glycolysis) {\textbf{Glycolysis}\\[2pt] Cytosolic pathway};
 \draw[arrow] (glucose) -- (glycolysis);
-\node[note, right=1cm of glycolysis, anchor=west] {
+\node[note, right=1.5cm of glycolysis, anchor=west] {
     \textbullet~2 ATP\\
     \textbullet~2 NADH\\
     \textbullet~2 Pyruvate
 };
 
 % Pyruvate conversion
-\node[adaptive] (pyruvate) at (0, 4) {\textbf{Pyruvate $\rightarrow$ Acetyl-CoA}\\[2pt] Enters mitochondria};
+\node[adaptive, below=of glycolysis] (pyruvate) {\textbf{Pyruvate $\rightarrow$ Acetyl-CoA}\\[2pt] Enters mitochondria};
 \draw[arrow] (glycolysis) -- (pyruvate);
 
 % Krebs Cycle
-\node[adaptive] (krebs) at (0, 2.2) {\textbf{Krebs Cycle}\\[2pt] Mitochondrial matrix};
+\node[adaptive, below=of pyruvate] (krebs) {\textbf{Krebs Cycle}\\[2pt] Mitochondrial matrix};
 \draw[arrow] (pyruvate) -- (krebs);
-\node[note, right=1cm of krebs, anchor=west] {
+\node[note, right=1.5cm of krebs, anchor=west] {
     \textbullet~3 NADH\\
     \textbullet~1 FADH$_2$\\
     \textbullet~1 GTP
 };
 
 % Electron Transport Chain
-\node[adaptive] (etc) at (0, 0.4) {\textbf{Electron Transport Chain}\\[2pt] Complexes I--IV};
+\node[adaptive, below=of krebs] (etc) {\textbf{Electron Transport Chain}\\[2pt] Complexes I--IV};
 \draw[arrow] (krebs) -- (etc);
-\node[note, right=1cm of etc, anchor=west] {
+\node[note, right=1.5cm of etc, anchor=west] {
     \textbullet~Minimal leak\\~~~($<$2\%)
 };
 
 % ATP output
-\node[output] (atp) at (0, -1.5) {\textbf{30--32 ATP PER GLUCOSE}\\[3pt] \textit{Abundant energy}\\[2pt] Efficient production};
+\node[output, below=of etc] (atp) {\textbf{30--32 ATP PER GLUCOSE}\\[3pt] \textit{Abundant energy}\\[2pt] Efficient production};
 \draw[arrow] (etc) -- (atp);
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt] at (0, -4) {
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt, below=2.5cm of atp] {
 \textbf{Key characteristics:}\\[4pt]
 \textbullet~Efficient conversion: 30--32 ATP per glucose molecule\\
 \textbullet~Minimal electron leakage ($<$2\%) in healthy mitochondria\\

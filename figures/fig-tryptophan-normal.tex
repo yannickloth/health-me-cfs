@@ -3,7 +3,8 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm and 4cm,  % Vertical and horizontal spacing
     % Styles
     process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3.8cm, align=center, minimum height=1cm},
     output/.style={draw=green!70!black, fill=green!25, very thick, rounded corners, text width=3.8cm, align=center, minimum height=1cm},
@@ -12,41 +13,41 @@
 ]
 
 % Title
-\node[font=\large\bfseries, green!70!black] at (0, 8.5) {Normal Tryptophan Metabolism};
+\node[font=\large\bfseries, green!70!black] (title) at (0, 0) {Normal Tryptophan Metabolism};
 
 % Tryptophan input
-\node[process] (trp) at (0, 7) {\textbf{Tryptophan}\\(from dietary protein)};
+\node[process, below=3cm of title] (trp) {\textbf{Tryptophan}\\(from dietary protein)};
 
 % LEFT BRANCH: Serotonin pathway (5%)
-\node[process] (tph) at (-4, 4.5) {\textbf{TPH} (5\%)\\+ BH\textsubscript{4}, Fe, O\textsubscript{2}};
+\node[process, below left=2.5cm and 4.5cm of trp] (tph) {\textbf{TPH} (5\%)\\+ BH\textsubscript{4}, Fe, O\textsubscript{2}};
 \draw[arrow] (trp) -- node[above left, font=\small] {5\%} (tph);
 
-\node[process] (fivehttp) at (-4, 2.5) {\textbf{5-HTP}};
+\node[process, below=of tph] (fivehttp) {\textbf{5-HTP}};
 \draw[arrow] (tph) -- (fivehttp);
 
-\node[output] (serotonin) at (-4, 0.5) {\textbf{Serotonin (5-HT)}\\Mood, sleep\\Pain modulation};
+\node[output, below=of fivehttp] (serotonin) {\textbf{Serotonin (5-HT)}\\Mood, sleep\\Pain modulation};
 \draw[arrow] (fivehttp) -- (serotonin);
 
 % RIGHT BRANCH: Kynurenine pathway (95%)
-\node[process] (tdo) at (4, 4.5) {\textbf{TDO/IDO} (95\%)\\Liver/immune cells};
+\node[process, below right=2.5cm and 4.5cm of trp] (tdo) {\textbf{TDO/IDO} (95\%)\\Liver/immune cells};
 \draw[arrow] (trp) -- node[above right, font=\small] {95\%} (tdo);
 
-\node[process] (kyn) at (4, 2.5) {\textbf{Kynurenine}\\(KYN)};
+\node[process, below=of tdo] (kyn) {\textbf{Kynurenine}\\(KYN)};
 \draw[arrow] (tdo) -- (kyn);
 
 % Kynurenine splits
-\node[output] (kyna) at (2, 0) {\textbf{Kynurenic Acid}\\(KYNA)\\Neuroprotective};
+\node[output, below left=2.5cm and 2cm of kyn] (kyna) {\textbf{Kynurenic Acid}\\(KYNA)\\Neuroprotective};
 \draw[arrow] (kyn) -- (kyna);
 
-\node[output] (quin) at (6, 0) {\textbf{Quinolinic Acid}\\(low levels)\\$\rightarrow$ NAD\textsuperscript{+}};
+\node[output, below right=2.5cm and 2cm of kyn] (quin) {\textbf{Quinolinic Acid}\\(low levels)\\$\rightarrow$ NAD\textsuperscript{+}};
 \draw[arrow] (kyn) -- (quin);
 
 % Notes
-\node[note] at (-4, -1.5) {Small pathway\\essential for\\mood regulation};
-\node[note] at (4, -1.5) {Main pathway\\for NAD\textsuperscript{+}\\synthesis};
+\node[note, below=1.5cm of serotonin] {Small pathway\\essential for\\mood regulation};
+\node[note, below=1.5cm of kyn] {Main pathway\\for NAD\textsuperscript{+}\\synthesis};
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=11cm, align=left, font=\small] at (0, -3.5) {
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=11cm, align=left, font=\small, below=8cm of kyn] {
 \textbf{Normal balance:} 95\% of tryptophan goes to kynurenine pathway for NAD\textsuperscript{+} synthesis; 5\% to serotonin. Kynurenic acid (KYNA) is neuroprotective (NMDA antagonist). Quinolinic acid (QUIN) is kept at low, controlled levels.
 };
 

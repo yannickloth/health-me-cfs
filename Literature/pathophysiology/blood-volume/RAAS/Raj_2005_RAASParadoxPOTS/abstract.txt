@@ -1,0 +1,15 @@
+Renin-Aldosterone Paradox and Perturbed Blood Volume Regulation Underlying Postural Tachycardia Syndrome
+
+BACKGROUND:
+Postural tachycardia syndrome (POTS) is a syndrome of orthostatic intolerance characterized by a substantial rise in heart rate without hypotension and profound fatigue. Although the pathophysiology is not well understood, hypovolemia has been suspected.
+
+METHODS AND RESULTS:
+We recruited 33 POTS patients and 13 healthy volunteers. Mean±SD blood volume (BV) was 3583±579 mL in POTS patients versus 4319±578 mL in control subjects (P<0.0001). Total red blood cell volume was 1411±234 mL in POTS versus 1557±254 mL in controls (P=0.06), whereas plasma volume was 2172±429 mL in POTS versus 2763±437 mL in controls (P<0.0001). Despite hypovolemia, plasma renin activity (PRA) was 0.73±0.60 ng · mL⁻¹ · h⁻¹ in POTS versus 0.70±0.57 ng · mL⁻¹ · h⁻¹ in controls (P=0.88), and plasma aldosterone concentration (PAC) was 7.0±5.3 ng/dL in POTS versus 12.3±6.4 ng/dL in controls (P=0.01). There was a positive correlation between BV and PAC (r=0.56, P=0.001).
+
+CONCLUSIONS:
+POTS patients had marked reductions in BV and plasma volume that were associated with paradoxically normal to low PRA and frankly low PAC. These data suggest that a dysregulation of the renin-aldosterone-blood volume homeostatic loop contributes to the pathophysiology of POTS.
+
+DOI: 10.1161/01.CIR.0000160356.97313.5d
+PubMed: 15781744
+Journal: Circulation, 2005 Apr 5;111(13):1574-1582
+Retrieved: 2026-01-27

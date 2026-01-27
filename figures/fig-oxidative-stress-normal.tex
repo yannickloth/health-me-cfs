@@ -3,7 +3,8 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm,  % Global minimum vertical spacing
     % Styles
     process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.2cm, align=center, minimum height=1.2cm},
     balanced/.style={draw=green!50!black, fill=green!30, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.3cm, drop shadow},
@@ -13,30 +14,30 @@
 ]
 
 % Title
-\node[font=\large\bfseries, green!70!black] at (0, 8) {Normal Oxidative Stress Balance};
+\node[font=\large\bfseries, green!70!black] (title) at (0, 0) {Normal Oxidative Stress Balance};
 
 % ROS production (left)
-\node[process] (ros) at (-3.5, 5.5) {\textbf{ROS Production}\\[2pt] $<$2\% ETC leakage\\Normal byproduct};
+\node[process, below left=3cm and 3.5cm of title] (ros) {\textbf{ROS Production}\\[2pt] $<$2\% ETC leakage\\Normal byproduct};
 
 % Antioxidant defense (right)
-\node[process] (antioxidants) at (3.5, 5.5) {\textbf{Antioxidant Defense}\\[2pt] SOD, Catalase, GPx\\Glutathione system};
+\node[process, below right=3cm and 3.5cm of title] (antioxidants) {\textbf{Antioxidant Defense}\\[2pt] SOD, Catalase, GPx\\Glutathione system};
 
 % Balance point
-\node[balanced] (balance) at (0, 2.5) {\textbf{ROS BALANCE}\\[3pt] \textit{Equilibrium achieved}\\[2pt] Production = Neutralization};
+\node[balanced, below=5.5cm of title] (balance) {\textbf{ROS BALANCE}\\[3pt] \textit{Equilibrium achieved}\\[2pt] Production = Neutralization};
 
 \draw[arrow] (ros) -- (balance);
 \draw[arrow] (antioxidants) -- (balance);
 
 % Minor damage and repair
-\node[output] (repair) at (0, 0) {\textbf{Minor Damage}\\[2pt] Rapid repair\\Maintained function};
+\node[output, below=of balance] (repair) {\textbf{Minor Damage}\\[2pt] Rapid repair\\Maintained function};
 \draw[arrow] (balance) -- (repair);
 
 % Outcome
-\node[output] (outcome) at (0, -2.5) {\textbf{Cellular Homeostasis}\\[2pt] Healthy membranes\\Proteins and DNA protected};
+\node[output, below=of repair] (outcome) {\textbf{Cellular Homeostasis}\\[2pt] Healthy membranes\\Proteins and DNA protected};
 \draw[arrow] (repair) -- (outcome);
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt] at (0, -5) {
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, inner sep=8pt, below=2.5cm of outcome] {
 \textbf{Key antioxidant systems:}\\[4pt]
 \textbullet~\textbf{SOD} (superoxide dismutase): Converts superoxide to H$_2$O$_2$\\
 \textbullet~\textbf{Catalase}: Converts H$_2$O$_2$ to water\\

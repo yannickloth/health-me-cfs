@@ -14,12 +14,26 @@
       "Read(./**/*.bib)",
       "Read(./**/*.sty)",
       "Read(./.claude/**)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Read(//tmp/**)",
+      "Bash(./.claude/scripts/validate-tikz.sh:*)",
+      "Read(//nix/store/**)",
+      "Bash(jobs:*)",
+      "Bash(pstree:*)",
+      "Bash(tee:*)",
+      "Read(//home/nicky/code/health-me-cfs/**)",
+      "Read(//home/nicky/.claude/plans/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
       "Read(./.env)",
       "Read(./.env.*)"
+    ],
+    "additionalDirectories": [
+      "/home/nicky/code/health-me-cfs/figures",
+      "/home/nicky/code/health-me-cfs/Literature/pathophysiology/blood-volume",
+      "/home/nicky/code/health-me-cfs/.claude/agents",
+      "/tmp"
     ]
   },
   "hooks": {
@@ -30,6 +44,16 @@
           {
             "type": "command",
             "command": "if [[ \"$CLAUDE_TOOL_INPUT_PATH\" == *.tex ]]; then echo '[hook] .tex file modified - consider running nix build to check for errors'; fi",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./.claude/hooks/context-cost-monitor.sh",
             "timeout": 5
           }
         ]

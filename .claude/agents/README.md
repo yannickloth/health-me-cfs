@@ -31,6 +31,7 @@ System prompt / instructions for the agent...
 | `syntax-fixer` | build errors, warnings, overfull boxes |
 | `formatting-fixer` | markdown in tex, formatting issues |
 | `dictionary-manager` | LTeX warnings, spelling false positives |
+| `file-splitter-executor` | executing file split plan from analyzer |
 
 ### Sonnet (reasoning)
 | Agent | Triggers |
@@ -38,6 +39,7 @@ System prompt / instructions for the agent...
 | `content-reviewer` | consistency, completeness, coherence |
 | `style-naturalizer` | AI-sounding text, robotic prose |
 | `literature-researcher` | finding citations, medical research, evidence verification |
+| `file-splitter-analyzer` | identifying which files to split for context optimization |
 
 ### Opus (deep analysis)
 | Agent | Triggers |

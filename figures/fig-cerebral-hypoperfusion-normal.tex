@@ -3,36 +3,37 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm,  % Global minimum vertical spacing
     % Styles
     process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm},
-    output/.style={draw=green!50!black, fill=green!30, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.3cm, drop shadow},
+    output/.style={draw=green!50!black, fill=green!30, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.3cm},
     arrow/.style={-latex, very thick, green!70!black, line width=1.2pt},
     note/.style={font=\small\itshape, text width=3.5cm, align=left, green!40!black},
 ]
 
 % Title
-\node[font=\large\bfseries, green!70!black] at (0, 8.5) {Normal Cerebral Blood Flow};
+\node[font=\large\bfseries, green!70!black] (title) at (0, 0) {Normal Cerebral Blood Flow};
 
 % Cardiac output
-\node[process] (cardiac) at (0, 7) {\textbf{Cardiac Output}\\Normal stroke volume\\Adequate blood pressure};
+\node[process, below=3cm of title] (cardiac) {\textbf{Cardiac Output}\\Normal stroke volume\\Adequate blood pressure};
 
 % Cerebral autoregulation
-\node[process] (autoreg) at (0, 4.8) {\textbf{Cerebral Autoregulation}\\Maintains flow 50--150 mmHg\\Vasodilation/constriction};
+\node[process, below=of cardiac] (autoreg) {\textbf{Cerebral Autoregulation}\\Maintains flow 50--150 mmHg\\Vasodilation/constriction};
 \draw[arrow] (cardiac) -- (autoreg);
-\node[note, right=0.8cm of autoreg] {Adjusts vessel\\diameter to\\maintain flow};
+\node[note, right=1.5cm of autoreg] {Adjusts vessel\\diameter to\\maintain flow};
 
 % Normal CBF
-\node[output] (cbf) at (0, 2.6) {\textbf{Cerebral Blood Flow}\\50--60 mL/100g/min\\Meets O\textsubscript{2}/glucose demand};
+\node[output, below=of autoreg] (cbf) {\textbf{Cerebral Blood Flow}\\50--60 mL/100g/min\\Meets O\textsubscript{2}/glucose demand};
 \draw[arrow] (autoreg) -- (cbf);
-\node[note, right=0.8cm of cbf] {Brain uses\\20\% of cardiac\\output at rest};
+\node[note, right=1.5cm of cbf] {Brain uses\\20\% of cardiac\\output at rest};
 
 % Brain function
-\node[output] (brain) at (0, 0.4) {\textbf{Normal Brain Function}\\Cognition intact\\Energy metabolism stable\\Neurotransmission normal};
+\node[output, below=of cbf] (brain) {\textbf{Normal Brain Function}\\Cognition intact\\Energy metabolism stable\\Neurotransmission normal};
 \draw[arrow] (cbf) -- (brain);
 
 % Key point box
-\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small] at (0, -2.2) {
+\node[draw=green!70!black, fill=green!5, rounded corners, text width=10cm, align=left, font=\small, below=2.5cm of brain] {
 \textbf{Key points:} The brain requires constant, high blood flow due to its enormous metabolic demands. Autoregulation maintains stable perfusion across a wide range of blood pressures. Adequate O\textsubscript{2} and glucose delivery, plus CO\textsubscript{2}/lactate removal, enable normal cognitive function.
 };
 

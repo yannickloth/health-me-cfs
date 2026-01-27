@@ -3,12 +3,14 @@
 
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[scale=1, every node/.style={scale=1},
+\begin{tikzpicture}[
+    node distance=2.5cm,
+    scale=0.75, every node/.style={scale=0.75},
     % Styles
     normal/.style={draw=green!70!black, fill=green!10, very thick, rounded corners, text width=3cm, align=center, minimum height=1cm},
     impaired/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
     severe/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=3.2cm, align=center, minimum height=1.1cm, drop shadow},
-    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.6cm, align=center, minimum height=0.95cm},
+    pathological/.style={draw=red!50!black, fill=red!20, very thick, rounded corners, text width=2.8cm, align=center, minimum height=1cm},
     impaired-arrow/.style={-latex, very thick, red!70!black, line width=1.2pt},
     cycle-arrow/.style={-latex, ultra thick, red!50!black, line width=1.6pt},
     note/.style={font=\small\itshape, text width=2.5cm, align=left, red!60!black},
@@ -38,12 +40,12 @@
 \end{scope}
 
 % BOTTOM: Two vicious cycles
-\begin{scope}[yshift=-5cm]
-    \def\radius{2.4}
+\begin{scope}[yshift=-5.5cm]
+    \def\radius{2.7}
 
     % LEFT CYCLE: Chronic Inflammation
-    \def\leftx{-4.5}
-    \node[font=\small\bfseries, red!40!black] at (\leftx, 3.5) {Cycle 1: Inflammation};
+    \def\leftx{-5}
+    \node[font=\small\bfseries, red!40!black] at (\leftx, 3.8) {Cycle 1: Inflammation};
 
     \node[pathological] (inflam) at (\leftx, \radius + 0.5)
         {\textbf{Chronic}\\  \textbf{Inflammation}\\IL-1, IL-6, TNF-$\alpha$};
@@ -67,8 +69,8 @@
     \draw[cycle-arrow, bend left=18] (more) to (inflam);
 
     % RIGHT CYCLE: Exhaustion
-    \def\rightx{4.5}
-    \node[font=\small\bfseries, red!40!black] at (\rightx, 3.5) {Cycle 2: Exhaustion};
+    \def\rightx{5}
+    \node[font=\small\bfseries, red!40!black] at (\rightx, 3.8) {Cycle 2: Exhaustion};
 
     \node[pathological] (chronic) at (\rightx, \radius + 0.5)
         {\textbf{Chronic}\\  \textbf{Activation}\\Always "on"};

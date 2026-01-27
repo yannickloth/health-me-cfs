@@ -1,0 +1,7 @@
+Post-infectious myalgic encephalomyelitis/chronic fatigue syndrome (PI-ME/CFS) is a disabling disorder, yet the clinical phenotype is poorly defined, the pathophysiology is unknown, and no disease-modifying treatments are available. We used rigorous criteria to recruit PI-ME/CFS participants with matched controls to conduct deep phenotyping. Among the many physical and cognitive complaints, one defining feature of PI-ME/CFS was an alteration of effort preference, rather than physical or central fatigue, due to dysfunction of integrative brain regions potentially associated with central catechol pathway dysregulation, with consequences on autonomic functioning and physical conditioning. Immune profiling suggested chronic antigenic stimulation with increase in naïve and decrease in switched memory B-cells. Alterations in gene expression profiles of peripheral blood mononuclear cells and metabolic pathways were consistent with cellular phenotypic studies and demonstrated differences according to sex. Together these clinical abnormalities and biomarker differences provide unique insight into the underlying pathophysiology of PI-ME/CFS, which may guide future intervention.
+
+DOI: 10.1038/s41467-024-45107-3
+PMCID: PMC10881493
+PMID: 38383456
+Journal: Nature Communications, 2024 Feb 21;15(1):907
+Retrieved: 2026-01-27

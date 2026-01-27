@@ -1,0 +1,150 @@
+\label{sec:iom}
+
+The Institute of Medicine (now National Academy of Medicine) published diagnostic criteria in 2015 following a comprehensive systematic review~\cite{IOM2015}. The IOM report proposed renaming the condition ``Systemic Exertion Intolerance Disease'' (SEID) to emphasize the central role of post-exertional malaise and to move away from the stigmatizing ``chronic fatigue'' label. However, the SEID terminology has seen limited clinical adoption.
+
+\subsection{Required Core Symptoms}
+
+\begin{requirement}[IOM Diagnostic Algorithm]
+\label{req:iom}
+Diagnosis requires ALL THREE of the following core symptoms to be present:
+
+\paragraph{1. Substantial Reduction or Impairment in Activity Level (MANDATORY)}
+
+A substantial reduction or impairment in the ability to engage in pre-illness levels of occupational, educational, social, or personal activities that:
+\begin{itemize}
+    \item Persists for \textbf{more than 6 months}
+    \item Is accompanied by fatigue (often profound)
+    \item Is of \textbf{new or definite onset} (not lifelong)
+    \item Is \textbf{not the result of ongoing excessive exertion}
+    \item Is \textbf{not substantially alleviated by rest}
+\end{itemize}
+
+\paragraph{2. Post-Exertional Malaise (PEM) --- MANDATORY}
+
+Worsening of symptoms following physical, cognitive, or emotional exertion that would not have caused a problem before illness. Characteristics include:
+\begin{itemize}
+    \item Symptoms typically worsen 12--48 hours after activity
+    \item Often leads to relapse lasting days, weeks, or longer
+    \item Exertion threshold for triggering symptoms is low
+    \item Recovery is prolonged
+\end{itemize}
+
+The IOM emphasizes that PEM is \textbf{the hallmark symptom} that distinguishes ME/CFS from other fatiguing conditions.
+
+\paragraph{3. Unrefreshing Sleep (MANDATORY)}
+
+Patients wake feeling unrefreshed regardless of sleep duration. Sleep may be:
+\begin{itemize}
+    \item Disrupted (frequent awakenings, difficulty initiating sleep)
+    \item Prolonged (hypersomnia with no restoration)
+    \item Reversed sleep/wake cycle
+\end{itemize}
+
+The exhaustion persists despite adequate sleep duration.
+\end{requirement}
+
+\subsection{Additional Required Symptoms}
+
+\begin{requirement}[At Least ONE of the Following]
+\label{req:iom-additional}
+
+\paragraph{Cognitive Impairment}
+Problems with thinking, memory, information processing, or executive function. May include:
+\begin{itemize}
+    \item Difficulty finding words, storing and retrieving information
+    \item Slowed processing speed
+    \item Inability to focus or multitask
+    \item Problems with short-term memory
+\end{itemize}
+
+Cognitive symptoms may worsen with physical or mental exertion, emotional stress, or time pressure.
+
+\paragraph{OR}
+
+\paragraph{Orthostatic Intolerance}
+Worsening of symptoms upon assuming or maintaining upright posture. May include:
+\begin{itemize}
+    \item Lightheadedness, dizziness, fainting
+    \item Worsening fatigue or cognitive impairment when upright
+    \item Palpitations, nausea
+    \item Symptoms improve (but may not resolve) when lying down
+\end{itemize}
+
+Objective findings may include abnormal heart rate or blood pressure responses during tilt table testing or standing test.
+\end{requirement}
+
+\subsection{Diagnostic Algorithm Structure}
+
+The IOM criteria can be formalized as a logical algorithm:
+
+\begin{equation}
+\text{ME/CFS}_{\text{IOM}} = \left\{
+\begin{array}{l}
+\text{Substantial Activity Reduction} \\
+\land \text{ Post-Exertional Malaise} \\
+\land \text{ Unrefreshing Sleep} \\
+\land \left( \text{Cognitive Impairment} \lor \text{Orthostatic Intolerance} \right) \\
+\land \text{ Duration} \geq 6 \text{ months} \\
+\land \text{ Exclusions ruled out}
+\end{array}
+\right\}
+\end{equation}
+
+This represents a \textbf{minimal sufficient set}: three universal core features plus at least one of two common manifestations.
+
+\subsection{Exclusions and Comorbidities}
+
+\begin{itemize}
+    \item \textbf{Exclusions}: Medical conditions that could fully explain the symptoms must be ruled out through appropriate testing (hypothyroidism, anemia, sleep apnea, etc.)
+    \item \textbf{Comorbidities allowed}: Fibromyalgia, irritable bowel syndrome, depression, and anxiety frequently co-occur and do not exclude ME/CFS diagnosis
+    \item \textbf{Important distinction}: Comorbid depression is reactive (consequence of severe disability) rather than causative
+\end{itemize}
+
+\subsection{Strengths and Limitations}
+
+\begin{observation}[IOM Strengths]
+\label{obs:iom-strengths}
+The IOM criteria offer several advantages:
+\begin{itemize}
+    \item \textbf{Simplicity}: Four required features (3 core + 1 of 2 additional) make diagnosis straightforward
+    \item \textbf{High sensitivity}: Captures broader range of ME/CFS patients than ICC or Canadian Consensus
+    \item \textbf{Evidence-based}: Derived from systematic review identifying most discriminating symptoms
+    \item \textbf{PEM emphasis}: Recognizes post-exertional malaise as the pathognomonic feature
+    \item \textbf{Clinical practicality}: Feasible in primary care settings without extensive symptom checklists
+    \item \textbf{Rapid assessment}: Can be evaluated in a standard office visit
+\end{itemize}
+\end{observation}
+
+\begin{warning}[IOM Limitations]
+\label{warn:iom-limitations}
+The simplified structure creates potential issues:
+\begin{itemize}
+    \item \textbf{Reduced specificity}: More inclusive criteria may capture patients with other conditions (long COVID, post-viral fatigue that will resolve)
+    \item \textbf{Heterogeneity}: Broader patient population increases phenotypic variance in research cohorts
+    \item \textbf{Cognitive OR orthostatic requirement}: Patients may meet criteria with only one of these domains, potentially missing multi-system nature
+    \item \textbf{SEID terminology rejected}: Proposed name change has not gained acceptance in patient or research communities
+    \item \textbf{Set-theoretic relationship}: $\text{ICC} \subset \text{Canadian} \subset \text{IOM}$ --- IOM captures the broadest population
+\end{itemize}
+\end{warning}
+
+\subsection{Clinical and Research Application}
+
+\begin{observation}[When to Use IOM Criteria]
+\label{obs:iom-application}
+\textbf{For clinical diagnosis}: The IOM criteria are excellent for primary care and general practice:
+\begin{itemize}
+    \item Simple enough for non-specialists to apply
+    \item High sensitivity ensures few false negatives
+    \item Enables early diagnosis and intervention
+\end{itemize}
+
+\textbf{For research}: The IOM criteria are appropriate when:
+\begin{itemize}
+    \item Study aims to represent the full ME/CFS population
+    \item Recruitment needs to be pragmatic and efficient
+    \item Results should generalize to clinical settings
+\end{itemize}
+
+\textbf{Not optimal for}: Mechanistic research or treatment trials requiring homogeneous cohorts (use ICC or Canadian Consensus with biomarker stratification instead).
+\end{observation}
+
