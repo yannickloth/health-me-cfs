@@ -6,75 +6,2018 @@ Multiple diagnostic criteria have been developed for ME/CFS. This chapter review
 \section{Overview of Diagnostic Approaches}
 \label{sec:diagnostic-overview}
 
-% Evolution of criteria
-% Comparison between frameworks
-% Sensitivity and specificity
-% Patient population differences
+ME/CFS lacks a definitive diagnostic test. Diagnosis remains clinical, based on characteristic symptom patterns, exclusion of alternative explanations, and increasingly, supportive objective findings. Multiple diagnostic frameworks have been proposed, each with different emphases and populations identified.
+
+\subsection{Evolution of Diagnostic Criteria}
+
+The history of ME/CFS diagnostic criteria reflects evolving understanding of the illness:
+
+\paragraph{Early Frameworks (1988--1994)}
+\begin{itemize}
+    \item \textbf{Holmes Criteria (1988)}: First CDC case definition; required 6+ months of persistent/relapsing fatigue plus 8 of 11 symptom criteria or 6 of 11 symptoms plus 2 of 3 physical criteria
+    \item \textbf{Problem}: Overly broad; captured patients with primary depression or deconditioning; lacked specificity for the post-exertional phenotype
+    \item \textbf{Fukuda Criteria (1994)}: Simplified to 6 months of unexplained fatigue plus 4 of 8 symptoms; removed physical examination criteria
+    \item \textbf{Impact}: Became the dominant research framework but remained criticized for heterogeneity
+\end{itemize}
+
+\paragraph{Restrictive Frameworks (2003--2011)}
+\begin{itemize}
+    \item \textbf{Canadian Consensus Criteria (2003)}: Required post-exertional malaise/fatigue, sleep dysfunction, pain, and two neurological/cognitive manifestations plus one autonomic/neuroendocrine/immune manifestation
+    \item \textbf{International Consensus Criteria (2011)}: Emphasized post-exertional \textit{neuroimmune} exhaustion as mandatory; required neurological impairments, immune/gastrointestinal/genitourinary impairments, and energy metabolism/transport impairments
+    \item \textbf{Rationale}: Select more homogeneous, severely affected patients; exclude patients with primary psychiatric conditions
+    \item \textbf{Trade-off}: Higher specificity but lower sensitivity; may miss milder cases
+\end{itemize}
+
+\paragraph{Consensus Framework (2015)}
+\begin{itemize}
+    \item \textbf{IOM Criteria (2015)}: Proposed by Institute of Medicine (now National Academy of Medicine) systematic review
+    \item \textbf{Required symptoms}: (1) Substantial impairment lasting $\geq$6 months, (2) Post-exertional malaise, (3) Unrefreshing sleep, (4) Cognitive impairment OR orthostatic intolerance
+    \item \textbf{Goal}: Facilitate clinical diagnosis while maintaining specificity
+    \item \textbf{Renamed condition}: Proposed ``Systemic Exertion Intolerance Disease (SEID)'' to emphasize cardinal feature; name not widely adopted
+\end{itemize}
+
+\subsection{Comparison of Frameworks: Set-Theoretic Analysis}
+
+Different criteria identify overlapping but distinct patient populations. Let $F$, $C$, $I$, and $O$ denote the sets of patients meeting Fukuda, Canadian Consensus, ICC, and IOM criteria respectively.
+
+\begin{observation}[Hierarchical Inclusion Relationships]
+\label{obs:criteria-hierarchy}
+The diagnostic frameworks exhibit a partial ordering by restrictiveness:
+
+\begin{equation}
+I \subset C \subset F \quad \text{and} \quad I \cap O \neq \emptyset
+\end{equation}
+
+where:
+\begin{itemize}
+    \item $I \subset C$: All patients meeting ICC criteria also meet Canadian Consensus criteria (ICC is more restrictive)
+    \item $C \subset F$: All patients meeting Canadian Consensus criteria also meet Fukuda criteria (Canadian is more restrictive than Fukuda)
+    \item $I \cap O \neq \emptyset$: ICC and IOM criteria identify overlapping but not identical populations
+\end{itemize}
+
+This hierarchical structure implies that stricter criteria select subsets of the broader Fukuda population, potentially enriching for more severely affected patients with more homogeneous pathophysiology.
+\end{observation}
+
+\paragraph{Empirical Comparison}
+Brown et al.~\cite{Brown2013phenotypes} compared phenotypes identified by different criteria in the same cohort. Key findings:
+
+\begin{table}[htbp]
+\centering
+\caption{Symptom severity by diagnostic criteria met}
+\label{tab:criteria-severity}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Criteria Met} & \textbf{n} & \textbf{Cognitive} & \textbf{Autonomic} & \textbf{Symptom Burden} \\
+\midrule
+Fukuda only & 45 & Mild & Mild & Lowest \\
+Fukuda + Canadian & 103 & Moderate & Moderate & Intermediate \\
+Fukuda + Canadian + ICC & 52 & \textbf{Severe} & \textbf{Severe} & \textbf{Highest} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Interpretation}: Criteria do not identify different diseases but rather different severity strata of the same condition. Patients meeting multiple criteria have worse outcomes, suggesting the stricter frameworks capture more severely affected individuals.
+
+\subsection{Sensitivity and Specificity Trade-offs}
+
+No gold standard exists for ME/CFS, making traditional sensitivity/specificity calculations impossible. However, we can assess \textbf{predictive validity}: do patients meeting stricter criteria show more consistent biomarker abnormalities and treatment responses?
+
+\begin{hypothesis}[Specificity-Homogeneity Trade-off]
+\label{hyp:specificity-homogeneity}
+Stricter diagnostic criteria increase disease homogeneity (reducing phenotypic variance) at the cost of excluding milder cases. Formally:
+
+Let $\sigma^2_{\text{pheno}}(X)$ denote phenotypic variance within the population $X$ meeting criterion set. Then:
+
+\begin{equation}
+\sigma^2_{\text{pheno}}(I) < \sigma^2_{\text{pheno}}(C) < \sigma^2_{\text{pheno}}(F)
+\end{equation}
+
+This implies:
+\begin{itemize}
+    \item \textbf{Research advantage}: ICC/Canadian cohorts show more consistent biomarker patterns, improving statistical power
+    \item \textbf{Clinical disadvantage}: Mild cases may be missed, delaying diagnosis and early intervention
+    \item \textbf{Treatment trials}: Stricter criteria may improve signal detection but limit generalizability
+\end{itemize}
+
+The optimal criterion set depends on context: research requires homogeneity; clinical practice requires sensitivity.
+\end{hypothesis}
+
+\subsection{Clinical Implications of Framework Choice}
+
+\paragraph{For Research}
+\begin{itemize}
+    \item \textbf{Biomarker studies}: Use ICC or Canadian Consensus to minimize heterogeneity
+    \item \textbf{Treatment trials}: Specify criteria explicitly; consider stratifying by criteria met
+    \item \textbf{Meta-analyses}: Account for criteria differences when combining studies
+\end{itemize}
+
+\paragraph{For Clinical Diagnosis}
+\begin{itemize}
+    \item \textbf{Initial assessment}: IOM criteria provide good balance of sensitivity and specificity
+    \item \textbf{Severe cases}: Will meet multiple criteria; diagnosis is straightforward
+    \item \textbf{Mild/early cases}: May not yet meet all symptom requirements; consider provisional diagnosis with reassessment
+    \item \textbf{Documentation}: Record which criteria are met to facilitate comparison across studies
+\end{itemize}
 
 \section{Canadian Consensus Criteria (2003)}
 \label{sec:ccc}
 
-% Detailed breakdown of criteria
-% Required symptoms
-% Exclusions
-% Strengths and limitations
+The Canadian Consensus Criteria~\cite{Carruthers2003} emerged from a panel of physicians, researchers, and teaching faculty to provide a clinically oriented case definition emphasizing characteristic features.
+
+\subsection{Required Criteria}
+
+\begin{requirement}[Canadian Consensus Criteria Structure]
+\label{req:ccc-structure}
+Diagnosis requires ALL of the following:
+
+\paragraph{1. Fatigue}
+\begin{itemize}
+    \item Clinically evaluated, unexplained persistent or relapsing chronic fatigue
+    \item New or definite onset (not lifelong)
+    \item Not result of ongoing exertion
+    \item Not substantially alleviated by rest
+    \item Substantial reduction in previous levels of occupational, educational, social, or personal activities
+\end{itemize}
+
+\paragraph{2. Post-Exertional Malaise and/or Fatigue (MANDATORY)}
+\begin{itemize}
+    \item Inappropriate loss of physical and mental stamina
+    \item Rapid muscular and cognitive fatigability
+    \item Post-exertional malaise and/or fatigue
+    \item Tendency for other associated symptoms within the patient's cluster to worsen
+    \item \textbf{Recovery period}: Pathologically slow (24 hours or longer)
+\end{itemize}
+
+\paragraph{3. Sleep Dysfunction}
+\begin{itemize}
+    \item Unrefreshing sleep or sleep quantity or rhythm disturbances (hypersomnia, insomnia, reversed sleep-wake cycle)
+\end{itemize}
+
+\paragraph{4. Pain (significant degree in at least one location)}
+\begin{itemize}
+    \item Myalgia: muscle pain, aching, or stiffness
+    \item Arthralgia: joint pain (migratory, without joint swelling or redness)
+    \item Headaches of new type, pattern, or severity
+\end{itemize}
+
+\paragraph{5. Neurological/Cognitive Manifestations ($\geq$2 required)}
+\begin{itemize}
+    \item Confusion, impaired concentration/short-term memory, disorientation
+    \item Difficulty with information processing, categorizing, word retrieval
+    \item Perceptual/sensory disturbances (spatial instability, disorientation, inability to focus vision)
+    \item Ataxia, muscle weakness, fasciculations
+\end{itemize}
+
+\paragraph{6. At Least ONE Symptom from TWO of the Following Categories:}
+
+\begin{itemize}
+    \item \textbf{Autonomic Manifestations}: Orthostatic intolerance (neurally mediated hypotension, POTS, delayed postural hypotension), lightheadedness, extreme pallor, nausea and irritable bowel syndrome, urinary frequency/bladder dysfunction, palpitations with or without cardiac arrhythmias, exertional dyspnea
+
+    \item \textbf{Neuroendocrine Manifestations}: Loss of thermostatic stability (subnormal body temperature, marked daily fluctuation), intolerance of extremes of heat and cold, marked weight change, loss of adaptability/worsening symptoms with stress
+
+    \item \textbf{Immune Manifestations}: Tender lymph nodes, recurrent sore throat, recurrent flu-like symptoms, general malaise, new sensitivities to food/medications/chemicals
+\end{itemize}
+
+\paragraph{7. Duration}
+Illness persists $\geq$6 months. May be preceded by various infections or other triggering events.
+\end{requirement}
+
+\subsection{Exclusions}
+
+Exclude active disease processes that explain most major symptoms. Comorbid conditions do not exclude diagnosis if they do not explain the constellation of symptoms.
+
+\subsection{Strengths and Limitations}
+
+\paragraph{Strengths}
+\begin{itemize}
+    \item Emphasis on post-exertional malaise as mandatory criterion
+    \item Comprehensive symptom coverage across multiple systems
+    \item Widely adopted in clinical practice
+    \item More specific than Fukuda criteria
+\end{itemize}
+
+\paragraph{Limitations}
+\begin{itemize}
+    \item Complex algorithm may be difficult to apply consistently
+    \item Selects more severely affected patients (lower sensitivity for mild cases)
+    \item Some symptom requirements (e.g., ``significant degree'') lack operational definitions
+    \item Not validated against objective biomarkers or treatment response
+\end{itemize}
 
 \section{International Consensus Criteria (2011)}
 \label{sec:icc}
 
-% Detailed breakdown of criteria
-% Focus on post-exertional neuroimmune exhaustion
-% Myalgic encephalomyelitis emphasis
-% Phenotype categories
+The International Consensus Criteria (ICC), published in 2011 by Carruthers et al.~\cite{Carruthers2011}, represents the most restrictive and biologically-oriented diagnostic framework. The ICC explicitly adopts the term ``myalgic encephalomyelitis'' (ME) to emphasize the neurological and immunological features of the disease, rejecting the broader ``chronic fatigue syndrome'' label as insufficiently specific.
+
+\subsection{Required Criteria}
+
+\begin{requirement}[International Consensus Criteria Structure]
+\label{req:icc}
+Diagnosis of myalgic encephalomyelitis requires \textbf{post-exertional neuroimmune exhaustion (PENE)} as the mandatory hallmark PLUS manifestations from at least THREE neurological impairment categories PLUS at least ONE manifestation from each of THREE immune/gastro-intestinal/genitourinary, energy metabolism/transport, and cardiovascular/respiratory/thermoregulatory categories.
+
+\paragraph{A. Post-Exertional Neuroimmune Exhaustion (PENE) --- MANDATORY}
+
+\textbf{PENE is the central diagnostic feature and must be present.}
+
+Pathological inability to produce sufficient energy on demand with the following characteristics:
+\begin{itemize}
+    \item \textbf{Marked, rapid physical and/or cognitive fatigability} in response to exertion
+    \item \textbf{Post-exertional symptom exacerbation}: Disproportionate loss of physical and mental stamina, rapid muscular and cognitive fatigability, post-exertional malaise and/or pain, and tendency for other associated symptoms to worsen
+    \item \textbf{Post-exertional exhaustion}: May occur immediately after activity or be delayed by hours or days
+    \item \textbf{Recovery period is prolonged}: Usually 24 hours or longer
+    \item \textbf{Low threshold of physical and mental fatigability}: Results in substantial reduction in pre-illness activity level
+\end{itemize}
+
+\paragraph{B. Neurological Impairments (at least THREE required)}
+
+\begin{enumerate}
+    \item \textbf{Neurocognitive Impairments}:
+    \begin{itemize}
+        \item Difficulty processing information (slowed thought, impaired concentration)
+        \item Short-term memory loss
+        \item Word-finding difficulty, impaired psychomotor function
+        \item Perceptual/sensory disturbances (spatial instability, disorientation, inability to focus vision)
+        \item Ataxia, muscle weakness, fasciculations
+    \end{itemize}
+
+    \item \textbf{Pain}:
+    \begin{itemize}
+        \item Headaches (new type, pattern, or severity)
+        \item Significant pain in muscles, muscle-tendon junctions, joints, abdomen, or chest
+        \item Pain can be migratory, generalized or localized, often changing in distribution
+    \end{itemize}
+
+    \item \textbf{Sleep Disturbance}:
+    \begin{itemize}
+        \item Disturbed sleep patterns: insomnia, prolonged sleep (hypersomnia), disturbed sleep/wake cycle
+        \item Unrefreshing sleep: Patient awakens feeling exhausted regardless of sleep duration
+    \end{itemize}
+
+    \item \textbf{Neurosensory, Perceptual, and Motor Disturbances}:
+    \begin{itemize}
+        \item Sensory hypersensitivity: photophobia, hyperacusis, heightened sensitivities to odors, taste, touch
+        \item Motor disturbances: muscle weakness, twitching, poor coordination, ataxia
+    \end{itemize}
+\end{enumerate}
+
+\paragraph{C. Immune, Gastro-Intestinal, and Genitourinary Impairments (at least ONE)}
+
+\begin{itemize}
+    \item \textbf{Immune}: Tender lymph nodes, recurrent sore throat, recurrent flu-like symptoms, general malaise, new sensitivities to food/medications/chemicals
+    \item \textbf{Gastro-intestinal}: Nausea, abdominal pain, bloating, irritable bowel syndrome
+    \item \textbf{Genitourinary}: Urinary urgency or frequency, nocturia
+\end{itemize}
+
+\paragraph{D. Energy Production/Transportation Impairments (at least ONE)}
+
+\begin{itemize}
+    \item \textbf{Cardiovascular}: Inability to tolerate upright posture (orthostatic intolerance, neurally mediated hypotension, postural orthostatic tachycardia syndrome), palpitations, lightheadedness
+    \item \textbf{Respiratory}: Dyspnea, labored breathing, air hunger
+    \item \textbf{Loss of thermostatic stability}: Subnormal body temperature, marked diurnal fluctuation, sweating episodes, cold extremities, intolerance to heat or cold
+    \item \textbf{Intolerance to extremes of temperature}
+\end{itemize}
+\end{requirement}
+
+\subsection{Phenotype Categories}
+
+The ICC proposes operational phenotype categories to capture disease heterogeneity:
+
+\begin{enumerate}
+    \item \textbf{ME with Fibromyalgia}: Patients meeting ME criteria with widespread pain and tenderness
+    \item \textbf{ME with Myofascial Pain Syndrome}: Regional pain with trigger points
+    \item \textbf{ME with Postural Orthostatic Tachycardia Syndrome (POTS)}: ME with documented autonomic dysfunction
+    \item \textbf{ME with Irritable Bowel Syndrome}: ME with prominent gastrointestinal manifestations
+    \item \textbf{ME with Multiple Chemical Sensitivity}: ME with sensitivity to environmental chemicals
+\end{enumerate}
+
+These categories are \textbf{not mutually exclusive}; patients may meet criteria for multiple phenotypes simultaneously.
+
+\subsection{Duration and Exclusions}
+
+\begin{itemize}
+    \item \textbf{Duration}: Symptom persistence for at least \textbf{6 months}
+    \item \textbf{Pediatric Exception}: In children and adolescents, 3 months may be sufficient for diagnosis given the urgency of early intervention
+    \item \textbf{Exclusions}: Active disease processes that explain most symptoms must be ruled out (e.g., untreated hypothyroidism, obstructive sleep apnea)
+    \item \textbf{Comorbidities allowed}: Fibromyalgia, myofascial pain, temporomandibular disorder, irritable bowel syndrome, interstitial cystitis, Raynaud phenomenon, mitral valve prolapse, migraines can coexist with ME
+\end{itemize}
+
+\subsection{Strengths and Limitations}
+
+\begin{observation}[ICC Strengths]
+\label{obs:icc-strengths}
+The ICC framework has several advantages:
+\begin{itemize}
+    \item \textbf{Biological orientation}: Emphasizes objective neurological and immune manifestations rather than subjective fatigue
+    \item \textbf{Post-exertional neuroimmune exhaustion as mandatory}: Recognizes PEM as the pathognomonic feature
+    \item \textbf{Multi-system requirement}: Requires manifestations across multiple physiological systems, increasing specificity
+    \item \textbf{Phenotype categories}: Acknowledges heterogeneity and common comorbidities
+    \item \textbf{Higher specificity}: More restrictive than Canadian Consensus or Fukuda, resulting in more homogeneous research cohorts
+\end{itemize}
+\end{observation}
+
+\begin{warning}[ICC Limitations]
+\label{warn:icc-limitations}
+The restrictiveness of ICC creates challenges:
+\begin{itemize}
+    \item \textbf{Excludes mild cases}: Patients with genuine ME/CFS who do not yet manifest symptoms across all required categories may be missed
+    \item \textbf{Clinical impracticality}: Detailed assessment across 8 categories requires extensive clinical time and expertise
+    \item \textbf{Reduced sensitivity}: Systematic review found ICC identifies only 60\% of patients meeting Canadian Consensus Criteria~\cite{Brurberg2014}
+    \item \textbf{Formal set-theoretic relationship}: $\text{ICC} \subset \text{Canadian Consensus} \subset \text{Fukuda}$ --- ICC is the most restrictive subset
+    \item \textbf{Delayed diagnosis risk}: Waiting for full symptom constellation may delay intervention during the critical 6-month window
+\end{itemize}
+\end{warning}
+
+\subsection{Research and Clinical Application}
+
+The ICC is \textbf{optimal for research} where high specificity and phenotypic homogeneity are priorities, reducing heterogeneity that can obscure treatment signals. However, for \textbf{clinical practice}, the more inclusive Canadian Consensus Criteria or IOM criteria are preferred to avoid missing early-stage or mild cases that would benefit from intervention.
 
 \section{Institute of Medicine Criteria (2015)}
 \label{sec:iom}
 
-% SEID (Systemic Exertion Intolerance Disease)
-% Core symptoms required
-% Supporting symptoms
-% Diagnostic algorithm
+The Institute of Medicine (now National Academy of Medicine) published diagnostic criteria in 2015 following a comprehensive systematic review~\cite{IOM2015}. The IOM report proposed renaming the condition ``Systemic Exertion Intolerance Disease'' (SEID) to emphasize the central role of post-exertional malaise and to move away from the stigmatizing ``chronic fatigue'' label. However, the SEID terminology has seen limited clinical adoption.
+
+\subsection{Required Core Symptoms}
+
+\begin{requirement}[IOM Diagnostic Algorithm]
+\label{req:iom}
+Diagnosis requires ALL THREE of the following core symptoms to be present:
+
+\paragraph{1. Substantial Reduction or Impairment in Activity Level (MANDATORY)}
+
+A substantial reduction or impairment in the ability to engage in pre-illness levels of occupational, educational, social, or personal activities that:
+\begin{itemize}
+    \item Persists for \textbf{more than 6 months}
+    \item Is accompanied by fatigue (often profound)
+    \item Is of \textbf{new or definite onset} (not lifelong)
+    \item Is \textbf{not the result of ongoing excessive exertion}
+    \item Is \textbf{not substantially alleviated by rest}
+\end{itemize}
+
+\paragraph{2. Post-Exertional Malaise (PEM) --- MANDATORY}
+
+Worsening of symptoms following physical, cognitive, or emotional exertion that would not have caused a problem before illness. Characteristics include:
+\begin{itemize}
+    \item Symptoms typically worsen 12--48 hours after activity
+    \item Often leads to relapse lasting days, weeks, or longer
+    \item Exertion threshold for triggering symptoms is low
+    \item Recovery is prolonged
+\end{itemize}
+
+The IOM emphasizes that PEM is \textbf{the hallmark symptom} that distinguishes ME/CFS from other fatiguing conditions.
+
+\paragraph{3. Unrefreshing Sleep (MANDATORY)}
+
+Patients wake feeling unrefreshed regardless of sleep duration. Sleep may be:
+\begin{itemize}
+    \item Disrupted (frequent awakenings, difficulty initiating sleep)
+    \item Prolonged (hypersomnia with no restoration)
+    \item Reversed sleep/wake cycle
+\end{itemize}
+
+The exhaustion persists despite adequate sleep duration.
+\end{requirement}
+
+\subsection{Additional Required Symptoms}
+
+\begin{requirement}[At Least ONE of the Following]
+\label{req:iom-additional}
+
+\paragraph{Cognitive Impairment}
+Problems with thinking, memory, information processing, or executive function. May include:
+\begin{itemize}
+    \item Difficulty finding words, storing and retrieving information
+    \item Slowed processing speed
+    \item Inability to focus or multitask
+    \item Problems with short-term memory
+\end{itemize}
+
+Cognitive symptoms may worsen with physical or mental exertion, emotional stress, or time pressure.
+
+\paragraph{OR}
+
+\paragraph{Orthostatic Intolerance}
+Worsening of symptoms upon assuming or maintaining upright posture. May include:
+\begin{itemize}
+    \item Lightheadedness, dizziness, fainting
+    \item Worsening fatigue or cognitive impairment when upright
+    \item Palpitations, nausea
+    \item Symptoms improve (but may not resolve) when lying down
+\end{itemize}
+
+Objective findings may include abnormal heart rate or blood pressure responses during tilt table testing or standing test.
+\end{requirement}
+
+\subsection{Diagnostic Algorithm Structure}
+
+The IOM criteria can be formalized as a logical algorithm:
+
+\begin{equation}
+\text{ME/CFS}_{\text{IOM}} = \left\{
+\begin{array}{l}
+\text{Substantial Activity Reduction} \\
+\land \text{ Post-Exertional Malaise} \\
+\land \text{ Unrefreshing Sleep} \\
+\land \left( \text{Cognitive Impairment} \lor \text{Orthostatic Intolerance} \right) \\
+\land \text{ Duration} \geq 6 \text{ months} \\
+\land \text{ Exclusions ruled out}
+\end{array}
+\right\}
+\end{equation}
+
+This represents a \textbf{minimal sufficient set}: three universal core features plus at least one of two common manifestations.
+
+\subsection{Exclusions and Comorbidities}
+
+\begin{itemize}
+    \item \textbf{Exclusions}: Medical conditions that could fully explain the symptoms must be ruled out through appropriate testing (hypothyroidism, anemia, sleep apnea, etc.)
+    \item \textbf{Comorbidities allowed}: Fibromyalgia, irritable bowel syndrome, depression, and anxiety frequently co-occur and do not exclude ME/CFS diagnosis
+    \item \textbf{Important distinction}: Comorbid depression is reactive (consequence of severe disability) rather than causative
+\end{itemize}
+
+\subsection{Strengths and Limitations}
+
+\begin{observation}[IOM Strengths]
+\label{obs:iom-strengths}
+The IOM criteria offer several advantages:
+\begin{itemize}
+    \item \textbf{Simplicity}: Four required features (3 core + 1 of 2 additional) make diagnosis straightforward
+    \item \textbf{High sensitivity}: Captures broader range of ME/CFS patients than ICC or Canadian Consensus
+    \item \textbf{Evidence-based}: Derived from systematic review identifying most discriminating symptoms
+    \item \textbf{PEM emphasis}: Recognizes post-exertional malaise as the pathognomonic feature
+    \item \textbf{Clinical practicality}: Feasible in primary care settings without extensive symptom checklists
+    \item \textbf{Rapid assessment}: Can be evaluated in a standard office visit
+\end{itemize}
+\end{observation}
+
+\begin{warning}[IOM Limitations]
+\label{warn:iom-limitations}
+The simplified structure creates potential issues:
+\begin{itemize}
+    \item \textbf{Reduced specificity}: More inclusive criteria may capture patients with other conditions (long COVID, post-viral fatigue that will resolve)
+    \item \textbf{Heterogeneity}: Broader patient population increases phenotypic variance in research cohorts
+    \item \textbf{Cognitive OR orthostatic requirement}: Patients may meet criteria with only one of these domains, potentially missing multi-system nature
+    \item \textbf{SEID terminology rejected}: Proposed name change has not gained acceptance in patient or research communities
+    \item \textbf{Set-theoretic relationship}: $\text{ICC} \subset \text{Canadian} \subset \text{IOM}$ --- IOM captures the broadest population
+\end{itemize}
+\end{warning}
+
+\subsection{Clinical and Research Application}
+
+\begin{observation}[When to Use IOM Criteria]
+\label{obs:iom-application}
+\textbf{For clinical diagnosis}: The IOM criteria are excellent for primary care and general practice:
+\begin{itemize}
+    \item Simple enough for non-specialists to apply
+    \item High sensitivity ensures few false negatives
+    \item Enables early diagnosis and intervention
+\end{itemize}
+
+\textbf{For research}: The IOM criteria are appropriate when:
+\begin{itemize}
+    \item Study aims to represent the full ME/CFS population
+    \item Recruitment needs to be pragmatic and efficient
+    \item Results should generalize to clinical settings
+\end{itemize}
+
+\textbf{Not optimal for}: Mechanistic research or treatment trials requiring homogeneous cohorts (use ICC or Canadian Consensus with biomarker stratification instead).
+\end{observation}
 
 \section{Other Diagnostic Frameworks}
 \label{sec:other-criteria}
 
 \subsection{Fukuda Criteria (1994)}
-% CDC criteria
-% Historical significance
-% Limitations
+
+The Fukuda criteria, published by the CDC in 1994~\cite{Fukuda1994}, represented the first widely-adopted standardized definition of chronic fatigue syndrome. These criteria dominated ME/CFS research for two decades.
+
+\begin{requirement}[Fukuda Diagnostic Criteria]
+\label{req:fukuda}
+Diagnosis requires:
+
+\paragraph{1. Clinically Evaluated, Unexplained, Persistent or Relapsing Chronic Fatigue that:}
+\begin{itemize}
+    \item Is of \textbf{new or definite onset} (not lifelong)
+    \item Is \textbf{not the result of ongoing exertion}
+    \item Is \textbf{not substantially alleviated by rest}
+    \item Results in \textbf{substantial reduction} in previous levels of occupational, educational, social, or personal activities
+\end{itemize}
+
+\paragraph{2. Four or More of the Following Symptoms (concurrent for ≥6 months):}
+\begin{enumerate}
+    \item Impaired memory or concentration
+    \item Sore throat
+    \item Tender cervical or axillary lymph nodes
+    \item Muscle pain
+    \item Multi-joint pain without swelling or redness
+    \item Headaches of new type, pattern, or severity
+    \item Unrefreshing sleep
+    \item Post-exertional malaise lasting more than 24 hours
+\end{enumerate}
+\end{requirement}
+
+\begin{observation}[Historical Significance]
+The Fukuda criteria played a crucial role in standardizing ME/CFS research:
+\begin{itemize}
+    \item First internationally-adopted consensus definition
+    \item Enabled comparison across studies and centers
+    \item Established 6-month duration threshold
+    \item Required objective clinical evaluation
+\end{itemize}
+\end{observation}
+
+\begin{warning}[Critical Limitations]
+\label{warn:fukuda-limitations}
+The Fukuda criteria have fundamental flaws that limit their current utility:
+
+\paragraph{Post-Exertional Malaise Not Mandatory:}
+The most pathognomonic feature of ME/CFS (PEM) is merely one of eight optional symptoms. This allows diagnosis of patients without the hallmark feature, including those with:
+\begin{itemize}
+    \item Primary depression
+    \item Deconditioning
+    \item Other fatiguing conditions without PEM
+\end{itemize}
+
+\paragraph{Mathematical Analysis of Heterogeneity:}
+The requirement of ``4 or more of 8 symptoms'' yields:
+\begin{equation}
+\binom{8}{4} + \binom{8}{5} + \binom{8}{6} + \binom{8}{7} + \binom{8}{8} = 70 + 56 + 28 + 8 + 1 = 163 \text{ distinct profiles}
+\end{equation}
+
+Two patients can both meet Fukuda criteria while sharing only 2 of 8 symptoms (50\% overlap in the limiting case). This mathematical heterogeneity explains null results in many Fukuda-based trials.
+
+\paragraph{Overinclusion:}
+Systematic comparison studies found that Fukuda criteria capture patients who do not meet more restrictive criteria (Canadian Consensus, ICC) and who have:
+\begin{itemize}
+    \item Less severe functional impairment
+    \item Better prognosis
+    \item Lower biomarker abnormality rates
+    \item Higher rates of primary psychiatric diagnoses
+\end{itemize}
+
+\paragraph{Research Impact:}
+Many failed clinical trials used Fukuda criteria, likely enrolling heterogeneous populations including patients without true ME/CFS. This contributed to therapeutic nihilism.
+\end{warning}
+
+\begin{observation}[Current Status]
+Modern research increasingly avoids Fukuda criteria in favor of Canadian Consensus (2003), ICC (2011), or IOM (2015). The Fukuda criteria remain historically important but are now recognized as insufficiently specific for ME/CFS.
+\end{observation}
 
 \subsection{Oxford Criteria (1991)}
-% Broadest definition
-% Controversies
-% Why avoided in research
+
+The Oxford criteria~\cite{Sharpe1991oxford}, published in 1991, represent the \textbf{broadest and most controversial} definition of chronic fatigue syndrome.
+
+\begin{requirement}[Oxford Diagnostic Criteria]
+\label{req:oxford}
+Diagnosis requires:
+\begin{enumerate}
+    \item \textbf{Severe disabling fatigue} of at least 6 months' duration that:
+    \begin{itemize}
+        \item Affects physical and mental functioning
+        \item Was present for more than 50\% of the time
+    \end{itemize}
+    \item \textbf{Other symptoms}, particularly myalgia, mood disturbance, and sleep disturbance, may be present
+    \item \textbf{Exclusions}: Defined medical conditions, psychotic disorders, substance abuse, eating disorders
+    \item \textbf{Depression and anxiety NOT excluded}
+\end{enumerate}
+\end{requirement}
+
+\begin{warning}[Fundamental Problems with Oxford Criteria]
+\label{warn:oxford-problems}
+The Oxford criteria are widely rejected by patients, clinicians, and researchers for the following reasons:
+
+\paragraph{No Requirement for Post-Exertional Malaise:}
+The pathognomonic feature of ME/CFS is entirely absent. Patients meeting Oxford criteria may have:
+\begin{itemize}
+    \item Primary depression with fatigue
+    \item Deconditioning from sedentary lifestyle
+    \item Idiopathic chronic fatigue (fatigue without clear cause)
+\end{itemize}
+
+\paragraph{Allows Primary Psychiatric Diagnoses:}
+Unlike all other ME/CFS criteria, Oxford explicitly allows comorbid depression and anxiety \textit{even when these could fully explain the fatigue}. This conflates ME/CFS with depression-related fatigue.
+
+\paragraph{Set-Theoretic Implications:}
+Define patient populations by criteria:
+\begin{equation}
+O \supset F \supset C \supset I
+\end{equation}
+where $O$ = Oxford, $F$ = Fukuda, $C$ = Canadian Consensus, $I$ = ICC.
+
+The Oxford criteria capture a superset that includes patients with ME/CFS (satisfying more restrictive criteria) plus patients with primary depression, idiopathic fatigue, and deconditioning.
+
+\paragraph{Harm from CBT/GET Trials:}
+The most harmful aspect: Oxford criteria were used in the PACE trial~\cite{White2011pace} and other studies promoting cognitive behavioral therapy (CBT) and graded exercise therapy (GET) as treatments for ``CFS.'' However:
+\begin{itemize}
+    \item Patient surveys show GET causes harm in 50--70\% of ME/CFS patients~\cite{MEAssociation2015survey}
+    \item CBT/GET may be appropriate for depression or deconditioning but are contraindicated for true ME/CFS
+    \item By enrolling patients without PEM, these trials tested interventions on a population distinct from ME/CFS
+\end{itemize}
+\end{warning}
+
+\begin{observation}[Research Community Consensus]
+\label{obs:oxford-rejection}
+The Oxford criteria are now explicitly rejected by:
+\begin{itemize}
+    \item The NIH (U.S. National Institutes of Health) ME/CFS research guidelines
+    \item The CDC (U.S. Centers for Disease Control)
+    \item Leading ME/CFS researchers and clinicians
+    \item Patient advocacy organizations
+\end{itemize}
+
+Studies using Oxford criteria should be interpreted with extreme caution, as they likely include substantial proportions of patients without ME/CFS.
+\end{observation}
 
 \subsection{Pediatric Criteria}
-% Adaptations for children and adolescents
-% Age-specific considerations
+
+ME/CFS in children and adolescents presents diagnostic challenges due to developmental differences in symptom expression, comorbidities, and functional impact.
+
+\begin{requirement}[Pediatric Adaptations]
+\label{req:pediatric}
+Diagnosis in children should use the same criteria (Canadian Consensus, IOM, or ICC) with the following modifications:
+
+\paragraph{1. Duration:}
+\begin{itemize}
+    \item Standard: 6 months in adults
+    \item Pediatric: May use \textbf{3 months} if symptoms are severe and progression is documented
+    \item Rationale: Early diagnosis enables intervention during critical developmental windows
+\end{itemize}
+
+\paragraph{2. Activity Reduction:}
+\begin{itemize}
+    \item Assess relative to \textbf{age-appropriate activities}: school attendance, sports participation, social activities with peers
+    \item May manifest as: inability to attend full school day, requiring home tutoring, dropping out of extracurricular activities
+    \item Pediatric patients may have better baseline reserves, so functional impairment can be harder to detect
+\end{itemize}
+
+\paragraph{3. Post-Exertional Malaise:}
+\begin{itemize}
+    \item Children may not articulate PEM clearly; ask caregivers about: ``Does your child crash after activities?''
+    \item School attendance patterns are diagnostic: can attend Monday but not Tuesday (PEM delay)
+    \item May manifest as behavioral changes (irritability, emotional lability) rather than reported exhaustion
+\end{itemize}
+
+\paragraph{4. Cognitive Symptoms:}
+\begin{itemize}
+    \item Assess relative to prior academic performance, not population norms
+    \item May manifest as: declining grades, inability to complete homework, processing speed reduction
+    \item Distinguish from learning disabilities (which would have been present earlier)
+\end{itemize}
+
+\paragraph{5. Orthostatic Intolerance:}
+\begin{itemize}
+    \item Highly prevalent in pediatric ME/CFS (70--90\%)
+    \item May present as: difficulty standing in school assemblies, morning symptom worsening (after overnight recumbency), shower intolerance
+    \item Objective testing: NASA Lean Test or tilt table (age-appropriate protocols)
+\end{itemize}
+\end{requirement}
+
+\begin{warning}[Pediatric Differential Diagnosis]
+\label{warn:pediatric-differential}
+Additional considerations for children:
+\begin{itemize}
+    \item \textbf{School avoidance vs. ME/CFS}: Distinguish by presence of PEM (in ME/CFS, even desired activities trigger crashes)
+    \item \textbf{Growth and puberty}: Rule out growth-related fatigue, iron deficiency from menstruation
+    \item \textbf{Viral triggers}: Infectious mononucleosis is a common ME/CFS trigger in adolescents
+    \item \textbf{Comorbidities}: POTS and orthostatic intolerance are especially common in pediatric onset
+\end{itemize}
+\end{warning}
+
+\begin{observation}[Prognosis and Early Intervention]
+\label{obs:pediatric-prognosis}
+Pediatric ME/CFS has distinct prognostic features:
+\begin{itemize}
+    \item \textbf{Better prognosis than adults}: Some studies suggest 50--70\% improvement or recovery rates in adolescents, though methodological issues may inflate these estimates
+    \item \textbf{Critical intervention window}: Early aggressive pacing and school accommodation may prevent progression to severe disease
+    \item \textbf{Educational impact}: Lost school years during critical developmental periods create long-term consequences
+    \item \textbf{Recommendation}: Diagnose at 3 months if symptoms are severe; immediate school accommodations (reduced hours, remote learning, rest breaks) to prevent cumulative PEM damage
+\end{itemize}
+\end{observation}
 
 \section{Clinical Assessment}
 \label{sec:assessment}
 
+A thorough clinical assessment is essential for ME/CFS diagnosis, both to establish the presence of diagnostic criteria and to rule out alternative explanations for symptoms.
+
 \subsection{History Taking}
-% Key questions
-% Onset patterns (sudden vs. gradual)
-% Triggering events
-% Functional assessment
+
+\subsubsection{Onset Characterization}
+
+\begin{observation}[Onset Patterns as Diagnostic Clues]
+\label{obs:onset-patterns}
+The pattern of disease onset provides diagnostic and prognostic information:
+
+\paragraph{Sudden Onset (60--80\% of cases):}
+\begin{itemize}
+    \item Patient can identify exact date or event when illness began
+    \item Most commonly follows acute infection: infectious mononucleosis (EBV), influenza, COVID-19, gastroenteritis
+    \item May follow other physiological stressors: surgery, trauma, childbirth, vaccination
+    \item Strong temporal association suggests post-infectious mechanism
+    \item \textbf{Diagnostic value}: Sudden onset after documented infection strongly supports ME/CFS diagnosis
+\end{itemize}
+
+\paragraph{Gradual Onset (20--40\% of cases):}
+\begin{itemize}
+    \item Symptoms develop over weeks to months without clear precipitant
+    \item May follow period of chronic stress, cumulative sleep deprivation, or overwork
+    \item Patient cannot identify specific triggering event
+    \item \textbf{Diagnostic challenge}: Gradual onset requires more thorough differential diagnosis (autoimmune disease, occult malignancy, endocrine disorders)
+\end{itemize}
+\end{observation}
+
+\subsubsection{Key Questions for Establishing Diagnosis}
+
+\paragraph{Post-Exertional Malaise Assessment:}
+\begin{enumerate}
+    \item ``After physical activity, do you feel worse than expected?''
+    \item ``Is there a delay between activity and symptom worsening? How long?'' (Typical: 12--72 hours)
+    \item ``How long does it take to recover from doing too much?'' (ME/CFS: days to weeks)
+    \item ``Can you reliably predict what activities will make you crash?''
+    \item ``Do mental tasks (reading, concentration) also trigger symptom flares?'' (Cognitive PEM distinguishes ME/CFS from deconditioning)
+\end{enumerate}
+
+\paragraph{Sleep Assessment:}
+\begin{enumerate}
+    \item ``Do you wake up feeling refreshed?'' (ME/CFS: No, regardless of duration)
+    \item ``How many hours do you sleep?'' (Rule out insufficient sleep)
+    \item ``Do you snore? Have you been told you stop breathing during sleep?'' (Screen for obstructive sleep apnea)
+    \item ``What time do you go to sleep and wake up?'' (Assess circadian rhythm disorders)
+\end{enumerate}
+
+\paragraph{Cognitive Dysfunction:}
+\begin{enumerate}
+    \item ``Do you have trouble finding words or finishing sentences?''
+    \item ``Do you lose your train of thought mid-conversation?''
+    \item ``Can you read and retain information like you used to?''
+    \item ``Do you have difficulty with tasks that require sustained focus?''
+    \item ``Are these problems worse after physical or mental exertion?'' (Cognitive PEM)
+\end{enumerate}
+
+\paragraph{Orthostatic Symptoms:}
+\begin{enumerate}
+    \item ``Do you feel dizzy or lightheaded when standing up?''
+    \item ``Are showers or baths difficult? Do you need to sit?''
+    \item ``Do your symptoms worsen when standing for extended periods?''
+    \item ``Do you feel better when lying down?''
+\end{enumerate}
+
+\paragraph{Functional Impact Assessment:}
+\begin{enumerate}
+    \item ``What percentage of your pre-illness activity level can you sustain now?''
+    \item ``What activities have you had to give up?'' (Work, social activities, hobbies, childcare)
+    \item ``On a scale of 0--100 (Bell Disability Scale), what is your functional capacity?''
+    \item ``How many hours per week do you spend horizontal (lying down)?''
+\end{enumerate}
 
 \subsection{Physical Examination}
-% What to look for
-% Orthostatic vital signs
-% Neurological examination
-% Tender points
+
+\subsubsection{Orthostatic Vital Signs}
+
+\begin{requirement}[NASA Lean Test or Orthostatic Vital Signs]
+\label{req:orthostatic-testing}
+Orthostatic intolerance assessment should be performed on all ME/CFS patients:
+
+\paragraph{Protocol:}
+\begin{enumerate}
+    \item Patient supine for 5 minutes → measure heart rate (HR) and blood pressure (BP)
+    \item Patient stands upright → measure HR and BP at 1, 3, 5, and 10 minutes
+    \item Record symptoms during test (lightheadedness, nausea, cognitive impairment)
+\end{enumerate}
+
+\paragraph{Abnormal Findings:}
+\begin{itemize}
+    \item \textbf{Postural Orthostatic Tachycardia Syndrome (POTS)}: HR increase $\geq 30$ bpm (or $\geq 40$ bpm in adolescents) within 10 minutes of standing, without orthostatic hypotension
+    \item \textbf{Orthostatic Hypotension}: Systolic BP decrease $\geq 20$ mmHg or diastolic BP decrease $\geq 10$ mmHg
+    \item \textbf{Neurally Mediated Hypotension (NMH)}: Delayed BP drop (after 5--10 minutes standing)
+    \item \textbf{Symptom reproduction}: Patient reports typical symptoms even without meeting BP/HR criteria
+\end{itemize}
+
+\paragraph{Interpretation:}
+70--90\% of ME/CFS patients demonstrate orthostatic intolerance on objective testing. Absence of objective findings does not exclude ME/CFS, but presence strongly supports the diagnosis and guides treatment (salt, fluids, fludrocortisone, midodrine).
+\end{requirement}
+
+\subsubsection{Neurological Examination}
+
+\begin{observation}[Neurological Findings in ME/CFS]
+\label{obs:neuro-exam}
+The neurological examination in ME/CFS typically shows:
+
+\paragraph{Usually Normal:}
+\begin{itemize}
+    \item Cranial nerves intact
+    \item Motor strength 5/5 (though patients report subjective weakness)
+    \item Deep tendon reflexes normal
+    \item No pathological reflexes (Babinski negative)
+\end{itemize}
+
+\paragraph{Potential Abnormalities:}
+\begin{itemize}
+    \item \textbf{Cognitive testing}: Impaired serial 7s, word recall, attention tasks
+    \item \textbf{Tandem gait or Romberg}: May reveal subtle ataxia or balance impairment
+    \item \textbf{Sustained muscle testing}: Rapid fatigability (e.g., handgrip dynamometer shows dramatic decline with repeated testing)
+    \item \textbf{Sensory testing}: Hyperalgesia or allodynia in some patients (small fiber neuropathy)
+\end{itemize}
+
+\paragraph{Clinical Significance:}
+The paucity of objective findings on standard neurological examination \textit{despite severe symptoms} is characteristic of ME/CFS. This discordance (severe functional impairment with normal gross exam) historically led to dismissal of ME/CFS as ``psychosomatic,'' but advanced imaging and functional testing reveal objective abnormalities (cerebral blood flow reduction, autonomic dysfunction, immune activation).
+\end{observation}
+
+\subsubsection{Tender Point Assessment}
+
+\begin{observation}[Fibromyalgia Overlap]
+\label{obs:fibromyalgia-overlap}
+30--70\% of ME/CFS patients meet criteria for fibromyalgia (widespread pain with tender points). Assessment:
+\begin{itemize}
+    \item Digital palpation of 18 tender point sites with 4 kg pressure
+    \item Fibromyalgia: $\geq 11$ of 18 sites tender
+    \item Presence of fibromyalgia does not exclude ME/CFS; these are frequently comorbid
+    \item Guides pain management strategy
+\end{itemize}
+\end{observation}
 
 \subsection{Laboratory Testing}
-% Ruling out exclusions
-% Supportive findings
-% Experimental biomarkers
+
+\subsubsection{Mandatory Exclusionary Testing}
+
+\begin{requirement}[Minimum Laboratory Workup]
+\label{req:lab-workup}
+The following tests are required to rule out alternative diagnoses:
+
+\paragraph{Hematology:}
+\begin{itemize}
+    \item \textbf{Complete Blood Count (CBC)}: Rule out anemia, leukemia, lymphoma
+    \item If anemia present: Iron studies, B12, folate
+\end{itemize}
+
+\paragraph{Chemistry:}
+\begin{itemize}
+    \item \textbf{Comprehensive Metabolic Panel (CMP)}: Rule out renal failure, hepatic dysfunction, electrolyte disorders, diabetes
+\end{itemize}
+
+\paragraph{Endocrine:}
+\begin{itemize}
+    \item \textbf{Thyroid function}: TSH, free T4 (hypothyroidism is a common mimic)
+    \item Consider: Morning cortisol, ACTH stimulation test if Addison disease suspected
+\end{itemize}
+
+\paragraph{Inflammation:}
+\begin{itemize}
+    \item \textbf{Erythrocyte Sedimentation Rate (ESR)} or \textbf{C-Reactive Protein (CRP)}: Rule out active inflammatory disease
+    \item \textbf{Note}: ESR/CRP are typically \textit{normal} in ME/CFS, distinguishing it from autoimmune diseases
+\end{itemize}
+
+\paragraph{Autoimmune Screening:}
+\begin{itemize}
+    \item \textbf{Antinuclear Antibody (ANA)}: Screen for lupus, Sjögren syndrome, other connective tissue diseases
+    \item If ANA positive: Reflex to specific antibodies (anti-dsDNA, anti-Ro, anti-La)
+\end{itemize}
+
+\paragraph{Vitamins:}
+\begin{itemize}
+    \item \textbf{Vitamin D}: Deficiency is extremely common and contributes to fatigue
+    \item \textbf{Vitamin B12}: Deficiency causes fatigue and cognitive impairment
+\end{itemize}
+
+\paragraph{Sleep Disorders:}
+\begin{itemize}
+    \item \textbf{Polysomnography}: Rule out obstructive sleep apnea (OSA) or upper airway resistance syndrome (UARS)
+    \item OSA can fully mimic ME/CFS; CPAP treatment produces dramatic improvement in true OSA
+    \item OSA and ME/CFS can coexist; treating comorbid OSA improves but does not cure ME/CFS
+\end{itemize}
+\end{requirement}
+
+\begin{observation}[Typical Laboratory Profile in ME/CFS]
+\label{obs:lab-profile}
+The characteristic laboratory finding in ME/CFS is that \textbf{standard tests are normal}:
+\begin{itemize}
+    \item CBC: Normal (no anemia, normal WBC count)
+    \item CMP: Normal (normal kidney, liver, electrolytes)
+    \item TSH: Normal
+    \item ESR/CRP: Normal or low-normal (distinguishes from inflammatory autoimmune diseases)
+    \item ANA: Usually negative (or low-titer positive without clinical significance)
+\end{itemize}
+
+This pattern---severe functional disability with normal routine labs---is diagnostically significant. It distinguishes ME/CFS from conditions that present with obvious laboratory abnormalities.
+\end{observation}
+
+\subsubsection{Advanced Biomarker Testing (If Available)}
+
+\begin{observation}[Emerging Biomarkers for Biological Phenotyping]
+\label{obs:advanced-biomarkers}
+If resources permit, advanced testing can guide treatment:
+
+\paragraph{Autoimmune Domain:}
+\begin{itemize}
+    \item GPCR autoantibody panel (β₂-adrenergic, M3/M4 muscarinic)
+    \item NK cell count and cytotoxicity assay
+    \item Flow cytometry for plasma cell populations (CD38⁺CD138⁺)
+\end{itemize}
+
+\paragraph{Metabolic Domain:}
+\begin{itemize}
+    \item Heng 7-biomarker panel (AMP, ADP, VWF, fibronectin, TSP-1, PDGF-BB, TGF-β3) when commercially available
+    \item Fasting lactate (elevated suggests mitochondrial dysfunction)
+    \item ATP profile (specialized labs only)
+\end{itemize}
+
+\paragraph{Objective Functional Testing:}
+\begin{itemize}
+    \item \textbf{Two-day cardiopulmonary exercise testing (CPET)}: Gold standard for documenting PEM
+    \item Day 1 vs.\ Day 2 comparison shows failure to reproduce work capacity
+    \item Reduction in VO₂max, ventilatory threshold on Day 2 is diagnostic
+\end{itemize}
+
+\paragraph{Autonomic Testing:}
+\begin{itemize}
+    \item Formal tilt table testing (if orthostatic symptoms prominent)
+    \item Heart rate variability analysis
+    \item Quantitative sudomotor axon reflex test (QSART)
+\end{itemize}
+
+These tests are \textit{not required for diagnosis} but enable Tier 2 biological phenotyping and treatment stratification.
+\end{observation}
+
+\section{Novel Biology-Informed Diagnostic Framework}
+\label{sec:novel-framework}
+
+This section proposes an updated diagnostic framework that synthesizes current pathophysiological understanding with clinical reality. Unlike existing criteria that treat ME/CFS as a single homogeneous entity, this three-tiered approach recognizes disease heterogeneity while maintaining diagnostic precision.
+
+\subsection{Rationale for a New Framework}
+\label{subsec:framework-rationale}
+
+\subsubsection{The Logic Chain: From Biology to Diagnosis}
+
+The three-tiered diagnostic framework follows logically from four fundamental observations about ME/CFS:
+
+\paragraph{Observation 1: ME/CFS is a Clinical Syndrome with a Core Pathognomonic Feature}
+
+Post-exertional malaise (PEM) with delayed onset, disproportionate severity, and prolonged recovery distinguishes ME/CFS from all other fatiguing conditions. This symptom:
+\begin{itemize}
+    \item Cannot be explained by deconditioning (which improves with gradual activity)
+    \item Cannot be explained by depression (which may improve somewhat with activity)
+    \item Has objective correlates (2-day CPET showing Day 2 deterioration~\cite{lim2020cpet,keller2024cpet})
+    \item Reflects underlying cellular energy failure (ATP depletion~\cite{heng2025mecfs,Syed2025})
+\end{itemize}
+
+\textbf{Logical consequence}: Tier 1 must retain syndrome-based diagnosis with PEM as mandatory criterion, ensuring we capture the defining pathophysiology while maintaining compatibility with existing frameworks.
+
+\paragraph{Observation 2: ME/CFS Heterogeneity Reflects Multiple Causal Pathways, Not Measurement Error}
+
+The failure of single-target treatments in randomized controlled trials does not mean ``ME/CFS has no biological basis''---it means we are mixing biologically distinct subgroups:
+
+\begin{itemize}
+    \item Rituximab (anti-CD20 B cell depletion) failed in large trials~\cite{Fluge2015rituximab_rct} despite initial promise
+    \item Daratumumab (anti-CD38 plasma cell depletion) succeeded in 60\% of patients in pilot study~\cite{Fluge2025daratumumab}
+    \item \textbf{Interpretation}: Not ``autoimmunity isn't involved,'' but rather ``wrong cell type targeted'' (short-lived B cells vs. long-lived plasma cells) AND ``only a subset has autoimmune-driven disease''
+\end{itemize}
+
+The Heng 2025 study~\cite{heng2025mecfs} demonstrated that a 7-biomarker panel spanning three systems (energy, immune, vascular) achieved 91\% diagnostic accuracy. This implies:
+\begin{enumerate}
+    \item All three systems are coordinately dysfunctional (not independent)
+    \item ME/CFS is not five separate diseases but one syndrome with five co-occurring mechanisms
+    \item Treatment must address multiple domains simultaneously
+\end{enumerate}
+
+\textbf{Logical consequence}: Tier 2 must assess all relevant biological domains and document which are present, rather than forcing patients into exclusive categories. The question is not ``Is this autoimmune OR metabolic ME/CFS?'' but ``Which of the five domains show dysfunction in this patient?''
+
+\paragraph{Observation 3: Treatment Response Depends on Rate-Limiting Steps, Not Just Presence of Pathology}
+
+Consider two patients, both with elevated GPCR autoantibodies and mitochondrial dysfunction:
+\begin{itemize}
+    \item \textbf{Patient A}: Autoantibodies are driving ongoing inflammation → mitochondria are secondarily impaired → removing autoantibodies allows mitochondrial recovery → daratumumab produces dramatic improvement
+    \item \textbf{Patient B}: Initial autoimmune trigger has resolved, but mitochondrial damage is now self-perpetuating (WASF3 accumulation, cristae disruption) → removing residual autoantibodies doesn't help because mitochondria cannot recover → daratumumab fails
+\end{itemize}
+
+Both patients are ``autoantibody-positive,'' but only Patient A responds. The difference: which domain is \textbf{rate-limiting} (the bottleneck preventing recovery).
+
+This explains:
+\begin{itemize}
+    \item Why daratumumab works in 60\% not 100\% of patients~\cite{Fluge2025daratumumab}
+    \item Why low baseline NK cell count predicted non-response (suggests irreversible immune exhaustion)
+    \item Why biomarker-positive patients don't uniformly respond to biomarker-targeted treatments
+\end{itemize}
+
+\textbf{Logical consequence}: Tier 2 must enable multi-target treatment protocols. We cannot predict \textit{a priori} which domain is rate-limiting, so we must:
+\begin{enumerate}
+    \item Treat all accessible, low-risk domains simultaneously (``quick wins'')
+    \item Reassess at 3--6 months to identify which domains responded vs. persisted
+    \item Intensify treatment for persistent domains (these are likely rate-limiting)
+\end{enumerate}
+
+\paragraph{Observation 4: ME/CFS Has Irreversible Thresholds, Making Timing Critical}
+
+The natural history literature~\cite{Maksoud2020natural} and patient reports converge on temporal patterns:
+
+\begin{itemize}
+    \item \textbf{6 months}: If symptoms persist beyond 6 months, spontaneous resolution becomes unlikely (transition from ``post-viral fatigue'' to ``established ME/CFS'')
+    \item \textbf{2 years}: Around 2 years, disease transitions from early (hypermetabolic, potentially reversible) to established (hypometabolic, epigenetically locked) state
+    \item \textbf{Cumulative crashes}: Repeated PEM episodes cause progressive damage; there may be a threshold (5--10 severe crashes) beyond which recovery capacity is permanently impaired
+    \item \textbf{25\% severe}: One-quarter of ME/CFS patients become housebound/bedbound, most starting with mild disease
+\end{itemize}
+
+The progression from mild to severe appears \textbf{preventable in many cases} through aggressive pacing, yet existing diagnostic criteria provide no framework for:
+\begin{itemize}
+    \item Identifying patients at high risk of progression
+    \item Defining what ``aggressive pacing'' means operationally
+    \item Communicating urgency of intervention before crossing irreversible thresholds
+\end{itemize}
+
+\textbf{Logical consequence}: Tier 3 must prospectively assess progression risk and provide actionable intervention protocols. The diagnostic framework must be \textbf{dynamic} (tracking trajectory) not static (labeling current state).
+
+\subsubsection{Why Three Tiers? Why Not Two or Four?}
+
+The three-tiered structure reflects three distinct clinical questions:
+
+\begin{enumerate}
+    \item \textbf{Tier 1 (Syndrome)}: Does this patient have ME/CFS? (Yes/No based on universal clinical features)
+    \item \textbf{Tier 2 (Biology)}: Which pathophysiological mechanisms are driving this patient's disease? (Multi-label classification across 5 domains)
+    \item \textbf{Tier 3 (Trajectory)}: How severe is the disease currently, and what is the risk of irreversible progression? (Severity + prospective risk)
+\end{enumerate}
+
+These cannot be collapsed:
+\begin{itemize}
+    \item Tier 1 alone (current criteria) misses treatment stratification and progression prevention
+    \item Tier 2 alone (biology-only) would miss patients without access to biomarkers and wouldn't address progression risk
+    \item Tier 3 alone (severity-only) would lack diagnostic specificity and treatment guidance
+\end{itemize}
+
+Each tier serves a distinct purpose and requires different information.
+
+\subsubsection{Limitations of Existing Criteria}
+
+Existing diagnostic criteria (Fukuda, Canadian Consensus, ICC, IOM) share important limitations that this framework addresses:
+
+\begin{itemize}
+    \item \textbf{Syndrome-based only}: Rely exclusively on symptom constellations without biological stratification, preventing precision medicine
+    \item \textbf{Static classification}: Diagnose a point-in-time state without assessing progression risk, missing the 25\% who will become severe
+    \item \textbf{Assume homogeneity}: Force heterogeneous patients into single diagnostic category, explaining why single-target trials fail
+    \item \textbf{Limited treatment guidance}: Diagnosis doesn't inform which interventions to prioritize, leading to trial-and-error
+    \item \textbf{Miss therapeutic windows}: Fail to identify the 6-month and 2-year critical intervention windows
+\end{itemize}
+
+\subsubsection{How Recent Advances Enable This Framework}
+
+The proposed three-tiered framework would not have been possible a decade ago. Recent advances now make it feasible:
+
+\begin{itemize}
+    \item \textbf{Objective biomarkers}: GPCR autoantibodies~\cite{Loebel2016,Bynke2020}, Heng 7-marker panel~\cite{heng2025mecfs}, 2-day CPET~\cite{lim2020cpet,keller2024cpet} provide biological stratification
+    \item \textbf{Mechanistic understanding}: Autoimmunity~\cite{Fluge2025daratumumab}, mitochondrial dysfunction~\cite{wang2023wasf3,Syed2025}, neuroinflammation~\cite{Nakatomi2014neuroinflammation} explain heterogeneity
+    \item \textbf{Treatment stratification proof-of-concept}: Daratumumab 60\% response in autoimmune subset~\cite{Fluge2025daratumumab}, immunoadsorption for GPCR autoantibodies~\cite{Stein2024immunoadsorption} demonstrate that biomarker-guided treatment works
+    \item \textbf{Natural history data}: Critical intervention windows~\cite{Maksoud2020natural}, progression patterns~\cite{Chu2019}, cumulative damage model validated
+\end{itemize}
+
+The proposed framework integrates these advances into clinically actionable diagnostic tiers.
+
+\subsubsection{Summary: The Logical Structure}
+
+\begin{observation}[Framework Logic]
+\textbf{Premise 1}: ME/CFS is a clinical syndrome with a pathognomonic feature (PEM) that has objective correlates
+
+$\Rightarrow$ \textbf{Tier 1}: Syndrome-based diagnosis with PEM mandatory
+
+\vspace{0.5em}
+
+\textbf{Premise 2}: ME/CFS heterogeneity reflects multiple co-occurring biological mechanisms; treatment response depends on which mechanism is rate-limiting
+
+$\Rightarrow$ \textbf{Tier 2}: Multi-domain biological phenotyping to enable multi-target treatment
+
+\vspace{0.5em}
+
+\textbf{Premise 3}: ME/CFS has irreversible thresholds (6 months, 2 years, cumulative crashes); progression to severe disease is often preventable
+
+$\Rightarrow$ \textbf{Tier 3}: Severity classification + prospective risk assessment with emergency protocols
+
+\vspace{0.5em}
+
+The three-tiered structure is not arbitrary---it reflects the logical necessity of answering three distinct clinical questions (diagnosis, mechanism, trajectory) that cannot be collapsed without losing critical information.
+\end{observation}
+
+\subsection{Tier 1: Clinical Syndrome Criteria}
+\label{subsec:tier1}
+
+Tier 1 establishes the diagnosis of ME/CFS based on clinical features. These criteria are universal---all patients must meet Tier 1 to receive the diagnosis.
+
+\subsubsection{Core Diagnostic Features (All Required)}
+
+\begin{requirement}[Post-Exertional Malaise (Mandatory Hallmark)]
+\label{req:pem-criterion}
+Post-exertional malaise must be present with ALL of the following characteristics:
+
+\begin{itemize}
+    \item \textbf{Delayed onset}: Symptom exacerbation occurs 12--72 hours after triggering activity (not immediately)
+    \item \textbf{Disproportionate severity}: Minimal exertion produces profound symptom worsening far beyond normal fatigue
+    \item \textbf{Multi-domain triggers}: Symptoms triggered by physical exertion \textit{AND} cognitive exertion \textit{AND} emotional exertion
+    \item \textbf{Prolonged recovery}: Symptom exacerbation persists $>$24 hours (mild cases) to weeks or months (severe cases)
+\end{itemize}
+
+\paragraph{Objective verification (optional but supportive):}
+Two-day cardiopulmonary exercise testing showing Day 2 deterioration: workload at ventilatory threshold decreases $\geq$20\% on Day 2 compared to Day 1~\cite{lim2020cpet,keller2024cpet}.
+\end{requirement}
+
+\begin{requirement}[Baseline Energy Insufficiency]
+\label{req:energy-insufficiency}
+Patients must demonstrate chronic energy deficit characterized by:
+
+\begin{itemize}
+    \item \textbf{Morning depletion}: Waking already exhausted despite sleep duration
+    \item \textbf{Disproportionate activity cost}: Activities of daily living (hygiene, eating, sitting upright) consume excessive energy relative to effort
+    \item \textbf{No functional reserve}: Zero capacity to handle unexpected physical, cognitive, or emotional demands
+    \item \textbf{Effort-performance disconnect}: Subjective experience of maximal effort producing minimal objective output (a phenomenon that distinguishes ME/CFS from deconditioning or primary depression)
+\end{itemize}
+
+The effort-performance disconnect represents a novel diagnostic criterion capturing the lived experience of ME/CFS: patients describe ``giving everything'' to accomplish minimal tasks, feeling as though simple activities require marathon-level exertion while producing negligible results~\cite{strassheim2021experiences,fennell2021elements}.
+\end{requirement}
+
+\begin{requirement}[Duration and Exclusion Criteria]
+\label{req:duration-exclusion}
+\begin{itemize}
+    \item \textbf{Duration}: Symptoms must persist $\geq$6 months
+    \item \textbf{Rationale}: Six-month persistence indicates transition from post-viral fatigue (which typically resolves) to established ME/CFS with aberrant pathophysiology~\cite{Maksoud2020natural}
+    \item \textbf{Exclusions}: Symptoms not better explained by:
+    \begin{itemize}
+        \item Active medical conditions (untreated hypothyroidism, sleep apnea, anemia, malignancy)
+        \item Primary psychiatric disorders (though secondary depression/anxiety are common and do not exclude ME/CFS)
+        \item Medication side effects
+    \end{itemize}
+\end{itemize}
+
+\textbf{Important}: Comorbid conditions that are part of the ME/CFS disease spectrum (POTS, fibromyalgia, MCAS, IBS) do \textit{not} exclude the diagnosis---these represent overlapping pathophysiology rather than alternative explanations.
+\end{requirement}
+
+\subsubsection{Supporting Features (≥3 of 5 Required)}
+
+In addition to the three core features, patients must have at least three of the following five supporting features:
+
+\begin{enumerate}
+    \item \textbf{Unrefreshing Sleep}
+    \begin{itemize}
+        \item Sleep that fails to restore energy regardless of duration
+        \item Waking feeling as exhausted as when going to bed
+        \item Present in 95--100\% of ME/CFS patients~\cite{Jason2010sleepMECFS,Unger2016sleepPrevalence}
+    \end{itemize}
+
+    \item \textbf{Cognitive Impairment}
+    \begin{itemize}
+        \item Processing speed deficits (most robust finding: Hedges' g = -0.82)~\cite{Cvejic2022cognitive}
+        \item Attention and working memory impairment
+        \item Word-finding difficulties, linguistic reversals
+        \item Brain fog that is not attributable to fatigue or depression~\cite{MCAM2024cognitive}
+    \end{itemize}
+
+    \item \textbf{Autonomic Dysfunction}
+    \begin{itemize}
+        \item Orthostatic intolerance: symptoms worsened by upright posture
+        \item POTS (heart rate increase $\geq$30 bpm upon standing), orthostatic hypotension, or neurally mediated hypotension
+        \item Temperature dysregulation, inappropriate sweating or lack of sweating
+        \item Present in 70--90\% of ME/CFS patients~\cite{Newton2007autonomicDysfunction}
+    \end{itemize}
+
+    \item \textbf{Pain}
+    \begin{itemize}
+        \item Myalgia (muscle pain), particularly with post-exertional exacerbation
+        \item Arthralgia (joint pain, characteristically migratory without inflammation)
+        \item Headaches (migraine or tension-type)~\cite{Ravindran2011headache}
+        \item Pain present in $\sim$80\% of patients~\cite{Unger2017pain}
+    \end{itemize}
+
+    \item \textbf{Sensory Hypersensitivity}
+    \begin{itemize}
+        \item Photophobia (light sensitivity requiring sunglasses indoors or dimmed environment)
+        \item Phonophobia (sound sensitivity; normal volumes feel uncomfortable)
+        \item Chemical sensitivity (fragrances, cleaning products, exhaust)
+        \item Touch hypersensitivity or allodynia
+        \item Present in 70--90\% of patients~\cite{Jason2013sensory}
+    \end{itemize}
+\end{enumerate}
+
+\begin{observation}[Tier 1 Summary]
+Tier 1 criteria establish ME/CFS as a clinical syndrome with mandatory post-exertional malaise, baseline energy insufficiency, and 6-month duration. Supporting features (sleep, cognition, autonomic, pain, sensory) must be present in sufficient number ($\geq$3 of 5) to confirm the characteristic multi-system presentation. These criteria are compatible with existing frameworks (Canadian Consensus, ICC, IOM) but add explicit recognition of the effort-performance disconnect and specify the 6-month threshold as marking transition to established disease.
+\end{observation}
+
+\subsection{Tier 2: Biological Phenotyping (Multi-Domain Assessment)}
+\label{subsec:tier2}
+
+Once Tier 1 criteria are met, patients should undergo comprehensive biological phenotyping to identify which pathophysiological domains are involved. This enables targeted treatment and research stratification.
+
+\subsubsection{Rationale: Co-Occurrence Rather Than Predominance}
+
+Critical insight: ME/CFS patients typically have dysfunction in \textit{multiple} biological domains simultaneously. The Heng 2025 study demonstrated that a 7-biomarker panel spanning energy metabolism, immune function, and vascular endothelium achieved 91\% diagnostic accuracy precisely because \textit{all three systems show coordinated dysfunction}~\cite{heng2025mecfs}. This finding validates the multi-lock model (Chapter~\ref{ch:speculative-hypotheses}): ME/CFS persists because multiple self-reinforcing pathophysiological processes operate concurrently.
+
+\begin{hypothesis}[Multi-Domain Co-Occurrence Model]
+\label{hyp:multi-domain}
+ME/CFS should be understood as a syndrome with five co-occurring, mutually reinforcing biological domains. Most patients have abnormalities in $\geq$3 domains:
+
+\begin{itemize}
+    \item Autoimmune features: 30--60\% (GPCR autoantibodies~\cite{Loebel2016,Bynke2020})
+    \item Mitochondrial/metabolic dysfunction: 70--95\% (ATP abnormalities~\cite{heng2025mecfs}, lactate elevation~\cite{Lien2019lactate})
+    \item Neuroinflammation/central sensitization: 70--90\% (central sensitization 84\%~\cite{Nijs2021sensitization}, sensory sensitivities 70--90\%~\cite{Jason2013sensory})
+    \item Dysautonomia: 70--90\% (POTS 25--50\%, broader orthostatic intolerance 70--90\%~\cite{Newton2007autonomicDysfunction})
+    \item Endothelial dysfunction: Prevalence unknown (Heng 2025 documented elevation in ME/CFS cohort~\cite{heng2025mecfs})
+\end{itemize}
+
+These domains are interdependent:
+\begin{itemize}
+    \item Autoimmunity (GPCR autoantibodies) $\rightarrow$ Mitochondrial dysfunction (β₂-adrenergic signaling regulates mitochondrial biogenesis)
+    \item Mitochondrial dysfunction (ATP depletion) $\rightarrow$ Neuroinflammation (danger signal release, ionic gradient failure)
+    \item Endotheliopathy (impaired vasodilation) $\rightarrow$ Dysautonomia (orthostatic intolerance, cerebral hypoperfusion)
+    \item Neuroinflammation (cytokine production) $\rightarrow$ Autoimmunity (B cell activation)
+\end{itemize}
+
+Treatment targeting a single domain may fail because untreated domains maintain dysfunction. The multi-domain model predicts that:
+\begin{enumerate}
+    \item Patients with more domains affected will have worse outcomes
+    \item Multi-target interventions will outperform single-target interventions
+    \item Treatment response requires both (a) presence of dysfunction in a domain AND (b) that domain being rate-limiting (the bottleneck gating recovery)
+\end{enumerate}
+\end{hypothesis}
+
+\subsubsection{Domain 1: Autoimmune Features}
+
+\paragraph{Assessment:}
+\begin{itemize}
+    \item GPCR autoantibodies (β₂-adrenergic, M3 muscarinic, M4 muscarinic) above age/sex-matched reference ranges~\cite{Loebel2016,Bynke2020}
+    \item ANA (any titer; present in 20--30\% ME/CFS vs. 5--10\% healthy controls)
+    \item Plasma cell expansion on flow cytometry (CD38$^+$CD138$^+$ if available)
+    \item Low NK cell count (<5th percentile) with normal total lymphocytes
+\end{itemize}
+
+\paragraph{If Present → Diagnosis:} ``ME/CFS with Autoimmune Component''
+
+\paragraph{Treatment Implications:}
+\begin{itemize}
+    \item Candidate for immunoadsorption (IgG removal)~\cite{Stein2024immunoadsorption}
+    \item Candidate for daratumumab (anti-CD38, depletes plasma cells)~\cite{Fluge2025daratumumab}
+    \item Candidate for BC007 (GPCR autoantibody neutralizer)~\cite{Hohberger2021bc007}
+    \item Monitor for worsening with immune-stimulating interventions
+\end{itemize}
+
+\paragraph{Prevalence:} 30--60\% of ME/CFS patients
+
+\subsubsection{Domain 2: Mitochondrial/Metabolic Dysfunction}
+
+\paragraph{Assessment:}
+\begin{itemize}
+    \item Heng 7-marker panel (if available): Elevated AMP, ADP (energy depletion arm)~\cite{heng2025mecfs}
+    \item Elevated lactate: Resting >2.0 mmol/L or abnormal accumulation during 2-day CPET~\cite{Lien2019lactate}
+    \item ATP profile abnormalities (if specialized testing available)
+    \item WASF3 elevation on skeletal muscle biopsy (if indicated for severe cases)~\cite{wang2023wasf3}
+\end{itemize}
+
+\paragraph{If Present → Diagnosis:} ``ME/CFS with Mitochondrial Dysfunction''
+
+\paragraph{Treatment Implications:}
+\begin{itemize}
+    \item CoQ10 (ubiquinol 200--400 mg/day)
+    \item NAD$^+$ precursors (nicotinamide riboside 1000--2000 mg/day, treatment duration $\geq$10 weeks)
+    \item D-ribose, B-complex vitamins, alpha-lipoic acid, PQQ
+    \item Strict pacing critical (ATP depletion is cumulative)
+    \item Heart rate monitoring (stay below 60\% maximum heart rate during activity)
+\end{itemize}
+
+\paragraph{Prevalence:} 70--95\% (virtually all ME/CFS patients show some degree of energy metabolism dysfunction)
+
+\subsubsection{Domain 3: Neuroinflammation/Central Sensitization}
+
+\paragraph{Assessment:}
+\begin{itemize}
+    \item \textbf{Research settings}: PET evidence of microglial activation~\cite{Nakatomi2014neuroinflammation}, fMRI showing altered temporoparietal junction or salience network connectivity~\cite{walitt2024deep,Shan2020neuroimaging}
+    \item \textbf{Clinically accessible}:
+    \begin{itemize}
+        \item Central sensitization confirmed by quantitative sensory testing: pressure pain thresholds <5th percentile at $\geq$3 standardized sites~\cite{Nijs2021sensitization}
+        \item Small fiber neuropathy: skin biopsy showing intraepidermal nerve fiber density <5th percentile~\cite{Oaklander2022SFN}
+        \item Severe sensory sensitivities requiring environmental modification (inability to tolerate normal lighting, sound levels, or chemical exposures)
+    \end{itemize}
+\end{itemize}
+
+\paragraph{If Present → Diagnosis:} ``ME/CFS with Neuroinflammatory Component''
+
+\paragraph{Treatment Implications:}
+\begin{itemize}
+    \item Low-dose naltrexone (LDN 1.5--4.5 mg at bedtime)
+    \item Environmental modification (dimmed lighting, noise reduction, fragrance-free environment)
+    \item IVIG (if small fiber neuropathy documented and insurance approves)
+    \item Avoid activities that trigger sensory overload (cognitive post-exertional malaise)
+\end{itemize}
+
+\paragraph{Prevalence:} 70--90\% (sensory sensitivities 70--90\%, central sensitization 84\%, small fiber neuropathy 30--38\%)
+
+\subsubsection{Domain 4: Dysautonomia}
+
+\paragraph{Assessment:}
+\begin{itemize}
+    \item \textbf{Gold standard}: Tilt table testing showing POTS (heart rate increase $\geq$30 bpm within 10 minutes), orthostatic hypotension (blood pressure drop $\geq$20/10 mmHg), or neurally mediated hypotension
+    \item \textbf{Clinically accessible}: NASA Lean Test (10-minute standing test; positive if heart rate increases $\geq$30 bpm)
+    \item Heart rate variability analysis (reduced HRV indicating sympathetic dominance)
+    \item QSART/thermoregulatory sweat test (if available)
+\end{itemize}
+
+\paragraph{If Present → Diagnosis:} ``ME/CFS with Dysautonomia''
+
+\paragraph{Treatment Implications:}
+\begin{itemize}
+    \item Volume expansion: 3--10 g sodium + 2--3 L fluids daily
+    \item Compression garments (20--30 mmHg waist-high or thigh-high)
+    \item Pharmacological:
+    \begin{itemize}
+        \item Fludrocortisone 0.05--0.2 mg daily
+        \item Midodrine 2.5--10 mg three times daily
+        \item Ivabradine 2.5--7.5 mg twice daily
+        \item Low-dose beta-blockers (propranolol 10--20 mg as needed)
+    \end{itemize}
+    \item Positional strategies: elevate head of bed, avoid prolonged standing, sit when possible
+\end{itemize}
+
+\paragraph{Prevalence:} 70--90\% (POTS 25--50\%, broader orthostatic intolerance 70--90\%)
+
+\subsubsection{Domain 5: Endothelial Dysfunction}
+
+\paragraph{Assessment:}
+\begin{itemize}
+    \item Heng 7-marker panel (if available): Elevated von Willebrand factor, fibronectin, thrombospondin-1 (endothelial activation arm)~\cite{heng2025mecfs}
+    \item Clinical markers of microvascular dysfunction:
+    \begin{itemize}
+        \item Livedo reticularis (mottled skin discoloration)
+        \item Raynaud's phenomenon (cold-induced color changes in fingers/toes)
+        \item Delayed capillary refill (>3 seconds)
+    \end{itemize}
+    \item Cerebral hypoperfusion on SPECT imaging (if available)
+\end{itemize}
+
+\paragraph{If Present → Diagnosis:} ``ME/CFS with Endothelial Dysfunction''
+
+\paragraph{Treatment Implications (experimental):}
+\begin{itemize}
+    \item L-citrulline 3--6 g/day or L-arginine (for nitric oxide production)
+    \item Omega-3 fatty acids (EPA/DHA 2--4 g/day)
+    \item Low-dose aspirin 81 mg daily (if no contraindications)
+    \item Emerging research: anticoagulation trials, fibrinolytic protocols (investigational only)
+\end{itemize}
+
+\paragraph{Prevalence:} Unknown (Heng 2025 documented elevation in ME/CFS cohort; prevalence in broader ME/CFS population requires validation)
+
+\subsubsection{Multi-Label Diagnosis Example}
+
+\begin{observation}[Sample Comprehensive Diagnosis]
+\textbf{Primary Diagnosis}: Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS)
+
+\textbf{Biological Phenotype (Tier 2 Multi-Domain Assessment):}
+\begin{itemize}
+    \item[✓] Autoimmune component: GPCR autoantibodies β₂-adrenergic 12.5 U/mL (ref <8), M3 muscarinic 9.2 U/mL (ref <7)
+    \item[✓] Mitochondrial dysfunction: Fasting lactate 2.8 mmol/L (ref <2.0); 2-day CPET workload at VT decreased 35\% on Day 2
+    \item[✓] Neuroinflammatory component: Pressure pain thresholds 1.8 kg (ref >4.0); photophobia requiring indoor sunglasses; phonophobia limiting social interaction
+    \item[✓] Dysautonomia: POTS confirmed on tilt table (supine HR 65 bpm → standing HR 102 bpm at 8 minutes); HRV SDNN 18 ms (ref >50)
+    \item[✗] Endothelial dysfunction: Not assessed (markers unavailable)
+\end{itemize}
+
+\textbf{Severity (Tier 3)}: Moderate (housebound 40\% of time; can perform remote work 20 hours/week with careful pacing)
+
+\textbf{Progression Risk}: HIGH—RED FLAGS present: ratcheting baseline over past 9 months (each crash leaves lower functional floor); recovery time lengthening from 3 days → 10 days for equivalent exertion
+
+\textbf{Treatment Plan}:
+\begin{enumerate}
+    \item \textbf{Foundation}: Aggressive pacing (50\% rule, heart rate monitoring <105 bpm)
+    \item \textbf{Dysautonomia} (quick win, high accessibility): Fludrocortisone 0.1 mg daily, sodium 6 g/day, fluids 2.5 L/day, compression stockings
+    \item \textbf{Mitochondrial} (quick win, high accessibility): CoQ10 300 mg, nicotinamide riboside 1000 mg, B-complex
+    \item \textbf{Neuroinflammation} (quick win, high accessibility): LDN 3 mg at bedtime, light/sound environmental control
+    \item \textbf{Autoimmune} (if accessible): Immunoadsorption or daratumumab candidate; pursue if no improvement after 6 months on above protocol
+\end{enumerate}
+
+\textbf{Reassessment}: 3-month follow-up to evaluate response in each domain; adjust treatment based on which domains improve vs. persist
+\end{observation}
+
+\subsection{Tier 3: Severity Classification and Progression Risk}
+\label{subsec:tier3}
+
+Tier 3 classifies current functional severity and prospectively assesses risk of progression to severe disease. This enables appropriate resource allocation, guides intervention intensity, and identifies patients requiring emergency intervention.
+
+\subsubsection{Functional Severity Scale}
+
+\begin{enumerate}
+    \item \textbf{Mild ME/CFS}
+    \begin{itemize}
+        \item Can work or study at 50--80\% of pre-illness capacity, though with significant difficulty
+        \item Post-exertional malaise occurs after moderate exertion
+        \item Recovery from PEM takes days to 1--2 weeks
+        \item Can perform most activities of daily living independently
+        \item Energy envelope is reduced but allows meaningful activity
+        \item Appears functional to outside observers (``invisible illness'')
+    \end{itemize}
+
+    \item \textbf{Moderate ME/CFS}
+    \begin{itemize}
+        \item Reduced daily activity to <50\% of pre-illness level
+        \item Housebound 50\% or more of the time
+        \item Unable to work or study full-time; may work part-time with difficulty
+        \item Post-exertional malaise triggered by minimal exertion
+        \item Recovery from PEM takes weeks
+        \item Requires extended rest periods daily
+        \item Significant impairment in social and occupational function
+    \end{itemize}
+
+    \item \textbf{Severe ME/CFS}
+    \begin{itemize}
+        \item Mostly bedbound (>50\% of waking hours)
+        \item Can perform only minimal self-care activities (brief washing, feeding)
+        \item Post-exertional malaise triggered by activities of daily living
+        \item Cognitive impairment prevents reading, sustained conversation
+        \item Sensory sensitivities may require dimmed environment, minimal sound
+        \item Unable to leave home except for essential medical appointments
+        \item Requires assistance with instrumental activities of daily living
+    \end{itemize}
+
+    \item \textbf{Very Severe ME/CFS}
+    \begin{itemize}
+        \item Bedbound continuously
+        \item Unable to perform most self-care activities without assistance
+        \item Profound sensitivity to light (requiring darkness), sound (requiring silence), touch
+        \item May be unable to tolerate speaking or being spoken to
+        \item Tube feeding may be required if swallowing is impaired
+        \item Requires full-time care assistance
+        \item Represents approximately 10\% of severe ME/CFS cases (2--3\% of total ME/CFS population)
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Progression Risk Stratification}
+
+\begin{warning}[HIGH RISK for Progression to Severe Disease]
+\label{warn:progression-risk}
+Patients meeting $\geq$2 of the following RED FLAG criteria are at immediate risk of transitioning to severe, potentially irreversible disease and require emergency intervention:
+
+\paragraph{RED FLAGS (Immediate Danger):}
+\begin{enumerate}
+    \item \textbf{Ratcheting baseline}: Each post-exertional crash leaves patient at a lower functional floor; baseline is trending downward over 6--12 months rather than returning to previous level
+
+    \item \textbf{Recovery time lengthening}: PEM recovery now requires >2 weeks (previously required only days to 1 week)
+
+    \item \textbf{Shrinking energy envelope}: Activities that were safely within the energy envelope 6 months ago now trigger post-exertional malaise
+
+    \item \textbf{New sensory sensitivities}: Photophobia, phonophobia, or chemical sensitivities emerging or rapidly worsening
+
+    \item \textbf{Cognitive decline}: Word-finding difficulties, memory impairment, or inability to read/process information worsening (cognitive symptoms are most resistant to recovery)~\cite{Chu2019}
+
+    \item \textbf{Forced overexertion}: Patient cannot stop working or reduce activity due to financial necessity, despite clear evidence of deterioration (structural inability to pace)
+
+    \item \textbf{Weight loss from energy insufficiency}: Eating and food preparation have become too effortful; weight loss indicates severe energy depletion
+
+    \item \textbf{Social withdrawal by necessity}: Cannot tolerate visitors, phone calls, or any social interaction due to symptom exacerbation (not due to depression)
+\end{enumerate}
+
+\paragraph{Emergency Action Protocol:}
+Patients with HIGH RISK status require immediate intervention to prevent crossing the ``point of no return'' to irreversible severe ME/CFS:
+
+\begin{enumerate}
+    \item \textbf{Within 48 hours}:
+    \begin{itemize}
+        \item Reduce all non-essential activity by 50\%
+        \item Implement aggressive horizontal rest (50--75\% of waking hours)
+        \item Cancel social commitments, request emergency work accommodation
+    \end{itemize}
+
+    \item \textbf{Within 1 week}:
+    \begin{itemize}
+        \item Physician visit for medical leave documentation
+        \item Formal workplace accommodation request (reduced hours 50--75\%, remote work, flexible schedule)
+        \item Begin disability application process if accommodations denied or insufficient
+    \end{itemize}
+
+    \item \textbf{Within 4--8 weeks}:
+    \begin{itemize}
+        \item Achieve baseline stabilization: Goal of ZERO post-exertional malaise episodes for 4 continuous weeks
+        \item This proves patient is within energy envelope
+        \item Accept that functional capacity is very low during this period---this is temporary to prevent permanent severe disease
+    \end{itemize}
+\end{enumerate}
+
+\paragraph{Rationale:}
+Research and patient reports demonstrate that repeated post-exertional malaise episodes cause cumulative physiological damage: mitochondrial dysfunction accumulation~\cite{wang2023wasf3,Syed2025}, endothelial dysfunction~\cite{heng2025mecfs}, neuroinflammation~\cite{Nakatomi2014neuroinflammation}, and immune exhaustion~\cite{iu2024tcell_exhaustion}. There appears to be a threshold (anecdotally 5--10 severe crashes) beyond which recovery capacity is permanently impaired. The goal is to avoid severe crashes entirely, not merely to minimize them.
+\end{warning}
+
+\subsubsection{Critical Temporal Windows}
+
+\begin{observation}[The 6-Month Rule and 2-Year Establishment Threshold]
+\label{obs:temporal-windows}
+Two temporal thresholds mark critical transitions in ME/CFS natural history~\cite{Maksoud2020natural}:
+
+\paragraph{6-Month Persistence Mark:}
+If symptoms persist beyond 6 months without improvement, this indicates that normal homeostatic recovery mechanisms have failed and aberrant pathophysiology is becoming established. This marks the transition from ``post-viral fatigue that might spontaneously resolve'' to ``ME/CFS requiring active intervention.''
+
+\paragraph{2-Year Establishment Threshold:}
+Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic, potentially modifiable) to established disease (hypometabolic, potentially entrenched). This transition involves:
+\begin{itemize}
+    \item Epigenetic changes altering gene expression patterns
+    \item Immune exhaustion (CD8$^+$ T cell exhaustion~\cite{iu2024tcell_exhaustion}, NK cell dysfunction)
+    \item Normalization of inflammatory markers despite ongoing dysfunction
+    \item Brain structural changes visible on advanced imaging~\cite{Shan2020neuroimaging}
+    \item Metabolic state shift from high (inefficient) energy expenditure to low energy production
+\end{itemize}
+
+\textbf{Implication}: The first 2 years represent a critical intervention window. Aggressive pacing, early biological phenotyping, and domain-targeted treatment during this period may prevent progression to established severe disease. After 2 years, reversal becomes substantially more difficult (though not impossible).
+
+\textbf{Clinical application}: Patients diagnosed within 6 months of onset should be counseled on the criticality of aggressive pacing to prevent establishment. Patients approaching the 2-year mark should undergo comprehensive Tier 2 phenotyping to guide maximal intervention before the window closes.
+\end{observation}
+
+\subsection{Implementation and Clinical Workflow}
+\label{subsec:implementation}
+
+\subsubsection{Minimum Diagnostic Workup (All Patients)}
+
+\begin{enumerate}
+    \item \textbf{Tier 1 Clinical Assessment}:
+    \begin{itemize}
+        \item Detailed history: onset pattern, post-exertional malaise characteristics, sleep quality, cognitive symptoms, autonomic symptoms, pain, sensory sensitivities
+        \item Physical examination: orthostatic vital signs, neurological examination, tender point assessment
+        \item Functional capacity assessment: Bell Disability Scale, SF-36, or equivalent
+    \end{itemize}
+
+    \item \textbf{Objective Testing} (if accessible):
+    \begin{itemize}
+        \item Two-day cardiopulmonary exercise testing (gold standard for PEM documentation)
+        \item Tilt table testing or NASA Lean Test (dysautonomia assessment)
+    \end{itemize}
+
+    \item \textbf{Basic Laboratory Testing} (rule out exclusions):
+    \begin{itemize}
+        \item Complete blood count (CBC)
+        \item Comprehensive metabolic panel (CMP)
+        \item Thyroid-stimulating hormone (TSH), free T4
+        \item Ferritin (low ferritin contributes to fatigue and restless legs)
+        \item Antinuclear antibody (ANA)
+        \item Erythrocyte sedimentation rate (ESR), C-reactive protein (CRP)
+        \item Vitamin D, vitamin B12
+    \end{itemize}
+
+    \item \textbf{Sleep Study}:
+    \begin{itemize}
+        \item Polysomnography to rule out obstructive sleep apnea (OSA) or upper airway resistance syndrome (UARS)
+        \item OSA can mimic ME/CFS; treatment with CPAP dramatically improves symptoms in true OSA cases
+        \item OSA and ME/CFS can coexist; treating comorbid OSA improves but does not cure ME/CFS
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Advanced Phenotyping (Tier 2, If Resources Permit)}
+
+\begin{enumerate}
+    \item \textbf{Autoimmune Domain}:
+    \begin{itemize}
+        \item GPCR autoantibody panel (β₂-adrenergic, M3 muscarinic, M4 muscarinic)
+        \item NK cell count and function assay
+        \item Flow cytometry for plasma cell populations (CD38$^+$CD138$^+$)
+    \end{itemize}
+
+    \item \textbf{Mitochondrial/Metabolic Domain}:
+    \begin{itemize}
+        \item Heng 7-biomarker panel (when commercially available): AMP, ADP, VWF, fibronectin, thrombospondin-1, PDGF-BB, TGF-β3
+        \item Fasting lactate
+        \item ATP profile (if specialized laboratory available)
+    \end{itemize}
+
+    \item \textbf{Neuroinflammation Domain}:
+    \begin{itemize}
+        \item Quantitative sensory testing (pressure pain thresholds)
+        \item Skin biopsy for small fiber neuropathy (intraepidermal nerve fiber density)
+    \end{itemize}
+
+    \item \textbf{Dysautonomia Domain}:
+    \begin{itemize}
+        \item Tilt table testing (if not already performed)
+        \item Heart rate variability analysis
+        \item QSART or thermoregulatory sweat test (if available)
+    \end{itemize}
+
+    \item \textbf{Comorbidity Screening} (Septad components):
+    \begin{itemize}
+        \item MCAS workup: serum tryptase, 24-hour urine methylhistamine, prostaglandin D₂
+        \item Hypermobility assessment: Beighton score
+        \item If hEDS + progressive neurological symptoms: upright MRI for craniocervical instability screening
+        \item Gastrointestinal: gastric emptying study, SIBO breath test (if prominent GI symptoms)
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Treatment Prioritization Based on Phenotype}
+
+\begin{table}[htbp]
+\centering
+\caption{Treatment prioritization by biological domain}
+\label{tab:treatment-prioritization}
+\begin{tabular}{p{3cm}p{4cm}p{2cm}p{2cm}p{2cm}}
+\toprule
+\textbf{Domain} & \textbf{Treatment Options} & \textbf{Risk Level} & \textbf{Access} & \textbf{Priority} \\
+\midrule
+\textbf{Pacing} & Activity management, heart rate monitoring & None & High & \textbf{FIRST} (always) \\
+\addlinespace
+\textbf{Dysautonomia} & Salt, fluids, compression, fludrocortisone, midodrine & Low & High & \textbf{SECOND} (quick wins) \\
+\addlinespace
+\textbf{Mitochondrial} & CoQ10, NR/NMN, B vitamins & Low & High & \textbf{SECOND} (quick wins) \\
+\addlinespace
+\textbf{Neuroinflam.} & LDN, environmental modification & Low & High & \textbf{SECOND} (quick wins) \\
+\addlinespace
+\textbf{Autoimmune} & Immunoadsorption, daratumumab, BC007 & Moderate-High & Very Low & \textbf{THIRD} (if accessible) \\
+\addlinespace
+\textbf{Endothelial} & L-citrulline, omega-3, aspirin & Low & High & \textbf{THIRD} (experimental) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Rationale:}
+\begin{itemize}
+    \item \textbf{Foundation}: Pacing is universal and non-negotiable---prevents cumulative damage regardless of biological phenotype
+    \item \textbf{Quick wins}: High-accessibility, low-risk interventions (dysautonomia, mitochondrial, neuroinflammation) initiated simultaneously to address multiple domains
+    \item \textbf{Reassessment}: At 3--6 months, evaluate response in each domain; persistent dysfunction despite accessible interventions justifies pursuit of high-intensity/low-accessibility treatments (immunoadsorption, daratumumab)
+    \item \textbf{Multi-target approach}: Addresses multiple locks simultaneously, recognizing that single-domain interventions often fail due to reinforcement from untreated domains
+\end{itemize}
+
+\subsection{Research Implications and Validation Needs}
+\label{subsec:research-implications}
+
+This novel diagnostic framework generates testable predictions that should be validated in prospective studies:
+
+\begin{enumerate}
+    \item \textbf{Hypothesis}: Patients with $\geq$4 domains positive will have worse functional outcomes, longer illness duration, and lower treatment response rates than patients with 1--2 domains
+    \begin{itemize}
+        \item \textbf{Test}: Correlate number of positive domains with SF-36 Physical Function, Bell Disability Scale, work/school capacity, and hospitalization rates
+    \end{itemize}
+
+    \item \textbf{Hypothesis}: Multi-target interventions (treating all present domains) will produce superior outcomes compared to single-target interventions
+    \begin{itemize}
+        \item \textbf{Test}: Randomized controlled trial comparing CoQ10 monotherapy vs. CoQ10 + LDN + fludrocortisone (in patients with mitochondrial + neuroinflammatory + dysautonomia domains positive)
+    \end{itemize}
+
+    \item \textbf{Hypothesis}: The RED FLAG progression risk criteria (Tier 3) prospectively identify patients who will develop severe ME/CFS
+    \begin{itemize}
+        \item \textbf{Test}: Cohort study assessing RED FLAG status at enrollment, then tracking functional severity at 1 year and 2 years; calculate sensitivity/specificity of RED FLAG criteria for predicting progression to severe disease
+    \end{itemize}
+
+    \item \textbf{Hypothesis}: Treatment response to domain-specific interventions requires both (a) presence of dysfunction in that domain AND (b) that domain being rate-limiting (the bottleneck)
+    \begin{itemize}
+        \item \textbf{Test}: Measure all 5 domains → administer domain-specific treatment → identify responders vs. non-responders → retrospectively determine which baseline features predicted response
+        \item Example: Daratumumab trial measuring GPCR autoantibodies, lactate, HRV, QST, VWF at baseline, then analyzing which baseline profile predicts 60\% responder group vs. 40\% non-responder group
+    \end{itemize}
+
+    \item \textbf{Hypothesis}: The Heng 7-marker panel achieves high diagnostic accuracy because it captures coordinated dysfunction across three systems (energy, immune, vascular), and symptom severity correlates with multi-system burden rather than single-marker elevation
+    \begin{itemize}
+        \item \textbf{Test}: Network analysis or partial least squares regression to determine if symptoms correlate with individual markers or require multi-marker patterns
+    \end{itemize}
+
+    \item \textbf{Hypothesis}: Early intervention (within the first 2 years) prevents establishment of refractory disease
+    \begin{itemize}
+        \item \textbf{Test}: Compare outcomes of patients receiving comprehensive Tier 2 phenotyping + multi-target treatment within 1 year of onset vs. those diagnosed/treated after 2+ years
+        \item Ethical note: This should be observational (registry-based) rather than randomized, as withholding early treatment would be unethical if the hypothesis is correct
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Comparison to Existing Criteria}
+\label{subsec:comparison}
+
+Table~\ref{tab:framework-comparison} compares the novel biology-informed framework to established diagnostic criteria.
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison of diagnostic frameworks}
+\label{tab:framework-comparison}
+\begin{tabular}{p{3.5cm}p{2cm}p{2cm}p{2cm}p{2.5cm}}
+\toprule
+\textbf{Feature} & \textbf{Fukuda (1994)} & \textbf{Canadian (2003)} & \textbf{IOM (2015)} & \textbf{Novel Framework (2026)} \\
+\midrule
+PEM required & No & Yes & Yes & Yes (detailed criteria) \\
+\addlinespace
+Duration & 6 months & 6 months & 6 months & 6 months (establishment threshold) \\
+\addlinespace
+Biological phenotyping & No & No & No & Yes (5 domains) \\
+\addlinespace
+Progression risk assessment & No & No & No & Yes (RED FLAGS) \\
+\addlinespace
+Treatment stratification & No & No & No & Yes (domain-targeted) \\
+\addlinespace
+Temporal windows & No & No & No & Yes (2-year critical window) \\
+\addlinespace
+Recognizes heterogeneity & No & Partially & No & Yes (multi-label classification) \\
+\addlinespace
+Objective biomarkers & No & Optional & Optional & Integrated (Tier 2) \\
+\addlinespace
+Subgroup identification & No & No & No & Yes (co-occurrence model) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{observation}[Framework Compatibility]
+The novel framework is \textit{compatible} with existing criteria rather than contradictory:
+\begin{itemize}
+    \item Tier 1 clinical criteria align with Canadian Consensus and IOM requirements
+    \item Post-exertional malaise remains the mandatory hallmark (consistent with ICC, Canadian, IOM)
+    \item 6-month duration threshold maintained (all modern criteria)
+    \item Tier 2 and Tier 3 represent \textit{additions} that do not invalidate previous diagnoses
+\end{itemize}
+
+Patients meeting Fukuda, Canadian Consensus, ICC, or IOM criteria will meet Tier 1 of the novel framework. The novel framework adds biological stratification (Tier 2) and risk assessment (Tier 3) that can be applied retroactively to existing cohorts.
+\end{observation}
+
+\subsection{Clinical Advantages of the Novel Framework}
+\label{subsec:advantages}
+
+\begin{enumerate}
+    \item \textbf{Precision medicine}: Biological phenotyping enables targeted treatment rather than trial-and-error
+
+    \item \textbf{Explains treatment heterogeneity}: Response variability attributed to different rate-limiting domains rather than ``treatment doesn't work''
+
+    \item \textbf{Early intervention guidance}: 6-month and 2-year thresholds identify critical windows for aggressive treatment
+
+    \item \textbf{Progression prevention}: RED FLAG criteria enable emergency intervention before irreversible severe disease
+
+    \item \textbf{Research stratification}: Multi-domain classification allows trials to enrich for patients with specific phenotypes (e.g., daratumumab trial selecting autoimmune-domain-positive patients)
+
+    \item \textbf{Acknowledges complexity}: Multi-label classification reflects biological reality (most patients have 3+ domains) rather than forcing heterogeneous patients into single category
+
+    \item \textbf{Actionable at point of care}: Tier 1 (clinical) immediately implementable; Tier 2 (biological) scalable as biomarkers become commercially available; Tier 3 (risk) requires only clinical observation
+\end{enumerate}
 
 \section{Differential Diagnosis}
 \label{sec:differential}
 
-% Conditions that can mimic ME/CFS
-% How to distinguish
-% Comorbid conditions vs. alternative diagnoses
+ME/CFS is a diagnosis of exclusion, requiring careful evaluation to rule out other conditions that can present with similar symptoms. This section addresses conditions that can mimic ME/CFS, distinguishing features, and the critical distinction between alternative diagnoses and comorbidities.
+
+\subsection{Conditions That Can Mimic ME/CFS}
+
+\subsubsection{Endocrine Disorders}
+
+\begin{requirement}[Must Rule Out Before Diagnosing ME/CFS]
+\label{req:endocrine-exclusions}
+
+\paragraph{Hypothyroidism:}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, cognitive impairment (``brain fog''), cold intolerance, weight gain, constipation
+    \item \textbf{Distinguishing features}: Gradual onset, no post-exertional malaise, responds to thyroid replacement
+    \item \textbf{Testing}: TSH, free T4; if TSH elevated and free T4 low, hypothyroidism is confirmed
+    \item \textbf{Note}: Subclinical hypothyroidism (mildly elevated TSH with normal T4) is controversial; may contribute to fatigue but is insufficient to explain ME/CFS severity
+\end{itemize}
+
+\paragraph{Addison Disease (Primary Adrenal Insufficiency):}
+\begin{itemize}
+    \item \textbf{Symptoms}: Profound fatigue, orthostatic hypotension, salt craving, hyperpigmentation
+    \item \textbf{Distinguishing features}: Progressive worsening, life-threatening if untreated, responds to cortisol replacement
+    \item \textbf{Testing}: Morning cortisol, ACTH stimulation test; electrolytes show hyponatremia and hyperkalemia
+\end{itemize}
+
+\paragraph{Diabetes Mellitus:}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, polyuria, polydipsia, weight loss
+    \item \textbf{Testing}: Fasting glucose, HbA1c
+\end{itemize}
+\end{requirement}
+
+\subsubsection{Sleep Disorders}
+
+\begin{warning}[Obstructive Sleep Apnea Can Fully Mimic ME/CFS]
+\label{warn:osa-mimic}
+
+\paragraph{Obstructive Sleep Apnea (OSA):}
+OSA is a critical exclusion because it can produce a symptom profile nearly identical to ME/CFS:
+\begin{itemize}
+    \item \textbf{Symptoms}: Profound fatigue, unrefreshing sleep, cognitive impairment, morning headaches
+    \item \textbf{Distinguishing features}:
+    \begin{itemize}
+        \item Snoring, witnessed apneas (ask bed partner)
+        \item Obesity (BMI >30) is common but not required
+        \item \textbf{Critical}: OSA patients do NOT have post-exertional malaise with delayed onset
+        \item Improvement with CPAP treatment (if true OSA, dramatic improvement within weeks)
+    \end{itemize}
+    \item \textbf{Testing}: Polysomnography (sleep study); apnea-hypopnea index (AHI) $\geq 5$ events/hour is diagnostic
+    \item \textbf{Important}: OSA and ME/CFS can coexist; treating comorbid OSA improves but does not cure ME/CFS
+\end{itemize}
+
+\paragraph{Upper Airway Resistance Syndrome (UARS):}
+\begin{itemize}
+    \item Milder form of sleep-disordered breathing
+    \item May have normal AHI but increased respiratory effort-related arousals (RERAs)
+    \item Presents with fatigue and unrefreshing sleep similar to ME/CFS
+\end{itemize}
+
+\paragraph{Idiopathic Hypersomnia:}
+\begin{itemize}
+    \item Excessive daytime sleepiness despite adequate sleep duration
+    \item No post-exertional malaise
+    \item Multiple sleep latency test (MSLT) shows short sleep latency
+\end{itemize}
+\end{warning}
+
+\subsubsection{Autoimmune and Inflammatory Diseases}
+
+\begin{observation}[Inflammatory Markers Distinguish ME/CFS from Autoimmune Disease]
+\label{obs:inflammatory-distinction}
+
+\paragraph{Systemic Lupus Erythematosus (SLE):}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, arthralgia, cognitive impairment (``lupus fog''), photosensitivity
+    \item \textbf{Distinguishing features}: Malar rash, serositis (pleuritis, pericarditis), renal involvement
+    \item \textbf{Testing}: ANA positive (high titer, typically $\geq 1:160$), anti-dsDNA, anti-Sm antibodies; low complement (C3, C4); elevated ESR/CRP during flares
+    \item \textbf{Key distinction}: SLE has \textit{elevated} inflammatory markers; ME/CFS has \textit{normal or low} ESR/CRP
+\end{itemize}
+
+\paragraph{Sjögren Syndrome:}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, dry eyes (keratoconjunctivitis sicca), dry mouth (xerostomia)
+    \item \textbf{Distinguishing features}: Objective evidence of decreased tear/saliva production
+    \item \textbf{Testing}: Anti-Ro (SSA), anti-La (SSB) antibodies; Schirmer test, salivary flow rate
+\end{itemize}
+
+\paragraph{Rheumatoid Arthritis:}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, joint pain
+    \item \textbf{Distinguishing features}: Joint swelling, morning stiffness $>1$ hour, symmetric small joint involvement
+    \item \textbf{Testing}: Rheumatoid factor (RF), anti-CCP antibodies, elevated ESR/CRP
+\end{itemize}
+
+\paragraph{Multiple Sclerosis (MS):}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, cognitive impairment, sensory disturbances
+    \item \textbf{Distinguishing features}: Focal neurological deficits (optic neuritis, weakness, sensory loss), relapsing-remitting pattern
+    \item \textbf{Testing}: MRI brain and spine (demyelinating lesions disseminated in space and time), CSF oligoclonal bands
+\end{itemize}
+\end{observation}
+
+\subsubsection{Hematologic Disorders}
+
+\begin{requirement}[Anemia Workup]
+\label{req:anemia-exclusion}
+
+\paragraph{Iron Deficiency Anemia:}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, dyspnea on exertion, pica (ice chewing)
+    \item \textbf{Testing}: CBC shows microcytic anemia (low MCV); ferritin low (<30 ng/mL)
+    \item \textbf{Note}: Iron deficiency \textit{without anemia} (normal hemoglobin, low ferritin) can cause fatigue and restless legs syndrome; should be treated but is insufficient to explain ME/CFS severity
+\end{itemize}
+
+\paragraph{Vitamin B12 Deficiency:}
+\begin{itemize}
+    \item \textbf{Symptoms}: Fatigue, cognitive impairment, peripheral neuropathy, macrocytic anemia
+    \item \textbf{Testing}: B12 level <200 pg/mL; methylmalonic acid (MMA) elevated if tissue deficiency
+\end{itemize}
+\end{requirement}
+
+\subsubsection{Infectious Diseases}
+
+\begin{observation}[Post-Infectious vs.\ Chronic Active Infection]
+\label{obs:infection-distinction}
+
+\paragraph{Chronic Active Infections (Must Rule Out):}
+\begin{itemize}
+    \item \textbf{HIV/AIDS}: Check HIV antibody/antigen test
+    \item \textbf{Hepatitis B/C}: Check HBsAg, anti-HCV
+    \item \textbf{Tuberculosis}: In endemic areas or high-risk patients, check tuberculin skin test or interferon-gamma release assay
+    \item \textbf{Lyme disease}: In endemic areas with appropriate exposure history, check Lyme serology (ELISA, Western blot)
+\end{itemize}
+
+\paragraph{Post-Infectious Fatigue vs.\ ME/CFS:}
+Many acute infections (influenza, mononucleosis, COVID-19) are followed by transient fatigue lasting weeks to months. Distinguish from ME/CFS by:
+\begin{itemize}
+    \item \textbf{Duration}: Post-infectious fatigue typically improves by 3--6 months; ME/CFS persists $>6$ months without improvement
+    \item \textbf{Post-exertional malaise}: True PEM with delayed onset and prolonged recovery is specific to ME/CFS
+    \item \textbf{Trajectory}: Post-infectious fatigue shows gradual improvement; ME/CFS shows plateau or worsening
+\end{itemize}
+
+This distinction is critical in the first 6 months post-infection, as aggressive pacing during this period may prevent transition to established ME/CFS.
+\end{observation}
+
+\subsubsection{Malignancy}
+
+\begin{warning}[Occult Malignancy]
+\label{warn:malignancy-screening}
+Cancer-related fatigue can mimic ME/CFS, particularly in early stages without obvious tumor burden:
+\begin{itemize}
+    \item \textbf{Red flags}: Unintentional weight loss, night sweats, fever, lymphadenopathy, age >50 with new-onset fatigue
+    \item \textbf{Screening}: Age-appropriate cancer screening (colonoscopy, mammography); if red flags present, consider CT chest/abdomen/pelvis
+    \item \textbf{Laboratory clues}: Anemia, elevated ESR, abnormal WBC count
+\end{itemize}
+\end{warning}
+
+\subsubsection{Psychiatric Disorders}
+
+\begin{observation}[Depression vs.\ ME/CFS: Critical Distinctions]
+\label{obs:depression-distinction}
+
+Major depression can cause fatigue and cognitive impairment, but several features distinguish it from ME/CFS:
+
+\paragraph{Post-Exertional Malaise (Pathognomonic for ME/CFS):}
+\begin{itemize}
+    \item \textbf{ME/CFS}: Physical or cognitive exertion triggers delayed (12--72 hours) symptom worsening lasting days to weeks
+    \item \textbf{Depression}: Activity may be difficult due to lack of motivation, but exertion does NOT trigger delayed physiological crashes
+    \item \textbf{Key question}: ``If you push through and do an activity you enjoy, do you crash afterward?''
+    \begin{itemize}
+        \item ME/CFS: Yes, even desired activities trigger PEM
+        \item Depression: Enjoyable activities may temporarily improve mood
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Anhedonia (Pathognomonic for Depression):}
+\begin{itemize}
+    \item \textbf{Depression}: Loss of interest or pleasure in previously enjoyed activities (anhedonia is a core feature)
+    \item \textbf{ME/CFS}: Patients \textit{want} to do activities but are physically unable; they retain interest but lack capacity
+\end{itemize}
+
+\paragraph{Effort vs.\ Performance:}
+\begin{itemize}
+    \item \textbf{Depression}: Reduced effort (``I don't feel like doing this''), but if motivation can be mustered, performance is intact
+    \item \textbf{ME/CFS}: Normal or increased effort with reduced performance (``I'm trying as hard as I can but my body won't do it'')
+\end{itemize}
+
+\paragraph{Objective Biomarkers:}
+\begin{itemize}
+    \item \textbf{Two-day CPET}: ME/CFS shows failure to reproduce VO₂max on Day 2; depression does not
+    \item \textbf{Orthostatic intolerance}: Objective POTS/NMH on testing supports ME/CFS
+    \item \textbf{Inflammatory markers}: Heng panel, cytokine signatures abnormal in ME/CFS
+\end{itemize}
+
+\paragraph{Comorbid Depression in ME/CFS:}
+Many ME/CFS patients develop \textbf{reactive depression} (consequence of severe disability, loss of career/social life). This is distinct from primary depression:
+\begin{itemize}
+    \item Reactive depression: Depression began \textit{after} ME/CFS onset; patient grieves loss of function
+    \item Primary depression: Depression preceded fatigue; fatigue is a symptom of depression
+\end{itemize}
+
+Treating comorbid depression in ME/CFS is appropriate and may improve quality of life, but antidepressants do not cure ME/CFS.
+\end{observation}
+
+\subsection{Comorbid Conditions vs.\ Alternative Diagnoses}
+
+\begin{observation}[The ME/CFS Septad]
+\label{obs:mecfs-septad}
+Several conditions frequently co-occur with ME/CFS at rates far exceeding chance, suggesting shared pathophysiology:
+
+\begin{enumerate}
+    \item \textbf{ME/CFS} (Myalgic Encephalomyelitis/Chronic Fatigue Syndrome)
+    \item \textbf{Fibromyalgia}: Widespread pain with tender points (30--70\% of ME/CFS patients)
+    \item \textbf{POTS} (Postural Orthostatic Tachycardia Syndrome): (70--90\% of ME/CFS patients)
+    \item \textbf{MCAS} (Mast Cell Activation Syndrome): Histamine-mediated symptoms (estimates 10--50\%)
+    \item \textbf{hEDS} (Hypermobile Ehlers-Danlos Syndrome): Joint hypermobility (higher in ME/CFS than general population)
+    \item \textbf{IBS} (Irritable Bowel Syndrome): Functional GI symptoms (30--50\% of ME/CFS patients)
+    \item \textbf{IC} (Interstitial Cystitis): Bladder pain, urinary frequency
+\end{enumerate}
+
+\paragraph{Clinical Implication:}
+These conditions are \textbf{comorbidities}, not alternative diagnoses. Their presence does NOT exclude ME/CFS. In fact, meeting criteria for multiple septad conditions strengthens the ME/CFS diagnosis and suggests common underlying mechanisms (autonomic dysfunction, small fiber neuropathy, immune activation).
+\end{observation}
+
+\subsection{Diagnostic Algorithm}
+
+\begin{observation}[Decision Tree for ME/CFS Diagnosis]
+\label{obs:diagnostic-algorithm}
+
+\begin{enumerate}
+    \item \textbf{Step 1: Screen for post-exertional malaise}
+    \begin{itemize}
+        \item If PEM absent → Consider alternative diagnosis (depression, deconditioning, other fatiguing condition)
+        \item If PEM present → Proceed to Step 2
+    \end{itemize}
+
+    \item \textbf{Step 2: Rule out exclusions via laboratory testing}
+    \begin{itemize}
+        \item CBC, CMP, TSH/free T4, ESR/CRP, ANA, vitamin D, B12, sleep study
+        \item If positive finding that fully explains symptoms → Treat that condition
+        \item If tests normal or findings insufficient to explain severity → Proceed to Step 3
+    \end{itemize}
+
+    \item \textbf{Step 3: Assess duration and functional impact}
+    \begin{itemize}
+        \item Duration $\geq 6$ months? (or $\geq 3$ months in severe pediatric cases)
+        \item Substantial functional impairment?
+        \item If yes to both → Proceed to Step 4
+    \end{itemize}
+
+    \item \textbf{Step 4: Apply diagnostic criteria}
+    \begin{itemize}
+        \item Use Canadian Consensus, IOM, or ICC criteria
+        \item All require: PEM, unrefreshing sleep, multi-system symptoms
+        \item If criteria met → Diagnose ME/CFS
+    \end{itemize}
+
+    \item \textbf{Step 5: Assess for comorbidities}
+    \begin{itemize}
+        \item Screen for septad conditions (fibromyalgia, POTS, MCAS, hEDS, IBS)
+        \item Document which conditions are present (multi-label classification)
+        \item These do not exclude ME/CFS; they inform treatment strategy
+    \end{itemize}
+
+    \item \textbf{Step 6: Biological phenotyping (if resources permit)}
+    \begin{itemize}
+        \item Apply Tier 2 framework: assess autoimmune, mitochondrial, neuroinflammatory, dysautonomia, endothelial domains
+        \item Guide treatment stratification
+    \end{itemize}
+
+    \item \textbf{Step 7: Risk stratification}
+    \begin{itemize}
+        \item Apply Tier 3 RED FLAG criteria
+        \item If $\geq 2$ RED FLAGS → Emergency intervention protocol
+    \end{itemize}
+\end{enumerate}
+\end{observation}
+
+\subsection{When to Reconsider the Diagnosis}
+
+\begin{warning}[Red Flags Suggesting Alternative Diagnosis]
+\label{warn:reconsider-diagnosis}
+ME/CFS diagnosis should be reconsidered if:
+\begin{itemize}
+    \item \textbf{New focal neurological signs}: Weakness, sensory loss, visual changes (suggests MS, tumor, stroke)
+    \item \textbf{Fever, night sweats, unintentional weight loss}: Suggests infection, malignancy, autoimmune disease
+    \item \textbf{Rapid progression over weeks}: ME/CFS typically progresses over months to years; rapid worsening suggests acute process
+    \item \textbf{Lack of PEM}: If re-evaluation reveals no true post-exertional malaise, reconsider alternative diagnoses
+    \item \textbf{Complete resolution with psychiatric treatment}: If depression treatment alone fully resolves ``fatigue,'' the diagnosis was likely primary depression, not ME/CFS
+\end{itemize}
+\end{warning}
