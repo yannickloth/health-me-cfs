@@ -41,6 +41,7 @@ This project uses custom subagents in `.claude/agents/`. Claude automatically de
 | `dictionary-manager` | haiku | LTeX warnings, medical terminology false positives |
 | `template-advisor` | haiku | Choosing LaTeX environments, deciding template vs. project-specific |
 | `chapter-integrator` | haiku | Editing chapter files to add citations from integrated papers |
+| `protocol-linker` | sonnet | Cross-referencing new literature to existing content, updating Ch14a/14b protocols |
 | `content-reviewer` | sonnet | Checking consistency, completeness, section coherence |
 | `style-naturalizer` | sonnet | AI-sounding text needs humanizing |
 | `literature-researcher` | sonnet | Finding citations, verifying claims against research |

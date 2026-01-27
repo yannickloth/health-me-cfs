@@ -24,6 +24,7 @@ This workflow coordinates multiple specialized agents to:
 - `literature-researcher` (search)
 - `literature-manager` (download, organize, bibliography, appendix)
 - `chapter-integrator` (edit chapter files)
+- `protocol-linker` (cross-references + protocol updates)
 - `scientific-insight-generator` (creative analysis)
 - `syntax-fixer` (verify build)
 
@@ -334,6 +335,74 @@ contents/part4-research/ch22-mechanistic-studies.tex
 - Re-run Phase 4 for that paper specifically
 - Maximum retries: 2
 - After 2 retries: Escalate to user
+
+---
+
+### Phase 4.5: Cross-References & Protocol Updates
+
+**4.5.1 Spawn protocol-linker agent**
+
+For each paper successfully integrated in Phase 4:
+
+**Task:**
+```
+Link paper to existing document content and update protocols:
+Paper: Literature/[category]/[Author]_[Year]/
+Citation key: [Key]
+Primary chapter(s): [chapters from Phase 4]
+Paper category: [biomarkers/pathophysiology/treatments/etc]
+
+Create bidirectional cross-references and evaluate Ch14a/14b for protocol updates.
+```
+
+**Expected output:**
+- Cross-references between pathophysiology and treatment chapters
+- Protocol updates in Ch14a (severe) if clinically relevant
+- Protocol updates in Ch14b (moderate) if clinically relevant
+- Linking report
+
+**Verification:**
+```bash
+# Check cross-references were added (pathophysiology → treatment)
+grep -r "ref{ch:.*treatment\|ref{sec:.*protocol\|ref{ch:supplements" contents/part2-pathophysiology/*.tex
+
+# Check cross-references were added (treatment → pathophysiology)
+grep -r "ref{ch:.*metabolism\|ref{ch:.*immune\|ref{sec:.*mechanism" contents/part3-treatment/*.tex
+
+# Check if protocol chapters were updated (if applicable)
+grep "cite{CITATION_KEY}" contents/part3-treatment/ch14a-urgent-action-severe.tex
+grep "cite{CITATION_KEY}" contents/part3-treatment/ch14b-action-mild-moderate.tex
+```
+
+**If verification shows no cross-references:**
+- Evaluate if finding was too narrow for cross-referencing
+- Accept if paper only relevant to single chapter
+- If cross-references were expected but missing, retry with explicit targets
+
+**4.5.2 Aggregate protocol linking report**
+
+After all papers processed:
+
+```markdown
+## Protocol Linking Summary
+
+### Cross-References Created
+| Paper | From Chapter | To Chapter | Type |
+|-------|--------------|------------|------|
+| Che2025 | ch07-immune | ch14a | mechanism→protocol |
+| Che2025 | ch16-supplements | ch07 | treatment→mechanism |
+| Wang2023 | ch06-energy | ch14a | mechanism→protocol |
+
+### Protocol Updates Made
+| Paper | Chapter | Section | Change Type |
+|-------|---------|---------|-------------|
+| Che2025 | ch14a | immune protocol | Added evidence reference |
+| Wang2023 | ch14a | metabolic protocol | Strengthened recommendation |
+
+### No Protocol Update Needed
+- [Paper X]: Finding is mechanistic only, no treatment implications
+- [Paper Y]: Already covered by existing protocols
+```
 
 ---
 
