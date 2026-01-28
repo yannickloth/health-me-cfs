@@ -21,11 +21,11 @@
     "infolead-latex-templates": {
       "flake": false,
       "locked": {
-        "lastModified": 1769169151,
-        "narHash": "sha256-WDUE3HiVg7rMV6afi0z+ubsdA28jZhuM4zgM1Iwydx0=",
+        "lastModified": 1769176277,
+        "narHash": "sha256-tJmqnUeUSQZ0SdAzFyoA+iyBdAJRYAW3mIFCm0WUrn4=",
         "owner": "yannickloth",
         "repo": "infolead-latex-templates",
-        "rev": "15d4c238a3156cce90ae1c347cb0a8318821d235",
+        "rev": "3b3698b561a314097efbd7c07467f17fe57f0e73",
         "type": "github"
       },
       "original": {
@@ -36,11 +36,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1768564909,
-        "narHash": "sha256-Kell/SpJYVkHWMvnhqJz/8DqQg2b6PguxVWOuadbHCc=",
+        "lastModified": 1769170682,
+        "narHash": "sha256-oMmN1lVQU0F0W2k6OI3bgdzp2YOHWYUAw79qzDSjenU=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e4bae1bd10c9c57b2cf517953ab70060a828ee6f",
+        "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
         "type": "github"
       },
       "original": {
