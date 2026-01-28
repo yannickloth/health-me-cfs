@@ -1,0 +1,299 @@
+% Figure: Hypovolemia Pathophysiology in ME/CFS
+% Comprehensive cascade showing mechanisms, feedback loops, and consequences
+% Color coding: GREEN=HIGH certainty, YELLOW=MEDIUM certainty, RED=LOW/research gap
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=2.0cm,
+    scale=0.53, every node/.style={scale=0.53},
+    % HIGH certainty (replicated studies) - GREEN
+    high/.style={draw=green!70!black, fill=green!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    high-wide/.style={draw=green!70!black, fill=green!15, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1cm},
+    % MEDIUM certainty (single studies, awaiting replication) - YELLOW
+    medium/.style={draw=yellow!70!black, fill=yellow!20, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    medium-wide/.style={draw=yellow!70!black, fill=yellow!20, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1cm},
+    % LOW certainty / research gap - RED
+    low/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    % Process/condition nodes
+    process/.style={draw=blue!60!black, fill=blue!10, very thick, rounded corners, text width=3cm, align=center, minimum height=0.9cm},
+    % Outcome nodes
+    outcome/.style={draw=purple!60!black, fill=purple!15, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.9cm},
+    % Central convergence
+    central/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm, drop shadow},
+    % Arrow styles
+    arrow/.style={-latex, very thick, black!70, line width=1.2pt},
+    feedback/.style={-latex, thick, orange!80!black, dashed, line width=1.1pt},
+    cascade/.style={-latex, thick, purple!70!black, line width=1pt},
+    % Chapter reference style
+    chapref/.style={font=\scriptsize\sffamily, gray!60!black},
+    % Note style
+    note/.style={font=\scriptsize\itshape, text width=2cm, align=center},
+]
+
+% ============================================================
+% TITLE
+% ============================================================
+\node[font=\large\bfseries, red!70!black] at (0, 12) {Hypovolemia Pathophysiology in ME/CFS};
+
+% ============================================================
+% UPSTREAM TRIGGER (TOP)
+% ============================================================
+\node[low, text width=5cm] (trigger) at (0, 10) {
+    \textbf{Viral Infection /}\\
+    \textbf{Immune Activation}\\[2pt]
+    {\scriptsize (Triggering mechanism unclear)}
+};
+\node[chapref, right=0.3cm of trigger] {Ch5, Ch7};
+
+% ============================================================
+% THREE PARALLEL MECHANISMS (MIDDLE LEVEL)
+% ============================================================
+
+% --- MECHANISM 1: Autonomic/RAAS (LEFT) ---
+\begin{scope}[xshift=-5.5cm]
+    \node[low, text width=3.5cm] (autonomic) at (0, 7.5) {
+        \textbf{Autonomic}\\
+        \textbf{Dysregulation}\\[2pt]
+        {\scriptsize Central cause unknown}
+    };
+    \node[chapref, left=0.2cm of autonomic] {Ch8, Ch10};
+
+    \node[high, text width=3.5cm] (raas) at (0, 5) {
+        \textbf{RAAS Suppression}\\[2pt]
+        Renin $\downarrow$\\
+        Aldosterone \textbf{$-$34\%}\\
+        {\scriptsize (Miwa 2017, Raj 2005)}
+    };
+    \node[chapref, left=0.2cm of raas] {Ch10};
+
+    \node[high, text width=3.5cm] (sodium) at (0, 2.5) {
+        \textbf{Sodium/Water}\\
+        \textbf{Retention Failure}\\[2pt]
+        {\scriptsize Impaired volume}\\
+        {\scriptsize defense}
+    };
+
+    \draw[arrow] (autonomic) -- (raas);
+    \draw[arrow] (raas) -- (sodium);
+\end{scope}
+
+% --- MECHANISM 2: Natriuretic Peptides (CENTER) ---
+\begin{scope}[xshift=0cm]
+    \node[medium, text width=3.5cm] (bnp-trigger) at (0, 7.5) {
+        \textbf{Cardiac Stress}\\
+        \textbf{Signaling}\\[2pt]
+        {\scriptsize Paradoxical response}
+    };
+
+    \node[medium, text width=3.5cm] (bnp) at (0, 5) {
+        \textbf{BNP Dysregulation}\\[2pt]
+        BNP $\uparrow$ despite\\
+        low cardiac volume\\
+        {\scriptsize (Inappropriate natriuresis)}
+    };
+    \node[chapref, right=0.2cm of bnp] {Ch10};
+
+    \node[medium, text width=3.5cm] (diuresis) at (0, 2.5) {
+        \textbf{Natriuresis /}\\
+        \textbf{Diuresis}\\[2pt]
+        {\scriptsize Excessive sodium}\\
+        {\scriptsize \& water loss}
+    };
+
+    \draw[arrow] (bnp-trigger) -- (bnp);
+    \draw[arrow] (bnp) -- (diuresis);
+\end{scope}
+
+% --- MECHANISM 3: Endothelial/Capillary Leak (RIGHT) ---
+\begin{scope}[xshift=5.5cm]
+    \node[high, text width=3.8cm] (endothelial) at (0, 7.5) {
+        \textbf{Endothelial}\\
+        \textbf{Dysfunction}\\[2pt]
+        FMD: \textbf{5.1\%} vs 8.2\%\\
+        {\scriptsize (Scherbakov 2020)}
+    };
+    \node[chapref, right=0.2cm of endothelial] {Ch7, Ch12};
+
+    \node[high, text width=3.8cm] (mediators) at (0, 5) {
+        \textbf{Inflammatory}\\
+        \textbf{Mediators}\\[2pt]
+        Bradykinin $\uparrow$\\
+        Histamine $\uparrow$, TNF-$\alpha$ $\uparrow$
+    };
+    \node[chapref, right=0.2cm of mediators] {Ch7};
+
+    \node[medium, text width=3.8cm] (leak) at (0, 2.5) {
+        \textbf{Capillary Leak}\\[2pt]
+        {\scriptsize Plasma extravasation}\\
+        {\scriptsize (Quantification pending)}
+    };
+
+    \draw[arrow] (endothelial) -- (mediators);
+    \draw[arrow] (mediators) -- (leak);
+\end{scope}
+
+% Arrows from trigger to mechanisms
+\draw[arrow] (trigger.south) -- ++(0,-0.5) -| (autonomic.north);
+\draw[arrow] (trigger.south) -- (bnp-trigger.north);
+\draw[arrow] (trigger.south) -- ++(0,-0.5) -| (endothelial.north);
+
+% ============================================================
+% CONVERGENCE: PLASMA VOLUME REDUCTION
+% ============================================================
+\node[central] (hypovolemia) at (0, 0) {
+    \textbf{PLASMA VOLUME}\\
+    \textbf{REDUCTION}\\[3pt]
+    \textbf{$-$10\% to $-$21\%}\\[2pt]
+    {\scriptsize (Raj 2005, van Campen 2018)}
+};
+\node[chapref, right=0.3cm of hypovolemia] {Ch10, Ch12};
+
+% Arrows converging to hypovolemia
+\draw[arrow] (sodium.south) -- ++(0,-0.3) -| ([xshift=-1.5cm]hypovolemia.north);
+\draw[arrow] (diuresis.south) -- (hypovolemia.north);
+\draw[arrow] (leak.south) -- ++(0,-0.3) -| ([xshift=1.5cm]hypovolemia.north);
+
+% ============================================================
+% CARDIAC CONSEQUENCES (LOWER)
+% ============================================================
+\node[high, text width=3.8cm] (preload) at (-4.5, -2.8) {
+    \textbf{Reduced Cardiac}\\
+    \textbf{Preload}\\[2pt]
+    {\scriptsize Venous return $\downarrow$}
+};
+
+\node[high, text width=3.8cm] (stroke) at (0, -2.8) {
+    \textbf{Reduced Stroke}\\
+    \textbf{Volume}\\[2pt]
+    {\scriptsize Frank-Starling}\\
+    {\scriptsize mechanism}
+};
+
+\node[high, text width=3.8cm] (cardiac) at (4.5, -2.8) {
+    \textbf{Reduced Cardiac}\\
+    \textbf{Output}\\[2pt]
+    {\scriptsize (Reduced preload $\to$}\\
+    {\scriptsize reduced CO)}
+};
+\node[chapref, right=0.2cm of cardiac] {Ch10};
+
+\draw[cascade] (hypovolemia) -- (preload);
+\draw[cascade] (hypovolemia) -- (stroke);
+\draw[cascade] (hypovolemia) -- (cardiac);
+\draw[cascade] (preload) -- (stroke);
+\draw[cascade] (stroke) -- (cardiac);
+
+% ============================================================
+% CLINICAL MANIFESTATIONS (BOTTOM)
+% ============================================================
+\node[outcome] (oi) at (-5.5, -5.5) {
+    \textbf{Orthostatic}\\
+    \textbf{Intolerance}\\[2pt]
+    {\scriptsize POTS, OH}
+};
+\node[chapref, below=0.1cm of oi] {Ch10};
+
+\node[outcome] (exercise) at (-1.8, -5.5) {
+    \textbf{Exercise}\\
+    \textbf{Intolerance}\\[2pt]
+    {\scriptsize VO$_2$max $\downarrow$}
+};
+\node[chapref, below=0.1cm of exercise] {Ch12};
+
+\node[outcome] (fatigue) at (1.8, -5.5) {
+    \textbf{Fatigue}\\[2pt]
+    {\scriptsize Tissue hypoxia}
+};
+\node[chapref, below=0.1cm of fatigue] {Ch5};
+
+\node[outcome] (pem) at (5.5, -5.5) {
+    \textbf{PEM}\\[2pt]
+    {\scriptsize Delayed crash}\\
+    {\scriptsize after exertion}
+};
+\node[chapref, below=0.1cm of pem] {Ch5, Ch6};
+
+\draw[cascade] (cardiac) -- ++(0,-0.8) -| (oi);
+\draw[cascade] (cardiac) -- ++(0,-0.8) -| (exercise);
+\draw[cascade] (cardiac) -- ++(0,-0.8) -| (fatigue);
+\draw[cascade] (cardiac) -- ++(0,-0.8) -| (pem);
+
+% ============================================================
+% FEEDBACK LOOPS (CURVED ARROWS)
+% ============================================================
+
+% LOOP 1: Hypovolemia → Sympathetic activation → Catecholamine insufficiency → RAAS failure
+\node[process, text width=2.8cm] (sympathetic) at (-9, 3) {
+    \textbf{Sympathetic}\\
+    \textbf{Activation}\\[2pt]
+    {\scriptsize Compensatory}
+};
+\node[low, text width=2.8cm] (insufficiency) at (-9, 0.5) {
+    \textbf{Catecholamine}\\
+    \textbf{Insufficiency}\\[2pt]
+    {\scriptsize (Strahler 2013)}
+};
+\draw[feedback, bend right=20] (hypovolemia.west) to node[note, left, xshift=-0.2cm] {Loop 1} (sympathetic.south);
+\draw[feedback] (sympathetic) -- (insufficiency);
+\draw[feedback, bend right=25] (insufficiency.north) to (raas.west);
+
+% LOOP 2: Hypovolemia → Reduced CBF → Impaired autonomic centers
+\node[high, text width=2.8cm] (cbf) at (9, 5) {
+    \textbf{Reduced}\\
+    \textbf{Cerebral Blood}\\
+    \textbf{Flow}\\[2pt]
+    {\scriptsize (van Campen 2020)}
+};
+\node[chapref, right=0.1cm of cbf] {Ch8};
+
+\node[low, text width=2.8cm] (braincenters) at (9, 2.5) {
+    \textbf{Impaired}\\
+    \textbf{Autonomic}\\
+    \textbf{Centers}\\[2pt]
+    {\scriptsize Brainstem}
+};
+\draw[feedback, bend left=15] (hypovolemia.east) to node[note, right, xshift=0.2cm] {Loop 2} (cbf.south);
+\draw[feedback] (cbf) -- (braincenters);
+\draw[feedback, bend left=20] (braincenters.north) to (autonomic.east);
+
+% LOOP 3: Orthostatic stress → Mast cell activation → Capillary leak
+\node[medium, text width=2.8cm] (mast) at (9, -2) {
+    \textbf{Mast Cell}\\
+    \textbf{Activation}\\[2pt]
+    {\scriptsize Histamine release}
+};
+\node[chapref, right=0.1cm of mast] {Ch7};
+\draw[feedback, bend left=20] (oi.east) to node[note, below right, yshift=-0.3cm] {Loop 3} (mast.south);
+\draw[feedback, bend left=35] (mast.north) to (leak.east);
+
+% LOOP 4: Sustained immune activation → Cytokines → Endothelial dysfunction
+\node[high, text width=2.8cm] (cytokines) at (-9, 7) {
+    \textbf{Sustained}\\
+    \textbf{Cytokine}\\
+    \textbf{Elevation}\\[2pt]
+    {\scriptsize IL-1, IL-6, TNF}
+};
+\node[chapref, left=0.1cm of cytokines] {Ch7};
+\draw[feedback, bend right=15] (trigger.west) to node[note, left, xshift=-0.2cm] {Loop 4} (cytokines.east);
+\draw[feedback, bend right=30] (cytokines.south) to (endothelial.west);
+
+% ============================================================
+% LEGEND
+% ============================================================
+\node[draw=black!50, fill=white, rounded corners, inner sep=8pt,
+      text width=11cm, align=left, font=\small] at (0, -8.5) {
+    \textbf{Certainty Legend:}\\[4pt]
+    \tikz{\node[high, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {HIGH};}
+    Replicated across multiple studies (RAAS suppression, plasma volume, endothelial dysfunction)\\[2pt]
+    \tikz{\node[medium, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {MED};}
+    Single studies or awaiting replication (BNP mechanism, capillary leak quantification)\\[2pt]
+    \tikz{\node[low, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {LOW};}
+    Research gap / mechanism unclear (central autonomic cause, triggering mechanism)\\[6pt]
+    \textbf{Key References:} Ch5 (Clinical), Ch6 (Energy), Ch7 (Immune), Ch8 (Neurological), Ch10 (Cardiovascular), Ch12 (Exercise)
+};
+
+\end{tikzpicture}
+{\caption{\parbox{0.9\linewidth}{Hypovolemia mechanisms in ME/CFS. Three pathways (autonomic dysregulation, natriuretic peptide excess, endothelial dysfunction) converge to reduce plasma volume (10--21\%) and cardiac output. Four feedback loops perpetuate dysfunction. Colors: green = high certainty, yellow = medium, red = low/gap.}}}
+\label{fig:hypovolemia-mechanisms}
+\end{figure}

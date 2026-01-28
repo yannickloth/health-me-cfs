@@ -198,6 +198,8 @@
 
 % =============================================================================
 % PART I: CLINICAL OVERVIEW
+% Contents: definition, epidemiology, symptoms, diagnosis, disease progression
+% Key topics: case definitions, core vs additional symptoms, diagnostic criteria, prognosis
 % =============================================================================
 \include{contents/part1-clinical/part1-intro}
 \include{contents/part1-clinical/ch01-introduction}
@@ -208,6 +210,9 @@
 
 % =============================================================================
 % PART II: PATHOPHYSIOLOGY AND BIOLOGICAL MECHANISMS
+% Contents: proposed mechanisms, biomarkers, systems-level dysfunction
+% Key topics: mitochondrial, immune, neurological, endocrine, cardiovascular, microbiome, genetics, integrative models
+% Dependencies: build on Part I understanding of symptoms
 % =============================================================================
 \include{contents/part2-pathophysiology/part2-intro}
 \include{contents/part2-pathophysiology/ch06-energy-metabolism}
@@ -222,6 +227,9 @@
 
 % =============================================================================
 % PART III: TREATMENT AND MANAGEMENT
+% Contents: clinical management strategies, pharmacological, behavioral, emerging treatments
+% Key topics: symptom management, medications, supplements, pacing, emerging therapies, integrative care
+% Dependencies: assumes understanding of pathophysiology; urgent protocols separate from standard management
 % =============================================================================
 \include{contents/part3-treatment/part3-intro}
 \include{contents/part3-treatment/ch14-symptom-management}
@@ -235,6 +243,9 @@
 
 % =============================================================================
 % PART IV: RESEARCH AND EVIDENCE SYNTHESIS
+% Contents: current research landscape, biomarkers, clinical trials, mechanistic studies
+% Key topics: objective biomarkers, trial design, research controversies, translation to clinical practice
+% Dependencies: builds on pathophysiology; evidence-heavy, integrates literature
 % =============================================================================
 \include{contents/part4-research/part4-intro}
 \include{contents/part4-research/ch20-biomarker-research}
@@ -246,6 +257,9 @@
 
 % =============================================================================
 % PART V: MATHEMATICAL AND COMPUTATIONAL MODELING
+% Contents: formal causal/quantitative models, system dynamics, predictive frameworks
+% Key topics: EPC/BPMN formalization, energy metabolism dynamics, immune interactions, temporal evolution, clinical prediction
+% Dependencies: requires pathophysiology knowledge; extensive use of formalization environments; model-heavy with LaTeX/TikZ
 % =============================================================================
 \include{contents/part5-modeling/part5-intro}
 \include{contents/part5-modeling/ch26-modeling-foundations}
@@ -258,22 +272,32 @@
 
 % =============================================================================
 % APPENDICES
+% Reference materials, patient case data, research synthesis
+% A-H: General reference (terminology, tools, resources)
+% I-*: Personal case data (symptoms, medical history, clinical findings, analysis)
+% J: Daily journal/tracking (see case-documenter agent for updates)
 % =============================================================================
 \appendix
 
-\include{contents/appendices/appendix-a-terminology}
-\include{contents/appendices/appendix-b-abbreviations}
-\include{contents/appendices/appendix-c-diagnostic-tools}
-\include{contents/appendices/appendix-d-resources}
-\include{contents/appendices/appendix-e-mathematical-details}
-\include{contents/appendices/appendix-f-supplement-guide}
-\include{contents/appendices/appendix-g-research-synthesis}
-\include{contents/appendices/appendix-h-annotated-bibliography}
-\include{contents/appendices/appendix-i-personal-symptoms}
-\include{contents/appendices/appendix-i-a-medical-management}
-\include{contents/appendices/appendix-i-b-clinical-findings}
-\include{contents/appendices/appendix-i-c-case-analysis}
-\include{contents/appendices/appendix-j-daily-journal}
+% General reference materials
+\include{contents/appendices/appendix-a-terminology}      % Glossary, definitions, medical terms
+\include{contents/appendices/appendix-b-abbreviations}    % Acronyms, shorthand notation
+\include{contents/appendices/appendix-c-diagnostic-tools} % Assessment instruments, diagnostic tests
+\include{contents/appendices/appendix-d-resources}        % Support organizations, references
+\include{contents/appendices/appendix-e-mathematical-details} % Equations, proofs, derivations
+\include{contents/appendices/appendix-f-supplement-guide} % Supplement protocols, dosages
+\include{contents/appendices/appendix-g-research-synthesis} % Literature review, evidence summary
+\include{contents/appendices/appendix-h-annotated-bibliography} % Key references with summaries
+
+% Personal case data (patient-specific)
+\include{contents/appendices/appendix-i-personal-symptoms} % Case summary, symptom overview
+\include{contents/appendices/appendix-i-a-medical-management} % Medical history, treatments
+\include{contents/appendices/appendix-i-b-clinical-findings} % Test results, assessments
+\include{contents/appendices/appendix-i-c-case-analysis}   % Pattern analysis, interpretation
+
+% Daily tracking
+\include{contents/appendices/appendix-j-daily-journal}    % Daily symptom log, tracking data
+\include{contents/appendices/appendix-j-recommendations}  % Clinical recommendations summary
 
 % Bibliography
 \printbibliography[heading=bibintoc]
