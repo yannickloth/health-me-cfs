@@ -28,7 +28,10 @@
       "Bash(test:*)",
       "Bash(git push:*)",
       "Read(//home/nicky/code/causal-graph-theory/**)",
-      "Bash(file:*)"
+      "Bash(file:*)",
+      "Bash(command:*)",
+      "Bash(pdftoppm:*)",
+      "Bash(mutool draw:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
