@@ -24,7 +24,7 @@ In healthy individuals, reduced blood volume triggers compensatory activation of
 - **Raj 2005**: Blood volume ↓17%, plasma volume ↓21% (p<0.0001), yet aldosterone LOW (p=0.01)
 - **Mustafa 2011**: Ang II elevated (compensatory), but ACE2 activity reduced (p=0.038)
 
-**Implication:** Hypovolemia results from **central dysregulation** of volume-regulatory hormones, not excessive fluid loss.
+**Implication:** The evidence suggests hypovolemia most likely results from **central dysregulation** of volume-regulatory hormones rather than excessive fluid loss, though the precise mechanism of this dysregulation remains unknown.
 
 ---
 
@@ -41,10 +41,10 @@ In healthy individuals, reduced blood volume triggers compensatory activation of
 | ADH/Vasopressin | ↑ in hypovolemia | LOW (↓33%, p=0.02) | Miwa 2017 |
 
 ### Interpretation
-- **Elevated Ang II** suggests compensatory attempt to maintain blood pressure
-- **Reduced aldosterone** despite high Ang II indicates **aldosterone synthesis/secretion defect**
+- **Elevated Ang II** suggests a compensatory attempt to maintain blood pressure
+- **Reduced aldosterone** despite high Ang II is consistent with an **aldosterone synthesis/secretion defect** (though the specific molecular mechanism remains unidentified)
 - **Low ADH** compounds volume deficit through inadequate water retention
-- **Reduced ACE2** may prolong Ang II effects, contributing to vasoconstriction and NO dysfunction
+- **Reduced ACE2** may prolong Ang II effects, potentially contributing to vasoconstriction and NO dysfunction
 
 ### Certainty Assessment
 - **High certainty**: RAAS suppression replicated across multiple studies
@@ -95,7 +95,7 @@ In healthy individuals, reduced blood volume triggers compensatory activation of
 - High BNP (>400 pg/mL) → LOWER cardiac volumes (p=0.05)
 - **Paradox**: BNP usually indicates volume overload, but here associates with reduced volumes
 
-**Interpretation**: BNP elevation reflects **cardiac wall stress** from chronic underfilling, not fluid retention.
+**Interpretation**: BNP elevation may reflect **cardiac wall stress** from chronic underfilling rather than fluid retention, though the paradoxical elevation despite reduced cardiac volumes remains mechanistically unexplained.
 
 ### Certainty Assessment
 - **High certainty**: Cardiac volume reduction is primary, not secondary to deconditioning
@@ -368,22 +368,112 @@ In healthy individuals, reduced blood volume triggers compensatory activation of
 
 ---
 
+## Alternative Hypotheses and Competing Mechanisms
+
+While the proposed integrated model (RAAS suppression + natriuretic peptide dysregulation + capillary leak → hypovolemia → symptoms) explains the available evidence, alternative mechanisms warrant consideration:
+
+### Alternative 1: Erythropoietin Suppression as Primary Mechanism
+
+**Hypothesis:** Cytokine-mediated suppression of erythropoietin (EPO) and erythropoiesis causes anemia, which produces fatigue and exercise intolerance independent of blood volume loss.
+
+**Evidence supporting:**
+- Cytokines (IL-6, TNF-α, IFN-γ) suppress EPO production and erythroid differentiation (Morceau 2009, McCranor 2014, Fraenkel 2017)
+- ME/CFS patients show elevated cytokines (Hornig 2015)
+- RBC deformability reduced (Saha 2019), impairing oxygen delivery even with normal RBC count
+- Inflammatory anemia pattern observed (Świątczak 2022)
+
+**Evidence against:**
+- Winkler 2004 found EPO levels within normal range in ME/CFS patients (though "normal" may be inappropriately low given context)
+- Blood volume deficits are documented by gold-standard measurement (Raj 2005), not just inferred from symptoms
+- Hemoglobin levels typically normal or near-normal in ME/CFS, not frankly anemic
+
+**Verdict:** EPO suppression and RBC dysfunction likely **contribute to** oxygen delivery deficits but do not fully explain documented plasma volume reductions. Both mechanisms may operate in parallel.
+
+### Alternative 2: Mitochondrial Dysfunction as Primary Cause
+
+**Hypothesis:** Primary mitochondrial dysfunction impairs cellular ATP production in multiple tissues (kidney, adrenal, cardiac myocytes), with hypovolemia arising secondarily from metabolic failure of volume-regulatory organs.
+
+**Evidence supporting:**
+- Mitochondrial dysfunction documented in ME/CFS (see Ch06)
+- Renal tubular cells require high ATP for sodium reabsorption; metabolic failure could cause sodium/water loss
+- Adrenal steroid synthesis is ATP-dependent; mitochondrial dysfunction could impair aldosterone production
+- Autonomic neurons have high metabolic demands; mitochondrial dysfunction could impair ANS function
+
+**Evidence against:**
+- No direct evidence that ME/CFS patients have renal or adrenal mitochondrial dysfunction specifically
+- RAAS suppression pattern (low renin, low aldosterone, high Ang II) suggests neuroendocrine dysregulation, not metabolic failure of synthesis machinery
+- Desmopressin response (50% improvement, Miwa 2017) suggests hormone deficiency, not end-organ resistance
+
+**Verdict:** Mitochondrial dysfunction may **contribute to** autonomic and endocrine dysfunction but does not explain the specific pattern of RAAS suppression. More likely, both are consequences of a common upstream mechanism.
+
+### Alternative 3: Autoimmune Attack on RAAS Components
+
+**Hypothesis:** Autoantibodies target adrenal cortex, pituitary, or hypothalamic neurons regulating RAAS, directly impairing hormone production.
+
+**Evidence supporting:**
+- Autoantibodies documented in ME/CFS subset (GPCR antibodies, see Ch07)
+- Autoimmune adrenal insufficiency (Addison's disease) causes similar pattern of low aldosterone
+- Could explain subset with severe RAAS suppression
+
+**Evidence against:**
+- No published studies measuring anti-adrenal antibodies in ME/CFS
+- Primary adrenal insufficiency typically presents with low cortisol AND low aldosterone; ME/CFS cortisol levels are variable
+- Autoimmune mechanism would not explain natriuretic peptide dysregulation or endothelial dysfunction unless multiple autoimmune targets
+
+**Verdict:** Autoimmune mechanism is plausible for a subset but remains speculative without direct antibody measurement. This is a testable hypothesis requiring prospective study.
+
+### Alternative 4: Peripheral vs. Central Dysfunction
+
+**Question:** Is the primary defect central (hypothalamus/pituitary/brainstem) or peripheral (adrenal/kidney)?
+
+**Central hypothesis:**
+- Hypothalamic or brainstem dysfunction impairs central regulation of RAAS and ADH
+- Could be caused by viral infection, inflammation, hypoperfusion, or autoimmunity affecting CNS
+
+**Peripheral hypothesis:**
+- Adrenal cortex fails to produce aldosterone despite appropriate stimulation
+- Juxtaglomerular cells fail to secrete renin despite appropriate sympathetic stimulation
+- End-organ resistance rather than central dysregulation
+
+**Current evidence:**
+- Sympathetic catecholamine responses are blunted during stress (Strahler 2013) → suggests **central** component
+- Ang II is elevated but aldosterone is low (Mustafa 2011) → suggests **adrenal** hyporesponsiveness
+- **Likely answer:** Both central AND peripheral dysfunction coexist
+
+**Verdict:** The pattern suggests multilevel dysregulation. Further research with ACTH stimulation testing and direct hypothalamic imaging is needed.
+
+### Why the Integrated Model is Preferred
+
+The integrated model (immune activation → autonomic dysfunction → RAAS/BNP dysregulation → hypovolemia) is preferred because it:
+
+1. **Explains multiple observations** with a unified framework (RAAS suppression, BNP elevation, endothelial dysfunction)
+2. **Accounts for treatment responses** (desmopressin, fludrocortisone provide partial benefit)
+3. **Integrates across organ systems** (immune, autonomic, cardiovascular, endocrine)
+4. **Explains persistence** via feedback loops that maintain dysfunction
+
+However, the model has **critical gaps** (see below) and cannot exclude alternative mechanisms. Most likely, multiple mechanisms operate in parallel, with variable dominance across patient subgroups.
+
+---
+
 ## Integration with Other ME/CFS Mechanisms
 
 ### Links to Energy Metabolism (Ch06)
-- Reduced blood volume → reduced oxygen delivery → mitochondrial ATP deficit
-- Tissue hypoperfusion → anaerobic metabolism → lactate accumulation
-- RBC dysfunction → impaired O₂ release to tissues
+- Reduced blood volume may contribute to reduced oxygen delivery and mitochondrial ATP deficit
+- Tissue hypoperfusion could promote anaerobic metabolism and lactate accumulation
+- RBC dysfunction may impair O₂ release to tissues
+- **Note:** Causal direction unclear—does hypovolemia cause metabolic dysfunction, or do both result from a common upstream mechanism?
 
 ### Links to Immune Dysfunction (Ch07)
-- Cytokine elevation (IL-6, TNF-α) → suppressed erythropoiesis
-- Immune activation → endothelial activation → vascular dysfunction
-- ? Autoimmune attack on adrenal/RAAS components
+- Cytokine elevation (IL-6, TNF-α documented in Ch07) can suppress erythropoiesis via established mechanisms
+- Immune activation may lead to endothelial activation and vascular dysfunction
+- Autoimmune attack on adrenal/RAAS components is plausible but unproven
+- **CRITICAL GAP:** The mechanism by which immune activation leads to autonomic dysfunction (and thus RAAS suppression) is unknown and represents a major research priority
 
 ### Links to Neurological Dysfunction (Ch08)
-- Cerebral hypoperfusion (documented in ME/CFS) ← reduced cardiac output
-- Central dysregulation of RAAS/ADH (hypothalamic dysfunction?)
-- Autonomic nervous system (ANS) failure to activate RAAS appropriately
+- Cerebral hypoperfusion (documented in ME/CFS, Ch08) correlates with reduced cardiac output
+- Central dysregulation of RAAS/ADH (hypothalamic dysfunction?) is proposed but mechanistically unverified
+- Autonomic nervous system (ANS) failure to appropriately activate RAAS is documented (Strahler 2013), but the cause of ANS dysfunction remains unclear
+- **CRITICAL GAP:** Does ANS dysfunction cause hypovolemia, or does hypovolemia impair ANS regulation? Likely bidirectional, but initiating mechanism unknown
 
 ### Links to Endocrine Dysfunction (Ch09)
 - HPA axis dysfunction → RAAS dysregulation (shared central control)
