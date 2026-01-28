@@ -121,7 +121,7 @@ Subagents have restricted `tools:` to enforce focus:
 
 Multi-step operations are documented in `.claude/workflows/` and loaded on demand.
 
-**Available workflows:** `literature-integration-coordinator`, `literature-integration`, `formalization-pipeline`, `tikz-illustration-pipeline`, `environment-selection`, `pre-commit`, `section-review`, `full-document-review`
+**Available workflows:** `literature-integration`, `formalization-pipeline`, `tikz-illustration-pipeline`, `environment-selection`, `pre-commit`, `section-review`, `full-document-review`
 
 **How to trigger:** Use natural language describing what you want:
 - "find and integrate papers on [topic]"
@@ -185,9 +185,7 @@ This project uses [infolead-latex-templates](infolead-latex-templates/) as a git
 - "Add citations for [claim]"
 - "Search for research on [mechanism]"
 
-**Workflow:** See `.claude/workflows/literature-integration-coordinator.md` for full pipeline (search → download → organize → bibliography → integrate → verify).
-
-**Integration requirements:** See `.claude/workflows/literature-integration.md` for certainty assessment rules, folder structure, integration checklist, and examples.
+**Workflow:** See `.claude/workflows/literature-integration.md` for full pipeline, certainty assessment rules, and examples.
 
 **Key agents:** `literature-integrator`, `chapter-integrator`, `scientific-insight-generator`
 
