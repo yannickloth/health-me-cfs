@@ -100,9 +100,11 @@ This project uses custom subagents in `.claude/agents/`. Claude automatically de
 
 ### Quick Agent Index (Lazy-Load)
 
-**Document Quality:** `syntax-fixer`, `formatting-fixer`, `dictionary-manager`, `template-advisor`, `chapter-integrator`, `protocol-linker`, `content-reviewer`, `style-naturalizer`, `literature-researcher`, `literature-manager`, `scientific-insight-generator`, `math-verifier`, `logic-auditor`
+**Document Quality:** `syntax-fixer`, `formatting-fixer`, `dictionary-manager`, `template-advisor`, `chapter-integrator`, `protocol-linker`, `content-reviewer`, `style-naturalizer`, `literature-integrator`, `scientific-insight-generator`, `math-verifier`, `logic-auditor`
 
-**Illustration:** `tikz-illustrator`, `tikz-validator`
+**Build & Validation:** `test-runner`, `link-checker`, `tikz-validator`, `file-splitter`
+
+**Illustration:** `tikz-illustrator`
 
 **Medical Case:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
 
@@ -187,7 +189,7 @@ This project uses [infolead-latex-templates](infolead-latex-templates/) as a git
 
 **Integration requirements:** See `.claude/workflows/literature-integration.md` for certainty assessment rules, folder structure, integration checklist, and examples.
 
-**Key agents:** `literature-researcher`, `literature-manager`, `chapter-integrator`, `scientific-insight-generator`
+**Key agents:** `literature-integrator`, `chapter-integrator`, `scientific-insight-generator`
 
 ## Medical Case Management System (Lazy-Load)
 
@@ -214,7 +216,7 @@ When working with ME/CFS content:
 
 **Key rules:**
 - Medical terminology → use `dictionary-manager`
-- Clinical claims → require citations via `literature-researcher` + `literature-manager`
+- Clinical claims → require citations via `literature-integrator`
 - Patient data → clearly distinguish from clinical findings
 - Diagnostic criteria → use appropriate theorem-like environments (consult `template-advisor`)
 - Tone → neutral, evidence-based throughout

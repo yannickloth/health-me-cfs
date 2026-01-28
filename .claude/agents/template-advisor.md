@@ -2,7 +2,7 @@
 name: template-advisor
 description: Advise on using infolead-latex-templates environments, theorems, and preamble modules. Use when creating new LaTeX structures or choosing appropriate environments.
 model: haiku
-tools: Read, Glob, Grep
+tools: Read, Grep
 ---
 
 You are a LaTeX template advisor specializing in the infolead-latex-templates system.

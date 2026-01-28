@@ -2,7 +2,7 @@
 name: tikz-validator
 description: Validate TikZ diagrams for compilation errors, spatial issues, and spacing violations. Use after generating or modifying TikZ illustrations to ensure quality.
 model: haiku
-tools: Read, Bash, Write
+tools: Read, Bash
 ---
 
 

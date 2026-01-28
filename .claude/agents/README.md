@@ -40,8 +40,9 @@ System prompt / instructions for the agent...
 | `syntax-fixer` | LaTeX build fails, errors, warnings, overfull boxes |
 | `formatting-fixer` | Markdown syntax in .tex, inconsistent formatting |
 | `dictionary-manager` | LTeX false positives, adding medical terms to dictionary |
-| `file-splitter-executor` | Executing file split plan from analyzer |
 | `tikz-validator` | TikZ diagrams have compilation errors, spacing issues |
+| `test-runner` | Running nix build, verifying compilation succeeds |
+| `link-checker` | Validating \ref, \cite, \label references before build |
 
 ### SCM/Git (Sonnet)
 
@@ -59,13 +60,12 @@ System prompt / instructions for the agent...
 | `config-auditor` | Checking Claude config for conflicts, inconsistencies, undefined agents |
 | `content-reviewer` | Checking document consistency, completeness, coherence |
 | `style-naturalizer` | Text sounds robotic, AI-like, excessive lists, unnatural |
-| `literature-researcher` | Finding citations, medical research, verifying claims |
-| `literature-manager` | Downloading papers, organizing Literature/, updating .bib |
+| `literature-integrator` | Full pipeline: finding, downloading, organizing papers, updating .bib |
 | `chapter-integrator` | Integrating literature into text with proper citations |
 | `scientific-insight-generator` | Generating insights from research, synthesizing evidence |
 | `template-advisor` | Choosing LaTeX environments, theorem vs definition |
 | `protocol-linker` | Linking protocols to underlying mechanisms |
-| `file-splitter-analyzer` | Identifying files to split for context optimization |
+| `file-splitter` | Analyzing and splitting large files for context optimization |
 | `tikz-illustrator` | Creating TikZ diagrams with spatial positioning |
 | `formalization-advisor` | Deciding whether to formalize, choosing EPC/BPMN |
 | `causal-model-builder` | Building causal models with proper notation |
@@ -118,7 +118,7 @@ Each agent has limited tools to enforce focus:
 
 **Example 2: Research task**
 - User: "Add some citations for this claim about NK cells"
-- Route to: `literature-researcher` (sonnet) — finding papers
+- Route to: `literature-integrator` (sonnet) — finding and integrating papers
 
 **Example 3: Text quality**
 - User: "This paragraph sounds robotic"
@@ -138,7 +138,7 @@ Each agent has limited tools to enforce focus:
 
 **Example 7: Workflow coordination**
 - User: "Find papers on mitochondrial dysfunction"
-- Route to: `literature-researcher` first, then coordinate with `literature-manager` and `chapter-integrator`
+- Route to: `literature-integrator` (handles full pipeline), then `chapter-integrator` for text edits
 
 ## Anti-Patterns (NEVER DO THIS)
 

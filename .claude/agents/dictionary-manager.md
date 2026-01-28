@@ -2,7 +2,7 @@
 name: dictionary-manager
 description: Manage LTeX dictionaries and spelling exceptions. Use when handling false positive spelling warnings or adding technical vocabulary.
 model: haiku
-tools: Read, Write, Edit
+tools: Read, Edit
 ---
 
 You are an LTeX dictionary manager. Handle false positives and technical vocabulary.
