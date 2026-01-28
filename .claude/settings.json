@@ -22,7 +22,11 @@
       "Bash(pstree:*)",
       "Bash(tee:*)",
       "Read(//home/nicky/code/health-me-cfs/**)",
-      "Read(//home/nicky/.claude/plans/**)"
+      "Read(//home/nicky/.claude/plans/**)",
+      "Read(//home/nicky/.claude/**)",
+      "Bash(xargs:*)",
+      "Bash(test:*)",
+      "Bash(git push:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
@@ -33,7 +37,10 @@
       "/home/nicky/code/health-me-cfs/figures",
       "/home/nicky/code/health-me-cfs/Literature/pathophysiology/blood-volume",
       "/home/nicky/code/health-me-cfs/.claude/agents",
-      "/tmp"
+      "/tmp",
+      "/home/nicky/code/health-me-cfs/.claude",
+      "/home/nicky/.claude/agents",
+      "/home/nicky/.claude"
     ]
   },
   "hooks": {

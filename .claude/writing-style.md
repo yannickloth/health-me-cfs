@@ -4,6 +4,7 @@ This file contains writing guidelines for LaTeX content. Reference this when gen
 
 ## Core Principles (All Writing)
 
+- **Conciseness**: Favor brevity; eliminate filler words, redundant phrases, and unnecessary elaboration. Every sentence should earn its place.
 - **Intellectual honesty**: Distinguish between intuition and proven fact; acknowledge limitations and uncertainty upfront
 - **Precision without obscurantism**: Use technical terms accurately but remain accessible; choose precise terms for semantic weight, not decoration
 - **No artificial suspense**: Be direct and informative, revealing conclusions and insights as they become relevant rather than withholding information for dramatic effect
@@ -67,6 +68,31 @@ When generating or editing LaTeX content, actively avoid these mechanical patter
 - **Varied transitions**: Use "however," "moreover," "in contrast," "consider also" rather than mechanical enumeration
 - **Reasoning chains**: "If X, then Y. This means Z." rather than bullet points
 - **Integrated examples**: Weave examples into argument flow rather than isolating them in lists
+
+### Transitional phrases and connective tissue
+
+AI-generated prose often lacks the conjunctions and linking phrases that make writing feel natural and cohesive. Each sentence should connect logically to what came before.
+
+**By function:**
+
+- **Addition/continuation**: "Furthermore," "In addition," "Moreover," "Building on this," "Along similar lines,"
+- **Contrast**: "However," "In contrast," "On the other hand," "That said," "Nevertheless," "Conversely,"
+- **Consequence**: "As a result," "Consequently," "This means that," "Therefore," "It follows that,"
+- **Clarification**: "In other words," "Put differently," "To clarify," "Specifically," "More precisely,"
+- **Example**: "For instance," "Consider," "To illustrate," "A concrete example:"
+- **Emphasis**: "Importantly," "Crucially," "The key point is," "What matters here is,"
+- **Concession**: "Admittedly," "Granted," "While it's true that," "Even so,"
+- **Sequence**: "First," "Next," "Finally," "Once this is done," "At this point,"
+
+**Anti-patterns:**
+
+- Choppy sequences of short, disconnected sentences
+- Starting every sentence with the subject (vary sentence structure)
+- Missing the "why" that connects one idea to the next
+- Treating related ideas as isolated facts rather than connected reasoning
+- Overusing "Now," as a transition (AI-typical; "Now" is fine occasionally, but vary with "At this point," "With this in place," "Given this," "Here's," or restructure to avoid repetition)
+
+**Test:** After each sentence, ask "why is the author telling me this now?" If the connection isn't clear, add a transition that makes the logical relationship explicit.
 
 ### When lists ARE appropriate
 

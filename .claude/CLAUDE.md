@@ -94,14 +94,9 @@ A `PostToolUse` hook at `.claude/hooks/context-cost-monitor.sh` provides automat
 
 This project uses custom subagents in `.claude/agents/`. Claude automatically delegates tasks to the appropriate agent based on matching your request to agent descriptions.
 
-**Agent definitions are lazy-loaded on demand.** Full descriptions, capabilities, and models are documented in individual agent files in `.claude/agents/`. When you need an agent:
+**Agent definitions are lazy-loaded on demand.** Full descriptions, capabilities, and models are documented in individual agent files in `.claude/agents/`.
 
-1. **Parse user intent** → identify the task type
-2. **Search agents/** → find matching agent by name/keywords
-3. **Read agent file** → load full description and model
-4. **Delegate immediately** → spawn the appropriate agent
-
-This minimizes base context overhead while preserving full agent documentation for reference.
+**Routing logic is defined in `~/.claude/CLAUDE.md`.** This file only defines available agents — not how to dispatch to them.
 
 ### Quick Agent Index (Lazy-Load)
 
@@ -111,138 +106,7 @@ This minimizes base context overhead while preserving full agent documentation f
 
 **Medical Case:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
 
-**Full details:** See [`.claude/agents/README.md`](.claude/agents/README.md) for agent index with triggers and individual agent files (e.g., `syntax-fixer.md`) for full specifications.
-
-### How It Works
-
-1. You make a request (e.g., "fix the build errors")
-2. Claude matches request to agent `description` fields
-3. Claude spawns the matching subagent with appropriate model
-4. Subagent executes with its restricted toolset
-5. Results return to main conversation
-
-### CRITICAL: Active Request Interpretation
-
-**Claude MUST actively interpret and reformulate user requests to ensure proper agent delegation.**
-
-This is not optional - it is a core requirement of the system:
-
-1. **Parse user intent**: Understand what the user is actually asking for, not just the literal words
-2. **Map to agent capabilities**: Identify which agent(s) can accomplish this task
-3. **Delegate immediately**: Spawn the appropriate agent(s) WITHOUT attempting the task yourself first
-4. **Never skip delegation**: Even if the task seems simple, if an agent exists for it, USE that agent
-
-#### Examples of Required Interpretation
-
-##### Example 1: Specialized agent exists
-
-- **User:** "The build is broken"
-- **Claude interprets:** Build errors → specialized agent exists → `syntax-fixer` (haiku)
-- **✅ Action:** Spawn `syntax-fixer` immediately
-
-##### Example 2: Specialized agent + risk assessment
-
-- **User:** "Add some citations for this claim about NK cells"
-- **Claude interprets:** Finding papers → specialized agent exists → `literature-researcher` (sonnet)
-- **✅ Action:** Spawn `literature-researcher` immediately
-
-##### Example 3: Text quality (specialized)
-
-- **User:** "This paragraph sounds robotic"
-- **Claude interprets:** AI-like text → specialized agent exists → `style-naturalizer` (sonnet)
-- **✅ Action:** Spawn `style-naturalizer` immediately
-
-##### Example 4: General task, simple
-
-- **User:** "Rename all instances of `foo` to `bar` in file X"
-- **Claude interprets:** Simple pattern replacement, explicit file, low risk → `haiku-general`
-- **✅ Action:** Spawn `haiku-general` with clear instructions
-
-##### Example 5: General task, requires judgment
-
-- **User:** "Clean up the old files in this directory"
-- **Claude interprets:** Destructive operation, ambiguous ("old"?), no explicit paths → HIGH RISK
-- **✅ Action:** Spawn `sonnet-general` to analyze and confirm before deletion
-
-##### Example 6: Ambiguous deletion request (CRITICAL)
-
-- **User:** "Delete the summary files"
-- **Claude interprets:** Destructive operation, pattern-based ("summary files"), unclear scope → HIGH RISK
-- **✅ Action:** Spawn `sonnet-general` to:
-  1. Identify which files match "summary files"
-  2. Assess their value (check content)
-  3. Confirm with user before deletion
-
-##### Example 7: Complex reasoning needed
-
-- **User:** "Verify the proof in section 3.2 is correct"
-- **Claude interprets:** Mathematical verification → complex reasoning needed → `opus-general`
-- **✅ Action:** Spawn `opus-general` for rigorous analysis
-
-##### Example 8: Workflow coordination
-
-- **User:** "Find papers on mitochondrial dysfunction"
-- **Claude interprets:** Full literature pipeline needed → load workflow
-- **✅ Action:** Load `literature-integration-coordinator` workflow and coordinate specialized agents
-
-#### Anti-Patterns (NEVER DO THIS)
-
-##### Anti-Pattern 1: Attempting specialized tasks without delegation
-
-❌ **User:** "Fix the build errors"
-
-❌ **Claude:** "Let me try to fix this myself first..." *(attempts manual fixes)*
-
-✅ **Correct approach:** "I'll delegate this to the syntax-fixer agent." *(spawns syntax-fixer)*
-
-##### Anti-Pattern 2: Skipping specialized agents for convenience
-
-❌ **User:** "This text needs better flow"
-
-❌ **Claude:** "Let me edit it..." *(makes edits directly)*
-
-✅ **Correct approach:** "I'll use the style-naturalizer agent for this." *(spawns style-naturalizer)*
-
-##### Anti-Pattern 3: Wrong model tier for destructive operations
-
-❌ **User:** "Delete the old implementation files"
-
-❌ **Claude:** "I'll use haiku-general for fast cleanup..." *(routes to haiku without analysis)*
-
-✅ **Correct approach:** "This is a destructive operation with ambiguous scope. I'll use sonnet-general to analyze which files match and confirm before deletion." *(routes to sonnet-general)*
-
-##### Anti-Pattern 4: Not interpreting research requests
-
-❌ **User:** "Find research on biomarkers"
-
-❌ **Claude:** "Let me search..." *(uses Grep/WebSearch directly)*
-
-✅ **Correct approach:** "I'll execute the literature-integration-coordinator workflow." *(loads workflow and coordinates agents)*
-
-##### Anti-Pattern 5: Using expensive models for simple tasks
-
-❌ **User:** "Change 'colour' to 'color' throughout the file"
-
-❌ **Claude:** "This requires careful analysis..." *(routes to opus-general)*
-
-✅ **Correct approach:** "Simple find-replace operation, explicit file, low risk. I'll use haiku-general." *(routes to haiku-general)*
-
-#### Certainty Requirement
-
-**You MUST delegate to agents when:**
-- An agent exists that matches the task
-- The task falls within an agent's described capabilities
-- The task would benefit from the agent's specialized toolset or model
-
-**Do NOT second-guess or attempt tasks yourself when agents are available.**
-
-The agent system exists to provide:
-- Specialized models (Haiku for speed, Opus for reasoning)
-- Restricted toolsets (preventing scope creep)
-- Verification protocols (ensuring work is complete)
-- Context minimization (improving performance)
-
-By attempting tasks yourself, you bypass these benefits and reduce reliability.
+**Full details:** See [`.claude/agents/README.md`](.claude/agents/README.md) for agent index and individual agent files for full specifications.
 
 ### Context Minimization
 
