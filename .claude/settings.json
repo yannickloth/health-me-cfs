@@ -40,7 +40,8 @@
       "/tmp",
       "/home/nicky/code/health-me-cfs/.claude",
       "/home/nicky/.claude/agents",
-      "/home/nicky/.claude"
+      "/home/nicky/.claude",
+      "/home/nicky/code/health-me-cfs"
     ]
   },
   "hooks": {
