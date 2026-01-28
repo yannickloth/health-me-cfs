@@ -80,6 +80,7 @@
           pkgs.bun
           pkgs.nodejs
           pkgs.coreutils
+          pkgs.mupdf-headless
         ];
       };
 
