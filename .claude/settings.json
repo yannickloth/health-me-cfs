@@ -49,7 +49,8 @@
       "/home/nicky/.claude/agents",
       "/home/nicky/.claude",
       "/home/nicky/code/health-me-cfs",
-      "/home/nicky/code/health-me-cfs/contents/part1-clinical"
+      "/home/nicky/code/health-me-cfs/contents/part1-clinical",
+      "/home/nicky/code/health-me-cfs/Literature/treatments"
     ]
   },
   "hooks": {
