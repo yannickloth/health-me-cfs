@@ -145,6 +145,7 @@
   en-ceph-a-lo-my-e-li-tis
   im-mu-no-log-i-cal
   neu-ro-in-flam-ma-tion
+  Neu-ro-in-flam-ma-tion
   mi-to-chon-dri-al
   post-ex-er-tion-al
   ortho-stat-ic
@@ -165,6 +166,10 @@
 \emergencystretch=3em
 \hfuzz=0.5pt  % Suppress warnings for overflows < 0.5pt
 
+\newcommand{\MECFSPaperDOI}{10.5281/zenodo.18413818}
+\newcommand{\MECFSPaperDoiUrl}{https://doi.org/\MECFSPaperDOI{}}
+\newcommand{\MECFSPaperDoiHref}{\href{\MECFSPaperDoiUrl{}}{\MECFSPaperDOI{}}}
+
 \begin{document}
 
 % Title and metadata (KOMA-Script standard format)
@@ -175,13 +180,14 @@
     \small Messancy, Belgium\\
     \small \href{mailto:yl@infolead.eu}{yl@infolead.eu}\\
     \small ORCID: \href{https://orcid.org/0009-0003-5754-827X}{0009-0003-5754-827X}\\
-    \small DOI: \href{https://doi.org/10.5281/zenodo.18384991}{10.5281/zenodo.18384991}}
+    \small DOI: \MECFSPaperDoiHref{}}
 \date{\today}
 \maketitle
 
 % Front matter (roman page numbers, unnumbered chapters)
 \frontmatter
 \include{contents/shared/abstract}
+\include{contents/shared/version-notice}
 \include{contents/shared/keywords}
 \include{contents/shared/license}
 \include{contents/shared/author-bio}
