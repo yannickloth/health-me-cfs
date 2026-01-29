@@ -1,0 +1,25 @@
+Increased ventricular lactate in chronic fatigue syndrome. III. Relationships to cortical glutathione and clinical symptoms implicate oxidative stress in disorder pathophysiology
+
+Authors: Shungu DC, et al.
+Journal: NMR in Biomedicine, 2012, Volume 25(9), Pages 1073-1087
+DOI: 10.1002/nbm.2772
+PMID: 22281935
+
+ABSTRACT:
+This neuroimaging study using magnetic resonance spectroscopy (MRS) documented for the first time significant reductions in cortical glutathione (GSH) levels in CFS patients compared to healthy controls. The study also replicated previous findings of elevated ventricular lactate in CFS.
+
+Key findings:
+- Significantly reduced cortical glutathione in CFS patients
+- Strong negative correlation between ventricular lactate and GSH (r = -0.545, p = 0.001)
+- GSH positively correlated with physical functioning (ρ = 0.506, p = 0.001) and energy levels (ρ = 0.606, p < 0.001)
+- Lactate negatively correlated with quality of life measures and positively with fatigue severity (ρ = 0.581, p < 0.001)
+
+Clinical implications:
+- Oxidative stress is a key pathophysiological mechanism in CFS
+- Cellular energetic stress (elevated lactate) linked to antioxidant depletion (reduced GSH)
+- GSH deficiency strongly associated with disability and symptom severity
+
+Treatment implications:
+- Direct glutathione supplementation unlikely to increase cortical levels (blood-brain barrier impermeability)
+- Precursor compounds like N-acetylcysteine (NAC) that cross blood-brain barrier recommended
+- NAC stimulates in situ GSH synthesis for neuroprotection

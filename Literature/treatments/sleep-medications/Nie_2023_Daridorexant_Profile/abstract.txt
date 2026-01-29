@@ -1,0 +1,20 @@
+Daridorexant in Insomnia Disorder: A Profile of Its Use
+
+Authors: Tina Nie, Hannah A. Blair
+Journal: CNS Drugs, 2023, 37(3), 267-274
+DOI: 10.1007/s40263-023-00987-9
+PMID: 36881266
+
+ABSTRACT:
+
+Daridorexant (Quviviq™) is a dual orexin receptor antagonist approved for the treatment of insomnia disorder in adults. This profile reviews its pharmacological properties, clinical efficacy, and safety based on Phase 2 and 3 trials.
+
+EFFICACY: In two pivotal Phase 3 trials, daridorexant 50 mg and 25 mg significantly improved objective sleep parameters compared to placebo. At month 3 with 50 mg dosing, wake time after sleep onset decreased by -29.4 minutes, latency to persistent sleep by -34.8 minutes, and subjective total sleep time increased by +57.7 minutes (all p<0.05 vs placebo). The 50 mg dose also significantly improved daytime functioning measures.
+
+SAFETY: Adverse events commonly associated with insomnia drugs (somnolence, fatigue, dizziness) occurred at similar or slightly greater frequency than placebo. Falls occurred at comparable or lower rates. In 12-month extension studies, most adverse events were mild-to-moderate (91%), with somnolence and falls in <3% of patients. No rebound insomnia or withdrawal effects were observed upon discontinuation.
+
+MECHANISM: Daridorexant selectively blocks both OX1R and OX2R orexin receptors, reducing wakefulness by modulating the orexin system rather than enhancing GABA-A receptor activity like benzodiazepines and z-drugs. This mechanism preserves natural sleep architecture and avoids widespread CNS depression.
+
+ADVANTAGE OVER TRADITIONAL AGENTS: Daridorexant represents an advancement over benzodiazepines and z-drugs, which carry risks of tolerance, dependency, and cognitive impairment, particularly concerning in older adults and patients requiring long-term treatment.
+
+CLINICAL POSITIONING: Daridorexant is suitable for adults with insomnia characterized by sleep onset and/or maintenance difficulties requiring chronic treatment with favorable long-term safety profile.

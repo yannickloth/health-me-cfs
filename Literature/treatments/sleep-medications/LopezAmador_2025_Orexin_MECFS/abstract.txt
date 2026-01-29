@@ -1,0 +1,23 @@
+An integrative review on the orexin system and hypothalamic dysfunction in myalgic encephalomyelitis/chronic fatigue syndrome: implications for precision medicine
+
+Author: Noé López-Amador
+Journal: Exploration of Neuroprotective Therapy, 2025, 5:1004112
+DOI: 10.37349/ent.2025.1004112
+Published: August 13, 2025
+
+ABSTRACT:
+
+This integrative review synthesizes evidence on orexin system dysfunction in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). The review identified 27 studies demonstrating reduced orexin-A levels in individuals with ME/CFS and variable orexin-B responses, indicating biomarker potential. Hypothalamic orexinergic impairment represents a central feature of ME/CFS, with orexin-B representing a promising candidate biomarker.
+
+The orexin (hypocretin) system, originating from hypothalamic neurons, regulates sleep-wake cycles, arousal, autonomic function, and energy homeostasis. Dysregulation of this system may contribute to the sleep disturbances, cognitive dysfunction, and fatigue characteristic of ME/CFS.
+
+Although no clinical trials have directly tested orexin modulators in ME/CFS patients, evidence from insomnia research suggests potential therapeutic benefit. Dual orexin receptor antagonists (DORAs) such as lemborexant significantly improved Insomnia Severity Index scores and daytime functioning versus placebo in 12-month studies, with sustained improvements in sleep-onset latency, wake-after-sleep-onset, and fatigue measures.
+
+The author recommends controlled trials of orexin receptor modulators in combination with behavioral approaches as a pathway forward. The integrative framework supports leveraging orexin profiling with multi-omics data and machine learning strategies for precision-medicine interventions in ME/CFS.
+
+Key Conclusions:
+- Reduced orexin-A levels consistently observed in ME/CFS
+- Orexin-B shows promise as biomarker with variable responses
+- DORAs may ameliorate sleep-wake and fatigue symptoms in ME/CFS
+- Clinical trials of orexin modulators warranted in ME/CFS population
+- Precision medicine approach combining orexin profiling with behavioral strategies recommended

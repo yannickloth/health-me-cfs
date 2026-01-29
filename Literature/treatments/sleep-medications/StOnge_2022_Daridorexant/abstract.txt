@@ -1,0 +1,14 @@
+Daridorexant: A New Dual Orexin Receptor Antagonist for Insomnia
+
+Authors: Erin St Onge, Bradley Phillips, Casey Rowe
+Journal: The Journal of Pharmacy Technology (JPT), 2022, 38(5), 297-303
+DOI: 10.1177/87551225221112546
+PMID: 36046352
+
+ABSTRACT:
+
+Daridorexant is a selective dual orexin receptor antagonist (DORA) approved by the FDA for treatment of adult insomnia characterized by difficulties with sleep onset and/or sleep maintenance. Unlike benzodiazepine receptor agonists that enhance GABA-A receptor activity, daridorexant works by blocking orexin signaling to reduce wakefulness. This mechanism suppresses wake-promoting neuronal pathways including histaminergic, serotonergic, dopaminergic, and cholinergic systems.
+
+Phase 3 trials demonstrated statistically significant improvements in wake after sleep onset (WASO) and latency to persistent sleep (LPS) at 25 mg and 50 mg doses over three months. The 50 mg dose showed superior effects exceeding clinical significance thresholds. Adverse events were low, with fatigue, nasopharyngitis, gait disturbance, somnolence, diarrhea, and headache most commonly reported. Serious adverse events occurred in fewer than 2% of participants.
+
+Key advantages over traditional sleep aids include absence of respiratory depression, no rebound insomnia or withdrawal symptoms upon discontinuation, and minimal next-day impairment. Daridorexant represents a mechanistically distinct approach to insomnia treatment with a favorable safety profile.

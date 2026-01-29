@@ -1,0 +1,25 @@
+TITLE: Transdermal Auricular Vagus Stimulation for the Treatment of Postural Tachycardia Syndrome
+
+AUTHORS: Yu L, Huang B, Po SS, Tan T, Wang M, Zhou L, Meng G, Yuan S, Zhou X, Li X, Wang S, Jiang H
+
+JOURNAL: Autonomic Neuroscience: Basic and Clinical, 2022; 243:103021
+DOI: 10.1016/j.autneu.2021.103021
+PMID: 35183906
+
+ABSTRACT:
+Postural tachycardia syndrome (POTS) is characterized by orthostatic intolerance due to autonomic dysfunction. This study evaluated transcutaneous auricular vagus nerve stimulation (taVNS) as a treatment for POTS through both acute and chronic protocols.
+
+Acute Study (Diedrich et al., 2018): Randomized crossover design in 14 POTS patients comparing taVNS vs sham during head-up tilt testing. taVNS significantly improved tilt time (Δ +5.3±2.6 min, p=0.0156) and reduced orthostatic symptom scores.
+
+Chronic Study (Shiffer et al., 2019): Open-label design with 9 hyperadrenergic POTS patients receiving 1-hour stimulation blocks, 4 times daily, for 14 days. Significant reductions in orthostatic intolerance (p<0.05) and gastrointestinal symptoms (p<0.05) on COMPASS-31 scores.
+
+Mechanistic Findings: taVNS effects appear mediated through:
+1. Activation of cholinergic anti-inflammatory pathway via α7 nicotinic acetylcholine receptors
+2. Reduction of β1-adrenergic receptor and α1-AR autoantibodies
+3. Decreased serum TNF-α levels (significant in active vs sham)
+4. Improved autonomic balance (HRV changes)
+5. Patients with low baseline vagal modulation (HF <200 ms²) showed significant response
+
+The review concludes that taVNS, a low-cost, low-risk intervention, may result in significant amelioration of POTS in selected patients. Mechanisms involve both autonomic rebalancing and anti-inflammatory effects through vagal-immune pathways.
+
+KEYWORDS: vagus nerve stimulation, transcutaneous, POTS, postural tachycardia syndrome, autonomic dysfunction, dysautonomia, inflammation, autoantibodies, heart rate variability

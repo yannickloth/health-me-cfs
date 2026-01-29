@@ -1,0 +1,26 @@
+Index markers of chronic fatigue syndrome with dysfunction of TCA and urea cycles
+
+Authors: Yamano E, et al.
+Journal: Scientific Reports, 2016, Volume 6, Article 34990
+DOI: 10.1038/srep34990
+
+ABSTRACT:
+This metabolomic study identified significant disruptions in the tricarboxylic acid (TCA) cycle and urea cycle in CFS patients. Concentrations of organic acids related to the TCA cycle (citrate, isocitrate, and malate) were significantly lower in CFS patients than in healthy controls.
+
+Key findings:
+- Decreased citrulline concentrations (urea cycle dysfunction)
+- Significantly elevated ornithine levels
+- Reduced TCA cycle intermediates (citrate, isocitrate, malate)
+- Normal glucose levels (rules out general metabolic failure)
+- Stable branched-chain amino acid levels
+
+The researchers developed a diagnostic model using two metabolite ratios:
+1. Pyruvate/isocitrate
+2. Ornithine/citrulline
+
+This achieved discrimination accuracy suitable for clinical screening, providing compelling evidence that a clinical diagnostic tool could be developed for CFS based on the ratios of small molecules in plasma.
+
+Clinical implications:
+- Impaired energy production through reduced citric acid cycle activity
+- Dysregulated ammonia detoxification via urea cycle abnormality
+- Potential diagnostic biomarkers for objective CFS diagnosis

@@ -1,0 +1,24 @@
+Long-Term Safety and Tolerability of Daridorexant in Patients with Insomnia Disorder
+
+Authors: Dieter Kunz, Yves Dauvilliers, Heike Benes, et al.
+Journal: CNS Drugs, 2022, 37(1), 93-106
+DOI: 10.1007/s40263-022-00980-8
+PMID: 36576646
+
+ABSTRACT:
+
+BACKGROUND: Insomnia disorder often requires long-term treatment. This study evaluated the 52-week safety and tolerability of daridorexant, a dual orexin receptor antagonist.
+
+METHODS: Extension study of 801 patients from two Phase 3 trials, receiving daridorexant 10 mg, 25 mg, or 50 mg, or placebo for up to 40 additional weeks following the initial 12-week pivotal trials.
+
+RESULTS: Treatment-emergent adverse events occurred in 35-40% of participants across treatment groups, with most (91.2%) classified as mild to moderate in severity. Common adverse events included nasopharyngitis and headache. Falls occurred in 1.1% of patients under 65 years and 2.7% in those 65+ years, with no evidence of somnolence or impaired attention during incidents.
+
+WITHDRAWAL AND REBOUND: Mean Benzodiazepine Withdrawal Symptom Questionnaire scores remained low and similar across treatment groups. No rebound insomnia was observed; sleep time actually improved during the placebo run-out phase following treatment discontinuation.
+
+MEDICALLY COMPLEX POPULATION: The study included patients with significant medical complexity: 72.1% had comorbidities and 64.8% were taking concomitant medications. No new safety signals emerged in this population receiving long-term treatment.
+
+MORNING ALERTNESS: Patients showed numerically higher morning sleepiness scores compared to baseline, indicating improved alertness rather than residual sedation.
+
+CONCLUSIONS: Over 52 weeks of nightly treatment, daridorexant demonstrated a favorable long-term safety and tolerability profile consistent with 12-week study findings. No evidence of physical dependence, tolerance, or rebound insomnia was found. The medication was well-tolerated in a medically complex population with multiple comorbidities.
+
+CLINICAL SIGNIFICANCE: These findings support the long-term safety of daridorexant for chronic insomnia treatment, particularly important for patients with comorbid medical conditions requiring sustained sleep support.

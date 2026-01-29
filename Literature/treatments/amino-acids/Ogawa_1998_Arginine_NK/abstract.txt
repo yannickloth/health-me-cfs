@@ -1,0 +1,27 @@
+Decreased nitric oxide-mediated natural killer cell activation in chronic fatigue syndrome
+
+Authors: Ogawa M, Nishiura T, Yoshimura M, et al.
+Journal: European Journal of Clinical Investigation, 1998, Volume 28(11), Pages 937-943
+DOI: 10.1046/j.1365-2362.1998.00373.x
+PMID: 9824439
+
+ABSTRACT:
+This case-control study compared 20 CFS patients with 21 healthy controls, examining immune cell function through in vitro laboratory techniques. The research revealed a striking disparity in L-arginine-mediated natural killer (NK) cell activation.
+
+Key findings:
+- NK activity was significantly increased after treatment with L-arginine (24h) in healthy controls
+- The same L-arginine treatment FAILED to enhance NK activity in CFS patients
+- Inducible NOS (iNOS) transcript expression appeared normal in both groups
+- Direct NO donor compounds produced no effect on NK cells in CFS patients (but stimulated healthy controls)
+
+Mechanism:
+- L-arginine normally enhances NK cell function through nitric oxide (NO) production
+- This pathway involves the enzyme inducible NO synthase (iNOS)
+- Gene expression of iNOS was normal in CFS patients
+- However, the functional pathway from L-arginine → NO → NK activation was impaired
+
+Clinical implications:
+- Demonstrates specific dysfunction in the NO-mediated immune activation pathway in CFS
+- L-arginine supplementation alone may not be effective for immune enhancement in CFS
+- Suggests downstream dysfunction beyond substrate availability
+- May require combination therapy addressing NO pathway dysfunction

@@ -1,0 +1,11 @@
+Simons FER, Rawat A, Simons KJ. Immunomodulatory properties of cimetidine: Its therapeutic potentials for treatment of immune-related diseases. Int Immunopharmacol. 2019 Mar;68:8-18. doi: 10.1016/j.intimp.2018.12.061. PMID: 30802678.
+
+ABSTRACT:
+
+Cimetidine, an H2-receptor antagonist used primarily for acid suppression, exerts powerful immunomodulatory effects on both innate and adaptive immune systems. This review comprehensively examines cimetidine's immunological properties and therapeutic potential for immune-related diseases.
+
+Cimetidine reduces regulatory/suppressor T cell-mediated immunosuppression while having powerful stimulatory effects on CD8+ cytotoxic T cells. It diminishes suppressor T cell effects in both cellular- and antibody-mediated immune reactions. The immunomodulatory effects occur through multiple mechanisms including effects on histamine receptors on immune cells, suppressor cell function, and cytokine production.
+
+Therapeutic applications investigated include viral warts, viral infections (including herpesvirus), vaccine adjuvant properties, and various immune-mediated conditions. Cimetidine enhances both antibody- and cytotoxic T cell-mediated immune responses.
+
+The review analyzes preclinical and clinical evidence for cimetidine's immunomodulatory properties, discusses mechanisms of action, evaluates therapeutic applications across immune-related diseases, and identifies gaps requiring further investigation. While promising immunological effects are well-documented, many potential therapeutic applications require rigorous controlled clinical trials for validation.

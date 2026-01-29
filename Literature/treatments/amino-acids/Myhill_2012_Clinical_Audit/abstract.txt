@@ -1,0 +1,44 @@
+Targeting mitochondrial dysfunction in the treatment of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) - a clinical audit
+
+Authors: Myhill S, Booth NE, McLaren-Howard J
+Journal: International Journal of Clinical and Experimental Medicine, 2012, Volume 6(1), Pages 1-15
+PMCID: PMC3515971
+
+ABSTRACT:
+This clinical audit evaluated the effectiveness of a comprehensive mitochondrial support protocol in 138 ME/CFS patients, with 34 patients (25%) receiving follow-up testing. Of these, 30 patients showed "good regime" adherence while 4 had "poor regime" adherence (serving as internal controls).
+
+Treatment protocol consisted of four foundational components:
+1. Stone-age (evolutionary) diet
+2. Adequate quality sleep
+3. Standard nutritional supplements meeting at least RDI
+4. Appropriate work-rest balance (pacing)
+
+Specific supplements for mitochondrial support included:
+- Magnesium (Mg)
+- Coenzyme Q10/Ubiquinone
+- L-Carnitine
+- Niacinamide (Vitamin B3/NAD)
+- Vitamin B12 (by injection when indicated)
+- D-ribose
+- Glutathione (GSH) and Glutathione Peroxidase
+- Superoxide dismutase (SOD)
+
+Key findings:
+- ALL 30 compliant patients showed improvements in major mitochondrial function parameters
+- Average improvement factor of 4.14 in Mitochondrial Energy Score (MESinh)
+- 28/30 patients improved in ATPend
+- All 30 patients improved in Oxidative Phosphorylation (Ox Phos)
+- Cell-free DNA (tissue damage marker) decreased in compliant patients
+- 4 patients with poor adherence showed minimal improvement or deterioration
+
+Clinical implications:
+- Comprehensive mitochondrial support protocol shows measurable biochemical improvements
+- Multi-factorial approach addresses multiple aspects of ATP production
+- Biochemical improvements correlate with clinical outcomes
+- Protocol requires sustained adherence for benefit
+
+Limitations:
+- Clinical audit not RCT (no randomization, no placebo control)
+- 75% of initial cohort lacked follow-up testing
+- Specific supplement dosages not provided
+- Potential selection bias (compliant patients more motivated)

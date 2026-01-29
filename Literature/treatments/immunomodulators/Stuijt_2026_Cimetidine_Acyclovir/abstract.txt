@@ -1,0 +1,13 @@
+Stuijt R, et al. Use of cimetidine to enhance systemic acyclovir concentrations in patients with ineffective suppressive therapy for recurring herpes simplex virus infections: A novel purpose for an old drug. Br J Clin Pharmacol. 2026 Jan. doi: 10.1002/bcp.70313.
+
+ABSTRACT:
+
+AIMS: This study describes a novel clinical strategy using cimetidine to enhance systemic acyclovir concentrations in patients with recurrent herpes simplex virus (HSV) infections who remained symptomatic despite suppressive valacyclovir therapy.
+
+BACKGROUND: Some patients with recurring HSV infections fail to respond adequately to standard suppressive valacyclovir therapy. Subtherapeutic acyclovir plasma levels may explain treatment failure. Cimetidine inhibits renal tubular secretion of acyclovir through competitive inhibition of organic cation transporters.
+
+METHODS: Case series of patients with inadequate response to standard-dose valacyclovir suppressive therapy. After confirming subtherapeutic acyclovir levels, patients received either dose escalation or addition of cimetidine to enhance acyclovir concentrations.
+
+RESULTS: Patients nonresponsive to suppressive valacyclovir therapy showed subtherapeutic acyclovir plasma levels. After valacyclovir dose increase, or in some patients only after concomitant prescription of cimetidine, adequate acyclovir levels were achieved with significant clinical improvement.
+
+CONCLUSIONS: Cimetidine can enhance systemic acyclovir/valacyclovir concentrations by inhibiting renal tubular secretion, providing a therapeutic option for patients with treatment-refractory HSV infections due to subtherapeutic drug levels. This represents a novel repurposing of cimetidine beyond its traditional use as an H2 receptor antagonist.

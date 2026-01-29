@@ -1,0 +1,19 @@
+TITLE: Transcutaneous Vagus Nerve Stimulation in the Treatment of Long Covid-Chronic Fatigue Syndrome
+
+AUTHORS: Natelson BH, Vu T, Mao X, Soto O, Stegner A, Yamamoto Y, Scherl E, Togo F, Lange G
+
+JOURNAL: medRxiv (preprint) 2022
+DOI: 10.1101/2022.11.08.22281807
+
+ABSTRACT:
+Background: Long COVID is a condition in which patients fail to return to baseline health following acute COVID-19 infection. Many patients develop a chronic fatigue syndrome (CFS)-like illness. This pilot study evaluated the efficacy of transcutaneous vagus nerve stimulation (tVNS) as a potential treatment for Long COVID patients meeting CFS criteria.
+
+Methods: Open-label pilot study with 16 participants enrolled; 14 completed the 6-week trial. All participants met 1994 CFS case definition criteria. Participants used a Parasym device with electrode attached to the left tragus for at least 35 minutes daily for 6 weeks. Intensity was patient-adjusted to just below discomfort threshold.
+
+Primary outcome: Improvement on at least 2 of 4 measures: SF-36 physical function (≥14% improvement), symptom severity reduction (≥2 points on VAS), loss of "fatigue case" status on Chalder scale, or +2/+3 on Patient Global Impression of Change.
+
+Results: 8 of 14 patients (57%) met primary outcome criteria for improvement, exceeding the pre-specified threshold of one-third success rate. No adverse effects were reported during the 6-week trial.
+
+Conclusions: Non-invasive stimulation of the auricular branch of the vagus nerve shows promise as a therapeutic modality for treating Long COVID-CFS. The positive result warrants further investigation with sham-controlled designs to validate efficacy.
+
+KEYWORDS: Long COVID, chronic fatigue syndrome, ME/CFS, transcutaneous vagus nerve stimulation, tVNS, auricular stimulation, post-acute COVID-19
