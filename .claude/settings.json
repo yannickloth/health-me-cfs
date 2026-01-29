@@ -31,7 +31,9 @@
       "Bash(file:*)",
       "Bash(command:*)",
       "Bash(pdftoppm:*)",
-      "Bash(mutool draw:*)"
+      "Bash(mutool draw:*)",
+      "Bash(timeout:*)",
+      "Bash(wait)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
@@ -46,7 +48,8 @@
       "/home/nicky/code/health-me-cfs/.claude",
       "/home/nicky/.claude/agents",
       "/home/nicky/.claude",
-      "/home/nicky/code/health-me-cfs"
+      "/home/nicky/code/health-me-cfs",
+      "/home/nicky/code/health-me-cfs/contents/part1-clinical"
     ]
   },
   "hooks": {
