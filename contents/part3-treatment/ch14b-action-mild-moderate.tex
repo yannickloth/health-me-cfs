@@ -43,6 +43,18 @@ This chapter addresses patients with mild to moderate ME/CFS who retain some fun
 
 Pacing is \emph{more important} for mild-moderate cases than for severe cases, paradoxically. Severe patients are forced to rest by their symptoms. Mild-moderate patients can push through, leading to progressive worsening and eventual severity. The post-exertional malaise mechanism (Section~\ref{sec:energy-consequences}) documents that repeated energy envelope violations cause cumulative mitochondrial damage and progressive decline.
 
+\begin{keypoint}[Experimental: Emergency Post-Exertion Protocol for Unavoidable Situations]
+While pacing to avoid PEM remains the evidence-based gold standard, an experimental protocol exists for situations where exertion is truly unavoidable (medical emergencies, critical life events, accidental overexertion). This protocol targets the 24--72h cascade window with ATP substrates (D-ribose, MCT oil), NAD$^+$ precursors, antioxidants, and anti-inflammatory support to potentially reduce crash severity by 60--80\%.
+
+\textbf{Evidence tier}: Mechanistically justified but clinically unvalidated. No RCTs exist.
+
+\textbf{Key principle}: Must address BOTH energy restoration (ATP/NAD$^+$ support) AND inflammatory cascade interruption. Anti-inflammatories alone fail because ATP production failure is the root cause.
+
+\textbf{Appropriate use}: True emergencies or unavoidable situations only—NOT routine use to enable chronic overexertion, which will cause progressive decline regardless of interventions.
+
+See Chapter~\ref{ch:emerging-therapies}, \S\ref{subsec:pem-prevention} for complete protocol, mechanistic rationale, and safety considerations. Also see Chapter~\ref{ch:core-symptoms}, \S\ref{sec:pem} for detailed discussion of why the 24--72h delay occurs and whether early intervention can prevent downstream cascade phases.
+\end{keypoint}
+
 \paragraph{The Energy Envelope Concept}
 
 \begin{itemize}
@@ -132,6 +144,217 @@ When starting new interventions (electrolytes, supplements, medications), resist
     \item \textbf{Solution}: Consistent daily activity within envelope, even on ``good days''
     \item \textbf{Good days}: Do NOT increase activity; bank energy for inevitable bad days
 \end{itemize}
+
+\subsubsection{Crash Severity Dose-Response: Why Large Violations Are Catastrophic}
+\label{subsubsec:crash-dose-response}
+
+Not all energy envelope violations are equally harmful. Emerging evidence and patient experience suggest a dose-response relationship between exertion magnitude and crash severity, with critical thresholds beyond which damage becomes irreversible.
+
+\paragraph{The Threshold Hypothesis.}
+
+\begin{hypothesis}[Crash Severity Dose-Response]
+Small envelope violations (110--120\% of safe capacity) produce reversible crashes with full recovery in days to weeks. Moderate violations (150--180\%) cause extended recovery (weeks to months) but may still be reversible with aggressive rest. Large violations ($>$200\% capacity) cause irreversible damage, permanent worsening, and engagement of ratchet effect mechanisms (see Chapter~\ref{ch:core-symptoms}, \S\ref{sec:pem}, ``Ratchet Effect'').
+
+\textbf{Mechanistic basis}:
+\begin{itemize}
+    \item \textbf{ATP depletion threshold}: Cells can tolerate 20--30\% ATP depletion and recover; depletion $>$50--70\% triggers apoptosis or permanent mitochondrial damage~\cite{heng2025mecfs}
+    \item \textbf{Mitochondrial turnover capacity}: Mild damage (10--20\% of mitochondria) can be cleared and replaced in 10--15 days; massive damage ($>$40--50\%) overwhelms mitophagy and biogenesis, leaving permanent deficit
+    \item \textbf{Inflammatory cascade intensity}: Small immune activation resolves in 2--5 days; severe activation ($>$10-fold cytokine elevation) may trigger autoimmunity or chronic microglial priming
+    \item \textbf{Epigenetic locking}: Extreme cellular stress may trigger permanent epigenetic changes (DNA methylation, histone modification) that maintain dysfunction even after stressor resolves~\cite{Lawless2015mtdna_damage}
+\end{itemize}
+
+\textbf{Clinical implication}: Preventing ALL large crashes is more important than preventing frequent small crashes. One catastrophic crash may cause more permanent damage than ten minor crashes.
+\end{hypothesis}
+
+\paragraph{Crash Severity Classification System.}
+
+To operationalize crash prevention, we propose a four-tier severity classification:
+
+\begin{table}[htbp]
+\centering
+\caption{Crash Severity Classification with Dose-Response Predictions}
+\label{tab:crash-severity-tiers}
+\small
+\begin{tabular}{@{}p{2cm}p{3cm}p{3.5cm}p{5cm}@{}}
+\toprule
+\textbf{Tier} & \textbf{Exertion Relative to Envelope} & \textbf{Typical Recovery Time} & \textbf{Predicted Long-Term Impact} \\
+\midrule
+\textbf{Minor} & 110--130\% of safe capacity & 2--7 days & \cellcolor{green!15}Fully reversible; no permanent damage if infrequent ($<$1/month) \\
+\addlinespace
+\textbf{Moderate} & 150--180\% of safe capacity & 1--4 weeks & \cellcolor{yellow!15}Reversible with aggressive rest; may slightly lower baseline if frequent ($>$2/month) \\
+\addlinespace
+\textbf{Severe} & 200--300\% of safe capacity & 1--3 months & \cellcolor{orange!15}Partially reversible; likely permanent 5--15\% function loss; accelerates progression \\
+\addlinespace
+\textbf{Catastrophic} & $>$300\% of safe capacity & 3--12+ months, or never & \cellcolor{red!15}Irreversible; permanent 20--50\% function loss; triggers Stage N$\rightarrow$N+1 cycle entry \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize{\textbf{Note}: Percentages are illustrative estimates based on patient reports and PEM mechanism; no controlled studies exist. ``Safe capacity'' = maximum activity level that does NOT trigger PEM. Example: If safe walking distance is 1000 steps/day, Minor = 1100--1300 steps, Moderate = 1500--1800 steps, Severe = 2000--3000 steps, Catastrophic = $>$3000 steps.}
+\end{table}
+
+\paragraph{Evidence Supporting Dose-Response.}
+
+While no formal studies have tested the crash severity dose-response hypothesis, multiple lines of evidence support it:
+
+\begin{enumerate}
+    \item \textbf{Patient retrospective analysis}: Community surveys consistently identify specific ``life-changing crashes'' after which patients never returned to baseline
+    \begin{itemize}
+        \item Common triggers: attempting to return to work full-time after diagnosis, major life events (weddings, moving house), exercise programs (GET, personal training)
+        \item Pattern: Massive exertion → severe crash → permanent 20--50\% function loss
+        \item Contrast: Patients who avoid catastrophic crashes may slowly improve or stabilize; those with 1--2 catastrophic crashes often progress to severe disease
+    \end{itemize}
+
+    \item \textbf{Recovery kinetics}: Exponentially longer recovery from larger crashes suggests threshold crossing
+    \begin{itemize}
+        \item Minor crash: 2--7 days (proportional to exertion)
+        \item Catastrophic crash: 6--12 months (disproportionate to exertion magnitude)
+        \item Non-linearity suggests biological threshold (ATP depletion, cell death) was crossed
+    \end{itemize}
+
+    \item \textbf{Two-day CPET as controlled crash}: Standardized exertion to ventilatory threshold
+    \begin{itemize}
+        \item Day 2 testing triggers moderate-to-severe crash in most ME/CFS patients
+        \item Recovery time averages 13 days but ranges 7--60+ days~\cite{keller2024cpet}
+        \item Patients with longer recovery ($>$30 days) may have crossed threshold into irreversible damage
+    \end{itemize}
+
+    \item \textbf{``Crash limit rule'' from patient communities}: Informal observation that patients tolerate $\sim$5 severe crashes total before permanent severe worsening
+    \begin{itemize}
+        \item Each severe crash: recovery time increases (1st crash: 2 weeks, 5th crash: 6 months)
+        \item Suggests cumulative damage with progressively impaired repair capacity
+        \item After 5th crash, many patients become severe/very severe permanently
+    \end{itemize}
+
+    \item \textbf{Mitochondrial damage-repair dynamics}: Basic biology supports threshold model
+    \begin{itemize}
+        \item Mitochondrial biogenesis capacity: $\sim$10--15\%/day of total mitochondrial mass
+        \item If $>$40--50\% of mitochondria damaged simultaneously, replacement takes weeks; during this time, cells operate at massive ATP deficit
+        \item Prolonged severe ATP deficit may trigger cell death (particularly neurons, which cannot regenerate)
+    \end{itemize}
+\end{enumerate}
+
+\paragraph{Clinical Crash Prevention Strategy.}
+
+The dose-response model generates specific clinical guidance:
+
+\begin{keypoint}[Asymmetric Crash Prevention: Severe $>$ Frequent]
+\textbf{Priority 1: Prevent ALL catastrophic and severe crashes} (Tiers 3--4)
+\begin{itemize}
+    \item These cause irreversible damage; even one catastrophic crash may permanently worsen disease
+    \item Justifies extreme caution: cancel essential appointments, use wheelchair, accept help, disappoint others
+    \item \textit{Example}: Patient facing unavoidable high-exertion event (wedding, funeral, medical procedure) → use Emergency PEM Prevention Protocol (Chapter~\ref{ch:emerging-therapies}, \S\ref{subsubsec:emergency-pem-protocol}) + pre-rest for 3--5 days + post-rest for 7--14 days
+\end{itemize}
+
+\textbf{Priority 2: Minimize moderate crashes} (Tier 2)
+\begin{itemize}
+    \item Occasional moderate crashes may be tolerable (1--2/year for special events)
+    \item Frequent moderate crashes ($>$1/month) likely cause slow progression
+    \item \textit{Example}: Patient wants to attend important family event → plan meticulously, rest before/after, accept crash will occur but keep it moderate (not severe)
+\end{itemize}
+
+\textbf{Priority 3: Tolerate occasional minor crashes} (Tier 1)
+\begin{itemize}
+    \item Minor crashes may be unavoidable in daily life (illness, stress, unexpected demands)
+    \item Fully reversible if infrequent; do not obsess over perfection
+    \item \textit{Example}: Unplanned phone call, minor errand, child needs attention → brief minor crash acceptable, recover within week
+\end{itemize}
+
+\textbf{Key principle}: It is better to have 10 minor crashes per year than 1 catastrophic crash. Damage is non-linear; severe crashes disproportionately drive progression.
+\end{keypoint}
+
+\paragraph{Identifying Your Crash Threshold.}
+
+Since individual capacity varies enormously (bedbound patients: 100 steps = catastrophic; mild patients: 5000 steps = moderate), each patient must identify their personal thresholds:
+
+\begin{enumerate}
+    \item \textbf{Establish baseline safe capacity}: 2--4 weeks activity tracking; find maximum activity causing NO PEM
+    \item \textbf{Define crash tiers relative to baseline}:
+    \begin{itemize}
+        \item Minor: 110--130\% of baseline (e.g., 1100--1300 steps if baseline is 1000)
+        \item Moderate: 150--180\% of baseline (1500--1800 steps)
+        \item Severe: 200--300\% of baseline (2000--3000 steps)
+        \item Catastrophic: $>$300\% of baseline ($>$3000 steps)
+    \end{itemize}
+    \item \textbf{Track crash history}: Note which activities triggered which tier crashes; identify patterns
+    \item \textbf{Adjust safety margin}: If even ``safe'' activities occasionally cause crashes, reduce baseline by 10--20\%
+\end{enumerate}
+
+\paragraph{Emergency Crash Management Protocol.}
+
+If a severe or catastrophic crash occurs despite prevention efforts:
+
+\begin{warning}[Severe Crash = Medical Emergency]
+Treat severe/catastrophic crashes as medical emergencies requiring immediate aggressive intervention:
+
+\textbf{Immediate actions (0--6 hours post-crash)}:
+\begin{enumerate}
+    \item \textbf{Complete cessation of ALL activity}: Horizontal rest, minimal stimulation, no cognitive demands
+    \item \textbf{Emergency metabolic support}: D-ribose 15~g, MCT oil 30~mL, NAD$^+$ precursor 1000--2000~mg, high-dose antioxidants (see Emergency PEM Protocol, Chapter~\ref{ch:emerging-therapies}, \S\ref{subsubsec:emergency-pem-protocol})
+    \item \textbf{Hydration + electrolytes}: 500~mL oral rehydration solution every 2--3 hours
+    \item \textbf{Anti-inflammatory support}: Omega-3 4~g, curcumin 1000~mg, consider NSAIDs if no contraindications
+    \item \textbf{Sleep optimization}: Prioritize 10--12 hours sleep; melatonin 1--3~mg, magnesium 400~mg
+\end{enumerate}
+
+\textbf{Extended recovery phase (Days 1--14)}:
+\begin{enumerate}
+    \item \textbf{Strict rest enforcement}: No work, no errands, minimal self-care only
+    \item \textbf{Continued metabolic support}: D-ribose 5~g TID, NAD$^+$ precursors 500~mg BID, antioxidants, anti-inflammatories
+    \item \textbf{Monitor for secondary complications}: Orthostatic worsening, new pain, cognitive decline; treat symptomatically
+    \item \textbf{Resist activity resumption}: Even if feeling better at Day 7--10, maintain rest through Day 14 minimum
+\end{enumerate}
+
+\textbf{Gradual return (Weeks 3--8)}:
+\begin{enumerate}
+    \item \textbf{Resume at 25--50\% of pre-crash baseline}: Do NOT return to pre-crash activity level
+    \item \textbf{Re-establish new safe baseline}: May be permanently lower; accept functional loss
+    \item \textbf{Monitor for delayed secondary crash}: Weeks 3--4 carry high risk; maintain caution
+    \item \textbf{Medical consultation}: If no improvement by Week 8, consider aggressive interventions (see Chapter~\ref{ch:urgent-action-severe})
+\end{enumerate}
+
+\textbf{Reality}: Despite optimal management, catastrophic crashes may cause permanent 20--50\% function loss. This is why prevention is absolute priority.
+\end{warning}
+
+\paragraph{Research Directions: Validating Dose-Response.}
+
+To test the crash severity dose-response hypothesis:
+
+\begin{enumerate}
+    \item \textbf{Retrospective cohort analysis}: Survey ME/CFS patients about lifetime crash history
+    \begin{itemize}
+        \item Correlate number of severe/catastrophic crashes with current disease severity
+        \item Hypothesis: Patients with $\geq$3 catastrophic crashes are 5--10$\times$ more likely to be severe/very severe
+        \item Confounders: Crash severity may correlate with baseline disease severity (sicker patients crash more easily)
+    \end{itemize}
+
+    \item \textbf{Prospective biomarker study}: Standardized exertion at multiple intensities
+    \begin{itemize}
+        \item Mild exertion (50\% AT), moderate (75\% AT), maximal (100\% AT, CPET)
+        \item Serial biomarkers: ATP/ADP, lactate, cytokines, oxidative stress markers at 0h, 6h, 24h, 48h, 72h post-exertion
+        \item Hypothesis: Biomarker perturbations are non-linear; doubling exertion intensity causes 5--10$\times$ biomarker changes
+        \item Identify thresholds where reversible dysfunction becomes irreversible damage
+    \end{itemize}
+
+    \item \textbf{Natural history tracking with wearables}: 100+ ME/CFS patients wearing continuous activity monitors for 1--2 years
+    \begin{itemize}
+        \item Correlate crash magnitude (actigraphy-derived) with recovery duration
+        \item Identify if specific crashes preceded permanent functional decline
+        \item Machine learning to predict ``dangerous'' activity patterns
+    \end{itemize}
+
+    \item \textbf{Intervention trial}: Emergency PEM Protocol vs placebo after standardized severe exertion
+    \begin{itemize}
+        \item Outcome: Does aggressive post-exertion support reduce irreversible damage?
+        \item Measure function at 6 months post-crash; hypothesis: intervention prevents permanent worsening
+    \end{itemize}
+\end{enumerate}
+
+\begin{keypoint}[Crash Prevention as Disease-Modifying Therapy]
+If the dose-response hypothesis is correct, aggressive crash prevention is not merely symptom management—it is disease-modifying therapy. Preventing 1--2 catastrophic crashes may prevent progression from mild to severe disease, preserving decades of quality-adjusted life-years.
+
+This elevates pacing from ``lifestyle adjustment'' to \textbf{primary medical intervention with potentially greater impact than any pharmaceutical}.
+
+The challenge: Crash prevention requires life disruption, social sacrifice, and accepting severe limitations. Patients face pressure to ``try harder,'' attend events, maintain employment. Clinicians must validate that extreme caution is medically justified—not psychological avoidance—and that preventing catastrophic crashes is worth the social and economic costs.
+\end{keypoint}
 
 \subsection{Symptom Management for Mild-Moderate Cases}
 \label{sec:symptom-management-mild-moderate}
@@ -281,6 +504,7 @@ Orthostatic intolerance affects 70--90\% of ME/CFS patients (Section~\ref{sec:or
     \item Fludrocortisone 0.05--0.1 mg daily (increases blood volume)
     \item Midodrine 2.5--10 mg TID (peripheral vasoconstrictor)
     \item Beta-blockers (propranolol, metoprolol) - use cautiously, can worsen fatigue in some
+    \item \textbf{Ivabradine 2.5--7.5 mg BID} (If blocker) - Selectively reduces heart rate by inhibiting the I$_f$ current in sinoatrial node. \textbf{Advantages over beta-blockers}: Does not reduce contractility or blood pressure; may be better tolerated in ME/CFS patients prone to hypotension. More commonly used in Europe than US. Patient reports indicate significant functional improvement (e.g., standing HR reduction from 150 to 90+ bpm). \textbf{Contraindications}: Bradycardia (HR $<$60), hypotension, sick sinus syndrome, concurrent use with strong CYP3A4 inhibitors.
 \end{itemize}
 
 \subsection{Mast Cell Activation Syndrome (MCAS) Management}
@@ -529,6 +753,374 @@ Mild-moderate patients have a critical advantage: potential to intervene before 
         \item Viral reactivation markers (EBV EA, VCA IgG, CMV IgG)
     \end{itemize}
 \end{itemize}
+
+\subsection{Personalized Cycle Mapping: Precision Diagnostic Framework}
+\label{subsec:cycle-mapping}
+
+The vicious cycle dynamics model (Chapter~\ref{ch:core-symptoms}, \S\ref{sec:pem}, ``Vicious Cycle Dynamics'') reveals that ME/CFS involves multiple reinforcing physiological cycles: mitochondrial, immune, autonomic, neuroinflammatory, and endocrine. However, not every patient has all five cycles active. \textbf{Identifying which specific cycles are operating in each individual enables precision-targeted treatment}, avoiding unnecessary interventions while ensuring all active pathology is addressed.
+
+This diagnostic framework represents a paradigm shift from empirical ``try everything'' approaches to biomarker-guided personalized medicine.
+
+\subsubsection{The Five-Cycle Diagnostic Battery}
+
+\paragraph{Cycle 1: Mitochondrial Dysfunction.}
+
+\textbf{Diagnostic criteria}: Evidence of impaired ATP production, oxidative phosphorylation failure, or abnormal post-exertional metabolic response.
+
+\textbf{Tier 1 Testing (Accessible)}:
+\begin{itemize}
+    \item \textbf{Two-day cardiopulmonary exercise test (2-day CPET)}: Gold standard
+    \begin{itemize}
+        \item Day 2 VO$_2$max decline $>$5--10\% = positive for mitochondrial cycle
+        \item Reduced ventilatory efficiency (VE/VCO$_2$ slope increase Day 2)
+        \item See Chapter~\ref{ch:energy-metabolism} for interpretation
+        \item Accessibility: Limited to specialized centers; cost \$1,500--3,000
+    \end{itemize}
+
+    \item \textbf{Lactate response to mild exertion}: Venous lactate before and 15--30 min after standardized activity (e.g., 6-minute walk, stationary bike at low resistance)
+    \begin{itemize}
+        \item Lactate increase $>$30\% from baseline = glycolytic shift, suggests mitochondrial impairment
+        \item Accessibility: Any laboratory can measure lactate; cost \$20--50
+    \end{itemize}
+
+    \item \textbf{Actigraphy with recovery tracking}: 7--14 days continuous activity monitoring
+    \begin{itemize}
+        \item Prolonged recovery periods ($>$24--48h) after modest activity
+        \item Boom-bust pattern (activity followed by crash)
+        \item Accessibility: Consumer-grade accelerometers (fitbit, etc.); cost \$50--150
+    \end{itemize}
+\end{itemize}
+
+\textbf{Tier 2 Testing (Research or Specialized Centers)}:
+\begin{itemize}
+    \item \textbf{Cellular ATP production}: Extracellular flux analysis (Seahorse assay) on PBMCs
+    \begin{itemize}
+        \item Reduced maximal respiration, ATP-linked respiration
+        \item Research setting; not clinically available
+    \end{itemize}
+
+    \item \textbf{Muscle biopsy}: Mitochondrial enzyme activities, electron microscopy
+    \begin{itemize}
+        \item Reserved for unclear cases; invasive
+        \item Cost \$2,000--5,000; limited insurance coverage
+    \end{itemize}
+
+    \item \textbf{Post-exertion metabolomics}: Plasma metabolites before and 24h after standardized exertion
+    \begin{itemize}
+        \item NAD$^+$/NADH ratio, acylcarnitines, TCA cycle intermediates
+        \item Research setting; cost \$500--2,000
+    \end{itemize}
+\end{itemize}
+
+\textbf{Clinical decision}: \textit{If 2-day CPET shows Day 2 decline OR lactate increases post-exertion OR actigraphy shows prolonged recovery → Mitochondrial cycle ACTIVE → Target with CoQ10, NAD$^+$ precursors, mitochondrial support stack.}
+
+\paragraph{Cycle 2: Immune Activation and Autoimmunity.}
+
+\textbf{Diagnostic criteria}: Evidence of chronic immune activation, autoantibody production, or cytokine dysregulation.
+
+\textbf{Tier 1 Testing (Accessible)}:
+\begin{itemize}
+    \item \textbf{GPCR autoantibodies}: $\beta_2$-adrenergic, M3/M4 muscarinic receptors
+    \begin{itemize}
+        \item CellTrend assay (Germany): Mail-order testing available
+        \item Elevated titers $>95$th percentile = positive
+        \item Cost \$300--500; not covered by US insurance typically
+        \item \textit{Critical biomarker}: Predicts response to immunoadsorption, daratumumab~\cite{Scheibenbogen2018immunoadsorption,Fluge2025daratumumab}
+    \end{itemize}
+
+    \item \textbf{Natural killer (NK) cell function}: Cytotoxicity assay or NK cell count
+    \begin{itemize}
+        \item Reduced NK function or low CD56+ cell count = immune dysfunction
+        \item Flow cytometry available at many labs; cost \$150--300
+    \end{itemize}
+
+    \item \textbf{Cytokine panel}: IL-6, IL-1$\beta$, TNF-$\alpha$, IL-10
+    \begin{itemize}
+        \item Elevation indicates active inflammation
+        \item Accessibility: Some commercial labs (LabCorp, Quest); cost \$200--400
+        \item High variability; requires fasting sample, careful handling
+    \end{itemize}
+
+    \item \textbf{Standard autoimmune screening}: ANA, ENA panel, rheumatoid factor
+    \begin{itemize}
+        \item Positive ANA or ENA may indicate overlap syndrome
+        \item Widely available; cost \$100--200
+    \end{itemize}
+\end{itemize}
+
+\textbf{Tier 2 Testing (Specialized)}:
+\begin{itemize}
+    \item \textbf{T cell and B cell subset analysis}: CD4/CD8 ratio, T cell exhaustion markers, B cell subsets
+    \begin{itemize}
+        \item Flow cytometry; research or specialized immunology labs
+        \item Cost \$300--600
+    \end{itemize}
+
+    \item \textbf{Viral reactivation markers}: EBV EA IgG, VCA IgG, HHV-6 IgG, CMV IgG
+    \begin{itemize}
+        \item Chronic reactivation may drive immune activation
+        \item Available at commercial labs; cost \$200--400
+    \end{itemize}
+\end{itemize}
+
+\textbf{Clinical decision}: \textit{If GPCR autoantibodies elevated OR NK function low OR cytokines elevated → Immune cycle ACTIVE → Consider immunoadsorption, daratumumab (if accessible), or LDN + anti-inflammatory stack.}
+
+\paragraph{Cycle 3: Autonomic Dysregulation.}
+
+\textbf{Diagnostic criteria}: Evidence of orthostatic intolerance, impaired heart rate variability, or sympathetic-parasympathetic imbalance.
+
+\textbf{Tier 1 Testing (Accessible)}:
+\begin{itemize}
+    \item \textbf{NASA 10-minute lean test}: Modified poor man's tilt table test
+    \begin{itemize}
+        \item Measure HR and BP supine, then standing at 2, 5, 10 minutes
+        \item HR increase $>$30 bpm or sustained increase $>$120 bpm = POTS
+        \item BP drop $>$20/10 mmHg = orthostatic hypotension
+        \item No cost; can be done at home or in any clinic
+    \end{itemize}
+
+    \item \textbf{Heart rate variability (HRV)}: Consumer-grade HRV monitor or smartphone app
+    \begin{itemize}
+        \item Low HRV (particularly RMSSD $<$20--30 ms) = reduced parasympathetic tone
+        \item Tracking daily HRV identifies autonomic stress
+        \item Cost \$0--150 (many free apps using phone camera)
+    \end{itemize}
+
+    \item \textbf{Symptom inventory}: Validated autonomic symptom scales (e.g., COMPASS-31)
+    \begin{itemize}
+        \item Orthostatic lightheadedness, palpitations, GI dysmotility, temperature dysregulation
+        \item Free online questionnaires
+    \end{itemize}
+\end{itemize}
+
+\textbf{Tier 2 Testing (Specialized)}:
+\begin{itemize}
+    \item \textbf{Formal tilt table test}: 70-degree upright tilt for 10--45 minutes with continuous HR/BP monitoring
+    \begin{itemize}
+        \item Gold standard for POTS and orthostatic hypotension diagnosis
+        \item Cardiology or autonomic specialty clinic; cost \$500--1,500
+    \end{itemize}
+
+    \item \textbf{Quantitative sudomotor axon reflex test (QSART)}: Measures small fiber autonomic function
+    \begin{itemize}
+        \item Detects autonomic neuropathy
+        \item Specialized autonomic labs; cost \$500--1,000
+    \end{itemize}
+
+    \item \textbf{Catecholamine levels}: Plasma or 24-hour urine norepinephrine, epinephrine, dopamine
+    \begin{itemize}
+        \item Low levels support central catecholamine deficiency~\cite{walitt2024deep}
+        \item Available at commercial labs; cost \$150--300
+    \end{itemize}
+\end{itemize}
+
+\textbf{Clinical decision}: \textit{If NASA lean test positive OR HRV chronically low OR catecholamines deficient → Autonomic cycle ACTIVE → Target with fludrocortisone, midodrine, compression, salt loading, L-tyrosine + BH4 cofactors.}
+
+\paragraph{Cycle 4: Neuroinflammation and Central Sensitization.}
+
+\textbf{Diagnostic criteria}: Evidence of neuroinflammation, microglial activation, or central pain/sensory amplification.
+
+\textbf{Tier 1 Testing (Clinical Assessment)}:
+\begin{itemize}
+    \item \textbf{Quantitative sensory testing (QST)}: Pressure pain thresholds, temporal summation
+    \begin{itemize}
+        \item Algometer to measure pressure pain threshold (PPT) at standardized sites
+        \item PPT $<$4 kg/cm² = hyperalgesia, suggests central sensitization
+        \item Temporal summation testing: repeated stimuli produce increasing pain
+        \item Equipment cost \$200--500; can be done in any clinic
+    \end{itemize}
+
+    \item \textbf{Cognitive testing}: Neuropsychological battery or screening tools
+    \begin{itemize}
+        \item Processing speed, working memory, sustained attention deficits
+        \item NIH Toolbox Cognition Battery (free online)
+        \item Formal neuropsych testing: \$1,500--3,000
+    \end{itemize}
+
+    \item \textbf{Symptom scales}: Central Sensitization Inventory (CSI), widespread pain index
+    \begin{itemize}
+        \item CSI $>$40 suggests central sensitization
+        \item Free online questionnaire
+    \end{itemize}
+\end{itemize}
+
+\textbf{Tier 2 Testing (Research/Specialized)}:
+\begin{itemize}
+    \item \textbf{Brain PET imaging}: Neuroinflammation markers (TSPO PET)
+    \begin{itemize}
+        \item Shows microglial activation in ME/CFS~\cite{Nakatomi2014neuroinflammation}
+        \item Research setting; cost \$3,000--5,000+
+    \end{itemize}
+
+    \item \textbf{Cerebrospinal fluid analysis}: Cytokines, chemokines, lactate
+    \begin{itemize}
+        \item Invasive; reserved for research or ruling out other diagnoses
+        \item Cost \$500--1,500
+    \end{itemize}
+\end{itemize}
+
+\textbf{Clinical decision}: \textit{If QST shows hyperalgesia OR CSI $>$40 OR severe cognitive impairment → Neuroinflammatory cycle ACTIVE → Consider LDN, neuroinflammation-targeted supplements, avoid opioids (worsen central sensitization).}
+
+\paragraph{Cycle 5: Endocrine Dysregulation.}
+
+\textbf{Diagnostic criteria}: Evidence of HPA axis dysfunction, sex hormone abnormalities, or thyroid dysregulation beyond primary disease.
+
+\textbf{Tier 1 Testing (Widely Available)}:
+\begin{itemize}
+    \item \textbf{Cortisol rhythm}: 4-point salivary cortisol (morning, noon, evening, bedtime)
+    \begin{itemize}
+        \item Flattened diurnal rhythm = HPA axis dysregulation
+        \item Low morning cortisol $<$5--6 ng/mL may indicate adrenal insufficiency
+        \item Mail-order salivary testing; cost \$100--150
+    \end{itemize}
+
+    \item \textbf{Thyroid comprehensive panel}: TSH, free T4, free T3, reverse T3, TPO antibodies
+    \begin{itemize}
+        \item ME/CFS patients may have normal TSH but low T3 or high rT3
+        \item Widely available; cost \$150--300
+    \end{itemize}
+
+    \item \textbf{Sex hormones}: Testosterone (men), estradiol and progesterone (women), DHEA-S (both)
+    \begin{itemize}
+        \item Low testosterone in men common in ME/CFS
+        \item Estrogen dominance or low progesterone in women
+        \item Standard labs; cost \$100--200
+    \end{itemize}
+\end{itemize}
+
+\textbf{Tier 2 Testing (Specialized)}:
+\begin{itemize}
+    \item \textbf{ACTH stimulation test}: Measures adrenal reserve
+    \begin{itemize}
+        \item Blunted response may indicate HPA axis dysfunction
+        \item Endocrinology clinic; cost \$300--500
+    \end{itemize}
+
+    \item \textbf{24-hour urine free cortisol}: Integrates cortisol production over day
+    \begin{itemize}
+        \item More comprehensive than single-point measurements
+        \item Cost \$100--150
+    \end{itemize}
+\end{itemize}
+
+\textbf{Clinical decision}: \textit{If cortisol rhythm flattened OR low morning cortisol OR thyroid imbalance despite normal TSH OR sex hormone deficiencies → Endocrine cycle ACTIVE → Optimize thyroid (consider T3), address sex hormones if deficient, consider hydrocortisone (5--15 mg daily) if severe HPA dysfunction.}
+
+\subsubsection{Cycle Status Dashboard: Visual Treatment Prioritization}
+
+After completing the diagnostic battery, create a visual representation of which cycles are active. This guides treatment selection and monitoring.
+
+\begin{table}[htbp]
+\centering
+\caption{Example: Cycle Status Dashboard for Individual Patient}
+\label{tab:cycle-dashboard-example}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Cycle} & \textbf{Status} & \textbf{Key Biomarker(s)} & \textbf{Treatment Priority} \\
+\midrule
+Mitochondrial & \cellcolor{red!25}Active & 2-day CPET: 18\% VO$_2$ decline & \textbf{Priority 1} \\
+Immune & \cellcolor{red!25}Active & GPCR Ab: $\beta_2$-AR 95th \%ile & \textbf{Priority 1} \\
+Autonomic & \cellcolor{yellow!25}Borderline & HR increase +28 bpm (lean test) & Monitor \\
+Neuroinflammatory & \cellcolor{green!25}Inactive & CSI: 32, QST: normal & Not targeted \\
+Endocrine & \cellcolor{yellow!25}Borderline & Flat cortisol rhythm & \textbf{Priority 2} \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\footnotesize{\textbf{Interpretation}: This patient has active mitochondrial and immune cycles (Priority 1 targets), borderline autonomic and endocrine cycles (monitor, intervene if worsens), and inactive neuroinflammatory cycle (no specific treatment needed). Recommended protocol: Mitochondrial support stack (CoQ10, NAD$^+$ precursors) + immune intervention (consider immunoadsorption or daratumumab if accessible) + monitor autonomic symptoms.}
+\end{table}
+
+\subsubsection{Treatment Prioritization Algorithm}
+
+\begin{enumerate}
+    \item \textbf{Identify active cycles}: Red status (clear biomarker abnormalities) = active
+    \item \textbf{Prioritize by severity and treatability}:
+    \begin{itemize}
+        \item \textit{Highest priority}: Immune cycle with elevated GPCR autoantibodies (specific targetable pathology; immunoadsorption or daratumumab may be disease-modifying)
+        \item \textit{High priority}: Mitochondrial cycle with 2-day CPET failure (foundational dysfunction; supports all other systems)
+        \item \textit{High priority}: Autonomic cycle with severe POTS (quality of life impact; relatively easy to treat)
+        \item \textit{Medium priority}: Endocrine dysregulation (supportive; may improve energy and cognition)
+        \item \textit{Lower priority}: Neuroinflammatory cycle (harder to target; overlaps with immune interventions)
+    \end{itemize}
+
+    \item \textbf{Staged intervention}:
+    \begin{itemize}
+        \item Start with 1--2 highest-priority cycles
+        \item Assess response at 8--12 weeks
+        \item Add interventions for additional cycles if first targets tolerated
+        \item Re-assess cycle status at 6 months (some cycles may resolve when others are treated)
+    \end{itemize}
+
+    \item \textbf{Monitor for new cycle entry}:
+    \begin{itemize}
+        \item Repeat diagnostic battery at 6--12 month intervals
+        \item Progressive disease may activate new cycles over time (sequential cycle entry model)
+        \item Early detection allows intervention before entrenchment
+    \end{itemize}
+\end{enumerate}
+
+\subsubsection{Cost-Benefit Analysis: Which Tests Provide Most Information Per Dollar?}
+
+For patients with limited financial resources, prioritize high-yield, low-cost tests:
+
+\begin{table}[htbp]
+\centering
+\caption{Cost-Effectiveness Ranking of Cycle Diagnostic Tests}
+\label{tab:cycle-test-cost-effectiveness}
+\small
+\begin{tabular}{@{}p{4cm}p{2.5cm}p{3cm}p{4cm}@{}}
+\toprule
+\textbf{Test} & \textbf{Approximate Cost} & \textbf{Information Yield} & \textbf{Cost-Effectiveness} \\
+\midrule
+NASA lean test & \$0 & Autonomic cycle: definitive & \textbf{Excellent} \\
+HRV monitoring (app) & \$0--50 & Autonomic ongoing tracking & \textbf{Excellent} \\
+Lactate post-exertion & \$20--50 & Mitochondrial: suggestive & \textbf{Very good} \\
+Salivary cortisol 4-point & \$100--150 & Endocrine: HPA axis & \textbf{Very good} \\
+GPCR autoantibodies & \$300--500 & Immune: predictive for immunotherapy & \textbf{Good} (if considering immunotherapy) \\
+NK cell count/function & \$150--300 & Immune: general dysfunction & \textbf{Moderate} \\
+2-day CPET & \$1,500--3,000 & Mitochondrial: gold standard & \textbf{Good} (if accessible) \\
+Cytokine panel & \$200--400 & Immune: high variability & \textbf{Moderate} (unreliable) \\
+Brain PET & \$3,000--5,000+ & Neuroinflammation: research & \textbf{Poor} (not actionable clinically) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Recommended minimal battery} (total cost \$200--300):
+\begin{enumerate}
+    \item NASA lean test + HRV app (autonomic): \$0--50
+    \item Lactate post-exertion (mitochondrial): \$20--50
+    \item Salivary cortisol rhythm (endocrine): \$100--150
+    \item Basic immune panel: CBC with differential, NK cell count (\$50--100)
+\end{enumerate}
+
+This provides actionable information on 3--4 of the 5 cycles at minimal cost.
+
+\textbf{Expanded battery for aggressive intervention} (total cost \$1,000--1,500):
+\begin{itemize}
+    \item Add GPCR autoantibodies (\$300--500) if considering immunotherapy
+    \item Add 2-day CPET (\$1,500--3,000) if accessible and critical for treatment decisions
+\end{itemize}
+
+\subsubsection{Limitations and Caveats}
+
+\begin{itemize}
+    \item \textbf{Biomarker variability}: Many measures (cytokines, HRV, cortisol) show day-to-day variation; single measurements may not reflect true status
+    \item \textbf{No validated cutoffs}: For most biomarkers in ME/CFS, we lack consensus diagnostic thresholds; interpretation requires clinical judgment
+    \item \textbf{Cycle interactions}: Treating one cycle may improve biomarkers in another (e.g., immune intervention may improve mitochondrial function); serial testing required
+    \item \textbf{Access barriers}: Advanced tests (2-day CPET, GPCR antibodies, PET imaging) are not widely available; many patients will rely on Tier 1 testing only
+    \item \textbf{Insurance coverage}: Most specialized ME/CFS testing is not covered by insurance; out-of-pocket costs are significant
+\end{itemize}
+
+\begin{keypoint}[Precision Medicine in Practice]
+Personalized cycle mapping represents the implementation of precision medicine for ME/CFS. Rather than treating all patients identically, this framework:
+\begin{enumerate}
+    \item \textbf{Identifies active pathology} in each individual through biomarker assessment
+    \item \textbf{Prioritizes interventions} targeting documented abnormalities
+    \item \textbf{Avoids unnecessary treatments} for inactive cycles (reducing side effects and cost)
+    \item \textbf{Monitors response} through serial biomarker tracking
+    \item \textbf{Adjusts strategy} as cycle status changes over time
+\end{enumerate}
+
+This approach is more complex than ``try everything'' empiricism, but it maximizes treatment efficacy while minimizing risk and cost. As ME/CFS research progresses and biomarkers become more standardized, cycle mapping will evolve from a conceptual framework to a validated clinical tool.
+\end{keypoint}
 
 \subsection{Early-Disease Anti-Cytokine Strategy}
 
