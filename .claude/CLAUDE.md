@@ -30,7 +30,7 @@ nix run .#clean        # Clean artifacts
 - Extract tokens from: `<system_warning>Token usage: 152000/200000; 48000 remaining</system_warning>`
 - Calculate: `percentage = (tokens_used / 200000) * 100`
 - Display at start of every response
-- **When percentage exceeds 70%**, IMMEDIATELY evaluate cost trade-offs:
+- **When percentage exceeds 35%**, IMMEDIATELY evaluate cost trade-offs (note: compaction occurs at ~100k tokens, so 35% of 200k = 70% of effective limit):
   - **Compaction cost**: Processing current tokens + generating summary at 95% threshold
     (typically: `~current_tokens * 0.000015` for input + summary generation)
   - **Fresh start cost**: New session with system prompt + CLAUDE.md (cached) + continuation summary
@@ -39,7 +39,7 @@ nix run .#clean        # Clean artifacts
 
 ### Decision Logic
 
-**If fresh start is cheaper** (typically when >70% is unique conversation history):
+**If fresh start is cheaper** (typically when >35% is unique conversation history):
 
 1. **Automatically generate continuation prompt** without asking
 2. **Present to user**: "We're at X% context usage. Starting a new session would be more cost-effective. Here's your continuation prompt:"
@@ -51,10 +51,10 @@ nix run .#clean        # Clean artifacts
    - Critical context to preserve (NOT full conversation)
 4. **Instruct user**: "Copy the prompt above, then run: `/rename 'session-name'` → `/clear` → paste prompt in new session"
 
-**If continuing is cheaper** (typically when <70% or much context is cached):
+**If continuing is cheaper** (typically when <35% or much context is cached):
 
 - Continue normally, mention "continuing is more cost-effective"
-- Auto-compact will trigger at 95% if needed
+- Auto-compact will trigger at ~50% (100k tokens) if needed
 
 ### Continuation Prompt Template
 
@@ -70,21 +70,25 @@ Context: [essential info only].
 
 ### Triggering Behavior
 
-**At 70-79% context:**
+Note: Thresholds are halved because Claude Code compacts at ~100k tokens, not 200k.
+Original 70% threshold meant 140k tokens—but compaction at 100k made this unreachable.
+70% of the *actual* limit (100k) = 70k tokens, which is 35% of the displayed 200k max.
+
+**At 35-39% context (~70-78k tokens):**
 
 - Mention: "Note: We're at X% context. Monitoring for cost optimization."
 - Continue working normally
 
-**At 80-89% context:**
+**At 40-44% context (~80-88k tokens):**
 
 - Evaluate costs and inform user of decision
 - If continuing is cheaper: "We're at X% context, but continuing is more cost-effective due to prompt caching."
 - If switching is cheaper: Generate continuation prompt immediately
 
-**At 90%+ context:**
+**At 45%+ context (~90k+ tokens):**
 
 - ALWAYS generate continuation prompt (switching is almost always cheaper at this point)
-- Auto-compact at 95% is expensive, switching now saves significant costs
+- Auto-compact at ~50% (100k) is expensive, switching now saves significant costs
 
 ### Hook Integration
 
