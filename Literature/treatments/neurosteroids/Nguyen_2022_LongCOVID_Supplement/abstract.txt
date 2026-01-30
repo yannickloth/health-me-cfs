@@ -1,0 +1,16 @@
+The results of a unique dietary supplement (nutraceutical formulation) used to treat the symptoms of long-haul COVID
+
+Nguyen SA, Mace TA, Roadman W, Carcamo-Cavazos V, Droller MJ, Gerson SL, Lee Z
+
+J Transl Med. 2022 Nov 18;20(1):522
+
+PMID: 36386945
+DOI: 10.1186/s12967-022-03735-7
+
+BACKGROUND: Approximately 75% of COVID-19 survivors who did not require hospitalization still suffer from prolonged Long COVID symptoms. Current clinical treatments offer minimal or no benefit to patients. We performed a one-arm open-labeled study to evaluate the efficacy of a unique dietary supplement formulation (nutraceutical) in treating the symptoms of Long COVID.
+
+METHODS: We found that β-caryophyllene and pregnenolone have a significant synergistic effect in the resolution of LPS-induced sepsis and inflammation in mice. These two compounds were combined with seven others to design a unique dietary supplement formulation to alleviate long COVID inflammatory and neurological disorders. We performed a one-arm open-labeled study at a single site with 51 eligible patients from 18 states. Each participant recorded the severity level of 12 symptoms including fatigue, weakness, cardiac and neurological symptoms, shortness of breath, gastrointestinal disorders, and other symptoms at baseline, 2- and 4-week time points.
+
+RESULTS: All the symptoms were significantly milder after 2 weeks, with further improvement after 4 weeks. All symptoms were significantly different from baseline to week 2 and to week 4 with p < 0.0001. Each symptom showed improvement in 72-84% of the participants. There were no significant adverse effects.
+
+CONCLUSIONS: This one-arm study demonstrated that the unique dietary supplement (nutraceutical) formulation was effective in reducing the severity and prevalence of long-haul COVID symptoms with no significant adverse effects. This formulation has potential applications for other chronic inflammatory conditions.

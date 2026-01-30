@@ -1,0 +1,16 @@
+PMID: 36758522
+PMCID: PMC10183837
+DOI: 10.1016/j.chom.2023.01.004
+
+ABSTRACT
+
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating disease characterized by extreme fatigue and additional symptoms including autonomic dysfunction, sleep problems, cognitive dysfunction, and post-exertional malaise. Its etiology remains unclear despite decades of research. While recent studies have suggested gut dysbiosis in ME/CFS, the functional importance of microbiome alterations for disease pathogenesis remains unknown. Here, we integrated multi-omic data from 106 ME/CFS patients and 91 healthy controls. Shotgun metagenomic profiling revealed differences in gut microbiome diversity, abundances, functional pathways, and interactions. Fecal metabolomic analyses, including targeted short-chain fatty acid (SCFA) quantification, confirmed deficient butyrate synthesis. Two major butyrate-producing bacterial species, Faecalibacterium prausnitzii and Eubacterium rectale, were reduced in ME/CFS, and functional metagenomics, qPCR, and metabolomics confirmed a deficient microbial capacity for butyrate synthesis. The abundance of F. prausnitzii was inversely associated with fatigue severity. These findings demonstrate the functional nature of gut dysbiosis and the underlying microbial network disturbance in ME/CFS.
+
+KEY FINDINGS
+
+- 106 ME/CFS patients vs 91 healthy controls across multiple geographic sites
+- Reduced abundance of Faecalibacterium prausnitzii and Eubacterium rectale (major butyrate producers)
+- Functional metagenomics, qPCR, and metabolomics confirmed deficient butyrate synthesis capacity
+- F. prausnitzii abundance inversely correlated with fatigue severity
+- Machine learning classifiers identified disease-associated bacterial patterns
+- Multi-omic integration revealed functional dysbiosis, not just compositional changes

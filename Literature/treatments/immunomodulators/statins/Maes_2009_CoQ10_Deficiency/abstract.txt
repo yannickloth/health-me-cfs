@@ -1,0 +1,20 @@
+Title: Coenzyme Q10 deficiency in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is related to fatigue, autonomic and neurocognitive symptoms and is another risk factor explaining the early mortality in ME/CFS due to cardiovascular disorder
+
+Authors: Michael Maes, Ivanka Mihaylova, Marta Kubera, Marc Uytterhoeven, Nicolas Vrydags, Eugene Bosmans
+
+Journal: Neuro Endocrinology Letters
+Year: 2009
+Volume: 30
+Issue: 4
+Pages: 470-476
+PMID: 20010505
+
+ABSTRACT:
+
+OBJECTIVE: The aim of the present study was to examine whether myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is accompanied by lowered plasma coenzyme Q10 (CoQ10).
+
+METHODS: Plasma CoQ10 was assayed in 58 ME/CFS patients and 22 normal controls.
+
+RESULTS: Plasma CoQ10 was significantly (p=0.00001) lower in ME/CFS patients than in normal controls. 44.8% of the ME/CFS patients had CoQ10 values below the lowest value of the control group, i.e. 490 micrograms per liter. There was a significant and inverse relationship between plasma CoQ10 and the severity of fatigue, autonomic symptoms, and neurocognitive symptoms, such as concentration problems. Patients with severely lowered CoQ10 values (<390 micrograms per liter) showed significantly (p<0.01) more severe neurocognitive deficits.
+
+CONCLUSION: The results show that lowered levels of CoQ10 play a role in the pathophysiology of ME/CFS and that symptoms, such as fatigue, and autonomic and neurocognitive symptoms may be caused by CoQ10 depletion. CoQ10 deficiency in ME/CFS may be another risk factor explaining the early mortality due to cardiovascular disorder in ME/CFS. Since statins significantly decrease plasma CoQ10, ME/CFS should be regarded as a relative contraindication for treatment with statins without CoQ10 supplementation.

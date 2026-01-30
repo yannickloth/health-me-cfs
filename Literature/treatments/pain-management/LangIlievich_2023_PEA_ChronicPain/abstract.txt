@@ -1,0 +1,16 @@
+Palmitoylethanolamide in the Treatment of Chronic Pain: A Systematic Review and Meta-Analysis of Double-Blind Randomized Controlled Trials
+
+Lang-Ilievich K, Luchner C, Kranke P, Klivinyi C, Schittek GA, Simões-Wüst AP, Ademi-Puto A, Memis-Bölek D, Hackner K, Szilagyi IS.
+
+Nutrients. 2023 Mar 16;15(6):1350. doi: 10.3390/nu15061350.
+
+BACKGROUND: Palmitoylethanolamide (PEA) is a naturally occurring fatty acid amide with analgesic and anti-inflammatory properties. This systematic review and meta-analysis evaluated the efficacy and safety of PEA for chronic pain management.
+
+METHODS: Systematic review and meta-analysis of double-blind randomized controlled trials. Eleven studies with 774 combined participants (383 PEA, 391 control) were included. Oral dosages ranged from 300-1200 mg daily.
+
+RESULTS: PEA significantly reduced pain scores relative to comparators with a standard mean difference of 1.68 on an 11-point scale (p = 0.00001). Nine of eleven studies reported significant analgesic benefits favoring PEA treatment. Six studies reported no treatment-related adverse effects. Three others found no differences between PEA and placebo groups. Only one study documented mild, transient gastrointestinal symptoms in PEA recipients.
+
+CONCLUSIONS: PEA is an effective and well-tolerated treatment for chronic pain. High heterogeneity among studies (I² = 93%) regarding indications, dosages, and treatment duration complicated synthesis. Optimal dosing parameters and treatment duration remain undefined.
+
+PMID: Not available from source
+DOI: 10.3390/nu15061350
