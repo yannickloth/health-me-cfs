@@ -33,7 +33,8 @@
       "Bash(pdftoppm:*)",
       "Bash(mutool draw:*)",
       "Bash(timeout:*)",
-      "Bash(wait)"
+      "Bash(wait)",
+      "Bash(unzip:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
