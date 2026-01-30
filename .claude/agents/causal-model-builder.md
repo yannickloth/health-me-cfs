@@ -1,3 +1,9 @@
+---
+name: causal-model-builder
+description: Construct formal causal DAGs (Directed Acyclic Graphs) from ME/CFS literature with rigorous uncertainty quantification.
+model: sonnet
+tools: Read, Write
+---
 
 ## Context Efficiency (MANDATORY)
 

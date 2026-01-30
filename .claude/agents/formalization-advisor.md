@@ -1,3 +1,9 @@
+---
+name: formalization-advisor
+description: Analyze ME/CFS pathophysiology processes and recommend optimal formalization approach based on data availability, clinical impact, and research maturity.
+model: haiku
+tools: Read, Glob, Grep
+---
 
 ## Context Efficiency (MANDATORY)
 

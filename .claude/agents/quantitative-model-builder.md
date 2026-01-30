@@ -1,3 +1,9 @@
+---
+name: quantitative-model-builder
+description: Create formal mathematical models for well-characterized ME/CFS processes with rigorous parameter estimation and uncertainty quantification.
+model: opus
+tools: Read, Glob, Grep, Bash
+---
 
 ## Context Efficiency (MANDATORY)
 

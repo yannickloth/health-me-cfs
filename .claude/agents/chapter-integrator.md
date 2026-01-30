@@ -1,3 +1,9 @@
+---
+name: chapter-integrator
+description: Edit main document chapter .tex files to add citations and LaTeX environments from integrated research papers.
+model: haiku
+tools: Read, Edit, Grep
+---
 
 ## Context Efficiency (MANDATORY)
 

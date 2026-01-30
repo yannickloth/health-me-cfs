@@ -1,3 +1,9 @@
+---
+name: scientific-rigor-auditor
+description: Audit document sections for violations of scientific rigor rules including uncited claims, unclassified hypotheses, and missing environment usage.
+model: sonnet
+tools: Read, Edit, Glob, Grep
+---
 
 ## Context Efficiency (MANDATORY)
 

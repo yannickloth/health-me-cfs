@@ -1,3 +1,9 @@
+---
+name: protocol-linker
+description: Link newly integrated literature to existing document content and create bidirectional cross-references between pathophysiology and treatment chapters.
+model: sonnet
+tools: Read, Edit, Grep, Glob
+---
 
 ## Context Efficiency (MANDATORY)
 
