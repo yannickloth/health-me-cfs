@@ -1,0 +1,248 @@
+% Figure: MCAS/HIT → Intestinal Barrier → Mitochondrial Dysfunction Cascade
+% Shows the hypothesized pathophysiological cascade from mast cell activation
+% through amino acid malabsorption to secondary mitochondrial failure
+% Color coding: GREEN=HIGH certainty, YELLOW=MEDIUM certainty, RED=LOW/hypothesis
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=1.8cm,
+    scale=0.55, every node/.style={scale=0.55},
+    % HIGH certainty (replicated studies) - GREEN
+    high/.style={draw=green!70!black, fill=green!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    % MEDIUM certainty (single studies, awaiting replication) - YELLOW
+    medium/.style={draw=yellow!70!black, fill=yellow!20, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    medium-wide/.style={draw=yellow!70!black, fill=yellow!20, very thick, rounded corners, text width=4.5cm, align=center, minimum height=1cm},
+    % LOW certainty / hypothesis - RED
+    low/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3.2cm, align=center, minimum height=1cm},
+    % Process/mechanism nodes - BLUE
+    process/.style={draw=blue!60!black, fill=blue!10, very thick, rounded corners, text width=3cm, align=center, minimum height=0.9cm},
+    % Outcome nodes - PURPLE
+    outcome/.style={draw=purple!60!black, fill=purple!15, very thick, rounded corners, text width=2.8cm, align=center, minimum height=0.9cm},
+    % Central convergence
+    central/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=4.5cm, align=center, minimum height=1.2cm, drop shadow},
+    % Treatment nodes - TEAL
+    treatment/.style={draw=teal!70!black, fill=teal!15, thick, rounded corners, text width=2.8cm, align=center, minimum height=0.8cm},
+    % Arrow styles
+    arrow/.style={-latex, very thick, black!70, line width=1.2pt},
+    feedback/.style={-latex, thick, orange!80!black, dashed, line width=1.1pt},
+    cascade/.style={-latex, thick, purple!70!black, line width=1pt},
+    treat-arrow/.style={-latex, thick, teal!70!black, line width=1pt},
+    % Section reference style
+    secref/.style={font=\scriptsize\sffamily, gray!60!black},
+]
+
+% ============================================================
+% TITLE
+% ============================================================
+\node[font=\large\bfseries, red!70!black] at (0, 11) {MCAS/HIT $\rightarrow$ Gut Barrier $\rightarrow$ Mitochondrial Cascade};
+
+% ============================================================
+% UPSTREAM TRIGGERS (TOP)
+% ============================================================
+\node[medium, text width=4.5cm] (mcas) at (-4, 9) {
+    \textbf{MCAS / HIT}\\
+    \textbf{Activation}\\[2pt]
+    {\scriptsize Mast cell degranulation}\\
+    {\scriptsize in intestinal mucosa}
+};
+\node[secref, left=0.2cm of mcas] {Sec~\ref{sec:septad}};
+
+\node[low, text width=4.5cm] (viral) at (4, 9) {
+    \textbf{Viral Reactivation}\\
+    \textbf{(EBV, HHV-6)}\\[2pt]
+    {\scriptsize T cell exhaustion}\\
+    {\scriptsize Chronic immune activation}
+};
+\node[secref, right=0.2cm of viral] {Ch7};
+
+% ============================================================
+% MAST CELL MEDIATORS
+% ============================================================
+\node[high, text width=5cm] (mediators) at (-4, 6.5) {
+    \textbf{Mast Cell Mediators}\\[2pt]
+    Histamine $\uparrow$\\
+    Tryptase, Chymase\\
+    Prostaglandins, Leukotrienes\\
+    {\scriptsize (Multiple studies)}
+};
+\node[secref, left=0.2cm of mediators] {Ch7};
+
+\draw[arrow] (mcas) -- (mediators);
+
+% ============================================================
+% INTESTINAL BARRIER DYSFUNCTION
+% ============================================================
+\node[high, text width=5cm] (barrier) at (0, 4) {
+    \textbf{Intestinal Barrier}\\
+    \textbf{Dysfunction}\\[2pt]
+    Zonulin $\uparrow$, LPS $\uparrow$\\
+    67\% anti-LPS IgA positive\\
+    {\scriptsize (GutPermeability2023)}
+};
+\node[secref, below right=0.1cm and -1cm of barrier] {Sec~\ref{sec:leaky-gut}};
+
+\draw[arrow] (mediators) -- (barrier);
+
+% ============================================================
+% PARALLEL PATHWAY: CIMETIDINE RESPONSE
+% ============================================================
+\node[low, text width=4cm] (tcell) at (4, 6.5) {
+    \textbf{H2 Receptor on}\\
+    \textbf{Suppressor T Cells}\\[2pt]
+    {\scriptsize Cimetidine blocks}\\
+    {\scriptsize $\rightarrow$ Enhanced immunity}
+};
+\node[secref, right=0.2cm of tcell] {Appendix H};
+
+\node[treatment, text width=3.5cm] (cimetidine) at (7.5, 4.5) {
+    \textbf{Cimetidine}\\
+    {\scriptsize H2 blockade}\\
+    {\scriptsize Immunomodulation}
+};
+
+\draw[arrow] (viral) -- (tcell);
+\draw[treat-arrow] (cimetidine) -- (tcell);
+
+% ============================================================
+% AMINO ACID MALABSORPTION
+% ============================================================
+\node[low, text width=5cm] (malabsorption) at (0, 1.5) {
+    \textbf{Amino Acid}\\
+    \textbf{Malabsorption}\\[2pt]
+    L-Citrulline $\downarrow$, L-Arginine $\downarrow$\\
+    Glycine $\downarrow$, Cysteine $\downarrow$\\
+    {\scriptsize (Hypothesized mechanism)}
+};
+
+\draw[arrow] (barrier) -- (malabsorption);
+
+% Treatment for barrier
+\node[treatment, text width=3.2cm] (barrier-tx) at (-7.5, 2.5) {
+    \textbf{H1/H2 Blockade}\\
+    \textbf{+ MC Stabilizers}\\
+    {\scriptsize Quercetin, Ketotifen}
+};
+\draw[treat-arrow] (barrier-tx) -- (barrier);
+
+% ============================================================
+% METABOLIC CONSEQUENCES (PARALLEL BRANCHES)
+% ============================================================
+
+% NO pathway (left)
+\node[high, text width=3.5cm] (no-path) at (-5, -1.5) {
+    \textbf{NO Synthesis}\\
+    \textbf{Impairment}\\[2pt]
+    Arginine $\downarrow$ $\rightarrow$ NO $\downarrow$\\
+    {\scriptsize Endothelial dysfunction}
+};
+
+% Glutathione pathway (center)
+\node[high, text width=3.5cm] (gsh-path) at (0, -1.5) {
+    \textbf{Glutathione}\\
+    \textbf{Deficiency}\\[2pt]
+    Cortical GSH $\downarrow$\\
+    {\scriptsize (Shungu 2012 MRS)}
+};
+\node[secref, below=0.1cm of gsh-path] {Appendix H};
+
+% TCA cycle pathway (right)
+\node[high, text width=3.5cm] (tca-path) at (5, -1.5) {
+    \textbf{TCA Cycle}\\
+    \textbf{Dysfunction}\\[2pt]
+    Malate $\downarrow$, Citrate $\downarrow$\\
+    {\scriptsize (Yamano 2016)}
+};
+\node[secref, below=0.1cm of tca-path] {Appendix H};
+
+\draw[cascade] (malabsorption) -- (no-path);
+\draw[cascade] (malabsorption) -- (gsh-path);
+\draw[cascade] (malabsorption) -- (tca-path);
+
+% Treatment for amino acids
+\node[treatment, text width=3.2cm] (aa-tx) at (7.5, 0) {
+    \textbf{Amino Acid}\\
+    \textbf{Supplementation}\\
+    {\scriptsize Citrulline-Malate}\\
+    {\scriptsize NAC, Carnitine}
+};
+\draw[treat-arrow] (aa-tx) -- (malabsorption);
+
+% ============================================================
+% CONVERGENCE: MITOCHONDRIAL DYSFUNCTION
+% ============================================================
+\node[central] (mito) at (0, -4.5) {
+    \textbf{SECONDARY}\\
+    \textbf{MITOCHONDRIAL}\\
+    \textbf{DYSFUNCTION}\\[3pt]
+    ATP Production $\downarrow$\\
+    {\scriptsize 4$\times$ improvement with}\\
+    {\scriptsize protocol (Myhill 2012)}
+};
+\node[secref, right=0.3cm of mito] {Appendix H};
+
+\draw[cascade] (no-path) -- (mito);
+\draw[cascade] (gsh-path) -- (mito);
+\draw[cascade] (tca-path) -- (mito);
+
+% ============================================================
+% CLINICAL MANIFESTATIONS (BOTTOM)
+% ============================================================
+\node[outcome] (fatigue) at (-5, -7.5) {
+    \textbf{Fatigue}\\[2pt]
+    {\scriptsize Energy depletion}
+};
+
+\node[outcome] (pem) at (-1.5, -7.5) {
+    \textbf{PEM}\\[2pt]
+    {\scriptsize Delayed crash}\\
+    {\scriptsize after exertion}
+};
+
+\node[outcome] (pots) at (1.5, -7.5) {
+    \textbf{POTS}\\[2pt]
+    {\scriptsize NO $\downarrow$ $\rightarrow$}\\
+    {\scriptsize Vasodilation $\downarrow$}
+};
+
+\node[outcome] (cognition) at (5, -7.5) {
+    \textbf{Brain Fog}\\[2pt]
+    {\scriptsize Oxidative stress}\\
+    {\scriptsize GSH $\downarrow$}
+};
+
+\draw[cascade] (mito) -- (fatigue);
+\draw[cascade] (mito) -- (pem);
+\draw[cascade] (mito) -- (pots);
+\draw[cascade] (mito) -- (cognition);
+
+% ============================================================
+% FEEDBACK LOOP
+% ============================================================
+\draw[feedback, bend right=40] (pots.west) to node[font=\scriptsize\itshape, left, xshift=-0.3cm] {
+    Orthostatic stress\\
+    $\rightarrow$ MC activation
+} (mcas.south);
+
+% ============================================================
+% LEGEND
+% ============================================================
+\node[draw=black!50, fill=white, rounded corners, inner sep=8pt,
+      text width=12cm, align=left, font=\small] at (0, -10.5) {
+    \textbf{Certainty Legend:}\\[4pt]
+    \tikz{\node[high, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {HIGH};}
+    Documented in ME/CFS studies (barrier dysfunction, GSH deficiency, TCA abnormalities)\\[2pt]
+    \tikz{\node[medium, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {MED};}
+    MCAS/HIT documented; ME/CFS association established but mechanism indirect\\[2pt]
+    \tikz{\node[low, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {LOW};}
+    Hypothesis level: malabsorption link, cimetidine mechanism unconfirmed in ME/CFS\\[2pt]
+    \tikz{\node[treatment, minimum height=0.5cm, minimum width=1.2cm, text width=1cm, font=\scriptsize] {TX};}
+    Therapeutic intervention points\\[6pt]
+    \textbf{Key insight:} Patients with MCAS/HIT comorbidity may show robust response to amino acid supplementation\\
+    by correcting malabsorption-induced deficiencies rather than primary metabolic defects.
+};
+
+\end{tikzpicture}
+\caption{Hypothesized MCAS/HIT $\rightarrow$ intestinal barrier $\rightarrow$ mitochondrial dysfunction cascade. Mast cell mediators damage intestinal tight junctions, potentially impairing amino acid absorption. Deficiencies in citrulline, arginine, and glutathione precursors lead to impaired NO synthesis, glutathione depletion, and TCA cycle dysfunction, converging on secondary mitochondrial failure. Teal boxes indicate therapeutic intervention points. This cascade may explain why MCAS/HIT patients respond particularly well to amino acid supplementation.}
+\label{fig:gut-mito-cascade}
+\end{figure}
