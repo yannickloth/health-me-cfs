@@ -1,0 +1,556 @@
+% Case Study: Viral-Immune-Metabolic ME/CFS Phenotype
+% Patient: Exemplar Case 2909 (MajesticSpinach2909)
+% Created: 2026-01-30
+% Privacy: Anonymized with patient consent
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+% Color definitions
+\definecolor{keyfindingbg}{RGB}{212,237,218}
+\definecolor{keyfindingborder}{RGB}{40,167,69}
+\definecolor{hypothesisbg}{RGB}{217,237,247}
+\definecolor{hypothesisborder}{RGB}{23,162,184}
+\definecolor{cautionbg}{RGB}{248,215,218}
+\definecolor{cautionborder}{RGB}{220,53,69}
+\definecolor{mechanismbg}{RGB}{232,232,232}
+\definecolor{mechanismborder}{RGB}{108,117,125}
+
+\newtcolorbox{keyfinding}[1][]{
+  colback=keyfindingbg, colframe=keyfindingborder,
+  title={\textbf{Key Finding: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\newtcolorbox{hypothesis}[1][]{
+  colback=hypothesisbg, colframe=hypothesisborder,
+  title={\textbf{Hypothesis: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\newtcolorbox{caution}[1][]{
+  colback=cautionbg, colframe=cautionborder,
+  title={\textbf{Caution: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\newtcolorbox{mechanism}[1][]{
+  colback=mechanismbg, colframe=mechanismborder,
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\title{Case Study: Viral-Immune-Metabolic ME/CFS Phenotype\\[0.5em]
+\large Exemplar Case 2909 --- ``Cimetidine-Responder'' Subtype}
+\author{ME/CFS Documentation Project}
+\date{January 30, 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{caution}{Privacy and Consent}
+This case study is published with explicit patient consent. The patient (pseudonym: ``Exemplar Case 2909'') has agreed to serve as a reference case for the documentation project. Identifying details have been anonymized while preserving clinically relevant information.
+\end{caution}
+
+\tableofcontents
+\newpage
+
+%=============================================================================
+\section{Clinical Presentation}
+\label{sec:presentation}
+%=============================================================================
+
+\subsection{Demographics and History}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value} \\
+\midrule
+Sex & Female \\
+Location & Central Europe (German-speaking) \\
+Illness duration & 12 years (symptoms since $\sim$2014) \\
+ME/CFS diagnosis & 2022 (prior misdiagnoses included fibromyalgia) \\
+Suspected trigger & EBV infection (patient-reported) \\
+\bottomrule
+\end{tabular}
+\caption{Demographic summary}
+\end{table}
+
+\subsection{Severity Trajectory}
+
+The patient's severity has fluctuated significantly over the illness course:
+
+\begin{enumerate}
+    \item \textbf{2014--2024 (10 years)}: Moderate severity
+    \begin{itemize}
+        \item Functional limitations but able to maintain some activities
+        \item Multiple healthcare encounters, diagnosis delayed until 2022
+    \end{itemize}
+
+    \item \textbf{Autumn 2024}: COVID-19 infection $\rightarrow$ Myocarditis
+    \begin{itemize}
+        \item Acute deterioration from moderate to severe
+        \item Documented myocarditis (cardiologist-confirmed)
+        \item Became largely bedbound
+    \end{itemize}
+
+    \item \textbf{2025}: Treatment response phase
+    \begin{itemize}
+        \item Introduction of cimetidine + amino acid supplementation
+        \item \textbf{Significant improvement}: able to leave bed, short walks possible
+        \item Demonstrates reversibility of severe state with appropriate intervention
+    \end{itemize}
+
+    \item \textbf{Late 2025--January 2026}: Relapse
+    \begin{itemize}
+        \item One-month respiratory infection triggered crash
+        \item Currently bedbound (crash phase active)
+        \item Previous response to treatment provides hope for recovery
+    \end{itemize}
+\end{enumerate}
+
+\begin{keyfinding}{Treatment-Responsive Severe ME/CFS}
+This patient demonstrates that severe ME/CFS can show dramatic improvement with targeted intervention (cimetidine + amino acids), suggesting a treatable subtype. The relapse after infection indicates vulnerability but not irreversibility.
+\end{keyfinding}
+
+%=============================================================================
+\section{Baseline Phenotype}
+\label{sec:phenotype}
+%=============================================================================
+
+\subsection{Confirmed Diagnoses}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{p{4.5cm}p{3.5cm}p{5.5cm}}
+\toprule
+\textbf{Condition} & \textbf{Status} & \textbf{Notes} \\
+\midrule
+ME/CFS & Confirmed (2022) & Canadian Consensus Criteria \\
+POTS & Confirmed & Cardiologist-diagnosed; medically controlled \\
+Histamine Intolerance (HIT) & Confirmed & Elaborate dietary management \\
+Myocarditis & Confirmed (2024) & Post-COVID complication \\
+MCAS & Suspected & Clinical features present; formal workup pending \\
+\bottomrule
+\end{tabular}
+\caption{Diagnostic status}
+\end{table}
+
+\subsection{POTS Characterization}
+
+\begin{itemize}
+    \item \textbf{Pre-treatment}: Heart rate spikes to 150+ bpm upon standing
+    \item \textbf{With Ivabradine 5 mg/day}: Heart rate controlled
+    \item \textbf{Persistent orthostatic intolerance}: Blood pressure drops continue despite HR control
+    \item \textbf{Management}: ORS solution, salt loading, compression, slow position changes
+    \item \textbf{Monitoring}: Tracking watch and/or Visible app for self-monitoring
+\end{itemize}
+
+\subsection{Histamine Intolerance Features}
+
+\begin{itemize}
+    \item Multiple food intolerances and true allergies
+    \item Elaborate low-histamine dietary protocol
+    \item Symptoms fluctuate with dietary triggers
+    \item Responds to H1/H2 blockade
+    \item Butyrate-supporting diet (green bananas, resistant starch)
+\end{itemize}
+
+\subsection{Septad Component Assessment}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Septad Component} & \textbf{Present} & \textbf{Certainty} \\
+\midrule
+ME/CFS & Yes & Confirmed \\
+POTS/Dysautonomia & Yes & Confirmed \\
+MCAS & Probable & Clinical features, formal workup pending \\
+HIT (related to MCAS) & Yes & Confirmed \\
+hEDS/Hypermobility & Unknown & Not assessed \\
+GI Dysmotility & Probable & Dietary management suggests involvement \\
+Chronic Infection & Suspected & EBV trigger; testing pending \\
+Small Fiber Neuropathy & Unknown & Not assessed \\
+Autoimmunity & Unknown & Not assessed \\
+\bottomrule
+\end{tabular}
+\caption{Septad component status}
+\end{table}
+
+%=============================================================================
+\section{Treatment Response Timeline}
+\label{sec:treatment}
+%=============================================================================
+
+\subsection{Breakthrough Response: Cimetidine + Amino Acids}
+
+\begin{keyfinding}{``Got Me Out of Bed''}
+Patient reports that \textbf{cimetidine combined with amino acid supplementation} produced a dramatic improvement: ``The amino acids and cimetidine got me out of bed.'' This response was reproducible and consistent with published literature on both interventions.
+\end{keyfinding}
+
+\subsubsection{Cimetidine (H2 Receptor Antagonist)}
+
+\begin{itemize}
+    \item \textbf{Dose}: 200 mg twice daily
+    \item \textbf{Response}: Significant energy improvement
+    \item \textbf{Mechanism hypothesis}: Immunomodulation against herpesviruses (EBV, HHV-6)
+    \item \textbf{Status}: Currently paused (replaced by Ketotifen for sleep); planned to resume
+\end{itemize}
+
+\subsubsection{Amino Acid Supplementation}
+
+Core amino acids showing benefit:
+\begin{itemize}
+    \item \textbf{L-Citrulline-Malate}: NO synthesis, TCA cycle support
+    \item \textbf{L-Arginine}: NO precursor
+    \item \textbf{L-Glutathione / NAC}: Antioxidant support
+    \item \textbf{D-Ribose}: ATP precursor (15 g/day in divided doses)
+\end{itemize}
+
+\subsection{Current Protocol (January 2026)}
+
+\subsubsection{Medications}
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Medication} & \textbf{Dose} & \textbf{Timing} & \textbf{Indication} \\
+\midrule
+Low-dose Aripiprazole & 1.5 mg & Morning & Dopamine modulation \\
+Levocetirizine & 5 mg & Morning & H1 antihistamine \\
+Ivabradine & 2.5 mg & BID & Heart rate control (POTS) \\
+Ketotifen & 1 mg & Evening & Mast cell stabilizer, sleep \\
+LDN (Naltrexone) & 0.5 mg & Evening & Neuroinflammation \\
+\midrule
+\multicolumn{4}{l}{\textit{Planned:}} \\
+Mestinon (Pyridostigmine) & 20 mg & --- & POTS, autonomic function \\
+Pregnenolone & 30 mg & Morning & Neurosteroid support \\
+\bottomrule
+\end{tabular}
+\caption{Current medication regimen}
+\end{table}
+
+\subsubsection{Supplements}
+
+Key supplements targeting mitochondrial and metabolic function:
+\begin{itemize}
+    \item Mitochondrial support: CoQ10, PQQ, D-Ribose, Magnesium
+    \item Amino acids: Citrulline-Malate, Arginine, Glutathione
+    \item Anti-inflammatory: PEA (palmitoylethanolamide), Teufelskralle
+    \item Cognitive: Ginkgo biloba (Cerebokan)
+    \item Vitamins: C, D3, B-complex
+\end{itemize}
+
+\subsubsection{Neuromodulation}
+
+\begin{itemize}
+    \item \textbf{tVNS (transcutaneous auricular vagus nerve stimulation)}: In use, parameters being optimized
+    \item Target: 60 minutes/day, 25 Hz, cymba conchae placement
+\end{itemize}
+
+\subsection{Response Pattern}
+
+\begin{mechanism}{Treatment Response Pattern}
+\textbf{Responsive interventions:}
+\begin{itemize}
+    \item Cimetidine: Strong energy response (``out of bed'' effect)
+    \item Amino acids: Synergistic with cimetidine
+    \item Ivabradine: Effective HR control for POTS
+    \item Ketotifen: Sleep improvement, mast cell stabilization
+\end{itemize}
+
+\textbf{Partial responses:}
+\begin{itemize}
+    \item LDN: Titrating; response assessment ongoing
+    \item Low-dose Aripiprazole: Helps with fatigue; metabolic side effects noted
+\end{itemize}
+
+\textbf{Not yet trialed:}
+\begin{itemize}
+    \item Antivirals (Valacyclovir): Planned if EBV/HHV-6 confirmed
+    \item Mestinon: Scheduled for introduction
+\end{itemize}
+\end{mechanism}
+
+%=============================================================================
+\section{Mechanistic Hypotheses}
+\label{sec:mechanisms}
+%=============================================================================
+
+The treatment response pattern suggests specific pathophysiological mechanisms that may define this patient's phenotype.
+
+\subsection{Hypothesis 1: Viral-Immune Driver}
+
+\begin{hypothesis}{EBV/HHV-6 Reactivation as Primary Driver}
+\textbf{Supporting evidence:}
+\begin{itemize}
+    \item Patient suspects EBV as original trigger
+    \item Cimetidine produced dramatic improvement
+    \item Cimetidine has documented immunomodulatory effects against herpesviruses
+    \item COVID-19 (2024) may have triggered EBV/HHV-6 reactivation (known phenomenon)
+\end{itemize}
+
+\textbf{Proposed mechanism:}
+\begin{enumerate}
+    \item H2 receptors on suppressor T cells inhibit cellular immunity
+    \item Cimetidine blocks H2 $\rightarrow$ removes immunosuppression
+    \item Enhanced T cell and NK cell activity against latent viruses
+    \item Reduced viral load $\rightarrow$ reduced immune activation $\rightarrow$ symptom improvement
+\end{enumerate}
+
+\textbf{Validation needed:}
+\begin{itemize}
+    \item EBV Early Antigen IgG (EA-IgG)
+    \item EBV VCA IgM (active reactivation)
+    \item HHV-6 IgG titers
+    \item EBV/HHV-6 PCR from whole blood
+\end{itemize}
+\end{hypothesis}
+
+\subsection{Hypothesis 2: Amino Acid Malabsorption}
+
+\begin{hypothesis}{MCAS/HIT $\rightarrow$ Intestinal Barrier $\rightarrow$ Malabsorption}
+\textbf{Supporting evidence:}
+\begin{itemize}
+    \item Confirmed HIT with elaborate dietary management
+    \item Strong response to exogenous amino acid supplementation
+    \item If amino acids were adequately absorbed from diet, supplementation should have minimal effect
+\end{itemize}
+
+\textbf{Proposed mechanism:}
+\begin{enumerate}
+    \item Mast cell activation in intestinal mucosa
+    \item Histamine increases intestinal permeability
+    \item Mast cell proteases damage tight junctions
+    \item Impaired amino acid transport/absorption
+    \item Deficiency in citrulline, arginine, glycine, cysteine
+    \item Secondary effects on NO synthesis and glutathione
+\end{enumerate}
+
+\textbf{Validation needed:}
+\begin{itemize}
+    \item Baseline serum amino acid panel
+    \item Zonulin (intestinal permeability marker)
+    \item LPS antibodies (bacterial translocation)
+    \item Fecal calprotectin (intestinal inflammation)
+\end{itemize}
+\end{hypothesis}
+
+\subsection{Hypothesis 3: NO/Urea Cycle Dysfunction}
+
+\begin{hypothesis}{Arginine-Citrulline-NO Pathway Impairment}
+\textbf{Supporting evidence:}
+\begin{itemize}
+    \item Strong response to L-Citrulline-Malate
+    \item POTS with persistent orthostatic hypotension (NO affects vascular tone)
+    \item Citrulline converts to arginine, which produces NO
+\end{itemize}
+
+\textbf{Proposed mechanism:}
+\begin{enumerate}
+    \item Malabsorption $\rightarrow$ low citrulline/arginine
+    \item Low substrate $\rightarrow$ impaired NO synthase activity
+    \item Reduced NO $\rightarrow$ endothelial dysfunction
+    \item Endothelial dysfunction $\rightarrow$ orthostatic intolerance, vascular dysregulation
+    \item Malate component supports TCA cycle
+\end{enumerate}
+
+\textbf{Validation needed:}
+\begin{itemize}
+    \item ADMA (asymmetric dimethylarginine --- NO inhibitor)
+    \item Flow-mediated dilation (endothelial function)
+    \item Arginine/ADMA ratio
+\end{itemize}
+\end{hypothesis}
+
+\subsection{Integrated Cascade Model}
+
+\begin{mechanism}{Proposed Pathophysiological Cascade}
+\begin{enumerate}
+    \item \textbf{Trigger}: EBV infection (12 years ago)
+    \item \textbf{Persistence}: Viral latency with periodic reactivation
+    \item \textbf{Immune exhaustion}: T cell dysfunction, reduced viral control
+    \item \textbf{MCAS/HIT development}: Mast cell dysregulation (possibly viral-triggered)
+    \item \textbf{Intestinal barrier dysfunction}: Mast cell mediators damage gut lining
+    \item \textbf{Amino acid malabsorption}: Impaired nutrient absorption
+    \item \textbf{Metabolic consequences}:
+    \begin{itemize}
+        \item NO synthesis impairment $\rightarrow$ endothelial dysfunction $\rightarrow$ POTS
+        \item Glutathione depletion $\rightarrow$ oxidative stress $\rightarrow$ neuroinflammation
+        \item TCA cycle impairment $\rightarrow$ mitochondrial dysfunction $\rightarrow$ fatigue
+    \end{itemize}
+    \item \textbf{ME/CFS phenotype}: Final common pathway of energy failure
+\end{enumerate}
+
+\textbf{Treatment targets this cascade at multiple points:}
+\begin{itemize}
+    \item Cimetidine: Enhances immune control of virus + reduces mast cell activation
+    \item Amino acids: Bypass malabsorption by direct supplementation
+    \item H1/H2 blockade + mast cell stabilizers: Reduce intestinal inflammation
+    \item Antivirals (if confirmed): Address root cause
+\end{itemize}
+\end{mechanism}
+
+%=============================================================================
+\section{Remaining Uncertainties}
+\label{sec:uncertainties}
+%=============================================================================
+
+\subsection{Tests Not Yet Performed}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{llll}
+\toprule
+\textbf{Priority} & \textbf{Test} & \textbf{Hypothesis Tested} & \textbf{Status} \\
+\midrule
+1 & EBV/HHV-6 serology + PCR & Viral reactivation & Pending \\
+1 & Serum amino acid panel & Malabsorption & Pending \\
+1 & Tryptase, plasma histamine & MCAS & Pending \\
+\midrule
+2 & Zonulin & Intestinal permeability & Pending \\
+2 & Organic acids (urine) & Mitochondrial function & Pending \\
+2 & Lactate/pyruvate ratio & Mitochondrial function & Pending \\
+\midrule
+3 & ADMA, FMD & Endothelial dysfunction & Pending \\
+3 & Skin biopsy & Small fiber neuropathy & Pending \\
+3 & T cell immunophenotyping & Immune exhaustion & Pending \\
+\bottomrule
+\end{tabular}
+\caption{Prioritized diagnostic workup}
+\end{table}
+
+\subsection{Alternative Hypotheses}
+
+While the viral-immune-metabolic cascade is the leading hypothesis, alternatives should be considered:
+
+\begin{enumerate}
+    \item \textbf{Primary mitochondrial disorder}: Amino acid response could reflect primary mitochondrial dysfunction rather than secondary to malabsorption
+
+    \item \textbf{Autoimmune autonomic neuropathy}: POTS and dysautonomia could be autoimmune-mediated (anti-ganglionic receptor antibodies)
+
+    \item \textbf{HPA axis dysfunction}: Hypocortisolism could explain some features; cortisol testing not documented
+
+    \item \textbf{Craniocervical instability}: Not assessed; could contribute to autonomic dysfunction if hypermobility present
+
+    \item \textbf{Primary DAO enzyme deficiency}: HIT could be primary rather than secondary to MCAS
+\end{enumerate}
+
+\subsection{Confounding Factors}
+
+\begin{itemize}
+    \item \textbf{COVID-19 + Myocarditis (2024)}: Complicates interpretation of cardiac symptoms
+    \item \textbf{Multiple concurrent interventions}: Difficult to isolate individual treatment effects
+    \item \textbf{Crash state}: Current crash phase limits ability to assess baseline
+    \item \textbf{Medication interactions}: LDA (Aripiprazole) may have metabolic effects
+\end{itemize}
+
+%=============================================================================
+\section{Implications for Phenotype Classification}
+\label{sec:implications}
+%=============================================================================
+
+\subsection{Exemplar for Viral-Immune-Metabolic Cluster}
+
+This patient exemplifies a proposed ME/CFS subtype characterized by:
+
+\begin{enumerate}
+    \item \textbf{Post-infectious onset}: Suspected viral trigger (EBV)
+    \item \textbf{Immune-mast cell component}: HIT/MCAS with strong antihistamine response
+    \item \textbf{Metabolic component}: Dramatic amino acid response suggesting malabsorption
+    \item \textbf{Autonomic component}: POTS responsive to targeted treatment
+    \item \textbf{Treatment-responsive phenotype}: Improvement with cimetidine + amino acids
+\end{enumerate}
+
+\subsection{Diagnostic Markers for This Phenotype}
+
+Based on this case, patients with similar phenotypes might be identified by:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Screening Question} & \textbf{Suggesting This Phenotype} \\
+\midrule
+Post-infectious onset? & Yes (especially EBV, COVID) \\
+HIT/MCAS features? & Yes (dietary triggers, antihistamine response) \\
+POTS/dysautonomia? & Yes \\
+Response to H2 blockade? & Dramatic improvement \\
+Response to amino acids? & Dramatic improvement \\
+\bottomrule
+\end{tabular}
+\caption{Clinical screening for viral-immune-metabolic phenotype}
+\end{table}
+
+\subsection{Treatment Protocol Template}
+
+For patients matching this phenotype, the following treatment sequence is suggested:
+
+\begin{enumerate}
+    \item \textbf{Phase 1 --- Confirmatory (2--4 weeks)}:
+    \begin{itemize}
+        \item Trial cimetidine 200 mg BID
+        \item Baseline amino acid panel
+        \item If positive response: proceed to Phase 2
+    \end{itemize}
+
+    \item \textbf{Phase 2 --- Foundation (Weeks 1--12)}:
+    \begin{itemize}
+        \item H1 + H2 + mast cell stabilizer triple therapy
+        \item Amino acid supplementation (NAC, Citrulline-Malate, D-Ribose)
+        \item Optimize POTS management
+    \end{itemize}
+
+    \item \textbf{Phase 3 --- Optimization (Weeks 4--24)}:
+    \begin{itemize}
+        \item LDN titration
+        \item Amino acid dose optimization
+        \item Neuromodulation (tVNS)
+    \end{itemize}
+
+    \item \textbf{Phase 4 --- Diagnostic Confirmation}:
+    \begin{itemize}
+        \item EBV/HHV-6 PCR
+        \item If positive: antiviral trial (Valacyclovir)
+        \item Intestinal permeability markers
+        \item Repeat amino acid panel to assess response
+    \end{itemize}
+\end{enumerate}
+
+%=============================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+%=============================================================================
+
+Exemplar Case 2909 represents a clinically significant ME/CFS subtype with the following key features:
+
+\begin{keyfinding}{Case Summary}
+\begin{enumerate}
+    \item \textbf{Treatable phenotype}: Severe ME/CFS that responded dramatically to cimetidine + amino acids
+    \item \textbf{Proposed mechanism}: Viral-driven immune dysfunction $\rightarrow$ MCAS/HIT $\rightarrow$ intestinal barrier dysfunction $\rightarrow$ amino acid malabsorption $\rightarrow$ secondary mitochondrial failure
+    \item \textbf{Validation pending}: EBV/HHV-6 testing, amino acid panel, intestinal permeability markers
+    \item \textbf{Treatment template}: This case provides a protocol template for similar patients
+    \item \textbf{Relapse vulnerability}: Infections can trigger crashes even in treatment-responsive patients
+\end{enumerate}
+\end{keyfinding}
+
+\begin{caution}{Limitations}
+This is a single case report, not a controlled study. The treatment responses are patient-reported and not objectively verified. The proposed mechanisms are hypothetical and require validation through appropriate testing. This case should not be generalized without further research, but may guide hypothesis development and treatment trials in similar patients.
+\end{caution}
+
+\vspace{1em}
+
+\textbf{Follow-up planned}: Diagnostic workup to validate mechanistic hypotheses; treatment optimization after crash recovery; longitudinal tracking of response patterns.
+
+\end{document}

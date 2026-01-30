@@ -1,0 +1,319 @@
+% Quick Reference Card - MajesticSpinach2909
+% 2 pages (recto-verso) for daily use
+% Compile with: pdflatex quickref-daily.tex
+
+\documentclass[9pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+
+\geometry{margin=0.8cm, top=2cm, bottom=0.8cm, headheight=14pt, headsep=0.5cm}
+
+% Colors
+\definecolor{morning}{RGB}{255,248,220}
+\definecolor{midday}{RGB}{255,255,224}
+\definecolor{evening}{RGB}{230,230,250}
+\definecolor{asneeded}{RGB}{245,245,245}
+\definecolor{headerblue}{RGB}{41,128,185}
+\definecolor{newitem}{RGB}{46,204,113}
+\definecolor{resumeitem}{RGB}{255,165,0}
+
+% Header
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{MajesticSpinach2909 -- Tagesprotokoll}}
+\fancyhead[R]{\colorbox{red!20}{\textbf{CRASH-PHASE}}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{1pt}
+
+% Compact lists
+\setlist{noitemsep, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+\begin{document}
+
+% =============================================================================
+% CRASH PROTOCOL - PRIORITY
+% =============================================================================
+
+% CRITICAL INSIGHT BOX
+\begin{tcolorbox}[colback=blue!15, colframe=blue!80!black, title={\textbf{KRITISCHE EINSICHT -- Januar 2026}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\scriptsize
+\textbf{Cimetidin + Aminosäuren} haben früher funktioniert (``aus dem Bett gebracht''). Aber: \textbf{temporär}, nicht dauerhaft. Rückfall nach Infekt zeigt: \textbf{Ursache nicht adressiert}.
+
+\colorbox{yellow!50}{\textbf{HÖCHSTE PRIORITÄT:}} \textbf{EBV/HHV-6 Diagnostik SOFORT} (auch während Crash möglich = nur Blutabnahme)
+
+\textbf{Hypothese:} Cimetidin verstärkt Immunantwort gegen Virus, eliminiert es aber nicht. $\rightarrow$ Bei positivem Befund: \textbf{Antiviral + Cimetidin = Synergie}.
+}
+\end{tcolorbox}
+
+\vspace{0.1em}
+
+\begin{tcolorbox}[colback=red!15, colframe=red!80!black, title={\textbf{CRASH-PROTOKOLL}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\scriptsize
+\textbf{1. Ruhe:} Körperlich + kognitiv (kein Bildschirm >10min) + sozial (Gespräche minimieren)
+
+\textbf{2. ORS:} 3$\times$/Tag, liegend \quad
+\textbf{3. OI/POTS:} Langsam aufstehen! BP sackt ab trotz HR-Kontrolle.
+
+\textbf{4. Extra:} D-Ribose +5g (3$\times$/Tag), Mg +200mg abends
+
+\textbf{5. Schlaf/Schmerz:} Ketotifen beibehalten; Reserve: Quviviq 25mg; Schmerz: Teufelskralle, PEA
+
+\textbf{6. Zyklus:} Perimenstuell ($-$3d bis $+$2d): extra Ruhe, Mg +100mg, Ferritin prüfen (Ziel >50)
+
+\textbf{7. KEINE neuen Supplemente!} \textit{Erst nach 1 Woche Stabilisierung.}
+
+\textbf{8. DIAGNOSTIK:} EBV-VCA-IgM, EBV-EA-IgG, EBV-PCR, HHV-6-IgG -- \textbf{KANN JETZT GEMACHT WERDEN!}
+}
+\end{tcolorbox}
+
+\vspace{0.1em}
+
+% =============================================================================
+% PAGE 1: MEDICATION SCHEDULE
+% =============================================================================
+
+\section*{Tagesplan -- CRASH-PHASE (aktuell)}
+
+\vspace{-0.8em}
+{\footnotesize\textit{\textbf{NUR Basis-Medikamente + aktuelle Supplemente.} \colorbox{newitem!30}{Neu} und \colorbox{resumeitem!30}{Wiederaufnehmen} = NACH Crash-Erholung (1 Woche stabil).}}
+\vspace{0.1em}
+
+% MORNING
+\begin{tcolorbox}[colback=morning, colframe=orange!70!black, title={\textbf{MORGENS}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\footnotesize
+\begin{tabular}{@{}p{3.5cm}p{1.6cm}p{7.5cm}@{}}
+\textbf{Substanz} & \textbf{Dosis} & \textbf{Hinweise} \\
+\midrule
+\multicolumn{3}{l}{\textit{Medikamente:}} \\
+Levocetirizin & 5~mg & H1-Blocker (nüchtern) \\
+\rowcolor{resumeitem!30} \textbf{Cimetidin} & \textbf{200~mg} & \textbf{H2-Blocker -- WIEDERAUFNEHMEN} \\
+LDA (Aripiprazol) & 1,5~mg & Niedrigdosis \\
+Ivabradin & 2,5--5~mg & POTS \\
+Mestinon & 30~mg & Mit Essen \\
+\midrule
+\multicolumn{3}{l}{\textit{Mitochondrien:}} \\
+NAC & 600~mg & Mit Essen \\
+\rowcolor{newitem!30} ALCAR & 1000~mg & Kognition \\
+\rowcolor{newitem!30} NR oder NMN & 300--500~mg & NAD$^+$ \\
+\rowcolor{newitem!30} Alpha-Liponsäure & 300--600~mg & Antioxidans \\
+CoQ10 (Ubiquinol) & 200--300~mg & Mit Fett \\
+D-Ribose & 5~g & ATP \\
+\rowcolor{newitem!30} Kreatin & 3--5~g & ATP-Puffer \\
+\rowcolor{newitem!30} Taurin & 1--2~g & Autonom \\
+\midrule
+\multicolumn{3}{l}{\textit{Sonstige:}} \\
+Cerebokan (Ginkgo) & 80~mg & Kognition \\
+PQQ & 20~mg & Mito-Biogenese \\
+Pregnenolon & 30~mg & Neurosteroid \\
+\rowcolor{newitem!30} Quercetin & 500--1000~mg & Mastzell \\
+Vit C & 1000--2000~mg & -- \\
+Vit D3 & 4000~IE & -- \\
+Zink & 15--25~mg & Nicht nüchtern \\
+B-Komplex (methyl.) & 1~Kps. & -- \\
+\rowcolor{newitem!30} Omega-3 (EPA/DHA) & 2--4~g & Mit Fett \\
+\rowcolor{newitem!30} ORS-Lösung & 250~mL & Elektrolyte \\
+\end{tabular}}
+\end{tcolorbox}
+
+% MIDDAY
+\begin{tcolorbox}[colback=midday, colframe=yellow!70!black, title={\textbf{MITTAGS}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\footnotesize
+\begin{tabular}{@{}p{3.5cm}p{1.6cm}p{7.5cm}@{}}
+\textbf{Substanz} & \textbf{Dosis} & \textbf{Hinweise} \\
+\midrule
+Mestinon & 30~mg & Mit Essen \\
+NAC & 600~mg & Mit Essen \\
+D-Ribose & 5~g & -- \\
+L-Citrullin-Malat & 3~g & NO-Synthese \\
+PEA & 600~mg & Entzündung \\
+\rowcolor{newitem!30} ORS-Lösung & 250~mL & Elektrolyte \\
+\end{tabular}}
+\end{tcolorbox}
+
+% EVENING
+\begin{tcolorbox}[colback=evening, colframe=purple!70!black, title={\textbf{ABENDS}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\footnotesize
+\begin{tabular}{@{}p{3.5cm}p{1.6cm}p{7.5cm}@{}}
+\textbf{Substanz} & \textbf{Dosis} & \textbf{Hinweise} \\
+\midrule
+\rowcolor{resumeitem!30} \textbf{Cimetidin} & \textbf{200~mg} & \textbf{H2-Blocker} \\
+Ivabradin & 2,5--5~mg & -- \\
+Mestinon & 30~mg & Optional \\
+NAC & 600~mg & Mit Essen \\
+D-Ribose & 5~g & -- \\
+L-Citrullin-Malat & 3~g & -- \\
+PEA & 600~mg & Schmerz \\
+Magnesiumglycinat & 400~mg & Entspannung \\
+\rowcolor{newitem!30} Glycin & 3~g & Schlaf \\
+\midrule
+\textit{Vor dem Schlaf:} & & \\
+LDN (Naltrexon) & 3,0~mg & Zieldosis \\
+Ketotifen & 1~mg & Macht müde \\
+\end{tabular}}
+\end{tcolorbox}
+
+% AS NEEDED
+\begin{tcolorbox}[colback=asneeded, colframe=gray!70!black, title={\textbf{BEI BEDARF / BEDINGT}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\footnotesize
+\begin{tabular}{@{}p{3.5cm}p{1.6cm}p{7.5cm}@{}}
+\rowcolor{newitem!30} Valacyclovir & 1000~mg 2$\times$ & \textbf{Nur bei positivem EBV/HHV-6!} \\
+L-Lysin & 1000~mg 2$\times$ & Bei viraler Reaktivierung \\
+Quviviq (Daridorexant) & 25~mg & Schlaf-Reserve \\
+Teufelskralle & 20~Trpf. & Schmerz \\
+Mometason & nach Bedarf & Nasal \\
+\end{tabular}}
+\end{tcolorbox}
+
+% =============================================================================
+\newpage
+% PAGE 2: tVNS, TITRATION STATUS, WARNINGS
+% =============================================================================
+
+\section*{Neuromodulation \& Einführungssequenz}
+
+% tVNS
+\begin{tcolorbox}[colback=blue!5, colframe=headerblue, title={\textbf{tVNS -- Tägliche Anwendung}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\footnotesize
+\begin{tabular}{@{}p{3.2cm}p{3.2cm}p{6cm}@{}}
+\textbf{Parameter} & \textbf{Einstellung} & \textbf{Notiz} \\
+\midrule
+Lokalisation & Cymba conchae (li.) & Oder Tragus \\
+Frequenz & 25~Hz & Nicht ändern \\
+Pulsbreite & 250~$\mu$s & Nicht ändern \\
+Stromstärke & 0,5--2,0~mA & Leicht spürbar \\
+\textbf{Dauer} & \textbf{60~min/Tag} & Minimum 35~min \\
+\end{tabular}}
+\end{tcolorbox}
+
+\vspace{0.2em}
+
+% INTRODUCTION SEQUENCE
+\begin{tcolorbox}[colback=gray!15, colframe=gray!70!black, title={\textbf{Einführungssequenz -- PAUSIERT (Crash-Phase)}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\scriptsize\textbf{Wiederaufnahme erst nach 1 Woche stabiler Baseline ohne Verschlechterung.}}
+
+{\small
+\begin{tabular}{|c|l|l|c|}
+\hline
+\textbf{Woche} & \textbf{Intervention} & \textbf{Dosis} & \textbf{$\checkmark$} \\
+\hline
+1--2 & Cimetidin wiederaufnehmen & 200~mg 2$\times$/Tag & $\square$ \\
+\hline
+3--4 & NAC + Quercetin & 1800~mg + 500~mg & $\square$ \\
+\hline
+5--6 & ALCAR & 1000~mg morgens & $\square$ \\
+\hline
+7--8 & Alpha-Liponsäure & 300~mg morgens & $\square$ \\
+\hline
+9--10 & NR/NMN + Kreatin & 300~mg + 3~g & $\square$ \\
+\hline
+11--12 & Elektrolyt-Protokoll & ORS 2$\times$/Tag & $\square$ \\
+\hline
+\multicolumn{4}{|l|}{\textit{Nach positiver EBV/HHV-6 Diagnostik:}} \\
+\hline
+13+ & Valacyclovir-Trial & 1000~mg 2$\times$/Tag & $\square$ \\
+\hline
+\end{tabular}
+}
+
+\vspace{0.3em}
+\textbf{Parallel laufend (PAUSIERT -- nicht steigern während Crash):}
+
+{\small
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{LDN-Titration} & 0,5~mg & 1,0~mg & 1,5~mg & 2,0~mg & 2,5~mg & 3,0~mg \\
+\hline
+Woche & 1--2 & 3--4 & 5--6 & 7--8 & 9--10 & 11--12 \\
+\hline
+Status & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+\hline
+\end{tabular}
+
+\vspace{0.2em}
+
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Mestinon} & 20~mg (1$\times$) & 30~mg (1$\times$) & 60~mg (2$\times$) & 90~mg (3$\times$) \\
+\hline
+Status & $\square$ & $\square$ & $\square$ & $\square$ \\
+\hline
+\end{tabular}
+
+\vspace{0.2em}
+
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{PEA} & 400~mg & 800~mg & 1200~mg \\
+\hline
+Status & $\square$ & $\square$ & $\square$ \\
+\hline
+\end{tabular}
+}
+
+\end{tcolorbox}
+
+\vspace{0.2em}
+
+% WARNINGS
+\begin{tcolorbox}[colback=red!5, colframe=red!70!black, title={\textbf{WICHTIG -- Nicht vergessen!}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Myokarditis:} Keine Stimulanzien, kardiale Belastung minimieren!
+    \item \textbf{OI/POTS:} LANGSAM aufstehen -- BP sackt ab trotz Ivabradine!
+    \item \textbf{Cimetidin:} CYP450-Interaktionen prüfen. Eisen 2h getrennt.
+    \item \textbf{LDN:} Nicht mit Opioiden! Abends 21:00 Uhr.
+    \item \textbf{Mestinon:} Immer mit Essen. Bei Durchfall Dosis reduzieren.
+    \item \textbf{Ivabradin:} Keine Grapefruit!
+    \item \textbf{Valacyclovir:} NUR bei positivem Virusnachweis starten!
+\end{itemize}
+\end{tcolorbox}
+
+% ORS RECIPE
+\begin{tcolorbox}[colback=yellow!10, colframe=yellow!50!black, title={\textbf{ORS-Rezept (Elektrolyt-Lösung)}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+\textbf{Trockenmischung:} 100~g Zucker + 15~g KCl (Low-Sodium-Salz) + 15~g NaCl (Tafelsalz)
+
+\textbf{Anwendung:} 7~g der Mischung in 250~mL Wasser lösen. \textbf{Crash: 3$\times$/Tag} | Normal: 2$\times$/Tag
+\end{tcolorbox}
+
+\vspace{0.2em}
+
+% PROLONGED CRASH WARNING
+\begin{tcolorbox}[colback=orange!10, colframe=orange!70!black, title={\textbf{Crash >4 Wochen?}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+{\scriptsize
+\textbf{Erholung:} Weniger Schlaf nötig, mehr Toleranz, klarere Kognition \quad
+\textbf{Arzt bei:} Verschlechterung >2Wo, Fieber, Gewichtsverlust >5\%, Suizidgedanken
+
+\textbf{>6 Wochen:} Labor (Ferritin, D, B12, SD), Infektabklärung (EBV/HHV-6), psychol. Unterstützung, \textbf{AKH Wien Severe-Programm}
+
+\textbf{Hoffnung:} Frühere Erholung durch Aminosäuren + Cimetidin zeigt: Besserung ist möglich!
+}
+\end{tcolorbox}
+
+\vspace{0.1em}
+
+% QUICK SYMPTOM LOG
+\begin{tcolorbox}[colback=white, colframe=gray, title={\textbf{Tages-Kurzprotokoll}}, fonttitle=\bfseries, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt]
+\begin{tabular}{@{}p{2.5cm}p{1.2cm}p{2.5cm}p{1.2cm}p{2.5cm}p{1.2cm}p{2cm}p{1.2cm}@{}}
+Energie (0--10): & \rule{0.8cm}{0.4pt} & Schlaf (0--10): & \rule{0.8cm}{0.4pt} & Schmerz (0--10): & \rule{0.8cm}{0.4pt} & Kognition: & \rule{0.8cm}{0.4pt} \\
+\end{tabular}
+\vspace{0.2em}
+
+PEM? $\square$ Ja $\square$ Nein \quad Auslöser: \rule{3cm}{0.4pt} \quad Neue Intervention vertragen? $\square$ Ja $\square$ Nein
+\end{tcolorbox}
+
+\vspace{0.5em}
+\hrule
+\vspace{0.2em}
+{\footnotesize\textit{Alle Änderungen erfordern ärztliche Genehmigung. Nur eine neue Intervention alle 1--2 Wochen einführen.}}
+
+\end{document}
