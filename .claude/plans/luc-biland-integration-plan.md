@@ -26,46 +26,19 @@ Research is iterative. Haiku searches may return unexpected results requiring co
 
 ### Search-Triage-Decide Pattern
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ HAIKU: Initial Search Batch                                 │
-│ - Execute predefined queries                                │
-│ - Output: raw URL list + snippet summaries                  │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│ SONNET: Triage & Assess (lightweight, ~2 min)               │
-│ - Review search results for relevance                       │
-│ - Identify gaps: "no RCTs found" / "only animal studies"    │
-│ - Decide: PROCEED / REFINE / ESCALATE                       │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-          ┌─────────────────┴─────────────────┐
-          ↓                                   ↓
-┌──────────────────┐                ┌──────────────────┐
-│ PROCEED          │                │ REFINE           │
-│ Results adequate │                │ Adjust queries   │
-│ → Continue to    │                │ → Haiku: new     │
-│   extraction     │                │   search batch   │
-└──────────────────┘                └──────────────────┘
-                                              ↓
-                              ┌───────────────┴───────────────┐
-                              ↓                               ↓
-                    ┌──────────────────┐            ┌──────────────────┐
-                    │ 2nd triage OK    │            │ Still inadequate │
-                    │ → PROCEED        │            │ → ESCALATE       │
-                    └──────────────────┘            └──────────────────┘
-                                                              ↓
-                                                    ┌──────────────────┐
-                                                    │ OPUS: Decide     │
-                                                    │ - Creative query │
-                                                    │   reformulation  │
-                                                    │ - Alternative    │
-                                                    │   sources        │
-                                                    │ - Document gap   │
-                                                    │   if unsolvable  │
-                                                    └──────────────────┘
-```
+**Initial search:**
+
+- HAIKU: Execute predefined queries → raw URL list + snippet summaries
+
+**Triage:**
+
+- SONNET: Review results for relevance → Identify gaps → Decide: PROCEED / REFINE / ESCALATE
+
+**Decision branches:**
+
+- PROCEED (results adequate) → Continue to extraction
+- REFINE (adjust queries) → HAIKU: new search batch → 2nd triage → {PROCEED or ESCALATE}
+- ESCALATE (2nd refinement inadequate) → OPUS: Creative query reformulation / alternative sources / document gap
 
 ### Triage Decision Criteria (for Sonnet)
 
