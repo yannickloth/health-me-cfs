@@ -348,7 +348,6 @@ result-*
 .envrc.cache
 
 # Reference materials
-.claude/case-data/
 test-tikz-figure.pdf
 patients/majesticspinach2909/quickref-daily.pdf
 .gitignore
