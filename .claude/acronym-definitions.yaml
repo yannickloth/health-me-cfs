@@ -1,0 +1,131 @@
+# Acronym Verification Database for ME/CFS Documentation
+# Created: 2026-01-31
+# Purpose: Reference for automated acronym verification
+
+verified_correct:
+  # Core ME/CFS terminology
+  ME: "Myalgic Encephalomyelitis"
+  CFS: "Chronic Fatigue Syndrome"
+  PEM: "Post-Exertional Malaise"
+  POTS: "Postural Orthostatic Tachycardia Syndrome"
+  OI: "Orthostatic Intolerance"
+
+  # Medications - CRITICAL VERIFICATION REQUIRED
+  LDN: "Low-Dose Naltrexone"
+  LDA: "Low-Dose Aripiprazole"  # NOT Low-Dose Aspirin!
+  NAC: "N-Acetylcysteine"
+
+  # Metabolic
+  ATP: "Adenosine Triphosphate"
+  NAD: "Nicotinamide Adenine Dinucleotide"
+  CoQ10: "Coenzyme Q10"
+  BH4: "Tetrahydrobiopterin"
+
+  # Immune markers
+  NK: "Natural Killer"
+  TNF: "Tumor Necrosis Factor"
+
+  # Testing/Measurements
+  CPET: "Cardiopulmonary Exercise Testing"
+  HRV: "Heart Rate Variability"
+  VO2: "Volume of Oxygen"
+
+  # Comorbidities
+  MCAS: "Mast Cell Activation Syndrome"
+  EDS: "Ehlers-Danlos Syndrome"
+  SFN: "Small Fiber Neuropathy"
+
+  # Pathogens
+  EBV: "Epstein-Barr Virus"
+  HHV: "Human Herpesvirus"
+  COVID: "Coronavirus Disease"
+
+  # Systems
+  HPA: "Hypothalamic-Pituitary-Adrenal"
+  ANS: "Autonomic Nervous System"
+  CNS: "Central Nervous System"
+  GI: "Gastrointestinal"
+
+  # Research/Clinical
+  RCT: "Randomized Controlled Trial"
+  NIH: "National Institutes of Health"
+  CDC: "Centers for Disease Control"
+  FDA: "Food and Drug Administration"
+
+  # Molecular
+  DNA: "Deoxyribonucleic Acid"
+  RNA: "Ribonucleic Acid"
+  mRNA: "Messenger RNA"
+
+  # Controversial/Harmful
+  GET: "Graded Exercise Therapy"  # Known harmful in ME/CFS
+  CBT: "Cognitive Behavioral Therapy"
+
+ambiguous_context_dependent:
+  IL:
+    - "Interleukin (medical)"
+    - "Illinois (citations)"
+  NO:
+    - "Nitric Oxide (medical)"
+    - "Word 'NO' in text"
+  OR:
+    - "Odds Ratio (statistics)"
+    - "Word 'OR' in logic"
+  ER:
+    - "Endoplasmic Reticulum (cellular)"
+    - "Emergency Room (clinical)"
+  CSF:
+    - "Cerebrospinal Fluid (medical)"
+    - "Chronic Fatigue Syndrome (deprecated term)"
+  NR:
+    - "Nuclear Receptor (molecular)"
+    - "Not Reported (data)"
+
+medication_acronyms_high_priority:
+  # These MUST be verified - highest risk of error
+  LDN: "Low-Dose Naltrexone"
+  LDA: "Low-Dose Aripiprazole"  # CRITICAL: NOT Low-Dose Aspirin
+  NAC: "N-Acetylcysteine"
+  CoQ10: "Coenzyme Q10"
+  BH4: "Tetrahydrobiopterin"
+  DHEA: "Dehydroepiandrosterone"
+  SAMe: "S-Adenosyl Methionine"
+  ALA: "Alpha-Lipoic Acid"
+
+treatment_acronyms_medium_priority:
+  CBT: "Cognitive Behavioral Therapy"
+  GET: "Graded Exercise Therapy"
+  MEP: "Management and Energy Pacing"
+  ACT: "Adaptive Calibrated Therapy"
+
+always_expand_first_use:
+  - All medication acronyms
+  - All disease/condition acronyms (except ME/CFS in ME/CFS context)
+  - All measurement/test acronyms
+  - All molecular pathway acronyms
+  - All comorbidity acronyms
+
+skip_verification_obvious:
+  # These are so common and unambiguous they don't need verification
+  - DNA
+  - RNA
+  - ATP
+  - USA
+  - UK
+  - EU
+
+critical_distinctions:
+  LDA:
+    correct: "Low-Dose Aripiprazole (Abilify)"
+    wrong: "Low-Dose Aspirin"
+    verification: "Must appear near 'Aripiprazole' or 'Abilify' in context"
+
+  LDN:
+    correct: "Low-Dose Naltrexone"
+    wrong: "Low-Dose Nifedipine"
+    verification: "Must appear near 'Naltrexone' in context"
+
+  CSF:
+    medical: "Cerebrospinal Fluid"
+    deprecated: "Chronic Fatigue Syndrome (use ME/CFS instead)"
+    verification: "Check context - anatomical vs diagnostic"

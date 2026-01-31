@@ -1,0 +1,3199 @@
+{
+  "batch": "ad-ae-af",
+  "total_files": 27,
+  "files": [
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex",
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+    "/home/nicky/code/health-me-cfs/contents/part1-clinical/part1-intro.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14-speculative-hypotheses.tex",
+    "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/part2-intro.tex"
+  ],
+  "acronyms": {
+    "AADC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "AAN": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "ABR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "ACE": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "ACR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "ACTH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "ADHD": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "ADP": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "ADRB1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "AIDS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "AIED": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "ALDH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "ALL": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex"
+      ]
+    },
+    "AM": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "AMP": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "AMPK": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "ANA": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "AND": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "ANP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "ANY": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "AQP4": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "AR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "ARE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "AT": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "ATAC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "ATG13": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "ATP": {
+      "count": 15,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "AUC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "BAPGM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "BB": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "BBB": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "BC007": {
+      "count": 6,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "BECLIN": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "BEFORE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "BH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "BH2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "BH4": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "BID": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "BMAL1": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "BMI": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "BNP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "BP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "CADM1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "CAR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "CAUTION": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "CBF": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "CBT": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "CCC": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "CCI": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "CCL11": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CCL2": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "CCL5": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CCR7": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "CD117": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD122": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD132": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD14": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "CD141": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "CD16": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD20": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "CD25": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD27": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "CD28": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "CD34": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD38": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "CD39": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "CD4": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "CD40": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD45RA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "CD56": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CD73": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "CD8": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "CDC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "CDR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "CFS": {
+      "count": 27,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/part1-intro.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14-speculative-hypotheses.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/part2-intro.tex"
+      ]
+    },
+    "CFSE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "CHOP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "CI": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "CIM0216": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "CLOCK": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "CMV": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CNS": {
+      "count": 10,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "CO": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "COMT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "COVID": {
+      "count": 12,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "CPET": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "CRH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "CRISPR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "CRITICAL": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "CRP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "CRY": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "CRY1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "CSF": {
+      "count": 10,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "CSF2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CTLA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CXCL1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CXCL10": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "CXCL8": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CXCL9": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "CYP11B1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "CYP2C9": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "CYP2D6": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "CYP3A4": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "CYP450": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "DANGEROUS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "DAO": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "DC": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "DCA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "DHEA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "DHPG": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "DNA": {
+      "count": 14,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "DO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "DOPA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "DOPAC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "DQ": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "DQ3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "DQA1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "DRB1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "DTH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "EA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "EBNA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "EBV": {
+      "count": 9,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "ECM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "EDS": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "EIA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "ELISA": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "EM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "EMERGING": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "ENT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "EQ": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "ER": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "ESTABLISHED": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "ETC": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "EV": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "EVIDENCE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "EWAS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "FABP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "FADH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "FCGR3B": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "FDA": {
+      "count": 7,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "FDG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "FDR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "FILE": {
+      "count": 10,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14-speculative-hypotheses.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "FIRST": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "FLAGS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex"
+      ]
+    },
+    "FLAIR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "FM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "FMD": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "FMT": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "FN1": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "FODMAP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "FOR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex"
+      ]
+    },
+    "FOS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "FSH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "FT3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "FT4": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "GABA": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "GALT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "GET": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "GFAP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "GH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "GHRH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "GI": {
+      "count": 7,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "GLUT1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "GLUT3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "GM": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "GOS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "GPCR": {
+      "count": 8,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "GPX4": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "GR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "GRO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "GSH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "GSSG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "GTP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "GWAS": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "GZMA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "GZMB": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "HAVCR2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "HDAC": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex"
+      ]
+    },
+    "HDL": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "HELP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "HER2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "HERV": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "HF": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "HHV": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "HIF": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "HIGH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "HIT": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "HIV": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "HK": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "HLA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "HNE": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "HPA": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "HPG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "HR": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "HRR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "HRV": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "HSD1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "HSP70": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "HT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "HTP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "HTTLPR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "HVA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "HYPOTHESES": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "IA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex"
+      ]
+    },
+    "IBS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "IC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "ICAM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "ICC": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "IDO": {
+      "count": 8,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "IDSA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "IENFD": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "IFA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "IFN": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "IGF": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "IGFBP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "IGHG2": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "II": {
+      "count": 6,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "III": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "IL": {
+      "count": 8,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "ILADS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "IMO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "INR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "IOM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "IP": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "IS": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "ISG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "ISO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "IU": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "IV": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "IVIG": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "JAK": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "JAK1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "JAK3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "JH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "KYNA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "LAG": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "LAG3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "LC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "LDL": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "LDN": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "LEMS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "LF": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "LH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "LMP1": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "LOW": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "LPS": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "LYVE1": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "MAO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "MCAS": {
+      "count": 8,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "MCP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "MCS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "MCT": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "MCT1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "MCT10": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "MCT2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "MCT3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "MCT4": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "MCT8": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "MDA": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "ME": {
+      "count": 27,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/part1-intro.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14-speculative-hypotheses.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/part2-intro.tex"
+      ]
+    },
+    "MECHANISMS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "MG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "MHC": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "MHPG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "MIG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "MIP": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "MMC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "MODERATE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "MORE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "MR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "MRI": {
+      "count": 7,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "MRS": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "MS": {
+      "count": 7,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "NAC": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "NAD": {
+      "count": 10,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14c-multi-lock-integration.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "NADH": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "NADPH": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "NCNED": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "NCS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "NET": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "NF": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "NFAT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "NICE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex"
+      ]
+    },
+    "NIH": {
+      "count": 11,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "NIRS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "NK": {
+      "count": 11,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "NKG2D": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "NLRP3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "NMDA": {
+      "count": 6,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "NMDAR": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "NMH": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "NMN": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "NN": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "NO": {
+      "count": 8,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "NOS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "NOT": {
+      "count": 7,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "NOTICE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "NPAS2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "NR": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "NT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "NTIS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "NTS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "OH": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "OI": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "ONE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "ONLY": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "ONOO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "OR": {
+      "count": 6,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "PAF": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "PAR2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "PARP": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "PAS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "PASC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "PCR": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "PD": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "PDCD1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "PDGF": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "PDGFR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "PDI": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "PEG": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "PEM": {
+      "count": 17,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "PER": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "PER1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "PET": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "PF": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "PGC": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "PHENOMENA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "PI": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "PINK1": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "PIP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "PIP2": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "PLOS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "PM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "PNAS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "PNMT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "PNS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "POTS": {
+      "count": 15,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "PPI": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "PQQ": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "PRELIMINARY": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "PRF1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "PRIMARY": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "PROBABLE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "PRS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "PTLDS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "PUFA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "PWV": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "QID": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "QSART": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "QT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "QTL": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "QUIN": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "RAAS": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "RANTES": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "RBC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "RCT": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "RECOMMENDED": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "RECOVER": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "RED": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex"
+      ]
+    },
+    "RER": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "RESEARCH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "RESTORE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "RF": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "RI": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "RMSSD": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "RNA": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "RNS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "ROS": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "RV": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "SAFETY": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "SAM": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "SARS": {
+      "count": 6,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-onset-patterns.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "SCFA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    },
+    "SCN": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "SDNN": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "SF": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-prognosis.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "SFN": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "SIBO": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "SLE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "SNP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "SNRI": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "SOD": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "SPECT": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "SPECULATIVE": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "SS": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex"
+      ]
+    },
+    "SSDI": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex",
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "STAT": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "STAT5": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "STING": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "SUCRA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "TCA": {
+      "count": 6,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex"
+      ]
+    },
+    "TDO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "TET": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "TGF": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14g-2026-autoimmune.tex"
+      ]
+    },
+    "THBS1": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "THEORETICAL": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "TIER": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "TIM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "TLR": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "TLR4": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "TLR9": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "TNF": {
+      "count": 8,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex"
+      ]
+    },
+    "TNFRI": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "TO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "TPH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "TPJ": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "TPN": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "TR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "TRP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "TRPM3": {
+      "count": 5,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14h-trpm3-channelopathy.tex"
+      ]
+    },
+    "TRPV1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "TSH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "TSPO": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "TT3": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "TT4": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "TV": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex"
+      ]
+    },
+    "UDP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "UHPLC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch09-endocrine.tex"
+      ]
+    },
+    "UK": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "UPR": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "US": {
+      "count": 4,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severe-reality.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex"
+      ]
+    },
+    "UTP": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "VBM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "VCA": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-subgroups.tex"
+      ]
+    },
+    "VCAM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "VCO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "VE": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "VEGF": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+      ]
+    },
+    "VGKC": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14b-autoimmune-immune.tex"
+      ]
+    },
+    "VNS": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14-main.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex"
+      ]
+    },
+    "VO": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-severity-levels.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch10-cardiovascular.tex"
+      ]
+    },
+    "VWF": {
+      "count": 3,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch13-integrative-models.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14e-2025-research.tex"
+      ]
+    },
+    "WARNING": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part1-clinical/ch05-progression.tex"
+      ]
+    },
+    "WASF3": {
+      "count": 2,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch06-energy-metabolism.tex",
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch12-genetics-epigenetics.tex"
+      ]
+    },
+    "WMH": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch08-neurological.tex"
+      ]
+    },
+    "XBP1": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "XM": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch14/ch14a-core-mechanistic.tex"
+      ]
+    },
+    "ZO": {
+      "count": 1,
+      "files": [
+        "/home/nicky/code/health-me-cfs/contents/part2-pathophysiology/ch11-gut-microbiome.tex"
+      ]
+    }
+  }
+}

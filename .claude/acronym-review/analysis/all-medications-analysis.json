@@ -1,0 +1,954 @@
+{
+  "LDA": {
+    "total": 1,
+    "correct": [
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1854,
+        "notes": "Definition correct: Aripiprazole confirmed in context; Expansion present in context"
+      }
+    ],
+    "missing_expansion": [],
+    "errors": []
+  },
+  "LDN": {
+    "total": 75,
+    "correct": [
+      {
+        "file": "appendix-b-abbreviations.tex",
+        "line": 38,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-g-research-synthesis.tex",
+        "line": 49,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-g-research-synthesis.tex",
+        "line": 263,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-g-research-synthesis.tex",
+        "line": 294,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1469,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-i-a-medical-management.tex",
+        "line": 14,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-i-a-medical-management.tex",
+        "line": 170,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-a-medical-management.tex",
+        "line": 225,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-a-medical-management.tex",
+        "line": 1575,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-a-medical-management.tex",
+        "line": 1632,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-a-medical-management.tex",
+        "line": 1687,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-b-clinical-findings.tex",
+        "line": 582,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 170,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 229,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 243,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 372,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 676,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 940,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 1226,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 1260,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 388,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 521,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 576,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 1478,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 1539,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2052,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2336,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2600,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2853,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 590,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 699,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-j-daily-journal.tex",
+        "line": 35,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-j-daily-journal.tex",
+        "line": 142,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-j-daily-journal.tex",
+        "line": 204,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-j-recommendations.tex",
+        "line": 111,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-j-recommendations.tex",
+        "line": 112,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch01-introduction.tex",
+        "line": 78,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch04-07-novel-framework.tex",
+        "line": 759,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch13-integrative-models.tex",
+        "line": 80,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14-symptom-management.tex",
+        "line": 233,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 500,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 963,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 1059,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 1267,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 8,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 10,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 17,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 52,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 924,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 737,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 848,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch19-integrative-approaches.tex",
+        "line": 971,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch19-integrative-approaches.tex",
+        "line": 996,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch24-controversies.tex",
+        "line": 222,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 361,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1490,
+        "notes": "Definition correct: Naltrexone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1499,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1501,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1574,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      }
+    ],
+    "missing_expansion": [
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 1066,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-c-case-analysis.tex",
+        "line": 1193,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 228,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 1377,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2122,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2726,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2886,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "appendix-i-personal-symptoms.tex",
+        "line": 2920,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch04-07-novel-framework.tex",
+        "line": 528,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch04-07-novel-framework.tex",
+        "line": 789,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch14i-clinical-brainstorm.tex",
+        "line": 447,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 626,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1544,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1553,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1554,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1565,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Low-Dose Naltrexone (LDN)"
+      }
+    ],
+    "errors": []
+  },
+  "NAC": {
+    "total": 47,
+    "correct": [
+      {
+        "file": "appendix-b-abbreviations.tex",
+        "line": 45,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-g-research-synthesis.tex",
+        "line": 290,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 774,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 777,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 784,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 785,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1618,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1621,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1689,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1698,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch06-energy-metabolism.tex",
+        "line": 906,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch11-gut-microbiome.tex",
+        "line": 201,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch11-gut-microbiome.tex",
+        "line": 202,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch11-gut-microbiome.tex",
+        "line": 230,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 876,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 786,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 903,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 246,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 248,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 252,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 280,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 485,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 570,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 597,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 734,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 913,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 938,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 957,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 963,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1184,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1291,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1298,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1309,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1340,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1403,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch19-integrative-approaches.tex",
+        "line": 649,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch19-integrative-approaches.tex",
+        "line": 650,
+        "notes": "Definition correct: N-Acetylcysteine confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch19-integrative-approaches.tex",
+        "line": 728,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch19-integrative-approaches.tex",
+        "line": 992,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      }
+    ],
+    "missing_expansion": [
+      {
+        "file": "ch05-subgroups.tex",
+        "line": 508,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch05-subgroups.tex",
+        "line": 547,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch14-main.tex",
+        "line": 48,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 278,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 837,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 464,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 605,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 950,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: N-Acetylcysteine (NAC)"
+      }
+    ],
+    "errors": []
+  },
+  "BH4": {
+    "total": 41,
+    "correct": [
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 802,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1151,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1155,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1169,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1184,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1187,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1189,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1193,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1199,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "appendix-h-annotated-bibliography.tex",
+        "line": 1203,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch06-energy-metabolism.tex",
+        "line": 790,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch06-energy-metabolism.tex",
+        "line": 802,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch06-energy-metabolism.tex",
+        "line": 813,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch06-energy-metabolism.tex",
+        "line": 815,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch06-energy-metabolism.tex",
+        "line": 930,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 1014,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 29,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 30,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 52,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 895,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 899,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 939,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 958,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 105,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 256,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 259,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 260,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 264,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1329,
+        "notes": "Definition correct: Tetrahydrobiopterin confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1337,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      }
+    ],
+    "missing_expansion": [
+      {
+        "file": "ch14-main.tex",
+        "line": 26,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 17,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 43,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch14f-cpet-derived.tex",
+        "line": 278,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 923,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 298,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 326,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 332,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 464,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1200,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      },
+      {
+        "file": "ch25-translational-findings.tex",
+        "line": 1706,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Tetrahydrobiopterin (BH4)"
+      }
+    ],
+    "errors": []
+  },
+  "DHEA": {
+    "total": 3,
+    "correct": [
+      {
+        "file": "ch09-endocrine.tex",
+        "line": 233,
+        "notes": "Definition correct: Dehydroepiandrosterone confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch14b-action-mild-moderate.tex",
+        "line": 1080,
+        "notes": "Definition assumed correct (no contrary evidence); No expansion needed: No expansion within \u00b150 lines"
+      }
+    ],
+    "missing_expansion": [
+      {
+        "file": "ch14i-clinical-brainstorm.tex",
+        "line": 324,
+        "issue": "First/primary use should have expansion: No expansion within \u00b150 lines",
+        "recommendation": "Add: Dehydroepiandrosterone (DHEA)"
+      }
+    ],
+    "errors": []
+  },
+  "ALA": {
+    "total": 5,
+    "correct": [
+      {
+        "file": "appendix-j-recommendations.tex",
+        "line": 242,
+        "notes": "Definition correct: Alpha-Lipoic Acid confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch15-medications-systems.tex",
+        "line": 533,
+        "notes": "Definition correct: Alpha-Lipoic Acid confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 287,
+        "notes": "Definition correct: Alpha-Lipoic Acid confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch16-supplements-nutraceuticals.tex",
+        "line": 289,
+        "notes": "Definition correct: Alpha-Lipoic Acid confirmed; Expansion present in context"
+      },
+      {
+        "file": "ch18-emerging-therapies.tex",
+        "line": 1340,
+        "notes": "Definition correct: Alpha-Lipoic Acid confirmed; Expansion present in context"
+      }
+    ],
+    "missing_expansion": [],
+    "errors": []
+  },
+  "summary": {
+    "total_reviewed": 172,
+    "all_definitions_correct": true,
+    "corrections_needed": 36,
+    "by_type": {
+      "definition_errors": 0,
+      "missing_expansions": 36,
+      "ambiguous": 0
+    }
+  }
+}

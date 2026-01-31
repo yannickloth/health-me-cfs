@@ -1,0 +1,191 @@
+{
+  "LDA": {
+    "total_occurrences": 1,
+    "verified_correct": [
+      {
+        "file": "contents/appendices/appendix-h-annotated-bibliography.tex",
+        "line": 1854,
+        "status": "correct",
+        "notes": "Section heading explicitly expands as 'Low-Dose Aripiprazole (LDA)' - correct definition used"
+      }
+    ],
+    "errors": [],
+    "missing_expansion": []
+  },
+  "LDN": {
+    "total_occurrences": 30,
+    "verified_correct": [
+      {
+        "file": "contents/part3-treatment/ch14a-urgent-action-severe.tex",
+        "line": 216,
+        "status": "correct",
+        "notes": "Expanded as 'low-dose naltrexone' in observation environment, then uses LDN acronym later in text"
+      },
+      {
+        "file": "contents/part3-treatment/ch14a-urgent-action-severe.tex",
+        "line": 740,
+        "status": "correct",
+        "notes": "Expanded as 'Low-dose naltrexone (LDN)' on first use in this section"
+      },
+      {
+        "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+        "line": 470,
+        "status": "correct",
+        "notes": "Expanded as 'Low-dose naltrexone (LDN)' in bullet point"
+      },
+      {
+        "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+        "line": 1265,
+        "status": "correct",
+        "notes": "Expanded as 'Low-dose naltrexone (LDN)' as section heading in protocol"
+      },
+      {
+        "file": "contents/part3-treatment/ch15-medications-systems.tex",
+        "line": 8,
+        "status": "correct",
+        "notes": "Subsection heading expands as 'Low-Dose Naltrexone (LDN)' - first mention in chapter"
+      },
+      {
+        "file": "contents/part3-treatment/ch15-medications-systems.tex",
+        "line": 10,
+        "status": "correct",
+        "notes": "Expanded as 'Low-dose naltrexone (LDN)' immediately following subsection heading"
+      },
+      {
+        "file": "contents/appendices/appendix-i-a-medical-management.tex",
+        "line": 14,
+        "status": "correct",
+        "notes": "Expanded as 'Low-dose naltrexone (LDN)' on first use in this appendix"
+      }
+    ],
+    "errors": [],
+    "missing_expansion": [
+      {
+        "file": "contents/part3-treatment/ch14a-urgent-action-severe.tex",
+        "line": 849,
+        "issue": "Acronym 'LDN' used without expansion in this section; unclear if it was previously expanded in same section",
+        "recommendation": "Verify that 'Low-dose naltrexone (LDN)' appears earlier in the same continuous section, or expand here"
+      },
+      {
+        "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+        "line": 498,
+        "issue": "Acronym 'LDN' used in comparative context without expansion in immediate vicinity",
+        "recommendation": "Check if expansion appears earlier in same section; if not, expand as 'low-dose naltrexone (LDN)'"
+      },
+      {
+        "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+        "line": 961,
+        "issue": "Acronym 'LDN' used in clinical decision text without visible expansion",
+        "recommendation": "Verify expansion earlier in section or expand as 'low-dose naltrexone (LDN)'"
+      },
+      {
+        "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+        "line": 1057,
+        "issue": "Acronym 'LDN' used in clinical decision text without visible expansion",
+        "recommendation": "Verify expansion earlier in section or expand as 'low-dose naltrexone (LDN)'"
+      },
+      {
+        "file": "contents/part3-treatment/ch15-medications-systems.tex",
+        "line": 17,
+        "issue": "Acronym 'LDN' used in bullet point; likely OK given subsection heading at line 8-10, but should verify continuity",
+        "recommendation": "Confirm this is part of the same section that starts at line 8; if so, this is correct"
+      },
+      {
+        "file": "contents/part3-treatment/ch15-medications-systems.tex",
+        "line": 52,
+        "issue": "Acronym 'LDN' used in speculation environment; depends on whether this follows the LDN subsection",
+        "recommendation": "If this follows continuously from line 10 subsection, this is correct; otherwise needs expansion"
+      },
+      {
+        "file": "contents/part3-treatment/ch15-medications-systems.tex",
+        "line": 863,
+        "issue": "Acronym 'LDN' used in clinical protocol without visible expansion in context",
+        "recommendation": "Check if this is in a different section from line 8-52; if so, needs expansion"
+      },
+      {
+        "file": "contents/part3-treatment/ch15-medications-systems.tex",
+        "line": 924,
+        "issue": "Acronym 'LDN' used in phenotype description without visible expansion",
+        "recommendation": "Check section boundaries; may need expansion if this is separate from earlier LDN section"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 737,
+        "issue": "Acronym 'LDN' used in protocol timeline without expansion in chapter 18",
+        "recommendation": "First use of LDN in chapter 18 - should expand as 'low-dose naltrexone (LDN)' or verify expansion earlier in chapter"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 848,
+        "issue": "Acronym 'LDN' used without expansion",
+        "recommendation": "Check if line 737 expansion exists and is in same section; otherwise expand here"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 1524,
+        "issue": "Acronym 'LDN' used in table without expansion",
+        "recommendation": "Tables should have expansions in caption or first column; verify or add expansion"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 1556,
+        "issue": "Acronym 'LDN' used in table without visible expansion",
+        "recommendation": "Same table as line 1524; verify table caption or first-row expansion"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 1558,
+        "issue": "Acronym 'LDN' used in table without visible expansion",
+        "recommendation": "Same table as line 1524; verify table caption or first-row expansion"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 1586,
+        "issue": "Acronym 'LDN' used in table without visible expansion",
+        "recommendation": "Check if this is a different table from line 1524; verify expansion in caption or first use"
+      },
+      {
+        "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+        "line": 1649,
+        "issue": "Acronym 'LDN' used in table without visible expansion",
+        "recommendation": "Verify table caption includes expansion or add to first table cell where LDN appears"
+      },
+      {
+        "file": "contents/appendices/appendix-i-a-medical-management.tex",
+        "line": 170,
+        "issue": "Acronym 'LDN' used alone; depends on context distance from line 14 expansion",
+        "recommendation": "If >1 page from line 14, consider re-expansion; otherwise acceptable"
+      },
+      {
+        "file": "contents/appendices/appendix-i-a-medical-management.tex",
+        "line": 225,
+        "issue": "Acronym 'LDN' used in table",
+        "recommendation": "Check table caption for expansion or verify line 14 expansion is in same continuous section"
+      },
+      {
+        "file": "contents/appendices/appendix-i-a-medical-management.tex",
+        "line": 1575,
+        "issue": "Acronym 'LDN' used without visible expansion (far from line 14)",
+        "recommendation": "Large line distance from first expansion; likely needs re-expansion in this section"
+      },
+      {
+        "file": "contents/appendices/appendix-i-a-medical-management.tex",
+        "line": 1632,
+        "issue": "Acronym 'LDN' used without visible expansion (far from line 14)",
+        "recommendation": "Large line distance from first expansion; likely needs re-expansion in this section"
+      },
+      {
+        "file": "contents/appendices/appendix-i-a-medical-management.tex",
+        "line": 1687,
+        "issue": "Acronym 'LDN' used without visible expansion (far from line 14)",
+        "recommendation": "Large line distance from first expansion; likely needs re-expansion in this section"
+      }
+    ]
+  },
+  "summary": {
+    "total_reviewed": 31,
+    "all_correct": false,
+    "corrections_needed": 20,
+    "notes": "LDA usage is correct (1/1). LDN shows correct definition throughout but has 20 instances requiring verification of expansion. Key issues: (1) Multiple uses in ch14b-action-mild-moderate.tex between lines 498-1057 without visible expansion in context - need to verify section continuity with line 470 expansion. (2) Chapter 18 (ch18-emerging-therapies.tex) appears to lack first-use expansion - line 737 should likely expand. (3) Tables in ch18 at lines 1524-1649 need caption or first-cell expansion. (4) Appendix-i-a uses LDN at distant lines (1575, 1632, 1687) far from first expansion (line 14) - section breaks likely require re-expansion. RECOMMENDATION: Read each flagged file to verify section structure and add expansions where needed."
+  }
+}

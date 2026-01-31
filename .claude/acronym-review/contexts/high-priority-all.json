@@ -1,0 +1,874 @@
+{
+  "LDA": [
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1854,
+      "context": "1851-    \\item \\textbf{Clinical use:} Reasonable as part of mitochondrial support; safe, inexpensive\n1852-\\end{itemize}\n1853-\n1854:\\subsection{Low-Dose Aripiprazole (LDA)}\n1855-"
+    }
+  ],
+  "LDN": [
+    {
+      "file": "appendix-b-abbreviations.tex",
+      "line": 38,
+      "context": "35-\\item[IL] Interleukin\n36-\\item[IOM] Institute of Medicine\n37-\\item[IVIG] Intravenous immunoglobulin\n38:\\item[LDN] Low-dose naltrexone\n39-\\item[LPS] Lipopolysaccharide\n40-\\item[MCAS] Mast cell activation syndrome\n41-\\item[MCT] Medium-chain triglycerides"
+    },
+    {
+      "file": "appendix-g-research-synthesis.tex",
+      "line": 49,
+      "context": "46-\\midrule\n47-Chia 2005~\\cite{Chia2005} & Observational; stomach biopsy & n=165 ME/CFS patients & Enterovirus detected in 82\\% of ME/CFS patients via stomach biopsy immunostaining; correlation with symptom severity & MODERATE (specialized technique; replication needed) \\\\\n48-\\midrule\n49:Gottschalk 2023~\\cite{Gottschalk2023} & Case series; observational & n=42 Long COVID patients & LDN (4.5mg) improved fatigue, brain fog, PEM in 78\\% of Long COVID patients within 2 months & LOW-MODERATE (observational; no control group) \\\\\n50-\\bottomrule\n51-\\end{tabular}\n52-\\end{table}"
+    },
+    {
+      "file": "appendix-g-research-synthesis.tex",
+      "line": 263,
+      "context": "260-\\midrule\n261-\\textbf{Heterogeneity and subtypes} & Clinical presentation varies; treatment responses differ & Cluster analysis; biomarker-based stratification; metabolomics subtyping \\\\\n262-\\midrule\n263:\\textbf{Why B-cell depletion failed but LDN helps} & Rituximab negative~\\cite{Fluge2019}; LDN observational positive~\\cite{Polo2019} & T-cell vs B-cell role; LDN mechanism (opioid vs immune); RCT of LDN \\\\\n264-\\midrule\n265-\\textbf{Connection between mitochondria and immune dysfunction} & Both systems affected; unclear if linked or parallel & Mast cell-mitochondrial crosstalk; cytokine effects on oxidative phosphorylation \\\\\n266-\\midrule"
+    },
+    {
+      "file": "appendix-g-research-synthesis.tex",
+      "line": 294,
+      "context": "291-\\midrule\n292-\\textbf{Space Medicine} & Orthostatic intolerance, deconditioning, blood volume loss & Compression garments, horizontal exercise, fluid/salt loading & POTS management, reconditioning, blood volume expansion & IMPLEMENTED; POTS protocols \\\\\n293-\\midrule\n294:\\textbf{Chronic Pain Medicine} & Central sensitization, quality of life impairment & LDN, gabapentinoids, acceptance strategies & Pain reduction, central sensitization, pacing validation & PARTIAL; LDN evidence moderate \\\\\n295-\\midrule\n296-\\textbf{Geriatric Frailty} & Multi-system decline, weakness, falls risk & Vitamin D optimization, protein supplementation, mobility aids without stigma & Frailty prevention, function optimization, assistive devices & IMPLEMENTED; acceptance of limitations \\\\\n297-\\bottomrule"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1469,
+      "context": ""
+    },
+    {
+      "file": "appendix-i-a-medical-management.tex",
+      "line": 14,
+      "context": "11-\n12-\\subsubsection{Immune Modulation}\n13-\\begin{itemize}\n14:    \\item \\textbf{Low-dose naltrexone (LDN)}: 3\\,mg daily (started 2026-01-05) for anti-inflammatory and immune modulation\n15-    \\begin{itemize}\n16-        \\item \\textit{Timing}: Morning dosing (note: standard protocol uses nighttime dosing)"
+    },
+    {
+      "file": "appendix-i-a-medical-management.tex",
+      "line": 170,
+      "context": "167-\\begin{itemize}\n168-    \\item Rilatine MR 30\\,mg\n169-    \\item Provigil 100\\,mg (if taking)\n170:    \\item LDN 3\\,mg\n171-    \\item Acetyl-L-carnitine 1000\\,mg\n172-    \\item Urolithin A + NAD+ (2 capsules)"
+    },
+    {
+      "file": "appendix-i-a-medical-management.tex",
+      "line": 225,
+      "context": "222-\\midrule"
+    },
+    {
+      "file": "appendix-i-a-medical-management.tex",
+      "line": 1575,
+      "context": "1572-    \\end{itemize}\n1573-    \\item[Medications:]\n1574-    \\begin{itemize}\n1575:        \\item \\textbf{LDN}: 4\\,mg (morning dose)\n1576-        \\item Morning: Provigil 100\\,mg\n1577-        \\item Magnesium glycinate initiated this day (first dose)"
+    },
+    {
+      "file": "appendix-i-a-medical-management.tex",
+      "line": 1632,
+      "context": "1629-    \\end{itemize}\n1630-    \\item[Medications:]\n1631-    \\begin{itemize}\n1632:        \\item \\textbf{LDN}: 4\\,mg (morning dose)\n1633-        \\item Morning: Provigil 100\\,mg only (no methylphenidate)\n1634-        \\item Magnesium glycinate: Continued (second day)\n1635-        \\item Acetyl-L-carnitine, riboflavin, standard supplement stack"
+    },
+    {
+      "file": "appendix-i-a-medical-management.tex",
+      "line": 1687,
+      "context": "1684-    \\end{itemize}\n1685-    \\item[Medications:]\n1686-    \\begin{itemize}\n1687:        \\item \\textbf{LDN}: 4\\,mg (morning dose)\n1688-        \\item \\textbf{Supplements}: All protocol supplements taken\n1689-        \\item \\textbf{Ritalin}: None yet\n1690-        \\item \\textbf{Provigil}: None yet"
+    },
+    {
+      "file": "appendix-i-b-clinical-findings.tex",
+      "line": 582,
+      "context": "579-    \\begin{itemize}\n580-        \\item Methylphenidate (Rilatine): Effective for arousal/function\n581-        \\item Modafinil (Provigil): Effective for wakefulness\n582:        \\item LDN: Current status and effect to be documented\n583-    \\end{itemize}\n584-\n585-    \\item[Functional status changes:]"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 170,
+      "context": "167-\n168-\\textbf{Important distinction:} While allergies are not caused by ME/CFS, ME/CFS-related immune dysregulation may \\textit{worsen} allergic responses or contribute to developing new sensitivities. The strongly elevated soy IgG may represent this phenomenon\u2014gut barrier dysfunction from ME/CFS allowing food proteins to trigger immune responses.\n169-\n170:\\textbf{Treatment implication:} Immune modulation (LDN) may improve both ME/CFS symptoms and allergic reactivity by normalizing immune regulation. Mast cell stabilization (quercetin, H1/H2 antihistamines) may provide symptomatic relief for both conditions.\n171-\n172-\\subsubsection{Conditions Related to ADHD/Attention Dysfunction}\n173-\\label{subsubsec:adhd-related}"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 229,
+      "context": "226-\\textbf{Treatment prioritization follows this hierarchy:}\n227-\\begin{itemize}\n228-    \\item Address mitochondrial dysfunction: benefits energy, muscles, senses, cognition\n229:    \\item Address immune dysregulation (LDN): benefits inflammation, pain, possibly allergies\n230-    \\item Support dopamine pathways (iron, stimulants): benefits arousal, attention, RLS, motivation\n231-    \\item Manage allergies symptomatically: antihistamines, avoidance, mast cell stabilization\n232-\\end{itemize}"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 243,
+      "context": "240-    \\item ME/CFS-related immune dysregulation may \\textit{amplify} allergic responses\n241-    \\item Mast cell activation (common in ME/CFS) can worsen allergic symptoms\n242-    \\item Gut barrier dysfunction may create \\textit{new} food sensitivities (like elevated soy IgG)\n243:    \\item Treating ME/CFS immune dysfunction (LDN) may secondarily reduce allergic reactivity\n244-\\end{itemize}\n245-\n246-The allergies should be managed independently (avoidance, antihistamines) but may show some improvement with overall immune modulation."
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 372,
+      "context": "369-\\begin{itemize}\n370-    \\item Avoidance of known allergens (nuts, high-pollen exposure)\n371-    \\item Antihistamines as needed\n372:    \\item May improve secondarily with LDN/immune modulation\n373-\\end{itemize}\n374-\\end{tcolorbox}\n375-"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 676,
+      "context": "673-\\begin{itemize}\n674-    \\item Impaired glymphatic clearance from poor sleep architecture\n675-    \\item Brain fog / cognitive dysfunction\n676:    \\item May respond to LDN if not already taking\n677-\\end{itemize}\n678-\n679-\\subsection{Proposed Investigation Protocol}"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 940,
+      "context": "937-    \\item Target: Gradual increase in HRV over weeks-months indicates improved vagal tone\n938-\\end{itemize}\n939-\n940:\\subsection{Phase 6: Anti-Neuroinflammatory Support (If Not Already Taking LDN)}\n941-\\label{subsec:phase6}\n942-\n943-Low-dose naltrexone is already in the medication list. If not yet started, or if reassessing:"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 1066,
+      "context": "1063-\n1064-\\begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!75!black,title=Realistic Best-Case Outcome]\n1065-\n1066:\\textbf{If all interventions work optimally} (MCT oil, Acetyl-L-Carnitine, LDN, D-Ribose, all metabolic support):\n1067-"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 1193,
+      "context": ""
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 1226,
+      "context": "1223-\n1224-\\textbf{This protocol CAN (at best):}\n1225-\\begin{itemize}\n1226:    \\item Reduce inflammatory amplification (LDN)\n1227-    \\item Provide metabolic workarounds (MCT, Acetyl-L-Carnitine, D-Ribose)\n1228-    \\item Improve symptom management (cramps, migraines, vitamin absorption)\n1229-    \\item Enable return to pre-2018 ``barely surviving'' functional level"
+    },
+    {
+      "file": "appendix-i-c-case-analysis.tex",
+      "line": 1260,
+      "context": "1257-    \\item \\textbf{Autonomy}: Ability to drive children, buy groceries vs.\\ complete dependency\n1258-    \\item \\textbf{Slowing decline}: May prevent further deterioration\n1259-    \\item \\textbf{Scientific uncertainty}: Small possibility of better-than-expected outcome\n1260:    \\item \\textbf{LDN inflammatory hypothesis}: If inflammatory component is larger than estimated, LDN might provide more benefit than projected\n1261-    \\item \\textbf{Symptom-specific relief}: Even if overall function doesn't improve, reducing cramps/migraines has value\n1262-\\end{enumerate}\n1263-"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 228,
+      "context": "225-\\paragraph{Clinical Significance.}\n226-The presence of inflammatory joint pain (particularly knuckles) suggests an \\textbf{inflammatory or autoimmune component} overlaying the primary metabolic dysfunction. This is clinically important because:\n227-\\begin{itemize}\n228:    \\item Inflammatory component may be amenable to immune modulation (LDN, potential immunotherapy)\n229-    \\item Distinguishes this from pure metabolic disease\n230-    \\item Suggests possibility of ``two-hit'' disease model: baseline metabolic vulnerability + triggered inflammatory amplification\n231-    \\item If inflammatory component can be controlled, may return to pre-2018 baseline (``barely surviving with extreme compensatory strategies and unsustainable effort'' rather than ``completely unable to compensate'')"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 388,
+      "context": "385-\n386-\\subsubsection{Immune Modulation}\n387-\\begin{itemize}\n388:    \\item \\textbf{Low-dose naltrexone (LDN)}: 3\\,mg daily (started 2026-01-05) for anti-inflammatory and immune modulation\n389-    \\begin{itemize}\n390-        \\item \\textit{Timing}: Morning dosing (note: standard protocol uses nighttime dosing)"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 521,
+      "context": "518-\\begin{itemize}\n519-    \\item Rilatine MR 30\\,mg\n520-    \\item Provigil 100\\,mg (if taking)\n521:    \\item LDN 3\\,mg\n522-    \\item Acetyl-L-carnitine 1000\\,mg\n523-    \\item Urolithin A + NAD+ (2 capsules)"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 576,
+      "context": "573-\\midrule"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 1377,
+      "context": "1374-\n1375-\\paragraph{Medications and Supplements (Daily Checklist).}\n1376-\\begin{itemize}\n1377:    \\item \\textbf{LDN}: Dose and time taken\n1378-    \\item \\textbf{Stimulants}: Rilatine/Provigil doses and timing (note total pill count)\n1379-    \\item \\textbf{Mitochondrial support}: Urolithin A, CoQ10, Riboflavin B2\n1380-    \\item \\textbf{Vitamins}: Vitamin D (if weekly dose day), Vitamin C, B-complex"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 1478,
+      "context": "1475-\n1476-    \\item[Medications and Supplements:]\n1477-    \\begin{itemize}\n1478:        \\item LDN 3\\,mg: $\\square$ (time: \\underline{\\hspace{2cm}})\n1479-        \\item Rilatine MR 30\\,mg: $\\square$ $\\square$ (times: \\underline{\\hspace{3cm}})\n1480-        \\item Provigil 100\\,mg: $\\square$ $\\square$ (times: \\underline{\\hspace{3cm}})\n1481-        \\item Total stimulant pills today: \\underline{\\hspace{1cm}}/3 max"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 1539,
+      "context": "1536-\n1537-    \\item[Medications/Supplements:]\n1538-    \\begin{itemize}\n1539:        \\item LDN 3\\,mg: $\\square$ | Rilatine: $\\square$ $\\square$ | Provigil: $\\square$ $\\square$ (total: \\underline{\\hspace{1cm}}/3)\n1540-        \\item Urolithin A: $\\square$ | CoQ10: $\\square$ | Riboflavin B2: $\\square$\n1541-        \\item Vit C: $\\square$ | B-complex: $\\square$ | Mg glycinate: $\\square$ | Iron: $\\square$ | Vit D: $\\square$\n1542-        \\item Electrolytes: \\underline{\\hspace{1cm}}$\\times$ | MetaDigest: $\\square$ | MCT oil: $\\square$"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2052,
+      "context": "2049-    \\begin{itemize}\n2050-        \\item Methylphenidate (Rilatine): Effective for arousal/function\n2051-        \\item Modafinil (Provigil): Effective for wakefulness\n2052:        \\item LDN: Current status and effect to be documented\n2053-    \\end{itemize}\n2054-\n2055-    \\item[Functional status changes:]"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2122,
+      "context": "2119-\\paragraph{Medication Observations.}\n2120-\\begin{itemize}\n2121-    \\item % E.g., \"Methylphenidate masks fatigue\u2014HR monitor essential\"\n2122:    \\item % E.g., \"LDN best taken at night; morning dosing disrupts sleep\"\n2123-\\end{itemize}\n2124-\n2125-\\paragraph{Seasonal/Cyclical Patterns.}"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2336,
+      "context": "2333-\\begin{itemize}\n2334-    \\item Impaired glymphatic clearance from poor sleep architecture\n2335-    \\item Brain fog / cognitive dysfunction\n2336:    \\item May respond to LDN if not already taking\n2337-\\end{itemize}\n2338-\n2339-\\subsection{Proposed Investigation Protocol}"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2600,
+      "context": "2597-    \\item Target: Gradual increase in HRV over weeks-months indicates improved vagal tone\n2598-\\end{itemize}\n2599-\n2600:\\subsection{Phase 6: Anti-Neuroinflammatory Support (If Not Already Taking LDN)}\n2601-\\label{subsec:phase6}\n2602-\n2603-Low-dose naltrexone is already in the medication list. If not yet started, or if reassessing:"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2726,
+      "context": "2723-\n2724-\\begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!75!black,title=Realistic Best-Case Outcome]\n2725-\n2726:\\textbf{If all interventions work optimally} (MCT oil, Acetyl-L-Carnitine, LDN, D-Ribose, all metabolic support):\n2727-"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2853,
+      "context": ""
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2886,
+      "context": "2883-\n2884-\\textbf{This protocol CAN (at best):}\n2885-\\begin{itemize}\n2886:    \\item Reduce inflammatory amplification (LDN)\n2887-    \\item Provide metabolic workarounds (MCT, Acetyl-L-Carnitine, D-Ribose)\n2888-    \\item Improve symptom management (cramps, migraines, vitamin absorption)\n2889-    \\item Enable return to pre-2018 ``barely surviving'' functional level"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 2920,
+      "context": "2917-    \\item \\textbf{Autonomy}: Ability to drive children, buy groceries vs.\\ complete dependency\n2918-    \\item \\textbf{Slowing decline}: May prevent further deterioration\n2919-    \\item \\textbf{Scientific uncertainty}: Small possibility of better-than-expected outcome\n2920:    \\item \\textbf{LDN inflammatory hypothesis}: If inflammatory component is larger than estimated, LDN might provide more benefit than projected\n2921-    \\item \\textbf{Symptom-specific relief}: Even if overall function doesn't improve, reducing cramps/migraines has value\n2922-\\end{enumerate}\n2923-"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 590,
+      "context": "587-\\paragraph{Clinical Significance.}\n588-The presence of inflammatory joint pain (particularly knuckles) suggests an \\textbf{inflammatory or autoimmune component} overlaying the primary metabolic dysfunction. This is clinically important because:\n589-\\begin{itemize}\n590:    \\item Inflammatory component may be amenable to immune modulation (LDN, potential immunotherapy)\n591-    \\item Distinguishes this from pure metabolic disease\n592-    \\item Suggests possibility of ``two-hit'' disease model: baseline metabolic vulnerability + triggered inflammatory amplification\n593-    \\item If inflammatory component can be controlled, may return to pre-2018 baseline (``barely surviving with extreme compensatory strategies and unsustainable effort'' rather than ``completely unable to compensate'')"
+    },
+    {
+      "file": "appendix-i-personal-symptoms.tex",
+      "line": 699,
+      "context": "696-\\end{enumerate}\n697-\n698-\\paragraph{Clinical Note.}\n699:The combination of neuralgias and dorsalgias with other ME/CFS symptoms suggests a generalized pain processing disorder overlaying the metabolic dysfunction. This may respond to interventions targeting central sensitization (e.g., LDN, which modulates glial cell activation and neuroinflammation).\n700-\n701-\\section{Respiratory Symptoms}\n702-\\label{sec:personal-respiratory}"
+    },
+    {
+      "file": "appendix-j-daily-journal.tex",
+      "line": 35,
+      "context": "32-\n33-\\paragraph{Medications and Supplements (Daily Checklist).}\n34-\\begin{itemize}\n35:    \\item \\textbf{LDN}: Dose and time taken\n36-    \\item \\textbf{Stimulants}: Rilatine/Provigil doses and timing (note total pill count)\n37-    \\item \\textbf{Mitochondrial support}: Urolithin A, CoQ10, Riboflavin B2\n38-    \\item \\textbf{Vitamins}: Vitamin D (if weekly dose day), Vitamin C, B-complex"
+    },
+    {
+      "file": "appendix-j-daily-journal.tex",
+      "line": 142,
+      "context": "139-\n140-    \\item[Medications and Supplements:]\n141-    \\begin{itemize}\n142:        \\item LDN 3\\,mg: $\\square$ (time: \\underline{\\hspace{2cm}})\n143-        \\item Rilatine MR 30\\,mg: $\\square$ $\\square$ (times: \\underline{\\hspace{3cm}})\n144-        \\item Provigil 100\\,mg: $\\square$ $\\square$ (times: \\underline{\\hspace{3cm}})\n145-        \\item Total stimulant pills today: \\underline{\\hspace{1cm}}/3 max"
+    },
+    {
+      "file": "appendix-j-daily-journal.tex",
+      "line": 204,
+      "context": "201-\n202-    \\item[Medications/Supplements:]\n203-    \\begin{itemize}\n204:        \\item LDN 3\\,mg: $\\square$ | Rilatine: $\\square$ $\\square$ | Provigil: $\\square$ $\\square$ (total: \\underline{\\hspace{1cm}}/3)\n205-        \\item Urolithin A: $\\square$ | CoQ10: $\\square$ | Riboflavin B2: $\\square$\n206-        \\item Vit C: $\\square$ | B-complex: $\\square$ | Mg glycinate: $\\square$ | Iron: $\\square$ | Vit D: $\\square$\n207-        \\item Electrolytes: \\underline{\\hspace{1cm}}$\\times$ | MetaDigest: $\\square$ | MCT oil: $\\square$"
+    },
+    {
+      "file": "appendix-j-recommendations.tex",
+      "line": 111,
+      "context": ""
+    },
+    {
+      "file": "appendix-j-recommendations.tex",
+      "line": 112,
+      "context": "109-\\end{achievement}\n110-\n111:\\begin{hypothesis}[LDN for Tinnitus in ME/CFS]\n112:Low-dose naltrexone shows 73.9\\% positive response rate in ME/CFS patients (Bateman Horne Center, n=218). Anecdotal patient reports describe tinnitus improvement on LDN, though no systematic trials exist. Mechanism: anti-neuroinflammatory effects reducing cytokine-mediated auditory pathway dysfunction. \\textbf{Certainty: Low for tinnitus specifically; Medium for general ME/CFS symptoms}.\n113-"
+    },
+    {
+      "file": "ch01-introduction.tex",
+      "line": 78,
+      "context": "75-\n76-\\begin{itemize}\n77-    \\item \\textbf{Shared research infrastructure}: Long COVID research programs (RECOVER, PHOSP-COVID) have included ME/CFS comparison groups, generating high-quality data on both conditions.\n78:    \\item \\textbf{Treatment crossover}: Interventions studied for long COVID, including low-dose naltrexone (LDN), have shown promise in ME/CFS populations. LDN, which modulates microglial activation and neuroinflammation, emerged from long COVID clinical experience and is now being systematically studied in ME/CFS~\\cite{Bolton2020LDN}.\n79-    \\item \\textbf{Biomarker discovery}: The urgency of the long COVID crisis has accelerated biomarker research applicable to both conditions, including markers of immune exhaustion, microclotting, and mitochondrial dysfunction.\n80-    \\item \\textbf{Public recognition}: The visibility of long COVID has reduced stigma around ME/CFS and increased acceptance that post-infectious chronic illness is a legitimate medical phenomenon.\n81-\\end{itemize}"
+    },
+    {
+      "file": "ch04-07-novel-framework.tex",
+      "line": 528,
+      "context": "525-    \\item \\textbf{Foundation}: Aggressive pacing (50\\% rule, heart rate monitoring <105 bpm)\n526-    \\item \\textbf{Dysautonomia} (quick win, high accessibility): Fludrocortisone 0.1 mg daily, sodium 6 g/day, fluids 2.5 L/day, compression stockings\n527-    \\item \\textbf{Mitochondrial} (quick win, high accessibility): CoQ10 300 mg, nicotinamide riboside 1000 mg, B-complex\n528:    \\item \\textbf{Neuroinflammation} (quick win, high accessibility): LDN 3 mg at bedtime, light/sound environmental control\n529-    \\item \\textbf{Autoimmune} (if accessible): Immunoadsorption or daratumumab candidate; pursue if no improvement after 6 months on above protocol\n530-\\end{enumerate}\n531-"
+    },
+    {
+      "file": "ch04-07-novel-framework.tex",
+      "line": 759,
+      "context": "756-\\addlinespace\n757-\\textbf{Mitochondrial} & CoQ10, NR/NMN, B vitamins & Low & High & \\textbf{SECOND} (quick wins) \\\\\n758-\\addlinespace\n759:\\textbf{Neuroinflam.} & LDN, environmental modification & Low & High & \\textbf{SECOND} (quick wins) \\\\\n760-\\addlinespace\n761-\\textbf{Autoimmune} & Immunoadsorption, daratumumab, BC007 & Moderate-High & Very Low & \\textbf{THIRD} (if accessible) \\\\\n762-\\addlinespace"
+    },
+    {
+      "file": "ch04-07-novel-framework.tex",
+      "line": 789,
+      "context": "786-\n787-    \\item \\textbf{Hypothesis}: Multi-target interventions (treating all present domains) will produce superior outcomes compared to single-target interventions\n788-    \\begin{itemize}\n789:        \\item \\textbf{Test}: Randomized controlled trial comparing CoQ10 monotherapy vs. CoQ10 + LDN + fludrocortisone (in patients with mitochondrial + neuroinflammatory + dysautonomia domains positive)\n790-    \\end{itemize}\n791-\n792-    \\item \\textbf{Hypothesis}: The RED FLAG progression risk criteria (Tier 3) prospectively identify patients who will develop severe ME/CFS"
+    },
+    {
+      "file": "ch13-integrative-models.tex",
+      "line": 80,
+      "context": "77-Sleep architecture abnormalities (\\S\\ref{sec:sleep}) & Established & Polysomnography showing reduced slow-wave, fragmented sleep; universal unrefreshing sleep & Unrefreshing sleep; cognitive dysfunction; fatigue & Sleep hygiene; low-dose trazodone; address comorbid sleep disorders & Moderate \\\\\n78-\\addlinespace\n79-\n80:Immune dysregulation (ch07) & Established & Cytokine abnormalities; NK cell dysfunction; T cell subset changes; B cell abnormalities & Flu-like symptoms; susceptibility to infections; post-infectious onset & LDN; immunomodulators; avoid immune stressors & Moderate \\\\\n81-\\addlinespace\n82-\n83-\\multicolumn{6}{l}{\\textbf{TIER 2: PROBABLE MECHANISMS}} \\\\"
+    },
+    {
+      "file": "ch14-symptom-management.tex",
+      "line": 233,
+      "context": "230-% Gabapentin\n231-% Pregabalin\n232-% Duloxetine\n233:% Low-dose naltrexone (LDN)\n234-\n235-\\subsection{Opioids}\n236-% Controversial"
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 500,
+      "context": "497-"
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 963,
+      "context": "960-    \\end{itemize}\n961-\\end{itemize}\n962-\n963:\\textbf{Clinical decision}: \\textit{If GPCR autoantibodies elevated OR NK function low OR cytokines elevated \u2192 Immune cycle ACTIVE \u2192 Consider immunoadsorption, daratumumab (if accessible), or LDN + anti-inflammatory stack.}\n964-\n965-\\paragraph{Cycle 3: Autonomic Dysregulation.}\n966-"
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 1059,
+      "context": "1056-    \\end{itemize}\n1057-\\end{itemize}\n1058-\n1059:\\textbf{Clinical decision}: \\textit{If QST shows hyperalgesia OR CSI $>$40 OR severe cognitive impairment \u2192 Neuroinflammatory cycle ACTIVE \u2192 Consider LDN, neuroinflammation-targeted supplements, avoid opioids (worsen central sensitization).}\n1060-\n1061-\\paragraph{Cycle 5: Endocrine Dysregulation.}\n1062-"
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 1267,
+      "context": "1264-        \\end{itemize}\n1265-    \\end{itemize}\n1266-\n1267:    \\item \\textbf{Low-dose naltrexone (LDN)}:\n1268-    \\begin{itemize}"
+    },
+    {
+      "file": "ch14i-clinical-brainstorm.tex",
+      "line": 447,
+      "context": "444-    \\item \\textbf{Mitochondrial support}: Full Myhill-type protocol (CoQ10, D-ribose, magnesium, B vitamins)\n445-    \\item \\textbf{Circadian enforcement}: Strict light/dark, timed eating, sleep schedule\n446-    \\item \\textbf{Antiviral} (if indicated): Valacyclovir + cimetidine\n447:    \\item \\textbf{Immune modulation}: LDN\n448-\\end{enumerate}\n449-\n450-\\textbf{Rationale:} Not ``try one thing at a time'' but hit everything at once, potentially overwhelming the pathological steady state and allowing transition to health."
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 8,
+      "context": "5-\\section{Immune-Modulating Medications}\n6-\\label{sec:immune-medications}\n7-\n8:\\subsection{Low-Dose Naltrexone (LDN)}\n9-\n10:Low-dose naltrexone (LDN) has emerged as one of the most commonly used off-label treatments for ME/CFS, despite limited controlled trial data.\n11-"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 10,
+      "context": "7-\n8:\\subsection{Low-Dose Naltrexone (LDN)}\n9-\n10:Low-dose naltrexone (LDN) has emerged as one of the most commonly used off-label treatments for ME/CFS, despite limited controlled trial data.\n11-\n12-\\subsubsection{Mechanism of Action}\n13-"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 17,
+      "context": ""
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 52,
+      "context": "49-    \\item Nausea (rare)\n50-\\end{itemize}\n51-\n52:\\begin{speculation}[LDN Combination Protocols]"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 924,
+      "context": "921-\\begin{itemize}\n922-    \\item \\textbf{Autoimmune-predominant phenotype}: Immunoadsorption, daratumumab, BC007 (for GPCR autoantibody-positive patients)\n923-    \\item \\textbf{Mitochondrial-predominant phenotype}: Aggressive NAD+ precursor therapy, potentially rapamycin (mTOR modulation)\n924:    \\item \\textbf{Neuroinflammatory-predominant phenotype}: LDN, IVIG (if SFN documented), environmental modification\n925-    \\item \\textbf{Dysautonomia-predominant phenotype}: Comprehensive POTS protocol (volume expansion, compression, pharmacotherapy)\n926-\\end{itemize}\n927-"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 737,
+      "context": ""
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 848,
+      "context": "845-        \\item Informs when aggressive intervention is justified\n846-    \\end{itemize}\n847-\n848:    \\item \\textbf{Escape velocity}: Insufficient intervention intensity (e.g., low-dose CoQ10 + LDN) produces transient improvement; adequate intensity (high-dose stack + daratumumab) produces sustained improvement after treatment stops\n849-    \\begin{itemize}\n850-        \\item Trial design: Test two dose levels; measure durability at 12 months post-treatment\n851-        \\item Distinguishes symptomatic relief from cycle-breaking"
+    },
+    {
+      "file": "ch19-integrative-approaches.tex",
+      "line": 971,
+      "context": "968-        \\item Acceptance-based approaches (pain psychology principles align with pacing)\n969-        \\item Vagal nerve stimulation (pain modulation + autonomic regulation)\n970-    \\end{itemize}\n971:    \\item \\textbf{Evidence}: LDN has best ME/CFS evidence; others largely anecdotal\n972-\\end{itemize}\n973-\n974-\\subsection{Integration and Practical Application}"
+    },
+    {
+      "file": "ch19-integrative-approaches.tex",
+      "line": 996,
+      "context": "993-\\textbf{Space Medicine} & Compression, horizontal exercise, blood volume expansion & Orthostatic tolerance, reconditioning, monitoring \\\\\n994-\\textbf{Burn/Trauma} & Glutamine, high protein, antioxidants & Gut barrier, immune support, healing \\\\\n995-\\textbf{Geriatrics} & Vitamin D, protein, mobility aids, polypharmacy reduction & Frailty prevention, function optimization \\\\\n996:\\textbf{Chronic Pain} & LDN, gabapentinoids, acceptance strategies & Pain reduction, central sensitization, pacing validation \\\\\n997-\\bottomrule\n998-\\end{tabular}\n999-\\end{table}"
+    },
+    {
+      "file": "ch24-controversies.tex",
+      "line": 222,
+      "context": "219-\\end{itemize}\n220-\n221-\\begin{achievement}[Immunomodulatory Therapeutic Approaches]\n222:Low-dose naltrexone (LDN), originally investigated for immune modulation, shows 73.9\\% positive response rates in ME/CFS~\\cite{Cabanas2021} through restoration of TRPM3 ion channel function in natural killer cells. This mechanism-based approach exemplifies how immunologic expertise translates to novel ME/CFS therapeutics.\n223-\\end{achievement}\n224-\n225-\\section{Research Funding Disparities}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 361,
+      "context": "358-\\begin{enumerate}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 626,
+      "context": "623-\n624-    \\item \\textbf{Chronic Inflammation and Cytokine Dysregulation}: Elevated IL-6, TNF-$\\alpha$ in both conditions.\n625-\n626:    \\textbf{Translational Opportunity}: Anti-inflammatory approaches (omega-3, curcumin, LDN) could reduce inflammatory burden.\n627-\n628-    \\item \\textbf{NAD$^+$ Depletion and Metabolic Dysfunction}: NAD$^+$ depletion impairs sirtuin function, affecting metabolic regulation.\n629-"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1490,
+      "context": "1487-Neuroinflammation contributes to ME/CFS, Long COVID, fibromyalgia, neurodegenerative diseases, and potentially autoimmune conditions~\\cite{MyersEtAl2022}. Reduction strategies target:\n1488-\n1489-\\begin{enumerate}\n1490:    \\item \\textbf{Microglial modulation}: Low-dose naltrexone (LDN)\n1491-    \\item \\textbf{Lipid mediators}: Omega-3 fatty acids (EPA/DHA)\n1492-    \\item \\textbf{NF-$\\kappa$B inhibition}: Curcumin, resveratrol\n1493-    \\item \\textbf{Vagal stimulation}: Non-invasive VNS, deep breathing"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1499,
+      "context": "1496-\n1497-\\textbf{Evidence base}:\n1498-\\begin{itemize}\n1499:    \\item ME/CFS: LDN 4.5mg improved pain and fatigue in 65\\% (Younger 2013, n=80)~\\cite{Younger2013}\n1500-    \\item Long COVID: Omega-3 2g/day reduced inflammatory markers (pilot data)\n1501:    \\item Fibromyalgia: LDN reduced pain scores by 30\\% (Parkitny 2014, meta-analysis)~\\cite{Parkitny2014}\n1502-    \\item Alzheimer's: Curcumin reduced amyloid burden (preclinical, limited human data)"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1501,
+      "context": "1498-\\begin{itemize}\n1499:    \\item ME/CFS: LDN 4.5mg improved pain and fatigue in 65\\% (Younger 2013, n=80)~\\cite{Younger2013}\n1500-    \\item Long COVID: Omega-3 2g/day reduced inflammatory markers (pilot data)\n1501:    \\item Fibromyalgia: LDN reduced pain scores by 30\\% (Parkitny 2014, meta-analysis)~\\cite{Parkitny2014}\n1502-    \\item Alzheimer's: Curcumin reduced amyloid burden (preclinical, limited human data)\n1503-\\end{itemize}\n1504-"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1544,
+      "context": "1541-\\subsubsection{Implementation Strategy}\n1542-\n1543-\\begin{enumerate}\n1544:    \\item \\textbf{Start with LDN}: Highest evidence base; titrate slowly to minimize side effects\n1545-    \\item \\textbf{Add omega-3}: Immediate start (safe, broad benefits)\n1546-    \\item \\textbf{Layer curcumin}: After 4 weeks if partial response"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1553,
+      "context": "1550-\n1551-\\textbf{Safety considerations}:\n1552-\\begin{itemize}\n1553:    \\item \\textbf{LDN contraindications}: Active opioid use (precipitates withdrawal), liver disease\n1554:    \\item \\textbf{LDN side effects}: Vivid dreams (dose-dependent), insomnia (switch to morning dosing)\n1555-    \\item \\textbf{Omega-3}: Bleeding risk at high doses (>3g/day); caution with anticoagulants\n1556-    \\item \\textbf{Curcumin}: May potentiate anticoagulants; GI upset in sensitive individuals"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1554,
+      "context": "1551-\\textbf{Safety considerations}:\n1552-\\begin{itemize}\n1553:    \\item \\textbf{LDN contraindications}: Active opioid use (precipitates withdrawal), liver disease\n1554:    \\item \\textbf{LDN side effects}: Vivid dreams (dose-dependent), insomnia (switch to morning dosing)\n1555-    \\item \\textbf{Omega-3}: Bleeding risk at high doses (>3g/day); caution with anticoagulants\n1556-    \\item \\textbf{Curcumin}: May potentiate anticoagulants; GI upset in sensitive individuals\n1557-    \\item \\textbf{Resveratrol}: May interact with blood thinners"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1565,
+      "context": "1562-\\textbf{High priority}:\n1563-\\begin{itemize}\n1564-    \\item ME/CFS with pain and cognitive dysfunction\n1565:    \\item Fibromyalgia (LDN well-established)\n1566-    \\item Long COVID with neurological symptoms\n1567-    \\item Autoimmune conditions with CNS involvement (MS, lupus cerebritis)\n1568-\\end{itemize}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1574,
+      "context": "1571-\\begin{itemize}\n1572-    \\item Neurodegenerative diseases (adjunct therapy)\n1573-    \\item POTS with brain fog\n1574:    \\item Cancer-related fatigue (LDN may modulate cancer-related inflammation)\n1575-\\end{itemize}\n1576-\n1577-\\subsection{Energy Envelope Management (Pacing)}"
+    }
+  ],
+  "NAC": [
+    {
+      "file": "appendix-b-abbreviations.tex",
+      "line": 45,
+      "context": "42-\\item[ME] Myalgic encephalomyelitis\n43-\\item[ME/CFS] Myalgic encephalomyelitis/chronic fatigue syndrome\n44-\\item[MRI] Magnetic resonance imaging\n45:\\item[NAC] N-acetylcysteine\n46-\\item[NAD+/NADH] Nicotinamide adenine dinucleotide (oxidized/reduced)\n47-\\item[NK] Natural killer (cells)\n48-\\item[NSAID] Non-steroidal anti-inflammatory drug"
+    },
+    {
+      "file": "appendix-g-research-synthesis.tex",
+      "line": 290,
+      "context": "287-\\midrule\n288-\\textbf{Altitude Medicine} & Tissue hypoxia, exercise intolerance & Iron optimization (ferritin >100), acetazolamide, breathing techniques & Oxygen delivery, cerebral function & PARTIAL; iron standard; acetazolamide case reports \\\\\n289-\\midrule\n290:\\textbf{ICU Recovery (PICS)} & Profound weakness, cognitive impairment, metabolic depletion & Micronutrient repletion (B1, C, D, Mg, Zn, Se), NAC, high protein & Metabolic support, oxidative stress, muscle preservation & IMPLEMENTED; nutritional protocols \\\\\n291-\\midrule\n292-\\textbf{Space Medicine} & Orthostatic intolerance, deconditioning, blood volume loss & Compression garments, horizontal exercise, fluid/salt loading & POTS management, reconditioning, blood volume expansion & IMPLEMENTED; POTS protocols \\\\\n293-\\midrule"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 774,
+      "context": "771-\\cite{Shungu2012glutathione}\n772-\n773-\\paragraph{Key Findings:}\n774:First magnetic resonance spectroscopy (MRS) documentation of significantly reduced cortical glutathione (GSH) in ME/CFS brain tissue compared to healthy controls. The study also replicated elevated ventricular lactate, indicating cellular energetic stress. Critically, GSH and lactate showed a strong negative correlation (r = -0.545, p = 0.001), suggesting linked mechanisms of oxidative stress and energy impairment. GSH levels correlated positively with physical functioning ($\\rho$ = 0.506, p = 0.001) and energy levels ($\\rho$ = 0.606, p < 0.001), while lactate correlated with fatigue severity ($\\rho$ = 0.581, p < 0.001). Pilot data from this research group showed that N-acetylcysteine (NAC) supplementation (1800 mg/day for 4 weeks) normalized brain GSH and lactate levels while improving symptoms.\n775-\n776-\\paragraph{Relevance:}\n777:Establishes oxidative stress as a central, quantifiable pathophysiological mechanism in ME/CFS with direct clinical correlates. Provides strong rationale for NAC supplementation over direct glutathione supplementation, as NAC crosses the blood-brain barrier and stimulates \\emph{in situ} GSH synthesis where needed. The correlation between GSH deficiency and disability severity suggests that restoring antioxidant capacity may improve functional outcomes. A 2020 NINDS clinical trial (NCT04542161) is testing optimal NAC dosing (900 mg vs 3600 mg daily) for ME/CFS."
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 777,
+      "context": "774:First magnetic resonance spectroscopy (MRS) documentation of significantly reduced cortical glutathione (GSH) in ME/CFS brain tissue compared to healthy controls. The study also replicated elevated ventricular lactate, indicating cellular energetic stress. Critically, GSH and lactate showed a strong negative correlation (r = -0.545, p = 0.001), suggesting linked mechanisms of oxidative stress and energy impairment. GSH levels correlated positively with physical functioning ($\\rho$ = 0.506, p = 0.001) and energy levels ($\\rho$ = 0.606, p < 0.001), while lactate correlated with fatigue severity ($\\rho$ = 0.581, p < 0.001). Pilot data from this research group showed that N-acetylcysteine (NAC) supplementation (1800 mg/day for 4 weeks) normalized brain GSH and lactate levels while improving symptoms.\n775-\n776-\\paragraph{Relevance:}\n777:Establishes oxidative stress as a central, quantifiable pathophysiological mechanism in ME/CFS with direct clinical correlates. Provides strong rationale for NAC supplementation over direct glutathione supplementation, as NAC crosses the blood-brain barrier and stimulates \\emph{in situ} GSH synthesis where needed. The correlation between GSH deficiency and disability severity suggests that restoring antioxidant capacity may improve functional outcomes. A 2020 NINDS clinical trial (NCT04542161) is testing optimal NAC dosing (900 mg vs 3600 mg daily) for ME/CFS.\n778-\n779-\\paragraph{Certainty Assessment:}\n780-\\begin{itemize}"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 784,
+      "context": "781-    \\item \\textbf{Quality:} High (rigorous MRS neuroimaging methodology, strong statistical correlations, peer-reviewed in \\emph{NMR in Biomedicine})"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 785,
+      "context": ""
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1618,
+      "context": "1615-\\end{description}\n1616-\n1617-\\paragraph{Key Findings:}\n1618:Magnetic resonance spectroscopy (MRS) demonstrated \\textbf{significantly reduced cortical glutathione} in ME/CFS compared to controls. Glutathione levels correlated strongly with physical functioning ($\\rho$ = 0.506) and energy ($\\rho$ = 0.606), both $p$<0.001. \\textbf{Pilot intervention:} 1800~mg/day N-acetylcysteine (NAC) for 4 weeks normalized brain glutathione, ventricular lactate, AND clinical symptoms.\n1619-\n1620-\\paragraph{Relevance:}\n1621:Provides direct brain imaging evidence for oxidative stress and glutathione deficiency in ME/CFS, with pilot data supporting NAC supplementation. An NINDS trial is ongoing testing 900~mg vs 3600~mg/day NAC."
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1621,
+      "context": "1618:Magnetic resonance spectroscopy (MRS) demonstrated \\textbf{significantly reduced cortical glutathione} in ME/CFS compared to controls. Glutathione levels correlated strongly with physical functioning ($\\rho$ = 0.506) and energy ($\\rho$ = 0.606), both $p$<0.001. \\textbf{Pilot intervention:} 1800~mg/day N-acetylcysteine (NAC) for 4 weeks normalized brain glutathione, ventricular lactate, AND clinical symptoms.\n1619-\n1620-\\paragraph{Relevance:}\n1621:Provides direct brain imaging evidence for oxidative stress and glutathione deficiency in ME/CFS, with pilot data supporting NAC supplementation. An NINDS trial is ongoing testing 900~mg vs 3600~mg/day NAC.\n1622-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1689,
+      "context": "1686-\\begin{itemize}\n1687-    \\item L-Carnitine contraindicated in hypothyroidism/Hashimoto's\n1688-    \\item L-Lysine: caution with cardiovascular disease, not for indefinite use\n1689:    \\item NAC: GI effects common initially; FDA-approved drug with established safety\n1690-    \\item Start low, go slow: test individual tolerance before full dosing\n1691-\\end{itemize}\n1692-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1698,
+      "context": "1695-    \\item \\textbf{Metabolic deficiencies:} HIGH certainty (rigorous metabolomics, MRS imaging)\n1696-    \\item \\textbf{Single amino acid efficacy:} LOW (arginine alone failed)\n1697-    \\item \\textbf{Comprehensive protocol efficacy:} MEDIUM (clinical audit with biomarkers, needs RCT)\n1698:    \\item \\textbf{NAC specifically:} MEDIUM-HIGH (pilot data positive, RCT ongoing)\n1699-\\end{itemize}\n1700-\n1701-\\textbf{Research Gaps:}"
+    },
+    {
+      "file": "ch05-subgroups.tex",
+      "line": 508,
+      "context": "505-    \\item Post-infectious onset (typically EBV, HHV-6, or other herpesvirus)\n506-    \\item Prominent POTS/dysautonomia\n507-    \\item MCAS or histamine intolerance (HIT) comorbidity\n508:    \\item Strong response to amino acid supplementation (especially L-citrulline, NAC)\n509-    \\item Dramatic improvement with cimetidine (``out of bed'' effect in rare cases)\n510-\\end{itemize}\n511-"
+    },
+    {
+      "file": "ch05-subgroups.tex",
+      "line": 547,
+      "context": "544-For suspected cimetidine-responder patients:\n545-\\begin{enumerate}"
+    },
+    {
+      "file": "ch06-energy-metabolism.tex",
+      "line": 906,
+      "context": "903-Restoring glutathione may be beneficial:\n904-\n905-\\begin{itemize}\n906:    \\item \\textbf{N-acetylcysteine (NAC)}: Provides cysteine for glutathione synthesis\n907-    \\item \\textbf{Liposomal glutathione}: May improve absorption\n908-    \\item \\textbf{Glycine supplementation}: Second rate-limiting substrate\n909-    \\item \\textbf{Selenium}: Required for glutathione peroxidase"
+    },
+    {
+      "file": "ch11-gut-microbiome.tex",
+      "line": 201,
+      "context": "198-    \\item \\textbf{Metabolomic deficiencies}: Yamano et al.~\\cite{Yamano2016metabolic} found significantly reduced plasma citrulline, malate, and isocitrate in ME/CFS patients compared to controls\n199-    \\item \\textbf{Mast cells and barrier function}: Mast cell activation directly increases intestinal permeability through multiple mechanisms~\\cite{GutPermeability2023}"
+    },
+    {
+      "file": "ch11-gut-microbiome.tex",
+      "line": 202,
+      "context": "199-    \\item \\textbf{Mast cells and barrier function}: Mast cell activation directly increases intestinal permeability through multiple mechanisms~\\cite{GutPermeability2023}"
+    },
+    {
+      "file": "ch11-gut-microbiome.tex",
+      "line": 230,
+      "context": "227-\\begin{itemize}\n228-    \\item \\textbf{MCAS/HIT treatment}: Stabilizing mast cells (H1/H2 blockade, quercetin, ketotifen) may reduce barrier damage\n229-    \\item \\textbf{Amino acid supplementation}: L-citrulline-malate may be more effective than L-arginine (bypasses hepatic first-pass, provides TCA cycle substrate)\n230:    \\item \\textbf{Glutathione support}: NAC supplementation addresses documented deficiency\n231-    \\item \\textbf{Barrier restoration}: Targeting tight junction repair (butyrate, zinc carnosine, collagen) may improve absorption\n232-    \\item \\textbf{Phenotype identification}: Patients with confirmed MCAS/HIT + low amino acid panel may be candidates for targeted intervention\n233-\\end{itemize}"
+    },
+    {
+      "file": "ch14-main.tex",
+      "line": 48,
+      "context": "45-\\midrule\n46-Purinergic signaling dysregulation & Low-Moderate & Moderate & Moderate & Moderate & Immune dysfunction, pain, fatigue, inflammation & P2X/P2Y receptor modulators \\\\\n47-\\midrule\n48:Redox compartment collapse & Moderate & Moderate & Moderate & Low-Moderate & Oxidative stress, chemical sensitivities & Glutathione/NAC optimization \\\\\n49-\\midrule\n50-Metabolic memory/epigenetic lock & Moderate & Low-Moderate & Low & Low-Moderate & Chronicity, treatment resistance & Epigenetic modifiers (exploratory) \\\\\n51-\\midrule"
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 876,
+      "context": "873-Biomarker-driven supplementation addresses documented ME/CFS metabolic deficits with evidence-guided compounds.\n874-\\end{observation}\n875-\n876:\\paragraph{N-Acetylcysteine (NAC) for Glutathione Repletion}\n877-\n878-\\begin{achievement}[Brain Glutathione Deficiency in ME/CFS]\n879-\\label{achievement:brain-glutathione-deficit}"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 278,
+      "context": "275-\\toprule\n276-\\textbf{Hypothesis} & \\textbf{Evidence} & \\textbf{Therapeutic Potential} & \\textbf{Key Prediction} & \\textbf{Nearest-Term Test} \\\\\n277-\\midrule\n278:Autonomic-mitochondrial feedback loop & Moderate & High & Synergy between catecholamine support + antioxidants exceeds either alone & 3-month trial: tyrosine + BH4 + MitoQ + NAC vs. components \\\\\n279-\\midrule"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 786,
+      "context": "783-    \\item Post-infectious onset (especially documented EBV, HHV-6, or mononucleosis)\n784-    \\item POTS or dysautonomia confirmed\n785-    \\item MCAS or histamine intolerance (dietary triggers, antihistamine response)\n786:    \\item Response to amino acid supplementation (L-citrulline, NAC) noted\n787-    \\item OR dramatic improvement with cimetidine trial (rare but distinctive)\n788-\\end{itemize}\n789-"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 837,
+      "context": "834-\n835-    \\item \\textbf{Amino acid support}:\n836-    \\begin{itemize}\n837:        \\item NAC 600~mg TID (glutathione precursor)\n838-        \\item L-citrulline-malate 3~g BID (NO synthesis + TCA cycle support)\n839-    \\end{itemize}\n840-"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 903,
+      "context": "900-\n901-\\textbf{Viral-immune pathway}: Cimetidine blocks H2 receptors on suppressor T cells, enhancing cellular immunity against persistent herpesviruses (EBV, HHV-6). This allows improved viral control without requiring direct antivirals.\n902-\n903:\\textbf{Metabolic pathway}: MCAS/HIT causes intestinal barrier dysfunction and amino acid malabsorption. Exogenous amino acid supplementation (citrulline, NAC) bypasses the absorption deficit, restoring NO synthesis, glutathione levels, and TCA cycle function.\n904-\n905-The synergy explains why patients may respond to the combination (cimetidine + amino acids) more than to either alone.\n906-\\end{hypothesis}"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 246,
+      "context": "243-\n244-Oxidative stress is documented in ME/CFS. Antioxidants may help, though evidence for specific supplements is limited.\n245-\n246:\\subsection{N-Acetylcysteine (NAC)}\n247-\n248:NAC is one of the most versatile and evidence-supported supplements relevant to ME/CFS.\n249-"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 248,
+      "context": "245-\n246:\\subsection{N-Acetylcysteine (NAC)}\n247-\n248:NAC is one of the most versatile and evidence-supported supplements relevant to ME/CFS.\n249-\n250-\\paragraph{Rationale.}\n251-\\begin{itemize}"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 252,
+      "context": "249-\n250-\\paragraph{Rationale.}\n251-\\begin{itemize}\n252:    \\item \\textbf{Glutathione precursor:} NAC provides cysteine, the rate-limiting amino acid for glutathione synthesis\n253-    \\item \\textbf{Direct antioxidant:} Scavenges free radicals\n254-    \\item \\textbf{Anti-inflammatory:} Reduces NF-$\\kappa$B activation\n255-    \\item \\textbf{Mucolytic:} Thins mucus (originally developed for this)"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 280,
+      "context": "277-    \\item May thin mucus excessively in some (actually beneficial for most)\n278-\\end{itemize}\n279-\n280:\\paragraph{Synergy.} NAC works synergistically with:\n281-\\begin{itemize}\n282-    \\item Glycine: Another glutathione precursor\n283-    \\item Selenium: Required for glutathione peroxidase function"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 485,
+      "context": "482-\n483-\\paragraph{Rationale.}\n484-\\begin{itemize}\n485:    \\item Glutathione precursor (with NAC)\n486-    \\item Inhibitory neurotransmitter (calming)\n487-    \\item Supports collagen synthesis\n488-    \\item May improve sleep quality"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 570,
+      "context": "567-\n568-\\paragraph{Predominant Immune/Inflammatory Symptoms.}\n569-\\begin{itemize}\n570:    \\item NAC\n571-    \\item Omega-3\n572-    \\item Curcumin\n573-    \\item Quercetin (especially if mast cell component)"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 597,
+      "context": "594-    \\item Electrolytes and magnesium (foundational; rarely cause problems)\n595-    \\item B vitamins (essential cofactors)\n596-    \\item CoQ10 (well-tolerated; core mitochondrial support)\n597:    \\item NAC (antioxidant; watch for sulfur sensitivity)\n598-    \\item Additional mitochondrial support based on response\n599-\\end{enumerate}\n600-"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 734,
+      "context": "731-\\begin{enumerate}\n732-    \\item Electrolytes (especially if orthostatic symptoms)\n733-    \\item CoQ10 (mitochondrial support)\n734:    \\item NAC (antioxidant, glutathione support)\n735-    \\item Magnesium (ubiquitous cofactor, often deficient)\n736-    \\item NAD$^+$ precursors (emerging evidence, but expensive)\n737-\\end{enumerate}"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 913,
+      "context": "910-        \\item Human trials show safety; may be superior to standard CoQ10 for oxidative stress\n911-    \\end{itemize}\n912-\n913:    \\item \\textbf{N-acetylcysteine (NAC)} 600~mg twice daily (morning and afternoon):\n914-    \\begin{itemize}\n915-        \\item Cysteine donor for glutathione synthesis\n916-        \\item Established safety profile; FDA-approved for acetaminophen overdose"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 938,
+      "context": "935-\n936-\\begin{itemize}\n937-    \\item \\textbf{Morning catecholamine support}: Aligns with natural circadian peak; supports daytime autonomic function\n938:    \\item \\textbf{Continuous antioxidant coverage}: NAC split dosing; MitoQ has 24-hour residence time\n939-    \\item \\textbf{Avoid evening stimulation}: Tyrosine/BH4 may impair sleep if taken late\n940-\\end{itemize}\n941-"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 957,
+      "context": "954-    \\item \\textbf{Contraindications}:\n955-    \\begin{itemize}\n956-        \\item Tyrosine: hyperthyroidism, phenylketonuria (PKU), use with MAOIs\n957:        \\item NAC: active peptic ulcer (theoretical risk), asthma (may trigger bronchospasm in rare cases)\n958-        \\item BH4/methylfolate: may unmask B12 deficiency; ensure adequate B12 status first\n959-    \\end{itemize}\n960-    \\item \\textbf{Drug interactions}:"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 963,
+      "context": "960-    \\item \\textbf{Drug interactions}:\n961-    \\begin{itemize}\n962-        \\item Tyrosine may potentiate sympathomimetics, thyroid hormones\n963:        \\item NAC may reduce efficacy of nitroglycerin\n964-        \\item Alpha-lipoic acid may lower blood glucose; monitor if diabetic\n965-    \\end{itemize}\n966-    \\item \\textbf{Monitoring}: Baseline and periodic blood pressure, heart rate; symptom tracking"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1184,
+      "context": "1181-\n1182-    \\item \\textbf{Sustained antioxidant coverage}:\n1183-    \\begin{itemize}\n1184:        \\item NAC 600~mg twice daily (morning, evening)\n1185-        \\item Vitamin C 1000~mg twice daily\n1186-        \\item Alpha-lipoic acid 300~mg once daily\n1187-    \\end{itemize}"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1291,
+      "context": "1288-    \\begin{itemize}\n1289-        \\item D-ribose: Diabetes (may lower blood sugar); monitor glucose\n1290-        \\item MCT oil: Severe liver disease; start low dose (15~mL) to assess GI tolerance\n1291:        \\item High-dose NAC: Active peptic ulcer (theoretical risk); asthma (rare bronchospasm risk)\n1292-        \\item Creatine: Kidney disease (theoretical concern; human data shows safety)\n1293-        \\item NSAIDs: GI ulcers, kidney disease, cardiovascular disease, aspirin allergy\n1294-    \\end{itemize}"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1298,
+      "context": "1295-\n1296-    \\item \\textbf{Drug interactions}:\n1297-    \\begin{itemize}\n1298:        \\item NAC: May reduce nitroglycerin efficacy\n1299-        \\item Alpha-lipoic acid: May lower blood glucose; monitor if diabetic or on diabetes medications\n1300-        \\item Omega-3 fatty acids: Blood thinning effect; use caution with anticoagulants (warfarin, etc.)\n1301-        \\item NSAIDs: Avoid with anticoagulants, other NSAIDs, corticosteroids"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1309,
+      "context": "1306-    \\begin{itemize}\n1307-        \\item D-ribose: Sweet taste; some report transient hypoglycemia symptoms (take with food if occurs)\n1308-        \\item MCT oil: GI distress (diarrhea, nausea) if dose too high initially; start 15~mL, increase gradually\n1309:        \\item High-dose NAC: Nausea, sulfur smell/taste; take with food\n1310-        \\item Creatine: Some experience bloating or water retention\n1311-    \\end{itemize}\n1312-"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1340,
+      "context": "1337-\\begin{itemize}\n1338-    \\item D-ribose: Small ME/CFS studies show benefit; widely used in sports medicine\n1339-    \\item NAD$^+$ precursors: Raise NAD$^+$ levels in humans; Long COVID trial shows cognitive benefit subset\n1340:    \\item Antioxidants: NAC, vitamin C, ALA have safety data; reduce oxidative stress markers\n1341-    \\item Mitophagy enhancers: Urolithin A shows mitochondrial benefits in human aging trials\n1342-    \\item Anti-inflammatories: Omega-3, curcumin, NSAIDs have established effects\n1343-\\end{itemize}"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1403,
+      "context": "1400-\\textbf{Hypothetical examples:}\n1401-\\begin{itemize}"
+    },
+    {
+      "file": "ch19-integrative-approaches.tex",
+      "line": 649,
+      "context": "646-\n647-\\end{tcolorbox}\n648-\n649:\\paragraph{2. N-Acetylcysteine (NAC) for Oxidative Stress.}\n650:NAC is used in ICU for acetaminophen overdose and as adjunct sepsis treatment.\n651-\n652-\\begin{itemize}"
+    },
+    {
+      "file": "ch19-integrative-approaches.tex",
+      "line": 650,
+      "context": "647-\\end{tcolorbox}\n648-\n649:\\paragraph{2. N-Acetylcysteine (NAC) for Oxidative Stress.}\n650:NAC is used in ICU for acetaminophen overdose and as adjunct sepsis treatment.\n651-\n652-\\begin{itemize}\n653-    \\item \\textbf{Mechanism}: Glutathione precursor; powerful antioxidant; mucolytic"
+    },
+    {
+      "file": "ch19-integrative-approaches.tex",
+      "line": 728,
+      "context": "725-\n726-\\begin{enumerate}\n727-    \\item \\textbf{Aggressive nutritional support is not optional}: Micronutrients, protein, adequate calories\n728:    \\item \\textbf{Oxidative stress management}: Antioxidants (vitamin C, NAC, selenium)\n729-    \\item \\textbf{Gradual reconditioning respecting limits}: ICU mobility protocols validate pacing approach\n730-    \\item \\textbf{Sleep and circadian rhythm}: Environmental optimization, melatonin, light therapy\n731-    \\item \\textbf{Recovery takes time}: PICS recovery measured in months to years, not weeks"
+    },
+    {
+      "file": "ch19-integrative-approaches.tex",
+      "line": 992,
+      "context": "989-\\midrule\n990-\\textbf{Sports Medicine} & ORS, magnesium, Acetyl-L-carnitine, D-ribose & Lactate clearance, ATP support, cramp reduction \\\\\n991-\\textbf{Altitude Medicine} & Iron optimization, acetazolamide, breathing techniques & Oxygen delivery, cognitive function, exercise tolerance \\\\\n992:\\textbf{ICU Recovery} & Micronutrients (B1, C, D, Mg, Zn, Se), NAC, protein & Metabolic support, oxidative stress, muscle preservation \\\\\n993-\\textbf{Space Medicine} & Compression, horizontal exercise, blood volume expansion & Orthostatic tolerance, reconditioning, monitoring \\\\\n994-\\textbf{Burn/Trauma} & Glutamine, high protein, antioxidants & Gut barrier, immune support, healing \\\\\n995-\\textbf{Geriatrics} & Vitamin D, protein, mobility aids, polypharmacy reduction & Frailty prevention, function optimization \\\\"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 464,
+      "context": "461-\n462-    \\textbf{Implication for Dysautonomia}: HRV biofeedback and vagal rehabilitation techniques (cold exposure, extended exhale breathing, gargling) could restore autonomic balance.\n463-\n464:    \\item \\textbf{Comprehensive Autonomic-Metabolic Protocol}: Combining catecholamine support (tyrosine, BH4 cofactors, iron optimization) with mitochondrial protection (MitoQ, NAC, alpha-lipoic acid).\n465-\n466-    \\textbf{Implication for Dysautonomia}: Addresses both neurotransmitter synthesis and cellular energy metabolism underlying autonomic function.\n467-"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 605,
+      "context": "602-\n603-    \\textbf{Established in Neurodegenerative Disease}: Oxidative damage to proteins, lipids, DNA accelerates neurodegeneration.\n604-\n605:    \\textbf{Translational Opportunity}: Comprehensive antioxidant protocol (MitoQ, alpha-lipoic acid, NAC, vitamin E, selenium).\n606-\n607-    \\textbf{Implication}: Neuroprotection through oxidative stress reduction.\n608-\\end{enumerate}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 950,
+      "context": "947-\\begin{itemize}\n948-    \\item MitoQ: Mitochondria-targeted antioxidant\n949-    \\item Alpha-lipoic acid: Mitochondrial antioxidant, ER stress reducer\n950:    \\item NAC: Precursor to glutathione, reduces oxidative stress\n951-\\end{itemize}\n952-\n953-\\textbf{Supporting Complex IV function}:"
+    }
+  ],
+  "BH4": [
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 802,
+      "context": "799-\\begin{itemize}\n800-    \\item \\textbf{Quality:} Medium (well-designed in vitro study, clear methodology, published in \\emph{European Journal of Clinical Investigation})\n801-    \\item \\textbf{Sample:} n=20 CFS (small but adequate for proof-of-concept)\n802:    \\item \\textbf{Replication:} Findings consistent with later endothelial dysfunction research; supported by BH4 metabolism studies (2025)\n803-    \\item \\textbf{Limitations:} In vitro (may not reflect in vivo conditions); no in vivo supplementation trial; mechanism of downstream dysfunction not fully elucidated; study from 1998 predates much current ME/CFS research\n804-\\end{itemize}\n805-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1151,
+      "context": "1148-\\end{description}\n1149-\n1150-% =============================================================================\n1151:\\section{Biomarkers: Tetrahydrobiopterin (BH4) and Orthostatic Intolerance}\n1152-\\label{sec:bib-bh4-biomarkers}\n1153-% =============================================================================\n1154-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1155,
+      "context": "1152-\\label{sec:bib-bh4-biomarkers}\n1153-% =============================================================================\n1154-\n1155:\\subsection{BH4 Elevation in ME/CFS with Orthostatic Intolerance}\n1156-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1169,
+      "context": "1166-\\end{description}\n1167-\n1168-\\paragraph{Key Findings:}\n1169:Serum tetrahydrobiopterin (BH4) levels were significantly elevated in ME/CFS patients compared to age- and gender-matched controls, with the strongest elevation in patients with orthostatic intolerance. Specifically: general CFS group ($p=0.033$), CFS+OI group ($p=0.0223$, most significant), and CFS+OI+SFN group ($p=0.0269$) all showed significant BH4 elevation. A moderately positive correlation existed between BH4 levels and reactive oxygen species (ROS) production in microglial cell assays, suggesting a link between BH4 elevation and oxidative stress.\n1170-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1184,
+      "context": "1181-\\end{description}\n1182-\n1183-\\paragraph{Key Findings:}\n1184:This companion study to Gottschalk 2023 elucidated the molecular mechanism underlying BH4 elevation. The non-oxidative pentose phosphate pathway (PPP) was confirmed to drive upregulation of both BH4 and its oxidized derivative BH2 via the purine biosynthetic pathway. The level of GTP cyclohydrolase I (GCH1), the rate-limiting enzyme in BH4 synthesis, was quantified in peripheral blood mononuclear cells (PBMCs) and found to be dysregulated in ME+OI patients. Critically, plasma from ME+OI patients with high BH4 upregulated inducible nitric oxide synthase (iNOS) and nitric oxide (NO) production in human microglial cells \\emph{in vitro}, suggesting elevated BH4 may trigger neuroinflammatory responses.\n1185-\n1186-\\paragraph{Integrated Relevance:}\n1187:These two studies together identify BH4 as a potential biomarker for the orthostatic intolerance subgroup of ME/CFS and provide mechanistic insight linking metabolic dysregulation (PPP activation) to inflammatory processes (iNOS/NO pathway). The findings are particularly notable because they present a paradox: BH4 is normally a beneficial cofactor for nitric oxide synthase and neurotransmitter synthesis, yet appears pathologically elevated in ME/CFS. Possible explanations include preferential activation of inflammatory iNOS (rather than protective eNOS), oxidation of BH4 to dysfunctional BH2, NOS uncoupling, or compartmentalization issues. This paradox must be resolved before therapeutic targeting can be attempted."
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1187,
+      "context": "1184:This companion study to Gottschalk 2023 elucidated the molecular mechanism underlying BH4 elevation. The non-oxidative pentose phosphate pathway (PPP) was confirmed to drive upregulation of both BH4 and its oxidized derivative BH2 via the purine biosynthetic pathway. The level of GTP cyclohydrolase I (GCH1), the rate-limiting enzyme in BH4 synthesis, was quantified in peripheral blood mononuclear cells (PBMCs) and found to be dysregulated in ME+OI patients. Critically, plasma from ME+OI patients with high BH4 upregulated inducible nitric oxide synthase (iNOS) and nitric oxide (NO) production in human microglial cells \\emph{in vitro}, suggesting elevated BH4 may trigger neuroinflammatory responses.\n1185-\n1186-\\paragraph{Integrated Relevance:}\n1187:These two studies together identify BH4 as a potential biomarker for the orthostatic intolerance subgroup of ME/CFS and provide mechanistic insight linking metabolic dysregulation (PPP activation) to inflammatory processes (iNOS/NO pathway). The findings are particularly notable because they present a paradox: BH4 is normally a beneficial cofactor for nitric oxide synthase and neurotransmitter synthesis, yet appears pathologically elevated in ME/CFS. Possible explanations include preferential activation of inflammatory iNOS (rather than protective eNOS), oxidation of BH4 to dysfunctional BH2, NOS uncoupling, or compartmentalization issues. This paradox must be resolved before therapeutic targeting can be attempted.\n1188-\n1189:The identification of a metabolic-inflammatory pathway specific to patients with orthostatic intolerance supports disease heterogeneity and suggests precision medicine approaches (BH4 testing to stratify patients for targeted therapies). However, therapeutic direction remains unclear: should BH4 be supplemented (sapropterin) or reduced (PPP inhibition)? The iNOS activation finding suggests reduction might be beneficial, but this contradicts BH4's normal protective role.\n1190-"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1189,
+      "context": "1186-\\paragraph{Integrated Relevance:}\n1187:These two studies together identify BH4 as a potential biomarker for the orthostatic intolerance subgroup of ME/CFS and provide mechanistic insight linking metabolic dysregulation (PPP activation) to inflammatory processes (iNOS/NO pathway). The findings are particularly notable because they present a paradox: BH4 is normally a beneficial cofactor for nitric oxide synthase and neurotransmitter synthesis, yet appears pathologically elevated in ME/CFS. Possible explanations include preferential activation of inflammatory iNOS (rather than protective eNOS), oxidation of BH4 to dysfunctional BH2, NOS uncoupling, or compartmentalization issues. This paradox must be resolved before therapeutic targeting can be attempted.\n1188-\n1189:The identification of a metabolic-inflammatory pathway specific to patients with orthostatic intolerance supports disease heterogeneity and suggests precision medicine approaches (BH4 testing to stratify patients for targeted therapies). However, therapeutic direction remains unclear: should BH4 be supplemented (sapropterin) or reduced (PPP inhibition)? The iNOS activation finding suggests reduction might be beneficial, but this contradicts BH4's normal protective role.\n1190-\n1191-\\paragraph{Certainty Assessment:}\n1192-\\begin{itemize}"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1193,
+      "context": "1190-\n1191-\\paragraph{Certainty Assessment:}\n1192-\\begin{itemize}\n1193:    \\item \\textbf{BH4 Elevation:} Moderate certainty (consistent across two studies, statistically significant, mechanistic depth)"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1199,
+      "context": "1196-    \\item \\textbf{Mechanism:} Low-moderate certainty (in vitro validation, but n=10 very small; mechanism needs in vivo confirmation)\n1197-    \\item \\textbf{Clinical Utility:} Low certainty (not yet validated as biomarker; no established cutoffs; therapeutic direction unclear)\n1198-    \\item \\textbf{Generalizability:} OI subgroup only; unclear if applies to broader ME/CFS population or is specific to orthostatic intolerance regardless of underlying disease\n1199:    \\item \\textbf{Limitations:} Very small samples, single research group, BH4 paradox unresolved, cross-sectional design, no longitudinal tracking, therapeutic implications unknown\n1200-\\end{itemize}\n1201-\n1202-\\paragraph{Research Priorities:}"
+    },
+    {
+      "file": "appendix-h-annotated-bibliography.tex",
+      "line": 1203,
+      "context": "1200-\\end{itemize}\n1201-\n1202-\\paragraph{Research Priorities:}\n1203:High-priority validation needed: (1) Independent replication in larger cohort (n$>$100), (2) Clarification of BH4 paradox (why is normally-beneficial BH4 elevated and apparently harmful?), (3) BH4/BH2 ratio analysis, (4) Longitudinal tracking to assess stability as biomarker, (5) Correlation with objective measures of orthostatic intolerance (tilt table, CPET), (6) In vivo confirmation of microglial iNOS activation. Therapeutic trials should NOT proceed until mechanism is clarified and direction determined (supplement vs reduce).\n1204-\n1205-% =============================================================================\n1206-\\section{Exercise Physiology and Post-Exertional Malaise}"
+    },
+    {
+      "file": "ch06-energy-metabolism.tex",
+      "line": 790,
+      "context": "787-Catecholamine synthesis requires multiple cofactors:\n788-\n789-\\begin{itemize}\n790:    \\item \\textbf{Tetrahydrobiopterin (BH4)}: Essential for tyrosine hydroxylase; depleted by oxidative stress\n791-    \\item \\textbf{Iron}: Required by tyrosine hydroxylase\n792-    \\item \\textbf{Pyridoxal phosphate (B6)}: Required for decarboxylation\n793-    \\item \\textbf{Ascorbate (Vitamin C)}: Required for dopamine $\\beta$-hydroxylase"
+    },
+    {
+      "file": "ch06-energy-metabolism.tex",
+      "line": 802,
+      "context": "799-Oxidative stress can impair catecholamine metabolism:\n800-\n801-\\begin{itemize}\n802:    \\item \\textbf{BH4 oxidation}: Converts active BH4 to inactive BH2\n803-    \\item \\textbf{Enzyme damage}: Oxidative modification of synthetic enzymes\n804-    \\item \\textbf{Catecholamine oxidation}: Auto-oxidation generates more ROS\n805-    \\item \\textbf{Neuromelanin formation}: Oxidized catecholamines form potentially toxic aggregates"
+    },
+    {
+      "file": "ch06-energy-metabolism.tex",
+      "line": 813,
+      "context": "810-Inflammatory cytokines affect catecholamine metabolism:\n811-\n812-\\begin{itemize}\n813:    \\item \\textbf{GTP cyclohydrolase induction}: Initially increases BH4 but depletes with chronic inflammation\n814-    \\item \\textbf{Altered enzyme expression}: Cytokines modify gene expression\n815:    \\item \\textbf{Competition for BH4}: Increased iNOS activity consumes BH4\n816-    \\item \\textbf{Microglial activation}: Affects local neurotransmitter metabolism"
+    },
+    {
+      "file": "ch06-energy-metabolism.tex",
+      "line": 815,
+      "context": "812-\\begin{itemize}\n813:    \\item \\textbf{GTP cyclohydrolase induction}: Initially increases BH4 but depletes with chronic inflammation\n814-    \\item \\textbf{Altered enzyme expression}: Cytokines modify gene expression\n815:    \\item \\textbf{Competition for BH4}: Increased iNOS activity consumes BH4\n816-    \\item \\textbf{Microglial activation}: Affects local neurotransmitter metabolism\n817-\\end{itemize}\n818-"
+    },
+    {
+      "file": "ch06-energy-metabolism.tex",
+      "line": 930,
+      "context": "927-\\begin{itemize}\n928-    \\item \\textbf{Tyrosine}: Catecholamine precursor\n929-    \\item \\textbf{Phenylalanine}: Converted to tyrosine\n930:    \\item \\textbf{BH4 support}: Sapropterin or folate to support BH4 recycling\n931-    \\item \\textbf{Cofactors}: Iron, B6, vitamin C, copper\n932-\\end{itemize}\n933-"
+    },
+    {
+      "file": "ch14-main.tex",
+      "line": 26,
+      "context": "23-\\endlastfoot\n24-\\multicolumn{7}{l}{\\textit{\\textbf{CPET-Derived Hypotheses (Objective Functional Data)}}} \\\\\n25-\\midrule\n26:Autonomic-mitochondrial feedback loop & Moderate & High & High & Moderate & PEM, recovery time, autonomic symptoms & Trial: tyrosine+BH4+antioxidants \\\\\n27-\\midrule\n28-Mitochondrial turnover rate limitation & Moderate-High & High & Moderate-High & Moderate & 13-day recovery, cumulative decline, GET failure & Urolithin A + NAD+ precursor trial \\\\\n29-\\midrule"
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 1014,
+      "context": "1011-    \\end{itemize}\n1012-\\end{itemize}\n1013-\n1014:\\textbf{Clinical decision}: \\textit{If NASA lean test positive OR HRV chronically low OR catecholamines deficient \u2192 Autonomic cycle ACTIVE \u2192 Target with fludrocortisone, midodrine, compression, salt loading, L-tyrosine + BH4 cofactors.}\n1015-\n1016-\\paragraph{Cycle 4: Neuroinflammation and Central Sensitization.}\n1017-"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 17,
+      "context": "14-    \\item Central catecholamine deficiency impairs autonomic cardiovascular regulation\n15-    \\item Poor blood flow distribution during exercise causes tissue hypoxia\n16-    \\item Mitochondria operating under hypoxic conditions generate excess ROS\n17:    \\item ROS damages catecholamine synthetic enzymes and depletes BH4 cofactor\n18-    \\item Further catecholamine reduction worsens autonomic dysfunction\n19-    \\item Cycle amplifies with each exertional episode\n20-\\end{enumerate}"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 29,
+      "context": "26-\n27-\\begin{enumerate}"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 30,
+      "context": "27-\\begin{enumerate}"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 43,
+      "context": "40-\\textbf{Catecholamine support tier:}\n41-\\begin{itemize}"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 52,
+      "context": "49-\\begin{itemize}"
+    },
+    {
+      "file": "ch14f-cpet-derived.tex",
+      "line": 278,
+      "context": "275-\\toprule\n276-\\textbf{Hypothesis} & \\textbf{Evidence} & \\textbf{Therapeutic Potential} & \\textbf{Key Prediction} & \\textbf{Nearest-Term Test} \\\\\n277-\\midrule\n278:Autonomic-mitochondrial feedback loop & Moderate & High & Synergy between catecholamine support + antioxidants exceeds either alone & 3-month trial: tyrosine + BH4 + MitoQ + NAC vs. components \\\\\n279-\\midrule"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 895,
+      "context": ""
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 899,
+      "context": "896-    \\begin{itemize}"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 923,
+      "context": ""
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 939,
+      "context": "936-\\begin{itemize}\n937-    \\item \\textbf{Morning catecholamine support}: Aligns with natural circadian peak; supports daytime autonomic function\n938-    \\item \\textbf{Continuous antioxidant coverage}: NAC split dosing; MitoQ has 24-hour residence time\n939:    \\item \\textbf{Avoid evening stimulation}: Tyrosine/BH4 may impair sleep if taken late\n940-\\end{itemize}\n941-\n942-\\subsubsection{Expected Timeline and Outcomes}"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 958,
+      "context": "955-    \\begin{itemize}\n956-        \\item Tyrosine: hyperthyroidism, phenylketonuria (PKU), use with MAOIs\n957-        \\item NAC: active peptic ulcer (theoretical risk), asthma (may trigger bronchospasm in rare cases)\n958:        \\item BH4/methylfolate: may unmask B12 deficiency; ensure adequate B12 status first\n959-    \\end{itemize}\n960-    \\item \\textbf{Drug interactions}:\n961-    \\begin{itemize}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 105,
+      "context": "102-\\begin{enumerate}\n103-    \\item \\textbf{Central Catecholamine Deficiency}: The NIH intramural study (Walitt et al. 2024) documented reduced CSF dopamine metabolites (DOPA, DOPAC) and norepinephrine metabolites (DHPG) in ME/CFS patients~\\cite{Walitt2024NIH}.\n104-\n105:    \\textbf{Implication for POTS}: Central (not just peripheral) catecholamine deficiency may drive compensatory tachycardia. This suggests catecholamine synthesis support (L-tyrosine, BH4 cofactors) could be therapeutic.\n106-\n107-    \\item \\textbf{Chronotropic Incompetence on 2-Day CPET}: ME/CFS patients show inadequate heart rate response to exercise workload on Day 2, with autonomic dysfunction (not cardiac pathology) as the primary mechanism~\\cite{keller2024cpet}.\n108-"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 256,
+      "context": "253-\n254-    \\textbf{Research opportunity}: Measure $\\beta$2-receptor function in EDS patients with vs. without MCAS to test this model.\n255-\n256:    \\item \\textbf{Tetrahydrobiopterin (BH4) Dysregulation}:\n257-\n258-    \\begin{itemize}\n259:        \\item \\textbf{ME/CFS findings}: Elevated BH4 and BH2 in patients with orthostatic intolerance~\\cite{Gottschalk2023,Bulbule2024}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 259,
+      "context": "256:    \\item \\textbf{Tetrahydrobiopterin (BH4) Dysregulation}:\n257-\n258-    \\begin{itemize}\n259:        \\item \\textbf{ME/CFS findings}: Elevated BH4 and BH2 in patients with orthostatic intolerance~\\cite{Gottschalk2023,Bulbule2024}\n260:        \\item Mechanism: Pentose phosphate pathway activation $\\rightarrow$ BH4 production $\\rightarrow$ iNOS/NO pathway activation $\\rightarrow$ neuroinflammation"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 260,
+      "context": "257-\n258-    \\begin{itemize}\n259:        \\item \\textbf{ME/CFS findings}: Elevated BH4 and BH2 in patients with orthostatic intolerance~\\cite{Gottschalk2023,Bulbule2024}\n260:        \\item Mechanism: Pentose phosphate pathway activation $\\rightarrow$ BH4 production $\\rightarrow$ iNOS/NO pathway activation $\\rightarrow$ neuroinflammation"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 264,
+      "context": ""
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 298,
+      "context": "295-\\addlinespace\n296-Rupatadine (H1 + PAF antagonist + mast cell stabilizer) & Triple mechanism addresses vascular pathomechanisms & Medium & ME/CFS evidence, not tested in EDS \\\\\n297-\\addlinespace\n298:Catecholamine synthesis support (L-tyrosine, BH4 cofactors) & Supports autonomic function if central deficiency present & Low-Medium & ME/CFS evidence, not tested in EDS \\\\\n299-\\addlinespace\n300-Pacing and energy envelope management & Prevents post-exertional symptom exacerbation & Medium & Reduces injury risk from hypermobility overexertion \\\\\n301-\\addlinespace"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 326,
+      "context": "323-\n324-\\begin{enumerate}\n325-    \\item \\textbf{Longitudinal $\\beta$2-receptor function testing}: Does hyperresponsiveness transition to desensitization with disease duration?\n326:    \\item \\textbf{BH4 measurement in EDS with orthostatic intolerance}: Is the ME/CFS finding translatable?\n327-    \\item \\textbf{Endothelial biomarkers}: Are VWF, fibronectin, thrombospondin elevated in EDS-POTS-MCAS subset?\n328-    \\item \\textbf{Controlled trials of rupatadine}: Does PAF antagonism benefit EDS patients with vascular symptoms?\n329-    \\item \\textbf{Autoantibody screening}: What percentage of EDS patients have GPCR autoantibodies?"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 332,
+      "context": "329-    \\item \\textbf{Autoantibody screening}: What percentage of EDS patients have GPCR autoantibodies?\n330-\\end{enumerate}\n331-\n332:\\textbf{Certainty}: \\textbf{Medium} for vascular mechanisms; \\textbf{Low-Medium} for $\\beta$2-receptor pathway; \\textbf{Low} for BH4 dysregulation; \\textbf{None} for plasma cell autoimmunity.\n333-\n334-\\textbf{Bottom line}: The Wirth 2023 integrated model (MCAS $\\leftrightarrow$ $\\beta$2-receptors $\\leftrightarrow$ vascular dysfunction $\\leftrightarrow$ POTS) represents a \\textbf{completely untested but biologically plausible hypothesis for EDS}. If validated, it would explain the hEDS-POTS-MCAS triad and provide targeted treatment strategies.\n335-"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 464,
+      "context": "461-\n462-    \\textbf{Implication for Dysautonomia}: HRV biofeedback and vagal rehabilitation techniques (cold exposure, extended exhale breathing, gargling) could restore autonomic balance.\n463-\n464:    \\item \\textbf{Comprehensive Autonomic-Metabolic Protocol}: Combining catecholamine support (tyrosine, BH4 cofactors, iron optimization) with mitochondrial protection (MitoQ, NAC, alpha-lipoic acid).\n465-\n466-    \\textbf{Implication for Dysautonomia}: Addresses both neurotransmitter synthesis and cellular energy metabolism underlying autonomic function.\n467-"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1200,
+      "context": "1197-\\addlinespace\n1198-$\\beta$2-receptor desensitization & EDS-POTS-MCAS, dysautonomia, Long COVID \\\\\n1199-\\addlinespace\n1200:BH4 dysregulation & EDS with OI, POTS, dysautonomia, migraine \\\\\n1201-\\addlinespace\n1202-WASF3/ER stress pathway & Primary mitochondrial disorders, metabolic myopathies \\\\\n1203-\\addlinespace"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1329,
+      "context": "1326-\n1327-\\begin{enumerate}\n1328-    \\item \\textbf{Substrate availability}: L-tyrosine (precursor for dopamine \u2192 norepinephrine \u2192 epinephrine)\n1329:    \\item \\textbf{Cofactor sufficiency}: Tetrahydrobiopterin (BH4), vitamin C, copper\n1330-    \\item \\textbf{Methylation support}: SAMe, methylated B-vitamins (for catecholamine metabolism)\n1331-    \\item \\textbf{Adrenal support}: Vitamin B5 (pantothenic acid), adaptogenic herbs\n1332-\\end{enumerate}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1337,
+      "context": "1334-\\textbf{Evidence base}:\n1335-\\begin{itemize}\n1336-    \\item POTS: L-tyrosine improved orthostatic tolerance (case reports, small studies)\n1337:    \\item ME/CFS: BH4 elevation correlates with orthostatic intolerance~\\cite{Bulbule2024}\n1338-    \\item Dysautonomia: Vitamin C supports catecholamine synthesis~\\cite{May1990}\n1339-    \\item Adrenal insufficiency: B5 deficiency impairs cortisol synthesis\n1340-\\end{itemize}"
+    },
+    {
+      "file": "ch25-translational-findings.tex",
+      "line": 1706,
+      "context": "1703-    \\item \\textbf{Daratumumab in Long COVID}: Phase 2 trial in patients with elevated GPCR autoantibodies\n1704-    \\item \\textbf{Rupatadine in EDS-POTS-MCAS}: Test triple-action (H1 + PAF + mast cell stabilizer) vs. standard antihistamines\n1705-    \\item \\textbf{NAD$^+$ precursors in cancer-related fatigue}: Extend Long COVID NR findings\n1706:    \\item \\textbf{Catecholamine synthesis support in POTS}: L-tyrosine + BH4 cofactors vs. placebo\n1707-    \\item \\textbf{Comprehensive mitochondrial support in fibromyalgia}: Test full stack vs. individual components\n1708-\\end{enumerate}\n1709-"
+    }
+  ],
+  "DHEA": [
+    {
+      "file": "ch09-endocrine.tex",
+      "line": 233,
+      "context": "230-\n231-\\begin{hypothesis}[Androgen Deficiency Contribution to Symptoms]\n232-\\label{hyp:androgen-deficiency}\n233:Androgens, particularly DHEA and testosterone, serve multiple physiological functions beyond reproductive roles. They support mitochondrial function and cellular energy production, promote muscle mass maintenance and physical strength, modulate immune responses with generally anti-inflammatory effects, influence mood, motivation, and cognitive function, and affect pain perception and nociceptive processing. Deficiency of these hormones could mechanistically contribute to core ME/CFS symptoms including fatigue, cognitive impairment, reduced physical capacity, and pain amplification.\n234-\\end{hypothesis}\n235-\n236-The sex-specific steroid profiles identified by Pipper et al.\\ showing reduced cortisol but elevated progesterone in male ME/CFS patients suggest complex interactions between the HPA axis and gonadal steroid production~\\cite{pipper2024steroid}. Further research specifically examining male ME/CFS patients is critically needed to elucidate androgen metabolism and its therapeutic potential."
+    },
+    {
+      "file": "ch14b-action-mild-moderate.tex",
+      "line": 1080,
+      "context": ""
+    },
+    {
+      "file": "ch14i-clinical-brainstorm.tex",
+      "line": 324,
+      "context": "321-    \\item ME/CFS symptom severity should fluctuate with menstrual cycle (reported anecdotally)\n322-    \\item Onset or worsening may cluster around hormonal transitions (puberty, postpartum, perimenopause)\n323-    \\item Some patients may improve after menopause (reduced estrogen)\n324:    \\item Hormonal modulation (progesterone, DHEA, careful estrogen management) might be therapeutic\n325-\\end{itemize}\n326-"
+    }
+  ],
+  "ALA": [
+    {
+      "file": "appendix-j-recommendations.tex",
+      "line": 242,
+      "context": "239-\\midrule\n240-High & Salt/fluid loading for orthostatic symptoms \\\\\n241-Medium & Melatonin 3 mg, Magnesium (if deficient), CoQ10, B12 (if deficient) \\\\\n242:Low & Vinpocetine, ALA alone, antihistamines, betahistine \\\\\n243-\\bottomrule\n244-\\end{tabular}\n245-\\end{center}"
+    },
+    {
+      "file": "ch15-medications-systems.tex",
+      "line": 533,
+      "context": "530-\n531-\\subsection{Alpha-Lipoic Acid}\n532-\n533:Alpha-lipoic acid (ALA) is a mitochondrial cofactor and powerful antioxidant.\n534-\n535-\\subsubsection{Mechanism of Action}\n536-"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 287,
+      "context": "284-    \\item Vitamin C: Regenerates oxidized glutathione\n285-\\end{itemize}\n286-\n287:\\subsection{Alpha-Lipoic Acid (ALA)}\n288-\n289:\\paragraph{Rationale.} ALA is both water- and fat-soluble, allowing it to work in all cellular compartments. Regenerates other antioxidants (vitamins C and E, glutathione). Supports mitochondrial function.\n290-"
+    },
+    {
+      "file": "ch16-supplements-nutraceuticals.tex",
+      "line": 289,
+      "context": "286-\n287:\\subsection{Alpha-Lipoic Acid (ALA)}\n288-\n289:\\paragraph{Rationale.} ALA is both water- and fat-soluble, allowing it to work in all cellular compartments. Regenerates other antioxidants (vitamins C and E, glutathione). Supports mitochondrial function.\n290-\n291-\\paragraph{Evidence.} Moderate for diabetic neuropathy; theoretical for ME/CFS.\n292-"
+    },
+    {
+      "file": "ch18-emerging-therapies.tex",
+      "line": 1340,
+      "context": "1337-\\begin{itemize}\n1338-    \\item D-ribose: Small ME/CFS studies show benefit; widely used in sports medicine\n1339-    \\item NAD$^+$ precursors: Raise NAD$^+$ levels in humans; Long COVID trial shows cognitive benefit subset\n1340:    \\item Antioxidants: NAC, vitamin C, ALA have safety data; reduce oxidative stress markers\n1341-    \\item Mitophagy enhancers: Urolithin A shows mitochondrial benefits in human aging trials\n1342-    \\item Anti-inflammatories: Omega-3, curcumin, NSAIDs have established effects\n1343-\\end{itemize}"
+    }
+  ]
+}

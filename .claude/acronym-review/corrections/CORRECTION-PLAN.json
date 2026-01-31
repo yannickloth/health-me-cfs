@@ -1,0 +1,419 @@
+{
+  "total_corrections": 36,
+  "metadata": {
+    "generated": "2026-01-31",
+    "acronyms": ["LDN", "NAC", "BH4", "DHEA"],
+    "expansion_map": {
+      "LDN": "Low-Dose Naltrexone (LDN)",
+      "NAC": "N-Acetylcysteine (NAC)",
+      "BH4": "Tetrahydrobiopterin (BH4)",
+      "DHEA": "Dehydroepiandrosterone (DHEA)"
+    }
+  },
+  "by_file": {
+    "part4-research/ch25-translational-findings.tex": {
+      "acronym_count": 14,
+      "corrections": [
+        {
+          "acronym": "LDN",
+          "line": 626,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "Anti-inflammatory approaches (omega-3, curcumin, LDN)",
+          "new_pattern": "Anti-inflammatory approaches (omega-3, curcumin, Low-Dose Naltrexone (LDN))",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/part4-research/ch25-translational-findings.tex | grep 626"
+        },
+        {
+          "acronym": "LDN",
+          "line": 361,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "If persistent neuroinflammation drives symptoms, LDN could",
+          "new_pattern": "If persistent neuroinflammation drives symptoms, Low-Dose Naltrexone (LDN) could",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/part4-research/ch25-translational-findings.tex | grep 361"
+        },
+        {
+          "acronym": "NAC",
+          "line": 464,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "MitoQ, NAC, alpha-lipoic acid",
+          "new_pattern": "MitoQ, N-Acetylcysteine (NAC), alpha-lipoic acid",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part4-research/ch25-translational-findings.tex | grep 464"
+        },
+        {
+          "acronym": "NAC",
+          "line": 605,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "MitoQ, alpha-lipoic acid, NAC, vitamin",
+          "new_pattern": "MitoQ, alpha-lipoic acid, N-Acetylcysteine (NAC), vitamin",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part4-research/ch25-translational-findings.tex | grep 605"
+        },
+        {
+          "acronym": "NAC",
+          "line": 950,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "NAC: Precursor to glutathione",
+          "new_pattern": "N-Acetylcysteine (NAC): Precursor to glutathione",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part4-research/ch25-translational-findings.tex | grep 950"
+        },
+        {
+          "acronym": "BH4",
+          "line": 105,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "L-tyrosine, BH4 cofactors",
+          "new_pattern": "L-tyrosine, Tetrahydrobiopterin (BH4) cofactors",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part4-research/ch25-translational-findings.tex | grep 105"
+        },
+        {
+          "acronym": "BH4",
+          "line": 298,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item BH4 levels should show",
+          "new_pattern": "\\item Tetrahydrobiopterin (BH4) levels should show",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part4-research/ch25-translational-findings.tex | grep 298"
+        },
+        {
+          "acronym": "BH4",
+          "line": 326,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item Sapropterin (BH4)",
+          "new_pattern": "\\item Sapropterin (Tetrahydrobiopterin, BH4)",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin' contents/part4-research/ch25-translational-findings.tex | grep 326"
+        },
+        {
+          "acronym": "BH4",
+          "line": 332,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "BH4 regeneration support",
+          "new_pattern": "Tetrahydrobiopterin (BH4) regeneration support",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part4-research/ch25-translational-findings.tex | grep 332"
+        },
+        {
+          "acronym": "BH4",
+          "line": 1200,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\textbf{BH4 support}",
+          "new_pattern": "\\textbf{Tetrahydrobiopterin (BH4) support}",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part4-research/ch25-translational-findings.tex | grep 1200"
+        },
+        {
+          "acronym": "BH4",
+          "line": 1706,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "prescription BH4",
+          "new_pattern": "prescription Tetrahydrobiopterin (BH4)",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part4-research/ch25-translational-findings.tex | grep 1706"
+        }
+      ]
+    },
+    "appendices/appendix-i-personal-symptoms.tex": {
+      "acronym_count": 2,
+      "corrections": [
+        {
+          "acronym": "LDN",
+          "line": 590,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "immune modulation (LDN, potential",
+          "new_pattern": "immune modulation (Low-Dose Naltrexone (LDN), potential",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/appendices/appendix-i-personal-symptoms.tex | grep 590"
+        },
+        {
+          "acronym": "LDN",
+          "line": 699,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "e.g., LDN, which modulates",
+          "new_pattern": "e.g., Low-Dose Naltrexone (LDN), which modulates",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/appendices/appendix-i-personal-symptoms.tex | grep 699"
+        }
+      ]
+    },
+    "part2-pathophysiology/ch14/ch14f-cpet-derived.tex": {
+      "acronym_count": 4,
+      "corrections": [
+        {
+          "acronym": "NAC",
+          "line": 51,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item NAC 1200--1800~mg/day",
+          "new_pattern": "\\item N-Acetylcysteine (NAC) 1200--1800~mg/day",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 51"
+        },
+        {
+          "acronym": "NAC",
+          "line": 278,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "+ MitoQ + NAC vs. components",
+          "new_pattern": "+ MitoQ + N-Acetylcysteine (NAC) vs. components",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 278"
+        },
+        {
+          "acronym": "BH4",
+          "line": 17,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "and depletes BH4 cofactor",
+          "new_pattern": "and depletes Tetrahydrobiopterin (BH4) cofactor",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 17"
+        },
+        {
+          "acronym": "BH4",
+          "line": 29,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item BH4 levels should",
+          "new_pattern": "\\item Tetrahydrobiopterin (BH4) levels should",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 29"
+        },
+        {
+          "acronym": "BH4",
+          "line": 30,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "synthesis (BH4, tyrosine, cofactors)",
+          "new_pattern": "synthesis (Tetrahydrobiopterin (BH4), tyrosine, cofactors)",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 30"
+        },
+        {
+          "acronym": "BH4",
+          "line": 43,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "Sapropterin (BH4)",
+          "new_pattern": "Sapropterin (Tetrahydrobiopterin, BH4)",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 43"
+        },
+        {
+          "acronym": "BH4",
+          "line": 52,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "BH4 regeneration support",
+          "new_pattern": "Tetrahydrobiopterin (BH4) regeneration support",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part2-pathophysiology/ch14/ch14f-cpet-derived.tex | grep 52"
+        }
+      ]
+    },
+    "appendices/appendix-i-c-case-analysis.tex": {
+      "acronym_count": 2,
+      "corrections": [
+        {
+          "acronym": "LDN",
+          "line": 1066,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "Acetyl-L-Carnitine, LDN, D-Ribose",
+          "new_pattern": "Acetyl-L-Carnitine, Low-Dose Naltrexone (LDN), D-Ribose",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/appendices/appendix-i-c-case-analysis.tex | grep 1066"
+        },
+        {
+          "acronym": "LDN",
+          "line": 1193,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item LDN fully modulating immune system",
+          "new_pattern": "\\item Low-Dose Naltrexone (LDN) fully modulating immune system",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/appendices/appendix-i-c-case-analysis.tex | grep 1193"
+        }
+      ]
+    },
+    "part1-clinical/ch04-sections/ch04-07-novel-framework.tex": {
+      "acronym_count": 2,
+      "corrections": [
+        {
+          "acronym": "LDN",
+          "line": 528,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\textbf{Neuroinflammation} (quick win, high accessibility): LDN 3 mg at bedtime",
+          "new_pattern": "\\textbf{Neuroinflammation} (quick win, high accessibility): Low-Dose Naltrexone (LDN) 3 mg at bedtime",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/part1-clinical/ch04-sections/ch04-07-novel-framework.tex | grep 528"
+        },
+        {
+          "acronym": "LDN",
+          "line": 789,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "CoQ10 + LDN + fludrocortisone",
+          "new_pattern": "CoQ10 + Low-Dose Naltrexone (LDN) + fludrocortisone",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/part1-clinical/ch04-sections/ch04-07-novel-framework.tex | grep 789"
+        }
+      ]
+    },
+    "part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex": {
+      "acronym_count": 2,
+      "corrections": [
+        {
+          "acronym": "LDN",
+          "line": 447,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item \\textbf{Immune modulation}: LDN",
+          "new_pattern": "\\item \\textbf{Immune modulation}: Low-Dose Naltrexone (LDN)",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Low-Dose Naltrexone (LDN)' contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex | grep 447"
+        },
+        {
+          "acronym": "DHEA",
+          "line": 324,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "progesterone, DHEA, careful",
+          "new_pattern": "progesterone, Dehydroepiandrosterone (DHEA), careful",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Dehydroepiandrosterone (DHEA)' contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex | grep 324"
+        }
+      ]
+    },
+    "part1-clinical/ch05-subgroups.tex": {
+      "acronym_count": 2,
+      "corrections": [
+        {
+          "acronym": "NAC",
+          "line": 508,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "L-citrulline, NAC)",
+          "new_pattern": "L-citrulline, N-Acetylcysteine (NAC))",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part1-clinical/ch05-subgroups.tex | grep 508"
+        },
+        {
+          "acronym": "NAC",
+          "line": 547,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "protocol (NAC, L-citrulline-malate",
+          "new_pattern": "protocol (N-Acetylcysteine (NAC), L-citrulline-malate",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part1-clinical/ch05-subgroups.tex | grep 547"
+        }
+      ]
+    },
+    "part2-pathophysiology/ch14/ch14-main.tex": {
+      "acronym_count": 2,
+      "corrections": [
+        {
+          "acronym": "NAC",
+          "line": 48,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "Glutathione/NAC optimization",
+          "new_pattern": "Glutathione/N-Acetylcysteine (NAC) optimization",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part2-pathophysiology/ch14/ch14-main.tex | grep 48"
+        },
+        {
+          "acronym": "BH4",
+          "line": 26,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "tyrosine+BH4+antioxidants",
+          "new_pattern": "tyrosine+Tetrahydrobiopterin (BH4)+antioxidants",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part2-pathophysiology/ch14/ch14-main.tex | grep 26"
+        }
+      ]
+    },
+    "part3-treatment/ch15-medications-systems.tex": {
+      "acronym_count": 1,
+      "corrections": [
+        {
+          "acronym": "NAC",
+          "line": 837,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\item NAC 600~mg TID",
+          "new_pattern": "\\item N-Acetylcysteine (NAC) 600~mg TID",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'N-Acetylcysteine (NAC)' contents/part3-treatment/ch15-medications-systems.tex | grep 837"
+        }
+      ]
+    },
+    "part3-treatment/ch18-emerging-therapies.tex": {
+      "acronym_count": 1,
+      "corrections": [
+        {
+          "acronym": "BH4",
+          "line": 895,
+          "strategy": "replace_with_expansion",
+          "old_pattern": "\\textbf{BH4 support}",
+          "new_pattern": "\\textbf{Tetrahydrobiopterin (BH4) support}",
+          "context_lines_needed": 10,
+          "verification_grep": "grep -n 'Tetrahydrobiopterin (BH4)' contents/part3-treatment/ch18-emerging-therapies.tex | grep 895"
+        }
+      ]
+    }
+  },
+  "execution_order": [
+    {
+      "file": "part4-research/ch25-translational-findings.tex",
+      "corrections": 14,
+      "priority": "high"
+    },
+    {
+      "file": "part2-pathophysiology/ch14/ch14f-cpet-derived.tex",
+      "corrections": 4,
+      "priority": "medium"
+    },
+    {
+      "file": "appendices/appendix-i-personal-symptoms.tex",
+      "corrections": 2,
+      "priority": "low"
+    },
+    {
+      "file": "appendices/appendix-i-c-case-analysis.tex",
+      "corrections": 2,
+      "priority": "low"
+    },
+    {
+      "file": "part1-clinical/ch04-sections/ch04-07-novel-framework.tex",
+      "corrections": 2,
+      "priority": "low"
+    },
+    {
+      "file": "part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex",
+      "corrections": 2,
+      "priority": "low"
+    },
+    {
+      "file": "part1-clinical/ch05-subgroups.tex",
+      "corrections": 2,
+      "priority": "low"
+    },
+    {
+      "file": "part2-pathophysiology/ch14/ch14-main.tex",
+      "corrections": 2,
+      "priority": "low"
+    },
+    {
+      "file": "part3-treatment/ch15-medications-systems.tex",
+      "corrections": 1,
+      "priority": "low"
+    },
+    {
+      "file": "part3-treatment/ch18-emerging-therapies.tex",
+      "corrections": 1,
+      "priority": "low"
+    }
+  ],
+  "notes": {
+    "total_acronyms_reviewed": 172,
+    "all_definitions_correct": true,
+    "corrections_needed": 36,
+    "strategy_summary": {
+      "replace_with_expansion": 36,
+      "add_parenthetical": 0
+    },
+    "special_cases": {
+      "appendix-i-personal-symptoms.tex": "Analysis referenced outdated line numbers (1377, 2122, etc.) but file has only 981 lines. Actual missing expansions found via grep at lines 590 and 699.",
+      "ch25-translational-findings.tex": "Highest correction count (14 instances). Contains mix of LDN, NAC, and BH4 missing expansions.",
+      "ch14f-cpet-derived.tex": "Multiple BH4 references in autonomic-mitochondrial feedback loop section. BH4 mentioned 6 times without expansion."
+    }
+  }
+}

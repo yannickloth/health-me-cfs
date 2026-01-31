@@ -1,0 +1,146 @@
+{
+  "LDA": [
+    {
+      "file": "contents/appendices/appendix-h-annotated-bibliography.tex",
+      "line": 1854,
+      "context": "    \\item \\textbf{Clinical use:} Reasonable as part of mitochondrial support; safe, inexpensive\n\\end{itemize}\n\n\\subsection{Low-Dose Aripiprazole (LDA)}\n\n\\paragraph{Crosby et al.\\ 2021 --- Stanford Retrospective Study}"
+    }
+  ],
+  "LDN": [
+    {
+      "file": "contents/part3-treatment/ch14a-urgent-action-severe.tex",
+      "line": 216,
+      "context": "\n\\begin{observation}[Low-Dose Naltrexone for Severe Cases]\n\\label{obs:ldn-severe}\nAn observational study of 218 ME/CFS patients treated with low-dose naltrexone (3.0--4.5 mg/day) found 73.9\\% reported positive treatment response, with most experiencing improved vigilance, alertness, and physical/cognitive performance~\\cite{Polo2019}."
+    },
+    {
+      "file": "contents/part3-treatment/ch14a-urgent-action-severe.tex",
+      "line": 740,
+      "context": "            \\item \\textbf{First dose can be taken ANY TIME today with food}\n        \\end{itemize}\n\n        \\item \\textbf{Low-dose naltrexone (LDN)}: 1.5--4.5 mg at bedtime\n        \\begin{itemize}\n            \\item \\textbf{Dose for average adult}: Start 1.5 mg, increase to 3--4.5 mg over 2 weeks"
+    },
+    {
+      "file": "contents/part3-treatment/ch14a-urgent-action-severe.tex",
+      "line": 849,
+      "context": "    \\item \\textbf{Joint pain}: 40--60\\% reduction\n    \\item \\textbf{Neuropathic pain}: 50--70\\% reduction with gabapentinoids (week 1--2)\n    \\item \\textbf{LDN}: 2--4 weeks for full benefit (immune modulation + pain)\n\\end{itemize}"
+    },
+    {
+      "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+      "line": 470,
+      "context": "    \\item \\textbf{Add if insufficient}:\n    \\begin{itemize}\n        \\item Low-dose naltrexone (LDN) 1.5--4.5 mg nightly (immune modulation + pain)\n        \\item Turmeric/curcumin 500--1000 mg BID (natural anti-inflammatory)"
+    },
+    {
+      "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+      "line": 498,
+      "context": "\\textbf{Practical protocol}: Use \\emph{micronized} or \\emph{ultramicronized} PEA (superior bioavailability vs standard PEA). Dose: 600 mg twice daily. Time to benefit: 4--6 weeks for initial effect; peak benefit at 24--26 weeks. Excellent safety profile with no known drug interactions.\n\n\\textbf{Positioning}: Consider in the ``Add if insufficient'' tier alongside LDN and curcumin. PEA has stronger evidence than curcumin (3 meta-analyses vs limited RCT data). Particularly indicated if: mast cell activation features present, neuropathic pain component inadequately controlled, or inadequate NSAID response."
+    },
+    {
+      "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+      "line": 961,
+      "context": "    \\end{itemize}\n\\end{itemize}\n\n\\textbf{Clinical decision}: \\textit{If GPCR autoantibodies elevated OR NK function low OR cytokines elevated → Immune cycle ACTIVE → Consider immunoadsorption, daratumumab (if accessible), or LDN + anti-inflammatory stack.}\n\n\\paragraph{Cycle 3: Autonomic Dysregulation.}"
+    },
+    {
+      "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+      "line": 1057,
+      "context": "    \\end{itemize}\n\\end{itemize}\n\n\\textbf{Clinical decision}: \\textit{If QST shows hyperalgesia OR CSI $>$40 OR severe cognitive impairment → Neuroinflammatory cycle ACTIVE → Consider LDN, neuroinflammation-targeted supplements, avoid opioids (worsen central sensitization).}\n\n\\paragraph{Cycle 5: Endocrine Dysregulation.}"
+    },
+    {
+      "file": "contents/part3-treatment/ch14b-action-mild-moderate.tex",
+      "line": 1265,
+      "context": "        \\end{itemize}\n    \\end{itemize}\n\n    \\item \\textbf{Low-dose naltrexone (LDN)}:\n    \\begin{itemize}\n        \\item 1.5--4.5 mg nightly"
+    },
+    {
+      "file": "contents/part3-treatment/ch15-medications-systems.tex",
+      "line": 8,
+      "context": "\n\\section{Immune-Modulating Medications}\n\\label{sec:immune-medications}\n\n\\subsection{Low-Dose Naltrexone (LDN)}"
+    },
+    {
+      "file": "contents/part3-treatment/ch15-medications-systems.tex",
+      "line": 10,
+      "context": "\n\\subsection{Low-Dose Naltrexone (LDN)}\n\nLow-dose naltrexone (LDN) has emerged as one of the most commonly used off-label treatments for ME/CFS, despite limited controlled trial data."
+    },
+    {
+      "file": "contents/part3-treatment/ch15-medications-systems.tex",
+      "line": 17,
+      "context": "    \\item \\textbf{Transient opioid blockade}: Brief receptor occupancy may trigger compensatory endorphin upregulation\n    \\item \\textbf{Glial cell modulation}: LDN may antagonize Toll-like receptor 4 (TLR4) on microglia, reducing neuroinflammation\n    \\item \\textbf{Immune modulation}: Effects on T regulatory cells and cytokine balance reported"
+    },
+    {
+      "file": "contents/part3-treatment/ch15-medications-systems.tex",
+      "line": 52,
+      "context": "    \\item Nausea (rare)\n\\end{itemize}\n\n\\begin{speculation}[LDN Combination Protocols]\nPatient community reports describe synergistic benefits from combining LDN with other interventions. One frequently mentioned combination involves LDN (at bedtime), NAD+ precursors (nicotinamide riboside or NMN, in the morning), and melatonin (at bedtime for circadian regulation)."
+    },
+    {
+      "file": "contents/part3-treatment/ch15-medications-systems.tex",
+      "line": 863,
+      "context": "    \\item \\textbf{Persistent pain/inflammation}: Increase PEA to 1200~mg/day (um-PEA form preferred)\n    \\item \\textbf{Persistent cognitive symptoms}: Consider LDN 1.5--4.5~mg at bedtime\n\\end{itemize}"
+    },
+    {
+      "file": "contents/part3-treatment/ch15-medications-systems.tex",
+      "line": 924,
+      "context": "    \\item \\textbf{Autoimmune-predominant phenotype}: Immunoadsorption, daratumumab, BC007 (for GPCR autoantibody-positive patients)\n    \\item \\textbf{Mitochondrial-predominant phenotype}: Aggressive NAD+ precursor therapy, potentially rapamycin (mTOR modulation)\n    \\item \\textbf{Neuroinflammatory-predominant phenotype}: LDN, IVIG (if SFN documented), environmental modification"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 737,
+      "context": "    \\item \\textbf{Weeks 1--4}: Mitochondrial stack only; assess tolerance\n    \\item \\textbf{Week 5}: Add fludrocortisone 0.05~mg; titrate up weekly if tolerated (monitor BP, edema)\n    \\item \\textbf{Week 7}: Add L-tyrosine 1500~mg; increase to 3000~mg if no anxiety/jitteriness\n    \\item \\textbf{Week 9}: Add immune intervention (daratumumab or LDN)"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 848,
+      "context": "        \\item Trial design: Stratify by duration; compare response rates\n        \\item Informs when aggressive intervention is justified\n    \\end{itemize}\n\n    \\item \\textbf{Escape velocity}: Insufficient intervention intensity (e.g., low-dose CoQ10 + LDN) produces transient improvement; adequate intensity (high-dose stack + daratumumab) produces sustained improvement after treatment stops"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 1524,
+      "context": "GPCR autoantibodies (circulating) & Antibodies cleared in weeks if production stops; not structurally damaging & Immunoadsorption, BC007, daratumumab (plasma cell depletion) & 2--6 months \\\\\n\\addlinespace\nAcute immune activation & Cytokine half-lives measured in hours; no permanent tissue damage if brief & Anti-inflammatory interventions, LDN, omega-3, biologics & 2--8 weeks \\\\"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 1556,
+      "context": "Established epigenetic silencing & Some changes reversible with aggressive intervention; others locked & HDAC inhibitors (vorinostat—high risk), prolonged NAD$^+$ support & Variable; 0--40\\% improvement \\\\\n\\addlinespace\nMicroglial priming (moderate) & Primed microglia can de-activate with sustained anti-inflammatory environment & LDN, omega-3, curcumin, avoid inflammatory triggers & Gradual; 10--25\\% cognitive improvement over 6--12 months \\\\"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 1558,
+      "context": "Microglial priming (moderate) & Primed microglia can de-activate with sustained anti-inflammatory environment & LDN, omega-3, curcumin, avoid inflammatory triggers & Gradual; 10--25\\% cognitive improvement over 6--12 months \\\\\n\\addlinespace\nCentral sensitization (early) & Neuroplasticity allows some desensitization; incomplete reversal & Graded sensory exposure, LDN, avoid opioids, pain psychology & 20--40\\% pain reduction; rarely complete resolution \\\\"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 1586,
+      "context": "Extensive mitochondrial loss ($>$50--70\\%) & Biogenesis capacity overwhelmed; residual mitochondria insufficient to power cell; cell death occurs & \\textbf{Accept functional limits}; focus on preventing further loss; maximize function of remaining capacity \\\\\n\\addlinespace\nHigh mtDNA mutation burden & Mutations replicate with each division; dysfunctional mitochondria proliferate faster than healthy ones (clonal expansion) & \\textbf{Prevent additional oxidative damage}; antioxidant support; strict pacing; no curative intervention exists \\\\\n\\addlinespace\nSevere central sensitization (chronic $>$5--10 years) & Permanent cortical reorganization; structural brain changes; glial scar formation & \\textbf{Symptom management only}; pain psychology; avoid exacerbating factors; LDN may help but no reversal \\\\"
+    },
+    {
+      "file": "contents/part3-treatment/ch18-emerging-therapies.tex",
+      "line": 1649,
+      "context": "\\midrule\n\\textbf{Moderate (Tier 2)} & \\textbf{Sustained, patient intervention}; low-to-moderate risk; long timelines (6--24 months); supplement stacks, LDN, pacing optimization, gradual reconditioning & High-risk experimental interventions with severe side effects (benefit unlikely to justify risk) \\\\"
+    },
+    {
+      "file": "contents/appendices/appendix-i-a-medical-management.tex",
+      "line": 14,
+      "context": "\\subsubsection{Immune Modulation}\n\\begin{itemize}\n    \\item \\textbf{Low-dose naltrexone (LDN)}: 3\\,mg daily (started 2026-01-05) for anti-inflammatory and immune modulation\n    \\begin{itemize}\n        \\item \\textit{Timing}: Morning dosing (note: standard protocol uses nighttime dosing)"
+    },
+    {
+      "file": "contents/appendices/appendix-i-a-medical-management.tex",
+      "line": 170,
+      "context": "    \\item Rilatine MR 30\\,mg\n    \\item Provigil 100\\,mg (if taking)\n    \\item LDN 3\\,mg\n    \\item Acetyl-L-carnitine 1000\\,mg"
+    },
+    {
+      "file": "contents/appendices/appendix-i-a-medical-management.tex",
+      "line": 225,
+      "context": "\\textbf{Rilatine MR} & With or without food; consistent timing matters most & Magnesium carbonate/hydroxide, antacids, high-pH compounds (2--4 hr separation) \\\\\n\\textbf{Provigil} & With or without food & No significant interactions \\\\\n\\textbf{LDN} & With or without food & No significant interactions \\\\"
+    },
+    {
+      "file": "contents/appendices/appendix-i-a-medical-management.tex",
+      "line": 1575,
+      "context": "    \\begin{itemize}\n        \\item \\textbf{LDN}: 4\\,mg (morning dose)\n        \\item Morning: Provigil 100\\,mg\n        \\item Magnesium glycinate initiated this day (first dose)"
+    },
+    {
+      "file": "contents/appendices/appendix-i-a-medical-management.tex",
+      "line": 1632,
+      "context": "    \\item[Medications:]\n    \\begin{itemize}\n        \\item \\textbf{LDN}: 4\\,mg (morning dose)\n        \\item Morning: Provigil 100\\,mg only (no methylphenidate)"
+    },
+    {
+      "file": "contents/appendices/appendix-i-a-medical-management.tex",
+      "line": 1687,
+      "context": "    \\item[Medications:]\n    \\begin{itemize}\n        \\item \\textbf{LDN}: 4\\,mg (morning dose)\n        \\item \\textbf{Supplements}: All protocol supplements taken"
+    }
+  ]
+}
