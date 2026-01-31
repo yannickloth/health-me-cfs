@@ -1,0 +1,6 @@
+# Ignore all personal health data
+*
+
+# Except this gitignore and README
+!.gitignore
+!README.md
