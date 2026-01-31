@@ -106,6 +106,8 @@ This project uses custom subagents in `.claude/agents/`. Claude automatically de
 
 **Document Quality:** `syntax-fixer`, `formatting-fixer`, `dictionary-manager`, `template-advisor`, `chapter-integrator`, `protocol-linker`, `content-reviewer`, `style-naturalizer`, `literature-integrator`, `scientific-insight-generator`, `math-verifier`, `logic-auditor`
 
+**Configuration:** `config-auditor`, `config-optimizer`
+
 **Build & Validation:** `test-runner`, `link-checker`, `tikz-validator`, `file-splitter`
 
 **Illustration:** `tikz-illustrator`

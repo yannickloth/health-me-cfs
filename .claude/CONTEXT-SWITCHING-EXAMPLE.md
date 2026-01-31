@@ -24,55 +24,50 @@
 
 When I detect we're at 75% context:
 
-```
-🔄 Context Optimization Alert
+### Context Optimization Alert
 
-We're at 75% context usage (150,000/200,000 tokens). Starting a new session
-would be more cost-effective than continuing to auto-compact.
+We're at 75% context usage (150,000/200,000 tokens). Starting a new session would be more cost-effective than continuing to auto-compact.
 
-Here's your continuation prompt for the new session:
+**Here's your continuation prompt for the new session:**
 
-─────────────────────────────────────────────────────────────
-
-Continue ME/CFS documentation project with context monitoring system.
-
-**Current State:**
-Implemented automatic context cost monitoring system with both CLAUDE.md
-instructions and PostToolUse hook. System now automatically detects when
-session switching is cheaper than compacting and generates continuation prompts.
-
-**Files Modified:**
-- `.claude/CLAUDE.md` (lines 22-73): Added "Context and Cost Management" section
-- `.claude/hooks/context-cost-monitor.sh`: Hook script that counts tool calls
-- `.claude/settings.json`: Added PostToolUse hook configuration (matcher: "*")
-
-**Key Decisions:**
-- Monitor threshold: 70% context usage
-- Hook reminder: Every 10 tool calls
-- Target continuation prompt size: <5% of current context
-- Changed from "ask user" to "automatically generate" when switching is cheaper
-
-**Next Steps:**
-- Test the system in practice as context grows
-- Refine thresholds based on actual cost patterns
-- Consider adding cost estimation logic to hook script
-
-**Technical Context:**
-- Project uses Nix build system for LaTeX compilation
-- Heavy use of subagents for specialized tasks (see CLAUDE.md agent tables)
-- Literature management system tracks research papers in Literature/ folder
-- Medical case management agents for ME/CFS patient tracking
-
-─────────────────────────────────────────────────────────────
+> Continue ME/CFS documentation project with context monitoring system.
+>
+> **Current State:** Implemented automatic context cost monitoring system with both CLAUDE.md instructions and PostToolUse hook. System now automatically detects when session switching is cheaper than compacting and generates continuation prompts.
+>
+> **Files Modified:**
+>
+> - `.claude/CLAUDE.md` (lines 22-73): Added "Context and Cost Management" section
+> - `.claude/hooks/context-cost-monitor.sh`: Hook script that counts tool calls
+> - `.claude/settings.json`: Added PostToolUse hook configuration (matcher: "*")
+>
+> **Key Decisions:**
+>
+> - Monitor threshold: 70% context usage
+> - Hook reminder: Every 10 tool calls
+> - Target continuation prompt size: <5% of current context
+> - Changed from "ask user" to "automatically generate" when switching is cheaper
+>
+> **Next Steps:**
+>
+> - Test the system in practice as context grows
+> - Refine thresholds based on actual cost patterns
+> - Consider adding cost estimation logic to hook script
+>
+> **Technical Context:**
+>
+> - Project uses Nix build system for LaTeX compilation
+> - Heavy use of subagents for specialized tasks (see CLAUDE.md agent tables)
+> - Literature management system tracks research papers in Literature/ folder
+> - Medical case management agents for ME/CFS patient tracking
 
 **To continue:**
-1. Copy the prompt above (everything between the lines)
+
+1. Copy the prompt above (everything in the quote block)
 2. Run: `/rename "mecfs-context-monitoring-v1"`
 3. Run: `/clear`
 4. Start new session and paste the prompt
 
 This saves approximately $0.25 compared to continuing to auto-compact.
-```
 
 ---
 

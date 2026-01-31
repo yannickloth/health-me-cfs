@@ -162,22 +162,18 @@ To override colors for a specific document:
 
 ### Certainty Gradient (Scientific)
 
-```
-High Certainty          Medium Certainty         Low Certainty
-───────────────────────────────────────────────────────────────
-Green (achievement)  →  Blue (prediction)    →  Purple (open_question)
-Green (achievement)  →  Gold (hypothesis)    →  Purple (axiom)
-Teal (consistency)   →  Slate (postdiction)  →  Gray (assumption)
-```
+**High → Medium → Low Certainty:**
+
+- Green (achievement) → Blue (prediction) → Purple (open_question)
+- Green (achievement) → Gold (hypothesis) → Purple (axiom)
+- Teal (consistency) → Slate (postdiction) → Gray (assumption)
 
 ### Attention Gradient (Pedagogical)
 
-```
-High Attention          Medium Attention        Low Attention
-───────────────────────────────────────────────────────────────
-Orange (warning)     →  Gold (keypoint)       →  Light blue (continuation)
-Orange (warning)     →  Blue (protocol)       →  Gray (finding)
-```
+**High → Medium → Low Attention:**
+
+- Orange (warning) → Gold (keypoint) → Light blue (continuation)
+- Orange (warning) → Blue (protocol) → Gray (finding)
 
 ## Examples in Use
 
