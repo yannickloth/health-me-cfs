@@ -132,6 +132,11 @@ curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=[PM
 ## Methodology
 [Brief description of study design, sample size, methods]
 
+## Acronym Definitions
+⚠️ **CRITICAL**: Verify and document all acronyms used in paper:
+- [ACRONYM]: [Full expansion from paper]
+(Example: LDA = Low-Dose Abilify/Aripiprazole, NOT Low-Dose Aspirin)
+
 ## Certainty Assessment
 - **Study Quality:** [High/Medium/Low]
 - **Sample Size:** n=[X]

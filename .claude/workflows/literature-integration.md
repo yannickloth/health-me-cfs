@@ -154,38 +154,26 @@ grep "cite{[CitationKey]}" contents/part*/*.tex
 
 ### Which Literature Subfolder?
 
-```
-Paper topic:
-├─ Biomarker discovery? → Literature/biomarkers/
-├─ Pathophysiology mechanism?
-│   ├─ Energy/mitochondria? → Literature/pathophysiology/energy-metabolism/
-│   ├─ Immune system? → Literature/pathophysiology/immune-dysfunction/
-│   ├─ Neurological? → Literature/pathophysiology/neurological/
-│   └─ Endocrine? → Literature/pathophysiology/endocrine/
-├─ Clinical studies?
-│   ├─ Diagnostic criteria? → Literature/clinical-studies/diagnostic-criteria/
-│   ├─ Prevalence? → Literature/clinical-studies/prevalence/
-│   └─ Outcomes? → Literature/clinical-studies/patient-outcomes/
-├─ Treatment?
-│   ├─ Drugs? → Literature/treatments/pharmacological/
-│   ├─ Non-drug? → Literature/treatments/non-pharmacological/
-│   └─ Experimental? → Literature/treatments/experimental/
-├─ Review article? → Literature/reviews/
-└─ Severity/prognosis? → Literature/severity-prognosis/
-```
+**By topic:**
+
+- Biomarker discovery → `Literature/biomarkers/`
+- Pathophysiology → `Literature/pathophysiology/{energy-metabolism, immune-dysfunction, neurological, endocrine}/`
+- Clinical studies → `Literature/clinical-studies/{diagnostic-criteria, prevalence, patient-outcomes}/`
+- Treatment → `Literature/treatments/{pharmacological, non-pharmacological, experimental}/`
+- Review article → `Literature/reviews/`
+- Severity/prognosis → `Literature/severity-prognosis/`
 
 ### Which Environment?
 
-```
-Finding type:
-├─ Novel discovery unique to this work? → achievement
-├─ Matches existing published data? → postdiction
-├─ Testable prediction? → prediction
-├─ Unproven hypothesis? → hypothesis
-├─ Caveat or limitation? → warning
-├─ Unresolved question? → open_question
-└─ Standard background info? → Regular paragraph with \cite{}
-```
+**By finding type:**
+
+- Novel discovery unique to this work → `achievement`
+- Matches existing published data → `postdiction`
+- Testable prediction → `prediction`
+- Unproven hypothesis → `hypothesis`
+- Caveat or limitation → `warning`
+- Unresolved question → `open_question`
+- Standard background info → Regular paragraph with `\cite{}`
 
 ### Certainty Assessment
 

@@ -100,6 +100,12 @@ grep -l "orthostatic" .claude/case-data/daily/*.json | head -5
 "case-documenter: took LDN 4.5mg at 8am, CoQ10 200mg, vitamin D 5000IU"
 ```
 
+**⚠️ CRITICAL: Acronym Accuracy**
+- **LDN** = Low-Dose Naltrexone (NOT Low-Dose Nifedipine or others)
+- **LDA** = Low-Dose Abilify/Aripiprazole (NOT Low-Dose Aspirin)
+- Always verify medication acronyms before logging
+- When uncertain, ask user to clarify or use full medication name
+
 ### PEM Episode
 ```
 "case-documenter: PEM started yesterday after 30min walk, current severity 8/10"

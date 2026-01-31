@@ -24,54 +24,28 @@ The medical agent system consists of 10 specialized agents organized into 3 tier
 
 ## Agent Interaction Map
 
-```
-                    research-monitor
-                         │
-                         ├──(new papers)──> medical-advisor
-                         └──(new papers)──> hypothesis-generator
-                                                    │
-User ──> case-documenter ←── data-validator        │
-              │                     │               │
-              ├──(validates)────────┘               │
-              │                                     │
-              ├──> treatment-analyst ───────────────┤
-              │           │                         │
-              ├──> medical-advisor ─────────────────┤
-              │           │                         │
-              ├──> hypothesis-generator ────────────┘
-              │           │
-              ├──> pacing-coach
-              │           │
-              └──> crisis-manager ──┬──> medical-advisor
-                          │         │
-                          ├──> pacing-coach
-                          │
-                          └──> caregiver-coordinator
-                                      │
-                                      └──> benefit-navigator
+**Research monitoring:**
 
-All agents ──> User (via LaTeX documents and markdown reports)
-```
+- research-monitor → (new papers) → medical-advisor
+- research-monitor → (new papers) → hypothesis-generator
+
+**Core documentation flow:**
+
+- User → case-documenter ← data-validator (validates)
+- case-documenter → treatment-analyst → hypothesis-generator
+- case-documenter → medical-advisor → hypothesis-generator
+- case-documenter → pacing-coach
+- case-documenter → crisis-manager → medical-advisor, pacing-coach, caregiver-coordinator → benefit-navigator
+
+**Output:**
+
+- All agents → User (via LaTeX documents and markdown reports)
 
 ## Data Flow
 
-### Input → Processing → Output
+**Input → Processing → Output:**
 
-```
-User Daily Input
-    ↓
-case-documenter (logs symptoms, medications, activities)
-    ↓
-data-validator (checks quality)
-    ↓
-├─> pacing-coach (real-time guidance)
-├─> crisis-manager (monitors for crashes)
-├─> treatment-analyst (analyzes effectiveness)
-├─> hypothesis-generator (identifies patterns)
-└─> medical-advisor (generates recommendations)
-    ↓
-└─> User (Appendix J recommendations, reports)
-```
+User Daily Input → case-documenter (logs) → data-validator (checks) → {pacing-coach (guidance), crisis-manager (monitors), treatment-analyst (analyzes), hypothesis-generator (patterns), medical-advisor (recommendations)} → User (Appendix J, reports)
 
 ## When to Use Each Agent
 

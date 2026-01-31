@@ -220,6 +220,16 @@ which further depletes energy reserves.
 
 ### Step 5: Update Urgent Action Protocols
 
+**⚠️ CRITICAL: Acronym Verification Before Protocol Updates**
+
+Before adding any content to protocols:
+- Verify medication/treatment acronyms from source papers
+- **Common mistakes to avoid:**
+  - **LDA** = Low-Dose Abilify/Aripiprazole (NOT Low-Dose Aspirin)
+  - **LDN** = Low-Dose Naltrexone
+- Check existing protocol acronym usage for consistency
+- Always expand acronyms on first use in each protocol section
+
 **For Ch14a (Severe Cases):**
 
 Read current protocol structure:
@@ -345,43 +355,26 @@ Citation: [Key]
 
 ### Should I update Ch14a (Severe)?
 
-```
-Is finding about severe patients specifically?
-├── Yes → UPDATE (add to relevant protocol section)
-└── No → Is finding about emergency/crisis intervention?
-    ├── Yes → UPDATE (add to crisis management)
-    └── No → Is finding about metabolic collapse/recovery?
-        ├── Yes → UPDATE (add to metabolic protocol)
-        └── No → Does finding change severe patient management?
-            ├── Yes → UPDATE (modify existing protocol)
-            └── No → SKIP (add cross-reference only, no protocol change)
-```
+- Finding about severe patients? → UPDATE (add to relevant protocol)
+- Finding about emergency/crisis intervention? → UPDATE (add to crisis management)
+- Finding about metabolic collapse/recovery? → UPDATE (add to metabolic protocol)
+- Finding changes severe patient management? → UPDATE (modify existing protocol)
+- Otherwise → SKIP (add cross-reference only, no protocol change)
 
 ### Should I update Ch14b (Moderate)?
 
-```
-Is finding about prevention of progression?
-├── Yes → UPDATE (add to prevention section)
-└── No → Is finding about early intervention timing?
-    ├── Yes → UPDATE (add to early action section)
-    └── No → Is finding about pacing/energy envelope?
-        ├── Yes → UPDATE (add to energy management)
-        └── No → Does finding change moderate patient management?
-            ├── Yes → UPDATE (modify existing protocol)
-            └── No → SKIP (add cross-reference only, no protocol change)
-```
+- Finding about prevention of progression? → UPDATE (add to prevention section)
+- Finding about early intervention timing? → UPDATE (add to early action section)
+- Finding about pacing/energy envelope? → UPDATE (add to energy management)
+- Finding changes moderate patient management? → UPDATE (modify existing protocol)
+- Otherwise → SKIP (add cross-reference only, no protocol change)
 
 ### Where should cross-reference go?
 
-```
-Is there an existing related paragraph?
-├── Yes → ADD inline reference to existing text
-└── No → Is there an existing related section?
-    ├── Yes → ADD new paragraph with reference
-    └── No → Is finding significant enough for new content?
-        ├── Yes → ADD new subsection with cross-references
-        └── No → SKIP cross-reference (primary integration sufficient)
-```
+- Existing related paragraph? → ADD inline reference to existing text
+- Existing related section? → ADD new paragraph with reference
+- Finding significant enough for new content? → ADD new subsection with cross-references
+- Otherwise → SKIP (primary integration sufficient)
 
 ---
 

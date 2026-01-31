@@ -58,6 +58,7 @@ System prompt / instructions for the agent...
 | Agent | Use when... |
 | --- | --- |
 | `config-auditor` | Checking Claude config for conflicts, inconsistencies, undefined agents |
+| `config-optimizer` | Optimizing agent definitions for context efficiency, creating new agents with best practices |
 | `content-reviewer` | Checking document consistency, completeness, coherence |
 | `style-naturalizer` | Text sounds robotic, AI-like, excessive lists, unnatural |
 | `literature-integrator` | Full pipeline: finding, downloading, organizing papers, updating .bib |

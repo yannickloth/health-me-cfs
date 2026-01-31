@@ -133,6 +133,15 @@ Identify:
 
 ### Step 4: Construct LaTeX Content
 
+**CRITICAL: Acronym Accuracy**
+
+Before writing any content, verify acronym meanings:
+- **LDA** = Low-Dose Abilify/Aripiprazole (NOT Low-Dose Aspirin)
+- **PEM** = Post-Exertional Malaise
+- **POTS** = Postural Orthostatic Tachycardia Syndrome
+- When uncertain, check the paper's full text or grep existing document usage
+- NEVER assume common acronyms—verify medical-specific meanings
+
 **Format based on environment type:**
 
 #### For `\begin{hypothesis}`:

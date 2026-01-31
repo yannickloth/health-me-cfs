@@ -101,6 +101,14 @@ When new research is integrated into the document, this agent:
    └── [paper].pdf (if available)
    ```
 
+2. **⚠️ CRITICAL: Verify acronym meanings before analysis:**
+   - Check paper's full text for acronym definitions
+   - Cross-reference with document's existing usage (grep citations)
+   - **Common mistakes to avoid:**
+     - LDA = Low-Dose Abilify/Aripiprazole (NOT Low-Dose Aspirin)
+     - Always verify medical-specific acronyms against paper context
+   - Document any unclear acronyms for user clarification
+
 2. **Read related document sections:**
    - Search for existing mentions: `grep -r "keyword" contents/`
    - Read relevant chapters (pathophysiology, treatment, mechanisms)

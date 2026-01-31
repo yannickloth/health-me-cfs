@@ -94,6 +94,16 @@ grep -n "^@.*{.*[Uu]biquinone|CoQ10|coenzyme" references.bib
 
 ## Reasoning Framework
 
+**⚠️ CRITICAL: Acronym Accuracy Throughout**
+
+Before writing ANY recommendation:
+- Verify all medication/treatment acronyms against peer-reviewed sources
+- **Common mistakes to avoid:**
+  - **LDA** = Low-Dose Abilify/Aripiprazole (NOT Low-Dose Aspirin)
+  - **LDN** = Low-Dose Naltrexone (NOT Low-Dose Nifedipine)
+- When uncertain, use full medication names
+- Include full expansion on first use in each recommendation
+
 Every recommendation must follow this structure:
 
 ### 1. Problem Statement
