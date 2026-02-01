@@ -81,6 +81,7 @@
           pkgs.nodejs
           pkgs.coreutils
           pkgs.mupdf-headless
+          pkgs.shellcheck # Shell script analysis tool
         ];
       };
 
