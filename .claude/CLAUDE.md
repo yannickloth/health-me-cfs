@@ -94,13 +94,46 @@ Original 70% threshold meant 140k tokens—but compaction at 100k made this unre
 
 A `PostToolUse` hook at `.claude/hooks/context-cost-monitor.sh` provides automated warnings. Claude should acknowledge and act on hook warnings about context thresholds.
 
-## Subagent System
+## Agent Routing System
 
-This project uses custom subagents in `.claude/agents/`. Claude automatically delegates tasks to the appropriate agent based on matching your request to agent descriptions.
+**ABSOLUTE RULE: Every user request gets routed. No shortcuts, no exceptions, no "just answering directly."**
 
-**Agent definitions are lazy-loaded on demand.** Full descriptions, capabilities, and models are documented in individual agent files in `.claude/agents/`.
+Claude IS the router. The main session does NOT execute user requests directly—it delegates via Task tool.
 
-**Routing logic is defined in `~/.claude/CLAUDE.md`.** This file only defines available agents — not how to dispatch to them.
+### How Routing Works
+
+The main Claude session acts as the router by following these rules. It does NOT spawn a router subagent (subagents cannot spawn other subagents).
+
+For EVERY user request:
+
+1. **Parse intent**: What is the user asking for?
+2. **Check project agents first**: Does `.claude/agents/` have a specialized agent that exactly matches?
+3. **Fall back to general agents**: If no project agent matches, choose by reasoning level needed
+4. **Spawn via Task**: Delegate to the selected agent
+
+### Routing Flow
+
+```text
+User request → Main session (routing logic) → Task tool → agent executes
+```
+
+### Agent Selection Priority
+
+**Priority 1: Project-specific agents** (exact match required)
+
+Check `.claude/agents/` for specialized agents. Use when task matches agent description exactly.
+
+**Priority 2: General agents** (from claude-router-system plugin)
+
+- `claude-router-system:haiku-general`: Mechanical tasks, no judgment needed
+- `claude-router-system:sonnet-general`: Default for reasoning, analysis, judgment
+- `claude-router-system:opus-general`: Complex reasoning, proofs, high-stakes
+
+**If routing decision is uncertain**: Spawn `claude-router-system:router-escalation` for deeper analysis.
+
+### Project-Specific Agents
+
+**Agent definitions are lazy-loaded on demand.** Check agent descriptions in `.claude/agents/` to find the right match.
 
 ### Quick Agent Index (Lazy-Load)
 

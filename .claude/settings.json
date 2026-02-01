@@ -35,14 +35,12 @@
       "Bash(timeout:*)",
       "Bash(wait)",
       "Bash(unzip:*)",
-      "Bash(claude-agent haiku-general \"Create pediatric chapter skeleton files and update bibliography:\n\n1. Create ch14c-pediatric-severe.tex with this section structure:\n   - \\\\chapter{Pediatric ME/CFS: Severe and Housebound Cases}\n   - \\\\label{ch:pediatric-severe}\n   - Sections: Defining Severe Pediatric ME/CFS, Home-Based Care Considerations, Medical Management \\(with subsections: Orthostatic Intolerance, Pain Management, Sleep Optimization, Cognitive Support\\), Preventing Complications of Prolonged Bedrest, Educational Continuity, Family Support and Caregiver Coordination, Red Flags and Emergency Protocols, Evidence That Severe Pediatric Disease CAN Reverse\n\n2. Create ch14d-pediatric-ambulatory.tex with this section structure:\n   - \\\\chapter{Pediatric ME/CFS: School-Attending and Ambulatory Cases}\n   - \\\\label{ch:pediatric-ambulatory}\n   - Sections: The Early Intervention Imperative, Diagnosis and Assessment \\(with subsections: Pediatric Diagnostic Criteria Modifications, Distinguishing ME/CFS from Differential Diagnoses\\), School Accommodation Framework \\(with subsections: IEP vs. 504 Plan Decision Tree, Specific Accommodations by Symptom, Communication Templates\\), Pacing for Children and Adolescents \\(with subsections: Age-Appropriate Energy Management, Managing the \"\"Push Through\"\" Pressure\\), Medical Management \\(with subsections: Orthostatic Intolerance, Sleep, Cognitive Symptoms\\), Activity and Exercise \\(with subsections: Critical Warning: GET Contraindicated, Safe Activity Maintenance\\), Social Development Considerations, Long-Term Management and Monitoring, Prognosis Communication\n\n3. Update ms.tex to include these chapters after ch14b by adding:\n   \\\\input{contents/part3-treatment/ch14c-pediatric-severe.tex}\n   \\\\input{contents/part3-treatment/ch14d-pediatric-ambulatory.tex}\n\n4. Add these 6 bibliography entries to references.bib:\n   - Rowe 2017 Frontiers in Pediatrics primer\n   - CDC Pediatric ME/CFS Guidance 2024\n   - PMC7551866 \\(Severe ME in Children\\)\n   - PMC5919160 \\(Pediatric Chronic Fatigue Syndrome\\)\n   - PMC11472415 \\(Pediatric POTS Management 2024\\)\n   - PMC9603696 \\(Multi-Disciplinary Rehabilitation for Moderate-Severe Pediatric ME/CFS\\)\n\nUse placeholder content marked with % TODO comments where clinical content is needed.\")",
-      "Bash(claude agent spawn haiku-general)",
-      "Bash(claude agent chat sonnet-general)",
-      "Bash(claude agent:*)",
-      "Bash(claude-agent sonnet-general \"Apply ALL 36 missing acronym expansion corrections with rigorous verification.\n\nRead the correction plan:\n- /home/nicky/code/health-me-cfs/.claude/acronym-review/corrections/CORRECTION-PLAN.json\n\n**Execute corrections in priority order:**\n\nFor EACH correction:\n1. **Read** the target file with context \\(±20 lines around the line number\\)\n2. **Verify** the old_pattern exists exactly as specified\n3. **Apply Edit** using the exact old_pattern → new_pattern\n4. **Verify** the edit succeeded using the verification_grep command\n5. **Log** the result \\(success/failure, line number, file\\)\n\n**Requirements:**\n- Process ALL 36 corrections \\(not a subset\\)\n- Verify EACH edit with grep before moving to next\n- If ANY edit fails, log the failure and continue with remaining corrections\n- Track success/failure statistics\n\n**Output** a detailed log to /home/nicky/code/health-me-cfs/.claude/acronym-review/corrections/APPLICATION-LOG.md with:\n\n\\\\`\\\\`\\\\`markdown\n# Correction Application Log\n**Date**: 2026-01-31\n**Total Corrections**: 36\n\n## Statistics\n- **Successful**: N/36\n- **Failed**: N/36\n- **Skipped**: N/36 \\(if any\\)\n\n## Detailed Results\n\n### File: filename.tex \\(N corrections\\)\n\n#### Correction 1: LDN at line NNN\n- **Status**: ✅ Success / ❌ Failed\n- **Strategy**: add_parenthetical / replace_with_expansion\n- **Verification**: grep result\n- **Notes**: any issues\n\n...\n\n## Summary\n- Files modified: N\n- Total lines changed: N\n- All verifications passed: Yes/No\n\\\\`\\\\`\\\\`\n\nExecute with strong rigor - verify every single correction.\")",
-      "Bash(claude-agent chapter-integrator \"Integrate the novel scientific insights from the pediatric chapter analysis into the main document.\n\n**Source document:**\n\\\\`Literature/pediatric-insights/scientific-insights-pediatric-chapters.md\\\\`\n\nThis document contains pre-formatted LaTeX code \\(sections 5.1 and 5.2\\) ready for integration into four chapters.\n\n**Your tasks:**\n\n1. **Read the insights document** to understand the hypotheses and their LaTeX formatting\n\n2. **Integrate into Chapter 5 \\(Prognosis\\):**\n   - Find appropriate location in \\\\`contents/part1-clinical/ch05-prognosis.tex\\\\`\n   - Add the \"\"Developmental Plasticity Window\"\" hypothesis environment\n   - Likely placement: After discussion of pediatric vs adult prognosis differences\n\n3. **Integrate into Chapter 10 \\(Cardiovascular\\):**\n   - Find appropriate location in \\\\`contents/part2-pathophysiology/ch10-cardiovascular.tex\\\\`\n   - Add the \"\"Functional vs. Structural OI Distinction\"\" speculation environment\n   - Likely placement: In OI section, after discussing mechanisms\n\n4. **Integrate into Chapter 13 \\(Integrative Models\\):**\n   - Find appropriate location in \\\\`contents/part2-pathophysiology/ch13-integrative-models.tex\\\\`\n   - Add the \"\"Recovery Capital Model\"\" speculation environment\n   - Likely placement: Near discussion of disease progression or multi-system interactions\n\n5. **Integrate into Chapter 14b \\(Treatment\\):**\n   - Find appropriate location in \\\\`contents/part3-treatment/ch14b-action-mild-moderate.tex\\\\`\n   - Add the keypoint \"\"The Lesson from Pediatric Recovery\"\"\n   - Likely placement: Early in chapter or in pacing/early intervention section\n\n6. **Verify cross-references** - The new content references the pediatric chapters \\(ch14c, ch14d\\) which now exist\n\n7. **Build validation** - Run \\\\`nix build\\\\` to ensure LaTeX compiles\n\nUse your judgment for optimal placement within each chapter''s existing structure. Maintain narrative flow and logical organization.\")",
       "WebFetch(domain:doi.org)",
-      "WebFetch(domain:zenodo.org)"
+      "WebFetch(domain:zenodo.org)",
+      "Bash(gh auth:*)",
+      "Bash(cat:*)",
+      "Read(//home/nicky/code/claude-router-system/docs/**)",
+      "Read(//home/nicky/code/claude-router-system/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
@@ -50,16 +48,7 @@
       "Read(./.env.*)"
     ],
     "additionalDirectories": [
-      "/home/nicky/code/health-me-cfs/figures",
-      "/home/nicky/code/health-me-cfs/Literature/pathophysiology/blood-volume",
-      "/home/nicky/code/health-me-cfs/.claude/agents",
-      "/tmp",
-      "/home/nicky/code/health-me-cfs/.claude",
-      "/home/nicky/.claude/agents",
-      "/home/nicky/.claude",
-      "/home/nicky/code/health-me-cfs",
-      "/home/nicky/code/health-me-cfs/contents/part1-clinical",
-      "/home/nicky/code/health-me-cfs/Literature/treatments"
+      "/home/nicky/code/claude-router-system/implementation"
     ]
   },
   "hooks": {
@@ -80,6 +69,18 @@
           {
             "type": "command",
             "command": "./.claude/hooks/context-cost-monitor.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "INPUT=$(cat); AGENT=$(echo \"$INPUT\" | jq -r '.agent_type // \"unknown\"'); CWD=$(echo \"$INPUT\" | jq -r '.cwd // \".\"'); PROJECT=$(basename \"$CWD\"); LOGS_DIR=\"$CWD/.claude/logs\"; mkdir -p \"$LOGS_DIR\"; echo \"$(date -Iseconds) | $PROJECT | $AGENT\" >> \"$LOGS_DIR/routing.log\"; echo \"[routing] $PROJECT → $AGENT\" >&2",
             "timeout": 5
           }
         ]
