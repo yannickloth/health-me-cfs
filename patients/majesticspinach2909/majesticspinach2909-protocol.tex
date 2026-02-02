@@ -13,11 +13,13 @@
 \usepackage{hyperref}
 \usepackage[table]{xcolor}
 \usepackage{tcolorbox}
+\tcbuselibrary{breakable}  % Allow boxes to break across pages
 \usepackage{enumitem}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{multirow}
 \usepackage{geometry}
+\usepackage{float}  % For [H] placement specifier
 \geometry{margin=2.5cm}
 \usepackage{tikz}
 \usetikzlibrary{positioning}
@@ -38,40 +40,40 @@
 \definecolor{targetbg}{RGB}{232,245,233}
 \definecolor{targetborder}{RGB}{76,175,80}
 
-% Custom environments
+% Custom environments (all breakable to allow page breaks)
 \newtcolorbox{warning}[1][]{
   colback=warningbg, colframe=warningborder,
-  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt, breakable
 }
 
 \newtcolorbox{achievement}[1][]{
   colback=achievementbg, colframe=achievementborder,
-  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt, breakable
 }
 
 \newtcolorbox{hypothesis}[1][]{
   colback=hypothesisbg, colframe=hypothesisborder,
-  title={\textbf{Hypothese: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+  title={\textbf{Hypothese: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt, breakable
 }
 
 \newtcolorbox{observation}[1][]{
   colback=observationbg, colframe=observationborder,
-  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt, breakable
 }
 
 \newtcolorbox{caution}[1][]{
   colback=cautionbg, colframe=cautionborder,
-  title={\textbf{Vorsicht: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+  title={\textbf{Vorsicht: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt, breakable
 }
 
 \newtcolorbox{currentbox}[1][]{
   colback=currentbg, colframe=currentborder,
-  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=2pt
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=2pt, breakable
 }
 
 \newtcolorbox{targetbox}[1][]{
   colback=targetbg, colframe=targetborder,
-  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=2pt
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=2pt, breakable
 }
 
 % Stub for citations (document has none, but kept for compatibility)
@@ -116,7 +118,16 @@ Diese Patientin (Ursula/majesticspinach2909) hat sich bereit erklärt, als Refer
     \item Orthostatische Intoleranz (OI) -- persistiert trotz HR-Kontrolle
     \item Histaminintoleranz (HIT) -- bestätigt
     \item Multiple Unverträglichkeiten und echte Allergien
-    \item MCAS fraglich (Mastzellaktivierungssyndrom)
+    \item MCAS fraglich (Mastzellaktivierungssyndrom) -- \textbf{MCAS-Abklärung empfohlen}
+    \item \textbf{Prädiabetes} (neu diagnostiziert 2025, wahrscheinlich LDA-assoziiert)
+    \item \textbf{Asthma} (mit Ketotifen behandelt)
+    \item \textbf{Schlafstörung} (Schlaflabor Jan 2026 durchgeführt, Ergebnis ausstehend)
+    \item Interstitielle Zystitis (IC) seit 2012
+    \item Small Fiber Neuropathie (SFN) -- klinisch bestätigt (AKH Wien verweigerte Biopsie)
+    \item Prolaps L5/S1 (2014) mit Osteochondrose und Spondylitis
+    \item Protrusion HWS und LWS
+    \item Streckfehlhaltung der HWS
+    \item Candida non-albicans im Stuhl
 \end{itemize}
 
 \begin{observation}[POTS-Verlauf]
@@ -129,20 +140,62 @@ Diese Patientin (Ursula/majesticspinach2909) hat sich bereit erklärt, als Refer
 \textit{Patientin nutzt Tracking-Watch und/oder Visible App zur Selbstüberwachung.}
 \end{observation}
 
+\subsection{Allergien und Intoleranzen}
+
+\textbf{Kontaktallergien:}
+\begin{itemize}[noitemsep]
+    \item Tolubalsam (mit Kreuzreaktionen) $\rightarrow$ \textit{Künstlerin: bestimmte Malmittel meiden!}
+    \item Kaliumdichromat
+    \item Duftstoff-Mix
+    \item Propolis
+    \item Sorbitansesquioleat
+\end{itemize}
+
+\textbf{Inhalationsallergien:}
+\begin{itemize}[noitemsep]
+    \item Birke, Beifuß, Lieschgras, Ragweed, Roggen
+    \item Hausstaubmilbe, Cladosporium herbarum, Holunder
+\end{itemize}
+
+\textbf{Nahrungsmittelallergien:}
+\begin{itemize}[noitemsep]
+    \item Weizen, Erdnuss, Soja, Gluten
+\end{itemize}
+
+\textbf{Intoleranzen:}
+\begin{itemize}[noitemsep]
+    \item \textbf{Histamin (ERBLICH)} -- vermindertes DAO-Enzym (vererbt in der Familie)
+    \item Laktose
+    \item Fruktose
+    \item Sorbit
+\end{itemize}
+
 \subsection{Patientengeschichte}
 
 \begin{itemize}[noitemsep]
     \item \textbf{Geschlecht:} Weiblich
+    \item \textbf{Alter:} 50 Jahre
     \item \textbf{Standort:} Österreich (Wien)
-    \item \textbf{Krankheitsdauer:} 12 Jahre
-    \item \textbf{Vermuteter Trigger:} EBV-Infektion (Patientin: ``vermutlich EBV'')
+    \item \textbf{Krankheitsdauer:} 12+ Jahre (Müdigkeit seit Pubertät)
+    \item \textbf{Soziale Situation:} Alleinerziehende Mutter (während Mild/Moderat-Phase)
+    \item \textbf{Vermuteter Trigger:} Schwere Infektion (vermutlich EBV) während extremer Stressperiode -- Doppel-Hit-Modell (Infektion + Stress = ME/CFS-Trigger)
+    \item \textbf{Impfkomplikationen 2021:} Beide COVID-Impfungen (Biontech/Pfizer) führten zu beidseitiger Fazialisparese. Nach der zweiten Impfung: induzierte Menopause, Sehverlust (-3 Dioptrien), tauber linker Oberschenkel mit extremen Nervenschmerzen
     \item \textbf{Diagnoseweg:} Frühere Fehldiagnosen (u.a. Fibromyalgie), ME/CFS-Diagnose erst 2022
     \item \textbf{Schweregrad-Verlauf:}
     \begin{itemize}[noitemsep]
-        \item 12 Jahre: Moderat
-        \item Herbst 2024: COVID-Infektion $\rightarrow$ Myokarditis
-        \item Seit COVID 2024: Severe (größtenteils bettlägerig)
+        \item Seit Pubertät: Chronische Müdigkeit (als Eisenmangel fehldiagnostiziert)
+        \item 12 Jahre: Mild/Moderat (trotz Kinderbetreuung als Alleinerziehende)
+        \item Herbst 2024: COVID-Infektion $\rightarrow$ Myokarditis $\rightarrow$ Severe/Moderat
+        \item Anfang 2025: Influenza $\rightarrow$ weitere Verschlechterung
+        \item Aktuell: Rollstuhlpflichtig, arbeitsunfähig seit Jahren
     \end{itemize}
+    \item \textbf{PEM-Entwicklung:}
+    \begin{itemize}[noitemsep]
+        \item Früher: 2--3 Tage Erholung, maximal 3--4 Wochen nach großer Anstrengung
+        \item Jetzt: Minimum 2--3 Wochen, oft länger
+        \item Kann nur noch wenig machen mit vielen Pausen
+    \end{itemize}
+    \item \textbf{Kognitive Verschlechterung:} Seit 1.5.2025 massive Konzentrationsstörungen (``teilweise wie Demenz'')
     \item \textbf{Frühere Erholung:} Durch Medikamente (Aminosäuren + Cimetidin) konnte Patientin Bett verlassen und kurze Spaziergänge machen -- \textit{zeigt, dass Erholung möglich ist}
     \item \textbf{Off-Label-Zugang:} Erst kürzlich Zugang zu Off-Label-Medikamenten erhalten
     \item \textbf{Behandlungsplanung:} Arbeitet mit KI-Unterstützung (Perplexity) an Optimierung
@@ -153,6 +206,113 @@ Patientin berichtet, in der Vergangenheit \textbf{zweimal an einem kritischen Pu
 
 \textbf{Bei prolongiertem Crash:} Psychologische Unterstützung aktiv anbieten. Isolation vermeiden. Hoffnung vermitteln -- frühere Erholung durch Medikamente zeigt, dass Besserung möglich ist.
 \end{warning}
+
+\subsection{Laborbefunde}
+\label{sec:lab-findings}
+
+\subsubsection{Januar 2025 (Post-COVID)}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Parameter} & \textbf{Wert} & \textbf{Referenz} & \textbf{Interpretation} \\
+\midrule
+\multicolumn{4}{l}{\textit{Lymphozyten-Subpopulationen:}} \\
+Lymphozyten & 19\% & 25--40\% & \textcolor{red}{niedrig} \\
+B-Zellen (CD19+) abs. & \textbf{0,05 G/l} & 0,10--0,50 & \textcolor{red}{\textbf{KRITISCH: 10\% d.\ Untergrenze}} \\
+B-Zellen (CD19+) rel. & 3,66\% & 6--19\% & \textcolor{red}{stark erniedrigt} \\
+T-Zellen (CD3+) & 85\% & 55--83\% & \textcolor{blue}{erhöht (kompensatorisch)} \\
+\midrule
+\multicolumn{4}{l}{\textit{Virusserologie:}} \\
+EBV IgG (quant.) & \textbf{596 E/ml} & <20 & \textcolor{red}{\textbf{30$\times$ Obergrenze}} \\
+EBV EBNA IgG & 213 E/ml & <20 & \textcolor{red}{10$\times$ Obergrenze} \\
+\midrule
+\multicolumn{4}{l}{\textit{Entzündung/Gerinnung:}} \\
+Fibrinogen & 3,85 g/l & 1,88--3,54 & \textcolor{orange}{erhöht} \\
+\midrule
+\multicolumn{4}{l}{\textit{Lipide:}} \\
+Cholesterin & 286 mg/dl & <200 & \textcolor{orange}{erhöht} \\
+HDL & 48 mg/dl & >50 & \textcolor{orange}{niedrig} \\
+Triglyceride & 278 mg/dl & <150 & \textcolor{orange}{fast 2$\times$} \\
+\midrule
+\multicolumn{4}{l}{\textit{Sonstige:}} \\
+Gamma-GT & 54 U/l & <40 & \textcolor{orange}{erhöht} \\
+IgE total & 188 kU/l & <100 & \textcolor{orange}{MCAS-typisch} \\
+Gamma-Globulin & 11,0\% & 11,1--18,8\% & Grenzwertig niedrig \\
+\bottomrule
+\end{tabular}
+\caption{Laborbefunde Januar 2025}
+\end{table}
+
+\subsubsection{Mai 2025 (05.05.2025)}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Parameter} & \textbf{Wert} & \textbf{Referenz} & \textbf{Interpretation} \\
+\midrule
+Eosinophiles kationisches Protein & 30,20 µg/l & <15 & \textcolor{orange}{2$\times$ Obergrenze} \\
+\bottomrule
+\end{tabular}
+\caption{Laborbefunde 05.05.2025 -- Eosinophile Aktivierung post-COVID}
+\end{table}
+
+\subsubsection{November 2025 (24.11.2025)}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lllll}
+\toprule
+\textbf{Parameter} & \textbf{Wert} & \textbf{Referenz} & \textbf{Trend (vs.\ Jan)} & \textbf{Interpretation} \\
+\midrule
+\multicolumn{5}{l}{\textit{Lymphozyten-Subpopulationen:}} \\
+Lymphozyten & 21\% & 25--40\% & $\uparrow$ (19\%) & \textcolor{orange}{leicht besser} \\
+T-Zellen (CD3+) & 84\% & 55--83\% & $\approx$ (85\%) & \textcolor{blue}{stabil erhöht} \\
+NK-Zellen (CD56+CD3-) & \textbf{6,89\%} & 7--31\% & \textit{neu} & \textcolor{red}{\textbf{Virusüberwachung $\downarrow$}} \\
+\midrule
+\multicolumn{5}{l}{\textit{Virusserologie:}} \\
+EBV IgG (quant.) & 514 E/ml & <20 & $\downarrow$ 14\% & \textcolor{red}{noch 25$\times$ Obergrenze} \\
+EBV EBNA IgG & 156 E/ml & <20 & $\downarrow$ 27\% & \textcolor{red}{noch 8$\times$ Obergrenze} \\
+\midrule
+\multicolumn{5}{l}{\textit{Eisenstatus:}} \\
+Eisen & 181 µg/dl & 37--145 & -- & \textcolor{orange}{125\% Obergrenze} \\
+Ferritin & ``stark erhöht'' & -- & -- & \textcolor{orange}{Entzündung?} \\
+\midrule
+\multicolumn{5}{l}{\textit{Lipide:}} \\
+Cholesterin & 258 mg/dl & <200 & $\downarrow$ (286) & \textcolor{orange}{verbessert} \\
+Triglyceride & 247 mg/dl & <150 & $\downarrow$ (278) & \textcolor{orange}{verbessert} \\
+\bottomrule
+\end{tabular}
+\caption{Laborbefunde 24.11.2025 -- Verlaufskontrolle}
+\end{table}
+
+\begin{hypothesis}[Erschöpfte Immunüberwachung (``Exhausted Immune Surveillance'')]
+\label{hyp:exhausted-surveillance-patient}
+Die Laborkonstellation zeigt ein charakteristisches Muster:
+\begin{enumerate}[noitemsep]
+    \item \textbf{Extrem hohe EBV-Titer} (30$\times$ Obergrenze) trotz Antikörperproduktion
+    \item \textbf{Massive B-Zell-Depletion} (0,05 G/l = 10\% der Untergrenze)
+    \item \textbf{Niedrige NK-Zellen} (6,89\% -- gerade unter Referenz)
+    \item \textbf{Kompensatorisch erhöhte T-Zellen} (84--85\%)
+\end{enumerate}
+
+\textbf{Interpretation:} Die B-Zellen sind durch chronische virale Stimulation erschöpft (permanente Differenzierung zu Plasmazellen $\rightarrow$ Antikörper). Aber: Antikörper allein können intrazellulär persistierende Viren nicht eliminieren -- dafür braucht es NK-Zellen und T-Zellen. Die NK-Zellen sind aber auch niedrig $\rightarrow$ Teufelskreis.
+
+\textbf{Warum Cimetidin wirkt:} Cimetidin blockiert H2-Rezeptoren auf Suppressor-T-Zellen und verstärkt dadurch die zelluläre Immunität (T-Zellen, NK-Zellen). Das adressiert genau das Defizit.
+
+\textbf{Weiterführende Diagnostik (ausstehend):}
+\begin{itemize}[noitemsep]
+    \item EBV-PCR (aktive Replikation?)
+    \item EBV-EA-IgG (frühe Antikörper = Reaktivierung?)
+    \item HHV-6-Serologie
+    \item Transferrinsättigung, TIBC (Eisenstatus klären)
+\end{itemize}
+\end{hypothesis}
 
 \subsection{Aktueller Krankheitsstatus}
 
@@ -184,39 +344,49 @@ Patientin berichtet, in der Vergangenheit \textbf{zweimal an einem kritischen Pu
 \textbf{Stand Januar 2026:} Patientin befindet sich in Crash-Phase. Dieses Kapitel hat Priorität vor allen anderen Protokollteilen. Teil A--F gelten erst NACH Crash-Erholung.
 \end{caution}
 
-\begin{tcolorbox}[colback=red!10, colframe=red!70!black, title={\textbf{CRASH-MANAGEMENT}}, fonttitle=\bfseries\large, sharp corners, boxrule=2pt]
+\begin{tcolorbox}[colback=red!10, colframe=red!70!black, title={\textbf{CRASH-MANAGEMENT}}, fonttitle=\bfseries\large, sharp corners, boxrule=2pt, breakable]
 
-\textbf{Ziel:} Aus dem Crash herauskommen. Keine neuen Interventionen während der Crash-Phase.
+\textbf{Ziel:} Aus dem Crash herauskommen. \textbf{Ausnahme:} Cimetidin wiederaufnehmen (dokumentierte Wirksamkeit).
 
-\subsection*{Priorität 1: Strikte Ruhe}
+\subsection*{Priorität 1: Cimetidin SOFORT wiederaufnehmen}
+\textbf{Dokumentierte Wirksamkeit:} ``Die Aminosäuren und das Cimetidin haben mich aus dem Bett gebracht.''
+
+\begin{itemize}[noitemsep]
+    \item \textbf{Dosis:} 200~mg morgens + 200~mg abends (bewährtes Schema)
+    \item \textbf{Begründung:} Adressiert das Kerndefizit (erschöpfte Immunüberwachung)
+    \item \textbf{Mechanismus:} H2-Blockade auf Suppressor-T-Zellen $\rightarrow$ verbesserte zelluläre Immunität gegen EBV
+    \item \textbf{Wechselwirkungen:} Eisen 2~Stunden getrennt einnehmen; CYP450-Interaktionen beachten
+\end{itemize}
+
+\subsection*{Priorität 2: Strikte Ruhe}
 \begin{itemize}[noitemsep]
     \item Körperliche Schonung: Nur essentielle Aktivitäten (Toilette, Essen)
     \item Kognitive Schonung: Kein Bildschirm länger als 10 Minuten am Stück
     \item Soziale Schonung: Gespräche minimieren, keine anstrengenden Interaktionen
 \end{itemize}
 
-\subsection*{Priorität 2: Hydratation und Elektrolyte}
+\subsection*{Priorität 3: Hydratation und Elektrolyte}
 \begin{itemize}[noitemsep]
     \item ORS-Lösung \textbf{3$\times$/Tag} (erhöht von 2$\times$/Tag)
     \item Liegend trinken (POTS-Management)
     \item Rezept: 7~g Trockenmischung (100g Zucker + 15g KCl + 15g NaCl) in 250~mL Wasser
 \end{itemize}
 
-\subsection*{Priorität 3: Crash-spezifische Supplementanpassungen}
+\subsection*{Priorität 4: Crash-spezifische Supplementanpassungen}
 \begin{itemize}[noitemsep]
     \item D-Ribose: \textbf{+5~g extra} (3$\times$ täglich statt 2$\times$) -- ATP-Regeneration
     \item Magnesium: \textbf{+200~mg extra} abends -- Muskelentspannung, Schlaf
     \item Alle anderen Supplemente: Beibehalten, nicht steigern
 \end{itemize}
 
-\subsection*{Priorität 4: Schlaf und Schmerz}
+\subsection*{Priorität 5: Schlaf und Schmerz}
 \begin{itemize}[noitemsep]
     \item Ketotifen beibehalten (1~mg abends)
     \item Bei Schlafproblemen: Quviviq (Daridorexant) 25~mg als Reserve
     \item Bei Schmerzen: Teufelskralle, PEA beibehalten
 \end{itemize}
 
-\subsection*{Priorität 5: Frauenspezifische Faktoren}
+\subsection*{Priorität 6: Frauenspezifische Faktoren}
 \begin{itemize}[noitemsep]
     \item \textbf{Zyklustracking:} Crashes oft schlimmer perimenstuell (3 Tage vor bis 2 Tage nach Menstruation)
     \item \textbf{Eisen:} Bei Menstruation erhöhter Eisenverlust -- ggf. Ferritin kontrollieren (Ziel: >50~ng/mL)
@@ -231,6 +401,39 @@ Patientin berichtet, in der Vergangenheit \textbf{zweimal an einem kritischen Pu
 \textit{Erst nach Stabilisierung (mindestens 1 Woche ohne Verschlechterung) darf die Einführungssequenz fortgesetzt werden.}
 
 \end{tcolorbox}
+
+\subsection{Virale Diagnostik (JETZT möglich)}
+\label{sec:viral-diagnostics-crash}
+
+\begin{achievement}[Diese Tests können während des Crashes durchgeführt werden]
+\textbf{Nur Blutabnahme erforderlich -- keine Belastung für die Patientin.}
+
+\textbf{Empfohlene Tests (Priorität nach Relevanz):}
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+\textbf{Test} & \textbf{Fragestellung} & \textbf{Erwarteter Befund} \\
+\midrule
+EBV VCA-IgM & Aktive Infektion? & Möglicherweise positiv \\
+EBV EA-IgG (frühe Antikörper) & Kürzliche Reaktivierung? & Wahrscheinlich positiv \\
+EBV-PCR (Vollblut) & Viruslast quantifizieren & Vermutlich erhöht \\
+HHV-6 IgG + PCR & Ko-Infektion? & Möglich \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Bei bestätigter EBV-Reaktivierung:}
+\begin{itemize}[noitemsep]
+    \item \textbf{Valacyclovir 1000~mg 2$\times$/Tag} starten (synergistisch mit Cimetidin)
+    \item Therapiedauer: Minimum 3--6 Monate
+    \item Monitoring: EBV-Titer monatlich, Nierenfunktion alle 3 Monate
+    \item Ziel: EBV-IgG < 200~E/ml (aktuell 514~E/ml)
+\end{itemize}
+
+\textbf{Rationale:} Die Hypothese ist, dass Cimetidin die Immunantwort gegen das Virus verstärkt, es aber nicht eliminiert. Antivirale Therapie + Cimetidin = potenzielle Synergie.
+\end{achievement}
 
 \subsection{Prolongierte Crash-Phase (>4 Wochen)}
 \label{sec:prolonged-crash}
@@ -307,7 +510,7 @@ Die folgenden Angaben basieren auf den Patientenberichten. Unbekannte Dosierunge
 
 \subsection{Medikamente (Rezeptpflichtig)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{llll}
@@ -333,7 +536,7 @@ Quviviq (Daridorexant) & 25~mg & -- & Schlaf (nicht bei Ketotifen nötig) \\
 
 \subsection{Supplemente}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{llll}
@@ -363,7 +566,7 @@ D-Ribose & ? & 3$\times$/Tag & ATP-Vorläufer \\
 
 \subsection{Ernährung}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{lll}
@@ -383,7 +586,7 @@ Koffeinfreier Kaffee & 3$\times$/Tag & Träger für D-Ribose \\
 
 \subsection{Neuromodulation}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{lll}
@@ -398,7 +601,7 @@ Vagusnerv-Ohrstimulation (tVNS) & ? & In Anwendung (Parameter unbekannt) \\
 
 \subsection{Geplant (noch nicht begonnen)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{llll}
@@ -560,7 +763,7 @@ B-Komplex (methyliert) & 1~Kapsel & morgens & Methylfolat + Methylcobalamin \\
 
 \subsection{Neuromodulation -- Zielprotokoll}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{p{3cm}p{3cm}p{7cm}}
@@ -602,7 +805,7 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 
 \subsection{LDN-Titration (8--12 Wochen)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{clll}
 \toprule
@@ -631,7 +834,7 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 
 \subsection{PEA-Steigerung (4--6 Wochen)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{clll}
 \toprule
@@ -654,7 +857,7 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 
 \subsection{NAC-Einführung (3 Wochen)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{clll}
 \toprule
@@ -677,7 +880,7 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 
 \subsection{Mestinon-Einführung (4 Wochen)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{clll}
 \toprule
@@ -702,7 +905,7 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 
 \subsection{Pregnenolon-Einführung (6 Wochen)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{clll}
 \toprule
@@ -729,6 +932,42 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 \label{sec:safety}
 % =============================================================================
 
+\begin{caution}[KRITISCH: Paradoxe Reaktionen -- Patientenspezifisch]
+\textbf{Diese Patientin ist ein ``paradoxer Reaktor'' -- sie reagiert auf Medikamente oft entgegengesetzt oder übermäßig stark.}
+
+\textbf{Dokumentierte schwere Reaktionen:}
+\begin{itemize}[noitemsep]
+    \item \textbf{LDN (Naltrexon):} Depression und Suizidgedanken (selten, aber schwer)
+    \item \textbf{Famotidin:} Depression und Suizidgedanken (trotz weniger ZNS-Penetration als Cimetidin)
+    \item \textbf{Niedrigdosis-Prednisolon:} Hypermanie und psychotische Zustände
+    \item \textbf{Mestinon 60~mg:} Extreme Schwäche, bettlägerig (``lag scheppernd im Bett'')
+\end{itemize}
+
+\textbf{WICHTIG: Cimetidin wird vertragen!} Obwohl Famotidin nicht vertragen wird (gleiche Medikamentenklasse), ist Cimetidin gut verträglich und wirksam. \textit{Medikamentenklasse sagt nichts über individuelle Verträglichkeit aus.}
+
+\textbf{Konsequenzen für alle neuen Medikamente:}
+\begin{enumerate}[noitemsep]
+    \item \textbf{Start mit Mikrodosis:} 1/4 bis 1/10 der Standarddosis
+    \item \textbf{Langsame Titration:} Minimum 1--2 Wochen zwischen Dosissteigerungen
+    \item \textbf{Engmaschiges Stimmungsmonitoring:} Täglich in den ersten 2 Wochen
+    \item \textbf{Abbruchplan bereithalten:} Sofortiger Abbruch bei Stimmungsänderungen
+    \item \textbf{Bezugspersonen informieren:} Familie/Betreuer auf Verhaltensänderungen achten
+\end{enumerate}
+\end{caution}
+
+\begin{warning}[LDN-Titration: Psychiatrisches Monitoring erforderlich]
+\textbf{Diese Patientin hatte schwere psychiatrische Reaktionen auf LDN.}
+
+Bei Wiederaufnahme der LDN-Titration:
+\begin{itemize}[noitemsep]
+    \item Start bei \textbf{0,25~mg} (nicht 0,5~mg wie im Standardprotokoll)
+    \item Tägliche Stimmungsabfrage: PHQ-2 Kurzscreening
+    \item Familie/Bezugsperson einbeziehen zur Fremdbeobachtung
+    \item \textbf{Sofortiger Abbruch} bei depressiven Symptomen oder Suizidgedanken
+    \item Alternative bei Unverträglichkeit: PEA (1200~mg/Tag) für Neuroinflammation
+\end{itemize}
+\end{warning}
+
 \begin{caution}[Wichtige Medikamenteninteraktionen]
 \begin{itemize}[noitemsep]
     \item \textbf{Cimetidin + andere Medikamente:} CYP450-Hemmung erhöht Spiegel vieler Medikamente
@@ -741,7 +980,7 @@ Zeitpunkt & Morgens oder Abends & Konstant halten \\
 
 \subsection{Kontraindikationen}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{ll}
@@ -777,7 +1016,7 @@ L-Arginin (hochdosiert) & Akuter Herpes-Ausbruch \\
 
 \subsection{Laborkontrollen (Optional)}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{lll}
@@ -823,7 +1062,7 @@ HRV-Messung & Vor tVNS & Prädiktor für Ansprechen \\
 \begin{enumerate}[noitemsep,start=2]
     \item \textbf{NAC hinzufügen:} 1800~mg/Tag (3$\times$600~mg)
     \item \textbf{LDN titrieren:} 0,5~mg $\rightarrow$ 3,0~mg über 12 Wochen
-    \item \textbf{Mestinon einführen:} Start 20~mg, Ziel 60--90~mg/Tag
+    \item \textbf{Mestinon einführen:} Start 20~mg, \textbf{Max 20--30~mg/Dosis} (60~mg Einzeldosis nicht vertragen!)
     \item \textbf{Quercetin hinzufügen:} 500--1000~mg/Tag
     \item \textbf{ALCAR hinzufügen:} 1000~mg morgens
 \end{enumerate}
@@ -845,7 +1084,7 @@ HRV-Messung & Vor tVNS & Prädiktor für Ansprechen \\
 
 \subsection{Komplettes Zielprotokoll -- Tägliche Einnahme}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{p{4cm}p{2cm}p{2.5cm}p{4.5cm}}
@@ -926,7 +1165,7 @@ L-Lysin & 1000~mg & 2$\times$/Tag & Antiviral \\
 
 \subsection{Einführungssequenz}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{clll}
@@ -1126,7 +1365,7 @@ Wenn exogene Aminosäuren so stark wirken, könnte eine \textbf{intestinale Reso
 \subsection{Empfohlene Diagnostik (Priorisiert)}
 % -----------------------------------------------------------------------------
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{clll}
@@ -1163,7 +1402,7 @@ Alle Interventionen im Zielprotokoll (Teil B) wurden gegen die ME/CFS-Hauptdokum
 \subsection{Quellenreferenz für Zielprotokoll}
 % -----------------------------------------------------------------------------
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{p{4cm}p{4cm}p{5cm}}
@@ -1280,7 +1519,7 @@ Dieser Patient exemplifiziert einen potentiellen Subtyp mit folgenden Charakteri
 \subsection{ms.tex-Kapitelreferenz}
 % -----------------------------------------------------------------------------
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{lp{8cm}}
@@ -1839,7 +2078,7 @@ Wenn die Cimetidin-Response real ist (und das ist sie), deutet sie auf einen vir
 
 \subsection{Priorisierte Diagnostik -- SOFORT}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{clll}
 \toprule
