@@ -846,4 +846,721 @@ If no benefit observed:
     \item Would redirect research toward other objective pacing tools
 \end{itemize}
 
+% ============================================================================
+% SECTION: Longitudinal Microglial Imaging Study
+% ============================================================================
+\section{Longitudinal Microglial Imaging Study}
+\label{sec:microglial-imaging-study}
+
+\subsection{Background and Rationale}
+
+Progressive post-exertional malaise (PEM) worsening suggests cumulative biological damage, particularly in the central nervous system. Microglial activation, a hallmark of neuroinflammation, may represent a measurable correlate of PEM progression. TSPO (translocator protein) positron emission tomography (PET) imaging provides a non-invasive method to quantify microglial activation in vivo. This study would establish TSPO-PET as a biomarker for neuroinflammation severity and its relationship to PEM trajectories.
+
+\begin{hypothesis}[Microglial Activation and PEM Progression]
+\label{hyp:microglial-activation-pem}
+Increasing TSPO-PET signal intensity correlates with PEM recovery time and functional decline. Patients with progressive PEM show significantly higher TSPO-PET signal than stable PEM patients. Low-dose naltrexone (LDN) treatment reduces TSPO-PET signal and slows PEM worsening~\cite{Crosby2021LDA}.
+\end{hypothesis}
+
+\subsection{Study Design}
+
+\subsubsection{Design Overview}
+Prospective longitudinal observational study with serial TSPO-PET imaging and detailed PEM documentation.
+
+\subsubsection{Participants}
+\begin{itemize}
+    \item n=50 ME/CFS patients (ages 18--60)
+    \item Documented PEM with variable severity trajectories (stable, slowly progressive, rapidly progressive)
+    \item Mild to moderate severity (able to tolerate imaging procedures)
+    \item Disease duration $\geq$6 months
+    \item No contraindications to PET imaging
+\end{itemize}
+
+\subsubsection{Stratification}
+Stratified by PEM trajectory at baseline:
+\begin{itemize}
+    \item Stable PEM (n=15): Crash frequency and severity unchanged over past 6 months
+    \item Progressive PEM (n=20): Increasing crash frequency or severity over past 6 months
+    \item Rapidly Progressive PEM (n=15): Significant functional decline over past 3 months
+\end{itemize}
+
+\subsection{Assessment Schedule}
+
+\begin{itemize}
+    \item \textbf{Baseline}: TSPO-PET imaging, detailed clinical assessment, 6-month pre-baseline PEM diary retrospective review
+    \item \textbf{6 months}: TSPO-PET imaging, PEM diary review, functional assessment
+    \item \textbf{12 months}: TSPO-PET imaging, comprehensive clinical and biomarker assessment
+    \item \textbf{Continuous}: Electronic PEM crash diary with severity ratings (1--10 scale), recovery duration documentation
+\end{itemize}
+
+\subsection{Measures}
+
+\subsubsection{TSPO-PET Imaging}
+\begin{itemize}
+    \item $^{11}$C-PBR28 or $^{18}$F-DPA-714 radioligand (TSPO-specific tracers)
+    \item Standardized uptake value (SUV) analysis in predefined regions of interest (basal ganglia, thalamus, brainstem, prefrontal cortex)
+    \item Distribution volume ratio (DVR) to derive binding potential
+    \item Whole-brain voxel-wise analyses to identify activation hotspots
+\end{itemize}
+
+\subsubsection{PEM Documentation}
+\begin{itemize}
+    \item Crash trigger (physical, cognitive, emotional, mixed)
+    \item Pre-crash activity level (hours of exertion)
+    \item Crash severity (1--10 scale, anchored descriptions)
+    \item Recovery duration (days to baseline)
+    \item Associated symptoms (cognitive dysfunction, pain, autonomic symptoms)
+\end{itemize}
+
+\subsubsection{Clinical and Functional Measures}
+\begin{itemize}
+    \item Bell Disability Scale
+    \item DSQ-PEM
+    \item Cognitive assessment (Montreal Cognitive Assessment)
+    \item Autonomic testing (NASA Lean Test, HRV)
+    \item Inflammatory markers (high-sensitivity CRP, cytokine panel)
+\end{itemize}
+
+\subsection{Outcomes}
+
+\subsubsection{Primary Outcomes}
+\begin{enumerate}
+    \item Correlation between TSPO-PET signal intensity at baseline and PEM recovery time at 12 months
+    \item Differences in baseline TSPO-PET signal between progressive and stable PEM groups
+    \item Change in TSPO-PET signal from baseline to 12 months as a function of PEM trajectory
+\end{enumerate}
+
+\subsubsection{Secondary Outcomes}
+\begin{itemize}
+    \item Correlation between TSPO-PET signal and functional decline (Bell scale change)
+    \item Regional specificity: Which brain regions show signal changes most relevant to PEM?
+    \item Effect of LDN treatment (in patients who elect to initiate) on TSPO-PET signal reduction
+    \item Correlation of TSPO-PET with systemic inflammatory markers
+\end{itemize}
+
+\subsection{Analysis Plan}
+
+\begin{itemize}
+    \item Spearman or Pearson correlations between TSPO-PET SUV and PEM recovery time
+    \item ANOVA comparing TSPO-PET signal across PEM trajectory groups
+    \item Mixed-effects models with random intercepts for subjects to assess PET signal trajectory
+    \item ROI-specific and voxel-wise analyses with multiple comparison correction
+    \item Adjustment for age, sex, disease duration, and baseline severity
+\end{itemize}
+
+\subsection{Sample Size and Power}
+
+With n=50 participants and 3 imaging timepoints per subject:
+\begin{itemize}
+    \item 80\% power to detect Spearman $\rho$=0.35 between TSPO-PET and PEM recovery time at $\alpha$=0.05
+    \item Sufficient for subgroup analyses by PEM trajectory
+    \item Adequate for exploratory regional analyses
+\end{itemize}
+
+\subsection{Expected Outcomes and Implications}
+
+If correlations are significant:
+\begin{enumerate}
+    \item Establishes TSPO-PET as biomarker for neuroinflammation severity in ME/CFS
+    \item Validates use of TSPO-PET as clinical trial outcome measure
+    \item Informs mechanism of LDN efficacy (microglial suppression)
+    \item Identifies patients at high risk for PEM progression
+\end{enumerate}
+
+If results are null:
+\begin{enumerate}
+    \item Suggests microglial activation is not primary driver of PEM progression
+    \item Redirects focus toward other neuroinflammatory mechanisms
+    \item May indicate TSPO is insufficient marker (astrocytic activation, other glia)
+\end{enumerate}
+
+% ============================================================================
+% SECTION: Treatment Sequence RCT (Brain First)
+% ============================================================================
+\section{Treatment Sequence RCT: ``Brain First'' Versus Peripheral-First Approaches}
+\label{sec:treatment-sequence-rct}
+
+\subsection{Background and Rationale}
+
+ME/CFS pathophysiology involves multiple interconnected systems: central neuroinflammation, peripheral immune dysregulation, metabolic dysfunction, and mast cell activation. Standard care typically addresses these sequentially as symptoms warrant. However, the hierarchical interactions between these systems suggest that addressing the primary driver first (likely central neuroinflammation) might produce superior outcomes compared to peripheral-first approaches.
+
+The ``Brain First'' hypothesis posits that LDN-induced suppression of central microglial activation creates a permissive environment for recovery of peripheral immune function and metabolic adaptation, whereas beginning with peripheral interventions (mast cell stabilization or metabolic support) may not address the root neuroinflammatory driver.
+
+\begin{hypothesis}[Treatment Sequencing and Hierarchical Recovery]
+\label{hyp:brain-first-sequencing}
+Patients randomized to a ``Brain First'' sequence (LDA/LDN→Mestinon→peripheral support) show superior 6-month outcomes and faster cognitive improvement compared to ``Mast Cell First'' (mast cell stabilization first) or ``Metabolic First'' (metabolic supplementation first) sequences, due to removal of the neuroinflammatory barrier to recovery~\cite{Crosby2021LDA}.
+\end{hypothesis}
+
+\subsection{Study Design}
+
+\subsubsection{Design Overview}
+Three-arm parallel-group open-label RCT with blinded outcome assessment. Medications are administered sequentially in protocol-specified order, with fixed timing of medication introduction.
+
+\subsubsection{Participants}
+\begin{itemize}
+    \item n=120 adults with ME/CFS (ages 18--55)
+    \item Mild to moderate severity (Bell scale 40--70)
+    \item Disease duration 1--10 years
+    \item No prior treatment with LDN, LDA, Mestinon, or extensive mast cell stabilization
+    \item Able to attend monthly in-person visits or have reliable telehealth access
+    \item Willing to be randomized to assigned sequence
+\end{itemize}
+
+\subsubsection{Exclusion Criteria}
+\begin{itemize}
+    \item Severe ME/CFS (Bell scale $<$40)
+    \item Contraindication to any study medications
+    \item Active infection requiring treatment
+    \item Psychiatric hospitalization within past year
+    \item Substance use disorder
+    \item Participation in other interventional trials
+\end{itemize}
+
+\subsubsection{Randomization}
+1:1:1 randomization to three treatment sequences, stratified by:
+\begin{itemize}
+    \item Baseline severity (Bell 40--55 vs.\ 56--70)
+    \item Sex
+\end{itemize}
+
+\subsection{Treatment Arms}
+
+\subsubsection{Arm A: Brain First (n=40)}
+\begin{enumerate}
+    \item \textbf{Months 0--3}: LDN titration (0.5 mg $\to$ 4.5 mg) + pacing optimization
+    \item \textbf{Months 3--6}: Add Mestinon (30 mg TID, titrate as tolerated) for autonomic support
+    \item \textbf{Months 6+}: Add peripheral support only if needed (mast cell stabilizers, metabolic support)
+\end{enumerate}
+
+\subsubsection{Arm B: Mast Cell First (n=40)}
+\begin{enumerate}
+    \item \textbf{Months 0--3}: Ketotifen 1 mg BID + H1 antihistamine (cetirizine 10 mg) + H2 antihistamine (famotidine 40 mg daily)
+    \item \textbf{Months 3--6}: Add standard supportive care (sleep optimization, pacing)
+    \item \textbf{Months 6+}: Add neuroinflammatory support (LDN) if inadequate response
+\end{enumerate}
+
+\subsubsection{Arm C: Metabolic First (n=40)}
+\begin{enumerate}
+    \item \textbf{Months 0--3}: CoQ10 (ubiquinol) 300 mg daily + D-ribose 5 g TID + amino acid support
+    \item \textbf{Months 3--6}: Extend metabolic protocol, add NAD$^+$ precursor (NMN 500 mg daily)
+    \item \textbf{Months 6+}: Add LDN or mast cell stabilization if inadequate response
+\end{enumerate}
+
+All arms receive standardized pacing education and sleep optimization protocol beginning at enrollment.
+
+\subsection{Outcomes}
+
+\subsubsection{Primary Outcome}
+DSQ-PEM total score change from baseline to 6 months (larger decrease = improvement).
+
+\subsubsection{Secondary Outcomes}
+\begin{itemize}
+    \item Cognitive function (Montreal Cognitive Assessment) change baseline to 6 months
+    \item Bell Disability Scale change baseline to 6 months
+    \item PEM crash frequency (monthly average over months 4--6)
+    \item Fatigue severity (MFI subscales)
+    \item Time to substantial improvement (DSQ-PEM decrease $\geq$10 points for $\geq$4 weeks)
+    \item Functional capacity improvement trajectory over 6 months
+\end{itemize}
+
+\subsubsection{Tertiary Outcomes}
+\begin{itemize}
+    \item Arm-specific adverse event rates
+    \item Medication discontinuation rates due to intolerance
+    \item Biomarker changes (inflammatory markers, HRV, autonomic measures)
+\end{itemize}
+
+\subsection{Analysis Plan}
+
+\begin{itemize}
+    \item Primary analysis: ANCOVA comparing 6-month DSQ-PEM change across arms, adjusted for baseline severity and sex
+    \item Post-hoc pairwise comparisons with Bonferroni correction (Brain First vs.\ Mast Cell First; Brain First vs.\ Metabolic First)
+    \item Secondary analyses: Per-protocol analysis for patients with $\geq$80\% medication adherence
+    \item Trajectory analysis: Quadratic mixed-effects models for symptom change over 6 months
+\end{itemize}
+
+\subsection{Sample Size Justification}
+
+With n=40 per arm (120 total):
+\begin{itemize}
+    \item 80\% power to detect Cohen's d=0.50 between Brain First and either alternative arm at $\alpha$=0.05 (two-sided, Bonferroni-corrected to 0.025)
+    \item Based on pilot data showing 10-point DSQ-PEM improvement in LDN responders vs.\ 3-point in controls (SD=10)
+    \item Accounts for 15\% dropout
+\end{itemize}
+
+\subsection{Expected Outcomes and Implications}
+
+If Brain First arm shows significantly superior outcomes:
+\begin{enumerate}
+    \item Establishes neuroinflammation as primary treatment target
+    \item Informs clinical practice guidelines for ME/CFS medication sequencing
+    \item Validates hierarchical model of ME/CFS pathophysiology
+    \item Suggests LDN should be first-line agent for most patients
+\end{enumerate}
+
+If all arms show similar outcomes:
+\begin{enumerate}
+    \item Suggests sequence is less important than comprehensive treatment
+    \item Supports individualized approach based on patient phenotype
+    \item Indicates need for biomarker-driven sequencing strategies
+\end{enumerate}
+
+% ============================================================================
+% SECTION: Infection-Decline Correlation Study
+% ============================================================================
+\section{Infection-Decline Correlation Study}
+\label{sec:infection-decline-study}
+
+\subsection{Background and Rationale}
+
+Clinical experience suggests that infections trigger PEM and may cause persistent functional decline in ME/CFS patients. However, the quantitative relationship between infection frequency and cumulative baseline functional decline has not been formally characterized. This prospective cohort study would establish whether infections produce irreversible baseline declines and whether early antiviral intervention can mitigate these effects.
+
+\begin{hypothesis}[Infection-Induced Irreversible Decline]
+\label{hyp:infection-induced-decline}
+Each documented infection in ME/CFS patients produces quantifiable, irreversible baseline functional decline. Early antiviral intervention ($<$24 hours from symptom onset) significantly reduces the magnitude of post-infectious decline compared to delayed treatment. Strict infection prevention protocols slow baseline functional decline compared to standard hygiene practices~\cite{NIH2024MECFSRoadmap}.
+\end{hypothesis}
+
+\subsection{Study Design}
+
+\subsubsection{Design Overview}
+Prospective observational cohort study with standardized infection documentation, treatment timing records, and quarterly functional assessments over 3 years.
+
+\subsubsection{Participants}
+\begin{itemize}
+    \item n=200 adults and adolescents with ME/CFS (ages 12--65)
+    \item Disease duration $\geq$6 months
+    \item Mild to moderate severity (able to participate in quarterly assessments)
+    \item History of $\geq$2 documented infections in prior 12 months (to enrich for infection-prone individuals)
+    \item Ability to document infections with temporal precision
+\end{itemize}
+
+\subsubsection{Exclusion Criteria}
+\begin{itemize}
+    \item Immunosuppressive therapy or active malignancy
+    \item Unable to provide infection documentation
+    \item Severe psychiatric comorbidity precluding informed consent
+\end{itemize}
+
+\subsection{Assessment Schedule}
+
+\begin{itemize}
+    \item \textbf{Baseline}: Full clinical assessment, baseline functional status (Bell scale, SF-36, DSQ-PEM)
+    \item \textbf{Quarterly (every 3 months)}: Functional reassessment, infection history review
+    \item \textbf{Continuous}: Infection documentation by patient (illness diary or symptom tracker app)
+\end{itemize}
+
+Duration: 3 years per participant.
+
+\subsection{Infection Documentation Protocol}
+
+Participants document each illness with:
+\begin{itemize}
+    \item Date of symptom onset
+    \item Presumed pathogen (viral vs.\ bacterial, if identifiable)
+    \item Symptoms (upper respiratory, gastrointestinal, systemic)
+    \item Severity (1--10 scale)
+    \item Time from symptom onset to antiviral treatment initiation (if applicable)
+    \item Antiviral agents used and duration
+    \item PEM response (crash triggered yes/no, severity if yes, recovery duration)
+    \item Estimated baseline functional impact 2 weeks post-infection recovery
+\end{itemize}
+
+\subsection{Measures}
+
+\subsubsection{Functional Status}
+\begin{itemize}
+    \item Bell Disability Scale (primary functional outcome)
+    \item SF-36 (secondary functional outcome)
+    \item DSQ-PEM (symptom burden)
+    \item Days per month with significant activity limitation
+    \item Employment/educational status
+\end{itemize}
+
+\subsubsection{Infection Data}
+\begin{itemize}
+    \item Cumulative infection count over study period
+    \item Infection type distribution
+    \item Treatment timing for each infection
+    \item Antiviral vs.\ untreated infections
+    \item Infection severity distribution
+\end{itemize}
+
+\subsubsection{Infection Prevention Practices}
+\begin{itemize}
+    \item Quarterly questionnaire on hygiene practices (handwashing frequency, sick contacts avoidance, masking in high-risk settings, etc.)
+    \item Categorization: Standard hygiene vs.\ intensive prevention practices
+\end{itemize}
+
+\subsection{Outcomes}
+
+\subsubsection{Primary Outcome}
+Cumulative functional decline (baseline to 3-year Bell scale change) as a function of cumulative infection burden over 3 years.
+
+\subsubsection{Secondary Outcomes}
+\begin{itemize}
+    \item Functional decline per infection (Bell scale change per documented illness)
+    \item Impact of treatment timing: Functional decline in $<$24h-treated infections vs.\ delayed treatment vs.\ untreated
+    \item Effect of infection prevention: 3-year Bell scale change in intensive prevention vs.\ standard practice groups
+    \item Infection frequency: Comparison of high-infection vs.\ low-infection subgroups in matched disease duration cohorts
+\end{itemize}
+
+\subsubsection{Exploratory Outcomes}
+\begin{itemize}
+    \item Dose-response relationship: Does infection count linearly predict functional decline?
+    \item Threshold effect: Is there a critical infection frequency beyond which decline accelerates?
+    \item Infection type specificity: Do certain pathogen types cause greater decline?
+\end{itemize}
+
+\subsection{Analysis Plan}
+
+\begin{itemize}
+    \item Linear regression: Bell scale decline (outcome) vs.\ cumulative infection count (predictor), adjusted for baseline severity, age, sex, disease duration
+    \item Stratified analysis: Compare decline slopes between early-treatment ($<$24h) vs.\ delayed/untreated groups
+    \item Prevention effect: ANCOVA comparing 3-year Bell scale change between intensive prevention and standard hygiene groups, adjusted for baseline infection frequency
+    \item Time-varying analyses: Does infection burden in years 0--1 predict steeper decline in years 1--3?
+    \item Logistic regression: Predictors of experiencing $\geq$1 major functional decline event
+\end{itemize}
+
+\subsection{Sample Size Justification}
+
+With n=200 and 12 assessment points over 3 years (2,400 observations):
+\begin{itemize}
+    \item 80\% power to detect linear association between infection count and Bell scale decline (regression $\beta$=1.5 points per infection, SD=10) at $\alpha$=0.05
+    \item Adequate power for subgroup comparisons (n $\geq$50 per treatment timing category)
+\end{itemize}
+
+\subsection{Expected Outcomes and Implications}
+
+If hypothesis is supported:
+\begin{enumerate}
+    \item Quantifies functional cost of infections in ME/CFS
+    \item Validates aggressive infection prevention as disease-modifying strategy
+    \item Establishes early antiviral treatment as standard of care intervention
+    \item Informs prognostic counseling about long-term functional trajectory
+    \item May support use of prophylactic antivirals in high-risk patients
+\end{enumerate}
+
+If infections do not predict decline:
+\begin{enumerate}
+    \item Suggests infection-triggered decline is less significant than currently believed
+    \item Redirects focus toward other mechanisms of disease progression
+    \item Questions cost-benefit of intensive infection prevention practices
+\end{enumerate}
+
+% ============================================================================
+% SECTION: Sleep-Glymphatic-Neuroinflammation Pathway Study
+% ============================================================================
+\section{Sleep-Glymphatic-Neuroinflammation Pathway Study}
+\label{sec:sleep-glymphatic-study}
+
+\subsection{Background and Rationale}
+
+The glymphatic system---the brain's waste clearance mechanism that is maximally active during sleep---may play a critical role in neuroinflammation control. Poor sleep in ME/CFS could impair glymphatic clearance of neuroinflammatory mediators, perpetuating microglial activation and progressive symptom deterioration. Conversely, treating underlying sleep disorders might interrupt this pathway and slow disease progression.
+
+This study tests whether interventions targeting sleep disorders in ME/CFS patients with documented sleep pathology produce measurable reductions in neuroinflammation and slowing of PEM progression.
+
+\begin{hypothesis}[Sleep as Glymphatic-Neuroinflammation Linchpin]
+\label{hyp:sleep-glymphatic-pem}
+Treating sleep disorders in ME/CFS patients reduces the rate of PEM threshold decline through improved glymphatic clearance and reduced neuroinflammatory burden. Patients with newly treated sleep apnea or sleep disorders will show slower neuroinflammatory marker increase and slower functional decline over 12 months compared to matched untreated controls~\cite{Nakatomi2014neuroinflammation}.
+\end{hypothesis}
+
+\subsection{Study Design}
+
+\subsubsection{Design Overview}
+Randomized, prospective study of ME/CFS patients with documented sleep disorders, comparing immediate treatment to delayed (6-month wait-list control) treatment.
+
+\subsubsection{Participants}
+\begin{itemize}
+    \item n=60 ME/CFS patients (ages 18--60) with documented sleep disorders
+    \item Sleep disorder documentation via home sleep apnea testing: OSA (AHI $\geq$5 events/hour) or other sleep pathology (insomnia with documented sleep fragmentation, periodic breathing, etc.)
+    \item Mild to moderate severity (Bell scale 40--75)
+    \item No prior treatment with CPAP, BiPAP, or formal sleep disorder management
+    \item Willing to be randomized to immediate vs.\ delayed treatment
+\end{itemize}
+
+\subsubsection{Randomization}
+1:1 randomization to:
+\begin{itemize}
+    \item Immediate treatment (n=30): Sleep disorder management initiated at baseline
+    \item Delayed treatment (n=30): Sleep management begins at 6-month mark (wait-list control)
+\end{itemize}
+
+Stratification by sleep disorder type (OSA vs.\ other).
+
+\subsection{Interventions}
+
+\subsubsection{Immediate Treatment Arm}
+
+\paragraph{OSA patients (CPAP/BiPAP):}
+\begin{itemize}
+    \item Polysomnography or split-night study to determine therapeutic pressure
+    \item CPAP or BiPAP initiation with titration protocol
+    \item Mask fitting and desensitization
+    \item Monthly adherence monitoring for first 3 months, then quarterly
+    \item Target: $\geq$4 hours per night use
+\end{itemize}
+
+\paragraph{Insomnia or fragmentation:}
+\begin{itemize}
+    \item Sleep restriction therapy with gradual sleep window expansion
+    \item Cognitive-behavioral therapy for insomnia (CBT-I) protocol
+    \item Pharmacological support: Trazodone or mirtazapine as needed
+    \item Weekly coaching sessions for first 4 weeks
+\end{itemize}
+
+\subsubsection{Delayed Treatment Arm}
+Standard sleep hygiene education only for first 6 months; treatment as above begins at month 6.
+
+\subsection{Measures}
+
+\subsubsection{Sleep Assessment (baseline, 6 months, 12 months)}
+\begin{itemize}
+    \item Home sleep apnea testing or portable sleep monitoring
+    \item Sleep diary (7-day baseline, 7-day at each timepoint)
+    \item Actigraphy (7-day continuous at each timepoint)
+    \item Pittsburgh Sleep Quality Index (PSQI)
+\end{itemize}
+
+\subsubsection{Neuroinflammation Markers (baseline, 6 months, 12 months)}
+\begin{itemize}
+    \item CSF sampling (optional lumbar puncture subset, n=20 per arm): TNF-$\alpha$, IL-6, IL-1$\beta$, MCP-1, neopterin
+    \item Serum inflammatory markers: High-sensitivity CRP, IL-6, TNF-$\alpha$, IL-1$\beta$
+    \item TSPO-PET imaging (subset, n=15 per arm): microglial activation assessment
+\end{itemize}
+
+\subsubsection{Clinical Outcome Measures (baseline, 6 months, 12 months)}
+\begin{itemize}
+    \item PEM crash diary (continuous): Frequency, severity, recovery duration
+    \item Bell Disability Scale
+    \item Cognitive function (Montreal Cognitive Assessment)
+    \item Autonomic function (NASA Lean Test, HRV)
+    \item DSQ-PEM
+\end{itemize}
+
+\subsection{Outcomes}
+
+\subsubsection{Primary Outcomes}
+\begin{enumerate}
+    \item Change in inflammatory marker trajectory (serum IL-6) from baseline to 12 months: Immediate vs.\ delayed arm
+    \item PEM threshold stability: Rate of change in PEM severity over 12 months in treated vs.\ untreated groups
+\end{enumerate}
+
+\subsubsection{Secondary Outcomes}
+\begin{itemize}
+    \item Individual inflammatory markers (TNF-$\alpha$, IL-1$\beta$, CRP)
+    \item CSF markers in subset (if available)
+    \item TSPO-PET signal change in imaging subset
+    \item Bell Disability Scale change baseline to 12 months
+    \item Cognitive function improvement
+    \item PEM crash frequency change
+\end{itemize}
+
+\subsubsection{Tertiary Outcomes}
+\begin{itemize}
+    \item Sleep quality improvement and correlation with inflammatory markers
+    \item CPAP/BiPAP adherence as moderator of treatment effect
+    \item Slow-wave sleep percentage (from polysomnography in subset) and correlation with inflammatory markers
+\end{itemize}
+
+\subsection{Analysis Plan}
+
+\begin{itemize}
+    \item Primary analysis: Linear mixed-effects model comparing serum IL-6 trajectory over 12 months between arms
+    \item Secondary outcomes: ANCOVA for Bell scale and other clinical outcomes at 12 months, adjusted for baseline values
+    \item Mediation analysis: Does change in sleep quality mediate the relationship between treatment arm and inflammation?
+    \item Adherence analysis: Among immediate arm, does CPAP adherence predict inflammatory marker improvements?
+\end{itemize}
+
+\subsection{Sample Size Justification}
+
+With n=30 per arm and 3 measurement timepoints:
+\begin{itemize}
+    \item 80\% power to detect 30\% difference in IL-6 slope between arms (assuming SD=0.8 in log IL-6) at $\alpha$=0.05
+    \item Based on preliminary data: treated sleep apnea showing 25--35\% reduction in inflammatory markers in healthy controls
+\end{itemize}
+
+\subsection{Expected Outcomes and Implications}
+
+If sleep treatment reduces neuroinflammation and slows PEM progression:
+\begin{enumerate}
+    \item Establishes sleep as critical disease-modifying factor
+    \item Validates screening and treating sleep disorders as standard ME/CFS care
+    \item Identifies glymphatic function as therapeutic target
+    \item May support clinical guidelines for aggressive sleep disorder management
+\end{enumerate}
+
+If sleep treatment shows minimal effect:
+\begin{enumerate}
+    \item Suggests neuroinflammation maintenance is not primarily glymphatic-dependent
+    \item Indicates other mechanisms of microglial activation are primary
+    \item Redirects focus toward direct microglial targeting (LDN, other agents)
+\end{enumerate}
+
+% ============================================================================
+% SECTION: Metabolic-Immune Crosstalk Study
+% ============================================================================
+\section{Metabolic-Immune Crosstalk Study}
+\label{sec:metabolic-immune-crosstalk}
+
+\subsection{Background and Rationale}
+
+Low-dose naltrexone (LDN) shows promise in ME/CFS but not all patients respond, and some who respond show plateau or loss of benefit. This may reflect metabolic complications emerging during LDN therapy, particularly the development of insulin resistance or glucose intolerance, which could amplify neuroinflammation through metabolic-immune pathways. Concurrent metabolic intervention (metformin or other insulin-sensitizing agents) might preserve or enhance LDN efficacy by preventing metabolic deterioration.
+
+This mixed-methods study examines the metabolic-immune crosstalk in ME/CFS and tests whether metabolic intervention improves or sustains LDN efficacy.
+
+\begin{hypothesis}[Metabolic-Immune Crosstalk in LDN Response]
+\label{hyp:metabolic-immune-ldn}
+LDA-induced metabolic changes (glucose intolerance, insulin resistance) amplify neuroinflammation and create a therapeutic ceiling that limits cognitive benefit over time. Concurrent metformin administration in patients developing prediabetes will preserve LDN efficacy and enhance cognitive outcomes compared to LDN monotherapy. HbA1c improvements correlate with neuroinflammatory marker reduction~\cite{MCMC2024Neurometabolic}.
+\end{hypothesis}
+
+\subsection{Study Design}
+
+This study combines three complementary components:
+
+\subsubsection{Component 1: Cross-Sectional Metabolic-Immune Comparison (n=80)}
+
+Compare ME/CFS patients with vs.\ without metabolic syndrome (MS) on inflammatory markers and neuroinflammatory burden.
+
+\paragraph{Participants:}
+\begin{itemize}
+    \item n=40 ME/CFS without metabolic syndrome
+    \item n=40 ME/CFS with metabolic syndrome (modified NCEP criteria)
+\end{itemize}
+
+\paragraph{Outcomes:}
+\begin{itemize}
+    \item Inflammatory marker profiles (IL-6, TNF-$\alpha$, IL-1$\beta$, CRP)
+    \item TSPO-PET signal (subset, n=10 per group)
+    \item Cognitive function (Montreal Cognitive Assessment)
+    \item Functional capacity (Bell scale)
+\end{itemize}
+
+\subsubsection{Component 2: Longitudinal Tracking of Metabolic Development (n=60)}
+
+ME/CFS patients without baseline metabolic syndrome tracked prospectively as some develop metabolic complications.
+
+\paragraph{Assessment schedule:}
+\begin{itemize}
+    \item Baseline: HbA1c, fasting glucose, insulin, lipid panel, inflammatory markers
+    \item Every 3 months for 18 months: Metabolic labs, inflammatory markers
+    \item Continuous: Cognitive assessments, functional measures
+\end{itemize}
+
+\paragraph{Outcomes:}
+\begin{itemize}
+    \item Rate of metabolic deterioration in LDN-treated vs.\ untreated subgroups
+    \item Correlation between metabolic changes and inflammatory marker changes
+    \item Identification of patients at high risk for metabolic complications
+\end{itemize}
+
+\subsubsection{Component 3: Interventional Trial---Metformin in Prediabetic ME/CFS Patients (n=40)}
+
+ME/CFS patients with newly identified prediabetes (HbA1c 5.7--6.4\%) randomized to metformin vs.\ placebo.
+
+\paragraph{Randomization:}
+1:1 to metformin 500 mg BID (target 1000 mg BID) vs.\ placebo, stratified by concurrent LDN use.
+
+\paragraph{Assessment schedule:}
+\begin{itemize}
+    \item Baseline: Full metabolic panel, inflammatory markers, cognitive function, functional capacity
+    \item Every 3 months for 12 months: Metabolic labs, inflammatory markers
+    \item Cognitive and functional assessments at baseline, 6 months, 12 months
+\end{itemize}
+
+\paragraph{Primary outcomes (metformin trial):}
+\begin{enumerate}
+    \item HbA1c change from baseline to 12 months
+    \item Serum IL-6 change (inflammatory outcome)
+    \item Cognitive function change (Montreal Cognitive Assessment)
+\end{enumerate}
+
+\subsection{Overall Study Measures}
+
+\subsubsection{Metabolic Assessment}
+\begin{itemize}
+    \item Fasting glucose, insulin, HOMA-IR
+    \item HbA1c
+    \item Lipid panel (total cholesterol, LDL, HDL, triglycerides)
+    \item Metabolic syndrome classification (modified NCEP criteria)
+\end{itemize}
+
+\subsubsection{Immune/Inflammatory Assessment}
+\begin{itemize}
+    \item High-sensitivity CRP
+    \item IL-6, TNF-$\alpha$, IL-1$\beta$
+    \item Monocyte activation markers (CD14$^+$CD16$^{hi}$)
+    \item TSPO-PET imaging in subsets
+\end{itemize}
+
+\subsubsection{Cognitive and Functional Outcomes}
+\begin{itemize}
+    \item Montreal Cognitive Assessment (primary cognitive measure)
+    \item Bell Disability Scale
+    \item DSQ-PEM
+    \item Processing speed (DSST---Digit Symbol Substitution Test)
+\end{itemize}
+
+\subsection{Analysis Plan}
+
+\subsubsection{Cross-Sectional Component}
+\begin{itemize}
+    \item T-tests or Mann-Whitney U comparing inflammatory markers between metabolic syndrome and non-syndrome groups
+    \item Correlation analyses between metabolic parameters and inflammatory/cognitive measures
+    \item Effect sizes (Cohen's d) with 95\% confidence intervals
+\end{itemize}
+
+\subsubsection{Longitudinal Component}
+\begin{itemize}
+    \item Mixed-effects models with random intercepts for subjects to assess metabolic deterioration trajectory
+    \item Stratified analyses by LDN use vs.\ non-use
+    \item Time-varying analysis of relationship between metabolic changes and inflammatory marker changes
+\end{itemize}
+
+\subsubsection{Interventional Component (Metformin Trial)}
+\begin{itemize}
+    \item Primary analysis: ANCOVA comparing HbA1c change and IL-6 change between metformin and placebo arms at 12 months, adjusted for baseline values
+    \item Secondary analysis: Cognitive function change (Montreal Cognitive Assessment) at 12 months
+    \item Subgroup analysis: Differential effect in patients with vs.\ without concurrent LDN
+    \item Adherence analysis: Association between metformin adherence and HbA1c/inflammatory improvements
+\end{itemize}
+
+\subsection{Sample Size Justification}
+
+\subsubsection{Cross-Sectional Component}
+With n=40 per group:
+\begin{itemize}
+    \item 80\% power to detect Cohen's d=0.65 difference in IL-6 between groups at $\alpha$=0.05
+\end{itemize}
+
+\subsubsection{Longitudinal Component}
+With n=60 and 7 measurement timepoints (baseline plus 6 follow-ups):
+\begin{itemize}
+    \item Adequate power for trajectory analyses
+    \item Sufficient for subgroup comparisons (n $\geq$30 per LDN status)
+\end{itemize}
+
+\subsubsection{Metformin Trial}
+With n=20 per arm:
+\begin{itemize}
+    \item 80\% power to detect 0.5\% difference in HbA1c change between arms at $\alpha$=0.05
+    \item Based on expected metformin effect of 0.5--1\% HbA1c reduction in prediabetic populations
+\end{itemize}
+
+\subsection{Expected Outcomes and Implications}
+
+If metabolic complications drive LDN plateau/loss of benefit:
+\begin{enumerate}
+    \item Establishes metabolic-immune crosstalk as key ME/CFS mechanism
+    \item Validates metabolic monitoring during LDN therapy
+    \item Supports concurrent metformin use in prediabetic patients to sustain LDN benefit
+    \item Informs guidelines for managing LDN-associated metabolic effects
+    \item May explain treatment resistance in subset of patients
+\end{enumerate}
+
+If metabolic intervention does not enhance LDN efficacy:
+\begin{enumerate}
+    \item Suggests metabolic changes are consequence rather than driver of neuroinflammation
+    \item Indicates need for alternative approaches to sustaining LDN response
+    \item Might redirect focus toward other mechanisms of LDN resistance
+\end{enumerate}
+
 \end{chapter}
