@@ -71,6 +71,23 @@ grep -rn "TODO|FIXME" contents/part2-pathophysiology/
 - Edge cases addressed
 - Assumptions stated
 
+### Assumptions and Open Questions
+
+**Goal:** Minimize assumptions and open questions. Resolve them if possible.
+
+When unavoidable, they MUST be formally marked using template environments:
+
+- `\begin{assumption}...\end{assumption}` for working assumptions
+- `\begin{open_question}...\end{open_question}` for unresolved questions
+
+**NEVER leave assumptions or open questions unmarked in prose.**
+
+Detection patterns:
+
+- "We assume...", "Assuming that...", "This assumes..."
+- "It remains unclear...", "Unknown whether...", "Future work should..."
+- "This question is beyond scope...", "We leave to future research..."
+
 ### Coherence
 - Logical flow between paragraphs
 - Clear topic sentences

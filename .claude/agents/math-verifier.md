@@ -72,10 +72,29 @@ grep -n "\\\\|^\s*[a-z]\s*=" contents/part2-pathophysiology/ch06-energy-metaboli
 - Units/dimensions consistent
 
 ### Logical Verification
+
 - No circular reasoning
 - Implications in correct direction
 - Necessary vs sufficient distinguished
 - Contrapositive/contradiction correct
+
+### Assumptions and Open Questions
+
+**Goal:** Minimize assumptions and open questions. Resolve them if possible.
+
+When unavoidable, they MUST be formally marked using template environments:
+
+- `\begin{assumption}...\end{assumption}` for working assumptions
+- `\begin{open_question}...\end{open_question}` for unresolved questions
+
+**NEVER leave assumptions or open questions unmarked in prose.**
+
+Detection patterns:
+
+- Unstated assumptions in proofs (e.g., implicit continuity, boundedness)
+- "Assume without proof..." or "It can be shown that..."
+- Missing justifications for key steps
+- Gaps labeled "trivial" or "obvious" without verification
 
 ## Process
 

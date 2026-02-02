@@ -123,6 +123,17 @@ For each violation, determine the appropriate environment:
 - **Working assumption?** → `assumption`
 - **Known limitation?** → `warning` (cite source if documented)
 - **Unresolved question?** → `open_question`
+
+### Assumptions and Open Questions Rule
+
+**Goal:** Minimize assumptions and open questions. Resolve them if possible.
+
+When unavoidable, they MUST be formally marked using template environments:
+
+- `\begin{assumption}...\end{assumption}` for working assumptions
+- `\begin{open_question}...\end{open_question}` for unresolved questions
+
+**NEVER leave assumptions or open questions unmarked in prose.**
 - **Necessary condition?** → `requirement`
 - **Diagnostic criterion?** → `definition` or `requirement`
 - **Novel therapeutic proposal?** → `speculation` or `hypothesis`

@@ -83,9 +83,28 @@ grep -n "causes|leads to|results in" contents/part2-pathophysiology/ch07-immune-
 - Inconsistent with standard usage
 
 ### Forward References
+
 - Concepts used before defined
 - Results applied before proven
 - Notation before introduction
+
+### Assumptions and Open Questions
+
+**Goal:** Minimize assumptions and open questions. Resolve them if possible.
+
+When unavoidable, they MUST be formally marked using template environments:
+
+- `\begin{assumption}...\end{assumption}` for working assumptions
+- `\begin{open_question}...\end{open_question}` for unresolved questions
+
+**NEVER leave assumptions or open questions unmarked in prose.**
+
+Detection patterns:
+
+- Hidden assumptions in proofs ("without loss of generality" without justification)
+- Implicit preconditions not stated
+- Gaps marked as "left as exercise" or "straightforward"
+- Unresolved logical dependencies
 
 ## Process
 
