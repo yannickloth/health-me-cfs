@@ -1,6 +1,6 @@
 # Selective Energy Dysfunction Hypothesis
 
-**Status**: Initial Development
+**Status**: Literature Review Complete - Ready for Synthesis
 **Created**: 2026-02-02
 **Last Updated**: 2026-02-02
 
@@ -11,6 +11,42 @@
 | Date | Update | Status |
 |------|--------|--------|
 | 2026-02-02 | Initial hypothesis formulation | Draft |
+| 2026-02-02 | Literature searches completed (brain PET, autonomic, brainstorming) | ✅ Complete |
+| 2026-02-02 | Key finding: 91-100% CBF reduction during orthostatic challenge | Major support |
+| 2026-02-02 | Key finding: 45-199% neuroinflammation in specific brain regions | Major support |
+| 2026-02-02 | Key finding: Pharmacological bypass (midodrine) works → regulatory not structural | Major support |
+| 2026-02-02 | Novel hypotheses generated: Astrocyte gate, CNS triage, BBB vulnerability, Partial torpor | Brainstorming |
+
+---
+
+## Literature Review Summary (2026-02-02)
+
+### Key Findings Supporting Hypothesis
+
+**Brain Metabolism (PET/Imaging):**
+- 45-199% neuroinflammation elevation in 6 brain regions (Nakatomi 2014)
+- Regional hypometabolism in brainstem, frontal, cingulate - NOT global
+- ~50% patient heterogeneity suggests subtypes with different selective patterns
+- Strong symptom-severity correlations
+
+**Autonomic Demand-Response:**
+- **91-100% of patients show abnormal CBF decline** during orthostatic challenge
+- 3-fold greater CBF reduction vs controls
+- **Preserved baseline, impaired challenge response** - exact demand-response failure pattern
+- Pharmacological bypass (midodrine, stimulants) improves symptoms → dysfunction is regulatory
+
+**Creative Brainstorming - Novel Mechanistic Hypotheses:**
+1. "Astrocyte Energy Gate" - brain's lactate shuttle creates CNS-specific vulnerability
+2. "CNS Energy Triage" - brain sacrifices cognition to preserve vital functions
+3. "BBB Vulnerability" - barrier traps damage signals, limits cofactor access
+4. "Sickness Behavior Stuck On" - evolutionary program targets CNS not peripheral autonomous
+5. "Partial Torpor Trap" - connection to hibernation research
+
+### Staging Files Created
+
+- `.claude/content-staging/brain-metabolism-literature.md`
+- `.claude/content-staging/autonomic-demand-response-literature.md`
+- `.claude/content-staging/selective-dysfunction-brainstorming.md`
 
 ---
 
