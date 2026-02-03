@@ -1,0 +1,114 @@
+% Figure: Selective Energy Dysfunction Causal DAG
+% Master causal structure showing CNS-specific energy failure with certainty-weighted edges
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=2.2cm,
+    scale=0.8, every node/.style={scale=0.8},
+    % Node styles by compartment
+    trigger/.style={draw=blue!70!black, fill=blue!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=1cm},
+    cns/.style={draw=red!70!black, fill=red!15, very thick, rounded corners, text width=3cm, align=center, minimum height=1cm},
+    cns-primary/.style={draw=red!50!black, fill=red!25, ultra thick, rounded corners, text width=3.2cm, align=center, minimum height=1.1cm, drop shadow},
+    autonomic/.style={draw=orange!70!black, fill=orange!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=1cm},
+    peripheral/.style={draw=purple!70!black, fill=purple!10, very thick, rounded corners, text width=2.8cm, align=center, minimum height=1cm},
+    preserved/.style={draw=green!70!black, fill=green!15, very thick, rounded corners, text width=2.5cm, align=center, minimum height=0.9cm},
+    % Edge styles by certainty
+    high-cert/.style={-latex, very thick, black, line width=1.4pt},
+    med-cert/.style={-latex, thick, gray!70!black, line width=1.1pt},
+    low-cert/.style={-latex, dashed, gray!50!black, line width=0.9pt},
+    no-edge/.style={-latex, dotted, gray!30!black, line width=0.7pt},
+    % Labels
+    cert-label/.style={font=\scriptsize\bfseries, fill=white, inner sep=1pt},
+]
+
+% Title
+\node[font=\large\bfseries] at (0, 10) {Selective Energy Dysfunction: Causal Structure};
+
+% === TRIGGERS (top) ===
+\begin{scope}[yshift=7cm]
+    \node[trigger] (infection) at (-4, 0) {\textbf{Viral Infection}\\Post-infectious onset};
+    \node[trigger] (stress) at (0, 0) {\textbf{Severe Stress}\\Physiological/psychological};
+    \node[trigger] (immune) at (4, 0) {\textbf{Immune Dysregulation}\\Autoantibodies, cytokines};
+\end{scope}
+
+% === PRIMARY DYSFUNCTION (CNS Energy Crisis) ===
+\node[cns-primary] (cns-crisis) at (0, 4.5) {\textbf{CNS ENERGY CRISIS}\\Brain hypometabolism\\Catecholamine deficit};
+
+% Trigger arrows
+\draw[high-cert] (infection) -- (cns-crisis) node[cert-label, midway, left] {0.7};
+\draw[med-cert] (stress) -- (cns-crisis) node[cert-label, midway, right] {0.5};
+\draw[high-cert] (immune) -- (cns-crisis) node[cert-label, midway, right] {0.65};
+
+% === DOWNSTREAM CNS EFFECTS ===
+\begin{scope}[yshift=1.5cm]
+    \node[cns] (cognitive) at (-4, 0) {\textbf{Cognitive Dysfunction}\\Brain fog, memory\\Executive function};
+    \node[cns] (autonomic-ctrl) at (0, 0) {\textbf{Autonomic Control Failure}\\Impaired signaling\\Coordination loss};
+    \node[cns] (neuroendocrine) at (4, 0) {\textbf{Neuroendocrine Disruption}\\HPA axis\\Circadian rhythm};
+\end{scope}
+
+% CNS crisis to downstream
+\draw[high-cert] (cns-crisis) -- (cognitive) node[cert-label, midway, above left] {0.85};
+\draw[high-cert] (cns-crisis) -- (autonomic-ctrl) node[cert-label, midway, right] {0.8};
+\draw[med-cert] (cns-crisis) -- (neuroendocrine) node[cert-label, midway, above right] {0.6};
+
+% === AUTONOMIC/PERIPHERAL CASCADE ===
+\begin{scope}[yshift=-1.5cm]
+    \node[autonomic] (oi) at (-3, 0) {\textbf{Orthostatic Intolerance}\\POTS, CBF reduction\\3-fold vs controls};
+    \node[peripheral] (exercise) at (1.5, 0) {\textbf{Exercise Intolerance}\\PEM, 2-day CPET\\Demand-response failure};
+    \node[autonomic] (temperature) at (5, 0) {\textbf{Temperature Dysregulation}\\Thermostat impaired};
+\end{scope}
+
+% Autonomic control to periphery
+\draw[high-cert] (autonomic-ctrl) -- (oi) node[cert-label, midway, left] {0.75};
+\draw[med-cert] (autonomic-ctrl) -- (exercise) node[cert-label, midway, right] {0.65};
+\draw[med-cert] (neuroendocrine) -- (temperature) node[cert-label, midway, right] {0.55};
+
+% Cross-connections
+\draw[low-cert, bend right=20] (oi) to node[cert-label, below] {0.4} (cognitive);
+
+% === PRESERVED AUTONOMOUS PROCESSES (bottom right, unconnected) ===
+\begin{scope}[xshift=7cm, yshift=-1cm]
+    \node[preserved] (hair) at (0, 2) {\textbf{Hair Growth}\\Normal rate\\$\delta_{CNS} = 0.1$};
+    \node[preserved] (nails) at (0, 0.5) {\textbf{Nail Growth}\\Normal rate\\$\delta_{CNS} = 0.1$};
+    \node[preserved] (wound) at (0, -1) {\textbf{Wound Healing}\\Preserved\\$\delta_{CNS} = 0.2$};
+
+    % Box around preserved
+    \node[draw=green!50!black, dashed, thick, rounded corners, fit=(hair)(nails)(wound), inner sep=8pt, label={[font=\small\bfseries, green!50!black]above:PRESERVED}] {};
+\end{scope}
+
+% === NO CONNECTION from CNS to preserved (explicit) ===
+\draw[no-edge] (cns-crisis.east) -- ++(1.5,0) node[cert-label, above, gray!50!black] {$\times$ No causal path} -- ++(0.5,-0.5);
+
+% === FEEDBACK LOOPS ===
+\draw[low-cert, bend left=40] (exercise.south) to node[cert-label, below] {0.35} (cns-crisis.south);
+\node[font=\tiny\itshape, text width=2cm, align=center] at (-1, 0.3) {PEM worsens\\CNS state};
+
+% === LEGEND ===
+\begin{scope}[yshift=-4.5cm, xshift=-4cm]
+    \node[font=\small\bfseries] at (0, 0.8) {Edge Certainty (0--1 scale):};
+    \draw[high-cert] (0, 0.3) -- (1.5, 0.3) node[right, font=\small] {High ($\geq 0.7$): Strong evidence};
+    \draw[med-cert] (0, -0.2) -- (1.5, -0.2) node[right, font=\small] {Medium (0.5--0.7): Moderate evidence};
+    \draw[low-cert] (0, -0.7) -- (1.5, -0.7) node[right, font=\small] {Low ($< 0.5$): Limited/speculative};
+\end{scope}
+
+% === COMPARTMENT LEGEND ===
+\begin{scope}[yshift=-4.5cm, xshift=4cm]
+    \node[font=\small\bfseries] at (0, 0.8) {Compartments:};
+    \node[cns, minimum width=1.5cm, minimum height=0.5cm, font=\tiny] at (0.5, 0.3) {CNS};
+    \node[font=\small, right] at (1.3, 0.3) {Central nervous system};
+    \node[autonomic, minimum width=1.5cm, minimum height=0.5cm, font=\tiny] at (0.5, -0.2) {Auto};
+    \node[font=\small, right] at (1.3, -0.2) {Autonomic regulation};
+    \node[preserved, minimum width=1.5cm, minimum height=0.5cm, font=\tiny] at (0.5, -0.7) {Pres};
+    \node[font=\small, right] at (1.3, -0.7) {Autonomous/preserved};
+\end{scope}
+
+% === KEY INSIGHT BOX ===
+\node[draw=black!70, fill=yellow!5, rounded corners, text width=13cm, align=left, font=\small, inner sep=8pt] at (0, -7) {
+\textbf{Key Structural Feature:} The CNS energy crisis node has \emph{no causal path} to autonomous processes (hair, nails, wound healing). These processes operate via local autonomous regulation with minimal CNS coordination ($\delta_{CNS} < 0.2$). Their preservation despite severe ME/CFS symptoms supports the selective dysfunction hypothesis: the disease targets CNS-dependent, demand-responsive processes while sparing CNS-independent autonomous functions.
+};
+
+\end{tikzpicture}
+\caption{Causal structure of selective energy dysfunction in ME/CFS. Edge weights indicate certainty (0--1 scale) based on evidence quality. The absence of edges to preserved processes (green) demonstrates selective targeting of CNS-dependent functions.}
+\label{fig:selective-dysfunction-dag}
+\end{figure}

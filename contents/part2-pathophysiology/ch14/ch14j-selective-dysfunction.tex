@@ -1,0 +1,544 @@
+% Chapter 14j: Selective Energy Dysfunction Hypothesis
+% Comprehensive treatment with mathematical rigor
+
+\section{Selective Energy Dysfunction Hypothesis}
+\label{sec:selective-dysfunction}
+
+\begin{open_question}[Why Does Hair Grow Normally in Severe ME/CFS?]
+A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conversation, cannot tolerate light or sound---yet their hair continues to grow at a normal rate. Their nails grow. Wounds heal. These observations pose a fundamental challenge to the ``global energy failure'' model of ME/CFS: if mitochondrial dysfunction were truly systemic, \emph{all} energy-dependent processes should be impaired proportionally.
+
+This chapter proposes that ME/CFS represents \emph{selective} rather than global energy dysfunction---specifically, a CNS coordination failure that impairs demand-responsive, CNS-dependent processes while sparing autonomous local processes that operate independently of central regulation.
+\end{open_question}
+
+\subsection{Motivation and Clinical Observations}
+
+The selective dysfunction hypothesis emerged from a simple observation: processes that require CNS coordination and scale with demand are severely impaired in ME/CFS, while processes that operate autonomously at the local tissue level remain intact.
+
+\begin{keypoint}[Preserved vs. Impaired Processes]
+\textbf{Preserved} (minimal CNS dependency):
+\begin{itemize}
+    \item Hair growth---local follicle autonomous cycle
+    \item Nail growth---keratinocyte autonomous proliferation
+    \item Basic wound healing---local inflammatory cascade
+    \item Baseline digestion---enteric nervous system (``second brain'')
+\end{itemize}
+
+\textbf{Severely impaired} (high CNS dependency):
+\begin{itemize}
+    \item Exercise capacity---requires CNS motor coordination + autonomic scaling
+    \item Cognitive function---intrinsically CNS-dependent
+    \item Orthostatic regulation---requires real-time CNS autonomic control
+    \item Temperature regulation---hypothalamic coordination
+    \item Sleep architecture---brainstem and cortical orchestration
+\end{itemize}
+\end{keypoint}
+
+This pattern suggests that ME/CFS pathophysiology may preferentially affect the CNS's ability to coordinate systemic responses, rather than causing uniform cellular energy failure throughout the body.
+
+
+\subsection{Formal Framework}
+
+We formalize the selective dysfunction hypothesis using three quantitative definitions that enable testable predictions.
+
+\begin{definition}[CNS-Dependency Index]
+\label{def:cns-dependency}
+For any biological process $P$, define the \textbf{CNS-dependency index} $\delta_{CNS}(P) \in [0,1]$ as:
+\[
+\delta_{CNS}(P) = \frac{N_{CNS}(P)}{N_{total}(P)}
+\]
+where $N_{CNS}(P)$ is the number of regulatory signals requiring CNS coordination and $N_{total}(P)$ is the total number of regulatory signals controlling process $P$.
+
+\begin{itemize}
+    \item $\delta_{CNS} = 0$: Fully autonomous (no CNS involvement)
+    \item $\delta_{CNS} = 1$: Fully CNS-dependent (all regulation via CNS)
+    \item $\delta_{CNS} \in (0,1)$: Mixed regulation
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Demand-Responsiveness Index]
+\label{def:demand-responsiveness}
+For process $P$, define the \textbf{demand-responsiveness index} $\rho(P) \in [0, \infty)$ as:
+\[
+\rho(P) = \frac{\max_{\text{challenge}} \text{Output}(P) - \text{Output}_{\text{baseline}}(P)}{\text{Output}_{\text{baseline}}(P)}
+\]
+where:
+\begin{itemize}
+    \item $\rho = 0$: Constant output (no demand scaling)
+    \item $\rho > 0$: Output increases under challenge
+    \item $\rho > 1$: Output can more than double under maximal demand
+\end{itemize}
+
+For standardization to $[0,1]$, we use $\tilde{\rho}(P) = \frac{\rho(P)}{1 + \rho(P)}$.
+\end{definition}
+
+\begin{definition}[Selective Dysfunction Severity]
+\label{def:dysfunction-severity}
+The \textbf{predicted dysfunction severity} for process $P$ in ME/CFS is:
+\[
+S(P) = \alpha \cdot \delta_{CNS}(P) + \beta \cdot \tilde{\rho}(P) + \gamma \cdot \delta_{CNS}(P) \cdot \tilde{\rho}(P)
+\]
+where:
+\begin{itemize}
+    \item $\alpha > 0$: Weight for CNS-dependency (main effect)
+    \item $\beta > 0$: Weight for demand-responsiveness (main effect)
+    \item $\gamma > 0$: Weight for interaction (synergistic vulnerability)
+\end{itemize}
+
+The interaction term $\gamma \cdot \delta_{CNS} \cdot \tilde{\rho}$ captures synergistic vulnerability: processes that are \emph{both} CNS-dependent \emph{and} demand-responsive are predicted to be most severely affected.
+\end{definition}
+
+\begin{hypothesis}[Selective Dysfunction Hypothesis]
+\label{hyp:selective-dysfunction}
+In ME/CFS, dysfunction severity $S_{observed}(P)$ correlates strongly with predicted severity $S(P)$:
+\[
+S_{observed}(P) = S(P) + \epsilon
+\]
+where $\epsilon$ is normally distributed error with mean zero.
+
+\textbf{Testable prediction:} Spearman correlation $\rho_s$ between $S(P)$ and $S_{observed}(P)$ across processes should satisfy $\rho_s > 0.7$ (strong positive correlation).
+
+\textbf{Falsification criterion:} If $\rho_s < 0.3$, the hypothesis is refuted.
+
+\textbf{Certainty:} 0.55 (moderate evidence from clinical observations, formal testing required)
+\end{hypothesis}
+
+
+\subsection{Evidence Taxonomy}
+
+Table~\ref{tab:process-classification} classifies biological processes by their predicted and observed dysfunction status.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Process classification by CNS-dependency and demand-responsiveness with predicted and observed dysfunction in ME/CFS.}
+\label{tab:process-classification}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Process} & $\delta_{CNS}$ & $\tilde{\rho}$ & \textbf{Predicted $S$} & \textbf{Observed} & \textbf{Certainty} \\
+\midrule
+\multicolumn{6}{l}{\textit{Preserved processes (low $\delta_{CNS}$, low $\rho$)}} \\
+Hair growth & 0.1 & 0.0 & 0.05 & Preserved & 0.7 \\
+Nail growth & 0.1 & 0.0 & 0.05 & Preserved & 0.7 \\
+Wound healing (basic) & 0.2 & 0.2 & 0.18 & Preserved & 0.6 \\
+Digestion (baseline) & 0.3 & 0.2 & 0.24 & Variable & 0.5 \\
+\midrule
+\multicolumn{6}{l}{\textit{Impaired processes (high $\delta_{CNS}$ and/or high $\rho$)}} \\
+Exercise capacity & 0.8 & 0.8 & 0.90 & Severe & 0.9 \\
+Cognitive function & 1.0 & 0.5 & 0.85 & Severe & 0.9 \\
+Orthostatic regulation & 0.9 & 0.7 & 0.89 & Severe & 0.85 \\
+Temperature regulation & 0.8 & 0.4 & 0.70 & Moderate-Severe & 0.7 \\
+Sleep architecture & 0.9 & 0.3 & 0.72 & Severe & 0.8 \\
+Immune response to challenge & 0.5 & 0.7 & 0.67 & Dysregulated & 0.65 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3cm}
+\footnotesize
+\textbf{Notes:} $S$ calculated with $\alpha = 0.5$, $\beta = 0.3$, $\gamma = 0.2$. Certainty reflects confidence in classification based on literature review.
+\end{table}
+
+\begin{observation}[Demand-Response Failure Pattern]
+\label{obs:demand-response}
+ME/CFS patients consistently show \emph{preserved baseline function} with \emph{impaired challenge response}:
+\begin{itemize}
+    \item Orthostatic challenge: 91--100\% show abnormal CBF reduction during tilt-table testing, with 3-fold greater reduction than controls~\cite{Novak2022}
+    \item Exercise challenge: 2-day CPET reveals decline on day 2 (vs. improvement in controls)
+    \item Cognitive challenge: Fatigue elevated 24--48h post-cognitive task
+\end{itemize}
+
+This pattern is diagnostic: baseline function is maintained, but the system cannot scale to meet increased demand. This is precisely what the selective dysfunction model predicts for high-$\rho$ processes.
+\end{observation}
+
+
+\subsection{Causal Structure}
+
+Figure~\ref{fig:selective-dysfunction-dag} presents the causal directed acyclic graph (DAG) for selective dysfunction. The key structural feature is the \emph{absence} of causal paths from the CNS energy crisis node to preserved autonomous processes.
+
+\begin{figure}[htbp]
+\centering
+\input{figures/fig-selective-dysfunction-dag.tex}
+\end{figure}
+
+The DAG encodes the following causal claims with certainty-weighted edges:
+
+\begin{enumerate}
+    \item \textbf{Triggers $\rightarrow$ CNS Energy Crisis} (certainty: 0.65--0.70): Viral infection, immune dysregulation, or severe stress initiates CNS energy deficit
+    \item \textbf{CNS Crisis $\rightarrow$ Cognitive Dysfunction} (certainty: 0.85): Direct effect of brain hypometabolism
+    \item \textbf{CNS Crisis $\rightarrow$ Autonomic Control Failure} (certainty: 0.80): Impaired CNS signaling disrupts autonomic regulation
+    \item \textbf{Autonomic Failure $\rightarrow$ Orthostatic Intolerance} (certainty: 0.75): Secondary to failed cardiovascular coordination
+    \item \textbf{No edge: CNS $\rightarrow$ Autonomous Processes}: Hair, nails, wound healing operate independently
+\end{enumerate}
+
+
+\subsection{Mechanistic Sub-Hypotheses}
+
+Five mechanistic hypotheses explain \emph{why} CNS might be selectively vulnerable.
+
+\subsubsection{Astrocyte Energy Gate Hypothesis}
+
+The astrocyte-neuron lactate shuttle (ANLS) provides 30--50\% of neuronal ATP~\cite{Pellerin1994,Magistretti2018}. Unlike peripheral tissues with direct glucose access, neurons depend on astrocytes to convert glucose to lactate and shuttle it via monocarboxylate transporters (MCT2/MCT4).
+
+\begin{hypothesis}[Astrocyte Energy Gate]
+\label{hyp:astrocyte-gate}
+Dysfunction in the astrocyte-neuron lactate shuttle causes CNS-specific energy failure while peripheral tissues (with direct glucose access) remain unaffected.
+
+\textbf{Mechanism:}
+\begin{align}
+L_n &= k_{MCT} \cdot [L_a] \cdot f(\text{transporter integrity}) \\
+E_n &= g(L_n, \text{mitochondrial function})
+\end{align}
+where $L_n$ = neuronal lactate uptake, $L_a$ = astrocyte lactate concentration, $k_{MCT}$ = MCT transporter efficiency, $E_n$ = neuronal ATP production.
+
+\textbf{ME/CFS hypothesis:} Reduced $k_{MCT}$ or impaired $f(\cdot)$ $\Rightarrow$ $L_n \downarrow$ despite normal $L_a$ $\Rightarrow$ CNS-specific energy deficit.
+
+\textbf{Certainty:} 0.4 (plausible mechanism from neuroscience; no direct ME/CFS evidence)
+\end{hypothesis}
+
+Figure~\ref{fig:astrocyte-lactate-shuttle} illustrates the ANLS mechanism and proposed dysfunction site.
+
+\begin{figure}[htbp]
+\centering
+\input{figures/fig-astrocyte-lactate-shuttle.tex}
+\end{figure}
+
+
+\subsubsection{CNS Energy Triage Hypothesis}
+
+Under energy scarcity, the CNS may implement a hardwired priority hierarchy that preserves vital functions at the expense of ``luxury'' cognitive processes.
+
+\begin{hypothesis}[CNS Energy Triage]
+\label{hyp:energy-triage}
+The CNS implements a priority-based energy allocation system under scarcity:
+\begin{enumerate}
+    \item \textbf{Tier 1} (never sacrificed): Brainstem vital functions --- $E_{min} = 0.30 \cdot E_{total}$
+    \item \textbf{Tier 2}: Sensory processing --- $E_{threshold} = 0.50 \cdot E_{total}$
+    \item \textbf{Tier 3}: Motor coordination --- $E_{threshold} = 0.60 \cdot E_{total}$
+    \item \textbf{Tier 4}: Memory consolidation --- $E_{threshold} = 0.70 \cdot E_{total}$
+    \item \textbf{Tier 5}: Executive function --- $E_{threshold} = 0.85 \cdot E_{total}$
+    \item \textbf{Tier 6} (first sacrificed): Complex cognition --- $E_{threshold} = 0.95 \cdot E_{total}$
+\end{enumerate}
+
+\textbf{Prediction:} Cognitive symptoms should follow the inverse hierarchy. Complex cognition fails first; vital functions never fail.
+
+\textbf{Clinical correlation:} ``Brain fog'' (executive dysfunction, Tier 5--6) is among the earliest and most prominent symptoms, consistent with these tiers being sacrificed first.
+
+\textbf{Certainty:} 0.5 (consistent with observed symptom hierarchy; formal testing needed)
+\end{hypothesis}
+
+Figure~\ref{fig:energy-triage-hierarchy} visualizes the triage hierarchy with the typical ME/CFS energy threshold.
+
+\begin{figure}[htbp]
+\centering
+\input{figures/fig-energy-triage-hierarchy.tex}
+\end{figure}
+
+
+\subsubsection{Blood-Brain Barrier Vulnerability Hypothesis}
+
+The blood-brain barrier (BBB) creates a unique vulnerability: damage signals may accumulate in the CNS while peripheral clearance continues normally.
+
+\begin{hypothesis}[BBB Compartmentalization]
+\label{hyp:bbb-vulnerability}
+The BBB traps mitochondrial damage markers and limits cofactor delivery, causing CNS-specific accumulation of dysfunction.
+
+\textbf{Steady-state model:}
+\[
+\frac{[M]_{CSF}}{[M]_{blood}} = \frac{R_{production}}{P_{BBB} \cdot k_{clear}}
+\]
+where $[M]$ = damage marker concentration, $R_{production}$ = production rate, $P_{BBB}$ = BBB permeability, $k_{clear}$ = clearance rate.
+
+\textbf{ME/CFS prediction:} If $P_{BBB}$ is reduced or $R_{production}$ elevated, the CSF/blood ratio increases, indicating CNS-specific accumulation.
+
+\textbf{Testable:} Measure mtDNA, 8-OHdG, or other damage markers in paired CSF and blood samples. Elevated CSF/blood ratio supports hypothesis.
+
+\textbf{Certainty:} 0.45 (BBB dysfunction documented in neuroinflammation; ME/CFS-specific data limited)
+\end{hypothesis}
+
+
+\subsubsection{Sickness Behavior Persistence Hypothesis}
+
+Evolutionary sickness behavior programs target \emph{behavioral outputs} (requiring CNS) while sparing truly autonomous processes.
+
+\begin{hypothesis}[Sickness Behavior Stuck On]
+\label{hyp:sickness-behavior}
+ME/CFS represents a sickness behavior program that fails to disengage, chronically suppressing CNS-mediated behavioral outputs while leaving autonomous local processes unaffected.
+
+\textbf{Activation function:}
+\[
+\text{SB}(t) = \sigma\left(\sum_{i} w_i \cdot [\text{cytokine}_i](t) - \theta\right)
+\]
+where $\sigma$ is sigmoid activation, $w_i$ are cytokine weights, and $\theta$ is the activation threshold.
+
+\textbf{Normal state:} Acute infection elevates cytokines $\Rightarrow$ SB activates $\Rightarrow$ infection resolves $\Rightarrow$ cytokines normalize $\Rightarrow$ SB deactivates.
+
+\textbf{ME/CFS state:} Chronic low-grade immune activation maintains $\sum w_i \cdot [\text{cytokine}_i] > \theta$ indefinitely $\Rightarrow$ SB persists.
+
+\textbf{Evolutionary logic:} Sickness behavior evolved to suppress \emph{behavioral} energy expenditure during infection. Hair growth has no behavioral component and was never targeted by this program.
+
+\textbf{Certainty:} 0.55 (strong evolutionary logic; moderate mechanistic support from neuroimaging~\cite{Nakatomi2014neuroinflammation})
+\end{hypothesis}
+
+
+\subsubsection{Partial Torpor Trap Hypothesis}
+
+ME/CFS may represent incomplete engagement of torpor-like metabolic suppression mechanisms.
+
+\begin{hypothesis}[Partial Torpor Trap]
+\label{hyp:torpor}
+ME/CFS involves partial engagement of torpor/hibernation pathways with failed arousal, trapping patients in a low-metabolic state.
+
+\textbf{Torpor engagement dynamics:}
+\[
+\frac{d(\text{MR})}{dt} = -\alpha \cdot T_{signal} + \beta \cdot A_{signal}
+\]
+where MR = metabolic rate, $T_{signal}$ = torpor induction signal, $A_{signal}$ = arousal signal.
+
+\textbf{Normal torpor:} $\alpha \cdot T > \beta \cdot A$ during entry; $\beta \cdot A > \alpha \cdot T$ during arousal.
+
+\textbf{ME/CFS state:} $\alpha \cdot T > \beta \cdot A$ chronically (trapped in partial suppression).
+
+\textbf{Testable markers:} Torpor-associated molecules (H$_2$S, adenosine, orexin) may be dysregulated.
+
+\textbf{Certainty:} 0.35 (speculative; inspired by emerging torpor biology research)
+\end{hypothesis}
+
+
+\subsection{Testable Predictions}
+
+The selective dysfunction hypothesis generates specific, falsifiable predictions.
+
+\begin{prediction}[Hair Follicle Mitochondrial Function]
+\label{pred:hair-follicle}
+\textbf{Hypothesis:} Hair follicle mitochondria are functionally normal in ME/CFS patients.
+
+\textbf{Measurement:} Mitochondrial respiration (oxygen consumption rate, OCR) in plucked hair follicle cells.
+
+\textbf{Statistical design:}
+\begin{itemize}
+    \item Test type: Equivalence test (TOST procedure)
+    \item Equivalence margin: $\delta = 0.2 \times \bar{x}_{control}$ (20\% of control mean)
+    \item Sample size: $n = 40$ per group (power = 0.8, $\alpha = 0.05$)
+    \item Outcome: ME/CFS OCR equivalent to control OCR
+\end{itemize}
+
+\textbf{Interpretation:}
+\begin{itemize}
+    \item If confirmed: Strong support for selective (not global) mitochondrial dysfunction
+    \item If refuted (ME/CFS OCR significantly lower): Global dysfunction model supported
+\end{itemize}
+
+\textbf{Feasibility:} Hair follicle collection is minimally invasive; mitochondrial respiration assays are established.
+\end{prediction}
+
+\begin{prediction}[CSF-to-Blood Lactate Gradient]
+\label{pred:csf-lactate}
+\textbf{Hypothesis:} CSF lactate is elevated relative to blood lactate in ME/CFS, indicating impaired lactate shuttling in CNS.
+
+\textbf{Measurement:} Paired CSF and blood lactate concentrations.
+
+\textbf{Statistical design:}
+\begin{itemize}
+    \item Test type: Two-sample $t$-test on ratio $[L]_{CSF}/[L]_{blood}$
+    \item Expected effect size: Cohen's $d \geq 0.5$ (medium effect)
+    \item Sample size: $n = 64$ per group (power = 0.8, $\alpha = 0.05$)
+    \item Outcome: Ratio elevated in ME/CFS vs. controls
+\end{itemize}
+
+\textbf{Interpretation:}
+\begin{itemize}
+    \item If confirmed: Supports astrocyte energy gate hypothesis
+    \item If refuted: Lactate shuttle not primary mechanism
+\end{itemize}
+\end{prediction}
+
+\begin{prediction}[Peripheral ATP During PEM]
+\label{pred:peripheral-atp}
+\textbf{Hypothesis:} Peripheral muscle ATP is preserved during PEM crashes (dysfunction is coordination failure, not local energy deficit).
+
+\textbf{Measurement:} $^{31}$P-MRS of skeletal muscle during provoked PEM.
+
+\textbf{Statistical design:}
+\begin{itemize}
+    \item Test type: Repeated measures ANOVA (baseline vs. PEM)
+    \item Expected: No significant decline in muscle ATP during PEM
+    \item Comparison: CNS metabolic markers (via PET/MRS) should decline while peripheral markers remain stable
+\end{itemize}
+
+\textbf{Interpretation:}
+\begin{itemize}
+    \item If confirmed: Dysfunction is CNS coordination failure, not peripheral energy deficit
+    \item If refuted (peripheral ATP drops): Global depletion model supported
+\end{itemize}
+\end{prediction}
+
+\begin{prediction}[Direct Stimulation vs. Voluntary Contraction]
+\label{pred:direct-stim}
+\textbf{Hypothesis:} Direct electrical stimulation of muscles produces greater force than voluntary contraction in ME/CFS patients.
+
+\textbf{Rationale:} If dysfunction is CNS coordination failure, bypassing CNS via direct stimulation should restore output.
+
+\textbf{Measurement:} Compare force production: voluntary maximal contraction vs. electrical stimulation.
+
+\textbf{Expected:} $F_{electrical} / F_{voluntary} > 1$ in ME/CFS (vs. ratio $\approx 1$ in controls).
+
+\textbf{Interpretation:}
+\begin{itemize}
+    \item If confirmed: Peripheral muscle capable; CNS drive impaired
+    \item If refuted: Peripheral muscle intrinsically impaired
+\end{itemize}
+\end{prediction}
+
+\begin{prediction}[Cognitive Triage Hierarchy]
+\label{pred:cognitive-hierarchy}
+\textbf{Hypothesis:} Cognitive impairment in ME/CFS follows the inverse of the energy triage hierarchy.
+
+\textbf{Measurement:} Cognitive battery assessing each tier:
+\begin{itemize}
+    \item Tier 6 (complex cognition): Abstract reasoning, creativity
+    \item Tier 5 (executive function): Planning, multitasking, attention
+    \item Tier 4 (memory): Working memory, recall
+    \item Tier 3 (motor coordination): Fine motor, reaction time
+    \item Tier 2 (sensory processing): Basic perception
+\end{itemize}
+
+\textbf{Expected:} Impairment severity: Tier 6 > Tier 5 > Tier 4 > Tier 3 > Tier 2.
+
+\textbf{Statistical test:} Ordinal regression testing hierarchy effect.
+\end{prediction}
+
+
+\subsection{Subtype Classification Model}
+
+The selective dysfunction framework suggests natural subtypes based on primary compartment affected.
+
+\begin{hypothesis}[Selective Dysfunction Subtypes]
+\label{hyp:subtypes}
+ME/CFS can be classified into subtypes based on which compartment shows primary dysfunction:
+
+\textbf{Input features:}
+\begin{itemize}
+    \item $x_1$: CSF catecholamine deficit (z-score)
+    \item $x_2$: Orthostatic CBF reduction (\%)
+    \item $x_3$: Muscle ATP deficit at rest (\%)
+    \item $x_4$: Neuroimaging abnormality score (composite)
+\end{itemize}
+
+\textbf{Classification rules:}
+\begin{align*}
+\text{Subtype A (CNS-Primary)} &: x_1 < -1.5 \land x_4 > 2 \land x_3 > -0.5 \\
+\text{Subtype B (Autonomic-Primary)} &: x_2 > 30\% \land x_1 > -1.0 \\
+\text{Subtype C (Peripheral-Primary)} &: x_3 < -1.5 \land x_1 > -1.0 \land x_4 < 1 \\
+\text{Subtype D (Global/Advanced)} &: \text{Multiple criteria met}
+\end{align*}
+
+\textbf{Validation required:} Unsupervised clustering on biomarker panel; sensitivity/specificity analysis.
+
+\textbf{Treatment implications:}
+\begin{itemize}
+    \item Subtype A: CNS-penetrant compounds, intranasal delivery
+    \item Subtype B: Autonomic modulators (midodrine, pyridostigmine)
+    \item Subtype C: Mitochondrial support, muscle-targeted interventions
+    \item Subtype D: Multi-system approach
+\end{itemize}
+
+\textbf{Certainty:} 0.4 (framework plausible; requires validation cohort)
+\end{hypothesis}
+
+
+\subsection{Treatment Implications}
+
+The selective dysfunction hypothesis has immediate treatment implications.
+
+\subsubsection{Pharmacological Bypass Evidence}
+
+\begin{observation}[Midodrine Effectiveness]
+\label{obs:midodrine}
+Midodrine (direct $\alpha_1$-adrenergic agonist) improves orthostatic symptoms in ME/CFS patients by directly stimulating peripheral vasculature, bypassing CNS autonomic coordination.
+
+\textbf{Implication:} If peripheral targets were intrinsically dysfunctional, pharmacological bypass would not restore function. Midodrine effectiveness proves the peripheral machinery is intact; only CNS coordination is impaired.
+
+This is strong evidence for the selective dysfunction model: the problem is signaling/coordination, not end-organ failure.
+\end{observation}
+
+\subsubsection{Therapeutic Strategy}
+
+\begin{keypoint}[Treatment Strategy from Selective Dysfunction Model]
+\begin{enumerate}
+    \item \textbf{CNS-targeted delivery}: Intranasal or intrathecal routes may outperform oral for CNS-targeted compounds
+    \item \textbf{Pharmacological bypass}: Direct-acting agents that bypass CNS coordination (midodrine, direct muscle stimulation)
+    \item \textbf{Reduce CNS energy demands}: Pacing as CNS energy management, not just ``activity reduction''
+    \item \textbf{Subtype-specific targeting}: Match intervention to primary dysfunction compartment
+\end{enumerate}
+\end{keypoint}
+
+
+\subsection{Compartmental Energy Model}
+
+Figure~\ref{fig:compartmental-energy-model} presents the four-compartment energy model with CNS as the coordination bottleneck.
+
+\begin{figure}[htbp]
+\centering
+\input{figures/fig-compartmental-energy-model.tex}
+\end{figure}
+
+\begin{keypoint}[Model Interpretation]
+The CNS compartment serves dual roles:
+\begin{enumerate}
+    \item \textbf{Primary dysfunction site}: Brain hypometabolism, catecholamine deficiency
+    \item \textbf{Coordination bottleneck}: Secondary failures in autonomic and peripheral compartments result from impaired CNS signaling, not local energy deficits
+\end{enumerate}
+
+Autonomous processes bypass the CNS entirely and remain functional. This explains why:
+\begin{itemize}
+    \item Hair grows normally (no CNS coordination required)
+    \item Midodrine works (bypasses CNS, directly stimulates periphery)
+    \item PEM affects demand-responsive but not baseline functions
+\end{itemize}
+\end{keypoint}
+
+
+\subsection{Integration with Existing Hypotheses}
+
+The selective dysfunction hypothesis integrates with and extends existing models:
+
+\begin{itemize}
+    \item \textbf{Metabolic Safe Mode} (Section~\ref{sec:safe-mode}): Selective dysfunction specifies \emph{which} systems the safe mode affects (CNS-dependent, demand-responsive) and \emph{which} it spares (autonomous)
+
+    \item \textbf{Glymphatic Clearance Failure} (Section~\ref{sec:glymphatic}): Provides mechanism for CNS-specific waste accumulation within the BBB vulnerability sub-hypothesis
+
+    \item \textbf{Autonomic Dysfunction} (Chapter~\ref{ch:cardiovascular}): Reframes as CNS coordination failure rather than peripheral autonomic pathology
+
+    \item \textbf{Mitochondrial Dysfunction} (Chapter~\ref{ch:energy-metabolism}): Constrains location---mitochondrial dysfunction may be CNS-specific or CNS-predominant rather than global
+\end{itemize}
+
+
+\subsection{Limitations and Uncertainties}
+
+\begin{warning}[Limitations]
+\begin{enumerate}
+    \item \textbf{Parameter estimation}: The $\delta_{CNS}$ and $\rho$ values in Table~\ref{tab:process-classification} are estimated, not empirically derived
+    \item \textbf{Interaction complexity}: The additive model with interaction may oversimplify nonlinear relationships
+    \item \textbf{Heterogeneity}: ME/CFS likely includes multiple pathophysiological subtypes; not all may fit this model
+    \item \textbf{Causal direction}: The DAG assumes CNS dysfunction causes peripheral symptoms; reverse or bidirectional causation possible
+    \item \textbf{Evidence gaps}: Direct tests of the hypothesis (hair follicle mitochondria, CSF lactate gradients) have not been performed
+\end{enumerate}
+\end{warning}
+
+
+\subsection{Summary}
+
+\begin{conclusion}
+The selective energy dysfunction hypothesis proposes that ME/CFS preferentially affects CNS-dependent, demand-responsive biological processes while sparing autonomous local processes. This explains the paradox of preserved hair growth alongside severe functional impairment.
+
+\textbf{Key features:}
+\begin{itemize}
+    \item Formal quantification via CNS-dependency ($\delta_{CNS}$) and demand-responsiveness ($\rho$) indices
+    \item Causal DAG with certainty-weighted edges
+    \item Five mechanistic sub-hypotheses (astrocyte gate, energy triage, BBB vulnerability, sickness behavior, torpor trap)
+    \item Specific, falsifiable predictions with statistical designs
+    \item Natural subtype classification based on primary dysfunction compartment
+    \item Treatment implications including pharmacological bypass and CNS-targeted delivery
+\end{itemize}
+
+\textbf{Overall certainty:} 0.55 (moderate)---hypothesis is consistent with clinical observations and supported by converging evidence from brain metabolism, autonomic dysfunction, and preserved autonomous function literature. Formal testing of predictions required.
+\end{conclusion}
