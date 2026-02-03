@@ -1,8 +1,8 @@
 # Selective Energy Dysfunction Hypothesis
 
-**Status**: Literature Review Complete - Ready for Synthesis
+**Status**: Literature Review Complete - Synthesis Phase Pending
 **Created**: 2026-02-02
-**Last Updated**: 2026-02-02
+**Last Updated**: 2026-02-03
 
 ---
 
@@ -582,9 +582,9 @@ Outline:
 ## Next Steps
 
 ### Immediate (Week 1-2)
-- [ ] Literature search: Brain PET scan studies in ME/CFS
-- [ ] Literature search: Peripheral mitochondrial studies in ME/CFS
-- [ ] Compile existing evidence for preserved vs impaired processes
+- [x] Literature search: Brain PET scan studies in ME/CFS ✅ (2026-02-02)
+- [x] Literature search: Autonomic demand-response studies ✅ (2026-02-02)
+- [x] Compile existing evidence for preserved vs impaired processes ✅ (in staging)
 - [ ] Draft integration sections for existing chapters
 
 ### Near-term (Month 1-3)

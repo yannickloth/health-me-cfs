@@ -1,0 +1,21 @@
+Cardiopulmonary and metabolic responses during a 2-day CPET in myalgic encephalomyelitis/chronic fatigue syndrome: translating reduced oxygen consumption to impairment status to treatment considerations
+
+Betsy Keller, Candace N Receno, Carl J Franconi, Sebastian Harenberg, Jared Stevens, Xiangling Mao, Staci R Stevens, Geoff Moore, Susan Levine, John Chia, Dikoma Shungu, Maureen R Hanson
+
+Journal of Translational Medicine. 2024 Jul 5;22(1):627.
+doi: 10.1186/s12967-024-05410-5
+PMID: 38965566
+
+ABSTRACT:
+
+BACKGROUND:
+Post-exertional malaise (PEM), the hallmark symptom of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), represents abnormal responses to physical, cognitive, and/or emotional exertion including profound fatigue, cognitive dysfunction, and exertion intolerance.
+
+METHODS:
+Participants with ME/CFS (Canadian Criteria; n = 84) and sedentary controls (n = 71) completed two CPETs on a cycle ergometer separated by 24 hours. Data collection took place from 2018 to 2022 at multiple sites.
+
+RESULTS:
+Unlike controls, ME/CFS participants failed to reproduce CPET-1 measures during CPET-2 with significant declines at peak exertion in work, exercise time, oxygen consumption, oxygen pulse, and ventilation, as well as declines at ventilatory threshold in work, oxygen consumption, and oxygen pulse. Symptoms worsened significantly 24 hours after CPET-1.
+
+CONCLUSIONS:
+This is the largest 2-d CPET study of ME/CFS to substantiate impaired recovery with objective evidence of reduced oxygen consumption and workload across two exercise tests separated by 24 hours. Results suggest autonomic nervous system dysfunction affecting blood flow and oxygen delivery contributes to exertion intolerance in ME/CFS.

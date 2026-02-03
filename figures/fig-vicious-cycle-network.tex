@@ -1,0 +1,150 @@
+% Figure: Vicious Cycle Network in ME/CFS
+% Shows coupling between major pathophysiological cycles
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    scale=0.9, every node/.style={scale=0.9},
+    % Cycle node styles (colored ellipses)
+    cycle node/.style={
+        ellipse, draw=#1!60!black, fill=#1!15, very thick,
+        minimum width=3.2cm, minimum height=2cm,
+        font=\small\bfseries, align=center,
+        inner sep=4pt
+    },
+    % Coupling arrow style
+    coupling/.style={
+        <->, >=latex, thick, red!70!black,
+        shorten >=3pt, shorten <=3pt
+    },
+    % Coupling label style
+    coupling label/.style={
+        font=\tiny, fill=white, inner sep=2pt,
+        text=red!60!black, align=center
+    },
+    % Self-reinforcing loop style
+    self loop/.style={
+        ->, >=latex, thick, #1!50!black,
+        looseness=4, in=120, out=60
+    },
+    % Treatment intervention point
+    intervention/.style={
+        star, star points=5, star point ratio=2.2,
+        draw=orange!80!black, fill=yellow!50,
+        minimum size=0.5cm, inner sep=0pt
+    }
+]
+
+% Title
+\node[font=\large\bfseries] at (0, 6.5) {Vicious Cycle Network in ME/CFS};
+\node[font=\small\itshape, text width=10cm, align=center] at (0, 5.8) {Bidirectional coupling prevents resolution of individual cycles};
+
+% === CYCLE NODES (Pentagon Layout) ===
+% Center: Mitochondrial Dysfunction
+\node[cycle node=blue] (mito) at (0, 3) {Mitochondrial\\Dysfunction};
+
+% Top-left: Immune Activation
+\node[cycle node=green] (immune) at (-4.5, 1.5) {Immune\\Activation};
+
+% Top-right: Autonomic Dysfunction
+\node[cycle node=purple] (autonomic) at (4.5, 1.5) {Autonomic\\Dysfunction};
+
+% Bottom-left: Endocrine Dysfunction
+\node[cycle node=teal] (endocrine) at (-3, -2.5) {Endocrine\\Dysfunction};
+
+% Bottom-right: Neuroinflammation
+\node[cycle node=orange] (neuro) at (3, -2.5) {Neuroinflammation};
+
+% === SELF-REINFORCING LOOPS ===
+\draw[self loop=blue] (mito) to (mito);
+\draw[self loop=green] (immune) to (immune);
+\draw[self loop=purple] (autonomic) to (autonomic);
+\draw[self loop=teal] (endocrine) to (endocrine);
+\draw[self loop=orange] (neuro) to (neuro);
+
+% === COUPLING ARROWS WITH LABELS ===
+
+% Mitochondrial <-> Immune: ROS/Cytokines
+\draw[coupling] (mito.west) -- (immune.east)
+    node[coupling label, midway, above, yshift=2pt] {ROS/Cytokines};
+
+% Mitochondrial <-> Autonomic: Hypoxia/Perfusion
+\draw[coupling] (mito.east) -- (autonomic.west)
+    node[coupling label, midway, above, yshift=2pt] {Hypoxia/Perfusion};
+
+% Immune <-> Autonomic: via top path
+\draw[coupling, bend left=25] (immune.north east) to
+    node[coupling label, above, yshift=2pt] {BBB crossing/Autoantibodies} (autonomic.north west);
+
+% Neuroinflammation <-> Endocrine: HPA axis
+\draw[coupling] (neuro.west) -- (endocrine.east)
+    node[coupling label, midway, below, yshift=-2pt] {HPA axis};
+
+% Endocrine <-> Mitochondrial: Hormonal regulation
+\draw[coupling] (endocrine.north) -- (mito.south west)
+    node[coupling label, midway, left, xshift=-2pt] {Hormonal\\regulation};
+
+% Additional couplings for network completeness
+% Autonomic <-> Neuroinflammation
+\draw[coupling] (autonomic.south) -- (neuro.north east)
+    node[coupling label, midway, right, xshift=2pt] {Vagal tone/\\Inflammation};
+
+% Immune <-> Endocrine
+\draw[coupling] (immune.south) -- (endocrine.north west)
+    node[coupling label, midway, left, xshift=-2pt] {Cortisol/\\Cytokines};
+
+% Immune <-> Neuroinflammation
+\draw[coupling, bend right=15] (immune.south east) to
+    node[coupling label, below, yshift=-5pt] {Microglial activation} (neuro.north west);
+
+% === TREATMENT INTERVENTION POINTS ===
+\node[intervention] (treat-mito) at (0.8, 4.2) {};
+\node[intervention] (treat-immune) at (-5.5, 2.5) {};
+\node[intervention] (treat-autonomic) at (5.5, 2.5) {};
+\node[intervention] (treat-endocrine) at (-4, -3.5) {};
+\node[intervention] (treat-neuro) at (4, -3.5) {};
+
+% Intervention labels
+\node[font=\tiny, align=center, text=orange!70!black] at (0.8, 4.8) {CoQ10\\NAD+};
+\node[font=\tiny, align=center, text=orange!70!black] at (-5.5, 3.1) {LDN\\Anti-inflam.};
+\node[font=\tiny, align=center, text=orange!70!black] at (5.5, 3.1) {Beta blockers\\Fluids};
+\node[font=\tiny, align=center, text=orange!70!black] at (-4, -4.1) {Hormone\\replacement};
+\node[font=\tiny, align=center, text=orange!70!black] at (4, -4.1) {Antivirals\\LDN};
+
+% === LEGEND ===
+\begin{scope}[shift={(-5.5, -5.5)}]
+    \node[font=\small\bfseries] at (5.5, 0) {Legend:};
+
+    % Cycle node example
+    \node[ellipse, draw=gray!60!black, fill=gray!15, thick,
+          minimum width=1.2cm, minimum height=0.7cm, font=\tiny]
+          (leg-cycle) at (2, -0.5) {Cycle};
+    \node[font=\tiny, right] at (2.8, -0.5) {Vicious cycle};
+
+    % Coupling arrow
+    \draw[coupling] (4.5, -0.5) -- (5.5, -0.5);
+    \node[font=\tiny, right] at (5.6, -0.5) {Bidirectional coupling};
+
+    % Self-loop
+    \draw[->, >=latex, thick, gray!50!black, looseness=6, in=120, out=60]
+          (7.8, -0.5) to (7.8, -0.5);
+    \node[font=\tiny, right] at (8.3, -0.5) {Self-reinforcing};
+
+    % Intervention point
+    \node[intervention, scale=0.8] at (10, -0.5) {};
+    \node[font=\tiny, right] at (10.4, -0.5) {Treatment target};
+\end{scope}
+
+\end{tikzpicture}
+
+\caption[Vicious cycle network model of ME/CFS pathophysiology]{%
+    \textbf{Network model of vicious cycle coupling in ME/CFS.}
+    Five major pathophysiological cycles (colored ellipses) exhibit bidirectional
+    reinforcing connections (red arrows). Each cycle contains internal positive feedback
+    (self-loops). Yellow stars indicate potential treatment intervention points.
+    The network architecture explains why treatment at single nodes often fails:
+    coupled cycles re-amplify dysfunction even when one component is partially addressed.
+    Effective treatment may require simultaneous intervention at multiple nodes.
+}
+\label{fig:vicious-cycle-network}
+\end{figure}

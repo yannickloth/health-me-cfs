@@ -1,0 +1,18 @@
+Two-Day Cardiopulmonary Exercise Testing in Females with a Severe Grade of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Comparison with Patients with Mild and Moderate Disease
+
+C Linda Mc van Campen, Peter C Rowe, Frans C Visser
+
+Healthcare (Basel). 2020 Jun 30;8(3):192.
+doi: 10.3390/healthcare8030192
+PMID: 32629923
+PMCID: PMC7551790
+
+ABSTRACT:
+
+This study examined 82 female ME/CFS patients across three severity groups (31 mild, 31 moderate, 20 severe) using a two-day cardiopulmonary exercise testing protocol. Researchers measured oxygen consumption, heart rate, and workload parameters.
+
+All analyzed CPET parameters (peak VO2, VO2 at VT, peak workload and the workload at VT) decreased significantly from day-1 to day-2 within each severity group.
+
+The severe group demonstrated the largest decline in peak workload (-19%), suggesting disease severity negatively impacts exercise recovery.
+
+The research confirms that a two-day testing protocol effectively discriminates ME/CFS severity levels, with severe patients showing pronounced post-exertional deterioration compared to milder cases.

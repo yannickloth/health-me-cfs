@@ -20,7 +20,7 @@ This framework suggests that gradual, gentle interventions may perpetuate the ma
 \end{hypothesis}
 
 \begin{hypothesis}[Cellular Danger Response Persistence]
-Robert Naviaux's cell danger response (CDR) hypothesis proposes that cells remain stuck in a defensive metabolic mode characterized by reduced mitochondrial function, altered purinergic signaling, and maintained inflammatory readiness. The CDR evolved as a protective response to threats, but in ME/CFS, the ``threat resolved'' signal may never arrive or may not be recognized. Therapeutic implications include:
+Robert Naviaux's cell danger response (CDR) hypothesis~\cite{Naviaux2014cdr} proposes that cells remain stuck in a defensive metabolic mode characterized by reduced mitochondrial function, altered purinergic signaling, and maintained inflammatory readiness. The CDR evolved as a protective response to threats, but in ME/CFS, the ``threat resolved'' signal may never arrive or may not be recognized. Therapeutic implications include:
 \begin{itemize}
     \item Antipurinergic therapy (suramin showed promise in small trials before being halted)
     \item Modulating extracellular ATP signaling through P2X/P2Y receptor antagonists
@@ -30,7 +30,7 @@ Robert Naviaux's cell danger response (CDR) hypothesis proposes that cells remai
 \end{hypothesis}
 
 \begin{hypothesis}[Glymphatic Dysfunction and Neuroinflammatory Persistence]
-Sleep in ME/CFS is characteristically non-restorative despite adequate duration. The glymphatic system---the brain's waste clearance mechanism---operates primarily during deep sleep. If glymphatic function is impaired, neuroinflammatory debris may accumulate, perpetuating microglial activation and cognitive dysfunction. Testable interventions include:
+Sleep in ME/CFS is characteristically non-restorative despite adequate duration. The glymphatic system---the brain's waste clearance mechanism---operates primarily during deep sleep~\cite{Xie2013glymphatic}. If glymphatic function is impaired, neuroinflammatory debris may accumulate, perpetuating microglial activation and cognitive dysfunction. Testable interventions include:
 \begin{itemize}
     \item Sleep architecture optimization targeting slow-wave sleep (when glymphatic clearance peaks)
     \item Sleep position modification (lateral sleeping may enhance glymphatic flow)
@@ -113,7 +113,7 @@ Cytokine abnormalities are well-documented in ME/CFS, though patterns vary betwe
 
 \subsubsection{JAK Inhibitors}
 
-JAK inhibitors (baricitinib, tofacitinib, ruxolitinib) block cytokine signaling pathways and have shown dramatic efficacy in conditions with overlapping features (inflammatory arthritis, certain interferonopathies). Theoretical relevance to ME/CFS includes:
+JAK inhibitors (baricitinib, tofacitinib, ruxolitinib) block cytokine signaling pathways and have demonstrated efficacy in inflammatory conditions such as rheumatoid arthritis and certain interferonopathies. Theoretical relevance to ME/CFS includes:
 \begin{itemize}
     \item Reduction of interferon-driven inflammation (relevant if chronic viral activation present)
     \item Modulation of IL-6 and other pro-inflammatory cytokines
@@ -125,13 +125,13 @@ However, JAK inhibitors carry significant risks including infection susceptibili
 
 \subsubsection{Mesenchymal Stem Cell Therapy}
 
-Mesenchymal stem cells (MSCs) exert immunomodulatory effects independent of tissue regeneration, secreting anti-inflammatory cytokines and modulating immune cell function. Small studies in ME/CFS have reported:
+Mesenchymal stem cells (MSCs) exert immunomodulatory effects independent of tissue regeneration, secreting anti-inflammatory cytokines and modulating immune cell function. Anecdotal reports and small uncontrolled studies suggest:
 \begin{itemize}
     \item Variable responses with some dramatic responders
     \item Transient improvements lasting weeks to months
     \item Better responses in patients with clear inflammatory profiles
 \end{itemize}
-Quality control, standardization, and cost remain significant barriers. The regenerative medicine industry includes both legitimate research centers and predatory clinics.
+However, no controlled trials in ME/CFS have been published. Quality control, standardization, and cost remain significant barriers. The regenerative medicine industry includes both legitimate research centers and predatory clinics.
 
 \section{Autonomic and Neurological Interventions}
 \label{sec:neurological-interventions}
@@ -387,7 +387,7 @@ A 2025 randomized controlled trial in Long COVID (which shares substantial sympt
     \item \textbf{Safety}: Well-tolerated at high doses (1000--2000~mg daily) with no significant adverse effects
 \end{itemize}
 
-Earlier research on oral NADH (a reduced form) in ME/CFS showed reductions in anxiety and maximum heart rate, though effects on fatigue and quality of life were inconsistent.
+Earlier research on oral NADH (a reduced form) in ME/CFS showed modest benefits in some patients~\cite{Forsyth1999NADH}, and combination with CoQ10 improved maximum heart rate recovery~\cite{CastroMarrero2021}, though effects on fatigue and quality of life were inconsistent across studies.
 
 \paragraph{Practical Considerations}
 \begin{itemize}
@@ -503,7 +503,7 @@ HBOT delivers 100\% oxygen at elevated atmospheric pressure, dramatically increa
     \item Reduced inflammation
     \item Neuroplasticity enhancement
 \end{itemize}
-Small studies have shown mixed results; patient responses appear highly variable.
+Evidence in ME/CFS is limited to case reports and uncontrolled studies; patient responses appear highly variable and no controlled trials have been published.
 
 \subsection{Photobiomodulation}
 
@@ -521,7 +521,7 @@ Home devices are widely available, though quality and specifications vary signif
 
 \subsection{Suramin}
 
-Suramin, an antiparasitic drug from 1916, blocks purinergic signaling---the basis of Naviaux's cell danger response hypothesis. A small pilot study showed improvements that reversed after the drug was eliminated. However:
+Suramin, an antiparasitic drug from 1916, blocks purinergic signaling---the basis of Naviaux's cell danger response hypothesis~\cite{Naviaux2014cdr}. A small pilot study~\cite{Naviaux2018suraminpilot} showed improvements that reversed after the drug was eliminated. However:
 \begin{itemize}
     \item Suramin has significant toxicity with repeated dosing
     \item It is not available outside research settings
@@ -545,7 +545,7 @@ Metformin's mechanisms extend beyond glucose control to include AMPK activation,
 
 \subsection{Low-Dose Aripiprazole}
 
-Aripiprazole at very low doses (0.5--2~mg) may modulate neuroinflammation through effects on microglial function. Patient community reports suggest benefit in some individuals, particularly for brain fog and energy. The Stanford ME/CFS clinic has explored this approach.
+Aripiprazole at very low doses (0.5--2~mg) may modulate neuroinflammation through effects on microglial function~\cite{Crosby2021LDA}. A pilot study (n=25) showed promising results for fatigue and cognitive symptoms. Patient community reports suggest benefit in some individuals, particularly for brain fog and energy.
 
 \subsection{Ketamine}
 \label{subsec:ketamine}
@@ -692,6 +692,44 @@ If vicious cycles reinforce each other through shared mediators and feedback loo
 
 \textbf{Testable prediction:} A three-target protocol (mitochondrial + immune + autonomic) should produce $>3\times$ the benefit of any single intervention alone, and $>1.5\times$ the summed benefits of each intervention applied sequentially.
 \end{keypoint}
+
+\subsubsection{Mathematical Framework: The Network Model}
+
+The synergy hypothesis can be formalized mathematically, providing testable quantitative predictions. Let $C_1, C_2, \ldots, C_n$ represent $n$ vicious cycles (mitochondrial, immune, autonomic, neuroinflammatory, endocrine) with states $s_1, s_2, \ldots, s_n$ quantifying the severity of each cycle's dysfunction. The dynamics include both internal self-amplification (gain $G_i$) and cross-cycle coupling:
+
+\begin{equation}
+\frac{ds_i}{dt} = G_i s_i + \sum_{j \neq i} \alpha_{ij} s_j - \gamma_i T_i
+\label{eq:cycle-network-dynamics}
+\end{equation}
+
+where $G_i$ = internal gain of cycle $i$ (self-amplification strength), $\alpha_{ij}$ = coupling strength from cycle $j$ to cycle $i$, $T_i$ = treatment intensity targeting cycle $i$, and $\gamma_i$ = treatment efficacy coefficient.
+
+\paragraph{Why Single-Target Intervention Cannot Succeed.}
+
+When $\alpha_{ij} > 0$ (reinforcing coupling exists), treating only cycle $i$ while cycle $j$ remains active results in persistent input from $j$ that maintains $i$ dysfunction. At equilibrium:
+
+\begin{equation}
+s_i^* = \frac{\sum_{j \neq i} \alpha_{ij} s_j}{\gamma_i T_i - G_i}
+\label{eq:equilibrium-single-target}
+\end{equation}
+
+As long as $s_j > 0$ for any strongly coupled cycle $j$, we have $s_i^* > 0$: the treated cycle cannot fully resolve. This explains the pattern of ``partial response'' seen in most ME/CFS trials---interventions reduce cycle severity but cannot eliminate dysfunction while other cycles remain active.
+
+\paragraph{The Synergy Prediction.}
+
+Simultaneous treatment of coupled cycles eliminates mutual reinforcement. The combined effect should be super-additive:
+
+\begin{equation}
+\text{Effect}(T_1 + T_2) > \text{Effect}(T_1) + \text{Effect}(T_2)
+\label{eq:synergy-prediction}
+\end{equation}
+
+\textbf{Quantitative estimate}: If ubiquinol alone produces 10-point improvement on 100-point fatigue scale and LDN alone produces 8-point improvement, the combination should yield 25--35 points (not the additive 18 points) due to elimination of cross-cycle reinforcement. This is a falsifiable prediction: if combination effects are purely additive, the network model is refuted.
+
+\textbf{Evidence Grade C}: Network models are well-established in systems biology; application to ME/CFS treatment is theoretical but consistent with observed partial response patterns and heterogeneous treatment outcomes.
+
+% Vicious cycle network diagram
+\input{figures/fig-vicious-cycle-network}
 
 \subsubsection{Design Principles for Multi-Target Protocols}
 
@@ -1587,6 +1625,30 @@ A critical question for patients evaluating any intervention---experimental or e
 
 The cycle dynamics framework (Chapter~\ref{ch:core-symptoms}, \S\ref{sec:pem}, ``Ratchet Effect'') identifies seven irreversibility mechanisms. Not all are equally entrenched, and treatment windows exist where aggressive intervention may reverse seemingly permanent dysfunction. This section provides a mechanism-by-mechanism analysis of reversibility potential.
 
+\subsubsection{Time-Dependent Reversibility: The Decay Model}
+
+A critical insight is that many mechanisms transition from \textit{reversible} to \textit{irreversible} over time. Acute mitochondrial dysfunction in early disease may be 80\% reversible through enhanced biogenesis and repair, but after years of sustained dysfunction, accumulated mtDNA mutations and organelle loss create damage that cannot be fully corrected.
+
+This time-dependency can be modeled as exponential decay:
+
+\begin{equation}
+R(t) = R_0 e^{-\lambda t}
+\label{eq:reversibility-decay}
+\end{equation}
+
+where $R(t)$ = reversibility fraction at time $t$ (proportion of dysfunction that remains correctable), $R_0$ = initial reversibility (at onset, often 0.8--0.95 for metabolic/immune dysfunction), $\lambda$ = decay constant (mechanism-specific; estimated 0.1--0.3 yr$^{-1}$ for mitochondrial dysfunction), and $t$ = time since onset (years).
+
+\begin{example}[Clinical Interpretation of Time-Dependent Reversibility]
+Consider two patients with comparable mitochondrial dysfunction severity:
+\begin{itemize}
+    \item \textbf{Patient A}: 6 months of illness, $R(0.5) = 0.9 \times e^{-0.2 \times 0.5} \approx 0.81$ (81\% reversible)
+    \item \textbf{Patient B}: 5 years of illness, $R(5) = 0.9 \times e^{-0.2 \times 5} \approx 0.33$ (33\% reversible)
+\end{itemize}
+Even with identical current dysfunction severity, Patient A has $>$2-fold higher recovery potential. This framework explains why early intervention is critical and why expecting symmetric outcomes across disease durations is unrealistic.
+\end{example}
+
+\textbf{Clinical implication}: Duration should factor into prognosis discussions and treatment intensity decisions. Early-stage patients ($<$2 years) warrant aggressive multi-target intervention; late-stage patients ($>$10 years) should focus on stabilization and targeting remaining reversible components.
+
 \subsubsection{Reversibility Classification: Three-Tier Framework}
 
 \paragraph{Tier 1: Highly Reversible (Intervention Window: Weeks to Months).}
@@ -1865,3 +1927,232 @@ Severe, treatment-resistant illness creates vulnerability to exploitation. The M
 \end{itemize}
 While maintaining openness to novel approaches, patients should apply skepticism proportional to claims, cost, and risk. Red flags include: guarantees of cure, pressure to commit quickly, inability to provide outcome data, and hostility to questions.
 \end{observation}
+
+\subsection{Quantitative Cycle Gain Measurement: A Prognostic Tool}
+\label{subsec:cycle-gain-measurement}
+
+The vicious cycle framework (Chapter~\ref{ch:core-symptoms}, \S\ref{sec:pem}) identifies ``cycle gain'' as the amplification factor within each pathophysiological loop. When $G > 1$, each iteration amplifies dysfunction; when $G < 1$, the system naturally dampens toward baseline. Quantifying individual patients' cycle gain could transform prognosis and treatment planning.
+
+\subsubsection{The Cycle Gain Concept}
+
+\begin{hypothesis}[Cycle Gain as Prognostic Biomarker]
+Recovery kinetics following standardized exertion may predict long-term disease trajectory.
+
+\textbf{Theoretical definition}: The cycle gain $G$ represents net amplification across a vicious cycle. In control theory, for a feedback loop with $n$ sequential processes, the net loop gain is the product of individual gains:
+$$G = \prod_{i=1}^{n} g_i$$
+where $g_i$ is the gain of each component process (ROS generation, mitochondrial damage, biogenesis impairment, etc.). This multiplicative relationship is standard in feedback systems analysis~\cite{Alon2006systems}.
+
+\textbf{Critical threshold}: $G = 1$ represents a bifurcation point:
+\begin{itemize}
+    \item $G < 1$: System naturally dampens perturbations (stable, self-correcting)
+    \item $G > 1$: Perturbations amplify with each iteration (unstable, self-reinforcing)
+\end{itemize}
+
+\textbf{Proposed clinical proxy}: We hypothesize that recovery time after standardized exertion \textit{correlates with} (but does not define) cycle gain. This correlation requires empirical validation. The mapping between recovery time and $G$ proposed in Table~\ref{tab:cycle-gain-prognosis} is a testable hypothesis, not an established relationship.
+
+\textbf{Evidence Grade}: C (control theory foundation established; ME/CFS application hypothetical)
+\end{hypothesis}
+
+\begin{warning}[Avoiding Circular Reasoning]
+Cycle gain ($G$) is a theoretical construct representing feedback loop amplification. Recovery time is a proposed \textit{proxy measure} that may correlate with $G$. The hypothesis is falsifiable: if recovery time does not predict long-term trajectory or treatment response, the proxy is invalid regardless of whether the underlying cycle gain concept is correct.
+\end{warning}
+
+\subsubsection{Proposed Measurement Protocol}
+
+A standardized protocol to measure cycle gain:
+
+\paragraph{Baseline Assessment (Day 0).}
+\begin{itemize}
+    \item Blood draw: ATP, ADP, AMP, lactate, pyruvate, NAD$^+$/NADH ratio
+    \item Symptom assessment: Bell Disability Scale, 7-day symptom diary
+    \item Functional status documentation
+\end{itemize}
+
+\paragraph{Standardized Exertion (Day 1--2).}
+\begin{itemize}
+    \item Two-day cardiopulmonary exercise testing (2-day CPET) per Vermeulen protocol
+    \item Alternative for milder cases: 6-minute walk test at self-selected ``comfortable'' pace
+\end{itemize}
+
+\paragraph{Recovery Kinetics (Days 1--28).}
+\begin{itemize}
+    \item Blood draws: +30 min, +2h, +24h, +48h, +7 days, +14 days, +28 days
+    \item Daily symptom diaries
+    \item Primary outcome: Time to return to 90\% of baseline on Bell Scale
+\end{itemize}
+
+\paragraph{Proposed Cycle Gain Proxy.}
+A clinical proxy for cycle gain could be derived from recovery dynamics:
+$$G_{\text{proxy}} = \frac{\text{Peak symptom severity} \times \text{Recovery time}}{\text{Exertion magnitude} \times \text{Baseline function}}$$
+
+\textbf{Rationale}: This formula captures the intuition that higher cycle gain produces both more severe symptoms and longer recovery from equivalent exertion. However, this is a \textit{proposed} metric requiring validation---the specific functional form is not theoretically derived and alternatives (logarithmic, threshold-based) may prove superior.
+
+\textbf{Calibration}: Healthy control reference values must be established empirically. We hypothesize $G_{\text{healthy}} \approx 0.2$--$0.4$ based on typical post-exercise recovery (1--3 days), but this requires measurement in validation studies.
+
+\subsubsection{Clinical Interpretation}
+
+\begin{table}[htbp]
+\centering
+\caption{Proposed Cycle Gain Classification and Prognosis (Hypothetical---Requires Validation)}
+\label{tab:cycle-gain-prognosis}
+\begin{tabular}{p{2.5cm}p{3cm}p{3cm}p{4cm}}
+\toprule
+\textbf{Cycle Gain (Proxy)} & \textbf{Recovery Time} & \textbf{2-Year Prognosis$^*$} & \textbf{Treatment Implications} \\
+\midrule
+$G < 0.7$ & $<$5 days & Higher recovery potential & Conservative management; emphasize pacing \\
+\addlinespace
+$G = 0.7$--$1.0$ & 5--10 days & Moderate recovery potential & Moderate intervention; address reversible components \\
+\addlinespace
+$G = 1.0$--$1.5$ & 10--21 days & Lower recovery potential & Aggressive multi-target therapy; break cycle amplification \\
+\addlinespace
+$G > 1.5$ & $>$21 days & Poor recovery potential & Intensive intervention required; consider experimental protocols \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\footnotesize{$^*$Specific prognosis percentages removed as they were not empirically derived. The qualitative relationship (longer recovery $\rightarrow$ poorer prognosis) is hypothesized based on disease chronicity patterns~\cite{Cairns2005prognosis} but the quantitative mapping to $G$ values requires prospective validation. \textbf{Evidence Grade: D} (entire classification scheme is theoretical).}
+\end{table}
+
+\begin{warning}[Testing Risk]
+The 2-day CPET required for accurate cycle gain measurement may trigger prolonged crashes in susceptible patients. Protocol safeguards:
+\begin{itemize}
+    \item Exclude very severe patients (Bell $<$20) from testing
+    \item Provide 2-week rest period post-testing with monitoring
+    \item Informed consent must communicate potential for temporary worsening
+\end{itemize}
+\end{warning}
+
+\subsubsection{Research Priorities}
+
+\begin{enumerate}
+    \item \textbf{Validation study}: Prospective cohort ($n \geq 100$) correlating cycle gain measurement with 2-year outcome
+    \item \textbf{Biomarker correlation}: Does ATP/ADP ratio change predict clinical recovery time? ($r > 0.5$ expected)
+    \item \textbf{Treatment response prediction}: Do patients with $G < 1$ show $>$3$\times$ higher response rate to interventions?
+    \item \textbf{Simplified protocol}: Develop point-of-care ATP test + 14-day symptom diary for primary care use
+\end{enumerate}
+
+\textbf{Evidence Grade}: D (proposed methodology; requires validation)
+
+\subsection{Epigenetic Reversal Strategies}
+\label{subsec:epigenetic-reversal}
+
+\begin{hypothesis}[Epigenetic Lock-In in Chronic ME/CFS]
+In severe, prolonged ME/CFS, epigenetic modifications may ``lock in'' metabolic dysfunction even after original triggers resolve. DNA methylation of mitochondrial biogenesis genes (PGC-1$\alpha$, TFAM) and histone modifications maintaining closed chromatin at metabolic loci could create self-perpetuating pathological states.
+
+\textbf{Supporting evidence}: Epigenetic changes have been documented in ME/CFS, including altered DNA methylation patterns in immune cells~\cite{deVega2014mecfs_methylation}. However, whether these changes are causal (driving dysfunction) or consequential (downstream of other pathology) remains unknown.
+
+\textbf{Evidence Grade}: D (epigenetic changes documented; causal role in ME/CFS pathology not established)
+\end{hypothesis}
+
+Targeting these putative epigenetic locks represents a potential approach for treatment-refractory patients, though this strategy is highly speculative.
+
+\subsubsection{Tiered Epigenetic Intervention Framework}
+
+\begin{table}[htbp]
+\centering
+\caption{Tiered Epigenetic Reversal Strategies}
+\label{tab:epigenetic-tiers}
+\begin{tabular}{p{1.5cm}p{3cm}p{4.5cm}p{2.5cm}p{2cm}}
+\toprule
+\textbf{Tier} & \textbf{Population} & \textbf{Intervention} & \textbf{Risk Profile} & \textbf{Evidence} \\
+\midrule
+1 & All ME/CFS & NAD$^+$ precursors (sirtuin activation) & Low & C \\
+\addlinespace
+2 & Moderate-severe, failed treatments & NAD$^+$ + metformin + resveratrol & Low-moderate & D \\
+\addlinespace
+3 & Very severe, refractory & HDAC inhibitors (research only) & High & D \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Tier 1: Sirtuin Activation (Low Risk)}
+
+NAD$^+$-dependent sirtuins (SIRT1, SIRT3) deacetylate histones and transcription factors, potentially reversing epigenetic silencing of metabolic genes.
+
+\textbf{Protocol}:
+\begin{itemize}
+    \item NR or NMN: 500--1000 mg/day
+    \item Mechanism: Restore NAD$^+$ to support sirtuin function
+    \item Duration: $\geq$12 weeks for epigenetic effects
+\end{itemize}
+
+\textbf{Evidence Grade}: C (NAD$^+$ restoration documented; epigenetic reversal in ME/CFS not directly tested)
+
+\subsubsection{Tier 2: Combined Epigenetic Modulation (Moderate Risk)}
+
+For patients failing Tier 1:
+
+\textbf{Protocol}:
+\begin{itemize}
+    \item NAD$^+$ precursor (NR 1000 mg/day)
+    \item Metformin 500 mg BID (AMPK activation $\rightarrow$ PGC-1$\alpha$ induction)
+    \item Resveratrol 500 mg/day (sirtuin activation)
+    \item Duration: 16 weeks
+\end{itemize}
+
+\textbf{Monitoring}: Blood glucose, lactate, liver function at baseline and 8 weeks.
+
+\textbf{Evidence Grade}: D (theoretical combination; safety and efficacy require study)
+
+\subsubsection{Tier 3: HDAC Inhibitors (Research Stage Only)}
+
+\begin{warning}[HDAC Inhibitor Caution]
+HDAC inhibitors (vorinostat, butyrate, valproic acid) are cancer drugs with significant toxicity. Their use in ME/CFS is \textbf{entirely experimental} and should occur \textbf{only in research settings} with full ethics approval and intensive monitoring.
+
+\textbf{Risk profile}:
+\begin{itemize}
+    \item Thrombocytopenia (25--50\%)
+    \item Fatigue/asthenia (30--60\%)---paradoxical concern in ME/CFS
+    \item GI symptoms (30--50\%)
+    \item Cardiac effects (QTc prolongation, 5--10\%)
+\end{itemize}
+
+\textbf{Appropriate only for}: Very severe, treatment-refractory patients (Bell $<$20) who have failed all other approaches, with full informed consent acknowledging experimental nature and risks.
+\end{warning}
+
+\subsubsection{Mechanism and Rationale}
+
+\begin{hypothesis}[Mathematical Model of Epigenetic Lock-In]
+The epigenetic lock-in concept can be formalized as a dynamical system where methylation state becomes self-reinforcing:
+
+\[
+\frac{dM}{dt} = \alpha(1 - M) - \beta M \cdot f(S)
+\]
+
+where $M$ = methylation level at metabolic genes (0--1), $\alpha$ = de novo methylation rate, $\beta$ = baseline demethylation rate, and $f(S)$ = disease-state-dependent modifier of demethylation efficiency.
+
+\textbf{Model interpretation}: When disease severity $S$ is high, $f(S) \to 0$, suppressing demethylation and maintaining hypermethylation at a stable equilibrium $M^* \approx 1$. Recovery requires either reducing $S$ (breaking other disease mechanisms) or pharmacologically increasing $\beta$ (epigenetic intervention).
+
+\textbf{Limitations}: This is a conceptual model, not a quantitative prediction. Parameter values ($\alpha$, $\beta$, functional form of $f$) are unknown. The model illustrates the \textit{logic} of epigenetic lock-in but cannot predict specific outcomes without empirical calibration.
+
+\textbf{Evidence Grade}: D (theoretical construct; mathematical form is illustrative, not validated)
+\end{hypothesis}
+
+Epigenetic interventions aim to shift this balance by:
+\begin{itemize}
+    \item Enhancing demethylation (sirtuin activation, TET enzyme support)
+    \item Reducing methylation (DNMT inhibition---dietary: green tea EGCG, curcumin)
+    \item Opening chromatin (HDAC inhibition---research only)
+\end{itemize}
+
+\subsubsection{Research Priority}
+
+A cautious Phase 1b/2a study:
+
+\textbf{Phase 1} (Tier 2 combination):
+\begin{itemize}
+    \item Population: ME/CFS, moderate-severe (Bell 20--40), failed $\geq$3 treatments, $n = 30$
+    \item Intervention: NAD$^+$ precursor + metformin + resveratrol, 16 weeks
+    \item Primary outcome: Safety and tolerability
+    \item Secondary: Clinical response, methylation array changes
+\end{itemize}
+
+\textbf{Phase 2} (HDAC inhibitor pilot, only if Phase 1 safe and shows epigenetic effect):
+\begin{itemize}
+    \item Population: Very severe (Bell $<$20), failed all treatments, $n = 10$
+    \item Intervention: Low-dose vorinostat (200 mg, half of cancer dosing), 8 weeks
+    \item Intensive monitoring: Weekly CBC, LFTs, ECG
+    \item Primary outcome: Safety
+\end{itemize}
+
+\textbf{Evidence Grade}: D (entirely theoretical; requires careful staged investigation)
