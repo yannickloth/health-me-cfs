@@ -5,7 +5,7 @@
 \label{sec:selective-dysfunction}
 
 \begin{open_question}[Why Does Hair Grow Normally in Severe ME/CFS?]
-A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conversation, cannot tolerate light or sound---yet their hair continues to grow at a normal rate. Their nails grow. Wounds heal. These observations pose a fundamental challenge to the ``global energy failure'' model of ME/CFS: if mitochondrial dysfunction were truly systemic, \emph{all} energy-dependent processes should be impaired proportionally.
+A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conversation, cannot tolerate light or sound---yet their hair continues to grow at a normal rate. Their nails grow. Wounds heal. These clinical observations, while not formally quantified in the literature, pose a fundamental challenge to the ``global energy failure'' model of ME/CFS: if mitochondrial dysfunction were truly systemic, \emph{all} energy-dependent processes should be impaired proportionally.
 
 This chapter proposes that ME/CFS represents \emph{selective} rather than global energy dysfunction---specifically, a CNS coordination failure that impairs demand-responsive, CNS-dependent processes while sparing autonomous local processes that operate independently of central regulation.
 \end{open_question}
@@ -69,6 +69,8 @@ where:
 \end{itemize}
 
 For standardization to $[0,1]$, we use $\tilde{\rho}(P) = \frac{\rho(P)}{1 + \rho(P)}$.
+
+\textbf{Note on negative demand-response:} Some processes \emph{decrease} output under challenge (e.g., digestive function during fight-or-flight response, where blood flow diverts to skeletal muscle). For such processes, we define $\rho(P) = 0$ because the selective dysfunction hypothesis specifically addresses \emph{upregulation capacity}---the ability to increase output when demanded. Processes with negative demand-response represent regulatory suppression rather than capacity limitation, and require separate modeling frameworks (not within this hypothesis).
 \end{definition}
 
 \begin{definition}[Selective Dysfunction Severity]
@@ -117,24 +119,24 @@ Table~\ref{tab:process-classification} classifies biological processes by their 
 \textbf{Process} & $\delta_{CNS}$ & $\tilde{\rho}$ & \textbf{Predicted $S$} & \textbf{Observed} & \textbf{Certainty} \\
 \midrule
 \multicolumn{6}{l}{\textit{Preserved processes (low $\delta_{CNS}$, low $\rho$)}} \\
-Hair growth & 0.1 & 0.0 & 0.05 & Preserved & 0.7 \\
-Nail growth & 0.1 & 0.0 & 0.05 & Preserved & 0.7 \\
-Wound healing (basic) & 0.2 & 0.2 & 0.18 & Preserved & 0.6 \\
-Digestion (baseline) & 0.3 & 0.2 & 0.24 & Variable & 0.5 \\
+Hair growth & 0.1 & 0.0 & 0.06 & Preserved & 0.7 \\
+Nail growth & 0.1 & 0.0 & 0.06 & Preserved & 0.7 \\
+Wound healing (basic) & 0.2 & 0.2 & 0.24 & Preserved & 0.6 \\
+Digestion (baseline) & 0.3 & 0.2 & 0.30 & Variable & 0.5 \\
 \midrule
 \multicolumn{6}{l}{\textit{Impaired processes (high $\delta_{CNS}$ and/or high $\rho$)}} \\
-Exercise capacity & 0.8 & 0.8 & 0.90 & Severe & 0.9 \\
-Cognitive function & 1.0 & 0.5 & 0.85 & Severe & 0.9 \\
-Orthostatic regulation & 0.9 & 0.7 & 0.89 & Severe & 0.85 \\
-Temperature regulation & 0.8 & 0.4 & 0.70 & Moderate-Severe & 0.7 \\
-Sleep architecture & 0.9 & 0.3 & 0.72 & Severe & 0.8 \\
-Immune response to challenge & 0.5 & 0.7 & 0.67 & Dysregulated & 0.65 \\
+Exercise capacity & 0.8 & 0.8 & 1.14 & Severe & 0.9 \\
+Cognitive function & 1.0 & 0.5 & 1.05 & Severe & 0.9 \\
+Orthostatic regulation & 0.9 & 0.7 & 1.14 & Severe & 0.85 \\
+Temperature regulation & 0.8 & 0.4 & 0.81 & Moderate-Severe & 0.7 \\
+Sleep architecture & 0.9 & 0.3 & 0.80 & Severe & 0.8 \\
+Immune response to challenge & 0.5 & 0.7 & 0.79 & Dysregulated & 0.65 \\
 \bottomrule
 \end{tabular}
 
 \vspace{0.3cm}
 \footnotesize
-\textbf{Notes:} $S$ calculated with $\alpha = 0.5$, $\beta = 0.3$, $\gamma = 0.2$. Certainty reflects confidence in classification based on literature review.
+\textbf{Notes:} $S$ calculated with $\alpha = 0.6$, $\beta = 0.5$, $\gamma = 0.4$. Values $>1.0$ indicate severe predicted dysfunction (additive model without upper bound). Certainty reflects confidence in classification based on literature review.
 \end{table}
 
 \begin{observation}[Demand-Response Failure Pattern]
@@ -415,33 +417,79 @@ The selective dysfunction framework suggests natural subtypes based on primary c
 \label{hyp:subtypes}
 ME/CFS can be classified into subtypes based on which compartment shows primary dysfunction:
 
-\textbf{Input features:}
+\textbf{Input features (with measurement basis):}
 \begin{itemize}
-    \item $x_1$: CSF catecholamine deficit (z-score)
-    \item $x_2$: Orthostatic CBF reduction (\%)
-    \item $x_3$: Muscle ATP deficit at rest (\%)
-    \item $x_4$: Neuroimaging abnormality score (composite)
+    \item $x_1$: CSF catecholamine deficit (z-score relative to healthy controls)
+    \begin{itemize}
+        \item Measurement: CSF dopamine, norepinephrine, serotonin metabolites
+        \item Reference: NIH deep phenotyping study found significant CSF catecholamine reductions~\cite{walitt2024deep}
+    \end{itemize}
+    \item $x_2$: Orthostatic CBF reduction (\% decline from supine to upright)
+    \begin{itemize}
+        \item Measurement: Transcranial Doppler during tilt-table test
+        \item Reference: Controls show $\sim$5--10\% reduction; ME/CFS shows $\sim$20--30\% (3-fold greater)~\cite{Novak2022}
+    \end{itemize}
+    \item $x_3$: Muscle ATP deficit at rest (\% below control mean)
+    \begin{itemize}
+        \item Measurement: $^{31}$P-MRS of quadriceps or forearm
+        \item Reference: Variable findings in literature; some studies show 20--40\% reduction
+    \end{itemize}
+    \item $x_4$: Neuroimaging abnormality score (composite z-score)
+    \begin{itemize}
+        \item Measurement: PET neuroinflammation markers, fMRI activation patterns, MRS metabolites
+        \item Reference: Nakatomi et al.\ found 45--199\% elevation in neuroinflammation markers~\cite{Nakatomi2014neuroinflammation}
+    \end{itemize}
 \end{itemize}
 
-\textbf{Classification rules:}
+\textbf{Proposed classification rules (preliminary thresholds):}
+
+The following thresholds are \emph{preliminary estimates} based on effect sizes in the literature. They require empirical validation through clustering analysis on a multi-biomarker cohort before clinical application.
+
+\textbf{Note on units:} Thresholds use z-scores ($\sigma$) for standardized measures and absolute percentages (\%) for CBF changes, reflecting conventions in respective literatures.
+
 \begin{align*}
-\text{Subtype A (CNS-Primary)} &: x_1 < -1.5 \land x_4 > 2 \land x_3 > -0.5 \\
-\text{Subtype B (Autonomic-Primary)} &: x_2 > 30\% \land x_1 > -1.0 \\
-\text{Subtype C (Peripheral-Primary)} &: x_3 < -1.5 \land x_1 > -1.0 \land x_4 < 1 \\
-\text{Subtype D (Global/Advanced)} &: \text{Multiple criteria met}
+\text{Subtype A (CNS-Primary)} &: x_1 < -1.5\sigma \land x_4 > 2\sigma \land x_3 > -0.5\sigma \\
+&\quad \text{(CNS markers abnormal, peripheral spared)} \\[0.5em]
+\text{Subtype B (Autonomic-Primary)} &: x_2 > 25\% \land x_1 > -1.0\sigma \\
+&\quad \text{(OI dominant, CNS markers near-normal)} \\[0.5em]
+\text{Subtype C (Peripheral-Primary)} &: x_3 < -1.5\sigma \land x_1 > -1.0\sigma \land x_4 < 1\sigma \\
+&\quad \text{(Muscle deficit primary, CNS spared)} \\[0.5em]
+\text{Subtype D (Global/Advanced)} &: \geq 3 \text{ of } \{x_1 < -1.5\sigma, x_2 > 25\%, x_3 < -1.5\sigma, x_4 > 2\sigma\} \\
+&\quad \text{(Multi-system involvement)}
 \end{align*}
 
-\textbf{Validation required:} Unsupervised clustering on biomarker panel; sensitivity/specificity analysis.
-
-\textbf{Treatment implications:}
+\textbf{Threshold rationale:}
 \begin{itemize}
-    \item Subtype A: CNS-penetrant compounds, intranasal delivery
-    \item Subtype B: Autonomic modulators (midodrine, pyridostigmine)
-    \item Subtype C: Mitochondrial support, muscle-targeted interventions
-    \item Subtype D: Multi-system approach
+    \item $-1.5\sigma$: Corresponds to approximately the 7th percentile of control distribution---outside normal variation
+    \item $2\sigma$: Corresponds to approximately the 98th percentile---clearly elevated
+    \item $25\%$ CBF reduction: Approximately 2.5\,$\times$ the normal orthostatic response (note: this is an absolute percentage, not a z-score, reflecting how CBF changes are typically reported in the literature)
 \end{itemize}
 
-\textbf{Certainty:} 0.4 (framework plausible; requires validation cohort)
+\textbf{Overlap precedence:} When a patient meets criteria for multiple subtypes:
+\begin{enumerate}
+    \item If $\geq 3$ criteria met $\Rightarrow$ classify as Subtype D (Global) regardless of other matches
+    \item Otherwise, assign to the subtype with the most extreme abnormality (largest z-score deviation or percentage reduction); if tied, prioritize CNS-Primary $>$ Autonomic-Primary $>$ Peripheral-Primary (reflecting the hypothesis that CNS dysfunction is upstream)
+    \item Document secondary subtype features for treatment consideration
+\end{enumerate}
+
+\textbf{Validation protocol required:}
+\begin{enumerate}
+    \item Collect multi-biomarker panel in $n \geq 200$ ME/CFS patients (sample size rationale: with 4 subtypes and 4 input features, minimum 50 patients per subtype needed for stable cluster estimation; $n = 200$ provides robustness against unequal subtype prevalence and allows 10\% holdout for validation, with $k$-fold cross-validation to compensate for small holdout size)
+    \item Perform unsupervised clustering (k-means, hierarchical) to identify natural groupings
+    \item Compare data-driven clusters to proposed subtypes
+    \item Calculate sensitivity/specificity for each classification rule
+    \item Refine thresholds based on ROC analysis to optimize classification accuracy
+\end{enumerate}
+
+\textbf{Treatment implications (contingent on validation):}
+\begin{itemize}
+    \item Subtype A: CNS-penetrant compounds, intranasal delivery, neuroinflammation-targeted therapy
+    \item Subtype B: Autonomic modulators (midodrine, pyridostigmine), volume expansion
+    \item Subtype C: Mitochondrial support, muscle-targeted interventions, exercise rehabilitation if tolerated
+    \item Subtype D: Multi-system approach, sequential targeting of dominant compartments
+\end{itemize}
+
+\textbf{Certainty:} 0.35 (framework theoretically motivated; all thresholds are preliminary estimates requiring empirical validation before any clinical application)
 \end{hypothesis}
 
 
@@ -453,11 +501,11 @@ The selective dysfunction hypothesis has immediate treatment implications.
 
 \begin{observation}[Midodrine Effectiveness]
 \label{obs:midodrine}
-Midodrine (direct $\alpha_1$-adrenergic agonist) improves orthostatic symptoms in ME/CFS patients by directly stimulating peripheral vasculature, bypassing CNS autonomic coordination.
+Midodrine (direct $\alpha_1$-adrenergic agonist) improves orthostatic symptoms in patients with POTS and orthostatic intolerance---conditions highly comorbid with ME/CFS---by directly stimulating peripheral vasculature, bypassing CNS autonomic coordination~\cite{Ojha2024pediatricPOTS}.
 
 \textbf{Implication:} If peripheral targets were intrinsically dysfunctional, pharmacological bypass would not restore function. Midodrine effectiveness proves the peripheral machinery is intact; only CNS coordination is impaired.
 
-This is strong evidence for the selective dysfunction model: the problem is signaling/coordination, not end-organ failure.
+This is evidence for the selective dysfunction model: the problem is signaling/coordination, not end-organ failure.
 \end{observation}
 
 \subsubsection{Therapeutic Strategy}
