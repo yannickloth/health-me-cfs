@@ -1,0 +1,830 @@
+% Case Study: Differential Diagnostic Assessment
+% Patient: Marie
+% Created: 2026-02-06
+% Privacy: Anonymized with patient consent
+% Status: Initial assessment -- limited information available
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext}         % Palatino (texte)
+\usepackage{newpxmath}         % Palatino (maths)
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{tabularx}
+\geometry{margin=2.5cm}
+
+% Color definitions
+\definecolor{keyfindingbg}{RGB}{212,237,218}
+\definecolor{keyfindingborder}{RGB}{40,167,69}
+\definecolor{hypothesisbg}{RGB}{217,237,247}
+\definecolor{hypothesisborder}{RGB}{23,162,184}
+\definecolor{cautionbg}{RGB}{248,215,218}
+\definecolor{cautionborder}{RGB}{220,53,69}
+\definecolor{mechanismbg}{RGB}{232,232,232}
+\definecolor{mechanismborder}{RGB}{108,117,125}
+\definecolor{questionbg}{RGB}{255,243,205}
+\definecolor{questionborder}{RGB}{255,193,7}
+
+\newtcolorbox{keyfinding}[1][]{
+  colback=keyfindingbg, colframe=keyfindingborder,
+  adjusted title={\textbf{Constat clé~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{hypothesis}[1][]{
+  colback=hypothesisbg, colframe=hypothesisborder,
+  adjusted title={\textbf{Hypothèse~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{caution}[1][]{
+  colback=cautionbg, colframe=cautionborder,
+  adjusted title={\textbf{Attention~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{mechanism}[1][]{
+  colback=mechanismbg, colframe=mechanismborder,
+  adjusted title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{question}[1][]{
+  colback=questionbg, colframe=questionborder,
+  adjusted title={\textbf{À clarifier~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\title{Étude de cas~: Évaluation diagnostique différentielle\\[0.5em]
+\large Marie --- Fatigue intense avec neuropathie périphérique et intolérance au froid}
+\author{Document de travail --- À discuter avec un médecin prescripteur}
+\date{6 février 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{caution}{Document préliminaire}
+Cette étude de cas repose sur des informations \textbf{très limitées} recueillies lors d'un premier contact. Aucun diagnostic n'est posé. Les hypothèses ci-dessous orientent la démarche diagnostique et ne doivent pas être interprétées comme des conclusions.
+\end{caution}
+
+\tableofcontents
+\newpage
+
+%=============================================================================
+\section{Présentation clinique}
+\label{sec:presentation}
+%=============================================================================
+
+\subsection{Données démographiques}
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{l>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Paramètre} & \textbf{Valeur} \\
+\midrule
+Pseudonyme & Marie \\
+Sexe & Femme \\
+Âge & Inconnu \\
+Fatigue préexistante & Oui, depuis longtemps (durée non précisée) \\
+Aggravation majeure & Depuis septembre 2025 ($\rightarrow$ arrêt maladie) \\
+Statut professionnel & Fonctionnaire (employée de l'État). Arrêt maladie septembre 2025--janvier 2026~; temps partiel thérapeutique depuis février 2026 \\
+Parcours médical & Équipe multidisciplinaire n'a rien trouvé; orientation vers suivi psychologique \\
+Pression administrative & Congé maladie prolongé risque de mener à rupture de contrat par la caisse de santé des fonctionnaires \\
+Diagnostic ME/CFS & Non posé \\
+Déclencheur suspecté & Inconnu (aggravation en septembre sur fatigue préexistante) \\
+\bottomrule
+\end{tabularx}
+\caption{Résumé démographique}
+\end{table}
+
+\subsection{Symptômes rapportés}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{5cm}p{8cm}}
+\toprule
+\textbf{Symptôme} & \textbf{Détails} \\
+\midrule
+Fatigue intense & Depuis $\sim$5 mois (septembre--décembre 2025), décembre décrit comme «~insupportable~»~; à peine améliorée en janvier \\
+Céphalées constantes & Plutôt fortes, présentes depuis septembre 2025 (concomitantes à la fatigue) \\
+Picotements mains/pieds & Quasi constants, bilatéraux \\
+Sensibilité extrême au froid & L'eau froide est devenue douloureuse (pas seulement froide) \\
+Pression artérielle basse & Hypotension (valeurs non précisées) \\
+Dysfonction cognitive & Incapacité de concentration de septembre 2025 à janvier 2026~; légère amélioration en février 2026, mais à peine \\
+Syndrome du côlon irritable & «~Reizdarm~» --- durée et caractéristiques non précisées \\
+Polypes utérins & Diagnostic confirmé (détails non disponibles) \\
+\bottomrule
+\end{tabular}
+\caption{Symptômes rapportés lors du premier contact}
+\end{table}
+
+\subsection{Chronologie}
+
+\begin{mechanism}{Évolution temporelle}
+\begin{itemize}
+    \item \textbf{Avant septembre 2025}~: Fatigue chronique préexistante (durée et caractéristiques non précisées), mais capable de travailler normalement
+    \item \textbf{Septembre 2025}~: Aggravation majeure $\rightarrow$ arrêt de travail. Début simultané des céphalées constantes et incapacité de concentration
+    \item \textbf{Septembre--novembre 2025}~: Aggravation progressive \textbf{malgré l'inactivité totale} (arrêt maladie, «~ne rien faire de ses journées~»). Les céphalées augmentent progressivement. Incapacité totale de concentration (fatiguant). Profil d'aggravation MALGRÉ le repos complet
+    \item \textbf{Décembre 2025}~: Pic de sévérité («~insupportable~»). Les céphalées sont \textbf{encore plus fortes et plus douloureuses}, les sensations (picotements) sont \textbf{exacerbées}. Toujours incapable de se concentrer. Arrêt maladie. \textbf{L'état se dégrade malgré l'inactivité}
+    \item \textbf{Janvier 2026}~: À peine améliorée par rapport à décembre. Concentration toujours défaillante. Arrêt maladie / congé maladie
+    \item \textbf{Février 2026}~: Reprise en temps partiel thérapeutique~; premier contact. Concentration légèrement améliorée mais à peine. Reprend le travail \textbf{uniquement} pour éviter le risque administratif (rupture de contrat), \textbf{pas} par amélioration clinique réelle --- la reprise est purement administrative
+\end{itemize}
+
+\textbf{Éléments notables}~:
+\begin{enumerate}[nosep]
+    \item La transition d'une fatigue chronique «~gérable~» (travail normal) à une fatigue invalidante (arrêt de travail) en septembre 2025 suggère un événement déclencheur ou une décompensation.
+    \item \textbf{L'aggravation progressive malgré le repos total} (septembre$\rightarrow$décembre) est un signal clinique \textbf{majeur}~: le repos complet \textbf{devrait} stabiliser ou améliorer l'état, pas l'aggraver. \textbf{Ce profil d'aggravation MALGRÉ l'inactivité est très significatif} et évocateur d'un PEM déclenché par des micro-efforts ou des stimuli cognitifs/émotionnels/sensoriels, ou d'un processus pathologique progressif.
+    \item La dysfonction cognitive confirmée (septembre--janvier, incapacité totale de concentration, «~c'est fatiguant~») est un symptôme cardinal du ME/CFS (brain fog).
+\end{enumerate}
+\textbf{Questions critiques}~: Qu'est-il arrivé en août/septembre~? Infection, stress, changement hormonal, surmenage~?
+\end{mechanism}
+
+%=============================================================================
+\section{Peut-il s'agir d'un SFC~?}
+\label{sec:sfc-evaluation}
+%=============================================================================
+
+\subsection{Critères diagnostiques du ME/CFS}
+
+Le diagnostic de ME/CFS (selon les critères canadiens de consensus, CCC 2003, ou les critères IOM/NASEM 2015) requiert~:
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{4.5cm}cc>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Critère} & \textbf{Requis} & \textbf{Présent chez Marie~?} & \textbf{Remarques} \\
+\midrule
+Fatigue persistante ($\geq$6 mois) & Oui & \textbf{Oui} & Fatigue préexistante depuis longtemps; aggravation majeure depuis 5 mois \\
+Malaise post-effort (PEM) & Oui & \textbf{Probable} & Profil d'aggravation malgré repos complet~; voir discussion \\
+Sommeil non réparateur & Oui & Inconnu & Non renseigné \\
+Céphalées chroniques & Fréquent & Oui & Constantes et fortes depuis septembre \\
+Douleurs (myalgies\slash arthralgies) & Oui (CCC) & Partiellement & Picotements + céphalées, pas myalgies classiques \\
+Dysfonction cognitive & Oui (IOM) & \textbf{Oui} & Incapacité de concentration septembre 2025--janvier 2026~; légère amélioration février 2026 \\
+Intolérance orthostatique & Oui (IOM) & Possible & Hypotension compatible \\
+\bottomrule
+\end{tabularx}
+\caption{Évaluation des critères ME/CFS}
+\end{table}
+
+\begin{keyfinding}{Évaluation préliminaire ME/CFS}
+Avec les informations actuelles, le ME/CFS est \textbf{probable}~:
+\begin{itemize}
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] Fatigue chronique de longue date avec aggravation majeure depuis 5 mois
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] Hypotension artérielle (compatible avec dysautonomie)
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] Céphalées chroniques (fréquentes dans le ME/CFS)
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] \textbf{Dysfonction cognitive confirmée}~: incapacité totale de concentration de septembre 2025 à janvier 2026 («~c'est fatiguant~»)~; légère amélioration en février 2026 mais à peine (brain fog caractéristique)
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] \textbf{PEM probable}~: profil d'aggravation progressive MALGRÉ l'inactivité totale (septembre$\rightarrow$décembre). Les céphalées augmentent, les picotements s'exacerbent, l'état se dégrade malgré le repos complet. Ce profil suggère soit un PEM déclenché par des stimuli minimaux (cognitifs, sensoriels, émotionnels), soit un processus pathologique progressif~; voir discussion ci-dessous
+    \item[\textcolor{cautionborder}{?}] Sommeil non réparateur non renseigné
+\end{itemize}
+
+\textbf{Recommandation}~: Tenir un \textbf{journal d'activité et de symptômes} pendant 2--4 semaines pour objectiver la présence ou l'absence de PEM (noter efforts, puis symptômes dans les 12--72h suivantes).
+\end{keyfinding}
+
+\subsubsection{Discussion~: évaluation du PEM chez Marie}
+
+Le PEM chez Marie mérite une \textbf{attention particulière}. Trois éléments importants~:
+
+\begin{enumerate}
+    \item \textbf{Profil d'aggravation malgré le repos --- un signal fort}~: Marie a été en arrêt maladie de septembre à janvier, essentiellement inactive («~ne rien faire de ses journées~»). \textbf{Malgré cette inactivité totale}, son état s'est \textbf{aggravé progressivement}~:
+    \begin{itemize}[nosep]
+        \item Les céphalées ont \textbf{augmenté} et sont devenues \textbf{plus douloureuses}
+        \item Les sensations (picotements) ont été \textbf{exacerbées}
+        \item Incapacité de concentration persistante (septembre--janvier)
+        \item Pic de sévérité en décembre («~insupportable~»)
+    \end{itemize}
+
+    \textbf{Ce profil est très significatif}~: le repos complet \textbf{devrait} stabiliser ou améliorer l'état. Une aggravation progressive malgré l'inactivité suggère~:
+    \begin{itemize}[nosep]
+        \item \textbf{PEM déclenché par des stimuli minimaux}~: efforts cognitifs (concentration requise pour les tâches quotidiennes minimales), stimuli sensoriels (bruit, lumière), stimuli émotionnels (stress de l'arrêt maladie, anxiété), ou micro-efforts (se laver, préparer un repas simple, marcher jusqu'aux toilettes). Dans le ME/CFS sévère, le seuil de déclenchement du PEM peut être \textbf{extrêmement bas}.
+        \item \textbf{Processus pathologique progressif}~: inflammation chronique, auto-immunité active, ou détérioration physiologique continue.
+        \item \textbf{Les deux}~: un processus pathologique qui abaisse progressivement le seuil de PEM.
+    \end{itemize}
+
+    \textbf{Important}~: L'aggravation malgré le repos est \textbf{PLUS préoccupante} qu'un simple PEM classique. Le repos devrait protéger, pas aggraver.
+
+    \item \textbf{PEM non reconnu --- un phénomène fréquent}~: De nombreux patients ne reconnaissent pas le PEM car \textbf{il n'est pas toujours spectaculaire}. L'image populaire du PEM --- un effondrement total obligeant à rester alité 24h/24 dans le noir et le silence --- ne représente qu'un extrême du spectre. En réalité, le PEM se décline en \textbf{différents niveaux de sévérité}~:
+    \begin{itemize}[nosep,leftmargin=1.5em]
+        \item \textbf{PEM sévère}~: incapacité totale, alitement, intolérance aux stimuli sensoriels
+        \item \textbf{PEM modéré}~: aggravation nette des symptômes (céphalées plus intenses, picotements accrus, brouillard cognitif), réduction significative des capacités
+        \item \textbf{PEM léger / «~crash fonctionnel~»}~: la personne continue de fonctionner au \textbf{minimum vital} --- conduire les enfants à l'école, cuisiner un peu, se laver --- mais avec une aggravation des symptômes de fond qu'elle attribue à sa fatigue «~normale~»
+    \end{itemize}
+
+    \textbf{Dans le cas de Marie}, étant fatiguée depuis longtemps, elle a intégré un niveau de symptômes élevé comme son «~état normal~». Une aggravation des céphalées, une fatigue plus marquée, des picotements qui s'intensifient --- tout cela peut passer pour des fluctuations banales alors qu'il s'agit de PEM.
+
+    De plus, \textbf{tous les PEM ne sont pas attribuables à un effort identifiable}. Un PEM peut être déclenché par un stress cognitif, émotionnel, sensoriel (bruit, lumière), une station debout prolongée, voire une simple accumulation de micro-efforts quotidiens.
+
+    \textbf{C'est l'une des raisons principales pour lesquelles le ME/CFS est sous-diagnostiqué}~: le critère cardinal (PEM) est présent mais invisible au patient lui-même, noyé dans un bruit de fond symptomatique que le patient a appris à considérer comme «~normal~».
+
+    \item \textbf{Test naturel imminent}~: La reprise en temps partiel thérapeutique (février 2026) constitue un \textbf{test naturel du PEM}. \textbf{Attention}~: la reprise est purement administrative (pas d'amélioration clinique réelle). Si les symptômes s'aggravent davantage dans les semaines suivant la reprise, cela orienterait très fortement vers un ME/CFS.
+\end{enumerate}
+
+\subsection{Éléments compatibles avec un ME/CFS}
+
+Plusieurs éléments du tableau de Marie sont fréquemment retrouvés dans le ME/CFS~:
+
+\begin{enumerate}
+    \item \textbf{Hypotension artérielle}~: La dysautonomie (POTS, hypo\-tension ortho\-statique) est pré\-sente chez 50--70\% des pa\-tients ME/CFS
+    \item \textbf{Syndrome du côlon irritable}~: Comorbidité très fréquente (jusqu'à 60\% des patients ME/CFS)
+    \item \textbf{Neuropathie périphérique} (picotements)~: La neuropathie des petites fibres (NPF) est documentée chez 40--60\% des patients ME/CFS
+    \item \textbf{Début subaigu avec aggravation}~: Compatible avec un ME/CFS post-infectieux
+\end{enumerate}
+
+\subsection{Éléments atypiques ou non classiques}
+
+\begin{caution}{Signaux d'alerte --- Drapeaux rouges}
+Certains symptômes de Marie méritent une attention particulière car ils pourraient indiquer une \textbf{pathologie alternative}~:
+
+\begin{enumerate}
+    \item \textbf{Céphalées constantes et fortes depuis 5 mois}~: Des céphalées chroniques quotidiennes d'apparition récente constituent un \textbf{drapeau rouge} majeur. L'apparition simultanée avec la fatigue et les autres symptômes oriente vers~:
+    \begin{itemize}
+        \item Hypertension intracrânienne idiopathique (HTIC)
+        \item Artérite temporale (si âge >50)
+        \item Hypothyroïdie (céphalées fréquentes)
+        \item Connectivite systémique
+        \item Anémie sévère
+        \item Céphalées de tension chroniques secondaires
+    \end{itemize}
+
+    \item \textbf{Sensibilité extrême au froid avec douleur}~: Ce n'est \textbf{pas} un symptôme typique du ME/CFS. Cela évoque plutôt~:
+    \begin{itemize}
+        \item Phénomène de Raynaud
+        \item Neuropathie des petites fibres (NPF) sévère
+        \item Hypothyroïdie
+        \item Cryoglobulinémie
+    \end{itemize}
+
+    \item \textbf{Picotements constants bilatéraux}~: Symétriques et persistants, cela oriente vers une cause systémique (métabolique, auto-immune, carentielle) plutôt que vers le ME/CFS seul
+
+    \item \textbf{Profil compatible avec un PEM}~: L'aggravation progressive malgré l'inactivité totale (septembre$\rightarrow$décembre) est compatible avec un PEM déclenché par des stimuli minimaux. Cependant, ce profil peut aussi indiquer un processus pathologique progressif. La reprise en temps partiel thérapeutique servira de test supplémentaire.
+
+    \item \textbf{Durée courte} (5 mois)~: Le diagnostic de ME/CFS requiert $\geq$6 mois. À ce stade, on ne peut parler que de suspicion
+
+    \item \textbf{Polypes utérins}~: Sans lien direct avec le ME/CFS, mais peuvent indiquer un terrain inflammatoire ou hormonal à explorer
+\end{enumerate}
+\end{caution}
+
+%=============================================================================
+\section{Diagnostics différentiels}
+\label{sec:differentials}
+%=============================================================================
+
+Étant donné les symptômes, plusieurs diagnostics doivent être envisagés \textbf{en priorité, avant de conclure à un ME/CFS}~:
+
+\subsection{Priorité 1~: À exclure en urgence}
+
+\begin{hypothesis}{Hypothyroïdie}
+\textbf{Compatibilité}~: \textbf{Élevée}
+
+L'hypothyroïdie explique \textbf{tous} les symptômes rapportés~:
+\begin{itemize}
+    \item Fatigue intense et progressive
+    \item Intolérance au froid (cardinal de l'hypothyroïdie)
+    \item Céphalées chroniques
+    \item Paresthésies (neuropathie secondaire à l'hypothyroïdie)
+    \item Hypotension
+    \item Troubles digestifs (constipation, mais aussi IBS-like)
+\end{itemize}
+
+\textbf{Bilan}~: TSH, T4 libre, T3 libre, anticorps anti-TPO, anti-thyroglobuline
+
+\textbf{Note}~: C'est le diagnostic le plus \textbf{simple à exclure} et le plus \textbf{important à ne pas manquer}, car il est directement traitable.
+\end{hypothesis}
+
+\begin{hypothesis}{Carence en vitamine B12 / folates}
+\textbf{Compatibilité}~: \textbf{Élevée}
+
+La carence en B12 peut expliquer~:
+\begin{itemize}
+    \item Fatigue profonde
+    \item Neuropathie périphérique bilatérale (picotements mains et pieds --- distribution classique «~en gants et chaussettes~»)
+    \item Troubles digestifs (IBS-like, glossite)
+    \item Hypotension
+\end{itemize}
+
+\textbf{Bilan}~: Vitamine B12 sérique, folates, homocystéine, acide méthylmalonique (MMA)
+
+\textbf{Note}~: Le SCI (Reizdarm) pourrait être à la fois une cause (malabsorption) et une conséquence d'une carence en B12.
+\end{hypothesis}
+
+\begin{hypothesis}{Carence en fer / anémie}
+\textbf{Compatibilité}~: Modérée
+
+Chez une femme avec polypes utérins (saignements possibles)~:
+\begin{itemize}
+    \item Fatigue intense
+    \item Intolérance au froid
+    \item Paresthésies (si anémie sévère)
+    \item Hypotension
+\end{itemize}
+
+\textbf{Bilan}~: NFS, ferritine, fer sérique, transferrine, coefficient de saturation
+
+\textbf{Note}~: Les polypes utérins peuvent provoquer des ménorragies $\rightarrow$ anémie ferriprive insidieuse.
+\end{hypothesis}
+
+\subsection{Priorité 2~: À rechercher activement}
+
+\begin{hypothesis}{Neuropathie des petites fibres (NPF)}
+\textbf{Compatibilité}~: \textbf{Élevée} pour les symptômes neurologiques
+
+Les picotements constants et la douleur au froid sont très évocateurs~:
+\begin{itemize}
+    \item Paresthésies bilatérales distales
+    \item Allodynie au froid (douleur à un stimulus normalement non douloureux)
+    \item Dysautonomie (hypotension)
+    \item Troubles digestifs (NPF autonome $\rightarrow$ dysmotilité gastro-intestinale)
+\end{itemize}
+
+\textbf{Bilan}~: Biopsie cutanée (densité des fibres nerveuses intraépidermiques), test sudomoteur (QSART), test de Sudoscan
+
+\textbf{Causes à rechercher si NPF confirmée}~: diabète/prédiabète, auto-immunité, Sjögren, sarcoïdose, amylose, cœliaquie, carence en B12
+\end{hypothesis}
+
+\begin{hypothesis}{Phénomène de Raynaud / connectivite}
+\textbf{Compatibilité}~: Modérée à élevée
+
+La douleur au contact de l'eau froide évoque un vasospasme~:
+\begin{itemize}
+    \item Raynaud primaire~: vasospasme sans cause sous-jacente
+    \item Raynaud secondaire~: associé à sclérodermie, lupus, Sjögren, connectivite mixte
+\end{itemize}
+
+\textbf{Bilan}~: ANA (anticorps antinucléaires), anti-ENA, anti-Scl70, anti-centromère, capillaroscopie péri-unguéale, complément C3/C4
+
+\textbf{Note}~: Si Raynaud secondaire confirmé, cela ouvrirait la porte à un diagnostic de connectivite expliquant l'ensemble du tableau.
+\end{hypothesis}
+
+\begin{hypothesis}{Maladie cœliaque}
+\textbf{Compatibilité}~: Modérée
+
+La maladie cœliaque peut se manifester par~:
+\begin{itemize}
+    \item Fatigue chronique
+    \item Troubles digestifs (IBS-like)
+    \item Neuropathie périphérique (par malabsorption de B12 et/ou atteinte auto-immune directe)
+    \item Carences multiples $\rightarrow$ anémie, intolérance au froid
+\end{itemize}
+
+\textbf{Bilan}~: Anticorps anti-transglutaminase IgA, IgA totales, anti-endomysium
+\end{hypothesis}
+
+\subsection{Priorité 3~: À garder en tête}
+
+\begin{hypothesis}{Syndrome de Sjögren}
+Le syndrome de Sjögren peut causer~:
+\begin{itemize}
+    \item Fatigue chronique invalidante (symptôme majeur)
+    \item NPF (très fréquent dans le Sjögren)
+    \item Phénomène de Raynaud
+    \item Troubles digestifs
+    \item Hypotension (dysautonomie)
+\end{itemize}
+
+\textbf{Bilan}~: Anti-SSA/Ro, anti-SSB/La, test de Schirmer, évaluation de la sécheresse buccale/oculaire
+
+\textbf{Note}~: Le Sjögren peut mimer un ME/CFS de manière quasi parfaite. Il doit être exclu avant de conclure à un SFC.
+\end{hypothesis}
+
+\begin{hypothesis}{Cryoglobulinémie}
+\textbf{Compatibilité}~: Possible
+
+L'intolérance extrême au froid avec douleur oriente vers~:
+\begin{itemize}
+    \item Cryoglobulines circulantes $\rightarrow$ précipitation au froid $\rightarrow$ vasculite
+    \item Associée à hépatite C, maladies auto-immunes, lymphoproliférations
+    \item Peut causer fatigue, neuropathie, phénomène de Raynaud, arthralgies
+\end{itemize}
+
+\textbf{Bilan}~: Cryoglobulines (prélèvement à 37°C), sérologie hépatite C, complément C4
+\end{hypothesis}
+
+\begin{hypothesis}{Diabète / prédiabète}
+\textbf{Compatibilité}~: Modérée
+
+La neuropathie diabétique est la cause la plus fréquente de neuropathie périphérique~:
+\begin{itemize}
+    \item Paresthésies en gants et chaussettes
+    \item Fatigue
+    \item Troubles digestifs (gastroparésie, IBS-like)
+\end{itemize}
+
+\textbf{Bilan}~: Glycémie à jeun, HbA1c, HGPO si nécessaire
+\end{hypothesis}
+
+%=============================================================================
+\section{Impact des bilans antérieurs négatifs}
+\label{sec:negative-workup}
+%=============================================================================
+
+\begin{keyfinding}{Bilan multidisciplinaire négatif~: pistes complémentaires}
+Une équipe multidisciplinaire a évalué Marie sans identifier de diagnostic et a orienté vers un \textbf{suivi psychologique}. Cette situation est fréquente dans les pathologies dont le diagnostic repose sur des examens spécialisés non inclus dans les bilans de routine.
+
+\textbf{1. Les bilans standards ont des limites reconnues}
+
+Certaines pathologies échappent aux examens de routine. En moyenne, le délai diagnostique du ME/CFS est de 5 ans et nécessite la consultation de 5 à 7 médecins, précisément parce que les bilans standards reviennent normaux.
+
+\textbf{2. Examens probablement déjà réalisés}
+\begin{itemize}
+    \item Bilan sanguin standard (NFS, thyroïde, glycémie, inflammation)
+    \item Éventuellement EMG (qui ne détecte que les \textbf{grosses} fibres~: un EMG normal n'exclut pas une NPF)
+    \item Imagerie cérébrale (IRM~?) pour les céphalées
+    \item Évaluation rhumatologique et/ou neurologique
+\end{itemize}
+
+\textbf{3. Examens complémentaires à envisager}
+
+Certains examens spécialisés ne font pas partie des bilans de routine mais pourraient apporter des réponses~:
+\begin{itemize}
+    \item Biopsie cutanée pour NPF (examen spécialisé, rarement prescrit en première intention)
+    \item Tilt-test pour dysautonomie
+    \item Recherche ciblée de cryoglobulines
+    \item Évaluation spécifique du malaise post-effort (critère cardinal du ME/CFS)
+    \item Dosages spécialisés~: anti-SSA/SSB, cryoglobulines, B12 fonctionnelle (MMA, homocystéine)
+\end{itemize}
+
+\textbf{4. La piste psychologique mérite d'être complétée}
+
+L'orientation psychologique peut être pertinente comme prise en charge complémentaire, mais la persistance de symptômes organiques objectifs (paresthésies constantes, allodynie au froid, hypotension) justifie la poursuite des investigations somatiques en parallèle.
+\end{keyfinding}
+
+\begin{caution}{Enjeux diagnostiques et administratifs}
+L'absence de diagnostic organique a des conséquences concrètes~:
+\begin{enumerate}
+    \item Les bilans standards reviennent normaux
+    \item Sans diagnostic identifié, le congé maladie ne peut être prolongé
+    \item La reprise du travail est motivée par des contraintes administratives plutôt que par une amélioration clinique
+    \item Si un ME/CFS est en cause, une reprise prématurée risque d'aggraver l'état (malaise post-effort)
+\end{enumerate}
+
+\textbf{Urgence double}~:
+\begin{itemize}
+    \item \textbf{Médicale}~: Obtenir un diagnostic pour orienter le traitement
+    \item \textbf{Administrative}~: Obtenir un diagnostic pour protéger le statut professionnel de Marie (fonctionnaire)
+\end{itemize}
+\end{caution}
+
+\begin{question}{Parcours médical --- à clarifier en priorité}
+\textbf{Il est indispensable de savoir ce que l'équipe multidisciplinaire a fait exactement}~:
+\begin{itemize}
+    \item De quelles spécialités était composée l'équipe~?
+    \item Marie peut-elle obtenir un compte rendu détaillé~? (liste des examens réalisés et résultats)
+    \item Y a-t-il eu imagerie cérébrale (IRM)~? $\rightarrow$ céphalées constantes
+    \item Y a-t-il eu un EMG~? $\rightarrow$ si oui, normal n'exclut pas la NPF
+    \item L'orientation psychologique a-t-elle abouti à un diagnostic précis (dépression, trouble anxieux)~? Ou est-elle restée non spécifique~?
+\end{itemize}
+
+\textbf{Obtenir le compte rendu de l'équipe multidisciplinaire est la première étape.} Cela évitera de refaire des examens déjà pratiqués et permettra d'identifier les examens spécialisés manquants.
+\end{question}
+
+%=============================================================================
+\section{Le ME/CFS comme symptôme d'un autre dysfonctionnement~?}
+\label{sec:mecfs-as-symptom}
+%=============================================================================
+
+\begin{keyfinding}{Question fondamentale --- ME/CFS primaire vs secondaire}
+Le ME/CFS peut-il être le \textbf{symptôme} d'une pathologie sous-jacente plutôt qu'une maladie en soi~? C'est une question centrale, et la réponse est~: \textbf{oui, dans certains cas}.
+
+Il faut distinguer trois scénarios~:
+
+\begin{enumerate}
+    \item \textbf{Fatigue chronique symptomatique} (pas un vrai ME/CFS)~: Une maladie identifiable (hypothyroïdie, carence en fer, Sjögren, etc.) provoque une fatigue chronique qui \textbf{mime} le ME/CFS. Le traitement de la cause résout les symptômes. Ce n'est pas un ME/CFS, c'est un diagnostic différentiel.
+
+    \item \textbf{ME/CFS déclenché par une pathologie sous-jacente}~: Une maladie chronique (carence en fer de longue durée, infection virale persistante, auto-immunité) provoque un stress physiologique suffisant pour \textbf{déclencher} un vrai ME/CFS. Le ME/CFS devient alors une entité propre --- même si la cause initiale est traitée, le ME/CFS peut persister.
+
+    \item \textbf{ME/CFS primaire}~: Aucune cause sous-jacente identifiable. Le ME/CFS est la maladie elle-même.
+\end{enumerate}
+\end{keyfinding}
+
+\begin{hypothesis}{Carence en fer chronique comme cause racine chez Marie~?}
+L'hypothèse d'une carence en fer chronique est particulièrement pertinente dans le cas de Marie~:
+
+\textbf{Arguments pour~:}
+\begin{itemize}
+    \item \textbf{Polypes utérins} $\rightarrow$ saignements chroniques possibles $\rightarrow$ déplétion progressive en fer
+    \item \textbf{Fatigue chronique préexistante de longue date}~: compatible avec une carence insidieuse sur des années
+    \item La carence en fer peut causer \textbf{tous} les symptômes~: fatigue, céphalées, paresthésies, intolérance au froid, hypotension, troubles digestifs
+    \item Le seuil de «~normalité~» de la ferritine est controversé~: une ferritine à 20--30 µg/l est considérée «~normale~» par de nombreux laboratoires, mais est \textbf{fonctionnellement insuffisante} pour beaucoup de femmes
+    \item \textbf{Scénario plausible}~: Carence en fer chronique insidieuse (années) $\rightarrow$ fatigue «~gérable~» $\rightarrow$ événement déclencheur en septembre (infection~? stress~?) $\rightarrow$ décompensation $\rightarrow$ tableau actuel
+\end{itemize}
+
+\textbf{Points critiques~:}
+\begin{itemize}
+    \item Une NFS «~normale~» n'exclut \textbf{pas} une carence en fer~: l'anémie est le \textbf{stade terminal} de la carence. La ferritine peut être effondrée bien avant que l'hémoglobine ne baisse.
+    \item Si l'équipe multidisciplinaire a vérifié la NFS et trouvé «~pas d'anémie~», elle a pu conclure «~pas de problème de fer~» sans avoir dosé la ferritine séparément.
+    \item \textbf{Ferritine cible}~: Pour résoudre des symptômes de fatigue, la ferritine devrait être $>$50 µg/l, idéalement $>$80 µg/l. Le seuil de «~normalité~» du labo ($>$12--15 µg/l) est beaucoup trop bas.
+\end{itemize}
+\end{hypothesis}
+
+\begin{mechanism}{Cascade~: carence chronique $\rightarrow$ décompensation $\rightarrow$ ME/CFS~?}
+Si cette hypothèse est correcte, la séquence serait~:
+
+\begin{enumerate}
+    \item \textbf{Terrain}~: Carence en fer chronique (polypes, règles, alimentation) $\rightarrow$ fatigue de longue date
+    \item \textbf{Conséquences en cascade}~:
+    \begin{itemize}
+        \item Fer bas $\rightarrow$ synthèse d'hémoglobine réduite $\rightarrow$ oxygénation tissulaire diminuée
+        \item Fer bas $\rightarrow$ dysfonction mitochondriale (le fer est un cofacteur de la chaîne respiratoire)
+        \item Fer bas $\rightarrow$ synthèse de neurotransmetteurs altérée (dopamine, sérotonine)
+        \item Fer bas $\rightarrow$ neuropathie périphérique (les petites fibres sont vulnérables)
+        \item Fer bas $\rightarrow$ immunodépression relative $\rightarrow$ vulnérabilité aux infections
+    \end{itemize}
+    \item \textbf{Décompensation} (septembre 2025)~: Un stress supplémentaire (infection~?) sur un organisme déjà fragilisé dépasse la capacité d'adaptation
+    \item \textbf{Cercle vicieux}~: Le SCI aggrave la malabsorption intestinale du fer, renforçant la carence
+\end{enumerate}
+
+\textbf{Implication thérapeutique}~: Si la carence en fer est la cause racine, la correction agressive du fer (perfusion IV si nécessaire, pas seulement comprimés) pourrait résoudre \textbf{la majorité} des symptômes. C'est un scénario très favorable.
+\end{mechanism}
+
+\begin{caution}{Mais attention --- même si le fer est bas, ce n'est peut-être pas la cause unique}
+Trois scénarios sont possibles~:
+
+\begin{enumerate}
+    \item \textbf{Le fer est la cause de tout} (scénario optimiste)~: Correction du fer $\rightarrow$ amélioration progressive de tous les symptômes en quelques mois. Pas de ME/CFS.
+
+    \item \textbf{Le fer est un facteur aggravant, mais pas la cause unique}~: Correction du fer $\rightarrow$ amélioration partielle. D'autres mécanismes (NPF, dysautonomie, auto-immunité) persistent et nécessitent un traitement spécifique.
+
+    \item \textbf{Le fer est normal}~: Cela ne change pas les autres hypothèses (NPF, ME/CFS, connectivite).
+\end{enumerate}
+
+\textbf{Approche recommandée}~: Doser la ferritine, le fer sérique, la transferrine et le coefficient de saturation \textbf{en priorité}, indépendamment de la NFS. Si la ferritine est $<$50 µg/l, corriger agressivement et réévaluer après 3 mois.
+\end{caution}
+
+%=============================================================================
+\section{NPF et ME/CFS~: cause, conséquence, ou comorbidité~?}
+\label{sec:npf-mecfs-link}
+%=============================================================================
+
+\begin{keyfinding}{Les petites fibres peuvent souffrir de l'inflammation chronique du ME/CFS}
+La relation entre NPF et ME/CFS n'est \textbf{pas} à sens unique. Trois modèles sont possibles~:
+
+\begin{enumerate}
+    \item \textbf{NPF $\rightarrow$ ME/CFS}~: La neuropathie est la cause primaire, et les symptômes de fatigue, dysautonomie, et troubles digestifs en découlent. Traiter la NPF améliore tout.
+
+    \item \textbf{ME/CFS $\rightarrow$ NPF}~: Le ME/CFS provoque une neuro-inflammation chronique qui endommage les petites fibres au fil du temps. La NPF est alors une \textbf{conséquence} du ME/CFS, pas sa cause.
+
+    \item \textbf{Cause commune}~: Un processus auto-immun ou inflammatoire sous-jacent provoque \textbf{à la fois} la NPF et le ME/CFS. Les deux sont des manifestations parallèles d'un même dysfonctionnement.
+\end{enumerate}
+\end{keyfinding}
+
+\begin{mechanism}{Comment le ME/CFS peut endommager les petites fibres}
+Plusieurs mécanismes documentés dans la littérature ME/CFS peuvent expliquer une NPF secondaire~:
+
+\begin{enumerate}
+    \item \textbf{Neuro-inflammation chronique}~: Le ME/CFS est associé à une activation persistante de la microglie (cellules immunitaires du système nerveux). Les cytokines pro-inflammatoires (TNF-$\alpha$, IL-6, IL-1$\beta$) libérées endommagent progressivement les petites fibres nerveuses.
+
+    \item \textbf{Auto-anticorps}~: Des auto-anticorps dirigés contre les récepteurs adrénergiques et muscariniques (anti-$\beta$2, anti-M3) ont été identifiés chez des patients ME/CFS. Ces anticorps peuvent directement attaquer les petites fibres autonomes, provoquant dysautonomie et neuropathie.
+
+    \item \textbf{Stress oxydatif}~: La dysfonction mitochondriale documentée dans le ME/CFS génère un excès de radicaux libres. Les petites fibres, non myélinisées et donc non protégées, sont particulièrement vulnérables au stress oxydatif.
+
+    \item \textbf{Hypoperfusion}~: La dysautonomie du ME/CFS provoque une vasoconstriction et une hypoperfusion tissulaire. Les nervi nervorum (vaisseaux nourriciers des nerfs) sont atteints, privant les petites fibres d'oxygène et de nutriments.
+
+    \item \textbf{Activation mastocytaire}~: L'activation des mastocytes, fréquente dans le ME/CFS, libère de l'histamine et des protéases qui peuvent endommager directement les terminaisons nerveuses.
+\end{enumerate}
+
+\textbf{Résultat}~: Chez un patient ME/CFS, la densité des fibres nerveuses intraépidermiques diminue progressivement. Des études montrent que 40--60\% des patients ME/CFS ont une NPF objectivée par biopsie cutanée --- un taux bien trop élevé pour être une simple coïncidence.
+\end{mechanism}
+
+\begin{hypothesis}{Application au cas de Marie}
+Dans le cas de Marie, les deux directions sont possibles~:
+
+\textbf{Scénario A --- NPF d'abord, fatigue ensuite~:}
+\begin{itemize}
+    \item Cause initiale (auto-immune, carentielle~?) $\rightarrow$ NPF progressive
+    \item NPF $\rightarrow$ dysautonomie $\rightarrow$ hypotension + SCI
+    \item NPF + dysautonomie $\rightarrow$ fatigue chronique (la fatigue préexistante)
+    \item Septembre 2025~: Aggravation de la NPF (ou stress ajouté) $\rightarrow$ décompensation
+\end{itemize}
+
+\textbf{Scénario B --- ME/CFS d'abord, NPF secondaire~:}
+\begin{itemize}
+    \item Fatigue préexistante = ME/CFS fruste de longue date
+    \item Septembre 2025~: Déclencheur (infection~?) $\rightarrow$ ME/CFS franc
+    \item Neuro-inflammation du ME/CFS $\rightarrow$ dommages aux petites fibres
+    \item NPF apparaît ou s'aggrave $\rightarrow$ picotements, allodynie au froid
+\end{itemize}
+
+\textbf{Scénario C --- Cause commune~:}
+\begin{itemize}
+    \item Processus auto-immun latent $\rightarrow$ NPF + ME/CFS en parallèle
+    \item Septembre 2025~: Le processus s'intensifie ou un déclencheur l'active
+\end{itemize}
+
+\textbf{Implication pratique}~: Quel que soit le scénario, la NPF doit être recherchée et traitée. Mais si c'est le scénario B, traiter la NPF seule ne suffira pas --- il faudra aussi traiter le ME/CFS sous-jacent. Et inversement, traiter le ME/CFS pourrait stabiliser ou améliorer la NPF.
+\end{hypothesis}
+
+%=============================================================================
+\section{Synthèse diagnostique}
+\label{sec:synthesis}
+%=============================================================================
+
+\begin{mechanism}{Hiérarchie des diagnostics}
+\textbf{Probabilité estimée} --- tenant compte de l'évaluation multidisciplinaire négative, du profil d'aggravation malgré le repos, et de la dysfonction cognitive confirmée~:
+
+\begin{enumerate}
+    \item \textbf{ME/CFS}~: \textbf{Probabilité élevée} --- le parcours de Marie est un parcours-type du ME/CFS~: symptômes invalidants, bilans de routine négatifs, fatigue préexistante, \textbf{dysfonction cognitive confirmée} (incapacité de concentration septembre--janvier), et surtout \textbf{profil d'aggravation MALGRÉ l'inactivité totale}. Ce dernier point est particulièrement significatif et suggère soit un PEM à seuil très bas (déclenché par stimuli minimaux), soit un processus pathologique progressif, soit les deux.
+
+    \item \textbf{Neuropathie des petites fibres (NPF)}~: \textbf{Probabilité élevée} --- les picotements constants, l'allodynie au froid, l'hypotension et le SCI sont très évocateurs. La NPF est \textbf{invisible} à l'EMG standard et aux bilans de routine. Elle nécessite une biopsie cutanée ou un Sudoscan. Ce diagnostic nécessite des examens spécialisés rarement inclus dans les bilans de routine. \textbf{Peut coexister avec le ME/CFS} (40--60\% des patients ME/CFS ont une NPF).
+
+    \item \textbf{Connectivite} (Sjögren, Raynaud)~: \textbf{Probabilité modérée} --- à rechercher si anti-SSA/SSB non encore demandés. Le Sjögren peut avoir des ANA négatifs.
+    \item \textbf{Hypothyroïdie subclinique ou B12 «~normale basse~»}~: Possible --- zones grises où les médecins concluent «~normal~» mais où des symptômes existent.
+    \item \textbf{Cryoglobulinémie}~: Rarement recherchée en routine. L'allodynie au froid justifie ce dosage.
+    \item \textbf{Anémie / hypothyroïdie franche}~: Probablement déjà exclues par l'équipe multidisciplinaire.
+\end{enumerate}
+
+\textbf{Point clé}~: Le ME/CFS et la NPF sont en tête de la hiérarchie. Le profil d'aggravation malgré le repos et la dysfonction cognitive confirmée orientent significativement vers le ME/CFS. Or, le ME/CFS et la NPF nécessitent des explorations spécialisées qui ne font pas partie des bilans de routine.
+
+\textbf{Important}~: NPF et ME/CFS coexistent fréquemment. Jusqu'à 40--60\% des patients ME/CFS ont une NPF. Ce ne sont pas des diagnostics mutuellement exclusifs.
+\end{mechanism}
+
+%=============================================================================
+\section{Bilan biologique recommandé}
+\label{sec:workup}
+%=============================================================================
+
+\subsection{Bilan de première intention}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{4.5cm}p{4.5cm}p{4cm}}
+\toprule
+\textbf{Examen} & \textbf{Ce qu'on cherche} & \textbf{Hypothèse testée} \\
+\midrule
+\multicolumn{3}{l}{\textit{Hématologie~:}} \\
+NFS complète & Anémie, macrocytose, lymphopénie & Anémie, carence B12 \\
+Ferritine, fer, transferrine & Carence martiale & Anémie ferriprive \\
+\midrule
+\multicolumn{3}{l}{\textit{Thyroïde~:}} \\
+TSH, T4L, T3L & Hypothyroïdie & Hypothyroïdie \\
+Anti-TPO & Thyroïdite auto-immune & Hashimoto \\
+\midrule
+\multicolumn{3}{l}{\textit{Métabolisme~:}} \\
+Vitamine B12 & Carence & Neuropathie carentielle \\
+Folates & Carence & Anémie mégaloblastique \\
+Homocystéine & Carence B12/folates fonctionnelle & Neuropathie \\
+Glycémie à jeun, HbA1c & Diabète/prédiabète & Neuropathie diabétique \\
+\midrule
+\multicolumn{3}{l}{\textit{Immunologie~:}} \\
+ANA & Auto-immunité systémique & Connectivite \\
+VS, CRP & Inflammation & Orientation globale \\
+\midrule
+\multicolumn{3}{l}{\textit{Autres~:}} \\
+Créatinine, ionogramme & Fonction rénale & Insuffisance rénale \\
+Bilan hépatique & Fonction hépatique & Hépatite chronique \\
+Vitamine D & Carence & Fatigue, douleurs \\
+\bottomrule
+\end{tabular}
+\caption{Bilan biologique de première intention}
+\end{table}
+
+\subsection{Bilan de deuxième intention (si bilan initial non concluant)}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{4.5cm}p{4.5cm}p{4cm}}
+\toprule
+\textbf{Examen} & \textbf{Ce qu'on cherche} & \textbf{Hypothèse testée} \\
+\midrule
+Anti-SSA/Ro, anti-SSB/La & Syndrome de Sjögren & Connectivite \\
+Anti-transglutaminase IgA & Maladie cœliaque & Malabsorption \\
+Cryoglobulines & Cryoglobulinémie & Intolérance au froid \\
+Sérologie hépatite B/C & Hépatites chroniques & Cryoglobulinémie \\
+Complément C3, C4 & Consommation du complément & Auto-immunité \\
+Acide méthylmalonique & B12 fonctionnelle & Neuropathie \\
+EBV, CMV sérologies & Infections virales chroniques & ME/CFS post-infectieux \\
+\midrule
+\multicolumn{3}{l}{\textit{Explorations fonctionnelles~:}} \\
+Capillaroscopie & Microangiopathie & Raynaud secondaire \\
+Tilt-test / test de Schellong & Dysautonomie & POTS, hypotension \\
+\bottomrule
+\end{tabular}
+\caption{Bilan biologique de deuxième intention}
+\end{table}
+
+%=============================================================================
+\section{Questions essentielles à poser à Marie}
+\label{sec:questions}
+%=============================================================================
+
+\begin{question}{Informations critiques manquantes}
+Les réponses à ces questions sont \textbf{déterminantes} pour l'orientation diagnostique~:
+
+\textbf{1. Malaise post-effort (PEM) --- approfondir~:}
+
+\textit{Observation~: Marie a décrit une aggravation progressive de septembre à décembre MALGRÉ l'inactivité totale (céphalées augmentées et plus douloureuses, sensations exacerbées). Ce profil est compatible avec un PEM déclenché par des micro-efforts ou stimuli minimaux. Questions complémentaires~:}
+\begin{itemize}
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] \textbf{Observation documentée}~: Aggravation progressive malgré repos total (septembre$\rightarrow$décembre)
+    \item À clarifier~: Pendant les mois d'arrêt, y avait-il des jours meilleurs et des jours pires~? Si oui, les jours pires suivaient-ils une activité minimale (douche, ménage léger, visite)~?
+    \item Depuis la reprise en temps partiel~: comment vous sentez-vous le lendemain et surlendemain des jours travaillés~?
+    \item Les céphalées s'aggravent-elles après un effort même minimal~?
+    \item Les picotements s'intensifient-ils après une activité~?
+    \item Y a-t-il des jours où vous êtes «~étonnamment bien~» puis des jours où tout est pire sans raison apparente~? (Cycle boom-bust)
+    \item Quels types de stimuli déclenchent ou aggravent vos symptômes~? (Bruit, lumière, conversation, concentration, position debout, émotions~?)
+\end{itemize}
+
+\textbf{2. Déclencheur~:}
+\begin{itemize}
+    \item Y a-t-il eu une infection (grippe, COVID, gastro-entérite) peu avant septembre 2025~?
+    \item Un événement stressant majeur~?
+    \item Un changement de médicament ou de traitement~?
+    \item Vaccination récente~?
+\end{itemize}
+
+\textbf{3. Sommeil~:}
+\begin{itemize}
+    \item Le sommeil est-il réparateur~?
+    \item Combien d'heures dormez-vous~?
+    \item Vous réveillez-vous fatiguée malgré un sommeil suffisant~?
+\end{itemize}
+
+\textbf{4. Céphalées~:}
+\begin{itemize}
+    \item Où se situe la douleur~? (Front, tempes, derrière les yeux, nuque, diffus~?)
+    \item Caractère~: pression/étau, pulsatile, ou lancinant~?
+    \item Aggravée par la lumière, le bruit~? (Migraines~?)
+    \item Aggravée en position couchée ou penchée en avant~? (HTIC~?)
+    \item Aggravée en position debout~? (Hypotension du LCR~?)
+    \item Accompagnée de troubles visuels~? (flou, éclairs, scotomes)
+    \item Réponse aux antalgiques courants (paracétamol, ibuprofène)~?
+\end{itemize}
+
+\textbf{5. Cognition~:}
+\begin{itemize}
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] \textbf{Répondu}~: Incapacité totale de concentration de septembre 2025 à janvier 2026 («~c'est fatiguant~»)~; légère amélioration en février 2026 mais à peine
+    \item À clarifier~: Troubles de mémoire~? Difficultés à trouver ses mots~? Ralentissement mental~?
+\end{itemize}
+
+\textbf{6. Intolérance au froid~:}
+\begin{itemize}
+    \item Les doigts/orteils changent-ils de couleur au froid (blancs, bleus, puis rouges)~? $\rightarrow$ Raynaud
+    \item La douleur est-elle localisée aux extrémités ou généralisée~?
+    \item L'intolérance au froid est-elle nouvelle ou ancienne~?
+\end{itemize}
+
+\textbf{7. Orthostatisme~:}
+\begin{itemize}
+    \item Vertiges en se levant~?
+    \item Palpitations en position debout~?
+    \item Besoin de s'asseoir ou s'allonger fréquemment~?
+\end{itemize}
+
+\textbf{8. Antécédents~:}
+\begin{itemize}
+    \item Âge~?
+    \item Antécédents médicaux (en dehors des symptômes actuels)~?
+    \item Antécédents familiaux (thyroïde, auto-immunité, anémie)~?
+    \item Médicaments actuels~?
+    \item Ménopause / statut hormonal~?
+\end{itemize}
+
+\textbf{9. Poids~:}
+\begin{itemize}
+    \item Prise ou perte de poids récente~? $\rightarrow$ Thyroïde, malabsorption
+\end{itemize}
+\end{question}
+
+%=============================================================================
+\section{Conclusion préliminaire}
+\label{sec:conclusion}
+%=============================================================================
+
+\begin{keyfinding}{Résumé de l'évaluation initiale}
+\begin{enumerate}
+    \item \textbf{ME/CFS probable}~: Le tableau est compatible avec plusieurs critères confirmés~: fatigue chronique avec aggravation, dysfonction cognitive confirmée (incapacité de concentration septembre--janvier), hypotension, céphalées chroniques, et surtout \textbf{profil d'aggravation malgré le repos total} (très évocateur de PEM à seuil bas ou de processus pathologique progressif). La durée de 5 mois est légèrement inférieure au seuil de 6 mois, mais proche.
+
+    \item \textbf{Plusieurs diagnostics alternatifs doivent être exclus en priorité}~: L'hypothyroïdie, la carence en B12, et l'anémie ferriprive (polypes utérins) sont les plus urgents à rechercher car ils sont directement traitables.
+
+    \item \textbf{Les symptômes neurologiques méritent une attention particulière}~: Les picotements constants et l'allodynie au froid orientent vers une neuropathie des petites fibres, qui peut exister seule ou être comorbide avec un ME/CFS (40--60\% des patients ME/CFS).
+
+    \item \textbf{L'intolérance au froid avec douleur est un signal important}~: Ce symptôme, atypique pour un ME/CFS isolé, justifie la recherche d'un Raynaud, d'une connectivite, d'une cryoglobulinémie, ou d'une hypothyroïdie.
+
+    \item \textbf{Diagnostic non exclusif}~: Plusieurs pathologies peuvent coexister. Un ME/CFS peut s'accompagner d'une NPF, d'une dysautonomie, et de troubles digestifs fonctionnels.
+\end{enumerate}
+\end{keyfinding}
+
+\begin{caution}{Prochaines étapes}
+\begin{enumerate}
+    \item \textbf{Poser les questions clés} (section~\ref{sec:questions})~: en particulier sur le PEM, le déclencheur, et le Raynaud
+    \item \textbf{Bilan biologique de première intention} (section~\ref{sec:workup})
+    \item \textbf{Réévaluer après résultats}~: adapter les hypothèses en fonction des résultats
+    \item \textbf{Si bilan normal}~: passer au bilan de deuxième intention et envisager une évaluation ME/CFS formelle après 6 mois de symptômes
+\end{enumerate}
+\end{caution}
+
+\vspace{1em}
+
+\textbf{Suivi prévu}~: Mise à jour de ce document après réception des réponses aux questions et des résultats du bilan biologique.
+
+\end{document}

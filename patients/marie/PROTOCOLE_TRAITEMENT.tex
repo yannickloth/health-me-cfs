@@ -1,0 +1,886 @@
+% Protocole de traitement symptomatique et exploratoire
+% Patiente : Marie
+% Créé : 6 février 2026
+% Statut : En attente de diagnostic confirmé — traitement symptomatique immédiat
+% Langue : Français
+% AVERTISSEMENT : Ce document ne constitue PAS un avis médical.
+% Il doit être discuté avec un médecin prescripteur avant toute mise en œuvre.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext}         % Palatino (texte)
+\usepackage{newpxmath}         % Palatino (maths)
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\let\Bbbk\relax                % Éviter conflit newpxmath/amssymb
+\usepackage{amssymb}           % Pour \square (cases à cocher)
+\geometry{margin=2cm}
+
+% Couleurs
+\definecolor{urgentbg}{RGB}{248,215,218}
+\definecolor{urgentborder}{RGB}{220,53,69}
+\definecolor{medbg}{RGB}{212,237,218}
+\definecolor{medborder}{RGB}{40,167,69}
+\definecolor{suppbg}{RGB}{217,237,247}
+\definecolor{suppborder}{RGB}{23,162,184}
+\definecolor{themabg}{RGB}{255,243,205}
+\definecolor{themaborder}{RGB}{255,193,7}
+\definecolor{explorbg}{RGB}{232,232,232}
+\definecolor{explorborder}{RGB}{108,117,125}
+
+\newtcolorbox{avertissement}[1][]{
+  colback=urgentbg, colframe=urgentborder,
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1.5pt
+}
+
+\newtcolorbox{medicament}[1][]{
+  colback=medbg, colframe=medborder,
+  title={\textbf{Médicament~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\newtcolorbox{supplement}[1][]{
+  colback=suppbg, colframe=suppborder,
+  title={\textbf{Supplément~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\newtcolorbox{therapie}[1][]{
+  colback=themabg, colframe=themaborder,
+  title={\textbf{Thérapie~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\newtcolorbox{examen}[1][]{
+  colback=explorbg, colframe=explorborder,
+  title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt
+}
+
+\title{Protocole de traitement symptomatique\\[0.5em]
+\large Marie --- En attente de diagnostic\\[0.3em]
+\normalsize Fatigue invalidante $\cdot$ Neuropathie $\cdot$ Céphalées $\cdot$ Hypotension $\cdot$ SCI}
+\author{Document de travail --- À discuter avec un médecin prescripteur}
+\date{6 février 2026 --- Version 1.0}
+
+\begin{document}
+
+\maketitle
+
+\begin{avertissement}{AVERTISSEMENT MÉDICAL}
+Ce document est un \textbf{support de discussion} destiné à être présenté à un médecin prescripteur. Il ne constitue en aucun cas un diagnostic ni une prescription médicale. \textbf{Aucun traitement ne doit être démarré sans l'accord d'un médecin.}
+
+Les médicaments sur ordonnance nécessitent une prescription. Les suppléments alimentaires, bien que disponibles sans ordonnance, peuvent interagir avec des médicaments ou être contre-indiqués dans certaines situations.
+
+\textbf{Objectif double~:}
+\begin{enumerate}
+    \item \textbf{Immédiat}~: Rendre la vie supportable à Marie en traitant les symptômes les plus invalidants
+    \item \textbf{Long terme}~: Identifier et traiter la cause sous-jacente pour améliorer durablement son état
+\end{enumerate}
+\end{avertissement}
+
+\tableofcontents
+\newpage
+
+%=============================================================================
+\section{Principes directeurs du protocole}
+\label{sec:principes}
+%=============================================================================
+
+\subsection{Philosophie~: traiter TOUT, agressivement}
+
+Quel que soit le diagnostic final (NPF, ME/CFS, connectivite, carence\ldots), Marie opère actuellement \textbf{sans réserve fonctionnelle}. Dans cette situation~:
+
+\begin{itemize}
+    \item Chaque symptôme non traité \textbf{aggrave tous les autres} (cascade symptomatique)
+    \item Un gain de 5\% de capacité fonctionnelle peut faire la différence entre handicap total et vie minimale
+    \item Les traitements symptomatiques sont \textbf{compatibles avec tous les diagnostics envisagés} et n'empêchent pas la poursuite du bilan
+    \item \textbf{Ne pas attendre le diagnostic} pour soulager~: le diagnostic viendra, mais la souffrance est maintenant
+\end{itemize}
+
+\subsection{Stratégie d'introduction~: rapidité vs identification}
+
+\textbf{Le dilemme}~: dans un monde idéal, on introduirait un seul produit par semaine pour identifier précisément ce qui fonctionne et ce qui ne fonctionne pas. Mais Marie souffre \textbf{maintenant}. Attendre 12--15 semaines pour introduire tous les suppléments un par un est un luxe que son état ne permet pas.
+
+\textbf{La stratégie adoptée~: introduction rapide par blocs fonctionnels}
+
+\begin{enumerate}
+    \item \textbf{Semaines 1--2}~: Introduire les \textbf{fondamentaux à faible risque} ensemble (électrolytes, magnésium, B12, D3). Ces suppléments sont bien tolérés par la grande majorité des gens et comblent des carences potentielles. Le risque d'interaction est quasi nul.
+    \item \textbf{Semaines 3--4}~: Ajouter les \textbf{traitements ciblés} (ALA pour les nerfs, CoQ10 + D-ribose pour l'énergie). Deux «~blocs~» distincts introduits à quelques jours d'intervalle.
+    \item \textbf{Semaines 5--6}~: Compléter avec les traitements \textbf{anti-inflammatoires et digestifs} (oméga-3, quercétine, probiotique, L-glutamine).
+    \item \textbf{Médicaments sur ordonnance}~: L'amitriptyline est introduite seule (semaine 3), car c'est le seul traitement dont les effets secondaires sont significatifs et doivent être évalués isolément.
+\end{enumerate}
+
+\textbf{Conséquences de cette approche~:}
+\begin{itemize}
+    \item[\textbf{+}] Soulagement plus rapide (en 3--4 semaines au lieu de 12+)
+    \item[\textbf{+}] L'effet combiné de plusieurs suppléments peut être supérieur à la somme des parties
+    \item[\textbf{--}] Si une amélioration survient, on ne saura pas \textbf{quel} supplément en est responsable
+    \item[\textbf{--}] Si un effet indésirable apparaît, il faudra procéder par élimination
+\end{itemize}
+
+\textbf{Comment identifier ce qui fonctionne à moyen terme~:}
+
+Une fois le protocole en place et stabilisé (après 6--8 semaines), on peut identifier les composants efficaces par \textbf{retrait séquentiel}~:
+\begin{enumerate}
+    \item Arrêter \textbf{un} supplément pendant 2 semaines
+    \item Si les symptômes s'aggravent~: ce supplément est utile $\rightarrow$ le reprendre
+    \item Si rien ne change~: ce supplément est probablement inutile $\rightarrow$ l'éliminer (économie de coût)
+    \item Passer au supplément suivant
+    \item En 2--3 mois, on aura identifié le «~noyau dur~» de ce qui fonctionne vraiment pour Marie
+\end{enumerate}
+
+Cette approche est \textbf{plus pragmatique} que l'introduction un-par-un~: on soulage d'abord, on optimise ensuite.
+
+\textbf{Outil indispensable --- le journal des symptômes~:}
+
+Tenir un \textbf{journal quotidien simple} est essentiel pour les deux phases (introduction et retrait)~:
+\begin{itemize}
+    \item Noter chaque jour, sur une échelle de 0 à 10~: fatigue, céphalées, picotements, sensibilité au froid, digestion
+    \item Noter tout changement de traitement (ajout, arrêt, changement de dose) avec la date
+    \item Ce journal sera aussi précieux pour le médecin
+\end{itemize}
+
+\subsection{Trois phases temporelles}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lll}
+\toprule
+\textbf{Phase} & \textbf{Durée} & \textbf{Objectif} \\
+\midrule
+\textbf{Phase 1 --- Urgence} & Semaines 1--4 & Soulager les symptômes les plus invalidants \\
+\textbf{Phase 2 --- Stabilisation} & Mois 2--3 & Optimiser le traitement, résultats du bilan \\
+\textbf{Phase 3 --- Long terme} & Mois 4+ & Traitement ciblé selon diagnostic \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%=============================================================================
+\section{Phase 1~: Traitement symptomatique immédiat (Semaines 1--4)}
+\label{sec:phase1}
+%=============================================================================
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 1~: Céphalées chroniques}
+%-----------------------------------------------------------------------------
+
+Les céphalées constantes depuis 5 mois sont le symptôme le plus invalidant rapporté. Elles doivent être traitées en priorité.
+
+\begin{medicament}{Paracétamol (en vente libre, mais usage encadré)}
+\textbf{Pourquoi~:} Antalgique de première intention pour les céphalées de tension chroniques. Faible profil d'effets secondaires.
+
+\textbf{Posologie~:} 1~g, 2 à 3 fois par jour (maximum 3~g/jour). Ne pas dépasser 5 jours consécutifs sans avis médical (risque de céphalées de rebond).
+
+\textbf{Attention~:} Le paracétamol ne traite pas la cause. Si les céphalées persistent malgré le paracétamol, cela oriente vers une cause non mécanique (inflammation, pression intracrânienne, neuropathie\ldots).
+\end{medicament}
+
+\begin{medicament}{Amitriptyline (ORDONNANCE --- antidépresseur tricyclique à faible dose)}
+\textbf{Pourquoi~:} À faible dose (10--25~mg), l'amitriptyline n'est \textbf{pas} utilisée comme antidépresseur mais comme~:
+\begin{itemize}
+    \item \textbf{Anti-migraineux prophylactique} (traitement de fond des céphalées chroniques)
+    \item \textbf{Analgésique neuropathique} (réduit les picotements et la douleur neuropathique)
+    \item \textbf{Aide au sommeil} (effet sédatif léger)
+    \item \textbf{Modulateur de la douleur chronique} (réduit la sensibilisation centrale)
+\end{itemize}
+Un seul médicament pour traiter \textbf{trois symptômes} de Marie (céphalées + neuropathie + possibles troubles du sommeil).
+
+\textbf{Posologie~:}
+\begin{itemize}
+    \item Semaine 1--2~: 10~mg le soir au coucher
+    \item Semaine 3--4~: 20~mg le soir si bien toléré
+    \item Cible~: 25--50~mg le soir (ajustement par le médecin)
+\end{itemize}
+
+\textbf{Délai d'action~:} 2 à 4 semaines pour l'effet anti-migraineux.
+
+\textbf{Effets secondaires possibles~:} Bouche sèche, somnolence matinale (s'atténue), constipation, prise de poids modérée. \textbf{Avantage}~: la somnolence est un atout si le sommeil est perturbé.
+
+\textbf{Alternative si mal tolérée~:} Gabapentine (ORDONNANCE) --- 100~mg le soir, augmentation progressive jusqu'à 300--900~mg. Cible les mêmes symptômes (douleur neuropathique, céphalées) mais par un mécanisme différent.
+\end{medicament}
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 2~: Neuropathie périphérique (picotements, douleur au froid)}
+%-----------------------------------------------------------------------------
+
+\begin{medicament}{Amitriptyline (déjà prescrite ci-dessus)}
+L'amitriptyline à faible dose est le traitement de première ligne de la douleur neuropathique en France. Elle couvre donc \textbf{à la fois} les céphalées et les picotements.
+\end{medicament}
+
+\begin{supplement}{Acide alpha-lipoïque (ALA)}
+\textbf{Pourquoi~:} Antioxydant puissant avec une efficacité démontrée dans la neuropathie diabétique (études SYDNEY, NATHAN). Agit par~:
+\begin{itemize}
+    \item Protection des nerfs contre le stress oxydatif
+    \item Amélioration de la microcirculation nerveuse
+    \item Régénération du glutathion (antioxydant majeur)
+\end{itemize}
+Même si Marie n'est pas diabétique, l'ALA est bénéfique pour \textbf{toute neuropathie des petites fibres}.
+
+\textbf{Posologie~:} 600~mg par jour, le matin à jeun (meilleure absorption). Forme R-ALA si disponible (plus biodisponible).
+
+\textbf{Délai d'action~:} 3 à 6 semaines.
+
+\textbf{Effets secondaires~:} Rares. Nausées légères au début. Peut baisser la glycémie (attention si diabétique).
+\end{supplement}
+
+\begin{supplement}{Vitamine B12 (méthylcobalamine)}
+\textbf{Pourquoi~:} La B12 est essentielle à la myélinisation et à la réparation nerveuse. Même avec un taux sérique «~normal~», une supplémentation peut aider les nerfs endommagés. La forme méthylcobalamine est directement utilisable (pas besoin de conversion hépatique).
+
+\textbf{Posologie~:} 1000~µg (1~mg) par jour en sublingual.
+
+\textbf{Forme~:} Comprimés sublinguaux ou spray sublingual (absorption directe, contourne les problèmes d'absorption intestinale liés au SCI).
+
+\textbf{Sécurité~:} La B12 est hydrosoluble --- l'excès est éliminé par les reins. Pas de risque de surdosage aux doses recommandées.
+\end{supplement}
+
+\begin{therapie}{Crème à la capsaïcine 0.025--0.075\%}
+\textbf{Pourquoi~:} La capsaïcine (dérivée du piment) est un traitement topique reconnu de la douleur neuropathique. Elle agit en~:
+\begin{itemize}
+    \item Désensibilisant les récepteurs TRPV1 des fibres C (petites fibres nerveuses)
+    \item Réduisant la substance P (neurotransmetteur de la douleur)
+    \item Effet local sans effets systémiques
+\end{itemize}
+
+\textbf{Application~:} 3 à 4 fois par jour sur les mains et les pieds (zones de picotements). Lavage soigneux des mains après application. \textbf{Sensation de brûlure les premiers jours} (normale, s'atténue en 1 semaine).
+
+\textbf{Disponibilité en France~:} Crème Zostrix ou préparation en pharmacie. Le patch haute concentration (Qutenza 8\%, sur ordonnance) est une option pour traitement ciblé en milieu hospitalier.
+
+\textbf{Attention~:} Ne \textbf{PAS} appliquer sur peau lésée. Ne pas toucher les yeux après application.
+\end{therapie}
+
+\begin{therapie}{Gants et chaussettes thermiques}
+\textbf{Pourquoi~:} Protection physique contre le froid pour réduire la douleur au froid (allodynie). Simple, immédiat, sans risque.
+
+\textbf{Recommandation~:}
+\begin{itemize}
+    \item Gants en soie ou laine mérinos (fins, portables en intérieur)
+    \item Chaussettes thermiques (type ski ou randonnée)
+    \item Chauffe-mains réutilisables pour les sorties
+    \item Gants imperméables doublés pour la vaisselle et les contacts avec l'eau froide
+\end{itemize}
+\end{therapie}
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 3~: Hypotension et énergie}
+%-----------------------------------------------------------------------------
+
+\begin{supplement}{Électrolytes (sel + potassium + magnésium)}
+\textbf{Pourquoi~:} L'hypotension de Marie suggère une hypovolémie (volume sanguin insuffisant) et/ou une dysautonomie. Les électrolytes sont le traitement de \textbf{première intention} de l'hypotension orthostatique et de la dysautonomie. Ils augmentent le volume sanguin et soutiennent la fonction nerveuse et musculaire.
+
+\textbf{Protocole d'introduction progressive~:} (important~: ne pas commencer fort)
+
+\begin{enumerate}
+    \item \textbf{Semaine 1}~: Ajouter 1/4 de cuillère à café de sel (environ 500~mg de sodium) dans un grand verre d'eau le matin au réveil, \textbf{avant de se lever}
+    \item \textbf{Semaine 2}~: Si bien toléré, passer à 1/2 cuillère à café de sel dans 500~ml d'eau le matin + 1/4 le midi
+    \item \textbf{Semaines 3--4}~: Augmenter progressivement jusqu'à 3--6~g de sodium supplémentaire par jour (en plus de l'alimentation)
+    \item \textbf{Objectif hydratation}~: 2 à 2.5~L d'eau par jour minimum
+\end{enumerate}
+
+\textbf{Recette de solution d'électrolytes maison~:}
+\begin{quote}
+\textbf{Pour 1 litre d'eau~:}\\
+--- 1/2 cuillère à café de sel de table\\
+--- 1/4 de cuillère à café de sel de potassium (type NoSalt / sel diététique)\\
+--- 2 cuillères à soupe de miel ou sirop d'érable\\
+--- Facultatif~: jus d'un demi-citron (sauf si intolérance à l'acide citrique)
+\end{quote}
+Coût~: quelques centimes par litre.
+
+\textbf{Alternative commerciale~:} Sachets d'ORS (sels de réhydratation orale) en pharmacie (Adiaril, GES 45, ou équivalent).
+
+\textbf{Signes d'alerte --- réduire si~:}
+\begin{itemize}
+    \item Douleurs musculaires accrues
+    \item Palpitations nouvelles
+    \item Œdème important des chevilles
+    \item Tension artérielle $>$130/80
+\end{itemize}
+\end{supplement}
+
+\begin{supplement}{Magnésium (bisglycinate ou malate)}
+\textbf{Pourquoi~:} Le magnésium est cofacteur de plus de 300 enzymes, dont celles de la production d'ATP (énergie cellulaire). Il soutient~:
+\begin{itemize}
+    \item La production d'énergie mitochondriale
+    \item La fonction nerveuse (réduit l'hyperexcitabilité)
+    \item Le sommeil (modulation GABA)
+    \item La relaxation musculaire
+    \item La réduction des céphalées (prophylaxie migraineuse)
+\end{itemize}
+
+\textbf{Posologie~:}
+\begin{itemize}
+    \item \textbf{Magnésium bisglycinate}~: 200~mg le soir (semaine 1), puis 200~mg matin + 200~mg soir (semaine 2+)
+    \item Dose cible~: 400--600~mg de magnésium élémentaire par jour
+\end{itemize}
+
+\textbf{Pourquoi bisglycinate~:} Bien absorbé, peu d'effets digestifs (important vu le SCI de Marie), la glycine a un effet calmant supplémentaire.
+
+\textbf{Alternative~:} Magnésium malate le matin (l'acide malique soutient le cycle de Krebs $\rightarrow$ énergie) + bisglycinate le soir (effet calmant).
+\end{supplement}
+
+\begin{medicament}{Midodrine (ORDONNANCE --- si hypotension symptomatique sévère)}
+\textbf{Pourquoi~:} La midodrine est un vasoconstricteur alpha-1 agoniste qui augmente la pression artérielle. Si l'hypotension de Marie est responsable de fatigue, vertiges, et céphalées, la midodrine peut apporter un soulagement \textbf{rapide et significatif}.
+
+\textbf{Posologie~:}
+\begin{itemize}
+    \item 2.5~mg le matin et à midi (pas le soir --- risque d'hypertension allongée)
+    \item Augmentation possible à 5~mg matin + midi + 16h selon réponse
+    \item \textbf{Ne jamais prendre avant le coucher}
+\end{itemize}
+
+\textbf{Indication spécifique~:} À discuter avec le médecin si l'hypotension est confirmée et symptomatique (vertiges en se levant, fatigue aggravée debout). Nécessite un suivi de la pression artérielle.
+
+\textbf{Effets secondaires~:} Picotements du cuir chevelu, chair de poule (fréquents, bénins), hypertension en position allongée (important~: ne pas s'allonger dans les 4h suivant la prise).
+\end{medicament}
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 4~: Fatigue et soutien mitochondrial}
+%-----------------------------------------------------------------------------
+
+\begin{supplement}{Coenzyme Q10 (ubiquinol)}
+\textbf{Pourquoi~:} Le CoQ10 est un composant essentiel de la chaîne de transport d'électrons mitochondriale (production d'ATP). Des études montrent des bénéfices dans la fatigue chronique et la fibromyalgie. Il est aussi un puissant antioxydant.
+
+\textbf{Posologie~:} 200~mg par jour au petit-déjeuner (avec un repas contenant des graisses pour l'absorption). Forme \textbf{ubiquinol} (forme réduite, active, mieux absorbée).
+
+\textbf{Délai d'action~:} 4 à 12 semaines.
+\end{supplement}
+
+\begin{supplement}{D-Ribose}
+\textbf{Pourquoi~:} Le D-ribose est le sucre de base de l'ATP. Il fournit directement le substrat pour la resynthèse d'ATP après déplétion. Deux petites études dans le ME/CFS ont montré des bénéfices sur la fatigue et la qualité de vie.
+
+\textbf{Posologie~:} 5~g, 3 fois par jour (matin, midi, goûter). Dissoudre dans une boisson (goût sucré). À prendre \textbf{avec les repas} (peut baisser la glycémie).
+
+\textbf{Note~:} Certains patients rapportent une amélioration en quelques jours seulement.
+\end{supplement}
+
+\begin{supplement}{Fer (si bilan confirme une carence)}
+\textbf{Pourquoi~:} Les polypes utérins de Marie peuvent causer des saignements chroniques et une carence en fer insidieuse. Le fer est essentiel pour~:
+\begin{itemize}
+    \item Le transport d'oxygène (hémoglobine)
+    \item La production d'énergie mitochondriale (cofacteur de la chaîne respiratoire)
+    \item La synthèse de neurotransmetteurs (dopamine, sérotonine)
+    \item La myélinisation nerveuse
+\end{itemize}
+
+\textbf{ATTENTION~:} Ne \textbf{JAMAIS} supplémenter en fer sans dosage préalable de la ferritine, du fer sérique, et de la transferrine. Un excès de fer est dangereux (toxicité hépatique, stress oxydatif).
+
+\textbf{Si ferritine $<$50~µg/l~:}
+\begin{itemize}
+    \item \textbf{Option 1} --- Fer oral~: Bisglycinate de fer (Ferrochel), 25--50~mg de fer élémentaire par jour, à jeun avec vitamine C (500~mg) pour l'absorption. Mieux toléré que le sulfate de fer.
+    \item \textbf{Option 2} --- Perfusion IV (ORDONNANCE)~: Fer carboxymaltose (Ferinject) --- indiqué si le fer oral est mal toléré (SCI de Marie), ou si la ferritine est très basse ($<$20). Remonte la ferritine rapidement (1--2 semaines vs 3--6 mois pour le fer oral).
+\end{itemize}
+
+\textbf{Cible~:} Ferritine $>$80~µg/l (pas simplement $>$15, seuil du labo, qui est insuffisant).
+\end{supplement}
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 5~: Troubles digestifs (SCI)}
+%-----------------------------------------------------------------------------
+
+\begin{supplement}{Probiotiques multi-souches}
+\textbf{Pourquoi~:} Le syndrome du côlon irritable est fréquent chez les patients avec fatigue chronique et neuropathie. Un microbiome intestinal déséquilibré peut aggraver l'inflammation systémique et la malabsorption.
+
+\textbf{Recommandation~:} Probiotique multi-souches contenant au minimum Lactobacillus et Bifidobacterium. Marques disponibles en France~: Pileje Lactibiane, Biocodex Ultra-Levure (Saccharomyces boulardii), ou Vivomixx.
+
+\textbf{Posologie~:} 1 gélule par jour le matin, à jeun.
+\end{supplement}
+
+\begin{supplement}{L-Glutamine}
+\textbf{Pourquoi~:} La L-glutamine est le carburant principal des cellules intestinales (entérocytes). Elle soutient l'intégrité de la barrière intestinale (perméabilité intestinale / «~leaky gut~»).
+
+\textbf{Posologie~:} 5~g par jour dans un verre d'eau, le matin à jeun.
+\end{supplement}
+
+\begin{therapie}{Régime pauvre en FODMAP (essai de 4 semaines)}
+\textbf{Pourquoi~:} Le régime pauvre en FODMAP est le traitement de première intention du SCI avec le plus de preuves scientifiques. Les FODMAP sont des sucres fermentescibles qui aggravent les ballonnements, douleurs et troubles du transit.
+
+\textbf{Mise en œuvre~:} Idéalement accompagné par un diététicien. Sinon, l'application \textbf{Monash University FODMAP} (en français) guide les choix alimentaires.
+
+\textbf{Principe~:} 4 semaines d'élimination stricte, puis réintroduction progressive pour identifier les déclencheurs individuels.
+\end{therapie}
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 6~: Sommeil}
+%-----------------------------------------------------------------------------
+
+Le sommeil n'a pas été évalué chez Marie, mais s'il est perturbé (très probable)~:
+
+\begin{supplement}{Mélatonine 1--3~mg}
+\textbf{Pourquoi~:} Régulateur du rythme circadien. Propriétés anti-inflammatoires et antioxydantes supplémentaires. Disponible sans ordonnance en France (jusqu'à 1.9~mg) ou sur ordonnance (doses supérieures).
+
+\textbf{Posologie~:} 1~mg 30--60 minutes avant le coucher. Augmenter à 3~mg si nécessaire.
+
+\textbf{Note~:} Se combine bien avec l'amitriptyline (pris le soir aussi). La mélatonine protège aussi les nerfs (neuroprotection).
+\end{supplement}
+
+L'amitriptyline (déjà prescrite pour les céphalées/neuropathie) aide aussi le sommeil.
+
+%-----------------------------------------------------------------------------
+\subsection{Axe 7~: Composante auto-immune / MCAS potentielle}
+%-----------------------------------------------------------------------------
+
+\begin{supplement}{Vitamine D3 + K2}
+\textbf{Pourquoi~:} La vitamine D est un immunomodulateur majeur. La carence en vitamine D (extrêmement fréquente en France, surtout en hiver) est associée à~:
+\begin{itemize}
+    \item Dérégulation auto-immune
+    \item Douleurs musculaires et osseuses
+    \item Fatigue chronique
+    \item Augmentation de l'inflammation
+\end{itemize}
+La vitamine K2 dirige le calcium vers les os (et non vers les artères).
+
+\textbf{Posologie~:} 4000~UI de D3 par jour + 100~µg de K2 (MK-7). À prendre avec un repas gras.
+
+\textbf{Contrôle~:} Doser la 25-OH-vitamine D dans le bilan sanguin. Cible~: 60--80~ng/ml.
+\end{supplement}
+
+\begin{supplement}{Quercétine (stabilisateur mastocytaire naturel)}
+\textbf{Pourquoi~:} Si une composante MCAS (syndrome d'activation mastocytaire) contribue aux symptômes de Marie (ce qui est possible vu le SCI + céphalées + intolérance au froid), la quercétine stabilise les mastocytes et réduit la libération d'histamine. Elle est aussi~:
+\begin{itemize}
+    \item Anti-inflammatoire
+    \item Antioxydante
+    \item Anti-virale (inhibe la réplication de certains virus)
+\end{itemize}
+
+\textbf{Posologie~:} 500~mg, 2 fois par jour, 20 minutes avant les repas.
+
+\textbf{Note~:} Si les symptômes s'améliorent nettement avec la quercétine, cela oriente vers une composante mastocytaire et justifie des examens complémentaires (tryptase sérique, chromogranine A, histamine urinaire).
+\end{supplement}
+
+\begin{supplement}{Oméga-3 (EPA/DHA)}
+\textbf{Pourquoi~:} Anti-inflammatoires naturels puissants. Les oméga-3 modulent la réponse immunitaire et réduisent les cytokines pro-inflammatoires. Bénéfiques pour~:
+\begin{itemize}
+    \item L'inflammation systémique
+    \item La protection nerveuse (neuroprotection)
+    \item La fonction cognitive
+    \item La santé cardiovasculaire
+\end{itemize}
+
+\textbf{Posologie~:} 2~g d'EPA + DHA par jour (environ 3--4 gélules d'huile de poisson concentrée). Privilégier un produit \textbf{titré à $>$60\% EPA+DHA} et testé pour les métaux lourds.
+
+\textbf{Forme~:} Huile de poisson à indice TOTOX faible (marques~: Nutrimuscle, Epax, ou équivalent).
+\end{supplement}
+
+\begin{medicament}{Cétirizine / Famotidine (si suspicion MCAS --- ORDONNANCE pour famotidine)}
+\textbf{Si} une composante MCAS est suspectée (à évaluer avec le médecin)~:
+
+\textbf{Protocole anti-histaminique double~:}
+\begin{itemize}
+    \item \textbf{Cétirizine 10~mg} le matin (anti-H1, en vente libre) --- bloque les récepteurs histaminiques H1 (démangeaisons, urticaire, congestion)
+    \item \textbf{Famotidine 20~mg} le soir (anti-H2, ordonnance en France pour usage prolongé) --- bloque les récepteurs H2 (protection gastrique, mais aussi réduction systémique de l'histamine)
+\end{itemize}
+
+\textbf{Pourquoi double~:} L'histamine agit sur deux types de récepteurs. Bloquer les deux est plus efficace qu'un seul. Ce protocole est recommandé par les spécialistes du MCAS.
+
+\textbf{Test thérapeutique~:} Si amélioration nette en 2--4 semaines, cela confirme une composante histaminique et oriente le bilan.
+\end{medicament}
+
+%=============================================================================
+\section{Phase 2~: Stabilisation et optimisation (Mois 2--3)}
+\label{sec:phase2}
+%=============================================================================
+
+À ce stade, les résultats du bilan sanguin et des examens devraient être disponibles. Le traitement s'ajuste selon les résultats~:
+
+\subsection{Si carence en fer confirmée}
+\begin{itemize}
+    \item Perfusion de fer IV (Ferinject) si ferritine $<$30 ou si fer oral mal toléré
+    \item Réévaluation ferritine à 8 semaines post-perfusion
+    \item Continuer fer oral de maintien si la cause du saignement (polypes) persiste
+    \item \textbf{Polypes utérins}~: l'indication chirurgicale n'a pas été retenue à ce stade. Si le bilan confirme une carence en fer, les polypes deviennent une \textbf{cause identifiée de saignement chronique} entretenant la carence, ce qui renforcerait l'argument en faveur de l'intervention. Le résultat de la ferritine pourrait donc contribuer à réévaluer l'indication chirurgicale avec le gynécologue
+\end{itemize}
+
+\subsection{Si hypothyroïdie confirmée}
+\begin{itemize}
+    \item Lévothyroxine (ORDONNANCE)~: dose initiale 25--50~µg, ajustement à 6 semaines
+    \item Si Hashimoto~: suivi des anticorps anti-TPO, envisager sélénium 200~µg/j (réduit les anti-TPO dans certaines études)
+\end{itemize}
+
+\subsection{Si NPF suspectée / confirmée (biopsie cutanée)}
+\begin{itemize}
+    \item Continuer amitriptyline + ALA
+    \item Ajouter \textbf{IVIG} (immunoglobulines intraveineuses, ORDONNANCE hospitalière) si NPF auto-immune confirmée
+    \item Rechercher la cause~: auto-immunité (Sjögren, cœliaquie), diabète, B12
+\end{itemize}
+
+\subsection{Si connectivite confirmée (Sjögren, lupus\ldots)}
+\begin{itemize}
+    \item Hydroxychloroquine (Plaquenil, ORDONNANCE)~: 200--400~mg/j --- traitement de première ligne des connectivites
+    \item Suivi ophtalmologique annuel (toxicité rétinienne)
+    \item Rhumatologue référent
+\end{itemize}
+
+\subsection{Si ME/CFS probable (PEM confirmé lors de la reprise du travail)}
+Ajouter~:
+\begin{itemize}
+    \item \textbf{LDN (Low-Dose Naltrexone, ORDONNANCE préparation magistrale)}~: 0.5~mg au coucher, augmentation de 0.5~mg/semaine jusqu'à 3--4.5~mg. Anti-neuro-inflammatoire. Délai d'action~: 2--3 mois.
+    \item \textbf{Pacing strict}~: Gestion rigoureuse de l'enveloppe énergétique --- ne JAMAIS dépasser sa capacité, même les «~bons jours~»
+    \item \textbf{NR/NMN} (précurseurs NAD+)~: 300--500~mg/j --- soutien mitochondrial avancé
+\end{itemize}
+
+\subsection{Optimisation des suppléments}
+\begin{itemize}
+    \item Ajuster les doses selon la réponse clinique
+    \item Éliminer les suppléments sans effet après 8 semaines
+    \item Ajouter \textbf{acétyl-L-carnitine} (ALCAR) 500--1000~mg/j si brouillard mental
+\end{itemize}
+
+%=============================================================================
+\section{Phase 3~: Traitement ciblé à long terme (Mois 4+)}
+\label{sec:phase3}
+%=============================================================================
+
+Le traitement de phase 3 dépend entièrement du diagnostic obtenu. Scénarios possibles~:
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{p{3cm}X}
+\toprule
+\textbf{Diagnostic} & \textbf{Traitement à long terme} \\
+\midrule
+Carence en fer & Correction complète ($>$80 ferritine) + traitement des polypes + maintien. Pronostic excellent si c'est la cause unique. \\
+\midrule
+Hypothyroïdie & Lévothyroxine à vie, ajustement TSH. Pronostic excellent. \\
+\midrule
+NPF auto-immune & IVIG régulières (4--8 semaines), immunosuppresseurs si nécessaire. Amélioration lente (6--18 mois). \\
+\midrule
+Sjögren & Hydroxychloroquine + suivi rhumatologique. Stabili\-sation possible. \\
+\midrule
+ME/CFS confirmé & LDN + pacing + suppléments mitochondriaux + traitement des comorbidités. Pronostic variable. \\
+\midrule
+MCAS confirmé & Anti-H1 + anti-H2 + cromoglycate de sodium + régime pauvre en histamine. Amélioration progressive. \\
+\midrule
+Causes multiples & Traitement combiné de toutes les causes. Fréquent~: NPF + ME/CFS + carence en fer = triple traitement simultané. \\
+\bottomrule
+\end{tabularx}
+\caption{Traitements à long terme selon le diagnostic}
+\end{table}
+
+%=============================================================================
+\section{Programme d'examens médicaux}
+\label{sec:examens}
+%=============================================================================
+
+\begin{avertissement}{À présenter au médecin prescripteur}
+Ce programme d'examens est à \textbf{proposer} au médecin traitant ou au spécialiste. Le médecin décidera de l'ordre et de la pertinence de chaque examen en fonction de son évaluation clinique. Certains examens nécessitent une orientation vers un spécialiste.
+\end{avertissement}
+
+%-----------------------------------------------------------------------------
+\subsection{Bilan sanguin urgent (à faire dès que possible)}
+%-----------------------------------------------------------------------------
+
+\begin{examen}{Bilan sanguin de première intention --- Prise de sang unique}
+\textbf{À demander au médecin traitant. Une seule prise de sang peut inclure tout ceci~:}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{p{4cm}Xp{3.5cm}}
+\toprule
+\textbf{Examen} & \textbf{Ce qu'on cherche} & \textbf{Pourquoi} \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Hématologie}}} \\
+NFS + plaquettes & Anémie, macrocytose, lymphopénie & Orientation globale \\
+\textbf{Ferritine} & \textbf{Réserves en fer} & \textbf{Carence = cause traitable} \\
+Fer sérique + transferrine & Bilan martial complet & Carence fonctionnelle \\
+Coefficient saturation & Surcharge ou carence & Complément \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Thyroïde}}} \\
+TSH & Hypothyroïdie & Cause traitable \\
+T4 libre & Thyroïde périphérique & Hypo subclinique \\
+T3 libre & Conversion T4$\rightarrow$T3 & Hypo sans TSH anormale \\
+Anti-TPO & Thyroïdite auto-immune & Hashimoto \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Vitamines et minéraux}}} \\
+\textbf{Vitamine B12} & \textbf{Carence} & \textbf{Neuropathie} \\
+Folates (B9) & Carence & Anémie \\
+Homocystéine & B12/folates fonctionnels & Neuropathie même si B12 «~normale~» \\
+\textbf{25-OH Vitamine D} & \textbf{Carence} & \textbf{Immunité, douleurs, fatigue} \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Métabolisme}}} \\
+Glycémie à jeun & Diabète & Neuropathie diabétique \\
+HbA1c & Prédiabète & Neuropathie précoce \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Inflammation et immunologie}}} \\
+CRP + VS & Inflammation systémique & Orientation globale \\
+ANA (anticorps antinucléaires) & Auto-immunité & Connectivite \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Autres}}} \\
+Créatinine + ionogramme & Fonction rénale, électrolytes & Insuffisance rénale \\
+Bilan hépatique (ALAT, ASAT, GGT) & Fonction hépatique & Hépatite chronique \\
+\bottomrule
+\end{tabularx}
+\caption{Bilan sanguin de première intention}
+\end{table}
+\end{examen}
+
+%-----------------------------------------------------------------------------
+\subsection{Bilan sanguin de deuxième intention (si le premier est non concluant)}
+%-----------------------------------------------------------------------------
+
+\begin{examen}{Bilan de deuxième intention --- À discuter avec le médecin}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{p{4.5cm}Xp{3.5cm}}
+\toprule
+\textbf{Examen} & \textbf{Ce qu'on cherche} & \textbf{Hypothèse} \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Auto-immunité ciblée}}} \\
+Anti-SSA/Ro, anti-SSB/La & Syndrome de Sjögren & Connectivite \\
+Anti-transglutaminase IgA & Maladie cœliaque & Malabsorption, NPF \\
+IgA totales & Déficit IgA (faux négatif cœliaquie) & Complément \\
+Complément C3, C4 & Consommation du complément & Auto-immunité active \\
+Anti-ENA & Profil auto-immun étendu & Connectivite mixte \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Spécialisé}}} \\
+\textbf{Cryoglobulines} & \textbf{Cryoglobulinémie} & \textbf{Douleur au froid~!} \\
+Sérologie hépatite B, C & Hépatite chronique & Cryoglobulinémie \\
+Acide méthylmalonique (MMA) & B12 fonctionnelle & Neuropathie \\
+EBV IgG VCA, EA & EBV réactivé & ME/CFS post-infectieux \\
+Sérologie CMV, HHV-6 & Virus latents & ME/CFS \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{MCAS / Histamine}}} \\
+Tryptase sérique & Activation mastocytaire & MCAS \\
+Histamine plasmatique & Excès d'histamine & MCAS \\
+Chromogranine A & Activation mastocytaire & MCAS \\
+\bottomrule
+\end{tabularx}
+\caption{Bilan de deuxième intention}
+\end{table}
+
+\textbf{Note sur les cryoglobulines~:} Le prélèvement doit être fait à 37°C et acheminé à 37°C au laboratoire. C'est un examen souvent mal réalisé. Insister sur les conditions de prélèvement.
+\end{examen}
+
+%-----------------------------------------------------------------------------
+\subsection{Examens fonctionnels (spécialistes)}
+%-----------------------------------------------------------------------------
+
+\begin{examen}{Examens à demander par le médecin auprès de spécialistes}
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{p{4cm}p{3cm}X}
+\toprule
+\textbf{Examen} & \textbf{Spécialiste} & \textbf{Pourquoi} \\
+\midrule
+\textbf{Biopsie cutanée} (densité fibres nerveuses intraépidermiques) & Neurologue / dermatologue & Diagnostic de NPF --- invisible à l'EMG standard \\
+Test sudomoteur / Sudoscan & Neurologue & Neuropathie autonome (complément biopsie) \\
+\textbf{Tilt-test} (test d'inclinaison) ou test de Schellong & Cardiologue & Dysautonomie, POTS, hypotension orthostatique \\
+Capillaroscopie péri-unguéale & Rhumatologue & Raynaud primaire vs secondaire \\
+Test de Schirmer + débit salivaire & Ophtalmologue / rhumatologue & Sjögren (sécheresse) \\
+IRM cérébrale (si non faite) & Neurologue & Exclure cause structurelle des céphalées \\
+Échographie pelvienne & Gynécologue & Polypes utérins + saignements \\
+\bottomrule
+\end{tabularx}
+\caption{Examens fonctionnels spécialisés}
+\end{table}
+\end{examen}
+
+%=============================================================================
+\section{Calendrier d'introduction des traitements}
+\label{sec:calendrier}
+%=============================================================================
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabularx}{\textwidth}{lXl}
+\toprule
+\textbf{Semaine} & \textbf{Action} & \textbf{Type} \\
+\midrule
+\textbf{Sem. 1} & Magnésium bisglycinate 200~mg le soir + Électrolytes (1/4 cc sel/L) le matin & Supplément \\
+\textbf{Sem. 2} & Ajouter~: Vitamine B12 1000~µg sublingual + Vitamine D3 4000~UI & Supplément \\
+\textbf{Sem. 3} & Ajouter~: Acide alpha-lipoïque 600~mg matin & Supplément \\
+\textbf{Sem. 3} & \textbf{RDV médecin}~: demander amitriptyline + bilan sanguin & Ordonnance \\
+\textbf{Sem. 4} & Ajouter~: CoQ10 ubiquinol 200~mg + D-Ribose 5~g $\times$3 & Supplément \\
+\textbf{Sem. 5} & Ajouter~: Oméga-3 (2~g EPA+DHA) + Quercétine 500~mg $\times$2 & Supplément \\
+\textbf{Sem. 6} & Ajouter~: Probiotique + L-Glutamine 5~g & Supplément \\
+\textbf{Sem. 6--8} & Résultats bilan sanguin $\rightarrow$ ajustement du traitement & Réévaluation \\
+\textbf{Sem. 8+} & Phase 2~: traitements ciblés selon résultats & Variable \\
+\bottomrule
+\end{tabularx}
+\caption{Calendrier d'introduction progressive}
+\end{table}
+
+%=============================================================================
+\newpage
+\section{Fiche quotidienne résumée}
+\label{sec:fiche}
+%=============================================================================
+
+\begin{center}
+\Large\textbf{FICHE DE TRAITEMENT QUOTIDIEN --- MARIE}\\[0.3em]
+\normalsize Version du 6 février 2026 --- Phase 1 (semaines 3--8)\\[0.5em]
+\small\textit{À adapter avec le médecin selon les résultats du bilan}
+\end{center}
+
+\vspace{0.5em}
+
+\begin{tcolorbox}[colback=medbg, colframe=medborder, title=\textbf{AU RÉVEIL (avant de se lever)}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}Xr}
+$\square$ & Grand verre d'eau salée (500~ml + 1/2 cc sel) & \textit{Tension} \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=suppbg, colframe=suppborder, title=\textbf{MATIN (petit-déjeuner)}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}Xr}
+$\square$ & Acide alpha-lipoïque 600~mg \textit{(à jeun, 20 min avant)} & \textit{Nerfs} \\
+$\square$ & Vitamine B12 1000~µg sublingual & \textit{Nerfs} \\
+$\square$ & CoQ10 ubiquinol 200~mg \textit{(avec le repas gras)} & \textit{Énergie} \\
+$\square$ & Vitamine D3 4000~UI + K2 100~µg \textit{(avec le repas)} & \textit{Immunité} \\
+$\square$ & Magnésium malate 200~mg & \textit{Énergie} \\
+$\square$ & Oméga-3 (1~g EPA+DHA) & \textit{Inflammation} \\
+$\square$ & D-Ribose 5~g \textit{(dans boisson ou yaourt)} & \textit{ATP} \\
+$\square$ & Quercétine 500~mg \textit{(20 min avant repas)} & \textit{Histamine} \\
+$\square$ & Probiotique 1 gélule & \textit{Digestion} \\
+$\square$ & \textit{Si prescrit~:} Midodrine 2.5--5~mg & \textit{Tension} \\
+$\square$ & \textit{Si prescrit~:} Cétirizine 10~mg & \textit{Histamine} \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=suppbg, colframe=suppborder, title=\textbf{MIDI (déjeuner)}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}Xr}
+$\square$ & D-Ribose 5~g & \textit{ATP} \\
+$\square$ & Oméga-3 (1~g EPA+DHA) & \textit{Inflammation} \\
+$\square$ & L-Glutamine 5~g \textit{(dans eau)} & \textit{Digestion} \\
+$\square$ & \textit{Si prescrit~:} Midodrine 2.5--5~mg & \textit{Tension} \\
+$\square$ & Solution d'électrolytes (500~ml) & \textit{Hydratation} \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=suppbg, colframe=suppborder, title=\textbf{GOÛTER (16h)}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}Xr}
+$\square$ & D-Ribose 5~g & \textit{ATP} \\
+$\square$ & Quercétine 500~mg & \textit{Histamine} \\
+$\square$ & Solution d'électrolytes (500~ml) & \textit{Hydratation} \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=themabg, colframe=themaborder, title=\textbf{SOIR (dîner + coucher)}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}Xr}
+$\square$ & Magnésium bisglycinate 200~mg \textit{(dîner)} & \textit{Sommeil} \\
+$\square$ & \textit{Si prescrit~:} Famotidine 20~mg \textit{(dîner)} & \textit{Histamine} \\
+$\square$ & Crème capsaïcine sur mains/pieds \textit{(après douche)} & \textit{Nerfs} \\
+$\square$ & Mélatonine 1--3~mg \textit{(30 min avant coucher)} & \textit{Sommeil} \\
+$\square$ & \textbf{Amitriptyline} 10--25~mg \textit{(au coucher, ORDONNANCE)} & \textit{Tout} \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=explorbg, colframe=explorborder, title=\textbf{QUOTIDIEN --- Habitudes}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}X}
+$\square$ & \textbf{Hydratation}~: minimum 2--2.5~L d'eau par jour (dont solutions d'électrolytes) \\
+$\square$ & \textbf{Sel}~: saler généreusement les repas (3--6~g sodium supplémentaire/jour) \\
+$\square$ & \textbf{Gants/chaussettes thermiques} en cas de froid \\
+$\square$ & \textbf{Journal des symptômes}~: noter fatigue, céphalées, picotements, froid, digestion (0--10) \\
+$\square$ & \textbf{Pacing}~: ne pas dépasser sa capacité, même les «~bons jours~» \\
+$\square$ & \textbf{Régime FODMAP}~: éviter les aliments déclencheurs identifiés \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=explorbg, colframe=explorborder, title=\textbf{HEBDOMADAIRE}, sharp corners]
+\begin{tabularx}{\textwidth}{p{0.3cm}X}
+$\square$ & Bain aux sels d'Epsom (magnésium) --- 20 min, eau tiède (pas chaude) --- 1--2×/semaine \\
+$\square$ & Faire le point sur le journal des symptômes~: amélioration, stagnation, aggravation~? \\
+$\square$ & Vérifier les stocks de suppléments \\
+\end{tabularx}
+\end{tcolorbox}
+
+\vspace{1em}
+
+\begin{avertissement}{Rappels importants}
+\begin{itemize}
+    \item \textbf{Midodrine}~: JAMAIS le soir / avant de se coucher (hypertension allongée)
+    \item \textbf{Amitriptyline}~: TOUJOURS le soir (somnolence)
+    \item \textbf{Fer} (si prescrit)~: JAMAIS en même temps que le thé, café, ou calcium (bloquent l'absorption). Prendre à jeun avec vitamine C.
+    \item \textbf{ALA}~: À jeun pour meilleure absorption (20 min avant le petit-déjeuner)
+    \item \textbf{Capsaïcine}~: Se laver les mains soigneusement après application. Ne PAS toucher les yeux.
+    \item \textbf{En cas de malaise}~: S'allonger, jambes surélevées, boire de l'eau salée
+\end{itemize}
+\end{avertissement}
+
+%=============================================================================
+\section{Coût mensuel estimé}
+\label{sec:couts}
+%=============================================================================
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{Xrr}
+\toprule
+\textbf{Produit} & \textbf{Coût/mois} & \textbf{Remboursement~?} \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Médicaments (ordonnance)}}} \\
+Amitriptyline 25~mg & 3--5~€ & Oui (65\%) \\
+Midodrine (si prescrite) & 10--15~€ & Oui (65\%) \\
+Cétirizine 10~mg & 3--5~€ & Non (OTC) \\
+Famotidine 20~mg & 5--8~€ & Oui si prescrit \\
+\midrule
+\multicolumn{3}{l}{\textit{\textbf{Suppléments}}} \\
+Magnésium bisglycinate/malate & 10--15~€ & Non \\
+Vitamine B12 sublingual & 8--12~€ & Non \\
+Vitamine D3 + K2 & 8--12~€ & Non \\
+Acide alpha-lipoïque 600~mg & 15--25~€ & Non \\
+CoQ10 ubiquinol 200~mg & 25--40~€ & Non \\
+D-Ribose (450~g/mois) & 20--30~€ & Non \\
+Oméga-3 concentrés & 15--25~€ & Non \\
+Quercétine & 15--20~€ & Non \\
+Probiotique & 15--25~€ & Non \\
+L-Glutamine & 10--15~€ & Non \\
+Mélatonine & 5--10~€ & Non \\
+Sel + potassium (électrolytes) & 2--5~€ & Non \\
+Crème capsaïcine & 8--12~€ & Non \\
+\midrule
+\textbf{Total estimé} & \textbf{170--270~€/mois} & \\
+\bottomrule
+\end{tabularx}
+\caption{Budget mensuel estimé (les prix sont approximatifs)}
+\end{table}
+
+\textbf{Priorisation si budget limité~:} Si le budget est un frein, les éléments les plus importants par ordre de priorité sont~:
+\begin{enumerate}
+    \item Amitriptyline (ordonnance, remboursée, 3€)
+    \item Électrolytes (sel + potassium, quelques euros)
+    \item Magnésium (10€)
+    \item Vitamine B12 + D3 (16--24€)
+    \item Acide alpha-lipoïque (15--25€)
+    \item CoQ10 (25--40€)
+    \item Les autres peuvent être ajoutés progressivement
+\end{enumerate}
+
+%=============================================================================
+\section{Résumé des points clés pour le médecin}
+\label{sec:resume-medecin}
+%=============================================================================
+
+\begin{examen}{Points à discuter avec le médecin prescripteur}
+\begin{enumerate}
+    \item \textbf{Prescription d'amitriptyline} 10~mg le soir (céphalées + neuropathie + sommeil)
+    \item \textbf{Bilan sanguin complet} (voir tableau section~\ref{sec:examens})~: en priorité ferritine, TSH/T4L/T3L, B12, vitamine D, ANA
+    \item \textbf{Orientation vers un neurologue} pour~: biopsie cutanée (NPF), Sudoscan, éventuellement IRM cérébrale
+    \item \textbf{Orientation vers un rhumatologue} si ANA positifs ou suspicion de connectivite
+    \item \textbf{Orientation vers un cardiologue} pour tilt-test si hypotension orthostatique confirmée
+    \item \textbf{Midodrine} si hypotension symptomatique sévère
+    \item \textbf{Polypes utérins}~: l'indication chirurgicale n'a pas été retenue à ce stade. Si la ferritine est basse, les polypes deviennent une cause identifiée de saignement chronique, ce qui renforcerait l'argument en faveur de l'intervention. À réévaluer avec le gynécologue après résultats du bilan martial
+    \item \textbf{Arrêt de travail}~: si ME/CFS ou NPF confirmé, le diagnostic organique protège le statut administratif de Marie
+    \item \textbf{Compléter le bilan somatique} avant de retenir une origine fonctionnelle~: la NPF (biopsie cutanée) et la dysautonomie (tilt-test) nécessitent des examens spécialisés non inclus dans les bilans de routine
+\end{enumerate}
+\end{examen}
+
+\vspace{2em}
+
+\begin{center}
+\textit{Document préparé comme support de discussion médicale.\\
+Toutes les recommandations doivent être validées par un médecin prescripteur.\\
+Dernière mise à jour~: 6 février 2026.}
+\end{center}
+
+\end{document}
