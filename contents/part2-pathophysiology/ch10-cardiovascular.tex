@@ -49,6 +49,7 @@ Several mechanisms have been proposed; their relative contributions in ME/CFS re
 
     Levels of vasoregulative GPCR autoantibodies correlate with symptom severity, autonomic dysfunction, and disability in ME/CFS~\cite{Sotzny2021}. The correlation with autonomic measures supports a direct pathophysiological role rather than an epiphenomenon of chronic illness. Beta-2 adrenergic receptor autoantibodies appear particularly relevant to cardiovascular symptoms, with immunoadsorption targeting these antibodies showing preliminary efficacy in post-COVID ME/CFS~\cite{Stein2024immunoadsorption}. BC007, a DNA aptamer that neutralizes GPCR autoantibodies, has shown promise in case reports for improving fatigue and microcirculatory function~\cite{Hohberger2021bc007}.
     \item \textbf{Central nervous system dysfunction}: Impaired autonomic outflow from brainstem centers
+    \item \textbf{Gut-mediated vagal impairment (hypothesized)}: Butyrate enhances enterochromaffin cell serotonin production~\cite{Barton2025}, and enterochromaffin serotonin activates vagal afferents via 5-HT$_3$ receptors~\cite{Barton2023,Kaelberer2018}. Since ME/CFS patients show butyrate deficiency, reduced enterochromaffin serotonin could impair vagal afferent signaling, potentially weakening efferent vagal tone to the heart. No direct evidence yet links this pathway to cardiac chronotropy in ME/CFS. See Section~\ref{sec:gut-brain} of Chapter~\ref{ch:gut-microbiome} for the full evidence chain
 \end{enumerate}
 
 The finding of chronotropic incompetence, combined with reduced HRV and abnormal baroreflex sensitivity~\cite{Newton2007autonomicDysfunction}, indicates autonomic dysfunction affecting cardiac pacing, though the primary site of dysfunction (central vs.\ peripheral) remains debated.
@@ -640,4 +641,83 @@ Cardiovascular dysfunction in ME/CFS involves multiple interacting abnormalities
 
 This cardiovascular dysfunction explains much of the disability in ME/CFS: patients cannot sustain physical activity because their cardiovascular system cannot deliver adequate oxygen to meet metabolic demands. The objective documentation of reduced VO$_2$peak and chronotropic incompetence in the NIH deep phenotyping study provides biological validation of patients' reported exercise intolerance. These cardiovascular abnormalities integrate with metabolic dysfunction (Chapter~\ref{ch:energy-metabolism}), autonomic dysfunction (Chapter~\ref{ch:neurological}), and immune dysregulation (Chapter~\ref{ch:immune-dysfunction}) to produce the multi-system pathophysiology synthesized in Chapter~\ref{ch:integrative-models}.
 
-Treatment approaches targeting cardiovascular dysfunction include volume expansion, medications for orthostatic intolerance, and careful activity management to avoid exceeding the reduced aerobic threshold. The recognition that cardiovascular abnormalities are objective and measurable helps counter misconceptions that ME/CFS exercise intolerance reflects psychological factors or simple deconditioning.
+Treatment approaches targeting cardiovascular dysfunction include volume expansion (fludrocortisone, increased fluid and salt intake), direct-acting autonomic agents (midodrine as alpha-agonist for vasoconstriction), and careful activity management to avoid exceeding the reduced aerobic threshold. The efficacy of pharmacological agents that bypass impaired CNS autonomic coordination (such as midodrine acting directly on peripheral alpha-receptors) provides indirect support for the selective energy dysfunction hypothesis discussed in Section~\ref{sec:selective-energy-dysfunction}. The recognition that cardiovascular abnormalities are objective and measurable helps counter misconceptions that ME/CFS exercise intolerance reflects psychological factors or simple deconditioning.
+
+\begin{hypothesis}[Motor-Autonomic Coordination Overload Hypothesis]
+\label{hyp:motor-autonomic-coordination}
+
+Physical activity requires simultaneous CNS coordination of motor output (muscle recruitment, movement planning, proprioceptive feedback) and autonomic regulation (heart rate adjustment, blood pressure maintenance, thermoregulation, respiratory drive). In healthy individuals, these coordination tasks operate efficiently within the brain's energy budget. We hypothesize that in ME/CFS, where CNS energy is the primary bottleneck (Section~\ref{sec:selective-dysfunction}), motor and autonomic coordination compete for insufficient resources, causing both systems to fail under demand.
+
+\paragraph{The Dual-Coordination Problem.}
+During exercise, the CNS must:
+
+\begin{itemize}
+    \item \textbf{Motor coordination}: Generate movement commands, integrate proprioceptive feedback, maintain balance, adjust force output---all requiring continuous cortical, cerebellar, and spinal processing.
+    \item \textbf{Autonomic coordination}: Increase heart rate, redistribute blood flow, maintain blood pressure during postural changes, regulate respiration, initiate sweating---all requiring brainstem and hypothalamic processing.
+    \item \textbf{Integration}: Coordinate motor and autonomic outputs so that cardiovascular supply matches muscular demand in real time.
+\end{itemize}
+
+In ME/CFS, if total CNS energy available for coordination is reduced, attempting both tasks simultaneously will exceed the available budget sooner than either task alone. This explains the central governor theory observation~\cite{Noakes2004governor,StClairGibson2004fatigue}: the brain limits motor output to protect itself from energy depletion.
+
+\paragraph{ME/CFS-Specific Predictions.}
+This hypothesis explains several puzzling CPET findings:
+
+\textit{Reduced VO$_2$peak beyond deconditioning.} The NIH deep phenotyping study documented VO$_2$peak reductions exceeding what deconditioning alone would predict~\cite{walitt2024deep}. If the brain limits motor output to preserve autonomic coordination capacity, peak exercise performance reflects the CNS energy budget, not peripheral muscle capacity.
+
+\textit{Chronotropic incompetence.} The failure to achieve age-predicted maximal heart rate~\cite{walitt2024deep} may reflect CNS prioritization: under energy constraint, the brain may reduce autonomic drive to the heart in order to preserve motor coordination, or vice versa. The specific pattern of failure depends on which system the CNS prioritizes in a given individual.
+
+\textit{Day-2 CPET deterioration.} The pathognomonic worsening on repeat CPET the following day reflects CNS energy depletion that has not recovered. The first test depletes CNS coordination reserves; insufficient recovery time means the second test starts from a lower baseline, producing objectively worse performance.
+
+\textit{PEM as coordination exhaustion.} Post-exertional malaise may represent the downstream consequence of depleting CNS coordination reserves. Once exhausted, the brain cannot adequately coordinate autonomic function (causing orthostatic symptoms, heart rate irregularity) or motor output (causing weakness, poor coordination), producing the multi-system symptom exacerbation characteristic of PEM.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item \textbf{Cognitive-physical interference}: ME/CFS patients should show greater cognitive impairment during physical activity (dual-task paradigm) than healthy controls, reflecting competition for shared CNS resources.
+    \item \textbf{Autonomic-motor trade-off}: During exercise, ME/CFS patients should show an inverse relationship between motor performance and autonomic function quality (e.g., better muscle output correlates with worse HRV, and vice versa).
+    \item \textbf{Separate-task preservation}: Motor tasks without significant autonomic demand (e.g., seated fine motor tasks) and autonomic challenges without motor demand (e.g., passive tilt testing) should each show less impairment than combined motor-autonomic challenges (e.g., exercise).
+    \item \textbf{Pharmacological bypass}: Agents that directly support autonomic function (midodrine, pyridostigmine) should improve exercise tolerance by offloading CNS autonomic coordination, freeing energy for motor output.
+\end{enumerate}
+
+\paragraph{Treatment Implications.}
+\begin{itemize}
+    \item \textbf{Pre-treatment with autonomic agents}: Taking autonomic-supporting medications before planned physical activity could extend exercise tolerance by reducing CNS autonomic coordination demands.
+    \item \textbf{Activity design}: Activities that minimize simultaneous motor-autonomic demand (recumbent exercise, swimming) should be better tolerated than upright weight-bearing exercise.
+    \item \textbf{Pacing rationale}: The coordination overload model provides a mechanistic rationale for pacing: staying below the threshold where motor and autonomic demands simultaneously exceed CNS capacity prevents the cascade of coordination failure that produces PEM.
+\end{itemize}
+
+\paragraph{Limitations.}
+The hypothesis assumes CNS energy is the primary constraint, which remains debated. Peripheral factors (mitochondrial dysfunction, reduced blood volume, deconditioning) independently contribute to exercise intolerance. The dual-task prediction requires careful experimental design to distinguish CNS resource competition from general fatigue. Central governor theory itself remains controversial in exercise physiology.
+
+\textbf{Certainty:} 0.55 (CPET findings well-documented; CNS coordination mechanism plausible; dual-task predictions testable but not yet tested in ME/CFS)
+\end{hypothesis}
+
+\begin{speculation}[Small Fiber Neuropathy Increases CNS Metabolic Load]
+\label{spec:sfn-interface-failure}
+Small fiber neuropathy affects approximately 30\% of ME/CFS patients~\cite{Azcue2023sfn,Azcue2025sfn}, creating a bidirectional communication burden between the peripheral nervous system and central nervous system that may amplify energy constraints.
+
+\paragraph{Afferent Signal Degradation.}
+SFN reduces the quality of autonomic afferent signals reaching the CNS---temperature sensing, baroreceptor feedback, visceral sensation. Degraded sensory input increases CNS processing demands to extract meaningful information. Neural systems must increase firing rates quadratically to achieve linear improvements in signal-to-noise ratio~\cite{Laughlin2003energy}, creating disproportionate metabolic costs when processing noisy peripheral signals. This is analogous to listening to conversation in a noisy environment: the brain expends more energy processing degraded input to achieve adequate perception.
+
+\paragraph{Efferent Command Amplification.}
+When efferent small fibers are damaged, the CNS must generate stronger, more frequent, or redundant autonomic commands to achieve target physiological responses. Fewer functional nerve fibers mean each must be driven harder, or signals must be repeated, increasing the metabolic cost of autonomic control. During orthostatic stress, the CNS may detect inadequate vasoconstriction (via baroreceptor feedback) despite issuing normal commands, triggering escalating compensatory signals that further drain central energy reserves.
+
+\paragraph{Testable Predictions.}
+\begin{itemize}
+    \item Intraepidermal nerve fiber density (IENFD) should inversely correlate with brainstem and hypothalamic glucose uptake (FDG-PET) during autonomic challenges such as tilt testing ($r < -0.5$ expected).
+    \item ME/CFS patients with confirmed SFN should demonstrate worse cognitive fatigue and brain fog than those without SFN, controlling for pain severity and autonomic dysfunction magnitude.
+    \item Treatment of autoimmune SFN with IVIG should reduce CNS metabolic burden measurable by PET or MR spectroscopy, with corresponding improvements in cognitive symptoms.
+    \item Corneal nerve fiber tortuosity (measured non-invasively via corneal confocal microscopy) should correlate with CNS lactate accumulation and cognitive impairment.
+    \item Cognitive load should exacerbate autonomic dysfunction more severely in SFN-positive patients, reflecting competition for limited CNS energy resources.
+\end{itemize}
+
+\paragraph{Treatment Implications.}
+If this hypothesis is correct, treating SFN may reduce CNS metabolic burden and improve cognitive symptoms even without direct CNS interventions. The non-length-dependent SFN pattern documented in ME/CFS~\cite{Azcue2023sfn} suggests autoimmune etiology, potentially responsive to immunomodulation. Case series (low certainty) suggest IVIG improves pain and autonomic symptoms in autoimmune SFN~\cite{Liu2020IVIG,Oaklander2016autoimmuneSFN}, though randomized controlled trials in idiopathic SFN have shown mixed results. The distinct autoimmune pattern in ME/CFS-associated SFN may predict better immunotherapy response than idiopathic cases.
+
+\paragraph{Limitations.}
+No studies have directly measured CNS metabolic demand in relation to SFN severity in ME/CFS. SFN and cognitive dysfunction may share common causes (e.g., autoimmunity or inflammation) rather than having a causal relationship. The relative contribution of SFN to overall CNS energy constraints is unknown and may be minor compared to other factors.
+
+\paragraph{Current Evidence.}
+Azcue et al.\ documented that ME/CFS patients show prolonged heat response latencies indicating C-fiber dysfunction, with 31\% meeting POTS criteria~\cite{Azcue2023sfn}. A follow-up study using corneal confocal microscopy demonstrated increased small fiber tortuosity in ME/CFS compared to controls ($F=6.80$, $p<0.01$), with tortuosity serving as the primary discriminator between patients and controls (AUC$=0.720$)~\cite{Azcue2025sfn}. The non-length-dependent pattern (upper and lower extremities equally affected) distinguishes ME/CFS-associated SFN from metabolic neuropathies like diabetic neuropathy, suggesting immune-mediated damage targeting specific antigens on small nerve fibers. The connection between reduced parasympathetic activation and worse cognitive performance~\cite{Azcue2023sfn} provides indirect support for peripheral-CNS interface dysfunction, though directionality remains uncertain.
+
+\textbf{Certainty:} 0.40 (SFN prevalence established; CNS metabolic mechanism speculative)
+\end{speculation}
