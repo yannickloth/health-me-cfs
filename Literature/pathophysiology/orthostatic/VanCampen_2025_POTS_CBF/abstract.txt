@@ -1,0 +1,46 @@
+1. J Clin Med. 2025 May 22;14(11):3648. doi: 10.3390/jcm14113648.
+
+The Relation Between Cardiac Output and Cerebral Blood Flow in ME/CFS Patients 
+with a POTS Response During a Tilt Test.
+
+van Campen CLMC(1), Visser FC(1).
+
+Author information:
+(1)Stichting CardioZorg, Kraayveld 5, 1171 JE Badhoevedorp, The Netherlands.
+
+Background/Objectives: Orthostatic intolerance is prevalent in patients with 
+myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and is caused by an 
+abnormal reduction in cerebral blood flow (CBF). In healthy controls (HCs), CBF 
+is regulated complexly, and cardiac output (CO) is an important determinant of 
+CBF. A review in HC showed that a 30% reduction in CO results in a 10% reduction 
+in CBF. In contrast, we showed in ME/CFS patients with a normal HR (HR) and 
+blood pressure response during a tilt test that CO and CBF decreased to a 
+similar extent. The relation between CO and CBF in ME/CFS patients with postural 
+orthostatic tachycardia syndrome (POTS) is unknown. Therefore, the aim of this 
+study is to assess the relation between CBF and CO, in ME/CFS patients with 
+POTS. The methods used in this retrospective study analyze this relation in a 
+large group of patients. We also analyzed the influence of clinical data. A 
+total of 260 ME/CFS patients with POTS underwent tilt testing with measurements 
+of HR, BP, CBF, CO, and end-tidal PCO2. We measured CBF using extracranial 
+Doppler flow velocity and vessel diameters obtained with a General Electric echo 
+system, and suprasternal aortic flow velocities were measured using the same 
+device. We recorded end-tidal PCO2 using a Nonin Lifesense device. Results: 
+End-tilt HR and the HR increase were significantly higher in the patients with a 
+%CO reduction ≥ -15% than in the other group. End-tilt CO was higher and the %CO 
+reduction was lower in patients with %CO reduction ≥ -15% than in the other 
+group. CBF data (supine, end-tilt and the %CBF reduction) were not different 
+between the two patient groups. The use of HR increases and %SV reductions were 
+not as discriminative as the %CO reduction. Conclusions: In ME/CFS patients with 
+POTS during tilt testing with measurements of both the CO and the CBF, two 
+different patterns were observed: (1) appr. two-thirds of patients had an almost 
+1:1 relation between the %CBF reduction and the %CO reduction. (2) Appr. 
+one-third of patients showed a limited reduction in CO together with a 
+substantial increase in HR. In these patients, there was no relation between the 
+CO and CBF reduction. These data suggest the presence of a hyperadrenergic 
+response.
+
+DOI: 10.3390/jcm14113648
+PMCID: PMC12156179
+PMID: 40507411
+
+Conflict of interest statement: The authors declare no conflicts of interest.

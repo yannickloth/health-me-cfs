@@ -1,0 +1,51 @@
+1. Sports Med Open. 2023 Sep 21;9(1):87. doi: 10.1186/s40798-023-00633-0.
+
+Integrating Deloading into Strength and Physique Sports Training Programmes: An 
+International Delphi Consensus Approach.
+
+Bell L(1), Strafford BW(2), Coleman M(3), Androulakis Korakakis P(3), Nolan 
+D(4).
+
+Author information:
+(1)Department of Sport and Physical Activity, Sheffield Hallam University, 
+Sheffield, S10 2BP, UK. Lee.bell@shu.ac.uk.
+(2)Department of Sport and Physical Activity, Sheffield Hallam University, 
+Sheffield, S10 2BP, UK.
+(3)Department of Exercise Science and Recreation, Applied Muscle Development 
+Laboratory, CUNY Lehman College, Bronx, NY, USA.
+(4)School of Health & Human Performance, Dublin City University, Dublin, 
+Ireland.
+
+BACKGROUND: Deloading is a ubiquitous yet under-researched strategy within 
+strength and physique training. How deloading should be integrated into the 
+training programme to elicit optimal training outcomes is unknown. To aid its 
+potential integration, this study established consensus around design principles 
+for integrating deloading in strength and physique training programmes using 
+expert opinion and practical experience.
+METHODS: Expert strength and physique coaches were invited to an online Delphi 
+consisting of 3 rounds. Thirty-four coaches completed the first round, 29 
+completed the second round, and 21 completed the third round of a Delphi 
+questionnaire. In the first round, coaches answered 15 open-ended questions from 
+four categories: 1: General Perceptions of Deloading; 2: Potential Applications 
+of Deloading; 3: Designing and Implementing Deloading; and 4: Creating an 
+Inclusive Deloading Training Environment. First-round responses were analyzed 
+using reflexive thematic analysis, resulting in 138 statements organized into 
+four domains. In the second and third rounds, coaches rated each statement using 
+a four-point Likert scale, and collective agreement or disagreement was 
+calculated.
+RESULTS: Stability of consensus was achieved across specific aspects of the four 
+categories. Findings from the final round were used to develop the design 
+principles, which reflect the consensus achieved.
+CONCLUSIONS: This study develops consensus on design principles for integrating 
+deloading into strength and physique sports training programmes. A consensus 
+definition is proposed: "Deloading is a period of reduced training stress 
+designed to mitigate physiological and psychological fatigue, promote recovery, 
+and enhance preparedness for subsequent training." These findings contribute 
+novel knowledge that might advance the current understanding of deloading in 
+strength and physique sports.
+
+© 2023. Springer Nature Switzerland AG.
+
+DOI: 10.1186/s40798-023-00633-0
+PMCID: PMC10511399
+PMID: 37730925

@@ -1,0 +1,52 @@
+1. J Clin Med. 2021 Aug 19;10(16):3675. doi: 10.3390/jcm10163675.
+
+Autoantibodies to Vasoregulative G-Protein-Coupled Receptors Correlate with 
+Symptom Severity, Autonomic Dysfunction and Disability in Myalgic 
+Encephalomyelitis/Chronic Fatigue Syndrome.
+
+Freitag H(1), Szklarski M(1), Lorenz S(1), Sotzny F(1), Bauer S(1), Philippe 
+A(2), Kedor C(1), Grabowski P(1), Lange T(3), Riemekasten G(3), Heidecke H(4), 
+Scheibenbogen C(1)(5).
+
+Author information:
+(1)Institute of Medical Immunology, Charité-Universitätsmedizin Berlin, 13353 
+Berlin, Germany.
+(2)Department of Nephrology and Critical Care Medicine, 
+Charité-Universitätsmedizin Berlin, 13353 Berlin, Germany.
+(3)Department of Rheumatology and Clinical Immunology, University of Lübeck, 
+23538 Lübeck, Germany.
+(4)CellTrend GmbH, 14943 Luckenwalde, Germany.
+(5)Berlin Institute of Health Center for Regenerative Therapies (BCRT), 
+Charité-Universitätsmedizin Berlin, 10117 Berlin, Germany.
+
+BACKGROUND: Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is an 
+acquired complex disease with patients suffering from the cardinal symptoms of 
+fatigue, post-exertional malaise (PEM), cognitive impairment, pain and 
+autonomous dysfunction. ME/CFS is triggered by an infection in the majority of 
+patients. Initial evidence for a potential role of natural regulatory 
+autoantibodies (AAB) to beta-adrenergic (AdR) and muscarinic acetylcholine 
+receptors (M-AChR) in ME/CFS patients comes from a few studies.
+METHODS: Here, we analyzed the correlations of symptom severity with levels of 
+AAB to vasoregulative AdR, AChR and Endothelin-1 type A and B (ETA/B) and 
+Angiotensin II type 1 (AT1) receptor in a Berlin cohort of ME/CFS patients (n = 
+116) by ELISA. The severity of disease, symptoms and autonomic dysfunction were 
+assessed by questionnaires.
+RESULTS: We found levels of most AABs significantly correlated with key symptoms 
+of fatigue and muscle pain in patients with infection-triggered onset. The 
+severity of cognitive impairment correlated with AT1-R- and ETA-R-AAB and 
+severity of gastrointestinal symptoms with alpha1/2-AdR-AAB. In contrast, the 
+patients with non-infection-triggered ME/CFS showed fewer and other 
+correlations.
+CONCLUSION: Correlations of specific AAB against G-protein-coupled receptors 
+(GPCR) with symptoms provide evidence for a role of these AAB or respective 
+receptor pathways in disease pathomechanism.
+
+DOI: 10.3390/jcm10163675
+PMCID: PMC8397061
+PMID: 34441971
+
+Conflict of interest statement: H.H., managing director of CellTrend GmbH, holds 
+a patent for the use of beta-adrenergic receptor antibodies in diagnosis of CFS. 
+All other authors declare no conflict of interest. The funders had no role in 
+the design of the study; in the collection, analyses, or interpretation of data; 
+in the writing of the manuscript, or in the decision to publish the results.

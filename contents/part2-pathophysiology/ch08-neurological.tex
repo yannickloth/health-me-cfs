@@ -214,6 +214,63 @@ Acetylcholine abnormalities in ME/CFS have received less attention but may contr
 
 Autoantibodies against muscarinic acetylcholine receptors have been identified in some ME/CFS patients, providing a potential autoimmune mechanism for cholinergic dysfunction.
 
+\subsection{Sleep Architecture and Inter-Regional Coordination}
+\label{sec:sleep-architecture}
+
+Sleep disturbances, particularly unrefreshing sleep despite adequate duration, affect up to 95\% of ME/CFS patients. While subjective complaints are nearly universal, objective polysomnographic findings show more subtle alterations: longer sleep latency, reduced sleep efficiency, increased Stage 3 sleep in adults, and altered sleep microstructure~\cite{Jackson2023sleep}. The paradox---severe subjective sleep dysfunction with modest objective changes---suggests the problem may lie not in sleep duration or stage percentages, but in the \textit{coordination} required to generate and maintain normal sleep architecture.
+
+\subsubsection{Energy Costs of Sleep Architecture Coordination}
+
+Normal sleep architecture requires sophisticated inter-regional brain coordination orchestrated primarily through thalamo-cortical circuits. During non-REM sleep, slow oscillations (~1~Hz) originate in the anterior thalamus and precede neocortical slow oscillations, while sleep spindles (~12--14~Hz) detected in thalamic nuclei precede their neocortical counterparts~\cite{Fernandez2022thalamus}. This sequence---convergent cortical downstates leading thalamic downstates, which then trigger spindles projected back to cortex during the down-to-upstate transition---coordinates memory consolidation across distributed brain regions~\cite{Jiang2024ripples}.
+
+Sleep spindle generation itself is metabolically demanding. Thalamic reticular nucleus (TRN) neurons must generate rhythmic bursts at 12--14~Hz, which requires sustained calcium channel activity, neurotransmitter synthesis and release, and coordinated inhibition of thalamocortical relay neurons. The cortex must then respond appropriately, amplifying spindles and coupling them with hippocampal ripples for memory consolidation. This inter-regional choreography demands substantial ATP and coordinated neurotransmitter systems.
+
+Similarly, REM sleep requires brainstem activation (particularly cholinergic nuclei), thalamic relay, cortical activation approaching waking levels, and simultaneous motor inhibition via brainstem circuits. The transitions between sleep stages---requiring coordinated deactivation of one set of circuits and activation of another---may be particularly energy-intensive.
+
+\begin{hypothesis}[Sleep Architecture Failure Hypothesis]
+\label{hyp:sleep-architecture-failure}
+
+In ME/CFS, CNS energy deficits and metabolic dysfunction prevent the sustained inter-regional coordination required for normal sleep architecture, resulting in fragmented sleep microstructure despite adequate total sleep time.
+
+\paragraph{Mechanism.}
+The hypothesis proposes that sleep architecture fragmentation in ME/CFS reflects energy-limited coordination failure:
+
+\begin{enumerate}
+    \item \textbf{Spindle generation deficit}: Thalamic reticular nucleus neurons cannot sustain the metabolic demands of rhythmic 12--14~Hz burst firing, reducing sleep spindle density and power
+
+    \item \textbf{Slow-wave coordination failure}: Thalamo-cortical circuits cannot maintain synchronized slow oscillations across brain regions, fragmenting slow-wave sleep architecture
+
+    \item \textbf{Stage transition impairment}: The coordinated network reconfiguration required for sleep stage transitions (more demanding than within-stage maintenance) fails preferentially, increasing sleep fragmentation
+
+    \item \textbf{Inter-regional coherence reduction}: EEG coherence between brain regions declines during sleep, reflecting impaired functional connectivity~\cite{Sherlin2011coherence}
+
+    \item \textbf{PEM-induced worsening}: During post-exertional malaise, when CNS energy deficits intensify, sleep architecture fragmentation worsens proportionally
+\end{enumerate}
+
+\paragraph{Supporting evidence.}
+Jackson et al.~\cite{Jackson2023sleep} meta-analyzed objective sleep data from 801 adults and 477 adolescents with ME/CFS, confirming altered sleep microstructure despite the subjective-objective paradox. Adult patients showed reduced sleep efficiency, altered stage distribution (decreased Stage 2, increased Stage 3), and longer sleep latency---patterns consistent with coordination difficulties rather than simple sleep deprivation.
+
+Sherlin et al.~\cite{Sherlin2011coherence} demonstrated that EEG spectral coherence distinguishes CFS patients from both healthy controls and depressed patients with 100\% accuracy for unmedicated CFS patients. The involvement of bilateral temporal lobes in 9 of 10 coherence factors suggests widespread inter-regional connectivity disruption, supporting the coordination failure hypothesis.
+
+Sleep fragmentation studies show that chronic fragmentation impairs brain energy metabolism to an extent similar to total sleep deprivation, with lower glucose uptake in cortex and hippocampus~\cite{Baud2016fragmentation}. In ME/CFS, the causal arrow may reverse: primary metabolic dysfunction fragments sleep, which further worsens metabolism in a vicious cycle.
+
+\paragraph{Testable predictions.}
+\begin{enumerate}
+    \item Sleep spindle density and power correlate inversely with ME/CFS symptom severity and biomarkers of CNS dysfunction
+    \item Slow-wave sleep fragmentation (not just total SWS percentage) correlates with measures of metabolic dysfunction (e.g., cerebral lactate on MRS)
+    \item Sleep architecture fragmentation worsens 24--72 hours post-exertion, tracking PEM time course
+    \item Sleep stage transition frequency increases (shorter, more fragmented sleep stages) compared to healthy controls, even when stage percentages appear normal
+    \item Inter-regional EEG coherence during sleep is reduced in ME/CFS patients, particularly in frequency bands critical for sleep oscillations (delta, sigma)
+    \item Interventions improving cerebral metabolism (e.g., mitochondrial support) improve objective sleep microstructure, not just subjective sleep quality
+\end{enumerate}
+
+\paragraph{Treatment implications.}
+If sleep architecture failure reflects energy-limited coordination, interventions should target: (1)~circadian optimization---maximizing sleep opportunity during the circadian nadir when sleep pressure is highest; (2)~metabolic support---mitochondrial cofactors (CoQ10, NADH) during evening hours may improve overnight cerebral metabolism~\cite{CastroMarrero2021CoQ10}; (3)~sleep stage-specific support---low-dose gabapentin or pregabalin may reduce thalamo-cortical excitability demands while supporting spindle generation; (4)~glymphatic enhancement---sleep position (lateral decubitus), avoiding late caffeine, and sleep continuity strategies; (5)~pacing-sleep integration---recognizing that sleep quality worsens predictably during PEM can guide activity management.
+
+\paragraph{Limitations.}
+This hypothesis has moderate certainty (0.50). No published studies have quantified spindle density or power in ME/CFS with simultaneous metabolic measures. Coherence data exists for waking but not sleep EEG. Alternative explanations include primary brainstem pathology, autonomic dysfunction, or circadian disruption rather than energy limitation. Causality direction remains unclear: does poor metabolism fragment sleep, or does fragmented sleep worsen metabolism?
+\end{hypothesis}
+
 \subsection{Glial Cell Dysfunction}
 \label{sec:glial}
 
@@ -227,13 +284,245 @@ Microglia, the resident immune cells of the central nervous system, have emerged
 
 Chronic microglial activation, when present, can produce sustained release of pro-inflammatory cytokines (IL-1$\beta$, TNF-$\alpha$, IL-6), oxidative stress through reactive oxygen species production, glutamate release contributing to excitotoxicity, disruption of synaptic pruning and plasticity, and blood-brain barrier dysfunction.
 
-\subsubsection{Astrocyte Abnormalities}
+\begin{hypothesis}[Glial Maturation Window and Pediatric Recovery]
+\label{hyp:glial-maturation-window}
 
-Astrocytes perform essential functions including neurotransmitter uptake and recycling, blood-brain barrier maintenance, metabolic support for neurons, synaptic modulation, and ion homeostasis.
+Adolescent ME/CFS patients may benefit from a developmental window during which active microglial remodeling can reset pathological activation states---a mechanism unavailable to adult patients whose glial maturation is complete.
 
-Astrocyte dysfunction in ME/CFS may contribute to impaired glutamate clearance and excitotoxicity, reduced metabolic support for neurons, blood-brain barrier compromise, and abnormal synaptic transmission.
+\paragraph{Background: Adolescent Microglial Maturation}
 
-Elevated GFAP (glial fibrillary acidic protein) in some ME/CFS patients suggests astrocyte reactivity, though findings have been inconsistent.
+Microglia undergo dramatic functional reorganization during adolescence, performing complex developmental tasks beyond their immune surveillance role. From embryonic neuronal migration to adolescent circuit refinement, immune signaling molecules serve as a common language allowing microglia to modulate brain function in both health and disease~\cite{Dziabis2022microglia}.
+
+Three critical periods define microglial contributions to neural development: embryonic wiring, early postnatal synaptic pruning (peak near birth continuing into late-20s), and adolescent circuit refinement~\cite{Dziabis2022microglia}. During adolescence specifically, microglia mediate experience-dependent synaptic pruning through complement-mediated mechanisms, with C3 binding to CR3 receptors facilitating selective synapse elimination. This process exhibits sex-specific patterns and regional variation, with particularly robust activity in prefrontal cortex and nucleus accumbens~\cite{ScienceAdvances2024adolescent,PMC11758907synapse}.
+
+Crucially, transient microglial deficiency during adolescence---but not adulthood---produces lasting cognitive impairments, identifying adolescence as a sensitive period for prefrontal microglia to act on cognitive development~\cite{ScienceAdvances2024adolescent}. The developmental program requires coordinated microglial activity for proper circuit maturation, with major transitions largely complete by early 20s.
+
+\paragraph{Application to ME/CFS: The Reset Hypothesis}
+
+If ME/CFS involves chronic microglial activation locked in a pro-inflammatory state (as suggested by Nakatomi et al.\ PET findings~\cite{Nakatomi2014neuroinflammation}), then adolescent microglial remodeling may provide a natural mechanism for resolution:
+
+\begin{enumerate}
+    \item \textbf{Active turnover}: Adolescent microglia undergo programmed replacement and phenotypic switching as part of circuit refinement, potentially eliminating pathologically activated cells
+
+    \item \textbf{Developmental override signals}: The hormonal and neurochemical milieu of adolescence (BDNF elevation, sex hormones, growth factors) provides strong pro-plasticity signals that may override inflammatory set-points
+
+    \item \textbf{Synaptic reorganization}: Pathological neuroinflammatory states often involve aberrant synaptic connections; adolescent pruning may eliminate these circuits while preserving functional connectivity
+
+    \item \textbf{Adult lock-in}: After developmental windows close (~age 25), microglia lose plasticity for wholesale phenotypic switching, becoming locked in their current activation state without the developmental cues that enable adolescent reset
+\end{enumerate}
+
+This framework explains why pediatric ME/CFS shows substantially higher recovery rates (estimated 54--94\% in studies of mild-moderate cases) compared to adult-onset disease where recovery is rare~\cite{Rowe2019pediatric}. The critical variable is not disease duration but rather whether onset occurs before or after completion of microglial maturation.
+
+\paragraph{Testable Predictions}
+
+This hypothesis generates specific, falsifiable predictions:
+
+\begin{enumerate}
+    \item \textbf{Age-dependent neuroinflammation}: Longitudinal PET imaging should show declining microglial activation in recovering adolescents but persistent activation in adults with similar disease duration
+
+    \item \textbf{Transition age threshold}: Recovery rates should decline sharply around age 22--25 (completion of prefrontal maturation) rather than showing gradual age-related decline
+
+    \item \textbf{Biomarker trajectories}: CSF inflammatory markers (sCD14, chitotriosidase) should normalize in recovering adolescents but remain elevated in non-recovering adults
+
+    \item \textbf{Microglial turnover markers}: Adolescent patients should show elevated markers of microglial turnover (CSF1R expression, fractalkine signaling) compared to adults
+
+    \item \textbf{Severity interactions}: Hypothesis predicts age matters less if microglial activation is mild (can resolve spontaneously) but becomes critical if activation is severe (requires active remodeling to clear)
+\end{enumerate}
+
+\paragraph{Treatment Implications}
+
+If adolescent microglial plasticity enables recovery, then therapeutically inducing similar plasticity in adults might improve outcomes:
+
+\begin{enumerate}
+    \item \textbf{CSF-1R inhibitors}: Drugs like PLX5622 or pexidartinib force microglial turnover by depleting existing populations and promoting repopulation from progenitors. This mimics the natural turnover occurring during adolescence, potentially resetting activation states~\cite{MDPI2024microglial}.
+
+    \item \textbf{Fasting-mimicking diets}: Prolonged fasting promotes microglial autophagy and phenotypic switching, potentially enabling transition from pro-inflammatory to surveillance phenotypes without complete depletion
+
+    \item \textbf{BDNF enhancement}: Brain-derived neurotrophic factor drives developmental plasticity; strategies to boost BDNF (exercise within energy envelope, ketogenic diet, certain medications) may partially reopen plasticity windows
+
+    \item \textbf{Timing considerations}: Interventions targeting microglial reset may be most effective in younger adults (under 30) where some residual developmental plasticity remains, with diminishing returns in older patients
+\end{enumerate}
+
+\paragraph{Integration with Broader ME/CFS Pathophysiology}
+
+This hypothesis complements rather than contradicts other mechanistic proposals. Microglial activation may be downstream of initial triggers (viral infection, autoantibodies, autonomic dysfunction) while still representing a critical perpetuating factor. The developmental window hypothesis specifically addresses \emph{why recovery patterns differ by age} rather than explaining disease initiation.
+
+The glial maturation window may interact synergistically with other proposed pediatric advantages: immune memory pruning (Hypothesis~\ref{hyp:immune-memory-pruning}, if present), greater HSC regenerative capacity, higher baseline recovery capital (Section~\ref{spec:recovery-capital}), and incomplete epigenetic aging.
+
+\paragraph{Limitations and Uncertainties}
+
+Several important caveats apply:
+
+\begin{enumerate}
+    \item The Nakatomi et al.\ microglial activation findings have not been consistently replicated; if microglial activation is not a universal ME/CFS feature, this hypothesis applies only to a subset
+
+    \item The proposed mechanism assumes glial maturation windows close around age 25, but individual variation exists; some adults may retain plasticity longer
+
+    \item Pediatric recovery may reflect multiple mechanisms simultaneously; isolating the specific contribution of microglial remodeling requires longitudinal studies with neuroimaging
+
+    \item CSF-1R inhibitor strategies carry significant risks (meningitis, visual changes) and remain experimental; safety in ME/CFS populations is unknown
+\end{enumerate}
+
+\paragraph{Research Priorities}
+
+To test this hypothesis rigorously:
+
+\begin{enumerate}
+    \item \textbf{Age-stratified longitudinal neuroimaging}: Serial PET scans in adolescent vs adult ME/CFS tracking microglial activation trajectories over 2--5 years
+
+    \item \textbf{CSF biomarker studies}: Compare inflammatory markers and microglial turnover signatures across age groups and recovery status
+
+    \item \textbf{Preclinical models}: Post-viral fatigue models in adolescent vs adult mice to test whether developmental microglia enable recovery
+
+    \item \textbf{Treatment trials}: Small pilot studies of CSF-1R modulation in carefully selected adult ME/CFS patients with documented microglial activation
+\end{enumerate}
+
+This hypothesis provides a mechanistic framework for understanding one component of the pediatric recovery advantage while suggesting potential therapeutic strategies for adult patients.
+
+\end{hypothesis}
+
+\subsubsection{Astrocyte Abnormalities and the Astrocyte Energy Gate}
+\label{sec:astrocyte-energy-gate}
+
+Astrocytes perform essential functions including neurotransmitter uptake and recycling, blood-brain barrier maintenance, metabolic support for neurons, synaptic modulation, and ion homeostasis. Astrocyte dysfunction in ME/CFS may contribute to impaired glutamate clearance and excitotoxicity, reduced metabolic support for neurons, blood-brain barrier compromise, and abnormal synaptic transmission. Elevated GFAP (glial fibrillary acidic protein) in some ME/CFS patients suggests astrocyte reactivity, though findings have been inconsistent.
+
+Beyond these recognized roles, astrocytes occupy a uniquely critical position in brain energy metabolism that may constitute a central vulnerability in ME/CFS. The following hypothesis develops this metabolic dimension in detail.
+
+\paragraph{The Astrocyte-Neuron Lactate Shuttle: Normal Physiology}
+
+The brain consumes 20--25\% of the body's glucose despite comprising only 2\% of body mass~\cite{Belanger2011}. A substantial fraction of this energy reaches neurons not as glucose directly, but via the \textbf{astrocyte-neuron lactate shuttle} (ANLS), first described by Pellerin and Magistretti~\cite{Pellerin1994}. In this system, glutamate released during synaptic transmission is taken up by astrocytes via excitatory amino acid transporters (EAATs), triggering astrocytic glucose uptake through GLUT1 transporters and subsequent glycolysis. Astrocytes convert glucose to pyruvate and then to lactate via lactate dehydrogenase A (LDHA), which preferentially catalyzes the pyruvate-to-lactate direction. This lactate is then exported from astrocytes through monocarboxylate transporter 4 (MCT4, a low-affinity, high-capacity exporter) and imported into neurons through MCT2 (a high-affinity importer)~\cite{Pierre2005}. Within neurons, LDHB converts lactate back to pyruvate for oxidative phosphorylation in mitochondria.
+
+This architecture elegantly couples neuronal energy supply to neuronal activity: when a synapse fires, the glutamate released simultaneously signals the local astrocyte to increase energy delivery~\cite{Magistretti2018}. Lactate provides an estimated 30--50\% of neuronal ATP under physiological conditions~\cite{Magistretti2018}, and this fraction likely increases during periods of intense neural activity when neurons' own glycolytic capacity is insufficient.
+
+Several features make this shuttle critical rather than merely supplementary:
+
+\begin{enumerate}
+    \item \textbf{Activity coupling:} The glutamate-triggered mechanism ensures energy supply scales with demand at the single-synapse level
+    \item \textbf{Metabolic specialization:} Neurons preferentially express LDHB (favoring lactate $\to$ pyruvate) while astrocytes express LDHA (favoring pyruvate $\to$ lactate), creating directional metabolic flow~\cite{Kim2025ANLS}
+    \item \textbf{Antioxidant protection:} By outsourcing glycolysis to astrocytes, neurons can direct more glucose through the pentose phosphate pathway for glutathione regeneration, protecting against oxidative damage
+    \item \textbf{Signaling function:} Lactate also acts as a signaling molecule via the hydroxycarboxylic acid receptor 1 (HCAR1/GPR81), modulating neuronal excitability and synaptic plasticity~\cite{Magistretti2018}
+\end{enumerate}
+
+\paragraph{Important Nuance: Neuronal Metabolic Flexibility}
+
+The classical ANLS model has been refined by recent evidence demonstrating that neurons possess greater metabolic flexibility than originally assumed. Single-cell RNA sequencing studies reveal that neurons express both LDHA and LDHB, not exclusively LDHB~\cite{Kim2025ANLS}. Neurons can directly take up and oxidize glucose, particularly during high-demand states. LDHB-deficient neurons maintain stable energy metabolism under physiological glucose conditions, suggesting compensatory pathways exist.
+
+However, this flexibility has limits. During high-frequency neural activity---precisely the conditions of cognitive exertion---direct neuronal glucose oxidation may prove insufficient, and astrocyte-derived lactate becomes the critical marginal fuel source. This distinction between \emph{basal} sufficiency and \emph{demand-responsive} insufficiency is central to the hypothesis that follows.
+
+\begin{hypothesis}[Astrocyte Energy Gate]
+\label{hyp:astrocyte-energy-gate}
+We hypothesize that dysfunction in the astrocyte-neuron lactate shuttle creates a \textbf{metabolic bottleneck}---an ``energy gate''---that produces CNS-specific energy failure in ME/CFS while peripheral tissues with direct glucose access remain unaffected.
+
+\paragraph{Three Candidate Mechanisms}
+
+The energy gate may fail at any of three nodes, singly or in combination:
+
+\begin{enumerate}
+    \item \textbf{Astrocyte glucose uptake impairment (GLUT1 dysfunction):} Reduced GLUT1 expression or function on astrocytes limits the raw substrate entering the shuttle. GLUT1 deficiency syndrome demonstrates that impaired astrocytic glucose transport causes seizures, cognitive impairment, and brain hypometabolism---features that partially overlap with ME/CFS neurological symptoms. Neuroinflammatory mediators (IL-1$\beta$, TNF-$\alpha$) documented in ME/CFS can downregulate GLUT1 expression.
+
+    \item \textbf{Lactate production impairment (glycolytic defects):} Reactive astrogliosis---documented via elevated GFAP in ME/CFS---involves metabolic reprogramming that may paradoxically impair effective lactate delivery. While reactive astrocytes initially upregulate glycolysis, chronic neuroinflammation shifts astrocyte metabolism toward a state where mitochondrial dysfunction reduces overall metabolic efficiency. Inflammatory cytokines can alter pyruvate dehydrogenase kinase (PDK) activity, disrupting the glycolysis/oxidative phosphorylation balance within astrocytes themselves.
+
+    \item \textbf{Lactate transport impairment (MCT dysfunction):} Downregulation of MCT4 (astrocyte export) or MCT2 (neuronal import) directly restricts lactate flow. This mechanism has the strongest precedent in other neurological diseases: MCT1/MCT4 downregulation reduces neuronal lactate supply by approximately 60\%~\cite{Kim2025ANLS}. In Alzheimer's disease, decreased expression of MCT1, MCT2, and MCT4 is documented. In amyotrophic lateral sclerosis, reduced MCT1 in oligodendrocytes precedes motor neuron degeneration. In temporal lobe epilepsy, MCT2 redistribution and MCT4 reduction are observed in epileptic foci.
+\end{enumerate}
+
+\paragraph{Why This Creates Selective Dysfunction}
+
+The energy gate hypothesis explains why CNS function fails while peripheral tissues remain functional:
+
+\begin{itemize}
+    \item \textbf{CNS vulnerability:} Neurons depend on the ANLS for a substantial portion of their activity-dependent energy supply. No other cell type in the body has this intermediary requirement for its primary fuel.
+    \item \textbf{Peripheral independence:} Skeletal muscle, cardiac muscle, and peripheral tissues express GLUT4 (insulin-responsive) and can directly oxidize glucose without astrocytic intermediation. Hair follicles operate autonomous local Cori cycles, recycling lactate within the follicular unit without CNS coordination.
+    \item \textbf{Demand-dependence:} The ANLS is most critical during cognitive exertion (when glutamate release surges trigger proportional lactate demand). This explains why cognitive symptoms worsen with mental effort while resting cognition may remain closer to normal---a hallmark of ME/CFS ``brain fog.''
+\end{itemize}
+
+This mechanism connects directly to the selective energy dysfunction hypothesis (Section~\ref{sec:selective-dysfunction}), which predicts that high CNS-dependency ($\alpha$) and high demand-responsiveness ($\rho$) processes should be most impaired. The ANLS provides the \emph{specific molecular mechanism} through which this selective vulnerability operates.
+
+\paragraph{Certainty Assessment}
+
+This hypothesis integrates well-established neuroscience (ANLS physiology: high certainty) with speculative application to ME/CFS (low-to-moderate certainty). No study has directly measured ANLS flux, MCT expression, or astrocyte-specific glycolytic rates in ME/CFS patients. The hypothesis is graded at \textbf{certainty 0.35}: mechanistically plausible, consistent with indirect evidence, but requiring direct experimental validation.
+\end{hypothesis}
+
+\paragraph{Supporting Evidence: Brain Lactate Elevation}
+
+While no study has directly assayed ANLS function in ME/CFS, magnetic resonance spectroscopy (MRS) studies provide indirect evidence consistent with impaired brain energy metabolism:
+
+\begin{itemize}
+    \item \textbf{7T MRS (2025):} Godlewska et al.~\cite{Godlewska2025MRS} found elevated lactate in the pregenual anterior cingulate cortex (pgACC: 1.52 vs.\ 1.22~mM, $p = 0.003$) and dorsal ACC (dACC) of ME/CFS patients (n=24) compared to healthy controls (n=24), using ultra-high-field 7 Tesla MRS. Notably, ME/CFS and Long COVID patients showed \emph{different} neurochemical profiles despite similar clinical presentations.
+
+    \item \textbf{Whole-brain MRS (2020):} Mueller et al.~\cite{Mueller2020MRS} documented elevated lactate-to-creatine ratios in the right insula, thalamus, and cerebellum (n=15 ME/CFS vs.\ n=15 controls), with brain temperature increases correlated with lactate elevations---suggesting neuroinflammation drives metabolic shifts.
+
+    \item \textbf{Mitochondrial review (2025):} Syed et al.~\cite{Syed2025MitoCFS} synthesize evidence of elevated CSF lactate, impaired ATP synthesis, and increased glycolytic activity in ME/CFS, consistent with oxidative stress and conditions favoring anaerobic metabolism.
+\end{itemize}
+
+\begin{warning}[Interpreting Elevated Brain Lactate]
+Elevated brain lactate in ME/CFS is consistent with the energy gate hypothesis but does not uniquely support it. At least three interpretations are possible:
+\begin{enumerate}
+    \item \textbf{ANLS dysfunction:} Lactate accumulates in astrocytes because it cannot be efficiently exported to or utilized by neurons (supports the energy gate hypothesis)
+    \item \textbf{Mitochondrial dysfunction:} Neuronal mitochondria cannot oxidize lactate efficiently, causing backpressure (supports a downstream mitochondrial hypothesis)
+    \item \textbf{Anaerobic shift:} Increased glycolysis due to hypoperfusion or oxygen limitation produces excess lactate (supports a vascular hypothesis)
+\end{enumerate}
+These mechanisms are not mutually exclusive and may operate simultaneously. Distinguishing between them requires studies that measure not just lactate levels but lactate \emph{flux} between cellular compartments---technically challenging but feasible with advanced $^{13}$C-MRS techniques.
+\end{warning}
+
+\paragraph{Testable Predictions}
+
+The astrocyte energy gate hypothesis generates specific, falsifiable predictions that distinguish it from alternative explanations:
+
+\begin{enumerate}
+    \item \textbf{CSF lactate gradient:} If astrocytes produce lactate but neurons cannot utilize it, the CSF lactate/blood lactate ratio should be elevated in ME/CFS (astrocyte-derived lactate accumulating in extracellular space). In mitochondrial disorders affecting the CNS, a CSF/blood lactate ratio $> 0.91$ indicates central origin~\cite{Syed2025MitoCFS}. \\
+    \emph{Prediction:} ME/CFS patients will show CSF/blood lactate ratio $> 0.91$, distinguishing CNS-origin lactate from peripheral sources.
+
+    \item \textbf{MCT expression profiling:} Post-mortem or biopsy studies should reveal reduced MCT2 (neuronal) and/or MCT4 (astrocyte) expression in ME/CFS brain tissue, particularly in regions showing functional deficits (prefrontal cortex, anterior cingulate). \\
+    \emph{Prediction:} MCT2/MCT4 expression reduced $\geq$30\% vs.\ matched controls.
+
+    \item \textbf{Astrocyte-specific metabolomics:} Single-cell or spatial transcriptomics of ME/CFS brain tissue should show altered expression of glycolytic enzymes (hexokinase, phosphofructokinase, LDHA) and glucose transporters (GLUT1) in astrocytes specifically. \\
+    \emph{Prediction:} Astrocyte glycolytic gene expression altered while neuronal oxidative genes remain intact.
+
+    \item \textbf{Exogenous lactate challenge:} If the bottleneck is at the glucose $\to$ lactate step (mechanisms 1 or 2 above), then providing exogenous lactate should partially bypass the gate and improve cognitive function. If the bottleneck is at MCT transport (mechanism 3), exogenous lactate should not help. \\
+    \emph{Prediction:} IV sodium lactate infusion during cognitive testing will improve performance in a subgroup of ME/CFS patients.
+
+    \item \textbf{Ketone body bypass:} Ketone bodies ($\beta$-hydroxybutyrate, acetoacetate) enter neurons via MCT2 and are metabolized directly in neuronal mitochondria, bypassing the astrocyte glycolysis step entirely~\cite{Jang2024Ketone}. If the energy gate is at the astrocyte level, ketones should preferentially benefit CNS symptoms. \\
+    \emph{Prediction:} Ketogenic diet or exogenous ketone supplementation will improve cognitive symptoms disproportionately to peripheral fatigue symptoms.
+
+    \item \textbf{Activity-dependent worsening:} Since the ANLS is most critical during high neural activity (when glutamate-triggered demand surges), the energy gate should cause greater deficits during cognitive exertion than at rest. \\
+    \emph{Prediction:} The difference between resting and task-evoked brain lactate (measured by functional MRS) will be larger in ME/CFS than controls---reflecting both increased demand signaling and impaired supply response.
+\end{enumerate}
+
+\paragraph{Treatment Implications}
+
+The energy gate framework suggests several therapeutic strategies, ordered by plausibility and feasibility:
+
+\begin{enumerate}
+    \item \textbf{Ketogenic diet or exogenous ketones:} By providing $\beta$-hydroxybutyrate directly to neurons via MCT2, this approach bypasses the astrocyte glycolysis step entirely. The ketogenic diet has established neuroprotective effects in epilepsy (where MCT dysfunction is documented) and emerging evidence in psychiatric disorders associated with brain energy dysfunction~\cite{Jang2024Ketone}. \emph{This represents the most immediately testable intervention.}
+
+    \item \textbf{Exogenous lactate supplementation:} Sodium lactate infusion or oral lactate has shown cognitive benefits in Alzheimer's disease models by restoring hippocampal and CSF lactate concentrations. In ME/CFS, this could bypass impaired astrocyte glycolysis (mechanisms 1--2) but would not help if MCT2 transport is the bottleneck (mechanism 3).
+
+    \item \textbf{MCT upregulation:} Exercise and certain pharmacological agents can upregulate MCT expression. However, exercise intolerance in ME/CFS limits this approach. Pharmacological MCT modulators remain experimental.
+
+    \item \textbf{Anti-neuroinflammatory strategies:} If chronic neuroinflammation drives astrocyte metabolic reprogramming and MCT downregulation, targeting neuroinflammation at its source may restore ANLS function. Low-dose naltrexone (LDN), which modulates microglial activation, could theoretically improve astrocyte metabolic function through reduced neuroinflammatory signaling.
+
+    \item \textbf{Astrocyte-targeted delivery:} Emerging drug delivery technologies using astrocyte-specific targeting (e.g., nanoparticles with GFAP-binding peptides) could deliver metabolic support directly to astrocytes, enhancing glycolytic capacity or MCT expression without systemic effects.
+\end{enumerate}
+
+\paragraph{Limitations and Alternative Explanations}
+
+Several important caveats apply to this hypothesis:
+
+\begin{itemize}
+    \item \textbf{No direct evidence in ME/CFS:} No study has measured ANLS flux, MCT expression, or astrocyte-specific glycolytic rates in ME/CFS patients. The hypothesis rests entirely on indirect evidence (elevated brain lactate, documented neuroinflammation) and analogy to other neurological conditions.
+
+    \item \textbf{Elevated lactate is ambiguous:} As noted above, elevated brain lactate has at least three interpretations. The ANLS dysfunction interpretation is not uniquely supported by current data.
+
+    \item \textbf{The ANLS itself is debated:} While the ANLS is well-established, its quantitative contribution remains contested. Some evidence suggests neurons can sustain activity through direct glucose oxidation alone, at least under non-demanding conditions~\cite{Kim2025ANLS}. The hypothesis is strongest for high-demand cognitive states.
+
+    \item \textbf{Downstream mitochondrial dysfunction:} Even if lactate reaches neurons normally, impaired neuronal mitochondria (a well-documented finding in ME/CFS~\cite{Syed2025MitoCFS}) would produce similar symptoms. The energy gate and mitochondrial hypotheses are not mutually exclusive but have different treatment implications.
+
+    \item \textbf{GLUT1 paradox:} Recent studies show that astrocyte-specific GLUT1 reduction can \emph{paradoxically improve} brain glucose metabolism, suggesting compensatory mechanisms may complicate predictions based on simple GLUT1 downregulation.
+
+    \item \textbf{Small sample sizes:} The MRS studies supporting brain lactate elevation in ME/CFS have samples of n=15--24, which limits statistical power and generalizability. Larger, multi-site replication studies are needed.
+\end{itemize}
+
+For the relationship between the astrocyte energy gate and the broader selective energy dysfunction framework, including formal mathematical treatment and additional predictions, see Section~\ref{sec:selective-dysfunction}, specifically the astrocyte energy gate sub-hypothesis~(\ref{hyp:astrocyte-gate}).
 
 \subsubsection{Oligodendrocyte Function}
 
@@ -294,6 +583,45 @@ Priority research to test this hypothesis should include:
 This hypothesis rests on uncertain foundations. The Nakatomi et al.\ PET findings require replication. The developmental neuroscience of microglial reprogramming is still being elucidated, and translation from animal models to human disease is uncertain. The hypothesis also does not explain why some pediatric patients fail to recover, though this could reflect variation in the timing or completeness of developmental processes.
 
 Despite these limitations, the glial maturation window hypothesis provides a testable framework for understanding the pediatric recovery advantage through a neuroimmune lens. If supported by evidence, it would suggest specific therapeutic targets for inducing microglial reset in adult patients. A comparative study of pediatric versus adult ME/CFS patients (Section~\ref{sec:pediatric-adult-study}) could help test predictions of this hypothesis.
+\end{speculation}
+
+\subsubsection{Post-Viral CNS Reprogramming}
+
+The preceding sections document microglial activation, astrocyte dysfunction, and neuroinflammatory cascades in ME/CFS. A critical question is why these states persist long after the triggering infection resolves. Emerging evidence from trained immunity research suggests that a single viral infection can permanently alter glial cell function through epigenetic mechanisms.
+
+\begin{speculation}[Post-Viral CNS Reprogramming Hypothesis]
+\label{spec:post-viral-cns-reprogramming}
+
+Viral infection causes persistent epigenetic reprogramming of astrocytes and microglia, creating a lasting shift in CNS metabolism that persists long after viral clearance. This mechanism---analogous to ``trained immunity'' in peripheral innate immune cells---may explain why ME/CFS becomes chronic following acute infection.
+
+\paragraph{Trained immunity and epigenetic memory.}
+Trained immunity refers to the capacity of innate immune cells to develop long-lasting functional memory following initial stimulation~\cite{Humer2025TrainedImmunityMECFS}. Unlike adaptive immune memory mediated by lymphocyte clonal expansion, trained immunity operates through persistent epigenetic modifications---particularly histone marks such as H3K4me1 and H3K27ac at inflammatory gene promoters---that prime cells for enhanced responses to subsequent stimuli. Humer et al.\ advocate trained immunity as a contributing factor to ME/CFS pathogenesis, proposing that post-infectious epigenetic reprogramming of innate immune cells produces a hyperresponsive phenotype that sustains chronic inflammation~\cite{Humer2025TrainedImmunityMECFS}.
+
+\paragraph{Microglial epigenetic reprogramming.}
+Wendeln et al.\ demonstrated in a landmark \textit{Nature} study that peripheral inflammatory stimuli induce long-lasting epigenetic reprogramming of brain microglia~\cite{Wendeln2018InnateImmuneMemoryBrain}. Trained microglia develop enhanced H3K4me1 marks at inflammatory gene loci that persist for months after the initial stimulus and exacerbate subsequent neurological pathology. This immune memory operates through metabolic reprogramming: activated microglia shift from oxidative phosphorylation to aerobic glycolysis, and this metabolic phenotype becomes epigenetically stabilized~\cite{Nirakis2025MetabolicRegulationMicroglial}. The persistence of these marks means that a single viral infection could establish a ``new normal'' of microglial function that outlasts the infection by years.
+
+\paragraph{Viral reprogramming of glial metabolism.}
+Rodrigues et al.\ demonstrate that neurotropic viruses---including SARS-CoV-2, HIV-1, and Zika virus---directly infect astrocytes and microglia, causing metabolic shifts from oxidative phosphorylation to glycolysis with consequent NLRP3 inflammasome activation~\cite{Rodrigues2025ViralReprogrammingGlialMetabolism}. This metabolic reprogramming is not merely a transient response to active infection; it persists because the glycolytic shift triggers epigenetic modifications that stabilize the pro-inflammatory phenotype. The result is a self-sustaining cycle: viral infection $\rightarrow$ metabolic shift $\rightarrow$ epigenetic stabilization $\rightarrow$ chronic neuroinflammation.
+
+This mechanism has direct relevance to the astrocyte energy gate hypothesis (Section~\ref{sec:astrocyte-energy-gate}): if viral infection reprograms astrocytes to favor glycolysis over oxidative phosphorylation, lactate production via the astrocyte-neuron lactate shuttle may be disrupted. Astrocytes locked in a glycolytic-inflammatory phenotype may consume glucose for their own inflammatory signaling rather than converting it to lactate for neuronal use.
+
+\paragraph{Broader epigenetic landscape in ME/CFS.}
+Apostolou and Ros\'en document over 12,000 altered CpG methylation sites in ME/CFS patients, with particular enrichment at immune and metabolic gene loci~\cite{Apostolou2024EpigeneticReprogrammingMECFS}. They propose that latent herpesviruses (particularly EBV) employ long-term epigenetic strategies that may permanently alter host cell function. Complementing this, Iu et al.\ demonstrate that CD8$^+$ T cells in ME/CFS exhibit epigenetic predisposition toward terminal exhaustion, with exhaustion markers upregulated following exercise challenge~\cite{Iu2024TranscriptionalReprogrammingCD8}---linking immune reprogramming directly to post-exertional malaise.
+
+\paragraph{Testable predictions.}
+\begin{enumerate}
+    \item Post-infectious ME/CFS patients should show distinct microglial epigenetic signatures (elevated H3K4me1/H3K27ac at inflammatory loci) compared to gradual-onset patients, detectable via CSF-derived microglia or post-mortem analysis
+    \item Astrocyte metabolic profiles (measurable via MRS glutamate/glutamine ratios) should differ between post-viral and non-viral ME/CFS subtypes
+    \item Epigenetic modifiers targeting trained immunity (e.g., histone methyltransferase inhibitors, mTOR pathway modulators) should preferentially benefit post-infectious ME/CFS
+    \item Early antiviral or anti-inflammatory intervention during acute infection should reduce ME/CFS incidence by preventing epigenetic stabilization
+    \item CSF cytokine profiles should show trained immunity signatures (enhanced IL-6, TNF-$\alpha$ responses to ex vivo stimulation) in post-infectious but not gradual-onset patients
+\end{enumerate}
+
+\paragraph{Treatment implications.}
+If post-viral CNS reprogramming drives chronic ME/CFS, therapeutic strategies should target epigenetic reversal rather than symptomatic suppression: (1)~epigenetic modifiers that can cross the BBB and reset microglial histone marks; (2)~metabolic interventions that shift astrocytes back from glycolysis to oxidative phosphorylation; (3)~microglial depletion and repopulation via CSF-1R inhibition (see Section~\ref{spec:glial-maturation}), which may generate microglia without the trained immunity epigenetic marks; (4)~early intervention protocols during acute viral illness to prevent epigenetic stabilization.
+
+\paragraph{Limitations.}
+This hypothesis has certainty 0.40. No study has directly measured trained immunity epigenetic marks in ME/CFS patient microglia. The evidence is synthesized from trained immunity research in neurodegenerative diseases~\cite{Wendeln2018InnateImmuneMemoryBrain,Zhang2025TrainedImmunityNeurological}, viral glial reprogramming~\cite{Rodrigues2025ViralReprogrammingGlialMetabolism}, and ME/CFS epigenetic profiling~\cite{Apostolou2024EpigeneticReprogrammingMECFS}. The mechanism may not explain gradual-onset ME/CFS without clear viral trigger. Individual variation in epigenetic susceptibility and viral tropism could produce heterogeneous responses.
 \end{speculation}
 
 \subsection{Integrated Neuroinflammatory Cascade Model}
@@ -434,7 +762,7 @@ Autonomic dysfunction is nearly universal in ME/CFS and contributes substantiall
 Heart rate variability (HRV) provides a non-invasive window into autonomic function. The NIH study documented significantly diminished HRV in PI-ME/CFS patients compared to controls~\cite{walitt2024deep}. These changes included reduced overall variability (lower standard deviation of NN intervals or SDNN, reflecting decreased overall autonomic modulation), diminished high-frequency power (reduced HF-HRV, specifically reflecting decreased parasympathetic or vagal activity), altered low-frequency power (changes in LF-HRV, influenced by both sympathetic and parasympathetic activity), and abnormal LF/HF ratio (suggesting sympathovagal imbalance).
 
 \paragraph{Clinical Implications of Reduced HRV}
-Diminished HRV in ME/CFS correlates with greater fatigue severity, worse orthostatic intolerance, impaired cognitive function, reduced exercise capacity, and poorer quality of life.
+Diminished HRV in ME/CFS correlates with greater fatigue severity (Escorihuela et al., n=45: RMSSD p=0.027, HFnu p=0.007~\cite{Escorihuela2020hrv}), worse orthostatic intolerance, impaired cognitive function, reduced exercise capacity, and poorer quality of life.
 
 Low HRV is also an independent predictor of cardiovascular morbidity and mortality in other populations, raising concerns about long-term cardiovascular outcomes in ME/CFS.
 
@@ -712,6 +1040,44 @@ Beyond passive permeability, active transport systems at the BBB may be dysfunct
     \item \textbf{Receptor-mediated transcytosis}: Impaired transport of essential molecules
 \end{itemize}
 
+\subsection{Blood-Brain Barrier as CNS Vulnerability Factor}
+\label{sec:bbb-vulnerability}
+
+While the preceding subsections address BBB permeability and transport dysfunction from the perspective of what enters or exits the CNS, the BBB may create \emph{unique vulnerability} for CNS tissues in ME/CFS through mechanisms that paradoxically stem from the barrier's protective function.
+
+\begin{speculation}[Blood-Brain Barrier Vulnerability Hypothesis]
+\label{spec:bbb-vulnerability}
+
+The blood-brain barrier creates CNS-specific vulnerability in ME/CFS through three converging mechanisms: (1)~trapping damage signals that trigger persistent neuroinflammation, (2)~limiting access to mitochondrial cofactors needed for repair, and (3)~preventing the rapid mitochondrial turnover possible in peripheral dividing cells.
+
+\paragraph{Mechanism 1: Trapping neuroinflammatory signals.}
+Mitochondrial dysfunction leads to mitochondrial DNA (mtDNA) leakage into the cytoplasm, activating the cGAS-STING pathway and triggering type~I interferon and pro-inflammatory cytokine production~\cite{mtDNA_cGAS_STING_2024}. In peripheral tissues, the resulting inflammation can be resolved through immune cell infiltration and clearance. In the CNS, however, the BBB restricts immune cell access. When neuronal or glial mtDNA activates cGAS-STING signaling in microglia and astrocytes, the resulting neuroinflammation becomes \emph{trapped}---peripheral immune cells that might otherwise regulate or resolve the inflammation cannot readily cross the barrier. This may explain the persistent microglial activation documented in ME/CFS PET studies~\cite{Nakatomi2014neuroinflammation}: once initiated by mtDNA leak, neuroinflammation perpetuates because the BBB prevents clearance mechanisms available to peripheral tissues.
+
+\paragraph{Mechanism 2: Limited cofactor access for mitochondrial repair.}
+Mitochondrial function requires continuous supply of cofactors (CoQ10, NAD$^+$/NADH, B vitamins), which reach peripheral tissues relatively easily via systemic circulation but face BBB transport limitations. CoQ10 can cross the BBB via SR-B1 and RAGE receptors but is simultaneously effluxed back to blood via LRP-1/LDLR receptors, creating net-negative brain uptake in many conditions~\cite{CoQ10_BBB_2025}. Only methylcobalamin (the active B12 form) crosses without biotransformation via specific cubam receptors~\cite{methylcobalamin_BBB_2024}; the common supplement form cyanocobalamin requires conversion before CNS entry. NAD$^+$ has a short half-life (1--2 hours) and limited BBB penetration~\cite{intranasal_NAD_2024}. The consequence: oral supplementation that improves peripheral mitochondrial function may have minimal CNS effects.
+
+\paragraph{Mechanism 3: Constrained mitochondrial turnover in post-mitotic cells.}
+Neurons do not divide after development. Brain synaptic mitochondrial proteins have a median half-life of 25.7 days versus hepatic mitochondrial proteins at 3.5 days---a 7-fold difference~\cite{mitochondrial_halflife_neurons_2023}. Damaged mitochondria at distal synapses must travel potentially meters back to the soma for mitophagy, and may accumulate dysfunction where energy demand is highest. In contrast, peripheral dividing cells replace entire cells every few days, diluting mitochondrial damage across generations. CNS mitochondria thus accumulate damage \emph{faster} than they can be repaired or replaced.
+
+\paragraph{Convergence.}
+These three mechanisms converge: mitochondrial dysfunction leads to mtDNA leak; mtDNA activates cGAS-STING neuroinflammation; the BBB prevents immune clearance so inflammation persists; the BBB limits cofactor supply so repair is constrained; and the neuronal post-mitotic state prevents turnover from diluting damage. The result is progressive CNS dysfunction even when peripheral tissues stabilize---explaining why cognitive symptoms may persist despite improved muscle function or reduced systemic inflammation.
+
+\paragraph{Testable predictions.}
+\begin{enumerate}
+    \item CSF should show higher concentrations of mitochondrial DAMPs (mtDNA fragments, 8-OHdG) relative to blood, reflecting faster CNS damage accumulation
+    \item BBB-penetrant supplement forms (methylcobalamin, liposomal CoQ10, intranasal NAD$^+$) should improve cognitive symptoms more than standard forms at equivalent doses
+    \item Intranasal delivery of mitochondrial-targeted compounds should show cognitive benefits where oral forms do not, as intranasal delivery bypasses the BBB via olfactory and trigeminal pathways~\cite{intranasal_NAD_2024}
+    \item Patients with higher CSF/serum albumin ratios (greater BBB permeability~\cite{Natelson_BBB_MECFS_2001}) should paradoxically show \emph{lower} neuroinflammation, as increased permeability allows partial immune clearance
+    \item CSF should show elevated STING pathway activation markers (cGAMP, phospho-TBK1) correlating with cognitive symptom severity
+\end{enumerate}
+
+\paragraph{Treatment implications.}
+If this hypothesis is correct, therapeutic strategies should prioritize: (1)~BBB-penetrant cofactor formulations (methylcobalamin over cyanocobalamin, liposomal CoQ10, BBB-penetrant antioxidants such as MitoQ or idebenone); (2)~intranasal delivery of NAD$^+$, NMN, or glutathione; (3)~cGAS-STING pathway inhibition to reduce trapped neuroinflammation; (4)~mitophagy-enhancing compounds (urolithin~A, spermidine) to help neurons clear damaged mitochondria.
+
+\paragraph{Limitations.}
+This hypothesis has certainty 0.35. It synthesizes mechanisms documented in neurodegenerative diseases and applies them to ME/CFS by analogy---no study has directly measured cGAS-STING activation, CSF mtDNA levels, or mitochondrial turnover rates in ME/CFS patients. BBB permeability is heterogeneous across ME/CFS patients~\cite{Natelson_BBB_MECFS_2001}, and if some patients have highly permeable BBB, the trapping mechanism may not apply universally. Genetic polymorphisms in BBB transporters may create substantial patient-to-patient variability. Despite these limitations, the hypothesis is testable and generates specific predictions evaluable in cohorts with CSF access.
+\end{speculation}
+
 \section{Cerebral Blood Flow Abnormalities}
 \label{sec:cerebral-blood-flow}
 
@@ -924,6 +1290,36 @@ Attention and concentration deficits include difficulty sustaining attention, ea
 \subsubsection{Memory}
 
 Memory impairments encompass working memory deficits (holding information ``online''), impaired short-term memory encoding, word-finding difficulties, and variable long-term memory retrieval.
+
+\begin{hypothesis}[Memory Triage Consequence]
+\label{hyp:memory-triage-consequence}
+
+Memory encoding is substantially more energy-expensive than memory retrieval, predicting that ME/CFS patients should show disproportionate encoding deficits relative to retrieval impairment---a pattern consistent with CNS energy triage.
+
+\paragraph{Differential energy costs of memory operations.}
+Hippocampal memory encoding requires long-term potentiation (LTP), involving NMDA receptor activation, calcium-dependent signaling cascades, new protein synthesis, and structural synaptic remodeling~\cite{Kandel2014memory}. These processes are metabolically demanding: encoding a new memory trace requires de novo gene expression, dendritic spine growth, and synaptic protein trafficking. Retrieval, by contrast, reactivates existing synaptic patterns through pattern completion in CA3 networks---a process that uses established circuits without requiring new protein synthesis or structural modification~\cite{Dudai2015consolidation}.
+
+Quantitative estimates suggest that LTP-associated protein synthesis increases local energy consumption by 30--50\% above baseline in hippocampal neurons, whereas pattern completion during retrieval operates within normal metabolic parameters. Working memory maintenance in prefrontal cortex similarly requires sustained neuronal firing against inhibitory currents, creating continuous metabolic demand proportional to the number of items held in mind~\cite{Constantinidis2018working}.
+
+\paragraph{Predicted pattern in ME/CFS.}
+If CNS energy is limited, the brain should sacrifice high-cost encoding operations before low-cost retrieval operations---a ``memory triage.'' This predicts:
+
+\begin{enumerate}
+    \item \textbf{Encoding $>$ retrieval impairment}: Patients should show greater difficulty forming new memories than accessing old ones. Standardized testing should reveal disproportionate deficits on encoding-dependent tasks (learning new word lists, forming new associations) relative to recognition or cued recall of previously encoded material
+    \item \textbf{Working memory $>$ long-term retrieval}: Sustained prefrontal firing for working memory maintenance is metabolically costly; retrieving consolidated long-term memories from distributed cortical stores is less so
+    \item \textbf{Encoding degrades with exertion}: During PEM, when CNS energy deficits intensify, new memory formation should decline more steeply than the ability to recall previously consolidated information
+    \item \textbf{Context-dependent encoding failure}: Encoding in metabolically demanding contexts (noisy environments, multitasking, social interaction) should fail preferentially, as these conditions compete for the limited energy budget
+\end{enumerate}
+
+\paragraph{Supporting evidence.}
+The meta-analysis by Sebaiti et al.~\cite{Sebaiti2022cognitive} documents memory impairment in ME/CFS with moderate effect sizes ($g = -0.55$ to $-0.67$), but existing studies have not systematically separated encoding from retrieval. Clinical observation consistently reports that ME/CFS patients struggle more with forming new memories (``I can't take in new information'') than with accessing established knowledge (``I remember things from before I got sick''). Patients frequently describe intact recognition (``I know I've seen this before'') with impaired free recall of recently encountered material---precisely the pattern predicted by encoding-selective energy limitation.
+
+\paragraph{Treatment implications.}
+If encoding is selectively impaired by energy limitation, compensatory strategies should emphasize: (1)~reducing encoding load through external memory aids (notes, recordings, photographs) rather than relying on internal encoding; (2)~scheduling new learning during peak energy windows; (3)~using spaced repetition to distribute encoding costs across multiple low-demand sessions; (4)~leveraging recognition over recall (multiple-choice formats, visual cues) when possible.
+
+\paragraph{Limitations.}
+This hypothesis has certainty 0.55. The differential energy cost of encoding versus retrieval is well established in neuroscience, but the specific prediction of disproportionate encoding impairment in ME/CFS awaits formal testing with paradigms designed to isolate encoding from retrieval. Existing neuropsychological batteries typically conflate encoding and retrieval in composite ``memory'' scores. Confounds include attention deficits (which impair encoding indirectly), medication effects, and sleep disruption (which impairs memory consolidation independently of encoding).
+\end{hypothesis}
 
 \subsubsection{Executive Function}
 
@@ -1180,11 +1576,69 @@ The selective energy dysfunction hypothesis (Section~\ref{sec:selective-dysfunct
 
     \item \textbf{Cognitive triage hierarchy}: The observation that complex cognition and executive function (``brain fog'') are affected before motor coordination or sensory processing suggests an energy triage system that sacrifices ``luxury'' cognitive functions first
 
-    \item \textbf{Astrocyte vulnerability}: The brain's unique metabolic architecture---with neurons depending on astrocytes for lactate via the ANLS~\cite{Pellerin1994,Magistretti2018}---may create CNS-specific vulnerability not present in peripheral tissues with direct glucose access
+    \item \textbf{Astrocyte vulnerability}: The brain's unique metabolic architecture---with neurons depending on astrocytes for lactate via the ANLS (Section~\ref{sec:astrocyte-energy-gate})---may create CNS-specific vulnerability not present in peripheral tissues with direct glucose access~\cite{Pellerin1994,Magistretti2018}
 \end{enumerate}
 
 This perspective has treatment implications: interventions that bypass CNS coordination (e.g., direct-acting autonomic agents like midodrine) or that specifically target CNS metabolism may be more effective than peripheral mitochondrial support alone.
 
+\subsection{CNS Energy Triage: A Hierarchical Model of Brain Fog}
+\label{sec:cns-energy-triage-clinical}
+
+\begin{speculation}[CNS Energy Triage Hypothesis]
+\label{spec:cns-energy-triage}
+The brain may operate a hardwired energy prioritization system during metabolic scarcity, explaining why ME/CFS cognitive dysfunction follows a characteristic pattern rather than producing uniform degradation across all domains.
+
+\paragraph{Neuroscience of brain energy prioritization.}
+The human brain comprises approximately 2\% of body mass yet consumes 20--25\% of resting metabolic energy, with goal-directed cognition requiring only an additional $\sim$5\% above resting homeostatic costs~\cite{Jamadar2025metabolic}. This tight energy budget means that even modest metabolic deficits---such as those produced by impaired astrocyte-neuron lactate shuttling (Section~\ref{sec:astrocyte-energy-gate})---could disproportionately affect the most energy-intensive neural processes.
+
+Not all brain regions have equal metabolic demands. The prefrontal and frontoparietal association cortices, which support executive function, cognitive flexibility, and novel problem-solving, exhibit the highest \emph{relative metabolic cost}---defined as energy utilization exceeding baseline activity levels~\cite{Jamadar2025metabolic}. In contrast, brainstem nuclei governing vital functions (respiration, cardiovascular regulation, arousal) and primary sensory cortices operate with lower relative metabolic overhead, relying on phylogenetically older, more energy-efficient circuits.
+
+\paragraph{Evidence from metabolic disruption models.}
+Two natural experiments demonstrate hierarchical cognitive shutdown under energy scarcity:
+
+\begin{enumerate}
+    \item \textbf{Hypoglycemia:} Acute reduction in brain glucose supply impairs complex higher-order cognitive processes at higher glucose thresholds and to a greater extent than lower-level functions. Executive functions show large effect sizes ($d > 0.8$) during hypoglycemia~\cite{Graveling2013hypoglycemia}, consistent with the prefrontal cortex's elevated metabolic sensitivity.
+
+    \item \textbf{Anesthesia:} General anesthetics produce a hierarchical disconnection pattern in which prefrontal and association cortices are affected first, while primary sensory processing and thalamocortical connectivity remain preserved. Mashour characterizes this as preferential failure of ``rich club'' network hubs with greater metabolic demands~\cite{Mashour2024anesthesia}---an ``airport in a snowstorm'' analogy where the most connected, most metabolically expensive nodes fail first.
+\end{enumerate}
+
+Furthermore, prolonged cognitive work causes glutamate accumulation specifically in the lateral prefrontal cortex, making further executive function activation progressively more metabolically costly~\cite{Wiehler2022glutamate}. This suggests a built-in mechanism by which the brain curtails its most expensive operations when metabolic capacity is strained.
+
+\paragraph{Application to ME/CFS.}
+We speculate that ME/CFS produces a chronic version of this triage state. If total available CNS energy is reduced---whether through astrocyte dysfunction, reduced cerebral blood flow, or neuroinflammation---the brain may engage the same prioritization hierarchy that normally activates only during acute metabolic crises. The proposed triage order, from most to least protected, would be:
+
+\begin{enumerate}
+    \item Brainstem vital functions (preserved even in severe ME/CFS)
+    \item Basic sensory processing (usually intact)
+    \item Language comprehension (impaired only in severe cases)
+    \item Motor coordination (degraded in moderate-severe disease)
+    \item Memory consolidation (commonly affected)
+    \item Executive function and cognitive flexibility (affected early, often prominently)
+\end{enumerate}
+
+This maps to the formal energy triage hypothesis developed in Section~\ref{sec:selective-dysfunction} (specifically Hypothesis~\ref{hyp:energy-triage}), but here we emphasize the clinical neuroscience basis rather than the mathematical framework.
+
+\paragraph{An important caveat from meta-analytic evidence.}
+The largest meta-analysis of cognitive impairment in ME/CFS (33 studies, $n = 1{,}086$) reveals that the observed pattern is more nuanced than a simple ``executive function fails first'' model~\cite{Sebaiti2022cognitive}. Processing speed shows the largest impairment ($g = -0.82$), followed by sustained attention ($g = -0.75$), then memory domains ($g = -0.55$ to $-0.67$), with executive function showing a smaller effect ($g = 0.42$) and instrumental functions preserved. This is important: processing speed is \emph{more} impaired than executive function on standard neuropsychological measures.
+
+This apparent discrepancy may be reconciled by recognizing that processing speed is a \emph{global} measure of neural efficiency degraded by any reduction in brain energy delivery, not a specific cognitive tier. It reflects the overall metabolic throughput of cortical circuits rather than a discrete cognitive function. Additionally, standardized tests of executive function (e.g., Trail Making Test Part B) involve relatively routinized operations that may not capture the full metabolic cost of genuinely novel, unstructured problem-solving. The energy triage model predicts that \emph{novel, complex, integrative} cognitive operations fail first---not necessarily the specific neuropsychological domain labeled ``executive function'' in test batteries.
+
+\paragraph{Testable predictions.}
+If the CNS energy triage model is correct, the following should hold:
+\begin{itemize}
+    \item Novel tasks are impaired more than practiced routines at matched difficulty
+    \item Working memory (high-energy encoding) fails before recognition memory (lower-energy pattern completion), as formalized in Hypothesis~\ref{hyp:memory-triage}
+    \item Cognitive hierarchy of impairment maps to regional metabolic demand on FDG-PET
+    \item Severity progression follows the triage order: mild ME/CFS shows primarily executive/speed deficits; severe ME/CFS additionally shows language and motor involvement
+    \item Interventions that bypass energy-expensive processing (routinization, external cognitive scaffolding) should preferentially improve function
+\end{itemize}
+
+\paragraph{Treatment implications.}
+If the brain operates in chronic triage mode, the therapeutic strategy shifts from ``try harder'' to ``reduce the load'': (1)~\emph{routinize} daily activities to shift them from energy-expensive prefrontal control to energy-efficient basal ganglia automaticity; (2)~use external cognitive scaffolding (lists, alarms, decision templates) to offload executive demands; (3)~schedule cognitively demanding tasks during peak energy windows when triage thresholds are temporarily relaxed; (4)~explore metabolic interventions (ketone supplementation, cerebral blood flow optimization) that may expand the total energy budget and raise triage thresholds across all tiers.
+
+\paragraph{Limitations.}
+This hypothesis faces several challenges: (1)~the meta-analytic evidence does not cleanly support executive function as the most impaired domain~\cite{Sebaiti2022cognitive}; (2)~the triage hierarchy has not been directly tested in ME/CFS with tasks specifically designed to probe each tier; (3)~alternative explanations for the cognitive pattern exist, including neuroinflammation-mediated cytokine effects on specific circuits~\cite{Bansal2025cognitive}, tryptophan pathway diversion, and autonomic-mediated cerebral hypoperfusion; (4)~the model may oversimplify what is likely a multi-mechanism process. The triage framework should be understood as one contributing mechanism among several, not a complete explanation for ME/CFS cognitive dysfunction.
+\end{speculation}
 
 \section{Summary: An Integrated Neurological Model}
 \label{sec:neuro-summary}

@@ -1,0 +1,37 @@
+1. Nat Rev Microbiol. 2023 Jan;21(1):51-64. doi: 10.1038/s41579-022-00770-5. Epub
+ 2022 Aug 5.
+
+Epstein-Barr virus and multiple sclerosis.
+
+Soldan SS(1), Lieberman PM(2).
+
+Author information:
+(1)The Wistar Institute, Philadelphia, PA, USA.
+(2)The Wistar Institute, Philadelphia, PA, USA. lieberman@wistar.org.
+
+Epstein-Barr virus (EBV) is a ubiquitous human lymphotropic herpesvirus with a 
+well-established causal role in several cancers. Recent studies have provided 
+compelling epidemiological and mechanistic evidence for a causal role of EBV in 
+multiple sclerosis (MS). MS is the most prevalent chronic inflammatory and 
+neurodegenerative disease of the central nervous system and is thought to be 
+triggered in genetically predisposed individuals by an infectious agent, with 
+EBV as the lead candidate. How a ubiquitous virus that typically leads to benign 
+latent infections can promote cancer and autoimmune disease in at-risk 
+populations is not fully understood. Here we review the evidence that EBV is a 
+causal agent for MS and how various risk factors may affect EBV infection and 
+immune control. We focus on EBV contributing to MS through reprogramming of 
+latently infected B lymphocytes and the chronic presentation of viral antigens 
+as a potential source of autoreactivity through molecular mimicry. We consider 
+how knowledge of EBV-associated cancers may be instructive for understanding the 
+role of EBV in MS and discuss the potential for therapies that target EBV to 
+treat MS.
+
+© 2022. Springer Nature Limited.
+
+DOI: 10.1038/s41579-022-00770-5
+PMCID: PMC9362539
+PMID: 35931816 [Indexed for MEDLINE]
+
+Conflict of interest statement: P.M.L. founded and is an adviser to Vironika 
+LLC. P.M.L. is named on a patent for inhibitors of EBNA1. S.S.S. declares no 
+competing interests.

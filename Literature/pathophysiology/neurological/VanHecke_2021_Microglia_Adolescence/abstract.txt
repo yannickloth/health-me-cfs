@@ -1,0 +1,41 @@
+1. Curr Top Behav Neurosci. 2022;53:55-78. doi: 10.1007/7854_2021_242.
+
+Microglia and Sensitive Periods in Brain Development.
+
+Dziabis JE(1)(2), Bilbo SD(3)(4).
+
+Author information:
+(1)Department of Psychology and Neuroscience, Duke University, Durham, NC, USA.
+(2)Department of Neurobiology, Duke University, Durham, NC, USA.
+(3)Department of Psychology and Neuroscience, Duke University, Durham, NC, USA. 
+staci.bilbo@duke.edu.
+(4)Department of Neurobiology, Duke University, Durham, NC, USA. 
+staci.bilbo@duke.edu.
+
+From embryonic neuronal migration to adolescent circuit refinement, the immune 
+system plays an essential role throughout central nervous system (CNS) 
+development. Immune signaling molecules serve as a common language between the 
+immune system and CNS, allowing them to work together to modulate brain function 
+both in health and disease. As the resident CNS macrophage, microglia comprise 
+the majority of immune cells in the brain. Much like their peripheral 
+counterparts, microglia survey their environment for pathology, clean up debris, 
+and propagate inflammatory responses when necessary. Beyond this, recent studies 
+have highlighted that microglia perform a number of complex tasks during neural 
+development, from directing neuronal and axonal positioning to pruning synapses, 
+receptors, and even whole cells. In this chapter, we discuss this literature 
+within the framework that immune activation during discrete windows of neural 
+development can profoundly impact brain function long-term, and thus the risk of 
+neurodevelopmental and neuropsychiatric disorders. In this chapter, we review 
+three sensitive developmental periods - embryonic wiring, early postnatal 
+synaptic pruning, and adolescent circuit refinement - in order to highlight the 
+diversity of functions that microglia perform in building a brain. In reviewing 
+this literature, it becomes obvious that timing matters, perhaps more so than 
+the nature of the immune activation itself; largely conserved patterns of 
+microglial response to diverse insults result in different functional impacts 
+depending on the stage of brain maturation at the time of the challenge.
+
+© 2021. The Author(s), under exclusive license to Springer Nature Switzerland 
+AG.
+
+DOI: 10.1007/7854_2021_242
+PMID: 34463934 [Indexed for MEDLINE]

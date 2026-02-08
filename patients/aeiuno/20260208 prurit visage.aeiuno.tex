@@ -1,0 +1,747 @@
+% Étude de cas : Évaluation diagnostique différentielle
+% Patiente : aeiuno
+% Créé : 2026-02-08
+% Confidentialité : Anonymisé avec consentement de la patiente
+% Statut : Évaluation initiale --- diagnostic de Gibert à reconsidérer
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{newpxtext}         % Palatino (texte)
+\usepackage{newpxmath}         % Palatino (maths)
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{tabularx}
+\geometry{margin=2.5cm}
+
+% Color definitions
+\definecolor{keyfindingbg}{RGB}{212,237,218}
+\definecolor{keyfindingborder}{RGB}{40,167,69}
+\definecolor{hypothesisbg}{RGB}{217,237,247}
+\definecolor{hypothesisborder}{RGB}{23,162,184}
+\definecolor{cautionbg}{RGB}{248,215,218}
+\definecolor{cautionborder}{RGB}{220,53,69}
+\definecolor{mechanismbg}{RGB}{232,232,232}
+\definecolor{mechanismborder}{RGB}{108,117,125}
+\definecolor{questionbg}{RGB}{255,243,205}
+\definecolor{questionborder}{RGB}{255,193,7}
+
+\newtcolorbox{keyfinding}[1][]{
+  colback=keyfindingbg, colframe=keyfindingborder,
+  adjusted title={\textbf{Constat clé~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{hypothesis}[1][]{
+  colback=hypothesisbg, colframe=hypothesisborder,
+  adjusted title={\textbf{Hypothèse~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{caution}[1][]{
+  colback=cautionbg, colframe=cautionborder,
+  adjusted title={\textbf{Attention~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{mechanism}[1][]{
+  colback=mechanismbg, colframe=mechanismborder,
+  adjusted title={\textbf{#1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{question}[1][]{
+  colback=questionbg, colframe=questionborder,
+  adjusted title={\textbf{À clarifier~: #1}}, fonttitle=\bfseries, sharp corners, boxrule=1pt,
+  breakable
+}
+
+\title{Étude de cas~: Évaluation diagnostique différentielle\\[0.5em]
+\large Aeiuno --- Dermatose récidivante chronique avec atteinte muqueuse nasale\\[0.3em]
+\normalsize Diagnostic initial de maladie de Gibert à reconsidérer}
+\author{Document de travail --- À discuter avec un dermatologue}
+\date{8 février 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{caution}{Document préliminaire}
+Cette étude de cas repose sur des informations \textbf{limitées} recueillies lors d'échanges informels. Aucun diagnostic définitif n'est posé. Les hypothèses ci-dessous orientent la démarche diagnostique et ne doivent pas être interprétées comme des conclusions. \textbf{Une biopsie cutanée est indispensable} pour établir un diagnostic histologique.
+\end{caution}
+
+\tableofcontents
+\newpage
+
+%=============================================================================
+\section{Présentation clinique}
+\label{sec:presentation}
+%=============================================================================
+
+\subsection{Données démographiques}
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{l>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Paramètre} & \textbf{Valeur} \\
+\midrule
+Pseudonyme & Aeiuno \\
+Sexe & Femme \\
+Date de naissance & 8 septembre 1988 \\
+Âge & 37 ans \\
+Âge de début & $\sim$20 ans (soit $\sim$17 ans d'évolution) \\
+Diagnostic initial & Maladie de Gibert (pityriasis rosea) \\
+Durée de la maladie & Récidives annuelles depuis \textbf{$\sim$17 ans} \\
+Épisodes habituels & Légers, auto-résolutifs, environ 1 par an \\
+Épisode actuel & $>$ 3 mois, persistant (contrairement aux épisodes précédents) \\
+Atteinte muqueuse & Oui --- extension à l'intérieur du nez \\
+Parcours médical & Médecins généralistes consultés, sans orientation diagnostique claire \\
+\bottomrule
+\end{tabularx}
+\caption{Résumé démographique}
+\end{table}
+
+\subsection{Symptômes et signes rapportés}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{5cm}p{8cm}}
+\toprule
+\textbf{Signe / Symptôme} & \textbf{Détails} \\
+\midrule
+Dermatose récidivante & Épisodes annuels depuis l'âge de $\sim$20 ans ($\sim$17 ans d'évolution). Épisodes habituellement légers et auto-résolutifs \\
+Épisode actuel prolongé & $>$ 3 mois de durée, \textbf{persistant} contrairement aux épisodes précédents \\
+Atteinte muqueuse nasale & Extension des lésions à l'intérieur du nez (muqueuse nasale) \\
+Mode de propagation & \textbf{Centrifuge séquentiel}~: apparition d'un petit bouton très localisé, extrêmement prurigineux $\rightarrow$ le bouton disparaît $\rightarrow$ la zone \textbf{autour} est atteinte, avec un prurit moindre. Nouveaux boutons toujours à proximité de la zone déjà touchée (extension par contiguïté) \\
+Prurit & Intense au stade initial (bouton localisé), diminuant lors de l'extension périphérique \\
+Facteurs déclenchants & Aucun facteur déclenchant identifié \\
+\bottomrule
+\end{tabular}
+\caption{Symptômes et signes rapportés}
+\end{table}
+
+\subsection{Chronologie}
+
+\begin{mechanism}{Évolution temporelle}
+\begin{itemize}
+    \item \textbf{Vers l'âge de 20 ans ($\sim$2009)}~: Première manifestation d'une dermatose, diagnostiquée comme maladie de Gibert (pityriasis rosea) par un médecin généraliste
+    \item \textbf{De 20 à 37 ans ($\sim$17 ans)}~: Épisodes récidivants \textbf{chaque année}, habituellement \textbf{légers} et se résolvant spontanément. Le diagnostic de Gibert est maintenu malgré les récidives annuelles
+    \item \textbf{Épisode actuel (depuis $>$ 3 mois)}~: Poussée \textbf{persistante}, ne se résolvant pas spontanément contrairement aux épisodes précédents. Rupture du schéma habituel
+    \item \textbf{Extension récente}~: Les lésions s'étendent à l'\textbf{intérieur du nez} (atteinte muqueuse --- jamais observée auparavant~?)
+    \item \textbf{Consultation de médecins généralistes}~: Aucune orientation diagnostique claire proposée
+\end{itemize}
+
+\textbf{Éléments notables}~:
+\begin{enumerate}[nosep]
+    \item La \textbf{durée de 17 ans} avec récidives annuelles exclut définitivement la maladie de Gibert
+    \item Le \textbf{changement de comportement} de l'épisode actuel (persistance $>$ 3 mois, atteinte muqueuse) suggère soit une progression de la maladie sous-jacente, soit un facteur aggravant nouveau
+    \item L'absence de facteur déclenchant identifié est compatible avec une maladie endogène (auto-immune, lymphoproliférative) plutôt qu'exogène (infectieuse, allergique)
+\end{enumerate}
+\end{mechanism}
+
+\subsection{Mode de propagation des lésions}
+
+\begin{keyfinding}{Séquence de propagation --- indice diagnostique majeur}
+La patiente décrit un mode de propagation \textbf{centrifuge séquentiel} très caractéristique~:
+
+\begin{enumerate}
+    \item \textbf{Phase 1 --- Lésion initiale}~: Apparition d'un petit bouton très localisé, \textbf{extrêmement prurigineux}
+    \item \textbf{Phase 2 --- Résolution centrale}~: Le bouton initial disparaît
+    \item \textbf{Phase 3 --- Extension périphérique}~: La zone \textbf{autour} du bouton initial est atteinte, avec un prurit \textbf{moindre} que la lésion initiale
+\end{enumerate}
+
+De plus, les nouveaux boutons apparaissent \textbf{toujours à proximité} de la zone déjà touchée, ce qui indique une \textbf{extension par contiguïté} plutôt qu'une dissémination à distance.
+
+Ce mode de propagation centrifuge avec résolution centrale et extension par contiguïté est un \textbf{signe sémiologique important}. Il oriente vers des diagnostics spécifiques~:
+
+\begin{itemize}
+    \item \textbf{Érythème annulaire centrifuge (EAC)}~: Propagation centrifuge avec résolution centrale --- c'est la \textbf{définition même} de l'EAC. Hypothèse à ajouter en priorité (voir section~\ref{sec:differentials})
+    \item \textbf{Dermatophytose (tinea)}~: Extension annulaire centrifuge classique, mais exclue si pas de réponse aux antifongiques et si atteinte muqueuse
+    \item \textbf{Psoriasis annulaire}~: Variante annulaire du psoriasis avec extension centrifuge
+    \item \textbf{Granulome annulaire}~: Expansion centrifuge avec résolution centrale, mais habituellement non prurigineux
+    \item \textbf{Mycosis fongoïde}~: Peut montrer une extension centrifuge dans certaines formes
+\end{itemize}
+
+\textbf{Le gradient de prurit} (intense au centre/initial $\rightarrow$ moindre en périphérie) suggère que le \textbf{front actif} de la maladie est au point d'apparition, et que l'extension périphérique représente une réaction inflammatoire secondaire ou résiduelle.
+\end{keyfinding}
+
+%=============================================================================
+\section{Pourquoi le diagnostic de maladie de Gibert est inadéquat}
+\label{sec:gibert-inadequate}
+%=============================================================================
+
+\begin{keyfinding}{Incompatibilité avec la maladie de Gibert}
+Le diagnostic de maladie de Gibert (pityriasis rosea) ne peut \textbf{pas} expliquer le tableau clinique d'Aeiuno. Trois critères majeurs sont violés~:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{4cm}p{4.5cm}p{4.5cm}}
+\toprule
+\textbf{Critère} & \textbf{Gibert classique} & \textbf{Cas d'Aeiuno} \\
+\midrule
+Durée & 6--12 semaines, auto-limitante & $>$ 3 mois (épisode actuel) \\
+Récidive & Quasi jamais (immunité acquise) & Récidives régulières depuis des années \\
+Atteinte muqueuse & Absente & Extension intranasale \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Conclusion}~: Le diagnostic de maladie de Gibert doit être \textbf{abandonné}. Une nouvelle évaluation diagnostique est nécessaire.
+\end{keyfinding}
+
+\begin{mechanism}{Rappel --- Maladie de Gibert}
+La maladie de Gibert (pityriasis rosea) est~:
+\begin{itemize}[nosep]
+    \item Une dermatose virale bénigne (HHV-6 / HHV-7 suspectés)
+    \item \textbf{Auto-limitante} en 6--12 semaines (rarement plus)
+    \item Caractérisée par un médaillon initial (herald patch) suivi d'une éruption secondaire en «~sapin de Noël~»
+    \item Ne récidivant \textbf{quasi jamais} ($<$2\% des cas) grâce à l'immunité acquise
+    \item N'atteignant \textbf{jamais} les muqueuses
+\end{itemize}
+
+\textbf{Tout} tableau dépassant ces caractéristiques impose de reconsidérer le diagnostic.
+\end{mechanism}
+
+%=============================================================================
+\section{Diagnostics différentiels}
+\label{sec:differentials}
+%=============================================================================
+
+Les diagnostics suivants sont classés par probabilité estimée, en tenant compte de~: chronicité ($\sim$17 ans), récidives annuelles, atteinte muqueuse nasale, et mode de propagation centrifuge séquentiel avec extension par contiguïté.
+
+\subsection{Priorité 1~: Hypothèses principales}
+
+\begin{hypothesis}{Érythème annulaire centrifuge (EAC)}
+\textbf{Probabilité estimée}~: \textbf{Élevée} --- le mode de propagation décrit correspond à la définition même de l'EAC
+
+L'érythème annulaire centrifuge est une dermatose réactionnelle caractérisée par~:
+\begin{itemize}
+    \item \textbf{Propagation centrifuge}~: lésion initiale qui s'étend en anneau, avec résolution centrale --- \textbf{exactement le schéma décrit par la patiente}
+    \item \textbf{Récidivant}~: évolue par poussées récurrentes sur des mois ou des années
+    \item \textbf{Prurit variable}~: souvent prurigineux au stade initial, diminuant avec l'extension (compatible avec le gradient de prurit décrit)
+    \item \textbf{Extension par contiguïté}~: les nouvelles lésions apparaissent à proximité des zones déjà atteintes
+\end{itemize}
+
+\textbf{Arguments en faveur}~:
+\begin{enumerate}[nosep]
+    \item Mode de propagation centrifuge avec résolution centrale (pathognomonique)
+    \item Gradient de prurit (intense au centre $\rightarrow$ moindre en périphérie)
+    \item Récidives annuelles depuis $\sim$17 ans
+    \item Nouvelles lésions apparaissant toujours à proximité de la zone déjà atteinte (extension par contiguïté)
+\end{enumerate}
+
+\textbf{Point important --- l'EAC est souvent un \textit{marqueur} d'une pathologie sous-jacente}~:
+\begin{itemize}[nosep]
+    \item Infections fongiques (dermatophytoses à distance --- «~dermatophytide~»)
+    \item Néoplasies (lymphomes, tumeurs solides) --- l'EAC peut être \textbf{paranéoplasique}
+    \item Médicaments
+    \item Maladies auto-immunes (lupus, Sjögren)
+    \item Infections chroniques (hépatite, EBV)
+    \item Idiopathique dans $\sim$70\% des cas
+\end{itemize}
+
+\textbf{La persistance de l'épisode actuel ($>$ 3 mois) et l'atteinte muqueuse nasale} pourraient signaler l'apparition ou l'aggravation d'un facteur sous-jacent. Un bilan étiologique est indiqué.
+
+\textbf{Bilan recommandé}~:
+\begin{itemize}[nosep]
+    \item \textbf{Biopsie cutanée}~: infiltrat lymphocytaire péri-vasculaire superficiel et profond en «~manchon~» (coat-sleeve pattern)
+    \item Recherche de dermatophytose à distance (pieds, ongles, aines)
+    \item Bilan infectieux (hépatites, EBV)
+    \item Bilan auto-immun (ANA, anti-SSA)
+    \item \textbf{Bilan néoplasique} si EAC confirmé~: NFS, LDH, électrophorèse des protéines, scanner thoraco-abdomino-pelvien (surtout si épisode actuel réfractaire)
+\end{itemize}
+
+\textbf{Traitement si confirmé}~:
+\begin{itemize}[nosep]
+    \item \textit{Symptomatique}~: dermocorticoïdes topiques, antihistaminiques oraux
+    \item \textit{Étiologique}~: traitement de la cause sous-jacente si identifiée (résolution de l'EAC attendue)
+    \item \textit{Formes réfractaires}~: méthotrexate, photothérapie UVB
+\end{itemize}
+\end{hypothesis}
+
+\begin{hypothesis}{Psoriasis (en gouttes ou en plaques)}
+\textbf{Probabilité estimée}~: \textbf{Élevée}
+
+Le psoriasis est le diagnostic différentiel le plus probable~:
+\begin{itemize}
+    \item \textbf{Chronique par définition}~: évolue par poussées et rémissions sur des années, voire toute la vie
+    \item \textbf{Souvent confondu avec un Gibert}~: les formes en gouttes (psoriasis guttata) produisent de petites plaques ovales, squameuses, disséminées sur le tronc --- morphologie très similaire au Gibert
+    \item \textbf{Atteinte muqueuse possible}~: le psoriasis peut toucher les muqueuses nasales (psoriasis muqueux), bien que ce soit moins fréquent que les atteintes cutanées
+    \item \textbf{Récidives régulières}~: caractéristique du psoriasis
+    \item \textbf{Facteurs déclenchants typiques}~: stress, infections ORL (streptocoques), médicaments (bêtabloquants, lithium, AINS), traumatisme cutané (phénomène de Koebner)
+\end{itemize}
+
+\textbf{Arguments en faveur}~:
+\begin{enumerate}[nosep]
+    \item Chronicité et récidives sur des années
+    \item Morphologie possiblement similaire au Gibert (d'où la confusion initiale)
+    \item Atteinte intranasale compatible
+    \item Très haute prévalence (2--3\% de la population)
+\end{enumerate}
+
+\textbf{Bilan recommandé}~:
+\begin{itemize}[nosep]
+    \item Examen dermatologique complet (recherche de plaques typiques aux coudes, genoux, cuir chevelu, plis interfessiers, ongles)
+    \item \textbf{Biopsie cutanée}~: histologie caractéristique (parakératose, acanthose, micro-abcès de Munro)
+    \item Recherche d'atteinte unguéale (pitting, onycholyse, taches d'huile)
+    \item Recherche de signes articulaires (raideur matinale, gonflement des doigts)
+\end{itemize}
+
+\textbf{Traitement si confirmé}~:
+\begin{itemize}[nosep]
+    \item \textit{Formes légères à modérées}~: dermocorticoïdes, analogues de la vitamine D (calcipotriol), association calcipotriol/bétaméthasone
+    \item \textit{Atteinte muqueuse nasale}~: émollients nasaux, corticoïdes nasaux doux (sous supervision dermatologique)
+    \item \textit{Formes modérées à sévères}~: photothérapie UVB, méthotrexate, ciclosporine
+    \item \textit{Formes réfractaires}~: biothérapies (anti-TNF, anti-IL-17, anti-IL-23)
+\end{itemize}
+\end{hypothesis}
+
+\begin{hypothesis}{Lichen plan}
+\textbf{Probabilité estimée}~: \textbf{Modérée à élevée}
+
+Le lichen plan est une dermatose inflammatoire chronique qui mérite une attention particulière~:
+\begin{itemize}
+    \item \textbf{Chronique et récidivant}~: peut évoluer sur des mois, voire des années, avec des poussées récurrentes
+    \item \textbf{Atteinte muqueuse fréquente}~: c'est l'un des diagnostics où l'atteinte muqueuse est \textbf{caractéristique} (bouche, nez, organes génitaux). Le lichen plan muqueux est souvent plus tenace que la forme cutanée
+    \item \textbf{Morphologie variable}~: plaques violacées polygonales (forme classique), mais aussi formes annulaires, linéaires, ou érosives
+    \item \textbf{Peut mimer un Gibert}~: certaines formes disséminées peuvent être confondues avec un pityriasis rosea
+\end{itemize}
+
+\textbf{Arguments en faveur}~:
+\begin{enumerate}[nosep]
+    \item Atteinte muqueuse nasale (très compatible)
+    \item Chronicité et récidives
+    \item Association connue avec l'hépatite C (à rechercher)
+\end{enumerate}
+
+\textbf{Bilan recommandé}~:
+\begin{itemize}[nosep]
+    \item \textbf{Biopsie cutanée}~: histologie caractéristique (infiltrat lichénoïde en bande, dégénérescence vacuolaire de la basale, corps de Civatte)
+    \item Examen de la muqueuse buccale (réseau de Wickham~?)
+    \item Sérologie hépatite C (association connue)
+    \item Biopsie de la muqueuse nasale si lésions accessibles
+\end{itemize}
+
+\textbf{Traitement si confirmé}~:
+\begin{itemize}[nosep]
+    \item \textit{Cutané}~: dermocorticoïdes puissants, photothérapie UVB
+    \item \textit{Muqueux}~: corticoïdes topiques, tacrolimus topique (hors AMM mais efficace)
+    \item \textit{Formes sévères}~: corticothérapie orale courte, acitrétine, méthotrexate
+\end{itemize}
+\end{hypothesis}
+
+\begin{hypothesis}{Mycosis fongoïde (lymphome cutané T)}
+\textbf{Probabilité estimée}~: \textbf{Modérée} --- mais ne doit \textbf{pas} être manqué
+
+Le mycosis fongoïde est un lymphome T cutané de bas grade qui doit être évoqué~:
+\begin{itemize}
+    \item \textbf{Évolution typiquement sur des années}~: c'est une maladie lente, souvent précédée d'une phase de «~pré-mycosis~» avec des plaques non spécifiques pendant 5 à 20 ans
+    \item \textbf{Souvent diagnostiqué tardivement}~: confondu avec eczéma, psoriasis, Gibert, ou dermatite pendant des années
+    \item \textbf{Rémissions et récidives}~: les plaques peuvent s'améliorer spontanément puis revenir, simulant une maladie bénigne récidivante
+    \item \textbf{Atteinte muqueuse possible} dans les formes avancées
+    \item \textbf{Extension progressive}~: les lésions tendent à s'étendre au fil du temps
+\end{itemize}
+
+\textbf{Arguments en faveur}~:
+\begin{enumerate}[nosep]
+    \item Récidives sur \textbf{des années} (parcours classique du mycosis fongoïde)
+    \item Diagnostic initial erroné maintenu pendant longtemps (situation typique)
+    \item Extension progressive aux muqueuses
+\end{enumerate}
+
+\textbf{Signaux d'alerte}~:
+\begin{itemize}[nosep]
+    \item Plaques fixes (reviennent toujours aux mêmes endroits)
+    \item Plaques d'aspects variables (certaines plus infiltrées que d'autres)
+    \item Prurit persistant
+    \item Réponse incomplète aux traitements classiques
+\end{itemize}
+
+\textbf{Bilan recommandé}~:
+\begin{itemize}[nosep]
+    \item \textbf{Biopsie cutanée avec immunohistochimie}~: recherche de lymphocytes T atypiques, épidermotropisme, micro-abcès de Pautrier
+    \item \textbf{Plusieurs biopsies} peuvent être nécessaires (les premières biopsies sont souvent non concluantes)
+    \item NFS avec formule (recherche de cellules de Sézary circulantes)
+    \item LDH
+    \item Scanner thoraco-abdomino-pelvien si biopsie positive
+\end{itemize}
+
+\begin{caution}{Importance du diagnostic précoce}
+Le mycosis fongoïde au stade précoce (patches/plaques) a un \textbf{excellent pronostic}~: survie comparable à la population générale. Mais le diagnostic tardif (stade tumoral) aggrave considérablement le pronostic. C'est pourquoi une biopsie est urgente même si les lésions semblent banales.
+\end{caution}
+\end{hypothesis}
+
+\subsection{Priorité 2~: Hypothèses à explorer activement}
+
+\begin{hypothesis}{Dermatite séborrhéique chronique}
+\textbf{Probabilité estimée}~: Modérée
+
+\begin{itemize}
+    \item Chronique et récidivante par nature
+    \item Touche classiquement le visage, le cuir chevelu, les ailes du nez
+    \item L'extension intranasale est atypique mais possible
+    \item La forme disséminée peut mimer un pityriasis rosea
+\end{itemize}
+
+\textbf{Arguments contre}~: L'extension intranasale franche est inhabituelle. La dermatite séborrhéique est généralement facilement reconnaissable par un dermatologue.
+
+\textbf{Bilan}~: Examen clinique dermatologique (localisation typique~: sillons nasogéniens, sourcils, cuir chevelu). Biopsie si doute.
+\end{hypothesis}
+
+\begin{hypothesis}{Syphilis secondaire}
+\textbf{Probabilité estimée}~: Faible à modérée --- mais doit être \textbf{systématiquement exclue}
+
+La syphilis secondaire est surnommée «~la grande simulatrice~»~:
+\begin{itemize}
+    \item Peut mimer \textbf{parfaitement} un pityriasis rosea (éruption papulosquameuse disséminée)
+    \item Atteinte muqueuse fréquente (plaques muqueuses, «~plaques fauchées~»)
+    \item Peut évoluer par poussées si non traitée (syphilis tertiaire)
+    \item La récidive sur des années pourrait correspondre à une syphilis latente avec poussées secondaires
+\end{itemize}
+
+\textbf{Bilan}~: Sérologie syphilitique (TPHA + VDRL ou RPR) --- \textbf{simple prise de sang, résultat rapide, à faire en priorité}
+\end{hypothesis}
+
+\begin{hypothesis}{Lupus cutané (lupus discoïde ou subaigu)}
+\textbf{Probabilité estimée}~: Faible à modérée
+
+\begin{itemize}
+    \item Chronique et récidivant
+    \item Le lupus cutané subaigu peut produire des lésions annulaires ou papulosquameuses
+    \item Atteinte muqueuse nasale possible (ulcérations, plaques)
+    \item Peut être isolé (lupus cutané pur) ou associé à un lupus systémique
+\end{itemize}
+
+\textbf{Bilan}~: ANA, anti-ADN natif, anti-SSA/Ro (associé au lupus subaigu), complément C3/C4, biopsie cutanée avec immunofluorescence directe
+\end{hypothesis}
+
+\begin{hypothesis}{Pityriasis lichénoïde chronique (PLC) / Pityriasis lichénoïde et varioliforme aigu (PLEVA)}
+\textbf{Probabilité estimée}~: Modérée
+
+Le pityriasis lichénoïde est une dermatose souvent méconnue qui peut mimer un Gibert~:
+\begin{itemize}
+    \item \textbf{Évolue par poussées récurrentes} sur des mois, voire des années
+    \item Les lésions papulosquameuses peuvent être confondues avec un pityriasis rosea
+    \item Deux formes~: PLC (chronique, plaques brunâtres) et PLEVA (aigu, lésions nécrotiques)
+    \item L'atteinte muqueuse est rare mais décrite
+    \item \textbf{Considéré comme un spectre pré-lymphomateux} par certains auteurs (surveillance nécessaire)
+\end{itemize}
+
+\textbf{Bilan}~: Biopsie cutanée (infiltrat lymphocytaire péri-vasculaire, parakératose). Immunohistochimie si atypies.
+\end{hypothesis}
+
+\subsection{Priorité 3~: Diagnostics moins probables à garder en tête}
+
+\begin{hypothesis}{Dermatophytose (tinea corporis) disséminée}
+\textbf{Probabilité estimée}~: Faible
+
+\begin{itemize}
+    \item Les dermatophytoses annulaires (tinea corporis) peuvent être confondues avec un Gibert
+    \item Les récidives sont possibles en cas de recontamination ou d'immunodépression
+    \item L'atteinte intranasale serait très inhabituelle
+\end{itemize}
+
+\textbf{Bilan}~: Examen mycologique (grattage cutané avec examen direct et culture)
+\end{hypothesis}
+
+\begin{hypothesis}{Eczéma nummulaire chronique}
+\textbf{Probabilité estimée}~: Faible
+
+\begin{itemize}
+    \item Plaques arrondies pouvant mimer un Gibert
+    \item Chronique et récidivant
+    \item L'atteinte intranasale serait atypique
+\end{itemize}
+
+\textbf{Bilan}~: Examen clinique, biopsie si doute (spongiose caractéristique)
+\end{hypothesis}
+
+%=============================================================================
+\section{Synthèse diagnostique}
+\label{sec:synthesis}
+%=============================================================================
+
+\begin{mechanism}{Hiérarchie des diagnostics par probabilité}
+Tenant compte de l'ensemble des éléments~: récidives annuelles depuis $\sim$17 ans, épisode actuel persistant $>$ 3 mois, atteinte muqueuse nasale, propagation centrifuge séquentielle avec résolution centrale, extension par contiguïté, et gradient de prurit.
+
+\begin{enumerate}
+    \item \textbf{Érythème annulaire centrifuge (EAC)}~: \textbf{Probabilité élevée} --- le mode de propagation décrit (bouton initial prurigineux $\rightarrow$ résolution $\rightarrow$ extension périphérique moins prurigineuse, avec lésions toujours à proximité de la zone atteinte) correspond à la \textbf{définition sémiologique} de l'EAC. Récidivant sur des années. \textbf{Attention}~: l'EAC est souvent un marqueur de pathologie sous-jacente (dermatophytose à distance, néoplasie, auto-immunité) --- un bilan étiologique est indispensable.
+
+    \item \textbf{Psoriasis}~: \textbf{Probabilité élevée} --- chronique, récidivant, morphologie pouvant mimer un Gibert, atteinte muqueuse possible. La forme annulaire du psoriasis peut montrer une extension centrifuge. Diagnostic très fréquent.
+
+    \item \textbf{Lichen plan}~: \textbf{Probabilité modérée à élevée} --- l'atteinte muqueuse nasale est un argument fort. Le lichen plan muqueux est souvent plus tenace que la forme cutanée.
+
+    \item \textbf{Mycosis fongoïde}~: \textbf{Probabilité modérée} --- à ne pas sous-estimer. L'évolution sur 17 ans avec un diagnostic initial erroné est un parcours classique du mycosis fongoïde. Les conséquences d'un diagnostic manqué justifient une biopsie avec immunohistochimie.
+
+    \item \textbf{Pityriasis lichénoïde chronique}~: \textbf{Probabilité modérée} --- souvent méconnu, évolue par poussées récurrentes. Spectre pré-lymphomateux possible.
+
+    \item \textbf{Syphilis}~: \textbf{Probabilité faible} --- récidives sur 17 ans (depuis l'âge de 20 ans) rendent une syphilis non traitée peu probable, mais une sérologie reste justifiée pour l'exclure formellement.
+
+    \item \textbf{Lupus cutané}~: \textbf{Probabilité faible à modérée} --- à évoquer si ANA positifs ou photosensibilité.
+\end{enumerate}
+
+\textbf{Point clé}~: L'EAC et le psoriasis sont en tête de la hiérarchie. Tous les diagnostics nécessitent un \textbf{dermatologue} et une \textbf{biopsie cutanée}.
+\end{mechanism}
+
+%=============================================================================
+\section{Bilan recommandé}
+\label{sec:workup}
+%=============================================================================
+
+\subsection{Examen clinique dermatologique (priorité absolue)}
+
+\begin{keyfinding}{Éléments à documenter lors de l'examen dermatologique}
+\begin{enumerate}
+    \item \textbf{Morphologie précise des lésions}~:
+    \begin{itemize}[nosep]
+        \item Papules, plaques, macules~?
+        \item Squames~? Type (fines, épaisses, argentées, grasses)~?
+        \item Couleur (roses, rouges, violacées, brunes)~?
+        \item Bords (nets, flous, surélevés)~?
+        \item Disposition (annulaire, linéaire, en sapin de Noël)~?
+    \end{itemize}
+
+    \item \textbf{Distribution}~:
+    \begin{itemize}[nosep]
+        \item Topographie exacte (tronc, membres, visage, cuir chevelu)~?
+        \item Symétrique ou asymétrique~?
+        \item Respect ou atteinte des plis~?
+        \item Atteinte des paumes / plantes~?
+    \end{itemize}
+
+    \item \textbf{Atteinte muqueuse nasale}~:
+    \begin{itemize}[nosep]
+        \item Aspect des lésions intranasales (plaques, érosions, croûtes)~?
+        \item Unilatéral ou bilatéral~?
+        \item Extension vers d'autres muqueuses (bouche, organes génitaux)~?
+    \end{itemize}
+
+    \item \textbf{Signes associés à rechercher}~:
+    \begin{itemize}[nosep]
+        \item Atteinte unguéale (pitting, dystrophie) $\rightarrow$ psoriasis
+        \item Atteinte du cuir chevelu $\rightarrow$ psoriasis, lupus
+        \item Réseau de Wickham sur les muqueuses $\rightarrow$ lichen plan
+        \item Photosensibilité $\rightarrow$ lupus
+        \item Adénopathies $\rightarrow$ syphilis, lymphome
+        \item Phénomène de Koebner (lésions sur zones de traumatisme) $\rightarrow$ psoriasis, lichen plan
+    \end{itemize}
+\end{enumerate}
+\end{keyfinding}
+
+\subsection{Biopsie cutanée (indispensable)}
+
+\begin{caution}{La biopsie est l'examen clé}
+Après des années de récidives sans diagnostic clair, la biopsie cutanée est l'\textbf{examen le plus important}. C'est un geste simple~:
+\begin{itemize}[nosep]
+    \item Anesthésie locale
+    \item Punch biopsie (3--4 mm) ou biopsie au bistouri
+    \item Durée~: 5--10 minutes
+    \item Quelques points de suture
+    \item Résultat histologique en 1--2 semaines
+\end{itemize}
+
+\textbf{Recommandations}~:
+\begin{itemize}[nosep]
+    \item Biopsier une lésion \textbf{récente et active} (pas une lésion ancienne en voie de résolution)
+    \item Demander une \textbf{immunohistochimie} (permet de distinguer les infiltrats lymphocytaires bénins des lymphomes)
+    \item Demander une \textbf{immunofluorescence directe} (IFD) si lupus ou lichen plan suspectés
+    \item Envisager \textbf{deux biopsies} sur des lésions d'aspects différents si la morphologie est hétérogène
+    \item Si la première biopsie est non concluante, une \textbf{seconde biopsie} est justifiée (le mycosis fongoïde nécessite souvent plusieurs biopsies avant confirmation)
+\end{itemize}
+\end{caution}
+
+\subsection{Bilan biologique de première intention}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{4.5cm}p{4.5cm}p{4cm}}
+\toprule
+\textbf{Examen} & \textbf{Ce qu'on cherche} & \textbf{Hypothèse testée} \\
+\midrule
+\multicolumn{3}{l}{\textit{Sérologie (prioritaire)~:}} \\
+TPHA + VDRL & Syphilis & Syphilis secondaire \\
+\midrule
+\multicolumn{3}{l}{\textit{Hématologie~:}} \\
+NFS avec formule & Lymphocytose, cellules atypiques & Lymphome cutané \\
+VS, CRP & Syndrome inflammatoire & Orientation globale \\
+LDH & Marqueur tumoral & Lymphome \\
+\midrule
+\multicolumn{3}{l}{\textit{Immunologie~:}} \\
+ANA & Auto-immunité systémique & Lupus \\
+Anti-SSA/Ro & Lupus subaigu & Lupus cutané \\
+\midrule
+\multicolumn{3}{l}{\textit{Sérologie virale~:}} \\
+Sérologie hépatite C & Hépatite chronique & Lichen plan (association) \\
+\midrule
+\multicolumn{3}{l}{\textit{Mycologie~:}} \\
+Grattage cutané & Dermatophytes & Tinea corporis \\
+\bottomrule
+\end{tabular}
+\caption{Bilan biologique de première intention}
+\end{table}
+
+%=============================================================================
+\section{Orientation vers un dermatologue~: éléments de communication}
+\label{sec:referral}
+%=============================================================================
+
+\begin{keyfinding}{Arguments pour un rendez-vous prioritaire}
+Lors de la prise de rendez-vous chez un dermatologue, les éléments suivants justifient un rendez-vous \textbf{en urgence relative} (pas dans 6 mois)~:
+
+\begin{enumerate}
+    \item \textbf{Atteinte muqueuse nasale}~: signal d'alerte nécessitant une évaluation rapide
+    \item \textbf{Chronicité $>$ 3 mois} de l'épisode actuel, sans résolution
+    \item \textbf{Récidives depuis des années}~: exclut un diagnostic bénin auto-limitant
+    \item \textbf{Nécessité d'exclure un lymphome cutané} (mycosis fongoïde)~: le pronostic dépend du stade au diagnostic
+    \item \textbf{Diagnostic initial erroné} (Gibert incompatible avec l'évolution)
+\end{enumerate}
+
+\textbf{Filières d'accès~:}
+\begin{itemize}[nosep]
+    \item \textbf{Dermatologue libéral}~: mentionner l'atteinte muqueuse et la durée pour obtenir un créneau prioritaire
+    \item \textbf{Consultation externe en CHU/hôpital}~: souvent plus rapide que le libéral pour les cas complexes
+    \item \textbf{Urgences dermatologiques}~: si extension rapide ou signes systémiques
+\end{itemize}
+\end{keyfinding}
+
+%=============================================================================
+\section{Conseils en attendant le rendez-vous}
+\label{sec:interim}
+%=============================================================================
+
+\begin{mechanism}{Mesures conservatoires}
+En attendant la consultation dermatologique~:
+
+\textbf{À faire~:}
+\begin{itemize}[nosep]
+    \item \textbf{Photographier} les lésions régulièrement (tous les 3--5 jours), avec un éclairage constant et une règle pour l'échelle. Documenter~: localisation, taille, couleur, évolution
+    \item \textbf{Photographier} les lésions intranasales si possible (avec flash, en gros plan)
+    \item \textbf{Tenir un journal}~: noter les facteurs déclenchants éventuels (stress, alimentation, médicaments, infections, exposition solaire, saison)
+    \item \textbf{Hydrater} la peau avec un émollient neutre (type Dexeryl, Lipikar, ou cold cream)
+    \item \textbf{Pour le nez}~: sérum physiologique pour nettoyer, vaseline ou émollient nasal pour protéger la muqueuse
+\end{itemize}
+
+\textbf{À éviter~:}
+\begin{itemize}[nosep]
+    \item \textbf{Dermocorticoïdes sans diagnostic}~: ils peuvent masquer un mycosis fongoïde, aggraver une dermatophytose, ou fausser les résultats d'une biopsie
+    \item \textbf{Grattage ou irritation} des lésions (risque de phénomène de Koebner si psoriasis ou lichen plan)
+    \item \textbf{Bains chauds prolongés} et savons irritants
+    \item \textbf{Automédication} avec des crèmes non prescrites
+\end{itemize}
+\end{mechanism}
+
+%=============================================================================
+\section{Questions essentielles à clarifier}
+\label{sec:questions}
+%=============================================================================
+
+\begin{question}{Informations critiques manquantes}
+Les réponses à ces questions orienteront significativement le diagnostic~:
+
+\textbf{1. Description des lésions~:}
+\begin{itemize}[nosep]
+    \item Quelle est la forme des plaques~? (Rondes, ovales, irrégulières, annulaires~?)
+    \item Quelle est leur couleur~? (Roses, rouges, violacées, brunes, argentées~?)
+    \item Y a-t-il des squames~? (Fines, épaisses, argentées, adhérentes~?)
+    \item Les bords sont-ils nets ou flous~?
+    \item Quelle est leur taille~? (Millimètres, centimètres~?)
+\end{itemize}
+
+\textbf{2. Localisation~:}
+\begin{itemize}[nosep]
+    \item Où sont les lésions exactement~? (Tronc, membres, visage, cuir chevelu~?)
+    \item Les lésions reviennent-elles toujours aux mêmes endroits~?
+    \item Y a-t-il atteinte du cuir chevelu, des ongles, des paumes, des organes génitaux~?
+    \item La muqueuse buccale est-elle atteinte~?
+\end{itemize}
+
+\textbf{3. Symptômes associés~:}
+\begin{itemize}[nosep]
+    \item Y a-t-il du prurit (démangeaisons)~? Intensité~?
+    \item Y a-t-il des douleurs ou une sensation de brûlure~?
+    \item Les lésions nasales saignent-elles~? Gênent-elles la respiration~?
+    \item Y a-t-il des signes généraux (fièvre, fatigue, perte de poids, sueurs nocturnes)~?
+    \item Y a-t-il une sécheresse oculaire ou buccale~? $\rightarrow$ Sjögren
+\end{itemize}
+
+\textbf{4. Facteurs déclenchants et modulateurs~:}
+\begin{itemize}[nosep]
+    \item[\textcolor{keyfindingborder}{$\checkmark$}] \textbf{Répondu}~: Pas de facteurs déclenchants identifiés
+    \item À préciser~: Les poussées sont-elles saisonnières~?
+    \item À préciser~: Le soleil améliore-t-il ou aggrave-t-il les lésions~? $\rightarrow$ Lupus si aggravation
+    \item À préciser~: Y a-t-il un lien temporel même vague avec des infections (angine, rhume)~? $\rightarrow$ Psoriasis guttata
+\end{itemize}
+
+\textbf{5. Antécédents~:}
+\begin{itemize}[nosep]
+    \item Âge~?
+    \item Antécédents familiaux de psoriasis, eczéma, maladies auto-immunes~?
+    \item Antécédents personnels (maladies chroniques, allergies)~?
+    \item Médicaments actuels~?
+    \item Tabagisme~? (Facteur aggravant du psoriasis palmoplantaire et du lichen plan muqueux)
+\end{itemize}
+
+\textbf{6. Traitements antérieurs~:}
+\begin{itemize}[nosep]
+    \item Quels traitements ont été essayés~? (Crèmes, pommades, comprimés~?)
+    \item Y a-t-il eu une réponse aux corticoïdes topiques~? (Amélioration transitoire $\rightarrow$ psoriasis/lichen plan)
+    \item Y a-t-il eu une réponse aux antifongiques~? (Amélioration $\rightarrow$ dermatophytose)
+    \item Les traitements ont-ils été prescrits ou en automédication~?
+\end{itemize}
+
+\textbf{7. Parcours médical~:}
+\begin{itemize}[nosep]
+    \item Un dermatologue a-t-il déjà été consulté~? Si oui, quel a été le diagnostic~?
+    \item Une biopsie cutanée a-t-elle déjà été réalisée~?
+    \item Des examens sanguins ont-ils été faits~? Lesquels~? Résultats~?
+\end{itemize}
+\end{question}
+
+%=============================================================================
+\section{Conclusion préliminaire}
+\label{sec:conclusion}
+%=============================================================================
+
+\begin{keyfinding}{Résumé et prochaines étapes}
+\begin{enumerate}
+    \item \textbf{Le diagnostic de maladie de Gibert est incompatible} avec le tableau clinique d'Aeiuno (récidives sur des années, épisode $>$ 3 mois, atteinte muqueuse nasale). Ce diagnostic doit être abandonné.
+
+    \item \textbf{Trois diagnostics sont les plus probables}~:
+    \begin{itemize}[nosep]
+        \item Psoriasis (probabilité élevée)
+        \item Lichen plan (probabilité modérée à élevée, surtout avec l'atteinte muqueuse)
+        \item Mycosis fongoïde (probabilité modérée, mais conséquences majeures si manqué)
+    \end{itemize}
+
+    \item \textbf{L'examen indispensable est la biopsie cutanée} avec immunohistochimie, réalisée par un dermatologue.
+
+    \item \textbf{Une sérologie syphilitique (TPHA + VDRL)} peut être demandée dès maintenant par le médecin généraliste, sans attendre le rendez-vous dermato.
+
+    \item \textbf{La consultation dermatologique est urgente}~: l'atteinte muqueuse nasale et la chronicité justifient un rendez-vous prioritaire.
+\end{enumerate}
+\end{keyfinding}
+
+\begin{caution}{Limites de cette évaluation}
+\begin{itemize}
+    \item Ce document est basé sur des informations \textbf{très limitées} (pas d'examen clinique, pas de description détaillée des lésions, pas de photographies)
+    \item Aucun diagnostic ne peut être posé sans examen dermatologique et biopsie
+    \item Les probabilités attribuées sont des estimations grossières, susceptibles de changer radicalement après un examen clinique
+    \item Ce document doit être \textbf{complété} après la consultation dermatologique et les résultats de la biopsie
+\end{itemize}
+\end{caution}
+
+\vspace{1em}
+
+\textbf{Suivi prévu}~: Mise à jour de ce document après réception des réponses aux questions (section~\ref{sec:questions}) et des résultats de la biopsie cutanée.
+
+\end{document}

@@ -1,0 +1,22 @@
+Effect of Dietary Coenzyme Q10 Plus NADH Supplementation on Fatigue Perception and Health-Related Quality of Life in Individuals with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Prospective, Randomized, Double-Blind, Placebo-Controlled Trial
+
+Castro-Marrero J, Segundo MJ, Lacasa M, Martinez-Martinez A, Sentañes RS, Alegre-Martin J.
+
+Nutrients. 2021 Aug 20;13(8):2658.
+
+DOI: 10.3390/nu13082658
+PMID: 34444817
+
+Background: ME/CFS is characterized by severe fatigue and reduced quality of life. Mitochondrial dysfunction and oxidative stress are implicated in pathophysiology. This trial evaluated CoQ10 plus NADH supplementation for symptom improvement.
+
+Methods: Prospective, randomized, double-blind, placebo-controlled trial. N=207 ME/CFS patients (104 active, 103 placebo). Intervention: 200 mg CoQ10 + 20 mg NADH daily for 12 weeks. Primary outcomes: Fatigue Impact Scale (FIS-40), SF-36 quality of life, cognitive fatigue perception, sleep duration and efficiency.
+
+Results: Significant improvements in treatment group:
+- Cognitive fatigue perception: p < 0.001
+- Overall FIS-40 scores: p = 0.022
+- Quality of life (SF-36): p < 0.05
+- Sleep duration at 4 weeks: p = 0.018
+- Sleep efficiency at 8 weeks: p = 0.038
+Benefits persisted 4 weeks post-treatment.
+
+Conclusions: CoQ10 + NADH supplementation significantly improved fatigue perception, quality of life, and sleep in ME/CFS patients. Combination addresses mitochondrial dysfunction and represents evidence-based adjunctive therapy.

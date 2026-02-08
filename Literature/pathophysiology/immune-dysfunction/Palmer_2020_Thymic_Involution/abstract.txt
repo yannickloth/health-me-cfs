@@ -1,0 +1,43 @@
+1. Immun Ageing. 2020 Jan 20;17:2. doi: 10.1186/s12979-020-0173-8. eCollection 
+2020.
+
+Contributions of Age-Related Thymic Involution to Immunosenescence and 
+Inflammaging.
+
+Thomas R(1), Wang W(1), Su DM(2).
+
+Author information:
+(1)Cell Biology, Immunology, and Microbiology Graduate Program, Graduate School 
+of Biomedical Sciences, Fort Worth, Texas 76107 USA.
+(2)2Department of Microbiology, Immunology, and Genetics, University of North 
+Texas Health Science Center, Fort Worth, Texas 76107 USA.
+
+Immune system aging is characterized by the paradox of immunosenescence 
+(insufficiency) and inflammaging (over-reaction), which incorporate two sides of 
+the same coin, resulting in immune disorder. Immunosenescence refers to 
+disruption in the structural architecture of immune organs and dysfunction in 
+immune responses, resulting from both aged innate and adaptive immunity. 
+Inflammaging, described as a chronic, sterile, systemic inflammatory condition 
+associated with advanced age, is mainly attributed to somatic cellular 
+senescence-associated secretory phenotype (SASP) and age-related autoimmune 
+predisposition. However, the inability to reduce senescent somatic cells (SSCs), 
+because of immunosenescence, exacerbates inflammaging. Age-related adaptive 
+immune system deviations, particularly altered T cell function, are derived from 
+age-related thymic atrophy or involution, a hallmark of thymic aging. Recently, 
+there have been major developments in understanding how age-related thymic 
+involution contributes to inflammaging and immunosenescence at the cellular and 
+molecular levels, including genetic and epigenetic regulation, as well as 
+developments of many potential rejuvenation strategies. Herein, we discuss the 
+research progress uncovering how age-related thymic involution contributes to 
+immunosenescence and inflammaging, as well as their intersection. We also 
+describe how T cell adaptive immunity mediates inflammaging and plays a crucial 
+role in the progression of age-related neurological and cardiovascular diseases, 
+as well as cancer. We then briefly outline the underlying cellular and molecular 
+mechanisms of age-related thymic involution, and finally summarize potential 
+rejuvenation strategies to restore aged thymic function.
+
+© The Author(s). 2020.
+
+DOI: 10.1186/s12979-020-0173-8
+PMCID: PMC6971920
+PMID: 31988649

@@ -1,0 +1,17 @@
+Reduced heart rate variability predicts fatigue severity in individuals with chronic fatigue syndrome/myalgic encephalomyelitis
+
+Escorihuela RM, Capdevila L, Castro JR, Zaragozà MC, Maurel S, Alegre J, Castro-Marrero J.
+
+J Transl Med. 2020 Jan 6;18(1):4. doi: 10.1186/s12967-019-02184-z.
+
+BACKGROUND: Heart rate variability (HRV) is an objective, non-invasive tool to assessing autonomic dysfunction in chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME). People with CFS/ME tend to have lower HRV; however, in the literature there are only a few previous studies (most of them inconclusive) on their association with illness-related complaints. To address this issue, we assessed the value of different diurnal HRV parameters as potential biomarker in CFS/ME and also investigated the relationship between these HRV indices and self-reported symptoms in individuals with CFS/ME.
+
+METHODS: In this case-control study, 45 female patients who met the 1994 CDC/Fukuda definition for CFS/ME and 25 age- and gender-matched healthy controls underwent HRV recording-resting state tests. The intervals between consecutive heartbeats (RR) were continuously recorded over three 5-min periods. Time- and frequency-domain analyses were applied to estimate HRV variables. Demographic and clinical features, and self-reported symptom measures were also recorded.
+
+RESULTS: CFS/ME patients showed significantly higher scores in all symptom questionnaires (p < 0.001), decreased RR intervals (p < 0.01), and decreased HRV time- and frequency-domain parameters (p < 0.005), except for the LF/HF ratio than in the healthy controls. Overall, the correlation analysis reached significant associations between the questionnaires scores and HRV time- and frequency-domain measurements (p < 0.05). Furthermore, separate linear regression analyses showed significant relationships between self-reported fatigue symptoms and mean RR (p = 0.005), RMSSD (p = 0.0268) and HFnu indices (p = 0.0067) in CFS/ME patients, but not in healthy controls.
+
+CONCLUSIONS: Our findings suggest that ANS dysfunction presenting as increased sympathetic hyperactivity may contribute to fatigue severity in individuals with ME/CFS. Further studies comparing short- and long-term HRV recording and self-reported outcome measures with previous studies in larger CFS/ME cohorts are urgently warranted.
+
+PMID: 31906988
+PMCID: PMC6943898
+DOI: 10.1186/s12967-019-02184-z

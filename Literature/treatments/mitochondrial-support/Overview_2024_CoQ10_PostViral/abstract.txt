@@ -1,0 +1,23 @@
+Mitochondrial Dysfunction and Coenzyme Q10 Supplementation in Post-Viral Fatigue Syndrome: An Overview
+
+Di Pierro F, Derosa G, Maffioli P, Bertuccioli A, Togni S, Riva A, Allegrini P, Khan A, Khan S, Khan BA, Altaf N, Zahid M, Ujjan ID, Nigar R.
+
+Int J Mol Sci. 2024 Jan 1;25(1):574.
+
+DOI: 10.3390/ijms25010574
+PMID: 38203834
+PMCID: PMC10779395
+
+Background: Post-viral fatigue syndromes (PVFS), including ME/CFS, fibromyalgia, and Long COVID, share mitochondrial dysfunction as a common pathophysiological feature. This overview examines evidence for CoQ10 supplementation across these conditions.
+
+Methods: Narrative review synthesizing evidence from randomized controlled trials, open-label studies, and mechanistic research on CoQ10 for PVFS. Covered conditions: ME/CFS, fibromyalgia, Long COVID.
+
+Key Findings:
+- ME/CFS: RCT (n=207) with CoQ10 200mg + NADH 20mg showed significant improvements in fatigue, quality of life, and sleep. Open-label studies (n=27-43) confirmed benefits.
+- Fibromyalgia: Multiple RCTs demonstrated 20-40% improvements in pain and fatigue; CoQ10 300-400mg daily effective.
+- Long COVID: Mixed results; one study showed 53.5% fatigue reduction vs 3.5% placebo, but crossover trial (n=119) found no benefit.
+- Bioavailability critical: Crystal-modified ubiquinone showed 75% superior absorption vs standard formulations.
+
+Mechanisms: Electron transport chain restoration, ATP production, antioxidant effects, mitochondrial membrane stabilization.
+
+Conclusions: CoQ10 supplementation shows promise for PVFS, with strongest evidence in ME/CFS and fibromyalgia. Pharmaceutical-grade formulations essential for clinical efficacy.

@@ -621,7 +621,7 @@ Recent research has demonstrated a direct mechanism by which EBV-infected B cell
 We hypothesize that EBV infection during adolescence creates a unique risk for persistent autoantibody-mediated ME/CFS, because viral B cell infection coincides with pubertal immune maturation when tolerance mechanisms are being reorganized.
 
 \textbf{Epidemiological context:}
-Infectious mononucleosis (primary EBV infection) is a common ME/CFS trigger, particularly in adolescents. While young children typically experience asymptomatic primary EBV infection, delayed first exposure in adolescence produces symptomatic mononucleosis. This age-dependent presentation reflects developmental differences in immune response.
+Infectious mononucleosis (primary EBV infection) is a common ME/CFS trigger, particularly in adolescents. While young children typically experience asymptomatic primary EBV infection, delayed first exposure in adolescence produces symptomatic mononucleosis in 35--50\% of cases~\cite{ScanJImmunol2025EBV}. This age-dependent presentation reflects developmental differences in immune response. When infection occurs during adolescence or young adulthood, symptoms can be more severe than in younger children, and the infection is associated with increased risk for subsequent autoimmune disease development~\cite{FrontImmunol2024EBV}.
 
 \textbf{Immunological timing hypothesis:}
 EBV preferentially infects B cells, establishing lifelong latency. During adolescence, the immune system undergoes substantial reorganization: thymic output is declining, peripheral tolerance mechanisms are maturing, and the B cell repertoire is being shaped. EBV infection during this critical window may:
@@ -985,7 +985,7 @@ Pediatric recovery from ME/CFS may be facilitated by developmental immune tolera
 
 The developing immune system is not merely a smaller version of the adult system; it is qualitatively different in its capacity for self-correction. Several mechanisms may contribute to immune memory pruning:
 
-\textit{Peripheral B cell tolerance checkpoints.} Autoreactive B cells that escape central tolerance in the bone marrow normally undergo peripheral tolerance mechanisms including anergy (functional unresponsiveness), receptor editing (modification of the B cell receptor to eliminate autoreactivity), and deletion (apoptosis of autoreactive cells). These peripheral checkpoints are most active during immune development and may decline with age. In children with ME/CFS, autoantibodies generated during acute illness may be subject to these active tolerance mechanisms, leading to gradual elimination of autoreactive B cell clones. In adults, with attenuated peripheral tolerance, these clones persist.
+\textit{Peripheral B cell tolerance checkpoints.} Autoreactive B cells that escape central tolerance in the bone marrow normally undergo peripheral tolerance mechanisms including anergy (functional unresponsiveness), receptor editing (modification of the B cell receptor to eliminate autoreactivity), and deletion (apoptosis of autoreactive cells)~\cite{JExpMed2024bcell,FrontImmunol2024thymic}. These peripheral checkpoints are most active during immune development and may decline with age. Recent evidence demonstrates that impaired clearance of autoreactive B cells due to disruption of negative selection barriers causes autoantibody-producing B cells to mature and subsequently differentiate into plasma cells~\cite{JExpMed2024bcell}. In children with ME/CFS, autoantibodies generated during acute illness may be subject to these active tolerance mechanisms, leading to gradual elimination of autoreactive B cell clones. In adults, with attenuated peripheral tolerance, these clones persist.
 
 \textit{Thymic contribution to T cell repertoire.} The thymus remains highly active through adolescence, continuously generating naive T cells that have undergone rigorous negative selection against self-antigens. This ongoing thymic output may dilute and eventually replace dysfunctional T cell populations (exhausted cells, aberrantly activated cells) that accumulate during ME/CFS. Adult thymic involution eliminates this regenerative capacity, leaving dysfunctional T cell populations to persist.
 
@@ -1024,6 +1024,109 @@ If immune memory pruning explains pediatric recovery advantage, several therapeu
 \textbf{Limitations and caveats:}
 
 This hypothesis remains speculative and requires validation. Alternative explanations for the pediatric recovery advantage exist, including greater metabolic reserves, neural plasticity, psychosocial factors, and ascertainment bias (milder cases preferentially diagnosed in children). The hypothesis does not explain why some children do not recover or why rare adults do recover. Additionally, even if the hypothesis is correct, translating developmental tolerance mechanisms into adult therapeutics presents substantial challenges.
+\end{hypothesis}
+
+\begin{hypothesis}[Autoantibody Inefficiency Hypothesis]
+\label{hyp:autoantibody-inefficiency}
+
+The standard model of autoantibody pathogenesis posits binary effects: agonist antibodies overstimulate receptors, antagonist antibodies block them. However, emerging evidence suggests GPCR autoantibodies in ME/CFS may operate through a more subtle mechanism---\textbf{increasing the physiological ``effort'' required per unit of functional output} rather than preventing output entirely.
+
+\paragraph{Conceptual Framework.}
+
+Consider two scenarios:
+\begin{enumerate}
+    \item \textbf{Complete blockade}: A receptor antagonist prevents signal transduction. To achieve a given output, the system compensates by upregulating receptor expression, increasing ligand production, or activating alternative pathways. This produces a stable new equilibrium with normal output at higher baseline cost.
+
+    \item \textbf{Partial interference}: An autoantibody binds receptors with partial agonist/antagonist activity~\cite{Wallukat2021gpcr_mechanisms}, causing stochastic signal degradation. Some signals succeed, others fail. The system cannot establish stable compensation because the interference is probabilistic rather than deterministic. To achieve reliable output, the system must increase signal redundancy, pathway cross-talk, and error-correction mechanisms---dramatically raising metabolic cost per successful signal.
+\end{enumerate}
+
+The autoantibody inefficiency hypothesis proposes that ME/CFS GPCR autoantibodies function primarily through scenario 2: they increase the \textit{effort-to-output ratio} rather than blocking output capacity.
+
+\paragraph{Mechanistic Basis.}
+
+Multiple mechanisms could contribute to effort-per-output elevation:
+
+\textit{Partial agonism and desensitization.} GPCR autoantibodies can act as partial agonists, activating receptors less efficiently than endogenous ligands while simultaneously triggering desensitization cascades~\cite{Wallukat2021gpcr_mechanisms}. This creates a state of chronic low-level activation paired with reduced receptor availability. Functional output requires overcoming both the partial antagonism and the desensitization state, necessitating increased ligand release, receptor cycling, and downstream amplification.
+
+\textit{Receptor internalization and trafficking dysregulation.} Autoantibody binding can trigger receptor internalization through arrestin-mediated pathways~\cite{Kim2026nmdar_cryoem}. Unlike normal agonist-induced internalization (which promotes receptor recycling), autoantibody-mediated internalization may produce abnormal trafficking patterns, sequestering receptors in non-productive compartments. The cell must continuously synthesize new receptors to maintain surface expression, increasing basal metabolic demand.
+
+\textit{Compensatory pathway activation.} When primary signaling pathways operate inefficiently due to autoantibody interference, cells activate compensatory mechanisms~\cite{Hackel2025monocyte}. In monocytes, GPCR autoantibody binding triggers production of MIP-1$\delta$, PDGF-BB, and TGF-$\beta$3---cytokines that activate alternative inflammatory and stress-response pathways. These compensatory cascades consume ATP, generate reactive oxygen species, and demand continuous cellular attention, raising the metabolic cost of maintaining homeostasis.
+
+\textit{Stochastic signaling noise.} If autoantibodies cause intermittent rather than consistent receptor modulation, downstream systems cannot adapt through simple upregulation. Instead, they must implement redundancy: multiple parallel pathways, error-checking mechanisms, and repeated signal verification. This transforms efficient point-to-point signaling into expensive consensus-based communication, analogous to the difference between a direct phone call and a committee meeting requiring majority vote.
+
+\paragraph{Predictions and Testable Hypotheses.}
+
+The inefficiency model generates distinct predictions from the simple blockade/activation model:
+
+\begin{enumerate}
+    \item \textbf{Effort-symptom dissociation}: Autoantibody-positive patients should show higher perceived effort for equivalent objective tasks compared to autoantibody-negative patients with similar disability levels.
+
+    \item \textbf{Titer correlation with effort, not capacity}: GPCR autoantibody titers should correlate more strongly with effort-per-task measures than with absolute functional capacity. High-titer patients might maintain near-normal performance briefly but report extreme subjective effort and experience rapid decompensation.
+
+    \item \textbf{Metabolic cost elevation}: During controlled tasks, autoantibody-positive patients should show elevated oxygen consumption, lactate production, or other metabolic markers for equivalent work output compared to autoantibody-negative patients.
+
+    \item \textbf{Immunoadsorption reduces effort-per-output}: The primary benefit of immunoadsorption should be reduced subjective effort for equivalent tasks, measurable before changes in absolute capacity. Stein et al.\ showed SF-36 improvements~\cite{Stein2024immunoadsorption}, but effort-normalized metrics were not reported.
+
+    \item \textbf{PEM pattern differences}: If autoantibodies increase baseline effort, PEM in autoantibody-positive patients should follow an effort-accumulation model (gradual exhaustion of compensatory reserves) rather than a damage-repair model (discrete injury requiring recovery).
+
+    \item \textbf{CNS vs peripheral manifestations}: If the inefficiency mechanism operates primarily through adrenergic and muscarinic receptors, symptoms should concentrate in systems dependent on rapid, high-frequency receptor signaling: autonomic regulation, attention/vigilance, fine motor control. Gross muscle strength might be relatively preserved despite profound fatigue.
+\end{enumerate}
+
+\paragraph{Existing Evidence Alignment.}
+
+Several published findings align with the inefficiency model:
+
+\begin{itemize}
+    \item \textbf{Correlation patterns}: Sotzny et al.\ found GPCR autoantibody levels correlated with fatigue severity, muscle pain, cognitive impairment, and autonomic dysfunction~\cite{Sotzny2021}---all effort-dependent symptoms that worsen with sustained activity.
+
+    \item \textbf{Heterogeneous treatment response}: In the Stein et al.\ immunoadsorption study, 70\% responded but 30\% did not~\cite{Stein2024immunoadsorption}. The inefficiency model predicts that patients with primary autoantibody-driven disease should respond dramatically, while those with additional pathology may show limited benefit.
+
+    \item \textbf{Delayed recovery after antibody removal}: While autoantibody titers drop immediately (77\% reduction in Stein et al.), clinical improvement evolves over weeks to months. This delay is inconsistent with simple receptor unblocking but consistent with gradual normalization of compensatory mechanisms.
+
+    \item \textbf{Monocyte reprogramming persistence}: Hackel et al.\ showed GPCR autoantibodies reprogram monocyte cytokine production~\cite{Hackel2025monocyte}. This inflammatory signature might persist even after antibody removal if monocytes have been epigenetically reprogrammed.
+\end{itemize}
+
+\paragraph{Clinical Implications.}
+
+If the inefficiency model is correct, treatment strategies should focus on:
+
+\begin{itemize}
+    \item \textbf{Early intervention}: Before compensatory mechanisms become maladaptive, autoantibody removal might produce rapid recovery.
+
+    \item \textbf{Combination therapy}: Immunoadsorption or plasma cell depletion (daratumumab~\cite{Fluge2025daratumumab}) to remove autoantibodies, paired with therapies supporting cellular energy metabolism (CoQ10, NADH) to offset elevated effort costs during recovery.
+
+    \item \textbf{Effort-based rather than capacity-based pacing}: For autoantibody-positive patients, effort-tracking (heart rate variability, subjective effort scales) might be more predictive of crashes than activity level alone.
+
+    \item \textbf{Patient selection for trials}: The inefficiency model predicts a subgroup---autoantibody-positive, relatively acute onset, without severe mitochondrial damage---should show dramatic response to antibody removal.
+\end{itemize}
+
+\paragraph{Relationship to Other Hypotheses.}
+
+The autoantibody inefficiency hypothesis complements rather than contradicts other ME/CFS mechanisms:
+
+\begin{itemize}
+    \item \textbf{Vicious cycles}: Elevated effort-per-output increases metabolic demand, potentially triggering mitochondrial stress, oxidative damage, and further dysfunction~\cite{Scheibenbogen2025muscle}. The inefficiency becomes self-reinforcing.
+
+    \item \textbf{Autonomic dysfunction}: If autoantibodies target adrenergic receptors with partial agonist effects, the autonomic nervous system operates in a state of chronic low-level activation paired with reduced responsiveness.
+
+    \item \textbf{Immune memory}: The immune memory pruning hypothesis (Hypothesis~\ref{hyp:immune-pruning}) suggests pediatric patients might clear autoreactive plasma cell populations, while adults cannot---explaining age-related prognosis differences in autoantibody-driven disease.
+\end{itemize}
+
+\paragraph{Limitations and Uncertainties.}
+
+\begin{enumerate}
+    \item \textbf{Mechanistic heterogeneity}: Different autoantibodies likely have different effects. Lumping all GPCR autoantibodies together may obscure subtype-specific mechanisms.
+
+    \item \textbf{Assay limitations}: As noted by Vernino et al.~\cite{POTS2022failed_replication}, current ELISA assays measure antibody binding but not functional effects. Functional assays measuring receptor activation, desensitization kinetics, and downstream signaling are needed.
+
+    \item \textbf{Causal uncertainty}: Autoantibodies correlate with symptom severity but correlation is not causation. They may be a consequence rather than a cause of ME/CFS.
+
+    \item \textbf{Quantification challenges}: ``Effort per output'' is difficult to measure objectively. Developing validated effort-efficiency metrics is essential for testing this hypothesis.
+
+    \item \textbf{Alternative explanations}: Elevated perceived effort could arise from CNS dysfunction (altered interoception, motivation circuits) rather than peripheral receptor interference.
+\end{enumerate}
+
+Despite these limitations, the inefficiency hypothesis provides a coherent framework for understanding why approximately 30\% of ME/CFS patients have elevated GPCR autoantibodies, why these correlate with specific symptom domains, why immunoadsorption produces gradual rather than immediate improvement, and why outcome heterogeneity exists.
 \end{hypothesis}
 
 \section{Connections to Allergies and Mast Cell Activation}
@@ -1177,6 +1280,102 @@ Patient communities consistently report that a subset of ME/CFS and Long COVID p
 
 The low risk profile and potential for significant benefit in the MCAS-overlap subgroup justify consideration of empirical trials in patients with compatible symptom patterns (flushing, urticaria, food reactions, autonomic episodes, documented allergies).
 \end{observation}
+
+\begin{hypothesis}[MCAS Energy Amplifier Hypothesis]
+\label{hyp:mcas-energy-amplifier}
+
+\textbf{Core proposition:} Mast cell activation episodes create acute energy demands that worsen pre-existing CNS energy deficits in ME/CFS, establishing a positive feedback loop that amplifies PEM severity and frequency.
+
+\paragraph{Energy Cost of Mast Cell Activation.}
+
+Mast cell degranulation and the subsequent histamine cascade impose substantial metabolic demands~\cite{Theoharides2021Cells}:
+
+\begin{itemize}
+    \item \textbf{Degranulation energetics}: IgE-mediated mast cell activation utilizes ATP and rapidly induces glycolysis. While oxidative phosphorylation generates 32 ATP per glucose molecule, glycolysis produces only 2 ATP per glucose but can metabolize many glucose molecules simultaneously, creating ``short bursts of large amounts of ATP'' to support the degranulation process.
+
+    \item \textbf{AMPK dysregulation}: AMP-activated protein kinase (AMPK), the cell's central energy sensor, normally provides negative feedback to suppress mast cell activation when energy is low. ERK1/2 signaling during Fc$\varepsilon$RI activation can abolish this AMPK-dependent brake~\cite{Theoharides2021Cells}.
+
+    \item \textbf{Systemic energy diversion}: Managing the histamine cascade (vasodilation, inflammatory response, immune mediator production) requires substantial metabolic resources systemically, not just within mast cells themselves.
+
+    \item \textbf{CNS histamine burden}: Mast cells serve as the predominant histamine source within the brain ($>$50\% of total CNS histamine). Excessive histamine release from brain mast cells or peripheral histamine crossing a disrupted blood-brain barrier can impair CNS energy homeostasis~\cite{Zhang2024MastBrain}.
+\end{itemize}
+
+\paragraph{MCAS Prevalence and Clinical Overlap.}
+
+The substantial comorbidity between MCAS and ME/CFS suggests shared or mutually reinforcing pathophysiology:
+
+\begin{itemize}
+    \item \textbf{Prevalence}: Estimates range from 25.3\%~\cite{Frioni2024MCAS} to 30--50\%~\cite{Wirth2023} of ME/CFS patients meeting MCAS criteria or exhibiting clinically relevant mast cell activation.
+
+    \item \textbf{Progressive involvement}: Mast cell activation prevalence \textbf{increases over the disease course}~\cite{Frioni2024MCAS}, suggesting that chronic energy deficit may progressively impair mast cell regulation.
+
+    \item \textbf{Orthostatic overlap}: Patients with both MCAS and orthostatic intolerance (particularly POTS) show significantly higher treatment response rates to mast cell-directed therapy compared to OI alone ($p<0.0001$)~\cite{Wirth2023,Frioni2024MCAS}.
+
+    \item \textbf{Cellular abnormalities}: Objective evidence of altered mast cell phenotypes in ME/CFS includes increased na\"ive mast cells and elevated activation markers on differentiated mast cells in severe cases~\cite{Hardcastle2016}.
+\end{itemize}
+
+\paragraph{Proposed Positive Feedback Mechanism.}
+
+The hypothesis posits a vicious cycle:
+
+\begin{enumerate}
+    \item \textbf{Baseline energy deficit}: ME/CFS patients operate with limited CNS energy reserves (see Chapter~\ref{ch:energy-metabolism} and the selective dysfunction hypothesis, Section~\ref{sec:selective-dysfunction}).
+
+    \item \textbf{Impaired immune regulation}: Energy scarcity compromises AMPK-mediated negative regulation of mast cells and other energy-intensive immune processes.
+
+    \item \textbf{MCAS flare}: Triggers (allergens, stress, exertion, infections) provoke mast cell degranulation in the context of reduced inhibitory control.
+
+    \item \textbf{Energy consumption surge}: Degranulation and histamine cascade management acutely ``steal'' energy from an already depleted budget, particularly impacting the CNS given brain mast cells' role as the primary CNS histamine source.
+
+    \item \textbf{Worsened energy deficit}: The acute energy drain deepens the baseline deficit, further impairing mast cell regulation and increasing vulnerability to subsequent triggers.
+
+    \item \textbf{PEM amplification}: Energy depletion precipitates or worsens post-exertional malaise episodes, with the severity and duration potentially proportional to the degree of mast cell involvement.
+\end{enumerate}
+
+This model predicts that MCAS episodes function as \textbf{energy amplifiers}: each activation event not only consumes energy directly but also lowers the threshold for future activations and crashes.
+
+\paragraph{Testable Predictions.}
+
+\begin{enumerate}
+    \item \textbf{Temporal relationship}: MCAS flares (flushing, urticaria, GI symptoms, autonomic instability) should frequently precede or coincide with PEM crash onset.
+
+    \item \textbf{Biomarker correlations}: Elevated tryptase and histamine levels during symptomatic periods should correlate with reduced markers of energy availability (e.g., decreased ATP/ADP ratios, elevated lactate).
+
+    \item \textbf{Severity correlation}: MCAS symptom severity should predict PEM severity and frequency, independent of exertional triggers.
+
+    \item \textbf{Threshold effects}: Prophylactic mast cell stabilization should raise the PEM threshold---patients should tolerate greater activity levels without crashing when mast cells are pharmacologically stabilized.
+
+    \item \textbf{Treatment response pattern}: Mast cell stabilizers should reduce crash frequency and severity beyond their direct anti-allergic effects, even in patients without formal MCAS diagnosis.
+\end{enumerate}
+
+\paragraph{Supporting Evidence.}
+
+\textit{Clinical evidence:} Retrospective analyses of ketotifen (a mast cell stabilizer with H1 and leukotriene antagonism) in ME/CFS and Long COVID patients showed substantial PEM reduction in 77--95\% of patients who continued treatment~\cite{Weinstock2024Ketotifen}. This suggests mast cell stabilization specifically targets PEM mechanisms, not merely allergic symptoms. ME/CFS patients with documented MCAS and OI features respond significantly better to mast cell-directed treatment ($p<0.0001$)~\cite{Wirth2023,Frioni2024MCAS}.
+
+\textit{Mechanistic plausibility:} AMPK links cellular energy status directly to mast cell regulation~\cite{Theoharides2021Cells}. Energy deficits reduce AMPK activity, which disinhibits mast cells---a clear mechanistic path from energy scarcity to immune hyperreactivity. Histamine's documented effects on CNS energy metabolism, behavioral state, and biological rhythms~\cite{Zhang2024MastBrain} provide a direct pathway for mast cell activity to worsen cognitive and energy symptoms. Mast cell-derived mediators cause vascular dysfunction~\cite{Wirth2023}, which can worsen tissue perfusion and oxygen delivery---further constraining energy availability.
+
+\paragraph{Treatment Implications.}
+
+\begin{itemize}
+    \item \textbf{Prophylactic stabilization}: Mast cell stabilizers (ketotifen, cromones, quercetin) and H1+H2 antihistamine combinations may serve as \textbf{energy-protective} interventions, not merely anti-allergic treatments.
+
+    \item \textbf{Empirical trials justified}: Given the low risk profile and the potential for substantial PEM reduction, empirical trials are justified even in ME/CFS patients without formal MCAS diagnosis, particularly those with compatible symptom patterns.
+
+    \item \textbf{Combination approaches}: Addressing both energy metabolism (e.g., mitochondrial support, pacing) and mast cell stabilization simultaneously may yield synergistic benefits by breaking the positive feedback loop at multiple points.
+\end{itemize}
+
+\paragraph{Limitations and Uncertainties.}
+
+\begin{itemize}
+    \item \textbf{Observational evidence only}: Ketotifen studies lack randomized controls. The reported PEM improvements could reflect placebo effects, natural disease fluctuation, or regression to the mean.
+
+    \item \textbf{Heterogeneous MCAS criteria}: Diagnostic criteria for MCAS vary across studies and clinicians, complicating prevalence estimates and subgroup identification.
+
+    \item \textbf{Mechanistic gaps}: The hypothesis extrapolates from cellular energy costs of mast cell activation to systemic and CNS energy deficits. Direct measurement of energy availability before, during, and after MCAS flares is lacking.
+
+    \item \textbf{Alternative explanations}: MCAS and ME/CFS may share common upstream causes (e.g., viral triggers, autoimmunity, genetic predispositions) without direct causal interaction.
+\end{itemize}
+\end{hypothesis}
 
 \subsection{Allergic Responses}
 \label{sec:allergic-responses}

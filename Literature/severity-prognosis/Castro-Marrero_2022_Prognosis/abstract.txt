@@ -1,0 +1,17 @@
+Factors Influencing the Prognosis of Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome
+
+Castro-Marrero J, Sáez-Francàs N, Segundo MJ, Calvo N, Faro M, Aliste L, Fernández de Sevilla T, Alegre J.
+
+Healthcare (Basel). 2022 Oct 13;10(10):1958.
+
+DOI: 10.3390/healthcare10101958
+PMID: 36292229
+PMCID: PMC9600584
+
+Background: Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex chronic disease with limited therapeutic options. This study examines prognostic factors for recovery and improvement in ME/CFS patients.
+
+Methods: Retrospective longitudinal study of 168 adult ME/CFS patients from 2011-2020. Assessments used validated fatigue scales (FSS, FS, MFIS). Recovery defined as >50% FSS reduction; improvement as 30-50% reduction. Multivariate logistic regression analyzed predictive factors.
+
+Results: Recovery and improvement rates were 8.3% and 4.8%, respectively, over median follow-up of 55 months. Diagnostic delay was inversely associated with recovery/improvement (OR 0.98, p=0.036). Recovered/improved patients had median diagnostic delay of 23 months versus 55 months for others (p=0.0004). Older age at disease onset was associated with recovery/improvement (OR 1.06, p=0.028).
+
+Conclusions: Early diagnosis significantly improves prognosis. Diagnostic delay is a critical modifiable factor affecting ME/CFS outcomes. Results provide hope for improvement even at advanced age with appropriate pacing strategies.

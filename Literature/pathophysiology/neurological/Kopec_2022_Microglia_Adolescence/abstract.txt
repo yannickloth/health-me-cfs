@@ -1,0 +1,44 @@
+1. Sci Adv. 2022 Mar 4;8(9):eabi6672. doi: 10.1126/sciadv.abi6672. Epub 2022 Mar
+2.
+
+Adolescence is a sensitive period for prefrontal microglia to act on cognitive 
+development.
+
+Schalbetter SM(1), von Arx AS(1), Cruz-Ochoa N(2), Dawson K(1), Ivanov A(3), 
+Mueller FS(1), Lin HY(1), Amport R(1), Mildenberger W(4), Mattei D(1)(5), Beule 
+D(3)(6), Földy C(2)(7), Greter M(4), Notter T(1)(8), Meyer U(1)(7).
+
+Author information:
+(1)Institute of Pharmacology and Toxicology, University of Zürich-Vetsuisse, 
+Zürich, Switzerland.
+(2)Laboratory of Neural Connectivity, Faculties of Medicine and Natural 
+Sciences, Brain Research Institute, University of Zürich, Zürich, Switzerland.
+(3)Core Unit Bioinformatics, Berlin Institute of Health, 
+Charité-Universitaetsmedizin, Berlin, Germany.
+(4)Institute of Experimental Immunology, University of Zürich, Zürich, 
+Switzerland.
+(5)Department of Neurology, Icahn School of Medicine at Mount Sinai, New York, 
+NY, USA.
+(6)Max Delbrück Center for Molecular Medicine in the Helmholtz Association 
+(MDC), Berlin, Germany.
+(7)Neuroscience Center Zürich, Zürich, Switzerland.
+(8)Neuroscience and Mental Health Research Institute, Cardiff University, 
+Cardiff, Wales, UK.
+
+The prefrontal cortex (PFC) is a cortical brain region that regulates various 
+cognitive functions. One distinctive feature of the PFC is its protracted 
+adolescent maturation, which is necessary for acquiring mature cognitive 
+abilities in adulthood. Here, we show that microglia, the brain's resident 
+immune cells, contribute to this maturational process. We find that transient 
+and cell-specific deficiency of prefrontal microglia in adolescence is 
+sufficient to induce an adult emergence of PFC-associated impairments in 
+cognitive functions, dendritic complexity, and synaptic structures. While 
+prefrontal microglia deficiency in adolescence also altered the 
+excitatory-inhibitory balance in adult prefrontal circuits, there were no 
+cognitive sequelae when prefrontal microglia were depleted in adulthood. Thus, 
+our findings identify adolescence as a sensitive period for prefrontal microglia 
+to act on cognitive development.
+
+DOI: 10.1126/sciadv.abi6672
+PMCID: PMC8890703
+PMID: 35235358
