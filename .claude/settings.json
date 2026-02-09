@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "Write(./.claude/content-staging/**)",
+      "Edit(./.claude/content-staging/**)",
       "Bash(nix build:*)",
       "Bash(nix run:*)",
       "Bash(latexmk:*)",
@@ -13,6 +15,8 @@
       "Read(./**/*.tex)",
       "Read(./**/*.bib)",
       "Read(./**/*.sty)",
+      "Edit(./**/*.tex)",
+      "Edit(./**/*.bib)",
       "Read(./.claude/**)",
       "Bash(find:*)",
       "Read(//tmp/**)",
