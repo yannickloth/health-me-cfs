@@ -49,6 +49,7 @@ autonomic_event:
 
 symptoms:
   energy: 2/10 (post-wake), persistent fatigue throughout day
+  afternoon_fatigue: "un peu de fatigue" (a bit of fatigue), lying down and sleeping would be very pleasant
   cognitive_function: 3/10 (post-wake period), improved to baseline later in day
   cognitive_status_evening: "everything feels fine cognitively"
   weakness: generalized, including leg weakness (post-wake period)
