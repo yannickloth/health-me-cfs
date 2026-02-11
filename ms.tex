@@ -57,6 +57,43 @@
 % (loads tcolorbox automatically if needed)
 \input{\preamble/theorems.tex}
 
+% Project-specific environments
+% Recommendation environment (for clinical/treatment recommendations)
+\definecolor{recommendation_green_frame}{HTML}{2E7D32}
+\definecolor{recommendation_green_bg}{HTML}{F1F8F6}
+\colorlet{recommendationframe}{recommendation_green_frame}
+\colorlet{recommendationbg}{recommendation_green_bg}
+
+\newcounter{recommendationcounter}[chapter]
+\renewcommand{\therecommendationcounter}{\thechapter.\arabic{recommendationcounter}}
+\newcommand{\recommendationicon}{\ensuremath{\rightarrow}}
+
+\newtcolorbox[use counter=recommendationcounter]{recommendation}[1][]{%
+  enhanced,
+  breakable,
+  break at=-\baselineskip,
+  colback=recommendationbg,
+  colframe=recommendationframe,
+  boxrule=1pt,
+  arc=2pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt,
+  fonttitle=\bfseries\sffamily,
+  adjusted title={\recommendationicon~Recommendation~\therecommendationcounter\ifstrempty{#1}{}{: #1}},
+  before upper={\parindent=1.5em},
+  coltitle=black,
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  minipage boxed title*=-14mm,
+  boxed title style={
+    colback=recommendationbg,
+    colframe=recommendationframe,
+    boxrule=0.5pt,
+    arc=1pt,
+  }
+}
+
 % Feature-specific modules (each includes its own \usepackage statements)
 \input{\preamble/bibliography.tex}   % Citation support
 \addbibresource{references.bib}       % Project bibliography
@@ -111,6 +148,9 @@
 % Hyperref (MUST load last)
 % Note: hyperref.tex includes a fix for >26 chapters when alphalph is loaded
 \input{\preamble/hyperref.tex}
+
+% Cleveref (MUST load AFTER hyperref)
+\usepackage[capitalize,noabbrev]{cleveref}
 
 % Cross-volume references: enable Book 1 to reference labels from Books 2 and 3
 % (xr-hyper MUST be loaded AFTER hyperref)
