@@ -1,0 +1,101 @@
+# Diagnoses: majesticspinach2909
+patient_id: "majesticspinach2909"
+last_updated: "2026-02-01"
+
+confirmed_diagnoses:
+  - name: "Interstitial Cystitis"
+    icd10: "N30.1"
+    onset_year: 2012
+    status: "chronic"
+    notes: "Earliest documented inflammatory condition - may represent baseline immune vulnerability"
+
+  - name: "Fibromyalgia"
+    icd10: "M79.7"
+    onset_year: 2015
+    status: "chronic"
+    notes: "Diagnosed after 2014 severe infection; represents spreading sensitization phase"
+
+  - name: "ME/CFS"
+    icd10: "G93.32"
+    onset_year: 2022
+    status: "chronic, severe"
+    severity: "Bedbound since May 2025"
+    notes: "Formal diagnosis; initially presented as episodic (now recognized as PEM)"
+
+  - name: "POTS (Postural Orthostatic Tachycardia Syndrome)"
+    icd10: "I49.8"
+    onset_year: null  # Not specified
+    status: "managed"
+    treatment: "Ivabradine"
+    notes: "Mitigated by current treatment"
+
+  - name: "Orthostatic Intolerance"
+    icd10: "I95.1"
+    status: "chronic"
+    notes: "Component of dysautonomia"
+
+  - name: "Small Fiber Neuropathy"
+    icd10: "G62.9"
+    status: "diagnosed clinically"
+    diagnostic_note: "Skin biopsy not available in Vienna; AKH declined to perform"
+    notes: "Clinical diagnosis based on symptoms"
+
+suspected_diagnoses:
+  - name: "MCAS (Mast Cell Activation Syndrome)"
+    status: "probable but not formally confirmed"
+    supporting_evidence:
+      - "High mast cell count at duodenal outlet (colonoscopy)"
+      - "Extensive allergies and intolerances"
+      - "Elevated IgE (188 kU/l)"
+    against_diagnosis:
+      - "Normal tryptase"
+    notes: "Tryptase-negative MCAS is common; GI-predominant presentation"
+
+structural_diagnoses:
+  - name: "Disc Prolapse L5/S1"
+    icd10: "M51.1"
+    onset_year: 2014
+    associated_findings:
+      - "Osteochondrosis"
+      - "Spondylitis"
+
+  - name: "Cervical Spine Protrusion"
+    icd10: "M50.2"
+    notes: "Multiple levels"
+
+  - name: "Lumbar Spine Protrusion"
+    icd10: "M51.2"
+    notes: "Multiple levels"
+
+  - name: "Cervical Straightening (Loss of Lordosis)"
+    icd10: "M40.2"
+
+post_vaccination_findings:
+  context: "Following BioNTech/Pfizer COVID-19 vaccination (2021)"
+  findings:
+    - name: "Facial Paralysis (Facialis Paresis)"
+      timing: "Both vaccination doses"
+
+    - name: "Vision Loss"
+      magnitude: "-3 diopters"
+      timing: "Post-vaccination"
+
+    - name: "Left Thigh Numbness with Nerve Pain"
+      description: "Numb left thigh with extreme nerve pain"
+      timing: "Post-vaccination"
+
+    - name: "Premature Menopause"
+      timing: "2021, following vaccination"
+
+  clinical_note: |
+    Multiple adverse reactions documented following COVID-19 vaccination.
+    These represent individual adverse events in a patient with pre-existing
+    inflammatory conditions (IC since 2012, fibromyalgia since 2015).
+    Patient also had severe COVID-19 infections (2023, 2024) demonstrating
+    the disease itself poses significant risk.
+
+functional_status:
+  current: "Bedbound/housebound"
+  since: "May 2025"
+  management: "Rest and darkening (light sensitivity)"
+  good_days: "Short walks possible on good days (thanks to Cimetidine)"

@@ -1,0 +1,140 @@
+# Adverse Reactions and Medication Safety: majesticspinach2909
+patient_id: "majesticspinach2909"
+last_updated: "2026-02-01"
+
+# CRITICAL: This patient identifies as a "paradoxical reactor"
+# Start all new medications at fraction of standard dose
+
+patient_phenotype:
+  paradoxical_reactor: true
+  description: |
+    Patient experiences paradoxical (opposite of expected) reactions to multiple
+    medications. Standard doses often cause severe adverse effects. Requires
+    careful titration starting at micro-doses.
+
+documented_adverse_reactions:
+  - medication: "LDN (Low-Dose Naltrexone)"
+    reaction_type: "psychiatric"
+    symptoms:
+      - "Depression"
+      - "Suicidal ideation"
+    severity: "SEVERE"
+    onset: "Not specified"
+    outcome: "Required discontinuation"
+    clinical_significance: |
+      LDN is generally well-tolerated but can cause mood changes.
+      This severe psychiatric reaction is uncommon but documented.
+      IMPORTANT: Screen for mood changes when starting LDN in ME/CFS patients.
+    patient_quote: "LDN und auch Famotidin kann Depressionen und Suizidgedanken verursachen, war bei mir so."
+
+  - medication: "Famotidine"
+    reaction_type: "psychiatric"
+    symptoms:
+      - "Depression"
+      - "Suicidal ideation"
+    severity: "SEVERE"
+    onset: "Not specified"
+    clinical_significance: |
+      H2 blockers can rarely cause CNS effects including depression.
+      Famotidine crosses blood-brain barrier less than cimetidine but
+      psychiatric effects still possible.
+      NOTE: Patient tolerates Cimetidine well despite Famotidine reaction -
+      may be drug-specific rather than class effect.
+
+  - medication: "Low-dose Prednisolone"
+    reaction_type: "psychiatric"
+    symptoms:
+      - "Hypermania"
+      - "Psychotic states"
+    severity: "SEVERE"
+    onset: "During treatment for pain"
+    context: "Used temporarily for pain management"
+    clinical_significance: |
+      Corticosteroid-induced psychiatric effects are well-documented.
+      More common at higher doses but can occur at low doses in susceptible individuals.
+      Paradoxical reactors may be at higher risk.
+    patient_quote: "niedrig dosiertes Prednisolon... hatte dann Hypermanie und psychotische Zustände"
+
+  - medication: "Mestinon (Pyridostigmine) 60mg"
+    reaction_type: "somatic"
+    symptoms:
+      - "Severe symptoms requiring bed rest"
+    severity: "MODERATE-SEVERE"
+    dose_threshold: "60 mg (standard starting dose)"
+    tolerated_dose: "20 mg"
+    clinical_significance: |
+      ME/CFS patients often require 1/4 to 1/3 of standard doses.
+      This is not a true adverse reaction but demonstrates
+      extreme sensitivity requiring dose adjustment.
+    patient_quote: "Bei 60 mg lag ich scheppernd im Bett"
+
+medication_safety_protocol:
+  general_approach:
+    - "Start ALL new medications at 1/4 to 1/10 standard dose"
+    - "Titrate slowly with minimum 1-week intervals"
+    - "Monitor closely for paradoxical/psychiatric reactions"
+    - "Have discontinuation plan ready"
+    - "Prefer medications patient has previously tolerated"
+
+  mood_monitoring:
+    required_for:
+      - "LDN"
+      - "Famotidine"
+      - "Any H2 blocker"
+      - "Corticosteroids"
+      - "LDA/Aripiprazole"
+    protocol: |
+      Daily mood check for first 2 weeks:
+      - PHQ-2 screening questions
+      - Family/caregiver observation
+      - Immediate discontinuation if suicidal ideation
+      - Consider safer alternatives
+
+  drug_class_notes:
+    h2_blockers: |
+      Patient tolerated Cimetidine but not Famotidine.
+      Consider Cimetidine as first-line H2 blocker.
+      Note: Cimetidine has more drug interactions (CYP450 inhibition).
+
+    opioids: |
+      Not documented but caution advised:
+      - Many opioids release histamine
+      - Patient has histamine intolerance
+      - May cause paradoxical reactions
+
+    benzodiazepines: |
+      Not documented. If needed:
+      - Start at 1/4 dose
+      - Monitor for paradoxical agitation
+      - Short-term use only
+
+    ssris_snris: |
+      Not documented. If antidepressant needed:
+      - Start at micro-doses
+      - Monitor closely for activation/agitation
+      - Consider alternatives (mirtazapine may be better tolerated)
+
+contraindicated_medications:
+  - medication: "Aspirin"
+    reason: "Histamine Intolerance (HIT)"
+    mechanism: "Aspirin inhibits DAO and releases histamine"
+
+  - medication: "NSAIDs (most)"
+    reason: "Potential histamine release"
+    exceptions: "May tolerate some better than others - test carefully"
+
+warnings_for_similar_patients:
+  key_message: |
+    "Was die KI und viele nicht wissen: LDN und auch Famotidin kann
+    Depressionen und Suizidgedanken verursachen... Das Low Dose Abilify
+    ist auch nicht harmlos. Grade, wenn man paradox auf Medis reagiert."
+
+    Translation: AI and many don't know that LDN and Famotidine can cause
+    depression and suicidal thoughts. Low-dose Abilify is also not harmless,
+    especially for those who react paradoxically to medications.
+
+  implications:
+    - "Screen for paradoxical reactor phenotype before starting ME/CFS medications"
+    - "LDN is not universally safe - monitor mood"
+    - "H2 blockers can cause psychiatric effects"
+    - "Start low, go slow applies even for 'low-dose' protocols"

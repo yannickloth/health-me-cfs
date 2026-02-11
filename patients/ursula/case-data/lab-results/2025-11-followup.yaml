@@ -1,0 +1,103 @@
+# Lab Results: November 2025 (Follow-up)
+collection_date: "2025-11-24"
+context: "Follow-up laboratory assessment"
+
+panels:
+  lymphocyte_subset:
+    lymphocytes_percent:
+      value: 21
+      unit: "%"
+      reference: "25-40"
+      interpretation: "LOW"
+      trend: "Slight improvement from 19% (Jan 2025)"
+
+    t_cells_cd3_percent:
+      value: 84
+      unit: "%"
+      reference: "55-83"
+      interpretation: "ELEVATED"
+      trend: "Stable (was 85% in Jan 2025)"
+
+    nk_cells_cd56_cd3neg_percent:
+      value: 6.89
+      unit: "%"
+      reference: "7.00-31.00"
+      interpretation: "LOW"
+      clinical_note: "Just below reference - impaired viral surveillance capacity"
+
+  iron_status:
+    iron:
+      value: 181
+      unit: "µg/dl"
+      reference: "37-145"
+      interpretation: "ELEVATED"
+      clinical_note: "125% of upper reference limit"
+
+    ferritin:
+      value: "strongly elevated"
+      unit: ""
+      reference: ""
+      interpretation: "ELEVATED"
+      clinical_note: "Specific value not provided - indicates significant iron overload or inflammation"
+
+  lipids:
+    cholesterol_total:
+      value: 258
+      unit: "mg/dl"
+      reference: "<200"
+      interpretation: "ELEVATED"
+      trend: "Improved from 286 mg/dl (Jan 2025)"
+
+    triglycerides:
+      value: 247
+      unit: "mg/dl"
+      reference: "<150"
+      interpretation: "ELEVATED"
+      trend: "Improved from 278 mg/dl (Jan 2025)"
+
+  viral_serology:
+    ebv_igg_qualitative:
+      value: "positive"
+
+    ebv_igg_quantitative:
+      value: 514.00
+      unit: "E/ml"
+      reference: "<20.00"
+      interpretation: "EXTREMELY_ELEVATED"
+      trend: "Improved from 596 E/ml (Jan 2025) - still 25x upper limit"
+
+    ebv_ebna_igg_qualitative:
+      value: "positive"
+
+    ebv_ebna_igg_quantitative:
+      value: 156.00
+      unit: "E/ml"
+      reference: "<20.00"
+      interpretation: "EXTREMELY_ELEVATED"
+      trend: "Improved from 213 E/ml (Jan 2025) - still 8x upper limit"
+
+clinical_summary:
+  primary_findings:
+    - "NK cells now measurably low (6.89%) - impaired viral surveillance"
+    - "Iron/ferritin elevated - possible inflammation or iron overload"
+    - "EBV titers decreasing but still extremely elevated"
+    - "Lipid profile slightly improved"
+    - "Lymphocyte count still low, T-cells still elevated"
+
+  trend_analysis: |
+    Comparing Jan 2025 to Nov 2025:
+    - EBV IgG: 596 → 514 E/ml (14% decrease)
+    - EBV EBNA: 213 → 156 E/ml (27% decrease)
+    - Cholesterol: 286 → 258 mg/dl (10% decrease)
+    - Triglycerides: 278 → 247 mg/dl (11% decrease)
+    - Lymphocytes: 19% → 21% (slight improvement)
+
+    New finding: NK cell measurement reveals impaired viral surveillance,
+    explaining persistent high EBV titers despite antibody production.
+
+  iron_interpretation: |
+    Elevated iron and ferritin in context of:
+    - Chronic inflammation (ferritin as acute phase reactant)
+    - Possible hemochromatosis gene variants (not tested)
+    - Reduced erythropoiesis from chronic disease
+    Needs: Transferrin saturation, TIBC to differentiate

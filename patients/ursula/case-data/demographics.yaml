@@ -1,0 +1,30 @@
+# Demographics: majesticspinach2909
+patient_id: "majesticspinach2909"
+created: "2026-02-01"
+
+basic:
+  sex: "female"
+  age_at_documentation: 50
+  # Birth year approximate: ~1975
+
+  menstrual_status: "post-menopausal"
+  menopause_onset: "2021"
+  menopause_context: "Following BioNTech/Pfizer COVID-19 vaccination"
+
+occupation:
+  profession: "artist"
+  relevance: "Multiple contact allergen sensitivities affect art material selection"
+
+geographic:
+  region: "Vienna, Austria"
+  healthcare_context: "Austrian healthcare system"
+  language: "German"
+
+body_composition:
+  # Not provided in source data
+
+family_history:
+  # Not detailed in source data
+
+relevant_social:
+  # Not detailed in source data

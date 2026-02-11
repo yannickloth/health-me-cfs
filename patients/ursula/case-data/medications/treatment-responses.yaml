@@ -1,0 +1,120 @@
+# Treatment Responses: majesticspinach2909
+patient_id: "majesticspinach2909"
+last_updated: "2026-02-01"
+
+treatment_responses:
+  excellent_responses:
+    - treatment: "Cimetidine (Luc Biland Protocol)"
+      response_level: "EXCELLENT"
+      functional_improvement: "From bedbound to able to take short walks"
+      patient_description: "got me out of bed"
+      timeline: "Not specified"
+      sustainability: "Planning to continue/restart"
+      mechanism_hypothesis: |
+        In context of extremely high EBV titers (596 E/ml) and
+        B-cell depletion, cimetidine's immunomodulatory effect
+        (enhancing cellular immunity via H2 blockade) may be
+        particularly beneficial.
+
+    - treatment: "Ivabradine"
+      response_level: "GOOD"
+      indication: "POTS"
+      outcome: "POTS symptoms mitigated"
+
+    - treatment: "Pacing (Lockdown period)"
+      response_level: "GOOD"
+      context: "COVID-19 lockdown 2020-2021"
+      outcome: "Improvement noted"
+      patient_insight: "Pacing? (patient questioning if this was the mechanism)"
+
+  partial_responses:
+    - treatment: "Mestinon 20mg"
+      response_level: "EARLY/PARTIAL"
+      status: "Recently started"
+      observation: "Running well so far at low dose"
+      note: "60mg not tolerated"
+
+    - treatment: "Cerebokan (Ginkgo)"
+      response_level: "PARTIAL"
+      indication: "Concentration"
+      note: "Helps with cognitive symptoms"
+
+    - treatment: "LDA (Low-Dose Abilify)"
+      response_level: "UNCERTAIN"
+      indication: "Cognitive support"
+      caution: "Patient notes it's 'not harmless' for paradoxical reactors"
+
+  failed_treatments:
+    - treatment: "LDN"
+      outcome: "FAILED - Adverse reaction"
+      reason: "Depression and suicidal ideation"
+
+    - treatment: "Famotidine"
+      outcome: "FAILED - Adverse reaction"
+      reason: "Depression and suicidal ideation"
+
+    - treatment: "Low-dose Prednisolone"
+      outcome: "FAILED - Adverse reaction"
+      reason: "Hypermania and psychotic states"
+
+    - treatment: "Mestinon 60mg"
+      outcome: "FAILED - Dose intolerance"
+      reason: "Severe symptoms requiring bed rest"
+
+  treatments_unable_to_try:
+    - treatment: "Aspirin"
+      reason: "Contraindicated in HIT"
+      potential_benefit: |
+        Patient notes aspirin would be useful for:
+        - Neuroinflammation
+        - Microclot management
+
+historical_patterns:
+  recovery_attempts:
+    - period: "Post-2014 infection"
+      outcome: "Never fully recovered but had better periods"
+      pattern: "ME/CFS came in episodes (now recognized as PEM)"
+
+    - period: "Lockdown 2020-2021"
+      outcome: "Improvement"
+      mechanism: "Possibly enforced pacing"
+
+    - period: "Post-vaccine 2021"
+      outcome: "Recovery from ER admission"
+      note: "Did recover before COVID infections"
+
+    - period: "Post-COVID 2023"
+      outcome: "Months to recover, but did recover somewhat"
+
+    - period: "Post-COVID 2024 + Influenza B 2025"
+      outcome: "Body 'gave up' - bedbound since May 2025"
+      note: "This time no recovery"
+
+  key_insight: |
+    Pattern suggests patient was never truly in remission but operating
+    at minimal functional capacity. Each viral hit depleted remaining
+    reserves until complete collapse. The "recoveries" were likely
+    periods of marginal functionality, not true recovery of underlying
+    dysfunction.
+
+cimetidine_responder_phenotype:
+  supporting_features:
+    - "Extremely high EBV titers (596 E/ml)"
+    - "B-cell depletion (possible exhaustion from chronic viral stimulation)"
+    - "MCAS features"
+    - "Post-infectious onset pattern"
+
+  mechanism_alignment: |
+    Cimetidine enhances cellular immunity (T-cells, NK cells) via H2 blockade.
+    In patient with:
+    - Depleted B-cells (antibody-based defense compromised)
+    - Low NK cells (viral surveillance impaired)
+    - Extremely high EBV (suggesting failed viral control)
+
+    ...enhancing cellular immunity may address the specific deficit.
+
+  research_implication: |
+    Could the combination of high EBV + low B-cells + low NK cells
+    predict cimetidine response? This pattern suggests "exhausted
+    immune surveillance" where immunomodulation (not immunosuppression)
+    is needed.

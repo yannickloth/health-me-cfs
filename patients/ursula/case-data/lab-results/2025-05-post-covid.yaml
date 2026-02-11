@@ -1,0 +1,23 @@
+# Lab Results: May 2025 (Post-COVID)
+collection_date: "2025-05-05"
+context: "Post-COVID infection follow-up"
+
+panels:
+  eosinophil_markers:
+    eosinophilic_cationic_protein:
+      value: 30.20
+      unit: "µg/l"
+      reference: "<15.00"
+      interpretation: "ELEVATED"
+      clinical_note: "2x upper limit - suggests eosinophilic inflammation"
+
+clinical_summary:
+  primary_findings:
+    - "Elevated ECP indicating eosinophilic activation"
+    - "Suggests ongoing type 2 inflammation post-COVID"
+
+  relevance: |
+    Elevated ECP in post-COVID context may indicate:
+    - Persistent eosinophilic airway inflammation
+    - Mast cell/eosinophil cross-activation (common in MCAS)
+    - Type 2 immune skewing post-viral infection

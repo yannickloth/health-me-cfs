@@ -1,0 +1,125 @@
+# Allergies and Intolerances: majesticspinach2909
+patient_id: "majesticspinach2909"
+last_updated: "2026-02-01"
+
+contact_allergies:
+  - allergen: "Balsam of Peru (Tolubalsam)"
+    type: "contact"
+    cross_reactions: true
+    avoidance_notes: |
+      Avoid:
+      - Some oil paints with Peru balsam base
+      - Certain varnishes
+      - Products containing benzyl benzoate, benzyl cinnamate
+      - Some fragrances and flavorings
+    art_materials_impact: "Affects varnish and some oil paint selection"
+
+  - allergen: "Potassium Dichromate (Kaliumdichromat)"
+    type: "contact"
+    avoidance_notes: |
+      Avoid:
+      - Chrome-based pigments (chrome green, chrome yellow, chrome orange)
+      - Leather tanned with chromium
+      - Some cements
+    art_materials_impact: "Must avoid chrome-based pigments"
+
+  - allergen: "Fragrance Mix (Duftstoff-Mix)"
+    type: "contact"
+    avoidance_notes: |
+      Avoid:
+      - Scented fixatives
+      - Scented solvents
+      - Any fragranced art supplies
+    art_materials_impact: "Use only unscented products"
+
+  - allergen: "Propolis"
+    type: "contact"
+    avoidance_notes: |
+      Avoid:
+      - Natural varnishes containing propolis
+      - Some beeswax products
+      - "Natural" art supplies with propolis
+    art_materials_impact: "Avoid natural/bee-derived varnishes"
+
+  - allergen: "Sorbitan Sesquioleate"
+    type: "contact"
+    avoidance_notes: |
+      Avoid:
+      - Emulsifiers in some water-based paints
+      - Some cosmetics and skincare
+    art_materials_impact: "Check ingredient lists of water-based paints"
+
+environmental_allergies:
+  pollens:
+    - "Birch (Birke)"
+    - "Mugwort (Beifuß)"
+    - "Timothy grass (Lieschgras)"
+    - "Ragweed"
+    - "Rye (Roggen)"
+    - "Elderberry (Holunder)"
+
+  molds:
+    - "Cladosporium herbarum"
+
+  dust:
+    - "House dust mites (Hausstaubmilbe)"
+
+food_allergies:
+  - allergen: "Wheat (Weizen)"
+    type: "IgE-mediated"
+
+  - allergen: "Peanut (Erdnuß)"
+    type: "IgE-mediated"
+
+  - allergen: "Soy (Soja)"
+    type: "IgE-mediated"
+
+  - allergen: "Gluten"
+    type: "sensitivity/intolerance"
+
+food_intolerances:
+  - substance: "Histamine"
+    mechanism: "Reduced DAO enzyme activity"
+    inheritance: "Hereditary (vererbt)"
+    clinical_significance: |
+      Histamine intolerance affects:
+      - Food choices (avoid aged foods, fermented foods, leftovers)
+      - Medication selection (many drugs release histamine)
+      - MCAS management (baseline histamine burden high)
+    medication_implications:
+      - "Aspirin contraindicated (releases histamine)"
+      - "Some NSAIDs may be problematic"
+      - "Opioids may release histamine"
+
+  - substance: "Lactose"
+    mechanism: "Lactase deficiency"
+
+  - substance: "Fructose"
+    mechanism: "Fructose malabsorption"
+
+  - substance: "Sorbitol"
+    mechanism: "Sugar alcohol intolerance"
+    cross_reactions: "May worsen fructose malabsorption"
+
+gastrointestinal_findings:
+  - finding: "Candida non-albicans in stool"
+    significance: "May contribute to GI symptoms; indicates dysbiosis"
+    treatment_consideration: "Antifungal therapy may be warranted"
+
+medication_intolerances:
+  # See medications/adverse-reactions.yaml for full details
+  summary:
+    - "LDN: Depression, suicidal ideation"
+    - "Famotidine: Depression, suicidal ideation"
+    - "Low-dose Prednisolone: Hypermania, psychotic states"
+    - "Paradoxical medication reactor pattern identified"
+
+aspirin_status:
+  contraindicated: true
+  reason: "Histamine intolerance (HIT) - aspirin releases histamine"
+  clinical_impact: |
+    Cannot use aspirin for:
+    - Neuroinflammation
+    - Microclot management
+    - Cardiovascular protection
+    Patient notes this is unfortunate given neuroinflammation concerns.

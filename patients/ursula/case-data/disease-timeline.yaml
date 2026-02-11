@@ -1,0 +1,183 @@
+# Disease Timeline: majesticspinach2909
+patient_id: "majesticspinach2909"
+last_updated: "2026-02-01"
+
+# Multi-Hit Cascade Pattern
+# This timeline illustrates cumulative immune/autonomic burden leading to ME/CFS
+
+timeline:
+  - year: 2012
+    event: "Interstitial Cystitis onset"
+    category: "initial_inflammatory"
+    significance: |
+      Earliest documented inflammatory condition.
+      IC involves mast cell activation, bladder inflammation.
+      May represent baseline immune vulnerability/dysregulation.
+
+  - year: 2014
+    event: "Severe infection during extremely stressful period"
+    category: "triggering_infection"
+    outcome: "Never fully recovered"
+    patient_description: "wurde nie wieder richtig gesund"
+    significance: |
+      First major hit. Combination of infection + stress likely
+      overwhelmed compensatory capacity. Classic post-infectious
+      onset pattern but with pre-existing IC.
+
+  - year: 2015
+    event: "Fibromyalgia diagnosis"
+    category: "spreading_sensitization"
+    significance: |
+      Central sensitization now manifest. Widespread pain indicates
+      CNS involvement. Patient trajectory: localized (IC) → systemic
+      (post-infection) → centralized (fibromyalgia).
+
+  - year: 2015-2020
+    period: "Intermittent better periods"
+    category: "unstable_remission"
+    pattern: "ME/CFS came in episodes"
+    patient_insight: "Heute weiß ich, das war PEM"
+    significance: |
+      Patient retrospectively recognizes episodic pattern as PEM.
+      This was NOT true remission but oscillation between
+      minimal functionality and crashes. "Recoveries" were periods
+      of marginal operation, not resolution of underlying dysfunction.
+
+  - year: 2020-2021
+    period: "COVID-19 lockdown"
+    category: "improvement"
+    outcome: "Improvement"
+    patient_hypothesis: "Pacing?"
+    significance: |
+      Enforced rest during lockdown may have allowed some recovery.
+      Validates pacing as therapeutic but also shows how much
+      baseline activity was exceeding energy envelope.
+
+  - year: 2021
+    event: "BioNTech/Pfizer COVID-19 vaccination"
+    category: "vaccination_adverse_events"
+    reactions:
+      - "Facial paralysis (facialis paresis) - both doses"
+      - "Vision loss (-3 diopters)"
+      - "Numb left thigh with extreme nerve pain"
+      - "Menopause onset"
+      - "ER admission"
+    outcome: "Eventually recovered from acute events"
+    significance: |
+      Multiple adverse reactions suggest underlying immune/neural
+      vulnerability. Facial paralysis (Bell's palsy-like) indicates
+      cranial nerve involvement. Vision loss suggests optic nerve
+      or retinal impact. These are significant neurological events.
+
+  - year: 2022
+    event: "ME/CFS formal diagnosis"
+    category: "diagnosis"
+    significance: "Finally received correct diagnosis after years of symptoms"
+
+  - year: 2023
+    event: "COVID-19 infection"
+    category: "viral_hit"
+    outcome: "Months to recover"
+    significance: |
+      Despite vaccination adverse events, actual COVID infection
+      caused severe illness requiring months of recovery.
+      Shows disease itself poses significant risk.
+
+  - year: 2024
+    event: "COVID-19 infection (Fall 2024)"
+    category: "viral_hit"
+    outcome: "Severe pain returned"
+    patient_description: "die Höllenschmerzen wieder da"
+    significance: "Second COVID infection - accumulating damage"
+
+  - year: 2025
+    month: "Spring"
+    event: "Influenza B infection"
+    category: "viral_hit"
+    significance: "Additional viral hit on already compromised system"
+
+  - year: 2025
+    date: "May 1"
+    event: "Last outing (May Day march)"
+    category: "collapse_trigger"
+    significance: "Patient can pinpoint last day of functionality"
+
+  - year: 2025
+    period: "May onwards"
+    event: "Bedbound"
+    category: "severe_phase"
+    status: "Requires rest and darkening"
+    current_state: |
+      Light sensitivity, severe fatigue, cognitive dysfunction ("teils wie dement")
+      Short walks possible on good days (thanks to Cimetidine)
+    patient_description: "mein Körper hat aufgegeben"
+
+multi_hit_analysis:
+  total_hits: 7
+  hit_sequence:
+    1: "IC 2012 - Baseline inflammatory state"
+    2: "2014 infection + stress - Post-infectious syndrome"
+    3: "2021 vaccination - Multiple neurological adverse events"
+    4: "2023 COVID - Months to recover"
+    5: "2024 COVID - Return of severe pain"
+    6: "2025 Influenza B - Additional viral load"
+    7: "May 2025 activity - Final collapse trigger"
+
+  pattern_recognition: |
+    Classic multi-hit model with:
+    - Pre-existing inflammatory condition (IC)
+    - Triggering infection during stress
+    - Spreading sensitization (fibromyalgia)
+    - Additional immune challenges (vaccination, COVID, flu)
+    - Progressive decompensation with each hit
+    - Final collapse following cumulative burden
+
+  false_recovery_hypothesis: |
+    CRITICAL INSIGHT: Patient was likely never truly recovered.
+
+    The "better periods" represent:
+    - Minimal functional capacity (not healthy baseline)
+    - Operating within reduced energy envelope
+    - Any additional stressor reveals underlying dysfunction
+
+    Evidence:
+    - "ME/CFS came in episodes" → actually PEM cycles
+    - "Lockdown improvement" → enforced pacing, not healing
+    - "Recovered after vaccine" → returned to minimal baseline
+    - "Recovered after 2023 COVID" → months of struggle, not true recovery
+
+    Each viral hit didn't "cause ME/CFS again" - it revealed and worsened
+    the underlying dysfunction that was never resolved. The "recoveries"
+    were precarious minimal functionality that collapsed under any
+    significant immune challenge.
+
+immune_trajectory:
+  - phase: "Pre-2014"
+    immune_status: "Vulnerable but compensated"
+    evidence: "IC indicates baseline mast cell/immune dysregulation"
+
+  - phase: "2014-2020"
+    immune_status: "Chronic dysfunction, marginally functional"
+    evidence: "Episodic crashes (PEM), fibromyalgia development"
+
+  - phase: "2021"
+    immune_status: "Challenged by vaccination"
+    evidence: "Multiple neurological adverse events"
+
+  - phase: "2023-2025"
+    immune_status: "Progressive decompensation"
+    evidence: "Each infection causes worse/longer recovery"
+
+  - phase: "May 2025-present"
+    immune_status: "Exhausted"
+    evidence: |
+      Lab findings: B-cells depleted, NK cells low, T-cells elevated
+      EBV extremely high despite antibody production
+      "Exhausted immune surveillance" phenotype
+
+research_implications:
+  - "Multi-hit model validation with detailed timeline"
+  - "False recovery pattern documentation (precarious minimal functionality)"
+  - "Vaccination as additional hit in vulnerable individuals"
+  - "Progressive immune exhaustion measurable via serial labs"
+  - "Cimetidine response in late-stage exhausted phenotype"

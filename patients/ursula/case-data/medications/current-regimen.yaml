@@ -1,0 +1,72 @@
+# Current Medication Regimen: majesticspinach2909
+patient_id: "majesticspinach2909"
+last_updated: "2026-02-01"
+
+active_medications:
+  - name: "Cimetidine"
+    category: "H2 receptor antagonist / Immunomodulator"
+    protocol: "Luc Biland Protocol"
+    dose: "Not specified in source"
+    status: "active"
+    response: "EXCELLENT"
+    patient_quote: "got me out of bed"
+    mechanisms:
+      - "H2 receptor blockade on immune cells (immunomodulation)"
+      - "Renal tubular secretion inhibition (enhances drug/nutrient levels)"
+      - "Historical: Goldstein 1986 used for EBV-associated CFS"
+    notes: "Patient plans to continue/restart this medication"
+
+  - name: "H1 Antihistamine"
+    category: "Antihistamine"
+    specific_agent: "Not specified"
+    status: "resumed"
+    indication: "MCAS management"
+    notes: "Resumed as part of MCAS protocol with Cimetidine"
+
+  - name: "Mestinon (Pyridostigmine)"
+    category: "Acetylcholinesterase inhibitor"
+    current_dose: "20 mg"
+    status: "recently started"
+    tolerance: "Good at 20mg"
+    previous_trial: "60mg caused severe symptoms ('scheppernd im Bett')"
+    indication: "Autonomic dysfunction / POTS"
+    notes: |
+      Started at low dose due to previous intolerance.
+      ME/CFS patients often require 1/4 to 1/3 standard doses.
+
+  - name: "Ivabradine"
+    category: "If channel blocker"
+    indication: "POTS (heart rate control)"
+    status: "active"
+    response: "POTS mitigated"
+
+  - name: "Cerebokan (Ginkgo biloba)"
+    category: "Nootropic / Cognitive support"
+    indication: "Concentration difficulties / cognitive dysfunction"
+    status: "active"
+    notes: "Used for cognitive symptoms since May 2025 bedbound phase"
+
+  - name: "LDA (Low-Dose Aripiprazole/Abilify)"
+    category: "Atypical antipsychotic (low dose)"
+    indication: "Cognitive support / neuroinflammation"
+    status: "active"
+    caution: "Patient is paradoxical reactor - monitor closely"
+    notes: |
+      Low-dose Abilify used for ME/CFS cognitive symptoms.
+      Patient notes this is "not harmless" especially for paradoxical reactors.
+
+medications_NOT_taking:
+  - name: "Aspirin"
+    reason: "Contraindicated in Histamine Intolerance (HIT)"
+    patient_note: |
+      "Aspirin ist bei HIT unverträglich. Was schade ist, weil ich eine
+      Neuroinflammation hab und das gut für die Mikrogerinsel wäre."
+      (Cannot take due to HIT, unfortunate given neuroinflammation and microclot concerns)
+
+previous_trials_discontinued:
+  - name: "Mestinon 60mg"
+    outcome: "Not tolerated"
+    adverse_effect: "Severe symptoms requiring bed rest"
+
+supplements:
+  # Not detailed in source data

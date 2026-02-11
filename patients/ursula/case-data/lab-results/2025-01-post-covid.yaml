@@ -1,0 +1,127 @@
+# Lab Results: January 2025 (Post-COVID infection 13.01.2025)
+collection_date: "2025-01"
+context: "Post-COVID-19 infection"
+
+panels:
+  lymphocyte_subset:
+    lymphocytes_percent:
+      value: 19
+      unit: "%"
+      reference: "25-40"
+      interpretation: "LOW"
+
+    b_cells_cd19_absolute:
+      value: 0.05
+      unit: "G/l"
+      reference: "0.10-0.50"
+      interpretation: "SEVERELY_DEPLETED"
+      clinical_note: "10% of lower reference limit - profound B-cell depletion"
+
+    b_cells_cd19_percent:
+      value: 3.66
+      unit: "%"
+      reference: "6.00-19.00"
+      interpretation: "SEVERELY_DEPLETED"
+
+    t_cells_cd3_percent:
+      value: 85
+      unit: "%"
+      reference: "55-83"
+      interpretation: "ELEVATED"
+      clinical_note: "Compensatory T-cell expansion"
+
+  coagulation:
+    fibrinogen:
+      value: 3.85
+      unit: "g/l"
+      reference: "1.88-3.54"
+      interpretation: "ELEVATED"
+      clinical_note: "Suggests ongoing inflammation/acute phase response"
+
+  liver:
+    gamma_gt:
+      value: 54
+      unit: "U/l"
+      reference: "<40"
+      interpretation: "ELEVATED"
+
+  lipids:
+    cholesterol_total:
+      value: 286
+      unit: "mg/dl"
+      reference: "<200"
+      interpretation: "ELEVATED"
+
+    hdl_cholesterol:
+      value: 48
+      unit: "mg/dl"
+      reference: ">50"
+      interpretation: "LOW"
+
+    cholesterol_hdl_ratio:
+      value: 6.0
+      unit: ""
+      reference: "<5.0"
+      interpretation: "ELEVATED"
+      clinical_note: "Elevated cardiovascular risk marker"
+
+    triglycerides:
+      value: 278
+      unit: "mg/dl"
+      reference: "<150"
+      interpretation: "ELEVATED"
+      clinical_note: "Nearly 2x upper limit"
+
+  protein_electrophoresis:
+    gamma_globulin:
+      value: 11.0
+      unit: "%"
+      reference: "11.1-18.8"
+      interpretation: "LOW_BORDER"
+      clinical_note: "Just below reference - may reflect B-cell depletion"
+
+  viral_serology:
+    ebv_igg_qualitative:
+      value: "positive"
+      interpretation: "Past infection"
+
+    ebv_igg_quantitative:
+      value: 596.00
+      unit: "E/ml"
+      reference: "<20.00"
+      interpretation: "EXTREMELY_ELEVATED"
+      clinical_note: "30x upper reference limit - suggests chronic viral stimulation"
+
+    ebv_ebna_igg_qualitative:
+      value: "positive"
+      interpretation: "Indicates past infection (EBNA appears weeks-months post-acute)"
+
+    ebv_ebna_igg_quantitative:
+      value: 213.00
+      unit: "E/ml"
+      reference: "<20.00"
+      interpretation: "EXTREMELY_ELEVATED"
+      clinical_note: "10x upper reference limit"
+
+  allergy:
+    ige_total:
+      value: 188.0
+      unit: "kU/l"
+      reference: "<100"
+      interpretation: "ELEVATED"
+      clinical_note: "Nearly 2x upper limit - consistent with atopic/MCAS profile"
+
+clinical_summary:
+  primary_findings:
+    - "Severe B-cell depletion (CD19+ 0.05 G/l)"
+    - "Extremely high EBV titers (596 E/ml)"
+    - "Elevated T-cells (85%) - compensatory expansion"
+    - "Metabolic dysfunction (lipids, inflammation markers)"
+    - "Elevated IgE suggesting mast cell involvement"
+
+  proposed_mechanism: |
+    Inverted immune pattern suggests "exhausted immune surveillance":
+    1. Chronic EBV challenge depleting B-cells through continuous antibody production
+    2. T-cell expansion attempting to compensate for impaired humoral immunity
+    3. Failed viral clearance creating positive feedback loop
+    4. MCAS/mast cell activation contributing to systemic symptoms
