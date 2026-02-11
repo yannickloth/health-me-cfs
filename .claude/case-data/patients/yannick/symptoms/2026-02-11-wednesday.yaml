@@ -1,0 +1,94 @@
+date: 2026-02-11
+day: Wednesday
+context: Post-stimulant recovery day (no Ritalin or Provigil); baseline LDN only
+
+medications:
+  - name: LDN (Low-Dose Naltrexone)
+    dose: 4mg
+  - name: Ritalin MR (methylphenidate)
+    dose: null
+    notes: not taken
+  - name: Modafinil (Provigil)
+    dose: null
+    notes: not taken
+
+supplements: none taken
+
+hydration:
+  - name: Electrolyte-water
+    amount: unmeasured (added to every water bottle)
+    composition: dry electrolyte-sugar mix
+    notes: patient adds electrolyte mix to each water bottle but does not measure amounts
+
+sleep:
+  night: interrupted multiple times due to diffuse pain in right buttock
+  morning: 1.5 hours
+  afternoon: 2.5-3 hours (awoke ~14:50-15:00)
+  total: 4-4.5 hours daytime (fragmented pattern)
+  quality: excessive daytime sleep despite nighttime interruptions
+
+activity:
+  morning_grocery_shopping:
+    duration: 1h20 walking in shop aisles
+    symptoms_during: tired at end of shopping
+    symptoms_after: leg fatigue/pain persisting
+
+autonomic_event:
+  wake_time: 14:50-15:00
+  weakness_phase:
+    time: 15:00-15:25 (25 minutes)
+    symptoms: generalized weakness
+    context: during driving
+  tremor_phase:
+    time: 15:25-15:50 (25 minutes)
+    symptoms: shaking/tremors similar to hypoglycemia
+    context: during driving
+  resolution:
+    time: 15:50 onward
+    outcome: tremors settled, fatigue persists
+
+symptoms:
+  energy: 2/10 (post-wake), persistent fatigue throughout day
+  cognitive_function: 3/10 (post-wake period), improved to baseline later in day
+  cognitive_status_evening: "everything feels fine cognitively"
+  weakness: generalized, including leg weakness (post-wake period)
+  tremors: present 15:25-15:50, resolved by evening
+  pain:
+    - location: right buttock (diffuse)
+      timing: nocturnal (woke patient multiple times)
+      severity: sufficient to interrupt sleep
+    - location: legs
+      timing: post-grocery shopping
+      context: after 1h20 walking activity
+
+interpretation: |
+  Post-stimulant recovery day (no Ritalin MR or Provigil from Monday).
+
+  Morning activity (1h20 grocery shopping) preceded afternoon autonomic dysregulation event.
+
+  Timeline:
+  - Morning: 1h20 walking → tired, leg pain
+  - Afternoon: Sleep 2.5-3h → wake 14:50-15:00 → autonomic event (weakness + tremors, 15:00-15:50)
+  - Evening: Cognitive recovery, physical fatigue persists
+
+  Autonomic dysregulation event strongly supports Hypothesis 2C: Autonomic State Transition Failure.
+  Pattern characteristics:
+  - Temporal correlation with wake transition (not random)
+  - Organized 25-min phases (weakness → tremors → resolution)
+  - Cognitive preservation (rules out metabolic crash)
+  - Context sensitivity (post-stimulant, post-activity)
+
+  Competing hypotheses:
+  1. Stimulant withdrawal/rebound (CNS downregulation after Monday activation)
+  2. Hypoglycemic-like metabolic crash (ATP depletion from Monday + Wednesday morning activity)
+  3. Delayed PEM from activity enabled by Monday's stimulant + Wednesday morning grocery shopping
+
+  Key diagnostic observation: Cognitive function recovered by evening while physical symptoms persisted.
+  This dissociation (cognitive recovery but physical fatigue/pain persists) is characteristic of autonomic
+  dysregulation during state transitions, not global metabolic failure.
+
+  The morning grocery shopping (1h20) exceeded energy envelope, contributing to afternoon crash during
+  sleep-wake transition. The autonomic system struggled to transition from sleep to wake state, producing
+  the characteristic weakness → tremors → resolution pattern over 50 minutes.
+
+  Night sleep disrupted by right buttock pain suggests musculoskeletal stress from recent activity levels.
