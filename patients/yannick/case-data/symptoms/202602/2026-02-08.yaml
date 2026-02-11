@@ -1,0 +1,32 @@
+date: 2026-02-08
+day_label: "Saturday"
+
+# ACTIVITY CONTINUATION WITH PAIN
+symptoms:
+  energy: 4
+  pain_level: 6
+  pain_type: "joint and hip pain"
+  cognitive_function: 5
+  sleep_quality: "unknown"
+  overall_status: "continued household work despite pain"
+
+medications:
+  stimulants_taken: false
+  standard_regimen: true
+  notes: "Standard regimen. No Ritalin MR taken."
+
+activity:
+  exertion_level: "moderate"
+  activity_type: "household work"
+  duration_minutes: "unknown - multiple hours"
+  notes: "Continued household work despite joint/hip pain. May have exceeded safe energy envelope."
+
+clinical_notes: |
+  Continued household work despite joint and hip pain. This activity may represent exertion that triggered subsequent PEM episode. Energy level 4/10 suggests already limited capacity but continued activity anyway.
+
+  Activity context:
+  - Pain: Moderate (6/10) in joints and hips
+  - Energy: Low (4/10)
+  - Decision: Continued activity despite low energy and pain
+
+  Clinical significance: Possible activity-triggered PEM precursor.

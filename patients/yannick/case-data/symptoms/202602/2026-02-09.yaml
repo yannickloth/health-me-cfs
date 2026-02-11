@@ -1,0 +1,52 @@
+date: 2026-02-09
+day_label: "Sunday"
+
+# CRASH EPISODE - ACTIVITY-TRIGGERED PEM
+symptoms:
+  energy: 1
+  pem_active: true
+  pem_severity: 8
+  pem_onset_time: "morning"
+  pem_duration_hours: 7
+  pem_resolution: "resolved to acceptable state"
+  cognitive_function: 2
+  physical_function: 1
+
+medications:
+  stimulants_taken: false
+  standard_regimen: true
+  notes: "Standard regimen. No Ritalin MR."
+
+activity:
+  exertion_level: "complete rest"
+  notes: "Complete rest during PEM episode"
+
+pem_details:
+  trigger: "Saturday household work despite joint/hip pain and low energy (4/10)"
+  onset: "Sunday morning"
+  progression: "Severe crash, lasted ~7 hours"
+  recovery: "Resolved to acceptable state by afternoon/evening"
+  severity_trajectory: "Acute onset, rapid resolution"
+
+clinical_notes: |
+  ACTIVITY-TRIGGERED PEM EPISODE
+
+  Timeline:
+  - Saturday 2026-02-08: Continued household work despite pain (6/10) and low energy (4/10)
+  - Sunday 2026-02-09 morning: Crash onset, severity 8/10
+  - Sunday 2026-02-09 afternoon: Resolved to acceptable state after ~7 hours
+
+  Characteristics:
+  - Rapid onset (next morning after activity)
+  - Severe but short-duration crash
+  - Complete resolution within 7 hours (unusual for PEM; suggests possible post-exertional dip rather than classic PEM)
+  - Or: May have been in early recovery phase by afternoon recording
+
+  Clinical interpretation:
+  - Clear temporal relationship: overactivity on Saturday → crash on Sunday morning
+  - Short duration (7 hours) vs typical PEM (days) suggests either:
+    1) Mild-to-moderate PEM with rapid recovery trajectory
+    2) Post-exertional dip (not meeting full PEM criteria)
+    3) Recording time may have been late in recovery
+
+  Relevant context for Monday Ritalin trial: This recovery day appears to be when Ritalin MR was first taken.

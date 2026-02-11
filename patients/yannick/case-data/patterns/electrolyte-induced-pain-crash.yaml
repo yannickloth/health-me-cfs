@@ -1,0 +1,142 @@
+pattern_type: "intervention_response"
+pattern_name: "electrolyte_induced_pain_crash"
+first_documented: "2026-01-31"
+observation_date: "2026-01-31"
+validation_status: "single_episode_hypothesis_only"
+reliability: "unknown - requires replication"
+
+# CRITICAL CONTEXT
+clinical_context: |
+  Patient is currently managing ME/CFS with priority on recovery.
+  Patient will NOT stop treatment to test hypotheses.
+  This pattern should be monitored PASSIVELY only.
+  Any future observations should be opportunistic, not experimental.
+
+# EPISODE TIMELINE
+timeline:
+  - date: "unknown_afternoon"
+    day_label: "Day 1 (afternoon)"
+    event: "Patient took electrolytes"
+    notes: "Specific date not documented"
+
+  - date: "Thursday morning"
+    day_label: "Day 2 (Thursday morning)"
+    event: "Patient took electrolytes again"
+
+  - date: "Thursday noon"
+    day_label: "Day 2 (Thursday noon, ~3h after dose)"
+    event: "CRASH - 2.5 hour duration with pain"
+    severity: "significant"
+    duration_hours: 2.5
+    symptoms:
+      - "pain (primary symptom)"
+      - "diffuse pain around joints/muscles"
+      - "required nap for recovery"
+
+  - date: "Thursday afternoon"
+    day_label: "Day 2 (post-nap)"
+    event: "Pain resolved relatively quickly after nap"
+    notes: "Rapid resolution suggests acute episode, not sustained crash"
+
+# SYMPTOM CHARACTERISTICS
+pain_characteristics:
+  location: "diffuse around joints and muscles"
+  quality: "not specified"
+  severity: "sufficient to require 2.5h nap"
+  onset_timing: "~3 hours after second electrolyte dose"
+  resolution: "relatively quick after nap"
+  duration: "approximately 2.5 hours"
+
+# PATIENT HYPOTHESIS
+patient_hypothesis:
+  mechanism: "sudden increase in ions → enhanced neural signaling → pain"
+  reasoning: |
+    Patient proposes that rapid electrolyte supplementation may have
+    increased ion concentrations, potentially enhancing neural signaling
+    pathways and triggering pain response.
+
+  plausibility_assessment: |
+    POTENTIALLY PLAUSIBLE but requires caution:
+
+    1. SUPPORTING MECHANISMS:
+       - Electrolyte imbalances can affect neuronal excitability
+       - Rapid ion shifts may trigger nerve hypersensitivity
+       - Some ME/CFS patients report sensitivities to supplements
+       - Ion channel dysfunction is hypothesized in ME/CFS pathophysiology
+
+    2. ALTERNATIVE EXPLANATIONS:
+       - Coincidental timing with other triggers
+       - Delayed response to prior day's activity
+       - Orthostatic stress from electrolyte-induced fluid shifts
+       - Detox/herxheimer-like reaction to supplement ingredients
+       - Random symptom fluctuation unrelated to electrolytes
+
+    3. CONFOUNDING FACTORS:
+       - Single episode only
+       - Exact electrolyte formulation not documented
+       - Dose not documented
+       - Baseline symptom state not documented
+       - Other concurrent medications/supplements not documented
+
+# VARIABLES TO TRACK (if pattern repeats opportunistically)
+tracking_recommendations:
+  if_pattern_repeats_track:
+    - electrolyte_type: "specific formulation (Na, K, Mg, Ca ratios)"
+    - dose: "amount taken"
+    - timing: "time of day, relation to meals"
+    - baseline_state: "symptom severity before supplementation"
+    - onset_delay: "time from dose to symptom onset"
+    - concurrent_medications: "what else was taken same day"
+    - hydration_status: "water intake before/after"
+    - activity_level: "any exertion before or after"
+    - resolution_factors: "what helped resolve (nap, time, other)"
+
+  do_not:
+    - "Intentionally provoke episodes to test hypothesis"
+    - "Modify treatment plan to test this pattern"
+    - "Recommend stopping electrolytes without physician guidance"
+    - "Suggest experimental protocols during recovery priority"
+
+# CLINICAL SIGNIFICANCE
+clinical_assessment: |
+  INSUFFICIENT DATA - SINGLE EPISODE
+
+  This pattern requires:
+  1. Replication (does it happen again?)
+  2. Temporal consistency (same timing each time?)
+  3. Dose-response relationship (higher dose = worse pain?)
+  4. Specificity (only with electrolytes, not other supplements?)
+
+  CURRENT RECOMMENDATION:
+  - Continue current treatment as prescribed
+  - Passively observe if pattern repeats
+  - Document thoroughly if it happens again
+  - Do NOT modify treatment to test hypothesis
+  - Discuss with physician if pattern becomes consistent
+
+# RESEARCH CONTEXT
+potential_relevance:
+  - "Ion channel dysfunction in ME/CFS"
+  - "Small fiber neuropathy prevalence in ME/CFS"
+  - "Neuronal hyperexcitability theories"
+  - "Electrolyte sensitivity in dysautonomia"
+  - "Mast cell activation and ion channel interactions"
+
+literature_search_terms:
+  - "ME/CFS electrolyte sensitivity"
+  - "ion channel dysfunction chronic fatigue"
+  - "small fiber neuropathy electrolytes"
+  - "dysautonomia electrolyte supplementation pain"
+
+# DOCUMENTATION STATUS
+documentation_quality: "preliminary_observation"
+confidence_level: "very_low (single episode, confounders not controlled)"
+next_steps: "Monitor passively for replication"
+
+alerts:
+  - type: "HYPOTHESIS_ONLY"
+    severity: "INFORMATIONAL"
+    message: "Single episode - insufficient data for pattern confirmation"
+  - type: "DO_NOT_EXPERIMENT"
+    severity: "HIGH"
+    message: "Patient priority is recovery - no experimental testing"

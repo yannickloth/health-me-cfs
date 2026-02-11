@@ -1,0 +1,93 @@
+date: 2026-01-31
+timestamp: "2026-01-31 14:00:00"
+episode_type: post_activity_weakness_with_pain
+
+# RECOVERY FROM YESTERDAY'S ACTIVITY + GENERALIZED WEAKNESS
+symptoms:
+  energy: 3
+  brain_fog: 4  # "even head" - indicates cognitive fatigue
+  pain: 5
+  pain_type: "diffuse around joints (muscles + joints)"
+  pain_characteristics: "diffuse, musculoskeletal"
+  weakness: "present, generalized"
+  sleep_quality: not_scored  # Not yet rated for this day
+  orthostatic_intolerance: not_scored
+  pem_active: false  # At risk but not in active PEM
+  pem_risk: high
+  functional_status: "limited - at risk of provoking PEM"
+  head_status: OK
+
+medications:
+  - name: "Provigil (Modafinil)"
+    dose: "not specified"
+    time: "morning"
+    taken: true
+    notes: "Using Provigil today"
+
+  - name: "Ritalin (Methylphenidate)"
+    dose: "not specified"
+    taken: false
+    notes: "NOT taken today"
+
+activity:
+  - type: "minimal activity"
+    exertion_level: "very_light"
+    notes: "Patient consciously limiting activity to avoid PEM"
+    pacing_strategy: "conservative - recovery mode"
+
+clinical_notes: |
+  POST-ACTIVITY RECOVERY DAY - HIGH PEM RISK
+
+  Status: Day after cooking-triggered weakness episode
+
+  CURRENT SYMPTOMS:
+  - Feeling weak (generalized)
+  - Energy: 3/10 (significantly reduced from yesterday morning 7/10)
+  - Brain fog: 4/10, "even head" = cognitive fatigue present
+  - Pain: 5/10, diffuse around joints/muscles
+  - Head status: OK (no headache/migraine)
+
+  MEDICATION STRATEGY:
+  - Using Provigil (stimulant support)
+  - NOT using Ritalin (avoiding stacking stimulants)
+  - Suggests patient is using minimal necessary support
+
+  PATIENT INSIGHT:
+  "Feels at risk of provoking PEM if does too much"
+  - Excellent self-awareness
+  - Appropriate activity limitation
+  - Priority: recovery, not activity
+
+  CLINICAL TRAJECTORY:
+  Day 0 (Jan 30 AM): Energy 7/10, good baseline
+  Day 0 (Jan 30 PM): Cooking 30-45min → weakness triggered
+  Day 1 (Jan 31): Energy 3/10, weakness + diffuse pain, high PEM risk
+
+  PAIN CHARACTERISTICS:
+  - Diffuse around joints
+  - Involves both muscles and joints
+  - Pain level 5/10 (moderate)
+  - This pattern is consistent with post-exertional inflammation
+
+  MANAGEMENT APPROACH:
+  Patient is correctly prioritizing:
+  1. Recovery over activity
+  2. Avoiding PEM threshold
+  3. Not testing hypotheses during vulnerable state
+  4. Using minimal medication support
+
+  PROGNOSIS:
+  - If activity remains minimal: likely recovery in 24-48 hours
+  - If activity exceeds envelope: risk of progression to full PEM
+  - Current trajectory shows good awareness and appropriate limitation
+
+alerts:
+  - type: "PEM_RISK_HIGH"
+    severity: "MODERATE"
+    message: "Patient at high risk of PEM - activity limitation essential"
+  - type: "APPROPRIATE_MANAGEMENT"
+    severity: "LOW"
+    message: "Patient demonstrating good self-awareness and pacing"
+  - type: "PAIN_PATTERN_NOTED"
+    severity: "INFORMATIONAL"
+    message: "Diffuse musculoskeletal pain - monitor if progresses"

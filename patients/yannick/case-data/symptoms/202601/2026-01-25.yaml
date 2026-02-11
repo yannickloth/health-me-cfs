@@ -1,0 +1,100 @@
+date: 2026-01-25
+episode_type: acute_illness
+
+# ACUTE UPPER RESPIRATORY INFECTION
+# This episode represents a new acute illness overlaid on baseline ME/CFS
+
+acute_illness_symptoms:
+  throat_pain:
+    severity: moderate-to-severe
+    description: "Hot sensation in throat"
+    type: "acute onset"
+  posterior_runny_nose: true
+  ear_pain:
+    present: true
+    severity: moderate
+  headache:
+    present: true
+    severity: moderate-to-severe
+    treated: true
+
+# ME/CFS baseline symptoms (worsened by acute illness)
+symptoms:
+  energy: not_scored  # Unable to assess baseline energy due to acute illness
+  brain_fog: not_scored
+  pain: not_scored  # General pain masked by acute illness symptoms
+  sleep_quality: not_scored
+  orthostatic_intolerance:
+    severity: severe
+    description: "Sweating from minimal activity (standing)"
+    notes: "Standing extremely exhausting - worsened from baseline by acute illness"
+  pem_active: false  # Not PEM - acute infectious illness
+  functional_status: severe_limitation
+
+medications:
+  - name: "Standard morning protocol"
+    notes: "No stimulants taken"
+    time: "morning"
+    taken: true
+  - name: "Paracetamol (Acetaminophen)"
+    dose: "1000mg"
+    time: "10:30"
+    reason: "Headache management"
+    taken: true
+
+activity:
+  - type: "minimal - acute illness rest"
+    notes: "Standing extremely exhausting, sweating from standing"
+    functional_impact: "Unable to perform normal activities due to acute illness"
+
+clinical_notes: |
+  ACUTE UPPER RESPIRATORY INFECTION (likely viral)
+
+  This represents a NEW acute illness episode overlaid on baseline ME/CFS.
+  Clinical significance:
+
+  1. INFECTION TRIGGER: Acute infections often trigger PEM and can worsen
+     baseline ME/CFS symptoms for weeks to months
+
+  2. ORTHOSTATIC WORSENING: Orthostatic symptoms (sweating from standing,
+     extreme exhaustion from standing) are severely worsened beyond baseline
+
+  3. MONITORING REQUIRED: Need to track:
+     - Duration of acute infection
+     - Development of post-viral PEM (may occur 24-72h after infection onset)
+     - Return to baseline symptoms vs. new baseline deterioration
+     - Potential need for crisis management protocols if severe PEM develops
+
+  4. SYMPTOM PATTERN:
+     - Throat pain (hot sensation) - acute viral pattern
+     - Posterior runny nose - acute viral pattern
+     - Ear pain - possible viral Eustachian tube inflammation
+     - Headache - managed with paracetamol
+     - Sweating from standing - severe orthostatic intolerance worsening
+     - Standing extremely exhausting - functional capacity severely reduced
+
+  5. TREATMENT APPROACH:
+     - Rest (essential - avoid triggering PEM)
+     - Symptomatic management (paracetamol for headache/pain)
+     - No stimulants (appropriate during acute illness)
+     - Monitor for bacterial superinfection
+     - Prepare for potential post-infectious crash
+
+expected_course: |
+  Typical post-infection trajectory in ME/CFS:
+  - Days 1-3: Acute infection symptoms dominant
+  - Days 3-7: Acute symptoms resolve, potential PEM onset
+  - Days 7-14: Post-viral fatigue and PEM peak
+  - Weeks 2-4: Gradual recovery toward baseline (if no complications)
+  - Risk: Permanent baseline worsening (documented in some ME/CFS patients)
+
+alerts:
+  - type: "ACUTE_ILLNESS"
+    severity: "MODERATE"
+    message: "Upper respiratory infection - monitor for PEM development"
+  - type: "ORTHOSTATIC_WORSENING"
+    severity: "SEVERE"
+    message: "Standing causing sweating and severe exhaustion - enforce strict rest"
+  - type: "INFECTION_MONITORING"
+    severity: "MODERATE"
+    message: "Track symptom progression and watch for bacterial complications"

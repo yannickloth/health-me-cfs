@@ -1,0 +1,28 @@
+date: 2026-02-02
+
+# GENERALIZED WEAKNESS AND EXCESSIVE SLEEPINESS
+symptoms:
+  weakness: "generalized, leg-dominant pattern"
+  leg_weakness: "especially weak legs"
+  sleepiness: "excessive - could have slept the whole day"
+  fatigue: "overall weak and tired"
+
+medications:
+  stimulants_taken: false
+  standard_regimen: true
+  notes: "No stimulants taken. All usual medications taken."
+
+activity:
+  exertion_level: "none"
+  notes: "No particular efforts done today"
+
+clinical_notes: |
+  Generalized weakness with leg-dominant pattern and hypersomnia.
+
+  Key context:
+  - NO stimulants taken
+  - All usual medications taken
+  - NO particular physical or mental efforts
+
+  Symptoms occurred WITHOUT exertion triggers and without stimulant support.
+  May be related to post-viral recovery (8 days after Jan 25 URI).

@@ -1,0 +1,190 @@
+pattern_name: "vasovagal_hypersensitivity"
+pattern_type: "autonomic_dysfunction"
+first_identified: "Pre-2018 (at least one episode before June 2018)"
+first_documented: "2026-01-30"
+status: "chronic_established"
+
+# VASOVAGAL HYPERSENSITIVITY PATTERN
+
+description: |
+  Patient demonstrates heightened sensitivity to vagus nerve stimulation,
+  resulting in recurrent vasovagal episodes with varying severity.
+  This pattern indicates baseline autonomic instability/dysautonomia
+  that predates the full ME/CFS phenotype.
+
+documented_episodes:
+  - date: "Prior to 2018"
+    severity: "mild_to_moderate"
+    symptoms: "Vasovagal response requiring sitting down, no loss of consciousness"
+    trigger: "Unknown/not specified"
+    outcome: "Resolved with sitting, remained conscious"
+
+  - date: "2018-06-29"
+    severity: "severe"
+    symptoms: "Complete vasovagal syncope with full loss of consciousness"
+    trigger: "Sitting on high bar stool after drinking Coke at noon"
+    mechanism: "Vagal stimulation → vasovagal reflex → syncope → fall → head trauma"
+    consequences:
+      - "Concussion (5 hours post-traumatic amnesia)"
+      - "Emergency department visit"
+      - "CT scan (negative for lesions)"
+      - "Prescribed piracetam (Litican)"
+    medical_documentation: "Clinique Saint-Joseph, Arlon - 'Syncopes répétées' noted"
+
+clinical_significance:
+  autonomic_dysfunction:
+    - "Demonstrates baseline dysautonomia"
+    - "Vagal hypersensitivity pattern established"
+    - "May represent pre-existing autonomic vulnerability"
+    - "Predates full ME/CFS phenotype (burnout late 2017)"
+
+  mecfs_relevance:
+    - "Autonomic dysfunction is core feature of ME/CFS"
+    - "Pre-existing vagal sensitivity may have increased ME/CFS susceptibility"
+    - "Related to current orthostatic intolerance symptoms"
+    - "Pattern suggests longstanding autonomic instability, not triggered by ME/CFS"
+
+  risk_factors:
+    - "Increased fall risk from syncope episodes"
+    - "Potential for injury during syncope (2018 concussion)"
+    - "May indicate broader autonomic instability"
+    - "Could affect tolerance to certain medications/interventions"
+
+related_symptoms:
+  current_mecfs_presentation:
+    - "Orthostatic intolerance"
+    - "Blood pressure dysregulation (if documented)"
+    - "Heart rate variability issues (if documented)"
+    - "General dysautonomia features"
+
+  historical_indicators:
+    - "Long-standing fatigue since adolescence"
+    - "Idiopathic hypersomnia"
+    - "May relate to HPA axis dysfunction"
+
+mechanistic_considerations:
+  vagal_nerve_role:
+    - "Vagus nerve controls parasympathetic response"
+    - "Overstimulation → bradycardia + vasodilation → hypotension → syncope"
+    - "Hypersensitivity suggests autonomic dysregulation"
+
+  possible_mechanisms:
+    - "Impaired baroreflex regulation"
+    - "Excessive parasympathetic tone"
+    - "Inadequate sympathetic compensation"
+    - "Central autonomic dysfunction"
+
+  relationship_to_mecfs:
+    - "Autonomic dysfunction is well-established in ME/CFS"
+    - "Pre-existing dysautonomia may be risk factor for ME/CFS development"
+    - "Burnout/stress may have exacerbated existing autonomic vulnerability"
+
+monitoring_recommendations:
+  ongoing_assessment:
+    - "Track episodes of lightheadedness, presyncope, syncope"
+    - "Monitor orthostatic vital signs if possible"
+    - "Document triggers if identifiable"
+    - "Note relationship to ME/CFS symptom severity"
+
+  clinical_evaluation:
+    - "Consider formal autonomic testing (tilt table test)"
+    - "Assess for orthostatic hypotension vs. POTS"
+    - "Review medications for effects on autonomic function"
+    - "Evaluate for need for autonomic support interventions"
+
+  safety_considerations:
+    - "Avoid situations with high fall risk if presyncope symptoms occur"
+    - "Consider interventions to reduce syncope risk (hydration, salt, compression)"
+    - "Alert medical providers to pattern for appropriate management"
+
+treatment_implications:
+  potential_interventions:
+    - "Increased fluid and salt intake"
+    - "Compression stockings for orthostatic support"
+    - "Medications if appropriate (midodrine, fludrocortisone)"
+    - "Avoidance of known vagal triggers"
+    - "Pacing to prevent autonomic stress"
+
+  medication_considerations:
+    - "Caution with medications affecting autonomic tone"
+    - "Monitor blood pressure effects of treatments"
+    - "Be aware of interactions with orthostatic regulation"
+
+interaction_with_2018_concussion:
+  pre_tbi_vulnerability:
+    established_pattern: "Vagal hypersensitivity documented prior to June 2018 concussion"
+    significance: "Pre-existing autonomic instability reduced capacity for post-TBI compensation"
+    mechanism: "Baseline dysautonomia left less autonomic reserve for recovery from TBI"
+
+  tbi_mechanism:
+    diffuse_axonal_injury:
+      - "Concussion causes DAI affecting brainstem autonomic nuclei"
+      - "Damage to dorsal motor nucleus of vagus, nucleus tractus solitarius"
+      - "White matter tract disruption connecting autonomic centers"
+
+    autonomic_injury_superimposed:
+      - "TBI-induced autonomic damage overlaid on pre-existing vagal dysfunction"
+      - "Compound injury: baseline instability + acute structural damage"
+      - "Synergistic effect greater than either factor alone"
+
+  post_tbi_outcome:
+    persistent_dysautonomia:
+      - "Full dysautonomia phenotype emerged post-concussion"
+      - "Orthostatic intolerance became prominent feature"
+      - "Autonomic dysfunction persisted years after injury (documented 2020s)"
+
+    mecfs_cascade:
+      - "Severe dysautonomia contributed to ME/CFS development/progression"
+      - "Bateman 2024: ME/CFS patients have 4.89x higher concussion odds"
+      - "Patient exemplifies TBI → autonomic dysfunction → ME/CFS pathway"
+
+  compound_vulnerability_model:
+    factor_1: "Possible childhood fluoride exposure → pineal dysfunction → sleep/autonomic vulnerability"
+    factor_2: "Long-standing vagal hypersensitivity (pre-2018)"
+    factor_3: "Burnout (late 2017) → HPA axis dysfunction"
+    factor_4: "Concussion (June 2018) → DAI affecting autonomic centers"
+    outcome: "Cumulative vulnerabilities → autonomic decompensation → full ME/CFS phenotype"
+
+research_relevance:
+  questions_raised:
+    - "Is pre-existing dysautonomia a risk factor for ME/CFS development?"
+    - "Does autonomic instability predict ME/CFS severity or subtype?"
+    - "Can autonomic stabilization prevent or improve ME/CFS symptoms?"
+    - "Does pre-existing vagal dysfunction predict worse outcomes post-TBI?"
+    - "Is the TBI → ME/CFS pathway mediated by autonomic injury in vulnerable individuals?"
+
+  potential_biomarkers:
+    - "Heart rate variability patterns"
+    - "Baroreflex sensitivity"
+    - "Orthostatic vital sign changes"
+    - "Vagal tone measures"
+    - "Pre-injury autonomic assessment as TBI outcome predictor"
+
+documentation_status:
+  source: "Patient self-report + medical records (2018 ER visit)"
+  reliability: "High - documented in medical records (syncope episode)"
+  verification: "Partial - ER documentation confirms 2018 event; earlier episode patient report only"
+  additional_information_needed:
+    - "Complete medical records from 2018 ER visit"
+    - "EEG results (ordered 2/7/2018)"
+    - "Holter monitoring results (ordered 16/7/2018)"
+    - "Any prior autonomic testing"
+    - "Details of earlier vasovagal episode"
+
+appendix_integration:
+  primary_location: "appendix-i-b-clinical-findings.tex"
+  sections_updated:
+    - "Disease Evolution Timeline (concussion event details enhanced)"
+    - "Pattern Recognition Notes (new autonomic dysfunction section)"
+  integration_date: "2026-01-30"
+
+alerts:
+  - type: "CHRONIC_PATTERN_IDENTIFIED"
+    severity: "MODERATE"
+    message: "Pattern of vagal hypersensitivity documented - predates ME/CFS"
+  - type: "FALL_RISK"
+    severity: "MODERATE"
+    message: "History of syncope with injury - monitor for recurrence"
+  - type: "AUTONOMIC_ASSESSMENT_RECOMMENDED"
+    severity: "LOW"
+    message: "Consider formal autonomic testing to characterize dysfunction"

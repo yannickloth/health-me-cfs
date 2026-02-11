@@ -1,0 +1,120 @@
+pattern_id: tinnitus_fatigue_correlation
+pattern_name: "Tinnitus Intensity as Fatigue Biomarker"
+first_identified: "2026-01-26"
+identification_method: "patient_reported"
+
+description: |
+  Patient reports clear, reproducible correlation between tinnitus intensity and
+  fatigue state. Tinnitus is consistently present during fatigue and consistently
+  absent when not fatigued.
+
+patient_observation:
+  specificity: "Always present when tired, never present when not tired"
+  reliability: high
+  reproducibility: "Patient reports 100% correlation"
+  confidence: "Patient very confident in this pattern"
+
+clinical_significance:
+  potential_mechanisms:
+    - mechanism: "Neurological fatigue marker"
+      rationale: "May reflect central nervous system dysregulation during energy depletion"
+      certainty: medium
+    - mechanism: "Autonomic dysfunction correlation"
+      rationale: "Tinnitus has documented associations with autonomic dysfunction in literature"
+      certainty: medium
+    - mechanism: "Cerebral hypoperfusion indicator"
+      rationale: "May reflect reduced cerebral blood flow during fatigue states"
+      certainty: low
+    - mechanism: "Orthostatic intolerance relationship"
+      rationale: "Could correlate with orthostatic episodes given autonomic connection"
+      certainty: low
+
+  clinical_utility:
+    - use: "Real-time energy reserve indicator"
+      value: high
+      application: "Patient can use tinnitus presence as warning signal for pacing"
+    - use: "PEM prevention tool"
+      value: high
+      application: "Stop activity when tinnitus appears to prevent PEM threshold crossing"
+    - use: "Subjective fatigue validation"
+      value: medium
+      application: "Objective marker to validate subjective fatigue reports"
+    - use: "Pacing guidance"
+      value: high
+      application: "Integrate into pacing-coach decision algorithms"
+
+validation_plan:
+  systematic_tracking:
+    - action: "Add tinnitus present/absent to all daily symptom logs"
+      priority: high
+    - action: "Record tinnitus intensity on 0-10 scale"
+      priority: medium
+    - action: "Document context (activity, time of day, other symptoms)"
+      priority: medium
+
+  objective_correlation:
+    - action: "Correlate with heart rate data if available"
+      priority: medium
+    - action: "Correlate with orthostatic vital signs when measured"
+      priority: medium
+    - action: "Track relationship to PEM episodes"
+      priority: high
+
+  longitudinal_analysis:
+    - action: "Calculate correlation coefficient after 30 days of data"
+      priority: high
+    - action: "Assess pattern stability across different contexts (acute illness, baseline, PEM)"
+      priority: high
+    - action: "Generate visualization of tinnitus vs fatigue scores"
+      priority: medium
+
+literature_context:
+  known_associations:
+    - finding: "Tinnitus is reported in ME/CFS patient populations"
+      source: "Clinical observation, requires systematic review"
+      certainty: medium
+    - finding: "Tinnitus associated with autonomic dysfunction"
+      source: "General medical literature"
+      certainty: high
+    - finding: "Cerebral hypoperfusion can cause tinnitus"
+      source: "Neurology literature"
+      certainty: high
+
+  research_gaps:
+    - question: "What percentage of ME/CFS patients experience tinnitus-fatigue correlation?"
+      priority: high
+    - question: "Is this pattern specific to certain ME/CFS subtypes?"
+      priority: medium
+    - question: "Can tinnitus intensity predict PEM risk quantitatively?"
+      priority: high
+
+integration_recommendations:
+  pacing_coach:
+    - recommendation: "Add tinnitus presence as 'stop signal' in activity planning"
+      implementation: "Alert user to rest when tinnitus appears"
+      priority: high
+
+  data_validator:
+    - recommendation: "Flag missing tinnitus data in daily logs going forward"
+      implementation: "Add to required fields validation"
+      priority: medium
+
+  hypothesis_generator:
+    - recommendation: "Analyze tinnitus pattern for subtype characterization"
+      implementation: "Include in autonomic dysfunction subgroup analysis"
+      priority: medium
+
+  crisis_manager:
+    - recommendation: "Use tinnitus presence as early warning indicator"
+      implementation: "Escalate alerts if tinnitus + other warning signs present"
+      priority: high
+
+tracking_history:
+  - date: "2026-01-26"
+    event: "Pattern first documented"
+    context: "Day 2 of acute upper respiratory infection, strong tinnitus reported"
+    notes: "Patient identified pattern with high confidence"
+
+status: active
+next_review: "2026-02-26"  # Review after 30 days of systematic tracking
+priority: high

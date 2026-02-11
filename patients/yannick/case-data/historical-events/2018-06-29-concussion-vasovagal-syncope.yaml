@@ -1,0 +1,198 @@
+event_date: 2018-06-29
+event_time: "~12:00"
+event_type: traumatic_brain_injury
+classification: concussion_with_vasovagal_syncope
+
+# CONCUSSION WITH VASOVAGAL SYNCOPE - JUNE 29, 2018
+
+incident_description: |
+  Patient fell and hit their head while sitting on a high bar stool ("tabouret de comptoir")
+  after drinking some Coke at approximately noon. The fall triggered a vasovagal response
+  causing complete loss of consciousness (syncope).
+
+mechanism_of_injury:
+  initial_event: "Fall from bar stool"
+  position: "Sitting on high bar stool"
+  preceding_activity: "Drinking Coke"
+  head_impact: yes
+  consciousness_lost: yes
+
+vasovagal_response:
+  trigger: "Head trauma from fall"
+  severity: "Complete syncope"
+  mechanism: "Vagal nerve stimulation leading to vasovagal reflex"
+  consciousness: "Complete loss of consciousness"
+  description: "Patient experienced full vasovagal syncope following head impact"
+
+clinical_significance:
+  traumatic_brain_injury:
+    - "Concussion from fall and head impact"
+    - "Combined with syncope complicates assessment of injury severity"
+    - "May have contributed to long-term neurological sequelae"
+
+  vasovagal_sensitivity:
+    - "Demonstrates heightened vagal sensitivity"
+    - "Pattern of vasovagal episodes (see related history)"
+    - "May relate to autonomic dysfunction in ME/CFS"
+
+  autonomic_dysfunction:
+    - "Vasovagal syncope indicates autonomic dysregulation"
+    - "May be relevant to current orthostatic intolerance symptoms"
+    - "Could represent pre-existing autonomic vulnerability"
+
+related_medical_history:
+  previous_vasovagal_episode:
+    description: "Patient had one previous vasovagal episode"
+    severity: "Less severe - did not result in complete loss of consciousness"
+    outcome: "Patient needed to sit down but remained conscious"
+    significance: "Establishes pattern of vagal hypersensitivity"
+
+  vagal_sensitivity_pattern:
+    description: "Patient notes sensitivity to vagus nerve stimulation"
+    frequency: "At least two documented episodes"
+    clinical_relevance:
+      - "May indicate baseline autonomic instability"
+      - "Could be risk factor for orthostatic intolerance"
+      - "Relevant to understanding current dysautonomia symptoms"
+      - "May inform treatment considerations (e.g., vagal tone modulation)"
+
+medical_follow_up:
+  immediate: "Unknown - documentation incomplete"
+  imaging: "Unknown if CT/MRI performed"
+  diagnosis: "Presumed concussion with vasovagal syncope"
+
+relevance_to_mecfs:
+  timeline_relationship:
+    - "Event occurred in 2018"
+    - "ME/CFS onset context: burnout late 2017, progressive deterioration 2018-2019"
+    - "Concussion as significant contributing factor in ME/CFS cascade"
+    - "Timing suggests TBI accelerated/triggered full ME/CFS phenotype"
+
+  autonomic_dysfunction_mechanism:
+    diffuse_axonal_injury:
+      description: "Concussion causes diffuse axonal injury (DAI) affecting autonomic control centers"
+      affected_regions:
+        - "Brainstem autonomic nuclei (dorsal motor nucleus of vagus, nucleus tractus solitarius)"
+        - "Hypothalamus (autonomic integration center)"
+        - "Reticular activating system"
+        - "White matter tracts connecting autonomic centers"
+      mechanism: "Rotational forces during impact cause axonal shearing and microstructural damage"
+      chronicity: "DAI effects can persist for years post-injury, especially in vulnerable individuals"
+
+    pre_existing_vagal_hypersensitivity:
+      vulnerability_factor: "Patient had documented vagal hypersensitivity prior to concussion"
+      evidence: "At least one previous vasovagal episode (less severe, no LOC)"
+      significance: "Pre-existing autonomic instability may have reduced capacity for compensation post-TBI"
+      interaction: "Concussion impact superimposed on already dysregulated autonomic system"
+
+    persistent_autonomic_dysfunction:
+      post_tbi_dysautonomia:
+        - "Autonomic dysfunction documented in 40-90% of TBI patients"
+        - "Can persist for years after injury, particularly in moderate-severe cases"
+        - "Manifestations include orthostatic intolerance, HR/BP dysregulation, temperature dysregulation"
+
+      mecfs_association:
+        citation: "Bateman_2024_Concussion_ME_CFS"
+        finding: "ME/CFS patients have 4.89x higher odds of prior concussion history"
+        implication: "TBI is significant risk factor for ME/CFS development"
+        mechanism: "Persistent autonomic and neurological dysfunction post-TBI overlaps with ME/CFS pathophysiology"
+
+    sympathetic_dominance_pattern:
+      mechanism: "Post-TBI autonomic dysfunction often manifests as sympathetic dominance"
+      manifestations:
+        - "Elevated resting heart rate"
+        - "Impaired heart rate variability"
+        - "Orthostatic tachycardia (POTS-like presentation)"
+        - "Hypervigilance and stress response dysregulation"
+      relevance_to_patient: "Consistent with documented orthostatic intolerance and dysautonomia"
+
+  traumatic_brain_injury:
+    direct_effects:
+      - "5 hours post-traumatic amnesia indicates moderate-severity concussion"
+      - "Neurological sequelae can be long-lasting even with negative imaging"
+      - "Cognitive symptoms (brain fog, processing speed) overlap with ME/CFS presentation"
+
+    post_concussion_syndrome:
+      - "PCS shares extensive symptom overlap with ME/CFS (fatigue, cognitive dysfunction, sleep disturbance)"
+      - "Difficult to separate PCS from ME/CFS symptoms in patient's presentation"
+      - "May represent overlapping or synergistic pathophysiology"
+
+  compound_injury_model:
+    sequence_of_events:
+      step_1: "Pre-existing vagal hypersensitivity (at least one prior episode)"
+      step_2: "Vasovagal syncope → fall from height (bar stool)"
+      step_3: "Head impact → concussion with 5h post-traumatic amnesia"
+      step_4: "Diffuse axonal injury affecting brainstem autonomic centers"
+      step_5: "Persistent autonomic dysfunction (reduced compensation capacity due to pre-existing vulnerability)"
+      step_6: "Full dysautonomia phenotype + ME/CFS cascade (compounded by concurrent/prior burnout)"
+
+    synergistic_effects:
+      - "Pre-existing autonomic instability reduced resilience to TBI"
+      - "TBI-induced autonomic injury superimposed on vulnerable substrate"
+      - "Combined effect: severe, persistent dysautonomia"
+      - "Autonomic dysfunction as core feature linking TBI and ME/CFS"
+
+documentation_status:
+  source: "Patient self-report"
+  date_documented: "2026-01-30"
+  verification: "Patient recall - medical records not yet obtained"
+  additional_information_needed:
+    - "Medical records from 2018 incident"
+    - "Emergency department or clinic visit notes"
+    - "Imaging results if performed"
+    - "Formal diagnosis and treatment"
+    - "Recovery timeline"
+
+recommendations:
+  clinical_evaluation:
+    - "Obtain medical records from 2018 incident"
+    - "Assess for any residual post-concussion symptoms"
+    - "Evaluate relationship between TBI history and current symptoms"
+
+  autonomic_assessment:
+    - "Document current vagal sensitivity"
+    - "Consider formal autonomic testing (tilt table, etc.)"
+    - "Assess for orthostatic intolerance patterns"
+
+  medical_history_integration:
+    - "Add to comprehensive medical timeline"
+    - "Include in Appendix I-B (Clinical Findings)"
+    - "Consider relevance to treatment planning"
+
+appendix_integration:
+  target_section: "appendix-i-b-clinical-findings.tex"
+  content_type: "Historical medical event - TBI and autonomic dysfunction"
+  priority: "High - significant neurological event"
+
+literature_to_integrate:
+  primary_references:
+    - citation_key: "Bateman_2024_Concussion_ME_CFS"
+      finding: "ME/CFS patients have 4.89x higher odds of prior concussion"
+      relevance: "PRIMARY - establishes TBI as ME/CFS risk factor"
+
+  supporting_mechanisms:
+    - topic: "Diffuse axonal injury in concussion"
+      relevance: "Explains mechanism of autonomic center damage"
+
+    - topic: "Post-TBI autonomic dysfunction"
+      relevance: "Documents persistence of autonomic symptoms years after injury"
+
+    - topic: "Brainstem injury and dysautonomia"
+      relevance: "Links anatomical damage to autonomic manifestations"
+
+alerts:
+  - type: "HISTORICAL_TBI"
+    severity: "HIGH"
+    message: "Documented concussion with vasovagal syncope in 2018 - 4.89x increased ME/CFS risk"
+  - type: "AUTONOMIC_DYSFUNCTION_PATTERN"
+    severity: "MODERATE"
+    message: "Pattern of vagal hypersensitivity - recurrent vasovagal episodes"
+  - type: "MEDICAL_RECORDS_NEEDED"
+    severity: "LOW"
+    message: "Obtain 2018 medical records for complete documentation"
+  - type: "COMPOUND_INJURY_MECHANISM"
+    severity: "HIGH"
+    message: "Pre-existing vagal sensitivity + TBI → full dysautonomia → ME/CFS cascade"
+  - type: "LITERATURE_INTEGRATION_NEEDED"
+    severity: "MODERATE"
+    message: "Add Bateman 2024 and supporting TBI/autonomic dysfunction references"

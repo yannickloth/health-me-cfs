@@ -1,0 +1,87 @@
+date: 2026-02-10
+day_label: "Tuesday (Current)"
+time_of_entry: "afternoon/evening"
+
+# HYPOGLYCEMIC-LIKE SYMPTOMS - POST-RITALIN TRIAL
+symptoms:
+  energy: 2
+  weakness: "generalized weakness"
+  tremors: true
+  tremor_type: "similar to hypoglycemia"
+  tremor_onset_time: "afternoon/evening after waking"
+  cognitive_function: 3
+  sleep_pattern: "excessive sleep"
+
+sleep_details:
+  morning_sleep: 1.5
+  afternoon_sleep: "2.5-3 hours until 15:00"
+  total_sleep_hours: "4-4.5"
+  sleep_quality: "excessive sleepiness"
+
+medications:
+  stimulants_taken: false
+  ritalin_mr_taken: false
+  standard_regimen: true
+  notes: "No stimulants taken today. Standard regimen only."
+
+activity:
+  exertion_level: "minimal"
+  notes: "Excessive sleep, minimal activity during waking hours"
+
+current_state: "weak with tremors similar to hypoglycemia"
+
+clinical_notes: |
+  POST-RITALIN RESPONSE - POTENTIAL REBOUND SYMPTOMS
+
+  Timeline:
+  - Monday 2026-02-10: Ritalin MR 30mg x1 → Excellent response (energy 6/10, cognitive 8)
+  - Tuesday 2026-02-10: No Ritalin MR → Weakness + tremors + excessive sleep
+
+  Current Tuesday presentation:
+  - Sleep: Excessive (1.5h morning + 2.5-3h afternoon, woke at 15:00)
+  - Weakness: Generalized with tremors
+  - Tremor character: "Similar to hypoglycemia"
+  - Energy: Very low (2/10)
+  - Cognitive: Minimal (3/10)
+
+  Clinical interpretation:
+
+  HYPOTHESIS 1: Post-stimulant rebound
+  - Stimulant medication on Monday "borrowed" energy/alertness
+  - Tuesday = energy debt payoff
+  - Explains: excessive sleep + weakness + tremors
+  - Mechanism: CNS upregulation after stimulant withdrawal
+
+  HYPOTHESIS 2: Hypoglycemic-like metabolic crash
+  - Stimulant may have increased glucose utilization on Monday
+  - Tuesday: metabolic exhaustion manifesting as hypoglycemic-like symptoms
+  - Tremors suggest sympathetic activation (as in hypoglycemia)
+  - Weakness suggests ATP depletion
+  - Excessive sleep = energy recovery mechanism
+
+  HYPOTHESIS 3: Post-exertional sensitivity rebound
+  - Monday's stimulant use enabled activity/mental engagement
+  - Now observing delayed PEM/metabolic consequences
+  - Would not be just post-stimulant; would be post-effort PEM
+  - Hypoglycemic tremors may be coincidental symptom
+
+  KEY OBSERVATION FOR RITALIN PROTOCOL:
+  - If this is rebound → need careful titration strategy
+  - If this is metabolic debt → need to address underlying energy deficit
+  - If this is PEM → need to track activity level on Monday (was energy increase just subjective?)
+
+  CRITICAL QUESTION:
+  - Did Monday have genuine functional improvement (could do more) or just subjective "felt better"?
+  - If genuine improvement with actual increased activity → explains Tuesday as PEM
+  - If just subjective without behavior change → explains Tuesday as rebound
+
+  Recommended next steps:
+  1. Check actual activity level on Monday (did Ritalin enable more doing?)
+  2. Monitor Wednesday with and without Ritalin
+  3. Consider dose timing effects (morning vs. other times)
+  4. Evaluate whether hypoglycemic-like state responds to food/glucose
+
+  MEDICAL SAFETY NOTE:
+  - Hypoglycemic-like tremors warrant checking actual blood glucose if possible
+  - Could also represent dysautonomia (Ritalin affects BP/HR)
+  - Should discuss with physician before next Ritalin trial

@@ -1,0 +1,104 @@
+date: 2026-01-26
+timestamp: "2026-01-26 22:57:16"
+episode_type: ongoing_acute_illness  # Day 2 of upper respiratory infection
+
+# ACUTE UPPER RESPIRATORY INFECTION - DAY 2
+# Continuing from 2026-01-25 acute illness episode
+
+acute_illness_symptoms:
+  status: continuing
+  day_of_illness: 2
+
+# PRIMARY SYMPTOM LOG - TINNITUS
+tinnitus:
+  severity: strong
+  intensity_vs_baseline: "stronger than usual"
+  patient_identified_pattern:
+    description: "Tinnitus intensity correlates with fatigue level"
+    reliability: high
+    specificity: "Always present when tired, never present when not tired"
+    notes: "This is a patient-identified reproducible pattern"
+  clinical_significance:
+    - "Potential neurological fatigue marker"
+    - "May indicate autonomic dysfunction correlation"
+    - "Possible orthostatic intolerance relationship"
+    - "Could be used as subjective energy reserve indicator"
+  timestamp: "2026-01-26 22:57:16"
+
+# ME/CFS baseline symptoms (context from ongoing acute illness)
+symptoms:
+  energy: not_scored  # Unable to assess baseline - acute illness ongoing
+  brain_fog: not_scored
+  pain: not_scored
+  sleep_quality: not_scored
+  orthostatic_intolerance: not_scored  # Monitoring but not scored during acute illness
+  pem_active: false  # Still acute illness, not PEM
+  functional_status: severe_limitation
+
+medications:
+  - name: "Not documented for this entry"
+    notes: "Focus on symptom pattern observation"
+
+activity:
+  - type: "minimal - continuing acute illness rest"
+    notes: "Activity not primary focus of this log entry"
+
+clinical_notes: |
+  TINNITUS AS FATIGUE BIOMARKER - CLINICAL PATTERN IDENTIFIED
+
+  Patient reports reproducible correlation between tinnitus intensity and fatigue state:
+  - Present: When fatigued (100% correlation by patient report)
+  - Absent: When not fatigued (100% correlation by patient report)
+
+  This pattern has significant clinical value:
+
+  1. SUBJECTIVE ENERGY RESERVE INDICATOR
+     - Could be used as real-time warning signal for energy depletion
+     - May help guide pacing decisions
+     - Potential early warning before PEM threshold
+
+  2. NEUROLOGICAL FATIGUE MARKER
+     - Tinnitus in ME/CFS may reflect central nervous system dysregulation
+     - Could indicate impaired central auditory processing when energy-depleted
+     - Suggests neurological component to fatigue (not purely muscular)
+
+  3. AUTONOMIC DYSFUNCTION CORRELATION
+     - Tinnitus has documented associations with autonomic dysfunction
+     - May reflect cerebral hypoperfusion during fatigue states
+     - Could correlate with orthostatic intolerance episodes
+
+  4. RESEARCH IMPLICATIONS
+     - This pattern should be tracked systematically
+     - Could be validated with objective fatigue measures (e.g., CPET)
+     - May be generalizable to other ME/CFS patients as biomarker
+
+  5. CONTEXT OF CURRENT ILLNESS
+     - Currently experiencing day 2 of acute upper respiratory infection
+     - Fatigue is elevated due to infection
+     - Tinnitus intensity correspondingly elevated
+     - Pattern remains consistent even during acute illness
+
+  RECOMMENDED ACTIONS:
+  - Create systematic tinnitus tracking protocol
+  - Document tinnitus presence/absence with all symptom logs
+  - Correlate with objective measures when available (heart rate, activity data)
+  - Consider adding to pacing-coach indicators
+  - Track whether pattern remains stable during recovery from acute illness
+
+pattern_documentation:
+  pattern_type: "symptom_correlation"
+  pattern_name: "tinnitus_fatigue_correlation"
+  reliability: "high (patient-reported 100% correlation)"
+  first_documented: "2026-01-26"
+  validation_status: "patient-identified, requires systematic tracking"
+
+alerts:
+  - type: "PATTERN_IDENTIFIED"
+    severity: "INFORMATIONAL"
+    message: "New symptom pattern documented: tinnitus as fatigue biomarker"
+  - type: "ONGOING_ACUTE_ILLNESS"
+    severity: "MODERATE"
+    message: "Day 2 of upper respiratory infection - continue monitoring"
+  - type: "TRACKING_RECOMMENDATION"
+    severity: "LOW"
+    message: "Add tinnitus to daily symptom tracking protocol"

@@ -1,0 +1,77 @@
+date: 2026-01-30
+timestamp_morning: "2026-01-30 13:48:00"
+timestamp_evening: "2026-01-30 20:00:00"
+episode_type: activity_triggered_weakness
+
+# BASELINE GOOD MORNING → COOKING-TRIGGERED WEAKNESS
+symptoms:
+  morning:
+    energy: 7
+    brain_fog: 2
+    pain: 1
+    sleep_quality: 7
+    orthostatic_intolerance: 2
+    pem_active: false
+    functional_status: good_day
+    head_status: OK
+
+  evening:
+    energy: 4
+    brain_fog: 3
+    pain: 2
+    weakness: present
+    weakness_onset: "during cooking activity"
+    pem_active: false  # Weakness, not PEM yet
+    functional_status: reduced_but_stable
+
+medications:
+  - name: "No stimulants"
+    notes: "Patient did not take stimulants today"
+
+activity:
+  - type: "cooking_pancakes"
+    duration_min: 30-45
+    exertion_level: "light-moderate"
+    notes: "THIS WAS THE TRIGGER - weakness started during cooking"
+    trigger_confirmed: true
+
+  - type: "calm_evening"
+    activity_level: "minimal"
+    primary_posture: "sitting at computer"
+    notes: "Post-cooking recovery period"
+
+clinical_notes: |
+  ACTIVITY-TRIGGERED WEAKNESS EPISODE
+
+  Morning baseline: Good day (energy 7/10, head OK, minimal symptoms)
+
+  TRIGGER EVENT: Cooking pancakes (30-45 minutes)
+  - Patient identified cooking as the specific trigger moment
+  - Weakness onset during the activity
+  - This was NOT a pre-existing weakness - it started with the activity
+
+  Post-activity state:
+  - Calm evening, primarily sitting at computer
+  - Weakness persisted but did not progress to full PEM
+  - Suggests successful limitation of activity after trigger recognition
+
+  CLINICAL SIGNIFICANCE:
+  1. Clear activity threshold identification
+  2. Cooking for 30-45 minutes exceeded energy envelope on this day
+  3. Patient recognized trigger and adjusted activity appropriately
+  4. No stimulants taken - baseline day without medication support
+  5. This duration of cooking may be a useful marker for activity limits
+
+  PACING IMPLICATIONS:
+  - Cooking duration > 30 minutes may require breaks
+  - Consider sitting while cooking or splitting tasks
+  - Good day baseline does not guarantee activity tolerance
+  - Patient successfully avoided escalation to PEM through rest
+
+alerts:
+  - type: "ACTIVITY_TRIGGER_IDENTIFIED"
+    severity: "INFORMATIONAL"
+    message: "Cooking 30-45min triggered weakness - useful threshold marker"
+  - type: "SUCCESSFUL_LIMITATION"
+    severity: "LOW"
+    message: "Patient limited activity after trigger, prevented PEM escalation"
