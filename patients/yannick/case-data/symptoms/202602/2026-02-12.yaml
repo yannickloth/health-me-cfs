@@ -1,0 +1,102 @@
+date: 2026-02-12
+day: Thursday
+context: Activity-triggered crash with autonomic dysregulation - good morning baseline deteriorated rapidly with standing activity
+
+medications:
+  - name: LDN (Low-Dose Naltrexone)
+    dose: 3mg
+    notes: reduced from typical 4mg dose
+  - name: Cetirizine
+    dose: 1 pill
+    notes: antihistamine
+
+supplements: none taken
+
+sleep:
+  afternoon: 1h20
+  quality: did not restore energy - still weak/tired upon waking
+
+activity:
+  first_ironing_session:
+    time: ~11:15-11:45
+    duration: 30 minutes
+    type: standing/ironing clothes
+    symptoms_during: weakness onset, elevated pulse
+    symptoms_after: hypoglycemic-like feeling, strong desire to lie down
+    functional_impact: needed to feed child despite strong rest urge
+
+  second_ironing_session:
+    time: afternoon (post-nap)
+    duration: 30 minutes
+    type: standing/ironing clothes
+    symptoms_after: tired, at limit of headache and crash, attempting to rest
+
+symptoms:
+  morning_09_45:
+    cognitive_function: good/alert
+    cognitive_description: "brain is good, really alert"
+    physical_status: "feels good but like it could become tired very quickly"
+    physical_fragility: high - patient noted rapid tiredness potential
+
+  post_first_activity_11_45:
+    weakness: generalized
+    pulse: quite elevated
+    hypoglycemic_feeling: present (similar to Feb 11 pattern)
+    fatigue: strong desire to immediately lie down and rest
+    functional_pressure: needed to feed child despite symptoms
+
+  post_nap_afternoon:
+    weakness: persistent
+    fatigue: "still feel weak, tired"
+    energy_restoration: incomplete despite 1h20 sleep
+
+  post_second_activity_late_afternoon:
+    fatigue: persistent
+    headache: "at the limit"
+    crash_risk: imminent - patient attempting to lie down
+    overall_status: "probably crash"
+
+interpretation: |
+  CRITICAL PATTERN: Activity-triggered crash with autonomic dysregulation despite good morning baseline.
+
+  Timeline:
+  - 09:45: Good cognitive state, body "fragile" but functional
+  - 11:45: After 30min standing/ironing → weakness, elevated pulse, hypoglycemic feeling
+  - Afternoon: 1h20 sleep → incomplete recovery
+  - Late afternoon: Second 30min ironing → approaching headache and crash
+
+  Key clinical observations:
+
+  1. **Activity threshold severely reduced**: 30 minutes of standing activity exceeded energy envelope
+     despite good morning baseline. This is consistent with depleted metabolic reserves.
+
+  2. **Autonomic dysregulation**: Elevated pulse and hypoglycemic-like feeling (without actual
+     hypoglycemia) mirrors Feb 11 pattern. Suggests autonomic nervous system unable to maintain
+     cardiovascular stability during upright activity.
+
+  3. **Rest non-restorative**: 1h20 afternoon sleep did not restore energy reserves. Patient remained
+     weak and tired post-nap, indicating true metabolic depletion rather than simple fatigue.
+
+  4. **Progressive deterioration**: Second activity session (another 30min ironing) pushed patient to
+     "limit of headache and crash" - classic PEM progression.
+
+  5. **Hypoglycemic-like pattern recurrence**: Second occurrence in 2 days (Feb 11 + Feb 12) of
+     hypoglycemic-like symptoms (weakness, tremor-risk, elevated pulse) without confirmed glucose
+     measurement. This strongly supports Hypothesis 2C (Autonomic State Transition Failure) and/or
+     metabolic dysfunction.
+
+  Competing hypotheses:
+  - Delayed PEM from recent activity accumulation (Feb 11 grocery + Feb 12 ironing)
+  - Autonomic dysregulation triggered by postural stress (standing activities)
+  - Metabolic/mitochondrial ATP depletion (inability to sustain standing work)
+  - Stimulant absence (no Provigil/Ritalin) reducing compensatory support
+
+  **URGENT CONCERN**: Patient experiencing functional pressure (needing to feed child) while in
+  symptomatic state. This forced continuation of activity despite clear physiological signals to rest.
+
+  The morning baseline "fragility" warning proved accurate - body signaled limited reserves that were
+  quickly exceeded. This demonstrates value of morning self-assessment for activity planning.
+
+  **Recommendation**: Strict rest for remainder of day. Monitor for PEM development over next 24-48h.
+  Consider whether stimulant support (Provigil/Ritalin) might prevent such rapid deterioration on
+  necessary-activity days.
