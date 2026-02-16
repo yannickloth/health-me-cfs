@@ -1,0 +1,90 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{tcolorbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{eurosym}
+\usepackage{newunicodechar}
+
+% Define custom theorem-like environments
+\usepackage{amsthm}
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem{speculation}{Speculation}
+\newtheorem{observation}{Observation}
+
+% Handle Unicode characters
+\newunicodechar{≠}{\neq}
+
+\geometry{margin=2.5cm}
+\tolerance=9999
+\emergencystretch=3em
+\hfuzz=2pt
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\title{\textbf{RAPPORT MÉDICAL}\\\large Patient Yannick}
+\author{}
+\date{16 février 2026}
+
+\begin{document}
+
+\maketitle
+
+\noindent\textbf{Date du rapport:} 16 février 2026\\
+\textbf{Destiné à:} Médecins traitants et consultants spécialistes\\
+\textbf{Patient:} Yannick, Homme, né le 22 mars 1981 (44 ans)\\
+\textbf{Nationalité:} Belge | \textbf{Langue:} Français\\
+\textbf{Diagnostic principal:} Encéphalomyélite myalgique / Syndrome de fatigue chronique (EM/SFC), forme sévère
+
+\vspace{0.5em}
+\noindent\textbf{Médecins consultant actuellement:}
+\begin{itemize}
+\item Médecin généraliste (petits problèmes courants)
+\item Spécialiste en médecine interne générale (tout ce qui concerne EM/SFC)
+\end{itemize}
+
+\vspace{1em}
+{\small\noindent\textbf{AVERTISSEMENT:} Ce rapport est une analyse préliminaire basée sur une collecte systématique de données de cas et une revue de littérature. Toutes les recommandations nécessitent une révision et une approbation médicale avant mise en œuvre. Ce document ne constitue pas un avis médical.}
+
+\vspace{0.5em}
+\noindent{\small\textbf{Documentation de référence:} Pour une analyse complète de la physiopathologie et des traitements de l'EM/SFC, voir:\\
+\url{https://zenodo.org/records/18413818}\\
+\url{https://doi.org/10.5281/zenodo.18370021}}
+
+\tableofcontents
+\newpage
+
+% ============================================================================
+% CONTENU DU RAPPORT MÉDICAL
+% ============================================================================
+
+\input{contents/01-resume-executif}
+\input{contents/02-historique-patient}
+\input{contents/03-resultats-cliniques}
+\input{contents/04-profil-symptomatique}
+\input{contents/05-evenements-recents}
+\input{contents/06-gestion-medicale}
+\input{contents/07-recommandations-traitement}
+\input{contents/08-recommandations-diagnostiques}
+\input{contents/09-gestion-pem-rythme}
+\input{contents/10-surveillance-interactions}
+\input{contents/11-interventions-quotidiennes}
+\input{contents/12-analyse-cas}
+\input{contents/13-hypotheses-cliniques}
+\input{contents/14-references}
+
+\end{document}
