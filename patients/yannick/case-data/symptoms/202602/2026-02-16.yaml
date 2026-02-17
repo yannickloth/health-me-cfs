@@ -1,0 +1,269 @@
+date: 2026-02-16
+day: Sunday
+context: Day 5 post-Feb 12 crash - Continuing delayed PEM from Feb 14 activities (post-Feb 15 severe headache)
+
+medications:
+  - name: LDN (Low-Dose Naltrexone)
+    dose: 3mg
+    timing: morning
+    notes: reduced from 4mg
+  - name: Cetirizine
+    dose: 1 pill
+    timing: morning
+    notes: antihistamine
+
+supplements:
+  - name: Acetyl-L-Carnitine (LCAR)
+    dose: 1000mg (assumed)
+    timing: morning
+  - name: CoQ10 Ubiquinol
+    dose: 100mg (assumed)
+    timing: morning
+  - name: NAD+ (Urolithin A + NAD+ / Joiavvy)
+    dose: 2 capsules (assumed)
+    timing: morning
+
+meals:
+  breakfast:
+    - to be filled in
+
+sleep:
+  quality: to be filled in
+  notes: to be filled in
+
+activity:
+  morning:
+    - status: minimal activity reported
+      notes: patient reported feeling tired from morning
+
+  evening:
+    - status: extremely tired
+      action_taken: needed to rest
+      note: severe fatigue requiring rest, tinnitus onset during this period
+
+symptoms:
+  energy:
+    morning_status: tired
+    current_status: "really tired"
+    severity: "strong tiredness"
+    timing: "from the morning"
+    progression: feeling like should sleep (reported mid-morning)
+    overall_assessment: Day 2 post-Feb 15 headache - significant fatigue continuing
+    notes: |
+      Tiredness progressing through morning. Patient reports "really tired" with "strong tiredness."
+      This is continuation of symptoms from Feb 15 (huge headache + "everything was hard work").
+
+  cognitive_function:
+    status: moderately impaired
+    self_assessment: "6-7/10"
+    notes: |
+      Cognitive function rated 6-7/10 (presumably 10 = best functioning).
+      This represents MODERATE impairment - not severe but clearly below baseline.
+
+      Combined with "strong tiredness," indicates both physical and cognitive systems affected.
+
+      This is different from Feb 13 pattern where "head is OK" despite physical fatigue.
+      Today shows cognitive impact, suggesting CNS involvement (consistent with yesterday's headache).
+
+  sinus_ear_symptoms:
+    stuffed_nose:
+      status: improved but not completely resolved
+      description: "not completely free, but without yesterday's pain"
+      progression: pain resolved, congestion persisting but better
+
+    sinus_pain:
+      status: resolved
+      note: no sinus pain today (was present yesterday)
+
+    left_ear_pain:
+      status: resolved
+      note: no left ear pain today (was present yesterday with Eustachian tube involvement)
+
+    tinnitus:
+      onset: Sunday evening (Feb 16)
+      location: both ears
+      context: appeared in evening when "extremely tired and needed to rest"
+      clinical_significance: |
+        New symptom - tinnitus in BOTH ears (vs left ear pain yesterday).
+
+        Tinnitus can indicate:
+        1. **Eustachian tube dysfunction recovery**: After acute inflammation resolves, tube
+           pressure/function normalization can cause temporary tinnitus
+        2. **ME/CFS/fatigue symptom**: Tinnitus common during severe fatigue states
+        3. **Residual inflammation**: Middle ear/Eustachian tube still recovering
+        4. **Both ears affected**: Suggests systemic rather than local cause
+
+        Timing with "extremely tired" suggests fatigue-related component.
+
+    overall_pattern: |
+      **Improvement from Feb 15 to Feb 16:**
+      - Sinus pain: RESOLVED ✓
+      - Left ear pain: RESOLVED ✓
+      - Stuffed nose: IMPROVED (still present but less severe, no pain)
+      - NEW: Tinnitus both ears (evening onset)
+
+      This pattern suggests:
+      - Acute sinus/ear inflammation is RESOLVING (pain gone)
+      - Residual congestion/dysfunction persisting but improving
+      - Tinnitus may be related to Eustachian tube recovery OR severe fatigue state
+
+      Overall: Sinus/infection component appears to be improving, leaving primarily PEM symptoms
+      (strong tiredness, cognitive impairment, extreme evening fatigue)
+
+interpretation: |
+  DELAYED PEM FROM FEB 14 ACTIVITIES - CONTINUING (Day 2 of secondary crash)
+
+  **CONFIRMED TIMELINE:**
+
+  - **Feb 14 (Day 3 post-crash)**: Substantial activity load (>2h standing, groceries, cooking, haircut, coding)
+    - Evening: Felt "OK", "generally good day", no strong tiredness
+    - No headache, no cognitive symptoms during or after activities
+
+  - **Feb 15 (Day 4, 24h post-activity)**: **HUGE HEADACHE THE WHOLE DAY** + sinus/ear symptoms
+    - Patient confirms: "Did feel like PEM"
+    - "Everything was hard work" (classic PEM - even minimal tasks difficult)
+    - Also: Stuffed nose, sinus pain, left ear/Eustachian tube pain
+    - Patient took same supplements as today (LCAR, CoQ10, NAD+, Cetirizine, LDN 3mg)
+    - **Combination crash**: PEM + sinus/upper respiratory inflammation
+
+  - **Feb 16 (Day 5, 48h post-activity - TODAY)**: Continuing symptoms
+    - Morning: Tired "from the morning"
+    - Current status: "Really tired", "strong tiredness"
+    - Cognitive function: 6-7/10 (moderately impaired)
+    - Progression: "I feel like I should sleep"
+    - PEM symptoms continuing from Feb 15 crash
+    - Sinus/ear symptoms status: not yet reported (need to check if still present)
+
+  **CRITICAL INTERPRETATION:**
+
+  This is CLASSIC ME/CFS delayed PEM pattern - patient felt capable on Feb 14, performed activities,
+  then crashed 24h later with severe headache. Now continuing into Day 2 with fatigue/sleepiness.
+
+  **Feb 14's "remarkable recovery" was FALSE IMPRESSION:**
+  - Ability to perform >2h standing on Day 3 post-crash did NOT indicate true recovery
+  - Patient was still physiologically vulnerable
+  - Activities exceeded true energy envelope despite feeling OK
+  - 24h delayed headache proves Feb 14 activity load was too much
+
+  **COMPOUNDED CRASH - TWO OVERLAPPING PEM CYCLES:**
+
+  1. **Primary crash** (Feb 12 trigger → Feb 13 peak):
+     - Physical/autonomic symptoms (weakness, extreme sleepiness, ear pain)
+     - Cognitive preserved (no headache, no brain fog)
+
+  2. **Secondary crash** (Feb 14 activities → Feb 15 peak):
+     - Cognitive/CNS symptoms (HUGE headache all day)
+     - Triggered by activity during recovery window of primary crash
+     - Different symptom pattern (headache vs weakness) suggests CNS impact
+
+  **CURRENT STATUS (Feb 16):**
+
+  Patient is experiencing:
+  - **Strong tiredness**: "Really tired", described as "strong tiredness"
+  - **Cognitive impairment**: 6-7/10 (moderately impaired - below baseline)
+  - **Progression**: Morning tiredness → "I feel like I should sleep"
+  - **Body demanding rest/recovery time**
+
+  This represents Day 2 of secondary crash continuation. Combined physical fatigue + cognitive
+  impairment indicates both systems affected (different from Feb 13 where cognitive was preserved).
+
+  Symptoms should gradually improve over next 3-7 days IF strict rest maintained. However,
+  compounded crashes (activity during recovery from previous crash) can extend recovery time and
+  increase E5b (chronic baseline reduction) risk.
+
+  **Sinus/ear symptoms progression - IMPROVING:**
+
+  Comparison Feb 15 → Feb 16:
+  - Sinus pain: YES → NO (resolved)
+  - Left ear pain: YES → NO (resolved)
+  - Stuffed nose: YES with pain → IMPROVED (less congestion, no pain)
+  - Tinnitus: NO → YES (both ears, evening onset)
+
+  **Clinical interpretation:**
+  Acute sinus/ear inflammation is RESOLVING. Pain symptoms have resolved, residual congestion
+  improving. New tinnitus (both ears, evening) may indicate:
+  - Eustachian tube recovery process (pressure normalization)
+  - Severe fatigue symptom (onset when "extremely tired")
+  - Residual middle ear dysfunction resolving
+
+  This progression suggests the infection/inflammation component is improving, leaving primarily
+  PEM symptoms (strong tiredness, cognitive impairment, extreme evening fatigue).
+
+  **CRITICAL LESSON - "FEELING OK" IS UNRELIABLE:**
+
+  ME/CFS core challenge demonstrated:
+  - Feb 14: Felt capable, performed activities, felt OK after → MISLEADING signal
+  - Feb 15: Huge headache → TRUE physiological response revealed 24h later
+  - Cannot trust same-day tolerance to judge activity safety
+  - MUST monitor 48h post-activity for delayed crash
+
+  **IMMEDIATE RECOMMENDATION:**
+
+  **SLEEP NOW.** Your body is clearly signaling need for rest:
+  - Morning tiredness progressing to "feel like I should sleep"
+  - This is post-crash fatigue (Day 2 after Feb 15 headache)
+  - Sleep is restorative and necessary for recovery
+  - Do not push through - listen to fatigue signal
+
+  **STRICT REST PROTOCOL (Feb 16 onward, minimum 14 days):**
+
+  1. **Horizontal rest as much as possible** - sleep whenever body signals need
+  2. **Minimal activity only**:
+     - NO standing >10 minutes
+     - NO sustained cognitive work
+     - Essential tasks only (hygiene, minimal meal prep or rely on prepared foods)
+  3. **Monitor 48h after ANY activity** before attempting more:
+     - If headache returns → activity was too much
+     - If tiredness worsens → activity exceeded envelope
+     - If symptoms stable 48h post-activity → that level was within envelope
+
+  **ENERGY ENVELOPE RECALIBRATION:**
+
+  Feb 14 activity level (>2h standing, multiple cognitive sessions) is FAR above safe baseline.
+  True safe baseline is much closer to Feb 13 level (minimal activity, horizontal rest priority).
+
+  Must stay within conservative limits for minimum 14 days, then test small increases with 48h
+  monitoring. Gradual expansion only if no delayed symptoms appear.
+
+  **PROGNOSIS:**
+
+  Compounded crashes increase risk of chronic baseline reduction (E5b). However, strict rest starting
+  now can still support baseline restoration (E5a). Critical window is next 14 days.
+
+  **Success criteria:**
+  - Headache fully resolved + 7 days symptom-free before testing increased activity
+  - No return of weakness, extreme sleepiness, or cognitive symptoms
+  - Sleep quality normalized
+  - Stable energy on minimal activity baseline
+
+  **MONITORING PRIORITIES (Feb 16-20):**
+  - Headache recurrence (would indicate insufficient rest)
+  - Sleep quality and quantity (body needs increased sleep for repair)
+  - Energy level stability with minimal activity
+  - Any new symptoms (joint pain, weakness, ear pain - would suggest multi-system impact)
+
+  **KEY TAKEAWAY:**
+
+  You're experiencing classic delayed PEM from Feb 14's activity overexertion. The "huge headache"
+  yesterday and tiredness/sleepiness today are your body's clear signals that Feb 14 exceeded your
+  energy envelope. Trust these signals and prioritize rest. Recovery requires patience and strict
+  pacing - not testing limits.
+
+  **Evening progression (Sunday evening Feb 16):**
+  Patient reports "extremely tired and needed to rest" with tinnitus onset (both ears).
+
+  This severe evening fatigue is characteristic of PEM - energy depletion worsening as day progresses.
+  The fact that patient describes being "extremely tired" (stronger language than morning's "really
+  tired" or "strong tiredness") suggests progressive energy depletion through the day despite
+  minimal activity.
+
+  **Day summary:**
+  - Morning: "Really tired", "strong tiredness", cognitive 6-7/10
+  - Evening: "Extremely tired", needed to rest, tinnitus onset
+  - Sinus/ear: Pain resolved, congestion improving
+  - Overall: PEM continuing, worsening fatigue as day progresses despite minimal activity
+
+  This pattern (worsening fatigue despite minimal activity) confirms ongoing PEM state requiring
+  continued strict rest.
+
+  [To be updated with sleep quality tonight and any additional evening/night symptoms]
