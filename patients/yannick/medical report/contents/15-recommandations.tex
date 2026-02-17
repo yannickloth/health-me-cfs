@@ -1,0 +1,326 @@
+\section{Recommandations et analyses médicales}
+\label{app:recommandations}
+
+\begin{tcolorbox}[breakable,colback=orange!10, colframe=orange!50, title=AVERTISSEMENT]
+Toutes les recommandations de cette section sont générées par une analyse assistée par IA des données de cas et de la littérature médicale. Elles représentent des \textbf{résumés de preuves préliminaires pour discussion avec des prestataires de soins qualifiés}, et non des conseils médicaux définitifs. Chaque recommandation doit être révisée et approuvée par le médecin traitant du patient avant mise en œuvre.
+\end{tcolorbox}
+
+\subsubsection*{À propos de cette section}
+
+Cette section contient~:
+
+\begin{itemize}
+\item Des recommandations de traitement basées sur les preuves issues de \texttt{medical-advisor}
+\item Des analyses statistiques d'efficacité thérapeutique issues de \texttt{treatment-analyst}
+\item Des hypothèses de sous-type et mécanistiques issues de \texttt{hypothesis-generator}
+\item Des protocoles de gestion de crise issues de \texttt{crisis-manager}
+\end{itemize}
+
+Chaque recommandation comprend~:
+\begin{itemize}
+\item Une base de preuves avec citations et évaluations de qualité
+\item Des protocoles spécifiques et des orientations posologiques
+\item Des paramètres de surveillance
+\item Des risques et contre-indications
+\item Des questions pour discussion avec le médecin
+\item Un délai prévu pour les résultats
+\end{itemize}
+
+\subsubsection*{Comment utiliser cette section}
+
+\paragraph{Pour les patients.}
+
+Révisez les recommandations avec votre médecin traitant. Apportez les sections pertinentes à vos consultations médicales. Utilisez les listes de «~Questions pour le médecin~» pour faciliter des discussions éclairées sur les options thérapeutiques.
+
+\paragraph{Pour les professionnels de santé.}
+
+Cette section fournit~:
+\begin{itemize}
+\item Une revue systématique des données du cas patient
+\item Une synthèse des preuves issues de la littérature EM/SFC actuelle
+\item L'historique de réponse aux traitements du patient
+\item Des questions spécifiques nécessitant un jugement clinique
+\end{itemize}
+
+Veuillez réviser les recommandations dans le contexte de l'historique médical complet, des contre-indications et des facteurs individuels du patient non capturés dans l'analyse automatisée.
+
+\subsubsection*{Niveaux de certitude}
+
+Les recommandations sont catégorisées selon la qualité des preuves~:
+
+\begin{itemize}
+\item \textbf{Certitude élevée~:} Grandes études (n>100), évaluées par des pairs, répliquées, résultats cohérents, faible biais
+\item \textbf{Certitude moyenne~:} Études modérées (n=20--100), évaluées par des pairs, réplication limitée, ou étude unique de haute qualité
+\item \textbf{Certitude faible~:} Petites études (n<20), prépublications, justification mécanistique uniquement, ou preuves contradictoires
+\end{itemize}
+
+\subsubsection*{Indicateurs de statut}
+
+\begin{itemize}
+\item \textbf{[PRÉLIMINAIRE]} En attente de révision médicale
+\item \textbf{[APPROUVÉ]} Le médecin a révisé et approuvé pour essai
+\item \textbf{[REFUSÉ]} Le médecin a refusé ou jugé inapproprié
+\item \textbf{[EN COURS]} Essai thérapeutique en cours
+\item \textbf{[TERMINÉ]} Essai terminé, voir les résultats de \texttt{treatment-analyst}
+\end{itemize}
+
+\newpage
+
+%% ============================================================================
+%% Recommandations de traitement
+%% ============================================================================
+
+\subsection{Recommandations de traitement}
+
+\subsubsection{Recommandation~: Gestion des acouphènes corrélés à la fatigue}
+\label{rec:acouphenes-2026-01-27}
+
+\paragraph{Problème identifié.}
+
+Le patient présente des acouphènes intenses corrélés aux niveaux de fatigue. Schéma identifié~:
+\begin{itemize}
+\item Acouphènes toujours présents lors de la fatigue
+\item Jamais présents en l'absence de fatigue
+\item Acouphènes plus intenses qu'habituellement (2026-01-27)
+\end{itemize}
+
+Ce schéma suggère fortement que les acouphènes sont secondaires à une dysfonction autonome/neurologique plutôt qu'à une lésion cochléaire primaire, impliquant~: (1) une hypoperfusion cérébrale (débit sanguin réduit vers les centres de traitement auditif), (2) une dysfonction autonome (hyperactivité sympathique, retrait parasympathique), (3) une neuroinflammation affectant les voies auditives, et (4) une possible implication des mastocytes.
+
+\paragraph{Base de preuves.}
+
+\begin{observation}[Prévalence des acouphènes dans l'EM/SFC]
+Schubert et al.~\cite{Schubert2021} ont documenté que les patients EM/SFC ont 1,57 fois plus de risque (OR 1,568) de souffrir d'acouphènes constants dans une cohorte populationnelle de 124~609 individus. La revue systématique de Skare et al.~\cite{Skare2024} portant sur 172 articles a identifié les plaintes cochléaires comme la découverte auditive la plus fréquente dans l'EM/SFC, avec des mécanismes proposés incluant une atteinte vasculaire, des réactions auto-immunes et un stress oxydatif. \textbf{Certitude~: Élevée} (grande étude épidémiologique + revue systématique).
+\end{observation}
+
+\begin{observation}[Hypoperfusion cérébrale dans l'EM/SFC]
+Plusieurs études de neuroimagerie démontrent une réduction de 10 à 20\% du débit sanguin cérébral chez les patients EM/SFC, affectant particulièrement les régions du tronc cérébral contenant les structures de traitement auditif. Van Campen et al.~\cite{vanCampen2020severity} ont documenté une réduction du débit sanguin cérébral même sans hypotension ni tachycardie, suggérant une pathologie vasculaire directe. \textbf{Certitude~: Élevée} (répliqué dans plusieurs études).
+\end{observation}
+
+\begin{hypothesis}[LDN pour les acouphènes dans l'EM/SFC]
+La naltrexone à faible dose montre un taux de réponse positive de 73,9\% chez les patients EM/SFC~\cite{Polo2019LDN}. Des rapports de patients anecdotiques décrivent une amélioration des acouphènes sous LDN, bien qu'aucun essai systématique n'existe. Mécanisme~: effets anti-neuroinflammatoires réduisant la dysfonction des voies auditives médiée par les cytokines. \textbf{Certitude~: Faible pour les acouphènes spécifiquement~; Moyenne pour les symptômes généraux EM/SFC}.
+
+\textit{Statut}~: Patient actuellement sous LDN 4 mg (augmenté de 3 mg, jour 3 au 2026-01-27). Surveiller l'amélioration des acouphènes sur 8 à 12 semaines à cette dose.
+\end{hypothesis}
+
+\subsubsection{Recommandations de niveau 1~: Traiter les mécanismes sous-jacents}
+
+\paragraph{Optimiser le débit sanguin cérébral.}
+
+\begin{enumerate}
+\item \textbf{Charge sel/fluides}~: 2 à 3~L de liquides + 3 à 5~g de sodium par jour. Envisager la solution de réhydratation orale selon la formule OMS. \textit{Niveau de preuve~: Moyen-Élevé}. Augmente le volume sanguin, améliore la perfusion cérébrale orthostatique.
+
+\item \textbf{Vêtements de compression}~: Bas de contention taille-haute 20 à 30~mmHg. \textit{Niveau de preuve~: Moyen}. Réduit la stase veineuse, maintient la précharge cardiaque.
+
+\item \textbf{Positionnement tête de lit élevée}~: Surélever la tête de 10 à 15~cm au repos. \textit{Niveau de preuve~: Faible-Moyen}. Réduit la diurèse nocturne, améliore le volume sanguin matinal.
+\end{enumerate}
+
+\textit{Délai}~: Effets sur le volume sanguin dans les jours suivants~; les bénéfices durables nécessitent une mise en œuvre cohérente.
+
+\paragraph{Supplémentation en magnésium.}
+
+\textbf{Glycinate de magnésium}~: 300 à 400~mg de Mg élémentaire par jour. \textit{Niveau de preuve~: Moyen}. Une étude de phase 2 de la Mayo Clinic~\cite{Cevette2011} a trouvé que les patients souffrant d'acouphènes prenant 532~mg de Mg/jour pendant 3 mois montraient une amélioration significative des scores du Tinnitus Handicap Inventory (p=0,03). Mécanisme~: modulation des récepteurs NMDA, réduction de la surcharge calcique des cellules ciliées.
+
+\textit{Statut}~: $\checkmark$ \textbf{Déjà en cours} avec du glycinate de magnésium quotidien. La dose actuelle est adéquate pour le support des acouphènes.
+
+\paragraph{Mélatonine.}
+
+\textbf{3~mg au coucher}. \textit{Niveau de preuve~: Moyen}. Plusieurs ECR montrent un bénéfice~:
+\begin{itemize}
+\item Abtahi et al.~\cite{Abtahi2017} (2017, n=70)~: La mélatonine 3~mg est plus efficace que la sertraline 50~mg pour les acouphènes (scores THI réduits de 47 à 30)
+\item Meilleurs répondeurs~: acouphènes bilatéraux, antécédent d'exposition au bruit, absence de dépression
+\end{itemize}
+
+\textit{Délai}~: 4 à 6 semaines pour l'effet complet sur les acouphènes~; les bénéfices sur le sommeil peuvent survenir plus tôt.
+
+\paragraph{Optimisation CoQ10/Ubiquinol.}
+
+\textbf{Ubiquinol 100 à 200~mg/jour}. \textit{Niveau de preuve~: Moyen}. Un ECR en double aveugle de 2025~\cite{Abbasi2025CoQ10} (n=50) a trouvé que le CoQ10 100~mg par jour réduisait significativement les scores d'incapacité liés aux acouphènes de --17,2 contre --4,56 placebo (p<0,001). 38,5\% des patients souffrant d'acouphènes présentent des taux réduits de CoQ10.
+
+\textit{Statut}~: $\checkmark$ \textbf{Déjà en cours} avec du CoQ10 quotidien. S'aligne avec l'approche actuelle L-Carnitine + support mitochondrial. La dose est adéquate pour le support des acouphènes selon les preuves des ECR (dose minimale efficace~: 100~mg).
+
+\subsubsection{Recommandations de niveau 2~: Soulagement symptomatique ciblé}
+
+\paragraph{Évaluation de la vitamine B12.}
+
+\textbf{Tester d'abord la B12 sérique}~; si déficit ou niveau bas-normal, méthylcobalamine 1000 à 5000~mcg sublinguale. \textit{Niveau de preuve~: Moyen (bénéfice uniquement chez les patients déficients)}. 42,5 à 47\% des patients souffrant d'acouphènes chroniques présentent un déficit en B12~\cite{Shoenfeld1993}. Les patients déficients ont rapporté une réduction de la sévérité des acouphènes après thérapie B12.
+
+\textit{Statut}~: $\checkmark$ \textbf{Déjà en cours} avec B12 dans le complexe Befact Forte. \textit{Action}~: Envisager un dosage de la B12 pour vérifier l'adéquation, car le dosage du Befact Forte peut différer des doses thérapeutiques utilisées dans les essais sur les acouphènes (1000 à 5000~mcg).
+
+\paragraph{Acide alpha-lipoïque.}
+
+\textbf{R-ALA 300 à 600~mg/jour}. \textit{Niveau de preuve~: Faible-Moyen}. L'ALA 600~mg/jour pendant 2 mois~\cite{Petridou2023} a significativement réduit les scores THI et l'intensité des acouphènes chez les patients présentant une dysfonction cochléaire + syndrome métabolique. Synergie avec la L-Carnitine (toutes deux soutiennent la fonction mitochondriale).
+
+\paragraph{Envisager une composante histamine/mastocytes.}
+
+\begin{itemize}
+\item \textbf{Essai antihistaminique H1} (cétirizine 10~mg/jour ou fexofénadine 180~mg/jour)~: Évaluer sur 2 semaines. \textit{Niveau de preuve~: Faible (justification mécanistique)}. Bloque les effets vasculaires et neurologiques médiés par l'histamine.
+
+\item \textbf{Quercétine} (stabilisateur naturel des mastocytes)~: 500 à 1000~mg deux fois par jour. \textit{Niveau de preuve~: Faible-Moyen}. Réduit la libération d'histamine, anti-inflammatoire.
+\end{itemize}
+
+\textit{Justification}~: L'activation des mastocytes peut provoquer des acouphènes par plusieurs mécanismes. Novak et al.~\cite{Novak2022} ont documenté une réduction de 20 à 24\% du débit sanguin cérébral orthostatique chez les patients présentant un trouble d'activation mastocytaire.
+
+\subsubsection{Plan de surveillance}
+
+Suivre sur 8 à 12 semaines~:
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Paramètre} & \textbf{Méthode} & \textbf{Fréquence} \\
+\midrule
+Sévérité des acouphènes & Échelle 0--10 & Quotidienne \\
+Niveau de fatigue & Échelle 0--10 & Quotidienne \\
+Corrélation acouphènes-fatigue & Vérifier si le schéma persiste & Révision hebdomadaire \\
+Symptômes orthostatiques & Vertiges à la station debout & Quotidienne \\
+Qualité du sommeil & Échelle 0--10 & Quotidienne \\
+Niveau d'activité & Nombre de pas ou journal d'activité & Quotidienne \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Critères de succès}~:
+\begin{itemize}
+\item Réduction de la sévérité des acouphènes de 2+ points sur l'échelle 0--10
+\item Réduction de la force de corrélation acouphènes-fatigue
+\item Amélioration de la tolérance orthostatique
+\end{itemize}
+
+\textbf{Critères d'échec (interrompre l'intervention)}~:
+\begin{itemize}
+\item Aggravation des acouphènes
+\item Nouveaux symptômes (perte auditive, vertiges, douleur auriculaire)
+\item Effets secondaires intolérables
+\end{itemize}
+
+\subsubsection{Signes d'alarme --- Consulter en urgence si~:}
+
+\begin{itemize}
+\item \textbf{Perte auditive soudaine} (unilatérale ou bilatérale) --- urgence médicale nécessitant une évaluation immédiate
+\item \textbf{Acouphènes pulsatiles} (entendre les battements du cœur) --- nécessite une évaluation vasculaire
+\item \textbf{Acouphènes avec nouveaux symptômes neurologiques} (faiblesse, engourdissement, troubles visuels)
+\item \textbf{Vertiges avec vomissements et impossibilité de se lever}
+\item \textbf{Céphalée sévère avec apparition d'acouphènes}
+\item \textbf{Douleur auriculaire, écoulement ou signes d'infection}
+\end{itemize}
+
+\subsubsection{Questions pour le médecin}
+
+\begin{enumerate}
+\item \textbf{Concernant le débit sanguin cérébral}~: L'écho-Doppler transcrânien serait-il utile pour évaluer objectivement la perfusion cérébrale et la corréler avec les symptômes d'acouphènes~? Un essai de fludrocortisone (Florinef) 0,1~mg est-il justifié si la charge sel/fluides est insuffisante~?
+
+\item \textbf{Concernant les suppléments}~: Recommanderiez-vous un dosage de la vitamine B12, du magnésium et du CoQ10 pour identifier les déficits avant la supplémentation~? Y a-t-il des préoccupations quant à l'ajout de ces suppléments au régime actuel (notamment les interactions médicamenteuses)~?
+
+\item \textbf{Concernant les médicaments}~: La bétahistine est-elle disponible et mérite-t-elle d'être essayée compte tenu de la possible composante vestibulaire/circulation cérébrale~? Le patient a récemment augmenté le LDN de 3~mg à 4~mg --- devrions-nous surveiller à cette dose pendant 8 à 12 semaines avant d'envisager une augmentation supplémentaire, ou un dosage plus élevé (jusqu'à 4,5 à 5~mg) est-il justifié pour les acouphènes/la neuroinflammation~?
+
+\item \textbf{Concernant les investigations}~: Une évaluation audiologique avec audiométrie tonale pure et tympanométrie devrait-elle être réalisée pour exclure une perte auditive de conduction ou neurosensorielle~? Un test de table basculante est-il indiqué pour évaluer formellement l'intolérance orthostatique et sa relation avec les symptômes~?
+
+\item \textbf{Concernant la composante mastocytaire}~: Compte tenu du chevauchement EM/SFC-SAMA, le tryptase sérique ou les métabolites urinaires d'histamine sur 24 heures seraient-ils informatifs~? Devrait-on essayer le kétotifène (stabilisateur de mastocytes + bloqueur H1) si les antihistaminiques procurent un bénéfice partiel~?
+\end{enumerate}
+
+\subsubsection{Résumé de la qualité des preuves}
+
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+\textbf{Niveau de certitude} & \textbf{Interventions} \\
+\midrule
+Élevée & Charge sel/fluides pour les symptômes orthostatiques \\
+Moyenne & Mélatonine 3~mg, Magnésium (si déficit), CoQ10, B12 (si déficit) \\
+Faible & Vinpocétine, ALA seul, antihistaminiques, bétahistine \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Stratégie de mise en œuvre}
+
+\paragraph{Semaines 1--2~: Fondation.}
+\begin{enumerate}
+\item Optimiser les apports en sel/fluides (2 à 3~L de liquides, 3 à 5~g de sodium)
+\item Démarrer la mélatonine 3~mg au coucher (\textit{seul nouveau supplément nécessaire})
+\item $\checkmark$ Glycinate de magnésium déjà optimisé (en cours)
+\item $\checkmark$ CoQ10 déjà optimisé (en cours)
+\item $\checkmark$ B12 couverte via Befact Forte (vérifier l'adéquation de la dose par test)
+\item Commencer à suivre systématiquement la corrélation acouphènes-fatigue (déjà initié le 2026-01-27)
+\end{enumerate}
+
+\paragraph{Semaines 2--4~: Deuxième niveau.}
+\begin{enumerate}
+\item Demander un dosage de la B12 (vérifier que le Befact Forte assure un dosage adéquat)
+\item Envisager l'ajout d'acide alpha-lipoïque (R-ALA) 300 à 600~mg/jour (synergique avec la L-Carnitine actuelle)
+\item Si symptômes SAMA présents, essai de cétirizine 10~mg/jour ou quercétine 500 à 1000~mg deux fois par jour
+\end{enumerate}
+
+\paragraph{Semaines 4--8~: Évaluation et ajustement.}
+\begin{enumerate}
+\setcounter{enumi}{7}
+\item Évaluer la réponse aux interventions
+\item Discuter des interventions nécessitant une ordonnance (bétahistine, fludrocortisone si nécessaire)
+\item Envisager la vinpocétine si la circulation cérébrale reste la préoccupation principale
+\end{enumerate}
+
+\paragraph{En continu.}
+\begin{itemize}
+\item Poursuivre l'essai LDN 4~mg et surveiller l'amélioration des acouphènes sur 8 à 12 semaines
+\item Maintenir le rythme pour prévenir les pics d'acouphènes déclenchés par la fatigue
+\item Documenter les schémas pour l'optimisation du traitement
+\item \textbf{Important}~: Assurer une prise quotidienne cohérente (le patient a noté une dose manquée le 2026-01-26) --- le LDN nécessite une prise régulière pour un effet soutenu
+\end{itemize}
+
+\subsubsection{Statut}
+
+\textbf{[RECOMMANDATION PRÉLIMINAIRE]} --- Cette analyse est basée sur la littérature disponible et les données du cas patient. Elle \textbf{doit être révisée et approuvée par le médecin traitant} avant mise en œuvre. Le médecin peut identifier des contre-indications ou alternatives spécifiques à l'historique médical complet.
+
+\textbf{Généré~:} 2026-01-27
+
+\textbf{Date de recherche bibliographique~:} 2026-01-27
+
+\newpage
+
+%% ============================================================================
+%% Analyses d'efficacité des traitements
+%% ============================================================================
+
+\subsection{Analyses d'efficacité des traitements}
+
+\textit{Les analyses statistiques de l'agent \texttt{treatment-analyst} seront ajoutées ici après la finalisation des essais thérapeutiques.}
+
+\subsection*{Section réservée aux analyses futures}
+
+\textit{Ces analyses comprendront~: comparaison période de base versus période de traitement, tailles d'effet, signification statistique, visualisations de séries temporelles, classement comparatif des traitements essayés, et recommandations de poursuite ou d'arrêt.}
+
+%% ============================================================================
+%% Hypothèses de sous-type et mécanistiques
+%% ============================================================================
+
+\subsection{Hypothèses de sous-type et mécanistiques}
+
+\textit{Les analyses de l'agent \texttt{hypothesis-generator} seront ajoutées ici.}
+
+\subsection*{Section réservée aux hypothèses futures}
+
+\textit{Ces analyses comprendront~: analyse des schémas de symptômes, classification de sous-type proposée, hypothèses mécanistiques, prédictions testables, tests diagnostiques recommandés, prédictions de réponse thérapeutique, et évaluation de la confiance.}
+
+%% ============================================================================
+%% Protocoles de gestion de crise
+%% ============================================================================
+
+\subsection{Protocoles de gestion de crise}
+
+\textit{Les protocoles d'urgence de l'agent \texttt{crisis-manager} seront ajoutés ici au besoin lors d'exacerbations symptomatiques sévères.}
+
+\subsection*{Section réservée aux crises}
+
+\textit{Ces protocoles comprendront~: aperçu et évaluation de la sévérité, protocole de prise en charge immédiate, données de suivi de récupération, enseignements et stratégies de prévention, et documentation pour service d'urgence si nécessaire.}
+
+%% ============================================================================
+%% Mises à jour de la recherche
+%% ============================================================================
+
+\subsection{Mises à jour de la recherche}
+
+\textit{Des résumés mensuels de l'agent \texttt{research-monitor} mettant en évidence les nouvelles découvertes de recherche pertinentes pour ce cas seront ajoutés ici.}
+
+\subsection*{Section réservée aux résumés de recherche}
+
+\textit{Ces résumés couvriront~: découvertes importantes en recherche EM/SFC, nouvelles études sur les biomarqueurs pertinents pour le profil de symptômes du patient, essais thérapeutiques et résultats, essais cliniques pour lesquels le patient pourrait être éligible, et mises à jour de la base de preuves pour les traitements actuels.}
