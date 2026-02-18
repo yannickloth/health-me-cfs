@@ -1,0 +1,137 @@
+date: 2026-02-17
+day: Tuesday
+context: Day 6 post-Feb 12 crash - Day 3 post-secondary crash (Feb 14 overexertion → Feb 15 peak)
+
+medications:
+  - name: LDN (Low-Dose Naltrexone)
+    dose: 3mg
+    timing: morning
+    notes: reduced from 4mg
+
+supplements:
+  - name: Magnesium Glycinate
+    timing: morning
+  - name: MetaDigest
+    timing: morning
+  - name: MCT Oil
+    timing: morning
+  - name: D-Ribose
+    timing: evening
+  - name: Usual supplements
+    notes: full usual protocol taken (patient confirmed "all usual supplements")
+
+activity:
+  morning:
+    - type: nap
+      duration: ~1h30
+      timing: morning
+      notes: voluntary rest during what was otherwise a good day
+
+symptoms:
+  energy:
+    overall_status: good
+    fatigue: mostly absent
+    self_assessment: "mostly not tired"
+    overall_assessment: Significant improvement from Feb 16 - first good day after compounded PEM
+
+  cognitive_function:
+    status: good
+    impairment: none
+    notes: |
+      Cognitive function fully restored compared to Feb 16 (6-7/10, moderately impaired).
+      Patient reports no cognitive impairment today.
+
+  weakness:
+    status: absent
+    notes: |
+      No weakness reported. However, activity was predominantly sedentary:
+      sitting at computer, on couch, driving. Absence of weakness at rest
+      does not confirm full physical recovery.
+
+  pain:
+    headache: absent
+    body_pain: absent
+    neck_cramp:
+      timing: evening
+      onset: spontaneous
+      description: crampe au cou spontanée en soirée
+    overall: mostly absent — crampe cervicale spontanée en soirée
+
+  effort_tolerance:
+    patient_question: "wonders if could support some effort, and at which level"
+    clinical_note: |
+      Patient is curious about returning to effort. This is a meaningful positive signal
+      (subjective sense of capacity returning) but must be interpreted cautiously.
+      - Activity today was fully sedentary: computer, couch, driving
+      - No physical demands were tested
+      - Feb 14 showed: feeling capable ≠ being within safe envelope
+      - 48h monitoring window (Feb 18-19) must pass before any activity increase
+      - If Feb 18-19 remain symptom-free → cautious stepwise increase can be considered
+
+patient_observations:
+  treatment_effect_hypothesis:
+    patient_question: "wondering if L-carnitine and LDN are starting to have visible effects"
+    context: |
+      LDN: reduced from 4mg to 3mg on Feb 12 and maintained at 3mg through Feb 13-17 (6 days)
+      L-carnitine (LCAR): in supplement protocol since at least Feb 14
+      Today is the first clearly good day after a compounded PEM crash sequence.
+    clinical_note: |
+      This is a plausible hypothesis worth tracking. Both agents have mechanisms
+      that could contribute to the recovery pattern observed:
+      - LDN (Low-Dose Naltrexone): neuroimmune modulation, microglial inhibition,
+        endorphin up-regulation; typical onset 4-12 weeks but some patients notice
+        earlier changes; dose reduction from 4→3mg could also reduce side effects
+        and improve tolerability
+      - L-carnitine (acetyl-L-carnitine form): mitochondrial transport of fatty acids,
+        ATP synthesis support, some evidence for fatigue reduction in ME/CFS;
+        effects may become more apparent after sustained use
+      However, confounding factors exist:
+      - Natural PEM recovery trajectory (Day 3 post-peak is consistent with typical resolution)
+      - Activity today was sedentary (computer, couch, driving) — reduced metabolic demand
+      - Magnesium glycinate, D-ribose, MCT also support energy metabolism
+      Data point to log for future pattern analysis — correlate with coming days.
+
+interpretation: |
+  RECOVERY DAY - First good day after compounded PEM crash
+
+  **CONTEXT:**
+  - Feb 12: Primary crash trigger
+  - Feb 13: Peak of primary crash (weakness, extreme sleepiness)
+  - Feb 14: Overexertion during primary recovery window
+  - Feb 15: Secondary crash peak (huge headache all day + sinus/ear symptoms)
+  - Feb 16: Continuing PEM - "really tired" → "extremely tired" in evening + tinnitus
+  - Feb 17 (TODAY): Feeling GOOD - mostly not tired, no headache, no pain
+
+  **SIGNIFICANT IMPROVEMENT:**
+
+  This is the first clearly positive day after the compounded crash sequence.
+  Absence of:
+  - Fatigue / tiredness (mostly)
+  - Headache (was the main symptom on Feb 15)
+  - Pain (body pain absent)
+
+  This pattern is consistent with ME/CFS recovery trajectory:
+  - Peak symptoms: Feb 15-16
+  - Gradual resolution: 48-72h after peak
+  - Feb 17 (Day 3 post-peak): First good day
+
+  **IMPORTANT CAUTION:**
+
+  Feeling good today does NOT mean recovery is complete.
+  Feb 14 demonstrated this exact trap: felt capable → overexerted → secondary crash 24h later.
+
+  **STRICT 48h MONITORING REQUIRED:**
+  Continue monitoring through Feb 18-19 before considering any activity increase.
+  Feeling good is a necessary but NOT sufficient condition for safe activity resumption.
+
+  **SUPPLEMENTS NOTE:**
+  Full protocol maintained including:
+  - LDN 3mg (neuroimmune modulation)
+  - Magnesium glycinate (mitochondrial support, sleep quality)
+  - MetaDigest (digestive enzyme support)
+  - MCT oil (alternative energy substrate)
+  - D-ribose (ATP synthesis support)
+
+  Consistent supplement protocol through recovery period is appropriate.
+  The metabolic support supplements (D-ribose, MCT, CoQ10 equivalents) are especially
+  relevant during PEM recovery when energy metabolism is compromised.

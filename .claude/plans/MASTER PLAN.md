@@ -335,7 +335,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 ## Phase 3: Research Gaps & Ch. 15 Creation
 
-**Objective:** Create Ch. 15 "Symptom-Producing Mechanisms" addressing Category A research gap, plus resolve any Phase 0.5 gaps assigned to this phase.
+**Objective:** Create Ch. 15 "Symptom-Producing Mechanisms" addressing Category A research gap, plus resolve any Phase 0.5 gaps assigned to this phase. **Also add comprehensive trigger mechanism documentation** to enable easy navigation from trigger → mechanism.
 
 **Source Plans:** REORGANIZATION_AND_RESEARCH_PLAN.md, RESEARCH_GAPS.md, Phase 0.5 gap inventory
 
@@ -356,6 +356,36 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 **Estimated:** 40-50 pages
 
+### Trigger Mechanism Documentation (NEW)
+
+**Rationale:** Patients identified with specific triggers (e.g., EBV in patient case files) need easy navigation to understand HOW that trigger causes ME/CFS. Currently, triggers are listed (Ch 5) and mechanisms exist (Ch 7, Ch 14) but are not systematically linked.
+
+**Deliverables:**
+1. **Ch 5 addition:** New subsection "Trigger Mechanisms Overview" (~5 pages)
+   - Brief explanation of each major trigger's mechanism
+   - Forward references to detailed Ch 7 sections
+   - Patient-facing, accessible language
+2. **Ch 7 addition:** New section "Post-Infectious Pathogenesis: From Acute Trigger to Chronic Disease" (~10-15 pages)
+   - Systematic treatment of each trigger:
+     - EBV → molecular mimicry, B cell infection, autoantibody generation
+     - COVID-19 → spike protein persistence, endothelial damage, microclotting
+     - Influenza → cytokine storm, immune exhaustion
+     - Enteroviruses → persistent infection, tissue reservoirs
+     - HHV-6 → neurotropism, mitochondrial effects
+     - Q fever, Giardia → immune dysregulation, barrier dysfunction
+   - Cross-trigger comparison table
+   - Unified pathogenesis framework: Trigger → Immune response → Vicious cycles → Chronicity
+   - Explicit cross-references to existing Ch 7 content (no duplication)
+
+**Existing content to reference (NOT duplicate):**
+- Ch 7, Section~\ref{sec:viral}: Viral reactivation details
+- Ch 7, Section~\ref{sec:autoimmunity}: Molecular mimicry, epitope spreading
+- Ch 7, Section~\ref{sec:herpesviruses}: EBV, HHV-6, CMV specifics
+- Ch 14g: EBV-GPCR molecular mimicry hypothesis
+- Ch 14c: Multi-lock integration model
+
+**Navigation principle:** "If patient X has trigger Y, reader should find trigger Y in Ch 5 index → read brief mechanism → follow reference to Ch 7 detailed pathogenesis → see cross-references to treatment (Part 3)"
+
 ### Tasks
 
 **Brainstorming (R2) — BEFORE any writing:**
@@ -373,7 +403,16 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **3.6** Literature search: Microglia and neuroinflammation | **Agent:** literature-integrator (Sonnet)
 - [ ] **3.6b** Literature search: Any new mechanisms identified in brainstorming (3.0a-c) | **Agent:** literature-integrator (Sonnet)
 
-**Content Writing:**
+**Trigger Mechanism Documentation (NEW — added 2026-02-16):**
+- [ ] **3.6c** Audit existing trigger mechanism content in Ch 5, Ch 7, Ch 14 — map what exists vs. what's missing | **Agent:** content-reviewer (Sonnet)
+- [ ] **3.6d** Literature search: Trigger-specific mechanisms (EBV pathogenesis, COVID spike persistence, etc.) | **Agent:** literature-integrator (Sonnet)
+- [ ] **3.6e** Write Ch 5 addition: "Trigger Mechanisms Overview" (~5 pages, patient-facing) | **Agent:** scientific-insight-generator (Sonnet)
+- [ ] **3.6f** Write Ch 7 addition: "Post-Infectious Pathogenesis: From Acute Trigger to Chronic Disease" (~10-15 pages) | **Agent:** scientific-insight-generator (Sonnet)
+- [ ] **3.6g** Create cross-trigger comparison table | **Agent:** sonnet-general
+- [ ] **3.6h** Add cross-references from Ch 5 → Ch 7 → Ch 14 → Part 3 | **Agent:** protocol-linker (Haiku)
+- [ ] **3.6i** Verify no content duplication (references only) | **Agent:** content-reviewer (Sonnet)
+
+**Content Writing (Ch 15):**
 - [ ] **3.7** Write section 15.1 (framework) | **Agent:** scientific-insight-generator (Sonnet)
 - [ ] **3.8** Write section 15.2 (adenosine) | **Agent:** scientific-insight-generator (Sonnet)
 - [ ] **3.9** Write section 15.3 (cytokines) | **Agent:** scientific-insight-generator (Sonnet)

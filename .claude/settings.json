@@ -1,8 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Write(./.claude/content-staging/**)",
-      "Edit(./.claude/content-staging/**)",
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)",
       "Bash(nix build:*)",
       "Bash(nix run:*)",
       "Bash(latexmk:*)",
@@ -31,7 +32,6 @@
       "Bash(xargs:*)",
       "Bash(test:*)",
       "Bash(git push:*)",
-      "Read(//home/nicky/code/causal-graph-theory/**)",
       "Bash(file:*)",
       "Bash(command:*)",
       "Bash(pdftoppm:*)",
