@@ -846,7 +846,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 |-------|--------|-----------------|------------------|-------------|
 | 0.5 | ✅ COMPLETE | 6/6 | 0/6 | 100% |
 | 1 | ✅ COMPLETE | 11/11 | 0/11 | 100% |
-| 2 | ✅ COMPLETE | 8/12 | 4/12 | 67% |
+| 2 | ✅ COMPLETE | 12/12 | 0/12 | 100% |
 | 3 | ⏳ NOT STARTED | 0/22 | 22/22 | 0% |
 | 4 | ⏳ NOT STARTED | 0/15 | 15/15 | 0% |
 | 5 | ⏳ NOT STARTED | 0/35 | 35/35 | 0% |
@@ -854,7 +854,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 | 7 | ⏳ NOT STARTED | 0/60 | 60/60 | 0% |
 | 8 | ⏳ NOT STARTED | 0/9 | 9/9 | 0% |
 
-**Overall Progress:** 30/222 tasks (14%)
+**Overall Progress:** 34/222 tasks (15%)
 **Estimated Remaining:** 18-24 sessions
 
 ### Critical Path Progress
@@ -981,6 +981,90 @@ Critical Context:
 | `.claude/plans/MASTER PLAN.md` | This document | 2026-02-20 | ✅ Current |
 | `.mistral_vibe_config.json` | Mistral Vibe configuration | 2026-02-20 | ✅ Current |
 | `ms.tex` | Main document | 2026-02-16 | ✅ Current |
+
+### Pending Sources to Process
+
+| Source | Type | Relevance | Assigned Phase | Status |
+|--------|------|-----------|----------------|--------|
+| `/home/nicky/Downloads/PAIS_MECFS_Medikas_IND_off-label_Version_21.02.2025-1.pdf` | Austrian clinical guidance | Off-label medication list for PAIS/ME/CFS, covered by ÖGK/BVAEB/SVS. 7 indication categories: sleep/wake (melatonin), MCAS/tachycardia (H1H2 blockers, ketotifen), PoTS (nebivolol, ivabradin), orthostatic intolerance (mestinon, midodrine, fludrocortisone), endothelial dysfunction/PEM (statins, magnosolv), microthrombi (TASS, sulodexide, clopidogrel, cerebokan), cognitive/neuroinflammation (LDN 0.5–5mg, low-dose aripiprazol, fluvoxamin, guanfacin+NAC). Source: MedUni Wien Referenzzentrum post-virale Syndrome, v2025-02-21. | Phase 6 (primary), Phase 4 (proBNP/biomarkers), Phase 5 (hypothesis), Patient Yannick protocols | ⏳ TO READ & INTEGRATE |
+
+**Content Analysis — What Needs to Go Into the Paper:**
+
+*Items likely already covered (verify before writing):*
+- LDN 0.5–5mg — already cited (Polo2019LDN). Verify dose range matches.
+- Melatonin retard — likely in sleep chapter. Verify Circadin brand and 2–4mg dose.
+- H1/H2 blockers for MCAS (desloratadin, cetirizin, famotidin, cimetidin, rupatadin) — likely in immune chapter.
+- Mestinon / Midodrine / Fludrocortisone for OI/PoTS — likely in cardiovascular chapter. Verify presence.
+- Cardioselective beta-blockers (nebivolol) for PoTS — likely mentioned.
+
+*Items potentially missing — high priority for integration:*
+
+1. **Low-dose Aripiprazol (0.25–2mg magistral)** for neuroinflammation/cognitive dysfunction
+   - Far below psychiatric doses (standard 10–30mg); magistral compounding needed
+   - Mechanism: dopamine partial agonism at very low doses, microglial modulation
+   - Target chapter: cognitive dysfunction section (Ch 8 or Ch 14j or new Ch 17)
+   - Needs literature search to support mechanism and dosing rationale
+
+2. **Ivabradin** for PoTS/tachycardia (If-channel blocker, distinct from beta-blockers)
+   - Different mechanism from cardioselective beta-blockers; relevant when beta-blockers contraindicated or insufficient
+   - Target chapter: cardiovascular/autonomic treatment chapter
+   - Needs literature search: ivabradin PoTS ME/CFS evidence
+
+3. **Sulodexide** for microthrombi/endothelial dysfunction
+   - Glycosaminoglycan with anticoagulant and endothelial-protective properties
+   - Distinct from TASS (aspirin) and clopidogrel; different mechanism
+   - Target chapter: microthrombi/endothelial treatment section
+   - Needs literature search: sulodexide ME/CFS or long-COVID microthrombi
+
+4. **Fluvoxamine** for cognitive dysfunction — neuroinflammation rationale (not just antidepressant)
+   - Sigma-1 receptor agonist with anti-inflammatory/neuroprotective properties
+   - Framed here alongside LDN and aripiprazol under "cognitive dysfunction (neuroinflammation)"
+   - Target chapter: neuroinflammation / cognitive dysfunction treatment
+   - Needs literature search: fluvoxamine sigma-1 neuroinflammation ME/CFS
+
+5. **Guanfacin + N-Acetylcysteine combination** for cognitive dysfunction
+   - Guanfacin: alpha-2A agonist, prefrontal cortex function; note: not for children per this document
+   - NAC: glutathione precursor, oxidative stress; synergy with guanfacin for brain fog
+   - Target chapter: cognitive/neurological treatment section
+   - Needs literature search: guanfacin NAC brain fog ME/CFS or long-COVID
+
+6. **proBNP elevation as biomarker-driven prescribing criterion** for endothelial dysfunction treatment
+   - Document explicitly links: proBNP elevation + endothelial dysfunction → statin prescription (Atorvastatin 10mg)
+   - Also links to PEM prevention (novel: endothelial → PEM causal chain)
+   - Target chapter: Phase 4 biomarker stream AND treatment chapter
+   - Cross-reference: endothelial dysfunction pathophysiology (Ch 7 or 10)
+   - No additional literature search needed — cite this document + find supporting papers
+
+7. **Austrian insurance/access policy note** (ÖGK, BVAEB, SVS coverage; off-label; requires patient consent/education)
+   - Factual, cite-able: MedUni Wien Referenzzentrum post-virale Syndrome, v2025-02-21
+   - Add as a policy/access sidebar or note in treatment chapter introduction
+   - No literature search needed — cite the document directly
+
+8. **Mestinon dose distinction: 10mg (magistral) vs 60mg (standard tablet)**
+   - The document explicitly distinguishes "Magistraliter-Rezept mit 10mg" from "'normal' mit 60mg"
+   - The low 10mg dose may be underdocumented in existing chapter; verify and add if missing
+   - Target: OI/PoTS treatment section
+
+**Tasks to execute from this source:**
+
+- [ ] **6.0c** Verify coverage of 5 "likely already present" items — check ch14a–d, ch7, ch8 for melatonin, H1H2, Mestinon/Midodrine/Fludrocortisone, beta-blockers, LDN doses | **Agent:** content-reviewer (Sonnet)
+- [ ] **6.0d** Literature search: Low-dose aripiprazol (0.25–2mg) for neuroinflammation/ME/CFS | **Agent:** literature-integrator (Sonnet)
+- [ ] **6.0e** Literature search: Ivabradin for PoTS in ME/CFS or POTS context | **Agent:** literature-integrator (Sonnet)
+- [ ] **6.0f** Literature search: Sulodexide for microthrombi / endothelial dysfunction in ME/CFS or long-COVID | **Agent:** literature-integrator (Sonnet)
+- [ ] **6.0g** Literature search: Fluvoxamine sigma-1 receptor agonism and neuroinflammation in ME/CFS or long-COVID | **Agent:** literature-integrator (Sonnet)
+- [ ] **6.0h** Literature search: Guanfacin + NAC combination for brain fog / cognitive dysfunction | **Agent:** literature-integrator (Sonnet)
+- [ ] **6.0i** Draft content: Low-dose aripiprazol section — mechanism (dopamine partial agonism, microglial modulation at ultra-low dose), dose range, evidence, prescribing note | **Agent:** medical-advisor (Opus)
+- [ ] **6.0j** Draft content: Ivabradin section — mechanism (If-channel), PoTS evidence, comparison with beta-blockers | **Agent:** sonnet-general
+- [ ] **6.0k** Draft content: Sulodexide section — mechanism, microthrombi evidence, endothelial protection | **Agent:** sonnet-general
+- [ ] **6.0l** Draft content: Fluvoxamine-as-neuroinflammation-treatment section — sigma-1 mechanism, evidence, dose | **Agent:** sonnet-general
+- [ ] **6.0m** Draft content: Guanfacin + NAC section — prefrontal mechanism, oxidative stress synergy, age restriction note | **Agent:** sonnet-general
+- [ ] **6.0n** Draft content: proBNP as endothelial biomarker → statin prescribing criterion; link to PEM prevention | **Agent:** sonnet-general
+- [ ] **6.0o** Draft content: Austrian policy note — off-label coverage (ÖGK/BVAEB/SVS), patient consent requirement, MedUni Wien source | **Agent:** haiku-general
+- [ ] **6.0p** Verify and expand Mestinon dose information: confirm 10mg magistral vs 60mg standard distinction in existing chapter | **Agent:** content-reviewer (Sonnet)
+- [ ] **6.0q** Integrate all 8 drafted items into target chapters; add cross-references | **Agent:** chapter-integrator (Sonnet)
+- [ ] **6.0r** Medical safety review of all new content from this source | **Agent:** medical-advisor (Opus)
+
+---
 
 ### Content Staging Files (Phase 2 Source)
 
