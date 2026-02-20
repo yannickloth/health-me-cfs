@@ -846,7 +846,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 |-------|--------|-----------------|------------------|-------------|
 | 0.5 | ✅ COMPLETE | 6/6 | 0/6 | 100% |
 | 1 | ✅ COMPLETE | 11/11 | 0/11 | 100% |
-| 2 | ⏳ IN PROGRESS | 0/12 | 12/12 | 0% |
+| 2 | ⏳ IN PROGRESS | 1/12 | 11/12 | 8% |
 | 3 | ⏳ NOT STARTED | 0/22 | 22/22 | 0% |
 | 4 | ⏳ NOT STARTED | 0/15 | 15/15 | 0% |
 | 5 | ⏳ NOT STARTED | 0/35 | 35/35 | 0% |
@@ -854,7 +854,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 | 7 | ⏳ NOT STARTED | 0/60 | 60/60 | 0% |
 | 8 | ⏳ NOT STARTED | 0/9 | 9/9 | 0% |
 
-**Overall Progress:** 22/222 tasks (10%)
+**Overall Progress:** 23/222 tasks (10%)
 **Estimated Remaining:** 20-26 sessions
 
 ### Critical Path Progress
@@ -884,7 +884,13 @@ gantt
 2. **MEDIUM Priority:** HRV-guided pacing, Sports-medicine pacing, Wirth neurotransmitter insights
 3. **MEDIUM Priority:** Wirth-Scheibenbogen 2025 insights
 
-**Current Task:** 2.1 - Integrate acute-onset protocol into Ch 14a/14b
+**Current Task:** 2.2 - Integrate front-loading strategy into Ch 14a
+
+**Status:** Task 2.1 ✅ COMPLETE (2026-02-20)
+- Acute onset protocol integrated into ch14b-action-mild-moderate.tex
+- All cross-references verified and working
+- Build successful (result/ms.pdf generated)
+- 1,100 words added
 
 **Blockers:** None
 **Dependencies:** Phase 1 complete ✓
@@ -980,7 +986,7 @@ Critical Context:
 
 | File | Target | Priority | Status |
 |------|--------|----------|--------|
-| `INTEGRATION_GUIDE_acute-onset-protocol.md` | Ch 14a/b | HIGH | ⏳ Pending |
+| `INTEGRATION_GUIDE_acute-onset-protocol.md` | Ch 14b | HIGH | ✅ COMPLETE (2026-02-20) |
 | `INTEGRATION_GUIDE_front-loading-strategy.md` | Ch 14a | HIGH | ⏳ Pending |
 | `INTEGRATION_GUIDE_hrv-guided-pacing.md` | Ch 17 | MEDIUM | ⏳ Pending |
 | `INTEGRATION_GUIDE_sports-medicine-pacing.md` | Ch 17 | MEDIUM | ⏳ Pending |
