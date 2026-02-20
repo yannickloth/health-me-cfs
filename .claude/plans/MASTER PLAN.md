@@ -836,4 +836,360 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 ---
 
-**End of MASTER PLAN.md — Single Unified Version**
+## 📊 Progress Tracking Dashboard
+
+**Last Updated:** 2026-02-20 | **Current Phase:** Phase 2 (Content-Staging Integration)
+
+### Phase Completion Status
+
+| Phase | Status | Tasks Completed | Tasks Remaining | % Complete |
+|-------|--------|-----------------|------------------|-------------|
+| 0.5 | ✅ COMPLETE | 6/6 | 0/6 | 100% |
+| 1 | ✅ COMPLETE | 11/11 | 0/11 | 100% |
+| 2 | ⏳ IN PROGRESS | 0/12 | 12/12 | 0% |
+| 3 | ⏳ NOT STARTED | 0/22 | 22/22 | 0% |
+| 4 | ⏳ NOT STARTED | 0/15 | 15/15 | 0% |
+| 5 | ⏳ NOT STARTED | 0/35 | 35/35 | 0% |
+| 6 | ⏳ NOT STARTED | 0/16 | 16/16 | 0% |
+| 7 | ⏳ NOT STARTED | 0/60 | 60/60 | 0% |
+| 8 | ⏳ NOT STARTED | 0/9 | 9/9 | 0% |
+
+**Overall Progress:** 22/222 tasks (10%)
+**Estimated Remaining:** 20-26 sessions
+
+### Critical Path Progress
+
+```mermaid
+gantt
+    title ME/CFS Documentation Project - Critical Path
+    dateFormat  YYYY-MM-DD
+    section Phases
+    Phase 0.5 :done, p05, 2026-02-10, 2026-02-14
+    Phase 1 :done, p1, after p05, 2026-02-14, 2026-02-16
+    Phase 2 :active, p2, after p1, 2026-02-20, 24d
+    Phase 3 :p3, after p2, 4d
+    Phase 4 :p4, after p2, 3d
+    Phase 5 :p5, after p2, 4d
+    Phase 6 :p6, after p2, 2d
+    Phase 7 :p7, after p3,p4,p5,p6, 8d
+    Phase 8 :p8, after p7, 2d
+```
+
+### Current Focus: Phase 2 - Content-Staging Integration
+
+**Objective:** Integrate 10 existing `.tex` files + 7 integration guides from `.claude/content-staging/` into main document.
+
+**Priority Order:**
+1. **HIGH Priority:** Acute-onset protocol, Front-loading strategy, Astrocyte-energy-gate, CNS-energy-triage
+2. **MEDIUM Priority:** HRV-guided pacing, Sports-medicine pacing, Wirth neurotransmitter insights
+3. **MEDIUM Priority:** Wirth-Scheibenbogen 2025 insights
+
+**Current Task:** 2.1 - Integrate acute-onset protocol into Ch 14a/14b
+
+**Blockers:** None
+**Dependencies:** Phase 1 complete ✓
+
+### Upcoming Milestones
+
+- **Phase 2 Complete:** Target 2026-02-24 (4 days)
+- **Phase 3 Start:** Target 2026-02-25
+- **Parallel Phases 3-6:** Target completion 2026-03-05
+- **Phase 7 Start:** Target 2026-03-06
+- **Project Complete:** Target 2026-03-15
+
+---
+
+## 🔄 Continuation Protocol
+
+**When to Use:** When context usage exceeds 35% (70k tokens) or when switching between major phases.
+
+### Standard Continuation Prompt Template
+
+```text
+Continue ME/CFS Documentation Project - Phase [X]
+Current Status: [1-2 sentence summary of progress]
+Active Files: [list key files with brief status]
+Recent Decisions: [critical choices made since last continuation]
+Next Steps: [specific next 3-5 tasks]
+Critical Context: [essential information only - NOT full conversation]
+```
+
+### Phase-Specific Continuation Examples
+
+**Phase 2 Continuation:**
+```text
+Continue ME/CFS Documentation Project - Phase 2: Content-Staging Integration
+Current Status: Task 2.1 (acute-onset protocol) in progress, 0/12 tasks complete
+Active Files: 
+  - .claude/content-staging/INTEGRATION_GUIDE_acute-onset-protocol.md (source)
+  - contents/part3-treatment/ch14a-urgent-action-severe.tex (target)
+  - contents/part3-treatment/ch14b-action-mild-moderate.tex (target)
+Recent Decisions: 
+  - Using existing section structure in ch14a/b
+  - Adding cross-references to ch15 (when created in Phase 3)
+  - Preserving original author voice and style
+Next Steps:
+  1. Complete acute-onset protocol integration (Task 2.1)
+  2. Front-loading strategy integration (Task 2.2)
+  3. HRV-guided pacing integration (Task 2.3)
+  4. Build verification after each integration
+Critical Context:
+  - Phase 1 complete: patient files reorganized
+  - Phase 0.5 gap inventory available for reference
+  - All staging content in .claude/content-staging/
+  - Build system: nix build → result/ms.pdf
+```
+
+**Phase 3 Continuation:**
+```text
+Continue ME/CFS Documentation Project - Phase 3: Research Gaps & Ch. 15 Creation
+Current Status: Brainstorming complete, skeleton created, literature searches in progress
+Active Files:
+  - contents/part2-pathophysiology/ch15-symptom-producing-mechanisms.tex (new)
+  - .claude/plans/MASTER PLAN.md (tracking)
+  - Literature/neurological/serotonin-fatigue/ (source materials)
+Recent Decisions:
+  - Added 2 new sections from brainstorming (15.11: Astrocyte-neuron lactate shuttle, 15.12: TRPM3 channelopathy)
+  - Using patient-facing language in trigger mechanism overview
+  - Cross-referencing to Ch 7 for detailed pathogenesis
+Next Steps:
+  1. Complete literature search for serotonin-fatigue linkage
+  2. Write section 15.4 (serotonin dysregulation)
+  3. Write section 15.11 (lactate shuttle - new from brainstorming)
+  4. Begin iterative certainty classification audit
+Critical Context:
+  - Brainstorming deliverables: 7 hypotheses, 8 treatment ideas, 12 research questions
+  - Trigger mechanism documentation added to scope (Ch 5 + Ch 7 additions)
+  - All claims must be cited - no speculative content without evidence
+```
+
+---
+
+## 📁 File Inventory & Status
+
+### Critical Configuration Files
+
+| File | Purpose | Last Modified | Status |
+|------|---------|---------------|--------|
+| `.claude/CLAUDE.md` | Project behavior rules | 2026-02-16 | ✅ Current |
+| `.claude/plans/MASTER PLAN.md` | This document | 2026-02-20 | ✅ Current |
+| `.mistral_vibe_config.json` | Mistral Vibe configuration | 2026-02-20 | ✅ Current |
+| `ms.tex` | Main document | 2026-02-16 | ✅ Current |
+
+### Content Staging Files (Phase 2 Source)
+
+| File | Target | Priority | Status |
+|------|--------|----------|--------|
+| `INTEGRATION_GUIDE_acute-onset-protocol.md` | Ch 14a/b | HIGH | ⏳ Pending |
+| `INTEGRATION_GUIDE_front-loading-strategy.md` | Ch 14a | HIGH | ⏳ Pending |
+| `INTEGRATION_GUIDE_hrv-guided-pacing.md` | Ch 17 | MEDIUM | ⏳ Pending |
+| `INTEGRATION_GUIDE_sports-medicine-pacing.md` | Ch 17 | MEDIUM | ⏳ Pending |
+| `INTEGRATION_GUIDE_astrocyte-energy-gate.md` | Ch 8 | HIGH | ⏳ Pending |
+| `INTEGRATION_GUIDE_cns-energy-triage.md` | Ch 14j | HIGH | ⏳ Pending |
+| `insights-wirth-neurotransmitter.md` | Ch 8 | MEDIUM | ⏳ Pending |
+| `scientific-insights-wirth-scheibenbogen-2025.md` | Ch 7, 10 | HIGH | ⏳ Pending |
+
+### Patient Files (Phase 1 Complete)
+
+| File | Status | Last Modified |
+|------|--------|---------------|
+| `patients/yannick/00-index.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/01-medical-history.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/02-clinical-findings.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/03-symptom-profile.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/04-case-analysis.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/05-treatment-plans.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/06-daily-tracking.tex` | ✅ Integrated | 2026-02-16 |
+| `patients/yannick/README.md` | ✅ Integrated | 2026-02-16 |
+
+### Gap Inventory (Phase 0.5 Complete)
+
+**Status:** 656 gaps identified and prioritized
+**File:** `.claude/plans/PLACEHOLDER_AUDIT.md`
+**Priority Distribution:**
+- CRITICAL: 12 gaps
+- HIGH: 48 gaps  
+- MEDIUM: 187 gaps
+- LOW: 409 gaps
+
+**Assignment Status:**
+- Phase 2: 18 gaps assigned
+- Phase 3: 42 gaps assigned
+- Phase 4: 15 gaps assigned
+- Phase 5: 35 gaps assigned
+- Phase 6: 8 gaps assigned
+- Phase 7: 508 gaps assigned
+- Phase 8: 30 gaps assigned (final verification)
+
+---
+
+## 🤖 Agent Activation Guide
+
+### How to Trigger Specific Agents
+
+**General Agents:**
+- `explore`: "Explore the codebase for [pattern]"
+- `sonnet-general`: "Analyze [topic] and provide recommendations"
+- `haiku-general`: "Quick check of [file] for [issue]"
+
+**Content Agents:**
+- `chapter-integrator`: "Integrate [content] into [chapter]"
+- `scientific-insight-generator`: "Generate insights about [mechanism]"
+- `hypothesis-generator`: "Brainstorm hypotheses about [phenomenon]"
+- `literature-integrator`: "Find and integrate papers on [topic]"
+
+**Quality Agents:**
+- `scientific-rigor-auditor`: "Audit [content] for scientific rigor"
+- `logic-auditor`: "Check [argument] for logical consistency"
+- `style-naturalizer`: "Naturalize the style of [content]"
+- `content-reviewer`: "Review [content] for completeness"
+- `link-checker`: "Verify all cross-references in [chapter]"
+- `syntax-fixer`: "Fix LaTeX syntax errors in [file]"
+- `formatting-fixer`: "Standardize formatting in [file]"
+
+**Medical Agents:**
+- `medical-advisor`: "Review [treatment] for safety"
+- `treatment-analyst`: "Analyze [medication] effects"
+- `crisis-manager`: "Emergency protocol for [situation]"
+- `pacing-coach`: "Pacing strategy for [activity level]"
+
+### Agent Coordination Protocol
+
+**For complex tasks requiring multiple agents:**
+
+1. **Primary Agent** takes lead based on task type
+2. **Secondary Agents** provide specialized input
+3. **Quality Agent** performs final review
+4. **Iterative Loop** until all agents confirm completion
+
+**Example: Content Integration Workflow**
+```
+Task: Integrate acute-onset protocol
+1. chapter-integrator (primary) → draft integration
+2. literature-integrator (secondary) → verify citations
+3. protocol-linker (secondary) → add cross-references
+4. scientific-rigor-auditor (quality) → audit rigor
+5. IF issues found → return to step 1
+6. IF clean → style-naturalizer → final polish
+7. IF clean → task complete
+```
+
+---
+
+## 🚀 Quick Reference: Starting Next Phase
+
+### Phase 2 Execution Checklist
+
+**Pre-requisites:**
+- [ ] Phase 1 complete ✓
+- [ ] Phase 0.5 gap inventory available ✓
+- [ ] All staging content in `.claude/content-staging/` ✓
+- [ ] Build system verified (`nix build` works) ✓
+
+**Execution Steps:**
+1. **Task 2.1:** Integrate acute-onset protocol
+   - Source: `.claude/content-staging/INTEGRATION_GUIDE_acute-onset-protocol.md`
+   - Target: `contents/part3-treatment/ch14a-urgent-action-severe.tex`
+   - Agent: `chapter-integrator`
+   - Verification: Build + cross-reference check
+
+2. **Task 2.2:** Integrate front-loading strategy
+   - Source: `.claude/content-staging/INTEGRATION_GUIDE_front-loading-strategy.md`
+   - Target: `contents/part3-treatment/ch14a-urgent-action-severe.tex`
+   - Agent: `chapter-integrator`
+
+3. **Task 2.3:** Integrate HRV-guided pacing
+   - Source: `.claude/content-staging/INTEGRATION_GUIDE_hrv-guided-pacing.md`
+   - Target: `contents/part3-treatment/ch17-lifestyle-interventions.tex`
+   - Agent: `chapter-integrator`
+
+4. **Continue through Task 2.8** (all integration guides)
+
+5. **Task 2.9:** Cross-reference all new sections
+   - Agent: `protocol-linker`
+
+6. **Task 2.10:** Build verification
+   - Agent: `test-runner`
+
+7. **Task 2.11:** Iterative scientific rigor audit
+   - Agent: `scientific-rigor-auditor` (Opus)
+   - Exit criteria: 0 issues found
+
+8. **Task 2.12:** Commit integration
+   - Agent: `haiku-general`
+
+**Success Criteria:**
+- All 10 staging files integrated
+- Cross-references validated
+- Build succeeds
+- Rigor audit clean (iterative)
+- Commit created
+
+### Phase 3 Preparation (While Phase 2 Executes)
+
+**Pre-work for efficient Phase 3 start:**
+1. **Review brainstorming requirements** (R2)
+2. **Identify literature sources** for Ch 15 sections
+3. **Create skeleton file** `contents/part2-pathophysiology/ch15-symptom-producing-mechanisms.tex`
+4. **Gather trigger mechanism references** for Ch 5 + Ch 7 additions
+
+**Recommended Reading:**
+- `.claude/plans/RESEARCH_GAPS.md`
+- `Literature/neurological/serotonin-fatigue/`
+- `Literature/neurological/microglia-neuroinflammation/`
+
+---
+
+## 📝 Change Log
+
+**2026-02-20:**
+- Added Progress Tracking Dashboard
+- Added Continuation Protocol section
+- Added File Inventory & Status
+- Added Agent Activation Guide
+- Added Quick Reference for Phase 2 execution
+- Added Change Log section
+- Updated overall progress to 10% (22/222 tasks)
+- Added mermaid Gantt chart for critical path visualization
+- Clarified Phase 2 priority order and current focus
+
+**2026-02-16:**
+- Created unified MASTER PLAN.md
+- Consolidated 11 separate plans into 9-phase structure
+- Added 8 key optimizations vs. original order
+- Integrated quality requirements (R1, R2, R3)
+- Added detailed task lists for all phases
+- Added success criteria and verification checklists
+- Added risk mitigation table
+
+**2026-02-14:**
+- Initial placeholder audit completed
+- 656 gaps identified and prioritized
+- Gap inventory created in PLACEHOLDER_AUDIT.md
+
+**2026-02-10:**
+- Master plan framework established
+- Phase structure defined
+- Initial task estimation completed
+
+---
+
+## 🎯 Next Session Recommendation
+
+**Priority:** Complete Phase 2 - Content-Staging Integration
+
+**Recommended Approach:**
+1. **Start with Task 2.1** (acute-onset protocol integration)
+2. **Use chapter-integrator agent** for content placement
+3. **Verify build after each integration**
+4. **Run cross-reference check** after all integrations
+5. **Begin iterative rigor audit**
+6. **Create comprehensive commit** when audit clean
+
+**Estimated Session Duration:** 2-3 hours
+**Target Completion:** 4-6 tasks (33-50% of Phase 2)
+
+**Continuation Strategy:** If context exceeds 35%, use the Phase 2 continuation prompt template above.
+
+---
+**End of MASTER PLAN.md — Enhanced Execution Version**
