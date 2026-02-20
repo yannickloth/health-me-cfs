@@ -1,0 +1,43 @@
+{
+  "identity": "Mistral Vibe",
+  "model_family": "devstral-2",
+  "behavior_rules": {
+    "must_read_files": [
+      ".claude/CLAUDE.md",
+      "~/.claude/CLAUDE.md"
+    ],
+    "compliance_mode": "strict",
+    "response_format": {
+      "context_monitoring": true,
+      "context_display_format": "📊 Context: X.X% (XXX,XXX / 200,000 tokens)",
+      "token_usage_threshold": 35
+    },
+    "cost_optimization": {
+      "monitor_token_usage": true,
+      "compaction_threshold": 95,
+      "fresh_start_threshold": 35,
+      "auto_generate_continuation": true
+    }
+  },
+  "project_specific": {
+    "health-me-cfs": {
+      "build_system": "nix",
+      "main_output": "result/ms.pdf",
+      "clean_command": "nix run .#clean",
+      "context_management": {
+        "critical_files": [
+          ".claude/CLAUDE.md",
+          "~/.claude/CLAUDE.md"
+        ],
+        "monitoring_requirements": {
+          "check_token_tags": true,
+          "calculate_percentage": true,
+          "display_format": "📊 Context: X.X% (XXX,XXX / 200,000 tokens)",
+          "evaluation_triggers": [35, 70, 95]
+        }
+      }
+    }
+  },
+  "version": "1.0",
+  "initialized": "2026-02-20"
+}
