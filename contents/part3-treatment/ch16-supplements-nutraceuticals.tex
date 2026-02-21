@@ -51,7 +51,7 @@ Adequate sodium, potassium, and fluid intake help maintain blood volume and supp
     \item Add 1/4--1/2 teaspoon salt to each liter of water
     \item Drink before standing or activity
     \item Morning loading: 16--24~oz with salt before getting up
-    \item Target: 2--3~L fluid plus 8--12~g sodium daily
+    \item Target: 2--3~L fluid plus 8--12~g salt daily (approximately 3--5~g elemental sodium)
 \end{enumerate}
 
 \paragraph{Cautions.}
@@ -163,9 +163,10 @@ Standard POTS/dysautonomia guidelines recommend high sodium intake (10--12~g/day
     \item \textbf{Functional correlation:} Elevated muscle sodium correlated inversely with hand grip strength ($p=0.03$, $R^2=0.38$), suggesting functional consequences~\cite{Petter2022sodium}.
 \end{itemize}
 
-\begin{hypothesis}[The NCX Reversal Mechanism]
-Wirth and Scheibenbogen propose that $\beta_2$-adrenergic receptor dysfunction impairs Na$^+$/K$^+$-ATPase activity, allowing intracellular sodium accumulation~\cite{Wirth2021muscle,Scheibenbogen2025muscle}. When intracellular sodium exceeds a threshold, the sodium-calcium exchanger (NCX) reverses direction---importing calcium instead of exporting it---causing calcium overload and mitochondrial dysfunction. This model suggests ME/CFS patients operate near the NCX reversal threshold, explaining why even minor exertion triggers post-exertional malaise. \textit{Evidence quality: Low (mechanistic hypothesis based on indirect evidence; not directly tested in ME/CFS).}
-\end{hypothesis}
+\begin{speculation}[The NCX Reversal Mechanism]
+\label{spec:ncx-reversal}
+\textbf{Certainty: 0.25.} Mechanistic hypothesis based on indirect evidence (elevated intracellular sodium on MRI~\cite{Petter2022sodium}, known NCX biophysics); not directly tested in ME/CFS. Wirth and Scheibenbogen propose that $\beta_2$-adrenergic receptor dysfunction impairs Na$^+$/K$^+$-ATPase activity, allowing intracellular sodium accumulation~\cite{Wirth2021muscle,Scheibenbogen2025muscle}. When intracellular sodium exceeds a threshold, the sodium-calcium exchanger (NCX) reverses direction---importing calcium instead of exporting it---causing calcium overload and mitochondrial dysfunction. This model suggests ME/CFS patients operate near the NCX reversal threshold, explaining why even minor exertion triggers post-exertional malaise.
+\end{speculation}
 
 \paragraph{Clinical Implications.}
 Dietary sodium primarily affects blood volume, not intracellular muscle sodium directly. However:
@@ -469,11 +470,11 @@ See NAD$^+$ precursors above.
 
 \subsection{Pyridoxine/P5P (B6)}
 
-\paragraph{Rationale.} Cofactor for neurotransmitter synthesis (serotonin, dopamine, GABA).
+\paragraph{Rationale.} Cofactor for neurotransmitter synthesis (serotonin, dopamine, GABA). The active form pyridoxal-5-phosphate (P5P) is the essential cofactor for aromatic L-amino acid decarboxylase, the enzyme that converts 5-HTP to serotonin. In the enterochromaffin-vagal pathway~\cite{WirthScheibenbogen2025Neurotransmitter, Barton2025}, adequate P5P is therefore required for the final step of gut serotonin synthesis and downstream vagal activation. B6 is water-soluble and may be depleted by chronic inflammation and GI malabsorption---conditions common in ME/CFS; B6 status has not been systematically studied in ME/CFS cohorts.
 
-\paragraph{Dosing.} 25--100~mg daily. P5P (pyridoxal-5-phosphate) is the active form and may be better for those with conversion issues.
+\paragraph{Dosing.} 25--100~mg daily. P5P (pyridoxal-5-phosphate) is the active form and may be better for those with conversion issues. When supporting gut serotonin synthesis (see Section~\ref{sec:5-htp}), pair with 5-HTP or tryptophan supplementation.
 
-\paragraph{Cautions.} High doses ($>$200~mg/day chronically) can cause peripheral neuropathy.
+\paragraph{Cautions.} High doses ($>$200~mg/day chronically) can cause peripheral neuropathy. Assess RBC P5P levels if possible, as this is a more sensitive marker than serum B6.
 
 \subsection{Folate (B9)}
 
@@ -588,6 +589,23 @@ Deficiency is common in ME/CFS patients (often housebound with limited sun expos
 \paragraph{Dosing.} 5--15~g daily for gut support.
 
 \paragraph{Cautions.} Some patients with neurological sensitivity may not tolerate glutamine (converts to glutamate).
+
+\subsection{5-HTP (5-Hydroxytryptophan)}
+\label{sec:5-htp}
+
+\paragraph{Rationale.} 5-HTP is the immediate precursor to serotonin, produced from tryptophan by tryptophan hydroxylase. Supplementing with 5-HTP bypasses the IDO2 (and IDO1) diversion point~\cite{WirthScheibenbogen2025Neurotransmitter}: in ME/CFS, IDO2 is the primary enzyme shunting tryptophan into the kynurenine pathway rather than toward serotonin synthesis~\cite{phair2019ido}. Because 5-HTP is not a substrate for IDO enzymes, it directly enters the serotonin synthesis pathway regardless of IDO activity. In the gut, enterochromaffin cells convert 5-HTP to serotonin, which signals through vagal afferents to regulate autonomic tone~\cite{Barton2025}. Supplemental 5-HTP may therefore partially compensate for impaired peripheral serotonin synthesis in ME/CFS patients with gut dysbiosis.
+
+\paragraph{Evidence.} Theoretical for ME/CFS-specific gut-vagal pathway; limited direct trial evidence. Best supported by mechanistic extrapolation from IDO2 pathway research in Long COVID and the enterochromaffin-vagal model~\cite{WirthScheibenbogen2025Neurotransmitter}.
+
+\paragraph{Dosing.} 50--100~mg two to three times daily. Start at 50~mg once daily and titrate slowly. Requires adequate P5P (Section~\ref{sec:vitamins}) as cofactor for the decarboxylase step.
+
+\paragraph{Cautions.}
+\begin{itemize}
+    \item \textbf{Serotonin syndrome}: Contraindicated with SSRIs, SNRIs, MAOIs, tramadol, or other serotonergic drugs. This is a serious risk---medical supervision required if on any of these medications.
+    \item Peripheral decarboxylation can cause systemic serotonin effects (GI cramping, nausea, diarrhea) before central effects appear.
+    \item Avoid in pregnancy.
+    \item Start very low if histamine-sensitive (serotonin can release histamine).
+\end{itemize}
 
 
 \section{Practical Supplement Protocols}
@@ -767,13 +785,39 @@ Reduced TRPM3 function in ME/CFS NK cells has been demonstrated using pregnenolo
 \end{itemize}
 
 \begin{speculation}[Pregnenolone + LDN Synergy]
+\label{spec:pregnenolone-ldn-synergy}
+\textbf{Certainty: 0.20.} No clinical trials have evaluated this combination; rationale is purely mechanistic extrapolation from separately-characterised TRPM3 effects of each agent.
+
 Both pregnenolone sulfate and low-dose naltrexone influence TRPM3 function in ME/CFS, potentially through different mechanisms. Pregnenolone sulfate is a direct TRPM3 agonist, while LDN appears to restore TRPM3 responsiveness (mechanism not fully characterized). Theoretically, combining adequate pregnenolone levels with LDN might optimize TRPM3 function---the channel would be more responsive (LDN effect) and have adequate agonist (pregnenolone). No clinical trials have evaluated this combination, but given the favorable safety profiles of both, it represents a rational empirical approach for patients who have partial response to LDN alone.
 \end{speculation}
+
+\subsection{Zinc}
+\label{subsec:zinc}
+
+\paragraph{Rationale.} Zinc is a trace mineral essential for gut barrier integrity, antioxidant protection in enterocytes, and neurotransmitter function. In the context of the enterochromaffin-vagal pathway~\cite{WirthScheibenbogen2025Neurotransmitter}, zinc supports multiple nodes: (1) tight junction integrity reduces intestinal permeability and bacterial translocation; (2) antioxidant mechanisms in enterocytes that may protect enterochromaffin cells; (3) neurotransmitter synthesis and autonomic nerve function. Zinc is commonly depleted in ME/CFS due to malabsorption, chronic inflammation (acute-phase redistribution to liver), and reduced dietary diversity from fatigue limiting food preparation.
+
+\paragraph{Forms.}
+\begin{itemize}
+    \item \textbf{Zinc glycinate}: Well-absorbed, gentle on GI tract
+    \item \textbf{Zinc carnosine}: Combines zinc with carnosine dipeptide; additional mucosal healing properties; preferred for gut repair (see Chapter~\ref{ch:action-mild-moderate})
+    \item \textbf{Zinc citrate or picolinate}: Good bioavailability alternatives
+    \item \textbf{Avoid zinc oxide}: Poor bioavailability
+\end{itemize}
+
+\paragraph{Dosing.} 15--30~mg elemental zinc daily. Zinc carnosine 75~mg provides approximately 16~mg elemental zinc. Take away from or between meals for maximum absorption.
+
+\paragraph{Cautions.}
+\begin{itemize}
+    \item Long-term zinc supplementation above 40~mg elemental zinc/day can deplete copper---monitor copper status with extended use or consider zinc-copper combination
+    \item Take separately from calcium, magnesium, and iron (compete for absorption)
+    \item Check serum zinc or RBC zinc before high-dose supplementation; levels may be misleadingly normal during inflammation despite tissue deficiency
+\end{itemize}
+
 
 \section{Probiotics and Gut Health}
 \label{sec:probiotics}
 
-Given the documented gut microbiome abnormalities in ME/CFS (Chapter~\ref{ch:gut-microbiome}), gut-targeted interventions may help.
+Given the documented gut microbiome abnormalities in ME/CFS~\cite{Giloteaux2016, ButyrateDeficiency2023}, gut-targeted interventions may help.
 
 \subsection{Probiotics}
 
@@ -801,12 +845,37 @@ Given the documented gut microbiome abnormalities in ME/CFS (Chapter~\ref{ch:gut
 Prebiotics feed beneficial bacteria. Options include:
 \begin{itemize}
     \item Partially hydrolyzed guar gum (PHGG)
-    \item Resistant starch (cooked and cooled potatoes/rice)
+    \item \textbf{Resistant starch} (see below for type selection)
     \item Inulin and FOS (can cause bloating)
     \item Acacia fiber (generally well-tolerated)
 \end{itemize}
 
-\paragraph{Caution.} Some ME/CFS patients have SIBO or IBS and may not tolerate prebiotics initially.
+\paragraph{Resistant Starch Types.} Not all resistant starch is equivalent. Two types differ in where they are fermented in the colon:
+\begin{itemize}
+    \item \textbf{RS2 (raw potato starch, green banana flour):} Fermented primarily in the proximal colon; supports butyrate-producing bacterial communities~\cite{ButyrateDeficiency2023}. Best starting choice. Dose: 1--2 tablespoons raw potato starch daily.
+    \item \textbf{RS3 (cooked and cooled rice, potatoes, pasta):} More distal colonic fermentation; may complement RS2 for supporting butyrate production throughout the colon~\cite{ButyrateDeficiency2023}. Introduce after RS2 is tolerated.
+\end{itemize}
+
+\paragraph{Caution.} Prebiotics are contraindicated in active SIBO---fermentable substrate feeds small intestinal overgrowth and can severely worsen symptoms. Test for SIBO (breath test) before introducing resistant starch. Start with very small amounts (1 teaspoon) and increase slowly over 4--6 weeks.
+
+\subsection{Butyrate and Tributyrin}
+\label{subsec:butyrate}
+
+\paragraph{Rationale.} Butyrate is the primary short-chain fatty acid (SCFA) fuel for colonocytes and a key upstream signal in the enterochromaffin-vagal pathway~\cite{Barton2025, WirthScheibenbogen2025Neurotransmitter}. Gut microbiome studies show ME/CFS patients have significantly reduced butyrate-producing bacterial capacity~\cite{ButyrateDeficiency2023}, correlating with fatigue severity. Butyrate supplementation aims to compensate for this deficit, enhancing enterochromaffin serotonin synthesis and downstream vagal afferent signaling. Butyrate also directly activates SCFA receptors (GPR41/43) on vagal neurons, providing a parallel pathway independent of serotonin.
+
+\paragraph{Forms.}
+\begin{itemize}
+    \item \textbf{Sodium butyrate:} Fast-absorbing in proximal colon; well-studied; strong odour (similar to parmesan). Dose: 500~mg--2~g three times daily with meals.
+    \item \textbf{Tributyrin:} A triglyceride of butyric acid, more lipophilic; slower release for sustained distal colon exposure. Dose: 1--2~g three times daily. Lower odour than sodium butyrate.
+    \item \textbf{Calcium/magnesium butyrate:} Combined mineral-butyrate salt; another option with good tolerability.
+    \item \textbf{Dietary butyrate:} Cooked and cooled starchy foods (RS3), high-fat fermented dairy (butter, ghee contain short-chain fats), and adequate fiber intake to feed butyrate producers.
+\end{itemize}
+
+\paragraph{Evidence.} Direct ME/CFS supplementation trials are lacking. Mechanistic rationale is strong based on documented butyrate-producer deficiency in ME/CFS~\cite{ButyrateDeficiency2023} and established butyrate-enterochromaffin-vagal signaling~\cite{Barton2025}. Safety profile is excellent.
+
+\paragraph{Combination Approach.} For targeting the enterochromaffin-vagal pathway, combining butyrate with 5-HTP and P5P (Section~\ref{sec:5-htp}) addresses both upstream substrate supply (butyrate) and downstream serotonin synthesis (5-HTP + P5P cofactor). For a phased clinical protocol incorporating these agents with sequencing rationale and dosing, see Section~\ref{subsubsec:gut-vagal-protocol} in Chapter~\ref{ch:action-mild-moderate}.
+
+\paragraph{Cautions.} Very safe; main side effect is GI discomfort (bloating, loose stool) if dose escalated too quickly. Start low and increase gradually. The odour of sodium butyrate may be off-putting---encapsulated forms minimize this.
 
 
 \section{Supplement Quality and Safety}

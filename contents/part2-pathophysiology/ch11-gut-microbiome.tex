@@ -11,7 +11,7 @@ GI dysmotility is one component of the ``Septad'' framework of frequently co-occ
 
 \subsection{Dysbiosis Patterns}
 
-Multiple studies have documented consistent patterns of gut microbiome alterations in ME/CFS patients, though no single ``ME/CFS signature'' has been established.
+Multiple studies have documented consistent patterns of gut microbiome alterations in ME/CFS patients~\cite{Giloteaux2016}, though no single ``ME/CFS signature'' has been established.
 
 \begin{achievement}[Reduced Microbiome Diversity in ME/CFS]
 \label{ach:microbiome-diversity}
@@ -79,7 +79,7 @@ The gut microbiome significantly modulates tryptophan availability, with gut ent
 \begin{itemize}
     \item Reduced circulating serotonin and kynurenine affecting neurotransmission~\cite{Simonato2021tryptophan}---notably, these changes appeared independent of cytokine levels, suggesting tryptophan dysregulation may be a primary feature rather than secondary to inflammation
     \item Altered kynurenine pathway metabolites---lower 3-hydroxykynurenine and 3-hydroxyanthranilic acid, with elevated kynurenine/3HK ratios~\cite{Abujrais2024tryptophan}
-    \item Kynurenine pathway hyperactivation may deplete NAD+ via PARP activation, contributing to energy deficits~\cite{Dehhaghi2022kynurenine}
+    \item Kynurenine pathway hyperactivation may deplete NAD\textsuperscript{+} via PARP activation, contributing to energy deficits~\cite{Dehhaghi2022kynurenine, Dehhaghi2022AD}
     \item Disrupted indole derivative production (aryl hydrocarbon receptor ligands)
 \end{itemize}
 
@@ -158,7 +158,11 @@ While baseline gut barrier dysfunction has been established in ME/CFS population
 
 The Maes et al.\ study~\cite{GutPermeability2023} did not stratify participants by disease severity, leaving uncertainty about whether zonulin, LPS, and sCD14 elevations correlate with functional impairment. This gap is significant because severity-dependent gut barrier dysfunction would suggest distinct pathophysiological mechanisms and treatment priorities for different patient subgroups.
 
-\textbf{Hypothesis (Certainty: 0.65):} Severe ME/CFS patients likely exhibit \textit{higher} baseline permeability markers than mild/moderate patients, mediated by four convergent mechanisms:
+\begin{hypothesis}[Severity-Dependent Baseline Gut Permeability]
+\label{hyp:severity-gut-permeability}
+\textbf{Certainty: 0.50.} The individual supporting observations (CBF reduction by severity, cytokine-severity correlations, reduced cortisol in severe patients, POTS comorbidity) are moderately well-established, but their \emph{integration} into a unified severity-stratified permeability model has not been directly tested. Certainty is set at 0.50 rather than the originally proposed 0.65 to reflect this untested integration.
+
+Severe ME/CFS patients likely exhibit \textit{higher} baseline permeability markers than mild/moderate patients, mediated by four convergent mechanisms:
 
 \begin{enumerate}
     \item \textbf{Chronic splanchnic dysregulation}: Severe patients demonstrate exaggerated vascular dysregulation during minimal stress. van Campen et al.~\cite{VanCampen2020SeverityCPET} documented 27\% reduction in cerebral blood flow during 20-degree head-up tilt in severe ME/CFS patients, compared to 7\% in healthy controls. Given that splanchnic vessels receive lower circulatory priority than cerebral vessels during sympathetic activation, severe patients likely experience chronic low-grade splanchnic hypoperfusion during routine activities (postural changes, cognitive work, meals), leading to sustained gut barrier stress rather than episodic exercise-induced spikes.
@@ -169,6 +173,7 @@ The Maes et al.\ study~\cite{GutPermeability2023} did not stratify participants 
 
     \item \textbf{POTS comorbidity and splanchnic pooling}: Approximately 45\% of severely ill ME/CFS patients exhibit orthostatic intolerance~\cite{Komaroff2021severe}, suggesting substantial overlap with postural orthostatic tachycardia syndrome (POTS). In POTS, the splanchnic vascular bed---which contains up to 30\% of total blood volume---exhibits excessive abdominal blood pooling even in supine and resting positions. This chronic pooling can paradoxically reduce effective splanchnic perfusion during activity, as blood accumulates in distended vessels rather than perfusing capillary beds. For severe ME/CFS patients with POTS features, baseline gut hypoperfusion may be a chronic condition rather than an activity-triggered event.
 \end{enumerate}
+\end{hypothesis}
 
 \begin{speculation}[Chronic vs.\ Episodic Permeability Models]
 \label{spec:chronic-episodic-barrier}
@@ -416,7 +421,7 @@ A retrospective analysis of ME/CFS patients referred for breath testing found:
     \item 14\% equivocal
     \item Predictive factors: older age, IBS diagnosis
 \end{itemize}
-This suggests a substantial proportion of ME/CFS patients have bacterial overgrowth, though the retrospective design and referral bias (patients referred for breath testing likely had more GI symptoms) limit generalizability (retrospective chart review, n=367, Medium certainty).
+This suggests a substantial proportion of ME/CFS patients have bacterial overgrowth, though the retrospective design and referral bias (patients referred for breath testing likely had more GI symptoms) limit generalizability (retrospective chart review; 479 referred, 367 with usable results, 316 conclusive; Medium certainty)~\cite{SIBOKarhu2023}.
 \end{observation}
 
 \paragraph{Pathophysiology: Migrating Motor Complex Dysfunction.}
@@ -616,7 +621,7 @@ Elemental diets provide pre-digested nutrients (amino acids, simple sugars, mini
 \label{obs:elemental-diet}
 Multiple studies demonstrate high efficacy:
 \begin{itemize}
-    \item Classic study: 80\% breath test normalization at 14 days, 85\% at 21 days
+    \item Classic study~\cite{PimentelElemental2004}: 80\% breath test normalization at 14 days, 85\% at 21 days
     \item Recent 2025 study~\cite{ElementalDiet2025} with palatable formulation: \textbf{83\% SIBO eradication}
     \item 100\% normalization in hydrogen-SIBO (n=6)
     \item 58\% normalization in IMO (n=12)
@@ -634,6 +639,7 @@ Elemental diet is highly effective but requires motivation due to taste and rest
 \end{itemize}
 
 \subsection{Prokinetics}
+\label{subsec:prokinetics}
 
 Prokinetic agents stimulate gastrointestinal motility and may help prevent SIBO recurrence by restoring MMC function.
 
@@ -709,10 +715,10 @@ FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyo
     \item Symptom reduction in 3 separate RCTs
 \end{itemize}
 
-\begin{hypothesis}[Strain-Specific Probiotic Effects]
-\label{hyp:probiotic-strain}
-Probiotic effects are highly strain-specific. \textit{B. infantis} 35624 shows strongest evidence for reducing inflammation in ME/CFS, while \textit{L. casei} Shirota may preferentially improve anxiety. Generic ``probiotic'' recommendations are unlikely to be helpful; strain selection should be evidence-based.
-\end{hypothesis}
+\begin{keypoint}[Strain-Specific Probiotic Selection]
+\label{key:probiotic-strain}
+Probiotic effects are highly strain-specific---a well-established principle in microbiology. \textit{B. infantis} 35624 shows strongest evidence for reducing inflammation in ME/CFS, while \textit{L. casei} Shirota may preferentially improve anxiety. Generic ``probiotic'' recommendations are unlikely to be helpful; strain selection should be evidence-based.
+\end{keypoint}
 
 \begin{warning}[Probiotic Cautions]
 \begin{itemize}
@@ -741,8 +747,10 @@ Prebiotics are non-digestible fibers that selectively feed beneficial bacteria:
 
 FMT represents the most radical microbiome intervention---complete ecosystem replacement rather than supplementation.
 
-\begin{hypothesis}[FMT for ME/CFS]
-\label{hyp:fmt}
+\begin{speculation}[FMT for ME/CFS]
+\label{spec:fmt}
+\textbf{Certainty: 0.25.} One completed pilot RCT (n=11) showed no symptomatic benefit, though dose may have been suboptimal. Two larger placebo-controlled trials are ongoing (Comeback, n=80; RESTORE ME, n=160); results expected 2026+. FMT is classified as speculation pending these results.
+
 Rationale for FMT in ME/CFS:
 \begin{itemize}
     \item Restores microbial diversity impossible to achieve with probiotics alone
@@ -750,7 +758,7 @@ Rationale for FMT in ME/CFS:
     \item Donor microbiome may provide missing metabolic functions (butyrate production, tryptophan metabolism)
     \item May reset gut-immune interactions
 \end{itemize}
-\end{hypothesis}
+\end{speculation}
 
 \textbf{Current Evidence:}
 \begin{itemize}
@@ -823,7 +831,7 @@ Dysbiosis-driven intestinal permeability (Achievement~\ref{ach:bacterial-translo
 \paragraph{Testable Predictions.}
 \begin{enumerate}
     \item Dysbiosis severity (measured by reduced butyrate-producer abundance or increased pathobiont load) should correlate with degree of CNS hypometabolism on FDG-PET imaging.
-    \item Microbiome restoration interventions (FMT, targeted probiotics; see Section~\ref{sec:fmt} and Hypothesis~\ref{hyp:fmt}) should improve cognitive function, with effect size proportional to microbiome normalization.
+    \item Microbiome restoration interventions (FMT, targeted probiotics; see Section~\ref{sec:fmt} and Speculation~\ref{spec:fmt}) should improve cognitive function, with effect size proportional to microbiome normalization.
     \item Fecal butyrate levels should correlate with plasma butyrate and, in turn, with brain metabolic markers (MR spectroscopy NAA/Cr ratios or FDG-PET regional uptake).
     \item Post-prandial cognitive worsening (commonly reported by patients as ``food coma'' or post-meal brain fog) should correlate with markers of bacterial fermentation and small intestinal bacterial load.
     \item Periods of reduced caloric intake or fasting may temporarily improve cognitive clarity by reducing bacterial substrate availability---though this must be weighed against the risks of caloric restriction in an energy-depleted condition.
