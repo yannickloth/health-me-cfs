@@ -1,7 +1,9 @@
+AAb
 actin
 adenosine
 ADRB1
 adrenergic
+afferents
 ALCAR
 Alpha-Liponsäure
 AmE
@@ -10,6 +12,7 @@ anterior
 antigen
 Aripiprazol
 ASIC
+astrocyte
 ATP
 autoreactivity
 baroreceptor
@@ -21,6 +24,8 @@ Carlo-Stella
 catechol-O-methyltransferase
 Channelopathies
 Chaudhuri
+chronotherapeutic
+chronotherapy
 Cimetidin
 cline
 Cline
@@ -32,6 +37,7 @@ CRASH-PHASE
 cytochrome
 cytokine
 cytotoxic
+daratumumab
 decile
 DecodeME
 deduplication
@@ -43,11 +49,16 @@ DMRs
 DNMTs
 druggable
 dysautonomia
+dysbiosis
 dysregulated
+DLMO
+desynchrony
 EBV
 EBV-VCA-IgM
 electromyography
+endotoxemia
 epigenome-wide
+epiphenomenal
 EpiSwitch
 Erythromycin
 etiology
@@ -74,6 +85,7 @@ hyperintensities
 hypermethylation
 hypomethylation
 hypoperfusion
+hypometabolism
 hyposalivation
 IL-1
 IL-10
@@ -99,6 +111,7 @@ Marshall-Gradisnik
 melastatin
 Mestinon
 midodrine
+misallocation
 methyltransferases
 MicroRNAs
 mitochondrial
@@ -125,6 +138,7 @@ OI
 Ollama
 ORS
 overfull
+overactivation
 PEA
 PENE
 perforin
@@ -182,6 +196,7 @@ Underfull
 underpowered
 unmethylated
 upregulation
+vagal
 voxel
 voxel-based
 VSCode
