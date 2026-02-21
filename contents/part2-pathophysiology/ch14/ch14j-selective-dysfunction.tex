@@ -111,6 +111,10 @@ where $\epsilon$ is residual error. \textbf{Working assumption:} $\epsilon \sim 
 
 \subsection{Evidence Taxonomy}
 
+\begin{warning}[Table Values Are Illustrative, Not Independent Validation]
+The $\delta_{CNS}$ and $\tilde{\rho}$ values in Table~\ref{tab:process-classification} are expert estimates that partly reflect the clinical picture the model aims to predict. \textbf{Using these values to test the correlation $\rho_s > 0.7$ would be circular and non-falsifiable.} Independent validation requires estimating parameters from sources outside ME/CFS clinical observations (e.g., neuroanatomical pathway counts in healthy individuals). The table illustrates the model's framework and internal consistency; it does \emph{not} constitute evidence for or against the hypothesis. See Predictions~\ref{pred:hair-follicle}--\ref{pred:cognitive-hierarchy} for independently testable predictions.
+\end{warning}
+
 Table~\ref{tab:process-classification} classifies biological processes by their predicted and observed dysfunction status.
 
 \begin{table}[htbp]
@@ -140,7 +144,7 @@ Immune response to challenge & 0.5 & 0.7 & 0.79 & Dysregulated & 0.65 \\
 
 \vspace{0.3cm}
 \footnotesize
-\textbf{Notes:} $S$ calculated with $\alpha = 0.6$, $\beta = 0.5$, $\gamma = 0.4$. Values $>1.0$ indicate severe predicted dysfunction (additive model; theoretical maximum $= \alpha + \beta + \gamma = 1.5$). Certainty reflects confidence in classification based on literature review.
+\textbf{Notes:} $S$ calculated with $\alpha = 0.6$, $\beta = 0.5$, $\gamma = 0.4$. Values $>1.0$ indicate severe predicted dysfunction (additive model; theoretical supremum $= \alpha + \beta + \gamma = 1.5$, never attained since $\tilde{\rho} < 1$ strictly). Certainty reflects confidence in classification based on literature review.
 
 $^{\dagger}$\textit{Hair and nail growth:} Certainty 0.4 reflects that ``preserved'' status is based on patient self-reports and informal clinical experience; no formal study has measured growth rates in ME/CFS patients.
 
@@ -173,7 +177,7 @@ The causal diagram encodes the following claims with certainty-weighted edges:
     \item \textbf{CNS Crisis $\rightarrow$ Cognitive Dysfunction} (certainty: 0.85): Direct effect of brain hypometabolism~\cite{Nakatomi2014neuroinflammation,walitt2024deep}
     \item \textbf{CNS Crisis $\rightarrow$ Autonomic Control Failure} (certainty: 0.80): Impaired CNS signaling disrupts autonomic regulation~\cite{VanCampenEtAl2020}
     \item \textbf{Autonomic Failure $\rightarrow$ Orthostatic Intolerance} (certainty: 0.75): Secondary to failed cardiovascular coordination~\cite{VanCampenEtAl2020}
-    \item \textbf{Sub-threshold edge: CNS $\rightarrow$ Autonomous Processes}: Hair, nails, wound healing have minimal CNS-dependency ($\delta_{CNS} \leq 0.2$); under the model parameters the resulting predicted dysfunction $S < 0.12$, which we treat as functionally negligible and below the dysfunction threshold (see Table~\ref{tab:process-classification})
+    \item \textbf{Sub-threshold edge: CNS $\rightarrow$ Autonomous Processes}: Hair/nails ($\delta_{CNS} = 0.1$, $\tilde{\rho} = 0$: $S = 0.06$) and wound healing ($\delta_{CNS} = 0.2$, $\tilde{\rho} = 0.2$: $S = 0.24$) all fall in the preserved range of Table~\ref{tab:process-classification}; all yield $S \leq 0.24$, well below the lowest impaired process ($S = 0.79$, immune response to challenge)
 \end{enumerate}
 
 
@@ -186,7 +190,7 @@ Three hypotheses (certainty $\geq 0.45$) and two speculations (certainty $< 0.45
 The astrocyte-neuron lactate shuttle (ANLS) provides 30--50\% of neuronal ATP~\cite{Pellerin1994,Magistretti2018}. Unlike peripheral tissues with direct glucose access, neurons depend on astrocytes to convert glucose to lactate and shuttle it via monocarboxylate transporters (MCT2/MCT4).
 
 \begin{speculation}[Astrocyte Energy Gate]
-\label{hyp:astrocyte-gate}
+\label{spec:astrocyte-gate}
 Dysfunction in the astrocyte-neuron lactate shuttle causes CNS-specific energy failure while peripheral tissues (with direct glucose access) remain unaffected.
 
 \textbf{Mechanism:}
@@ -289,7 +293,7 @@ where $\mathrm{sigm}(x) = 1/(1+e^{-x})$ is the logistic sigmoid function (distin
 ME/CFS may represent incomplete engagement of torpor-like metabolic suppression mechanisms.
 
 \begin{speculation}[Partial Torpor Trap]
-\label{hyp:torpor}
+\label{spec:torpor}
 ME/CFS involves partial engagement of torpor/hibernation pathways with failed arousal, trapping patients in a low-metabolic state.
 
 \textbf{Torpor engagement dynamics:}
@@ -417,7 +421,7 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
 The selective dysfunction framework suggests natural subtypes based on primary compartment affected.
 
 \begin{speculation}[Selective Dysfunction Subtypes]
-\label{hyp:subtypes}
+\label{spec:subtypes}
 ME/CFS can be classified into subtypes based on which compartment shows primary dysfunction:
 
 \textbf{Input features (with measurement basis):}
@@ -520,7 +524,7 @@ This is consistent with the selective dysfunction model: the dominant problem ma
     \item \textbf{CNS-targeted delivery}: Intranasal or intrathecal routes may outperform oral for CNS-targeted compounds
     \item \textbf{Pharmacological bypass}: Direct-acting agents that bypass CNS coordination (midodrine, direct muscle stimulation)
     \item \textbf{Reduce CNS energy demands}: Pacing as CNS energy management, not just ``activity reduction''
-    \item \textbf{Subtype-specific targeting}: Match intervention to primary dysfunction compartment (see subtype classification, Speculation~\ref{hyp:subtypes})
+    \item \textbf{Subtype-specific targeting}: Match intervention to primary dysfunction compartment (see subtype classification, Speculation~\ref{spec:subtypes})
 \end{enumerate}
 \end{keypoint}
 
@@ -582,7 +586,7 @@ This hypothesis has certainty 0.50. No published studies have directly quantifie
 \subsubsection{Gut-Brain Energy Theft Hypothesis}
 
 \begin{speculation}[Microbiome-Induced CNS Energy Depletion]
-\label{hyp:gut-brain-theft}
+\label{spec:gut-brain-theft}
 Dysbiotic gut microbiome increases CNS metabolic burden through chronic immune activation, ``stealing'' energy from cognitive function.
 
 \textbf{Relationship to parent hypothesis:} Adds upstream mechanism for CNS energy budget depletion.
@@ -629,7 +633,7 @@ This hypothesis has certainty 0.45. GPCR autoantibodies are found in approximate
 \subsubsection{Small Fiber Neuropathy Interface Failure}
 
 \begin{speculation}[SFN Increases CNS Coordination Load]
-\label{hyp:sfn-interface}
+\label{spec:sfn-interface}
 Small fiber neuropathy (SFN) found in $\sim$30\% of ME/CFS patients~\cite{Azcue2025sfn} increases CNS metabolic load by requiring compensatory signaling to maintain autonomic control.
 
 \textbf{Relationship to parent hypothesis:} SFN as amplifier of peripheral-CNS communication cost.
@@ -751,7 +755,7 @@ This hypothesis has certainty 0.55. The prediction of a significant interaction 
 \subsubsection{Post-Viral CNS Metabolic Reprogramming}
 
 \begin{speculation}[Persistent Astrocyte Metabolic Shift Post-Infection]
-\label{hyp:post-viral-reprogram}
+\label{spec:post-viral-reprogram}
 Viral infection triggers persistent astrocyte metabolic reprogramming toward a ``reactive'' state with reduced lactate shuttle efficiency, causing chronic CNS energy deficit.
 
 \textbf{Relationship to parent hypothesis:} Viral trigger mechanism for astrocyte energy gate dysfunction.
@@ -832,8 +836,8 @@ The selective energy dysfunction hypothesis proposes that ME/CFS preferentially 
 \textbf{Key features:}
 \begin{itemize}
     \item Formal quantification via CNS-dependency ($\delta_{CNS}$) and demand-responsiveness ($\rho$) indices
-    \item Causal DAG with certainty-weighted edges
-    \item Three mechanistic hypotheses (Hypothesis~\ref{hyp:energy-triage}: CNS energy triage; Hypothesis~\ref{hyp:bbb-vulnerability}: BBB vulnerability; Hypothesis~\ref{hyp:sickness-behavior}: sickness behavior persistence) and two speculations (Speculation~\ref{hyp:astrocyte-gate}: astrocyte energy gate; Speculation~\ref{hyp:torpor}: partial torpor trap) explaining CNS selective vulnerability
+    \item Causal diagram with certainty-weighted edges (contains a feedback cycle; not a strict DAG)
+    \item Three mechanistic hypotheses (Hypothesis~\ref{hyp:energy-triage}: CNS energy triage; Hypothesis~\ref{hyp:bbb-vulnerability}: BBB vulnerability; Hypothesis~\ref{hyp:sickness-behavior}: sickness behavior persistence) and two speculations (Speculation~\ref{spec:astrocyte-gate}: astrocyte energy gate; Speculation~\ref{spec:torpor}: partial torpor trap) explaining CNS selective vulnerability
     \item Ten related hypotheses and speculations extending the framework to sleep, gut-brain axis, autoantibodies, SFN, circadian rhythms, MCAS, memory, exercise physiology, post-viral reprogramming, and disease progression
     \item Specific, falsifiable predictions with statistical designs
     \item Natural subtype classification based on primary dysfunction compartment
