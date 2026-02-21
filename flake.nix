@@ -76,13 +76,39 @@
           (pkgs.python3.withPackages (ps: with ps; [
             networkx
             pyyaml
+            # Vector database dependencies
+            qdrant-client
+            numpy
+            scikit-learn
+            pandas
+            tqdm
+            requests
+            beautifulsoup4
+            lxml
+            html5lib
+            # For embedding generation (fallback if mistral-embed not available)
+            transformers
           ]))
           pkgs.bun
           pkgs.nodejs
           pkgs.coreutils
           pkgs.mupdf-headless
           pkgs.shellcheck # Shell script analysis tool
+          # Add Docker for vector database
+          pkgs.docker
         ];
+        shellHook = ''
+          # Check if sentence-transformers is available, install if not
+          if ! python3 -c "import sentence_transformers" 2>/dev/null; then
+            echo "📦 Installing sentence-transformers..."
+            ${pkgs.python3}/bin/pip install sentence-transformers || echo "⚠️  Could not install sentence-transformers"
+          fi
+          if ! python3 -c "import sqlite_vec" 2>/dev/null; then
+            echo "📦 Installing sqlite-vec..."
+            ${pkgs.python3}/bin/pip install sqlite-vec || echo "⚠️  Could not install sqlite-vec"
+          fi
+          echo "✅ Development environment ready!"
+        '';
       };
 
       # Run with: nix run .#clean
