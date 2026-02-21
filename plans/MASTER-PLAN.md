@@ -509,7 +509,8 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - Tasks 4.13, 4.14 each iterate until agent confirms 0 issues
 - Phase cannot be marked complete until both exit clean
 
-#### Verification
+#### Phase 4 Verification
+
 - [ ] All 5 streams researched (plus brainstorming additions)
 - [ ] New sections in Ch 11 (gut), Ch 17 (lifestyle)
 - [ ] Biomarker decision tree created
@@ -700,12 +701,15 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **7.8-7.10** Create new chapter files, update ms.tex, initial compilation | **Agent:** haiku × 3
 
 #### Phase 7.4: Content Extraction (BULK WORK)
+
 - [ ] **7.11-7.21** Extract system content from ch14a/b/15/16/17 into ch15-21 | **Agent:** chapter-integrator (Sonnet) × 11
 
 #### Phase 7.5: Severity Chapter Handling
+
 - [ ] **7.22-7.24** Refactor ch14a → ch26, ch14b → ch27, merge ch14c+d → ch28 | **Agent:** chapter-integrator (Sonnet) × 3
 
 #### Phase 7.6: Cross-Reference Integration
+
 - [ ] **7.25-7.29** Add Part 2 ↔ Part 3 links, inter-system links, verify | **Agent:** protocol-linker (Haiku) × 3 + sonnet × 2
 
 #### Phase 7.7: Literature Integration
