@@ -88,7 +88,7 @@ where:
 
 The interaction term $\gamma \cdot \delta_{CNS} \cdot \tilde{\rho}$ captures synergistic vulnerability: processes that are \emph{both} CNS-dependent \emph{and} demand-responsive are predicted to be most severely affected.
 
-\textbf{Note on range:} $S(P)$ is unbounded above; its theoretical maximum is $\alpha + \beta + \gamma$, achieved when $\delta_{CNS} = \tilde{\rho} = 1$. Values exceeding $1.0$ are possible and indicate severe predicted dysfunction (see Table~\ref{tab:process-classification}).
+\textbf{Note on range:} $S(P) \in [0,\, \alpha + \beta + \gamma)$. Since $\tilde{\rho} = \rho/(1+\rho) < 1$ strictly for any finite $\rho$, the supremum $\alpha + \beta + \gamma = 1.5$ is approached but never attained. Values exceeding $1.0$ indicate severe predicted dysfunction (see Table~\ref{tab:process-classification}).
 \end{definition}
 
 \begin{hypothesis}[Selective Dysfunction Hypothesis]
@@ -101,7 +101,9 @@ where $\epsilon$ is residual error. \textbf{Working assumption:} $\epsilon \sim 
 
 \textbf{Testable prediction:} Spearman correlation $\rho_s$ between $S(P)$ and $S_{observed}(P)$ across processes should satisfy $\rho_s > 0.7$ (strong positive correlation).
 
-\textbf{Falsification criterion:} If $\rho_s < 0.3$, the hypothesis is refuted.
+\textbf{Independence requirement:} For this prediction to be independently falsifiable, $\delta_{CNS}(P)$ and $\tilde{\rho}(P)$ must be estimated from sources other than ME/CFS clinical observations---for example, from neuroanatomical pathway counts in healthy individuals and demand-scaling measurements in healthy controls. The current Table~\ref{tab:process-classification} values are expert estimates that partly reflect the clinical picture the model aims to predict; using them directly would make the correlation circular and non-falsifiable.
+
+\textbf{Falsification criterion:} If $\rho_s < 0.3$ when tested with independently estimated parameters, the hypothesis is refuted.
 
 \textbf{Certainty:} 0.55 (moderate evidence from clinical observations, formal testing required)
 \end{hypothesis}
@@ -160,18 +162,18 @@ This pattern is diagnostic: baseline function is maintained, but the system cann
 
 \subsection{Causal Structure}
 
-Figure~\ref{fig:selective-dysfunction-dag} presents the causal directed acyclic graph (DAG) for selective dysfunction. The key structural feature is the \emph{absence} of causal paths from the CNS energy crisis node to preserved autonomous processes.
+Figure~\ref{fig:selective-dysfunction-dag} presents the causal structure for selective dysfunction. The key feature is the absence of clinically significant causal paths from the CNS energy crisis node to preserved autonomous processes. Note: the figure includes a feedback edge from exercise intolerance to CNS energy crisis (representing PEM-induced CNS burden, certainty 0.35), which introduces a cycle; the structure is therefore a \emph{causal diagram} rather than a strict directed acyclic graph (DAG).
 
 \input{figures/fig-selective-dysfunction-dag.tex}
 
-The DAG encodes the following causal claims with certainty-weighted edges:
+The causal diagram encodes the following claims with certainty-weighted edges:
 
 \begin{enumerate}
     \item \textbf{Triggers $\rightarrow$ CNS Energy Crisis} (certainty: 0.65--0.70): Viral infection, immune dysregulation, or severe stress initiates CNS energy deficit~\cite{Komaroff2023}
     \item \textbf{CNS Crisis $\rightarrow$ Cognitive Dysfunction} (certainty: 0.85): Direct effect of brain hypometabolism~\cite{Nakatomi2014neuroinflammation,walitt2024deep}
     \item \textbf{CNS Crisis $\rightarrow$ Autonomic Control Failure} (certainty: 0.80): Impaired CNS signaling disrupts autonomic regulation~\cite{VanCampenEtAl2020}
     \item \textbf{Autonomic Failure $\rightarrow$ Orthostatic Intolerance} (certainty: 0.75): Secondary to failed cardiovascular coordination~\cite{VanCampenEtAl2020}
-    \item \textbf{No edge: CNS $\rightarrow$ Autonomous Processes}: Hair, nails, wound healing operate independently (no CNS coordination required; see Hypothesis~\ref{hyp:selective-dysfunction} and Table~\ref{tab:process-classification})
+    \item \textbf{Sub-threshold edge: CNS $\rightarrow$ Autonomous Processes}: Hair, nails, wound healing have minimal CNS-dependency ($\delta_{CNS} \leq 0.2$); under the model parameters the resulting predicted dysfunction $S < 0.12$, which we treat as functionally negligible and below the dysfunction threshold (see Table~\ref{tab:process-classification})
 \end{enumerate}
 
 
@@ -244,9 +246,11 @@ The BBB traps mitochondrial damage markers and limits cofactor delivery, causing
 
 \textbf{Steady-state model:}
 \[
-\frac{[M]_{CSF}}{[M]_{blood}} = \frac{R_{production}}{P_{BBB} \cdot k_{clear}}
+[M]_{CSF} = [M]_{blood} + \frac{R_{production}}{P_{BBB} \cdot k_{clear}}
 \]
-where $[M]$ = damage marker concentration, $R_{production}$ = production rate, $P_{BBB}$ = BBB permeability, $k_{clear}$ = clearance rate.
+where $[M]$ = damage marker concentration (mass/volume), $R_{production}$ = CNS production rate (mass/volume/time), $P_{BBB} \cdot k_{clear}$ = effective BBB-mediated clearance rate (1/time), and $[M]_{blood}$ = peripheral (blood) concentration treated as a fixed boundary condition set by systemic clearance. At steady state, CNS production is balanced by BBB-mediated efflux of the excess above blood levels.
+
+\textbf{Ratio consequence:} $\dfrac{[M]_{CSF}}{[M]_{blood}} = 1 + \dfrac{R_{production}}{P_{BBB} \cdot k_{clear} \cdot [M]_{blood}}$. In healthy subjects this ratio is near $1$; in ME/CFS, reduced $P_{BBB}$ or elevated $R_{production}$ drives it above $1$, indicating CNS-specific accumulation.
 
 \textbf{ME/CFS prediction:} If $P_{BBB}$ is reduced or $R_{production}$ elevated, the CSF/blood ratio increases, indicating CNS-specific accumulation.
 
@@ -266,9 +270,9 @@ ME/CFS represents a sickness behavior program that fails to disengage, chronical
 
 \textbf{Activation function:}
 \[
-\text{SB}(t) = \sigma\left(\sum_{i} w_i \cdot [\text{cytokine}_i](t) - \theta\right)
+\text{SB}(t) = \mathrm{sigm}\left(\sum_{i} w_i \cdot [\text{cytokine}_i](t) - \theta\right)
 \]
-where $\sigma$ is sigmoid activation, $w_i$ are cytokine weights, and $\theta$ is the activation threshold.
+where $\mathrm{sigm}(x) = 1/(1+e^{-x})$ is the logistic sigmoid function (distinct from standard deviation $\sigma$ used elsewhere in this chapter), $w_i$ are cytokine weights, and $\theta$ is the activation threshold.
 
 \textbf{Normal state:} Acute infection elevates cytokines $\Rightarrow$ SB activates $\Rightarrow$ infection resolves $\Rightarrow$ cytokines normalize $\Rightarrow$ SB deactivates.
 
@@ -290,13 +294,13 @@ ME/CFS involves partial engagement of torpor/hibernation pathways with failed ar
 
 \textbf{Torpor engagement dynamics:}
 \[
-\frac{d(\text{MR})}{dt} = -\alpha \cdot T_{signal} + \beta \cdot A_{signal}
+\frac{d(\text{MR})}{dt} = -k_T \cdot T_{signal} + k_A \cdot A_{signal} - \lambda(\text{MR} - \text{MR}_0)
 \]
-where MR = metabolic rate, $T_{signal}$ = torpor induction signal, $A_{signal}$ = arousal signal.
+where MR = metabolic rate, $T_{signal}$ = torpor induction signal, $A_{signal}$ = arousal signal, $k_T, k_A > 0$ are signal gain coefficients (distinct from the $\alpha, \beta$ weights in the $S(P)$ formula), $\lambda > 0$ is a restoring rate constant, and $\text{MR}_0$ is the baseline metabolic rate. The restoring term $-\lambda(\text{MR} - \text{MR}_0)$ ensures a bounded steady state at $\text{MR}^* = \text{MR}_0 + (k_A A - k_T T)/\lambda$.
 
-\textbf{Normal torpor:} $\alpha \cdot T > \beta \cdot A$ during entry; $\beta \cdot A > \alpha \cdot T$ during arousal.
+\textbf{Normal torpor:} $k_T T > k_A A$ during entry (MR suppressed below $\text{MR}_0$); $k_A A > k_T T$ during arousal (MR restored toward $\text{MR}_0$).
 
-\textbf{ME/CFS state:} $\alpha \cdot T > \beta \cdot A$ chronically (trapped in partial suppression).
+\textbf{ME/CFS state:} $k_T T > k_A A$ chronically, so $\text{MR}^* < \text{MR}_0$ (trapped in partial suppression).
 
 \textbf{Testable markers:} Torpor-associated molecules (H$_2$S, adenosine, orexin) may be dysregulated.
 
@@ -464,10 +468,12 @@ The following thresholds are \emph{preliminary estimates} based on effect sizes 
     \item $25\%$ CBF reduction: Approximately 2.5\,$\times$ the normal orthostatic response (note: this is an absolute percentage, not a z-score, reflecting how CBF changes are typically reported in the literature)
 \end{itemize}
 
+\textbf{Subtype E (Unclassified):} Patients meeting fewer than 3 criteria for Subtype D and not meeting full criteria for Subtypes A, B, or C are classified as \textbf{Subtype E (Unclassified/Sub-threshold)}. This category captures early-stage disease, atypical presentations, or patients whose biomarkers fall in the moderate range below all classification thresholds. Subtype E is expected to be common under this preliminary scheme and should be a priority for threshold revision during validation.
+
 \textbf{Overlap precedence:} When a patient meets criteria for multiple subtypes:
 \begin{enumerate}
     \item If $\geq 3$ criteria met $\Rightarrow$ classify as Subtype D (Global) regardless of other matches
-    \item Otherwise, assign to the subtype with the most extreme abnormality (largest z-score deviation or percentage reduction); if tied, prioritize CNS-Primary $>$ Autonomic-Primary $>$ Peripheral-Primary (reflecting the hypothesis that CNS dysfunction is upstream)
+    \item Otherwise, convert all features to z-scores for comparison (convert the CBF percentage $x_2$ to a z-score using the control distribution mean and SD before comparing magnitude); assign to the subtype with the largest absolute z-score deviation; if tied, prioritize CNS-Primary $>$ Autonomic-Primary $>$ Peripheral-Primary (reflecting the hypothesis that CNS dysfunction is upstream)
     \item Document secondary subtype features for treatment consideration
 \end{enumerate}
 
