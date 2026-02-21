@@ -44,7 +44,8 @@
       "Bash(gh auth:*)",
       "Bash(cat:*)",
       "Read(//home/nicky/code/claude-router-system/docs/**)",
-      "Read(//home/nicky/code/claude-router-system/**)"
+      "Read(//home/nicky/code/claude-router-system/**)",
+      "Bash(git rm:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
@@ -52,7 +53,9 @@
       "Read(./.env.*)"
     ],
     "additionalDirectories": [
-      "/home/nicky/code/claude-router-system/implementation"
+      "/home/nicky/code/claude-router-system/implementation",
+      "/home/nicky/code/health-me-cfs/.claude/plans",
+      "/home/nicky/code/health-me-cfs/.claude/content-staging"
     ]
   },
   "hooks": {
