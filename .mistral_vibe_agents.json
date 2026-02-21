@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "project": "health-me-cfs",
+  "default_agent": "devstral-2512",
+  "specialized_agents": {
+    "web_researcher": {
+      "model": "devstral-medium-2512",
+      "context_window": 90000,
+      "max_tokens": 4000,
+      "temperature": 0.5,
+      "capabilities": ["web_search", "api_integration", "data_retrieval"],
+      "tools": ["serpapi", "pubmed", "crossref", "arxiv"],
+      "description": "Specialized in online literature research, database queries, and web-based evidence gathering"
+    },
+    "medical_research": {
+      "model": "devstral-medium-2512",
+      "context_window": 100000,
+      "max_tokens": 5000,
+      "temperature": 0.3,
+      "capabilities": ["medical_analysis", "hypothesis_generation", "evidence_synthesis"],
+      "tools": ["reference_manager", "citation_formatter", "hypothesis_validator"],
+      "description": "Medical literature analysis, hypothesis generation, and evidence-based synthesis"
+    },
+    "code_assistant": {
+      "model": "codestral-latest",
+      "context_window": 50000,
+      "max_tokens": 3000,
+      "temperature": 0.1,
+      "capabilities": ["code_generation", "latex_compilation", "script_automation"],
+      "tools": ["latex_compiler", "python_executor", "bash_executor"],
+      "description": "LaTeX document compilation, script writing, and automation tasks"
+    },
+    "visual_creator": {
+      "model": "pixtral-large-latest",
+      "context_window": 70000,
+      "max_tokens": 3500,
+      "temperature": 0.8,
+      "capabilities": ["image_generation", "diagram_creation", "visual_conceptualization"],
+      "tools": ["tikz_generator", "figure_renderer", "concept_visualizer"],
+      "description": "Scientific figure generation, TikZ diagram creation, and visual concept development"
+    },
+    "qa_verifier": {
+      "model": "mistral-medium-latest",
+      "context_window": 60000,
+      "max_tokens": 2000,
+      "temperature": 0.2,
+      "capabilities": ["fact_checking", "citation_verification", "consistency_audit"],
+      "tools": ["reference_checker", "plagiarism_detector", "logic_validator"],
+      "description": "Quality assurance, fact-checking, and consistency verification"
+    },
+    "integration_coordinator": {
+      "model": "devstral-2512",
+      "context_window": 120000,
+      "max_tokens": 6000,
+      "temperature": 0.4,
+      "capabilities": ["cross_chapter_synthesis", "project_coordination", "workflow_management"],
+      "tools": ["project_manager", "dependency_tracker", "progress_monitor"],
+      "description": "Cross-chapter integration, project coordination, and workflow management"
+    },
+    "data_analyst": {
+      "model": "mistral-medium-2508",
+      "context_window": 80000,
+      "max_tokens": 3000,
+      "temperature": 0.3,
+      "capabilities": ["data_analysis", "statistical_modeling", "pattern_recognition"],
+      "tools": ["statistics_package", "data_visualizer", "pattern_analyzer"],
+      "description": "Statistical analysis, data modeling, and pattern recognition in research data"
+    }
+  },
+  "routing_rules": {
+    "Literature/*": "web_researcher",
+    "contents/part2-pathophysiology/*": "medical_research",
+    "contents/part1-clinical/*": "medical_research",
+    "figures/*": "visual_creator",
+    "*.tex": "code_assistant",
+    "scripts/*": "code_assistant",
+    "patients/*": "medical_research",
+    "*qa*": "qa_verifier",
+    "*audit*": "qa_verifier",
+    "*analysis*": "data_analyst",
+    "*integration*": "integration_coordinator",
+    "*synthesis*": "integration_coordinator"
+  },
+  "workflow_presets": {
+    "literature_review": ["web_researcher", "medical_research", "qa_verifier"],
+    "figure_creation": ["visual_creator", "code_assistant", "qa_verifier"],
+    "chapter_compilation": ["medical_research", "code_assistant", "integration_coordinator"],
+    "quality_audit": ["qa_verifier", "medical_research", "integration_coordinator"]
+  },
+  "token_optimization": {
+    "context_compression": true,
+    "auto_model_selection": true,
+    "cost_monitoring": true,
+    "usage_reporting": "weekly"
+  },
+  "security": {
+    "api_key_rotation": "monthly",
+    "data_encryption": true,
+    "access_control": {
+      "web_researcher": ["internet_access"],
+      "code_assistant": ["file_system", "process_execution"],
+      "default": ["file_system_read"]
+    }
+  }
+}

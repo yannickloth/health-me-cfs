@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "description": "Integration between Mistral Vibe agents and existing Claude agents for ME/CFS project",
+  "mapping": {
+    "mistral_to_claude": {
+      "web_researcher": "research-monitor",
+      "medical_research": "hypothesis-generator",
+      "code_assistant": "formatting-fixer",
+      "visual_creator": "tikz-illustrator",
+      "qa_verifier": "data-validator",
+      "integration_coordinator": "case-documenter",
+      "data_analyst": "treatment-analyst"
+    },
+    "claude_to_mistral": {
+      "research-monitor": "web_researcher",
+      "hypothesis-generator": "medical_research",
+      "formatting-fixer": "code_assistant",
+      "tikz-illustrator": "visual_creator",
+      "data-validator": "qa_verifier",
+      "case-documenter": "integration_coordinator",
+      "treatment-analyst": "data_analyst",
+      "pacing-coach": "medical_research",
+      "benefit-navigator": "medical_research",
+      "crisis-manager": "medical_research"
+    }
+  },
+  "agent_compatibility": {
+    "web_researcher": {
+      "claude_equivalent": "research-monitor",
+      "capability_match": 0.85,
+      "notes": "Mistral web_researcher has broader web access; Claude research-monitor focuses on ME/CFS literature"
+    },
+    "medical_research": {
+      "claude_equivalent": "hypothesis-generator",
+      "capability_match": 0.90,
+      "notes": "Both specialize in medical analysis; Mistral agent has larger context window"
+    },
+    "code_assistant": {
+      "claude_equivalent": "formatting-fixer",
+      "capability_match": 0.75,
+      "notes": "Claude agent more LaTeX-specific; Mistral agent handles general code"
+    },
+    "visual_creator": {
+      "claude_equivalent": "tikz-illustrator",
+      "capability_match": 0.95,
+      "notes": "Near perfect match; Mistral agent can use more advanced models"
+    },
+    "qa_verifier": {
+      "claude_equivalent": "data-validator",
+      "capability_match": 0.80,
+      "notes": "Claude agent more focused on data; Mistral agent broader QA"
+    },
+    "integration_coordinator": {
+      "claude_equivalent": "case-documenter",
+      "capability_match": 0.70,
+      "notes": "Different focus but similar coordination role"
+    },
+    "data_analyst": {
+      "claude_equivalent": "treatment-analyst",
+      "capability_match": 0.85,
+      "notes": "Both analyze patterns; Mistral agent more statistical focus"
+    }
+  },
+  "hybrid_workflows": {
+    "literature_review": {
+      "agents": [
+        {"type": "claude", "name": "research-monitor", "phase": "data_gathering"},
+        {"type": "mistral", "name": "web_researcher", "phase": "web_search"},
+        {"type": "claude", "name": "hypothesis-generator", "phase": "analysis"},
+        {"type": "mistral", "name": "medical_research", "phase": "synthesis"},
+        {"type": "claude", "name": "data-validator", "phase": "validation"}
+      ],
+      "description": "Comprehensive literature review combining Claude's ME/CFS expertise with Mistral's web capabilities"
+    },
+    "figure_creation": {
+      "agents": [
+        {"type": "mistral", "name": "visual_creator", "phase": "initial_design"},
+        {"type": "claude", "name": "tikz-illustrator", "phase": "detailed_implementation"},
+        {"type": "mistral", "name": "qa_verifier", "phase": "quality_check"}
+      ],
+      "description": "Leverage Mistral's creative generation with Claude's TikZ expertise"
+    },
+    "patient_analysis": {
+      "agents": [
+        {"type": "claude", "name": "case-documenter", "phase": "data_collection"},
+        {"type": "claude", "name": "hypothesis-generator", "phase": "hypothesis_generation"},
+        {"type": "mistral", "name": "medical_research", "phase": "literature_crosscheck"},
+        {"type": "claude", "name": "treatment-analyst", "phase": "treatment_prediction"},
+        {"type": "mistral", "name": "integration_coordinator", "phase": "final_synthesis"}
+      ],
+      "description": "Comprehensive patient analysis combining both agent systems"
+    }
+  },
+  "fallback_strategy": {
+    "default": "mistral",
+    "rules": {
+      "*.tex": "claude",
+      "figures/*": "claude",
+      "patients/*": "claude",
+      "Literature/*": "hybrid",
+      "contents/*": "hybrid",
+      "scripts/*": "mistral",
+      "*.py": "mistral",
+      "*.sh": "mistral"
+    }
+  },
+  "performance_optimization": {
+    "token_savings": {
+      "claude_agents": "Use for ME/CFS-specific tasks (better domain knowledge)",
+      "mistral_agents": "Use for general tasks and web access (better capabilities)"
+    },
+    "quality_optimization": {
+      "medical_analysis": "claude (hypothesis-generator)",
+      "web_research": "mistral (web_researcher)",
+      "visual_creation": "hybrid (mistral creative + claude tikz)",
+      "code_tasks": "mistral (codestral)",
+      "quality_assurance": "hybrid (both systems)"
+    }
+  },
+  "implementation": {
+    "router_script": "scripts/hybrid_agent_router.py",
+    "configuration_files": [
+      ".mistral_vibe_agents.json",
+      ".mistral_vibe_claude_integration.json"
+    ],
+    "environment_variables": {
+      "MISTRAL_CLAUDE_HYBRID": "enabled",
+      "DEFAULT_AGENT_SYSTEM": "hybrid",
+      "FALLBACK_TO_CLAUDE": "true"
+    }
+  }
+}
