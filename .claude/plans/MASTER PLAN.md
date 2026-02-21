@@ -221,7 +221,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 **Rationale:** Without knowing what's incomplete, Phases 3-7 risk duplicating effort or missing gaps. This audit ensures comprehensive coverage and prevents incomplete chapters from surviving to final commit.
 
-### Tasks
+### Phase 0.5 Tasks
 
 - [ ] **0.5.1** Scan all `.tex` files for placeholder markers (TODO, FIXME, XXX, \placeholder, stub, "to be written", "needs research") | **Agent:** Explore (Sonnet)
 - [ ] **0.5.2** Audit each chapter for sections that exist in `\section{}` headers but have < 100 words of content | **Agent:** sonnet-general
@@ -232,7 +232,8 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 **Deliverable:** `.claude/plans/PLACEHOLDER_AUDIT.md` — Gap inventory feeding into Phases 1-7
 
-**Verification:**
+#### Phase 0.5 Verification
+
 - [ ] Every `.tex` file scanned
 - [ ] Gap inventory covers all chapters
 - [ ] Each gap assigned to a phase
@@ -258,7 +259,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **Decision 1.4:** Delete old appendix-i/j files or keep in `deprecated/`? **Recommend: Delete (git preserves)**
 - [ ] **Decision 1.5:** Approve README content for `patients/yannick/`?
 
-### Tasks
+### Phase 1 Tasks
 
 - [ ] **1.1** Extract content from `appendix-i-personal-symptoms.tex` → `patients/yannick/03-symptom-profile.tex` (consolidate) | **Agent:** chapter-integrator (Sonnet)
 - [ ] **1.2** Extract content from `appendix-i-a-medical-management.tex` → `patients/yannick/01-medical-history.tex` | **Agent:** chapter-integrator (Sonnet)
@@ -272,7 +273,8 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **1.10** Build verification: `nix build` | **Agent:** test-runner (Haiku)
 - [ ] **1.11** Commit reorganization | **Agent:** haiku-general
 
-**Verification:**
+#### Phase 1 Verification
+
 - [ ] `nix build` succeeds
 - [ ] All patient content in `patients/yannick/`
 - [ ] No duplicate content
@@ -304,7 +306,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 | `insights-wirth-neurotransmitter.md` | Ch 8 | Literature | MEDIUM |
 | `scientific-insights-wirth-scheibenbogen-2025.md` | Ch 7, 10 | Literature | HIGH |
 
-### Tasks
+### Phase 2 Tasks
 
 - [ ] **2.1** Integrate acute-onset protocol into Ch 14a/14b | **Agent:** chapter-integrator (Sonnet)
 - [ ] **2.2** Integrate front-loading strategy into Ch 14a | **Agent:** chapter-integrator (Sonnet)
@@ -319,11 +321,13 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **2.11** **ITERATIVE** Scientific rigor audit — repeat until clean | **Agent:** scientific-rigor-auditor (Opus)
 - [ ] **2.12** Commit integration | **Agent:** haiku-general
 
-**Quality Gate (R3):**
+#### Phase 2 Quality Gate (R3)
+
 - Task 2.11 runs as: `REPEAT: audit → fix → re-audit UNTIL: scientific-rigor-auditor reports 0 issues`
 - Phase cannot be marked complete until 2.11 exits clean
 
-**Verification:**
+#### Phase 2 Verification
+
 - [ ] All integration guides processed
 - [ ] Cross-references validated
 - [ ] `nix build` succeeds
@@ -386,7 +390,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 **Navigation principle:** "If patient X has trigger Y, reader should find trigger Y in Ch 5 index → read brief mechanism → follow reference to Ch 7 detailed pathogenesis → see cross-references to treatment (Part 3)"
 
-### Tasks
+### Phase 3 Tasks
 
 **Brainstorming (R2) — BEFORE any writing:**
 - [ ] **3.0a** Creative brainstorming: Symptom-producing mechanisms — discover additional biological phenomena, novel treatment targets, new hypotheses, and open research questions beyond the planned 10 sections | **Agent:** hypothesis-generator (Sonnet)
@@ -433,12 +437,14 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **3.21** **ITERATIVE** Final quality review — repeat until clean | **Agent:** opus-general (Opus)
 - [ ] **3.22** Commit Ch. 15 | **Agent:** haiku-general
 
-**Quality Gate (R3):**
+#### Phase 3 Quality Gate (R3)
+
 - Tasks 3.18, 3.20, 3.21 each run as iterative loops
 - Format: `REPEAT: review → fix → re-review UNTIL: agent confirms 0 issues`
 - Phase cannot be marked complete until ALL three exit clean
 
-**Verification:**
+#### Phase 3 Verification
+
 - [ ] All 10+ sections complete (including any brainstorming additions)
 - [ ] 40-50 pages total
 - [ ] All claims cited
@@ -467,7 +473,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 4. Pediatric ME/CFS wheat-exercise intolerance
 5. Mast cell activation cascade integration
 
-### Tasks
+### Phase 4 Tasks
 
 **Brainstorming (R2) — BEFORE content creation:**
 - [ ] **4.0a** Creative brainstorming per stream: For each of the 5 research streams, discover new biological phenomena, treatment targets, hypotheses, and research questions | **Agent:** hypothesis-generator (Sonnet)
@@ -485,11 +491,13 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **4.14** **ITERATIVE** Style naturalization — repeat until clean | **Agent:** style-naturalizer (Sonnet)
 - [ ] **4.15** Commit | **Agent:** haiku-general
 
-**Quality Gate (R3):**
+#### Phase 4 Quality Gate (R3)
+
 - Tasks 4.13, 4.14 each iterate until agent confirms 0 issues
 - Phase cannot be marked complete until both exit clean
 
-**Verification:**
+#### Phase 4 Verification
+
 - [ ] All 5 streams researched (plus brainstorming additions)
 - [ ] New sections in Ch 11 (gut), Ch 17 (lifestyle)
 - [ ] Biomarker decision tree created
@@ -518,7 +526,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 6. Headache as CNS energy crisis sentinel (Ch 8 or 14j)
 7-10. Research proposals for Ch 25b
 
-### Tasks
+### Phase 5 Tasks
 
 **Brainstorming (R2) — BEFORE hypothesis development:**
 - [ ] **5.0a** Creative brainstorming for each of the 6 hypotheses: Discover additional mechanisms, alternative explanations, related phenomena, and testable predictions beyond the planned content | **Agent:** hypothesis-generator (Sonnet)
@@ -547,11 +555,13 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **5.34** **ITERATIVE** Logic audit — repeat until clean | **Agent:** logic-auditor (Sonnet)
 - [ ] **5.35** Commit | **Agent:** haiku-general
 
-**Quality Gate (R3):**
+#### Phase 5 Quality Gate (R3)
+
 - Tasks 5.31, 5.32, 5.34 each iterate until agent confirms 0 issues
 - Phase cannot be marked complete until ALL exit clean
 
-**Verification:**
+#### Phase 5 Verification
+
 - [ ] All 10 content areas added (plus brainstorming additions)
 - [ ] 4 research proposals in Ch 25b
 - [ ] All claims cited
@@ -581,7 +591,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 5. Dose-dependent benefit curves
 6. Withdrawal effects
 
-### Tasks
+### Phase 6 Tasks
 
 **Brainstorming (R2) — BEFORE drafting:**
 - [ ] **6.0a** Creative brainstorming: Medication effect phenomena — discover additional effect patterns, drug interactions, paradoxical responses, and population-specific variations not covered by the 6 planned types | **Agent:** hypothesis-generator (Sonnet)
@@ -606,11 +616,13 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 **SKIP Phase 6 (final QA)** — Deferred to Phase 8
 
-**Quality Gate (R3):**
+#### Phase 6 Quality Gate (R3)
+
 - Tasks 6.14, 6.16 each iterate until agent confirms 0 issues
 - Safety review (6.14) is CRITICAL — must be completely clean before proceeding
 
-**Verification:**
+#### Phase 6 Verification
+
 - [ ] All 6 effect types drafted in `.claude/content-staging/` (plus brainstorming additions)
 - [ ] Safety reviews complete and clean (iterative)
 - [ ] Pediatric adaptations ready
@@ -692,7 +704,8 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **7.53** **ITERATIVE** Link check — repeat until clean | **Agent:** link-checker (Haiku)
 - [ ] **7.54** Build verification | **Agent:** test-runner (Haiku)
 
-**Quality Gate (R3):**
+#### Phase 7 Quality Gate (R3)
+
 - ALL tasks 7.47-7.53 run as iterative loops
 - Format: `REPEAT: review → fix → re-review UNTIL: agent confirms 0 issues`
 - Phase 7.9 cannot complete until ALL seven agents report clean
@@ -704,7 +717,8 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 **Phase 7.10a: Resolve Remaining Phase 0.5 Gaps**
 - [ ] **7.60** Review Phase 0.5 gap inventory — verify all assigned gaps resolved; address any remaining | **Agent:** content-reviewer (Sonnet)
 
-**Verification:**
+#### Phase 7 Verification
+
 - [ ] All 7+ system chapters created
 - [ ] Severity guidance preserved
 - [ ] Part 2 ↔ Part 3 links work
@@ -723,7 +737,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 **Rationale:** This phase applies R3 (iterative quality checking) to the ENTIRE document, not just individual phases. Every audit runs until clean.
 
-### Tasks
+### Phase 8 Tasks
 
 - [ ] **8.1** Full document build verification | **Agent:** test-runner (Haiku)
 - [ ] **8.2** **ITERATIVE** All cross-references validated — repeat until clean | **Agent:** link-checker (Haiku)
@@ -735,13 +749,15 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 - [ ] **8.8** Create comprehensive commit message summarizing all phases | **Agent:** commit-writer (Sonnet)
 - [ ] **8.9** Final build and PDF verification | **Agent:** test-runner (Haiku)
 
-**Quality Gate (R3):**
+#### Phase 8 Quality Gate (R3)
+
 - Tasks 8.2, 8.3, 8.4, 8.5 each iterate until agent confirms 0 issues
 - **CRITICAL:** Phase 8 audits cover ALL new content (no sampling). Previous phases audited incrementally; this is the comprehensive final pass.
 - Task 8.7 must confirm zero placeholders (R1 final verification)
 - Phase 8 is complete ONLY when all iterative audits exit clean AND build succeeds
 
-**Verification:**
+#### Phase 8 Verification
+
 - [ ] `nix build` succeeds with no errors or warnings
 - [ ] All cross-references resolve (iterative, confirmed clean)
 - [ ] No uncited claims (iterative, confirmed clean)
@@ -922,7 +938,8 @@ Critical Context: [essential information only - NOT full conversation]
 
 ### Phase-Specific Continuation Examples
 
-**Phase 2 Continuation:**
+#### Phase 2 Continuation
+
 ```text
 Continue ME/CFS Documentation Project - Phase 2: Content-Staging Integration
 Current Status: Task 2.1 (acute-onset protocol) in progress, 0/12 tasks complete
@@ -946,7 +963,8 @@ Critical Context:
   - Build system: nix build → result/ms.pdf
 ```
 
-**Phase 3 Continuation:**
+#### Phase 3 Continuation
+
 ```text
 Continue ME/CFS Documentation Project - Phase 3: Research Gaps & Ch. 15 Creation
 Current Status: Brainstorming complete, skeleton created, literature searches in progress
