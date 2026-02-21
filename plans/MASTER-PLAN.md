@@ -1,12 +1,12 @@
 # Master Execution Plan: ME/CFS Documentation Project
 
-**Created:** 2026-02-10 | **Updated:** 2026-02-14 | **Status:** Phase 0.5 & 1 complete; Quality review in progress
+**Created:** 2026-02-10 | **Updated:** 2026-02-21 | **Status:** Phases 0.5, 1 & 2 complete; Ready for Phase 3
 
 ---
 
 ## ⚡ QUICK START
 
-Current Status: Phase 0.5 & 1 COMPLETE (commit c35ed86) | Quality review 70% complete | Ready for Phase 2
+Current Status: Phases 0.5, 1 & 2 COMPLETE (commit 3c4fc91) | Rigor audit passed, build verified | Ready for Phase 3
 
 **Total Tasks:** 222 across 9 phases
 **Model Hours:** ~227 (84% Sonnet, 10% Opus, 7% Haiku)
@@ -898,7 +898,7 @@ Phase 2 (Staging Integration) ← CRITICAL BOTTLENECK
 
 ## 📊 Progress Tracking Dashboard
 
-**Last Updated:** 2026-02-20 | **Current Phase:** Phase 2 (Content-Staging Integration)
+**Last Updated:** 2026-02-21 | **Current Phase:** Phase 3 (Research Gaps & Ch. 15 Creation)
 
 ### Phase Completion Status
 
@@ -926,8 +926,8 @@ gantt
     section Phases
     Phase 0.5 :done, p05, 2026-02-10, 2026-02-14
     Phase 1 :done, p1, after p05, 2026-02-14, 2026-02-16
-    Phase 2 :active, p2, after p1, 2026-02-20, 24d
-    Phase 3 :p3, after p2, 4d
+    Phase 2 :done, p2, after p1, 2026-02-20, 2026-02-21
+    Phase 3 :active, p3, after p2, 4d
     Phase 4 :p4, after p2, 3d
     Phase 5 :p5, after p2, 4d
     Phase 6 :p6, after p2, 2d
@@ -935,30 +935,27 @@ gantt
     Phase 8 :p8, after p7, 2d
 ```
 
-### Current Focus: Phase 2 - Content-Staging Integration
+### Current Focus: Phase 3 - Research Gaps & Ch. 15 Creation
 
-**Objective:** Integrate 10 existing `.tex` files + 7 integration guides from `.claude/content-staging/` into main document.
+**Objective:** Create Ch. 15 "Symptom-Producing Mechanisms" and add trigger mechanism documentation to Ch. 5 and Ch. 7.
 
 **Priority Order:**
-1. **HIGH Priority:** Acute-onset protocol, Front-loading strategy, Astrocyte-energy-gate, CNS-energy-triage
-2. **MEDIUM Priority:** HRV-guided pacing, Sports-medicine pacing, Wirth neurotransmitter insights
-3. **MEDIUM Priority:** Wirth-Scheibenbogen 2025 insights
 
-**Current Task:** 2.2 - Integrate front-loading strategy into Ch 14a
+1. **Brainstorming (R2):** Tasks 3.0a–3.0c before any writing
+2. **Skeleton & Literature:** Create ch15 skeleton, 5 literature searches (tasks 3.1–3.6b)
+3. **Trigger mechanism documentation:** Audit existing content, literature, write Ch 5 + Ch 7 additions (tasks 3.6c–3.6i)
+4. **Content writing:** Sections 15.1–15.10 (tasks 3.7–3.16b)
+5. **Quality gates (R3):** Iterative rigor audit, style audit, final review
 
-**Status:** Task 2.1 ✅ COMPLETE (2026-02-20)
-- Acute onset protocol integrated into ch14b-action-mild-moderate.tex
-- All cross-references verified and working
-- Build successful (result/ms.pdf generated)
-- 1,100 words added
+**Status:** Phase 3 NOT STARTED — Phase 2 complete as of 2026-02-21 ✅
 
 **Blockers:** None
-**Dependencies:** Phase 1 complete ✓
+**Dependencies:** Phase 2 complete ✓ (commit 3c4fc91)
 
 ### Upcoming Milestones
 
-- **Phase 2 Complete:** Target 2026-02-24 (4 days)
-- **Phase 3 Start:** Target 2026-02-25
+- **Phase 2 Complete:** ✅ DONE (2026-02-21, commit 3c4fc91)
+- **Phase 3 Start:** Target 2026-02-22
 - **Parallel Phases 3-6:** Target completion 2026-03-05
 - **Phase 7 Start:** Target 2026-03-06
 - **Project Complete:** Target 2026-03-15
@@ -1297,6 +1294,15 @@ Task: Integrate acute-onset protocol
 
 ## 📝 Change Log
 
+**2026-02-21:**
+
+- Marked Phase 2 as COMPLETE (commit 3c4fc91, rigor audit passed, build verified)
+- Updated Current Phase to Phase 3 (Research Gaps & Ch. 15 Creation)
+- Updated Current Focus section to Phase 3 priority order and tasks
+- Updated Upcoming Milestones: Phase 2 done, Phase 3 start target 2026-02-22
+- Updated Next Session Recommendation to Phase 3 approach
+- Removed Phase 2 staging files from `.claude/content-staging/`
+
 **2026-02-20:**
 - Added Progress Tracking Dashboard
 - Added Continuation Protocol section
@@ -1331,20 +1337,21 @@ Task: Integrate acute-onset protocol
 
 ## 🎯 Next Session Recommendation
 
-**Priority:** Complete Phase 2 - Content-Staging Integration
+**Priority:** Begin Phase 3 - Research Gaps & Ch. 15 Creation
 
 **Recommended Approach:**
-1. **Start with Task 2.1** (acute-onset protocol integration)
-2. **Use chapter-integrator agent** for content placement
-3. **Verify build after each integration**
-4. **Run cross-reference check** after all integrations
-5. **Begin iterative rigor audit**
-6. **Create comprehensive commit** when audit clean
 
-**Estimated Session Duration:** 2-3 hours
-**Target Completion:** 4-6 tasks (33-50% of Phase 2)
+1. **Start with brainstorming (R2):** Run tasks 3.0a–3.0c (hypothesis-generator, literature-integrator) before writing anything
+2. **Create ch15 skeleton** (task 3.1) incorporating brainstorming findings
+3. **Literature searches** for the 5 core mechanisms (tasks 3.2–3.6b)
+4. **Trigger mechanism audit** — audit existing Ch 5, Ch 7, Ch 14 content (task 3.6c) before writing additions
+5. **Write content sections** once literature is gathered (tasks 3.7–3.16b)
+6. **Iterative quality gates (R3):** rigor audit → style audit → Opus review, each cycling until clean
 
-**Continuation Strategy:** If context exceeds 35%, use the Phase 2 continuation prompt template above.
+**Estimated Session Duration:** 3-4 hours
+**Target Completion:** Brainstorming + skeleton + 2-3 literature searches (tasks 3.0a–3.4)
+
+**Continuation Strategy:** If context exceeds 35%, use the Phase 3 continuation prompt template above.
 
 ---
 **End of MASTER PLAN.md — Enhanced Execution Version**
