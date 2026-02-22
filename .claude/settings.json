@@ -55,7 +55,8 @@
     "additionalDirectories": [
       "/home/nicky/code/claude-router-system/implementation",
       "/home/nicky/code/health-me-cfs/.claude/plans",
-      "/home/nicky/code/health-me-cfs/.claude/content-staging"
+      "/home/nicky/code/health-me-cfs/.claude/content-staging",
+      "/tmp"
     ]
   },
   "hooks": {

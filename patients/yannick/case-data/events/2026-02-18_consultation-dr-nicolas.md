@@ -1,8 +1,9 @@
 # Medical Consultation — Dr. Jean-Baptiste Nicolas
+
 **Date:** 2026-02-18
 **Physician:** Dr. Jean-Baptiste Nicolas
 **Specialty:** Internal General Medicine
-**Contact:** jean-baptiste.nicolas@slbo.be
+**Contact:** <jean-baptiste.nicolas@slbo.be>
 **Transport:** Patient drove 1h each way (2h total) — tolerated well, minimal fatigue reported
 
 ---
@@ -23,6 +24,7 @@
 **Target dose:** 4.5 mg
 
 **Escalation sequence prescribed:**
+
 1. **Step 1:** Finish remaining 3 mg gelules (current stock)
 2. **Step 2:** Transition to 2 × 2 mg gelules (= 4 mg) — intermediate step
 3. **Step 3:** Start 4.5 mg gelules
@@ -62,7 +64,7 @@ Bellozal is a brand of bilastine (H1 antagonist — different molecule, no PAF a
 Dr. Nicolas chose Rupatall over Bellozal, presumably for its broader mast cell mechanism (PAF blockade).
 
 **Replaces:** Current rupatadine 10–20 mg ×1/day protocol.
-**Tablet dose:** To confirm at pharmacy.
+**Tablet dose:** Confirmed at pharmacy — 3 tablets/day.
 
 ---
 
@@ -73,6 +75,7 @@ Dr. Nicolas chose Rupatall over Bellozal, presumably for its broader mast cell m
 **Dosing:** On demand, depending on food content
 
 **Clinical context:** This confirms histamine/MCAS track. DAOSIN is appropriate for meals containing:
+
 - Aged cheeses, fermented foods (yogurt, sauerkraut)
 - Cured/smoked meats
 - Alcohol (especially wine/beer)
@@ -119,10 +122,10 @@ and risk profile appears low.
 ## Summary of Protocol Changes
 
 | Item | Previous | New |
-|------|----------|-----|
+| ---- | -------- | --- |
 | LDN | 3 mg/day | 3 mg → 4 mg → 4.5 mg (sequential escalation) |
 | Famotidine | Not in protocol | NEW — 20 mg ×1/day |
-| Rupatadine/Rupatall | 10–20 mg ×1/day | Rupatall ×3/day (⚠️ confirm dose/tablet) |
+| Rupatadine/Rupatall | 10–20 mg ×1/day | Rupatall ×3/day (confirmed at pharmacy) |
 | DAOSIN | Not in protocol | NEW — on demand before high-histamine meals |
 | Montelukast | Not in protocol | NEW — 10 mg ×1/day |
 | HEMO-HIM-G | Not in protocol | NEW — NK cell support |
