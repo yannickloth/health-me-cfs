@@ -1,0 +1,79 @@
+date: 2026-02-22
+
+symptoms:
+  cognitive_status: "OK"
+  headache: false
+  fatigue_level: "mild-to-moderate"
+  fatigue_notes: "Somewhat tired but not excessive"
+  pain_diffuse_muscles: true
+  pain_locations: "legs and around shoulders"
+  pem_active: false
+  orthostatic_intolerance: null
+
+activity:
+  - type: "cooking (pancakes)"
+    duration_min: null
+    exertion_level: "light-household"
+    consequence: "caused fatigue and weakness"
+  - type: "rest (couch, preferably lying down)"
+    duration_min: null
+    exertion_level: "sedentary"
+    notes: "Patient appreciates sitting or lying on couch"
+
+medications:
+  - name: "Riboflavin (Vitamin B2)"
+    taken: true
+    dose: null
+    time: null
+  - name: "Montelukast"
+    taken: true
+    dose: null
+    time: null
+  - name: "Rupatadine (Rupatall)"
+    taken: true
+    dose: null
+    count: 3
+    time: null
+  - name: "Famotidine"
+    taken: true
+    dose: null
+    time: null
+  - name: "Magnesium glycinate"
+    taken: true
+    dose: null
+    time: null
+  - name: "B-FORTE (B-vitamin complex)"
+    taken: true
+    dose: null
+    time: null
+  - name: "Urolithin A + NAD+ precursor"
+    taken: true
+    dose: null
+    time: null
+  - name: "D-ribose"
+    taken: true
+    dose: null
+    time: null
+  - name: "MCT oil"
+    taken: true
+    dose: null
+    time: null
+  - name: "Q1 (CoQ1 / ubiquinol supplement)"
+    taken: true
+    dose: null
+    time: null
+  - name: "Low Dose Naltrexone (LDN)"
+    taken: false
+  - name: "Iron"
+    taken: false
+    reason_skipped: "not taken today"
+  - name: "Vitamin C"
+    taken: false
+    reason_skipped: "not taken today"
+
+notes: >
+  Mild-to-moderate day. Cognitive function OK with no headache. Diffuse muscle pains in
+  legs and shoulders. Cooking pancakes triggered fatigue and weakness, consistent with
+  reduced functional capacity for light household tasks. Preferred posture is lying on
+  couch. No PEM episode active. Iron and Vitamin C not taken today.
+  LDN not taken.

@@ -1,0 +1,76 @@
+# Current medication and supplement regimen
+# Last updated: 2026-02-22
+
+regimen:
+  - name: "Riboflavin (Vitamin B2)"
+    category: "supplement"
+    indication: "mitochondrial support, energy metabolism"
+
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    indication: "immune modulation, neuroinflammation, glial suppression"
+    frequency: "1x/day"
+    start_date: "2026-02-19"
+    titration:
+      - dose: "3 mg"
+        from: "2026-02-19"
+        to: null        # update when dose increases
+      - dose: "4 mg"
+        from: null      # update when titration step occurs
+        to: null
+      - dose: "4.5 mg"
+        from: null      # final maintenance dose
+        to: null
+        maintenance: true
+    current_dose: "3 mg"
+
+  - name: "Montelukast"
+    category: "medication"
+    indication: "mast cell / leukotriene antagonist"
+    frequency: "1x/day"
+    start_date: "2026-02-19"
+
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    indication: "antihistamine / mast cell stabiliser"
+    frequency: "3x/day"
+    typical_daily_count: 3
+    start_date: "2026-02-19"
+
+  - name: "Famotidine"
+    category: "medication"
+    indication: "H2 antihistamine / mast cell"
+
+  - name: "Magnesium glycinate"
+    category: "supplement"
+    indication: "muscle function, sleep, nervous system"
+
+  - name: "B-FORTE (B-vitamin complex)"
+    category: "supplement"
+    indication: "neurological support, energy metabolism"
+
+  - name: "Urolithin A + NAD+ precursor"
+    category: "supplement"
+    indication: "mitophagy, NAD+ metabolism, cellular energy"
+
+  - name: "D-ribose"
+    category: "supplement"
+    indication: "ATP synthesis support"
+
+  - name: "MCT oil"
+    category: "supplement"
+    indication: "ketogenic energy substrate"
+
+  - name: "Q1 (CoQ1 / ubiquinol)"
+    category: "supplement"
+    indication: "mitochondrial electron transport, antioxidant"
+
+  - name: "Iron"
+    category: "supplement"
+    indication: "haematological support"
+    notes: "taken intermittently / as needed"
+
+  - name: "Vitamin C"
+    category: "supplement"
+    indication: "antioxidant, iron absorption cofactor"
+    notes: "often co-administered with iron"
