@@ -237,9 +237,8 @@ See Section~\ref{sec:protocols} in Chapter~\ref{ch:supplements} for cost-stratif
 \label{subsec:when-to-stop}
 
 \rev{5}
-\begin{hypothesis}[Treatment Trial Limits for Severe Patients]
-\label{hyp:treatment-trial-limits}
-\revend
+\begin{directive}[Treatment Trial Limits for Severe Patients]
+\label{dir:treatment-trial-limits}
 
 \textbf{Certainty: 0.30} (clinical reasoning based on crash dose-response data and paradoxical reactor observations; no RCTs on optimal trial limits)
 
@@ -254,7 +253,8 @@ For severe and very severe ME/CFS patients, the following decision rules may pre
 \end{itemize}
 
 \textbf{Decision threshold}: For very severe (bedridden) patients, apply a more conservative standard---stop after \textit{any single} treatment-induced functional decline lasting more than 1 week. The margin for error in very severe disease is extremely narrow.
-\end{hypothesis}
+\end{directive}
+\revend
 
 \subsection{Medication-Induced Crash Recovery Protocol}
 \label{subsec:crash-recovery}
@@ -330,6 +330,18 @@ A treatment should be considered failed after:
     \item Cost burden outweighing uncertain or minimal benefit
     \item Functional decline that correlates temporally with treatment initiation
 \end{itemize}
+\revend
+
+\rev{6}
+\begin{limitation}[Treatment Planning Framework: Rational but Unvalidated]
+The treatment energy classification (Categories A/B/C), micro-dosing imperative, crash-risk ranking, and sequencing principles presented above are derived from clinical reasoning and patient community experience rather than from clinical trials. Key epistemic boundaries:
+\begin{itemize}
+    \item The Category A/B/C energy classification has face validity but has not been validated by measuring actual ATP expenditure or metabolic cost of drug processing in ME/CFS patients.
+    \item The micro-dosing protocol (start at 1/4 to 1/10 standard dose) is based on clinical observation and pattern recognition from the ``paradoxical reactor'' phenotype; the prevalence of this phenotype, optimal starting fractions, and titration schedules have not been determined by dose-finding studies.
+    \item The claim that ``50--70\% symptom reduction within 2 weeks'' is achievable rests on extrapolation from individual intervention efficacy; the comprehensive multi-target protocol has not been tested as a combined intervention in any study.
+    \item Phenotype-stratified treatment selection (immune-predominant, metabolic-predominant, etc.) is a rational framework but subtype assignment criteria have not been validated against treatment outcomes.
+\end{itemize}
+\end{limitation}
 \revend
 
 \section{Treating Comorbidities}
@@ -483,8 +495,9 @@ European Lyme disease (Borrelia species) can present as chronic fatigue with pos
 
 \subsubsection{Ehlers-Danlos Syndrome and Mast Cell Activation}
 
-\begin{hypothesis}[EDS/MCAS Underdiagnosis in ME/CFS]
-\label{hyp:eds-mcas-mecfs}
+\rev{5}
+\begin{observation}[EDS/MCAS Underdiagnosis in ME/CFS]
+\label{obs:eds-mcas-mecfs}
 Hypermobile Ehlers-Danlos syndrome (hEDS) and mast cell activation syndrome (MCAS) are frequently misdiagnosed as ME/CFS or occur as comorbid conditions. Patient advocacy groups and specialist clinicians suggest hEDS prevalence may be "100-fold higher than recognized" due to limited physician awareness, particularly among general practitioners unfamiliar with connective tissue disorders.
 
 \textbf{Hypermobile Ehlers-Danlos Syndrome (hEDS):}
@@ -652,7 +665,8 @@ For ME/CFS patients, screen for hEDS/MCAS if:
 \end{itemize}
 
 Recognizing hEDS and MCAS in ME/CFS populations is critical because treatment approaches differ substantially, and proper diagnosis can dramatically improve quality of life through targeted interventions (physical therapy for hEDS, mast cell stabilizers for MCAS).
-\end{hypothesis}
+\end{observation}
+\revend
 
 \section{Personalized Medicine Approaches}
 \label{sec:personalized-medicine}
@@ -794,9 +808,8 @@ Patients with metabolic-predominant ME/CFS have the best safety profile for trea
 \subsubsection{Treatment Selection Decision Tree}
 
 \rev{5}
-\begin{hypothesis}[Phenotype-Guided Treatment Prioritization]
-\label{hyp:phenotype-treatment-prioritization}
-\revend
+\begin{directive}[Phenotype-Guided Treatment Prioritization]
+\label{dir:phenotype-treatment-prioritization}
 
 A systematic approach to treatment selection based on phenotype, energy category, and severity:
 
@@ -815,7 +828,8 @@ A systematic approach to treatment selection based on phenotype, energy category
 \textbf{Step 4 --- Monitor and adjust}: Track response per Section~\ref{subsec:tracking-progress}. Apply stop criteria from Section~\ref{subsec:when-to-stop} if crash occurs.
 
 \textbf{Certainty: 0.25} (integrates well-established pharmacological principles with ME/CFS-specific clinical observations; the specific severity gating thresholds are clinical judgment rather than evidence-based; no RCTs comparing phenotype-guided vs. empirical treatment selection)
-\end{hypothesis}
+\end{directive}
+\revend
 
 \section{Combination Therapies}
 \label{sec:combination-therapies}
@@ -1062,7 +1076,7 @@ Critical illness depletes vitamins and minerals at alarming rates. ICU recovery 
 
 \begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=ICU-Derived Micronutrient Protocol for ME/CFS]
 
-\textbf{Rationale}: ME/CFS may involve chronic low-grade nutritional depletion from:
+\textbf{Rationale}: It has been hypothesized that ME/CFS may involve chronic low-grade nutritional depletion from:
 \begin{itemize}
     \item Malabsorption (gut dysfunction)
     \item Increased oxidative stress (higher antioxidant utilization)
@@ -1329,6 +1343,7 @@ NASA has refined reconditioning protocols through decades of astronaut recovery 
     \item This is NOT graded exercise therapy (GET)---progression is optional, not mandatory
     \item Many severe ME/CFS patients cannot progress beyond recumbent positioning
     \item \textbf{Goal is maintenance of current capacity, not necessarily improvement}
+    \item Even minimal recumbent activity may help slow deconditioning, though evidence for this in ME/CFS specifically is limited
 \end{itemize}
 
 \end{tcolorbox}
