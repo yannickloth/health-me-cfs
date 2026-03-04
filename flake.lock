@@ -21,11 +21,11 @@
     "infolead-latex-templates": {
       "flake": false,
       "locked": {
-        "lastModified": 1769176277,
-        "narHash": "sha256-tJmqnUeUSQZ0SdAzFyoA+iyBdAJRYAW3mIFCm0WUrn4=",
+        "lastModified": 1772645943,
+        "narHash": "sha256-93WkEXQeHg4u3uWQz1abYgLS81yQ4r2lzJ0rdY49uiA=",
         "owner": "yannickloth",
         "repo": "infolead-latex-templates",
-        "rev": "3b3698b561a314097efbd7c07467f17fe57f0e73",
+        "rev": "f14a83b2de3d351e3729012249e61b1a3566fd4b",
         "type": "github"
       },
       "original": {
