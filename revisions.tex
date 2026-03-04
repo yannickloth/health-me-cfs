@@ -1,36 +1,42 @@
 % revisions.tex — Version revision annotation macros
 %
-% Provides macros to annotate changed paragraphs and sections with
-% version numbers in the right margin. The changelog chapter in front
-% matter provides a high-level summary of changes per version.
-%
-% Usage:
-%   \changedIn{4}{This paragraph was revised in version 4.}
-%   \sectionChangedIn{4}   % after \section{...} or \chapter{...}
+% \changedIn{N}{content}  — vertical bar in margin spanning the paragraph, + v.N label
+% \sectionChangedIn{N}    — small v.N label in margin (no bar, section-level annotation)
 %
 % Toggle visibility:
-%   \setboolean{showrevisions}{false}  % hide markers for clean output
+%   \setboolean{showrevisions}{false}  % hide all markers for clean output
 
 \RequirePackage{ifthen}
+\RequirePackage{changebar}
+\RequirePackage{marginnote}
+
+% changebar configuration
+\setlength{\changebarsep}{6pt}    % distance from text block to bar
+\setlength{\changebarwidth}{2pt}  % bar thickness
+\definecolor{revisionbar}{gray}{0.55}
+\cbcolor{revisionbar}
 
 \newboolean{showrevisions}
 \setboolean{showrevisions}{true}
 
-% Internal: place version mark in right margin
-\newcommand{\revmark}[1]{%
-  \marginpar{\raggedright\footnotesize\sffamily\color{gray!70}v.\,#1}%
+% Internal: version label in right margin (small, gray, sans-serif)
+\newcommand{\revlabel}[1]{%
+  \marginnote{\footnotesize\sffamily\color{gray!70}v.\,#1}%
 }
 
 % Annotate a changed paragraph or block of text.
+% Draws a vertical bar in the margin spanning the full height of the content,
+% with a small version label. Does NOT add any newlines or extra spacing.
 % #1 = version number, #2 = content
 \newcommand{\changedIn}[2]{%
-  \ifthenelse{\boolean{showrevisions}}{\revmark{#1}}{}%
-  #2%
+  \ifthenelse{\boolean{showrevisions}}{%
+    \revlabel{#1}\cbstart#2\cbend%
+  }{#2}%
 }
 
 % Annotate a changed section or chapter heading (no content wrapping).
-% Place immediately after the \section{} or \chapter{} command.
+% Place immediately after \section{} or \chapter{}.
 % #1 = version number
 \newcommand{\sectionChangedIn}[1]{%
-  \ifthenelse{\boolean{showrevisions}}{\revmark{#1}}{}%
+  \ifthenelse{\boolean{showrevisions}}{\revlabel{#1}}{}%
 }
