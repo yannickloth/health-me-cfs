@@ -10,6 +10,12 @@ A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conve
 This chapter proposes that ME/CFS represents \emph{selective} rather than global energy dysfunction---specifically, a CNS coordination failure that impairs demand-responsive, CNS-dependent processes while sparing autonomous local processes that operate independently of central regulation.
 \end{open_question}
 
+\rev{6}
+\begin{limitation}[Preserved Processes: Informal Clinical Observation, Not Measured]
+The foundational claim that hair growth, nail growth, and wound healing are preserved in ME/CFS derives from patient self-reports and informal clinical experience. No published study has formally measured hair growth rate, nail growth rate, or wound healing time in ME/CFS patients compared to matched controls. These processes may in fact be subtly impaired without patients noticing, or they may appear preserved because their energy demands are negligible relative to the total energy budget even in health. The ``selective vs.\ global'' distinction may therefore be a continuum rather than a dichotomy, and the motivating observation could be an artefact of measurement insensitivity.
+\end{limitation}
+\revend
+
 \subsection{Motivation and Clinical Observations}
 
 The selective dysfunction hypothesis emerged from a simple observation: processes that require CNS coordination and scale with demand are severely impaired in ME/CFS, while processes that operate autonomously at the local tissue level remain intact.
@@ -107,6 +113,12 @@ where $\epsilon$ is residual error. \textbf{Working assumption:} $\epsilon \sim 
 
 \textbf{Certainty:} 0.55 (moderate evidence from clinical observations, formal testing required)
 \end{hypothesis}
+
+\rev{6}
+\begin{limitation}[Quantitative Framework: Unfitted Parameters and Circularity Risk]
+The CNS-dependency index $\delta_{CNS}$, demand-responsiveness index $\tilde{\rho}$, and dysfunction severity $S(P)$ are defined mathematically but have never been fitted to empirical data. The parameter values in Table~\ref{tab:process-classification} are ``expert estimates'' that partly reflect the clinical picture the model aims to predict --- as acknowledged in the independence requirement (line~104). Until $\delta_{CNS}$ and $\tilde{\rho}$ are estimated from independent sources (neuroanatomical pathway counts, healthy-control demand-scaling measurements), the correlation between predicted and observed dysfunction severity is circular. The weights $\alpha$, $\beta$, $\gamma$ have not been estimated from data and the interaction term's contribution is unknown. The framework is therefore a formalised heuristic, not a validated quantitative model.
+\end{limitation}
+\revend
 
 
 \subsection{Evidence Taxonomy}
@@ -515,6 +527,11 @@ The following thresholds are \emph{preliminary estimates} based on effect sizes 
 \textbf{Certainty:} 0.35 (framework theoretically motivated; all thresholds are preliminary estimates requiring empirical validation before any clinical application)
 \end{speculation}
 
+\rev{6}
+\begin{limitation}[Subtype Classification: No Empirical Validation]
+The four-subtype classification (CNS-Primary, Autonomic-Primary, Peripheral-Primary, Global/Advanced) has not been tested against patient data. The classification thresholds ($-1.5\sigma$, $2\sigma$, $25\%$ CBF reduction) are preliminary estimates, not data-derived cut-points. No multi-biomarker cohort study has simultaneously measured CSF catecholamines, orthostatic CBF, muscle ATP, and neuroimaging abnormalities in ME/CFS patients to determine whether natural clusters correspond to these proposed subtypes. The Subtype~E (Unclassified) category may capture the majority of patients, rendering the classification clinically impractical. Treatment stratification based on these subtypes is entirely hypothetical.
+\end{limitation}
+\revend
 
 \subsection{Treatment Implications}
 
@@ -835,6 +852,17 @@ The selective dysfunction hypothesis integrates with and extends existing models
 
     \item \textbf{Mitochondrial Dysfunction} (Chapter~\ref{ch:energy-metabolism}): Constrains location---mitochondrial dysfunction may be CNS-specific or CNS-predominant rather than global
 \end{itemize}
+
+\rev{6}
+\begin{limitation}[Selective Dysfunction Framework: Alternative Explanations Not Excluded]
+The selective dysfunction hypothesis provides an internally consistent framework, but alternative explanations for the same clinical pattern have not been excluded:
+\begin{itemize}
+    \item \textbf{Scale artifact}: Processes classified as ``preserved'' (hair, nail growth) have much lower absolute energy demands than ``impaired'' processes (exercise, cognition). A global but moderate energy deficit (e.g., 30\% reduction) could spare low-demand processes while disabling high-demand ones --- no selectivity mechanism required.
+    \item \textbf{Peripheral contributions}: Impaired skeletal muscle oxygen extraction, documented in NIH deep phenotyping~\cite{walitt2024deep}, provides an alternative peripheral explanation for exercise intolerance that does not require CNS coordination failure as the primary bottleneck.
+    \item \textbf{Post-hoc fitting}: The 17 hypotheses and speculations in this chapter were developed to explain known ME/CFS features. No prediction from this framework has been tested prospectively.
+\end{itemize}
+\end{limitation}
+\revend
 
 
 \subsection{Limitations and Uncertainties}
