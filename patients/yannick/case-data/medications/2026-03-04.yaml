@@ -1,0 +1,123 @@
+date: 2026-03-04
+
+intake:
+  # Medications
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "4 mg"
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    doses:
+      - timing: "morning"
+        taken: true
+        notes: "Morning dose confirmed."
+      - timing: "afternoon"
+        taken: null
+        notes: "Not yet confirmed."
+      - timing: "evening"
+        taken: null
+        notes: "Not yet confirmed."
+
+  - name: "Famotidine"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Provigil (modafinil)"
+    category: "medication"
+    dose: "100 mg"
+    taken: true
+    time: null
+    notes: null
+
+  # Supplements
+  - name: "Riboflavin (Vitamin B2)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Magnesium glycinate"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "B-FORTE (B-vitamin complex)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Urolithin A + NAD+ precursor"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "D-ribose"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "MCT oil"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Q1 (CoQ1 / ubiquinol)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Acetyl-L-Carnitine"
+    category: "supplement"
+    dose: "1000 mg"
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed."
+
+  - name: "Iron"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed. Taken as needed / intermittent."
+
+  - name: "Vitamin C"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Morning dose confirmed. Co-administered with iron."
+
+  - name: "Bactecal gelules (probiotic)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Day 2 of Bactecal probiotic supplement. Ongoing from 2026-03-03."

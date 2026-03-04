@@ -1,0 +1,45 @@
+date: 2026-03-03
+
+symptoms:
+  headache: "all day"
+  headache_notes: >
+    Headache present throughout the entire day.
+  fatigue_level: "mild"
+  fatigue_notes: >
+    Felt a bit weak and tired during the day.
+  pain_diffuse_muscles: null
+  orthostatic_intolerance: null
+  pem_active: null
+  cognitive_status: "impaired"
+  cognitive_notes: >
+    Mental fog / cognitive dysfunction present. Not cognitively OK on this day.
+  gastrointestinal: "loose stools"
+  gastrointestinal_notes: >
+    Loose stools (diarrhée / selles molles) throughout the day.
+    Bactecal probiotic was started on this date as a therapeutic response to
+    treat these loose stools — it is not a candidate cause of the symptom.
+    Patient clinical note: the co-occurrence of headache and loose stools on
+    this day may indicate a shared upstream cause; both symptoms could be
+    manifestations of a common underlying pathophysiological process.
+    No specific etiology identified; recorded as a patient observation for
+    longitudinal tracking.
+
+medications:
+  - name: "Bactecal gelules (probiotic)"
+    taken: true
+    dose: null
+    time: null
+    notes: >
+      Bactecal probiotic started 2026-03-03 as a therapeutic response to the
+      loose stools present on this date — taken to treat the GI symptom.
+
+notes: >
+  Day marked by headache all day, mild weakness/fatigue, loose stools, and
+  cognitive dysfunction (mental fog). Bactecal probiotic gelules started on
+  this date as a therapeutic response to the loose stools — initiated to treat
+  the GI symptom, not a cause or contributor to it. Monitor GI symptoms over
+  coming days to assess treatment response.
+  Patient clinical hypothesis: headache and loose stools on this day may share
+  a common underlying cause rather than being independent events. The
+  co-occurrence warrants longitudinal monitoring to identify any recurring
+  pattern.

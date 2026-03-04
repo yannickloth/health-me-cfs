@@ -1,0 +1,87 @@
+date: 2026-03-04
+
+symptoms:
+  headache: null
+  headache_notes: null
+  fatigue_level: "severe evening"
+  fatigue_notes: >
+    Felt extremely weak in the evening until supper, with generalized trembling
+    (tremblements de partout). Skipped lunch (no food at noon), which may have
+    contributed to or worsened the evening weakness and trembling.
+  trembling: "generalized, evening"
+  trembling_notes: >
+    Trembling all over (je tremblais de partout) during the evening weakness
+    episode. Resolved after eating supper.
+  pain_diffuse_muscles: null
+  orthostatic_intolerance: null
+  pem_active: null
+  cognitive_status: "OK"
+  cognitive_notes: >
+    No brain fog. Cognitive function normal on this day.
+  gastrointestinal: "soft stools"
+  gastrointestinal_bristol: "5-6"
+  gastrointestinal_notes: >
+    Soft stools (mou, pas liquide, quantité normale). Bristol scale 5-6 —
+    not diarrhea, just soft/mushy consistency. Ongoing GI symptom, milder
+    than yesterday's description. Bactecal probiotic (started 2026-03-03)
+    continued — monitoring for therapeutic response.
+    Patient clinical note: persistence of soft stools without headache today
+    may still be part of the same underlying process hypothesised on 2026-03-03
+    (shared upstream cause for headache + loose stools). The absence of headache
+    today does not rule out a common etiology; recorded for longitudinal tracking.
+
+medications:
+  - name: "Bactecal gelules (probiotic)"
+    taken: true
+    dose: null
+    time: null
+    notes: "Day 2 of Bactecal probiotic supplement (ongoing from 2026-03-03)."
+
+nutrition:
+  lunch: "skipped"
+  lunch_notes: >
+    Did not eat at noon.
+  dinner: "eaten"
+  dinner_notes: >
+    Extreme weakness resolved after supper.
+
+patient_hypotheses:
+  - id: "metabolic-flexibility-2026-03-04"
+    title: "Impaired metabolic flexibility (fat oxidation) as fasting intolerance factor"
+    description: >
+      Patient observation: skipping one meal (lunch) led to severe weakness
+      and generalized trembling by evening, rapidly resolved by eating supper.
+      This is a recurring pattern — happens on multiple days, with or without
+      stimulant use (not a Provigil-masking artifact). This disproportionate
+      response to a single missed meal suggests impaired ability to switch
+      from glucose to fat oxidation when carbohydrate stores deplete.
+      Consistent with ME/CFS metabolomics literature showing reduced fatty
+      acid oxidation capacity and hypometabolic state (Naviaux 2016, Germain
+      2017). Compounded by ongoing soft stools reducing nutrient absorption
+      efficiency. Patient is on Acetyl-L-Carnitine 1000mg daily since
+      2026-01-22 (~6 weeks) — carnitine shuttle opening expected at weeks
+      4-6, full fat-burning at months 3-6. Today's crash suggests the
+      pathway is not yet robust enough to sustain energy through a missed meal.
+    testable_prediction: >
+      If this hypothesis is correct, the patient should tolerate fasting poorly
+      compared to healthy individuals, and symptoms should consistently resolve
+      with carbohydrate intake. A glucose tolerance test or metabolic panel
+      during a fasting episode could confirm impaired metabolic switching.
+      Fasting tolerance should improve over months 3-6 as carnitine shuttle
+      matures under ALCAR supplementation.
+    status: "observation-based, not yet tested"
+    discuss_with_doctor: true
+
+notes: >
+  No headache today. Cognitive function OK. Soft stools persist (Bristol 5-6,
+  not liquid, normal volume — milder than yesterday). Bactecal probiotic
+  continued (day 2). Took Provigil today. Skipped lunch; felt extremely weak
+  with generalized trembling in the evening until supper — rapid resolution
+  after eating suggests glucose-dependent energy production with impaired fat
+  oxidation (see patient hypothesis). At 6 weeks on ALCAR 1000mg, the
+  carnitine shuttle is in early opening phase but not yet robust. Monitor GI
+  symptoms over coming days.
+  Patient clinical hypothesis (continued from 2026-03-03): persisting soft
+  stools may be part of the same underlying pathophysiological process that
+  also produced the headache on 2026-03-03. A shared upstream trigger is the
+  working hypothesis; Bactecal is the therapeutic response, not the cause.
