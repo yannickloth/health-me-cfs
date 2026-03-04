@@ -125,7 +125,7 @@ For building formal causal and quantitative models of ME/CFS pathophysiology wit
 - "Create EPC for [biological process]"
 - "Model [phenomenon] mathematically"
 
-**Key agents:** `formalization-advisor` (assess first), `causal-model-builder`, `epc-model-builder`, `quantitative-model-builder`
+**Key agents:** `formalization-advisor` (assess first), `causal-model-builder`, `epc-model-builder`, `quantitative-model-builder`, `model-integrator` (insert into chapters), `model-auditor` (cross-validate DAG↔EPC↔ODE), `uncertainty-analyst` (certaity propagation)
 
 **Workflow:** See `.claude/workflows/formalization-pipeline.md` for full phases, verification steps, and architecture.
 
@@ -168,7 +168,7 @@ This project uses [infolead-latex-templates](infolead-latex-templates/) as a git
 
 **Workflow:** See `.claude/workflows/literature-integration.md` for full pipeline, certainty assessment rules, and examples.
 
-**Key agents:** `literature-integrator`, `chapter-integrator`, `scientific-insight-generator`
+**Key agents:** `literature-integrator`, `chapter-integrator`, `scientific-insight-generator`, `meta-analysis-coordinator` (synthesize across papers), `evidence-mapper` (citation↔model index)
 
 ## Medical Case Management System (Lazy-Load)
 
@@ -202,3 +202,15 @@ When working with ME/CFS content:
 - Research citations → always include certainty assessment
 
 **Full guidelines:** See `.claude/writing-style.md` for detailed medical writing standards, evidence hierarchies, and citation practices.
+
+## Document Quality and Publication (Lazy-Load)
+
+**Common requests:**
+
+- "Check terminology consistency for [term]"
+- "Prepare for publication / check submission readiness"
+- "Find empty sections or stubs"
+- "Synthesize research gaps into agenda"
+- "Synthesize evidence across papers on [topic]"
+
+**Key agents:** `terminology-harmonizer` (term consistency), `publication-preparer` (submission readiness), `document-health-monitor` (structural metrics), `research-gap-synthesizer` (gap → agenda), `meta-analysis-coordinator` (cross-paper synthesis)

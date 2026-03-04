@@ -43,6 +43,8 @@ System prompt / instructions for the agent...
 | `tikz-validator` | TikZ diagrams have compilation errors, spacing issues |
 | `test-runner` | Running nix build, verifying compilation succeeds |
 | `link-checker` | Validating \ref, \cite, \label references before build |
+| `terminology-harmonizer` | Checking/normalizing medical term consistency across .tex files |
+| `document-health-monitor` | Document metrics, finding stubs/placeholders, chapter balance |
 
 ### SCM/Git (Sonnet)
 
@@ -72,6 +74,11 @@ System prompt / instructions for the agent...
 | `causal-model-builder` | Building causal models with proper notation |
 | `epc-model-builder` | Creating EPC process diagrams |
 | `quantitative-model-builder` | Building quantitative models with uncertainty |
+| `model-integrator` | Converting completed YAML/TikZ models into Part V chapter LaTeX |
+| `meta-analysis-coordinator` | Synthesizing findings across multiple papers into evidence tables |
+| `publication-preparer` | Checking publication-readiness: anonymization, metadata, checklist |
+| `evidence-mapper` | Building citation→model-component reverse index for Part V |
+| `research-gap-synthesizer` | Harvesting open_question/hypothesis/speculation into research agenda |
 
 ### Opus (deep analysis)
 
@@ -80,6 +87,8 @@ System prompt / instructions for the agent...
 | `math-verifier` | Verifying proofs, derivations, calculations |
 | `logic-auditor` | Detecting circular reasoning, completeness gaps |
 | `scientific-rigor-auditor` | Checking scientific claims, evidence quality |
+| `model-auditor` | Cross-validating DAG ↔ EPC ↔ ODE consistency (formalization Stage 4) |
+| `uncertainty-analyst` | Propagating certainty through model hierarchy, flagging overconfident claims |
 
 ### Medical Agents (Sonnet)
 
