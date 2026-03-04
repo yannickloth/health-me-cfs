@@ -1,0 +1,29 @@
+date: 2026-02-27
+
+symptoms:
+  orthostatic_intolerance: "mild"
+  orthostatic_intolerance_notes: >
+    POTS-like effects during the morning. Sub-threshold nausea: not quite nauseated
+    but not absent either - a noticeable but mild sensation. Characterised by patient
+    as mild orthostatic intolerance symptoms.
+  pem_active: null
+  cognitive_status: null
+  fatigue_level: null
+  pain_diffuse_muscles: "moderate"
+  pain_diffuse_muscles_notes: >
+    Diffuse pain in both arms, described as quite uncomfortable.
+  headache: null
+
+medications:
+  - name: "Low Dose Naltrexone (LDN)"
+    taken: true
+    dose: "4 mg"
+    time: "early morning"
+    notes: "Dose increase from 3 mg to 4 mg (next titration step per planned regimen)"
+
+notes: >
+  Patient reported mild POTS-like effects during the morning coinciding with LDN dose.
+  Orthostatic intolerance was mild: sub-threshold nausea (not quite nauseated, but
+  noticeable and not absent). This is the first reported day at LDN 4 mg.
+  Diffuse arm pain also reported (quite uncomfortable).
+  Second day at LDN 4 mg (dose increase started 2026-02-26).

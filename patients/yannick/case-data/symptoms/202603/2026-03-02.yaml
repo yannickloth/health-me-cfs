@@ -1,0 +1,38 @@
+date: 2026-03-02
+time_of_entry: "11:20"
+
+symptoms:
+  orthostatic_intolerance: null
+  pem_active: null
+  cognitive_status: null
+  fatigue_level: null
+  pain_diffuse_muscles: "moderate"
+  pain_diffuse_muscles_notes: >
+    Diffuse muscle pain during nap (11:30-14:00). Pain woke patient up but
+    had no energy to get up — wanted to continue sleeping for the pain to pass.
+  headache: null
+  sleepiness: "mild"
+  sleepiness_notes: >
+    Patient notes mild sleepiness (could take a short nap) at 11:20, but explicitly
+    distinguishes this from fatigue. No fatigue reported at that time.
+
+nap:
+  start: "11:30"
+  end: "14:00"
+  duration_hours: 2.5
+  notes: >
+    Nap from 11:30 to 14:00. Woken by diffuse muscle pain during nap but
+    no energy to get up — continued sleeping hoping pain would pass.
+
+medications:
+  - name: "Low Dose Naltrexone (LDN)"
+    taken: null
+    dose: "4 mg"
+    time: null
+    notes: null
+
+notes: >
+  Started as a positive day (no pain, no headache, no fatigue at 11:20).
+  Took a nap 11:30-14:00 (2.5h). Diffuse muscle pain emerged during the nap,
+  waking patient but without energy to get up — stayed in bed waiting for
+  pain to subside.

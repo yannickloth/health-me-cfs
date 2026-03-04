@@ -1,0 +1,22 @@
+date: 2026-02-26
+
+symptoms:
+  orthostatic_intolerance: null
+  pem_active: null
+  cognitive_status: null
+  fatigue_level: null
+  pain_diffuse_muscles: "moderate"
+  pain_diffuse_muscles_notes: >
+    Diffuse pain in shoulders, legs, and to a lesser extent in the arms.
+  headache: null
+
+medications:
+  - name: "Low Dose Naltrexone (LDN)"
+    taken: true
+    dose: "4 mg"
+    time: null
+    notes: "First day at 4 mg (dose increase from 3 mg)"
+
+notes: >
+  First day at LDN 4 mg. Diffuse musculoskeletal pain reported across
+  shoulders, legs, and mildly in arms. No other symptoms reported for this date.

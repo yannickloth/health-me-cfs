@@ -5,21 +5,290 @@
 \section{Developing a Treatment Plan}
 \label{sec:treatment-planning}
 
+Treatment planning in ME/CFS may differ fundamentally from other chronic conditions. The standard medical approach---try a treatment, observe the response, adjust---assumes that failed trials carry manageable costs. In ME/CFS, this assumption is potentially dangerous. Each treatment trial imposes metabolic demands on an already energy-depleted system, and failed trials can trigger post-exertional malaise severe enough to cause permanent functional decline (see Section~\ref{subsubsec:crash-dose-response} on crash severity dose-response). For severe and very severe patients, there may be only a narrow margin for error before irreversible deterioration occurs.
+
+This section provides a safety-first framework for treatment planning, integrating the energy cost of treatments themselves into the decision-making process.
+
+\subsection{The Imperative of Treatment Safety in ME/CFS}
+\label{subsec:treatment-safety-imperative}
+
+\begin{warning}[Treatment Trials as Energy Gambles]
+\label{warn:treatment-energy-gamble}
+\textbf{Every medication or supplement trial in ME/CFS carries an energy cost independent of the treatment's intended effect.} Processing any exogenous substance requires ATP for hepatic metabolism (CYP450 system), renal clearance, protein binding, receptor adaptation, and immune surveillance. In a system with impaired mitochondrial ATP production---as demonstrated by two-day cardiopulmonary exercise testing~\cite{Keller2024MetabolicCPET,VanCampen2020SeverityCPET}, mitochondrial function assays~\cite{Myhill2009mitochondrial}, and metabolomic profiling~\cite{Naviaux2017suramin,Fluge2016}---this processing overhead can itself trigger post-exertional malaise.
+
+\textbf{The clinical consequence}: A treatment that is safe and well-tolerated in healthy individuals may provoke a crash in a severe ME/CFS patient---not because of pharmacological adverse effects, but because the body cannot afford the metabolic cost of processing the substance.
+
+\textbf{Illustrative clinical observations}:
+\begin{itemize}
+    \item Standard-dose pyridostigmine (60~mg) causing severe prostration in a patient who later tolerated 20~mg (Section~\ref{sec:paradoxical-reactor})
+    \item IVIG infusions triggering prolonged crashes, consistent with the substantial immune activation and protein processing demands of large immunoglobulin infusions
+    \item Multiple supplement initiation simultaneously overwhelming hepatic processing capacity (see sequencing rationale in Section~\ref{subsec:prioritizing-interventions})
+\end{itemize}
+
+\textbf{Critical principle}: Treatment trials are not free. Each one consumes finite energy reserves. In severe patients, the number of tolerable failed trials may be very small before permanent deterioration occurs.
+\end{warning}
+
+\subsection{Treatment Energy Categories}
+\label{subsec:energy-categories}
+
+\begin{observation}[Treatment Energy Cost Classification]
+\label{obs:energy-categories}
+To guide treatment selection in energy-depleted patients, we classify all ME/CFS interventions by their net energy impact:
+
+\begin{description}
+    \item[Category A --- Net energy providers:] Treatments that directly supply ATP substrates, electron transport chain components, or essential cofactors for energy production. Net positive energy balance. These treatments give the body what it lacks. Category A does not mean risk-free---GI intolerance, allergic reactions, and supplement interactions remain possible---but the \textit{energy} cost is minimal to net positive. \textit{Examples}: D-ribose, CoQ10, NADH/NAD$^+$ precursors, creatine, L-carnitine, magnesium, B vitamins, MCT oil.
+
+    \item[Category B --- Energy-neutral:] Treatments with minimal metabolic processing demands that neither provide nor consume significant ATP. Therapeutic effects operate through pathways that do not substantially burden energy metabolism. \textit{Examples}: Most antihistamines, melatonin, PEA, LDN, Ginkgo biloba, probiotics.
+
+    \item[Category C --- Energy-demanding:] Treatments requiring significant ATP for hepatic CYP450 metabolism, renal clearance, immune activation, or protein processing. Net negative energy balance in depleted systems. The absolute magnitude of this metabolic cost has not been quantified in ME/CFS; however, the clinical observation that severely depleted patients crash from treatments well-tolerated by healthy individuals suggests the cost is meaningful relative to their reduced energy reserves. These treatments may be highly effective but impose a metabolic cost that must be budgeted. \textit{Examples}: Valganciclovir, rituximab, IVIG, aripiprazole.
+\end{description}
+
+Most medications and supplements in Chapters~\ref{ch:medications-mechanisms} and~\ref{ch:supplements} include an Energy Profile paragraph specifying their category and mechanistic rationale.
+\end{observation}
+
+Given that Category A treatments supply energy substrates while Category C treatments consume them, and that ME/CFS patients have impaired energy production, a logical sequencing principle emerges: \textbf{start with Category A (energy providers), stabilize, then cautiously introduce Category B (neutral), and reserve Category C (energy-demanding) for cases where phenotyping strongly predicts benefit} (see Section~\ref{sec:phenotyping-imperative} for phenotyping protocols).
+
 \subsection{Baseline Assessment}
-% Symptom severity
-% Functional capacity
-% Comorbidities
-% Priorities
+\label{subsec:baseline-assessment}
+
+Before initiating any treatment, establish:
+
+\begin{enumerate}
+    \item \textbf{Functional status}: Bell Disability Scale score, hours upright, activity tolerance threshold
+    \item \textbf{Energy envelope}: Heart rate monitoring or subjective energy tracking to quantify available reserves (see Chapter~\ref{ch:lifestyle})
+    \item \textbf{Current medication inventory}: All active medications, supplements, and their energy categories---the total metabolic processing load matters
+    \item \textbf{Comorbidity mapping}: Identify Septad components (Section~\ref{sec:septad}) and prioritize by symptom burden
+    \item \textbf{Phenotype identification}: Determine dominant subtype (immune-predominant, metabolic-predominant, neurological-predominant, autonomic-predominant) using tiered assessment (Section~\ref{sec:phenotyping-imperative})
+    \item \textbf{Treatment history}: Prior adverse reactions, paradoxical responses, pharmacogenomic data if available
+    \item \textbf{Severity classification}: Mild, moderate, severe, or very severe---this determines the safety margin for treatment trials
+\end{enumerate}
+
+\subsection{The Micro-Dosing Imperative}
+\label{subsec:microdosing}
+
+\begin{warning}[Never Start at Standard Doses in ME/CFS]
+\label{warn:never-standard-doses}
+ME/CFS patients---especially severe and very severe---must \textbf{never} be started on standard medication doses. The paradoxical reactor phenotype (Section~\ref{sec:paradoxical-reactor}) affects a subset of patients---prevalence unknown, but frequently reported in clinical practice and patient communities---and even patients who are not paradoxical reactors have reduced metabolic processing capacity.
+
+\textbf{Universal rule}: Start at 1/4 to 1/10 of the standard starting dose. Titrate upward at minimum 1--2 week intervals. Monitor daily for the first 2 weeks of any new treatment.
+\end{warning}
+
+\begin{table}[htbp]
+\centering
+\caption{Micro-dosing reference: ME/CFS starting doses versus standard doses}
+\label{tab:microdosing-reference}
+\small
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Treatment} & \textbf{Standard dose} & \textbf{ME/CFS start} & \textbf{Energy cat.} & \textbf{Crash risk} \\
+\midrule
+\multicolumn{5}{l}{\textit{Immune-modulating}} \\
+LDN & 4.5~mg & 0.5~mg & B & Medium \\
+IVIG & Weight-based & 50\% standard rate & C & High \\
+Cimetidine & 400~mg BID & 200~mg daily & B--C & Low \\
+\midrule
+\multicolumn{5}{l}{\textit{Antiviral}} \\
+Valacyclovir & 1000~mg BID & 500~mg daily & B--C & Medium \\
+Valganciclovir & 900~mg BID & 450~mg daily & C & High \\
+\midrule
+\multicolumn{5}{l}{\textit{Autonomic}} \\
+Pyridostigmine & 60~mg TID & 15--20~mg daily & B & Low \\
+Fludrocortisone & 0.1~mg daily & 0.05~mg daily & B--C & Medium \\
+Midodrine & 10~mg TID & 2.5~mg daily & B--C & Medium \\
+\midrule
+\multicolumn{5}{l}{\textit{Neuroactive (incl.\ herbal)}} \\
+Aripiprazole & 10--30~mg & 0.5--1~mg & C & High \\
+Trazodone & 50--100~mg & 12.5--25~mg & B & Low \\
+Amitriptyline & 25--50~mg & 5~mg & B & Low \\
+Ginkgo biloba & 120--240~mg & 40--60~mg & B & Very low \\
+\midrule
+\multicolumn{5}{l}{\textit{Mitochondrial and metabolic support}} \\
+CoQ10 (ubiquinol) & 200--300~mg & 50--100~mg & A & Very low \\
+D-Ribose & 15~g daily & 2.5~g daily & A$^\dagger$ & Very low \\
+NR/NMN & 300--500~mg & 100--150~mg & A$^\dagger$ & Very low \\
+L-Carnitine & 1500--3000~mg & 500~mg & A & Very low \\
+NAC & 1200~mg daily & 300--600~mg daily & A--B & Very low \\
+Magnesium & 400--600~mg & 100--200~mg & A & Very low \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\footnotesize
+Energy categories: A = net energy provider, B = energy-neutral, C = energy-demanding. $^\dagger$Category A assignment based on proposed energy-supportive mechanisms; clinical evidence in ME/CFS is preliminary. \\
+Crash risk reflects both energy cost \emph{and} pharmacological adverse effect potential---a Category B treatment can carry elevated crash risk if it has significant non-energy adverse effects (e.g., LDN carries Medium crash risk despite Category B energy status, due to psychiatric reaction risk in paradoxical reactors). \\
+Severe/very severe patients: use the lower end of ME/CFS starting doses.
+\end{table}
+
+\paragraph{Energy profiles for action-plan medications.}
+The following treatments appear in Table~\ref{tab:microdosing-reference} but are covered in action-plan chapters (Chapters~\ref{ch:urgent-action-severe}--\ref{ch:action-mild-moderate}) rather than in the mechanism-targeting chapters. Their energy profiles are summarized here for completeness.
+
+\begin{itemize}
+    \item \textbf{Trazodone} (Category B, Low crash risk): Serotonin antagonist and reuptake inhibitor (SARI) used for sleep. At ME/CFS micro-doses (12.5--25~mg), CYP3A4/CYP2D6-mediated first-pass metabolism is expected to be reduced at these doses (pharmacokinetic inference), placing the metabolic burden within the energy-neutral range.
+    \item \textbf{Amitriptyline} (Category B, Low crash risk): Tricyclic antidepressant used at sub-antidepressant doses (5~mg) for pain and sleep; also inhibits proinflammatory mast cell mediator release~\cite{Clemons2011}, an additional therapeutic benefit that does not add to metabolic burden. CYP2D6/CYP2C19 metabolic burden is expected to be reduced at this dose in extensive metabolizers (pharmacokinetic inference); CYP2D6 poor metabolizers (approximately 5--10\% of European-ancestry populations; standard pharmacology) may require further dose reduction. Anticholinergic side effects (dry mouth, constipation) are the primary concern at these doses, not energy cost.
+    \item \textbf{Fludrocortisone} (Category B--C, Medium crash risk): Synthetic mineralocorticoid used in orthostatic intolerance~\cite{Freitas2000Bisoprolol,Ojha2024pediatricPOTS}; expected mechanism is plasma volume expansion via renal sodium retention (standard mineralocorticoid pharmacology). Energy cost is typically highest during the initial adaptation period (estimated first 2--4 weeks; pharmacodynamic inference), when electrolyte rebalancing (potassium monitoring is required; standard mineralocorticoid pharmacology) and cardiovascular volume adjustment are most active. Severe patients may not tolerate this period, requiring slower titration or alternative agents. At steady state, the ongoing mineralocorticoid effect is expected to impose minimal additional metabolic demand.
+    \item \textbf{Midodrine} (Category B--C, Medium crash risk): Alpha-1 agonist for orthostatic intolerance~\cite{Ojha2024pediatricPOTS}. Energy cost is expected to arise primarily from sustained peripheral vasoconstriction and the associated cardiovascular compensation (pharmacodynamic inference). The resulting energy demand is expected to be modest but continuous; supine hypertension is a documented pharmacological risk requiring monitoring (standard pharmacology).
+\end{itemize}
+
+\subsection{Crash-Risk Ranking and Decision Rules}
+\label{subsec:crash-risk}
+
+The following ranking covers the principal ME/CFS treatments discussed in this document, including those beyond Table~\ref{tab:microdosing-reference}: immunotherapies from Chapter~\ref{ch:medications-mechanisms} (e.g., rituximab), emerging treatments from Chapter~\ref{ch:emerging-therapies} (e.g., immunoadsorption), and supplements from Chapter~\ref{ch:supplements}.
+
+The ranking uses three tiers; Table~\ref{tab:microdosing-reference} uses a finer four-level scale. The mapping: ``Highest'' corresponds to table ``High'' entries; ``Moderate'' to ``Medium'' entries; and ``Low'' encompasses both ``Low'' and ``Very~low'' table entries. For treatments appearing in the table, the crash-risk column is the definitive tier assignment; for treatments not in the table, the ranking below assigns the tier directly. Energy category alone does not determine tier placement (e.g., cimetidine is Category B--C but Low crash risk due to its CYP inhibition properties, which are expected to reduce hepatic metabolic load in polypharmacy (pharmacokinetic inference)).
+
+\textbf{Highest crash risk} (Category C, complex immune/metabolic effects):
+\begin{itemize}
+    \item \textbf{Rituximab}: Anti-CD20 monoclonal antibody; high metabolic burden from B-cell depletion and subsequent immune remodeling (mechanistic inference)
+    \item \textbf{IVIG}: Pooled immunoglobulin infusion; high metabolic burden from large protein load and immune modulation response (mechanistic inference)
+    \item \textbf{Valganciclovir}: Antiviral nucleoside analogue; high metabolic burden from bone marrow suppression and hepatic/renal clearance (established adverse effects; energy burden by mechanistic inference)
+    \item \textbf{Aripiprazole}: Atypical antipsychotic at micro-doses (0.5--1~mg, clinical outcomes reported in~\cite{Crosby2021LDA}); high metabolic burden from CYP2D6/3A4 metabolism (standard pharmacology) and hypothesized dopaminergic activation sensitivity (proposed mechanism)
+    \item \textbf{Immunoadsorption}: Extracorporeal autoantibody removal; high metabolic burden from haemodynamic stress of apheresis and subsequent transient immune disruption (mechanistic inference)
+\end{itemize}
+
+\textbf{Moderate crash risk} (Category B--C, or Category B with paradoxical potential):
+\begin{itemize}
+    \item \textbf{LDN}: Proposed TLR4 antagonist and glial modulator (proposed mechanisms); minimal metabolic burden (moderate crash risk driven by psychiatric reaction potential in paradoxical reactors, not metabolic cost)
+    \item \textbf{Valacyclovir}: Antiviral prodrug; moderate metabolic burden from sustained hepatic and renal clearance (mechanistic inference)
+    \item \textbf{Fludrocortisone}: Synthetic mineralocorticoid for orthostatic intolerance; moderate metabolic burden from mineralocorticoid-mediated metabolic adaptation (pharmacodynamic inference)
+    \item \textbf{Midodrine}: Alpha-1 agonist for orthostatic intolerance; moderate metabolic burden from cardiovascular adaptation (pharmacodynamic inference)
+    \item \textbf{5-HTP}: Serotonin precursor; moderate metabolic burden from serotonergic effects (mechanistic inference), with possible mast cell activation in MCAS-susceptible patients (proposed mechanism)
+    \item \textbf{Pregnenolone}: Neurosteroid precursor; moderate metabolic burden from hepatic CYP-mediated steroidogenesis (mechanistic inference)
+\end{itemize}
+
+\textbf{Low crash risk} (predominantly Category A--B; includes higher-category exceptions with energy-sparing properties per mapping note above). Within this tier, ``negligible'' indicates no significant hepatic processing (e.g., direct cofactors, luminal-acting agents), while ``minimal'' indicates modest but documented enzymatic metabolism---whether CYP-mediated, hepatic conjugation, renal clearance, or systemic enzymatic processing (regardless of whether the substance is a pharmaceutical or supplement):
+\begin{itemize}
+    \item \textbf{Magnesium, electrolytes}: Essential ion cofactors (ATP synthase, membrane potential); negligible metabolic burden
+    \item \textbf{CoQ10}: Electron shuttle between ETC Complexes I/II and III; negligible metabolic burden
+    \item \textbf{NAD$^+$ precursors (NR/NMN)}: NAD$^+$ pool replenishment, supporting NADH generation via glycolytic and TCA-cycle dehydrogenase reactions (proposed mechanism for energy benefit); negligible metabolic burden
+    \item \textbf{NADH}: Direct electron donor to Complex~I of the electron transport chain; negligible metabolic burden
+    \item \textbf{D-ribose}: ATP backbone sugar supporting purine nucleotide resynthesis (proposed mechanism); negligible metabolic burden
+    \item \textbf{L-carnitine}: Mitochondrial fatty acid transport cofactor (carnitine palmitoyltransferase system); negligible metabolic burden
+    \item \textbf{Creatine}: Phosphocreatine energy buffer for rapid ATP regeneration; negligible metabolic burden
+    \item \textbf{PQQ}: Proposed mitochondrial biogenesis activator (preclinical; clinical evidence lacking); negligible metabolic burden
+    \item \textbf{MCT oil}: Ketone precursor; absorbed via portal vein (bypassing lymphatic transport) and oxidized without carnitine-dependent mitochondrial entry (C8/C10 MCTs; C12 is partially CPT1-dependent); negligible metabolic burden
+    \item \textbf{NAC}: Glutathione precursor and direct thiol antioxidant (cysteine donor via deacetylation, primarily hepatic and cellular); minimal metabolic burden
+    \item \textbf{ALA}: Mitochondrial antioxidant and heavy metal chelator; minimal metabolic burden
+    \item \textbf{Omega-3 (EPA/DHA)}: Anti-inflammatory fatty acids; minimal metabolic burden
+    \item \textbf{Curcumin, quercetin}: Polyphenol anti-inflammatories; minimal metabolic burden
+    \item \textbf{B vitamins, vitamin D}: Essential metabolic cofactors; minimal metabolic burden
+    \item \textbf{Taurine, glycine, glutamine}: Amino acid supplements; negligible metabolic burden
+    \item \textbf{Zinc}: Essential trace element (direct cofactor); negligible metabolic burden
+    \item \textbf{Probiotics}: Gut microbiome modulation; negligible metabolic burden
+    \item \textbf{PEA}: Endocannabinoid-related lipid mediator (glial modulation via PPAR-$\alpha$; proposed mechanism); minimal metabolic burden
+    \item \textbf{Melatonin}: Circadian rhythm regulator and antioxidant; minimal metabolic burden
+    \item \textbf{Resveratrol}: Polyphenol with proposed sirtuin-activating properties (preclinical; clinical relevance uncertain); minimal metabolic burden
+    \item \textbf{H1 antihistamines (cetirizine, loratadine, fexofenadine)}: Histamine receptor blockers for MCAS symptom management; minimal metabolic burden
+    \item \textbf{Cimetidine}: H2 antagonist with CYP inhibitory properties (in polypharmacy, may reduce total hepatic metabolic load of co-administered drugs; see Chapter~\ref{ch:medications-mechanisms}); minimal metabolic burden
+    \item \textbf{Pyridostigmine}: Acetylcholinesterase inhibitor; minimal metabolic burden
+    \item \textbf{Trazodone}: SARI used for sleep at micro-doses (12.5--25~mg); minimal metabolic burden
+    \item \textbf{Amitriptyline}: Tricyclic at sub-antidepressant dose (5~mg) for pain and sleep; minimal metabolic burden
+    \item \textbf{Ginkgo biloba}: Mild vasodilator and antioxidant; minimal metabolic burden
+\end{itemize}
+
+\begin{warning}[The Paradox of Effective Treatments]
+The treatments associated with the most pronounced reported responses in biomarker-defined subgroups (rituximab, immunoadsorption, valganciclovir; see Chapters~\ref{ch:medications-mechanisms} and~\ref{ch:emerging-therapies}) are also the most energy-demanding. For severe patients, this creates a fundamental dilemma: the interventions that could potentially restore function require an energy investment the patient may not be able to afford. This paradox is the strongest argument for \textbf{phenotype-guided treatment selection} (Section~\ref{sec:subtype-approaches})---reserving Category C treatments for patients whose biomarker profile predicts a high probability of response, rather than empirical trial-and-error.
+\end{warning}
 
 \subsection{Prioritizing Interventions}
-% What to address first
-% Layering treatments
-% Monitoring responses
+\label{subsec:prioritizing-interventions}
+
+The following treatment introduction sequence is recommended for ME/CFS, particularly in moderate-to-severe patients, based on energy-cost principles (evidence-based guidelines for this sequencing are not yet available):
+
+\begin{enumerate}
+    \item \textbf{Foundation first} (Weeks 1--4): Electrolytes, magnesium, sleep optimization (behavioral; no pharmacological energy category applies). Pharmacological items are all Category A or B. Address the most basic physiological deficits before anything else.
+    \item \textbf{Energy substrate support} (Weeks 5--8): CoQ10, B vitamins, then one additional mitochondrial support (D-ribose or NR/NMN). All Category A (D-ribose and NR/NMN carry the A$^\dagger$ qualifier; see Table~\ref{tab:microdosing-reference} footnote). The rationale is to build energy reserves before introducing treatments that consume energy (proposed sequencing principle).
+    \item \textbf{Symptomatic relief} (Weeks 9--12): Energy-neutral treatments targeting dominant symptoms---PEA for pain, melatonin for sleep, antihistamines for MCAS (all Low crash risk per ranking above). Minimal energy cost.
+    \item \textbf{Targeted interventions} (After stabilization): Treatments requiring subtype identification, spanning Category B through B--C depending on the agent. LDN for immune/neuroinflammatory subtype (Category B, but Moderate crash risk from paradoxical reactions). Pyridostigmine for autonomic subtype (Category B, Low crash risk). Antivirals for viral-immune subtype (Category B--C).
+    \item \textbf{High-cost interventions} (Only with phenotyping): Category C treatments (IVIG, valganciclovir, immunomodulators) only when biomarker evidence strongly predicts benefit and the patient has adequate energy reserves from Category A foundation.
+\end{enumerate}
+
+See Section~\ref{sec:protocols} in Chapter~\ref{ch:supplements} for cost-stratified supplement protocols that align with this sequence.
+
+\subsection{When to Stop Trying}
+\label{subsec:when-to-stop}
+
+\begin{hypothesis}[Treatment Trial Limits for Severe Patients]
+\label{hyp:treatment-trial-limits}
+
+\textbf{Certainty: 0.30} (clinical reasoning based on crash dose-response data and paradoxical reactor observations; no RCTs on optimal trial limits)
+
+For severe and very severe ME/CFS patients, the following decision rules may prevent treatment-induced deterioration:
+
+\textbf{Stop-and-stabilize criteria} (thresholds are proposed clinical defaults, not evidence-based cut-offs; clinicians should adjust based on individual patient trajectory):
+\begin{itemize}
+    \item \textbf{After any treatment-induced crash}: Do not attempt another new treatment until baseline function is fully restored (minimum 4 weeks at pre-crash level)
+    \item \textbf{After two consecutive treatment-induced crashes}: Pause all treatment experimentation for minimum 3 months. Focus exclusively on pacing and Category A energy support. \textit{Rationale}: Two consecutive crashes suggest either a pattern of global medication intolerance or inadequate recovery time between trials; continuing risks cumulative decline
+    \item \textbf{After three failed Category C trials}: Reassess the treatment approach entirely. The patient may be a global paradoxical reactor, and further empirical trials carry unacceptable risk. \textit{Rationale}: Three Category C failures represent substantial cumulative energy expenditure with no return; if failures reflect a systemic intolerance pattern, each additional trial is unlikely to succeed and risks further cumulative harm
+    \item \textbf{If functional capacity has declined $>$20\% since treatment trials began}: Immediate cessation of all experimentation. Stabilization and energy restoration take absolute priority. \textit{Rationale}: A 20\% decline is chosen as the threshold at which iatrogenic harm clearly outweighs any remaining potential benefit from empirical trials; this corresponds roughly to losing one severity tier (e.g., moderate to severe)
+\end{itemize}
+
+\textbf{Decision threshold}: For very severe (bedridden) patients, apply a more conservative standard---stop after \textit{any single} treatment-induced functional decline lasting more than 1 week. The margin for error in very severe disease is extremely narrow.
+\end{hypothesis}
+
+\subsection{Medication-Induced Crash Recovery Protocol}
+\label{subsec:crash-recovery}
+
+When a treatment trial triggers a crash:
+
+\textbf{Step 1 --- Immediate actions} (within hours):
+\begin{itemize}
+    \item Discontinue the offending treatment immediately
+    \item Do not attempt to ``push through'' in hopes the reaction will resolve
+    \item Implement strict activity restriction (reduce to 50\% of pre-crash activity level)
+\end{itemize}
+
+\textbf{Step 2 --- Energy support} (first 24--72 hours):
+\begin{itemize}
+    \item Maintain or increase Category A supplements (electrolytes, magnesium, CoQ10, D-ribose)
+    \item Consider the post-exertional emergency protocol (Section~\ref{subsec:pem-prevention}) if crash is severe
+    \item Ensure adequate caloric intake---metabolic recovery requires fuel
+    \item Optimize sleep (this is when repair occurs)
+\end{itemize}
+
+\textbf{Step 3 --- Monitoring and documentation}:
+\begin{itemize}
+    \item Track daily function using Bell Disability Scale or equivalent
+    \item Document: what was tried, at what dose, onset of symptoms, symptom pattern, recovery timeline
+    \item Note whether crash pattern resembles PEM (delayed 24--72 hours) or immediate adverse reaction (within hours)---these have different implications for future treatment attempts
+\end{itemize}
+
+\textbf{Step 4 --- Recovery assessment}:
+\begin{itemize}
+    \item Return to pre-crash baseline must be confirmed before any new treatment trial
+    \item Minimum recovery period: 4 weeks at stable baseline function
+    \item If recovery is incomplete after 3 months, the treatment may have caused lasting damage---this changes the risk calculus for future trials (apply stricter stop criteria)
+\end{itemize}
 
 \subsection{Tracking Progress}
-% Symptom diaries
-% Objective measures
-% Reassessment intervals
+\label{subsec:tracking-progress}
+
+Systematic treatment response tracking is essential for distinguishing signal from noise in ME/CFS:
+
+\paragraph{Minimum Data to Collect.}
+\begin{itemize}
+    \item Daily symptom severity (0--10 scale) for: fatigue, cognitive function, pain, sleep quality, orthostatic symptoms
+    \item Activity level (hours upright, steps if wearable available)
+    \item Heart rate data (resting HR, orthostatic HR change)
+    \item New treatment additions/changes with dates and doses
+    \item Crashes: triggers, severity, recovery duration
+\end{itemize}
+
+\paragraph{Assessment Intervals.}
+\begin{itemize}
+    \item \textbf{Daily}: Symptom diary during first 2 weeks of any new treatment
+    \item \textbf{Weekly}: Summary assessment during titration periods
+    \item \textbf{Monthly}: Review of overall trajectory and treatment utility
+    \item \textbf{Quarterly}: Comprehensive reassessment---is the current regimen still justified?
+\end{itemize}
+
+\paragraph{When to Consider a Treatment ``Failed.''}
+A treatment should be considered failed after:
+\begin{itemize}
+    \item 8--12 weeks at target dose with no detectable benefit
+    \item Any severe adverse reaction requiring discontinuation
+    \item Cost burden outweighing uncertain or minimal benefit
+    \item Functional decline that correlates temporally with treatment initiation
+\end{itemize}
 
 \section{Treating Comorbidities}
 \label{sec:comorbidities-treatment}
@@ -359,23 +628,169 @@ Despite promising early case series showing 67\% improvement rates, the definiti
 \end{warning}
 
 \subsection{Pharmacogenomics}
-% Drug metabolism variants
-% Optimizing medication selection
-% Practical application
+\label{sec:pharmacogenomics}
 
-\subsection{Subtype-Specific Approaches}
-% Treating based on predominant features
-% Immune-predominant subtype
-% Neurological-predominant subtype
-% Metabolic-predominant subtype
+Pharmacogenomic testing can identify patients at risk of adverse reactions \textit{before} a treatment trial occurs---converting a gamble into an informed decision.
+
+\subsubsection{Key Drug Metabolism Variants}
+
+\begin{description}
+    \item[CYP2D6 (debrisoquine hydroxylase):] Metabolizes approximately 25\% of all prescribed medications, including many used in ME/CFS: aripiprazole, beta-blockers (metoprolol, propranolol), SSRIs/SNRIs (fluoxetine, paroxetine, venlafaxine), and tramadol. \textbf{Poor metabolizers} (5--10\% of Caucasians) accumulate active drug to toxic levels; \textbf{ultra-rapid metabolizers} (1--2\%) may clear medication before therapeutic effect.
+
+    \item[CYP2C19:] Metabolizes PPIs, citalopram/escitalopram, and diazepam. Poor metabolizers experience prolonged drug exposure. Relevant for ME/CFS patients on H2 receptor antagonists or antidepressants.
+
+    \item[CYP3A4:] The most abundant hepatic CYP enzyme, metabolizing approximately 50\% of drugs. Cimetidine inhibits CYP3A4, which is therapeutically useful (enhancing acyclovir levels) but also creates interaction risk with co-administered medications metabolized by this pathway.
+
+    \item[COMT (catechol-O-methyltransferase):] Metabolizes catecholamines (dopamine, norepinephrine, epinephrine). The Val158Met polymorphism creates low-activity (Met/Met) and high-activity (Val/Val) variants. Low-COMT individuals have higher baseline catecholamine levels and may respond differently to dopaminergic agents (aripiprazole) and stress.
+
+    \item[MTHFR (methylenetetrahydrofolate reductase):] The C677T and A1298C variants impair folate metabolism, affecting methylation capacity. ME/CFS patients with MTHFR variants may require methylfolate rather than folic acid, and may have altered responses to B-vitamin supplementation (Section~\ref{sec:vitamins}).
+\end{description}
+
+\subsubsection{Clinical Implications for ME/CFS}
+
+\begin{speculation}[Pharmacogenomics as Harm Reduction in ME/CFS]
+\label{spec:pharmacogenomics-harm-reduction}
+
+Pharmacogenomic testing before initiating Category C (energy-demanding) medications could substantially reduce treatment-induced crashes in ME/CFS patients.
+
+\textbf{The double jeopardy of poor metabolizers}: A CYP2D6 poor metabolizer taking a Category C medication faces two simultaneous problems: (1) the drug accumulates to supratherapeutic levels (increased toxicity risk), and (2) the prolonged hepatic processing consumes more ATP over a longer period (increased energy cost). This combination may explain some paradoxical reactions (Section~\ref{sec:paradoxical-reactor}).
+
+\textbf{Practical application}:
+\begin{itemize}
+    \item Order pharmacogenomic panel before any Category C medication trial in severe patients
+    \item CYP2D6 poor metabolizer + aripiprazole = contraindicated (Category C drug with impaired clearance)
+    \item CYP3A4 status critical when cimetidine is part of the regimen (CYP3A4 inhibitor alters metabolism of co-administered drugs)
+    \item MTHFR status guides B-vitamin formulation choice (methylfolate vs. folic acid)
+\end{itemize}
+
+\textbf{Certainty: 0.25} (pharmacogenomic principles are well-established in general medicine; application to ME/CFS treatment optimization is logical but unvalidated in clinical trials; the specific claim that pharmacogenomic-guided prescribing reduces crashes in ME/CFS is untested)
+
+\textbf{Available tests}: GeneSight, Genomind, OneOme RightMed, Tempus xG, or individual CYP450 testing through most reference laboratories. Cost: \$200--500, often partially covered by insurance.
+\end{speculation}
+
+\subsection{Subtype-Specific Treatment Approaches}
+\label{sec:subtype-approaches}
+
+The phenotyping framework (Section~\ref{sec:phenotyping-imperative}) identifies dominant subtypes that predict which treatments are most likely to benefit and least likely to harm. This section translates phenotype into treatment pathway.
+
+\subsubsection{Immune-Predominant Subtype}
+
+\paragraph{Identification.} Frequent infections or reactivations, lymphadenopathy, elevated inflammatory markers (CRP, cytokines), low NK cell function, B-cell abnormalities, positive autoantibody panels, post-infectious onset.
+
+\paragraph{Treatment Priority.}
+\begin{enumerate}
+    \item \textbf{First-line}: Cimetidine (Category B--C; immunomodulatory with manageable energy cost); LDN (Category B; glial modulation)
+    \item \textbf{Second-line}: Antivirals if viral markers elevated---valacyclovir (Category B--C) before valganciclovir (Category C)
+    \item \textbf{Third-line}: IVIG (Category C; only if significant immunoglobulin deficiency documented)
+\end{enumerate}
+
+\paragraph{Energy Profile.} First-line options are Category B--C with moderate energy cost. Antivirals and IVIG impose significant metabolic demands. \textbf{Crash risk: HIGH}---immune modulation triggers inflammatory cascades that are inherently energy-costly. Ensure Category A foundation is solid before initiating.
+
+\paragraph{Key Safety Concern.} Immune interventions can cause ``Herxheimer-like'' reactions (temporary worsening from immune activation). In severe patients, this temporary worsening may become permanent deterioration. Start at micro-doses (Section~\ref{subsec:microdosing}).
+
+\subsubsection{Neurological-Predominant Subtype}
+
+\paragraph{Identification.} Severe brain fog disproportionate to fatigue, cognitive testing abnormalities, headaches, small fiber neuropathy symptoms (burning/tingling), documented SFN on skin biopsy, MRI findings suggestive of neuroinflammation.
+
+\paragraph{Treatment Priority.}
+\begin{enumerate}
+    \item \textbf{First-line}: LDN (Category B; TLR4-mediated microglial modulation); PEA (Category B; glial modulation + mast cell stabilization)
+    \item \textbf{Second-line}: Ginkgo biloba (Category B; cerebral blood flow enhancement); low-dose aripiprazole (Category C; dopaminergic---use only if pharmacogenomic data supports)
+    \item \textbf{Neuroprotective support}: Alpha-lipoic acid (Category A--B) for SFN; ALCAR (Category A) for cognitive support
+\end{enumerate}
+
+\paragraph{Energy Profile.} Favorable. First-line options are predominantly Category B with minimal energy cost. Category A neuroprotective supplements can be started simultaneously with neurological treatments. \textbf{Crash risk: MEDIUM}---neuroactive medications carry paradoxical reaction risk, but energy cost is generally low.
+
+\subsubsection{Metabolic-Predominant Subtype}
+
+\paragraph{Identification.} Profound fatigue as dominant symptom, exercise intolerance far exceeding other symptoms, abnormal two-day CPET results, metabolomic abnormalities (organic acid panel, acylcarnitine profile), documented mitochondrial dysfunction markers.
+
+\paragraph{Treatment Priority.}
+\begin{enumerate}
+    \item \textbf{First-line}: Full mitochondrial support stack---CoQ10 (ubiquinol), D-ribose, NAD$^+$ precursors (NR/NMN), magnesium. \textit{All Category A.}
+    \item \textbf{Second-line}: L-carnitine/ALCAR (Category A; if acylcarnitine profile abnormal); creatine (Category A; ATP buffering)
+    \item \textbf{Third-line}: Alpha-lipoic acid (Category A--B; pyruvate dehydrogenase cofactor)
+\end{enumerate}
+
+\paragraph{Energy Profile.} \textbf{This is the safest subtype to treat.} All first- and second-line treatments are Category A---they supply what the system lacks. The treatment itself provides energy rather than consuming it. \textbf{Crash risk: LOW.} Even multiple Category A supplements can be introduced relatively safely (still one at a time, but with shorter observation windows of 3--7 days rather than 1--2 weeks).
+
+\begin{observation}[The Metabolic Subtype Advantage]
+Patients with metabolic-predominant ME/CFS have the best safety profile for treatment initiation because the most appropriate interventions (mitochondrial support) are also the least energy-demanding. This stands in contrast to immune-predominant patients, where the most appropriate interventions (immunomodulators) are among the most energy-costly. Treatment planning should exploit this asymmetry: stabilize energy metabolism first (Category A), then cautiously address immune or neurological targets.
+\end{observation}
+
+\subsubsection{Autonomic-Predominant Subtype}
+
+\paragraph{Identification.} Orthostatic intolerance as dominant symptom, positive tilt table test (POTS, orthostatic hypotension), severe exercise intolerance with heart rate abnormalities, gastroparesis or GI dysmotility, temperature dysregulation.
+
+\paragraph{Treatment Priority.}
+\begin{enumerate}
+    \item \textbf{First-line}: Electrolytes and hydration (Category A--B); compression garments (no energy cost)
+    \item \textbf{Second-line}: Pyridostigmine (Category B; low energy cost); fludrocortisone (Category B--C; mineralocorticoid)
+    \item \textbf{Third-line}: Midodrine (Category B--C; vasopressor); beta-blockers if hyperadrenergic POTS
+\end{enumerate}
+
+\paragraph{Energy Profile.} Moderate. First-line options are energy-neutral to energy-providing. Second- and third-line medications require cardiovascular adaptation which has modest energy cost. \textbf{Crash risk: MEDIUM}---autonomic medications require dose titration with hemodynamic monitoring, and blood pressure fluctuations can trigger crashes.
+
+\subsubsection{Treatment Selection Decision Tree}
+
+\begin{hypothesis}[Phenotype-Guided Treatment Prioritization]
+\label{hyp:phenotype-treatment-prioritization}
+
+A systematic approach to treatment selection based on phenotype, energy category, and severity:
+
+\textbf{Step 1 --- Identify dominant subtype} via tiered phenotyping protocol (Table~\ref{tab:phenotyping-tiers}). Note: most patients present with overlapping subtypes. Identify the \textit{dominant} subtype for initial treatment selection; secondary subtypes guide subsequent treatment phases after stabilization on first-line therapy.
+
+\textbf{Step 2 --- Check energy category} of proposed treatments against the subtype-specific pathway above.
+
+\textbf{Step 3 --- Apply severity gate}:
+\begin{itemize}
+    \item \textbf{Mild patients}: May proceed to Category B--C treatments after brief Category A stabilization (2--4 weeks)
+    \item \textbf{Moderate patients}: Require 4--8 weeks of Category A stabilization before Category B--C trials
+    \item \textbf{Severe patients}: Category A treatments only until energy envelope expands measurably; Category B with caution; Category C only with strong biomarker evidence (Tier 2--3 phenotyping)
+    \item \textbf{Very severe patients}: Category A only. No Category C trials unless life-threatening comorbidity requires it. Any new treatment at absolute micro-doses
+\end{itemize}
+
+\textbf{Step 4 --- Monitor and adjust}: Track response per Section~\ref{subsec:tracking-progress}. Apply stop criteria from Section~\ref{subsec:when-to-stop} if crash occurs.
+
+\textbf{Certainty: 0.25} (integrates well-established pharmacological principles with ME/CFS-specific clinical observations; the specific severity gating thresholds are clinical judgment rather than evidence-based; no RCTs comparing phenotype-guided vs. empirical treatment selection)
+\end{hypothesis}
 
 \section{Combination Therapies}
 \label{sec:combination-therapies}
 
-% Synergistic effects
-% Examples of effective combinations
-% Avoiding interactions
-% Sequencing considerations
+\subsection{Documented Synergies}
+
+Several treatment combinations show evidence of synergistic benefit:
+
+\begin{itemize}
+    \item \textbf{H1 + H2 dual antihistamine blockade}: Concurrent cetirizine/loratadine (H1) with famotidine/cimetidine (H2) for MCAS management---dual blockade more effective than either alone
+    \item \textbf{Cimetidine + valacyclovir}: Cimetidine inhibits renal clearance of acyclovir (the active metabolite of valacyclovir), significantly increasing systemic antiviral concentrations~\cite{Stuijt2026CimetidineAcyclovir}. This pharmacokinetic synergy enables lower antiviral doses with equivalent efficacy, reducing energy cost
+    \item \textbf{Mitochondrial support stack}: CoQ10 + NADH + D-ribose target complementary points in ATP production: electron transport (CoQ10), electron donation (NADH), and ATP backbone synthesis (D-ribose). The Castro-Marrero protocol (NADH 20~mg + CoQ10 200~mg) has the strongest RCT evidence~\cite{CastroMarrero2021fatigue}
+    \item \textbf{LDN + PEA}: Complementary anti-neuroinflammatory mechanisms---LDN via TLR4/microglia and PEA via PPAR-$\alpha$/mast cells---potentially providing broader neuroinflammatory coverage than either alone
+\end{itemize}
+
+\subsection{Interaction Risks}
+
+\begin{warning}[Dangerous Treatment Combinations in ME/CFS]
+\label{warn:dangerous-combinations}
+\begin{itemize}
+    \item \textbf{Serotonin syndrome risk}: 5-HTP + SSRIs/SNRIs + trazodone---never combine serotonergic agents without physician supervision. Serotonin syndrome is a potentially fatal energy crisis
+    \item \textbf{CYP450 stacking}: Cimetidine (CYP inhibitor) + multiple CYP-metabolized drugs (aripiprazole, SSRIs, beta-blockers)---inhibited clearance leads to drug accumulation. Review all drug interactions when cimetidine is part of the regimen
+    \item \textbf{Bleeding risk}: Omega-3 + Ginkgo + CoQ10 + anticoagulants---cumulative antiplatelet effects. Monitor INR if combining multiple agents with anticoagulant properties
+    \item \textbf{Hypoglycemia}: D-ribose + alpha-lipoic acid + fasting---both lower blood glucose. Take with food; monitor blood glucose in diabetic patients
+\end{itemize}
+\end{warning}
+
+\subsection{Sequencing Considerations}
+
+The energy category framework provides clear sequencing guidance:
+
+\begin{enumerate}
+    \item \textbf{Energy providers before energy consumers}: Establish Category A foundation before introducing Category C treatments. The energy reserves built by mitochondrial support may improve tolerance of energy-demanding medications
+    \item \textbf{Mast cell stabilization before immune modulation}: If MCAS is present, stabilize mast cells (antihistamines, cromolyn) before introducing immunomodulators that may trigger degranulation
+    \item \textbf{Sleep optimization before cognitive enhancement}: Restorative sleep is the body's primary energy recovery mechanism. Cognitive enhancers without adequate sleep may push activity beyond the energy envelope
+    \item \textbf{One new agent at a time}: Regardless of category, introduce only one new treatment per observation window (minimum 1--2 weeks for Category B--C; 3--7 days acceptable for Category A)
+\end{enumerate}
 
 \section{Cross-Domain Medical Parallels: Learning from Other Fields}
 \label{sec:cross-domain-parallels}
@@ -1346,7 +1761,24 @@ Table~\ref{tab:novel-hypotheses-summary} summarizes the mechanistic hypotheses, 
 \section{Working with Healthcare Providers}
 \label{sec:working-with-providers}
 
-% Finding knowledgeable providers
-% Communication strategies
-% Advocating for appropriate care
-% Building a treatment team
+\subsection{Communicating the Phenotype-First Approach}
+
+Most physicians are unfamiliar with ME/CFS-specific treatment safety considerations. Patients can advocate for a safer treatment approach by:
+
+\begin{itemize}
+    \item \textbf{Presenting the energy cost framework}: Explain that ME/CFS patients have reduced capacity to process medications, and that treatment selection should consider metabolic burden (Section~\ref{subsec:energy-categories})
+    \item \textbf{Requesting micro-dosing}: Ask to start at 1/4 to 1/10 of standard doses, with slow titration. Cite the paradoxical reactor phenotype (Section~\ref{sec:paradoxical-reactor}) as clinical justification
+    \item \textbf{Advocating for pharmacogenomic testing}: Before Category C medications, request CYP450 metabolizer status testing. Frame as harm prevention, not optional
+    \item \textbf{Providing the treatment journal}: A documented history of prior medication reactions, with doses, timing, and outcomes, is the most valuable tool for guiding future treatment decisions
+    \item \textbf{Requesting staged introduction}: Insist on one new treatment at a time, with defined observation periods and clear stop criteria
+\end{itemize}
+
+\subsection{Building a Treatment Team}
+
+Optimal ME/CFS management involves:
+\begin{itemize}
+    \item \textbf{Primary physician}: Coordinates care, manages prescriptions, interprets basic phenotyping (Tier 1)
+    \item \textbf{ME/CFS specialist} (if available): Guides phenotype assessment (Tier 2--3), manages complex medication trials, interprets treatment responses
+    \item \textbf{Pharmacist}: Reviews drug interactions, particularly CYP450 conflicts when multiple medications are used; advises on compounding for micro-doses
+    \item \textbf{Patient}: Maintains treatment journal, tracks symptoms, communicates early warning signs of adverse reactions
+\end{itemize}

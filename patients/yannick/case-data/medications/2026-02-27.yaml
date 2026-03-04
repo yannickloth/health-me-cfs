@@ -1,0 +1,8 @@
+date: 2026-02-27
+
+intake:
+  - name: "Low Dose Naltrexone (LDN)"
+    taken: true
+    dose: "4 mg"
+    time: "early morning"
+    notes: "First day at 4 mg dose (titration step up from 3 mg)"

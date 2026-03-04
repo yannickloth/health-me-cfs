@@ -1,0 +1,36 @@
+% revisions.tex — Version revision annotation macros
+%
+% Provides macros to annotate changed paragraphs and sections with
+% version numbers in the right margin. The changelog chapter in front
+% matter provides a high-level summary of changes per version.
+%
+% Usage:
+%   \changedIn{4}{This paragraph was revised in version 4.}
+%   \sectionChangedIn{4}   % after \section{...} or \chapter{...}
+%
+% Toggle visibility:
+%   \setboolean{showrevisions}{false}  % hide markers for clean output
+
+\RequirePackage{ifthen}
+
+\newboolean{showrevisions}
+\setboolean{showrevisions}{true}
+
+% Internal: place version mark in right margin
+\newcommand{\revmark}[1]{%
+  \marginpar{\raggedright\footnotesize\sffamily\color{gray!70}v.\,#1}%
+}
+
+% Annotate a changed paragraph or block of text.
+% #1 = version number, #2 = content
+\newcommand{\changedIn}[2]{%
+  \ifthenelse{\boolean{showrevisions}}{\revmark{#1}}{}%
+  #2%
+}
+
+% Annotate a changed section or chapter heading (no content wrapping).
+% Place immediately after the \section{} or \chapter{} command.
+% #1 = version number
+\newcommand{\sectionChangedIn}[1]{%
+  \ifthenelse{\boolean{showrevisions}}{\revmark{#1}}{}%
+}

@@ -10,6 +10,9 @@
 % KOMA-Script configuration (must load early)
 \input{\preamble/koma-config.tex}
 
+% Pass table option to xcolor before packages.tex loads it (enables \cellcolor)
+\PassOptionsToPackage{table}{xcolor}
+
 % Core packages (shared across multiple features)
 % NOTE: Must load BEFORE typography.tex as it provides newunicodechar package
 \input{\preamble/packages.tex}
@@ -39,6 +42,23 @@
 \newunicodechar{≈}{$\approx$}
 \newunicodechar{✓}{$\checkmark$}
 \newunicodechar{μ}{$\mu$}
+
+% Greek letters for etymological references (ch01)
+\newunicodechar{α}{$\alpha$}
+\newunicodechar{γ}{$\gamma$}
+\newunicodechar{δ}{$\delta$}
+\newunicodechar{ε}{$\varepsilon$}
+\newunicodechar{η}{$\eta$}
+\newunicodechar{ι}{$\iota$}
+\newunicodechar{ν}{$\nu$}
+\newunicodechar{ο}{o}
+\newunicodechar{π}{$\pi$}
+\newunicodechar{ρ}{$\rho$}
+\newunicodechar{ς}{$\varsigma$}
+\newunicodechar{σ}{$\sigma$}
+\newunicodechar{υ}{$\upsilon$}
+\newunicodechar{ί}{\'{$\iota$}}
+\newunicodechar{ἔ}{$\varepsilon$}
 
 % Euro symbol command
 \newcommand{\euro}{\texteuro}
@@ -109,6 +129,9 @@
 
 % Spacing adjustments
 \input{\preamble/spacing.tex}
+
+% Revision tracking macros (\changedIn, \sectionChangedIn, showrevisions toggle)
+\input{revisions.tex}
 
 % Page headers and footers (KOMA-Script)
 \input{\preamble/koma-headers.tex}
@@ -233,6 +256,7 @@
 \include{contents/shared/author-bio}
 \include{contents/shared/ai-disclosure}
 \include{contents/shared/reading-guide}
+\include{contents/shared/changelog}
 
 % Table of contents
 \tableofcontents
