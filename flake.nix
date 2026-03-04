@@ -56,6 +56,7 @@
             # Note: latexmk may report warnings about missing files (from .fls) but still
             # generate the PDF successfully. We continue if PDF exists.
             env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
+              TEXMFCNF=".:$(kpsewhich --var-value=TEXMFCNF)" \
               latexmk -interaction=nonstopmode -pdf -pdflatex \
               -f -outdir=.build \
               ms.tex || [ -f .build/ms.pdf ]

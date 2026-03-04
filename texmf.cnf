@@ -1,0 +1,6 @@
+% Override TeX memory settings for large documents with many changebars
+% The default main_memory=5000000 is insufficient for 400+ revision markers
+main_memory = 12000000
+extra_mem_top = 5000000
+extra_mem_bot = 5000000
+pool_size = 6250000
