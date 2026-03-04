@@ -1,42 +1,54 @@
 % revisions.tex — Version revision annotation macros
 %
-% \changedIn{N}{content}  — vertical bar in margin spanning the paragraph, + v.N label
-% \sectionChangedIn{N}    — small v.N label in margin (no bar, section-level annotation)
+% Usage:
 %
-% Toggle visibility:
-%   \setboolean{showrevisions}{false}  % hide all markers for clean output
+%   \rev{5}
+%   This paragraph was rewritten in version 5.
+%
+%   \rev{5}
+%   This one too — each gets its own bar, closing at paragraph end.
+%
+%   \sectionChangedIn{5}   % after \chapter{} or \section{} — label only, no bar
+%
+% \rev{N} marks the single paragraph that follows it.
+% The bar closes automatically at the end of that paragraph.
+% Place on its own line before the paragraph; never touches the prose.
+% To disable a mark: comment out the \rev{N} line.
+% To disable all marks: \setboolean{showrevisions}{false}
 
 \RequirePackage{ifthen}
-\RequirePackage{changebar}
 \RequirePackage{marginnote}
 
-% changebar configuration
-\setlength{\changebarsep}{6pt}    % distance from text block to bar
-\setlength{\changebarwidth}{2pt}  % bar thickness
 \definecolor{revisionbar}{gray}{0.55}
-\cbcolor{revisionbar}
 
 \newboolean{showrevisions}
 \setboolean{showrevisions}{true}
 
-% Internal: version label in right margin (small, gray, sans-serif)
+% Internal: version label with bar in right margin.
+% The \rule produces a short vertical bar; the label sits beside it.
 \newcommand{\revlabel}[1]{%
-  \marginnote{\footnotesize\sffamily\color{gray!70}v.\,#1}%
+  \marginnote{%
+    \textcolor{revisionbar}{\rule{1pt}{1.2\baselineskip}}%
+    \kern2pt%
+    {\footnotesize\sffamily\color{gray!70}v.\,#1}%
+  }%
 }
 
-% Annotate a changed paragraph or block of text.
-% Draws a vertical bar in the margin spanning the full height of the content,
-% with a small version label. Does NOT add any newlines or extra spacing.
-% #1 = version number, #2 = content
-\newcommand{\changedIn}[2]{%
-  \ifthenelse{\boolean{showrevisions}}{%
-    \revlabel{#1}\cbstart#2\cbend%
-  }{#2}%
-}
-
-% Annotate a changed section or chapter heading (no content wrapping).
-% Place immediately after \section{} or \chapter{}.
-% #1 = version number
-\newcommand{\sectionChangedIn}[1]{%
+% \rev{N} — mark the next paragraph as changed in version N.
+% Places a short bar and version label in the right margin.
+% Place on its own line before the paragraph; never touches the prose.
+% To disable a mark: comment out the \rev{N} line.
+\newcommand{\rev}[1]{%
   \ifthenelse{\boolean{showrevisions}}{\revlabel{#1}}{}%
+}
+
+% \revend — no-op, kept for compatibility (auto-close no longer needed).
+\newcommand{\revend}{}
+
+% \sectionChangedIn{N} — same as \rev (alias kept for clarity).
+\newcommand{\sectionChangedIn}[1]{\rev{#1}}
+
+% Legacy: \changedIn{N}{content} — kept for backwards compatibility.
+\newcommand{\changedIn}[2]{%
+  \ifthenelse{\boolean{showrevisions}}{\revlabel{#1}#2}{#2}%
 }

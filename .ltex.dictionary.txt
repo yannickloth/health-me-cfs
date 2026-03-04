@@ -41,6 +41,7 @@ carboxymethylcellulose
 Carboxymethylcellulose
 Carlo-Stella
 case-documenter
+Changelog
 catechol-O-methyltransferase
 Cerebokan
 Channelopathies
@@ -97,6 +98,8 @@ excipient-triggered
 excipients
 DLMO
 desynchrony
+endotype
+Endotype
 EBV
 EBV-VCA-IgM
 electromyography
@@ -110,6 +113,7 @@ EWAS
 exocytosis
 fasiculations
 fexofenadine
+galantamine
 fermentative
 FADH
 FLAIR
@@ -157,6 +161,7 @@ IgE-mediated
 IgG
 IgM
 Immunoadsorption
+IVIG
 immunomodulation
 ivabradine
 insertional
@@ -281,6 +286,7 @@ Rezepturarzneimittel
 riboside
 Riboside
 rofecoxib
+rintatolimod
 RAAS
 rCBF
 RCT
@@ -303,6 +309,8 @@ subagent
 subtyping
 sulfite
 sulfites
+suramin
+Suramin
 Subagent
 subagents
 Subagents
@@ -357,7 +365,6 @@ Valcyte
 vanilloid
 valganciclovir
 Valganciclovir
-Valtrex
 vasodilatory
 VCA
 xenotropic
@@ -406,6 +413,8 @@ solubilizer
 subtyping
 sulfite
 sulfites
+suramin
+Suramin
 tartrate
 Tartrazine
 Tebonin
@@ -436,3 +445,6 @@ EndoPAT
 Haffke
 ektacytometry
 RBCs
+limitationbg
+limitationcounter
+limitationframe

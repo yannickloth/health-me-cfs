@@ -114,6 +114,73 @@
   }
 }
 
+% Limitation environment (for explicit epistemic boundaries — "what data cannot conclude")
+% Distinct from warning (practical caveats): marks what the evidence does NOT support
+\definecolor{limitation_slate_frame}{HTML}{546E7A}
+\definecolor{limitation_slate_bg}{HTML}{ECEFF1}
+\colorlet{limitationframe}{limitation_slate_frame}
+\colorlet{limitationbg}{limitation_slate_bg}
+
+\newcounter{limitationcounter}[chapter]
+\renewcommand{\thelimitationcounter}{\thechapter.\arabic{limitationcounter}}
+\newcommand{\limitationicon}{\ensuremath{\nexists}}
+
+\newtcolorbox[use counter=limitationcounter]{limitation}[1][]{%
+  enhanced,
+  breakable,
+  break at=-\baselineskip,
+  colback=limitationbg,
+  colframe=limitationframe,
+  boxrule=0pt,
+  arc=0pt,
+  left=10pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt,
+  fonttitle=\bfseries\sffamily,
+  adjusted title={\limitationicon~Limitation~\thelimitationcounter\ifstrempty{#1}{}{: #1}},
+  before upper={\parindent=1.5em},
+  borderline west={3pt}{0pt}{limitationframe},
+  borderline south={1pt}{0pt}{limitationframe, dashed},
+  coltitle=black,
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  minipage boxed title*=-14mm,
+  boxed title style={
+    colback=limitationbg,
+    colframe=limitationframe,
+    boxrule=0.5pt,
+    arc=0pt,
+  }
+}
+
+\newtcolorbox{limitation*}[1][]{%
+  enhanced,
+  breakable,
+  break at=-\baselineskip,
+  colback=limitationbg,
+  colframe=limitationframe,
+  boxrule=0pt,
+  arc=0pt,
+  left=10pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt,
+  fonttitle=\bfseries\sffamily,
+  adjusted title={\limitationicon~Limitation\ifstrempty{#1}{}{: #1}},
+  before upper={\parindent=1.5em},
+  borderline west={3pt}{0pt}{limitationframe},
+  borderline south={1pt}{0pt}{limitationframe, dashed},
+  coltitle=black,
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  minipage boxed title*=-14mm,
+  boxed title style={
+    colback=limitationbg,
+    colframe=limitationframe,
+    boxrule=0.5pt,
+    arc=0pt,
+  }
+}
+
 % Feature-specific modules (each includes its own \usepackage statements)
 \input{\preamble/bibliography.tex}   % Citation support
 \addbibresource{references.bib}       % Project bibliography
@@ -256,6 +323,7 @@
 \include{contents/shared/author-bio}
 \include{contents/shared/ai-disclosure}
 \include{contents/shared/reading-guide}
+\include{contents/shared/patient-faq}
 \include{contents/shared/changelog}
 
 % Table of contents
@@ -363,6 +431,7 @@
 \include{contents/appendices/appendix-f-supplement-guide} % Supplement protocols, dosages
 \include{contents/appendices/appendix-g-research-synthesis} % Literature review, evidence summary
 \include{contents/appendices/appendix-h-annotated-bibliography} % Key references with summaries
+\include{contents/appendices/appendix-k-audit-trail}           % Assertion--source verification audit
 
 % Personal case data — excluded from main publication (kept in patients/yannick/ for private use)
 % \include{patients/yannick/00-index}

@@ -6,8 +6,80 @@ in each version of the document. Minor corrections (typos, formatting) are not
 listed. Version markers in the right margin of the text (e.g.\ \textsf{\small v.\,2})
 indicate the specific paragraphs or sections that changed.
 
-% Last commit reviewed for v5: 7fc1967 (2026-03-04)
-% Next version should review commits after 7fc1967
+Each entry follows the format: \textbf{What} changed, \textit{why} it changed
+(new evidence, error correction, reviewer feedback, etc.), and which
+\textbf{key sources} motivated the change where applicable.
+
+% Last commit reviewed for v6: (pending commit)
+% Next version should review commits after the V6 commit
+\section*{Version 6 (2026-03-04)}
+
+\begin{itemize}
+
+  \item \textbf{Epistemic stratification --- \texttt{limitation} environment}: New
+    \texttt{limitation} and \texttt{limitation*} environments created and deployed
+    across 10 locations in Chapters~5, 8, 10, 11, 12, and~13 to explicitly mark
+    what the data do \emph{not} allow concluding.
+    \textit{Motivated by:} Reviewer feedback requesting a fourth epistemic layer
+    (``what not to conclude'') beyond \texttt{hypothesis}/\texttt{speculation}/\texttt{warning}.
+
+  \item \textbf{Appendix K --- Assertion--Source Audit Trail}: New appendix
+    auditing 10 key assertions against their cited sources. Verdicts:
+    5~SUPPORTS, 4~PARTIALLY~SUPPORTS, 1~DOES~NOT~SUPPORT.
+    \textit{Motivated by:} Reviewer concern about assertion--citation traceability.
+
+  \item \textbf{Chapter 18 --- Suramin citation correction}: Corrected suramin
+    text to explicitly state the cited pilot study~\cite{Naviaux2018suraminpilot}
+    was conducted in autism spectrum disorder, not ME/CFS. Previously implied
+    ME/CFS patient data.
+    \textit{Motivated by:} Appendix~K audit finding (Row~9, DOES NOT SUPPORT).
+
+  \item \textbf{Chapter 5 --- Endotype table enhanced}: Added reproducibility
+    status (R/P), evidence levels (A/B/C), and biomarker accessibility tiers
+    to the comprehensive endotype--biomarker--treatment mapping table.
+    Added \texttt{limitation} environment for provisional classification status.
+    \textit{Motivated by:} Reviewer request for integrated endotype table with
+    evidence grades.
+
+  \item \textbf{Chapter 21 --- Negative Trials section}: New section documenting
+    9 key negative or null-result trials in ME/CFS (rituximab phase~III,
+    PACE trial, IVIG, acyclovir, valganciclovir, rintatolimod, galantamine,
+    fluoxetine, hydrocortisone) with summary table and cross-cutting lessons.
+    \textit{Motivated by:} Reviewer request for explicit coverage of negative
+    evidence to combat confirmation bias.
+
+  \item \textbf{Chapter 25b --- Cross-Document Hypothesis Registry}: New section
+    consolidating 20 key hypotheses, speculations, predictions, and open questions
+    from a systematic harvest of 305 environments across the document. Organized
+    by mechanism domain with testable predictions and available tests.
+    \textit{Motivated by:} Reviewer request for hypothesis--prediction--test mapping.
+
+  \item \textbf{Patient FAQ}: New chapter in front matter with 12 questions
+    addressing common patient concerns (What is ME/CFS?, PEM, exercise, diagnosis,
+    treatments, supplements, Long COVID overlap, promising research).
+    \textit{Motivated by:} Reviewer request for accessible patient-facing content.
+
+  \item \textbf{Changelog enriched}: V5 entries now include ``why'' (motivation)
+    and key sources for each change, per reviewer recommendation.
+
+  \item \textbf{Chapter 15 --- Environment type correction}: Converted
+    \texttt{observation} to \texttt{hypothesis} for mechanistic treatment
+    sequencing rationale (certainty: 0.25), fixing epistemic mismatch where
+    content self-described as speculative was in an \texttt{observation} environment.
+    \textit{Motivated by:} A8 audit finding (Issue~13, HIGH PRIORITY).
+
+  \item \textbf{Chapter 14c --- Speculative model language}: Revised text
+    presenting the time-dependent reversibility model from asserting it
+    ``explains'' outcomes to stating it ``hypothesizes'' outcomes, with
+    ``speculative'' qualifier added.
+    \textit{Motivated by:} A8 audit findings (Issues~28--29, HIGH PRIORITY).
+
+  \item \textbf{A8 audit completed}: Full Part~III hypothesis vs.\ recommendation
+    audit identified 31 findings (3 critical fixed, 14 medium, 14 low priority).
+    Report archived for future revision cycles.
+
+\end{itemize}
+
 \section*{Version 5 (2026-03-04)}
 
 \begin{itemize}
@@ -20,30 +92,49 @@ indicate the specific paragraphs or sections that changed.
 
   \item \textbf{Chapter 6 — Energy Metabolism}: Major expansion covering new
     research on mitochondrial dysfunction, metabolic trap hypothesis, and the
-    relationship between immune activation and energy production.
+    relationship between immune activation and energy production. Three-pass
+    scientific rigor review of heterogeneity and energy sections.
+    \textit{Motivated by:} Hwang et al.~2023 (WASF3--Complex~IV mechanism)~\cite{hwang2023wasf3};
+    Keller et al.~2024 (two-day CPET)~\cite{keller2024cpet};
+    Cheema et al.~2023 (miRNA convergence)~\cite{Cheema2023mirna}.
 
   \item \textbf{Chapter 7 — Immune System Dysfunction}: Integrated new findings
     on the gut-immune-brain axis, including the role of vagal signalling in
-    immune dysregulation and the cholinergic anti-inflammatory pathway.
+    immune dysregulation and the cholinergic anti-inflammatory pathway. Resolved
+    citation violations.
+    \textit{Motivated by:} Heng et al.~2025 (T cell effector memory profiling)~\cite{heng2025mecfs};
+    scientific rigor audit identifying uncited claims.
 
   \item \textbf{Chapter 8 — Neurological Dysfunction}: Added the
     enterochromaffin-vagal pathway hypothesis (Wirth--Scheibenbogen 2025),
     explaining how gut dysbiosis drives autonomic dysfunction via serotonin and
     vagal mechanisms.
+    \textit{Motivated by:} Barton et al.~2023, 2025 (enterochromaffin serotonin--vagal
+    signaling)~\cite{Barton2023,Barton2025}.
 
-  \item \textbf{Chapter 10 — Cardiovascular Dysfunction}: Updated the
-    gut-mediated vagal impairment section with new neurophysiological insights.
+  \item \textbf{Chapter 10 — Cardiovascular Dysfunction}: Expanded
+    gut-mediated vagal impairment section with Wirth--Scheibenbogen 2025
+    mechanistic support and new cross-references.
+    \textit{Motivated by:} van~Campen et al.~2024 (cardiac output--cerebral blood flow
+    study, $n=534$)~\cite{VanCampenEtAl2024}.
 
   \item \textbf{Chapter 11 — Gut Microbiome}: Expanded clinical implications of
     microbiome alterations and their connection to systemic symptoms.
+
+  \item \textbf{Chapter 14a — Urgent Action Plan for Severe Cases}: Added
+    phenotyping cross-references and energy-category treatment sequencing
+    guidance.
+
+  \item \textbf{Chapter 14b — Action Plans for Mild to Moderate Cases}: Integrated
+    a new acute-onset protocol for patients in early disease stages; expanded
+    severity-stratified care pathways.
 
   \item \textbf{Chapter 14j — Selective Energy Dysfunction Hypothesis}: Thorough
     scientific rigor review; strengthened internal consistency, corrected
     mathematical formulations, and expanded related-hypotheses discussion.
 
-  \item \textbf{Chapter 14b — Action Plans for Mild to Moderate Cases}: Integrated
-    a new acute-onset protocol for patients in early disease stages; expanded
-    severity-stratified care pathways.
+  \item \textbf{Chapter 15 — Symptom-Producing Mechanisms}: Updated MCAS
+    prevalence citations and mast cell--microglia reference keys.
 
   \item \textbf{Chapter 15 — Medications Targeting Underlying Mechanisms}: Significant
     expansion covering immune-modulating agents, antivirals, mitochondrial
@@ -56,6 +147,10 @@ indicate the specific paragraphs or sections that changed.
   \item \textbf{Chapter 17 — Lifestyle Interventions}: Minor corrections and
     clarifications.
 
+  \item \textbf{Chapter 18 — Experimental and Emerging Therapies}: Added
+    energy profile for immunoadsorption; corrected nicotinamide riboside
+    trial data and citation.
+
   \item \textbf{Chapter 19 — Integrative and Personalised Approaches}: Major
     expansion covering cross-domain medical parallels, novel mechanistic
     hypotheses, combination therapy strategies, and research opportunities.
@@ -63,23 +158,31 @@ indicate the specific paragraphs or sections that changed.
   \item \textbf{Chapter 20 — Biomarker Research}: Minor updates reflecting recent
     findings.
 
-  \item \textbf{Chapter 25 — Translational Findings}: Updated tiered applicability
-    framework and research priorities.
+  \item \textbf{Chapter 25 — Translational Findings}: Substantially revised
+    shared-mechanism tables with added citations; corrected treatment dosing
+    and trial data; improved specificity of cross-condition evidence.
 
   \item \textbf{Chapter 25b — Proposed Research Studies}: New chapter added,
     describing fourteen original research protocols targeting key open questions
     in ME/CFS pathophysiology and treatment.
 
+  \item \textbf{Appendix H — Annotated Bibliography}: New appendix added,
+    providing a comprehensive annotated bibliography of ME/CFS literature
+    organized by research domain.
+
 \end{itemize}
 
 \section*{Version 4 (2026-02-18)}
 
-First publicly released version of the document. Established the full structure
+Fourth publicly released version of the document. Established the full structure
 across five parts: clinical overview, pathophysiology, treatment, research, and
 mathematical modelling.
 
 % --- Template for future versions ---
 % \section*{Version N (YYYY-MM-DD)}
 % \begin{itemize}
-%   \item \textbf{Chapter X — Title}: Description of what changed.
+%   \item \textbf{Chapter X — Title}: What changed.
+%     \textit{Motivated by:} Why (new evidence / error correction / reviewer feedback).
+%     Key sources: \cite{key1,key2}.
 % \end{itemize}
+
