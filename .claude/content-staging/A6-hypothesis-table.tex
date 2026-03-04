@@ -1,0 +1,475 @@
+% FILE: .claude/content-staging/A6-hypothesis-table.tex
+%
+% Hypothesis, Speculation, Prediction, and Open Question Registry
+% Generated 2026-03-04 by systematic harvest of all 305 environments.
+%
+% INSERTION: Add as new \section{} in ch25b or as standalone appendix section.
+% Ensure longtable package is loaded. Build with: nix build
+% DO NOT auto-insert without reviewer sign-off.
+% ============================================================================
+
+\section{Cross-Document Hypothesis Registry}
+\label{sec:hypothesis-registry}
+
+\begin{chapterabstract}
+This section provides a structured registry of the document's key mechanistic
+hypotheses, speculations, predictions, and open questions.  Each entry records
+the environment type, certainty estimate, condensed testable predictions, the
+methods currently available to test them, and the source location.  The registry
+is intended as a navigational aid for researchers designing studies and as a
+completeness check ensuring that every major mechanistic claim in the document
+has a corresponding proposed test.  Entries are grouped by mechanism domain and
+ordered within domains from highest to lowest certainty.
+\end{chapterabstract}
+
+\subsection*{Notation}
+
+\begin{description}
+  \item[H] Hypothesis --- mechanistically grounded claim with stated certainty.
+  \item[S] Speculation --- plausible but lower-confidence claim.
+  \item[P] Prediction --- specific, directional; directly falsifiable.
+  \item[OQ] Open Question --- framed as unresolved; testability implied.
+\end{description}
+
+\begin{longtable}{%
+  p{3.0cm}
+  >{\centering\arraybackslash}p{0.55cm}
+  >{\centering\arraybackslash}p{1.0cm}
+  p{3.8cm}
+  p{3.8cm}
+  p{2.2cm}
+}
+
+\caption{Cross-document hypothesis and open question registry (20 key entries).
+  ``Cert.'' = certainty on the 0--1 scale used throughout the document;
+  ``inf.'' = inferred from context language.
+  \label{tab:hypothesis-registry}}\\
+
+\toprule
+\textbf{Hypothesis Title} &
+\textbf{Type} &
+\textbf{Cert.} &
+\textbf{Testable Predictions (condensed)} &
+\textbf{Available Tests / Status} &
+\textbf{Location} \\
+\midrule
+\endfirsthead
+
+\multicolumn{6}{l}{\footnotesize\textit{(continued from previous page)}}\\
+\toprule
+\textbf{Hypothesis Title} &
+\textbf{Type} &
+\textbf{Cert.} &
+\textbf{Testable Predictions (condensed)} &
+\textbf{Available Tests / Status} &
+\textbf{Location} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{6}{r}{\footnotesize\textit{(continued on next page)}}\\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+%% ============================================================
+%% DOMAIN 1 -- ENERGY METABOLISM
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 1: Energy Metabolism}}} \\[2pt]
+
+Selective Energy Dysfunction
+(\ref{hyp:selective-energy})
+&
+H & 0.55
+&
+(a) Hair/nail growth normal despite severe fatigue.
+(b) Brain FDG-PET hypometabolism correlates with CNS symptoms.
+(c) Electrical stimulation produces greater force than voluntary contraction
+(CNS bypass effect).
+(d) Two-day CPET worsens while resting muscle ATP remains normal.
+&
+Hair/nail growth measurement; FDG-PET; two-day CPET with muscle biopsy;
+neuromuscular electrical stimulation.
+All methods available today; no new tools required.
+&
+Ch.\,6 \S\ref{sec:selective-energy-dysfunction};
+Ch.\,25b \S\ref{sec:selective-energy-dysfunction-study} \\[6pt]
+
+Multi-Level Energy Crisis and Vicious Cycle
+(\ref{hyp:vicious-cycle-integrated})
+&
+H & 0.55
+&
+Vascular $\to$ ischemia $\to$ ion dysregulation $\to$ mitochondrial damage
+$\to$ ROS $\to$ vascular amplification.
+Multi-target interventions more effective than mono-target; breaking any link
+attenuates cycle but does not eliminate it.
+&
+Simultaneous ROS, I-FABP, TRPM3 current, mitochondrial O$_2$ flux, and
+microvascular imaging before/after multi-target intervention.
+Multi-centre coordination needed; no single new assay required.
+&
+Ch.\,6 \S\ref{sec:metabolism-summary} \\[6pt]
+
+CNS Penetration as Limiting Factor
+(\ref{spec:cns-penetration})
+&
+S & inf.
+&
+Failed CoQ10/carnitine trials reflect inadequate CNS penetration, not wrong
+target.
+CNS-penetrant formulations of same compounds show different efficacy.
+&
+CSF pharmacokinetics; MR spectroscopy to measure brain metabolite response;
+comparative PK/PD trials of CNS-penetrant vs.\ non-penetrant formulations.
+Feasible; requires CSF consent.
+&
+Ch.\,6 \S\ref{sec:selective-energy-dysfunction} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 2 -- IMMUNE DYSFUNCTION
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 2: Immune Dysfunction}}} \\[2pt]
+
+Bidirectional Viral-Immune Feedback Loop
+(\ref{hyp:viral-reactivation-bidirectional})
+&
+H & 0.50
+&
+(a) Antiviral monotherapy gives partial, incomplete benefit.
+(b) Combined antiviral + immune-modulating therapy is synergistic.
+(c) Breaking cycle at either node eventually normalises both viral titres and
+immune markers, with temporal lag.
+&
+Randomised 2$\times$2 factorial trial (antiviral / immune-modulator /
+combination / placebo) measuring EBV/HHV-6 PCR + cytokine panel + symptoms.
+Existing antivirals (valaciclovir) and LDN available.
+&
+Ch.\,7 \S\ref{sec:viral} \\[6pt]
+
+EBV-Adolescence Autoimmune Window
+(\ref{hyp:ebv-adolescence})
+&
+H & 0.50
+&
+(a) GPCR autoantibody titres higher in adult-onset vs.\ adolescent-onset ME/CFS.
+(b) EBV-triggered cases show distinct B-cell subset distributions.
+(c) Early rituximab in adolescents with recent EBV-triggered ME/CFS prevents
+plasma cell establishment.
+&
+Retrospective biobank stratified by age at onset + EBV serology;
+GPCR autoantibody ELISA; B-cell subset flow cytometry;
+adolescent rituximab pilot ($n \approx 20$).
+&
+Ch.\,7 \S\ref{sec:herpesviruses} \\[6pt]
+
+IL-2 Pathway Dysregulation
+(\ref{hyp:il2-pathway})
+&
+H & 0.45
+&
+(a) IL-2 receptor expression (CD25, CD122, CD132) abnormal.
+(b) JAK/STAT5 downstream signalling dysregulated.
+(c) Functional T-cell responses to exogenous IL-2 differ from controls.
+(d) EV IL-2 elevation and epigenetic signature reflect same upstream process.
+&
+IL-2 receptor flow cytometry; phospho-STAT5 intracellular staining;
+low-dose IL-2 challenge with serial cytokine measurement.
+All methods exist; $n \geq 50$ per group.
+&
+Ch.\,7 \S\ref{sec:cytokines} \\[6pt]
+
+GPCR Autoantibody Pathogenicity
+(\ref{oq:gpcr-pathogenicity})
+&
+OQ & ---
+&
+Are binding-detected antibodies the same as those causing symptoms?
+Do healthy individuals harbour similar antibodies that only become pathogenic
+under inflammation?
+Would functional receptor-activation assays better identify pathogenic antibodies?
+&
+Cell-based functional assays (receptor internalisation, cAMP);
+head-to-head CellTrend ELISA vs.\ functional assay in same cohort;
+longitudinal pre/post immunoadsorption functional measurement.
+&
+Ch.\,7 \S\ref{sec:autoantibodies} \\[6pt]
+
+Exhausted Immune Surveillance Phenotype
+(\ref{spec:exhausted-surveillance})
+&
+S & 0.35
+&
+(a) B-cell count $<$10\% lower reference limit co-occurs with elevated CD3+
+and low NK cells in a reproducible subgroup.
+(b) Subgroup correlates with EBV titres $>$20$\times$ upper limit.
+(c) NK-activating immunomodulators produce greater benefit in this subgroup.
+&
+Lymphocyte subset panel + EBV PCR + IgG titre in registry;
+cimetidine case series subgroup analysis; NK cytotoxicity assay (K562 target).
+&
+Ch.\,7 \S\ref{sec:exhausted-surveillance} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 3 -- NEUROLOGICAL
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 3: Neurological}}} \\[2pt]
+
+Maladaptive Sickness Behavior Program
+(\ref{hyp:maladaptive-sickness-behavior})
+&
+H & 0.50
+&
+(a) Fatigue correlates with inflammatory markers but not deconditioning metrics.
+(b) Sickness behaviour scale exceeds equally deconditioned non-ME/CFS controls.
+(c) Anti-inflammatory interventions reduce sickness behaviour and cytokines in
+parallel.
+(d) TPJ activation (fMRI) during effort-allocation tasks abnormal in ME/CFS.
+&
+Sickness Behaviour Scale + cytokine panel;
+fMRI effort-allocation paradigm (used in Walitt 2024 NIH study);
+tocilizumab proof-of-concept trial with parallel fatigue + SBS endpoints.
+&
+Ch.\,8 \S\ref{sec:fatigue-mechanisms} \\[6pt]
+
+Glial Maturation Window and Pediatric Recovery
+(\ref{hyp:glial-maturation-window})
+&
+H & 0.45
+&
+(a) TSPO-PET shows declining microglial activation in recovering adolescents
+but persistence in duration-matched adults.
+(b) Recovery rates decline sharply at age 22--25, not gradually.
+(c) CSF sCD14 and chitotriosidase normalise in recovering adolescents.
+(d) CSF-1R expression elevated in adolescents vs.\ adults with same duration.
+&
+Age-stratified TSPO-PET; CSF inflammatory markers; CSF-1R ELISA;
+5-year longitudinal cohort (adolescent vs.\ young-adult onset).
+PET infrastructure at several ME/CFS centres; paediatric registries available.
+&
+Ch.\,8 \S\ref{sec:glial} \\[6pt]
+
+TRPM3 as Missing Link in Thermoregulation
+(\ref{hyp:trpm3-thermoregulation})
+&
+H & inf.
+&
+(a) Sensory neuron TRPM3 current reduced in ME/CFS (not only immune cells).
+(b) TRPM3 dysfunction severity correlates with temperature dysregulation score.
+(c) Pregnenolone sulphate partially restores thermal perception.
+&
+Patch-clamp of iPSC-derived sensory neurons;
+corneal confocal microscopy (non-invasive SFN/TRPM3 surrogate);
+pregnenolone sulphate n-of-1 series with thermosensory threshold testing.
+&
+Ch.\,14h \S\ref{sec:trpm3-hypotheses} \\[6pt]
+
+TRPM3 Dysfunction Upstream of Mitochondrial Failure
+(\ref{sec:trpm3-hypotheses})
+&
+OQ & ---
+&
+(a) TRPM3 dysfunction severity correlates with mitochondrial O$_2$ flux
+impairment ($r > 0.6$).
+(b) Restoring TRPM3 function improves mitochondrial parameters.
+(c) Mitochondrial therapies without TRPM3 restoration show only temporary benefit.
+(d) Calcium imaging during stress shows abnormal transients in ME/CFS.
+&
+Seahorse XFe96 assay + TRPM3 current measurement in same PBMCs;
+Fura-2 live-cell calcium imaging;
+before/after pregnenolone sulphate.
+Technically demanding; achievable in specialist laboratory.
+&
+Ch.\,14h \S\ref{sec:trpm3-hypotheses} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 4 -- ENDOCRINE / HPA
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 4: Endocrine / HPA Axis}}} \\[2pt]
+
+Cytokine-Mediated Deiodinase Suppression
+(\ref{hyp:deiodinase-suppression})
+&
+H & inf.
+&
+(a) IL-6 and TNF-$\alpha$ inversely correlate with T3/T4 ratio in same patients.
+(b) Anti-inflammatory treatment (LDN, PEA) increases T3/T4 ratio as cytokines fall.
+(c) Direct T3 supplementation improves symptoms without reducing cytokines.
+&
+Paired cytokine panel + full thyroid panel (TSH, FT4, FT3, rT3, T3/T4) in
+$n \geq 80$ cross-sectional cohort; longitudinal substudy during LDN trial.
+Standard clinical laboratory; no new assays.
+&
+Ch.\,9 \S\ref{sec:thyroid} \\[6pt]
+
+Clock Gene Dysregulation
+(\ref{hyp:clock-gene-dysregulation})
+&
+H & inf.
+&
+(a) CLOCK, BMAL1, PER1/2/3 expression in PBMCs shows altered phase/amplitude.
+(b) Flattened cortisol diurnal rhythm co-occurs with disrupted peripheral clock
+oscillation.
+(c) Melatonin or chronotherapy restoring clock phase also improves HPA rhythm.
+&
+Serial blood sampling (every 4 hours, 24 hours) for cortisol + clock gene
+RT-qPCR; actigraphy; melatonin timing crossover trial.
+Feasible in inpatient setting; chronobiology protocols published.
+&
+Ch.\,9 \S\ref{sec:circadian} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 5 -- GUT MICROBIOME
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 5: Gut Microbiome}}} \\[2pt]
+
+Severity-Dependent Baseline Gut Permeability
+(\ref{hyp:severity-gut-permeability})
+&
+H & 0.50
+&
+(a) Plasma zonulin and LPS stratify: mild $<$ moderate $<$ severe.
+(b) I-FABP chronically elevated at rest in severe patients (not only post-exercise).
+(c) LPS fluctuations correlate with minimal daily activities (cognitive tasks,
+postural changes) at 2--4-hour intervals.
+(d) Wheat elimination produces gradual LPS baseline reduction over 12+ weeks in
+severe patients.
+&
+Plasma zonulin, LPS, sCD14, I-FABP, anti-LPS IgA/IgM (commercial ELISAs);
+severity stratification by SF-36 PF score;
+wheat elimination crossover with serial biomarker sampling.
+Bedbound patient recruitment requires home visits; logistically challenging
+but feasible.
+&
+Ch.\,11 \S\ref{sec:leaky-gut} \\[6pt]
+
+Gut Serotonin--Vagal--Cardiovascular Link
+(\ref{oq:gut-serotonin-vagal})
+&
+OQ & ---
+&
+(a) Peripheral plasma serotonin inversely correlates with POTS symptom severity.
+(b) Probiotic restoration of butyrate producers increases vagal tone (HRV).
+(c) 5-HT4 agonist (prucalopride) improves autonomic function in ME/CFS patients
+with documented gut dysbiosis.
+&
+16S rRNA gut profiling + faecal SCFA + plasma serotonin + 24-hour HRV
+in cross-sectional cohort; probiotic RCT with HRV primary endpoint.
+Methods available; careful timing required for serotonin assay.
+&
+Ch.\,11 \S\ref{sec:gut-brain-axis} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 6 -- GENETICS / EPIGENETICS
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 6: Genetics and Epigenetics}}} \\[2pt]
+
+Epigenetic Basis of T-Cell Exhaustion
+(\ref{hyp:epigenetic-tcell-exhaustion})
+&
+H & inf.
+&
+(a) T-cells show closed chromatin at IFN-$\gamma$ and TNF-$\alpha$ loci;
+elevated H3K27me3 at effector genes.
+(b) PD-1, TIM-3, LAG-3 correlate with disease duration.
+(c) Epigenetic exhaustion score correlates with NK cytotoxicity and symptom severity.
+(d) Low-dose HDAC inhibitors partially reverse exhaustion signatures \textit{in vitro}.
+&
+ATAC-seq and CUT\&RUN on sorted T-cell populations;
+PD-1/TIM-3/LAG-3 flow cytometry;
+disease-duration stratification.
+Methods established in cancer immunology; specialist genomics core required;
+$n \geq 40$ per group.
+&
+Ch.\,12 \S\ref{sec:chromatin} \\[6pt]
+
+MicroRNA Biomarker Panels
+(\ref{pred:mirna-biomarker})
+&
+P & inf.
+&
+A panel of 5--10 miRNAs achieves $>$80\% sensitivity and $>$80\% specificity
+for ME/CFS vs.\ fibromyalgia, depression, and primary sleep disorders.
+Candidates: miR-21, miR-146a, miR-155.
+&
+miRNA profiling (NanoString or small-RNA-seq) in replication cohort
+($n \geq 100$ ME/CFS, $n \geq 50$ each comparator);
+ROC analysis; independent validation cohort.
+Commercially available platforms; moderate cost.
+&
+Ch.\,12 \S\ref{sec:micrornas} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 7 -- CARDIOVASCULAR / AUTONOMIC
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 7: Cardiovascular and Autonomic}}} \\[2pt]
+
+Motor-Autonomic Coordination Overload
+(\ref{hyp:motor-autonomic-coordination})
+&
+H & 0.55
+&
+(a) ME/CFS patients show greater cognitive impairment during physical activity
+than controls (dual-task paradigm).
+(b) Inverse relationship between motor performance and HRV during exercise
+(autonomic-motor trade-off).
+(c) Seated fine motor tasks and passive tilt each less impaired than combined
+motor-autonomic challenges.
+(d) Pre-treatment with midodrine or pyridostigmine improves exercise tolerance
+by offloading CNS autonomic demand.
+&
+Dual-task treadmill + cognitive battery; simultaneous HRV + force output;
+passive tilt vs.\ active exercise within-subjects;
+midodrine vs.\ placebo crossover with CPET.
+Standard equipment; cardiology/exercise physiology lab needed;
+$n \approx 30$ per arm (crossover design).
+&
+Ch.\,10 \S\ref{sec:exercise-intolerance} \\[6pt]
+
+%% ============================================================
+%% DOMAIN 8 -- INTEGRATIVE / MULTI-SYSTEM
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain 8: Integrative and Multi-System}}} \\[2pt]
+
+Long COVID as Stage 1--2 ME/CFS
+&
+H & inf.
+&
+(a) Long COVID at 6--12 months shows 1--2 active pathophysiological cycles vs.\
+3--5 in established ME/CFS (biomarker-quantified).
+(b) Long COVID patients meeting ME/CFS criteria at 24+ months are biologically
+indistinguishable from duration-matched ME/CFS.
+(c) Early aggressive multi-target intervention halves 5-year ME/CFS progression.
+&
+Pragmatic RCT: intensive multi-target treatment vs.\ enhanced usual care
+in Long COVID 6--18 months post-infection;
+primary endpoint = ME/CFS diagnosis at 5 years;
+$n \approx 400$ (80\% power for 50\% reduction).
+Secondary: CPET, cytokine panel, GPCR autoantibody, neuroimaging.
+Long COVID cohorts exist; design in Ch.\,13.
+&
+Ch.\,13 \S\ref{sec:long-covid} \\[6pt]
+
+\end{longtable}
+
+\subsection*{Full Harvest Statistics}
+
+The complete document contains approximately \textbf{305 environments} of the
+four harvested types (systematic \texttt{grep}, 2026-03-04):
+
+\begin{itemize}
+  \item \textbf{Hypothesis:} $\approx 130$ --- Ch.\,9, 13, 14j, 18 most dense.
+  \item \textbf{Speculation:} $\approx 75$ --- Ch.\,14a--i, 15--19 most dense.
+  \item \textbf{Prediction:} $\approx 10$ --- Ch.\,12 and Ch.\,14j primarily.
+  \item \textbf{Open Question:} $\approx 90$ --- Ch.\,14a--h, 14d, 14e, 14g, 14h most dense.
+\end{itemize}
+
+Selection criteria for the 20 table entries: (1) mechanism domain coverage;
+(2) actionability with existing methods; (3) clinical impact if resolved;
+(4) cross-chapter linkage to existing study designs in Ch.\,\ref{ch:proposed-studies}.
+
+Entries excluded from the table but meriting future registries:
+brainstorm-level speculations in Ch.\,14i without testable predictions;
+redundant entries superseded elsewhere; cross-disease open questions in Ch.\,14d
+requiring expertise outside ME/CFS scope.
