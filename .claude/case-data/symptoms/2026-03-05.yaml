@@ -1,0 +1,30 @@
+date: 2026-03-05
+symptoms:
+  energy: null
+  brain_fog: null
+  pain: null
+  sleep_quality: null
+  orthostatic_intolerance: null
+  pem_active: null
+  pem_severity: null
+  pem_trigger: null
+
+  # Afternoon-specific reports
+  afternoon:
+    leg_pain:
+      present: true
+      location: "both legs"
+      severity: null
+    back_pain:
+      present: true
+      severity: null
+    arm_pain:
+      present: true
+      location: "both arms, diffuse"
+      severity: null
+
+medications: []
+
+activity: []
+
+notes: "Afternoon: leg pain (both legs), back pain, and diffuse arm pain reported. Overall severity scores not yet provided."

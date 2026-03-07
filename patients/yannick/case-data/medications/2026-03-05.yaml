@@ -1,4 +1,4 @@
-date: 2026-03-04
+date: 2026-03-05
 
 intake:
   # Medications
@@ -27,13 +27,6 @@ intake:
   - name: "Famotidine"
     category: "medication"
     dose: null
-    taken: true
-    time: null
-    notes: null
-
-  - name: "Provigil (modafinil)"
-    category: "medication"
-    dose: "100 mg"
     taken: true
     time: null
     notes: null
@@ -88,18 +81,6 @@ intake:
     time: null
     notes: null
 
-  - name: "L-Carnitine"
-    category: "supplement"
-    dose: "3000 mg"
-    taken: true
-    time: null
-    notes: >
-      L-Carnitine 3g total taken on this date. Note: prior entries recorded
-      Acetyl-L-Carnitine (ALCAR) 1000 mg; this entry records L-Carnitine
-      (as distinct from ALCAR) at 3g. Clarify with patient whether this
-      replaces or supplements the usual ALCAR dose, and whether this was
-      a one-time dose or a new regimen.
-
   - name: "Iron"
     category: "supplement"
     dose: null
@@ -119,4 +100,4 @@ intake:
     dose: null
     taken: true
     time: null
-    notes: "Day 2 of Bactecal probiotic supplement. Ongoing from 2026-03-03."
+    notes: "Day 3 of Bactecal probiotic supplement. Ongoing from 2026-03-03."
