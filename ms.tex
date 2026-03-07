@@ -181,6 +181,42 @@
   }
 }
 
+% Model-unique insight environment (for conclusions that emerge only from formal modeling)
+\definecolor{modelunique_indigo_frame}{HTML}{3949AB}
+\definecolor{modelunique_indigo_bg}{HTML}{E8EAF6}
+\colorlet{modeluniqueframe}{modelunique_indigo_frame}
+\colorlet{modeluniquebg}{modelunique_indigo_bg}
+
+\newcounter{modeluniquecounter}[chapter]
+\renewcommand{\themodeluniquecounter}{\thechapter.\arabic{modeluniquecounter}}
+\newcommand{\modeluniqueicon}{\ensuremath{\diamond}}
+
+\newtcolorbox[use counter=modeluniquecounter]{modelunique}[1][]{%
+  enhanced,
+  breakable,
+  break at=-\baselineskip,
+  colback=modeluniquebg,
+  colframe=modeluniqueframe,
+  boxrule=1pt,
+  arc=2pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt,
+  fonttitle=\bfseries\sffamily,
+  adjusted title={\modeluniqueicon~Model Insight~\themodeluniquecounter\ifstrempty{#1}{}{: #1}},
+  before upper={\parindent=1.5em},
+  coltitle=black,
+  attach boxed title to top left={yshift=-2mm, xshift=4mm},
+  minipage boxed title*=-14mm,
+  boxed title style={
+    colback=modeluniquebg,
+    colframe=modeluniqueframe,
+    boxrule=0.5pt,
+    arc=1pt,
+  }
+}
+
 % Feature-specific modules (each includes its own \usepackage statements)
 \input{\preamble/bibliography.tex}   % Citation support
 \addbibresource{references.bib}       % Project bibliography
@@ -322,6 +358,7 @@
 \include{contents/shared/license}
 \include{contents/shared/author-bio}
 \include{contents/shared/ai-disclosure}
+\include{contents/shared/methodology}
 \include{contents/shared/reading-guide}
 \include{contents/shared/patient-faq}
 \include{contents/shared/changelog}
@@ -415,10 +452,8 @@
 
 % =============================================================================
 % APPENDICES
-% Reference materials, patient case data, research synthesis
-% A-H: General reference (terminology, tools, resources)
-% I-*: Personal case data (symptoms, medical history, clinical findings, analysis)
-% J: Daily journal/tracking (see case-documenter agent for updates)
+% Reference materials and research synthesis
+% A-I: General reference (terminology, tools, resources, research registry)
 % =============================================================================
 \appendix
 
@@ -431,17 +466,7 @@
 \include{contents/appendices/appendix-f-supplement-guide} % Supplement protocols, dosages
 \include{contents/appendices/appendix-g-research-synthesis} % Literature review, evidence summary
 \include{contents/appendices/appendix-h-annotated-bibliography} % Key references with summaries
-
-% Personal case data — excluded from main publication (kept in patients/yannick/ for private use)
-% \include{patients/yannick/00-index}
-% \include{patients/yannick/medical-management}
-% \include{patients/yannick/case-data/clinical-findings}
-% \include{patients/yannick/case-data/personal-symptoms}
-% \include{patients/yannick/03-symptom-profile}
-% \include{patients/yannick/case-data/case-analysis}
-% \include{patients/yannick/case-data/recommendations}
-% \include{patients/yannick/case-data/daily-journal}
-% \include{patients/yannick/07-research-hypotheses}
+\include{contents/appendices/appendix-i-research-registry} % Ongoing/planned ME/CFS studies
 
 % Bibliography
 \printbibliography[heading=bibintoc]
