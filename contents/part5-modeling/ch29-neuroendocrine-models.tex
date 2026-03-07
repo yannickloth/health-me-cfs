@@ -265,3 +265,140 @@ where $\mathcal{F}$ is small fiber density (normalizing between 0 and 1), $k_{\t
 \begin{open_question}[Reversibility of Central Sensitization in ME/CFS]
 Is central sensitization in ME/CFS reversible if the driving inputs (inflammation, nociception) are removed, or does prolonged sensitization produce structural changes (synaptic remodeling, glial priming) that persist independently? The model parameterizes this as the ratio $k_{\text{resolve}} / k_{\text{wind}}$: if resolution is fast relative to wind-up, sensitization reverses when inputs diminish; if resolution is slow (due to structural changes), sensitization persists as a ``pain memory.'' This distinction has direct treatment implications: reversible sensitization responds to anti-inflammatory and analgesic therapy, while structurally maintained sensitization may require neuromodulatory interventions (NMDAR antagonists, transcranial stimulation) targeting the dorsal horn directly.
 \end{open_question}
+
+\section{Model Application Guide}
+\label{sec:neuro-model-application}
+
+\subsection{HPA Axis (Equations~\ref{eq:hpa-axis} and Section~\ref{sec:hpa-dysfunction-model})}
+
+\paragraph{Measurements required.}
+(1)~Salivary cortisol at waking, +30\,min (cortisol awakening response, CAR), noon, and bedtime (why: four time points constrain circadian amplitude $a_c$, phase $\phi_c$, and mean cortisol level).
+(2)~ACTH stimulation test (why: distinguishes central from adrenal dysfunction---the model predicts enhanced central feedback, not adrenal failure).
+(3)~Dexamethasone suppression test (why: constrains the feedback sensitivity parameter $n_F$---enhanced suppression = higher $n_F$).
+
+\paragraph{Worked example.}
+Healthy HPA: $a_c = 0.6$ (60\% circadian modulation), $n_F = 2.5$. The cortisol awakening response (CAR) is $F_{\text{peak}} / F_{\text{waking}} \approx 1 + 0.6 = 1.6$ (60\% rise). In ME/CFS with $a_c = 0.3$ and $n_F = 4.0$ (steeper feedback): CAR $\approx 1.3$ (30\% rise---blunted). Basal cortisol is reduced because the steeper feedback suppresses CRH at lower cortisol concentrations: healthy trough $F \approx 2$\,nmol/L, ME/CFS trough $F \approx 1.2$\,nmol/L. The ACTH response to CRH stimulation is preserved (the pituitary and adrenal are intact), but the hypothalamic drive is suppressed. This pattern matches Cleare's findings~\cite{Cleare1999}: low-normal cortisol with preserved adrenal reserve.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: stress signals ($\sigma_{\text{stress}}$) from external events and from pain model (Section~\ref{sec:central-sensitization-model}); pro-inflammatory cytokines modulate CRH release. \emph{Outputs}: cortisol $F$ inhibits pro-inflammatory cytokine production (Chapter~\ref{ch:integrated-systems}, Equation~\ref{eq:cortisol-immune}), modulates viral reactivation rate (Chapter~\ref{ch:immune-system-models}), and influences circadian sleep drive.
+
+\paragraph{Scope and rationale.}
+The three-variable model (CRH, ACTH, cortisol) omits ultradian pulsatility ($\sim$90-minute pulses), mineralocorticoid vs.\ glucocorticoid receptor dynamics, and cortisol-binding globulin. These are acceptable omissions for capturing the ME/CFS HPA phenotype (blunted diurnal rhythm, enhanced feedback) at clinically relevant timescales (hours to days). Sub-hourly dynamics would require a pulsatile model with $>$10 additional parameters.
+
+\paragraph{Falsification criteria.}
+The model predicts that ME/CFS HPA dysfunction is \emph{central} (enhanced hypothalamic feedback) rather than \emph{adrenal} (reduced cortisol synthesis). \textbf{Falsified if}: ACTH stimulation tests in ME/CFS cohorts show impaired adrenal cortisol production (reduced cortisol response to exogenous ACTH), indicating primary adrenal insufficiency rather than central dysregulation.
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: patients with documented blunted CAR ($< 30\%$ rise) and/or low 24-hour urinary free cortisol. \textbf{How}: the model predicts that low-dose hydrocortisone replacement (5--10\,mg/day, physiological, not pharmacological) should partially restore the anti-inflammatory brake on the immune system. The model also predicts that stress management interventions reduce $\sigma_{\text{stress}}(t)$, freeing cortisol capacity for immune regulation rather than stress response. The enhanced feedback sensitivity ($n_F$ elevated) means that standard-dose glucocorticoids will produce exaggerated suppression---\emph{lower doses are predicted to be both safer and more effective in ME/CFS than in primary adrenal insufficiency}.
+
+\subsection{Autonomic Balance and Orthostatic Intolerance (Equations~\ref{eq:ans-balance}--\ref{eq:baroreflex})}
+
+\paragraph{Measurements required.}
+(1)~Heart rate variability (HRV): time-domain (SDNN, RMSSD) and frequency-domain (LF/HF ratio) from 24-hour Holter or 5-minute resting ECG (why: constrains sympathetic/parasympathetic balance $S/V$).
+(2)~Active standing test or tilt-table test: HR and MAP at 1, 3, 5, 10 minutes (why: constrains baroreflex gains $G_S$, $G_V$ and response time constants $\tau_{\text{MAP}}$, $\tau_{\text{HR}}$).
+(3)~Blood volume estimation: dye dilution or impedance cardiography (why: determines whether orthostatic intolerance is hypovolemic).
+
+\paragraph{Worked example.}
+POTS assessment: patient has resting HR = 72, standing HR at 10\,min = 108 ($\Delta$HR = 36, meeting POTS criterion of $\geq$30). Standing MAP is maintained at 82\,mmHg (vs.\ 85 supine)---no orthostatic hypotension. Using the model with reduced blood volume ($\Delta P_{\text{grav}}$ increased by 30\%) and reduced $G_V$ (parasympathetic gain halved): the model predicts the observed pattern---adequate MAP maintenance via excessive sympathetic compensation, at the cost of tachycardia and elevated cardiac energy demand. The energy cost of standing: the sympathetic overdrive increases cardiac oxygen consumption by $\sim$15\%, directly reducing the activity energy budget.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: histamine from mast cell model (vasodilation), cortisol from HPA (stress response modulation), pain from sensitization model (sympathetic drive). \emph{Outputs}: heart rate and MAP to oxygen delivery equation (Chapter~\ref{ch:integrated-systems}); vagal tone to gut motility (Chapter~\ref{ch:integrated-systems}); sympathetic tone to energy demand.
+
+\paragraph{Scope and rationale.}
+The two-variable ANS model ($S$, $V$) with baroreflex feedback captures the core hemodynamic physiology. It omits thermoregulatory reflexes, respiratory sinus arrhythmia, and detailed baroreceptor afferent processing. These could be added for specific applications (e.g., heat intolerance modeling) but are unnecessary for the primary targets: orthostatic HR/MAP dynamics and POTS subtyping.
+
+\paragraph{Falsification criteria.}
+The model predicts three distinct POTS parameter regimes (neuropathic, hypovolemic, hyperadrenergic) with different treatment responses. \textbf{Falsified if}: POTS subtype classification by tilt-table hemodynamics does not predict differential treatment response (e.g., if patients classified as hypovolemic by the model respond equally well to parasympathomimetics as to volume expansion).
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: all ME/CFS patients with orthostatic symptoms (the majority). \textbf{How}: the model provides mechanistic subtyping. Hypovolemic POTS ($\Delta P_{\text{grav}}$ dominant): volume expansion (saline infusions, fludrocortisone, compression garments, increased salt/fluid intake). Neuropathic POTS ($G_V$ reduced): parasympathomimetics (pyridostigmine~\cite{Raj2005Pyridostigmine}). Hyperadrenergic POTS ($S$ elevated): sympatholytics (propranolol, clonidine). Mixed presentations: combination therapy targeting the dominant mechanism first.
+
+\subsection{Tryptophan--Kynurenine Axis (Equations~\ref{eq:tryptophan}--\ref{eq:ido-regulation})}
+
+\paragraph{Measurements required.}
+(1)~Plasma tryptophan, kynurenine, and kynurenine/tryptophan (K/T) ratio (why: K/T ratio is a direct readout of IDO activity).
+(2)~Serotonin (platelet-poor plasma or CSF) (why: validates the serotonin depletion prediction).
+(3)~IFN-$\gamma$ (why: the primary driver of IDO upregulation in the model).
+(4)~Quinolinic acid and kynurenic acid (why: neurotoxic vs.\ neuroprotective branches of the kynurenine pathway).
+
+\paragraph{Worked example.}
+Healthy: $v_{\text{IDO}} = v_{\text{IDO,basal}} = 0.5$\,$\mu$M/h, $v_{\text{TPH}} = 1.0$\,$\mu$M/h. With dietary tryptophan input $I_W = 2.0$\,$\mu$M/h: steady-state $W \approx 60$\,$\mu$M, serotonin production = $1.0 \times 60/(K_{\text{TPH}} + 60) \approx 0.86$\,$\mu$M/h. In ME/CFS with $[\text{IFN-}\gamma] = 20$\,pg/mL (vs.\ 5 healthy): $v_{\text{IDO}} = 0.5 + 2.0 \times 20^2/(15^2 + 20^2) = 0.5 + 1.28 = 1.78$\,$\mu$M/h. Now IDO outcompetes TPH: tryptophan drops to $\sim$35\,$\mu$M, serotonin production falls to 0.54\,$\mu$M/h (37\% reduction), and kynurenine production increases to 1.1\,$\mu$M/h (doubled). This quantifies the ``serotonin steal'' mechanism.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: IFN-$\gamma$ from immune model drives IDO. \emph{Outputs}: serotonin level affects mood, sleep (via sleep model), and pain modulation; kynurenine metabolites contribute to neurotoxicity and microglial activation.
+
+\paragraph{Scope and rationale.}
+The model tracks the branch point (IDO vs.\ TPH competition for tryptophan) but omits downstream kynurenine metabolism (quinolinic acid, kynurenic acid, picolinic acid). This branch-point focus captures the clinically relevant serotonin depletion mechanism. A full kynurenine pathway model would require tissue-specific enzyme data (brain vs.\ peripheral IDO) currently unavailable for ME/CFS.
+
+\paragraph{Falsification criteria.}
+The model predicts that the K/T ratio correlates with IFN-$\gamma$ levels and that serotonin depletion is proportional to IDO upregulation. \textbf{Falsified if}: ME/CFS patients show serotonin depletion \emph{without} elevated K/T ratio (indicating a serotonin synthesis or degradation defect unrelated to IDO), or if anti-inflammatory treatment that reduces IFN-$\gamma$ does not normalize K/T ratio.
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: patients with elevated K/T ratio (measurable by standard metabolomics). \textbf{How}: the model predicts that SSRIs will have \emph{reduced efficacy} in these patients because the synthesis bottleneck (not reuptake) limits serotonin availability. More effective approaches: (1)~reduce IFN-$\gamma$ (anti-inflammatory therapy, LDN) to de-repress TPH; (2)~tryptophan supplementation (but the IDO trap hypothesis predicts this may paradoxically increase kynurenine production if IDO is in the high-activity state); (3)~BH$_4$ supplementation (addresses TPH cofactor limitation, Section~\ref{sec:bh4-competition}). The model provides a specific \emph{negative} prediction: SSRIs should fail preferentially in patients with high K/T ratios---a testable pharmacogenomic hypothesis.
+
+\subsection{BH$_4$ Competition (Equation~\ref{eq:bh4-dynamics})}
+
+\paragraph{Measurements required.}
+(1)~Serum BH$_4$ and BH$_2$ (why: the BH$_4$:BH$_2$ ratio indicates net oxidative stress on the cofactor pool).
+(2)~Serum neopterin (why: marker of GTP cyclohydrolase activity, the rate-limiting BH$_4$ synthesis enzyme, upregulated by IFN-$\gamma$).
+(3)~Concurrent serotonin, dopamine metabolites (HVA), and NO metabolites (nitrate/nitrite) (why: validates the three-way competition---all three should be reduced when BH$_4$ is limiting).
+(4)~IFN-$\gamma$ (why: driver of iNOS-mediated BH$_4$ consumption).
+
+\paragraph{Worked example.}
+Healthy: BH$_4$ pool = 10\,nmol/L, consumed by TPH (2), TH (2), eNOS (1), iNOS (0.5) = 5.5 total, with synthesis rate matching consumption. In ME/CFS with IFN-$\gamma$-driven iNOS upregulation: iNOS consumption increases to 3.5\,nmol/L/h. Total demand = 8.5 vs.\ supply of 5.5 (assuming compensatory GTPCH upregulation adds 1.5). Deficit = 1.5\,nmol/L/h. The three hydroxylases compete: TPH drops from 2 to 1.3 (35\% serotonin reduction), TH drops from 2 to 1.3 (35\% dopamine/NE reduction), eNOS drops from 1 to 0.6 (40\% NO reduction, with uncoupling producing superoxide instead). All three systems fail simultaneously from a single cofactor shortage.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: IFN-$\gamma$ drives iNOS BH$_4$ consumption; oxidative stress converts BH$_4$ to BH$_2$. \emph{Outputs}: serotonin and catecholamine levels to neurotransmitter models; NO to endothelial function (eNOS model, Section~\ref{sec:coagulation-model}), cerebrovascular regulation (Section~\ref{sec:cbf-autoregulation}), and coagulation balance.
+
+\paragraph{Scope and rationale.}
+The model tracks aggregate BH$_4$/BH$_2$ rather than tissue-specific pools. This is a significant simplification---brain, endothelial, and immune BH$_4$ pools may be independently regulated. The aggregate model captures the key insight (three-way competition from a shared cofactor) but cannot predict tissue-specific depletion patterns.
+
+\paragraph{Falsification criteria.}
+The model predicts that serotonin, catecholamine, and NO deficits correlate with each other and with inflammatory burden (IFN-$\gamma$). \textbf{Falsified if}: these deficits occur independently (e.g., serotonin depletion without catecholamine depletion in the same patient), indicating that the shared BH$_4$ bottleneck is not the dominant mechanism.
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: patients with low BH$_4$:BH$_2$ ratio and concurrent serotonin/catecholamine/NO deficits (the ``multi-domain neurovascular signature''). \textbf{How}: (1)~Sapropterin (exogenous BH$_4$) predicted to simultaneously improve mood, cognition, autonomic function, and vascular health; (2)~anti-inflammatory therapy that reduces iNOS releases BH$_4$ for TPH/TH/eNOS without exogenous supplementation; (3)~the model predicts that folinic acid (supports BH$_2$ $\to$ BH$_4$ recycling via DHFR) is a lower-cost alternative to sapropterin for mild BH$_4$ depletion. \textbf{Key negative prediction}: direct neurotransmitter replacement (SSRIs, methylphenidate) addresses symptoms but not the upstream bottleneck, predicting incomplete or diminishing response over time.
+
+\subsection{Sleep--Wake Cycle (Equations~\ref{eq:sleep-wake})}
+
+\paragraph{Measurements required.}
+(1)~Polysomnography with sleep architecture analysis (why: slow-wave sleep percentage constrains $r_{\text{decay}}$; sleep latency constrains $\theta_{\text{on}}$).
+(2)~Actigraphy over 7--14 days (why: captures circadian rhythm regularity and sleep timing variability).
+(3)~Melatonin onset time (dim-light melatonin onset, DLMO) (why: constrains circadian phase $\phi_s$ and amplitude $C_1$).
+
+\paragraph{Worked example.}
+Healthy: $r_{\text{build}} = 0.05$/h, $r_{\text{decay}} = 0.10$/h, $C_1 = 0.4$. After 16\,h waking: $S = S_{\min} + (S_{\max} - S_{\min})(1 - e^{-0.05 \times 16}) = 0.55$. After 8\,h sleep: $S$ decays to $0.55 \times e^{-0.10 \times 8} = 0.25$ (below the circadian threshold, triggering waking). In ME/CFS with $r_{\text{build}} = 0.08$/h (faster pressure build due to energy deficit), $r_{\text{decay}} = 0.06$/h (impaired clearance), $C_1 = 0.2$ (blunted circadian signal): after 16\,h waking $S = 0.72$ (high sleep pressure, falls asleep easily); after 8\,h sleep $S = 0.72 \times e^{-0.06 \times 8} = 0.44$ (residual sleep pressure, wakes unrefreshed). The patient experiences excessive daytime sleepiness ($S = 0.44$ vs.\ 0.25 healthy upon waking) despite adequate sleep duration.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: ATP consumption rate affects adenosine accumulation (sleep pressure build rate); HPA circadian amplitude affects $C_1$; pain from sensitization model disrupts sleep onset. \emph{Outputs}: sleep quality modulates glymphatic clearance, cortisol rhythm, and next-day energy budget.
+
+\paragraph{Scope and rationale.}
+The Borb\'{e}ly two-process model is the standard quantitative framework for sleep regulation. It omits REM/NREM cycling, specific neurotransmitter dynamics (orexin, GABA), and sleep microarchitecture. These omissions are acceptable for predicting the ME/CFS sleep phenotype (unrefreshing sleep, excessive daytime sleepiness) but insufficient for modeling specific sleep disorders (narcolepsy, sleep apnea).
+
+\paragraph{Falsification criteria.}
+The model predicts that unrefreshing sleep in ME/CFS is driven by reduced $r_{\text{decay}}$ (impaired sleep pressure clearance) and elevated $r_{\text{build}}$ (faster accumulation). \textbf{Falsified if}: polysomnography shows normal slow-wave sleep quantity and quality in patients with severe unrefreshing sleep (would indicate that the subjective experience is driven by central perception rather than objective sleep physiology).
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: all ME/CFS patients with unrefreshing sleep (the vast majority). \textbf{How}: the model predicts that sleep hygiene (regular schedule to preserve circadian amplitude $C_1$) is a necessary but insufficient intervention. Improving mitochondrial function (reducing adenosine accumulation rate, i.e., $r_{\text{build}}$) is predicted to improve sleep quality \emph{without sleep-targeted medication}---a testable prediction. For patients with severely blunted $C_1$: melatonin at DLMO-appropriate timing, bright light therapy in the morning. The model predicts that sedative medications (benzodiazepines, Z-drugs) increase total sleep time but do not address $r_{\text{decay}}$, explaining why they rarely improve the ``unrefreshing'' quality.
+
+\subsection{Central Sensitization (Equations~\ref{eq:central-sensitization}--\ref{eq:sfn-dynamics})}
+
+\paragraph{Measurements required.}
+(1)~Quantitative sensory testing (QST): pressure pain threshold, temporal summation, conditioned pain modulation (why: temporal summation directly measures wind-up/$k_{\text{wind}}$; conditioned pain modulation measures descending inhibition/$k_{\text{resolve}}$).
+(2)~Skin biopsy with intraepidermal nerve fiber density (IENFD) count (why: directly measures $\mathcal{F}$, small fiber density).
+(3)~$\beta$-endorphin levels (why: constrains endogenous opioid modulation of $k_{\text{resolve}}$).
+
+\paragraph{Worked example.}
+A patient with moderate central sensitization ($\mathcal{S} = 0.6$ on a 0--1 scale) and mild small fiber neuropathy ($\mathcal{F}/\mathcal{F}_0 = 0.7$, 30\% fiber loss). Pain amplification factor: $(1 + \alpha_{\text{sens}} \times 0.6) = 1.9$ (using $\alpha_{\text{sens}} = 1.5$). Nociceptive input increased by fiber loss: $P_{\text{noci}} = P_0 \times (1 + 1.5 \times 0.3) = 1.45 P_0$. Combined pain score: $1.9 \times 1.45 = 2.76 \times$ the pain expected from the inflammatory input alone. The bidirectional feedback predicts that reducing $\mathcal{S}$ by 50\% (e.g., via LDN) reduces pain to $1.45 \times 1.45 = 2.10 \times$---a 24\% improvement---and secondarily improves sleep by 10--15\% and reduces sympathetic tone by 8--12\% through the pain$\to$ANS$\to$sleep pathway.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: pro-inflammatory cytokines and microglial activation (drive spinal glial activation $\mu_{1,\text{spinal}}$); ROS and autoantibodies (drive small fiber degeneration); endorphins (modulate resolution rate). \emph{Outputs}: pain feeds back to sympathetic tone (ANS model), sleep disruption (sleep model), and cognitive energy demand.
+
+\paragraph{Scope and rationale.}
+The model tracks an aggregate sensitization state $\mathcal{S}$ rather than specific dorsal horn circuits. This captures the clinically relevant wind-up/resolution dynamics and the feedback to other systems, but cannot predict specific pain distributions (e.g., headache vs.\ widespread pain) or distinguish between central and peripheral pain generators.
+
+\paragraph{Falsification criteria.}
+The model predicts that pain reduction (lowering $\mathcal{S}$) should improve autonomic function and sleep quality through the feedback pathway, independent of direct sleep or autonomic interventions. \textbf{Falsified if}: effective analgesic treatment in ME/CFS patients (confirmed by QST normalization) does not improve HRV or sleep efficiency---would indicate that the pain$\to$ANS$\to$sleep coupling is weaker than modeled.
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: patients with elevated temporal summation on QST (indicating high $k_{\text{wind}}$) or reduced IENFD ($\mathcal{F}/\mathcal{F}_0 < 0.8$). \textbf{How}: (1)~LDN operates through both immune modulation and endorphin upregulation---the model predicts analgesic onset (days) precedes anti-inflammatory onset (weeks); (2)~for structurally maintained sensitization (high $\mathcal{S}$ with low $k_{\text{resolve}}/k_{\text{wind}}$): neuromodulatory approaches (low-dose ketamine as NMDAR antagonist, transcranial stimulation); (3)~the model predicts that treating the upstream inflammatory drive (reducing $\mu_{1,\text{spinal}}$ and $P_{\text{noci}}$) is more effective than treating sensitization directly, because it addresses both the input and the feedback amplification simultaneously.

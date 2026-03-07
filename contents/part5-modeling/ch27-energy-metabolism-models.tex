@@ -286,3 +286,175 @@ ME/CFS persistence reflects a failure of mitochondrial quality control rather th
 
 \textbf{Certainty}: 0.40. The quality control framework is well-established in mitochondrial biology and neurodegenerative disease, but its specific application to ME/CFS awaits direct measurement of mitophagy and biogenesis rates in patient tissues.
 \end{hypothesis}
+
+\section{Model Application Guide}
+\label{sec:energy-model-application}
+
+This section provides, for each model in this chapter, the measurements required to parameterize and validate it, a worked example with representative parameter values, explicit inter-model dependencies, the rationale for model scope, falsification criteria, and clinical implications.
+
+\subsection{Glycolysis Kinetics (Equation~\ref{eq:pfk1})}
+
+\paragraph{Measurements required.}
+(1)~Fructose-6-phosphate concentration $[\text{F6P}]$: measured by targeted metabolomics on muscle biopsy or blood (why: primary substrate determining glycolytic flux).
+(2)~ATP and AMP concentrations: measured by $^{31}$P-MRS in~vivo or metabolomics (why: allosteric regulators of PFK-1 that determine how rapidly glycolysis responds to energy deficit).
+(3)~Lactate and pyruvate at graded exercise intensities: measured by blood sampling during CPET (why: the lactate/pyruvate ratio at a given workload validates the model's prediction of glycolytic flux).
+
+\paragraph{Worked example.}
+Consider a patient with moderate ME/CFS. At rest: $[\text{F6P}] = 0.15$\,mM, $[\text{ATP}] = 4.5$\,mM (vs.\ 5.0\,mM healthy), $[\text{AMP}] = 0.3$\,mM (vs.\ 0.1\,mM healthy). Using $V_{\max,\text{PFK-1}} = 1.2$\,mM/min, $n_H = 2.5$, $K_{0.5} = 0.12$\,mM, $K_i^{\text{ATP}} = 3.0$\,mM, $K_a^{\text{AMP}} = 0.15$\,mM:
+\[
+v_{\text{PFK-1}} = 1.2 \cdot \frac{0.15^{2.5}}{0.12^{2.5} + 0.15^{2.5}} \cdot \frac{3.0}{3.0 + 4.5} \cdot \frac{0.3}{0.15 + 0.3} \approx 0.29 \text{\,mM/min}
+\]
+For a healthy individual ($[\text{ATP}] = 5.0$, $[\text{AMP}] = 0.1$): $v \approx 0.18$\,mM/min. The ME/CFS patient has $\sim$60\% higher glycolytic flux at rest due to the lower ATP (releasing PFK-1 inhibition) and higher AMP (activating PFK-1)---consistent with the elevated resting lactate observed clinically.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: ATP and AMP concentrations from the integrated energy production model (Section~\ref{sec:integrated-energy}). \emph{Outputs}: pyruvate production rate, which feeds the Krebs cycle model (Section~\ref{sec:krebs-cycle-model}) and lactate kinetics (Section~\ref{sec:lactate-kinetics}).
+
+\paragraph{Scope and rationale.}
+Glycolysis involves ten enzymatic steps. The model lumps these into three regulated nodes (HK, PFK-1, PK) because PFK-1 is the committed regulatory step and the primary determinant of glycolytic flux under allosteric control. The remaining seven enzymes operate near equilibrium under physiological conditions and do not independently constrain flux. This simplification is standard in metabolic modeling~\cite{Naviaux2016metabolomics} and is appropriate when the question is ``how much glycolytic flux?'' rather than ``which intermediate accumulates?''
+
+\paragraph{Falsification criteria.}
+The model predicts that ME/CFS patients with lower $[\text{ATP}]/[\text{AMP}]$ ratios should have proportionally higher resting glycolytic flux (measurable as lactate production rate). \textbf{Falsified if}: (1)~patients with documented low ATP/AMP ratios show \emph{normal} glycolytic flux (would indicate PFK-1 regulation is not the dominant mechanism); or (2)~lactate production during submaximal exercise does not correlate with the model-predicted flux after adjusting for $[\text{ATP}]$, $[\text{AMP}]$, and $[\text{F6P}]$.
+
+\paragraph{Clinical implications.}
+Patients whose glycolytic flux is disproportionately elevated (measured lactate exceeds model prediction for their mitochondrial impairment level) may benefit from interventions that improve mitochondrial oxidative capacity (CoQ10, NAD$^+$ precursors) rather than glycolytic support. Conversely, patients with normal glycolytic flux despite low ATP suggest an alternative bottleneck (substrate supply, mitochondrial mass) rather than regulatory dysfunction.
+
+\subsection{Krebs Cycle (Equation~\ref{eq:krebs-flux})}
+
+\paragraph{Measurements required.}
+(1)~Plasma citrate and isocitrate concentrations: metabolomics (why: accumulation indicates reduced IDH flux, the model's primary ME/CFS-specific prediction).
+(2)~NAD$^+$/NADH ratio: measurable in blood cells by enzymatic assays (why: directly enters the flux equation).
+(3)~Acetyl-CoA and oxaloacetate: less accessible clinically but measurable in muscle biopsy (why: substrate availability).
+
+\paragraph{Worked example.}
+Healthy steady state: $J_{\text{Krebs}} = V_{\max,\text{CS}} \cdot 0.8 \cdot 0.9 \cdot 0.85 = 0.61 \cdot V_{\max,\text{CS}}$ (using typical saturation fractions for each substrate). In ME/CFS with $\gamma = 0.7$ (30\% NAD$^+$ depletion): the $[\text{NAD}^+]/([\text{NAD}^+] + [\text{NADH}])$ term drops from 0.85 to approximately 0.60, reducing Krebs flux to $0.61 \to 0.43 \cdot V_{\max,\text{CS}}$---a 30\% flux reduction from a 30\% NAD$^+$ depletion. This nonlinear proportionality (nearly 1:1 here) holds only when the other substrates are not rate-limiting; if acetyl-CoA is also reduced (e.g., from impaired fatty acid oxidation), the combined deficit is multiplicative.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: pyruvate from glycolysis (via acetyl-CoA), NAD$^+$/NADH from the ETC model. \emph{Outputs}: NADH production (drives ETC), CO$_2$ production, intermediate accumulation patterns.
+
+\paragraph{Scope and rationale.}
+The eight-step Krebs cycle is lumped to four reactions at the regulatory nodes (CS, IDH, $\alpha$-KGDH, SDH). This captures the rate-limiting steps documented in ME/CFS metabolomics (citrate and isocitrate accumulation~\cite{Germain2020metabolic}) while keeping the parameter count tractable.
+
+\paragraph{Falsification criteria.}
+The model predicts that Krebs cycle flux is reduced primarily by NAD$^+$ depletion and IDH/$\alpha$-KGDH impairment. \textbf{Falsified if}: metabolomic profiling reveals that Krebs cycle intermediate patterns in ME/CFS are inconsistent with reduced IDH/$\alpha$-KGDH flux (e.g., if citrate is \emph{depleted} rather than accumulated, suggesting citrate synthase is the bottleneck).
+
+\paragraph{Clinical implications.}
+Patients with high citrate/isocitrate ratios on metabolomics are predicted to respond to NAD$^+$ precursor supplementation (restoring the limiting cofactor). Patients with normal Krebs intermediates but low ATP suggest the bottleneck lies downstream (ETC) rather than in the cycle itself.
+
+\subsection{Electron Transport Chain (Equations~\ref{eq:complex-i}--\ref{eq:atp-synthase})}
+
+\paragraph{Measurements required.}
+(1)~Peak VO$_2$ from CPET: directly constrains $V_{\max,\text{CI}}$ and overall ETC capacity (why: VO$_2$ is the terminal electron acceptor flux).
+(2)~CoQ10 levels: serum ubiquinone/ubiquinol measurement (why: determines $[\text{UQ}]$ in the model).
+(3)~Two-day CPET decrement: the day-2 vs.\ day-1 VO$_2$ difference constrains the ROS-mediated damage rate (why: the decrement reflects acute ETC damage from exertion).
+(4)~$^{31}$P-MRS: provides in~vivo measurement of phosphocreatine recovery time, directly related to mitochondrial oxidative capacity.
+
+\paragraph{Worked example.}
+A patient has $\alpha_{\text{CI}} = 0.65$ (35\% Complex~I impairment). Using the ETC model with healthy $\Delta\Psi_{\max} = 180$\,mV and $\Delta\Psi_{\text{threshold}} = 110$\,mV: healthy steady-state $\Delta\Psi \approx 160$\,mV, giving ATP synthase a driving force of $(160 - 110)/160 = 31\%$ of maximum. With $\alpha_{\text{CI}} = 0.65$, reduced proton pumping lowers $\Delta\Psi$ to $\approx 135$\,mV, giving a driving force of $(135 - 110)/135 = 19\%$---a 39\% reduction in ATP synthase flux from a 35\% Complex~I impairment. This disproportionate effect is the ``cliff'' nonlinearity: near the threshold, small $\Delta\Psi$ drops cause large ATP synthesis drops.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: NADH from glycolysis and Krebs cycle, $[\text{UQ}]$ (modifiable by CoQ10 supplementation). \emph{Outputs}: ATP production rate (to ATP balance equation), ROS production (to oxidative stress model), $\Delta\Psi$ (determines mitophagy signaling via PINK1). The oxygen consumption rate $J_{\text{CIV}}$ is constrained by DO$_2$ from the cardiovascular model (Chapter~\ref{ch:integrated-systems}).
+
+\paragraph{Scope and rationale.}
+The ETC is modeled as four complexes plus ATP synthase, omitting complex subunit detail and supramolecular organization. This level captures the bioenergetically relevant behavior: proton pumping, membrane potential dynamics, and the threshold nonlinearity. Subunit-level modeling would require structural biology data not available for ME/CFS tissues.
+
+\paragraph{Falsification criteria.}
+The model predicts a nonlinear (convex) relationship between Complex~I impairment and ATP production loss, with a cliff near $\Delta\Psi_{\text{threshold}}$. \textbf{Falsified if}: $^{31}$P-MRS studies in ME/CFS patients reveal a \emph{linear} relationship between mitochondrial impairment indices and functional ATP production, or if the predicted cliff effect at $\alpha_{\text{CI}} \approx 0.6$ is not observed (patients with moderate impairment show proportional, not disproportionate, ATP loss).
+
+\paragraph{Clinical implications.}
+The cliff effect implies that patients near the threshold ($\alpha_{\text{CI}} \approx 0.6$--$0.7$) have the most to gain from even modest mitochondrial support: a small improvement in Complex~I activity produces a disproportionate ATP increase. Patients well above threshold ($\alpha_{\text{CI}} > 0.8$) will show minimal response to mitochondrial supplements (their $\Delta\Psi$ is already well above threshold), while those well below ($\alpha_{\text{CI}} < 0.5$) may not respond because the deficit is too large for supplements to bridge. \textbf{Treatment implication}: CoQ10/NAD$^+$ supplementation should be most effective in moderate, not mild or severe, metabolic impairment.
+
+\subsection{Reactive Oxygen Species (Equations~\ref{eq:ros-production}--\ref{eq:ros-balance})}
+
+\paragraph{Measurements required.}
+(1)~Oxidative stress biomarkers: F2-isoprostanes (lipid peroxidation), 8-OHdG (DNA oxidation), protein carbonyls (why: downstream indicators of cumulative ROS exposure).
+(2)~Antioxidant enzyme activity: SOD and GPx in erythrocytes or lymphocytes (why: $k_{\text{SOD}}$ and $k_{\text{GPx}}$ directly).
+(3)~Glutathione ratio (GSH/GSSG): reflects real-time redox state.
+
+\paragraph{Worked example.}
+With $\alpha_{\text{CI}} = 0.65$, ETC flux drops to 65\% of maximum, so the Complex~I ROS term becomes $k_{\text{ROS}} \cdot [\text{NADH}] \cdot (1 - 0.65) = 0.35 \cdot k_{\text{ROS}} \cdot [\text{NADH}]$ versus $k_{\text{ROS}} \cdot [\text{NADH}] \cdot (1 - 0.95) = 0.05$ in health. ROS production is $\sim$7-fold higher. If antioxidant capacity is unchanged, steady-state $[\text{ROS}]$ increases proportionally, explaining the elevated oxidative stress markers consistently found in ME/CFS.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: ETC flux ratios ($J_{\text{CI}}/J_{\text{CI,max}}$) from ETC model. \emph{Outputs}: ROS feeds into damage accumulation (Chapter~\ref{ch:temporal-evolution}), mitochondrial dynamics (fission--fusion balance), PEM cascade (Section~\ref{sec:pem-modeling}), and small fiber neuropathy (Chapter~\ref{ch:neuroendocrine-models}).
+
+\paragraph{Scope and rationale.}
+ROS biology involves dozens of reactive species and defense systems. The model uses a single aggregate $[\text{ROS}]$ with two scavenging enzymes (SOD, GPx). This is appropriate for capturing the qualitative dynamics (positive feedback between ETC impairment and ROS) but insufficient for distinguishing between specific oxidative damage pathways.
+
+\paragraph{Falsification criteria.}
+\textbf{Falsified if}: ME/CFS patients with documented Complex~I impairment show \emph{normal} oxidative stress biomarkers (would indicate that antioxidant compensation fully neutralizes the predicted ROS increase, requiring model revision to include adaptive antioxidant upregulation).
+
+\paragraph{Clinical implications.}
+Patients with high oxidative stress markers relative to their degree of mitochondrial impairment have inadequate antioxidant defense (low SOD/GPx) and may benefit from targeted antioxidant supplementation (glutathione precursors, selenium for GPx cofactor). Patients with proportionate markers are already compensating and would benefit more from reducing ROS production at source (improving ETC flux) than from antioxidant supplementation.
+
+\subsection{Post-Exertional Malaise and Energy Envelope (Equations~\ref{eq:demand-exertion}--\ref{eq:energy-envelope})}
+
+\paragraph{Measurements required.}
+(1)~Two-day CPET: peak VO$_2$, anaerobic threshold, day-2 decrement (why: directly constrains $J_{\text{production,max}}$ and the ROS-mediated damage magnitude).
+(2)~Resting metabolic rate by indirect calorimetry (why: constrains $E_{\text{basal}}$).
+(3)~Daily activity data from wearable accelerometry/HR monitor (why: estimates $J_{\text{demand}}(t)$ for energy envelope calculation).
+(4)~CRP, cytokine panel (why: estimates $E_{\text{repair}}$ through the immune energy demand).
+(5)~Patient-reported PEM onset timing and severity after standardized exertion (why: constrains $\tau_{\text{PEM}}$ and the damage threshold).
+
+\paragraph{Worked example.}
+A patient with peak VO$_2$ = 18\,mL/kg/min (healthy age-matched: 35) has $J_{\text{production,max}} \approx 51\%$ of normal. Resting metabolic rate = 1500\,kcal/day ($E_{\text{basal}}$). With elevated CRP suggesting $E_{\text{repair}} \approx 200$\,kcal/day (vs.\ $\sim$50 healthy). Available energy budget:
+\[
+E_{\text{budget}} = (0.51 \times 2400) - 1500 - 200 = 1224 - 1500 - 200 = -476 \text{\,kcal/day}
+\]
+A \emph{negative} budget means the patient cannot meet basic metabolic demands at this severity level, explaining why severe ME/CFS patients experience symptoms at rest. In practice, the body reduces $E_{\text{basal}}$ (hypometabolism) and $E_{\text{repair}}$ (deferred repair, accumulating damage) to achieve a precarious balance. For a moderate patient with peak VO$_2$ = 25\,mL/kg/min: $E_{\text{budget}} = (0.71 \times 2400) - 1500 - 100 = 104$\,kcal/day---approximately 1 hour of light activity.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: $J_{\text{production,max}}$ from ETC model, $E_{\text{repair}}$ from immune energy demand (Chapter~\ref{ch:immune-system-models}), damage variables from ROS model. \emph{Outputs}: PEM triggering threshold feeds temporal dynamics (Chapter~\ref{ch:temporal-evolution}), pacing optimization (Chapter~\ref{ch:predictive-applications}).
+
+\paragraph{Scope and rationale.}
+The PEM model addresses \emph{why} exertion causes delayed symptom worsening in ME/CFS but not in healthy individuals. It deliberately omits the neural and psychological components of exercise intolerance (central fatigue, kinesiophobia) to focus on the metabolic mechanism. These omissions are acknowledged in the ATP Threshold Hypothesis (certainty: 0.45).
+
+\paragraph{Falsification criteria.}
+The model predicts that PEM severity correlates with the product of exertion intensity and duration above the patient's anaerobic threshold, mediated by ATP depletion depth. \textbf{Falsified if}: (1)~PEM severity does not correlate with measured ATP depletion (by $^{31}$P-MRS) during and after exertion; (2)~interventions that demonstrably improve mitochondrial ATP capacity (confirmed by CPET improvement) do not reduce PEM susceptibility; or (3)~the 12--72\,h delay cannot be explained by the ROS/inflammatory cascade timescale (alternative mechanisms such as central sensitization dominate).
+
+\paragraph{Clinical implications.}
+The energy envelope calculation gives a \emph{patient-specific daily activity budget}. Clinicians can use CPET-derived peak VO$_2$ and resting metabolic rate to compute $E_{\text{budget}}$ and translate it to practical units (steps, minutes of activity at specified heart rate zones). Patients with negative budgets require strict rest; those with small positive budgets benefit from structured pacing within the budget. The model predicts that interventions increasing $J_{\text{production,max}}$ (mitochondrial support) or decreasing $E_{\text{repair}}$ (anti-inflammatory treatment) both widen the energy envelope, suggesting combination benefit.
+
+\subsection{Mitochondrial Quality Control (Equations~\ref{eq:mito-dynamics}--\ref{eq:biogenesis})}
+
+\paragraph{Measurements required.}
+(1)~Mitochondrial DNA copy number in PBMCs: qPCR (why: proxy for total mitochondrial mass $M_h + M_d$).
+(2)~Mitophagy flux: measurable via mitophagy reporter assays in lymphocytes or by PINK1/Parkin protein levels (why: constrains $J_{\text{mitophagy}}$).
+(3)~PGC-1$\alpha$ activity: gene expression or protein level in PBMCs (why: constrains $J_{\text{biogenesis}}$).
+(4)~Urinary 8-OHdG or mtDNA damage assay (why: proxy for $M_d/M_{\text{total}}$ ratio).
+
+\paragraph{Worked example.}
+A patient with $\gamma = 0.65$ (35\% NAD$^+$ depletion) and $[\text{ATP}] = 3.5$\,mM (vs.\ 5.0 healthy). Biogenesis rate: $J_{\text{biogenesis}} \propto f_{\text{AMPK}}(0.3/3.5) \cdot f_{\text{SIRT1}}(0.65) \approx 0.75 \cdot 0.55 = 0.41$ of healthy rate. Mitophagy rate: $J_{\text{mitophagy}} \propto f_{\text{PINK1}}(M_d) \cdot f_{\text{ATP}}(3.5) \approx 0.8 \cdot 0.60 = 0.48$ of healthy rate. If damage production requires mitophagy capacity $> 0.5$ of healthy to maintain equilibrium, this patient is below the quality control threshold: damaged mitochondria accumulate, progressively reducing $M_h/M_{\text{total}}$ and worsening energy deficit.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: $[\text{ATP}]$ from energy balance (determines mitophagy capacity), $[\text{NAD}^+]$ (determines biogenesis via SIRT1), $[\text{ROS}]$ (determines damage rate). \emph{Outputs}: effective $V_{\max}$ for all ETC complexes (proportional to $M_h/M_{\text{total}}$), bridging acute metabolic dynamics (hours) to disease progression (months).
+
+\paragraph{Scope and rationale.}
+The model tracks aggregate healthy and damaged mitochondrial mass, not individual organelles. This captures the quality control logic (biogenesis vs.\ mitophagy balance) while omitting spatial organization (perinuclear vs.\ peripheral mitochondria), which would require spatially explicit models beyond current ME/CFS data resolution.
+
+\paragraph{Falsification criteria.}
+The model predicts a threshold $[\text{ATP}]_{\text{crit,autophagy}}$ below which mitophagy collapses and damaged mitochondria accumulate. \textbf{Falsified if}: patients with severe ATP depletion show \emph{normal} mitophagy flux (e.g., normal PINK1/Parkin processing in lymphocytes), indicating that mitophagy is not ATP-limited in practice. Also falsified if NAD$^+$ supplementation improves biogenesis markers (mtDNA copy number, PGC-1$\alpha$) \emph{without} requiring prior ATP restoration (would indicate SIRT1, not ATP, is the sole bottleneck).
+
+\paragraph{Clinical implications.}
+The model predicts two patient subtypes within the metabolic-dominant phenotype: (1)~patients with preserved quality control ($M_h/M_{\text{total}} > 0.7$, adequate mitophagy) who respond to substrate support (CoQ10, NAD$^+$); and (2)~patients with quality control failure ($M_h/M_{\text{total}} < 0.5$, impaired mitophagy) who require interventions targeting mitophagy directly (urolithin~A, spermidine) \emph{before} substrate support can be effective. Measuring mitophagy markers distinguishes these groups and guides treatment sequencing.
+
+\subsection{Lactate Kinetics and Metabolic Flexibility (Equations~\ref{eq:lactate-dynamics}--\ref{eq:gpr81-feedback})}
+
+\paragraph{Measurements required.}
+(1)~Resting and exercise lactate: blood sampling at rest and during graded exercise (why: calibrates the lactate production/clearance balance).
+(2)~Respiratory exchange ratio (RER) at rest and during CPET (why: directly measures $\Phi$, the fuel selection ratio).
+(3)~Acylcarnitine profile: metabolomics (why: elevated acylcarnitines indicate impaired $\beta$-oxidation and carnitine sequestration).
+(4)~Free carnitine level (why: determines whether carnitine supplementation targets the actual bottleneck).
+
+\paragraph{Worked example.}
+A patient with $\alpha_{\text{CI}} = 0.60$ (below the bistability threshold of 0.65 identified by the GPR81 feedback model). Resting lactate = 2.8\,mM (vs.\ 1.0 healthy), RER = 0.92 (vs.\ 0.82 healthy, indicating shifted toward carbohydrate oxidation). The GPR81 feedback reduces FFA availability: $[\text{FFA}]_{\text{available}} = [\text{FFA}]_{\text{basal}} \cdot K_{\text{GPR81}}/(K_{\text{GPR81}} + 2.8) \approx 0.42 \cdot [\text{FFA}]_{\text{basal}}$ (using $K_{\text{GPR81}} \approx 2$\,mM). With $<50\%$ of normal FFA supply, fat oxidation is severely curtailed, forcing further glycolytic reliance and more lactate---the self-sustaining metabolic loop.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: pyruvate from glycolysis, NADH/NAD$^+$ from ETC, free carnitine from carnitine balance. \emph{Outputs}: lactate feeds back via GPR81 to FFA supply, affecting fuel selection. RER is a direct model output comparable to CPET data.
+
+\paragraph{Scope and rationale.}
+The model captures the Randle cycle (glucose--fatty acid competition) and carnitine shuttle but omits ketone body metabolism and amino acid oxidation. These are quantitatively minor during the submaximal activities relevant to ME/CFS patients and would add parameters without improving predictive power for the target observations (lactate, RER).
+
+\paragraph{Falsification criteria.}
+The model predicts a bistable metabolic state when $\alpha_{\text{CI}} < 0.65$ (loop gain $> 1$). \textbf{Falsified if}: patients with $\alpha_{\text{CI}} < 0.65$ do not show the predicted metabolic lock (persistently elevated lactate and RER even at rest), or if experimental GPR81 blockade does not restore metabolic flexibility in a patient with the predicted bistable profile.
+
+\paragraph{Clinical implications.}
+The model distinguishes two metabolic phenotypes requiring different interventions: (1)~patients above the bistability threshold ($\alpha_{\text{CI}} > 0.65$): metabolic inflexibility is reversible with mitochondrial support alone; (2)~patients below threshold ($\alpha_{\text{CI}} < 0.65$): the GPR81 feedback loop is self-sustaining and requires either breaking the loop (GPR81 antagonism, if available) or simultaneously improving ETC capacity \emph{and} providing alternative fat delivery (medium-chain triglycerides, which bypass CPT-I). The acylcarnitine profile distinguishes carnitine-responsive patients (elevated acylcarnitines with low free carnitine) from those needing NAD$^+$ repletion (elevated acylcarnitines with adequate free carnitine).

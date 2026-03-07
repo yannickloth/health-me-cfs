@@ -217,3 +217,72 @@ Before fitting a model to data, it is essential to verify that the model structu
 \begin{open_question}[Validation Standards for ME/CFS Models]
 What constitutes sufficient validation for a computational model of ME/CFS pathophysiology? Unlike pharmacokinetic models, which can be validated against drug concentration time courses, ME/CFS models predict emergent phenomena (fatigue, post-exertional malaise) that lack precise molecular definitions. Establishing consensus validation criteria---analogous to FDA guidance for physiologically-based pharmacokinetic models---is a prerequisite for clinical translation of ME/CFS models.
 \end{open_question}
+
+%% ================================================================
+\section{Model Coverage Justification}
+\label{sec:model-coverage}
+%% ================================================================
+
+Part~\ref{part:modeling} develops models spanning energy metabolism (Chapter~\ref{ch:energy-metabolism-models}), immune dynamics (Chapter~\ref{ch:immune-system-models}), neuroendocrine regulation (Chapter~\ref{ch:neuroendocrine-models}), integrated multi-system coupling (Chapter~\ref{ch:integrated-systems}), temporal evolution (Chapter~\ref{ch:temporal-evolution}), and predictive applications (Chapter~\ref{ch:predictive-applications}). This section justifies why these specific models were selected and acknowledges what remains unmodeled.
+
+\subsection{Coverage of Part~II Pathophysiology}
+
+The models were chosen to formalize the mechanisms discussed in Part~\ref{part:pathophysiology}. Table~\ref{tab:model-coverage} maps each pathophysiological domain from Part~II to its corresponding model(s) in Part~V.
+
+\begin{table}[htbp]
+\centering
+\caption{Mapping of pathophysiological domains (Part~II) to mathematical models (Part~V).}
+\label{tab:model-coverage}
+\small
+\begin{tabular}{p{4.5cm} p{5cm} p{4cm}}
+\toprule
+\textbf{Part~II Domain} & \textbf{Part~V Model(s)} & \textbf{Chapter} \\
+\midrule
+Energy metabolism (Ch.~\ref{ch:energy-metabolism}) & Glycolysis, Krebs, ETC, ROS, PEM, mitochondrial QC, lactate, carnitine & Ch.~\ref{ch:energy-metabolism-models} \\
+\addlinespace
+Immune dysfunction (Ch.~\ref{ch:immune-dysfunction}) & NK cell, cytokine network, T/B cell, viral reactivation, mast cell, coagulation & Ch.~\ref{ch:immune-system-models} \\
+\addlinespace
+Neurological dysfunction (Ch.~8) & Central sensitization, small fiber neuropathy, CBF autoregulation & Ch.~\ref{ch:neuroendocrine-models} \\
+\addlinespace
+Neuroendocrine (Ch.~9) & HPA axis, tryptophan--kynurenine, BH4, catecholamines & Ch.~\ref{ch:neuroendocrine-models} \\
+\addlinespace
+Cardiovascular (Ch.~\ref{ch:cardiovascular}) & Autonomic balance, OI/POTS, endothelial dysfunction & Chs.~\ref{ch:neuroendocrine-models},~\ref{ch:immune-system-models} \\
+\addlinespace
+Gut microbiome (Ch.~\ref{ch:gut-microbiome}) & GI motility, SIBO dynamics, gut--brain--immune axis & Ch.~\ref{ch:integrated-systems} \\
+\addlinespace
+Sleep dysfunction (Ch.~12) & Sleep--wake cycle, circadian model & Ch.~\ref{ch:neuroendocrine-models} \\
+\addlinespace
+Integrative models (Ch.~\ref{ch:integrative-models}) & 64-variable whole-body model, bistability, bifurcation & Ch.~\ref{ch:integrated-systems} \\
+\addlinespace
+Cross-disease (Ch.~14) & EDS coupling, mast cell triangle & Ch.~\ref{ch:integrated-systems} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Selection Rationale}
+
+Three criteria guided model selection:
+
+\begin{enumerate}
+    \item \textbf{Mechanistic specificity}: Only domains where the underlying biochemistry is sufficiently characterized to write rate equations were modeled. Domains with purely phenomenological descriptions (e.g., ``fatigue'' as a subjective experience) appear as output variables rather than as dynamical subsystems.
+    \item \textbf{Clinical relevance}: Models prioritize mechanisms that are either currently targetable by interventions or that generate measurable biomarkers. The energy metabolism models were developed in detail because mitochondrial function is both measurable (Seahorse assay, CPET) and targetable (CoQ10, D-ribose, pacing). Conversely, intracellular signaling cascades (NF-$\kappa$B, JAK-STAT) were omitted despite their mechanistic importance because they add model complexity without generating distinct clinical predictions at the whole-patient level.
+    \item \textbf{Inter-system coupling}: Models were selected to capture the bidirectional feedback loops that distinguish ME/CFS from single-organ diseases. Every model in Part~V participates in at least one cross-system coupling (catalogued in Chapter~\ref{ch:integrated-systems}), ensuring that the model set captures the emergent properties that verbal reasoning cannot derive.
+\end{enumerate}
+
+\subsection{What Is Not Modeled}
+
+\rev{5}
+Despite the breadth of Part~V, several domains discussed in Part~\ref{part:pathophysiology} lack formal mathematical treatment:
+\revend
+
+\begin{itemize}
+    \item \textbf{Detailed intracellular signaling}: NF-$\kappa$B, JAK-STAT, mTOR, AMPK pathways are mentioned in Part~II but are not modeled as separate ODE systems. Their net effects are absorbed into aggregate parameters (e.g., cytokine production rates, metabolic switching thresholds). Explicit signaling models would be needed for drug target identification at the molecular level.
+    \item \textbf{MicroRNA regulatory networks}: Chapter~7 discusses miRNA dysregulation in ME/CFS~\cite{Cheema2023mirna}, but miRNA--mRNA interaction networks are not formalized. These networks involve combinatorial regulation (one miRNA suppresses hundreds of targets) that requires Boolean or constraint-based modeling rather than ODE approaches.
+    \item \textbf{Tissue-specific heterogeneity}: All models treat each compartment (plasma, CNS, muscle) as homogeneous. Spatial heterogeneity within tissues---e.g., regional differences in brain perfusion, patchy muscle fiber dysfunction---is not captured. Partial differential equation (PDE) or agent-based models would be required.
+    \item \textbf{Psychological and social factors}: Deconditioning, mood disturbance, social isolation, and their bidirectional interactions with physiology are acknowledged in Parts~II--III but are not modeled. These factors are difficult to formalize with rate equations and are better addressed through behavioral models.
+    \item \textbf{Pharmacokinetics}: Drug absorption, distribution, metabolism, and elimination are not modeled. Treatment effects are represented as parameter modifications (e.g., CoQ10 increases $V_{\max}^{\text{ETC}}$) rather than through explicit PK/PD models. Integrating PK models would enable dosing optimization but requires drug-specific data beyond the scope of this work.
+\end{itemize}
+
+\rev{5}
+These omissions are deliberate trade-offs: each would add substantial model complexity while current data are insufficient to constrain the additional parameters. The model set in Part~V is designed to be the \emph{minimum} framework that captures the multi-system feedback architecture of ME/CFS while remaining parameterizable from existing data. Extensions to the omitted domains are identified as future work in the respective Model Application Guide sections of Chapters~\ref{ch:energy-metabolism-models}--\ref{ch:temporal-evolution}.
+\revend

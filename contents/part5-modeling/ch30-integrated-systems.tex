@@ -356,3 +356,89 @@ ME/CFS is not a single disease with a spectrum of severity but a collection of d
 
 \textbf{Certainty}: 0.40. Bistability of the energy--immune subsystem is well-supported by the feedback structure; multi-stability of the full 64-variable system requires numerical verification. The correspondence between mathematical attractors and clinical subtypes remains to be validated against multi-omics patient data.
 \end{hypothesis}
+
+\section{Model Application Guide}
+\label{sec:integrated-model-application}
+
+The integrated models in this chapter formalize couplings between subsystems. This section provides application guidance for the key coupling models and the whole-body system.
+
+\subsection{Energy--Immune Coupling and Bistability (Equations~\ref{eq:energy-immune-coupling}--\ref{eq:immune-energy-feedback})}
+
+\paragraph{Measurements required.}
+(1)~Concurrent metabolic and immune panels: CPET-derived peak VO$_2$ \emph{and} cytokine panel (IL-6, TNF-$\alpha$, IFN-$\gamma$, IL-10) from the same time point (why: the coupling model requires both axes simultaneously---isolated metabolic or immune data cannot constrain the bidirectional feedback).
+(2)~Immune cell activation markers: CD38$^+$/HLA-DR$^+$ T cells (why: activated T cell counts determine $J_{\text{immune}}$, the immune energy drain).
+(3)~Symptom worsening during intercurrent infection (documented prospectively) (why: validates the prediction that immune flares cause energy depletion and symptom amplification through the coupling).
+
+\paragraph{Worked example.}
+A patient with moderate ME/CFS: $[\text{ATP}]_{\text{ss}} = 4.0$\,mM, $N_a = 50$ cells/$\mu$L, $\boldsymbol{C}_{\text{pro}} = 25$\,pg/mL. Immune energy demand: $J_{\text{immune}} = e_a \times 50 + e_M \times 30 + e_T \times 40 \approx 0.15 \times J_{\text{production,max}}$ (15\% of maximal ATP production consumed by immune cells). During a viral reactivation flare: $N_a \to 120$, $\boldsymbol{C}_{\text{pro}} \to 60$\,pg/mL. Immune energy demand triples to $0.45 \times J_{\text{production,max}}$. With $J_{\text{production,max}}$ already at 60\% of healthy, the remaining energy budget for activity: $0.60 - 0.45 - 0.35_{\text{basal}} = -0.20$ (negative---the patient cannot meet basal metabolic needs during the flare, explaining the bed-bound ``crash'' state). The reverse coupling: at $[\text{ATP}] = 3.0$\,mM (during the crash), effective immune activation rate drops to $k_{\text{act}}^{\text{eff}} = k_{\text{act}} \times 3.0^2/(2.5^2 + 3.0^2) = 0.59 \times k_{\text{act}}$ (41\% impaired), slowing viral clearance and prolonging the flare.
+
+\paragraph{Inter-model dependencies.}
+This coupling is the central hub of the integrated model. \emph{Inputs from}: all immune models (Chapter~\ref{ch:immune-system-models}) and all energy models (Chapter~\ref{ch:energy-metabolism-models}). \emph{Outputs to}: determines the effective energy budget available for activity (Chapter~\ref{ch:predictive-applications}), infection response dynamics (Chapter~\ref{ch:temporal-evolution}), and the bistability/attractor structure (Section~\ref{sec:bifurcation-analysis}).
+
+\paragraph{Scope and rationale.}
+The coupling uses a single aggregate $J_{\text{immune}}$ rather than cell-type-specific energy costs. Per-cell energy consumption values ($e_r$, $e_a$, etc.) come from immunometabolism literature (activated lymphocytes consume $\sim$10$\times$ more glucose than resting). The Hill function (exponent 2) for ATP-dependent immune function is a parsimonious choice capturing cooperative ATP dependence without overfitting.
+
+\paragraph{Falsification criteria.}
+The bistability hypothesis predicts that the disease state is a stable attractor---sustained even after the triggering perturbation resolves. \textbf{Falsified if}: removing ME/CFS-specific parameter modifications (e.g., by a hypothetical intervention restoring $\alpha_{\text{CI}}$ to healthy values while maintaining disease-state immune activation) causes the system to \emph{spontaneously} return to health. Bistability requires that the disease state persist even with one subsystem normalized---the vicious cycle maintains itself through the remaining coupling. A single-intervention cure would disprove bistability. Also falsified if longitudinal state-space trajectories (requiring concurrent metabolic and immune measurements at $\geq$6 time points over 6 months) show a continuous gradient rather than discrete attractor clustering.
+
+\paragraph{Clinical implications.}
+The bistability model has a critical treatment implication: \textbf{brief interventions are predicted to fail}. Because the disease attractor is stable, a treatment that temporarily improves energy or suppresses inflammation will be followed by relapse once treatment stops---the system returns to the disease attractor. Effective treatment must either: (1)~be sustained long enough for the system to cross the separatrix (requiring simultaneous energy improvement \emph{and} immune suppression above a threshold intensity), or (2)~modify system parameters (not just state variables) to eliminate the disease attractor entirely. This explains the consistent ME/CFS clinical experience of relapse after promising short-term treatment responses.
+
+\subsection{Gut--Brain--Immune Axis and GI Motility/SIBO (Equations~\ref{eq:gut-immune}--\ref{eq:sibo-butyrate})}
+
+\paragraph{Measurements required.}
+(1)~Lactulose/mannitol breath test or SIBO-specific breath test (glucose or lactulose) (why: validates SIBO presence and $B_{\text{SI}}$ level).
+(2)~Fecal calprotectin (why: intestinal inflammation marker).
+(3)~Fecal short-chain fatty acid profile, especially butyrate (why: constrains $[\text{butyrate}]$).
+(4)~Gastric emptying scintigraphy (why: directly measures motility index $\mathcal{G}$).
+(5)~Plasma LPS or LPS-binding protein (why: validates gut permeability and LPS translocation).
+(6)~Serum zonulin (why: marker of tight junction integrity, inversely related to butyrate-mediated barrier protection).
+
+\paragraph{Worked example.}
+A patient with vagal tone $V = 40\%$ of healthy and moderate mast cell activation ($\text{MC}_d = 0.3$). Motility set point from Equation~\ref{eq:motility-setpoint}: $\mathcal{G}_{\text{set}} = (0.4^2 / (0.5^2 + 0.4^2)) \times (1.0 / (1.0 + 0.3)) = 0.39 \times 0.77 = 0.30$ (vs.\ 0.80 healthy). With $\mathcal{G} = 0.30$, SIBO carrying capacity from Equation~\ref{eq:sibo-carrying-capacity}: $K_B = K_{B,\text{min}} + (K_{B,\text{max}} - K_{B,\text{min}}) \times 0.70 = 1 + 99 \times 0.70 = 70.3 \times B_{\text{SI},0}$---the small intestine can sustain 70$\times$ normal bacterial load. MMC clearance: $\delta_{\text{MMC}} \times 0.30^2 = 0.09 \times \delta_{\text{MMC}}$ (91\% reduced). Combined: SIBO is virtually inevitable. Adding prucalopride ($\mathcal{G}_{\text{pro}} = 0.25$): effective $\mathcal{G} = 0.55$, reducing $K_B$ to 46$\times$ normal and increasing clearance to $0.30 \times \delta_{\text{MMC}}$---a 3-fold improvement that may be sufficient to prevent SIBO recurrence after antibiotic eradication.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: vagal tone from ANS model; mast cell state from immune model; bacterial load affects butyrate production. \emph{Outputs}: LPS translocation drives immune activation (cytokine network); malabsorption ($\eta$) reduces energy substrate availability; butyrate depletion increases gut permeability. Four cross-system feedback loops are formalized in Section~\ref{sec:gi-motility-model}.
+
+\paragraph{Scope and rationale.}
+The gut model tracks motility, SIBO load, and absorption efficiency but omits microbiome composition (hundreds of species), bile acid metabolism, and enteric nervous system detail. This captures the key ME/CFS-relevant dynamics (autonomic$\to$dysmotility$\to$SIBO$\to$immune activation$+$malabsorption) at a level parameterizable from clinical tests.
+
+\paragraph{Falsification criteria.}
+The model predicts that (1)~SIBO prevalence correlates with vagal impairment (measurable via HRV) and mast cell activation markers; (2)~prokinetic-maintained motility prevents SIBO recurrence after antibiotic eradication. \textbf{Falsified if}: SIBO recurrence rate is independent of motility index (i.e., patients with restored motility relapse at the same rate as those without), or if SIBO eradication does not reduce systemic inflammatory markers.
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: ME/CFS patients with GI symptoms, positive SIBO breath test, or low fecal butyrate. \textbf{How}: the model predicts a specific treatment sequence: (1)~eradicate SIBO with rifaximin; (2)~maintain motility with prokinetic (prucalopride or low-dose erythromycin) to prevent recurrence; (3)~treat underlying mast cell activation (stabilizers) and restore vagal tone (vagal nerve stimulation) for durable benefit. The model predicts that rifaximin alone without prokinetic maintenance has $>$70\% relapse rate within 6 months (because the motility deficit persists and $K_B$ remains elevated).
+
+\subsection{Bifurcation Analysis and Disease Subtypes (Section~\ref{sec:bifurcation-analysis})}
+
+\paragraph{Measurements required.}
+Subtype classification requires a \emph{multi-domain biomarker panel} measured concurrently:
+(1)~Metabolic axis: peak VO$_2$ from CPET, lactate at anaerobic threshold, acylcarnitine profile.
+(2)~Immune axis: cytokine panel (6-plex), NK cell function, T cell exhaustion markers (PD-1, Tim-3), autoantibody screen.
+(3)~Neuroendocrine axis: cortisol rhythm (4-point salivary), HRV, BH$_4$:BH$_2$ ratio.
+(4)~Cardiovascular axis: tilt-table or active standing test with transcranial Doppler (CBF during orthostatic challenge).
+The model predicts that no single biomarker distinguishes subtypes---the \emph{pattern} across domains determines attractor assignment.
+
+\paragraph{Worked example.}
+Patient A: peak VO$_2$ = 16\,mL/kg/min (severely reduced), lactate threshold at 40\,W (very low), near-normal cytokine panel, normal CAR. Model classification: \textbf{metabolic-dominant attractor}. Predicted best responders to: CoQ10, NAD$^+$ precursors, d-ribose. Patient B: peak VO$_2$ = 26\,mL/kg/min (mildly reduced), but IL-6 = 12\,pg/mL (3$\times$ normal), NK cytotoxicity at 15\% (vs.\ 40\% normal), PD-1$^+$ CD8$^+$ T cells = 45\% (vs.\ 15\%). Model classification: \textbf{immune-dominant attractor}. Predicted best responders to: LDN, daratumumab (if autoantibody-positive), rintatolimod.
+
+\paragraph{Falsification criteria.}
+The multi-attractor hypothesis predicts that patient clustering by multi-omics data should reveal discrete clusters (not a continuous spectrum) corresponding to the model-derived attractors. \textbf{Falsified if}: unsupervised clustering of comprehensive multi-domain biomarker data reveals a continuous distribution rather than distinct clusters, or if the clusters that emerge do not correspond to differential treatment responses.
+
+\paragraph{Clinical implications.}
+The subtype model provides a rational basis for treatment stratification. The key clinical prediction is \textbf{target inversion}: the top drug target in one subtype is irrelevant in another ($\alpha_{\text{CI}}$ has sensitivity $S_T = 0.35$ in metabolic-dominant but $S_T = 0.04$ in immune-dominant). This means that \emph{the same treatment should be prescribed or withheld depending on subtype classification}, not given to all ME/CFS patients. The model predicts that unselected clinical trials (mixing subtypes) will show small average effect sizes even for treatments highly effective in the target subtype---explaining the historical pattern of ME/CFS trial failures and providing a path forward through biomarker-stratified trial design.
+
+\subsection{Whole-Body 64-Variable Model (Section~\ref{sec:whole-body-model})}
+
+\paragraph{How to use the model.}
+The 64-variable model is not intended for bedside use. Its applications are:
+(1)~\emph{In silico hypothesis testing}: simulate ``what if'' scenarios (e.g., what happens if Complex~I activity is restored but immune activation persists?) to identify which interventions are necessary vs.\ sufficient.
+(2)~\emph{Sensitivity analysis}: identify which parameters most influence which symptoms across the heterogeneous patient population (Chapter~\ref{ch:predictive-applications}).
+(3)~\emph{Virtual clinical trial design}: generate virtual patient populations, simulate treatment responses, and optimize trial design before committing to expensive real trials.
+(4)~\emph{Prediction generation}: the model generates specific, falsifiable predictions (e.g., the multiplicative VO$_2$ impairment, the 4--6 driver node minimum for controllability, the intervention window duration) that can be tested independently of the full model.
+
+\paragraph{What the model captures and what it omits.}
+\emph{Captured}: energy metabolism (glycolysis, Krebs, ETC, ROS, mitochondrial dynamics, metabolic flexibility, lactate), immune function (NK, T, B cells, cytokines, mast cells, coagulation), neuroendocrine (HPA, ANS, neurotransmitters, BH$_4$, sleep, pain/sensitization, CBF autoregulation), gut (motility, SIBO, permeability), connective tissue (EDS/vascular compliance), and epigenetics (methylation, acetylation). \emph{Omitted}: microRNA networks, intracellular signaling cascades (NF-$\kappa$B, JAK-STAT, mTOR), detailed receptor pharmacology, tissue-specific heterogeneity (e.g., brain vs.\ muscle mitochondria), individual microbiome species, and reproductive hormone effects. These omissions reflect data availability: adding them would increase parameter count beyond what current ME/CFS datasets can constrain.
+
+\paragraph{Falsification criteria for the integrated model.}
+The integrated model's central prediction is \emph{emergent multi-system dysfunction from modest individual impairments} (the multiplicative interaction principle). \textbf{Falsified if}: comprehensive multi-system profiling reveals that ME/CFS patients have \emph{one} severely impaired system with others unaffected (additive, not multiplicative, pathology), or if correcting a single system (e.g., normalizing immune function alone) produces complete remission (would disprove the multi-system coupling requirement).

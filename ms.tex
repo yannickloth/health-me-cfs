@@ -224,6 +224,9 @@
 \input{\preamble/tables.tex}         % Table formatting
 
 % Additional packages needed for wide tables (landscape) in Chapter 14
+% Prevent floats from escaping their section (keeps tables/figures near their text)
+\usepackage[section]{placeins}
+
 \usepackage{pdflscape}
 \usepackage{tabularx}
 \input{\preamble/diagrams.tex}       % TikZ diagrams

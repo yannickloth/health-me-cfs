@@ -279,3 +279,144 @@ Microclot accumulation acts as a disease amplifier by reducing tissue oxygenatio
 
 \textbf{Certainty}: 0.30. Direct evidence for pathogenic microclots in ME/CFS (as distinct from post-COVID) remains limited. The role of coagulation abnormalities as cause versus consequence of the inflammatory state is unresolved.
 \end{speculation}
+
+\section{Model Application Guide}
+\label{sec:immune-model-application}
+
+This section provides measurements, worked examples, dependencies, scope justification, falsification criteria, and clinical implications for each immune model.
+
+\subsection{NK Cell Activity (Equations~\ref{eq:nk-dynamics}--\ref{eq:nk-activation})}
+
+\paragraph{Measurements required.}
+(1)~NK cell subpopulations by flow cytometry: CD56$^{\text{dim}}$CD16$^+$ (cytotoxic, maps to $N_a$), CD56$^{\text{bright}}$ (regulatory), and PD-1$^+$/Tim-3$^+$ NK cells (maps to $N_e$) (why: directly constrain the three-compartment model).
+(2)~NK cell cytotoxicity assay (51-Cr release or flow-based killing assay) (why: functional readout validating the $N_a/(N_a + N_e)$ ratio prediction).
+(3)~IL-12, IL-15, IL-10 plasma levels (why: input to the activation function $k_{\text{act}}(\boldsymbol{C})$).
+
+\paragraph{Worked example.}
+Healthy steady state: $N_r = 200$, $N_a = 80$, $N_e = 20$ cells/$\mu$L (ratio $N_e/N_a = 0.25$). In ME/CFS with $k_{\text{exh}}$ doubled and $k_{\text{recov}}$ halved: solving the steady-state equations yields $N_r = 190$, $N_a = 35$, $N_e = 75$ cells/$\mu$L ($N_e/N_a = 2.1$). Total NK count is modestly reduced (300 $\to$ 300), but functional capacity (proportional to $N_a$) drops by 56\%---consistent with the well-documented finding that ME/CFS NK cell \emph{counts} are near-normal while \emph{function} is severely impaired~\cite{Hardcastle2016}.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: cytokine milieu from cytokine network model (Section~\ref{sec:cytokine-model}); ATP availability from energy model (Chapter~\ref{ch:energy-metabolism-models}) modulates $k_{\text{recov}}$ via energy-immune feedback (Chapter~\ref{ch:integrated-systems}). \emph{Outputs}: $N_a$ determines viral clearance rate in the reactivation model (Section~\ref{sec:viral-reactivation-models}) and immune energy demand (Section~\ref{sec:chronic-activation-model}).
+
+\paragraph{Scope and rationale.}
+NK cells are modeled as three functional states (resting, activated, exhausted) rather than by surface marker subsets (CD56$^{\text{dim}}$, CD56$^{\text{bright}}$, adaptive NK). This functional classification captures the clinically relevant dynamics---cytotoxic capacity and exhaustion---without requiring single-cell phenotyping data that are unavailable for most ME/CFS cohorts.
+
+\paragraph{Falsification criteria.}
+The model predicts that the $N_e/N_a$ ratio correlates with disease severity and that reducing $k_{\text{exh}}$ (e.g., via checkpoint blockade) should restore cytotoxicity. \textbf{Falsified if}: (1)~flow cytometry in ME/CFS patients shows that reduced cytotoxicity is due to \emph{intrinsic} per-cell defects (each activated NK cell kills fewer targets) rather than population shifts (fewer activated cells); or (2)~IL-15 stimulation ex~vivo fails to increase the $N_a$ compartment (would indicate that the activation pathway, not the exhaustion pathway, is the primary defect).
+
+\paragraph{Clinical implications.}
+Patients with high $N_e/N_a$ ratios (measurable by flow cytometry) are candidates for interventions reducing exhaustion: IL-15 agonists (promote NK activation and survival), checkpoint inhibitors targeting NK exhaustion markers (experimental), or energy restoration (improving $k_{\text{recov}}$ indirectly by increasing ATP). Patients with normal $N_e/N_a$ but low total NK counts suggest a bone marrow production deficit requiring different investigation.
+
+\subsection{Cytokine Network (Equations~\ref{eq:cytokine-general}--\ref{eq:il6})}
+
+\paragraph{Measurements required.}
+(1)~Multiplex cytokine panel: IL-1$\beta$, IL-6, TNF-$\alpha$, IFN-$\gamma$, IL-10, TGF-$\beta$ at minimum (why: the six tracked cytokines).
+(2)~Disease duration (why: the model predicts distinct cytokine profiles for $\leq 3$ years vs.\ $> 3$ years).
+(3)~Symptom severity composite (why: validates the Montoya correlation between IL-6/TNF-$\alpha$ and severity~\cite{Montoya2017}).
+
+\paragraph{Worked example.}
+Early disease ($< 3$ years): elevated TNF-$\alpha$ (15\,pg/mL vs.\ 5 healthy) and IL-6 (8\,pg/mL vs.\ 2) with IL-10 beginning to rise (6\,pg/mL vs.\ 2). The IL-6 positive feedback loop (IL-6 $\to$ Th17 $\to$ more IL-6) operates with loop gain $> 1$, sustaining the high-inflammation attractor. At $> 3$ years: IL-10 reaches 12\,pg/mL, partially suppressing TNF-$\alpha$ to 8\,pg/mL, but the ``remodeled'' state has IL-6 still elevated (6\,pg/mL) because the Th17 compartment expansion is maintained by IL-6-driven differentiation. The model predicts this transition occurs when $[\text{IL-10}]$ exceeds the half-inhibition constant for TNF-$\alpha$ production ($K_i^{\text{IL-10}} \approx 8$\,pg/mL).
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: immune cell populations (NK, T cell, monocyte activation states). \emph{Outputs}: cytokine levels drive BBB permeability (Section~\ref{sec:bbb-model}), microglial activation (Section~\ref{sec:microglia-model}), IDO upregulation (Chapter~\ref{ch:neuroendocrine-models}), HPA axis modulation (Chapter~\ref{ch:integrated-systems}), and symptom generation (Chapter~\ref{ch:integrated-systems}).
+
+\paragraph{Scope and rationale.}
+Six cytokines are tracked from the $>$50 known to be relevant. These six were selected because they are: (a)~consistently altered in ME/CFS studies, (b)~measurable by standard clinical assays, and (c)~represent the core pro-inflammatory/anti-inflammatory balance. Omitted cytokines (IL-2, IL-4, IL-17A, GM-CSF) could be added as the model is extended but would require additional cell population equations to drive their production.
+
+\paragraph{Falsification criteria.}
+The model predicts a bifurcation from high-inflammation to remodeled attractor at $\sim$3 years, driven by IL-10 feedback. \textbf{Falsified if}: longitudinal cytokine tracking in ME/CFS patients shows no systematic transition with disease duration, or if the transition occurs at times inconsistent with IL-10 accumulation dynamics.
+
+\paragraph{Clinical implications.}
+Early-disease patients (high TNF-$\alpha$, low IL-10) are predicted to respond to anti-inflammatory interventions (LDN, anti-TNF) that break the positive feedback loop before the remodeled state consolidates. Late-disease patients (elevated IL-10, moderate TNF-$\alpha$) require interventions targeting the Th17 compartment or the IL-6 loop specifically, as broad anti-inflammatory therapy may further suppress the already-active IL-10 pathway without addressing the persistent IL-6/Th17 cycle.
+
+\subsection{Viral Reactivation (Equations~\ref{eq:viral-dynamics}--\ref{eq:reactivation-rate})}
+
+\paragraph{Measurements required.}
+(1)~EBV/HHV-6 viral load: quantitative PCR from plasma or PBMCs (why: directly measures $V$).
+(2)~EBV/HHV-6 IgG titers and early antigen (EA) antibodies (why: EA positivity indicates recent reactivation).
+(3)~NK cell and CD8$^+$ T cell counts with functional assays (why: $N_a$ and $T_e^{\text{CD8}}$ determine clearance rate).
+(4)~Cortisol levels (why: cortisol enters the reactivation rate via stress-mediated immune suppression).
+
+\paragraph{Worked example.}
+A patient with $N_a = 35$ cells/$\mu$L (vs.\ 80 healthy) and $T_e^{\text{CD8}} = 100$ (vs.\ 200). Using Equation~\ref{eq:reactivation-rate} with $\lambda_0 = 0.01$/day, $K_{\text{immune}} = 150$: healthy $\lambda_{\text{react}} = 0.01 \times 150/(150 + 280) = 0.0035$/day (expected reactivation every 286 days). ME/CFS: $\lambda_{\text{react}} = 0.01 \times 150/(150 + 135) = 0.0053$/day (every 189 days)---51\% more frequent reactivations. With elevated cortisol from stress ($\alpha_{\text{stress}} \cdot [\text{Cortisol}] = 0.3$), this rises to $0.0069$/day (every 145 days). The model predicts 2.5 reactivation episodes per year vs.\ 1.3 in health.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: NK cell and CTL counts from immune models, cortisol from HPA model. \emph{Outputs}: viral load $V$ stimulates immune activation (increasing $A(t)$ in T cell model, cytokine production), creating the positive feedback loop between immune dysfunction and viral persistence.
+
+\paragraph{Scope and rationale.}
+The model uses logistic viral growth with immune clearance, omitting viral strain-specific dynamics, tissue tropism, and latency reservoir size. This captures the population-level dynamics relevant to ME/CFS (reactivation frequency, immune burden) but cannot predict which virus reactivates or which tissues are affected.
+
+\paragraph{Falsification criteria.}
+\textbf{Falsified if}: (1)~reactivation frequency does not correlate with NK/CTL function as predicted; (2)~antiviral treatment that demonstrably suppresses viral load ($V \to 0$) does not reduce immune activation or improve symptoms (would indicate that viral reactivation is an \emph{epiphenomenon} rather than a disease driver).
+
+\paragraph{Clinical implications.}
+Patients with frequent documented reactivations (elevated EA antibodies, detectable viral DNA) and low NK/CTL counts are predicted to benefit from: (a)~antiviral prophylaxis (valacyclovir for EBV/HHV-6) to reduce reactivation burden; (b)~NK cell-boosting interventions to lower $\lambda_{\text{react}}$ endogenously. The model predicts that antiviral monotherapy provides temporary relief but reactivation resumes upon discontinuation unless immune function is concurrently restored.
+
+\subsection{B Cell/Autoantibody and Rituximab/Daratumumab Models (Equations~\ref{eq:bcell-dynamics}--\ref{eq:daratumumab})}
+
+\paragraph{Measurements required.}
+(1)~GPCR autoantibody panel: anti-$\beta_2$-adrenergic, anti-muscarinic receptor antibodies (why: identifies patients with autoantibody-driven disease).
+(2)~CD19$^+$ B cell count and CD38$^+$ plasma cell markers (why: constrains $B_a$ and $P$).
+(3)~Immunoglobulin levels (IgG, IgA, IgM) (why: total antibody production rate reflects plasma cell activity).
+
+\paragraph{Worked example.}
+Rituximab depletes $B_n$ and $B_a$ (CD20$^+$) within 2 weeks. Plasma cells ($P$, CD20$^-$) persist with half-life $d_P^{-1} \approx 6$ months. Autoantibody $[\text{Ab}]$ decays as $[\text{Ab}](t) = [\text{Ab}]_0 \cdot e^{-\delta_{\text{Ab}} t} + (\sigma_{\text{Ab}} P_0 / \delta_{\text{Ab}}) \cdot e^{-d_P t}$. With $\delta_{\text{Ab}}^{-1} \approx 3$ weeks (IgG half-life) and $d_P^{-1} = 6$ months: antibody levels drop 50\% only after $\sim$4 months (limited by plasma cell die-off, not antibody half-life). This matches the 3--6 month delay to clinical response in Fluge trials~\cite{Fluge2011rituximab}. Daratumumab (anti-CD38) depletes $P$ directly: response predicted within 2--6 weeks ($\tau_{\text{dara}} \sim 1$--2 weeks for plasma cell depletion $+$ 3 weeks for IgG clearance), consistent with Fluge 2025 pilot results~\cite{Fluge2025daratumumab}.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: T cell activation ($T_e$) drives B cell activation; autoantibodies act on autonomic receptors (coupling to ANS model in Chapter~\ref{ch:neuroendocrine-models}). \emph{Outputs}: $[\text{Ab}]$ contributes to small fiber neuropathy (Chapter~\ref{ch:neuroendocrine-models}) and autonomic dysfunction.
+
+\paragraph{Scope and rationale.}
+Autoantibodies are modeled as a single species. In reality, different autoantibody specificities target different receptors with distinct functional consequences. This simplification is acceptable for modeling the kinetics of B cell depletion therapy but insufficient for predicting which symptoms improve first (would require antigen-specific modeling, flagged as an open question).
+
+\paragraph{Falsification criteria.}
+The model makes a quantitative timing prediction: daratumumab response should appear $\sim$3$\times$ faster than rituximab response (2--6 weeks vs.\ 3--6 months). \textbf{Falsified if}: clinical trials show comparable response latencies for both agents (would indicate that plasma cell persistence is not the rate-limiting step for rituximab response delay).
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: patients with elevated GPCR autoantibodies (measurable by commercial assays). \textbf{How}: the model predicts daratumumab > rituximab for speed and directness of effect. For rituximab, the model predicts that clinical trials must last $\geq$9 months (6-month plasma cell clearance + 3-month clinical assessment) to capture the full response---explaining the RituxME trial design challenges. Patients without detectable autoantibodies are predicted to not respond to B cell depletion.
+
+\subsection{Mast Cell Activation (Equations~\ref{eq:mast-cell-dynamics}--\ref{eq:histamine-dynamics})}
+
+\paragraph{Measurements required.}
+(1)~Serum tryptase (baseline and during flares) (why: tryptase is released exclusively by mast cells and validates degranulation events).
+(2)~24-hour urine N-methylhistamine or prostaglandin D$_2$ metabolites (why: more sensitive than plasma histamine for chronic mast cell activation).
+(3)~Plasma DAO activity (why: constrains histamine clearance capacity $v_{\text{DAO}}$).
+(4)~Standing heart rate and MAP (why: validates the histamine$\to$vasodilation$\to$orthostatic coupling prediction).
+
+\paragraph{Worked example.}
+A patient with MCAS comorbidity: baseline $\text{MC}_p/\text{MC}_r = 0.4$ (vs.\ 0.1 healthy), indicating chronic priming. Upon trigger (e.g., standing, exercise), degranulation releases histamine. With $v_{\text{DAO}} = 50\%$ of healthy (low DAO genotype): histamine clearance is impaired, $[\text{His}]$ peaks at $\sim$2$\times$ normal, causing $\Delta\text{MAP}_{\text{His}} \approx -8$\,mmHg (from the autonomic coupling equation). Combined with existing orthostatic impairment (MAP drop of 15\,mmHg), total drop = 23\,mmHg, pushing below the symptomatic threshold of 20\,mmHg. Simultaneously, gut histamine increases intestinal permeability by factor $(1 + 0.3 \times 2.0) = 1.6$, amplifying LPS translocation.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: priming signals (IgE, complement, SCF from immune model), degranulation triggers (exercise from energy model, temperature, neuropeptides). \emph{Outputs}: histamine $\to$ orthostatic model (Chapter~\ref{ch:neuroendocrine-models}), TNF-$\alpha$/IL-6 $\to$ cytokine network, gut permeability $\to$ LPS translocation (Chapter~\ref{ch:integrated-systems}), energy demand $\to$ ATP balance.
+
+\paragraph{Scope and rationale.}
+The model tracks three mast cell states and two mediators (histamine, PGD$_2$), omitting the $>$200 other mast cell mediators. Histamine and PGD$_2$ are selected because they have the best-characterized downstream effects, are measurable clinically, and drive the primary symptom domains (vasodilation, pain, gut dysfunction).
+
+\paragraph{Falsification criteria.}
+The model predicts that patients with $\alpha_{\text{CI}} < 0.7$ are at higher risk of self-amplifying mast cell cascades (because energy deficit impairs histamine clearance). \textbf{Falsified if}: MCAS severity does not correlate with mitochondrial function, or if DAO supplementation in low-DAO patients does not reduce mast cell flare severity.
+
+\paragraph{Clinical implications.}
+The pharmacological predictions (Section~\ref{sec:immune-intervention-models}) are directly actionable: (1)~H1+H2 antihistamine combination predicted synergistic for orthostatic symptoms; (2)~mast cell stabilizers (cromolyn, ketotifen) predicted more broadly effective than antihistamines because they prevent all mediator release; (3)~DAO supplementation predicted most effective in patients with low endogenous DAO (measurable); (4)~the mast cell--energy coupling predicts that mitochondrial support should reduce MCAS flare severity as a secondary benefit.
+
+\subsection{Coagulation and Microclots (Equations~\ref{eq:coagulation-dynamics}--\ref{eq:enos-model})}
+
+\paragraph{Measurements required.}
+(1)~D-dimer (why: marker of fibrin turnover, elevated in microclot formation).
+(2)~Fluorescence amyloid microscopy of platelet-poor plasma (why: directly visualizes microclots, the Pretorius method).
+(3)~PAI-1 levels (why: constrains fibrinolytic capacity).
+(4)~ADMA and BH$_4$:BH$_2$ ratio (why: constrain eNOS function and NO availability).
+(5)~Transcutaneous VO$_2$ (why: validates the microclot$\to$oxygen delivery prediction at the tissue level).
+
+\paragraph{Worked example.}
+The multiplicative oxygen delivery effect: a patient with 80\% cardiac output (autonomic dysfunction), 85\% ETC capacity ($\alpha_{\text{CI}} = 0.85$), and 10\% capillary occlusion ($M_c/M_{c,\max} = 0.10$). Effective VO$_2$ = $0.80 \times 0.85 \times (1 - 0.10)^{1.5} \approx 0.80 \times 0.85 \times 0.85 = 0.58$ of healthy. A 42\% VO$_2$ reduction from three individually modest impairments. Without the microclots (replacing 0.85 with 1.0): VO$_2$ = 0.68. The microclots therefore account for an additional 10 percentage points of impairment---clinically significant but easy to miss on individual tests.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: pro-inflammatory cytokines drive tissue factor expression; endothelial dysfunction (from BH$_4$ depletion) reduces NO and promotes clotting; PAI-1 is elevated in inflammatory states. \emph{Outputs}: effective oxygen delivery $\text{DO}_2^{\text{eff}}$ constrains maximal ETC flux in the energy model. NO levels feed back to BBB permeability and autonomic regulation.
+
+\paragraph{Scope and rationale.}
+The model uses four aggregate coagulation variables rather than the full coagulation cascade ($>$30 factors). This captures the net balance between clot formation and dissolution relevant to chronic microclot pathology. The full cascade would be needed for acute coagulation events (DIC, stroke) but is unnecessary for the slow microclot accumulation hypothesized in ME/CFS.
+
+\paragraph{Falsification criteria.}
+The model predicts multiplicative VO$_2$ impairment from coagulation $\times$ cardiac $\times$ mitochondrial deficits. \textbf{Falsified if}: (1)~fibrinolytic therapy (nattokinase/lumbrokinase) that demonstrably reduces microclot burden does not improve tissue oxygenation or exercise capacity; or (2)~patients with elevated microclot burden show additive rather than multiplicative VO$_2$ impairment (i.e., total deficit equals the sum, not the product, of individual deficits).
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: patients with elevated D-dimer, visible microclots on amyloid microscopy, or elevated PAI-1. \textbf{How}: the model predicts that fibrinolytic agents (nattokinase, lumbrokinase) address the microclot burden while anti-inflammatory treatment addresses the upstream driver. The model further predicts that BH$_4$ depletion impairs eNOS, reducing NO and promoting coagulation---so BH$_4$ supplementation (sapropterin) or anti-inflammatory therapy (reducing iNOS-mediated BH$_4$ consumption) should have anticoagulant effects as a secondary benefit. Isolated anticoagulation without addressing inflammation is predicted to require indefinite treatment, as microclots re-accumulate when therapy stops.
