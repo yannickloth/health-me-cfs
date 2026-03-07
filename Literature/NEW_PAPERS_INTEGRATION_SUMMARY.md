@@ -143,7 +143,7 @@
 ### 7. Two-Day CPET Meta-Analysis (Lim 2020)
 
 **Citation:** Lim et al., J Clin Med 2020
-**BibTeX Key:** `lim2020cpet`
+**BibTeX Key:** `Lim2020`
 **Location:** `Literature/2day-CPET/Lim_2020_MetaAnalysis/summary.md`
 
 **Summary:** Meta-analysis of 5 studies (n=149 total). Workload at ventilatory threshold most sensitive metric: ME/CFS −14.6W vs. controls +6.5W (p<0.05). Validates 2-day CPET for objective PEM measurement.
@@ -207,7 +207,7 @@ All 7 papers added to `references.bib`:
 - `oneal2021enterovirus`
 - `nunes2024herpesvirus`
 - `guo2023ido2`
-- `lim2020cpet`
+- `Lim2020`
 
 **Validation Status:** ✓ Passed biber validation (minor warnings only)
 

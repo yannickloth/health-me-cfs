@@ -167,7 +167,7 @@ All papers have been:
 **Files:**
 - `Literature/2day-CPET/Lim_2020_MetaAnalysis/summary.md`
 
-**Citation Key:** `lim2020cpet`
+**Citation Key:** `Lim2020`
 
 **Where to cite:**
 - Chapter: Post-Exertional Malaise (objective measurement)
@@ -190,7 +190,7 @@ All 7 papers added to `references.bib`:
 @article{oneal2021enterovirus, ...}
 @article{nunes2024herpesvirus, ...}
 @article{guo2023ido2, ...}
-@article{lim2020cpet, ...}
+@article{Lim2020, ...}
 ```
 
 **Validation:** Passed biber --tool --validate-datamodel (minor warnings only, no errors)
