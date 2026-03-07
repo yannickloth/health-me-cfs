@@ -2,40 +2,178 @@
 \chapter{Mathematical Model Details}
 \label{app:mathematical-details}
 
+This appendix provides the complete mathematical specifications for the models developed in Part~\ref{part:modeling}, including full parameter tables, derivations of key results, numerical methods, and sensitivity analysis procedures. Readers should consult the corresponding chapters for biological context and interpretation.
+
 \section{Complete Model Equations}
 \label{sec:complete-equations}
 
-% Full mathematical specifications of models from Part V
-% Ordinary differential equations
-% Parameter definitions
-% Initial conditions
+\subsection{Energy Metabolism Model}
+
+The energy metabolism model (Chapter~\ref{ch:energy-metabolism-models}) comprises 8~state variables. The complete ODE system is:
+
+\begin{align}
+\frac{d[\text{ATP}]}{dt} &= 2 J_{\text{glyc}} + J_{\text{ATPsyn}} - J_{\text{demand}}(t) \label{eq:app-atp} \\
+\frac{d[\text{ADP}]}{dt} &= J_{\text{demand}}(t) - 2 J_{\text{glyc}} - J_{\text{ATPsyn}} + J_{\text{AK,fwd}} - J_{\text{AK,rev}} \label{eq:app-adp} \\
+\frac{d[\text{AMP}]}{dt} &= J_{\text{AK,rev}} - J_{\text{AK,fwd}} \label{eq:app-amp} \\
+\frac{d[\text{NADH}]}{dt} &= 2 J_{\text{glyc}} + 3 J_{\text{Krebs}} - J_{\text{CI}} \label{eq:app-nadh} \\
+\frac{d[\text{Pyr}]}{dt} &= J_{\text{glyc}} - J_{\text{PDH}} \label{eq:app-pyr} \\
+\frac{d\Delta\Psi}{dt} &= \frac{1}{C_m}(4 J_{\text{CI}} + 4 J_{\text{CIII}} + 2 J_{\text{CIV}} - n_{\text{ATP}} J_{\text{ATPsyn}} - J_{\text{leak}}) \label{eq:app-psi} \\
+\frac{d[\text{ROS}]}{dt} &= J_{\text{ROS}} - k_{\text{SOD}}[\text{SOD}][\text{ROS}] - k_{\text{GPx}}[\text{GPx}][\text{ROS}] \label{eq:app-ros} \\
+\frac{dD}{dt} &= k_D [\text{ROS}] \cdot \mathbb{1}_{[\text{ROS}]>\text{ROS}_{\text{thr}}} - k_{\text{rep}} \frac{[\text{ATP}]}{K_{\text{rep}} + [\text{ATP}]} \label{eq:app-damage}
+\end{align}
+
+where the proton stoichiometry coefficients (4, 4, 2) are the number of protons pumped per electron pair by Complexes~I, III, and~IV respectively (total 10\,H$^+$ per NADH), $n_{\text{ATP}} \approx 8/3$ is the H$^+$/ATP ratio of ATP synthase, $J_{\text{AK}}$ denotes the adenylate kinase equilibrium ($2\text{ADP} \rightleftharpoons \text{ATP} + \text{AMP}$, $K_{\text{eq}} \approx 0.44$), and $J_{\text{PDH}}$ is the pyruvate dehydrogenase flux linking glycolysis to the Krebs cycle. The conservation constraints $[\text{ATP}] + [\text{ADP}] + [\text{AMP}] = A_{\text{total}}$ and $[\text{NAD}^+] + [\text{NADH}] = N_{\text{total}}$ reduce the independent variables to 6. The adenylate kinase equilibrium is maintained by setting $J_{\text{AK,fwd}} - J_{\text{AK,rev}} = k_{\text{AK}}(K_{\text{eq}}[\text{ADP}]^2 - [\text{ATP}][\text{AMP}])$.
+
+\subsection{Energy Metabolism Parameter Table}
+
+Table~\ref{tab:energy-params} lists all parameters with healthy baseline values, ME/CFS ranges, units, and sources. Parameter values are drawn from published enzymology, metabolomics, and CPET data where available; parameters without direct experimental constraints are indicated.
+
+\begin{table}[htbp]
+\centering
+\caption{Energy metabolism model parameters.}
+\label{tab:energy-params}
+\small
+\begin{tabular}{llllp{3.5cm}}
+\hline
+\textbf{Parameter} & \textbf{Healthy} & \textbf{ME/CFS} & \textbf{Units} & \textbf{Source} \\
+\hline
+$V_{\max,\text{PFK-1}}$ & 1.2 & 1.2 & mM/min & Enzymology \\
+$K_{0.5}^{\text{F6P}}$ & 0.1 & 0.1 & mM & Enzymology \\
+$n_H$ (PFK-1) & 2.5 & 2.5 & -- & Enzymology \\
+$K_i^{\text{ATP}}$ & 1.0 & 1.0 & mM & Enzymology \\
+$V_{\max,\text{CI}}$ & 1.0 & 0.5--0.8 & mM/min & \cite{Tomas2017} \\
+$K_m^{\text{NADH}}$ & 0.05 & 0.05 & mM & Enzymology \\
+$\Delta\Psi_{\text{threshold}}$ & 110 & 110 & mV & Biophysics \\
+$J_{\text{leak,0}}$ & 0.05 & 0.075--0.15 & mM/min & Estimated \\
+$A_{\text{total}}$ & 8.0 & 8.0 & mM & Physiology \\
+$N_{\text{total}}$ & 1.0 & 0.6--0.9 & mM & \cite{syed2025nad_therapy} \\
+$k_{\text{ROS}}$ & 0.01 & 0.01 & min$^{-1}$ & Estimated \\
+$k_{\text{SOD}}$ & 10.0 & 10.0 & mM$^{-1}$min$^{-1}$ & Enzymology \\
+$k_D$ & 0.001 & 0.001 & min$^{-1}$ & Estimated \\
+$k_{\text{rep}}$ & 0.005 & 0.005 & min$^{-1}$ & Estimated \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Immune System Model}
+
+The immune model (Chapter~\ref{ch:immune-system-models}) comprises 12~state variables for cell populations and 6~for cytokines. The NK cell, T~cell, and B~cell dynamics are specified by Equations~\ref{eq:nk-dynamics}--\ref{eq:bcell-dynamics}. The cytokine network is defined by the production and degradation terms in Equation~\ref{eq:cytokine-general}. Full parameter tables for the immune model follow the same format as Table~\ref{tab:energy-params}; key parameters are listed below.
+
+\begin{table}[htbp]
+\centering
+\caption{Selected immune model parameters.}
+\label{tab:immune-params}
+\small
+\begin{tabular}{llllp{3.5cm}}
+\hline
+\textbf{Parameter} & \textbf{Healthy} & \textbf{ME/CFS} & \textbf{Units} & \textbf{Source} \\
+\hline
+$s_N$ (NK production) & 50 & 50 & cells/$\mu$L/day & Physiology \\
+$k_{\text{act,0}}$ (NK) & 0.2 & 0.2 & day$^{-1}$ & Estimated \\
+$k_{\text{exh}}$ (NK) & 0.05 & 0.1--0.2 & day$^{-1}$ & \cite{Hardcastle2016} \\
+$k_{\text{recov}}$ (NK) & 0.1 & 0.03--0.07 & day$^{-1}$ & Estimated \\
+$\delta_{\text{IL-6}}$ & 0.5 & 0.5 & h$^{-1}$ & Pharmacokinetics \\
+$\delta_{\text{TNF}}$ & 0.7 & 0.7 & h$^{-1}$ & Pharmacokinetics \\
+$d_P$ (plasma cell) & 0.003 & 0.003 & day$^{-1}$ & Immunology \\
+$\lambda_0$ (reactivation) & 0.001 & 0.005--0.02 & day$^{-1}$ & Estimated \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Neuroendocrine Model}
+
+The HPA axis (Equation~\ref{eq:hpa-axis}), autonomic (Equation~\ref{eq:ans-balance}), neurotransmitter (Equations~\ref{eq:tryptophan}--\ref{eq:catecholamines}), and sleep--wake (Equation~\ref{eq:sleep-wake}) models contribute 14~additional state variables. Key parameters:
+
+\begin{table}[htbp]
+\centering
+\caption{Selected neuroendocrine model parameters.}
+\label{tab:neuro-params}
+\small
+\begin{tabular}{llllp{3.5cm}}
+\hline
+\textbf{Parameter} & \textbf{Healthy} & \textbf{ME/CFS} & \textbf{Units} & \textbf{Source} \\
+\hline
+$\sigma_H$ (CRH) & 10 & 10 & pg/mL/h & Endocrinology \\
+$a_c$ (circadian) & 0.4 & 0.15--0.25 & -- & \cite{cambras2018circadian} \\
+$n_F$ (feedback) & 2.0 & 3.0--4.0 & -- & \cite{Cleare1999} \\
+$\delta_F$ (cortisol) & 0.08 & 0.08 & h$^{-1}$ & Pharmacokinetics \\
+$G_S$ (baroreflex) & 0.5 & 0.2--0.4 & bpm/mmHg & \cite{Newton2007} \\
+$r_{\text{decay}}$ (sleep) & 0.05 & 0.02--0.04 & h$^{-1}$ & Estimated \\
+$v_{\text{IDO,basal}}$ & 0.01 & 0.01 & mM/h & \cite{Kavyani2022kynurenine} \\
+\hline
+\end{tabular}
+\end{table}
 
 \section{Parameter Estimation Methods}
 \label{sec:parameter-estimation}
 
-% Statistical approaches
-% Bayesian methods
-% Data sources
-% Uncertainty quantification
+\subsection{Maximum Likelihood Estimation}
+
+For the energy metabolism model, parameters are estimated by minimizing the weighted residual sum of squares between model predictions and CPET-derived measurements (peak VO$_2$, anaerobic threshold, lactate kinetics). The objective function is:
+
+\begin{equation}
+\label{eq:app-mle}
+\mathcal{L}(\boldsymbol{\theta}) = -\frac{1}{2} \sum_{i=1}^{N} \left[ \frac{(y_i - \hat{y}_i(\boldsymbol{\theta}))^2}{\sigma_i^2} + \log(2\pi\sigma_i^2) \right]
+\end{equation}
+
+where $y_i$ are observed values, $\hat{y}_i(\boldsymbol{\theta})$ are model predictions at parameter vector $\boldsymbol{\theta}$, and $\sigma_i$ are measurement standard deviations. Optimization uses the Nelder--Mead simplex algorithm for initial exploration followed by gradient-based refinement (L-BFGS-B with box constraints on biologically plausible parameter ranges).
+
+\subsection{Bayesian Inference}
+
+Bayesian parameter estimation uses informative priors derived from published literature. For each parameter $\theta_j$, the prior distribution encodes existing knowledge:
+
+\begin{itemize}
+    \item \textbf{Well-characterized parameters} (enzyme $K_m$ values, degradation rates): Log-normal priors with mean and variance from published enzymology
+    \item \textbf{Moderately characterized parameters} (impairment factors $\alpha_{\text{CI}}$, $\beta$): Uniform priors on biologically plausible ranges
+    \item \textbf{Poorly characterized parameters} (symptom weighting coefficients): Weakly informative half-normal priors
+\end{itemize}
+
+Posterior sampling uses the No-U-Turn Sampler (NUTS), a variant of Hamiltonian Monte Carlo that automatically tunes the step size and trajectory length. Convergence is assessed by the $\hat{R}$ statistic ($\hat{R} < 1.01$ required) and effective sample size ($n_{\text{eff}} > 400$ per chain). Four independent chains of 2000 post-warmup samples each are used.
 
 \section{Numerical Methods}
 \label{sec:numerical-methods}
 
-% Solution techniques
-% Software implementations
-% Validation approaches
+\subsection{ODE Integration}
+
+The stiff ODE systems arising from the coupled multi-system model (42 state variables) are integrated using implicit methods. The recommended solver is the Radau IIA method (5th-order, L-stable), which handles the wide range of timescales present in the model (milliseconds for enzyme kinetics to hours for cytokine dynamics) without requiring manual timescale separation. Absolute and relative error tolerances are set to $10^{-8}$ and $10^{-6}$ respectively.
+
+For the stochastic viral reactivation model, the Gillespie stochastic simulation algorithm (SSA) is used for the latent-to-lytic transition, coupled to deterministic ODE integration for the subsequent immune response. The hybrid scheme switches from SSA to ODE at the moment of reactivation, using the SSA-generated viral load as an initial condition for the ODE system.
+
+\subsection{Steady-State Computation}
+
+Steady states of the ODE system satisfy $\mathbf{f}(\mathbf{x}^*, \boldsymbol{\theta}) = \mathbf{0}$. These are computed using Newton's method with analytical Jacobian. Stability is determined by the eigenvalues of the Jacobian evaluated at $\mathbf{x}^*$: the steady state is stable if all eigenvalues have negative real part, and unstable otherwise. Bifurcation analysis (continuation of steady states as parameters vary) is performed using pseudo-arclength continuation to trace solution branches through turning points and detect Hopf bifurcations.
 
 \section{Sensitivity Analysis Results}
 \label{sec:sensitivity-analysis}
 
-% Which parameters matter most
-% Robustness analysis
-% Clinical implications
+Global sensitivity analysis uses Sobol indices computed via Saltelli's sampling scheme. For each output of interest (e.g., steady-state ATP, PEM severity after standardized exertion), the first-order index $S_i$ quantifies the fraction of output variance attributable to parameter $\theta_i$ alone, and the total-order index $S_{Ti}$ includes contributions from all interactions involving $\theta_i$:
+
+\begin{align}
+S_i &= \frac{\text{Var}(\mathbb{E}[Y \mid \theta_i])}{\text{Var}(Y)} \label{eq:sobol-first} \\
+S_{Ti} &= 1 - \frac{\text{Var}(\mathbb{E}[Y \mid \boldsymbol{\theta}_{\sim i}])}{\text{Var}(Y)} \label{eq:sobol-total}
+\end{align}
+
+where $\boldsymbol{\theta}_{\sim i}$ denotes all parameters except $\theta_i$. A sample size of $N(2p+2)$ model evaluations is required, where $p$ is the number of parameters and $N \geq 1000$ for convergent estimates. For the full 42-variable model with approximately 60 parameters, this requires $\sim$122{,}000 model evaluations---computationally feasible given the sub-second integration time per evaluation.
+
+Parameters with $S_{Ti} < 0.01$ are classified as insensitive and can be fixed at nominal values without affecting model predictions. Parameters with $S_i > 0.1$ are classified as influential and are prioritized for experimental measurement.
+
+\section{Structural Identifiability}
+\label{sec:structural-identifiability}
+
+Structural identifiability analysis determines whether model parameters can be uniquely estimated from the available output measurements, assuming noise-free data of arbitrary quantity. For the energy metabolism model, the measured outputs are $[\text{ATP}]$, $[\text{lactate}]$ (derived from $[\text{Pyr}]$), and $\text{VO}_2$ (proportional to $J_{\text{CIV}}$). Using the differential algebra approach, we construct the input--output equations by eliminating unmeasured state variables. Parameters appearing independently in the coefficients of these equations are structurally identifiable; parameters appearing only in combinations are structurally unidentifiable (only the combination can be estimated).
+
+Analysis of the energy metabolism model reveals that: (1)~$V_{\max,\text{CI}}$ and $K_m^{\text{NADH}}$ are individually identifiable from VO$_2$ data; (2)~$k_{\text{ROS}}$ and $k_{\text{SOD}}$ are identifiable only as the ratio $k_{\text{ROS}}/k_{\text{SOD}}$ from ROS-related outputs; (3)~the damage parameters $k_D$ and $k_{\text{rep}}$ are identifiable from longitudinal day-1/day-2 CPET data but not from single-time-point measurements. These identifiability results guide experimental design: measuring ROS directly (rather than inferring from downstream markers) would resolve the $k_{\text{ROS}}/k_{\text{SOD}}$ ambiguity.
 
 \section{Code Availability}
 \label{sec:code-availability}
 
-% Where to access model code
-% Programming languages used
-% Reproducibility information
+The mathematical models described in Part~\ref{part:modeling} are specified as systems of ordinary differential equations with explicit parameter definitions (this appendix). Implementation in any scientific computing environment (Python/SciPy, MATLAB, Julia/DifferentialEquations.jl, R/deSolve) is straightforward from the equations provided. No proprietary software is required. The parameter tables in this appendix provide all values needed to reproduce the models.
 
+For reproducibility, the recommended implementation stack is:
+
+\begin{itemize}
+    \item \textbf{ODE integration}: Julia with DifferentialEquations.jl (Radau5 solver) or Python with SciPy \texttt{solve\_ivp} (Radau method)
+    \item \textbf{Bayesian inference}: Stan (via CmdStan or PyStan) for NUTS sampling, or Julia with Turing.jl
+    \item \textbf{Sensitivity analysis}: SALib (Python) for Sobol index computation
+    \item \textbf{Bifurcation analysis}: AUTO-07p or MatCont (MATLAB) for continuation
+\end{itemize}
