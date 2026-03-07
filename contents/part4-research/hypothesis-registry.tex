@@ -40,7 +40,7 @@ ordered within domains from highest to lowest certainty.
   p{2.2cm}
 }
 
-\caption{Cross-document hypothesis and open question registry (20 key entries).
+\caption{Cross-document hypothesis and open question registry (42 key entries).
   ``Cert.'' = certainty on the 0--1 scale used throughout the document;
   ``inf.'' = inferred from context language.
   \label{tab:hypothesis-registry}}\\
@@ -110,7 +110,7 @@ Simultaneous ROS, I-FABP, TRPM3 current, mitochondrial O$_2$ flux, and
 microvascular imaging before/after multi-target intervention.
 Multi-centre coordination needed; no single new assay required.
 &
-Ch.\,6 \S\ref{sec:metabolism-summary} \\[6pt]
+Ch.\,6 \S\ref{sec:vicious-cycle} \\[6pt]
 
 CNS Penetration as Limiting Factor
 (\ref{spec:cns-penetration})
@@ -360,6 +360,43 @@ Methods available; careful timing required for serotonin assay.
 &
 Ch.\,11 \S\ref{sec:gut-brain-axis} \\[6pt]
 
+Wheat-Primed Exercise Intolerance
+(\ref{spec:wheat-primed-exercise})
+&
+S & 0.35
+&
+(a) Wheat elimination (4--6 weeks) reduces baseline PEM severity in affected
+patients.
+(b) Post-elimination wheat reintroduction triggers PEM exacerbation within
+24--72 hours.
+(c) Biomarkers (zonulin, LPS, I-FABP) normalize during wheat elimination in
+responders.
+&
+Wheat elimination crossover with serial LPS, I-FABP, zonulin sampling;
+double-blind gluten vs.\ fructan challenge (cf.\ Skodje 2018 design);
+exercise tolerance measurement pre/post elimination.
+Feasible but requires careful FODMAP control.
+&
+Ch.\,17 \S\ref{sec:food-sensitivities-wheat} \\[6pt]
+
+Activity-Adjusted Meal Timing for Dysautonomic ME/CFS
+(\ref{hyp:postprandial-pacing})
+&
+H & 0.50
+&
+(a) Post-prandial rest (30--60 min supine) reduces symptom exacerbation in POTS
+comorbid patients.
+(b) Small frequent meals (5--6/day) reduce peak splanchnic demand and improve
+orthostatic tolerance.
+(c) Concurrent cognitive activity during meals worsens post-prandial symptoms
+vs.\ passive eating.
+&
+Within-subjects crossover: meal timing/size protocol vs.\ habitual eating;
+continuous HR/BP monitoring; orthostatic tolerance testing pre/post meals.
+Standard equipment; feasible in outpatient or home setting.
+&
+Ch.\,17 \S\ref{sec:food-sensitivities-wheat} \\[6pt]
+
 %% ============================================================
 %% DOMAIN 6 -- GENETICS / EPIGENETICS
 %% ============================================================
@@ -449,23 +486,293 @@ $n \approx 400$ (80\% power for 50\% reduction).
 Secondary: CPET, cytokine panel, GPCR autoantibody, neuroimaging.
 Long COVID cohorts exist; design in Ch.\,13.
 &
-Ch.\,13 \S\ref{sec:long-covid} \\[6pt]
+Ch.\,13 \S\ref{subsubsec:long-covid-cycle-dynamics} \\[6pt]
+
+\midrule
+\multicolumn{6}{l}{\textit{--- V6 additions (March 2026) ---}}\\[3pt]
+
+Lymphocyte Reservoir Ratchet
+(\ref{hyp:lymphocyte-reservoir-ratchet})
+& H & 0.35 &
+(a) scRNA-seq of ME/CFS PBMCs detects viral transcripts in $<$1\% lymphocytes.
+(b) Virus-positive fraction correlates with severity.
+(c) In vitro lymphocyte activation releases viral antigen.
+(d) Recovery = clearance; non-recovery = persistence.
+&
+10x Genomics scRNA-seq on PBMCs (available); MERFISH spatial transcriptomics;
+requires post-COVID ME/CFS cohort with matched controls.
+Comparative data from FIP model~\cite{Kol2026fipv}.
+&
+Ch.\,7 \S\ref{sec:viral} \\[6pt]
+
+Immune Cell Energy Starvation Creates Viral Persistence Niche
+(\ref{hyp:immune-energy-starvation-niche})
+& H & 0.40 &
+(a) Metabolic supplementation in vitro restores ME/CFS NK cell killing.
+(b) Antiviral + metabolic support $>$ antiviral alone for viral clearance.
+(c) T cell metabolic impairment inversely correlates with clearance.
+(d) Worst NK bioenergetics = highest viral antigen persistence.
+&
+Seahorse metabolic flux (available); NK killing assays (available);
+D-ribose/CoQ10/MitoQ supplementation in vitro.
+Clinical trial: antiviral $\pm$ metabolic support.
+&
+Ch.\,6 \\[6pt]
+
+Deconditioning Narrative as Iatrogenic Harm Multiplier
+(\ref{hyp:deconditioning-iatrogenic})
+& H & 0.50 &
+(a) Deconditioning-managed patients show greater 5-yr decline.
+(b) Time-to-diagnosis longer under deconditioning paradigm.
+(c) Higher mild$\to$severe progression in GET vs.\ pacing cohorts.
+(d) Regional GET rates correlate with severe ME/CFS prevalence.
+&
+Retrospective cohort study using medical records;
+regional prescription rate analysis (UK pre/post 2021);
+patient registry data (e.g., UK ME/CFS Biobank).
+&
+Ch.\,24 \S\ref{sec:deconditioning-hypothesis} \\[6pt]
+
+hEDS Lymph Node Architecture as ME/CFS Susceptibility Factor
+(\ref{spec:heds-lymphnode-architecture})
+& S & 0.25 &
+(a) hEDS lymph node biopsies show altered FRC network density.
+(b) Imaging reveals structural lymph node differences in hEDS.
+(c) Post-COVID hEDS patients have higher lymphoid viral persistence.
+(d) Immune cells on hEDS-ECM scaffolds show reduced viral clearance.
+&
+Lymph node FNA + histology; contrast-enhanced US or MR lymphangiography;
+in vitro ECM scaffold assays.
+Requires hEDS cohort with post-COVID ME/CFS subset.
+&
+Ch.\,14d \\[6pt]
+
+Sports Medicine Paradigm Shift as Natural Experiment
+(\ref{oq:paradigm-shift-natural-experiment})
+& OQ & --- &
+(a) Do GET prescription rates decline after BJSM 2026 publication?
+(b) Source journal authority affects practice change speed?
+(c) What is the half-life of iatrogenic practice change?
+(d) Regional outcomes improve after guideline changes?
+&
+Administrative prescribing data; patient registry outcomes;
+interrupted time-series analysis at guideline change dates.
+&
+Ch.\,24 \S\ref{sec:deconditioning-hypothesis} \\[6pt]
+
+Viral RNA in Circulating Lymphocytes as Biomarker
+(\ref{oq:viral-rna-lymphocyte-biomarker})
+& OQ & --- &
+(a) Minimum virus-positive lymphocyte fraction for immune activation?
+(b) Viral species specificity or generic mechanism?
+(c) Can biomarker distinguish viral from non-viral ME/CFS subgroups?
+(d) Current single-cell platform sensitivity sufficient?
+&
+10x Genomics scRNA-seq; MERFISH; digital PCR on sorted lymphocyte subsets.
+Requires multi-pathogen ME/CFS cohort.
+&
+Ch.\,22 \S\ref{sec:animal-models} \\[6pt]
+
+Temporal Mapping: Deconditioning to Pathology Transition
+(\ref{oq:deconditioning-pathology-transition})
+& OQ & --- &
+(a) Serial biopsy: when do reversible fibre shifts become irreversible?
+(b) CPET trajectory over 24 months distinguishes deconditioning from pathology?
+(c) Long-duration patients show qualitatively different tissue changes?
+&
+Serial muscle biopsy + two-day CPET at 0, 6, 12, 24 months;
+newly diagnosed vs.\ $>$5-year cohort comparison.
+Invasive; requires ethics approval and willing participants.
+&
+Ch.\,22 \\[6pt]
+
+Three-Field Convergence Against Deconditioning
+(\ref{key:deconditioning-convergence})
+& --- & --- &
+N/A (synthesis keypoint, not testable hypothesis).
+Documents convergence from exercise physiology, clinical guidelines,
+and comparative virology against the deconditioning model.
+&
+Narrative synthesis of existing evidence streams.
+&
+Ch.\,13 \\[6pt]
+
+FIP as ME/CFS Comparative Model
+& --- & --- &
+(a) Longitudinal immune profiling of FIP-recovered cats.
+(b) Activity monitoring for PEM analogue in cats.
+(c) Immune cell metabolomics: virus-positive vs.\ cleared cats.
+(d) Combined antiviral + metabolic support intervention testing.
+&
+Veterinary research infrastructure;
+GS-441524-treated cat cohorts exist at UC Davis.
+Seahorse analysis, accelerometry, scRNA-seq all applicable.
+&
+Ch.\,22 \S\ref{sec:animal-models} \\[6pt]
+
+Neutrophil Functional Exhaustion
+(\ref{hyp:neutrophil-exhaustion})
+& H & 0.40 &
+(a) Ex vivo PMA/fMLP stimulation of ME/CFS neutrophils shows attenuated degranulation and ROS vs.\ controls despite normal counts.
+(b) Intracellular flow cytometry reveals depleted granule protein content.
+(c) Recovery (e.g., daratumumab responders) normalizes circulating neutrophil granule proteins.
+(d) G-CSF priming restores innate defense markers.
+&
+Functional neutrophil assays (degranulation, ROS);
+intracellular flow cytometry for granule content;
+paired sampling pre/post treatment in daratumumab or IA trials.
+$n \approx 30$ pairs minimum.
+&
+Ch.\,13 (\ref{hyp:neutrophil-exhaustion}) \\[6pt]
+
+Chronic Exerkine Signaling
+(\ref{hyp:chronic-exerkine})
+& H & 0.45 &
+(a) FGF-21 and GDF-15 correlate with disease severity and PEM threshold.
+(b) Successful treatment normalizes exerkine levels.
+(c) ME/CFS patients show blunted additional exerkine response to exercise (ceiling effect).
+(d) Metabotype 2 patients have lowest exercise tolerance.
+&
+ELISA panels (FGF-21, GDF-15, leptin, resistin) in graded cohort;
+exercise challenge with serial exerkine sampling;
+correlation with CPET parameters.
+Hoel 2026 extended cohort (n=278) available for validation.
+&
+Ch.\,13 (\ref{hyp:chronic-exerkine}) \\[6pt]
+
+Secretome-Driven Vascular Autoimmune Loop
+(\ref{spec:secretome-autoimmune})
+& S & 0.25 &
+(a) ME/CFS serum proteins show elevated citrullination/oxidative modifications.
+(b) Autoantibodies against modified vascular proteins detectable in subset.
+(c) Autoimmune subset (daratumumab responders) shows strongest secretome shift.
+&
+Mass spectrometry PTM analysis of ME/CFS vs.\ HC serum;
+autoantibody arrays targeting citrullinated/oxidized endothelial proteins;
+paired proteomic + autoantibody profiling in treatment responder studies.
+&
+Ch.\,13 (\ref{spec:secretome-autoimmune}) \\[6pt]
+
+Bone Marrow Stress and Immune Lineage Reprogramming
+(\ref{spec:bone-marrow-reprogramming})
+& S & 0.20 &
+(a) Bone marrow biopsy shows altered myeloid:lymphoid progenitor ratios.
+(b) HSCs show inflammatory epigenetic reprogramming marks.
+(c) Bone marrow protein signature improves with immunomodulation.
+&
+Bone marrow aspirate with flow cytometry lineage analysis;
+ATAC-seq/ChIP-seq of hematopoietic progenitors;
+highly invasive --- likely requires ancillary study within existing treatment trials.
+&
+Ch.\,13 (\ref{spec:bone-marrow-reprogramming}) \\[6pt]
+
+%% ============================================================
+%% DOMAIN -- MATHEMATICAL MODELING (Part V)
+%% ============================================================
+\multicolumn{6}{l}{\small\textit{\textbf{Domain: Mathematical Modeling (Part~V)}}} \\[2pt]
+
+ATP Threshold Model of PEM
+&
+H & 0.45
+&
+(a) PEM severity correlates with depth/duration of ATP depletion below threshold.
+(b) Metabolic substrate provision raises threshold and reduces PEM susceptibility.
+(c) Threshold is individually variable, explaining inter-patient exercise tolerance differences.
+&
+Two-day CPET with intracellular ATP measurement (muscle biopsy or $^{31}$P-MRS);
+metabolic substrate supplementation trials with PEM as endpoint.
+Feasible with existing methods.
+&
+Ch.\,\ref{ch:energy-metabolism-models} \\[6pt]
+
+Bistability of the Energy--Immune Cycle
+&
+H & 0.50
+&
+(a) Disease onset requires perturbation exceeding threshold severity, not specific pathogen.
+(b) Spontaneous recovery is rare because disease attractor is stable.
+(c) Effective treatment must be sustained long enough to shift system past separatrix.
+&
+Longitudinal measurement of immune and metabolic variables to map state-space trajectory;
+intervention washout studies to test attractor stability.
+Requires multi-month longitudinal cohorts.
+&
+Ch.\,\ref{ch:integrated-systems} \\[6pt]
+
+Adenosine--ATP Coupling as Unrefreshing Sleep Mechanism
+&
+H & 0.35
+&
+(a) Sleep pressure builds faster in ME/CFS than controls for equivalent activity.
+(b) Improving mitochondrial function improves sleep quality independent of sleep-targeted interventions.
+(c) Glymphatic function markers correlate with unrefreshing sleep severity.
+&
+Adenosine microdialysis (invasive); $^{31}$P-MRS during sleep;
+MRI-based glymphatic imaging; mitochondrial supplement trials with sleep quality endpoints.
+Most methods available; brain adenosine measurement challenging.
+&
+Ch.\,\ref{ch:neuroendocrine-models} \\[6pt]
+
+Validation Standards for ME/CFS Models
+&
+OQ & ---
+&
+What constitutes sufficient validation for computational ME/CFS models?
+Analogous to FDA PBPK guidance but for emergent phenomena lacking molecular definitions.
+&
+Consensus process among modelers, clinicians, and regulators needed.
+&
+Ch.\,\ref{ch:modeling-foundations} \\[6pt]
+
+Autoantibody Subtypes and Clinical Response
+&
+OQ & ---
+&
+Do different autoantibody specificities ($\beta_2$-adrenergic, muscarinic) contribute independently to distinct symptom domains?
+Requires antigen-specific modeling.
+&
+Multiplexed autoantibody assays with symptom domain correlation analysis.
+&
+Ch.\,\ref{ch:immune-system-models} \\[6pt]
+
+Emergent Cycling Behavior
+&
+OQ & ---
+&
+Does the coupled 42-variable model produce endogenous limit cycle oscillations (symptom cycling) without external perturbation?
+&
+Numerical bifurcation analysis (continuation, Hopf detection) of the full integrated model.
+Computationally feasible.
+&
+Ch.\,\ref{ch:integrated-systems} \\[6pt]
+
+Digital Twins for ME/CFS
+&
+OQ & ---
+&
+Can patient-specific computational models be maintained and updated with real-time wearable/biomarker data for adaptive pacing and treatment optimization?
+&
+Feasibility study: real-time model fitting with sensor integration and uncertainty quantification.
+Analogous systems under development for cardiac care and diabetes.
+&
+Ch.\,\ref{ch:predictive-applications} \\[6pt]
 
 \end{longtable}
 
 \subsection*{Full Harvest Statistics}
 
-The complete document contains approximately \textbf{305 environments} of the
-four harvested types (systematic \texttt{grep}, 2026-03-04):
+The complete document contains approximately \textbf{321 environments} of the
+four harvested types (updated 2026-03-07):
 
 \begin{itemize}
-  \item \textbf{Hypothesis:} $\approx 130$ --- Ch.\,9, 13, 14j, 18 most dense.
-  \item \textbf{Speculation:} $\approx 75$ --- Ch.\,14a--i, 15--19 most dense.
+  \item \textbf{Hypothesis:} $\approx 136$ --- Ch.\,9, 13, 14j, 18, 27, 29, 30 most dense.
+  \item \textbf{Speculation:} $\approx 76$ --- Ch.\,14a--i, 14d, 15--19 most dense.
   \item \textbf{Prediction:} $\approx 10$ --- Ch.\,12 and Ch.\,14j primarily.
-  \item \textbf{Open Question:} $\approx 90$ --- Ch.\,14a--h, 14d, 14e, 14g, 14h most dense.
+  \item \textbf{Open Question:} $\approx 97$ --- Ch.\,14a--h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
+  \item \textbf{Keypoint:} 1 new (convergence argument, Ch.\,13).
 \end{itemize}
 
-Selection criteria for the 20 table entries: (1) mechanism domain coverage;
+Selection criteria for the 42 table entries: (1) mechanism domain coverage;
 (2) actionability with existing methods; (3) clinical impact if resolved;
 (4) cross-chapter linkage to existing study designs in Ch.\,\ref{ch:proposed-studies}.
 
