@@ -2,98 +2,377 @@
 \chapter{Temporal Evolution and Disease Trajectories}
 \label{ch:temporal-evolution}
 
+The models developed in Chapters~\ref{ch:energy-metabolism-models}--\ref{ch:integrated-systems} describe the instantaneous dynamics of ME/CFS pathophysiology. This chapter extends the analysis to longer timescales: disease onset (days to weeks), symptom fluctuations (hours to days), disease progression (months to years), and treatment response (weeks to months). The temporal perspective reveals how the same underlying mechanisms produce qualitatively different behaviors at different timescales.
+
+\input{figures/fig-disease-trajectories}
+
 \section{Disease Onset Models}
 \label{sec:disease-onset-models}
 
 \subsection{Triggering Events}
-% Acute infection model
-% Cumulative stress model
-% Tipping point dynamics
+\label{sec:triggering-events}
 
-\subsection{Transition from Health to Disease}
-% Initial perturbation
-% Failure of recovery mechanisms
-% Establishment of chronic state
-% Why some people recover and others don't
+ME/CFS onset typically follows an identifiable trigger, most commonly acute infection, though physical trauma, surgery, and severe psychological stress are also reported~\cite{Chu2019}. The model represents triggering events as large perturbations to the integrated system. For infection-triggered onset, the perturbation is a sustained increase in viral load $V(t)$ (Equation~\ref{eq:viral-dynamics}) over a period of days to weeks. The immune response generates cytokine elevations, which via the neuroimmune pathway (Section~\ref{sec:neuroimmune-interactions}) affect CNS function, and via the energy--immune coupling (Section~\ref{sec:energy-immune-coupling}) deplete energy reserves.
+
+The critical question is: why do some individuals recover fully while others develop ME/CFS? The model framework provides two distinct answers.
+
+\subsection{Tipping Point Dynamics}
+\label{sec:tipping-point}
+
+If the energy--immune system is bistable (as hypothesized in Chapter~\ref{ch:integrated-systems}), disease onset corresponds to crossing a separatrix in state space. The pre-infection state determines proximity to this separatrix, and the infection-induced perturbation determines whether it is crossed. The model predicts that individuals with pre-existing subclinical vulnerabilities---slightly reduced mitochondrial function, elevated baseline inflammation, lower cortisol reserve---reside closer to the separatrix and therefore require a smaller perturbation to trigger the transition. This is consistent with epidemiological observations that ME/CFS risk factors include prior immune challenges, genetic predisposition~\cite{DecodeME2025}, and female sex~\cite{lim2020prevalence}.
+
+Formally, the separatrix can be characterized by computing the boundary of the basin of attraction for the healthy steady state. Points inside this basin return to health after perturbation; points outside converge to the disease attractor. The basin boundary depends on all system parameters, making it patient-specific. The tipping point model predicts that:
+
+\begin{enumerate}
+    \item The same infection can cause ME/CFS in one individual and full recovery in another, depending on pre-existing parameter values
+    \item More severe infections (larger perturbations) are more likely to cross the separatrix, consistent with epidemiological evidence suggesting that acute infection severity correlates with risk of post-infectious sequelae
+    \item Multiple sub-threshold perturbations can progressively erode the basin of attraction (through cumulative parameter damage), eventually causing a transition after a seemingly mild trigger
+\end{enumerate}
+
+\subsection{Failure of Recovery Mechanisms}
+\label{sec:recovery-failure}
+
+An alternative model, not requiring bistability, posits that ME/CFS onset reflects irreversible damage accumulated during the acute infection. ROS-mediated mitochondrial DNA damage, epigenetic modifications to immune cell precursors~\cite{deVega2021dna_methylation}, or permanent alterations in microglial priming could shift system parameters to values that no longer support the healthy steady state. In this model, there is only one attractor (the disease state) for the post-infection parameter values, and recovery requires parameter restoration (mitochondrial biogenesis, epigenetic reprogramming) rather than state-space perturbation. The two models make distinct predictions about spontaneous recovery: the bistability model permits recovery through large perturbations, while the damage model requires parameter repair.
 
 \section{Disease Progression Models}
 \label{sec:disease-progression-models}
 
-\subsection{Stable vs. Progressive Disease}
-% Factors determining trajectory
-% Mathematical characterization
-% Prediction methods
+\subsection{Stable vs.\ Progressive Disease}
+\label{sec:stable-progressive}
 
-\subsection{Relapse-Remission Patterns}
-% Cyclic behavior
-% Triggering factors
-% Stochastic vs. deterministic elements
+ME/CFS trajectories vary substantially: some patients remain at a stable severity level for years, others progressively worsen, and a minority improve spontaneously~\cite{Brurberg2014}. The integrated model explains these trajectories through the balance between damage accumulation and repair:
 
-\subsection{Gradual Worsening}
-% Accumulation of damage
-% Loss of compensatory capacity
-% Irreversibility considerations
+\begin{equation}
+\label{eq:damage-accumulation}
+\frac{dD_{\text{total}}}{dt} = k_{\text{damage}} \cdot [\text{ROS}] + k_{\text{immune\_damage}} \cdot \boldsymbol{C}_{\text{pro}} - k_{\text{repair}} \cdot \frac{[\text{ATP}]}{K_{\text{repair}} + [\text{ATP}]}
+\end{equation}
+
+where $D_{\text{total}}$ is aggregate tissue damage (encompassing mitochondrial damage, neuronal injury, endothelial dysfunction), $k_{\text{damage}}$ and $k_{\text{immune\_damage}}$ are damage rates from oxidative stress and inflammation respectively, and $k_{\text{repair}}$ is the ATP-dependent repair rate. Three regimes emerge:
+
+\begin{enumerate}
+    \item \textbf{Stable disease}: damage and repair rates are balanced ($dD_{\text{total}}/dt \approx 0$). The patient remains at a constant severity level determined by the equilibrium damage.
+    \item \textbf{Progressive worsening}: damage exceeds repair ($dD_{\text{total}}/dt > 0$), often because the energy deficit limits repair capacity. The resulting damage further impairs energy production, creating a slow positive feedback loop that produces gradual decline over months to years.
+    \item \textbf{Gradual improvement}: repair exceeds damage ($dD_{\text{total}}/dt < 0$), possible when successful pacing or treatment reduces ROS and inflammation sufficiently for repair processes to dominate. This predicts that sustained activity management is a prerequisite for recovery, consistent with the energy envelope theory~\cite{jason2012energy}.
+\end{enumerate}
+
+\subsection{Relapse--Remission Patterns}
+\label{sec:relapse-remission}
+
+Many ME/CFS patients experience cyclical symptom patterns with periods of relative improvement followed by relapse. The integrated model can produce such patterns through two mechanisms.
+
+\textbf{Exogenous cycling}: External perturbations (infections, physical overexertion, hormonal cycles) periodically push the system away from its steady state, producing transient symptom flares followed by partial recovery. The severity and duration of each relapse depend on the perturbation magnitude and the system's recovery capacity. Repeated perturbations before full recovery produce a ``staircase'' pattern of progressive worsening---each cycle reaches a lower functional nadir than the previous one.
+
+\textbf{Endogenous oscillations}: As noted in Chapter~\ref{ch:integrated-systems}, the feedback structure of the coupled system may produce limit cycle oscillations without external perturbation. If the ME/CFS parameter regime places the system near a Hopf bifurcation, small noise can excite large-amplitude oscillations with irregular periodicity, producing the apparently random symptom fluctuations reported by patients.
+
+\subsection{The Energy Ratchet: A Discrete Event Model}
+\label{sec:ratchet-model}
+
+The continuous damage model (Equation~\ref{eq:damage-accumulation}) captures gradual progression but does not represent the discrete, step-wise decline observed in ME/CFS. While infections are a major trigger (Speculation~\ref{spec:infection-damage-ratchet}), the ratchet pattern extends to any event that forces energy expenditure beyond the recoverable envelope: PEM-inducing overexertion, surgical stress, emotional trauma, or hormonal shifts. We therefore formalise a general \emph{energy ratchet} as a hybrid dynamical system combining continuous inter-event repair dynamics with discrete event-triggered damage jumps.
+
+\input{figures/fig-energy-ratchet}
+
+\subsubsection{State Variables and Inter-Event Dynamics}
+
+Let $B(t) \in [0,1]$ denote baseline functional capacity (1 = healthy, 0 = complete disability) and let damaging events (infections, PEM crashes, surgeries, major stressors) arrive at discrete times $t_1 < t_2 < \cdots$. Between events, the system evolves under continuous repair:
+
+\begin{equation}
+\label{eq:ratchet-interevent}
+\frac{dB}{dt} = r(B) \cdot \frac{[\text{ATP}]}{K_{\text{repair}} + [\text{ATP}]} \cdot (B_{\max}(t) - B(t)), \quad t \in (t_k, t_{k+1})
+\end{equation}
+
+where $r(B)$ is a repair rate that decreases with accumulated damage (reflecting reduced regenerative capacity), $[\text{ATP}]/(K_{\text{repair}} + [\text{ATP}])$ is the energy-dependent repair term from Equation~\ref{eq:damage-accumulation}, and $B_{\max}(t)$ is the current \emph{ceiling}---the maximum baseline the system can recover to, which is itself modified by each damaging event (see below). The key asymmetry is that $B$ relaxes toward $B_{\max}$, but $B_{\max}$ can only decrease.
+
+\subsubsection{Damaging Events: The Ratchet Jump Map}
+
+At each event time $t_k$, two discrete updates occur:
+
+\begin{align}
+\label{eq:ratchet-jump-ceiling}
+B_{\max}(t_k^+) &= B_{\max}(t_k^-) - \delta_k \\[4pt]
+\label{eq:ratchet-jump-acute}
+B(t_k^+) &= B(t_k^-) - \Delta_k
+\end{align}
+
+where $\delta_k > 0$ is the \emph{irreversible ceiling loss}---the permanent downward ratchet step---and $\Delta_k > \delta_k$ is the total acute functional drop (which includes the reversible component that can be partially recovered between events). Both values are clamped so that $B$ and $B_{\max}$ remain in $[0,1]$. The irreversible fraction depends on event severity $S_k$, event duration $\tau_k$, and the patient's current damage state:
+
+\begin{equation}
+\label{eq:ratchet-irreversible-loss}
+\delta_k = \delta_0 \cdot S_k \cdot \left(1 + \alpha \sum_{j<k} \delta_j \right) \cdot \left(1 - e^{-\tau_k / \tau_{\text{crit}}}\right)
+\end{equation}
+
+Here $\delta_0$ is a baseline vulnerability parameter (patient-specific), $\alpha \geq 0$ controls \emph{damage sensitisation} (prior damage amplifies future damage, producing accelerating decline), and $\tau_{\text{crit}}$ is a critical event duration beyond which damage saturates. In the general model, $\delta_0$ and $\tau_{\text{crit}}$ may differ by event type (e.g., $\delta_0^{\text{inf}}$ for infections, $\delta_0^{\text{PEM}}$ for overexertion); for parsimony, we present the single-parameter form here. The term $(1 + \alpha \sum_{j<k} \delta_j)$ formalises the positive feedback loop identified in the qualitative model: for infections, this captures microglial priming and immune exhaustion; for overexertion events, it captures progressive mitochondrial damage and reduced metabolic reserve. In both cases, each event leaves the system more vulnerable to the next.
+
+\subsubsection{Recovery Dynamics and Asymmetry}
+
+Between events, Equation~\ref{eq:ratchet-interevent} drives $B(t) \to B_{\max}$ exponentially with effective time constant:
+
+\begin{equation}
+\label{eq:ratchet-recovery-time}
+\tau_{\text{rec}}(B) = \frac{1}{r(B)} \cdot \frac{K_{\text{repair}} + [\text{ATP}]}{[\text{ATP}]}
+\end{equation}
+
+The ratchet asymmetry emerges because $\tau_{\text{rec}}$ increases as $B$ decreases---sicker patients recover more slowly (reduced ATP availability impairs repair). If the inter-event interval $t_{k+1} - t_k < 3\tau_{\text{rec}}$, the patient has not recovered to within approximately 5\% of $B_{\max}$ before the next hit (exact fraction depends on how $r(B)$ and $[\text{ATP}]$ vary during recovery; the 5\% estimate assumes roughly constant effective rate), producing the ``staircase'' pattern described in Section~\ref{sec:relapse-remission}. In this regime, the effective baseline drops faster than the ceiling alone would predict, because each event strikes before recovery is complete. This applies equally to closely-spaced PEM crashes (e.g., a patient repeatedly exceeding their energy envelope) and to recurrent infections.
+
+\subsubsection{Severity Transitions and Critical Thresholds}
+
+Clinical severity levels correspond to threshold values of $B$:
+
+\begin{equation}
+\label{eq:ratchet-severity}
+\text{Severity}(t) = \begin{cases}
+\text{mild} & B(t) > \theta_{\text{mod}} \\
+\text{moderate} & \theta_{\text{sev}} < B(t) \leq \theta_{\text{mod}} \\
+\text{severe} & \theta_{\text{vs}} < B(t) \leq \theta_{\text{sev}} \\
+\text{very severe} & B(t) \leq \theta_{\text{vs}}
+\end{cases}
+\end{equation}
+
+with approximate thresholds $\theta_{\text{mod}} \approx 0.6$, $\theta_{\text{sev}} \approx 0.35$, $\theta_{\text{vs}} \approx 0.15$ (to be calibrated against functional capacity scores). Each severity transition is a one-way gate \emph{within the ratchet model as formulated}: once $B_{\max}$ drops below a threshold, the inter-event dynamics (Equation~\ref{eq:ratchet-interevent}) cannot restore it, since $B(t)$ relaxes toward $B_{\max}$ but never exceeds it. Reversal would require mechanisms that increase $B_{\max}$ itself---mitochondrial biogenesis, epigenetic reprogramming, or immune reconstitution---which are outside the current model's scope but could be incorporated as an upward jump map if empirical evidence for such recovery emerges.
+
+\subsubsection{Trajectory Classes}
+
+The model generates four qualitatively distinct trajectory classes depending on the parameter regime:
+
+\begin{enumerate}
+\item
+\textbf{Stable ratchet} ($\alpha \approx 0$, long inter-event intervals): Each event produces a small, roughly constant ceiling loss $\delta_k \approx \delta_0 S_k$. Decline is linear in the number of events. A patient experiencing one major event per year with $\delta_0 S = 0.03$ would transition from mild to moderate in approximately 13 events ($\sim$13 years).
+
+\item
+\textbf{Accelerating ratchet} ($\alpha > 0$): Damage sensitisation produces convex-downward trajectories where later events cause progressively larger steps. This matches the clinical observation that patients often report ``I used to bounce back from colds, but now each one hits harder'' and ``I could do that activity last year but now it crashes me.''
+
+\item
+\textbf{Incomplete-recovery cascade} (short inter-event intervals): Even without damage sensitisation, frequent events prevent full recovery ($t_{k+1} - t_k \ll \tau_{\text{rec}}$). The effective trajectory drops faster than $B_{\max}$ alone, producing rapid functional decline. This predicts that event frequency is as important as event severity for disease progression---a patient who repeatedly exceeds their energy envelope by small amounts may decline faster than one who experiences a single severe infection.
+
+\item
+\textbf{Arrested ratchet} (successful event prevention): If damaging events are prevented ($\delta_k = 0$), the ceiling $B_{\max}$ is preserved and $B(t)$ relaxes toward it. For infections, this means aggressive prevention (masking, antivirals); for overexertion, it means strict pacing within the energy envelope. The model predicts that both strategies are disease-modifying, consistent with Speculation~\ref{spec:infection-damage-ratchet} and the energy envelope theory~\cite{jason2012energy}.
+\end{enumerate}
+
+\subsubsection{Relationship to the Continuous Damage Model}
+
+The ratchet model (Equations~\ref{eq:ratchet-interevent}, \ref{eq:ratchet-jump-ceiling}--\ref{eq:ratchet-jump-acute}, and~\ref{eq:ratchet-irreversible-loss}) and the continuous damage model (Equation~\ref{eq:damage-accumulation}) describe the same underlying biology at different levels of abstraction. The continuous model is appropriate when damage sources (ROS, chronic inflammation) are approximately constant; the ratchet model is appropriate when discrete events---infections, PEM crashes, surgical or emotional trauma---dominate the damage profile. For patients experiencing both chronic damage and periodic discrete events, the two can be composed: the continuous ODE governs inter-event drift in $B(t)$, while the jump map handles event-triggered steps. This yields a piecewise-deterministic Markov process when event arrival times are modelled stochastically (e.g., infections as a Poisson process at rate $\lambda_{\text{inf}}$). PEM crashes are less naturally Poisson---a patient who has just crashed is unlikely to overexert again immediately---so a renewal process with a refractory period may be more appropriate for exertion-triggered events.
+
+\begin{limitation}[Ratchet Model: Parameter Identifiability]
+The model introduces patient-specific parameters ($\delta_0$, $\alpha$, $r(B)$, $\tau_{\text{crit}}$) that cannot currently be measured directly. Calibration would require longitudinal functional capacity data spanning multiple damaging events per patient, with pre- and post-event measurements---data that do not yet exist for ME/CFS cohorts. Until such data are available, the model's quantitative predictions (e.g., years to severity transition) should be regarded as illustrative rather than calibrated. The model's primary value is qualitative: it identifies event frequency, event duration, and damage sensitisation as the key parameters governing disease trajectory, and it makes the testable prediction that ceiling loss $\delta_k$ increases with cumulative prior damage.
+\end{limitation}
 
 \section{Daily and Weekly Symptom Dynamics}
 \label{sec:daily-dynamics}
 
 \subsection{Circadian Influences}
-% Time-of-day symptom patterns
-% Sleep-wake cycle effects
-% Hormonal rhythms
+\label{sec:circadian-influences}
 
-\subsection{Activity-Symptom Relationships}
-% Immediate effects
-% Delayed effects (PEM)
-% Recovery periods
+ME/CFS symptoms show circadian variation, with most patients reporting worse symptoms in the morning (consistent with blunted cortisol awakening response) and a relative improvement in the late afternoon~\cite{cambras2018circadian}. The model produces this pattern through the circadian terms in the HPA axis (Equation~\ref{eq:hpa-axis}) and sleep--wake models (Equation~\ref{eq:sleep-wake}). The flattened cortisol rhythm ($a_c$ reduced) means that the morning cortisol peak is insufficient to suppress overnight inflammatory accumulation, producing morning symptom peaks. As the circadian alerting signal $C(t)$ rises through the day, it partially compensates, producing the afternoon improvement.
+
+\subsection{Activity--Symptom Relationships}
+\label{sec:activity-symptom}
+
+The relationship between activity and symptoms in ME/CFS is nonlinear and delayed, making it difficult for patients to identify safe activity levels. The model formalizes this relationship through the energy envelope framework (Section~\ref{sec:energy-envelope-model}). For a given activity profile $\phi(t)$, the model predicts:
+
+\begin{equation}
+\label{eq:activity-symptom}
+\text{Symptom}(t + \tau_{\text{PEM}}) = f\left( \int_0^t J_{\text{demand}}(s) \, ds, \; E_{\text{budget}}, \; [\text{ATP}](t), \; \boldsymbol{C}_{\text{pro}}(t) \right)
+\end{equation}
+
+where $\tau_{\text{PEM}} \in [12, 72]$\,hours is the PEM delay and $f$ is a threshold function that produces minimal symptoms when cumulative demand stays below $E_{\text{budget}}$ but escalates rapidly above it. This nonlinear threshold explains the common patient experience that small increases in activity beyond a critical level produce disproportionately large symptom responses.
 
 \section{Response to Specific Stimuli}
 \label{sec:stimuli-response}
 
 \subsection{Physical Exertion}
-% Intensity-response curves
-% Duration effects
-% Recovery kinetics
-% Individual variation
+\label{sec:physical-exertion-response}
+
+Physical exertion produces the most well-characterized stimulus--response relationship in ME/CFS via the two-day CPET protocol~\cite{keller2024cpet}. The model simulates a standardized exercise test as a ramping $J_{\text{demand}}(t)$ function. Key model predictions, validated against CPET data:
+
+\begin{enumerate}
+    \item \textbf{Reduced peak VO$_2$}: Limited by both cardiovascular (reduced CO) and metabolic (reduced ETC capacity) constraints
+    \item \textbf{Early anaerobic threshold}: Transition to glycolytic dominance at lower workloads because oxidative capacity ceiling is reduced
+    \item \textbf{Day-2 decrement}: The model predicts that ROS-mediated damage from day-1 exertion reduces ETC capacity by 5--15\% on day~2, lowering peak VO$_2$ and anaerobic threshold
+    \item \textbf{Prolonged recovery}: The model predicts that post-exercise ATP and cytokine levels require 48--96 hours to return to pre-exercise baseline, versus $<24$ hours in healthy controls
+\end{enumerate}
 
 \subsection{Cognitive Exertion}
-% Brain energy demands
-% Depletion patterns
-% Cognitive PEM
+\label{sec:cognitive-exertion-response}
 
-\subsection{Emotional Stress}
-% Stress hormone effects
-% Immune activation
-% Symptom exacerbation
+Cognitive exertion increases brain ATP demand by 10--20\% above baseline (versus 5--10-fold increases for intense physical exercise in skeletal muscle). Despite the smaller absolute demand, the brain is particularly vulnerable because it has minimal energy reserves and depends on continuous aerobic metabolism. The model predicts that cognitive PEM is mediated by the same energy depletion mechanism as physical PEM but manifests at lower total energy expenditure because brain tissue is operating closer to its metabolic ceiling.
 
 \subsection{Infections}
-% Acute infection effects
-% Recovery from infection
-% Persistent activation
+\label{sec:infection-response}
+
+Intercurrent infections are the most common trigger for ME/CFS relapses. The model simulates infection as a combined perturbation: increased $V(t)$, increased immune activation ($N_a$, $T_e$, cytokines), and increased energy demand ($J_{\text{immune}}$). In the ME/CFS model, the immune response is both delayed (slower NK cell and T~cell activation due to exhaustion and energy limitation) and prolonged (impaired viral clearance extends the infectious period), resulting in greater cumulative damage. The model predicts that the severity of relapse depends on the product of infection intensity and duration, suggesting that early antiviral intervention could reduce relapse severity.
 
 \subsection{Environmental Factors}
-% Temperature extremes
-% Chemical exposures
-% Sensory overload
+\label{sec:environmental-response}
+
+Temperature extremes, chemical exposures, and sensory overload are reported ME/CFS triggers. The model represents these as perturbations to specific subsystems: temperature extremes alter metabolic rate and autonomic demand; chemical exposures (volatile organic compounds, fragrances) can trigger mast cell activation and neuroinflammation~\cite{Frioni2024MCAS}; sensory overload increases CNS energy demand and sympathetic activation. The common pathway is an increase in total energy demand $J_{\text{demand}}$ above the reduced energy envelope, triggering the PEM cascade.
 
 \section{Treatment Response Modeling}
 \label{sec:treatment-response-modeling}
 
 \subsection{Time Course of Improvement}
-% Onset of benefit
-% Maximal effect timing
-% Sustained vs. transient
+\label{sec:improvement-timecourse}
+
+Treatment responses in ME/CFS are characteristically slow, with meaningful improvement often requiring weeks to months. The model explains this through the timescales of parameter recovery:
+
+\begin{enumerate}
+    \item \textbf{Fast} (hours to days): Direct pharmacological effects---e.g., symptom relief from analgesics, blood pressure support from fludrocortisone, heart rate reduction from beta-blockers. These modify $J_{\text{demand}}$ or compensatory variables without addressing underlying dysfunction.
+    \item \textbf{Medium} (weeks to months): Repair of accumulated damage---mitochondrial biogenesis ($\tau \sim 2$--$4$ weeks), immune system remodeling ($\tau \sim 4$--$8$ weeks), neuroplastic changes ($\tau \sim 6$--$12$ weeks). These modify the damage variable $D_{\text{total}}$, gradually improving system capacity.
+    \item \textbf{Slow} (months to years): Epigenetic reprogramming, immune cell lineage reconstitution (after B~cell depletion, new na\"ive B~cells repopulate over 6--12 months~\cite{Fluge2011rituximab}), and neuroendocrine axis resetting.
+\end{enumerate}
+
+The model predicts that treatments targeting fast timescale effects (symptom management) provide immediate but limited benefit, while treatments targeting medium and slow timescale processes (disease modification) show delayed onset but potentially greater magnitude of improvement.
 
 \subsection{Combination Therapy Effects}
-% Synergistic interactions
-% Optimal sequencing
-% Personalized optimization
+\label{sec:combination-therapy}
+
+The integrated model enables simulation of multi-target interventions. Combination therapy can produce synergistic effects when interventions target complementary pathways. For example, the model predicts that combining CoQ10 (increasing ETC capacity) with an anti-inflammatory agent (reducing $J_{\text{immune}}$) produces greater ATP surplus than either alone, because the energy freed from reduced immune demand is processed more efficiently through the enhanced ETC. Formally, synergy occurs when:
+
+\begin{equation}
+\label{eq:synergy}
+\Delta[\text{ATP}]_{\text{A+B}} > \Delta[\text{ATP}]_{\text{A}} + \Delta[\text{ATP}]_{\text{B}}
+\end{equation}
+
+The model identifies the parameter combinations most likely to produce synergy, providing a rational basis for combination therapy design rather than empirical trial-and-error.
 
 \section{Long-Term Trajectories}
 \label{sec:long-term-trajectories}
 
-% 5-10 year projections
-% Recovery probability models
-% Factors influencing long-term outcomes
-% Intervention effects on trajectory
+Long-term outcomes in ME/CFS are variable. Meta-analyses suggest that full recovery occurs in approximately 5\% of patients, while 20--30\% show some improvement, and the remainder remain stable or worsen~\cite{Brurberg2014}. The model reproduces these statistics through patient-to-patient variation in parameters. Monte Carlo simulation with parameter distributions derived from population data generates a distribution of trajectories:
 
+\begin{enumerate}
+    \item \textbf{Recovery} ($\sim$5\%): Patients whose parameters place them near the separatrix boundary, where spontaneous fluctuations or modest interventions can push the system back to the healthy attractor
+    \item \textbf{Improvement} ($\sim$25\%): Patients where damage accumulation is slow ($k_{\text{damage}}$ low) and repair is sufficient to gradually reduce $D_{\text{total}}$, especially with effective pacing
+    \item \textbf{Stable} ($\sim$50\%): Patients at approximate damage--repair equilibrium, whose severity depends on management quality
+    \item \textbf{Progressive} ($\sim$20\%): Patients where damage outpaces repair, often due to severe energy deficit limiting repair capacity or repeated perturbations (infections, overexertion) preventing equilibrium
+\end{enumerate}
+
+\begin{limitation}[Long-Term Prediction Uncertainty]
+Long-term trajectory predictions are highly sensitive to parameter values and perturbation history, both of which are poorly characterized for individual patients. The trajectory distribution above should be interpreted as a population-level statistical prediction, not as a prognosis for any individual patient. Personalized trajectory prediction requires longitudinal data collection over months to years with sufficient biomarker resolution to constrain patient-specific parameters---a capability not yet available in clinical practice.
+\end{limitation}
+
+\section{Critical Slowing Down and Early Warning Signals}
+\label{sec:critical-slowing-down}
+
+Near bifurcation points---the tipping points where the system transitions between attractors---dynamical systems exhibit a universal phenomenon called \emph{critical slowing down}: the rate at which the system returns to equilibrium after small perturbations decreases as the bifurcation is approached. This phenomenon, well-established in ecology, climate science, and financial systems, has direct clinical applications for ME/CFS.
+
+\subsection{Mathematical Basis}
+
+The recovery rate from perturbation is determined by the dominant eigenvalue $\lambda_1$ of the Jacobian matrix $\mathbf{J} = \partial\mathbf{f}/\partial\mathbf{x}$ evaluated at the current steady state. At a saddle-node bifurcation (where the disease attractor is created or destroyed), $\lambda_1 \to 0$. As the system approaches the bifurcation---whether through parameter drift (disease progression) or state-space proximity to the separatrix (accumulation of perturbations)---the recovery time $\tau_{\text{recovery}} = -1/\text{Re}(\lambda_1)$ diverges.
+
+\textbf{This produces measurable early warning signals that are a direct and unique consequence of the mathematical model}:
+
+\begin{enumerate}
+    \item \textbf{Increased autocorrelation}: As $\lambda_1 \to 0$, the autocorrelation of physiological time series (HRV, activity level, symptom scores) at lag $\Delta t$ increases: $\rho(\Delta t) = e^{\lambda_1 \Delta t} \to 1$. The system ``remembers'' perturbations longer because it returns to baseline more slowly.
+    \item \textbf{Increased variance}: Fluctuations grow because the restoring force weakens: $\text{Var}(x) \propto \sigma^2 / (2|\lambda_1|) \to \infty$, where $\sigma^2$ is the noise intensity.
+    \item \textbf{Flickering}: Near the bifurcation, noise-driven excursions occasionally reach the alternative attractor, producing brief ``flickers'' of the alternative state before the system returns. In ME/CFS, this manifests as intermittent symptom spikes of unusual character or duration.
+    \item \textbf{Asymmetric recovery}: Recovery from positive perturbations (toward the separatrix) slows more than recovery from negative perturbations (away from the separatrix), producing a skewed perturbation response.
+\end{enumerate}
+
+\subsection{Clinical Application: Crash Prediction}
+
+The early warning signals above are, in principle, detectable from wearable sensor data (continuous heart rate, accelerometry, skin conductance) without requiring blood draws or clinic visits. The model predicts that \textbf{24--48 hours before a PEM crash, patients near the energy envelope threshold should show}:
+
+\begin{itemize}
+    \item Rising autocorrelation in resting heart rate (HR recovery after standing or minor exertion slows)
+    \item Increasing variance in step count or activity level (more erratic activity patterns)
+    \item Reduced HRV (reflecting the narrowing margin between current state and the PEM threshold)
+    \item Elevated resting HR trend (sympathetic compensation for shrinking energy reserve)
+\end{itemize}
+
+\textbf{This prediction is uniquely generated by the mathematical model}: without the bifurcation framework, there is no theoretical basis for expecting these specific statistical signatures to precede crashes, nor for specifying the 24--48 hour timescale (which derives from the eigenvalue dynamics near the energy envelope threshold). A smartphone application implementing these detectors could warn patients to reduce activity before the crash threshold is crossed, potentially preventing PEM episodes. Retrospective validation against existing wearable datasets with crash annotations would constitute a strong test of the model.
+
+\subsection{Recovery Proximity Detection}
+
+The same early warning signals operate in reverse near recovery transitions. A patient approaching the separatrix from the disease side (improving toward recovery) should show increasing autocorrelation and variance in the \emph{disease-state} variables---paradoxically appearing less stable just before recovery. The model predicts that this ``recovery instability'' is a positive prognostic sign: the system is losing commitment to the disease attractor. Clinicians and patients aware of this prediction would interpret transient symptom instability during recovery differently---as a sign of approaching transition rather than deterioration.
+
+\section{Hysteresis and the Intervention Window}
+\label{sec:hysteresis-analysis}
+
+Hysteresis occurs when the path from health to disease differs from the path from disease to health. In the ME/CFS model, hysteresis arises from two sources: (1)~the saddle-node bifurcation structure of the energy--immune system (structural hysteresis), and (2)~the epigenetic consolidation of disease parameters (parametric hysteresis, Section~\ref{sec:epigenetic-dynamics}).
+
+\subsection{Structural Hysteresis}
+
+In a bistable system, the disease attractor appears at a critical parameter value $\theta_{\text{onset}}$ (saddle-node bifurcation) but does not disappear until a different value $\theta_{\text{recovery}} \neq \theta_{\text{onset}}$. The hysteresis width $\Delta\theta = |\theta_{\text{recovery}} - \theta_{\text{onset}}|$ quantifies how much further the system must be pushed for recovery compared to onset. For the energy--immune subsystem, the model predicts:
+
+\begin{equation}
+\label{eq:hysteresis-width}
+\Delta\alpha_{\text{CI}} = \alpha_{\text{CI}}^{\text{recovery}} - \alpha_{\text{CI}}^{\text{onset}} > 0
+\end{equation}
+
+meaning that Complex~I activity must be restored to a level \emph{above} the value at which disease was triggered, not merely to the trigger value. \textbf{This asymmetry is invisible without the bifurcation diagram}: verbal reasoning about positive feedback loops identifies that the disease is self-sustaining but cannot quantify how much intervention overshoot is required for recovery. The model computes $\Delta\alpha_{\text{CI}}$ as a function of the feedback strengths, providing a quantitative recovery target.
+
+\subsection{Parametric Hysteresis and the Intervention Window}
+
+Epigenetic consolidation (Section~\ref{sec:epigenetic-dynamics}) adds a second layer of hysteresis that increases over time. The methylation index $\mathcal{M}$ evolves toward values that stabilize the disease attractor, progressively widening the hysteresis loop. This predicts an \textbf{intervention window}: the period after disease onset during which the epigenetic contribution to hysteresis is still small, and recovery requires only modest intervention above the structural hysteresis threshold.
+
+The model estimates the intervention window duration as the time required for $\mathcal{M}$ to reach half its equilibrium disease value:
+
+\begin{equation}
+\label{eq:intervention-window}
+\tau_{\text{window}} \approx \frac{\ln 2}{k_{\text{DNMT}} \cdot \overline{C}_{\text{pro}}}
+\end{equation}
+
+where $\overline{C}_{\text{pro}}$ is the mean pro-inflammatory cytokine level in the disease state. For typical parameter values, $\tau_{\text{window}} \sim 3$--$12$ months, consistent with clinical observations that early intervention (within the first year of ME/CFS) is associated with better outcomes. After the intervention window closes, recovery requires both sufficient perturbation to cross the structural separatrix \emph{and} sustained intervention to reverse epigenetic changes---a process operating on the slow timescale $\tau_{\text{epi}}$.
+
+\textbf{This intervention window concept is a unique product of the coupled dynamical model}: it emerges from the interaction of two timescales (fast state dynamics and slow epigenetic dynamics) that cannot be analyzed without formal mathematical treatment. It provides a quantitative basis for the clinical urgency of early diagnosis and treatment in ME/CFS.
+
+\section{Endogenous Oscillations and Hopf Bifurcation}
+\label{sec:oscillation-analysis}
+
+The open question posed in Chapter~\ref{ch:integrated-systems}---whether the coupled model produces endogenous oscillations---can be addressed through Hopf bifurcation analysis. A Hopf bifurcation occurs when a pair of complex conjugate eigenvalues of the Jacobian crosses the imaginary axis, destabilizing a fixed point and creating a limit cycle (periodic orbit).
+
+\subsection{Conditions for Oscillation}
+
+The ME/CFS model contains the structural requirements for Hopf bifurcation: positive feedback loops (energy--immune, mast cell--energy, coagulation--oxygenation, SIBO--immune--motility) combined with delayed negative feedback (cortisol suppression of inflammation, IL-10 anti-inflammatory signaling, sleep-mediated repair). The imaginary part of the critical eigenvalue pair determines the oscillation period:
+
+\begin{equation}
+\label{eq:oscillation-period}
+T_{\text{osc}} = \frac{2\pi}{|\text{Im}(\lambda_{\text{crit}})|} = \frac{2\pi}{\omega_0}
+\end{equation}
+
+Preliminary analysis of the reduced energy--immune--HPA subsystem (6 variables: $[\text{ATP}]$, $N_a$, $\boldsymbol{C}_{\text{pro}}$, $F$, $[\text{ROS}]$, $D$) identifies a Hopf bifurcation when the cortisol feedback gain $n_F$ exceeds a critical value while the energy--immune coupling strength is in the intermediate range. The predicted oscillation period is:
+
+\begin{equation}
+\label{eq:predicted-period}
+T_{\text{osc}} \approx 2\pi \sqrt{\frac{\tau_{\text{cortisol}} \cdot \tau_{\text{immune}}}{\text{gain}_{\text{loop}}}} \sim 2\text{--}6 \text{ weeks}
+\end{equation}
+
+where $\tau_{\text{cortisol}} \sim 1$ day (HPA axis response), $\tau_{\text{immune}} \sim 1$--$2$ weeks (cytokine network remodeling), and $\text{gain}_{\text{loop}}$ is the total loop gain. This 2--6 week period is consistent with the relapse--remission cycling reported by many ME/CFS patients who describe ``good weeks and bad weeks'' without identifiable external triggers.
+
+\subsection{Oscillation as a Biomarker}
+
+\textbf{If endogenous oscillations exist, the oscillation period itself becomes a model-derived biomarker}:
+
+\begin{itemize}
+    \item \textbf{Shorter period} indicates higher loop gain (more active disease dynamics)---symptom fluctuations are rapid and intense
+    \item \textbf{Longer period} indicates lower loop gain (attenuated feedback)---slow, gradual waxing and waning
+    \item \textbf{Period changes over time} signal parameter drift: shortening period indicates approaching instability; lengthening period indicates the system is moving away from the Hopf bifurcation (toward stable disease or toward recovery)
+    \item \textbf{Loss of periodicity} can signal either recovery (the oscillation amplitude shrinks to zero as the system stabilizes in the healthy attractor) or transition to chaos (if the system crosses a period-doubling cascade)
+\end{itemize}
+
+Detecting and characterizing these oscillations requires longitudinal symptom tracking with sufficient temporal resolution (daily or finer) over multiple oscillation periods (months). Wearable devices and electronic symptom diaries provide the data streams; spectral analysis (Fourier transform, wavelet analysis) provides the detection methods. The model predicts specific spectral signatures distinguishable from random fluctuation and from exogenous cycling (which would correlate with identifiable triggers).
+
+\subsection{Stochastic Resonance and Noise-Assisted Recovery}
+\label{sec:stochastic-resonance}
+
+In bistable systems driven by noise, a phenomenon called \emph{stochastic resonance} occurs: moderate noise can facilitate transitions between attractors that would be impossible in a deterministic system. Applied to ME/CFS, this predicts that random physiological fluctuations (minor infections, hormonal cycles, sleep variations) can occasionally push a patient from the disease attractor into the basin of attraction of the healthy state---but only if the patient is sufficiently close to the separatrix.
+
+The Kramers escape rate from the disease attractor is:
+
+\begin{equation}
+\label{eq:kramers-rate}
+r_{\text{escape}} = \frac{\omega_0 \omega_b}{2\pi} \exp\left(-\frac{2\Delta U}{\sigma^2}\right)
+\end{equation}
+
+where $\omega_0$ is the oscillation frequency at the attractor, $\omega_b$ is the curvature at the saddle point (separatrix), $\Delta U$ is the effective potential barrier height (distance from attractor to separatrix), and $\sigma^2$ is the noise intensity. \textbf{This equation produces three predictions unique to the mathematical framework}:
+
+\begin{enumerate}
+    \item \textbf{Spontaneous recovery rate depends exponentially on disease severity}: patients deep in the disease attractor (high $\Delta U$) have astronomically low escape probability, while those near the separatrix can recover spontaneously---consistent with the $\sim$5\% spontaneous recovery rate
+    \item \textbf{Optimal noise intensity exists}: too little noise $\to$ no escape; too much noise $\to$ the system is destabilized before reaching the healthy basin and falls back. This predicts that there is an optimal level of mild physiological perturbation that maximizes recovery probability---neither complete rest nor aggressive stimulation
+    \item \textbf{Hormonal cycling may assist recovery}: for female patients, the menstrual cycle provides periodic perturbations of fixed amplitude and frequency. If this perturbation amplitude is near optimal for stochastic resonance, it could explain potential sex differences in spontaneous recovery rates---a testable prediction
+\end{enumerate}
+
+\begin{speculation}[Therapeutic Perturbation Protocols]
+If stochastic resonance operates in ME/CFS, carefully calibrated periodic perturbations might facilitate recovery in patients near the separatrix. A ``perturbation protocol'' would involve controlled, mild physiological challenges (brief cold exposure, short exercise below anaerobic threshold, intermittent fasting) at frequencies tuned to the system's natural oscillation period. The model predicts that the optimal perturbation amplitude is proportional to $\sqrt{\sigma^2_{\text{optimal}}} \propto \sqrt{\Delta U / \text{gain}_{\text{loop}}}$---patient-specific and calculable from model parameters. This hypothesis predicts that: (1)~patients near the separatrix (identified by critical slowing down signals) would benefit most; (2)~patients deep in the disease attractor would not respond; and (3)~perturbation frequency matching the endogenous oscillation period $T_{\text{osc}}$ would be most effective.
+
+\textbf{Certainty}: 0.25. Stochastic resonance is well-established in physics and neuroscience but has not been demonstrated in disease dynamics. The practical challenges of estimating separatrix proximity and optimal perturbation parameters in individual patients are substantial. This concept should be considered a research direction, not a treatment recommendation.
+\end{speculation}

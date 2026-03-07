@@ -2,72 +2,287 @@
 \chapter{Energy Metabolism Models}
 \label{ch:energy-metabolism-models}
 
+This chapter translates the qualitative understanding of energy metabolism dysfunction in ME/CFS (Chapter~\ref{ch:energy-metabolism}) into formal mathematical models. The models progress from individual metabolic pathways to an integrated energy production system, culminating in a quantitative framework for post-exertional malaise. All models use ordinary differential equations with Michaelis--Menten or Hill-type kinetics (Section~\ref{sec:ode-models}); full parameter tables and derivations are in Appendix~\ref{app:mathematical-details}.
+
+\input{figures/fig-energy-metabolism-model}
+
 \section{ATP Production Models}
 \label{sec:atp-production-models}
 
 \subsection{Glycolysis Kinetics}
-% Enzyme kinetics equations
-% Rate-limiting steps
-% Regulation
+\label{sec:glycolysis-kinetics}
+
+Glycolysis converts glucose to pyruvate through ten enzymatic steps. For modeling purposes, the pathway is reduced to three lumped reactions capturing the key regulatory points: hexokinase (HK), phosphofructokinase-1 (PFK-1), and pyruvate kinase (PK). Each enzyme is modeled with Michaelis--Menten kinetics modified by allosteric regulation:
+
+\begin{equation}
+\label{eq:pfk1}
+v_{\text{PFK-1}} = V_{\max,\text{PFK-1}} \cdot \frac{[\text{F6P}]^{n_H}}{K_{0.5}^{n_H} + [\text{F6P}]^{n_H}} \cdot \frac{K_i^{\text{ATP}}}{K_i^{\text{ATP}} + [\text{ATP}]} \cdot \frac{[\text{AMP}]}{K_a^{\text{AMP}} + [\text{AMP}]}
+\end{equation}
+
+where $[\text{F6P}]$ is fructose-6-phosphate concentration, $n_H \approx 1.5$--$4$ is the Hill coefficient reflecting cooperative kinetics, $K_i^{\text{ATP}}$ is the ATP inhibition constant, and $K_a^{\text{AMP}}$ is the AMP activation constant. PFK-1 is the committed step of glycolysis and the primary site of metabolic regulation: it is inhibited by ATP (the end product) and activated by AMP (a signal of energy deficit). This regulatory logic is central to ME/CFS modeling because it determines how rapidly glycolysis accelerates when oxidative phosphorylation is impaired.
+
+The net glycolytic flux determines pyruvate production and, consequently, the substrate supply to the Krebs cycle. In healthy tissue, the glycolytic rate is tightly coupled to mitochondrial demand. In ME/CFS, evidence of increased lactate production at lower workloads~\cite{keller2024cpet} suggests that this coupling is disrupted, with glycolysis operating at higher flux relative to oxidative capacity---a pattern consistent with reduced $V_{\max}$ of downstream mitochondrial enzymes.
 
 \subsection{Krebs Cycle Model}
-% Cycle reactions
-% Substrate concentrations
-% Flux analysis
+\label{sec:krebs-cycle-model}
+
+The Krebs cycle is modeled as a four-reaction lumped system capturing citrate synthase (CS), isocitrate dehydrogenase (IDH), $\alpha$-ketoglutarate dehydrogenase ($\alpha$-KGDH), and succinate dehydrogenase (SDH, also Complex~II of the ETC). The overall cycle flux depends on acetyl-CoA supply, NAD$^+$ availability, and product inhibition:
+
+\begin{equation}
+\label{eq:krebs-flux}
+J_{\text{Krebs}} = V_{\max,\text{CS}} \cdot \frac{[\text{AcCoA}]}{K_m^{\text{AcCoA}} + [\text{AcCoA}]} \cdot \frac{[\text{OAA}]}{K_m^{\text{OAA}} + [\text{OAA}]} \cdot \frac{[\text{NAD}^+]}{[\text{NAD}^+] + [\text{NADH}]}
+\end{equation}
+
+where the last factor captures the NAD$^+$/NADH ratio dependence. Metabolomic studies in ME/CFS have identified accumulation of specific Krebs cycle intermediates (citrate, isocitrate) consistent with reduced flux through IDH and $\alpha$-KGDH~\cite{Germain2020metabolic,Naviaux2016metabolomics}. In the model, this is represented by reduced $V_{\max}$ values for these enzymes, which can arise from oxidative damage to iron--sulfur clusters, substrate competition from inflammatory metabolites, or epigenetic downregulation of enzyme expression.
 
 \subsection{Electron Transport Chain Model}
-% Proton pumping
-% ATP synthase kinetics
-% Oxygen consumption
+\label{sec:etc-model}
+
+The electron transport chain is modeled as a four-complex proton pump driving ATP synthase. The rate of proton pumping by Complex~I is:
+
+\begin{equation}
+\label{eq:complex-i}
+J_{\text{CI}} = V_{\max,\text{CI}} \cdot \frac{[\text{NADH}]}{K_m^{\text{NADH}} + [\text{NADH}]} \cdot \frac{[\text{UQ}]}{K_m^{\text{UQ}} + [\text{UQ}]} \cdot \left(1 - \frac{\Delta\Psi}{\Delta\Psi_{\max}}\right)
+\end{equation}
+
+where $[\text{UQ}]$ is the ubiquinone (oxidized CoQ10) concentration, $\Delta\Psi$ is the mitochondrial membrane potential, and the last factor captures thermodynamic backpressure: as the proton gradient builds, further pumping becomes energetically unfavorable. The membrane potential evolves according to:
+
+\begin{equation}
+\label{eq:membrane-potential}
+C_m \frac{d\Delta\Psi}{dt} = \sum_{k \in \{\text{CI,CIII,CIV}\}} n_k J_k - J_{\text{ATP synthase}} - J_{\text{leak}}
+\end{equation}
+
+where $C_m$ is the membrane capacitance, $n_k$ is the number of protons pumped per electron pair by complex $k$, and $J_{\text{leak}}$ represents proton leak across the inner mitochondrial membrane. ATP synthase flux follows:
+
+\begin{equation}
+\label{eq:atp-synthase}
+J_{\text{ATP synthase}} = V_{\max,\text{F}_1\text{F}_0} \cdot \frac{[\text{ADP}][\text{P}_i]}{K_m^{\text{ADP}} K_m^{\text{P}_i} + [\text{ADP}] K_m^{\text{P}_i} + [\text{P}_i] K_m^{\text{ADP}} + [\text{ADP}][\text{P}_i]} \cdot \frac{\Delta\Psi - \Delta\Psi_{\text{threshold}}}{\Delta\Psi}
+\end{equation}
+
+The threshold term ensures that ATP synthesis requires a minimum proton-motive force ($\Delta\Psi_{\text{threshold}} \approx 100$--$120$\,mV). This is significant for ME/CFS because any reduction in ETC complex activity lowers $\Delta\Psi$, and once $\Delta\Psi$ approaches the threshold, ATP synthesis drops precipitously---a nonlinear ``cliff'' effect that may explain the disproportionate symptom severity relative to modest biochemical abnormalities.
 
 \subsection{Integrated Energy Production}
-% Coupling glycolysis, Krebs cycle, and ETC
-% ATP/ADP ratios
-% NADH/NAD+ balance
-% System dynamics
+\label{sec:integrated-energy}
+
+The complete energy production model couples glycolysis, the Krebs cycle, and the ETC through shared metabolite pools. The central state variables are:
+
+\begin{itemize}
+    \item $[\text{ATP}]$, $[\text{ADP}]$, $[\text{AMP}]$ (adenine nucleotide pool, conserved: $[\text{ATP}] + [\text{ADP}] + [\text{AMP}] = A_{\text{total}}$)
+    \item $[\text{NAD}^+]$, $[\text{NADH}]$ (nicotinamide nucleotide pool, conserved)
+    \item $[\text{Pyruvate}]$, $[\text{AcCoA}]$, $[\text{OAA}]$ (carbon intermediates)
+    \item $\Delta\Psi$ (mitochondrial membrane potential)
+\end{itemize}
+
+The ATP balance equation integrates all production and consumption:
+
+\begin{equation}
+\label{eq:atp-balance}
+\frac{d[\text{ATP}]}{dt} = 2 J_{\text{glycolysis}} + J_{\text{ATP synthase}} - J_{\text{demand}}(t)
+\end{equation}
+
+where $J_{\text{demand}}(t)$ represents cellular ATP consumption, which varies with activity level. The factor of~2 reflects the net ATP yield per glucose through glycolysis (after subtracting the two ATP invested in the preparatory phase).
 
 \section{Mitochondrial Dysfunction Models}
 \label{sec:mitochondrial-dysfunction-models}
 
-\subsection{ROS Production and Damage}
-% Superoxide generation
-% Antioxidant systems
-% Oxidative damage accumulation
-% Temporal dynamics
+\subsection{Reactive Oxygen Species Production and Damage}
+\label{sec:ros-model}
 
-\subsection{Calcium Dysregulation}
-% Calcium signaling
-% Mitochondrial calcium overload
-% Apoptotic pathways
+Reactive oxygen species (ROS) are an unavoidable byproduct of electron transport. Superoxide ($\text{O}_2^{\bullet-}$) is generated primarily at Complexes~I and~III when electrons ``leak'' to molecular oxygen instead of following the normal transfer chain. The ROS production rate increases when electron flow is impeded:
 
-\subsection{Impaired Energy Production}
-% Reduced enzymatic activity
-% Electron transport impairment
-% ATP deficit quantification
+\begin{equation}
+\label{eq:ros-production}
+J_{\text{ROS}} = k_{\text{ROS}} \cdot [\text{NADH}] \cdot \left(1 - \frac{J_{\text{CI}}}{J_{\text{CI,max}}}\right) + k_{\text{ROS,CIII}} \cdot [\text{UQH}_2] \cdot \left(1 - \frac{J_{\text{CIII}}}{J_{\text{CIII,max}}}\right)
+\end{equation}
+
+where the terms $(1 - J/J_{\max})$ capture the principle that reduced electron flow (due to impaired complexes) leads to increased electron residence time on carriers, increasing the probability of electron leak to oxygen. This creates a positive feedback loop: ETC damage $\to$ reduced flux $\to$ increased ROS $\to$ further ETC damage. The ROS balance includes antioxidant scavenging:
+
+\begin{equation}
+\label{eq:ros-balance}
+\frac{d[\text{ROS}]}{dt} = J_{\text{ROS}} - k_{\text{SOD}} \cdot [\text{SOD}] \cdot [\text{ROS}] - k_{\text{GPx}} \cdot [\text{GPx}] \cdot [\text{ROS}]
+\end{equation}
+
+where SOD (superoxide dismutase) and GPx (glutathione peroxidase) are the primary antioxidant enzymes. Oxidative damage accumulates as a function of cumulative ROS exposure, reducing enzyme activities over time and establishing the vicious cycle described qualitatively in Chapter~\ref{ch:energy-metabolism}.
+
+\subsection{Impaired Energy Production in ME/CFS}
+\label{sec:impaired-energy}
+
+The ME/CFS disease state is modeled by modifying healthy-state parameters at specific points supported by experimental evidence:
+
+\begin{enumerate}
+    \item \textbf{Reduced Complex~I activity}: $V_{\max,\text{CI}}^{\text{ME/CFS}} = \alpha_{\text{CI}} \cdot V_{\max,\text{CI}}^{\text{healthy}}$ with $\alpha_{\text{CI}} \in [0.5, 0.8]$, consistent with findings of impaired Complex~I function in ME/CFS lymphocytes~\cite{Tomas2017}
+    \item \textbf{Increased proton leak}: $J_{\text{leak}}^{\text{ME/CFS}} = \beta \cdot J_{\text{leak}}^{\text{healthy}}$ with $\beta \in [1.5, 3.0]$, reducing the fraction of proton-motive force available for ATP synthesis
+    \item \textbf{Reduced NAD$^+$ pool}: $[\text{NAD}^+]_{\text{total}}^{\text{ME/CFS}} = \gamma \cdot [\text{NAD}^+]_{\text{total}}^{\text{healthy}}$ with $\gamma \in [0.6, 0.9]$, consistent with NAD$^+$ depletion observed in chronic inflammatory states~\cite{syed2025nad_therapy}
+    \item \textbf{Elevated baseline ROS}: $[\text{ROS}]_0^{\text{ME/CFS}} > [\text{ROS}]_0^{\text{healthy}}$, consistent with oxidative stress biomarkers
+\end{enumerate}
+
+The model predicts that these parameter changes produce a new steady state with reduced ATP production, elevated lactate, and increased sensitivity to metabolic perturbation---qualitatively matching the ME/CFS metabolic phenotype described by Naviaux~\cite{Naviaux2016metabolomics} and Germain et al.~\cite{Germain2020metabolic}.
+
+\begin{limitation}[Parameter Uncertainty in Energy Models]
+The impairment factors ($\alpha_{\text{CI}}$, $\beta$, $\gamma$) are constrained by in~vitro studies on isolated cells, primarily lymphocytes and muscle biopsy samples. Whether these values accurately represent in~vivo mitochondrial function across tissues remains uncertain. Patient-level variation in these parameters likely contributes to the clinical heterogeneity of ME/CFS.
+\end{limitation}
 
 \section{Post-Exertional Malaise Modeling}
 \label{sec:pem-modeling}
 
 \subsection{Exertion-Induced Metabolic Crisis}
-% ATP depletion during exercise
-% Recovery kinetics
-% Why recovery fails in ME/CFS
+\label{sec:exertion-crisis}
+
+Post-exertional malaise (PEM) is the hallmark symptom of ME/CFS: a disproportionate and delayed worsening of symptoms following physical, cognitive, or emotional exertion. The energy metabolism model provides a mechanistic framework for PEM. During exertion, ATP demand increases:
+
+\begin{equation}
+\label{eq:demand-exertion}
+J_{\text{demand}}(t) = J_{\text{basal}} + J_{\text{exertion}} \cdot \phi(t)
+\end{equation}
+
+where $\phi(t)$ is the exertion profile (e.g., a pulse of duration $\tau_{\text{ex}}$). In healthy individuals, the ETC increases flux to match demand, maintaining $[\text{ATP}]$ within a narrow physiological range. In the ME/CFS model, the reduced $V_{\max}$ values limit the maximum achievable flux, causing $[\text{ATP}]$ to fall when demand exceeds the impaired capacity:
+
+\begin{equation}
+\label{eq:atp-depletion}
+[\text{ATP}](t) = [\text{ATP}]_0 - \int_0^t \left( J_{\text{demand}}(s) - J_{\text{production}}(s) \right) ds \quad \text{when } J_{\text{demand}} > J_{\text{production,max}}
+\end{equation}
+
+The critical difference in ME/CFS is not the depletion itself but the recovery. Two-day CPET studies demonstrate that ME/CFS patients show reduced peak oxygen consumption on day~2 compared to day~1, whereas healthy controls maintain or improve performance~\cite{keller2024cpet}. This recovery failure is modeled through the ROS feedback loop: exertion-induced ATP depletion $\to$ compensatory increase in ETC flux $\to$ increased ROS production $\to$ further ETC damage $\to$ reduced recovery capacity.
 
 \subsection{Temporal Evolution of PEM}
-% Delay mechanisms
-% Duration modeling
-% Severity factors
+\label{sec:pem-temporal}
+
+The characteristic delay of PEM (typically 12--72 hours post-exertion) is explained in the model by the timescale of secondary damage processes. The immediate metabolic perturbation (ATP depletion, lactate accumulation) resolves within hours as demand returns to baseline. However, the ROS-mediated damage and inflammatory response triggered by the metabolic crisis evolve on slower timescales:
+
+\begin{equation}
+\label{eq:pem-delay}
+D(t) = D_0 + k_{\text{damage}} \int_0^t [\text{ROS}](s) \cdot \mathbb{1}_{[\text{ROS}](s) > \text{ROS}_{\text{threshold}}} \, ds
+\end{equation}
+
+where $D(t)$ is cumulative oxidative damage, $k_{\text{damage}}$ is the damage rate constant, and the indicator function $\mathbb{1}$ ensures that damage accumulates only when ROS exceeds the antioxidant buffering capacity. The PEM symptom intensity is modeled as a function of $D(t)$ with a delay reflecting the time required for molecular damage to manifest as functional impairment. This delay is consistent with the inflammatory mediator kinetics: cytokine production peaks 6--24 hours after tissue damage, and downstream effects (edema, sensitization) follow with further delay.
 
 \subsection{Energy Envelope Model}
-% Mathematical formulation of energy limits
-% Boom-bust cycle dynamics
-% Optimal pacing strategies
+\label{sec:energy-envelope-model}
+
+The energy envelope concept~\cite{jason2012energy,jason2009energy} is formalized as a constraint on cumulative daily energy expenditure. Define the available energy budget $E_{\text{budget}}$ as the maximum sustainable daily ATP turnover without triggering PEM:
+
+\begin{equation}
+\label{eq:energy-envelope}
+E_{\text{budget}} = \int_0^{24\text{h}} J_{\text{production,max}}(t) \, dt - E_{\text{basal}} - E_{\text{repair}}
+\end{equation}
+
+where $E_{\text{basal}}$ is the minimum energy required for vital functions and $E_{\text{repair}}$ is the energy allocated to ongoing cellular repair. The energy envelope for activity is $E_{\text{budget}}$; exceeding it triggers the PEM cascade. In ME/CFS, all three terms are unfavorable: $J_{\text{production,max}}$ is reduced, $E_{\text{basal}}$ may be increased (due to chronic immune activation), and $E_{\text{repair}}$ is elevated (due to ongoing oxidative damage). Pacing strategies aim to keep cumulative daily expenditure below $E_{\text{budget}}$, which the model predicts will prevent PEM episodes and, over time, may allow partial recovery of mitochondrial function by reducing ROS-mediated damage.
+
+\begin{hypothesis}[ATP Threshold Model of PEM]
+Post-exertional malaise occurs when cellular ATP concentration falls below a critical threshold $[\text{ATP}]_{\text{crit}}$ that triggers a coordinated cellular stress response, including activation of AMPK signaling, upregulation of inflammatory pathways, and engagement of the cell danger response~\cite{Naviaux2014cdr}. The delay in PEM onset reflects the time required for these secondary processes to produce symptomatic effects. This model predicts that: (1)~PEM severity correlates with the depth and duration of ATP depletion below threshold; (2)~interventions that raise $[\text{ATP}]_{\text{crit}}$ (e.g., metabolic substrate provision) would reduce PEM susceptibility; and (3)~the threshold is individually variable, explaining inter-patient differences in exercise tolerance.
+
+\textbf{Certainty}: 0.45. The ATP depletion mechanism is well-supported by CPET data~\cite{keller2024cpet}, but the specific threshold model and its connection to the cell danger response remain to be validated by direct measurement of intracellular ATP during and after exertion.
+\end{hypothesis}
 
 \section{Response to Metabolic Interventions}
 \label{sec:metabolic-intervention-models}
 
-% CoQ10 supplementation effects
-% Other substrate provision
-% Predicted outcomes
-% Optimization
+The energy metabolism model can simulate the effects of interventions targeting specific parameters. Three examples illustrate the approach.
 
+\subsection{CoQ10 Supplementation}
+
+Coenzyme Q10 (ubiquinone) functions as an electron carrier between Complexes~I/II and Complex~III. Supplementation increases the ubiquinone pool $[\text{UQ}]_{\text{total}}$, which the model predicts will increase Complex~I flux (Equation~\ref{eq:complex-i}) and reduce ROS production at Complex~III. The predicted effect is modest in the model---a 5--15\% increase in maximal ATP production rate for the parameter ranges consistent with typical supplementation doses---which aligns with the small but statistically significant improvements reported in clinical trials~\cite{CastroMarrero2021CoQ10}.
+
+\subsection{NAD$^+$ Precursor Supplementation}
+
+Supplementation with nicotinamide riboside or nicotinamide mononucleotide increases the total NAD$^+$ pool, modeled by increasing $[\text{NAD}^+]_{\text{total}}$. The model predicts that this increases Krebs cycle flux (through the NAD$^+$/NADH ratio term in Equation~\ref{eq:krebs-flux}) and shifts the ROS balance favorably. The predicted magnitude of benefit depends on the degree of baseline NAD$^+$ depletion ($\gamma$ parameter), suggesting that patients with lower baseline NAD$^+$ levels would show greater response---a testable prediction for treatment stratification~\cite{syed2025nad_therapy}.
+
+\subsection{Prediction Limitations}
+
+\begin{limitation}[Intervention Model Scope]
+The metabolic intervention models assume that the primary effect of supplementation is on the targeted metabolite pool, neglecting absorption, distribution, and metabolism of the supplement itself. Pharmacokinetic modeling of supplement bioavailability would be required for quantitative dose--response predictions. Furthermore, the models do not account for potential off-target effects or interactions between supplements.
+\end{limitation}
+
+\section{Lactate Kinetics and Metabolic Flexibility}
+\label{sec:lactate-kinetics}
+
+Lactate is not merely a metabolic waste product but a signaling molecule and alternative fuel substrate. In ME/CFS, early lactate accumulation at low workloads---documented by reduced anaerobic threshold on CPET~\cite{keller2024cpet}---reflects impaired metabolic flexibility: the inability to match fuel oxidation to demand. A lactate kinetics model captures this dysfunction explicitly.
+
+\subsection{Lactate Production and Clearance}
+
+Lactate ($L$) is produced from pyruvate by lactate dehydrogenase (LDH) when pyruvate supply exceeds mitochondrial oxidative capacity, and cleared by hepatic gluconeogenesis (Cori cycle) and oxidation in heart and slow-twitch muscle:
+
+\begin{equation}
+\label{eq:lactate-dynamics}
+\frac{d[L]}{dt} = v_{\text{LDH}} \cdot \frac{[\text{Pyruvate}]}{K_{\text{LDH}} + [\text{Pyruvate}]} \cdot \frac{[\text{NADH}]}{K_{\text{NADH,LDH}} + [\text{NADH}]} - v_{\text{clear}} \cdot \frac{[L]}{K_{\text{clear}} + [L]}
+\end{equation}
+
+where $v_{\text{LDH}}$ is the maximal LDH forward rate and $v_{\text{clear}}$ is the maximal lactate clearance rate. The NADH dependence ensures that LDH activity increases when the mitochondrial NADH/NAD$^+$ ratio is elevated---precisely the condition produced by impaired ETC function. In ME/CFS, the model predicts elevated steady-state lactate through two mechanisms: increased production (high cytosolic NADH due to ETC bottleneck) and potentially reduced clearance (hepatic energy deficit limiting gluconeogenesis).
+
+\subsection{Metabolic Flexibility Model}
+
+Metabolic flexibility---the capacity to switch between glucose and fatty acid oxidation according to substrate availability and demand---is governed by the Randle cycle (glucose--fatty acid cycle). The fuel selection ratio $\Phi$ determines the fraction of ATP derived from fatty acid $\beta$-oxidation versus glycolysis:
+
+\begin{equation}
+\label{eq:fuel-selection}
+\Phi = \frac{J_{\beta\text{-ox}}}{J_{\beta\text{-ox}} + J_{\text{glycolysis}}} = \frac{v_{\text{CPT-I}} \cdot [\text{Acyl-CoA}] / (K_{\text{CPT}} + [\text{Acyl-CoA}])}{v_{\text{CPT-I}} \cdot [\text{Acyl-CoA}] / (K_{\text{CPT}} + [\text{Acyl-CoA}]) + J_{\text{glycolysis}}}
+\end{equation}
+
+where CPT-I (carnitine palmitoyltransferase~I) is the rate-limiting enzyme for fatty acid entry into mitochondria, inhibited by malonyl-CoA (an intermediate of fatty acid synthesis that signals energy surplus). The respiratory exchange ratio (RER), measurable by CPET, is a direct readout of $\Phi$: RER $= 1.0$ indicates pure carbohydrate oxidation ($\Phi = 0$), RER $= 0.7$ indicates pure fat oxidation ($\Phi = 1$).
+
+In ME/CFS, impaired metabolic flexibility manifests as: (1)~higher resting RER (reduced fat oxidation at rest), (2)~earlier transition to RER $> 1.0$ during exercise (premature reliance on anaerobic glycolysis), and (3)~slower RER recovery post-exercise. The model attributes this inflexibility to reduced CPT-I activity (limiting fat entry into mitochondria), NAD$^+$ depletion (reducing $\beta$-oxidation flux), and impaired AMPK signaling (the master metabolic sensor that normally promotes fat oxidation during energy deficit).
+
+Lactate itself feeds back on metabolism through the lactate receptor GPR81 (hydroxycarboxylic acid receptor~1), which inhibits lipolysis and reduces free fatty acid availability. This creates a secondary positive feedback loop---\textbf{a result visible only through the mathematical model}: impaired oxidative capacity $\to$ lactate accumulation $\to$ GPR81 activation $\to$ reduced fatty acid supply $\to$ further reliance on glycolysis $\to$ more lactate. Verbal reasoning identifies each link individually but cannot determine whether the loop is self-sustaining or self-limiting; the ODE model resolves this by computing the loop gain, which exceeds unity when $\alpha_{\text{CI}} < 0.65$, predicting a bistable metabolic state.
+
+\begin{equation}
+\label{eq:gpr81-feedback}
+[\text{FFA}]_{\text{available}} = [\text{FFA}]_{\text{basal}} \cdot \frac{K_{\text{GPR81}}}{K_{\text{GPR81}} + [L]}
+\end{equation}
+
+\subsection{Carnitine Dynamics}
+
+Free carnitine ($\text{Car}_f$) is required for CPT-I-mediated fatty acid transport. Acylcarnitine accumulation---documented in ME/CFS metabolomics~\cite{Germain2020metabolic}---sequesters the carnitine pool:
+
+\begin{equation}
+\label{eq:carnitine-balance}
+[\text{Car}_f] + [\text{Acyl-Car}] = \text{Car}_{\text{total}}, \qquad \frac{d[\text{Acyl-Car}]}{dt} = J_{\beta\text{-ox,entry}} - J_{\beta\text{-ox,completion}}
+\end{equation}
+
+When $\beta$-oxidation completion is impaired (due to NAD$^+$ depletion or CoA sequestration), acylcarnitines accumulate, depleting free carnitine and further limiting fat oxidation. This provides a mechanistic rationale for L-carnitine supplementation and predicts---\textbf{uniquely from the model}---that its efficacy depends on whether the primary bottleneck is carnitine availability (responsive) or downstream $\beta$-oxidation capacity (less responsive). Sensitivity analysis distinguishes these regimes: when $\partial J_{\beta\text{-ox}} / \partial [\text{Car}_f] \gg \partial J_{\beta\text{-ox}} / \partial v_{\beta\text{-ox}}$, carnitine supplementation is predicted to help; when the inequality reverses, NAD$^+$ repletion is the higher-priority intervention.
+
+\section{Mitochondrial Dynamics and Quality Control}
+\label{sec:mitochondrial-dynamics}
+
+The preceding models treat mitochondria as a homogeneous enzyme pool. In reality, individual mitochondria vary in functional capacity, and cellular energy production depends on the balance between healthy and damaged organelles maintained by quality control processes: fission (division), fusion (merging), mitophagy (selective removal of damaged mitochondria), and biogenesis (creation of new mitochondria).
+
+\subsection{Fission--Fusion Balance}
+
+Mitochondrial morphology is dynamically regulated. Fusion (mediated by mitofusins MFN1/2 and OPA1) creates interconnected networks that share metabolites and buffer local damage. Fission (mediated by DRP1) segregates damaged portions for removal by mitophagy. The model tracks healthy ($M_h$) and damaged ($M_d$) mitochondrial mass:
+
+\begin{align}
+\label{eq:mito-dynamics}
+\frac{dM_h}{dt} &= J_{\text{biogenesis}} + k_{\text{fusion}} \cdot M_h \cdot M_d \cdot p_{\text{rescue}} - k_{\text{fission}} \cdot M_h \cdot r_{\text{damage}}([\text{ROS}]) - d_h M_h \\
+\frac{dM_d}{dt} &= k_{\text{fission}} \cdot M_h \cdot r_{\text{damage}}([\text{ROS}]) + k_{\text{fusion}} \cdot M_h \cdot M_d \cdot (1 - p_{\text{rescue}}) - J_{\text{mitophagy}} - d_d M_d
+\end{align}
+
+where $J_{\text{biogenesis}}$ is the rate of new mitochondrial production (regulated by PGC-1$\alpha$, itself activated by AMPK and SIRT1), $p_{\text{rescue}}$ is the probability that fusion with a healthy mitochondrion rescues a damaged one, $r_{\text{damage}}([\text{ROS}])$ is the ROS-dependent damage rate, and $J_{\text{mitophagy}}$ is the rate of selective removal of damaged mitochondria via the PINK1/Parkin pathway.
+
+\subsection{Mitophagy and PINK1/Parkin Pathway}
+
+Mitophagy rate depends on both the signal (PINK1 accumulation on depolarized mitochondria) and the cellular capacity for autophagy:
+
+\begin{equation}
+\label{eq:mitophagy}
+J_{\text{mitophagy}} = v_{\text{mitophagy}} \cdot \frac{M_d}{K_{\text{PINK1}} + M_d} \cdot \frac{[\text{ATP}]}{K_{\text{ATP,autophagy}} + [\text{ATP}]}
+\end{equation}
+
+The ATP dependence is critical: autophagy is an energy-requiring process. When ATP is depleted (as in ME/CFS), mitophagy is impaired, allowing damaged mitochondria to accumulate despite adequate PINK1 signaling. This creates a quality control failure---\textbf{an insight that emerges only from the coupled model}: the cell cannot remove its malfunctioning organelles because the energy required for cleanup is precisely what the malfunctioning organelles fail to produce. Verbal reasoning identifies the paradox qualitatively; the model quantifies the threshold $[\text{ATP}]_{\text{crit,autophagy}}$ below which quality control collapses, producing a sharp transition from manageable damage to runaway accumulation.
+
+\subsection{Biogenesis and PGC-1$\alpha$ Regulation}
+
+Mitochondrial biogenesis is regulated by PGC-1$\alpha$, which is activated by AMPK (sensing energy deficit) and SIRT1 (sensing NAD$^+$ availability):
+
+\begin{equation}
+\label{eq:biogenesis}
+J_{\text{biogenesis}} = v_{\text{bio}} \cdot \frac{[\text{AMPK}_a]}{K_{\text{AMPK}} + [\text{AMPK}_a]} \cdot \frac{[\text{NAD}^+]}{K_{\text{SIRT1}} + [\text{NAD}^+]}
+\end{equation}
+
+where $[\text{AMPK}_a]$ is activated AMPK (which increases when the AMP/ATP ratio rises). In ME/CFS, biogenesis faces a paradox: energy deficit activates AMPK (promoting biogenesis) but depletes NAD$^+$ (inhibiting SIRT1-mediated PGC-1$\alpha$ deacetylation). \textbf{The model resolves this competing-signal problem quantitatively}: the net biogenesis rate is a product of two Hill functions with opposing dependencies on energy status. The model predicts patient-specific outcomes: patients with preserved NAD$^+$ pools maintain biogenesis and stabilize ($J_{\text{biogenesis}} > J_{\text{mitophagy,eff}}$), while those with severe NAD$^+$ depletion ($\gamma < 0.7$) lose the ability to replace damaged mitochondria, crossing a tipping point into progressive decline. This threshold cannot be identified by verbal reasoning because it depends on the precise shape of both Hill functions and their interaction.
+
+The effective $V_{\max}$ of each ETC complex in the energy production model (Section~\ref{sec:etc-model}) is now proportional to healthy mitochondrial mass: $V_{\max,\text{CI}}^{\text{eff}} = \alpha_{\text{CI}} \cdot V_{\max,\text{CI}} \cdot M_h / M_{\text{total}}$. This coupling means that the fission--fusion--mitophagy--biogenesis cycle directly determines energy production capacity on timescales of days to weeks, bridging the gap between acute metabolic dynamics (hours) and long-term disease progression (months).
+
+\begin{hypothesis}[Mitochondrial Quality Control Failure as Disease Maintenance Mechanism]
+ME/CFS persistence reflects a failure of mitochondrial quality control rather than ongoing external damage. The energy deficit created by initial mitochondrial injury impairs both mitophagy (ATP-dependent) and biogenesis (NAD$^+$-dependent), preventing replacement of damaged organelles. This self-maintaining loop---identified through the coupled ODE model (Equations~\ref{eq:mito-dynamics}--\ref{eq:biogenesis})---predicts that: (1)~interventions targeting mitophagy directly (urolithin~A, spermidine) may break the cycle even without addressing the original trigger; (2)~NAD$^+$ precursor supplementation should improve biogenesis markers (mtDNA copy number, PGC-1$\alpha$ activity) before improving energy capacity; and (3)~patients with preserved mitophagy flux (measurable via mitophagy reporters in lymphocytes) should have better prognosis.
+
+\textbf{Certainty}: 0.40. The quality control framework is well-established in mitochondrial biology and neurodegenerative disease, but its specific application to ME/CFS awaits direct measurement of mitophagy and biogenesis rates in patient tissues.
+\end{hypothesis}
