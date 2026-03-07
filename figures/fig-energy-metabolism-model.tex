@@ -1,0 +1,212 @@
+% Figure: Integrated Energy Metabolism Model
+% Shows glycolysis → Krebs → ETC pathway with ME/CFS impairment points and ROS feedback loop
+% Equation references correspond to ch27 mathematical formulation
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=2.2cm,
+    scale=0.82, every node/.style={scale=0.82},
+    % Process box style (main pathway)
+    process/.style={draw=green!70!black, fill=green!10, very thick, rounded corners,
+        text width=4.5cm, align=center, minimum height=1.2cm},
+    % Input/output marker
+    io/.style={draw=green!70!black, fill=green!5, thick, rounded corners,
+        text width=2.8cm, align=center, minimum height=0.8cm},
+    % Impairment annotation boxes
+    impairment/.style={draw=red!70!black, fill=red!10, rounded corners,
+        text width=3.2cm, align=center, minimum height=0.8cm, font=\small},
+    % Side output labels
+    output/.style={font=\small\itshape, green!50!black, align=left},
+    % Equation reference
+    eqref/.style={font=\scriptsize\bfseries, green!40!black},
+    % Normal pathway arrows
+    arrow/.style={-latex, very thick, green!70!black, line width=1.2pt},
+    % Impaired/ROS arrows
+    ros-arrow/.style={-latex, very thick, red!70!black, line width=1.5pt},
+    % Energy envelope box
+    envelope/.style={draw=blue!60!black, fill=blue!8, very thick, rounded corners,
+        text width=5cm, align=center, minimum height=1.4cm},
+]
+
+% ============================================================
+% TITLE
+% ============================================================
+\node[font=\large\bfseries, green!70!black] (title) at (0, 0.8) {Integrated Energy Metabolism Model};
+
+% ============================================================
+% MAIN PATHWAY (left-center column, top to bottom)
+% ============================================================
+
+% Glucose input
+\node[io] (glucose) at (0, -0.8) {\textbf{Glucose}};
+
+% Glycolysis
+\node[process, below=2cm of glucose] (glycolysis) {
+    \textbf{Glycolysis}\\[2pt]
+    {\small PFK-1 regulation}
+};
+\node[eqref, left=0.3cm of glycolysis.south west, anchor=east] {Eq.~27.1};
+
+% Pyruvate
+\node[io, below=1.8cm of glycolysis] (pyruvate) {\textbf{Pyruvate}};
+
+% Krebs Cycle
+\node[process, below=2cm of pyruvate] (krebs) {
+    \textbf{Krebs Cycle}\\[2pt]
+    {\small NAD\textsuperscript{+}/NADH regulation}
+};
+\node[eqref, left=0.3cm of krebs.south west, anchor=east] {Eq.~27.2};
+
+% NADH/FADH2
+\node[io, below=1.8cm of krebs] (nadh) {\textbf{NADH / FADH\textsubscript{2}}};
+
+% ETC Complex I
+\node[process, below=2cm of nadh] (etc) {
+    \textbf{ETC Complex~I}\\[2pt]
+    {\small Electron transport}
+};
+\node[eqref, left=0.3cm of etc.south west, anchor=east] {Eq.~27.3};
+
+% Membrane potential
+\node[process, below=2cm of etc] (psi) {
+    \textbf{$\Delta\Psi_m$}\\[2pt]
+    {\small Membrane potential}
+};
+\node[eqref, left=0.3cm of psi.south west, anchor=east] {Eq.~27.4};
+
+% ATP Synthase
+\node[process, below=2cm of psi] (synthase) {
+    \textbf{ATP Synthase}\\[2pt]
+    {\small Chemiosmotic coupling}
+};
+\node[eqref, left=0.3cm of synthase.south west, anchor=east] {Eq.~27.5};
+
+% ATP Balance
+\node[process, draw=blue!60!black, fill=blue!8, below=2cm of synthase] (balance) {
+    \textbf{ATP Balance}\\[2pt]
+    {\small $\frac{d[\text{ATP}]}{dt} = J_{\text{prod}} - J_{\text{demand}}$}
+};
+\node[eqref, left=0.3cm of balance.south west, anchor=east, blue!40!black] {Eq.~27.6};
+
+% ============================================================
+% MAIN PATHWAY ARROWS
+% ============================================================
+\draw[arrow] (glucose) -- (glycolysis);
+\draw[arrow] (glycolysis) -- (pyruvate);
+\draw[arrow] (pyruvate) -- (krebs);
+\draw[arrow] (krebs) -- (nadh);
+\draw[arrow] (nadh) -- (etc);
+\draw[arrow] (etc) -- (psi);
+\draw[arrow] (psi) -- (synthase);
+\draw[arrow] (synthase) -- (balance);
+
+% ============================================================
+% SIDE OUTPUT ANNOTATIONS (left side)
+% ============================================================
+\node[output, left=2.5cm of glycolysis] (out-glyc) {2 ATP\\2 NADH};
+\draw[-latex, thin, green!40!black, dashed] (glycolysis.west) -- (out-glyc.east);
+
+\node[output, left=2.5cm of krebs] (out-krebs) {3 NADH\\1 FADH\textsubscript{2}\\1 GTP};
+\draw[-latex, thin, green!40!black, dashed] (krebs.west) -- (out-krebs.east);
+
+\node[output, left=2.5cm of etc] (out-etc) {$e^-$ transfer\\$H^+$ pumping};
+\draw[-latex, thin, green!40!black, dashed] (etc.west) -- (out-etc.east);
+
+\node[output, left=2.5cm of synthase] (out-synth) {$\sim$32--34 ATP\\(theoretical max)};
+\draw[-latex, thin, green!40!black, dashed] (synthase.west) -- (out-synth.east);
+
+% ============================================================
+% ME/CFS IMPAIRMENT ANNOTATIONS (right side, red boxes)
+% ============================================================
+
+% Impairment 1: NAD+ pool reduced (at Krebs level)
+\node[impairment, right=3cm of krebs] (imp-nad) {
+    \textbf{\color{red!70!black}\ding{56} NAD\textsuperscript{+} pool}\\[2pt]
+    $\gamma$ reduced\\{\scriptsize Depleted cofactor pool}
+};
+\draw[ros-arrow, dashed] (imp-nad.west) -- (krebs.east);
+
+% Impairment 2: Complex I dysfunction (at ETC level)
+\node[impairment, right=3cm of etc] (imp-ci) {
+    \textbf{\color{red!70!black}\ding{56} Complex~I}\\[2pt]
+    $\alpha_{CI}$ reduced\\{\scriptsize Impaired electron transfer}
+};
+\draw[ros-arrow, dashed] (imp-ci.west) -- (etc.east);
+
+% Impairment 3: Proton leak (at membrane potential level)
+\node[impairment, right=3cm of psi] (imp-leak) {
+    \textbf{\color{red!70!black}\ding{56} Proton leak}\\[2pt]
+    $\beta$ increased\\{\scriptsize Uncoupled respiration}
+};
+\draw[ros-arrow, dashed] (imp-leak.west) -- (psi.east);
+
+% ============================================================
+% ROS FEEDBACK LOOP (far right side)
+% ============================================================
+
+% ROS production node (far right, at NADH level to avoid collisions)
+\node[draw=red!70!black, fill=red!15, very thick, rounded corners,
+    text width=3cm, align=center, minimum height=1.2cm,
+    right=7.5cm of nadh] (ros) {
+    \textbf{ROS Production}\\[2pt]
+    {\small Eq.~27.7}
+};
+
+% ETC → ROS: route right from ETC (above imp-ci), then up to ROS
+\coordinate (etc-exit) at ($(etc.north east)+(0,0.15)$);
+\coordinate (etc-waypoint) at ($(etc-exit)+(5.8,0)$);
+\draw[ros-arrow] (etc-exit) -- (etc-waypoint) |- (ros.south)
+    node[pos=0.12, above, font=\scriptsize, red!60!black] {$e^-$ leak};
+
+% ROS → ETC damage: loop right of ROS, down, back to ETC
+\coordinate (loop-right) at ($(ros.east)+(1.5,0)$);
+\coordinate (loop-bottom) at ($(loop-right |- etc.east)+(0,0)$);
+\coordinate (etc-return) at ($(etc.south east)+(0,-0.15)$);
+\draw[ros-arrow, line width=2pt]
+    (ros.east) -- (loop-right)
+    -- (loop-bottom)
+    node[pos=0.45, right, font=\scriptsize\itshape, red!60!black, text width=2cm, align=left]
+        {oxidative\\damage to\\complexes}
+    -| (etc-return);
+
+% Impairment 4: ROS elevated annotation
+\node[impairment, above=1cm of ros] (imp-ros) {
+    \textbf{\color{red!70!black}\ding{56} ROS elevated}\\[2pt]
+    {\scriptsize Exceeds antioxidant capacity}
+};
+\draw[ros-arrow, dashed] (imp-ros.south) -- (ros.north);
+
+% Vicious cycle label (along the right descent of the feedback loop)
+\node[font=\small\bfseries, red!70!black, rotate=-90]
+    at ($(loop-right)+(0.8,-1)$)
+    {VICIOUS CYCLE};
+
+% ============================================================
+% ENERGY ENVELOPE (bottom)
+% ============================================================
+\node[envelope, below=2.2cm of balance] (envelope) {
+    \textbf{Energy Envelope}\\[3pt]
+    {\small $\text{Activity} \leq E_{\text{available}}(t)$}\\[2pt]
+    {\scriptsize Adaptive pacing boundary (Eq.~27.12)}
+};
+\draw[-latex, very thick, blue!60!black, line width=1.2pt] (balance) -- (envelope);
+
+% ============================================================
+% LEGEND (relative to envelope, bottom-left)
+% ============================================================
+\node[anchor=north west, font=\small] at ($(envelope.south west)+(-2.5,-0.6)$) {
+    \begin{tabular}{@{}cl@{\qquad}cl@{}}
+        \tikz\draw[-latex, very thick, green!70!black, line width=1pt] (0,0) -- (0.7,0); & Normal flow &
+        \tikz\draw[-latex, very thick, red!70!black, dashed, line width=1pt] (0,0) -- (0.7,0); & ME/CFS impairment \\[4pt]
+        \tikz\draw[-latex, very thick, red!70!black, line width=1.5pt] (0,0) -- (0.7,0); & ROS feedback &
+        {\color{red!70!black}\ding{56}} & Dysfunction marker \\
+    \end{tabular}
+};
+
+\end{tikzpicture}
+\caption{Integrated energy metabolism model showing glycolysis, Krebs cycle, and electron
+transport chain with ME/CFS impairment points (red) and the ROS-mediated damage feedback loop.
+Equation references correspond to the mathematical formulation in the text.}
+\label{fig:energy-metabolism-model}
+\end{figure}

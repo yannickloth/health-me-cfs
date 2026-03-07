@@ -10,11 +10,9 @@ A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conve
 This chapter proposes that ME/CFS represents \emph{selective} rather than global energy dysfunction---specifically, a CNS coordination failure that impairs demand-responsive, CNS-dependent processes while sparing autonomous local processes that operate independently of central regulation.
 \end{open_question}
 
-\rev{5}
 \begin{limitation}[Preserved Processes: Informal Clinical Observation, Not Measured]
 The foundational claim that hair growth, nail growth, and wound healing are preserved in ME/CFS derives from patient self-reports and informal clinical experience. No published study has formally measured hair growth rate, nail growth rate, or wound healing time in ME/CFS patients compared to matched controls. These processes may in fact be subtly impaired without patients noticing, or they may appear preserved because their energy demands are negligible relative to the total energy budget even in health. The ``selective vs.\ global'' distinction may therefore be a continuum rather than a dichotomy, and the motivating observation could be an artefact of measurement insensitivity.
 \end{limitation}
-\revend
 
 \subsection{Motivation and Clinical Observations}
 
@@ -114,24 +112,19 @@ where $\epsilon$ is residual error. \textbf{Working assumption:} $\epsilon \sim 
 \textbf{Certainty:} 0.55 (moderate evidence from clinical observations, formal testing required)
 \end{hypothesis}
 
-\rev{5}
 \begin{limitation}[Quantitative Framework: Unfitted Parameters and Circularity Risk]
 The CNS-dependency index $\delta_{CNS}$, demand-responsiveness index $\tilde{\rho}$, and dysfunction severity $S(P)$ are defined mathematically but have never been fitted to empirical data. The parameter values in Table~\ref{tab:process-classification} are ``expert estimates'' that partly reflect the clinical picture the model aims to predict --- as acknowledged in the independence requirement (line~104). Until $\delta_{CNS}$ and $\tilde{\rho}$ are estimated from independent sources (neuroanatomical pathway counts, healthy-control demand-scaling measurements), the correlation between predicted and observed dysfunction severity is circular. The weights $\alpha$, $\beta$, $\gamma$ have not been estimated from data and the interaction term's contribution is unknown. The framework is therefore a formalised heuristic, not a validated quantitative model.
 \end{limitation}
-\revend
 
 
 \subsection{Evidence Taxonomy}
 
-\rev{5}
 \begin{warning}[Table Values Are Illustrative, Not Independent Validation]
 The $\delta_{CNS}$ and $\tilde{\rho}$ values in Table~\ref{tab:process-classification} are expert estimates that partly reflect the clinical picture the model aims to predict. \textbf{Using these values to test the correlation $\rho_s > 0.7$ would be circular and non-falsifiable.} Independent validation requires estimating parameters from sources outside ME/CFS clinical observations (e.g., neuroanatomical pathway counts in healthy individuals). The table illustrates the model's framework and internal consistency; it does \emph{not} constitute evidence for or against the hypothesis. See Predictions~\ref{pred:hair-follicle}--\ref{pred:cognitive-hierarchy} for independently testable predictions.
 \end{warning}
 
-\rev{5}
 Table~\ref{tab:process-classification} classifies biological processes by their predicted and observed dysfunction status.
 
-\rev{5}
 \begin{table}[htbp]
 \centering
 \small
@@ -156,7 +149,6 @@ Sleep architecture & 0.9 & 0.3 & 0.80 & Severe & 0.8 \\
 Immune response to challenge & 0.5 & 0.7 & 0.79 & Dysregulated & 0.65 \\
 \bottomrule
 \end{tabular}
-\revend
 
 \vspace{0.3cm}
 \footnotesize
@@ -167,7 +159,6 @@ $^{\dagger}$\textit{Hair and nail growth:} Certainty 0.4 reflects that ``preserv
 $^{\ddagger}$\textit{Digestion (baseline):} The $\tilde{\rho} = 0.2$ value reflects demand-up scaling under normal eating conditions. The fight-or-flight suppression of digestion (a negative demand-response) is modeled separately as $\rho = 0$ per the convention in Definition~\ref{def:demand-responsiveness}.
 \end{table}
 
-\rev{5}
 \begin{observation}[Demand-Response Failure Pattern]
 \label{obs:demand-response}
 ME/CFS patients consistently show \emph{preserved baseline function} with \emph{impaired challenge response}:
@@ -176,7 +167,6 @@ ME/CFS patients consistently show \emph{preserved baseline function} with \emph{
     \item Exercise challenge: 2-day CPET reveals decline on day 2 (vs. improvement in controls)~\cite{keller2024cpet}
     \item Cognitive challenge: Fatigue elevated 24--48h post-cognitive task~\cite{VanCampen2023PEM}
 \end{itemize}
-\revend
 
 This pattern is diagnostic: baseline function is maintained, but the system cannot scale to meet increased demand. This is precisely what the selective dysfunction model predicts for high-$\rho$ processes.
 \end{observation}
@@ -190,7 +180,6 @@ Figure~\ref{fig:selective-dysfunction-dag} presents the causal structure for sel
 
 The causal diagram encodes the following claims with certainty-weighted edges:
 
-\rev{5}
 \begin{enumerate}
     \item \textbf{Triggers $\rightarrow$ CNS Energy Crisis} (certainty: 0.65--0.70): Viral infection, immune dysregulation, or severe stress initiates CNS energy deficit~\cite{Komaroff2023}
     \item \textbf{CNS Crisis $\rightarrow$ Cognitive Dysfunction} (certainty: 0.85): Direct effect of brain hypometabolism~\cite{Nakatomi2014neuroinflammation,walitt2024deep}
@@ -198,7 +187,6 @@ The causal diagram encodes the following claims with certainty-weighted edges:
     \item \textbf{Autonomic Failure $\rightarrow$ Orthostatic Intolerance} (certainty: 0.75): Secondary to failed cardiovascular coordination~\cite{VanCampenEtAl2020}
     \item \textbf{Sub-threshold edge: CNS $\rightarrow$ Autonomous Processes}: Hair/nails ($\delta_{CNS} = 0.1$, $\tilde{\rho} = 0$: $S = 0.06$) and wound healing ($\delta_{CNS} = 0.2$, $\tilde{\rho} = 0.2$: $S = 0.24$) all fall in the preserved range of Table~\ref{tab:process-classification}; all yield $S \leq 0.24$, well below the lowest impaired process ($S = 0.79$, immune response to challenge)
 \end{enumerate}
-\revend
 
 
 \subsection{Mechanistic Sub-Hypotheses}
@@ -209,11 +197,9 @@ Three hypotheses (certainty $\geq 0.45$) and two speculations (certainty $< 0.45
 
 The astrocyte-neuron lactate shuttle (ANLS) provides 30--50\% of neuronal ATP~\cite{Pellerin1994,Magistretti2018}. Unlike peripheral tissues with direct glucose access, neurons depend on astrocytes to convert glucose to lactate and shuttle it via monocarboxylate transporters (MCT2/MCT4).
 
-\rev{5}
 \begin{speculation}[Astrocyte Energy Gate]
 \label{spec:astrocyte-gate}
 Dysfunction in the astrocyte-neuron lactate shuttle causes CNS-specific energy failure while peripheral tissues (with direct glucose access) remain unaffected.
-\revend
 
 \textbf{Mechanism:}
 \begin{align}
@@ -314,11 +300,9 @@ where $\mathrm{sigm}(x) = 1/(1+e^{-x})$ is the logistic sigmoid function (distin
 
 ME/CFS may represent incomplete engagement of torpor-like metabolic suppression mechanisms.
 
-\rev{5}
 \begin{speculation}[Partial Torpor Trap]
 \label{spec:torpor}
 ME/CFS involves partial engagement of torpor/hibernation pathways with failed arousal, trapping patients in a low-metabolic state.
-\revend
 
 \textbf{Torpor engagement dynamics:}
 \[
@@ -444,11 +428,9 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
 
 The selective dysfunction framework suggests natural subtypes based on primary compartment affected.
 
-\rev{5}
 \begin{speculation}[Selective Dysfunction Subtypes]
 \label{spec:subtypes}
 ME/CFS can be classified into subtypes based on which compartment shows primary dysfunction:
-\revend
 
 \textbf{Input features (with measurement basis):}
 \begin{itemize}
@@ -527,11 +509,9 @@ The following thresholds are \emph{preliminary estimates} based on effect sizes 
 \textbf{Certainty:} 0.35 (framework theoretically motivated; all thresholds are preliminary estimates requiring empirical validation before any clinical application)
 \end{speculation}
 
-\rev{5}
 \begin{limitation}[Subtype Classification: No Empirical Validation]
 The four-subtype classification (CNS-Primary, Autonomic-Primary, Peripheral-Primary, Global/Advanced) has not been tested against patient data. The classification thresholds ($-1.5\sigma$, $2\sigma$, $25\%$ CBF reduction) are preliminary estimates, not data-derived cut-points. No multi-biomarker cohort study has simultaneously measured CSF catecholamines, orthostatic CBF, muscle ATP, and neuroimaging abnormalities in ME/CFS patients to determine whether natural clusters correspond to these proposed subtypes. The Subtype~E (Unclassified) category may capture the majority of patients, rendering the classification clinically impractical. Treatment stratification based on these subtypes is entirely hypothetical.
 \end{limitation}
-\revend
 
 \subsection{Treatment Implications}
 
@@ -550,7 +530,6 @@ This is consistent with the selective dysfunction model: the dominant problem ma
 
 \subsubsection{Therapeutic Strategy}
 
-\rev{5}
 \begin{keypoint}[Treatment Strategy from Selective Dysfunction Model]
 \begin{enumerate}
     \item \textbf{CNS-targeted delivery}: Intranasal or intrathecal routes may outperform oral for CNS-targeted compounds
@@ -559,7 +538,6 @@ This is consistent with the selective dysfunction model: the dominant problem ma
     \item \textbf{Subtype-specific targeting}: Match intervention to primary dysfunction compartment (see subtype classification, Speculation~\ref{spec:subtypes})
 \end{enumerate}
 \end{keypoint}
-\revend
 
 For mechanism-specific treatment implications, see Section~\ref{subsec:related-hypotheses}, where each of the ten related hypotheses includes dedicated treatment and limitations paragraphs.
 
@@ -618,11 +596,9 @@ This hypothesis has certainty 0.50. No published studies have directly quantifie
 
 \subsubsection{Gut-Brain Energy Theft Hypothesis}
 
-\rev{5}
 \begin{speculation}[Microbiome-Induced CNS Energy Depletion]
 \label{spec:gut-brain-theft}
 Dysbiotic gut microbiome increases CNS metabolic burden through chronic immune activation, ``stealing'' energy from cognitive function.
-\revend
 
 \textbf{Relationship to parent hypothesis:} Adds upstream mechanism for CNS energy budget depletion.
 
@@ -667,11 +643,9 @@ This hypothesis has certainty 0.45. GPCR autoantibodies are found in approximate
 
 \subsubsection{Small Fiber Neuropathy Interface Failure}
 
-\rev{5}
 \begin{speculation}[SFN Increases CNS Coordination Load]
 \label{spec:sfn-interface}
 Small fiber neuropathy (SFN) found in $\sim$30\% of ME/CFS patients~\cite{Azcue2025sfn} increases CNS metabolic load by requiring compensatory signaling to maintain autonomic control.
-\revend
 
 \textbf{Relationship to parent hypothesis:} SFN as amplifier of peripheral-CNS communication cost.
 
@@ -791,11 +765,9 @@ This hypothesis has certainty 0.55. The prediction of a significant interaction 
 
 \subsubsection{Post-Viral CNS Metabolic Reprogramming}
 
-\rev{5}
 \begin{speculation}[Persistent Astrocyte Metabolic Shift Post-Infection]
 \label{spec:post-viral-reprogram}
 Viral infection triggers persistent astrocyte metabolic reprogramming toward a ``reactive'' state with reduced lactate shuttle efficiency, causing chronic CNS energy deficit.
-\revend
 
 \textbf{Relationship to parent hypothesis:} Viral trigger mechanism for astrocyte energy gate dysfunction.
 
@@ -853,7 +825,6 @@ The selective dysfunction hypothesis integrates with and extends existing models
     \item \textbf{Mitochondrial Dysfunction} (Chapter~\ref{ch:energy-metabolism}): Constrains location---mitochondrial dysfunction may be CNS-specific or CNS-predominant rather than global
 \end{itemize}
 
-\rev{5}
 \begin{limitation}[Selective Dysfunction Framework: Alternative Explanations Not Excluded]
 The selective dysfunction hypothesis provides an internally consistent framework, but alternative explanations for the same clinical pattern have not been excluded:
 \begin{itemize}
@@ -862,7 +833,6 @@ The selective dysfunction hypothesis provides an internally consistent framework
     \item \textbf{Post-hoc fitting}: The 17 hypotheses and speculations in this chapter were developed to explain known ME/CFS features. No prediction from this framework has been tested prospectively.
 \end{itemize}
 \end{limitation}
-\revend
 
 
 \subsection{Limitations and Uncertainties}

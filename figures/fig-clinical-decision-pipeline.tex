@@ -1,0 +1,153 @@
+% Figure: Model-Based Clinical Decision Support Pipeline
+% Clinical translation pipeline for Chapter 32 (Predictive Applications)
+% Shows 4-stage flow: Data Collection → Model Fitting → Simulation → Decision
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=2.5cm and 3cm,
+    >=Stealth,
+    scale=0.78, every node/.style={scale=0.78, font=\sffamily},
+    % Stage box styles
+    stagebox/.style={
+        draw=#1!70!black, fill=#1!8, very thick,
+        rounded corners=6pt, text width=4.2cm, align=center,
+        minimum height=1.2cm, font=\sffamily\bfseries
+    },
+    % Sub-item container
+    subbox/.style={
+        draw=#1!50!black, fill=#1!5, thin,
+        rounded corners=3pt, text width=4.0cm, align=left,
+        inner sep=5pt, font=\sffamily\small
+    },
+    % Pipeline arrow
+    pipe/.style={
+        -latex, line width=2pt, #1!60!black
+    },
+    % Timeline styles
+    timeline/.style={
+        draw=gray!60, line width=1.5pt
+    },
+    milestone/.style={
+        diamond, draw=#1!70!black, fill=#1!30,
+        minimum size=8pt, inner sep=0pt
+    },
+    timelabel/.style={
+        font=\sffamily\scriptsize, align=center, text width=3.2cm
+    }
+]
+
+% =====================================================================
+% STAGE 1: Data Collection (green)
+% =====================================================================
+\node[stagebox=green!70!black] (s1title) {Patient Biomarkers};
+\node[subbox=green!70!black, below=0.4cm of s1title] (s1items) {%
+    \textbullet~CPET (VO\textsubscript{2}max, AT)\\
+    \textbullet~Cytokine panel\\
+    \textbullet~HRV / Tilt test\\
+    \textbullet~Cortisol rhythm\\
+    \textbullet~Metabolomics%
+};
+
+% =====================================================================
+% STAGE 2: Model Fitting (blue)
+% =====================================================================
+\node[stagebox=blue, right=2.8cm of s1title] (s2title) {Parameter Estimation};
+\node[subbox=blue, below=0.4cm of s2title] (s2items) {%
+    $\hat{\theta}_{\text{patient}} = \displaystyle\operatorname*{arg\,min}_{\theta}
+    \sum_{i} \frac{(y_i - \hat{y}_i)^2}{\sigma_i^2}$\\[6pt]
+    Bayesian posterior:\\
+    $p(\theta \mid \mathbf{y}) \propto p(\mathbf{y} \mid \theta)\, p(\theta)$%
+};
+
+% =====================================================================
+% STAGE 3: Simulation (purple)
+% =====================================================================
+\node[stagebox=violet, right=2.8cm of s2title] (s3title) {Intervention Simulation};
+\node[subbox=violet, below=0.4cm of s3title] (s3items) {%
+    CoQ10 $\to$ $\Delta E_{\text{budget}}$\,?\\
+    LDN $\to$ $\Delta C_{\text{pro}}$\,?\\
+    Pacing $\to$ $\Delta D_{\text{total}}$\,?\\[4pt]
+    \textit{Rank by predicted}\\
+    \textit{improvement}%
+};
+
+% =====================================================================
+% STAGE 4: Clinical Decision (orange)
+% =====================================================================
+\node[stagebox=orange, right=2.8cm of s3title] (s4title) {Treatment Recommendation};
+\node[subbox=orange, below=0.4cm of s4title] (s4items) {%
+    If $\alpha_{\text{CI}} < 0.6$:\\
+    \quad metabolic support\\[2pt]
+    If $C_{\text{pro}} > 2\times$:\\
+    \quad immunomodulation\\[2pt]
+    If $\Delta\text{HR} > 30$\,bpm:\\
+    \quad autonomic support%
+};
+
+% =====================================================================
+% PIPELINE ARROWS (between stage title boxes)
+% =====================================================================
+\draw[pipe=green!70!black] (s1title.east) -- (s2title.west);
+\draw[pipe=blue] (s2title.east) -- (s3title.west);
+\draw[pipe=violet] (s3title.east) -- (s4title.west);
+
+% =====================================================================
+% STAGE NUMBERS
+% =====================================================================
+\node[circle, draw=green!70!black, fill=green!20, font=\sffamily\bfseries\small,
+      inner sep=2pt, minimum size=18pt,
+      above=0.3cm of s1title] {1};
+\node[circle, draw=blue!70!black, fill=blue!20, font=\sffamily\bfseries\small,
+      inner sep=2pt, minimum size=18pt,
+      above=0.3cm of s2title] {2};
+\node[circle, draw=violet!70!black, fill=violet!20, font=\sffamily\bfseries\small,
+      inner sep=2pt, minimum size=18pt,
+      above=0.3cm of s3title] {3};
+\node[circle, draw=orange!70!black, fill=orange!20, font=\sffamily\bfseries\small,
+      inner sep=2pt, minimum size=18pt,
+      above=0.3cm of s4title] {4};
+
+% =====================================================================
+% IMPLEMENTATION ROADMAP (bottom timeline)
+% =====================================================================
+
+% Compute vertical anchor below the deepest sub-box
+\coordinate (tlstart) at ($ (s1items.south) + (0, -1.8cm) $);
+\coordinate (tlend)   at ($ (s4items.south) + (0, -1.8cm) $);
+
+% Horizontal positions aligned with stages
+\coordinate (m1) at (s1items.south |- tlstart);
+\coordinate (m2) at (s2items.south |- tlstart);
+\coordinate (m3) at (s3items.south |- tlstart);
+\coordinate (m4) at (s4items.south |- tlstart);
+
+% Timeline arrow
+\draw[timeline, -latex] ($ (m1) + (-0.8cm, 0) $) -- ($ (m4) + (0.8cm, 0) $);
+
+% Milestone diamonds
+\node[milestone=green!70!black] (d1) at (m1) {};
+\node[milestone=blue]           (d2) at (m2) {};
+\node[milestone=violet]         (d3) at (m3) {};
+\node[milestone=orange]         (d4) at (m4) {};
+
+% Milestone labels
+\node[timelabel, below=0.3cm of d1] {\textbf{Current}\\In silico\\validation};
+\node[timelabel, below=0.3cm of d2] {\textbf{Near-term}\\Retrospective\\validation};
+\node[timelabel, below=0.3cm of d3] {\textbf{Medium-term}\\Prospective\\validation};
+\node[timelabel, below=0.3cm of d4] {\textbf{Long-term}\\Clinical tool\\development};
+
+% Roadmap title
+\node[font=\sffamily\bfseries\small, anchor=east]
+    at ($ (m1) + (-1.2cm, 0.5cm) $) {Implementation Roadmap};
+
+\end{tikzpicture}
+\caption{Clinical translation pipeline from patient data to treatment
+    recommendations. Patient biomarkers (Stage~1) are used to estimate
+    individual model parameters (Stage~2), which enable simulation of
+    candidate interventions (Stage~3) and generation of personalized
+    treatment recommendations (Stage~4). The implementation roadmap
+    (bottom) shows the staged path from current research tools to
+    validated clinical instruments.}
+\label{fig:clinical-decision-pipeline}
+\end{figure}

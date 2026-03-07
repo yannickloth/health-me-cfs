@@ -1,0 +1,194 @@
+% Figure: HPA Axis Model with ME/CFS Dysfunction
+% Mathematical model diagram for Chapter 29 (Neuroendocrine Models)
+% Shows cascade, feedback loops, inputs, and ME/CFS dysfunction annotations
+
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    node distance=2.5cm and 3cm,
+    >=Stealth,
+    every node/.style={font=\sffamily},
+    % Organ boxes
+    organ/.style={
+        draw=orange!70!black, fill=orange!10, very thick,
+        rounded corners, text width=4.2cm, align=center,
+        minimum height=1.2cm, font=\sffamily\bfseries
+    },
+    % Hormone labels on arrows
+    hormone/.style={
+        font=\sffamily\small, fill=white, inner sep=2pt
+    },
+    % Negative feedback arrows
+    inhibit/.style={
+        -Bar, thick, red!70!black, dashed
+    },
+    % Input arrows
+    input-arrow/.style={
+        -Stealth, thick, blue!70!black
+    },
+    % Input source box
+    input-box/.style={
+        draw=blue!60!black, fill=blue!5, rounded corners,
+        font=\sffamily\small, text=blue!70!black,
+        text width=2.8cm, align=center, minimum height=0.8cm,
+        inner sep=3pt
+    },
+    % Input equation label
+    input-eq/.style={
+        font=\sffamily\scriptsize, text=blue!50!black
+    },
+    % ME/CFS dysfunction annotation
+    mecfs/.style={
+        draw=red!70!black, fill=red!8, rounded corners,
+        font=\sffamily\scriptsize, text=red!70!black,
+        inner sep=4pt, align=left
+    },
+    % Connection to immune system
+    immune-box/.style={
+        draw=purple!70!black, fill=purple!8, very thick,
+        rounded corners, text width=3cm, align=center,
+        minimum height=1cm, font=\sffamily\bfseries
+    },
+    % Cascade arrow
+    cascade/.style={
+        -Stealth, very thick, orange!70!black
+    },
+]
+
+% ============================================================
+% TITLE
+% ============================================================
+\node[font=\sffamily\large\bfseries, orange!70!black]
+    (title) at (1, 1.5) {HPA Axis Model with ME/CFS Dysfunction};
+
+% ============================================================
+% MAIN CASCADE (center column)
+% ============================================================
+
+\node[organ] (hypo) at (1, 0) {Hypothalamus};
+\node[organ, below=2.8cm of hypo] (pit) {Anterior Pituitary};
+\node[organ, below=2.8cm of pit] (adr) {Adrenal Cortex};
+\node[organ, below=2.8cm of adr, draw=orange!50!black, fill=orange!5]
+    (target) {Target Tissues / Effects};
+
+% ============================================================
+% CASCADE ARROWS with hormone labels
+% ============================================================
+
+\draw[cascade] (hypo.south) -- (pit.north)
+    node[hormone, midway, left=4pt] {CRH ($H$)};
+\draw[cascade] (pit.south) -- (adr.north)
+    node[hormone, midway, left=4pt] {ACTH ($A$)};
+\draw[cascade] (adr.south) -- (target.north)
+    node[hormone, midway, left=4pt] {Cortisol ($F$)};
+
+% ============================================================
+% NEGATIVE FEEDBACK LOOPS (right side)
+% Feedback taps off the cortisol arrow (midway adr→target)
+% Routes rightward then up, entering organ boxes from the right
+% ============================================================
+
+% Feedback tap point on cortisol arrow
+\coordinate (fb-tap) at ($ (adr.south)!0.5!(target.north) $);
+
+% --- Long loop: Cortisol → Hypothalamus ---
+\draw[inhibit]
+    (fb-tap) -- ++(5cm, 0) coordinate (fb-long-corner)
+    |- ($ (hypo.east) + (0, 0) $);
+\node[hormone, text=red!70!black, anchor=west] at (6.1, -2.5) {$K_F,\; n_F$};
+
+% --- Short loop: Cortisol → Pituitary ---
+\draw[inhibit]
+    (fb-tap) -- ++(3.5cm, 0) coordinate (fb-short-corner)
+    |- ($ (pit.east) + (0, 0) $);
+\node[hormone, text=red!70!black, anchor=west] at (4.6, -4.5) {$K_F,\; n_{FA}$};
+
+% Feedback annotation
+\node[font=\sffamily\scriptsize, text=red!60!black, align=center]
+    at (6.1, 0.8) {Negative\\feedback};
+
+% ============================================================
+% INPUTS (left side)
+% ============================================================
+
+% Circadian clock
+\node[input-box] (circ) at (-3.5, 0.4)
+    {Circadian clock};
+\node[input-eq, below=1pt of circ]
+    {$\sin(2\pi t/24 - \varphi_c)$};
+\draw[input-arrow] (circ.east) -- (hypo.west |- circ.east);
+
+% Stress
+\node[input-box] (stress) at (-3.5, -0.9)
+    {Stress input};
+\node[input-eq, below=1pt of stress]
+    {$\sigma_{\text{stress}}(t)$};
+\draw[input-arrow] (stress.east) -- (hypo.west |- stress.east);
+
+% Immune cytokines
+\node[input-box] (cyto) at (-3.5, -2.2)
+    {Immune cytokines};
+\node[input-eq, below=1pt of cyto]
+    {from immune model};
+\draw[input-arrow] (cyto.east) -- ++(0.5, 0) |- ($ (hypo.south west) + (0, 0.1) $);
+
+% ============================================================
+% ME/CFS DYSFUNCTION ANNOTATIONS
+% ============================================================
+
+% At Hypothalamus: enhanced feedback sensitivity (right, near feedback)
+\node[mecfs, text width=3.5cm, anchor=west] (mecfs-hypo) at (7, -1.2)
+    {$\uparrow\; n_F$ enhanced\\feedback sensitivity};
+\draw[red!50!black, thick, dotted, -Stealth]
+    (mecfs-hypo.north) -- ++(0, 0.5) -| (fb-long-corner);
+
+% At Circadian: blunted amplitude (left of circadian box)
+\node[mecfs, text width=3cm, anchor=east] (mecfs-circ) at (-6.2, 0.4)
+    {$\downarrow\; a_c$ blunted\\circadian amplitude};
+\draw[red!50!black, thick, dotted, -Stealth]
+    (mecfs-circ.east) -- (circ.west);
+
+% At Stress: reduced gain (left of stress box)
+\node[mecfs, text width=3cm, anchor=east] (mecfs-stress) at (-6.2, -0.9)
+    {$\downarrow\; \sigma_{\text{stress}}$ gain};
+\draw[red!50!black, thick, dotted, -Stealth]
+    (mecfs-stress.east) -- (stress.west);
+
+% At Cortisol output: low-normal (right, at target tissues level)
+\node[mecfs, text width=3.5cm, anchor=west]
+    (mecfs-cort) at (7, 0 |- target) {Low-normal cortisol\\output};
+\draw[red!50!black, thick, dotted, -Stealth]
+    (mecfs-cort.west) -- (target.east);
+
+% ============================================================
+% CONNECTION TO IMMUNE SYSTEM (bottom)
+% ============================================================
+
+\node[immune-box, below=2cm of target] (brake)
+    {Anti-inflammatory\\Brake};
+\node[immune-box, right=3cm of brake] (immune)
+    {Immune System\\{\normalfont\small(Eq.~\ref{eq:cortisol-immune})}};
+
+\draw[cascade] (target.south) -- (brake.north)
+    node[hormone, midway, left=4pt] {$F$};
+\draw[inhibit] (brake.east) -- (immune.west)
+    node[hormone, midway, above=4pt, text=purple!70!black] {suppresses};
+
+% ME/CFS annotation at immune connection
+\node[mecfs, below=0.8cm of brake, text width=7.5cm, align=center]
+    (mecfs-immune) {Weakened in ME/CFS
+    $\rightarrow$ permits sustained inflammation};
+\draw[red!50!black, thick, dotted]
+    (mecfs-immune.north) -- (brake.south);
+
+\end{tikzpicture}%
+}% end resizebox
+\caption{HPA axis feedback model (Equation~\ref{eq:hpa-axis}). The
+hypothalamus--pituitary--adrenal cascade produces cortisol under circadian and
+stress-driven regulation with negative feedback at hypothalamic and pituitary
+levels. In ME/CFS (red annotations), enhanced feedback sensitivity, blunted
+circadian amplitude, and reduced stress responsiveness produce low-normal
+cortisol that inadequately restrains immune activation.}
+\label{fig:hpa-axis-model}
+\end{figure}

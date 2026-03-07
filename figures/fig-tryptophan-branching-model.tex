@@ -1,0 +1,132 @@
+% Figure: Tryptophan Metabolism — Serotonin vs. Kynurenine Pathway
+% Branching pathway with immune modulation via IFN-gamma upregulation of IDO
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=2.5cm and 3.5cm,
+    >=latex,
+    % Node styles
+    input/.style={draw=green!70!black, fill=green!10, very thick, rounded corners,
+        text width=4cm, align=center, minimum height=1.2cm},
+    serotonin/.style={draw=blue!70!black, fill=blue!10, very thick, rounded corners,
+        text width=3.8cm, align=center, minimum height=1cm},
+    kynurenine/.style={draw=red!70!black, fill=red!10, very thick, rounded corners,
+        text width=3.8cm, align=center, minimum height=1cm},
+    enzyme/.style={draw=gray!60, fill=gray!8, rounded corners,
+        text width=3.2cm, align=center, minimum height=0.9cm, font=\small},
+    cofactor/.style={draw=orange!70!black, fill=orange!10, very thick, rounded corners,
+        text width=3.5cm, align=center, minimum height=1cm},
+    immune/.style={draw=red!80!black, fill=red!5, very thick, rounded corners,
+        text width=3.5cm, align=center, minimum height=1cm},
+    consequence/.style={draw=black!70, fill=yellow!8, very thick, rounded corners,
+        text width=12cm, align=left, minimum height=1.5cm, font=\small},
+    note/.style={font=\small\itshape, text width=3.5cm, align=center},
+    arrow/.style={-latex, very thick},
+    arrow-blue/.style={-latex, very thick, blue!70!black},
+    arrow-red/.style={-latex, very thick, red!70!black},
+    arrow-immune/.style={-latex, ultra thick, red!80!black, dashed},
+]
+
+% Title
+\node[font=\large\bfseries] (title) at (0, 0)
+    {Tryptophan Metabolism: Serotonin vs.\ Kynurenine Pathway};
+
+% === Central input ===
+\node[input, below=2cm of title] (trp)
+    {\textbf{Tryptophan (W)}\\Essential amino acid};
+
+% Dietary intake arrow
+\node[above left=1.2cm and 2cm of trp, font=\small] (intake-label)
+    {Dietary intake $I_W$};
+\draw[arrow, green!70!black] (intake-label) -- (trp);
+
+% === LEFT BRANCH: Serotonin pathway (blue) ===
+
+% TPH enzyme
+\node[enzyme, below left=2.5cm and 3cm of trp] (tph)
+    {\textit{Tryptophan Hydroxylase}\\(TPH)};
+\draw[arrow-blue] (trp) -- node[above left, font=\small, pos=0.4] {$v_{\mathrm{TPH}}$, $K_{\mathrm{TPH}}$} (tph);
+
+% 5-HTP
+\node[serotonin, below=2cm of tph] (htp)
+    {\textbf{5-HTP}\\5-Hydroxytryptophan};
+\draw[arrow-blue] (tph) -- (htp);
+
+% Serotonin
+\node[serotonin, below=2cm of htp] (serotonin)
+    {\textbf{Serotonin (5-HT)}};
+\draw[arrow-blue] (htp) -- (serotonin);
+
+% Serotonin annotation
+\node[note, blue!70!black, below=1.2cm of serotonin]  (sero-note)
+    {Normal mood, sleep,\\pain modulation};
+
+% === RIGHT BRANCH: Kynurenine pathway (red) ===
+
+% IDO enzyme
+\node[enzyme, below right=2.5cm and 3cm of trp] (ido)
+    {\textit{Indoleamine 2,3-Dioxygenase}\\(IDO)};
+\draw[arrow-red] (trp) -- node[above right, font=\small, pos=0.4] {$v_{\mathrm{IDO}}$, $K_{\mathrm{IDO}}$} (ido);
+
+% Kynurenine
+\node[kynurenine, below=2cm of ido] (kyn)
+    {\textbf{Kynurenine (K)}};
+\draw[arrow-red] (ido) -- (kyn);
+
+% Quinolinic acid
+\node[kynurenine, below=2cm of kyn] (quin)
+    {\textbf{Quinolinic Acid}\\Neurotoxic metabolite};
+\draw[arrow-red] (kyn) -- (quin);
+
+% Kynurenine annotation
+\node[note, red!70!black, below=1.2cm of quin] (kyn-note)
+    {Neurotoxic metabolites\\NMDA receptor agonist};
+
+% === IFN-gamma immune modulation ===
+\node[immune, right=3cm of ido] (ifng)
+    {\textbf{IFN-$\gamma$}\\Immune activation};
+
+\draw[arrow-immune] (ifng) -- node[above, font=\small\bfseries, red!80!black] {upregulates} node[below, font=\scriptsize, red!60!black] {(Eq.~29.8)} (ido);
+
+% Immune shift annotation
+\node[note, red!80!black, text width=4cm, below=0.8cm of ifng] (shift-note)
+    {\textbf{Immune activation}\\shifts balance\\W $\to$ serotonin pathway\\is suppressed};
+
+% === BH4 cofactor ===
+\node[cofactor, left=3cm of tph] (bh4)
+    {\textbf{BH\textsubscript{4}}\\Tetrahydrobiopterin\\(shared cofactor)};
+
+% BH4 to TPH
+\draw[arrow, orange!70!black] (bh4) -- node[above, font=\scriptsize] {required} (tph);
+
+% TH node for catecholamine link
+\node[enzyme, below=2.5cm of bh4] (th)
+    {\textit{Tyrosine Hydroxylase}\\(TH) --- catecholamines};
+
+% BH4 to TH
+\draw[arrow, orange!70!black] (bh4) -- node[left, font=\scriptsize] {required} (th);
+
+% BH4 competition annotation
+\node[note, orange!70!black, text width=3.5cm, below=1cm of th] (bh4-note)
+    {Competition for BH\textsubscript{4} cofactor\\links serotonin \&\\catecholamine deficits};
+
+% === Consequence box at bottom ===
+\coordinate (bottom-mid) at ($ (sero-note.south)!0.5!(kyn-note.south) + (0, -2cm) $);
+\node[consequence, anchor=north] at (bottom-mid) (consequences) {
+    \textbf{ME/CFS Consequences:}\\[3pt]
+    $\uparrow$ IDO activity $\;\to\;$ $\downarrow$ Serotonin + $\uparrow$ Neurotoxins
+    \hfill (tryptophan steal)\\[2pt]
+    Links immune activation to neuropsychiatric symptoms
+    \hfill (fatigue, cognitive dysfunction, pain)
+};
+
+\end{tikzpicture}
+\caption{Tryptophan metabolic branching (Equations~\ref{eq:tryptophan}--\ref{eq:ido-regulation}).
+Tryptophan is metabolized through competing pathways: serotonin synthesis (left, blue) via
+tryptophan hydroxylase (TPH) and kynurenine production (right, red) via indoleamine
+2,3-dioxygenase (IDO). IFN-$\gamma$ from immune activation upregulates IDO, diverting
+tryptophan toward neurotoxic kynurenine metabolites and depleting serotonin. BH$_4$ cofactor
+competition further links this pathway to catecholamine synthesis.}
+\label{fig:tryptophan-branching-model}
+\end{figure}

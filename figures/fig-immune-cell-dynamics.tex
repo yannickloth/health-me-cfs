@@ -1,0 +1,131 @@
+% Figure: Immune Cell Dynamics and Cytokine Network Models
+% (a) NK cell and T cell state transition diagrams
+% (b) Cytokine network topology
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=2.5cm and 3cm,
+    scale=0.82, every node/.style={scale=0.82},
+    % Cell state styles
+    resting/.style={draw=green!70!black, fill=green!10, very thick, rounded corners,
+        minimum width=2.2cm, minimum height=1cm, align=center},
+    active/.style={draw=blue!70!black, fill=blue!10, very thick, rounded corners,
+        minimum width=2.2cm, minimum height=1cm, align=center},
+    exhausted/.style={draw=red!70!black, fill=red!10, very thick, rounded corners,
+        minimum width=2.2cm, minimum height=1cm, align=center},
+    memory/.style={draw=teal!70!black, fill=teal!10, very thick, rounded corners,
+        minimum width=2.2cm, minimum height=1cm, align=center},
+    % Arrow styles
+    trans/.style={-latex, very thick, line width=1.2pt},
+    slow/.style={-latex, very thick, line width=1.2pt, dashed},
+    death/.style={-latex, thin, gray!70, line width=0.8pt},
+    input/.style={-latex, thick, green!60!black, line width=1pt},
+    % Cytokine node styles
+    proinflam/.style={circle, draw=red!70!black, fill=red!10, very thick,
+        minimum size=1.3cm, align=center, font=\small\bfseries},
+    antiinflam/.style={circle, draw=blue!70!black, fill=blue!10, very thick,
+        minimum size=1.3cm, align=center, font=\small\bfseries},
+    % Cytokine arrow styles
+    stim/.style={-latex, thick, green!60!black, line width=1pt},
+    inhib/.style={-|, thick, red!70!black, line width=1pt},
+    % Labels
+    sublabel/.style={font=\large\bfseries},
+    ratelabel/.style={font=\scriptsize, fill=white, inner sep=1.5pt},
+]
+
+% ============================================================
+% PART (a): Cell State Transition Diagrams
+% ============================================================
+
+\node[sublabel] at (-4.5, 0.8) {(a)};
+
+% --- NK Cell Model (left side) ---
+\node[font=\bfseries] at (-4.5, 0) {NK Cell Model (Eq.~28.1)};
+
+\node[resting] (Nr) at (-7, -1.8) {$N_r$\\[-2pt]{\scriptsize Resting}};
+\node[active]  (Na) at (-2, -1.8) {$N_a$\\[-2pt]{\scriptsize Activated}};
+\node[exhausted] (Ne) at (-4.5, -4.5) {$N_e$\\[-2pt]{\scriptsize Exhausted}};
+
+% Transitions
+\draw[trans] (Nr) -- node[ratelabel, above] {$k_{\text{act}}(C)$} (Na);
+\draw[trans] (Na) -- node[ratelabel, right=1pt] {$k_{\text{exh}}$} (Ne);
+\draw[slow]  (Ne) -- node[ratelabel, left=1pt] {$k_{\text{recov}}$} (Nr);
+
+% Input from bone marrow
+\draw[input] (-7, 0) -- node[ratelabel, right=1pt] {$s_N$} (Nr);
+\node[font=\scriptsize\itshape, text=green!50!black] at (-7, 0.3) {bone marrow};
+
+% Death arrows
+\draw[death] (Nr) -- ++(-0.9, -0.7) node[font=\tiny, gray, below] {$d_r$};
+\draw[death] (Na) -- ++(0.9, -0.7) node[font=\tiny, gray, below] {$d_a$};
+\draw[death] (Ne) -- ++(0, -1.0) node[font=\tiny, gray, below] {$d_e$};
+
+% --- T Cell Model (right side) ---
+\node[font=\bfseries] at (4.5, 0) {T Cell Model (Eq.~28.4)};
+
+\node[resting] (Tn) at (1.5, -1.8) {$T_n$\\[-2pt]{\scriptsize Na\"ive}};
+\node[active]  (Te) at (5.5, -1.8) {$T_e$\\[-2pt]{\scriptsize Effector}};
+\node[memory]  (Tm) at (7.5, -4.5) {$T_m$\\[-2pt]{\scriptsize Memory}};
+\node[exhausted] (Tex) at (3.5, -4.5) {$T_{ex}$\\[-2pt]{\scriptsize Exhausted}};
+
+% Transitions
+\draw[trans] (Tn) -- node[ratelabel, above] {$k_{\text{prime}} \!\cdot\! A(t)$} (Te);
+\draw[trans] (Te) -- node[ratelabel, right=1pt] {$k_{\text{mem}}$} (Tm);
+\draw[trans] (Te) -- node[ratelabel, left=1pt] {$k_{T_{ex}}$} (Tex);
+\draw[slow]  (Tm) to[bend right=25] node[ratelabel, below] {\scriptsize reactivation} (Te);
+
+% Self-loop for proliferation
+\draw[trans] (Te) to[out=60, in=120, looseness=4]
+    node[ratelabel, above=2pt] {$\rho_T$} (Te);
+
+% ============================================================
+% PART (b): Cytokine Network Topology
+% ============================================================
+
+\node[sublabel] at (-7, -6.5) {(b)};
+\node[font=\bfseries] at (-1, -6.5) {Cytokine Network Topology};
+
+% Pro-inflammatory nodes (warm colors)
+\node[proinflam] (tnfa) at (-5.5, -8.8) {TNF-$\alpha$};
+\node[proinflam] (il1b) at (-2.5, -8.8) {IL-1$\beta$};
+\node[proinflam, draw=orange!70!black, fill=orange!10] (il6) at (0.5, -8.8) {IL-6};
+\node[proinflam, draw=red!60!black, fill=red!8] (ifng) at (3.5, -8.8) {IFN-$\gamma$};
+
+% Anti-inflammatory nodes (cool colors)
+\node[antiinflam] (il10) at (-3.5, -11.8) {IL-10};
+\node[antiinflam, draw=teal!70!black, fill=teal!10] (tgfb) at (1.5, -11.8) {TGF-$\beta$};
+
+% Source labels
+\node[font=\scriptsize\itshape, text=gray!70!black, above=0.4cm of tnfa] {$M_a$ (macrophages)};
+\node[font=\scriptsize\itshape, text=gray!70!black, above=0.4cm of ifng] {T cells};
+
+% Stimulatory arrows
+\draw[stim] (tnfa) -- node[ratelabel, above, font=\tiny] {stim.} (il6);
+\draw[stim] (il1b) -- node[ratelabel, above, font=\tiny] {stim.} (il6);
+
+% IL-6 positive feedback loop via Th17
+\draw[stim] (il6) to[out=-30, in=30, looseness=3.5]
+    node[ratelabel, right=2pt, font=\tiny, text width=1cm, align=left] {Th17\\feedback} (il6);
+
+% IFN-γ → IDO note
+\draw[stim] (ifng) -- ++(1.8, 0)
+    node[ratelabel, right=-1pt, font=\tiny] {$\to$ IDO};
+
+% Inhibitory arrows (flat-headed, red)
+\draw[inhib] (il10) to[bend right=12] (tnfa);
+\draw[inhib] (il10) -- (il1b);
+\draw[inhib] (il10) to[bend left=12] (il6);
+\draw[inhib] (tgfb) to[bend left=15] (ifng);
+
+% Legend
+\begin{scope}[shift={(-7, -13.5)}]
+    \draw[stim] (0,0) -- (0.8,0) node[right, font=\scriptsize] {Stimulation};
+    \draw[inhib] (3,0) -- (3.8,0) node[right, font=\scriptsize] {Inhibition};
+    \draw[slow] (6,0) -- (6.8,0) node[right, font=\scriptsize] {Slow / impaired in ME/CFS};
+\end{scope}
+
+\end{tikzpicture}
+\caption{Immune system model components. (a)~State transition diagrams for NK cells (left, Equation~\ref{eq:nk-dynamics}) and T~cells (right, Equation~\ref{eq:tcell-dynamics}). In ME/CFS, accelerated exhaustion ($k_{\text{exh}}$ increased) and impaired recovery ($k_{\text{recov}}$ reduced) shift populations toward exhausted states (red). (b)~Cytokine network topology showing pro-inflammatory (warm colors) and anti-inflammatory (cool colors) mediators with stimulatory (arrows) and inhibitory (flat-headed) interactions.}
+\label{fig:immune-cell-dynamics}
+\end{figure}

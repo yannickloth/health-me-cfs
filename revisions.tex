@@ -1,57 +1,14 @@
-% revisions.tex — Version revision annotation macros
+% revisions.tex — Document version and no-op revision macros
 %
-% Usage:
-%
-%   \rev{5}
-%   This paragraph was rewritten in version 5.
-%
-%   \rev{5}
-%   This one too — each gets its own bar, closing at paragraph end.
-%
-%   \sectionChangedIn{5}   % after \chapter{} or \section{} — label only, no bar
-%
-% \rev{N} marks the single paragraph that follows it.
-% The bar closes automatically at the end of that paragraph.
-% Place on its own line before the paragraph; never touches the prose.
-% To disable a mark: comment out the \rev{N} line.
-% To disable all marks: \setboolean{showrevisions}{false}
+% The revision bar system has been removed for build performance.
+% These no-op definitions keep existing \rev{N}/\revend calls harmless
+% if any remain in the source.
 
-\RequirePackage{ifthen}
-\RequirePackage{marginnote}
-
-\definecolor{revisionbar}{gray}{0.55}
-
-% Current document version — used by CLAUDE.md to determine \rev{N} values.
+% Current document version
 \newcommand{\docversion}{5}
 
-\newboolean{showrevisions}
-\setboolean{showrevisions}{true}
-
-% Internal: version label with bar in right margin.
-% The \rule produces a short vertical bar; the label sits beside it.
-\newcommand{\revlabel}[1]{%
-  \marginnote{%
-    \textcolor{revisionbar}{\rule{1pt}{1.2\baselineskip}}%
-    \kern2pt%
-    {\footnotesize\sffamily\color{gray!70}v.\,#1}%
-  }%
-}
-
-% \rev{N} — mark the next paragraph as changed in version N.
-% Places a short bar and version label in the right margin.
-% Place on its own line before the paragraph; never touches the prose.
-% To disable a mark: comment out the \rev{N} line.
-\newcommand{\rev}[1]{%
-  \ifthenelse{\boolean{showrevisions}}{\revlabel{#1}}{}%
-}
-
-% \revend — no-op, kept for compatibility (auto-close no longer needed).
+% No-op stubs
+\newcommand{\rev}[1]{}
 \newcommand{\revend}{}
-
-% \sectionChangedIn{N} — same as \rev (alias kept for clarity).
-\newcommand{\sectionChangedIn}[1]{\rev{#1}}
-
-% Legacy: \changedIn{N}{content} — kept for backwards compatibility.
-\newcommand{\changedIn}[2]{%
-  \ifthenelse{\boolean{showrevisions}}{\revlabel{#1}#2}{#2}%
-}
+\newcommand{\sectionChangedIn}[1]{}
+\newcommand{\changedIn}[2]{#2}

@@ -1,0 +1,137 @@
+% Figure: ME/CFS Modeling Framework Overview
+% Shows modeling approaches, subsystem models, and predictive applications
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    scale=0.78, every node/.style={scale=0.78},
+    % Approach boxes (top row, blue tones)
+    approach/.style={draw=blue!70!black, fill=blue!20, very thick, rounded corners,
+        text width=3cm, align=center, minimum height=1.2cm, font=\small\bfseries},
+    % Subsystem boxes (middle row, teal/green tones)
+    subsystem/.style={draw=teal!70!black, fill=teal!15, very thick, rounded corners,
+        text width=3.2cm, align=center, minimum height=1.4cm, font=\small\bfseries},
+    % Application boxes (bottom row, orange tones)
+    application/.style={draw=orange!70!black, fill=orange!15, very thick, rounded corners,
+        text width=4.5cm, align=center, minimum height=1.2cm, font=\small\bfseries},
+    % Arrow styles
+    feeds/.style={-latex, very thick, line width=1.2pt, blue!60!black},
+    couples/.style={-latex, thick, line width=1pt, teal!60!black, dashed},
+    integrates/.style={-latex, very thick, line width=1.2pt, orange!70!black},
+    % Annotation style
+    annot/.style={font=\scriptsize\itshape, blue!60!black},
+    coupling-label/.style={font=\scriptsize, teal!70!black, fill=white, inner sep=2pt,
+        rounded corners=1pt},
+]
+
+% === TITLE ===
+\node[font=\large\bfseries, blue!70!black] (title) at (7.5, 0)
+    {ME/CFS Modeling Framework};
+
+% === TOP ROW: Modeling Approaches ===
+% 5cm spacing between centers for breathing room
+\node[approach] (ode) at (0, -1.8)
+    {Ordinary\\Differential\\Equations};
+\node[approach] (stoch) at (5, -1.8)
+    {Stochastic\\Models};
+\node[approach] (net) at (10, -1.8)
+    {Network\\Models};
+\node[approach] (abm) at (15, -1.8)
+    {Agent-Based\\Models};
+
+% Section annotations for approaches
+\node[annot, below=2pt of ode] {\S\,26.2};
+\node[annot, below=2pt of stoch] {\S\,26.3};
+\node[annot, below=2pt of net] {\S\,26.4};
+\node[annot, below=2pt of abm] {\S\,26.5};
+
+% === MIDDLE ROW: Subsystem Models ===
+% Same 5cm spacing, aligned with approaches
+\node[subsystem] (energy) at (0, -6.2)
+    {Energy\\Metabolism\\{\footnotesize Ch.\,27}};
+\node[subsystem] (immune) at (5, -6.2)
+    {Immune\\System\\{\footnotesize Ch.\,28}};
+\node[subsystem] (neuro) at (10, -6.2)
+    {Neuroendocrine\\System\\{\footnotesize Ch.\,29}};
+\node[subsystem] (integrated) at (15, -6.2)
+    {Integrated\\Systems\\{\footnotesize Ch.\,30}};
+
+% === BOTTOM ROW: Applications ===
+\node[application] (temporal) at (4, -10.5)
+    {Temporal Evolution\\{\footnotesize Ch.\,31}};
+\node[application] (predict) at (11.2, -10.5)
+    {Predictive Applications\\{\footnotesize Ch.\,32}};
+
+% === ARROWS: Approaches → Subsystems ===
+% Each approach drops to its aligned subsystem (direct),
+% plus one lateral routed connection
+
+% ODE → Energy (direct), ODE → Immune (routed)
+\draw[feeds] (ode.south) -- (energy.north);
+\draw[feeds] (ode.south) -- ++(0,-0.8) -| ([xshift=-4pt]immune.north);
+
+% Stochastic → Immune (direct), Stochastic → Neuro (routed)
+\draw[feeds] (stoch.south) -- (immune.north);
+\draw[feeds] (stoch.south) -- ++(0,-1.0) -| ([xshift=-4pt]neuro.north);
+
+% Network → Neuro (direct), Network → Integrated (routed)
+\draw[feeds] (net.south) -- (neuro.north);
+\draw[feeds] (net.south) -- ++(0,-0.8) -| ([xshift=-4pt]integrated.north);
+
+% ABM → Integrated (direct)
+\draw[feeds] (abm.south) -- (integrated.north);
+
+% === DASHED ARROWS: Cross-system couplings ===
+% With 5cm spacing there is ~1.5cm gap between node edges for labels
+\draw[couples, bend left=18] (energy.east) to
+    node[coupling-label, above=-1pt, pos=0.5] {cytokine--metabolic} (immune.west);
+\draw[couples, bend left=18] (immune.east) to
+    node[coupling-label, above=-1pt, pos=0.5] {neuroimmune} (neuro.west);
+\draw[couples, bend left=18] (neuro.east) to
+    node[coupling-label, above=-1pt, pos=0.5] {multi-system} (integrated.west);
+
+% Long-range coupling: Energy ↔ Neuro (below the row)
+\draw[couples, bend right=18] ([yshift=-2pt]energy.south east) to
+    node[coupling-label, below, pos=0.5] {HPA--metabolic axis}
+    ([yshift=-2pt]neuro.south west);
+
+% === ARROWS: Subsystems → Applications ===
+% Energy and Immune feed Temporal
+\draw[integrates] (energy.south) -- ++(0,-0.5) -| ([xshift=-8pt]temporal.north);
+\draw[integrates] (immune.south) -- ++(0,-0.7) -| ([xshift=8pt]temporal.north);
+
+% Neuro and Integrated feed Predictive
+\draw[integrates] (neuro.south) -- ++(0,-0.5) -| ([xshift=-8pt]predict.north);
+\draw[integrates] (integrated.south) -- ++(0,-0.7) -| ([xshift=8pt]predict.north);
+
+% Cross-connections (lighter): Integrated → Temporal, Energy → Predictive
+\draw[integrates, opacity=0.4] (integrated.south) -- ++(0,-0.9) -|
+    ([xshift=2pt]temporal.north east);
+\draw[integrates, opacity=0.4] (energy.south) -- ++(0,-0.9) -|
+    ([xshift=-2pt]predict.north west);
+
+% Temporal → Predictive
+\draw[integrates] (temporal.east) --
+    node[below, font=\scriptsize, orange!70!black] {trajectory forecasting}
+    (predict.west);
+
+% === LEGEND ===
+\node[font=\footnotesize, anchor=north west] at (0.5, -12.3) {%
+    \begin{tikzpicture}[baseline=-0.5ex]
+        \draw[feeds] (0,0) -- (0.8,0);
+    \end{tikzpicture}~Methodological basis \qquad
+    \begin{tikzpicture}[baseline=-0.5ex]
+        \draw[couples] (0,0) -- (0.8,0);
+    \end{tikzpicture}~Cross-system coupling \qquad
+    \begin{tikzpicture}[baseline=-0.5ex]
+        \draw[integrates] (0,0) -- (0.8,0);
+    \end{tikzpicture}~Integration%
+};
+
+\end{tikzpicture}
+\caption{Overview of the ME/CFS modeling framework.
+Modeling approaches (top) are applied to physiological subsystems (middle),
+which couple into integrated and predictive models (bottom).
+Dashed arrows indicate cross-system couplings.}
+\label{fig:modeling-framework-overview}
+\end{figure}
