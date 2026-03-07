@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{positioning, calc, arrows.meta, shapes.geometric, backgrounds}
+\usepackage[margin=1in]{geometry}
+
+% Stub commands for standalone compilation
+\newcommand{\rev}[1]{}
+\newcommand{\revend}{}
+
+% Stub for \cite and \ref
+\newcommand{\fakecite}[1]{[#1]}
+\let\oldcite\cite
+\renewcommand{\cite}[1]{\fakecite{#1}}
+
+\begin{document}
+
+\section*{Test: Disease Onset Dynamics and Long-Term Trajectories}
+
+\input{fig-disease-trajectories.tex}
+
+\end{document}
