@@ -189,38 +189,6 @@ This project includes a comprehensive **medical agent system** for personal ME/C
 
 **Important:** All recommendations are preliminary and require physician review before implementation.
 
-## Revision Annotations (MANDATORY)
-
-When editing any `.tex` content file, **you MUST add `\rev{N}` before each modified paragraph**, where `N` is the current document version. Read `\docversion` in `revisions.tex` to get the number, then **hardcode it** (e.g. `\rev{6}`, never `\rev{\docversion}`).
-
-**Rules:**
-
-- `\rev{N}` goes on its own line immediately before the paragraph it marks
-- One `\rev{N}` per modified paragraph — never inside the paragraph text
-- `\revend` after the paragraph (or after a contiguous group of marked paragraphs)
-- Do NOT place `\rev{N}` inside environments (itemize, enumerate, hypothesis, speculation, table, tcolorbox, etc.)
-- For new content: mark every new paragraph
-- For modified content: mark only the paragraphs that actually changed
-- `\revend` is currently a no-op but must be placed for forward compatibility
-
-**Example:**
-
-```latex
-\rev{6}
-This paragraph was modified in version 6.
-\revend
-
-\rev{6}
-This one too — consecutive marked paragraphs chain without \revend between them.
-\rev{6}
-And this one.
-\revend
-
-Unmarked paragraph — not changed in this version.
-```
-
-**Implementation:** See `revisions.tex` for macro definitions. Toggle all markers off with `\setboolean{showrevisions}{false}`.
-
 ## Medical Documentation Guidelines (Lazy-Load)
 
 When working with ME/CFS content:
@@ -246,3 +214,17 @@ When working with ME/CFS content:
 - "Synthesize evidence across papers on [topic]"
 
 **Key agents:** `terminology-harmonizer` (term consistency), `publication-preparer` (submission readiness), `document-health-monitor` (structural metrics), `research-gap-synthesizer` (gap → agenda), `meta-analysis-coordinator` (cross-paper synthesis)
+
+## Biomedical Review System (Lazy-Load)
+
+Comprehensive 20-category review covering scientific accuracy, medical safety, biological precision, and patient-facing content safety.
+
+**Trigger:** `/review-biomedical <scope>` (runs all 20 categories sequentially on target files)
+
+**Individual agents** (can also be used standalone):
+
+- Domain auditors: `pathway-auditor`, `immunology-auditor`, `biochemistry-auditor`, `neuro-auditor`, `microbiome-auditor`, `biomarker-auditor`, `epidemiology-auditor`, `comorbidity-auditor`
+- Safety auditors: `safety-auditor`, `pharmacology-auditor`, `patient-safety-auditor`
+- Rigor auditors: `falsifiability-auditor`, `bibliography-auditor`
+
+**Skill details:** See `.claude/skills/review-biomedical/SKILL.md` for full phase breakdown and execution protocol.

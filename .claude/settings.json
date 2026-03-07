@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(*:*)",
       "Read(./**)",
       "Write(./**)",
       "Edit(./**)",
@@ -45,7 +46,8 @@
       "Bash(cat:*)",
       "Read(//home/nicky/code/claude-router-system/docs/**)",
       "Read(//home/nicky/code/claude-router-system/**)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Read(//run/user/1000/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",

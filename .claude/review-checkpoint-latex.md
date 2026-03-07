@@ -1,42 +1,53 @@
-# LaTeX Review Checkpoint — A11 Falsifiability Audit Remediation
+# LaTeX Review Checkpoint — New Chapter Content Review
 
 ## Scope
-9 files from A11 remediation:
-- `infolead-latex-templates/theorems.tex`
-- `contents/part3-treatment/ch15-medications-systems.tex`
-- `contents/part3-treatment/ch19-integrative-approaches.tex`
-- `contents/part2-pathophysiology/ch09-endocrine.tex`
-- `contents/part2-pathophysiology/ch15-symptom-producing-mechanisms.tex`
-- `contents/part2-pathophysiology/ch14/ch14i-clinical-brainstorm.tex`
-- `contents/part2-pathophysiology/ch13-integrative-models.tex`
-- `contents/part4-research/hypothesis-registry.tex`
-- `contents/appendices/appendix-g-research-synthesis.tex`
 
-## Round R1 — Completed
-**Findings: 28 found, 28 fixed. Build: PASS**
+7 files with newly written chapter content:
 
-Categories: [rigor: 0, citations: 0, notation: 0, latex: 28, logic: 0, factual: 0]
+1. `contents/part3-treatment/ch14-symptom-management.tex`
+2. `contents/part3-treatment/ch17-lifestyle-interventions.tex`
+3. `contents/part4-research/ch21-clinical-trials.tex`
+4. `contents/part4-research/ch22-mechanistic-studies.tex`
+5. `contents/part4-research/ch23-epidemiology-outcomes.tex`
+6. `contents/part4-research/ch24-controversies.tex`
+7. `contents/part4-research/ch25a-research-infrastructure.tex`
 
-### Fixes applied:
-1. **1x \rev{5} inside tcolorbox** (ch15-medications-systems.tex:1029) — moved outside observation env
-2. **8x missing \revend** in ch15-medications-systems.tex — added (42/42 balanced)
-3. **19x missing \revend** in ch19-integrative-approaches.tex — added (49/49 balanced)
-4. **1x TeX capacity exceeded** — created `texmf.cnf` (main_memory=12000000) and updated `flake.nix` with TEXMFCNF
+## Status: CONVERGED at R11 (2 consecutive 0-finding rounds: R10, R11)
 
-### Verified:
-- All 216 citation keys across 8 files exist in references.bib
-- All `\rev{5}` markers use correct version number (5)
-- No stale `hyp:` labels — all reclassified to `dir:`, `obs:`, `spec:`
-- `spec:bistable` correctly labeled in ch14i
-- 5 prediction environments in ch14i verified
-- `fhypothesis` environment in ch13 verified (certainty 0.55, weakly falsifiable)
-- Build produces 1599-page PDF (5.5MB)
+## Cumulative Findings by Category
 
-## Round R2 — Result
-**Findings: 0. Convergence declared.**
+| Category  | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8  | R9 | R10 | R11 | Total |
+|-----------|----|----|----|----|----|----|----|----|----|----|-----|-------|
+| Rigor     |  3 |  0 |  0 |  0 |  0 |  4 |  0 |  5 |  1 |  0 |   0 |    13 |
+| Citations |  2 |  0 |  0 |  0 |  0 |  4 |  0 |  7 |  2 |  0 |   0 |    15 |
+| Notation  |  5 | 53 | 18 | 15 | 10 |  0 |  0 |  2 |  0 |  0 |   0 |   103 |
+| LaTeX     |  8 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   0 |     8 |
+| Logic     |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   0 |     0 |
+| Factual   |  1 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |   0 |     2 |
+| **Total** | **19** | **53** | **18** | **15** | **10** | **8** | **0** | **15** | **3** | **0** | **0** | **141** |
 
-All scope files reviewed. No additional findings beyond R1 fixes.
+Note: R8 had 15 findings total but 3 were flagged for human review (not fixed). R9 had 4 findings total but 1 flagged for human. Actual fixes: 141 - 4 flagged = 137 fixed + 4 flagged.
 
-## Next Steps
-- Commit changes (texmf.cnf, flake.nix TEXMFCNF)
-- Visual verification of fhypothesis/directive/observation rendering in PDF
+### Round Summaries
+
+- **R1** (19): Wrong citation, 2 missing bib entries, 8 rev placement fixes, spelling, limitation env
+- **R2** (53): British→American spelling (-ise→-ize, -isation→-ization, fibre→fiber, etc.)
+- **R3** (18): More spelling (-ised→-ized, -ising→-izing, programme→program, mould→mold)
+- **R4** (15): More spelling (-lling→-ling, -tres→-ters, haemodynamic, signalling)
+- **R5** (10): Final spelling (analyzer, hypovolemia, remodeling, counseling, titers, analog)
+- **R6** (8): Rigor — hedged overclaims ch17, attributed claims ch23, citations ch23/ch24
+- **R7** (0): First zero
+- **R8** (15): Author name Hwang→Wang, supercomplex consistency, 7 missing citations added, spelling, rigor hedging in ch25a
+- **R9** (3+1 flagged): Economic citations ch23, cardiovascular hedging ch23, limitation block ch14
+- **R10** (0): First consecutive zero
+- **R11** (0): Second consecutive zero — CONVERGENCE
+
+## Remaining Issues for Human Review
+
+1. ch21:126 — Blockmans methylphenidate RCT: inline author ref, no \cite{} (no bib entry)
+2. ch21:127 — Aripiprazole case series from Stanford: no \cite{} (no bib entry)
+3. ch21:128 — tDCS preliminary studies: no \cite{} (no bib entry)
+4. ch17:156,295 — Two hypotheses not in hypothesis-registry.tex (postprandial-pacing, wheat-primed)
+5. ch23:289-293 — Cardiovascular claims hedged but still lack proper citations
+6. Build not verified — run `nix build` when ready
+7. Some \rev{5} before \begin{} violations in OUT-OF-SCOPE files

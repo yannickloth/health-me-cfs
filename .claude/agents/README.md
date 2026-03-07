@@ -81,6 +81,26 @@ System prompt / instructions for the agent...
 | `evidence-mapper` | Building citation→model-component reverse index for Part V |
 | `research-gap-synthesizer` | Harvesting open_question/hypothesis/speculation into research agenda |
 
+### Biomedical Review Agents (Sonnet)
+
+| Agent | Use when... |
+| --- | --- |
+| `safety-auditor` | Checking hypothesis-as-recommendation, contraindications, dosing, disclaimers |
+| `falsifiability-auditor` | Checking falsifiable predictions, registry consistency, overclaiming |
+| `bibliography-auditor` | Duplicate bib entries, missing fields, broken/uncited citations |
+| `pathway-auditor` | Biological pathway accuracy, nomenclature, gene/protein distinction |
+| `pharmacology-auditor` | Drug MOA, interactions, off-label, withdrawal, population cautions |
+| `biomarker-auditor` | Sensitivity/specificity, reference ranges, pre-analytical variables |
+| `immunology-auditor` | Cell subset precision, cytokine context, assay limitations |
+| `biochemistry-auditor` | Stoichiometry, redox specificity, mitochondrial precision |
+| `neuro-auditor` | Brain region specificity, HPA nuance, autonomic methods, BBB |
+| `microbiome-auditor` | 16S vs shotgun, correlation vs causation, strain precision |
+| `epidemiology-auditor` | Case definitions, selection bias, control adequacy, sex stratification |
+| `comorbidity-auditor` | Overlap conditions, shared vs distinct mechanisms, exclusion criteria |
+| `patient-safety-auditor` | PEM harm, severity representation, psychological framing, supplement safety |
+
+**Orchestrator skill:** `/review-biomedical <scope>` runs all 20 review categories sequentially.
+
 ### Opus (deep analysis)
 
 | Agent | Use when... |
