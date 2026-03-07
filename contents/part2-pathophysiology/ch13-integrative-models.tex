@@ -104,10 +104,10 @@ Reduced cerebral blood flow & Probable & SPECT/MRI showing hypoperfusion; correl
 Plasma cell-mediated auto\-immunity (\S\ref{hyp:plasma-cell-sanctuary}) & Preliminary & Daratu\-mumab pilot (60\% response); explains rituximab failure; IgG reduction correlates with response & Auto\-immune subset; why B-cell depletion failed but plasma cell depletion worked & Daratu\-mumab; combined IA + plasma cell targeting & High (in auto\-immune subset) \\
 \addlinespace
 
-Vascular-Immune-Energy Triad & Preliminary & Heng 2025 7-bio\-marker panel; coordinated abnor\-malities across 3 systems; 91\% diagnostic accuracy & Multi-system nature; why single-target treatments fail & Triple-target protocol; simul\-taneous inter\-vention & Unknown (untested) \\
+Vascular-Immune-Energy Triad & Preliminary & Heng 2025 7-bio\-marker panel; Hoel 2026 serum pro\-teomics cross-vali\-dation~\cite{Hoel2026proteome}; coordinated abnor\-malities across 3 systems from two independent cohorts & Multi-system nature; why single-target treatments fail & Triple-target protocol; simul\-taneous inter\-vention & Unknown (untested) \\
 \addlinespace
 
-Endo\-thelial dys\-function / micro\-clotting (ch14) & Preliminary & Elevated VWF, fibro\-nectin, thrombo\-spondin; Long COVID micro\-clot findings & Exercise intol\-erance; brain fog; multi-system involve\-ment & Anti\-coagu\-lation; fibrin\-olytics; endo\-thelial support & Moderate (if confirmed) \\
+Endo\-thelial dys\-function / micro\-clotting (ch14) & Preliminary & Elevated VWF, fibro\-nectin, thrombo\-spondin; Hoel 2026: reduced VIM, ANTXR2, CXADR + disrupted Ephrin signaling~\cite{Hoel2026proteome}; Long COVID micro\-clot findings & Exercise intol\-erance; brain fog; multi-system involve\-ment & Anti\-coagu\-lation; fibrin\-olytics; endo\-thelial support; Ephrin-targeted therapy? & Moderate (if confirmed) \\
 \addlinespace
 
 Central cate\-chol\-amine deficiency & Preliminary & Walitt 2024 CSF findings (reduced DOPA, DOPAC, DHPG); effort prefer\-ence abnor\-mality & Altered effort per\-ception; moti\-vation diffi\-culties; why ``pushing through'' fails & Dopa\-mine pre\-cursors?; stimu\-lants with caution & Unknown \\
@@ -167,7 +167,7 @@ Lactate compartmentalization (MCT dysfunction) & Speculative & Lactate abnormali
 Ferroptosis susceptibility & Speculative & Lipid abnormalities; oxidative stress; iron dysregulation documented & Why high-energy tissues affected; why iron supplementation can harm & Ferroptosis inhibitors; careful with iron & Unknown \\
 \addlinespace
 
-Trained endotheliopathy & Speculative & Endothelial markers elevated (Heng 2025); innate immune training established; vascular symptoms & Multi-system involvement; persistent endothelial activation; microvascular dysfunction & Vascular-focused protocol; epigenetic reversal? & Unknown \\
+Trained endotheliopathy & Speculative & Endothelial markers elevated (Heng 2025); Hoel 2026 impaired repair signature (reduced ANTXR2, VIM, Ephrin disruption)~\cite{Hoel2026proteome}; innate immune training established; vascular symptoms & Multi-system involvement; persistent endothelial activation; impaired vascular repair; microvascular dysfunction & Vascular-focused protocol; angio\-genesis support; epigenetic reversal? & Unknown \\
 
 \end{longtable}
 \end{landscape}
@@ -226,6 +226,7 @@ The daratumumab pilot trial (60\% response)~\cite{Fluge2025daratumumab} provides
     \item This suggests \textbf{long-lived plasma cells}, not B cells, are the critical autoantibody source
     \item The 60\% response rate implies heterogeneity---not all ME/CFS is autoimmune
     \item Biomarkers for patient selection are urgently needed
+    \item The ResetME RCT ($n=66$, placebo-controlled) is now recruiting to test these findings (Appendix~\ref{app:research-registry}, Section~\ref{sec:registry-resetme})
 \end{itemize}
 
 \begin{observation}[The Rituximab Puzzle Solved?]
@@ -242,6 +243,8 @@ Elevated VWF, fibronectin, and thrombospondin~\cite{heng2025mecfs} point to \tex
     \item Exercise intolerance (endothelium cannot vasodilate properly)
     \item Multi-system involvement (endothelium is everywhere)
 \end{itemize}
+
+The Hoel et al.\ (2026) serum proteomics study~\cite{Hoel2026proteome} substantially deepened this picture. Beyond confirming elevated coagulation and complement factors, the study revealed a specific vascular injury signature: reduced vimentin (endothelial structural protein), reduced ANTXR2/CMG2 (capillary morphogenesis regulator), reduced CXADR (shear stress sensor), and elevated endothelial lipase (LIPG). Critically, Ephrin receptor signaling---a pathway governing vascular development and angiogenesis---showed coordinated disruption, with four Ephrin A receptors and their ligands simultaneously altered. The authors also documented elevated WASF3 (a HIF-1$\alpha$ target), providing direct proteomic evidence for tissue hypoxia. Together, these findings suggest not just endothelial activation but impaired endothelial repair capacity: the vasculature is stressed, and the molecular machinery for repairing and remodeling damaged vessels appears compromised.
 
 If ME/CFS is partly an \textbf{endotheliopathy}, vascular-targeted treatments (anticoagulation, fibrinolytics, endothelial support) might help---but this remains preliminary.
 
@@ -931,6 +934,95 @@ All supporting evidence is cross-sectional or retrospective; no longitudinal stu
 \textbf{Certainty:} 0.45 (diagnostic delay/prognosis data supportive; staged progression pattern plausible but unvalidated longitudinally)
 \end{hypothesis}
 
+\begin{hypothesis}[Neutrophil Functional Exhaustion Hypothesis]
+\label{hyp:neutrophil-exhaustion}
+
+Hoel et al.\ (2026)~\cite{Hoel2026proteome} documented a paradox: ME/CFS patients have normal peripheral neutrophil counts but profoundly suppressed circulating neutrophil-derived proteins---hallmark granule components (BPI, PADI4, MMP9, ELANE, AZU1, LTF) are all significantly reduced. We propose that ME/CFS neutrophils exist in a state of \textbf{functional exhaustion}: they are present in normal numbers but hypoactivated, failing to degranulate or mount appropriate antimicrobial responses.
+
+\paragraph{Mechanistic Basis.}
+Chronic low-grade immune activation---whether from persistent viral antigens, autoantibodies, or gut-derived LPS---may drive neutrophil tolerance, analogous to the endotoxin tolerance observed in sepsis survivors. Repeated subthreshold activation exhausts granule stores without triggering full antimicrobial programs. This would explain the simultaneous presence of elevated inflammatory markers (complement, cytokines) alongside suppressed neutrophil effector function: the alarm system is perpetually activated while the first-responder force is depleted.
+
+\paragraph{Consequences.}
+Functionally exhausted neutrophils would impair: (1) pathogen clearance, permitting low-grade infections and viral reactivation; (2) NET formation, reducing extracellular antimicrobial defense; (3) tissue repair, as neutrophil-derived growth factors are diminished; and (4) immune regulation, since neutrophils modulate adaptive immunity through cytokine secretion and antigen presentation. This hypothesis explains why ME/CFS patients are susceptible to opportunistic infections without overt immunodeficiency.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item Ex vivo stimulation of ME/CFS neutrophils with PMA or fMLP should produce attenuated degranulation and ROS production compared to healthy controls, despite normal cell counts
+    \item Neutrophil granule protein content (measured by intracellular flow cytometry) should be reduced in ME/CFS
+    \item Recovery from ME/CFS (e.g., daratumumab responders) should coincide with normalization of circulating neutrophil granule proteins
+    \item Interventions restoring neutrophil function (G-CSF priming, if tolerable) should improve innate immune defense markers
+\end{enumerate}
+
+\paragraph{Treatment Implications.}
+If neutrophils are functionally exhausted rather than absent, therapeutic strategies might include: low-dose G-CSF to prime neutrophil activation (used cautiously given the inflammatory milieu), resolution-phase lipid mediators (resolvins, protectins) to reprogram rather than stimulate neutrophils, or addressing the upstream drivers of chronic activation (autoantibodies, persistent antigens) to allow neutrophil recovery.
+
+\textbf{Certainty: 0.40.} Strong proteomic evidence for suppressed neutrophil signature (Hoel 2026, n=50+29, validated platform), complemented by functional neutrophil studies (Kennedy 2004). However, the exhaustion mechanism is inferred, not directly demonstrated; alternative explanations (e.g., altered neutrophil lifespan, bone marrow output changes) have not been excluded.
+\end{hypothesis}
+
+\begin{hypothesis}[Chronic Exerkine Signaling Hypothesis]
+\label{hyp:chronic-exerkine}
+
+Exercise transiently elevates FGF-21, GDF-15, and other ``exerkines'' to coordinate systemic metabolic adaptation---mobilizing energy substrates, promoting insulin sensitivity, and initiating tissue repair. Hoel et al.\ (2026)~\cite{Hoel2026proteome} found that these exerkines are chronically elevated in ME/CFS, even at rest, with FGF-21 validated in an extended cohort of 278 participants. We hypothesize that this chronic exerkine elevation represents a \textbf{metabolic emergency broadcast} that the body cannot resolve, creating a persistent state of metabolic mobilization without the exercise stimulus that would normally trigger substrate utilization and resolution.
+
+\paragraph{Mechanistic Cascade.}
+The normal exerkine cycle is: exercise → energy depletion → exerkine release → substrate mobilization → recovery → exerkine normalization. In ME/CFS, we propose: tissue hypoxia + mitochondrial dysfunction → energy depletion \textit{at rest} → exerkine release → substrate mobilization attempted → impaired utilization (mitochondrial dysfunction prevents efficient oxidative metabolism) → persistent energy deficit → continued exerkine release. The cycle cannot resolve because the downstream utilization machinery is impaired.
+
+\paragraph{Why This Matters.}
+Chronically elevated FGF-21 drives hepatic gluconeogenesis, lipolysis, and ketogenesis---metabolic programs appropriate for acute exercise recovery but harmful when sustained. Chronic GDF-15 elevation suppresses appetite (potentially explaining the anorexia some ME/CFS patients experience) and alters body composition. Persistent leptin and resistin elevation contributes to insulin resistance and inflammatory signaling. This ``stuck metabolic emergency'' may explain why ME/CFS patients feel as though they are perpetually recovering from extreme exertion: biochemically, they are.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item FGF-21 and GDF-15 levels should correlate with disease severity (particularly functional capacity and PEM threshold)
+    \item Successful treatment (by any mechanism) should normalize exerkine levels as downstream consequence
+    \item ME/CFS patients should show blunted \textit{additional} exerkine response to actual exercise (ceiling effect), unlike healthy controls who show large fold-increases
+    \item Metabotype 2 patients (highest FGF-21 in Hoel 2026) should have the most severe metabolic symptoms and lowest exercise tolerance
+\end{enumerate}
+
+\paragraph{Treatment Implications.}
+Rather than targeting exerkines directly (they may be compensatory), treatment should address the upstream energy deficit: mitochondrial support (CoQ10, NAD$^+$ precursors), tissue oxygenation improvement (addressing endothelial dysfunction), or substrate utilization enhancement. FGF-21 could serve as a treatment response biomarker---declining levels would indicate metabolic recovery even before symptom improvement becomes apparent.
+
+\textbf{Certainty: 0.45.} FGF-21 elevation robustly validated (n=278, ELISA). The exerkine framework is well-established in exercise physiology. However, the ``stuck cycle'' mechanism is inferred from the chronic elevation pattern, and alternative explanations (hepatic stress, mitochondrial myopathy) contribute to uncertainty. Longitudinal studies tracking exerkines before and after treatment are needed.
+\end{hypothesis}
+
+\begin{speculation}[Secretome-Driven Vascular Autoimmune Loop]
+\label{spec:secretome-autoimmune}
+
+Hoel et al.\ (2026)~\cite{Hoel2026proteome} documented two seemingly contradictory patterns: (1) reduced intracellular protein release (especially from skeletal muscle and bone marrow) and (2) increased secreted protein release (coagulation factors, complement, chemokines, hormones). We speculate that this secretome shift---elevated extracellular proteins with altered post-translational modifications from the disease environment---may generate \textbf{neo-antigens} that drive autoimmune targeting of the vasculature.
+
+\paragraph{Proposed Mechanism.}
+Under conditions of tissue hypoxia, oxidative stress, and chronic inflammation, secreted proteins may acquire abnormal modifications (carbonylation, citrullination, oxidized lipid adducts). Citrullinated proteins are recognized neo-antigens in rheumatoid arthritis; oxidized lipoproteins drive atherosclerotic autoimmunity. In ME/CFS, the chronically stressed secretome could present modified self-proteins to the adaptive immune system, generating autoantibodies against vascular and endothelial targets. The elevated complement components (CFD, C6) and reduced neutrophil proteins documented by Hoel et al.\ are consistent with complement-mediated vascular injury. Elevated histones (which are known damage-associated molecular patterns) and reduced neutrophil MPO (reducing antigen clearance) could amplify this process.
+
+\paragraph{Why This Is Speculative.}
+No study has directly demonstrated neo-antigen formation in ME/CFS secreted proteins, nor has vascular-specific autoimmunity been confirmed. The hypothesis chain (hypoxia → modified secretome → neo-antigen presentation → autoantibody generation → vascular targeting) involves multiple unverified links. However, it would parsimoniously connect the proteomic findings (secretome shift), the autoimmune evidence (GPCR autoantibodies, daratumumab response), and the vascular dysfunction (endothelial markers, Ephrin disruption) into a single mechanistic arc.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item ME/CFS serum should contain proteins with higher rates of oxidative and citrullination modifications than healthy controls
+    \item Autoantibodies targeting modified vascular proteins (citrullinated vimentin, oxidized LIPG) should be detectable in a subset of patients
+    \item The autoimmune ME/CFS subset (daratumumab responders) should show the strongest secretome shift
+\end{enumerate}
+
+\textbf{Certainty: 0.25.} Speculative hypothesis connecting established findings (secretome shift, autoimmunity, vascular dysfunction) through an unproven mechanism. Requires dedicated proteomic studies of post-translational modifications in ME/CFS secreted proteins.
+\end{speculation}
+
+\begin{speculation}[Bone Marrow Stress and Immune Lineage Reprogramming]
+\label{spec:bone-marrow-reprogramming}
+
+The Hoel et al.\ (2026) tissue panel analysis~\cite{Hoel2026proteome} revealed that bone marrow showed the most dramatic protein reductions of any tissue type (25.4\% overall net downregulation), with widespread decreases in both intracellular and secreted proteins. Simultaneously, the immune cell analysis showed a shift from innate (neutrophil/granulocyte suppression) toward adaptive predominance (elevated NK and T cell markers). We speculate that ME/CFS involves a \textbf{bone marrow stress state} that reprograms hematopoietic stem cell lineage commitment---favoring lymphoid over myeloid differentiation---resulting in the observed immune imbalance.
+
+\paragraph{Biological Plausibility.}
+Chronic inflammatory signaling (especially IFN-$\gamma$ and TNF-$\alpha$, both elevated in ME/CFS) is known to reprogram hematopoietic stem cells toward lymphoid differentiation at the expense of myeloid lineages---a phenomenon termed ``emergency lymphopoiesis.'' This would produce exactly the pattern Hoel et al.\ observed: normal or elevated lymphoid cell markers alongside suppressed myeloid (neutrophil, monocyte) protein signatures. Bone marrow metabolic stress (reflected in the severe bone marrow protein reductions) could further impair normal granulopoiesis, producing functionally compromised neutrophils even at normal counts.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item Bone marrow biopsy in ME/CFS patients should show altered myeloid:lymphoid progenitor ratios
+    \item Hematopoietic stem cells from ME/CFS patients should show epigenetic marks consistent with inflammatory reprogramming
+    \item The bone marrow protein signature should improve with effective immunomodulatory treatment
+\end{enumerate}
+
+\textbf{Certainty: 0.20.} Highly speculative---bone marrow has not been directly studied in ME/CFS. The tissue panel analysis is indirect (circulating proteins annotated to bone marrow origin). However, the pattern is striking and consistent with known inflammatory reprogramming of hematopoiesis.
+\end{speculation}
+
 \section{Hypothesis-Specific Treatment Implications}
 \label{sec:treatment-implications}
 
@@ -986,6 +1078,12 @@ Circadian disruption & Melatonin; light therapy; time-restricted feeding; chrono
 \addlinespace
 
 Glymphatic failure & Address CCI if present; optimize sleep; position & Theoretical & Variable & CCI surgery controversial \\
+\addlinespace
+
+Neutrophil functional exhaustion (\S\ref{hyp:neutrophil-exhaustion}) & Address upstream drivers (autoantibodies, chronic antigens); resolution mediators (resolvins); cautious G-CSF priming & Theoretical & Variable & Neutrophil functional assays needed first \\
+\addlinespace
+
+Chronic exerkine signaling (\S\ref{hyp:chronic-exerkine}) & Mitochondrial support; tissue oxygenation; FGF-21 as treatment response biomarker & Theoretical & High (biomarker monitoring) & ELISA-based; FGF-21 decline may predict clinical improvement \\
 \addlinespace
 
 \end{longtable}
@@ -1149,6 +1247,21 @@ Treatment response (hypothesized) & High potential & Moderate potential & Variab
 \footnotesize{$^*$Long COVID recovery estimates vary widely by study and symptom definition; these ranges are model extrapolations requiring validation. $^\dagger$Systematic review median~\cite{Cairns2005prognosis}. $^\ddagger$Autoantibody prevalence in Long COVID varies by assay and population. $^\S$GPCR autoantibodies in ME/CFS~\cite{Loebel2016}.}
 \end{table}
 
+\begin{keypoint}[Three-Field Convergence Against the Deconditioning Narrative]
+\label{key:deconditioning-convergence}
+By 2026, the deconditioning hypothesis for ME/CFS exercise intolerance has been independently refuted from three distinct fields, each applying its own methods and standards of evidence:
+
+\begin{enumerate}
+    \item \textbf{Exercise physiology:} Charlton et al.\ (2026), writing in the \textit{British Journal of Sports Medicine}---a mainstream sports medicine journal---argued that post-exertional malaise cannot be explained by cardiac deconditioning and called for rethinking the pathophysiology of exercise intolerance in post-viral illness~\cite{Charlton2026pem}. This marks the exercise science community challenging its own prior paradigm.
+
+    \item \textbf{Clinical guideline revision:} The UK National Institute for Health and Care Excellence withdrew graded exercise therapy from its ME/CFS guidelines in 2021, declaring it potentially harmful based on systematic evidence review~\cite{NICE2021mecfs}. This was a policy-level repudiation of the deconditioning model.
+
+    \item \textbf{Comparative virology:} The Kol et al.\ (2026) demonstration that coronavirus persists in lymphocytes after antiviral treatment and clinical recovery~\cite{Kol2026fipv} provides mechanistic plausibility against the deconditioning narrative: if post-viral symptoms are maintained by a viral reservoir in immune cells, exercise cannot address the underlying pathology. Note that this is a feline coronavirus model; cross-species extrapolation to human ME/CFS requires caution.
+\end{enumerate}
+
+This convergence from independent fields---each applying different methodologies and answering to different epistemic communities---constitutes stronger evidence than any single line of inquiry alone. The deconditioning narrative persists in some clinical settings despite this convergence, raising questions about knowledge translation and the sociology of medical belief change (see Section~\ref{sec:deconditioning-hypothesis}).
+\end{keypoint}
+
 \paragraph{Prevention Opportunity.}
 
 The massive Long COVID cohort presents an unprecedented opportunity to test whether early intervention can prevent ME/CFS development:
@@ -1208,18 +1321,16 @@ ME/CFS complexity---multi-system involvement, heterogeneous presentations, treat
 
 \begin{achievement}[Systems-Level Biomarker Panel Outperforms Single Markers]
 \label{ach:systems-biomarkers}
-\rev{5}
 The Heng 2025 study~\cite{heng2025mecfs} exemplifies a systems approach: integrating cellular ATP profiling (measuring AMP/ADP), plasma proteomics (2,924 proteins), and clinical data from 61 ME/CFS patients matched with 61 healthy controls revealed coordinated abnormalities across energy metabolism, immune function, and vascular biology.
 
 A CART-derived 7-biomarker panel achieved 91\% diagnostic accuracy, spanning adenosine metabolism (AMP), immune functions (cDC1, LYVE1, IGHG2), and vascular factors (FN1, VWF, THBS1). This accuracy far exceeds what any single biomarker could accomplish---individual markers show substantial overlap with controls, but their \textit{combination} reveals disease-specific patterns. For full biomarker details and energy metabolism implications, see Achievement~\ref{ach:heng-multiomics} in Chapter~\ref{ch:energy-metabolism}.
-\revend
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status]
 Single study (Heng 2025, n=61 pairs) from one Australian center. No independent cohort has replicated the multi-omics biomarker panel or its diagnostic accuracy. See the detailed replication assessment in Chapter~\ref{ch:energy-metabolism} (Achievement~\ref{ach:heng-multiomics}).
 \end{warning}
-\revend
+
+This finding was independently reinforced by Hoel et al.\ (2026)~\cite{Hoel2026proteome}, who applied aptamer-based proteomics (SomaScan, 7,326 aptamers) to 50 ME/CFS patients from the Norwegian RituxME and CycloME trial biobanks. Despite using a different analytical platform, different cohort (Norwegian vs.\ Australian), and different biological matrix (serum proteomics vs.\ cellular metabolomics + plasma proteomics), Hoel et al.\ found strikingly concordant multi-system signatures: immune reprogramming (suppressed neutrophil proteins, elevated complement), vascular dysfunction (altered Ephrin signaling, endothelial markers), and metabolic stress (reduced glycolytic enzymes, elevated FGF-21 and GDF-15). The convergence of two independent large-scale studies from different continents using complementary methodologies substantially strengthens the multi-system dysfunction model.
 
 This demonstrates the power of multi-omics integration and supports the hypothesis that ME/CFS involves coordinated dysfunction across multiple systems rather than isolated abnormalities. Future studies combining genomics, epigenomics, transcriptomics, proteomics, metabolomics, and microbiomics may identify patient subgroups with distinct molecular signatures, enabling precision medicine approaches.
 

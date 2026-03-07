@@ -41,7 +41,6 @@ ME/CFS belongs to a family of post-infectious chronic conditions that may share 
 What if all these conditions---ME/CFS, Long COVID, post-Lyme, Gulf War Illness---represent the same underlying ``locked sickness behavior'' state triggered by different insults? The specific trigger might influence which symptoms predominate, but the core pathophysiology could be identical. This would explain why they're so similar clinically yet have different apparent causes.
 \end{open_question}
 
-\rev{5}
 \begin{limitation}[Cross-Disease Extrapolation: Shared Symptoms Do Not Establish Shared Mechanisms]
 This chapter maps symptom overlaps between ME/CFS and numerous other conditions (Long COVID, POTS, MCAS, EDS, fibromyalgia, autoimmune diseases, mitochondrial diseases, cancer cachexia). While clinically suggestive, shared symptoms across conditions do not establish shared aetiology. Key epistemic boundaries:
 \begin{itemize}
@@ -51,7 +50,6 @@ This chapter maps symptom overlaps between ME/CFS and numerous other conditions 
     \item The ``multi-lock'' framing applied to cross-disease connections has not been empirically validated as a model distinct from simpler explanations such as shared genetic susceptibility or diagnostic overlap.
 \end{itemize}
 \end{limitation}
-\revend
 
 \subsection{The Dysautonomia Spectrum}
 
@@ -293,9 +291,7 @@ Screening for CCI may be appropriate in ME/CFS patients with hypermobility and p
 
 \paragraph{Pathway 3: Extracellular Matrix $\rightarrow$ Mast Cell Dysregulation (LOW EVIDENCE).}
 
-\rev{5}
 The ``EDS-MCAS-POTS triad'' is frequently discussed clinically, but a critical review found that ``an evidence-based, common pathophysiologic mechanism between any of the two, much less all three conditions, has yet to be described''~\cite{Kucharik2020}. The proposed mechanisms remain speculative:
-\revend
 
 \begin{itemize}
     \item \textbf{ECM-mast cell interactions:} Mast cells anchor to extracellular matrix proteins (fibronectin, vitronectin) via integrins. Bidirectional signaling means abnormal ECM composition could theoretically alter mast cell activation thresholds and mediator release patterns.
@@ -336,6 +332,38 @@ Small fiber neuropathy (SFN) may represent a convergent mechanism linking EDS st
 \end{itemize}
 
 SFN may be where the EDS structural abnormality and the ME/CFS functional abnormality converge, though whether SFN in EDS has the same etiology as SFN in ME/CFS remains unknown.
+
+\begin{speculation}[Defective Extracellular Matrix Alters Lymph Node Architecture and Viral Clearance]
+\label{spec:heds-lymphnode-architecture}
+
+\textbf{Certainty: 0.25.} Highly speculative---no direct evidence links hEDS connective tissue defects to lymph node microenvironment dysfunction. The hypothesis bridges two independently supported observations (hEDS susceptibility to ME/CFS and viral persistence in lymph nodes) with a plausible but untested mechanistic bridge.
+
+Lymph nodes are structurally dependent on a fibroblastic reticular cell (FRC) network embedded in extracellular matrix (ECM). This collagen- and fibronectin-rich scaffold organizes immune cell trafficking, antigen presentation, and pathogen clearance. In hEDS, systemic collagen defects alter ECM composition throughout the body. We speculate that this extends to lymphoid tissue, creating altered lymph node microenvironments where viral clearance is impaired.
+
+\paragraph{Proposed Mechanism.}
+Defective ECM in hEDS lymph nodes may produce:
+\begin{itemize}
+    \item \textbf{Looser FRC networks:} Altered stromal architecture could change the spatial organisation of T cell zones and B cell follicles, reducing the efficiency of antigen presentation and immune synapse formation.
+    \item \textbf{Abnormal conduit systems:} The FRC conduit system filters soluble antigens by size; altered collagen composition could change filtration properties, affecting which antigens reach dendritic cells.
+    \item \textbf{Permissive niches for viral persistence:} If the Kol et al.\ FIP model~\cite{Kol2026fipv} applies to humans, virus-harbouring lymphocytes may find sanctuary in structurally abnormal lymph node regions where immune surveillance is spatially disorganised.
+\end{itemize}
+
+This would explain why hEDS patients are disproportionately susceptible to post-viral ME/CFS: the same connective tissue defect that causes joint hypermobility also compromises the structural infrastructure of immune defence.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item Lymph node biopsies or fine-needle aspirates from hEDS patients will show altered FRC network density and collagen composition compared to non-hEDS controls.
+    \item Advanced lymph node imaging (contrast-enhanced ultrasound or MR lymphangiography) will reveal structural differences in hEDS patients.
+    \item Post-COVID hEDS patients will show higher rates of persistent viral antigen in lymphoid tissue than non-hEDS post-COVID patients matched for illness duration and severity.
+    \item In vitro, culturing immune cells on hEDS-derived versus normal ECM scaffolds will show reduced viral clearance efficiency.
+\end{enumerate}
+
+\paragraph{Falsifiability.}
+This hypothesis would be falsified if lymph node architecture in hEDS patients is structurally normal on biopsy and imaging, or if viral persistence rates are equal in hEDS and non-hEDS ME/CFS patients. It would also be weakened if the hEDS--ME/CFS association is fully explained by autonomic dysfunction and MCAS without any lymphoid tissue involvement.
+
+\paragraph{Limitations.}
+No studies have examined lymph node histology in hEDS. The ECM defect in hEDS is heterogeneous and incompletely characterised; its effects on lymphoid tissue are entirely extrapolated. Lymph node biopsy is invasive, limiting feasibility. The hypothesis cannot explain ME/CFS in patients without connective tissue disorders.
+\end{speculation}
 
 \subsubsection{The Deconditioning Spiral}
 
@@ -390,24 +418,21 @@ Answering these questions could identify preventive strategies and targeted trea
 
 \subsection{The Fibromyalgia Overlap}
 
-ME/CFS and fibromyalgia are often considered related or overlapping:
+ME/CFS and fibromyalgia share extensive clinical and biological overlap. A systematic review and meta-analysis of 21 publications found that the two diagnoses co-occur in 47.3\% of cases (95\% CI: 45.97--48.63), though high heterogeneity ($I^2=98\%$) reflects varying diagnostic criteria across studies~\cite{RamirezMorales2022overlap}. The 2016 Wolfe fibromyalgia criteria, which incorporate fatigue, unrefreshed sleep, and cognitive dysfunction, likely inflate this figure by absorbing core ME/CFS features into the FM definition. Community-based estimates place co-occurrence closer to 22--35\%.
 
-\paragraph{Key Overlaps.}
-\begin{itemize}
-    \item Central sensitization (both conditions)
-    \item Fatigue (prominent in both)
-    \item Cognitive dysfunction (both)
-    \item Sleep disturbance (both)
-    \item Female predominance (both)
-\end{itemize}
+At the cerebrospinal fluid level, the two conditions may be even more closely related than clinical phenotypes suggest. Mass spectrometry analysis of 2,083 CSF proteins found \textbf{no significant differences} between ME/CFS patients with and without comorbid fibromyalgia, with machine learning achieving only AUC~0.67---barely above chance~\cite{Nilsson2023proteomics}. The authors concluded that the two conditions ``fall along a common illness spectrum,'' challenging the hypothesis that they have distinct central nervous system pathophysiology.
+
+Neuroinflammation provides further convergence. Multi-site PET imaging with $[^{11}\mathrm{C}]$PBR28 (a TSPO radioligand marking activated microglia and astrocytes) revealed significant microglial activation in the thalamus, somatosensory cortex, and prefrontal cortex of fibromyalgia patients compared to controls~\cite{Albrecht2019FMglial}. Parallel findings of microglial activation in ME/CFS suggest a shared neuroinflammatory substrate.
+
+Autoantibody signatures add a further layer of convergence. In a study comparing ME/CFS patients with and without comorbid FM and healthy controls, 54.5\% of the ME/CFS+FM group and 45.5\% of the ME/CFS-only group showed abnormal GABA receptor immunoreactivity, versus 0\% of controls. Altered $\beta$-endorphin immunoreactivity correlated with fatigue severity in both groups, suggesting dysregulated natural autoimmunity rather than classical autoimmune pathology~\cite{Ryabkova2023autoantibodies}.
+
+\paragraph{Post-Exertional Malaise: Shared but Asymmetric.}
+
+A three-level meta-analysis of 45 effects from 15 studies confirmed that both ME/CFS and fibromyalgia patients show small-to-moderate increases in pain severity following exercise, establishing pain-related PEM as a shared feature~\cite{Barhorst2022painPEM}. However, PEM after \textit{physical} exertion remains the cardinal distinguishing criterion: present in $>$90\% of ME/CFS patients but absent or inconsistent in pure fibromyalgia. When FM is comorbid, PEM severity is amplified (scores 79.63 vs.\ 71.18, $p<0.001$).
 
 \paragraph{Key Differences.}
-\begin{itemize}
-    \item Pain emphasis: fibromyalgia $>$ ME/CFS
-    \item Post-exertional malaise: ME/CFS $>$ fibromyalgia
-    \item Specific tender points: fibromyalgia defining feature
-    \item Immune abnormalities: more documented in ME/CFS
-\end{itemize}
+
+Despite the overlap, clinically important distinctions remain. A recent comprehensive review~\cite{Murovska2026overlap} summarized the distinguishing features: the core symptom in ME/CFS is profound fatigue with obligatory PEM after physical exertion, while FM is defined by widespread chronic pain. NK cell reduction is consistent and pronounced in ME/CFS but variable in FM. Mitochondrial impairment is severe in ME/CFS versus moderate in FM. GPCR autoantibody evidence is stronger in ME/CFS, though emerging in FM.
 
 \begin{open_question}[Same Disease, Different Locks?]
 What if ME/CFS and fibromyalgia represent the same underlying pathophysiology with different predominant locks?
@@ -416,20 +441,30 @@ What if ME/CFS and fibromyalgia represent the same underlying pathophysiology wi
     \item \textbf{Fibromyalgia-predominant:} Stronger central sensitization lock, less metabolic involvement
     \item \textbf{Mixed:} Both lock types active
 \end{itemize}
-This would explain why they so often co-occur and why treatments for one sometimes help the other.
+The CSF proteome data~\cite{Nilsson2023proteomics} and shared microglial activation patterns~\cite{Albrecht2019FMglial} support this spectrum model. If confirmed, this would explain why they so often co-occur and why treatments for one sometimes help the other. The key clinical implication: clinicians seeing fibromyalgia should systematically screen for PEM, as the high co-occurrence (47\%) means nearly half of FM patients may also meet ME/CFS criteria~\cite{RamirezMorales2022overlap}.
 \end{open_question}
 
 \subsection{The Autoimmune Disease Spectrum}
 
 ME/CFS may sit on a continuum with recognized autoimmune diseases:
 
-\paragraph{Sjögren's Syndrome.}
-\begin{itemize}
-    \item Fatigue often out of proportion to organ involvement
-    \item Small fiber neuropathy common
-    \item Similar autonomic features
-    \item \textit{Speculative link:} ME/CFS might be ``seronegative Sjögren's'' or Sjögren's affecting different targets
-\end{itemize}
+\paragraph{Sjögren's Syndrome (Gougerot-Sjögren).}
+
+The overlap between primary Sjögren's syndrome (pSS) and ME/CFS is both clinically significant and mechanistically informative. Fatigue affects 65--70\% of pSS patients and is consistently rated as the most debilitating extraglandular symptom, predicting work disability and reduced quality of life independently of glandular involvement~\cite{Mardale2024SjogrenFatigue}.
+
+The ``seronegative Sjögren's'' hypothesis has historical roots. Already in 1996, Nishikai et al.\ found that one-third of CFS patients presenting with sicca symptoms (dry eyes, dry mouth) fulfilled Sjögren's diagnostic criteria while remaining seronegative---lacking the classic anti-SSA/SSB antibodies that define primary SS~\cite{Nishikai1996seronegative}. This raised the possibility that a subset of ME/CFS patients harbor subclinical or atypical Sjögren's disease that escapes conventional serological detection.
+
+A 2023 Berlin study brought contemporary rigor to this question. Kim et al.\ assessed 19 pSS patients against the Canadian Consensus Criteria for ME/CFS and found that 22\% (4/18) fulfilled full CCC criteria, while 32\% (6/19) had severe ME/CFS-like symptoms~\cite{Kim2023SjogrenMECFS}. Crucially, PEM in pSS was primarily triggered by \textit{mental and emotional} exertion rather than physical exertion, and hand grip strength recovered normally within 60 minutes after exercise---in contrast to the abnormal recovery pattern characteristic of ME/CFS. This suggests that while the fatigue phenotypes overlap, the underlying exercise physiology diverges.
+
+The immunological connections are striking. Both pSS and ME/CFS show elevated $\beta_1$/$\beta_2$-adrenergic and M3/M4-muscarinic receptor autoantibodies. However, in pSS these autoantibodies correlate with systemic disease activity (ESSDAI, $p<0.05$) but \textit{not} with fatigue severity~\cite{Kim2023SjogrenMECFS}---whereas in ME/CFS, GPCR autoantibodies are hypothesized to mediate fatigue and autonomic dysfunction directly. The same molecular target thus appears to have different functional consequences in the two conditions.
+
+Type I interferon dysregulation provides another convergence point. In pSS, elevated plasmacytoid dendritic cells drive a type I IFN signature that correlates with extraglandular manifestations and autoantibody production. Similar plasmacytoid dendritic cell elevation and increased type I IFN production have been documented in ME/CFS, potentially increasing susceptibility to autoimmune mechanisms in both conditions.
+
+CSF neuroinflammation further links the two. In pSS, IL-1Ra in cerebrospinal fluid is significantly associated with fatigue severity, implicating IL-1$\beta$-mediated neuroinflammation~\cite{Omdal2019CSFfatigueSjogren}. Parallel findings of elevated IL-1$\beta$ and neuroinflammatory markers in ME/CFS CSF suggest a shared central inflammatory driver of fatigue.
+
+Small fiber neuropathy (SFN) may represent a unifying structural substrate across pSS, fibromyalgia, and ME/CFS. SFN prevalence reaches 49\% in fibromyalgia by meta-analysis, is well-documented in pSS (presenting predominantly as a non-length-dependent pattern), and has been reported in ME/CFS cohorts at 40--50\%. This shared neuropathic substrate could underlie the overlapping pain, autonomic, and sensory symptoms across all three conditions.
+
+The diagnostic implications are bidirectional. The average diagnostic delay for Sjögren's disease is 3--6 years, and pSS patients commonly receive initial labels of fibromyalgia, CFS, or functional disorder before correct diagnosis~\cite{Lee2024SjogrenDiagnosis}. Conversely, 7--8\% of pSS patients have no sicca symptoms at diagnosis, creating a risk that Sjögren's is missed in ME/CFS patients who lack the classic dry eyes/mouth presentation. In any ME/CFS patient presenting with fatigue, dry eyes or mouth, joint pain, and sensory symptoms, Sjögren's evaluation (Schirmer's test, salivary flow, lip biopsy, SSA/SSB antibodies) is warranted---including when seronegative, given the Nishikai data~\cite{Nishikai1996seronegative}.
 
 \paragraph{Systemic Lupus Erythematosus.}
 \begin{itemize}

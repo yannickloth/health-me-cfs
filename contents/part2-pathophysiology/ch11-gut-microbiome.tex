@@ -25,11 +25,9 @@ Giloteaux et al.~\cite{Giloteaux2016} performed 16S rRNA sequencing on stool sam
 This foundational study established that dysbiosis is a reproducible feature of ME/CFS (prospective case-control, n=87, High certainty).
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status: Partially Replicated]
 The Giloteaux et al.\ (2016) finding of reduced bacterial diversity has been directionally confirmed in subsequent studies, but IBS co-morbidity---present in 50--90\% of ME/CFS patients---was not controlled in the original study. Nagy-Szakal et al.~\cite{NagySzakal2017} demonstrated that IBS status is the strongest driver of microbiome composition differences (see Warning~\ref{warn:ibs-confound}). Studies not controlling for IBS may overestimate or misattribute microbiome changes to ME/CFS itself. The 82.93\% classification accuracy has not been independently validated.
 \end{warning}
-\revend
 
 \paragraph{Specific Bacterial Taxa Alterations.}
 
@@ -63,6 +61,19 @@ Nagy-Szakal et al.~\cite{NagySzakal2017} demonstrated that IBS co-morbidity is t
 Given 50--90\% IBS prevalence in ME/CFS, careful phenotyping is essential for research interpretation.
 \end{warning}
 
+Recent studies reinforce the microbiome--ME/CFS link.  A 2025
+\textit{Scientific Reports} study confirmed significant compositional
+differences (reduced \textit{F.\ prausnitzii} and \textit{Bifidobacterium},
+enriched \textit{Clostridium}) in CFS versus
+controls~\cite{GutMicrobialComposition2025}
+(Appendix~\ref{app:research-registry},
+Section~\ref{sec:registry-gut-composition}).  Most notably, an AI platform
+integrating stool, blood, and routine lab data achieved 90\% diagnostic
+accuracy in 249 individuals, the highest reported for any ME/CFS biomarker
+panel~\cite{JAXmicrobiome2025}
+(Section~\ref{sec:registry-jax-microbiome}).  Both studies await independent
+blinded multi-site replication.
+
 \subsection{Functional Capacity Changes}
 
 Beyond taxonomic alterations, ME/CFS patients show impaired microbiome \textit{function}---the metabolic activities bacteria perform.
@@ -79,15 +90,25 @@ Guo et al.~\cite{ButyrateDeficiency2023} performed multi-omic analysis (metageno
 Butyrate is the primary energy source for colonocytes and has anti-inflammatory, barrier-protective, and neuromodulatory functions. Its deficiency may contribute to intestinal permeability and systemic inflammation (multi-center study, n=197, High certainty).
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status: Partially Replicated]
 The butyrate deficiency finding (Guo et al.\ 2023, n=197) is the largest study to date and confirmed across multiple methodologies within the study. However, dietary intake---the primary determinant of short-chain fatty acid production---was not controlled. Fiber intake differences between cases and controls could confound butyrate measurements. Earlier smaller studies reported consistent direction of effect but from overlapping research networks.
 \end{warning}
-\revend
+
+\subsection{Multi-Omic Integration: Beyond Taxonomic Profiling}
+\label{sec:multi-omic-microbiome}
+
+Traditional 16S rRNA sequencing identifies \textit{which bacteria} are present but cannot determine \textit{what they are doing}. This distinction matters: two patients with identical bacterial communities may produce entirely different metabolite profiles depending on gene expression, substrate availability, and inter-species interactions. Early ME/CFS microbiome studies relied exclusively on taxonomic profiling and achieved moderate classification accuracy (e.g., 82.93\% in Giloteaux et al.~\cite{Giloteaux2016}). Nagy-Szakal et al.~\cite{NagySzakal2017} combined fecal metagenomic and plasma metabolomic profiling, achieving in-sample classification AUC=0.893 with an 8-species bacterial model (cross-validated AUC=0.745). Crucially, their analysis revealed that IBS co-morbidity---not ME/CFS diagnosis---was the dominant driver of bacterial compositional differences, underscoring why metabolomic data are needed to disentangle ME/CFS-specific signatures from IBS confounding.
+
+The most comprehensive multi-omic analysis to date, by Xiong et al.~\cite{Xiong2023multiomics}, combined shotgun metagenomics with plasma metabolomics in 149 ME/CFS patients (74 short-term, 75 long-term) and 79 healthy controls. Multi-omic integration achieved AUC=0.90 for ME/CFS classification, substantially outperforming species relative abundance alone (AUC=0.73) or metagenomic gene profiles alone (AUC=0.73). The plasma metabolome alone achieved AUC=0.82, already superior to taxonomic profiling. Key discriminating metabolites included sphingomyelins, diacylglycerols, ceramides, and reduced butyrate-related compounds---a metabolic fingerprint invisible to 16S sequencing.
+
+Critically, Xiong et al.\ also revealed a temporal dissociation between dysbiosis and metabolic dysfunction. Short-term ME/CFS patients ($<$4 years) showed pronounced microbial dysbiosis with relatively preserved metabolic profiles, while long-term patients ($>$10 years) had largely resolved microbial dysbiosis but \textit{worsened} metabolic aberrations and more severe clinical symptoms. This finding suggests that early dysbiosis may initiate metabolic disruptions that become self-sustaining even after partial microbiome normalization---and that metabolomic profiling captures disease progression features that taxonomic surveys miss entirely.
+
+\begin{warning}[Replication Status: Not Yet Replicated]
+The Xiong et al.\ (2023) multi-omic integration findings come from a single center (Jackson Laboratory/Bateman Horne Center), though with a large, well-characterized cohort. The temporal dissociation between dysbiosis and metabolic dysfunction is a novel observation that requires independent confirmation. The superior classification performance of multi-omics (AUC=0.90) has not been validated in external cohorts. Several ongoing studies aim to replicate and extend these findings; see Appendix~\ref{app:research-registry}, Sections~\ref{sec:registry-biomapai} and~\ref{sec:registry-nsu-probiotics}.
+\end{warning}
 
 \paragraph{Tryptophan Metabolism Alterations.}
 
-\rev{5}
 The gut microbiome significantly modulates tryptophan availability, with gut enterochromaffin cells producing $>$90\% of the body's serotonin. ME/CFS patients show disrupted tryptophan pathways~\cite{Kavyani2022kynurenine,Abujrais2024tryptophan}:
 \begin{itemize}
     \item Reduced circulating serotonin and kynurenine affecting neurotransmission~\cite{Simonato2021tryptophan}---notably, these changes appeared independent of cytokine levels, suggesting tryptophan dysregulation may be a primary feature rather than secondary to inflammation
@@ -95,7 +116,6 @@ The gut microbiome significantly modulates tryptophan availability, with gut ent
     \item Kynurenine pathway hyperactivation may deplete NAD\textsuperscript{+} via PARP activation, contributing to energy deficits~\cite{Dehhaghi2022kynurenine, Dehhaghi2022AD}
     \item Disrupted indole derivative production (aryl hydrocarbon receptor ligands)
 \end{itemize}
-\revend
 
 \paragraph{IDO2-Mediated Tryptophan Diversion.}
 
@@ -166,11 +186,9 @@ A 2023 study~\cite{GutPermeability2023} measured intestinal permeability markers
 This provides direct evidence of intestinal barrier dysfunction and bacterial product translocation in ME/CFS (case-control, High certainty).
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status: Partially Replicated]
 The bacterial translocation finding (2023 study) is consistent with earlier publications by Maes and colleagues showing elevated LPS and immune activation markers. However, the research groups overlap substantially, limiting the independence of replication. Additionally, the study measured zonulin using a commercial ELISA kit; recent methodological reviews have raised concerns about zonulin assay specificity, as some kits may cross-react with complement C3~\cite{GutPermeability2023}. Independent replication with validated permeability assays (e.g., lactulose/mannitol ratio) would strengthen these findings.
 \end{warning}
-\revend
 
 \paragraph{Severity Stratification: Critical Knowledge Gap.}
 
@@ -178,11 +196,9 @@ While baseline gut barrier dysfunction has been established in ME/CFS population
 
 The Maes et al.\ study~\cite{GutPermeability2023} did not stratify participants by disease severity, leaving uncertainty about whether zonulin, LPS, and sCD14 elevations correlate with functional impairment. This gap is significant because severity-dependent gut barrier dysfunction would suggest distinct pathophysiological mechanisms and treatment priorities for different patient subgroups.
 
-\rev{5}
 \begin{hypothesis}[Severity-Dependent Baseline Gut Permeability]
 \label{hyp:severity-gut-permeability}
 \textbf{Certainty: 0.50.} The individual supporting observations (CBF reduction by severity, cytokine-severity correlations, reduced cortisol in severe patients, POTS comorbidity) are moderately well-established, but their \emph{integration} into a unified severity-stratified permeability model has not been directly tested. Certainty is set at 0.50 rather than the originally proposed 0.65 to reflect this untested integration.
-\revend
 
 Severe ME/CFS patients likely exhibit \textit{higher} baseline permeability markers than mild/moderate patients, mediated by four convergent mechanisms:
 
@@ -279,6 +295,21 @@ In patients with pre-existing wheat-induced barrier dysfunction (via gliadin-med
 \label{sec:gut-metabolic-cascade}
 
 Beyond bacterial translocation, intestinal barrier dysfunction may contribute to ME/CFS through impaired nutrient absorption, particularly amino acids critical for mitochondrial function and nitric oxide synthesis.
+
+\paragraph{Microbiome--Mast Cell Bidirectional Regulation.}
+\label{par:microbiome-mast-cell}
+
+The gut microbiome and intestinal mast cells engage in bidirectional communication that is directly relevant to the MCAS--ME/CFS overlap~\cite{DeZuani2018mastmicrobiota,Papa2025mastmicrobiome}. In the suppressive direction, microbial short-chain fatty acids---particularly butyrate and propionate---are potent mast cell stabilizers. Folkerts et al.~\cite{Folkerts2020butyrate} demonstrated that butyrate achieves up to 90\% inhibition of IgE-mediated human mast cell degranulation, acting through histone deacetylase (HDAC) inhibition rather than through GPR41/GPR43 receptors. Mechanistically, butyrate epigenetically downregulates the tyrosine kinases BTK ($-$2.12-fold), SYK ($-$2.84-fold), and LAT ($-$4.6-fold)---critical transducers of Fc$\varepsilon$RI-mediated signaling. Propionate showed comparable inhibitory potency, while acetate had no effect. This finding directly links the butyrate-producer deficiency documented in ME/CFS (Achievement~\ref{ach:butyrate-deficiency}) to a mechanistic pathway for mast cell dysregulation: reduced microbial butyrate production removes an epigenetic brake on mast cell activation.
+
+In the pro-inflammatory direction, dysbiotic microbiomes can actively promote mast cell activation through multiple routes. Certain gut bacteria express histidine decarboxylase (HDC) and produce histamine directly within the intestinal lumen. Barcik et al.~\cite{Barcik2019histamine} demonstrated this for \textit{Lactobacillus reuteri}, which carries a complete chromosomal \textit{hdc} gene cluster; other known HDC-expressing gut commensals include \textit{Enterococcus faecalis} and certain \textit{Escherichia coli} strains~\cite{DeZuani2018mastmicrobiota}. Barcik et al.\ showed that bacterial histamine secretion in the gut can influence immune responses systemically, including in the lung, demonstrating that gut-derived microbial histamine has effects beyond the intestinal tract. Additionally, lipopolysaccharide (LPS) from gram-negative bacteria---elevated in ME/CFS due to bacterial translocation (Achievement~\ref{ach:bacterial-translocation})---directly stimulates mast cell activation and upregulates tryptase, chymase, and pro-inflammatory cytokine expression~\cite{DeZuani2018mastmicrobiota}.
+
+This bidirectional relationship creates a potential vicious cycle in ME/CFS: dysbiosis reduces butyrate-mediated mast cell suppression while simultaneously increasing pro-inflammatory microbial signals (histamine, LPS), leading to mast cell hyperactivation. Activated mast cells then release proteases and histamine that damage the intestinal barrier~\cite{GutPermeability2023}, further promoting bacterial translocation and worsening dysbiosis. This cycle may contribute to the observation that MCAS diagnoses are far more common \textit{after} ME/CFS onset (16.7\%) than before it (2.8\%)~\cite{Frioni2025MCAS}---if progressive loss of butyrate-producing commensals gradually removes the epigenetic restraint on mast cell activation, MCAS could emerge as a secondary development rather than a pre-existing comorbidity. It also suggests that microbiome restoration (targeted probiotics, prebiotics, or FMT; see Section~\ref{sec:fmt}) could have mast cell-stabilizing effects independent of pharmacological interventions, by restoring endogenous butyrate production.
+
+\begin{warning}[Evidence Limitations: Microbiome--Mast Cell Axis]
+The butyrate--mast cell inhibition data (Folkerts et al.\ 2020) derive from \textit{in vitro} and \textit{ex vivo} models using millimolar butyrate concentrations. While these concentrations are physiological in the colonic lumen, circulating butyrate levels are substantially lower, and whether systemic butyrate concentrations in ME/CFS patients are sufficient to modulate mast cell activity \textit{in vivo} remains undemonstrated. The proposed vicious cycle (dysbiosis $\to$ reduced butyrate $\to$ mast cell activation $\to$ barrier damage $\to$ worsened dysbiosis) has not been tested longitudinally in ME/CFS cohorts. No study has simultaneously measured fecal butyrate levels, mast cell activation markers, and microbiome composition in ME/CFS patients.
+
+Certainty: Low--Moderate. Individual mechanistic components are well-established; their integration into a self-reinforcing cycle in ME/CFS is plausible but unvalidated.
+\end{warning}
 
 \begin{hypothesis}[MCAS/HIT $\rightarrow$ Barrier Dysfunction $\rightarrow$ Mitochondrial Failure Cascade]
 \label{hyp:gut-mito-cascade}
@@ -432,7 +463,6 @@ Gastroparesis in ME/CFS is likely secondary to autonomic dysfunction:
 
 SIBO occurs when excessive bacteria colonize the small intestine, which is normally relatively sterile. It is increasingly recognized as a major contributor to ME/CFS gastrointestinal symptoms.
 
-\rev{5}
 \begin{observation}[SIBO Prevalence in ME/CFS]
 \label{obs:sibo-prevalence}
 A retrospective analysis of ME/CFS patients referred for breath testing found:
@@ -446,7 +476,6 @@ A retrospective analysis of ME/CFS patients referred for breath testing found:
 \end{itemize}
 This suggests a substantial proportion of ME/CFS patients have bacterial overgrowth, though the retrospective design and referral bias (patients referred for breath testing likely had more GI symptoms) limit generalizability (retrospective chart review; 479 referred, 367 with usable results, 316 conclusive; Medium certainty)~\cite{SIBOKarhu2023}.
 \end{observation}
-\revend
 
 \paragraph{Pathophysiology: Migrating Motor Complex Dysfunction.}
 
@@ -641,7 +670,6 @@ Herbal antimicrobials may represent an alternative for patients preferring non-p
 
 Elemental diets provide pre-digested nutrients (amino acids, simple sugars, minimal fat) that are absorbed in the proximal small intestine, effectively ``starving'' bacteria of fermentable substrates.
 
-\rev{5}
 \begin{observation}[Elemental Diet Efficacy]
 \label{obs:elemental-diet}
 Multiple studies demonstrate high efficacy:
@@ -654,7 +682,6 @@ Multiple studies demonstrate high efficacy:
 \end{itemize}
 Elemental diet is highly effective but requires motivation due to taste and restrictive nature (clinical trials, Medium-High certainty).
 \end{observation}
-\revend
 
 \textbf{Protocol:}
 \begin{itemize}
@@ -741,12 +768,10 @@ FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyo
     \item Symptom reduction in 3 separate RCTs
 \end{itemize}
 
-\rev{5}
 \begin{keypoint}[Strain-Specific Probiotic Selection]
 \label{key:probiotic-strain}
 Probiotic effects are highly strain-specific---a well-established principle in microbiology. \textit{B. infantis} 35624 shows strongest evidence for reducing inflammation in ME/CFS, while \textit{L. casei} Shirota may preferentially improve anxiety. Generic ``probiotic'' recommendations are unlikely to be helpful; strain selection should be evidence-based.
 \end{keypoint}
-\revend
 
 \begin{warning}[Probiotic Cautions]
 \begin{itemize}
@@ -775,11 +800,9 @@ Prebiotics are non-digestible fibers that selectively feed beneficial bacteria:
 
 FMT represents the most radical microbiome intervention---complete ecosystem replacement rather than supplementation.
 
-\rev{5}
 \begin{speculation}[FMT for ME/CFS]
 \label{spec:fmt}
 \textbf{Certainty: 0.25.} One completed pilot RCT (n=11) showed no symptomatic benefit, though dose may have been suboptimal. Two larger placebo-controlled trials are ongoing (Comeback, n=80; RESTORE ME, n=160); results expected 2026+. FMT is classified as speculation pending these results.
-\revend
 
 Rationale for FMT in ME/CFS:
 \begin{itemize}
@@ -818,7 +841,7 @@ Gastrointestinal dysfunction interconnects with other ME/CFS mechanisms (these c
 
     \item \textbf{Autonomic dysfunction} (Chapter~\ref{ch:neurological}): Vagal impairment causes gastroparesis and MMC dysfunction; dysautonomia and GI symptoms bidirectionally reinforce each other. A specific gut--vagal mechanism may operate through enterochromaffin cell serotonin release affecting vagal afferent signaling (Section~\ref{sec:gut-brain}), with potential downstream effects on cardiovascular autonomic function (Chapter~\ref{ch:cardiovascular})
 
-    \item \textbf{MCAS} (Section~\ref{sec:septad}): Mast cells in gut mucosa may affect motility and permeability; potential bidirectional interactions with SIBO remain to be characterized
+    \item \textbf{MCAS} (Section~\ref{sec:septad}): Bidirectional microbiome--mast cell regulation operates through butyrate-mediated epigenetic suppression and dysbiosis-driven histamine/LPS activation (\hyperref[par:microbiome-mast-cell]{Microbiome--Mast Cell Bidirectional Regulation}, Section~\ref{sec:gut-metabolic-cascade}); mast cells in gut mucosa affect motility and permeability, with potential interactions with SIBO
 
     \item \textbf{Energy metabolism} (Chapter~\ref{ch:energy-metabolism}): Butyrate deficiency reduces colonocyte energy; malabsorption impairs nutrient availability for mitochondrial function
 

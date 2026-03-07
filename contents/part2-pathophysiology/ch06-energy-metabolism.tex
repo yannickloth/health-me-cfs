@@ -135,11 +135,9 @@ A landmark 2025 study by Heng et al.~\cite{heng2025mecfs}, published in \textit{
 The study identified a predictive model comprising seven biological variables that distinguished ME/CFS patients with 85.2\% sensitivity, 96.7\% specificity, and 91\% accuracy. These seven biomarkers span adenosine metabolism (AMP), immune functions (cDC1, LYVE1, IGHG2), and vascular factors (FN1, VWF, THBS1)---demonstrating that energy dysfunction in ME/CFS is not isolated but integrated with immune and vascular abnormalities. This multi-system integration suggests that future treatments may need to target energy metabolism, immune maturation, and vascular health simultaneously. The implications of this coordinated dysfunction for treatment strategy are discussed in Chapter~\ref{ch:integrative-models}, particularly in the context of the Energy-Immune-Autonomic Triad (Section~\ref{sec:synthesis}). For the systems biology perspective on this biomarker panel, see Achievement~\ref{ach:systems-biomarkers} in Chapter~\ref{ch:integrative-models}.
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status]
 Single study (Heng 2025, n=61 pairs) from one Australian center. No independent cohort has replicated the multi-omics biomarker panel or its diagnostic accuracy. The CART-derived 7-biomarker model requires prospective validation in independent populations with diverse demographics and diagnostic criteria before clinical application. Independent replication required.
 \end{warning}
-\revend
 
 \subsubsection{Electron Microscopy Findings}
 
@@ -233,22 +231,31 @@ Mitophagy removes damaged mitochondria:
 
 \subsubsection{WASF3 and ER Stress: A Specific Molecular Mechanism}
 
-A 2023 study by Hwang et al., using muscle biopsies from the NIH intramural ME/CFS cohort, identified a specific molecular pathway linking cellular stress to mitochondrial dysfunction~\cite{hwang2023wasf3}.
+A 2023 study by Wang et al., using muscle biopsies from the NIH intramural ME/CFS cohort, identified a specific molecular pathway linking cellular stress to mitochondrial dysfunction~\cite{wang2023wasf3}.
 
 \begin{achievement}[ER Stress--WASF3--Mitochondrial Dysfunction Pathway: Druggable Mechanism]
 \label{ach:wasf3-mechanism}
-A 2023 study by Hwang et al.~\cite{hwang2023wasf3}, using muscle biopsies from the NIH intramural ME/CFS cohort, identified a specific molecular pathway linking cellular stress to mitochondrial dysfunction. WASF3 (Wiskott-Aldrich syndrome protein family member 3) was significantly elevated in ME/CFS patient muscle biopsies compared to controls. This protein, when overexpressed, localizes to mitochondria and disrupts respiratory chain function.
+A 2023 study by Wang et al.~\cite{wang2023wasf3}, using muscle biopsies from the NIH intramural ME/CFS cohort, identified a specific molecular pathway linking cellular stress to mitochondrial dysfunction. WASF3 (Wiskott-Aldrich syndrome protein family member 3) was significantly elevated in ME/CFS patient muscle biopsies compared to controls. This protein, when overexpressed, localizes to mitochondria and disrupts respiratory chain function.
 
 The study revealed a mechanistic chain: endoplasmic reticulum (ER) stress activation drives increased WASF3 expression, which then translocates to mitochondria where it interferes with respiratory chain supercomplex assembly, particularly affecting Complex IV (cytochrome c oxidase), resulting in decreased oxygen consumption and reduced exercise endurance. Critically, pharmacologic inhibition of ER stress in patient-derived cells improved mitochondrial function, suggesting this pathway represents a potentially druggable target. ER stress modulators or WASF3 inhibitors could restore normal mitochondrial respiration.
 
 The WASF3 mechanism provides a molecular explanation for several ME/CFS features: viral infection can trigger ER stress through viral protein accumulation (explaining post-infectious onset), once established ER stress can become self-perpetuating (explaining chronic persistence), and Complex IV impairment directly limits oxidative capacity (explaining exercise intolerance and reduced VO$_2$peak observed in CPET studies). This finding bridges the gap between cellular stress responses and the clinical manifestation of exercise intolerance, providing mechanistic support for the energy deficit model of ME/CFS.
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status]
 Single study (Hwang 2023) from the NIH intramural ME/CFS cohort. While the mechanism was validated in cell culture (pharmacologic ER stress inhibition rescued mitochondrial function), no independent cohort has replicated the WASF3 elevation finding in ME/CFS muscle biopsies. The ``druggable target'' claim remains preclinical. Independent replication in patient tissue is required before therapeutic development.
 \end{warning}
-\revend
+
+A 2025 muscle biopsy study in long COVID and ME/CFS patients confirmed
+elevated WASF3 and ER stress markers with decreased Complex~IV subunits,
+and critically demonstrated that these abnormalities differ from bed
+rest-induced deconditioning~\cite{SkeletalMuscle2025longCOVID}
+(Appendix~\ref{app:research-registry},
+Section~\ref{sec:registry-skeletal-muscle}).  A multi-modal study in
+\textit{Cell Reports Medicine} further showed reduced ATP/ADP ratios in
+immune cells, linking energy deficits to immune
+dysfunction~\cite{CellReportsMedicine2025MECFS}
+(Section~\ref{sec:registry-cell-reports-medicine}).
 
 \subsection{Consequences of Energy Deficits}
 \label{sec:energy-consequences}
@@ -415,11 +422,9 @@ ME/CFS participants demonstrated consistent, reproducible declines in multiple c
 Critically, when ME/CFS participants were matched with controls having identical baseline VO$_2$peak (aerobic capacity), the abnormal Day 2 responses persisted, demonstrating that impaired recovery is not attributable to fitness level but represents a disease-specific pathophysiological process. This provides the most rigorous objective validation of post-exertional malaise to date, distinguishing ME/CFS from deconditioning and validating PEM as a reproducible biological phenomenon rather than subjective experience.
 \end{achievement}
 
-\rev{5}
 \begin{warning}[Replication Status: Partially Replicated]
 The two-day CPET abnormality has been observed in earlier smaller studies (Snell 2013, Stevens 2014), and Keller 2024 is the largest and most rigorously controlled. However, all major studies originate from overlapping research networks. Fully independent replication by groups without prior involvement would strengthen confidence.
 \end{warning}
-\revend
 
 \paragraph{Impairment Severity Worsening}
 
@@ -502,6 +507,34 @@ ME/CFS involves selective impairment of CNS-dependent and demand-responsive proc
 Cerebral blood flow during orthostatic challenge exemplifies this selectivity: 91\% of patients with normal resting hemodynamics show abnormal CBF reduction during demand~\cite{VanCampenEtAl2024}, while baseline perfusion is often preserved. Brain hypometabolism has also been documented~\cite{Nakatomi2014neuroinflammation}, though replication remains incomplete (see Chapter~\ref{ch:neurological} Section~\ref{sec:glial}). Together, these findings support coordination failure rather than global energy deficit as the underlying pathophysiology.
 \end{hypothesis}
 
+\begin{hypothesis}[Immune Cell Energy Starvation Creates a Viral Persistence Niche]
+\label{hyp:immune-energy-starvation-niche}
+
+\textbf{Certainty: 0.40.} Supported by documented T cell metabolic dysfunction in ME/CFS~\cite{Mandarano2020} and the established bioenergetic requirements of cytotoxic killing. However, the causal link between immune cell energy deficit and viral persistence has not been directly tested in ME/CFS.
+
+This hypothesis proposes that the mitochondrial dysfunction documented in ME/CFS immune cells~\cite{Mandarano2020} is not merely a symptom but a \emph{cause} of viral persistence: metabolically impaired T cells and NK cells lack sufficient ATP to sustain cytotoxic function, creating a permissive niche where virus-harbouring cells survive despite immune recognition. This generates a self-reinforcing trap: viral persistence $\rightarrow$ chronic immune activation $\rightarrow$ T cell exhaustion and metabolic failure $\rightarrow$ inadequate viral clearance $\rightarrow$ more persistence.
+
+\paragraph{Mechanistic Basis.}
+Cytotoxic killing is among the most energy-intensive immune functions: degranulation, perforin pore formation, and granzyme delivery each require substantial ATP. Mandarano et al.\ demonstrated that ME/CFS CD8+ T cells fail to switch from oxidative phosphorylation to glycolysis upon activation (the Warburg effect)~\cite{Mandarano2020}. Without this metabolic reprogramming, effector function is impaired even if the cell correctly recognizes its target. The Kol et al.\ FIP data~\cite{Kol2026fipv} provide indirect support: antiviral treatment reduced viral load but did not eliminate virus from lymphocytes, suggesting host immunity is needed for final clearance---and if that immunity is metabolically compromised, clearance never completes.
+
+\paragraph{Testable Predictions.}
+\begin{enumerate}
+    \item In vitro supplementation with metabolic support (D-ribose, CoQ10, or mitochondria-targeted antioxidants such as MitoQ) will restore ME/CFS NK cell and CD8+ T cell cytotoxic function in killing assays against virus-infected target cells.
+    \item ME/CFS patients on combined antiviral + metabolic support therapy will show greater viral clearance (measured by pathogen-specific PCR or T-SPOT) than patients on antiviral therapy alone.
+    \item The degree of T cell metabolic impairment (measured by Seahorse metabolic flux analysis) will inversely correlate with viral clearance efficiency in longitudinal studies.
+    \item Patients with the most severe NK cell metabolic dysfunction will show the highest persistent viral antigen levels.
+\end{enumerate}
+
+\paragraph{Falsifiability.}
+This hypothesis would be falsified if (a) restoring immune cell metabolism via in vitro supplementation does not improve cytotoxic function against virus-infected targets, or (b) ME/CFS patients with documented viral persistence show normal immune cell bioenergetics. It would also be weakened if antiviral monotherapy achieves complete viral clearance without metabolic support, suggesting the energy deficit is not rate-limiting for clearance.
+
+\paragraph{Treatment Implications.}
+If confirmed, this hypothesis argues that antiviral therapy alone is insufficient---it must be combined with metabolic support targeting immune cell mitochondria. This reframes mitochondrial supplementation (CoQ10, NAD$^+$ precursors, D-ribose) not merely as energy support for the patient, but as \emph{immune-enabling therapy} that restores the body's ability to clear persistent infection. It also provides mechanistic rationale for the Selective Energy Dysfunction hypothesis (Hypothesis~\ref{hyp:selective-energy}): immune surveillance is a demand-responsive, CNS-coordinated process that fails under energy constraint.
+
+\paragraph{Limitations.}
+The hypothesis assumes viral persistence is a primary driver in a substantial proportion of ME/CFS cases, which may not hold for non-viral-onset subgroups. The in vitro prediction (metabolic supplementation restoring killing) may not translate to in vivo efficacy due to bioavailability and tissue distribution constraints. The self-reinforcing loop makes it difficult to determine which arm (metabolic failure or viral persistence) is primary.
+\end{hypothesis}
+
 \subsection{Evidence for Selectivity}
 
 The distinction between \emph{preserved} and \emph{impaired} processes follows a consistent pattern:
@@ -574,11 +607,9 @@ If ME/CFS involves selective coordination failure rather than global energy prod
 This reframing suggests that failed trials of systemic energy supplements (CoQ10, carnitine, B-vitamins) may reflect inadequate CNS penetration rather than incorrect therapeutic targets. If brain energy coordination is the primary bottleneck, supplements that do not cross the blood-brain barrier at therapeutic concentrations would be expected to show limited efficacy regardless of their peripheral effects. This hypothesis is testable through comparative trials of CNS-penetrant versus non-penetrant formulations of the same compounds.
 \end{speculation}
 
-\rev{5}
 \begin{limitation}[Selective Energy Dysfunction: Preserved Processes Not Formally Documented]
 The ``selective vs.\ global'' energy dysfunction distinction rests on the claim that hair growth, nail growth, and wound healing are preserved in ME/CFS. As noted in the observation above, formal documentation of these preserved processes is lacking --- the claim derives from patient self-reports and clinical impression, not from controlled measurement. Processes classified as ``preserved'' also have much lower absolute energy demands than those classified as ``impaired,'' meaning a moderate global energy deficit could produce the same clinical pattern without any selectivity mechanism. For quantitative analysis of this alternative explanation, see the selective dysfunction framework in Section~\ref{sec:selective-dysfunction}.
 \end{limitation}
-\revend
 
 See Part~III for detailed treatment protocols, particularly Chapter~\ref{ch:medications-mechanisms} for pharmacological approaches and Chapter~\ref{ch:symptom-management} for symptom-specific interventions.
 
@@ -1079,7 +1110,7 @@ Emerging approaches target mitochondria specifically:
 Restoring glutathione may be beneficial:
 
 \begin{itemize}
-    \item \textbf{N-acetylcysteine (NAC)}: Provides cysteine for glutathione synthesis
+    \item \textbf{N-acetylcysteine (NAC)}: Provides cysteine for glutathione synthesis (a dose-response trial using brain MRS is underway; see Appendix~\ref{app:research-registry}, Section~\ref{sec:registry-cornell-nac})
     \item \textbf{Liposomal glutathione}: May improve absorption
     \item \textbf{Glycine supplementation}: Second rate-limiting substrate
     \item \textbf{Selenium}: Required for glutathione peroxidase
@@ -1121,25 +1152,18 @@ Medications affecting catecholamine systems:
 \section{Microcirculation and Oxygen Delivery}
 \label{sec:microcirculation-oxygen}
 
-\rev{5}
 The energy crisis in ME/CFS begins upstream of mitochondrial ATP synthesis. Multiple independent research groups have documented vascular and microcirculatory dysfunction that directly impairs substrate and oxygen availability, creating a pre-mitochondrial bottleneck.
-\revend
 
 \subsection{Endothelial Dysfunction}
 
-\rev{5}
 Scherbakov et al.~\cite{Scherbakov2020} found endothelial dysfunction (ED) in 51\% of ME/CFS patients using peripheral arterial tonometry (EndoPAT). This early indicator of vascular disease correlates with systemic atherosclerosis risk and predicts cardiovascular events. Haffke et al.~\cite{Haffke2023fmd} measured flow-mediated dilation (FMD), the gold-standard non-invasive endothelial function test, and found severely impaired responses in ME/CFS patients (5.1\% vs 8.2\% in healthy controls, $p < 0.0001$). This indicates reduced nitric oxide (NO) bioavailability and impaired vasodilatory capacity.
 
-\rev{5}
 Blauensteiner et al.~\cite{Blauensteiner2021mirna} identified five endothelial-regulating microRNAs (miR-21, miR-34a, miR-92a, miR-126, miR-200c) with altered expression in up to 60\% of ME/CFS patients. All five microRNAs are key regulators of the NO pathway and endothelial function. This suggests dysfunction at the molecular level controlling vascular biology.
-\revend
 
 \subsection{Red Blood Cell Deformability and Rheology}
 
-\rev{5}
 Red blood cell function is critical for oxygen delivery: RBCs must deform to traverse narrow capillaries and must maintain membrane fluidity to exchange gases efficiently. Saha et al.~\cite{Saha2019} studied ME/CFS patient RBCs using ektacytometry and rheological analysis, finding:
 
-\rev{5}
 \begin{itemize}
     \item Higher capillary entry time (approximately 12\% longer)
     \item Lower transit velocity through capillaries (approximately 17\% reduced)
@@ -1148,134 +1172,90 @@ Red blood cell function is critical for oxygen delivery: RBCs must deform to tra
     \item Higher reactive oxygen species (ROS) production (approximately 30\% elevated)
 \end{itemize}
 
-\rev{5}
 Critically, recovering ME/CFS patients showed normalization of these parameters, suggesting that RBC dysfunction is a reversible consequence of the disease rather than a primary genetic defect. The combination of reduced deformability and elevated ROS creates a cascade: stiff RBCs move slower through capillaries, allowing more time for oxidative damage, further reducing deformability and oxygen delivery.
-\revend
 
 \subsection{Capillary Structural Pathology}
 
-\rev{5}
 Wust et al.~\cite{Wust2024capillary} conducted electron microscopy studies of muscle capillaries from ME/CFS patients and documented structural abnormalities: massive collagen IV deposition in the capillary basement membrane, thickening and narrowing of capillary passageways, and physical barriers to oxygen diffusion. These are not functional abnormalities but anatomical obstructions---capillaries cannot transport oxygen effectively due to structural remodeling. This represents a mechanical bottleneck independent of mitochondrial function.
-\revend
 
 \subsection{Brain Microvascular Insufficiency}
 
-\rev{5}
-Mueller et al.~\cite{Mueller2025brain7T} used 7-Tesla magnetic resonance spectroscopy (7T MRS) in 24 ME/CFS patients to measure brain lactate levels at high spatial resolution. They found elevated brain lactate in the pregenual anterior cingulate cortex (pACC) and dorsal anterior cingulate cortex (dACC)---regions critical for mood, pain processing, and autonomic regulation. Elevated brain lactate reflects anaerobic metabolism in brain tissue, consistent with localized microvascular insufficiency in these regions.
-\revend
+Godlewska et al.~\cite{Godlewska2025MRS} used 7-Tesla magnetic resonance spectroscopy (7T MRS) in 24 ME/CFS patients to measure brain lactate levels at high spatial resolution. They found elevated brain lactate in the pregenual anterior cingulate cortex (pACC) and dorsal anterior cingulate cortex (dACC)---regions critical for mood, pain processing, and autonomic regulation. Elevated brain lactate reflects anaerobic metabolism in brain tissue, consistent with localized microvascular insufficiency in these regions.
 
 \subsection{Integration: Substrate Delivery Failure}
 
-\rev{5}
 Together, these findings identify a pre-mitochondrial energy bottleneck: endothelial dysfunction reduces perfusion pressure, RBC deformability limits capillary transit, structural capillary pathology blocks oxygen diffusion, and localized brain insufficiency impairs central regulatory systems. Cells cannot generate energy efficiently when they cannot access substrates, regardless of mitochondrial capacity. This substrate delivery failure occurs independent of and before any mitochondrial defect.
-\revend
 
 \section{Energy Utilization Beyond ATP Production}
 \label{sec:energy-utilization}
 
-\rev{5}
 Even when ATP is produced, cells in ME/CFS may have impaired ability to use that ATP effectively. This is mechanistically distinct from ATP production defects and requires different intervention strategies.
-\revend
 
 \subsection{The Sodium-Calcium Overload Cascade}
 
-\rev{5}
 Wirth and Scheibenbogen~\cite{WirthScheibenbogen2020} integrated emerging evidence into a model of ion homeostasis failure in ME/CFS. The cascade begins with hypoperfusion (Section~\ref{sec:microcirculation-oxygen}), which forces cells into anaerobic metabolism. Anaerobic metabolism generates protons as a byproduct. Accumulating protons increase the activity of the sodium-hydrogen exchanger (NHE1), which extrudes protons by importing sodium. Under normal aerobic conditions, the Na$^+$/K$^+$-ATPase can clear this sodium, but under hypoperfusion and ATP limitation, this pump becomes saturated and dysfunctional.
 
-\rev{5}
 When Na$^+$/K$^+$-ATPase fails to maintain the sodium gradient, the sodium-calcium exchanger (NCX), which normally exports calcium in exchange for importing sodium, reverses direction. Instead of exporting calcium, it imports calcium driven by the collapsed sodium gradient. Calcium accumulates in the cytoplasm and mitochondria, causing mitochondrial damage, further reducing ATP production, amplifying the original problem.
 
-\rev{5}
 Wirth et al.~\cite{WirthScheibenbogen2021muscle} documented this cascade in muscle studies using MRI to measure intracellular sodium. They found elevated intracellular sodium inversely correlating with grip strength (a measure of muscle function), supporting the hypothesis that sodium accumulation contributes to weakness. Electron microscopy showed subsarcolemmal mitochondrial damage at sites of calcium influx, consistent with calcium-mediated mitochondrial injury.
 
-\rev{5}
-Scheibenbogen and Wirth~\cite{ScheibenbogenWirth2025accumulated} expanded this model using proteomic data showing reduced expression of proteins responsible for sodium clearance (Na$^+$/K$^+$-ATPase subunits) and increased expression of sodium-sensing proteins (ENaC), indicating a systemic shift toward sodium accumulation and retention. This suggests the dysfunction is not transient but reflects sustained pathological remodeling.
-\revend
+Scheibenbogen and Wirth~\cite{Scheibenbogen2025muscle} expanded this model using proteomic data showing reduced expression of proteins responsible for sodium clearance (Na$^+$/K$^+$-ATPase subunits) and increased expression of sodium-sensing proteins (ENaC), indicating a systemic shift toward sodium accumulation and retention. This suggests the dysfunction is not transient but reflects sustained pathological remodeling.
 
 \subsection{TRPM3 Ion Channel Dysfunction}
 
-\rev{5}
-Cabanas et al.~\cite{Cabanas2024trpm3} studied TRPM3 calcium channels in natural killer (NK) cells from ME/CFS patients and found reduced calcium influx amplitude and prolonged half-time (slower kinetics). TRPM3 is critical for NK cell calcium signaling and cytotoxic function. Importantly, low-dose naltrexone (LDN) restored TRPM3-dependent calcium influx in patient NK cells in vitro, suggesting a reversible pharmacological mechanism. Cabanas et al.~\cite{Cabanas2025largescale} extended these findings with large-scale validation confirming the TRPM3 dysfunction across broader patient populations.
-\revend
+Cabanas et al.~\cite{Cabanas2024trpm3} studied TRPM3 calcium channels in natural killer (NK) cells from ME/CFS patients and found reduced calcium influx amplitude and prolonged half-time (slower kinetics). TRPM3 is critical for NK cell calcium signaling and cytotoxic function. Importantly, low-dose naltrexone (LDN) restored TRPM3-dependent calcium influx in patient NK cells in vitro, suggesting a reversible pharmacological mechanism. Sasso et al.~\cite{Sasso2026trpm3} extended these findings with large-scale validation confirming the TRPM3 dysfunction across broader patient populations.
 
 \subsection{WASF3 and ER Stress-Induced Metabolic Switching}
 
-\rev{5}
-Hwang et al.~\cite{hwang2023wasf3} (cross-referenced as WASF3 studies in Chapter~\ref{ch:mechanisms}) identified endoplasmic reticulum (ER) stress upregulation of WASF3 (Wiskott-Aldrich syndrome protein family member 3). WASF3 simultaneously disrupts respiratory supercomplex assembly (impairing OXPHOS efficiency) and promotes actin polymerization, driving a forced switch toward glycolysis. Muscle biopsies from ME/CFS patients showed elevated WASF3 expression, confirming ER stress-mediated metabolic reprogramming.
+Wang et al.~\cite{wang2023wasf3} (cross-referenced as WASF3 studies in Chapter~\ref{ch:mechanisms}) identified endoplasmic reticulum (ER) stress upregulation of WASF3 (Wiskott-Aldrich syndrome protein family member 3). WASF3 simultaneously disrupts respiratory supercomplex assembly (impairing OXPHOS efficiency) and promotes actin polymerization, driving a forced switch toward glycolysis. Muscle biopsies from ME/CFS patients showed elevated WASF3 expression, confirming ER stress-mediated metabolic reprogramming.
 
-\rev{5}
 This represents a cell-autonomous mechanism: ER stress---triggered by calcium overload, oxidative stress, or viral persistence---activates a program that simultaneously reduces OXPHOS capacity while increasing glycolytic flux. Even if mitochondria are structurally intact, WASF3-mediated disruption of supercomplexes reduces their efficiency.
-\revend
 
 \subsection{Distinction: Production vs. Utilization Defects}
 
-\rev{5}
 These mechanisms reveal a critical distinction: ATP production defects (failing mitochondria, substrate delivery) are different from ATP utilization defects (ion pump failure, calcium overload, forced metabolic switching). Both limit cellular energy availability, but they require different therapeutic targets. A patient with sodium-calcium overload may have normal mitochondrial capacity but cannot function because ion homeostasis is broken. A patient with WASF3-driven supercomplex disruption may have sufficient ATP but inefficient energy use due to forced glycolysis.
-\revend
 
 \section{Immune-Metabolic Crosstalk Maintaining the Energy Crisis}
 \label{sec:immune-metabolic-crosstalk}
 
-\rev{5}
 Immune activation is not independent of metabolic dysfunction---instead, immune-mediated pathways actively maintain and amplify the energy crisis. This creates a feedback loop where immune activation perpetuates energy failure.
-\revend
 
 \subsection{Tryptophan-Kynurenine Metabolism and NAD$^+$ Depletion}
 
-\rev{5}
 The tryptophan-kynurenine pathway is one of the primary immune-activated routes of tryptophan catabolism. Elevated kynurenine production is associated with chronic immune activation (elevated IFN-gamma, TNF-alpha). However, the balance of kynurenine metabolites matters: normal kynurenine metabolism feeds into NAD$^+$ synthesis, supporting mitochondrial energy production; imbalanced metabolism produces neurotoxic metabolites while depleting NAD$^+$.
 
-\rev{5}
-A recent metabolomics study~\cite{TryptophanMetabolomics2024} (published in ACS Chemical Neuroscience) profiled tryptophan metabolism in ME/CFS plasma and found higher 3-hydroxykynurenine (a neurotoxic branch product), lower kynurenic acid (neuroprotective, NAD$^+$-producing), and lower quinolinic acid (a neurotoxic NMDA agonist that also feeds NAD$^+$ synthesis via QPRT). The net effect: immune-mediated tryptophan catabolism is diverted away from NAD$^+$ synthesis and toward neurotoxic branches. This directly links immune activation to NAD$^+$ depletion and impaired mitochondrial function.
-\revend
+A recent metabolomics study~\cite{Abujrais2024tryptophan} (published in ACS Chemical Neuroscience) profiled tryptophan metabolism in ME/CFS plasma and found higher 3-hydroxykynurenine (a neurotoxic branch product), lower kynurenic acid (neuroprotective, NAD$^+$-producing), and lower quinolinic acid (a neurotoxic NMDA agonist that also feeds NAD$^+$ synthesis via QPRT). The net effect: immune-mediated tryptophan catabolism is diverted away from NAD$^+$ synthesis and toward neurotoxic branches. This directly links immune activation to NAD$^+$ depletion and impaired mitochondrial function.
 
 \subsection{T-Cell Exhaustion with Metabolic Reprogramming}
 
-\rev{5}
-Germain et al.~\cite{Germain2024tcell} (published in PNAS) profiled CD8$^+$ T cell epigenetics and metabolism in ME/CFS, finding that T cells are epigenetically primed toward an exhausted phenotype (high PD-1, TIM-3, LAG-3) while simultaneously showing altered metabolic reprogramming. Post-exercise, this metabolic dysregulation worsened. This suggests T cells cannot sustain normal metabolic flexibility in response to immune demands, contributing to both the dysfunctional immune response and persistent metabolic strain.
-\revend
+Iu et al.~\cite{iu2024tcell_exhaustion} (published in PNAS) profiled CD8$^+$ T cell epigenetics and metabolism in ME/CFS, finding that T cells are epigenetically primed toward an exhausted phenotype (high PD-1, TIM-3, LAG-3) while simultaneously showing altered metabolic reprogramming. Post-exercise, this metabolic dysregulation worsened. This suggests T cells cannot sustain normal metabolic flexibility in response to immune demands, contributing to both the dysfunctional immune response and persistent metabolic strain.
 
 \subsection{Exaggerated Innate Immune Response with Metabolic Consequences}
 
-\rev{5}
-Che, Hornig, and Lipkin~\cite{CheHornig2025innate} (published in npj Metabolism and Health Diseases) documented an exaggerated innate immune response to standard challenges in ME/CFS. Their metabolomic data showed that immune activation is associated with impaired citric acid cycle (TCA cycle) flux and reduced beta-oxidation capacity. Mechanistically, IFN-gamma (elevated in their cohort) accelerates tryptophan degradation via indoleamine 2,3-dioxygenase (IDO), directly linking innate immune state to NAD$^+$ depletion and energy failure.
-\revend
+Che, Hornig, and Lipkin~\cite{Che2025} (published in npj Metabolic Health and Disease) documented an exaggerated innate immune response to standard challenges in ME/CFS. Their metabolomic data showed that immune activation is associated with impaired citric acid cycle (TCA cycle) flux and reduced beta-oxidation capacity. Mechanistically, IFN-gamma (elevated in their cohort) accelerates tryptophan degradation via indoleamine 2,3-dioxygenase (IDO), directly linking innate immune state to NAD$^+$ depletion and energy failure.
 
 \subsection{Oxidative Stress in Immune Cells}
 
-\rev{5}
 Paul and Bhatt~\cite{PaulBhatt2025oxidative} (published in PNAS) measured reactive oxygen species (ROS) in circulating lymphocytes from ME/CFS and Long COVID patients. They found elevated ROS in memory T cells, with striking sex differences: females showed higher ROS production and T-cell hyperproliferation; males showed evidence of mitochondrial lipid oxidative damage. Critically, metformin treatment attenuated T-cell hyperproliferation in vitro, suggesting ROS-driven immune dysregulation may be pharmacologically reversible.
-\revend
 
 \subsection{Multi-Omics Integration: The Full Picture}
 
-\rev{5}
-Che, Hornig, and Lipkin~\cite{CheHornig2025multiomics} (published in Cell Reports Medicine) synthesized energy metabolism, immune composition, and plasma proteomics data. Their findings showed simultaneous dysregulation at multiple levels:
+The Heng 2025 multi-omics study~\cite{heng2025mecfs} integrated cellular ATP profiling with plasma proteomics from 61 matched pairs, revealing coordinated abnormalities: elevated AMP and ADP with a reduced ATP/ADP ratio (indicating cellular energy stress), altered immune cell subsets skewed toward less mature effector populations, and elevated vascular dysfunction markers (VWF, fibronectin, thrombospondin-1). A 7-biomarker panel spanning these three domains achieved 91\% diagnostic accuracy (Section~\ref{sec:systems-biology} in Chapter~\ref{ch:integrative-models}).
 
-\rev{5}
-\begin{itemize}
-    \item \textbf{Energy deficit markers}: Elevated AMP/ADP ratio, consistent with low cellular energy charge
-    \item \textbf{Immune dysregulation}: Altered proportions of immune cell subsets, reduced naive T cells, expanded exhausted/memory populations
-    \item \textbf{Inflammatory environment}: Elevated proinflammatory cytokines (IL-6, TNF-alpha, IFN-gamma)
-    \item \textbf{Vascular dysfunction markers}: Elevated vascular injury (VEGFRs, E-selectin)
-\end{itemize}
+These findings were substantially extended by Hoel et al.\ (2026)~\cite{Hoel2026proteome}, who applied aptamer-based proteomics (SomaScan, 7,326 aptamers targeting 6,493 proteins) to serum from 50 ME/CFS patients and 29 healthy controls. Their analysis revealed a striking metabolic enzyme signature: key glycolytic enzymes---glyceraldehyde-3-phosphate dehydrogenase (GAPDH), fructose-bisphosphate aldolase A (ALDOA), and L-lactate dehydrogenase B chain (LDHB)---were among the most significantly reduced intracellular proteins in ME/CFS serum. Since these enzymes are normally abundant in skeletal muscle, their reduced circulating levels suggest decreased muscle protein turnover or altered cellular release patterns rather than simple enzyme deficiency. Notably, ATP synthase inhibitory factor 1 (ATP5IF1), which regulates mitochondrial ATP hydrolysis under hypoxic conditions, was also reduced, consistent with the mitochondrial stress protection deficit described in Section~\ref{sec:mitochondrial-dysfunction}.
 
-\rev{5}
-These are not independent findings but interconnected components of a single disease process: immune activation drives energy depletion, which limits adaptive immune function, which maintains innate hyperactivation, which perpetuates energy failure. Breaking this cycle may require simultaneous intervention at multiple levels.
-\revend
+Complementing the intracellular enzyme reductions, Hoel et al.\ found chronically elevated metabolic stress hormones: FGF-21 was significantly higher in ME/CFS patients, validated by ELISA in an extended cohort (n = 212 ME/CFS, n = 66 HC), with women showing a particularly significant elevation. GDF-15, leptin, resistin, and fatty acid-binding proteins FABP3 and FABP4 were also elevated. FGF-21 and GDF-15 are ``exerkines'' that normally rise transiently during intense exercise to coordinate systemic energy adaptation~\cite{Hoel2026proteome}. Their chronic elevation in ME/CFS---in the absence of intense exercise---suggests a state of persistent metabolic emergency signaling, as though the body is continuously experiencing the energy crisis of maximal exertion at rest. This pattern connects to the clinical observation that ME/CFS patients describe exhaustion disproportionate to activity level: their metabolic stress signaling reflects a genuine cellular energy crisis, not a perceptual distortion.
+
+Together, these studies demonstrate that energy metabolism dysfunction in ME/CFS is not limited to mitochondrial abnormalities but extends to a coordinated shift in the circulating metabolic landscape: reduced intracellular metabolic enzymes, elevated stress hormones, and altered secretory patterns spanning multiple tissues. Breaking this cycle may require simultaneous intervention at multiple levels---addressing both the mitochondrial energy deficit and the chronic stress signaling that perpetuates it.
 
 \section{The Multi-Level Vicious Cycle}
 \label{sec:vicious-cycle}
 
-\rev{5}
 Integrating findings from vascular, metabolic, and immune domains reveals a multi-level positive feedback loop where dysfunction at any level amplifies all others. This model, synthesized by Wirth, Scheibenbogen, and colleagues, explains both the severity and persistence of the energy crisis.
-\revend
 
 \subsection{The Cycle in Detail}
 
-\rev{5}
 The vicious cycle operates as follows:
-\revend
 
 \begin{enumerate}
     \item \textbf{Vascular dysfunction} (Section~\ref{sec:microcirculation-oxygen}): Endothelial dysfunction, RBC deformability impairment, and capillary remodeling reduce oxygen and substrate delivery to tissue.
@@ -1301,10 +1281,8 @@ This is not a linear pathway with a beginning and end. Rather, it is a positive 
 
 \subsection{Multi-Level Integration}
 
-\rev{5}
 Critically, this cycle operates at multiple biological levels simultaneously:
 
-\rev{5}
 \begin{description}
     \item[Vascular level] Endothelial dysfunction → reduced perfusion
     \item[Cellular level] Ischemia → anaerobic metabolism, ion dysregulation, mitochondrial damage
@@ -1312,46 +1290,34 @@ Critically, this cycle operates at multiple biological levels simultaneously:
     \item[Immune level] Immune activation accelerates tryptophan catabolism (NAD$^+$ depletion) and oxidative stress, perpetuating energy failure
 \end{description}
 
-\rev{5}
 No single level can be addressed in isolation. A therapeutic intervention that improves mitochondrial function alone, without addressing vascular dysfunction or ion dysregulation, will have limited impact because ROS and calcium overload will continue to damage mitochondria. Similarly, anti-inflammatory therapy alone cannot restore energy if vascular dysfunction persists. Effective treatment likely requires simultaneous multi-level intervention.
-\revend
 
 \subsection{Evidence for the Integrated Cycle}
 
-\rev{5}
 Appelman et al.~\cite{Appelman2024muscle} (published in Nature Communications) studied muscle mitochondrial function before and after post-exertional malaise (PEM). They found that exercise triggered reductions in OXPHOS capacity and succinate dehydrogenase (SDH) activity, consistent with mitochondrial damage during PEM. Importantly, this occurred despite normal cardiopulmonary responses during exercise---the heart and lungs functioned normally, confirming that the energy crisis is peripheral (muscle) and mitochondrial, not cardiopulmonary.
 
-\rev{5}
-Wood, Hall, and Tate~\cite{WoodHallTate2025mito} (published in Physiology) provided a comprehensive review of mitochondrial dysfunction across ME/CFS literature, synthesizing evidence from biochemistry, imaging, genetics, and clinical studies. Their analysis supports the multi-level model: mitochondrial pathology is real and well-documented, but its severity and persistence are amplified by upstream vascular, immune, and ion dysregulation.
+Syed et al.~\cite{Syed2025} (published in Physiology) provided a comprehensive review of mitochondrial dysfunction across ME/CFS literature, synthesizing evidence from biochemistry, imaging, genetics, and clinical studies. Their analysis supports the multi-level model: mitochondrial pathology is real and well-documented, but its severity and persistence are amplified by upstream vascular, immune, and ion dysregulation.
 
-\rev{5}
 \begin{hypothesis}[The Multi-Level Energy Crisis and Vicious Cycle in ME/CFS]
 \label{hyp:vicious-cycle-integrated}
-\revend
 
 ME/CFS pathophysiology is fundamentally a multi-level positive feedback loop where vascular dysfunction → ischemia → ion dysregulation → mitochondrial damage → ROS → vascular amplification, perpetuated by immune-mediated NAD$^+$ depletion and metabolic reprogramming. Unlike linear models predicting clear breakpoints for intervention, this cycle requires multi-level therapeutic targeting. Evidence comes from multiple independent research groups documenting vascular pathology (Scherbakov, Haffke, Wust, Mueller), ion dysregulation (Wirth, Scheibenbogen), mitochondrial damage (Appelman), and immune-metabolic coupling (Che, Hornig, Lipkin; Paul, Bhatt; Germain). The cycle explains both symptom severity (multiple simultaneous failures) and disease persistence (mutual amplification). Certainty: 0.55 (strong mechanistic evidence from multiple groups, some direct experimental confirmation of sub-components; positive feedback loops are inherently difficult to demonstrate experimentally in a single study, but the logical integration of independently well-established components is sound).
 
 \end{hypothesis}
 
-\rev{5}
 \begin{limitation}[Multi-Level Vicious Cycle: Integrated Loop Not Demonstrated]
 The vicious cycle model (vascular $\to$ ischemia $\to$ ion dysregulation $\to$ mitochondrial damage $\to$ ROS $\to$ vascular amplification) integrates findings from multiple independent research groups, but no single study has demonstrated the complete loop operating in ME/CFS patients. Each link is supported by evidence from separate cohorts using different methodologies. The integration is logical inference, not empirical demonstration. Positive feedback loops are inherently difficult to distinguish from parallel independent dysfunctions that happen to co-occur. The therapeutic implication that multi-level targeting is required has not been tested against sequential single-target intervention.
 \end{limitation}
-\revend
 
 \section{Summary: Integrated Metabolic Model}
 \label{sec:metabolism-summary}
 
-\rev{5}
 This chapter and the broader document identify over thirty distinct mechanisms affecting energy creation, delivery, and utilization in ME/CFS. These range from well-established biochemical pathways through documented dysfunctions to emerging hypotheses. The following taxonomy organizes all identified mechanisms by evidence status.
-\revend
 
 \subsection{Normal ATP Synthesis Pathways}
 
-\rev{5}
 Five baseline energy systems supply cellular ATP under normal conditions. All are relevant to ME/CFS because each represents a potential point of failure:
 
-\rev{5}
 \begin{description}
     \item[Glycolysis] Cytoplasmic, anaerobic conversion of glucose to pyruvate yielding 2 ATP and 2 NADH per glucose (Section~\ref{sec:atp-synthesis}).
     \item[Krebs cycle (TCA cycle)] Mitochondrial matrix oxidation of acetyl-CoA generating 3 NADH, 1 FADH$_2$, and 1 GTP per turn (Section~\ref{sec:atp-synthesis}).
@@ -1359,21 +1325,17 @@ Five baseline energy systems supply cellular ATP under normal conditions. All ar
     \item[Fatty acid $\beta$-oxidation] Carnitine-shuttle-dependent mitochondrial degradation of long-chain fatty acids into acetyl-CoA units (Section~\ref{sec:lipid-metabolism}).
     \item[Phosphocreatine buffering] Immediate ATP regeneration from phosphocreatine, operating on a timescale of seconds (Section~\ref{sec:normal-metabolism}).
 \end{description}
-\revend
 
 \subsection{Documented Energy Dysfunctions}
 
-\rev{5}
 The following dysfunctions are supported by peer-reviewed evidence at the level of established or probable findings:
 
-\rev{5}
 \begin{description}
     \item[Impaired mitochondrial ATP production] Reduced ATP in lymphocytes/PBMCs, abnormal mitochondrial morphology on electron microscopy, and reduced oxygen consumption rates across multiple studies (Section~\ref{sec:mito-evidence}).
-\revend
 
     \item[Elevated AMP/ADP with reduced ATP/ADP ratio] Heng et al.\ 2025 multi-omics study ($n=61$) documented elevated AMP (median 312.2~nM vs 147.2~nM controls) and reduced ATP generation in white blood cells~\cite{heng2025mecfs} (Section~\ref{sec:mito-evidence}).
 
-    \item[WASF3--ER stress--Complex IV pathway] Viral ER stress elevates WASF3, which translocates to mitochondria and disrupts respiratory chain supercomplex assembly, specifically impairing Complex IV~\cite{hwang2023wasf3} (Section~\ref{sec:mito-damage}).
+    \item[WASF3--ER stress--Complex IV pathway] Viral ER stress elevates WASF3, which translocates to mitochondria and disrupts respiratory chain supercomplex assembly, specifically impairing Complex IV~\cite{wang2023wasf3} (Section~\ref{sec:mito-damage}).
 
     \item[Reactive oxygen species vicious cycle] Electron leakage at Complexes I and III (5--10\% in ME/CFS vs normal 2\%) damages mitochondrial DNA, proteins, and membranes, producing further ROS in a self-amplifying loop (Section~\ref{sec:ros}).
 
@@ -1406,13 +1368,10 @@ The following dysfunctions are supported by peer-reviewed evidence at the level 
 
 \subsection{Hypothesized Energy Mechanisms}
 
-\rev{5}
 The following mechanisms are proposed but not yet confirmed. Where explicitly assessed, certainty levels are noted:
 
-\rev{5}
 \begin{description}
     \item[Selective energy dysfunction (CNS-dependency hypothesis)] ME/CFS selectively impairs CNS-dependent and demand-responsive processes while sparing autonomous steady-state functions, suggesting an energy \textit{allocation} problem rather than a global production deficit (Section~\ref{sec:selective-energy-dysfunction}).
-\revend
 
     \item[Astrocyte-neuron lactate shuttle dysfunction \normalfont{(certainty 0.35)}] Neuroinflammation may reprogram astrocytes toward a glycolytic-inflammatory phenotype, reducing lactate transfer to neurons via MCT2/MCT4 downregulation and explaining coexistent elevated brain lactate with cognitive dysfunction (Section~\ref{sec:compartmental-energy}; Chapter~\ref{ch:neurological}).
 
@@ -1435,13 +1394,9 @@ The following mechanisms are proposed but not yet confirmed. Where explicitly as
     \item[Thyroid hormone resistance] Suboptimal T4$\to$T3 conversion and possible reduced expression of thyroid hormone transporters (MCT8, MCT10), impairing basal metabolic rate and mitochondrial biogenesis (Chapter~\ref{ch:endocrine}).
 \end{description}
 
-\rev{5}
 Therapeutic interventions targeting these energy deficits---including mitochondrial cofactors, substrates, and biogenesis signals---are discussed in Section~\ref{sec:energy-interventions} and extensively in Part~\ref{part:treatment}.
 
-\rev{5}
 \medskip
 
-\rev{5}
 This metabolic dysfunction interacts bidirectionally with immune dysfunction (Chapter~\ref{ch:immune-dysfunction}) and neurological abnormalities (Chapter~\ref{ch:neurological}): inflammation impairs metabolism, metabolic dysfunction impairs immune cell function, and energy deficits affect brain function. Chapter~\ref{ch:integrative-models} synthesizes these bidirectional interactions into comprehensive models of ME/CFS pathophysiology, examining how metabolic dysfunction participates in vicious cycles (Section~\ref{sec:unifying-mechanisms}) and contributes to the multi-lock state that perpetuates chronic illness (Section~\ref{sec:synthesis}).
-\revend
 
