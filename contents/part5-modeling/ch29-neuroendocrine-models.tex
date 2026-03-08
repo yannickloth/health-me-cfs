@@ -266,6 +266,103 @@ where $\mathcal{F}$ is small fiber density (normalizing between 0 and 1), $k_{\t
 Is central sensitization in ME/CFS reversible if the driving inputs (inflammation, nociception) are removed, or does prolonged sensitization produce structural changes (synaptic remodeling, glial priming) that persist independently? The model parameterizes this as the ratio $k_{\text{resolve}} / k_{\text{wind}}$: if resolution is fast relative to wind-up, sensitization reverses when inputs diminish; if resolution is slow (due to structural changes), sensitization persists as a ``pain memory.'' This distinction has direct treatment implications: reversible sensitization responds to anti-inflammatory and analgesic therapy, while structurally maintained sensitization may require neuromodulatory interventions (NMDAR antagonists, transcranial stimulation) targeting the dorsal horn directly.
 \end{open_question}
 
+\subsection{Nerve Sheath Inflammation Dynamics}
+\label{subsec:nerve-sheath-model}
+
+The preceding SFN model (Equation~\ref{eq:sfn-dynamics}) tracks distal small fiber density. A complementary model is needed for pain arising from the nerve sheath itself, where Schwann cell activation, endoneurial hypoxia, perineurial mast cell degranulation, and autoimmune attack converge (see Section~\ref{subsec:ch15-nerve-sheath-pain} for the biological mechanisms). The model introduces a nerve sheath inflammation state $\mathcal{N}_s$ representing the aggregate inflammatory burden within the endoneurial and perineurial compartments:
+
+\begin{equation}
+\label{eq:nerve-sheath-inflammation}
+\frac{d\mathcal{N}_s}{dt} = \underbrace{k_{\text{schw}} \cdot [\text{ROS}] \cdot \frac{[\text{CGRP}]}{K_{\text{CGRP}} + [\text{CGRP}]}}_{\text{Schwann cell TRPA1 activation}} + \underbrace{k_{\text{peri}} \cdot H_{\text{mc}}}_{\text{perineurial mast cell input}} + \underbrace{k_{\text{isch}} \cdot \left(1 - \frac{O_{2,\text{endo}}}{O_{2,\text{endo}}^0}\right)^+}_{\text{endoneurial ischemia}} - k_{\text{res},N} \cdot \mathcal{N}_s
+\end{equation}
+
+where $k_{\text{schw}}$ is the rate of Schwann cell-mediated neurogenic inflammation (driven by the combination of ROS and CGRP, reflecting the TRPA1 pathway), $H_{\text{mc}}$ is the mast cell histamine release rate from the mast cell model (Section~\ref{sec:ch15-mast-cells}), $O_{2,\text{endo}}/O_{2,\text{endo}}^0$ is the fractional endoneurial oxygen delivery (reduced by endothelial dysfunction), and $k_{\text{res},N}$ is the spontaneous resolution rate.
+
+The endoneurial oxygen term couples to the endothelial dysfunction model. In ME/CFS, vasa nervorum share the microvascular pathology of the systemic endothelium:
+
+\begin{equation}
+\label{eq:endoneurial-oxygen}
+O_{2,\text{endo}} = O_{2,\text{endo}}^0 \cdot \frac{[\text{NO}]}{K_{\text{NO,endo}} + [\text{NO}]} \cdot \frac{\text{MAP}}{K_{\text{MAP,endo}} + \text{MAP}}
+\end{equation}
+
+where NO availability (from the BH$_4$ model, Section~\ref{sec:bh4-competition}) and mean arterial pressure (from the ANS model, Section~\ref{sec:orthostatic-model}) jointly determine endoneurial perfusion. BH$_4$ depletion reduces NO, constricting vasa nervorum; orthostatic hypotension further compromises nerve perfusion during upright posture.
+
+The nerve sheath inflammation state modifies nociceptive input to the central sensitization model:
+
+\begin{equation}
+\label{eq:noci-nerve-sheath}
+P_{\text{noci,total}} = P_0 \cdot \left(1 + \beta_{\text{SFN}} \cdot \left(1 - \frac{\mathcal{F}}{\mathcal{F}_0}\right)^+\right) + \gamma_{\text{sheath}} \cdot \mathcal{N}_s
+\end{equation}
+
+where $\gamma_{\text{sheath}}$ converts nerve sheath inflammation into nociceptive input units. The total nociceptive input $P_{\text{noci,total}}$ replaces $P_{\text{noci}}$ in Equation~\ref{eq:central-sensitization}, feeding into the central sensitization wind-up term. \textbf{The model predicts that nerve sheath pain and SFN pain have different temporal profiles}: SFN pain worsens slowly over months to years (governed by slow fiber degeneration $\mathcal{F}$), while nerve sheath pain fluctuates on the timescale of hours to days (governed by the faster dynamics of mast cell activation, posture-dependent ischemia, and ROS levels). This prediction is clinically testable through pain diary analysis correlated with posture, activity, and mast cell markers.
+
+\subsection{Periarticular and Muscular Pain Model}
+\label{subsec:periarticular-muscle-pain-model}
+
+Joint and muscle pain in ME/CFS arise from tissue-specific nociceptive generators that are then amplified by the central sensitization model (see Section~\ref{subsec:ch15-joint-muscle-pain} for biological mechanisms). The model introduces two tissue-compartment nociceptive sources that feed into the total nociceptive input.
+
+\subsubsection{Periarticular Nociceptive Input}
+
+Periarticular pain is driven primarily by local mast cell degranulation in the joint capsule and synovium, where mast cell density is 10--50$\times$ higher than in subcutaneous tissue:
+
+\begin{equation}
+\label{eq:periarticular-noci}
+P_{\text{peri}}(t) = \rho_{\text{mc,joint}} \cdot H_{\text{mc}}(t) \cdot (1 + \alpha_{\text{NGF}} \cdot [\text{NGF}])
+\end{equation}
+
+where $\rho_{\text{mc,joint}}$ is the joint-to-systemic mast cell density ratio (reflecting the anatomical concentration), $H_{\text{mc}}(t)$ is the systemic mast cell activation level, and the NGF term represents nerve growth factor-mediated upregulation of TRPV1 on periarticular nociceptors. In hEDS patients, an additional mechanical term applies:
+
+\begin{equation}
+\label{eq:periarticular-heds}
+P_{\text{peri,hEDS}} = P_{\text{peri}} + k_{\text{lax}} \cdot (1 - \text{stability}/\text{stability}_0) \cdot \dot{q}
+\end{equation}
+
+where $\dot{q}$ represents joint movement rate and the stability ratio captures hypermobility-related microtrauma at fascial attachment sites (coupling to the hEDS model in Chapter~\ref{ch:integrated-systems}, Section~\ref{sec:eds-coupling}).
+
+\subsubsection{Muscular Metabolic Nociception}
+
+Deep muscle pain arises from metabolic nociceptor activation driven by the interaction of low pH, elevated lactate, and extracellular ATP---the ``metabolic danger triad'' sensed by ASIC3 channels:
+
+\begin{equation}
+\label{eq:muscle-noci}
+P_{\text{musc}}(t) = k_{\text{ASIC}} \cdot \underbrace{[\text{H}^+]_m \cdot [\text{Lac}]_m \cdot [\text{ATP}]_{\text{ext},m}}_{\text{ASIC3 combinatorial activation}} \cdot \left(1 + \alpha_{\text{isch}} \cdot \left(1 - \frac{\dot{V}O_{2,\text{musc}}}{\dot{V}O_{2,\text{musc}}^0}\right)^+\right)
+\end{equation}
+
+where $[\text{H}^+]_m$, $[\text{Lac}]_m$, and $[\text{ATP}]_{\text{ext},m}$ are intramuscular proton, lactate, and extracellular ATP concentrations (from the energy metabolism model, Chapter~\ref{ch:energy-metabolism-models}), $k_{\text{ASIC}}$ is the ASIC3 activation coefficient, and the ischemia term represents microvascular dysfunction reducing muscle oxygen delivery $\dot{V}O_{2,\text{musc}}$ below baseline $\dot{V}O_{2,\text{musc}}^0$. The multiplicative ASIC3 activation term captures the experimentally established combinatorial gating: ASIC3 responds to the simultaneous presence of all three signals, not their individual levels.
+
+Post-exertional upregulation of ASIC3 gene expression (persisting 48\,h) is modeled as a slow modulation:
+
+\begin{equation}
+\label{eq:asic3-upregulation}
+\frac{dk_{\text{ASIC}}}{dt} = k_{\text{up}} \cdot E(t) - k_{\text{down}} \cdot (k_{\text{ASIC}} - k_{\text{ASIC}}^0)
+\end{equation}
+
+where $E(t)$ is exertion intensity, $k_{\text{up}}$ is the upregulation rate, and $k_{\text{down}}$ governs return to baseline $k_{\text{ASIC}}^0$. In ME/CFS, $k_{\text{down}}$ is reduced (slower return to baseline), consistent with the 48\,h persistence observed in gene expression studies.
+
+\subsubsection{Total Nociceptive Input with Tissue Compartments}
+
+The complete nociceptive input to the central sensitization model becomes:
+
+\begin{equation}
+\label{eq:total-noci-compartments}
+P_{\text{noci,total}}(t) = \underbrace{P_0 \cdot \left(1 + \beta_{\text{SFN}} \cdot \left(1 - \frac{\mathcal{F}}{\mathcal{F}_0}\right)^+\right)}_{\text{SFN (distal)}} + \underbrace{\gamma_{\text{sheath}} \cdot \mathcal{N}_s}_{\text{nerve sheath}} + \underbrace{P_{\text{peri}}(t)}_{\text{periarticular}} + \underbrace{P_{\text{musc}}(t)}_{\text{muscular}}
+\end{equation}
+
+This four-compartment nociceptive model replaces the simpler $P_{\text{noci}}$ in Equation~\ref{eq:central-sensitization}. Each compartment has distinct temporal dynamics and therapeutic targets:
+
+\begin{itemize}
+  \item \textbf{SFN compartment:} Slow (months--years); modifiable by neuroprotection (alpha-lipoic acid, IVIG for autoimmune SFN).
+  \item \textbf{Nerve sheath compartment:} Intermediate (hours--days); modifiable by mast cell stabilization, antioxidants, and postural management.
+  \item \textbf{Periarticular compartment:} Fast--intermediate (minutes--hours); modifiable by mast cell stabilizers and anti-NGF approaches. In hEDS: joint stabilization reduces mechanical input.
+  \item \textbf{Muscular compartment:} Fast during exertion, slow post-exertional decay (48\,h); modifiable primarily by pacing (reducing $E(t)$) and metabolic support (CoQ10, NADH to improve $\dot{V}O_{2,\text{musc}}$).
+\end{itemize}
+
+\textbf{The multi-compartment model generates a clinically actionable prediction}: patient-specific pain phenotyping (by temporal dynamics, anatomical distribution, and biomarker correlation) should identify which compartments dominate, enabling targeted treatment. A patient whose pain fluctuates with posture and mast cell episodes (nerve sheath + periarticular dominant) requires a different strategy than a patient whose pain tracks exertion with 48\,h decay (muscular dominant) or a patient with slowly progressive burning pain (SFN dominant). The central sensitization state $\mathcal{S}$ acts as a gain multiplier on all compartments---reducing $\mathcal{S}$ (via LDN, NMDA antagonists) benefits all pain phenotypes, while compartment-specific interventions provide targeted improvement.
+
+\begin{open_question}[Compartment Dominance Shifts with Disease Progression]
+Does the dominant pain compartment shift predictably as ME/CFS progresses? Early-stage patients may be muscular-dominant (metabolic stress without yet established SFN or sensitization), while late-stage patients may be SFN-dominant (accumulated fiber loss) with high central sensitization gain. If so, pain treatment strategies should evolve with disease stage---a prediction testable through longitudinal QST, skin biopsy, and pain phenotyping in cohort studies.
+\end{open_question}
+
 \section{Model Application Guide}
 \label{sec:neuro-model-application}
 
@@ -395,10 +492,45 @@ A patient with moderate central sensitization ($\mathcal{S} = 0.6$ on a 0--1 sca
 \emph{Inputs}: pro-inflammatory cytokines and microglial activation (drive spinal glial activation $\mu_{1,\text{spinal}}$); ROS and autoantibodies (drive small fiber degeneration); endorphins (modulate resolution rate). \emph{Outputs}: pain feeds back to sympathetic tone (ANS model), sleep disruption (sleep model), and cognitive energy demand.
 
 \paragraph{Scope and rationale.}
-The model tracks an aggregate sensitization state $\mathcal{S}$ rather than specific dorsal horn circuits. This captures the clinically relevant wind-up/resolution dynamics and the feedback to other systems, but cannot predict specific pain distributions (e.g., headache vs.\ widespread pain) or distinguish between central and peripheral pain generators.
+The base model tracks an aggregate sensitization state $\mathcal{S}$ rather than specific dorsal horn circuits. The multi-compartment extension (Equations~\ref{eq:nerve-sheath-inflammation}--\ref{eq:total-noci-compartments}) decomposes $P_{\text{noci}}$ into four tissue-specific generators---SFN, nerve sheath, periarticular, and muscular---enabling prediction of pain distribution and temporal profile, which the aggregate model alone cannot.
 
 \paragraph{Falsification criteria.}
-The model predicts that pain reduction (lowering $\mathcal{S}$) should improve autonomic function and sleep quality through the feedback pathway, independent of direct sleep or autonomic interventions. \textbf{Falsified if}: effective analgesic treatment in ME/CFS patients (confirmed by QST normalization) does not improve HRV or sleep efficiency---would indicate that the pain$\to$ANS$\to$sleep coupling is weaker than modeled.
+The model predicts that pain reduction (lowering $\mathcal{S}$) should improve autonomic function and sleep quality through the feedback pathway, independent of direct sleep or autonomic interventions. \textbf{Falsified if}: effective analgesic treatment in ME/CFS patients (confirmed by QST normalization) does not improve HRV or sleep efficiency---would indicate that the pain$\to$ANS$\to$sleep coupling is weaker than modeled. The multi-compartment extension predicts that peripheral nerve blocks should transiently reduce pain in targeted regions even in centrally sensitized patients. \textbf{Falsified if}: diagnostic nerve blocks show no analgesic effect in patients with high $\mathcal{N}_s$ or $P_{\text{peri}}$---would indicate that peripheral generators contribute less than modeled.
 
 \paragraph{Clinical implications.}
 \textbf{Whom to treat}: patients with elevated temporal summation on QST (indicating high $k_{\text{wind}}$) or reduced IENFD ($\mathcal{F}/\mathcal{F}_0 < 0.8$). \textbf{How}: (1)~LDN operates through both immune modulation and endorphin upregulation---the model predicts analgesic onset (days) precedes anti-inflammatory onset (weeks); (2)~for structurally maintained sensitization (high $\mathcal{S}$ with low $k_{\text{resolve}}/k_{\text{wind}}$): neuromodulatory approaches (low-dose ketamine as NMDAR antagonist, transcranial stimulation); (3)~the model predicts that treating the upstream inflammatory drive (reducing $\mu_{1,\text{spinal}}$ and $P_{\text{noci}}$) is more effective than treating sensitization directly, because it addresses both the input and the feedback amplification simultaneously.
+
+\subsection{Nerve Sheath and Tissue Pain Compartments (Equations~\ref{eq:nerve-sheath-inflammation}--\ref{eq:total-noci-compartments})}
+
+\paragraph{Measurements required.}
+(1)~Tryptase and histamine (plasma or 24-hour urine) (why: constrains mast cell activation input $H_{\text{mc}}$ for both nerve sheath and periarticular compartments).
+(2)~Nerve conduction studies and neuromuscular ultrasound (why: identifies nerve trunk inflammation $\mathcal{N}_s$ vs.\ distal SFN $\mathcal{F}$; enlarged nerves on ultrasound suggest endoneurial edema).
+(3)~Venous lactate at rest and post-exertion (why: constrains $[\text{Lac}]_m$ in the muscular compartment).
+(4)~Serum NGF (why: constrains the TRPV1 upregulation term $\alpha_{\text{NGF}}$ in periarticular input).
+(5)~Postural pain variation diary (why: endoneurial ischemia worsens upright; if pain increases with standing and improves supine, the nerve sheath compartment with its $O_{2,\text{endo}}$/MAP coupling is likely dominant).
+
+\paragraph{Worked example.}
+A patient with MCAS overlap ($H_{\text{mc}} = 3\times$ normal), moderate oxidative stress ($[\text{ROS}] = 1.5\times$ normal), mild SFN ($\mathcal{F}/\mathcal{F}_0 = 0.8$), and central sensitization ($\mathcal{S} = 0.5$). Using $\rho_{\text{mc,joint}} = 20$ (joint mast cell density ratio):
+
+\begin{itemize}
+  \item SFN input: $P_0 \times (1 + 1.5 \times 0.2) = 1.3 P_0$
+  \item Nerve sheath: $\gamma_{\text{sheath}} \cdot \mathcal{N}_s \approx 0.4 P_0$ (moderate, driven by ROS + mast cells)
+  \item Periarticular: $\rho_{\text{mc,joint}} \cdot H_{\text{mc}} \cdot (1 + \alpha_{\text{NGF}} \cdot [\text{NGF}]) \approx 0.8 P_0$ (high, driven by MCAS)
+  \item Muscular: $0.3 P_0$ at rest (mild metabolic stress)
+  \item Total $P_{\text{noci,total}} = (1.3 + 0.4 + 0.8 + 0.3) P_0 = 2.8 P_0$
+  \item After central sensitization amplification: $(1 + 1.5 \times 0.5) \times 2.8 = 4.9 P_0$
+\end{itemize}
+
+Treatment with mast cell stabilizer (reducing $H_{\text{mc}}$ by 60\%): periarticular drops to $0.32 P_0$, nerve sheath drops to $0.28 P_0$. New total: $(1.3 + 0.28 + 0.32 + 0.3) \times 1.75 = 3.85 P_0$---a 21\% pain reduction from mast cell stabilization alone, targeting the dominant compartments without directly addressing sensitization.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: ROS from oxidative stress model; mast cell activation $H_{\text{mc}}$ from immune model; NO from BH$_4$ model (endoneurial perfusion); MAP from ANS model (postural perfusion); lactate and ATP from energy metabolism model (muscular compartment); joint stability from hEDS model (periarticular compartment). \emph{Outputs}: total $P_{\text{noci,total}}$ feeds into central sensitization wind-up (Equation~\ref{eq:central-sensitization}) and thence to the pain$\to$ANS$\to$sleep feedback cascade.
+
+\paragraph{Scope and rationale.}
+The four-compartment decomposition captures the clinically relevant distinction between pain types (nerve trunk vs.\ joint vs.\ muscle vs.\ distal neuropathic) while remaining tractable. It omits visceral pain (relevant to IBS comorbidity) and headache-specific mechanisms (trigeminovascular system). Each compartment uses at most two state variables, keeping the total model dimensionality manageable.
+
+\paragraph{Falsification criteria.}
+The model predicts that pain temporal profile correlates with compartment dominance: (1)~fast fluctuation with mast cell episodes $\to$ periarticular/nerve sheath dominant; (2)~48\,h post-exertional decay $\to$ muscular dominant; (3)~slow progressive worsening $\to$ SFN dominant. \textbf{Falsified if}: longitudinal pain phenotyping shows no correlation between temporal dynamics and the biomarkers predicted to drive each compartment (e.g., if mast cell markers do not predict periarticular pain fluctuation).
+
+\paragraph{Clinical implications.}
+\textbf{Whom to treat}: all ME/CFS patients with significant pain. \textbf{How}: (1)~Pain diary analysis (temporal pattern, distribution, postural variation) identifies likely dominant compartment(s); (2)~MCAS-dominant patients (periarticular + nerve sheath): mast cell stabilizers (cromolyn, ketotifen), PEA, antihistamines; (3)~metabolic-dominant patients (muscular): strict pacing, CoQ10 + NADH (improve $\dot{V}O_{2,\text{musc}}$); (4)~SFN-dominant patients: neuroprotection (alpha-lipoic acid), IVIG if autoimmune markers present; (5)~all patients benefit from central sensitization reduction (LDN, NMDA antagonists) because $\mathcal{S}$ acts as a gain multiplier on all compartments.
