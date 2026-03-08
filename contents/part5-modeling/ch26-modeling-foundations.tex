@@ -271,9 +271,9 @@ Three criteria guided model selection:
 
 \subsection{What Is Not Modeled}
 
-\rev{5}
+
 Despite the breadth of Part~V, several domains discussed in Part~\ref{part:pathophysiology} lack formal mathematical treatment:
-\revend
+
 
 \begin{itemize}
     \item \textbf{Detailed intracellular signaling}: NF-$\kappa$B, JAK-STAT, mTOR, AMPK pathways are mentioned in Part~II but are not modeled as separate ODE systems. Their net effects are absorbed into aggregate parameters (e.g., cytokine production rates, metabolic switching thresholds). Explicit signaling models would be needed for drug target identification at the molecular level.
@@ -283,6 +283,6 @@ Despite the breadth of Part~V, several domains discussed in Part~\ref{part:patho
     \item \textbf{Pharmacokinetics}: Drug absorption, distribution, metabolism, and elimination are not modeled. Treatment effects are represented as parameter modifications (e.g., CoQ10 increases $V_{\max}^{\text{ETC}}$) rather than through explicit PK/PD models. Integrating PK models would enable dosing optimization but requires drug-specific data beyond the scope of this work.
 \end{itemize}
 
-\rev{5}
+
 These omissions are deliberate trade-offs: each would add substantial model complexity while current data are insufficient to constrain the additional parameters. The model set in Part~V is designed to be the \emph{minimum} framework that captures the multi-system feedback architecture of ME/CFS while remaining parameterizable from existing data. Extensions to the omitted domains are identified as future work in the respective Model Application Guide sections of Chapters~\ref{ch:energy-metabolism-models}--\ref{ch:temporal-evolution}.
-\revend
+
