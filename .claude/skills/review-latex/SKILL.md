@@ -18,10 +18,6 @@ For non-LaTeX files (Markdown, YAML, config), use `/review-convergence` instead.
 
 **Guard:** If the resolved glob matches zero files, report the empty match and ask the user to refine the scope. Do not start the review loop with an empty file set.
 
-## Prerequisites
-
-Before Round 1, read `revisions.tex` to determine the current `\docversion` number. Use this (hardcoded) for all `\rev{N}` markers throughout the review.
-
 ## Protocol
 
 For each round (R1, R2, ...):
@@ -34,7 +30,7 @@ For each round (R1, R2, ...):
    - Logical coherence: contradictions, circular reasoning, non sequiturs
    - Factual accuracy: claims that conflict with cited sources
 
-2. **FIX**: Apply all fixes. Follow revision annotation rules (`\rev{N}` markers — see `revisions.tex` for current version).
+2. **FIX**: Apply all fixes.
 
 3. **BUILD**: Run `nix build` and verify zero errors.
 

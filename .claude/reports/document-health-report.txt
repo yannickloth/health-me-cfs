@@ -211,19 +211,6 @@ Ch32:
 
 These limitations are TRANSPARENT and appropriate for a theoretical framework.
 
-REVISION ANNOTATION COMPLIANCE
-================================================================================
-
-\rev{N} markers found on modified paragraphs:
-  ✓ Ch26: 19 rev{6} marks (substantive rewrite of foundations section)
-  ✓ Ch27: 18 rev{6} marks (lactate, flexibility, carnitine, mitochondrial dynamics)
-  ✓ Ch28: 8 rev{6} marks (mast cell, coagulation sections)
-  ✓ Ch29: 6 rev{6} marks (BH4, CBF, sensitization, SFN)
-  ✓ Ch30-32: Minimal rev{6} marks (mostly new in rev 6, marked at chapter level)
-
-All modifications properly documented per CLAUDE.md convention (hardcoded version
-numbers, \revend markers in place).
-
 PUBLICATION READINESS ASSESSMENT
 ================================================================================
 

@@ -45,7 +45,6 @@ System prompt / instructions for the agent...
 | `link-checker` | Validating \ref, \cite, \label references before build |
 | `terminology-harmonizer` | Checking/normalizing medical term consistency across .tex files |
 | `document-health-monitor` | Document metrics, finding stubs/placeholders, chapter balance |
-| `rev-marker` | Applying `\rev{N}` markers to modified paragraphs in a single .tex file |
 
 ### SCM/Git (Sonnet)
 

@@ -50,4 +50,3 @@ Note: R8 had 15 findings total but 3 were flagged for human review (not fixed). 
 4. ch17:156,295 — Two hypotheses not in hypothesis-registry.tex (postprandial-pacing, wheat-primed)
 5. ch23:289-293 — Cardiovascular claims hedged but still lack proper citations
 6. Build not verified — run `nix build` when ready
-7. Some \rev{5} before \begin{} violations in OUT-OF-SCOPE files
