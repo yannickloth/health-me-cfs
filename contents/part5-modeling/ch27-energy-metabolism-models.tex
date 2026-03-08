@@ -458,3 +458,37 @@ The model predicts a bistable metabolic state when $\alpha_{\text{CI}} < 0.65$ (
 
 \paragraph{Clinical implications.}
 The model distinguishes two metabolic phenotypes requiring different interventions: (1)~patients above the bistability threshold ($\alpha_{\text{CI}} > 0.65$): metabolic inflexibility is reversible with mitochondrial support alone; (2)~patients below threshold ($\alpha_{\text{CI}} < 0.65$): the GPR81 feedback loop is self-sustaining and requires either breaking the loop (GPR81 antagonism, if available) or simultaneously improving ETC capacity \emph{and} providing alternative fat delivery (medium-chain triglycerides, which bypass CPT-I). The acylcarnitine profile distinguishes carnitine-responsive patients (elevated acylcarnitines with low free carnitine) from those needing NAD$^+$ repletion (elevated acylcarnitines with adequate free carnitine).
+
+\section{Consolidated Cascade Example}
+\label{sec:cascade-example}
+
+The preceding worked examples illustrate each subsystem in isolation. In ME/CFS, however, the subsystems interact: impairment at one level propagates through the others. This section traces the cascade for a single patient to show how modest individual deficits compound into severe energy failure.
+
+\paragraph{Patient profile.} A moderate ME/CFS patient with 35\% Complex~I impairment ($\alpha_{\text{CI}} = 0.65$) and 30\% NAD$^+$ depletion ($\gamma = 0.7$).
+
+\paragraph{Step 1: Electron transport chain --- the cliff effect.}
+The ATP synthase driving force depends on how far the mitochondrial membrane potential $\Delta\Psi$ exceeds its minimum operating threshold ($\Delta\Psi_{\text{threshold}} \approx 110$\,mV). From Equation~\ref{eq:atp-synthase}:
+\[
+\text{Driving force} = \frac{\Delta\Psi - \Delta\Psi_{\text{threshold}}}{\Delta\Psi}
+\]
+In health, $\Delta\Psi \approx 160$\,mV: driving force $= (160 - 110)/160 = 31\%$ of theoretical maximum. With $\alpha_{\text{CI}} = 0.65$, reduced proton pumping lowers $\Delta\Psi$ to $\approx 135$\,mV: driving force $= (135 - 110)/135 = 19\%$ of maximum. This is a \textbf{39\% reduction} in ATP synthase output from 35\% Complex~I damage---disproportionate because the nonlinear threshold term amplifies impairment as $\Delta\Psi$ approaches $\Delta\Psi_{\text{threshold}}$.
+
+\paragraph{Step 2: Krebs cycle --- NAD$^+$ bottleneck.}
+The Krebs cycle flux depends on NAD$^+$ availability through Equation~\ref{eq:krebs-flux}:
+\[
+J_{\text{Krebs}} \propto \frac{[\text{NAD}^+]}{[\text{NAD}^+] + [\text{NADH}]}
+\]
+In health, this ratio $\approx 0.85$. With $\gamma = 0.7$ (30\% NAD$^+$ depletion), the ratio drops to $\approx 0.60$. Reduction: $(0.85 - 0.60)/0.85 = 29\%$. The Krebs cycle feeds electrons to the ETC via NADH, so this 29\% reduction in Krebs output \emph{further} reduces the already-impaired ETC flux. The two deficits compound multiplicatively: effective ATP production is approximately $0.61 \times 0.71 = 0.43$ of healthy---a \textbf{57\% total reduction} from two individually moderate impairments.
+
+\paragraph{Step 3: Reactive oxygen species --- amplified damage.}
+ROS production scales with unused ETC capacity (Equation~\ref{eq:ros-production}):
+\[
+J_{\text{ROS}} \propto 1 - \frac{J_{\text{CI}}}{J_{\text{CI,max}}}
+\]
+In health, Complex~I runs at $\sim$95\% capacity: ROS factor $= 1 - 0.95 = 0.05$. At $\alpha_{\text{CI}} = 0.65$: ROS factor $= 1 - 0.65 = 0.35$. Ratio: $0.35/0.05 = $ \textbf{7-fold increase} in ROS production. This elevated ROS damages ETC complexes further, creating a positive feedback loop that the antioxidant system must counterbalance. If antioxidant capacity is not proportionally upregulated, oxidative damage accumulates, progressively reducing $\alpha_{\text{CI}}$ and deepening the deficit.
+
+\paragraph{Combined picture.} Two individually moderate deficits (35\% Complex~I impairment, 30\% NAD$^+$ depletion) produce: 57\% reduced ATP production (multiplicative), 7-fold elevated ROS (self-reinforcing damage), and an energy envelope so narrow that ordinary activities trigger PEM. This cascade explains why ME/CFS severity is often disproportionate to any single measurable abnormality---it is the \emph{interaction} between subsystems that generates the clinical phenotype.
+
+\begin{limitation}[Cascade Example Assumptions]
+This example treats the three effects as independent multiplicative factors. In the full coupled ODE system (Chapter~\ref{ch:integrated-systems}), the interactions are more complex: ROS-mediated damage reduces $\alpha_{\text{CI}}$ over time, NAD$^+$ depletion affects both Krebs and ETC flux, and the membrane potential depends on all proton-pumping complexes, not just Complex~I. The multiplicative approximation is a pedagogical simplification; the true cascade dynamics require numerical simulation of the coupled system.
+\end{limitation}
