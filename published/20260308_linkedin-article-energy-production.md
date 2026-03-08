@@ -1,6 +1,12 @@
 # When Your Cells Can't Make Energy: The Biology Behind ME/CFS
 
-Your body produces and recycles roughly 50 kg of ATP — its molecular fuel — every single day. That's your own body weight in energy currency, turned over and rebuilt continuously just to keep you alive and functioning.
+Yesterday I published the fifth version of an open-access ME/CFS documentation that includes what is, to my knowledge, the most comprehensive dynamical systems model of the disease to date: 64 state variables coupling energy metabolism, immune dynamics, neuroendocrine regulation, autonomic control, and more into a single mathematical framework. The full document is freely available (CC-BY 4.0) at https://zenodo.org/records/18905326.
+
+This article walks through one piece of that model — energy metabolism — and what it reveals about why ME/CFS patients crash.
+
+---
+
+Your cells hold only about 50 grams of ATP — the molecular fuel that powers everything your body does. But that tiny pool is consumed and rebuilt so rapidly — each molecule recycled roughly a thousand times per day — that the total daily turnover reaches about 50 kg. All just to keep you alive and functioning.
 
 Now imagine that process breaking down.
 
