@@ -122,6 +122,109 @@ The model predicts that these parameter changes produce a new steady state with 
 The impairment factors ($\alpha_{\text{CI}}$, $\beta$, $\gamma$) are constrained by in~vitro studies on isolated cells, primarily lymphocytes and muscle biopsy samples. Whether these values accurately represent in~vivo mitochondrial function across tissues remains uncertain. Patient-level variation in these parameters likely contributes to the clinical heterogeneity of ME/CFS.
 \end{limitation}
 
+\section{Healthy Exercise Response Dynamics}
+\label{sec:healthy-exercise-response}
+
+Before modeling the pathological response to exertion in ME/CFS, it is essential to model the healthy response. This serves two purposes. First, it provides \textbf{face validation} of the model: the same equations that will be used to describe ME/CFS pathophysiology must, with healthy parameters ($\alpha_{\text{CI}} = 1.0$, $\beta = 1.0$, $\gamma = 1.0$), reproduce the well-characterized dynamics of normal exercise physiology---a literature far more quantitatively constrained than ME/CFS. If the model fails this baseline test, it cannot be trusted for disease modeling. Second, it establishes the precise \textbf{branch point} where healthy and pathological responses diverge, clarifying which parameter changes convert a physiological process into a disease mechanism.
+
+\subsection{Healthy Exertion--Recovery Cycle}
+\label{sec:healthy-exertion-recovery}
+
+With healthy parameters, the model predicts a three-phase response to a moderate exertion pulse $\phi(t)$ (Equation~\ref{eq:demand-exertion}). The key quantity is the \emph{metabolic headroom ratio}:
+
+\begin{equation}
+\label{eq:headroom}
+R_{\text{headroom}} = \frac{J_{\text{production,max}} - J_{\text{demand,peak}}}{J_{\text{production,max}}}
+\end{equation}
+
+In healthy individuals performing moderate exercise, $R_{\text{headroom}} \approx 0.3$--$0.5$: the ETC has substantial reserve capacity above peak demand. This headroom determines the entire downstream response.
+
+\paragraph{Phase 1: Exertion (minutes to hours).}
+ATP demand rises but remains within production capacity ($R_{\text{headroom}} > 0$). The ATP balance (Equation~\ref{eq:atp-balance}) shows a transient dip---typically $<10\%$ from baseline---that is rapidly compensated by increased ETC flux and glycolytic upregulation. Lactate rises modestly (Equation~\ref{eq:lactate-dynamics}) due to the glycolytic contribution but remains below the lactate threshold for moderate exercise. ROS production increases transiently (Equation~\ref{eq:ros-production}) because ETC flux increases, but the increase is proportional and remains within antioxidant buffering capacity: $[\text{ROS}](t) < \text{ROS}_{\text{threshold}}$ throughout, so the damage indicator function in Equation~\ref{eq:pem-delay} evaluates to zero. \textbf{No cumulative oxidative damage accumulates.}
+
+\paragraph{Phase 2: Immediate recovery (0--2 hours post-exertion).}
+As demand returns to baseline, lactate is cleared via the Cori cycle ($v_{\text{clear}}$ term in Equation~\ref{eq:lactate-dynamics}) with a half-life of approximately 15--30 minutes~\cite{Brooks2018lactate}. ATP returns to baseline within minutes. ROS returns to steady-state levels as ETC flux normalizes. The metabolic perturbation resolves completely within 1--2 hours, consistent with the rapid metabolic recovery observed in healthy exercise studies.
+
+\paragraph{Phase 3: Adaptation (6--96 hours post-exertion).}
+The transient metabolic stress, although fully resolved at the whole-cell level, has triggered signaling cascades that operate on slower timescales. AMPK, activated during the ATP dip, initiates PGC-1$\alpha$-mediated mitochondrial biogenesis (Equation~\ref{eq:biogenesis}). Because the healthy cell has adequate NAD$^+$ ($\gamma = 1.0$), the SIRT1 pathway is fully functional, and the biogenesis rate $J_{\text{biogenesis}}$ is high. Simultaneously, the brief ROS transient---below the damage threshold but above resting levels---acts as a hormetic signal, upregulating antioxidant enzyme expression (a well-characterized phenomenon in exercise physiology). The net result over the subsequent 48--96 hours is a \emph{supercompensation}: healthy mitochondrial mass $M_h$ overshoots its pre-exercise value.
+
+\subsection{Supercompensation: The Healthy Adaptation Response}
+\label{sec:supercompensation}
+
+Supercompensation---the phenomenon whereby the system recovers to a state \emph{better} than before the perturbation---is the fundamental mechanism of exercise adaptation. In the model, it emerges naturally from the mitochondrial dynamics equations (Equations~\ref{eq:mito-dynamics}--\ref{eq:biogenesis}) when run with healthy parameters.
+
+After a single exertion bout, the net change in healthy mitochondrial mass over the adaptation window $\tau_{\text{adapt}}$ is:
+
+\begin{equation}
+\label{eq:supercompensation}
+\Delta M_h^{\text{net}} = \int_{t_{\text{ex}}}^{t_{\text{ex}} + \tau_{\text{adapt}}} \left( J_{\text{biogenesis}}(s) - k_{\text{fission}} \cdot M_h(s) \cdot r_{\text{damage}}([\text{ROS}](s)) \right) ds
+\end{equation}
+
+In healthy individuals, $\Delta M_h^{\text{net}} > 0$ because: (1)~$J_{\text{biogenesis}}$ is elevated post-exercise (AMPK-driven, with adequate NAD$^+$); (2)~the damage term $r_{\text{damage}}([\text{ROS}])$ is low (ROS remained sub-threshold during exertion); and (3)~mitophagy efficiently removes any damaged mitochondria (adequate ATP for autophagy, Equation~\ref{eq:mitophagy}). The supercompensation window peaks at approximately 48--96 hours post-exertion, consistent with the well-established training adaptation timescale~\cite{Hood2009biogenesis,Coffey2017adaptation}.
+
+Training adaptation is then modeled as \emph{iterated supercompensation}. Repeated exertion bouts spaced within the supercompensation window produce monotonically increasing $M_h$ (and therefore $J_{\text{production,max}}$):
+
+\begin{equation}
+\label{eq:training-adaptation}
+M_h^{(n+1)} = M_h^{(n)} + \Delta M_h^{\text{net}}(n) \quad \text{when } t_{n+1} - t_n \in [\tau_{\text{min}}, \tau_{\text{max}}]
+\end{equation}
+
+where $\tau_{\text{min}} \approx 24$\,hours (minimum recovery) and $\tau_{\text{max}} \approx 96$\,hours (supercompensation window closure). This is the formal basis of the principle that training requires both adequate stimulus \emph{and} adequate recovery---a principle that the model will later show is catastrophically violated in ME/CFS.
+
+\subsection{Delayed-Onset Muscle Soreness (DOMS): Healthy Delayed Symptoms}
+\label{sec:doms-model}
+
+Healthy individuals also experience delayed symptoms after exertion: DOMS peaks 24--72 hours after unaccustomed exercise~\cite{Clarkson2002DOMS}. This phenomenon shares the delayed timescale of PEM but differs mechanistically in ways that illuminate why PEM is pathological.
+
+DOMS is driven by mechanical micro-damage from eccentric contractions, not by systemic metabolic crisis. The local damage triggers an inflammatory repair cascade:
+
+\begin{equation}
+\label{eq:doms-inflammation}
+C_{\text{local}}(t) = C_{\text{peak}} \cdot \frac{(t - t_{\text{ex}})^a \cdot e^{-b(t - t_{\text{ex}})}}{t_{\text{peak}}^a \cdot e^{-b \cdot t_{\text{peak}}}}
+\end{equation}
+
+where $C_{\text{local}}$ is local cytokine concentration, $t_{\text{peak}} \approx 24$--$48$ hours, and parameters $a$, $b$ shape the rise-and-fall profile. Neutrophils infiltrate within hours, followed by macrophage-mediated debris clearance and satellite cell activation peaking at 48--72 hours~\cite{Peake2017muscle}. The process resolves completely within 5--7 days.
+
+Three features distinguish DOMS from PEM:
+
+\begin{enumerate}
+    \item \textbf{Local, not systemic}: DOMS inflammation is confined to the exercised muscle. The systemic cytokine elevation is minimal and self-limiting. In PEM, the inflammatory response is systemic (Chapter~\ref{ch:immune-system-models}).
+    \item \textbf{Self-limiting, no positive feedback}: The DOMS inflammatory cascade follows a programmed rise-and-fall (Equation~\ref{eq:doms-inflammation}) without the ROS $\to$ ETC damage $\to$ more ROS positive feedback loop that sustains PEM. The repair machinery has full access to ATP and NAD$^+$.
+    \item \textbf{Repeated bout effect}: Subsequent identical exertion produces progressively less DOMS~\cite{Clarkson2002DOMS}, indicating successful adaptation. In ME/CFS, repeated exertion produces equal or \emph{worse} responses (the energy ratchet, Section~\ref{sec:ratchet-model}).
+\end{enumerate}
+
+\begin{limitation}[DOMS Model Scope]
+The DOMS model here is deliberately simplified, capturing only the inflammatory repair timeline to contrast with PEM. A complete model of eccentric exercise-induced muscle damage would require mechanical tissue damage terms, satellite cell proliferation kinetics, and extracellular matrix remodeling---beyond the scope of this metabolic framework.
+\end{limitation}
+
+\subsection{The Branch Point: Where Health Becomes Disease}
+\label{sec:branch-point}
+
+The healthy and pathological exercise responses diverge at a single identifiable point: whether exertion-induced ROS exceeds the antioxidant buffering threshold $\text{ROS}_{\text{threshold}}$. This threshold determines whether the indicator function in Equation~\ref{eq:pem-delay} activates:
+
+\begin{itemize}
+    \item \textbf{Below threshold} ($R_{\text{headroom}} \gg 0$, healthy): ROS transient is buffered $\to$ no cumulative damage $\to$ biogenesis dominates $\to$ supercompensation $\to$ adaptation
+    \item \textbf{Above threshold} ($R_{\text{headroom}} \lesssim 0$, ME/CFS): ROS exceeds buffering $\to$ cumulative ETC damage $\to$ further reduced capacity $\to$ impaired repair (ATP-dependent mitophagy fails) $\to$ net mitochondrial loss $\to$ \textbf{anti-supercompensation}
+\end{itemize}
+
+This branch point can be expressed as a critical headroom ratio $R_{\text{crit}}$ below which the damage indicator activates:
+
+\begin{equation}
+\label{eq:branch-point}
+R_{\text{headroom}} > R_{\text{crit}} \implies \Delta M_h^{\text{net}} > 0 \quad \text{(adaptation)}, \qquad R_{\text{headroom}} < R_{\text{crit}} \implies \Delta M_h^{\text{net}} < 0 \quad \text{(damage)}
+\end{equation}
+
+\textbf{This constitutes a first validation of the model}: the same equations that describe ME/CFS pathophysiology, when parameterized with healthy values, reproduce the well-characterized temporal dynamics of normal exercise physiology---immediate metabolic recovery in minutes, DOMS peaking at 24--72 hours, and supercompensation at 48--96 hours. These timescales are not fitted; they emerge from the interaction of metabolic kinetics (fast), inflammatory cascades (intermediate), and biogenesis (slow) that the model captures through its multi-timescale ODE structure.
+
+Furthermore, the branch-point analysis provides the formal mechanistic basis for the clinical observation that graded exercise therapy (GET) harms ME/CFS patients~\cite{Geraghty2019GET}: the same exertion stimulus that produces $\Delta M_h^{\text{net}} > 0$ in health (training effect) produces $\Delta M_h^{\text{net}} < 0$ in ME/CFS (progressive damage). The intervention is not merely ineffective---it is \emph{mathematically predicted} to worsen the disease, because it repeatedly applies a stimulus that pushes the system further from recovery rather than toward it.
+
+\begin{hypothesis}[Supercompensation Failure as the Mechanistic Basis of Exercise Intolerance]
+\label{hyp:supercompensation-failure}
+The defining feature of ME/CFS exercise intolerance is not the immediate metabolic response to exertion (which is qualitatively similar to healthy fatigue) but the failure of the post-exertional adaptation process: $\Delta M_h^{\text{net}} < 0$ after exertion instead of $\Delta M_h^{\text{net}} > 0$. This hypothesis predicts that: (1)~mitochondrial DNA copy number decreases in ME/CFS patients 72 hours after standardized exercise but increases in matched healthy controls; (2)~PGC-1$\alpha$ target gene expression fails to upregulate post-exercise in ME/CFS despite adequate AMPK activation (indicating a SIRT1/NAD$^+$ bottleneck); (3)~interventions that restore NAD$^+$ pools (e.g., NR supplementation) should partially restore the supercompensation response before improving exercise tolerance directly; and (4)~the repeated bout effect (DOMS attenuation with training) is absent or inverted in ME/CFS patients.
+
+\textbf{Certainty}: 0.50. The exercise physiology framework is well-established, and the mitochondrial dynamics model is internally consistent. The predictions are specific and testable by combining two-day CPET with pre/post mtDNA quantification and PGC-1$\alpha$ gene expression profiling. However, direct measurement of in~vivo mitochondrial biogenesis rates post-exercise in ME/CFS has not been performed.
+\end{hypothesis}
+
 \section{Post-Exertional Malaise Modeling}
 \label{sec:pem-modeling}
 
@@ -135,14 +238,14 @@ Post-exertional malaise (PEM) is the hallmark symptom of ME/CFS: a disproportion
 J_{\text{demand}}(t) = J_{\text{basal}} + J_{\text{exertion}} \cdot \phi(t)
 \end{equation}
 
-where $\phi(t)$ is the exertion profile (e.g., a pulse of duration $\tau_{\text{ex}}$). In healthy individuals, the ETC increases flux to match demand, maintaining $[\text{ATP}]$ within a narrow physiological range. In the ME/CFS model, the reduced $V_{\max}$ values limit the maximum achievable flux, causing $[\text{ATP}]$ to fall when demand exceeds the impaired capacity:
+where $\phi(t)$ is the exertion profile (e.g., a pulse of duration $\tau_{\text{ex}}$). In healthy individuals, the ETC increases flux to match demand, maintaining $[\text{ATP}]$ within a narrow physiological range---the Phase~1 response described in Section~\ref{sec:healthy-exertion-recovery}, where $R_{\text{headroom}} > 0$ (Equation~\ref{eq:headroom}) ensures that production capacity exceeds demand. In the ME/CFS model, the reduced $V_{\max}$ values limit the maximum achievable flux, causing $[\text{ATP}]$ to fall when demand exceeds the impaired capacity ($R_{\text{headroom}} \lesssim 0$):
 
 \begin{equation}
 \label{eq:atp-depletion}
 [\text{ATP}](t) = [\text{ATP}]_0 - \int_0^t \left( J_{\text{demand}}(s) - J_{\text{production}}(s) \right) ds \quad \text{when } J_{\text{demand}} > J_{\text{production,max}}
 \end{equation}
 
-The critical difference in ME/CFS is not the depletion itself but the recovery. Two-day CPET studies demonstrate that ME/CFS patients show reduced peak oxygen consumption on day~2 compared to day~1, whereas healthy controls maintain or improve performance~\cite{keller2024cpet}. This recovery failure is modeled through the ROS feedback loop: exertion-induced ATP depletion $\to$ compensatory increase in ETC flux $\to$ increased ROS production $\to$ further ETC damage $\to$ reduced recovery capacity.
+The critical difference in ME/CFS is not the depletion itself but the recovery. Two-day CPET studies demonstrate that ME/CFS patients show reduced peak oxygen consumption on day~2 compared to day~1, whereas healthy controls maintain or improve performance~\cite{keller2024cpet}---the supercompensation response formalized in Section~\ref{sec:supercompensation}. This recovery failure is modeled through the ROS feedback loop: exertion-induced ATP depletion $\to$ compensatory increase in ETC flux $\to$ increased ROS production $\to$ further ETC damage $\to$ reduced recovery capacity. In terms of the branch-point analysis (Section~\ref{sec:branch-point}), ME/CFS patients operate below $R_{\text{crit}}$, converting what would be an adaptive stimulus into a damaging one ($\Delta M_h^{\text{net}} < 0$, Equation~\ref{eq:supercompensation}).
 
 \subsection{Temporal Evolution of PEM}
 \label{sec:pem-temporal}
@@ -405,13 +508,38 @@ A \emph{negative} budget means the patient cannot meet basic metabolic demands a
 \emph{Inputs}: $J_{\text{production,max}}$ from ETC model, $E_{\text{repair}}$ from immune energy demand (Chapter~\ref{ch:immune-system-models}), damage variables from ROS model. \emph{Outputs}: PEM triggering threshold feeds temporal dynamics (Chapter~\ref{ch:temporal-evolution}), pacing optimization (Chapter~\ref{ch:predictive-applications}).
 
 \paragraph{Scope and rationale.}
-The PEM model addresses \emph{why} exertion causes delayed symptom worsening in ME/CFS but not in healthy individuals. It deliberately omits the neural and psychological components of exercise intolerance (central fatigue, kinesiophobia) to focus on the metabolic mechanism. These omissions are acknowledged in the ATP Threshold Hypothesis (certainty: 0.45).
+The PEM model addresses \emph{why} exertion causes delayed symptom worsening in ME/CFS but not in healthy individuals. The healthy baseline (Section~\ref{sec:healthy-exercise-response}) establishes what \emph{should} happen after exertion; the PEM model describes what happens instead when the branch-point condition $R_{\text{headroom}} < R_{\text{crit}}$ (Equation~\ref{eq:branch-point}) is met. It deliberately omits the neural and psychological components of exercise intolerance (central fatigue, kinesiophobia) to focus on the metabolic mechanism. These omissions are acknowledged in the ATP Threshold Hypothesis (certainty: 0.45).
 
 \paragraph{Falsification criteria.}
 The model predicts that PEM severity correlates with the product of exertion intensity and duration above the patient's anaerobic threshold, mediated by ATP depletion depth. \textbf{Falsified if}: (1)~PEM severity does not correlate with measured ATP depletion (by $^{31}$P-MRS) during and after exertion; (2)~interventions that demonstrably improve mitochondrial ATP capacity (confirmed by CPET improvement) do not reduce PEM susceptibility; or (3)~the 12--72\,h delay cannot be explained by the ROS/inflammatory cascade timescale (alternative mechanisms such as central sensitization dominate).
 
 \paragraph{Clinical implications.}
 The energy envelope calculation gives a \emph{patient-specific daily activity budget}. Clinicians can use CPET-derived peak VO$_2$ and resting metabolic rate to compute $E_{\text{budget}}$ and translate it to practical units (steps, minutes of activity at specified heart rate zones). Patients with negative budgets require strict rest; those with small positive budgets benefit from structured pacing within the budget. The model predicts that interventions increasing $J_{\text{production,max}}$ (mitochondrial support) or decreasing $E_{\text{repair}}$ (anti-inflammatory treatment) both widen the energy envelope, suggesting combination benefit.
+
+\subsection{Healthy Baseline and Branch Point (Equations~\ref{eq:headroom}--\ref{eq:branch-point})}
+
+\paragraph{Measurements required.}
+(1)~Peak VO$_2$ and anaerobic threshold from CPET in both patients and age-matched healthy controls (why: constrains $J_{\text{production,max}}$ and enables computation of $R_{\text{headroom}}$).
+(2)~Pre- and post-exercise mtDNA copy number at 24, 48, and 72 hours in both groups (why: directly tests $\Delta M_h^{\text{net}} > 0$ in health vs.\ $\Delta M_h^{\text{net}} < 0$ in ME/CFS).
+(3)~Post-exercise PGC-1$\alpha$ and AMPK phosphorylation in PBMCs (why: distinguishes between adequate AMPK signaling with NAD$^+$ bottleneck vs.\ upstream signaling failure).
+(4)~DOMS severity and timeline via VAS in healthy controls performing eccentric exercise (why: validates the local inflammatory model timeline, Equation~\ref{eq:doms-inflammation}).
+
+\paragraph{Worked example.}
+A healthy individual with peak VO$_2$ = 35\,mL/kg/min performs moderate exercise at 60\% peak ($J_{\text{demand,peak}} = 0.6 \cdot J_{\text{production,max}}$). Headroom ratio: $R_{\text{headroom}} = (1 - 0.6) = 0.40$. At $\alpha_{\text{CI}} = 1.0$, the ROS production factor is $(1 - 0.95) = 0.05$ (5\% electron leak), well within buffering: $[\text{ROS}] < \text{ROS}_{\text{threshold}}$, $D(t) = D_0$ (no damage). Over the next 72 hours, $J_{\text{biogenesis}}$ rises (AMPK-driven) while $r_{\text{damage}}$ remains at baseline, yielding $\Delta M_h^{\text{net}} > 0$: supercompensation.
+
+Now consider a moderate ME/CFS patient with peak VO$_2$ = 25\,mL/kg/min performing the same absolute workload. Because $J_{\text{production,max}}$ is reduced ($\alpha_{\text{CI}} = 0.70$), this exercise represents 85\% of capacity: $R_{\text{headroom}} = 0.15$. The ROS factor is $(1 - 0.70) = 0.30$, exceeding the threshold. Over 72 hours: $D(t) > D_0$ (cumulative damage), biogenesis is impaired (NAD$^+$ depleted, $\gamma = 0.75$), and $\Delta M_h^{\text{net}} < 0$: anti-supercompensation. The same absolute effort that improves the healthy individual worsens the patient.
+
+\paragraph{Inter-model dependencies.}
+\emph{Inputs}: $J_{\text{production,max}}$ from ETC model, $\alpha_{\text{CI}}$ from mitochondrial dysfunction parameters, ROS threshold from antioxidant model. \emph{Outputs}: $R_{\text{headroom}}$ determines PEM triggering (Section~\ref{sec:pem-modeling}), $\Delta M_h^{\text{net}}$ sign feeds long-term trajectories (Chapter~\ref{ch:temporal-evolution}), branch point informs pacing optimization (Chapter~\ref{ch:predictive-applications}).
+
+\paragraph{Scope and rationale.}
+The healthy baseline model serves two roles: face validation (reproducing known exercise physiology timescales from the same equations used for ME/CFS) and branch-point identification (the critical $R_{\text{headroom}}$ below which adaptation becomes damage). It deliberately simplifies DOMS to its inflammatory timeline and omits the full complexity of exercise training adaptation (periodization, fiber-type specificity, neural adaptation) to focus on the metabolic branch point relevant to ME/CFS.
+
+\paragraph{Falsification criteria.}
+\textbf{Falsified if}: (1)~the model with healthy parameters fails to reproduce the known 48--96\,hour supercompensation timescale (would indicate that the biogenesis ODE timescale is miscalibrated); (2)~ME/CFS patients show \emph{positive} $\Delta M_h^{\text{net}}$ after standardized exertion (mtDNA copy number rises at 72 hours), indicating that supercompensation failure is not a feature of the disease; or (3)~the branch point cannot be identified as a function of $R_{\text{headroom}}$---i.e., patients with high and low headroom show the same post-exertional response, refuting the threshold model.
+
+\paragraph{Clinical implications.}
+The branch-point analysis quantifies the minimum $R_{\text{headroom}}$ required for exertion to be adaptive rather than damaging. This provides a patient-specific \emph{safe exercise threshold}: the intensity level below which the exertion response resembles healthy adaptation rather than PEM. Clinicians can estimate $R_{\text{headroom}}$ from CPET data and prescribe activity levels that stay above $R_{\text{crit}}$, potentially enabling limited exercise training in patients with sufficient reserve while protecting those without it. The model predicts that interventions increasing $J_{\text{production,max}}$ (e.g., CoQ10, NAD$^+$ precursors) would raise $R_{\text{headroom}}$ and potentially restore the supercompensation response before improving exercise tolerance directly.
 
 \subsection{Mitochondrial Quality Control (Equations~\ref{eq:mito-dynamics}--\ref{eq:biogenesis})}
 

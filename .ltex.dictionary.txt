@@ -70,6 +70,7 @@ derangements
 disintegrants
 dL
 downregulated
+DOMS
 dysautonomic
 DecodeME
 deduplication
@@ -318,6 +319,8 @@ subcortical
 subcutaneous
 sufficiency
 sulfamethoxazole
+supercompensation
+Supercompensation
 suppressions
 Syed
 tartrate
@@ -356,6 +359,7 @@ Underfull
 underpowered
 unmethylated
 upregulation
+upregulate
 Upregulated
 vagal
 valacyclovir

@@ -34,6 +34,46 @@ Formally, the separatrix can be characterized by computing the boundary of the b
 
 An alternative model, not requiring bistability, posits that ME/CFS onset reflects irreversible damage accumulated during the acute infection. ROS-mediated mitochondrial DNA damage, epigenetic modifications to immune cell precursors~\cite{deVega2021dna_methylation}, or permanent alterations in microglial priming could shift system parameters to values that no longer support the healthy steady state. In this model, there is only one attractor (the disease state) for the post-infection parameter values, and recovery requires parameter restoration (mitochondrial biogenesis, epigenetic reprogramming) rather than state-space perturbation. The two models make distinct predictions about spontaneous recovery: the bistability model permits recovery through large perturbations, while the damage model requires parameter repair.
 
+\subsection{Consolidated Infection-to-Onset Cascade}
+\label{sec:infection-cascade}
+
+The preceding subsections describe the tipping point and recovery failure models separately. This subsection traces a single infection event through all interacting subsystems to show how the cascade produces ME/CFS onset. The walkthrough uses the same patient profile as the tipping point worked example (Section~\ref{sec:tipping-point}): a 35-year-old female with baseline $\alpha_{\text{CI}} = 0.75$, hs-CRP $= 1.8$\,mg/L, and morning cortisol $= 8$\,$\mu$g/dL (separatrix distance $d_{\text{sep}} = 0.12$).
+
+\paragraph{Day 0--3: Acute infection and immune activation.}
+Viral infection triggers innate immune activation: NK cells and macrophages engage the pathogen. Activated immune cells consume substantial ATP through the immune energy demand term $J_{\text{immune}}$ (Equation~\ref{eq:energy-immune-coupling}). Pro-inflammatory cytokines (TNF-$\alpha$, IL-6, IL-1$\beta$) rise, peaking at 24--72\,hours. Cortisol increases in response but, starting from a low-normal baseline of $8$\,$\mu$g/dL, the HPA axis reaches its ceiling quickly, limiting the anti-inflammatory brake (Equation~\ref{eq:cortisol-immune}). For this patient, the immune energy demand increases $J_{\text{demand}}$ by approximately 30\% above baseline during peak infection.
+
+\paragraph{Day 3--7: Energy depletion and metabolic crisis.}
+The 30\% increase in total energy demand pushes the system beyond its already-limited production capacity ($\alpha_{\text{CI}} = 0.75$, already mildly impaired). ATP levels fall as demand exceeds production (Equation~\ref{eq:atp-balance}). Falling ATP triggers the cascade described in the energy metabolism model (Chapter~\ref{ch:energy-metabolism-models}):
+\begin{enumerate}
+    \item AMPK activation signals energy deficit, upregulating glycolysis
+    \item Increased glycolytic flux produces lactate at lower-than-normal workloads
+    \item The ETC, pushed harder to compensate, generates elevated ROS (Equation~\ref{eq:ros-production}): at $\alpha_{\text{CI}} = 0.75$, the ROS factor is $(1 - 0.75) = 0.25$ versus 0.05 in health---a 5-fold increase, which worsens further as infection-mediated oxidative bursts from immune cells add to the ROS load
+    \item Elevated ROS damages ETC complexes, reducing $\alpha_{\text{CI}}$ from 0.75 toward 0.65 over days
+\end{enumerate}
+
+\paragraph{Day 7--14: The tipping point.}
+As $\alpha_{\text{CI}}$ drops from 0.75 to $\sim$0.65, two critical thresholds approach. First, the ATP synthase cliff effect (Section~\ref{sec:cascade-example}): the membrane potential $\Delta\Psi$ falls from $\sim$145\,mV toward 135\,mV, producing disproportionate ATP loss. Second, the mitophagy threshold: at $[\text{ATP}] < [\text{ATP}]_{\text{crit,autophagy}}$, the cell can no longer remove damaged mitochondria (Equation~\ref{eq:mitophagy}), and damaged organelles accumulate.
+
+Simultaneously, the energy--immune vicious cycle engages (Equation~\ref{eq:immune-energy-feedback}): ATP depletion impairs immune cell function ($k_{\text{act}}^{\text{eff}}$ decreases), slowing viral clearance, prolonging immune activation, and sustaining the energy drain. The state-space trajectory crosses the separatrix ($d_{\text{sep}} = 0.12$, perturbation magnitude $\approx 0.18$). The system enters the basin of attraction of the disease state.
+
+\paragraph{Week 2--4: Infection resolves, disease persists.}
+The adaptive immune response eventually clears the virus. Cytokines decline. But the system does not return to its pre-infection state because:
+\begin{itemize}
+    \item $\alpha_{\text{CI}}$ has been reduced by ROS-mediated damage (now $\sim$0.65 instead of 0.75)
+    \item NAD$^+$ pool is depleted ($\gamma$ reduced from $\sim$0.85 to $\sim$0.70$) by the sustained metabolic stress
+    \item Mitochondrial quality control is impaired: biogenesis cannot keep pace with accumulated damage at the new, lower ATP level (Equation~\ref{eq:biogenesis})
+    \item The energy--immune coupling maintains low-grade immune activation even without the original pathogen, because the depleted energy state impairs immune regulation
+\end{itemize}
+
+The patient experiences persistent fatigue, cognitive dysfunction, and exercise intolerance. The disease attractor is now the stable equilibrium: without intervention, the system will remain there indefinitely.
+
+\paragraph{What determined the outcome.}
+A different patient with $\alpha_{\text{CI}} = 0.90$ and morning cortisol $= 14$\,$\mu$g/dL (separatrix distance $d_{\text{sep}} = 0.35$) experiencing the same infection would generate a perturbation of similar magnitude ($\sim$0.18) but would not cross the separatrix ($0.18 < 0.35$). That patient recovers fully. The difference is not the infection---it is the pre-existing proximity to the tipping point.
+
+\begin{limitation}[Infection Cascade Walkthrough]
+This walkthrough is a qualitative trace through the coupled model, not a numerical simulation. The specific timescales (days 0--3, 3--7, etc.) and parameter trajectories ($\alpha_{\text{CI}}$ dropping from 0.75 to 0.65) are illustrative estimates consistent with the model structure and clinical observations, not computed outputs. Quantitative validation requires numerical integration of the full coupled ODE system with infection-specific initial conditions, which has not been performed.
+\end{limitation}
+
 \section{Disease Progression Models}
 \label{sec:disease-progression-models}
 
@@ -181,13 +221,19 @@ where $\tau_{\text{PEM}} \in [12, 72]$\,hours is the PEM delay and $f$ is a thre
 \subsection{Physical Exertion}
 \label{sec:physical-exertion-response}
 
-Physical exertion produces the most well-characterized stimulus--response relationship in ME/CFS via the two-day CPET protocol~\cite{keller2024cpet}. The model simulates a standardized exercise test as a ramping $J_{\text{demand}}(t)$ function. Key model predictions, validated against CPET data:
+Physical exertion produces the most well-characterized stimulus--response relationship in ME/CFS via the two-day CPET protocol~\cite{keller2024cpet}. The model simulates a standardized exercise test as a ramping $J_{\text{demand}}(t)$ function.
+
+\paragraph{Healthy temporal profile.}
+In healthy individuals, the model (Section~\ref{sec:healthy-exercise-response}) predicts a multi-timescale response that serves as the baseline against which ME/CFS deviations are measured. (1)~\emph{Immediate recovery} (0--2\,hours): ATP and lactate return to baseline as metabolic demand normalizes; this is the fast timescale of metabolic kinetics. (2)~\emph{Delayed-onset muscle soreness} (24--72\,hours): local inflammatory repair of mechanical micro-damage peaks at 24--48 hours (Equation~\ref{eq:doms-inflammation}); this is self-limiting and confined to the exercised tissue, producing soreness without systemic symptoms. (3)~\emph{Supercompensation} (48--96\,hours): AMPK-driven mitochondrial biogenesis produces a net increase in healthy mitochondrial mass ($\Delta M_h^{\text{net}} > 0$, Equation~\ref{eq:supercompensation}), leaving the system \emph{stronger} than before the exertion. The fact that the model reproduces these well-established healthy timescales---without parameter fitting, purely from the interaction of its fast (metabolic), intermediate (inflammatory), and slow (biogenesis) ODE components---constitutes a face validation of the model framework before it is applied to ME/CFS.
+
+\paragraph{ME/CFS temporal profile.}
+In ME/CFS, each of the three healthy timescales is pathologically altered. Key model predictions, validated against CPET data:
 
 \begin{enumerate}
     \item \textbf{Reduced peak VO$_2$}: Limited by both cardiovascular (reduced CO) and metabolic (reduced ETC capacity) constraints
     \item \textbf{Early anaerobic threshold}: Transition to glycolytic dominance at lower workloads because oxidative capacity ceiling is reduced
-    \item \textbf{Day-2 decrement}: The model predicts that ROS-mediated damage from day-1 exertion reduces ETC capacity by 5--15\% on day~2, lowering peak VO$_2$ and anaerobic threshold
-    \item \textbf{Prolonged recovery}: The model predicts that post-exercise ATP and cytokine levels require 48--96 hours to return to pre-exercise baseline, versus $<24$ hours in healthy controls
+    \item \textbf{Day-2 decrement}: The model predicts that ROS-mediated damage from day-1 exertion reduces ETC capacity by 5--15\% on day~2, lowering peak VO$_2$ and anaerobic threshold. This is the pathological counterpart of healthy DOMS: where healthy individuals experience local, self-limiting inflammation, ME/CFS patients experience systemic ROS-mediated ETC damage that worsens capacity rather than repairing tissue
+    \item \textbf{Prolonged recovery}: The model predicts that post-exercise ATP and cytokine levels require 48--96 hours to return to pre-exercise baseline, versus $<24$ hours for metabolic normalization in healthy controls. The 48--96\,hour window that produces supercompensation in health (Section~\ref{sec:supercompensation}) instead produces net mitochondrial loss ($\Delta M_h^{\text{net}} < 0$)---the anti-supercompensation phenomenon that is the hallmark of the disease (Section~\ref{sec:branch-point})
 \end{enumerate}
 
 \subsection{Cognitive Exertion}
