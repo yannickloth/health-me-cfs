@@ -1,8 +1,8 @@
-# ME/CFS Has Always Followed Epidemics. COVID Just Made It Impossible to Ignore.
+# ME/CFS after epidemics: a ninety-year pattern from 1934 to COVID
 
 If the post-COVID surge in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) feels like something new, that is only because the earlier waves were small enough to forget. Viral epidemics have been triggering ME/CFS since at least 1934 — and the disease left behind each time was the same one millions are being diagnosed with today.
 
-## 1934–1984: four outbreaks, one disease, zero lessons learned
+## Four outbreaks before COVID
 
 It started at Los Angeles County General Hospital. Between May 1934 and December 1935, 198 hospital employees — 4.5% of personnel, including over 10% of nurses and 5% of physicians — developed a post-infectious illness initially diagnosed as "atypical poliomyelitis." They never recovered normally. (Gilliam, 1938)
 
@@ -12,11 +12,11 @@ Then in 1955, the Royal Free Hospital in London saw 292 staff members fall ill o
 
 Three decades on, an outbreak in Incline Village near Lake Tahoe affected 259 patients. The CDC investigated, found elevated Epstein-Barr virus antibodies, and — in one of the most consequential branding decisions in medical history — renamed the disease "chronic fatigue syndrome" in 1988. A name that trivialized it for the next thirty years. (Buchwald et al., 1992; Holmes et al., 1988)
 
-Four outbreaks across fifty years, each following a viral epidemic, each producing the same chronic post-infectious illness. The trigger changed every time. The disease did not.
+Four outbreaks across fifty years, each following a viral epidemic, each producing the same chronic post-infectious illness. The trigger changed every time; the disease did not.
 
-## 2020: the same disease, at pandemic scale
+## The COVID-19 wave
 
-SARS-CoV-2 did not create a new disease. It created millions of new patients with an old one.
+SARS-CoV-2 created millions of new patients with an old disease.
 
 The RECOVER-Adult Study (2025) found that 4.5% of people infected with SARS-CoV-2 developed ME/CFS meeting formal diagnostic criteria, compared to 0.6% in uninfected controls — a nearly five-fold increase in risk (hazard ratio: 4.93). Among patients classified as "long COVID," 51% meet full ME/CFS diagnostic criteria. (RECOVER, 2025)
 
@@ -24,21 +24,21 @@ What that translates to in practice: the United States alone went from an estima
 
 The pattern holds outside the US as well. In Germany, the patient population grew from roughly 250,000 to over 650,000 by the end of 2024. Pre-pandemic global estimates placed the ME/CFS population at 15 to 30 million; the post-COVID wave has almost certainly pushed that number far higher, though precise figures are still being compiled.
 
-## Why the earlier waves were ignored — and why this one could not be
+## Decades of dismissal
 
 Every previous wave was small enough to dismiss. A few hundred patients at a hospital. A thousand in an Icelandic town. A few hundred near a lake in Nevada. Each time, the medical establishment investigated briefly, failed to isolate a single viral cause, and moved on. Patients were left without a diagnosis or treatment — and after McEvedy and Beard published their infamous 1970 "mass hysteria" reanalysis of the earlier outbreaks, many faced active disbelief from their own doctors. Subsequent mathematical modeling of the outbreak data showed that the epidemiological patterns fit infectious disease models, not psychogenic ones (Underhill, 2021) — but by then, the damage to the field's credibility was already done. (McEvedy & Beard, 1970)
 
 The COVID-19 wave broke that cycle, for one reason: scale. When millions of people develop the same post-infectious syndrome simultaneously after a globally tracked virus, it becomes very difficult to call it psychosomatic. The pandemic did what ninety years of outbreaks and patient advocacy could not — it forced medicine to look.
 
-What researchers found confirmed what the ME/CFS field had been reporting for decades. The NIH's deep phenotyping study (Walitt et al., 2024) — 75 authors across 15 NIH institutes — demonstrated brain dysfunction, immune exhaustion, and metabolic failure in ME/CFS patients. Not "fatigue." Not "deconditioning." Objective, measurable, biological disease.
+What researchers found confirmed what the ME/CFS field had been reporting for decades. The NIH's deep phenotyping study (Walitt et al., 2024) — 75 authors across 15 NIH institutes — demonstrated brain dysfunction, immune exhaustion, and metabolic failure in ME/CFS patients: objective, measurable, biological disease, not "fatigue" or "deconditioning."
 
-## What the pandemic built — and what it might still destroy
+## New research infrastructure
 
-One genuine silver lining: the pandemic created research infrastructure that did not exist before. Long COVID programs like RECOVER and PHOSP-COVID have included ME/CFS comparison groups, producing high-quality data on both conditions. Treatments studied for long COVID — including low-dose naltrexone — are showing promise for ME/CFS, and biomarker research accelerated by the urgency of the crisis is directly applicable.
+The pandemic created research infrastructure that did not exist before. Long COVID programs like RECOVER and PHOSP-COVID have included ME/CFS comparison groups, producing high-quality data on both conditions. Treatments studied for long COVID — including low-dose naltrexone — are showing promise for ME/CFS, and biomarker research accelerated by the urgency of the crisis is directly applicable.
 
-Just as significant is the shift in public perception. When your colleague, your neighbor, or your family member develops a chronic post-infectious illness after COVID, it becomes harder to dismiss the person who developed the same illness after mononucleosis in 2015 — or after a flu in 1987. For millions of ME/CFS patients, long COVID did something decades of advocacy could not: it made their disease visible.
+The shift in public perception matters just as much. When your colleague, your neighbor, or your family member develops a chronic post-infectious illness after COVID, it becomes harder to dismiss the person who developed the same illness after mononucleosis in 2015 — or after a flu in 1987. For millions of ME/CFS patients, long COVID did something decades of advocacy could not: it made their disease visible.
 
-## The risk: forgetting the pattern — again
+## The "long COVID" label problem
 
 But that visibility comes with a trap. If ME/CFS is absorbed into "long COVID" as a label — if the specific diagnosis disappears into a vague umbrella term — then the historical pattern will be obscured once more. The next epidemic will produce the same wave, the same confusion, the same years of diagnostic delay, and the same patients told it is all in their heads.
 
