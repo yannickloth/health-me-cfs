@@ -57,9 +57,52 @@ All interventions in this chapter are experimental or unvalidated for ME/CFS. Ke
 
 Growing evidence implicates autoantibodies against G-protein coupled receptors (GPCRs) in ME/CFS pathophysiology, with particularly strong associations in post-infectious cases. The foundational study by Loebel et al.\ (2016) found that 29.5\% of 268 ME/CFS patients had elevated autoantibodies against $\beta_2$-adrenergic, M3 muscarinic, or M4 muscarinic receptors~\cite{Loebel2016}. Subsequent validation studies by Bynke et al.\ (2020) found even higher prevalence (79--91\% with at least one elevated autoantibody)~\cite{Bynke2020}, and Sotzny et al.\ (2021) demonstrated dose-response correlations between autoantibody levels and symptom severity~\cite{Sotzny2021}. However, the Vernino et al.\ (2022) failed replication in POTS using standard ELISA methodology raises important questions about assay specificity~\cite{POTS2022failed_replication}. These therapeutic approaches target the autoantibody hypothesis directly.
 
-\subsubsection{BC007 (DNA Aptamer)}
+\subsubsection{BC007 (Rovunaptabin)}
+\label{sec:bc007}
 
-BC007 (originally developed for heart failure) is a DNA aptamer that directly neutralizes autoantibodies against beta-adrenergic and muscarinic receptors. Hohberger et al.\ (2021) reported a dramatic case in Long COVID~\cite{Hohberger2021bc007}: a single 1350~mg intravenous dose neutralized GPCR autoantibodies within hours, with rapid resolution of fatigue, brain fog, and dysgeusia, plus improved retinal microcirculation on optical coherence tomography angiography. Effects were sustained at 4-week follow-up. This proof-of-concept case demonstrates that direct autoantibody neutralization can produce rapid symptomatic improvement. Larger trials are ongoing, but access remains limited to research settings.
+\paragraph{Mechanism of Action}
+BC007 (now named rovunaptabin) is a single-stranded DNA aptamer originally developed for dilated cardiomyopathy. Unlike immunoadsorption, which removes all immunoglobulins non-selectively, BC007 neutralises functional autoantibodies against G-protein coupled receptors \textit{in situ} by direct binding, preventing them from activating their target receptors. This selectivity preserves protective immunity while targeting pathogenic autoantibodies specifically. Administration is a single intravenous infusion (1350~mg in the initial case report), making it considerably simpler than the five-session immunoadsorption protocol.
+
+\paragraph{Clinical Evidence}
+
+\begin{itemize}
+    \item \textbf{Proof-of-concept case report (2021):} Hohberger et al.\ treated a Long COVID patient with a single 1350~mg intravenous dose~\cite{Hohberger2021bc007}. GPCR autoantibodies were neutralised within hours, with rapid resolution of fatigue, brain fog, and dysgeusia. Retinal microcirculation improved on optical coherence tomography angiography---an objective vascular endpoint. Effects were sustained at 4-week follow-up. The speed of microcirculation improvement (hours, not days) supports a direct vascular mechanism: autoantibodies were impairing endothelial vasodilation, and their neutralisation restored blood flow before any cellular repair could occur (see Hypothesis~\ref{hyp:gpcr-endothelial}).
+
+    \item \textbf{Phase II programme (NCT05911009):} Berlin Cures GmbH sponsored a multi-site programme in Germany enrolling post-COVID syndrome patients with functional GPCR autoantibodies and predominant fatigue. The Phase~IIa crossover arm enrolled 29 patients; the subsequent Phase~II arm enrolled 114 patients---the largest RCT testing autoantibody-targeted therapy in post-infectious fatigue conditions. Primary outcomes: fatigue severity, autoantibody neutralisation, and safety. Results expected 2026.\footnote{Trial registration: \url{https://clinicaltrials.gov/study/NCT05911009}. The Phase~II programme builds on the proof-of-concept reported in Hohberger et al.\ (2021)~\cite{Hohberger2021bc007}.}
+\end{itemize}
+
+\paragraph{Comparison with Immunoadsorption}
+BC007 and immunoadsorption represent complementary approaches to the same autoantibody hypothesis (Table~\ref{tab:autoantibody-comparison}):
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison of autoantibody-targeted therapies in ME/CFS}
+\label{tab:autoantibody-comparison}
+\small
+\begin{tabular}{l p{0.3\textwidth} p{0.3\textwidth}}
+\toprule
+\textbf{Feature} & \textbf{BC007 (Rovunaptabin)} & \textbf{Immunoadsorption} \\
+\midrule
+Mechanism & Neutralises specific autoantibodies & Removes all immunoglobulins \\
+Selectivity & Targets GPCR autoantibodies only & Non-selective IgG removal \\
+Administration & Single IV infusion & 5 sessions over 5--10 days \\
+Protective immunity & Preserved & Transiently depleted (79\% IgG reduction) \\
+Evidence level & Case report + Phase~II pending & Pilot ($n$=10) + cohort ($n$=20) \\
+Availability & Research only (Phase~II) & Specialised apheresis centres \\
+Estimated cost & Unknown (not yet marketed) & \texteuro{}5,000--15,000 per course \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Limitations and Open Questions}
+\begin{itemize}
+    \item All BC007 trials to date enrolled \textit{post-COVID} patients specifically; extension to non-COVID ME/CFS cohorts will be needed to establish broader applicability.
+    \item Duration of effect is unknown: if autoantibody-producing plasma cells persist (as immunoadsorption data suggest), repeated dosing or combination with plasma cell depletion (see daratumumab, Section~\ref{sec:daratumumab}) may be required.
+    \item The aptamer neutralises existing autoantibodies but does not address autoantibody production---the same limitation as immunoadsorption, though daratumumab targets this upstream problem.
+\end{itemize}
+
+\paragraph{Energy Profile}
+Category A--B (low to moderate energy demand). A single intravenous infusion places minimal haemodynamic stress compared to the repeated extracorporeal circuits of immunoadsorption. The acute immune reorganisation following autoantibody neutralisation is likely less energy-costly than the broad immunoglobulin depletion of immunoadsorption, though this has not been formally assessed in ME/CFS patients.
 
 \subsubsection{Immunoadsorption}
 
@@ -90,6 +133,7 @@ If GPCR autoantibodies drive symptoms and B cells continuously produce them, eff
 \end{speculation}
 
 \subsubsection{Daratumumab: Targeting Plasma Cells (2025 Pilot Trial)}
+\label{sec:daratumumab}
 
 A groundbreaking 2025 pilot study by Fluge et al.\ tested daratumumab, an anti-CD38 monoclonal antibody that targets plasmablasts and long-lived plasma cells---a novel approach distinct from prior B-cell targeting strategies~\cite{Fluge2025daratumumab}.
 
