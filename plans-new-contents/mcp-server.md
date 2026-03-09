@@ -2,6 +2,14 @@
 
 An MCP server that exposes the paper's content and structure as queryable tools, allowing any MCP client to ask questions about ME/CFS pathophysiology, treatment, research, and the document itself.
 
+## TODO
+
+- Structure our knowledge such that it's easy to identify what's speculation from fact.
+- Ask Claude how to best structure the knowledge, given the usage as MCP contents as well.
+- Maybe plan for usage of knowledge to generate a searchable website, full of cross-references between articles.
+- Ask Claude to identify all the kinds of contents we have (like in maths: definition, thm, corollary, lemma etc.)
+- Ask Claude which killer features this MCP server could have.
+
 ## Design Decisions
 
 | Decision | Choice | Rationale |
