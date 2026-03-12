@@ -1,0 +1,20 @@
+Title: The Implication of a Polymorphism in the Methylenetetrahydrofolate Reductase Gene in Homocysteine Metabolism and Related Civilisation Diseases
+Authors: Emilia Zarembska, Klaudia Slusarczyk, Malgorzata Wrzosek
+Journal: International Journal of Molecular Sciences
+Year: 2023
+Volume: 25(1):193
+DOI: 10.3390/ijms25010193
+PMID: 38203363
+
+ABSTRACT:
+Comprehensive narrative review of MTHFR C677T and A1298C polymorphisms and their implications for
+homocysteine metabolism, with disease associations.
+
+Key findings:
+- MTHFR C677T (rs1801133): enzyme activity reduced to ~67% in heterozygotes, ~25% in homozygotes
+- Impaired MTHFR reduces 5-methyltetrahydrofolate production, impairing homocysteine remethylation
+- Elevated homocysteine increases ROS production and oxidative stress
+- Associated with: cardiovascular disease, stroke, T2DM, insulin resistance, obesity, metabolic syndrome
+- C677T is one of the most common functional polymorphisms in the human genome
+- Population prevalence varies by ethnicity (higher in Hispanic/Mediterranean populations)
+- 146+ references reviewed

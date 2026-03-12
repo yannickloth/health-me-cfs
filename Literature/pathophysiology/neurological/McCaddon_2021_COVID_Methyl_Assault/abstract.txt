@@ -1,0 +1,26 @@
+Title: COVID-19: A methyl-group assault?
+Authors: Andrew McCaddon, Bjorn Regland
+Journal: Medical Hypotheses
+Year: 2021
+Volume: 149:110543
+DOI: 10.1016/j.mehy.2021.110543
+PMID: 33657459
+PMC: PMC7890339
+
+ABSTRACT:
+Hypothesis paper. Authors propose SARS-CoV-2 infection creates competing demands on methylation
+capacity that may explain long-COVID symptoms. Two-pronged mechanism:
+1. Virus increases methyl-group consumption (viral RNA modification via m6A; viral RNA capping)
+2. Virus impairs methyl supply via oxidative stress that inactivates methionine synthase
+
+This is predicted to elevate homocysteine and deplete SAM.
+
+Key connections:
+- Long-COVID symptoms (fatigue 87%, memory complaints 78%) overlap remarkably with pernicious
+  anemia symptoms (both mediated by B12/methylation deficiency)
+- ME/CFS patients show "very markedly raised homocysteine in cerebrospinal fluid" (citing Regland 1997)
+  with significant correlation to fatigue severity
+- Mechanism proposes a common methylation-depletion pathway linking viral illness to ME/CFS-like states
+
+Note: This is a HYPOTHESIS paper. Predicts testable outcomes (elevated homocysteine in long-COVID)
+but mechanism requires in vivo confirmation.

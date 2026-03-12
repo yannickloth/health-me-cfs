@@ -1,0 +1,20 @@
+Title: Open Trial of Vitamin B12 Nasal Drops in Adults With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Comparison of Responders and Non-Responders
+Authors: C (Linda) MC van Campen, Klaas Riepma, Frans C Visser
+Journal: Frontiers in Pharmacology
+Year: 2019
+Volume: 10:1102
+DOI: 10.3389/fphar.2019.01102
+PMID: 31616305
+
+ABSTRACT:
+Open-label pilot trial of intranasal hydroxocobalamin (B12) in 51 ME/CFS adults (44 female,
+mean age 42 years, mean disease duration 16 years) over 3 months.
+
+Key findings:
+- Intranasal route produced substantial B12 serum increases: median 328 pmol/L pre-treatment
+  to 973 pmol/L post-treatment
+- Among 34 responders (67%): step count, RAND-36 physical activity scale, and serum B12
+  all significantly increased
+- Among 17 non-responders (33%): no meaningful changes
+- Open design without placebo control; cannot exclude placebo effect
+- Supports intranasal as a CNS-accessible delivery route (avoids first-pass metabolism)

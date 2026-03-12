@@ -1,0 +1,22 @@
+Title: Increased concentrations of homocysteine in the cerebrospinal fluid in patients with fibromyalgia and chronic fatigue syndrome
+Authors: B Regland, M Andersson, L Abrahamsson, J Bagby, LE Dyrehag, CG Gottfries
+Journal: Scandinavian Journal of Rheumatology
+Year: 1997
+Volume: 26(4):301-7
+DOI: 10.3109/03009749709105320
+PMID: 9310111
+
+ABSTRACT:
+12 female outpatients meeting diagnostic criteria for both fibromyalgia (FM) and chronic fatigue
+syndrome (CFS) were investigated. CSF samples and psychopathological assessments using the
+Comprehensive Psychopathological Rating Scale (CPRS) were performed.
+
+Key findings:
+- ALL 12 patients showed elevated homocysteine in CSF
+- Significant positive correlation between CSF-HCY levels and fatiguability (CPRS score)
+- CSF vitamin B12 levels generally low
+- CSF-homocysteine and CSF-B12 levels correlated significantly with ratings of mental fatigue
+- Blood homocysteine levels were usually NOT increased (CSF elevation without serum elevation)
+
+Conclusion: Increased homocysteine in CNS characterizes patients meeting criteria for FM and CFS,
+suggesting vitamin B12 deficiency impairs remethylation of homocysteine in the CNS.

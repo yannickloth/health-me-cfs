@@ -1,0 +1,21 @@
+Title: Response to Vitamin B12 and Folic Acid in Myalgic Encephalomyelitis and Fibromyalgia
+Authors: Bjorn Regland, Sara Forsmark, Lena Halaouate, Michael Matousek, Birgitta Peilot, Olof Zachrisson, Carl-Gerhard Gottfries
+Journal: PLoS One
+Year: 2015
+Volume: 10(4):e0124648
+DOI: 10.1371/journal.pone.0124648
+PMID: 25902009
+
+ABSTRACT:
+Cross-sectional survey of 38 ME/fibromyalgia patients receiving B12 injections (weekly, for 6 months
+to 20 years). Compared "good responders" (Fibro Fatigue scale <=24, n=15) vs "mild responders"
+(FF >24, n=23).
+
+Key findings:
+- Good responders used significantly more frequent injections (p<0.03) and higher doses (p<0.03)
+  for longer duration (p<0.0005)
+- Good responders used higher daily folic acid, tailored to MTHFR genotype (p<0.003)
+- Good responders used thyroid hormone more frequently (p<0.02)
+- Good responders had ZERO daily analgesic use; 70% of mild responders used analgesics (p<0.0005)
+- Methylcobalamin injections appeared more effective than hydroxycobalamin
+- Dose-response relationship supports genuine treatment effect

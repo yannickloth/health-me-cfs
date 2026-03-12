@@ -1,0 +1,32 @@
+Title: Homocysteine and Mitochondria in Cardiovascular and Cerebrovascular Systems
+Authors: Peter Kaplan, Zuzana Tatarkova, Monika Kmetova Sivonova, Peter Racay, Jan Lehotsky
+Journal: International Journal of Molecular Sciences
+Year: 2020
+Volume: 21(20): 7698
+DOI: 10.3390/ijms21207698
+PMID: 33080955
+
+ABSTRACT (fetched from PMC):
+Comprehensive review examining the relationship between elevated homocysteine (hyperhomocysteinemia, HHcy) and mitochondrial dysfunction in cardiovascular and cerebrovascular systems.
+
+Key mechanisms documented:
+1. HHcy deteriorates mitochondrial energy metabolism by decreasing activities and protein
+   contents of ETC components (complexes I, II, III, IV, V).
+2. Increased ROS generation via auto-oxidation of homocysteine and altered ETC function.
+3. Imbalance in antioxidant enzymes: decreased mitochondrial SOD and catalase.
+4. N-homocysteinylation of proteins (via homocysteine thiolactone), notably affecting
+   cytochrome c and electron transport functionality.
+5. Altered mitochondrial dynamics: dysregulated fusion/fission proteins (DRP1, Mfn2, Opa1),
+   increased mitophagy.
+6. ER stress crosstalk: PERK activation and upregulation of pro-apoptotic CHOP.
+7. Concentration-dependent apoptotic activation: upregulation of Bax/Bad, downregulation of Bcl-2.
+
+Brain-specific effects:
+- Complex I inhibition in cortex (persistent long-term)
+- Decreased complex IV in hippocampus, amygdala, cerebral cortex
+- Decreased complex V in hippocampus and cortex
+
+Disease connections: Alzheimer's disease, Parkinson's disease, stroke, neurodegeneration, glaucoma.
+
+Therapeutic insight: hydrogen sulfide (H2S) supplementation restores mitochondrial function
+and activates Nrf2 antioxidant pathways.
