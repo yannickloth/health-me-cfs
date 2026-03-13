@@ -56,6 +56,38 @@ sleep:
     Approximately 3h45–4h15 of sleep — significant sleep deprivation. Patient attributes
     today's fatigue and mild crash state to residual effects of this night.
 
+neurological_observations:
+  acrophobia:
+    present: true
+    onset: "progressive worsening over recent years"
+    current_pattern: >
+      Previously limited to actual physical height exposure. Now also triggered by
+      videos and TV content depicting heights — visual stimuli alone provoke rapid
+      onset of malaise and accelerated pulse (tachycardia). Severity has increased
+      such that screen-mediated height stimuli are sufficient to trigger physical symptoms.
+    physical_symptoms_on_trigger:
+      - "rapid onset of malaise"
+      - "accelerated pulse (tachycardia)"
+    clinical_note: >
+      Acrophobia itself is not caused by ME/CFS, but progressive worsening is likely
+      facilitated by: (1) autonomic nervous system dysregulation — exaggerated
+      sympathetic response to fear stimuli; (2) central sensitization — amplified
+      fear responses due to altered CNS processing; (3) reduced tolerance window —
+      lowered threshold for stress and sensory stimulation secondary to ME/CFS.
+      The extension of triggers from real-world heights to visual/screen stimuli
+      is consistent with central sensitization broadening the range of effective
+      stimuli over time.
+    discuss_with_physician: true
+    physician_note: >
+      Mention to physician at next appointment. If acrophobia is impacting daily
+      life, consider adapted CBT or EMDR — must be paced for available energy
+      capacity given ME/CFS; standard-intensity exposure therapy likely not
+      appropriate without ME/CFS-aware modifications.
+    me_cfs_facilitation_mechanisms:
+      - "autonomic dysregulation (exaggerated sympathetic response)"
+      - "central sensitization (amplified fear processing)"
+      - "reduced stimulation/stress tolerance threshold"
+
 notes: >
   Mild crash / crash-like state today. General weakness; patient prefers lying down
   over socializing. Could manage social interaction if required — sufficient energy
@@ -65,9 +97,13 @@ notes: >
   Borderline headache earlier in the day.
   End of afternoon: tiredness over the whole body and headache present.
   Identified precipitating factors: (1) severe sleep deprivation the night of
-  2026-03-11→12 (slept ~2h00–2h30, woke 6h15, ~4h total), effects felt with
-  ~1–2 day delay consistent with delayed post-stress malaise; (2) possible
+  2026-03-11->12 (slept ~2h00-2h30, woke 6h15, ~4h total), effects felt with
+  ~1-2 day delay consistent with delayed post-stress malaise; (2) possible
   compounded/rebound effect from 3 consecutive days of Provigil (modafinil, 1
   pill/day on Mar 10, 11, 12) — cumulative stimulant load or withdrawal
   contributing to end-of-afternoon fatigue and headache.
+  Neurological observation logged: acrophobia worsening noted — now triggered by
+  visual media (TV/videos showing heights), not only real-world exposure. Causes
+  rapid malaise and tachycardia. Attributed to autonomic dysregulation and central
+  sensitization facilitated by ME/CFS. Flag for physician discussion.
   All medications taken today (see 2026-03-13.yaml in medications/).
