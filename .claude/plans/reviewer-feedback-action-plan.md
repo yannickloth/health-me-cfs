@@ -142,7 +142,7 @@ Session 10 : A10 (fact-check tags — si pertinent) + A11 (falsifiabilité)
 
 ## Reports Archive
 
-All audit reports are stored in `.claude/content-staging/`:
+All audit reports are stored in `content-staging/`:
 - `A1-assertion-audit.md` — Assertion–source audit summary (10 assertions; also in document as Appendix K)
 - `A8-audit-report.md` — Part III hypothesis vs. recommendation audit (31 findings)
 - `A9-replication-audit.md` — Part II replication status (22 achievements)
