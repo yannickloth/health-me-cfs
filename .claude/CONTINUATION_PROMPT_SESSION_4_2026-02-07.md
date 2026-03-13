@@ -38,7 +38,7 @@
 All 14 hypotheses were researched. The research content (LaTeX, BibTeX, cross-references) exists in agent JSONL output files but was NOT written to integration guide files, except for one:
 
 **Saved to disk:**
-- `.claude/content-staging/INTEGRATION_GUIDE_cns-energy-triage.md` - SAVED (manually extracted)
+- `content-staging/INTEGRATION_GUIDE_cns-energy-triage.md` - SAVED (manually extracted)
 
 **Research completed but NOT saved (content in JSONL output files):**
 
@@ -86,7 +86,7 @@ Use the hypothesis specifications from the continuation prompt (below) plus the 
 ### Phase 2: Brainstorming Hypotheses (4 Remaining)
 
 #### 2.2 CNS Energy Triage Hypothesis
-**Status:** Integration guide SAVED to `.claude/content-staging/INTEGRATION_GUIDE_cns-energy-triage.md`
+**Status:** Integration guide SAVED to `content-staging/INTEGRATION_GUIDE_cns-energy-triage.md`
 **Target:** `ch08-neurological.tex`, after line 1418, before line 1421 (Summary section)
 **Action:** Use chapter-integrator to apply the saved guide
 **Citations:** Jamadar2025metabolic, Sebaiti2022cognitive, Mashour2024anesthesia, Graveling2013hypoglycemia, Wiehler2022glutamate, Bansal2025cognitive
@@ -180,7 +180,7 @@ ls ~/.claude/projects/-home-nicky-code-health-me-cfs/2fa27b1e-8a53-4f79-a006-21c
 ```
 
 ### Step 2: Apply CNS Energy Triage (Already Saved)
-Read `.claude/content-staging/INTEGRATION_GUIDE_cns-energy-triage.md` and insert into ch08.
+Read `content-staging/INTEGRATION_GUIDE_cns-energy-triage.md` and insert into ch08.
 
 ### Step 3: Batch Integration by Target File
 Group hypotheses by target file to minimize file reads:
@@ -234,11 +234,11 @@ Commit all changes.
 - `~/.claude/projects/-home-nicky-code-health-me-cfs/2fa27b1e-8a53-4f79-a006-21cd5a73a392/subagents/`
 
 **Saved integration guide:**
-- `.claude/content-staging/INTEGRATION_GUIDE_cns-energy-triage.md`
+- `content-staging/INTEGRATION_GUIDE_cns-energy-triage.md`
 
 **Source documents:**
-- `.claude/content-staging/selective-dysfunction-brainstorming.md`
-- `.claude/content-staging/related-hypotheses-2026-02-05.md`
+- `content-staging/selective-dysfunction-brainstorming.md`
+- `content-staging/related-hypotheses-2026-02-05.md`
 - `.claude/CONTINUATION_PROMPT_SESSION_3_2026-02-06.md` (full specs)
 
 ---
