@@ -1,6 +1,6 @@
 # Post-Viral Pituitary Injury and Secondary Adrenal Insufficiency
 
-**Status:** Planned
+**Status:** COMPLETE — implemented 2026-03-13
 **Motivated by:** LinkedIn post by Manuel Ruiz Pablos (2026-03-09) highlighting gap in our HPA coverage
 **Gap identified:** ch09 covers functional HPA dysregulation (receptor sensitivity, cytokine effects, enzyme impairment) but omits structural pituitary damage from viral infection
 
