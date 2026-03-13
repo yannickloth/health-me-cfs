@@ -1,17 +1,23 @@
 date: 2026-03-13
 
 symptoms:
-  fatigue_level: "mild-moderate (mild crash)"
+  fatigue_level: "mild-moderate (mild crash), worsening end of afternoon"
   fatigue_notes: >
     Patient describes feeling tired today, characterised as a "mild" crash or crash-like
     state. Attributed by patient to sleep deprivation from the night of 2026-03-11→12
     (slept at 2h00–2h30, woke at 6h15 — approximately 3h45–4h15 of sleep). The effects
     of that sleep-deprived night are felt today (2 days later), consistent with
     delayed PEM-like response to insufficient rest.
-  headache: "mild/borderline"
+    End of afternoon: tiredness over the whole body — diffuse, full-body fatigue.
+    Patient also considers possible compounded effect from 3 consecutive days of
+    Provigil (modafinil, 1 pill/day) on Mar 10–12: cumulative stimulant load may
+    be contributing to today's fatigue as the effect winds down.
+  headache: "present (end of afternoon)"
   headache_notes: >
-    Almost/mild headache — patient describes it as borderline, not clearly present
-    but noticeable. Possibly related to the sleep debt and mild crash state.
+    Previously borderline/mild in the earlier part of the day. By end of afternoon,
+    headache is present alongside the whole-body tiredness. Possibly related to the
+    sleep debt, mild crash state, and/or Provigil rebound effect after 3 consecutive
+    days of use.
   pem_active: "mild/suspected"
   pem_notes: >
     Patient describes state as a "mild crash" — likely post-exertional or
@@ -56,9 +62,12 @@ notes: >
   to remain courteous, friendly, and reasoning — but rest is strongly preferred.
   Physical activity threshold very low: no energy to cook; patient feels such effort
   could worsen the state. Felt cold all morning (temperature dysregulation).
-  Borderline headache. Cognitive function present but effortful.
-  Identified precipitating factor: severe sleep deprivation the night of 2026-03-11→12
-  (slept ~2h00–2h30, woke 6h15, ~4h total). Effects felt today (2026-03-13),
-  approximately 1–2 days after the sleep-deprived night, consistent with delayed
-  post-exertional or post-stress malaise pattern.
+  Borderline headache earlier in the day.
+  End of afternoon: tiredness over the whole body and headache present.
+  Identified precipitating factors: (1) severe sleep deprivation the night of
+  2026-03-11→12 (slept ~2h00–2h30, woke 6h15, ~4h total), effects felt with
+  ~1–2 day delay consistent with delayed post-stress malaise; (2) possible
+  compounded/rebound effect from 3 consecutive days of Provigil (modafinil, 1
+  pill/day on Mar 10, 11, 12) — cumulative stimulant load or withdrawal
+  contributing to end-of-afternoon fatigue and headache.
   All medications taken today (see 2026-03-13.yaml in medications/).

@@ -31,6 +31,13 @@ intake:
     time: null
     notes: null
 
+  - name: "Provigil (modafinil)"
+    category: "medication"
+    dose: "1 pill"
+    taken: true
+    time: null
+    notes: null
+
   # Supplements
   - name: "Riboflavin (Vitamin B2)"
     category: "supplement"
