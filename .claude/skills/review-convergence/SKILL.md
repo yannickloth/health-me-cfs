@@ -40,8 +40,10 @@ For each round (R1, R2, ...):
 
 4. **DECIDE**:
    - If findings > 0 AND round < 12: proceed to next round
-   - If findings = 0 AND previous round also had 0 findings: declare convergence and stop
-   - If findings = 0 but previous round had > 0 findings: proceed to confirmation round
+   - If findings = 0: track a consecutive-clean counter (starts at 0, increments each round with 0 findings, resets to 0 on any round with findings > 0)
+     - If consecutive-clean counter < 2: proceed to next round (confirmation pass)
+     - If consecutive-clean counter ≥ 2: declare convergence and stop
+   - **Convergence requires 2 consecutive rounds of 0 findings.** Any correction — however small — resets the counter and restarts the clean-pass requirement.
    - If round = 12 AND findings > 0: stop, report remaining findings for human review
 
 ## Checkpoint
