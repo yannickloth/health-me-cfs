@@ -1,0 +1,64 @@
+date: 2026-03-13
+
+symptoms:
+  fatigue_level: "mild-moderate (mild crash)"
+  fatigue_notes: >
+    Patient describes feeling tired today, characterised as a "mild" crash or crash-like
+    state. Attributed by patient to sleep deprivation from the night of 2026-03-11→12
+    (slept at 2h00–2h30, woke at 6h15 — approximately 3h45–4h15 of sleep). The effects
+    of that sleep-deprived night are felt today (2 days later), consistent with
+    delayed PEM-like response to insufficient rest.
+  headache: "mild/borderline"
+  headache_notes: >
+    Almost/mild headache — patient describes it as borderline, not clearly present
+    but noticeable. Possibly related to the sleep debt and mild crash state.
+  pem_active: "mild/suspected"
+  pem_notes: >
+    Patient describes state as a "mild crash" — likely post-exertional or
+    post-sleep-deprivation malaise. Sleep debt from night 2026-03-11→12
+    (≈4h sleep) is the identified precipitating factor.
+  general_weakness: "present"
+  general_weakness_notes: >
+    Patient feels generally weak. Preference to lie down rather than socialize.
+    If required to interact socially, could mobilise enough energy to remain
+    courteous, friendly, and capable of reasoning and discussion — but this
+    would require effort; rest is strongly preferred.
+  social_tolerance: "reduced but functional if necessary"
+  activity_tolerance: "very limited"
+  activity_tolerance_notes: >
+    Patient does not have the energy to cook — feels that physical activity such as
+    cooking could worsen the current state. Threshold for activity-triggered worsening
+    is low today.
+  temperature_dysregulation: "feeling cold"
+  temperature_dysregulation_notes: >
+    Felt cold throughout the morning. No fever reported; this appears to be
+    a sensation of cold rather than environmental cold exposure.
+  pain_diffuse_muscles: null
+  orthostatic_intolerance: null
+  cognitive_status: "functional (effortful)"
+  cognitive_notes: >
+    Able to reason and discuss if needed, but this requires active effort.
+    General state favours rest over engagement.
+
+sleep:
+  night: "2026-03-11 to 2026-03-12"
+  sleep_time: "02:00–02:30"
+  wake_time: "06:15"
+  duration_hours_approx: 3.75
+  notes: >
+    Slept at 2h00–2h30 the night of 2026-03-11→12 (avant-hier à hier), woke at 6h15.
+    Approximately 3h45–4h15 of sleep — significant sleep deprivation. Patient attributes
+    today's fatigue and mild crash state to residual effects of this night.
+
+notes: >
+  Mild crash / crash-like state today. General weakness; patient prefers lying down
+  over socializing. Could manage social interaction if required — sufficient energy
+  to remain courteous, friendly, and reasoning — but rest is strongly preferred.
+  Physical activity threshold very low: no energy to cook; patient feels such effort
+  could worsen the state. Felt cold all morning (temperature dysregulation).
+  Borderline headache. Cognitive function present but effortful.
+  Identified precipitating factor: severe sleep deprivation the night of 2026-03-11→12
+  (slept ~2h00–2h30, woke 6h15, ~4h total). Effects felt today (2026-03-13),
+  approximately 1–2 days after the sleep-deprived night, consistent with delayed
+  post-exertional or post-stress malaise pattern.
+  All medications taken today (see 2026-03-13.yaml in medications/).

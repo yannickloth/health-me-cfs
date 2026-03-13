@@ -1,0 +1,103 @@
+date: 2026-03-11
+
+intake:
+  # Medications
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "4.5 mg"
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    taken: true
+    count_taken: 3
+    typical_daily_count: 3
+    notes: "All 3 doses taken (full daily adherence)."
+
+  - name: "Famotidine"
+    category: "medication"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  # Supplements
+  - name: "Riboflavin (Vitamin B2)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Magnesium glycinate"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "B-FORTE (B-vitamin complex)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Urolithin A + NAD+ precursor"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "D-ribose"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "MCT oil"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Q1 (CoQ1 / ubiquinol)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Iron"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: "Taken as needed / intermittent."
+
+  - name: "Vitamin C"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: "Co-administered with iron."
+
+  - name: "Bactecal gelules (probiotic)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: "Day 9 of Bactecal probiotic supplement. Ongoing from 2026-03-03."

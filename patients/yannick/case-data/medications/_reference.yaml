@@ -1,5 +1,5 @@
 # Current medication and supplement regimen
-# Last updated: 2026-03-03
+# Last updated: 2026-03-13
 
 regimen:
   - name: "Riboflavin (Vitamin B2)"
@@ -17,12 +17,12 @@ regimen:
         to: "2026-02-25"
       - dose: "4 mg"
         from: "2026-02-26"
-        to: null        # update when dose increases
+        to: "2026-03-05"      # last confirmed date at 4 mg
       - dose: "4.5 mg"
-        from: null      # final maintenance dose
+        from: "2026-03-06"    # approx — dose increased after 2026-03-05 during logging gap; exact date unknown
         to: null
         maintenance: true
-    current_dose: "4 mg"
+    current_dose: "4.5 mg"
 
   - name: "Montelukast"
     category: "medication"
