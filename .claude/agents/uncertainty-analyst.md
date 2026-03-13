@@ -63,7 +63,7 @@ Branching probabilities must sum to 1.0 across all branches from a gateway. Flag
 ### Step 1: Extract Certainty Values
 
 ```bash
-grep -rn "certainty:" .claude/content-staging/ contents/part5-modeling/
+grep -rn "certainty:" content-staging/ contents/part5-modeling/
 grep -rn "certainty" figures/*.tex
 ```
 

@@ -132,7 +132,7 @@ Main Session (Orchestrator)
   - Search PubMed/Google Scholar
   - Retrieve 5-15 papers
   - Summarize findings
-  - Output to `.claude/content-staging/`
+  - Output to `content-staging/`
 - [ ] Stream 2: [Topic] - [Agent] - [Model] - Est: 1-2h
   ...
 - [ ] Aggregate all literature summaries
@@ -167,11 +167,11 @@ Main Session (Orchestrator)
 ...
 
 ## Files Created (Tracking)
-- [ ] `.claude/content-staging/[topic]-stream-1-[date].md` (Phase 1)
-- [ ] `.claude/content-staging/[topic]-stream-2-[date].md` (Phase 1)
-- [ ] `.claude/content-staging/QA_AUDIT_v1.md` (Phase 6)
-- [ ] `.claude/content-staging/QA_FIXES_v1.md` (Phase 6)
-- [ ] `.claude/content-staging/TASK_COMPLETION_[date].md` (Phase 8)
+- [ ] `content-staging/[topic]-stream-1-[date].md` (Phase 1)
+- [ ] `content-staging/[topic]-stream-2-[date].md` (Phase 1)
+- [ ] `content-staging/QA_AUDIT_v1.md` (Phase 6)
+- [ ] `content-staging/QA_FIXES_v1.md` (Phase 6)
+- [ ] `content-staging/TASK_COMPLETION_[date].md` (Phase 8)
 ...
 
 ## Decision Log
@@ -212,7 +212,7 @@ Main Session (Orchestrator)
 - Retrieves 5-15 papers (user specifies target range)
 - Summarizes key findings with citations
 - Extracts mechanistic insights, biomarkers, treatment implications
-- Outputs literature summary to `.claude/content-staging/`
+- Outputs literature summary to `content-staging/`
 
 **Model selection:**
 - Sonnet for mechanistic streams (good synthesis, moderate cost)
@@ -236,7 +236,7 @@ After EACH stream completes:
 **✅ COMPLETION MARKER:**
 - [ ] All N streams executed
 - [ ] 15-50+ papers retrieved total (distributed across streams)
-- [ ] All literature summaries in `.claude/content-staging/`
+- [ ] All literature summaries in `content-staging/`
 - [ ] Key findings extracted with certainty assessments
 - [ ] Plan file updated with completed tasks and findings
 
@@ -418,7 +418,7 @@ Invoke `scientific-rigor-auditor` (Sonnet) to audit all new content:
 - 🟡 **Minor:** Polish improvements (grammar, rewording, clarification)
 - 💡 **Suggestion:** Optional enhancements (additional example, alternative framing)
 
-**Output location:** `.claude/content-staging/QA_AUDIT_v[N].md`
+**Output location:** `content-staging/QA_AUDIT_v[N].md`
 
 ### Fix Implementation Phase
 Main session action:
@@ -431,7 +431,7 @@ Main session action:
    - Explain options
    - Wait for user guidance before implementing
 
-**Output:** `.claude/content-staging/QA_FIXES_v[N].md` (what was fixed, decisions made)
+**Output:** `content-staging/QA_FIXES_v[N].md` (what was fixed, decisions made)
 
 ### Re-Audit Phase (Convergence-Driven)
 After fixes applied, re-audit ONLY the changed sections:
@@ -565,7 +565,7 @@ Run comprehensive final check:
 - [ ] Limitations comprehensive
 
 **Documentation:**
-- [ ] All staging files organized in `.claude/content-staging/`
+- [ ] All staging files organized in `content-staging/`
 - [ ] Integration guide created (which sections → which chapters?)
 - [ ] QA audit reports preserved (showing convergence)
 - [ ] Brainstorming outputs documented
@@ -573,7 +573,7 @@ Run comprehensive final check:
 
 ### Task Completion Report
 
-Create final report: `.claude/content-staging/TASK_COMPLETION_[date].md`
+Create final report: `content-staging/TASK_COMPLETION_[date].md`
 
 ```markdown
 # Task Completion Report
@@ -653,7 +653,7 @@ Create final report: `.claude/content-staging/TASK_COMPLETION_[date].md`
 
 ### 1. Identify All Temporary Files
 
-Review `.claude/content-staging/` and other temporary locations for files created during workflow:
+Review `content-staging/` and other temporary locations for files created during workflow:
 
 **Typical temporary files to delete:**
 - Intermediate literature summaries (if fully integrated)
@@ -676,7 +676,7 @@ Review `.claude/content-staging/` and other temporary locations for files create
 
 ### 2. Create Cleanup Manifest
 
-Before deleting anything, create manifest: `.claude/content-staging/CLEANUP_MANIFEST_[date].md`
+Before deleting anything, create manifest: `content-staging/CLEANUP_MANIFEST_[date].md`
 
 ```markdown
 # Cleanup Manifest: [Topic] Research Expansion
@@ -745,7 +745,7 @@ Before deleting anything, create manifest: `.claude/content-staging/CLEANUP_MANI
 **Actions:**
 1. Delete all identified temporary files
 2. Run `nix run .#clean` to remove build artifacts
-3. Verify no orphaned files in `.claude/content-staging/`
+3. Verify no orphaned files in `content-staging/`
 4. Move any archive-worthy files to permanent location
 5. Update plan file: Add "Phase 9: COMPLETE" with cleanup summary
 
@@ -776,7 +776,7 @@ Update plan file with cleanup summary:
 **Cleanup summary:**
 - Deleted: [N files, X MB]
 - Kept: [N files with reasons documented]
-- Cleanup manifest: `.claude/content-staging/CLEANUP_MANIFEST_[date].md`
+- Cleanup manifest: `content-staging/CLEANUP_MANIFEST_[date].md`
 
 ---
 **WORKFLOW STATUS: ✅ COMPLETE AND CLEANED**

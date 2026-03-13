@@ -46,7 +46,7 @@ Ensure mathematical and scientific consistency across the three formalization le
 ```bash
 # Find DAG, EPC, ODE files for the target process
 glob "**/*[process-keyword]*"
-grep -rn "certainty:" .claude/content-staging/ contents/part5-modeling/
+grep -rn "certainty:" content-staging/ contents/part5-modeling/
 ```
 
 ### Step 2: Extract Certainty Values
