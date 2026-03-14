@@ -1,0 +1,39 @@
+date: 2026-03-14
+
+symptoms:
+  fatigue_level: "severe"
+  fatigue_notes: >
+    Patient describes being very tired ("très fatigué"). Slept through the entire
+    morning; reports that he could sleep again in the afternoon — indicating
+    persistent, non-restorative or rebound sleepiness throughout the day rather
+    than a single discrete sleep episode. Fatigue is the dominant symptom today.
+  headache: null
+  headache_notes: >
+    Patient explicitly notes no real headache or migraine today ("pas vraiment de
+    mal de tête ou migraine"). Notable absence given that headache has been present
+    on recent crash days (e.g., 2026-03-13 end of afternoon).
+  orthostatic_intolerance: "present — both sitting and standing fatiguing"
+  orthostatic_intolerance_notes: >
+    Patient reports that sitting is tiring and standing is also tiring. Both
+    upright postures are not tolerated well today. This is consistent with
+    orthostatic intolerance: inability to sustain upright posture without
+    disproportionate fatigue.
+  pem_active: null
+  pain_diffuse_muscles: null
+  cognitive_status: null
+
+sleep:
+  notes: >
+    Patient slept through the morning. Could sleep again in the afternoon.
+    Duration and sleep quality not specified beyond this; both morning sleep
+    and ongoing afternoon sleepiness reported.
+
+notes: >
+  Severe fatigue is the predominant symptom today. Patient slept all morning and
+  feels he could sleep again in the afternoon — persistent somnolence throughout
+  the day. No headache or migraine (explicit patient report). Both sitting and
+  standing are described as tiring, consistent with orthostatic intolerance
+  presenting as postural fatigue. No stimulants taken.
+  Morning medications taken (see 2026-03-14.yaml in medications/):
+  Rupatadine (Rupatall), PEA, L-Carnitine (LCar), Montelukast, LDN 4.5 mg.
+  No information on other activities, triggers, or additional symptoms for this date.

@@ -1,0 +1,46 @@
+date: 2026-03-14
+
+intake:
+  # Morning medications (explicitly reported by patient)
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "PEA (palmitoylethanolamide)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "L-Carnitine (LCar)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "4.5 mg"
+    taken: true
+    time: "morning"
+    notes: null
+
+stimulants:
+  taken: false
+  notes: "No stimulants taken."
+
+notes: |
+  Only morning medications explicitly reported by patient. No information on
+  afternoon/evening doses or other supplements for this date.
