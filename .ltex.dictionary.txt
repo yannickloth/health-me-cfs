@@ -452,3 +452,4 @@ RBCs
 limitationbg
 limitationcounter
 limitationframe
+nAChR
