@@ -1,0 +1,21 @@
+date: 2026-03-15
+
+vitals:
+  weight_kg: 74
+  weight_notes: >
+    Patient self-reports weight of approximately 74 kg today (2026-03-15).
+    Height is 173 cm; BMI approximately 24.7.
+
+symptoms:
+  fatigue_level: null
+  orthostatic_intolerance: null
+  pem_active: null
+  pain_diffuse_muscles: null
+  cognitive_status: null
+
+sleep:
+  notes: null
+
+notes: >
+  Weight measurement recorded: approximately 74 kg (self-report, 2026-03-15).
+  No other symptom data provided for this date.
