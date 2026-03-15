@@ -59,6 +59,7 @@ CMV
 COMT
 CoQ
 CpG
+CPET-guided
 CRASH-PHASE
 cytochrome
 cytokine
@@ -132,6 +133,7 @@ glycolytic
 granzyme
 guanosine
 Guanosine
+glycaemic
 GWAS
 haplogroup
 hbox
@@ -236,6 +238,7 @@ norepinephrine
 NRTIs
 NR
 OI
+OQ
 Ollama
 Osmolyte
 ORS
@@ -412,6 +415,7 @@ rofecoxib
 Santaella
 Scholte
 semaglutide
+stabilise
 seropositive
 solubilizer
 subtyping
