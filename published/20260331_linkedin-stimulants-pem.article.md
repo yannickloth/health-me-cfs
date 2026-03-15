@@ -34,7 +34,7 @@ ADHD stimulants improved brain fog perception in 77.1% of users. They improved f
 
 They had a net *negative* effect on post-exertional malaise: −1.5%.
 
-Read that again. Across nearly four thousand patients, stimulants made the subjective experience of fatigue better while making the objective post-exertional consequence marginally worse. The warning light was turned off. The patients drove further. The crash was worse.
+Read that again. Across nearly four thousand patients, stimulants made the subjective experience of fatigue better while making the post-exertional consequence marginally worse. The warning light was turned off. The patients drove further. The crash was worse.
 
 ---
 
@@ -122,7 +122,7 @@ If the cost is a proportionate crash that the patient has budgeted for and can r
 
 If the cost is a progressive decline in baseline function — a slow, stimulant-enabled descent from moderate to severe to very severe ME/CFS — then the trade-off is catastrophic. And no one can tell in advance which outcome will occur, because the research has never been done.
 
-The largest survey of ME/CFS patients found that pacing — staying within the energy envelope — had the highest positive score of any treatment: 75.2%. Higher than any medication. Higher than any stimulant.
+The largest survey of ME/CFS patients found that pacing — staying within the energy envelope — had the highest net positive score of any treatment: 75.2%. Higher than any medication. Higher than any stimulant.
 
 The warning light exists for a reason. Turning it off does not fill the tank.
 
