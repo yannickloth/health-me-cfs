@@ -43,8 +43,25 @@ System prompt / instructions for the agent...
 | `tikz-validator` | TikZ diagrams have compilation errors, spacing issues |
 | `test-runner` | Running nix build, verifying compilation succeeds |
 | `link-checker` | Validating \ref, \cite, \label references before build |
+| `xref-checker` | Cross-references (\ref, \cref, \autoref, \eqref, \nameref) resolve correctly |
 | `terminology-harmonizer` | Checking/normalizing medical term consistency across .tex files |
 | `document-health-monitor` | Document metrics, finding stubs/placeholders, chapter balance |
+| `figure-caption-auditor` | Figure/table captions quality, standalone-readable, referenced in text |
+| `notation-consistency-checker` | Mathematical symbol consistency across chapters |
+| `production-readiness-checker` | TODO markers, placeholders, draft artifacts before submission |
+| `definition-use-checker` | Terms defined before first use, forward-reference detection |
+
+### Haiku — Typst (mechanical)
+
+| Agent | Use when... |
+| --- | --- |
+| `typst-syntax-fixer` | Typst build fails, compilation errors in .typ files |
+| `typst-formatting-fixer` | Markdown/LaTeX remnants in .typ, inconsistent formatting |
+| `typst-xref-checker` | Typst @label cross-references resolve correctly |
+| `typst-citation-checker` | Typst citation validity, undefined citations |
+| `typst-figure-caption-auditor` | Figure/table captions in .typ files |
+| `typst-notation-consistency-checker` | Symbol consistency in .typ files |
+| `typst-production-readiness-checker` | TODO markers, LaTeX remnants, draft artifacts in .typ |
 
 ### SCM/Git (Sonnet)
 
@@ -63,6 +80,13 @@ System prompt / instructions for the agent...
 | `config-optimizer` | Optimizing agent definitions for context efficiency, creating new agents with best practices |
 | `content-reviewer` | Checking document consistency, completeness, coherence |
 | `style-naturalizer` | Text sounds robotic, AI-like, excessive lists, unnatural |
+| `style-auditor` | Writing style consistency, AI markers, vocabulary precision |
+| `definition-auditor` | Formal definition rigor, circularity, undefined terms, rootedness |
+| `redundancy-auditor` | Duplicate arguments/conclusions at multiple locations |
+| `scope-qualifier-checker` | Claims state applicability scope (ME/CFS vs CFS, pediatric vs adult, severity tier) |
+| `trade-off-auditor` | Treatment recommendations state trade-offs, not silver bullets |
+| `misconception-auditor` | Common misconceptions anticipated and inoculated (e.g. psychosomatic framing, GET safety) |
+| `index-auditor` | Index coverage: key terms, definitions, named concepts all indexed |
 | `literature-integrator` | Full pipeline: finding, downloading, organizing papers, updating .bib |
 | `chapter-integrator` | Integrating literature into text with proper citations |
 | `scientific-insight-generator` | Generating insights from research, synthesizing evidence |
@@ -109,6 +133,13 @@ System prompt / instructions for the agent...
 | `scientific-rigor-auditor` | Checking scientific claims, evidence quality |
 | `model-auditor` | Cross-validating DAG ↔ EPC ↔ ODE consistency (formalization Stage 4) |
 | `uncertainty-analyst` | Propagating certainty through model hierarchy, flagging overconfident claims |
+| `typst-proof-validator` | Formal proof soundness in .typ files |
+
+### Sonnet — Typst (reasoning)
+
+| Agent | Use when... |
+| --- | --- |
+| `typst-diagram-checker` | Diagram layout issues in .typ (overlaps, margins, contrast, print safety) |
 
 ### Medical Agents (Sonnet)
 
