@@ -6,15 +6,13 @@ The stimulants work, in a sense. The brain fog lifts. The fatigue recedes. For a
 
 And then, twelve to forty-eight hours later, you crash. Sometimes for days. Sometimes worse than you were before you took the pill.
 
-This is not a side effect. This is the mechanism.
+This is not a side effect — it is the mechanism.
 
 ---
 
-## What stimulants do — and what they don't
+## The energy signal, disabled
 
-No stimulant creates energy. Not one. Not modafinil, not methylphenidate, not amphetamines, not caffeine.
-
-What they do is suppress the signal that tells you your energy is running out.
+No stimulant creates energy — not modafinil, not methylphenidate, not amphetamines, not caffeine. What they do is suppress the signal that tells you your energy is running out.
 
 ME/CFS involves a genuine deficit in cellular energy production — impaired mitochondrial function, reduced ATP synthesis, abnormal metabolomics. The fatigue that patients experience is not a perception error. It is a physiologically accurate signal: the body's fuel gauge reading low because the fuel is actually low.
 
@@ -26,7 +24,7 @@ The NICE 2021 guideline committee put it plainly: "CNS stimulants could cause pe
 
 ---
 
-## The data confirms it
+## What 3,925 patients reported
 
 The largest patient-reported outcome study on ME/CFS treatments, published in PNAS in 2025 with 3,925 participants, produced a finding that should give every prescriber pause.
 
@@ -34,19 +32,19 @@ ADHD stimulants improved brain fog perception in 77.1% of users. They improved f
 
 They had a net *negative* effect on post-exertional malaise: −1.5%.
 
-Read that again. Across nearly four thousand patients, stimulants made the subjective experience of fatigue better while making the post-exertional consequence marginally worse. The warning light was turned off. The patients drove further. The crash was worse.
+Across nearly four thousand patients, stimulants made the subjective experience of fatigue better while making the post-exertional consequence marginally worse — the warning light turned off, patients drove further, the crash was worse.
 
 ---
 
-## You don't repay 1:1. You repay with interest.
+## The debt repays with interest
 
 One of the most important findings in ME/CFS research comes from two-day cardiopulmonary exercise testing. In these studies, patients perform a maximal exercise test, then repeat the same test the next day.
 
 In healthy controls, performance is essentially identical on both days. In ME/CFS patients, the second day is dramatically worse. The mean workload gap between patients and controls *triples* from Day 1 to Day 2. Lactate per unit of work output rises. Lactate clearance slows. The metabolic system itself has been degraded by the first day's exertion.
 
-This is not simple tiredness. This is measurable metabolic damage. And the payback is disproportionate: you don't just feel as tired as the energy you spent. You feel worse. The system itself works less well. The "interest rate" on the energy debt is punishing.
+This is not simple tiredness; it is measurable metabolic damage. And the payback is disproportionate: you don't just feel as tired as the energy you spent — you feel worse, because the system itself works less well after the first day's exertion. The "interest rate" on the energy debt is punishing.
 
-When a stimulant masks the fatigue signal and enables a patient to work through a full day, the overexertion is not a small overdraft. It can be a large one — because the signal that would have said "stop" at 11 a.m. was silenced by the drug. The patient continued until 5 p.m. And the metabolic damage of those additional six hours is not additive. It compounds.
+When a stimulant masks the fatigue signal and enables a patient to work through a full day, the overexertion is not a small overdraft. It can be a large one — because the signal that would have said "stop" at 11 a.m. was silenced by the drug. The patient continued until 5 p.m. And the metabolic damage of those additional six hours is not additive; it compounds.
 
 ---
 
@@ -80,7 +78,7 @@ The pharmacology matters. Different stimulants impose different risks, and some 
 
 **Solriamfetol** (Sunosi) is a newer agent — a pure dopamine/norepinephrine reuptake inhibitor with no releasing activity. The only positive RCT in ME/CFS belongs to this drug: a 2025 trial (n=38) showed significant improvement in fatigue severity and executive function. But the trial did not measure PEM — the cardinal symptom. Until it does, the same warning applies.
 
-**Pitolisant** (Wakix) operates through a fundamentally different mechanism: it enhances the brain's own histamine arousal system rather than flooding catecholamine circuits. It does not increase dopamine in the reward centers. It does not produce hyperactivity. It may have anti-neuroinflammatory effects. It has no abuse potential. No ME/CFS trial exists, but its pharmacological profile is the least concerning of any wake-promoting agent.
+**Pitolisant** (Wakix) operates through a fundamentally different mechanism: it enhances the brain's own histamine arousal system rather than flooding catecholamine circuits. Unlike the catecholamine agents, it does not increase dopamine in reward centers or produce hyperactivity, it may have anti-neuroinflammatory effects, and it carries no abuse potential. No ME/CFS trial exists, but its pharmacological profile is the least concerning of any wake-promoting agent.
 
 **Caffeine** is the mildest agent on this spectrum and the one most patients self-regulate. One genuinely positive pharmacological finding: caffeine stabilizes mast cells through Siglec-6 agonism — relevant for the substantial subset of ME/CFS patients with mast cell activation.
 
@@ -88,15 +86,15 @@ The pharmacology matters. Different stimulants impose different risks, and some 
 
 ## The social trap
 
-This analysis would be simple if the conclusion were "don't take stimulants." But the reality is that many ME/CFS patients cannot stop functioning. Employment is tied to health insurance. Childcare cannot be delegated. Bills must be paid. Disability systems are slow, adversarial, and often inaccessible.
+This analysis would be simple if the conclusion were "don't take stimulants." But the reality is that many ME/CFS patients cannot stop functioning — employment is tied to health insurance, childcare cannot be delegated, bills must be paid, and disability systems are slow, adversarial, and often inaccessible.
 
 The stimulant becomes a tool of survival — not in the medical sense, but in the economic and social sense. The patient knows the crash is coming. They take the pill anyway, because the alternative — losing the job, losing the insurance, losing the house — is worse than the crash.
 
-This is not a pharmacological problem. It is a structural one. The drug is being used to bridge a gap that should be bridged by workplace accommodations, disability support, and a healthcare system that recognizes ME/CFS severity without requiring patients to prove it by working until they collapse.
+This is a structural problem, not a pharmacological one. The drug is being used to bridge a gap that should be bridged by workplace accommodations, disability support, and a healthcare system that recognizes ME/CFS severity without requiring patients to prove it by working until they collapse.
 
 ---
 
-## If you must: harm reduction
+## If you must use them
 
 For patients who must use stimulants, harm reduction strategies can reduce — though not eliminate — the risk:
 
@@ -112,11 +110,9 @@ For patients who must use stimulants, harm reduction strategies can reduce — t
 
 ---
 
-## The question that should be asked
+## The cost question
 
-The question is not "do stimulants help ME/CFS patients feel better?" They do — 77% report improved brain fog.
-
-The question is: "at what cost?"
+The relevant question is not whether stimulants help ME/CFS patients feel better — 77% report improved brain fog, so they do. The question is: at what cost?
 
 If the cost is a proportionate crash that the patient has budgeted for and can recover from — and if the alternative is losing the ability to function in a society that does not accommodate their illness — then the trade-off may be rational, even if it is not medically ideal.
 

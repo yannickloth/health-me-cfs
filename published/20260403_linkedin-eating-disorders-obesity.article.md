@@ -8,15 +8,11 @@ The story is sometimes wrong. And when it is wrong, the consequences are serious
 
 ## Why ME/CFS patients stop eating
 
-Eating difficulties affect roughly 10% of adolescents with ME/CFS, and over half experience significant nausea or abdominal pain. This is not psychological food avoidance. These are organic mechanisms:
+Eating difficulties affect roughly 10% of adolescents with ME/CFS, and over half experience significant nausea or abdominal pain. The avoidance is not psychological — the mechanisms are organic, and they compound each other.
 
-**Eating triggers post-exertional malaise.** Large meals, heavy foods, even the effort of sitting upright long enough to finish a plate can push a patient past their energy threshold and trigger a delayed crash. Food becomes associated with worsening — not irrationally, but accurately.
+Large meals, heavy foods, even the effort of sitting upright long enough to finish a plate can push a patient past their energy threshold and trigger a delayed crash. Food becomes associated with worsening, not irrationally but accurately. Studies using ultrasound drink tests have documented visceral hypersensitivity and impaired gastric accommodation in ME/CFS patients: the stomach does not expand normally to receive food, and the nerves in the gut wall are hypersensitive. Upper abdominal pain and nausea worsen measurably in the minutes after eating, by the same mechanism as functional dyspepsia.
 
-**The gut is genuinely dysfunctional.** Studies using ultrasound drink tests have documented visceral hypersensitivity and impaired gastric accommodation in ME/CFS patients — the stomach does not expand normally to receive food, and the nerves in the gut wall are hypersensitive. Upper abdominal pain and nausea worsen measurably in the minutes after eating. This is the same mechanism as functional dyspepsia.
-
-**Cytokines suppress appetite at the hypothalamus.** Pro-inflammatory signaling molecules — GDF-15, IL-6, TNF-α — act on appetite centers in the brain and reduce hunger independently of any psychological state. This is sickness behavior: the same evolved mechanism that makes you not want to eat when you have the flu, except in ME/CFS it does not switch off. The anorexia is immunological, not psychiatric.
-
-**Eating requires energy the patient does not have.** In very severe ME/CFS, chewing, swallowing, and sitting upright are not trivial acts. They are energy expenditures. For a patient whose available energy for an entire day is equivalent to what a healthy person uses in a single hour, a meal is not a small thing.
+Meanwhile, pro-inflammatory signaling molecules — GDF-15, IL-6, TNF-α — act on appetite centers in the brain and reduce hunger independently of any psychological state. This is sickness behavior: the same evolved mechanism that makes you not want to eat when you have the flu, except in ME/CFS it does not switch off. The anorexia is immunological, not psychiatric. And in very severe cases, chewing, swallowing, and sitting upright are not trivial acts — they are energy expenditures. For a patient whose available energy for an entire day is equivalent to what a healthy person uses in a single hour, a meal is not a small thing.
 
 ---
 
@@ -50,11 +46,9 @@ The result: a patient who may look "normal weight" on a scale but whose body com
 
 ---
 
-## Why standard advice is wrong — and potentially harmful
+## Why standard advice fails here
 
-"Lose weight through diet and exercise."
-
-For most conditions associated with obesity, this is reasonable guidance. For ME/CFS, it is contraindicated.
+"Lose weight through diet and exercise." For most conditions associated with obesity, this is reasonable guidance. For ME/CFS, it is contraindicated.
 
 Exercise-based weight management triggers post-exertional malaise. NICE withdrew its recommendation for graded exercise therapy in ME/CFS in 2021 based on evidence of harm from patient surveys and trial re-analyses — and the same mechanism applies regardless of whether the goal is rehabilitation or weight management. Prescribing progressive exercise to reduce body fat in ME/CFS follows the same path that causes crashes and worsening; the destination does not change the consequences.
 
@@ -64,21 +58,19 @@ The medical framing of "just lose weight" also ignores why the weight is there. 
 
 ---
 
-## The hormonal dimension
+## Appetite regulation gone wrong
 
-Appetite regulation is not simply a matter of willpower or habit. It is mediated by hormones and immune signals, and ME/CFS disrupts several of them.
+Appetite regulation is not simply a matter of willpower or habit; it is mediated by hormones and immune signals, and ME/CFS disrupts several of them.
 
-**Elevated leptin with impaired signaling** is documented in ME/CFS. Leptin is the hormone that tells the brain "you have enough fat stores, stop eating." Studies have found elevated circulating leptin in the insulin-resistant ME/CFS subtype — paradoxically high, given that high leptin should suppress appetite and fat storage. The pattern is consistent with leptin resistance (the brain no longer responding adequately to the signal), which occurs in chronic inflammation. The result: fat continues to accumulate despite the signal that should prevent it.
+Leptin is the hormone that tells the brain "you have enough fat stores, stop eating." Studies have found elevated circulating leptin in the insulin-resistant ME/CFS subtype — paradoxically high, given that high leptin should suppress appetite and fat storage. The pattern is consistent with leptin resistance, where the brain no longer responds adequately to the signal, a known consequence of chronic inflammation. Fat continues to accumulate despite the signal that should prevent it.
 
-**AMPK signaling** is another layer of disruption. AMPK is the cell's primary energy sensor, activated when cellular ATP falls — which in ME/CFS, it chronically does. AMPK normally drives hunger (seek more fuel) and promotes fat oxidation (burn stored fuel). But when the downstream fat oxidation machinery is itself broken, the signal is generated without the intended response: the patient is hungry, or ought to be hungry, but eating does not resolve the cellular energy crisis because the problem is not lack of food — it is the inability to convert food into energy.
+AMPK adds another layer of disruption. It is the cell's primary energy sensor, activated when cellular ATP falls, which in ME/CFS it chronically does. AMPK normally drives hunger and promotes fat oxidation. But when the downstream fat oxidation machinery is itself broken, the signal is generated without the intended response: the patient is hungry, or ought to be hungry, but eating does not resolve the cellular energy crisis because the problem is not lack of food — it is the inability to convert food into energy.
 
 ---
 
 ## What actually helps
 
-The evidence base for nutritional intervention in ME/CFS is thin but the principles are clear.
-
-**Small, frequent meals** reduce the energy expenditure of any single eating event and reduce postprandial orthostatic stress. **Low-glycemic-index carbohydrates** — oats, rice, potato — help stabilize blood glucose without triggering large insulin spikes that may worsen insulin resistance. **Adequate protein** is important to slow the muscle wasting associated with inactivity. **Dietitian involvement** is essential; unguided dietary restriction in ME/CFS carries a documented risk of serious nutritional deficiency.
+The evidence base for nutritional intervention in ME/CFS is thin but the principles are clear. Small, frequent meals reduce the energy expenditure of any single eating event and reduce postprandial orthostatic stress. Low-glycemic-index carbohydrates — oats, rice, potato — help stabilize blood glucose without triggering large insulin spikes that may worsen insulin resistance, and adequate protein slows the muscle wasting associated with inactivity. Dietitian involvement is essential; unguided dietary restriction in ME/CFS carries a documented risk of serious nutritional deficiency.
 
 For patients who cannot maintain adequate intake orally, enteral nutrition — nasogastric or nasojejunal tube feeding — is sometimes necessary and should not be delayed. The decision to initiate tube feeding in ME/CFS is a medical decision, not a psychiatric one. Waiting for a psychiatric assessment before feeding a malnourished patient is not standard of care — it is a failure of care.
 
@@ -88,9 +80,9 @@ For patients who cannot maintain adequate intake orally, enteral nutrition — n
 
 ME/CFS disrupts eating from both ends simultaneously. Some patients cannot eat enough. Others cannot stop their bodies from changing composition in ways that feel beyond their control. Both groups face an added layer of stigma: the patient who is thin is assumed to have an eating disorder; the patient who is overweight is assumed not to be trying hard enough.
 
-Neither assumption is appropriate. Both miss the underlying biology.
+Neither assumption is appropriate, and both miss the underlying biology.
 
-The food problem in ME/CFS is not a behavioral problem. It is a metabolic, immunological, and neurological problem — wearing the clothes of something more familiar and more convenient to dismiss.
+The food problem in ME/CFS is a metabolic, immunological, and neurological problem — wearing the clothes of something more familiar and more convenient to dismiss.
 
 ---
 

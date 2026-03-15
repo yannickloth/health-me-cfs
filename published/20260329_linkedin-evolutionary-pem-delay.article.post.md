@@ -1,6 +1,6 @@
 Why can someone with severe ME/CFS sometimes lift the bag, attend the appointment, hold the conversation — and then be unable to move for three days afterward?
 
-It looks contradictory. It isn't.
+The contradiction is only apparent.
 
 The answer is evolutionary. For most of human history, the organisms whose bodies could override fatigue, pain, and illness to respond to a threat were the ones that survived. Those that couldn't — collapsed.
 
@@ -10,16 +10,12 @@ The result is a "borrow now, pay later" physiology: epinephrine, endorphins, and
 
 In a healthy body, that invoice is paid within days.
 
-In ME/CFS, the repayment system is broken. The borrowing still works. The restoration does not.
+In ME/CFS, the repayment system is broken: the borrowing still works, but the restoration does not.
 
-This reframes everything:
-— The delay is not mysterious. It's the normal timing of the post-exertional immune response.
-— "You seemed fine" is not a contradiction. It's evidence of emergency mobilization, not capacity.
-— Pushing through doesn't build tolerance. It runs up a debt that cannot be cleared.
-— The most severe patients may lose even the override — not by choice, but because the system has nothing left.
+This reframes the familiar confusions. The delay is simply the normal timing of the post-exertional immune response. "You seemed fine" is evidence of emergency mobilization, not actual capacity. Pushing through doesn't build tolerance; it runs up a debt that cannot be cleared. And the most severe patients may lose even the override — not by choice, but because the system has nothing left to borrow.
 
 PEM is not a disease quirk. It is normal biology, working exactly as it was built to work — in a body where the second half of the cycle has been taken away.
 
-New article — link in comments.
+Full article in the comments.
 
 #MECFS #PostExertionalMalaise #PEM #EvolutionaryMedicine #InvisibleIllness #LongCOVID #PatientAdvocacy #ChronicIllness

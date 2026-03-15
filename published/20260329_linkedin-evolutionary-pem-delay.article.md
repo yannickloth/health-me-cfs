@@ -16,15 +16,15 @@ The organisms whose bodies simply shut down — whose fatigue was an absolute li
 
 The organisms whose bodies could override fatigue, suppress pain, and mobilize emergency energy reserves — even temporarily, even at a cost — were the ones that survived long enough to pass on those traits.
 
-This is not a designed feature. It is selection: the residue of millions of years in which the ability to act under duress was the difference between life and death. We carry these genes because our ancestors who carried them survived.
+This is selection: the residue of millions of years in which the ability to act under duress was the difference between life and death. We carry these genes because our ancestors who carried them survived.
 
-The result is a physiology with a remarkable property: **emergency override**. When the threat is acute — a sudden fall, a fight, a sprint for survival — the nervous system can mobilize resources that are normally held in reserve. Epinephrine floods the bloodstream. Muscle glycogen is mobilized in seconds. Endorphins suppress pain. Cortisol redirects energy from storage to action. Normal muscle fibers recruit at rates not possible during voluntary effort. The body does not ask whether it can afford this. It simply acts.
+The result is a physiology with a remarkable property: **emergency override**. When the threat is acute — a sudden fall, a fight, a sprint for survival — the nervous system can mobilize resources that are normally held in reserve. Epinephrine floods the bloodstream, muscle glycogen is mobilized in seconds, endorphins suppress pain, and cortisol redirects energy from storage to action. Normal muscle fibers recruit at rates not possible during voluntary effort. The body does not ask whether it can afford this. It simply acts.
 
 And the invoice? It comes later.
 
 ---
 
-## "Borrow now, pay later" is not a bug — it is the design
+## Deferred cost is the design, not the failure
 
 This deferred cost structure is not an accident. It is, in an evolutionary sense, the correct order of operations.
 
@@ -39,21 +39,21 @@ In healthy physiology, the debt is real but manageable:
 
 The body knows it has borrowed. It sends the bill through sickness behavior: a coordinated, neurally-mediated response in which cytokines signal the brain to induce fatigue, social withdrawal, anorexia, and sleep. This is not weakness. It is a priority recalibration — the body saying: *the emergency is over. Now repair.*
 
-Benjamin Hart first described sickness behavior as adaptive in 1988, recognizing that what looks like illness passivity is actually active resource reallocation. The immune system needs glucose. Inflammation needs metabolic substrate. Repair requires rest. The fatigue you feel after a major physical effort — the deep tiredness that makes you want to lie still — is that reallocation being enforced.
+Benjamin Hart first described sickness behavior as adaptive in 1988, recognizing that what looks like illness passivity is actually active resource reallocation. The immune system needs glucose, inflammation needs metabolic substrate, and repair requires rest. The fatigue you feel after a major physical effort — the deep tiredness that makes you want to lie still — is that reallocation being enforced.
 
 ---
 
-## The same mechanism, but the repayment system is broken
+## When the borrowing works but the repayment doesn't
 
 In ME/CFS, the override mechanism is intact.
 
-This is the observation that has puzzled many observers, and that patients know intimately: even at very low baseline function, most people with ME/CFS retain some capacity for emergency mobilization. The adrenaline surge still works. The pain suppression still activates. The immediate response to acute stress still fires.
+This is the observation that has puzzled many observers, and that patients know intimately: even at very low baseline function, most people with ME/CFS retain some capacity for emergency mobilization. The adrenaline surge still works, the pain suppression still activates, the immediate response to acute stress still fires.
 
 Research confirms this: a 2025 meta-analysis of adrenergic function in ME/CFS found elevated baseline epinephrine levels and upregulated adrenergic receptor expression — consistent with a system under chronic stress activation. The override machinery is not merely intact; it may be chronically engaged.
 
 Patients in the ME/CFS community have a name for what this produces: "wired but tired" — the disorienting experience of feeling urgency and activation while simultaneously being exhausted. The emergency system fires. The ordinary energy reserves it draws from are already depleted.
 
-The borrow happens. The repayment does not.
+The borrowing happens; the repayment does not.
 
 In ME/CFS, the metabolic restoration machinery is broken at multiple levels:
 
@@ -62,11 +62,11 @@ In ME/CFS, the metabolic restoration machinery is broken at multiple levels:
 - The sickness behavior response, meant to enforce rest and redirect energy toward repair, activates but cannot complete its function because the repair mechanisms are themselves dysfunctional
 - The glymphatic system, which clears metabolic waste during sleep, operates in an energy-deficient brain that cannot sustain the slow-wave architecture the system requires
 
-The delay is not the pathology. The delay is normal biology. The pathology is what happens at the end of it: the repair that does not come.
+The delay is not the pathology — it is normal biology. The pathology is what happens at the end of it: the repair that does not come.
 
 ---
 
-## Why "you seemed fine" is not a contradiction
+## Why visible function during an event is not evidence of capacity
 
 This evolutionary framing resolves one of the most socially damaging misunderstandings about ME/CFS.
 
@@ -76,11 +76,11 @@ But this reasoning misunderstands the biology. The override mechanism exists pre
 
 The functional window during the exertion is not evidence of capacity. It is evidence of emergency mobilization. The cost is being deferred, not avoided.
 
-The crash that follows is not delayed onset weakness. It is the immune and metabolic response that was always going to come — the invoice that the body sends 12–72 hours after the emergency energy was drawn. In a healthy person, that invoice is paid within days. In ME/CFS, it accumulates. The debt is borrowed repeatedly. The repayment never clears.
+The crash that follows is not delayed onset weakness. It is the immune and metabolic response that was always going to come — the invoice that the body sends 12–72 hours after the emergency energy was drawn. In a healthy person, that invoice is paid within days. In ME/CFS, it accumulates: the debt is borrowed repeatedly, and the repayment never clears.
 
 ---
 
-## What changes most severely: the loss of the override itself
+## At the severe end, even the override fails
 
 There is an important gradient here. For most ME/CFS patients, the emergency override remains partially available. This is why many patients can sometimes do more than their baseline would suggest — and why they crash afterward.
 
@@ -90,17 +90,17 @@ This gradient — from intact override with impaired recovery, to impaired overr
 
 ---
 
-## The practical consequence
+## What this means in practice
 
 Understanding PEM as a deferred-cost system — normal borrowing, broken repayment — has specific implications.
 
-**Why "pushing through" causes harm.** Each exertion draws on a recovery system that cannot clear the debt. The next exertion begins from a worse baseline. The system does not adapt upward; it degrades. This is not psychological. It is the cellular consequence of repeated overdrafts on an account that cannot be replenished.
+Pushing through causes harm because each exertion draws on a recovery system that cannot clear the debt; the next exertion begins from a worse baseline. The system does not adapt upward. It degrades — and that degradation is the cellular consequence of repeated overdrafts on an account that cannot be replenished.
 
-**Why the delay is not mysterious.** The 12–72 hour gap between exertion and crash is the normal timing of the post-exertional immune response — the same cytokine cascade that would produce the sore muscles and fatigue after intense exercise in a healthy person, but massively amplified and without resolution. The delay is baked into the biology.
+The 12–72 hour gap between exertion and crash is similarly not mysterious once the biology is understood. It is the normal timing of the post-exertional immune response: the same cytokine cascade that produces sore muscles and fatigue after intense exercise in a healthy person, but massively amplified and without resolution. The delay is baked into the biology.
 
-**Why rest during the activity is irrelevant.** The damage is not happening during the exertion. It is happening in the inflammatory response that follows. Sitting down during an event does not prevent the cascade that has already been triggered.
+Crucially, rest during an activity does not interrupt this. The damage is not happening during the exertion; it is happening in the inflammatory response that follows. Sitting down midway through an event does not prevent the cascade that has already been triggered.
 
-**Why severe patients cannot do even small things.** When the repayment system has been overdrawn long enough, even the borrowing mechanism begins to fail. What remains is a body that can no longer mobilize emergency reserves without catastrophic consequence — not because it is choosing not to, but because the system has nothing left to draw from.
+Finally, when the repayment system has been overdrawn long enough, even the borrowing mechanism begins to fail — which is why severely affected patients cannot manage even small exertions. What remains is a body that can no longer mobilize emergency reserves without catastrophic consequence, not because it is choosing not to, but because the system has nothing left to draw from.
 
 ---
 
@@ -116,7 +116,7 @@ It is biology working exactly as it was built to work — except that the repair
 
 ---
 
-*This article draws on research in evolutionary medicine, sickness behavior biology, ME/CFS immunology, and adrenergic physiology. The evolutionary framing for the deferred-cost structure of PEM is the author's synthesis; the individual biological mechanisms described are supported by published research. The underlying documentation, including full citations, is available open-access (CC-BY 4.0): https://zenodo.org/records/18905326.*
+*This article draws on research in evolutionary medicine, sickness behavior biology, ME/CFS immunology, and adrenergic physiology. The evolutionary framing for the deferred-cost structure of PEM draws on multiple lines of published research rather than any single source; the individual biological mechanisms described are each supported by published research. The underlying documentation, including full citations, is available open-access (CC-BY 4.0): https://zenodo.org/records/18905326.*
 
 ---
 
