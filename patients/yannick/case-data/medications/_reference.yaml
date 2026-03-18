@@ -1,5 +1,5 @@
 # Current medication and supplement regimen
-# Last updated: 2026-03-13
+# Last updated: 2026-03-16
 
 regimen:
   - name: "Riboflavin (Vitamin B2)"
@@ -49,9 +49,41 @@ regimen:
     category: "supplement"
     indication: "neurological support, energy metabolism"
 
-  - name: "Urolithin A + NAD+ precursor"
+  - name: "Urolithin A + NAD+ precursor (Joiavvy)"
     category: "supplement"
     indication: "mitophagy, NAD+ metabolism, cellular energy"
+    product: "Joiavvy Urolithin A and NAD+"
+    dose_per_portion: "2 capsules"
+    composition_per_portion:
+      urolithin_a: "2000 mg"
+      nad_plus: "200 mg"
+    end_date: "2026-03-16"
+    notes: "Discontinued 2026-03-16; replaced by separate Urolithin A (Cheroline) and NAD+ Resveratrol (EMAW) products."
+
+  - name: "NAD+ Resveratrol (EMAW)"
+    category: "supplement"
+    indication: "NAD+ metabolism, sirtuin activation, cellular energy"
+    product: "EMAW NAD+ Resveratrol"
+    start_date: "2026-03-17"
+    dose_per_portion: "2 capsules"
+    composition_per_portion:
+      nad_plus: "1500 mg"
+      trans_resveratrol: "250 mg"
+      vitamin_b3_niacinamide: "150 mg"
+      tmg_trimethylglycine: "100 mg"
+
+  - name: "Urolithin A (Cheroline)"
+    category: "supplement"
+    indication: "mitophagy, mitochondrial renewal"
+    product: "Cheroline Urolithin A"
+    start_date: "2026-03-17"
+    dose_per_portion: "2 softgels"
+    composition_per_portion:
+      urolithin_a: "1000 mg"
+      urolithin_a_production_booster_blend: "1000 mg (pomegranate extract, organic strawberry fruit extract, organic walnut shell extract)"
+    warnings:
+      - "Contains walnut shell extract — potential allergen (patient reports possible walnut allergy)"
+      - "Concurrent Rupatadine (antihistamine) may mask allergic symptoms, reducing detectability of any walnut-related reaction"
 
   - name: "D-ribose"
     category: "supplement"
@@ -74,6 +106,17 @@ regimen:
     category: "supplement"
     indication: "antioxidant, iron absorption cofactor"
     notes: "often co-administered with iron"
+
+  - name: "PEA (palmitoylethanolamide)"
+    category: "supplement"
+    indication: "endocannabinoid system support, neuroinflammation, pain modulation"
+    product: "Meiluiqay Liposomales PEA"
+    frequency: "1x/day"
+    dose_per_portion: "1 capsule"
+    composition_per_portion:
+      palmitoylethanolamide: "1100 mg"
+      luteolin: "included (amount not specified separately)"
+    notes: "Liposomal formulation. Contains PEA + luteolin."
 
   - name: "Bactecal gelules"
     category: "supplement"
