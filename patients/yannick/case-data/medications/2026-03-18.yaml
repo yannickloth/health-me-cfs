@@ -1,0 +1,32 @@
+date: 2026-03-18
+
+intake:
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "4.5 mg"
+    taken: true
+    time: null
+    notes: "Patient reports feeling worse since 4.5 mg dose level (~2026-03-06). Suspects dose is too high."
+
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    taken: true
+    count: 2
+    time: null
+    notes: "2x/day (morning + evening) — afternoon dose missed. Patient reports this has been the pattern for the last ~7 days (~2026-03-11 onward): consistently taking 2/3 daily doses due to forgetting the afternoon dose."
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: null
+    notes: "Usual regimen."
+
+stimulants:
+  taken: false
+
+notes: |
+  Usual regimen taken. LDN at 4.5 mg — patient reports this dose level has
+  coincided with ~2 weeks of worsening symptoms (drugged feeling, fatigue,
+  nausea, cognitive strangeness). Patient believes 4.5 mg is too much.

@@ -6,8 +6,10 @@ intake:
     category: "medication"
     dose: null
     taken: true
+    count_taken: 2
+    typical_daily_count: 3
     time: "morning"
-    notes: null
+    notes: "2/3 doses taken (morning + evening). Afternoon dose missed."
 
   - name: "PEA (palmitoylethanolamide)"
     category: "supplement"

@@ -20,9 +20,9 @@ intake:
     category: "medication"
     dose: null
     taken: true
-    count_taken: 3
+    count_taken: 2
     typical_daily_count: 3
-    notes: "All 3 doses taken (full daily adherence)."
+    notes: "2/3 doses taken (morning + evening). Afternoon dose missed."
 
   - name: "Famotidine"
     category: "medication"

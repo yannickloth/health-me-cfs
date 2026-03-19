@@ -1,0 +1,53 @@
+date: 2026-03-16
+
+intake:
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    taken: true
+    count_taken: 2
+    typical_daily_count: 3
+    time: null
+    notes: "2/3 doses taken (morning + evening). Afternoon dose missed."
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: null
+    notes: "Part of usual regimen."
+
+  - name: "L-Carnitine (LCar)"
+    category: "supplement"
+    dose: "2 g"
+    taken: true
+    time: null
+    notes: "Dose explicitly reported as 2 g."
+
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "4.5 mg"
+    taken: true
+    time: null
+    notes: null
+
+  - name: "PEA (palmitoylethanolamide)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: null
+    notes: null
+
+  - name: "Urolithin A + NAD+ precursor"
+    category: "supplement"
+    dose: "2000 mg urolithin A + 200 mg NAD+ (1 portion / 2 capsules)"
+    taken: true
+    time: null
+    notes: "Product: Joiavvy Urolithin A and NAD+."
+
+stimulants:
+  taken: false
+  notes: "No stimulants taken today."
+
+notes: |
+  Medications: Rupatall, Montelukast, LCar 2 g, LDN 4.5 mg, PEA, Urolithin A + NAD+ (Joiavvy). No stimulants.

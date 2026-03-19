@@ -1,0 +1,29 @@
+date: 2026-03-19
+
+intake:
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "4.5 mg"
+    taken: false
+    notes: "Skipped — continuing LDN pause."
+
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    taken: true
+    count: null
+    time: null
+    notes: "Usual regimen."
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: null
+    notes: "Usual regimen."
+
+stimulants:
+  taken: false
+
+notes: |
+  No naltrexone, no stimulants. All other medication taken as usual.
