@@ -1,0 +1,51 @@
+date: 2026-03-18
+
+symptoms:
+  fatigue_level: "severe"
+  fatigue_notes: >
+    Extremely tired and energyless. Feels "drugged" — heavy sedation-like state.
+    Wants to sleep.
+  headache: "mild migraine"
+  headache_notes: >
+    Mild migraine present.
+  nausea: "mild"
+  nausea_notes: >
+    Feels as though he might have to vomit soon — sub-vomiting but clearly
+    nauseated. Mild but persistent sensation.
+  orthostatic_intolerance: null
+  pem_active: null
+  pain_diffuse_muscles: null
+  cognitive_status: "impaired — strange"
+  cognitive_notes: >
+    Cognitive function described as "strange" — not normal, qualitatively
+    different from usual brain fog. Patient uses the word "drugged" to
+    characterise the overall state.
+  somnolence: "marked"
+  somnolence_notes: >
+    Strong desire to sleep. Combined with the drugged feeling and severe
+    fatigue, suggests CNS depression-like symptom profile.
+
+sleep:
+  quality: "non-restorative"
+  notes: >
+    Sleep is not quite repairing since LDN 4.5 mg. Non-restorative sleep
+    reported as an ongoing issue at this dose level.
+
+patient_concerns:
+  ldn_tolerability:
+    description: >
+      Patient questions whether LDN 4.5 mg is too high. Reports feeling
+      worse/bad for approximately the 2 weeks since reaching maintenance dose
+      (4.5 mg started ~2026-03-06). Today's symptom cluster — drugged feeling,
+      somnolence, nausea, mild migraine, severe fatigue, cognitive strangeness —
+      is consistent with LDN adverse effects at supra-therapeutic dose for
+      this individual.
+    action: "Discuss with prescribing physician. Consider dose reduction to 3 mg or 4 mg."
+
+notes: >
+  Dominant symptom cluster today: "drugged" feeling with severe fatigue/energylessness,
+  marked somnolence (wants to sleep), mild nausea (feels close to vomiting), mild
+  migraine, and qualitatively strange cognitive impairment. Patient attributes
+  worsening to 2 weeks on LDN 4.5 mg (started ~2026-03-06) and questions whether
+  the dose is too high. This symptom profile — sedation, nausea, cognitive
+  disturbance — is a recognised pattern of LDN dose intolerance.

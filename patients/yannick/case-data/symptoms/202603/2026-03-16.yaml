@@ -1,0 +1,22 @@
+date: 2026-03-16
+
+symptoms:
+  fatigue_level: "present"
+  fatigue_notes: "Felt tired today."
+  headache: null
+  orthostatic_intolerance: null
+  pem_active: null
+  pain_periarticular: true
+  pain_periarticular_notes: "Diffuse periarticular pain around knees and shoulders — pain in tissues surrounding joints (tendons, fascia, entheses), not intra-articular. Onset after grocery shopping (Auchan) this morning. Not present yesterday."
+  pain_diffuse_muscles: null
+  cognitive_status: "mild"
+  cognitive_notes: "Not top cognitive function, not full brain fog yet — possibly early onset."
+
+sleep:
+  notes: null
+
+notes: >
+  Fatigue and diffuse periarticular pain (around knees and shoulders) reported today.
+  Pain is periarticular (surrounding tissues), not intra-articular — patient clarification.
+  Onset after grocery shopping (Auchan) this morning — physical exertion trigger.
+  Mild cognitive dip likely related to no Ritalin today (took it yesterday, worked well).
