@@ -1,0 +1,171 @@
+% Figure: Load-Bearing versus Secondary Locks
+% Structural analogy for disease-sustaining mechanisms in ME/CFS
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    scale=0.80, every node/.style={scale=0.80, font=\sffamily},
+    % Wall styles
+    loadbearing/.style={
+        draw=red!50!black, fill=red!25, line width=2.5pt,
+        minimum height=#1, minimum width=0.55cm,
+        pattern=north east lines, pattern color=red!40!black,
+        inner sep=0pt
+    },
+    loadbearing/.default=3.2cm,
+    secondary/.style={
+        draw=gray!60, fill=gray!15, line width=1pt,
+        minimum height=#1, minimum width=0.3cm,
+        inner sep=0pt
+    },
+    secondary/.default=3.2cm,
+    % Label styles
+    walllabel/.style={font=\sffamily\scriptsize, align=center, text width=2.2cm},
+    paneltitle/.style={font=\sffamily\bfseries\normalsize, anchor=south},
+]
+
+% ============================================================
+% LEFT PANEL: Disease Architecture
+% ============================================================
+\begin{scope}[shift={(0,0)}]
+
+    % Panel title
+    \node[paneltitle] at (3.5, 5.8) {Disease Architecture};
+
+    % Roof / "Disease State" slab
+    \fill[red!8, draw=red!40!black, thick, rounded corners=2pt]
+        (-0.3, 4.6) rectangle (7.3, 5.4);
+    \node[font=\sffamily\bfseries\small, text=red!50!black] at (3.5, 5.0)
+        {ME/CFS Disease State};
+
+    % Floor
+    \fill[gray!30, draw=gray!60, thick]
+        (-0.3, 0.0) rectangle (7.3, 0.3);
+    \node[font=\sffamily\tiny, text=gray!60] at (3.5, 0.15) {baseline physiology};
+
+    % --- Load-bearing walls (dark red, hatched, thick) ---
+
+    % Wall 1: Epigenetic Consolidation (left)
+    \node[loadbearing=4.0cm] (lb1) at (1.0, 2.5) {};
+    \node[walllabel, below=0.15cm of lb1, text=red!50!black]
+        {Epigenetic\\Consolidation};
+
+    % Wall 2: Autoimmune Persistence (right)
+    \node[loadbearing=4.0cm] (lb2) at (6.0, 2.5) {};
+    \node[walllabel, below=0.15cm of lb2, text=red!50!black]
+        {Autoimmune\\Persistence\\{\tiny(plasma cells)}};
+
+    % --- Secondary walls (thin, light gray) ---
+
+    % Wall 3: Oxidative Stress Cycle
+    \node[secondary=3.6cm] (sw1) at (2.6, 2.3) {};
+    \node[walllabel, below=0.15cm of sw1, text=gray!70]
+        {Oxidative\\Stress Cycle};
+
+    % Wall 4: Sleep Fragmentation
+    \node[secondary=3.6cm] (sw2) at (3.8, 2.3) {};
+    \node[walllabel, below=0.15cm of sw2, text=gray!70]
+        {Sleep\\Fragmentation};
+
+    % Wall 5: Viral Reactivation
+    \node[secondary=3.6cm] (sw3) at (5.0, 2.3) {};
+    \node[walllabel, below=0.15cm of sw3, text=gray!70]
+        {Viral\\Reactivation};
+
+    % Legend
+    \node[loadbearing=0.4cm, anchor=west] (legLB) at (-0.1, -1.6) {};
+    \node[font=\sffamily\scriptsize, anchor=west] at (0.5, -1.6)
+        {Load-bearing lock};
+    \node[secondary=0.4cm, anchor=west] (legSW) at (3.2, -1.6) {};
+    \node[font=\sffamily\scriptsize, anchor=west] at (3.6, -1.6)
+        {Secondary lock};
+
+\end{scope}
+
+% ============================================================
+% RIGHT PANEL: Treatment Effect Prediction
+% ============================================================
+\begin{scope}[shift={(10, 0)}]
+
+    % Panel title
+    \node[paneltitle] at (2.8, 5.8) {Treatment Effect Prediction};
+
+    % --- Top graph: Load-bearing lock removed (slope change) ---
+    \begin{scope}[shift={(0, 3.0)}]
+        % Axes
+        \draw[-latex, thick, gray!80] (0, 0) -- (5.8, 0)
+            node[font=\sffamily\scriptsize, below, pos=1] {Time};
+        \draw[-latex, thick, gray!80] (0, 0) -- (0, 2.5)
+            node[font=\sffamily\scriptsize, above, rotate=90, anchor=south, pos=0.5]
+            {Severity};
+
+        % Title
+        \node[font=\sffamily\small\bfseries, text=red!50!black, anchor=west]
+            at (0.2, 2.3) {Load-bearing lock removed};
+
+        % Disease trajectory: high, then progressive decline after intervention
+        \draw[very thick, red!40!black]
+            (0.3, 1.8) -- (2.0, 1.8);
+        \draw[very thick, red!50!black, -{Latex[length=2mm]}]
+            (2.0, 1.8) -- (5.2, 0.4);
+
+        % Intervention marker
+        \draw[dashed, gray!60] (2.0, 0) -- (2.0, 2.0);
+        \node[font=\sffamily\tiny, gray!60, anchor=south] at (2.0, 2.0) {Tx};
+
+        % Annotation: slope change
+        \draw[<->, thin, blue!60!black] (3.0, 1.8) -- (3.0, 1.27);
+        \node[font=\sffamily\tiny, blue!60!black, anchor=west] at (3.1, 1.5)
+            {slope $\Delta$};
+
+        % Arrow indicating progressive improvement
+        \node[font=\sffamily\tiny, text=red!50!black, anchor=west, text width=1.8cm]
+            at (3.8, 0.6) {progressive\\recovery};
+    \end{scope}
+
+    % --- Bottom graph: Secondary lock removed (level change) ---
+    \begin{scope}[shift={(0, -0.2)}]
+        % Axes
+        \draw[-latex, thick, gray!80] (0, 0) -- (5.8, 0)
+            node[font=\sffamily\scriptsize, below, pos=1] {Time};
+        \draw[-latex, thick, gray!80] (0, 0) -- (0, 2.5)
+            node[font=\sffamily\scriptsize, above, rotate=90, anchor=south, pos=0.5]
+            {Severity};
+
+        % Title
+        \node[font=\sffamily\small\bfseries, text=gray!60, anchor=west]
+            at (0.2, 2.3) {Secondary lock removed};
+
+        % Disease trajectory: high, then step down, then plateau
+        \draw[very thick, gray!50]
+            (0.3, 1.8) -- (2.0, 1.8);
+        \draw[very thick, gray!50]
+            (2.0, 1.8) -- (2.0, 1.1);
+        \draw[very thick, gray!50, -{Latex[length=2mm]}]
+            (2.0, 1.1) -- (5.2, 1.1);
+
+        % Intervention marker
+        \draw[dashed, gray!60] (2.0, 0) -- (2.0, 2.0);
+        \node[font=\sffamily\tiny, gray!60, anchor=south] at (2.0, 2.0) {Tx};
+
+        % Annotation: level change
+        \draw[<->, thin, blue!60!black] (2.4, 1.8) -- (2.4, 1.1);
+        \node[font=\sffamily\tiny, blue!60!black, anchor=west] at (2.5, 1.45)
+            {level $\Delta$};
+
+        % Annotation: same slope (flat)
+        \node[font=\sffamily\tiny, text=gray!50, anchor=west, text width=1.8cm]
+            at (3.5, 0.7) {symptomatic\\relief only};
+    \end{scope}
+
+\end{scope}
+
+\end{tikzpicture}
+\caption{Load-bearing versus secondary locks in ME/CFS. Load-bearing locks
+    (epigenetic consolidation, autoimmune persistence) sustain the disease
+    architecture; their removal enables progressive recovery (slope change).
+    Secondary locks (oxidative stress, sleep fragmentation, viral reactivation)
+    modulate severity; their removal provides symptomatic relief (level change)
+    without altering trajectory (Section~\ref{sec:load-bearing-locks}).}
+\label{fig:load-bearing-locks}
+\end{figure}

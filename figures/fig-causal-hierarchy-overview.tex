@@ -1,0 +1,177 @@
+% Figure: Causal Hierarchy Overview — Three-Tier Classification
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    scale=0.82, every node/.style={scale=0.82},
+    % Tier box styles
+    rootbox/.style={
+      rectangle, draw=red!70!black, fill=red!12, thick,
+      rounded corners=3pt, minimum height=0.9cm,
+      inner sep=0.2cm, align=center, font=\sffamily\small
+    },
+    ampbox/.style={
+      rectangle, draw=orange!70!black, fill=orange!10, thick,
+      rounded corners=3pt, minimum height=0.9cm,
+      inner sep=0.2cm, align=center, font=\sffamily\small
+    },
+    consbox/.style={
+      rectangle, draw=blue!60!black, fill=blue!10, thick,
+      rounded corners=3pt, minimum height=0.9cm,
+      inner sep=0.2cm, align=center, font=\sffamily\small
+    },
+    % Tier label style
+    tierlabel/.style={
+      font=\sffamily\bfseries\small, anchor=west
+    },
+    % Criteria style
+    critbox/.style={
+      rectangle, draw=gray!70!black, fill=gray!8, thick,
+      rounded corners=2pt, minimum width=3.2cm, minimum height=0.7cm,
+      inner sep=0.15cm, align=center, font=\sffamily\footnotesize
+    },
+    % Gate style
+    gatebox/.style={
+      rectangle, draw=gray!50!black, fill=gray!3, thick,
+      rounded corners=5pt, inner sep=0.3cm
+    },
+    % Arrow styles
+    arr/.style={-stealth, thick, gray!70!black},
+    arrpass/.style={-stealth, thick, red!60!black},
+    arrfail/.style={-stealth, thick, blue!50!black},
+    % Certainty badge
+    cert/.style={font=\sffamily\scriptsize\itshape, text=gray!60!black},
+    % Load-bearing indicator
+    loadbearing/.style={
+      star, star points=5, star point ratio=2.2,
+      draw=orange!80!black, fill=orange!40,
+      minimum size=0.35cm, inner sep=0pt
+    },
+]
+
+% ===== TIER LABELS (left-aligned, stacked vertically) =====
+\coordinate (origin) at (0,0);
+
+% Tier 1 row
+\node[tierlabel, text=red!70!black] (t1label) at (4.2, 0)
+  {Tier 1 --- Root Causes};
+
+% Tier 2 row
+\node[tierlabel, text=orange!70!black] (t2label) at (4.2, -4.5)
+  {Tier 2 --- Amplifiers};
+
+% Tier 3 row
+\node[tierlabel, text=blue!60!black] (t3label) at (4.2, -9.5)
+  {Tier 3 --- Consequences};
+
+% ===== TIER BACKGROUND BANDS =====
+\begin{scope}[on background layer]
+  % Tier 1 band
+  \fill[red!6, rounded corners=6pt]
+    (3.5, 0.5) rectangle (17.5, -3.2);
+  % Tier 2 band
+  \fill[orange!6, rounded corners=6pt]
+    (3.5, -4.0) rectangle (17.5, -8.2);
+  % Tier 3 band
+  \fill[blue!5, rounded corners=6pt]
+    (3.5, -9.0) rectangle (17.5, -12.2);
+\end{scope}
+
+% ===== TIER 1: ROOT CAUSES =====
+\node[rootbox, text width=2.8cm] (rc1) at (5.8, -1.2)
+  {CNS Energy\\Crisis};
+\node[cert, below=0.05cm of rc1] {$c = 0.50$};
+
+\node[rootbox, text width=2.8cm] (rc2) at (9.2, -1.2)
+  {Metabolic Safe\\Mode Lock};
+\node[cert, below=0.05cm of rc2] {$c = 0.45$};
+
+\node[rootbox, text width=2.8cm] (rc3) at (12.6, -1.2)
+  {GPCR Autoantibody\\Cascade};
+\node[cert, below=0.05cm of rc3] {$c = 0.45$};
+
+\node[rootbox, text width=2.8cm] (rc4) at (16.0, -1.2)
+  {TRPM3\\Channelopathy};
+\node[cert, below=0.05cm of rc4] {$c = 0.35$};
+
+% ===== TIER 2: AMPLIFIERS =====
+% Row 1
+\node[ampbox, text width=2.5cm] (a1) at (5.5, -5.2)
+  {NAD$^+$ Depletion\\Spiral};
+
+\node[ampbox, text width=2.5cm] (a2) at (8.6, -5.2)
+  {Oxidative Stress\\Cycle};
+
+\node[ampbox, text width=2.8cm] (a3) at (12.0, -5.2)
+  {Mast Cell--Energy\\Loop};
+
+% Row 2
+\node[ampbox, text width=3.2cm] (a4) at (5.8, -7.0)
+  {Viral Reactivation\\$\leftrightarrow$ Immune Exhaustion};
+
+\node[ampbox, text width=3.2cm] (a5) at (10.2, -7.0)
+  {Endothelial Activation\\/ Microclotting};
+
+\node[ampbox, text width=2.8cm] (a6) at (14.6, -7.0)
+  {Epigenetic\\Consolidation};
+
+% Load-bearing indicator for Epigenetic Consolidation
+\node[loadbearing] (lb) at ($(a6.north east) + (0.15, 0.15)$) {};
+\node[font=\sffamily\tiny, text=orange!80!black, anchor=west]
+  at ($(lb.east) + (0.08, 0)$) {load-bearing};
+
+% ===== TIER 3: CONSEQUENCES =====
+% Row 1
+\node[consbox, text width=2.4cm] (c1) at (5.5, -10.2)
+  {Sickness\\Behavior};
+
+\node[consbox, text width=2.4cm] (c2) at (8.5, -10.2)
+  {Sleep\\Fragmentation};
+
+\node[consbox, text width=3.0cm] (c3) at (11.8, -10.2)
+  {Catecholamine\\Synthesis Failure};
+
+\node[consbox, text width=2.6cm] (c4) at (15.2, -10.2)
+  {Ferroptosis\\Susceptibility};
+
+\node[consbox, text width=3.0cm] (c5) at (10.5, -11.6)
+  {Deferred-Cost\\PEM Architecture};
+
+% ===== FILTER GATE (left side) =====
+\node[gatebox, minimum height=9.5cm] (gate) at (1.0, -5.5) {};
+
+\node[font=\sffamily\bfseries\footnotesize, text=gray!70!black]
+  at (1.0, -2.2) {Classification};
+\node[font=\sffamily\bfseries\footnotesize, text=gray!70!black]
+  at (1.0, -2.65) {Criteria};
+
+% Criteria boxes
+\node[critbox] (cr1) at (1.0, -3.6) {1.\ Precipitant\\compatibility};
+\node[critbox] (cr2) at (1.0, -4.8) {2.\ Energy collapse\\sufficiency};
+\node[critbox] (cr3) at (1.0, -6.0) {3.\ Chronicity};
+\node[critbox] (cr4) at (1.0, -7.2) {4.\ Multi-system\\spread};
+
+% Connecting lines between criteria (chain)
+\draw[thick, gray!40] (cr1.south) -- (cr2.north);
+\draw[thick, gray!40] (cr2.south) -- (cr3.north);
+\draw[thick, gray!40] (cr3.south) -- (cr4.north);
+
+% "Passes all 4" arrow → Tier 1
+\draw[arrpass, line width=1.2pt]
+  (gate.east |- t1label) -- ++(1.2, 0)
+  node[midway, above, font=\sffamily\scriptsize, text=red!60!black]
+    {passes all 4};
+
+% "Fails >= 1" arrow → Tier 2/3
+\coordinate (failmid) at ($(t2label)!0.5!(t3label)$);
+\draw[arrfail, line width=1.2pt]
+  (gate.east |- failmid) -- ++(1.2, 0)
+  node[midway, above, font=\sffamily\scriptsize, text=blue!50!black]
+    {fails $\geq 1$};
+
+\end{tikzpicture}
+\caption{Three-tier classification of ME/CFS pathophysiological mechanisms.
+  Root causes pass all four criteria (Section~\ref{sec:three-tier-framework});
+  amplifiers and consequences fail at least one.}
+\label{fig:causal-hierarchy-overview}
+\end{figure}
