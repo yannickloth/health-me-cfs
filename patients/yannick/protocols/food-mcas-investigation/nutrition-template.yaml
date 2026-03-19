@@ -1,0 +1,51 @@
+# Nutrition logging template — add to daily symptom YAML files
+# Copy the nutrition: section below into your daily YYYY-MM-DD.yaml
+#
+# Guidelines:
+# - List main ingredients, not exact recipes
+# - Note approximate times
+# - Note leftovers and their age (e.g., "chicken from yesterday")
+# - Note drinks (coffee, juice, alcohol)
+# - Snacks count — log everything
+# - ~2 min per meal, or fill in once in the evening from memory
+
+nutrition:
+  meals:
+    - time: "08:30"
+      description: "breakfast"
+      items:
+        - "bread"
+        - "butter"
+        - "coffee with milk"
+    - time: "13:00"
+      description: "lunch"
+      items:
+        - "pasta"
+        - "tomato sauce"
+        - "parmesan"
+        - "salad"
+    - time: "19:30"
+      description: "dinner"
+      items:
+        - "rice"
+        - "chicken (fresh, cooked today)"
+        - "cooked zucchini"
+        - "olive oil"
+  snacks:
+    - time: "16:00"
+      items:
+        - "apple"
+        - "dark chocolate"
+    - time: "21:00"
+      items:
+        - "herbal tea"
+  # Note anything unusual: new food, restaurant meal, leftover age, etc.
+  notes: null
+
+# Also enhance symptom timing when possible:
+# symptoms:
+#   symptom_timing:
+#     - time: "15:00"
+#       what: "brain fog onset"
+#     - time: "17:00"
+#       what: "joint pain knees"
