@@ -1,4 +1,4 @@
-Two people dead, fifteen cases confirmed in a meningococcal B outbreak in Kent.
+Two people dead, twenty cases reported in a meningococcal B outbreak in Kent.
 
 For most people this is a regional story. For ME/CFS patients it's a reminder that every serious infection carries the risk of permanent worsening — and that meningitis is a particularly bad one, because it specifically attacks a blood-brain barrier that ME/CFS patients already have reason to worry about.
 

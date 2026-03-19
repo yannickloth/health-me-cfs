@@ -1,6 +1,6 @@
 # The UK meningitis outbreak and ME/CFS: why patients with immune dysfunction should pay attention
 
-Two people are dead and fifteen cases have been confirmed in a meningococcal group B outbreak centered on Canterbury, Kent. The outbreak is linked to a nightclub and the University of Kent, and UKHSA is deploying antibiotics and targeted Bexsero vaccination to contain it.
+Two people are dead and twenty cases have been reported in a meningococcal group B outbreak centered on Canterbury, Kent. The outbreak is linked to a nightclub and the University of Kent, and UKHSA is deploying antibiotics and targeted Bexsero vaccination to contain it.
 
 For the general public in continental Europe, this is not yet cause for alarm. But if you have ME/CFS — or care for someone who does — the biology of this situation deserves a closer look.
 
