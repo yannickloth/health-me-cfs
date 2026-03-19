@@ -363,3 +363,5 @@ general protocols/light-energy-protocol.pdf
 general protocols/medication-supplement-guide.pdf
 tmp/
 .history/
+figures/FIXES-*.md
+figures/VALIDATION_REPORT-*.md
