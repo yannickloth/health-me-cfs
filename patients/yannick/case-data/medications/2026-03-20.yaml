@@ -1,0 +1,65 @@
+date: 2026-03-20
+
+intake:
+  - name: "Rupatadine (Rupatall)"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "Montelukast"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "Famotidine"
+    category: "medication"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: "Catching up — was skipped yesterday (2026-03-19)."
+
+  - name: "PEA (palmitoylethanolamide)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "L-Carnitine (LCar)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "NAD+ Resveratrol (EMAW)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "Urolithin A (Cheroline)"
+    category: "supplement"
+    dose: null
+    taken: true
+    time: "morning"
+    notes: null
+
+  - name: "Low Dose Naltrexone (LDN)"
+    category: "medication"
+    dose: "3.5 mg"
+    taken: true
+    time: "morning"
+    notes: "Resumed LDN at reduced dose (3.5 mg, down from 4.5 mg). New ongoing dosage."
+
+stimulants:
+  taken: null
+
+notes: |
+  Morning intake logged. LDN resumed at 3.5 mg (reduced from 4.5 mg after 3-day pause).
+  New standing dose: 3.5 mg.

@@ -11,9 +11,10 @@ intake:
     category: "medication"
     dose: null
     taken: true
-    count: null
+    count_taken: 2
+    typical_daily_count: 3
     time: null
-    notes: "Usual regimen."
+    notes: "Morning + afternoon doses taken. Evening dose missed (forgot)."
 
   - name: "Montelukast"
     category: "medication"
@@ -22,8 +23,21 @@ intake:
     time: null
     notes: "Usual regimen."
 
+  - name: "Famotidine"
+    category: "medication"
+    dose: null
+    taken: false
+    notes: "Skipped this day."
+
+  - name: "Riboflavin (Vitamin B2)"
+    category: "supplement"
+    dose: null
+    taken: false
+    notes: "Skipped this day."
+
 stimulants:
   taken: false
 
 notes: |
-  No naltrexone, no stimulants. All other medication taken as usual.
+  No naltrexone, no stimulants, no famotidine, no B2. Rupatadine 2/3 doses
+  (morning + afternoon, evening missed).
