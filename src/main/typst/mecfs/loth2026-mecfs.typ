@@ -88,16 +88,16 @@
 #title-page()
 
 // Front-matter chapters — include when .typ files exist:
-// #include "shared/abstract.typ"
-// #include "shared/version-notice.typ"
-// #include "shared/keywords.typ"
-// #include "shared/license.typ"
-// #include "shared/author-bio.typ"
-// #include "shared/ai-disclosure.typ"
-// #include "shared/methodology.typ"
-// #include "shared/reading-guide.typ"
-// #include "shared/patient-faq.typ"
-// #include "shared/changelog.typ"
+#include "shared/abstract.typ"
+#include "shared/version-notice.typ"
+#include "shared/keywords.typ"
+#include "shared/license.typ"
+#include "shared/author-bio.typ"
+#include "shared/ai-disclosure.typ"
+#include "shared/methodology.typ"
+#include "shared/reading-guide.typ"
+#include "shared/patient-faq.typ"
+#include "shared/changelog.typ"
 
 // Table of contents / figures / tables
 #outline(title: "Contents", indent: 2em)
@@ -112,77 +112,81 @@
 #counter(page).update(1)
 
 // ── Part I: Clinical Overview ─────────────────────────────────────────────────
-// #include "part1-clinical/part1-intro.typ"
-// #include "part1-clinical/ch01-introduction.typ"
-// #include "part1-clinical/ch02-core-symptoms.typ"
-// #include "part1-clinical/ch03-additional-symptoms.typ"
-// #include "part1-clinical/ch04-diagnostic-criteria.typ"
-// #include "part1-clinical/ch05-disease-course.typ"
+#include "part1-clinical/part1-intro.typ"
+#include "part1-clinical/ch01-introduction.typ"
+#include "part1-clinical/ch02-core-symptoms.typ"
+#include "part1-clinical/ch03-additional-symptoms.typ"
+#include "part1-clinical/ch04-diagnostic-criteria.typ"
+#include "part1-clinical/ch05-disease-course.typ"
 
 // ── Part II: Pathophysiology and Biological Mechanisms ───────────────────────
-// #include "part2-pathophysiology/part2-intro.typ"
-// #include "part2-pathophysiology/ch06-energy-metabolism.typ"
-// #include "part2-pathophysiology/ch07-immune-dysfunction.typ"
-// #include "part2-pathophysiology/ch08-neurological.typ"
-// #include "part2-pathophysiology/ch09-endocrine.typ"
-// #include "part2-pathophysiology/ch10-cardiovascular.typ"
-// #include "part2-pathophysiology/ch11-gut-microbiome.typ"
-// #include "part2-pathophysiology/ch12-genetics-epigenetics.typ"
-// #include "part2-pathophysiology/ch13-integrative-models.typ"
-// #include "part2-pathophysiology/ch14-speculative-hypotheses.typ"
-// #include "part2-pathophysiology/ch15-symptom-producing-mechanisms.typ"
+#include "part2-pathophysiology/part2-intro.typ"
+#include "part2-pathophysiology/ch06-energy-metabolism.typ"
+#include "part2-pathophysiology/ch07-immune-dysfunction.typ"
+#include "part2-pathophysiology/ch08-neurological.typ"
+#include "part2-pathophysiology/ch09-endocrine.typ"
+#include "part2-pathophysiology/ch10-cardiovascular.typ"
+#include "part2-pathophysiology/ch11-gut-microbiome.typ"
+#include "part2-pathophysiology/ch12-genetics-epigenetics.typ"
+#include "part2-pathophysiology/ch13-integrative-models.typ"
+#include "part2-pathophysiology/ch14-speculative-hypotheses.typ"
+#include "part2-pathophysiology/ch15-symptom-producing-mechanisms.typ"
+#include "part2-pathophysiology/ch16-causal-hierarchy.typ"
 
 // ── Part III: Treatment and Management ───────────────────────────────────────
-// #include "part3-treatment/part3-intro.typ"
-// #include "part3-treatment/ch14-symptom-management.typ"
-// #include "part3-treatment/ch14a-urgent-action-severe.typ"
-// #include "part3-treatment/ch14b-action-mild-moderate.typ"
-// #include "part3-treatment/ch14c-pediatric-severe.typ"
-// #include "part3-treatment/ch14d-pediatric-ambulatory.typ"
-// #include "part3-treatment/ch15-medications-systems.typ"
-// #include "part3-treatment/ch16-supplements-nutraceuticals.typ"
-// #include "part3-treatment/ch17-lifestyle-interventions.typ"
-// #include "part3-treatment/ch18-emerging-therapies.typ"
-// #include "part3-treatment/ch19-integrative-approaches.typ"
+#include "part3-treatment/part3-intro.typ"
+#include "part3-treatment/ch14-symptom-management.typ"
+#include "part3-treatment/ch14a-urgent-action-severe.typ"
+#include "part3-treatment/ch14b-action-mild-moderate.typ"
+#include "part3-treatment/ch14c-pediatric-severe.typ"
+#include "part3-treatment/ch14d-pediatric-ambulatory.typ"
+#include "part3-treatment/ch15-medications-systems.typ"
+#include "part3-treatment/ch16-supplements-nutraceuticals.typ"
+#include "part3-treatment/ch17-lifestyle-interventions.typ"
+#include "part3-treatment/ch18-emerging-therapies.typ"
+#include "part3-treatment/ch19-integrative-approaches.typ"
 
 // ── Part IV: Research and Evidence Synthesis ──────────────────────────────────
-// #include "part4-research/part4-intro.typ"
-// #include "part4-research/ch20-biomarker-research.typ"
-// #include "part4-research/ch21-clinical-trials.typ"
-// #include "part4-research/ch22-mechanistic-studies.typ"
-// #include "part4-research/ch23-epidemiology-outcomes.typ"
-// #include "part4-research/ch24-controversies.typ"
-// #include "part4-research/ch25-translational-findings.typ"
-// #include "part4-research/ch25a-research-infrastructure.typ"
-// #include "part4-research/ch25b-proposed-studies.typ"
+#include "part4-research/part4-intro.typ"
+#include "part4-research/ch20-biomarker-research.typ"
+#include "part4-research/ch21-clinical-trials.typ"
+#include "part4-research/ch22-mechanistic-studies.typ"
+#include "part4-research/ch23-epidemiology-outcomes.typ"
+#include "part4-research/ch24-controversies.typ"
+#include "part4-research/ch25-translational-findings.typ"
+#include "part4-research/ch25a-research-infrastructure.typ"
+#include "part4-research/ch25b-proposed-studies.typ"
+#include "part4-research/negative-trials.typ"
+#include "part4-research/hypothesis-registry.typ"
 
 // ── Part V: Mathematical and Computational Modeling ───────────────────────────
-// #include "part5-modeling/part5-intro.typ"
-// #include "part5-modeling/ch26-modeling-foundations.typ"
-// #include "part5-modeling/ch27-energy-metabolism-models.typ"
-// #include "part5-modeling/ch28-immune-system-models.typ"
-// #include "part5-modeling/ch29-neuroendocrine-models.typ"
-// #include "part5-modeling/ch30-integrated-systems.typ"
-// #include "part5-modeling/ch31-temporal-evolution.typ"
-// #include "part5-modeling/ch32-predictive-applications.typ"
+#include "part5-modeling/part5-intro.typ"
+#include "part5-modeling/ch26-modeling-foundations.typ"
+#include "part5-modeling/ch27-energy-metabolism-models.typ"
+#include "part5-modeling/ch28-immune-system-models.typ"
+#include "part5-modeling/ch29-neuroendocrine-models.typ"
+#include "part5-modeling/ch30-integrated-systems.typ"
+#include "part5-modeling/ch31-temporal-evolution.typ"
+#include "part5-modeling/ch32-predictive-applications.typ"
+#include "part5-modeling/ch33-causal-hierarchy-formal.typ"
 
 // =============================================================================
 // APPENDICES
 // =============================================================================
 
-// #include "appendices/appendix-a-terminology.typ"
-// #include "appendices/appendix-b-abbreviations.typ"
-// #include "appendices/appendix-c-diagnostic-tools.typ"
-// #include "appendices/appendix-d-resources.typ"
-// #include "appendices/appendix-e-mathematical-details.typ"
-// #include "appendices/appendix-f-supplement-guide.typ"
-// #include "appendices/appendix-g-research-synthesis.typ"
-// #include "appendices/appendix-h-annotated-bibliography.typ"
-// #include "appendices/appendix-i-research-registry.typ"
+#include "appendices/appendix-a-terminology.typ"
+#include "appendices/appendix-b-abbreviations.typ"
+#include "appendices/appendix-c-diagnostic-tools.typ"
+#include "appendices/appendix-d-resources.typ"
+#include "appendices/appendix-e-mathematical-details.typ"
+#include "appendices/appendix-f-supplement-guide.typ"
+#include "appendices/appendix-g-research-synthesis.typ"
+#include "appendices/appendix-h-annotated-bibliography.typ"
+#include "appendices/appendix-i-research-registry.typ"
 
 // =============================================================================
 // BIBLIOGRAPHY
 // (Typst bibliography via .bib file — uncomment when references.bib is ported)
 // =============================================================================
 
-// #bibliography("../../resources/references.bib", style: "apa")
+#bibliography("references.bib", style: "ieee")

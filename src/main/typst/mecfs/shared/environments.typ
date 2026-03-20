@@ -28,6 +28,17 @@
 //
 // `numbered`: none | int (caller tracks counter externally and passes display string)
 
+// Custom figure kinds for environments (prevents floating, enables @label references)
+#let _env-kinds = (
+  "achievement", "prediction", "postdiction", "warning-env", "open-question",
+  "requirement", "hypothesis", "axiom", "assumption", "consistency",
+  "recommendation", "limitation", "model-insight", "protocol", "clinical-finding",
+  "key-point", "practical-warning", "continuation", "speculation", "observation",
+  "direction", "roadmap", "theorem", "lemma", "corollary", "proposition",
+  "definition", "example", "remark", "conclusion", "principle", "derivation",
+  "calculation",
+)
+
 #let _callout(
   frame-color,
   bg-color,
@@ -38,6 +49,8 @@
   style:   "solid",
   number:  none,
   small:   false,
+  fig-kind: "env",
+  fig-supplement: [Environment],
 ) = {
   let full-label = if number != none { label + "\u{00A0}" + number }
                    else              { label }
@@ -53,15 +66,12 @@
   } else if style == "left-right-bar" {
     (left: 2pt + frame-color, right: 2pt + frame-color, rest: none)
   } else if style == "dashed" {
-    // Typst doesn't support per-side dashed; approximate with thin solid
     (paint: frame-color, thickness: 0.8pt, dash: "dashed")
   } else if style == "dotted" {
     (paint: frame-color, thickness: 1pt, dash: "dotted")
   } else if style == "dash-dot" {
-    // Approximate dash-dot with dashed
     (paint: frame-color, thickness: 1pt, dash: "dashed")
   } else if style == "double" {
-    // Approximate double border: use thicker stroke
     1.5pt + frame-color
   } else if style == "left-bar-dashed-bottom" {
     (left: 3pt + frame-color, bottom: (paint: frame-color, thickness: 0.8pt, dash: "dashed"), rest: none)
@@ -69,19 +79,28 @@
     0.5pt + frame-color
   }
 
-  block(
-    width:  100%,
-    fill:   bg-color,
-    stroke: stroke-arg,
-    radius: if style == "solid" or style == "double" { 2pt } else { 0pt },
-    inset:  (x: 8pt, y: 6pt),
-    above:  0.8em,
-    below:  0.8em,
-  )[
-    #text(font: font-heading, weight: "bold", size: 10pt, full-title)
-    #v(4pt)
-    #text(size: body-size, body)
-  ]
+  // Wrap in figure(kind: ...) so labels placed after the call are referenceable.
+  // Show rules in apply-counter-resets() set placement: none to prevent floating.
+  figure(
+    block(
+      width:  100%,
+      fill:   bg-color,
+      stroke: stroke-arg,
+      radius: if style == "solid" or style == "double" { 2pt } else { 0pt },
+      inset:  (x: 8pt, y: 6pt),
+      above:  0.8em,
+      below:  0.8em,
+    )[
+      #text(font: font-heading, weight: "bold", size: 10pt, full-title)
+      #v(4pt)
+      #if body-size != auto { text(size: body-size, body) } else { body }
+    ],
+    kind: fig-kind,
+    supplement: fig-supplement,
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 // ── Per-chapter counters ───────────────────────────────────────────────────────
@@ -104,6 +123,40 @@
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets() = {
+  // Prevent custom-kind figures from floating (environments stay inline)
+  show figure.where(kind: "achievement"): set figure(placement: none)
+  show figure.where(kind: "prediction"): set figure(placement: none)
+  show figure.where(kind: "postdiction"): set figure(placement: none)
+  show figure.where(kind: "warning-env"): set figure(placement: none)
+  show figure.where(kind: "open-question"): set figure(placement: none)
+  show figure.where(kind: "requirement"): set figure(placement: none)
+  show figure.where(kind: "hypothesis"): set figure(placement: none)
+  show figure.where(kind: "axiom"): set figure(placement: none)
+  show figure.where(kind: "assumption"): set figure(placement: none)
+  show figure.where(kind: "consistency"): set figure(placement: none)
+  show figure.where(kind: "recommendation"): set figure(placement: none)
+  show figure.where(kind: "limitation"): set figure(placement: none)
+  show figure.where(kind: "model-insight"): set figure(placement: none)
+  show figure.where(kind: "protocol"): set figure(placement: none)
+  show figure.where(kind: "clinical-finding"): set figure(placement: none)
+  show figure.where(kind: "key-point"): set figure(placement: none)
+  show figure.where(kind: "practical-warning"): set figure(placement: none)
+  show figure.where(kind: "continuation"): set figure(placement: none)
+  show figure.where(kind: "speculation"): set figure(placement: none)
+  show figure.where(kind: "roadmap"): set figure(placement: none)
+  show figure.where(kind: "theorem"): set figure(placement: none)
+  show figure.where(kind: "lemma"): set figure(placement: none)
+  show figure.where(kind: "corollary"): set figure(placement: none)
+  show figure.where(kind: "proposition"): set figure(placement: none)
+  show figure.where(kind: "definition"): set figure(placement: none)
+  show figure.where(kind: "example"): set figure(placement: none)
+  show figure.where(kind: "remark"): set figure(placement: none)
+  show figure.where(kind: "conclusion"): set figure(placement: none)
+  show figure.where(kind: "principle"): set figure(placement: none)
+  show figure.where(kind: "derivation"): set figure(placement: none)
+  show figure.where(kind: "calculation"): set figure(placement: none)
+
+  // Per-chapter counter resets
   show heading.where(level: 1): it => {
     _cnt-hypothesis.update(0)
     _cnt-achievement.update(0)
@@ -139,10 +192,14 @@
 #let achievement(title: none, body) = {
   let n = _num(_cnt-achievement)
   _callout(color.achievement-frame, color.achievement-bg,
+    fig-kind: "achievement",
+    fig-supplement: [Achievement],
     "★", "Achievement", body, title: title, style: "double", number: n)
 }
 #let achievement-unnumbered(title: none, body) = {
   _callout(color.achievement-frame, color.achievement-bg,
+    fig-kind: "achievement",
+    fig-supplement: [Achievement],
     "★", "Achievement", body, title: title, style: "double")
 }
 
@@ -150,10 +207,14 @@
 #let prediction(title: none, body) = {
   let n = _num(_cnt-prediction)
   _callout(color.prediction-frame, color.prediction-bg,
+    fig-kind: "prediction",
+    fig-supplement: [Prediction],
     "→", "Prediction", body, title: title, style: "dashed", number: n)
 }
 #let prediction-unnumbered(title: none, body) = {
   _callout(color.prediction-frame, color.prediction-bg,
+    fig-kind: "prediction",
+    fig-supplement: [Prediction],
     "→", "Prediction", body, title: title, style: "dashed")
 }
 
@@ -161,6 +222,8 @@
 #let postdiction(title: none, body) = {
   let n = _num(_cnt-postdiction)
   _callout(color.assumption-frame, color.assumption-bg,
+    fig-kind: "postdiction",
+    fig-supplement: [Postdiction],
     "✓", "Postdiction", body, title: title, style: "solid", number: n)
 }
 
@@ -168,10 +231,14 @@
 #let warning-env(title: none, body) = {
   let n = _num(_cnt-warning)
   _callout(color.warning-frame, color.warning-bg,
+    fig-kind: "warning-env",
+    fig-supplement: [Warning],
     "△", "Warning", body, title: title, style: "left-bar", number: n)
 }
 #let warning-unnumbered(title: none, body) = {
   _callout(color.warning-frame, color.warning-bg,
+    fig-kind: "warning-env",
+    fig-supplement: [Warning],
     "△", "Warning", body, title: title, style: "left-bar")
 }
 
@@ -179,10 +246,14 @@
 #let open-question(title: none, body) = {
   let n = _num(_cnt-open-question)
   _callout(color.openq-frame, color.openq-bg,
+    fig-kind: "open-question",
+    fig-supplement: [Open Question],
     "?", "Open Question", body, title: title, style: "dotted", number: n)
 }
 #let open-question-unnumbered(title: none, body) = {
   _callout(color.openq-frame, color.openq-bg,
+    fig-kind: "open-question",
+    fig-supplement: [Open Question],
     "?", "Open Question", body, title: title, style: "dotted")
 }
 
@@ -190,6 +261,8 @@
 #let requirement(title: none, body) = {
   let n = _num(_cnt-requirement)
   _callout(color.requirement-frame, color.requirement-bg,
+    fig-kind: "requirement",
+    fig-supplement: [Requirement],
     "•", "Requirement", body, title: title, style: "solid", number: n)
 }
 
@@ -197,10 +270,14 @@
 #let hypothesis(title: none, body) = {
   let n = _num(_cnt-hypothesis)
   _callout(color.hypothesis-frame, color.hypothesis-bg,
+    fig-kind: "hypothesis",
+    fig-supplement: [Hypothesis],
     "~", "Hypothesis", body, title: title, style: "dash-dot", number: n)
 }
 #let hypothesis-unnumbered(title: none, body) = {
   _callout(color.hypothesis-frame, color.hypothesis-bg,
+    fig-kind: "hypothesis",
+    fig-supplement: [Hypothesis],
     "~", "Hypothesis", body, title: title, style: "dash-dot")
 }
 
@@ -214,6 +291,8 @@
   }
   _callout(color.hypothesis-frame, color.hypothesis-bg,
     "~", "Hypothesis", [#body #v(4pt) #text(size: 9pt, footer)],
+    fig-kind: "hypothesis",
+    fig-supplement: [Hypothesis],
     title: title, style: "dash-dot", number: n)
 }
 #let fhypothesis-unnumbered(title: none, falsifiability: "", justification: "", body) = {
@@ -224,6 +303,8 @@
   }
   _callout(color.hypothesis-frame, color.hypothesis-bg,
     "~", "Hypothesis", [#body #v(4pt) #text(size: 9pt, footer)],
+    fig-kind: "hypothesis",
+    fig-supplement: [Hypothesis],
     title: title, style: "dash-dot")
 }
 
@@ -232,6 +313,8 @@
 #let speculation(title: none, body) = {
   let n = _num(_cnt-hypothesis)  // shares hypothesis counter (LaTeX does same)
   _callout(color.speculation-frame, color.speculation-bg,
+    fig-kind: "speculation",
+    fig-supplement: [Speculation],
     "~", "Speculation", body, title: title, style: "dash-dot", number: n)
 }
 
@@ -239,10 +322,14 @@
 #let axiom(title: none, body) = {
   let n = _num(_cnt-axiom)
   _callout(color.axiom-frame, color.axiom-bg,
+    fig-kind: "axiom",
+    fig-supplement: [Axiom],
     "■", "Axiom", body, title: title, style: "double", number: n)
 }
 #let axiom-unnumbered(title: none, body) = {
   _callout(color.axiom-frame, color.axiom-bg,
+    fig-kind: "axiom",
+    fig-supplement: [Axiom],
     "■", "Axiom", body, title: title, style: "double")
 }
 
@@ -250,10 +337,14 @@
 #let assumption(title: none, body) = {
   let n = _num(_cnt-assumption)
   _callout(color.assumption-frame, color.assumption-bg,
+    fig-kind: "assumption",
+    fig-supplement: [Assumption],
     "[ ]", "Assumption", body, title: title, style: "left-right-bar", number: n)
 }
 #let assumption-unnumbered(title: none, body) = {
   _callout(color.assumption-frame, color.assumption-bg,
+    fig-kind: "assumption",
+    fig-supplement: [Assumption],
     "[ ]", "Assumption", body, title: title, style: "left-right-bar")
 }
 
@@ -261,6 +352,8 @@
 #let consistency-check(title: none, body) = {
   let n = _num(_cnt-consistency)
   _callout(color.consistency-frame, color.consistency-bg,
+    fig-kind: "consistency",
+    fig-supplement: [Consistency Check],
     "≡", "Consistency Check", body, title: title, style: "solid", number: n)
 }
 
@@ -272,6 +365,8 @@
 #let recommendation(title: none, body) = {
   let n = _num(_cnt-recommendation)
   _callout(color.recommendation-frame, color.recommendation-bg,
+    fig-kind: "recommendation",
+    fig-supplement: [Recommendation],
     "→", "Recommendation", body, title: title, style: "solid", number: n)
 }
 
@@ -279,10 +374,14 @@
 #let limitation(title: none, body) = {
   let n = _num(_cnt-limitation)
   _callout(color.limitation-frame, color.limitation-bg,
+    fig-kind: "limitation",
+    fig-supplement: [Limitation],
     "∄", "Limitation", body, title: title, style: "left-bar-dashed-bottom", number: n)
 }
 #let limitation-unnumbered(title: none, body) = {
   _callout(color.limitation-frame, color.limitation-bg,
+    fig-kind: "limitation",
+    fig-supplement: [Limitation],
     "∄", "Limitation", body, title: title, style: "left-bar-dashed-bottom")
 }
 
@@ -290,6 +389,8 @@
 #let model-insight(title: none, body) = {
   let n = _num(_cnt-modelinsight)
   _callout(color.model-insight-frame, color.model-insight-bg,
+    fig-kind: "model-insight",
+    fig-supplement: [Model Insight],
     "◇", "Model Insight", body, title: title, style: "solid", number: n)
 }
 
@@ -301,10 +402,14 @@
 #let protocol(title: none, body) = {
   let n = _num(_cnt-protocol)
   _callout(color.protocol-frame, color.protocol-bg,
+    fig-kind: "protocol",
+    fig-supplement: [Protocol],
     "▷", "Protocol", body, title: title, style: "solid", number: n)
 }
 #let protocol-unnumbered(title: none, body) = {
   _callout(color.protocol-frame, color.protocol-bg,
+    fig-kind: "protocol",
+    fig-supplement: [Protocol],
     "▷", "Protocol", body, title: title, style: "solid")
 }
 
@@ -312,28 +417,38 @@
 #let clinical-finding(title: none, body) = {
   let n = _num(_cnt-clinfinding)
   _callout(color.clinfind-frame, color.clinfind-bg,
+    fig-kind: "clinical-finding",
+    fig-supplement: [Clinical Finding],
     "♦", "Clinical Finding", body, title: title, style: "solid", number: n)
 }
 #let clinical-finding-unnumbered(title: none, body) = {
   _callout(color.clinfind-frame, color.clinfind-bg,
+    fig-kind: "clinical-finding",
+    fig-supplement: [Clinical Finding],
     "♦", "Clinical Finding", body, title: title, style: "solid")
 }
 
 // --- Key Point (★, left-bar, gold) — unnumbered by design -------------------
 #let key-point(title: none, body) = {
   _callout(color.keyfinding-frame, color.keyfinding-bg,
+    fig-kind: "key-point",
+    fig-supplement: [Key Point],
     "★", "Key Point", body, title: title, style: "left-bar")
 }
 
 // --- Practical Warning (△, left-bar, deep orange) — unnumbered ---------------
 #let practical-warning(title: none, body) = {
   _callout(rgb("#E65100"), rgb("#FFF3E0"),
+    fig-kind: "practical-warning",
+    fig-supplement: [Warning],
     "△", "Warning", body, title: title, style: "left-bar")
 }
 
 // --- Continuation (→, solid, light blue, small text) — unnumbered ------------
 #let continuation(title: none, body) = {
   _callout(rgb("#0288D1"), rgb("#E1F5FE"),
+    fig-kind: "continuation",
+    fig-supplement: [Continued],
     "→", "Continued", body, title: title, style: "solid", small: true)
 }
 
@@ -352,6 +467,8 @@
 // --- Roadmap (solid, hypothesis palette) ------------------------------------
 #let roadmap(title: none, body) = {
   _callout(color.hypothesis-frame, color.hypothesis-bg,
+    fig-kind: "roadmap",
+    fig-supplement: [Roadmap],
     "", "Chapter Roadmap", body, title: title, style: "solid")
 }
 
@@ -361,15 +478,24 @@
 // Typst's built-in theorem-like structure via the `theorems` approach.
 // We define simple block-quote wrappers with italic/upright body text.
 
-#let _thm-block(label, number, title, body, italic: true) = {
-  let num-str = if number != none { "\u{00A0}" + number } else { "" }
-  let t-str   = if title  != none { " (" + title + ")" }  else { "" }
-  block(above: 0.8em, below: 0.8em)[
-    #text(weight: "bold", label + num-str + t-str + ".")
-    #h(0.5em)
-    #if italic { text(style: "italic", body) } else { body }
-  ]
-}
+// _thm-block: wraps in figure for label support. Counter step goes inside body.
+#let _thm-block(label, number, title, body, italic: true, fig-kind: "theorem", fig-supplement: [Theorem], cnt: none) = figure(
+    block(above: 0.8em, below: 0.8em)[
+      #{
+        if cnt != none { cnt.step() }
+        let num-str = if number != none { "\u{00A0}" + number } else { "" }
+        let t-str   = if title  != none { " (" + title + ")" }  else { "" }
+        text(weight: "bold", label + num-str + t-str + ".")
+      }
+      #h(0.5em)
+      #if italic { text(style: "italic", body) } else { body }
+    ],
+    kind: fig-kind,
+    supplement: fig-supplement,
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 
 #let _cnt-theorem     = counter("theorem")
 #let _cnt-definition  = counter("definition")
@@ -379,39 +505,33 @@
 #let _cnt-principle   = counter("principle")
 
 #let theorem(title: none, body) = {
-  _cnt-theorem.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-theorem.get().at(0))
-  _thm-block("Theorem", n, title, body, italic: true)
+  _thm-block("Theorem", n, title, body, italic: true, fig-kind: "theorem", fig-supplement: [Theorem], cnt: _cnt-theorem)
 }
 
 #let lemma(title: none, body) = {
-  _cnt-theorem.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-theorem.get().at(0))
-  _thm-block("Lemma", n, title, body, italic: true)
+  _thm-block("Lemma", n, title, body, italic: true, fig-kind: "lemma", fig-supplement: [Lemma], cnt: _cnt-theorem)
 }
 
 #let corollary(title: none, body) = {
-  _cnt-theorem.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-theorem.get().at(0))
-  _thm-block("Corollary", n, title, body, italic: true)
+  _thm-block("Corollary", n, title, body, italic: true, fig-kind: "corollary", fig-supplement: [Corollary], cnt: _cnt-theorem)
 }
 
 #let proposition(title: none, body) = {
-  _cnt-theorem.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-theorem.get().at(0))
-  _thm-block("Proposition", n, title, body, italic: true)
+  _thm-block("Proposition", n, title, body, italic: true, fig-kind: "proposition", fig-supplement: [Proposition], cnt: _cnt-theorem)
 }
 
 #let definition(title: none, body) = {
-  _cnt-definition.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-definition.get().at(0))
-  _thm-block("Definition", n, title, body, italic: false)
+  _thm-block("Definition", n, title, body, italic: false, fig-kind: "definition", fig-supplement: [Definition], cnt: _cnt-definition)
 }
 
 #let example(title: none, body) = {
-  _cnt-example.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-example.get().at(0))
-  _thm-block("Example", n, title, body, italic: false)
+  _thm-block("Example", n, title, body, italic: false, fig-kind: "example", fig-supplement: [Example], cnt: _cnt-example)
 }
 
 #let remark(title: none, body) = {
@@ -423,21 +543,18 @@
 }
 
 #let principle(title: none, body) = {
-  _cnt-principle.step()
   let n = context str(_cnt-principle.get().at(0))
-  _thm-block("Principle", n, title, body, italic: false)
+  _thm-block("Principle", n, title, body, italic: false, fig-kind: "principle", fig-supplement: [Principle], cnt: _cnt-principle)
 }
 
 #let derivation(title: none, body) = {
-  _cnt-derivation.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-derivation.get().at(0))
-  _thm-block("Derivation", n, title, [#text(style: "italic", body) #h(1fr) □], italic: false)
+  _thm-block("Derivation", n, title, [#text(style: "italic", body) #h(1fr) □], italic: false, fig-kind: "derivation", fig-supplement: [Derivation], cnt: _cnt-derivation)
 }
 
 #let calculation(title: none, body) = {
-  _cnt-calculation.step()
   let n = context str(counter(heading).get().at(0)) + "." + str(_cnt-calculation.get().at(0))
-  _thm-block("Calculation", n, title, body, italic: false)
+  _thm-block("Calculation", n, title, body, italic: false, fig-kind: "calculation", fig-supplement: [Calculation], cnt: _cnt-calculation)
 }
 
 // --- Q&A helper (mirrors \qa{title}) ----------------------------------------

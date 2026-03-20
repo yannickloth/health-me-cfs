@@ -11,8 +11,8 @@
 // Body: Libertinus Serif (Palatino-class, mirrors newpxtext)
 // Heading: TeX Gyre Adventor (Optima-like sans, mirrors \tgadventor)
 // Mono: DejaVu Sans Mono
-#let font-body    = "Libertinus Serif"
-#let font-heading = "TeX Gyre Adventor"
+#let font-body    = ("Libertinus Serif", "Noto Serif")
+#let font-heading = ("Noto Sans", "Liberation Sans")
 #let font-mono    = "DejaVu Sans Mono"
 
 // ── Type scale ────────────────────────────────────────────────────────────────
