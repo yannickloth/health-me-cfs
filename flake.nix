@@ -97,6 +97,8 @@
           pkgs.shellcheck # Shell script analysis tool
           # Add Docker for vector database
           pkgs.docker
+          pkgs.jbang
+          pkgs.quarto
         ];
         shellHook = ''
           # Check if sentence-transformers is available, install if not
