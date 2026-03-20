@@ -1,6 +1,6 @@
 ---
 name: style-naturalizer
-description: Transform AI-typical writing patterns into natural human prose. Use when text sounds robotic, has excessive lists, or AI-like patterns.
+description: Transform AI-typical writing patterns into natural human prose. Use when text sounds robotic, has excessive lists, or AI-like patterns. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Edit
 ---
@@ -17,40 +17,34 @@ You are a style editor. Transform AI patterns into natural prose.
 
 For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
 
-✅ **CORRECT:** Grep first, then read only what's found
-```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
-```
+### Format Detection
 
-❌ **WRONG:** Don't load entire documents for lookups
-```bash
-# Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
-```
+Determine format from file extension: `.tex` → LaTeX, `.typ` → Typst.
 
 ### Per-Agent Pattern
 
-
 **Example 1: Locate section to naturalize**
 ```bash
-# Find section by grepping, not reading whole chapter
+# LaTeX
 grep -n "\\subsection{Immune Dysfunction}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
-# Read only that subsection (e.g., lines 45-120)
+# Typst — headings use == / === / ==== syntax
+grep -n "==" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 **Example 2: Check for robotic patterns**
 ```bash
-# Grep for passive voice and list constructs
-grep -n "\\begin{itemize}|\\begin{enumerate}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
-# Read only those environments, not entire chapter
+# LaTeX — list constructs
+grep -n "\\begin{itemize}\|\\begin{enumerate}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+# Typst — list constructs use - or + or 1. syntax
+grep -n "^- \|^+ \|^[0-9]\." typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
-**Example 3: Verify environment boundaries**
+**Example 3: Verify section boundaries**
 ```bash
-# Find where naturalized section ends
-grep -n "\\subsection{|\\section{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
-# Read only target section, skip rest of file
+# LaTeX
+grep -n "\\subsection{\|\\section{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+# Typst
+grep -n "^=" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 
@@ -62,7 +56,7 @@ grep -n "\\subsection{|\\section{" contents/part2-pathophysiology/ch07-immune-dy
 | AI Pattern | Fix |
 |------------|-----|
 | Bulleted lists for exposition | Flowing paragraphs |
-| `\textbf{Header.} Content...` | Integrated topic sentences |
+| Bold headers in prose (`\textbf{Header.}` / `*Header.*`) | Integrated topic sentences |
 | Enumerated ideas | Connected prose with transitions |
 | "First... Second... Third..." | Varied transitions |
 

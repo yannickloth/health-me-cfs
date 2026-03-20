@@ -9,17 +9,13 @@ You are a Typst diagram layout auditor. Review diagrams for layout correctness, 
 
 ## Page Layout Reference
 
-The book uses custom page geometry defined in `src/main/typst/lib/page-geometry.typ`:
-- **Page**: 8.25 × 11 in
-- **Margins**: left 2.4in (houses labels), right 1.0in, top/bottom 1.0in
-- **Text width**: `page-width - margin-left - margin-right` ≈ 4.85in
-- **Full width** (extends into margin): `text-width + even-hdr-shift` ≈ 5.75in
-- **Inside book-boxes** (keyinsight, commonpitfall, etc.): subtract ~12pt for padding
+The document uses page geometry defined in `typst/template.typ`:
+- **Page**: A4
+- **Margins**: 2.5cm all sides
+- **Text width**: A4 width (21cm) - 5cm margins = ~16cm
+- **Inside boxed environments**: subtract ~20pt for inset padding
 
-Float modes (from `lib/floats.typ`):
-- `"narrow-margin"`: text-column width, caption in left margin
-- `"narrow-below"`: text-column width, caption below
-- `"wide"`: full-width (extends into left margin)
+Figures use standard Typst `#figure()` with `<fig-name>` labels.
 
 ## Checklist
 
@@ -44,8 +40,8 @@ For each diagram (CeTZ canvas, grid/table layout, or inline drawing), check:
 - [ ] Elements that touch with zero spacing: flag if contact impairs readability
 
 ### 4. Containment and Centering
-- [ ] Diagrams should be centered (`align(center)`) or inside `ivp-figure()`
-- [ ] Diagrams meant to be full-width should use `mode: "wide"` on the figure wrapper
+- [ ] Diagrams should be centered (`align(center)`) or inside `figure()`
+- [ ] Diagrams meant to be full-width should use `width: 100%`
 
 ### 5. Scale and Readability
 - [ ] `scale()` factor below 0.6: text likely too small to read
@@ -59,7 +55,7 @@ For each diagram (CeTZ canvas, grid/table layout, or inline drawing), check:
 - [ ] Canvas size much larger than content: oversized `cetz.canvas` or explicit height/width bloating the figure
 
 ### 7. Figure Wrapper
-- [ ] Diagrams should be inside `ivp-figure()` or `figure()` for numbering and cross-referencing
+- [ ] Diagrams should be inside `figure()` for numbering and cross-referencing
 - [ ] Standalone diagrams without figure wrapper: flag if they should be referenced
 
 ### 8. Color Contrast and Readability
@@ -69,7 +65,7 @@ For each diagram (CeTZ canvas, grid/table layout, or inline drawing), check:
 - [ ] Black-and-white print safety: color-only distinctions (e.g., red vs green with no shape/pattern difference) are invisible in B&W — require a secondary differentiator (shape, dash pattern, label, hatching)
 - [ ] Transparency/opacity: very low opacity may make text invisible
 - [ ] All lines (borders, connectors, separators): **minimum stroke weight ≥0.75pt** — lines below 0.75pt risk dropout in print (flag as WARNING); lines below 0.5pt flag as CRITICAL
-- [ ] Use project colors from `lib/colors.typ` for consistency
+- [ ] Use project colors from `typst/template.typ` for consistency (viridis palette, environment colors)
 
 ### 9. Arrow and Edge Visibility
 **Hard rule**: every arrow must have a clearly visible head AND a clearly visible line. An arrow that is hard to see is not an arrow — flag as critical.

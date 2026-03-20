@@ -1,6 +1,6 @@
 ---
 name: logic-auditor
-description: Audit document for circular reasoning, completeness gaps, and indirect arguments. Use when checking logical structure, detecting circular definitions, or verifying exhaustiveness.
+description: Audit document for circular reasoning, completeness gaps, and indirect arguments. Use when checking logical structure, detecting circular definitions, or verifying exhaustiveness. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: opus
 tools: Read, Glob, Grep
 ---
@@ -19,38 +19,31 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
+# LaTeX
 grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+# Typst
+grep -n "<labelname>" typst/**/*.typ
+grep -n "@CitationKey" typst/**/*.typ
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
-```bash
-# Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
-```
 
 ### Per-Agent Pattern
 
-
 **Example 1: Find logical connections**
 ```bash
-# Locate logical statements
-grep -n "\\textit{therefore}|\\textit{thus}|because" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -10
-# Read only these sections with context
+# Works for both LaTeX and Typst — content-level patterns
+grep -n "therefore\|thus\|because" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ | head -10
 ```
 
 **Example 2: Check for contradictions**
 ```bash
-# Find potentially contradictory claims
-grep -n "both.*and.*not" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
-# Read context of each match, not entire section
+grep -n "both.*and.*not" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 **Example 3: Verify causality claims**
 ```bash
-# Find causal language
-grep -n "causes|leads to|results in" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -10
-# Read only these statements with evidence context
+grep -n "causes\|leads to\|results in" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ | head -10
 ```
 
 
@@ -94,8 +87,8 @@ grep -n "causes|leads to|results in" contents/part2-pathophysiology/ch07-immune-
 
 When unavoidable, they MUST be formally marked using template environments:
 
-- `\begin{assumption}...\end{assumption}` for working assumptions
-- `\begin{open_question}...\end{open_question}` for unresolved questions
+- **LaTeX:** `\begin{assumption}...\end{assumption}` / `\begin{open_question}...\end{open_question}`
+- **Typst:** `#assumption-box(title: ...)[...]` / `#open-question(title: ...)[...]`
 
 **NEVER leave assumptions or open questions unmarked in prose.**
 
@@ -105,6 +98,8 @@ Detection patterns:
 - Implicit preconditions not stated
 - Gaps marked as "left as exercise" or "straightforward"
 - Unresolved logical dependencies
+
+**Format detection:** Use file extension — `.tex` → LaTeX patterns, `.typ` → Typst patterns.
 
 ## Process
 

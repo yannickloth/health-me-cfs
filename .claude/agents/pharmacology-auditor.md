@@ -1,6 +1,6 @@
 ---
 name: pharmacology-auditor
-description: Audit drug/medication content for MOA accuracy, pharmacokinetics, drug interactions, off-label transparency, withdrawal risks, and population-specific cautions. Use when reviewing medication chapters or treatment protocols.
+description: Audit drug/medication content for MOA accuracy, pharmacokinetics, drug interactions, off-label transparency, withdrawal risks, and population-specific cautions. Use when reviewing medication chapters or treatment protocols. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

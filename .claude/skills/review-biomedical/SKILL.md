@@ -10,7 +10,15 @@ Run all 20 review categories on the specified scope, one pass at a time. Each pa
 
 ## Arguments
 
-- `$ARGUMENTS` -- file path(s) or glob pattern to review (e.g., `contents/part2-pathophysiology/ch07-immune-dysfunction.tex` or `contents/**/*.tex`)
+- `$ARGUMENTS` -- file path(s) or glob pattern to review (e.g., `typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ`, `contents/part2-pathophysiology/ch07-immune-dysfunction.tex`, or `typst/**/*.typ`)
+
+## Format Detection
+
+Determine format from file extension:
+- `.tex` files → **LaTeX mode**: use LaTeX agents, `nix build` for verification, `\cite{}` patterns
+- `.typ` files → **Typst mode**: use Typst agents, `typst compile` for verification, `@Key` citation patterns
+
+This affects Phase 1 (build tool) and Phase 4 (keyword grep patterns). All domain auditors (Phases 2-5) work with both formats.
 
 **Guard:** If `$ARGUMENTS` is empty, blank, or contains only the literal string `$ARGUMENTS`, ask the user for a scope before proceeding. Do not start the review without a concrete file path or glob pattern.
 
@@ -28,8 +36,8 @@ These catch low-level issues that may cause cascading false positives in later p
 
 | Step | Agent | Category | Focus |
 |------|-------|----------|-------|
-| 1.1 | `test-runner` | 9. LaTeX & Build | Clean build, no errors |
-| 1.2 | `link-checker` | 4. Internal Consistency | Broken `\ref{}`, `\cite{}`, `\label{}` |
+| 1.1 | `test-runner` (LaTeX: `nix build`) / `typst-syntax-fixer` (Typst: `typst compile`) | 9. Build | Clean build, no errors |
+| 1.2 | `link-checker` (LaTeX) / `typst-xref-checker` + `typst-citation-checker` (Typst) | 4. Internal Consistency | Broken cross-references and citations |
 | 1.3 | `bibliography-auditor` | 6. Bibliography | Duplicates, missing fields, orphan entries |
 | 1.4 | `document-health-monitor` | 5. Structural Completeness | Stubs, empty sections, balance |
 
@@ -90,7 +98,7 @@ Run only the agents relevant to the file scope. Determine relevance by checking 
 | 6.1 | `publication-preparer` | 10. Publication Readiness | License, AI disclosure, metadata |
 | 6.2 | `math-verifier` | 7. Mathematical Models | Units, parameters, notation (Part V only) |
 
-**Note:** Step 6.2 runs only if scope includes Part V files (`contents/part5-modeling/`).
+**Note:** Step 6.2 runs only if scope includes Part V files (`contents/part5-modeling/` or `typst/contents/part5-modeling/`).
 
 ## Execution Protocol
 

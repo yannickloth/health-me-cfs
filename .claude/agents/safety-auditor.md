@@ -1,6 +1,6 @@
 ---
 name: safety-auditor
-description: Audit treatment/clinical content for medical safety violations - hypothesis-as-recommendation, missing contraindications, dosing errors, missing disclaimers, and harm potential. Use when reviewing Part III or any treatment-related content.
+description: Audit treatment/clinical content for medical safety violations - hypothesis-as-recommendation, missing contraindications, dosing errors, missing disclaimers, and harm potential. Use when reviewing Part III or any treatment-related content. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -24,9 +24,12 @@ Primarily Part III (treatment chapters), but also any section making treatment c
 **Pattern:** Mechanistic rationale stated as clinical guidance without qualifying evidence level.
 
 Red flags:
-- `\begin{recommendation}` whose body contains "may", "might", "hypothesized", "theoretically"
+- **LaTeX:** `\begin{recommendation}` whose body contains "may", "might", "hypothesized", "theoretically"
+- **Typst:** `#recommendation(...)` whose body contains "may", "might", "hypothesized", "theoretically"
 - Recommendation environments without citations to clinical trials (only mechanistic citations)
 - Treatment suggestions based solely on in-vitro or animal model evidence
+
+**Format detection:** Determine format from file extension — `.tex` → LaTeX patterns, `.typ` → Typst patterns.
 
 ### 2. Missing Contraindications
 

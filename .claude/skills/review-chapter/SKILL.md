@@ -5,13 +5,13 @@ description: Comprehensive chapter review — runs all review agents sequentiall
 
 Run a comprehensive review of a book chapter by executing all relevant review agents in sequence. This is the "full audit" for a chapter.
 
-**Scope**: $ARGUMENTS (chapter path, e.g., `src/main/latex/volume-1/part1/ch01-why-architecture-matters.tex`, `src/main/latex/volume-1/part2/ch07/`, or `src/main/typst/volume-2/part1/ch01/`)
+**Scope**: $ARGUMENTS (chapter path, e.g., `typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ`, `contents/part2-pathophysiology/ch07-immune-dysfunction.tex`, or `typst/contents/part1-clinical/`)
 
 ## Format Detection
 
-Detect the source format from the path:
-- Path contains `src/main/latex/` → **LaTeX mode**: use LaTeX agents (`xref-checker`, `citation-checker`, `figure-caption-auditor`, etc.)
-- Path contains `src/main/typst/` → **Typst mode**: use Typst agents (`typst-xref-checker`, `typst-citation-checker`, `typst-figure-caption-auditor`, etc.)
+Detect the source format from the file extension or path:
+- `.tex` files or path under `contents/` → **LaTeX mode**: use LaTeX agents (`xref-checker`, `citation-checker`, `figure-caption-auditor`, etc.)
+- `.typ` files or path under `typst/` → **Typst mode**: use Typst agents (`typst-xref-checker`, `typst-citation-checker`, `typst-figure-caption-auditor`, etc.)
 
 The mapping between LaTeX and Typst agents is:
 | LaTeX Agent | Typst Agent |
@@ -78,7 +78,7 @@ Run these agents in parallel since they are independent:
 
 ### Phase 5: Build Verification
 
-20. Build the volume with `latexmk` (LaTeX) or `typst compile` (Typst) and verify zero errors
+20. Build the document: LaTeX → `nix build`, Typst → `typst compile typst/ms.typ` — verify zero errors
 
 **Report**: "Phase 5: Build PASS/FAIL"
 

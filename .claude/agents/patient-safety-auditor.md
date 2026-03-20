@@ -1,6 +1,6 @@
 ---
 name: patient-safety-auditor
-description: Audit patient-facing content for PEM harm from overexertion advice, severe/very-severe representation, psychological framing dangers, and supplement safety assumptions. Use when reviewing any content patients might read directly.
+description: Audit patient-facing content for PEM harm from overexertion advice, severe/very-severe representation, psychological framing dangers, and supplement safety assumptions. Use when reviewing any content patients might read directly. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

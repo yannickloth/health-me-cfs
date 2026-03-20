@@ -1,6 +1,6 @@
 ---
 name: biochemistry-auditor
-description: Audit metabolomics and biochemistry content for pathway stoichiometry, redox chemistry specificity, mitochondrial precision, and substrate/enzyme/cofactor role clarity. Use when reviewing ch06 or metabolic content.
+description: Audit metabolomics and biochemistry content for pathway stoichiometry, redox chemistry specificity, mitochondrial precision, and substrate/enzyme/cofactor role clarity. Use when reviewing ch06 or metabolic content. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

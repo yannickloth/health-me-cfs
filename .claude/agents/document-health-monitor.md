@@ -1,6 +1,6 @@
 ---
 name: document-health-monitor
-description: Generate structural health metrics for the document — chapter lengths, citation density, empty section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing Part V skeleton completeness.
+description: Generate structural health metrics for the document — chapter lengths, citation density, empty section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing Part V skeleton completeness. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: haiku
 tools: Read, Grep, Glob, Bash
 ---
@@ -22,8 +22,8 @@ Provide a structural health overview of the document without reading full conten
 ## Capabilities
 
 - Count lines and approximate word count per chapter
-- Count citations (`\cite{}`) per chapter
-- Detect placeholder content (`\lipsum`, `% TODO`, `% PLACEHOLDER`)
+- Count citations per chapter (LaTeX: `\cite{}`, Typst: `@Key`)
+- Detect placeholder content (`\lipsum`, `lorem()`, `// TODO`, `% TODO`, `% PLACEHOLDER`)
 - Identify empty environments or skeleton-only sections
 - Flag chapters with zero citations (likely stub)
 - Generate summary health report with rankings
@@ -33,7 +33,11 @@ Provide a structural health overview of the document without reading full conten
 - Read-only: does NOT modify files
 - Does NOT assess content quality (use `content-reviewer`)
 - Metrics are structural proxies, not quality measures
-- Line counts include LaTeX markup (not pure text)
+- Line counts include markup (not pure text)
+
+## Format Detection
+
+Determine format from file extension: `.tex` → LaTeX, `.typ` → Typst. Adapt grep patterns accordingly.
 
 ## Tools
 
@@ -47,7 +51,10 @@ Provide a structural health overview of the document without reading full conten
 ### Step 1: List All Chapter Files
 
 ```bash
+# LaTeX
 glob "contents/**/*.tex"
+# Typst
+glob "typst/contents/**/*.typ"
 ```
 
 Group by part (part1 through part5, appendices).
@@ -55,14 +62,22 @@ Group by part (part1 through part5, appendices).
 ### Step 2: Measure Line Counts
 
 ```bash
+# Typst (primary)
+wc -l typst/contents/part1-clinical/*.typ typst/contents/part2-pathophysiology/*.typ \
+      typst/contents/part3-treatment/*.typ typst/contents/part4-research/*.typ \
+      typst/contents/part5-modeling/*.typ typst/contents/appendices/*.typ
+# LaTeX (if still present)
 wc -l contents/part1-clinical/*.tex contents/part2-pathophysiology/*.tex \
-        contents/part3-treatment/*.tex contents/part4-research/*.tex \
-        contents/part5-modeling/*.tex contents/appendices/*.tex
+      contents/part3-treatment/*.tex contents/part4-research/*.tex \
+      contents/part5-modeling/*.tex contents/appendices/*.tex
 ```
 
 ### Step 3: Count Citations Per Chapter
 
 ```bash
+# Typst
+grep -c "@[A-Za-z]" typst/contents/part1-clinical/*.typ 2>/dev/null
+# LaTeX
 grep -c "\\\\cite{" contents/part1-clinical/*.tex 2>/dev/null
 # Repeat for each part
 ```
@@ -70,24 +85,21 @@ grep -c "\\\\cite{" contents/part1-clinical/*.tex 2>/dev/null
 ### Step 4: Detect Placeholders
 
 ```bash
-# Find \lipsum usage
-grep -rln "\\\\lipsum" contents/
-
-# Find TODO comments
-grep -rn "% TODO\|% PLACEHOLDER\|% STUB\|lorem ipsum" contents/ --include="*.tex"
-
-# Find empty environments (environment with no content)
-grep -n "begin{[a-z]*}.*\n.*end{" contents/part5-modeling/*.tex
+# Typst
+grep -rn "// TODO\|// PLACEHOLDER\|// STUB\|lorem" typst/contents/ --include="*.typ"
+# LaTeX
+grep -rn "% TODO\|% PLACEHOLDER\|% STUB\|\\\\lipsum\|lorem ipsum" contents/ --include="*.tex"
 ```
 
 ### Step 5: Part V Skeleton Analysis
 
 For each Part V chapter, check what exists:
 ```bash
-grep -c "\\\\section\|\\\\subsection" contents/part5-modeling/*.tex
-grep -c "\\\\begin{" contents/part5-modeling/*.tex
-grep -c "\\\\cite{" contents/part5-modeling/*.tex
-grep -c "\\\\lipsum\|% TODO" contents/part5-modeling/*.tex
+# Typst
+grep -c "^=" typst/contents/part5-modeling/*.typ        # headings
+grep -c "#" typst/contents/part5-modeling/*.typ          # function calls (environments)
+grep -c "@[A-Z]" typst/contents/part5-modeling/*.typ     # citations
+grep -c "// TODO" typst/contents/part5-modeling/*.typ     # placeholders
 ```
 
 ### Step 6: Generate Health Report

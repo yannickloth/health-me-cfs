@@ -1,6 +1,6 @@
 ---
 name: model-auditor
-description: Cross-validate DAG, EPC, and ODE models for internal consistency — certainty alignment, event timing vs. ODE predictions, and parameter citation coverage. Use when auditing formalization consistency or completing formalization pipeline Stage 4.
+description: Cross-validate DAG, EPC, and ODE models for internal consistency — certainty alignment, event timing vs. ODE predictions, and parameter citation coverage. Use when auditing formalization consistency or completing formalization pipeline Stage 4. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: opus
 tools: Read, Grep, Glob
 ---
@@ -35,8 +35,8 @@ Ensure mathematical and scientific consistency across the three formalization le
 
 ## Tools
 
-- **Read:** Model YAML files, chapter .tex files with formal content
-- **Grep:** Find certainty values, timing annotations, `\cite{}` in model blocks
+- **Read:** Model YAML files, chapter files (.tex or .typ) with formal content
+- **Grep:** Find certainty values, timing annotations, citations (`\cite{}` in LaTeX, `@Key` in Typst) in model blocks
 - **Glob:** Locate all model files for a process
 
 ## Instructions
@@ -80,7 +80,11 @@ For each ODE parameter:
 - Check that key exists in references.bib
 
 ```bash
+# LaTeX
 grep -n "cite{" contents/part5-modeling/chNN-*.tex
+# Typst
+grep -n "@[A-Z]" typst/contents/part5-modeling/chNN-*.typ
+# Check bib
 grep -n "^@" references.bib | grep "CITATION_KEY"
 ```
 

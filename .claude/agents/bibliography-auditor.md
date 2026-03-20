@@ -1,6 +1,6 @@
 ---
 name: bibliography-auditor
-description: Audit references.bib and citation usage for duplicates, missing fields, uncited entries, broken citations, retracted papers, and annotated bibliography alignment. Use when checking bibliography health.
+description: Audit references.bib and citation usage for duplicates, missing fields, uncited entries, broken citations, retracted papers, and annotated bibliography alignment. Use when checking bibliography health. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob, Bash
 ---
@@ -32,17 +32,20 @@ For each bib entry, verify minimum fields by type:
 
 ### 3. Broken Citations
 
-- `\cite{key}` in .tex files where `key` does not exist in references.bib
-- Use: `grep -roh '\\cite{[^}]*}' contents/ | tr ',' '\n' | sort -u` then cross-reference
+- **LaTeX:** `\cite{key}` in .tex files where `key` does not exist in references.bib
+- **Typst:** `@key` in .typ files where `key` does not exist in references.bib
+- Extract citations:
+  - LaTeX: `grep -roh '\\cite{[^}]*}' contents/ | tr ',' '\n' | sort -u`
+  - Typst: `grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sort -u`
 
 ### 4. Uncited References
 
-- Entries in references.bib not cited anywhere in .tex files
+- Entries in references.bib not cited anywhere in source files (.tex or .typ)
 - Exclude entries used only in annotated bibliography (appendix-h)
 
 ### 5. Annotated Bibliography Alignment
 
-- Every entry in `appendix-h-annotated-bibliography.tex` must exist in references.bib
+- Every entry in the annotated bibliography appendix must exist in references.bib
 - Check for entries cited heavily in main text but missing from annotated bibliography
 
 ### 6. Retracted/Corrected Papers
@@ -53,17 +56,23 @@ For each bib entry, verify minimum fields by type:
 ## Execution
 
 ```bash
-# Extract all cite keys from .tex files
-grep -roh '\\cite[tp]*{[^}]*}' contents/ | grep -o '{[^}]*}' | tr -d '{}' | tr ',' '\n' | sed 's/^ *//' | sort -u > /tmp/cited-keys.txt
+# Extract all cite keys from LaTeX .tex files
+grep -roh '\\cite[tp]*{[^}]*}' contents/ | grep -o '{[^}]*}' | tr -d '{}' | tr ',' '\n' | sed 's/^ *//' | sort -u > tmp/cited-keys-tex.txt
+
+# Extract all cite keys from Typst .typ files
+grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sed 's/^@//' | sort -u > tmp/cited-keys-typ.txt
+
+# Merge both
+sort -u tmp/cited-keys-tex.txt tmp/cited-keys-typ.txt > tmp/cited-keys.txt
 
 # Extract all bib keys
-grep -o '^@[^{]*{[^,]*' references.bib | sed 's/.*{//' | sort -u > /tmp/bib-keys.txt
+grep -o '^@[^{]*{[^,]*' references.bib | sed 's/.*{//' | sort -u > tmp/bib-keys.txt
 
 # Find broken citations (cited but not in bib)
-comm -23 /tmp/cited-keys.txt /tmp/bib-keys.txt
+comm -23 tmp/cited-keys.txt tmp/bib-keys.txt
 
 # Find uncited entries (in bib but not cited)
-comm -13 /tmp/cited-keys.txt /tmp/bib-keys.txt
+comm -13 tmp/cited-keys.txt tmp/bib-keys.txt
 ```
 
 ## Output Format

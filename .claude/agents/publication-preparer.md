@@ -1,6 +1,6 @@
 ---
 name: publication-preparer
-description: Check document publication-readiness — anonymization completeness, abstract quality, DOI/ORCID metadata, and generate a submission checklist. Use before any public release or preprint submission.
+description: Check document publication-readiness — anonymization completeness, abstract quality, DOI/ORCID metadata, and generate a submission checklist. Use before any public release or preprint submission. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -20,7 +20,7 @@ Verify that the document is ready for public distribution: all personal identifi
 
 ## Capabilities
 
-- Verify `\yannickloth` macro is used everywhere (no hardcoded personal info leaks)
+- Verify no hardcoded personal info leaks (check both LaTeX macros and Typst variables)
 - Check title page fields: author, ORCID, email, DOI
 - Validate abstract structure (background, methods/scope, findings, implications)
 - Confirm license section is present and complete
@@ -37,7 +37,7 @@ Verify that the document is ready for public distribution: all personal identifi
 
 ## Tools
 
-- **Read:** ms.tex, abstract.tex, license.tex, author-bio.tex, ai-disclosure.tex
+- **Read:** ms.tex / ms.typ, abstract, license, author-bio, ai-disclosure (both .tex and .typ variants)
 - **Grep:** Search for hardcoded personal identifiers, check macro usage
 - **Glob:** Locate all front matter and shared content files
 
@@ -46,51 +46,54 @@ Verify that the document is ready for public distribution: all personal identifi
 ### Step 1: Anonymization Check
 
 ```bash
-# Check \yannickloth macro is defined
-grep -n "newcommand.*yannickloth" ms.tex
+# Check for personal info leakage across both formats
+grep -rn "Yannick\|Loth\|yl@infolead\|infolead.eu" contents/shared/ typst/contents/shared/ ms.tex typst/ms.typ
 
-# Verify macro usage in title block
-grep -n "yannickloth\|Yannick\|Loth\|yl@infolead" ms.tex
-
-# Check for personal info leakage in front matter
-grep -rn "Yannick\|Loth\|yl@infolead\|infolead.eu" contents/shared/
+# Typst-specific: check template.typ for author variables
+grep -n "author-name\|Yannick\|Loth" typst/template.typ
 ```
 
-Flag: Any occurrence of the real name or email outside the controlled `\yannickloth` macro definition block.
-
-Note: The current ms.tex has the real name in the `\author{}` block (line 241). The `\yannickloth` macro is defined for hyperref metadata and references elsewhere. Check whether the `\author{}` block is intended to use the real name for the non-anonymous version, or whether it should use `\yannickloth`.
+Flag: Any occurrence of the real name or email outside the controlled author definition block.
 
 ### Step 2: Metadata Validation
 
-Read ms.tex lines 182–246. Check:
-- `\MECFSPaperDOI` is set to a valid Zenodo DOI
-- `\MECFSPaperDoiUrl` and `\MECFSPaperDoiHref` are consistent
-- ORCID link is present and formatted correctly
-- `pdfauthor`, `pdftitle` in `\hypersetup` are set
+**LaTeX:** Read ms.tex, check `\MECFSPaperDOI`, `\hypersetup` fields.
+**Typst:** Read typst/template.typ and typst/ms.typ, check:
+- `mecfs-doi` variable is set to a valid Zenodo DOI
+- `author-name` variable is set
+- ORCID link is present in the document metadata
+- `#set document(title: ..., author: ...)` is configured
 
 ### Step 3: Front Matter Check
 
 ```bash
+# Typst
+glob "typst/contents/shared/*.typ"
+# LaTeX
 glob "contents/shared/*.tex"
 ```
 
-Verify each required file exists and is non-empty:
-- `abstract.tex` — present, has content
-- `keywords.tex` — present, has content
-- `license.tex` — present, has license statement
-- `author-bio.tex` — present
-- `ai-disclosure.tex` — present
-- `version-notice.tex` — present
-- `changelog.tex` — present
+Verify each required file exists and is non-empty (check both formats):
+- abstract — present, has content
+- keywords — present, has content
+- license — present, has license statement
+- author-bio — present
+- ai-disclosure — present
+- version-notice — present
+- changelog — present
 
 ### Step 4: Patient Data Exclusion Check
 
 ```bash
+# LaTeX
 grep -n "^\\\\include{patients" ms.tex
 grep -n "^% \\\\include{patients" ms.tex
+# Typst
+grep -n "^#include.*patients" typst/ms.typ
+grep -n "^// #include.*patients" typst/ms.typ
 ```
 
-Verify: All `\include{patients/...}` lines are commented out (lines 368–376 in current ms.tex).
+Verify: All patient data includes are commented out or absent.
 
 ### Step 5: Generate Submission Checklist
 

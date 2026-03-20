@@ -1,6 +1,6 @@
 ---
 name: falsifiability-auditor
-description: Audit hypothesis/speculation environments for falsifiable predictions, hypothesis registry consistency, competing hypotheses, and overclaiming language. Use when checking intellectual rigor of scientific claims.
+description: Audit hypothesis/speculation environments for falsifiable predictions, hypothesis registry consistency, competing hypotheses, and overclaiming language. Use when checking intellectual rigor of scientific claims. Works with both LaTeX (.tex) and Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -17,7 +17,7 @@ Ensure every hypothesis and speculation in the document meets minimum standards 
 
 ### 1. Falsifiable Predictions
 
-For each `hypothesis` and `speculation` environment:
+For each hypothesis and speculation environment (LaTeX: `\begin{hypothesis}`, `\begin{speculation}`; Typst: `#hypothesis-box()`, `#fhypothesis()`, `#speculation()`):
 - **Has testable prediction?** Look for "if...then", "predicts that", "would expect", "falsified by"
 - **Classify:** fully falsifiable / weakly falsifiable / not falsifiable
 - **Weakly falsifiable:** Prediction exists but is vague ("further research would clarify")
@@ -26,8 +26,10 @@ For each `hypothesis` and `speculation` environment:
 ### 2. Hypothesis Registry Consistency
 
 Cross-reference:
-- Every `\begin{hypothesis}`, `\begin{speculation}`, `\begin{prediction}`, `\begin{open_question}` in chapter files
-- Against entries in `contents/part4-research/hypothesis-registry.tex`
+- Every hypothesis/speculation/prediction/open-question environment in chapter files:
+  - **LaTeX:** `\begin{hypothesis}`, `\begin{speculation}`, `\begin{prediction}`, `\begin{open_question}`
+  - **Typst:** `#hypothesis-box()`, `#fhypothesis()`, `#speculation()`, `#prediction()`, `#open-question()`
+- Against entries in the hypothesis registry (LaTeX: `contents/part4-research/hypothesis-registry.tex`, Typst: `typst/contents/part4-research/` equivalent)
 - Flag: present in chapters but missing from registry, or vice versa
 - Check: labels match, titles match, certainty values align
 
@@ -49,7 +51,7 @@ Scan for language that overstates evidence strength:
 ### 5. Limitations Acknowledged
 
 For each chapter/major section:
-- Is there at least one `limitation` or `warning` environment?
+- Is there at least one limitation or warning environment (LaTeX: `\begin{limitation}`, `\begin{warning}`; Typst: `#limitation()`, `#warning-box()`)?
 - Does the text state what the evidence does NOT show?
 - Are study limitations from cited papers propagated?
 
