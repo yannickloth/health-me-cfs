@@ -14,7 +14,6 @@ This section provides a safety-first framework for treatment planning, integrati
 <subsec:treatment-safety-imperative>
 
 #warning-box(title: [Treatment Trials as Energy Gambles])[
-<warn:treatment-energy-gamble>
 *Every medication or supplement trial in ME/CFS carries an energy cost independent of the treatment's intended effect.* Processing any exogenous substance requires ATP for hepatic metabolism (CYP450 system), renal clearance, protein binding, receptor adaptation, and immune surveillance. In a system with impaired mitochondrial ATP production—as demonstrated by two-day cardiopulmonary exercise testing @keller2024cpet @VanCampen2020SeverityCPET, mitochondrial function assays @Myhill2009mitochondrial, and metabolomic profiling @Naviaux2017suramin @Fluge2016—this processing overhead can itself trigger post-exertional malaise.
 
 *The clinical consequence*: A treatment that is safe and well-tolerated in healthy individuals may provoke a crash in a severe ME/CFS patient—not because of pharmacological adverse effects, but because the body cannot afford the metabolic cost of processing the substance.
@@ -26,7 +25,7 @@ This section provides a safety-first framework for treatment planning, integrati
     - Multiple supplement initiation simultaneously overwhelming hepatic processing capacity (see sequencing rationale in Section @subsec:prioritizing-interventions)
 
 *Critical principle*: Treatment trials are not free. Each one consumes finite energy reserves. In severe patients, the number of tolerable failed trials may be very small before permanent deterioration occurs.
-]
+] <warn:treatment-energy-gamble>
 
 === Treatment Energy Categories
 <subsec:energy-categories>
@@ -60,11 +59,10 @@ Before initiating any treatment, establish:
 <subsec:microdosing>
 
 #warning-box(title: [Never Start at Standard Doses in ME/CFS])[
-<warn:never-standard-doses>
 ME/CFS patients—especially severe and very severe—must *never* be started on standard medication doses. The paradoxical reactor phenotype (Section @sec:paradoxical-reactor) affects a subset of patients—prevalence unknown, but frequently reported in clinical practice and patient communities—and even patients who are not paradoxical reactors have reduced metabolic processing capacity.
 
 *Universal rule*: Start at 1/4 to 1/10 of the standard starting dose. Titrate upward at minimum 1–2 week intervals. Monitor daily for the first 2 weeks of any new treatment.
-]
+] <warn:never-standard-doses>
 
 
 
@@ -313,9 +311,8 @@ For the subset of ME/CFS patients with comorbid MCAS (estimated 17–25% @Rohrh
 Mast cell-directed pharmacotherapy in ME/CFS follows a stepwise approach, starting with the lowest-energy-cost interventions. H1 antihistamines (cetirizine, loratadine; Category B) and H2 antihistamines (famotidine; Category B) are first-line, blocking two of the primary mediator pathways with minimal metabolic processing demands. Second-line agents include mast cell stabilizers (cromolyn sodium, ketotifen; Category B), which reduce degranulation frequency rather than blocking mediator effects. Weinstock et al. @Weinstock2023MCASneuro documented resolution of neuropsychiatric symptoms in all eight MCAS patients treated with this combination approach, though the case series design limits generalizability. For patients with prominent prostaglandin-mediated symptoms (flushing, abdominal cramping, diarrhea), aspirin or other COX inhibitors may be considered, but these carry higher energy cost (Category C) and gastrointestinal risk.
 
 #warning-box(title: [Tryptase Is a Poor Screening Marker for Food-Related MCAS])[
-<warn:tryptase-food-mcas>
 In POTS patients with mast cell activation, Kohno et al. @Kohno2021potsmast found tryptase elevated in only 9%, while histamine/methylhistamine was elevated in 52% and prostaglandin D#sub[2] in 36%. Relying on tryptase alone for MCAS screening will miss the majority of food-triggered mast cell activation cases. Urinary mediator panels (N-methylhistamine, leukotriene E4, prostaglandin D#sub[2] metabolite) offer superior sensitivity and can be collected at home @Voelker2024urinemast @Voelker2025biomarkersmast.
-]
+] <warn:tryptase-food-mcas>
 
 ==== Dietary Approaches for Mast Cell Stabilization
 <subsubsec:dietary-mcas>
@@ -344,9 +341,8 @@ The standard elimination-rechallenge protocol—four weeks of strict elimination
     - *One new food every 5–7 days* (rather than the standard 3–5 days) to allow for delayed reactions and energy recovery between challenges.
 
 #limitation(title: [No RCT of Elimination Diet in MCAS-ME/CFS])[
-<lim:elimination-no-rct>
 No randomized controlled trial has tested dietary elimination in ME/CFS patients with confirmed MCAS as a comorbidity. The evidence supporting this approach comes from MCAS clinical practice guidelines, patient survey data showing $tilde$51% response rates, and the mechanistic rationale that reducing mast cell activation burden should reduce mediator-driven symptom load. Individual dietary response varies substantially, and the protocol itself carries an energy cost (cognitive effort, meal planning, social restriction) that must be weighed against potential benefit. Patients who do not improve after 6 weeks of strict elimination should discontinue the protocol rather than pursuing increasingly restrictive diets.
-]
+] <lim:elimination-no-rct>
 
 === Ehlers-Danlos Syndrome
 // Physical therapy adaptations
@@ -627,14 +623,12 @@ Recognizing hEDS and MCAS in ME/CFS populations is critical because treatment ap
 === Biomarker-Guided Treatment
 
 #speculation(title: [Emerging Patient-Reported Interventions])[
-<spec:patient-interventions>
 Patient communities have reported several interventions not yet validated in randomized controlled trials but with plausible mechanistic rationale. These include: (1) Nicotine at low doses (2–4mg/day) for post-viral brain fog, with multiple independent reports of rapid improvement, possibly via nicotinic acetylcholine receptor modulation or anti-inflammatory effects; (2) Methylene blue at "minuscule doses" for smell restoration and brain fog reduction within one week, supported by published research on mitochondrial function improvement; (3) Ketogenic diet producing dramatic symptom resolution in some cases, with one report describing transition from "26 pills per day" to medication-free status. These interventions carry risks (nicotine addiction potential, individual dietary tolerance) and require medical supervision. They represent hypothesis-generating observations requiring formal clinical validation.
-]
+] <spec:patient-interventions>
 
 #warning-box(title: [Rituximab B-Cell Depletion Failed])[
-<warn:rituximab-failure>
 Despite promising early case series showing 67% improvement rates, the definitive Phase III RituxME trial (n=152) demonstrated that rituximab B-cell depletion is not associated with clinical improvement in ME/CFS @Fluge2019. The placebo response rate (35%) exceeded the rituximab response rate (26%). Six-year follow-up confirmed lack of long-term benefit @Rekeland2024. This represents an important negative result preventing patients from pursuing ineffective immunotherapy. The initial positive case series likely reflected placebo effects, spontaneous remission, or subset-specific responses not replicable in the broader ME/CFS population.
-]
+] <warn:rituximab-failure>
 
 === Pharmacogenomics
 <sec:pharmacogenomics>
@@ -656,7 +650,6 @@ Pharmacogenomic testing can identify patients at risk of adverse reactions _befo
 ==== Clinical Implications for ME/CFS
 
 #speculation(title: [Pharmacogenomics as Harm Reduction in ME/CFS])[
-<spec:pharmacogenomics-harm-reduction>
 
 Pharmacogenomic testing before initiating Category C (energy-demanding) medications could substantially reduce treatment-induced crashes in ME/CFS patients.
 
@@ -672,7 +665,7 @@ Pharmacogenomic testing before initiating Category C (energy-demanding) medicati
 *Certainty: 0.25* (pharmacogenomic principles are well-established in general medicine; application to ME/CFS treatment optimization is logical but unvalidated in clinical trials; the specific claim that pharmacogenomic-guided prescribing reduces crashes in ME/CFS is untested)
 
 *Available tests*: GeneSight, Genomind, OneOme RightMed, Tempus xG, or individual CYP450 testing through most reference laboratories. Cost: \$200–500, often partially covered by insurance.
-]
+] <spec:pharmacogenomics-harm-reduction>
 
 === Subtype-Specific Treatment Approaches
 <sec:subtype-approaches>
@@ -765,14 +758,13 @@ Several treatment combinations show evidence of synergistic benefit:
 === Interaction Risks
 
 #warning-box(title: [Dangerous Treatment Combinations in ME/CFS])[
-<warn:dangerous-combinations>
 
     - *Serotonin syndrome risk*: 5-HTP + SSRIs/SNRIs + trazodone—never combine serotonergic agents without physician supervision. Serotonin syndrome is a potentially fatal energy crisis
     - *CYP450 stacking*: Cimetidine (CYP inhibitor) + multiple CYP-metabolized drugs (aripiprazole, SSRIs, beta-blockers)—inhibited clearance leads to drug accumulation. Review all drug interactions when cimetidine is part of the regimen
     - *Bleeding risk*: Omega-3 + Ginkgo + CoQ10 + anticoagulants—cumulative antiplatelet effects. Monitor INR if combining multiple agents with anticoagulant properties
     - *Hypoglycemia*: D-ribose + alpha-lipoic acid + fasting—both lower blood glucose. Take with food; monitor blood glucose in diabetic patients
 
-]
+] <warn:dangerous-combinations>
 
 === Sequencing Considerations
 
@@ -1492,119 +1484,102 @@ Based on integration of recent molecular findings, patient-reported phenomena, a
 <subsec:wasf3-drug-target>
 
 #speculation(title: [WASF3 Inhibitors from Cancer Pipelines])[
-<spec:wasf3-inhibitor>
 The Wang 2023 finding that WASF3 knockdown with shRNA restores mitochondrial function in ME/CFS patient cells @wang2023wasf3 suggests WASF3 may be a druggable target. WASF3 is already under investigation as an oncology target for metastasis suppression. Repurposing WASF3 inhibitors from cancer drug development pipelines for ME/CFS could provide a reversible intervention targeting upstream mitochondrial dysfunction. Unlike symptomatic treatments, WASF3 inhibition might address the molecular mechanism driving Complex IV dysfunction and ATP depletion.
-]
+] <spec:wasf3-inhibitor>
 
 === Acetylcholine-Mitochondrial Axis
 <subsec:acetylcholine-mito>
 
 #hypothesis-box(title: [Cholinergic-Mitochondrial Signaling Link])[
-<hyp:ach-mito>
 Patient reports of rapid brain fog relief with nicotine (2–4mg daily), combined with documented mitochondrial dysfunction, suggest a potential cholinergic-mitochondrial signaling axis. Alpha-7 nicotinic acetylcholine receptors are present on mitochondrial membranes and modulate calcium handling, which directly affects ATP production. This raises the hypothesis that cholinergic signaling deficits may impair mitochondrial bioenergetics in ME/CFS. If validated, acetylcholinesterase inhibitors (donepezil, galantamine) used for Alzheimer's disease might provide both cognitive and metabolic benefits in ME/CFS.
-]
+] <hyp:ach-mito>
 
 #open-question(title: [Mitochondrial Acetylcholine Receptors in ME/CFS])[
-<q:mito-ach-receptors>
 Do ME/CFS patients show altered expression or function of mitochondrial alpha-7 nicotinic acetylcholine receptors? Does acetylcholine signaling regulate mitochondrial biogenesis or Complex IV assembly in human muscle cells?
-]
+] <q:mito-ach-receptors>
 
 === ATP Recovery Kinetics and Mitophagy
 <subsec:atp-recovery-mitophagy>
 
 #hypothesis-box(title: [Delayed ATP Recovery from Mitophagy Failure])[
-<hyp:mitophagy-pem>
 The 24–72 hour delay in VO#sub[2]max recovery observed in 2-day CPET @Lim2020 matches patient-reported post-exertional malaise timing. This delay aligns with the time course of mitochondrial autophagy (mitophagy) and biogenesis cycles, which operate on circadian and ultradian rhythms. Post-exertion, damaged mitochondria must be cleared via mitophagy and replaced through biogenesis—processes requiring 24–48 hours. If ME/CFS involves impaired mitophagy or delayed mitochondrial regeneration, ATP recovery would be prolonged, explaining the characteristic delayed symptom onset of PEM.
-]
+] <hyp:mitophagy-pem>
 
 #open-question(title: [Mitophagy Markers in ME/CFS])[
-<q:mitophagy-markers>
 Do ME/CFS patients show reduced mitophagy flux markers (PINK1, Parkin, LC3-II) post-exertion? Is mitochondrial biogenesis (PGC-1$alpha$, TFAM expression) delayed compared to healthy controls following standardized exercise?
-]
+] <q:mitophagy-markers>
 
 === Viral Trigger-ER Stress-WASF3 Pathway
 <subsec:viral-er-wasf3>
 
 #hypothesis-box(title: [Viral Proteostasis Disruption Activates WASF3])[
-<hyp:viral-er-wasf3>
 Multiple viral triggers identified in meta-analysis (EBV, HHV-7, enterovirus, coxsackie B) @hwang2023viral share a common mechanism: disruption of cellular proteostasis leading to endoplasmic reticulum (ER) stress and unfolded protein response (UPR) activation. Viral protein production overwhelms the ER, triggering stress pathways that may activate WASF3 expression. This connects viral onset with downstream mitochondrial dysfunction via ER stress-WASF3-mitochondria axis. If validated, ER stress modulators (tauroursodeoxycholic acid/TUDCA, 4-phenylbutyrate) might prevent WASF3 activation and progression to chronic ME/CFS when administered during acute viral illness.
-]
+] <hyp:viral-er-wasf3>
 
 #speculation(title: [ER Stress Modulators for Viral ME/CFS Prevention])[
-<spec:er-stress-prevention>
 Chemical chaperones that reduce ER stress (TUDCA 500–1000mg/day, 4-phenylbutyrate 500mg/day) are FDA-approved for other conditions and well-tolerated. Early administration during acute EBV, enterovirus, or SARS-CoV-2 infection might prevent ER stress-mediated WASF3 upregulation and subsequent mitochondrial dysfunction. This represents a testable prophylactic intervention for at-risk individuals (family history of ME/CFS, severe viral prodrome).
-]
+] <spec:er-stress-prevention>
 
 === Pyruvate Supplementation Hypothesis
 <subsec:pyruvate-supplementation>
 
 #speculation(title: [Pyruvate for ATP Regeneration Bypass])[
-<spec:pyruvate-supplement>
 If ATP regeneration is delayed 24–72 hours post-exertion due to mitochondrial dysfunction, direct pyruvate supplementation might bypass glycolytic bottlenecks by providing immediate acetyl-CoA substrate for the TCA cycle. Pyruvate enters mitochondria directly without requiring full glycolysis. Prophylactic pyruvate drinks (1–2g) consumed 30–60 minutes before anticipated exertion could theoretically prevent ATP depletion. Oral pyruvate is commercially available, well-tolerated, and used by athletes for performance enhancement. This represents a low-risk, testable intervention for activity preparation.
-]
+] <spec:pyruvate-supplement>
 
 === Methylene Blue as Electron Transport Bypass
 <subsec:methylene-blue-mechanism>
 
 #hypothesis-box(title: [Methylene Blue Electron Transport Enhancement])[
-<hyp:mb-mito-enhancement>
 Patient reports of methylene blue (1–5mg daily) improving brain fog and smell within one week suggest potential mitochondrial benefits. Methylene blue can accept electrons from NADH (Complex I) and donate them to Complex III, potentially enhancing electron flow when upstream complexes are impaired. Additionally, methylene blue may reduce oxidative stress and improve mitochondrial membrane potential. While WASF3-mediated damage affects Complex IV @wang2023wasf3, methylene blue's effects on overall electron transport chain efficiency and mitochondrial redox state might provide indirect benefit. This mechanism is established in methylene blue's use for methemoglobinemia and has shown mitochondrial benefits in neurodegenerative disease models.
-]
+] <hyp:mb-mito-enhancement>
 
 #open-question(title: [Complex-Specific Dysfunction Pattern])[
-<q:complex-specific>
 Is mitochondrial dysfunction in ME/CFS specific to Complex IV, or do other complexes show impairment? Would interventions targeting specific complex deficits (Complex I: CoQ10; Complex IV: copper, cytochrome c) show differential efficacy?
-]
+] <q:complex-specific>
 
 === Beta-Blockers for Pacing Enforcement
 <subsec:beta-blocker-pacing>
 
 #speculation(title: [Pharmacological Heart Rate Ceiling])[
-<spec:beta-blocker-pacing>
 The “$\<$5 crashes per year” rule suggests cumulative irreversible damage from exceeding energy limits. Low-dose beta-blockers (e.g., propranolol 10–20mg as needed) might pharmacologically enforce pacing by preventing heart rate spikes during inadvertent overexertion. Combined with heart rate-based wearable alerts, beta-blockers could provide a safety ceiling preventing accidental crashes in mild-to-moderate patients with variable symptom awareness. This differs from continuous beta-blockade for POTS—it would be prophylactic, taken before high-risk activities (social events, medical appointments).
-]
+] <spec:beta-blocker-pacing>
 
 === Immune Checkpoint Modulation
 <subsec:checkpoint-inhibition>
 
 #hypothesis-box(title: [T-Cell Exhaustion in Chronic Viral ME/CFS])[
-<hyp:t-cell-exhaustion>
 The failure of B-cell depletion (rituximab) @Fluge2019 suggests B-cells are not the primary immune dysfunction. Chronic viral infections induce T-cell exhaustion characterized by upregulation of checkpoint receptors (PD-1, TIM-3, LAG-3) and loss of effector function. If ME/CFS involves persistent viral antigen or defective viral clearance, exhausted T-cells may fail to control low-level infection, perpetuating immune activation. Anti-PD-1 or anti-CTLA-4 antibodies used in cancer immunotherapy might reverse T-cell exhaustion and restore antiviral immunity. This is highly speculative and carries significant risks (autoimmune adverse events), but represents a testable hypothesis if T-cell exhaustion markers are confirmed.
-]
+] <hyp:t-cell-exhaustion>
 
 #warning-box(title: [Checkpoint Inhibitors Carry High Risk])[
-<warn:checkpoint-risk>
 Immune checkpoint inhibitors are powerful immunotherapies with serious potential side effects including autoimmune colitis, pneumonitis, hepatitis, and endocrinopathies. They should only be considered in severe, refractory ME/CFS under research protocols with extensive safety monitoring. This speculation is hypothesis-generating for research, not clinical recommendation.
-]
+] <warn:checkpoint-risk>
 
 === Central Governor Theory Link
 <subsec:central-governor>
 
 #hypothesis-box(title: [Hypersensitive Central Governor as Protective Mechanism])[
-<hyp:central-governor>
 The “central governor” theory in exercise physiology proposes that the brain actively limits muscle recruitment to prevent tissue damage. ME/CFS may represent a hypersensitive central governor responding to real mitochondrial damage signals. Brain fog and cognitive fatigue might serve as protective mechanisms preventing ATP-depleting cognitive exertion when metabolic reserves are low. This reframes cognitive symptoms not as primary neurological dysfunction, but as adaptive limitation to prevent energetic crisis. Functional MRI studies comparing brain activation patterns during cognitive tasks in ME/CFS versus healthy controls could test this hypothesis.
-]
+] <hyp:central-governor>
 
 === Lactate Clearance Dysfunction
 <subsec:lactate-clearance>
 
 #hypothesis-box(title: [Impaired Lactate Clearance Delays Recovery])[
-<hyp:lactate-clearance>
 The 2-day CPET demonstrates impaired recovery, not just impaired peak performance @Lim2020. Lactate clearance occurs primarily via hepatic gluconeogenesis and mitochondrial lactate oxidation. If mitochondrial dysfunction impairs lactate-to-pyruvate conversion or liver metabolism is compromised, lactate accumulation would persist post-exertion, prolonging metabolic acidosis and delaying ATP regeneration. Serial blood lactate measurements at 0h, 24h, and 48h post-CPET could test this hypothesis. If confirmed, NAD#super[+] precursor supplementation (nicotinamide riboside, nicotinamide mononucleotide) to boost lactate dehydrogenase activity might accelerate recovery.
-]
+] <hyp:lactate-clearance>
 
 #speculation(title: [NAD+ Precursors for Lactate Clearance])[
-<spec:nad-lactate>
 NAD#super[+] is required for lactate-to-pyruvate conversion via lactate dehydrogenase. NAD#super[+] levels decline with age and chronic illness. Supplementation with NAD#super[+] precursors (nicotinamide riboside 300–1000mg/day, nicotinamide mononucleotide 250–500mg/day) is well-tolerated and raises cellular NAD#super[+] levels. If lactate clearance is impaired in ME/CFS, NAD#super[+] boosting might accelerate post-exertional recovery. This is testable with lactate measurements before and after NAD#super[+] supplementation during controlled exercise challenge.
-]
+] <spec:nad-lactate>
 
 === Mast Cell-Mitochondrial Crosstalk
 <subsec:mcas-mito>
 
 #hypothesis-box(title: [Mast Cell Mediators Damage Mitochondria])[
-<hyp:mcas-mito-damage>
 The high prevalence of mast cell activation syndrome (MCAS) in ME/CFS suggests potential mechanistic links beyond comorbidity. Histamine receptors are present on mitochondrial membranes and modulate respiration. Chronic release of mast cell mediators (histamine, tryptase, inflammatory cytokines) may directly impair mitochondrial function, creating a positive feedback loop: viral trigger $arrow.r$ mast cell activation $arrow.r$ mitochondrial damage $arrow.r$ cellular stress $arrow.r$ further mast cell activation. If validated, aggressive mast cell stabilization (H1/H2 blockers, quercetin, ketotifen) combined with mitochondrial support might synergistically improve both immune and metabolic dysfunction.
-]
+] <hyp:mcas-mito-damage>
 
 === Research Priorities
 <subsec:research-priorities>

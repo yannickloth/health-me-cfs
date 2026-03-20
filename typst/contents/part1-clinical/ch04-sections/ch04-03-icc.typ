@@ -8,7 +8,6 @@ The International Consensus Criteria (ICC), published in 2011 by Carruthers et a
 === Required Criteria
 
 #requirement-box(title: [International Consensus Criteria Structure])[
-<req:icc>
 Diagnosis of myalgic encephalomyelitis requires *post-exertional neuroimmune exhaustion (PENE)* as the mandatory hallmark PLUS manifestations from at least THREE neurological impairment categories PLUS at least ONE manifestation from each of THREE immune/gastro-intestinal/genitourinary, energy metabolism/transport, and cardiovascular/respiratory/thermoregulatory categories.
 
 *A. Post-Exertional Neuroimmune Exhaustion (PENE) — MANDATORY*
@@ -66,7 +65,7 @@ Pathological inability to produce sufficient energy on demand with the following
     - *Loss of thermostatic stability*: Subnormal body temperature, marked diurnal fluctuation, sweating episodes, cold extremities, intolerance to heat or cold
     - *Intolerance to extremes of temperature*
 
-]
+] <req:icc>
 
 === Phenotype Categories
 
@@ -99,7 +98,6 @@ The ICC framework has several advantages:
     - *Higher specificity*: More restrictive than Canadian Consensus or Fukuda, resulting in more homogeneous research cohorts
 
 #warning-box(title: [ICC Limitations])[
-<warn:icc-limitations>
 The restrictiveness of ICC creates challenges:
 
     - *Excludes mild cases*: Patients with genuine ME/CFS who do not yet manifest symptoms across all required categories may be missed
@@ -108,7 +106,7 @@ The restrictiveness of ICC creates challenges:
     - *Formal set-theoretic relationship*: $"ICC" subset "Canadian Consensus" subset "Fukuda"$ — ICC is the most restrictive subset
     - *Delayed diagnosis risk*: Waiting for full symptom constellation may delay intervention during the critical 6-month window
 
-]
+] <warn:icc-limitations>
 
 === Research and Clinical Application
 

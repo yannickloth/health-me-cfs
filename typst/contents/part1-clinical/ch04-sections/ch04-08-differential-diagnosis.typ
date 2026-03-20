@@ -10,7 +10,6 @@ ME/CFS is a diagnosis of exclusion, requiring careful evaluation to rule out oth
 ==== Endocrine Disorders
 
 #requirement-box(title: [Must Rule Out Before Diagnosing ME/CFS])[
-<req:endocrine-exclusions>
 
 *Hypothyroidism:*
 
@@ -30,12 +29,11 @@ ME/CFS is a diagnosis of exclusion, requiring careful evaluation to rule out oth
     - *Symptoms*: Fatigue, polyuria, polydipsia, weight loss
     - *Testing*: Fasting glucose, HbA1c
 
-]
+] <req:endocrine-exclusions>
 
 ==== Sleep Disorders
 
 #warning-box(title: [Obstructive Sleep Apnea Can Fully Mimic ME/CFS])[
-<warn:osa-mimic>
 
 *Obstructive Sleep Apnea (OSA):*
 OSA is a critical exclusion because it can produce a symptom profile nearly identical to ME/CFS:
@@ -63,7 +61,7 @@ OSA is a critical exclusion because it can produce a symptom profile nearly iden
     - No post-exertional malaise
     - Multiple sleep latency test (MSLT) shows short sleep latency
 
-]
+] <warn:osa-mimic>
 
 ==== Autoimmune and Inflammatory Diseases
 
@@ -97,9 +95,8 @@ The following autoimmune and inflammatory diseases share symptoms with ME/CFS bu
 ==== Hematologic Disorders
 
 #requirement-box(title: [Anemia Workup])[
-<req:anemia-exclusion>
 Hematologic disorders must be ruled out in the differential diagnosis of ME/CFS.
-]
+] <req:anemia-exclusion>
 
 *Iron Deficiency Anemia:*
 
@@ -135,14 +132,13 @@ This distinction is critical in the first 6 months post-infection, as aggressive
 ==== Malignancy
 
 #warning-box(title: [Occult Malignancy])[
-<warn:malignancy-screening>
 Cancer-related fatigue can mimic ME/CFS, particularly in early stages without obvious tumor burden:
 
     - *Red flags*: Unintentional weight loss, night sweats, fever, lymphadenopathy, age \>50 with new-onset fatigue
     - *Screening*: Age-appropriate cancer screening (colonoscopy, mammography); if red flags present, consider CT chest/abdomen/pelvis
     - *Laboratory clues*: Anemia, elevated ESR, abnormal WBC count
 
-]
+] <warn:malignancy-screening>
 
 ==== Psychiatric Disorders
 
@@ -261,9 +257,8 @@ Misdiagnosis of ME/CFS as an eating disorder is well-documented, particularly in
     - Tube feeding—sometimes life-saving in very severe ME/CFS—has been withheld in cases where the treating team incorrectly attributed the patient's inability to eat to an eating disorder
 
 #warning-box(title: [Do Not Withhold Nutritional Support Pending Psychiatric Diagnosis])[
-<warn:ed-nutritional-delay>
 In a patient with established or suspected ME/CFS who is losing weight or unable to maintain adequate intake, nutritional assessment and support should proceed on medical grounds regardless of whether an eating disorder is simultaneously suspected. The two assessments are not mutually exclusive, and delaying nutritional intervention while pursuing psychiatric workup risks life-threatening malnutrition @Baxter2021malnutrition. See Chapter @ch:urgent-action-severe for tube feeding indications.
-]
+] <warn:ed-nutritional-delay>
 
 *Eating Disorder Treatments Contraindicated in ME/CFS.*
 Standard evidence-based eating disorder treatments require significant modification when ME/CFS is present or suspected:
@@ -334,7 +329,6 @@ When a comorbidity might be primary:
     - *Re-evaluate if partial response*: Partial improvement suggests the comorbidity contributes but is not the sole driver; ME/CFS diagnosis remains appropriate
 
 #warning-box(title: [Avoid Premature Reclassification])[
-<warn:reclassification>
 Do NOT reclassify ME/CFS as “just POTS” or “just MCAS” without:
 
     - Demonstrating that treating the suspected primary condition produces substantial, sustained improvement
@@ -342,7 +336,7 @@ Do NOT reclassify ME/CFS as “just POTS” or “just MCAS” without:
     - Documenting functional recovery, not just symptom reduction
 
 Many patients have true comorbid ME/CFS + POTS + MCAS where all contribute. Treating comorbidities improves but does not cure ME/CFS in most cases.
-]
+] <warn:reclassification>
 
 *The Cascading Comorbidity Model.*
 
@@ -409,7 +403,6 @@ This cascading model suggests that identifying and treating upstream conditions 
 === When to Reconsider the Diagnosis
 
 #warning-box(title: [Red Flags Suggesting Alternative Diagnosis])[
-<warn:reconsider-diagnosis>
 ME/CFS diagnosis should be reconsidered if:
 
     - *New focal neurological signs*: Weakness, sensory loss, visual changes (suggests MS, tumor, stroke)
@@ -418,4 +411,4 @@ ME/CFS diagnosis should be reconsidered if:
     - *Lack of PEM*: If re-evaluation reveals no true post-exertional malaise, reconsider alternative diagnoses
     - *Complete resolution with psychiatric treatment*: If depression treatment alone fully resolves “fatigue,” the diagnosis was likely primary depression, not ME/CFS
 
-]
+] <warn:reconsider-diagnosis>

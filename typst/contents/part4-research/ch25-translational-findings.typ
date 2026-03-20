@@ -312,7 +312,6 @@ caption: [ME/CFS Treatment Protocols Applicable to EDS],
 ==== Key Distinctions: EDS-Specific Considerations
 
 #warning-box(title: [EDS vs. ME/CFS Differences])[
-<warn:eds-distinctions>
 While ME/CFS mechanisms translate to EDS, critical differences exist:
 
     - *Fatigue source*: In EDS, fatigue may result from musculoskeletal compensation for joint instability, not just autonomic/mitochondrial dysfunction
@@ -321,7 +320,7 @@ While ME/CFS mechanisms translate to EDS, critical differences exist:
     - *Treatment focus*: EDS requires joint protection and physical therapy alongside systemic treatments
 
 Not all EDS patients will respond to ME/CFS-derived protocols. Subset with prominent autonomic dysfunction, MCAS, or post-viral features most likely to benefit.
-]
+] <warn:eds-distinctions>
 
 ==== Research Priorities for EDS
 

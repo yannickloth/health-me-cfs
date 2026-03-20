@@ -56,7 +56,6 @@ The “early intervention imperative” articulated above is clinically reasonab
 Early identification of which systems are primarily affected helps guide treatment prioritization and educational/activity accommodations. Ambulatory pediatric patients (unlike severe cases) retain the potential for recovery across all subtypes, making early appropriate intervention particularly critical.
 
 #recommendation(title: [Pediatric Subtype Assessment and Early Intervention Prioritization])[
-<rec:ped-ambulatory-subtype>
 
 *Rationale:* The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction) proposes that ME/CFS involves different primary compartment dysfunction across subtypes. Identifying your child's dominant subtype guides which interventions to prioritize.
 
@@ -122,7 +121,7 @@ Early identification of which systems are primarily affected helps guide treatme
 
 *Key principle*: Subtype assessment informs prioritization but should NOT delay implementation of foundational interventions (pacing, sleep, hydration) while optimizing.
 
-]
+] <rec:ped-ambulatory-subtype>
 
 == Diagnosis and Assessment
 <sec:ped-diagnosis>
@@ -516,7 +515,6 @@ Medical management for ambulatory pediatric ME/CFS addresses the same symptoms a
 Pediatric ME/CFS has exceptional recovery potential—54–94% of children improve or recover compared to $lt.eq$22% of adults. This window of opportunity is not automatic; it must be actively preserved through aggressive early intervention.
 
 #protocol-box(title: [Early Intervention Window Preservation])[
-<protocol:ped-early-intervention-window>
 
 *Aggressive Early Treatment: Don't “Wait and See”*
 
@@ -580,7 +578,7 @@ In pediatric patients, infection prevention has compounded importance:
 
 Infection prevention strategies: N95/FFP2 masking during viral seasons, prompt antiviral treatment if infection occurs, consideration of prophylaxis during high-exposure periods (exam weeks, high-transmission seasons), and when possible, isolation of child from sick household members.
 
-]
+] <protocol:ped-early-intervention-window>
 
 === Orthostatic Intolerance (First-Line)
 <subsec:ped-ambulatory-oi>
@@ -601,7 +599,6 @@ Start with non-pharmacological interventions (see Protocol @protocol:ped-oi-non
 ==== Compression Garments for School-Attending Children with Orthostatic Intolerance
 
 #recommendation(title: [Medical-Grade Compression Stockings for Pediatric OI])[
-<rec:compression-ped-ambulatory>
 
 *Mechanism:* Compression reduces autonomic load by maintaining venous pressure, decreasing sympathetic activation required for orthostatic compensation (Chapter @sec:selective-dysfunction, lines 609–626).
 
@@ -654,7 +651,7 @@ Start with non-pharmacological interventions (see Protocol @protocol:ped-oi-non
 
 *Success predictor:* If child shows improvement in tachycardia or cognitive clarity within 1 week, continue indefinitely.
 
-]
+] <rec:compression-ped-ambulatory>
 
 ==== Pharmacological Management
 
@@ -672,7 +669,6 @@ If non-pharmacological measures are insufficient, medications may help (see Prot
 Mast cell activation affects 30–50% of ME/CFS patients. In school-attending children, MCAS contributes to post-meal fatigue, brain fog fluctuations, and anxiety-like episodes through histamine and mediator release.
 
 #recommendation(title: [School-Attending Pediatric MCAS Management])[
-<rec:mcas-ped-ambulatory>
 
 *Screening:* Consider MCAS trial if child reports:
 
@@ -729,7 +725,7 @@ Mast cell activation affects 30–50% of ME/CFS patients. In school-attending ch
 
 *Expected outcomes:* If MCAS component is significant, 25–50% reduction in event-related fatigue or cognitive impact.
 
-]
+] <rec:mcas-ped-ambulatory>
 
 === Sleep
 <subsec:ped-ambulatory-sleep>
@@ -762,7 +758,6 @@ If sleep hygiene is insufficient (see Protocol @protocol:ped-sleep in Chapter 
 ==== Circadian Light Therapy for Sleep-Energy Alignment
 
 #recommendation(title: [Bright Light Therapy for Circadian Entrainment in School-Attending Children])[
-<rec:circadian-light-ped-ambulatory>
 
 *Mechanism:* Morning bright light exposure resets the circadian oscillator, improving alignment between energy availability and school schedule. Many school-attending children with delayed sleep phase struggle with early school start times; morning light therapy can advance sleep phase by 1–2 hours.
 
@@ -787,12 +782,11 @@ If sleep hygiene is insufficient (see Protocol @protocol:ped-sleep in Chapter 
     - More consistent daytime energy
     - Timeline: 2–4 weeks for phase shift
 
-]
+] <rec:circadian-light-ped-ambulatory>
 
 ==== Sleep Spindle Enhancement via Acoustic Stimulation (Low Priority, Experimental)
 
 #recommendation(title: [Pink/White Noise for Sleep Architecture in School-Attending Children])[
-<rec:sleep-spindle-ped-ambulatory>
 
 *Mechanism:* Sleep spindles are brief bursts of brain electrical activity during light sleep that contribute to cognitive consolidation and memory protection. Acoustic stimulation during sleep (pink noise or pink noise burst sequences) can enhance spindle density, potentially improving memory encoding and resilience to cognitive fatigue. In school-attending children with ME/CFS, improved sleep architecture may translate to better cognitive performance during school day. See Chapter @sec:selective-dysfunction, lines 552–569, for detailed mechanism and neurophysiology.
 
@@ -810,7 +804,7 @@ If sleep hygiene is insufficient (see Protocol @protocol:ped-sleep in Chapter 
 
 *Why low priority for this population:* School-attending ambulatory children should prioritize sleep hygiene, circadian light therapy, and activity pacing before considering experimental sleep architecture enhancement. Useful only if other sleep interventions are optimized and memory/cognitive consolidation remains a limiting factor.
 
-]
+] <rec:sleep-spindle-ped-ambulatory>
 
 === Cognitive Symptoms
 <subsec:ped-ambulatory-cognitive>
@@ -860,7 +854,6 @@ Medications that improve cognitive function or reduce fatigue perception can be 
 ==== Transcranial Direct Current Stimulation (tDCS) for School-Attending Adolescents
 
 #recommendation(title: [Pediatric tDCS for Cognitive Support (Age >12 with Caution)])[
-<rec:tdcs-ped-ambulatory>
 
 *Mechanism:* tDCS applied to dorsolateral prefrontal cortex (DLPFC) may reduce baseline energy cost of executive function, improving sustainable academic performance (Chapter @sec:selective-dysfunction, lines 207–228).
 
@@ -913,7 +906,7 @@ Medications that improve cognitive function or reduce fatigue perception can be 
 
 *Who should try tDCS*: Adolescents age 12+ with prominent executive dysfunction limiting academics despite accommodations and OI optimization.
 
-]
+] <rec:tdcs-ped-ambulatory>
 
 === Infection Prevention as Recovery Window Preservation
 <subsec:ped-infection-prevention>

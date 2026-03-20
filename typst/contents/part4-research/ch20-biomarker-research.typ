@@ -303,9 +303,8 @@ The urinary collection window extends to 5 hours post-symptom onset (versus 1–
 For ME/CFS patients with suspected food-triggered mast cell activation (see Section @subsec:food-mast-cell), paired urinary mediator testing during elimination-rechallenge protocols represents a potential diagnostic approach: collect baseline urine on a neutral day, then repeat collection 4–6 hours after a controlled food challenge. Elevated ratios in one or more mediators would support mast cell activation by the specific food. This protocol has not been prospectively validated in ME/CFS or MCAS populations, but the underlying mediator assays are clinically validated and the paired design controls for inter-individual variability @Voelker2025biomarkersmast.
 
 #limitation(title: [Mast Cell Mediator Biomarkers: Current Limitations])[
-<lim:mast-cell-biomarkers>
 Urinary mast cell mediators (NMH, LTE4, PGD#sub[2] metabolite) are not diagnostic of MCAS in isolation—they require concurrent clinical symptoms across $gt.eq$2 organ systems and treatment response for a complete MCAS diagnosis @Gulen2024mcascriteria @Castells2024mcasreview. LTE4 and PGD#sub[2] metabolites are produced by multiple immune cell types, limiting mast-cell specificity. Normal reference ranges have not been independently validated in ME/CFS populations. The paired food challenge mediator protocol described above is a proposed diagnostic approach based on established mediator assays; it has not been validated as a standalone diagnostic test for food-triggered MCAS.
-]
+] <lim:mast-cell-biomarkers>
 
 == Neurological Biomarkers
 <sec:neurological-biomarkers>

@@ -98,10 +98,9 @@ relevance @Regland2015.
 
 (Certainty: Medium-High for biochemistry; Low for ME/CFS-specific association.)
 #open-question(title: [MTHFR Prevalence in ME/CFS])[
-<oq:mthfr-prevalence-mecfs>
 Whether the MTHFR C677T TT genotype is overrepresented in ME/CFS relative to the general
 population has not been established by appropriately powered genetic association studies.
-]
+] <oq:mthfr-prevalence-mecfs>
 
 ==== Ion Channel and Neurotransmitter System Genes
 
@@ -137,13 +136,12 @@ Genome-wide association studies (GWAS) represent a paradigm shift from candidate
 ==== DecodeME: The Largest ME/CFS GWAS
 
 #achievement(title: [DecodeME GWAS Findings])[
-<ach:decodeme-gwas>
 The DecodeME study represents the largest genetic investigation of ME/CFS to date, recruiting 21,620 ME/CFS cases and comparing them to population controls through the UK Biobank and other cohorts @DecodeME2025. This unprecedented sample size provides statistical power to detect genetic variants with realistic effect sizes (odds ratios of 1.1–1.3) that reach genome-wide significance ($p < 5 times 10^(-8)$).
 
 DecodeME employed rigorous case ascertainment through physician diagnosis and self-report with verification, accepting patients meeting CCC (Canadian Consensus Criteria), ICC (International Consensus Criteria), or IOM (Institute of Medicine) diagnostic criteria. This inclusive approach maximizes sample size while acknowledging diagnostic heterogeneity, with sensitivity analyses examining whether genetic architecture differs across diagnostic subtypes.
 
 The study's scale enables several key analyses beyond simple case-control association: estimation of SNP heritability (the proportion of ME/CFS liability explained by common genetic variants), genetic correlation analyses comparing ME/CFS to other conditions, polygenic risk score development, and gene-based and pathway enrichment tests identifying biological systems enriched for associated variants.
-]
+] <ach:decodeme-gwas>
 
 #warning-box(title: [Replication Status: Not Yet Replicated (By Design)])[
 DecodeME is the first adequately powered ME/CFS GWAS. The genome-wide significant loci identified await replication by design—GWAS discovery cohorts require independent replication cohorts to confirm true associations versus false positives. No independent replication cohort of comparable size currently exists, though international collaborations (e.g., with US ME/CFS Clinician Coalition biobanks) may provide future replication opportunities.
@@ -338,7 +336,6 @@ Differentially expressed genes (DEGs)—genes showing statistically significant 
 ==== Immune System Gene Expression
 
 #achievement(title: [Convergent Immune Gene Dysregulation])[
-<ach:immune-gene-dysregulation>
 Across multiple independent gene expression studies, immune pathway genes show the most consistent and pronounced dysregulation. Key patterns include:
 
 *Cytokine and chemokine genes* demonstrate altered expression consistent with chronic immune activation or altered cytokine networks. Pro-inflammatory cytokine genes (IL-1$beta$, TNF-$alpha$, IL-6) show variable direction of change across studies, likely reflecting patient heterogeneity and disease stage. Chemokine genes affecting immune cell trafficking (CCL2, CXCL10, others) demonstrate differential expression in multiple studies.
@@ -346,7 +343,7 @@ Across multiple independent gene expression studies, immune pathway genes show t
 *T cell and NK cell genes* show expression patterns consistent with functional impairment. T cells from ME/CFS patients demonstrate reduced expression of effector cytokine genes (IFN-$gamma$, TNF-$alpha$) and altered expression of exhaustion markers (PDCD1 encoding PD-1, HAVCR2 encoding TIM-3, LAG3). NK cell gene expression profiling reveals reduced expression of cytotoxic effector genes (PRF1 encoding perforin, GZMA/GZMB encoding granzymes) consistent with the impaired cytotoxicity documented in Chapter @ch:immune-dysfunction.
 
 *Interferon-stimulated genes* (ISGs) show elevated expression in multiple studies, suggesting ongoing antiviral responses or interferon pathway activation even in the absence of detectable active infection. This ISG signature resembles that seen in autoimmune diseases such as systemic lupus erythematosus and may indicate chronic stimulation of pattern recognition receptors or dysregulated interferon regulatory factor activity.
-]
+] <ach:immune-gene-dysregulation>
 
 #warning-box(title: [Replication Status: Partially Replicated])[
 This achievement synthesizes across multiple studies without providing specific citations within the block. While individual findings (NK cell cytotoxicity impairment, T cell exhaustion markers, ISG elevation) have each been reported in independent studies, the specific “convergent” pattern described here is an interpretive synthesis rather than a directly replicated result. The direction and magnitude of cytokine gene changes vary substantially across studies, likely reflecting patient heterogeneity, disease stage, and methodological differences. The claim of convergence should be evaluated against systematic reviews rather than individual study comparisons.
@@ -431,7 +428,6 @@ Genetic and epigenetic research in ME/CFS has matured substantially over the pas
 === Key Established Findings
 
 #achievement(title: [Genetic and Epigenetic Foundations of ME/CFS])[
-<ach:genetic-epigenetic-foundations>
 Several conclusions now rest on firm empirical ground:
 
 *Moderate heritability* Twin studies consistently demonstrate heritability estimates of $h^2 = 0.3$–$0.5$, indicating that 30–50% of disease liability reflects genetic factors. This moderate heritability implies substantial genetic contribution while confirming environmental factors' essential role.
@@ -443,7 +439,7 @@ Several conclusions now rest on firm empirical ground:
 *Immune and metabolic pathway enrichment* Gene expression and pathway analyses consistently implicate immune response pathways and metabolic dysfunction. This convergence across independent studies and methodologies validates immune and metabolic dysregulation as core pathophysiological features with genetic determinants.
 
 *Epigenetic reprogramming* Demonstration of DNA methylation changes, altered histone modifications, and dysregulated microRNA expression establishes epigenetic reprogramming as a plausible mechanism for chronicity. These potentially reversible modifications provide therapeutic targets.
-]
+] <ach:genetic-epigenetic-foundations>
 
 #warning-box(title: [Replication Status: Variable])[
 This synthesis achievement combines findings of differing replication strength. Moderate heritability ($h^2 = 0.3$–$0.5$) from twin studies is the most robust element, replicated across multiple independent twin registries. Polygenic architecture is confirmed by DecodeME but locus-level replication is pending (see Achievement @ach:decodeme-gwas). Gene-environment interaction is well-supported conceptually but the specific genetic variants mediating susceptibility remain largely unidentified. Epigenetic reprogramming evidence comes from small studies with limited replication—DNA methylation findings in particular show inconsistent patterns across studies, partly due to cell-type heterogeneity in whole-blood samples.

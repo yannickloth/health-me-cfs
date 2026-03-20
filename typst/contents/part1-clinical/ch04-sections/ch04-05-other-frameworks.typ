@@ -8,7 +8,6 @@
 The Fukuda criteria, published by the CDC in 1994 @Fukuda1994, represented the first widely-adopted standardized definition of chronic fatigue syndrome. These criteria dominated ME/CFS research for two decades.
 
 #requirement-box(title: [Fukuda Diagnostic Criteria])[
-<req:fukuda>
 Diagnosis requires:
 
 *1. Clinically Evaluated, Unexplained, Persistent or Relapsing Chronic Fatigue that:*
@@ -29,7 +28,7 @@ Diagnosis requires:
     - Unrefreshing sleep
     - Post-exertional malaise lasting more than 24 hours
 
-]
+] <req:fukuda>
 
 The Fukuda criteria played a crucial role in standardizing ME/CFS research:
 
@@ -39,7 +38,6 @@ The Fukuda criteria played a crucial role in standardizing ME/CFS research:
     - Required objective clinical evaluation
 
 #warning-box(title: [Critical Limitations])[
-<warn:fukuda-limitations>
 The Fukuda criteria have fundamental flaws that limit their current utility:
 
 *Post-Exertional Malaise Not Mandatory:*
@@ -68,7 +66,7 @@ Systematic comparison studies found that Fukuda criteria capture patients who do
 
 *Research Impact:*
 Many failed clinical trials used Fukuda criteria, likely enrolling heterogeneous populations including patients without true ME/CFS. This contributed to therapeutic nihilism.
-]
+] <warn:fukuda-limitations>
 
 Modern research increasingly avoids Fukuda criteria in favor of Canadian Consensus (2003), ICC (2011), or IOM (2015). The Fukuda criteria remain historically important but are now recognized as insufficiently specific for ME/CFS.
 === Oxford Criteria (1991)
@@ -76,7 +74,6 @@ Modern research increasingly avoids Fukuda criteria in favor of Canadian Consens
 The Oxford criteria @Sharpe1991oxford, published in 1991, represent the *broadest and most controversial* definition of chronic fatigue syndrome.
 
 #requirement-box(title: [Oxford Diagnostic Criteria])[
-<req:oxford>
 Diagnosis requires:
 
     - *Severe disabling fatigue* of at least 6 months' duration that:
@@ -88,10 +85,9 @@ Diagnosis requires:
     - *Exclusions*: Defined medical conditions, psychotic disorders, substance abuse, eating disorders
     - *Depression and anxiety NOT excluded*
 
-]
+] <req:oxford>
 
 #warning-box(title: [Fundamental Problems with Oxford Criteria])[
-<warn:oxford-problems>
 The Oxford criteria are widely rejected by patients, clinicians, and researchers for the following reasons:
 
 *No Requirement for Post-Exertional Malaise:*
@@ -122,7 +118,7 @@ The most harmful aspect: Oxford criteria were used in the PACE trial @White2011
     - CBT/GET may be appropriate for depression or deconditioning but are contraindicated for true ME/CFS
     - By enrolling patients without PEM, these trials tested interventions on a population distinct from ME/CFS
 
-]
+] <warn:oxford-problems>
 
 <obs:oxford-rejection>
 The Oxford criteria are now explicitly rejected by:
@@ -138,7 +134,6 @@ Studies using Oxford criteria should be interpreted with extreme caution, as the
 ME/CFS in children and adolescents presents diagnostic challenges due to developmental differences in symptom expression, comorbidities, and functional impact.
 
 #requirement-box(title: [Pediatric Adaptations])[
-<req:pediatric>
 Diagnosis in children should use the same criteria (Canadian Consensus, IOM, or ICC) with the following modifications:
 
 *1. Duration:*
@@ -171,10 +166,9 @@ Diagnosis in children should use the same criteria (Canadian Consensus, IOM, or 
     - May present as: difficulty standing in school assemblies, morning symptom worsening (after overnight recumbency), shower intolerance
     - Objective testing: NASA Lean Test or tilt table (age-appropriate protocols)
 
-]
+] <req:pediatric>
 
 #warning-box(title: [Pediatric Differential Diagnosis])[
-<warn:pediatric-differential>
 Additional considerations for children:
 
     - *School avoidance vs. ME/CFS*: Distinguish by presence of PEM (in ME/CFS, even desired activities trigger crashes)
@@ -182,7 +176,7 @@ Additional considerations for children:
     - *Viral triggers*: Infectious mononucleosis is a common ME/CFS trigger in adolescents
     - *Comorbidities*: POTS and orthostatic intolerance are especially common in pediatric onset
 
-]
+] <warn:pediatric-differential>
 
 <obs:pediatric-prognosis>
 Pediatric ME/CFS has distinct prognostic features:

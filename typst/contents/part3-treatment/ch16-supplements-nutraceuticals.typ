@@ -125,7 +125,6 @@ Many patients find pre-mixed electrolyte formulas convenient. Key ingredients to
 Cost: pennies per liter versus \$1–3 for commercial products.
 
 #warning-box(title: [Histamine Intolerance and Electrolyte Products])[
-<warn:hit-electrolytes>
 A substantial subset of ME/CFS patients have histamine intolerance (HIT) or mast cell activation syndrome (MCAS) @Afrin2017MCAS, making standard electrolyte products problematic (see Section @sec:mcas for MCAS pathophysiology). Common triggers in commercial electrolyte formulas:
 
 *Ingredients to avoid with HIT/MCAS:*
@@ -149,7 +148,7 @@ Omit citrus entirely. Maple syrup provides glucose for sodium-glucose co-transpo
     - DIY remains safest option for highly sensitive patients
 
 *Note:* POTS patients with HIT/MCAS face a double challenge—they need electrolytes for blood volume but react to most products. Trial elimination of problematic ingredients before assuming electrolyte intolerance. Many patients who thought they “couldn't tolerate electrolytes” actually couldn't tolerate citric acid or flavorings; plain salt in water may work when commercial products don't.
-]
+] <warn:hit-electrolytes>
 
 === Caution: Electrolyte Initiation in ME/CFS
 <subsec:electrolyte-initiation-caution>
@@ -164,9 +163,8 @@ Standard POTS/dysautonomia guidelines recommend high sodium intake (10–12 g/d
     - *Functional correlation:* Elevated muscle sodium correlated inversely with hand grip strength ($p=0.03$, $R^2=0.38$), suggesting functional consequences @Petter2022sodium.
 
 #speculation(title: [The NCX Reversal Mechanism])[
-<spec:ncx-reversal>
 *Certainty: 0.25.* Mechanistic hypothesis based on indirect evidence (elevated intracellular sodium on MRI @Petter2022sodium, known NCX biophysics); not directly tested in ME/CFS. Wirth and Scheibenbogen propose that $beta_2$-adrenergic receptor dysfunction impairs Na#super[+]/K#super[+]-ATPase activity, allowing intracellular sodium accumulation @Wirth2021muscle @Scheibenbogen2025muscle. When intracellular sodium exceeds a threshold, the sodium-calcium exchanger (NCX) reverses direction—importing calcium instead of exporting it—causing calcium overload and mitochondrial dysfunction. This model suggests ME/CFS patients operate near the NCX reversal threshold, explaining why even minor exertion triggers post-exertional malaise.
-]
+] <spec:ncx-reversal>
 
 *Clinical Implications.*
 Dietary sodium primarily affects blood volume, not intracellular muscle sodium directly. However:
@@ -662,7 +660,6 @@ enzymatic bottleneck, though RCT evidence for this approach in ME/CFS is absent.
 *Note on Testing.* Serum B12 is a poor marker of tissue status. Methylmalonic acid (MMA) and homocysteine are more sensitive.
 
 #warning-box(title: [B12 Supplementation Evidence Base in ME/CFS: Low Certainty])[
-<warn:b12-evidence-quality>
 Clinical evidence for B12 supplementation in ME/CFS comes from small open-label studies only.
 Regland et al.\ found that among 38 ME/FM patients receiving B12 injections, good responders
 used higher doses and more frequent injections, and had folic acid doses matched to their MTHFR
@@ -675,7 +672,7 @@ cannot be used to establish B12/folate supplementation as an evidence-based trea
 ME/CFS. Patient response appears heterogeneous (33% non-responders in van Campen 2019),
 suggesting that subgroup stratification (e.g., by MTHFR genotype, baseline CSF homocysteine)
 is needed before this approach can be recommended broadly.
-]
+] <warn:b12-evidence-quality>
 
 == Vitamin D
 <sec:vitamin-d>
@@ -950,11 +947,10 @@ Reduced TRPM3 function in ME/CFS NK cells has been demonstrated using pregnenolo
     - Consider baseline hormone testing before long-term use
 
 #speculation(title: [Pregnenolone + LDN Synergy])[
-<spec:pregnenolone-ldn-synergy>
 *Certainty: 0.20.* No clinical trials have evaluated this combination; rationale is purely mechanistic extrapolation from separately-characterised TRPM3 effects of each agent.
 
 Both pregnenolone sulfate and low-dose naltrexone influence TRPM3 function in ME/CFS, potentially through different mechanisms. Pregnenolone sulfate is a direct TRPM3 agonist, while LDN appears to restore TRPM3 responsiveness (mechanism not fully characterized). Theoretically, combining adequate pregnenolone levels with LDN might optimize TRPM3 function—the channel would be more responsive (LDN effect) and have adequate agonist (pregnenolone). No clinical trials have evaluated this combination, but given the favorable safety profiles of both, it represents a rational empirical approach for patients who have partial response to LDN alone.
-]
+] <spec:pregnenolone-ldn-synergy>
 
 *Energy Profile.*
 Category B–C (neutral to mildly demanding). Neurosteroid requiring hepatic CYP-mediated metabolism for conversion to downstream hormones (DHEA, progesterone, cortisol). Steroidogenesis is moderately energy-intensive. At supplemental doses, processing burden is modest but non-negligible.

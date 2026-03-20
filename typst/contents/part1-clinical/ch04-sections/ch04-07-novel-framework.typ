@@ -137,7 +137,6 @@ Tier 1 establishes the diagnosis of ME/CFS based on clinical features. These cri
 ==== Core Diagnostic Features (All Required)
 
 #requirement-box(title: [Post-Exertional Malaise (Mandatory Hallmark)])[
-<req:pem-criterion>
 Post-exertional malaise must be present with ALL of the following characteristics:
 
     - *Delayed onset*: Symptom exacerbation occurs 12–72 hours after triggering activity (not immediately)
@@ -147,10 +146,9 @@ Post-exertional malaise must be present with ALL of the following characteristic
 
 *Objective verification (optional but supportive):*
 Two-day cardiopulmonary exercise testing showing Day 2 deterioration: workload at ventilatory threshold decreases $gt.eq$20% on Day 2 compared to Day 1 @Lim2020 @keller2024cpet.
-]
+] <req:pem-criterion>
 
 #requirement-box(title: [Baseline Energy Insufficiency])[
-<req:energy-insufficiency>
 Patients must demonstrate chronic energy deficit characterized by:
 
     - *Morning depletion*: Waking already exhausted despite sleep duration
@@ -159,10 +157,9 @@ Patients must demonstrate chronic energy deficit characterized by:
     - *Effort-performance disconnect*: Subjective experience of maximal effort producing minimal objective output (a phenomenon that distinguishes ME/CFS from deconditioning or primary depression)
 
 The effort-performance disconnect represents a novel diagnostic criterion capturing the lived experience of ME/CFS: patients describe “giving everything” to accomplish minimal tasks, feeling as though simple activities require marathon-level exertion while producing negligible results @strassheim2021experiences @fennell2021elements.
-]
+] <req:energy-insufficiency>
 
 #requirement-box(title: [Duration and Exclusion Criteria])[
-<req:duration-exclusion>
 
     - *Duration*: Symptoms must persist $gt.eq$6 months
     - *Rationale*: Six-month persistence indicates transition from post-viral fatigue (which typically resolves) to established ME/CFS with aberrant pathophysiology @Maksoud2020natural
@@ -174,7 +171,7 @@ The effort-performance disconnect represents a novel diagnostic criterion captur
     
 
 *Important*: Comorbid conditions that are part of the ME/CFS disease spectrum (POTS, fibromyalgia, MCAS, IBS) do _not_ exclude the diagnosis—these represent overlapping pathophysiology rather than alternative explanations.
-]
+] <req:duration-exclusion>
 
 ==== Supporting Features (≥3 of 5 Required)
 
@@ -231,7 +228,6 @@ Once Tier 1 criteria are met, patients should undergo comprehensive biological p
 Critical insight: ME/CFS patients typically have dysfunction in _multiple_ biological domains simultaneously. The Heng 2025 study demonstrated that a 7-biomarker panel spanning energy metabolism, immune function, and vascular endothelium achieved 91% diagnostic accuracy precisely because _all three systems show coordinated dysfunction_ @heng2025mecfs. This finding validates the multi-lock model (Chapter @ch:speculative-hypotheses): ME/CFS persists because multiple self-reinforcing pathophysiological processes operate concurrently.
 
 #hypothesis-box(title: [Multi-Domain Co-Occurrence Model])[
-<hyp:multi-domain>
 ME/CFS should be understood as a syndrome with five co-occurring, mutually reinforcing biological domains. Most patients have abnormalities in $gt.eq$3 domains:
 
     - Autoimmune features: 30–60% (GPCR autoantibodies @Loebel2016 @Bynke2020)
@@ -253,7 +249,7 @@ Treatment targeting a single domain may fail because untreated domains maintain 
     - Multi-target interventions will outperform single-target interventions
     - Treatment response requires both (a) presence of dysfunction in a domain AND (b) that domain being rate-limiting (the bottleneck gating recovery)
 
-]
+] <hyp:multi-domain>
 
 ==== Domain 1: Autoimmune Features
 
@@ -534,7 +530,6 @@ Tier 3 classifies current functional severity and prospectively assesses risk of
 ==== Progression Risk Stratification
 
 #warning-box(title: [HIGH RISK for Progression to Severe Disease])[
-<warn:progression-risk>
 Patients meeting $gt.eq$2 of the following RED FLAG criteria are at immediate risk of transitioning to severe, potentially irreversible disease and require emergency intervention:
 
 *RED FLAGS (Immediate Danger):*
@@ -581,7 +576,7 @@ Patients with HIGH RISK status require immediate intervention to prevent crossin
 
 *Rationale:*
 Research and patient reports demonstrate that repeated post-exertional malaise episodes cause cumulative physiological damage: mitochondrial dysfunction accumulation @wang2023wasf3 @Syed2025, endothelial dysfunction @heng2025mecfs, neuroinflammation @Nakatomi2014neuroinflammation, and immune exhaustion @iu2024tcell_exhaustion. There appears to be a threshold (anecdotally 5–10 severe crashes) beyond which recovery capacity is permanently impaired. The goal is to avoid severe crashes entirely, not merely to minimize them.
-]
+] <warn:progression-risk>
 
 ==== Critical Temporal Windows
 

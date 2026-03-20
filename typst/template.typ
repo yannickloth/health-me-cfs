@@ -127,6 +127,15 @@
 //   - border-style: "full", "left", "dashed", "dotted", "dash-dot", "double", "none"
 //   - counter-name: if set, auto-increments and displays counter
 //   - body: content
+// All custom environment kinds (for show rules to prevent floating)
+#let env-kinds = (
+  "achievement", "prediction", "postdiction", "warning-env", "open-question",
+  "requirement", "hypothesis", "axiom", "assumption", "consistency",
+  "recommendation", "limitation", "model-unique", "protocol", "clinical-finding",
+  "keypoint", "practical-warning", "continuation", "speculation", "observation",
+  "direction", "roadmap", "theorem", "lemma", "corollary", "proposition", "definition",
+)
+
 #let boxed-env(
   title: none,
   icon: none,
@@ -134,6 +143,8 @@
   bg-color: white,
   border-style: "full",
   counter-name: none,
+  kind-name: "env",
+  supplement-text: [Environment],
   body,
 ) = {
   // Increment counter if applicable
@@ -175,7 +186,7 @@
     none
   }
 
-  block(
+  let the-block = block(
     width: 100%,
     fill: bg-color,
     stroke: border,
@@ -199,6 +210,18 @@
       #body
     ]
   )
+
+  // Wrap in figure for label/reference support.
+  // Show rules in mecfs-doc prevent floating (placement: none) and strip
+  // figure chrome (show rule passes through body only).
+  figure(
+    the-block,
+    kind: kind-name,
+    supplement: supplement-text,
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 // ---------------------------------------------------------------------------
@@ -212,6 +235,8 @@
   bg-color: achievement-bg,
   border-style: "double",
   counter-name: "achievement",
+  kind-name: "achievement",
+  supplement-text: [Achievement],
   body,
 )
 
@@ -222,6 +247,8 @@
   bg-color: prediction-bg,
   border-style: "dashed",
   counter-name: "prediction",
+  kind-name: "prediction",
+  supplement-text: [Prediction],
   body,
 )
 
@@ -232,6 +259,8 @@
   bg-color: postdiction-bg,
   border-style: "full",
   counter-name: "postdiction",
+  kind-name: "postdiction",
+  supplement-text: [Postdiction],
   body,
 )
 
@@ -242,6 +271,8 @@
   bg-color: warning-bg,
   border-style: "left",
   counter-name: "warning",
+  kind-name: "warning-env",
+  supplement-text: [Warning],
   body,
 )
 
@@ -252,6 +283,8 @@
   bg-color: open-question-bg,
   border-style: "dotted",
   counter-name: "open-question",
+  kind-name: "open-question",
+  supplement-text: [Open Question],
   body,
 )
 
@@ -262,6 +295,8 @@
   bg-color: requirement-bg,
   border-style: "full",
   counter-name: "requirement",
+  kind-name: "requirement",
+  supplement-text: [Requirement],
   body,
 )
 
@@ -272,6 +307,8 @@
   bg-color: hypothesis-bg,
   border-style: "dash-dot",
   counter-name: "hypothesis",
+  kind-name: "hypothesis",
+  supplement-text: [Hypothesis],
   body,
 )
 
@@ -282,6 +319,8 @@
   bg-color: hypothesis-bg,
   border-style: "dash-dot",
   counter-name: "hypothesis",
+  kind-name: "hypothesis",
+  supplement-text: [Hypothesis],
   [
     #body
     #v(4pt)
@@ -296,6 +335,8 @@
   bg-color: axiom-bg,
   border-style: "full",
   counter-name: "axiom",
+  kind-name: "axiom",
+  supplement-text: [Axiom],
   body,
 )
 
@@ -306,6 +347,8 @@
   bg-color: assumption-bg,
   border-style: "left",
   counter-name: "assumption",
+  kind-name: "assumption",
+  supplement-text: [Assumption],
   body,
 )
 
@@ -316,6 +359,8 @@
   bg-color: consistency-bg,
   border-style: "full",
   counter-name: "consistency",
+  kind-name: "consistency",
+  supplement-text: [Consistency Check],
   body,
 )
 
@@ -330,6 +375,8 @@
   bg-color: recommendation-bg,
   border-style: "full",
   counter-name: "recommendation",
+  kind-name: "recommendation",
+  supplement-text: [Recommendation],
   body,
 )
 
@@ -340,6 +387,8 @@
   bg-color: limitation-bg,
   border-style: "left",
   counter-name: "limitation",
+  kind-name: "limitation",
+  supplement-text: [Limitation],
   body,
 )
 
@@ -350,6 +399,8 @@
   bg-color: model-unique-bg,
   border-style: "full",
   counter-name: "model-unique",
+  kind-name: "model-unique",
+  supplement-text: [Model Insight],
   body,
 )
 
@@ -364,6 +415,8 @@
   bg-color: protocol-bg,
   border-style: "full",
   counter-name: "protocol",
+  kind-name: "protocol",
+  supplement-text: [Protocol],
   body,
 )
 
@@ -374,6 +427,8 @@
   bg-color: clinical-finding-bg,
   border-style: "full",
   counter-name: "clinical-finding",
+  kind-name: "clinical-finding",
+  supplement-text: [Clinical Finding],
   body,
 )
 
@@ -383,6 +438,8 @@
   frame-color: keypoint-frame,
   bg-color: keypoint-bg,
   border-style: "left",
+  kind-name: "keypoint",
+  supplement-text: [Key Point],
   body,
 )
 
@@ -392,6 +449,8 @@
   frame-color: practical-warning-frame,
   bg-color: practical-warning-bg,
   border-style: "left",
+  kind-name: "practical-warning",
+  supplement-text: [Warning],
   body,
 )
 
@@ -401,6 +460,8 @@
   frame-color: continuation-frame,
   bg-color: continuation-bg,
   border-style: "full",
+  kind-name: "continuation",
+  supplement-text: [Continued],
   body,
 )
 
@@ -416,6 +477,8 @@
   frame-color: achievement-frame,
   bg-color: achievement-bg,
   border-style: "double",
+  kind-name: "achievement",
+  supplement-text: [Achievement],
   body,
 )
 
@@ -425,6 +488,8 @@
   frame-color: prediction-frame,
   bg-color: prediction-bg,
   border-style: "dashed",
+  kind-name: "prediction",
+  supplement-text: [Prediction],
   body,
 )
 
@@ -434,6 +499,8 @@
   frame-color: hypothesis-frame,
   bg-color: hypothesis-bg,
   border-style: "dash-dot",
+  kind-name: "hypothesis",
+  supplement-text: [Hypothesis],
   body,
 )
 
@@ -443,6 +510,8 @@
   frame-color: warning-frame,
   bg-color: warning-bg,
   border-style: "left",
+  kind-name: "warning-env",
+  supplement-text: [Warning],
   body,
 )
 
@@ -452,6 +521,8 @@
   frame-color: open-question-frame,
   bg-color: open-question-bg,
   border-style: "dotted",
+  kind-name: "open-question",
+  supplement-text: [Open Question],
   body,
 )
 
@@ -461,6 +532,8 @@
   frame-color: axiom-frame,
   bg-color: axiom-bg,
   border-style: "full",
+  kind-name: "axiom",
+  supplement-text: [Axiom],
   body,
 )
 
@@ -470,6 +543,8 @@
   frame-color: assumption-frame,
   bg-color: assumption-bg,
   border-style: "left",
+  kind-name: "assumption",
+  supplement-text: [Assumption],
   body,
 )
 
@@ -479,6 +554,8 @@
   frame-color: limitation-frame,
   bg-color: limitation-bg,
   border-style: "left",
+  kind-name: "limitation",
+  supplement-text: [Limitation],
   body,
 )
 
@@ -488,6 +565,8 @@
   frame-color: hypothesis-frame,
   bg-color: hypothesis-bg,
   border-style: "dash-dot",
+  kind-name: "hypothesis",
+  supplement-text: [Hypothesis],
   [
     #body
     #v(4pt)
@@ -516,6 +595,8 @@
   frame-color: hypothesis-frame,
   bg-color: hypothesis-bg,
   border-style: "full",
+  kind-name: "roadmap",
+  supplement-text: [Chapter Roadmap],
   body,
 )
 
@@ -539,18 +620,25 @@
 
 #let speculation(title: none, body) = {
   speculation-counter.step()
-  context {
-    let n = speculation-counter.at(here()).first()
-    let ch = counter(heading).at(here()).first()
-    block(
-      width: 100%,
-      above: 12pt,
-      below: 12pt,
-      [
-        *Speculation #ch.#n#if title != none [: #title]*. #emph(body)
-      ]
-    )
-  }
+  figure(
+    context {
+      let n = speculation-counter.at(here()).first()
+      let ch = counter(heading).at(here()).first()
+      block(
+        width: 100%,
+        above: 12pt,
+        below: 12pt,
+        [
+          *Speculation #ch.#n#if title != none [: #title]*. #emph(body)
+        ]
+      )
+    },
+    kind: "speculation",
+    supplement: [Speculation],
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 // ---------------------------------------------------------------------------
@@ -561,57 +649,92 @@
 
 #let theorem(title: none, body) = {
   theorem-counter.step()
-  context {
-    let n = theorem-counter.at(here()).first()
-    let ch = counter(heading).at(here()).first()
-    block(above: 12pt, below: 12pt)[
-      *Theorem #ch.#n#if title != none [ (#title)]*. _#body _
-    ]
-  }
+  figure(
+    context {
+      let n = theorem-counter.at(here()).first()
+      let ch = counter(heading).at(here()).first()
+      block(above: 12pt, below: 12pt)[
+        *Theorem #ch.#n#if title != none [ (#title)]*. _#body _
+      ]
+    },
+    kind: "theorem",
+    supplement: [Theorem],
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 #let lemma(title: none, body) = {
   theorem-counter.step()
-  context {
-    let n = theorem-counter.at(here()).first()
-    let ch = counter(heading).at(here()).first()
-    block(above: 12pt, below: 12pt)[
-      *Lemma #ch.#n#if title != none [ (#title)]*. _#body _
-    ]
-  }
+  figure(
+    context {
+      let n = theorem-counter.at(here()).first()
+      let ch = counter(heading).at(here()).first()
+      block(above: 12pt, below: 12pt)[
+        *Lemma #ch.#n#if title != none [ (#title)]*. _#body _
+      ]
+    },
+    kind: "lemma",
+    supplement: [Lemma],
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 #let corollary(title: none, body) = {
   theorem-counter.step()
-  context {
-    let n = theorem-counter.at(here()).first()
-    let ch = counter(heading).at(here()).first()
-    block(above: 12pt, below: 12pt)[
-      *Corollary #ch.#n#if title != none [ (#title)]*. _#body _
-    ]
-  }
+  figure(
+    context {
+      let n = theorem-counter.at(here()).first()
+      let ch = counter(heading).at(here()).first()
+      block(above: 12pt, below: 12pt)[
+        *Corollary #ch.#n#if title != none [ (#title)]*. _#body _
+      ]
+    },
+    kind: "corollary",
+    supplement: [Corollary],
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 #let proposition(title: none, body) = {
   theorem-counter.step()
-  context {
-    let n = theorem-counter.at(here()).first()
-    let ch = counter(heading).at(here()).first()
-    block(above: 12pt, below: 12pt)[
-      *Proposition #ch.#n#if title != none [ (#title)]*. _#body _
-    ]
-  }
+  figure(
+    context {
+      let n = theorem-counter.at(here()).first()
+      let ch = counter(heading).at(here()).first()
+      block(above: 12pt, below: 12pt)[
+        *Proposition #ch.#n#if title != none [ (#title)]*. _#body _
+      ]
+    },
+    kind: "proposition",
+    supplement: [Proposition],
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 #let definition-box(title: none, body) = {
   definition-counter.step()
-  context {
-    let n = definition-counter.at(here()).first()
-    let ch = counter(heading).at(here()).first()
-    block(above: 12pt, below: 12pt)[
-      *Definition #ch.#n#if title != none [ (#title)]*. #body
-    ]
-  }
+  figure(
+    context {
+      let n = definition-counter.at(here()).first()
+      let ch = counter(heading).at(here()).first()
+      block(above: 12pt, below: 12pt)[
+        *Definition #ch.#n#if title != none [ (#title)]*. #body
+      ]
+    },
+    kind: "definition",
+    supplement: [Definition],
+    numbering: "1",
+    outlined: false,
+    gap: 0pt,
+  )
 }
 
 // ---------------------------------------------------------------------------
@@ -645,6 +768,14 @@
   set text(font: body-font, size: 11pt, fill: charcoal)
   set par(justify: true, leading: 0.65em)
   set par(first-line-indent: 1.5em)
+
+  // Custom environment figures: prevent floating, strip figure chrome
+  // Each boxed-env uses figure(kind: ...) for label support; these show rules
+  // ensure they render inline (no float) and display only the inner block.
+  for kind-name in env-kinds {
+    show figure.where(kind: kind-name): set figure(placement: none)
+    show figure.where(kind: kind-name): it => it.body
+  }
 
   // Headings
   set heading(numbering: "1.1.1.")

@@ -187,9 +187,8 @@ This baseline insufficiency, combined with forced overexertion and the acute cra
 <obs:wasf3-mito>
 Skeletal muscle biopsies from ME/CFS patients (n=14) demonstrated significantly elevated WASF3 protein levels compared to healthy controls (n=10), with WASF3 overexpression correlating inversely with Complex IV function (r=-0.55, p=0.005) @wang2023wasf3. Mechanistic studies revealed that endoplasmic reticulum (ER) stress induces WASF3 protein accumulation at ER-mitochondrial contact sites, where it disrupts respiratory supercomplex assembly and inhibits mitochondrial respiration. Transgenic mice with elevated WASF3 expression recapitulated the human phenotype, exhibiting impaired exercise capacity and reduced oxygen consumption. shRNA-mediated WASF3 knockdown in patient-derived cells restored respiratory capacity, demonstrating reversibility of the dysfunction.
 #hypothesis-box(title: [WASF3 as Subset-Specific Mechanism])[
-<hyp:wasf3-subset>
 The WASF3-mediated mitochondrial dysfunction mechanism may explain exercise intolerance in a subset of ME/CFS patients, particularly those with post-viral onset @wang2023wasf3 @Syed2025. The pathway linking viral infection → ER stress → WASF3 elevation → mitochondrial dysfunction → ATP depletion provides a coherent mechanistic framework. However, the prevalence of this mechanism across the broader ME/CFS population remains undetermined, as the initial finding derives from a small cohort (n=14). Independent replication and larger validation studies are needed to establish what proportion of ME/CFS patients exhibit this pathway.
-]
+] <hyp:wasf3-subset>
 
 The WASF3 mechanism aligns with broader evidence of mitochondrial dysfunction in ME/CFS @Syed2025. ATP depletion following exertion explains the delayed onset of PEM (cellular energy stores require 24–72 hours to regenerate) and the disproportionate symptom severity (cells cannot meet metabolic demands even for basic function). WASF3 overexpression promotes actin polymerization, driving a metabolic shift toward glycolysis while further suppressing mitochondrial oxidative phosphorylation. This creates a self-reinforcing cycle: reduced ATP generation → increased cellular stress → sustained WASF3 elevation → continued mitochondrial impairment.
 
@@ -880,9 +879,8 @@ The physiological mechanisms underlying the Day 2 deterioration include:
     - *Prolonged recovery*: Unlike healthy controls who recover within 48 hours, ME/CFS patients may require 13+ days to return to baseline @keller2024cpet
 
 #hypothesis-box(title: [2-Day CPET as Diagnostic Tool])[
-<hyp:cpet-diagnostic>
 Two-day CPET may serve as an objective diagnostic biomarker for ME/CFS, particularly for distinguishing genuine post-exertional malaise from deconditioning or other fatiguing conditions @Lim2020. The consistent Day 2 deterioration pattern appears specific to ME/CFS, with sedentary controls, fibromyalgia patients, and depression patients not exhibiting this phenotype. However, larger validation studies comparing ME/CFS to comprehensive disease control groups are needed to establish clinical sensitivity, specificity, and diagnostic thresholds before 2-day CPET can be implemented as a standalone diagnostic test.
-]
+] <hyp:cpet-diagnostic>
 
 ==== Clinical Assessment Tools
 

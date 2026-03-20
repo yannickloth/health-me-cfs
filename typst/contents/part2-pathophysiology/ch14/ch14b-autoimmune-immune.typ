@@ -45,7 +45,6 @@ Despite promising treatment signals, the GPCR autoantibody field faces unresolve
 === Speculative Hypotheses Emerging from GPCR Research
 
 #hypothesis-box(title: [The Plasma Cell Sanctuary])[
-<hyp:plasma-cell-sanctuary>
 The daratumumab success vs.\ rituximab failure reveals a critical insight: B cells (CD20#super[+]) are precursors; plasma cells (CD38#super[+]) are the factories. Long-lived plasma cells can survive for _decades_ in bone marrow and gut niches, continuously secreting autoantibodies without B cell replenishment.
 
 *Hypothesis:* ME/CFS is maintained by “sanctuary” plasma cells that escaped B-cell depletion:
@@ -59,10 +58,9 @@ The daratumumab success vs.\ rituximab failure reveals a critical insight: B cel
 *Evidence level:* Moderate. The 8–9 month delay before maximum daratumumab benefit supports this (existing autoantibodies must decay after factory elimination).
 
 *Therapeutic implication:* Combining immunoadsorption (remove existing antibodies) with daratumumab (eliminate factories) might produce faster, more complete responses.
-]
+] <hyp:plasma-cell-sanctuary>
 
 #hypothesis-box(title: [GPCR Autoantibody-Endothelial Cascade])[
-<hyp:gpcr-endothelial>
 GPCR autoantibodies may exert their effects primarily through endothelial dysfunction:
 
     - $beta_2$-adrenergic receptor autoantibodies impair endothelial vasodilation
@@ -76,10 +74,9 @@ The BC007 case report supports this: retinal microcirculation improved within _h
 *Evidence level:* Low-Moderate. Mechanistically plausible; BC007 microcirculation data supportive; needs direct testing.
 
 *Therapeutic implication:* Vascular-supportive therapies (L-citrulline, statins) might synergize with autoantibody removal.
-]
+] <hyp:gpcr-endothelial>
 
 #hypothesis-box(title: [Autoantibody-Monocyte Inflammation Loop])[
-<hyp:autoantibody-monocyte>
 A 2025 preprint @Hackel2025monocyte demonstrated that GPCR autoantibodies drive monocyte dysfunction in post-COVID ME/CFS, causing elevated MIP-1$delta$, PDGF-BB, and TGF-$beta$3. This suggests autoantibodies don't just block receptors—they actively drive inflammation:
 
     - GPCR autoantibodies bind monocyte surface receptors
@@ -91,7 +88,7 @@ A 2025 preprint @Hackel2025monocyte demonstrated that GPCR autoantibodies drive
 *Evidence level:* Low-Moderate (single preprint, not yet replicated).
 
 *Therapeutic implication:* Monocyte-targeted therapies might complement autoantibody removal.
-]
+] <hyp:autoantibody-monocyte>
 
 #open-question(title: [Why Only 60% Respond?])[
 The daratumumab trial showed 60% marked improvement and 40% non-response. What distinguishes responders from non-responders?

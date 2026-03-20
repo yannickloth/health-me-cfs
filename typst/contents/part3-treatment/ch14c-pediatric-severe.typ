@@ -84,7 +84,6 @@ Age-appropriate dosing (consult pharmacist for precise pediatric calculations):
 ==== MCAS Prophylactic Intensification for Pediatric Triggers
 
 #recommendation(title: [Pediatric MCAS Prophylaxis for High-Stress Activities])[
-<rec:mcas-prophylaxis-ped-severe>
 
 *Mechanism:* Mast cell activation episodes amplify cognitive and fatigue crashes through neuroinflammatory mediators (Chapter @sec:selective-dysfunction, lines 647–664). Proactive medication intensification before predictable triggers (medical visits, school events, family stress) can reduce crash severity.
 
@@ -123,7 +122,7 @@ Age-appropriate dosing (consult pharmacist for precise pediatric calculations):
 
 *Expected outcomes:* 25–50% reduction in trigger-related crash severity when MCAS component is significant.
 
-]
+] <rec:mcas-prophylaxis-ped-severe>
 
 === Distinguishing from Adult Severity Metrics
 
@@ -190,7 +189,6 @@ The home environment may require modifications to support a bedbound child:
 As in adult severe ME/CFS, pediatric severe cases often involve multiple failing systems. Brief subtype assessment helps prioritize medical interventions within the constraints of pediatric dosing and developmental considerations.
 
 #recommendation(title: [Pediatric Subtype Classification and Prioritization])[
-<rec:ped-subtype-severe>
 
 *Quick assessment for parents/caregivers:*
 
@@ -243,7 +241,7 @@ As in adult severe ME/CFS, pediatric severe cases often involve multiple failing
 
 *Critical reminder*: Subtype assessment guides prioritization but does NOT delay foundational interventions (pacing, sleep, hydration) while waiting for optimization.
 
-]
+] <rec:ped-subtype-severe>
 
 == Medical Management
 <sec:ped-severe-medical>
@@ -260,7 +258,6 @@ Orthostatic intolerance (OI) affects 70–90% of pediatric ME/CFS patients, comp
 Non-pharmacological measures should be implemented first and continued even if medications are added:
 
 #protocol-box(title: [Pediatric OI Non-Pharmacological Protocol])[
-<protocol:ped-oi-nonpharm>
 
 *Hydration Targets (age-adjusted):*
 
@@ -296,14 +293,13 @@ Non-pharmacological measures should be implemented first and continued even if m
     - *Squat when symptomatic*: If feeling faint, squat immediately (raises blood pressure)
     - *Avoid warm environments*: Heat worsens vasodilation and OI symptoms
 
-]
+] <protocol:ped-oi-nonpharm>
 
 ==== Pharmacological Interventions
 
 When non-pharmacological measures are insufficient, medications may be needed. Pediatric POTS studies demonstrate high response rates to standard OI medications @Ojha2024pediatricPOTS.
 
 #protocol-box(title: [Pediatric OI Pharmacological Protocol])[
-<protocol:ped-oi-pharm>
 
 *First-Line: Fludrocortisone (Florinef)*
 
@@ -392,7 +388,7 @@ For severe OI unresponsive to oral measures and medications.
     - *Risks*: Line infection (PICC/port), volume overload, electrolyte disturbance
 
 *Note on IV access*: Decisions about central access (PICC, port) in pediatric ME/CFS require careful risk-benefit analysis. Line infections are serious complications. IV fluids should be reserved for patients with clearly documented benefit from fluid loading who cannot achieve equivalent benefit orally.
-]
+] <protocol:ped-oi-pharm>
 
 === Sensitization Prevention Protocol
 <subsec:ped-severe-sensitization>
@@ -400,7 +396,6 @@ For severe OI unresponsive to oral measures and medications.
 Severe pediatric ME/CFS patients are vulnerable to progressive sensitization—the phenomenon where increasing numbers of triggers (infections, environmental exposures, activities) progressively reduce symptom tolerance. Early intervention to prevent sensitization can preserve quality of life and potentially prevent further deterioration.
 
 #protocol-box(title: [Pediatric Sensitization-Prevention Protocol])[
-<protocol:ped-sensitization-prevention>
 
 *Anti-Neuroinflammatory Foundation*
 
@@ -479,7 +474,7 @@ While not a direct medical intervention, preventing crash-induced educational di
     - *Avoid education-forced crashes*: Never pressure school attendance for academic reasons when doing so will trigger PEM
     - *Each prevented crash*: Each crash not occurring is a sensitization cascade prevented
 
-]
+] <protocol:ped-sensitization-prevention>
 
 #practical-warning(title: [Developmental Trajectory Preservation is Paramount])[
 Severe pediatric ME/CFS differs from adult disease in one critical dimension: the developing nervous system and the developing life trajectory. Each crash during childhood does not merely reduce current function—it may have lasting effects on neurological development, educational progress, and identity formation. Sensitization prevention is not mere symptom management; it is developmental protection. Prevention of a single crash during a critical developmental window may have lifelong implications for the child's ultimate prognosis and capacity.
@@ -503,7 +498,6 @@ Non-pharmacological strategies should be first-line:
 ==== Analgesic Medications
 
 #protocol-box(title: [Pediatric Pain Management Protocol])[
-<protocol:ped-pain>
 
 *Tier 1: Acetaminophen and NSAIDs*
 
@@ -561,7 +555,7 @@ Referral to pediatric pain specialist is indicated for:
     - Complex regional pain syndrome (CRPS) features
     - Need for opioid consideration (rarely appropriate in pediatric ME/CFS)
 
-]
+] <protocol:ped-pain>
 
 === Sleep Optimization
 <subsec:ped-severe-sleep>
@@ -581,7 +575,6 @@ Standard sleep hygiene recommendations require modification for bedbound patient
 ==== Sleep Medications
 
 #protocol-box(title: [Pediatric Sleep Protocol])[
-<protocol:ped-sleep>
 
 *First-Line: Melatonin*
 
@@ -633,7 +626,7 @@ As above for pain, low-dose amitriptyline at bedtime can improve sleep quality. 
     - *Z-drugs (zolpidem, eszopiclone)*: Not FDA-approved for pediatrics; limited safety data; complex sleep behaviors reported
 
 ]
-]
+] <protocol:ped-sleep>
 
 ==== Circadian Rhythm Disorders
 
@@ -653,7 +646,6 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 ]
 
 #recommendation(title: [Bright Light Therapy for Circadian Re-entrainment in Pediatric Severe Cases])[
-<rec:circadian-light-ped-severe>
 
 *Mechanism:* Morning bright light exposure (10,000 lux) resets the suprachiasmatic nucleus (SCN), improving alignment of circadian energy distribution with sleep-wake cycle. Particularly effective for children with delayed sleep phase or energy crashes mid-afternoon followed by evening “second wind.”
 
@@ -688,12 +680,11 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
     - Better energy consistency throughout day
     - Timeline: 2–4 weeks
 
-]
+] <rec:circadian-light-ped-severe>
 
 ==== Sleep Spindle Enhancement via Acoustic Stimulation (Low Priority, Experimental)
 
 #recommendation(title: [Pink/White Noise for Pediatric Sleep Architecture])[
-<rec:sleep-spindle-ped-severe>
 
 *Mechanism:* Sleep spindles (brief high-frequency brain activity during sleep) are reduced in ME/CFS. Acoustic stimulation during sleep may enhance spindle production, improving sleep architecture coordination (Chapter @sec:selective-dysfunction, lines 552–569).
 
@@ -734,7 +725,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Positioning:* Very low priority. Sleep medications have stronger evidence. Consider only if child has difficulty with medications or if medications provide insufficient benefit.
 
-]
+] <rec:sleep-spindle-ped-severe>
 
 === Cognitive Support
 <subsec:ped-severe-cognitive>
@@ -772,7 +763,6 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 ]
 
 #recommendation(title: [Intranasal Options for Severe Pediatric Cognitive Dysfunction])[
-<rec:intranasal-ped-severe>
 
 *For severe pediatric cases with refractory brain fog:*
 
@@ -784,7 +774,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Evidence level*: Speculative (established for other neurological conditions; no pediatric ME/CFS trials)
 
-]
+] <rec:intranasal-ped-severe>
 
 == Preventing Complications of Prolonged Bedrest
 <sec:ped-bedrest-complications>

@@ -170,7 +170,6 @@ Charlton et al.\ (2026), writing in the _British Journal of Sports Medicine_, di
 Deconditioning does occur in ME/CFS—as a consequence of enforced inactivity due to PEM, not as a cause of symptoms. This distinction is clinically critical: treating secondary deconditioning requires activity management within the energy envelope (pacing; Section @sec:pacing), not progressive exercise that violates it. Conflating consequence with cause has caused measurable harm to patients and delayed appropriate treatment (Section @sec:exercise-debates).
 
 #hypothesis-box(title: [The Deconditioning Narrative as Iatrogenic Harm Multiplier])[
-<hyp:deconditioning-iatrogenic>
 
 *Certainty: 0.50.* The individual components are well-documented (GET harms, deconditioning beliefs among clinicians, delayed diagnosis patterns). The systems-level causal chain linking belief $arrow.r$ prescription $arrow.r$ harm $arrow.r$ worsening is strongly supported by patient surveys @Kindlon2011GET and guideline changes @NICE2021mecfs, but has not been tested as a formal causal model with appropriate controls.
 
@@ -197,10 +196,9 @@ This hypothesis would be falsified if patients managed under the deconditioning 
 
 *Limitations.*
 Retrospective cohort studies cannot fully control for confounders (patients who receive deconditioning-based care may differ systematically from those who receive PEM-aware care). Selection bias is likely: patients who seek PEM-aware clinicians may be more medically literate or have better access to specialist care. A randomized trial would be unethical given existing evidence of GET harm.
-]
+] <hyp:deconditioning-iatrogenic>
 
 #open-question(title: [The Sports Medicine Paradigm Shift as Natural Experiment])[
-<oq:paradigm-shift-natural-experiment>
 The publication of Charlton et al.\ (2026) in the _British Journal of Sports Medicine_ @Charlton2026pem—challenging cardiac deconditioning from within the exercise science community—represents a sociologically significant event. Combined with the 2021 NICE guideline change @NICE2021mecfs, it creates a natural experiment:
 
     - Do clinical practices actually change after paradigm-shifting publications? How quickly?
@@ -209,7 +207,7 @@ The publication of Charlton et al.\ (2026) in the _British Journal of Sports Med
     - What is the “half-life” of iatrogenic harm after the evidence changes—how long do outdated deconditioning-based practices persist in clinical settings?
 
 Tracking referral patterns, GET prescription rates, and patient outcomes correlated with publication dates would provide the first empirical study of how long iatrogenic harm persists after the evidence base shifts. This has implications beyond ME/CFS for understanding knowledge translation failures in medicine.
-]
+] <oq:paradigm-shift-natural-experiment>
 
 == The NIH “Effort Preference” Controversy (2024–2025)
 <sec:effort-preference-debate>

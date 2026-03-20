@@ -227,7 +227,6 @@ caption: [Recommended Monitoring Frequency by ME/CFS Severity],
 Before implementing the full intervention protocol, assess which subtype most closely matches your presentation. This guides resource allocation and helps prioritize which interventions to start first.
 
 #recommendation(title: [Subtype Classification for Mild-Moderate Patients])[
-<rec:subtype-mild-moderate>
 
 *Rationale:* Not all mild-moderate ME/CFS patients need identical treatment sequences. The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction) proposes four subtypes with different treatment priorities.
 
@@ -283,7 +282,7 @@ Before implementing the full intervention protocol, assess which subtype most cl
 
 *Action*: Identify your dominant subtype to guide prioritization, but do NOT delay foundational treatments (pacing, sleep, hydration) while waiting for subtype-specific optimization.
 
-]
+] <rec:subtype-mild-moderate>
 
 === Core Principles
 
@@ -346,9 +345,8 @@ See Chapter @ch:emerging-therapies, \S@subsec:pem-prevention for complete proto
 *Conservative Baseline Establishment During Interventions*
 
 #warning-box(title: [Graded Exercise Therapy is Harmful])[
-<warn:get-harmful>
 Graded exercise therapy (GET) has been heavily criticized for causing patient deterioration and is no longer recommended by major health organizations @NICE2021mecfs. The PACE trial, which originally promoted GET for ME/CFS, was subsequently discredited following reanalysis revealing unscientific methodology @Wilshire2018. Patient surveys document that 50–74% of ME/CFS patients report worsening from GET, including severe crashes, prolonged recovery periods, and permanent functional decline @EatonFitch2019. Exercise “pushing through” symptoms violates the fundamental principle of energy envelope management and can trigger the post-exertional malaise mechanism. The “crash limit rule” from patient communities suggests individuals should not experience more than 5 total severe crashes, as recovery time increases with each subsequent crash, potentially leading to irreversible worsening.
-]
+] <warn:get-harmful>
 
 #warning-box(title: [Do Not Test PEM During Early Intervention Phase])[
 When starting new interventions (electrolytes, supplements, medications), resist the urge to “test” whether you can now do more activity. Initial improvements may reflect temporary metabolic support rather than restored capacity.
@@ -409,7 +407,6 @@ The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction
 ]
 
 #recommendation(title: [Cognitive Hierarchy-Aware Task Allocation Strategy])[
-<rec:cognitive-hierarchy-scheduling>
 
 *Mechanism:* Schedule cognitively demanding tasks (Tier 5–6) during peak energy only; shift to simpler tasks (Tier 2–3) when fatigued. This preserves cognitive function for priorities while allowing continued engagement with less demanding activities. See Section @sec:selective-dysfunction for the CNS energy triage hypothesis.
 
@@ -447,7 +444,7 @@ The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction
 
 *Expected benefit*: By aligning task demands with available energy across the day, you can:*(1)* Complete important cognitive tasks during peak windows, preventing decision fatigue; *(2)* Maintain some activity during lower-energy periods without requiring cognitive effort; *(3)* Reduce overall symptom burden through better energy allocation.
 
-]
+] <rec:cognitive-hierarchy-scheduling>
 
 ==== Crash Severity Dose-Response: Why Large Violations Are Catastrophic
 <subsubsec:crash-dose-response>
@@ -668,7 +665,6 @@ The challenge: Crash prevention requires life disruption, social sacrifice, and 
 Standard energy envelope management relies on subjective symptom monitoring and retrospective crash analysis. Two emerging approaches offer more objective, proactive guidance: HRV-guided activity management and periodized activity cycling adapted from sports medicine.
 
 #protocol-box(title: [HRV-Guided Activity Management])[
-<prot:hrv-guided-pacing>
 Heart rate variability (HRV) provides an objective window into autonomic nervous system recovery status. This protocol uses daily HRV measurement to determine activity budgets, potentially preventing crashes before they occur.
 
 *Physiological Basis*
@@ -706,10 +702,9 @@ HRV reflects the balance between sympathetic and parasympathetic nervous system 
 HRV-guided training is well-established in sports science @Plews2013hrv @Addleman2024hrv, with consistent evidence that reduced HRV predicts poor training tolerance and overtraining syndrome @Meeusen2013overtraining. Preliminary evidence supports HRV's utility in ME/CFS: Escorihuela et al. @Escorihuela2020hrv demonstrated that reduced HRV predicts fatigue severity in ME/CFS patients (n=45), with RMSSD, mean RR intervals, and high-frequency power all significantly correlating with self-reported fatigue (p \< 0.03). This suggests HRV may serve as an objective indicator of physiological reserve.
 
 However, individual variation in HRV response is substantial; the protocol requires personalization. Some ME/CFS patients have chronically suppressed HRV, requiring adjusted thresholds. Consumer wearable devices are evolving rapidly but require validation for clinical use @Li2023wearable. A proposed RCT comparing HRV-guided to standard pacing is described in Chapter @ch:proposed-studies, Section @sec:hrv-pacing-rct.
-]
+] <prot:hrv-guided-pacing>
 
 #protocol-box(title: [Periodized Activity Cycling])[
-<prot:periodized-activity>
 
 *Certainty: 0.30.* Periodized activity cycling (alternating planned deload and maintenance phases) adapted from sports medicine may optimize recovery compared to static activity maintenance in ME/CFS. The certainty level reflects: (1) well-established efficacy of periodization in athletic training for preventing overtraining syndrome; (2) theoretical parallel between overtraining and ME/CFS post-exertional malaise; (3) however, lack of any randomized controlled trials directly testing periodization in ME/CFS; (4) inability to replicate the controlled training environments of sports medicine in heterogeneous ME/CFS populations; (5) fundamental uncertainty about whether the overtraining syndrome model accurately describes ME/CFS physiology; (6) high inter-individual variation in activity tolerance that may render standardized cycles ineffective.
 
@@ -755,7 +750,7 @@ Periodized activity cycling is fundamentally different from graded exercise ther
     - GET aims to “decondition” patients from activity avoidance—periodization respects energy envelope as biological reality
     - GET was designed for presumed psychological aversion—periodization is designed for physiological recovery optimization
 
-]
+] <prot:periodized-activity>
 
 ==== Sports Medicine Deload Principles
 <sec:sports-deload>
@@ -821,7 +816,6 @@ While HRV provides sophisticated autonomic assessment (Protocol @prot:hrv-guide
 Resting heart rate offers a zero-cost alternative to HRV for tracking recovery status:
 
 #protocol-box(title: [Resting Heart Rate Monitoring])[
-<prot:rhr-monitoring>
 
 *Measurement Protocol:*
 
@@ -846,7 +840,7 @@ Sports medicine literature consistently identifies 5–7 bpm RHR elevation as in
     - Less sensitive than HRV to subtle autonomic changes
     - ME/CFS patients may have dysautonomia causing chronically elevated RHR; focus on trends and relative changes
 
-]
+] <prot:rhr-monitoring>
 
 *Combined Monitoring Strategy*
 
@@ -873,7 +867,6 @@ Validated tools from sports science include:
 For ME/CFS, complex questionnaires may create excessive burden. A simplified approach:
 
 #protocol-box(title: [Daily Recovery Self-Rating])[
-<prot:daily-recovery-rating>
 
 Each morning, rate recovery status on 0–10 scale:
 
@@ -898,7 +891,7 @@ Each morning, rate recovery status on 0–10 scale:
     - If recovery rating \<5 for 3+ consecutive days: reduce activity immediately
     - Use in combination with objective metrics (HRV, RHR) for comprehensive picture
 
-]
+] <prot:daily-recovery-rating>
 
 ==== Practical Implementation Framework
 
@@ -991,9 +984,8 @@ The distinction is critical: GET has been shown to be harmful in significant sub
     - *ME/CFS adaptation*: Low-quality; theoretical extrapolation only; no RCTs
 
 #open-question(title: [Sports-Adapted Pacing: Unresolved Evidence Gaps])[
-<q:sports-pacing-gaps>
 Randomized controlled trials comparing sports-adapted versus standard pacing in ME/CFS do not yet exist. Specifically unresolved: optimal deload frequency, duration, and depth; long-term outcomes beyond 6 months; validated patient selection criteria; and systematic safety evaluation.
-]
+] <q:sports-pacing-gaps>
 
 *Proposed Research:* Chapter @ch:proposed-studies includes a proposal for an RCT comparing sports medicine-adapted periodization to standard flexible pacing in mild-moderate ME/CFS (Section @sec:periodization-rct-proposal).
 
@@ -1063,7 +1055,6 @@ The blood-brain barrier (BBB) may limit delivery of compounds needed for cogniti
 ]
 
 #recommendation(title: [Prioritizing Intranasal Routes When Available])[
-<rec:intranasal-mild-moderate>
 
 *For mild-moderate patients with prominent cognitive dysfunction:*
 
@@ -1077,17 +1068,15 @@ The blood-brain barrier (BBB) may limit delivery of compounds needed for cogniti
 
 *Evidence level*: Speculative (established for other neurological conditions; no ME/CFS-specific trials)
 
-]
+] <rec:intranasal-mild-moderate>
 
 *Transcranial Direct Current Stimulation (tDCS) for Cognitive Enhancement*
 
 #speculation(title: [tDCS Energy Cost Reduction via DLPFC Modulation])[
-<spec:tdcs-dlpfc-energy>
 *Certainty: 0.25.* Anodal tDCS targeting the DLPFC modulates cortical excitability and has demonstrated improvements in working memory, attention, and executive function in multiple studies @Li2022tDCS. Applied to ME/CFS, this neural efficiency gain may reduce the energy cost of Tier 5 cognitive tasks (Section @sec:selective-dysfunction), thereby improving sustainable cognitive performance within the patient's energy envelope. No ME/CFS-specific trials exist; the application to energy triage theory is speculative extrapolation.
-]
+] <spec:tdcs-dlpfc-energy>
 
 #recommendation(title: [Home tDCS Protocol for Cognitive Enhancement in Mild-Moderate ME/CFS])[
-<rec:tdcs-mild-moderate>
 
 *Mechanism:* Anodal tDCS to DLPFC increases cortical excitability, potentially reducing energy cost of executive function through improved neural efficiency.
 
@@ -1141,7 +1130,7 @@ The blood-brain barrier (BBB) may limit delivery of compounds needed for cogniti
 
 *Practical consideration:* Requires initial physician consultation for safety screening and proper electrode placement. Some occupational therapists experienced with tDCS can assist with home setup.
 
-]
+] <rec:tdcs-mild-moderate>
 
 ==== Sleep Dysfunction
 
@@ -1174,13 +1163,12 @@ Non-restorative sleep is a core ME/CFS symptom (Section @sec:sleep). Sleep dysf
 *Dual Orexin Receptor Antagonists (DORAs) for Chronic Sleep Support*
 
 #achievement(title: [Daridorexant: Evidence-Based DORA for ME/CFS Sleep])[
-<achievement:daridorexant-efficacy>
 Dual orexin receptor antagonists (DORAs) offer a mechanistically targeted approach to ME/CFS sleep dysfunction, given documented orexin system abnormalities in the condition @LopezAmador2025orexin. Daridorexant (Quviviq), FDA-approved in 2022, has robust evidence from multiple meta-analyses: Rocha et al. @Rocha2023dora (10 RCTs, n=7,806) established dose-response relationships; Xue et al. @Xue2022dora (13 RCTs) confirmed class-wide DORA efficacy; Dutta et al. @Dutta2023daridorexant provided GRADE assessment showing MODERATE certainty for safety comparable to placebo.
 
 Unlike Z-drugs and benzodiazepines, DORAs consolidate sleep by reducing _long_ wake bouts (>6 minutes) correlated with daytime impairment, while preserving brief arousals that maintain healthy sleep-wake boundary control @DiMarco2023wakebouts. This mechanism addresses non-restorative sleep without producing hangover effects or tolerance.
 
 *Long-term safety*: 52-week extension study (n=801) demonstrated no tolerance or withdrawal phenomena with continuous or intermittent use @Kunz2022daridorexant.
-]
+] <achievement:daridorexant-efficacy>
 
 *Practical protocol*: Start daridorexant 25 mg 30 minutes before bedtime with at least 7 hours available for sleep @Nie2023daridorexant. If insufficient after 4–6 weeks, increase to 50 mg. Safe for chronic use without tolerance development @StOnge2022daridorexant. *Advantages over traditional sleep aids*: No next-day sedation; no cognitive impairment; no tolerance; suitable for long-term use in ME/CFS.
 
@@ -1193,7 +1181,6 @@ The selective energy dysfunction hypothesis (Hypothesis @hyp:circadian-failure)
 ]
 
 #recommendation(title: [Circadian Light Therapy: Entrainment Protocol])[
-<rec:circadian-light-mild-moderate>
 
 *Mechanism:* Bright morning light exposure resets the circadian oscillator, improving alignment between energy availability and day-night cycle. This synergizes with sleep medications by improving melatonin timing.
 
@@ -1216,12 +1203,11 @@ The selective energy dysfunction hypothesis (Hypothesis @hyp:circadian-failure)
     - Reduced afternoon crashes
     - Timeline: 2–4 weeks
 
-]
+] <rec:circadian-light-mild-moderate>
 
 *Sleep Spindle Enhancement via Acoustic Stimulation (Low Priority, Optional)*
 
 #recommendation(title: [Pink/White Noise for Sleep Architecture Improvement])[
-<rec:sleep-spindle-mild-moderate>
 
 *Mechanism:* Sleep spindles (brief high-frequency brain activity during NREM sleep) are reduced in ME/CFS. Acoustic stimulation may enhance spindle production, potentially improving sleep restorativeness (Hypothesis @hyp:sleep-architecture).
 
@@ -1256,7 +1242,7 @@ The selective energy dysfunction hypothesis (Hypothesis @hyp:circadian-failure)
 
 *Positioning:* Low-priority addition. Sleep medications (melatonin, trazodone) have stronger evidence. Use acoustic stimulation if medications insufficient or patient prefers non-pharmacological approach.
 
-]
+] <rec:sleep-spindle-mild-moderate>
 
 ==== Pain
 
@@ -1293,9 +1279,8 @@ Pain in ME/CFS involves inflammatory mediators (Section @sec:pro-inflammatory),
 
 *Evidence quality*: HIGH for general chronic pain (multiple independent meta-analyses, n>1000 patients). MEDIUM for ME/CFS-specific use (extrapolated; no ME/CFS RCTs).
 #hypothesis-box(title: [PEA Mechanisms Align with ME/CFS Pain Pathophysiology])[
-<hyp:pea-mecfs-pain-mechanisms>
 *Certainty: 0.45.* PEA's mechanisms of action directly target pathways implicated in ME/CFS pain. Petrosino et al. @Petrosino2019pea demonstrated that PEA counteracts mast cell activation by stimulating diacylglycerol lipase-$beta$ (DAGL-$beta$), increasing endogenous 2-arachidonoylglycerol (2-AG), which activates CB2 receptors to inhibit mast cell degranulation and histamine release—particularly relevant given mast cell activation in ME/CFS subsets (Section @sec:mcas-mild-moderate). Additionally, PEA functions as a PPAR-$alpha$ agonist, reducing neuroinflammation through glial cell modulation and suppression of pro-inflammatory cytokine expression @Varrassi2025pea.
-]
+] <hyp:pea-mecfs-pain-mechanisms>
 
 *Practical protocol*: Prefer _micronized_ or _ultramicronized_ PEA formulations (enhanced solubility profile; superiority over standard PEA on clinical outcomes remains under investigation @LangIllievich2023PEA). Dose: 600 mg twice daily. Time to benefit: 4–6 weeks for initial effect; peak benefit at 24–26 weeks @LangIllievich2023PEA. Excellent safety profile with minimal side effects documented across trials.
 
@@ -1338,7 +1323,6 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
 *Compression Garments for Autonomic Load Reduction*
 
 #recommendation(title: [Medical-Grade Compression Stockings for Mild-Moderate Orthostatic Intolerance])[
-<rec:compression-garments-mild-moderate>
 
 *Mechanism:* Compression garments reduce autonomic coordination load by maintaining peripheral venous pressure, reducing baroreceptor-mediated sympathetic activation required for orthostatic compensation (Speculation @spec:sfn-interface: SFN interface failure).
 
@@ -1386,7 +1370,7 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
 
 *Expected outcomes:* 20–40% reduction in orthostatic symptoms when combined with salt/fluid protocol. Effects may take 1–2 weeks as child adjusts to compression.
 
-]
+] <rec:compression-garments-mild-moderate>
 
 *Prescription (If Above Insufficient)*
 
@@ -1399,20 +1383,18 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
 <sec:tvns-pots>
 
 #achievement(title: [tVNS Reduces Orthostatic Tachycardia in POTS])[
-<achievement:tvns-pots-rct>
 Teixeira et al. @Teixeira2024POTS conducted the first randomized, double-blind, sham-controlled trial of transcutaneous vagus nerve stimulation (tVNS) for postural tachycardia syndrome. Daily tragus stimulation (20 Hz, 1 mA below discomfort threshold, 1 hour per day for 2 months, n=26) significantly reduced orthostatic tachycardia compared to sham (heart rate increase during tilt test: 26.4 bpm at baseline $\to$17.6 bpm at 2 months in active group, p\<0.05; no change in sham group).
 
 Mechanisms included decreased $beta_1$-adrenergic and $alpha_1$-adrenergic receptor autoantibodies, reduced inflammatory cytokines, and improved heart rate variability. The intervention was well-tolerated with no serious adverse events @Farmer2022taVNS.
 
 *Study quality*: HIGH (randomized, sham-controlled, published in JACC: Clinical Electrophysiology). Requires larger replication trials.
-]
+] <achievement:tvns-pots-rct>
 
 *Practical protocol*: Auricular tVNS targeting tragus or cymba concha; 20–25 Hz, 0.5–1 mA (below discomfort threshold); start with 5–10 minutes daily and gradually increase to 30–60 minutes over several weeks. Devices include FDA-approved GammaCore (cervical) and research/CE-marked auricular devices (NEMOS, Parasym). *Home-based* treatment suitable for bedbound patients.
 
 #warning-box(title: [tVNS Caution in Severe ME/CFS])[
-<warn:tvns-severe-mecfs>
 An international ME/CFS patient survey (n=116) found that “normal” tVNS settings can cause crashes in severe ME/CFS patients @Lugg2024MECFS, although 56% reported favorable effects overall. For severe ME/CFS: use very gradual titration (start 0.5 mA, 5 minutes), monitor for delayed symptom exacerbation (24–48 hours), and discontinue if crashes occur. Formal trials to identify safe parameters for the ME/CFS population are needed.
-]
+] <warn:tvns-severe-mecfs>
 
 === Mast Cell Activation Syndrome (MCAS) Management
 <sec:mcas-mild-moderate>
@@ -1524,7 +1506,6 @@ If pain and/or sleep issues coexist with MCAS features, amitriptyline provides d
 *MCAS Prophylactic Intensification for High-Demand Activities and Known Triggers*
 
 #recommendation(title: [Prophylactic Intensification for Mild-Moderate MCAS Patients])[
-<rec:mcas-prophylaxis-mild-moderate>
 
 *Mechanism:* Mast cell activation episodes amplify fatigue and cognitive crashes through inflammatory mediators (Hypothesis @hyp:mcas-amplifier). Proactive medication intensification 1–2 days before high-demand activities can reduce crash severity.
 
@@ -1580,7 +1561,7 @@ If pain and/or sleep issues coexist with MCAS features, amitriptyline provides d
 
 *Expected outcomes:* 25–50% reduction in crash severity or duration when MCAS component is substantial. Lesser benefit if non-MCAS mechanisms predominate.
 
-]
+] <rec:mcas-prophylaxis-mild-moderate>
 
 == Systematic Comorbidity Screening: The Septad Framework
 <sec:septad-screening-mild-moderate>
@@ -1657,9 +1638,8 @@ Screen for SIBO and gastroparesis if:
 === Treatment Sequencing
 
 #assumption-box(title: [Septad Treatment Sequencing: MCAS First])[
-<ass:septad-sequencing>
 Based on clinical experience rather than validated research, Kaufman proposes addressing mast cell activation syndrome (MCAS) before other Septad components, on the rationale that mast cell stabilization may reduce interconnected symptom burden across multiple domains. This sequencing has not been tested in controlled studies.
-]
+] <ass:septad-sequencing>
 
 #warning-box(title: [Framework Limitations])[
 The Septad is a _clinical framework_ based on expert observation, not a validated research model. Systematic prevalence data for each component in ME/CFS populations is lacking. Use for organizing comorbidity screening, not as diagnostic criteria for ME/CFS itself. PEM remains the hallmark diagnostic feature (Section @sec:septad).
@@ -1678,7 +1658,6 @@ Mild-moderate patients have a critical advantage: potential to intervene before 
 The striking difference in recovery rates between pediatric and adult ME/CFS patients (54–94% @Joyce1997prognosis versus $lt.eq$22% @Cairns2005prognosis) suggests that biological plasticity plays a critical role in determining outcomes. While some of this advantage may be inherent to developing biology, pediatric care patterns offer a potentially actionable insight: children are typically diagnosed earlier and treated more aggressively from the outset.
 
 #hypothesis-box(title: [Front-Loading Treatment Intensity])[
-<hyp:front-loading-intensity>
 
 *Certainty: 0.35.* The front-loading strategy (concentrating intensive intervention in the first 6–12 months post-onset) may improve outcomes compared to traditional conservative sequential treatment. The certainty level reflects: (1) observational evidence linking early diagnosis to better outcomes; (2) theoretical basis from Recovery Capital model and critical window phenomena; (3) however, lack of randomized controlled trials directly comparing front-loading versus conservative approaches; (4) inability to control for confounding (early-diagnosed patients may have milder disease or better prognostic markers); (5) substantial treatment intensity carries risks including medication interactions and PEM from over-intervention; (6) unclear whether front-loading truly alters trajectory or merely benefits naturally-recovering patients.
 
@@ -1687,7 +1666,7 @@ The “front-loading” strategy inverts the traditional incremental approach to
 *Rationale:* The Recovery Capital model (Speculation @spec:recovery-capital) proposes that patients begin with finite biological reserves that deplete over time with crashes and chronic illness. If correct, early aggressive intervention—before significant reserve depletion—would have greater efficacy than the same interventions applied later. Pediatric outcomes may partly reflect this timing advantage.
 
 *Core principle:* Treat early ME/CFS as a medical emergency requiring immediate comprehensive intervention, not a chronic condition warranting gradual symptom management.
-]
+] <hyp:front-loading-intensity>
 
 *Contrasting Treatment Philosophies*
 
@@ -1814,7 +1793,6 @@ A randomized trial testing front-loading versus standard care is proposed in Cha
 If front-loading achieves sustained symptom improvement, the next question becomes: Which interventions must continue long-term, and which can be safely discontinued? Given the attribution problem (inability to isolate which interventions drove improvement), taper must be systematic and cautious.
 
 #protocol-box(title: [Front-Loading Taper Protocol])[
-<prot:front-loading-taper>
 
 *Eligibility criteria for initiating taper:*
 
@@ -1928,12 +1906,11 @@ After taper attempts, reassess which interventions appear necessary for sustaine
     - Cost and burden considerations
     - Patient preference
 
-]
+] <prot:front-loading-taper>
 
 *Expected Outcomes of Taper Process*
 
 #recommendation(title: [Taper Protocol Outcomes])[
-<rec:taper-outcomes>
 
 *Scenario 1: Successful taper (estimated 20–30%):*
 
@@ -1954,7 +1931,7 @@ After taper attempts, reassess which interventions appear necessary for sustaine
     - Front-loading achieved stabilization but not resolution; ongoing management necessary
 
 *CRITICAL*: Inability to taper does NOT indicate front-loading “failed.” If patient achieved sustained stabilization with multi-modal treatment, this represents success even if interventions must continue indefinitely. The alternative (not using interventions) would likely result in ongoing instability or deterioration.
-]
+] <rec:taper-outcomes>
 
 *Taper Failures and Re-escalation*
 
@@ -2004,11 +1981,10 @@ Taper outcomes could provide indirect evidence for or against Recovery Capital d
 For patients within 6 months of ME/CFS symptom onset, the evidence suggests a narrow therapeutic window where aggressive intervention may alter disease trajectory. While the front-loading strategy (Section @subsubsec:front-loading-strategy) applies to all mild-moderate patients, acute-onset cases warrant an even more intensive, time-sensitive approach.
 
 #achievement(title: [Diagnostic Delay Predicts Recovery: Evidence from Longitudinal Cohort])[
-<ach:diagnostic-delay-recovery>
 Castro-Marrero et al. @CastroMarrero2022prognosis tracked 168 ME/CFS patients over median 55-month follow-up, identifying diagnostic delay as the most significant modifiable prognostic factor. Patients who achieved recovery or improvement had median diagnostic delay of 23 months versus 55 months for non-recovered patients (p=0.0004). Multivariate analysis confirmed diagnostic delay inversely associated with recovery/improvement (OR 0.98 per month, p=0.036), with overall recovery rate of 8.3% and improvement rate of 4.8%.
 
 *Clinical implication:* Every month of delay reduces recovery probability. Early diagnosis and intervention are not merely beneficial—they may be decisive.
-]
+] <ach:diagnostic-delay-recovery>
 
 ==== Rationale for Acute Intervention
 
@@ -2023,7 +1999,6 @@ Three converging lines of evidence support time-sensitive intervention in newly 
 ==== Acute Onset Protocol Components
 
 #protocol-box(title: [Intensive Early Intervention for Acute-Onset ME/CFS])[
-<prot:acute-onset-intensive>
 
 *Certainty: 0.40.* Early aggressive intervention in the first 6 months of ME/CFS may alter disease trajectory and improve recovery probability. The certainty level reflects: (1) observational evidence linking diagnostic delay to worse outcomes; (2) theoretical basis from critical window phenomena in other post-viral illnesses; (3) however, lack of randomized controlled trials testing early intensive intervention protocols; (4) recovery rates even with intervention remain modest (8–13%); (5) inability to distinguish whether early intervention enables recovery or merely selects for spontaneously recovering patients; (6) substantial individual variation in disease trajectory independent of intervention timing.
 
@@ -2138,12 +2113,11 @@ Three converging lines of evidence support time-sensitive intervention in newly 
         - Psychological support for adjustment to chronic illness if recovery incomplete
     
 
-]
+] <prot:acute-onset-intensive>
 
 ==== Expected Outcomes and Realistic Expectations
 
 #recommendation(title: [Acute Onset Protocol: Outcomes and Limitations])[
-<rec:acute-onset-outcomes>
 
 _Note: The following outcome estimates are author-generated projections extrapolated from general ME/CFS recovery literature and diagnostic delay studies. They have not been validated for this specific protocol._
 
@@ -2168,12 +2142,11 @@ _Note: The following outcome estimates are author-generated projections extrapol
     - Need for long-term accommodations and lifestyle modification
 
 *CRITICAL CAVEAT:* These are rough estimates extrapolated from recovery literature and diagnostic delay data. The acute onset protocol has NOT been validated in randomized trials. Individual outcomes remain highly variable and unpredictable.
-]
+] <rec:acute-onset-outcomes>
 
 ==== Safety Considerations and Contraindications
 
 #warning-box(title: [Acute Onset Protocol Safety])[
-<warn:acute-onset-safety>
 
 *Monitoring requirements:*
 
@@ -2194,7 +2167,7 @@ Complete bed rest is NOT recommended. Goal is activity reduction to sustainable 
 
 *Psychological impact:*
 Aggressive medical intervention in newly diagnosed patients can provoke anxiety or medicalization concerns. Ensure patient understands: (1) Protocol is hypothesis-driven, not proven; (2) They retain decision-making autonomy; (3) Protocol can be modified based on tolerance and response.
-]
+] <warn:acute-onset-safety>
 
 ==== Evidence Status and Research Needs
 
@@ -2211,7 +2184,6 @@ Until such evidence exists, this protocol represents reasoned clinical extrapola
 ==== When NOT to Use Front-Loading Strategy
 
 #warning-box(title: [Front-Loading Contraindications])[
-<warn:front-loading-contraindications>
 
 The front-loading strategy is NOT appropriate for all patients. Specific contraindications:
 
@@ -2275,13 +2247,12 @@ The front-loading strategy is NOT appropriate for all patients. Specific contrai
     - Add additional interventions sequentially as resources and monitoring allow
 
 This approach preserves some potential for early intervention while accommodating resource constraints and safety considerations.
-]
+] <warn:front-loading-contraindications>
 
 === “Brain First” Implementation Protocol for Mild-Moderate Cases
 <subsec:brain-first-implementation>
 
 #protocol-box(title: [“Brain First” Sequential Treatment for Optimal ME/CFS Recovery])[
-<prot:brain-first-implementation>
 
 *Patient-Derived Insight and Rationale*
 
@@ -2361,7 +2332,7 @@ The “brain first” protocol provides the foundational CNS stabilization. It s
     - *Comorbidity screening*: See Section @sec:septad-screening-mild-moderate. Treat identified comorbidities concurrently (thyroid dysfunction, vitamin deficiencies, sleep apnea).
     - *Immune profiling*: Parallel to this protocol, obtain immune biomarkers to guide longer-term disease-modifying strategy (see Chapter @ch:immune-dysfunction for biomarker discussion).
 
-]
+] <prot:brain-first-implementation>
 
 <obs:treatment-sequencing-patient-capacity>
 
@@ -2488,40 +2459,36 @@ Biomarker-driven supplementation targets documented ME/CFS metabolic deficits: r
 *N-Acetylcysteine (NAC) for Glutathione Repletion*
 
 #achievement(title: [Brain Glutathione Deficiency in ME/CFS])[
-<achievement:brain-glutathione-deficit>
 Magnetic resonance spectroscopy studies consistently document reduced brain glutathione (GSH) in ME/CFS patients. Shungu et al. @Shungu2012glutathione found 36% lower cortical GSH levels compared to healthy controls (n=15 vs n=13), with strong correlations to physical functioning ($rho = 0.506$, p = 0.001) and energy levels ($rho = 0.606$, p < 0.001). This finding was independently replicated by Godlewska et al. @Godlewska2021glutathione using higher-resolution 7 Tesla MRS (n=22 vs n=13), which also revealed decreased total creatine and myo-inositol, suggesting concurrent energetic and glial dysfunction.
 
 Brain GSH inversely correlates with ventricular lactate (r = -0.545, p = 0.001), implicating oxidative stress in pathophysiology @Shungu2012glutathione.
-]
+] <achievement:brain-glutathione-deficit>
 
 *Practical protocol*: N-acetylcysteine 600–1200 mg two to three times daily with meals (total 1800–3600 mg/day). NAC provides cysteine, the rate-limiting amino acid for glutathione synthesis, and crosses the blood-brain barrier to support in situ GSH production. Pilot data showed 1800 mg/day normalized cortical GSH and improved symptoms (p=0.006) @Shungu2016NACtrial. An NIH-funded RCT (NCT04542161, n=60) comparing doses (0/900/3600 mg/day) is expected to complete in 2026. Safety profile well-established (>30 years clinical use); common side effects include GI discomfort ($tilde$10%).
 
 *D-Ribose for ATP Regeneration*
 
 #speculation(title: [D-Ribose Accelerates ATP Recovery])[
-<spec:d-ribose-atp>
 *Certainty: 0.40.* D-ribose is a pentose sugar that serves as a substrate for de novo nucleotide synthesis, bypassing the rate-limiting step in ATP regeneration following energy depletion @Dodd2004ribose. In ME/CFS, two open-label studies demonstrated large effect sizes: Teitelbaum et al. @Teitelbaum2006ribose found 45% energy improvement (n=41), subsequently replicated in a multicenter trial with 61.3% energy increase (n=257, p\<0.0001) @Teitelbaum2012ribose. Animal studies demonstrate 85% ATP recovery at 24 hours with ribose supplementation versus 0% in controls @Paterson1989ribose.
 
 *Evidence limitations*: Both ME/CFS studies were open-label without placebo control, yielding LOW-MEDIUM certainty despite large effect sizes. Placebo effects cannot be excluded.
 
 *Practical protocol*: 5 g three times daily with meals (total 15 g/day). Effects typically begin within 1 week. Consider combination with CoQ10, L-carnitine, and magnesium for synergistic ATP support @Sinatra2009metabolic.
-]
+] <spec:d-ribose-atp>
 
 #warning-box(title: [D-Ribose Contraindication: Diabetes and Hypoglycemia])[
-<warn:d-ribose-diabetes>
 D-ribose triggers insulin release paradoxically lowering blood glucose despite not being metabolized as glucose. *Contraindicated in diabetes mellitus (Types 1 and 2), hypoglycemia, or blood sugar instability.* Always take with meals to minimize blood sugar fluctuations.
-]
+] <warn:d-ribose-diabetes>
 
 *L-Citrulline-Malate for TCA Cycle Support*
 
 #speculation(title: [Citrulline-Malate Addresses TCA/Urea Cycle Dysfunction])[
-<spec:citrulline-malate-tca>
 *Certainty: 0.35.* Metabolomic studies reveal significant TCA cycle dysfunction in ME/CFS, with reduced concentrations of citrate, isocitrate, and malate, alongside elevated ornithine/citrulline ratios indicating urea cycle impairment @Yamano2016tca_urea. Citrulline-malate supplementation (6 g/day for 15 days) in fatigued individuals increased oxidative ATP production by 34% and phosphocreatine recovery by 20%, measured via #super[31]P magnetic resonance spectroscopy @Bendahan2002citrulline. The malate component acts as a TCA cycle intermediate, potentially bypassing anaplerotic bottlenecks; citrulline supports urea cycle function for ammonia detoxification.
 
 *Evidence limitations*: No ME/CFS-specific intervention trials exist. Evidence extrapolated from metabolomics studies and exercise performance research.
 
 *Practical protocol*: Start 3 g/day, target 6 g/day divided doses with meals. Minimum 2–4 weeks for metabolic adaptation. Well-tolerated up to 15 g/day; main side effect: mild GI discomfort (14.6% at high doses) @PerezGuisado2010citrulline.
-]
+] <spec:citrulline-malate-tca>
 
 *Cycle 2: Immune Activation and Autoimmunity.*
 
@@ -2836,9 +2803,8 @@ This approach is more complex than “try everything” empiricism, but it maxim
 === Early-Disease Anti-Cytokine Strategy
 
 #speculation(title: [Immune Exhaustion Timeline: Early Intervention Preventive Window])[
-<spec:immune-exhaustion-timeline>
 *Certainty: 0.35.* Early aggressive anti-inflammatory intervention in the first 3 years of ME/CFS may prevent progression to severe disease and immune exhaustion. While anti-inflammatory approaches are established (omega-3, LDN, curcumin), stratifying intervention urgency by illness duration to define a preventive therapeutic window is a novel synthesis. This represents a paradigm shift from reactive symptom management to proactive cascade prevention. Certainty is low because no RCTs compare early versus late anti-inflammatory intervention in ME/CFS; the duration-dependent cytokine patterns (Achievement @ach:cytokine-duration) are observational, and confounding by disease progression independent of intervention cannot be excluded.
-]
+] <spec:immune-exhaustion-timeline>
 
 *Rationale*
 If illness duration $\<$3 years and cytokines elevated (particularly IL-6 $\>$3–5 pg/mL), consider anti-inflammatory intervention to prevent progression to exhaustion phase. Achievement @ach:cytokine-duration documents duration-dependent cytokine patterns, and Section @sec:tier1-research presents the “Immune Exhaustion Timeline” hypothesis.
@@ -2936,9 +2902,8 @@ If illness duration $\<$3 years and cytokines elevated (particularly IL-6 $\>$3�
 *Gut-Immune Axis*
 
 #hypothesis-box(title: [Dysbiotic Priming: Gut Dysbiosis Drives Immune Hyperactivation])[
-<hyp:dysbiotic-priming>
 *Certainty: 0.35.* Gut dysbiosis with fungal overgrowth may provide constant low-level antigenic exposure that primes immune cells to overreact, connecting Che et al.'s finding of exaggerated immune responses to Candida stimulation @Che2025 with gut barrier dysfunction and documented microbiome alterations in ME/CFS (Section @sec:microbiome). This would explain both baseline immune activation and post-exertional malaise (exertion worsens gut barrier permeability). An estrogen-microbiome-immune connection may contribute to observed sex differences. No prior framework explicitly connects these findings into a unified therapeutic rationale; certainty is low because the dysbiotic priming mechanism is inferred rather than directly demonstrated in ME/CFS cohorts.
-]
+] <hyp:dysbiotic-priming>
 
 Section @sec:tier2-research presents the “Dysbiotic Priming” hypothesis: gut dysbiosis (Section @sec:microbiome) may maintain immune hyperactivation (Section @sec:chronic-activation). Addressing gut health may reduce systemic inflammation.
 
@@ -2982,7 +2947,6 @@ Section @sec:tier2-research presents the “Dysbiotic Priming” hypothesis: gu
 <subsubsec:gut-vagal-protocol>
 
 #speculation(title: [Sequential Gut-Vagal Repair Protocol])[
-<spec:gut-vagal-protocol>
 *Certainty: 0.25.* This protocol is derived from the mechanistic model of Wirth and Scheibenbogen @WirthScheibenbogen2025Neurotransmitter and the documented butyrate-producer deficiency in ME/CFS @ButyrateDeficiency2023. It addresses the dysbiosis $\to$ butyrate deficiency $\to$ impaired enterochromaffin serotonin $\to$ vagal dysfunction chain in logical sequence. The 5-phase structure is a clinical framework based on mechanistic plausibility, not a validated trial protocol. HRV (heart rate variability) serves as the primary objective monitoring endpoint throughout.
 
 *Phase 1: Eradication (Weeks 1–4)*
@@ -3024,7 +2988,7 @@ Section @sec:tier2-research presents the “Dysbiotic Priming” hypothesis: gu
 *Monitoring:* Measure HRV (5-minute resting measurement) at each phase transition. Track gut symptom severity, fatigue scores, and orthostatic tolerance. HRV improvement is the primary indicator that the gut-vagal pathway is responding.
 
 *Who may benefit:* ME/CFS patients with prominent GI symptoms (IBS, gastroparesis, SIBO), low HRV, and butyrate-producer deficiency on stool testing. Patients without GI involvement may have limited response.
-]
+] <spec:gut-vagal-protocol>
 
 == Work and Study Accommodations
 <sec:work-study>

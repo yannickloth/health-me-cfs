@@ -15,7 +15,6 @@ GI dysmotility is one component of the “Septad” framework of frequently co-o
 Multiple studies have documented consistent patterns of gut microbiome alterations in ME/CFS patients @Giloteaux2016, though no single “ME/CFS signature” has been established.
 
 #achievement(title: [Reduced Microbiome Diversity in ME/CFS])[
-<ach:microbiome-diversity>
 Giloteaux et al. @Giloteaux2016 performed 16S rRNA sequencing on stool samples from 48 ME/CFS patients and 39 healthy controls, finding:
 
     - Significantly *reduced bacterial diversity* in ME/CFS specimens
@@ -24,7 +23,7 @@ Giloteaux et al. @Giloteaux2016 performed 16S rRNA sequencing on stool samples 
     - Machine learning classification achieved 82.93% accuracy distinguishing ME/CFS from controls
 
 This foundational study established that dysbiosis is a reproducible feature of ME/CFS (prospective case-control, n=87, High certainty).
-]
+] <ach:microbiome-diversity>
 
 #warning-box(title: [Replication Status: Partially Replicated])[
 The Giloteaux et al.\ (2016) finding of reduced bacterial diversity has been directionally confirmed in subsequent studies, but IBS co-morbidity—present in 50–90% of ME/CFS patients—was not controlled in the original study. Nagy-Szakal et al. @NagySzakal2017 demonstrated that IBS status is the strongest driver of microbiome composition differences (see Warning @warn:ibs-confound). Studies not controlling for IBS may overestimate or misattribute microbiome changes to ME/CFS itself. The 82.93% classification accuracy has not been independently validated.
@@ -50,7 +49,6 @@ A 2024 systematic review @MicrobiomeSystematicReview2024 of 11 studies (553 ME/
     - Bacteroidetes phylum overall
 
 #warning-box(title: [IBS Co-Morbidity as Confounding Factor])[
-<warn:ibs-confound>
 Nagy-Szakal et al. @NagySzakal2017 demonstrated that IBS co-morbidity is the strongest driver of bacterial composition differences in ME/CFS. When analyzing 50 ME/CFS patients with and without IBS:
 
     - IBS status explained more variance than ME/CFS diagnosis alone
@@ -58,7 +56,7 @@ Nagy-Szakal et al. @NagySzakal2017 demonstrated that IBS co-morbidity is the st
     - Studies not controlling for IBS may overestimate or misattribute microbiome changes
 
 Given 50–90% IBS prevalence in ME/CFS, careful phenotyping is essential for research interpretation.
-]
+] <warn:ibs-confound>
 
 Recent studies reinforce the microbiome–ME/CFS link.  A 2025
 _Scientific Reports_ study confirmed significant compositional
@@ -78,7 +76,6 @@ blinded multi-site replication.
 Beyond taxonomic alterations, ME/CFS patients show impaired microbiome _function_—the metabolic activities bacteria perform.
 
 #achievement(title: [Deficient Butyrate-Producing Capacity])[
-<ach:butyrate-deficiency>
 Guo et al. @ButyrateDeficiency2023 performed multi-omic analysis (metagenomics, metabolomics, qPCR) on 106 ME/CFS cases and 91 controls, demonstrating:
 
     - Reduced capacity for *butyrate synthesis* confirmed across all methodologies
@@ -87,7 +84,7 @@ Guo et al. @ButyrateDeficiency2023 performed multi-omic analysis (metagenomics,
     - Fecal short-chain fatty acid levels reduced
 
 Butyrate is the primary energy source for colonocytes and has anti-inflammatory, barrier-protective, and neuromodulatory functions. Its deficiency may contribute to intestinal permeability and systemic inflammation (multi-center study, n=197, High certainty).
-]
+] <ach:butyrate-deficiency>
 
 #warning-box(title: [Replication Status: Partially Replicated])[
 The butyrate deficiency finding (Guo et al.\ 2023, n=197) is the largest study to date and confirmed across multiple methodologies within the study. However, dietary intake—the primary determinant of short-chain fatty acid production—was not controlled. Fiber intake differences between cases and controls could confound butyrate measurements. Earlier smaller studies reported consistent direction of effect but from overlapping research networks.
@@ -149,9 +146,8 @@ A specific mechanism linking gut dysbiosis to vagal impairment involves the ente
 Combining these observations leads to a hypothesis: butyrate deficiency in ME/CFS may reduce enterochromaffin serotonin release, which could in turn diminish vagal afferent signaling. However, no study has directly measured enterochromaffin serotonin output in ME/CFS patients, so this chain remains inferential. Wirth and Scheibenbogen's broader framework of neurotransmitter dysregulation in post-infectious illness @WirthScheibenbogen2025Neurotransmitter provides theoretical support, but the specific gut–vagal link proposed here extends beyond their analysis.
 
 #open-question(title: [Gut Serotonin–Vagal–Cardiovascular Link])[
-<oq:gut-serotonin-vagal>
 Does gut dysbiosis-mediated reduction in enterochromaffin serotonin release impair vagal afferent signaling sufficiently to reduce efferent vagal tone to the heart and cardiovascular system? If confirmed, this gut–serotonin–vagal–cardiovascular chain would represent a concrete mechanism by which microbiome alterations directly contribute to orthostatic intolerance and autonomic dysfunction in ME/CFS (see Chapter @ch:cardiovascular).
-]
+] <oq:gut-serotonin-vagal>
 
 *Microbial Neurotransmitter Production.*
 
@@ -168,7 +164,6 @@ Intestinal bacteria synthesize or modulate multiple neuroactive compounds:
 Intestinal permeability (“leaky gut”) refers to impaired barrier function allowing bacterial products to enter systemic circulation.
 
 #achievement(title: [Evidence of Bacterial Translocation in ME/CFS])[
-<ach:bacterial-translocation>
 A 2023 study @GutPermeability2023 measured intestinal permeability markers in ME/CFS patients compared to fibromyalgia patients and healthy controls:
 
     - Significantly *elevated zonulin-1 (ZO-1)* in ME/CFS versus controls
@@ -178,7 +173,7 @@ A 2023 study @GutPermeability2023 measured intestinal permeability markers in M
     - IgA levels correlated with illness severity
 
 This provides direct evidence of intestinal barrier dysfunction and bacterial product translocation in ME/CFS (case-control, High certainty).
-]
+] <ach:bacterial-translocation>
 
 #warning-box(title: [Replication Status: Partially Replicated])[
 The bacterial translocation finding (2023 study) is consistent with earlier publications by Maes and colleagues showing elevated LPS and immune activation markers. However, the research groups overlap substantially, limiting the independence of replication. Additionally, the study measured zonulin using a commercial ELISA kit; recent methodological reviews have raised concerns about zonulin assay specificity, as some kits may cross-react with complement C3 @GutPermeability2023. Independent replication with validated permeability assays (e.g., lactulose/mannitol ratio) would strengthen these findings.
@@ -191,7 +186,6 @@ While baseline gut barrier dysfunction has been established in ME/CFS population
 The Maes et al.\ study @GutPermeability2023 did not stratify participants by disease severity, leaving uncertainty about whether zonulin, LPS, and sCD14 elevations correlate with functional impairment. This gap is significant because severity-dependent gut barrier dysfunction would suggest distinct pathophysiological mechanisms and treatment priorities for different patient subgroups.
 
 #hypothesis-box(title: [Severity-Dependent Baseline Gut Permeability])[
-<hyp:severity-gut-permeability>
 *Certainty: 0.50.* The individual supporting observations (CBF reduction by severity, cytokine-severity correlations, reduced cortisol in severe patients, POTS comorbidity) are moderately well-established, but their _integration_ into a unified severity-stratified permeability model has not been directly tested. Certainty is set at 0.50 rather than the originally proposed 0.65 to reflect this untested integration.
 
 Severe ME/CFS patients likely exhibit _higher_ baseline permeability markers than mild/moderate patients, mediated by four convergent mechanisms:
@@ -204,10 +198,9 @@ Severe ME/CFS patients likely exhibit _higher_ baseline permeability markers tha
 
     - *POTS comorbidity and splanchnic pooling*: Approximately 45% of severely ill ME/CFS patients exhibit orthostatic intolerance @Komaroff2021severe, suggesting substantial overlap with postural orthostatic tachycardia syndrome (POTS). In POTS, the splanchnic vascular bed—which contains up to 30% of total blood volume—exhibits excessive abdominal blood pooling even in supine and resting positions. This chronic pooling can paradoxically reduce effective splanchnic perfusion during activity, as blood accumulates in distended vessels rather than perfusing capillary beds. For severe ME/CFS patients with POTS features, baseline gut hypoperfusion may be a chronic condition rather than an activity-triggered event.
 
-]
+] <hyp:severity-gut-permeability>
 
 #speculation(title: [Chronic vs.\ Episodic Permeability Models])[
-<spec:chronic-episodic-barrier>
 We propose the *Severity-Dependent Barrier Dysfunction Model* to describe the transition from episodic exercise-triggered permeability in mild/moderate patients to chronic sustained barrier compromise in severe/bedbound ME/CFS. Based on converging lines of evidence, this model distinguishes two distinct patterns:
 
 *Mild-Moderate Pattern (Episodic):*
@@ -237,7 +230,7 @@ We propose the *Severity-Dependent Barrier Dysfunction Model* to describe the tr
 
 *Treatment Implications:*
 This model suggests wheat elimination may benefit severe/bedbound patients _without requiring exercise testing_, as chronic baseline permeability—not exercise-induced spikes—may be the primary driver of sustained endotoxemia. However, response patterns may differ: ambulatory patients may experience acute PEM reduction, while severe patients may notice gradual quality-of-life improvements within severe functional limitations.
-]
+] <spec:chronic-episodic-barrier>
 
 ==== Clinical Vignettes: Contrasting Barrier Patterns.
 
@@ -298,7 +291,6 @@ Certainty: Low–Moderate. Individual mechanistic components are well-establishe
 ]
 
 #hypothesis-box(title: [MCAS/HIT $arrow.r$ Barrier Dysfunction $arrow.r$ Mitochondrial Failure Cascade])[
-<hyp:gut-mito-cascade>
 In patients with mast cell activation syndrome (MCAS) or histamine intolerance (HIT), a pathophysiological cascade may contribute to ME/CFS symptoms:
 
     - *MCAS/HIT activation*: Mast cell degranulation releases histamine, proteases (tryptase, chymase), and inflammatory mediators in the intestinal mucosa
@@ -314,7 +306,7 @@ In patients with mast cell activation syndrome (MCAS) or histamine intolerance (
     - *Secondary mitochondrial failure*: Combined NO pathway and TCA cycle impairment $arrow.r$ reduced ATP production $arrow.r$ ME/CFS fatigue phenotype
 
 This cascade may explain why patients with MCAS/HIT comorbidity show particularly robust responses to amino acid supplementation—they are correcting malabsorption-induced deficiencies rather than primary metabolic defects.
-]
+] <hyp:gut-mito-cascade>
 
 #warning-box(title: [Evidence Limitations])[
 This cascade hypothesis integrates multiple established observations but has not been directly validated:
@@ -705,9 +697,8 @@ FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyo
     - Symptom reduction in 3 separate RCTs
 
 #keypoint(title: [Strain-Specific Probiotic Selection])[
-<key:probiotic-strain>
 Probiotic effects are highly strain-specific—a well-established principle in microbiology. _B. infantis_ 35624 shows strongest evidence for reducing inflammation in ME/CFS, while _L. casei_ Shirota may preferentially improve anxiety. Generic “probiotic” recommendations are unlikely to be helpful; strain selection should be evidence-based.
-]
+] <key:probiotic-strain>
 
 #warning-box(title: [Probiotic Cautions])[
 
@@ -736,7 +727,6 @@ Prebiotics are non-digestible fibers that selectively feed beneficial bacteria:
 FMT represents the most radical microbiome intervention—complete ecosystem replacement rather than supplementation.
 
 #speculation(title: [FMT for ME/CFS])[
-<spec:fmt>
 *Certainty: 0.25.* One completed pilot RCT (n=11) showed no symptomatic benefit, though dose may have been suboptimal. Two larger placebo-controlled trials are ongoing (Comeback, n=80; RESTORE ME, n=160); results expected 2026+. FMT is classified as speculation pending these results.
 
 Rationale for FMT in ME/CFS:
@@ -746,7 +736,7 @@ Rationale for FMT in ME/CFS:
     - Donor microbiome may provide missing metabolic functions (butyrate production, tryptophan metabolism)
     - May reset gut-immune interactions
 
-]
+] <spec:fmt>
 
 *Current Evidence:*
 
@@ -781,7 +771,6 @@ Gastrointestinal dysfunction interconnects with other ME/CFS mechanisms (these c
     - *Neurological symptoms*: Gut-brain axis dysfunction contributes to cognitive impairment, mood disturbance, and autonomic symptoms
 
 #open-question(title: [Causality in Gut-ME/CFS Relationship])[
-<oq:gut-causality>
 Critical unresolved questions:
 
     - Does dysbiosis _cause_ ME/CFS symptoms, or is it a _consequence_ of the disease?
@@ -790,7 +779,7 @@ Critical unresolved questions:
     - Would microbiome-targeted therapies be disease-modifying or merely symptomatic?
 
 Answering these questions requires interventional studies with objective outcome measures beyond symptom questionnaires.
-]
+] <oq:gut-causality>
 
 === Gut-Brain Metabolic Coupling
 <sec:gut-brain-metabolic>
@@ -798,7 +787,6 @@ Answering these questions requires interventional studies with objective outcome
 The preceding sections establish that ME/CFS patients show reduced butyrate-producing bacteria (Achievement @ach:butyrate-deficiency), disrupted tryptophan metabolism, and impaired gut-brain axis signaling (Section @sec:gut-brain). Separately, evidence from neuroimaging demonstrates brain hypometabolism in ME/CFS (see Chapter @ch:neurological). The following speculation proposes a mechanistic link between these observations.
 
 #speculation(title: [Gut-Brain Energy Theft Hypothesis])[
-<spec:gut-brain-energy-theft>
 In ME/CFS, a dysbiotic microbiome may actively divert energy substrates away from the central nervous system, contributing to or worsening brain hypometabolism and cognitive dysfunction. This “energy theft” operates through several convergent mechanisms:
 
 *Bacterial Substrate Competition.*
@@ -837,4 +825,4 @@ This framework suggests that cognitive symptoms in ME/CFS may be partially addre
     - Individual variation in microbiome composition, diet, and metabolic rate makes population-level predictions difficult.
 
 *Certainty:* 0.40. This is a speculative integrative hypothesis synthesizing established individual findings into a novel mechanistic framework. Direct validation through the testable predictions above is needed before clinical application.
-]
+] <spec:gut-brain-energy-theft>

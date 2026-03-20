@@ -44,7 +44,6 @@ This pattern motivates the formal selective dysfunction hypothesis developed bel
 We formalize the selective dysfunction hypothesis using three quantitative definitions that enable testable predictions.
 
 #definition-box(title: [CNS-Dependency Index])[
-<def:cns-dependency>
 For any biological process $P$, define the *CNS-dependency index* $delta_("CNS")(P) in [0,1]$ as:
 
 $
@@ -57,7 +56,7 @@ where $N_("CNS")(P)$ is the number of regulatory signals requiring CNS coordinat
     - $delta_("CNS") = 1$: Fully CNS-dependent (all regulation via CNS)
     - $delta_("CNS") in (0,1)$: Mixed regulation
 
-]
+] <def:cns-dependency>
 
 #definition-box(title: [Demand-Responsiveness Index])[
 <def:demand-responsiveness>
@@ -98,7 +97,6 @@ The interaction term $gamma dot delta_("CNS") dot tilde(rho)$ captures synergist
 ]
 
 #hypothesis-box(title: [Selective Dysfunction Hypothesis])[
-<hyp:selective-dysfunction>
 In ME/CFS, dysfunction severity $S_("observed")(P)$ correlates strongly with predicted severity $S(P)$:
 
 $
@@ -114,7 +112,7 @@ where $epsilon$ is residual error. *Working assumption:* $epsilon tilde cal(N)(0
 *Falsification criterion:* If $rho_s < 0.3$ when tested with independently estimated parameters, the hypothesis is refuted.
 
 *Certainty:* 0.55 (moderate evidence from clinical observations, formal testing required)
-]
+] <hyp:selective-dysfunction>
 
 #limitation(title: [Quantitative Framework: Unfitted Parameters and Circularity Risk])[
 The CNS-dependency index $delta_("CNS")$, demand-responsiveness index $tilde(rho)$, and dysfunction severity $S(P)$ are defined mathematically but have never been fitted to empirical data. The parameter values in Table @tab:process-classification are “expert estimates” that partly reflect the clinical picture the model aims to predict — as acknowledged in the independence requirement (line 104). Until $delta_("CNS")$ and $tilde(rho)$ are estimated from independent sources (neuroanatomical pathway counts, healthy-control demand-scaling measurements), the correlation between predicted and observed dysfunction severity is circular. The weights $alpha$, $beta$, $gamma$ have not been estimated from data and the interaction term's contribution is unknown. The framework is therefore a formalised heuristic, not a validated quantitative model.
@@ -202,7 +200,6 @@ Three hypotheses (certainty $gt.eq 0.45$) and two speculations (certainty $< 0.4
 The astrocyte-neuron lactate shuttle (ANLS) provides 30–50% of neuronal ATP @Pellerin1994 @Magistretti2018. Unlike peripheral tissues with direct glucose access, neurons depend on astrocytes to convert glucose to lactate and shuttle it via monocarboxylate transporters (MCT2/MCT4).
 
 #speculation(title: [Astrocyte Energy Gate])[
-<spec:astrocyte-gate>
 Dysfunction in the astrocyte-neuron lactate shuttle causes CNS-specific energy failure while peripheral tissues (with direct glucose access) remain unaffected.
 
 *Mechanism:*
@@ -219,7 +216,7 @@ where $L_n$ = neuronal lactate uptake, $L_a$ = astrocyte lactate concentration, 
 *ME/CFS hypothesis:* Reduced $k_("MCT")$ or impaired $f(dot)$ $=>$ $L_n arrow.b$ despite normal $L_a$ $=>$ CNS-specific energy deficit.
 
 *Certainty:* 0.4 (plausible mechanism from neuroscience; no direct ME/CFS evidence)
-]
+] <spec:astrocyte-gate>
 
 Figure @fig:astrocyte-lactate-shuttle illustrates the ANLS mechanism and proposed dysfunction site.
 
@@ -230,7 +227,6 @@ Figure @fig:astrocyte-lactate-shuttle illustrates the ANLS mechanism and propos
 Under energy scarcity, the CNS may implement a hardwired priority hierarchy that preserves vital functions at the expense of “luxury” cognitive processes.
 
 #hypothesis-box(title: [CNS Energy Triage])[
-<hyp:energy-triage>
 The CNS implements a priority-based energy allocation system under scarcity:
 
     - *Tier 1* (never sacrificed): Brainstem vital functions — $E_("min") = 0.30 dot E_("total")$
@@ -247,7 +243,7 @@ The CNS implements a priority-based energy allocation system under scarcity:
 *Clinical correlation:* “Brain fog” (executive dysfunction, Tier 5–6) is among the earliest and most prominent symptoms, consistent with these tiers being sacrificed first.
 
 *Certainty:* 0.5 (consistent with observed symptom hierarchy; formal testing needed)
-]
+] <hyp:energy-triage>
 
 Figure @fig:energy-triage-hierarchy visualizes the triage hierarchy with the typical ME/CFS energy threshold.
 
@@ -258,7 +254,6 @@ Figure @fig:energy-triage-hierarchy visualizes the triage hierarchy with the ty
 The blood-brain barrier (BBB) creates a unique vulnerability: damage signals may accumulate in the CNS while peripheral clearance continues normally.
 
 #hypothesis-box(title: [BBB Compartmentalization])[
-<hyp:bbb-vulnerability>
 The BBB traps mitochondrial damage markers and limits cofactor delivery, causing CNS-specific accumulation of dysfunction.
 
 *Steady-state model:*
@@ -276,14 +271,13 @@ where $[M]$ = damage marker concentration (mass/volume), $R_("production")$ = CN
 *Testable:* Measure mtDNA, 8-OHdG, or other damage markers in paired CSF and blood samples. Elevated CSF/blood ratio supports hypothesis.
 
 *Certainty:* 0.45 (BBB dysfunction documented in neuroinflammation @Nakatomi2014neuroinflammation; ME/CFS-specific data limited)
-]
+] <hyp:bbb-vulnerability>
 
 ==== Sickness Behavior Persistence Hypothesis
 
 Evolutionary sickness behavior programs target _behavioral outputs_ (requiring CNS) while sparing truly autonomous processes.
 
 #hypothesis-box(title: [Sickness Behavior Stuck On])[
-<hyp:sickness-behavior>
 ME/CFS represents a sickness behavior program that fails to disengage, chronically suppressing CNS-mediated behavioral outputs while leaving autonomous local processes unaffected.
 
 *Activation function:*
@@ -301,14 +295,13 @@ where $op("sigm")(x) = 1/(1+e^(-x))$ is the logistic sigmoid function (distinct 
 *Evolutionary logic:* Sickness behavior evolved to suppress _behavioral_ energy expenditure during infection. Hair growth has no behavioral component and was never targeted by this program.
 
 *Certainty:* 0.55 (strong evolutionary logic; moderate mechanistic support from neuroimaging @Nakatomi2014neuroinflammation)
-]
+] <hyp:sickness-behavior>
 
 ==== Partial Torpor Trap Hypothesis
 
 ME/CFS may represent incomplete engagement of torpor-like metabolic suppression mechanisms.
 
 #speculation(title: [Partial Torpor Trap])[
-<spec:torpor>
 ME/CFS involves partial engagement of torpor/hibernation pathways with failed arousal, trapping patients in a low-metabolic state.
 
 *Torpor engagement dynamics:*
@@ -326,14 +319,13 @@ where MR = metabolic rate, $T_("signal")$ = torpor induction signal, $A_("signal
 *Testable markers:* Torpor-associated molecules (H#sub[2]S, adenosine, orexin) may be dysregulated.
 
 *Certainty:* 0.35 (speculative; inspired by emerging torpor biology research @Hrvatin2020torpor @Takahashi2020torpor)
-]
+] <spec:torpor>
 
 === Testable Predictions
 
 The selective dysfunction hypothesis generates specific, falsifiable predictions.
 
 #prediction(title: [Hair Follicle Mitochondrial Function])[
-<pred:hair-follicle>
 *Hypothesis:* Hair follicle mitochondria are functionally normal in ME/CFS patients.
 
 *Measurement:* Mitochondrial respiration (oxygen consumption rate, OCR) in plucked hair follicle cells.
@@ -351,10 +343,9 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
     - If refuted (ME/CFS OCR significantly lower): Global dysfunction model supported
 
 *Feasibility:* Hair follicle collection is minimally invasive; mitochondrial respiration assays are established.
-]
+] <pred:hair-follicle>
 
 #prediction(title: [CSF-to-Blood Lactate Gradient])[
-<pred:csf-lactate>
 *Hypothesis:* CSF lactate is elevated relative to blood lactate in ME/CFS, indicating impaired lactate shuttling in CNS.
 
 *Measurement:* Paired CSF and blood lactate concentrations.
@@ -371,10 +362,9 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
     - If confirmed: Supports astrocyte energy gate hypothesis
     - If refuted: Lactate shuttle not primary mechanism
 
-]
+] <pred:csf-lactate>
 
 #prediction(title: [Peripheral ATP During PEM])[
-<pred:peripheral-atp>
 *Hypothesis:* Peripheral muscle ATP is preserved during PEM crashes (dysfunction is coordination failure, not local energy deficit).
 
 *Measurement:* #super[31]P-MRS of skeletal muscle during provoked PEM.
@@ -390,10 +380,9 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
     - If confirmed: Dysfunction is CNS coordination failure, not peripheral energy deficit
     - If refuted (peripheral ATP drops): Global depletion model supported
 
-]
+] <pred:peripheral-atp>
 
 #prediction(title: [Direct Stimulation vs. Voluntary Contraction])[
-<pred:direct-stim>
 *Hypothesis:* Direct electrical stimulation of muscles produces greater force than voluntary contraction in ME/CFS patients.
 
 *Rationale:* If dysfunction is CNS coordination failure, bypassing CNS via direct stimulation should restore output.
@@ -407,10 +396,9 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
     - If confirmed: Peripheral muscle capable; CNS drive impaired
     - If refuted: Peripheral muscle intrinsically impaired
 
-]
+] <pred:direct-stim>
 
 #prediction(title: [Cognitive Triage Hierarchy])[
-<pred:cognitive-hierarchy>
 *Hypothesis:* Cognitive impairment in ME/CFS follows the inverse of the energy triage hierarchy.
 
 *Measurement:* Cognitive battery assessing each tier:
@@ -424,14 +412,13 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
 *Expected:* Impairment severity: Tier 6 \> Tier 5 \> Tier 4 \> Tier 3 \> Tier 2.
 
 *Statistical test:* Ordinal regression testing hierarchy effect.
-]
+] <pred:cognitive-hierarchy>
 
 === Subtype Classification Model
 
 The selective dysfunction framework suggests natural subtypes based on primary compartment affected.
 
 #speculation(title: [Selective Dysfunction Subtypes])[
-<spec:subtypes>
 ME/CFS can be classified into subtypes based on which compartment shows primary dysfunction:
 
 *Input features (with measurement basis):*
@@ -504,7 +491,7 @@ $
     - Subtype D: Multi-system approach, sequential targeting of dominant compartments
 
 *Certainty:* 0.35 (framework theoretically motivated; all thresholds are preliminary estimates requiring empirical validation before any clinical application)
-]
+] <spec:subtypes>
 
 #limitation(title: [Subtype Classification: No Empirical Validation])[
 The four-subtype classification (CNS-Primary, Autonomic-Primary, Peripheral-Primary, Global/Advanced) has not been tested against patient data. The classification thresholds ($-1.5sigma$, $2sigma$, $25%$ CBF reduction) are preliminary estimates, not data-derived cut-points. No multi-biomarker cohort study has simultaneously measured CSF catecholamines, orthostatic CBF, muscle ATP, and neuroimaging abnormalities in ME/CFS patients to determine whether natural clusters correspond to these proposed subtypes. The Subtype E (Unclassified) category may capture the majority of patients, rendering the classification clinically impractical. Treatment stratification based on these subtypes is entirely hypothetical.
@@ -563,7 +550,6 @@ The selective dysfunction framework generates 10 related hypotheses and speculat
 ==== Sleep Architecture Failure Hypothesis
 
 #hypothesis-box(title: [Sleep Architecture CNS Coordination Failure])[
-<hyp:sleep-architecture>
 ME/CFS sleep disturbance results from impaired CNS coordination of sleep stage transitions rather than local sleep circuitry dysfunction.
 
 *Relationship to parent hypothesis:* Extends CNS coordination failure to explain non-restorative sleep.
@@ -583,12 +569,11 @@ If sleep architecture failure reflects energy-limited coordination, intervention
 
 *Limitations.*
 This hypothesis has certainty 0.50. No published studies have directly quantified sleep spindle density or slow-wave coherence in ME/CFS alongside simultaneous CNS metabolic measures. Existing polysomnographic literature characterizes macrostructural stage percentages rather than the microstructural coordination markers predicted here @Jackson2023sleep. Alternative explanations include primary brainstem pathology, pain-mediated fragmentation, and autonomic disruption during sleep independent of energy limitation. Causality direction is unclear: energy limitation may fragment sleep, while fragmented sleep independently worsens brain energy metabolism @Baud2016fragmentation, creating a potential vicious cycle.
-]
+] <hyp:sleep-architecture>
 
 ==== Gut-Brain Energy Theft Hypothesis
 
 #speculation(title: [Microbiome-Induced CNS Energy Depletion])[
-<spec:gut-brain-theft>
 Dysbiotic gut microbiome increases CNS metabolic burden through chronic immune activation, “stealing” energy from cognitive function.
 
 *Relationship to parent hypothesis:* Adds upstream mechanism for CNS energy budget depletion.
@@ -605,12 +590,11 @@ Dysbiotic gut microbiome increases CNS metabolic burden through chronic immune a
 
 *Limitations.*
 This speculation has certainty 0.40. Dysbiosis in ME/CFS is established @Hsu2025gut but is likely partly secondary to reduced physical activity, altered diet, and medication use rather than a primary driver. The multi-step cascade from gut permeability to CNS hypometabolism involves each link being individually plausible but none directly demonstrated in ME/CFS in sequence. PET neuroinflammation data exists @Nakatomi2014neuroinflammation but has not been correlated with microbiome composition in the same patients. Probiotic and dietary interventions correcting dysbiosis show inconsistent cognitive benefits in ME/CFS, providing weak causal support for the energy-theft mechanism.
-]
+] <spec:gut-brain-theft>
 
 ==== GPCR Autoantibody Inefficiency Hypothesis
 
 #hypothesis-box(title: [Autoantibody-Induced Autonomic Inefficiency])[
-<hyp:gpcr-inefficiency>
 G-protein coupled receptor (GPCR) autoantibodies impair autonomic signal transduction efficiency, requiring greater CNS effort to achieve the same peripheral output.
 
 *Relationship to parent hypothesis:* Mechanistic explanation for autonomic demand-response failure.
@@ -630,12 +614,11 @@ If GPCR autoantibodies impair autonomic signal efficiency, antibody-reducing str
 
 *Limitations.*
 This hypothesis has certainty 0.45. GPCR autoantibodies are found in approximately 30% of ME/CFS patients @Loebel2016, leaving the majority without this mechanism. Causal status remains disputed: antibodies may be epiphenomenal rather than pathogenic. The rituximab randomized controlled trial, which depletes B cells rather than plasma cells, failed to demonstrate benefit in an unselected cohort @Fluge2015rituximab_rct, providing indirect evidence against autoantibodies as a universal mechanism. The proposed "increased CNS effort" framing has not been tested directly with neuroimaging during autonomic challenge stratified by autoantibody status.
-]
+] <hyp:gpcr-inefficiency>
 
 ==== Small Fiber Neuropathy Interface Failure
 
 #speculation(title: [SFN Increases CNS Coordination Load])[
-<spec:sfn-interface>
 Small fiber neuropathy (SFN) found in $tilde$30% of ME/CFS patients @Azcue2025sfn increases CNS metabolic load by requiring compensatory signaling to maintain autonomic control.
 
 *Relationship to parent hypothesis:* SFN as amplifier of peripheral-CNS communication cost.
@@ -652,12 +635,11 @@ Small fiber neuropathy (SFN) found in $tilde$30% of ME/CFS patients @Azcue2025s
 
 *Limitations.*
 This speculation has certainty 0.40. SFN prevalence in ME/CFS is established at approximately 30% @Azcue2025sfn, but the proposed mechanism—that impaired peripheral signal fidelity increases CNS metabolic cost—has not been directly tested. No study has correlated IENFD with CNS glucose uptake or brainstem metabolic demand in ME/CFS. SFN may be a secondary consequence of autonomic dysregulation or reduced activity rather than a primary amplifier of CNS burden. The 70% of patients without SFN must have other mechanisms for exercise intolerance, limiting this hypothesis to a subgroup explanation.
-]
+] <spec:sfn-interface>
 
 ==== Circadian Energy Distribution Failure
 
 #hypothesis-box(title: [Circadian Misallocation of Energy Budget])[
-<hyp:circadian-failure>
 Suprachiasmatic nucleus (SCN) dysfunction impairs circadian allocation of the CNS energy budget, explaining “second wind” phenomena and worsening symptoms at predicted low-energy times.
 
 *Relationship to parent hypothesis:* Temporal dimension of energy allocation failure.
@@ -677,12 +659,11 @@ If SCN dysfunction causes temporal energy misallocation, chronotherapeutic inter
 
 *Limitations.*
 This hypothesis has certainty 0.50. Circadian abnormalities in ME/CFS are established @cambras2018circadian @williams2001circadian, but whether SCN dysfunction is primary or secondary to activity restriction, altered light exposure, or sleep fragmentation is unknown. The “second wind” pattern, while common in patient reports, has not been characterized with simultaneous objective metabolic measures. DLMO phase studies correlating with intraday symptom variance are lacking in ME/CFS. Prior chronotherapy trials (melatonin and light therapy) have not demonstrated robust symptomatic benefit @williams2002therapy, though these were not designed around the energy-allocation framing tested here.
-]
+] <hyp:circadian-failure>
 
 ==== MCAS Energy Crisis Amplifier
 
 #hypothesis-box(title: [Mast Cell Activation Amplifies CNS Energy Deficit])[
-<hyp:mcas-amplifier>
 Mast cell activation syndrome (MCAS) episodes trigger acute inflammatory cascades that amplify CNS energy deficit, worsening PEM and cognitive crashes.
 
 *Relationship to parent hypothesis:* Explains episodic worsening and high MCAS comorbidity.
@@ -702,12 +683,11 @@ If MCAS episodes amplify CNS energy deficits, reducing mast cell activation load
 
 *Limitations.*
 This hypothesis has certainty 0.45. The MCAS–ME/CFS comorbidity rate is estimated at 20–60% depending on diagnostic criteria @Frioni2025MCAS, but serum tryptase is frequently within the normal range even during confirmed MCAS episodes, making biochemical verification unreliable. The proposed mechanism—that mast cell mediators increase CNS energy demand enough to precipitate crashes—has not been tested with simultaneous tryptase measurement and neuroimaging. MCAS may also produce fatigue and cognitive symptoms through histamine receptor activation and direct neurological effects independent of the selective energy dysfunction framework, making mechanistic attribution difficult.
-]
+] <hyp:mcas-amplifier>
 
 ==== Memory Triage Consequence Hypothesis
 
 #hypothesis-box(title: [Hierarchical Memory Impairment from Energy Triage])[
-<hyp:memory-triage>
 The energy triage hierarchy predicts differential memory impairment: encoding (high-energy) fails before retrieval (lower-energy).
 
 *Relationship to parent hypothesis:* Specific prediction from the CNS energy triage framework.
@@ -727,12 +707,11 @@ If encoding is selectively impaired by CNS energy limitation, compensatory strat
 
 *Limitations.*
 This hypothesis has certainty 0.55. The differential energy cost of encoding versus retrieval is well established in basic neuroscience @Kandel2014memory @Dudai2015consolidation, but the specific prediction of disproportionate encoding impairment in ME/CFS awaits formal testing. Standard neuropsychological batteries typically conflate encoding and retrieval in composite memory scores @Sebaiti2022cognitive; paradigms designed to isolate the two components are needed. Attention deficits, which impair encoding indirectly by reducing the depth of initial processing, and sleep fragmentation, which impairs memory consolidation independently of encoding energy, represent significant confounds.
-]
+] <hyp:memory-triage>
 
 ==== Motor-Autonomic Coordination Overload
 
 #hypothesis-box(title: [Parallel Coordination Failure Under Exercise])[
-<hyp:motor-autonomic-overload>
 Exercise requires simultaneous CNS coordination of motor output and autonomic scaling (HR, BP, respiration). Under CNS energy deficit, parallel coordination fails, explaining exercise intolerance despite preserved individual systems at rest.
 
 *Relationship to parent hypothesis:* Explains why demand-response fails specifically during combined motor-autonomic challenges.
@@ -752,12 +731,11 @@ If parallel coordination failure explains exercise intolerance, management strat
 
 *Limitations.*
 This hypothesis has certainty 0.55. The prediction of a significant interaction effect between motor and autonomic demand in a formal 2$times$2 design has not been tested. Peripheral skeletal muscle pathology—including impaired oxygen extraction documented in ME/CFS deep phenotyping @walitt2024deep—provides an independent explanation for exercise intolerance that does not require CNS coordination failure as the primary bottleneck. Post-exertional malaise may confound assessment: patients who exercise to test the hypothesis suffer delayed symptom worsening that makes attribution of the primary failure point difficult.
-]
+] <hyp:motor-autonomic-overload>
 
 ==== Post-Viral CNS Metabolic Reprogramming
 
 #speculation(title: [Persistent Astrocyte Metabolic Shift Post-Infection])[
-<spec:post-viral-reprogram>
 Viral infection triggers persistent astrocyte metabolic reprogramming toward a “reactive” state with reduced lactate shuttle efficiency, causing chronic CNS energy deficit.
 
 *Relationship to parent hypothesis:* Viral trigger mechanism for astrocyte energy gate dysfunction.
@@ -774,12 +752,11 @@ Viral infection triggers persistent astrocyte metabolic reprogramming toward a �
 
 *Limitations.*
 This speculation has certainty 0.40. No published studies have directly measured astrocyte MCT1/MCT4 density, lactate dehydrogenase expression, or lactate shuttle capacity in ME/CFS brain tissue. Post-mortem ME/CFS brain studies are extremely scarce, and in vivo biopsy of CNS tissue is not clinically feasible. The reactive astrocyte A1/A2 nomenclature used here is contested in the current literature, with more context-dependent phenotypic spectra now recognized. PET neuroinflammation findings @Nakatomi2014neuroinflammation implicate activated glia but cannot distinguish astrocytic from microglial contributions. Evidence for viral-induced persistent astrocyte metabolic reprogramming derives from animal models and has not been replicated in human ME/CFS post-mortem or in vitro tissue.
-]
+] <spec:post-viral-reprogram>
 
 ==== Subtype Progression Hypothesis
 
 #hypothesis-box(title: [CNS-Primary to Global Subtype Progression])[
-<hyp:subtype-progression>
 ME/CFS may progress from CNS-primary dysfunction (Subtype A) to global/multi-system involvement (Subtype D) over time as secondary cascades develop.
 
 *Relationship to parent hypothesis:* Temporal evolution of the subtype classification framework.
@@ -799,7 +776,7 @@ If ME/CFS follows a CNS-primary-to-global progression trajectory, early-stage in
 
 *Limitations.*
 This hypothesis has certainty 0.45\@. Systematic longitudinal biomarker data spanning the proposed progression timeline is lacking in ME/CFS. Natural history studies are confounded by changes in diagnostic criteria, healthcare access, treatment effects, and selection bias in cohort enrollment. Subtype classification based on compartment-specific biomarkers is not yet validated or standardized. Progression may alternatively reflect worsening of a single pathological process rather than cascade to new compartments. The clinical impression that longer-duration disease shows more multi-system involvement @Jason2019onset may partly reflect cumulative diagnostic recognition of pre-existing comorbidities rather than true disease spread.
-]
+] <hyp:subtype-progression>
 
 === Integration with Existing Hypotheses
 

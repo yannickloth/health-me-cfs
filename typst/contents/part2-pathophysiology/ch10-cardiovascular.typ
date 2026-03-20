@@ -234,7 +234,6 @@ Mass spectrometry proteomics of the IgG complexes revealed disease-subtype-speci
 These distinct proteomic signatures suggest that while the downstream endothelial injury may appear similar across ME/CFS subtypes, the upstream immune complex composition---and therefore the optimal therapeutic target---may differ between post-infectious and post-COVID presentations.
 
 #speculation(title: [Immune Complex--Endothelial Injury as a Central Vascular Mechanism])[
-<spec:igg-endothelial-central>
 The convergence of IgG-mediated endothelial injury @Liu2026IgGcomplexes with the proteomic evidence for reduced endothelial integrity (vimentin, ANTXR2, CXADR reduction @Hoel2026proteome), impaired flow-mediated dilation @Scherbakov2020 @Haffke2023fmd, and capillary structural remodelling @Wust2024capillary raises the possibility that immune complex deposition on microvasculature is not a secondary consequence but a primary driver of endothelial dysfunction in ME/CFS. In this model, persistent post-infectious immune activation (@sec:viral in @ch:immune-dysfunction) generates pathogenic IgG complexes that continuously injure endothelial cells, producing the chronic microvascular dysfunction that underlies exercise intolerance, orthostatic intolerance, and cognitive impairment.
 
 _Certainty: 0.35._ The in vitro evidence is strong for the direct IgG #sym.arrow endothelial injury step, but the claim that this represents a _central_ rather than contributory mechanism in vivo requires: (1) demonstration of immune complex deposition in patient microvasculature (biopsy or imaging), (2) correlation between IgG complex composition and endothelial function measures (e.g., FMD), and (3) therapeutic evidence that IgG reduction (immunoadsorption, plasmapheresis) improves endothelial function parameters.
@@ -245,7 +244,7 @@ _Certainty: 0.35._ The in vitro evidence is strong for the direct IgG #sym.arrow
     + Patients whose IgG induces greater mitochondrial fragmentation in vitro should have worse EndoPAT scores
 
 *Limitations:* Not all patients' IgG induced endothelial injury (heterogeneity); the HUVEC model may not reflect tissue-specific endothelial responses; female-predominant effect limits generalisability.
-]
+] <spec:igg-endothelial-central>
 
 The mitochondrial effects of these immune complexes on endothelial cell energetics are discussed in detail in @ch:energy-metabolism (@sec:igg-mito-disruption).
 
@@ -362,7 +361,6 @@ Inadequate oxygen delivery produces tissue hypoxia:
 While tissue hypoxia affects multiple organs, the brain is particularly vulnerable to perfusion deficits during orthostatic challenge. Van Campen and colleagues have systematically characterized cerebral blood flow (CBF) abnormalities in ME/CFS through a series of rigorous studies using transcranial Doppler during tilt-table testing @VanCampenEtAl2020 @VanCampenEtAl2021 @VanCampenEtAl2023 @VanCampenEtAl2024.
 
 #achievement(title: [Near-Universal CBF Decline in ME/CFS])[
-<ach:cbf-decline>
 Van Campen et al. @VanCampenEtAl2020 demonstrated that ME/CFS patients show reduced cerebral blood flow during head-up tilt testing even in the absence of hypotension or tachycardia. The findings are striking in their consistency across orthostatic phenotypes (percentages represent distinct, non-overlapping subgroups stratified by vital sign response):
 
     - *82%* of patients with normal HR/BP showed abnormal CBF reduction
@@ -371,7 +369,7 @@ Van Campen et al. @VanCampenEtAl2020 demonstrated that ME/CFS patients show red
     - End-tilt CBF reduction: *26% in ME/CFS vs.\ 7% in controls* (3.7-fold greater)
 
 Abnormal CBF reduction thus occurs across all orthostatic presentations—even in patients with entirely normal vital signs. In the largest study to date (n=534), *91% of ME/CFS patients* with normal HR and BP responses demonstrated abnormal cardiac output and CBF reduction during tilt @VanCampenEtAl2024, indicating that standard orthostatic vital signs miss the primary pathology in most patients.
-]
+] <ach:cbf-decline>
 
 #warning-box(title: [Replication Status: Single Research Group])[
 All van Campen CBF studies originate from a single Dutch referral center using the same tilt-table protocol and transcranial Doppler methodology @VanCampenEtAl2020 @VanCampenEtAl2021 @VanCampenEtAl2023 @VanCampenEtAl2024. While internally consistent across multiple publications (n=107 to n=534), no independent research group has replicated these findings using equivalent methodology. The sequential publication pattern from one center may give the appearance of independent replication but represents a single group's cohort. Independent replication with standardized protocols at other centers is essential. See also the related CBF findings in Chapter @ch:neurological (Achievement @ach:cbf-universal).
@@ -501,7 +499,6 @@ In ME/CFS patients—particularly those with POTS overlap—chronic baseline spl
 *Clinical Translation:* The high comorbidity between POTS and ME/CFS (25–50% of ME/CFS patients meet POTS criteria @Newton2008POTSprevalence) suggests shared splanchnic dysregulation pathways. For patients with both conditions, abdominal compression may serve a dual purpose: not only improving orthostatic tolerance by reducing pooling, but also protecting gut barrier function by maintaining adequate splanchnic perfusion during activities. This hypothesis remains untested but is mechanistically grounded.
 
 #speculation(title: [Postural Orthostatic Gut Syndrome])[
-<spec:postural-gut-syndrome>
 We propose the concept of *Postural Orthostatic Gut Syndrome (POGS)* for a subset of severe ME/CFS patients with POTS comorbidity, in whom upright posture alone causes sufficient splanchnic hypoperfusion to trigger wheat-primed gut barrier failure. The mechanistic sequence would be:
 
     - Upright posture → gravitational blood pooling in abdomen and legs
@@ -521,10 +518,9 @@ We propose the concept of *Postural Orthostatic Gut Syndrome (POGS)* for a subse
 This model emphasizes that gut barrier function is not isolated from autonomic and cardiovascular dysfunction—it is intimately coupled. Therapeutic interventions targeting one system (compression for POTS) may simultaneously benefit gastrointestinal function through improved splanchnic perfusion.
 
 *Future Research Directions:* These predictions provide a roadmap for future validation studies to establish whether POGS represents a distinct clinical entity or a mechanistic subtype within the ME/CFS spectrum. Prospective studies combining tilt-table testing with serial gut permeability biomarkers (LPS, I-FABP, zonulin) in severity-stratified ME/CFS cohorts with and without POTS comorbidity would be particularly informative.
-]
+] <spec:postural-gut-syndrome>
 
 #speculation(title: [Functional vs. Structural OI Distinction])[
-<spec:oi-distinction>
 The higher prevalence but better reversibility of orthostatic intolerance in
 pediatric ME/CFS (70–90% prevalence with high response to treatment @Ojha2024pediatricPOTS @Heine2019pediatricCFS) compared
 to adult disease suggests qualitatively different mechanisms. We speculate that
@@ -538,7 +534,7 @@ this supports aggressive early OI treatment in both populations to prevent
 functional miscalibration from progressing to structural damage.
 
 *Certainty: 0.35* (prevalence and prognosis data documented @Ojha2024pediatricPOTS @Heine2019pediatricCFS; functional vs.\ structural mechanism distinction is speculative and untested)
-]
+] <spec:oi-distinction>
 
 === Hypertension in ME/CFS
 <sec:hypertension>
@@ -708,7 +704,6 @@ Treatment approaches targeting cardiovascular dysfunction include volume expansi
 The recognition that cardiovascular abnormalities are objective and measurable helps counter misconceptions that ME/CFS exercise intolerance reflects psychological factors or simple deconditioning. Charlton et al.\ (2026) formalized this argument in the _British Journal of Sports Medicine_, concluding that post-exertional malaise cannot be explained by cardiac deconditioning and calling for a fundamental rethinking of exercise pathophysiology in post-viral illness @Charlton2026pem.
 
 #hypothesis-box(title: [Motor-Autonomic Coordination Overload Hypothesis])[
-<hyp:motor-autonomic-coordination>
 
 Physical activity requires simultaneous CNS coordination of motor output (muscle recruitment, movement planning, proprioceptive feedback) and autonomic regulation (heart rate adjustment, blood pressure maintenance, thermoregulation, respiratory drive). In healthy individuals, these coordination tasks operate efficiently within the brain's energy budget. We hypothesize that in ME/CFS, where CNS energy is the primary bottleneck (Section @sec:selective-dysfunction), motor and autonomic coordination compete for insufficient resources, causing both systems to fail under demand.
 
@@ -749,10 +744,9 @@ _PEM as coordination exhaustion._ Post-exertional malaise may represent the down
 The hypothesis assumes CNS energy is the primary constraint, which remains debated. Peripheral factors (mitochondrial dysfunction, reduced blood volume, deconditioning) independently contribute to exercise intolerance. The dual-task prediction requires careful experimental design to distinguish CNS resource competition from general fatigue. Central governor theory itself remains controversial in exercise physiology.
 
 *Certainty:* 0.55 (CPET findings well-documented; CNS coordination mechanism plausible; dual-task predictions testable but not yet tested in ME/CFS)
-]
+] <hyp:motor-autonomic-coordination>
 
 #speculation(title: [Small Fiber Neuropathy Increases CNS Metabolic Load])[
-<spec:sfn-interface-failure>
 Small fiber neuropathy affects approximately 30% of ME/CFS patients @Azcue2023sfn @Azcue2025sfn, creating a bidirectional communication burden between the peripheral nervous system and central nervous system that may amplify energy constraints.
 
 *Afferent Signal Degradation.*
@@ -779,5 +773,5 @@ No studies have directly measured CNS metabolic demand in relation to SFN severi
 Azcue et al.\ documented that ME/CFS patients show prolonged heat response latencies indicating C-fiber dysfunction, with 31% meeting POTS criteria @Azcue2023sfn. A follow-up study using corneal confocal microscopy demonstrated increased small fiber tortuosity in ME/CFS compared to controls ($F=6.80$, $p\<0.01$), with tortuosity serving as the primary discriminator between patients and controls (AUC$=0.720$) @Azcue2025sfn. The non-length-dependent pattern (upper and lower extremities equally affected) distinguishes ME/CFS-associated SFN from metabolic neuropathies like diabetic neuropathy, suggesting immune-mediated damage targeting specific antigens on small nerve fibers. The connection between reduced parasympathetic activation and worse cognitive performance @Azcue2023sfn provides indirect support for peripheral-CNS interface dysfunction, though directionality remains uncertain.
 
 *Certainty:* 0.40 (SFN prevalence established; CNS metabolic mechanism speculative)
-]
+] <spec:sfn-interface-failure>
 

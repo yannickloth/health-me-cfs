@@ -33,9 +33,8 @@ In rare cases, immunizations have been temporally associated with ME/CFS onset o
 <obs:viral-meta>
 A 2023 systematic review and meta-analysis of 64 studies (n=4,971 ME/CFS patients, n=9,221 controls) examining 18 viral species identified significant associations between ME/CFS and multiple viral infections @hwang2023viral. Five viruses demonstrated odds ratios exceeding 2.0: Borna disease virus (OR$gt.eq$3.47), HHV-7 (OR\>2.0), parvovirus B19 (OR\>2.0), enterovirus (OR\>2.0), and coxsackie B virus (OR\>2.0). However, high heterogeneity (\>50%) was observed for EBV and enterovirus associations, suggesting these viral triggers may apply to specific subgroups rather than uniformly across all ME/CFS cases.
 #warning-box(title: [Association vs.\ Causation in Viral Triggers])[
-<warn:viral-causation>
 While meta-analytic evidence demonstrates statistical associations between viral infections and ME/CFS onset @hwang2023viral, these data cannot establish causation. Viral reactivation may represent a consequence of immune dysfunction rather than the initiating cause. Additionally, detection bias may inflate associations, as ME/CFS patients typically undergo more extensive viral testing than matched controls. The observed heterogeneity across studies indicates that viral etiology likely applies to subsets of ME/CFS patients rather than representing a universal mechanism.
-]
+] <warn:viral-causation>
 
 The NIH deep phenotyping study focused specifically on post-infectious ME/CFS, providing detailed characterization of this subgroup @walitt2024deep.
 
@@ -142,14 +141,13 @@ The multi-hit cascade onset pattern described above is a clinical narrative cons
 ]
 
 #warning-box(title: [Distinguishing True Remission from Marginal Functionality])[
-<warn:false-recovery>
 Clinicians and patients should distinguish between:
 
     - *True remission*: Return to pre-illness baseline; able to tolerate normal activity and minor infections without prolonged recovery
     - *Marginal functionality*: Able to perform limited activities through careful pacing; any additional stressor causes crash; “recovered” state requires continuous effort to maintain
 
 The multi-hit pattern suggests that patients in marginal functionality states remain vulnerable to progressive decompensation with each additional immune challenge. This has implications for long-term prognosis and the importance of aggressive infection prevention, stress management, and pacing even during “good periods.”
-]
+] <warn:false-recovery>
 
 *Research Implications.*
 The multi-hit cascade pattern suggests that ME/CFS onset may involve:

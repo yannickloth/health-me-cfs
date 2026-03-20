@@ -71,7 +71,6 @@ The pattern of disease onset provides diagnostic and prognostic information:
 ==== Orthostatic Vital Signs
 
 #requirement-box(title: [NASA Lean Test or Orthostatic Vital Signs])[
-<req:orthostatic-testing>
 Orthostatic intolerance assessment should be performed on all ME/CFS patients:
 
 *Protocol:*
@@ -89,7 +88,7 @@ Orthostatic intolerance assessment should be performed on all ME/CFS patients:
 
 *Interpretation:*
 70–90% of ME/CFS patients demonstrate orthostatic intolerance on objective testing. Absence of objective findings does not exclude ME/CFS, but presence strongly supports the diagnosis and guides treatment (salt, fluids, fludrocortisone, midodrine).
-]
+] <req:orthostatic-testing>
 
 ==== Neurological Examination
 
@@ -127,7 +126,6 @@ The paucity of objective findings on standard neurological examination _despite 
 ==== Mandatory Exclusionary Testing
 
 #requirement-box(title: [Minimum Laboratory Workup])[
-<req:lab-workup>
 The following tests are required to rule out alternative diagnoses:
 
 *Hematology:*
@@ -165,7 +163,7 @@ The following tests are required to rule out alternative diagnoses:
     - OSA can fully mimic ME/CFS; CPAP treatment produces dramatic improvement in true OSA
     - OSA and ME/CFS can coexist; treating comorbid OSA improves but does not cure ME/CFS
 
-]
+] <req:lab-workup>
 
 <obs:lab-profile>
 The characteristic laboratory finding in ME/CFS is that *standard tests are normal*:

@@ -290,7 +290,6 @@ The Kol et al.\ (2026) discovery that feline infectious peritonitis virus (FIPV)
     - *Intervention testing:* Use the FIP model to test combined antiviral + metabolic support strategies before human trials, determining whether metabolic supplementation enhances viral clearance from lymphocytes.
 
 #open-question(title: [Viral RNA in Circulating Lymphocytes as Diagnostic Biomarker])[
-<oq:viral-rna-lymphocyte-biomarker>
 If the lymphocyte reservoir hypothesis (Hypothesis @hyp:lymphocyte-reservoir-ratchet) is correct, ultra-sensitive single-cell methods (10x Genomics single-cell RNA-seq, MERFISH spatial transcriptomics) applied to peripheral blood mononuclear cells from ME/CFS patients should detect low-level viral transcripts in a small fraction of lymphocytes—below the sensitivity of bulk PCR but detectable at single-cell resolution.
 
 Key unknowns:
@@ -301,10 +300,9 @@ Key unknowns:
     - What is the sensitivity threshold required—and do current single-cell platforms achieve it?
 
 If validated, this would represent the first objective diagnostic biomarker for post-viral ME/CFS and would immediately stratify patients for antiviral therapy trials.
-]
+] <oq:viral-rna-lymphocyte-biomarker>
 
 #open-question(title: [Temporal Mapping of the Deconditioning-to-Pathology Transition])[
-<oq:deconditioning-pathology-transition>
 When does secondary deconditioning in ME/CFS become irreversible tissue pathology? The Ratchet Model (Speculation @spec:infection-damage-ratchet) predicts cumulative irreversible damage, but the transition point is unknown. This question has direct clinical implications: if there is a window during which deconditioning is still reversible, early targeted rehabilitation (within the energy envelope) could prevent permanent functional loss.
 
 A study design to address this:
@@ -315,7 +313,7 @@ A study design to address this:
     - Outcome: distinguish deconditioning-reversible changes (muscle fiber type shifts, capillary density reduction) from pathology-irreversible changes (mitochondrial DNA damage, fibrosis, small fiber denervation)
 
 This would be the first study to empirically separate the deconditioning component from the primary pathological component in ME/CFS exercise intolerance, directly testing a core assumption of both the deconditioning and the ratchet models.
-]
+] <oq:deconditioning-pathology-transition>
 
 == Imaging Studies
 <sec:imaging-studies>

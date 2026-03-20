@@ -116,7 +116,6 @@ The cascade's reach is limited only by the brain's reach—which is to say, not 
     - *Multi-system spread:* The brain innervates and regulates every organ system. A central coordination failure naturally produces multi-system dysfunction without requiring independent pathology in each system. This is the strongest criterion met by the CNS energy crisis hypothesis: it is the only trigger-capable mechanism whose multi-system reach is guaranteed by anatomy rather than dependent on molecular diffusion or receptor expression patterns.
 
 #hypothesis-box(title: [CNS Energy Crisis as Trigger-Capable Root Cause])[
-<hyp:cns-energy-root>
 Central nervous system hypometabolism, arising from neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction in neural tissue, is sufficient to generate the full ME/CFS syndrome through failed central coordination of autonomic, immune, endocrine, and metabolic responses. The brain's role as master coordinator means that its energy failure cascades to all dependent systems. The CNS energy crisis is the only trigger-capable mechanism whose multi-system reach is anatomically guaranteed rather than dependent on molecular distribution.
 
 *Certainty:* 0.50. PET/SPECT evidence for CNS hypometabolism is replicated across multiple studies, and the Walitt 2024 CSF findings provide direct neurochemical evidence of biosynthetic failure. The cascade logic is biologically sound and consistent with known neuroanatomy. However, it remains unproven that CNS dysfunction is _primary_ rather than secondary to peripheral immune activation, and animal models that would establish directionality are lacking. The Nakatomi PET study, while influential, used a relatively small sample and a first-generation TSPO ligand with known limitations.
@@ -129,7 +128,7 @@ Central nervous system hypometabolism, arising from neuroinflammation, neurovasc
     - CSF catecholamine levels should correlate with autonomic severity and predict treatment response to catecholamine-sparing interventions.
 
 *Limitations:* The Walitt 2024 study had a small sample size ($n=17$) and was cross-sectional, preventing causal inference. The PET findings from Nakatomi et al.\ used a first-generation TSPO ligand (#super[11]C-PK11195) with limited signal-to-noise; replication with second- or third-generation ligands is needed. The fundamental question—whether CNS dysfunction is cause or consequence—cannot be resolved without longitudinal studies from disease onset or experimental animal models, neither of which currently exist for ME/CFS.
-]
+] <hyp:cns-energy-root>
 
 The formal dynamical systems analysis of the CNS energy crisis as an attractor basin is developed in Section @sec:bifurcation-analysis, where the CNS energy state is modeled as a bifurcation parameter whose reduction below a critical threshold drives the system into the ME/CFS disease attractor.
 
@@ -165,7 +164,6 @@ The critical failure in ME/CFS is not the activation of this program—which is 
     - *Multi-system spread:* The safe mode program is a whole-body metabolic shift, not a tissue-specific phenomenon. Every cell that depends on mitochondrial ATP production is affected. The behavioral components (fatigue, anorexia, withdrawal) are mediated by hypothalamic signaling that coordinates the whole organism. The immune components affect all immune cell lineages. The metabolic components affect every tissue that uses oxidative phosphorylation.
 
 #hypothesis-box(title: [Metabolic Safe Mode as Trigger-Capable Root Cause])[
-<hyp:safe-mode-root>
 ME/CFS represents an evolutionarily conserved metabolic suppression program—activated by infection, stress, or trauma—that fails to disengage due to persistent immune signaling, hypothalamic setpoint shift, epigenetic stabilization, or the program's own self-reinforcing exertion logic. The program's deliberate suppression of energy production, combined with its interpretation of exertion as evidence of ongoing threat, creates a stable lock that explains both the multi-system nature of the disease and the characteristic worsening with activity.
 
 *Certainty:* 0.45. The evolutionary logic is compelling and the metabolomic data (itaconate pathway activation, IDO upregulation, tryptophan depletion, coordinated mitochondrial changes) are consistent with a deliberate program rather than random damage. The behavioral profile of ME/CFS closely matches the sickness behavior program described in Chapter @ch:symptom-mechanisms. However, direct evidence that ME/CFS metabolism represents an _intentional_ program rather than _damage_ is lacking, and the hypothesis risks being unfalsifiable if any metabolic abnormality can be reinterpreted as “safe mode.”
@@ -178,7 +176,7 @@ ME/CFS represents an evolutionarily conserved metabolic suppression program—ac
     - Gene expression analysis should reveal activation of a coherent “sickness behavior” transcriptional module, not random metabolic gene dysregulation.
 
 *Limitations:* The boundary between “deliberate suppression” and “damage” may be empirically indistinguishable at the level of current measurement technology. Itaconate elevation and IDO upregulation are consistent with both interpretations. The hypothesis also does not specify the molecular identity of the “lock” with enough precision to design a targeted intervention—“reset the hypothalamic setpoint” is a goal, not a pharmacological target.
-]
+] <hyp:safe-mode-root>
 
 === GPCR Autoantibody Cascade
 <sec:root-gpcr>
@@ -210,7 +208,6 @@ The cascade from GPCR autoantibodies to full ME/CFS proceeds through several par
     - *Multi-system spread:* GPCRs are expressed in virtually every tissue. $beta_2$-adrenergic receptors are found on cardiomyocytes, bronchial smooth muscle, vascular endothelium, hepatocytes, adipocytes, and immune cells. Muscarinic receptors are expressed in the brain, heart, smooth muscle, secretory glands, and immune cells. Functional autoantibodies against these receptors would produce dysfunction wherever these receptors mediate physiological responses—which is essentially everywhere.
 
 #hypothesis-box(title: [GPCR Autoantibody Cascade as Trigger-Capable Root Cause])[
-<hyp:gpcr-root>
 Functional autoantibodies against $beta_2$-adrenergic and muscarinic receptors, generated through molecular mimicry or bystander activation during infection, are sufficient to produce the full ME/CFS syndrome through endothelial dysfunction, tissue hypoperfusion, immune reprogramming, autonomic disruption, and multi-organ GPCR signaling dysfunction. Long-lived plasma cell sanctuaries in bone marrow and mucosal niches maintain autoantibody production indefinitely, explaining disease persistence.
 
 *Certainty:* 0.45. The autoantibody findings are replicated across multiple laboratories, the immunoadsorption and daratumumab responses provide therapeutic proof-of-concept (the strongest form of evidence for pathogenicity), and the mechanistic cascade is well-characterized through both clinical observation and _in vitro_ studies. However, the BC007 Phase II trial—the only placebo-controlled study of autoantibody-targeted therapy to date—failed to demonstrate superiority over placebo at the population level @Hohberger2021bc007, raising serious questions about whether autoantibodies are pathogenic in all patients or merely a biomarker in a subset.
@@ -223,7 +220,7 @@ Functional autoantibodies against $beta_2$-adrenergic and muscarinic receptors, 
     - Sequential immunoadsorption sessions should show a dose-response relationship between autoantibody titer reduction and clinical improvement.
 
 *Limitations:* The wide prevalence range across studies (29–91%) suggests fundamental measurement inconsistency that must be resolved before the hypothesis can be rigorously tested. The BC007 Phase II failure is a significant challenge: if autoantibody neutralization does not produce benefit in a controlled setting, the causal role of autoantibodies is undermined (though the possibility remains that BC007's mechanism of action—DNA aptamer binding—is insufficient to neutralize all relevant autoantibody effects, particularly tissue-bound antibodies). Not all ME/CFS patients have detectable autoantibodies, implying that even if pathogenic, autoantibodies cannot explain all cases.
-]
+] <hyp:gpcr-root>
 
 === TRPM3 Channelopathy
 <sec:root-trpm3>
@@ -253,7 +250,6 @@ When TRPM3 function is impaired, the consequences manifest simultaneously across
     - *Multi-system spread:* TRPM3 is expressed across immune, neural, endocrine (pancreatic), and vascular tissues. Channel dysfunction in all these tissues produces the multi-system presentation characteristic of ME/CFS. The tissue distribution of TRPM3 maps remarkably well onto the organ systems affected in ME/CFS.
 
 #hypothesis-box(title: [TRPM3 Channelopathy as Trigger-Capable Root Cause])[
-<hyp:trpm3-root>
 Dysfunction of the TRPM3 calcium channel, acquired post-virally through structural modification, autoimmune targeting, or epigenetic silencing, is sufficient to generate multi-system ME/CFS through impaired immune effector function, disrupted mitochondrial calcium signaling, and widespread calcium-dependent process failure across tissues. The tissue distribution of TRPM3 expression provides a molecular basis for the multi-system nature of the disease.
 
 *Certainty:* 0.40. The multi-site validation of TRPM3 dysfunction by Sasso et al.\ is methodologically strong (multiple independent sites, standardized protocols, blinded analysis), and the breadth of TRPM3 expression provides a uniquely plausible mechanism for multi-system disease. However, it is not yet established that TRPM3 dysfunction is _primary_ rather than secondary to upstream signaling abnormalities (e.g., GPCR autoantibodies modulating TRPM3 gating via second messenger pathways involving PLC and PIP#sub[2] depletion, as proposed in Section @sec:trpm3-hypotheses). The finding is recent and awaits replication with larger, more diverse, well-characterized cohorts.
@@ -266,7 +262,7 @@ Dysfunction of the TRPM3 calcium channel, acquired post-virally through structur
     - Patients with more severe TRPM3 impairment should show worse metabolic flexibility on two-day cardiopulmonary exercise testing (the gold standard for PEM quantification).
 
 *Limitations:* TRPM3 dysfunction has been demonstrated primarily in peripheral blood immune cells; whether it extends to neural, pancreatic, and vascular TRPM3 in ME/CFS patients is assumed based on systemic expression but not yet directly measured. Tissue-specific TRPM3 function studies would require biopsy specimens or advanced imaging, neither of which is routinely available. The causal direction—whether TRPM3 dysfunction drives the disease or is itself a consequence of the chronic inflammatory and metabolic environment—is the key unresolved question.
-]
+] <hyp:trpm3-root>
 
 === Relationships Among Trigger-Capable Mechanisms
 <sec:root-cause-relationships>
@@ -535,7 +531,6 @@ Once a patient reaches the final common pathway, the amplifier mechanisms descri
 #include "../../figures/fig-entry-points-funnel.typ"
 
 #hypothesis-box(title: [Multiple Entry Points, Single Final Common Pathway])[
-<hyp:final-common-pathway>
 Different ME/CFS precipitants engage different trigger-capable mechanisms, but all converge on a shared final common pathway of CNS energy failure combined with broken metabolic restoration machinery. This convergence explains the clinical homogeneity of ME/CFS despite heterogeneous triggers, while residual entry-mechanism features account for patient-to-patient variation. The convergence is not accidental but reflects the limited number of stable “failure modes” available to the human physiological system.
 
 *Certainty:* 0.45. The logic is compelling and consistent with the clinical epidemiology of ME/CFS onset, the phenotypic similarity across onset types, and the variable treatment responses. However, the “final common pathway” has not been directly demonstrated at the molecular level; it is inferred from clinical similarity across onset types and from the theoretical analysis of disease attractor basins. Multi-omics studies comparing patients with different onset types would be required to confirm convergence.
@@ -548,7 +543,7 @@ Different ME/CFS precipitants engage different trigger-capable mechanisms, but a
     - Patients with mixed precipitants (e.g., infection during a period of extreme stress) should show more rapid progression and more severe disease, consistent with simultaneous engagement of multiple entry doors.
 
 *Limitations:* The hypothesis is difficult to test without longitudinal cohorts followed from disease onset, which are expensive and logistically challenging for a disease with unpredictable onset. The concept of a “final common pathway” may be an oversimplification—there may be 2–4 distinct disease attractors rather than a single one, corresponding to different stable configurations of the multi-lock system. Additionally, if entry signatures fade quickly (within months), they may be impossible to detect in clinical cohorts where diagnosis typically occurs years after onset.
-]
+] <hyp:final-common-pathway>
 
 The infection cascade walkthrough in Chapter @ch:temporal-evolution provides a worked example of how a specific precipitant (viral infection) progresses through entry, amplification, and lock establishment to reach the final common pathway.
 
@@ -588,7 +583,6 @@ _Sleep fragmentation._ Improving sleep quality reduces the symptom burden and ma
 _Viral reactivation._ Suppressing reactivated herpesviruses reduces immune activation and the associated metabolic burden, potentially improving symptoms. But the immune compromise that permitted reactivation persists, and other sources of immune activation remain. Antiviral therapy removes one input to the inflammatory loop, but the loop has other inputs that maintain it.
 
 #hypothesis-box(title: [Load-Bearing Lock Identification])[
-<hyp:load-bearing>
 Among the amplifier mechanisms in ME/CFS, epigenetic consolidation and autoimmune persistence (plasma cell sanctuaries) are load-bearing locks whose removal is necessary for recovery. Oxidative stress, sleep fragmentation, and viral reactivation are secondary locks whose treatment provides symptomatic benefit but is neither necessary nor sufficient for recovery. The load-bearing locks are distinguished by their ability to independently sustain the disease attractor state, while secondary locks merely modulate its depth and the patient's position within it.
 
 *Certainty:* 0.40. The distinction is logically grounded in the dynamics of each mechanism and consistent with treatment response patterns (e.g., daratumumab's 60% response rate when targeting a predicted load-bearing lock versus the modest, incomplete responses to antioxidants and antivirals targeting predicted secondary locks). However, no direct experimental test has distinguished load-bearing from secondary locks in ME/CFS, and the classification may differ across patient subgroups or disease stages.
@@ -601,7 +595,7 @@ Among the amplifier mechanisms in ME/CFS, epigenetic consolidation and autoimmun
     - In a multi-target treatment protocol, removing load-bearing locks should alter the _trajectory_ of disease progression (slope change), while removing secondary locks should alter the _level_ (intercept change).
 
 *Limitations:* The load-bearing versus secondary classification may not be stable across patients or disease stages. A lock that is secondary early in disease (when the root cause is still the primary driver) may become load-bearing as the root cause resolves but the lock persists. The classification is based on theoretical reasoning about attractor dynamics rather than empirical measurement of individual lock contribution to disease maintenance.
-]
+] <hyp:load-bearing>
 
 The formal analysis of lock removal—including the minimum number and combination of locks that must be released for escape from the disease attractor—is developed in Chapter @ch:causal-hierarchy-formal, where each lock is modeled as a parameter that modifies the attractor landscape and whose removal is analyzed for sufficiency and necessity.
 
@@ -723,7 +717,6 @@ The formal prediction is specific: load-bearing lock removal should alter the _s
 *Subgroup identification.* The hierarchy predicts that ME/CFS is not one disease but several diseases sharing a final common pathway, with subgroups defined by their entry mechanism and their active lock configuration. Research that treats ME/CFS as a single homogeneous condition will consistently produce disappointing results because it averages across subgroups with different active mechanisms. The hierarchy motivates a research strategy of aggressive subgroup identification—using autoantibody status, TRPM3 function, metabolomic profiling, and epigenetic markers to stratify patients before treatment assignment.
 
 #open-question(title: [Experimental Validation of Causal Hierarchy])[
-<oq:hierarchy-validation>
 The causal hierarchy proposed in this chapter is a framework, not a fact. Its validation requires experiments that are technically demanding, logistically complex, and in some cases not yet feasible with current technology. Key experimental gaps include:
 
     - No animal model faithfully reproduces the multi-system, chronic, relapsing nature of ME/CFS, limiting the ability to test causality through experimental manipulation. Existing models (viral infection, forced exercise, passive transfer) capture aspects of the disease but not the full multi-lock architecture.
@@ -733,7 +726,7 @@ The causal hierarchy proposed in this chapter is a framework, not a fact. Its va
     - Ethical constraints limit the experimental designs (delay randomization, placebo control of potentially beneficial treatments in severely ill patients) that would most cleanly test the hierarchy.
 
 The hierarchy should therefore be treated as a working model that generates specific predictions, guides research priorities, and informs treatment reasoning—not as established fact. It will be revised, and in some particulars likely overturned, as evidence accumulates. The goal is not to be right but to be useful: to provide a framework that organizes thinking about a complex disease and highlights the experiments most likely to advance understanding.
-]
+] <oq:hierarchy-validation>
 
 // =============================================================================
 // CONCLUSION

@@ -290,7 +290,6 @@ This “multi-lock” concept (detailed in Chapter @ch:speculative-hypotheses) 
 <obs:multi-lock-treatment>
 If ME/CFS involves multiple self-reinforcing abnormalities, this has profound implications for clinical trials. A treatment targeting one mechanism (e.g., immunoadsorption removing autoantibodies) might show modest benefit if other locks (epigenetic, metabolic, autonomic) maintain dysfunction. This could explain the disappointing results of many single-mechanism trials. Future research should explore: (1) sequential combination therapies (break locks one at a time), (2) simultaneous multi-targeted protocols (address all locks together), or (3) biomarker-guided sequencing (identify which lock predominates in each patient). The daratumumab 60% response rate @Fluge2025daratumumab may reflect successful targeting in patients where autoimmunity is the primary lock, while non-responders have different dominant mechanisms.
 #speculation(title: [Sickness Behavior “Stuck On” Hypothesis])[
-<spec:sickness-behavior-stuck>
 
 Sickness behavior is an evolutionarily conserved motivational state triggered by pro-inflammatory cytokines (IL-1$beta$, IL-6, TNF-$alpha$) acting on the brain through both humoral and neural (vagal afferent) pathways @Dantzer2008inflammation @Dantzer2007twenty. Its hallmarks—fatigue, social withdrawal, anorexia, hyperalgesia, cognitive impairment, and somnolence—precisely parallel the core symptom constellation of ME/CFS @Morris2013sickness. We speculate that ME/CFS represents a state in which the sickness behavior program, normally self-limiting, becomes chronically activated or fails to disengage.
 
@@ -326,10 +325,9 @@ The sickness behavior model does not explain all ME/CFS features. PEM—the hall
 ]
 
 *Certainty:* 0.40 (symptom overlap is striking; mechanistic persistence pathway speculative; negative anakinra trial complicates picture)
-]
+] <spec:sickness-behavior-stuck>
 
 #speculation(title: [Partial Torpor Trap Hypothesis])[
-<spec:partial-torpor>
 
 Torpor is a phylogenetically conserved state of controlled metabolic suppression in which organisms dramatically reduce body temperature, heart rate, and metabolic rate to survive periods of energy scarcity @Hrvatin2020torpor @Takahashi2020torpor. We speculate that ME/CFS involves activation of torpor-related metabolic suppression pathways without the coordinated physiological program that enables safe entry into and arousal from torpor—a “partial torpor trap.”
 
@@ -369,7 +367,7 @@ If ME/CFS involves partial torpor, treatment should focus on completing the arou
 This hypothesis is highly speculative. Humans do not normally enter torpor, and it is unclear whether human hypothalamic circuits retain functional torpor-induction capacity. The analogy between ME/CFS and torpor is based on phenomenological similarity rather than demonstrated mechanistic overlap. Core body temperature is generally normal in ME/CFS, which argues against full torpor pathway engagement. No human studies have examined QRFP or related torpor-control pathways in ME/CFS.
 
 *Certainty:* 0.30 (intriguing conceptual framework; minimal direct evidence; highly speculative)
-]
+] <spec:partial-torpor>
 
 == Proposed Unifying Mechanisms
 <sec:unifying-mechanisms>
@@ -433,14 +431,12 @@ A self-sustaining pathophysiological cycle may become entrenched in severe ME/CF
     - *Cycle amplification*: With each cycle, baseline permeability increases, baseline cytokines increase, and the barrier's repair capacity becomes increasingly exhausted. This self-sustaining loop may explain why disease severity tends to increase over time in some severe patients without intervention.
 
 #hypothesis-box(title: [Breaking the Inflammation-Barrier Cycle in Severe Patients])[
-<hyp:multi-target-intervention>
 Ceasing the perpetuation of this cycle may require simultaneous multi-target interventions rather than single-pathway strategies. Possible approaches include: (1) *Barrier restoration* via glutamine supplementation, collagen peptides, or other enterocyte-supportive nutrients; (2) *Wheat elimination* to remove zonulin-mediated barrier stress; (3) *Anti-inflammatory support* via omega-3 fatty acids, curcumin, or other dietary polyphenols; (4) *Mast cell stabilization* with quercetin or ketotifen to reduce histamine-mediated inflammatory mediator release; and (5) *Cortisol optimization* to support endogenous barrier repair. Addressing only one mechanism (e.g., wheat elimination without anti-inflammatory support or barrier repair substrates) may prove insufficient if the cycle has become deeply entrenched, requiring comprehensive multi-pathway interventions for clinical efficacy in severe patients.
 
 *Certainty: 0.75* (mechanistic logic strong; direct evidence for this integrated multi-target approach lacking in ME/CFS).
-]
+] <hyp:multi-target-intervention>
 
 #keypoint(title: [Orthostatic Intolerance as Potential Upstream Driver])[
-<keypoint:oi-lynchpin>
 
 Pediatric ME/CFS data suggest that orthostatic intolerance (OI) may function as an upstream driver—a lynchpin whose early correction can prevent cascade into multi-system dysfunction.
 
@@ -467,10 +463,9 @@ This interpretation remains speculative. Alternative explanations exist: OI trea
 
 See Section @sec:septad for the Septad framework that positions OI as one of seven interconnected pathophysiological domains, and Chapter @ch:cardiovascular for detailed discussion of OI mechanisms and treatments.
 
-]
+] <keypoint:oi-lynchpin>
 
 #speculation(title: [Recovery Capital Model])[
-<spec:recovery-capital>
 We propose a conceptual framework of “Recovery Capital”—the cumulative
 biological capacity for recovery that is consumed by severe post-exertional
 malaise episodes and regenerated over time. In this model, children possess
@@ -484,10 +479,9 @@ preservation) and early intervention (maximizing capital before depletion)
 are particularly critical in pediatric patients, and why aggressive early
 treatment in adult patients may preserve recovery potential that would
 otherwise be lost.
-]
+] <spec:recovery-capital>
 
 #speculation(title: [Hematopoietic Stem Cell Exhaustion Model])[
-<spec:hsc-exhaustion>
 
 *Certainty: 0.30.* ME/CFS may involve accelerated exhaustion of hematopoietic stem cells (HSCs), with the pediatric recovery advantage reflecting children's larger HSC reserves. This speculation extends the Recovery Capital framework by identifying HSC function as a critical, quantifiable component of biological reserve. The certainty level reflects: (1) highly speculative extrapolation from aging biology to ME/CFS; (2) indirect peripheral blood markers as proxy for bone marrow HSC status; (3) absence of direct bone marrow biopsy studies in ME/CFS populations; (4) lack of direct intervention trials targeting HSC function.
 
@@ -560,7 +554,7 @@ _HSC supplementation (speculative)._ In severe cases with confirmed HSC exhausti
 *Limitations:*
 
 This model is highly speculative. Direct evidence for HSC exhaustion in ME/CFS is limited; most evidence is indirect, based on peripheral blood markers and reasoning from aging biology. Bone marrow studies in ME/CFS are rare due to the invasiveness of biopsy. The model does not explain why some patients with long disease duration do eventually recover, or why some young patients do not recover. Additionally, HSC exhaustion could be a consequence rather than a cause of ME/CFS—a downstream effect of other primary mechanisms.
-]
+] <spec:hsc-exhaustion>
 
 === Multisystem Failure Cascade
 
@@ -696,7 +690,6 @@ Such a study would provide the first empirical test of whether crash prevention 
 <subsec:oi-lynchpin>
 
 #keypoint(title: [OI as Mechanistic Lynchpin in Early ME/CFS])[
-<key:oi-lynchpin>
 
 *Certainty: 0.55.* Orthostatic intolerance may function as an upstream mechanistic driver in early ME/CFS, triggering a cascade of secondary dysfunction across immune, metabolic, and neuroimmune systems. This model is grounded in pediatric clinical observations and splanchnic perfusion physiology, though high-quality trials testing the causal direction remain limited.
 
@@ -736,7 +729,7 @@ The proposed mechanism remains partially speculative: (1) splanchnic perfusion h
 *Research Priorities*
 Resolving this question requires: (1) comparative longitudinal trials of aggressive versus standard OI treatment in early-onset ME/CFS with non-cardiovascular endpoints; (2) measurement of splanchnic perfusion (Doppler ultrasound) and gut barrier markers (zonulin, I-FABP) in OI-positive and OI-negative subgroups; (3) epigenetic profiling of microglial and splanchnic endothelial cells in responders versus non-responders to OI treatment; (4) studies of the early-intervention trial concept described in Chapter @ch:proposed-studies.
 
-]
+] <key:oi-lynchpin>
 
 === Selective Energy Dysfunction Framework
 <subsec:selective-dysfunction-integration>
@@ -779,7 +772,6 @@ The compartmental model (Figure @fig:compartmental-energy-model) visualizes how
 <subsec:circadian-energy-distribution>
 
 #hypothesis-box(title: [Circadian Distribution Failure Hypothesis])[
-<hyp:circadian-energy-distribution>
 
 The suprachiasmatic nucleus (SCN) coordinates energy allocation across the 24-hour cycle in healthy individuals @kalsbeek2012suprachiasmatic @van2012circadian. In ME/CFS, we hypothesize that SCN dysfunction causes *temporal energy misallocation*: the brain distributes its limited energy budget incorrectly across the day, resulting in the paradoxical “second wind” phenomenon where patients often feel worse during normal waking hours and experience improved energy in the evening.
 
@@ -850,13 +842,12 @@ Williams et al.\ found that neither melatonin nor bright-light phototherapy show
   - Individual variability high—not all patients report “second wind”
 
 *Certainty:* 0.50 (cortisol rhythm abnormalities documented; circadian disruption well-established; SCN-level mechanism requires validation)
-]
+] <hyp:circadian-energy-distribution>
 
 === Disease Subtype Progression
 <subsec:subtype-progression>
 
 #hypothesis-box(title: [Subtype Progression Hypothesis])[
-<hyp:disease-stage-progression>
 
 ME/CFS may follow a predictable progression from CNS-primary disease to multi-system involvement over years, with disease duration serving as a proxy for progression stage. We hypothesize four stages: (1) CNS-primary (cognitive-dominant, mild), (2) autonomic spread (CNS + POTS), (3) peripheral involvement (multi-system + PEM), and (4) global/systemic (severe, bedbound). Early intervention may prevent progression beyond the initial stage.
 
@@ -898,10 +889,9 @@ _Autonomic progression._ ME/CFS patients with comorbid POTS show worse outcomes 
 All supporting evidence is cross-sectional or retrospective; no longitudinal study has tracked actual stage transitions in individual patients. The proposed stages may not be sequential in all patients—some may skip stages or experience bidirectional transitions. Disease heterogeneity means different subtypes may follow different progression patterns. The model also does not account for patients with rapid severe onset who appear to enter Stage 3–4 immediately.
 
 *Certainty:* 0.45 (diagnostic delay/prognosis data supportive; staged progression pattern plausible but unvalidated longitudinally)
-]
+] <hyp:disease-stage-progression>
 
 #hypothesis-box(title: [Neutrophil Functional Exhaustion Hypothesis])[
-<hyp:neutrophil-exhaustion>
 
 Hoel et al.\ (2026) @Hoel2026proteome documented a paradox: ME/CFS patients have normal peripheral neutrophil counts but profoundly suppressed circulating neutrophil-derived proteins—hallmark granule components (BPI, PADI4, MMP9, ELANE, AZU1, LTF) are all significantly reduced. We propose that ME/CFS neutrophils exist in a state of *functional exhaustion*: they are present in normal numbers but hypoactivated, failing to degranulate or mount appropriate antimicrobial responses.
 
@@ -922,10 +912,9 @@ Functionally exhausted neutrophils would impair: (1) pathogen clearance, permitt
 If neutrophils are functionally exhausted rather than absent, therapeutic strategies might include: low-dose G-CSF to prime neutrophil activation (used cautiously given the inflammatory milieu), resolution-phase lipid mediators (resolvins, protectins) to reprogram rather than stimulate neutrophils, or addressing the upstream drivers of chronic activation (autoantibodies, persistent antigens) to allow neutrophil recovery.
 
 *Certainty: 0.40.* Strong proteomic evidence for suppressed neutrophil signature (Hoel 2026, n=50+29, validated platform), complemented by functional neutrophil studies (Kennedy 2004). However, the exhaustion mechanism is inferred, not directly demonstrated; alternative explanations (e.g., altered neutrophil lifespan, bone marrow output changes) have not been excluded.
-]
+] <hyp:neutrophil-exhaustion>
 
 #hypothesis-box(title: [Chronic Exerkine Signaling Hypothesis])[
-<hyp:chronic-exerkine>
 
 Exercise transiently elevates FGF-21, GDF-15, and other “exerkines” to coordinate systemic metabolic adaptation—mobilizing energy substrates, promoting insulin sensitivity, and initiating tissue repair. Hoel et al.\ (2026) @Hoel2026proteome found that these exerkines are chronically elevated in ME/CFS, even at rest, with FGF-21 validated in an extended cohort of 278 participants. We hypothesize that this chronic exerkine elevation represents a *metabolic emergency broadcast* that the body cannot resolve, creating a persistent state of metabolic mobilization without the exercise stimulus that would normally trigger substrate utilization and resolution.
 
@@ -946,10 +935,9 @@ Chronically elevated FGF-21 drives hepatic gluconeogenesis, lipolysis, and ketog
 Rather than targeting exerkines directly (they may be compensatory), treatment should address the upstream energy deficit: mitochondrial support (CoQ10, NAD#super[+] precursors), tissue oxygenation improvement (addressing endothelial dysfunction), or substrate utilization enhancement. FGF-21 could serve as a treatment response biomarker—declining levels would indicate metabolic recovery even before symptom improvement becomes apparent.
 
 *Certainty: 0.45.* FGF-21 elevation robustly validated (n=278, ELISA). The exerkine framework is well-established in exercise physiology. However, the “stuck cycle” mechanism is inferred from the chronic elevation pattern, and alternative explanations (hepatic stress, mitochondrial myopathy) contribute to uncertainty. Longitudinal studies tracking exerkines before and after treatment are needed.
-]
+] <hyp:chronic-exerkine>
 
 #speculation(title: [Secretome-Driven Vascular Autoimmune Loop])[
-<spec:secretome-autoimmune>
 
 Hoel et al.\ (2026) @Hoel2026proteome documented two seemingly contradictory patterns: (1) reduced intracellular protein release (especially from skeletal muscle and bone marrow) and (2) increased secreted protein release (coagulation factors, complement, chemokines, hormones). We speculate that this secretome shift—elevated extracellular proteins with altered post-translational modifications from the disease environment—may generate *neo-antigens* that drive autoimmune targeting of the vasculature.
 
@@ -966,10 +954,9 @@ No study has directly demonstrated neo-antigen formation in ME/CFS secreted prot
     - The autoimmune ME/CFS subset (daratumumab responders) should show the strongest secretome shift
 
 *Certainty: 0.25.* Speculative hypothesis connecting established findings (secretome shift, autoimmunity, vascular dysfunction) through an unproven mechanism. Requires dedicated proteomic studies of post-translational modifications in ME/CFS secreted proteins.
-]
+] <spec:secretome-autoimmune>
 
 #speculation(title: [Bone Marrow Stress and Immune Lineage Reprogramming])[
-<spec:bone-marrow-reprogramming>
 
 The Hoel et al.\ (2026) tissue panel analysis @Hoel2026proteome revealed that bone marrow showed the most dramatic protein reductions of any tissue type (25.4% overall net downregulation), with widespread decreases in both intracellular and secreted proteins. Simultaneously, the immune cell analysis showed a shift from innate (neutrophil/granulocyte suppression) toward adaptive predominance (elevated NK and T cell markers). We speculate that ME/CFS involves a *bone marrow stress state* that reprograms hematopoietic stem cell lineage commitment—favoring lymphoid over myeloid differentiation—resulting in the observed immune imbalance.
 
@@ -983,7 +970,7 @@ Chronic inflammatory signaling (especially IFN-$gamma$ and TNF-$alpha$, both ele
     - The bone marrow protein signature should improve with effective immunomodulatory treatment
 
 *Certainty: 0.20.* Highly speculative—bone marrow has not been directly studied in ME/CFS. The tissue panel analysis is indirect (circulating proteins annotated to bone marrow origin). However, the pattern is striking and consistent with known inflammatory reprogramming of hematopoiesis.
-]
+] <spec:bone-marrow-reprogramming>
 
 == Hypothesis-Specific Treatment Implications
 <sec:treatment-implications>
@@ -1058,7 +1045,6 @@ Table @tab:treatment-by-hypothesis maps selected hypotheses to their logical tr
 )
 
 #warning-box(title: [The Accessibility Crisis in ME/CFS Treatment])[
-<warn:accessibility-gap>
 The most promising emerging treatments are essentially inaccessible to most patients:
 
 *High-Barrier Treatments:*
@@ -1076,7 +1062,7 @@ This creates a cruel disparity: the sickest patients, often bedbound and unable 
 
 *Implications:*
 Research must prioritize: (1) biomarkers predicting treatment response to guide patient selection, (2) developing accessible formulations of effective therapies, and (3) understanding mechanisms to create next-generation treatments that don't require specialized delivery.
-]
+] <warn:accessibility-gap>
 
 == Relationships to Other Conditions
 <sec:related-conditions>
@@ -1221,7 +1207,6 @@ caption: [Cycle Stage Comparison: Long COVID vs.\ Established ME/CFS (Hypothesiz
 
 
 #keypoint(title: [Three-Field Convergence Against the Deconditioning Narrative])[
-<key:deconditioning-convergence>
 By 2026, the deconditioning hypothesis for ME/CFS exercise intolerance has been independently refuted from three distinct fields, each applying its own methods and standards of evidence:
 
     - *Exercise physiology:* Charlton et al.\ (2026), writing in the _British Journal of Sports Medicine_—a mainstream sports medicine journal—argued that post-exertional malaise cannot be explained by cardiac deconditioning and called for rethinking the pathophysiology of exercise intolerance in post-viral illness @Charlton2026pem. This marks the exercise science community challenging its own prior paradigm.
@@ -1231,7 +1216,7 @@ By 2026, the deconditioning hypothesis for ME/CFS exercise intolerance has been 
     - *Comparative virology:* The Kol et al.\ (2026) demonstration that coronavirus persists in lymphocytes after antiviral treatment and clinical recovery @Kol2026fipv provides mechanistic plausibility against the deconditioning narrative: if post-viral symptoms are maintained by a viral reservoir in immune cells, exercise cannot address the underlying pathology. Note that this is a feline coronavirus model; cross-species extrapolation to human ME/CFS requires caution.
 
 This convergence from independent fields—each applying different methodologies and answering to different epistemic communities—constitutes stronger evidence than any single line of inquiry alone. The deconditioning narrative persists in some clinical settings despite this convergence, raising questions about knowledge translation and the sociology of medical belief change (see Section @sec:deconditioning-hypothesis).
-]
+] <key:deconditioning-convergence>
 
 *Prevention Opportunity.*
 
@@ -1288,11 +1273,10 @@ ME/CFS complexity—multi-system involvement, heterogeneous presentations, treat
 === Multi-Omics Integration
 
 #achievement(title: [Systems-Level Biomarker Panel Outperforms Single Markers])[
-<ach:systems-biomarkers>
 The Heng 2025 study @heng2025mecfs exemplifies a systems approach: integrating cellular ATP profiling (measuring AMP/ADP), plasma proteomics (2,924 proteins), and clinical data from 61 ME/CFS patients matched with 61 healthy controls revealed coordinated abnormalities across energy metabolism, immune function, and vascular biology.
 
 A CART-derived 7-biomarker panel achieved 91% diagnostic accuracy, spanning adenosine metabolism (AMP), immune functions (cDC1, LYVE1, IGHG2), and vascular factors (FN1, VWF, THBS1). This accuracy far exceeds what any single biomarker could accomplish—individual markers show substantial overlap with controls, but their _combination_ reveals disease-specific patterns. For full biomarker details and energy metabolism implications, see Achievement @ach:heng-multiomics in Chapter @ch:energy-metabolism.
-]
+] <ach:systems-biomarkers>
 
 #warning-box(title: [Replication Status])[
 Single study (Heng 2025, n=61 pairs) from one Australian center. No independent cohort has replicated the multi-omics biomarker panel or its diagnostic accuracy. See the detailed replication assessment in Chapter @ch:energy-metabolism (Achievement @ach:heng-multiomics).

@@ -47,7 +47,6 @@ This is the first study to systematically test the selectivity pattern using an 
 === Hypothesis
 
 #hypothesis-box(title: [Selective Energy Dysfunction in ME/CFS])[
-<hyp:selective-energy-dysfunction>
 ME/CFS involves selective impairment of CNS-dependent and demand-responsive processes while autonomous peripheral processes remain preserved. Specifically:
 
     - Hair/nail growth will be normal in ME/CFS patients, demonstrating preserved autonomous peripheral metabolism
@@ -57,7 +56,7 @@ ME/CFS involves selective impairment of CNS-dependent and demand-responsive proc
     - Cerebral blood flow will decline during orthostatic challenge in 90%+ of patients
 
 These differences will persist after controlling for systemic inflammatory markers and metabolic parameters, indicating CNS-specific dysfunction rather than global energy failure.
-]
+] <hyp:selective-energy-dysfunction>
 
 === Study Design Overview
 
@@ -77,29 +76,24 @@ Three years total: Year 1 (setup, IRB approval, pilot phase with n=10), Years 2�
 === Five Core Aims
 
 #achievement(title: [Aim 1: Peripheral Autonomy Preservation])[
-<ach:sed-aim1>
 Test whether autonomous peripheral processes (hair/nail growth) are preserved in ME/CFS patients compared to controls. Hair and nail growth measurements will serve as novel, objective biomarkers of preserved basal metabolic function, distinguishing ME/CFS from global mitochondrial disease.
-]
+] <ach:sed-aim1>
 
 #achievement(title: [Aim 2: Brain Hypometabolism and CNS Symptoms])[
-<ach:sed-aim2>
 Use FDG-PET imaging to quantify whole-brain and regional glucose metabolism in ME/CFS patients and assess correlations with cognitive dysfunction, orthostatic intolerance, and fatigue severity. Brain hypometabolism in prefrontal and brainstem regions would support CNS energy limitation as primary mechanism.
-]
+] <ach:sed-aim2>
 
 #achievement(title: [Aim 3: Demand-Response Failure Despite Preserved Muscle Energy])[
-<ach:sed-aim3>
 Conduct two-day standardized cardiopulmonary exercise testing (2-day CPET) with skeletal muscle biopsies. Measure exercise intolerance (functional decline from Day 1 to Day 2) and parallel muscle ATP levels, creatine phosphate, and mitochondrial respiratory capacity. Hypothesis predicts functional decline with normal resting muscle energy stores.
-]
+] <ach:sed-aim3>
 
 #achievement(title: [Aim 4: CNS Control Failure—Electrical Stimulation Bypass])[
-<ach:sed-aim4>
 Apply electrical stimulation to quadriceps muscle during exercise testing and compare maximal force output to voluntary contraction efforts. Greater force with electrical stimulation (bypassing CNS control) would demonstrate that exercise intolerance is CNS-mediated rather than peripheral muscle limitation.
-]
+] <ach:sed-aim4>
 
 #achievement(title: [Aim 5: Autonomic Demand-Response Failure])[
-<ach:sed-aim5>
 Perform tilt table testing with continuous cerebral blood flow monitoring via transcranial Doppler ultrasound. Hypothesis predicts inadequate cerebral autoregulation during orthostatic challenge, explaining orthostatic intolerance and cognitive dysfunction during positional stress.
-]
+] <ach:sed-aim5>
 
 === Key Study Measures
 
@@ -343,7 +337,6 @@ This study would provide the first comprehensive cross-sectional comparison of b
 === Hypotheses
 
 #hypothesis-box(title: [Biological Plasticity Differential])[
-<hyp:plasticity-differential>
 Pediatric ME/CFS patients will demonstrate preserved biological plasticity compared to adult patients, manifest as:
 
     - Lower epigenetic age acceleration (more youthful methylation patterns relative to chronological age)
@@ -354,7 +347,7 @@ Pediatric ME/CFS patients will demonstrate preserved biological plasticity compa
     - More diverse hematopoietic stem cell clonality
 
 These differences will persist after controlling for disease duration and severity, indicating that age-related biology—not disease stage—underlies the recovery differential.
-]
+] <hyp:plasticity-differential>
 
 === Study Design
 
@@ -557,9 +550,8 @@ Several lines of evidence support this window concept. Recovery rates decline wi
 Current ME/CFS management is largely reactive rather than proactive. Patients often experience diagnostic delays of months to years, during which they may worsen through inappropriate activity recommendations. Even after diagnosis, treatment is typically incremental—addressing symptoms one at a time, with conservative dosing and slow titration. While this approach minimizes adverse effects, it may forfeit the window of opportunity when biological plasticity is maximal.
 
 #hypothesis-box(title: [Front-Loading Treatment])[
-<hyp:front-loading>
 Aggressive, comprehensive intervention initiated within 12 months of ME/CFS symptom onset can prevent the establishment of permanent pathological states and significantly increase recovery rates compared to standard incremental care. The earlier and more comprehensive the intervention, the greater the recovery probability.
-]
+] <hyp:front-loading>
 
 === Study Objectives
 
@@ -1189,9 +1181,8 @@ If no benefit or harm observed:
 Progressive post-exertional malaise (PEM) worsening suggests cumulative biological damage, particularly in the central nervous system. Microglial activation, a hallmark of neuroinflammation, may represent a measurable correlate of PEM progression. TSPO (translocator protein) positron emission tomography (PET) imaging provides a non-invasive method to quantify microglial activation in vivo. This study would establish TSPO-PET as a biomarker for neuroinflammation severity and its relationship to PEM trajectories.
 
 #hypothesis-box(title: [Microglial Activation and PEM Progression])[
-<hyp:microglial-activation-pem>
 Increasing TSPO-PET signal intensity correlates with PEM recovery time and functional decline. Patients with progressive PEM show significantly higher TSPO-PET signal than stable PEM patients. Low-dose naltrexone (LDN) treatment reduces TSPO-PET signal and slows PEM worsening @Crosby2021LDA.
-]
+] <hyp:microglial-activation-pem>
 
 === Study Design
 
@@ -1305,9 +1296,8 @@ ME/CFS pathophysiology involves multiple interconnected systems: central neuroin
 The “Brain First” hypothesis posits that LDN-induced suppression of central microglial activation creates a permissive environment for recovery of peripheral immune function and metabolic adaptation, whereas beginning with peripheral interventions (mast cell stabilization or metabolic support) may not address the root neuroinflammatory driver.
 
 #hypothesis-box(title: [Treatment Sequencing and Hierarchical Recovery])[
-<hyp:brain-first-sequencing>
 Patients randomized to a “Brain First” sequence (LDA/LDN→Mestinon→peripheral support) show superior 6-month outcomes and faster cognitive improvement compared to “Mast Cell First” (mast cell stabilization first) or “Metabolic First” (metabolic supplementation first) sequences, due to removal of the neuroinflammatory barrier to recovery @Crosby2021LDA.
-]
+] <hyp:brain-first-sequencing>
 
 === Study Design
 
@@ -1422,9 +1412,8 @@ If all arms show similar outcomes:
 Clinical experience suggests that infections trigger PEM and may cause persistent functional decline in ME/CFS patients. However, the quantitative relationship between infection frequency and cumulative baseline functional decline has not been formally characterized. This prospective cohort study would establish whether infections produce irreversible baseline declines and whether early antiviral intervention can mitigate these effects.
 
 #hypothesis-box(title: [Infection-Induced Irreversible Decline])[
-<hyp:infection-induced-decline>
 Each documented infection in ME/CFS patients produces quantifiable, irreversible baseline functional decline. Early antiviral intervention ($<$24 hours from symptom onset) significantly reduces the magnitude of post-infectious decline compared to delayed treatment. Strict infection prevention protocols slow baseline functional decline compared to standard hygiene practices @NIH2024MECFSRoadmap.
-]
+] <hyp:infection-induced-decline>
 
 === Study Design
 
@@ -1552,9 +1541,8 @@ The glymphatic system—the brain's waste clearance mechanism that is maximally 
 This study tests whether interventions targeting sleep disorders in ME/CFS patients with documented sleep pathology produce measurable reductions in neuroinflammation and slowing of PEM progression.
 
 #hypothesis-box(title: [Sleep as Glymphatic-Neuroinflammation Linchpin])[
-<hyp:sleep-glymphatic-pem>
 Treating sleep disorders in ME/CFS patients reduces the rate of PEM threshold decline through improved glymphatic clearance and reduced neuroinflammatory burden. Patients with newly treated sleep apnea or sleep disorders will show slower neuroinflammatory marker increase and slower functional decline over 12 months compared to matched untreated controls @Nakatomi2014neuroinflammation.
-]
+] <hyp:sleep-glymphatic-pem>
 
 === Study Design
 
@@ -1687,9 +1675,8 @@ Low-dose naltrexone (LDN) shows promise in ME/CFS but not all patients respond, 
 This mixed-methods study examines the metabolic-immune crosstalk in ME/CFS and tests whether metabolic intervention improves or sustains LDN efficacy.
 
 #hypothesis-box(title: [Metabolic-Immune Crosstalk in LDN Response])[
-<hyp:metabolic-immune-ldn>
 LDA-induced metabolic changes (glucose intolerance, insulin resistance) amplify neuroinflammation and create a therapeutic ceiling that limits cognitive benefit over time. Concurrent metformin administration in patients developing prediabetes will preserve LDN efficacy and enhance cognitive outcomes compared to LDN monotherapy. HbA1c improvements correlate with neuroinflammatory marker reduction @MCMC2024Neurometabolic.
-]
+] <hyp:metabolic-immune-ldn>
 
 === Study Design
 

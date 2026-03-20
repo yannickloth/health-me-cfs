@@ -36,9 +36,8 @@ The 2024 NIH study by Walitt et al.\ employed functional MRI during motor tasks 
 *Temporal-Parietal Junction Dysfunction*
 
 #achievement(title: [Temporal-Parietal Junction Dysfunction and Effort Miscalculation])[
-<ach:tpj-dysfunction>
 Walitt et al. @walitt2024deep identified abnormally reduced activity in the temporal-parietal junction (TPJ) during effort-based decision-making tasks in PI-ME/CFS patients. The TPJ is a heteromodal association cortex that integrates information from multiple sensory modalities and plays essential roles in agency and intention attribution, effort allocation decisions, attentional reorienting, social cognition, and bodily self-consciousness. This dysfunction provides a neuroanatomical substrate for the characteristic mismatch between perceived capability and actual performance that defines ME/CFS, suggesting the brain genuinely perceives effort requirements inaccurately rather than exhibiting malingering or simple deconditioning.
-]
+] <ach:tpj-dysfunction>
 
 #warning-box(title: [Replication Status])[
 Single study (Walitt 2024, n=17 PI-ME/CFS vs.\ 21 controls). This finding derives from the NIH deep phenotyping study—the first to examine TPJ function in ME/CFS. The small sample size limits generalizability. Independent replication in a larger cohort and across ME/CFS subtypes is required before TPJ dysfunction can be considered an established feature.
@@ -59,9 +58,8 @@ Perhaps the most conceptually important finding from the NIH study was the ident
 This reconceptualization has profound implications for understanding ME/CFS. First, the brain genuinely perceives effort requirements inaccurately, leading to appropriate behavioral responses to faulty signals; this rules out malingering or simple deconditioning. Second, the TPJ normally synthesizes multiple information streams—interoceptive, proprioceptive, and motivational—to generate effort estimates, but this integration fails in ME/CFS. Third, the brain may be responding to genuine danger signals such as inflammation or metabolic dysfunction while miscalibrating the protective response. Finally, interventions targeting effort perception and decision-making networks may prove more effective than those addressing peripheral fatigue.
 
 #hypothesis-box(title: [Maladaptive Sickness Behavior Program])[
-<hyp:maladaptive-sickness-behavior>
 *Certainty: 0.50.* ME/CFS symptoms may represent an evolutionarily conserved “sickness behavior” program—normally protective during acute infection—that becomes chronically activated due to persistent immune signaling. The TPJ, which normally integrates inflammatory signals with effort allocation decisions, may misinterpret chronic low-grade inflammation as ongoing acute illness, inappropriately suppressing activity to “conserve resources” for an immune battle that has already concluded (or that persists at subclinical levels). This would explain why the fatigue feels so viscerally “real” and protective to patients: the brain is executing a legitimate survival program, but one triggered by faulty or persistent signals rather than current metabolic necessity.
-]
+] <hyp:maladaptive-sickness-behavior>
 
 *Risk-Based Decision-Making Impairment*
 During behavioral tasks requiring risk assessment and effort allocation, ME/CFS patients demonstrated reduced selection of “hard” task options even when rewards were equivalent, difficulty sustaining effort on extended tasks, and altered subjective perception of task difficulty @walitt2024deep. Notably, motivation levels remained normal despite reduced effort output.
@@ -100,9 +98,8 @@ The CSF catecholamine data (reduced HVA, DHPG, epinephrine) derive entirely from
 The convergence of regional hypometabolism (PET), hypoperfusion (SPECT), neuroinflammation, and catecholamine deficiency raises a fundamental question: is brain dysfunction in ME/CFS _secondary_ to systemic illness, or could it be _primary_—the bottleneck limiting whole-body function?
 
 #speculation(title: [CNS Energy Crisis as Primary Dysfunction])[
-<spec:cns-primary>
 *Certainty: 0.40.* The near-universal presence of cognitive dysfunction, documented brain hypometabolism @Chaudhuri2004fatigue, and neuroinflammation with 45–199% elevation in key regions @Nakatomi2014neuroinflammation suggest CNS energy crisis may be the primary pathophysiological event. Failure of the brain to coordinate peripheral demand-responsive processes could explain the selective pattern of dysfunction observed in ME/CFS, where autonomous processes (hair growth, nail growth, baseline cellular metabolism) remain intact while CNS-coordinated responses (exercise capacity, orthostatic tolerance, immune adaptation) are severely impaired.
-]
+] <spec:cns-primary>
 
 ==== Evidence for Brain-Centric Model
 
@@ -133,9 +130,8 @@ If the brain cannot maintain adequate energy for autonomic coordination, periphe
 Van Campen and colleagues have systematically documented cerebral blood flow (CBF) abnormalities during orthostatic stress that support the brain-centric model @VanCampenEtAl2020 @VanCampenEtAl2021 @VanCampenEtAl2023 @VanCampenEtAl2024:
 
 #achievement(title: [Near-Universal CBF Decline During Orthostatic Challenge])[
-<ach:cbf-universal>
 In a series of studies using transcranial Doppler during tilt-table testing, van Campen et al.\ demonstrated that *91% of ME/CFS patients* (488/534) with normal heart rate and blood pressure responses show abnormal cerebral blood flow and cardiac output reduction during orthostatic challenge @VanCampenEtAl2024. The magnitude of CBF decline is approximately *3.7-fold greater* than healthy controls (26% vs.\ 7% reduction at end-tilt) @VanCampenEtAl2020. Furthermore, CBF remains reduced even after returning to supine position, with recovery correlating to disease severity rather than hemodynamic parameters @VanCampenEtAl2021. For detailed breakdown by orthostatic phenotype, see Achievement @ach:cbf-decline in Chapter @ch:cardiovascular.
-]
+] <ach:cbf-universal>
 
 #warning-box(title: [Replication Status: Single Research Group])[
 All CBF findings derive from a sequential publication series by van Campen and colleagues at a single Dutch referral center (4 papers, 2020–2024). While the large cumulative sample (n=534) and consistent methodology strengthen internal validity, no independent research group has replicated these transcranial Doppler findings during tilt-table testing. The appearance of replication across multiple publications reflects one group's expanding cohort, not independent confirmation. Independent replication at other centers with different equipment and patient populations is essential.
@@ -159,11 +155,10 @@ The NIH deep phenotyping study provided the first direct evidence linking cerebr
 *Reduced CSF Catecholamines*
 
 #achievement(title: [Central Catecholamine Deficiency in ME/CFS])[
-<ach:catecholamine-deficit>
 The 2024 NIH deep phenotyping study provided the first direct evidence from cerebrospinal fluid analysis linking central catecholamine abnormalities to ME/CFS symptoms @walitt2024deep. Lumbar puncture analysis revealed significantly reduced concentrations of catecholamines and their metabolites in ME/CFS patients compared to healthy controls, including lower levels of homovanillic acid (HVA, the primary dopamine metabolite), reduced DHPG (3,4-dihydroxyphenylglycol, indicating decreased central noradrenergic activity), and decreased epinephrine levels.
 
 The DHPG finding is particularly significant because it is the primary intraneuronal metabolite of norepinephrine produced within noradrenergic neurons. Low CSF DHPG specifically indicates reduced norepinephrine turnover in the central nervous system, pointing to hypofunction of the locus coeruleus and other noradrenergic nuclei.
-]
+] <ach:catecholamine-deficit>
 
 #warning-box(title: [Replication Status])[
 Single study (Walitt 2024). This represents the first-ever direct CSF catecholamine measurement in ME/CFS. No prior or subsequent study has performed lumbar puncture with catecholamine analysis in an ME/CFS cohort. The invasiveness of CSF collection limits feasibility of large-scale replication. Independent confirmation is essential, particularly given the small sample size of the NIH cohort.
@@ -211,7 +206,6 @@ Diversion of tryptophan into the kynurenine pathway reduces availability for ser
 Emerging research by Wirth and Scheibenbogen (2025) @WirthScheibenbogen2025Neurotransmitter provides a mechanistic framework linking gut dysbiosis to central serotonergic dysfunction through the enterochromaffin-vagal pathway. This pathway offers a novel perspective on serotonin regulation in ME/CFS:
 
 #hypothesis-box(title: [Enterochromaffin-Vagal Serotonin Pathway in ME/CFS])[
-<hyp:enterochromaffin-vagal>
 *Certainty: 0.40.* The enterochromaffin-vagal pathway may represent a critical gut-brain communication axis disrupted in ME/CFS. Enterochromaffin cells in the gut epithelium synthesize and release serotonin in response to mechanical stimulation and short-chain fatty acids (particularly butyrate). This serotonin activates 5-HT3 receptors on vagal afferent neurons, providing tonic input to the brainstem. In ME/CFS, gut dysbiosis and reduced butyrate production may impair enterochromaffin serotonin synthesis, leading to reduced vagal afferent signaling and downstream autonomic dysfunction.
 
 *Supporting evidence:*
@@ -235,7 +229,7 @@ Emerging research by Wirth and Scheibenbogen (2025) @WirthScheibenbogen2025Neur
     - Causality not established (could be reverse: vagal dysfunction → dysbiosis)
     - Peripheral vs. central serotonin are distinct pools with different functions
 
-]
+] <hyp:enterochromaffin-vagal>
 
 ==== Serotonergic Dysfunction
 
@@ -250,9 +244,8 @@ Dopamine abnormalities extend beyond the CSF catecholamine findings to include m
 The locus coeruleus (LC), the primary source of brain norepinephrine, plays critical roles in arousal and sleep-wake regulation, attention and cognitive flexibility, stress responses, and autonomic nervous system modulation.
 
 #hypothesis-box(title: [Locus Coeruleus Dysfunction in ME/CFS])[
-<hyp:lc-dysfunction>
 *Certainty: 0.35.* LC dysfunction may explain the constellation of arousal, attention, and autonomic abnormalities in ME/CFS. The CSF catecholamine abnormalities documented in ME/CFS—including reduced DOPA, DOPAC, and DHPG—are consistent with impaired norepinephrine synthesis or turnover originating in LC neurons @walitt2024deep. Candidate mechanisms include: neuroinflammation affecting LC neurons; autoantibodies targeting adrenergic receptors @Loebel2016; metabolic stress impairing catecholamine synthesis; and chronic stress-induced LC dysregulation. No study has directly measured LC structure or function in ME/CFS; this hypothesis is extrapolated from CSF biomarker data and autoimmune findings.
-]
+] <hyp:lc-dysfunction>
 
 ==== GABAergic and Glutamatergic Imbalance
 
@@ -278,7 +271,6 @@ Sleep spindle generation itself is metabolically demanding. Thalamic reticular n
 Similarly, REM sleep requires brainstem activation (particularly cholinergic nuclei), thalamic relay, cortical activation approaching waking levels, and simultaneous motor inhibition via brainstem circuits. The transitions between sleep stages—requiring coordinated deactivation of one set of circuits and activation of another—may be particularly energy-intensive.
 
 #hypothesis-box(title: [Sleep Architecture Failure Hypothesis])[
-<hyp:sleep-architecture-failure>
 *Certainty: 0.50.*
 
 In ME/CFS, CNS energy deficits and metabolic dysfunction prevent the sustained inter-regional coordination required for normal sleep architecture, resulting in fragmented sleep microstructure despite adequate total sleep time.
@@ -317,7 +309,7 @@ If sleep architecture failure reflects energy-limited coordination, intervention
 
 *Limitations.*
 This hypothesis has moderate certainty (0.50). No published studies have quantified spindle density or power in ME/CFS with simultaneous metabolic measures. Coherence data exists for waking but not sleep EEG. Alternative explanations include primary brainstem pathology, autonomic dysfunction, or circadian disruption rather than energy limitation. Causality direction remains unclear: does poor metabolism fragment sleep, or does fragmented sleep worsen metabolism?
-]
+] <hyp:sleep-architecture-failure>
 
 === Glial Cell Dysfunction
 <sec:glial>
@@ -345,7 +337,6 @@ Study: (case-control, $n=96$, Scientific Reports 2026, certainty: 0.55).
 Chronic microglial activation, when present, can produce sustained release of pro-inflammatory cytokines (IL-1$beta$, TNF-$alpha$, IL-6), oxidative stress through reactive oxygen species production, glutamate release contributing to excitotoxicity, disruption of synaptic pruning and plasticity, and blood-brain barrier dysfunction.
 
 #hypothesis-box(title: [Glial Maturation Window and Pediatric Recovery])[
-<hyp:glial-maturation-window>
 
 *Certainty: 0.45.* Adolescent ME/CFS patients may benefit from a developmental window during which active microglial remodeling can reset pathological activation states—a mechanism unavailable to adult patients whose glial maturation is complete. The certainty level reflects: (1) the Nakatomi et al.\ 2014 PET findings documenting microglial activation have not been consistently replicated; (2) the proposed mechanism extrapolates from developmental neuroscience to ME/CFS pathophysiology; (3) testable predictions can directly address these uncertainties through age-stratified neuroimaging studies.
 
@@ -429,7 +420,7 @@ To test this hypothesis rigorously:
 
 This hypothesis provides a mechanistic framework for understanding one component of the pediatric recovery advantage while suggesting potential therapeutic strategies for adult patients.
 
-]
+] <hyp:glial-maturation-window>
 
 ==== Astrocyte Abnormalities and the Astrocyte Energy Gate
 <sec:astrocyte-energy-gate>
@@ -458,7 +449,6 @@ The classical ANLS model has been refined by recent evidence demonstrating that 
 However, this flexibility has limits. During high-frequency neural activity—precisely the conditions of cognitive exertion—direct neuronal glucose oxidation may prove insufficient, and astrocyte-derived lactate becomes the critical marginal fuel source. This distinction between _basal_ sufficiency and _demand-responsive_ insufficiency is central to the hypothesis that follows.
 
 #speculation(title: [Astrocyte Energy Gate])[
-<spec:astrocyte-energy-gate>
 *Certainty: 0.35.* We hypothesize that dysfunction in the astrocyte-neuron lactate shuttle creates a *metabolic bottleneck*—an “energy gate”—that produces CNS-specific energy failure in ME/CFS while peripheral tissues with direct glucose access remain unaffected.
 
 *Three Candidate Mechanisms*
@@ -484,7 +474,7 @@ This mechanism connects directly to the selective energy dysfunction hypothesis 
 *Certainty Assessment*
 
 This speculation integrates well-established neuroscience (ANLS physiology: high certainty) with speculative application to ME/CFS (low-to-moderate certainty). No study has directly measured ANLS flux, MCT expression, or astrocyte-specific glycolytic rates in ME/CFS patients. The hypothesis is graded at *certainty 0.35*: mechanistically plausible, consistent with indirect evidence, but requiring direct experimental validation.
-]
+] <spec:astrocyte-energy-gate>
 
 *Supporting Evidence: Brain Lactate Elevation*
 
@@ -571,16 +561,14 @@ For the relationship between the astrocyte energy gate and the broader selective
 Oligodendrocytes produce the myelin sheaths essential for rapid nerve conduction. Potential abnormalities include demyelination contributing to white matter hyperintensities, impaired remyelination capacity, oxidative damage to oligodendrocytes, and disrupted axon-glial signaling.
 
 #open-question(title: [Oligodendrocyte Contribution to White Matter Changes])[
-<q:oligodendrocyte>
 Do the white matter changes observed on MRI in ME/CFS patients reflect oligodendrocyte dysfunction? No studies have directly examined oligodendrocyte pathology in ME/CFS, and the mechanisms linking white matter hyperintensities to oligodendrocyte function remain to be elucidated.
-]
+] <q:oligodendrocyte>
 
 ==== Post-Viral CNS Reprogramming
 
 The preceding sections document microglial activation, astrocyte dysfunction, and neuroinflammatory cascades in ME/CFS. A critical question is why these states persist long after the triggering infection resolves. Emerging evidence from trained immunity research suggests that a single viral infection can permanently alter glial cell function through epigenetic mechanisms.
 
 #speculation(title: [Post-Viral CNS Reprogramming Hypothesis])[
-<spec:post-viral-cns-reprogramming>
 *Certainty: 0.40.*
 
 Viral infection causes persistent epigenetic reprogramming of astrocytes and microglia, creating a lasting shift in CNS metabolism that persists long after viral clearance. This mechanism—analogous to “trained immunity” in peripheral innate immune cells—may explain why ME/CFS becomes chronic following acute infection.
@@ -612,14 +600,13 @@ If post-viral CNS reprogramming drives chronic ME/CFS, therapeutic strategies sh
 
 *Limitations.*
 This hypothesis has certainty 0.40. No study has directly measured trained immunity epigenetic marks in ME/CFS patient microglia. The evidence is synthesized from trained immunity research in neurodegenerative diseases @Wendeln2018InnateImmuneMemoryBrain @Zhang2025TrainedImmunityNeurological, viral glial reprogramming @Rodrigues2025ViralReprogrammingGlialMetabolism, and ME/CFS epigenetic profiling @Apostolou2024EpigeneticReprogrammingMECFS. The mechanism may not explain gradual-onset ME/CFS without clear viral trigger. Individual variation in epigenetic susceptibility and viral tropism could produce heterogeneous responses.
-]
+] <spec:post-viral-cns-reprogramming>
 
 === Integrated Neuroinflammatory Cascade Model
 
 The diverse neurological abnormalities documented in ME/CFS—neurotransmitter depletion, microglial activation, autonomic dysregulation—may not be independent pathologies but rather interconnected components of a unified cascade originating from the central nervous system.
 
 #hypothesis-box(title: [Neuroinflammatory Cascade: From CNS to Peripheral Symptoms])[
-<hyp:cascade-neuroinflammatory>
 *Certainty: 0.50.* We propose an integrated cascade model in which neuroinflammatory dysfunction serves as an upstream driver of both central and peripheral ME/CFS pathology @MCMC2024Neurometabolic @NIH2024MECFSRoadmap:
 
 *Cascade pathway*
@@ -656,7 +643,7 @@ This cascade model positions _central neurological dysfunction as upstream of pe
 
     - *Breaking the positive feedback loop is critical:* Preventing forced inactivity through appropriate pacing prevents the metabolic dysfunction that amplifies neuroinflammation. This aligns with clinical observations that strict pacing produces better long-term outcomes than progressive exercise approaches.
 
-]
+] <hyp:cascade-neuroinflammatory>
 
 #limitation(title: [Kindling Analogy: Neurological Extrapolation Without ME/CFS Data])[
 The PEM kindling hypothesis (below) applies a concept from epilepsy and substance abuse neuroscience to ME/CFS by analogy. No study has measured progressive microglial priming, cumulative threshold reduction, or kindling-like neural sensitisation in ME/CFS patients. The quantitative model parameters ($alpha = 1.5$, exponential decay) are illustrative, not empirically derived, and the model has not been fitted to patient data. Alternative explanations for progressive worsening—deconditioning, psychological avoidance learning, cumulative tissue damage—have not been excluded.
@@ -667,7 +654,6 @@ The PEM kindling hypothesis (below) applies a concept from epilepsy and substanc
 The clinical observation that each crash lowers the threshold for the next crash—that activities previously tolerated trigger worse symptoms as disease progresses—parallels a phenomenon well-established in neurology: kindling.
 
 #hypothesis-box(title: [Post-Exertional Malaise Kindling and Progressive Sensitization])[
-<hyp:pem-kindling-sensitization>
 *Certainty: 0.45.* We propose that PEM represents a form of neurobiological kindling in which repeated neuroinflammatory activation progressively lowers the threshold for triggering symptom exacerbations @Nakatomi2014neuroinflammation @MCMC2024Neurometabolic @NIH2024MECFSRoadmap.
 
 *Kindling mechanism*
@@ -733,7 +719,7 @@ The kindling hypothesis makes specific predictions that can be empirically refut
 
     - *Lack of threshold reduction with infection-equivalent priming:* If experimental immune activation (e.g., viral challenge or endotoxin administration) that triggers robust microglial and systemic inflammatory responses does not produce measurable threshold lowering in animal models of ME/CFS-like disease, the kindling mechanism would be questionable.
 
-]
+] <hyp:pem-kindling-sensitization>
 
 == Autonomic Nervous System Dysfunction
 <sec:ans-pathophysiology>
@@ -1003,17 +989,15 @@ Beyond passive permeability, active transport systems at the BBB may be dysfunct
     - *Receptor-mediated transcytosis*: Impaired transport of essential molecules
 
 #hypothesis-box(title: [Autoantibodies Causally Drive Neurological Dysfunction in Long COVID])[
-<hyp:guedesde-sa2024-autoab-neuro>
 Guedes de S\'a et al. @GuedesDeSa2024 identified diverse autoantibodies against nervous system targets in Long COVID patients with neurological symptoms, using proteome-wide arrays covering $>$21000 human proteins. Critically, passive transfer of purified patient IgG to mice reproduced the donors' neurological phenotypes—including pain hypersensitivity, balance loss, and disorientation—establishing causal sufficiency. Autoantibodies targeted pontine tissue, meninges, spinal cord, and sciatic nerve; meningeal reactivity correlated with headache and sciatic reactivity with disorientation. If this mechanism extends to post-viral ME/CFS with prominent neurological symptoms, it would identify a distinct autoimmune endotype where autoantibody removal (plasmapheresis, IVIG, rituximab) would be the mechanistically appropriate intervention.
 
 *Testable prediction:* ME/CFS patients with prominent neurological features should show higher titres of anti-pons and anti-meningeal autoantibodies than those with predominantly fatigue-dominant presentation.
 
 *Treatment implication:* Plasmapheresis, IVIG, or B-cell depletion (rituximab) should be evaluated in ME/CFS patients with documented anti-nervous system autoantibodies.
 Study: (preprint, passive transfer demonstrated, certainty: 0.60, not yet independently replicated).
-]
+] <hyp:guedesde-sa2024-autoab-neuro>
 
 #hypothesis-box(title: [Spike Protein Primes Brain Innate Immunity, Lowering the Neuroinflammatory Threshold])[
-<hyp:frank2024-s1-priming>
 Frank et al. @Frank2024S1Priming demonstrated that prior S1 spike subunit
 exposure sensitises brain innate immunity in rats, producing protracted potentiation
 of neuroinflammatory responses—MhcII$alpha$, Nlrp3, and Tlr4 upregulation
@@ -1034,7 +1018,7 @@ residual S1 antigen burden.
 TLR4 antagonists or anti-neuroinflammatory agents) could lower the neuroinflammatory
 threshold before the next immune challenge.
 Study: (rat model, Brain Behavior Immunity 2024, certainty: 0.55; human translation pending).
-]
+] <hyp:frank2024-s1-priming>
 
 Direct measurement of neuroinflammatory activity in ME/CFS and Long COVID via dual PET-MRI is currently underway, with preliminary pilot data from existing PET studies suggesting elevated microglial activation in multiple brain regions @Nakatomi2014neuroinflammation, and ongoing work aiming to establish the causal relationship between glial activation and objective cognitive impairment @VanElzakker2024NeuroinflammationProject.
 
@@ -1044,7 +1028,6 @@ Direct measurement of neuroinflammatory activity in ME/CFS and Long COVID via du
 While the preceding subsections address BBB permeability and transport dysfunction from the perspective of what enters or exits the CNS, the BBB may create _unique vulnerability_ for CNS tissues in ME/CFS through mechanisms that paradoxically stem from the barrier's protective function.
 
 #speculation(title: [Blood-Brain Barrier Vulnerability Hypothesis])[
-<spec:bbb-vulnerability>
 *Certainty: 0.35.*
 
 The blood-brain barrier creates CNS-specific vulnerability in ME/CFS through three converging mechanisms: (1) trapping damage signals that trigger persistent neuroinflammation, (2) limiting access to mitochondrial cofactors needed for repair, and (3) preventing the rapid mitochondrial turnover possible in peripheral dividing cells.
@@ -1074,7 +1057,7 @@ If this hypothesis is correct, therapeutic strategies should prioritize: (1) BB
 
 *Limitations.*
 This hypothesis has certainty 0.35. It synthesizes mechanisms documented in neurodegenerative diseases and applies them to ME/CFS by analogy—no study has directly measured cGAS-STING activation, CSF mtDNA levels, or mitochondrial turnover rates in ME/CFS patients. BBB permeability is heterogeneous across ME/CFS patients @Natelson_BBB_MECFS_2001, and if some patients have highly permeable BBB, the trapping mechanism may not apply universally. Genetic polymorphisms in BBB transporters may create substantial patient-to-patient variability. Despite these limitations, the hypothesis is testable and generates specific predictions evaluable in cohorts with CSF access.
-]
+] <spec:bbb-vulnerability>
 
 === Meningitis as a Model for Acute BBB-Neuroinflammatory Injury in ME/CFS
 <sec:meningitis-bbb>
@@ -1113,14 +1096,12 @@ Impaired glymphatic waste clearance is proposed as a key contributor to ME/CFS, 
 A landmark 2025 study demonstrated that dural mast cells regulate CSF dynamics at arachnoid cuff exit (ACE) points @Christodoulides2024meningitis. During bacterial meningitis, mast cell activation redirects CSF flow, recruits neutrophils, and limits bacterial invasion; mice lacking dural mast cells had impaired immune responses and higher brain bacterial loads.
 
 #speculation(title: [MCAS-Mediated Glymphatic Impairment via Dural Mast Cell Dysfunction])[
-<spec:mcas-glymphatic>
 *Certainty: 0.25.*
 
 If dural mast cells regulate CSF dynamics at ACE points @Christodoulides2024meningitis, then chronic mast cell dysfunction—as in the ME/CFS-associated MCAS phenotype (Section @sec:mcas)—could disrupt CSF flow regulation at these exit points, directly impairing glymphatic clearance. This would connect mast cell pathology to waste accumulation and cognitive symptoms via a non-inflammatory mechanism, distinct from the systemic inflammatory effects of mast cell mediator release. The certainty is low because the Christodoulides et al.\ finding is from a murine model, has not been replicated, and the extension to chronic MCAS is entirely extrapolated—no study has examined dural mast cell function in ME/CFS or MCAS patients.
-]
+] <spec:mcas-glymphatic>
 
 #speculation(title: [Meningitis as Disproportionate Neurological Threat in ME/CFS: The Double Vulnerability Hypothesis])[
-<spec:meningitis-double-vulnerability>
 *Certainty: 0.35.*
 
 ME/CFS patients face compounding vulnerability to meningitis through five converging mechanisms that amplify both infection severity and post-infectious neurological damage:
@@ -1145,7 +1126,7 @@ This hypothesis strengthens the case for infection prevention as disease-modifyi
 
 *Limitations.*
 No study has examined meningitis outcomes in ME/CFS patients. The compounding vulnerability model is entirely theoretical, constructed from independent findings that have never been tested in combination. The multiplicative damage estimate assumes independence of the contributing factors, which may not hold: BBB compromise and immune dysfunction may be causally linked rather than independent multipliers. The model also assumes that ME/CFS immune dysfunction is sufficiently severe to measurably impair bacterial defense, which is plausible but undemonstrated for meningococcal disease specifically.
-]
+] <spec:meningitis-double-vulnerability>
 
 == Cerebral Blood Flow Abnormalities
 <sec:cerebral-blood-flow>
@@ -1209,16 +1190,14 @@ Auditory symptoms represent an underrecognized but significant neurological mani
 === Prevalence and Epidemiology
 
 #achievement(title: [Tinnitus-ME/CFS Epidemiological Association])[
-<ach:schubert2021-tinnitus>
 Schubert et al. @Schubert2021 provided the first large-scale epidemiological evidence linking ME/CFS to tinnitus in a population-based cohort of 124,609 individuals from the Dutch Lifelines study. ME/CFS patients demonstrated 1.57 times higher odds (OR 1.568, p\<0.05) of experiencing constant tinnitus compared to healthy controls, identifying ME/CFS as a novel disease associate for tinnitus beyond traditional audiological causes such as noise exposure, age-related hearing loss, and cardiovascular disease.
-]
+] <ach:schubert2021-tinnitus>
 
 This finding aligns with earlier cohort studies and patient surveys reporting tinnitus prevalence ranging from 48% to 78% in ME/CFS patients, substantially higher than the 10–15% prevalence in the general population.
 
 #achievement(title: [Systematic Evidence for Auditory Dysfunction])[
-<ach:skare2024-ear>
 A 2024 systematic review by Skare et al. @Skare2024 synthesized evidence from 172 articles (1990–2024) documenting ear abnormalities across ME/CFS, fibromyalgia, long-COVID syndrome, postural orthostatic tachycardia syndrome (PoTS), and related conditions. The review identified cochlear complaints—including tinnitus, hearing loss, and hyperacusis—as the most frequent auditory findings in ME/CFS. Four pathophysiological mechanisms were proposed: (1) viral effects on cochlear or central auditory structures, (2) vascular impairment reducing blood flow to the cochlea and brainstem, (3) autoimmune reactions targeting inner ear antigens, and (4) oxidative stress damaging cochlear hair cells and auditory neurons.
-]
+] <ach:skare2024-ear>
 
 The systematic review recommended that all ME/CFS patients with audiological complaints receive ENT consultation and formal audiometry to assess the nature and severity of auditory dysfunction.
 
@@ -1227,9 +1206,8 @@ The systematic review recommended that all ME/CFS patients with audiological com
 Beyond subjective tinnitus complaints, objective evidence demonstrates specific auditory processing impairments in ME/CFS patients.
 
 #achievement(title: [Selective Auditory Processing Impairment])[
-<ach:johnson1996-auditory>
 Johnson et al. @Johnson1996 demonstrated modality-specific cognitive impairment in a controlled comparison of 20 CFS patients, 20 multiple sclerosis (MS) patients, and 20 healthy controls. CFS patients showed differential impairment on auditory versus visual processing tasks, while MS patients showed equal impairment on both modalities. This pattern suggests specific dysfunction in central auditory pathways rather than general cognitive slowing, distinguishing the ME/CFS cognitive profile from the more global impairment observed in other neurological conditions.
-]
+] <ach:johnson1996-auditory>
 
 Functional MRI studies have further documented that CFS patients recruit additional or atypical brain regions during cognitive and sensory tasks compared to controls @deLange2004fMRI, requiring greater neural resources to achieve equivalent task performance. This pattern of compensatory over-recruitment reflects inefficient neural processing consistent with the broader energy-limitation framework.
 
@@ -1238,7 +1216,6 @@ Functional MRI studies have further documented that CFS patients recruit additio
 The functional auditory deficits and elevated tinnitus prevalence in ME/CFS are explained by documented structural and functional abnormalities in brainstem regions critical for auditory processing.
 
 #achievement(title: [Brainstem Structural Abnormalities])[
-<ach:nelson2021-brainstem>
 Nelson et al. @Nelson2021 synthesized MRI evidence from 11 studies demonstrating structural and functional brainstem abnormalities in ME/CFS patients. The brainstem contains the primary central auditory pathway structures:
 
     - *Cochlear nucleus* (medulla) — receives input from cochlear nerve; first central processing station
@@ -1247,7 +1224,7 @@ Nelson et al. @Nelson2021 synthesized MRI evidence from 11 studies demonstratin
     - *Inferior colliculus* (midbrain) — integration of ascending auditory information before thalamic relay
 
 Dysfunction in these structures provides a neuroanatomical substrate explaining both the auditory processing deficits documented by Johnson et al. @Johnson1996 and the increased tinnitus prevalence observed by Schubert et al. @Schubert2021.
-]
+] <ach:nelson2021-brainstem>
 
 Importantly, brainstem abnormalities in ME/CFS extend beyond auditory pathways to include autonomic control centers (see Section @sec:ans-pathophysiology), arousal systems (locus coeruleus), and sensory integration regions. This explains the co-occurrence of auditory symptoms with autonomic dysfunction, sleep disturbances, and sensory hypersensitivity—all manifestations of brainstem pathology.
 
@@ -1346,7 +1323,6 @@ Memory impairments encompass working memory deficits (holding information “onl
 Quantitative evidence shows moderate effect sizes across memory domains: visuo-spatial immediate memory $g = -0.55$, episodic verbal memory (storage and retrieval) $g = -0.55$ to $-0.67$, and visual memory recovery similarly impaired @Sebaiti2022cognitive. Importantly, cognitive dysfunction in ME/CFS is independent of comorbid mood disorders and is not explained by poor effort or motivation—a finding replicated across the meta-analytic literature and consistent with the MCAM multi-site results @Lange2024cognitive @Sebaiti2022cognitive.
 
 #hypothesis-box(title: [Memory Triage Consequence])[
-<hyp:memory-triage-consequence>
 *Certainty: 0.55.*
 
 Memory encoding is substantially more energy-expensive than memory retrieval, predicting that ME/CFS patients should show disproportionate encoding deficits relative to retrieval impairment—a pattern consistent with CNS energy triage.
@@ -1372,7 +1348,7 @@ If encoding is selectively impaired by energy limitation, compensatory strategie
 
 *Limitations.*
 This hypothesis has certainty 0.55. The differential energy cost of encoding versus retrieval is well established in neuroscience, but the specific prediction of disproportionate encoding impairment in ME/CFS awaits formal testing with paradigms designed to isolate encoding from retrieval. Existing neuropsychological batteries typically conflate encoding and retrieval in composite “memory” scores. Confounds include attention deficits (which impair encoding indirectly), medication effects, and sleep disruption (which impairs memory consolidation independently of encoding).
-]
+] <hyp:memory-triage-consequence>
 
 ==== Executive Function
 
@@ -1672,7 +1648,6 @@ Multiple sections of this chapter frame CNS dysfunction as the “primary bottle
 <sec:cns-energy-triage-clinical>
 
 #speculation(title: [CNS Energy Triage Hypothesis])[
-<spec:cns-energy-triage>
 *Certainty: 0.35.* The brain may operate a hardwired energy prioritization system during metabolic scarcity, explaining why ME/CFS cognitive dysfunction follows a characteristic pattern rather than producing uniform degradation across all domains.
 
 *Neuroscience of brain energy prioritization.*
@@ -1720,7 +1695,7 @@ If the brain operates in chronic triage mode, the therapeutic strategy shifts fr
 
 *Limitations.*
 This hypothesis faces several challenges: (1) the meta-analytic evidence does not cleanly support executive function as the most impaired domain @Sebaiti2022cognitive; (2) the triage hierarchy has not been directly tested in ME/CFS with tasks specifically designed to probe each tier; (3) alternative explanations for the cognitive pattern exist, including neuroinflammation-mediated cytokine effects on specific circuits @Bansal2025cognitive, tryptophan pathway diversion, and autonomic-mediated cerebral hypoperfusion; (4) the model may oversimplify what is likely a multi-mechanism process. The triage framework should be understood as one contributing mechanism among several, not a complete explanation for ME/CFS cognitive dysfunction.
-]
+] <spec:cns-energy-triage>
 
 == Summary: An Integrated Neurological Model
 <sec:neuro-summary>

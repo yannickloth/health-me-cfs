@@ -8,7 +8,6 @@ The Canadian Consensus Criteria @Carruthers2003 emerged from a panel of physici
 === Required Criteria
 
 #requirement-box(title: [Canadian Consensus Criteria Structure])[
-<req:ccc-structure>
 Diagnosis requires ALL of the following:
 
 *1. Fatigue*
@@ -54,7 +53,7 @@ Diagnosis requires ALL of the following:
 
 *7. Duration*
 Illness persists $gt.eq$6 months. May be preceded by various infections or other triggering events.
-]
+] <req:ccc-structure>
 
 === Exclusions
 

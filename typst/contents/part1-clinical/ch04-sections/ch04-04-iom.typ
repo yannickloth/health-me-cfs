@@ -6,7 +6,6 @@ The Institute of Medicine (now National Academy of Medicine) published diagnosti
 === Required Core Symptoms
 
 #requirement-box(title: [IOM Diagnostic Algorithm])[
-<req:iom>
 Diagnosis requires ALL THREE of the following core symptoms to be present:
 
 *1. Substantial Reduction or Impairment in Activity Level (MANDATORY)*
@@ -39,12 +38,11 @@ Patients wake feeling unrefreshed regardless of sleep duration. Sleep may be:
     - Reversed sleep/wake cycle
 
 The exhaustion persists despite adequate sleep duration.
-]
+] <req:iom>
 
 === Additional Required Symptoms
 
 #requirement-box(title: [At Least ONE of the Following])[
-<req:iom-additional>
 
 *Cognitive Impairment*
 Problems with thinking, memory, information processing, or executive function. May include:
@@ -67,7 +65,7 @@ Worsening of symptoms upon assuming or maintaining upright posture. May include:
     - Symptoms improve (but may not resolve) when lying down
 
 Objective findings may include abnormal heart rate or blood pressure responses during tilt table testing or standing test.
-]
+] <req:iom-additional>
 
 === Diagnostic Algorithm Structure
 
@@ -105,7 +103,6 @@ The IOM criteria offer several advantages:
     - *Rapid assessment*: Can be evaluated in a standard office visit
 
 #warning-box(title: [IOM Limitations])[
-<warn:iom-limitations>
 The simplified structure creates potential issues:
 
     - *Reduced specificity*: More inclusive criteria may capture patients with other conditions (long COVID, post-viral fatigue that will resolve)
@@ -114,7 +111,7 @@ The simplified structure creates potential issues:
     - *SEID terminology rejected*: Proposed name change has not gained acceptance in patient or research communities
     - *Set-theoretic relationship*: $"ICC" subset "Canadian" subset "IOM"$ — IOM captures the broadest population
 
-]
+] <warn:iom-limitations>
 
 === Clinical and Research Application
 

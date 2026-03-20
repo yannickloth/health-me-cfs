@@ -55,9 +55,8 @@ The dysregulation of the HPA axis in ME/CFS reflects multiple interconnected mec
 ==== Central Glucocorticoid Receptor Sensitivity
 
 #fhypothesis(title: [Enhanced Central Glucocorticoid Feedback], falsifiability: [weakly], justification: [Falsified if hypothalamic GR expression is normal or reduced in ME/CFS patients, or if elevated cortisol fails to suppress ACTH via enhanced feedback])[
-<hyp:gcr-sensitivity>
 The enhanced negative feedback sensitivity observed in ME/CFS may result from altered glucocorticoid receptor (GR) expression or function in hypothalamic and pituitary tissues. Several mechanisms could produce this effect. Upregulation of GR expression would increase sensitivity to existing cortisol levels. Altered GR isoform expression (GR$alpha$ vs.\ GR$beta$) might shift the balance toward enhanced feedback. Reduced expression of 11$beta$-hydroxysteroid dehydrogenase type 1 (11$beta$-HSD1), the enzyme that locally amplifies cortisol action by converting inactive cortisone to active cortisol, could diminish local glucocorticoid signaling. Finally, epigenetic modifications of the GR gene might affect transcription and receptor function.
-]
+] <hyp:gcr-sensitivity>
 
 This enhanced feedback creates a self-reinforcing cycle. Slightly elevated cortisol (or even normal-low cortisol) triggers disproportionate suppression of CRH and ACTH secretion, further reducing cortisol output. Under normal circumstances, this would reduce feedback inhibition and restore output, but the hypersensitive feedback prevents this compensatory response, maintaining chronically low HPA axis activity. This mechanism explains why ME/CFS patients do not develop frank adrenal insufficiency (baseline cortisol remains detectable) yet fail to mount appropriate stress responses (blunted reactivity to challenges). This self-reinforcing HPA dysfunction represents one of several vicious cycles in ME/CFS pathophysiology, as discussed in Section @sec:unifying-mechanisms of Chapter @ch:integrative-models.
 
@@ -66,9 +65,8 @@ This enhanced feedback creates a self-reinforcing cycle. Slightly elevated corti
 The bidirectional relationship between the immune system and the HPA axis represents a critical mechanism in ME/CFS pathophysiology. Under normal circumstances, immune activation from infection or tissue damage stimulates HPA axis activity. Pro-inflammatory cytokines (IL-1, IL-6, TNF-$alpha$) signal the hypothalamus to increase CRH secretion, resulting in elevated cortisol that dampens the immune response. This creates negative feedback that prevents excessive inflammation. The acute response adaptively contains immune activation while preventing immunopathology.
 
 #fhypothesis(title: [Maladaptive Chronic Inflammatory Signaling], falsifiability: [weakly], justification: [Falsified if ME/CFS immune cells show normal glucocorticoid receptor function and normal immune suppression at physiological cortisol concentrations])[
-<hyp:chronic-inflammation-hpa>
 In ME/CFS, chronic low-grade inflammation (documented in Chapter @ch:immune-dysfunction) may induce glucocorticoid resistance at immune cells while simultaneously increasing central negative feedback sensitivity. This paradoxical pattern produces the worst of both scenarios: insufficient cortisol secretion to control peripheral inflammation due to enhanced central feedback, yet reduced cortisol effectiveness at immune cells due to receptor downregulation or dysfunction @walitt2024deep @heng2025sexspecific. The result is persistent inflammation despite apparent “normal” cortisol levels that would typically suppress such immune activation.
-]
+] <hyp:chronic-inflammation-hpa>
 
 Recent evidence from Heng et al.\ (2025) documenting sex-specific immune dysregulation supports this model, showing that females with ME/CFS exhibit particularly pronounced pro-inflammatory profiles with elevated type 2 interferon signaling despite cortisol levels within the reference range @heng2025sexspecific. This suggests functional glucocorticoid resistance at target tissues.
 
@@ -84,17 +82,15 @@ If confirmed, this mechanism suggests that the problem is not purely regulatory 
 The three mechanisms described above—enhanced glucocorticoid feedback, cytokine-mediated suppression, and steroidogenic enzyme dysfunction—all involve functional dysregulation of an anatomically intact HPA axis. A distinct and clinically important fourth mechanism operates at the structural level: direct viral injury to the pituitary gland producing secondary adrenal insufficiency. This mechanism warrants separate consideration because it implies a fundamentally different clinical trajectory, a different diagnostic approach, and potentially a different therapeutic response.
 
 #achievement(title: [SARS-1 Survivors Show 39.3% Prevalence of Central Hypocortisolism from Pituitary Involvement])[
-<ach:sars-pituitary>
 Leow et al. @Leow2005sars prospectively followed 61 SARS-1 survivors at three months post-discharge using dynamic endocrine testing. Twenty-four patients (39.3%) met criteria for central hypocortisolism consistent with secondary adrenal insufficiency of pituitary or hypothalamic origin. Two patients (3.3%) had concomitant subclinical thyrotoxicosis; three had central hypothyroidism. Crucially, the hormonal dysfunction of the majority resolved within one year, suggesting that early injury is partially reversible with adequate clinical management. ACE2 receptors are expressed on pituitary cells, providing a direct mechanism for SARS-CoV-1—and by extension SARS-CoV-2—to infect and injure pituitary tissue.
 Study: (prospective cohort, $n=61$, Clinical Endocrinology 2005, certainty: 0.70 for SARS-1; translation to post-COVID/ME-CFS inferential).
-]
+] <ach:sars-pituitary>
 
 The SARS-1 finding has been extended by evidence from the COVID-19 pandemic. Carosi et al.\ (2024) reviewed COVID-19's impact on pituitary function, documenting variable degrees of pituitary deficiency across published case series, with both direct viral cytopathic effects and immune-mediated hypophysitis proposed as mechanisms @Carosi2024hypopituitarism. ACE2 expression in the hypothalamus and pituitary provides the entry point; the resulting inflammation, ischemia, or autoimmune targeting of pituitary corticotrophs can reduce ACTH output, producing secondary adrenal insufficiency that is clinically indistinguishable from functional HPA suppression unless dynamic testing is performed. Pituitary defects may persist long after acute infection, potentially contributing to the chronic symptom burden of long COVID.
 
 Ruiz-Pablos et al.\ (2024) synthesise these mechanisms into a unified model: genetically predisposed individuals (HLA-DRB1) with deficient CD4 T-cell viral control develop an uncontrolled CD8/antibody response, some directed against pituitary antigens, producing autoimmune hypophysitis or direct pituitary cytopathic injury @Ruiz2024hpa. The resulting ACTH deficiency drives the “hypocortisolemic ASIA” phenotype—a neuroendocrine-immune vicious cycle shared between post-COVID ME/CFS and the broader spectrum of post-infectious and post-vaccine autoimmune syndromes. Notably, the model predicts a reversibility window: early identification of pituitary injury, before long-lived autoreactive plasma cells become established, allows potential recovery of HPA axis function with appropriate intervention.
 
 #fhypothesis(title: [Post-Viral Pituitary Injury as a Structurally Distinct ME/CFS Trigger], falsifiability: [weakly], justification: [Falsified if: (a) prospective pituitary MRI in post-viral ME/CFS cohorts shows no structural abnormalities; (b) ACTH stimulation test responses are uniformly normal across post-COVID ME/CFS patients regardless of acute illness severity; (c) the subgroup with ACTH-deficient secondary AI shows no clinical response to physiological hydrocortisone replacement])[
-<hyp:postviral-pituitary>
 A subgroup of post-viral ME/CFS patients may develop secondary adrenal insufficiency through structural pituitary injury—including direct ACE2-mediated viral cytopathic effects, ischemia, or autoimmune hypophysitis—rather than through the functional feedback dysregulation that characterises the broader ME/CFS HPA phenotype. Evidence from SARS-1 survivors ($tilde$40% central hypocortisolism @Leow2005sars) and from COVID-19 pituitary case series @Carosi2024hypopituitarism establishes a proof of concept; the Ruiz-Pablos et al.\ model @Ruiz2024hpa proposes a specific autoimmune mechanism linking viral immune dysregulation to pituitary damage.
 
 *Testable predictions:*
@@ -106,12 +102,11 @@ A subgroup of post-viral ME/CFS patients may develop secondary adrenal insuffici
 
 *Treatment implication:* Dynamic testing (see Appendix @app:diagnostic-tools) is required to identify this subgroup; morning cortisol alone is insufficient because ACTH is low or low-normal, not suppressed.
 *Certainty: 0.50* — strong SARS-1 evidence and COVID-19 case series support, but no direct prospective evidence linking pituitary injury specifically to ME/CFS onset; ACE2-mediated mechanism is coronavirus-specific and may not generalise to other ME/CFS triggers.
-]
+] <hyp:postviral-pituitary>
 
 #warning-box(title: [Morning Cortisol Alone Cannot Exclude Post-Viral Secondary Adrenal Insufficiency])[
-<warn:secondary-ai-testing>
 Standard laboratory screening uses morning cortisol to exclude primary adrenal insufficiency (Addison's disease), where cortisol is markedly low and ACTH is elevated. Post-viral secondary adrenal insufficiency presents differently: cortisol may fall in the low-normal range (not flagged as abnormal), and ACTH is low or inappropriately normal rather than elevated. This pattern is invisible to morning cortisol screening alone. Dynamic testing—ACTH stimulation test or insulin tolerance test (ITT)—is required for diagnosis. In any post-COVID ME/CFS patient with fatigue disproportionate to other findings, unexplained hypotension, or clinical features suggestive of cortisol insufficiency, dynamic testing should be considered (see Appendix @app:diagnostic-tools).
-]
+] <warn:secondary-ai-testing>
 
 #limitation(title: [SARS-1 Evidence Generalisability to Broader ME/CFS])[
 The Leow et al.\ (2005) cohort comprised hospitalised SARS-1 patients with severe acute illness—a higher-severity group than typical community-acquired post-viral ME/CFS. SARS-CoV-1/2 have documented ACE2-mediated pituitary tropism; it remains undemonstrated whether EBV, enteroviruses, or other ME/CFS-triggering pathogens cause comparable structural pituitary injury via different mechanisms. Post-viral pituitary damage should therefore be considered a plausible contributor in the post-COVID ME/CFS subgroup but should not be assumed to represent a universal mechanism across all ME/CFS triggers.
@@ -143,9 +138,8 @@ The temporal pattern of PEM—symptom onset typically 12–48 hours after exerti
 Cortisol serves as the body's primary endogenous anti-inflammatory hormone. It suppresses pro-inflammatory cytokine production (IL-1$beta$, IL-6, TNF-$alpha$), inhibits T cell activation and proliferation, promotes a shift from Th1 (cellular immunity) to Th2 (humoral immunity) responses, and prevents autoimmune reactions by maintaining immune tolerance. The blunted cortisol output and flattened diurnal rhythm in ME/CFS remove this tonic immunosuppressive influence, permitting chronic low-grade inflammation to persist.
 
 #fhypothesis(title: [Loss of Diurnal Immune Regulation], falsifiability: [weakly], justification: [Falsified if restoring the morning cortisol peak through timed hydrocortisone replacement fails to reduce inflammatory markers across the circadian cycle])[
-<hyp:diurnal-immune>
 The flattened cortisol rhythm may be particularly consequential for immune regulation. Immune cells express glucocorticoid receptors and show circadian variation in their responsiveness to cortisol. The normal morning cortisol peak serves to “reset” immune function daily, preventing inflammatory pathways from remaining chronically activated. Loss of this peak in ME/CFS may allow inflammatory signaling to persist across day-night cycles without the normal circadian suppression @cambras2018circadian.
-]
+] <hyp:diurnal-immune>
 
 This mechanism connects to the findings in Chapter @ch:immune-dysfunction documenting altered cytokine profiles, NK cell dysfunction, and B cell abnormalities in ME/CFS. The sex-specific immune profiles identified by Heng et al.\ (2025) showing more pronounced inflammatory signatures in females align with the sex-specific steroid hormone abnormalities documented by Pipper et al.\ (2024), suggesting coordinated sex-dependent endocrine-immune interactions @heng2025sexspecific @pipper2024steroid.
 
@@ -178,11 +172,10 @@ Thyroid dysfunction represents a critical consideration in ME/CFS for two distin
 === The Low T3 Syndrome in ME/CFS
 
 #achievement(title: [Low T3 Syndrome as Distinct ME/CFS Feature])[
-<ach:low-t3>
 Ruiz-Núñez et al.\ (2018) conducted a rigorous case-control study comparing 98 ME/CFS patients to 99 healthy controls and documented a distinctive pattern of thyroid hormone abnormalities @ruiznunez2018thyroid. ME/CFS patients showed 16% prevalence of free T3 (FT3) below the reference range compared to only 7% in controls (odds ratio 2.56). They exhibited significantly lower FT3, total T4 (TT4), and total T3 (TT3) concentrations, along with reduced T3/T4 ratio indicating impaired peripheral conversion of T4 to active T3. The percentage of reverse T3 (rT3), an inactive T3 isomer, was elevated, with increased rT3/TT3 ratio reflecting preferential conversion to the inactive form. Estimated deiodinase activity—the enzyme responsible for converting T4 to T3—showed a 14.4% reduction.
 
 Critically, these abnormalities occurred while thyroid-stimulating hormone (TSH) levels remained within the normal reference range. Standard thyroid screening tests would therefore classify these patients as “euthyroid” (normal thyroid function) despite functionally significant thyroid hormone deficits.
-]
+] <ach:low-t3>
 
 #warning-box(title: [Replication Status: Partially Replicated])[
 The Low T3 pattern (Ruiz-Núñez 2018, n=98 vs.\ 99) is the only ME/CFS-specific thyroid study. However, the Low T3/euthyroid sick pattern is well-established in other chronic diseases, providing indirect support. ME/CFS-specific replication with standardized thyroid panels is needed.
@@ -204,9 +197,8 @@ Whether the Low T3 pattern in ME/CFS represents a maladaptive state requiring co
 The conversion of thyroxine (T4, the major thyroid hormone secreted by the thyroid gland) to triiodothyronine (T3, the metabolically active form) occurs primarily in peripheral tissues through the action of deiodinase enzymes. Three deiodinase isoforms exist. Type 1 deiodinase (D1) in liver and kidney produces most circulating T3. Type 2 deiodinase (D2) in brain, pituitary, and brown fat produces local T3 for tissue-specific needs. Type 3 deiodinase (D3) in multiple tissues inactivates T4 and T3 by converting them to reverse T3 (rT3) and T2.
 
 #fhypothesis(title: [Cytokine-Mediated Deiodinase Suppression], falsifiability: [weakly], justification: [Falsified if deiodinase enzyme activity is normal despite elevated IL-6/TNF-$alpha$, or if patients with documented deiodinase suppression show normal free T3 and reverse T3 levels])[
-<hyp:deiodinase-suppression>
 The chronic low-grade inflammation documented in ME/CFS (Chapter @ch:immune-dysfunction) likely suppresses deiodinase enzyme activity through multiple mechanisms. Pro-inflammatory cytokines, particularly IL-6 and TNF-$alpha$, directly inhibit D1 and D2 expression and activity while upregulating D3, shifting the balance toward production of inactive reverse T3 rather than active T3. Oxidative stress, elevated in ME/CFS (Chapter @ch:energy-metabolism), damages selenocysteine residues essential for deiodinase enzymatic function; all deiodinases are selenium-dependent enzymes. Additionally, the mitochondrial dysfunction documented in ME/CFS may impair ATP-dependent cellular uptake of T4, reducing substrate availability for conversion to T3 @ruiznunez2018thyroid.
-]
+] <hyp:deiodinase-suppression>
 
 This mechanism explains why simply increasing thyroid hormone replacement dose (giving more T4) often fails to improve symptoms in ME/CFS patients: the limiting factor is not T4 availability but rather the capacity to convert T4 to active T3 at the cellular level.
 
@@ -223,9 +215,8 @@ This finding suggests a potential autoimmune mechanism contributing to thyroid d
 The overlap between ME/CFS symptoms and hypothyroidism creates substantial diagnostic challenges. Both conditions present with severe fatigue and exhaustion, cognitive impairment (“brain fog”), cold intolerance and temperature dysregulation, weight changes and metabolic disturbances, mood alterations including depression, muscle weakness and pain, and sleep disturbances. Undiagnosed hypothyroidism may therefore masquerade as ME/CFS, while ME/CFS-related Low T3 Syndrome may be mistaken for thyroid disease.
 
 #warning-box(title: [Limitations of Standard Thyroid Testing in ME/CFS])[
-<warn:thyroid-testing>
 Standard thyroid screening using TSH alone is insufficient for evaluating thyroid function in ME/CFS patients. The Low T3 Syndrome occurs with normal TSH because the pituitary senses adequate T4 levels and reduces TSH secretion appropriately, unaware that peripheral tissues cannot effectively convert T4 to active T3. Comprehensive thyroid evaluation in ME/CFS should include TSH to exclude primary thyroid disease, free T4 (FT4) to assess thyroid hormone production, free T3 (FT3) to evaluate the active hormone level, and reverse T3 (rT3) to assess the balance between activation and inactivation. Calculation of T3/T4 and rT3/T3 ratios quantifies conversion efficiency @ruiznunez2018thyroid.
-]
+] <warn:thyroid-testing>
 
 The therapeutic implications remain uncertain. While the rationale for T3 supplementation appears sound (directly providing the active hormone bypasses the impaired conversion step), clinical trial evidence remains limited and results have been mixed. Some patients report subjective improvement, others experience no benefit, and a subset develops adverse effects (palpitations, anxiety, insomnia) suggesting tissue-level hypersensitivity to thyroid hormone. Careful individualized treatment trials with close monitoring may be warranted in ME/CFS patients with documented Low T3 Syndrome, but systematic evidence for efficacy is lacking.
 
@@ -237,31 +228,28 @@ Sex hormones and gender differences represent one of the most striking yet inade
 === Epidemiology of Sex Differences
 
 #achievement(title: [Female Predominance in ME/CFS])[
-<ach:female-prevalence>
 A systematic review and meta-analysis by Lim et al.\ (2020) synthesized prevalence data from 45 articles representing 46 studies and 56 prevalence datasets spanning 1980–2018 @lim2020prevalence. The analysis documented overall ME/CFS prevalence of 0.89% using CDC-1994 criteria, with female prevalence approximately 1.5–2.0 fold higher than males across all studies. In the total population, prevalence was 2.24% ± 2.59% in females versus 1.11% ± 1.05% in males. General population studies showed 2.83% versus 1.39%, and meta-analysis pooled estimates indicated 1.36% versus 0.89%. The female-to-male ratio consistently ranges from 3:1 to 4:1 across geographic regions, diagnostic criteria, and study methodologies.
-]
+] <ach:female-prevalence>
 
 More recent estimates using large-scale medical claims data and machine learning by Jason et al.\ (2018) confirmed the persistent female predominance, though highlighting that 35–40% of ME/CFS patients are male—a substantial population whose experiences may differ from the predominantly studied female cohorts @jason2018prevalence. The consistency of the sex ratio across diverse populations and diagnostic approaches argues strongly for biological sex differences in disease susceptibility or expression rather than artifacts of health-seeking behavior or diagnostic bias.
 
 === Sex-Specific Pathophysiology: NIH Deep Phenotyping Findings
 
 #achievement(title: [Distinct Male and Female Pathophysiological Patterns])[
-<ach:sex-specific-pathophys>
 The 2024 NIH deep phenotyping study by Walitt et al.\ employed multi-omics analysis to directly compare male and female ME/CFS patients @walitt2024deep. This rigorous investigation revealed fundamentally different pathophysiological signatures. Males showed altered T cell activation patterns and abnormal innate immunity markers, while females demonstrated abnormal B cell function and altered white blood cell growth patterns. The sexes exhibited distinct inflammatory marker profiles, divergent gene expression patterns in immune cells, different immune cell population distributions, and sex-specific metabolic marker abnormalities.
 
 This finding challenges the implicit assumption in ME/CFS research that male and female patients share a common pathophysiology differing only in prevalence. Instead, it suggests that ME/CFS may represent partially distinct disease processes in males and females requiring sex-stratified approaches to diagnosis, biomarker development, and treatment.
-]
+] <ach:sex-specific-pathophys>
 
 Complementing the NIH findings, Heng et al.\ (2025) documented sex-specific immune dysregulation in long COVID patients with ME/CFS @heng2025sexspecific. Females exhibited decreased lymphocyte counts with increased neutrophils and monocytes (a myelopoiesis shift), elevated pro-inflammatory cytokines, and upregulated type 2 interferon signaling (IP-10, IFN-$gamma$). Males showed fewer inflammatory alterations overall, with more balanced profiles, elevated anti-inflammatory IL-10, and IL-1 signaling dominance rather than interferon predominance. These immune differences likely reflect underlying hormonal influences on immune cell development, activation, and cytokine production.
 
 === Steroid Hormone Abnormalities
 
 #achievement(title: [Sex and Severity-Stratified Steroid Hormone Profiles])[
-<ach:steroid-profiles>
 Pipper et al.\ (2024) conducted the first comprehensive sex-stratified analysis of steroid hormones in ME/CFS using high-precision UHPLC-MS/MS (ultra-high performance liquid chromatography tandem mass spectrometry) @pipper2024steroid. This study of 97 total participants revealed striking sex-specific and severity-dependent patterns. Female patients with severe ME/CFS demonstrated elevated 11-deoxycortisol (a cortisol precursor) and 17$alpha$-hydroxyprogesterone, suggesting impaired final enzymatic steps in cortisol biosynthesis. Females with mild-to-moderate disease showed increased progesterone levels. Male patients with mild-to-moderate ME/CFS exhibited frankly reduced cortisol and corticosterone but paradoxically elevated progesterone—an unexpected finding suggesting complex dysregulation of steroidogenic pathways.
 
 The machine learning classifier achieved 71.2% accuracy for discriminating female ME/CFS patients from controls and 84.6% accuracy for males based solely on steroid hormone profiles, supporting the potential development of sex-specific hormonal biomarkers for diagnosis and disease monitoring.
-]
+] <ach:steroid-profiles>
 
 #warning-box(title: [Replication Status])[
 Single study (Pipper 2024, n=97 total). This is the first sex-stratified steroid hormone analysis in ME/CFS using UHPLC-MS/MS. Subgroup sizes are small (particularly male severe ME/CFS). The machine learning classifier was not validated on an independent test set. Independent replication with larger, sex-balanced cohorts is required.
@@ -282,11 +270,10 @@ These patterns suggest that the absolute levels of sex hormones may be less impo
 ==== Gynecological Comorbidities and Early Menopause
 
 #achievement(title: [Gynecological Risk Factors for ME/CFS])[
-<ach:gynecological-risk>
 Population-based case-control studies by Boneva et al.\ have identified specific gynecological risk factors associated with ME/CFS development @boneva2011gynecological @boneva2015menopause. The 2011 study documented that ME/CFS cases reported significantly higher rates of pelvic pain unrelated to menstruation (22.2% versus 1.7% in controls), endometriosis diagnosis (36.1% versus 16.7%), prolonged periods of amenorrhea (absence of menstruation), and history of gynecological surgery including hysterectomy and oophorectomy. Premenopausal women with ME/CFS tended toward lower luteal phase progesterone with higher FSH.
 
 Most strikingly, the 2015 study revealed that women with ME/CFS experienced menopause approximately 11 years earlier than controls (mean age 37.6 years versus 48.6 years) @boneva2015menopause. Early menopause (\<40 years) represents premature ovarian insufficiency, indicating fundamental dysfunction of the hypothalamic-pituitary-gonadal (HPG) axis. This finding suggests that HPG dysfunction may precede or contribute to ME/CFS development rather than merely resulting from the disease.
-]
+] <ach:gynecological-risk>
 
 #warning-box(title: [Replication Status: Partially Replicated (Same Group)])[
 Both studies (Boneva 2011, 2015) derive from the same CDC research group using the same Georgia cohort. While internally consistent, independent replication of the early menopause finding and gynecological risk factors in non-CDC populations is needed.
@@ -299,9 +286,8 @@ The mechanisms connecting gynecological abnormalities to ME/CFS remain incomplet
 While research has focused predominantly on female ME/CFS patients due to the higher prevalence, emerging evidence indicates that male patients exhibit distinct hormonal abnormalities, particularly involving androgens (testosterone, DHEA, and their metabolites). A pilot study of 23 women ages 35–55 with ME/CFS found that 89% had suboptimal DHEA-S (dehydroepiandrosterone sulfate) levels. Supplementation with DHEA led to statistically significant improvements: 18% reduction in pain, 21% reduction in fatigue, 35% reduction in anxiety, 26% improvement in thinking ability, 17% improvement in memory, and 22% improvement in sexual function.
 
 #fhypothesis(title: [Androgen Deficiency Contribution to Symptoms], falsifiability: [weakly], justification: [Falsified if DHEA-S and testosterone levels are comparable to healthy controls, or if androgen replacement fails to improve fatigue and cognition in patients with documented deficiency])[
-<hyp:androgen-deficiency>
 Androgens, particularly DHEA and testosterone, serve multiple physiological functions beyond reproductive roles. They support mitochondrial function and cellular energy production, promote muscle mass maintenance and physical strength, modulate immune responses with generally anti-inflammatory effects, influence mood, motivation, and cognitive function, and affect pain perception and nociceptive processing. Deficiency of these hormones could mechanistically contribute to core ME/CFS symptoms including fatigue, cognitive impairment, reduced physical capacity, and pain amplification.
-]
+] <hyp:androgen-deficiency>
 
 The sex-specific steroid profiles identified by Pipper et al.\ showing reduced cortisol but elevated progesterone in male ME/CFS patients suggest complex interactions between the HPA axis and gonadal steroid production @pipper2024steroid. Further research specifically examining male ME/CFS patients is critically needed to elucidate androgen metabolism and its therapeutic potential.
 
@@ -347,9 +333,8 @@ However, contradicting these findings, other rigorous studies found no differenc
 === Growth Hormone Treatment Trial
 
 #achievement(title: [Physiological but Limited Clinical Benefits of GH Treatment])[
-<ach:gh-treatment>
 Moorkens et al.\ (2000) conducted a randomized, double-blind, placebo-controlled trial of growth hormone treatment in ME/CFS patients with documented low IGF-1 levels @moorkens2000gh. The study involved 20 patients receiving 12 weeks of active treatment followed by a 9-month open-label phase. Results demonstrated clear physiological effects: mean serum IGF-1 increased from 173 $plus.minus$46 $mu$g/L to 296 $plus.minus$89 $mu$g/L (p$<$0.001), fat-free mass significantly increased, and total body water increased, confirming the anabolic effects of GH. However, clinical outcomes were mixed: quality of life measures did not show significant improvement overall, though notably, 4 patients resumed work after prolonged illness, suggesting substantial benefit in a subset.
-]
+] <ach:gh-treatment>
 
 The dissociation between clear physiological effects (increased IGF-1, improved body composition) and limited symptom improvement suggests that while GH deficiency may contribute to certain ME/CFS features (particularly muscle weakness and poor exercise tolerance), it is not the primary driver of fatigue, post-exertional malaise, or cognitive symptoms. This pattern aligns with the multi-system nature of ME/CFS pathophysiology, where correcting a single hormonal deficit proves insufficient to restore overall function.
 
@@ -358,9 +343,8 @@ The dissociation between clear physiological effects (increased IGF-1, improved 
 Several mechanisms could explain GH/IGF-1 axis dysfunction in ME/CFS, each with distinct therapeutic implications:
 
 #fhypothesis(title: [Mechanisms of GH/IGF-1 Dysfunction], falsifiability: [weakly], justification: [Falsified if GH stimulation tests show normal pituitary responsiveness and hepatic IGF-1 production is normal despite the proposed suppressive mechanisms])[
-<hyp:gh-mechanisms>
 Multiple non-exclusive mechanisms may contribute to growth hormone axis dysfunction. Hypothalamic dysfunction may reduce GH-releasing hormone (GHRH) secretion, paralleling the HPA axis hypofunction discussed earlier. The NIH study documented temporal-parietal junction and broader brain abnormalities that could affect hypothalamic regulation @walitt2024deep. Hepatic resistance to GH action may impair IGF-1 synthesis despite adequate GH secretion, potentially reflecting the mitochondrial dysfunction and oxidative stress documented in Chapter @ch:energy-metabolism. Cytokine-mediated suppression may inhibit the GH axis, as chronic inflammation suppresses both GH secretion and IGF-1 synthesis while inducing IGF-1 resistance at target tissues. Finally, sleep disruption may reduce nocturnal GH pulses; the majority of daily GH secretion occurs during deep sleep, particularly slow-wave sleep, which is disrupted in ME/CFS.
-]
+] <hyp:gh-mechanisms>
 
 The clinical implications of these findings remain uncertain. GH treatment showed physiological effects but limited symptom benefit in the controlled trial, suggesting it may help selected patients but is not a universal solution. The expense, need for daily injections, and potential adverse effects (fluid retention, carpal tunnel syndrome, glucose intolerance) argue for restricting GH treatment to patients with documented IGF-1 deficiency and careful monitoring of both physiological parameters and functional outcomes. Alternative approaches targeting upstream causes (sleep improvement, inflammation reduction, mitochondrial support) might prove more effective than hormone replacement alone.
 
@@ -372,9 +356,8 @@ Glucose metabolism abnormalities in ME/CFS connect endocrine dysfunction directl
 === Metabolic Syndrome and Insulin Resistance
 
 #achievement(title: [ME/CFS Association With Metabolic Syndrome])[
-<ach:metabolic-syndrome>
 A population-based case-control study by Maloney et al.\ (2010) examined the relationship between ME/CFS and metabolic syndrome in Georgia @maloney2010metabolic. The analysis revealed that ME/CFS patients were approximately 2-fold more likely to have metabolic syndrome compared to controls (odds ratio 2.12, 95% confidence interval 1.06–4.23). The key discriminating factors were increased waist circumference, elevated triglycerides, and higher fasting glucose. Notably, each additional metabolic syndrome component present associated with a 37% increase in the likelihood of having ME/CFS, demonstrating a dose-response relationship.
-]
+] <ach:metabolic-syndrome>
 
 Metabolic syndrome comprises a cluster of abnormalities: abdominal obesity (increased waist circumference), elevated triglycerides, reduced HDL cholesterol, elevated blood pressure, and elevated fasting glucose or insulin resistance. The syndrome reflects underlying insulin resistance (reduced cellular responsiveness to insulin signaling) and predicts increased risk for type 2 diabetes, cardiovascular disease, and inflammatory conditions.
 
@@ -407,16 +390,14 @@ Appetite may follow a phase-dependent pattern in ME/CFS. During acute exacerbati
 ]
 
 #fhypothesis(title: [Peripheral Insulin Resistance With Central Deficits], falsifiability: [weakly], justification: [Falsified if glucose clamp studies show normal peripheral insulin sensitivity combined with normal cerebral glucose uptake on FDG-PET imaging])[
-<hyp:insulin-resistance>
 ME/CFS may involve a paradoxical state of peripheral insulin resistance (reduced glucose uptake in muscle and adipose tissue) combined with inadequate glucose delivery or utilization in the central nervous system. This would explain the constellation of elevated peripheral insulin levels reflecting compensatory hyperinsulinemia, cerebral glucose hypometabolism documented by PET imaging, symptoms resembling hypoglycemia without documented low blood glucose, and the energy deficit despite apparently adequate systemic glucose availability @tirelli1998pet @siessmeier2003pet.
-]
+] <hyp:insulin-resistance>
 
 === Cerebral Glucose Hypometabolism
 
 #achievement(title: [Objective Evidence of Brain Energy Deficit])[
-<ach:brain-hypometabolism>
 Positron emission tomography (PET) studies using fluorodeoxyglucose (FDG) tracer have documented reduced cerebral glucose metabolism in ME/CFS patients. Tirelli et al.\ (1998) identified significant glucose hypometabolism in the right mediofrontal cortex (p=0.010) and brainstem (p=0.013) in ME/CFS patients compared to controls, with moderate hypometabolism in the pons @tirelli1998pet. Siessmeier et al.\ (2003) employed observer-independent analysis in 26 ME/CFS patients and found that 12/26 (46%) showed hypometabolism bilaterally in the cingulate gyrus and adjacent mesial cortical areas, with 5 also demonstrating decreased orbitofrontal metabolism @siessmeier2003pet. Importantly, hypometabolism correlated with anxiety and depression measures but not directly with fatigue severity, suggesting complex relationships between metabolic deficits and symptom expression.
-]
+] <ach:brain-hypometabolism>
 
 #warning-box(title: [Replication Status: Partially Replicated])[
 Two independent PET studies (Tirelli 1998, n=18; Siessmeier 2003, n=26) both found cerebral hypometabolism, but in partially different brain regions. Both studies are old (pre-2005) with small samples and limited by PET methodology of that era. Modern replication with current PET technology and larger cohorts is needed.
@@ -427,16 +408,14 @@ The consistent documentation of reduced cerebral glucose uptake across independe
 Several mechanisms could produce cerebral hypometabolism beyond simple insulin resistance:
 
 #fhypothesis(title: [Mechanisms of Cerebral Hypometabolism], falsifiability: [weakly], justification: [Falsified if cerebral perfusion is normal on SPECT, glucose transporters show normal expression, and neuronal mitochondria are intact in patients with documented hypometabolism])[
-<hyp:brain-hypometabolism>
 Multiple factors likely contribute to reduced brain glucose utilization. Cerebral hypoperfusion documented by SPECT imaging reduces glucose delivery to neurons. Glucose transporter dysfunction (GLUT1 at blood-brain barrier, GLUT3 in neurons) may impair glucose uptake even when delivery is adequate. Mitochondrial dysfunction in neurons reduces the capacity to metabolize glucose to ATP, causing glucose accumulation rather than utilization. Neuroinflammation with activated microglia alters brain energetics, as activated immune cells in the brain preferentially utilize glucose via glycolysis rather than oxidative phosphorylation. Finally, reduced neuronal activity secondary to other ME/CFS-related dysfunction may reduce metabolic demand, causing secondary hypometabolism as a consequence rather than cause of neurological symptoms.
-]
+] <hyp:brain-hypometabolism>
 
 === Hypoglycemia Symptoms Versus Orthostatic Intolerance
 
 #warning-box(title: [Misattribution of Orthostatic Symptoms to Hypoglycemia])[
-<warn:hypoglycemia-misattribution>
 Many ME/CFS patients report symptoms they attribute to “hypoglycemia”: nausea, lightheadedness and faintness, sweating and tremor, weakness and malaise, and cognitive impairment. However, studies examining ME/CFS patients during symptomatic episodes have shown that these symptoms frequently occur without documented hypoglycemia (blood glucose \<70 mg/dL). Instead, the symptoms typically reflect orthostatic intolerance (inadequate blood pressure and cerebral perfusion upon standing or with prolonged upright posture, discussed extensively in Chapter @ch:cardiovascular). Critically, when orthostatic intolerance is treated effectively, the “hypoglycemia” symptoms often improve despite no specific glucose intervention.
-]
+] <warn:hypoglycemia-misattribution>
 
 This misattribution has important clinical implications. ME/CFS patients may consume frequent snacks or high-carbohydrate meals attempting to prevent “hypoglycemia,” potentially exacerbating insulin resistance and weight gain. Additionally, focusing on blood sugar management diverts attention from the actual orthostatic problem requiring different interventions (increased salt and fluid intake, compression garments, medications affecting blood pressure or blood volume).
 
@@ -468,9 +447,8 @@ The circadian timing component involves altered phase relationships between slee
 === Molecular Clock Dysfunction
 
 #fhypothesis(title: [Clock Gene Dysregulation in ME/CFS], falsifiability: [weakly], justification: [Falsified if repeat transcriptomic analysis fails to confirm NPAS2 or other clock gene alterations in independent ME/CFS cohorts with adequate sample size])[
-<hyp:clock-genes>
 Emerging evidence suggests disruption at the molecular level of circadian clock gene expression. Genome-wide association studies (GWAS) have reported nominally significant associations with NPAS2 (neuronal PAS domain protein 2), a core clock gene. Transcriptomic analysis of ME/CFS patient samples showed 10-fold higher NPAS2 expression compared to controls and elevated expression of other circadian rhythm genes in peripheral blood mononuclear cells (PBMCs). Enrichment of CLOCK gene variants in ME/CFS patients with comorbid fibromyalgia and epigenetic changes in “circadian entrainment” pathways suggest heritable and acquired alterations in clock gene function.
-]
+] <hyp:clock-genes>
 
 The molecular clock operates as a transcriptional-translational feedback loop involving core clock genes (CLOCK, BMAL1, PER1/2/3, CRY1/2) that regulate their own expression with approximately 24-hour periodicity. These clock genes also control thousands of downstream genes involved in metabolism, immune function, and cellular processes, creating temporal coordination across organ systems. Disruption of clock gene function could therefore produce pleiotropic effects consistent with the multi-system nature of ME/CFS.
 
@@ -483,16 +461,14 @@ Melatonin serves as both a marker and mediator of circadian rhythms, secreted by
 Limited evidence suggests altered melatonin production in ME/CFS, though findings have been inconsistent, likely reflecting the heterogeneity of circadian dysfunction patterns. Some patients show reduced melatonin amplitude, others exhibit phase shifts (melatonin rise at inappropriate times), while some maintain apparently normal melatonin profiles despite subjective circadian symptoms.
 
 #achievement(title: [Melatonin Treatment Benefits])[
-<ach:melatonin-treatment>
 Castro-Marrero et al.\ (2021) conducted a 16-week randomized, double-blind, placebo-controlled trial of melatonin (1 mg) plus zinc (10 mg) daily in 50 ME/CFS patients @castromarrero2021melatonin. The intervention significantly reduced physical fatigue perception (p\<0.05) and improved the physical component summary score compared to placebo. Urinary 6-sulfatoxymelatonin (the primary melatonin metabolite) increased significantly in the treatment group (p\<0.0001), confirming adequate absorption and metabolism. Importantly, the intervention was safe and well-tolerated with no significant adverse effects.
-]
+] <ach:melatonin-treatment>
 
 This represents the first rigorous randomized controlled trial evidence that melatonin supplementation may provide symptomatic benefit in ME/CFS. However, several important caveats apply: the effect size was modest (improvement but not remission), the mechanism of benefit remains unclear (improved sleep, circadian resynchronization, anti-inflammatory effects, or antioxidant actions), and individual responses varied substantially (some patients benefited greatly, others not at all), and long-term efficacy and optimal dosing require further study.
 
 #warning-box(title: [Limitations of Melatonin Supplementation])[
-<warn:melatonin-limits>
 While melatonin supplementation showed benefits in the Castro-Marrero trial, clinicians and patients should recognize important limitations. Melatonin primarily aids sleep initiation but does not address sleep maintenance (frequent awakenings), may temporarily improve symptoms without addressing underlying circadian dysfunction, risks masking underlying sleep disorders requiring different treatments (sleep apnea, restless legs syndrome), and exhibits substantial individual variation in absorption, metabolism, and response. Additionally, optimal timing of melatonin administration depends on the specific circadian phase abnormality (delayed, advanced, irregular), which typically requires formal assessment.
-]
+] <warn:melatonin-limits>
 
 === Circadian Disruption as an Integrative Mechanism
 

@@ -156,7 +156,6 @@ The treatment protocols in this chapter, despite their mechanistic rationale, ha
 The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction) proposes that ME/CFS can be classified into subtypes based on which compartment shows primary dysfunction. Before starting aggressive multi-system treatment, perform a brief assessment to determine your dominant subtype. This guides treatment prioritization and helps you focus limited resources on the mechanisms most affecting you.
 
 #recommendation(title: [Subtype Classification for Treatment Prioritization])[
-<rec:subtype-stratification>
 
 *Rationale:* Not all severe ME/CFS patients need identical treatment sequences. While multi-system protocols work, prioritizing your dominant subtype may accelerate relief.
 
@@ -214,7 +213,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Note:* This classification is preliminary. You may have mixed features. If uncertain, proceed with full multi-system protocol (safer to address all domains) rather than over-specializing.
 
-]
+] <rec:subtype-stratification>
 
 == The 2-Week Rapid Relief Protocol
 <sec:two-week-protocol>
@@ -422,7 +421,6 @@ An observational study of 218 ME/CFS patients treated with low-dose naltrexone (
 *MCAS Prophylactic Intensification for High-Demand Activities*
 
 #recommendation(title: [Prophylactic Intensification Protocol for Known MCAS Triggers])[
-<rec:mcas-prophylaxis>
 
 *Mechanism:* Mast cell activation syndrome (MCAS) episodes trigger acute inflammatory cascades that amplify CNS energy deficit, worsening PEM and cognitive crashes (Chapter @sec:selective-dysfunction, lines 647–664). Proactive intensification 1–2 days before high-demand activities or known triggers can reduce MCAS-amplified crashes.
 
@@ -482,7 +480,7 @@ An observational study of 218 ME/CFS patients treated with low-dose naltrexone (
 
 *Important*: Prophylactic intensification does NOT prevent the trigger activity itself. Rather, it reduces the MCAS-amplified component of the crash. Pacing remains the primary prevention strategy.
 
-]
+] <rec:mcas-prophylaxis>
 
 *Expected Relief Timeline*
 
@@ -814,7 +812,6 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 ]
 
 #recommendation(title: [Circadian Light Therapy Protocol])[
-<rec:circadian-light-severe>
 
 *Mechanism:* Bright light exposure within 30 minutes of waking resets the circadian oscillator, improving alignment of energy distribution with day-night cycle. This may correct the pattern of evening “second wind” and morning/afternoon energy crashes.
 
@@ -863,7 +860,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Dosing note*: Light therapy has no dose-response in the traditional sense. 10,000 lux for 20–30 min is the standard dose. Duration $\>$60 min provides no additional benefit.
 
-]
+] <rec:circadian-light-severe>
 
 ==== Sleep Spindle Enhancement (Low Priority, Experimental)
 <subsubsec:sleep-spindle-enhancement-severe>
@@ -873,7 +870,6 @@ Sleep spindles are brief bursts of high-frequency brain activity (12–16 Hz) du
 ]
 
 #recommendation(title: [Pink/White Noise for Sleep Spindle Enhancement])[
-<rec:sleep-spindle-severe>
 
 *Mechanism:* Acoustic stimulation during sleep may enhance spindle production through auditory-thalamocortical integration, potentially improving sleep architecture coordination.
 
@@ -915,7 +911,7 @@ Sleep spindles are brief bursts of high-frequency brain activity (12–16 Hz) du
 
 *Note*: This is low priority. Sleep medications (melatonin, trazodone) have stronger evidence and faster effect. Use noise only if medications insufficient or if patient prefers non-pharmacological approach.
 
-]
+] <rec:sleep-spindle-severe>
 
 === Days 2–7: Protocol Refinement
 <sec:days-two-seven>
@@ -1393,7 +1389,6 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 ]
 
 #recommendation(title: [Prioritizing Intranasal Formulations for CNS Cognitive Support])[
-<rec:intranasal-cns-delivery>
 
 *Rationale:* Intranasal delivery bypasses the BBB via olfactory and trigeminal nerve pathways, achieving CSF concentrations 2–10 fold higher than oral routes for the same compound.
 
@@ -1411,7 +1406,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Action item:* If cognitive symptoms dominate despite oral supplementation, discuss BBB-penetrant strategies and intranasal formulations with a neurologist familiar with ME/CFS.
 
-]
+] <rec:intranasal-cns-delivery>
 
 *Expected Relief*
 
@@ -1431,7 +1426,6 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 ]
 
 #recommendation(title: [Passive NMES Protocol for Deconditioning Prevention in Severe Cases])[
-<rec:nmes-severe>
 
 *Mechanism:* Neuromuscular electrical stimulation (NMES) produces muscle contractions without voluntary effort or CNS coordination. Applied passively (patient rests, device stimulates), this provides:
 
@@ -1470,7 +1464,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Expected outcome:* Prevention of rapid muscle atrophy during extended immobility; potential maintenance of motor recruitment capacity. NOT expected to produce functional improvement or increase activity tolerance—purely preventive.
 
-]
+] <rec:nmes-severe>
 
 === Baseline Symptom Reduction: Strict Pacing
 <sec:strict-pacing>
@@ -1572,7 +1566,6 @@ In severe ME/CFS, CNS energy is so limited that only Tier 1–3 activities (brai
 ]
 
 #recommendation(title: [Severe Case Cognitive Triage: Eliminate Complex Cognition])[
-<rec:severe-cognitive-triage>
 
 *For bedbound and housebound severe patients:* Your CNS energy budget is insufficient for all but survival functions. Rather than attempting to grade activities, simply eliminate cognitive demands entirely:
 
@@ -1582,7 +1575,7 @@ In severe ME/CFS, CNS energy is so limited that only Tier 1–3 activities (brai
 
 *If you must communicate:* Keep to essential topics only (health needs, medications, emergencies). Avoid extended conversations, explanations, or discussions. Keep responses to single sentences. Let others do the cognitive work.
 
-]
+] <rec:severe-cognitive-triage>
 
 *Cognitive Pacing*
 
@@ -1662,7 +1655,6 @@ For patients considering medical assistance in dying, this reduction in sufferin
 <sec:sensitization-prevention-severe>
 
 #protocol-box(title: [Sensitization-Prevention Protocol for Severe Patients])[
-<prot:sensitization-prevention>
 
 Rather than treating ME/CFS symptomatically in isolation, this protocol addresses the critical observation that severe disease represents a cascade of progressive sensitization @MCMC2024Neurometabolic. Each new system involvement, infection, or crash deepens neuroinflammatory priming and reduces tolerance for future perturbations. Prevention of further sensitization is the primary therapeutic goal for severe patients.
 
@@ -1713,7 +1705,6 @@ The astrocyte-neuron lactate shuttle (ANLS) is estimated to provide 30–50% of 
 ]
 
 #recommendation(title: [Lactate Shuttle Cofactor Protocol for Severe Cases])[
-<rec:lactate-shuttle-severe>
 
 *Components:*
 
@@ -1745,7 +1736,7 @@ The astrocyte-neuron lactate shuttle (ANLS) is estimated to provide 30–50% of 
 
 *Expected outcomes:* Improved cognitive clarity, reduced fatigue, better sustained attention. Timeline: 2–4 weeks for noticeable effect.
 
-]
+] <rec:lactate-shuttle-severe>
 
 *Metabolic Protection and Monitoring*
 
@@ -1764,12 +1755,11 @@ The sensitization-prevention protocol targets the documented cascade in which ne
 Duration: Maintain this protocol for minimum 3–6 months as foundation. Once sensitization is arrested (no new crashes, stable baseline), can add additional interventions from Section @sec:medium-term-recovery.
 
 ]
-
+ <prot:sensitization-prevention>
 == Glymphatic Enhancement Protocol for Severe Cases
 <sec:glymphatic-enhancement-severe>
 
 #protocol-box(title: [Glymphatic Enhancement for Neuroinflammation Reduction])[
-<prot:glymphatic-enhancement>
 
 *Conceptual Framework*
 
@@ -1822,7 +1812,7 @@ If no improvement after 8–12 weeks of sleep optimization + adjunctive agents, 
 
 Glymphatic enhancement is mechanistically complementary to sensitization prevention (Section @sec:sensitization-prevention-severe). While the sensitization-prevention protocol addresses active microglial activation and anti-inflammatory support, the glymphatic protocol targets clearance of neuroinflammatory products themselves. Combined, they address both active neuroinflammation production and passive clearance impairment @MCMC2024Neurometabolic.
 
-]
+] <prot:glymphatic-enhancement>
 
 == Medium-Term Recovery Strategies (Weeks to Months)
 <sec:medium-term-recovery>
@@ -1833,11 +1823,10 @@ After achieving initial symptom control, pursue fundamental treatments targeting
 <sec:immunoadsorption>
 
 #speculation(title: [EV Depletion as Primary Mechanism of Immunoadsorption Benefit])[
-<spec:ev-depletion-immunoadsorption>
 *Original Contribution*: This document proposes a novel mechanism for immunoadsorption efficacy in ME/CFS. Rather than attributing benefits solely to autoantibody removal (the traditional explanation), we hypothesize that *extracellular vesicle (EV) depletion* may be the primary therapeutic mechanism. Giloteaux et al. @Giloteaux2023 found elevated IL-2 and inflammatory cytokines specifically in EVs. Standard immunoadsorption removes EVs along with antibodies. This “Pathogenic EV” hypothesis (Section @sec:tier1-research) suggests EVs containing cytokines cross the blood-brain barrier, activate microglia, and cause cognitive dysfunction. *No prior literature has explicitly proposed EV depletion as the mechanism of immunoadsorption benefit in ME/CFS.*
 
 *Certainty: 0.20* (EV elevation documented @Giloteaux2023; immunoadsorption removes EVs as a physical consequence; causal primacy of EV depletion over autoantibody removal for clinical benefit is entirely unproven and no direct evidence exists)
-]
+] <spec:ev-depletion-immunoadsorption>
 
 *Rationale*
 Section @sec:tier1-research presents the “Pathogenic Extracellular Vesicle” hypothesis. Autoantibodies targeting G-protein coupled receptors (Section @sec:autoantibodies) may disrupt autonomic function and cerebral blood flow. Stein et al. @Stein2024immunoadsorption demonstrated 70% response rate in post-COVID ME/CFS patients, with benefits sustained to 6 months. Mechanism likely involves removal of both autoantibodies and pathogenic extracellular vesicles containing inflammatory cytokines.
@@ -1900,11 +1889,10 @@ Section @sec:tier1-research presents the “Pathogenic Extracellular Vesicle”
 <sec:low-dose-il2>
 
 #speculation(title: [Low-Dose IL-2 for Treg Restoration in ME/CFS])[
-<spec:low-dose-il2-mecfs>
 *Original Contribution*: This document is the *first to explicitly propose low-dose IL-2 therapy for ME/CFS* based on convergent recent evidence. Giloteaux et al. @Giloteaux2023 found elevated IL-2 in extracellular vesicles; Hunter et al. @Hunter2025 identified IL-2 signaling dysregulation in epigenetic biomarker panel; multiple studies document Treg deficiency. While low-dose IL-2 is established therapy for SLE and type 1 diabetes, *its application to ME/CFS with this specific mechanistic rationale is novel*. This represents an immediately actionable intervention using an FDA-approved drug with precedent in autoimmune disease.
 
 *Certainty: 0.25* (Treg deficiency documented in ME/CFS @Che2025; IL-2 pathway dysregulation identified @Hunter2025 @Giloteaux2023; low-dose IL-2 efficacy established in SLE and type 1 diabetes; extrapolation to ME/CFS is speculative with no ME/CFS-specific trials)
-]
+] <spec:low-dose-il2-mecfs>
 
 *Rationale*
 Section @hyp:il2-pathway presents convergent evidence for IL-2 pathway dysfunction. Section @sec:t-cells documents regulatory T cell (Treg) deficiency and T-cell exhaustion in ME/CFS. Autoantibodies (Section @sec:autoantibodies) suggest ongoing autoimmune processes. Low-dose IL-2 therapy selectively expands regulatory T cells, restoring immune tolerance and potentially suppressing autoantibody production.
@@ -1978,11 +1966,10 @@ Section @hyp:il2-pathway presents convergent evidence for IL-2 pathway dysfunct
 <sec:hormonal-modulation>
 
 #speculation(title: [Estrogen as Immune Modulator in Post-Menopausal ME/CFS])[
-<spec:estrogen-immune-modulation>
 *Original Contribution*: This document is the *first to propose estrogen supplementation specifically for ME/CFS* based on Che et al.'s 2025 finding @Che2025 of exaggerated IL-6 responses in post-menopausal women with low estradiol. While HRT is established therapy, *targeting it to ME/CFS patients based on documented sex-specific immune dysregulation is novel*. This represents a precision medicine approach: post-menopausal women with severe ME/CFS and low estradiol may benefit from HRT not just for menopausal symptoms, but for *direct immune modulation*. Applicable to 15–20% of severe cases.
 
 *Certainty: 0.30* (sex-specific IL-6 amplification in low-estradiol women documented @Che2025; estrogen immunomodulatory effects on IL-6 and TNF-$alpha$ established; direct evidence for HRT improving ME/CFS outcomes is absent; extrapolation from biomarker finding to therapeutic efficacy is speculative)
-]
+] <spec:estrogen-immune-modulation>
 
 *Rationale*
 Section @obs:sex-cytokines documents exaggerated IL-6 responses in women over 45 with diminished estradiol. Estrogen receptors on immune cells directly modulate cytokine production (Section @sec:pro-inflammatory); estrogen reduces IL-6, TNF-$alpha$, IL-1$beta$ production. Restoring physiological estrogen levels may dampen immune hyperactivation.
@@ -2068,11 +2055,10 @@ Section @obs:sex-cytokines documents exaggerated IL-6 responses in women over 4
 <sec:anti-cytokine>
 
 #hypothesis-box(title: [Immune Exhaustion Timeline: Duration-Stratified Therapeutic Window])[
-<hyp:immune-exhaustion-timeline>
 *Original Contribution*: This document proposes the *“Immune Exhaustion Timeline” hypothesis*—a completely novel framework for stratifying ME/CFS treatment by disease duration. Based on Hornig et al.'s finding @Hornig2015 that cytokines normalize after 3 years, we propose a *time-sensitive therapeutic window*: anti-cytokine biologics may only benefit patients in the early hyperactive phase before T-cell exhaustion occurs @iu2024tcell_exhaustion. *No prior protocol has explicitly stratified anti-cytokine therapy by illness duration in ME/CFS.* This represents a disease-modifying approach rather than pure symptom management. If validated, this framework would fundamentally change how newly diagnosed patients are treated.
 
 *Certainty: 0.35* (cytokine normalization after 3 years documented @Hornig2015; T-cell exhaustion markers elevated in ME/CFS @iu2024tcell_exhaustion; duration-stratified therapeutic window is a logical inference but remains unvalidated; no trials testing this framework exist)
-]
+] <hyp:immune-exhaustion-timeline>
 
 *Rationale*
 Section @ach:cytokine-duration documents that cytokine elevations occur primarily in early disease ($<$3 years). Section @sec:tier1-research presents the “Immune Exhaustion Timeline” hypothesis: a time-sensitive therapeutic window exists before immune exhaustion (Section @sec:t-cells) sets in. Early anti-cytokine intervention may prevent progression to chronic immune dysregulation.
@@ -2189,11 +2175,10 @@ Section @ach:cytokine-duration documents that cytokine elevations occur primari
 === Comprehensive Biomarker-Guided Approach
 
 #speculation(title: [Biomarker-Stratified Precision Medicine Framework for ME/CFS])[
-<spec:precision-medicine-framework>
 *Original Contribution*: This document presents the *first comprehensive biomarker-stratified treatment algorithm for ME/CFS* integrating duration, severity, sex, autoantibodies, cytokine profiles, T-cell exhaustion markers, and TRPM3 function. While individual biomarkers have been studied @Che2025 @Hunter2025 @Hornig2015 @Sasso2026trpm3, *no prior framework systematically matches specific biomarker profiles to specific interventions*. This precision medicine approach could achieve 50–60% response rates vs.\ 20–30% in unstratified trials. The decision tree below represents original synthesis of multiple research findings into actionable clinical pathways.
 
 *Certainty: 0.20* (individual biomarker findings are documented; the systematic biomarker-to-intervention matching is a novel synthesis without empirical validation; projected response rate improvements are theoretical; no trials have tested this stratification approach)
-]
+] <spec:precision-medicine-framework>
 
 Before pursuing stratified treatment, establish the patient's phenotype using the tiered protocol in Section @sec:phenotyping-imperative. Severe patients should exhaust Category A (energy-providing) treatments (Section @subsec:energy-categories) before attempting Category C (energy-demanding) interventions. For sustained recovery, pursue stratified treatment based on individual pathophysiology:
 
@@ -2356,14 +2341,12 @@ Before pursuing stratified treatment, establish the patient's phenotype using th
 ==== Wheat Elimination Trial for Severe/Bedbound Patients
 
 #hypothesis-box(title: [Wheat Elimination Reduces Baseline Gut Permeability in Bedbound ME/CFS])[
-<hyp:wheat-elimination-bedbound>
 Baseline gut barrier dysfunction (elevated zonulin, LPS, sCD14 in ME/CFS populations @GutPermeability2023) combined with chronic low-grade splanchnic hypoperfusion from dysautonomia @vanWijck2011 creates sustained intestinal ischemic stress in bedbound patients. Wheat consumption upregulates zonulin via gliadin and $alpha$-amylase trypsin inhibitors @Junker2012, potentially perpetuating tight junction sensitization. Wheat elimination may benefit bedbound patients by reducing baseline gut permeability independent of activity triggers, producing gradual improvements in symptom “noise floor” and quality of life that are inaccessible to patients who cannot exercise.
 
 *Certainty: 0.60* (gut permeability dysfunction documented in ME/CFS @GutPermeability2023; gliadin-zonulin mechanism established @Junker2012; splanchnic hypoperfusion in dysautonomia documented @vanWijck2011; direct evidence for wheat elimination efficacy in severe/bedbound ME/CFS patients is lacking; extrapolates from ambulatory wheat-exercise intolerance data; untested specifically in bedbound populations)
-]
+] <hyp:wheat-elimination-bedbound>
 
 #recommendation(title: [Wheat Elimination Trial Protocol for Severe/Bedbound Patients])[
-<rec:wheat-elimination-bedbound>
 
 *Implementation for Severe Patients:*
 
@@ -2379,7 +2362,7 @@ Baseline gut barrier dysfunction (elevated zonulin, LPS, sCD14 in ME/CFS populat
 
     - *Success definition*: If 20–30% improvement in baseline symptom severity by week 12, consider permanent elimination. If no improvement, reintroduce wheat by week 16 and explore other barriers (FODMAPs, histamine, other food sensitivities).
 
-]
+] <rec:wheat-elimination-bedbound>
 
 == Special Considerations for Severe Cases
 <sec:special-considerations>
@@ -2439,9 +2422,8 @@ All moderate-to-severe ME/CFS patients should receive nutritional assessment inc
     - *Total parenteral nutrition (TPN)*: Reserved for patients with severe GI intolerance to enteral feeding; carries infection risk via central venous access
 
 #warning-box(title: [Do Not Delay Tube Feeding Pending Psychiatric Assessment])[
-<warn:tube-feeding-delay>
 When a very severe ME/CFS patient cannot maintain adequate oral intake and is losing weight, tube feeding should be initiated on medical grounds without waiting for psychiatric clearance. Malnutrition compounds every ME/CFS pathophysiological process: it worsens mitochondrial function, impairs immune regulation, accelerates muscle loss, and increases orthostatic intolerance. The decision to pursue psychiatric assessment in parallel is appropriate; the decision to withhold nutrition pending that assessment is not @Baxter2021malnutrition.
-]
+] <warn:tube-feeding-delay>
 
 *Eating Disorder Comorbidity in Severe ME/CFS.*
 A minority of very severe ME/CFS patients have a genuine comorbid eating disorder (most commonly ARFID or anorexia nervosa). When eating disorder comorbidity is suspected, involve eating disorder specialists in parallel with ME/CFS management—but standard eating disorder interventions (graded exposure, behavioral activation, motivational enhancement) require significant modification to avoid triggering PEM. Psychological support for the anxiety and low mood _secondary_ to eating difficulties is appropriate and may reduce the self-reinforcing cycle documented by Harris et al.\ (2017) @Harris2017eating.

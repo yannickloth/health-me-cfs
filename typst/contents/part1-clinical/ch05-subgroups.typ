@@ -327,7 +327,6 @@ The traditional treatment approach in ME/CFS—empirical trial-and-error—assum
 For a very severe patient operating at the lowest functional levels, there may be only one or two tolerable failed trials before irreversible deterioration. In this context, empirical treatment selection is not “trial-and-error”—it is gambling with irreplaceable biological reserves.
 
 #hypothesis-box(title: [Prospective Phenotyping as Harm Reduction])[
-<hyp:phenotyping-harm-reduction>
 Even imperfect phenotype-guided treatment selection is likely safer than unguided empirical trials for severe ME/CFS patients. The reasoning:
 
     - *Reducing trial number*: Matching treatment to subtype reduces the expected number of failed trials before finding an effective intervention
@@ -338,7 +337,7 @@ Even imperfect phenotype-guided treatment selection is likely safer than unguide
 *Certainty: 0.35* (strong mechanistic reasoning from crash dose-response data and pharmacogenomic principles; clinical observation of treatment-induced deterioration in severe patients; no RCTs comparing phenotype-guided vs. empirical treatment selection in ME/CFS)
 
 *Testable prediction*: Severe ME/CFS patients treated with phenotype-guided protocols will experience fewer treatment-induced crashes and faster time-to-effective-treatment compared to patients treated empirically.
-]
+] <hyp:phenotyping-harm-reduction>
 
 *A Tiered Prospective Phenotyping Protocol.*
 Practical phenotyping need not require research-grade facilities. A tiered approach allows any physician to begin phenotype assessment, with increasing precision at higher tiers:
@@ -377,7 +376,6 @@ While the specific “Septad” terminology is not peer-reviewed, the individual
 These prevalence data support clinical clustering but do not validate the Septad as a unified syndrome with shared pathophysiology. The remaining components (autoimmunity, chronic infection, SFN, GI dysmotility) lack equivalent systematic prevalence studies in ME/CFS populations.
 
 #hypothesis-box(title: [The Septad: Seven Interacting Pathophysiologies])[
-<hyp:septad>
 ME/CFS patients frequently present with a cluster of seven interrelated conditions that may share underlying mechanisms:
 
     - *Mast Cell Activation Syndrome (MCAS)*: Aberrant mast cell degranulation causing multisystem symptoms including flushing, urticaria, GI disturbance, and anaphylactoid reactions. See Chapter @ch:translational-findings for mechanistic details.
@@ -388,7 +386,7 @@ ME/CFS patients frequently present with a cluster of seven interrelated conditio
     - *Small Fiber Neuropathy (SFN)*: Damage to small nerve fibers causing pain, paresthesias, and autonomic symptoms. See Chapter @ch:neurological for autonomic neuropathy.
     - *GI Dysmotility*: Impaired gut motility (gastroparesis) leading to small intestinal bacterial overgrowth (SIBO) and malabsorption. See Chapter @ch:gut-microbiome for gastrointestinal pathophysiology.
 
-]
+] <hyp:septad>
 
 *Clinical Rationale.*
 The Septad emerged from clinical pattern recognition: Dr.\ Andy Maxwell, a cardiologist treating MCAS patients, observed that nearly all presented with the same constellation of conditions. Kaufman and colleagues recognized this as a framework for organizing the complexity of these patients, noting that “the Septad creates a map that allows the physician to organize what I've heard in a much more usable and actionable way.”
@@ -411,9 +409,8 @@ Kaufman describes the framework as having “seven circles with a million arrows
 The traditional framing of Septad conditions as “comorbidities” (independent conditions that happen to coexist) may be inadequate. A more useful clinical model considers these conditions as _potentially cascading pathophysiologies_, where each can initiate or amplify others.
 
 #hypothesis-box(title: [Septad Conditions as Cascading Pathophysiologies])[
-<hyp:septad-cascade>
 Rather than seven independent conditions with coincidental co-occurrence, the Septad may represent a pathophysiological cascade where upstream conditions drive downstream manifestations. *Primary initiators* (hEDS, chronic infection, MCAS) drive *secondary amplifiers* (dysautonomia, SFN, GI dysmotility, autoimmunity), which ultimately cause *tertiary consequences* (mitochondrial dysfunction, ME/CFS phenotype).
-]
+] <hyp:septad-cascade>
 
 *Primary Initiators (Upstream Conditions):*
 
@@ -523,9 +520,8 @@ While not part of the original Septad, craniocervical instability has emerged as
 <obs:bragee-structural>
 Bragée et al. @Bragee2020 conducted upright MRI imaging in 229 ME/CFS patients (Canadian Consensus Criteria), finding craniocervical obstructions in 80% (183/229), signs of intracranial hypertension in 78% (179/229), and hypermobility indicators in 75% (172/229). Notably, 45% had Chiari malformation (cerebellar tonsillar descent \>5mm) compared to 0.5–1% prevalence in the general population. Structural findings correlated with orthostatic intolerance severity (r=0.42, p\<0.001), suggesting a potential mechanistic contribution to autonomic dysfunction in the hypermobile subset (prospective study, n=229, Medium certainty).
 #warning-box(title: [Selection Bias and Interpretation Caveats])[
-<warn:bragee-selection>
 The high prevalence of structural abnormalities reported by Bragée et al. @Bragee2020 comes from a specialized clinic that focuses on craniocervical pathology and may represent a selected population; authors are affiliated with the clinic providing structural interventions, representing a potential conflict of interest. Additionally, the study lacked matched healthy controls with upright MRI, using historical controls from supine imaging instead. Independent replication in community-based, unselected ME/CFS cohorts is needed to determine generalizability. A systematic review of CCI in EDS @Lohkamp2022 (16 studies, n=695) found significant heterogeneity in diagnostic criteria, with no consensus on single measurement thresholds—necessitating comprehensive evaluation using multiple imaging parameters and clinical correlation.
-]
+] <warn:bragee-selection>
 
 *Diagnostic and Treatment Considerations.*
 Upright MRI evaluation should be considered in ME/CFS patients with hypermobility (Beighton score $gt.eq$5), severe orthostatic intolerance, positional symptoms (worse upright, better supine), progressive neurological deficits, or suboccipital headaches. Reference ranges for CCI measurements on upright dynamic MRI have been established @Nicholson2023. Conservative management including specialized physical therapy @Russek2023 should be first-line; surgical stabilization (occipito-cervical fusion) shows 60–80% improvement in properly selected patients but carries significant complication rates (19%) @Henderson2024 @Lohkamp2022. Patient selection is critical, as surgical intervention is appropriate only for progressive myelopathy or failed conservative treatment.
@@ -573,18 +569,16 @@ Of the seven Septad components, only four (chronic infection, dysautonomia/POTS,
 The clinical clustering of Septad components suggests potential unifying mechanisms that may explain why these conditions co-occur. Two hypotheses merit consideration:
 
 #hypothesis-box(title: [Autophagy/mTOR Dysfunction as Septad Unifier])[
-<hyp:autophagy-septad>
 The rapamycin pilot study @Ruan2025rapamycin reported 74.3% symptom improvement and observed autophagy marker changes (BECLIN-1 upregulation and pSer258-ATG13 suppression), though whether autophagy restoration mediated the clinical effect cannot be established from an uncontrolled trial. Autophagy dysfunction could theoretically contribute to multiple Septad components: mast cell degranulation regulation (MCAS), mitochondrial quality control in autonomic neurons (dysautonomia), small nerve fiber maintenance (SFN), enteric nervous system function (GI dysmotility), and intracellular pathogen clearance (chronic infection) @Ruan2025rapamycin. If validated, Septad-positive patients may represent an autophagy-dysfunction subgroup.
-]
+] <hyp:autophagy-septad>
 
 #limitation(title: [Autophagy–Septad Extrapolation Boundaries])[
 This hypothesis extrapolates from a single uncontrolled pilot study to multi-system effects not measured in that trial. The rapamycin study enrolled 86 patients; 70 completed day 36 and 40 completed the full 90-day protocol, representing 53% attrition that may bias results. The study did not assess Septad component status, mast cell markers, nerve fiber density, or GI function. The mechanistic connections (autophagy $arrow.r$ each Septad component) are individually plausible based on cellular biology but have not been demonstrated in ME/CFS cohorts.
 ]
 
 #hypothesis-box(title: [Connective Tissue Matrix as Common Substrate])[
-<hyp:ct-septad>
 Six of seven Septad components have anatomical or functional connections to connective tissue: EDS is a primary connective tissue disorder; POTS involves vascular wall compliance; SFN involves nerve fibers traversing connective tissue matrix; GI dysmotility depends on gut wall integrity; mast cells reside in connective tissue and show increased prevalence of dysregulation in hypermobile patient populations @Wang2021triad; and autoimmunity can target connective tissue proteins. Rather than seven independent conditions, the Septad may represent downstream manifestations of altered extracellular matrix composition or mechanics in hypermobile individuals.
-]
+] <hyp:ct-septad>
 
 #limitation(title: [Connective Tissue Hypothesis: Untested Causal Claims])[
 No studies have directly measured connective tissue biomarkers (matrix metalloproteinases, procollagen peptides, tenascin-C) in Septad-phenotype ME/CFS patients. The hypothesis that connective tissue abnormality causes (rather than merely correlates with) Septad clustering is untested. The non-EDS Septad components (autoimmunity, chronic infection) have weaker connective tissue links.
@@ -607,7 +601,6 @@ This phenotype is based on clinical case series and mechanistic reasoning, not r
 Clinical observation has identified a subset of ME/CFS patients who show dramatic improvement with cimetidine (an H2 receptor antagonist) combined with amino acid supplementation. This pattern suggests a distinct pathophysiological phenotype worthy of systematic investigation.
 
 #hypothesis-box(title: [Cimetidine-Responder Phenotype])[
-<hyp:cimetidine-responder>
 A subset of post-infectious ME/CFS patients may have a viral-immune-metabolic phenotype characterized by:
 
 *Clinical Features:*
@@ -625,7 +618,7 @@ Two parallel pathways may converge:
     - *Metabolic pathway*: MCAS/HIT $arrow.r$ intestinal barrier dysfunction $arrow.r$ amino acid malabsorption $arrow.r$ impaired NO synthesis and TCA cycle function $arrow.r$ secondary mitochondrial dysfunction
 
 Cimetidine may address the viral-immune component while amino acid supplementation restores metabolic capacity.
-]
+] <hyp:cimetidine-responder>
 
 #warning-box(title: [Evidence Limitations])[
 The “cimetidine-responder” phenotype is based on:

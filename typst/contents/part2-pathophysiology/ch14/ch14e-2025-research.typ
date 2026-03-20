@@ -279,7 +279,6 @@ This approach treats ME/CFS as a vascular disease, which it may fundamentally be
 <sec:evolutionary-deferred-cost>
 
 #speculation(title: [Preserved Emergency Override with Broken Restoration: An Evolutionary Account of PEM Delay])[
-<spec:evolutionary-deferred-cost>
 
 The characteristic 12–72 hour delay between exertion and post-exertional malaise (PEM) in ME/CFS
 is often treated as a disease-specific anomaly requiring special explanation. This speculation
@@ -401,10 +400,9 @@ of baseline function.
 
 (Certainty: Very low. Evolutionary-mechanistic synthesis; individual components are established,
 but the integrated framework has not been directly tested in ME/CFS.)
-]
+] <spec:evolutionary-deferred-cost>
 
 #speculation(title: [Post-Viral Methyl-Group Depletion as a ME/CFS Onset Mechanism])[
-<spec:methyl-assault-onset>
 McCaddon and Regland propose that viral infections — including SARS-CoV-2 — initiate
 ME/CFS-like states through a “methyl-group assault”: simultaneous depletion of methyl-group
 availability (via viral RNA modification demands consuming SAM) and impairment of resupply
@@ -427,5 +425,5 @@ ideas without requiring primary empirical data. Requires prospective biomarker s
 interventional trials for validation.
 
 (Certainty: Very low. Hypothesis only.)
-]
+] <spec:methyl-assault-onset>
 

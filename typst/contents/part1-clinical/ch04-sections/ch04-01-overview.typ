@@ -77,7 +77,6 @@ caption: [Symptom severity by diagnostic criteria met],
 No gold standard exists for ME/CFS, making traditional sensitivity/specificity calculations impossible. However, we can assess *predictive validity*: do patients meeting stricter criteria show more consistent biomarker abnormalities and treatment responses?
 
 #hypothesis-box(title: [Specificity-Homogeneity Trade-off])[
-<hyp:specificity-homogeneity>
 Stricter diagnostic criteria increase disease homogeneity (reducing phenotypic variance) at the cost of excluding milder cases. Formally:
 
 Let $sigma^2_{"pheno"}(X)$ denote phenotypic variance within the population $X$ meeting criterion set. Then:
@@ -93,7 +92,7 @@ This implies:
     - *Treatment trials*: Stricter criteria may improve signal detection but limit generalizability
 
 The optimal criterion set depends on context: research requires homogeneity; clinical practice requires sensitivity.
-]
+] <hyp:specificity-homogeneity>
 
 === Clinical Implications of Framework Choice
 

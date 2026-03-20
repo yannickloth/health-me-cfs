@@ -47,7 +47,6 @@ Generally well-tolerated:
     - Nausea (rare)
 
 #warning-box(title: [LDN Psychiatric Adverse Effects])[
-<warn:ldn-psychiatric>
 While LDN is generally well-tolerated, *severe psychiatric reactions including depression and suicidal ideation* have been reported in a subset of ME/CFS patients. These reactions appear more common in individuals who exhibit paradoxical responses to other medications.
 
 *Risk factors for psychiatric adverse effects:*
@@ -65,7 +64,7 @@ While LDN is generally well-tolerated, *severe psychiatric reactions including d
     - Discontinue immediately if depressive symptoms or suicidal ideation emerge
 
 LDN's reputation as a “harmless” intervention may lead to inadequate monitoring. Patients and prescribers should maintain vigilance for mood changes, particularly in the “paradoxical reactor” phenotype (see Section @sec:paradoxical-reactor).
-]
+] <warn:ldn-psychiatric>
 
 #speculation(title: [LDN Combination Protocols])[
 Patient community reports describe synergistic benefits from combining LDN with other interventions. One frequently mentioned combination involves LDN (at bedtime), NAD+ precursors (nicotinamide riboside or NMN, in the morning), and melatonin (at bedtime for circadian regulation). The theoretical rationale combines: (1) LDN's anti-neuroinflammatory effects, (2) NAD+'s role in mitochondrial energy production and cellular repair, and (3) melatonin's effects on sleep architecture, circadian rhythm, and its own anti-inflammatory properties. Individual case reports describe dramatic improvements, including return to work after prolonged disability. However, this represents *anecdotal evidence only*—no controlled trials have evaluated this specific combination, and publication bias strongly favors positive reports. The heterogeneous nature of ME/CFS means that treatments helping some patients may be ineffective or harmful for others. Patients considering such combinations should work with knowledgeable physicians and implement changes sequentially to identify individual responses.
@@ -375,7 +374,6 @@ Generally very well-tolerated:
     - *Drug interactions*: May reduce warfarin effectiveness; monitor INR if anticoagulated
 
 #warning-box(title: [Statin-Induced CoQ10 Depletion in ME/CFS])[
-<warn:statin-coq10>
 Statins (HMG-CoA reductase inhibitors) deplete CoQ10 by blocking the mevalonate pathway, which is required for both cholesterol and CoQ10 synthesis. This has critical implications for ME/CFS patients:
 
 *ME/CFS-specific concern:* ME/CFS patients have significantly lower baseline plasma CoQ10 levels than healthy controls, with 44.8% below the lowest control value @Maes2009CoQ10. Lower CoQ10 correlates with worse fatigue, autonomic symptoms, and cognitive dysfunction.
@@ -389,7 +387,7 @@ Statins (HMG-CoA reductase inhibitors) deplete CoQ10 by blocking the mevalonate 
     - Monitor symptom changes closely when initiating statins in ME/CFS patients
 
 *Note on statin pleiotropic effects:* Statins possess anti-inflammatory and immunomodulatory properties beyond lipid-lowering @Blum2004StatinPleio. In autoimmune conditions, these effects can be beneficial @McCarey2004StatinRA. However, in ME/CFS, the risk of worsening mitochondrial dysfunction through CoQ10 depletion likely outweighs potential anti-inflammatory benefits, particularly given that alternative anti-inflammatory approaches exist that do not deplete CoQ10.
-]
+] <warn:statin-coq10>
 
 *Energy Profile.*
 Category A (net energy provider). CoQ10 directly supports electron transport at the Complex I/III junction, providing substrate for ATP synthesis rather than consuming it. Supplementation replenishes a cofactor found to be deficient in ME/CFS patients, with deficiency levels correlating with fatigue severity and autonomic symptoms @Maes2009CoQ10. One of the safest treatments for energy-depleted patients—it supplies what the system lacks. Ubiquinol form requires no metabolic conversion, making it especially suitable for severe patients with impaired reduction capacity.
@@ -797,9 +795,8 @@ Category B (energy-neutral). Standardized herbal extract with minimal metabolic 
 Central nervous system stimulants are among the most commonly used symptomatic treatments for ME/CFS cognitive dysfunction and fatigue, despite limited evidence and explicit guideline recommendations against their curative use @NICE2021mecfs @ClinicianCoalition2021. This section provides a comprehensive pharmacological analysis of each agent class through the lens of ME/CFS pathophysiology, with particular attention to the risk of post-exertional malaise.
 
 #warning-box(title: [The Fundamental Paradox of Stimulant Use in ME/CFS])[
-<warn:stimulant-paradox>
 ME/CFS is characterised by a genuine deficit in cellular energy production—impaired mitochondrial function, reduced ATP synthesis, and abnormal metabolomics. No stimulant addresses this underlying pathology. All stimulants suppress fatigue signals without increasing the body's capacity to produce energy. This is functionally equivalent to disabling the low-fuel warning light while driving on an almost-empty tank: the car does not run further because the light is off; it runs until it stalls. The NICE 2021 guideline committee stated explicitly: “CNS stimulants could cause people with ME/CFS to push themselves outside of their energy limits which could have damaging effects” @NICE2021mecfs.
-]
+] <warn:stimulant-paradox>
 
 === Modafinil and Armodafinil
 <subsec:modafinil>
@@ -1054,7 +1051,6 @@ The PNAS 2025 survey (n=3,925) provides the clearest clinical evidence of this d
 Overexertion can permanently lower a patient's functional baseline. The CDC states that “repeatedly overdoing it may cause a severe and long-lasting relapse” @CDC2024preventing. The published account of Whitney Dafoe documents progression from mild ME/CFS to extremely severe bedridden status, with specific overexertion events marking permanent step-down transitions where recovery was incomplete @Dafoe2021severe. Since stimulants are the most effective tool for masking the warning signals that prevent overexertion, they are logically the highest-risk category of medication for enabling such irreversible transitions.
 
 #speculation(title: [Stimulant-Enabled Push-Crash Cycle as Disease Progression Driver])[
-<spec:stimulant-progression>
 
 Chronic stimulant use in ME/CFS patients who exceed their energy envelope may drive disease progression through a cumulative push-crash cycle: each overexertion-triggered crash risks establishing a new, lower functional baseline, and repeated cycles produce a progressive downward trajectory. The energy envelope literature demonstrates that staying within limits improves outcomes @Jason2008EnergyEnvelope @Jason2013envelope, implying that systematically exceeding those limits (as stimulants enable) would produce the opposite trajectory.
 
@@ -1063,7 +1059,7 @@ Chronic stimulant use in ME/CFS patients who exceed their energy envelope may dr
 *Certainty*: 0.40 (mechanistic reasoning from energy envelope theory and two-day CPET data; no longitudinal stimulant-specific outcome data exist).
 
 *Limitations*: Confounding by indication—patients who use stimulants may have greater economic/social pressure to maintain activity, independently worsening outcomes. The relationship between stimulant pharmacology and overexertion is behavioural, not deterministic.
-]
+] <spec:stimulant-progression>
 
 ==== Is There a Safe Threshold?
 
@@ -1157,7 +1153,6 @@ Chronic amphetamine sensitises the HPA axis, and withdrawal produces an ACTH-hig
 The social reality is that many ME/CFS patients face economic or social pressure to maintain work capacity. When stimulant use is a practical necessity rather than an optimal choice, the following strategies may minimise harm @ClinicianCoalition2021:
 
 #protocol-box(title: [Harm Reduction for Stimulant Use in ME/CFS])[
-<prot:stimulant-harm-reduction>
 
 *1. Dose minimisation:*
 
@@ -1190,7 +1185,7 @@ The social reality is that many ME/CFS patients face economic or social pressure
     - CoQ10 200 mg + NADH 20 mg daily showed improvement in fatigue and quality of life in ME/CFS (n=207 RCT) @Castro2015coq10nadh
     - These do not offset stimulant-enabled overexertion but may support baseline metabolic function
 
-]
+] <prot:stimulant-harm-reduction>
 
 === Comparative Risk Assessment
 <subsec:stimulant-comparison>
@@ -1250,7 +1245,6 @@ A striking feature of ME/CFS treatment is the extreme variability in individual 
 <obs:brain-first-sequence>
 Patient communities have developed an empirical treatment sequencing approach that prioritizes symptom domains in a specific order: (1) cognition/brain fog first, (2) fatigue second, (3) muscle weakness and pain third. The rationale is that cognitive restoration allows patients to better recognize their activity limits and manage pacing effectively, whereas fatigue improvement without cognitive restoration leads to dangerous overexertion. A frequently described sequence combines: low-dose aripiprazole or similar dopaminergic agents for cognitive symptoms (if metabolically tolerated), followed by low-dose naltrexone for sustained energy support, then pyridostigmine for autonomic/muscle symptoms. This represents community-derived knowledge rather than evidence-based protocol. Individual case reports describe dramatic functional improvement with this sequence, though others experience minimal benefit or adverse effects. The theoretical appeal lies in addressing the constraint (cognition) that limits patient's ability to self-manage other symptoms. However, this protocol lacks controlled trial validation, and the optimal sequence likely varies by individual pathophysiology. Patients considering such sequencing should work with knowledgeable physicians, monitor carefully for adverse effects (particularly metabolic effects of dopaminergic agents), and recognize that individual responses may differ substantially from published case reports.
 #hypothesis-box(title: [Upstream-to-Downstream Treatment Sequencing])[
-<hyp:treatment-cascade-mechanism>
 
 The “Brain First” sequence LDA → LDN → Mestinon may align with the neuroinflammatory cascade hypothesis in pathophysiology:
 
@@ -1281,7 +1275,7 @@ This upstream-to-downstream approach may be more effective than simultaneous mul
 The “Brain First” sequence represents an emerging hypothesis that cognitive improvement should precede fatigue improvement to allow safer self-management of remaining symptoms. Whether the proposed cascade mechanism actually explains superior outcomes remains uncertain.
 
 *Certainty:* 0.25 (mechanistic reasoning from known pharmacology; no controlled trials testing this specific sequence; speculative cascade model)
-]
+] <hyp:treatment-cascade-mechanism>
 
 #open-question(title: [Predicting Treatment Response])[
 Can clinical features, biomarkers, or genetic profiles predict which ME/CFS patients will respond to specific treatments? If the syndrome comprises distinct pathophysiological subgroups, identifying these subgroups prior to treatment could dramatically improve therapeutic efficiency and reduce the burden of failed empirical trials. Potential stratification approaches include: immune profiling (B cell subsets, autoantibodies, NK function), metabolomic signatures, microbiome composition, autonomic phenotyping, or combinations thereof. Machine learning approaches applied to multi-omic datasets may eventually identify patterns invisible to traditional analysis.
@@ -1326,7 +1320,6 @@ A treatment that produces temporary but not durable improvement is _clinically s
 
 This pattern suggests a plausible next step: testing for viral reactivation and, if positive, adding antiviral therapy with the goal of converting compensatory treatment into disease-modifying treatment.
 #warning-box(title: [Avoid Premature Conclusion of Treatment Failure])[
-<warn:premature-failure>
 A treatment that works temporarily should not be abandoned simply because relapse occurs. Instead:
 
     - Document the response pattern (onset, magnitude, duration, relapse triggers)
@@ -1334,7 +1327,7 @@ A treatment that works temporarily should not be abandoned simply because relaps
     - Consider whether an additional intervention could make the response durable
     - Maintain compensatory treatments while pursuing root cause identification
 
-]
+] <warn:premature-failure>
 
 === The Cimetidine-Antiviral Synergy Hypothesis
 <sec:cimetidine-antiviral-synergy>
@@ -1342,7 +1335,6 @@ A treatment that works temporarily should not be abandoned simply because relaps
 For patients with suspected viral-driven ME/CFS who show cimetidine response, a synergistic approach combining immunomodulation with direct antiviral therapy may convert temporary improvement into durable remission.
 
 #hypothesis-box(title: [Mechanistic Rationale for Cimetidine-Antiviral Combination])[
-<hyp:cimetidine-antiviral>
 *Cimetidine alone*:
 
     - Blocks H2 receptors on suppressor T cells, enhancing cellular immunity @Goldstein1986CimetidineEBV
@@ -1363,7 +1355,7 @@ For patients with suspected viral-driven ME/CFS who show cimetidine response, a 
     - Two-pronged attack: direct viral suppression + enhanced immune-mediated clearance
     - May produce more complete viral suppression and more durable remission than either alone
 
-]
+] <hyp:cimetidine-antiviral>
 
 Goldstein et al. @Goldstein1986CimetidineEBV reported improvement in patients with chronic active EBV infection treated with cimetidine. More recent reviews of H2 receptor immunomodulation @vanderPol2021H2ReceptorImmune confirm the mechanistic basis for enhanced cellular immunity. A recent pharmacokinetic study by Stuijt et al. @Stuijt2026CimetidineAcyclovir demonstrated that cimetidine significantly enhances systemic acyclovir concentrations through inhibition of renal clearance, providing a mechanistic rationale for the synergistic potential of cimetidine-antiviral combinations. The logical extension—combining H2 blockade with direct antiviral therapy—represents a hypothesis-driven approach worthy of controlled evaluation.
 *Practical Protocol Considerations.*
@@ -1517,7 +1509,6 @@ Based on mechanistic reasoning and limited case reports:
     - *Durability*: Unknown; may require ongoing treatment to maintain benefit
 
 #hypothesis-box(title: [Mechanism of Response])[
-<hyp:vim-mechanism>
 The proposed mechanism integrates two parallel pathways:
 
 *Viral-immune pathway*: Cimetidine blocks H2 receptors on suppressor T cells, enhancing cellular immunity against persistent herpesviruses (EBV, HHV-6). This allows improved viral control without requiring direct antivirals.
@@ -1525,7 +1516,7 @@ The proposed mechanism integrates two parallel pathways:
 *Metabolic pathway*: MCAS/HIT causes intestinal barrier dysfunction and amino acid malabsorption. Exogenous amino acid supplementation (citrulline, NAC) bypasses the absorption deficit, restoring NO synthesis, glutathione levels, and TCA cycle function.
 
 The synergy explains why patients may respond to the combination (cimetidine + amino acids) more than to either alone.
-]
+] <hyp:vim-mechanism>
 
 #warning-box(title: [Cimetidine Drug Interactions])[
 Cimetidine is a CYP450 inhibitor (particularly CYP1A2, CYP2D6, CYP3A4). It may increase levels of medications metabolized by these enzymes, including:
@@ -1593,7 +1584,6 @@ Systematic reviews consistently rank pyridostigmine below ivabradine, midodrine,
 *Clinical Experience.* Widely used in ME/CFS clinics for autonomic symptoms beyond the formal trial evidence.
 
 #warning-box(title: [ME/CFS Dose Sensitivity])[
-<warn:mestinon-mecfs-dosing>
 *ME/CFS patients typically require 1/4 to 1/3 of standard pyridostigmine doses.*
 
 *Standard POTS dosing*: 30–60 mg three times daily (90–180 mg/day total)
@@ -1616,7 +1606,7 @@ Systematic reviews consistently rank pyridostigmine below ivabradine, midodrine,
     - Bradycardia
 
 If gastrointestinal symptoms occur, reduce dose rather than discontinuing.
-]
+] <warn:mestinon-mecfs-dosing>
 
 ==== Dosing Protocol for ME/CFS
 
@@ -1649,13 +1639,12 @@ Beyond its autonomic effects, pyridostigmine may exert immunomodulatory activity
 Paradoxically, no significant changes in measured inflammatory markers (IL-6, TNF-$alpha$, IFN-$gamma$, CRP, ferritin, D-dimer) were observed, suggesting the mechanism may operate through neural anti-inflammatory signaling (vagal efferent modulation of immune cells) rather than direct cytokine suppression.
 
 #speculation(title: [Pyridostigmine Immunomodulation in ME/CFS])[
-<spec:pyridostigmine-immunomod>
 If pyridostigmine's anti-inflammatory effects in severe COVID-19 are mediated by the cholinergic anti-inflammatory pathway (vagal acetylcholine acting on $alpha$7 nicotinic receptors on macrophages and T cells), similar immunomodulatory benefit might occur in ME/CFS, where vagal tone is reduced and low-grade neuroinflammation is documented. This would represent a dual mechanism of action—autonomic _and_ immune—beyond the conventional framing as a purely autonomic agent. The absence of measurable cytokine changes in the PISCO trial @FragosoSaavedra2022pisco suggests that standard inflammatory panels may be insensitive to vagally-mediated immune modulation, which operates at the tissue rather than systemic level.
 
 *Certainty*: 0.25 (single trial in a different disease context; no direct ME/CFS immune data for pyridostigmine).
 
 *Testable prediction*: ME/CFS patients on chronic pyridostigmine should show improved heart rate variability (reflecting enhanced vagal tone) that correlates with reductions in tissue-level inflammatory markers (e.g., neuroimaging-detected neuroinflammation) even without changes in serum cytokines.
-]
+] <spec:pyridostigmine-immunomod>
 
 ==== Ongoing Trials
 
@@ -1718,7 +1707,6 @@ While both are H2 blockers, cimetidine and famotidine have important differences
 *Clinical implication*: Famotidine cannot be substituted for cimetidine when immunomodulation is the therapeutic goal. However, for pure acid suppression in patients requiring CYP450-metabolized medications, famotidine is preferred.
 
 #warning-box(title: [H2 Blocker Psychiatric Adverse Effects])[
-<warn:h2-psychiatric>
 H2 receptor antagonists can cause psychiatric adverse effects, including *depression and suicidal ideation*. While these are rare, they appear more frequent in patients with the “paradoxical reactor” phenotype (see Section @sec:paradoxical-reactor).
 
 *Famotidine-specific risk*: Despite lower CNS penetration than cimetidine, famotidine has been associated with severe psychiatric reactions in susceptible individuals. Notably, some patients tolerate cimetidine but not famotidine, suggesting drug-specific rather than class-wide effects.
@@ -1737,10 +1725,9 @@ H2 receptor antagonists can cause psychiatric adverse effects, including *depres
     - Discontinue immediately if depressive symptoms or suicidal ideation emerge
     - If famotidine causes psychiatric effects, do not assume cimetidine will also—trial may be warranted
 
-]
+] <warn:h2-psychiatric>
 
 #warning-box(title: [Aspirin Contraindication in Histamine Intolerance])[
-<warn:aspirin-hit>
 *Aspirin is contraindicated in patients with histamine intolerance (HIT).*
 
 Aspirin inhibits platelet cyclo-oxygenase, which reduces platelet-mediated histamine inactivation. This mechanism causes aspirin to trigger histamine release and block histamine metabolism, significantly worsening symptoms in patients with HIT or MCAS.
@@ -1753,7 +1740,7 @@ For ME/CFS patients with confirmed HIT or MCAS-overlap phenotype:
     - *Communicate with prescribers*: Clearly document HIT status to prevent inadvertent aspirin prescription
 
 This contraindication applies regardless of cardiovascular indication, as the histamine burden outweighs cardioprotective benefit.
-]
+] <warn:aspirin-hit>
 
 === Cimetidine-LDN Synergy Protocol for Viral-Immune-Phenotype ME/CFS
 <sec:cimetidine-ldn-synergy>
@@ -1761,7 +1748,6 @@ This contraindication applies regardless of cardiovascular indication, as the hi
 For patients with evidence of viral-immune phenotype (elevated EBV titers, history of viral trigger, strong response to cimetidine alone), combining cimetidine with low-dose naltrexone may address both viral-immune and neuroinflammatory pathways.
 
 #hypothesis-box(title: [Cimetidine-LDN Mechanistic Rationale])[
-<hyp:cimetidine-ldn-mechanism>
 
 *Cimetidine immunomodulation:*
 
@@ -1785,10 +1771,9 @@ The combination targets two complementary mechanisms:
 
 This mechanism may explain why some patients report dramatic response to cimetidine alone but plateau at partial improvement, while combination with LDN may extend recovery further. (This combination rationale is inferred from individual case reports, not controlled trial data.)
 
-]
+] <hyp:cimetidine-ldn-mechanism>
 
 #protocol-box(title: [Cimetidine-LDN Synergy Protocol for Viral-Immune Phenotype])[
-<prot:cimetidine-ldn-protocol>
 
 *Patient Selection:*
 
@@ -1855,7 +1840,7 @@ For sustained responders:
     - Reassess quarterly: symptoms, EBV titers, mood screening
     - Plan gradual dose reduction after 12–18 months of stability if viral titers have normalized
 
-]
+] <prot:cimetidine-ldn-protocol>
 
 <obs:cimetidine-ldn-precedent>
 
@@ -1983,7 +1968,6 @@ caption: [H2 antihistamine dosing: standard vs.\ MCAS therapeutic range],
 <sec:updosing-protocol>
 
 #protocol-box(title: [MCAS Antihistamine Up-Dosing in ME/CFS])[
-<prot:mcas-updosing>
 
 *Prerequisite*: Clinical suspicion of MCAS (see Section @sec:mcas-mild-moderate) and inadequate response to standard-dose H1+H2 combination after 4 weeks.
 
@@ -2012,7 +1996,7 @@ caption: [H2 antihistamine dosing: standard vs.\ MCAS therapeutic range],
 
 *ME/CFS-specific caution*: Introduce dose changes more slowly than in general MCAS populations. ME/CFS patients with medication sensitivity phenotypes (Section @sec:med-sensitivity) may not tolerate rapid escalation. Consider 2-week intervals between dose steps rather than 1-week intervals.
 
-]
+] <prot:mcas-updosing>
 
 == Medication Sensitivity Phenotypes
 <sec:med-sensitivity>
@@ -2183,7 +2167,6 @@ Aripiprazole, a partial dopamine agonist, is occasionally used at low doses for 
 ==== Metabolic Risk Warning
 
 #warning-box(title: [Aripiprazole-Associated Prediabetes and Metabolic Syndrome Risk])[
-<warn:lda-metabolic>
 *CRITICAL: Aripiprazole carries prediabetes risk even at low doses, with particular implications for ME/CFS patients.*
 
 While atypical antipsychotics are known to cause metabolic derangements (particularly olanzapine, quetiapine), aripiprazole was initially classified as having lower metabolic risk. However, emerging evidence and clinical observation suggest this may be false reassurance, particularly in the ME/CFS population.
@@ -2212,14 +2195,13 @@ Adding aripiprazole (which impairs metabolic regulation) to ME/CFS patients with
     - Consider metabolic-neutral alternatives (bupropion, low-dose stimulants) for cognitive symptoms or dopaminergic dysfunction
 
 The theoretical benefit for cognition must be weighed against real metabolic risk in a population already vulnerable to metabolic derangement.
-]
+] <warn:lda-metabolic>
 
 ==== Metabolic Protection During LDA Therapy
 
 If low-dose aripiprazole is deemed beneficial despite metabolic risks, the following protocol preserves cognitive benefits while preventing metabolic amplification of disease:
 
 #protocol-box(title: [LDA Metabolic Protection Protocol])[
-<prot:lda-metabolic-protection>
 
 *Baseline Assessment (before LDA initiation):*
 
@@ -2264,14 +2246,13 @@ If low-dose aripiprazole is deemed beneficial despite metabolic risks, the follo
     - *Rationale*: Additional weight regulation, greater glycemic control, cardiovascular benefit
     - *Caution*: Nausea may be problematic in patients with MCAS or GI sensitivity; start at lowest dose
 
-]
+] <prot:lda-metabolic-protection>
 
 #warning-box(title: [LDA Metabolic Amplification of Neuroinflammatory Cascade])[
-<warn:lda-metabolic-neuroinflammatory>
 LDA metabolic effects may create a therapeutic ceiling through metabolic amplification of neuroinflammation. The sequence hypothesized in the cascade neuroinflammatory model (see Section @sec:cimetidine-antiviral-synergy and pathophysiology section on neuroinflammatory cascade) suggests that metabolic dysfunction feeds back into neuroimmune activation, limiting the cognitive benefits achievable with dopaminergic therapy alone.
 
 Monitor and intervene early to prevent metabolic syndrome amplifying the neuroinflammatory cascade and offsetting the cognitive benefits of LDA therapy. This protective approach may allow extended use of an otherwise effective intervention.
-]
+] <warn:lda-metabolic-neuroinflammatory>
 
 ==== Alternative Approaches for Cognitive Dysfunction
 

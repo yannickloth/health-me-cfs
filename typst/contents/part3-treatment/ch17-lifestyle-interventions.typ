@@ -133,7 +133,6 @@ For severe ME/CFS patients—particularly those with postural orthostatic intole
 In healthy individuals, meals trigger 10–30% increase in splanchnic blood flow to support gastric emptying, intestinal motility, and nutrient absorption @terSteege2012. In POTS and severe ME/CFS patients, this post-prandial demand may not be met without compromising cardiovascular stability or cerebral perfusion, based on the autonomic dysfunction documented in these populations (see Section @sec:pots). The clinical result is frequently exacerbated symptoms: dizziness, fatigue, cognitive fog, or gastrointestinal distress occurring during or 1–2 hours after meals.
 
 #hypothesis-box(title: [Activity-Adjusted Meal Timing for Dysautonomic ME/CFS])[
-<hyp:postprandial-pacing>
 
 *Certainty: 0.50.* These recommendations are mechanistically grounded in POTS physiology and inferred from the splanchnic blood flow changes documented in severe ME/CFS @terSteege2012, but direct clinical validation in severe ME/CFS populations is lacking.
 
@@ -149,7 +148,7 @@ In healthy individuals, meals trigger 10–30% increase in splanchnic blood flow
 
 Individual responses vary widely; objective symptom tracking (postprandial fatigue, cognitive fog, or gastrointestinal symptoms at 0.5, 1, 2, and 4 hours post-meal) is recommended to identify optimal meal patterns.
 
-]
+] <hyp:postprandial-pacing>
 
 == Sleep Optimization
 <sec:sleep-optimization>
@@ -238,7 +237,6 @@ Meal timing interacts with autonomic function and energy metabolism in ME/CFS (s
 A subset of ME/CFS patients (approximately 15% based on non-celiac wheat sensitivity biomarker studies @Uhde2018) reports that wheat consumption exacerbates exercise intolerance and PEM severity. The underlying mechanism likely involves a synergistic interaction between wheat-induced gut barrier dysfunction and exercise-induced intestinal ischemia.
 
 #speculation(title: [Wheat-Primed Exercise Intolerance in ME/CFS])[
-<spec:wheat-primed-exercise>
 
 *Mechanistic Hypothesis:*
 
@@ -308,7 +306,7 @@ For patients reporting wheat-exacerbated exercise intolerance, a structured 4–
 
 Expected outcomes in responders: PEM reduction 20–50%, improved exercise tolerance, GI symptom resolution.
 
-]
+] <spec:wheat-primed-exercise>
 
 ==== Clinical Implementation: Wheat Elimination Protocol
 
@@ -599,7 +597,6 @@ falls into the mild-to-moderate PEM tier, the following adaptations apply:
       approach in ME/CFS depression remains limited.
 
 #open-question(title: [Exercise Adaptation for ME/CFS Comorbidities])[
-<oq:comorbidity-exercise>
 No clinical trial of any design has evaluated exercise protocols specifically
 adapted for ME/CFS patients with concurrent conditions requiring physical
 activity (type 2 diabetes, cardiovascular disease, hEDS, osteoporosis,
@@ -608,7 +605,7 @@ ME/CFS pacing research and comorbidity-specific exercise literature, applied
 by analogy rather than direct evidence. Prospective studies testing
 CPET-guided, PEM-monitored activity protocols in these specific dual-diagnosis
 populations are urgently needed.
-]
+] <oq:comorbidity-exercise>
 
 ==== Risk of Post-Exertional Malaise
 

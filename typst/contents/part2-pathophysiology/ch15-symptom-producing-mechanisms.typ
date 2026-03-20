@@ -48,10 +48,9 @@ Peripheral proinflammatory cytokines communicate with the hypothalamus via the n
 === Persistent Sickness Behavior in ME/CFS
 
 #hypothesis-box(title: [Persistent Sickness Behavior in ME/CFS])[
-<hyp:ch15-sickness-persistence>
 In acute infection, sickness behavior resolves as pathogens are cleared and cytokines return to baseline. In ME/CFS, this resolution fails: persistent immune activation (elevated TGF-$beta$, NK hypofunctionality, activated microglia) maintains cytokine drive, while HPA axis hyporesponsiveness removes the glucocorticoid anti-inflammatory brake @Morris2013sickness. Post-exertional malaise may represent an acute exacerbation of this state, in which exercise triggers an abnormal cytokine spike that transiently recapitulates full sickness behavior @Dantzer2007twenty @Morris2013sickness.
 (Certainty: Medium. Mechanism coherent; direct PGE#sub[2] measurement in ME/CFS lacking.)
-]
+] <hyp:ch15-sickness-persistence>
 
 // =============================================================================
 // PART B: NEUROCHEMICAL SYMPTOM GENERATORS
@@ -73,10 +72,9 @@ Extracellular adenosine is cleared primarily by astrocyte-mediated uptake via eq
 === A2A Receptor Upregulation in Neuroinflammation
 
 #hypothesis-box(title: [A2A Receptor Upregulation Amplifies Sleep Pressure in ME/CFS Neuroinflammation])[
-<hyp:ch15-a2a-neuroinflammation>
 During microglial activation, A2A adenosine receptors are upregulated coincident with P2Y12 downregulation @Orr2009A2AMicroglia. This receptor shift has been termed chemotactic reversal: activated microglia respond to extracellular adenosine (the breakdown product of ATP) by retracting processes and adopting amoeboid morphology, rather than extending toward the signal as resting microglia do. In ME/CFS, Nakatomi et al. @Nakatomi2014Neuroinflammation demonstrated 45–199% elevated TSPO binding in cingulate cortex, hippocampus, amygdala, thalamus, and brainstem (n=9 patients vs. n=10 controls), establishing sustained microglial activation as a feature of the disease. The hypothesis is that this persistent neuroinflammation maintains elevated A2A receptor density across the sleep-regulatory regions, enhancing the sensitivity of the system to adenosine and producing excessive sleep pressure responses to normal or modestly elevated adenosine concentrations.
 (Study quality: Medium; direct ME/CFS A2A receptor expression data absent; supported by mechanistic extrapolation from Nakatomi 2014 and Orr 2009.)
-]
+] <hyp:ch15-a2a-neuroinflammation>
 
 A2A receptor blockade using selective antagonists reduces neuroinflammation in mixed glial cell models, with A2A antagonists outperforming A1 agonists in anti-inflammatory and antioxidant efficacy @Navia2020AdenosineReceptors. This mechanistic evidence supports the rationale for adenosine receptor-targeted interventions in inflammatory fatigue conditions, though no ME/CFS-specific clinical trials have been conducted.
 
@@ -85,20 +83,18 @@ A2A receptor blockade using selective antagonists reduces neuroinflammation in m
 Caffeine exerts its wake-promoting and fatigue-opposing effects exclusively through adenosine receptor blockade, with the A2A subtype being the primary target for sleep-regulatory effects @Huang2024Adenosine. Individual sensitivity to caffeine is substantially determined by the ADORA2A c.1083T\>C single nucleotide polymorphism: carriers of specific genotypes show caffeine-induced brain electrical changes that closely resemble insomnia, while other genotypes show minimal caffeine-sleep interaction @Retey2007ADORA2A.
 
 #speculation(title: [Elevated A2A Receptor Density Underlies ME/CFS Caffeine Paradox])[
-<spec:ch15-caffeine-paradox>
 ME/CFS patients commonly report anomalous caffeine responses: either exaggerated sensitivity at low doses, or apparent inefficacy of caffeine at standard doses. If ME/CFS is associated with upregulated A2A receptor expression (as hypothesized from the neuroinflammation evidence above), two opposing consequences are plausible. Heightened receptor density could increase binding sites for caffeine antagonism, potentially requiring higher doses for effect (apparent insensitivity). Conversely, if baseline adenosine is chronically elevated and receptors are tonically occupied, even low doses of caffeine may produce disproportionate displacement effects (exaggerated sensitivity). No ADORA2A pharmacogenetics study has been conducted in an ME/CFS cohort; this remains an untested prediction.
 (Certainty: Low. No ME/CFS-specific adenosine receptor density or caffeine pharmacokinetics study found in literature search.)
-]
+] <spec:ch15-caffeine-paradox>
 
 === Therapeutic Implications: A2A Antagonism and Adenosine Modulation
 
 The mechanistic model developed in this section suggests two therapeutic targets: (1) reducing adenosine overproduction by addressing its mitochondrial and neuroinflammatory drivers, and (2) modulating A2A receptor signaling directly. Non-selective adenosine receptor antagonists including theophylline and caffeine block both A1 and A2A receptors. A2A-selective antagonism is emerging as a neuroinflammation strategy with anti-inflammatory and antioxidant properties demonstrated in glial models @Navia2020AdenosineReceptors.
 
 #speculation(title: [Low-Dose Theophylline as Adenosine Antagonist in ME/CFS])[
-<spec:ch15-theophylline>
 Theophylline, a non-selective adenosine receptor antagonist with A1 and A2A activity, has been proposed clinically for ME/CFS given its profile of reducing adenosine-mediated sleep pressure and its established use in orthostatic intolerance via adenosine-mediated vascular tone effects. However, no published controlled trial of theophylline specifically targeting adenosine dysregulation in ME/CFS has been identified. Any clinical use should be considered highly experimental, with no evidence base beyond mechanistic plausibility.
 (Certainty: Very Low — mechanistic rationale only, no ME/CFS clinical evidence.)
-]
+] <spec:ch15-theophylline>
 
 === Sleep Architecture Findings and Adenosine Interpretation
 
@@ -126,13 +122,12 @@ Capuron et al. @Capuron2002 demonstrated in a double-blind randomized trial (n=
 === TLR4/NF-$kappa$B as PEM Amplifier
 
 #hypothesis-box(title: [TLR4/NF-$kappa$B Activation as PEM Cytokine Amplifier])[
-<hyp:tlr4-nfkb-pem-amplifier>
 ME/CFS patients may exhibit exaggerated and prolonged TLR4/NF-$kappa$B activation following physical exertion, driving the post-exertional cytokine surge that underlies PEM. Light et al. @Light2009 demonstrated that moderate exercise elicits significantly greater increases in leukocyte TLR4 gene expression in CFS patients versus controls, with elevations persisting 48 hours post-exercise and correlating with fatigue and pain severity (n=19 CFS, n=18 controls). Moneghetti et al. @Moneghetti2018 independently documented that IL-1$beta$ and IFN-$alpha$ are specifically elevated 18 hours post-exercise in ME/CFS but not sedentary controls (n=24 vs. n=24), providing the cytokine correlate of the gene expression changes. Che et al. @Che2025 further demonstrated that this heightened innate immune response worsens after exercise in ME/CFS, implicating TLR4/NF-$kappa$B drive as a central mechanism.
 
 *Testable prediction:* TLR4 blockade (e.g., TAK-242) or anti-IL-1$beta$ therapy (anakinra @Roerink2017anakinra) before planned exertion should attenuate or delay PEM onset, with effect size proportional to pre-exercise TLR4 expression.
 
 *Limitations:* Both studies use small samples; the causal direction (TLR4 drives PEM vs. PEM drives TLR4) remains unresolved; peripheral leukocyte TLR4 is a proxy for microglial TLR4 activity. Certainty: Medium (single studies, small n, no replication by independent groups at time of writing).
-]
+] <hyp:tlr4-nfkb-pem-amplifier>
 
 === ME/CFS-Specific Cytokine Profile: Evidence and Limitations
 
@@ -154,9 +149,8 @@ Under pro-inflammatory conditions characterizing ME/CFS, the enzyme indoleamine-
 === 5-HT Receptor Sensitivity and Genetic Association
 
 #hypothesis-box(title: [5-HT Receptor Sensitivity Abnormalities in ME/CFS])[
-<hyp:ch15-5ht2a-upregulation>
 Genetic variation in the 5-HT2A receptor gene (HTR2A) may contribute to ME/CFS pathophysiology. Smith et al. @Smith2008HTR2A identified three HTR2A polymorphisms significantly associated with CFS (n=137); the rs6311 A-allele increases promoter activity and creates a transcription factor binding site, potentially conferring enhanced 5-HT2A receptor expression. Anti-5-HT autoantibodies are present in 61.5% of ME/CFS patients versus 5.7% of healthy controls @Maes2013serotonin, and their presence correlates with hyperalgesia, neurocognitive dysfunction, and autonomic symptom severity—consistent with sensitized serotonergic signaling. (Certainty: Low-Medium; single genetic study, replication pending.)
-]
+] <hyp:ch15-5ht2a-upregulation>
 
 === Serotonin Transporter Abnormalities
 
@@ -165,14 +159,12 @@ Multiple lines of evidence implicate serotonin transporter (5-HTT) dysfunction i
 === Gut-Peripheral Serotonin and IBS Comorbidity
 
 #hypothesis-box(title: [Gut-Peripheral Serotonin Dysregulation and IBS Comorbidity])[
-<hyp:ch15-gut-serotonin>
 Given that approximately 90–95% of body serotonin is synthesized by enterochromaffin cells in the gastrointestinal mucosa, gut dysbiosis and bacterial translocation documented in ME/CFS @Maes2013serotonin may disrupt peripheral serotonin pools and drive 5-HT autoimmunity. Anti-5-HT autoantibody positivity in ME/CFS is associated with elevated IgA responses to gram-negative lipopolysaccharide—consistent with intestinal permeability—and correlates with multi-domain symptom severity @Maes2013serotonin. This may partially explain high IBS comorbidity rates in ME/CFS, with shared enterochromaffin serotonergic dysfunction as a candidate mechanism. (Certainty: Medium; correlational, causality unestablished.)
-]
+] <hyp:ch15-gut-serotonin>
 
 === The SSRI Paradox: Central Serotonin Hyperactivity
 
 #hypothesis-box(title: [The SSRI Paradox: Central Serotonin Hyperactivity in ME/CFS])[
-<hyp:ch15-ssri-paradox>
 The frequent clinical observation that SSRIs are unhelpful or worsening in ME/CFS—in contrast to their efficacy in depression—is mechanistically explained by the hyper-serotonergic hypothesis. Lee et al. @Lee2024serotonin demonstrated that high-dose fluoxetine induced serotonin spillover in the mouse dorsal raphe nucleus, causing 5-HT1A receptor desensitization and ME/CFS-like symptoms (fatigue, post-exertional malaise, orthostatic intolerance, hyperalgesia, disrupted sleep). Symptom reversal followed serotonin synthesis inhibition (p-chlorophenylalanine) and CRISPR-mediated 5-HT1A knockdown, establishing directional causality. Depression involves serotonin _hypo_activity; ME/CFS central fatigue may involve _hyper_activity with secondary receptor downregulation. (Certainty: Medium—animal model, human mechanistic replication pending.)
 
 *Testable predictions.*
@@ -181,14 +173,13 @@ The frequent clinical observation that SSRIs are unhelpful or worsening in ME/CF
   - Serotonin synthesis inhibition or 5-HT1A agonism (e.g. buspirone) would reduce fatigue severity if this model is correct.
   - Elevated serum or CSF serotonin should be present in the subset of patients with SSRI-worsened illness.
 
-]
+] <hyp:ch15-ssri-paradox>
 
 === Central Fatigue: Two-Phase Model
 
 #speculation(title: [Central Fatigue: From Serotonin Trigger to Kynurenine Maintenance])[
-<spec:ch15-central-fatigue-model>
 The classical serotonin hypothesis of central fatigue posits that elevated brain serotonin impairs motor output and promotes fatigue @StClairGibson2004fatigue. Yamashita's fatigue circuit model @Yamashita2020fatigue refines this: serotonin release is transient during exercise, while kynurenic acid accumulation in the hypothalamus-hippocampal circuit persists and correlates better with fatigue duration. A two-phase model may apply in ME/CFS: serotonergic hyperactivity in the dorsal raphe (Section @hyp:ch15-ssri-paradox) may serve as an initial trigger, while tryptophan partitioning toward the kynurenine pathway (Section @obs:ch15-trp-partitioning) sustains fatigue through kynurenic acid-mediated glutamate suppression and dopamine depletion @Kavyani2022kynurenine. (Certainty: Low; integrative speculation, not empirically tested as a unified model.)
-]
+] <spec:ch15-central-fatigue-model>
 
 == Melatonin Dysfunction and Circadian Disruption
 <sec:ch15-melatonin>
@@ -208,9 +199,8 @@ Objectively measured sleep architecture in ME/CFS confirms the unrefreshing slee
 Melatonin functions as a circadian immunomodulator. Mechanistically, melatonin promotes NK cell maturation and activation via the JAK3/STAT5 signaling pathway, increasing T-bet expression and thereby enhancing NK cell proliferation, degranulation, and IFN-$gamma$ secretion @Liang2024NKcell. The circadian clock itself regulates rhythmic NK cell activity and cytokine release through clock genes including _Per2_, _Bmal1_, and ROR$alpha$ @scheiermann2018circadian.
 
 #speculation(title: [Circadian Disruption Compounds NK Hypofunctionality])[
-<spec:ch15-melatonin-nk>
 In ME/CFS, NK cell cytotoxic function is consistently reduced. If nocturnal melatonin signaling is abnormal—whether due to delayed phase, blunted amplitude, or multi-system circadian decoupling—the JAK3/STAT5/T-bet pathway driving NK maturation may be chronically understimulated. This provides a mechanistic bridge between circadian dysfunction and the well-documented NK cell hypofunctionality in ME/CFS, and may contribute to impaired viral clearance and immune dysregulation. This hypothesis remains untested directly in ME/CFS populations and is consistent with but not proven by existing data @Liang2024NKcell @McCarthy2022circadian @Anderson2020mitochondriaMECFS.
-]
+] <spec:ch15-melatonin-nk>
 
 === Therapeutic Melatonin: Low-Dose Chronobiotic Strategy
 
@@ -254,9 +244,8 @@ Magnetic resonance spectroscopy (MRS) provides a complementary, non-invasive win
 Under homeostatic conditions, microglia perform synaptic surveillance and phagocytic clearance. In ME/CFS, the neuroglial failure hypothesis proposes that persistent triggering factors (viral remnants, autoantibodies, metabolic danger signals) shift microglia toward a reactive M1-like state characterized by release of TNF-$alpha$, IL-1$beta$, IL-6, and reactive oxygen species @RenzPolster2022. This reactivity may be self-perpetuating: microglial ROS production damages local neurons, releasing further danger signals that sustain activation.
 
 #hypothesis-box(title: [Neuroglial Failure as ME/CFS Pathobiological Core])[
-<hyp:neuroglial-failure>
 Renz-Polster et al. @RenzPolster2022 propose that impaired or pathologically reactive neuroglia—microglia, astrocytes, and oligodendrocytes—constitute the common denominator of ME/CFS pathobiology. Under this model, microglial reactive state suppresses neural circuit efficiency and disrupts glial metabolic support to neurons, producing fatigue, cognitive impairment, and post-exertional malaise. The hypothesis extends naturally to Long COVID, which shows neuroglial activation on post-mortem analysis. Certainty: Medium (theoretical synthesis; not yet empirically tested as a whole; component mechanisms supported by animal and in vitro data).
-]
+] <hyp:neuroglial-failure>
 
 === Circulating Danger Signals and Microglial Activation
 
@@ -271,9 +260,8 @@ Microglia express P2X and P2Y purinergic receptors that respond to extracellular
 Reactive microglia co-opt the complement cascade to tag synapses for elimination. Under normal developmental conditions, C1q, C3, and C4 opsonize weak synapses for phagocytosis via microglial CR3 receptors—a process essential for circuit refinement. In ME/CFS, chronic microglial reactivity may sustain inappropriate synaptic pruning in adulthood, with potential consequences for cognitive processing speed and synaptic transmission efficiency @RenzPolster2022.
 
 #speculation(title: [Excess Synaptic Pruning as a Substrate for Cognitive Symptoms])[
-<spec:synaptic-pruning-mecfs>
 By analogy with neurodegenerative conditions in which complement-mediated synaptic loss precedes neuronal death, ME/CFS neuroinflammation may drive a subthreshold but functionally significant loss of synaptic contacts in prefrontal and hippocampal circuits. This mechanism could explain “brain fog” disproportionate to neuronal loss. The hypothesis is speculative in ME/CFS specifically and requires direct complement and synapse density measurements in ME/CFS post-mortem tissue. Certainty: Low (extrapolated from Alzheimer's disease and developmental biology literature; no ME/CFS-specific data yet).
-]
+] <spec:synaptic-pruning-mecfs>
 
 === Therapeutic Modulation of Microglial Activation
 
@@ -284,9 +272,8 @@ Two agents with established anti-neuroinflammatory profiles have been investigat
 *Minocycline.* Minocycline, a tetracycline antibiotic with independent anti-inflammatory and neuroprotective properties, inhibits microglial activation and reduces ROS production. Miwa @Miwa2021minocycline conducted an open-label trial in 100 ME patients (42-day course, 100mg/day), reporting a favorable performance-status response in 27% of participants, with best outcomes in those within six months of disease onset. A subsequent pilot study confirmed higher response rates (80%) in early-stage patients. As Numata @Numata2021minocycline observes, the modest and heterogeneous response underscores that neuroinflammation represents only one pathobiological thread in ME/CFS, and patient stratification by disease stage and phenotype is essential before trialling targeted anti-neuroinflammatory agents.
 
 #hypothesis-box(title: [Microglial Modulation as Stage-Dependent Therapy])[
-<hyp:microglia-stage-therapy>
 Therapeutic benefit from anti-microglial agents (LDN, minocycline) may be concentrated in early-stage ME/CFS, when active neuroinflammation is more likely to be driving symptoms rather than fixed structural or epigenetic changes. In later stages, microglial modulation alone may be insufficient without addressing upstream triggers (persistent viral antigens, autoantibodies) and downstream consequences (glymphatic failure, synaptic remodeling). Certainty: Low-Medium (mechanistic plausibility supported; clinical evidence limited to open-label data).
-]
+] <hyp:microglia-stage-therapy>
 
 == Kynurenine Pathway and Quinolinic Acid Excitotoxicity: The “Fog Machine”
 <sec:ch15-kynurenine>
@@ -335,9 +322,8 @@ Prediction: H3R inverse agonists (e.g., pitolisant) would attenuate cognitive sy
 Mast cell degranulation products (histamine, tryptase, IL-1$beta$, TNF-$alpha$) activate microglia via protease-activated receptor 2 (PAR2) and purinergic receptors @Lakatos2025mastMicroglia @Kempuraj2016neuroinflammation. Activated microglia reciprocally stimulate further mast cell degranulation, creating a positive feedback loop that amplifies neuroinflammation beyond what either cell type could sustain independently. Tryptase-mediated blood-brain barrier disruption additionally allows peripheral immune access to the CNS, potentially explaining why some ME/CFS patients exhibit fluctuating, trigger-sensitive symptom bursts characteristic of mast cell biology @Frioni2025MCAS @Zhang2024MastBrain.
 
 #hypothesis-box(title: [Mast Cell–Microglia Amplification Loop in ME/CFS Neuroinflammation])[
-<hyp:ch15-mastcell-microglia-loop>
 The mast cell-microglia loop is demonstrated in vitro and in animal models; its specific role in ME/CFS requires direct investigation. However, the documented mast cell activation prevalence in ME/CFS (15–25% definite MCAS) suggests that this loop may amplify neuroinflammatory symptom burden in a significant subgroup. (Certainty: Medium.)
-]
+] <hyp:ch15-mastcell-microglia-loop>
 
 === Substance P in Pain Amplification
 
@@ -367,10 +353,9 @@ In ME/CFS, several factors converge to impair glymphatic function:
 *Pre-existing neuroinflammation.* Activated microglia disrupt perivascular flow dynamics.
 
 #hypothesis-box(title: [Glymphatic Failure as Driver of Cognitive Symptoms and Unrefreshing Sleep])[
-<hyp:ch15-glymphatic-vicious-cycle>
 The glymphatic system — a brain-wide CSF/ISF exchange network driven by astrocytic aquaporin-4 (AQP4) water channels and perivascular fluid dynamics — clears metabolic waste, tau, and amyloid-$beta$ primarily during slow-wave sleep @Xie2013glymphatic. In ME/CFS, multiple factors converge to impair this system: (1) reduced SWS content from alpha-delta sleep intrusion, (2) chronic adrenergic dysregulation (elevated norepinephrine) inhibiting AQP4 polarization at astrocytic endfeet, and (3) pre-existing neuroinflammation disrupting perivascular flow dynamics @NematGorgani2025glymphatic. Waste accumulation then activates the NLRP3 inflammasome in microglia, producing IL-1$beta$ and IL-18 that further disrupt sleep architecture @NematGorgani2025glymphatic @Ding2025glymphaticAD. The resulting vicious cycle — impaired glymphatic clearance $\to$ waste accumulation $\to$ neuroinflammation $\to$ worse sleep — may explain why ME/CFS patients report unrefreshing sleep despite adequate total sleep duration @Wostyn2018glymphatic @NematGorgani2025glymphatic.
 (Certainty: Low-Medium for the ME/CFS-specific application; the glymphatic mechanism itself is High certainty. Direct glymphatic imaging studies in ME/CFS are lacking as of 2025.)
-]
+] <hyp:ch15-glymphatic-vicious-cycle>
 
 <obs:ch15-glymphatic-sleep-quality>
 The glymphatic hypothesis provides a mechanistic rationale for a clinically observed but poorly explained phenomenon: ME/CFS patients often sleep for adequate or extended durations yet report profoundly unrefreshing sleep and persistent cognitive impairment @Wostyn2018glymphatic. Since glymphatic clearance is maximally coupled to delta-oscillation (slow-wave) sleep — not total sleep duration — the alpha-delta intrusion pattern documented in ME/CFS polysomnography (non-delta electroencephalographic activity during NREM sleep) would suppress glymphatic flow regardless of how long the patient sleeps @NematGorgani2025glymphatic @Xie2013glymphatic. Treatment implication: improving sleep quality (SWS content) is likely more therapeutically relevant than extending sleep duration @NematGorgani2025glymphatic.
@@ -394,9 +379,8 @@ Dolorimetry studies confirm that ME/CFS and Gulf War Illness patients are signif
 The International Association for the Study of Pain adopted _nociplastic pain_ as a third mechanistic descriptor in 2017, defined as “pain that arises from altered nociception” not fully explained by nociceptive or neuropathic mechanisms @Kosek2024Nociplastic. Clinical criteria for musculoskeletal nociplastic pain require: duration exceeding three months; regional, multifocal or widespread distribution; absence of a complete nociceptive or neuropathic explanation; and clinical signs of hypersensitivity in the pain region. Fibromyalgia is the prototype; ME/CFS pain fits the same phenotype.
 
 #speculation(title: [Kynurenine–NMDA Link to Central Sensitization])[
-<spec:ch15-kynurenine-nmda>
 Elevated quinolinic acid (an NMDA agonist produced by the kynurenine pathway under neuroinflammatory conditions   see Section @sec:ch15-kynurenine) may provide sustained NMDA receptor activation that maintains wind-up and dorsal horn sensitization in ME/CFS. If confirmed, this would mechanistically link neuroinflammation, kynurenine pathway activation, and central sensitization in a single causal chain. (Certainty: Low; no direct human measurement of spinal QUIN in ME/CFS.)
-]
+] <spec:ch15-kynurenine-nmda>
 
 === Peripheral Sensitization: Substance P and CGRP
 
@@ -420,9 +404,8 @@ Autoantibodies against neuronal and glial antigens have been identified in ME/CF
 Mast cells are concentrated in the perineurium (the connective tissue sheath surrounding nerve fascicles) and epineurium of peripheral nerves. In the context of mast cell activation syndrome (MCAS), which overlaps with ME/CFS (Section @sec:ch15-mast-cells), perineurial mast cell degranulation releases histamine, tryptase, and nerve growth factor (NGF) directly into the nerve sheath microenvironment. NGF sensitizes nociceptive fibers by upregulating TRPV1 expression, while tryptase activates proteinase-activated receptor 2 (PAR2) on Schwann cells and sensory neurons, lowering pain thresholds. This mechanism explains why nerve trunk tenderness can fluctuate with mast cell activation episodes.
 
 #hypothesis-box(title: [Convergent Nerve Sheath Vulnerability in ME/CFS])[
-<hyp:ch15-nerve-sheath-vulnerability>
 Nerve sheaths represent a site of convergent pathology in ME/CFS, where four disease mechanisms—oxidative Schwann cell activation, endoneurial hypoxia from microvascular dysfunction, autoimmune targeting of nerve sheath antigens, and perineurial mast cell degranulation—simultaneously lower pain thresholds and sustain neurogenic inflammation. This convergence predicts that nerve trunk pain in ME/CFS should correlate with composite biomarkers of oxidative stress, endothelial dysfunction, autoantibody burden, and mast cell activation, rather than with any single marker. (Certainty: Low-Medium; individual mechanisms are supported by evidence from other conditions; convergence in ME/CFS specifically is not yet empirically demonstrated.)
-]
+] <hyp:ch15-nerve-sheath-vulnerability>
 
 === Why Pain Localizes Around Joints and in Muscles
 <subsec:ch15-joint-muscle-pain>
@@ -449,9 +432,8 @@ Endothelial dysfunction in ME/CFS extends to the intramuscular microvasculature�
 The periarticular and muscular nociceptive inputs described above converge on dorsal horn circuits that are already centrally sensitized (Section @sec:ch15-central-sensitization). Central sensitization amplifies these tissue-specific inputs and, critically, expands the receptive fields of dorsal horn neurons: a nociceptive signal from one joint capsule activates neurons that represent adjacent joints and surrounding muscle, producing the “spreading” quality of ME/CFS pain. This expansion of receptive fields explains why patients report pain that seems to migrate between joints and muscles—the peripheral generator may be focal, but central amplification makes it appear diffuse.
 
 #hypothesis-box(title: [Tissue-Specific Pain Generators Amplified by Central Sensitization])[
-<hyp:ch15-tissue-specific-pain>
 Diffuse periarticular and muscular pain in ME/CFS arises from genuine tissue-specific nociceptive generators—mast cell-mediated periarticular inflammation, metabolic nociceptor activation in ischemic muscle, and fascial microtrauma—whose signals are then amplified and spatially expanded by central sensitization. This dual-mechanism model predicts that: (1) peripheral nerve blocks should temporarily reduce pain in the targeted region even in centrally sensitized patients (confirming peripheral generators); (2) central sensitization reduction (via LDN, NMDA antagonists) should reduce pain _spread_ but not eliminate pain at the primary generator site; and (3) patients with higher mast cell activation markers should have more pronounced periarticular pain, while patients with worse metabolic profiles should have more pronounced muscle pain. (Certainty: Medium; individual mechanisms are well-supported; the integrated model generates testable predictions but has not been directly tested.)
-]
+] <hyp:ch15-tissue-specific-pain>
 
 === Treatment Implications
 
@@ -469,9 +451,8 @@ The nitric oxide/peroxynitrite (NO/ONOO#super[-]) cycle and reactive oxygen spec
 === The NO/ONOO#super[-] Vicious Cycle
 
 #speculation(title: [The NO/ONOO#super[\-] Vicious Cycle Hypothesis])[
-<spec:ch15-noonoo-cycle>
 Martin Pall proposed that ME/CFS is initiated when short-term stressors (infection, trauma, chemical exposure) induce pro-inflammatory cytokines (IL-1$beta$, IL-6, TNF-$alpha$, IFN-$gamma$) that upregulate inducible nitric oxide synthase (iNOS), elevating nitric oxide @Pall2000Peroxynitrite. Nitric oxide reacts with superoxide to form peroxynitrite (ONOO#super[-]), a potent oxidant that damages proteins, lipids and DNA. Pall proposed six positive feedback loops sustaining elevated ONOO#super[-]: NF-$kappa$B activation (increasing iNOS), NMDA receptor sensitization, mitochondrial complex I/III electron leakage (generating more superoxide), tetrahydrobiopterin (BH4) depletion via ONOO#super[-] oxidation (causing NOS uncoupling, converting NOS into a peroxynitrite synthase), and HPA axis suppression via lowered glucocorticoid production @Pall2001CommonEtiology. This mechanism — named the NO/ONOO#super[-] cycle — predicts that agents lowering multiple cycle elements simultaneously (antioxidants, NMDA antagonists, anti-inflammatory compounds) would be required for therapeutic benefit. (Certainty: Low; Medical Hypotheses journal, not empirically tested in RCTs; mechanistically plausible and consistent with downstream evidence.)
-]
+] <spec:ch15-noonoo-cycle>
 
 === Glutathione Depletion and Oxidative Burden
 
@@ -484,7 +465,6 @@ Reactive oxygen species activate transient receptor potential channels directly:
 === Antioxidant Strategies
 
 #hypothesis-box(title: [Antioxidant Support as Symptom Modifier])[
-<hyp:ch15-antioxidants>
 Multiple antioxidant interventions address different nodes of oxidative/nitrosative stress in ME/CFS:
 
   - *NAC* (N-acetylcysteine): GSH precursor crossing the blood–brain barrier; 1800mg/day normalized cortical GSH and improved symptoms in pilot data @Shungu2016NACtrial.
@@ -492,7 +472,7 @@ Multiple antioxidant interventions address different nodes of oxidative/nitrosat
   - *Melatonin:* A mitochondria-targeted antioxidant that scavenges ROS and reactive nitrogen species (RNS), stimulates antioxidant enzymes (SOD, GPx, catalase) and chelates transition metals reducing hydroxyl radical production; mitochondrial concentrations greatly exceed blood levels.
 
 Certainty: Medium individually; no multi-agent antioxidant RCT in ME/CFS has been completed. Consistent with the NO/ONOO#super[-] cycle prediction that multi-agent approaches targeting several nodes will be needed for robust benefit.
-]
+] <hyp:ch15-antioxidants>
 
 == Metabolic Danger Signals and the Post-Exertional Malaise Mechanism
 <sec:ch15-metabolic-danger>
@@ -504,9 +484,8 @@ Post-exertional malaise (PEM) — the hallmark ME/CFS symptom — represents a p
 Under physiological conditions, lactate generated during exercise acts as an anti-inflammatory signal via the G-protein-coupled receptor GPR81 (also known as HCAR1 or HCA1), which is expressed on macrophages and other immune cells. GPR81 activation suppresses LPS-stimulated macrophage TNF-$alpha$ and IL-6 production via AMPK/LATS-mediated YAP inactivation, disrupting the YAP–NF-$kappa$B p65 interaction and reducing cytokine transcription @Yang2020GPR81. Under normal conditions, lactate generated by exercise thus dampens post-exercise inflammation.
 
 #speculation(title: [GPR81 Desensitization in ME/CFS])[
-<spec:ch15-gpr81-desensitization>
 In ME/CFS, chronic low-grade immune activation and elevated baseline lactate may desensitize or downregulate GPR81 signaling, converting the anti-inflammatory lactate brake into a non-functional component. This would explain why exercise-generated lactate fails to suppress post-exertional immune activation in ME/CFS patients while it does so in healthy controls. (Certainty: Low; GPR81 expression and function in ME/CFS leukocytes has not been measured directly.)
-]
+] <spec:ch15-gpr81-desensitization>
 
 === Succinate as a DAMP and NLRP3 Inflammasome Activator
 
@@ -521,9 +500,8 @@ Acid-sensing ion channels (ASICs), particularly ASIC3, detect local acidosis fro
 The two-day cardiopulmonary exercise test (CPET) protocol provides objective physiological evidence for PEM as a real, measurable, reproducible phenomenon @Vink2015. In the largest multi-site 2-day CPET study ($n = 84$ ME/CFS, $n = 71$ controls), ME/CFS patients showed significant Day 1 to Day 2 declines in peak work capacity, peak oxygen consumption and cardiovascular function, while controls maintained or improved performance @keller2024cpet. Severity correlates with magnitude of decline: patients with severe ME/CFS show the largest Day 2 deterioration in peak workload ($-19%$) compared with mild–moderate patients @VanCampen2020SeverityCPET.
 
 #hypothesis-box(title: [PEM as Metabolic Danger Signal Cascade])[
-<hyp:ch15-pem-cascade>
 Post-exertional malaise arises through a multi-step metabolic danger signal cascade: (1) exertion exceeds impaired aerobic threshold, generating excess lactate and succinate; (2) lactate fails to suppress immune activation via desensitized GPR81; (3) succinate activates NLRP3 inflammasome, producing IL-1$beta$ surge; (4) ASIC3 channels detect acidosis, amplifying pain and TLR4-driven NF-$kappa$B activation; (5) immune activation and oxidative stress persist for 24–48h, producing the delayed-onset, multi-system PEM syndrome. This model predicts that exercise below the ventilatory threshold — but not above it — would minimize danger signal generation, consistent with pacing recommendations. (Certainty: Medium; mechanistic components individually supported; integrated model not yet tested in ME/CFS directly.)
-]
+] <hyp:ch15-pem-cascade>
 
 === Why Graded Exercise Therapy Is Contraindicated
 
@@ -543,9 +521,8 @@ The endocannabinoid system (ECS) comprises two main G-protein-coupled receptors 
 Mast cell degranulation   the release of histamine, tryptase, prostaglandins, leukotrienes and cytokines   is normally suppressed by CB2 receptor activation via the DAGL-$beta$/2-AG/CB2 signaling axis. Palmitoylethanolamide (PEA) inhibits mast cell degranulation via this pathway and is meta-analytically effective for nociceptive, neuropathic and nociplastic pain (including conditions overlapping with ME/CFS) @Artukoglu2017PEA @LangIlievich2023PEA. Cannabidiol (CBD) additionally suppresses IgE-mediated mast cell degranulation by inhibiting Fc$epsilon.alt$RI downstream signaling and calcium mobilization, with effects preserved even in CB1/CB2-depleted cells, suggesting additional non-canonical mechanisms @YangCBD2024MastCell.
 
 #speculation(title: [Clinical Endocannabinoid Deficiency in ME/CFS])[
-<spec:ch15-cecd>
 Ethan Russo proposed that fibromyalgia, migraine and irritable bowel syndrome share an underlying Clinical Endocannabinoid Deficiency (CECD): reduced anandamide/2-AG tone, impaired CB receptor signaling, and consequent loss of ECS-mediated homeostatic regulation of pain, sleep and immune function @Russo2004CECD. Updated evidence supports this hypothesis: CSF anandamide is statistically reduced in migraineurs, and PTSD — another post-traumatic condition with ME/CFS overlap — shows ECS hypofunction on advanced neuroimaging @Russo2016CECDReconsidered. By analogy, ME/CFS may represent a CECD state in which mast cell CB2 signaling is insufficient, removing the primary brake on mast cell degranulation and neuroinflammatory amplification. Direct measurement of CSF anandamide and 2-AG, and CB receptor expression in immune cells, in ME/CFS patients is required to test this hypothesis. (Certainty: Low; extrapolated from fibromyalgia and PTSD evidence; no direct ME/CFS CSF endocannabinoid measurements published.)
-]
+] <spec:ch15-cecd>
 
 === Therapeutic Implications
 
@@ -567,9 +544,8 @@ The free-energy principle, proposed by Friston, holds that biological systems mi
 === Interoceptive Hyper-Vigilance in ME/CFS
 
 #hypothesis-box(title: [Chronic Interoceptive Prediction Error in ME/CFS])[
-<hyp:ch15-interoceptive-error>
 In ME/CFS, chronic peripheral dysfunction (autonomic dysregulation, immune activation, impaired oxygen delivery) generates persistently aberrant afferent interoceptive signals. The brain's generative model, attempting to minimize prediction error, increases the _precision weighting_ assigned to interoceptive signals   effectively amplifying internal body awareness and reducing the threshold for detecting deviation from homeostatic norms. This precision upweighting manifests clinically as: heightened heartbeat discrimination accuracy, lower pain pressure thresholds, cognitive effort-intolerance, and the subjective experience of fatigue as a physiological state rather than a psychological one. Importantly, this is not a psychosomatic mechanism; it is the brain's rational response to genuine physiological disorder. (Certainty: Medium; mechanism plausible; direct tests of prior beliefs and precision weighting in ME/CFS are limited.)
-]
+] <hyp:ch15-interoceptive-error>
 
 Empirical support comes from case-control studies in post-infective fatigue syndrome: patients demonstrate significantly higher accuracy on heartbeat discrimination tasks, lower pressure pain thresholds, and a distinct cardiac response profile characterized by insensitivity to task difficulty and absence of habituation @Kadota2010Interoception. Heightened interoceptive sensitivity correlated strongly with concurrent symptoms. Complementary structural neuroimaging shows increased grey matter in the insula (the primary interoceptive cortex) in ME/CFS versus controls, with white matter reductions in brainstem pathways. Tenderness (a proxy for central sensitization) and interoceptive symptom burden are strongly correlated in ME/CFS and Gulf War Illness @Baraniuk2025NociplasticMECFS, suggesting that nociplastic and interoceptive mechanisms may co-amplify each other.
 

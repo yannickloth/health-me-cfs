@@ -48,7 +48,6 @@ Published adult ME/CFS recovery rates (commonly cited as $tilde$5%) are derived 
 ]
 
 #hypothesis-box(title: [Developmental Plasticity Window])[
-<hyp:developmental-window>
 The dramatically better prognosis in pediatric ME/CFS (54–94% improvement)
 versus adult disease ($lt.eq$22%) suggests that biological factors related to
 developmental plasticity fundamentally affect recovery potential. We propose
@@ -59,7 +58,7 @@ allows compensation for mitochondrial dysfunction. This plasticity appears to
 narrow with age and illness duration, supporting the urgency of early
 intervention in pediatric cases and suggesting that aggressive early treatment
 in adult patients may preserve recovery potential.
-]
+] <hyp:developmental-window>
 
 === Evidence That Adult Recovery, While Rare, Does Occur
 <sec:adult-recovery-evidence>
@@ -137,9 +136,8 @@ These response rates in selected populations far exceed the 5% spontaneous recov
 ME/CFS is almost certainly multiple conditions with shared clinical presentation. Averaging recovery rates across subtypes is like averaging cancer survival across all cancer types—the aggregate obscures clinically meaningful variation. The 5% overall rate may hide 20–30% recovery in some subtypes and near-zero in others. Without subtype-specific prognosis data, individual counseling is impossible.
 
 #hypothesis-box(title: [Selection Bias in Published Recovery Rates])[
-<hyp:selection-bias-recovery>
 Published adult ME/CFS recovery rates of $tilde$5% may substantially underestimate true recovery potential because: (1) patients who recover early never reach specialty care or leave the system before study enrollment, (2) patients diagnosed late have already passed the critical intervention window, (3) tertiary clinic populations represent the most treatment-resistant cases, and (4) prognosis data predates identification of druggable targets. The true recovery rate among adults diagnosed early with adequate support may be substantially higher—possibly approaching pediatric rates for comparable illness durations and presentations.
-]
+] <hyp:selection-bias-recovery>
 
 ==== Factors Associated with Adult Recovery
 
@@ -217,9 +215,8 @@ Until these gaps are addressed, individual prognosis counseling will remain impr
 ]
 
 #hypothesis-box(title: [True Adult Recovery Potential])[
-<hyp:true-adult-recovery>
 If adults received equivalent early diagnosis, accommodations, rest opportunity, and subtype-specific treatment as pediatric patients, recovery rates might approach pediatric levels for comparable illness durations and presentations. The current $tilde$5% rate may reflect the consequences of late diagnosis, inadequate support, and absence of targeted treatment rather than an inherent biological ceiling on adult recovery. Testing this hypothesis requires early intervention trials with comprehensive support systems.
-]
+] <hyp:true-adult-recovery>
 
 *Definition of “Recovery.”*
 Recovery statistics must be interpreted cautiously because “recovery” is defined inconsistently across studies. Definitions range from:

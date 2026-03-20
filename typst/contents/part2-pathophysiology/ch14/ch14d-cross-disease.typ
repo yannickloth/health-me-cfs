@@ -254,7 +254,6 @@ The mediators released during mast cell degranulation map directly onto core ME/
 At the CNS level, mast cells in the median eminence and hypothalamus are positioned adjacent to CRH neurons. Mast cell-released tryptase, neurotensin, and CXCL8 activate microglia, propagating neuroinflammation to prefrontal and hippocampal circuits @Hatziagelaki2018hypothalamus. Tsilioni et al. @Tsilioni2022exosome provided mechanistic support: exosome-associated mitochondrial DNA is elevated in ME/CFS patient serum after exercise and stimulates cultured human microglia to release IL-1$beta$—connecting exertion-triggered immune activation to central neuroinflammation. Weinstock et al. @Weinstock2023MCASneuro documented resolution of neuropsychiatric symptoms including cognitive dysfunction in all eight MCAS patients treated with mast cell-directed therapy, though the case series design limits generalizability.
 
 #hypothesis-box(title: [Food-Triggered Non-IgE Mast Cell Activation as Contributor to ME/CFS Symptom Burden])[
-<hyp:food-mast-cell-mecfs>
 In the subset of ME/CFS patients with comorbid MCAS (estimated 17–25% @Rohrhofer2025mecfsmast), food ingestion triggers mast cell degranulation through non-IgE pathways (MRGPRX2 via gut neuropeptides, complement C3a/C5a via lectins, lectin–IgE glycan cross-linking) that are invisible to standard allergy testing. The resulting mediator release—histamine, prostaglandins, cytokines—contributes to post-meal fatigue flares, brain fog, tachycardia, and gastrointestinal distress. This mechanism is amplified in ME/CFS by intestinal barrier dysfunction @Rohrhofer2024stratification and reduced SCFA-mediated mast cell inhibition @Folkerts2018fiber, creating a self-reinforcing cycle where food-triggered activation worsens gut barrier integrity, further lowering activation thresholds (certainty: 0.40; multiple plausible mechanisms with indirect clinical support, but no prospective mediator study during food challenges in ME/CFS patients).
 
 *Testable predictions:*
@@ -265,10 +264,9 @@ In the subset of ME/CFS patients with comorbid MCAS (estimated 17–25% @Rohrho
     - Gut permeability markers (LBP, zonulin) should correlate with food-triggered mediator elevations
 
 *Limitations:* No prospective study has measured mast cell mediators before and after controlled food challenges in ME/CFS patients. The prevalence figures for MCAS in ME/CFS (Rohrhofer et al.\ 2025) are based primarily on symptom pattern and treatment response rather than laboratory mediator confirmation—mediator testing was performed in only 3.1% of the cohort. The non-IgE activation pathways are established in vitro but their contribution to clinical food reactions in MCAS remains unquantified.
-]
+] <hyp:food-mast-cell-mecfs>
 
 #speculation(title: [Post-Exertional Malaise Partially Mediated by Food–Exercise Mast Cell Co-Triggering])[
-<spec:pem-food-mast>
 Exercise releases substance P and neuropeptides from sensory fibers, activating mast cells via MRGPRX2 @Roy2021mrgprx2 @Thapaliya2022mrgprx2neuro. In ME/CFS, the threshold for this cascade may be lowered by prior food-triggered mast cell priming—analogous to food-dependent exercise-induced anaphylaxis (FDEIA), where food antigens alone do not trigger reactions but the combination of food ingestion and exercise does, because exercise increases intestinal permeability and transglutaminase-mediated antigen cross-linking. A similar co-trigger mechanism might operate at subthreshold levels: meals consumed close to physical activity could lower the exertion threshold for PEM in patients with concurrent MCAS (certainty: 0.25; coherent mechanistic hypothesis built from adjacent evidence in FDEIA, MRGPRX2 biology, and ME/CFS exercise physiology, but no direct experimental evidence).
 
 *Testable predictions:*
@@ -279,17 +277,15 @@ Exercise releases substance P and neuropeptides from sensory fibers, activating
     - Urinary mediators should show greater post-exercise elevation when exercise follows a meal versus fasting
 
 *Limitations:* No published study has measured mast cell mediators before and after exertion challenges in ME/CFS. The food-dependent exercise-induced anaphylaxis model involves IgE-mediated reactions at suprathreshold levels, while this hypothesis proposes subthreshold non-IgE activation—an untested extrapolation.
-]
+] <spec:pem-food-mast>
 
 #warning-box(title: [MCAS Diagnostic Precision Required])[
-<warn:mcas-overdiagnosis>
 The international consensus criteria for MCAS require all three of: (1) recurrent symptoms across $gt.eq$2 organ systems, (2) serum tryptase increase of $>$20% above baseline plus 2 ng/mL during an acute episode, and (3) response to mast cell mediator-targeting therapy @Gulen2024mcascriteria @Castells2024mcasreview. Under strict criteria, idiopathic MCAS prevalence is approximately 4.4% @Gulen2024mcascriteria; broader clinical definitions that omit laboratory confirmation yield much higher prevalence estimates but at the cost of diagnostic specificity. Fewer than 5% of patients suspected of idiopathic MCAS meet strict consensus criteria @Castells2024mcasreview. Not all ME/CFS symptom burden should be attributed to mast cells; this mechanism applies to a subset. Hereditary alpha-tryptasemia (extra copies of TPSAB1, affecting 5–6% of the population) causes chronically elevated baseline tryptase and must be excluded before interpreting tryptase-based MCAS criteria.
-]
+] <warn:mcas-overdiagnosis>
 
 #open-question(title: [The SCFA–Mast Cell–Dysbiosis Triangle in ME/CFS])[
-<oq:scfa-mast-dysbiosis>
 If ME/CFS gut dysbiosis reduces SCFA production, and SCFAs are natural inhibitors of mast cell degranulation @Folkerts2018fiber, then gut microbiome composition may directly modulate mast cell activation thresholds. Could targeted prebiotic or SCFA supplementation reduce mast cell reactivity to food in ME/CFS patients with comorbid MCAS? This would represent a dietary intervention acting not on the trigger (food) but on the brake (SCFA-mediated inhibition). However, the SCFA–mast cell connection has been demonstrated only in vitro and animal models; clinical translation to MCAS or ME/CFS patients is entirely untested.
-]
+] <oq:scfa-mast-dysbiosis>
 
 === The Ehlers-Danlos Connection
 <subsec:eds-connection>
@@ -398,7 +394,6 @@ Small fiber neuropathy (SFN) may represent a convergent mechanism linking EDS st
 SFN may be where the EDS structural abnormality and the ME/CFS functional abnormality converge, though whether SFN in EDS has the same etiology as SFN in ME/CFS remains unknown.
 
 #speculation(title: [Defective Extracellular Matrix Alters Lymph Node Architecture and Viral Clearance])[
-<spec:heds-lymphnode-architecture>
 
 *Certainty: 0.25.* Highly speculative—no direct evidence links hEDS connective tissue defects to lymph node microenvironment dysfunction. The hypothesis bridges two independently supported observations (hEDS susceptibility to ME/CFS and viral persistence in lymph nodes) with a plausible but untested mechanistic bridge.
 
@@ -425,7 +420,7 @@ This hypothesis would be falsified if lymph node architecture in hEDS patients i
 
 *Limitations.*
 No studies have examined lymph node histology in hEDS. The ECM defect in hEDS is heterogeneous and incompletely characterised; its effects on lymphoid tissue are entirely extrapolated. Lymph node biopsy is invasive, limiting feasibility. The hypothesis cannot explain ME/CFS in patients without connective tissue disorders.
-]
+] <spec:heds-lymphnode-architecture>
 
 ==== The Deconditioning Spiral
 
@@ -448,7 +443,6 @@ This spiral is similar to—but distinct from—ME/CFS, where post-exertional ma
 ==== Synthesis: EDS as Susceptibility Factor
 
 #hypothesis-box(title: [Connective Tissue Disorders as ME/CFS Susceptibility Factors])[
-<hyp:eds-susceptibility>
 Hypermobility spectrum disorders do not cause ME/CFS directly but dramatically increase susceptibility through multiple mechanisms:
 
     - *Lower trigger threshold:* Pre-existing autonomic dysfunction means less physiological reserve. A viral infection that a person with normal connective tissue might recover from could tip an hEDS patient into chronic illness.
@@ -460,7 +454,7 @@ Hypermobility spectrum disorders do not cause ME/CFS directly but dramatically i
     - *Diagnostic confusion:* Symptom overlap delays ME/CFS diagnosis and appropriate management. Patients may be told their symptoms are “just EDS” when they actually have both conditions.
 
 This model explains the high comorbidity without requiring that EDS directly causes ME/CFS. Instead, EDS removes the physiological buffer that would normally allow recovery from acute triggers.
-]
+] <hyp:eds-susceptibility>
 
 #open-question(title: [Research Priorities for EDS-ME/CFS Connection])[
 Critical unanswered questions include:
