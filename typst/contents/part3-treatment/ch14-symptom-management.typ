@@ -1,0 +1,385 @@
+#import "../../template.typ": *
+
+= Symptom-Based Management
+<ch:symptom-management>
+
+== Critical Principle: Aggressive Management of All Comorbidities
+<sec:comorbidity-management>
+
+#warning-box(title: [This Cannot Be Overstated])[
+*Every comorbid condition, no matter how seemingly minor, must be treated aggressively and promptly.*
+
+When managing ME/CFS patients with comorbidities, clinicians must understand a fundamental principle that cannot be overstated: _any improvement, even one that appears insignificant in isolation, is essential in the context of ME/CFS recovery and may directly contribute to ME/CFS recovery itself_.
+]
+
+#limitation(title: [Comorbidity Management Rationale: Clinical Experience, Not Trial Evidence])[
+The comorbidity management principles in this section (lines through Section @sec:managing-pem) reflect expert clinical reasoning and patient-reported experience rather than ME/CFS-specific trial evidence. Claims about metabolic reserve, energy debt compounding, and threshold effects are clinical heuristics widely used by ME/CFS specialists but have not been formally validated in controlled studies.
+]
+
+=== Why Comorbidity Management Is Critical in ME/CFS
+
+ME/CFS patients operate at the absolute edge of their metabolic capacity. Unlike healthy individuals who can tolerate minor health issues without functional impact, ME/CFS patients have no reserve capacity to absorb additional burdens.
+
+==== The Compounding Effect of Comorbidities
+
+    - *No buffer capacity*: Healthy individuals can manage multiple minor health issues simultaneously because they have metabolic reserves. ME/CFS patients have zero buffer—every additional symptom or condition directly subtracts from their already insufficient functional capacity
+
+    - *Energy debt compounds*: A “minor” sleep disturbance that a healthy person could ignore may cost an ME/CFS patient hours of functionality the next day. Untreated allergies that cause mild congestion may increase breathing effort enough to trigger PEM. Chronic pain that others “manage” consumes energy the ME/CFS patient cannot spare
+
+    - *Symptoms cascade*: One untreated condition triggers others. Pain disrupts sleep, poor sleep worsens cognitive function, cognitive dysfunction impairs the ability to manage symptoms, which worsens the baseline condition. In ME/CFS, these cascades rapidly become catastrophic
+
+    - *Delayed recovery*: ME/CFS recovery is measured in months to years, not days to weeks. Every day spent managing a preventable comorbidity is a day not spent recovering from ME/CFS. The cumulative cost of “minor” untreated conditions over months becomes devastating
+
+    - *Threshold effects*: ME/CFS patients often exist just below a functional threshold. A 5% improvement in energy from treating a comorbidity may be the difference between complete disability and minimal function. What appears “insignificant” to clinicians may be life-changing for patients
+
+==== Clinical Approach: Treat Everything Aggressively
+
+*Do not dismiss any treatable condition as “too minor to matter” in ME/CFS patients.*
+
+What appears insignificant in a healthy patient may represent the difference between entirely housebound and able to leave the house occasionally—not to live a joyful life, but simply to make some brief outings possible. These marginal gains in severe disability are the difference between absolute confinement and minimal function.
+*Conditions requiring aggressive treatment in ME/CFS:*
+
+    - *Sleep disorders*: Even mild sleep apnea, periodic limb movements, or insomnia must be treated aggressively. Sleep disruption prevents the already-impaired recovery mechanisms from functioning
+
+    - *Pain conditions*: Chronic pain (migraines, joint pain, neuropathic pain) consumes energy and prevents rest. Adequate analgesia is not optional—it is essential for energy conservation
+
+    - *Allergies and sinus issues*: Chronic congestion, post-nasal drip, or allergic inflammation increase breathing effort and immune activation. These are not “minor annoyances”—they are energy drains
+
+    - *Gastrointestinal disorders*: IBS, GERD, gastroparesis, food intolerances—all impair nutrient absorption and require energy to manage. Treating GI symptoms can dramatically improve overall function
+
+    - *Endocrine dysfunction*: Hypothyroidism, adrenal insufficiency, sex hormone imbalances—even subclinical levels that might be ignored in healthy patients warrant treatment in ME/CFS
+
+    - *Nutritional deficiencies*: Vitamin D, B12, iron, magnesium deficiencies should be corrected aggressively. Even “borderline low” values may impair function in patients already operating at the edge
+
+    - *Infections*: Chronic sinusitis, UTIs, dental infections, fungal overgrowth—any ongoing infection must be treated promptly. The immune response and inflammation drain limited energy reserves
+
+    - *POTS and orthostatic intolerance*: Aggressive treatment with fluids, salt, compression, and medications (fludrocortisone, midodrine, beta-blockers) can meaningfully improve function
+
+    - *ADHD and cognitive dysfunction*: If stimulants or other ADHD medications improve function, they should be used. The cognitive energy saved may enable better symptom management overall
+
+    - *Mental health comorbidities*: Depression and anxiety are both consequences of and contributors to ME/CFS disability. Aggressive treatment with appropriate medications and therapy is essential, not optional
+
+==== The Virtuous Cycle: Physical Improvements Enable Psychological Improvements
+
+*This cannot be understated:* Any treatment that allows patients to function closer to “normal”—even if still far from truly normal—creates a favorable basis for psychological improvement and may improve quality of life for everyone involved.
+
+*The Multi-Level Benefits of Physical Symptom Treatment.*
+
+When comorbidities are treated and function improves, benefits cascade across multiple domains:
+
+    - *Physical pain reduction is real and immediate*: Treating pain, sleep disorders, or orthostatic intolerance directly reduces physical suffering. This alone justifies aggressive treatment
+
+    - *Psychological pain reduction follows*: When physical function improves, psychological suffering often decreases. Being able to shower independently, prepare a meal, or briefly leave the house reduces feelings of helplessness, dependency, and despair. The psychological burden of complete disability is partially lifted by even minimal functional gains
+
+    - *Potential for psychosomatic improvement (if such exists in ME/CFS)*: While ME/CFS is not a psychosomatic illness, improvements in physical function may create conditions where mind-body interactions—if they exist in this disease—can work in the patient's favor rather than against them. Feeling slightly less disabled may reduce stress, which may reduce symptom exacerbation, creating a modest virtuous cycle
+
+    - *Restoration of social connection*: When patients gain enough function to interact with family and friends—even briefly, even in limited ways—relationships can partially resume. Family members and friends may finally retrieve someone with whom they can interact in acceptable or even enjoyable ways, rather than only witnessing suffering
+
+    - *Reduced caregiver burden*: Improvements that enable greater independence reduce the physical and emotional burden on caregivers, improving their quality of life and the relationship dynamic
+
+    - *Hope and agency*: When treatments produce tangible improvements, patients regain a sense that their condition is not entirely beyond control. This psychological shift—from complete helplessness to having some agency—can be profoundly meaningful even when disability remains severe
+
+*The Compounding Nature of Improvement.*
+
+Physical improvements enable psychological improvements, which may enable better symptom management, which may enable further physical improvements:
+
+    - Better function → reduced psychological distress → better sleep quality → improved baseline function
+    - Reduced pain → ability to engage in minimal activity → reduced deconditioning → less pain from movement
+    - Improved social connection → reduced isolation and depression → better adherence to pacing and treatment → improved outcomes
+    - Increased independence → restored dignity and self-worth → motivation to continue treatment → sustained improvements
+
+*For Family and Friends: The Relief of Reconnection.*
+
+For loved ones who have watched the patient disappear into severe disability, even small functional improvements can be deeply meaningful:
+
+    - *Restoration of interaction*: When the patient can tolerate brief conversations or visits, relationships that had essentially ceased can resume in limited form
+
+    - *Witnessing improvement rather than only decline*: Seeing the patient gain any function provides hope and relief after potentially years of watching deterioration
+
+    - *Reduced guilt and helplessness*: When treatments help, family members feel less helpless and guilty about their inability to help
+
+    - *Acceptable or enjoyable interactions*: Moving from interactions defined entirely by caregiving and suffering to interactions that include moments of connection, conversation, or even brief enjoyment transforms the relationship
+
+*Clinical Principle: Treat for Total Quality of Life.*
+
+When treating ME/CFS comorbidities, recognize that benefits extend far beyond the specific symptom being treated:
+
+    - Treating pain improves physical suffering _and_ psychological well-being _and_ social relationships
+    - Treating cognitive dysfunction improves function _and_ restores agency _and_ enables better symptom management
+    - Treating orthostatic intolerance improves physical capacity _and_ enables social connection _and_ reduces caregiver burden
+
+The psychological pain is real. The physical pain is real. Both deserve aggressive treatment. Improvements in physical function create conditions for improvements in psychological state, social connection, and overall quality of life for patients and their families.
+
+*This cannot be understated.*
+
+==== The “Insignificant Improvement” Fallacy
+
+Clinicians accustomed to treating otherwise healthy patients may dismiss a 5–10% functional improvement as “clinically insignificant.” *In ME/CFS, this is catastrophically wrong.*
+
+*Understanding the Percentage Baseline.*
+When discussing percentage improvements, it is critical to understand what baseline we are measuring against:
+
+    - *If measuring relative to current function*: A patient operating at 10% of normal capacity who gains a “5% improvement” relative to their current state only moves to 10.5% of normal—seemingly trivial
+
+    - *If measuring relative to healthy baseline*: A 5% improvement _of the patient's potential 100% capacity_ is massive when the patient currently operates at 10%. This represents moving from 10% to 15% of normal capacity—a *50% relative increase* in available function
+
+    - *The clinical reality*: Most meaningful improvements are measured against the patient's healthy baseline, not their current compromised state. A treatment that restores 5 percentage points of normal capacity when you only have 10 percentage points available _increases your functional capacity by 50%_—a massive improvement
+
+*Examples with concrete baselines:*
+
+Consider a patient currently operating at 15% of their pre-illness capacity:
+
+    - Treating sleep apnea that restores 5 percentage points (baseline) = moving from 15% to 20% = 33% relative increase in function
+    - Correcting vitamin D deficiency that restores 3 percentage points = moving from 20% to 23% = 15% relative increase
+    - Treating POTS that restores 7 percentage points = moving from 23% to 30% = 30% relative increase
+    - Managing chronic pain that restores 5 percentage points = moving from 30% to 35% = 17% relative increase
+
+*Cumulative result:* Four “minor” interventions restore 20 percentage points of baseline capacity, moving the patient from 15% to 35% function—more than *doubling* their functional capacity.
+
+*What this means practically:*
+
+    - *At 15% capacity*: Bedbound most of the day, needs assistance with basic ADLs, cannot work
+    - *At 35% capacity*: Can shower independently, prepare simple meals, manage basic household tasks, potentially work part-time from home with pacing
+
+    - The difference between 15% and 35% is the difference between complete dependence and minimal independence—life-changing for the patient even though clinicians might dismiss these as “small” improvements
+
+*Clinical principle:* In ME/CFS, _aggregate marginal gains measured against healthy baseline matter enormously_. Small absolute improvements become massive relative improvements when the starting point is severe functional limitation. Never dismiss an intervention because it only restores “a few percentage points”—those points may represent doubling or tripling the patient's available capacity.
+
+==== Time Scales Matter
+
+ME/CFS recovery, when it occurs, happens over months to years. Every untreated comorbidity:
+
+    - Delays the start of recovery by keeping the patient in a worsened baseline state
+    - Consumes energy that could otherwise go toward healing
+    - May trigger PEM episodes that cause setbacks lasting weeks
+    - Compounds over time, making the total burden exponentially worse
+
+A treatable condition left untreated for 6 months may cost the patient a year of recovery time. The urgency of treating “minor” issues in ME/CFS cannot be overstated.
+
+==== For Patients: Advocate for Comprehensive Treatment
+
+If your clinician dismisses a symptom or comorbidity as “not significant enough to treat,” recognize that this reflects a fundamental misunderstanding of ME/CFS. You may need to:
+
+    - Explicitly explain that small improvements are critical when operating at the metabolic edge
+    - Request trials of treatments even for “borderline” or “mild” conditions
+    - Seek specialists for individual comorbidities rather than expecting your ME/CFS provider to manage everything
+    - Document functional improvements from treating comorbidities to demonstrate their importance
+
+*The principle:* Treat everything. Every improvement counts. Nothing is too minor to matter when you're already at the edge of functional collapse.
+
+=== Infection Prevention as Therapeutic Priority
+
+<obs:infection-prevention-priority>
+Patient case experience demonstrates that infections—even mild infections that a healthy person would weather without consequence—can trigger permanent step-down in baseline function in ME/CFS. Each infection (upper respiratory, influenza, COVID-19, or other pathogenic exposure) frequently causes an irreversible worsening of functional capacity, with prolonged post-infectious PEM lasting weeks to months even for mild infections. The “ratchet effect” operates at the infection level: baseline function declines step-by-step with each infection, creating cumulative deterioration from mild to moderate to severe disease. Some patients report specific infections (COVID, influenza, or opportunistic reactivation) as triggering the transition from relatively stable illness to progressive decline, suggesting that infection prevention may be among the most impactful interventions in the ME/CFS treatment toolkit.
+
+*Concrete infection prevention strategies*:
+
+    - *FFP2 masking*: N95 or FFP2 masks in crowded indoor spaces, particularly during respiratory season (September–April)
+    - *Prophylactic antivirals*: During household exposures (family member infected), antivirals started immediately may prevent infection entirely or minimize severity
+    - *Immediate treatment*: Any infection symptoms treated aggressively and immediately with antivirals, antibiotics (if bacterial), or other targeted therapy rather than “watching and waiting”
+    - *Vaccination*: Despite potential for temporary post-vaccination PEM in some patients, infection-prevention benefit likely exceeds risk (consult with knowledgeable physician)
+    - *Environmental control*: Avoid crowded spaces, maintain distance from infectious individuals, ventilation optimization in home/workplace
+    - *Immune support*: While evidence is limited, adequate nutrition, micronutrient repletion (vitamin D, zinc, selenium), sleep quality, and pacing all support baseline immune function
+
+*Rationale*: Because infections cause irreversible worsening, preventing infection is mechanistically equivalent to preventing the ratchet effect itself. An infection prevented entirely is functionally equivalent to saving months of recovery time and avoiding permanent functional loss. In a disease where recovery is difficult and decline is permanent, prevention becomes the primary treatment.
+#limitation(title: [Sections @sec:managing-pem–@sec:autonomic-management: Citations Pending])[
+The symptom management sections below (PEM, sleep, pain, cognitive, orthostatic, autonomic) were drafted from clinical consensus and specialist experience but currently lack inline citations. Specific claims—prevalence percentages, dosage ranges, mechanism descriptions—require supporting references before these sections can be considered evidence-based. Citation integration is a priority for the next revision.
+]
+
+== Managing Post-Exertional Malaise
+<sec:managing-pem>
+
+Post-exertional malaise (PEM) is the hallmark feature of ME/CFS and its management is the foundation of all treatment strategies. PEM is characterized by a disproportionate worsening of symptoms following physical, cognitive, or emotional exertion, typically delayed by 12–72 hours and lasting days to weeks.
+
+=== Pacing and Energy Envelope Theory
+
+Pacing is the primary strategy for preventing PEM. The energy envelope theory, developed by Jason et al., posits that ME/CFS patients have a reduced energy envelope—a maximum amount of energy available for activity on any given day—and that exceeding this envelope triggers PEM. The goal of pacing is to keep activity within the envelope.
+
+Key pacing principles include:
+
+    - *Heart rate monitoring*: Many patients find that maintaining heart rate below their anaerobic threshold (typically 50–60% of age-predicted maximum, or approximately 100–110 bpm for many patients) prevents PEM triggers. Wearable heart rate monitors provide real-time feedback
+    - *Baseline establishment*: Patients should identify their current sustainable activity level—the amount of activity they can perform without triggering PEM—and use this as their starting point. This baseline is often lower than patients expect
+    - *Activity–rest cycling*: Alternating periods of activity with mandatory rest periods (e.g., 15 minutes of activity followed by 15 minutes of rest) prevents cumulative energy depletion
+    - *Pre-emptive rest*: Resting _before_ feeling exhausted, rather than pushing until collapse, is critical. By the time fatigue is severe, the energy envelope has already been exceeded
+    - *Cognitive and emotional pacing*: Cognitive tasks (reading, conversations, screen time) and emotional stressors consume energy and must be budgeted alongside physical activity
+
+#limitation(title: [Pacing Evidence Base])[
+While pacing is widely recommended by ME/CFS specialists and patient organizations, and large patient surveys consistently rank it as the most helpful management strategy, high-quality randomized controlled trial evidence is limited. Most supporting evidence comes from observational studies, patient surveys, and clinical experience. The optimal pacing strategy likely varies by patient severity and subtype.
+]
+
+=== Medications for PEM
+
+No medication is specifically approved for PEM prevention or treatment. Pharmacological approaches remain experimental and off-label:
+
+    - *Low-dose naltrexone (LDN)*: Some patients report reduced PEM severity and frequency at doses of 1.5–4.5 mg nightly. The proposed mechanism involves immunomodulation via transient opioid receptor blockade (Chapter @ch:medications-mechanisms)
+    - *Low-dose aripiprazole (LDA)*: Anecdotal reports and one retrospective case series suggest doses of 0.25–2 mg may reduce PEM severity, possibly through dopamine and neuroinflammation modulation
+    - *Anti-inflammatory agents*: Some patients benefit from NSAIDs or corticosteroids taken at PEM onset, consistent with the inflammatory component of post-exertional symptom flares
+    - *Mitochondrial support*: CoQ10, D-ribose, and NADH supplementation may reduce PEM severity in some patients by supporting impaired mitochondrial function (Chapter @ch:supplements)
+
+#warning-box(title: [No PEM “Cure”])[
+No medication reliably prevents or treats PEM. Pharmacological approaches are adjunctive to pacing, not substitutes for it. Patients who use medications to “push through” activity beyond their energy envelope risk cumulative harm.
+]
+
+== Sleep Management
+<sec:sleep-management>
+
+Sleep dysfunction is nearly universal in ME/CFS, affecting over 90% of patients. Characteristic features include unrefreshing sleep despite adequate duration, difficulty initiating or maintaining sleep, reversed sleep–wake cycles, and vivid or disturbing dreams. Sleep disturbance both results from and contributes to the core pathophysiology of ME/CFS, creating a vicious cycle where poor sleep worsens fatigue, pain, and cognitive dysfunction.
+
+=== Sleep Hygiene
+
+Standard sleep hygiene principles apply but must be adapted for the ME/CFS context:
+
+    - *Environmental modifications*: Dark, cool (18–20\textdegree C), quiet bedroom. Blackout curtains and white noise machines may help patients with sensory sensitivities. Remove screens from the bedroom
+    - *Consistent schedule*: Fixed wake time is more important than fixed bedtime. Gradual shift toward desired schedule (15 minutes per week) rather than abrupt changes
+    - *Light exposure*: Morning bright light (10,000 lux light box or natural daylight within 30 minutes of waking) helps entrain circadian rhythm. Evening blue light reduction via amber-tinted glasses or screen filters beginning 2 hours before bedtime
+    - *Temperature regulation*: Many ME/CFS patients have impaired thermoregulation. Cooling mattress pads, breathable bedding, and layered blankets allow temperature adjustment
+    - *Pre-sleep routine*: A consistent wind-down period of 30–60 minutes with low-stimulation activities. Cognitive or emotional stimulation close to bedtime can delay sleep onset by hours in ME/CFS patients
+
+#limitation(title: [Sleep Hygiene Alone Is Insufficient])[
+Sleep hygiene improves sleep conditions but rarely resolves ME/CFS sleep dysfunction, which has a neurological basis (Chapter @ch:neurological). Clinicians who prescribe only sleep hygiene without addressing the underlying sleep architecture disruption undertreat these patients.
+]
+
+=== Medications for Sleep
+
+Pharmacological sleep management in ME/CFS often requires a trial-and-error approach, as individual responses vary substantially. Medications should be started at the lowest effective dose.
+
+    - *Melatonin*: 0.5–5 mg, 30–60 minutes before bedtime. Extended-release formulations may help with sleep maintenance. Well-tolerated with minimal side effects. Some evidence of immunomodulatory benefit in ME/CFS
+    - *Trazodone*: 25–100 mg at bedtime. A sedating antidepressant frequently used off-label for insomnia. Improves sleep maintenance and may increase slow-wave sleep. Low risk of dependence
+    - *Low-dose amitriptyline*: 5–25 mg at bedtime. Improves sleep quality and may reduce pain and headaches. Anticholinergic side effects (dry mouth, constipation) limit dose
+    - *Low-dose doxepin*: 3–6 mg (Silenor). Selectively blocks histamine H1 receptors at low doses, promoting sleep without significant anticholinergic effects. FDA-approved for insomnia
+    - *Gabapentin*: 100–600 mg at bedtime. Particularly useful when pain and sleep disturbance co-occur. Increases slow-wave sleep. Dizziness and cognitive effects may limit use
+    - *Pregabalin*: 25–150 mg at bedtime. Similar profile to gabapentin. FDA-approved for fibromyalgia, which frequently co-occurs with ME/CFS
+    - *Suvorexant/lemborexant*: Orexin receptor antagonists that may be particularly relevant given hypothesized orexin pathway dysfunction in ME/CFS. Clinical experience in ME/CFS is limited
+    - *Z-drugs* (zolpidem, eszopiclone): Effective for sleep initiation but do not improve the unrefreshing quality of ME/CFS sleep. Risk of dependence with long-term use; best reserved for intermittent use
+    - *Benzodiazepines*: Generally avoided due to dependence risk, cognitive impairment, and potential to worsen daytime fatigue. May be appropriate short-term during severe exacerbations
+
+== Pain Management
+<sec:pain-management>
+
+Pain affects 70–95% of ME/CFS patients and includes headaches, myalgia, arthralgia, and neuropathic pain. Pain in ME/CFS is likely mediated by central sensitization, neuroinflammation, and small fiber neuropathy (Chapter @ch:neurological) rather than peripheral tissue damage, which has implications for treatment selection.
+
+=== Analgesics
+
+Simple analgesics provide modest relief for many patients but rarely achieve adequate pain control as monotherapy:
+
+    - *Acetaminophen* (paracetamol): 500–1000 mg up to 4 times daily. Safe for most patients but limited efficacy for neuropathic pain. Avoid exceeding 3 g/day, particularly in patients with hepatic compromise
+    - *NSAIDs*: Ibuprofen (200–400 mg), naproxen (250–500 mg). Useful for inflammatory pain, headaches, and myalgia. Long-term use carries gastrointestinal, renal, and cardiovascular risks; periodic use with gastroprotection is preferred. May paradoxically benefit ME/CFS through anti-inflammatory effects beyond analgesia
+    - *Topical agents*: Diclofenac gel, capsaicin cream, or lidocaine patches provide localized relief without systemic side effects. Appropriate for focal myalgia or arthralgia
+
+=== Neuropathic Pain Medications
+
+Given the central sensitization and small fiber neuropathy underlying much ME/CFS pain, neuropathic pain agents are often more effective than traditional analgesics:
+
+    - *Gabapentin*: 100–1200 mg in divided doses, titrated slowly. First-line for neuropathic pain in ME/CFS due to dual benefit on pain and sleep. Start at 100 mg at bedtime to minimize cognitive effects
+    - *Pregabalin*: 25–300 mg in divided doses. Similar mechanism to gabapentin with more predictable pharmacokinetics. FDA-approved for fibromyalgia
+    - *Duloxetine*: 20–60 mg daily. An SNRI with FDA approval for fibromyalgia, diabetic neuropathy, and chronic musculoskeletal pain. May improve fatigue alongside pain in some patients. Nausea and activation side effects limit tolerability
+    - *Low-dose naltrexone (LDN)*: 1.5–4.5 mg at bedtime. Growing evidence for efficacy in fibromyalgia and preliminary evidence in ME/CFS. Proposed mechanism involves microglial modulation and reduced central sensitization. Well-tolerated; vivid dreams are the most common side effect
+
+=== Opioids
+
+Opioid use in ME/CFS is controversial and generally discouraged as routine treatment:
+
+    - *Risks*: Dependence, tolerance, opioid-induced hyperalgesia, cognitive impairment, constipation (worsening GI dysfunction), and immune suppression—all particularly concerning in ME/CFS patients
+    - *Limited efficacy*: Central sensitization pain responds poorly to opioids compared to neuropathic agents
+    - *Potential role*: In patients with severe pain refractory to all other interventions, low-dose opioids (e.g., tramadol 50–100 mg, low-dose buprenorphine) may be considered under specialist supervision with clear monitoring and discontinuation criteria
+    - *Tramadol*: Has dual opioid and serotonin–norepinephrine reuptake inhibition. Some ME/CFS patients report benefit; serotonin syndrome risk with concurrent SSRIs/SNRIs must be monitored
+
+#warning-box(title: [Opioid Prescribing in ME/CFS])[
+If opioids are prescribed, patients must understand that these are for pain management, not energy improvement. Opioid-mediated pain reduction may enable patients to exceed their energy envelope, paradoxically worsening ME/CFS through PEM.
+]
+
+=== Non-pharmacological Pain Management
+
+Non-pharmacological approaches are important adjuncts to medication, particularly given the central sensitization component of ME/CFS pain:
+
+    - *Adapted physical therapy*: Gentle, sub-threshold exercise guided by a physiotherapist experienced with ME/CFS. Focus on maintaining range of motion and preventing contractures rather than progressive strengthening. All activity must remain within the energy envelope
+    - *Gentle stretching*: Brief (5–10 minute), low-intensity stretching sessions can reduce myalgia and maintain flexibility. Yoga nidra or restorative yoga positions (performed lying down) may be tolerated by moderate–severe patients
+    - *Heat therapy*: Warm baths (if tolerated), heating pads, or infrared therapy can relieve myalgia and joint stiffness. Caution in patients with autonomic dysfunction, as heat may worsen orthostatic intolerance
+    - *Cold therapy*: Ice packs or cooling wraps for acute pain flares, particularly headaches and localized inflammation
+    - *TENS units*: Transcutaneous electrical nerve stimulation provides modest pain relief for some patients with minimal energy cost or side effects. Portable units allow use during rest periods
+    - *Manual therapy*: Gentle massage, myofascial release, or craniosacral therapy may provide temporary relief. Vigorous massage can trigger PEM and should be avoided
+
+== Cognitive Symptom Management
+<sec:cognitive-management>
+
+Cognitive dysfunction (“brain fog”) is among the most disabling symptoms of ME/CFS, affecting concentration, short-term memory, word retrieval, processing speed, and executive function. Cognitive impairment worsens with exertion, tracks with overall disease severity, and is likely mediated by neuroinflammation, cerebral hypoperfusion, and neurotransmitter deficiency (Chapter @ch:neurological).
+
+=== Cognitive Strategies
+
+Compensatory strategies reduce the cognitive load of daily activities and conserve cognitive energy:
+
+    - *External memory aids*: Smartphone reminders, written lists, calendars, and voice memos reduce reliance on impaired short-term memory. Centralize all information in one system rather than relying on multiple sources
+    - *Environmental modifications*: Reduce sensory input (noise-cancelling headphones, dim lighting, minimize visual clutter) to lower the cognitive processing burden. A quiet, low-stimulation environment significantly improves cognitive performance in many patients
+    - *Task simplification*: Break complex tasks into smaller steps. Write out multi-step procedures. Avoid multitasking—serial focus on single tasks is more efficient with impaired executive function
+    - *Cognitive pacing*: Alternate cognitive tasks with rest periods, just as physical activity is paced. Set timers for focused cognitive work (often 10–20 minutes is the maximum productive duration during flares) followed by rest
+    - *Timing optimization*: Identify the time of day when cognitive function is best (often mid-morning for many patients) and schedule demanding cognitive tasks during these windows. Reserve low-demand activities for periods of worse function
+
+=== Medications
+
+Pharmacological treatment of cognitive dysfunction in ME/CFS is entirely off-label and evidence is limited to small studies and clinical experience:
+
+    - *Methylphenidate*: 5–20 mg in divided doses (morning and early afternoon). May improve concentration, processing speed, and alertness. Risk of appetite suppression, insomnia, and cardiovascular effects. Start at 2.5–5 mg to assess tolerability. _Metabolic consideration:_ Methylphenidate suppresses appetite via dopaminergic and noradrenergic mechanisms and increases resting energy expenditure @Lorello2008methylphenidate. In patients with ME/CFS who are already at risk of inadequate caloric intake (due to nausea, GI dysfunction, or orthostatic symptoms worsened by eating), methylphenidate-induced appetite suppression can worsen nutritional status and accelerate muscle wasting. Monitor body weight and dietary intake; consider timing doses after meals to reduce appetite suppression at key eating times
+    - *Modafinil/armodafinil*: 50–200 mg in the morning. Promotes wakefulness and may improve cognitive function without the stimulant side-effect profile of amphetamines. Headache is a common side effect. Some patients report improved focus without the “crash” associated with traditional stimulants
+    - *Low-dose aripiprazole*: 0.2–2 mg daily. Anecdotal reports of cognitive improvement, possibly through dopamine modulation. Mechanism of action in ME/CFS is speculative
+    - *Memantine*: 5–10 mg daily. An NMDA receptor antagonist used in Alzheimer's disease. Limited case reports suggest benefit for brain fog in ME/CFS, possibly through reduction of excitotoxicity
+
+#limitation(title: [Stimulant Use in ME/CFS])[
+Stimulants and wakefulness-promoting agents improve cognitive _symptoms_ but do not address the underlying pathology. They may enable patients to exceed their cognitive energy envelope, risking PEM. Clinicians should counsel patients that improved cognition from medication is not a signal to increase cognitive workload. For comprehensive pharmacological analysis of stimulant mechanisms, energy depletion risks, PEM dynamics, and harm reduction strategies, see Section @sec:stimulants.
+]
+
+== Orthostatic Intolerance Management
+<sec:orthostatic-management>
+
+Orthostatic intolerance—including postural orthostatic tachycardia syndrome (POTS), neurally mediated hypotension (NMH), and orthostatic hypotension—affects an estimated 50–70% of ME/CFS patients (Chapter @ch:cardiovascular). Orthostatic intolerance is a major contributor to functional limitation and a frequent cause of PEM when patients stand beyond their tolerance.
+
+=== Non-pharmacological Approaches
+
+Non-pharmacological management is the foundation of orthostatic intolerance treatment and should be implemented before or alongside medications:
+
+    - *Fluid and salt intake*: 2–3 liters of fluid and 6–10 g of sodium chloride daily (unless contraindicated by renal or cardiac disease). Electrolyte solutions (oral rehydration salts) are more effective than water alone for plasma volume expansion. Salt tablets may be needed if dietary salt is insufficient
+    - *Compression garments*: Waist-high compression stockings (30–40 mmHg) or abdominal binders are most effective, as lower-extremity-only compression fails to prevent splanchnic venous pooling. Compression should be donned before standing
+    - *Physical countermanoeuvres*: Leg crossing, muscle tensing, squatting, and toe raises during prolonged standing increase venous return. These are immediate, cost-free interventions that patients can use in any setting
+    - *Positional strategies*: Avoid prolonged standing; use a stool or perching seat for kitchen and bathroom activities. Elevate the head of the bed by 10–15 cm (not pillows alone, which flex the neck without changing hemodynamics) to reduce nocturnal natriuresis and improve morning orthostatic tolerance
+    - *Graded reconditioning*: If tolerated within the energy envelope, recumbent exercise (recumbent cycling, swimming, rowing) can improve cardiovascular fitness without the orthostatic stress of upright exercise. Progression must be extremely gradual and must not trigger PEM
+
+=== Medications
+
+When non-pharmacological measures are insufficient, medications targeting specific orthostatic mechanisms are added sequentially:
+
+    - *Fludrocortisone*: 0.05–0.2 mg daily. A mineralocorticoid that increases plasma volume through sodium and water retention. Monitor for hypokalemia, edema, and supine hypertension. First-line pharmacological agent for NMH
+    - *Midodrine*: 2.5–10 mg two to three times daily (last dose at least 4 hours before bedtime). An alpha-1 agonist that increases peripheral vascular resistance. Monitor for supine hypertension, piloerection, and urinary retention. Particularly effective for orthostatic hypotension
+    - *Pyridostigmine*: 30–60 mg two to three times daily. An acetylcholinesterase inhibitor that enhances ganglionic neurotransmission, modestly increasing standing blood pressure without supine hypertension. Well-tolerated; GI side effects (nausea, diarrhea) may limit dose
+    - *Beta-blockers*: Low-dose propranolol (10–20 mg two to three times daily) or ivabradine (2.5–7.5 mg twice daily) for POTS with prominent tachycardia. Propranolol may worsen fatigue and exercise intolerance; ivabradine selectively reduces heart rate without affecting blood pressure or fatigue and is increasingly preferred for ME/CFS-associated POTS
+    - *Droxidopa*: 100–600 mg three times daily. A norepinephrine prodrug for neurogenic orthostatic hypotension. May be particularly relevant given the CSF catecholamine deficiency documented by Walitt et al.\ (Chapter @ch:mechanistic-studies)
+    - *Mestinon + midodrine combination*: Combining pyridostigmine (parasympathetic augmentation) with midodrine (sympathetic augmentation) can address both limbs of the autonomic deficit
+
+== Autonomic Symptom Management
+<sec:autonomic-management>
+
+Beyond orthostatic intolerance, autonomic dysfunction in ME/CFS produces a range of symptoms requiring targeted management.
+
+=== Temperature Dysregulation
+
+Many ME/CFS patients experience impaired thermoregulation, including subjective fevers, chills, heat and cold intolerance, and inappropriate sweating:
+
+    - *Environmental control*: Maintain ambient temperature at 20–22\textdegree C where possible. Layered clothing allows rapid adjustment. Cooling vests for heat intolerance; heated blankets for cold intolerance
+    - *Avoid triggers*: Hot baths and showers can cause vasodilation and worsen orthostatic intolerance. Lukewarm showers with a shower chair are safer. Avoid prolonged sun exposure
+    - *Pharmacological options*: If subjective fevers are distressing, low-dose acetaminophen may help. For hyperhidrosis, topical antiperspirants or low-dose glycopyrrolate (0.5–1 mg) can be tried
+
+=== Gastrointestinal Autonomic Symptoms
+
+GI dysmotility from autonomic dysfunction causes nausea, gastroparesis, constipation, diarrhea, and abdominal pain:
+
+    - *Gastroparesis*: Small, frequent meals. Avoid high-fat foods that delay gastric emptying. Domperidone (10 mg before meals, where available) or metoclopramide (5–10 mg, short-term only due to tardive dyskinesia risk) for symptom relief. Ginger extract may provide modest prokinetic benefit
+    - *Constipation*: Osmotic laxatives (polyethylene glycol 17 g daily) are first-line. Magnesium citrate (200–400 mg at bedtime) provides dual benefit as a laxative and magnesium supplement. Adequate hydration is essential. Avoid stimulant laxatives long-term
+    - *Diarrhea*: Exclude MCAS (Section @sec:mast-cell-model) and food intolerances. Loperamide for symptomatic relief. Bile acid sequestrants (cholestyramine) if bile acid malabsorption is suspected
+    - *Nausea*: Ondansetron (4–8 mg as needed), meclizine, or ginger supplements. Persistent nausea warrants evaluation for gastroparesis, MCAS, or intracranial hypertension
+
+=== Urinary Autonomic Symptoms
+
+Bladder dysfunction in ME/CFS may include urgency, frequency, nocturia, and incomplete emptying:
+
+    - *Bladder training*: Timed voiding schedules and pelvic floor exercises (if tolerated within the energy envelope) can improve urgency and frequency
+    - *Medications*: Antimuscarinic agents (oxybutynin 2.5–5 mg, solifenacin 5 mg) for overactive bladder symptoms. Beta-3 agonists (mirabegron 25–50 mg) may be better tolerated. Desmopressin (10–40 µ g intranasal at bedtime) can reduce nocturia but requires monitoring of serum sodium
+    - *Interstitial cystitis overlap*: Painful bladder syndrome co-occurs with ME/CFS at elevated rates. Pentosan polysulphate, bladder instillations, or amitriptyline (which also improves sleep) may be needed
+
