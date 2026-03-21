@@ -11,7 +11,7 @@
 #let doc-doi-url  = "https://doi.org/" + doc-doi
 #let doc-orcid    = "0009-0003-5754-827X"
 #let doc-email    = "yl@infolead.eu"
-#let doc-version  = 5
+#let doc-version  = 6
 
 // Compile date — override via `--input compile-date=YYYY-MM-DD`.
 // Fallback: doc-date-fallback below (update on each release).
