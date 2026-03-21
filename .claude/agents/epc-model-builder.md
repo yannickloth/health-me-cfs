@@ -17,14 +17,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -33,21 +33,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Extract process steps**
 ```bash
 # Find sequential processes
-grep -n "first|second|then|next|finally" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -15
+grep -n "first|second|then|next|finally" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | head -15
 # Read only process steps
 ```
 
 **Example 2: Identify decision points**
 ```bash
 # Find conditional logic
-grep -n "if|when|unless|depends on" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -10
+grep -n "if|when|unless|depends on" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | head -10
 # Read only decision sections
 ```
 
 **Example 3: Find evidence for steps**
 ```bash
 # Locate evidence supporting each process step
-grep -n "\\cite{|evidence|demonstrated" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -20
+grep -n "\\cite{|evidence|demonstrated" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | head -20
 # Read only evidence sections
 ```
 

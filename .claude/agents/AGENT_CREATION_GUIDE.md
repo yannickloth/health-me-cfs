@@ -145,7 +145,7 @@ Diagnose and optimize slow LaTeX builds.
 
 ## Tools
 
-- **Read:** Access .tex files and build logs
+- **Read:** Access .typ files and build logs
 - **Bash:** Run timing commands
 - **Grep:** Search logs for warnings/errors
 
@@ -153,7 +153,7 @@ Diagnose and optimize slow LaTeX builds.
 
 1. Read the most recent latexmk log from `.`
 2. Identify top 3 slowest operations
-3. Map to source files (which .tex files are expensive?)
+3. Map to source files (which .typ files are expensive?)
 4. Suggest 2-3 concrete optimizations
 5. Report findings with timing estimates
 ```

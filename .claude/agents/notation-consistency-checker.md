@@ -42,7 +42,7 @@
 
 **Output**: Notation audit report. Format:
 ```
-File: src/main/latex/volume-N/partP/chNN/chapter-file.tex (Volume N)
+File: src/main/latex/volume-N/partP/chNN/chapter-file.typ (Volume N)
 Status: CLEAN | ISSUES FOUND
 Issues:
   - Line 42: \gamma used in GTSO context (Vol 4); should be v or \mathcal{V}

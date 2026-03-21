@@ -8,7 +8,7 @@
 - When checking whether a definition is well-grounded in the theory
 - To verify the definition dependency graph is acyclic and well-ordered
 
-**Scope**: Definition files (`**/definitions/def-*.tex`) within one or more chapters
+**Scope**: Definition files (`**/definitions/def-*.typ`) within one or more chapters
 
 **Distinction from other agents**:
 - `definition-use-checker` (haiku): checks *ordering* — is a term defined before first use? Mechanical position check.

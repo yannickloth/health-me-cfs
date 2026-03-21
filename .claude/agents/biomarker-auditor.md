@@ -1,6 +1,6 @@
 ---
 name: biomarker-auditor
-description: Audit biomarker claims for sensitivity/specificity reporting, reference ranges, pre-analytical variables, and biomarker vs surrogate endpoint distinction. Use when reviewing ch20 or any biomarker-related content. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit biomarker claims for sensitivity/specificity reporting, reference ranges, pre-analytical variables, and biomarker vs surrogate endpoint distinction. Use when reviewing ch20 or any biomarker-related content. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

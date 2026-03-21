@@ -167,7 +167,7 @@ It's generally a good idea to verify things first.
 ```
 Verify file exists before editing:
 ```bash
-grep -l "pattern" target-file.tex
+grep -l "pattern" target-file.typ
 ```
 ```
 

@@ -1,6 +1,6 @@
 ---
 name: model-auditor
-description: Cross-validate DAG, EPC, and ODE models for internal consistency — certainty alignment, event timing vs. ODE predictions, and parameter citation coverage. Use when auditing formalization consistency or completing formalization pipeline Stage 4. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Cross-validate DAG, EPC, and ODE models for internal consistency — certainty alignment, event timing vs. ODE predictions, and parameter citation coverage. Use when auditing formalization consistency or completing formalization pipeline Stage 4. Works with Typst (.typ) files.
 model: opus
 tools: Read, Grep, Glob
 ---
@@ -35,7 +35,7 @@ Ensure mathematical and scientific consistency across the three formalization le
 
 ## Tools
 
-- **Read:** Model YAML files, chapter files (.tex or .typ) with formal content
+- **Read:** Model YAML files, chapter files (.typ or .typ) with formal content
 - **Grep:** Find certainty values, timing annotations, citations (`\cite{}` in LaTeX, `@Key` in Typst) in model blocks
 - **Glob:** Locate all model files for a process
 
@@ -46,7 +46,7 @@ Ensure mathematical and scientific consistency across the three formalization le
 ```bash
 # Find DAG, EPC, ODE files for the target process
 glob "**/*[process-keyword]*"
-grep -rn "certainty:" content-staging/ contents/part5-modeling/
+grep -rn "certainty:" content-staging/ src/main/typst/mecfs/part5-modeling/
 ```
 
 ### Step 2: Extract Certainty Values
@@ -81,9 +81,9 @@ For each ODE parameter:
 
 ```bash
 # LaTeX
-grep -n "cite{" contents/part5-modeling/chNN-*.tex
+grep -n "cite{" src/main/typst/mecfs/part5-modeling/chNN-*.typ
 # Typst
-grep -n "@[A-Z]" typst/contents/part5-modeling/chNN-*.typ
+grep -n "@[A-Z]" typst/src/main/typst/mecfs/part5-modeling/chNN-*.typ
 # Check bib
 grep -n "^@" references.bib | grep "CITATION_KEY"
 ```

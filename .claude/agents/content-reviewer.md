@@ -1,6 +1,6 @@
 ---
 name: content-reviewer
-description: Review document sections for consistency, completeness, and coherence. Use when checking if content is well-organized and complete. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Review document sections for consistency, completeness, and coherence. Use when checking if content is well-organized and complete. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Glob, Grep
 ---
@@ -19,12 +19,12 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ### Format Detection
 
-Determine format from file extension: `.tex` → LaTeX, `.typ` → Typst.
+All files use Typst (.typ) format.
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
 # LaTeX
-grep -n "\\label{labelname}" contents/**/*.tex
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
 # Typst
 grep -n "<labelname>" typst/**/*.typ
 grep -n "@CitationKey" typst/**/*.typ
@@ -35,23 +35,23 @@ grep -n "@CitationKey" typst/**/*.typ
 **Example 1: Find all citations in a section**
 ```bash
 # LaTeX
-grep -n "\\cite{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "\\cite{" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Typst
-grep -n "@[A-Z]" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
+grep -n "@[A-Z]" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 **Example 2: Check reference validity**
 ```bash
 # LaTeX
-grep -o "\\ref{[^}]*}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | sort -u
+grep -o "\\ref{[^}]*}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
 # Typst
-grep -o "@[a-z][a-z0-9-]*" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
+grep -o "@[a-z][a-z0-9-]*" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
 ```
 
 **Example 3: Find incomplete content**
 ```bash
 # Works for both formats
-grep -rn "TODO\|FIXME" typst/contents/ contents/
+grep -rn "TODO\|FIXME" typst/src/main/typst/mecfs/ src/main/typst/mecfs/
 ```
 
 

@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern

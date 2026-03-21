@@ -29,7 +29,7 @@ Bridge the formalization pipeline and the document: take completed models from `
 - Does NOT create or modify models — accepts completed models as input
 - Does NOT edit references.bib (defer to literature-integrator)
 - Does NOT modify Appendix G/H (creates cross-refs TO them, not content IN them)
-- Inserts into Part V only (`contents/part5-modeling/`)
+- Inserts into Part V only (`src/main/typst/mecfs/part5-modeling/`)
 
 ## Tools
 
@@ -60,13 +60,13 @@ Read the model source file (YAML or structured text from formalization agent). E
 | ODE system | `ode_system` or `align` math environment |
 | Mixed/integrated | `\begin{model}[title]` (generic) |
 
-If uncertain, grep `infolead-latex-templates/theorems.tex` for available environments.
+If uncertain, grep `infolead-latex-templates/theorems.typ` for available environments.
 
 ### Step 3: Find Insertion Point
 
 ```bash
 # Grep chapter for relevant section
-grep -n "\\\\subsection{" contents/part5-modeling/chNN-*.tex
+grep -n "\\\\subsection{" src/main/typst/mecfs/part5-modeling/chNN-*.typ
 # Read lines around target section (±20 lines)
 ```
 
@@ -108,9 +108,9 @@ Use Edit tool. Include sufficient surrounding context to make `old_string` uniqu
 
 ```bash
 # Check label exists
-grep -n "label{.*model.*}" contents/part5-modeling/chNN-*.tex
+grep -n "label{.*model.*}" src/main/typst/mecfs/part5-modeling/chNN-*.typ
 # Check citations inserted
-grep -n "cite{" contents/part5-modeling/chNN-*.tex | tail -5
+grep -n "cite{" src/main/typst/mecfs/part5-modeling/chNN-*.typ | tail -5
 ```
 
 Report: chapter file, inserted label(s), citation keys used, line number of insertion.

@@ -17,14 +17,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -33,22 +33,22 @@ Read entire ch05-disease-course.tex
 **Example 1: Extract cited evidence**
 ```bash
 # Find citations in target section
-grep -n "\\cite{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "\\cite{" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Read only cited sections and their context
 ```
 
 **Example 2: Identify synthesis opportunities**
 ```bash
 # Find related findings across chapters
-grep -n "lymphocyte|NK cell" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
-grep -n "lymphocyte|NK cell" contents/part2-pathophysiology/ch08-neurological.tex
+grep -n "lymphocyte|NK cell" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
+grep -n "lymphocyte|NK cell" src/main/typst/mecfs/part2-pathophysiology/ch08-neurological.typ
 # Read only matching sections, don't load entire chapters
 ```
 
 **Example 3: Check hypothesis support**
 ```bash
 # Find hypothesis and its evidence
-grep -n "\\begin{hypothesis}" contents/part2-pathophysiology/ch08-neurological.tex
+grep -n "\\begin{hypothesis}" src/main/typst/mecfs/part2-pathophysiology/ch08-neurological.typ
 # Read only hypothesis and following evidence, not entire chapter
 ```
 
@@ -110,7 +110,7 @@ When new research is integrated into the document, this agent:
    - Document any unclear acronyms for user clarification
 
 2. **Read related document sections:**
-   - Search for existing mentions: `grep -r "keyword" contents/`
+   - Search for existing mentions: `grep -r "keyword" src/main/typst/mecfs/`
    - Read relevant chapters (pathophysiology, treatment, mechanisms)
    - Read existing hypotheses and achievements
 
@@ -471,7 +471,7 @@ The `literature-integration-coordinator` should invoke this agent:
 
 **Pass context:**
 - Paper path: `Literature/[category]/[Author]_[Year]/`
-- Related chapters: List of relevant .tex files
+- Related chapters: List of relevant .typ files
 - Integration status: What was already added to document
 
 **Expect output:**

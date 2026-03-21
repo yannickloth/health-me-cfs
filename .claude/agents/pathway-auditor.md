@@ -1,6 +1,6 @@
 ---
 name: pathway-auditor
-description: Audit biological pathway descriptions for accuracy - missing intermediaries, deprecated nomenclature, gene/protein conflation, and unsupported directionality claims. Use when reviewing Part II pathophysiology content. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit biological pathway descriptions for accuracy - missing intermediaries, deprecated nomenclature, gene/protein conflation, and unsupported directionality claims. Use when reviewing Part II pathophysiology content. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -36,7 +36,7 @@ For signaling cascades mentioned (NF-kB, JAK-STAT, mTOR, HPA axis, etc.):
 - Protein names in roman: `MTHFR`
 - Flag instances where gene and protein are conflated ("the MTHFR gene produces less MTHFR" - ambiguous)
 - Check: `grep` for gene names and verify italicization
-- **Format detection:** Use file extension (`.tex` → LaTeX patterns, `.typ` → Typst patterns)
+- **Format detection:** Use file extension (`.typ` → Typst patterns)
 
 ### 4. Directionality Claims
 

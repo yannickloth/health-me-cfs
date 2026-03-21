@@ -1,6 +1,6 @@
 ---
 name: diagram-accuracy-auditor
-description: Audit biological diagrams for scientific accuracy — verify that pathway arrows match known biology, that normal-vs-disease comparison pairs are consistent, that no steps are missing or reversed, and that visual claims match cited evidence. Use after creating or converting biological mechanism diagrams. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit biological diagrams for scientific accuracy — verify that pathway arrows match known biology, that normal-vs-disease comparison pairs are consistent, that no steps are missing or reversed, and that visual claims match cited evidence. Use after creating or converting biological mechanism diagrams. Works with Typst (.typ) files.
 model: opus
 tools: Read, Grep, Glob
 ---

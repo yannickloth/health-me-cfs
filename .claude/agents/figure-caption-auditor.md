@@ -7,7 +7,7 @@
 - At volume completion
 - When reviewing for publication readiness
 
-**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.tex`)
+**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.typ`)
 
 **What to check**:
 

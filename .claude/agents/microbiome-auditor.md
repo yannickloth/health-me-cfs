@@ -1,6 +1,6 @@
 ---
 name: microbiome-auditor
-description: Audit microbiome content for methodology distinction (16S vs shotgun), correlation vs causation framing, strain-level precision, and probiotic claim quality. Use when reviewing ch11 or gut-related content. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit microbiome content for methodology distinction (16S vs shotgun), correlation vs causation framing, strain-level precision, and probiotic claim quality. Use when reviewing ch11 or gut-related content. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

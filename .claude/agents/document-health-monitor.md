@@ -1,6 +1,6 @@
 ---
 name: document-health-monitor
-description: Generate structural health metrics for the document — chapter lengths, citation density, empty section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing Part V skeleton completeness. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Generate structural health metrics for the document — chapter lengths, citation density, empty section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing Part V skeleton completeness. Works with Typst (.typ) files.
 model: haiku
 tools: Read, Grep, Glob, Bash
 ---
@@ -37,7 +37,7 @@ Provide a structural health overview of the document without reading full conten
 
 ## Format Detection
 
-Determine format from file extension: `.tex` → LaTeX, `.typ` → Typst. Adapt grep patterns accordingly.
+All files use Typst (.typ) format. Adapt grep patterns accordingly.
 
 ## Tools
 
@@ -52,9 +52,9 @@ Determine format from file extension: `.tex` → LaTeX, `.typ` → Typst. Adapt 
 
 ```bash
 # LaTeX
-glob "contents/**/*.tex"
+glob "src/main/typst/mecfs/**/*.typ"
 # Typst
-glob "typst/contents/**/*.typ"
+glob "typst/src/main/typst/mecfs/**/*.typ"
 ```
 
 Group by part (part1 through part5, appendices).
@@ -63,22 +63,22 @@ Group by part (part1 through part5, appendices).
 
 ```bash
 # Typst (primary)
-wc -l typst/contents/part1-clinical/*.typ typst/contents/part2-pathophysiology/*.typ \
-      typst/contents/part3-treatment/*.typ typst/contents/part4-research/*.typ \
-      typst/contents/part5-modeling/*.typ typst/contents/appendices/*.typ
+wc -l typst/src/main/typst/mecfs/part1-clinical/*.typ typst/src/main/typst/mecfs/part2-pathophysiology/*.typ \
+      typst/src/main/typst/mecfs/part3-treatment/*.typ typst/src/main/typst/mecfs/part4-research/*.typ \
+      typst/src/main/typst/mecfs/part5-modeling/*.typ typst/src/main/typst/mecfs/appendices/*.typ
 # LaTeX (if still present)
-wc -l contents/part1-clinical/*.tex contents/part2-pathophysiology/*.tex \
-      contents/part3-treatment/*.tex contents/part4-research/*.tex \
-      contents/part5-modeling/*.tex contents/appendices/*.tex
+wc -l src/main/typst/mecfs/part1-clinical/*.typ src/main/typst/mecfs/part2-pathophysiology/*.typ \
+      src/main/typst/mecfs/part3-treatment/*.typ src/main/typst/mecfs/part4-research/*.typ \
+      src/main/typst/mecfs/part5-modeling/*.typ src/main/typst/mecfs/appendices/*.typ
 ```
 
 ### Step 3: Count Citations Per Chapter
 
 ```bash
 # Typst
-grep -c "@[A-Za-z]" typst/contents/part1-clinical/*.typ 2>/dev/null
+grep -c "@[A-Za-z]" typst/src/main/typst/mecfs/part1-clinical/*.typ 2>/dev/null
 # LaTeX
-grep -c "\\\\cite{" contents/part1-clinical/*.tex 2>/dev/null
+grep -c "\\\\cite{" src/main/typst/mecfs/part1-clinical/*.typ 2>/dev/null
 # Repeat for each part
 ```
 
@@ -86,9 +86,9 @@ grep -c "\\\\cite{" contents/part1-clinical/*.tex 2>/dev/null
 
 ```bash
 # Typst
-grep -rn "// TODO\|// PLACEHOLDER\|// STUB\|lorem" typst/contents/ --include="*.typ"
+grep -rn "// TODO\|// PLACEHOLDER\|// STUB\|lorem" typst/src/main/typst/mecfs/ --include="*.typ"
 # LaTeX
-grep -rn "% TODO\|% PLACEHOLDER\|% STUB\|\\\\lipsum\|lorem ipsum" contents/ --include="*.tex"
+grep -rn "% TODO\|% PLACEHOLDER\|% STUB\|\\\\lipsum\|lorem ipsum" src/main/typst/mecfs/ --include="*.typ"
 ```
 
 ### Step 5: Part V Skeleton Analysis
@@ -96,10 +96,10 @@ grep -rn "% TODO\|% PLACEHOLDER\|% STUB\|\\\\lipsum\|lorem ipsum" contents/ --in
 For each Part V chapter, check what exists:
 ```bash
 # Typst
-grep -c "^=" typst/contents/part5-modeling/*.typ        # headings
-grep -c "#" typst/contents/part5-modeling/*.typ          # function calls (environments)
-grep -c "@[A-Z]" typst/contents/part5-modeling/*.typ     # citations
-grep -c "// TODO" typst/contents/part5-modeling/*.typ     # placeholders
+grep -c "^=" typst/src/main/typst/mecfs/part5-modeling/*.typ        # headings
+grep -c "#" typst/src/main/typst/mecfs/part5-modeling/*.typ          # function calls (environments)
+grep -c "@[A-Z]" typst/src/main/typst/mecfs/part5-modeling/*.typ     # citations
+grep -c "// TODO" typst/src/main/typst/mecfs/part5-modeling/*.typ     # placeholders
 ```
 
 ### Step 6: Generate Health Report
@@ -110,10 +110,10 @@ Date: [today]
 
 CHAPTER SIZE RANKING (by line count)
   Largest:
-    ch14-symptom-management.tex: [N] lines
+    ch14-symptom-management.typ: [N] lines
     ...
   Smallest (potential stubs):
-    ch26-modeling-foundations.tex: [N] lines ← Part V skeleton
+    ch26-modeling-foundations.typ: [N] lines ← Part V skeleton
     ...
 
 CITATION DENSITY (citations per 100 lines)
@@ -123,7 +123,7 @@ CITATION DENSITY (citations per 100 lines)
 
 PLACEHOLDER CONTENT
   \lipsum found in: [N] files
-    - contents/part5-modeling/ch27-energy-metabolism-models.tex (3 uses)
+    - src/main/typst/mecfs/part5-modeling/ch27-energy-metabolism-models.typ (3 uses)
     - ...
   % TODO found in: [N] files
     - ...

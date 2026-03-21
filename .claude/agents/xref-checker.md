@@ -18,7 +18,7 @@
 5. **INTER-VOLUME REFS**: References to other volumes (e.g., "see Volume 1, Theorem X") should use the correct cross-volume referencing mechanism (not bare `\ref` which won't resolve). Flag bare `\ref` to labels in other volumes
 6. **DUPLICATE LABELS**: Flag any label defined more than once (LaTeX silently uses the last definition)
 7. **ORPHAN LABELS**: Flag labels that are never referenced (low severity — informational only)
-8. **BUILD VERIFICATION**: Run `latexmk` on the volume's `main.tex` and grep build log for "undefined reference", "multiply-defined labels", and "Reference ... on page ... undefined"
+8. **BUILD VERIFICATION**: Run `latexmk` on the volume's `main.typ` and grep build log for "undefined reference", "multiply-defined labels", and "Reference ... on page ... undefined"
 9. **REPORT**: Per-volume summary with undefined refs (critical), duplicate labels (warning), orphan labels (info)
 
 **Output**:

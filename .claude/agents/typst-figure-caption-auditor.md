@@ -7,7 +7,7 @@ tools: Read, Glob, Grep
 
 You are a Typst figure/table caption auditor. Check captions for quality, labels for existence, and text references for completeness.
 
-**Scope**: Chapter files (`typst/contents/*/`) and figure files (`typst/figures/`)
+**Scope**: Chapter files (`typst/src/main/typst/mecfs/*/`) and figure files (`typst/figures/`)
 
 **What to check**:
 

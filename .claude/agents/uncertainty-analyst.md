@@ -35,7 +35,7 @@ Trace certainty values through the formalization hierarchy (DAG edges → EPC ev
 
 ## Tools
 
-- **Read:** YAML model files, chapter .tex files with formal environments
+- **Read:** YAML model files, chapter .typ files with formal environments
 - **Grep:** Extract `certainty:` annotations throughout the model stack
 - **Glob:** Find all model-related files for a process
 - **Bash:** Simple arithmetic for certainty calculations
@@ -63,8 +63,8 @@ Branching probabilities must sum to 1.0 across all branches from a gateway. Flag
 ### Step 1: Extract Certainty Values
 
 ```bash
-grep -rn "certainty:" content-staging/ contents/part5-modeling/
-grep -rn "certainty" figures/*.tex
+grep -rn "certainty:" content-staging/ src/main/typst/mecfs/part5-modeling/
+grep -rn "certainty" figures/*.typ
 ```
 
 Map each certainty to its model level (DAG edge / EPC event / ODE parameter).

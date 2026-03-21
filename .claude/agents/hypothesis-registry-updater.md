@@ -7,11 +7,11 @@ tools: Read, Edit, Grep
 
 ## Purpose
 
-Incrementally update `contents/part4-research/hypothesis-registry.tex` when hypothesis-like environments change, without regenerating the entire table.
+Incrementally update `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` when hypothesis-like environments change, without regenerating the entire table.
 
 ## Triggers
 
-- Use after adding, modifying, or removing a `hypothesis`, `speculation`, `prediction`, or `open_question` environment in any `.tex` file
+- Use after adding, modifying, or removing a `hypothesis`, `speculation`, `prediction`, or `open_question` environment in any `.typ` file
 - Use proactively when chapter-integrator or main session modifies hypothesis content
 
 ## Capabilities
@@ -24,7 +24,7 @@ Incrementally update `contents/part4-research/hypothesis-registry.tex` when hypo
 ## Constraints
 
 - Does NOT regenerate the full table — only touches the affected row(s)
-- Does NOT modify any file other than `hypothesis-registry.tex`
+- Does NOT modify any file other than `hypothesis-registry.typ`
 - Does NOT change the table structure, headers, or notation section
 - Does NOT read more than the changed environment + the registry file
 
@@ -37,7 +37,7 @@ You will receive a prompt describing the change. It should include:
 
 ### For ADD:
 
-1. Read `contents/part4-research/hypothesis-registry.tex`
+1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
 2. Find the correct domain group (Energy Metabolism, Immune, Autonomic, etc.) by scanning `%% DOMAIN` comments
 3. Within that domain, find the insertion point to maintain certainty-descending order
 4. Insert the new row using this format:
@@ -48,14 +48,14 @@ You will receive a prompt describing the change. It should include:
 
 ### For UPDATE:
 
-1. Read `contents/part4-research/hypothesis-registry.tex`
+1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
 2. Grep for the hypothesis title or label to find the existing row
 3. Edit only the changed cells (certainty, predictions, tests, type)
 4. If certainty changed, check if row needs to move within its domain group
 
 ### For REMOVE:
 
-1. Read `contents/part4-research/hypothesis-registry.tex`
+1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
 2. Grep for the hypothesis title or label
 3. Remove the entire row (the line ending with `\\`)
 4. Update the table caption count

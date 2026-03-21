@@ -1,6 +1,6 @@
 ---
 name: publication-preparer
-description: Check document publication-readiness — anonymization completeness, abstract quality, DOI/ORCID metadata, and generate a submission checklist. Use before any public release or preprint submission. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Check document publication-readiness — anonymization completeness, abstract quality, DOI/ORCID metadata, and generate a submission checklist. Use before any public release or preprint submission. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -24,7 +24,7 @@ Verify that the document is ready for public distribution: all personal identifi
 - Check title page fields: author, ORCID, email, DOI
 - Validate abstract structure (background, methods/scope, findings, implications)
 - Confirm license section is present and complete
-- Check that patient case data is excluded (commented out in ms.tex — already done per current structure)
+- Check that patient case data is excluded (commented out in ms.typ — already done per current structure)
 - Generate a structured submission checklist with PASS/FAIL for each item
 - Detect hardcoded personal information that bypasses the anonymization macro
 
@@ -37,7 +37,7 @@ Verify that the document is ready for public distribution: all personal identifi
 
 ## Tools
 
-- **Read:** ms.tex / ms.typ, abstract, license, author-bio, ai-disclosure (both .tex and .typ variants)
+- **Read:** ms.typ / ms.typ, abstract, license, author-bio, ai-disclosure (both .typ and .typ variants)
 - **Grep:** Search for hardcoded personal identifiers, check macro usage
 - **Glob:** Locate all front matter and shared content files
 
@@ -47,7 +47,7 @@ Verify that the document is ready for public distribution: all personal identifi
 
 ```bash
 # Check for personal info leakage across both formats
-grep -rn "Yannick\|Loth\|yl@infolead\|infolead.eu" contents/shared/ typst/contents/shared/ ms.tex typst/ms.typ
+grep -rn "Yannick\|Loth\|yl@infolead\|infolead.eu" src/main/typst/mecfs/shared/ typst/src/main/typst/mecfs/shared/ ms.typ typst/ms.typ
 
 # Typst-specific: check template.typ for author variables
 grep -n "author-name\|Yannick\|Loth" typst/template.typ
@@ -57,7 +57,7 @@ Flag: Any occurrence of the real name or email outside the controlled author def
 
 ### Step 2: Metadata Validation
 
-**LaTeX:** Read ms.tex, check `\MECFSPaperDOI`, `\hypersetup` fields.
+**LaTeX:** Read ms.typ, check `\MECFSPaperDOI`, `\hypersetup` fields.
 **Typst:** Read typst/template.typ and typst/ms.typ, check:
 - `mecfs-doi` variable is set to a valid Zenodo DOI
 - `author-name` variable is set
@@ -68,9 +68,9 @@ Flag: Any occurrence of the real name or email outside the controlled author def
 
 ```bash
 # Typst
-glob "typst/contents/shared/*.typ"
+glob "typst/src/main/typst/mecfs/shared/*.typ"
 # LaTeX
-glob "contents/shared/*.tex"
+glob "src/main/typst/mecfs/shared/*.typ"
 ```
 
 Verify each required file exists and is non-empty (check both formats):
@@ -86,8 +86,8 @@ Verify each required file exists and is non-empty (check both formats):
 
 ```bash
 # LaTeX
-grep -n "^\\\\include{patients" ms.tex
-grep -n "^% \\\\include{patients" ms.tex
+grep -n "^\\\\include{patients" ms.typ
+grep -n "^% \\\\include{patients" ms.typ
 # Typst
 grep -n "^#include.*patients" typst/ms.typ
 grep -n "^// #include.*patients" typst/ms.typ
@@ -103,7 +103,7 @@ PUBLICATION READINESS CHECKLIST
 Generated: [date]
 
 ANONYMIZATION
-  [✓/✗] \yannickloth macro defined in ms.tex
+  [✓/✗] \yannickloth macro defined in ms.typ
   [✓/✗] Real name/email not found outside macro definition
   [✓/✗] Patient data files excluded (commented out)
 
@@ -114,11 +114,11 @@ METADATA
   [✓/✗] \date{\today} set
 
 FRONT MATTER
-  [✓/✗] abstract.tex — present and non-empty
-  [✓/✗] keywords.tex — present and non-empty
-  [✓/✗] license.tex — present
-  [✓/✗] ai-disclosure.tex — present
-  [✓/✗] changelog.tex — present
+  [✓/✗] abstract.typ — present and non-empty
+  [✓/✗] keywords.typ — present and non-empty
+  [✓/✗] license.typ — present
+  [✓/✗] ai-disclosure.typ — present
+  [✓/✗] changelog.typ — present
 
 ISSUES FOUND: [N]
   - [list each FAIL with file:line reference]

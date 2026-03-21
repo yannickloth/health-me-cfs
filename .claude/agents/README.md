@@ -38,13 +38,13 @@ System prompt / instructions for the agent...
 | Agent | Use when... |
 | --- | --- |
 | `syntax-fixer` | LaTeX build fails, errors, warnings, overfull boxes |
-| `formatting-fixer` | Markdown syntax in .tex, inconsistent formatting |
+| `formatting-fixer` | Markdown syntax in .typ, inconsistent formatting |
 | `dictionary-manager` | LTeX false positives, adding medical terms to dictionary |
 | `tikz-validator` | TikZ diagrams have compilation errors, spacing issues |
 | `test-runner` | Running nix build, verifying compilation succeeds |
 | `link-checker` | Validating \ref, \cite, \label references before build |
 | `xref-checker` | Cross-references (\ref, \cref, \autoref, \eqref, \nameref) resolve correctly |
-| `terminology-harmonizer` | Checking/normalizing medical term consistency across .tex files |
+| `terminology-harmonizer` | Checking/normalizing medical term consistency across .typ files |
 | `document-health-monitor` | Document metrics, finding stubs/placeholders, chapter balance |
 | `figure-caption-auditor` | Figure/table captions quality, standalone-readable, referenced in text |
 | `notation-consistency-checker` | Mathematical symbol consistency across chapters |

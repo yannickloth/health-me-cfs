@@ -25,7 +25,7 @@ git diff --stat <range>
 ❌ **WRONG:**
 ```bash
 # Don't read files to understand changes
-Read ch07-immune-dysfunction.tex
+Read ch07-immune-dysfunction.typ
 ```
 
 ## Changelog Format
@@ -114,7 +114,7 @@ Good (synthesized):
 - Build system changes (usually)
 
 Bad:
-- "Updated ch07-immune-dysfunction.tex lines 234-456"
+- "Updated ch07-immune-dysfunction.typ lines 234-456"
 
 Good:
 - "Expanded immune dysfunction chapter with new evidence on cytokine profiles"
@@ -227,7 +227,7 @@ Summarize changes by document section:
 
 ```bash
 # Files changed per chapter
-git diff --stat <range> -- "contents/part*/"
+git diff --stat <range> -- "src/main/typst/mecfs/part*/"
 ```
 
 ```markdown

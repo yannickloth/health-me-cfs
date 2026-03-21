@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -41,7 +41,7 @@ grep -i "LDN|low-dose naltrexone" references.bib | head -5
 **Example 2: Check contraindications**
 ```bash
 # Find safety information
-grep -n "contraindicated|avoid" contents/part3-treatment/*.tex | head -10
+grep -n "contraindicated|avoid" src/main/typst/mecfs/part3-treatment/*.typ | head -10
 # Read only safety sections, not entire treatment chapters
 ```
 
@@ -153,7 +153,7 @@ Every recommendation must follow this structure:
 
 ## Output Format
 
-All recommendations must be written as LaTeX sections in `contents/appendices/appendix-j-recommendations.tex`:
+All recommendations must be written as LaTeX sections in `src/main/typst/mecfs/appendices/appendix-j-recommendations.typ`:
 
 ```latex
 \section{Recommendation: [Title]}
@@ -273,7 +273,7 @@ Always prioritize:
 - `hypothesis-generator` - Subtype predictions and testable hypotheses
 
 **Provides to:**
-- User (via appendix-j-recommendations.tex)
+- User (via appendix-j-recommendations.typ)
 - Patient's healthcare providers (formatted for clinical review)
 - `treatment-analyst` - Intervention proposals for tracking
 

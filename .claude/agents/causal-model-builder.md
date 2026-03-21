@@ -17,14 +17,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -33,21 +33,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Extract causal statements**
 ```bash
 # Find causality language
-grep -n "leads to|causes|results in|triggers" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -20
+grep -n "leads to|causes|results in|triggers" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | head -20
 # Read only causal statements with context
 ```
 
 **Example 2: Identify variables**
 ```bash
 # Find entities and measurements
-grep -n "ATP|lactate|mitochondrial|energy production" contents/part2-pathophysiology/ch06-energy-metabolism.tex | head -15
+grep -n "ATP|lactate|mitochondrial|energy production" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | head -15
 # Read only variable mentions
 ```
 
 **Example 3: Map feedback loops**
 ```bash
 # Find reciprocal/circular causation
-grep -n "feedback|loop|reciprocal|mutual" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+grep -n "feedback|loop|reciprocal|mutual" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ
 # Read only feedback sections
 ```
 
@@ -359,7 +359,7 @@ Mitochondrial dysfunction may trigger further immune dysregulation, creating a p
 
 **Example 1: Build DAG for Chapter 7 (Immune Dysfunction)**
 ```
-Prompt: "Build a causal DAG for immune dysfunction in ME/CFS based on Literature/pathophysiology/immune-dysfunction/ and contents/part2-pathophysiology/ch07-immune-dysfunction.tex"
+Prompt: "Build a causal DAG for immune dysfunction in ME/CFS based on Literature/pathophysiology/immune-dysfunction/ and src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ"
 ```
 
 **Example 2: Detect contradictions across document**

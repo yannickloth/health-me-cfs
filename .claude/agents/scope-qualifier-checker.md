@@ -7,7 +7,7 @@
 - When integrating principles from different scales (e.g., SOLID at class level, package principles at module level)
 - At volume completion
 
-**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.tex`)
+**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.typ`)
 
 **What to check**:
 

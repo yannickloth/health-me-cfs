@@ -45,7 +45,7 @@
 - Preface/acknowledgments present (if expected)
 
 ### 6. File Hygiene
-- No orphan `.tex` files (files in the chapter directory not `\input`ed by any parent)
+- No orphan `.typ` files (files in the chapter directory not `\input`ed by any parent)
 - No duplicate files (same content under different names)
 
 **Process**:

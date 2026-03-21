@@ -1,6 +1,6 @@
 ---
 name: falsifiability-auditor
-description: Audit hypothesis/speculation environments for falsifiable predictions, hypothesis registry consistency, competing hypotheses, and overclaiming language. Use when checking intellectual rigor of scientific claims. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit hypothesis/speculation environments for falsifiable predictions, hypothesis registry consistency, competing hypotheses, and overclaiming language. Use when checking intellectual rigor of scientific claims. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -29,7 +29,7 @@ Cross-reference:
 - Every hypothesis/speculation/prediction/open-question environment in chapter files:
   - **LaTeX:** `\begin{hypothesis}`, `\begin{speculation}`, `\begin{prediction}`, `\begin{open_question}`
   - **Typst:** `#hypothesis-box()`, `#fhypothesis()`, `#speculation()`, `#prediction()`, `#open-question()`
-- Against entries in the hypothesis registry (LaTeX: `contents/part4-research/hypothesis-registry.tex`, Typst: `typst/contents/part4-research/` equivalent)
+- Against entries in the hypothesis registry (LaTeX: `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`, Typst: `typst/src/main/typst/mecfs/part4-research/` equivalent)
 - Flag: present in chapters but missing from registry, or vice versa
 - Check: labels match, titles match, certainty values align
 

@@ -1,6 +1,6 @@
 ---
 name: bibliography-auditor
-description: Audit references.bib and citation usage for duplicates, missing fields, uncited entries, broken citations, retracted papers, and annotated bibliography alignment. Use when checking bibliography health. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit references.bib and citation usage for duplicates, missing fields, uncited entries, broken citations, retracted papers, and annotated bibliography alignment. Use when checking bibliography health. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob, Bash
 ---
@@ -32,15 +32,15 @@ For each bib entry, verify minimum fields by type:
 
 ### 3. Broken Citations
 
-- **LaTeX:** `\cite{key}` in .tex files where `key` does not exist in references.bib
+- **LaTeX:** `\cite{key}` in .typ files where `key` does not exist in references.bib
 - **Typst:** `@key` in .typ files where `key` does not exist in references.bib
 - Extract citations:
-  - LaTeX: `grep -roh '\\cite{[^}]*}' contents/ | tr ',' '\n' | sort -u`
+  - LaTeX: `grep -roh '\\cite{[^}]*}' src/main/typst/mecfs/ | tr ',' '\n' | sort -u`
   - Typst: `grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sort -u`
 
 ### 4. Uncited References
 
-- Entries in references.bib not cited anywhere in source files (.tex or .typ)
+- Entries in references.bib not cited anywhere in source files (.typ or .typ)
 - Exclude entries used only in annotated bibliography (appendix-h)
 
 ### 5. Annotated Bibliography Alignment
@@ -56,8 +56,8 @@ For each bib entry, verify minimum fields by type:
 ## Execution
 
 ```bash
-# Extract all cite keys from LaTeX .tex files
-grep -roh '\\cite[tp]*{[^}]*}' contents/ | grep -o '{[^}]*}' | tr -d '{}' | tr ',' '\n' | sed 's/^ *//' | sort -u > tmp/cited-keys-tex.txt
+# Extract all cite keys from LaTeX .typ files
+grep -roh '\\cite[tp]*{[^}]*}' src/main/typst/mecfs/ | grep -o '{[^}]*}' | tr -d '{}' | tr ',' '\n' | sed 's/^ *//' | sort -u > tmp/cited-keys-tex.txt
 
 # Extract all cite keys from Typst .typ files
 grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sed 's/^@//' | sort -u > tmp/cited-keys-typ.txt

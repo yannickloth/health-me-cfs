@@ -26,7 +26,7 @@ git log --oneline -5  # recent style
 ❌ **WRONG:**
 ```bash
 # Don't read entire files
-Read ch07-immune-dysfunction.tex
+Read ch07-immune-dysfunction.typ
 ```
 
 ## Commit Message Format
@@ -90,7 +90,7 @@ Match the project's existing conventions.
 **Focus on WHY, not WHAT** — the diff shows what.
 
 Bad:
-- "Update ch07-immune-dysfunction.tex"
+- "Update ch07-immune-dysfunction.typ"
 - "Add content"
 - "Fix stuff"
 
@@ -123,7 +123,7 @@ When you detect multiple logical changes:
 ⚠️ MULTIPLE CHANGES DETECTED
 
 I see changes to:
-1. Chapter 7 immune content (ch07-immune-dysfunction.tex)
+1. Chapter 7 immune content (ch07-immune-dysfunction.typ)
 2. Bibliography entries (references.bib)
 3. Agent configuration (.claude/agents/)
 
@@ -137,7 +137,7 @@ Recommendation: [your judgment based on relatedness]
 If splitting:
 ```bash
 # First commit
-git add contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+git add src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 git commit -m "..."
 
 # Second commit
@@ -181,7 +181,7 @@ Confirm nothing unexpected is staged.
 <body>
 
 📁 Files (<count>):
-   M contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+   M src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
    M references.bib
 
 🔗 Commit: <short-hash>

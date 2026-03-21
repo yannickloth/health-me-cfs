@@ -1,6 +1,6 @@
 ---
 name: formatting-fixer
-description: Convert Markdown formatting to LaTeX and normalize formatting conventions. Use when text has markdown syntax or inconsistent formatting.
+description: Convert Markdown formatting to Typst and normalize formatting conventions. For Typst files, prefer typst-formatting-fixer.
 model: haiku
 tools: Read, Edit, Glob, Grep
 ---
@@ -19,14 +19,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -35,21 +35,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Find inconsistent formatting**
 ```bash
 # Search for formatting patterns
-grep -n "\\textbf{" contents/part1-clinical/ch04-diagnostic-criteria.tex | head -10
+grep -n "\\textbf{" src/main/typst/mecfs/part1-clinical/ch04-diagnostic-criteria.typ | head -10
 # Don't read entire chapter, just check matches
 ```
 
 **Example 2: Locate orphaned markup**
 ```bash
 # Find possible orphaned markup
-grep -n "{.*}.*{.*}" contents/part1-clinical/ch04-diagnostic-criteria.tex | head -5
+grep -n "{.*}.*{.*}" src/main/typst/mecfs/part1-clinical/ch04-diagnostic-criteria.typ | head -5
 # Read only those lines, not entire file
 ```
 
 **Example 3: Verify spacing compliance**
 ```bash
 # Check for non-breaking space usage
-grep -c "~" contents/part1-clinical/ch04-diagnostic-criteria.tex
+grep -c "~" src/main/typst/mecfs/part1-clinical/ch04-diagnostic-criteria.typ
 # Read only violations found by grep
 ```
 

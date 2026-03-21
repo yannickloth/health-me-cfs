@@ -7,7 +7,7 @@
 - At volume completion (especially Volumes 2 and 3 which are practice-oriented)
 - When a reviewer reports "this sounds like a silver bullet"
 
-**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.tex`)
+**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.typ`)
 
 **What to check**:
 

@@ -1,6 +1,6 @@
 ---
 name: diagram-consistency-auditor
-description: Audit cross-figure consistency — verify that the same biological component is represented identically across all diagrams (same color, same shape, same label, same abbreviation). Catches visual contradictions between figures. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit cross-figure consistency — verify that the same biological component is represented identically across all diagrams (same color, same shape, same label, same abbreviation). Catches visual contradictions between figures. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

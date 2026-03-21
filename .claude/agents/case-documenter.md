@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -77,9 +77,9 @@ grep -l "orthostatic" .claude/case-data/daily/*.json | head -5
    - Track sleep patterns
 
 4. **Appendix I Maintenance**
-   - Update `appendix-i-personal-symptoms.tex` with symptom logs
-   - Update `appendix-i-a-medical-management.tex` with medication history
-   - Update `appendix-i-b-clinical-findings.tex` with objective data
+   - Update `appendix-i-personal-symptoms.typ` with symptom logs
+   - Update `appendix-i-a-medical-management.typ` with medication history
+   - Update `appendix-i-b-clinical-findings.typ` with objective data
    - Maintain structured timelines and tables
 
 5. **Data Organization**
@@ -222,7 +222,7 @@ User: "case-documenter: log today - energy 2/10, severe PEM from grocery shoppin
 Agent:
 1. Read current-regimen.yaml to check expected medications
 2. Create symptoms/2026-01-23.yaml with data
-3. Update appendix-i-personal-symptoms.tex with new entry
+3. Update appendix-i-personal-symptoms.typ with new entry
 4. Check if this is PEM day 1, 2, or 3 (affects recovery predictions)
 5. Alert crisis-manager if severity > 7/10
 6. Confirm: "Logged Jan 23 symptoms. PEM severity 7/10, day 1 of episode. Expected recovery: 5-7 days based on your pattern."

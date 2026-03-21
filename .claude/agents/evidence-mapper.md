@@ -35,7 +35,7 @@ Create a systematic evidence-to-model mapping: for each citation in Part V chapt
 
 ## Tools
 
-- **Read:** Part V chapter .tex files, references.bib entries for context
+- **Read:** Part V chapter .typ files, references.bib entries for context
 - **Write:** Output index file for review
 - **Grep:** Extract citations, model component labels, environment content
 - **Glob:** Find all Part V and appendix files
@@ -45,7 +45,7 @@ Create a systematic evidence-to-model mapping: for each citation in Part V chapt
 ### Step 1: Extract All Citations from Part V
 
 ```bash
-grep -rn "cite{" contents/part5-modeling/ | sed 's/.*\\cite{\([^}]*\)}.*/\1/'
+grep -rn "cite{" src/main/typst/mecfs/part5-modeling/ | sed 's/.*\\cite{\([^}]*\)}.*/\1/'
 ```
 
 Deduplicate. For each citation key, note which file:line it appears in.
@@ -60,7 +60,7 @@ For each citation context, determine what model element it supports:
 - **Narrative claim:** Citation in prose — note section for context
 
 ```bash
-grep -n -B5 -A2 "cite{KEY}" contents/part5-modeling/chNN-*.tex
+grep -n -B5 -A2 "cite{KEY}" src/main/typst/mecfs/part5-modeling/chNN-*.typ
 ```
 
 ### Step 3: Build Reverse Index

@@ -84,12 +84,12 @@ git log $(git describe --tags --abbrev=0)..HEAD --oneline
 ### 2. Version Bump
 
 For this LaTeX project, version may be in:
-- `ms.tex` (document metadata)
+- `ms.typ` (document metadata)
 - `CHANGELOG.md`
 
 ```bash
 # Find version references
-grep -r "version" ms.tex
+grep -r "version" ms.typ
 grep -r "\[Unreleased\]" CHANGELOG.md
 ```
 
@@ -319,7 +319,7 @@ Next steps:
 📊 Changes: 8 files, +234/-56
 
 📁 Files:
-- contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+- src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 - references.bib
 - ...
 

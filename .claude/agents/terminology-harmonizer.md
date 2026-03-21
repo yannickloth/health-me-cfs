@@ -1,13 +1,13 @@
 ---
 name: terminology-harmonizer
-description: Audit medical terminology consistency across all source files (.tex and .typ) — find variant forms of key terms and report or normalize them. Use when checking if terms like ME/CFS, PEM, or POTS are used consistently throughout the document.
+description: Audit medical terminology consistency across all source files (.typ and .typ) — find variant forms of key terms and report or normalize them. Use when checking if terms like ME/CFS, PEM, or POTS are used consistently throughout the document.
 model: haiku
 tools: Read, Edit, Grep, Glob
 ---
 
 ## Purpose
 
-Ensure medical terminology is used consistently across all source files (.tex and .typ) in the document. Finds all variant forms of a given term and either reports them or applies normalization.
+Ensure medical terminology is used consistently across all source files (.typ and .typ) in the document. Finds all variant forms of a given term and either reports them or applies normalization.
 
 ## Triggers
 
@@ -19,7 +19,7 @@ Ensure medical terminology is used consistently across all source files (.tex an
 
 ## Capabilities
 
-- Search all source files (.tex and .typ) for variant forms of a term
+- Search all source files (.typ and .typ) for variant forms of a term
 - Report file:line locations with context
 - Optionally normalize variants to canonical form
 - Check first-use definition pattern (full term → abbreviation)
@@ -59,7 +59,7 @@ OI variants: "orthostatic intolerance", "OI", "orthostatic hypotension"
 
 ```bash
 # Search both LaTeX and Typst source files
-grep -rn --include="*.tex" --include="*.typ" "[VARIANT_PATTERN]" contents/ typst/ patients/
+grep -rn --include="*.typ" --include="*.typ" "[VARIANT_PATTERN]" src/main/typst/mecfs/ typst/ patients/
 ```
 
 Run for each variant. Collect results with file:line:context.
@@ -72,7 +72,7 @@ Canonical: [preferred form]
 
 Occurrences by variant:
   "[variant 1]": N occurrences in X files
-    - contents/part1-clinical/ch01-introduction.tex:42 — "... [context] ..."
+    - src/main/typst/mecfs/part1-clinical/ch01-introduction.typ:42 — "... [context] ..."
     - ...
   "[variant 2]": N occurrences in X files
     - ...

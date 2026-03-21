@@ -1,6 +1,6 @@
 ---
 name: safety-auditor
-description: Audit treatment/clinical content for medical safety violations - hypothesis-as-recommendation, missing contraindications, dosing errors, missing disclaimers, and harm potential. Use when reviewing Part III or any treatment-related content. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit treatment/clinical content for medical safety violations - hypothesis-as-recommendation, missing contraindications, dosing errors, missing disclaimers, and harm potential. Use when reviewing Part III or any treatment-related content. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---
@@ -29,7 +29,7 @@ Red flags:
 - Recommendation environments without citations to clinical trials (only mechanistic citations)
 - Treatment suggestions based solely on in-vitro or animal model evidence
 
-**Format detection:** Determine format from file extension — `.tex` → LaTeX patterns, `.typ` → Typst patterns.
+**All source files are Typst (.typ).
 
 ### 2. Missing Contraindications
 

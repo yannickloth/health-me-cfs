@@ -1,6 +1,6 @@
 ---
 name: math-verifier
-description: Verify mathematical proofs, derivations, and calculations for correctness. Use when checking proofs, validating math, or verifying derivations. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Verify mathematical proofs, derivations, and calculations for correctness. Use when checking proofs, validating math, or verifying derivations. Works with Typst (.typ) files.
 model: opus
 tools: Read, Glob, Grep
 ---
@@ -19,22 +19,22 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ### Format Detection
 
-Determine format from file extension: `.tex` → LaTeX math (`$...$`, `\[...\]`), `.typ` → Typst math (`$...$`).
+Determine format from file extension: `.typ` → Typst math.
 
 ### Per-Agent Pattern
 
 **Example 1: Find mathematical expressions**
 ```bash
 # LaTeX
-grep -n "\\begin{equation\|\\[" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+grep -n "\\begin{equation\|\\[" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ
 # Typst — math uses $ delimiters
-grep -n "\\$" typst/contents/part2-pathophysiology/ch06-energy-metabolism.typ
+grep -n "\\$" typst/src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ
 ```
 
 **Example 2: Check variable definitions**
 ```bash
 # Typst — look for let bindings or math definitions
-grep -n "let \|#let " typst/contents/part5-modeling/*.typ | head -5
+grep -n "let \|#let " typst/src/main/typst/mecfs/part5-modeling/*.typ | head -5
 ```
 
 

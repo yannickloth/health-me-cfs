@@ -1,6 +1,6 @@
 ---
 name: syntax-fixer
-description: Fix LaTeX compilation errors, warnings, and overfull boxes. Use when build fails, has warnings, or visual layout issues.
+description: Fix LaTeX compilation errors in legacy files. For Typst files, use typst-syntax-fixer instead.
 model: sonnet
 tools: Read, Edit, Bash, Glob, Grep
 ---
@@ -19,14 +19,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -42,14 +42,14 @@ grep -n "Overfull" build.log
 **Example 2: Check environment definition**
 ```bash
 # Grep for environment before reading entire file
-grep -n "\\begin{hypothesis}" contents/part2-pathophysiology/ch06-energy-metabolism.tex
+grep -n "\\begin{hypothesis}" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ
 # Read only the section with the error, not whole chapter
 ```
 
 **Example 3: Verify package load**
 ```bash
 # Search preamble for package
-grep -n "\\usepackage.*tcolorbox" infolead-latex-templates/preamble.tex
+grep -n "\\usepackage.*tcolorbox" infolead-latex-templates/preamble.typ
 # Don't load entire infolead-latex-templates directory
 ```
 
@@ -68,10 +68,10 @@ grep -n "\\usepackage.*tcolorbox" infolead-latex-templates/preamble.tex
 ### Compilation Errors
 - Missing `\end{...}` or `\begin{...}` → add missing tag
 - Undefined control sequence → check spelling, check if environment exists in template
-- Undefined environment → verify it exists in `infolead-latex-templates/theorems.tex`
+- Undefined environment → verify it exists in `infolead-latex-templates/theorems.typ`
 - Brace mismatch → balance braces
 - Environment mismatch → match begin/end
-- Missing tcolorbox → ensure `\usepackage[most]{tcolorbox}` loaded before theorems.tex
+- Missing tcolorbox → ensure `\usepackage[most]{tcolorbox}` loaded before theorems.typ
 
 ### Warnings
 - Overfull hbox → add `\-` hyphenation, use `\allowbreak`, adjust `\tolerance`

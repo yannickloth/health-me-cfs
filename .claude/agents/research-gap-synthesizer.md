@@ -38,7 +38,7 @@ Systematically collect all `open_question`, `hypothesis`, and `speculation` envi
 - **Read:** Target chapters and appendix files for context
 - **Write:** Staging file with synthesized agenda
 - **Grep:** Harvest environments and their labels/titles
-- **Glob:** Find all .tex content files
+- **Glob:** Find all .typ content files
 
 ## Instructions
 
@@ -46,14 +46,14 @@ Systematically collect all `open_question`, `hypothesis`, and `speculation` envi
 
 ```bash
 # Find all open_question environments
-grep -rn "begin{open_question}" contents/ --include="*.tex" -l
-grep -rn "begin{open_question}" contents/ --include="*.tex" -A5
+grep -rn "begin{open_question}" src/main/typst/mecfs/ --include="*.typ" -l
+grep -rn "begin{open_question}" src/main/typst/mecfs/ --include="*.typ" -A5
 
 # Find all speculation environments
-grep -rn "begin{speculation}" contents/ --include="*.tex" -A5
+grep -rn "begin{speculation}" src/main/typst/mecfs/ --include="*.typ" -A5
 
 # Find all hypothesis environments (these may also represent untested claims)
-grep -rn "begin{hypothesis}" contents/ --include="*.tex" -A3
+grep -rn "begin{hypothesis}" src/main/typst/mecfs/ --include="*.typ" -A3
 ```
 
 For each environment, extract:

@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -34,7 +34,7 @@ Read entire ch05-disease-course.tex
 **Example 1: Find crisis protocols**
 ```bash
 # Locate emergency procedures
-grep -n "\\begin{warning}.*crisis|emergency protocol" contents/appendices/appendix-j-recommendations.tex
+grep -n "\\begin{warning}.*crisis|emergency protocol" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ
 # Read only crisis section, not entire appendix
 ```
 

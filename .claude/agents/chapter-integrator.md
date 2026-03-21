@@ -1,6 +1,6 @@
 ---
 name: chapter-integrator
-description: Edit main document chapter .tex files to add citations and LaTeX environments from integrated research papers.
+description: Edit main document chapter .typ files to add citations and LaTeX environments from integrated research papers.
 model: haiku
 tools: Read, Edit, Grep
 ---
@@ -17,14 +17,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -33,7 +33,7 @@ Read entire ch05-disease-course.tex
 **Example 1: Find insertion point**
 ```bash
 # Find section header by grepping, don't read entire chapter
-grep -n "\\subsection{NK Cell Dysfunction}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "\\subsection{NK Cell Dysfunction}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Read only lines around insertion point (e.g., lines 50-70)
 ```
 
@@ -47,7 +47,7 @@ grep -n "^@article{Che2025}" references.bib
 **Example 3: Find environment closing**
 ```bash
 # Find where to close environment by grepping for next section
-grep -n "\\subsection{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -3
+grep -n "\\subsection{" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | head -3
 # Read only context around insertion point
 ```
 
@@ -58,7 +58,7 @@ grep -n "\\subsection{" contents/part2-pathophysiology/ch07-immune-dysfunction.t
 **Model**: haiku
 **Tools**: Read, Edit, Grep
 
-**Description**: Edits main document chapter .tex files to add citations and LaTeX environments from integrated research papers. Focused, single-responsibility agent for chapter modifications only.
+**Description**: Edits main document chapter .typ files to add citations and LaTeX environments from integrated research papers. Focused, single-responsibility agent for chapter modifications only.
 
 ---
 
@@ -83,7 +83,7 @@ After papers are downloaded and added to references.bib, this agent:
 
 **Input required:**
 - Paper path: `Literature/[category]/[Author]_[Year]/`
-- Target chapter file: `contents/part[X]-[section]/ch[NN]-[name].tex`
+- Target chapter file: `src/main/typst/mecfs/part[X]-[section]/ch[NN]-[name].typ`
 - Citation key: e.g., `Che2025`
 - Environment type: `hypothesis`, `achievement`, `observation`, `speculation`, etc.
 - Integration section hint: e.g., "NK cell dysfunction section"
@@ -109,7 +109,7 @@ Extract:
 
 ```bash
 # Read the entire chapter to understand context
-contents/part[X]-[section]/ch[NN]-[name].tex
+src/main/typst/mecfs/part[X]-[section]/ch[NN]-[name].typ
 ```
 
 Identify:
@@ -182,7 +182,7 @@ which showed [brief finding description] in a cohort of [n] patients.
 ### Step 5: Execute Edit
 
 **Use Edit tool with:**
-- `file_path`: Full path to chapter .tex file
+- `file_path`: Full path to chapter .typ file
 - `old_string`: Exact text to replace (or location marker)
 - `new_string`: old_string + new LaTeX environment
 
@@ -249,7 +249,7 @@ Further discussion.
 Immediately after Edit tool returns, run:
 
 ```bash
-grep "cite{EXPECTED_CITATION_KEY}" TARGET_CHAPTER_FILE.tex
+grep "cite{EXPECTED_CITATION_KEY}" TARGET_CHAPTER_FILE.typ
 ```
 
 **Expected result:** One or more lines showing the citation
@@ -266,15 +266,15 @@ grep "cite{EXPECTED_CITATION_KEY}" TARGET_CHAPTER_FILE.tex
 **Verification checklist:**
 ```bash
 # 1. Citation exists
-grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep "cite{Che2025}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Expected: Match found
 
 # 2. Environment exists (if applicable)
-grep "begin{hypothesis}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep "begin{hypothesis}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Expected: Match found
 
 # 3. Label exists (if environment used)
-grep "label{hyp:che2025" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep "label{hyp:che2025" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Expected: Match found
 ```
 
@@ -295,7 +295,7 @@ grep "label{hyp:che2025" contents/part2-pathophysiology/ch07-immune-dysfunction.
 You have NOT completed this task until:
 
 - [ ] Read paper key-findings.md
-- [ ] Read target chapter .tex file
+- [ ] Read target chapter .typ file
 - [ ] Used Edit tool on chapter file
 - [ ] **grep verification returned results** for citation key
 - [ ] **grep verification returned results** for environment (if used)
@@ -315,7 +315,7 @@ Before reporting completion to coordinator:
 
 ```bash
 # Run this exact check
-grep "cite{CITATION_KEY}" CHAPTER_FILE_PATH.tex
+grep "cite{CITATION_KEY}" CHAPTER_FILE_PATH.typ
 
 # If exit code is 0 (found):
 #   ✅ Proceed to report success
@@ -325,13 +325,13 @@ grep "cite{CITATION_KEY}" CHAPTER_FILE_PATH.tex
 
 **Example successful output:**
 ```
-$ grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+$ grep "cite{Che2025}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
   Che et al.~\cite{Che2025} identified persistent exhaustion markers
 ```
 
 **Example failed output (must retry):**
 ```
-$ grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+$ grep "cite{Che2025}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 [no output - exit code 1]
 ```
 
@@ -367,7 +367,7 @@ $ grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.te
 **Input from coordinator:**
 ```
 Paper: Literature/biomarkers/Che_2025_InnateImmunity/
-Target: contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+Target: src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 Citation: Che2025
 Environment: hypothesis
 Section: "NK cell dysfunction"
@@ -404,14 +404,14 @@ cell counts alone (n=45, peer-reviewed, medium certainty).
 
 5. **Verify:**
 ```bash
-$ grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+$ grep "cite{Che2025}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
   Che et al.~\cite{Che2025} identified persistent exhaustion markers
 ✅ PASS
 ```
 
 6. **Report:**
    - Status: SUCCESS
-   - File: contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+   - File: src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
    - Citation: Che2025
    - Location: Line ~158, NK cell dysfunction section
    - Environment: hypothesis (hyp:che2025-nk-exhaustion)

@@ -26,7 +26,7 @@ git diff <commit1>..<commit2>
 ❌ **WRONG:**
 ```bash
 # Don't read entire files for history questions
-Read ch07-immune-dysfunction.tex
+Read ch07-immune-dysfunction.typ
 ```
 
 ## Common Queries
@@ -35,7 +35,7 @@ Read ch07-immune-dysfunction.tex
 
 ```bash
 # Last 10 commits touching this file
-git log --oneline -10 -- contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+git log --oneline -10 -- src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 
 # With stats
 git log --oneline --stat -5 -- <path>
@@ -48,17 +48,17 @@ git log -p -3 -- <path>
 
 ```bash
 # Search for when text was introduced
-git log -S "NK cell exhaustion" --oneline -- contents/
+git log -S "NK cell exhaustion" --oneline -- src/main/typst/mecfs/
 
 # With context
-git log -S "NK cell exhaustion" -p -- contents/
+git log -S "NK cell exhaustion" -p -- src/main/typst/mecfs/
 ```
 
 ### "Who wrote this section?"
 
 ```bash
 # Blame specific lines
-git blame -L 100,150 contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+git blame -L 100,150 src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 
 # Blame with commit info
 git blame -L 100,150 --line-porcelain <file> | grep "^author "
@@ -81,7 +81,7 @@ git log --after="2024-01-01" --before="2024-02-01" --oneline
 
 ```bash
 # Show file at specific commit
-git show abc123:contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+git show abc123:src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 
 # Show file N commits ago
 git show HEAD~5:<path>
@@ -113,7 +113,7 @@ git log -S "cytokine" --oneline
 
 ```bash
 # Get all commits
-git log --since="1 month ago" --oneline -- contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+git log --since="1 month ago" --oneline -- src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 
 # Get full messages
 git log --since="1 month ago" --format="%h %s%n%b" -- <path>
@@ -152,7 +152,7 @@ Output format:
 git log -p --since="1 month ago" -- references.bib | grep "^+@"
 
 # New \cite commands in chapters
-git log -p --since="1 month ago" -- contents/ | grep "^+.*\\\\cite{"
+git log -p --since="1 month ago" -- src/main/typst/mecfs/ | grep "^+.*\\\\cite{"
 ```
 
 ## Content Evolution
@@ -161,10 +161,10 @@ git log -p --since="1 month ago" -- contents/ | grep "^+.*\\\\cite{"
 
 ```bash
 # Find all commits touching specific content
-git log -S "post-exertional malaise" --oneline -- contents/
+git log -S "post-exertional malaise" --oneline -- src/main/typst/mecfs/
 
 # Show the evolution
-for commit in $(git log -S "post-exertional malaise" --format="%h" -- contents/); do
+for commit in $(git log -S "post-exertional malaise" --format="%h" -- src/main/typst/mecfs/); do
   echo "=== $commit ==="
   git show $commit --stat
 done
@@ -213,7 +213,7 @@ This commit also added:
 ### Detailed History
 
 ```
-📜 HISTORY: ch07-immune-dysfunction.tex
+📜 HISTORY: ch07-immune-dysfunction.typ
 
 ## Timeline
 
@@ -241,7 +241,7 @@ This commit also added:
 ### Blame Report
 
 ```
-📋 BLAME: lines 100-150 of ch07-immune-dysfunction.tex
+📋 BLAME: lines 100-150 of ch07-immune-dysfunction.typ
 
 Line 100-110: abc1234 (2024-01-15) - NK cell section header
 Line 111-130: def5678 (2024-01-20) - Exhaustion markers

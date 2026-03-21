@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -34,7 +34,7 @@ Read entire ch05-disease-course.tex
 **Example 1: Find caregiver guidance**
 ```bash
 # Locate caregiver sections
-grep -n "\\section{.*Caregiver}|\\begin{requirement}.*caregiver" contents/appendices/appendix-j-recommendations.tex
+grep -n "\\section{.*Caregiver}|\\begin{requirement}.*caregiver" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ
 # Read only caregiver section
 ```
 
@@ -48,7 +48,7 @@ find .claude/case-data -name "*caregiver*" -o -name "*support*" -type f
 **Example 3: Review communication protocols**
 ```bash
 # Find communication guidelines
-grep -n "communication|explain to|tell family" contents/appendices/appendix-j-recommendations.tex | head -10
+grep -n "communication|explain to|tell family" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ | head -10
 # Read only protocol sections
 ```
 

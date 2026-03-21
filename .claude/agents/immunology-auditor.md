@@ -1,6 +1,6 @@
 ---
 name: immunology-auditor
-description: Audit immunology content for cell subset precision, cytokine context, immune assay limitations, and acute vs chronic conflation. Use when reviewing ch07, ch14 immune sections, or any immune-related content. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit immunology content for cell subset precision, cytokine context, immune assay limitations, and acute vs chronic conflation. Use when reviewing ch07, ch14 immune sections, or any immune-related content. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

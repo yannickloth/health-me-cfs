@@ -7,7 +7,7 @@
 - At volume completion, as part of pedagogical review
 - When a concept is known to be widely misunderstood (e.g., SRP, LSP, DIP)
 
-**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.tex`)
+**Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.typ`)
 
 **Mandatory pre-reading**:
 1. `meta/PEDAGOGICAL_PRINCIPLES.md` — pattern includes "Common Misconceptions" section

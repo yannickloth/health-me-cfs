@@ -1,6 +1,6 @@
 ---
 name: style-naturalizer
-description: Transform AI-typical writing patterns into natural human prose. Use when text sounds robotic, has excessive lists, or AI-like patterns. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Transform AI-typical writing patterns into natural human prose. Use when text sounds robotic, has excessive lists, or AI-like patterns. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Edit
 ---
@@ -19,32 +19,32 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ### Format Detection
 
-Determine format from file extension: `.tex` → LaTeX, `.typ` → Typst.
+All files use Typst (.typ) format.
 
 ### Per-Agent Pattern
 
 **Example 1: Locate section to naturalize**
 ```bash
 # LaTeX
-grep -n "\\subsection{Immune Dysfunction}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "\\subsection{Immune Dysfunction}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Typst — headings use == / === / ==== syntax
-grep -n "==" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
+grep -n "==" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 **Example 2: Check for robotic patterns**
 ```bash
 # LaTeX — list constructs
-grep -n "\\begin{itemize}\|\\begin{enumerate}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "\\begin{itemize}\|\\begin{enumerate}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Typst — list constructs use - or + or 1. syntax
-grep -n "^- \|^+ \|^[0-9]\." typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
+grep -n "^- \|^+ \|^[0-9]\." typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 **Example 3: Verify section boundaries**
 ```bash
 # LaTeX
-grep -n "\\subsection{\|\\section{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
+grep -n "\\subsection{\|\\section{" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 # Typst
-grep -n "^=" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ
+grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
 
 

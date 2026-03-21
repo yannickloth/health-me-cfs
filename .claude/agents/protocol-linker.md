@@ -17,14 +17,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -33,21 +33,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Find broken references**
 ```bash
 # Extract all references first
-grep -o "\\ref{[^}]*}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | sort -u
+grep -o "\\ref{[^}]*}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
 # Verify each label exists by targeted grep
 ```
 
 **Example 2: Find undefined labels**
 ```bash
 # Search for label definitions
-grep -n "\\label{immune-activation}" contents/part2-pathophysiology/*.tex
-# Don't read all .tex files, just grep them
+grep -n "\\label{immune-activation}" src/main/typst/mecfs/part2-pathophysiology/*.typ
+# Don't read all .typ files, just grep them
 ```
 
 **Example 3: Link cross-chapter references**
 ```bash
 # Find reference points between chapters
-grep -n "\\label{" contents/part1-clinical/ch04-diagnostic-criteria.tex
+grep -n "\\label{" src/main/typst/mecfs/part1-clinical/ch04-diagnostic-criteria.typ
 # Read only labels section and verify targets exist
 ```
 
@@ -125,17 +125,17 @@ After papers are integrated into chapters by `chapter-integrator`, this agent:
 
 ```bash
 # Search for related terminology across all chapters
-grep -r "KEYWORD" contents/part*/*.tex
+grep -r "KEYWORD" src/main/typst/mecfs/part*/*.typ
 
 # Common search patterns:
 # For immune findings:
-grep -r "NK cell\|natural killer\|cytokine\|immune" contents/part*/*.tex
+grep -r "NK cell\|natural killer\|cytokine\|immune" src/main/typst/mecfs/part*/*.typ
 
 # For metabolic findings:
-grep -r "mitochondri\|ATP\|NAD\|energy metabolism" contents/part*/*.tex
+grep -r "mitochondri\|ATP\|NAD\|energy metabolism" src/main/typst/mecfs/part*/*.typ
 
 # For treatment implications:
-grep -r "supplement\|medication\|intervention\|treatment" contents/part3-treatment/*.tex
+grep -r "supplement\|medication\|intervention\|treatment" src/main/typst/mecfs/part3-treatment/*.typ
 ```
 
 **Build relationship map:**
@@ -143,13 +143,13 @@ grep -r "supplement\|medication\|intervention\|treatment" contents/part3-treatme
 ## Related Content Map
 
 Paper: [Author Year]
-Primary integration: ch07-immune-dysfunction.tex
+Primary integration: ch07-immune-dysfunction.typ
 
 Related sections found:
-1. ch13-integrative-models.tex:142 - "immune-metabolic interaction"
-2. ch14a-urgent-action-severe.tex:89 - "immune modulation protocol"
-3. ch16-supplements-nutraceuticals.tex:234 - "immune support supplements"
-4. ch17-lifestyle-interventions.tex:67 - "immune-preserving pacing"
+1. ch13-integrative-models.typ:142 - "immune-metabolic interaction"
+2. ch14a-urgent-action-severe.typ:89 - "immune modulation protocol"
+3. ch16-supplements-nutraceuticals.typ:234 - "immune support supplements"
+4. ch17-lifestyle-interventions.typ:67 - "immune-preserving pacing"
 ```
 
 ### Step 3: Create Bidirectional Cross-References
@@ -234,7 +234,7 @@ Before adding any content to protocols:
 
 Read current protocol structure:
 ```bash
-grep -n "section\|subsection\|paragraph" contents/part3-treatment/ch14a-urgent-action-severe.tex
+grep -n "section\|subsection\|paragraph" src/main/typst/mecfs/part3-treatment/ch14a-urgent-action-severe.typ
 ```
 
 **Integration points in Ch14a:**
@@ -250,7 +250,7 @@ grep -n "section\|subsection\|paragraph" contents/part3-treatment/ch14a-urgent-a
 
 Read current protocol structure:
 ```bash
-grep -n "section\|subsection\|paragraph" contents/part3-treatment/ch14b-action-mild-moderate.tex
+grep -n "section\|subsection\|paragraph" src/main/typst/mecfs/part3-treatment/ch14b-action-mild-moderate.typ
 ```
 
 **Integration points in Ch14b:**
@@ -301,13 +301,13 @@ Use Edit tool with careful context matching:
 
 ```bash
 # Verify cross-reference added
-grep "ref{EXPECTED_LABEL}" TARGET_FILE.tex
+grep "ref{EXPECTED_LABEL}" TARGET_FILE.typ
 
 # Verify citation appears in new location
-grep "cite{CITATION_KEY}" TARGET_FILE.tex
+grep "cite{CITATION_KEY}" TARGET_FILE.typ
 
 # Verify no broken references introduced
-grep -r "ref{" contents/part*/*.tex | grep -v "%"  # Check all refs exist
+grep -r "ref{" src/main/typst/mecfs/part*/*.typ | grep -v "%"  # Check all refs exist
 ```
 
 ### Step 8: Generate Linking Report
@@ -323,12 +323,12 @@ Citation: [Key]
 ## Cross-References Created
 
 ### Pathophysiology → Treatment Links
-1. ch07-immune-dysfunction.tex:156 → ch14a (immune protocol)
-2. ch07-immune-dysfunction.tex:156 → ch16 (supplement section)
+1. ch07-immune-dysfunction.typ:156 → ch14a (immune protocol)
+2. ch07-immune-dysfunction.typ:156 → ch16 (supplement section)
 
 ### Treatment → Pathophysiology Links
-1. ch14a-urgent-action-severe.tex:234 → ch07 (mechanism reference)
-2. ch16-supplements-nutraceuticals.tex:445 → ch07 (evidence citation)
+1. ch14a-urgent-action-severe.typ:234 → ch07 (mechanism reference)
+2. ch16-supplements-nutraceuticals.typ:445 → ch07 (evidence citation)
 
 ### Cross-Chapter Links
 1. ch07 → ch06 (immune-metabolic connection)
@@ -386,7 +386,7 @@ Citation: [Key]
 ```
 Paper: Literature/biomarkers/Che_2025_InnateImmunity/
 Citation: Che2025
-Primary: ch07-immune-dysfunction.tex
+Primary: ch07-immune-dysfunction.typ
 Finding: NK cell exhaustion markers (CD57+CD8+) persist in ME/CFS
 ```
 
@@ -410,7 +410,7 @@ Finding: NK cell exhaustion markers (CD57+CD8+) persist in ME/CFS
 ```
 Paper: Literature/pathophysiology/mitochondrial/Wang_2023_WASF3/
 Citation: Wang2023
-Primary: ch06-energy-metabolism.tex
+Primary: ch06-energy-metabolism.typ
 Finding: WASF3 protein dysfunction impairs mitochondrial respiration
 ```
 
@@ -434,7 +434,7 @@ Finding: WASF3 protein dysfunction impairs mitochondrial respiration
 ```
 Paper: Literature/treatments/Smith_2024_ExerciseHarms/
 Citation: Smith2024
-Primary: ch17-lifestyle-interventions.tex
+Primary: ch17-lifestyle-interventions.typ
 Finding: GET causes measurable harm in 40% of ME/CFS patients
 ```
 

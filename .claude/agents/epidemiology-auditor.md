@@ -1,6 +1,6 @@
 ---
 name: epidemiology-auditor
-description: Audit epidemiological content for case definition consistency, selection bias awareness, control adequacy, sex/gender stratification, and prevalence methodology. Use when reviewing ch23 or study-level claims. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit epidemiological content for case definition consistency, selection bias awareness, control adequacy, sex/gender stratification, and prevalence methodology. Use when reviewing ch23 or study-level claims. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Grep, Glob
 ---

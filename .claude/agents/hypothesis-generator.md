@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -41,7 +41,7 @@ grep -n "symptom|pain|fatigue" .claude/case-data/daily-2025-01-*.json | head -30
 **Example 2: Check subtype definitions**
 ```bash
 # Find subtype criteria
-grep -n "\\begin{requirement}.*subtype" contents/part1-clinical/ch05-subgroups.tex
+grep -n "\\begin{requirement}.*subtype" src/main/typst/mecfs/part1-clinical/ch05-subgroups.typ
 # Read only subtype section, not entire chapter
 ```
 

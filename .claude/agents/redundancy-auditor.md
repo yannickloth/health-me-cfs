@@ -12,7 +12,7 @@
 
 **Mandatory pre-reading**:
 1. `meta/SERIES_STRUCTURE_5_VOLUMES.md` — volume purposes (needed to judge which location is canonical)
-2. The target volume's `main.tex` — chapter ordering and structure
+2. The target volume's `main.typ` — chapter ordering and structure
 
 ## Core Method: The Two Questions
 
@@ -78,21 +78,21 @@ Paragraphs with redundant content: K
 REDUNDANT:
   1. [file:line-range] "IVP subsumes SRP"
      Unique contribution: NONE
-     Already said at: ch07.tex:145-162 (full proof with formal argument)
-     This location: ch09.tex:89-104 (re-argues same point informally, adds nothing)
+     Already said at: ch07.typ:145-162 (full proof with formal argument)
+     This location: ch09.typ:89-104 (re-argues same point informally, adds nothing)
      Recommendation: Replace with "As shown in Theorem 7.X (\cref{...}), IVP subsumes SRP."
 
   2. [file:line-range] "change drivers are facts about reality"
      Unique contribution: NONE
-     Already said at: ch02.tex:201-215 (foundational explanation, canonical)
-     This location: ch04.tex:55-68 (re-explains at similar depth)
+     Already said at: ch02.typ:201-215 (foundational explanation, canonical)
+     This location: ch04.typ:55-68 (re-explains at similar depth)
      Recommendation: Shorten to one-sentence recall with \cref.
 
 OVERLAPPING:
   1. [file:line-range] "coupling increases change cost"
      Unique contribution: Adds formal metric definitions
-     Already said at: ch01.tex:88-102 (motivational, empirical framing)
-     This location: ch04.tex:200-218 (formal + informal)
+     Already said at: ch01.typ:88-102 (motivational, empirical framing)
+     This location: ch04.typ:200-218 (formal + informal)
      Recommendation: Keep formal content; tighten informal lead-in that re-covers ch01's ground.
 
 ACCEPTABLE:

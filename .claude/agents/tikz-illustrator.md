@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -34,21 +34,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Find existing diagram**
 ```bash
 # Locate similar diagrams
-grep -l "energy|metabolism" figures/fig-*.tex | head -5
+grep -l "energy|metabolism" figures/fig-*.typ | head -5
 # Don't read all figures, just find matches
 ```
 
 **Example 2: Check style consistency**
 ```bash
 # Find tikz style definitions
-grep -n "\\tikzstyle{" figures/fig-*.tex | head -5
+grep -n "\\tikzstyle{" figures/fig-*.typ | head -5
 # Read only style definitions, not entire figures
 ```
 
 **Example 3: Verify label references**
 ```bash
 # Find labels in figures
-grep -n "\\label{fig-" figures/fig-*.tex
+grep -n "\\label{fig-" figures/fig-*.typ
 # Don't read entire figure files
 ```
 

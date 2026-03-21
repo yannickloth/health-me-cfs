@@ -19,41 +19,31 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "cite" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
-```bash
-# Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
-```
 
 ### Per-Agent Pattern
-
 
 **Example 1: Add medical term**
 ```bash
 # Check if term already in dictionary
 grep "myalgic encephalomyelitis" .ltexignore
-# Don't read entire file, just grep for term
 ```
 
 **Example 2: Find misspelled medical terms**
 ```bash
 # Search for common misspellings
-grep -n "post exertional|post-exertional" contents/part1-clinical/*.tex | head -5
-# Read only matches to update
+grep -n "post exertional\|post-exertional" src/main/typst/mecfs/part1-clinical/*.typ | head -5
 ```
 
 **Example 3: Verify dictionary coverage**
 ```bash
 # Check which terms are missing
-grep -o "\b[A-Z][a-z]*-[a-z]*" contents/part2-pathophysiology/ch06-energy-metabolism.tex | sort -u | head -20
-# Don't load entire file, just use grep output
+grep -o "\b[A-Z][a-z]*-[a-z]*" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | sort -u | head -20
 ```
-
-
 
 
 ## Files to Manage
@@ -67,7 +57,7 @@ grep -o "\b[A-Z][a-z]*-[a-z]*" contents/part2-pathophysiology/ch06-energy-metabo
 For each flagged word:
 
 1. **Legitimate vocabulary?** → Add to `.ltex.dictionary.txt`
-   - Technical terms (LaTeX, LTeX, AmE, BrE)
+   - Technical terms (Typst, LTeX, AmE, BrE)
    - Domain jargon
    - Proper nouns
    - Acronyms

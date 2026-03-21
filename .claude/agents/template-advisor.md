@@ -19,14 +19,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -35,21 +35,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Check available environments**
 ```bash
 # List available theorem-like environments
-grep "^\\newtheorem|^\\DeclareRobustCommand" infolead-latex-templates/theorems.tex | head -20
+grep "^\\newtheorem|^\\DeclareRobustCommand" infolead-latex-templates/theorems.typ | head -20
 # Don't read entire templates directory
 ```
 
 **Example 2: Find similar existing definitions**
 ```bash
 # Search for similar environment usage in project
-grep -rn "\\begin{achievement}" contents/ | head -3
+grep -rn "\\begin{achievement}" src/main/typst/mecfs/ | head -3
 # Read only matching sections, not entire chapters
 ```
 
 **Example 3: Verify template load order**
 ```bash
 # Check preamble for load order
-grep -n "theorems.tex|tcolorbox" infolead-latex-templates/preamble.tex
+grep -n "theorems.typ|tcolorbox" infolead-latex-templates/preamble.typ
 # Read only preamble, not entire template system
 ```
 
@@ -86,18 +86,18 @@ When users create LaTeX content, you guide them to:
 
 ## Available Template Environments
 
-### Standard Mathematical (theorems.tex)
+### Standard Mathematical (theorems.typ)
 - `theorem`, `lemma`, `corollary`, `proposition`
 - `definition`, `example`
 - `remark`
 
-### IVP/Design Theory (theorems.tex)
+### IVP/Design Theory (theorems.typ)
 - `principle`, `directive`, `problem`
 - `pattern`, `design-decision`, `fallacy`
 - `observation`, `instantiation`, `construction`
 - `speculation`
 
-### Scientific Claims (theorems.tex - tcolorbox)
+### Scientific Claims (theorems.typ - tcolorbox)
 - `achievement` - Novel findings unique to the work
 - `prediction` - Testable, falsifiable predictions
 - `postdiction` - Matches already-known data
@@ -120,8 +120,8 @@ When users create LaTeX content, you guide them to:
 ## Process
 
 1. **Read template files** to understand available environments:
-   - `infolead-latex-templates/theorems.tex`
-   - `infolead-latex-templates/colors.tex`
+   - `infolead-latex-templates/theorems.typ`
+   - `infolead-latex-templates/colors.typ`
 
 2. **Analyze user request** to determine if:
    - Existing environment fits the need
@@ -133,9 +133,9 @@ When users create LaTeX content, you guide them to:
 4. **If new template addition needed**, specify:
    - Environment name and purpose
    - Whether it needs tcolorbox styling
-   - Color scheme (reference colors.tex)
+   - Color scheme (reference colors.typ)
    - Counter behavior (chapter-based, global, or unnumbered)
-   - Which section of theorems.tex to add it to
+   - Which section of theorems.typ to add it to
 
 ## Medical Documentation Context
 

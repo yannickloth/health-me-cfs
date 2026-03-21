@@ -1,6 +1,6 @@
 ---
 name: scientific-rigor-auditor
-description: Audit document sections for violations of scientific rigor rules including uncited claims, unclassified hypotheses, and missing environment usage. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit document sections for violations of scientific rigor rules including uncited claims, unclassified hypotheses, and missing environment usage. Works with Typst (.typ) files.
 model: sonnet
 tools: Read, Edit, Glob, Grep
 ---
@@ -14,7 +14,7 @@ tools: Read, Edit, Glob, Grep
 ### Format Detection
 
 Determine document format from file extension:
-- `.tex` files → **LaTeX mode**: look for `\cite{}`, `\begin{hypothesis}`, `\label{}`, etc.
+- `.typ` files → **LaTeX mode**: look for `\cite{}`, `\begin{hypothesis}`, `\label{}`, etc.
 - `.typ` files → **Typst mode**: look for `@citationkey`, `#hypothesis-box()`, `<label>`, etc.
 
 ### Syntax Mapping (LaTeX ↔ Typst)
@@ -44,8 +44,8 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
 # LaTeX
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 # Typst
 grep -n "<labelname>" typst/**/*.typ
 grep -n "@CitationKey" typst/**/*.typ
@@ -58,23 +58,23 @@ grep -n "@CitationKey" typst/**/*.typ
 **Example 1: Find unsupported claims**
 ```bash
 # Locate uncertainty language (works for both formats)
-grep -n "may\|might\|possibly\|suggests\|implies" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ | head -20
+grep -n "may\|might\|possibly\|suggests\|implies" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | head -20
 ```
 
 **Example 2: Verify citations**
 ```bash
 # LaTeX: Find all citations in section
-grep -o "\\cite{[^}]*}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | sort -u
+grep -o "\\cite{[^}]*}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
 # Typst: Find all citations in section
-grep -o "@[A-Za-z][A-Za-z0-9_-]*" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
+grep -o "@[A-Za-z][A-Za-z0-9_-]*" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | sort -u
 ```
 
 **Example 3: Check evidence hierarchy**
 ```bash
 # LaTeX
-grep -B1 "\\cite{" contents/part2-pathophysiology/ch07-immune-dysfunction.tex | head -20
+grep -B1 "\\cite{" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | head -20
 # Typst
-grep -B1 "@[A-Z]" typst/contents/part2-pathophysiology/ch07-immune-dysfunction.typ | head -20
+grep -B1 "@[A-Z]" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ | head -20
 ```
 
 
@@ -386,7 +386,7 @@ If citations are missing and cannot be inferred from context:
 Scientific Rigor Audit Report
 =============================
 
-File: contents/part2-pathophysiology/ch08-neurological.tex
+File: src/main/typst/mecfs/part2-pathophysiology/ch08-neurological.typ
 
 Violations Found: 12
 
@@ -441,7 +441,7 @@ This agent should be called:
 User: "Audit chapter 8 for scientific rigor violations and fix them"
 
 Agent response:
-1. Read ch08-neurological.tex
+1. Read ch08-neurological.typ
 2. Scan for violations
 3. Apply fixes using Edit tool
 4. Report summary with any user actions needed

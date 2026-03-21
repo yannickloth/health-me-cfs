@@ -18,14 +18,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ### Per-Agent Pattern
@@ -34,21 +34,21 @@ Read entire ch05-disease-course.tex
 **Example 1: Find tikz syntax errors**
 ```bash
 # Locate potential syntax issues
-grep -n "\\draw.*{.*{" figures/fig-energy-production-normal.tex | head -10
+grep -n "\\draw.*{.*{" figures/fig-energy-production-normal.typ | head -10
 # Read only matching lines, verify syntax
 ```
 
 **Example 2: Check node definitions**
 ```bash
 # Verify nodes are defined before use
-grep -n "\\node.*(" figures/fig-energy-production-normal.tex | head -5
+grep -n "\\node.*(" figures/fig-energy-production-normal.typ | head -5
 # Read only node definitions, check references
 ```
 
 **Example 3: Validate color definitions**
 ```bash
 # Check color usage in tikz
-grep -n "color=|fill=" figures/fig-energy-production-normal.tex | head -10
+grep -n "color=|fill=" figures/fig-energy-production-normal.typ | head -10
 # Read only color lines, verify they're defined
 ```
 
@@ -72,7 +72,7 @@ Fast, automated validation of TikZ diagrams for spatial correctness, compilation
 
 ```bash
 # Compile the TikZ document
-pdflatex -interaction=nonstopmode diagram.tex
+pdflatex -interaction=nonstopmode diagram.typ
 
 # Check exit code and output
 if [ $? -ne 0 ]; then
@@ -201,7 +201,7 @@ Since full geometric analysis requires parsing, use heuristic checks:
 ```bash
 #!/bin/bash
 # Extract node positioning commands
-grep -E "node.*\[.*below.*=.*of" diagram.tex | while read line; do
+grep -E "node.*\[.*below.*=.*of" diagram.typ | while read line; do
   # Extract distance value
   dist=$(echo "$line" | grep -oP "below=\K[0-9.]+(?=cm)")
 
@@ -211,7 +211,7 @@ grep -E "node.*\[.*below.*=.*of" diagram.tex | while read line; do
   fi
 done
 
-grep -E "node.*\[.*right.*=.*of" diagram.tex | while read line; do
+grep -E "node.*\[.*right.*=.*of" diagram.typ | while read line; do
   dist=$(echo "$line" | grep -oP "right=\K[0-9.]+(?=cm)")
 
   if [ -n "$dist" ] && (( $(echo "$dist < 2.5" | bc -l) )); then
@@ -321,7 +321,7 @@ WARNING: Arrow '{arrow_id}' may intersect node '{node_name}'
 The validator runs automatically after each `tikz-illustrator` generation:
 
 ```
-tikz-illustrator creates diagram.tex
+tikz-illustrator creates diagram.typ
     ↓
 tikz-validator validates
     ↓
@@ -342,7 +342,7 @@ tikz-validator validates
 
 **Optimization techniques:**
 - Use `pdflatex -halt-on-error` for fast failure
-- Parse .tex file directly (no PDF analysis) for distance checks
+- Parse .typ file directly (no PDF analysis) for distance checks
 - Cache compiled PDFs if re-validating with minor changes
 
 ## Validation Report Example

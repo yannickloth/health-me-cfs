@@ -97,14 +97,14 @@ Write 3–5 sentence synthesis:
 
 ### Step 5: Insert into Appendix G
 
-Find the correct subsection in `contents/appendices/appendix-g-research-synthesis.tex`:
+Find the correct subsection in `src/main/typst/mecfs/appendices/appendix-g-research-synthesis.typ`:
 ```bash
-grep -n "\\\\subsection{" contents/appendices/appendix-g-research-synthesis.tex
+grep -n "\\\\subsection{" src/main/typst/mecfs/appendices/appendix-g-research-synthesis.typ
 ```
 
 Insert table after appropriate subsection header, or create new subsection if topic is new.
 
 Verify with:
 ```bash
-grep -n "label{tab:evidence-[keyword]}" contents/appendices/appendix-g-research-synthesis.tex
+grep -n "label{tab:evidence-[keyword]}" src/main/typst/mecfs/appendices/appendix-g-research-synthesis.typ
 ```

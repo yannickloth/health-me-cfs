@@ -19,14 +19,14 @@ For ANY lookup operation (finding labels, checking if sections exist, verifying 
 
 ✅ **CORRECT:** Grep first, then read only what's found
 ```bash
-grep -n "\\label{labelname}" contents/**/*.tex
-grep -n "cite{CitationKey}" references.bib
+grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
+grep -n "CitationKey" src/main/typst/mecfs/references.bib
 ```
 
 ❌ **WRONG:** Don't load entire documents for lookups
 ```bash
 # Bad: Loading full file just to grep
-Read entire ch05-disease-course.tex
+Read entire ch05-disease-course.typ
 ```
 
 ## Your Role
@@ -41,7 +41,7 @@ Complete literature integration pipeline:
 6. **Appendix** - Update annotated bibliography
 7. **Guide** - Create integration guide for chapter-integrator
 
-**NOTE:** You do NOT edit main chapter files (contents/part*/*.tex). Create integration guides for the `chapter-integrator` agent.
+**NOTE:** You do NOT edit main chapter files (src/main/typst/mecfs/part*/*.typ). Create integration guides for the `chapter-integrator` agent.
 
 ## Phase 1: Literature Search
 
@@ -182,7 +182,7 @@ curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=[PM
 }
 ```
 
-### Appendix Entry (appendix-h-annotated-bibliography.tex)
+### Appendix Entry (appendix-h-annotated-bibliography.typ)
 
 ```latex
 \bibentry{Author2024}
@@ -214,8 +214,8 @@ Create `integration-guide.md` for chapter-integrator:
 
 ## Recommended Chapters for Integration
 
-### Primary Target: ch[NN]-[name].tex
-**File:** `contents/part[X]-[section]/ch[NN]-[name].tex`
+### Primary Target: ch[NN]-[name].typ
+**File:** `src/main/typst/mecfs/part[X]-[section]/ch[NN]-[name].typ`
 **Section hint:** "[specific section]"
 **Environment type:** hypothesis | achievement | observation | warning | speculation
 **Rationale:** [Why this chapter and environment type]
@@ -257,7 +257,7 @@ wc -l Literature/[category]/[Author]_[Year]_[ShortTitle]/{abstract.txt,notes.md,
 grep "@article{[CitationKey]" references.bib
 
 # 4. Appendix updated
-grep "cite{[CitationKey]}" contents/appendices/appendix-h*.tex
+grep "cite{[CitationKey]}" src/main/typst/mecfs/appendices/appendix-h*.typ
 ```
 
 **ALL FOUR MUST PASS before declaring complete.**
@@ -276,7 +276,7 @@ grep "cite{[CitationKey]}" contents/appendices/appendix-h*.tex
 
 📚 REFERENCES.BIB: ✅ Added @[citekey]
 
-📖 APPENDIX: ✅ Updated appendix-h-annotated-bibliography.tex
+📖 APPENDIX: ✅ Updated appendix-h-annotated-bibliography.typ
 
 📋 INTEGRATION GUIDE: ✅ Created for chapter-integrator
    Recommended chapters: [list]

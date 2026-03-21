@@ -1,6 +1,6 @@
 ---
 name: diagram-rhetoric-auditor
-description: Audit diagrams for visual rhetoric — where spatial layout, color, size, or positioning implicitly makes claims that aren't justified by evidence. Catches diagrams that visually argue something the text doesn't support. Works with both LaTeX (.tex) and Typst (.typ) files.
+description: Audit diagrams for visual rhetoric — where spatial layout, color, size, or positioning implicitly makes claims that aren't justified by evidence. Catches diagrams that visually argue something the text doesn't support. Works with Typst (.typ) files.
 model: opus
 tools: Read, Grep, Glob
 ---
