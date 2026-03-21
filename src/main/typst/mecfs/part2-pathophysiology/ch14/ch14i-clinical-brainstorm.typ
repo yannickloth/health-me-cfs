@@ -389,6 +389,34 @@ The “energy landscape” with “wells” and “hills” is a mathematical me
 
 %=============================================================================
 
+=== The Oral Infection--Autoimmunity Bridge
+<sec:oral-autoimmunity-bridge>
+
+#speculation(title: [Periodontal _P.\ gingivalis_ as a Contributor to ME/CFS Autoimmunity])[
+The GPCR autoantibodies documented in ME/CFS (anti-β#sub[1], anti-β#sub[2] adrenergic, anti-M3/M4 muscarinic; Section @sec:cardiac-function) lack a clear initiating mechanism. Periodontitis research offers a candidate pathway: _Porphyromonas gingivalis_ expresses peptidylarginine deiminase (PAD), which citrullinates host peptides---converting arginine residues to citrulline and generating neoantigens that break immune tolerance @Hasan2025periodontal. This mechanism is established in rheumatoid arthritis (the "two-hit" model) and could theoretically extend to other autoantibody targets.
+
+Additionally, _P.\ gingivalis_ gingipains (cysteine proteases) cross the blood-brain barrier and drive neuroinflammation, microglial activation, and amyloid-β accumulation in Alzheimer's models @Dominy2019gingipains. ME/CFS patients with documented BBB dysfunction (Chapter @ch:neurological, Section @sec:bbb) may be particularly vulnerable to this pathway. The gingipain-driven neuroinflammation could compound the microglial priming already hypothesised in ME/CFS.
+
+A further mechanism is trained immunity: _P.\ gingivalis_ reprogrammes bone marrow progenitors to produce hyper-inflammatory myeloid cells that persist long after the original periodontal stimulus @Hajishengallis2021periodontal. This epigenetic reprogramming could contribute to the sustained innate immune activation observed in ME/CFS even in the absence of ongoing infection.
+
+*Testable predictions:*
+
+    - ME/CFS patients with GPCR autoantibodies should show higher prevalence of _P.\ gingivalis_ colonisation than autoantibody-negative patients.
+    - _P.\ gingivalis_ DNA or gingipains should be detectable in cerebrospinal fluid of ME/CFS patients with prominent neuroinflammatory features, at rates exceeding healthy controls.
+    - Periodontal treatment in _P.\ gingivalis_-positive ME/CFS patients should reduce GPCR autoantibody titres over 6--12 months.
+    - Bone marrow-derived monocytes from ME/CFS patients with periodontitis should show epigenetic reprogramming consistent with trained immunity (enhanced TNF-α/IL-6 response to TLR stimulation).
+
+*Limitations:*
+
+    - No study has examined _P.\ gingivalis_ in ME/CFS patients; the entire hypothesis is constructed from cross-disease analogy.
+    - The citrullination pathway is established for anti-citrullinated protein antibodies (ACPAs) in RA, not for GPCR autoantibodies---the antigenic targets differ substantially.
+    - Trained immunity is a general mechanism not specific to _P.\ gingivalis_; many infections could produce similar effects without involving the oral microbiome.
+
+*Certainty:* 0.20. Highly speculative. Each individual link (citrullination → autoimmunity; gingipains → neuroinflammation; trained immunity → sustained inflammation) is established in other diseases, but the composite hypothesis applied to ME/CFS is entirely untested.
+] <spec:oral-autoimmunity>
+
+%=============================================================================
+
 === Drug Candidates for Systematic Investigation
 <sec:drug-candidates>
 %=============================================================================

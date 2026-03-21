@@ -14,6 +14,40 @@ Each entry follows the format: *What* changed, _why_ it changed
 
 === New Content
 
+  - *Immune null findings integration and creative hypothesis generation*
+    (Chapter 7, Sections: sec:nk-cells, sec:tgf-beta, sec:ighv3-30 (new),
+    sec:immune-summary; Chapter 8, microglial PET warning box;
+    Chapter 14b, evidence assessment table and methodological controversy;
+    Chapter 13, new open\_question; references.bib, 11 new entries;
+    hypothesis registry updated with 7+ new entries):
+    Systematic integration of findings from mecfsscience.org critical immune
+    review (2026-03-21) with six independent literature research streams.
+    Major null findings added: Germain et al.\ 2025 REAP/Luminex autoantibody
+    screen (7,542 interactions, complete null @Germain2025autoantibody),
+    MCAM/CDC NK cytotoxicity study (n=174, $p=0.79$ @Querec2023MCAM),
+    and Baraniuk 2024 NK meta-analysis (Hedges' g=0.96 @Baraniuk2024NKmeta).
+    New IGHV3-30 B cell receptor repertoire skewing section added with
+    three-group replication (Sato 2021, Lipkin 2020, Ryback 2025) and the
+    paradox of skewing without adaptive immune signatures.
+    TGF-$beta$ section substantially expanded with Blundell systematic review,
+    Roerink 2018 centrifugation artifact concern @Roerink2018TGFartifact,
+    and novel "Rosetta Stone" hypothesis linking TGF-$beta$ to NK dysfunction.
+    TSPO-PET warning box expanded with Raijmakers null result and Nutma 2023
+    specificity criticism @Nutma2023TSPO. Ch14b evidence table downgraded
+    for autoantibody detection (Moderate $arrow$ Low-Moderate); overall
+    assessment rewritten around RESETME trial as decisive test.
+    Six novel hypotheses/speculations formalized: TGF-$beta$ Rosetta Stone
+    (certainty 0.40), TGF-$beta$ Lock epigenetic hit-and-run (0.30),
+    Cellular Fog/normal army broken soldiers (0.35), Abortive B Cell
+    Activation (0.25), Anellovirus hyperimmune paradox (0.20), Immune
+    Diaspora/displaced tissue-resident cells (0.20). Two major open\_questions
+    added: Paradox of Invisible Immunity (ch07), Immune as Canary (ch13).
+    Motivated by: mecfsscience.org comprehensive immune review highlighting
+    pattern of well-powered null results challenging systemic immune
+    activation hypothesis; need to reconcile these with positive functional
+    findings and treatment evidence.
+    @Germain2025autoantibody @Querec2023MCAM @Baraniuk2024NKmeta @Roerink2018TGFartifact @Blundell2015cytokines @Sato2021BCR @Milivojevic2020plasma @Ryback2025BCR @Dibble2024TCR @Nutma2023TSPO @Corbitt2019.
+
   - *Causal hierarchy analysis: root causes, amplifiers, and consequences*
     (New Chapter 16 in Part II; new Chapter 33 in Part V; hypothesis registry
     updated with 6 new entries):
@@ -372,6 +406,35 @@ Each entry follows the format: *What* changed, _why_ it changed
     COVID-19 pituitary literature providing strong foundational evidence for post-viral
     secondary AI as a distinct and under-recognised ME/CFS mechanism.
     Key sources: @Leow2005sars @Ruiz2024hpa @Carosi2024hypopituitarism.
+
+  - *Oral microbiome as underexplored inflammatory reservoir*
+    (Chapter 11, new Section @sec:oral-microbiome; Chapter 14i, new
+    Section @sec:oral-autoimmunity-bridge; hypothesis registry updated with
+    3 new entries; 5 new bibliography entries):
+    New section in the gut microbiome chapter identifying the oral microbiome as
+    an unstudied compartment in ME/CFS. Synthesizes periodontitis-systemic
+    inflammation literature to identify three potentially relevant pathways:
+    (1) periodontal bacteremia driving endothelial dysfunction via the same
+    CRP/IL-6/TNF-α mediators elevated in ME/CFS, (2) _P.\ gingivalis_
+    gingipain-mediated neuroinflammation and BBB disruption paralleling
+    documented ME/CFS neuroinflammation, (3) citrullination-driven
+    neoantigen generation as a candidate initiator for GPCR autoantibodies.
+    Open question on oral microbiome as inflammatory reservoir
+    (@oq:oral-microbiome). Speculation on the oral dysbiosis--disability vicious
+    cycle (@spec:oral-dysbiosis-cycle, certainty 0.30) — a self-reinforcing
+    loop between reduced self-care capacity and periodontal disease progression
+    that is entirely modifiable through caregiver-assisted oral hygiene.
+    Chapter 14i speculation on _P.\ gingivalis_--autoimmunity bridge
+    (@spec:oral-autoimmunity, certainty 0.20) linking citrullination, trained
+    immunity, and gingipain neuroinflammation to ME/CFS autoimmune and
+    neurological features.
+    _Motivated by:_ Hasan et al.\ 2025 systematic review of periodontal-systemic
+    inflammatory associations; identification that ME/CFS microbiome research
+    exclusively targets the gut while ignoring the oral compartment despite
+    well-established oral-systemic inflammation pathways and the self-care
+    limitations of severe patients creating conditions favourable for
+    periodontal disease.
+    @Hasan2025periodontal @Hajishengallis2021periodontal @Hajishengallis2015periodontal @Dominy2019gingipains @Tattar2025periodontal.
 
 == Version 5 (2026-02-18 – 2026-03-07)
 

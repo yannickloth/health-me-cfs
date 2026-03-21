@@ -29,8 +29,9 @@ Important caveats exist regarding GPCR autoantibody testing:
     - *POTS replication failure (2022)* @POTS2022failed_replication: 116 POTS patients vs.\ 81 controls showed _no differences_ in ELISA-derived GPCR autoantibody concentrations. 98.3% of POTS patients and 100% of controls had $alpha_1$-adrenergic receptor antibodies above threshold. The authors concluded CellTrend ELISAs “have no diagnostic value for POTS.”
     - *Functional vs.\ binding assays*: The positive studies largely used CellTrend ELISAs (binding assays), while the cardiomyocyte bioassay (measuring functional antibody activity) may be more specific but is not commercially available.
     - *Conflict of interest*: CellTrend holds a patent for $beta$-adrenergic receptor antibodies in CFS diagnosis, jointly with Charité.
+    - *Comprehensive null from orthogonal platforms (2025)* @Germain2025autoantibody: Germain et al.\ (Cornell/Hanson group) screened 172 participants across 7,542 antibody-antigen interactions using REAP (6,183 exoproteome proteins) and Luminex (1,134 autoantigens). Complete null: no $q$-value below 0.68. All GPCR targets ($beta_1$/$beta_2$/$beta_3$-adrenergic, M1--M4 muscarinic) negative. Caveat: REAP displays extracellular domains individually and may miss conformational multi-loop GPCR epitopes; cohort was chronic pre-COVID ME/CFS (mean 11--14 years).
 
-Despite methodological concerns, the _treatment_ evidence is compelling: if autoantibody removal (immunoadsorption) and autoantibody-producing cell depletion (daratumumab) produce clinical improvement, the autoantibodies are likely pathogenic regardless of assay limitations.
+Despite methodological concerns, the _treatment_ evidence remains notable: if autoantibody removal (immunoadsorption) and autoantibody-producing cell depletion (daratumumab) produce clinical improvement, the autoantibodies may be pathogenic regardless of assay limitations---though the BC007 Phase II placebo-controlled failure and the Germain null result together raise the possibility that the open-label treatment responses reflect non-autoantibody mechanisms of immunoadsorption and plasma cell depletion (e.g., removal of pro-inflammatory IgG glycoforms, broader immunomodulation).
 
 #limitation(title: [GPCR Autoantibody Evidence: Methodological Controversy and Open-Label Designs])[
 Despite promising treatment signals, the GPCR autoantibody field faces unresolved methodological issues that limit the strength of current conclusions:
@@ -118,31 +119,35 @@ Based on the GPCR autoantibody literature, several biological phenomena have nev
 
 
 
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columnsp{2.5cm}p{6cm}}
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    // TODO: fix columnsp{2.5cm}p{6cm}}
 
-[*Finding*], [*Evidence Level*], [*Notes*],
+    [*Finding*], [*Evidence Level*], [*Notes*],
 
-[GPCR autoantibodies elevated in ME/CFS], [Moderate], [Multiple cohorts; replication concerns],
+    [GPCR autoantibodies elevated in ME/CFS], [Low-Moderate], [CellTrend ELISA cohorts positive; Germain 2025 REAP/Luminex null],
 
-[Symptom correlation with titers], [Moderate], [Sotzny 2021; needs replication],
+    [Symptom correlation with titers], [Low-Moderate], [Sotzny 2021; Swedish replication weak ($r < 0.3$)],
 
-[Immunoadsorption efficacy], [Moderate-High], [Lancet 2024; no placebo control],
+    [Immunoadsorption efficacy], [Moderate-High], [Lancet 2024; no placebo control],
 
-[Daratumumab efficacy], [Moderate], [60% response; open-label],
+    [Daratumumab efficacy], [Moderate], [60% response; open-label],
 
-[BC007 efficacy], [Low], [Case reports positive; Phase II failed],
+    [BC007 efficacy], [Low], [Case reports positive; Phase II failed],
 
-[Peripheral (not CNS) origin], [Moderate], [No CSF autoantibodies (Bynke 2020)],
+    [Peripheral (not CNS) origin], [Moderate], [No CSF autoantibodies (Bynke 2020)],
 
-[CellTrend assay specificity], [Controversial], [POTS study questions diagnostic value],
+    [CellTrend assay specificity], [Controversial], [POTS study questions diagnostic value],
 
-),
-caption: [Evidence assessment for GPCR autoantibody findings in ME/CFS],
+    [Broad autoantibody screen (REAP/Luminex)], [Strong null], [Germain 2025: 7,542 interactions; no signal],
+  ),
+  kind: table, supplement: [Table],
+  caption: [Evidence assessment for GPCR autoantibody findings in ME/CFS. Evidence levels updated March 2026 to reflect Germain et al.\ 2025 comprehensive null finding.],
+) <tab:gpcr-autoantibody-evidence>
 
 
-*Overall assessment:* GPCR autoantibody-driven ME/CFS represents the most therapeutically promising hypothesis currently under investigation. The evidence is sufficient to justify clinical trials and, for carefully selected patients with documented autoantibodies, consideration of autoantibody-targeted treatment under specialist supervision.
+*Overall assessment:* The GPCR autoantibody hypothesis is at an inflection point. The detection evidence has weakened: the most comprehensive screen to date (Germain 2025, two orthogonal platforms) found no autoantibody signal, and the only placebo-controlled treatment trial (BC007 Phase II) failed. However, the open-label treatment evidence from immunoadsorption and daratumumab remains notable, and the upcoming RESETME randomised trial will be decisive. If RESETME is negative, the autoantibody hypothesis takes a critical blow. If positive, it would constitute the most important ME/CFS therapeutic breakthrough to date---and would force re-examination of why detection assays fail while removal therapies succeed.
 
 == Ion Channel Autoimmunity
 <sec:ion-channel>

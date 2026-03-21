@@ -19,7 +19,13 @@ Natural killer cell abnormalities represent one of the most replicated findings 
 
 ==== Reduced NK Cell Cytotoxicity
 
-NK cells eliminate virus-infected and malignant cells through direct cytotoxic mechanisms. ME/CFS patients consistently demonstrate decreased cytotoxic activity, with reduced ability to kill target cells (typically K562 erythroleukemia cells in standard assays). The magnitude of this impairment is substantial, with studies reporting statistically significant reductions across multiple cohorts @EatonFitch2019. Lower NK cell function correlates with greater symptom severity in some studies. These abnormalities remain stable over time, suggesting a chronic rather than transient dysfunction.
+NK cells eliminate virus-infected and malignant cells through direct cytotoxic mechanisms. ME/CFS patients consistently demonstrate decreased cytotoxic activity, with reduced ability to kill target cells (typically K562 erythroleukemia cells in standard assays). The magnitude of this impairment is substantial, with studies reporting statistically significant reductions across multiple cohorts @EatonFitch2019. Lower NK cell function correlates with greater symptom severity in some studies. These abnormalities remain stable over time, suggesting a chronic rather than transient dysfunction. A 2024 meta-analysis of 28 studies encompassing approximately 2,982 subjects quantified this deficit as a large effect (Hedges' g = 0.96, 95% CI: 0.75--1.18), with ME/CFS NK cytotoxicity approximately half that of healthy controls @Baraniuk2024NKmeta.
+
+However, the largest multi-site study to date produced a null result. The MCAM (Multi-site Clinical Assessment of ME/CFS) sub-study tested 174 ME/CFS patients and 86 healthy controls from five US specialty clinics using a flow cytometry-based killing assay on overnight-shipped PBMCs @Querec2023MCAM. Mean cytotoxicity was virtually identical: 34.1% in ME/CFS versus 33.6% in controls ($p = 0.79$). No associations with disease severity, illness duration, or onset type were found. Notably, Nancy Klimas---whose foundational 1990 study first documented large NK deficits---is a co-author on this null study, lending it credibility.
+
+#limitation(title: [NK Cytotoxicity: Unresolved Methodological Dispute])[
+The MCAM null result was excluded from the Baraniuk 2024 meta-analysis on methodological grounds: overnight sample shipping may degrade cytotoxicity sufficiently to erase real group differences, and the intracellular DNA staining endpoint detects late-stage cell death rather than early apoptosis (unlike Annexin V used in positive studies). The MCAM team's own validation study found good correlation between their shipped-sample fluorescence assay and same-day chromium-51 release ($R^2 = 0.80$, $p = 0.001$), arguing that group-level differences should still be detectable @Querec2023MCAM. Whether this correlation is sufficient to claim equivalence remains contested. The dispute has practical implications: if NK cytotoxicity requires same-day local processing to detect, it cannot serve as a scalable clinical biomarker regardless of its biological reality.
+]
 
 ==== Mechanisms of Impaired Cytotoxicity
 
@@ -363,6 +369,48 @@ Study: (multi-cohort, Nature Immunology, multi-cohort validated, certainty: 0.80
 The NIH study found elevated naïve B cells and reduced memory B cells in PI-ME/CFS patients. Does this represent an immune system “stuck” in early activation, continuously attempting new responses but failing to consolidate immunological memory? If so, what maintains this state—persistent antigen, aberrant signaling, or microenvironmental factors? Could interventions promoting B cell maturation (e.g., targeted cytokine support, germinal center modulation) restore normal immune function and break the cycle of chronic activation?
 ]
 
+==== B Cell Receptor Repertoire Skewing: The IGHV3-30 Puzzle
+<sec:ighv3-30>
+
+An unexpected and replicated finding has emerged from B cell receptor (BCR) sequencing studies: ME/CFS patients show skewed usage of the IGHV3-30 immunoglobulin heavy chain variable gene segment.
+
+Sato et al.\ (2021) first documented this in a Japanese cohort, finding that IGHV3-30 and the closely related IGHV3-30-3 were significantly elevated in patients whose ME/CFS followed an infection-like episode @Sato2021BCR. The skewing was accompanied by specific CDR3 length enrichment and enhanced interferon-response gene expression in plasmablasts. Convergent evidence came from Lipkin's Columbia group: plasma proteomic profiling detected elevated circulating IGHV3-23/30 immunoglobulin protein in a subset of ME/CFS patients (approximately 12 of 39), suggesting excess production by expanded B cell populations @Milivojevic2020plasma.
+
+The most rigorous examination came from Ryback and Cowan (2025), who performed deep BCR heavy chain sequencing in 25 mild/moderate ME/CFS patients, 36 severe patients, 21 healthy controls, and 28 MS patients @Ryback2025BCR. They partially replicated the IGHV3-30 skewing---but only in the mild/moderate group. Severe patients showed no skewing. Critically, the study documented a striking paradox: despite the repertoire bias, there was _no_ evidence of clonal expansion, _no_ increased somatic hypermutation, and _no_ affinity maturation. An additional finding was skewing of the IgM-to-IgG BCR ratio (more IgM-class), suggesting B cells that have not undergone class switching---a process requiring germinal centre transit.
+
+#open-question(title: [The IGHV3-30 Paradox: Repertoire Skewing Without Adaptive Signatures])[
+In classical immunology, repertoire skewing toward a specific IGHV gene indicates antigen-driven selection: a pathogen selects for B cells bearing complementary receptors, which then expand clonally and undergo somatic hypermutation. ME/CFS patients show the skewing but _none_ of the downstream signatures. This is immunologically anomalous.
+
+Several explanations merit investigation:
+
+    - *Preferential survival:* Cytokine signals (e.g., BAFF) in the ME/CFS milieu may preferentially support survival of naïve B cells bearing IGHV3-30 BCRs without triggering activation.
+    - *Tonic BCR signalling:* IGHV3-30-expressing B cells may receive constitutive low-level signalling through polyreactivity with self-antigens or microbiome-derived molecules, keeping them alive longer without initiating a germinal centre response.
+    - *Abortive immune activation:* B cells receive activation signals but lack the metabolic resources to complete germinal centre entry---connecting to the immune cell energy starvation hypothesis (Hypothesis @hyp:immune-energy-starvation-niche). This would explain both the repertoire bias and the IgM predominance (no energy for class switching).
+    - *Severity-dependent loss:* The absence of IGHV3-30 skewing in severe patients may indicate that the skewed B cell population is eventually depleted by sustained immune exhaustion, mirroring the progression from B cell subset abnormalities (Walitt 2024) to severe B cell depletion (Section @sec:exhausted-surveillance).
+
+The IGHV3-30 finding is notable because it is one of very few immune findings replicated across three independent groups using different methodologies (BCR sequencing, plasma proteomics, deep sequencing). Whether it represents a cause, consequence, or epiphenomenon of ME/CFS remains unknown.
+]
+
+#speculation(title: [Abortive B Cell Activation: Energy Starvation Stalls Germinal Centre Entry])[
+
+*Certainty: 0.25.* Speculative synthesis linking the IGHV3-30 paradox to documented immune cell metabolic dysfunction. No direct experimental evidence connects these two findings.
+
+The IGHV3-30 skewing without clonal expansion, somatic hypermutation, or class switching (Section @sec:ighv3-30) may represent B cells that receive an activation signal but cannot _complete_ the response. B cell activation requires massive metabolic upregulation: glycolysis must increase several-fold to fuel proliferation, and germinal centre transit demands sustained ATP production for iterative rounds of mutation and selection.
+
+If ME/CFS immune cells have impaired bioenergetics---as documented for T cells by the Hanson group @Mandarano2020 and consistent with TRPM3-mediated calcium signalling defects @Sasso2026trpm3\---B cells may lack the metabolic resources to complete activation. The result:
+
+    - Antigen engages IGHV3-30-bearing naïve B cells (repertoire skewing occurs)
+    - B cells initiate activation but cannot sustain the metabolic demands of germinal centre entry
+    - Without germinal centre transit: no somatic hypermutation, no class switching (hence IgM predominance @Ryback2025BCR), no affinity maturation
+    - B cells accumulate in an "activated-but-stalled" state
+
+An alternative or complementary mechanism: if T cells are exhausted (documented via elevated PD-1 @walitt2024deep), they cannot provide the co-stimulation and cytokines needed for germinal centre entry. B cells activate but never receive their "go" signal.
+
+*The severity-dependent loss explained:* Ryback found IGHV3-30 skewing in mild/moderate but not severe patients @Ryback2025BCR. If severe ME/CFS represents deeper immune exhaustion, the stalled B cells may eventually die through apoptosis---consistent with the progression from B cell subset abnormalities to B cell depletion documented in Speculation @spec:exhausted-surveillance.
+
+*Falsification:* (a) In vitro metabolic supplementation (glucose, pyruvate, ATP precursors) of ME/CFS B cells restores normal germinal centre entry and class switching, confirming energy as the bottleneck; (b) IGHV3-30-skewed B cells from ME/CFS patients show normal metabolic profiles, ruling out energy starvation; (c) providing exogenous T cell help (anti-CD40 + IL-21) to ME/CFS B cells rescues class switching, implicating T cell exhaustion rather than B cell-intrinsic defects.
+] <spec:abortive-activation>
+
 ==== Severe B Cell Depletion: Exhausted Immune Surveillance
 <sec:exhausted-surveillance>
 
@@ -463,6 +511,12 @@ This methodological critique highlights several unresolved issues:
     - The appropriate control populations and cutoff values
     - Whether ELISA-detected antibodies reflect the same populations as functionally active autoantibodies
     - The need for functional assays beyond binding detection
+
+The most extensive autoantibody study to date substantially deepened these concerns. Germain et al.\ (2025) screened 172 participants using two orthogonal high-throughput platforms---REAP (Rapid Extracellular Antigen Profiling, covering 6,183 human exoproteome proteins) and Luminex (1,134 autoantigens)---for a total of 7,542 antibody-antigen interactions @Germain2025autoantibody. The result was a complete null: no autoantibody differed between ME/CFS patients and controls at any statistically meaningful threshold (no $q$-value below 0.68 after Benjamini-Hochberg correction). GPCR-specific targets---including $beta_1$, $beta_2$, and $beta_3$-adrenergic receptors and muscarinic M1--M4 receptors---were all negative. The one notable secondary finding was elevated reactivity against EBV gp42 and HSV-1 gL in ME/CFS patients, consistent with herpesvirus reactivation rather than autoimmunity.
+
+#limitation(title: [Germain 2025: Technical Caveats for GPCR Autoantibody Detection])[
+The REAP platform displays extracellular protein domains on yeast surfaces. GPCRs are multi-pass transmembrane proteins whose pathogenically relevant epitopes may span multiple extracellular loops in a conformational arrangement that cannot be recapitulated by displaying individual domains. If the CellTrend ELISA detects antibodies against conformational epitopes absent from the REAP library, the two platforms are testing different hypotheses. Additionally, the Germain cohort comprised long-duration pre-COVID ME/CFS (mean 11--14 years); autoantibody profiles might differ in post-COVID ME/CFS or early-onset disease. However, the Luminex platform---which uses full-length proteins on beads---also found no signal, weakening the conformational-epitope explanation.
+]
 
 #open-question(title: [GPCR Autoantibody Pathogenicity])[
 While correlational and early therapeutic evidence supports a role for GPCR autoantibodies in ME/CFS, definitive proof of causality remains elusive. The Vernino et al.\ failed replication in POTS raises important questions: Are the autoantibodies detected by current assays the same as those causing symptoms? Do healthy individuals harbor similar autoantibodies that only become pathogenic under certain conditions (e.g., infection, inflammation)? Would more specific functional assays—measuring receptor activation or internalization rather than mere binding—better identify pathogenic autoantibodies? Resolution of these questions will determine whether autoantibody-targeted therapies become a mainstay of ME/CFS treatment.
@@ -642,8 +696,62 @@ The convergence—extracellular vesicle cytokine content in one study, epigeneti
 IL-10 is a potent immunosuppressive cytokine with variable findings in ME/CFS. Levels may be elevated (potentially reflecting an attempt to control inflammation) or reduced (which would permit inflammation to continue). IL-10 is important for resolving immune responses and is produced by regulatory T cells and other cell types.
 
 ==== Transforming Growth Factor-Beta (TGF-$beta$)
+<sec:tgf-beta>
 
-TGF-$beta$ has immunosuppressive and tissue remodeling functions and is often elevated in ME/CFS. This elevation may represent an attempt to control inflammation, though chronic elevation can promote fibrosis. TGF-$beta$ is also important for regulatory T cell development.
+TGF-$beta$ is the most consistently elevated cytokine in ME/CFS. A systematic review of 38 papers and 77 cytokines found TGF-$beta$ elevated in 5 of 8 studies that measured it (63%)---the highest consistency of any cytokine @Blundell2015cytokines. The Montoya et al.\ Stanford study (192 patients, 392 controls, 51 cytokines) confirmed this elevation ($p = 0.0052$), with TGF-$beta$ and resistin being the only two analytes consistently different at the population level @Montoya2017.
+
+TGF-$beta$ has immunosuppressive and tissue remodeling functions. This elevation may represent an attempt to control inflammation, though chronic elevation can promote fibrosis. TGF-$beta$ is also important for regulatory T cell development. Critically, TGF-$beta$ is a potent suppressor of NK cell cytotoxicity through multiple established mechanisms: direct transcriptional repression of perforin (approximately 57% reduction) and granzyme B (approximately 38% reduction) via Smad pathway signalling, inhibition of mTOR (reducing NK cell metabolic capacity), and downregulation of activating receptors NKG2D and NKp30.
+
+#limitation(title: [TGF-$beta$ Elevation: Centrifugation Artifact Concern])[
+Roerink et al.\ (2018) raised a serious methodological challenge: TGF-$beta$1 measurements in ME/CFS may be confounded by platelet contamination during sample processing @Roerink2018TGFartifact. Platelets contain 40--100 times more TGF-$beta$1 than other cell types. Lower centrifuge g-force produces higher platelet activation (p-selectin correlated $r = 0.79$ with TGF-$beta$1), which artificially inflates measured concentrations. After controlling for platelet contamination in their cohort, no authentic TGF-$beta$1 elevation distinguished ME/CFS patients from controls. This methodological concern applies to all prior studies that did not standardise centrifugation protocols or measure platelet activation markers. The Montoya 2017 study used standardised multiplex plasma assays and remains the strongest evidence that TGF-$beta$ elevation is real, but even this single-site study cannot fully exclude centrifugation effects.
+]
+
+#hypothesis(title: [TGF-$beta$ as Unifying Explanation for the Two Most Replicated Immune Findings])[
+
+*Certainty: 0.40.* Mechanistically well-supported by cancer immunology literature; not yet tested in ME/CFS.
+
+The two most consistently replicated immune findings in ME/CFS are (1) elevated TGF-$beta$ and (2) reduced NK cell cytotoxicity. These are routinely treated as independent observations. We propose they may represent a single finding and its downstream consequence: chronic TGF-$beta$ elevation suppresses NK cell function.
+
+*Mechanistic basis (established in cancer immunology):*
+    - TGF-$beta$ directly represses perforin and granzyme B transcription via Smad/ATF1
+    - TGF-$beta$ inhibits mTOR in NK cells, reducing metabolic capacity for sustained killing
+    - TGF-$beta$ downregulates NKG2D and NKp30 activation receptors
+    - Prolonged TGF-$beta$ exposure may cause persistent NK dysfunction through epigenetic remodeling of IRF, T-bet, and EOMES binding sites---meaning NK cells remain dysfunctional even after TGF-$beta$ normalises
+
+*Key evidence gap:* No published ME/CFS study has measured both TGF-$beta$ levels and NK cell cytotoxicity in the same cohort. This co-measurement study is the critical missing experiment.
+
+*Implications if confirmed:*
+    - Reduces the number of independent immune abnormalities in ME/CFS from two to one
+    - Shifts therapeutic focus from NK cells to whatever drives TGF-$beta$ elevation
+    - Explains why interventions targeting NK cells directly (BioBran, isoprinosine, interferon-$alpha$) have failed---they address the consequence, not the cause
+    - Connects to the Roerink artifact concern: if TGF-$beta$ elevation is partly artifactual, the NK finding may be even more independent than assumed
+
+*Falsification criteria:*
+    - If TGF-$beta$ levels do not correlate with NK cytotoxicity within ME/CFS patients in a properly controlled co-measurement study
+    - If in vitro TGF-$beta$ neutralisation does not rescue NK cytotoxicity in ME/CFS patient samples
+    - If the TGF-$beta$ elevation is entirely explained by centrifugation artifact (Roerink concern), eliminating the upstream driver
+] <hyp:tgf-beta-rosetta>
+
+#speculation(title: [The TGF-$beta$ Lock: Epigenetic Hit-and-Run])[
+
+*Certainty: 0.30.* Extends the TGF-$beta$ unifying hypothesis with emerging epigenetic evidence. The epigenetic locking mechanism is from a single 2026 preprint (not yet peer-reviewed); application to ME/CFS is entirely speculative.
+
+The TGF-$beta$ Rosetta Stone hypothesis (Hypothesis @hyp:tgf-beta-rosetta) assumes _ongoing_ TGF-$beta$ elevation suppresses NK cells. But the Roerink artifact concern and Hornig duration-dependent findings raise the possibility that TGF-$beta$ elevation is _transient_---present during early disease and normalising in chronic ME/CFS. If so, how does NK dysfunction persist?
+
+A 2026 preprint demonstrated that prolonged TGF-$beta$ exposure causes persistent epigenetic remodeling of IRF, T-bet, and EOMES binding sites in NK cells---and critically, the dysfunction persists _even after TGF-$beta$ is withdrawn_. We propose a "hit-and-run" mechanism:
+
+    + Initial infection triggers transient TGF-$beta$ elevation (normal immune regulation)
+    + In susceptible individuals, TGF-$beta$ exposure exceeds a duration threshold sufficient for epigenetic locking
+    + NK cell chromatin is permanently remodeled: perforin/granzyme loci become inaccessible
+    + TGF-$beta$ normalises (explaining null measurements in chronic patients)
+    + NK cells remain dysfunctional indefinitely (explaining persistent cytotoxicity deficit)
+    + Dysfunctional NK cells cannot clear herpesvirus reactivations
+    + Chronic low-level viral stimulation may trigger further TGF-$beta$ from regulatory T cells, locking _new_ NK cells as they mature from progenitors
+
+This model elegantly reconciles: (a) consistent NK dysfunction in chronic ME/CFS, (b) inconsistent TGF-$beta$ elevation (present early, absent late), (c) the Roerink artifact concern (even if current measurements are artifactual, past elevation was real), and (d) the failure of interventions targeting NK cells directly (the epigenetic lock cannot be reversed by providing BioBran or interferon).
+
+*Testable prediction:* Epigenetic profiling (ATAC-seq, ChIP-seq for H3K27me3) of NK cells from ME/CFS patients should show persistent chromatin modifications at EOMES/T-bet/IRF loci characteristic of TGF-$beta$ exposure, even in patients with _normal_ current TGF-$beta$ levels. If this chromatin signature is absent, the hit-and-run model is falsified.
+] <spec:tgf-beta-lock>
 
 ==== Balance Between Pro- and Anti-inflammatory Signals
 
@@ -722,6 +830,29 @@ Studies have demonstrated:
     - Elevated CSF inflammatory markers
     - Correlation between brain inflammation and symptoms
     - Persistence of neuroinflammation
+
+=== Immune Cell Displacement from Tissue Niches
+
+The CureME biobank study (251 ME/CFS patients, 107 controls, 46 MS patients) found that overall immune cell proportions were largely normal, with one notable exception: mucosal-associated invariant T (MAIT) cells were significantly elevated in peripheral blood, with the effect strongest in severely affected patients (CD8+ MAIT AUC 0.756 for discriminating severe ME/CFS from controls). A modest shift toward effector memory CD8+ T cells was also observed.
+
+MAIT cells are normally tissue-resident---they belong in mucosal tissues (gut, lung, liver) where they respond to bacterially-derived riboflavin metabolites. Finding them elevated in _blood_ may indicate displacement from their normal tissue locations.
+
+#speculation(title: [The Immune Diaspora: Displaced Tissue-Resident Cells])[
+
+*Certainty: 0.20.* Highly speculative framework connecting disparate observations. MAIT cell elevation in ME/CFS blood has not been independently replicated.
+
+If MAIT cells have been displaced from mucosal tissues into the blood, other tissue-resident immune cell populations may also be dislocated. Post-infectious tissue damage (gut epithelial disruption, blood-brain barrier compromise) could dislodge immune cells from their functional niches. In this model:
+
+    - MAIT cells appear in blood because gut mucosal architecture is disrupted (consistent with the gut microbiome abnormalities documented in Chapter @ch:gut-microbiome)
+    - NK cells are functionally impaired because they are not receiving tissue-derived signals (cytokines, direct cell contacts) that exist in their normal microenvironments---their dysfunction is _contextual_, not cell-intrinsic
+    - Blood-based studies consistently miss the pathology because they sample cells that are in transit or displaced, not cells performing their actual function in tissues
+
+This framework provides an alternative explanation for the Paradox of Invisible Immunity (Section @oq:invisible-immunity): blood looks "normal" because the cells in blood _are_ normal---they are simply not the ones doing the work. The pathology is in the tissues, where immune niches have been disrupted and resident cells are absent.
+
+*Testable predictions:* (a) Tissue biopsies (gut mucosa, muscle) from ME/CFS patients should show _depleted_ tissue-resident immune populations corresponding to the cell types found elevated in blood; (b) MAIT cell tissue frequency should inversely correlate with blood MAIT frequency within individual patients; (c) interventions that restore mucosal integrity (e.g., gut barrier repair) should normalise MAIT cell distribution.
+
+*Falsification:* MAIT cell elevation is not replicated, or tissue biopsies show normal resident immune populations despite elevated blood MAIT cells.
+] <spec:immune-diaspora>
 
 == Viral Reactivation and Persistence
 <sec:viral>
@@ -1183,6 +1314,26 @@ These findings provide strong population-level evidence that, at least for pande
 #open-question(title: [Post-COVID Immune Damage and Vaccine Efficacy])[
 COVID-19 causes persistent T cell exhaustion (elevated PD-1, TIM-3, CTLA-4) @Gil2023cd8 and complement consumption @Klein2024longcovid. However, studies tracking pre-existing vaccine antibodies have found that COVID-19 does _not_ cause measles-like immune amnesia @Klein2024longcovid. Whether the combination of pre-existing ME/CFS immune dysfunction with post-COVID immune damage compounds to reduce vaccine efficacy for _future_ vaccinations is unstudied and clinically relevant: if it does, ME/CFS patients with post-COVID worsening may require additional booster doses or antibody titre monitoring.
 ] <q:postcovid-vaccine-efficacy>
+
+==== The Anellovirus Paradox: A Hidden Positive in Negative Viral Screening
+
+Large-scale viral screening studies have consistently failed to find pathogenic viruses enriched in ME/CFS blood, saliva, or stool. However, one overlooked finding from Lipkin's multicenter virome study (391 ME/CFS patients, 292 controls) may contain a clue: anelloviruses---ubiquitous, normally harmless commensal viruses---were _significantly less prevalent_ in ME/CFS plasma (30.5% vs 54.1%, $p < 0.001$). The study authors hypothesised this may reflect a "hyperimmune state" in which the immune system is clearing these normally tolerated viruses more aggressively than in healthy individuals.
+
+#speculation(title: [Constitutive Immune Activation Without Secretory Output])[
+
+*Certainty: 0.20.* Based on a single observation from one study. Highly speculative but generates testable predictions.
+
+The anellovirus depletion suggests ME/CFS immune cells may be constitutively activated at a low level---sufficient to clear harmless commensal viruses more aggressively, but below the threshold for producing detectable circulating cytokine elevations. This "idle engine at high RPM" model would explain:
+
+    - *Normal cytokines:* The activation is intracellular (metabolic, calcium-dependent), not secretory
+    - *Normal cell counts:* Cells are present, just burning energy on inappropriate low-level activation
+    - *Reduced NK cytotoxicity:* Cells are already partially degranulated from chronic low-level activation and cannot mount acute responses to laboratory challenges
+    - *Metabolic exhaustion:* Chronic low-level activation is a continuous energy drain, contributing to the bioenergetic crisis
+
+This model predicts that ME/CFS immune cells should show elevated baseline metabolic activity (oxygen consumption, glucose uptake) compared to controls despite producing normal cytokine levels, and that their _stimulation response_ (fold-change upon challenge) will be blunted even though their _resting_ state appears overactive. The CureME biobank finding that ME/CFS showed reduced anellovirus but normal herpesvirus seroprevalence would be consistent: herpesvirus control requires adaptive immunity (which may be impaired), while anellovirus clearance relies on innate mechanisms that are constitutively overactive.
+
+*Falsification:* ME/CFS immune cells show normal or reduced baseline metabolic activity (not elevated), and anellovirus depletion is not replicated in independent cohorts.
+] <spec:anellovirus-hyperimmune>
 
 == Autoimmunity in ME/CFS
 <sec:autoimmunity>
@@ -1750,6 +1901,42 @@ This sequence represents one plausible ordering of events; many steps may occur 
 
 This model provides multiple potential therapeutic targets: antiviral agents for persistent infection, immunomodulators for autoimmunity, mast cell stabilizers for those with MCAS, and anti-inflammatory approaches for cytokine-mediated symptoms. The recognition of sex-specific immune patterns may eventually enable personalized treatment selection.
 
+#open-question(title: [The Paradox of Invisible Immunity])[
+
+The integrated model above presents a coherent narrative, but it must be reconciled with a striking pattern of null results from well-powered studies. Comprehensive viral screening (Lipkin: 391 patients, no pathogen differences; Davis/Stanford: 185 viruses in severe patients, more viruses in _controls_), broad autoantibody profiling (Germain 2025: 7,542 interactions, complete null @Germain2025autoantibody), cytokine meta-analysis (Corbitt 2019: "of 64 cytokines, none differ consistently" @Corbitt2019), and multi-site NK assessment (MCAM: $p = 0.79$ @Querec2023MCAM) have all failed to find systemic immune signatures proportionate to the severity of disability.
+
+This generates a fundamental puzzle: _what immune mechanism is potent enough to cause extreme disability yet leaves no measurable trace in blood, saliva, or stool?_
+
+Three frameworks can account for this paradox:
+
+    - *Compartmentalised immunity:* The pathology resides in tissues that blood sampling cannot access---gut mucosa, dorsal root ganglia, brain parenchyma, lymph node microenvironments. Peluso et al.\ (2024) demonstrated SARS-CoV-2 viral persistence in gut tissue biopsies of Long COVID patients with no detectable virus in blood, proving this is biologically possible. Blood-based studies may be systematically missing the relevant compartment.
+
+    - *The exhaustion interpretation:* Hornig et al.\ documented that cytokine elevations occur in early ME/CFS ($<$3 years) but normalise in chronic disease @Hornig2015. By the time patients enter research studies (often after years of illness), the inflammatory fire has burned out. The null results in chronic cohorts may accurately reflect late-stage immunology while missing the critical early window.
+
+    - *Post-immune damage:* The immune trigger was transient but caused permanent downstream damage---metabolic reprogramming, epigenetic changes, structural neurological alterations---that persists independently of ongoing immune activity. In this framework, the immune system is now _genuinely normal_, and the null results are correct; the damage is done and self-sustaining through non-immune mechanisms.
+
+These frameworks make different predictions. Compartmentalised immunity predicts tissue biopsy abnormalities with normal blood values. Exhaustion predicts that early-onset patients ($<$3 years) will show blood abnormalities that chronic patients lack. Post-immune damage predicts that even early-onset patients will show normal blood immunity if studied _after_ the acute trigger resolves, but will show metabolic or structural changes detectable by non-immune assays. Distinguishing among these is among the highest priorities in ME/CFS research.
+] <oq:invisible-immunity>
+
+#speculation(title: [The Cellular Fog: Normal Army, Broken Soldiers])[
+
+*Certainty: 0.35.* Integrative framework consistent with the overall pattern of null blood-level results alongside positive functional results. Not directly tested as a unified hypothesis.
+
+The pattern of immune findings in ME/CFS is not one of immune activation or immune suppression---it is one of immune cell _incompetence_. Individual immune cells are structurally present in normal numbers and proportions but functionally impaired at the level of intracellular machinery:
+
+    - *NK cells*: Normal counts, impaired cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKmeta)
+    - *T cells*: Normal proportions, reduced glycolysis and metabolic dysfunction @Mandarano2020
+    - *B cells*: Normal counts, skewed repertoire without adaptive signatures @Ryback2025BCR
+    - *Cytokines*: Normal circulating levels, but individual cells may fail to produce appropriate bursts upon stimulation
+    - *Autoantibodies*: Not detectable by broad screening @Germain2025autoantibody, yet functional assays and treatment responses suggest pathology
+
+This framework---"normal army, broken soldiers"---predicts that _functional_ assays (cytotoxicity, proliferation upon stimulation, class switching capacity, metabolic flux) will consistently show abnormalities even when _phenotypic_ assays (cell counts, surface markers, resting cytokine levels) are normal. The TRPM3 calcium channel dysfunction (Section @sec:trpm3-dysfunction) provides a concrete molecular mechanism: if calcium signalling is globally impaired in immune cells, every downstream function---degranulation, proliferation, cytokine burst, metabolic activation---is compromised. The cell is present but cannot execute its programs.
+
+*Therapeutic implication:* If verified, this framework redirects therapeutic strategy from immunosuppression (which has consistently failed: anakinra, rituximab in the RCT) toward _immune cell repair_---restoring intracellular signalling capacity (TRPM3 modulators), metabolic rescue (CoQ10, NAD+ precursors), and mitochondrial support rather than dampening immune output that is already inadequate.
+
+*Falsification:* The framework would be falsified if large studies using standardised _functional_ assays (not just phenotypic counts) consistently find normal immune cell function in ME/CFS, or if a systemic circulating signal (cytokine, autoantibody, pathogen) is identified that fully explains the disability.
+] <spec:cellular-fog>
+
 == Emerging Research Directions in Immune Dysregulation
 <sec:immune-research-directions>
 
@@ -2145,41 +2332,41 @@ Observational + mechanistic studies: 18–24 months; statin pilot: 12–18 month
 
 
 
-caption: [Prioritized research directions for severe ME/CFS],
-<tab:research-priorities>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2cm}p{2cm}p{2cm}p{2.5cm}}
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columnsp{2cm}p{2cm}p{2cm}p{2.5cm}}
 
-[*Research Direction*], [*Severe Case Benefit*], [*Timeline to Results*], [*Feasibility*], [*Priority Rank*],
+    [*Research Direction*], [*Severe Case Benefit*], [*Timeline to Results*], [*Feasibility*], [*Priority Rank*],
 
-table.cell(colspan: 5)[*TIER 1: Immediate Translation (Existing Drugs)*],
+    table.cell(colspan: 5)[*TIER 1: Immediate Translation (Existing Drugs)*],
 
-[Hormonal modulation (post-menopausal women)], [High (15–20% of severe)], [12–24 mo], [Very High], [*1*],
+    [Hormonal modulation (post-menopausal women)], [High (15–20% of severe)], [12–24 mo], [Very High], [*1*],
 
-[Low-dose IL-2 (Treg restoration)], [High (all with autoimmunity)], [18–24 mo], [High], [*2*],
+    [Low-dose IL-2 (Treg restoration)], [High (all with autoimmunity)], [18–24 mo], [High], [*2*],
 
-[EV depletion (immunoadsorption)], [Very High (80–90% with cognitive)], [12–18 mo], [High], [*3*],
+    [EV depletion (immunoadsorption)], [Very High (80–90% with cognitive)], [12–18 mo], [High], [*3*],
 
-[Phase-targeted anti-cytokine (early)], [Very High (disease-modifying)], [24–36 mo], [Moderate], [*4*],
+    [Phase-targeted anti-cytokine (early)], [Very High (disease-modifying)], [24–36 mo], [Moderate], [*4*],
 
-table.cell(colspan: 5)[*TIER 2: Near-Term Trials (Moderate Complexity)*],
+    table.cell(colspan: 5)[*TIER 2: Near-Term Trials (Moderate Complexity)*],
 
-[TRPM3 modulation], [Very High (all severe cases)], [36–48 mo], [Moderate], [*5*],
+    [TRPM3 modulation], [Very High (all severe cases)], [36–48 mo], [Moderate], [*5*],
 
-[Microbiome normalization], [High (60–70% with GI)], [24–36 mo], [High], [*6*],
+    [Microbiome normalization], [High (60–70% with GI)], [24–36 mo], [High], [*6*],
 
-[Stratified biomarker trials], [Very High (precision medicine)], [48 mo], [Moderate], [*7*],
+    [Stratified biomarker trials], [Very High (precision medicine)], [48 mo], [Moderate], [*7*],
 
-table.cell(colspan: 5)[*TIER 3: Long-Term Research (Foundational)*],
+    table.cell(colspan: 5)[*TIER 3: Long-Term Research (Foundational)*],
 
-[Longitudinal cohort (onset to exhaustion)], [High (prevents severe cases)], [72–84 mo], [Low], [*8*],
+    [Longitudinal cohort (onset to exhaustion)], [High (prevents severe cases)], [72–84 mo], [Low], [*8*],
 
-[IL-2 resistance mechanistic studies], [Moderate (guides therapy)], [36–48 mo], [High], [*9*],
+    [IL-2 resistance mechanistic studies], [Moderate (guides therapy)], [36–48 mo], [High], [*9*],
 
-[CCL11 neutralization], [High (cognitive-dominant)], [60–84 mo], [Low], [*10*],
-
-)
+    [CCL11 neutralization], [High (cognitive-dominant)], [60–84 mo], [Low], [*10*],
+  ),
+  caption: [Prioritized research directions for severe ME/CFS],
+) <tab:research-priorities>
 
 
 *Recommended Immediate Actions*

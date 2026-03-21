@@ -31,18 +31,83 @@ ordered within domains from highest to lowest certainty.
   / *P*: Prediction — specific, directional; directly falsifiable.
   / *OQ*: Open Question — framed as unresolved; testability implied.
 
-// TODO: This large hypothesis registry table needs manual conversion from LaTeX tabular format
-// The original uses & column separators and LaTeX column specs
-// Commenting out broken table until proper conversion
+// TODO: Full table conversion from LaTeX format pending.
+// The commented-out block below (lines 42–1239) contains all entries in broken mixed format.
+// New entries (2026-03-21) are added as working Typst below.
+// Last updated: 2026-03-21 (56 entries across all domains)
+
 #block(fill: luma(240), inset: 8pt, radius: 4pt)[
-  _Hypothesis registry table (48 entries) — pending conversion from LaTeX tabular format._
+  _Full registry table (48 legacy entries) — pending conversion from mixed LaTeX format; see commented block below. The 8 entries added 2026-03-21 appear in the working table that follows._
 ]
+
+=== Entries Added 2026-03-21: Immune Null Findings and Creative Hypotheses
+
+Motivated by: mecfsscience.org comprehensive immune review; six independent literature research streams.
+
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [TGF-$beta$ as Unifying Explanation for Two Most Replicated Immune Findings],
+    [H], [0.40],
+    [TGF-$beta$ elevation suppresses NK cytotoxicity via Smad/perforin-granzyme repression, mTOR inhibition, and receptor downregulation. (a) TGF-$beta$ and NK cytotoxicity correlate within ME/CFS cohorts. (b) In vitro TGF-$beta$ neutralisation rescues NK function. (c) TGF-$beta$ elevation is not entirely centrifugation artifact.],
+    [Co-measurement study (TGF-$beta$ + NK cytotoxicity in same cohort) — never done. In vitro neutralisation assay feasible. Roerink 2018 artifact concern unresolved.],
+    [Ch.7 @sec:tgf-beta],
+
+    [The Cellular Fog: Normal Army, Broken Soldiers],
+    [S], [0.35],
+    [ME/CFS is immune cell _incompetence_ — cells present in normal numbers but functionally impaired at intracellular level. Functional assays (cytotoxicity, proliferation) abnormal while phenotypic assays (counts, markers) normal. TRPM3 provides molecular mechanism.],
+    [Systematic comparison of functional vs phenotypic immune assays across cohorts. TRPM3 modulation studies. Pattern consistent with existing data but not formally tested as unified framework.],
+    [Ch.7 @sec:immune-summary],
+
+    [The TGF-$beta$ Lock: Epigenetic Hit-and-Run],
+    [S], [0.30],
+    [Transient TGF-$beta$ during initial infection causes persistent epigenetic remodeling at IRF/T-bet/EOMES loci in NK cells. Dysfunction persists after TGF-$beta$ normalises. (a) NK cell ATAC-seq shows TGF-$beta$-characteristic chromatin marks in patients with normal current TGF-$beta$.],
+    [ATAC-seq/ChIP-seq on ME/CFS NK cells — feasible but not yet done. 2026 bioRxiv preprint (not peer-reviewed) establishes mechanism in vitro.],
+    [Ch.7 @sec:tgf-beta],
+
+    [Abortive B Cell Activation: Energy Starvation Stalls Germinal Centre Entry],
+    [S], [0.25],
+    [IGHV3-30 B cells receive activation signals but cannot complete germinal centre response due to metabolic deficit or absent T cell help. Explains skewing without SHM or class switching. (a) Metabolic supplementation restores class switching in vitro. (b) Severity-dependent loss as stalled B cells die.],
+    [In vitro metabolic rescue of B cell function. Anti-CD40 + IL-21 rescue experiments. IGHV3-30 replicated by 3 groups (Sato 2021, Lipkin 2020, Ryback 2025).],
+    [Ch.7 @sec:ighv3-30],
+
+    [Constitutive Immune Activation Without Secretory Output],
+    [S], [0.20],
+    [Anellovirus depletion ($p < 0.001$, Lipkin) suggests constitutive low-level immune activation clearing harmless viruses. "Idle engine at high RPM" — intracellular activation without cytokine secretion. (a) ME/CFS immune cells show elevated baseline metabolic activity. (b) Stimulation fold-change blunted.],
+    [Baseline metabolic profiling (Seahorse) of unstimulated ME/CFS immune cells. Anellovirus replication in independent cohort.],
+    [Ch.7 (viral)],
+
+    [The Immune Diaspora: Displaced Tissue-Resident Cells],
+    [S], [0.20],
+    [MAIT cell blood elevation reflects displacement from mucosal niches. Multiple tissue-resident immune types may be dislocated. Blood studies miss pathology because they sample displaced, non-functioning cells. (a) Gut biopsies show depleted MAIT cells inversely correlated with blood MAIT.],
+    [Paired tissue biopsy + blood sampling for MAIT and other tissue-resident populations. CureME biobank finding (AUC 0.756 for severe) not yet replicated.],
+    [Ch.7 @sec:immune-activation],
+
+    [The Paradox of Invisible Immunity],
+    [OQ], [---],
+    [What immune mechanism causes extreme disability yet leaves no systemic trace? Three frameworks: compartmentalised immunity (tissue-level), exhaustion (early elevation normalises), post-immune damage (trigger transient, damage self-sustaining).],
+    [Tissue biopsies vs blood in same patients. Early-onset ($<$3 yr) vs chronic cohort comparison. Non-immune metabolic assays in parallel.],
+    [Ch.7 @sec:immune-summary],
+
+    [The Immune System as Canary: Is Immunity Cause or Consequence?],
+    [OQ], [---],
+    [Alternative: immune findings are downstream of metabolic/neurological disease. Immune cells impaired because _all_ cells impaired. (a) Non-immune cells (fibroblasts) show same metabolic dysfunction. (b) Metabolic interventions improve both immune function and symptoms simultaneously.],
+    [Fibroblast/epithelial cell metabolic profiling. RESETME trial: sustained remission favours immune causality; transient benefit favours canary model.],
+    [Ch.13],
+  ),
+  kind: table, supplement: [Table], caption: [New hypothesis registry entries added 2026-03-21, motivated by mecfsscience.org immune review and creative brainstorming session.],
+) <tab:hypothesis-registry-2026-03-21>
 
 /*
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
 
-caption: [Cross-document hypothesis and open question registry (48 key entries).
+caption: [Cross-document hypothesis and open question registry (56 key entries).
   “Cert.” = certainty on the 0–1 scale used throughout the document;
   “inf.” = inferred from context language.
   <tab:hypothesis-registry>], 
@@ -654,6 +719,62 @@ continuous HR/BP monitoring; orthostatic tolerance testing pre/post meals.
 Standard equipment; feasible in outpatient or home setting.
 &
 Ch.17 @sec:food-sensitivities-wheat \
+
+Oral Microbiome as Inflammatory Reservoir
+(@oq:oral-microbiome)
+&
+[OQ], [---],
+&
+(a) Is periodontal disease prevalence elevated in ME/CFS vs.\ matched controls?
+(b) Does oral microbiome composition differ in ME/CFS and correlate with systemic
+inflammatory markers?
+(c) Does periodontal treatment reduce CRP/IL-6 or improve symptoms?
+(d) Severity gradient: do more severe patients show worse periodontal status?
+&
+Cross-sectional periodontal assessment (pocket depth, attachment loss, BOP)
++ oral 16S rRNA sequencing + systemic CRP/IL-6 in ME/CFS cohort vs.\ controls.
+Interventional arm: periodontal SRP with 3--6 month inflammatory marker follow-up.
+Standard periodontal methods; requires dental collaboration.
+&
+Ch.11 @sec:oral-microbiome \
+
+Oral Dysbiosis--Disability Vicious Cycle
+(@spec:oral-dysbiosis-cycle)
+&
+[S], [0.30],
+&
+(a) ME/CFS symptom severity correlates with periodontal disease markers after
+controlling for age, smoking, diabetes.
+(b) Assisted oral hygiene in severe patients reduces systemic CRP/IL-6 within 3--6 months.
+(c) Periodontal treatment produces greater symptom improvement in ME/CFS patients
+with comorbid periodontitis than those without.
+&
+Severity-stratified cross-sectional with periodontal assessment; oral hygiene
+intervention trial in severe/very-severe patients (caregiver-delivered); pre/post
+inflammatory markers.
+Feasible but requires domiciliary dental services for severe patients.
+&
+Ch.11 @sec:oral-microbiome \
+
+_P.\ gingivalis_--Autoimmunity Bridge
+(@spec:oral-autoimmunity)
+&
+[S], [0.20],
+&
+(a) ME/CFS patients with GPCR autoantibodies show higher _P.\ gingivalis_
+colonisation than autoantibody-negative patients.
+(b) _P.\ gingivalis_ DNA/gingipains detectable in ME/CFS CSF at rates exceeding
+healthy controls.
+(c) Periodontal treatment in _P.\ gingivalis_-positive ME/CFS patients reduces GPCR
+autoantibody titres over 6--12 months.
+(d) Monocytes from periodontitis-positive ME/CFS patients show trained immunity
+epigenetic signatures.
+&
+Oral _P.\ gingivalis_ PCR + serum GPCR autoantibody panel in cross-sectional cohort;
+CSF gingipain assay in subset; monocyte stimulation assay with epigenetic profiling.
+Requires specialised immunology and periodontal labs; CSF collection limits feasibility.
+&
+Ch.14 @sec:oral-autoimmunity-bridge \
 
 %% ============================================================
 %% DOMAIN 6 – GENETICS / EPIGENETICS

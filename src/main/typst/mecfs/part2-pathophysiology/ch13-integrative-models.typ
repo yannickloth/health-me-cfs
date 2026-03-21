@@ -37,7 +37,7 @@ Before presenting hypotheses, we define our evidence classification system. This
   [*Speculative*], [Creative hypothesis without direct supporting data], [May inspire research but should not guide treatment decisions],
   
   ),
-  caption: [Evidence Level Definitions],
+  kind: table, supplement: [Table], caption: [Evidence Level Definitions],
 ) <tab:evidence-levels>
 
 
@@ -651,7 +651,7 @@ $arrow.b$
   [Psychosocial stress], [HPA axis activation recruits endocrine dysfunction], [Endocrine], [C],
   
   ),
-  caption: [Hypothesized Triggers for Cycle Recruitment],
+  kind: table, supplement: [Table], caption: [Hypothesized Triggers for Cycle Recruitment],
 ) <tab:recruitment-triggers>
 
 
@@ -1207,7 +1207,7 @@ Long COVID at 6–18 months post-infection represents early-stage ME/CFS (Stage 
   [Treatment response (hypothesized)], [High potential], [Moderate potential], [Variable, often limited],
   
   ),
-  caption: [Cycle Stage Comparison: Long COVID vs.\ Established ME/CFS (Hypothesized)],
+  kind: table, supplement: [Table], caption: [Cycle Stage Comparison: Long COVID vs.\ Established ME/CFS (Hypothesized)],
 ) <tab:long-covid-stages>
 
 
@@ -1273,10 +1273,24 @@ ME/CFS patients report higher rates of allergies, asthma, eczema, and food sensi
 
 The mechanistic link remains unclear. Does immune dysregulation in ME/CFS predispose to atopy? Do allergic conditions trigger ME/CFS in susceptible individuals? Or does mast cell dysfunction underlie both? Current evidence cannot distinguish these possibilities, but the clinical association suggests immune system involvement extends beyond specific autoimmunity or viral responses to broader dysregulation affecting multiple pathways.
 
+#open-question(title: [The Immune System as Canary: Is Immunity Cause or Consequence?])[
+
+The integrative models above assume immune dysfunction drives ME/CFS pathophysiology---either as the initiating event or as a central node in self-reinforcing cycles. But the accumulating null results from well-powered immune studies (Section @oq:invisible-immunity in Chapter @ch:immune-dysfunction) raise a provocative alternative: _what if the immune findings are downstream consequences of a primarily metabolic or neurological disease?_
+
+If infection triggers ME/CFS through non-immune mechanisms---direct mitochondrial damage (WASF3-mediated supercomplex disruption, Chapter @ch:energy-metabolism), autonomic reprogramming (Chapter @ch:cardiovascular), or epigenetic changes to metabolic genes (Chapter @ch:genetics-epigenetics)---then immune cells would be impaired because _all cells_ in the body are impaired. Immune cells are simply the easiest to measure in blood. The immune system would be a canary in the coal mine, not the coal mine itself.
+
+This reframing makes specific predictions that differ from the immune-causal model:
+
+    - *If immune-causal:* Immunomodulatory treatments (daratumumab, immunoadsorption) should produce sustained improvement, and non-immune cells (fibroblasts, epithelial cells) should be metabolically normal
+    - *If immune-consequential:* Immunomodulatory treatments may produce temporary improvement (removing a downstream amplifier) but not sustained remission; non-immune cells should show the _same_ metabolic dysfunction as immune cells; and metabolic interventions (targeting mitochondria directly) should improve both immune function and clinical symptoms simultaneously
+
+The Heng 2025 systems-level data @heng2025mecfs may help resolve this: if immune markers and metabolic markers are _independently_ abnormal (after controlling for each other), the immune contribution is likely causal. If immune abnormalities are fully explained by metabolic dysfunction, the canary interpretation gains ground. Similarly, the ongoing RESETME daratumumab trial will be informative: sustained remission after plasma cell depletion would strongly favour immune causality, while transient benefit followed by relapse would be consistent with removing a downstream amplifier while the upstream metabolic driver persists.
+] <oq:immune-canary>
+
 == Systems Biology Approaches
 <sec:systems-biology>
 
-ME/CFS complexity—multi-system involvement, heterogeneous presentations, treatment resistance—suggests that reductionist approaches (studying individual pathways in isolation) may miss critical emergent properties. Systems biology offers complementary methods for understanding how multiple abnormalities interact to produce the disease state.
+ME/CFS complexity---multi-system involvement, heterogeneous presentations, treatment resistance---suggests that reductionist approaches (studying individual pathways in isolation) may miss critical emergent properties. Systems biology offers complementary methods for understanding how multiple abnormalities interact to produce the disease state.
 
 === Multi-Omics Integration
 
@@ -1428,7 +1442,7 @@ Building on the dynamical systems and critical transition frameworks, a comprehe
   [Neural sensitization], [Continuous variable], [Central sensitization threshold],
   
   ),
-  caption: [Proposed Computational Model Components],
+  kind: table, supplement: [Table], caption: [Proposed Computational Model Components],
 ) <tab:model-components>
 
 
@@ -1538,7 +1552,7 @@ The vicious cycle framework suggests genetic variants in cycle-relevant pathways
   [Autonomic function], [ADRB2], [Autonomic cycle susceptibility],
   
   ),
-  caption: [Genetic Variants Potentially Affecting Cycle Dynamics],
+  kind: table, supplement: [Table], caption: [Genetic Variants Potentially Affecting Cycle Dynamics],
 ) <tab:genetic-cycle-modifiers>
 
 
@@ -1597,7 +1611,7 @@ The pediatric–adult recovery comparison is confounded by: (1) *disease duratio
   [Cumulative exposures], [Fewer prior infections, toxins], [More cumulative cellular damage], [Not recreatable],
   
   ),
-  caption: [Candidate Pediatric Protection Mechanisms and Adult Recreation Strategies (Hypothesized)],
+  kind: table, supplement: [Table], caption: [Candidate Pediatric Protection Mechanisms and Adult Recreation Strategies (Hypothesized)],
 ) <tab:pediatric-protection>
 
 

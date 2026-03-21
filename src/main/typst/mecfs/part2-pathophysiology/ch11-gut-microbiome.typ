@@ -459,21 +459,21 @@ Different bacterial populations produce different gases, leading to distinct cli
 
 
 
-caption: [SIBO Subtypes and Clinical Presentations],
-<tab:sibo-subtypes>
-#table(
-  columns: (auto, auto, auto, auto),
-  // TODO: fix columnsllll@}
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    // TODO: fix columnsllll@}
 
-[*Subtype*], [*Gas Produced*], [*Predominant Symptoms*], [*Treatment Focus*],
+    [*Subtype*], [*Gas Produced*], [*Predominant Symptoms*], [*Treatment Focus*],
 
-[Hydrogen-dominant], [H#sub[2]], [Diarrhea], [Rifaximin],
+    [Hydrogen-dominant], [H#sub[2]], [Diarrhea], [Rifaximin],
 
-[Methane (IMO)], [CH#sub[4]], [Constipation], [Rifaximin + neomycin],
+    [Methane (IMO)], [CH#sub[4]], [Constipation], [Rifaximin + neomycin],
 
-[Hydrogen sulfide (ISO)], [H#sub[2]S], [Diarrhea, gas, odor], [Bismuth, targeted antibiotics],
-
-)
+    [Hydrogen sulfide (ISO)], [H#sub[2]S], [Diarrhea, gas, odor], [Bismuth, targeted antibiotics],
+  ),
+  caption: [SIBO Subtypes and Clinical Presentations],
+) <tab:sibo-subtypes>
 
 
 {IMO = Intestinal Methanogen Overgrowth; ISO = Intestinal Sulfide Overproduction.}
@@ -826,3 +826,57 @@ This framework suggests that cognitive symptoms in ME/CFS may be partially addre
 
 *Certainty:* 0.40. This is a speculative integrative hypothesis synthesizing established individual findings into a novel mechanistic framework. Direct validation through the testable predictions above is needed before clinical application.
 ] <spec:gut-brain-energy-theft>
+
+=== The Oral Microbiome: An Underexplored Compartment
+<sec:oral-microbiome>
+
+ME/CFS microbiome research has focused almost exclusively on the intestinal tract. The oral microbiome---a distinct ecological niche harboring over 700 bacterial species---remains virtually unstudied in ME/CFS, despite well-established evidence that oral dysbiosis drives systemic inflammation in other conditions @Hasan2025periodontal @Hajishengallis2021periodontal.
+
+Periodontitis affects approximately 47% of U.S.\ adults @Hasan2025periodontal. The disease provides a chronic portal for bacterial entry into the bloodstream: periodontal pathogens such as _Porphyromonas gingivalis_ and _Aggregatibacter actinomycetemcomitans_ disseminate via ulcerated pocket epithelium, triggering systemic elevations in CRP, IL-6, TNF-α, and IL-1β---the same inflammatory mediators consistently elevated in ME/CFS (Chapter @ch:immune-dysfunction) @Hasan2025periodontal @Hajishengallis2015periodontal. Notably, _P.\ gingivalis_ functions as a "keystone pathogen," manipulating complement and TLR crosstalk to disable immune clearance while sustaining inflammation @Hajishengallis2015periodontal\---a strategy that could compound the immune dysregulation already present in ME/CFS.
+
+Three pathways make the oral-systemic connection potentially relevant to ME/CFS:
+
+    - *Endothelial dysfunction*: Periodontal bacteremia promotes atherosclerotic plaque formation and impairs endothelial function @Hasan2025periodontal @Tattar2025periodontal, overlapping with the vascular dysfunction documented in ME/CFS (Chapter @ch:cardiovascular).
+    - *Neuroinflammation*: _P.\ gingivalis_ gingipains cross the blood-brain barrier, promote amyloid-β accumulation, and drive microglial activation @Dominy2019gingipains. These mechanisms parallel the neuroinflammation documented in ME/CFS (Chapter @ch:neurological).
+    - *Autoimmunity via citrullination*: _P.\ gingivalis_ citrullinates host peptides, generating neoantigens that trigger autoimmune responses---the established "two-hit" model for rheumatoid arthritis @Hasan2025periodontal. Whether citrullination could contribute to the GPCR autoantibodies observed in ME/CFS (Section @sec:cardiac-function) is unknown but mechanistically plausible.
+
+#open-question(title: [Is the Oral Microbiome an Overlooked Inflammatory Reservoir in ME/CFS?])[
+No study has assessed periodontal disease prevalence, oral microbiome composition, or oral-origin systemic inflammatory burden in ME/CFS patients. Several factors suggest this gap deserves attention:
+
+    - Severe ME/CFS patients report inability to maintain oral hygiene (teeth brushing described as exhausting; Section @sec:severe-reality), creating conditions favourable for periodontal disease progression.
+    - The resulting chronic low-grade bacteremia would add to the systemic inflammatory load from intestinal barrier dysfunction (Section @sec:leaky-gut), potentially compounding the "inflammation tax" described in Speculation @spec:gut-brain-energy-theft.
+    - Periodontal treatment is a modifiable intervention: scaling and root planing reduces systemic CRP and IL-6 @Tattar2025periodontal, and could theoretically reduce inflammatory burden in ME/CFS without pharmacological intervention.
+
+Key research questions:
+
+    - Is periodontal disease prevalence elevated in ME/CFS compared to age/sex-matched controls?
+    - Does oral microbiome composition differ in ME/CFS, and does it correlate with systemic inflammatory markers?
+    - Does periodontal treatment reduce systemic inflammatory markers or improve symptoms in ME/CFS patients?
+    - Is there a severity gradient, with more severe patients (who have greater self-care limitations) showing worse periodontal status and higher oral-origin inflammatory burden?
+] <oq:oral-microbiome>
+
+#speculation(title: [The Oral Dysbiosis--Disability Vicious Cycle])[
+In severe ME/CFS, a self-reinforcing cycle may operate between disability and oral health deterioration:
+
+    + Severe fatigue and post-exertional malaise limit capacity for dental hygiene (teeth brushing, flossing, dental visits)
+    + Neglected oral hygiene permits periodontal disease development and progression
+    + Periodontal disease establishes chronic bacteremia and systemic inflammation (elevated TNF-α, IL-1β, IL-6, CRP) @Hasan2025periodontal @Hajishengallis2021periodontal
+    + Additional inflammatory burden worsens ME/CFS symptoms (fatigue, cognitive dysfunction, immune activation)
+    + Worsened symptoms further reduce self-care capacity, completing the cycle
+
+This cycle is notable because it is *entirely modifiable* through external intervention: caregiver-assisted oral hygiene, domiciliary dental services, or professional dental care adapted for energy-limited patients. If the cycle contributes meaningfully to symptom burden, periodontal management represents a low-risk, non-pharmacological intervention that could reduce systemic inflammation.
+
+*Testable predictions:*
+
+    - ME/CFS symptom severity should correlate with periodontal disease markers (pocket depth, attachment loss, bleeding on probing) after controlling for age, smoking, and diabetes.
+    - Implementation of assisted oral hygiene protocols in severe ME/CFS patients should reduce systemic CRP and IL-6 within 3--6 months.
+    - Periodontal treatment in ME/CFS patients with comorbid periodontitis should produce greater symptom improvement than in ME/CFS patients without periodontitis.
+
+*Limitations:*
+
+    - The cycle is hypothesised by analogy from periodontitis research in other chronic conditions; no ME/CFS-specific data exist.
+    - The inflammatory contribution from oral sources may be quantitatively trivial compared to gut-derived endotoxemia and other inflammatory sources in ME/CFS.
+    - Dental procedures themselves can trigger PEM in severe patients, complicating the intervention.
+
+*Certainty:* 0.30. The individual links (disability → poor oral hygiene; periodontal disease → systemic inflammation) are well-established, but the complete cycle and its clinical significance in ME/CFS are entirely speculative.
+] <spec:oral-dysbiosis-cycle>
