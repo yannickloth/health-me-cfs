@@ -25,6 +25,14 @@
 // Shows the most recent level-1 or level-2 heading that has numbering (i.e., a
 // real chapter or section, not a Part heading or front-matter heading).
 #let _page-header = context {
+  // Suppress header on pages where a chapter (level-1 heading) starts,
+  // mirroring LaTeX's \thispagestyle{plain} on \chapter pages.
+  let here-page = here().page()
+  let ch-on-page = query(heading.where(level: 1)).filter(h =>
+    h.location().page() == here-page
+  )
+  if ch-on-page.len() > 0 { return }
+
   let headings = query(selector(heading).before(here()))
   // Only show numbered headings (excludes front-matter unnumbered chapters)
   let numbered = headings.filter(h => h.numbering != none)
