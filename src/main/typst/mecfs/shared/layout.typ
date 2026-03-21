@@ -52,7 +52,7 @@
 }
 
 // ── Apply function: call once from main file ──────────────────────────────────
-#let apply-page-layout() = {
+#let apply-page-layout(body) = {
   set page(
     paper:  "a4",
     margin: page-margins,
@@ -60,4 +60,5 @@
     footer: _page-footer,
     numbering: "1",
   )
+  body
 }

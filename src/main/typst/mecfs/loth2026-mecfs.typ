@@ -58,22 +58,22 @@
 #set enum(spacing: list-item-spacing)
 
 // Page layout (margins, header, footer)
-#apply-page-layout()
+#show: apply-page-layout
 
 // Heading styles (font, size, weight per level)
-#apply-heading-styles()
+#show: apply-heading-styles
 
 // Caption and table header styles
-#apply-caption-styles()
+#show: apply-caption-styles
 
 // Table styles (booktabs strokes, caption size)
-#apply-table-styles()
+#show: apply-table-styles
 
 // Link colour (viridis blue)
 #show link: it => text(fill: color.viridis-blue, it)
 
 // Per-chapter counter resets for environments
-#apply-counter-resets()
+#show: apply-counter-resets
 
 // Heading numbering: arabic at all levels (mirrors \arabic{chapter})
 #set heading(numbering: "1.1.1.1")

@@ -40,7 +40,7 @@
 // ── Heading show rules ────────────────────────────────────────────────────────
 // Exported as a function so the main file can call apply-heading-styles()
 // after #set text(...) is in effect.
-#let apply-heading-styles() = {
+#let apply-heading-styles(body) = {
   // Level 1 (chapters): pagebreak + sans + large
   show heading.where(level: 1): it => {
     pagebreak(weak: true)
@@ -90,10 +90,12 @@
       ]
     )
   }
+  body
 }
 
 // ── Caption and table header show rules ───────────────────────────────────────
-#let apply-caption-styles() = {
+#let apply-caption-styles(body) = {
   show figure.caption: it => text(size: size-caption, style: "normal", it)
   show table.header: strong
+  body
 }

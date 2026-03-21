@@ -124,7 +124,7 @@
 #let _cnt-modelinsight  = counter("model_insight")
 
 // Reset all counters when a new chapter (level-1 heading) begins.
-#let apply-counter-resets() = {
+#let apply-counter-resets(body) = {
   // Prevent custom-kind figures from floating (environments stay inline)
   show figure.where(kind: "achievement"): set figure(placement: none)
   show figure.where(kind: "prediction"): set figure(placement: none)
@@ -177,6 +177,7 @@
     _cnt-modelinsight.update(0)
     it
   }
+  body
 }
 
 // Helper: bump counter and return display string "chapter.n"

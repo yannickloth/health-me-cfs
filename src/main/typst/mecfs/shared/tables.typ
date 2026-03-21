@@ -42,13 +42,14 @@
 // ── Table caption style ────────────────────────────────────────────────────────
 // Mirrors \caption{} small text below/above tables.
 // Apply globally in the main file via apply-table-styles().
-#let apply-table-styles() = {
+#let apply-table-styles(body) = {
   set table(
     inset: table-inset,
   )
   set figure.caption(separator: ". ")
   show figure.caption: it => text(size: 9pt, it)
   show table.header: strong
+  body
 }
 
 // ── Column type helpers (mirrors tabularx X column) ───────────────────────────
