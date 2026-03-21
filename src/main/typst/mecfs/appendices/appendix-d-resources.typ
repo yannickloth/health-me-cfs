@@ -469,6 +469,19 @@ ME/CFS advocacy is largely driven by patients themselves, often working with ext
 
 / *Super Pooped*:  ME/CFS awareness through art, crafts, and humor.
 
+=== Science Communication and Research Analysis
+
+These sites go beyond personal blogs to provide systematic, critical analysis of ME/CFS research papers—serving as an accessible bridge between primary literature and the patient community.
+
+[style=nextline]
+/ *ME/CFS Science*:  #link("https://mecfsscience.org/")
+
+Written by two long-term ME/CFS patients (one homebound for over 12 years, the other bedbound in a care home since contracting ME after bacterial pneumonia in 1998). The authors do not have a professional background in academia or medical science but bring careful, skeptical analysis to published research, with particular attention to statistical methodology and study design. They explicitly state no preference for any particular hypothesis or treatment, aiming to evaluate what holds up after closer scrutiny. Notable for detailed annual research reviews (e.g., "2025: looking back on a year of ME/CFS research") and critical examination of high-profile papers. The site demonstrates that rigorous critical thinking about research is not exclusive to credentialed scientists.
+
+/ *Health Rising*:  #link("https://www.healthrising.org/")
+
+Founded by Cort Johnson (see above). While listed under bloggers, Health Rising also functions as a science communication platform, providing detailed analysis of new ME/CFS, fibromyalgia, and Long COVID research papers, often within days of publication.
+
 === Researchers Who Are Patients or Family Members
 
 ==== Ron Davis, PhD
