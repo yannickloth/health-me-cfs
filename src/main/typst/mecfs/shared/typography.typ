@@ -32,7 +32,7 @@
 // ── Spacing rhythm ────────────────────────────────────────────────────────────
 // parskip=half: no first-line indent, 0.5 baseline between paragraphs.
 #let para-leading  = 0.65em   // intra-paragraph line gap
-#let para-spacing  = 0.65em   // inter-paragraph gap (KOMA parskip=half ≈ 0.5\baselineskip)
+#let para-spacing  = 1.0em    // inter-paragraph gap (visible separation between paragraphs)
 
 // List spacing (mirrors enumitem reduced topsep/itemsep)
 #let list-item-spacing = 0.4em
