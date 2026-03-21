@@ -41,10 +41,14 @@
 // Exported as a function so the main file can call apply-heading-styles()
 // after #set text(...) is in effect.
 #let apply-heading-styles(body) = {
-  // Level 1 (chapters): pagebreak + sans + large
+  // Generous spacing for readability.  Chapters get a large top drop
+  // (like a LaTeX \chapter with its ~50pt top skip) and ample room below.
+
+  // Level 1 (chapters): pagebreak + big top drop + generous gap below
   show heading.where(level: 1): it => {
     pagebreak(weak: true)
-    block(above: 2.3em, below: 1.5em,
+    v(50pt)
+    block(below: 36pt,
       text(font: font-heading, size: size-chapter, weight: "bold")[
         #if it.numbering != none {
           counter(heading).display(it.numbering)
@@ -56,7 +60,7 @@
   }
   // Level 2 (sections)
   show heading.where(level: 2): it => {
-    block(above: 1.5em, below: 1em,
+    block(above: 36pt, below: 18pt,
       text(font: font-heading, size: size-section, weight: "bold")[
         #if it.numbering != none {
           counter(heading).display(it.numbering)
@@ -68,7 +72,7 @@
   }
   // Level 3 (subsections)
   show heading.where(level: 3): it => {
-    block(above: 1.3em, below: 0.65em,
+    block(above: 28pt, below: 14pt,
       text(font: font-heading, size: size-subsection, weight: "bold")[
         #if it.numbering != none {
           counter(heading).display(it.numbering)
@@ -80,7 +84,7 @@
   }
   // Level 4 (subsubsections)
   show heading.where(level: 4): it => {
-    block(above: 1.3em, below: 0.45em,
+    block(above: 22pt, below: 10pt,
       text(font: font-heading, size: size-subsubsect, weight: "bold")[
         #if it.numbering != none {
           counter(heading).display(it.numbering)
