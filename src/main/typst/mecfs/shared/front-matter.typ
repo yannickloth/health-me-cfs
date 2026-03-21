@@ -13,6 +13,8 @@
 
 // ── Title page ────────────────────────────────────────────────────────────────
 #let title-page() = {
+  // Title page has no page number (mirrors LaTeX \thispagestyle{empty})
+  set page(numbering: none)
   align(center)[
     #v(3em)
     #text(font: font-heading, size: 24pt, weight: "bold", doc-title)
@@ -23,14 +25,14 @@
     #v(1.5em)
     #text(size: 13pt, doc-author) \
     #v(0.3em)
-    #text(size: 10pt, style: "italic", "Software Architect & Patient-Researcher") \
+    #text(size: 10pt, style: "italic", "Software Architect & Independent Researcher") \
     #text(size: 10pt, "Messancy, Belgium") \
     #link("mailto:" + doc-email, text(size: 10pt, doc-email)) \
     #v(0.3em)
     #text(size: 10pt, "ORCID: ") #link("https://orcid.org/" + doc-orcid, text(size: 10pt, doc-orcid)) \
     #text(size: 10pt, "DOI: ") #link(doc-doi-url, text(size: 10pt, doc-doi))
     #v(1.5em)
-    #text(size: 10pt, datetime.today().display("[day] [month repr:long] [year]"))
+    #text(size: 10pt, doc-date.display("[day] [month repr:long] [year]"))
     #text(size: 10pt, " — Version " + str(doc-version))
   ]
   pagebreak()
@@ -66,5 +68,28 @@
 #let front-chapter(title, body) = {
   heading(level: 1, numbering: none, title)
   body
+  pagebreak()
+}
+
+// ── Part heading ──────────────────────────────────────────────────────────────
+// Mirrors LaTeX \part{...}: separate numbering (Part I, II, ...) that does NOT
+// consume a chapter number.  Renders on its own page with centred title.
+#let _part-counter = counter("document-part")
+
+#let doc-part(title, body) = {
+  _part-counter.step()
+  pagebreak()
+  // No heading element — avoids polluting the running header and chapter counter.
+  // Vertically centred Part title page with intro text below.
+  v(1fr)
+  align(center)[
+    #text(font: font-heading, size: size-body, weight: "regular",
+      context [Part #_part-counter.display("I")])
+    #v(0.8em)
+    #text(font: font-heading, size: 22pt, weight: "bold", title)
+  ]
+  v(1.5em)
+  body
+  v(1fr)
   pagebreak()
 }

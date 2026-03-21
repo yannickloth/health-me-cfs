@@ -336,7 +336,7 @@ Table @tab:amplifiers summarizes the amplifier mechanisms, identifying which cr
 */
 // end landscape
 
-=== NAD\texorpdfstring{#super[+]{+} Depletion Spiral}
+=== NAD#super[+] Depletion Spiral
 <sec:amp-nad>
 
 NAD#super[+] is a central metabolic cofactor required for over 500 enzymatic reactions, including all three segments of the electron transport chain, sirtuin-mediated gene regulation (SIRT1–7), PARP-dependent DNA repair, and CD38-mediated calcium signaling. The total intracellular NAD#super[+] pool turns over multiple times per day, making its synthesis rate a critical determinant of metabolic capacity. In ME/CFS, NAD#super[+] levels are depleted through at least three converging mechanisms (Chapter @ch:energy-metabolism).

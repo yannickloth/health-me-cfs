@@ -9,7 +9,7 @@ A document of this scope—over 400+ pages of medical content spanning pathophys
 == Epistemic Classification
 <sec:meth-epistemic>
 
-Every substantive scientific claim in this document is assigned an explicit epistemic status through structured LaTeX environments. This design choice ensures that readers can immediately distinguish established findings from working theories and speculative ideas, without needing to evaluate each claim from context alone.
+Every substantive scientific claim in this document is assigned an explicit epistemic status through structured environments. This design choice ensures that readers can immediately distinguish established findings from working theories and speculative ideas, without needing to evaluate each claim from context alone.
 
 *Claim environments.*
 The following environments are used consistently throughout the manuscript:
@@ -67,7 +67,7 @@ The manuscript undergoes systematic automated review through a pipeline of speci
 The review system comprises 20 audit categories organized into six phases, ordered from structural checks (fast, mechanical) to deep domain-specific analysis (slow, semantic).
 
 *Phase 1: Structural and mechanical.*
-Catches low-level issues that could cause cascading false positives in later phases. Includes build verification (clean LaTeX compilation with no errors), internal reference validation (broken `@`, `@`, `\<\>` detection), bibliography integrity (duplicate entries, missing fields, orphan references), and structural completeness (empty sections, stub detection, chapter balance).
+Catches low-level issues that could cause cascading false positives in later phases. Includes build verification (clean compilation with no errors), internal reference validation (broken cross-reference detection), bibliography integrity (duplicate entries, missing fields, orphan references), and structural completeness (empty sections, stub detection, chapter balance).
 
 *Phase 2: Terminology and style.*
 Enforces consistency and readability. Includes medical terminology harmonization across all chapters (ensuring consistent usage of terms such as “post-exertional malaise” versus “PEM”), coherence and flow review, and detection of AI-generated writing patterns (excessive lists, mechanical sentence structures, unnatural transitions).

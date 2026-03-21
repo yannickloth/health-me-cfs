@@ -12,3 +12,22 @@
 #let doc-orcid    = "0009-0003-5754-827X"
 #let doc-email    = "yl@infolead.eu"
 #let doc-version  = 5
+
+// Compile date — override via `--input compile-date=YYYY-MM-DD`.
+// Fallback: doc-date-fallback below (update on each release).
+// datetime.today() is unreliable (returns epoch in sandboxed/Nix builds).
+#let doc-date-fallback = datetime(year: 2026, month: 3, day: 21)
+
+#let doc-date = {
+  let raw = sys.inputs.at("compile-date", default: none)
+  if raw != none {
+    let parts = raw.split("-")
+    datetime(
+      year:  int(parts.at(0)),
+      month: int(parts.at(1)),
+      day:   int(parts.at(2)),
+    )
+  } else {
+    doc-date-fallback
+  }
+}

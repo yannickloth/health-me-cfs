@@ -1293,7 +1293,7 @@ The following mechanisms are proposed but not yet confirmed. Where explicitly as
 
     / *Thyroid hormone resistance*: Suboptimal T4$\to$T3 conversion and possible reduced expression of thyroid hormone transporters (MCT8, MCT10), impairing basal metabolic rate and mitochondrial biogenesis (Chapter @ch:endocrine).
 
-Therapeutic interventions targeting these energy deficits—including mitochondrial cofactors, substrates, and biogenesis signals—are discussed in Section @sec:energy-interventions and extensively in Part @part:treatment.
+Therapeutic interventions targeting these energy deficits—including mitochondrial cofactors, substrates, and biogenesis signals—are discussed in Section @sec:energy-interventions and extensively in #link(<part:treatment>)[Part III (Treatment and Management)].
 
 
 

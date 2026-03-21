@@ -1,8 +1,6 @@
-#import "../shared/environments.typ": *
+#import "../shared/front-matter.typ": doc-part
 
-= Research and Evidence Synthesis
-<part:research>
-
+#doc-part([Research and Evidence Synthesis])[
 This part provides comprehensive coverage of ME/CFS research, synthesizing findings from clinical trials, observational studies, and experimental research. For each major study, we provide:
 
 - Study design and methodology
@@ -12,4 +10,4 @@ This part provides comprehensive coverage of ME/CFS research, synthesizing findi
 - How findings connect to other research
 
 This synthesis approach makes the scattered research literature more accessible and actionable.
-
+] <part:research>

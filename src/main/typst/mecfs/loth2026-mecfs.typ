@@ -24,7 +24,7 @@
 #import "shared/layout.typ": apply-page-layout
 #import "shared/environments.typ": apply-counter-resets
 #import "shared/tables.typ": apply-table-styles
-#import "shared/front-matter.typ": title-page, doc-abstract, keywords, front-chapter
+#import "shared/front-matter.typ": title-page, doc-abstract, keywords, front-chapter, doc-part
 
 // =============================================================================
 // GLOBAL STYLE APPLICATION
@@ -87,19 +87,32 @@
 
 #title-page()
 
-// Front-matter chapters — include when .typ files exist:
+// Front-matter chapters — unnumbered (mirrors LaTeX \frontmatter)
+// Each chapter starts on a new page (LaTeX \include semantics = \clearpage + \input).
+#set heading(numbering: none)
+
 #include "shared/abstract.typ"
+#pagebreak()
 #include "shared/version-notice.typ"
+#pagebreak()
 #include "shared/keywords.typ"
+#pagebreak()
 #include "shared/license.typ"
+#pagebreak()
 #include "shared/author-bio.typ"
+#pagebreak()
 #include "shared/ai-disclosure.typ"
+#pagebreak()
 #include "shared/methodology.typ"
+#pagebreak()
 #include "shared/reading-guide.typ"
+#pagebreak()
 #include "shared/patient-faq.typ"
+#pagebreak()
 #include "shared/changelog.typ"
 
 // Table of contents / figures / tables
+#pagebreak()
 #outline(title: "Contents", indent: 2em)
 // #outline(title: "List of Figures", target: figure.where(kind: image))
 // #outline(title: "List of Tables",  target: figure.where(kind: table))
@@ -108,6 +121,8 @@
 // MAIN MATTER  (arabic page numbering, chapter numbering starts at 1)
 // =============================================================================
 
+#set heading(numbering: "1.1.1.1")
+#counter(heading).update(0)
 #set page(numbering: "1")
 #counter(page).update(1)
 

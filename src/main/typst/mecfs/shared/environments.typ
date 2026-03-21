@@ -82,19 +82,21 @@
   // Wrap in figure(kind: ...) so labels placed after the call are referenceable.
   // Show rules in apply-counter-resets() set placement: none to prevent floating.
   figure(
-    block(
-      width:  100%,
-      fill:   bg-color,
-      stroke: stroke-arg,
-      radius: if style == "solid" or style == "double" { 2pt } else { 0pt },
-      inset:  (x: 8pt, y: 6pt),
-      above:  0.8em,
-      below:  0.8em,
-    )[
-      #text(font: font-heading, weight: "bold", size: 10pt, full-title)
-      #v(4pt)
-      #if body-size != auto { text(size: body-size, body) } else { body }
-    ],
+    align(left,
+      block(
+        width:  100%,
+        fill:   bg-color,
+        stroke: stroke-arg,
+        radius: if style == "solid" or style == "double" { 2pt } else { 0pt },
+        inset:  (x: 8pt, y: 6pt),
+        above:  0.8em,
+        below:  0.8em,
+      )[
+        #align(center, text(font: font-heading, weight: "bold", size: 10pt, full-title))
+        #v(4pt)
+        #if body-size != auto { text(size: body-size, body) } else { body }
+      ]
+    ),
     kind: fig-kind,
     supplement: fig-supplement,
     numbering: "1",
@@ -178,10 +180,18 @@
 }
 
 // Helper: bump counter and return display string "chapter.n"
-#let _num(cnt) = context {
+// In front matter (chapter counter = 0), omit the chapter prefix.
+#let _num(cnt) = {
   cnt.step()
-  let ch = counter(heading).get().at(0)
-  str(ch) + "." + str(cnt.get().at(0))
+  context {
+    let ch = counter(heading).get().at(0)
+    let n = cnt.get().at(0)
+    if ch == 0 {
+      str(n)
+    } else {
+      str(ch) + "." + str(n)
+    }
+  }
 }
 
 // =============================================================================

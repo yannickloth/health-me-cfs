@@ -1,8 +1,6 @@
-#import "../shared/environments.typ": *
+#import "../shared/front-matter.typ": doc-part
 
-= Mathematical and Computational Modeling
-<part:modeling>
-
+#doc-part([Mathematical and Computational Modeling])[
 This part presents mathematical and computational models of ME/CFS pathophysiology, including:
 
 - *Biochemical process models*: Detailed mathematical descriptions of energy metabolism, immune function, and other key processes
@@ -12,5 +10,5 @@ This part presents mathematical and computational models of ME/CFS pathophysiolo
 - *Predictive models*: Simulating disease trajectories and treatment responses
 - *Causal hierarchy analysis*: Formal testing of which mechanisms are trigger-capable root causes versus amplifiers versus consequences, using sensitivity analysis, bifurcation theory, and lock removal protocols
 
-These models synthesize biological understanding into quantitative frameworks that can generate testable predictions and guide therapeutic strategies. The part concludes with a capstone analysis (Chapter @ch:causal-hierarchy-formal) that formally tests the causal hierarchy proposed in Part II using the integrated 67-variable ODE model.
-
+These models synthesize biological understanding into quantitative frameworks that can generate testable predictions and guide therapeutic strategies. The part concludes with a capstone analysis (Chapter @ch:causal-hierarchy-formal) that formally tests the causal hierarchy proposed in Part II using the integrated 67-variable ODE model.
+] <part:modeling>

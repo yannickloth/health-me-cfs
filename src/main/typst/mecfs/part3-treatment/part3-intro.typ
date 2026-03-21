@@ -1,8 +1,6 @@
-#import "../shared/environments.typ": *
+#import "../shared/front-matter.typ": doc-part
 
-= Treatment and Management
-<part:treatment>
-
+#doc-part([Treatment and Management])[
 This part comprehensively covers interventions for ME/CFS, including:
 
 - *Medications*: Prescription drugs targeting specific symptoms and mechanisms
@@ -12,4 +10,4 @@ This part comprehensively covers interventions for ME/CFS, including:
 - *Management strategies*: Practical approaches for living with ME/CFS
 
 Evidence levels are indicated throughout, distinguishing between well-supported interventions and those with preliminary or anecdotal support.
-
+] <part:treatment>

@@ -29,7 +29,9 @@ The author assumes no liability for any adverse effects or consequences resultin
 
 When citing this work, please use the following format:
 
+#import "metadata.typ": doc-doi, doc-doi-url, doc-date
+
 #quote[
-Loth, Y. (\the\year). _Myalgic Encephalomyelitis / Chronic Fatigue Syndrome: A Comprehensive Medical Documentation_. DOI: \MECFSPaperDoiHref
+Loth, Y. (#str(doc-date.year())). _Myalgic Encephalomyelitis / Chronic Fatigue Syndrome: A Comprehensive Medical Documentation_. DOI: #link(doc-doi-url, doc-doi)
 ]
 

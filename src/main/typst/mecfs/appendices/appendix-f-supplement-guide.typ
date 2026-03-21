@@ -187,5 +187,5 @@ Discontinue a supplement and consult a healthcare provider if:
     - Cost becomes prohibitive relative to perceived benefit
 
 #limitation(title: [Evidence Gaps in ME/CFS Supplementation])[
-Most supplements used in ME/CFS management lack randomized controlled trial evidence specific to ME/CFS populations. The recommendations in this appendix are based on a combination of limited ME/CFS-specific data, mechanistic rationale from the pathophysiology described in Part @part:pathophysiology, and extrapolation from related conditions (fibromyalgia, mitochondrial diseases, post-viral fatigue). Patients should be informed that supplementation is empirical and that individual responses are unpredictable.
+Most supplements used in ME/CFS management lack randomized controlled trial evidence specific to ME/CFS populations. The recommendations in this appendix are based on a combination of limited ME/CFS-specific data, mechanistic rationale from the pathophysiology described in #link(<part:pathophysiology>)[Part II (Pathophysiology)], and extrapolation from related conditions (fibromyalgia, mitochondrial diseases, post-viral fatigue). Patients should be informed that supplementation is empirical and that individual responses are unpredictable.
 ]

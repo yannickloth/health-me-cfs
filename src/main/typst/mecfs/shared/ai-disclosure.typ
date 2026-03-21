@@ -1,4 +1,5 @@
 #import "environments.typ": *
+#import "metadata.typ": doc-date
 
 = AI Disclosure Statement
 
@@ -25,7 +26,7 @@ AI language models (primarily Claude Sonnet 4.5 and Opus 4.5, Anthropic Inc.) pe
     - *Literature synthesis*: Processing and summarizing large volumes of research papers, extracting key findings, and organizing information thematically
     - *Technical exposition*: Drafting explanatory text for complex biological mechanisms, translating technical research into accessible language
     - *Citation management*: Identifying relevant studies, formatting references, managing bibliography, and ensuring proper attribution
-    - *LaTeX preparation*: Writing and formatting LaTeX source code, creating document structure, managing cross-references and environments
+    - *Document preparation*: Writing and formatting source code, creating document structure, managing cross-references and environments
     - *Consistency checking*: Identifying contradictions, checking internal consistency, and verifying that claims match cited sources
 
 == Nature of the Collaboration
@@ -61,7 +62,7 @@ The medical and scientific communities are invited to review this work criticall
 
 *Author:* Ing. Yannick Loth, M.Sc. (Management) 
 
-*Date:* 2026-03-19 
+*Date:* #doc-date.display("[year]-[month]-[day]")
 
 *ORCID:* #link("https://orcid.org/0009-0003-5754-827X")[0009-0003-5754-827X]
 

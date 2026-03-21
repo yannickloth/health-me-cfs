@@ -1,9 +1,7 @@
-#import "../shared/environments.typ": *
+#import "../shared/front-matter.typ": doc-part
 
-= Clinical Overview
-<part:clinical>
-
+#doc-part([Clinical Overview])[
 This part provides a comprehensive clinical picture of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). We cover the full spectrum of symptoms, diagnostic criteria from multiple frameworks, disease progression patterns, and clinical presentations.
 
 Understanding the clinical manifestations is essential for accurate diagnosis, effective communication between patients and healthcare providers, and appropriate disease management.
-
+] <part:clinical>

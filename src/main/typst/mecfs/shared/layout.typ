@@ -6,7 +6,7 @@
 // Mirrors: scrbook A4 + DIV=12 + oneside + koma-headers.tex + custom cfoot.
 // =============================================================================
 
-#import "metadata.typ": doc-title, doc-version
+#import "metadata.typ": doc-title, doc-version, doc-date
 #import "typography.typ": font-heading, size-header, size-footer
 
 // ── Page geometry ─────────────────────────────────────────────────────────────
@@ -22,10 +22,14 @@
 )
 
 // ── Running header (mirrors \cehead / \cohead — centred heading mark) ─────────
+// Shows the most recent level-1 or level-2 heading that has numbering (i.e., a
+// real chapter or section, not a Part heading or front-matter heading).
 #let _page-header = context {
   let headings = query(selector(heading).before(here()))
-  if headings.len() > 0 {
-    let h = headings.last()
+  // Only show numbered headings (excludes front-matter unnumbered chapters)
+  let numbered = headings.filter(h => h.numbering != none)
+  if numbered.len() > 0 {
+    let h = numbered.last()
     align(center,
       text(font: font-heading, size: size-header, style: "normal",
         h.body
@@ -42,7 +46,7 @@
     text(size: size-footer,
       "Page " + page-num + " of " + str(page-total) +
       " \u{2014} " + doc-title +
-      " \u{2014} " + datetime.today().display("[day] [month repr:long] [year]")
+      " \u{2014} " + doc-date.display("[day] [month repr:long] [year]")
     )
   )
 }

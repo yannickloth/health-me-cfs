@@ -37,8 +37,7 @@ Each entry follows the format: *What* changed, _why_ it changed
     distinguishing which are causally sufficient to generate ME/CFS versus which are
     downstream consequences; the need to connect qualitative pathophysiology reasoning
     to quantitative model predictions for research prioritization.
-    @Walitt2024NIH @Nakatomi2014neuroinflammation @Loebel2016 @Sotzny2021 @%
-    Stein2024immunoadsorption @Fluge2025daratumumab @Sasso2026trpm3.
+    @Walitt2024NIH @Nakatomi2014neuroinflammation @Loebel2016 @Sotzny2021 @Stein2024immunoadsorption @Fluge2025daratumumab @Sasso2026trpm3.
 
   - *Transcranial magnetic stimulation (TMS) for ME/CFS: expanded evidence review*
     (Chapter 18, Section @subsubsec:tms-mecfs; Appendix H, new annotated
@@ -81,13 +80,7 @@ Each entry follows the format: *What* changed, _why_ it changed
     patients' infection vulnerability; identification of meningitis as an
     underexplored post-infectious ME/CFS trigger with unique CNS-direct
     inflammatory insult.
-    @Hotopf1996meningitis @Schwitter2024meningitis @Ungureanu2021meningitis @%
-    Magnus2009meningococcal @Magnus2015influenza @Prinsen2012vaccine @%
-    Sorensen2003complement @Nijs2010pem @Polli2019complement @Glass2025ev @%
-    iu2024tcell_exhaustion @Spronk2023qfever @Pinas2022glymphatic @%
-    Christodoulides2024meningitis @Caligiuri1987nk @Scheld1999oxidative @%
-    Schwerk2015meningitis @VanderLinden2023microclots @Perrin2025glymphatic @%
-    Midtbo2014meningitis @Gil2023cd8 @Klein2024longcovid @Bested2001bbb
+    @Hotopf1996meningitis @Schwitter2024meningitis @Ungureanu2021meningitis @Magnus2009meningococcal @Magnus2015influenza @Prinsen2012vaccine @Sorensen2003complement @Nijs2010pem @Polli2019complement @Glass2025ev @iu2024tcell_exhaustion @Spronk2023qfever @Pinas2022glymphatic @Christodoulides2024meningitis @Caligiuri1987nk @Scheld1999oxidative @Schwerk2015meningitis @VanderLinden2023microclots @Perrin2025glymphatic @Midtbo2014meningitis @Gil2023cd8 @Klein2024longcovid @Bested2001bbb
 
   - *Food-triggered mast cell activation in ME/CFS*
     (Chapter 14d, new Section 14d.5 “Food-Triggered Mast Cell Activation: The
@@ -105,12 +98,7 @@ Each entry follows the format: *What* changed, _why_ it changed
     Motivated by: clinical question whether silent (non-IgE) food-triggered mast
     cell degranulation contributes to ME/CFS symptoms in patients with negative
     allergy testing.
-    @Rohrhofer2025mecfsmast @Kohno2021potsmast @Roy2021mrgprx2 @%
-    Thapaliya2022mrgprx2neuro @EliehAliKomi2020complement @%
-    ComasBaste2020histamine @Folkerts2018fiber @Voelker2025biomarkersmast @%
-    Voelker2024urinemast @Castells2024mcasreview @Gulen2024mcascriteria @%
-    Maeda2017pgdm @Rohrhofer2024stratification @Tsilioni2022exosome @%
-    Hatziagelaki2018hypothalamus @Pepper2020additives @Weinstock2023MCASneuro
+    @Rohrhofer2025mecfsmast @Kohno2021potsmast @Roy2021mrgprx2 @Thapaliya2022mrgprx2neuro @EliehAliKomi2020complement @ComasBaste2020histamine @Folkerts2018fiber @Voelker2025biomarkersmast @Voelker2024urinemast @Castells2024mcasreview @Gulen2024mcascriteria @Maeda2017pgdm @Rohrhofer2024stratification @Tsilioni2022exosome @Hatziagelaki2018hypothalamus @Pepper2020additives @Weinstock2023MCASneuro
 
   - *Cognitive dysfunction quantification and post-COVID parallels*
     (Chapter 8, new Section 8.7.2 “Quantifying Cognitive Impairment:
@@ -232,10 +220,7 @@ Each entry follows the format: *What* changed, _why_ it changed
     _Motivated by:_ Author observation that the PEM delay is unexplained
     by current mechanistic accounts; evolutionary framing provides a principled
     reason why the delay is normal biology rather than a disease
-    anomaly @Hart1988SickBehavior @Dantzer2007SicknessBehavior @%
-    Bramble2004EnduranceRunning @Marino2022FatigueEvolution @%
-    Parikh2011StressAnalgesia @Che2025 @Moneghetti2018 @%
-    Hendrix2025AdrenergicDysfunction.
+    anomaly @Hart1988SickBehavior @Dantzer2007SicknessBehavior @Bramble2004EnduranceRunning @Marino2022FatigueEvolution @Parikh2011StressAnalgesia @Che2025 @Moneghetti2018 @Hendrix2025AdrenergicDysfunction.
 
   - *MCAS antihistamine up-dosing section*
     (Chapter 15, new Section “Antihistamine Up-Dosing in MCAS”): Added
@@ -253,10 +238,7 @@ Each entry follows the format: *What* changed, _why_ it changed
     — existing MCAS treatment sections used standard allergy doses without
     reflecting the fourfold up-dosing recommendation from the
     EAACI/GA#super[2]LEN urticaria guideline or MCAS specialist
-    protocols @Zuberbier2022urticaria @Afrin2013MCAS @%
-    Molderings2016pharmacological @Podder2023updosing @%
-    VandenElzen2017updosing @Salvucci2023antihistamineLongCOVID @%
-    Nurmatov2015H1systematic @Magerl2015rupatadine @Izquierdo2024rupatadine.
+    protocols @Zuberbier2022urticaria @Afrin2013MCAS @Molderings2016pharmacological @Podder2023updosing @VandenElzen2017updosing @Salvucci2023antihistamineLongCOVID @Nurmatov2015H1systematic @Magerl2015rupatadine @Izquierdo2024rupatadine.
 
   - *IgG immune complex–mediated endothelial and mitochondrial injury*
     (Chapter 6, new Section @sec:igg-mito-disruption; Chapter 7, expanded
@@ -705,11 +687,8 @@ across five parts: clinical overview, pathophysiology, treatment, research, and
 mathematical modelling.
 
 // — Template for future versions —
-// 
-== Version N (YYYY-MM-DD)
-// 
+// == Version N (YYYY-MM-DD)
 //   - *Chapter X — Title*: What changed.
 //     _Motivated by:_ Why (new evidence / error correction / reviewer feedback).
-//     Key sources: @key1 @key2.
-// 
+//     Key sources: @key1 @key2. 
 

@@ -934,8 +934,7 @@ Objective sleep studies in ME/CFS reveal measurable abnormalities:
 
 ==== Sleep Architecture Disruption
 
-Studies have documented @Jackson2012sleepAbnormalities @%
-Reeves2006sleepCharacteristics:
+Studies have documented @Jackson2012sleepAbnormalities @Reeves2006sleepCharacteristics:
 
     - *Reduced slow-wave sleep (Stage N3)*: The deepest, most restor\-ative sleep stage is diminished
     - *Alpha-delta sleep*: Intrusion of waking alpha waves (8–13 Hz) into delta sleep, preventing deep sleep @Moldofsky1975alphaDeltaSleep
