@@ -71,7 +71,8 @@
       "Bash(git:*)",
       "Bash(which:*)",
       "Write(//home/nicky/code/health-me-cfs/**)",
-      "Edit(//home/nicky/code/health-me-cfs/**)"
+      "Edit(//home/nicky/code/health-me-cfs/**)",
+      "Bash(fc-list)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
