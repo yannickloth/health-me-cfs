@@ -18,22 +18,6 @@
         "type": "github"
       }
     },
-    "infolead-latex-templates": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1772645943,
-        "narHash": "sha256-93WkEXQeHg4u3uWQz1abYgLS81yQ4r2lzJ0rdY49uiA=",
-        "owner": "yannickloth",
-        "repo": "infolead-latex-templates",
-        "rev": "f14a83b2de3d351e3729012249e61b1a3566fd4b",
-        "type": "github"
-      },
-      "original": {
-        "owner": "yannickloth",
-        "repo": "infolead-latex-templates",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1769170682,
@@ -53,7 +37,6 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "infolead-latex-templates": "infolead-latex-templates",
         "nixpkgs": "nixpkgs"
       }
     },

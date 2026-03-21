@@ -4,16 +4,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    infolead-latex-templates = {
-      url = "github:yannickloth/infolead-latex-templates";
-      flake = false;
-    };
   };
-  outputs = { self, nixpkgs, flake-utils, infolead-latex-templates }:
+  outputs = { self, nixpkgs, flake-utils }:
     with flake-utils.lib; eachSystem allSystems (system:
     let
       pkgs = nixpkgs.legacyPackages.${system};
-      tex = pkgs.texlive.combined.scheme-full;
     in rec {
       packages = rec {
         default = document;
@@ -25,45 +20,24 @@
             filter = path: type:
               let
                 baseName = baseNameOf (toString path);
-                # Exclude git, result, templates, test files, and nix caches
-              in !(baseName == ".git" || baseName == "result" || baseName == "infolead-latex-templates" ||
+              in !(baseName == ".git" || baseName == "result" ||
+                   baseName == "infolead-latex-templates" ||
                    baseName == ".cache" || baseName == ".build" ||
                    pkgs.lib.hasPrefix "test-" baseName);
           };
-          buildInputs = [ pkgs.coreutils pkgs.findutils tex ];
+          buildInputs = [ pkgs.coreutils pkgs.typst ];
           phases = ["unpackPhase" "buildPhase" "installPhase"];
           buildPhase = ''
             export PATH="${pkgs.lib.makeBinPath buildInputs}";
-
-            # Copy LaTeX templates from flake input
-            mkdir -p infolead-latex-templates
-            cp -r ${infolead-latex-templates}/* infolead-latex-templates/
-
-            # Create cache directory for latexmk
-            mkdir -p .cache/texmf-var .build
-
-            # Pre-create output subdirectories for aux files (required by latexmk -outdir)
-            find contents -type d -exec mkdir -p .build/{} \;
-            mkdir -p .build/contents/shared
-
-            # Copy figures directory so \input{figures/...} works from main directory
-            if [ -d figures ]; then
-              cp -r figures .build/ 2>/dev/null || true
-            fi
-
-            # Run latexmk - output goes to .build
-            # -f forces processing, -interaction=nonstopmode to continue on warnings
-            # Note: latexmk may report warnings about missing files (from .fls) but still
-            # generate the PDF successfully. We continue if PDF exists.
-            env TEXMFHOME=.cache TEXMFVAR=.cache/texmf-var \
-              TEXMFCNF=".:$(kpsewhich --var-value=TEXMFCNF)" \
-              latexmk -interaction=nonstopmode -pdf -pdflatex \
-              -f -outdir=.build \
-              ms.tex || [ -f .build/ms.pdf ]
+            cd src/main/typst/mecfs
+            typst compile \
+              --font-path fonts \
+              loth2026-mecfs.typ \
+              loth2026-mecfs.pdf
           '';
           installPhase = ''
             mkdir -p $out
-            cp .build/ms.pdf $out/loth2026-mecfs.pdf
+            cp src/main/typst/mecfs/loth2026-mecfs.pdf $out/loth2026-mecfs.pdf
           '';
         };
       };
