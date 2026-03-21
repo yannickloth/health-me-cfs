@@ -2,7 +2,7 @@
 
 = About the Author
 
-Yannick Loth is a software architect and independent patient-researcher with degrees in Industrial Engineering (Information Systems, University of Luxembourg) and Management Sciences (General Management, HEC Liège), with prior completion of first-cycle civil engineering studies (University of Liège). With nearly two decades of professional software engineering experience and iSAQB CPSA-F certification (2015), he brings computational thinking and systems analysis to medical research.
+Yannick Loth is a software architect and independent researcher with degrees in Industrial Engineering (Information Systems, University of Luxembourg) and Management Sciences (General Management, HEC Liège), with prior completion of first-cycle civil engineering studies (University of Liège). With nearly two decades of professional software engineering experience and iSAQB CPSA-F certification (2015), he brings computational thinking and systems analysis to medical research.
 
 Having experienced symptoms consistent with ME/CFS since childhood, with progressive worsening over the past decade and marked acceleration in recent years, Yannick has applied his background in discrete mathematics, information systems architecture, and analytical research to understanding this complex multisystem disease (though formal diagnostic documentation has not yet been received). This work-in-progress represents an ongoing effort to synthesize the current state of ME/CFS research into a comprehensive, accessible reference while documenting his own case with scientific rigor.
 
