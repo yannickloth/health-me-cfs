@@ -4,16 +4,16 @@
 // Changes when: font choices, size scale, line spacing, paragraph rhythm,
 // or heading hierarchy style change — independently of colour theme or
 // domain-specific environments.
-// Mirrors: newpxtext, tgadventor, parskip=half, headings=normal, spacing.tex.
+// Mirrors: kpfonts (KpRoman/KpSans/KpMono), parskip=half, headings=normal, spacing.tex.
 // =============================================================================
 
 // ── Font families ─────────────────────────────────────────────────────────────
-// Body: Libertinus Serif (Palatino-class, mirrors newpxtext)
-// Heading: TeX Gyre Adventor (Optima-like sans, mirrors \tgadventor)
-// Mono: DejaVu Sans Mono
-#let font-body    = ("Libertinus Serif", "Noto Serif")
-#let font-heading = ("Inter", "Noto Sans", "Liberation Sans")
-#let font-mono    = "DejaVu Sans Mono"
+// Body: KpRoman (kpfonts — Palatino-class with matching math)
+// Heading: KpSans (kpfonts sans companion)
+// Mono: KpMono (kpfonts monospace companion)
+#let font-body    = ("KpRoman", "Libertinus Serif", "Noto Serif")
+#let font-heading = ("KpSans", "Inter", "Noto Sans", "Liberation Sans")
+#let font-mono    = ("KpMono", "DejaVu Sans Mono")
 
 // ── Type scale ────────────────────────────────────────────────────────────────
 // Base: 11pt (matches documentclass 11pt)
@@ -32,10 +32,10 @@
 // ── Spacing rhythm ────────────────────────────────────────────────────────────
 // parskip=half: no first-line indent, 0.5 baseline between paragraphs.
 #let para-leading  = 0.65em   // intra-paragraph line gap
-#let para-spacing  = 1.0em    // inter-paragraph gap (visible separation between paragraphs)
+#let para-spacing  = 1.3em    // inter-paragraph gap (visible separation between paragraphs)
 
 // List spacing (mirrors enumitem reduced topsep/itemsep)
-#let list-item-spacing = 0.4em
+#let list-item-spacing = 1.0em
 
 // ── Heading show rules ────────────────────────────────────────────────────────
 // Exported as a function so the main file can call apply-heading-styles()

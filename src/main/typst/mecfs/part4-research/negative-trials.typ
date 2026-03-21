@@ -127,42 +127,41 @@ Two RCTs tested hydrocortisone replacement based on mild hypocortisolism finding
 
 
 
-caption: [Major negative, null, and inconclusive trials in ME/CFS.],
-<tab:negative-trials>
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columnsp{2.5cm}p{1.2cm}p{0.8cm}p{1.3cm}p{5.5cm}@}
 
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.5cm}p{1.2cm}p{0.8cm}p{1.3cm}p{5.5cm}@}
+    [*Intervention*], [*Design*], [$n$], [*Result*], [*Key Lesson*],
 
-[*Intervention*], [*Design*], [$n$], [*Result*], [*Key Lesson*],
-
-[Rituximab III @Fluge2019], [DB-RCT], [151], [Negative], [No benefit unstratified; subgroup may exist],
+    [Rituximab III @Fluge2019], [DB-RCT], [151], [Negative], [No benefit unstratified; subgroup may exist],
 
 
-[PACE (GET/CBT) @White2011pace], [AB-RCT], [641], [Contested], [No objective benefit; reanalysis $tilde$7% @Wilshire2018],
+    [PACE (GET/CBT) @White2011pace], [AB-RCT], [641], [Contested], [No objective benefit; reanalysis $tilde$7% @Wilshire2018],
 
 
-[Rintatolimod @Strayer2020], [DB-RCT], [234], [Mixed], [Marginal overall; subset signal at 2–8 yr],
+    [Rintatolimod @Strayer2020], [DB-RCT], [234], [Mixed], [Marginal overall; subset signal at 2–8 yr],
 
 
-[Galantamine @Blacker2004], [DB-RCT], [434], [Negative], [Definitive null; not cholinergic],
+    [Galantamine @Blacker2004], [DB-RCT], [434], [Negative], [Definitive null; not cholinergic],
 
 
-[Acyclovir @Straus1988], [DB-RCT], [27], [Negative], [Wrong antiviral spectrum],
+    [Acyclovir @Straus1988], [DB-RCT], [27], [Negative], [Wrong antiviral spectrum],
 
 
-[Valganciclovir @Montoya2013valganciclovir], [DB-RCT], [30], [Mixed], [Primary negative; individual endpoints positive],
+    [Valganciclovir @Montoya2013valganciclovir], [DB-RCT], [30], [Mixed], [Primary negative; individual endpoints positive],
 
 
-[IVIG @VollmerConna1997], [DB-RCT], [99], [Negative], [No benefit without immune pre-selection],
+    [IVIG @VollmerConna1997], [DB-RCT], [99], [Negative], [No benefit without immune pre-selection],
 
 
-[Fluoxetine @Vercoulen1996], [DB-RCT], [96], [Negative], [CFS $eq.not$ depression],
+    [Fluoxetine @Vercoulen1996], [DB-RCT], [96], [Negative], [CFS $eq.not$ depression],
 
 
-[Hydrocortisone @McKenzie1998], [DB-RCT], [70], [Negative], [Adrenal suppression outweighs benefit],
-
-)
+    [Hydrocortisone @McKenzie1998], [DB-RCT], [70], [Negative], [Adrenal suppression outweighs benefit],
+  ),
+  caption: [Major negative, null, and inconclusive trials in ME/CFS.],
+) <tab:negative-trials>
 
 DB = double-blind; AB = assessor-blind; RCT = randomized controlled trial.
 

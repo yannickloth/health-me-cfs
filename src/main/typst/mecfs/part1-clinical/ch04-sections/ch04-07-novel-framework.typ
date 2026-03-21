@@ -416,7 +416,7 @@ The “Viral-Immune-Metabolic” cluster (see Section @sec:cimetidine-responder
   [*Endothelial*], [Flow-mediated dilation, ADMA], [L-Arginine/L-Citrulline therapeutic response], [NO dysfunction],
   
   ),
-  caption: [Tier 2 test panels for Viral-Immune-Metabolic phenotype],
+  kind: table, supplement: [Table], caption: [Tier 2 test panels for Viral-Immune-Metabolic phenotype],
 ) <tab:vim-testpanels>
 
 
@@ -701,7 +701,7 @@ Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic
   [*Endothelial*], [L-citrulline, omega-3, aspirin], [Low], [High], [*THIRD* (experimental)],
   
   ),
-  caption: [Treatment prioritization by biological domain],
+  kind: table, supplement: [Table], caption: [Treatment prioritization by biological domain],
 ) <tab:treatment-prioritization>
 
 
@@ -800,7 +800,7 @@ Table @tab:framework-comparison compares the novel biology-informed framework t
   [Subgroup identification], [No], [No], [No], [Yes (co-occurrence model)],
   
   ),
-  caption: [Comparison of diagnostic frameworks],
+  kind: table, supplement: [Table], caption: [Comparison of diagnostic frameworks],
 ) <tab:framework-comparison>
 
 

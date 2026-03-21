@@ -56,27 +56,27 @@ Long COVID and ME/CFS share post-viral onset, exercise intolerance with delayed 
 
 
 
-caption: [ME/CFS Mechanisms Documented in Long COVID],
-<tab:longcovid-mechanisms>
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    // TODO: fix columns
 
-[*Mechanism*], [*ME/CFS Evidence*], [*Long COVID Evidence*],
+    [*Mechanism*], [*ME/CFS Evidence*], [*Long COVID Evidence*],
 
-[GPCR autoantibodies], [29.5–91% prevalence @Loebel2016 @Bynke2020], [$beta$2-AR, M3 autoantibodies detected],
+    [GPCR autoantibodies], [29.5–91% prevalence @Loebel2016 @Bynke2020], [$beta$2-AR, M3 autoantibodies detected],
 
-[Plasma cell autoimmunity], [Daratumumab 60% response @Fluge2025daratumumab], [BC007 case reports],
+    [Plasma cell autoimmunity], [Daratumumab 60% response @Fluge2025daratumumab], [BC007 case reports],
 
-[Endothelial dysfunction], [Peripheral endothelial dysfunction @Scherbakov2020], [Microclotting, VWF elevation],
+    [Endothelial dysfunction], [Peripheral endothelial dysfunction @Scherbakov2020], [Microclotting, VWF elevation],
 
-[NAD#super[+] depletion], [Metabolomic studies @heng2025mecfs], [NR trial raised NAD#super[+] levels; clinical benefit variable @Wu2025NRLongCOVID],
+    [NAD#super[+] depletion], [Metabolomic studies @heng2025mecfs], [NR trial raised NAD#super[+] levels; clinical benefit variable @Wu2025NRLongCOVID],
 
-[Neuroinflammation], [PET imaging @Nakatomi2014neuroinflammation], [MRI, CSF abnormalities],
+    [Neuroinflammation], [PET imaging @Nakatomi2014neuroinflammation], [MRI, CSF abnormalities],
 
-[Small fiber neuropathy], [SFN studies @Azcue2023sfn], [Documented in subset],
-
-)
+    [Small fiber neuropathy], [SFN studies @Azcue2023sfn], [Documented in subset],
+  ),
+  caption: [ME/CFS Mechanisms Documented in Long COVID],
+) <tab:longcovid-mechanisms>
 
 
 ==== Novel Translational Findings from ME/CFS
@@ -281,32 +281,32 @@ The following mechanisms are *well-documented in ME/CFS but not yet studied in E
 
 
 
-caption: [ME/CFS Treatment Protocols Applicable to EDS],
-<tab:eds-treatments>
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columnsp{4cm}p{3cm}p{3cm}}
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    // TODO: fix columnsp{4cm}p{3cm}p{3cm}}
 
-[*Protocol*], [*Rationale*], [*Certainty in EDS*], [*Evidence Base*],
+    [*Protocol*], [*Rationale*], [*Certainty in EDS*], [*Evidence Base*],
 
-[POTS management (salt, fluids, compression, fludrocortisone)], [Addresses hypovolemia and preload failure], [High], [Well-established],
-
-
-[Mast cell stabilization (H1+H2 antihistamines, quercetin, cromolyn)], [Addresses MCAS in hEDS-MCAS subset], [High], [Clinical use common],
+    [POTS management (salt, fluids, compression, fludrocortisone)], [Addresses hypovolemia and preload failure], [High], [Well-established],
 
 
-[Rupatadine (H1 + PAF antagonist + mast cell stabilizer)], [Triple mechanism addresses vascular pathomechanisms], [Medium], [ME/CFS evidence, not tested in EDS],
+    [Mast cell stabilization (H1+H2 antihistamines, quercetin, cromolyn)], [Addresses MCAS in hEDS-MCAS subset], [High], [Clinical use common],
 
 
-[Catecholamine synthesis support (L-tyrosine, Tetrahydrobiopterin (BH4) cofactors)], [Supports autonomic function if central deficiency present], [Low-Medium], [ME/CFS evidence, not tested in EDS],
+    [Rupatadine (H1 + PAF antagonist + mast cell stabilizer)], [Triple mechanism addresses vascular pathomechanisms], [Medium], [ME/CFS evidence, not tested in EDS],
 
 
-[Pacing and energy envelope management], [Prevents post-exertional symptom exacerbation], [Medium], [Reduces injury risk from hypermobility overexertion],
+    [Catecholamine synthesis support (L-tyrosine, Tetrahydrobiopterin (BH4) cofactors)], [Supports autonomic function if central deficiency present], [Low-Medium], [ME/CFS evidence, not tested in EDS],
 
 
-[Mitochondrial support (CoQ10, D-ribose, L-carnitine)], [Addresses energy deficit from chronic musculoskeletal compensation], [Low-Medium], [Theoretical, untested in EDS],
+    [Pacing and energy envelope management], [Prevents post-exertional symptom exacerbation], [Medium], [Reduces injury risk from hypermobility overexertion],
 
-)
+
+    [Mitochondrial support (CoQ10, D-ribose, L-carnitine)], [Addresses energy deficit from chronic musculoskeletal compensation], [Low-Medium], [Theoretical, untested in EDS],
+  ),
+  caption: [ME/CFS Treatment Protocols Applicable to EDS],
+) <tab:eds-treatments>
 
 
 ==== Key Distinctions: EDS-Specific Considerations
@@ -1105,35 +1105,35 @@ Which ME/CFS mechanisms need testing in which conditions:
 
 
 
-caption: [Research Priorities: Mechanisms $times$ Conditions],
-<tab:translational-research-priorities>
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columnsp{10cm}}
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    // TODO: fix columnsp{10cm}}
 
-[*Mechanism*], [*Priority Conditions for Testing*],
+    [*Mechanism*], [*Priority Conditions for Testing*],
 
-[Plasma cell autoimmunity (daratumumab)], [Long COVID, PTLDS, autoimmune diseases where rituximab failed],
-
-
-[$beta$2-receptor desensitization], [EDS-POTS-MCAS, dysautonomia, Long COVID],
+    [Plasma cell autoimmunity (daratumumab)], [Long COVID, PTLDS, autoimmune diseases where rituximab failed],
 
 
-[Tetrahydrobiopterin (BH4) dysregulation], [EDS with OI, POTS, dysautonomia, migraine],
+    [$beta$2-receptor desensitization], [EDS-POTS-MCAS, dysautonomia, Long COVID],
 
 
-[WASF3/ER stress pathway], [Primary mitochondrial disorders, metabolic myopathies],
+    [Tetrahydrobiopterin (BH4) dysregulation], [EDS with OI, POTS, dysautonomia, migraine],
 
 
-[NAD#super[+] depletion], [Cancer-related fatigue, aging-related decline, neurodegenerative disease],
+    [WASF3/ER stress pathway], [Primary mitochondrial disorders, metabolic myopathies],
 
 
-[Glymphatic clearance failure], [Alzheimer's, Parkinson's, migraine, TBI],
+    [NAD#super[+] depletion], [Cancer-related fatigue, aging-related decline, neurodegenerative disease],
 
 
-[GPCR autoantibody-monocyte reprogramming], [Long COVID, autoimmune conditions with functional symptoms],
+    [Glymphatic clearance failure], [Alzheimer's, Parkinson's, migraine, TBI],
 
-)
+
+    [GPCR autoantibody-monocyte reprogramming], [Long COVID, autoimmune conditions with functional symptoms],
+  ),
+  caption: [Research Priorities: Mechanisms $times$ Conditions],
+) <tab:translational-research-priorities>
 
 
 === Biomarker Validation Across Conditions

@@ -316,8 +316,10 @@ Beyond neurons and neurotransmitters, glial cells play critical support roles in
 
 Microglia, the resident immune cells of the central nervous system, have emerged as key players in ME/CFS neuroinflammation. Evidence for microglial activation includes elevated markers in CSF (soluble CD14, chitotriosidase), PET imaging showing increased translocator protein (TSPO) binding in specific brain regions @Nakatomi2014neuroinflammation, correlation between neuroinflammatory markers and symptom severity, and persistence of microglial activation years after initial infection.
 
-#warning-env(title: [Replication Status of Microglial PET Findings])[
-The Nakatomi et al.\ 2014 study documenting widespread microglial activation via PET imaging in ME/CFS patients has not been consistently replicated, with later studies showing conflicting results. The certainty of microglial activation as a universal feature of ME/CFS remains medium pending further replication studies.
+#warning-env(title: [Replication Status and Specificity of TSPO-PET Findings])[
+The Nakatomi et al.\ 2014 study (n=9) reported 45--199% higher TSPO binding in six brain regions @Nakatomi2014neuroinflammation. However, Raijmakers et al.\ (2022) found _no_ significant differences in TSPO binding between 9 CFS patients and 9 controls using the same tracer @Raijmakers2021neuroinflammation\---and observed a _negative_ correlation between binding and symptom severity, opposite to Nakatomi's findings. Both studies used only 9 patients with a first-generation tracer known for poor signal-to-noise ratio.
+
+Beyond replication failure, the interpretation of TSPO signal as "neuroinflammation" faces fundamental specificity concerns. Nutma et al.\ (2023) demonstrated that TSPO is a reliable marker of activated microglia in rodent models but _not_ in human neurodegenerative diseases @Nutma2023TSPO. In human MS lesions, only approximately 40% of TSPO signal originates from microglia/macrophages; the remainder comes from astrocytes, endothelial cells, and other cell types. TSPO elevation indicates metabolic changes and energy production, not necessarily classical inflammation. No truly TSPO-negative brain reference region exists, complicating quantification. These limitations apply to all ME/CFS TSPO-PET studies and mean that even positive findings cannot be interpreted as definitive evidence of microglial activation.
 ]
 
 <obs:omdal2026-null-nfl>

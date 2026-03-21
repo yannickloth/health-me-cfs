@@ -226,7 +226,7 @@ The key distinction is between _organic food avoidance_ (driven by physical symp
   [Orthostatic symptoms], [Typically present; worsen after meals], [Present only if severe malnutrition produces cardiovascular compromise],
   
   ),
-  caption: [Differential diagnosis: ME/CFS eating difficulties vs.\ primary eating disorders],
+  kind: table, supplement: [Table], caption: [Differential diagnosis: ME/CFS eating difficulties vs.\ primary eating disorders],
 ) <tab:ed-mecfs-differential>
 
 

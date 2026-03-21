@@ -204,23 +204,23 @@ Across _all_ study types—registry cohorts, clinical cohorts, and memorial reco
 
 
 
-caption: [Suicide Mortality Across ME/CFS Studies],
-<tab:suicide-mortality>
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    // TODO: fix columns
 
-[*Study*], [*SMR or Rate Ratio*], [*Significance*],
+    [*Study*], [*SMR or Rate Ratio*], [*Significance*],
 
-[Roberts et al.\ (2016)], [6.85], [$p = 0.002$],
+    [Roberts et al.\ (2016)], [6.85], [$p = 0.002$],
 
-[Smith et al.\ (2006) – CFS], [3.6], [Significant],
+    [Smith et al.\ (2006) – CFS], [3.6], [Significant],
 
-[Smith et al.\ (2006) – Chronic Fatigue], [14.2], [Highly significant],
+    [Smith et al.\ (2006) – Chronic Fatigue], [14.2], [Highly significant],
 
-[Jason et al.\ (2006)], [2nd most common cause], [—],
-
-)
+    [Jason et al.\ (2006)], [2nd most common cause], [—],
+  ),
+  caption: [Suicide Mortality Across ME/CFS Studies],
+) <tab:suicide-mortality>
 
 
 *Suicidal Ideation Prevalence.*

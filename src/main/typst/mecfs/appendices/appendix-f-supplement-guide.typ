@@ -38,7 +38,7 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
   [B-complex vitamins], [1$times$/day (balanced formula)], [Low], [Cofactors for energy metabolism; B2 (riboflavin) for Complex I, B3 (niacin) for NAD#super[+].],
   
   ),
-  caption: [Mitochondrial and energy support supplements.],
+  kind: table, supplement: [Table], caption: [Mitochondrial and energy support supplements.],
 ) <tab:mito-supplements>
 
 
@@ -64,7 +64,7 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
   [Quercetin], [500–1000mg/day], [Low], [Mast cell stabilizer; anti-inflammatory. May help MCAS-overlap symptoms.],
   
   ),
-  caption: [Immune modulation supplements.],
+  kind: table, supplement: [Table], caption: [Immune modulation supplements.],
 ) <tab:immune-supplements>
 
 
@@ -88,7 +88,7 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
   [L-Theanine], [100–200mg/day], [Very low], [GABAergic; promotes relaxation without sedation.],
   
   ),
-  caption: [Neurological and sleep support supplements.],
+  kind: table, supplement: [Table], caption: [Neurological and sleep support supplements.],
 ) <tab:neuro-supplements>
 
 
@@ -110,7 +110,7 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
   [L-Glutamine], [5–10g/day], [Very low], [Intestinal epithelial cell fuel; barrier integrity.],
   
   ),
-  caption: [Gut health supplements.],
+  kind: table, supplement: [Table], caption: [Gut health supplements.],
 ) <tab:gut-supplements>
 
 

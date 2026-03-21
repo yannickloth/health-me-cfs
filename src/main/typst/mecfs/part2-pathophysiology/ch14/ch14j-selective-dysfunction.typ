@@ -159,7 +159,7 @@ Table @tab:process-classification classifies biological processes by their pred
   [Immune response to challenge], [0.5], [0.7], [0.79], [Dysregulated], [0.65],
   
   ),
-  caption: [Process classification by CNS-dependency and demand-responsiveness with predicted and observed dysfunction in ME/CFS.],
+  kind: table, supplement: [Table], caption: [Process classification by CNS-dependency and demand-responsiveness with predicted and observed dysfunction in ME/CFS.],
 ) <tab:process-classification>
 
 *Notes:* $S$ calculated with $alpha = 0.6$, $beta = 0.5$, $gamma = 0.4$. Values $>1.0$ indicate severe predicted dysfunction (additive model; theoretical supremum $= alpha + beta + gamma = 1.5$, never attained since $tilde(rho) < 1$ strictly). Certainty reflects confidence in classification based on literature review.

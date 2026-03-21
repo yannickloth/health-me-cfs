@@ -15,23 +15,23 @@ Objective validation studies demonstrate that self-reported severity classificat
 
 
 
-caption: [Objective measures across ME/CFS severity levels],
-<tab:severity-measures>
-#table(
-  columns: (auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Measure*], [*Mild*], [*Moderate*], [*Severe*],
+    [*Measure*], [*Mild*], [*Moderate*], [*Severe*],
 
-[Daily steps (mean)], [8,235], [5,195], [2,031],
+    [Daily steps (mean)], [8,235], [5,195], [2,031],
 
-[SF-36 Physical Functioning], [70], [43], [15],
+    [SF-36 Physical Functioning], [70], [43], [15],
 
-[Peak VO#sub[2] (% predicted)], [90%], [64%], [48%],
+    [Peak VO#sub[2] (% predicted)], [90%], [64%], [48%],
 
-[VO#sub[2] at ventilatory threshold], [47%], [38%], [30%],
-
-)
+    [VO#sub[2] at ventilatory threshold], [47%], [38%], [30%],
+  ),
+  caption: [Objective measures across ME/CFS severity levels],
+) <tab:severity-measures>
 
 
 All differences between severity groups are statistically significant ($p < 0.0001$), confirming that patient-reported severity reflects genuine physiological impairment rather than subjective perception.

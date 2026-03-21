@@ -1097,29 +1097,29 @@ If rest-day symptom relief is the goal, agents that do not mask fatigue or incre
 
 
 
-caption: [Stimulant pharmacokinetics and multi-day effects relevant to ME/CFS],
-<tab:stimulant-pk>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Drug*], [*Half-life*], [*Full clearance*], [*Rebound*], [*PEM window*],
+    [*Drug*], [*Half-life*], [*Full clearance*], [*Rebound*], [*PEM window*],
 
-[Methylphenidate IR], [2–3.5 h], [${tilde}$12–18 h], [Yes (severe)], [Day 1–2],
+    [Methylphenidate IR], [2–3.5 h], [${tilde}$12–18 h], [Yes (severe)], [Day 1–2],
 
-[Methylphenidate ER], [4–6 h], [${tilde}$20–30 h], [Yes (moderate)], [Day 1–3],
+    [Methylphenidate ER], [4–6 h], [${tilde}$20–30 h], [Yes (moderate)], [Day 1–3],
 
-[Modafinil], [12–15 h], [${tilde}$60–75 h], [No], [Day 2–4],
+    [Modafinil], [12–15 h], [${tilde}$60–75 h], [No], [Day 2–4],
 
-[Armodafinil], [10–15 h], [${tilde}$50–75 h], [No], [Day 2–4],
+    [Armodafinil], [10–15 h], [${tilde}$50–75 h], [No], [Day 2–4],
 
-[D-amphetamine], [9–12 h], [${tilde}$45–60 h], [Yes (severe)], [Day 2–4],
+    [D-amphetamine], [9–12 h], [${tilde}$45–60 h], [Yes (severe)], [Day 2–4],
 
-[Solriamfetol], [7.1 h], [${tilde}$36 h], [No data], [Day 1–3],
+    [Solriamfetol], [7.1 h], [${tilde}$36 h], [No data], [Day 1–3],
 
-[Pitolisant], [10–12 h], [${tilde}$50–60 h], [No], [Day 2–3],
-
-)
+    [Pitolisant], [10–12 h], [${tilde}$50–60 h], [No], [Day 2–3],
+  ),
+  caption: [Stimulant pharmacokinetics and multi-day effects relevant to ME/CFS],
+) <tab:stimulant-pk>
 
 
 Modafinil and amphetamines have pharmacokinetic tails extending 2–3 days. A patient taking modafinil on Monday may still have pharmacologically active levels on Wednesday. This means the fatigue-masking effect—and the risk of undetected overexertion—extends well beyond the day of dosing. Methylphenidate's shorter half-life offers more control over timing but causes more severe rebound crashes. Notably, modafinil does _not_ produce rebound hypersomnolence, a significant advantage for ME/CFS.
@@ -1192,29 +1192,29 @@ The social reality is that many ME/CFS patients face economic or social pressure
 
 
 
-caption: [Comparative risk assessment of stimulants in ME/CFS],
-<tab:stimulant-risk>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Agent*], [*PEM risk*], [*Depletion*], [*Sleep*], [*Immune*], [*CV risk*],
+    [*Agent*], [*PEM risk*], [*Depletion*], [*Sleep*], [*Immune*], [*CV risk*],
 
-[Amphetamines], [Highest], [Yes], [Disrupts], [Harmful], [High],
+    [Amphetamines], [Highest], [Yes], [Disrupts], [Harmful], [High],
 
-[Methylphenidate], [High], [No], [Rebound], [Unclear], [Moderate],
+    [Methylphenidate], [High], [No], [Rebound], [Unclear], [Moderate],
 
-[Modafinil], [Moderate], [No], [Mild], [Protective], [Low],
+    [Modafinil], [Moderate], [No], [Mild], [Protective], [Low],
 
-[Armodafinil], [Moderate], [No], [Moderate], [Protective], [Low],
+    [Armodafinil], [Moderate], [No], [Moderate], [Protective], [Low],
 
-[Solriamfetol], [Moderate], [No], [Mild], [Unknown], [Moderate],
+    [Solriamfetol], [Moderate], [No], [Mild], [Unknown], [Moderate],
 
-[Pitolisant], [Lower], [No], [REM$arrow.b$], [Protective], [Minimal],
+    [Pitolisant], [Lower], [No], [REM$arrow.b$], [Protective], [Minimal],
 
-[Caffeine], [Low–Mod], [No], [Variable], [Mixed], [Low],
-
-)
+    [Caffeine], [Low–Mod], [No], [Variable], [Mixed], [Low],
+  ),
+  caption: [Comparative risk assessment of stimulants in ME/CFS],
+) <tab:stimulant-risk>
 
 
 The hierarchy from most to least concerning for ME/CFS: amphetamines $>$ methylphenidate $>$ modafinil/armodafinil $approx$ solriamfetol $>$ pitolisant $>$ caffeine. Note that LDN is _not_ a stimulant—it is an immunomodulator that may address underlying pathology (TLR4-mediated neuroinflammation, TRPM3 ion channel restoration in NK cells) rather than masking symptoms @Cabanas2021 @Cabanas2025trpm3; it is discussed in Section @sec:immune-medications.
@@ -1873,23 +1873,23 @@ A study of 59 patients receiving *above-fourfold doses* (median 8$times$, range 
 
 
 
-caption: [H1 antihistamine dosing: standard allergy vs.\ MCAS therapeutic range],
-<tab:h1-updosing>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Drug*], [*Standard*], [*MCAS initial*], [*MCAS max (4$times$)*], [*Evidence*], [*Responder rate*],
+    [*Drug*], [*Standard*], [*MCAS initial*], [*MCAS max (4$times$)*], [*Evidence*], [*Responder rate*],
 
-[Cetirizine], [10 mg/day], [10 mg BID], [40 mg/day], [Grade A#super[a]], [54%#super[b]],
+    [Cetirizine], [10 mg/day], [10 mg BID], [40 mg/day], [Grade A#super[a]], [54%#super[b]],
 
-[Fexofenadine], [180 mg/day], [180 mg BID], [720 mg/day], [Grade A#super[a]], [83%#super[b]],
+    [Fexofenadine], [180 mg/day], [180 mg BID], [720 mg/day], [Grade A#super[a]], [83%#super[b]],
 
-[Loratadine], [10 mg/day], [10 mg 2–3$times$/day], [40 mg/day], [Limited#super[c]], [—],
+    [Loratadine], [10 mg/day], [10 mg 2–3$times$/day], [40 mg/day], [Limited#super[c]], [—],
 
-[Rupatadine], [10 mg/day], [20 mg/day], [40 mg/day], [Cold urticaria#super[d]], [—],
-
-)
+    [Rupatadine], [10 mg/day], [20 mg/day], [40 mg/day], [Cold urticaria#super[d]], [—],
+  ),
+  caption: [H1 antihistamine dosing: standard allergy vs.\ MCAS therapeutic range],
+) <tab:h1-updosing>
 
 {
 #super[a] Grade A recommendation from CSU up-dosing review @Podder2023updosing. #super[b] Responder rate among patients uncontrolled at standard dose @Podder2023updosing. #super[c] Fourfold guideline applies class-wide, but direct loratadine trial data above 20 mg/day are lacking; desloratadine at 4$times$ showed 30% response (Grade B) @Podder2023updosing. #super[d] Studied in chronic cold urticaria at 20 mg and 40 mg; somnolence universal at 40 mg @Magerl2015rupatadine.
@@ -1913,21 +1913,21 @@ Rupatadine occupies a unique position among H1 antihistamines due to its triple 
 
 
 
-caption: [Rupatadine dose escalation protocol for MCAS],
-<tab:rupatadine-escalation>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Step*], [*Dose*], [*Context*],
+    [*Step*], [*Dose*], [*Context*],
 
-[Standard], [10 mg once daily (10 mg/day)], [Initial trial; allergy-equivalent dose],
+    [Standard], [10 mg once daily (10 mg/day)], [Initial trial; allergy-equivalent dose],
 
-[Step 1], [20 mg/day (once or BID split)], [Insufficient response after 2–4 weeks],
+    [Step 1], [20 mg/day (once or BID split)], [Insufficient response after 2–4 weeks],
 
-[Step 2], [20 mg BID (40 mg/day)], [Refractory MCAS; monitor for somnolence],
-
-)
+    [Step 2], [20 mg BID (40 mg/day)], [Refractory MCAS; monitor for somnolence],
+  ),
+  caption: [Rupatadine dose escalation protocol for MCAS],
+) <tab:rupatadine-escalation>
 
 
 === H2 Antihistamine Dosing: Standard vs.\ MCAS
@@ -1939,19 +1939,19 @@ Unlike H1 antihistamines, there is *no equivalent formal guideline* recommending
 
 
 
-caption: [H2 antihistamine dosing: standard vs.\ MCAS therapeutic range],
-<tab:h2-updosing>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Drug*], [*Standard (GI)*], [*MCAS initial*], [*MCAS max*], [*Notes*],
+    [*Drug*], [*Standard (GI)*], [*MCAS initial*], [*MCAS max*], [*Notes*],
 
-[Famotidine], [20 mg/day], [20 mg BID], [40 mg BID#super[a]], [Preferred: minimal CYP interaction],
+    [Famotidine], [20 mg/day], [20 mg BID], [40 mg BID#super[a]], [Preferred: minimal CYP interaction],
 
-[Cimetidine], [400 mg BID], [400 mg BID], [800 mg BID#super[b]], [CYP450 inhibitor; immunomodulatory],
-
-)
+    [Cimetidine], [400 mg BID], [400 mg BID], [800 mg BID#super[b]], [CYP450 inhibitor; immunomodulatory],
+  ),
+  caption: [H2 antihistamine dosing: standard vs.\ MCAS therapeutic range],
+) <tab:h2-updosing>
 
 {
 #super[a] Afrin protocol: 20–40 mg every 12 hours, up to 80 mg every 12 hours in severe cases @Afrin2013MCAS. #super[b] FDA-approved for pathological hypersecretory conditions at 800 mg BID or 400 mg QID (1600 mg/day total). See Section @sec:h2-comparison for cimetidine vs.\ famotidine trade-offs.

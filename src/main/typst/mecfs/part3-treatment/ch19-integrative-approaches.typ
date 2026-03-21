@@ -839,7 +839,7 @@ High-altitude medicine addresses tissue hypoxia from reduced atmospheric oxygen.
   [Compensatory response], [Erythropoiesis, ventilation], [Often inadequate compensation],
   
   ),
-  caption: [High-Altitude vs. ME/CFS Hypoxia],
+  kind: table, supplement: [Table], caption: [High-Altitude vs. ME/CFS Hypoxia],
 ) <tab:altitude-mecfs-comparison>
 
 
@@ -960,7 +960,7 @@ The phenomenological overlap with ME/CFS is striking. PICS may represent acquire
   [Nutritional depletion], [Hypermetabolic state], [Malabsorption, increased utilization],
   
   ),
-  caption: [PICS vs. ME/CFS Mechanisms],
+  kind: table, supplement: [Table], caption: [PICS vs. ME/CFS Mechanisms],
 ) <tab:pics-mecfs-comparison>
 
 
@@ -1150,7 +1150,7 @@ The key difference: Astronauts' symptoms are predictable and (mostly) reversible
   [Autonomic function], [Dysregulated reflexes], [ANS dysfunction],
   
   ),
-  caption: [Microgravity vs. ME/CFS Deconditioning],
+  kind: table, supplement: [Table], caption: [Microgravity vs. ME/CFS Deconditioning],
 ) <tab:space-mecfs-comparison>
 
 
@@ -1358,7 +1358,7 @@ The interventions from multiple fields can be integrated into a comprehensive ap
   [*Chronic Pain*], [LDN, gabapentinoids, acceptance strategies], [Pain reduction, central sensitization, pacing validation],
   
   ),
-  caption: [Cross-Domain Intervention Summary],
+  kind: table, supplement: [Table], caption: [Cross-Domain Intervention Summary],
 ) <tab:cross-domain-summary>
 
 
@@ -1637,7 +1637,7 @@ Table @tab:novel-hypotheses-summary summarizes the mechanistic hypotheses, prop
   [*MCAS-mito crosstalk*], [Histamine receptors on mitochondria impair respiration], [H1/H2 blockers + mitochondrial support], [MCAS comorbidity; histamine-mito link], [MEDIUM: In vitro validation, then clinical trial],
   
   ),
-  caption: [Novel Mechanistic Hypotheses and Therapeutic Opportunities],
+  kind: table, supplement: [Table], caption: [Novel Mechanistic Hypotheses and Therapeutic Opportunities],
 ) <tab:novel-hypotheses-summary>
 
 
@@ -1667,7 +1667,7 @@ Table @tab:novel-hypotheses-summary summarizes the mechanistic hypotheses, prop
   [*Checkpoint inhibitors*], [HIGH RISK; autoimmune AEs], [Very expensive], [Research protocol only; extreme risk], [Tier 3],
   
   ),
-  caption: [Risk-Benefit Assessment of Novel Interventions],
+  kind: table, supplement: [Table], caption: [Risk-Benefit Assessment of Novel Interventions],
 ) <tab:novel-interventions-risk>
 
 

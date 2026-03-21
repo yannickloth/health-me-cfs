@@ -29,7 +29,7 @@ This section synthesizes key research findings integrated from literature review
   [Phair 2019 @phair2019ido], [Metabolomics modeling], [n=52 ME/CFS, n=45 controls], [IDO metabolic trap hypothesis; tryptophan-kynurenine pathway disruption], [Potential therapeutic target (IDO inhibitors)], [MODERATE (hypothesis; needs validation)],
   
   ),
-  caption: [Molecular Mechanism Studies in ME/CFS],
+  kind: table, supplement: [Table], caption: [Molecular Mechanism Studies in ME/CFS],
 ) <tab:molecular-studies>
 
 
@@ -52,7 +52,7 @@ This section synthesizes key research findings integrated from literature review
   [Gottschalk 2023 @Gottschalk2023], [Case series; observational], [n=42 Long COVID patients], [LDN (4.5mg) improved fatigue, brain fog, PEM in 78% of Long COVID patients within 2 months], [LOW-MODERATE (observational; no control group)],
   
   ),
-  caption: [Viral Association Studies],
+  kind: table, supplement: [Table], caption: [Viral Association Studies],
 ) <tab:viral-studies>
 
 
@@ -75,7 +75,7 @@ This section synthesizes key research findings integrated from literature review
   [Bulbule 2024 @Bulbule2024], [Systematic review], [Multiple NK cell studies], [Reduced NK cell cytotoxicity consistently reported across studies; correlation with symptom severity], [MODERATE-HIGH (consistent finding)],
   
   ),
-  caption: [Immune System Studies in ME/CFS],
+  kind: table, supplement: [Table], caption: [Immune System Studies in ME/CFS],
 ) <tab:immune-studies>
 
 
@@ -102,7 +102,7 @@ This section synthesizes key research findings integrated from literature review
   [*Tryptophan-kynurenine*], [Plasma metabolomics], [IDO metabolic trap @phair2019ido], [Potential treatment stratification], [HYPOTHESIS (needs validation)],
   
   ),
-  caption: [Validated and Proposed Biomarkers for ME/CFS],
+  kind: table, supplement: [Table], caption: [Validated and Proposed Biomarkers for ME/CFS],
 ) <tab:biomarker-summary>
 
 
@@ -128,7 +128,7 @@ This section synthesizes key research findings integrated from literature review
   [*Graded Exercise Therapy (GET)*], [Multiple studies; patient surveys], [Patient harm reports; PACE trial discredited], [Causes deterioration in many patients; violates PEM physiology], [HARMFUL; contraindicated], [HIGH (consensus; patient evidence)],
   
   ),
-  caption: [Pharmacological Treatment Evidence in ME/CFS],
+  kind: table, supplement: [Table], caption: [Pharmacological Treatment Evidence in ME/CFS],
 ) <tab:pharmacological-treatments>
 
 
@@ -157,7 +157,7 @@ These interventions lack formal RCT validation but have plausible mechanisms and
   [*NAD+ precursors*], [NR 300–1000mg/day; NMN 250–500mg/day], [Proposed for post-exertional recovery], [Boosts lactate dehydrogenase; accelerates lactate clearance; improves mitochondrial NAD+/NADH ratio (ch19 @spec:nad-lactate)], [SPECULATIVE; mechanistically sound; testable],
   
   ),
-  caption: [Patient-Reported Interventions Requiring Clinical Validation],
+  kind: table, supplement: [Table], caption: [Patient-Reported Interventions Requiring Clinical Validation],
 ) <tab:patient-interventions>
 
 
@@ -184,7 +184,7 @@ These interventions lack formal RCT validation but have plausible mechanisms and
   [*ADHD + hEDS overlap*], [Clinical assessment], [Shared genetic factors proposed; frequent co-occurrence], [May represent distinct phenotype requiring different management (ch19 §hyp:eds-mcas-mecfs)],
   
   ),
-  caption: [Comorbidities Frequently Misdiagnosed as ME/CFS],
+  kind: table, supplement: [Table], caption: [Comorbidities Frequently Misdiagnosed as ME/CFS],
 ) <tab:comorbidity-misdiagnosis>
 
 
@@ -220,7 +220,7 @@ These interventions lack formal RCT validation but have plausible mechanisms and
   [*Metabolic trap (IDO pathway)*], [Tryptophan-kynurenine disruption], [Phair modeling @phair2019ido (ch06 @sec:metabolic-trap)], [Replication; causation; therapeutic validation], [HYPOTHESIS],
   
   ),
-  caption: [Evidence Strength for Proposed Pathophysiological Mechanisms],
+  kind: table, supplement: [Table], caption: [Evidence Strength for Proposed Pathophysiological Mechanisms],
 ) <tab:pathophysiology-evidence>
 
 
@@ -255,7 +255,7 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
   [*GET causes harm*], [Patient deterioration; violates PEM physiology; PACE trial discredited], [Contraindicated; pacing is evidence-based alternative (ch14b @warn:get-harmful)], [VALIDATED; consensus],
   
   ),
-  caption: [Patient-Discovered Patterns and Clinical Rules],
+  kind: table, supplement: [Table], caption: [Patient-Discovered Patterns and Clinical Rules],
 ) <tab:patient-insights>
 
 
@@ -286,7 +286,7 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
   [*Reversibility and spontaneous remission*], [Rare spontaneous remission; WASF3 potentially reversible], [Remission biomarkers; reversibility mechanisms; intervention timing],
   
   ),
-  caption: [Major Research Gaps in ME/CFS],
+  kind: table, supplement: [Table], caption: [Major Research Gaps in ME/CFS],
 ) <tab:research-gaps>
 
 
@@ -317,7 +317,7 @@ Table @tab:cross-domain-parallels summarizes validated interventions from other
   [*Geriatric Frailty*], [Multi-system decline, weakness, falls risk], [Vitamin D optimization, protein supplementation, mobility aids without stigma], [Frailty prevention, function optimization, assistive devices], [IMPLEMENTED; acceptance of limitations],
   
   ),
-  caption: [Cross-Domain Medical Interventions Applicable to ME/CFS],
+  kind: table, supplement: [Table], caption: [Cross-Domain Medical Interventions Applicable to ME/CFS],
 ) <tab:cross-domain-parallels>
 
 
@@ -384,7 +384,7 @@ Table @tab:treatment-quick-reference provides a rapid-access summary for clinic
   [Rituximab (B-cell depletion)], [N/A], [HIGH (Phase III RCT negative)], [No benefit; placebo superior], [N/A], [—],
   
   ),
-  caption: [Evidence-Based Treatment Quick Reference],
+  kind: table, supplement: [Table], caption: [Evidence-Based Treatment Quick Reference],
 ) <tab:treatment-quick-reference>
 
 

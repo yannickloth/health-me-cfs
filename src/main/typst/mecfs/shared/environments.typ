@@ -79,24 +79,25 @@
     0.5pt + frame-color
   }
 
-  // Wrap in figure(kind: ...) so labels placed after the call are referenceable.
-  // Show rules in apply-counter-resets() set placement: none to prevent floating.
+  // figure(kind: ...) is used solely so that labels placed after the call
+  // (e.g. `] <req:icc>`) are referenceable with @label.  The show rules in
+  // apply-counter-resets() strip the figure wrapper, leaving only the
+  // breakable block.
   figure(
-    align(left,
-      block(
-        width:  100%,
-        fill:   bg-color,
-        stroke: stroke-arg,
-        radius: if style == "solid" or style == "double" { 2pt } else { 0pt },
-        inset:  (x: 8pt, y: 6pt),
-        above:  0.8em,
-        below:  0.8em,
-      )[
-        #align(center, text(font: font-heading, weight: "bold", size: 10pt, full-title))
-        #v(4pt)
-        #if body-size != auto { text(size: body-size, body) } else { body }
-      ]
-    ),
+    block(
+      width:  100%,
+      fill:   bg-color,
+      stroke: stroke-arg,
+      radius: if style == "solid" or style == "double" { 2pt } else { 0pt },
+      inset:  (x: 8pt, y: 6pt),
+      above:  0.8em,
+      below:  0.8em,
+      breakable: true,
+    )[
+      #align(center, text(font: font-heading, weight: "bold", size: 10pt, full-title))
+      #v(4pt)
+      #if body-size != auto { text(size: body-size, body) } else { body }
+    ],
     kind: fig-kind,
     supplement: fig-supplement,
     numbering: "1",
@@ -125,38 +126,43 @@
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets(body) = {
-  // Prevent custom-kind figures from floating (environments stay inline)
-  show figure.where(kind: "achievement"): set figure(placement: none)
-  show figure.where(kind: "prediction"): set figure(placement: none)
-  show figure.where(kind: "postdiction"): set figure(placement: none)
-  show figure.where(kind: "warning-env"): set figure(placement: none)
-  show figure.where(kind: "open-question"): set figure(placement: none)
-  show figure.where(kind: "requirement"): set figure(placement: none)
-  show figure.where(kind: "hypothesis"): set figure(placement: none)
-  show figure.where(kind: "axiom"): set figure(placement: none)
-  show figure.where(kind: "assumption"): set figure(placement: none)
-  show figure.where(kind: "consistency"): set figure(placement: none)
-  show figure.where(kind: "recommendation"): set figure(placement: none)
-  show figure.where(kind: "limitation"): set figure(placement: none)
-  show figure.where(kind: "model-insight"): set figure(placement: none)
-  show figure.where(kind: "protocol"): set figure(placement: none)
-  show figure.where(kind: "clinical-finding"): set figure(placement: none)
-  show figure.where(kind: "key-point"): set figure(placement: none)
-  show figure.where(kind: "practical-warning"): set figure(placement: none)
-  show figure.where(kind: "continuation"): set figure(placement: none)
-  show figure.where(kind: "speculation"): set figure(placement: none)
-  show figure.where(kind: "roadmap"): set figure(placement: none)
-  show figure.where(kind: "theorem"): set figure(placement: none)
-  show figure.where(kind: "lemma"): set figure(placement: none)
-  show figure.where(kind: "corollary"): set figure(placement: none)
-  show figure.where(kind: "proposition"): set figure(placement: none)
-  show figure.where(kind: "definition"): set figure(placement: none)
-  show figure.where(kind: "example"): set figure(placement: none)
-  show figure.where(kind: "remark"): set figure(placement: none)
-  show figure.where(kind: "conclusion"): set figure(placement: none)
-  show figure.where(kind: "principle"): set figure(placement: none)
-  show figure.where(kind: "derivation"): set figure(placement: none)
-  show figure.where(kind: "calculation"): set figure(placement: none)
+  // Unwrap environment figures into breakable blocks.
+  // figure(kind: ...) is used only for label/reference mechanics;
+  // the show rule strips the figure wrapper so the inner block can
+  // break across pages.
+  show figure.where(kind: "achievement"): it => align(start, it.body)
+  show figure.where(kind: "prediction"): it => align(start, it.body)
+  show figure.where(kind: "postdiction"): it => align(start, it.body)
+  show figure.where(kind: "warning-env"): it => align(start, it.body)
+  show figure.where(kind: "open-question"): it => align(start, it.body)
+  show figure.where(kind: "requirement"): it => align(start, it.body)
+  show figure.where(kind: "hypothesis"): it => align(start, it.body)
+  show figure.where(kind: "axiom"): it => align(start, it.body)
+  show figure.where(kind: "assumption"): it => align(start, it.body)
+  show figure.where(kind: "consistency"): it => align(start, it.body)
+  show figure.where(kind: "recommendation"): it => align(start, it.body)
+  show figure.where(kind: "limitation"): it => align(start, it.body)
+  show figure.where(kind: "model-insight"): it => align(start, it.body)
+  show figure.where(kind: "protocol"): it => align(start, it.body)
+  show figure.where(kind: "clinical-finding"): it => align(start, it.body)
+  show figure.where(kind: "key-point"): it => align(start, it.body)
+  show figure.where(kind: "practical-warning"): it => align(start, it.body)
+  show figure.where(kind: "continuation"): it => align(start, it.body)
+  show figure.where(kind: "speculation"): it => align(start, it.body)
+  show figure.where(kind: "observation"): it => align(start, it.body)
+  show figure.where(kind: "direction"): it => align(start, it.body)
+  show figure.where(kind: "roadmap"): it => align(start, it.body)
+  show figure.where(kind: "theorem"): it => align(start, it.body)
+  show figure.where(kind: "lemma"): it => align(start, it.body)
+  show figure.where(kind: "corollary"): it => align(start, it.body)
+  show figure.where(kind: "proposition"): it => align(start, it.body)
+  show figure.where(kind: "definition"): it => align(start, it.body)
+  show figure.where(kind: "example"): it => align(start, it.body)
+  show figure.where(kind: "remark"): it => align(start, it.body)
+  show figure.where(kind: "conclusion"): it => align(start, it.body)
+  show figure.where(kind: "principle"): it => align(start, it.body)
+  show figure.where(kind: "derivation"): it => align(start, it.body)
+  show figure.where(kind: "calculation"): it => align(start, it.body)
 
   // Per-chapter counter resets
   show heading.where(level: 1): it => {

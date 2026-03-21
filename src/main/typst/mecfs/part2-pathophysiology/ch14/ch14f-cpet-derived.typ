@@ -281,7 +281,7 @@ Table @tab:cpet-hypotheses summarizes the mechanistic hypotheses and treatment 
   [Metabolic preconditioning (hormesis)], [Very Low], [Low (High Risk)], [Brief sub-threshold stress improves Day 2 CPET metrics], [NOT RECOMMENDED without extensive safety data],
   
   ),
-  caption: [Novel hypotheses arising from two-day CPET findings, ranked by plausibility and therapeutic potential],
+  kind: table, supplement: [Table], caption: [Novel hypotheses arising from two-day CPET findings, ranked by plausibility and therapeutic potential],
 ) <tab:cpet-hypotheses>
 
 

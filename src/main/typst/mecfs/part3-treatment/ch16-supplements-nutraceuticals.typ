@@ -419,7 +419,7 @@ Pediatric dosing for mitochondrial supplements is extrapolated from adult data a
   [PQQ], [10–20mg], [10mg], [Not recommended], [Preliminary evidence only],
   
   ),
-  caption: [Mitochondrial supplement dosing by age group],
+  kind: table, supplement: [Table], caption: [Mitochondrial supplement dosing by age group],
 ) <tab:mito-dosing-by-age>
 
 

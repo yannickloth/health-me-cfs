@@ -1620,7 +1620,7 @@ In severe ME/CFS, CNS energy is so limited that only Tier 1–3 activities (brai
   [*Overall suffering*], [*50–70% reduction*], [*2 weeks combined*],
   
   ),
-  caption: [Expected symptom improvement at 2 weeks with full protocol],
+  kind: table, supplement: [Table], caption: [Expected symptom improvement at 2 weeks with full protocol],
 ) <tab:two-week-relief>
 
 

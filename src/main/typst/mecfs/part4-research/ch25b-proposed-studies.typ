@@ -235,7 +235,7 @@ resources.
   
       
     ),
-  caption: [Coverage of core predictions by existing ME/CFS datasets],
+  kind: table, supplement: [Table], caption: [Coverage of core predictions by existing ME/CFS datasets],
 ) <tab:prediction-dataset-mapping>
 
   

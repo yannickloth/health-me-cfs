@@ -174,46 +174,46 @@ The three-pathway stratification (mild 75–100%, moderate 50–75%, moderate-se
 
 
 
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Severity Tier*], [*Functional Capacity*], [*Employment Feasibility*], [*Care Location*], [*Primary Goal*],
+    [*Severity Tier*], [*Functional Capacity*], [*Employment Feasibility*], [*Care Location*], [*Primary Goal*],
 
-[Mild], [75–100%], [Full-time with accommodations], [Independent], [Prevent progression],
+    [Mild], [75–100%], [Full-time with accommodations], [Independent], [Prevent progression],
 
-[Moderate], [50–75%], [Part-time with accommodations], [Mostly independent], [Stabilize function],
+    [Moderate], [50–75%], [Part-time with accommodations], [Mostly independent], [Stabilize function],
 
-[Borderline Severe], [25–50%], [Not feasible], [Home-dependent], [Prevent catastrophe],
+    [Borderline Severe], [25–50%], [Not feasible], [Home-dependent], [Prevent catastrophe],
 
-[Very Severe], [0–25%], [Impossible], [Bedbound/near-bedbound], [Palliative care],
-
-),
-caption: [ME/CFS Severity Stratification and Care Framework],
-<tab:severity-stratification>
+    [Very Severe], [0–25%], [Impossible], [Bedbound/near-bedbound], [Palliative care],
+  ),
+  caption: [ME/CFS Severity Stratification and Care Framework],
+) <tab:severity-stratification>
 
 
 *Monitoring Frequency Guidelines by Severity Tier*
 
 
 
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columns
 
-[*Severity Tier*], [*Office Visits*], [*Telemedicine*], [*Lab Testing*],
+    [*Severity Tier*], [*Office Visits*], [*Telemedicine*], [*Lab Testing*],
 
-[Mild], [Every 8–12 weeks], [As-needed], [Annual baseline, problem-focused],
+    [Mild], [Every 8–12 weeks], [As-needed], [Annual baseline, problem-focused],
 
-[Moderate], [Every 12 weeks or as-needed], [Every 4–6 weeks], [Quarterly if on protocols, annual baseline],
+    [Moderate], [Every 12 weeks or as-needed], [Every 4–6 weeks], [Quarterly if on protocols, annual baseline],
 
-[Borderline Severe], [1–2 times yearly or emergent], [Every 2–4 weeks], [Minimal; problem-focused only],
+    [Borderline Severe], [1–2 times yearly or emergent], [Every 2–4 weeks], [Minimal; problem-focused only],
 
-[Very Severe], [Emergent only; home visits if needed], [Weekly or every 2 weeks], [None unless emergent],
-
-),
-caption: [Recommended Monitoring Frequency by ME/CFS Severity],
-<tab:monitoring-frequency>
+    [Very Severe], [Emergent only; home visits if needed], [Weekly or every 2 weeks], [None unless emergent],
+  ),
+  caption: [Recommended Monitoring Frequency by ME/CFS Severity],
+) <tab:monitoring-frequency>
 
 
 *Certainty of stratification framework*: 0.70. The stratification approach is grounded in established ME/CFS case definitions (Carruthers ICC criteria) and documented treatment response differences across severity levels. However, individual variation is substantial; some patients at mild severity deteriorate rapidly despite conservative management, while others at borderline severe levels stabilize for years. Clinicians should treat these categories as frameworks, not rigid rules, and adjust based on individual trajectory.
@@ -491,7 +491,7 @@ To operationalize crash prevention, we propose a four-tier severity classificati
   [*Catastrophic*], [$>$300% of safe capacity], [3–12+ months, or never], [Irreversible; permanent 20–50% function loss; triggers Stage N$arrow.r$N+1 cycle entry],
   
   ),
-  caption: [Crash Severity Classification with Dose-Response Predictions],
+  kind: table, supplement: [Table], caption: [Crash Severity Classification with Dose-Response Predictions],
 ) <tab:crash-severity-tiers>
 
 
@@ -945,31 +945,31 @@ Sports medicine-adapted pacing shares superficial similarities with graded exerc
 
 
 
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{0.45100%} \>{\raggedright\arraybackslash}p{0.45100%}}
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    // TODO: fix columnsp{0.45100%} \>{\raggedright\arraybackslash}p{0.45100%}}
 
-[*GET (Inappropriate for ME/CFS)*], [*Sports-Adapted Pacing*],
+    [*GET (Inappropriate for ME/CFS)*], [*Sports-Adapted Pacing*],
 
-[Assumes progressive increase indefinitely], [Includes mandatory regular deloads],
+    [Assumes progressive increase indefinitely], [Includes mandatory regular deloads],
 
-[Treats PEM as psychological barrier to overcome], [Treats PEM as hard biological stop signal],
+    [Treats PEM as psychological barrier to overcome], [Treats PEM as hard biological stop signal],
 
-[Fixed progression schedule regardless of symptoms], [Autoregulatory adjustment based on recovery metrics],
+    [Fixed progression schedule regardless of symptoms], [Autoregulatory adjustment based on recovery metrics],
 
-[Aims to “decondition” from activity avoidance], [Respects energy envelope as physiological reality],
+    [Aims to “decondition” from activity avoidance], [Respects energy envelope as physiological reality],
 
-[Based on deconditioning hypothesis], [Based on metabolic/immune recovery optimization],
+    [Based on deconditioning hypothesis], [Based on metabolic/immune recovery optimization],
 
-[Ignores autonomic dysfunction], [Incorporates HRV/RHR monitoring],
+    [Ignores autonomic dysfunction], [Incorporates HRV/RHR monitoring],
 
-[One-size-fits-all protocol], [Highly individualized to patient metrics],
+    [One-size-fits-all protocol], [Highly individualized to patient metrics],
 
-[Progression is primary goal], [Stability is primary goal; progression secondary if at all],
-
-),
-caption: [Comparison of GET vs. Sports Medicine-Adapted Pacing],
-<tab:get-vs-sports-pacing>
+    [Progression is primary goal], [Stability is primary goal; progression secondary if at all],
+  ),
+  caption: [Comparison of GET vs. Sports Medicine-Adapted Pacing],
+) <tab:get-vs-sports-pacing>
 
 
 The distinction is critical: GET has been shown to be harmful in significant subsets of ME/CFS patients @EatonFitch2019 @Wilshire2018 and is no longer recommended by CDC, NIH, or major ME/CFS specialist organizations @NICE2021mecfs. Sports-adapted pacing, by contrast, is explicitly designed around energy envelope theory and includes structured recovery phases. However, it remains an experimental approach without ME/CFS-specific validation and must be implemented with extreme caution.
@@ -2696,7 +2696,7 @@ After completing the diagnostic battery, create a visual representation of which
   [Endocrine], [Borderline], [Flat cortisol rhythm], [*Priority 2*],
   
   ),
-  caption: [Example: Cycle Status Dashboard for Individual Patient],
+  kind: table, supplement: [Table], caption: [Example: Cycle Status Dashboard for Individual Patient],
 ) <tab:cycle-dashboard-example>
 
 
@@ -2762,7 +2762,7 @@ For patients with limited financial resources, prioritize high-yield, low-cost t
   [Brain PET], [\$3,000–5,000+], [Neuroinflammation: research], [*Poor* (not actionable clinically)],
   
   ),
-  caption: [Cost-Effectiveness Ranking of Cycle Diagnostic Tests],
+  kind: table, supplement: [Table], caption: [Cost-Effectiveness Ranking of Cycle Diagnostic Tests],
 ) <tab:cycle-test-cost-effectiveness>
 
 

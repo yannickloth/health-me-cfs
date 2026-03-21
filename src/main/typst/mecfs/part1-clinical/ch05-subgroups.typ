@@ -102,7 +102,7 @@ Analysis of 83 ME/CFS patients identified three distinct metabolic phenotypes:
   [], [], [overlap with controls], [predominantly mild],
   
   ),
-  caption: [Metabolic phenotypes in ME/CFS],
+  kind: table, supplement: [Table], caption: [Metabolic phenotypes in ME/CFS],
 ) <tab:metabotypes>
 
 
@@ -189,7 +189,7 @@ Different diagnostic criteria identify different patient populations with varyin
   [], [], [highest symptom burden],
   
   ),
-  caption: [Characteristics of patients meeting different diagnostic criteria],
+  kind: table, supplement: [Table], caption: [Characteristics of patients meeting different diagnostic criteria],
 ) <tab:criteria-phenotypes>
 
 
@@ -313,7 +313,7 @@ Based on emerging literature, the following endotype-to-treatment mappings are s
   [LDN; targeted immunomodulation; anti-cytokine therapy], [B], [R],
   
   ),
-  caption: [Comprehensive endotype-to-biomarker-to-treatment mapping in ME/CFS. Evidence: *A* = RCT data; *B* = pilot/open-label; *C* = mechanistic rationale only. Reproducibility: *R* = replicated in $gt.eq$2 independent cohorts; *P* = preliminary (single study or unreplicated).],
+  kind: table, supplement: [Table], caption: [Comprehensive endotype-to-biomarker-to-treatment mapping in ME/CFS. Evidence: *A* = RCT data; *B* = pilot/open-label; *C* = mechanistic rationale only. Reproducibility: *R* = replicated in $gt.eq$2 independent cohorts; *P* = preliminary (single study or unreplicated).],
 ) <tab:endotype-comprehensive>
 
 
@@ -355,7 +355,7 @@ Practical phenotyping need not require research-grade facilities. A tiered appro
     [*Tier 2* \ Specialist], [Tilt table test; NK cell function; lymphocyte subsets; viral serology (EBV, HHV-6, CMV); amino acid/organic acid panel; cortisol rhythm; tryptase], [Immune-predominant vs. autonomic-predominant vs. metabolic-predominant subtype; MCAS status; viral reactivation burden], [Subtype-specific treatment pathway (Section @sec:subtype-approaches); targeted Category B-C trials where biomarkers predict benefit],
     [*Tier 3* \ Research], [Metabolomics; autoantibody panels (GPCR antibodies); TRPM3 function; pharmacogenomics (CYP2D6, CYP2C19, COMT, MTHFR); cytokine panel], [Specific metabolic phenotype (ME-M1/M2/M3); autoimmune subtype; drug metabolism profile; paradoxical reactor risk], [Precision treatment matching (Section @spec:precision-medicine-framework); pharmacogenomic-guided dosing (Section @sec:pharmacogenomics)],
   ),
-  caption: [Tiered prospective phenotyping protocol for ME/CFS treatment selection],
+  kind: table, supplement: [Table], caption: [Tiered prospective phenotyping protocol for ME/CFS treatment selection],
 ) <tab:phenotyping-tiers>
 
 

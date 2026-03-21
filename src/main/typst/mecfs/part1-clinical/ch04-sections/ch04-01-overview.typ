@@ -53,21 +53,16 @@ Brown et al. @Brown2013phenotypes compared phenotypes identified by different c
 
 
 
-caption: [Symptom severity by diagnostic criteria met],
-<tab:criteria-severity>
-#table(
-  columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
-
-[*Criteria Met*], [*n*], [*Cognitive*], [*Autonomic*], [*Symptom Burden*],
-
-[Fukuda only], [45], [Mild], [Mild], [Lowest],
-
-[Fukuda + Canadian], [103], [Moderate], [Moderate], [Intermediate],
-
-[Fukuda + Canadian + ICC], [52], [*Severe*], [*Severe*], [*Highest*],
-
-)
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    [*Criteria Met*], [*n*], [*Cognitive*], [*Autonomic*], [*Symptom Burden*],
+    [Fukuda only], [45], [Mild], [Mild], [Lowest],
+    [Fukuda + Canadian], [103], [Moderate], [Moderate], [Intermediate],
+    [Fukuda + Canadian + ICC], [52], [*Severe*], [*Severe*], [*Highest*],
+  ),
+  caption: [Symptom severity by diagnostic criteria met],
+) <tab:criteria-severity>
 
 
 *Interpretation*: Criteria do not identify different diseases but rather different severity strata of the same condition. Patients meeting multiple criteria have worse outcomes, suggesting the stricter frameworks capture more severely affected individuals.
