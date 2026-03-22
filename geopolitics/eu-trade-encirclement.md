@@ -2,9 +2,9 @@
 
 Look at a map of the European Union's trade connections in early 2022. Then look at the same map in March 2026.
 
-East: sanctioned shut. Southeast: bombed. The Levant: rubble. Africa: coups. Latin America: seized. The Arctic: contested. Canada: under pressure.
+East: sanctioned shut. Southeast: bombed. The Levant has been rubble for a decade, Africa is caught between coups and competing empires, Latin America has been seized and gated, the Arctic is being carved up, and Canada is under tariff pressure that amounts to economic coercion.
 
-What's left open is the Atlantic. Westward. To the United States.
+What's left open is the Atlantic — westward, to the United States.
 
 Each of these closures has its own justification — a real one. Russia's invasion of Ukraine. Iran's nuclear program. Venezuelan narco-trafficking. Sahel instability. None of what follows requires assuming secret coordination between hostile powers. But look at who benefits. When every closure advantages the same actor, and the cumulative result is rising EU dependency on a single partner, you have to at least ask the question.
 
@@ -44,7 +44,7 @@ The Istanbul-Tehran-Islamabad rail service was scheduled to reopen in January 20
 
 Iran had also negotiated the extension of its natural gas export contract to Turkey, currently set to expire in November 2026.
 
-By late 2025, Iran was party to at least ten major transit agreements or frameworks with nine countries (China, Kazakhstan, Uzbekistan, Turkmenistan, Turkey, Russia, Azerbaijan, Afghanistan, Iraq), forming the emerging keystone of both East-West and North-South overland corridors. Total transit cargo through Iran reached 22 million tons in 2024, a threefold increase from 2020 levels. None of this infrastructure was mature. All of it was accelerating.
+By late 2025, Iran was party to at least ten major transit agreements or frameworks with nine countries (China, Kazakhstan, Uzbekistan, Turkmenistan, Turkey, Russia, Azerbaijan, Afghanistan, Iraq), forming the emerging keystone of both East-West and North-South overland corridors. Total transit cargo through Iran reached 22 million tons in 2024, a threefold increase from 2020 levels. None of this infrastructure was mature, but all of it was accelerating.
 
 ### February 28, 2026
 
@@ -58,7 +58,7 @@ The timing, though, is hard to reconcile with a purely nonproliferation motive. 
 
 The consequences hit within days. Iran's Islamic Revolutionary Guard Corps effectively shut the Strait of Hormuz — a chokepoint through which approximately 20% of global petroleum and liquefied natural gas passes. Thousands of vessels were stranded globally, with over 150 at anchor immediately outside the strait. Tanker traffic dropped approximately 70%. Oil prices surged 45% to above $110 per barrel. Oil exports from the region fell 60%, from 25 million barrels per day to around 10 million. China's $100+ billion in BRI infrastructure investment in Iran was jeopardized ([Wikipedia: 2026 Strait of Hormuz Crisis](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis); [CNN: Red Sea Lifeline Also at Risk](https://www.cnn.com/2026/03/17/business/red-sea-trade-chokepoint-iran-war-intl); [WEF: Global Price Tag of War](https://www.weforum.org/stories/2026/03/the-global-price-tag-of-war-in-the-middle-east/); [NPR: Iran War Enters Fourth Week](https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week)).
 
-Every agreement listed above — the 25-Year Program, the six-nation tariff framework, the INSTC roadmap, the Rasht-Astara railway, the Iran-Turkey line, the Five Nations Corridor, the Shalamcheh-Basra project, the Chabahar terminals, the Eastern Corridor Roadmap, the Istanbul-Tehran-Islamabad service — was simultaneously disrupted or destroyed. Some were operational. Most were under construction or in advanced planning. All of them were cancelled by the same event.
+Every agreement listed above — the 25-Year Program, the six-nation tariff framework, the INSTC roadmap, the Rasht-Astara railway, the Iran-Turkey line, the Five Nations Corridor, the Shalamcheh-Basra project, the Chabahar terminals, the Eastern Corridor Roadmap, the Istanbul-Tehran-Islamabad service — was simultaneously disrupted or destroyed. Some were operational, most were under construction or in advanced planning, and all of them were cancelled by the same event.
 
 What was attacked was not a single country's infrastructure. It was the emerging node of a Eurasian overland trade network — still immature, but with committed capital from nine governments and a course that, had it continued, would have offered the EU a non-maritime, non-US-dependent route to Asian goods within the decade.
 
@@ -154,14 +154,14 @@ The compass metaphor holds for the specific domains this article tracks (energy,
 
 The US and Israel both had genuine reasons to act against Iran. Israel faced a nuclear-threshold adversary with active proxy networks — a security situation that, for a country of nine million people in a hostile region, is existential in a way that outsiders sometimes underestimate. The US had its own nonproliferation concerns, its own regional security interests, and its own domestic political dynamics ([Al Jazeera: US and Israeli Interests May Soon Diverge](https://www.aljazeera.com/opinions/2026/3/2/us-and-israeli-interests-may-soon-diverge-on-iran); [Al Jazeera: Geopolitical Analysis of Imposed War](https://www.aljazeera.com/opinions/2026/3/10/geopolitical-analysis-of-the-imposed-war-against-iran); [Arab Center DC: US-Israel War on Iran](https://arabcenterdc.org/resource/the-us-israel-war-on-iran-analyses-and-perspectives/)).
 
-The question this article raises is not whether these justifications were real — they were. It is whether, among the available options (including the Omani diplomatic track), the option chosen happened to also serve interests beyond security. The security justification was sufficient to act. But sufficiency is not the same as exclusivity: a decision can be genuinely motivated by security and simultaneously produce trade-route consequences that benefit the decision-maker's other interests.
+The justifications were real. That's not the question. The question is whether, with several options on the table — including the Omani diplomatic track — the one chosen happened to serve interests beyond security. A decision can be genuinely motivated by security and still produce trade-route consequences that benefit the decision-maker in ways that have nothing to do with nonproliferation.
 
 | Actor | Security motivation (real) | Concurrent structural effect (observable) |
 | --- | --- | --- |
 | Israel | Eliminate nuclear-threshold adversary, degrade proxy networks | Regional rival removed |
 | USA | Nonproliferation, regional stability | Iran-based transit corridors destroyed; IMEC alternative gains momentum; EU pushed toward US-controlled energy and trade channels |
 
-What can be observed is that the structural outcome of the option chosen was to maximize these secondary effects — though whether that outcome influenced the choice is something only the decision-makers know.
+Whether these secondary effects influenced the choice is something only the people in the room know. What anyone can see is that the option chosen was the one that produced them.
 
 ### Who profits
 
@@ -330,7 +330,7 @@ This is a hypothesis, not a proven strategy — and it should be held to that st
 | Northwest (Canada) | USMCA partner | Tariff war, annexation rhetoric | Limited relevance to China link |
 | West (USA) | 24% of EU LNG | 57–60% of EU LNG, rising to 75–80% | US becomes gatekeeper of EU energy + chips + defense |
 
-Two things stand out in this table. First, the EU's trade alternatives have narrowed across every direction simultaneously — some through the EU's own past choices (Russian gas dependency), some through events beyond its control (Levant destruction), some through US actions (Venezuela, Iran, Donroe Doctrine), and some through great-power competition (Arctic, Africa). The causes are heterogeneous. The structural result is uniform.
+Two things stand out in this table. First, the EU's trade alternatives have narrowed across every direction simultaneously — some through the EU's own past choices (Russian gas dependency), some through events beyond its control (Levant destruction), some through US actions (Venezuela, Iran, Donroe Doctrine), and some through great-power competition (Arctic, Africa). The causes are heterogeneous, but the structural result is uniform.
 
 Second — and this one gets buried — the closures don't just isolate the EU. They sever the EU-China commercial link from multiple directions at once. The overland corridor through Iran: destroyed. The maritime route through Hormuz: blocked. Venezuelan oil to China: seized. The Arctic: controlled by Russia, contested by the US. The only major EU-China trade route still functioning at full capacity is maritime via the Cape of Good Hope — which adds 10–14 days and 30% fuel costs compared to the Suez route, structurally disadvantaging Chinese goods relative to American goods that cross the Atlantic in 7–10 days.
 
@@ -442,9 +442,9 @@ Europe keeps looking outward for what it needs while undervaluing what it alread
 
 ## One Door Left Open
 
-This article has traced a pattern. Every major EU trade direction has been closed, degraded, or contested within a four-year window. The closures have heterogeneous causes — some are the EU's own doing (three decades of Russian gas dependency), some result from genuine security crises (Iran's nuclear program, Russia's invasion), some from US policy choices (Venezuela, the Donroe Doctrine, tariffs), and some from broader geopolitical instability (Sahel coups, India-Pakistan). The causes are different. The structural result is the same: the EU's trade alternatives have narrowed, and dependency on the United States — in energy, technology, defense, and market access — has grown.
+This article has traced a pattern. Every major EU trade direction has been closed, degraded, or contested within a four-year window. The closures have heterogeneous causes — some are the EU's own doing (three decades of Russian gas dependency), some result from genuine security crises (Iran's nuclear program, Russia's invasion), some from US policy choices (Venezuela, the Donroe Doctrine, tariffs), and some from broader geopolitical instability (Sahel coups, India-Pakistan). The causes are as varied as the geography, but the structural result is uniform: the EU's trade alternatives have narrowed, and dependency on the United States — in energy, technology, defense, and market access — has grown.
 
-A parallel effect, less discussed, is the severing of the EU-China commercial link. The overland corridor through Iran: destroyed. Maritime through Hormuz: blocked. Venezuelan oil to China: seized. The Arctic: Russian-controlled, US-contested. The only high-capacity China-EU route still functioning runs via the Cape of Good Hope, at a 30% cost premium that structurally advantages American goods. The closures don't just isolate Europe — they separate Europe from its largest source of manufactured imports.
+A parallel effect, less discussed, is the severing of the EU-China commercial link. The overland corridor through Iran is destroyed, the maritime route through Hormuz blocked, Venezuelan oil to China seized, and the Arctic is controlled by Russia while the US contests it. The only high-capacity China-EU route still functioning runs via the Cape of Good Hope, at a 30% cost premium that structurally advantages American goods. The closures don't just isolate Europe — they separate Europe from its largest source of manufactured imports.
 
 Whether any of this was designed is unknowable from the outside. But an administration describing itself as transactional, operating under a self-declared doctrine of hemispheric dominance, and extracting €1.175 trillion in commitments from the EU in a single trade deal, has — at each of the major junctures examined in this article — chosen the option whose structural effect was to increase European dependency and reduce Chinese access. That pattern may be coincidence. It may be opportunism — each crisis exploited for maximum leverage without any grand plan. It may be deliberate design. Or — and this is arguably the most mainstream reading among international relations scholars — it may simply be rational hegemonic strategy practiced openly: the US is doing what dominant powers do, using structural advantages within its institutional frameworks, and the EU's resulting dependency is a known and accepted side-effect rather than either a secret or an accident. The structural outcome is the same regardless of which explanation is correct. But the fourth reading — visible strategy, not covert design — may be the most uncomfortable for Europeans, because it means there is no conspiracy to expose. There is only a partner behaving exactly as its incentives predict.
 
@@ -464,7 +464,7 @@ When every direction but one leads to a closed door, and the remaining door has 
 
 ### A settlement Europe won't want to hear
 
-If this analysis is even partially correct, there is one structural observation that follows and that European policymakers may not want to hear.
+If even part of this analysis holds, there's an implication that European policymakers won't like.
 
 Of all the closed corridors described in this article, only one was closed by EU decision rather than by military destruction, third-party seizure, or uncontrollable instability. The eastern corridor — Russia — is closed by European sanctions. Those sanctions were justified, necessary, and remain in force for good reason. But they are also the one closure the EU has the sovereign power to reverse.
 

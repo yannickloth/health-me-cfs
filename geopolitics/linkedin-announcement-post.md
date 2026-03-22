@@ -2,27 +2,21 @@
 
 ---
 
-One war. One month. Here's what changed.
+Look at a map of the EU's trade connections in early 2022. Then look at March 2026.
 
-Iran was building transit agreements with nine countries — rail links, port terminals, pipeline deals connecting China to Europe by land. On February 28, the US and Israel attacked. The Strait of Hormuz closed. Oil hit $110. Every agreement was suspended or destroyed in a single day.
+East: sanctioned shut. Southeast: bombed. The Levant: rubble. Africa: coups and Chinese infrastructure deals. Latin America: gated through US channels. Arctic: contested. Canada: tariff wall.
 
-That was the southeast corridor. But look at the rest of the map.
+What's left open is the Atlantic. To the United States.
 
-East: Russia — sanctioned, gas banned by 2027-2028. The Levant: rubble. Africa: the EU is being outcompeted by China, the US, and Russia on minerals and infrastructure. Latin America: the "Donroe Doctrine" gates access through US channels, Venezuelan oil seized. The Arctic: three-way contest, EU absent. Canada: tariff war.
+The Iran corridor was the big one. Nine countries had transit agreements in progress — rail, ports, pipelines connecting China to Europe by land. On February 28, the US and Israel struck. Hormuz closed. Oil hit $110. Every agreement froze in a day.
 
-What remains open is the Atlantic. To the United States.
+The numbers tell the dependency story. US share of EU LNG imports: 24% in 2021, 57-60% today. Advanced chips below 14nm: zero EU production. Post-2022 military equipment: 63% from the US.
 
-EU LNG from the US: 24% in 2021. 57-60% today. Advanced chips below 14nm: zero EU production. Post-2022 military equipment: 63% from the US.
+The EU isn't the only one affected. China lost its Iran corridor and Hormuz access, stayed silent — apparently trading Iran for a Taiwan concession. India's Chabahar port was hit on day one. Turkey's Iran railway is frozen. Russia's revenues jumped $19B annualized.
 
-But it's not just the EU being cornered. China lost its Iran corridor, its Venezuelan oil, and its Hormuz access — and stayed silent, apparently trading Iran for a Taiwan concession. India's Chabahar port was struck on day one; it's now accepting 30-day US oil waivers. Russia's revenues jumped $19 billion annualized. Turkey's Iran railway is frozen. Gulf state ports are under Iranian missile fire.
+I wrote a 15,000-word structural analysis tracing each closure, the dependency metrics, and who benefits from the pattern. 130+ sourced references. I don't claim to know the intent behind any individual event. What I can map is the cumulative outcome, and it points in one direction.
 
-The US controls the Atlantic flank (EU dependency), is building the Pacific flank (AUKUS, Quad, Japan at $70B defense), and the Eurasian interior between them is fracturing. Every crisis leaves the US holding more cards.
-
-I don't claim to know the intent. I can map the outcome: rising EU dependency across energy, chips, and defense. A severed EU-China commercial link. And a Europe at risk of becoming a vendor-locked customer rather than a competitor.
-
-Some of this is the EU's own fault. The speed and breadth of what followed is not.
-
-Full structural analysis with 130+ sourced references. Link in comments.
+Link in comments.
 
 ---
 
