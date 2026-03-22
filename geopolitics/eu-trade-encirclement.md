@@ -54,7 +54,7 @@ On February 28, the United States and Israel attacked Iran.
 
 The security justifications were real. Iran had entered 2026 with 440 kg of uranium enriched to 60% purity — enough, if further enriched to weapons-grade, for roughly ten nuclear weapons by most expert estimates. Its ballistic missile program threatened the region. Years of negotiation had not produced a durable constraint. Israel, which has faced existential threats throughout its history, confronted a nuclear-threshold adversary with active proxy networks attacking Israeli territory. These are genuine security imperatives, not manufactured pretexts ([Britannica: 2026 Iran Conflict](https://www.britannica.com/event/2026-Iran-Conflict); [IISS: US-Israel Campaign in Iran](https://www.iiss.org/online-analysis/online-analysis/2026/02/the-usisrael-campaign-in-iran--further-assessments/)).
 
-The timing, though, is hard to reconcile with a purely nonproliferation motive. The Omani breakthrough had just been announced — though Western security analysts were divided on whether it represented a genuine Iranian concession or a tactical delay, and an announcement by Oman's FM is not the same as verified IAEA compliance. Whether the decision to strike predated the diplomatic opening — making the timing coincidental — or whether the breakthrough was itself a factor, we don't know. The Trump administration offered "various and conflicting explanations" for the war: imminent threat, preemption, destroying missile capabilities, securing natural resources, regime change ([Al Jazeera: US-Israeli Strategy Against Iran](https://www.aljazeera.com/opinions/2026/3/16/the-us-israeli-strategy-against-iran-is-working-here-is-why); [Mondoweiss: How Aligned Are US and Israel's Goals?](https://mondoweiss.net/2026/03/how-aligned-are-the-u-s-and-israels-goals-in-iran/)). The multiplicity of justifications does not tell us which one mattered most. It does tell us the administration wanted the war for more than one reason.
+The timing, though, is hard to reconcile with a purely nonproliferation motive. The Omani breakthrough had just been announced — though Western security analysts were divided on whether it represented a genuine Iranian concession or a tactical delay, and an announcement by Oman's FM is not the same as verified IAEA compliance. Whether the decision to strike predated the diplomatic opening — making the timing coincidental — or whether the breakthrough was itself a factor, we don't know. The Trump administration offered "various and conflicting explanations" for the war: imminent threat, preemption, destroying missile capabilities, securing natural resources, regime change ([Al Jazeera: US-Israeli Strategy Against Iran](https://www.aljazeera.com/opinions/2026/3/16/the-us-israeli-strategy-against-iran-is-working-here-is-why); [Mondoweiss: How Aligned Are US and Israel's Goals?](https://mondoweiss.net/2026/03/how-aligned-are-the-u-s-and-israels-goals-in-iran/)). The multiplicity of justifications does not tell us which one mattered most. It does tell us the administration wanted the war for more than one reason. By mid-March, Trump was discussing "winding down" the war while simultaneously deploying more Marines — contradictory signals that fit the pattern of an administration pursuing multiple objectives without a single coherent strategy ([NPR: Trump Mulls 'Winding Down' Iran War](https://www.npr.org/2026/03/20/nx-s1-5754550/israel-strikes-tehran-iran-attacks-gulf)).
 
 The consequences hit within days. Iran's Islamic Revolutionary Guard Corps effectively shut the Strait of Hormuz — a chokepoint through which approximately 20% of global petroleum and liquefied natural gas passes. Thousands of vessels were stranded globally, with over 150 at anchor immediately outside the strait. Tanker traffic dropped approximately 70%. Oil prices surged 45% to above $110 per barrel. Oil exports from the region fell 60%, from 25 million barrels per day to around 10 million. China's $100+ billion in BRI infrastructure investment in Iran was jeopardized ([Wikipedia: 2026 Strait of Hormuz Crisis](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis); [CNN: Red Sea Lifeline Also at Risk](https://www.cnn.com/2026/03/17/business/red-sea-trade-chokepoint-iran-war-intl); [WEF: Global Price Tag of War](https://www.weforum.org/stories/2026/03/the-global-price-tag-of-war-in-the-middle-east/); [NPR: Iran War Enters Fourth Week](https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week)).
 
@@ -100,13 +100,13 @@ Where Africa matters most is in the competition for the inputs of the next econo
 
 The EU remains Africa's largest trading partner and largest investor — EU-Africa goods trade exceeded €300 billion in 2022. But the trend lines are moving against it. China-Africa trade reached $348 billion in 2025, with Beijing announcing a tariff-free regime for African goods. Chinese infrastructure across the continent dwarfs anything Europe offers. The US is focused on the Lobito Corridor in Central Africa — designed explicitly to counter Chinese mineral dominance and secure supply chains for American industry, not for EU benefit. Russia has expanded military influence through the Sahel via Wagner/Africa Corps. The Gulf states are investing in African refining and processing. The EU's flagship initiative — Global Gateway — has been assessed as having "no tangible successes so far," perceived by African governments as "opaque and top-down" rather than a partnership of equals. The carbon border adjustment mechanism (CBAM) is viewed across Africa as Europe shifting its decarbonization costs onto developing economies ([War on the Rocks: Will China Intervene to Protect Investments in Africa?](https://warontherocks.com/2024/10/will-china-intervene-directly-to-protect-its-investments-in-africa/); [NAP Forum: The Failure of EU Strategic Partnerships in Africa](https://www.napforum.org/policy-briefs/the-failure-of-the-eu-s-strategic-partnerships-in-africa-what-s-behind-the-lost-ground-to-china-and-russia); [ECDPM: The EU's Playbook for African Minerals](https://ecdpm.org/work/eus-playbook-african-minerals-amid-chinas-dominance); [Africa Is a Country: The Global Gateway to Nowhere](https://africasacountry.com/2025/05/the-global-gateway-to-nowhere); [Carnegie: Can Europe and Africa Mend Fences?](https://carnegieendowment.org/posts/2025/11/can-europe-and-africa-mend-fences?lang=en)).
 
-Africa is not a closed door. But the EU is being outcompeted for the key — by China on trade and infrastructure, by the US on critical minerals, by Russia on security partnerships, and by its own inability to offer African nations the peer economic relationship they are increasingly demanding. If Europe cannot build a genuine partnership with the continent across the Mediterranean — not the development-aid model, but industrial cooperation, local capacity building, shared regulatory standards — it will find that this door, too, has terms attached. They will just be set by Beijing or Washington instead of Brussels.
+Africa is not a closed door. But the EU is being outcompeted for the key — by China on trade and infrastructure, by the US on critical minerals, by Russia on security partnerships, and by its own inability to offer African nations the peer economic relationship they are increasingly demanding. If Europe cannot build a genuine partnership with the continent across the Mediterranean — not the development-aid model, but industrial cooperation, local capacity building, shared regulatory standards — it will find that this door, too, has terms attached. They will just be set by Beijing or Washington instead of Brussels ([SWP: Strategic Raw Material Cooperation Between Africa and Europe](https://www.swp-berlin.org/en/publication/strategic-raw-material-cooperation-between-africa-and-europe); [Strategy International: A Fragile Opportunity for Europe's Repositioning Through Africa](https://strategyinternational.org/2026/03/19/publication249/)).
 
 ### Southwest — Latin America and the "Donroe Doctrine"
 
 On January 3, 2026, US forces captured Venezuelan President Nicolás Maduro, transferring him to New York on narco-terrorism charges. Venezuela holds approximately 300 billion barrels of proven oil reserves — about 17% of the global total ([Wikipedia: 2026 US Intervention in Venezuela](https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela); [TIME: How Trump's Venezuela Takeover Could Change the World](https://time.com/7343019/venezuela-trump-oil-china/)).
 
-The counter-narcotics justification is real. So is the structural consequence. Before the intervention, 81.7% of Venezuela's oil exports went to China. The seizure severed this flow overnight — tankers heading to China were left idling in Venezuelan waters. The Trump administration announced all Venezuelan oil would move through "authorized channels consistent with US law." Combined with the Iran war (which shut the Strait of Hormuz), roughly 17% of China's total oil imports were cut off simultaneously from two separate directions ([Columbia CGEP: Venezuela-China Oil Flows Threatened](https://www.energypolicy.columbia.edu/venezuela-china-oil-ties-severely-impacted-by-us-action/); [Anadolu Agency: US Intervention Shifts Venezuelan Oil Control](https://www.aa.com.tr/en/economy/us-intervention-shifts-venezuelan-oil-control-china-loses-ground/3792394); [Bloomberg: What Maduro Capture Means for China](https://www.bloomberg.com/news/articles/2026-01-05/china-what-ousting-of-venezuela-s-maduro-means-for-taiwan-oil-imports)).
+The counter-narcotics justification is real. So is the structural consequence. Before the intervention, 81.7% of Venezuela's oil exports went to China (November 2025 figure; TIME reported the share trending toward 90% by year-end). The seizure severed this flow overnight — tankers heading to China were left idling in Venezuelan waters. The Trump administration announced all Venezuelan oil would move through "authorized channels consistent with US law." Combined with the Iran war (which shut the Strait of Hormuz), roughly 17% of China's total oil imports were cut off simultaneously from two separate directions ([Columbia CGEP: Venezuela-China Oil Flows Threatened](https://www.energypolicy.columbia.edu/venezuela-china-oil-ties-severely-impacted-by-us-action/); [Anadolu Agency: US Intervention Shifts Venezuelan Oil Control](https://www.aa.com.tr/en/economy/us-intervention-shifts-venezuelan-oil-control-china-loses-ground/3792394); [Bloomberg: What Maduro Capture Means for China](https://www.bloomberg.com/news/articles/2026-01-05/china-what-ousting-of-venezuela-s-maduro-means-for-taiwan-oil-imports)).
 
 At his January 3 press conference, Trump invoked and "superseded" the Monroe Doctrine, coining the "Donroe Doctrine." The December 2025 National Security Strategy made it formal: "reassert and enforce the Monroe Doctrine to preserve U.S. preeminence in the Hemisphere and deny outside powers control of strategic locations and assets." Beijing recognized the language as targeting Chinese influence — China had invested approximately $67 billion in Venezuela since 2007 ([Wikipedia: Donroe Doctrine](https://en.wikipedia.org/wiki/Donroe_Doctrine); [PIIE: Trump's Monroe Doctrine Aimed at China](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china); [CNBC: Donroe Doctrine and China](https://www.cnbc.com/2026/01/11/trump-venezuela-greenland-donroe-doctrine-china.html); [ODI: Trump's Monroe Doctrine 2.0](https://odi.org/en/insights/trumps-monroe-doctrine-beijings-next-move/); [Atlantic Council: Trump Corollary in Effect](https://www.atlanticcouncil.org/dispatches/the-trump-corollary-is-officially-in-effect/)).
 
@@ -410,7 +410,7 @@ Europe's strongest untapped assets are already inside its borders.
 
 Finland and Sweden's accession to NATO in 2023–2024 unified the Nordic military bloc for the first time in centuries. The NB8 — Denmark, Finland, Norway, Sweden, Iceland, Estonia, Latvia, Lithuania — has become the most operationally capable European military cluster outside France and the UK. Several NB8 members are on track to meet or exceed NATO's 5% GDP defense spending target. Norway and Denmark are introducing F-35s; Finland will receive its first in 2026; Sweden fields roughly 100 Gripen 4.5-generation fighters. Nordic-Baltic defense cooperation is now deeper than at any point since the Cold War ([CSIS: Defending the North Amid Rising Geopolitical Tensions](https://www.csis.org/analysis/defending-north-amid-rising-geopolitical-tensions); [Atlantic Council: Nordic-Baltic States as Europe's Security Engine](https://www.atlanticcouncil.org/dispatches/how-the-nordic-baltic-states-became-europes-reliable-security-engine/); [Carnegie: Reviving Nordic Security and Defense Cooperation](https://carnegieendowment.org/research/2024/10/nordic-baltic-defense-cooperation-nato?lang=en)).
 
-For the dependency question, the critical point is resources. Norway is the EU's largest pipeline gas supplier at roughly 30% of imports — the one major energy source that is neither US-controlled nor Russian. Sweden hosts Europe's largest iron ore mining site (Kiruna) and is already producing rare earths. Finland has lithium and cobalt deposits under development. Greenland — if it remains within the Danish realm and outside US mineral control — holds an estimated 36–42 million metric tons of rare earth oxides. The Nordic Arctic is the one region where the EU has both mineral resources *and* sovereign control ([CSIS: Northern Connections — The European Arctic by 2035](https://www.csis.org/analysis/northern-connections-european-arctic-2035); [EPC: It's a Bargain — The Case of Greenland](https://www.epc.eu/publication/its-a-bargain-the-case-of-greenland/); [Atlantic Council: A New Arctic Strategy for Sweden](https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-new-arctic-strategy-for-sweden/)).
+For the dependency question, the critical point is resources. Norway is the EU's largest pipeline gas supplier at roughly 30% of imports — the one major energy source that is neither US-controlled nor Russian. Sweden hosts Europe's largest iron ore mining site (Kiruna) and is already producing rare earths. Finland has lithium and cobalt deposits under development. Greenland — if it remains within the Danish realm and outside US mineral control — holds an estimated 36–42 million metric tons of rare earth oxides. The Nordic Arctic is the one region where the EU has both mineral resources *and* sovereign control ([CSIS: Northern Connections — The European Arctic by 2035](https://www.csis.org/analysis/northern-connections-european-arctic-2035); [EPC: It's a Bargain — The Case of Greenland](https://www.epc.eu/publication/its-a-bargain-the-case-of-greenland/); [Atlantic Council: A New Arctic Strategy for Sweden](https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/a-new-arctic-strategy-for-sweden/); [Robert Schuman Foundation: EU's Arctic Policy "In a Hove-To Position"](https://www.robert-schuman.eu/en/european-issues/805-the-european-union-s-arctic-policy-in-a-hove-to-position)).
 
 These assets are not uncontested — from either direction. Russia remains a direct military threat in the North — Finland shares a 1,340 km border with Russia, Norway borders Russia in the Arctic, and the Baltic Sea is an increasingly militarized space. Russian submarine activity near Nordic undersea cables and pipelines has intensified since 2022. The Kola Peninsula, home to Russia's Northern Fleet and its nuclear submarine force, is less than 200 km from Norwegian and Finnish territory. Sweden's NATO accession was partly driven by Russian violations of Swedish airspace and aggressive naval posturing in the Baltic. The Nordic defense buildup is not abstract — it is a response to a neighbor that has already demonstrated willingness to invade its other neighbors.
 
@@ -531,6 +531,7 @@ Whether that was the intention is a question this article cannot answer. That it
 ## Sources
 
 ### Iran-China Agreements and BRI Infrastructure
+
 - [Iran-China 25-Year Cooperation Program — Wikipedia](https://en.wikipedia.org/wiki/Iran%E2%80%93China_25-year_Cooperation_Program)
 - [Rasanah IIIS: Iran-China Strategic Partnership Challenges and Prospects](https://rasanah-iiis.org/english/position-estimate/the-iran-china-25-year-comprehensive-strategic-partnership-challenges-and-prospects/)
 - [Ponderwall: China-Iran Rail Corridor Transforming Eurasian Trade](https://ponderwall.com/index.php/2025/05/25/china-iran-rail-corridor/)
@@ -543,6 +544,7 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Five Nations Railway Corridor — Wikipedia](https://en.wikipedia.org/wiki/Five_Nations_Railway_Corridor)
 
 ### Iran Regional Transit Agreements
+
 - [Tehran Times: Iran-Russia-Azerbaijan Railway MOU](https://www.tehrantimes.com/news/520951/Iran-Russia-Azerbaijan-expand-railway-co-op-in-North-South)
 - [Caspian Post: Iran Expands Key Trade Corridor Rasht to Astara](https://caspianpost.com/iran/iran-expands-key-trade-corridor-from-rasht-to-astara-linking-to-europe)
 - [Russia's Pivot to Asia: INSTC Deal Significance](https://russiaspivottoasia.com/new-instc-russia-azerbaijan-iran-deal-is-hugely-significant-analysis/)
@@ -553,6 +555,7 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Caspian News: Rasht-Astara Railway Discussion](https://caspiannews.com/news-detail/azerbaijan-russia-iran-to-discuss-rasht-astara-railway-construction-2025-2-4-28/)
 
 ### 2026 Iran War and Consequences
+
 - [2026 Iran War — Wikipedia](https://en.wikipedia.org/wiki/2026_Iran_war)
 - [Britannica: 2026 Iran Conflict](https://www.britannica.com/event/2026-Iran-Conflict)
 - [2026 Strait of Hormuz Crisis — Wikipedia](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis)
@@ -565,6 +568,7 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Bloomberg: Energy Infrastructure Damaged in Iran War](https://www.bloomberg.com/news/articles/2026-03-19/here-s-a-list-of-energy-infrastructure-damaged-in-iran-war)
 
 ### US-Israel Strategic Alignment
+
 - [Al Jazeera: US-Israeli Strategy Against Iran Is Working](https://www.aljazeera.com/opinions/2026/3/16/the-us-israeli-strategy-against-iran-is-working-here-is-why)
 - [Al Jazeera: What US-Israeli Targets Reveal About Iran War Goals](https://www.aljazeera.com/news/2026/3/20/what-us-israeli-targets-reveal-about-iran-war-goals-three-weeks-in)
 - [Al Jazeera: US and Israeli Interests May Soon Diverge](https://www.aljazeera.com/opinions/2026/3/2/us-and-israeli-interests-may-soon-diverge-on-iran)
@@ -573,6 +577,7 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Arab Center DC: US-Israel War on Iran Analyses](https://arabcenterdc.org/resource/the-us-israel-war-on-iran-analyses-and-perspectives/)
 
 ### Russia as Silent Beneficiary
+
 - [Al Jazeera: Russia the Only Winner of US-Israel War on Iran](https://www.aljazeera.com/news/2026/3/10/russia-the-only-winner-of-us-israel-war-on-iran-eu-council-president)
 - [Foreign Affairs: Why Is Russia Watching Iran Burn?](https://www.foreignaffairs.com/russia/why-russia-watching-iran-burn)
 - [Carnegie: Why Are China and Russia Not Rushing to Help Iran?](https://carnegieendowment.org/russia-eurasia/politika/2026/03/china-russia-rescue-iran)
@@ -587,12 +592,14 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Axios: Russia and Oil Exporters Are Winning](https://www.axios.com/2026/03/11/oil-iran-china-russia)
 
 ### Russia-China Tensions
+
 - [PIR Center: Dragon, Bear, and Hard Times](https://pircenter.org/en/editions/%E2%84%96-3-12-2026-dragon-bear-and-hard-times-the-current-state-and-prospects-of-russian-chinese-relations/)
 - [Hudson Institute: Divergent Goals Will Tear Apart Russia-China Alliance](https://www.hudson.org/security-alliances/divergent-goals-will-tear-apart-russia-china-alliance-miles-yu)
 - [CNA: Russia and China Have Drawn Closer — Three Ways to Wedge Them Apart](https://www.cna.org/our-media/indepth/2025/08/russia-and-china-have-drawn-closer)
 - [CFR: China-Russia Relationship](https://www.cfr.org/backgrounders/china-russia-relationship-xi-putin-taiwan-ukraine)
 
 ### Venezuela and the Donroe Doctrine
+
 - [2026 US Intervention in Venezuela — Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela)
 - [TIME: How Trump's Venezuela Takeover Could Change the World](https://time.com/7343019/venezuela-trump-oil-china/)
 - [Columbia CGEP: Venezuela-China Oil Flows Threatened](https://www.energypolicy.columbia.edu/venezuela-china-oil-ties-severely-impacted-by-us-action/)
@@ -606,6 +613,7 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Global Witness: Why the US Attacked Venezuela](https://globalwitness.org/en/campaigns/fossil-fuels/why-the-us-attacked-venezuela-oil-sanctions-and-maduro/)
 
 ### EU Energy Dependency
+
 - [IEEFA: EU Risks 80% US LNG Dependency by 2030](https://ieefa.org/resources/eu-risks-new-energy-dependence-us-could-supply-80-its-lng-imports-2030)
 - [EU Council: Where Does the EU's Gas Come From?](https://www.consilium.europa.eu/en/infographics/where-does-the-eu-s-gas-come-from/)
 - [Natural Gas Intel: Norwegian Decline Opens Path for US LNG](https://naturalgasintel.com/news/norwegian-natural-gas-output-decline-widens-path-for-more-us-lng-to-europe/)
@@ -614,12 +622,14 @@ Whether that was the intention is a question this article cannot answer. That it
 - [EC: REPowerEU Phase Out of Russian Energy](https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports_en)
 
 ### IMEC — The US-Backed Alternative
+
 - [Atlantic Council: IMEC Connectivity Report](https://www.atlanticcouncil.org/in-depth-research-reports/report/the-india-middle-east-europe-economic-corridor-connectivity-in-an-era-of-geopolitical-uncertainty/)
 - [IMEC Official Site](https://www.imec.international/)
 - [GMF: IMEC's Comeback](https://www.gmfus.org/news/imecs-comeback)
 - [Saudi Logistics Consulting: Landbridge Project 2026](https://saudilogisticsconsulting.com/insights/articles/saudi-landbridge-project-2026-updates-railway-logistics)
 
 ### Arctic Routes
+
 - [CNN: China Launches Arctic Shipping Route](https://www.cnn.com/2025/10/03/climate/china-arctic-shipping-northern-sea-route)
 - [Eurasia Review: Polar Silk Road — China's Arctic Ambitions](https://www.eurasiareview.com/26012026-the-polar-silk-road-chinas-strategic-arctic-ambitions-analysis/)
 - [Geopolitical Monitor: Arctic Strategic Stakes](https://www.geopoliticalmonitor.com/arctic-geopolitics-strategic-stakes-for-china-russia-and-the-u-s/)
@@ -628,12 +638,14 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Arctic Institute: Russia-China Northern Sea Route Divergences](https://www.thearcticinstitute.org/pragmatic-approach-conceptual-divergences-russia-china-relations-case-northern-sea-route/)
 
 ### Canada and Trade Coercion
+
 - [The Hill: Trump Annexation Canada Trade Threat](https://thehill.com/homenews/administration/5072926-trump-annexation-canada-trade-threat/)
 - [Al Jazeera: Trump Effect on Canada](https://www.aljazeera.com/news/2025/2/12/trump-effect-how-us-tariffs-51st-state-threats-are-shaking-up-canada)
 - [Fraser Institute: Canada Weathers Trump's Second Term](https://www.fraserinstitute.org/commentary/year-review-canada-weathers-first-year-trumps-second-term)
 - [Wikipedia: 2025-2026 US Trade War with Canada and Mexico](https://en.wikipedia.org/wiki/2025%E2%80%932026_United_States_trade_war_with_Canada_and_Mexico)
 
 ### Africa — Instability and EU Competition
+
 - [Africa Center: Ten African Security Trends 2025](https://africacenter.org/spotlight/2025-security-trends-graphics-sudan-sahel-nigeria-somalia-drones-china/)
 - [Amani Africa: Gathering Storm Facing Africa in 2026](https://amaniafrica-et.org/the-gathering-storm-facing-africa-in-2026-entrenching-conflicts-fractured-order-and-eroding-agency/)
 - [Chatham House: Africa in 2026](https://www.chathamhouse.org/2026/01/africa-2026-global-uncertainty-demands-regional-leadership)
@@ -656,12 +668,14 @@ Whether that was the intention is a question this article cannot answer. That it
 - [Robert Schuman Foundation: EU's Arctic Policy "In a Hove-To Position"](https://www.robert-schuman.eu/en/european-issues/805-the-european-union-s-arctic-policy-in-a-hove-to-position)
 
 ### EU-Mercosur and Strategic Autonomy
+
 - [Foreign Policy: EU-Mercosur as Strategic Hedge](https://foreignpolicy.com/2026/01/14/eu-mercosur-trade-deal-trump-donroe-doctrine/)
 - [CNN: EU-Mercosur Landmark Agreement](https://www.cnn.com/2026/01/17/americas/mercosur-eu-trade-agreement-latam-intl)
 - [Brussels Report: EU-Mercosur Strategic Moment](https://www.brusselsreport.eu/2026/03/02/europes-strategic-moment-the-eu-mercosur-agreement-moves-forward)
 - [Atlantic Council: EU-Mercosur Largest Free Trade Area](https://www.atlanticcouncil.org/dispatches/eu-and-mercosur-are-creating-one-of-the-worlds-largest-free-trade-areas/)
 
 ### US Corporate Influence and Trade Policy
+
 - [CAP: Trump's Trade Deals as Corporate Short-Termism](https://www.americanprogress.org/article/the-trump-administrations-trade-deals-are-the-epitome-of-corporate-style-short-termism-in-foreign-policy-and-the-american-people-will-pay-the-price-for-years-to-come/)
 - [CAP: 100 Days of Trump's Foreign Policy](https://www.americanprogress.org/article/100-days-of-the-trump-administrations-foreign-policy-global-chaos-american-weakness-and-human-suffering/)
 - [Atlantic Council: Most Significant Question for Trump's America in 2026](https://www.atlanticcouncil.org/content-series/inflection-points/the-most-significant-question-for-trumps-america-in-2026-what-sticks/)

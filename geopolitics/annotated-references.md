@@ -1844,3 +1844,14 @@ Each entry includes URL, publisher, date accessed, and a brief annotation of wha
 - **Publisher**: Chinese Ministry of Foreign Affairs (official)
 - **Accessed**: 2026-03-22
 - **Content**: Official Chinese government position on the Iran strikes. Diplomatic language, calls for restraint. Primary source for China's public stance.
+
+---
+
+## India in the 2026 Iran War (Additional)
+
+### American Bazaar: India Faces Energy Risks as Hormuz Closure Disrupts Global Oil Flows
+
+- **URL**: <https://americanbazaaronline.com/2026/03/16/india-faces-energy-risks-as-hormuz-closure-disrupts-global-oil-flows-476917/>
+- **Publisher**: American Bazaar
+- **Accessed**: 2026-03-22
+- **Content**: India's specific energy vulnerability: 50-53% of crude (2.5-2.8 million bpd) from Middle Eastern suppliers via Hormuz. Strategic petroleum reserves of 5.33 million metric tons covering ~9.5 days. Oil marketing companies hold additional 64.5 days storage, still below 90-day minimum.
