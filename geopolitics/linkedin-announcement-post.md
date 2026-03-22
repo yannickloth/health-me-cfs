@@ -2,29 +2,29 @@
 
 ---
 
-I looked at a map. Then I counted the doors.
+I looked at a map of the EU's trade connections in 2022. Then I looked at the same map in March 2026.
 
-East — closed. Russia sanctions, gas phased out by 2027.
-Southeast — destroyed. Iran was the keystone of twelve transit agreements with nine countries. The war ended all of them in a single day.
-South through the Levant — rubble since before 2022.
-South through Africa — nine coups since 2020.
-Southwest through Latin America — the "Donroe Doctrine" now gates access through US-controlled channels.
-North through the Arctic — contested, with the US negotiating mineral rights in Greenland.
-Northwest through Canada — under "51st state" pressure and tariff coercion.
+East — sanctioned shut, gas phased out by 2027.
+Southeast — Iran was building transit agreements with nine countries. The war ended all of them.
+The Levant — rubble.
+Africa — contested, nine coups since 2020.
+Latin America — the "Donroe Doctrine" gates access through US channels.
+The Arctic — three-way contest; EU has no icebreakers and no seat.
+Canada — tariff war, annexation rhetoric.
 
-What's left open? West. Across the Atlantic. To the United States.
+What remains open is the Atlantic. To the United States.
 
-EU LNG from the US: 24% in 2021. 57% today. Projected 75-80% by 2030. Advanced semiconductors? Zero EU production below 14nm — the only alternative fabs being built are in Arizona. Post-2022 military equipment? 63% purchased from the US.
+US LNG share of EU imports: 24% in 2021. 57-60% today. Projected 75-80% by 2030. Advanced semiconductors below 14nm: zero EU production — the backup fabs are being built in Arizona. Post-2022 military equipment: 63% from the US.
 
-Every closed door has its own legitimate justification. Nuclear threats, drug trafficking, sovereignty defense, hemisphere security. I'm not arguing conspiracy.
+Each closure has its own real justification. Russia's invasion. Iran's nuclear program. Venezuelan narco-trafficking. I'm not arguing conspiracy — I don't have access to the deliberations that would prove intent.
 
-I'm arguing something more uncomfortable: that individually defensible decisions have produced a collectively coherent outcome — one that structurally benefits US corporate interests at Europe's expense. And the administration pursuing this has explicitly described its approach as transactional, coined its own doctrine of hemispheric dominance, and extracted 1.175 trillion euros in commitments from the EU in a single trade deal.
+What I'm arguing is that the pattern deserves scrutiny. Individually defensible decisions have produced a collectively coherent outcome: rising EU dependency on the US across energy, chips, and defense, and a simultaneous severing of the EU-China commercial link from multiple directions at once.
 
-When every road closure benefits the same party, and that party openly calls itself a dealmaker, the question shifts from "is this coordinated?" to "does it need to be?"
+Some of this is the EU's own fault — three decades of cheap Russian gas against repeated warnings. But the speed and breadth of what followed goes beyond correcting past mistakes.
 
-I wrote the full analysis with 90+ sourced references. Link in comments.
+I wrote the full structural analysis with 90+ sourced references. Link in comments.
 
 ---
 
-*Post length: ~1,500 characters (well within LinkedIn's 3,000-char limit for posts)*
+*Post length: ~1,400 characters (within LinkedIn's 3,000-char limit)*
 *Article link goes in first comment for algorithmic reach*

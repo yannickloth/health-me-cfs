@@ -1777,3 +1777,70 @@ Each entry includes URL, publisher, date accessed, and a brief annotation of wha
 - **Publisher**: IRIS (French Institute for International and Strategic Affairs)
 - **Accessed**: 2026-03-22
 - **Content**: French perspective on reconciling EU defense industrial sovereignty with NATO obligations and US interoperability requirements.
+
+---
+
+## China's Role in the 2026 Iran War
+
+### Al Jazeera: China's Silence on Iran Reveals Its True Priorities
+
+- **URL**: <https://www.aljazeera.com/opinions/2026/3/19/chinas-silence-on-iran-reveals-its-true-priorities>
+- **Publisher**: Al Jazeera (opinion)
+- **Accessed**: 2026-03-22
+- **Content**: Key source. Pre-war Xi-Trump phone call: Chinese readout emphasized Taiwan, omitted Iran. Trump delayed multibillion-dollar Taiwan arms package. Beijing traded Iran for Taiwan concession. "When core interests are at stake, even close partners are expendable." China assessed conflict survivable if under four months. Any post-war Iranian government remains dependent on Chinese investment.
+
+### Al Jazeera: How Russia and China Help Iran See the Battlefield
+
+- **URL**: <https://www.aljazeera.com/opinions/2026/3/12/the-war-of-signals-how-russia-and-china-help-iran-see-the-battlefield>
+- **Publisher**: Al Jazeera (opinion)
+- **Accessed**: 2026-03-22
+- **Content**: China provided covert intelligence support: satellite navigation, radar systems, electronic warfare technologies augmenting Iran's targeting. Indirect support without overt military confrontation.
+
+### Small Wars Journal: China-Iran Intelligence Cooperation in the 2026 War
+
+- **URL**: <https://smallwarsjournal.com/2026/03/20/china-iran-intelligence-2026-war/>
+- **Publisher**: Small Wars Journal
+- **Accessed**: 2026-03-22
+- **Content**: Detailed analysis of Chinese intelligence and technology support to Iran. Spare parts for missiles, satellite data, electronic warfare — enough to augment targeting without triggering direct US-China confrontation.
+
+### The Diplomat: The Decapitation of Iran — What Tehran's Chaos Means for China
+
+- **URL**: <https://thediplomat.com/2026/03/the-decapitation-of-iran-what-tehrans-chaos-means-for-china/>
+- **Publisher**: The Diplomat
+- **Accessed**: 2026-03-22
+- **Content**: China's $400B deal at risk of "toxic assets." Leadership decapitated, billions in committed capital across telecom to transit networks jeopardized. China invested $100B+ in Iranian energy and infrastructure. Experts assess China "left Iran on its own."
+
+### CNN: The US Just Took Out Two China-Friendly Leaders in Two Months
+
+- **URL**: <https://www.cnn.com/2026/03/04/china/china-us-iran-war-response-analysis-intl-hnk>
+- **Publisher**: CNN
+- **Accessed**: 2026-03-22
+- **Content**: Analysis of China's muted response to loss of both Maduro (January) and Iranian leadership (February). Two China-friendly governments removed in two months with minimal Chinese pushback.
+
+### Euronews: China Treads Carefully on Iran War
+
+- **URL**: <https://www.euronews.com/business/2026/03/18/china-treads-carefully-on-iran-war-as-it-balances-energy-security-and-neutrality>
+- **Publisher**: Euronews
+- **Accessed**: 2026-03-22
+- **Content**: China "sees no benefit in heightening tension with the US over Iran." Greater importance attached to maintaining trade truce and bilateral stability. Energy security concerns centered on Hormuz but assessed as manageable.
+
+### Chatham House: China Is Playing the Long Game Over Iran
+
+- **URL**: <https://www.chathamhouse.org/2026/02/china-playing-long-game-over-iran>
+- **Publisher**: Chatham House
+- **Accessed**: 2026-03-22
+- **Content**: China has always avoided backing Iran militarily. Not providing security guarantees "gives China greater flexibility, reduces the risk of strategic overstretch." US maximum pressure may inadvertently benefit China long-term by deepening Iran's dependency on Beijing.
+
+### India.com: China's $400 Billion Investment in Iran at Risk
+
+- **URL**: <https://www.india.com/news/world/china-xi-jinping-iran-israel-united-states-donald-trump-white-house-russia-iran-north-korea-cuba-venezuela-netanyahu-crude-oil-8333358/>
+- **Publisher**: India.com
+- **Accessed**: 2026-03-22
+- **Content**: "China's master plan fails" framing. $400B investment at risk. Assessment that Beijing's biggest gamble on Tehran fell flat. Indian perspective on China's strategic setback.
+
+### China MFA: Spokesperson Press Conference March 2, 2026
+
+- **URL**: <https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202603/t20260302_11867202.html>
+- **Publisher**: Chinese Ministry of Foreign Affairs (official)
+- **Accessed**: 2026-03-22
+- **Content**: Official Chinese government position on the Iran strikes. Diplomatic language, calls for restraint. Primary source for China's public stance.
