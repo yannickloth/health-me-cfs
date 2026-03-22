@@ -88,6 +88,17 @@ Neurological interventions target the central nervous system dysfunction documen
     - *Transcranial direct current stimulation (tDCS)*: Studies suggest that non-invasive brain stimulation targeting the dorsolateral prefrontal cortex may improve cognitive function and fatigue @Li2022tDCS. The technique is safe, low-cost, and amenable to home use, making it attractive for ME/CFS. Controlled trials are in early stages
     - *Transcutaneous vagus nerve stimulation (tVNS)*: Vagus nerve stimulation modulates autonomic function and reduces neuroinflammation @NatelsonTVNS2022. A multi-site RCT is currently recruiting. Home-use auricular tVNS devices are available and being explored in patient communities @Lugg2024MECFS
 
+== Neuroendocrine Interventions
+<sec:trials-neuroendocrine>
+
+=== Cortene CT38: CRH Receptor Targeting
+
+Cortene Inc.\ developed CT38, a peptide agonist targeting the corticotropin-releasing hormone receptor type 2 (CRH2R), based on the hypothesis that dysregulated CRH signalling contributes to ME/CFS pathophysiology @MECFSScience2021ct38. CRH is a key mediator of the stress response and plays a role in autonomic regulation, immune modulation, and energy metabolism---all systems disrupted in ME/CFS (Chapter @ch:endocrine). The pilot trial (InTiME study) tested a single intravenous infusion of CT38, with results suggesting transient benefit in some participants but insufficient evidence for efficacy conclusions given the small sample and open-label design @MECFSScience2021ct38. The CRH axis remains an underexplored therapeutic target in ME/CFS, and larger controlled trials would be needed to evaluate this approach.
+
+=== Qure Study: Post-Infectious Fatigue Syndrome
+
+The Qure study tested a cognitive behavioural intervention for Q-fever fatigue syndrome (QFS), a post-infectious chronic fatigue condition following _Coxiella burnetii_ infection @MECFSScience2020qure. QFS shares substantial clinical overlap with post-infectious ME/CFS, making this trial relevant to the broader question of whether behavioural interventions can modify post-infectious fatigue states. The mecfsscience.org analysis contextualised the Qure results within the broader evidence that CBT-type interventions show modest subjective improvements in fatiguing conditions but fail to modify objective disease markers or demonstrate sustained benefit---consistent with the pattern observed in PACE, FITNET-NHS, and other ME/CFS trials.
+
 == Exercise and Rehabilitation Trials
 <sec:trials-exercise>
 
@@ -142,6 +153,12 @@ The ME/CFS clinical trial landscape has expanded significantly since 2020, partl
     - *Wearable pacing study* (Scripps Research): Validating wearable-guided pacing protocols
 
 Patients seeking to participate in clinical trials can search ClinicalTrials.gov (filtering by “myalgic encephalomyelitis” or “chronic fatigue syndrome”), contact national ME/CFS organizations for trial registries, or consult the research registry in Appendix @app:research-registry.
+
+
+
+=== Annual Research Landscape: 2024--2025
+
+The mecfsscience.org annual reviews provide valuable overviews of the evolving research landscape. Key developments in 2024 included the UK Biobank biomarker analyses, publication of the NIH intramural study results, the MAGENTA and FITNET-NHS treatment trial failures, updated prevalence studies, and Norwegian wage data documenting economic impact @MECFSScience2024yearreview. In 2025, the DecodeME GWAS dominated the research landscape (Section @sec:decodeme-loci of Chapter @ch:genetics-epigenetics), alongside immune null findings challenging the systemic inflammation hypothesis (Chapter @ch:immune-dysfunction), emerging muscle pathology studies, CRH neuron autopsy findings, and the daratumumab pilot trial @MECFSScience2025yearreview. Both reviews note that while the pace of discovery has accelerated, translation to clinical benefit remains frustratingly slow---a consequence of the funding disparities documented in Chapter @ch:controversies, Section @sec:funding-disparities.
 
 == Synthesis and Meta-Analyses
 <sec:trials-synthesis>

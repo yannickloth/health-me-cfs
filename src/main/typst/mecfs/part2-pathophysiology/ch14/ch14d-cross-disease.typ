@@ -78,6 +78,10 @@ ME/CFS overlaps heavily with autonomic dysfunction syndromes:
     - Both show autoantibodies to adrenergic receptors
     - _Speculative link:_ POTS may represent ME/CFS with predominant autonomic lock; or both may be manifestations of autoimmune autonomic ganglionopathy spectrum
 
+#limitation(title: [POTS Diagnostic Validity: Threshold, Specificity, and Reproducibility Concerns])[
+The assumed ME/CFS--POTS association deserves critical scrutiny @MECFSScience2024pots. The defining POTS criterion---a $gt.eq$30 bpm heart rate increase on standing---has poor diagnostic specificity: 10--15% of healthy controls meet this threshold in population studies. Among ME/CFS patients with orthostatic intolerance symptoms, only 21% meet formal POTS criteria, indicating that the majority of orthostatic symptoms in ME/CFS are not captured by the POTS diagnosis. Symptom severity correlates poorly with heart rate increase magnitude, explaining only approximately 2% of variance---patients with modest tachycardia can be severely symptomatic, and vice versa. Perhaps most concerning, POTS test results show poor day-to-day reproducibility, with patients meeting criteria on one day but not the next. These limitations suggest that POTS as currently defined may be a poorly specified diagnostic category rather than a coherent pathophysiological entity, and that its apparent comorbidity with ME/CFS may partly reflect diagnostic threshold artefacts.
+]
+
 *Inappropriate Sinus Tachycardia.*
 
     - Elevated resting heart rate without clear cause
@@ -303,7 +307,15 @@ Joint hypermobility prevalence varies across conditions:
     - Long COVID: approximately 30%
     - Fibromyalgia: approximately 27%
 
-The enrichment of hypermobility in ME/CFS and related conditions is statistically significant and biologically meaningful.
+The enrichment of hypermobility in ME/CFS and related conditions is statistically significant, though its biological significance is debated (see limitation below).
+
+#limitation(title: [hEDS Diagnostic Validity: No Identified Connective Tissue Defect])[
+The assumed ME/CFS--hEDS association must be interpreted in light of fundamental problems with the hEDS diagnosis itself @MECFSScience2024heds. Unlike other Ehlers-Danlos subtypes (classical, vascular, kyphoscoliotic), which have identified genetic and structural defects, hEDS has no identified connective tissue defect despite extensive investigation. The diagnostic features used to identify hEDS---joint hypermobility, skin hyperextensibility, and associated symptoms---are extremely common in the general population (10--20% prevalence for hypermobility alone), raising questions about whether hEDS represents a distinct pathological entity or a statistical tail of normal variation.
+
+Further challenging the ME/CFS--hEDS--POTS triad, the autonomic profile of hEDS patients resembles fibromyalgia more closely than it resembles other EDS types @MECFSScience2024heds. If hEDS shared the same structural connective tissue mechanism as classical or vascular EDS, one would expect similar autonomic phenotypes across EDS types---but this is not observed. The hEDS-specific autonomic features may reflect central sensitisation or functional nervous system changes rather than peripheral structural defects.
+
+These observations do not negate the clinical reality that patients with hypermobility and ME/CFS form a distinct, more severely affected phenotype (@Mudie2024hypermobility). However, they suggest that the mechanistic pathways proposed in this section (Pathways 1--5) should be treated as more speculative than the clinical epidemiology alone would indicate, because the upstream assumption---that hEDS reflects a specific connective tissue defect---remains unvalidated.
+]
 
 *Clinical Phenotype Differences.*
 ME/CFS patients with joint hypermobility (JH+) compared to those without (JH$-$) show @Mudie2024hypermobility:
@@ -538,6 +550,17 @@ The diagnostic implications are bidirectional. The average diagnostic delay for 
     - Antibodies against neural proteins
     - Often triggered by infection
     - _Speculative link:_ ME/CFS might be low-grade autoimmune encephalitis affecting widespread but subtle neural dysfunction
+
+*Type 1 Narcolepsy.*
+
+Type 1 narcolepsy is now confirmed as autoimmune: CD4+ T-cells selectively destroy hypocretin (orexin)-producing neurons in the lateral hypothalamus, with CD4+ T-cell density 11-fold higher than other T-cell types in the affected region @Shan2026narcolepsy. The immune signatures persist decades after initial neuronal destruction. The condition is frequently post-infectious in origin (notably H1N1, _Streptococcus_) and strongly associated with HLA-DQB1\*06:02.
+
+The ME/CFS parallels are notable:
+
+    - *Orexin system involvement:* Reduced orexin-A levels have been reported in ME/CFS across multiple studies @LopezAmador2025orexin, and cytokine-driven PGE#sub[2] suppression of orexin neurons is proposed as a mechanism for inflammation-induced fatigue and sleep pressure (see Hypothesis @hyp:maladaptive-sickness-behavior, Chapter @ch:immune-dysfunction)
+    - *Post-infectious autoimmune trigger:* Both conditions arise after infection via autoimmune attack on CNS targets—orexin neurons in narcolepsy, potentially broader neural and autonomic targets in ME/CFS
+    - *Comorbid presentation:* A case of ME/CFS + POTS + narcolepsy with compound heterozygous MTHFR mutations @Liao2021 suggests shared vulnerability in some patients
+    - _Speculative link:_ If ME/CFS involves autoimmune suppression of orexin neuron _function_ (via receptor autoantibodies or cytokine-mediated inhibition) rather than outright neuronal destruction, this would explain the overlapping sleep-wake dysregulation without the complete hypocretin deficiency seen in narcolepsy. The narcolepsy finding also raises the question of whether early immunotherapy could prevent orexin system damage in ME/CFS patients showing narcolepsy-pattern polysomnography
 
 #open-question(title: [Subclinical Autoimmunity?])[
 What if ME/CFS represents autoimmune disease below conventional detection thresholds? The autoantibodies might:

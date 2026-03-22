@@ -1501,6 +1501,7 @@ If pain and/or sleep issues coexist with MCAS features, amitriptyline provides d
     - *Dose*: 10–50 mg at bedtime
     - *Mechanisms*: Mast cell inhibition (reduces IL-8, VEGF, IL-6, histamine) @Clemons2011 + pain relief + sleep improvement
     - *Specificity*: This mast cell effect is unique to amitriptyline; other antidepressants (bupropion, citalopram, atomoxetine) do NOT inhibit mast cells @Clemons2011
+    - *Genetic signal*: The DecodeME GWAS found $r_g = 0.61$ between ME/CFS and amitriptyline use---comparable to the depression correlation ($r_g = 0.60$). This may reflect more than confounding: amitriptyline’s NMDA antagonism targets the same glutamatergic circuits identified at DecodeME genome-wide significant loci (_SHISA6_, _UNC13C_). Low-dose amitriptyline may thus act on genetically-identified neural substrates in ME/CFS, not merely palliate symptoms (Hypothesis @hyp:amitriptyline-signal, Chapter @ch:integrative-models) @MECFSScience2025decodeme
     - Can combine with rupatadine + famotidine for comprehensive mast cell targeting
 
 *MCAS Prophylactic Intensification for High-Demand Activities and Known Triggers*

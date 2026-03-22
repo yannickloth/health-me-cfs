@@ -31,6 +31,8 @@ The study proposals in this chapter formalise hypotheses from earlier chapters i
     - Sample size calculations assume effect sizes derived from preliminary or single-study data; if true effect sizes are smaller, the studies may be substantially underpowered.
     - Several proposals (e.g., the selective energy dysfunction study, the multi-domain phenotyping trial) assume that the underlying hypotheses are sufficiently established to warrant a confirmatory study design; in reality, most would benefit from exploratory/pilot phases first.
     - The framing as “ready-to-implement protocols” may overstate feasibility—practical challenges including patient recruitment (especially severe patients), assay standardisation, and multi-site coordination are acknowledged but not fully resolved.
+    - Several proposed interventions (e.g., mitophagy enhancers, glutamatergic modulators) lack preclinical validation in ME/CFS-relevant models; demonstrating target engagement and mechanism-specific efficacy in cellular or animal systems should precede human trials.
+    - Where multiple outcomes are assessed simultaneously, formal power analyses accounting for multiple comparison correction (Bonferroni, false discovery rate, or hierarchical testing) are needed; the sample sizes given here assume single primary endpoints and may be insufficient for the full outcome batteries described.
 
 ]
 
@@ -1960,6 +1962,40 @@ ME/CFS is particularly suited to aggregated N-of-1 methodology for several reaso
     - *Post-hoc responder identification:* If 20 N-of-1 trials are aggregated and data analyzed, biomarkers collected at baseline can be correlated with individual response, generating testable hypotheses for future enriched RCTs
 
 We propose that a network of ME/CFS research centers could conduct aggregated N-of-1 trials systematically, building both individual treatment response profiles and population-level evidence for responder biomarkers. This approach would be low-cost compared to large RCTs, would provide immediate individualized clinical utility, and would generate biomarker hypotheses to inform future basket, umbrella, and adaptive trials.
+
+== DecodeME-Stratified Pharmacogenomic Trial Platform
+<sec:decodeme-pharmacogenomics>
+
+=== Background and Rationale
+
+The DecodeME GWAS identified three convergent biological themes---neuronal/synaptic, immune-ambiguous, and autophagy/mitophagy---at genome-wide significant loci (Section @sec:decodeme-genes, Chapter @ch:genetics-epigenetics). If these genetic themes define biologically distinct patient subgroups, treatment response should vary by genetic architecture. This proposed trial platform tests whether polygenic risk scores (PRS) constructed from DecodeME loci can predict treatment response, enabling a pharmacogenomic approach to ME/CFS.
+
+=== Study Design
+
+*Design:* Multi-arm adaptive platform trial with PRS-based stratification.
+
+*Population:* ME/CFS patients meeting CCC criteria (n=300 minimum, ideally 600 for adequate subgroup power). All participants genotyped; PRS calculated for three gene clusters: (a) neuronal-synapse PRS (CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C, BARHL2 loci), (b) autophagy-mitophagy PRS (FBXL4, CCPG1, ARFGEF2/CSE1L/STAU1 loci), (c) immune PRS (RABGAP1L, BTN2A2, TAOK3, HLA-DQA1 loci).
+
+*Arms:*
+
+    - *Arm A (Glutamatergic modulation):* Low-dose memantine (5--20 mg) for 12 weeks. Primary hypothesis: benefit concentrated in patients with high neuronal-synapse PRS (Hypothesis @hyp:glutamatergic-autonomic-bridge, Chapter @ch:integrative-models).
+    - *Arm B (Mitophagy enhancement):* Urolithin A (500--1000 mg) for 12 weeks. Primary hypothesis: benefit concentrated in patients with high autophagy-mitophagy PRS (Hypothesis @hyp:mitophagy-vulnerability, Chapter @ch:genetics-epigenetics).
+    - *Arm C (Low-dose amitriptyline):* 10--25 mg for 12 weeks. Primary hypothesis: benefit correlates with neuronal-synapse PRS (Hypothesis @hyp:amitriptyline-signal, Chapter @ch:integrative-models).
+    - *Arm D (Placebo):* Matched placebo for each arm.
+
+*Primary outcome:* Composite ME/CFS severity score (fatigue, PEM frequency, cognitive function, autonomic symptoms).
+
+*Key analysis:* PRS $times$ treatment interaction in each arm. The trial succeeds if treatment effect differs significantly by PRS stratum in at least one arm---demonstrating that genetic architecture predicts treatment response.
+
+*Adaptive features:* Interim analysis at 50% enrollment. Drop arms showing no PRS interaction; expand promising arms. Add new arms as additional genetic data (SequenceME rare variants) become available.
+
+=== Expected Impact
+
+If any PRS $times$ treatment interaction reaches significance, this would: (1) validate genetic subtyping as clinically actionable in ME/CFS, (2) identify the first genetically-stratified ME/CFS treatment, (3) provide a framework for future precision medicine trials, and (4) resolve the longstanding question of whether ME/CFS treatment failures reflect genuine inefficacy or population heterogeneity masking subgroup-specific benefit.
+
+=== Feasibility
+
+Requires access to DecodeME genotype data (planned for sharing), collaboration with ME/CFS clinical trial networks, and pharmaceutical industry or foundation funding. PRS construction is computationally straightforward once genotype data are available. Memantine, urolithin A, and amitriptyline are all available and have established safety profiles. The adaptive platform design reduces total sample size requirements compared to separate trials for each intervention.
 
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"

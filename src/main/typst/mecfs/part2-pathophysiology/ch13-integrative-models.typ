@@ -53,8 +53,6 @@ Table @sec:hypothesis-ranking presents the major hypotheses about ME/CFS pathop
 
 [*Hypothesis*], [*Evidence Level*], [*Key Supporting Evidence*], [*Explains Which Symptoms/Observations*], [*Treatment Implications*], [*Potential for Rapid Benefit*],
 
-[*Hypothesis*], [*Evidence Level*], [*Key Supporting Evidence*], [*Explains Which Symptoms/Observations*], [*Treatment Implications*], [*Potential for Rapid Benefit*],
-
 // TIER 1: ESTABLISHED
 table.cell(colspan: 6)[*TIER 1: ESTABLISHED PHENOMENA*],
 
@@ -80,7 +78,7 @@ table.cell(colspan: 6)[*TIER 2: PROBABLE MECHANISMS*],
 
 
 
-[Mito\-chon\-drial/\allowbreak energy meta\-bolism dys\-func\-tion (@sec:mitochondrial-dysfunction)], [Prob\-able], [ATP profile ab\-nor\-mal\-ities; Heng 2025 AMP/\allowbreak ADP ele\-va\-tion; lac\-tate ab\-nor\-mal\-ities; meta\-bolomic sig\-na\-tures], [Fa\-tigue; ex\-er\-cise in\-tol\-er\-ance; PEM; mus\-cle weak\-ness], [CoQ10; NAD#super[+] pre\-cur\-sors; D-ri\-bose; B vi\-ta\-mins], [Low–Moderate],
+[Mitochondrial/energy metabolism dysfunction (@sec:mitochondrial-dysfunction)], [Probable], [ATP profile abnormalities; Heng 2025 AMP/ADP elevation; lactate abnormalities; metabolomic signatures], [Fatigue; exercise intolerance; PEM; muscle weakness], [CoQ10; NAD#super[+] precursors; D-ribose; B vitamins], [Low–Moderate],
 
 
 
@@ -88,7 +86,7 @@ table.cell(colspan: 6)[*TIER 2: PROBABLE MECHANISMS*],
 
 
 
-[GPCR auto\-anti\-bodies (@sec:gpcr-autoantibodies)], [Prob\-able], [El\-e\-vat\-ed anti-$beta$2, M3, M4 anti\-bodies @Loebel2016 @Bynke2020; cor\-re\-la\-tion with symp\-toms @Sotzny2021; im\-mu\-no\-ab\-sorp\-tion re\-sponses @Stein2024immunoadsorption; mono\-cyte dys\-func\-tion @Hackel2025monocyte], [Au\-to\-nom\-ic dys\-func\-tion; fa\-tigue; mus\-cle symp\-toms; cy\-to\-kine dys\-reg\-u\-la\-tion; why some re\-spond to IA], [Im\-mu\-no\-ab\-sorp\-tion; BC007 @Hohberger2021bc007; dar\-atu\-mu\-mab @Fluge2025daratumumab], [Moderate–High (in subset)],
+[GPCR autoantibodies (@sec:gpcr-autoantibodies)], [Probable], [Elevated anti-$beta$2, M3, M4 antibodies @Loebel2016 @Bynke2020; correlation with symptoms @Sotzny2021; immunoadsorption re\-sponses @Stein2024immunoadsorption; monocyte dysfunction @Hackel2025monocyte], [Autonomic dysfunction; fatigue; muscle symptoms; cytokine dys\-regulation; why some re\-spond to IA], [Immunoadsorption; BC007 @Hohberger2021bc007; daratumumab @Fluge2025daratumumab], [Moderate–High (in subset)],
 
 
 
@@ -104,15 +102,15 @@ table.cell(colspan: 6)[*TIER 3: PRELIMINARY/EMERGING*],
 
 
 
-[Plasma cell-mediated auto\-immunity (@hyp:plasma-cell-sanctuary)], [Preliminary], [Daratu\-mumab pilot (60% response); explains rituximab failure; IgG reduction correlates with response], [Auto\-immune subset; why B-cell depletion failed but plasma cell depletion worked], [Daratu\-mumab; combined IA + plasma cell targeting], [High (in auto\-immune subset)],
+[Plasma cell-mediated autoimmunity (@hyp:plasma-cell-sanctuary)], [Preliminary], [Daratumumab pilot (60% response); explains rituximab failure; IgG reduction correlates with response], [Autoimmune subset; why B-cell depletion failed but plasma cell depletion worked], [Daratumumab; combined IA + plasma cell targeting], [High (in auto\-immune subset)],
 
 
 
-[Vascular-Immune-Energy Triad], [Preliminary], [Heng 2025 7-bio\-marker panel; Hoel 2026 serum pro\-teomics cross-vali\-dation @Hoel2026proteome; coordinated abnor\-malities across 3 systems from two independent cohorts], [Multi-system nature; why single-target treatments fail], [Triple-target protocol; simul\-taneous inter\-vention], [Unknown (untested)],
+[Vascular-Immune-Energy Triad], [Preliminary], [Heng 2025 7-biomarker panel; Hoel 2026 serum proteomics cross-vali\-dation @Hoel2026proteome; coordinated abnormalities across 3 systems from two independent cohorts], [Multi-system nature; why single-target treatments fail], [Triple-target protocol; simultaneous intervention], [Unknown (untested)],
 
 
 
-[Endo\-thelial dys\-function / micro\-clotting (ch14)], [Preliminary], [Elevated VWF, fibro\-nectin, thrombo\-spondin; Hoel 2026: reduced VIM, ANTXR2, CXADR + disrupted Ephrin signaling @Hoel2026proteome; Long COVID micro\-clot findings], [Exercise intol\-erance; brain fog; multi-system involve\-ment], [Anti\-coagu\-lation; fibrin\-olytics; endo\-thelial support; Ephrin-targeted therapy?], [Moderate (if confirmed)],
+[Endothelial dysfunction / microclotting (ch14)], [Preliminary], [Elevated VWF, fibronectin, thrombospondin; Hoel 2026: reduced VIM, ANTXR2, CXADR + disrupted Ephrin signaling @Hoel2026proteome; Long COVID microclot findings], [Exercise intolerance; brain fog; multi-system involvement], [Anticoagulation; fibrinolytics; endothelial support; Ephrin-targeted therapy?], [Moderate (if confirmed)],
 
 
 
@@ -120,7 +118,7 @@ table.cell(colspan: 6)[*TIER 3: PRELIMINARY/EMERGING*],
 
 
 
-[NAD#super[+] depletion (ch14)], [Preliminary], [Meta\-bolomic abnor\-malities; 2025 NR trial in Long COVID; theo\-retical PARP con\-sumption], [Energy failure; mito\-chon\-drial dys\-function; immune cell dys\-function], [NR/\allowbreak NMN 1000–2000 mg; prolonged treatment ($>$10 weeks)], [Low (slow onset)],
+[NAD#super[+] depletion (ch14)], [Preliminary], [Meta\-bolomic abnormalities; 2025 NR trial in Long COVID; theo\-retical PARP con\-sumption], [Energy failure; mito\-chon\-drial dysfunction; immune cell dysfunction], [NR/\allowbreak NMN 1000–2000 mg; prolonged treatment ($>$10 weeks)], [Low (slow onset)],
 
 
 
@@ -128,15 +126,15 @@ table.cell(colspan: 6)[*TIER 3: PRELIMINARY/EMERGING*],
 
 
 
-[Viral persist\-ence/\allowbreak re\-acti\-vation (ch14)], [Preliminary], [HHV-6 miRNA in CNS; elevated herpes\-virus anti\-bodies; EBV re\-acti\-vation markers], [Post-infectious onset; relapsing course; why anti\-virals help some], [Vala\-cyclo\-vir; val\-ganci\-clovir; potentially IVIG], [Low–Moderate],
+[Viral persist\-ence/\allowbreak re\-acti\-vation (ch14)], [Preliminary], [HHV-6 miRNA in CNS; elevated herpes\-virus antibodies; EBV re\-acti\-vation markers], [Post-infectious onset; relapsing course; why anti\-virals help some], [Vala\-cyclo\-vir; val\-ganci\-clovir; potentially IVIG], [Low–Moderate],
 
 
 
-[EBV-driven CNS auto\-immunity], [Preliminary], [EBV-infected B cells cross BBB @Pless2026ebv_demyelination; LMP1 expres\-sion enables brain infil\-tration; comple\-ment/\allowbreak micro\-glial acti\-vation], [Post-EBV onset; neuro\-inflam\-mation; brain fog distinct from peri\-pheral fatigue], [Anti\-virals; B cell depletion; comple\-ment inhi\-bition], [Moderate (in EBV+ subset)],
+[EBV-driven CNS autoimmunity], [Preliminary], [EBV-infected B cells cross BBB @Pless2026ebv_demyelination; LMP1 expres\-sion enables brain infil\-tration; comple\-ment/\allowbreak micro\-glial acti\-vation], [Post-EBV onset; neuro\-inflam\-mation; brain fog distinct from peri\-pheral fatigue], [Anti\-virals; B cell depletion; comple\-ment inhi\-bition], [Moderate (in EBV+ subset)],
 
 
 
-[Auto\-anti\-body-mono\-cyte re\-pro\-gram\-ming (@hyp:autoantibody-monocyte)], [Pre\-lim\-i\-nary], [GPCR auto\-anti\-bodies re\-pro\-gram mono\-cyte cy\-to\-kine pro\-duc\-tion @Hackel2025monocyte; MIP-1$delta$, PDGF-BB, TGF-$beta$3 el\-e\-va\-tion], [Sys\-tem\-ic in\-flam\-ma\-tion; why ef\-fects per\-sist be\-yond re\-cep\-tor bind\-ing; tis\-sue re\-mod\-el\-ing], [Auto\-anti\-body re\-mov\-al + mono\-cyte mod\-u\-la\-tion (JAK in\-hib\-i\-tors)], [Moderate–High],
+[Auto\-anti\-body-monocyte re\-pro\-gram\-ming (@hyp:autoantibody-monocyte)], [Pre\-lim\-i\-nary], [GPCR autoantibodies re\-pro\-gram monocyte cytokine pro\-duc\-tion @Hackel2025monocyte; MIP-1$delta$, PDGF-BB, TGF-$beta$3 el\-e\-va\-tion], [Sys\-tem\-ic in\-flam\-ma\-tion; why ef\-fects per\-sist be\-yond re\-cep\-tor bind\-ing; tis\-sue re\-mod\-el\-ing], [Auto\-anti\-body re\-mov\-al + monocyte mod\-u\-la\-tion (JAK in\-hib\-i\-tors)], [Moderate–High],
 
 
 
@@ -144,19 +142,19 @@ table.cell(colspan: 6)[*TIER 4: THEORETICAL*],
 
 
 
-[Glymphatic clearance failure (@sec:glymphatic)], [Theoretical], [Sleep dys\-function; cognitive symptoms; cranio\-cervical junction issues in subset], [Brain fog; un\-refreshing sleep; position-dependent symptoms], [Address CCI if present; optimize slow-wave sleep], [Unknown],
+[Glymphatic clearance failure (@sec:glymphatic)], [Theoretical], [Sleep dysfunction; cognitive symptoms; cranio\-cervical junction issues in subset], [Brain fog; un\-refreshing sleep; position-dependent symptoms], [Address CCI if present; optimize slow-wave sleep], [Unknown],
 
 
 
-[Trypto\-phan/\allowbreak kynure\-nine trap (@sec:kynurenine-trap)], [Theoretical], [IDO acti\-vation docu\-mented; trypto\-phan pathway abnor\-malities; elevated QUIN:\allowbreak KYNA ratio in some studies], [Depression-like symptoms; neuro\-inflam\-mation; NAD#super[+] depletion], [IDO inhi\-bitors?; shift pathway toward KYNA], [Unknown],
+[Trypto\-phan/\allowbreak kynure\-nine trap (@sec:kynurenine-trap)], [Theoretical], [IDO acti\-vation docu\-mented; trypto\-phan pathway abnormalities; elevated QUIN:\allowbreak KYNA ratio in some studies], [Depression-like symptoms; neuro\-inflam\-mation; NAD#super[+] depletion], [IDO inhi\-bitors?; shift pathway toward KYNA], [Unknown],
 
 
 
-[Circadian de\-syn\-chroni\-zation (ch14)], [Theoretical], [Cortisol rhythm abnor\-malities; sleep timing issues; fluc\-tuating symptoms], [Un\-pre\-dictable symptom patterns; un\-refreshing sleep; why timing matters], [Chrono\-therapy; mela\-tonin; time-restricted feeding; light therapy], [Moderate],
+[Circadian de\-syn\-chroni\-zation (ch14)], [Theoretical], [Cortisol rhythm abnormalities; sleep timing issues; fluc\-tuating symptoms], [Un\-pre\-dictable symptom patterns; un\-refreshing sleep; why timing matters], [Chrono\-therapy; mela\-tonin; time-restricted feeding; light therapy], [Moderate],
 
 
 
-[Epi\-genetic “lock”], [Theoretical], [DNA methy\-lation changes docu\-mented; duration predicts prognosis; why early inter\-vention helps], [Persist\-ence; treatment resist\-ance; why disease stabi\-lizes], [Epi\-genetic modi\-fiers (experi\-mental); early aggres\-sive treatment], [Unknown],
+[Epi\-genetic “lock”], [Theoretical], [DNA methy\-lation changes docu\-mented; duration predicts prognosis; why early intervention helps], [Persist\-ence; treatment resist\-ance; why disease stabi\-lizes], [Epi\-genetic modi\-fiers (experi\-mental); early aggres\-sive treatment], [Unknown],
 
 
 
@@ -1693,6 +1691,73 @@ Based on this synthesis, the following research directions appear most critical:
 
     - *Systems biology approaches*: Apply network analysis and multi-omics integration to identify critical nodes in ME/CFS pathophysiology. Computational modeling may reveal non-obvious intervention points.
 
-The field stands at an inflection point. Decades of patient advocacy and recent high-profile cases (Long COVID) have increased research funding and clinical awareness. The biological basis of ME/CFS is now undeniable @walitt2024deep @heng2025mecfs @Fluge2025daratumumab. The challenge is translating mechanistic insights into effective treatments accessible to all patients who need them.
+=== Novel Integrative Insights from Critical Evidence Synthesis
+<sec:critical-evidence-synthesis>
+
+Integration of critical evidence analyses with the existing pathophysiology framework reveals several novel cross-system connections that deserve further investigation.
+
+#hypothesis(title: [The Glutamatergic--Autonomic Bridge: DecodeME Genes as Synaptic Vulnerability Factors])[
+
+*Certainty: 0.30.* The DecodeME GWAS identified glutamatergic synapse genes (_SHISA6_, _UNC13C_) alongside genes governing neuronal development and axon guidance (_CA10_, _SOX6_, _LRRC7_, _DCC_)---all converging on neuronal communication in brain regions (Section @sec:decodeme-genes of Chapter @ch:genetics-epigenetics). The genetic correlation pattern ($r_g = 0.75$ with IBS, $r_g = 0.60$ with depression, absent for autoimmune diseases) places ME/CFS squarely in the neurological--functional disorder spectrum rather than the autoimmune spectrum @DecodeME2025.
+
+We propose that these genetic variants create a constitutional vulnerability in the brain's autonomic regulatory circuits. Glutamatergic signalling in autonomic regulatory brain regions governs sympathetic and parasympathetic outflow; developmental variants affecting synapse formation or transmission efficiency in these circuits could produce a system that functions normally under basal conditions but fails under stress. (The specific brain regions involved remain to be determined; brainstem, hypothalamus, and insular cortex are candidates based on known autonomic circuitry, but the DecodeME data do not localise the effect.) An acute infection then imposes a metabolic and inflammatory insult on already-vulnerable circuits, tipping them past a threshold into sustained dysfunction.
+
+This model predicts: (1) ME/CFS patients carrying more DecodeME neuronal risk alleles should show more severe autonomic dysfunction (HRV, tilt table, baroreflex sensitivity); (2) brainstem and insula glutamate/glutamine ratios (MR spectroscopy) should correlate with autonomic symptom severity; (3) the IBS genetic correlation ($r_g = 0.75$) should be mediated by shared autonomic regulatory genes (testable via Mendelian randomisation); (4) glutamatergic modulators (memantine, riluzole) may improve autonomic symptoms in patients with high neuronal-gene PRS.
+
+*Treatment implications:* Memantine (NMDA antagonist, approved for neurological use) could be trialled with genotype stratification. The IBS genetic overlap suggests that treatments effective for IBS autonomic symptoms---low-dose tricyclics, which modulate glutamate at low doses, consistent with the amitriptyline $r_g = 0.61$---may work through the same neural circuits in ME/CFS.
+
+*Limitations:* DecodeME loci await independent replication. Brainstem MR spectroscopy is technically challenging. The glutamatergic--autonomic link is mechanistically plausible but untested in ME/CFS. Sub-threshold genes may not survive replication.
+] <hyp:glutamatergic-autonomic-bridge>
+
+#speculation(title: [The Diagnostic Mirage: hEDS, POTS, and MCAS as Phenotypic Fragments of a Single Autonomic Disease])[
+
+*Certainty: 0.25.* Critical analyses challenge the diagnostic validity of both POTS (10--15% of healthy controls meet the 30 bpm threshold; poor reproducibility; 2% symptom variance explained) and hEDS (no identified connective tissue defect; autonomic profile resembles fibromyalgia not other EDS types) @MECFSScience2024pots @MECFSScience2024heds. Meanwhile, DecodeME finds no genetic correlation with classical autoimmune diseases but strong correlation with IBS, depression, and fatigue traits @DecodeME2025.
+
+We speculate that the "ME/CFS--POTS--hEDS--MCAS cluster" does not represent four comorbid diseases but rather a single autonomic vulnerability syndrome that fragments into different diagnoses depending on which clinical threshold is crossed first. The DecodeME neuronal genes provide the constitutional substrate; the "POTS" label captures patients whose autonomic failure manifests most visibly in heart rate; the "hEDS" label captures those whose connective tissue laxity (a normal population variant) is noticed because clinicians search for an explanation of autonomic symptoms; and the "MCAS" label captures those whose mast cell activation (regulated by autonomic innervation) produces the most prominent mediator symptoms.
+
+If correct: (1) treating the underlying autonomic dysfunction should improve all four "conditions" simultaneously; (2) apparent comorbidity rate should correlate with the number of diagnostic thresholds tested, not disease severity; (3) DecodeME PRS should predict the cluster as a whole better than any individual diagnosis; (4) patients diagnosed with one condition should show sub-threshold features of the others at rates far exceeding chance.
+
+*Treatment implications:* A unified autonomic-targeting approach---tVNS, pyridostigmine, or the LDN + pyridostigmine combination (LIFT trial)---might be more effective than treating each "comorbidity" separately. This is a testable alternative to the current clinical approach of stacking diagnoses and treatments.
+
+*Limitations:* Lumping hypothesis that risks overlooking genuine heterogeneity. Some patients may have true independent connective tissue or mast cell pathology. The simpler explanation, that these conditions share risk factors and genuinely co-occur without forming a single entity, must be given equal consideration. A Bayesian framework comparing the "single entity" model against the "shared risk factors, independent pathologies" model would be needed to distinguish them. Makes specific testable predictions about genetic architecture and treatment response.
+] <spec:diagnostic-mirage>
+
+#hypothesis(title: [The Amitriptyline Signal: Genetic Evidence for Tricyclic Mechanism in ME/CFS])[
+
+*Certainty: 0.40.* Among DecodeME genetic correlations, amitriptyline use shows $r_g = 0.61$ ($p < 0.00001$)---comparable to depression ($r_g = 0.60$) @MECFSScience2025decodeme. The standard interpretation is confounding (patients take amitriptyline for pain/sleep). An alternative: genetic variants predisposing to ME/CFS also predispose to conditions that respond to amitriptyline, because amitriptyline acts on the same neural circuits affected by ME/CFS risk genes.
+
+At low doses (10--25 mg), amitriptyline's pharmacology includes serotonin/noradrenaline reuptake inhibition, NMDA receptor antagonism, sodium channel blockade, and histamine H1 antagonism. The NMDA antagonism is particularly relevant given the glutamatergic synapse genes at DecodeME loci (Section @sec:decodeme-genes, Chapter @ch:genetics-epigenetics). It is used for IBS ($r_g = 0.75$), neuropathic pain, migraine, and sleep---all genetically correlated with ME/CFS.
+
+Predictions: (1) low-dose amitriptyline should improve ME/CFS symptoms beyond sleep/pain effects; (2) benefit should be greater with higher DecodeME neuronal-gene PRS; (3) the genetic correlation should survive conditioning on depression and chronic pain; (4) Mendelian randomisation could test whether the genetic architecture causally supports amitriptyline efficacy.
+
+*Treatment implications:* Reframes low-dose amitriptyline from "palliative sleep aid" to "mechanistically targeted intervention acting on genetically-identified circuits." A pharmacogenomics trial stratifying by DecodeME PRS could test this directly.
+
+*Limitations:* The genetic correlation almost certainly includes a substantial confounding component: patients with ME/CFS-like symptoms are prescribed amitriptyline for pain and sleep, creating a direct ascertainment pathway that does not require shared mechanism. Disentangling confounding from shared mechanism requires Mendelian randomisation or genotype-stratified RCTs, neither of which has been performed. No trial has tested amitriptyline against DecodeME genetic predictors.
+] <hyp:amitriptyline-signal>
+
+#speculation(title: [The Peptic Ulcer Parallel: What Would an _H. pylori_ Moment Look Like for ME/CFS?])[
+
+*Certainty: 0.20.* The psychosomatic history review (Section @sec:psychosomatic-parallels, Chapter @ch:controversies) identifies peptic ulcer as the strongest parallel to ME/CFS: universally assumed stress-related until Marshall and Warren discovered _H. pylori_ in 1982 @MECFSScience2021psychosomatic. We speculate that the "discovery" for ME/CFS will not be a single pathogen but the demonstration that diverse triggers converge on a single downstream molecular switch---analogous to how various mucosal damage factors facilitate _H. pylori_ colonisation, but the bacterium is what maintains disease.
+
+Candidates for this molecular switch:
+
+    - *TRPM3 ion channel dysfunction* (Section @sec:trpm3-dysfunction, Chapter @ch:immune-dysfunction): A single molecular target affecting calcium signalling across immune, neuronal, and metabolic cells. If TRPM3 is the "stuck door" that, once jammed, maintains multi-system dysfunction independently of the trigger, then TRPM3-restoring drugs would be the "antibiotic" of ME/CFS.
+    - *Epigenetic methylation lock* at autonomic regulatory genes: The "hit-and-run" model proposes transient viral products cause persistent epigenetic changes. If a specific methylation signature can be identified and reversed (DNMT inhibitors, targeted demethylation), this would be molecular "eradication."
+    - *DecodeME autophagy genes*: If _FBXL4_/_CCPG1_ variants create a genetic bottleneck in mitochondrial quality control (Hypothesis @hyp:mitophagy-vulnerability, Chapter @ch:genetics-epigenetics), mitophagy-enhancing drugs would be curative in the genetically vulnerable subset---precision medicine analogous to _H. pylori_ eradication for infected ulcer patients.
+
+The peptic ulcer parallel predicts that resistance to the biological explanation will continue even after strong evidence accumulates, that the discovery will come from an adjacent field, and that the therapeutic revolution will be surprisingly simple once the mechanism is identified.
+
+*Limitations:* Structurally unfalsifiable in its general form; this is a historical analogy, not a testable hypothesis. This is better classified as a historical analogy motivating research directions than as a speculation with falsifiable predictions. Specific candidates have their own predictions in respective chapters. The analogy is heuristic, not predictive.
+] <spec:peptic-ulcer-parallel>
+
+#open-question(title: [Can Genetic Architecture Resolve the Subtype Problem?])[
+DecodeME data combined with diagnostic validity concerns suggest a new approach to ME/CFS subtyping. Rather than symptoms or triggers, genetic architecture might reveal biological subtypes cutting across clinical presentations.
+
+Specifically: (1) Do patients with high neuronal-gene PRS differ clinically from those with high autophagy-gene or immune-gene PRS? (2) Does the IBS genetic correlation cluster with particular symptom profiles? (3) Can the absence of autoimmune genetic correlation be reconciled with the immunoadsorption-responsive subset---are these patients genetically distinct? (4) Does genetic architecture predict treatment response better than symptom-based subtyping?
+
+If DecodeME PRS can stratify patients into mechanistically coherent subgroups, this would transform clinical trials from "test one intervention on all ME/CFS" (repeatedly failing) to "test intervention X on the genetic subgroup most likely to respond"---the pharmacogenomic approach that has revolutionized oncology.
+] <oq:genetic-subtypes>
+
+The field stands at an inflection point. Decades of patient advocacy and recent high-profile cases (Long COVID) have increased research funding and clinical awareness. The biological basis of ME/CFS is now strongly supported by multiple independent lines of evidence @walitt2024deep @heng2025mecfs @Fluge2025daratumumab. The challenge is translating mechanistic insights into effective treatments accessible to all patients who need them.
 
  Chapter @ch:speculative-hypotheses extends this analysis to more speculative mechanisms that, while lacking direct evidence in ME/CFS, may provide insights into disease pathophysiology and suggest novel therapeutic approaches. Where this chapter focused on evidence-based integration, the next explores creative hypotheses that may inspire future research.

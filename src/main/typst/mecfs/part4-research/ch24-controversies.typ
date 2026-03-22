@@ -61,7 +61,11 @@ After a protracted legal battle for data access under the Freedom of Information
     - Using the trial's original (pre-change) outcome thresholds, recovery rates dropped from 22% to 7%—not significantly different from the control groups
     - Step-count actigraphy showed no significant improvement in any group
     - Six-minute walk distance improvements were clinically trivial (approximately 20 meters)
-    - Long-term follow-up showed convergence of all groups, suggesting no durable benefit
+    - Long-term follow-up showed convergence of all groups, suggesting no durable benefit @MECFSScience2021getset
+
+=== Long-Term Follow-Up: No Sustained Benefits
+
+Long-term follow-up data from the PACE trial and the related GETSET trial (graded exercise self-help) provide the strongest evidence against sustained benefit from GET and CBT @MECFSScience2021getset. At long-term follow-up, all treatment groups---including the control groups---converged to similar outcome levels. This convergence pattern indicates that any short-term improvements attributed to GET and CBT were not durable; patients in the active treatment arms did not maintain advantages over those who received specialist medical care alone. The pattern is consistent with regression to the mean and non-specific effects (therapeutic attention, expectation) rather than genuine disease modification.
 
 === Impact on Clinical Guidelines
 
@@ -409,12 +413,15 @@ The causes of underfunding are interrelated:
     - *Small research workforce*: Chronic underfunding created a small, isolated research community with limited capacity to generate the volume of publications needed to attract further funding—a vicious cycle
     - *Patient invisibility*: Housebound and bedbound patients are invisible to society, unable to participate in advocacy activities that drive research funding for other diseases
 
+A comparative analysis of NIH funding per patient-year across diseases places ME/CFS at the bottom tier, with a funding-to-burden ratio orders of magnitude below comparably disabling conditions @MECFSScience2020fundingcomparison. The structural analysis by mecfsscience.org identifies the self-reinforcing nature of the underfunding cycle: psychogenic classification reduces funding, reduced funding limits biomedical discoveries, and the absence of discoveries reinforces the psychogenic framing @MECFSScience2020fundingwhy. Breaking this cycle requires deliberate institutional intervention rather than reliance on organic funding growth
+
 === Recent Improvements
 
 ME/CFS research funding has increased modestly since 2015:
 
-    - NIH funding rose from approximately \$5 million (2014) to \$15–18 million (2023), driven partly by the creation of ME/CFS research centers and the NIH intramural study
-    - The long COVID pandemic generated spillover funding for ME/CFS through overlap studies
+    - NIH funding rose from approximately \$5 million (2014) to a peak of approximately \$15--18 million (2023), driven partly by the creation of ME/CFS research centers and the NIH intramural study
+    - However, this trend has reversed: 2024 funding fell to \$10.1 million across 25 projects (less than 0.03% of the total NIH budget), and 2025 funding declined further to \$7.4 million across just 18 projects---a 7% year-on-year decrease @MECFSScience2024funding @MECFSScience2025funding. This decline is occurring while European countries are increasing ME/CFS research investment @MECFSScience2025funding
+    - The long COVID pandemic generated spillover funding for ME/CFS through overlap studies, but dedicated ME/CFS funding appears to be shrinking as long COVID research absorbs available resources
     - Private foundations (Open Medicine Foundation, Solve ME/CFS Initiative, ME Research UK) have contributed substantial additional funding and research infrastructure
     - International initiatives (European ME/CFS research network, DecodeME in the UK) have expanded the research base beyond the US
 
@@ -426,5 +433,98 @@ Despite improvements, critical funding gaps persist:
     - *Severe patients*: Research on severe and very severe ME/CFS is virtually non-existent because these patients cannot travel to research centers. Home-based and remote research protocols require dedicated funding
     - *Longitudinal cohorts*: No prospective cohort study with $gt.eq$20-year follow-up exists, leaving fundamental questions about natural history and mortality unanswered
     - *Training pipeline*: The ME/CFS research workforce remains critically small. Dedicated training grants and career development awards are needed to attract new investigators
-    - *Funding parity*: Even at current levels, ME/CFS receives less than 10% of the per-patient funding of comparable chronic diseases. Reaching funding parity would require a 5–10-fold increase
+    - *Funding parity*: Even at current levels, ME/CFS receives less than 10% of the per-patient funding of comparable chronic diseases. Reaching funding parity would require a 5--10-fold increase
+
+== Blinding Failures in ME/CFS Treatment Research
+<sec:blinding-failures>
+
+A pervasive methodological problem in ME/CFS treatment research is the absence of adequate blinding. Because the interventions most commonly studied---graded exercise therapy, cognitive behavioural therapy, pacing---are behavioural, participants are typically aware of which treatment they receive. When combined with subjective self-report outcome measures, this creates systematic bias that consistently favours the active intervention @MECFSScience2019blinding.
+
+The mecfsscience.org analysis identifies a pattern across ME/CFS treatment trials: unblinded designs using subjective outcomes report positive results, while the same interventions assessed by objective measures (actigraphy, employment status, fitness testing, welfare claims) show no benefit @MECFSScience2019blinding. The Cochrane systematic review of exercise therapy for ME/CFS exemplifies this problem: its positive conclusions rest on trials using Oxford criteria (the broadest definition, likely including non-ME/CFS patients), subjective fatigue scales as primary outcomes, and non-blinded designs @MECFSScience2019cochrane. When these methodological limitations are accounted for, the evidence base for exercise therapy in ME/CFS collapses.
+
+This is not unique to ME/CFS---unblinded behavioural trials produce inflated effect sizes across medicine---but it is particularly consequential in ME/CFS because the psychogenic model relied on precisely these trial designs to justify treatments now recognised as harmful.
+
+=== FITNET-NHS: Failure to Replicate
+<sec:fitnet-failure>
+
+The FITNET-NHS trial (2024) provides a cautionary example of replication failure in ME/CFS treatment research @MECFSScience2024fitnet. The original Dutch FITNET trial reported 63% recovery in paediatric ME/CFS patients receiving internet-based CBT. The UK replication (n=314 children) found:
+
+    - Sub-clinical improvement in fatigue scores that did not reach the threshold for clinical significance
+    - No improvement in quality of life
+    - The intervention was not cost-effective
+    - 25% of participants deteriorated during the trial
+    - The 63% recovery rate from the Dutch trial was not replicated
+
+The FITNET-NHS failure follows the pattern of other UK replications of Dutch ME/CFS trials (MAGENTA for adolescents also failed), suggesting that the original positive results may have reflected methodological or cultural factors rather than genuine therapeutic efficacy. However, the failure to replicate does not by itself prove absence of efficacy; it may also reflect differences in patient selection, outcome measures, or implementation fidelity between the Dutch and UK settings. Nonetheless, these replication failures weaken the evidence base for CBT-based approaches in paediatric ME/CFS.
+
+=== The BMJ Long COVID Intervention Review
+<sec:bmj-review-critique>
+
+A 2024 BMJ rapid review of Long COVID interventions was criticised by mecfsscience.org for several methodological shortcomings @MECFSScience2024bmj: reliance on single-trial evidence for most recommendations, inconsistent handling of imprecision (wide confidence intervals sometimes dismissed, sometimes not), cherry-picking of outcomes favouring intervention, and insufficient weight given to high risk of bias. Given the substantial overlap between Long COVID and ME/CFS, these methodological concerns have direct implications for ME/CFS patients who may be offered interventions based on this review's conclusions.
+
+=== The NICE Guideline Shift and Its Limitations
+<sec:nice-shift>
+
+The 2021 NICE guideline represented a paradigm shift in institutional recognition of ME/CFS as a biomedical condition @MECFSScience2023consensus. Key changes included designating PEM as the defining feature, removing GET from recommendations, and repositioning CBT as supportive care rather than treatment. However, critical analysis identifies limitations in the new consensus @MECFSScience2023consensus:
+
+    - *GRADE ceiling problem:* Because ME/CFS lacks a diagnostic biomarker and blinding of behavioural interventions is difficult, the highest achievable GRADE rating for most interventions is "moderate"---creating a systematic disadvantage for evidence-based recommendations
+    - *Redefined CBT contradiction:* The guideline recommends CBT for "managing symptoms" while explicitly stating it is not a treatment for ME/CFS---a distinction that may be lost in clinical practice
+    - *Unsupported pacing recommendation:* Despite recommending pacing as the primary activity management strategy, the evidence base for pacing is also limited; it is recommended primarily because alternatives (GET) are harmful, rather than because pacing has been rigorously validated
+
+A detailed analysis of how the NICE committee applied GRADE methodology illuminates why the evidence ceiling is so low @MECFSScience2021grade. GRADE downgrades evidence for imprecision, indirectness, and risk of bias---all of which are structurally unavoidable in ME/CFS behavioural intervention trials. This creates a paradox: the more rigorously a committee applies GRADE, the less likely any ME/CFS intervention can receive a strong recommendation.
+
+The NICE guideline was not universally welcomed. Flottorp et al.\ criticised the revised guideline as prioritising ideology over science, arguing that it discarded evidence from randomised controlled trials. The mecfsscience.org rebuttal demonstrated that this critique failed to account for the PACE reanalysis, the Oxford criteria problem, the blinding failures, and the systematic overestimation of effect sizes in unblinded trials with subjective endpoints @MECFSScience2022flottorp.
+
+==== The MetaBLIND Problem
+<sec:metablind>
+
+The MetaBLIND study claimed that ME/CFS patients cannot distinguish active treatment from placebo, potentially undermining the argument that unblinded trials produce inflated effects. However, critical analysis identified substantial methodological problems with this claim @MECFSScience2021metablind, including inadequate assessment of whether participants actually attempted to guess their allocation, conflation of inability to guess with absence of expectation effects, and failure to account for nocebo responses in the placebo group. The study's conclusions do not justify abandoning the requirement for blinded designs in ME/CFS trials.
+
+== Catastrophizing: A Weaponised Construct
+<sec:catastrophizing-critique>
+
+The Pain Catastrophizing Scale (PCS) is frequently applied to ME/CFS patients as evidence of maladaptive cognition contributing to symptom maintenance. Critical analysis reveals fundamental problems with this application @MECFSScience2024catastrophizing:
+
+    - *The PCS measures pain intensity, not cognitive distortion.* Factor analyses demonstrate that PCS scores primarily reflect the severity of the pain experience rather than dysfunctional thinking about pain. Patients with more severe conditions score higher because they have more pain, not because they think about pain incorrectly.
+    - *ME/CFS patients show normal catastrophizing when severity is controlled.* When PCS scores are adjusted for objective disease severity, ME/CFS patients do not differ from healthy controls---their "catastrophizing" is proportionate to their actual symptom burden.
+    - *Clinical weaponisation.* The term has been used to deny care: patients labelled as "catastrophizers" may be refused specialist referral, have disability claims denied, or be directed to psychological treatment instead of biomedical investigation. The label functions as a mechanism for dismissing patient-reported symptoms as psychologically amplified.
+
+The accumulating evidence that PCS measures pain rather than cognition, combined with the documented clinical harms of the "catastrophizing" label, supports abandoning the term in ME/CFS clinical and research contexts.
+
+== The Psychosomatic Pattern: Historical Parallels
+<sec:psychosomatic-parallels>
+
+ME/CFS is not the first disease to be dismissed as psychosomatic before its biological basis was established. A systematic review of the history of psychosomatic medicine reveals a recurring pattern across at least ten major diseases @MECFSScience2021psychosomatic:
+
+    - *Multiple sclerosis* was considered psychosomatic for decades; patients were told their weakness was hysterical
+    - *Asthma* was attributed to the "asthma personality" and treated with psychotherapy
+    - *Epilepsy* was classified as a psychological condition and patients were institutionalised
+    - *Diabetes* was linked to emotional stress and treated with psychoanalysis
+    - *Autism* was blamed on "refrigerator mothers" who failed to bond with their children
+    - *Schizophrenia* was attributed to "schizophrenogenic mothers"
+    - *Cancer* was linked to suppressed emotions and the "cancer personality"
+    - *Heart disease* was attributed to the "Type A personality"
+    - *Rheumatoid arthritis* was considered a psychosomatic condition driven by emotional conflicts
+    - *Peptic ulcer* was treated with psychotherapy until Marshall and Warren discovered _Helicobacter pylori_ in 1982---a condition assumed to be stress-related that turned out to have a specific biological cause
+    - *Irritable bowel syndrome* retains a functional diagnosis but now has validated pathophysiological subsets (bile acid malabsorption, post-infectious IBS with mast cell activation), illustrating that "functional" and "biological" are not mutually exclusive
+
+The peptic ulcer story is particularly instructive: despite clear evidence that _H. pylori_ caused ulcers, the psychosomatic establishment resisted the biological explanation for years. Marshall famously infected himself to prove the point. The pattern---biological discovery $arrow.r$ establishment resistance $arrow.r$ eventual acceptance---has been repeated across several diseases on this list. Whether ME/CFS follows the same trajectory depends on the outcome of ongoing biological investigations, not on historical analogy alone.
+
+This historical context does not prove that ME/CFS has a specific biological cause, but it does demonstrate that medicine has a systematic tendency to classify poorly understood diseases as psychosomatic, and that this classification has consistently been wrong when biological investigation eventually catches up. The lesson is that absence of a known mechanism is not evidence for a psychological cause.
+
+The question then becomes: what would the equivalent of Marshall's _H. pylori_ discovery look like for ME/CFS? The Peptic Ulcer Parallel speculation (Chapter @ch:integrative-models, Speculation @spec:peptic-ulcer-parallel) identifies three candidates for the "molecular switch" that maintains ME/CFS independently of the original trigger: (1) TRPM3 ion channel dysfunction affecting calcium signalling across immune, neuronal, and metabolic cells (Chapter @ch:immune-dysfunction); (2) epigenetic methylation locks at autonomic regulatory genes that persist after the triggering infection resolves; (3) a genetic bottleneck in mitophagy capacity revealed by the DecodeME autophagy genes _FBXL4_ and _CCPG1_ (Chapter @ch:genetics-epigenetics, Hypothesis @hyp:mitophagy-vulnerability). Each candidate predicts a different "eradication therapy"---TRPM3-restoring drugs, targeted demethylation agents, or mitophagy enhancers---but all share the peptic ulcer pattern: a simple persistent factor maintaining a complex disease that was assumed to be psychosomatic.
+
+== Scientific Integrity in ME/CFS Research
+<sec:scientific-integrity>
+
+The broader scientific integrity landscape has relevance for evaluating the ME/CFS literature. A meta-analysis by Heathers estimated that approximately 14% of published scientific papers may contain fabricated data @MECFSScience2025fakescience. However, the integrity challenges in ME/CFS research differ from this general picture:
+
+    - *Design flaws rather than fraud:* The ME/CFS literature is unreliable primarily because of flawed study design (broad diagnostic criteria, subjective outcomes, non-blinded trials, small samples) rather than data fabrication. Very few ME/CFS papers have been formally retracted @MECFSScience2025fakescience.
+    - *Publication bias:* Positive results are more likely to be published, creating a distorted picture of treatment efficacy. The FITNET-NHS failure (Section @sec:fitnet-failure) illustrates how replication reveals the extent of this bias.
+    - *Conflict of interest:* Researchers invested in the psychogenic model had career incentives to produce supportive evidence; the PACE trial investigators' resistance to data sharing illustrates this dynamic.
+    - *Replication crisis:* The small ME/CFS research community means that many "replicated" findings come from overlapping research networks, inflating apparent replication while lacking true independence.
+
+The history of placebo-controlled surgical trials provides useful context for understanding the resistance to rigorous methodology in ME/CFS research @MECFSScience2021surgery. In surgery, the introduction of sham-controlled trials repeatedly demonstrated that widely practised procedures (arthroscopic knee surgery for osteoarthritis, vertebroplasty for compression fractures) were no better than placebo. The same pattern---interventions appearing effective in unblinded studies but failing under rigorous testing---is precisely what has occurred with GET and CBT for ME/CFS. The parallel reinforces that resistance to blinding is not unique to ME/CFS but is a general feature of fields where practitioners have strong prior beliefs about treatment efficacy.
+
+These integrity concerns reinforce the need for the methodological improvements outlined throughout this chapter: pre-registered protocols, objective outcomes, PEM-requiring criteria, independent replication, and mandatory data sharing.
 

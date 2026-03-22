@@ -186,6 +186,8 @@ The kynurenine pathway metabolizes approximately 95% of dietary tryptophan and p
 
 Immune activation, particularly interferon-gamma, stimulates the kynurenine pathway, providing a link between the immune abnormalities and neurological symptoms observed in ME/CFS @Dehhaghi2022kynurenine @Kavyani2022kynurenine.
 
+The glutamatergic dimension of kynurenine pathway dysregulation acquires additional significance in light of the DecodeME GWAS findings. The genome-wide significant loci include _SHISA6_ (excitatory synaptic transmission at glutamatergic synapses) and _UNC13C_ (glutamatergic synaptic transmission), while _CA10_ and _DCC_ are associated with neuronal development in brain regions governing autonomic regulation (Section @sec:decodeme-genes of Chapter @ch:genetics-epigenetics). This convergence of genetic evidence (constitutional vulnerability in glutamatergic circuits) with metabolomic evidence (kynurenine-mediated disruption of glutamate/GABA balance) suggests a two-hit model: genetically vulnerable glutamatergic circuits are tipped into dysfunction by infection-driven quinolinic acid accumulation, and the resulting excitatory/inhibitory imbalance is maintained by chronic low-grade neuroinflammation. The Glutamatergic--Autonomic Bridge hypothesis (Chapter @ch:integrative-models, Hypothesis @hyp:glutamatergic-autonomic-bridge) formalises this model and identifies glutamatergic modulators (memantine, riluzole) as testable therapeutic candidates.
+
 // Insert Figure: Normal Tryptophan Metabolism
 #include "../figures/fig-tryptophan-normal.typ"
 

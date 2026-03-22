@@ -91,8 +91,8 @@ This appendix provides a comprehensive annotated bibliography of scientific lite
 @MedUniWien2024Praxisleitfaden
 
 *Key Findings:*
-  // TODO: needs #table() wrapper
-[Practice guide developed by Medical University of Vienna and Austrian Society for ME/CFS based on PPIE (Patient], [Public Involvement and Engagement) methodology. Synthesizes data from 687 ME/CFS patients in D-A-CH region (Germany-Austria-Switzerland) via CCCFS questionnaire, plus qualitative surveys from 221 respondents and expert interviews.],
+
+Practice guide developed by Medical University of Vienna and Austrian Society for ME/CFS based on PPIE (Patient Public Involvement and Engagement) methodology. Synthesizes data from 687 ME/CFS patients in D-A-CH region (Germany-Austria-Switzerland) via CCCFS questionnaire, plus qualitative surveys from 221 respondents and expert interviews.
 
 *Demographic findings:* 84% female, 15.6% male; 70% developed ME/CFS before age 40; average diagnostic delay of 5 years. 65% moderate severity, 18% severe/very severe. 65% not working or retired (vs. 86% employed pre-illness).
 

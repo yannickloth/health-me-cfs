@@ -105,8 +105,32 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
     [DecodeME mitophagy (_FBXL4_) and ER-phagy (_CCPG1_) genes suggest constitutional impairment in organelle quality control. Acute metabolic stress overwhelms reduced clearance capacity; damaged mitochondria accumulate past self-reinforcing threshold. (a) ME/CFS patients show impaired PINK1/Parkin activity. (b) Severity correlates with _FBXL4_/_CCPG1_ genotype dose-dependently. (c) Mitophagy-enhancing compounds (urolithin A, NAD+ precursors) preferentially benefit autophagy risk-variant carriers.],
     [Mitophagy capacity assays in ME/CFS PBMCs — feasible but not yet done. _FBXL4_ genotype stratification in existing biobanks. Urolithin A trial with pharmacogenomic stratification. No study has directly measured mitophagy in ME/CFS.],
     [Ch.12 @hyp:mitophagy-vulnerability],
+
+    [Glutamatergic--Autonomic Bridge: DecodeME Genes as Synaptic Vulnerability Factors],
+    [H], [0.30],
+    [DecodeME glutamatergic synapse genes (_SHISA6_, _UNC13C_) + neuronal development genes (_CA10_, _SOX6_, _LRRC7_, _DCC_) create constitutional vulnerability in brainstem/hypothalamic autonomic circuits. Infection tips vulnerable circuits past threshold. (a) Neuronal PRS correlates with autonomic dysfunction severity. (b) Brainstem glutamate/glutamine ratios (MRS) correlate with autonomic symptoms. (c) IBS $r_g$ mediated by autonomic genes (Mendelian randomisation). (d) Memantine/riluzole improve autonomic symptoms in high-PRS patients.],
+    [PRS construction from DecodeME — feasible once full data available. MR spectroscopy of brainstem glutamate — technically challenging but feasible. Mendelian randomisation for IBS correlation — feasible with existing GWAS data. Memantine trial with genotype stratification — feasible.],
+    [Ch.13 @hyp:glutamatergic-autonomic-bridge],
+
+    [The Diagnostic Mirage: hEDS/POTS/MCAS as Single Autonomic Syndrome],
+    [S], [0.25],
+    [The ME/CFS--POTS--hEDS--MCAS cluster = single autonomic vulnerability syndrome that fragments into diagnoses by clinical threshold. DecodeME neuronal genes are substrate; POTS/hEDS/MCAS labels capture different phenotypic presentations. (a) Treating autonomic dysfunction improves all four "conditions." (b) Comorbidity rate correlates with number of thresholds tested, not severity. (c) DecodeME PRS predicts cluster better than individual diagnoses. (d) Each diagnosis sub-threshold for others at rates above chance.],
+    [Unified autonomic treatment trials (tVNS, pyridostigmine, LDN+pyridostigmine LIFT trial) with multi-diagnosis outcome measurement. PRS analysis once DecodeME data available. Retrospective chart review of comorbidity rates vs diagnostic workup thoroughness.],
+    [Ch.13 @spec:diagnostic-mirage],
+
+    [The Amitriptyline Signal: Genetic Evidence for Tricyclic Mechanism],
+    [H], [0.40],
+    [DecodeME $r_g = 0.61$ with amitriptyline use may reflect shared neural circuits, not just confounding. Low-dose amitriptyline's NMDA antagonism matches glutamatergic synapse genes. (a) ME/CFS benefit exceeds sleep/pain effects alone. (b) Greater benefit with higher neuronal-gene PRS. (c) Genetic correlation survives conditioning on depression and pain. (d) Mendelian randomisation supports causal efficacy.],
+    [Mendelian randomisation with DecodeME data — feasible. Pharmacogenomics trial: amitriptyline stratified by DecodeME PRS — feasible but requires DecodeME data access. Retrospective analysis of amitriptyline responders vs non-responders by genotype.],
+    [Ch.13 @hyp:amitriptyline-signal],
+
+    [Peptic Ulcer Parallel: What Would an _H. pylori_ Moment Look Like?],
+    [S], [0.20],
+    [ME/CFS follows the same trajectory as peptic ulcer disease (psychosomatic $arrow.r$ biological discovery $arrow.r$ resistance $arrow.r$ acceptance). The "discovery" will be a downstream molecular switch (TRPM3 dysfunction, epigenetic methylation lock, or autophagy gene bottleneck) rather than a single pathogen. (a) Specific switch candidates have their own predictions in respective chapters.],
+    [Historical analogy — not directly testable. Specific candidates (TRPM3, epigenetic lock, autophagy genes) are testable per their own hypothesis environments.],
+    [Ch.13 @spec:peptic-ulcer-parallel],
   ),
-  kind: table, supplement: [Table], caption: [New hypothesis registry entries added 2026-03-21, motivated by mecfsscience.org immune review, DecodeME genetics integration, and creative brainstorming session.],
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from mecfsscience.org integration and creative brainstorming (2026-03-21/22). Includes immune null findings, DecodeME genetics, exercise physiology, and cross-system synthesis.],
 ) <tab:hypothesis-registry-2026-03-21>
 
 /*

@@ -433,6 +433,11 @@ Diagnosis is confirmed by head-up tilt table testing, which can provoke the char
 A syndrome characterized by excessive heart rate increase upon standing without significant blood pressure drop. According to the 2015 Heart Rhythm Society expert consensus @Sheldon2015POTScriteria, diagnostic criteria include: heart rate increase $gt.eq$30 bpm (or $gt.eq$40 bpm in adolescents) within 10 minutes of standing, absence of orthostatic hypotension, symptoms of orthostatic intolerance, and symptom duration exceeding 6 months.
 ]
 
+#limitation(title: [POTS Diagnostic Threshold: Clinical Utility vs. Specificity])[
+The POTS diagnosis in the ME/CFS context should be interpreted cautiously. The defining $gt.eq$30 bpm criterion has poor specificity (10--15% of healthy controls meet it), poor day-to-day reproducibility, and explains only approximately 2% of symptom variance @MECFSScience2024pots. Only 21% of ME/CFS patients with orthostatic intolerance symptoms meet formal POTS criteria, indicating that the majority of autonomic dysfunction in ME/CFS is not captured by this diagnosis. The Diagnostic Mirage hypothesis (Chapter @ch:integrative-models, Speculation @spec:diagnostic-mirage) proposes that POTS, hEDS, and MCAS may represent phenotypic fragments of a single underlying autonomic vulnerability rather than distinct comorbid conditions. See Section @sec:cross-disease for the full comorbidity diagnostic validity analysis.
+]
+
+
 ==== Prevalence in ME/CFS
 
     - Estimated 25–50% of ME/CFS patients meet POTS criteria @Newton2008POTSprevalence

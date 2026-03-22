@@ -14,6 +14,103 @@ Each entry follows the format: *What* changed, _why_ it changed
 
 === New Content
 
+  - *Type 1 narcolepsy autoimmune mechanism cross-disease connection* (Chapter 14d, Autoimmune Disease Spectrum section; references.bib, 1 new entry): Added narcolepsy as autoimmune CNS comparator — CD4+ T-cell destruction of orexin neurons confirmed @Shan2026narcolepsy. Links to ME/CFS orexin dysfunction @LopezAmador2025orexin, cytokine-mediated orexin suppression, comorbid ME/CFS+narcolepsy case @Liao2021, and early immunotherapy implications. Motivated by: Shan et al.\ 2026 (_Annals of Neurology_) confirming autoimmune pathogenesis in type 1 narcolepsy, relevant to ME/CFS orexin system dysfunction and post-infectious autoimmune overlap.
+
+  - *mecfsscience.org catalog integration: 10 high-relevance topic areas*
+    (Chapter 12, Sections: sec:snp-heritability (new), sec:decodeme-loci (new),
+    sec:decodeme-genes (new), sec:genetic-correlations (expanded);
+    Chapter 6, Sections: sec:deconditioning-refutation (new), sec:boom-bust-myth (new),
+    new limitation on two-day CPET biomarker utility;
+    Chapter 14d, new limitation boxes on POTS diagnostic validity and hEDS diagnostic validity;
+    Chapter 24, Sections: sec:blinding-failures (new), sec:fitnet-failure (new),
+    sec:bmj-review-critique (new), sec:nice-shift (new), sec:catastrophizing-critique (new),
+    sec:psychosomatic-parallels (new), sec:scientific-integrity (new),
+    sec:funding-disparities (updated with 2024-2025 data);
+    Appendix H, new DecodeME annotated bibliography section;
+    references.bib, 20 new entries;
+    hypothesis registry updated with mitophagy vulnerability hypothesis):
+    Systematic integration of mecfsscience.org article catalog (scraped 2026-03-21,
+    ~65 articles assessed, 10 topic areas integrated). Major additions:
+    (1) DecodeME GWAS: 8 genome-wide significant loci, 9.5% SNP heritability,
+    brain-focused gene expression (CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C),
+    genetic correlations (IBS $r_g$=0.75, depression $r_g$=0.60), autophagy genes
+    (FBXL4, CCPG1), convergence with Stanford rare-variant study, no autoimmune
+    genetic correlation. New "Genetic Mitophagy Vulnerability" hypothesis (0.35).
+    (2) Exercise physiology: NASA bed rest comparison refuting deconditioning,
+    Keller 2024 CPET biomarker limitations (Bell scale $rho$=-0.009, group overlap),
+    2-day CPET discrepancies (data conflicts, circular reasoning), boom-and-bust
+    myth debunked by accelerometry.
+    (3) Comorbidity skepticism: POTS 30bpm threshold specificity problems (10-15%
+    healthy controls meet it, 2% symptom variance, poor reproducibility); hEDS
+    has no identified connective tissue defect, autonomic profile resembles
+    fibromyalgia not other EDS types.
+    (4) Treatment evidence: FITNET-NHS replication failure (n=314, 25% deterioration),
+    BMJ Long COVID review critique, NICE guideline shift with GRADE ceiling analysis.
+    (5) Methodology: systematic blinding failure pattern in ME/CFS trials,
+    Cochrane exercise review critique.
+    (6) Catastrophizing: PCS measures pain not distortion, term weaponised to deny care.
+    (7) Psychosomatic history: 10-disease historical parallel (MS, asthma, epilepsy,
+    diabetes, autism, schizophrenia, cancer, heart disease, RA, peptic ulcer).
+    (8) NIH funding: 2024 \$10.1M (25 projects), 2025 \$7.4M (18 projects, 7% decline);
+    European investment growing while US declines.
+    (9) Scientific integrity: ~14% fabrication estimate, ME/CFS problems are design
+    flaws not fraud.
+    Motivated by: mecfsscience.org critical research analysis blog providing
+    rigorous statistical and methodological perspectives on ME/CFS evidence base;
+    need to integrate critical/sceptical perspectives alongside positive findings.
+    @DecodeME2025 @MECFSScience2025decodeme @MECFSScience2025decodeme2
+    @MECFSScience2024exercise @MECFSScience2024deconditioning @MECFSScience2024boombust
+    @MECFSScience2024discrepancies @MECFSScience2024heds @MECFSScience2024pots
+    @MECFSScience2024fitnet @MECFSScience2024bmj @MECFSScience2023consensus
+    @MECFSScience2019blinding @MECFSScience2019cochrane @MECFSScience2024catastrophizing
+    @MECFSScience2021psychosomatic @MECFSScience2025funding @MECFSScience2024funding
+    @MECFSScience2025fakescience @King2024gwas_drugs.
+    Additional items integrated: GET/CBT long-term follow-up convergence data
+    (PACE reanalysis section); NICE GRADE methodology analysis and Flottorp
+    rebuttal; MetaBLIND study critique; NIH funding structural analysis and
+    per-disease comparative data; Cortene CT38 CRH2R trial (ch21 new
+    neuroendocrine section); Qure study for Q-fever fatigue syndrome;
+    2024--2025 annual research landscape summaries; placebo-controlled
+    surgery historical context for blinding debates.
+    @MECFSScience2021getset @MECFSScience2020fundingcomparison
+    @MECFSScience2020fundingwhy @MECFSScience2025yearreview
+    @MECFSScience2024yearreview @MECFSScience2021ct38
+    @MECFSScience2022flottorp @MECFSScience2021metablind
+    @MECFSScience2021grade @MECFSScience2020qure @MECFSScience2021surgery.
+
+  - *Creative brainstorm: cross-system synthesis from mecfsscience.org integration*
+    (Chapter 13, Section sec:critical-evidence-synthesis (new);
+    hypothesis registry updated with 5 new entries):
+    Four novel hypotheses/speculations and one open question generated by
+    synthesising DecodeME genetics, exercise physiology critique, comorbidity
+    validity concerns, and psychosomatic history parallels: (1) Glutamatergic--
+    Autonomic Bridge hypothesis (0.30): DecodeME synapse genes as constitutional
+    vulnerability in brainstem autonomic circuits; predicts memantine efficacy
+    with genotype stratification. (2) Diagnostic Mirage speculation (0.25):
+    ME/CFS--POTS--hEDS--MCAS as single autonomic syndrome, not four comorbid
+    diseases; predicts unified treatment approach superior to stacked diagnoses.
+    (3) Amitriptyline Signal hypothesis (0.40): DecodeME $r_g = 0.61$ with
+    amitriptyline use suggests mechanistic match via NMDA antagonism at
+    glutamatergic circuits; predicts pharmacogenomic trial utility.
+    (4) Peptic Ulcer Parallel speculation (0.20): ME/CFS following identical
+    psychosomatic-to-biological trajectory as peptic ulcer; candidates for
+    the "H. pylori moment" include TRPM3, epigenetic lock, autophagy gene
+    bottleneck. (5) Open question on genetic architecture resolving subtype
+    problem via PRS stratification.
+    Motivated by: cross-referencing DecodeME genetic correlations (IBS 0.75,
+    depression 0.60, no autoimmune correlation) with POTS/hEDS diagnostic
+    validity concerns, exercise physiology null findings, and historical
+    psychosomatic pattern analysis.
+    Full development of all five ideas: cross-references wired to ch08
+    (glutamatergic--kynurenine convergence), ch10 (POTS diagnostic validity
+    limitation), ch14b (amitriptyline genetic signal), ch18 (new sections:
+    glutamatergic modulation with memantine trial design, mitophagy-enhancing
+    compounds with pharmacogenomic stratification, unified autonomic treatment
+    protocol with trial design), ch24 (peptic ulcer parallel expansion with
+    molecular switch candidates), ch12 (genetic subtypes back-reference),
+    ch25b (DecodeME-Stratified Pharmacogenomic Trial Platform), ch16
+    (genetic architecture as causal hierarchy validator).
+
   - *Immune null findings integration and creative hypothesis generation*
     (Chapter 7, Sections: sec:nk-cells, sec:tgf-beta, sec:ighv3-30 (new),
     sec:immune-summary; Chapter 8, microglial PET warning box;
@@ -299,6 +396,38 @@ Each entry follows the format: *What* changed, _why_ it changed
     immunoadsorption efficacy but lacked a direct mechanistic link between
     circulating IgG and end-organ (endothelial, mitochondrial)
     injury @Liu2026IgGcomplexes.
+
+  - *Adversarial review: scientific rigor and language tempering across mecfsscience.org integration*
+    (Chapters 6, 12, 13, 16, 18, 24, 25b; ch10, ch14d cross-reference fixes):
+    Systematic adversarial review (cynic, reductionist, sophist) of all content
+    added during mecfsscience.org integration session, yielding 28 de-duplicated
+    findings across 15 categories. Key changes: (1) Overclaiming language tempered
+    throughout ch12 ("unprecedented" $arrow$ "large", "striking" $arrow$ "notable",
+    "positions" $arrow$ "suggests", "reveals" $arrow$ "identifies") and ch13
+    ("undeniable" $arrow$ "strongly supported by multiple independent lines of
+    evidence"). (2) HMGCR therapeutic analogy balanced with >90% GWAS drug target
+    failure base rate (ch12). (3) Ch13 hypotheses strengthened: glutamatergic bridge
+    anatomical specificity stripped (DecodeME does not localize effect); diagnostic
+    mirage given equal space to simpler shared-risk-factors alternative;
+    amitriptyline signal confounding pathway made explicit; peptic ulcer parallel
+    relabeled as historical analogy not speculation. (4) Ch24 self-sealing
+    prediction removed from psychosomatic trajectory claim; "(it does)"
+    parenthetical removed; FITNET non sequitur reframed with alternative
+    explanations. (5) Preclinical validation qualifiers added to ch18 trial designs
+    and ch25b study limitation box. (6) Power analysis and multiple comparison
+    correction notes added to ch25b. (7) mecfsscience.org explicitly acknowledged
+    as non-peer-reviewed source (ch12 footnote, ch06 cross-reference).
+    (8) Deconditioning VO#sub[2]max overlap with sedentary controls acknowledged
+    (ch06). (9) Boom-bust adapted-behavior alternative interpretation added (ch06).
+    (10) IBS added to psychosomatic list as example of "functional" with validated
+    biological subsets (ch24). (11) ch16 "validates" $arrow$ "is consistent with"
+    for post-hoc genetic mapping. (12) ch06 "directly validate" $arrow$ "are
+    consistent with" for CPET-mitochondrial framework. (13) Three broken
+    cross-references fixed (ch12 em-dash label parsing, ch10 ch:cross-disease,
+    ch14d sec:sickness-behaviour). (14) LaTeX remnant fixed (ch12 backslash-lt).
+    Motivated by: adversarial review identifying overclaiming, circular reasoning,
+    insufficient engagement with alternative explanations, and self-sealing
+    predictions in newly integrated content.
 
 === Literature Integration
 
