@@ -400,6 +400,35 @@ Critically, when ME/CFS participants were matched with controls having identical
 The two-day CPET abnormality has been observed in earlier smaller studies (Snell 2013, Stevens 2014), and Keller 2024 is the largest and most rigorously controlled. However, all major studies originate from overlapping research networks. Fully independent replication by groups without prior involvement would strengthen confidence.
 ]
 
+#limitation(title: [Two-Day CPET: Biomarker Utility Limitations])[
+Critical analysis of the Keller 2024 data reveals important limitations for diagnostic or biomarker utility @MECFSScience2024exercise. While the group-level Day 2 decline is statistically significant, the VO#sub[2]peak decline ($-5.1%$ in ME/CFS versus $-2%$ in controls) represents a moderate effect size with substantial overlap between groups---many individual ME/CFS patients show no Day 2 decline, and some controls show declines in the ME/CFS range. The Bell Disability Scale, commonly used to measure ME/CFS functional capacity, showed near-zero correlation with CPET parameters ($rho = -0.009$ for VO#sub[2]peak), suggesting that exercise testing captures a dimension of pathophysiology that is largely independent of patient-reported disability @MECFSScience2024exercise.
+
+Additionally, the mecfsscience.org analysis identified three methodological concerns in the broader two-day CPET literature @MECFSScience2024discrepancies: (1) conflicting data values appearing in different publications from the same dataset, (2) improbable clustering of zero-difference results in some analyses, and (3) circular reasoning in patient/control separation where the criterion for group assignment overlaps with the outcome variable. These concerns do not invalidate the finding of Day 2 decline but suggest the effect size and diagnostic specificity may be overstated in some publications.
+
+The two-day CPET is therefore best understood as a research tool demonstrating the biological reality of PEM at the group level, rather than as a clinical diagnostic test for individual patients.
+]
+
+===== Deconditioning Cannot Explain ME/CFS Exercise Intolerance
+<sec:deconditioning-refutation>
+
+A persistent alternative explanation for exercise intolerance in ME/CFS is that patients are merely deconditioned from inactivity. NASA bed rest studies provide a direct test of this hypothesis @MECFSScience2024deconditioning. In controlled bed rest experiments, prolonged immobilisation produces measurable deconditioning---but the resulting phenotype differs qualitatively from ME/CFS:
+
+    - *Magnitude:* Bed rest deconditioning produces mild fatigue that is readily distinguished from the profound energy failure in ME/CFS
+    - *Reversibility:* Deconditioning reverses rapidly with reconditioning programmes; ME/CFS exercise intolerance does not respond to graded exercise and may worsen (see Chapter @ch:symptom-management for evidence against GET)
+    - *VO#sub[2]max range:* ME/CFS patients' aerobic capacity typically falls in the 10th--25th percentile of population norms---reduced, but within the range of sedentary individuals rather than in the severely deconditioned range @MECFSScience2024deconditioning @keller2024cpet
+    - *Birth cohort evidence:* As reviewed by mecfsscience.org, prospective birth cohort studies show no association between pre-illness physical activity levels and subsequent development of ME/CFS, arguing against a deconditioning pathway @MECFSScience2024deconditioning
+
+===== The Boom-and-Bust Myth
+<sec:boom-bust-myth>
+
+The "boom-and-bust" behavioural model posits that ME/CFS patients alternate between overexertion on "good days" and prolonged recovery, maintaining illness through a maladaptive activity pattern. This model underpins cognitive behavioural therapy (CBT) approaches and graded exercise therapy (GET) recommendations. However, multiple accelerometer studies measuring objective physical activity patterns have found no support for this model @MECFSScience2024boombust:
+
+    - Objective activity monitoring shows ME/CFS patients maintain remarkably stable, low activity levels rather than the peaks and troughs predicted by boom-and-bust theory
+    - Symptom exacerbations (crashes) occur without preceding activity spikes, indicating they reflect PEM biology triggered by normal daily activities rather than behavioural overexertion
+    - The data are more consistent with a pathologically low activity threshold for triggering PEM than with pathologically high activity levels, suggesting the boom-and-bust model misidentifies the source of the problem
+
+These findings support the interpretation that PEM is a biological phenomenon better managed through pacing-based approaches (Chapter @ch:symptom-management) than through behavioural modification via CBT or GET.
+
 *Impairment Severity Worsening*
 
 Based on anaerobic threshold criteria, impairment classification shifted dramatically:

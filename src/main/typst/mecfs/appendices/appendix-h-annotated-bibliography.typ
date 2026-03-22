@@ -5453,6 +5453,55 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Quality:* Very high (entire national population; registry-based)
         - *Sample:* Millions of person-years
         - *Certainty:* 0.85 (population-level data; definitive for influenza/Pandemrix; generalisation to other vaccines is reasonable but not directly tested)
-    
+
+
+// =============================================================================
+
+== DecodeME Genome-Wide Association Study
+<sec:bib-decodeme>
+// =============================================================================
+
+=== DecodeME Consortium 2025 --- The Largest ME/CFS GWAS
+
+    / *Full Citation:*: DecodeME Consortium, Ponting CP, et al.\ Initial findings from the DecodeME genome-wide association study of myalgic encephalomyelitis/chronic fatigue syndrome. _medRxiv_. 2025. Preprint v2, August 2025.
+    / *DOI:*: #link("https://doi.org/10.1101/2025.08.06.25333109v1")[10.1101/2025.08.06.25333109v1]
+    / *Study Design:*: Genome-wide association study (GWAS); case-control
+    / *Sample Size:*: >15,000 ME/CFS patients; population controls from UK Biobank and other cohorts
+    / *Key Findings:*:
+
+        - 8 million+ SNPs tested; 8 genome-wide significant loci identified ($p < 5 times 10^(-8)$)
+        - Strongest signal: chr20 ($-log_10 p = 11.02$, OR = 1.095); candidate genes _ARFGEF2_, _CSE1L_, _STAU1_
+        - Other loci implicate _CA10_ (chr17), _UNC13C_ (chr15), _OLFM4_ (chr13)
+        - All 8 loci are common variants (MAF 13--63%) with small effect sizes (OR 0.93--1.10)
+        - SNP heritability: $h^2_"SNP" = 0.095$ (9.5%) via LD Score Regression
+        - MAGMA tissue expression analysis: all significantly enriched tissues are brain regions
+        - Genetic correlations: IBS ($r_g = 0.75$), depression ($r_g = 0.60$), fatigue/sleep traits ($r_g = 0.57$--$0.66$)
+        - No significant genetic correlation with MS, RA, Crohn's disease, T1D, or T2D
+        - Genomic inflation factor: 1.066 (minimal population stratification)
+
+    / *Relevance:*: Watershed study establishing the polygenic, brain-focused genetic architecture of ME/CFS. The convergence on neuronal genes challenges purely peripheral/immune models. The absence of autoimmune genetic correlation constrains the autoimmune hypothesis. The autophagy gene signals (_FBXL4_, _CCPG1_) provide a novel genetic link to mitochondrial dysfunction. Effect sizes are small individually but the loci point to major biological pathways amenable to therapeutic targeting.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (largest ME/CFS genetic study ever; rigorous methodology; British ancestry with PCA correction)
+        - *Replication:* Not yet replicated (by design---discovery cohort; no comparable replication cohort exists)
+        - *Certainty:* 0.70 (robust methodology and convergence with independent rare-variant study; awaits independent replication and peer review)
+
+
+=== ME/CFS Science 2025 --- Critical Analysis of DecodeME (Two-Part Series)
+
+    / *Full Citation:*: ME/CFS Science. DecodeME: the biggest ME/CFS study ever. mecfsscience.org. October 4, 2025. Part II: Genes pointing to the brain: DecodeME part II. October 13, 2025.
+    / *URLs:*: #link("https://mecfsscience.org/decodeme-the-biggest-me-cfs-study-ever/")[Part I] | #link("https://mecfsscience.org/genes-pointing-to-the-brain-decodeme-part-ii/")[Part II]
+    / *Source Type:*: Critical analysis blog by two long-term ME/CFS patients; focus on statistical methodology and evidence evaluation
+    / *Key Contributions:*:
+
+        - Part I: Contextualises effect sizes (1--2 percentage point prevalence differences); compares SNP heritability across conditions; presents full genetic correlation table against 3,167 UK Biobank traits; explains why small GWAS effects can point to major therapeutic targets (HMGCR/statin example)
+        - Part II: Fine-mapping analysis identifying specific genes at each locus via GTEx, proximity, and GWAS Catalog cross-referencing; three biological themes (neuronal, immune-ambiguous, autophagy); convergence with Stanford rare-variant study (_NLGN2_, _SYNGAP1_); confounding analysis (symptom overlap, intelligence/education); GWAS Catalog prior associations for each gene
+
+    / *Relevance:*: Provides the most accessible and rigorous public analysis of DecodeME findings. The gene-by-gene characterisation and cross-referencing with prior GWAS is not available in the preprint itself. Critical for understanding what DecodeME does and does not tell us about ME/CFS biology.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (thorough statistical reasoning; transparent about limitations)
+        - *Certainty:* N/A (secondary analysis; certainty pertains to the primary data)
+
 
 // =============================================================================

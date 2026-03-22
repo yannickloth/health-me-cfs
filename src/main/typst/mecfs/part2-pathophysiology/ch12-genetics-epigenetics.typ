@@ -136,7 +136,7 @@ Genome-wide association studies (GWAS) represent a paradigm shift from candidate
 ==== DecodeME: The Largest ME/CFS GWAS
 
 #achievement(title: [DecodeME GWAS Findings])[
-The DecodeME study represents the largest genetic investigation of ME/CFS to date, recruiting 21,620 ME/CFS cases and comparing them to population controls through the UK Biobank and other cohorts @DecodeME2025. This unprecedented sample size provides statistical power to detect genetic variants with realistic effect sizes (odds ratios of 1.1–1.3) that reach genome-wide significance ($p < 5 times 10^(-8)$).
+The DecodeME study represents the largest genetic investigation of ME/CFS to date, with over 15,000 ME/CFS patients contributing DNA samples, compared against population controls through the UK Biobank and other cohorts @DecodeME2025. This unprecedented sample size provides statistical power to detect genetic variants with realistic effect sizes (odds ratios of 1.1–1.3) that reach genome-wide significance ($p < 5 times 10^(-8)$).
 
 DecodeME employed rigorous case ascertainment through physician diagnosis and self-report with verification, accepting patients meeting CCC (Canadian Consensus Criteria), ICC (International Consensus Criteria), or IOM (Institute of Medicine) diagnostic criteria. This inclusive approach maximizes sample size while acknowledging diagnostic heterogeneity, with sensitivity analyses examining whether genetic architecture differs across diagnostic subtypes.
 
@@ -147,27 +147,92 @@ The study's scale enables several key analyses beyond simple case-control associ
 DecodeME is the first adequately powered ME/CFS GWAS. The genome-wide significant loci identified await replication by design—GWAS discovery cohorts require independent replication cohorts to confirm true associations versus false positives. No independent replication cohort of comparable size currently exists, though international collaborations (e.g., with US ME/CFS Clinician Coalition biobanks) may provide future replication opportunities.
 ]
 
-Initial findings from DecodeME confirm the polygenic architecture of ME/CFS, with disease liability arising from the cumulative effects of many variants of small individual effect rather than single genes of large effect. SNP heritability estimates from DecodeME provide genome-wide validation of the twin study heritability estimates discussed in Section @sec:heritability, demonstrating that common genetic variants explain a substantial proportion of familial clustering.
+===== SNP Heritability
+<sec:snp-heritability>
 
-Specific genome-wide significant loci identified in DecodeME require careful interpretation. Many GWAS hits fall in non-coding regions affecting gene regulation rather than protein sequence, necessitating functional follow-up to identify causal variants and target genes. Some associated loci contain genes with clear biological relevance to ME/CFS pathophysiology—immune genes, metabolic genes, neurological genes—while others highlight previously unsuspected pathways requiring mechanistic investigation.
+DecodeME estimated SNP-based heritability at $h^2_"SNP" = 0.095$ (9.5%) on the liability scale via LD Score Regression @DecodeME2025 @MECFSScience2025decodeme. This is modest compared to schizophrenia ($h^2_"SNP" approx 0.26$), Crohn's disease ($approx 0.24$), or type 1 diabetes ($approx 0.22$), but close to the mean heritability across all UK Biobank traits ($h^2 approx 0.10$) and substantially higher than fibromyalgia ($h^2_"SNP" approx 0.01$). The gap between twin-study heritability ($h^2 approx 0.3$--$0.5$; Section @sec:heritability) and SNP heritability reflects the "missing heritability" expected for complex traits: rare variants, structural variants, gene--gene interactions, and epigenetic contributions are not captured by common-variant GWAS arrays.
+
+===== The Eight Genome-Wide Significant Loci
+<sec:decodeme-loci>
+
+DecodeME identified eight loci reaching genome-wide significance ($p < 5 times 10^(-8)$) across more than 8 million tested SNPs @DecodeME2025 @MECFSScience2025decodeme. All eight are common variants (minor allele frequency 13--63%) with small individual effect sizes (odds ratios 0.93--1.10), consistent with the polygenic architecture expected for complex diseases. The prevalence difference between patients and controls at each locus is only 1--2 percentage points---for example, the chr17 lead SNP is present in 34.7% of ME/CFS cases versus 32.9% of controls @MECFSScience2025decodeme. These eight loci represent the tip of a polygenic iceberg: hundreds or thousands of additional variants likely contribute sub-threshold effects.
+
+The strongest signal by far is on chromosome 20 ($-log_10 p = 11.02$, OR $= 1.095$) in a region containing three candidate genes: _ARFGEF2_ (vesicle trafficking), _CSE1L_ (nuclear transport), and _STAU1_ (mRNA transport)---all highlighted by MAGMA gene-based testing @MECFSScience2025decodeme2. Other genome-wide significant loci implicate _CA10_ (chr17; CNS development, chronic pain), _UNC13C_ (chr15; glutamatergic synaptic transmission), and _OLFM4_ (chr13; neural development, innate immunity) @DecodeME2025 @MECFSScience2025decodeme2.
+
+A critical interpretive point: small GWAS effect sizes do not predict therapeutic utility. As analysts at mecfsscience.org note, GWAS effect sizes have not predicted drug development success---_HMGCR_ variants have tiny GWAS effects, yet statins (HMGCR inhibitors) produce substantial clinical benefit @MECFSScience2025decodeme @King2024gwas_drugs. Moreover, because DNA is fixed at birth, genetic associations are not confounded by illness-related changes (deconditioning, medication use, sleep disruption), making them stronger evidence for causal pathways than most ME/CFS biomarker studies.
+
+===== Gene Prioritisation and Fine-Mapping
+<sec:decodeme-genes>
+
+Most GWAS signals lie in non-coding regions, necessitating gene prioritisation through expression quantitative trait locus (eQTL) mapping, tissue expression analysis, and proximity-based inference @MECFSScience2025decodeme2. DecodeME used Genotype-Tissue Expression (GTEx) project data to correlate lead SNPs with gene expression across tissues. A key limitation is that only approximately 40% of GWAS signals can be matched to specific genes via eQTL approaches.
+
+Fine-mapping of the eight significant loci plus sub-threshold hits ($p < 5 times 10^(-7)$) reveals three convergent biological themes @MECFSScience2025decodeme2:
+
+*Neuronal development and synaptic function.* The clearest and most consistent signal across DecodeME loci points to the brain. MAGMA gene-set analysis found that all significantly enriched tissues were brain regions @MECFSScience2025decodeme. Specific genes include:
+
+    - _CA10_ (chr17): role in CNS development; previously associated with insomnia, chronic pain, and restless legs syndrome
+    - _SHISA6_ (chr17, sub-threshold): excitatory synaptic transmission at glutamatergic synapses; associated with sleep duration and insomnia
+    - _SOX6_ (chr11, sub-threshold): required for normal CNS development
+    - _LRRC7_ (chr1, sub-threshold): regulation of neuron projection development; associated with depression, educational attainment
+    - _DCC_ (chr18, sub-threshold): mediates axon guidance of neuronal growth cones; associated with insomnia, pain, depression, autism, schizophrenia
+    - _UNC13C_ (chr15): predicted involvement in glutamatergic synaptic transmission
+    - _BARHL2_ (chr1, sub-threshold): neuron generation and axon extension
+
+The convergence of these genes on neuronal communication and synaptic function is striking. Cross-referencing with the GWAS Catalog reveals that several of these genes have been independently associated with insomnia, depression, and chronic pain in other GWAS---conditions that share substantial clinical overlap with ME/CFS @MECFSScience2025decodeme2. According to the mecfsscience.org analysis, _OLFM4_ and _DCC_ were also identified in a 2025 fibromyalgia GWAS preprint, though the specific DNA signals at these loci differ between the two conditions, suggesting the same genes may be involved through different regulatory mechanisms @MECFSScience2025decodeme2.
+
+*Immune function (ambiguous).* Several loci contain immune-relevant genes, but gene-dense regions create assignment ambiguity @MECFSScience2025decodeme2:
+
+    - _RABGAP1L_ (chr1): involved in bacterial expulsion from cells and limiting viral replication; however, this locus contains 11 candidate genes
+    - _BTN2A2_ (chr6): butyrophilin family gene in the MHC region, packed with immune genes
+    - _TAOK3_ (chr12, proximity-only inference; not in DecodeME's prioritised gene list): role in T-cell activation, linked to lupus; lies closest to the chr12 signal
+    - _HLA-DQA1\*05:01_: associated with ME/CFS at genome-wide significance, but the HLA region is notoriously difficult to fine-map; further analyses planned
+
+*Autophagy and intracellular transport.* An unexpected signal emerged around cellular quality control mechanisms @MECFSScience2025decodeme2:
+
+    - _FBXL4_ (chr6, sub-threshold; gene assignment not definitive): involved in mitophagy (selective autophagy of mitochondria); La Trobe University plans further exploration
+    - _CCPG1_ (chr15): facilitates ER-phagy (endoplasmic reticulum autophagy)
+    - _ARFGEF2_, _CSE1L_, _STAU1_ (chr20, the strongest locus): all involved in vesicle trafficking and intracellular transport
+
+The autophagy signal is intriguing given the well-documented mitochondrial dysfunction in ME/CFS (Chapter @ch:energy-metabolism). A possible mechanistic connection---that genetically impaired mitophagy could permit accumulation of damaged mitochondria, contributing to bioenergetic crisis---is formalised as Hypothesis @hyp:mitophagy-vulnerability below.
+
+===== Convergence with Rare-Variant Studies
+
+As reported by mecfsscience.org, the Stanford Mark Snyder laboratory independently published a preprint (2025) using a fundamentally different approach: instead of common variants, they studied rare loss-of-function variants using a neural network trained on biological data @MECFSScience2025decodeme2. Their risk genes---including _NLGN2_ and _SYNGAP1_---are reported to be involved in synaptic function, aligning with the DecodeME common-variant findings. If confirmed, this convergence of two independent methodologies on neuronal communication genes would substantially strengthen the case that brain-related genetic pathways contribute to ME/CFS susceptibility. The planned SequenceME study will specifically target rare variants (minor allele frequency $< 1%$), which may show larger, clearer effects than the common variants captured by DecodeME.
+
+===== Confounding and Robustness
+
+DecodeME restricted analysis to British participants with European ancestry and corrected for population stratification using PCA with the first 20 principal components, achieving a genomic inflation factor of 1.066 (close to the ideal 1.0), indicating minimal confounding @MECFSScience2025decodeme2. A potential concern is symptom confounding: several implicated genes have prior associations with depression, insomnia, and pain. These associations could reflect genuine shared biology (common neural pathways disrupted in ME/CFS and these conditions) or confounding if control groups contain undiagnosed individuals with these symptoms. The DecodeME team plans future analyses testing whether associations hold in ME/CFS patients without comorbid depression, using the study's detailed questionnaire data.
 
 ==== Genetic Correlations with Other Conditions
+<sec:genetic-correlations>
 
-GWAS enables calculation of genetic correlations—the degree to which two conditions share common genetic risk variants. Positive genetic correlation indicates overlapping genetic architecture; negative correlation suggests protective variants for one condition increase risk for another. DecodeME genetic correlation analyses illuminate the relationship between ME/CFS and related conditions.
+DecodeME computed genetic correlations ($r_g$) via LD Score Regression against 3,167 traits in the UK Biobank BIGA database @DecodeME2025 @MECFSScience2025decodeme. The results are striking for what they include and what they exclude.
 
-Several conditions show positive genetic correlation with ME/CFS, suggesting shared genetic susceptibility. Depression and anxiety disorders demonstrate genetic overlap, though this correlation does not imply causality in either direction; rather, shared genetic variants may predispose to both ME/CFS and mood disorders through common biological pathways (perhaps involving neurotransmitter systems, HPA axis regulation, or inflammation). Fibromyalgia and irritable bowel syndrome show genetic correlation with ME/CFS, consistent with clinical overlap and suggesting shared pain processing or autonomic dysfunction pathways.
+The strongest genetic correlations (all Bonferroni-corrected for 3,167 comparisons; threshold $approx 1.6 times 10^(-5)$) are with functional and symptom-based conditions:
 
-Notably, Long COVID shows genetic correlation with ME/CFS, supporting clinical observations of similar post-infectious phenotypes. This correlation suggests that genetic variants predisposing to ME/CFS following various infections also predispose to chronic symptoms following COVID-19. The magnitude of this correlation informs debate about whether Long COVID and ME/CFS represent the same condition or overlapping but distinct entities: high correlation (rg \> 0.7) would suggest essentially the same genetic liability, while moderate correlation (rg = 0.3–0.5) indicates shared but not identical genetic architecture.
+    - Irritable bowel syndrome: $r_g = 0.75$ ($p = 0.00015$)
+    - Self-reported chronic fatigue syndrome: $r_g = 0.70$ ($p = 0.00005$)
+    - Sleeping too much: $r_g = 0.66$ ($p = 0.00028$)
+    - Depression (professionally diagnosed): $r_g = 0.60$ ($p < 0.00001$)
+    - Amitriptyline use: $r_g = 0.61$ ($p < 0.00001$)
+    - Recent tiredness/low energy: $r_g = 0.61$ ($p < 0.00001$)
+    - Spondylosis: $r_g = 0.59$ ($p = 0.016$; nominally significant but does not survive strict Bonferroni correction)
 
-Autoimmune diseases may show variable genetic correlation with ME/CFS. If significant positive correlation emerges, this would support hypotheses of autoimmune mechanisms in ME/CFS and suggest that some genetic susceptibility to ME/CFS reflects general autoimmune liability.
+The high correlation with IBS ($r_g = 0.75$) is consistent with the well-documented clinical overlap and may reflect shared autonomic, gut--brain axis, or mast cell pathways. The depression correlation ($r_g = 0.60$) does not imply that ME/CFS is a depressive disorder; rather, shared genetic variants likely affect common neurological substrates (sleep regulation, pain processing, fatigue signalling) that are disrupted in both conditions through different downstream mechanisms. Childhood asthma shows a modest correlation ($r_g = 0.31$; p-value not reported as Bonferroni-significant), consistent with immune pathway involvement @MECFSScience2025decodeme.
+
+#limitation(title: [Genetic Correlation $eq.not$ Shared Aetiology])[
+Genetic correlation measures shared common-variant architecture, not shared causal mechanisms. Two conditions can show high $r_g$ because they share upstream risk variants that diverge into different downstream pathologies. The $r_g = 0.60$ with depression, for example, may reflect that neuronal genes affecting synaptic function (such as those identified at DecodeME loci) contribute to both conditions through different circuits. Critically, ME/CFS shows *no significant genetic correlation* with classic autoimmune diseases: multiple sclerosis, rheumatoid arthritis, Crohn's disease, type 1 diabetes, or type 2 diabetes @MECFSScience2025decodeme. This absence challenges hypotheses positioning ME/CFS as primarily an autoimmune condition and suggests that any autoimmune component operates through mechanisms genetically distinct from established autoimmune diseases.
+]
 
 ==== Polygenic Risk Scores
 
 Polygenic risk scores (PRS) aggregate the effects of thousands or millions of genetic variants into a single quantitative measure of inherited liability. PRS can identify individuals at high genetic risk (top decile of PRS distribution), who may benefit from preventive interventions, or individuals at low genetic risk despite environmental exposures. For ME/CFS, PRS applications include risk stratification, mechanistic subtyping, and prediction.
 
-DecodeME enables development of ME/CFS polygenic risk scores that can be tested for clinical utility. Key questions include: Does high PRS predict which individuals develop ME/CFS following infectious mononucleosis or COVID-19? Do patients with high versus low PRS show different clinical phenotypes, treatment responses, or prognoses? Can PRS combined with environmental risk factors improve prediction compared to either alone?
+DecodeME could enable development of ME/CFS polygenic risk scores, though none has yet been tested for clinical utility.
 
-The clinical utility of PRS depends on effect size distribution. If ME/CFS liability reflects thousands of variants each contributing tiny effects, PRS will show modest discriminative ability (area under curve approximately 0.6–0.65), limiting clinical utility. If a subset of variants have larger effects, PRS performance improves. Even modest predictive ability may have clinical value: if 20% of exposed individuals with high PRS develop ME/CFS versus 2% with low PRS, this tenfold risk gradient could guide post-exposure monitoring and early intervention.
+#open-question(title: [ME/CFS Polygenic Risk Score Clinical Utility])[
+Several key questions remain untested: Does high PRS predict which individuals develop ME/CFS following infectious mononucleosis or COVID-19? Do patients with high versus low PRS show different clinical phenotypes, treatment responses, or prognoses? Can PRS combined with environmental risk factors improve prediction compared to either alone? The clinical utility of PRS depends on effect size distribution. If ME/CFS liability reflects thousands of variants each contributing tiny effects, PRS discriminative ability may be modest (for illustration, AUC approximately 0.6--0.65), limiting clinical utility. If a subset of variants have larger effects, PRS performance improves. Even modest predictive ability could have clinical value if the risk gradient between high and low PRS is sufficiently large to guide post-exposure monitoring and early intervention.
+]
 
 ==== Earlier GWAS Attempts and Methodological Challenges
 
@@ -182,11 +247,26 @@ The missing heritability problem—the gap between twin study heritability estim
 
 ==== Implications for Understanding ME/CFS Pathophysiology
 
-GWAS findings illuminate disease mechanisms by identifying unexpected genes and pathways. When associated loci cluster in particular biological pathways or cell types, this convergence suggests mechanistic importance even if individual variants have small effects. For ME/CFS, pathway enrichment analyses can test whether associated variants cluster in immune pathways, metabolic pathways, neurological pathways, or other systems.
+DecodeME's findings reshape understanding of ME/CFS genetic architecture in three ways. First, the overwhelming convergence on brain-expressed genes---confirmed by both MAGMA tissue enrichment and individual gene characterisation---positions neuronal dysfunction as a genetically grounded component of ME/CFS, rather than merely a downstream consequence of peripheral pathology @DecodeME2025 @MECFSScience2025decodeme @MECFSScience2025decodeme2. The glutamatergic synapse genes (_SHISA6_, _UNC13C_) are particularly noteworthy given the neurological abnormalities described in Chapter @ch:neurological, where altered neurotransmitter dynamics have been observed.
 
-Gene-set enrichment might reveal, for example, that associated variants disproportionately affect genes expressed in natural killer cells, suggesting NK cell dysfunction has genetic determinants, or that variants cluster in mitochondrial pathways, supporting metabolic dysfunction as a genetically influenced component. Such findings validate hypotheses generated from physiological studies and suggest therapeutic targets.
+Second, the absence of genetic correlation with established autoimmune diseases constrains the autoimmune hypothesis: if ME/CFS involved the same genetic liability as MS, RA, or T1D, this would appear as significant $r_g$. The autoimmune features documented in Chapter @ch:immune-dysfunction may therefore represent a phenocopy driven by different genetic pathways---perhaps the immune-ambiguous loci identified in DecodeME (Section @sec:decodeme-genes) operating through novel mechanisms rather than classical autoimmunity.
 
-GWAS also enable Mendelian randomization analyses testing causal relationships between exposures and ME/CFS. Using genetic variants as instrumental variables for exposures (analogous to randomized controlled trials), researchers can test whether, for example, genetically predicted vitamin D levels affect ME/CFS risk, or whether genetically predicted inflammatory markers causally contribute to disease liability. These analyses help distinguish causation from correlation in observational studies.
+Third, the autophagy/mitophagy genes (_FBXL4_, _CCPG1_) provide a genetic link to the mitochondrial dysfunction documented in Chapter @ch:energy-metabolism---the possible mechanistic implications are formalised in Hypothesis @hyp:mitophagy-vulnerability below.
+
+GWAS also enables Mendelian randomisation analyses testing causal relationships between exposures and ME/CFS. Using genetic variants as instrumental variables, researchers can test whether genetically predicted inflammatory markers, vitamin D levels, or other biomarkers causally contribute to disease liability, distinguishing causation from the reverse causation and confounding that plague observational ME/CFS studies.
+
+#hypothesis(title: [Genetic Mitophagy Vulnerability: The Accumulation Threshold Model])[
+
+*Certainty: 0.35.* The DecodeME identification of mitophagy (_FBXL4_) and ER-phagy (_CCPG1_) genes at genome-wide significant or near-significant loci, combined with the well-documented mitochondrial dysfunction in ME/CFS (Chapter @ch:energy-metabolism), suggests a two-hit model of bioenergetic collapse.
+
+Individuals carrying risk variants in autophagy genes have constitutionally reduced capacity to clear damaged mitochondria. Under normal conditions, this impairment is subclinical---the rate of mitochondrial damage does not exceed the reduced clearance capacity. However, an acute metabolic stress (viral infection, surgery, prolonged physical/psychological stress) produces a burst of mitochondrial damage that overwhelms the already-reduced clearance system. Damaged mitochondria accumulate past a critical threshold, producing a self-reinforcing cycle: dysfunctional mitochondria generate excess reactive oxygen species, which damage neighbouring mitochondria, further increasing the clearance burden.
+
+If this hypothesis is correct, then: (1) ME/CFS patients should show elevated markers of impaired mitophagy (accumulation of mitochondrial DNA lesions, reduced PINK1/Parkin pathway activity, increased mitochondrial fragmentation) compared to healthy controls matched for _FBXL4_ genotype; (2) the severity of mitochondrial dysfunction should correlate with _FBXL4_ and _CCPG1_ genotype in a dose-dependent manner; (3) interventions that enhance mitophagy (e.g., urolithin A, NAD+ precursors, exercise-mimetic compounds that activate AMPK without requiring physical exertion) should preferentially benefit patients with autophagy risk variants; (4) the bioenergetic crisis should be partially reversible if the accumulated damaged mitochondria can be cleared, predicting that mitophagy-enhancing therapies could restore function even in established disease.
+
+*Treatment implications:* Compounds proposed to enhance mitophagy (urolithin A, spermidine, NAD+ precursors such as nicotinamide riboside) could be stratified by _FBXL4_/_CCPG1_ genotype, enabling a pharmacogenomic approach to ME/CFS treatment. This represents a testable bridge between the genetic findings of DecodeME and the metabolic dysfunction documented by exercise physiology studies.
+
+*Limitations:* The _FBXL4_ locus is sub-threshold in the main DecodeME analysis and the gene assignment is not definitive. No study has directly measured mitophagy capacity in ME/CFS patients. The two-hit threshold model is conceptually appealing but has not been tested in any chronic fatigue condition. The proposed interventions (urolithin A, NAD+ precursors) have not been trialled specifically in ME/CFS with genotype stratification.
+] <hyp:mitophagy-vulnerability>
 
 == Epigenetic Modifications
 <sec:epigenetics>
@@ -195,7 +275,7 @@ Epigenetic modifications—chemical alterations to DNA and chromatin that regula
 
 The epigenetic landscape encompasses multiple interconnected mechanisms. DNA methylation silences gene expression by adding methyl groups to cytosine bases, particularly at CpG dinucleotides in gene promoters. Histone modifications alter chromatin structure through acetylation, methylation, phosphorylation, and other post-translational modifications of histone proteins, making genes more or less accessible to transcription machinery. MicroRNAs regulate gene expression post-transcriptionally by binding messenger RNAs and promoting their degradation or blocking translation. These mechanisms interact: DNA methylation patterns influence histone modifications, which in turn affect microRNA expression, creating integrated regulatory networks.
 
-For ME/CFS, the epigenetic hypothesis proposes that triggering infections or stressors induce epigenetic reprogramming in immune cells, metabolic tissues, or neurological systems, and that this reprogramming persists after the trigger resolves, maintaining pathological cellular states. This model explains chronicity without requiring persistent infection and suggests potentially reversible mechanisms amenable to therapeutic intervention.
+For ME/CFS, the epigenetic hypothesis proposes that triggering infections or stressors induce epigenetic reprogramming in immune cells, metabolic tissues, or neurological systems, and that this reprogramming persists after the trigger resolves, maintaining pathological cellular states. This model may explain chronicity without requiring persistent infection and suggests potentially reversible mechanisms amenable to therapeutic intervention.
 
 === DNA Methylation
 <sec:dna-methylation>
@@ -432,11 +512,11 @@ Several conclusions now rest on firm empirical ground:
 
 *Moderate heritability* Twin studies consistently demonstrate heritability estimates of $h^2 = 0.3$–$0.5$, indicating that 30–50% of disease liability reflects genetic factors. This moderate heritability implies substantial genetic contribution while confirming environmental factors' essential role.
 
-*Polygenic architecture* DecodeME and other GWAS findings confirm that ME/CFS arises from the cumulative effects of many genetic variants of small individual effect rather than single genes of large effect. This polygenic model aligns with other complex diseases and explains familial clustering without Mendelian inheritance patterns.
+*Polygenic architecture with neuronal convergence* DecodeME (n$>$15,000) identified 8 genome-wide significant loci with small effect sizes (OR 0.93--1.10) and SNP heritability of 9.5% @DecodeME2025. The most striking finding is convergence on brain-expressed genes involved in neuronal development and synaptic function (_CA10_, _SHISA6_, _SOX6_, _LRRC7_, _DCC_, _UNC13C_), confirmed by MAGMA tissue enrichment and independently supported by Stanford rare-variant analyses (Section @sec:decodeme-genes). Genetic correlations are strongest with IBS ($r_g = 0.75$), sleep, and mood traits, but absent for classical autoimmune diseases (Section @sec:genetic-correlations).
 
 *Gene-environment interaction* The observation that only a minority of individuals exposed to triggering infections develop ME/CFS, combined with familial aggregation patterns, validates gene-environment interaction as the central etiological framework. Genetic variants establish vulnerability; environmental triggers are necessary for disease expression.
 
-*Immune and metabolic pathway enrichment* Gene expression and pathway analyses consistently implicate immune response pathways and metabolic dysfunction. This convergence across independent studies and methodologies validates immune and metabolic dysregulation as core pathophysiological features with genetic determinants.
+*Immune ambiguity and autophagy signals* DecodeME immune-related hits (_RABGAP1L_, _BTN2A2_, _TAOK3_, _HLA-DQA1\*05:01_) lie in gene-dense regions creating assignment ambiguity, and the absence of genetic correlation with autoimmune diseases constrains the autoimmune hypothesis. Unexpectedly, autophagy genes (_FBXL4_ for mitophagy, _CCPG1_ for ER-phagy) provide a genetic link to mitochondrial dysfunction (Chapter @ch:energy-metabolism), suggesting constitutional vulnerability in organelle quality control.
 
 *Epigenetic reprogramming* Demonstration of DNA methylation changes, altered histone modifications, and dysregulated microRNA expression establishes epigenetic reprogramming as a plausible mechanism for chronicity. These potentially reversible modifications provide therapeutic targets.
 ] <ach:genetic-epigenetic-foundations>

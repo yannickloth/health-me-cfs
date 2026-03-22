@@ -99,8 +99,14 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
     [Alternative: immune findings are downstream of metabolic/neurological disease. Immune cells impaired because _all_ cells impaired. (a) Non-immune cells (fibroblasts) show same metabolic dysfunction. (b) Metabolic interventions improve both immune function and symptoms simultaneously.],
     [Fibroblast/epithelial cell metabolic profiling. RESETME trial: sustained remission favours immune causality; transient benefit favours canary model.],
     [Ch.13],
+
+    [Genetic Mitophagy Vulnerability: The Accumulation Threshold Model],
+    [H], [0.35],
+    [DecodeME mitophagy (_FBXL4_) and ER-phagy (_CCPG1_) genes suggest constitutional impairment in organelle quality control. Acute metabolic stress overwhelms reduced clearance capacity; damaged mitochondria accumulate past self-reinforcing threshold. (a) ME/CFS patients show impaired PINK1/Parkin activity. (b) Severity correlates with _FBXL4_/_CCPG1_ genotype dose-dependently. (c) Mitophagy-enhancing compounds (urolithin A, NAD+ precursors) preferentially benefit autophagy risk-variant carriers.],
+    [Mitophagy capacity assays in ME/CFS PBMCs — feasible but not yet done. _FBXL4_ genotype stratification in existing biobanks. Urolithin A trial with pharmacogenomic stratification. No study has directly measured mitophagy in ME/CFS.],
+    [Ch.12 @hyp:mitophagy-vulnerability],
   ),
-  kind: table, supplement: [Table], caption: [New hypothesis registry entries added 2026-03-21, motivated by mecfsscience.org immune review and creative brainstorming session.],
+  kind: table, supplement: [Table], caption: [New hypothesis registry entries added 2026-03-21, motivated by mecfsscience.org immune review, DecodeME genetics integration, and creative brainstorming session.],
 ) <tab:hypothesis-registry-2026-03-21>
 
 /*

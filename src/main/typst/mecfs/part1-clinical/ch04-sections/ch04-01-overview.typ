@@ -9,21 +9,21 @@ ME/CFS lacks a definitive diagnostic test. Diagnosis remains clinical, based on 
 
 The history of ME/CFS diagnostic criteria reflects evolving understanding of the illness:
 
-*Early Frameworks (1988–1994)*
+==== Early Frameworks (1988–1994)
 
     - *Holmes Criteria (1988)*: First CDC case definition; required 6+ months of persistent/relapsing fatigue plus 8 of 11 symptom criteria or 6 of 11 symptoms plus 2 of 3 physical criteria
     - *Problem*: Overly broad; captured patients with primary depression or deconditioning; lacked specificity for the post-exertional phenotype
     - *Fukuda Criteria (1994)*: Simplified to 6 months of unexplained fatigue plus 4 of 8 symptoms; removed physical examination criteria
     - *Impact*: Became the dominant research framework but remained criticized for heterogeneity
 
-*Restrictive Frameworks (2003–2011)*
+==== Restrictive Frameworks (2003–2011)
 
     - *Canadian Consensus Criteria (2003)*: Required post-exertional malaise/fatigue, sleep dysfunction, pain, and two neurological/cognitive manifestations plus one autonomic/neuroendocrine/immune manifestation
     - *International Consensus Criteria (2011)*: Emphasized post-exertional _neuroimmune_ exhaustion as mandatory; required neurological impairments, immune/gastrointestinal/genitourinary impairments, and energy metabolism/transport impairments
     - *Rationale*: Select more homogeneous, severely affected patients; exclude patients with primary psychiatric conditions
     - *Trade-off*: Higher specificity but lower sensitivity; may miss milder cases
 
-*Consensus Framework (2015)*
+==== Consensus Framework (2015)
 
     - *IOM Criteria (2015)*: Proposed by Institute of Medicine (now National Academy of Medicine) systematic review
     - *Required symptoms*: (1) Substantial impairment lasting $gt.eq$6 months, (2) Post-exertional malaise, (3) Unrefreshing sleep, (4) Cognitive impairment OR orthostatic intolerance
