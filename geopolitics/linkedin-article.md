@@ -6,7 +6,7 @@ East: sanctioned shut. Southeast: bombed. The Levant: rubble. Africa: coups. Lat
 
 What's left open is the Atlantic. Westward. To the United States.
 
-Each of these closures has its own justification — a real one. Russia's invasion of Ukraine. Iran's nuclear program. Venezuelan narco-trafficking. Sahel instability. None of what follows requires assuming secret coordination between hostile powers. But the pattern deserves scrutiny: when every closure benefits the same actor, and the cumulative result is rising EU dependency on a single partner, the question of whether this is coincidence or something more becomes unavoidable.
+Each of these closures has its own justification — a real one. Russia's invasion of Ukraine. Iran's nuclear program. Venezuelan narco-trafficking. Sahel instability. None of what follows requires assuming secret coordination between hostile powers. But look at who benefits. When every closure advantages the same actor, and the cumulative result is rising EU dependency on a single partner, you have to at least ask the question.
 
 The EU — 450 million consumers, roughly $19–20 trillion in GDP — built its postwar prosperity on trade diversification. That diversification is eroding. Some of it was the EU's own doing: three decades of voluntary dependence on Russian gas, against repeated American warnings, left Europe structurally exposed when the invasion came. But the speed and breadth of what followed goes beyond the correction of past mistakes.
 
@@ -14,7 +14,7 @@ What follows traces the closures, one direction at a time.
 
 ---
 
-## Iran as Transit Hub — What Was Being Built
+## Iran before the strikes
 
 ### The infrastructure pipeline
 
@@ -66,21 +66,21 @@ What was attacked was not a single country's infrastructure. It was the emerging
 
 ## Direction by Direction
 
-### East — Russia
+### East: Russia
 
 The eastern corridor was the first to close, and the EU bears significant responsibility for its own exposure. For three decades, Europe chose cheap Russian pipeline gas over diversification — a choice the United States repeatedly warned against. When Russia invaded Ukraine in February 2022, the EU's dependency was 45% of gas imports, 27% of crude oil, and nearly half its coal.
 
 The correction was swift and necessary. By 2025, Russian gas had fallen to roughly 12% of EU imports. Coal imports stopped in August 2022. Crude dropped below 3%. On January 26, 2026, EU countries formally adopted Regulation EU/261/2026, converting the REPowerEU roadmap into binding law: all Russian pipeline and LNG imports phased out within two years ([Al Jazeera: EU Moves to Ban Russian Energy by 2028](https://www.aljazeera.com/news/2025/10/20/eu-moves-to-ban-russian-energy-imports-by-2028); [Al Jazeera: EU Agrees to End Russian Gas by 2027](https://www.aljazeera.com/news/2025/12/3/eu-agrees-deal-to-end-russian-gas-purchases-by-2027); [EC: REPowerEU](https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports_en)).
 
-Nobody seriously argues this was wrong. Russia's invasion violated international law, and energy dependence on a hostile power was an unacceptable security risk. The eastern corridor is now legally prohibited, not merely disrupted — and who filled the gap matters enormously.
+Nobody seriously argues this was wrong — you don't keep buying gas from a country that just invaded your neighbor. The eastern corridor is now legally prohibited, not merely disrupted — and who filled the gap matters enormously.
 
-### Southeast — the Levant
+### Southeast: the Levant
 
 The route through Iraq, Syria, and Lebanon was never viable in modern terms and has only deteriorated. Syria's civil war left infrastructure requiring an estimated $216 billion in reconstruction (World Bank). The proposed Iraq-Syria-Lebanon oil corridor is "a patchwork of aging, damaged, and non-operational segments." Lebanon's Tripoli refinery has been dormant since 1992 ([Middle East Forum: Syria's Economic Revival](https://www.meforum.org/mef-observer/hope-and-anxiety-over-syrias-economic-revival)).
 
-Iraq cannot secure its own territory. A 2026 Lebanon war is now running alongside the Iran conflict. The Soufan Center's 2026 forecast: "conflicts in Gaza, Lebanon, Libya, Sudan, and Yemen are unlikely to fully resolve in 2026" ([Soufan Center: Middle East Forecast 2026](https://thesoufancenter.org/intelbrief-2026-january-9/); [SpecialEurasia: Middle East Geopolitical Risk 2026](https://www.specialeurasia.com/2025/12/28/middle-east-risk-2026/); [Wikipedia: 2026 Lebanon War](https://en.wikipedia.org/wiki/2026_Lebanon_war)). This direction was closed before the current crisis. The crisis ensures it stays closed.
+Iraq cannot secure its own territory. A 2026 Lebanon war is now running alongside the Iran conflict. The Soufan Center's 2026 forecast: "conflicts in Gaza, Lebanon, Libya, Sudan, and Yemen are unlikely to fully resolve in 2026" ([Soufan Center: Middle East Forecast 2026](https://thesoufancenter.org/intelbrief-2026-january-9/); [SpecialEurasia: Middle East Geopolitical Risk 2026](https://www.specialeurasia.com/2025/12/28/middle-east-risk-2026/); [Wikipedia: 2026 Lebanon War](https://en.wikipedia.org/wiki/2026_Lebanon_war)). This direction was closed before any of the current crises began. It's staying closed.
 
-### Southeast (alternative) — IMEC and Saudi Arabia
+### Southeast (alternative): IMEC and Saudi Arabia
 
 Saudi Arabia is building the Landbridge railway connecting Red Sea ports to the Arabian Gulf — construction started in 2025, targeted for the late 2020s, capacity of 50+ million tons annually ([Saudi Logistics Consulting: Landbridge Project 2026](https://saudilogisticsconsulting.com/insights/articles/saudi-landbridge-project-2026-updates-railway-logistics)).
 
@@ -90,7 +90,7 @@ An important nuance that complicates the encirclement framing: the EU is not a p
 
 But the context changed between the G20 announcement and March 2026. When IMEC was proposed, Iran-based corridors were still functional alternatives — IMEC was a competing option, not the only one. After the Iran war destroyed those alternatives, IMEC shifted from "one option among several" to "the only non-maritime path left." The EU's co-authorship was voluntary; its dependency on that single corridor was not.
 
-### South — Africa
+### South: Africa
 
 Africa is more complicated than the other directions, and more important than the "instability" framing usually allows.
 
@@ -102,7 +102,7 @@ The EU remains Africa's largest trading partner and largest investor — EU-Afri
 
 Africa is not a closed door. But the EU is being outcompeted for the key — by China on trade and infrastructure, by the US on critical minerals, by Russia on security partnerships, and by its own inability to offer African nations the peer economic relationship they are increasingly demanding. If Europe cannot build a genuine partnership with the continent across the Mediterranean — not the development-aid model, but industrial cooperation, local capacity building, shared regulatory standards — it will find that this door, too, has terms attached. They will just be set by Beijing or Washington instead of Brussels ([SWP: Strategic Raw Material Cooperation Between Africa and Europe](https://www.swp-berlin.org/en/publication/strategic-raw-material-cooperation-between-africa-and-europe); [Strategy International: A Fragile Opportunity for Europe's Repositioning Through Africa](https://strategyinternational.org/2026/03/19/publication249/)).
 
-### Southwest — Latin America and the "Donroe Doctrine"
+### Southwest: Latin America and the "Donroe Doctrine"
 
 On January 3, 2026, US forces captured Venezuelan President Nicolás Maduro, transferring him to New York on narco-terrorism charges. Venezuela holds approximately 300 billion barrels of proven oil reserves — about 17% of the global total ([Wikipedia: 2026 US Intervention in Venezuela](https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela); [TIME: How Trump's Venezuela Takeover Could Change the World](https://time.com/7343019/venezuela-trump-oil-china/)).
 
@@ -112,7 +112,7 @@ At his January 3 press conference, Trump invoked and "superseded" the Monroe Doc
 
 The EU attempted a countermove: on January 17, 2026, it signed the EU-Mercosur trade deal, creating a 700-million-person trading zone described as a "strategic hedge against US-China competition." But the treaty text is not ratification — France, Ireland, Austria, Hungary, and Poland voted against it, and the European Parliament sent it to the Court of Justice for a two-year review. As a functioning trade alternative, Mercosur is years away at best ([Foreign Policy: EU-Mercosur as Strategic Hedge](https://foreignpolicy.com/2026/01/14/eu-mercosur-trade-deal-trump-donroe-doctrine/); [CNN: EU-Mercosur Landmark Agreement](https://www.cnn.com/2026/01/17/americas/mercosur-eu-trade-agreement-latam-intl); [Brussels Report: EU-Mercosur Strategic Moment](https://www.brusselsreport.eu/2026/03/02/europes-strategic-moment-the-eu-mercosur-agreement-moves-forward)).
 
-### North — the Arctic
+### North: the Arctic
 
 In 2025, Chinese shipping operators completed a record 14 container voyages through the Northern Sea Route, including the first direct China-to-UK container transit — the *Istanbul Bridge*, Ningbo-Zhoushan to Felixstowe in 20 days, 40% faster than the Suez route ([CNN: China Arctic Shipping Route](https://www.cnn.com/2025/10/03/climate/china-arctic-shipping-northern-sea-route); [Eurasia Review: Polar Silk Road](https://www.eurasiareview.com/26012026-the-polar-silk-road-chinas-strategic-arctic-ambitions-analysis/)).
 
@@ -120,15 +120,15 @@ China formalized the "Polar Silk Road" in its 2018 Arctic white paper. By 2025, 
 
 The US is contesting this space. Trump has pushed to acquire Greenland (see below). In October 2025, the US signed an icebreaker production deal with Finland — four Finnish-built, then seven US-built vessels. The Congressional Research Service identifies the Arctic as an area of increasing "geopolitical competition" ([Chatham House: Russia and China Expanding in Arctic](https://www.chathamhouse.org/2025/10/when-it-comes-arctic-security-europe-must-not-forget-about-economics)). The Arctic route is not closed, but it is becoming a three-way contest where the EU has no icebreakers, no Arctic military presence, and no seat at the negotiating table.
 
-### Northwest — Canada
+### Northwest: Canada
 
 Canada is a deeply US-integrated economy — 75% of Canadian exports go to the US, by design and by geography, not by coercion alone. But Trump's "51st state" rhetoric and tariff pressure matter for the EU diversification question.
 
 After the Supreme Court struck down IEEPA tariffs (6-3) on February 25, 2026, Trump replaced them with Section 122 tariffs at 15% on all imports including Canada. The 2026 USMCA review carries the implicit threat of revision. Prime Minister Carney has responded by pursuing non-US market diversification — aiming to double non-US exports within a decade. Ninety percent of Canadians oppose annexation ([The Hill: Trump Annexation Threat](https://thehill.com/homenews/administration/5072926-trump-annexation-canada-trade-threat/); [Al Jazeera: Trump Effect on Canada](https://www.aljazeera.com/news/2025/2/12/trump-effect-how-us-tariffs-51st-state-threats-are-shaking-up-canada); [Fraser Institute: Canada Weathers Trump's Second Term](https://www.fraserinstitute.org/commentary/year-review-canada-weathers-first-year-trumps-second-term)). Whether the EU-Canada relationship can grow significantly enough to matter is an open question — the structural barriers (transatlantic shipping capacity, regulatory divergence, established supply chain inertia) are formidable.
 
-### West — the Atlantic, to the United States
+### West: the Atlantic
 
-The direction that remains fully open — and where dependency is growing fastest.
+And then there's the direction that's fully open — and where dependency is growing fastest.
 
 US LNG supplied 24% of EU LNG imports in early 2021. By the third quarter of 2025, it reached 57–60% (estimates vary by dataset). LNG represents roughly 30–35% of EU total gas supply; the rest is pipeline gas, primarily from Norway. If current contracts materialize and EU gas demand reduction stalls, US LNG could reach 75–80% of EU LNG imports by 2030 — though the EU's Green Deal and Qatari LNG expansion could constrain this; a moderate scenario puts it closer to 50–60% ([IEEFA: EU Risks 80% US LNG Dependency by 2030](https://ieefa.org/resources/eu-risks-new-energy-dependence-us-could-supply-80-its-lng-imports-2030); [EU Council: Where Does EU Gas Come From?](https://www.consilium.europa.eu/en/infographics/where-does-the-eu-s-gas-come-from/)).
 
@@ -136,7 +136,7 @@ Norway, the EU's largest pipeline supplier at roughly 30% of all gas imports, is
 
 The EU-US trade deal, agreed in summer 2025, imposed a 15% tariff on most EU industrial exports while granting exemptions to most US goods entering the EU. The EU committed to over €640 billion in US energy purchases, more than €500 billion in US economy investments, and roughly €35 billion in US-made AI chips — all before the end of Trump's mandate. EU officials used words like "capitulation" and "coercion" to describe it. The US position — that Europe should pay more for its own defense and reduce its trade surplus — has its own legitimacy, and European populations increasingly accept this argument. But the terms of the deal go well beyond burden-sharing ([CAP: Trump's Trade Deals as Corporate Short-Termism](https://www.americanprogress.org/article/the-trump-administrations-trade-deals-are-the-epitome-of-corporate-style-short-termism-in-foreign-policy-and-the-american-people-will-pay-the-price-for-years-to-come/)).
 
-### A partial counter-case — Japan, South Korea, and Southeast Asia
+### Northeast and Southeast Asia: the gap in the argument
 
 The compass metaphor has a gap that honesty requires acknowledging. The EU has significant trade relationships with Northeast and Southeast Asia that are neither US-controlled nor closing: the EU-Japan Economic Partnership Agreement (in force since 2019), the EU-South Korea Free Trade Agreement (since 2011), and growing EU-ASEAN trade exceeding €220 billion in 2022, explicitly targeted by the EU's Indo-Pacific Strategy as a diversification vector.
 
@@ -148,7 +148,7 @@ The compass metaphor holds for the specific domains this article tracks (energy,
 
 ---
 
-## Who Benefits — and Does It Matter?
+## Who benefits
 
 ### Who had what to gain from the strikes
 
@@ -180,7 +180,7 @@ The EU Council president called Russia "the only winner of the US-Israel war on 
 
 This is the part of the analysis that most commentators skip. Russia was itself a party to the Iranian transit agreements. It had co-invested in the INSTC, the Rasht-Astara railway, and the Eastern Corridor Roadmap. It stood to benefit from southward trade access to the Indian Ocean through Iran, and from reducing its own dependence on Chinese-controlled routes. The destruction of Iran's transit role was not cost-free for Moscow — it destroyed infrastructure Russia had co-funded and routes Russia intended to use.
 
-### What Russia gained — and whether it outweighs the losses
+### What Russia gained
 
 The simplest explanation for Russia's passivity — no advanced air defense systems provided, no precision munitions, no UN Security Council veto, just verbal condemnation and minimal intelligence sharing — is military constraint. Russia is pinned down in Ukraine, its systems partially depleted, and direct confrontation with the US would be existential. You don't need a strategic masterstroke to explain why Russia didn't rush to Iran's defense; impotence is sufficient ([Carnegie: Why Are China and Russia Not Rushing to Help Iran?](https://carnegieendowment.org/russia-eurasia/politika/2026/03/china-russia-rescue-iran); [Foreign Affairs: Why Is Russia Watching Iran Burn?](https://www.foreignaffairs.com/russia/why-russia-watching-iran-burn); [Chatham House: Iran War Exposes Limits of Russia's Leverage](https://www.chathamhouse.org/2026/03/iran-war-exposes-limits-russias-leverage-fragmenting-regional-order)).
 
@@ -203,15 +203,15 @@ The US and Israel coordinated openly — joint strikes, shared targeting, combin
 
 ---
 
-## China's Silence — the Taiwan Trade
+## China's silence
 
 If the EU is the party being cornered by this pattern, China is the party being cut off. The Iran war destroyed China's emerging overland corridor to Europe, closed the Strait of Hormuz (through which approximately 20% of global petroleum transits — China's own exposure is higher, as it imports heavily from Gulf producers), and came just two months after the US seized Venezuela — which had been sending 81.7% of its oil exports to China. Combined, Iranian and Venezuelan oil accounted for approximately 17% of China's total oil imports, severed from two directions simultaneously.
 
-China's response was near-silence.
+And China? Near-silence.
 
 Beijing issued diplomatic condemnations and provided covert support — intelligence sharing, satellite navigation, radar systems, electronic warfare technologies that augmented Iran's targeting capabilities ([Small Wars Journal: China-Iran Intelligence Cooperation](https://smallwarsjournal.com/2026/03/20/china-iran-intelligence-2026-war/); [Al Jazeera: How Russia and China Help Iran See the Battlefield](https://www.aljazeera.com/opinions/2026/3/12/the-war-of-signals-how-russia-and-china-help-iran-see-the-battlefield)). But no troops, no overt military assistance, no Security Council veto. China let its $400 billion strategic partner — and $100+ billion in BRI infrastructure investment — absorb the full force of a US-Israeli military operation without meaningful defense ([The Diplomat: The Decapitation of Iran — What Tehran's Chaos Means for China](https://thediplomat.com/2026/03/the-decapitation-of-iran-what-tehrans-chaos-means-for-china/)).
 
-Why? The leading hypothesis among analysts centers on Taiwan. During a pre-war phone call between Xi Jinping and Trump, the Chinese readout emphasized Taiwan while barely mentioning Iran. Xi drew a red line on Taiwanese independence and warned against planned US arms sales. Trump subsequently delayed a multibillion-dollar arms package to Taiwan ([Al Jazeera: China's Silence on Iran Reveals Its True Priorities](https://www.aljazeera.com/opinions/2026/3/19/chinas-silence-on-iran-reveals-its-true-priorities)).
+Why? Well, the leading hypothesis centers on Taiwan. During a pre-war phone call between Xi Jinping and Trump, the Chinese readout emphasized Taiwan while barely mentioning Iran. Xi drew a red line on Taiwanese independence and warned against planned US arms sales. Trump subsequently delayed a multibillion-dollar arms package to Taiwan ([Al Jazeera: China's Silence on Iran Reveals Its True Priorities](https://www.aljazeera.com/opinions/2026/3/19/chinas-silence-on-iran-reveals-its-true-priorities)).
 
 The inference — that Beijing traded Iran for a Taiwan concession — is plausible but rests heavily on one phone-call readout. A competing explanation is simpler: China may have lacked any realistic option for meaningful intervention. Defending Iran would have required projecting military power into a theater where the US and Israel had overwhelming advantage, risking exactly the kind of direct US-China escalation Beijing spends its entire foreign policy trying to avoid. The Taiwan reading and the capability reading are not mutually exclusive — both may be true.
 
@@ -223,9 +223,9 @@ For the EU, China's passivity may be the more telling data point. If a $400 bill
 
 ---
 
-## India — the Linchpin Under Pressure
+## India
 
-India deserves its own section, because it sits at the intersection of both competing corridor architectures — the US-backed one (IMEC) and the non-Western one (INSTC/Chabahar) — and the war has damaged India's position in both.
+India deserves its own section. It sits at the intersection of both competing corridor architectures — the US-backed one (IMEC) and the non-Western one (INSTC/Chabahar) — and the war has damaged India's position in both.
 
 ### India's two-corridor bet
 
@@ -233,7 +233,7 @@ The India-Middle East-Europe Economic Corridor — IMEC — has India in its nam
 
 But India was simultaneously the southern anchor of the non-Western alternative. Chabahar Port — India's $120+ million investment in Iran's southeastern coast — was its gateway to Afghanistan and Central Asia, bypassing Pakistan entirely. The INSTC, the 7,200 km multimodal network connecting Mumbai to Moscow through Iran, was designed to give India trade access to Russia and Europe without passing through either Chinese or US-controlled corridors. India had signed a 10-year operational contract for Chabahar in 2024 and was pouring in equipment as recently as August 2025 ([Republic World: India's Golden Gate to Central Asia Teeters](https://www.republicworld.com/world-news/india-s-golden-gate-to-central-asia-teeters-khamenei-s-assassination-threatens-chabahar-port-and-instc-dreams); [Maritime Gateway: India Keeping Tab on Chabahar Port](https://www.maritimegateway.com/india-keeping-tab-on-chabahar-port-instc-projects/)).
 
-The war destroyed the second corridor and made India more dependent on the first — the one controlled by the US.
+So the war destroyed India's independent corridor and left it more dependent on the US-controlled one.
 
 ### The damage
 
@@ -257,7 +257,7 @@ India's response has been near-silence. PM Modi visited Israel on February 25–
 
 Since the strikes, India has expressed "deep concern" and called for "dialogue and restraint." It is the only founding BRICS member that has not condemned the US-Israeli operation outright. India's opposition slammed the silence as "ill-timed" alignment with Israel; The Wire argued that "non-alignment was never intended as a mode of silence" ([Nikkei Asia: India's Opposition Slams Modi's Israel Visit](https://asia.nikkei.com/spotlight/iran-tensions/india-s-opposition-slams-modi-s-ill-timed-israel-visit-before-iran-attack); [The Wire: Why India Must Assert Itself](https://m.thewire.in/article/diplomacy/non-alignment-is-not-always-a-good-foriegn-policy)).
 
-### What India's crisis means for IMEC
+### So what does this mean for IMEC?
 
 India's situation is a mirror of the EU's — and in some ways more revealing, because India was supposed to be the anchor of the US-designed alternative corridor. If IMEC is the replacement for Iran-based routes, and IMEC depends on India, and India is itself being squeezed by the same war that destroyed the Iranian routes — burning through oil reserves, losing Chabahar, accepting 30-day US waivers — then the US-backed alternative is not as independent of US leverage as it appears. The corridor that is supposed to give the EU and India more options runs through a country that just demonstrated it cannot resist US pressure on any major dimension: energy, defense, or diplomacy.
 
@@ -267,7 +267,7 @@ The same logic ran across three actors simultaneously. China let Iran fall to pr
 
 ## Turkey, the Gulf, and the Pacific
 
-### Turkey — the corridor that lost its eastern terminus
+### Turkey
 
 Turkey was supposed to be the western anchor of the Iran transit network. The $1.6 billion Marand-Cheshmeh Soraya railway would have created a direct Iran-Turkey-EU rail connection; bilateral trade was targeted at $30 billion annually. Turkey also markets itself to China as the western terminus of the Middle Corridor linking Asia to Europe.
 
@@ -277,7 +277,7 @@ Erdoğan condemned both the US-Israeli strikes and Iran's retaliation, expressed
 
 Turkey's position matters for the EU because Turkey controls the Bosphorus and Dardanelles straits — the only maritime passage between the Mediterranean and the Black Sea. If Turkey tilts toward the US camp, another chokepoint falls under US-allied control. If it maintains its multi-alignment act, it becomes the last genuinely independent transit state between Europe and Asia — and the pressure on it to choose sides will only intensify.
 
-### The Gulf states — attacked by their own ally's enemy
+### The Gulf states
 
 Saudi Arabia, the UAE, Qatar, Bahrain, Kuwait, and Oman have all been struck by Iranian missiles or drones since the war began — even though none launched attacks on Iran from their territory. The UAE alone has absorbed nearly 2,000 Iranian missiles and drones. The Jebel Ali port, multiple hotels, and Abu Dhabi port infrastructure have been hit ([CNBC: Gulf States' Defensive Stance Won't Last Forever](https://www.cnbc.com/2026/03/19/gulf-states-iran-attacks-retaliation-strikes-energy-oil-gas-water-strait-of-hormuz.html); [ME Council: Limits of Gulf Neutrality](https://mecouncil.org/publication/limits-gulf-neutrality-us-israel-iran-war/)).
 
@@ -285,11 +285,11 @@ The Gulf states tried to hedge. They maintained economic ties with Iran while ho
 
 The Hormuz closure forced Saudi Arabia, the UAE, Kuwait, and Iraq to cut oil production as storage filled and barrels had nowhere to go. Paradoxically, the production cuts combined with price surges could improve Saudi Arabia's budget deficit from 5.8% of GDP to 3–3.5% if prices average $80/barrel — making the Gulf states crisis beneficiaries despite being under physical attack ([Semafor: The Gulf's Shock Absorber Is Still Oil](https://www.semafor.com/article/03/19/2026/in-the-iran-war-the-gulfs-shock-absorber-is-still-oil)).
 
-For the broader analysis, the Gulf states matter because they host IMEC's physical infrastructure. Saudi Arabia's Landbridge railway, the UAE's port networks, and Qatar's LNG facilities are the backbone of the US-backed alternative corridor to Europe. These assets are now under Iranian missile fire. The US-designed replacement for the Iran corridors runs through countries that are themselves being attacked because of the war that destroyed the Iran corridors.
+Here's the thing, though: the Gulf states host IMEC's physical infrastructure. Saudi Arabia's Landbridge railway, the UAE's port networks, and Qatar's LNG facilities are the backbone of the US-backed alternative corridor to Europe. These assets are now under Iranian missile fire. The US-designed replacement for the Iran corridors runs through countries that are themselves being attacked because of the war that destroyed the Iran corridors.
 
 And when the war ends, analysts expect "strategic continuity" — the Gulf states will remain US-aligned, host US bases, and serve as IMEC infrastructure. Iran's regional deterrent will be degraded. The Gulf states' hedging strategy with Iran will have been forcibly resolved in the US's favor ([Foreign Policy: After the War, Expect Strategic Continuity from Iran's Arab Neighbors](https://foreignpolicy.com/2026/03/20/iran-trump-israel-gulf-saudi-arabia-uae-oman-qatar/); [Al Jazeera: US-Israeli War Could Rewrite Gulf Security Calculations](https://www.aljazeera.com/opinions/2026/3/1/the-us-israeli-war-on-iran-could-rewrite-gulf-security-calculations)).
 
-### The Pacific front — AUKUS, the Quad, and the architecture forming around China
+### The Pacific
 
 While the Iran war dominates headlines, the US is simultaneously building a dense security architecture across the Pacific. The Quad (US, Japan, Australia, India) provides the diplomatic framework. AUKUS (US, UK, Australia) provides the nuclear submarine and advanced technology backbone. Bilateral alliances with Japan, South Korea, and the Philippines provide the forward-deployed military presence. Japan opened a permanent mission to NATO in Brussels in January 2025. The US is consulting with Japan, Canada, New Zealand, and South Korea on AUKUS Pillar II advanced capability projects ([USSC: Moving the NATO-IP4 Partnership Forward](https://www.ussc.edu.au/beyond-alignment-moving-the-nato-ip4-partnership-forward); [Wiley: From Lattice Alliances to an Asian NATO?](https://onlinelibrary.wiley.com/doi/10.1002/app5.70070); [NATO Veterans: China-Japan-South Korea Dynamics for NATO](https://nato-veterans.org/china-japan-south-korea-security-dynamics-implications-for-nato-decision-making-in-the-indo-pacific/)).
 
@@ -315,7 +315,7 @@ This is a hypothesis, not a proven strategy — and it should be held to that st
 
 ---
 
-## Eight Directions, One Outcome
+## Where things stand
 
 - **Direction:** East (Russia) | **Pre-2022 status:** 45% of EU gas | **March 2026 status:** 12%, phase-out by 2027–2028 | **EU-China link effect:** China-Europe rail through Russia: sanctioned, declining
 - **Direction:** Southeast (Iran/BRI) | **Pre-2022 status:** Emerging — 40 trains/year, accelerating | **March 2026 status:** War zone, Hormuz closed | **EU-China link effect:** Primary new overland corridor: destroyed
@@ -333,9 +333,9 @@ Second — and this one gets buried — the closures don't just isolate the EU. 
 
 A question follows: when an administration that describes its foreign policy as transactional and has coined a doctrine of hemispheric dominance is presented with a series of crises, each of which can be resolved in multiple ways, did it consistently choose the option that maximized EU dependency and minimized China's access to European markets? The internal deliberations are opaque; the pattern of choices and their cumulative effect are not.
 
-## Beyond Trade Routes — the Wider Dependencies
+## Beyond corridors
 
-Physical corridors are not where it ends. The EU's shrinking optionality extends into semiconductors, defense procurement, mineral supply, and the architecture of Pacific alliances. Some of these are tightly linked to the trade-route closures; others have their own independent causes. What they share is a direction: each one increases European dependency or reduces European options.
+But corridors aren't the whole story. The EU's shrinking optionality extends into semiconductors, defense procurement, mineral supply, and the architecture of Pacific alliances. Some of these are tightly linked to the trade-route closures; others have their own independent causes. What they share is a direction: each one increases European dependency or reduces European options.
 
 ### Semiconductors and Taiwan
 
@@ -361,7 +361,7 @@ North Korea tested its Hwasong-20 ICBM in 2025 and intends to complete missile f
 
 The European dimension is indirect but real. A nuclear-emboldened North Korea ties down US military resources in the Pacific, making the American security guarantee to Europe more strained and more expensive to maintain. Every North Korean provocation justifies additional US arms sales to Japan, South Korea, and Australia — further growing the US defense-industrial base that European procurement increasingly depends on. And Russia's willingness to transfer nuclear-applicable technology as a bargaining chip introduces a kind of instability that no trade corridor — physical or strategic — can be insulated from.
 
-### India and Pakistan — the May 2025 crisis
+### India and Pakistan
 
 On the night of May 6–7, 2025, India launched Operation Sindoor: drone and missile strikes on nine targets in Pakistani-held Kashmir and Pakistan proper. It was India's most extensive military operation since 1971 — and the first full-scale use of combat drones between nuclear-armed states. Over four days, cross-border exchanges hit 11 Pakistani cities before a ceasefire on May 10 ([Wikipedia: 2025 India-Pakistan Crisis](https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_crisis); [Stimson Center: Four Days in May](https://www.stimson.org/2025/four-days-in-may-the-india-pakistan-crisis-of-2025/); [Foreign Policy: The Year That Took India and Pakistan to the Brink](https://foreignpolicy.com/2025/12/25/india-pakistan-conflict-kashmir-south-asia/)).
 
@@ -369,7 +369,7 @@ The ceasefire held, but as 2025 ended, dialogue remained limited, the Indus Wate
 
 For the trade-route analysis, the relevance is specific: the IMEC corridor — the US-backed alternative to Iran-based routes — depends on Indian stability and regional cooperation. The 2025 crisis demonstrated how quickly that assumption can break down between two nuclear powers. Meanwhile, the INSTC connecting India, Iran, and Russia is strained at the Iran end (war) and complicated at the India end (ongoing tension with Pakistan, Taliban-controlled Afghanistan on the overland branch). The corridor is not severed by the India-Pakistan crisis in the way it is by the Iran war — the main INSTC routing goes by sea from India to Bandar Abbas — but the broader point holds: the alternatives to Atlantic trade all run through regions where nuclear-armed states have recently exchanged fire or where active conflicts are underway.
 
-### Central Asia — the mineral corridor question
+### Central Asia
 
 Central Asian states have practiced what analysts call "omni-alignment" — maintaining productive relationships with China, Russia, the EU, and the US simultaneously. The EU upgraded relations to a strategic partnership at the Samarkand summit in April 2025, focusing on transport, energy, and critical raw materials. MOUs with Kazakhstan (2022) and Uzbekistan (2024) target rare earths, uranium, and lithium — resources essential to the energy transition ([Caspian Post: Central Asia's Strategic Balancing](https://caspianpost.com/analytics/central-asia-s-strategic-balancing-russia-china-and-the-west-in-competition); [Clingendael: The Geopolitics of Central Asia](https://www.clingendael.org/pub/2025/central-asia-emerging-from-the-shadows/2-the-geopolitics-of-central-asia/); [Times of Central Asia: 2025 — The Year Central Asia Stepped Onto the Global Stage](https://timesca.com/2025-the-year-central-asia-stepped-onto-the-global-stage/)).
 
