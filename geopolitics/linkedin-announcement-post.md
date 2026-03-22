@@ -2,23 +2,18 @@
 
 ---
 
-Look at a map of the EU's trade connections in early 2022. Then look at March 2026.
+Pull up a map of the EU's trade connections in early 2022, then compare it to March 2026. East: sanctioned shut. Southeast: bombed. The Levant has been rubble for years, Africa is caught between coups and Chinese infrastructure deals, Latin America is gated through US channels, the Arctic is being carved up, and Canada is behind a tariff wall. What's left open is the Atlantic — to the United States.
 
-East: sanctioned shut. Southeast: bombed. The Levant: rubble. Africa: coups and Chinese infrastructure deals. Latin America: gated through US channels. Arctic: contested. Canada: tariff wall.
+The Iran corridor was the big one. Nine countries had transit agreements in progress, connecting China to Europe by land through rail, ports, and pipelines. On February 28 the US and Israel struck, Hormuz closed, oil hit $110, and every agreement froze in a day.
 
-What's left open is the Atlantic. To the United States.
+The dependency numbers are hard to ignore. US share of EU LNG imports went from 24% in 2021 to 57-60% today. Advanced chips below 14nm: zero EU production — the backup fabs are in Arizona. Post-2022 military equipment: 63% from the US.
 
-The Iran corridor was the big one. Nine countries had transit agreements in progress — rail, ports, pipelines connecting China to Europe by land. On February 28, the US and Israel struck. Hormuz closed. Oil hit $110. Every agreement froze in a day.
+And the EU isn't the only one caught up in this. China lost its Iran corridor and Hormuz access but stayed silent, apparently trading Iran for a Taiwan concession. India's Chabahar port was hit on day one and it's now running on 30-day US oil waivers. Turkey's $1.6 billion Iran railway is frozen. Russia's oil revenues jumped $19B annualized — courtesy of the war.
 
-The numbers tell the dependency story. US share of EU LNG imports: 24% in 2021, 57-60% today. Advanced chips below 14nm: zero EU production. Post-2022 military equipment: 63% from the US.
-
-The EU isn't the only one affected. China lost its Iran corridor and Hormuz access, stayed silent — apparently trading Iran for a Taiwan concession. India's Chabahar port was hit on day one. Turkey's Iran railway is frozen. Russia's revenues jumped $19B annualized.
-
-I wrote a 15,000-word structural analysis tracing each closure, the dependency metrics, and who benefits from the pattern. 130+ sourced references. I don't claim to know the intent behind any individual event. What I can map is the cumulative outcome, and it points in one direction.
+I wrote a structural analysis tracing each closure, the dependency metrics, and who benefits from the pattern. 130+ sourced references. I don't claim to know the intent behind any individual decision — what I can map is the cumulative outcome, and it points in one direction.
 
 Link in comments.
 
 ---
 
-*Post length: ~1,700 characters (within LinkedIn's 3,000-char limit)*
 *Article link goes in first comment for algorithmic reach*
