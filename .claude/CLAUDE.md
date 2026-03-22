@@ -170,6 +170,30 @@ This project uses [infolead-latex-templates](infolead-latex-templates/) as a git
 
 **Key agents:** `literature-integrator`, `chapter-integrator`, `scientific-insight-generator`, `meta-analysis-coordinator` (synthesize across papers), `evidence-mapper` (citation↔model index)
 
+## Scrape Registry (MANDATORY)
+
+**Location:** `registry/scrape-registry.md`
+
+**MUST be used whenever scraping websites or accessing URLs for content integration.** This registry prevents re-processing of already-integrated web content across sessions and sources.
+
+**Before scraping any URL:**
+1. Check `registry/scrape-registry.md` — if the URL is already listed with an `Integrated` date, skip it unless the source shows a newer publication date than the `Scraped` date in the registry
+
+**After integrating content from a URL:**
+1. Add the URL to the registry if not already present
+2. Set `Integrated` to today's date
+3. Set `Target` to the chapter(s) where content was integrated
+
+**After scraping a new source:**
+1. Add the source to the Sources table with `Last Scraped` date
+2. Add all discovered article URLs to the Articles table
+
+**Columns:** `URL | Source | Scraped | Integrated | Target`
+- `Integrated = —` means pending integration
+- Source shows newer date than `Scraped` on re-scrape → update `Scraped` date and reset `Integrated` to `—`
+
+**Per-source catalog files** (e.g. `content-staging/mecfsscience-org-catalog.md`) are temporary working documents during a scrape session — delete them after all entries are transferred to the registry.
+
 ## Medical Case Management System (Lazy-Load)
 
 This project includes a comprehensive **medical agent system** for personal ME/CFS case management, documentation, and decision support.
