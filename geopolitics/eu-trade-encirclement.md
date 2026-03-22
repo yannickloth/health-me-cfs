@@ -486,6 +486,32 @@ None is sufficient alone. An eastern opening without African minerals leaves Eur
 
 But if European leaders cannot find a way to pursue any of these — if the Ukraine conflict persists indefinitely, if Global Gateway remains a bureaucratic shell, if Nordic assets remain underutilized, if dependency on US energy, chips, and defense continues to deepen — then the structural trap is not temporary. It is permanent. And a permanently dependent Europe is a Europe that has lost its seat at the table of great power competition — not because it was conquered, but because closures arrived from every direction — some self-inflicted, some imposed, some accidental, all individually justified — and the cumulative result was a single remaining door with terms attached.
 
+### What one war did
+
+This article began with Iran. It is worth ending there — with a plain accounting of what the February 28 strikes set in motion, directly or indirectly, within a single month:
+
+- Twelve transit agreements between Iran and nine countries — destroyed or suspended
+- The Strait of Hormuz — effectively closed; 20% of global petroleum disrupted
+- Oil prices — surged 45%, to above $110/barrel
+- The China-Iran overland corridor (Xi'an–Aprin rail, six-nation tariff framework, Five Nations Corridor) — halted
+- The INSTC (India-Iran-Russia) — broken at its central node
+- China's oil supply — approximately 17% severed (Iran + Venezuela combined)
+- India's Chabahar port — military facilities adjacent to it struck on day one; US sanctions waiver expiring
+- India's oil supply — 50–53% of crude imports disrupted; strategic reserves covering under 10 days
+- Russia's oil revenue — rose $53–150 million per day, directly funding the Ukraine war
+- Russia's position vis-à-vis China — strengthened (replacement oil supplier, Arctic leverage)
+- The EU-China commercial link — severed from multiple directions simultaneously
+- EU energy dependency on US LNG — accelerated, with Russian gas ban and Hormuz closure removing alternatives
+- Gulf state infrastructure (UAE ports, Saudi facilities) — hit by Iranian retaliation, damaging IMEC's physical backbone
+- Houthi Red Sea attacks — resumed, forcing Suez rerouting and adding 10–14 days to Asia-Europe transit
+- Turkey's Iran corridor — paralyzed; $1.6 billion railway project frozen
+- Central Asia's southern transit — collapsed; Uzbekistan ordered search for alternatives
+- The US position — strengthened on every dimension: energy market share, defense procurement, trade deal leverage, IMEC as sole alternative corridor
+
+One war. One month. Every consequence listed above is sourced and documented in the sections above. Individually, each is a crisis. Cumulatively, they redraw the map of global trade in a direction that leads, on every vector, toward greater US centrality and greater dependency for everyone else.
+
+Whether that was the intention is a question this article cannot answer. That it is the outcome is observable.
+
 ---
 
 *Every event described in this article has legitimate, independent justifications. The structural analysis offered here is one lens among several for understanding their cumulative effect on EU strategic autonomy — and on the EU-China commercial relationship. Where this article presents hypotheses about intent, they are identified as such. Readers should evaluate the evidence independently.*
