@@ -245,7 +245,7 @@ US airstrikes targeted military facilities adjacent to Chabahar port. The India-
 
 Four hundred thousand metric tons of basmati rice sat stranded at Indian ports. Aviation losses reached an estimated Rs 80,500 crore (~$9.6 billion) weekly. Nine million Indian workers in Gulf countries — generating approximately $135 billion in annual remittances — faced an uncertain future ([The Wire: Why India Must Assert Itself](https://m.thewire.in/article/diplomacy/non-alignment-is-not-always-a-good-foriegn-policy)).
 
-### The 30-day waiver — and what it reveals
+### The 30-day waiver
 
 The most telling detail is how the US managed India's energy crisis. The Trump administration issued Treasury General License 133: a 30-day waiver allowing Indian refineries to purchase Russian oil stranded at sea — the very Russian oil the US had spent years pressuring India to stop buying. The waiver covers Russian-origin crude loaded before March 5, valid until April 4 ([CNBC: US Offers India 30-Day Waiver](https://www.cnbc.com/2026/03/06/us-india-waiver-russian-oil-iran-war-energy-supply-worries-.html); [Euronews: US Offers India Waiver](https://www.euronews.com/business/2026/03/06/us-offers-india-30-day-waiver-to-buy-stranded-russian-oil-amid-iran-war-shocks)).
 
@@ -259,7 +259,7 @@ India's response has been near-silence. PM Modi visited Israel on February 25–
 
 Since the strikes, India has expressed "deep concern" and called for "dialogue and restraint." It is the only founding BRICS member that has not condemned the US-Israeli operation outright. India's opposition slammed the silence as "ill-timed" alignment with Israel; The Wire argued that "non-alignment was never intended as a mode of silence" ([Nikkei Asia: India's Opposition Slams Modi's Israel Visit](https://asia.nikkei.com/spotlight/iran-tensions/india-s-opposition-slams-modi-s-ill-timed-israel-visit-before-iran-attack); [The Wire: Why India Must Assert Itself](https://m.thewire.in/article/diplomacy/non-alignment-is-not-always-a-good-foriegn-policy)).
 
-### The IMEC anchor that bent
+### What India's crisis means for IMEC
 
 India's situation is a mirror of the EU's — and in some ways more revealing, because India was supposed to be the anchor of the US-designed alternative corridor. If IMEC is the replacement for Iran-based routes, and IMEC depends on India, and India is itself being squeezed by the same war that destroyed the Iranian routes — burning through oil reserves, losing Chabahar, accepting 30-day US waivers — then the US-backed alternative is not as independent of US leverage as it appears. The corridor that is supposed to give the EU and India more options runs through a country that just demonstrated it cannot resist US pressure on any major dimension: energy, defense, or diplomacy.
 
@@ -267,7 +267,7 @@ The same logic ran across three actors simultaneously. China let Iran fall to pr
 
 ---
 
-## The Other Actors Caught in Between
+## Turkey, the Gulf, and the Pacific
 
 ### Turkey — the corridor that lost its eastern terminus
 
@@ -301,7 +301,7 @@ The EU is absent from this architecture. It has no Pacific military presence, no
 
 ---
 
-## The Three-Front Structure
+## Atlantic, Pacific, and the broken middle
 
 The United States is positioned on two ocean flanks — the Atlantic facing Europe, the Pacific facing Asia — and the landmass between them, Eurasia, is fragmenting.
 
@@ -380,7 +380,7 @@ China is now the largest trading partner for most Central Asian republics, surpa
 
 The Iran war hit these countries hard. Iran's transit volumes had tripled since 2020; the Astana Times warned in February 2026 that "the southern corridor through Iran is critical for Central Asia" — weeks before it was destroyed ([Astana Times: Southern Corridor Critical for Central Asia](https://astanatimes.com/2026/02/why-southern-corridor-through-iran-is-critical-for-central-asia/); [Times of Central Asia: Iran War Highlights Vulnerable Southern Corridors](https://timesca.com/iran-war-highlights-central-asias-vulnerable-southern-trade-corridors/)). Central Asian states now face a choice between the Middle Corridor (US-supported, bypassing Iran and Russia) and Russian-controlled northern routes. Their neutrality is eroding. The EU's mineral diversification strategy depends on getting those materials to Europe — and every transit corridor runs through territory controlled by actors with their own agendas.
 
-### Greenland — rare earths and the minerals pincer
+### Greenland — who gets the rare earths
 
 Greenland holds an estimated 36–42 million metric tons of rare earth oxides — potentially the world's second-largest reserve after China. In June 2025, the US Export-Import Bank sent a letter of interest to Critical Metals Corp for a $120 million loan for the Tanbreez mine — the Trump administration's first overseas mining investment. The company's stock rose 116% in early 2026 ([CSIS: Greenland, Rare Earths, and Arctic Security](https://www.csis.org/analysis/greenland-rare-earths-and-arctic-security); [TIME: Why Is Trump So Intent on Acquiring Greenland?](https://time.com/7344877/trump-greenland-annexation-threats-purchase-national-security-economic/); [CNBC: Tech Investors Assess Greenland Mining](https://www.cnbc.com/2026/01/12/tech-investors-probe-mining-viability-if-us-acquires-greenland-ceo.html)).
 
@@ -404,7 +404,7 @@ The EU is pushing back. The SAFE initiative allocates €150 billion in defense 
 
 These are real countermeasures. But buying US weapons systems creates maintenance contracts, training pipelines, ammunition dependencies, and interoperability requirements that persist for decades. The 2026 US National Defense Strategy has made the transatlantic shift explicit: Europe is "capable and therefore accountable for its own defense." The era of automatic American primacy is ending by reclassification, not withdrawal. Europe must spend more — and much of that spending, for now, flows back to the US defense-industrial base.
 
-### The Nordic dimension — what Europe already has
+### Norway, Sweden, Finland — what's already inside the borders
 
 Europe's strongest untapped assets are already inside its borders.
 
@@ -448,7 +448,7 @@ A parallel effect, less discussed, is the severing of the EU-China commercial li
 
 Whether any of this was designed is unknowable from the outside. But an administration describing itself as transactional, operating under a self-declared doctrine of hemispheric dominance, and extracting €1.175 trillion in commitments from the EU in a single trade deal, has — at each of the major junctures examined in this article — chosen the option whose structural effect was to increase European dependency and reduce Chinese access. That pattern may be coincidence. It may be opportunism — each crisis exploited for maximum leverage without any grand plan. It may be deliberate design. Or — and this is arguably the most mainstream reading among international relations scholars — it may simply be rational hegemonic strategy practiced openly: the US is doing what dominant powers do, using structural advantages within its institutional frameworks, and the EU's resulting dependency is a known and accepted side-effect rather than either a secret or an accident. The structural outcome is the same regardless of which explanation is correct. But the fourth reading — visible strategy, not covert design — may be the most uncomfortable for Europeans, because it means there is no conspiracy to expose. There is only a partner behaving exactly as its incentives predict.
 
-### What the EU has — and what it lacks
+### Leverage Europe still holds
 
 The EU is not without leverage. Its combined GDP of roughly $19–20 trillion, its regulatory power (the "Brussels effect" that forced global tech companies to comply with GDPR), its market size, and its renewable energy transition all represent structural advantages that a purely route-focused analysis can understate. The EU fined Meta $1.3 billion in a single penalty. It sets global product standards. Its market access is something the US — and China — need.
 
@@ -456,7 +456,7 @@ But leverage in standard-setting and regulation is not the same as leverage in e
 
 The EU-Mercosur deal, if ratified, would create a 700-million-person trading zone — but it is stalled in courts. The EU Chips Act targets 20% of global production by 2030 — but at mature nodes, not the advanced ones that carry strategic weight. The SAFE defense initiative aims for €800 billion in spending — but current procurement still flows heavily to US platforms. The EU-Central Asia mineral partnerships are promising — but the transit corridors to deliver those minerals are exactly the ones closing.
 
-The deeper problem is not any single dependency — it is what the cumulative dependency means for Europe's capacity to compete in the next round of global economic competition. AI, the energy transition, critical minerals, advanced manufacturing: in every domain that will define the next two decades, the EU's access to inputs now flows through a single partner who has demonstrated — explicitly, repeatedly, and by doctrine — that it views the relationship as transactional. Every year the dependency deepens, the terms get worse. Every countermeasure the EU has is either stalled, insufficient, or depends on corridors that are closing.
+No single dependency would be fatal. The cumulative dependency is. It determines whether Europe can compete in the next round of global economic competition. AI, the energy transition, critical minerals, advanced manufacturing: in every domain that will define the next two decades, the EU's access to inputs now flows through a single partner who has demonstrated — explicitly, repeatedly, and by doctrine — that it views the relationship as transactional. Every year the dependency deepens, the terms get worse. Every countermeasure the EU has is either stalled, insufficient, or depends on corridors that are closing.
 
 If this situation persists, the US gets the best of both worlds: access to the EU's 450-million-consumer market for American energy, chips, weapons, and cloud services, while simultaneously limiting Europe's ability to source alternatives, build independent supply chains, or compete internationally on equal terms. Europe becomes a wealthy but dependent market — consuming what its partner produces, selling what its partner permits, shut out from the inputs that define the next economic cycle. Not a competitor. A vendor-locked customer.
 
@@ -486,7 +486,7 @@ If and when that becomes possible, the rapprochement must be built on structural
 
 Russia also has structural incentives for a genuine partnership rather than predation. Moscow needs European technology, precision manufacturing, and capital — Chinese alternatives are inferior in these domains, and Russia's own analysts describe the asymmetric China relationship as dangerous. Selling oil and gas to a single customer (China) at prices China dictates is exactly the dependency trap Russia fears in reverse. The EU is the only alternative buyer at scale. A mutual framework of economic interdependence — not the one-sided gas dependency of the pre-2022 era, but a structured relationship where both sides have enough invested to make conflict costly — could serve both parties. Think the original Coal and Steel Community logic that founded the EU itself, applied to EU-Russia energy and mineral cooperation.
 
-### Three paths, not one
+### East, south, and north
 
 The EU's escape from structural dependency — if one exists — probably requires all three paths described in this article simultaneously.
 
@@ -496,9 +496,9 @@ None is sufficient alone. An eastern opening without African minerals leaves Eur
 
 But if European leaders cannot find a way to pursue any of these — if the Ukraine conflict persists indefinitely, if Global Gateway remains a bureaucratic shell, if Nordic assets remain underutilized, if dependency on US energy, chips, and defense continues to deepen — then the structural trap is not temporary. It is permanent. And a permanently dependent Europe is a Europe that has lost its seat at the table of great power competition — not because it was conquered, but because closures arrived from every direction — some self-inflicted, some imposed, some accidental, all individually justified — and the cumulative result was a single remaining door with terms attached.
 
-### What one war did — by the numbers
+### February 28 — one month later
 
-Back to Iran. A plain accounting of what the February 28 strikes set in motion within a single month:
+What the strikes on Iran set in motion, as of late March 2026:
 
 - Twelve transit agreements between Iran and nine countries — destroyed or suspended
 - The Strait of Hormuz — effectively closed; 20% of global petroleum disrupted
@@ -518,7 +518,7 @@ Back to Iran. A plain accounting of what the February 28 strikes set in motion w
 - Central Asia's southern transit — collapsed; Uzbekistan ordered search for alternatives
 - The US position — strengthened on every dimension: energy market share, defense procurement, trade deal leverage, IMEC as sole alternative corridor
 
-One war. One month. Every consequence listed above is sourced and documented in the sections above. Individually, each is a crisis. Cumulatively, they redraw the map of global trade in a direction that leads, on every vector, toward greater US centrality and greater dependency for everyone else.
+Every item on this list is sourced in the sections above. Read them individually and each is a regional crisis. Read them together and they redraw the map of global trade — toward greater US centrality, greater dependency for everyone else.
 
 Whether that was the intention is a question this article cannot answer. That it is the outcome is observable.
 
