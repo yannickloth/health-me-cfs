@@ -10,6 +10,12 @@ symptoms:
     Limb heaviness/tiredness in legs and arms from the morning.
     Described as needing to rest them. Could reflect delayed effect
     from yesterday's household activities or non-restorative sleep.
+  pain_periarticular: true
+  pain_periarticular_notes: >
+    Noon: diffuse periarticular pain at the knees. Same pattern as
+    2026-03-20 (nocturnal/morning) and 2026-03-16 (post-exertion).
+    Today's onset follows morning limb fatigue — may be part of
+    delayed post-exertional response from yesterday's activities.
   cognitive_status: null
   nausea: null
   headache: null
