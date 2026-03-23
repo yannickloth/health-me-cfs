@@ -585,6 +585,13 @@ Interviews influential voices in ME/CFS and Long COVID. Topics include books on 
 
 / *_Living with Chronic Fatigue Syndrome_*:  German/French documentary premiered on ARTE. Available in German and French.
 
+=== Notable Media Coverage
+
+[style=nextline]
+/ *BBC News — "Our son loved being outdoors — now chronic fatigue means he can't walk or talk" (March 2026)*: #link("https://www.bbc.com/news/articles/cpv8e71p3evo")
+
+Report by Meleri Williams profiling three Welsh ME/CFS patients and the state of ME services in Wales. Tomos Sleep (28, Swansea) — diagnosed with severe ME in 2023 after symptoms began in 2019 with dizziness. By late 2023 he became completely bedbound, unable to walk, talk, open his eyes, or move. His parents describe him as looking "paralysed"; he communicates only through eye gaze. Carers were tried but made him worse — he cannot tolerate other people in the room. His father Charlie Sleep: "The problem with having severe ME is that you can't communicate... people with ME are invisible." Fflur Evans (39, Bala, Gwynedd) — moderate ME diagnosed two years prior; former teacher forced to leave work. Reports daily pain, dizziness from stairs, hypersensitivity to sounds (zips, cupboards closing). Alwen Davies (46, Denbighshire) — moderate ME diagnosed 2023; uses pacing techniques but on bad days is bedbound in the dark; had to leave work. Campaigner Rob Messenger (Carmarthenshire) — whose two children were diagnosed with ME in their teens — describes ME services in Wales as "a postcode lottery" and for severe patients "pretty much a desert." Dr Binita Kane notes that "doctors aren't taught about this condition" and that early pacing support can prevent deterioration. The Welsh government stated that proposals for an all-Wales specialist, an expert group, and national standards were being "actively considered."
+
 %===============================================================================
 
 == Social Media Hashtags and Campaigns
