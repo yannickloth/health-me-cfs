@@ -133,6 +133,123 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from mecfsscience.org integration and creative brainstorming (2026-03-21/22). Includes immune null findings, DecodeME genetics, exercise physiology, and cross-system synthesis.],
 ) <tab:hypothesis-registry-2026-03-21>
 
+=== Entries Added 2026-03-23: Causal Hierarchy Extensions
+
+Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 formal modeling; 12-idea development from brainstorm-causal-hierarchy-extensions.md.
+
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [ME/CFS-Calibrated Epigenetic Clock],
+    [S], [0.40],
+    [DNA methylation profiling of immune cells measures consolidation depth $cal(M)$ independent of symptom duration. (a) Methylation age deviation correlates with disease duration/severity. (b) DNMT3A gain-of-function variants predict faster consolidation. (c) Calibrated clock predicts treatment response better than duration alone.],
+    [Methylation arrays (450K/EPIC) on ME/CFS cohorts exist (de Vega 2014/2018). Clock construction requires larger training set ($n > 100$). DNMT3A genotyping feasible in existing biobanks.],
+    [Ch.33 @spec:epigenetic-clock],
+
+    [Reverse Cascade Recovery Sequence],
+    [H], [0.35],
+    [Recovery follows reverse timescale order: Ca#super[2+] $arrow.r$ ATP $arrow.r$ safe mode $arrow.r$ immune $arrow.r$ autoantibodies $arrow.r$ epigenetics. (a) Stalls indicate unaddressed load-bearing lock. (b) Order deviation indicates non-primary treatment target.],
+    [Longitudinal multi-biomarker monitoring during treatment --- not yet done with adequate temporal resolution. Daratumumab trial follow-up most promising data source.],
+    [Ch.33 @hyp:reverse-cascade],
+
+    [Treatment Order Dependence: Energy Before Epigenetics],
+    [H], [0.40],
+    [Epigenetic modifiers alone show transient benefit then relapse (re-consolidation). Energy restoration must precede epigenetic intervention. (a) Reverse order fails. (b) Concurrent equivalent to energy-first. (c) Re-consolidation timescale matches $tau_"epi"$.],
+    [No ME/CFS epigenetic modifier trials exist. Analogous sequential therapy evidence from oncology (azacitidine). Conceptually testable with combination trial design.],
+    [Ch.33 @hyp:lock-sequence],
+
+    [Separatrix Nudging: Sub-Threshold Stacking],
+    [H], [0.35],
+    [5--6 sub-threshold interventions with positive synergies exceed escape threshold. (a) 6-intervention protocol $>$ any 3-subset. (b) $k$th intervention benefit is non-linear near separatrix. (c) Partial individual responders are best stacking candidates.],
+    [Combination supplement pilot data (Castro 2017) suggestive. Factorial trial design prohibitive; adaptive Bayesian design needed. Synergy coefficients unmeasured.],
+    [Ch.33 @hyp:separatrix-nudging],
+
+    [CSD Detection in ME/CFS Wearable Data],
+    [OQ], [---],
+    [Can HRV variance + autocorrelation detect approaching crash/recovery transitions? Direction discrimination via activity/treatment context. $n >= 50$, $>= 12$ months monitoring needed.],
+    [CSD validated in depression (Wichers 2016) and ICU (Olde Rikkert 2016). HRV wearable accuracy adequate (Oura, Garmin). No ME/CFS CSD study exists.],
+    [Ch.33 @oq:csd-monitoring],
+
+    [Directional Attractor Migration],
+    [H], [0.40],
+    [Patients migrate between attractor basins over time: immune $arrow.r$ metabolic $arrow.r$ severe. (a) Longitudinal subtyping shows shifts. (b) Migration predominantly unidirectional. (c) Migration predicts lock acquisition. (d) Treatment response depends on current attractor, not original.],
+    [Longitudinal multi-omics with $>= 12$-month repeat sampling. Cross-sectional data insufficient. Chu 2019 onset patterns consistent but not longitudinal.],
+    [Ch.33 @hyp:attractor-migration],
+
+    [Antiviral Response Depends on Viral Fraction of Threat Signal],
+    [H], [0.40],
+    [Antiviral effectiveness = $w_V dot V slash cal(T)$. (a) Response inversely correlates with disease duration. (b) Response correlates with viral/inflammatory marker ratio. (c) Antiviral + anti-inflammatory synergistic. (d) Active replication $>$ serological evidence.],
+    [Retrospective analysis of Lerner/Montoya data stratified by duration --- feasible. Combination antiviral + anti-inflammatory trial needed. Viral PCR vs serology stratification feasible.],
+    [Ch.33 @hyp:antiviral-threat],
+
+    [Oxidative Stress Sensing Polymorphisms as Safe Mode Predisposition],
+    [S], [0.25],
+    [SOD2/Nrf2/GPX1 variants miscalibrate threat signal weights ($w_"ROS"$), lowering safe mode activation threshold. (a) SOD2 Val/Val overrepresented in ME/CFS. (b) Nrf2 promoter methylation correlates with safe mode markers. (c) Sulforaphane (Nrf2 activator) reduces safe mode engagement probability.],
+    [SOD2 genotyping in ME/CFS biobanks --- feasible but not done for this specific hypothesis. Sulforaphane prevention trial in at-risk population --- logistically challenging.],
+    [Ch.16 @spec:threat-miscalibration],
+
+    [TRPM3 Sensitization via Pregnenolone Sulfate],
+    [S], [0.20],
+    [PregS as direct TRPM3 agonist partially restores calcium flux, acting as therapeutic "sensitizer" for concurrent interventions. (a) PregS restores Ca#super[2+] flux in ME/CFS NK cells in vitro. Bioavailability and GABA#sub[A] modulatory effects are key unknowns.],
+    [In vitro PregS + TRPM3 assay feasible with existing Sasso/Cabanas protocols. Oral bioavailability studies needed. GABA#sub[A] interaction safety assessment required.],
+    [Ch.16 @spec:trpm3-pregnenolone],
+
+    [Subthreshold Reservoir Population],
+    [S], [0.30],
+    [Population below separatrix identifiable by subclinical biomarker panel; prophylactic intervention during infection reduces ME/CFS conversion. (a) Continuous separatrix distance distribution, not bimodal. (b) Near-separatrix individuals have higher post-infectious ME/CFS incidence. (c) Prophylaxis reduces conversion rate.],
+    [Long COVID risk factor studies (Su 2022) consistent. Biomarker panel development needed. Prevention trial requires large $n$ due to $approx$11% conversion rate.],
+    [Ch.16 @spec:subthreshold-reservoir],
+
+    [Timed Passive Epigenetic Reversal Strategy],
+    [S], [0.30],
+    [18--24 month anti-inflammatory + metabolic support enables passive demethylation of disease-state CpG sites. (a) Sustained anti-inflammatory + metabolic support reduces disease-associated methylation vs metabolic support alone.],
+    [No ME/CFS epigenetic reversal trial exists. Passive demethylation rates in lymphocytes not precisely measured. Duration makes trial design challenging.],
+    [Ch.16 @spec:timed-epigenetic-reversal],
+
+    [Gut Dysbiosis: Trigger-Capable in a Subgroup?],
+    [OQ], [---],
+    [Should severe gut dysbiosis be reclassified as trigger-capable for post-gastroenteritis onset subgroup? (a) Post-GI infection ME/CFS rate comparable to respiratory viral triggers. (b) LPS alone activates safe mode in animal models. (c) FMT restores function in gut-onset subgroup.],
+    [Giloteaux 2016 microbiome data, Maes 2008 leaky gut data consistent. FMT pilot (Wallis 2023) suggestive. Prospective post-GI cohort study needed.],
+    [Ch.16 @oq:gut-trigger],
+
+    [Threat-Composition-Guided Combination Therapy],
+    [H], [0.30],
+    [Measuring individual $cal(T)$ component ratios (viral/inflammatory/oxidative/gut) enables personalized intervention stack selection. (a) Guided combination $>$ fixed combination at same intervention count.],
+    [Requires biomarker panel for $cal(T)$ components (IL-6, CRP, viral PCR, LPS, ROS markers). Randomized guided vs fixed combination trial needed.],
+    [Ch.33 @hyp:threat-guided-therapy],
+
+    [ME/CFS--Narcolepsy--Long COVID Triangle],
+    [OQ], [---],
+    [Shared vulnerability in CNS regulatory circuits to autoimmune/inflammatory attack? Narcolepsy = focal lesion (orexin neurons); ME/CFS = diffuse coordination failure; Long COVID = acute-onset separatrix crossing. Do ME/CFS patients have hypothalamic autoantibodies beyond GPCRs?],
+    [Hypothalamic autoantibody screening in ME/CFS --- not done. Cross-condition immunotherapy trials. Narcolepsy metabolic profiling to test shared mechanism.],
+    [Ch.33 @oq:cross-disease-triangle],
+
+    [Comorbidity as Attractor Migration Across Disease Boundaries],
+    [S], [0.25],
+    [ME/CFS--POTS--fibromyalgia--MCAS cluster = waypoints on trajectory through shared attractor landscape. (a) Non-random comorbidity acquisition order. (b) Multi-omics shows intermediate positions for multi-diagnosis patients. (c) Early ME/CFS treatment reduces subsequent comorbidity incidence.],
+    [Retrospective chart review of comorbidity acquisition order feasible. Multi-omics with multi-diagnosis cohort needed. Treatment timing vs comorbidity incidence study needed.],
+    [Ch.33 @spec:comorbidity-migration],
+
+    [Gulf War Illness as Multi-Parameter Separatrix Breach],
+    [H], [0.35],
+    [GWI = simultaneous multi-parameter separatrix crossing from concurrent sub-threshold insults. 25--30% prevalence (vs $approx$11% post-infectious) explained by multi-hit stacking. (a) More evenly distributed threat signal than ME/CFS. (b) More simultaneous exposures $arrow.r$ higher incidence. (c) More concurrent load-bearing locks than duration-matched ME/CFS.],
+    [GWI biomarker panel comparison with ME/CFS feasible. VA exposure registry data for dose--response analysis available. Cross-condition multi-omics comparison needed.],
+    [Ch.33 @hyp:gwi-multi-hit],
+
+    [Gut Dysbiosis as Silent Separatrix Erosion Agent],
+    [H], [0.35],
+    [Chronic dysbiosis = most common modifiable risk factor; silently erodes separatrix distance via LPS translocation. (a) Pre-infection microbiome diversity predicts post-infectious ME/CFS. (b) Low diversity $times$ SOD2 TT synergistic risk. (c) Prophylactic gut support reduces conversion in at-risk population.],
+    [Pre-infection stool samples in RECOVER/prospective cohorts. Gene$times$microbiome interaction analysis. Prevention trial in near-separatrix population.],
+    [Ch.33 @hyp:gut-erosion],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from causal hierarchy extensions and cross-idea synthesis (2026-03-23). Includes formal modeling predictions, treatment strategies, diagnostic tools, boundary analyses, cross-disease connections, and creative brainstorm synthesis.],
+) <tab:hypothesis-registry-2026-03-23>
+
 /*
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
