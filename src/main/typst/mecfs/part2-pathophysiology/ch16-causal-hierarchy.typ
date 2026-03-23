@@ -178,6 +178,29 @@ ME/CFS represents an evolutionarily conserved metabolic suppression program—ac
 *Limitations:* The boundary between “deliberate suppression” and “damage” may be empirically indistinguishable at the level of current measurement technology. Itaconate elevation and IDO upregulation are consistent with both interpretations. The hypothesis also does not specify the molecular identity of the “lock” with enough precision to design a targeted intervention—“reset the hypothalamic setpoint” is a goal, not a pharmacological target.
 ] <hyp:safe-mode-root>
 
+==== Safe Mode Threat Signal Miscalibration
+<sec:threat-miscalibration>
+
+The safe mode switch responds to the composite threat signal $cal(T)$ (formalized in Chapter @ch:causal-hierarchy-formal), whose weights $w_"cyto"$, $w_"ROS"$, $w_"LPS"$, $w_V$ determine how much each input contributes to the engagement decision. A distinct predisposition mechanism—separate from the four root causes above—arises if these weights are _miscalibrated_ by genetic polymorphisms in oxidative stress sensing pathways.
+
+The Nrf2 (Nuclear factor erythroid 2-related factor 2) pathway is the master regulator of the cellular antioxidant response. Polymorphisms that reduce Nrf2 activity—or that impair the upstream sensors feeding into Nrf2—effectively _increase_ $w_"ROS"$ in the threat signal equation: the same level of oxidative stress produces a disproportionately large threat signal, activating safe mode at lower actual threat levels. The SOD2 Ala16Val polymorphism @Shimoda2004SOD2, which affects the mitochondrial targeting efficiency of manganese superoxide dismutase, is a candidate: the Val allele reduces mitochondrial SOD2 import, increasing mitochondrial ROS, which is sensed as elevated threat even when the actual pathogenic threat is modest.
+
+Proteomics studies of ME/CFS PBMCs have identified disrupted mitochondrial and oxidative stress response pathways @Sweetman2020Nrf2, consistent with a model in which the cellular antioxidant defense is either overwhelmed or under-responsive. Whether this reflects a consequence of chronic disease or a pre-existing vulnerability remains unresolved.
+
+#speculation(title: [Oxidative Stress Sensing Polymorphisms as Safe Mode Predisposition])[
+Genetic polymorphisms in oxidative stress sensing pathways (SOD2 Ala16Val, Nrf2 promoter variants, GPX1 variants) can miscalibrate the safe mode threat signal weights, making carriers "threat-paranoid"—activating safe mode at lower actual threat levels. This constitutes a predisposition mechanism distinct from the four trigger-capable root causes: it does not _initiate_ disease but lowers the threshold at which any of the root causes can trigger safe mode engagement.
+
+*Certainty:* 0.25. The concept is biologically plausible—SOD2 and Nrf2 polymorphisms are well-characterized functionally @Shimoda2004SOD2, and disrupted oxidative stress proteomics are documented in ME/CFS @Sweetman2020Nrf2. However, no study has specifically linked oxidative stress sensing polymorphisms to ME/CFS susceptibility via the threat signal miscalibration mechanism proposed here.
+
+*Testable predictions:*
+
+    + SOD2 Ala16Val TT genotype (reduced mitochondrial SOD) is overrepresented in ME/CFS cohorts compared with matched controls.
+    + Nrf2 promoter methylation status at disease onset correlates with safe mode activation markers (itaconate, IDO activity).
+    + Pharmacological Nrf2 activation (sulforaphane @Houghton2024sulforaphane) reduces the $w_"ROS"$ contribution to $cal(T)$ and lowers the probability of safe mode engagement during acute stress or infection, testable in a post-infectious fatigue prevention trial.
+
+*Limitations:* The "threat signal weights" are model constructs that cannot be directly measured; their correspondence to specific polymorphisms is inferred, not demonstrated. SOD2 polymorphism frequencies are high in the general population, so any association with ME/CFS would reflect a modest risk increase, not a deterministic cause. The interaction between genetic predisposition and environmental trigger is difficult to study without prospective cohorts.
+] <spec:threat-miscalibration>
+
 === GPCR Autoantibody Cascade
 <sec:root-gpcr>
 
@@ -263,6 +286,30 @@ Dysfunction of the TRPM3 calcium channel, acquired post-virally through structur
 
 *Limitations:* TRPM3 dysfunction has been demonstrated primarily in peripheral blood immune cells; whether it extends to neural, pancreatic, and vascular TRPM3 in ME/CFS patients is assumed based on systemic expression but not yet directly measured. Tissue-specific TRPM3 function studies would require biopsy specimens or advanced imaging, neither of which is routinely available. The causal direction—whether TRPM3 dysfunction drives the disease or is itself a consequence of the chronic inflammatory and metabolic environment—is the key unresolved question.
 ] <hyp:trpm3-root>
+
+==== TRPM3 Sensitization via Pregnenolone Sulfate
+
+The TRPM3 channel is not merely dysfunctional in ME/CFS—it is a potential _therapeutic target_. Pregnenolone sulfate (PregS) is a known endogenous TRPM3 agonist that activates the channel through a direct binding site, as demonstrated by Vriens et al.\ in the landmark study establishing TRPM3 as a nociceptor channel @Vriens2011pregnenolone. Wagner et al.\ showed that TRPM3 functions as an ionotropic steroid receptor in pancreatic beta cells, directly activated by PregS @Wagner2008pregnenolone.
+
+The therapeutic hypothesis is that exogenous pregnenolone or neurosteroid precursors could partially restore TRPM3 function, lowering the effective threshold for other interventions—functioning as a "sensitizer" that makes the overall treatment combination more effective. This connects to the separatrix nudging framework (Chapter @ch:causal-hierarchy-formal, Section @sec:separatrix-nudging): if TRPM3 function contributes 0.10--0.15 of the single-parameter escape threshold, and PregS supplementation restores a fraction of that, the synergistic coefficient $gamma_("TRPM3","CI") approx 0.45$ with Complex I function means a modest TRPM3 improvement disproportionately enhances energy-targeted interventions.
+
+Cabanas et al.\ demonstrated that naltrexone restores TRPM3 ion channel function in ME/CFS NK cells _in vitro_ @Cabanas2018trpm3, establishing proof-of-concept that pharmacological TRPM3 modulation is achievable. Whether PregS achieves the same effect through a different mechanism (direct agonism vs.\ opioid receptor antagonism-mediated channel restoration) is an open question.
+
+#speculation(title: [Pregnenolone Sulfate as TRPM3 Sensitizer])[
+Supplemental pregnenolone sulfate, as a direct TRPM3 agonist, could partially restore calcium channel function in ME/CFS patients with TRPM3 dysfunction, lowering the effective therapeutic threshold for concurrent interventions targeting energy metabolism and immune function. This "sensitizer" role does not treat TRPM3 dysfunction at its source but may improve the probability of disease escape in combination protocols.
+
+*Certainty:* 0.20. Pregnenolone sulfate activates TRPM3 _in vitro_ @Vriens2011pregnenolone @Wagner2008pregnenolone, establishing the pharmacological basis. Naltrexone restores TRPM3 function in ME/CFS NK cells @Cabanas2018trpm3, establishing proof-of-concept for pharmacological TRPM3 modulation. However, oral pregnenolone bioavailability, CNS penetration, and whether the ME/CFS TRPM3 defect responds to agonism (rather than requiring expression-level correction) are all unknown.
+
+*Key unknowns:*
+
+    - Does TRPM3 dysfunction in ME/CFS reflect reduced expression (gene-level silencing) or reduced function (post-translational modification, membrane lipid context)? Agonism helps function but not expression.
+    - Oral pregnenolone sulfate pharmacokinetics—does it reach sufficient tissue concentrations to activate TRPM3?
+    - Pregnenolone is also a GABA#sub[A] modulator; neurosteroid supplementation could have unintended sedative or anxiolytic effects that confound clinical assessment.
+
+*Testable prediction:* PregS addition to ME/CFS NK cells _in vitro_ should partially restore calcium flux and degranulation capacity in a dose-dependent manner, measurable with the same assay used by Sasso et al.\ @Sasso2026trpm3 and Cabanas et al.\ @Cabanas2018trpm3.
+
+*Limitations:* The gap between _in vitro_ channel activation and clinical benefit is large. PregS may activate TRPM3 in an assay but fail to achieve therapeutic concentrations _in vivo_. The GABA#sub[A] modulatory effects of pregnenolone add safety considerations for a patient population already dealing with sleep and cognitive dysfunction.
+] <spec:trpm3-pregnenolone>
 
 === Relationships Among Trigger-Capable Mechanisms
 <sec:root-cause-relationships>
@@ -385,6 +432,29 @@ The resulting chronic immune activation produces cytokines that maintain the sic
 However, viral reactivation fails Criterion 1: it requires pre-existing immune compromise to occur. In immunocompetent individuals, latent herpesviruses remain controlled by a balanced immune response (memory T cells, NK cell surveillance, interferon signaling). Reactivation occurs when this surveillance fails. The initial immune compromise must come from elsewhere—CNS-mediated immune dyscoordination, autoantibody-driven immune dysfunction, the metabolic safe mode's deliberate immune suppression, or TRPM3-mediated immune effector failure. Viral reactivation is a consequence of, not a cause of, the initial immune failure.
 
 The distinction matters clinically. Antiviral therapy (valacyclovir for EBV, valganciclovir for HHV-6/CMV) may reduce viral burden and the associated immune activation, providing symptomatic benefit in patients with documented reactivation. But it addresses an amplifier loop, which is why antiviral monotherapy produces inconsistent results in trials—it quiets one consequence of immune failure without correcting the immune failure itself. The patients most likely to benefit are those in whom viral reactivation is a dominant amplifier contributing disproportionately to their symptom burden; patients whose disease is maintained primarily by other amplifiers may show little response.
+
+=== Gut Dysbiosis: Amplifier or Fifth Root Cause?
+<sec:amp-gut-reanalysis>
+
+The gut microbiome currently appears in this chapter only as a contributor to the amplifier mechanisms: bacterial translocation increases LPS burden ($w_"LPS" dot ["LPS"]$ in the threat signal), mast cell degranulation in the intestinal mucosa worsens systemic inflammation, and disrupted short-chain fatty acid production reduces mitochondrial fuel availability. The classification of gut dysbiosis as an amplifier rather than a fifth trigger-capable root cause rests on Criterion 1: healthy gut epithelium does not spontaneously fail without an upstream immune or autonomic trigger.
+
+This classification deserves more careful scrutiny. Post-gastroenteritis ME/CFS onset is documented, and the gut-brain axis literature increasingly demonstrates that severe dysbiosis can independently drive systemic pathology. Giloteaux et al.\ documented reduced microbial diversity and altered composition in ME/CFS @Giloteaux2016gut. More recently, Guo et al.\ identified deficient butyrate-producing capacity as a specific bacterial network disturbance associated with fatigue severity @Guo2023butyrate, and Martin et al.\ confirmed increased gut permeability with bacterial translocation in both ME/CFS and fibromyalgia @Martin2023permeability. Maes and Leunis showed that correcting increased gut permeability correlated with clinical improvement @Maes2008leakygut. Pilot fecal microbiota transplantation studies have shown modest benefit in ME/CFS subsets with prominent GI symptoms @Wallis2023FMT.
+
+The counter-argument against gut-as-amplifier: antibiotic-induced dysbiosis represents an _external_ disruption of gut ecology that can cause massive LPS translocation $arrow.r$ systemic inflammation $arrow.r$ $cal(T)$ elevation $arrow.r$ safe mode activation, without requiring any prior immune dysfunction. If the LPS translocation is severe enough, the $w_"LPS"$ contribution to $cal(T)$ alone could exceed the safe mode engagement threshold, even with the current weight of $w_"LPS" = 0.20$. In patients with miscalibrated threat weights (Section @sec:threat-miscalibration), the effective threshold would be lower still.
+
+#open-question(title: [Gut Dysbiosis: Trigger-Capable in a Subgroup?])[
+Should severe gut dysbiosis be reclassified from amplifier to trigger-capable root cause for a specific patient subgroup---those with post-gastroenteritis onset, antibiotic-associated onset, or documented massive LPS translocation?
+
+The current classification rests on: "healthy endothelium/gut does not spontaneously activate without upstream immune trigger." The counter-argument: dysbiosis _is_ the upstream trigger when the disruption is exogenous (antibiotics, gastrointestinal infection). The resolution may be subtype-dependent: gut-entry patients exist but may represent a minority ($< 10%$) of the total ME/CFS population.
+
+*What would change the classification:*
+
+    + Prospective evidence that severe acute gastroenteritis produces ME/CFS at rates comparable to respiratory viral infections ($approx$11%).
+    + Demonstration that LPS translocation alone (without concurrent immune dysfunction) can activate the safe mode program in animal models.
+    + FMT trials showing that microbiome restoration alone produces sustained improvement approaching recovery (not just symptom reduction) in the gut-onset subgroup.
+
+*Current evidence weight:* The $w_"LPS" = 0.20$ weight in the threat signal may be too low for patients with massive translocation. If $w_"LPS"$ is increased to 0.40 for high-translocation patients, LPS alone could become trigger-sufficient. Whether this patient-specific weight adjustment is biologically justified---or whether it merely rescues a model assumption---requires further data.
+] <oq:gut-trigger>
 
 === Endothelial Activation and Microclotting
 <sec:amp-endothelial>
@@ -558,6 +628,33 @@ Different ME/CFS precipitants engage different trigger-capable mechanisms, but a
 The infection cascade walkthrough in Chapter @ch:temporal-evolution provides a worked example of how a specific precipitant (viral infection) progresses through entry, amplification, and lock establishment to reach the final common pathway.
 
 // =============================================================================
+// SECTION 5b: SUBTHRESHOLD RESERVOIR POPULATION
+// =============================================================================
+
+=== The Subthreshold Reservoir Population
+<sec:subthreshold-reservoir>
+
+The multi-entry-point model, combined with the separatrix concept from dynamical systems theory, predicts the existence of a population that has received insufficient attention: individuals sitting just _below_ the disease separatrix. These are people with subclinical perturbations---vague fatigue, mild exercise intolerance, "not feeling right"---who do not meet ME/CFS diagnostic criteria but who are perched near the tipping point. A second hit (infection, severe stress, surgery) would push them over.
+
+This prediction has gained urgency from the Long COVID pandemic. Su et al.\ demonstrated that pre-existing subclinical markers---autoantibodies, latent EBV reactivation, subclinical metabolic perturbations, and low cortisol at the time of COVID-19 infection---predicted development of post-acute sequelae @Su2022longcovid. Cervia-Hasler et al.\ found that persistent complement dysregulation was detectable in Long COVID patients from the acute phase, suggesting pre-existing immune vulnerability @Cervia2022longcovid. The Dubbo Infection Outcomes Study showed that post-infectious CFS develops at approximately 11% regardless of pathogen identity, suggesting a host-response vulnerability that pre-dates the infection @Hickie2006postinfectious.
+
+These findings are consistent with a continuous distribution of "separatrix distance" in the general population, not a bimodal healthy/sick division. Most people sit far from the separatrix; their physiological reserves can absorb even substantial insults without tipping into disease. But a subset---perhaps 10--15% of the population---sit close enough that a sufficiently severe or well-targeted insult can push them across.
+
+#speculation(title: [Subthreshold Reservoir Population])[
+The multi-hit model predicts a large population sitting just below the disease separatrix---individuals with subclinical perturbations across one or more disease-relevant parameters who do not meet ME/CFS criteria but are vulnerable to developing the disease after a second hit. This population is identifiable through subclinical biomarker screening and targetable for _preventive_ intervention during acute infections or other precipitating events.
+
+*Certainty:* 0.30. The prediction follows logically from the separatrix model and is supported by Long COVID risk factor data @Su2022longcovid @Cervia2022longcovid and the post-infectious fatigue rate consistency across pathogen types @Hickie2006postinfectious. However, the "subthreshold reservoir" population has never been prospectively identified or characterized as a group, and the separatrix distance concept has not been operationalized into measurable biomarker panels.
+
+*Testable predictions:*
+
+    + Population screening would reveal a continuous distribution of "separatrix distance" (composite of subclinical immune, metabolic, and autonomic markers), not a bimodal healthy/sick division.
+    + Individuals in the near-separatrix region (identifiable by: mildly elevated cytokines, borderline TRPM3 function, low-normal HRV, slightly elevated autoantibody titers) have significantly higher ME/CFS incidence after acute infection compared with individuals far from the separatrix.
+    + Prophylactic intervention in the near-separatrix group during acute infection (aggressive anti-inflammatory support, metabolic supplementation, activity restriction) reduces ME/CFS conversion rate compared with standard care.
+
+*Limitations:* Identifying the subthreshold population requires biomarker panels that do not yet exist in validated form. The "separatrix distance" is a model construct; its operationalization into measurable clinical variables requires substantial development. Prophylactic intervention trials in at-risk individuals are logistically challenging because the conversion rate ($approx$11%) means large sample sizes are needed to detect prevention effects. The concept risks pathologizing normal variation in physiological parameters.
+] <spec:subthreshold-reservoir>
+
+// =============================================================================
 // SECTION 6: LOAD-BEARING VS. SECONDARY LOCKS
 // =============================================================================
 
@@ -699,6 +796,38 @@ Figure @fig:treatment-priority-scatter visualizes the relationship between caus
 The treatment optimization framework in Chapter @ch:predictive-applications builds on this hierarchy to model combinatorial treatment strategies, predicting which combinations of interventions are most likely to release enough locks for disease escape.
 
 // =============================================================================
+// SECTION 7b: TIMED EPIGENETIC REVERSAL
+// =============================================================================
+
+=== The Patient-Accessible Epigenetic Reversal Strategy
+<sec:timed-epigenetic-reversal>
+
+For patients with established disease where epigenetic consolidation ($cal(M)$) is a load-bearing lock, the formal analysis in Chapter @ch:causal-hierarchy-formal (Section @sec:lock-sequence) predicts that energy restoration must precede or accompany epigenetic intervention. This principle suggests a practical long-duration strategy that avoids toxic epigenetic drugs (5-azacitidine, HDAC inhibitors) in favor of sustained anti-inflammatory and metabolic support to permit _passive_ epigenetic reversal.
+
+The logic: the consolidation variable $cal(M)$ is driven upward by DNMT3A/3B activity, which responds to inflammatory and metabolic stress signals ($C_"pro"$, oxidative stress). Sustained reduction of these signals---through 18--24 months of anti-inflammatory therapy plus metabolic support---would reduce the _driving force_ for methylation, allowing the natural process of passive demethylation (TET-mediated oxidation followed by replication-coupled dilution @Bolton2020passivedemethylation) to gradually erode $cal(M)$ without pharmacological intervention at the epigenetic level.
+
+#warning-env(title: [Not a Treatment Recommendation])[
+The following is a _speculative hypothesis_ about a therapeutic strategy, not a clinical recommendation. It has not been tested in clinical trials, has no safety data specific to ME/CFS, and must not be implemented without physician guidance. The duration (18--24 months) and multi-component nature of the proposed approach carry risks that have not been characterized.
+]
+
+#speculation(title: [Timed Passive Epigenetic Reversal Strategy])[
+For patients with established epigenetic consolidation: sustained (18--24 month) anti-inflammatory therapy to reduce signals driving DNMT activity ($C_"pro"$ in the consolidation equation), combined with metabolic support (CoQ10, NR/NMN, d-ribose) to improve $alpha_"CI"$, would allow passive demethylation ($k_"demeth"$) to gradually erode $cal(M)$ without requiring toxic epigenetic drugs.
+
+*Certainty:* 0.30. The logic follows from the ODE dynamics (Chapter @ch:causal-hierarchy-formal), and the individual components---LDN as sustained immunomodulator @Younger2014LDN, CoQ10 + NR for metabolic support---have independent evidence. However, the actual rate of passive demethylation in immune cells is poorly characterized, and whether reducing $C_"pro"$ is sufficient to halt DNMT activity is unknown.
+
+*Key parameters:*
+
+    - Duration: 18--24 months minimum (matches $tau_"epi"$ from @tab:response-timescales in Chapter @ch:causal-hierarchy-formal)
+    - Anti-inflammatory: LDN, low-dose corticosteroid, or targeted cytokine blockade
+    - Metabolic support: CoQ10 + NR/NMN + d-ribose (targeting $alpha_"CI"$)
+    - Monitoring: serial methylation profiling every 6 months to track $cal(M)$ trajectory
+
+*Testable prediction:* Patients on sustained (>18 month) anti-inflammatory + metabolic support should show measurable reduction in disease-associated CpG methylation at immune cell loci, compared with matched patients on metabolic support alone (without anti-inflammatory component). The anti-inflammatory component is critical because it reduces the signal driving re-methylation.
+
+*Limitations:* The 18--24 month duration makes clinical trials expensive and difficult to control. Compliance over this period is challenging. The passive demethylation rate in lymphocyte subsets has not been precisely measured in ME/CFS patients. The strategy may be insufficient for patients with very deep consolidation ($cal(M) > 0.8$), where even complete removal of driving signals may not produce enough passive demethylation to cross the recovery threshold.
+] <spec:timed-epigenetic-reversal>
+
+// =============================================================================
 // SECTION 8: RESEARCH IMPLICATIONS
 // =============================================================================
 
@@ -757,7 +886,9 @@ Not all mechanisms are equal. The pathophysiology of ME/CFS, sprawling as it is 
 
 The hierarchy resolves several longstanding puzzles. Why do different triggering events—viral infection, stress, surgery, vaccination—produce the same disease? Because multiple entry doors converge on a single final common pathway of CNS energy failure and broken restoration machinery. Why do single-target treatments consistently disappoint, even when they target well-validated mechanisms? Because the multi-lock architecture requires simultaneous intervention across mechanisms, and addressing one lock allows the others to compensate. Why does disease duration predict prognosis so strongly, more strongly than initial severity? Because epigenetic consolidation progressively deepens the disease attractor over time, converting a reversible functional state into an entrenched structural one.
 
-The practical implication is that treatment priority should be guided by the product of causal importance and therapeutic tractability—not by causal importance alone. The most upstream mechanism is not necessarily the best therapeutic target if it cannot be reached with current tools. The most tractable intervention is not necessarily the most causally important if it addresses only a secondary lock. Rational treatment strategy navigates between these two axes, combining tractable amplifier-targeting interventions that provide immediate relief with root-cause-targeting interventions that address the disease architecture.
+The practical implication is that treatment priority should be guided by the product of causal importance and therapeutic tractability---not by causal importance alone. The most upstream mechanism is not necessarily the best therapeutic target if it cannot be reached with current tools. The most tractable intervention is not necessarily the most causally important if it addresses only a secondary lock. Rational treatment strategy navigates between these two axes, combining tractable amplifier-targeting interventions that provide immediate relief with root-cause-targeting interventions that address the disease architecture.
+
+Beyond the core hierarchy, several extensions developed in this chapter and its formal companion (Chapter @ch:causal-hierarchy-formal) open new directions: the subthreshold reservoir population (Section @sec:subthreshold-reservoir) suggests a preventive medicine approach to ME/CFS, applicable to the large population sitting near the disease separatrix; the threat signal miscalibration concept (Section @sec:threat-miscalibration) identifies genetic predisposition factors that lower the safe mode activation threshold; and the gut dysbiosis reanalysis (Section @sec:amp-gut-reanalysis) challenges the amplifier classification for a specific patient subgroup. The timed passive epigenetic reversal strategy (Section @sec:timed-epigenetic-reversal) offers a patient-accessible approach to the most intractable lock in the disease, while the TRPM3 sensitization concept explores pharmacological modulation of a recently validated root cause mechanism.
 
 This chapter's claims are themselves hypotheses, informed by the evidence accumulated in Chapters @ch:energy-metabolism–@ch:speculative-hypotheses but not proven by it. The sister chapter in Part V (Chapter @ch:causal-hierarchy-formal) subjects them to formal mathematical testing, encoding the biological reasoning developed here into dynamical systems models that can be interrogated with precision. Where the two approaches agree, confidence increases; where they disagree, the disagreement identifies specific gaps in understanding that future research must address.
 
