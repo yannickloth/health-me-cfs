@@ -5505,3 +5505,76 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 
 // =============================================================================
+// CAUSAL HIERARCHY EXTENSION REFERENCES (added 2026-03-23)
+// =============================================================================
+
+== Epigenetic Clocks and DNA Methylation
+
+=== Horvath 2013 --- The Original Epigenetic Clock
+
+    / *Full Citation:*: Horvath S. DNA methylation age of human tissues and cell types. _Genome Biology_. 2013;14(10):R115. @Horvath2013clock
+    / *Key Contributions:*:
+
+        - Developed the first multi-tissue DNA methylation age predictor using 353 CpG sites
+        - Demonstrated that methylation age closely tracks chronological age across diverse tissue types
+        - Established the concept of "epigenetic age acceleration" as a biomarker of biological aging
+
+    / *Relevance:*: Foundation for the proposed ME/CFS-calibrated epigenetic clock (Speculation @spec:epigenetic-clock). The Horvath methodology demonstrates that disease-state-specific methylation patterns can be quantified and tracked over time. Adapting this approach to ME/CFS-specific CpG sites would operationalize the consolidation variable $cal(M)$ from the formal causal hierarchy model.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Very high (foundational methodology paper; >14,000 citations)
+        - *Replication:* Extensively replicated across tissues, populations, and disease contexts
+        - *Certainty:* 0.95 (the epigenetic clock methodology is well-established; the application to ME/CFS is the novel, untested component)
+
+=== de Vega et al.\ 2014 --- ME/CFS DNA Methylation Discovery
+
+    / *Full Citation:*: de Vega WC, Vernon SD, McGowan PO. DNA methylation modifications associated with chronic fatigue syndrome. _PLOS ONE_. 2014;9(8):e104757. @deVega2014methylation
+    / *Key Contributions:*:
+
+        - First genome-wide methylation study in ME/CFS (Illumina 450K array)
+        - Identified 1,192 differentially methylated CpG sites in ME/CFS PBMCs
+        - Enrichment for immune function, cellular signaling, and metabolic regulation genes
+
+    / *Relevance:*: Provides the raw CpG site data needed to construct an ME/CFS-specific epigenetic clock. Used in Chapter @ch:causal-hierarchy-formal to support the epigenetic clock hypothesis.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (small sample, $n = 49$; no independent replication cohort)
+        - *Replication:* Partially replicated by Trivedi 2018 and de Vega 2017/2021 with different cohorts
+        - *Certainty:* 0.50
+
+== Critical Transitions and Early Warning Signals
+
+=== Scheffer et al.\ 2012 --- Anticipating Critical Transitions
+
+    / *Full Citation:*: Scheffer M, Carpenter SR, Lenton TM, et al. Anticipating critical transitions. _Science_. 2012;338(6105):344--348. @Scheffer2012anticipating
+    / *Key Contributions:*:
+
+        - Review of critical slowing down (CSD) as an early warning signal across ecology, climate, and physiology
+        - Formal criteria for detecting approaching tipping points: rising variance, increasing autocorrelation, flickering
+
+    / *Relevance:*: Theoretical foundation for the CSD wearable monitoring proposal (Open Question @oq:csd-monitoring). If ME/CFS disease transitions exhibit CSD signatures detectable in HRV, this would enable personalized early warning systems.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Very high (high-impact review in _Science_)
+        - *Replication:* CSD validated in multiple domains; application to ME/CFS untested
+        - *Certainty:* 0.90 (for CSD theory); 0.30 (for ME/CFS HRV application)
+
+== Long COVID Risk Factors and Prevention
+
+=== Su et al.\ 2022 --- Pre-Existing Factors Predicting Long COVID
+
+    / *Full Citation:*: Su Y, Yuan D, Chen DG, et al. Multiple early factors anticipate post-acute COVID-19 sequelae. _Cell_. 2022;185(5):881--895.e20. @Su2022longcovid
+    / *Key Contributions:*:
+
+        - Multi-omics analysis identifying four pre-existing factors predicting long COVID: autoantibodies, EBV reactivation, type 2 diabetes, and SARS-CoV-2 viremia
+        - Demonstrated that post-acute sequelae are partially predictable from acute-phase biomarkers
+
+    / *Relevance:*: Directly supports the subthreshold reservoir hypothesis (Speculation @spec:subthreshold-reservoir). The finding that pre-existing autoantibodies and latent viral reactivation predict post-infectious sequelae is consistent with a population sitting near the disease separatrix.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (large multi-omics study in _Cell_)
+        - *Replication:* Core findings replicated in independent cohorts
+        - *Certainty:* 0.70
+
+
+// =============================================================================
