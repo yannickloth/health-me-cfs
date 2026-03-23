@@ -1,0 +1,32 @@
+date: 2026-03-23
+
+symptoms:
+  fatigue_level: "moderate"
+  fatigue_notes: >
+    Already tired in the morning. Legs and arms feel tired, as though
+    they need rest. Fatigue present from waking, not exertion-triggered.
+  pain_positional_muscle_fatigue: true
+  pain_positional_muscle_fatigue_notes: >
+    Limb heaviness/tiredness in legs and arms from the morning.
+    Described as needing to rest them. Could reflect delayed effect
+    from yesterday's household activities or non-restorative sleep.
+  cognitive_status: null
+  nausea: null
+  headache: null
+  orthostatic_intolerance: null
+  pem_active: null
+  pem_notes: >
+    Morning fatigue following a day with household activities (ironing,
+    cooking, light tasks on 2026-03-22) — pattern consistent with
+    possible mild PEM, though could also be baseline fatigue or poor
+    sleep recovery. Monitor throughout the day.
+
+sleep:
+  quality: null
+
+notes: >
+  Morning fatigue with limb heaviness (legs and arms) after a day of
+  household activities. Yesterday (2026-03-22) felt mostly OK but needed
+  a nap. Today's morning tiredness may represent delayed post-exertional
+  response to yesterday's activities, or baseline non-restorative sleep.
+  Worth monitoring whether this worsens or resolves with rest.

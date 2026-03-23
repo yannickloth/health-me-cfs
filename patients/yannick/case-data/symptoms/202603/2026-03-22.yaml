@@ -1,0 +1,23 @@
+date: 2026-03-22
+
+symptoms:
+  fatigue_level: "mild"
+  fatigue_notes: >
+    Felt mostly OK throughout the day. Needed an afternoon nap.
+  cognitive_status: null
+  nausea: null
+  headache: null
+  orthostatic_intolerance: null
+  pem_active: null
+
+activities:
+  - ironing
+  - some cooking
+  - light household activities
+
+sleep:
+  quality: null
+
+notes: >
+  Generally OK day. Required afternoon nap — may indicate mild energy
+  depletion from household activities (ironing, cooking, light tasks).
