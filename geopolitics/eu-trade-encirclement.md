@@ -1,4 +1,4 @@
-# The Compass Has One Arrow Left
+# Who Benefits When Every Road to Europe Closes Except the American One?
 
 Look at a map of the European Union's trade connections in early 2022. Then look at the same map in March 2026.
 
