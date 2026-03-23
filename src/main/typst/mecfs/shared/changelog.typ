@@ -397,6 +397,59 @@ Each entry follows the format: *What* changed, _why_ it changed
     circulating IgG and end-organ (endothelial, mitochondrial)
     injury @Liu2026IgGcomplexes.
 
+  - *Causal hierarchy extensions: threat miscalibration, TRPM3 sensitization, subthreshold reservoir, gut reanalysis, and epigenetic reversal strategy*
+    (Chapter 16, five new sections/subsections; Chapter 33, full chapter replacing
+    TODO stub; Appendix H, 73 new annotated bibliography entries;
+    references.bib, 40+ new entries; hypothesis registry updated with 12 new
+    entries):
+    Major extension of the causal hierarchy sister chapters. Chapter 16 gains
+    five new content blocks: (1) Safe mode threat signal miscalibration
+    (Section @sec:threat-miscalibration) — SOD2 Ala16Val and Nrf2 promoter
+    polymorphisms as genetic predisposition factors that increase $w_"ROS"$
+    in the threat signal, lowering the safe mode activation threshold
+    (speculation, certainty 0.25). (2) Pregnenolone sulfate as TRPM3
+    sensitizer — direct agonism via PregS as a "sensitizer" in combination
+    protocols, exploiting $gamma_("TRPM3","CI") approx 0.45$ synergy with
+    Complex I interventions (speculation, certainty 0.20).
+    (3) Subthreshold reservoir population (Section @sec:subthreshold-reservoir)
+    — prediction of a large population sitting just below the disease separatrix,
+    identifiable through subclinical biomarker screening and targetable for
+    preventive intervention during acute infections (speculation, certainty 0.30).
+    (4) Gut dysbiosis trigger reanalysis (Section @sec:amp-gut-reanalysis) —
+    challenges the amplifier classification for post-gastroenteritis and
+    antibiotic-associated onset subgroups, proposes patient-specific $w_"LPS"$
+    adjustment (open question). (5) Timed passive epigenetic reversal strategy
+    (Section @sec:timed-epigenetic-reversal) — 18–24 month anti-inflammatory +
+    metabolic support protocol to permit passive TET-mediated demethylation of
+    the consolidation variable $cal(M)$ without toxic epigenetic drugs
+    (speculation, certainty 0.30).
+    Chapter 33 replaces the TODO stub with a full formal chapter: disease state
+    ODE system with timescale hierarchy, minimum intervention set analysis,
+    separatrix nudging framework with synergistic coefficients, epigenetic clock
+    hypothesis, critical slowing down (CSD) detection for early warning,
+    and attractor migration model. Twelve new hypothesis registry entries
+    covering epigenetic clock, reverse cascade recovery, treatment order
+    dependence, separatrix nudging, CSD detection, attractor migration,
+    antiviral response prediction, and others.
+    Motivated by: the initial causal hierarchy chapters established the framework
+    but left several extensions as implicit consequences; formalizing these
+    extensions strengthens the predictive power of the hierarchy and identifies
+    new therapeutic and preventive strategies.
+    @Shimoda2004SOD2 @Sweetman2020Nrf2 @Houghton2024sulforaphane @Vriens2011pregnenolone @Wagner2008pregnenolone @Cabanas2018trpm3 @Su2022longcovid @Cervia2022longcovid @Hickie2006postinfectious @Bolton2020passivedemethylation @Younger2014LDN @Giloteaux2016gut @Guo2023butyrate @Martin2023permeability @Maes2008leakygut @Wallis2023FMT.
+
+  - *BBC News ME/CFS Wales coverage*
+    (Appendix D, new subsection "Notable Media Coverage"):
+    Added BBC News report (March 2026) by Meleri Williams profiling three
+    Welsh ME/CFS patients — Tomos Sleep (severe, completely bedbound,
+    communicates only through eye gaze), Fflur Evans (moderate, former teacher),
+    Alwen Davies (moderate, uses pacing). Includes campaigner Rob Messenger's
+    description of Welsh ME services as "a postcode lottery" and Dr Binita Kane's
+    observation that "doctors aren't taught about this condition." Welsh government
+    response on proposals for an all-Wales specialist and national standards.
+    Motivated by: significant media coverage of severe ME/CFS cases and systemic
+    healthcare gaps in Wales, relevant to the document's advocacy and resource
+    sections.
+
   - *Adversarial review: scientific rigor and language tempering across mecfsscience.org integration*
     (Chapters 6, 12, 13, 16, 18, 24, 25b; ch10, ch14d cross-reference fixes):
     Systematic adversarial review (cynic, reductionist, sophist) of all content
@@ -564,6 +617,26 @@ Each entry follows the format: *What* changed, _why_ it changed
     limitations of severe patients creating conditions favourable for
     periodontal disease.
     @Hasan2025periodontal @Hajishengallis2021periodontal @Hajishengallis2015periodontal @Dominy2019gingipains @Tattar2025periodontal.
+
+=== Document Infrastructure
+
+  - *LaTeX to Typst migration*: Complete migration of the document source
+    from LaTeX/latexmk to Typst. Full Typst port of all content, preamble
+    modules, and custom environments. Build system switched from `latexmk` to
+    `typst compile` via Nix. All 40 TikZ figures converted to CeTZ equivalents.
+    Legacy LaTeX sources and bibliography auxiliary files removed. Source
+    relocated from `typst/` to `src/main/typst/mecfs/`. Typography tuning:
+    inter-paragraph spacing, heading spacing with chapter top drop, running
+    header suppression on chapter-opening pages. KpFonts family added for
+    rendering. Boxed environments wrapped in figures for label/reference support.
+    Agent definitions and review skills updated for Typst file format.
+    Motivated by: Typst offers faster compilation, simpler syntax, and better
+    error messages than LaTeX, reducing the friction of iterative document
+    development; the growing document size made LaTeX build times increasingly
+    prohibitive.
+
+  - *Author role update*: Changed author designation from "patient-researcher"
+    to "independent researcher."
 
 == Version 5 (2026-02-18 – 2026-03-07)
 
