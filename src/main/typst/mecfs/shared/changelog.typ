@@ -635,9 +635,6 @@ Each entry follows the format: *What* changed, _why_ it changed
     development; the growing document size made LaTeX build times increasingly
     prohibitive.
 
-  - *Author role update*: Changed author designation from "patient-researcher"
-    to "independent researcher."
-
 == Version 5 (2026-02-18 – 2026-03-07)
 
 === Document Infrastructure
