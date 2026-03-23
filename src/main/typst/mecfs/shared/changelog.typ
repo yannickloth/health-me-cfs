@@ -10,7 +10,7 @@ Each entry follows the format: *What* changed, _why_ it changed
 (new evidence, error correction, reviewer feedback, etc.), and which
 *key sources* motivated the change where applicable.
 
-== Version 6 (2026-03-08 –)
+== Version 6 (2026-03-08 – 2026-03-23)
 
 === New Content
 
