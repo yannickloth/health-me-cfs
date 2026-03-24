@@ -78,6 +78,9 @@
 // Heading numbering: arabic at all levels (mirrors \arabic{chapter})
 #set heading(numbering: "1.1.1.1")
 
+// Equation numbering: chapter.equation (mirrors LaTeX)
+#set math.equation(numbering: "1.1")
+
 // =============================================================================
 // FRONT MATTER  (roman page numbering, unnumbered chapters)
 // =============================================================================
@@ -171,8 +174,6 @@
 #include "part4-research/ch25-translational-findings.typ"
 #include "part4-research/ch25a-research-infrastructure.typ"
 #include "part4-research/ch25b-proposed-studies.typ"
-#include "part4-research/negative-trials.typ"
-#include "part4-research/hypothesis-registry.typ"
 
 // ── Part V: Mathematical and Computational Modeling ───────────────────────────
 #include "part5-modeling/part5-intro.typ"
@@ -186,9 +187,21 @@
 #include "part5-modeling/ch33-causal-hierarchy-formal.typ"
 
 // =============================================================================
-// APPENDICES
+// APPENDICES  (lettered: A, B, C … with sub-sections A.1, A.1.1)
 // =============================================================================
 
+// Switch numbering to uppercase letter for top-level headings
+#set heading(numbering: (..nums) => {
+  let n = nums.pos()
+  if n.len() == 1 {
+    str.from-unicode(64 + n.at(0))  // A, B, C, …
+  } else {
+    str.from-unicode(64 + n.at(0)) + "." + n.slice(1).map(str).join(".")
+  }
+})
+#counter(heading).update(0)
+
+#include "appendices/appendix-intro.typ"
 #include "appendices/appendix-a-terminology.typ"
 #include "appendices/appendix-b-abbreviations.typ"
 #include "appendices/appendix-c-diagnostic-tools.typ"

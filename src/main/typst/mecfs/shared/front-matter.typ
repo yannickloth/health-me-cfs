@@ -76,6 +76,18 @@
 // consume a chapter number.  Renders on its own page with centred title.
 #let _part-counter = counter("document-part")
 
+#let doc-appendix(body) = {
+  pagebreak()
+  v(1fr)
+  align(center)[
+    #text(font: font-heading, size: 22pt, weight: "bold")[Appendices]
+  ]
+  v(1.5em)
+  align(center)[#body]
+  v(1fr)
+  pagebreak()
+}
+
 #let doc-part(title, body) = {
   _part-counter.step()
   pagebreak()

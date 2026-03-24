@@ -16,7 +16,7 @@
 // Compile date — override via `--input compile-date=YYYY-MM-DD`.
 // Fallback: doc-date-fallback below (update on each release).
 // datetime.today() is unreliable (returns epoch in sandboxed/Nix builds).
-#let doc-date-fallback = datetime(year: 2026, month: 3, day: 21)
+#let doc-date-fallback = datetime(year: 2026, month: 3, day: 23)
 
 #let doc-date = {
   let raw = sys.inputs.at("compile-date", default: none)
