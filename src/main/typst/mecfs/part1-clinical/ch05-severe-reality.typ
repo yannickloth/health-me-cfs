@@ -342,6 +342,8 @@ Therefore, I am taking advantage of assisted dying in 12 days.
 But my death should not be in vain.”
 ]
 
+Pauline Hongnat, 34 ans, sévèrement atteinte d'EM et d'un syndrome d'activation mastocytaire (SAMA), a mis fin à ses jours le 17 mars 2026 en France. Malgré un suivi médical et un soutien de ses proches, elle ne supportait plus les souffrances quotidiennes. Sa mère, Emmanuelle, a demandé que son histoire soit partagée publiquement, “pour que ces morts servent les vivants”, dénonçant “le parcours infernal de souffrances et d'indifférence médicale”. Pauline avait 34 ans.
+
 ==== Assisted Dying and ME/CFS
 <subsec:assisted-dying>
 
