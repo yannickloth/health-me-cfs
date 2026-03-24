@@ -13,8 +13,8 @@
 
 // ── Title page ────────────────────────────────────────────────────────────────
 #let title-page() = {
-  // Title page has no page number (mirrors LaTeX \thispagestyle{empty})
-  set page(numbering: none)
+  // Title page has no page number, header, or footer
+  set page(numbering: none, header: none, footer: none)
   align(center)[
     #v(3em)
     #text(font: font-heading, size: 24pt, weight: "bold", doc-title)
@@ -32,7 +32,7 @@
     #text(size: 10pt, "ORCID: ") #link("https://orcid.org/" + doc-orcid, text(size: 10pt, doc-orcid)) \
     #text(size: 10pt, "DOI: ") #link(doc-doi-url, text(size: 10pt, doc-doi))
     #v(1.5em)
-    #text(size: 10pt, doc-date.display("[day] [month repr:long] [year]"))
+    #text(size: 10pt, doc-date.display("[year]-[month]-[day]"))
     #text(size: 10pt, " — Version " + str(doc-version))
   ]
   pagebreak()

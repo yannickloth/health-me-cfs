@@ -48,13 +48,12 @@
 
 // ── Running footer (mirrors cfoot: Page X of Y — TITLE — DATE) ───────────────
 #let _page-footer = context {
-  let page-num   = counter(page).display("1")
-  let page-total = counter(page).final().at(0)
+  let page-num = counter(page).display()
   align(center,
     text(size: size-footer,
-      "Page " + page-num + " of " + str(page-total) +
+      "Page " + page-num +
       " \u{2014} " + doc-title +
-      " \u{2014} " + doc-date.display("[day] [month repr:long] [year]")
+      " \u{2014} " + doc-date.display("[year]-[month]-[day]")
     )
   )
 }
@@ -66,7 +65,6 @@
     margin: page-margins,
     header: _page-header,
     footer: _page-footer,
-    numbering: "1",
   )
   body
 }
