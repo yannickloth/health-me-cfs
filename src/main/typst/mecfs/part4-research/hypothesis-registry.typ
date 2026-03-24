@@ -1,9 +1,9 @@
 #import "../shared/environments.typ": *
 
-%
+//
 // Hypothesis, Speculation, Prediction, and Open Question Registry
 // Generated 2026-03-04 by systematic harvest of all 305 environments.
-%
+//
 // INSERTION: Add as new 
 ==  in ch25b or as standalone appendix section.
 // Ensure longtable package is loaded. Build with: nix build
@@ -44,6 +44,8 @@ ordered within domains from highest to lowest certainty.
 
 Motivated by: mecfsscience.org comprehensive immune review; six independent literature research streams.
 
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
 #figure(
   table(
     columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
@@ -132,11 +134,14 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
   ),
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from mecfsscience.org integration and creative brainstorming (2026-03-21/22). Includes immune null findings, DecodeME genetics, exercise physiology, and cross-system synthesis.],
 ) <tab:hypothesis-registry-2026-03-21>
+] // end landscape page
 
 === Entries Added 2026-03-23: Causal Hierarchy Extensions
 
 Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 formal modeling; 12-idea development from brainstorm-causal-hierarchy-extensions.md.
 
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
 #figure(
   table(
     columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
@@ -249,6 +254,7 @@ Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 for
   ),
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from causal hierarchy extensions and cross-idea synthesis (2026-03-23). Includes formal modeling predictions, treatment strategies, diagnostic tools, boundary analyses, cross-disease connections, and creative brainstorm synthesis.],
 ) <tab:hypothesis-registry-2026-03-23>
+] // end landscape page
 
 /*
 #table(
@@ -277,9 +283,9 @@ caption: [Cross-document hypothesis and open question registry (56 key entries).
 
 \footnotesize_(continued on next page)_ 
 
-%% ============================================================
-%% DOMAIN 1 – ENERGY METABOLISM
-%% ============================================================
+// ============================================================
+// DOMAIN 1 – ENERGY METABOLISM
+// ============================================================
 \small_*Domain 1: Energy Metabolism*_ \
 
 Selective Energy Dysfunction
@@ -410,9 +416,9 @@ RCT needed; MCAS subgroup analysis would be informative.
 &
 Ch.15 @subsec:pitolisant \
 
-%% ============================================================
-%% DOMAIN 2 – IMMUNE DYSFUNCTION
-%% ============================================================
+// ============================================================
+// DOMAIN 2 – IMMUNE DYSFUNCTION
+// ============================================================
 \small_*Domain 2: Immune Dysfunction*_ \
 
 NETosis as Bridge from Acute Viral Infection to Chronic Autoimmunity
@@ -583,9 +589,9 @@ Methods available; requires ME/CFS cohort with documented COVID status.
 &
 Ch.7 @sec:vaccination-mecfs \
 
-%% ============================================================
-%% DOMAIN 3 – NEUROLOGICAL
-%% ============================================================
+// ============================================================
+// DOMAIN 3 – NEUROLOGICAL
+// ============================================================
 \small_*Domain 3: Neurological*_ \
 
 Autoantibodies Causally Drive Neurological Dysfunction in Long COVID
@@ -733,9 +739,9 @@ studies feasible.
 &
 Ch.8 @sec:glymphatic-meningitis \
 
-%% ============================================================
-%% DOMAIN 4 – ENDOCRINE / HPA
-%% ============================================================
+// ============================================================
+// DOMAIN 4 – ENDOCRINE / HPA
+// ============================================================
 \small_*Domain 4: Endocrine / HPA Axis*_ \
 
 Cytokine-Mediated Deiodinase Suppression
@@ -789,9 +795,9 @@ All tests available today; no new assays required.
 &
 Ch.9 @sec:postviral-pituitary \
 
-%% ============================================================
-%% DOMAIN 5 – GUT MICROBIOME
-%% ============================================================
+// ============================================================
+// DOMAIN 5 – GUT MICROBIOME
+// ============================================================
 \small_*Domain 5: Gut Microbiome*_ \
 
 Severity-Dependent Baseline Gut Permeability
@@ -923,9 +929,9 @@ Requires specialised immunology and periodontal labs; CSF collection limits feas
 &
 Ch.14 @sec:oral-autoimmunity-bridge \
 
-%% ============================================================
-%% DOMAIN 6 – GENETICS / EPIGENETICS
-%% ============================================================
+// ============================================================
+// DOMAIN 6 – GENETICS / EPIGENETICS
+// ============================================================
 \small_*Domain 6: Genetics and Epigenetics*_ \
 
 Epigenetic Basis of T-Cell Exhaustion
@@ -963,9 +969,9 @@ Commercially available platforms; moderate cost.
 &
 Ch.12 @sec:micrornas \
 
-%% ============================================================
-%% DOMAIN 7 – CARDIOVASCULAR / AUTONOMIC
-%% ============================================================
+// ============================================================
+// DOMAIN 7 – CARDIOVASCULAR / AUTONOMIC
+// ============================================================
 \small_*Domain 7: Cardiovascular and Autonomic*_ \
 
 Motor-Autonomic Coordination Overload
@@ -1010,9 +1016,9 @@ correlation analysis.
 &
 Ch.10 @sec:igg-endothelial \
 
-%% ============================================================
-%% DOMAIN 8 – INTEGRATIVE / MULTI-SYSTEM
-%% ============================================================
+// ============================================================
+// DOMAIN 8 – INTEGRATIVE / MULTI-SYSTEM
+// ============================================================
 \small_*Domain 8: Integrative and Multi-System*_ \
 
 Long COVID as Stage 1–2 ME/CFS
@@ -1225,9 +1231,9 @@ highly invasive — likely requires ancillary study within existing treatment tr
 &
 Ch.13 (@spec:bone-marrow-reprogramming) \
 
-%% ============================================================
-%% DOMAIN – MATHEMATICAL MODELING (Part V)
-%% ============================================================
+// ============================================================
+// DOMAIN – MATHEMATICAL MODELING (Part V)
+// ============================================================
 \small_*Domain: Mathematical Modeling (Part V)*_ \
 
 ATP Threshold Model of PEM
@@ -1331,9 +1337,9 @@ Analogous systems under development for cardiac care and diabetes.
 &
 Ch.@ch:predictive-applications \
 
-%% ============================================================
-%% DOMAIN 10 – EVOLUTIONARY MEDICINE
-%% ============================================================
+// ============================================================
+// DOMAIN 10 – EVOLUTIONARY MEDICINE
+// ============================================================
 \small_*Domain 10: Evolutionary Medicine*_ \
 
 Preserved Emergency Override with Broken Restoration
