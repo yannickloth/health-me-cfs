@@ -59,6 +59,7 @@
       "Bash(ls:*)",
       "Bash(wc:*)",
       "Bash(echo:*)",
+      "Bash(exec:*)",
       "Bash(rm:*)",
       "Bash(cp:*)",
       "Bash(mv:*)",
