@@ -164,6 +164,61 @@ This trial provides the strongest evidence to date for a plasma cell-mediated au
 Which ME/CFS patients are most likely to respond to plasma cell depletion? The 60\% response rate suggests heterogeneity. Potential biomarkers for patient selection include: elevated GPCR autoantibody titers, post-infectious onset pattern, specific HLA types, or degree of IgG reduction post-treatment. Randomized controlled trials with biomarker stratification are urgently needed.
 \end{open_question}
 
+\section{Ion Homeostasis Therapeutics: MDC002 (Mitodicure)}
+\label{sec:mdc002}
+
+The acquired ischemic mitochondrial myopathy (AIMM) model (Section~\ref{sec:sodium-calcium-cascade} in Chapter~\ref{ch:energy-metabolism}) identifies a specific ionic cascade as the proximal driver of mitochondrial damage in ME/CFS: ischaemia $\to$ proton accumulation $\to$ NHE1 activation $\to$ Na$^+$ overload $\to$ NCX1 reversal $\to$ NCLX block $\to$ Ca$^{2+}$ overload $\to$ mitochondrial injury. Because this is an \emph{acquired} ionic pathology rather than a primary genetic mitochondrial disease, it offers a pharmacologically tractable target: interrupt the ionic cascade, and mitochondrial function should recover.
+
+MDC002, developed by Mitodicure GmbH (Frankfurt, Germany), is an oral small-molecule candidate designed to do exactly this~\cite{Mitodicure2024pipeline}, operating via dual ionic targets in skeletal muscle.
+
+\subsection{Mechanism of Action}
+
+MDC002 acts through two synergistic mechanisms:
+
+\begin{description}
+    \item[Na$^+$/K$^+$-ATPase stimulation] MDC002 activates the sodium-potassium pump, directly correcting intracellular sodium overload. By restoring the Na$^+$ gradient, it eliminates the thermodynamic drive for NCX1 reversal: the NCX reversal potential $E_{\text{NCX}} = 3\,E_{\text{Na}} - 2\,E_{\text{Ca}}$ shifts back toward its normal range, restoring forward-mode calcium export.
+
+    \item[NCLX activation] MDC002 activates the mitochondrial sodium-calcium exchanger NCLX (SLC8B1), the primary route of calcium efflux from the mitochondrial matrix. This addresses the second arm of the calcium trap: even if some NCX1 reversal persists, activated NCLX can clear the mitochondrial calcium load.
+\end{description}
+
+Together these two mechanisms address both sides of the calcium accumulation problem simultaneously---reducing calcium influx via NCX1 restoration and increasing calcium efflux via NCLX activation. Restored ionic homeostasis prevents mitochondrial calcium overload, allows oxidative phosphorylation to recover, and reduces the ROS-driven endothelial damage that perpetuates ischaemia at the vascular level (Section~\ref{sec:vicious-cycle}).
+
+The compound is distinct from immunotherapies (Section~\ref{sec:immunological-interventions}): it does not target autoantibodies or immune activation, and Mitodicure positions it as effective across ME/CFS subtypes regardless of immunological aetiology. The ionic cascade produces the same downstream pathology whether triggered by GPCR autoantibody-mediated vasoconstriction, primary endothelial dysfunction, or other upstream mechanisms.
+
+\subsection{Patent Basis and Molecular Targets}
+
+Three patent applications cover MDC002 and related compounds, specifying three molecular activities:
+
+\begin{enumerate}
+    \item Sodium-hydrogen antiporter 1 (NHE1 / SLC9A1) \textbf{inhibitory} activity---reducing the proton-extrusion/sodium-import step that initiates the cascade.
+    \item Phosphodiesterase-7 (PDE7) \textbf{inhibitory} activity---PDE7 inhibition elevates cAMP, which enhances Na$^+$/K$^+$-ATPase activity via beta-adrenergic signalling pathways and exerts anti-inflammatory effects on T cells.
+    \item Substituted benzoxazole and benzofuran scaffolds---the chemical class of the lead compound.
+\end{enumerate}
+
+The PDE7 inhibitory activity is mechanistically notable: PDE7 inhibitors amplify cAMP signalling downstream of beta-2 adrenergic receptors---the same receptors whose autoantibody-mediated dysfunction Scheibenbogen and colleagues identified as an upstream trigger in a subset of patients~\cite{Loebel2016,WirthScheibenbogen2020}. If $\beta_2$AdR signalling is impaired (whether by autoantibodies or receptor internalisation), PDE7 inhibition provides a downstream bypass: cAMP accumulates even when receptor activation is reduced, restoring Na$^+$/K$^+$-ATPase stimulation via the intracellular pathway. This mechanistically bridges the autoimmune and ionic cascade hypotheses.
+
+\subsection{Development Status and Evidence Base}
+
+MDC002 is a preclinical candidate. Key milestones:
+
+\begin{itemize}
+    \item All mechanistic and lead-compound studies completed (preclinical stage).
+    \item The German Federal Institute for Drugs and Medical Devices (BfArM) reviewed preclinical data and confirmed they are sufficient to proceed to first-in-human studies.
+    \item GLP toxicology and GLP safety pharmacology studies were planned to initiate following pre-seed financing completed in 2024 (Hesse state grant + EU funding).
+    \item Phase~I first-in-human study was projected for autumn 2025, conditional on timely GLP study completion.
+    \item \textbf{No human efficacy data are available.} All evidence for efficacy rests on preclinical mechanistic studies and the biological plausibility of the ionic cascade model.
+\end{itemize}
+
+The scientific basis---the AIMM hypothesis and its supporting evidence---is peer-reviewed~\cite{Scheibenbogen2025muscle,WirthScheibenbogen2021muscle,Petter2022sodium,WirthScheibenbogen2020}. The drug itself is novel with no published clinical trial data as of 2026.
+
+\begin{limitation}[MDC002: Preclinical Only---No Human Efficacy Data]
+MDC002 has not entered clinical trials as of early 2026. All claims about potential efficacy derive from the mechanistic plausibility of the AIMM model and preclinical (non-human) data. The ionic cascade model is well-supported by independent evidence from MRI sodium quantification~\cite{Petter2022sodium}, electron microscopy~\cite{WirthScheibenbogen2021muscle}, and proteomics~\cite{Scheibenbogen2025muscle}, but no human pharmacodynamic or clinical outcome data for MDC002 exist. Significant uncertainty remains about: (1) whether oral bioavailability is sufficient to achieve therapeutic tissue concentrations; (2) whether correction of the ionic cascade in skeletal muscle will translate to patient-reported outcomes; (3) safety and tolerability in a population with impaired stress tolerance and energy metabolism; (4) whether the AIMM mechanism operates in all ME/CFS patients or only the ischaemic/vascular subtype.
+\end{limitation}
+
+\begin{open_question}[Which ME/CFS Subtype Benefits from Ion Homeostasis Targeting?]
+The AIMM model predicts that patients with demonstrable vascular insufficiency, elevated muscle sodium on MRI, and post-infectious onset are the most likely responders to ionic cascade correction. Patients whose ME/CFS is predominantly autoimmune (elevated GPCR autoantibodies, responding to immunoadsorption) may benefit from the PDE7-inhibitory beta-adrenergic bypass effect of MDC002. Patients with predominantly central mechanisms (neuroinflammation, HPA dysregulation) may not benefit from peripheral ionic correction alone. Stratified trial design using intracellular sodium MRI~\cite{Petter2022sodium}, GPCR autoantibody titres, and clinical subtype criteria is warranted.
+\end{open_question}
+
 \subsection{Cytokine Modulation}
 
 Cytokine abnormalities are well-documented in ME/CFS, though patterns vary between patients and disease stages. Importantly, recent research has elucidated the mechanistic link between GPCR autoantibodies and cytokine dysregulation. Hackel et al.\ (2025) demonstrated that autoantibodies mediate inflammatory and neurotrophic cytokine production via monocyte activation~\cite{Hackel2025monocyte}. In post-COVID ME/CFS patients, autoantibody binding to monocytes upregulated production of MIP-1$\delta$, PDGF-BB, and TGF-$\beta$3. This provides a mechanistic pathway from circulating autoantibodies to the downstream inflammatory cascade characteristic of ME/CFS.
@@ -600,7 +655,13 @@ Phages (viruses that infect bacteria) can selectively eliminate pathogenic speci
 
 \subsubsection{Therapeutic Plasma Exchange}
 
-Plasma exchange removes and replaces plasma, eliminating circulating factors including autoantibodies, inflammatory mediators, and potentially microclots. Case reports have described improvements in ME/CFS and Long COVID, though controlled trials are lacking.
+Plasma exchange removes and replaces plasma, eliminating circulating factors including autoantibodies, inflammatory mediators, and potentially microclots. The rationale is strongest in patients with evidence of pathogenic autoantibodies (e.g., GPCR-fAbs; see Section~\ref{subsubsec:bc007}) or markedly elevated fibrinogen and microclot burden.
+
+\textbf{Evidence update (2025):} España-Cueto et al. conducted the first sham-controlled randomised trial of therapeutic plasma exchange in Long COVID ($n = 50$): the plasma exchange arm showed no improvement over sham procedure for the primary composite outcome. This negative result is important context: case reports and uncontrolled series had suggested benefit, but the controlled data do not support plasma exchange as a routine intervention. The authors noted that the trial population was clinically heterogeneous and may not have been pre-selected for autoantibody-positive subgroups, leaving open the possibility of benefit in a more defined patient subset.
+
+Case reports in ME/CFS specifically continue to appear (Kiprov 2022), but the controlled Long COVID data substantially lower confidence in broad application.
+
+\textbf{Evidence Grade}: D---insufficient; sham-controlled trial negative; may warrant further investigation in autoantibody-positive subgroups only
 
 \subsubsection{HELP Apheresis}
 
@@ -644,13 +705,43 @@ Development of safer antipurinergic agents continues.
 
 \subsection{Rapamycin (Sirolimus)}
 
-Rapamycin inhibits mTOR, a master regulator of cellular metabolism, growth, and autophagy. Theoretical rationale in ME/CFS:
+Rapamycin inhibits mTOR (mechanistic target of rapamycin), a master regulator of cellular metabolism, growth, and autophagy. A theoretical rationale for ME/CFS has existed for several years, but a 2025 pilot study provides the first controlled human evidence.
+
+\subsubsection{Mechanism of Action}
+
+mTOR hyperactivation suppresses autophagy---the cellular recycling process that clears damaged organelles, misfolded proteins, and dysfunctional mitochondria. In ME/CFS, autophagy impairment has been documented at the protein level (reduced LC3-II, elevated p62)~\cite{Ruan2025rapamycin}. Low-dose rapamycin (6~mg once weekly, far below transplant immunosuppression doses) restores autophagy flux without the sustained immune suppression of daily dosing.
+
+Proposed mechanisms relevant to ME/CFS:
 \begin{itemize}
-    \item Promotes autophagy (cellular ``cleanup'')
-    \item Immunomodulatory effects
-    \item May enhance mitochondrial biogenesis through feedback mechanisms
+    \item \textbf{Autophagy restoration}: Clears dysfunctional mitochondria (mitophagy) and reduces intracellular damage accumulation
+    \item \textbf{Immunomodulation}: Shifts T-cell balance toward regulatory phenotypes; reduces mTORC1-driven pro-inflammatory signalling
+    \item \textbf{Senolysis}: mTOR inhibition reduces cellular senescence and senescence-associated secretory phenotype (SASP)
+    \item \textbf{Indirect mitochondrial benefit}: Clearance of damaged mitochondria via mitophagy may allow remaining functional mitochondria to operate more efficiently
 \end{itemize}
-However, mTOR inhibition also suppresses immune function and protein synthesis, making chronic use problematic.
+
+A theoretical framework linking mTOR hyperactivation specifically to ME/CFS, Long COVID, and other post-acute infection syndromes (PAIS) has been proposed by Bar-Tana~\cite{BarTana2025mTOR} as a unifying ``TorS'' (mTORC1 syndrome) paradigm.
+
+\subsubsection{Clinical Evidence}
+
+Ruan et al. (2025) conducted the first dedicated ME/CFS rapamycin pilot study across six clinical sites~\cite{Ruan2025rapamycin}:
+\begin{itemize}
+    \item \textbf{Design}: Prospective pilot study; 86 patients enrolled, 70 completing to primary endpoint
+    \item \textbf{Protocol}: 6~mg rapamycin once weekly for 90 days
+    \item \textbf{Primary outcome}: Fatigue and PEM severity at T1 (Day 90)
+    \item \textbf{Result}: 74.3\% of completers demonstrated recovery in fatigue and PEM
+    \item \textbf{Mechanistic validation}: Autophagy markers (LC3-II, p62) improved significantly, providing biological plausibility for the clinical response
+    \item \textbf{Safety}: No serious adverse events reported; once-weekly dosing appears to avoid the immunosuppression associated with daily rapamycin
+\end{itemize}
+
+\subsubsection{Limitations and Cautions}
+
+\begin{warning}[Rapamycin: Preliminary Evidence Only]
+The Ruan 2025 study is an uncontrolled pilot with no placebo arm. The 74.3\% response rate is promising but cannot be distinguished from natural fluctuation, regression to the mean, or placebo effect without a randomised controlled trial. Rapamycin carries known risks even at low doses: delayed wound healing, mucositis, metabolic effects (dyslipidaemia, insulin resistance), and theoretical infection susceptibility. Use outside a clinical trial or specialist supervision is not appropriate.
+\end{warning}
+
+mTOR inhibition also suppresses protein synthesis, which may be counterproductive if the ME/CFS patient has significant muscle atrophy. The once-weekly protocol is specifically designed to allow mTOR re-activation between doses (pulsed inhibition rather than continuous suppression), which theoretically preserves anabolic recovery while still inducing autophagy.
+
+\textbf{Evidence Grade}: C (single uncontrolled pilot study; mechanistically grounded; controlled trial required)
 
 \subsection{Metformin}
 
@@ -2268,4 +2359,343 @@ A cautious Phase 1b/2a study:
 \end{itemize}
 
 \textbf{Evidence Grade}: D (entirely theoretical; requires careful staged investigation)
+
+% ===== New sections added 2026-03-26: Spooniverse gap-fill =====
+
+\section{Autonomic Neuromodulation}
+\label{sec:autonomic-neuromodulation}
+
+\subsection{Stellate Ganglion Block}
+\label{subsec:stellate-ganglion-block}
+
+The stellate ganglion is a bilateral cervical sympathetic ganglion (fusion of the inferior cervical and first thoracic ganglia) that provides sympathetic innervation to the head, neck, upper limbs, and---critically---the heart. Stellate ganglion block (SGB) uses a local anaesthetic injection to temporarily suppress this sympathetic outflow. The procedure has been used for decades in pain medicine; its application to Long COVID and dysautonomia is recent.
+
+\subsubsection{Rationale in ME/CFS and Long COVID}
+
+Several features of ME/CFS and Long COVID converge on sympathetic hyperactivation as a potentially treatable contributor:
+\begin{itemize}
+    \item Heart rate variability studies consistently show reduced parasympathetic and elevated sympathetic tone in ME/CFS
+    \item Orthostatic tachycardia (POTS) is in part driven by sympathetic dysregulation
+    \item Liu and Duricka hypothesised that Long COVID fatigue, brain fog, and orthostatic intolerance resemble ``sickness behaviour'' perpetuated by autonomic dysregulation---and that neuromodulation at the level of the sympathetic chain could interrupt this cycle~\cite{Liu2022SGB}
+    \item A possible mechanism is that SGB resets sympathetic tone, reducing the cycle of sympathetic hyperactivation $\to$ vasoconstriction $\to$ endothelial hypoperfusion $\to$ symptoms
+\end{itemize}
+
+\subsubsection{Clinical Evidence}
+
+Three publications report outcomes after SGB in Long COVID patients:
+
+\begin{enumerate}
+    \item \textbf{Liu \& Duricka 2022} (J Neuroimmunol; $n=2$): Case series of two Long COVID patients receiving sequential bilateral SGB. Both experienced improvement in fatigue, post-exertional malaise, cognitive dysfunction, and sleep~\cite{Liu2022SGB}.
+    \item \textbf{Pearson et al.\ 2023} (Cureus; $n=41$): Retrospective cohort from a chronic pain practice. 86\% of patients experienced symptom reduction after unilateral or bilateral SGB. Improvements were noted across fatigue, cognition, and autonomic symptoms. No control group~\cite{Pearson2023SGB}.
+    \item \textbf{Duricka \& Liu 2024} (Autonomic Neuroscience; retrospective chart review): Extended series confirming symptom improvements in fatigue, PEM, cognitive dysfunction, and mood. Loss of smell and taste responses were notably absent, suggesting those symptoms may reflect structural damage not amenable to autonomic modulation~\cite{Duricka2024SGB}.
+\end{enumerate}
+
+\begin{warning}[SGB: No Controlled Trial Data]
+All published SGB data in Long COVID are uncontrolled retrospective series or case reports. No randomised, sham-controlled trial has been conducted. Placebo response rates for invasive procedures are substantial. The procedure requires specialist training (fluoroscopy-guided or ultrasound-guided injection) and carries procedural risks including haematoma, nerve injury, and Horner syndrome. These data do not support routine clinical use.
+\end{warning}
+
+\textbf{Patient selection considerations}: Most likely to benefit are patients with objective evidence of sympathetic hyperactivation (resting tachycardia, reduced HRV, POTS, cold extremities) rather than those with predominantly immune or metabolic phenotypes.
+
+\textbf{Evidence Grade}: D---limited to uncontrolled case series; mechanistically plausible; sham-controlled trial warranted
+
+\section{Endothelial and Vascular Interventions}
+\label{sec:endothelial-vascular}
+
+\subsection{Sulodexide}
+\label{subsec:sulodexide}
+
+Sulodexide (Aterina) is a highly purified glycosaminoglycan mixture (80\% fast-moving heparin fraction, 20\% dermatan sulphate) that has been used in European vascular medicine for decades. Its relevance to Long COVID and ME/CFS derives from endothelial glycocalyx restoration.
+
+\subsubsection{Mechanism}
+
+The endothelial glycocalyx---the gel-like proteoglycan layer lining the luminal surface of blood vessels---is damaged in Long COVID and, evidence suggests, in ME/CFS. Glycocalyx disruption leads to:
+\begin{itemize}
+    \item Increased vascular permeability and oedema
+    \item Platelet and leukocyte adhesion (thromboinflammation)
+    \item Loss of shear-stress mechanosensing, impairing vasodilation
+    \item Exposure of subendothelial collagen, promoting microclot formation
+\end{itemize}
+Sulodexide replenishes heparan sulphate and dermatan sulphate components of the glycocalyx, restoring the anti-thrombotic and anti-adhesive surface. It also has direct anti-inflammatory and mild anticoagulant properties.
+
+\subsubsection{Clinical Evidence}
+
+Charfeddine et al.\ (2022) conducted the TUN-EndCOV study, a multi-centre controlled trial in Long COVID patients with persistent cardiac symptoms~\cite{Charfeddine2022sulodexide}:
+\begin{itemize}
+    \item \textbf{Design}: 290 patients; sulodexide group ($n=144$) vs. untreated controls ($n=146$)
+    \item \textbf{Duration}: 21 days
+    \item \textbf{Outcomes}: Endothelial function assessed by thermal imaging; chest pain and palpitation symptom scores
+    \item \textbf{Results}: Sulodexide group showed significantly greater improvement in endothelial function, chest pain resolution (83.7\% vs.\ 43.6\%), and palpitation resolution (85.2\% vs.\ 52.9\%)
+    \item \textbf{Limitations}: Not blinded; no placebo; symptom outcomes are subjective; specific to cardiac-symptom subgroup of Long COVID
+\end{itemize}
+
+A second trial by Gonzalez-Ochoa et al.\ (2024; $n \approx 100$) reported similar endothelial improvements in Long COVID, extending evidence to a different patient population.
+
+\begin{limitation}[Limited ME/CFS-Specific Data]
+Neither trial enrolled ME/CFS patients by diagnostic criteria. The relevance depends on whether ME/CFS patients share the endothelial glycocalyx disruption seen in Long COVID---a reasonable hypothesis given overlapping microclot and endothelial findings, but not directly tested in ME/CFS cohorts.
+\end{limitation}
+
+\textbf{Practical note}: Sulodexide is not approved in the US (though available as a food supplement there under the name EndoProtek) but is licensed in Europe and many other countries. Standard dosing in the Long COVID trials: 50 LSU twice daily orally.
+
+\textbf{Evidence Grade}: C---controlled trial positive for Long COVID cardiac subgroup; ME/CFS extrapolation requires validation
+
+\section{Viral Persistence and Immune-Targeted Approaches}
+\label{sec:viral-persistence-immune}
+
+\subsection{Maraviroc and Pravastatin (Combination Therapy)}
+\label{subsec:maraviroc-pravastatin}
+
+Patterson et al.\ proposed that a subset of Long COVID and ME/CFS patients harbour persistent spike protein or viral antigens in non-classical monocytes, activating a monocytic-endothelial-platelet axis that sustains inflammation~\cite{Patterson2023maraviroc}. This hypothesis motivates a combination of:
+\begin{itemize}
+    \item \textbf{Maraviroc} (CCR5 antagonist): Blocks CCR5-mediated monocyte migration and activation; CCR5 is upregulated on non-classical monocytes in Long COVID
+    \item \textbf{Pravastatin} (or atorvastatin): Adds pleiotropic anti-inflammatory and endothelial-stabilising effects beyond lipid lowering; also reduces monocyte activation through NFkB pathways
+\end{itemize}
+
+\subsubsection{Evidence}
+
+Patterson et al.\ (2023) reported outcomes in 18 participants (case series) receiving maraviroc 300~mg twice daily plus pravastatin 10~mg daily:
+\begin{itemize}
+    \item Significant clinical improvement across neurological, autonomic, respiratory, and fatigue domains at 6--12 weeks
+    \item Significant reductions in vascular biomarkers sCD40L and VEGF
+    \item No serious adverse events
+\end{itemize}
+
+A Phase III randomised controlled trial (maraviroc + atorvastatin, $n = 252$) was underway as of late 2025.
+
+\begin{warning}[Case Series Limitations; Conflict of Interest]
+The 2023 Patterson paper is an uncontrolled case series. A 2024 corrigendum (PMID 38813382) corrected conflict of interest disclosures. The mechanistic hypothesis (non-classical monocyte spike-protein persistence) remains controversial and lacks independent replication at scale. Phase III trial results are needed before clinical adoption.
+\end{warning}
+
+\textbf{Evidence Grade}: D---single uncontrolled case series; Phase III RCT ongoing; not recommended outside trial settings
+
+\subsection{Pembrolizumab (Anti-PD-1 Checkpoint Inhibitor)}
+\label{subsec:pembrolizumab}
+
+T-cell exhaustion---characterised by upregulated PD-1 and reduced cytotoxic capacity---has been documented in ME/CFS and Long COVID (Chapter~\ref{ch:immune-dysfunction}). Pembrolizumab is an anti-PD-1 monoclonal antibody approved for multiple cancers; it ``releases the brakes'' on exhausted T cells by blocking the PD-1 inhibitory checkpoint.
+
+The NINDS-sponsored Phase 1 trial PD1-PASC I ($n=15$, open-label) is investigating pembrolizumab in Long COVID patients with T-cell exhaustion. This is the first immune-checkpoint intervention to reach clinical trial stage in this population.
+
+\begin{warning}[Serious Immune-Related Adverse Events Expected]
+Anti-PD-1 therapies carry a well-characterised risk of immune-related adverse events (irAEs): autoimmune pneumonitis, colitis, hepatitis, endocrinopathies, and---rarely---fatal outcomes. The risk profile acceptable in advanced cancer may not be acceptable in ME/CFS patients who are not imminently life-threatened. Phase 1 dose-finding in the NINDS trial is specifically designed to characterise this risk. This intervention must not be used outside a clinical trial.
+\end{warning}
+
+\textbf{Evidence Grade}: E---Phase 1 only; mechanistically motivated; appropriate only within the clinical trial context
+
+\section{Emerging Psychedelic and Neuromodulatory Approaches}
+\label{sec:psychedelic-neuromodulatory}
+
+\subsection{Psilocybin}
+\label{subsec:psilocybin}
+
+Psilocybin is a 5-HT2A serotonin receptor agonist that produces acute psychedelic effects and---more durably---appears to promote neuroplasticity and reduce default-mode-network hyperactivity. Its relevance to Long COVID and ME/CFS is speculative but mechanistically grounded:
+\begin{itemize}
+    \item Default-mode-network hyperactivity has been proposed as a contributor to brain fog and central sensitisation in ME/CFS
+    \item Serotonergic modulation may counter the tryptophan/kynurenine pathway dysregulation documented in ME/CFS (Chapter~\ref{ch:neurological})
+    \item Psilocybin has shown anti-inflammatory effects in preclinical models
+\end{itemize}
+
+\subsubsection{Clinical Data}
+
+Evidence in Long COVID is limited to:
+\begin{enumerate}
+    \item Chopra et al.\ (2024)~\cite{Chopra2024psilocybin}: Single case report of a Long COVID patient who self-administered psilocybin (combined with MDMA) and reported significant symptom improvement. Level of evidence: anecdotal.
+    \item Bornemann et al.\ (Front Psychiatry, 2024): Pilot data suggesting potential benefit for Long COVID neuropsychiatric symptoms.
+\end{enumerate}
+
+\begin{warning}[Legal Status and PEM Risk]
+Psilocybin remains a Schedule I substance in most jurisdictions. More critically, psychedelic sessions involve significant cognitive and physiological activation---the acute experience of a high-dose psilocybin session may itself trigger post-exertional malaise in moderate-to-severe ME/CFS patients. Any investigation in this population must carefully monitor for PEM as a safety endpoint and should not proceed in very severe patients.
+\end{warning}
+
+\textbf{Evidence Grade}: D---anecdotal only; no controlled trial in ME/CFS; legal and safety barriers; mechanistically interesting
+
+\subsection{Guanfacine and N-Acetylcysteine (Cognitive Protocol)}
+\label{subsec:guanfacine-nac}
+
+Guanfacine is a selective $\alpha_2$A-adrenergic agonist used in ADHD and PTSD. It acts primarily on the prefrontal cortex (PFC), where $\alpha_2$A receptor stimulation strengthens working memory circuits and reduces ``noise'' from irrelevant inputs. N-acetylcysteine (NAC) is a glutathione precursor with antioxidant and anti-inflammatory properties.
+
+The proposed combination targets cognitive symptoms in Long COVID and ME/CFS via complementary mechanisms:
+\begin{itemize}
+    \item Guanfacine: Restores noradrenergic tone in the PFC, directly addressing the catecholamine deficit and prefrontal hypofunction that contributes to brain fog
+    \item NAC: Reduces oxidative stress and neuroinflammation in the PFC; may also modulate glutamatergic excitatory/inhibitory balance
+\end{itemize}
+
+No published peer-reviewed trial data were identified in a PubMed search. Evidence is limited to case series and community reports. The combination is relatively safe at standard doses (guanfacine 1--2~mg nightly; NAC 600--1200~mg daily), and guanfacine's mechanism aligns with the documented prefrontal noradrenergic deficits in ME/CFS.
+
+\textbf{Evidence Grade}: D---no controlled trial; mechanistically grounded; safety profile acceptable; appropriate for careful individual clinical evaluation
+
+\subsection{Nicotine Transdermal Patch}
+\label{subsec:nicotine-patch}
+
+Nicotine activates nicotinic acetylcholine receptors (nAChRs), including $\alpha_7$-nAChR, which has significant roles in:
+\begin{itemize}
+    \item Neuroimmune regulation: $\alpha_7$-nAChR activation suppresses macrophage and microglial pro-inflammatory cytokine release (the ``cholinergic anti-inflammatory pathway'')
+    \item Autonomic function: Modulates vagal-sympathetic balance
+    \item Cognitive function: nAChR stimulation in the PFC and hippocampus enhances attention and working memory
+\end{itemize}
+
+Leitzke (2023, Bioelectronic Medicine) proposed nAChR dysfunction as a unifying mechanism for Long COVID symptoms and reported a case series ($n=4$) showing improvement with 7.5~mg/day transdermal nicotine. A 2025 review noted approximately 73.5\% patient-reported improvement in community cohorts using nicotine patches, though this is uncontrolled self-report data.
+
+\begin{warning}[Cardiovascular Caution; Addictive Potential]
+Nicotine is a cardiovascular stimulant. In POTS patients with already elevated sympathetic tone and resting tachycardia, nicotine may worsen tachycardia and hypertension. The transdermal route produces more sustained systemic nicotine levels than short-acting forms, which may be preferable for steady-state nAChR modulation but also increases cardiovascular exposure. Nicotine is addictive and should not be initiated without careful risk-benefit assessment in each patient.
+\end{warning}
+
+\textbf{Evidence Grade}: D---case series only; mechanistically motivated; cardiovascular risk monitoring required
+
+% ===== Additional gap-fill sections added 2026-03-26 =====
+
+\section{Cytokine-Targeted Biologics}
+\label{sec:cytokine-targeted}
+
+\subsection{Tocilizumab (IL-6 Receptor Blockade)}
+\label{subsec:tocilizumab}
+
+Tocilizumab (Actemra) is a monoclonal antibody blocking the interleukin-6 receptor (IL-6R). IL-6 is a pro-inflammatory cytokine consistently elevated in a subset of ME/CFS and Long COVID patients~\cite{Montoya2017cytokines}. Tocilizumab is approved for rheumatoid arthritis, giant cell arteritis, and cytokine release syndrome; its use in Long COVID is extrapolated from the IL-6 elevation hypothesis.
+
+\paragraph{Clinical Evidence}
+
+A 2022 case report by Visvabharathy et al.\ described a patient with rheumatoid arthritis who developed post-COVID symptoms including severe fatigue and brain fog after SARS-CoV-2 antigen persistence was documented~\cite{Visvabharathy2022tocilizumab}. Discontinuing tocilizumab (which she was already receiving for rheumatoid arthritis) provoked relapse of Long COVID symptoms; resuming it achieved resolution. This is not a controlled study but illustrates proof-of-concept for IL-6 pathway involvement.
+
+No randomised controlled trial of tocilizumab specifically for Long COVID fatigue syndrome or ME/CFS exists as of early 2026. The mechanistic rationale is strong where IL-6 elevation is documented, but the subset of ME/CFS patients with sustained IL-6 elevation is uncertain---many have normal or episodically abnormal cytokine levels.
+
+\begin{warning}[Immunosuppression Risk in ME/CFS]
+Tocilizumab broadly suppresses IL-6 signalling, impairing the acute phase response to infection. ME/CFS patients already show evidence of NK cell dysfunction and impaired viral clearance; adding IL-6 receptor blockade may further compromise infection surveillance. In addition, IL-6 is required for hepatic acute phase protein synthesis---tocilizumab causes predictable CRP suppression (masking infection signs) and may reduce fibrinogen and platelet counts. These risks are manageable in rheumatoid arthritis with regular monitoring; their acceptability in ME/CFS requires dedicated assessment.
+\end{warning}
+
+\textbf{Evidence Grade}: D---single case report only; mechanism plausible in IL-6-elevated subgroup; controlled trial absent
+
+\section{Negative Trials: Inconclusive and Failed Biologics}
+\label{sec:negative-trials}
+
+Several targeted biological therapies have been tested in randomised controlled trials for Long COVID or ME/CFS and failed to reach their primary endpoints. These negative results are scientifically important: they constrain viable hypotheses and prevent patients from pursuing ineffective treatments.
+
+\subsection{Efgartigimod (FcRn Blocker)}
+\label{subsec:efgartigimod}
+
+Efgartigimod (Vyvgart; argenx) is an IgG1 Fc fragment that blocks the neonatal Fc receptor (FcRn), accelerating IgG catabolism and thereby reducing circulating immunoglobulin levels---including pathogenic autoantibodies. The mechanism is distinct from immunoadsorption: rather than physically removing antibodies, efgartigimod reduces their half-life systemically.
+
+\paragraph{Rationale}
+
+The autoantibody hypothesis for ME/CFS and Long COVID (GPCR-fAbs, anti-nuclear, other autoantibodies) motivated a Phase 2 randomised controlled trial of efgartigimod in Long COVID (NCT05633407). If pathogenic IgG autoantibodies drive symptoms, reducing all circulating IgG via FcRn blockade should produce symptomatic improvement.
+
+\paragraph{Outcome}
+
+The Phase 2 RCT (NCT05633407) failed to meet its primary endpoint. An open-label extension was subsequently terminated. The specific results have not been published in peer-reviewed form as of early 2026 (press release data only).
+
+\begin{limitation}[Interpretation of the Negative Result]
+A negative FcRn blockade trial does not disprove the autoantibody hypothesis. Several confounders apply: (1) if the relevant autoantibodies are locally produced in tissues rather than circulating freely, FcRn blockade would reduce but not eliminate them; (2) the trial may have enrolled a clinically heterogeneous population without pre-stratification for autoantibody positivity; (3) the mechanistic target is correct but the treatment may have achieved insufficient IgG reduction. The negative result weakens but does not eliminate the case for autoantibody-targeted therapy---it particularly undermines broad IgG-reduction approaches in favour of more selective targeting (BC007, immunoadsorption).
+\end{limitation}
+
+\textbf{Evidence Grade}: D---Phase 2 RCT negative (primary endpoint failed); published results pending
+
+\subsection{Temelimab (Anti-HERV-W-Env)}
+\label{subsec:temelimab}
+
+Temelimab (GeNeuro/Theranexus) is a monoclonal antibody targeting the envelope protein of human endogenous retrovirus-W (HERV-W ENV). The rationale rests on the HERV hypothesis for post-infectious neuroinflammation.
+
+\paragraph{Biological Rationale}
+
+Human endogenous retroviruses (HERVs) are ancient retroviral sequences integrated permanently into the human genome. HERV-W ENV---the envelope protein of the HERV-W family---has pro-inflammatory and neurotoxic properties when expressed, and is normally suppressed in healthy tissue. Several recent studies established that SARS-CoV-2 infection reactivates HERV-W ENV expression:
+\begin{itemize}
+    \item Charvet et al.\ (iScience, 2023) demonstrated HERV-W ENV expression in peripheral blood cells of 221 COVID-19 patients across multiple variants, with expression levels correlating with disease severity~\cite{Charvet2023HERV}
+    \item Giménez-Orenga et al.\ (Front Immunol, 2022) showed persistent HERV-W ENV antigenemia in post-COVID patients, with elevated anti-SARS-CoV-2 IgE levels strongly correlated with physical dysfunction ($r = -0.81$, $p < 0.01$)~\cite{GimenezOrenga2022HERV}
+\end{itemize}
+In ME/CFS, Chapter~\ref{ch:immune-dysfunction} notes that endogenous retroviral activation has been proposed as a contributor to neuroinflammation. Temelimab, by neutralising HERV-W ENV protein, was designed to interrupt this neuroinflammatory pathway.
+
+\paragraph{Clinical Trial Outcome}
+
+The GNC-501 Phase 2 trial (GeNeuro/Theranexus; $n=203$) tested temelimab in Long COVID patients with persistent neuropsychiatric symptoms. The trial failed its primary endpoint (press release, no peer-reviewed publication as of early 2026).
+
+\begin{limitation}[Interpreting the Temelimab Failure]
+The negative result does not refute the HERV-W hypothesis. Possible explanations: (1) HERV-W ENV may have already caused irreversible neurological damage that antibody blockade cannot reverse; (2) the trial population may have been insufficiently stratified for HERV-W ENV positivity---patients without HERV-W reactivation would be non-responders by definition; (3) HERV-W may be one of several parallel neuroinflammatory drivers, and blocking it alone is insufficient. The HERV-W biomarker data remain scientifically valid and warrant continued investigation in ME/CFS subtypes with active HERV-W expression.
+\end{limitation}
+
+\textbf{Evidence Grade}: D---Phase 2 RCT negative; HERV-W biology well-established; selectivity of patient population critical for future trials
+
+\subsection{Leronlimab (CCR5-Blocking Antibody)}
+\label{subsec:leronlimab}
+
+Leronlimab (PRO 140; CytoDyn) is a humanised monoclonal antibody that binds and blocks CCR5, preventing CCR5-tropic HIV viral entry. Its rationale in Long COVID differs from the antiviral mechanism: CCR5 is upregulated on non-classical monocytes in Long COVID (the same monocyte-activation pathway targeted by maraviroc; Section~\ref{subsec:maraviroc-pravastatin}), and CCR5 blockade was proposed to reduce monocyte-driven inflammation.
+
+\paragraph{Clinical Trial}
+
+Gaylis et al.\ (Clin Infect Dis, 2022) reported a randomised, double-blind, placebo-controlled trial of leronlimab in 54 Long COVID patients ($n=26$ leronlimab, $n=28$ placebo)~\cite{Gaylis2022leronlimab}. The trial missed its primary endpoint. Post-hoc analysis identified a subgroup of treated responders ($n=14$) who showed significant CCR5 upregulation on blood cell surfaces and symptomatic improvement, suggesting a responder subpopulation exists. Non-responders ($n=12$) showed no CCR5 change and no clinical benefit.
+
+\begin{limitation}[Leronlimab vs Maraviroc: Distinct Mechanisms, Overlapping Rationale]
+Both leronlimab and maraviroc target CCR5, but through different mechanisms: leronlimab is an antibody that blocks the receptor from the outside; maraviroc is a small-molecule allosteric antagonist. The leronlimab RCT failed its primary endpoint but hints at a CCR5-responsive subgroup. The maraviroc case series (Patterson et al.) showed benefit in an uncontrolled setting. Neither result resolves whether CCR5 blockade is genuinely effective---the leronlimab trial is more rigorous but mixed; the maraviroc data are less rigorous but positive. The Phase III maraviroc RCT is the most important pending trial to resolve this question.
+\end{limitation}
+
+\textbf{Evidence Grade}: C---RCT negative on primary endpoint; post-hoc responder signal warrants biomarker-stratified re-trial
+
+\section{Emerging Metabolic Interventions}
+\label{sec:emerging-metabolic}
+
+\subsection{GLP-1 Receptor Agonists (Semaglutide, Tirzepatide)}
+\label{subsec:glp1-agonists}
+
+Glucagon-like peptide-1 (GLP-1) receptor agonists---including semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound)---are approved for type 2 diabetes and obesity. Their potential relevance to ME/CFS and Long COVID extends well beyond metabolic effects:
+\begin{itemize}
+    \item \textbf{Anti-inflammatory}: GLP-1R activation suppresses NF-$\kappa$B-driven inflammation, reduces macrophage and microglial pro-inflammatory signalling
+    \item \textbf{Mast cell modulation}: GLP-1R is expressed on mast cells; agonism reduces mast cell degranulation and histamine release---directly relevant to MCAS comorbidity in ME/CFS
+    \item \textbf{Neuroprotection}: GLP-1R activation promotes BDNF production, reduces neuroinflammation, and has shown benefit in Parkinson's disease and Alzheimer's disease trials
+    \item \textbf{Mitochondrial effects}: GLP-1R agonists enhance mitochondrial biogenesis via AMPK and PGC-1$\alpha$ pathways
+    \item \textbf{Endothelial protection}: Improves endothelial function and reduces vascular inflammation
+\end{itemize}
+
+\paragraph{Available Evidence}
+
+A 2025 MCAS case series ($n=47$) reported 89\% clinical improvement in MCAS symptoms with semaglutide, based on Spooniverse database reporting. No peer-reviewed publication of this case series was retrievable in PubMed at the time of writing (March 2026); this data point is preliminary and not independently verified.
+
+A tirzepatide trial in Long COVID ($n \approx 1000$, enrollment reportedly completed December 2025) is the largest prospective GLP-1 trial in this population; results are pending.
+
+\begin{limitation}[Awaiting Peer-Reviewed Evidence]
+As of March 2026, no peer-reviewed trial data are available in PubMed for GLP-1 agonists specifically in ME/CFS or Long COVID. The MCAS case series cited above is community-level self-report data. The tirzepatide Long COVID trial results are pending. The biological rationale for GLP-1R agonism in ME/CFS is strong (anti-inflammatory, mast cell modulation, mitochondrial), but clinical evidence is absent. This section will require a full update when trial results become available.
+\end{limitation}
+
+\textbf{Evidence Grade}: D---no peer-reviewed controlled data in ME/CFS or Long COVID; mechanistically compelling; major trial results pending 2026
+
+\subsection{Ornithine and Aspartate (LOLA)}
+\label{subsec:lola}
+
+L-ornithine L-aspartate (LOLA) enhances ammonia detoxification via two pathways: ornithine enters the urea cycle (stimulating carbamoyl phosphate synthetase), and aspartate feeds into the tricarboxylic acid cycle and the argininosuccinate synthesis pathway. The proposed relevance to ME/CFS is the ammonia hypothesis: impaired oxidative phosphorylation and amino acid catabolism in ME/CFS may produce subclinical hyperammonaemia, and LOLA could reduce this toxic accumulation.
+
+Xiao et al.\ (2025, PMID 40649860) explored this connection through computational modelling. This is the only available evidence: no human clinical trial of LOLA in ME/CFS or Long COVID exists. The computational approach establishes plausibility but constitutes the lowest evidentiary tier.
+
+\textbf{Evidence Grade}: E---computational modelling only; no clinical trial data; mechanism speculative
+
+\section{Antiviral Monoclonal Antibodies: Awaiting Long COVID Trial Results}
+\label{sec:antiviral-mab}
+
+Two anti-SARS-CoV-2 monoclonal antibodies have been investigated in the context of Long COVID and persistent viral antigen:
+
+\subsection{Pemivibart (Pemgarda)}
+\label{subsec:pemivibart}
+
+Pemivibart (AER002; UCSF) is an anti-spike monoclonal antibody. A UCSF randomised controlled trial ($n=36$) investigated whether anti-spike antibody administration could reduce persistent spike protein antigen in Long COVID patients and thereby reduce symptoms. Results were presented at a spring 2025 symposium but have not been published in peer-reviewed form as of March 2026.
+
+\begin{limitation}[Awaiting Published Results]
+The pemivibart Long COVID trial ($n=36$) results are unpublished. This section will be updated when peer-reviewed data become available. The mechanistic premise---persistent spike antigen driving symptoms---is compatible with evidence of spike protein detection months post-infection in some Long COVID patients, but its frequency and causal role remain debated.
+\end{limitation}
+
+\textbf{Evidence Grade}: E---unpublished trial; peer-reviewed results awaited
+
+\subsection{Sipavibart (Kavigale)}
+\label{subsec:sipavibart}
+
+Sipavibart (AZD3152; AstraZeneca) is an anti-spike monoclonal antibody approved for COVID-19 pre-exposure prophylaxis in immunocompromised individuals. The SUPERNOVA Phase 3 trial (Lancet Infect Dis, 2025; $n=3349$) demonstrated efficacy for preventing symptomatic COVID-19 in immunocompromised patients---not for treating Long COVID or ME/CFS.
+
+Sipavibart is not a Long COVID treatment in its current approved indication. Its classification in some emerging therapy databases as a Long COVID candidate reflects the speculative possibility that reducing new COVID-19 infections in immunocompromised patients (who are disproportionately represented among severe ME/CFS cases) could prevent further immune deterioration, but this is extrapolation, not a tested therapeutic claim.
+
+\textbf{Evidence Grade}: E---not a Long COVID or ME/CFS treatment; included here only to note the misclassification in some sources
+
+\section{Neuroinflammation: Bezisterim (NE3107)}
+\label{sec:bezisterim}
+
+Bezisterim (NE3107; INmune Bio) is a selective ERK/NF-$\kappa$B pathway inhibitor designed to reduce neuroinflammation without broadly suppressing the immune system. The compound inhibits the inflammatory signalling cascade downstream of TNF-$\alpha$ and IL-1$\beta$ while sparing anti-viral interferon responses.
+
+The ADDRESS-LC trial (NCT06847191) is a Phase 2/3 randomised controlled trial of bezisterim in Long COVID, funded by a \$13.1M US Department of Defense CDMRP award. The trial was actively enrolling as of early 2026.
+
+\begin{limitation}[Awaiting Trial Results]
+No efficacy data are available for bezisterim in Long COVID or ME/CFS as of March 2026. The ADDRESS-LC trial is ongoing. The mechanism---selective neuroinflammation dampening---is directly relevant to the neuroinflammatory hypothesis for ME/CFS (PET imaging evidence of microglial activation, Chapter~\ref{ch:neurological}), and the DoD funding represents significant institutional confidence in the hypothesis. This entry will require a full update when trial results are published.
+\end{limitation}
+
+\textbf{Evidence Grade}: E---Phase 2/3 trial ongoing; no published efficacy data; mechanistically well-grounded for neuroinflammatory ME/CFS subtype
 
