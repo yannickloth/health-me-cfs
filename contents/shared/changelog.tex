@@ -49,6 +49,72 @@ Each entry follows the format: \textbf{What} changed, \textit{why} it changed
         anti-inflammatory pathway. Leitzke 2023 case series; cardiovascular caution flagged.
     \end{itemize}
 
+  \item \textbf{Chapter~18 adversarial review pass --- pharmacology, logic, and rigor corrections}
+    (Typst source updated; all 31 items from a comprehensive review pass):
+    Motivated by: full chapter review (xref, citation, production-readiness, pharmacology, scientific rigor,
+    adversarial persona, sophist, devil's advocate, style, safety audits; build verification).
+    \begin{itemize}
+      \item \textbf{Rapamycin}: Added ITT denominator ($\sim$34\% vs 74.3\% completers); replaced
+        mechanism bullet list with \texttt{speculation} environment noting circular use of Ruan~2025
+        as both mechanism evidence and treatment evidence; corrected bioavailability data; stated off-label status.
+      \item \textbf{Stellate Ganglion Block}: Replaced ``HRV studies consistently show'' (unsupported
+        aggregative claim) with qualified prose acknowledging study heterogeneity; replaced
+        mechanism chain prose with \texttt{speculation} environment critiquing the ``reset'' hysteresis
+        assumption; added vocal cord paresis to procedural risk list; quantified placebo rate (30--50\%).
+      \item \textbf{Sulodexide}: Converted glycocalyx cascade bullets to \texttt{speculation} environment
+        noting that trial outcomes may reflect anticoagulant/anti-inflammatory activity rather than
+        glycocalyx-specific restoration; added therapeutic anticoagulation contraindication.
+      \item \textbf{Maraviroc + Pravastatin}: Added LFT monitoring protocol (baseline ALT/AST/bilirubin;
+        discontinuation criteria for hepatotoxicity); added pravastatin P-glycoprotein interaction with
+        maraviroc; statin myopathy risk in ME/CFS muscle context; pravastatin NF-$\kappa$B confound in
+        Patterson case series; off-label indication stated.
+      \item \textbf{Pembrolizumab}: Added counter-argument that PD-1 exhaustion may be protective rather
+        than pathological in ME/CFS (uncontrolled autoreactivity risk); added autoimmune comorbidity
+        elevated irAE risk; clarified fatality risk framing.
+      \item \textbf{Psilocybin}: Corrected ``DMN hyperactivity'' from established fact to contested finding;
+        added that 5-HT2A agonism does not directly modulate kynurenine pathway enzymes; upgraded
+        SSRI interaction from ``theoretical'' to ``clinically recognised serotonin syndrome risk'';
+        added psychosis/bipolar contraindication.
+      \item \textbf{Guanfacine + NAC}: Rewrote mechanism (prefrontal $\alpha_2$A vs brainstem vasomotor
+        centre distinction); removed inline community doses from body text; moved dose information
+        to warning box with explicit ``not validated by trial'' label; added slow taper guidance
+        ($\sim$25\%/1--2 weeks); noted pravastatin-monotherapy confound.
+      \item \textbf{Nicotine patch}: Corrected pharmacological error --- CYP1A2 induction is produced
+        by polycyclic aromatic hydrocarbons in tobacco smoke, not by nicotine itself; transdermal
+        nicotine does not meaningfully induce CYP1A2. Reframed as de-induction concern for
+        smoking-cessation transition.
+      \item \textbf{Tocilizumab}: Replaced ``consistently elevated'' with Hornig et al.\ heterogeneity
+        (duration-dependent); added RA flare confound in the case report; added black-box warnings
+        (TB reactivation, GI perforation); noted CRP suppression and IV-only administration.
+      \item \textbf{Efgartigimod}: Corrected ``all circulating immunoglobulins'' to accurate IgG-selective
+        description; renamed limitation box; added explicit falsifiability condition.
+      \item \textbf{Temelimab}: Renamed limitation box; added epiphenomenon interpretation (HERV-W as
+        non-specific immune activation marker) with equal weight to the positive interpretations;
+        added what would substantially weaken the causal hypothesis.
+      \item \textbf{Leronlimab}: Downgraded evidence grade from C to D (RCT negative primary endpoint;
+        post-hoc subgroup signal has high false-positive risk); added explicit false-positive
+        risk discussion for post-hoc subgroup analysis.
+      \item \textbf{GLP-1 agonists}: Added black-box warnings (medullary thyroid carcinoma/MEN2
+        contraindication, pancreatitis risk); added gastroparesis worsening risk in dysautonomic
+        ME/CFS; added narrow-therapeutic-window drug absorption delay; removed unverified 89\%
+        community-survey statistic; wrapped mechanisms in \texttt{speculation} environment
+        (certainty~0.20); corrected ``by mechanistic extension'' non-sequitur --- positive Long
+        COVID trial result would not license GLP-1 use in non-Long-COVID ME/CFS without a
+        separate trial.
+      \item \textbf{LOLA}: Wrapped ammonia hypothesis in \texttt{speculation} environment (certainty~0.10);
+        added hepatic urea cycle spare-capacity counter-argument; added renal impairment
+        contraindication; evidence grade updated.
+      \item \textbf{Pemivibart}: Replaced ``will be updated'' maintenance note with substantive
+        interpretive point (spike persistence as immune-failure consequence vs.\ causal driver).
+      \item \textbf{Bezisterim}: Corrected ERK/NF-$\kappa$B MOA inversion --- NE3107 preserves
+        ERK-mediated neurotrophic signalling while inhibiting the inflammatory NF-$\kappa$B
+        branch; selectivity claim attributed to developer studies pending independent validation;
+        replaced false-dichotomy negative-result framing with multi-interpretation analysis.
+      \item \textbf{All 17 new sections}: Heading levels changed from \texttt{=} (chapter-level) to
+        \texttt{==} (section within Chapter~18) to ensure they render within the experimental
+        therapies framing rather than as apparent independent chapters.
+    \end{itemize}
+
   \item \textbf{Nine further treatment sections added to Chapter~18 (Emerging Therapies)} --- completing the full Spooniverse coverage gap analysis (all 18 identified gaps now addressed):
     \begin{itemize}
       \item \textbf{Tocilizumab}: New section. IL-6R blockade; single case report (Visvabharathy 2022);
