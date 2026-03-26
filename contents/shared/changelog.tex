@@ -9,7 +9,131 @@ Each entry follows the format: \textbf{What} changed, \textit{why} it changed
 (new evidence, error correction, reviewer feedback, etc.), and which
 \textbf{key sources} motivated the change where applicable.
 
-\section*{Version 6 (2026-03-08 --)}
+\section*{Version 7 (2026-03-26 --)}
+
+\subsection*{New Content}
+
+\begin{itemize}
+
+  \item \textbf{Sodium-calcium overload cascade: molecular precision upgrade and AIMM concept}
+    (Chapter~6, Section ``The Sodium-Calcium Overload Cascade''; Typst mirror updated):
+    The sodium-calcium cascade description has been substantially upgraded with
+    molecular-level precision. Previous text described ``NCX reversal'' and
+    ``calcium accumulation'' in generic terms; the revised section identifies the
+    specific transporters by gene name (NCX1/SLC8A1, NCLX/SLC8B1, NHE1/SLC9A1),
+    derives the NCX1 reversal potential equation ($E_\text{NCX} = 3E_\text{Na} - 2E_\text{Ca}$)
+    and explains its thermodynamic implications, and distinguishes two independent
+    calcium-trapping mechanisms: NCX1 reverse-mode influx and NCLX efflux block
+    due to elevated cytoplasmic sodium---a mechanism absent from the previous version.
+    Petter et al.~(2022) $^{23}$Na-MRI data added as first-in-human quantitative
+    evidence (elevated baseline sodium, $p=0.0034$; inverse correlation with
+    grip strength, $p=0.0319$). The AIMM (acquired ischemic mitochondrial myopathy)
+    concept from Scheibenbogen and Wirth (2025) is introduced, framing the ionic
+    cascade as a self-reinforcing acquired pathology rather than a primary genetic
+    disease---directly relevant to pharmacological reversibility. The multi-level
+    vicious cycle hypothesis updated to incorporate AIMM and cross-reference
+    the MDC002 therapeutic entry.
+    Motivated by: MDC002 mechanism of action review identified that the existing
+    cascade description was molecularly imprecise and did not account for the
+    NCLX-mediated mitochondrial calcium trap, which is a distinct pharmacological
+    target from NCX1.
+    \cite{WirthScheibenbogen2020,WirthScheibenbogen2021muscle,Petter2022sodium,Scheibenbogen2025muscle}.
+
+  \item \textbf{Ion homeostasis therapeutics: MDC002 (Mitodicure)}
+    (Typst Chapter~18, new Section ``Ion Homeostasis Therapeutics: MDC002 (Mitodicure)'',
+    label \texttt{sec:mdc002}):
+    New section covering MDC002, an oral small-molecule preclinical candidate
+    developed by Mitodicure GmbH (Frankfurt) targeting the ionic cascade of
+    the AIMM model. Content covers: mechanism of action (dual Na$^+$/K$^+$-ATPase
+    stimulation and NCLX activation, addressing both sides of the mitochondrial
+    calcium trap); patent basis (three applications specifying NHE1 inhibition,
+    PDE7 inhibition, and benzoxazole/benzofuran scaffolds); the mechanistic
+    significance of PDE7 inhibition as a downstream bypass for impaired
+    beta-2 adrenergic receptor signalling; development status (preclinical;
+    BfArM sign-off for first-in-human; Phase~I projected autumn 2025);
+    a \texttt{limitation} environment explicitly stating that no human efficacy
+    data exist; and an open question on which ME/CFS subtype benefits most
+    (AIMM-predominant vs.\ autoimmune subtype), proposing stratified trial
+    design using $^{23}$Na-MRI, GPCR autoantibody titres, and clinical subtype criteria.
+    Motivated by: MDC002 is the most mechanistically targeted emerging candidate
+    in the ionic dysfunction space, directly derived from the AIMM model whose
+    supporting evidence is peer-reviewed; absence from the treatment chapter
+    was a gap given the detailed coverage of immunoadsorption, daratumumab, and BC007.
+    \cite{Scheibenbogen2025muscle,WirthScheibenbogen2021muscle,Petter2022sodium,WirthScheibenbogen2020}.
+
+  \item \textbf{Attractor emergence analytical proof: bistability derived from first principles}
+    (Chapter~30, new Section ``Attractors as an Emergent Consequence of the
+    Biochemistry'', label \texttt{sec:attractors-emergent}):
+    New analytical subsection proving that the model's bistability is a
+    \emph{prediction} of the biochemistry rather than a modelling premise. A
+    reduced 2D system (ATP concentration $A$ and activated immune cell count $I$)
+    is derived from the full ODE system by quasi-steady-state reduction. Nullcline
+    analysis (Equations~\ref{eq:i-nullcline}--\ref{eq:a-nullcline}) shows that the
+    $I$-nullcline is sigmoidal (Hill kinetics) and the $A$-nullcline is non-monotone
+    (ETC saturation); their triple intersection under ME/CFS parameters---satisfying
+    condition~\ref{eq:bistability-inequality}---proves bistability analytically. Jacobian
+    eigenvalue analysis classifies all three fixed points: the healthy-adjacent fixed
+    point and the disease fixed point are both stable nodes; the intermediate saddle
+    lies on the separatrix. The healthy regime yields a single stable fixed point;
+    the ME/CFS regime yields two. Three structural conclusions established:
+    (1)~ME/CFS parameters preserve the healthy attractor but shrink its basin;
+    (2)~the disease attractor does not exist under healthy parameters;
+    (3)~bistability requires only Hill kinetics and a concave production function---both
+    standard biochemistry. A \texttt{limitation} environment notes that quantitative
+    claims (exact bifurcation thresholds, basin sizes) require numerical continuation
+    software and have not been computed.
+    Motivated by: the bifurcation narrative in Chapter~30 asserted bistability as a
+    qualitative claim without proof; the analytical derivation is necessary to support
+    the claim that bistability is an emergent property of the biochemistry rather than
+    an assumed feature, and to establish the epistemological basis for model-derived
+    predictions about treatment.
+
+\end{itemize}
+
+\subsection*{Document Infrastructure}
+
+\begin{itemize}
+
+  \item \textbf{Part~V Typst migration} (Chapters~27--33 and Appendix~E):
+    Part~V chapters migrated from LaTeX stub files to full Typst source.
+    Hypothesis registry converted from LaTeX comment syntax (\texttt{\%}) to Typst
+    (\texttt{//}); landscape tables added.
+    Motivated by: progressive migration of the document from LaTeX to Typst.
+
+  \item \textbf{Front matter layout fixes}:
+    Roman numeral page numbering restored for front matter pages (title page,
+    abstract, changelog, table of contents). Title page footer suppressed.
+    Appendix separator page added with letter-based appendix numbering (A, B, C\ldots).
+    Motivated by: layout regression identified after Typst migration.
+
+\end{itemize}
+
+\subsection*{Corrections}
+
+\begin{itemize}
+
+  \item \textbf{PEM definition corrected from ``worsening'' to ``clearance failure'' framing}
+    (Ch.~2 core symptoms; Ch.~15 metabolic danger signals section; Ch.~16
+    criterion~2; Ch.~27 exertion crisis section; Ch.~14 treatment PEM management
+    section; appendix-a-terminology; patient-faq):
+    All definitions of PEM have been revised. The previous formulation---``a
+    disproportionate worsening of symptoms following exertion''---implied that
+    exertion itself triggers a pathological cascade, which contradicts the
+    framework's own analysis (Ch.~16 classifies PEM's deferred-cost architecture
+    as \emph{normal physiology exploited by broken restoration machinery}).
+    Definitions now read: ``the persistence and accumulation of post-exertion
+    byproducts --- metabolic waste, inflammatory mediators, oxidative damage ---
+    that healthy physiology clears within hours but ME/CFS physiology cannot.''
+    The Ch.~15 section introduction, which described PEM as a ``pathological
+    response to exertion,'' has been corrected to attribute pathology to the
+    failure of clearance mechanisms rather than to the exertion response itself.
+    Motivated by: internal consistency review identifying contradiction between
+    the PEM definitional language used throughout the document and the mechanistic
+    classification in Ch.~16.
+
+\end{itemize}
+
+\section*{Version 6 (2026-03-08 -- 2026-03-23)}
 
 \subsection*{New Content}
 
