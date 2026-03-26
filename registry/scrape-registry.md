@@ -18,6 +18,7 @@ Prevents re-processing of already-integrated content.
 | Source | Last Scraped | Notes |
 |--------|-------------|-------|
 | mecfsscience.org | 2026-03-21 | Critical ME/CFS research analysis blog by two long-term patients |
+| thespooniverse.org | 2026-03-26 | Patient-focused educational platform; treatment DB (75 entries), biomarker explorer (91), resource directory (1,000+) |
 
 ---
 
@@ -25,6 +26,8 @@ Prevents re-processing of already-integrated content.
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
+| https://www.thespooniverse.org/treatments | thespooniverse.org | 2026-03-26 | 2026-03-26 | ch18 |
+| https://www.thespooniverse.org/biomarkers | thespooniverse.org | 2026-03-26 | — | ch20 |
 | https://mecfsscience.org/immune-findings-in-me-cfs/ | mecfsscience.org | 2026-03-21 | 2026-03-21 (v6) | ch07, ch14b |
 | https://mecfsscience.org/decodeme-the-biggest-me-cfs-study-ever/ | mecfsscience.org | 2026-03-21 | 2026-03-22 | ch12 |
 | https://mecfsscience.org/genes-pointing-to-the-brain-decodeme-part-ii/ | mecfsscience.org | 2026-03-21 | 2026-03-22 | ch12 |
