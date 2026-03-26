@@ -205,6 +205,16 @@ Krebs cycle abnormalities:
     - Suggests impaired oxidative metabolism
     - Correlates with mitochondrial dysfunction hypothesis
 
+==== RBC Glutathione
+
+Reduced glutathione is among the most replicated specific oxidative stress findings in ME/CFS, documented in both erythrocytes and brain tissue. Shungu et al.\ (2012) found significantly reduced cortical glutathione via MRS, correlating with physical functioning and energy levels, with pilot data showing NAC normalized glutathione and symptoms @Shungu2012glutathione. Clinical audits of mitochondrial support protocols in ME/CFS patients consistently identify glutathione depletion as part of the oxidative stress profile @Myhill2012audit. Glutathione functions both as a biomarker of oxidative burden and as a treatment target: N-acetylcysteine (NAC) is used to replenish glutathione precursors.
+
+==== CoQ10 and Acylcarnitine Profile
+
+Coenzyme Q10 (CoQ10) deficiency has been documented in ME/CFS: Maes et al.\ (2009) found that 44.8% of patients had plasma CoQ10 below the lowest control value, with lower CoQ10 correlating with fatigue, autonomic, and neurocognitive symptoms ($n = 58$) @Maes2009CoQ10. CoQ10 has been proposed as both a biomarker of mitochondrial electron transport chain dysfunction and a marker of treatment response @CastroMarrero2021CoQ10.
+
+Acylcarnitine profiles reflect fatty acid beta-oxidation capacity via the carnitine shuttle. Long-chain acylcarnitines (C18:1, C18:2) are 30–40% lower in ME/CFS patients compared to controls, suggesting reduced carnitine palmitoyltransferase-I (CPT-I) activity and impaired mitochondrial fatty acid import @Reuter2011. Reduced free carnitine and total carnitine are also documented, correlating with functional capacity @Plioplys1995carnitine.
+
 === Synthesis of Metabolomic Findings
 
 ==== Common Patterns
@@ -258,6 +268,18 @@ When correlations are found:
     - Cytokine patterns may predict symptom clusters
     - Post-exertional changes in cytokines documented
 
+==== CCL2 (MCP-1) and Symptom Severity
+
+Montoya et al.\ (2017, $n = 192$) identified CCL2 (monocyte chemoattractant protein-1) among the cytokines most strongly correlating with ME/CFS symptom severity @Montoya2017. CCL2 drives monocyte and T-cell recruitment and reflects ongoing innate immune activation; its severity correlation makes it one of the stronger candidate immunological biomarkers from the cytokine literature.
+
+==== Neopterin: Macrophage Activation Marker
+
+Neopterin, a pteridine produced by macrophages in response to IFN-$gamma$ stimulation, has been reported elevated in ME/CFS cohorts @Maksoud2023. As a non-specific marker of IFN-$gamma$-driven macrophage activation, elevated neopterin is consistent with the type-I/II interferon evidence base in ME/CFS, though it has not been validated as a diagnostic marker.
+
+==== CRP and ESR: Diagnostically Informative Normal Findings
+
+C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR) are typically *normal* in ME/CFS despite significant symptom burden. This normal finding is itself diagnostically important: it distinguishes ME/CFS from active inflammatory conditions such as rheumatoid arthritis, systemic lupus erythematosus, and active infection, all of which produce CRP and ESR elevation. Clinicians frequently misinterpret normal CRP as evidence against organic disease; in ME/CFS, normal CRP is part of the expected biomarker profile rather than a disconfirmatory finding @Maksoud2023.
+
 === Cell Function Markers
 
 ==== NK Cell Activity
@@ -282,6 +304,14 @@ NIH study findings highlight B cell importance:
     - Naïve/memory B cell ratio shift
     - Chronic antigenic stimulation pattern
     - Potential autoantibody-producing populations
+
+==== IgG Subclass Panel
+
+IgG subclass deficiency, particularly IgG3 deficiency, is found in a subset of ME/CFS patients and is clinically actionable: documented subclass deficiency can inform consideration of IVIG supplementation in refractory cases @Maksoud2023. Testing includes IgG1–IgG4 quantification; IgG3 is the primary antiviral subclass and may reflect impaired antiviral immune responses.
+
+#limitation(title: [IgG Subclass Deficiency in ME/CFS: Prevalence Uncertain])[
+The prevalence of IgG subclass deficiency in ME/CFS is not firmly established; studies are small and heterogeneous. Subclass deficiency alone does not constitute a diagnostic biomarker for ME/CFS. Clinical decisions regarding IVIG based on subclass deficiency require full immunological evaluation and specialist input.
+]
 
 === Mast Cell Mediator Biomarkers
 <subsec:mast-cell-biomarkers>
@@ -355,6 +385,9 @@ A future biomarker validation study could examine: serum vs CSF homocysteine, MT
 serum and CSF B12, and clinical fatigue severity scores simultaneously across ME/CFS, long-COVID,
 and healthy control populations.
 
+*Serum Homocysteine and Methylmalonic Acid (MMA)*
+Serum homocysteine and methylmalonic acid (MMA) complete the B12/folate/methylation picture begun by the CSF finding above. Elevated serum homocysteine indicates impaired methylation, which may arise from B12 deficiency, folate deficiency, or MTHFR gene variants. MMA is the functional marker of cellular B12 deficiency: serum B12 concentrations can appear normal while tissue-level deficiency exists, but elevated MMA unmasks this functional shortfall. Both markers are accessible via standard laboratory testing and provide direct mechanistic context for the CSF homocysteine finding reported by Regland et al.\ @Regland1997.
+
 === Autonomic Function Tests
 
 Quantifiable autonomic biomarkers:
@@ -363,6 +396,10 @@ Quantifiable autonomic biomarkers:
     - *Heart rate variability*: Multiple parameters
     - *Sudomotor function*: QSART abnormalities
     - *Pupillometry*: Altered light reflexes
+
+==== Renin and Aldosterone: RAAS Dysregulation
+
+Renin-angiotensin-aldosterone system (RAAS) dysregulation is documented in POTS and ME/CFS, typically presenting as low renin with low-to-normal aldosterone despite evidence of reduced circulating volume — a paradoxical failure of the normal compensatory RAAS response @Miwa2017 @Raj2005. This pattern contributes to orthostatic intolerance and is clinically actionable: fludrocortisone (a mineralocorticoid) targets the aldosterone pathway to augment sodium retention and expand plasma volume. Paired plasma renin activity and serum aldosterone, interpreted together with orthostatic testing results, constitute useful biomarkers in the autonomic evaluation of ME/CFS patients with prominent orthostatic intolerance.
 
 === Cognitive Testing Patterns
 
@@ -450,6 +487,38 @@ Proteomics status:
     - Potential for panel-based diagnosis
     - Autoantibody testing closest to clinical use
 
+=== Coagulation and Microclot Biomarkers
+<subsec:coagulation-biomarkers>
+
+Coagulation system dysregulation has emerged as an active area of ME/CFS biomarker research, driven primarily by Pretorius and colleagues' identification of fibrin amyloid microclots in Long COVID and ME/CFS. Nunes et al.\ (2022) demonstrated hyperactivated platelets and fibrinaloid microclots in ME/CFS plasma, with microclot area more than 10-fold greater than in healthy controls and approximately 80% of participants showing platelet hyperactivation @Nunes2022microclots. Proteomics analysis further revealed dysregulation of the coagulation cascade, endothelial dysfunction markers, and complement machinery @Nunes2024coagulation.
+
+Key candidate coagulation biomarkers:
+
+    - *D-Dimer*: Elevated in a subset of ME/CFS patients; reflects fibrin degradation and microclot turnover
+    - *PAI-1 (plasminogen activator inhibitor-1)*: Elevated PAI-1 impairs fibrinolysis, allowing microclot persistence in the microvasculature
+    - *Von Willebrand Factor (VWF)*: Marker of endothelial activation; elevated in endothelial injury
+    - *Fibrinogen*: Precursor to fibrin microclots; elevated levels support clot formation propensity
+    - *Soluble P-Selectin*: Platelet and endothelial activation marker; elevated in ME/CFS in some studies
+
+#limitation(title: [Microclot Hypothesis: Replication Pending])[
+The fibrin amyloid microclot hypothesis is an active but not-yet-fully-replicated research area. Studies to date involve small cohorts, and the microclot detection methodology (fluorescence microscopy of platelet-poor plasma) requires standardization. The causal relationship between microclots and ME/CFS symptoms remains to be established. These biomarkers should not be used for clinical diagnosis outside of research settings.
+]
+
+=== Viral Reactivation Biomarkers
+<subsec:viral-reactivation-biomarkers>
+
+Viral reactivation testing serves two roles in ME/CFS: differential diagnosis (distinguishing active infection from post-infectious ME/CFS) and ongoing surveillance of viral persistence or reactivation as a disease driver. The Montoya group documented HHV-6 and EBV reactivation in subsets of ME/CFS patients, with antiviral treatment trials based on this rationale @Montoya2017.
+
+Key viral reactivation biomarkers:
+
+    - *EBV VCA IgG*: Epstein-Barr virus viral capsid antigen antibody; elevated in prior infection (near-universal). *EA-D IgG* (early antigen): Elevated titers suggest recent reactivation. *EBNA IgG* (nuclear antigen): Typically present after resolved primary infection; low or absent EBNA with high VCA suggests atypical or reactivated infection.
+    - *HHV-6 IgG and IgM*: Human herpesvirus-6 serology; IgM elevation or rising IgG titers indicate reactivation. PCR (plasma or PBMC) is more specific for active replication but less sensitive for latent/chromosomally integrated HHV-6.
+    - *SARS-CoV-2 Nucleocapsid IgG*: Distinguishes prior infection from vaccination-only immunity (vaccines generate spike antibodies only; nucleocapsid antibodies arise only from infection). This distinction is clinically relevant in Long COVID/ME/CFS overlap cases to confirm SARS-CoV-2 as the triggering infection.
+
+#limitation(title: [Viral Serology: Specificity and Interpretation Challenges])[
+EBV and HHV-6 serology has poor specificity for active reactivation: the vast majority of adults are seropositive for both viruses, and antibody titers fluctuate widely without clinical disease. PCR is more specific for active replication but is insensitive for latent or chromosomally integrated virus (ciHHV-6). No standardized threshold distinguishes clinically significant reactivation from background seropositivity. Viral reactivation testing should be interpreted alongside clinical context and not used as a standalone diagnostic criterion.
+]
+
 == Composite Biomarker Panels
 <sec:composite-biomarkers>
 
@@ -519,6 +588,27 @@ Standardized neuropsychological assessment:
     - Attention tests (e.g., continuous performance tasks)
     - Pattern of deficits may distinguish from depression
     - Sensitive to post-exertional cognitive deterioration
+
+== Clinical Workup Biomarkers: Exclusion and Comorbidity
+<sec:clinical-workup-biomarkers>
+
+A critical category of biomarkers in ME/CFS evaluation are those used not to diagnose ME/CFS but to: (a) exclude common mimics, (b) identify actionable comorbidities, and (c) complete the diagnostic picture. Normal results from these tests are informative and expected in ME/CFS; abnormal results identify conditions requiring independent management.
+
+=== Thyroid Function Panel
+
+Thyroid function assessment (TSH, Free T3, Free T4) is mandatory in any ME/CFS workup to exclude hypothyroidism, the most important and common mimic of ME/CFS fatigue. Hashimoto's thyroiditis (identified by elevated thyroid peroxidase antibodies, TPO-Ab) represents both a mimic and a comorbidity: it can coexist with ME/CFS without causing the full symptom profile, and its identification enables targeted management. Thyroid function is typically normal in ME/CFS; however, normal thyroid function is a necessary component of diagnostic certainty rather than a dismissible negative finding.
+
+=== Ferritin (Iron Stores)
+
+Iron deficiency, defined by low serum ferritin even with normal hemoglobin and serum iron, is a common, actionable, and frequently missed contributor to fatigue. Standard laboratory reference ranges for ferritin (typically $gt.eq 12$--15 ng/mL) are insufficiently sensitive for symptom-resolution purposes: most ME/CFS-experienced clinicians use a functional target of $gt.eq 50$ ng/mL for ferritin, consistent with evidence that symptoms persist in iron-deficient states below this level. Ferritin should be included in all ME/CFS workups; iron repletion to this target is low-risk and may provide meaningful symptom benefit in deficient patients.
+
+=== Vitamin D (25-OH Vitamin D)
+
+Vitamin D deficiency is highly prevalent in ME/CFS, exacerbated by activity limitations, indoor confinement, and sun avoidance. 25-OH vitamin D has immune-modulating effects mechanistically relevant to ME/CFS pathophysiology, including regulation of T-cell function and cytokine production. Standard thresholds apply: deficiency $lt$ 20 ng/mL, insufficiency 20--29 ng/mL. Correction of deficiency is recommended as standard of care.
+
+#limitation(title: [Vitamin D Supplementation: No Consistent Symptom Improvement in ME/CFS])[
+Despite the biological plausibility and high prevalence of deficiency, supplementation trials in ME/CFS have not demonstrated consistent improvement in core ME/CFS symptoms (fatigue, PEM, cognitive dysfunction) beyond correction of deficiency-related general health effects. Vitamin D correction is warranted for general health but should not be presented to patients as a primary ME/CFS treatment.
+]
 
 == Biomarker Validation and Standardization
 <sec:biomarker-validation>
