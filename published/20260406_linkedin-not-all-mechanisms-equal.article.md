@@ -24,9 +24,9 @@ The first is precipitant compatibility: the mechanism must be triggerable by kno
 
 The second is energy collapse sufficiency. The mechanism must alone be capable of producing post-exertional malaise, the cardinal feature. PEM is not mere fatigue; it is the persistence and accumulation of post-exertion byproducts — metabolic waste, inflammatory mediators, oxidative damage — that healthy physiology clears within hours but ME/CFS physiology cannot, producing a characteristic symptom worsening with a latency of 12–72 hours and a duration that can extend for days or weeks. A proposed root cause must explain that specific pattern, not fatigue in general [Ch. 16 §Trigger-Capable Mechanisms].
 
-Third, chronicity: the mechanism must explain why ME/CFS persists for years or decades. Many acute processes — inflammation, metabolic stress, hormonal disruption — are inherently self-limiting in healthy physiology, so a root cause must either be self-perpetuating or must create conditions that prevent normal resolution.
+Third, chronicity: the mechanism must explain why ME/CFS persists for years or decades. Many acute processes — inflammation, metabolic stress, hormonal disruption — are inherently self-limiting in healthy physiology, so a root cause must either be self-perpetuating or must create conditions that prevent normal resolution [Ch. 16 §Trigger-Capable Mechanisms].
 
-Fourth, multi-system spread. ME/CFS is not a disease of any single system, so any root cause must have a plausible path to producing dysfunction across neurological, immunological, cardiovascular, endocrine, and gastrointestinal domains, whether directly or through downstream cascading.
+Fourth, multi-system spread. ME/CFS is not a disease of any single system, so any root cause must have a plausible path to producing dysfunction across neurological, immunological, cardiovascular, endocrine, and gastrointestinal domains, whether directly or through downstream cascading [Ch. 16 §Trigger-Capable Mechanisms].
 
 These criteria are filters, not proof. A mechanism that passes all four is a *candidate* root cause; multiple mechanisms may pass, and which of them actually triggered a given patient's disease is a separate question.
 

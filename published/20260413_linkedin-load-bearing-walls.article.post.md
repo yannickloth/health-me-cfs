@@ -1,0 +1,11 @@
+In construction, a load-bearing wall supports the structure — remove it and the building collapses, whereas removing a non-load-bearing wall improves the interior without changing the structure at all.
+
+ME/CFS has the equivalent. The disease is maintained by multiple self-reinforcing mechanisms, but most of them are not structural in this sense. A load-bearing lock is one whose removal is necessary for escape from the disease state. A secondary lock worsens symptoms and slows recovery, but the disease can sustain itself without it; treating it improves the patient's experience within the disease without creating a path out.
+
+The framework assesses two mechanisms as load-bearing — meaning necessary for disease maintenance under the model, not confirmed by clinical trials. Epigenetic consolidation: the disease gene-expression program becomes stabilised at the chromatin level — cells continue expressing it not because they're still receiving the signal, but because it's been encoded in the gene regulation layer above the DNA sequence (epigenetic marks are in principle reversible, but not by the same processes that resolve acute inflammation). GPCR autoantibody persistence: in patients who have it, as long as plasma cells keep producing autoantibodies, the downstream dysfunction is maintained regardless of what else you treat. Oxidative stress, sleep fragmentation, viral reactivation, gut dysbiosis are real and worth treating — and in the absence of validated structural treatments, they remain the primary available clinical priority for most patients. The framework assesses them as non-load-bearing, not as unimportant.
+
+The counterintuitive implication is that secondary locks often produce the most immediately visible symptoms, while load-bearing locks — particularly epigenetic consolidation — often produce no direct perceptible signal. The mechanisms that hurt most are often secondary; the mechanisms that maintain the disease often produce no direct symptom. There is a systematic mismatch between symptom salience and structural importance.
+
+Full article below. Part 3 of a series on the causal hierarchy in ME/CFS.
+
+#MECFS #MyalgicEncephalomyelitis #ChronicFatigueSyndrome #LongCOVID #PostInfectiousDisease #Immunology #EpigeneticMedicine #PatientAdvocacy #MedicalResearch #InvisibleIllness #OpenAccess
