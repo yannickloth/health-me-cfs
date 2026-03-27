@@ -1,0 +1,33 @@
+date: 2026-03-26
+
+symptoms:
+  fatigue_level: "low"
+  fatigue_notes: >
+    Feeling good in early morning, not particularly tired.
+  pem_active: false
+  pem_notes: >
+    Day 3 post-exertion (garden work 2026-03-23). No apparent PEM symptoms.
+  cognitive_status: null
+  nausea: null
+  headache: null
+  orthostatic_intolerance: null
+  pain_arms: null
+
+sleep:
+  quality: null
+  sleep_notes: null
+
+medications_supplements:
+  taken_as_planned: true
+  all_taken: true
+  vitamin_c_discontinued: true
+  vitamin_c_notes: >
+    Supply exhausted; patient will stop taking Vitamin C.
+
+notes: >
+  Good start to the day. Feeling well with low fatigue in early morning.
+  Day 3 post-exertion from garden work on 2026-03-23 — appears to have
+  recovered, contrasting with yesterday's moderate fatigue (likely
+  sleep-deprivation-driven rather than PEM given today's improvement).
+  All medications and supplements taken. Evening doses (1 famotidine, 1 rupatall,
+  1 B2) taken as planned. Vitamin C discontinued (supply exhausted).
