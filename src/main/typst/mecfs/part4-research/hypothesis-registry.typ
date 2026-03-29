@@ -836,6 +836,20 @@ Methods available; careful timing required for serotonin assay.
 &
 Ch.11 @sec:gut-brain-axis \
 
+Bidirectional Serotonin Dysregulation in ME/CFS
+(@spec:bidirectional-serotonin)
+&
+[S], [0.25],
+&
+(a) Regional serotonin mapping (PET with selective 5-HT1A ligand) shows raphe hyperactivity coexisting with cortical hyposerotonergia in ME/CFS.
+(b) 5-HT1A autoreceptor binding potential is reduced in ME/CFS vs controls.
+(c) SSRI response heterogeneity correlates with regional serotonin tone measurements.
+&
+5-HT1A PET (e.g., [11C]WAY-100635) + tryptophan/kynurenine metabolomics in same cohort; stratified SSRI response analysis.
+Methods available but expensive; requires radioligand PET facility.
+&
+Ch.8 @obs:serotonin \
+
 Wheat-Primed Exercise Intolerance
 (@spec:wheat-primed-exercise)
 &
@@ -1015,6 +1029,71 @@ Standard immunology and vascular physiology equipment; $n gt.eq 20$ for
 correlation analysis.
 &
 Ch.10 @sec:igg-endothelial \
+
+Bradykinin Spillover as the Mechanism of RAAS Suppression
+(@hyp:bradykinin-raas)
+&
+[H], [0.50],
+&
+(a) Systemic bradykinin or kallikrein levels elevated in ME/CFS at rest; rise disproportionately after exertion.
+(b) KKS blockade (icatibant) restores RAAS upregulation during orthostatic challenge.
+(c) RAAS suppression magnitude correlates with muscular hypoperfusion severity (NIRS/iCPET).
+&
+Plasma bradykinin ELISA pre/post exercise; icatibant challenge with renin/aldosterone monitoring; NIRS during tilt.
+&
+Ch.10 @sec:blood-volume \
+
+Calcium Toxicity as the Primary PEM Mechanism
+(@hyp:calcium-pem)
+&
+[H], [0.50],
+&
+(a) Intracellular calcium elevated in ME/CFS muscle during PEM (#super[31]P-MRS or biopsy).
+(b) Post-exercise sodium accumulation (Wirth-Scheibenbogen MRI) predicts PEM severity dose-dependently.
+(c) MDC002 (Na#super[+]/K#super[+]-ATPase stimulator) reduces or eliminates PEM.
+&
+Sodium MRI pre/post exercise; calcium-sensitive probes in muscle biopsy; MDC002 clinical trial.
+&
+Ch.6 @sec:calcium-dysregulation \
+
+Low CO#sub[2] as Consequence of Impaired Muscular Respiration
+(@hyp:co2-consequence)
+&
+[H], [0.50],
+&
+(a) ME/CFS patients with normal muscular O#sub[2] extraction (iCPET) have normal ETCO#sub[2].
+(b) Respiratory rate is normal while respiratory depth is increased (hyperpnea not tachypnea).
+(c) ETCO#sub[2] correlates with disease severity and orthostatic CO#sub[2] drop predicts functional capacity.
+&
+Simultaneous iCPET with capnography; respiratory plethysmography for tidal volume vs.\ rate; tilt-table with ETCO#sub[2] monitoring.
+&
+Ch.17 @sec:breathing-co2 \
+
+Exercise Chunking Works by Staying Below the Calcium Toxicity Threshold
+(@spec:exercise-calcium-threshold)
+&
+[S], [0.40],
+&
+(a) Continuous vs.\ chunked equal-work sessions produce different PEM severity.
+(b) Intracellular sodium returns to baseline during supine rests (sodium MRI).
+(c) Compression stockings extend tolerable bout duration.
+&
+Within-subjects crossover: continuous vs.\ chunked exercise with PEM tracking; repeated sodium MRI during rest intervals.
+&
+Ch.6, Ch.17 @sec:klimas-program \
+
+Na#super[+]/K#super[+]-ATPase Failure Links PEM and MCAS Flares
+(@spec:pump-mcas)
+&
+[S], [0.30],
+&
+(a) Mast cells from ME/CFS patients show elevated intracellular sodium (fluorescent dyes).
+(b) MDC002 reduces both PEM severity and MCAS flare frequency.
+(c) Mast cell stabilisers (cromolyn) provide modest PEM benefit.
+&
+Isolated mast cells + sodium-sensitive dyes; MDC002 trial with MCAS symptom tracking; cromolyn crossover with PEM diary.
+&
+Ch.14d @spec:pump-mcas \
 
 // ============================================================
 // DOMAIN 8 – INTEGRATIVE / MULTI-SYSTEM
@@ -1455,15 +1534,304 @@ Ch.18 @subsubsec:tms-mecfs \
 )
 */
 
+=== Entry Added 2026-03-27: Post-Viral Encephalitis and Autoimmune Template
+
+Motivated by: OMF Canada article on Bergquist/Westman HSE research program; Nääs et al. 2023 CSF proteomics; Westman et al. 2016/2018/2021/2025 NMDAR autoimmunity series.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Viral Encephalitis as Mechanistic Template for Post-Infectious ME/CFS],
+    [H], [0.45],
+    [HSE $arrow.r$ NMDAR autoimmunity $arrow.r$ persistent neurocognitive dysfunction sequence generalises to ME/CFS triggers. (a) ME/CFS patients with higher acute NFL should have worse outcomes. (b) Subclinical neuroinflammation markers should precede autoantibody development. (c) Early immunomodulation post-infection should reduce NMDAR autoantibody incidence. (d) ME/CFS from neurotropic triggers should show higher autoantibody prevalence than non-neurotropic triggers.],
+    [NFL already measured in HSE (Westman 2021); needs replication in ME/CFS onset cohorts. CSF autoantibody testing feasible. OMF Harvard 160-patient trial (LDN + pyridostigmine) ongoing. PhIP-Seq predictive biomarker (OR 209, Westman 2025) identifies at-risk HSE patients.],
+    [Ch.7 @hyp:hse-mecfs-template],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entry from OMF Canada HSE research integration (2026-03-27).],
+) <tab:hypothesis-registry-2026-03-27>
+] // end landscape page
+
+=== Entries Added 2026-03-27: Neuroplasticity Agents and Brain Rewiring
+
+Motivated by: systematic research on lithium, valproate, anticonvulsants, and thyroid hormones as neuroplasticity-modifying agents; integration with existing kindling hypothesis and Low T3 Syndrome.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Pharmacological Critical Period Reopening for ME/CFS Circuit Reset],
+    [S], [0.30],
+    [HDAC inhibition (valproate) or GSK-3$beta$ inhibition (lithium) creates transient neuroplasticity windows enabling circuit reorganization. (a) VPA/lithium + anti-neuroinflammatory produces >30% CSI reduction vs $lt$15% anti-inflammatory alone. (b) PET shows greater microglial activation reduction with combination. (c) Improvements during plasticity windows show greater post-withdrawal persistence.],
+    [Gervain 2013 RCT proved critical period reopening in healthy adults (absolute pitch). No replication. No pathological state testing. Clinical trial design complex (window + guide timing).],
+    [Ch.8 @spec:critical-period-reopening],
+
+    [Low-Dose Lithium as Neuroprotective Agent in ME/CFS],
+    [S], [0.40],
+    [Lithium at 40--45 mg/day (serum 0.18--0.49 mEq/L) provides BDNF upregulation, microglial modulation, and autophagy enhancement. (a) Cognitive testing improves at 8--12 weeks. (b) Serum BDNF increases. (c) Grey matter volume stable or increased at 6--12 months.],
+    [Long COVID RCT (Guttuso 2024, JAMA Network Open) showed dose-dependent effect at 40--45 mg/day. Lithium orotate available OTC but lacks pharmacokinetic data. No ME/CFS-specific trial. Nature 2025: lithium depleted in MCI brains.],
+    [Ch.8 @spec:low-dose-lithium],
+
+    [T3-BDNF-Microglial Vicious Cycle in ME/CFS],
+    [S], [0.40],
+    [Low T3 $arrow.r$ reduced BDNF $arrow.r$ loss of PI3K-Akt inhibition $arrow.r$ M1 microglial polarization $arrow.r$ cytokines suppress DIO2 $arrow.r$ lower T3. Self-perpetuating attractor state. (a) T3 supplementation reduces IL-6/TNF-$alpha$ at 8--12 weeks. (b) BDNF increases proportionally to free T3 improvement. (c) DIO2 Thr92Ala carriers show greater cognitive T3 response.],
+    [Animal models support each link individually (Ge 2024, Chamas 2024). Complete cycle not demonstrated in ME/CFS. DIO2 polymorphism testable (~50% carrier rate). Ruiz-N\'u\~nez 2018 documented Low T3 in ME/CFS (n=98).],
+    [Ch.9 @spec:t3-bdnf-microglial-cycle],
+
+    [Lithium + T3 Dual Neuroplasticity Restoration],
+    [S], [0.30],
+    [Complementary grey matter (lithium/GSK-3$beta$) + white matter (T3/myelination) repair. T3 compensates lithium's thyroid suppression. (a) Combination produces $gt.eq$ 2-point MoCA improvement over 12 weeks. (b) TSH stays in range due to T3 compensation. (c) Greater improvement than either alone.],
+    [No precedent for this specific combination in any neurological condition. Both agents individually well-characterized. Sequential titration (T3 first) required. Combined cardiac monitoring essential.],
+    [Ch.14i @spec:lithium-t3-combo],
+
+    [Levetiracetam as Disease-Modifying Anti-Kindling Agent],
+    [S], [0.35],
+    [SV2A modulation provides anti-kindling + anti-neuroinflammation + cognitive sparing. (a) PEM threshold increases at 6 months. (b) Crash severity decreases. (c) Threshold gains maintained $gt.eq$ 3 months post-discontinuation (true disease modification).],
+    [Anti-kindling persistence post-discontinuation proven in animal epilepsy models (Lynch 2004). Superior microglial suppression vs VPA and CBZ (Itoh 2019). "Keppra rage" (13--17%) limits tolerability; brivaracetam as alternative.],
+    [Ch.14i @spec:levetiracetam-anti-kindling],
+
+    [Gabapentinoid Anti-Synaptogenesis for Central Sensitization],
+    [S], [0.30],
+    [$alpha$2$delta$-1/thrombospondin blockade prevents pathological excitatory synaptogenesis. (a) High-CSI patients show greater pregabalin response. (b) Response correlates with thrombospondin levels. Long-term dementia risk signals (29--40% increase at 6--12+ prescriptions) raise safety concerns.],
+    [Pregabalin FDA-approved for fibromyalgia. Gabapentin survey in ME/CFS (n=119): 34 moderate/major improvement. Dementia risk data from observational studies (confounding by indication possible). Thrombospondin measurement not routine.],
+    [Ch.14i @spec:gabapentinoid-synaptogenesis],
+
+    [ME/CFS as Pathological Attractor State (Dynamical Systems Model)],
+    [S], [0.35],
+    [Multiple self-reinforcing feedback loops (kindling, T3 depletion, microglial priming, epigenetic silencing) create a pathological attractor. (a) Targeting < critical fraction of loops produces no benefit; above critical fraction produces disproportionate improvement. (b) Predicts nonlinear dose-response and threshold effects in multi-agent trials. (c) Explains consistent failure of single-agent trials.],
+    [Mathematical modeling (attractor dynamics) feasible. Requires multi-parameter longitudinal data to fit. Conceptually extends Ch.30 integrated systems modeling. Testable via systematic combination trial designs.],
+    [Ch.14i @spec:attractor-landscape],
+
+    [Selenium Autoantibody-Defined Subgroup with Impaired Neuroplasticity],
+    [S], [0.25],
+    [9.6--15.6% of ME/CFS patients with selenium autoantibodies may have autoimmune-mediated DIO2 impairment creating brain-specific T3 deficit. (a) Autoantibody-positive patients show worse cognition at equivalent serum T3. (b) T3 produces greater cognitive response than T4 in autoantibody-positive subgroup.],
+    [Selenium autoantibodies documented in one study. DIO2 is selenoprotein. Subgroup stratification testable. No intervention trial targeting this mechanism.],
+    [Ch.9 @spec:selenium-neuroplasticity],
+
+    [Staged Multi-Target Neuroplasticity Protocol],
+    [S], [0.20],
+    [Sequential targeting of T3 loop, anti-kindling, and neuroprotection may produce nonlinear (attractor-destabilizing) benefit. Research direction for factorial trial design.],
+    [No precedent. Conceptual scaffold from attractor model. Specific dosing undetermined. Safety of multi-agent combinations unknown.],
+    [Ch.14i @spec:layer-cake-protocol],
+
+    [Pyridostigmine + T3 + Lithium Triple-Target for Autonomic-Primary ME/CFS],
+    [S], [0.30],
+    [Three agents at three anatomical levels: peripheral effector (pyridostigmine), axonal myelination (T3), central neuroprotection (lithium). (a) Combination > monotherapy for orthostatic tolerance improvement.],
+    [Framing oversimplified (see limitations). Never tested in any condition. Pyridostigmine RCT exists for ME/CFS @Joseph2022pyridostigmine; T3 and lithium unvalidated in ME/CFS.],
+    [Ch.14i @spec:triple-autonomic],
+
+    [Pyridostigmine as Anti-Kindling Agent by Proxy],
+    [S], [0.20],
+    [Autonomic stabilization reduces daily kindling trigger load (fewer autonomic crises $arrow.r$ fewer microglial priming events). (a) Patients on chronic pyridostigmine show slower PEM threshold decline over 6--12 months.],
+    [Inferred from combining kindling hypothesis with pyridostigmine's autonomic mechanism. No direct evidence. LIFT trial cognitive outcomes may provide indirect evidence.],
+    [Ch.15 @spec:pyridostigmine-anti-kindling],
+
+    [Subclinical Neuroinflammation Without Overt Neuronal Injury],
+    [S], [0.30],
+    [Post-viral microglial activation can occur without neuronal damage sufficient to elevate NfL. CSF proteomics in ME/CFS would reveal HSE-like pathway activation signatures despite normal NfL. Falsified if ME/CFS CSF proteomics show no overlap with Naas et al.\ HSE signature.],
+    [Omdal 2026 null NfL in long COVID; Naas 2023 HSE proteomics; Westman 2021 NFL-NMDAR link. No ME/CFS CSF proteomic study has tested this.],
+    [Ch.8 @spec:subclinical-neuroinflammation],
+
+    [Circadian Resynchronization as Multi-System Intervention],
+    [S], [0.30],
+    [Chronotherapy (timed light + melatonin + activity scheduling) in ME/CFS with documented circadian disruption improves $>=$ 2 non-sleep outcome domains beyond sleep improvement alone. Falsified if chronotherapy normalises sleep without improving non-sleep circadian outputs.],
+    [Castro-Marrero 2021 melatonin+zinc RCT only trial. No multi-modal chronotherapy trial in ME/CFS. Circadian flattening also occurs in depression and fibromyalgia.],
+    [Ch.9 @spec:circadian-resynchronization],
+
+    [Hormonal Intervention as Disease-Modifying Strategy],
+    [OQ], [---],
+    [Could timely HRT or androgen supplementation prevent or mitigate ME/CFS progression in susceptible individuals? Prospective cohort tracking hormonal status before ME/CFS onset, or RCT of HRT in perimenopausal ME/CFS patients, needed.],
+    [Boneva 2015 early menopause finding (11 years earlier than controls). Correlational only. No prospective or interventional data.],
+    [Ch.9 @oq:hormonal-disease-modification],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from neuroplasticity agents research and brain rewiring integration (2026-03-27). Covers lithium, valproate, anticonvulsants, thyroid hormones, attractor dynamics, and Round 2 review additions (subclinical neuroinflammation, circadian resynchronization, hormonal disease modification).],
+) <tab:hypothesis-registry-2026-03-27-neuro>
+] // end landscape page
+
+#page(flipped: true)[
+#figure(
+  table(
+    columns: (3fr, 0.3fr, 0.4fr, 5fr, 3fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation*], [*Type*], [*Cert.*],
+      [*Testable Prediction (condensed)*], [*Available Tests / Status*],
+      [*Location*],
+    ),
+
+    [Shared Neuroinflammatory Cascade as Generator of ADHD/ASD/Depression],
+    [S], [0.35],
+    [Chronic microglial activation in mesolimbic, thalamocortical, and prefrontal circuits produces ADHD-like, ASD-like, and depressive phenotypes secondarily. (a) Anti-neuroinflammatory interventions (LDN, anti-cytokine) should partially reverse secondary neuropsychiatric phenotypes independently of fatigue improvement. (b) Psychiatric symptom severity should correlate with PET-measured neuroinflammation in relevant circuits.],
+    [PET neuroinflammation imaging available (Nakatomi 2014 paradigm). LDN trials ongoing but do not measure ADHD/ASD/depression endpoints separately from fatigue. Requires add-on psychiatric outcome measures in existing anti-inflammatory trial designs.],
+    [Ch.14d @spec:neuroinflammation-cascade-generator],
+
+    [Dopaminergic Tonic Depletion as Generator of ADHD-Like Phenotype in ME/CFS],
+    [H], [0.45],
+    [Chronic dopaminergic depletion (IDO pathway, metabolic constraint, HPA hypocortisolism) produces tonic effort-invigoration deficit distinct from primary ADHD. (a) Stimulant response should be uniform and dose-linear (tonic depletion) vs.\ variable (primary ADHD incentive salience). (b) CSF HVA should predict stimulant response magnitude. (c) Inattention severity should correlate with inflammatory markers.],
+    [CSF HVA data from Walitt 2024 (n=17). Vernon 2025 PNAS survey: 77.1% brain fog improvement with stimulants. No study has compared stimulant response curves in ME/CFS vs.\ primary ADHD. Falsification: if response profile matches primary ADHD variability pattern.],
+    [Ch.14d @hyp:dopamine-adhd-secondary],
+
+    [Interoceptive Hierarchy Failure as Generator of Autism-Like Features in ME/CFS],
+    [S], [0.30],
+    [Thalamocortical disruption generates persistent unresolvable prediction errors; compensatory prior-precision increase produces acquired sensory rigidity, alexithymia, and social withdrawal. (a) ASD-like features should correlate with neuroinflammatory markers. (b) ASD-like features should worsen during PEM and improve during remission. (c) Features should be more context-dependent than primary ASD.],
+    [Interoceptive accuracy paradigms (heartbeat detection) available. No study has measured ASD-trait stability across PEM cycles in ME/CFS. Requires longitudinal experience-sampling with inflammatory biomarkers.],
+    [Ch.14d @spec:interoceptive-asd-secondary],
+
+    [Failed Body-Wandering as Pathway to ME/CFS-Secondary Depression],
+    [S], [0.40],
+    [Corrupted interoceptive hierarchy generates unresolvable prediction errors; brain accumulates evidence of allostatic self-inefficacy (Stephan 2016). Depression is rational Bayesian inference from corrupted information, not primary mood disorder. (a) Depression severity should correlate with interoceptive prediction error markers (HRV, interoceptive accuracy) more than rumination scores. (b) Anti-inflammatory interventions should reduce depression independently of psychotherapy.],
+    [Banellis 2025 (N=536) established body-wandering dimension and paradoxical protective effect. No ME/CFS body-wandering study exists. Heartbeat detection + inflammatory markers + depression scales in ME/CFS cohort would test directly.],
+    [Ch.14d @spec:body-wandering-depression],
+
+    [Can Neuroinflammation Treatment Reverse Secondary Neuropsychiatric Phenotypes?],
+    [OQ], [—],
+    [Does LDN or anti-inflammatory treatment reduce ADHD symptom scores, interoceptive rigidity, or depressive affect in ME/CFS independently of fatigue improvement? Tractable add-on to existing LDN trial designs.],
+    [Current LDN trials do not separate psychiatric from fatigue endpoints. Requires ADHD rating scales and depression instruments as secondary outcomes in anti-inflammatory trials.],
+    [Ch.14d @oq:neuroinflammation-reversal],
+
+    [Does Habitual Body-Wandering Predict ME/CFS Onset or Trajectory?],
+    [OQ], [—],
+    [Pre-illness body-wandering capacity may predict whether post-infectious fatigue resolves or becomes chronic. Low baseline body-wandering $arrow.r$ greater depression vulnerability; hypervigilant body-wandering $arrow.r$ greater symptom amplification.],
+    [Testable in post-infection cohort studies with pre-illness cognitive phenotyping. Banellis CCA protocol is freely available. No ME/CFS application yet.],
+    [Ch.14d @oq:body-wandering-mecfs-predictor],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from ADHD/ASD/depression as secondary ME/CFS manifestations and body-wandering integration (2026-03-27). Covers neuroinflammatory cascade, dopaminergic depletion, interoceptive hierarchy failure, and body-wandering protective paradox.],
+) <tab:hypothesis-registry-2026-03-27-neurodevelopmental>
+] // end landscape page
+
+=== Entries Added 2026-03-27: Thyroid Hormone--Mitochondrial Axis
+
+#page(flipped: true)[
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Entry*], [*Type*], [*Cert.*], [*Testable Prediction*], [*Method*], [*Source*],
+    ),
+    // --- Row 1: Low Tissue T3 as Amplifier ---
+    [Low Tissue T3 as Amplifier of Mitochondrial Dysfunction in ME/CFS],
+    [H], [0.45],
+    [ME/CFS patients with Low T3 should show lower supercomplex content (blue native PAGE) than those with normal thyroid profiles; intramuscular T3 should be disproportionately reduced in SELENOP-aAb+ patients; T3 supplementation should increase mtDNA copy number and improve respirometry at 8--12 weeks.],
+    [Muscle biopsy + blue native PAGE; LC-MS/MS tissue T3; PBMCs respirometry (Seahorse); SELENOP-aAb stratification],
+    [Ch.6 @hyp:t3-mito-amplifier],
+
+    // --- Row 2: T2 open question ---
+    [Are T2 Levels Altered in ME/CFS?],
+    [OQ], [---],
+    [T2 levels should be reduced in ME/CFS patients with Low T3 Syndrome; T2 deficiency should correlate with exercise intolerance severity.],
+    [Serum/tissue T2 measurement by LC-MS/MS; correlation with CPET VO#sub[2]peak; exercise challenge protocol],
+    [Ch.9 @oq:t2-mecfs],
+
+    // --- Row 3: Selenoprotein P autoantibodies ---
+    [Selenoprotein P Autoantibodies as ME/CFS Subtype Marker],
+    [H (ach)], [0.55],
+    [SELENOP-aAb+ patients should respond preferentially to direct T3 (not T4); selenium supplementation should partially restore deiodinase indices in aAb+ subgroup.],
+    [SELENOP-aAb ELISA; T3 vs T4 supplementation trial stratified by aAb status; SPINA-GD index pre/post selenium],
+    [Ch.9 @ach:selenop-autoantibodies],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from thyroid hormone--mitochondrial axis integration (2026-03-27). Covers tissue T3 amplification of mitochondrial damage, T2 diiodothyronine gap, and selenoprotein P autoantibody subtyping.],
+) <tab:hypothesis-registry-2026-03-27-thyroid-mito>
+] // end landscape page
+
+=== Entries Added 2026-03-28: Circulating Cell-Free Mitochondrial DNA
+
+#page(flipped: true)[
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, center, left, left, left, left),
+    table.header(
+      [*Label*], [*Type*], [*Certainty*], [*Condensed prediction*], [*Methods*], [*Source*],
+    ),
+    [ccf-mtDNA as Long COVID vs ME/CFS distinguishing biomarker],
+    [S],
+    [0.25],
+    [ME/CFS, Long COVID, and healthy controls show divergent ccf-mtDNA trajectories at rest and post-exercise; falsified if resting ccf-mtDNA equivalently low in both conditions],
+    [qPCR ccf-mtDNA measurement in matched cohorts at rest and post-exercise],
+    [Ch.14d `spec:cfmtdna-distinguish`],
+
+    [Impaired mitophagy traps damaged mitochondria in Long COVID],
+    [H],
+    [0.35],
+    [Muscle biopsy from Long COVID patients with low ccf-mtDNA shows increased PINK1/Parkin co-localisation (stalled mitophagy); falsified if mitophagy markers normal despite low ccf-mtDNA],
+    [Muscle biopsy immunofluorescence for PINK1/Parkin + ccf-mtDNA measurement],
+    [Ch.6 `hyp:impaired-mitophagy-longcovid`],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from Matits et al.\ 2026 ccf-mtDNA integration (2026-03-28). Covers Long COVID vs ME/CFS mitochondrial dynamics divergence and impaired mitophagy hypothesis.],
+) <tab:hypothesis-registry-2026-03-28>
+] // end landscape page
+
+=== Entries Added 2026-03-29: Pain Mechanisms and Assessment
+
+Motivated by: comprehensive pain research synthesis including MCAM study (Fall 2024), Marshall 2010 pain characteristics, Lu 2025 assessment scales review, Baraniuk 2025 nociplastic framework.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [PEM-Driven Pain Amplification as Prominent ME/CFS Feature],
+    [H], [0.45],
+    [Pain worsens 8--72h post-exertion in ME/CFS but not FM-only; ASIC3/P2X4/TLR4 gene expression correlates with delayed pain scores in ME/CFS but not FM; CPM efficiency decreases post-exertionally in ME/CFS but not FM. Parsimonious alternative (FM + PEM without distinct mechanism) not yet excluded.],
+    [Partially supported by Barhorst 2022 meta-analysis ($d = 0.71$ delayed vs $d = 0.32$ acute) and Nijs 2012 gene expression data. Direct head-to-head ME/CFS vs FM-only comparison lacking. Barhorst pools ME/CFS and FM cohorts.],
+    [Ch.2 @hyp:ch02-pem-pain-amplification],
+
+    [ME/CFS Pain as Nociplastic-Neuropathic Hybrid],
+    [H], [0.40],
+    [SFN+ patients respond to peripheral nerve treatments (IVIG, immunotherapy); SFN- patients respond to centrally acting agents (LDN, NMDA antagonists, pregabalin); hybrid phenotype has worse pain outcomes than either alone; pain phenotype predicts treatment response. Note: FM also shows ~49% SFN prevalence; hybrid not unique to ME/CFS.],
+    [Stratified treatment trial by SFN biopsy status --- not yet done. SFN prevalence 30--80% supports substantial neuropathic subgroup. FM also has ~49% SFN (Grayston 2019). No trial has stratified by pain mechanism.],
+    [Ch.15 @hyp:ch15-nociplastic-neuropathic-hybrid],
+
+    [Pain Phenotype Predicts Treatment Response],
+    [S], [0.35],
+    [Neuropathic-predominant responds to IVIG/gabapentinoids; widespread-nociplastic responds to LDN/PEA; PEM-pain responds to pacing; headache-predominant responds to CGRP antagonists. Prospective phenotype-stratified treatment trial needed.],
+    [No phenotype-stratified pain treatment trial exists in ME/CFS. Retrospective analysis of existing trial data with pain subtyping may be feasible.],
+    [Registry-only (derived from Ch.15 phenotype discussion; no standalone #speculation environment in chapter)],
+
+    [Instrument Gap: Existing Pain Measures Miss PEM-Pain],
+    [OQ], [---],
+    [Standard instruments (MPQ, BPI, NRS) fail to capture PEM-delayed pain onset, activity-contingent exacerbation, and day-to-day variability driven by energy envelope violations. NINDS CDE Pain Subgroup explicitly flagged three unmet needs.],
+    [Psychometric validation study comparing standard instruments to ME/CFS-adapted pain diary in MCAM/You+ME cohorts. No ME/CFS-specific pain instrument exists.],
+    [Ch.2 @oq:pain-instrument-gap],
+
+    [Registry Harmonisation for Pain Subtyping],
+    [OQ], [---],
+    [MCAM + You+ME + UK ME/CFS Biobank + UK Biobank pain data can be harmonised for phenotype clustering; different registries should identify same cluster structure if pain subtypes are real.],
+    [Cross-registry analysis with common pain variables. Requires ontology mapping across instruments (BPI, PROMIS, MPQ, custom scales). Feasibility demonstrated in other chronic pain conditions.],
+    [Ch.20 @oq:registry-harmonisation-pain],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from pain mechanisms and assessment research synthesis (2026-03-29). Includes PEM-pain amplification, nociplastic-neuropathic hybrid model, pain phenotype stratification, and assessment instrument gaps.],
+) <tab:hypothesis-registry-2026-03-29>
+] // end landscape page
+
+
 === Full Harvest Statistics
 
-The complete document contains approximately *321 environments* of the
-four harvested types (updated 2026-03-07):
+The complete document contains approximately *330 environments* of the
+four harvested types (updated 2026-03-27):
 
-  - *Hypothesis:* $approx 136$ — Ch.9, 13, 14j, 18, 27, 29, 30 most dense.
-  - *Speculation:* $approx 76$ — Ch.14a–i, 14d, 15–19 most dense.
+  - *Hypothesis:* $approx 137$ — Ch.9, 13, 14d, 14j, 18, 27, 29, 30 most dense.
+  - *Speculation:* $approx 79$ — Ch.14a–i, 14d, 15–19 most dense.
   - *Prediction:* $approx 10$ — Ch.12 and Ch.14j primarily.
-  - *Open Question:* $approx 97$ — Ch.14a–h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
+  - *Open Question:* $approx 99$ — Ch.14a–h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
   - *Keypoint:* 1 new (convergence argument, Ch.13).
 
 Selection criteria for the 42 table entries: (1) mechanism domain coverage;
