@@ -92,6 +92,17 @@ Despite decades of research and multiple candidate markers, no biomarker or biom
 
 ]
 
+=== Machine Learning Approaches to EBV-Based Diagnosis
+<sec:ebv-ml-diagnosis>
+
+Fonseca et al. (2024) applied a Super Learner ensemble algorithm to IgG antibody responses against 3,054 EBV peptide variants, identifying a 26-antibody classifier that distinguished infection-triggered ME/CFS patients from healthy controls with 100% accuracy in the training dataset and 90% in the test dataset @Fonseca2024EBVclassifier. However, the classifier failed to reach target accuracy (85%) when applied to all ME/CFS patients or to those with non-infectious or unknown disease triggers. Despite some EBV peptides showing sequence homology with human proteins (potential molecular mimicry), no significant correlation emerged between antibody importance in the classifier and cross-reactivity potential with host proteins.
+
+The trigger-specificity of this classifier has two implications: diagnostically, it may prove useful as a confirmatory tool specifically for patients reporting infection-linked onset, supporting the clinical assessment of post-infectious ME/CFS. Mechanistically, it reinforces the subtyping paradigm---infection-triggered and non-infection-triggered ME/CFS appear immunologically distinct, and biomarker panels developed in one subgroup should not be assumed to generalise to the other.
+
+#limitation(title: [Small Sample; No Independent Validation])[
+The Fonseca study used a single cohort without external validation. The 26-antibody panel has not been tested in an independent population, and the high training accuracy (100%) raises concern about overfitting despite the ensemble approach. EBV seropositivity is nearly universal in adults (>95%), so the classifier must distinguish _patterns_ of anti-EBV antibodies rather than simple presence/absence---a more nuanced signal that may not replicate across laboratories using different peptide arrays.
+]
+
 == Key Biomarkers from the NIH Deep Phenotyping Study
 <sec:nih-biomarkers>
 
@@ -388,6 +399,11 @@ and healthy control populations.
 *Serum Homocysteine and Methylmalonic Acid (MMA)*
 Serum homocysteine and methylmalonic acid (MMA) complete the B12/folate/methylation picture begun by the CSF finding above. Elevated serum homocysteine indicates impaired methylation, which may arise from B12 deficiency, folate deficiency, or MTHFR gene variants. MMA is the functional marker of cellular B12 deficiency: serum B12 concentrations can appear normal while tissue-level deficiency exists, but elevated MMA unmasks this functional shortfall. Both markers are accessible via standard laboratory testing and provide direct mechanistic context for the CSF homocysteine finding reported by Regland et al.\ @Regland1997.
 
+*CSF Proteomics in Post-Viral Neuroinflammation*
+Temporal CSF proteomics from herpes simplex encephalitis (HSE) patients provides a prospective model for identifying biomarkers of post-viral neuroinflammation relevant to ME/CFS @Naas2023hse_proteome. Analysis of 890 CSF proteins in 48 HSE patients at three time points (days 0--9, 13--28, and 68+) revealed dynamic pathway activation: acute phase response, antimicrobial pattern recognition, and glycolysis/gluconeogenesis were strongly activated early and resolved by two weeks. Six proteins were significantly reduced in patients who developed anti-NMDAR autoantibodies: procathepsin H, heparin cofactor 2, complement factor I, protein AMBP, apolipoprotein A1, and polymeric immunoglobulin receptor.
+
+Apolipoprotein A1 (ApoA1) is of particular interest as it has been independently associated with NMDAR encephalitis outside the HSE context @Naas2023hse_proteome. ApoA1 is the major protein component of high-density lipoprotein (HDL) and has known anti-inflammatory and neuroprotective functions; its reduction in CSF may indicate impaired neuroprotection or altered lipid metabolism in the CNS compartment. Neurofilament light chain (NFL), a marker of axonal damage, correlated with both impaired neurocognitive recovery and subsequent NMDAR autoantibody development in HSE patients (p=0.006) @Westman2021nfl_nmdar. Whether NFL or ApoA1 are similarly altered in ME/CFS CSF remains untested — this represents a high-priority gap given the documented neuroinflammation in ME/CFS (see Section @sec:cns).
+
 === Autonomic Function Tests
 
 Quantifiable autonomic biomarkers:
@@ -589,6 +605,26 @@ Standardized neuropsychological assessment:
     - Pattern of deficits may distinguish from depression
     - Sensitive to post-exertional cognitive deterioration
 
+=== Digital Physiological Biomarkers
+<sec:digital-biomarkers>
+
+Mobile health (mHealth) technologies enable continuous or daily physiological monitoring outside clinical settings, offering an alternative biomarker approach: tracking within-person temporal dynamics rather than relying solely on single-timepoint between-group differences.
+
+A large intensive longitudinal study using this approach (Aitken et al.\ 2026, n=4244 Visible app users with Long COVID, ME/CFS, or other energy-limiting conditions) found that 60-second morning PPG assessments of HR, HRV (RMSSD scaled 0–100), and respiratory rate predicted same-day evening symptom reports @Aitken2026digitalHRV. Multilevel models incorporating both within-person biometric fluctuations and prior-day symptom history achieved AUC values of 0.82 for crash, 0.74 for fatigue, and 0.85 for brain fog using walk-forward cross-validation—higher than models using symptom history alone (AUC 0.78, 0.73, 0.83 respectively). Within-person predictors (daily deviations from individual baselines) were substantially stronger than between-person averages, underscoring the importance of personalized monitoring over population-level thresholds. The study was retrospective in design, analysing data already collected through a commercial app from self-identified participants; the proportion with clinician-confirmed ME/CFS is not reported.
+
+Potential implications for biomarker strategy (pending prospective validation) include:
+
+    - *Accessibility*: Smartphone-based PPG requires no specialized equipment, which could enable broader deployment if clinical utility is confirmed
+    - *Within-person design*: Each patient serves as their own control, sidestepping the between-person heterogeneity that limits single-timepoint biomarker studies
+    - *Temporal prediction*: Morning biometrics predict evening symptoms within the same day, though whether this time window is sufficient for actionable crash prevention remains untested
+    - *Incremental value*: Biometrics add statistically significant predictive power beyond symptom self-tracking alone, though the magnitude of improvement is modest (AUC improvement of 0.01–0.04 depending on outcome)
+    - *Engagement burden*: Daily monitoring (morning PPG + evening symptom survey) requires sustained cognitive and motor capacity that severe and very severe patients may not have; the monitoring itself could trigger cognitive PEM
+    - *No demonstrated prevention*: Predictive performance does not establish that acting on predictions reduces crash frequency or improves outcomes; this intervention link is untested
+
+#limitation(title: [Digital Biomarker Validation Gaps])[
+Current evidence derives from a single retrospective cohort of self-identified participants using a commercial app; the proportion with ME/CFS specifically (vs.\ Long COVID or other conditions) is not reported. The 60-second PPG protocol did not standardize posture, time since waking, or medication status—key pre-analytical variables for autonomic biomarkers. Prospective validation in clinician-confirmed ME/CFS cohorts with research-grade monitoring is needed. The predictive models have not been tested in new populations (only within-person temporal generalization was evaluated). The study population consisted of self-selected ambulatory app users; severe and very severe patients were effectively excluded. Whether real-time prediction translates to improved clinical outcomes (e.g., crash prevention through pacing guidance) remains undemonstrated. Importantly, a "low risk" prediction should not be interpreted as a safe window to exceed one's energy envelope, given that PEM can lag 24–48 hours beyond any same-day monitoring window @Aitken2026digitalHRV.
+]
+
 == Clinical Workup Biomarkers: Exclusion and Comorbidity
 <sec:clinical-workup-biomarkers>
 
@@ -641,6 +677,51 @@ Steps required:
     - Clinical utility studies (demonstrating impact on outcomes)
     - Regulatory approval (for diagnostic claims)
     - Implementation (clinical adoption, insurance coverage)
+
+=== Circulating Cell-Free Mitochondrial DNA (ccf-mtDNA)
+<sec:ccfmtdna-biomarker>
+
+Circulating cell-free mitochondrial DNA has been reported as a possible _research_ biomarker in post-infectious fatigue states in two preliminary studies, with unexpected directionality. *Clinical status:* ccf-mtDNA measurement by qPCR is exclusively a research assay---no CLIA-certified commercial test, insurance billing code, or established reference range exists. The findings below are relevant to research design and mechanistic understanding, not to current clinical practice. While elevated ccf-mtDNA is an established marker of cell damage and adverse outcomes in acute SARS-CoV-2 infection, chronic Long COVID shows the opposite pattern.
+
+Matits et al.\ @Matits2026cfmtDNA ($n = 228$; EPILOC population-based cohort) found reduced relative ccf-mtDNA in Long COVID patients ($n = 128$) compared to recovered controls ($n = 100$), with the reduction correlating with worse cognition. CRP was inversely associated with ccf-mtDNA levels but showed no independent association with cognition after controlling for ccf-mtDNA, suggesting mitochondrial dynamics are a more proximal correlate of cognitive dysfunction than systemic inflammation. Effect sizes were very small (partial $eta^2 lt.eq 0.02$) and significance was borderline after full covariate adjustment ($p = 0.089$; $p = 0.038$ after excluding high-CRP outliers). A prior study (Szögi et al.\ @Szogi2024cfmtDNA; $n = 5$) also found reduced ccf-mtDNA alongside mitochondrial ultrastructural abnormalities in Long COVID tissue biopsies.
+
+#limitation(title: [ccf-mtDNA Biomarker Utility: Critical Confounds])[
+Several factors limit the current utility of ccf-mtDNA as a diagnostic or monitoring biomarker: (1) physically active individuals have higher ccf-mtDNA---deconditioning may explain group differences independently of pathology; (2) anxiety disorders show similarly low ccf-mtDNA, reducing disease specificity; (3) the Matits et al.\ effect size is extremely small (partial $eta^2 = 0.01$--$0.02$), far below what would be needed for individual-level classification; (4) no ME/CFS-specific resting ccf-mtDNA data exist, precluding cross-disease comparison with identical methodology.
+]
+
+In ME/CFS, Tsilioni et al.\ @Tsilioni2022exosome found exosome-associated mtDNA elevated after exercise challenge---a different compartment and timing. Whether resting ccf-mtDNA differs between ME/CFS and Long COVID patients is unknown but represents a testable research question (see Section @sec:cross-disease for the cross-disease hypothesis).
+
+#limitation(title: [ccf-mtDNA: Composite Signal from Multiple Sources])[
+Blood-based ccf-mtDNA measurements inevitably capture mtDNA released from circulating immune cells, not only from distant tissues. In ME/CFS, T cells show severe mitochondrial dysfunction (failed metabolic reprogramming upon activation @Mandarano2020) and NK cells show impaired metabolic capacity. These dysfunctional immune cells may contribute less mtDNA to the circulating pool---either through reduced mitophagy or through reduced mitochondrial mass overall. Consequently, ccf-mtDNA may partially reflect immune cell mitochondrial health rather than (or in addition to) tissue-level mitophagy status. Treatments that restore immune cell mitochondrial function (e.g., NADH+CoQ10 supplementation) could raise ccf-mtDNA by restoring normal immune cell turnover, independently of any tissue-level mitophagy effect. This composite nature must be considered when interpreting ccf-mtDNA as a biomarker.
+]
+
+*ccf-mtDNA as a candidate treatment response biomarker.*
+If ccf-mtDNA reflects mitochondrial quality control status, treatment-induced changes in mitophagy should be traceable. Specific predictions: (a) mitophagy-inducing agents (urolithin A) should produce a transient ccf-mtDNA rise as accumulated damaged mitochondria are cleared, followed by normalisation; (b) T3 supplementation in the Low T3 subgroup should gradually raise ccf-mtDNA by restoring ERR$alpha$-mediated mitophagy coordination (Chapter @ch:energy-metabolism, Section @sec:thyroid-mito-regulation); (c) immunoadsorption or plasmapheresis removing pathogenic IgG should raise ccf-mtDNA if IgG-mediated mitochondrial fragmentation was driving the mitophagy block. These predictions are testable in small open-label trials using serial ccf-mtDNA measurement as a secondary endpoint. A well-designed definitive study would use a four-arm design (ME/CFS vs.\ Long COVID vs.\ anxiety disorder vs.\ healthy controls---the anxiety arm is essential because anxiety shows similarly low ccf-mtDNA, testing diagnostic specificity) and measure _both_ free ccf-mtDNA and exosome-associated mtDNA at rest and serially post-exercise to capture compartment-specific dynamics.
+
+== Pain Registries and Databases as Biomarker Data Sources
+<sec:pain-registries>
+
+Pain is among the most prevalent symptoms in ME/CFS (80--94% of patients) yet remains one of the least studied areas for biomarker development. Several registries and databases now collect systematic pain data that could support biomarker discovery and pain phenotype stratification.
+
+=== Multi-site Clinical Assessment of ME/CFS (MCAM)
+
+The MCAM study, coordinated by the CDC, enrolled 595 ME/CFS patients and 328 healthy controls from 7 specialty clinics across the United States (2012--2020) @Fall2024COPCsMECFS. Instruments include the Brief Pain Inventory (BPI), PROMIS Pain Scales, CDC Symptom Inventory, SF-36 (bodily pain subscale), and full body maps. The MCAM dataset is the richest existing source of systematically collected ME/CFS pain data using validated instruments: 76.1% of ME/CFS participants had at least one Chronic Overlapping Pain Condition, compared to 17.4% of controls.
+
+=== You + ME Registry
+
+The Solve ME/CFS Initiative's You + ME Registry is a patient-powered research platform with over 4,200 participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021), growing at approximately 72 new registrants per week @Ramiller2022YouMERegistry. The mobile app captures longitudinal symptom tracking on a 0--4 severity scale, including pain. The registry is designed to harmonise with other ME/CFS data collection efforts and enables researchers to access de-identified data for analysis.
+
+=== UK ME/CFS Biobank
+
+The UK ME/CFS Biobank at UCL/Royal Free Hospital holds over 600 donors (ME/CFS, MS, and healthy controls) with more than 30,000 blood aliquots linked to clinical phenotyping data, including pain measures @Lacerda2019prevalence. As Europe's first ME/CFS-specific biobank, it provides the infrastructure for correlating pain phenotypes with biological specimens.
+
+=== UK Biobank
+
+The UK Biobank contains population-level data from which researchers have defined high-quality ME/CFS cohorts. Linked pain questionnaire data and health records enable large-scale epidemiological analysis of pain patterns in ME/CFS at a scale impossible with dedicated research cohorts.
+
+#open-question(title: [Can Existing Registries Be Harmonised for Pain Phenotype Subtyping?])[
+The MCAM, You + ME Registry, UK ME/CFS Biobank, and UK Biobank all collect pain-related data, but using different instruments, severity scales, and time windows. A key research question is whether these datasets can be harmonised to create a pain phenotype dataset large enough for reliable subgroup identification. Minimum requirements would include: (1) mapping pain variables across registries to a common ontology; (2) testing whether independent registries identify the same cluster structure; and (3) sufficient sample size for interaction analyses (pain phenotype $times$ biomarker $times$ treatment response). Cross-registry harmonisation studies in other chronic pain conditions have demonstrated feasibility but required substantial methodological investment.
+] <oq:registry-harmonisation-pain>
 
 == Summary: Current State and Future Directions
 <sec:biomarker-summary>

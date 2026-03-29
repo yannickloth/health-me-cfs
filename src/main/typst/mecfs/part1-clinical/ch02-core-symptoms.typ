@@ -891,6 +891,12 @@ While 2-day CPET provides objective measurement, it remains research-grade and i
     - *Functional capacity scales*: Bell Disability Scale, SF-36, and ME/CFS-specific measures
     - *Activity monitors*: Actigraphy to objectively measure movement patterns (though cannot distinguish voluntary pacing from incapacity)
 
+==== Digital Biomarkers for Crash Prediction
+
+An initial study suggests that daily physiological monitoring via mobile health tools may have predictive value for symptom fluctuations, though this approach is not yet validated for clinical use. Aitken et al.\ (2026) analysed retrospective data from 4244 users of the Visible app (a mixed cohort of Long COVID, ME/CFS, and other energy-limiting conditions; the proportion with clinician-confirmed ME/CFS is not reported) who completed 60-second morning PPG assessments alongside evening symptom reports @Aitken2026digitalHRV. Within-person increases in morning heart rate and decreases in heart rate variability (RMSSD) were associated with same-day crash reports; models combining morning biometrics with prior-day symptom history achieved AUC of 0.82 for crash, compared to 0.78 using prior-day symptoms alone. The prior-day symptom report is already a strong predictor on its own (AUC 0.78), meaning the biometric contribution, while statistically significant, is a modest increment of 0.04 over an already near-sufficient baseline. Greater week-to-week instability in HR and HRV (measured as 7-day coefficient of variation) was also associated with worsening symptoms. The prior-day crash report was itself a strong predictor, consistent with the multi-day duration of PEM episodes.
+
+These findings are preliminary and have important limitations: the study was retrospective, participants self-identified their conditions, the 60-second PPG protocol did not standardize posture or medication status, and the study population consisted of ambulatory app users (severe patients who cannot sustain daily monitoring were effectively excluded). Whether acting on such predictions can actually prevent crashes remains untested, and a "low risk" reading should not be interpreted as a safe window to exceed one's energy envelope, given that PEM can lag 24–48 hours beyond any same-day monitoring window. See @sec:hrv in Chapter @ch:cardiovascular for the underlying autonomic physiology, and @sec:digital-biomarkers in Chapter @ch:biomarker-research for broader digital biomarker strategy.
+
 == Unrefreshing Sleep
 <sec:sleep>
 
@@ -1337,27 +1343,87 @@ Peripheral contributors to ME/CFS pain include:
 *Relationship to Post-Exertional Malaise.*
 Pain is a core component of PEM. A meta-analysis found small to moderate pain increases following exercise in ME/CFS versus controls (Hedges' d = 0.42, 95% CI: 0.16–0.67), with delayed pain showing larger effects at 8–72 hours (d = 0.71) than at 0–2 hours (d = 0.32) @Barhorst2022painPEM. This delayed, disproportionate pain response parallels the temporal pattern of other PEM symptoms and likely reflects the same underlying metabolic and immune dysfunction. Factor analysis of PEM symptoms identifies a distinct “musculoskeletal factor” comprising muscle pain, weakness, and post-exertional fatigue @Barhorst2022painPEM.
 
+=== Patient-Reported Pain Descriptions
+<subsec:pain-descriptions>
+
+Qualitative research and standardised pain inventories reveal a distinctive pain language in ME/CFS. On the McGill Pain Questionnaire (MPQ), patients most frequently selected the sensory descriptors _throbbing_, _aching_, _tender_, _gnawing_, and _burning_; severely affected patients additionally endorsed _exhausting_, _nagging_, and _gruelling_ @Marshall2010PainCharacteristics. The mean Pain Rating Index was 23.6 #sym.plus.minus 10.8, with current visual analogue scale (VAS) intensity of 43.2 #sym.plus.minus 20.8 mm; 24-hour retrospective VAS was higher (~58 mm), reflecting the fluctuating nature of ME/CFS pain @Marshall2010PainCharacteristics. Pain Anxiety Symptoms Scale scores (37.9 #sym.plus.minus 17.6) were significantly elevated in severely disabled patients.
+
+Patients describe their pain experience in language that clinicians should recognise as distinctive @Marshall2010PainCharacteristics @strassheim2021experiences:
+
+    - Muscle pain characterised as deep, bone-aching or burning, migratory rather than fixed, and qualitatively different from delayed-onset muscle soreness (consistent with MPQ descriptors _aching_, _burning_, _gnawing_)
+    - Post-exertional pain experienced as systemic malaise---language reflecting the sickness-behaviour quality of PEM-associated pain rather than focal injury
+    - Neuropathic sensations including electric, pins-and-needles, or burning-skin quality, consistent with the 30--38% SFN prevalence @Oaklander2022SFN
+    - Pain that moves unpredictably between body regions, consistent with the migratory joint pain pattern documented across cohorts @Carruthers2003
+
+Most common pain locations by body mapping (Margolis Body Chart): cervical spine (66%), anterior thighs (44--46%), lumbar spine (42%), and posterior calves (38%). The most severe pain clusters in the cervical spine/upper trapezius (30%), scapular/upper thoracic region (20%), and right lumbar area (20%) @Marshall2010PainCharacteristics.
+
+=== Pain Phenotype Classification
+<subsec:pain-phenotypes>
+
+ME/CFS pain is not monolithic. The MCAM study (Multi-site Clinical Assessment of ME/CFS; $n = 595$ ME/CFS patients, 328 healthy controls across 7 US specialty clinics, 2012--2020) documented that 76.1% of ME/CFS participants had at least one Chronic Overlapping Pain Condition (COPC), compared to 17.4% of controls @Fall2024COPCsMECFS. Prevalence ratios versus controls were striking: fibromyalgia 147.7$times$, chronic low back pain 39.5$times$, interstitial cystitis/painful bladder syndrome 13.8$times$, and chronic migraine 4.2$times$ @Fall2024COPCsMECFS.
+
+Six clinically relevant pain phenotypes can be distinguished, though most patients exhibit combinations:
+
+    + *Widespread musculoskeletal pain* (68--94%): The most common complaint. Deep aching in muscles and periarticular tissues, characteristically worsening 8--72 hours post-exertion @Nijs2012muscle @Barhorst2022painPEM.
+    + *Headache-predominant* (48--56%): Including chronic migraine (48.1% in MCAM) and tension-type headache, often with lower pressure pain thresholds @Ravindran2011headache @Fall2024COPCsMECFS.
+    + *Neuropathic pain* (30--80%): Burning, tingling, electric shock sensations; prevalence range reflects variability in SFN diagnostic methods and whether fibromyalgia-overlapping cohorts are included @Oaklander2022SFN @Grayston2019sfn.
+    + *Post-exertional pain flare*: Delayed pain amplification prominent in ME/CFS---pain increases significantly at 8--72 hours post-exercise (Hedges' $d = 0.71$) versus 0--2 hours ($d = 0.32$) @Barhorst2022painPEM. Whether this pattern differs in FM-only patients awaits direct head-to-head comparison (Barhorst meta-analysis pools ME/CFS and FM cohorts).
+    + *Allodynia and hyperalgesia*: Pain from normally non-painful stimuli (light touch, clothing pressure, temperature changes) and amplified pain response to mildly painful stimuli, reflecting central sensitisation @Nijs2021sensitization.
+    + *Visceral and other pain*: Abdominal pain (32%), sore throat (25--28%), tender lymph nodes (37--39%), eye pain (23%), chest pain (15%) @Fall2024COPCsMECFS @Unger2017pain.
+
+The dominant mechanism underlying most ME/CFS pain phenotypes is now classified as *nociplastic*---arising from altered nociception in the central nervous system despite no clear evidence of peripheral tissue damage @Kosek2024Nociplastic @Baraniuk2025NociplasticMECFS. However, 30--80% of patients also have biopsy-confirmed small fiber neuropathy contributing a neuropathic component @Oaklander2022SFN @Grayston2019sfn, and the interaction between nociplastic and neuropathic mechanisms likely produces a hybrid pain phenotype (see @hyp:ch15-nociplastic-neuropathic-hybrid). Central sensitisation involves dysfunction of midbrain and brainstem descending anti-nociceptive pathways, where the periaqueductal grey and medulla fail to send adequate inhibitory signals. See @sec:ch15-central-sensitization for detailed mechanistic discussion.
+
 === Pain Assessment and Management Considerations
 <subsec:pain-management>
 
-*Quantitative Sensory Testing.*
-Quantitative sensory testing (QST) can objectively document pain hypersensitivity. Commonly used measures include pressure pain thresholds at standard sites (trapezius, forearm, 18 fibromyalgia tender points), thermal thresholds, and temporal summation protocols. QST findings may support disability claims and guide treatment by identifying central versus peripheral contributions.
+==== Quantitative Pain Assessment
+<subsubsec:pain-quantitative>
 
-*Overlap with Fibromyalgia.*
-ME/CFS and fibromyalgia show substantial clinical overlap: 47.3% (95% CI: 45.97–48.63) of ME/CFS diagnoses overlap with fibromyalgia, with 35–75% of ME/CFS patients meeting fibromyalgia criteria and 20–70% of fibromyalgia patients meeting ME/CFS criteria @Pendergrast2016overlap. Cerebrospinal fluid proteomics are indistinguishable between ME/CFS patients with and without comorbid fibromyalgia, suggesting shared pathophysiology @Nilsson2023proteomics. Key clinical distinctions:
+Multiple validated instruments have been applied to ME/CFS pain, though none was designed for this population. A 2025 comparative review of assessment scales concluded that the McGill Pain Questionnaire is preferred for ME/CFS because it is "sensitive to treatment-related changes and useful for distinguishing nociceptive and neuropathic pain" @Lu2025AssessmentScalesMECFS.
 
-    - Fibromyalgia: Pain predominant, fatigue secondary
-    - ME/CFS: Fatigue and PEM predominant, pain prominent but not defining
-    - Comorbid patients have worse outcomes: greater physical disability, more severe pain, and more pronounced post-exertional symptoms than either condition alone
+Key quantitative findings across instruments:
 
-*Treatment Implications.*
+    - *McGill Pain Questionnaire (MPQ):* Pain Rating Index 23.6 #sym.plus.minus 10.8; significantly higher in severely disabled patients ($p < 0.05$) @Marshall2010PainCharacteristics
+    - *Visual Analogue Scale (VAS):* Current intensity 43.2 mm; 24-hour retrospective ~58 mm (better reflects fluctuating pain) @Marshall2010PainCharacteristics
+    - *Brief Pain Inventory (BPI):* ME/CFS patients with chronic low back pain show BPI Interference mean difference = 3.77 (Cohen's $d = 1.6$); those with comorbid fibromyalgia show mean difference = 2.39 ($d = 0.9$) @Fall2024COPCsMECFS
+    - *Dolorimetry:* Female ME/CFS patients AUC = 0.730 versus controls ($p < 0.005$); male patients AUC = 0.816 ($p < 10^(-6)$). Dolorimetry correlates with self-reported pain (Spearman $R = -0.574$ to $-0.629$, $p < 0.001$) @Baraniuk2025NociplasticMECFS
+    - *Quantitative sensory testing (QST):* Pressure pain thresholds at standard sites, thermal thresholds, and temporal summation protocols can objectively document pain hypersensitivity and support disability claims @Nijs2021sensitization @Baraniuk2025NociplasticMECFS
+
+Pain interference in ME/CFS reaches levels comparable to spinal cord injury, muscular dystrophy, and multiple sclerosis @Fall2024COPCsMECFS.
+
+#open-question(title: [No ME/CFS-Specific Pain Assessment Instrument Exists])[
+The NINDS Common Data Elements (CDE) Pain Subgroup recommended existing generic instruments (BPI Short Form, Revised Fibromyalgia Impact Questionnaire, MPQ) for ME/CFS research but explicitly identified that no ME/CFS-specific pain instrument exists @Lu2025AssessmentScalesMECFS. Three unmet needs were flagged: (1) an instrument measuring both pain and PEM together, since PEM-delayed pain onset is a pattern currently documented primarily in ME/CFS; (2) a tool for capturing multiple overlapping pain conditions simultaneously; and (3) a method for quantitatively assessing ME/CFS pain comparably across chronic pain conditions. Until such instruments are developed, the MPQ or Numeric Rating Scale (NRS) remain the recommended primary tools.
+] <oq:pain-instrument-gap>
+
+==== Overlap with Fibromyalgia
+<subsubsec:fm-overlap>
+
+ME/CFS and fibromyalgia show substantial clinical overlap: 47.3% (95% CI: 45.97–48.63) of ME/CFS diagnoses overlap with fibromyalgia, with 35–75% of ME/CFS patients meeting fibromyalgia criteria and 20–70% of fibromyalgia patients meeting ME/CFS criteria @RamirezMorales2022FMoverlap. Cerebrospinal fluid proteomics are indistinguishable between ME/CFS patients with and without comorbid fibromyalgia, consistent with shared central pathophysiology @Nilsson2023proteomics. Key clinical distinctions:
+
+    - *Symptom primacy:* Fibromyalgia---pain predominant, fatigue secondary; ME/CFS---fatigue and PEM predominant, pain prominent but not defining
+    - *Exercise response:* The critical discriminator. In fibromyalgia, graded aerobic exercise can improve pain over time; in ME/CFS, exercise triggers immune activation (ASIC3, P2X4, TLR4 upregulation persisting 48 hours) and worsens pain through PEM @Nijs2012painCFS @Barhorst2022painPEM. Prescribing graded exercise to an ME/CFS patient based on FM protocols risks serious harm.
+    - *Pain timing:* FM pain is relatively constant; ME/CFS pain characteristically flares 24--48 hours after exertion in the PEM pattern
+    - *Analgesic response:* FM is partially responsive to duloxetine and pregabalin; standard NSAIDs are frequently reported as ineffective in ME/CFS
+    - *Substance P:* Elevated in FM cerebrospinal fluid but not in ME/CFS, suggesting different neurochemical profiles despite shared nociplastic features @Baraniuk2025NociplasticMECFS
+    - *Comorbid patients* have worse outcomes: greater physical disability, more severe pain, and more pronounced post-exertional symptoms than either condition alone
+
+#limitation(title: [ME/CFS--FM Distinction May Be Quantitative, Not Qualitative])[
+A parsimonious alternative to a distinct ME/CFS pain mechanism is that ME/CFS pain reflects fibromyalgia-spectrum nociplastic pain _plus_ PEM, without requiring a novel pain pathway. If this alternative is correct, the clinical implications are limited: treatment would still target FM-type pain (central sensitisation, SFN) and PEM separately, rather than a unified ME/CFS-specific pain mechanism. The Barhorst 2022 meta-analysis pooled ME/CFS and FM cohorts, preventing extraction of ME/CFS-specific pain effect sizes. No study has directly compared exercise-pain responses in ME/CFS versus FM-only patients matched for baseline pain. The Substance P null finding (elevated in FM but not ME/CFS @Baraniuk2025NociplasticMECFS) provides one point of divergence, but a single biomarker difference does not establish distinct mechanisms. Resolving this question requires a head-to-head exercise-pain study with ME/CFS, FM-only, and ME/CFS+FM groups.
+]
+
+#fhypothesis(title: [PEM-Driven Pain Amplification as Prominent ME/CFS Feature], falsifiability: [Pain should worsen 8--72h post-exertion in ME/CFS but not in FM-only patients matched for baseline pain severity; ASIC3/P2X4/TLR4 gene expression should correlate with delayed pain scores in ME/CFS but not FM; CPM efficiency should decrease post-exertionally in ME/CFS but not FM.], justification: [Partially supported by Barhorst 2022 meta-analysis and Nijs 2012 gene expression data; direct head-to-head comparison of exercise-pain response in ME/CFS vs FM-only is lacking.])[
+The delayed, disproportionate pain amplification following exertion is a prominent feature of ME/CFS, potentially distinguishable from FM pending direct head-to-head comparison. Unlike FM, where pain can improve with graded exercise, ME/CFS exercise triggers a cascade of immune gene upregulation (ASIC3, P2X4, TLR4) that persists for 48 hours and correlates with pain severity @Nijs2012painCFS. Simultaneously, conditioned pain modulation (CPM)---the body's endogenous pain inhibition---fails to activate and may paradoxically worsen after exercise in ME/CFS @Nijs2012muscle. This PEM-pain amplification loop is mechanistically distinct from central sensitisation alone. However, a parsimonious alternative---that ME/CFS pain is simply FM plus PEM, without a distinct pain mechanism---has not been formally excluded. (Certainty: 0.45; meta-analytic evidence for delayed pain effect, but Barhorst 2022 pools ME/CFS and FM cohorts, preventing ME/CFS-specific effect extraction; gene expression evidence for immune mechanism; direct FM comparison lacking.)
+] <hyp:ch02-pem-pain-amplification>
+
+==== Treatment Implications
+
 Pain management in ME/CFS must account for the underlying mechanisms:
 
-    - Standard analgesics may be insufficient given central sensitization
-    - Interventions targeting neuroinflammation (e.g., low-dose naltrexone) may address central mechanisms
-    - Activity pacing prevents pain exacerbation from PEM
-    - Treatment of underlying small fiber neuropathy (if present) with IVIG has shown benefit in some patients
-    - Medications effective for fibromyalgia pain (duloxetine, pregabalin) may help the subset with overlapping presentations
+    - Standard analgesics may be insufficient given central sensitisation @Nijs2021sensitization
+    - Interventions targeting neuroinflammation (e.g., low-dose naltrexone) may address central mechanisms @Nijs2017neuroinflammation
+    - Activity pacing prevents pain exacerbation from PEM @Barhorst2022painPEM
+    - Treatment of underlying small fiber neuropathy (if present) with IVIG has shown benefit in some patients @Oaklander2022SFN. _Caveats:_ IVIG requires specialist supervision, costs \$10,000--30,000/year, carries infusion-related risks, and should be reserved for patients with biopsy-confirmed SFN; interaction with comorbid POTS must be monitored during infusion
+    - Medications effective for fibromyalgia pain (duloxetine, pregabalin) may help the subset with overlapping presentations @Fall2024COPCsMECFS
 
 == Sensory Sensitivities
 <sec:sensory>

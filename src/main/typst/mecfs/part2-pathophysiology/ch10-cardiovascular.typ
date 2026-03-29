@@ -21,13 +21,13 @@ Testing continues until volitional exhaustion or limiting symptoms. Criteria for
 
 ==== Key NIH Deep Phenotyping CPET Findings
 
-The Walitt et al.\ study documented several critical cardiopulmonary abnormalities in PI-ME/CFS patients @walitt2024deep:
+The Walitt et al.\ study documented several critical cardiopulmonary abnormalities in PI-ME/CFS patients (@walitt2024deep):
 
 *Reduced Peak Oxygen Consumption (VO#sub[2]peak)*
 Peak VO#sub[2] represents maximal aerobic capacity and integrates cardiac output, oxygen delivery, and peripheral oxygen extraction. PI-ME/CFS patients demonstrated significantly reduced VO#sub[2]peak compared to matched healthy controls @walitt2024deep. This reduction indicates impaired aerobic capacity beyond what deconditioning alone would predict; ME/CFS patients showed greater deficits than sedentary controls matched for activity level, with reductions typically ranging from 15–30% below predicted values @keller2024cpet @Lim2020. More severely affected patients show greater reductions. The finding correlates with functional limitation and disability, providing objective confirmation of patient-reported exercise intolerance.
 
 *Chronotropic Incompetence*
-Chronotropic incompetence refers to an inadequate heart rate response to exercise @walitt2024deep:
+Chronotropic incompetence refers to an inadequate heart rate response to exercise (@walitt2024deep):
 
     - ME/CFS patients fail to achieve age-predicted maximal heart rate
     - Heart rate rise is blunted relative to work rate increases
@@ -47,7 +47,7 @@ Several mechanisms have been proposed; their relative contributions in ME/CFS re
 
     Levels of vasoregulative GPCR autoantibodies correlate with symptom severity, autonomic dysfunction, and disability in ME/CFS @Sotzny2021. The correlation with autonomic measures supports a direct pathophysiological role rather than an epiphenomenon of chronic illness. Beta-2 adrenergic receptor autoantibodies appear particularly relevant to cardiovascular symptoms, with immunoadsorption targeting these antibodies showing preliminary efficacy in post-COVID ME/CFS @Stein2024immunoadsorption. BC007, a DNA aptamer that neutralizes GPCR autoantibodies, has shown promise in case reports for improving fatigue and microcirculatory function @Hohberger2021bc007. Three complementary approaches to the autoantibody hypothesis—immunoadsorption, BC007, and daratumumab—are in active clinical trials (Appendix @app:research-registry, Section @sec:registry-autoimmunity).
     - *Central nervous system dysfunction*: Impaired autonomic outflow from brainstem centers
-    - *Gut-mediated vagal impairment (Wirth-Scheibenbogen 2025)*: Recent work by Wirth and Scheibenbogen (2025) provides mechanistic support for gut-mediated vagal dysfunction in ME/CFS. Butyrate enhances enterochromaffin cell serotonin production @Barton2025, and enterochromaffin serotonin activates vagal afferents via 5-HT#sub[3] receptors @Barton2023 @Kaelberer2018. Since ME/CFS patients show butyrate deficiency and gut dysbiosis @Hsu2025gut, reduced enterochromaffin serotonin could impair vagal afferent signaling, potentially weakening efferent vagal tone to the heart. This pathway may contribute to the chronotropic incompetence and reduced heart rate variability observed in ME/CFS patients. While no direct evidence yet links this pathway to cardiac chronotropy in ME/CFS, it offers a testable hypothesis for the gut-cardiac connection. See Section @sec:gut-brain of Chapter @ch:gut-microbiome for the full evidence chain and Section @hyp:enterochromaffin-vagal of Chapter @ch:neurological for the neurophysiological implications.
+    - *Gut-mediated vagal impairment (Wirth-Scheibenbogen 2025)*: Recent work by Wirth and Scheibenbogen @WirthScheibenbogen2025Neurotransmitter provides mechanistic support for gut-mediated vagal dysfunction in ME/CFS. Butyrate enhances enterochromaffin cell serotonin production @Barton2025, and enterochromaffin serotonin activates vagal afferents via 5-HT#sub[3] receptors @Barton2023 @Kaelberer2018. Since ME/CFS patients show butyrate deficiency and gut dysbiosis @Hsu2025gut, reduced enterochromaffin serotonin could impair vagal afferent signaling, potentially weakening efferent vagal tone to the heart. This pathway may contribute to the chronotropic incompetence and reduced heart rate variability observed in ME/CFS patients. While no direct evidence yet links this pathway to cardiac chronotropy in ME/CFS, it offers a testable hypothesis for the gut-cardiac connection. See Section @sec:gut-brain of Chapter @ch:gut-microbiome for the full evidence chain and Section @hyp:enterochromaffin-vagal of Chapter @ch:neurological for the neurophysiological implications.
 
 The finding of chronotropic incompetence, combined with reduced HRV and abnormal baroreflex sensitivity @Newton2007autonomicDysfunction, indicates autonomic dysfunction affecting cardiac pacing.
 
@@ -128,7 +128,7 @@ Reduced resting cardiac output in the supine position has been reported in some 
 
 ==== Reduced Blood Volume
 
-Blood volume deficits are well-documented in ME/CFS @Streeten1998blood @Newton2016 @Raj2005:
+Blood volume deficits are well-documented in ME/CFS (@Streeten1998blood, @Newton2016, @Raj2005):
 
     - *Plasma volume*: Reduced by 10–20% in most studies @Streeten1998blood
     - *Red cell mass*: Variable findings; may be proportionally reduced or relatively preserved
@@ -174,7 +174,7 @@ B-type natriuretic peptide (BNP) and its N-terminal fragment are released in res
 
 ==== Cardiac Structure and Function
 
-Echocardiographic studies report variable findings, with evidence for subclinical dysfunction in some patients @Newton2016:
+Echocardiographic studies report variable findings, with evidence for subclinical dysfunction in some patients (@Newton2016):
 
     - *Reduced cardiac volumes*: Smaller left ventricular end-diastolic volume correlating with plasma volume deficits @Newton2016
     - *Diastolic dysfunction*: Some studies report impaired ventricular relaxation
@@ -212,7 +212,7 @@ Flow-mediated dilation (FMD) measures endothelium-dependent vasodilation of the 
 
 ==== Inflammatory Markers
 
-Endothelial inflammation contributes to dysfunction @Appel2025:
+Endothelial inflammation contributes to dysfunction (@Appel2025):
 
     - *Elevated adhesion molecules*: ICAM-1, VCAM-1, E-selectin @Appel2025
     - *Increased inflammatory cytokines*: IL-6, TNF-$alpha$ affect endothelial function
@@ -303,22 +303,64 @@ Blood volume deficits are among the most consistently documented abnormalities i
 ==== Mechanisms of Volume Depletion
 
 *Renin-Angiotensin-Aldosterone System Dysfunction*
-Studies document a paradoxical RAAS response in POTS and ME/CFS, with elevated angiotensin II despite hypovolemia @Raj2005 @Stewart2006:
+Studies document a paradoxical RAAS response in POTS and ME/CFS, with elevated angiotensin II despite hypovolemia (@Raj2005, @Stewart2006):
 
     - Blunted aldosterone response to hypovolemia @Raj2005
     - Impaired sodium retention leading to inappropriate natriuresis
     - Elevated angiotensin II may contribute to symptoms through vasoconstriction @Stewart2006
+
+Miwa (2016) quantified this paradox directly, demonstrating that renin and aldosterone output were abnormally low in ME/CFS patients _despite simultaneous hypovolemia_---a pattern Raj had previously identified in POTS and termed the "renin-aldosterone paradox" @Miwa2016raas @Raj2005. Under normal physiology, RAAS activity rises sharply to correct low blood volume; that it fails to do so in ME/CFS indicates a specific pathological mechanism suppressing the system rather than simple deconditioning.
+
+*Vasoactive Substance Spillover and Bradykinin-Mediated RAAS Suppression*
+
+#fhypothesis(title: [Bradykinin Spillover as the Mechanism of RAAS Suppression], falsifiability: [weakly], justification: [Falsified if (a) systemic bradykinin levels are normal in ME/CFS patients during and after exertion, or (b) kallikrein-kinin system blockade fails to restore RAAS activity in ME/CFS])[
+Wirth and Scheibenbogen (2020) proposed that the RAAS paradox originates upstream in skeletal muscle hypoperfusion @Wirth2020unifying. Under their model, $beta_2$-adrenergic receptor dysfunction (from sympathetic desensitisation, chronic vasoconstriction, and autoantibody blocking) impairs vasodilation in muscle vasculature. The body compensates by upregulating local vasoactive substances---bradykinin, prostaglandins, adenosine, ATP, and prostacyclin---to force blood vessel opening. When this compensatory production exceeds local clearance capacity, it spills from muscle interstitium into the systemic circulation.
+
+Bradykinin reaching the kidneys produces two hypovolemia-inducing effects:
+
+    + _Increased renal blood flow_ forces filtration of more solute (salt and water) than normal.
+    + _Kallikrein-kinin system (KKS) opposition to RAAS_: bradykinin directly suppresses renin release in the juxtaglomerular apparatus. Because renin is the rate-limiting first step in the RAAS cascade, its suppression propagates downward to reduce angiotensin~II and aldosterone output.
+
+The net result is chronic inappropriate natriuresis---the body dumps salt despite needing to retain it---producing progressive plasma volume contraction.
+
+*Testable predictions:*
+
+    / *(a)*: Systemic bradykinin or kallikrein levels are elevated in ME/CFS patients at rest and rise disproportionately after exertion compared to controls.
+    / *(b)*: Pharmacological KKS blockade (e.g., icatibant, a bradykinin B2 receptor antagonist) restores appropriate RAAS upregulation in response to orthostatic challenge.
+    / *(c)*: The magnitude of RAAS suppression correlates with the severity of muscular hypoperfusion measured by NIRS or invasive CPET.
+
+*Treatment implication:* If bradykinin spillover drives RAAS suppression, then treatments restoring muscular vasodilation (e.g., $beta_2$-AR resensitisation via Mitodicure/MDC002) would address the upstream cause, while oral rehydration solutions and fludrocortisone provide downstream compensation.
+*Certainty: 0.50*---the model is mechanistically coherent and consistent with the Miwa (2016) and Raj (2005) RAAS paradox data, but direct measurement of systemic bradykinin in ME/CFS has not been performed.
+] <hyp:bradykinin-raas>
 
 *Natriuretic Peptide Effects*
 
     - Elevated ANP or BNP promoting sodium/water excretion
     - May result from atrial stretch due to cardiac filling abnormalities
 
-*Capillary Permeability*
+*Capillary Permeability and Microvascular Leakage*
 
-    - Increased vascular permeability shifting fluid to interstitium
-    - May be inflammation-mediated (cytokines increase endothelial permeability)
-    - Could explain peripheral edema in some patients despite intravascular hypovolemia
+Increased vascular permeability shifts fluid to the interstitium and may be inflammation-mediated (cytokines increase endothelial permeability), explaining peripheral oedema in some patients despite intravascular hypovolemia. Wirth and Scheibenbogen (2020) identify bradykinin as a specific mediator of microvascular leakage: at sufficiently high concentrations, bradykinin disrupts endothelial tight junctions, creating microscopic vascular leaks through which blood components escape into the interstitial space @Wirth2020unifying. The leaked fluid is eventually returned via lymphatic drainage, but sluggish lymphatic function may delay this return, transiently worsening hypovolemia after exertion.
+
+==== Hypovolemia-Driven Thirst
+<sec:hypovolemic-thirst>
+
+The brain contains two distinct thirst centres: an osmotic centre (activated by cellular dehydration from high plasma osmolality) and a hypovolemic centre (activated by low circulating volume). In ME/CFS, the dominant thirst driver may be hypovolemic: patients are thirsty because they lack blood volume, not because their cells are dehydrated @Ussher2025 (this interpretation is proposed by Ussher based on the Wirth-Scheibenbogen model; direct comparison of osmotic versus hypovolemic thirst responses in ME/CFS has not been performed). The hypovolemic thirst threshold is approximately a 10% drop in plasma volume (~280~mL), a deficit commonly exceeded in ME/CFS patients.
+
+This distinction has important clinical consequences. Patients responding to hypovolemic thirst by drinking plain water do not resolve the problem: without adequate sodium reabsorption capacity (suppressed RAAS), water passes through the kidneys without expanding plasma volume. The result is a vicious cycle of drinking and urinating without benefit---some patients report consuming 8--20 litres per day without relief (patient-reported; no clinical measurement data available).
+
+#clinical-finding(title: [Near-Universal Vasopressin Deficiency in ME/CFS])[
+Huhmar et al. (2024) measured vasopressin levels in 111 ME/CFS patients after overnight fasting and 10~hours of fluid deprivation. 82% had vasopressin below the detection limit, and 66.7% had lower-than-normal urine osmolality---indicating that the kidneys fail to concentrate urine even under dehydration conditions @Huhmar2024vasopressin. This is consistent with secondary vasopressin suppression downstream of RAAS dysfunction rather than primary diabetes insipidus.
+] <obs:vasopressin-deficiency>
+
+Oral rehydration solutions (ORS) containing glucose, sodium, and potassium exploit the intestinal sodium-glucose cotransporter (SGLT1) to achieve efficient electrolyte absorption, effectively bypassing the renal retention deficit. Clinical evidence for ORS efficacy is discussed in Chapter @ch:supplements.
+
+==== The CO#sub[2]--Bohr--Bradykinin Triangle
+<sec:co2-bradykinin>
+
+The bradykinin spillover model (Section @hyp:bradykinin-raas) and the low CO#sub[2] findings (Chapter @ch:lifestyle) interact through a previously unrecognised feedback loop. Low pCO#sub[2] shifts the oxygen-haemoglobin dissociation curve leftward via the Bohr effect, reducing oxygen release to tissues. This worsens tissue hypoxia---precisely the condition that drives compensatory bradykinin production. The triangle is: impaired muscular respiration $arrow.r$ low CO#sub[2] $arrow.r$ reduced O#sub[2] delivery (Bohr effect) $arrow.r$ worsened tissue hypoxia $arrow.r$ increased bradykinin production $arrow.r$ more RAAS suppression $arrow.r$ more hypovolemia $arrow.r$ worse perfusion $arrow.r$ worse muscular respiration. Interventions raising CO#sub[2] (e.g., adapted Buteyko breathing, Chapter @ch:lifestyle) would cut this triangle at the CO#sub[2]--hypoxia link, reducing bradykinin production as a secondary benefit beyond direct vascular effects.
+
+*Certainty: 0.30* --- each individual link (low CO#sub[2], Bohr effect, bradykinin production) is physiologically established, but their integration into a self-reinforcing triangle in ME/CFS is a novel synthesis that has not been directly tested.
 
 === Arterial Stiffness and Vascular Compliance
 <sec:arterial-stiffness>
@@ -379,8 +421,10 @@ All van Campen CBF studies originate from a single Dutch referral center using t
 
 The cognitive symptoms during orthostatic stress—including brain fog, difficulty concentrating, and word-finding problems—correlate directly with the degree of cerebral hypoperfusion @VanCampenEtAl2023. Patients often report that cognitive function worsens progressively during prolonged standing and improves rapidly upon assuming a recumbent position. This positional dependence of cognitive symptoms provides clinical evidence for the cerebrovascular contribution to ME/CFS neurological dysfunction.
 
-<obs:cbf-recovery>
+#clinical-finding(title: [Incomplete CBF Recovery After Orthostatic Stress])[
 CBF reduction persists even after returning to supine position. Van Campen et al. @VanCampenEtAl2021 documented CBF reduction of $-29%$ at end-tilt, improving to only $-16%$ post-tilt. The degree of recovery correlated with disease severity rather than hemodynamic parameters, suggesting the CBF abnormality reflects intrinsic cerebrovascular or metabolic dysfunction rather than simple hemodynamic failure.
+] <obs:cbf-recovery>
+
 *Absence of Compensatory Vasodilation*
 
 A particularly significant finding is the near 1:1 relationship between cardiac output reduction and CBF reduction in ME/CFS patients @VanCampenEtAl2024. In healthy individuals, reduced cardiac output triggers compensatory cerebral vasodilation to maintain brain perfusion. The absence of this compensation in ME/CFS suggests possible endothelial dysfunction affecting cerebrovascular autoregulation. This may represent a critical vulnerability: the brain cannot protect itself from systemic hemodynamic perturbations.
@@ -478,7 +522,7 @@ In mast cell disorder patients, Novak et al.\ documented SFN in 80% of cases, wi
 
 The splanchnic vascular bed—comprising the circulation to the gastrointestinal tract, liver, spleen, and pancreas—contains approximately 30% of total blood volume. This substantial reservoir plays a critical role in cardiovascular homeostasis, but also represents a vulnerability in dysautonomic conditions. In POTS and ME/CFS, splanchnic blood flow dysregulation has implications beyond cardiovascular symptoms, potentially contributing to gastrointestinal dysfunction and systemic inflammation through gut barrier compromise.
 
-==== Splanchnic Pooling in POTS.
+==== Splanchnic Pooling in POTS
 POTS patients demonstrate excessive abdominal blood pooling, which can occur even in supine and resting positions @terSteege2012. Different POTS subtypes exhibit distinct splanchnic mechanisms:
 
     - *Neuropathic POTS*: Sympathetic denervation extends beyond lower extremities to include splanchnic vessels, leading to inadequate vasoconstriction and pooling in the abdominal vasculature. This pooling reduces effective circulating volume and cardiac preload.
@@ -489,14 +533,14 @@ POTS patients demonstrate excessive abdominal blood pooling, which can occur eve
 
 *Treatment Evidence:* Abdominal compression garments (40 mmHg) combined with leg compression (20–30 mmHg) have been shown to reduce splanchnic-mesenteric venous pooling and improve orthostatic tolerance in POTS patients @terSteege2012. This mechanical intervention suggests that splanchnic pooling is not merely an epiphenomenon but actively contributes to hemodynamic instability.
 
-==== Paradoxical Hypoperfusion During Activity.
+==== Paradoxical Hypoperfusion During Activity
 While pooling implies increased blood volume in the splanchnic bed, this does not translate to adequate _perfusion_ at the microvascular level. Blood accumulates in distended capacitance vessels rather than flowing through nutrient capillaries. During activity—even minimal exertion in severe patients—sympathetic activation attempts to redistribute blood to exercising muscles and the brain, but dysautonomic patients cannot effectively mobilize pooled splanchnic blood. The result is paradoxical: splanchnic vessels remain dilated (pooling persists) while capillary perfusion pressure drops (hypoperfusion), creating ischemic stress in the intestinal mucosa.
 
 Van Campen et al. @VanCampen2020SeverityCPET demonstrated that severe ME/CFS patients show 27% reduction in cerebral blood flow during minimal orthostatic stress (20-degree head-up tilt), compared to only 7% reduction in healthy controls. Given that splanchnic vessels are more compliant and receive lower circulatory priority than cerebral vessels during sympathetic activation, it is mechanistically plausible that severe ME/CFS patients experience _equal or greater_ splanchnic blood flow reduction during routine postural changes.
 
-*Inference for Severe Patients (Certainty: 0.65):* If a 20-degree tilt—a nearly supine position—causes 27% cerebral blood flow reduction, then sitting upright, standing attempts, or even cognitive exertion requiring blood redistribution likely trigger substantial splanchnic hypoperfusion in severe ME/CFS patients. This hypoperfusion may occur during activities that would not be considered “exercise” in healthy individuals: reading, conversation, sitting upright for meals, or toileting.
+*Inference for Severe Patients (Certainty: 0.40):* If a 20-degree tilt—a nearly supine position—causes 27% cerebral blood flow reduction, then sitting upright, standing attempts, or even cognitive exertion requiring blood redistribution likely trigger substantial splanchnic hypoperfusion in severe ME/CFS patients. This hypoperfusion may occur during activities that would not be considered “exercise” in healthy individuals: reading, conversation, sitting upright for meals, or toileting.
 
-==== Connection to Gut Barrier Function.
+==== Connection to Gut Barrier Function
 The gastrointestinal mucosa is highly metabolically active and exquisitely sensitive to hypoperfusion. In healthy individuals, 60 minutes of vigorous exercise (70% VO#sub[2]max) causes portal blood flow to decrease by 80%, with splanchnic hypoperfusion detectable within 10 minutes @vanWijck2011. This exercise-induced hypoperfusion results in measurable intestinal injury: plasma I-FABP (intestinal fatty acid-binding protein, a marker of enterocyte damage) increases within 1 hour, and intestinal permeability transiently rises, allowing bacterial lipopolysaccharide (LPS) to translocate into systemic circulation @vanWijck2011.
 
 In ME/CFS patients—particularly those with POTS overlap—chronic baseline splanchnic pooling combined with exaggerated hypoperfusion during minimal activities may create sustained or repeated ischemic stress to the gut mucosa. When combined with wheat consumption (which upregulates zonulin and primes tight junctions for permeability), even brief hypoperfusion episodes could trigger bacterial translocation and LPS-mediated inflammatory responses.
@@ -512,7 +556,7 @@ We propose the concept of *Postural Orthostatic Gut Syndrome (POGS)* for a subse
     - Wheat-primed tight junctions (zonulin-upregulated) → acute permeability increase under ischemic stress
     - LPS translocation → post-orthostatic symptoms (brain fog, nausea, fatigue, delayed systemic inflammation)
 
-*Certainty: 0.65* (inferred from documented CBF reduction via van Campen cerebral blood flow studies @VanCampenEtAl2020 @VanCampenEtAl2024 combined with established splanchnic mechanisms from ter Steege 2012 @terSteege2012; the inference chain is: documented orthostatic CBF reduction $arrow.r$ inferred splanchnic hypoperfusion $arrow.r$ hypothesized gut barrier failure in wheat-primed mucosa).
+*Certainty: 0.40* (inferred from documented CBF reduction via van Campen cerebral blood flow studies @VanCampenEtAl2020 @VanCampenEtAl2024 combined with established splanchnic mechanisms from ter Steege 2012 @terSteege2012; the inference chain is: documented orthostatic CBF reduction $arrow.r$ inferred splanchnic hypoperfusion $arrow.r$ hypothesized gut barrier failure in wheat-primed mucosa; the POGS construct itself is novel and untested).
 
 *Testable Predictions:*
 
@@ -567,12 +611,27 @@ Many ME/CFS patients exhibit elevated resting heart rate:
 === Heart Rate Variability
 <sec:hrv>
 
-Heart rate variability (HRV) reflects autonomic modulation of the sinoatrial node (see Chapter @ch:neurological for detailed discussion). Multiple studies document autonomic dysfunction in ME/CFS @Newton2007autonomicDysfunction, and the NIH deep phenotyping study confirmed significantly reduced HRV in ME/CFS patients @walitt2024deep:
+Heart rate variability (HRV) reflects autonomic modulation of the sinoatrial node (see Chapter @ch:neurological for detailed discussion). Multiple studies document autonomic dysfunction in ME/CFS @Newton2007autonomicDysfunction, and the NIH deep phenotyping study confirmed significantly reduced HRV in ME/CFS patients (@walitt2024deep):
 
     - *Reduced overall HRV*: Lower SDNN and total power
     - *Diminished parasympathetic markers*: Reduced high-frequency power and RMSSD
     - *Altered sympathovagal balance*: Changed LF/HF ratio
     - *Prognostic implications*: Low HRV predicts poor health outcomes generally
+
+A comparative study by Ryabkova et al. (2024) demonstrated that while both ME/CFS and post-COVID syndrome patients show similar patterns of reduced HRV and baroreflex sensitivity at rest, the two conditions diverge under controlled slow breathing: HRV parameters normalised in PCS patients but remained abnormal in ME/CFS patients @Ryabkova2024dysautonomia. This differential response suggests that autonomic dysfunction in ME/CFS involves a more fixed or structural impairment than the potentially reversible dysautonomia seen in post-COVID, and may serve as a distinguishing feature between the two conditions. Notably, HRV and blood pressure variability parameters correlated with fatigue severity but not with depression or anxiety scores, supporting a physiological rather than psychological basis for the autonomic findings.
+
+==== Within-Person HRV Fluctuations as Symptom Predictors
+<sec:hrv-fluctuations>
+
+A large intensive longitudinal study of daily HRV monitoring in complex chronic illness (Aitken et al.\ 2026; n=4244 Visible app users with Long COVID, ME/CFS, or other energy-limiting conditions) found that within-person fluctuations in morning HR and HRV (measured as RMSSD scaled to a 0–100 score) predicted same-day symptom reports @Aitken2026digitalHRV. Participants provided 60-second photoplethysmography (PPG) assessments each morning and self-reported crash, fatigue, and brain fog severity each evening, yielding an average of 125 biometric observations per participant. The study was retrospective in design, analysing data already collected through the commercial Visible app; participants self-identified their conditions without standardized diagnostic confirmation.
+
+Within-person increases in morning HR and decreases in HRV were significantly associated with worsening evening symptoms across all three outcomes. Greater 7-day variability (coefficient of variation) in HR and HRV further predicted symptom deterioration, suggesting that short-term instability in cardiovascular dynamics—not just tonic levels—is associated with worsening daily symptom patterns. Walk-forward cross-validation showed that models combining morning biometrics with prior-day symptom reports achieved AUC values of 0.82 for crash, 0.74 for fatigue, and 0.85 for brain fog, representing statistically significant improvements over prior-day symptoms alone (AUC 0.78 for crash, 0.73 for fatigue, 0.83 for brain fog) @Aitken2026digitalHRV.
+
+Between-person patterns were also informative: individuals with more stable morning HR experienced fewer symptoms on average, while lower average morning HRV was associated with increased crash likelihood @Aitken2026digitalHRV. While these observations parallel the autonomic dysfunction findings from research-grade studies documented above, the methodological differences (consumer PPG vs.\ ECG, self-identified vs.\ clinician-confirmed diagnoses) preclude treating them as mutual validation. The data suggest that day-to-day HRV dynamics accessible via consumer devices may carry within-person predictive value for symptom fluctuations, but this remains to be confirmed in clinician-confirmed ME/CFS cohorts using standardized protocols.
+
+#limitation(title: [Digital HRV Monitoring Limitations])[
+The Aitken et al.\ study used retrospective data from a commercial app without standardized ME/CFS diagnostic confirmation; participants self-identified their conditions, and the proportion with ME/CFS specifically (vs.\ Long COVID or other conditions) is not reported. PPG-derived HRV from smartphone cameras and armbands may be less accurate than research-grade ECG, particularly for frequency-domain metrics. The 60-second morning PPG protocol did not standardize posture (supine vs.\ seated), time since waking, or medication status—pre-analytical variables that can shift RMSSD by 20–40%. The modest AUC improvements from biometrics over prior-day symptoms alone (0.01–0.04 in some comparisons) raise questions about clinical utility beyond existing self-monitoring. The study population was self-selected ambulatory app users; severe and very severe patients who cannot sustain daily monitoring were effectively excluded. Future prospective studies with confirmed ME/CFS diagnosis and continuous (rather than 60-second) monitoring are needed to establish clinical applicability @Aitken2026digitalHRV.
+]
 
 === Heart Rate Recovery
 <sec:hr-recovery>
@@ -590,7 +649,7 @@ Heart rate recovery (HRR) after exercise reflects parasympathetic reactivation:
 === Hypercoagulability
 <sec:hypercoagulability>
 
-Some ME/CFS patients show evidence of increased coagulation activation @Nunes2022microclots:
+Some ME/CFS patients show evidence of increased coagulation activation (@Nunes2022microclots):
 
     - *Platelet hyperactivation*: Approximately 80% of ME/CFS patients demonstrate platelet hyperactivation (mean spreading score 2.72 vs.\ 1.00 in controls), with pseudopodia formation @Nunes2022microclots
     - *Thromboelastography*: Hypercoagulable state detected in $tilde$50% of ME/CFS participants across multiple thromboelastography parameters @Nunes2022microclots
@@ -601,7 +660,7 @@ Serum proteomics data from Hoel et al.\ (2026) @Hoel2026proteome provided furth
 === Fibrin Deposition
 <sec:fibrin>
 
-Excessive fibrin deposition may impair microcirculation @Nunes2022microclots:
+Excessive fibrin deposition may impair microcirculation (@Nunes2022microclots):
 
     - *Fibrinaloid microclots*: Amyloid-resistant fibrin microclots are present in ME/CFS plasma at $>$10-fold greater burden than in healthy controls @Nunes2022microclots
     - *Microcapillary obstruction*: These rigid microclots may block microcapillaries, reducing perfusion and contributing to post-exertional symptoms @Nunes2022microclots
@@ -611,7 +670,7 @@ Excessive fibrin deposition may impair microcirculation @Nunes2022microclots:
 === Red Blood Cell Deformability
 <sec:rbc-deformability>
 
-Red blood cells must deform to traverse capillaries @Saha2019:
+Red blood cells must deform to traverse capillaries (@Saha2019):
 
     - *Reduced deformability*: Red blood cell deformability is significantly diminished in ME/CFS patients @Saha2019
     - *Mechanisms*: Membrane oxidative damage, altered lipid composition
@@ -684,7 +743,7 @@ The mast cell-cardiovascular connection has therapeutic implications. H1 antihis
 == Summary: Integrated Cardiovascular Model
 <sec:cv-summary>
 
-Cardiovascular dysfunction in ME/CFS involves multiple interacting abnormalities @walitt2024deep:
+Cardiovascular dysfunction in ME/CFS involves multiple interacting abnormalities (@walitt2024deep):
 
     - *Reduced blood volume*: Hypovolemia compromises cardiac preload and limits cardiac output reserve
 
@@ -719,7 +778,7 @@ During exercise, the CNS must:
     - *Autonomic coordination*: Increase heart rate, redistribute blood flow, maintain blood pressure during postural changes, regulate respiration, initiate sweating—all requiring brainstem and hypothalamic processing.
     - *Integration*: Coordinate motor and autonomic outputs so that cardiovascular supply matches muscular demand in real time.
 
-In ME/CFS, if total CNS energy available for coordination is reduced, attempting both tasks simultaneously will exceed the available budget sooner than either task alone. This explains the central governor theory observation @Noakes2004governor @StClairGibson2004fatigue: the brain limits motor output to protect itself from energy depletion.
+In ME/CFS, if total CNS energy available for coordination is reduced, attempting both tasks simultaneously will exceed the available budget sooner than either task alone. This explains the central governor theory observation (@Noakes2004governor, @StClairGibson2004fatigue): the brain limits motor output to protect itself from energy depletion.
 
 *ME/CFS-Specific Predictions.*
 This hypothesis explains several puzzling CPET findings:
