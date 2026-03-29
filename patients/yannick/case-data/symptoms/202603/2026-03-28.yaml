@@ -1,0 +1,49 @@
+date: 2026-03-28
+
+symptoms:
+  fatigue_level: "low"
+  fatigue_notes: >
+    Feeling rather OK overall.
+  pem_active: false
+  cognitive_status: "mild brain fog"
+  cognitive_notes: >
+    Head not perfectly clear; some mild brain fog present.
+  nausea: null
+  headache:
+    present: true
+    severity: "mild-moderate"
+    notes: >
+      Strange headache present throughout the day, before the party/alcohol.
+      Cause unclear — preceded alcohol consumption.
+  orthostatic_intolerance: null
+  pain_arms: null
+  muscle_cramp:
+    location: "right calf"
+    timing: "overnight (night of 2026-03-27)"
+    notes: >
+      Muscle cramp in right leg calf during the night.
+
+sleep:
+  quality: null
+  sleep_notes: >
+    Disturbed by muscle cramp in right calf during the night.
+
+medications_supplements:
+  taken_as_planned: null
+  vitamin_c_discontinued: true
+
+activity:
+  social: true
+  social_notes: >
+    Party in the evening. Poker — noticed difficulty counting cards and
+    money/tokens mentally. Tasks that would normally be easy required
+    noticeably more cognitive energy than available. Could not follow
+    or do mental arithmetic as fluently as usual.
+
+notes: >
+  Feeling rather OK during the day. Mild brain fog — head not perfectly clear.
+  Nocturnal muscle cramp in right calf (night of 2026-03-27).
+  Strange headache present throughout the day (before alcohol).
+  Went to a party in the evening; consumed alcohol.
+  Cognitive load during poker: mental arithmetic and card/token counting
+  felt effortful and degraded vs. usual ability.

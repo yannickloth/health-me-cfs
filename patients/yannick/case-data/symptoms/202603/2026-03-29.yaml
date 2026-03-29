@@ -1,0 +1,53 @@
+date: 2026-03-29
+
+symptoms:
+  fatigue_level: "moderate"
+  fatigue_notes: >
+    Hangover-related fatigue after alcohol consumption at party on 2026-03-28 evening.
+  pem_active: false
+  pem_notes: >
+    Not clearly PEM — symptoms consistent with hangover.
+    Monitor over next 48-72h for delayed PEM pattern.
+  cognitive_status: "moderate-severe brain fog"
+  cognitive_notes: >
+    Felt intoxicated/drugged — likely hangover-related cognitive impairment.
+    Improving as the day progresses.
+    Continued difficulty with mental arithmetic (counting cards/tokens at poker,
+    counting money) — tasks that would normally be easy required more cognitive
+    energy than available. Notable contrast with usual high proficiency.
+  headache:
+    present: true
+    severity: "moderate"
+    notes: >
+      Hangover headache. Note: headache was already present on 2026-03-28
+      before alcohol — alcohol likely worsened a pre-existing symptom.
+  nausea: null
+  orthostatic_intolerance: null
+
+sleep:
+  quality: "poor"
+  sleep_notes: >
+    Sleep after party/alcohol. Alcohol suppresses REM — likely poor restorative quality
+    even if adequate duration.
+
+medications_supplements:
+  taken_as_planned: true
+  notes: >
+    Evening doses (1 rupatall, 1 famotidine, 1 riboflavin/B2) not yet taken
+    at time of logging — standard evening schedule.
+
+activity:
+  social: true
+  social_notes: >
+    Met people, discussed, played poker. Cognitive demands of the game
+    (counting, mental arithmetic) exceeded available cognitive energy.
+
+notes: >
+  Hangover day after party on 2026-03-28 evening. Headache (already present yesterday,
+  worsened by alcohol) and drug-like brain fog / feeling of intoxication in the morning.
+  Feeling better as the day progresses. Evening doses pending:
+  1 rupatall, 1 famotidine, 1 riboflavin/B2.
+  Cognitive impairment concrete example: poker mental arithmetic (counting cards,
+  tokens, money) felt effortful and degraded — normally a strength.
+  Priority: hydration, electrolytes, salt, rest. Keep activity minimal to avoid
+  stacking hangover with PEM.

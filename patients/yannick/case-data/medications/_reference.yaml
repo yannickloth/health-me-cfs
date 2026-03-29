@@ -5,6 +5,8 @@ regimen:
   - name: "Riboflavin (Vitamin B2)"
     category: "supplement"
     indication: "mitochondrial support, energy metabolism"
+    frequency: "1x/day"
+    schedule: "evening"
 
   - name: "Low Dose Naltrexone (LDN)"
     category: "medication"
@@ -35,11 +37,14 @@ regimen:
     indication: "antihistamine / mast cell stabiliser"
     frequency: "3x/day"
     typical_daily_count: 3
+    schedule: "2x morning/daytime, 1x evening"
     start_date: "2026-02-19"
 
   - name: "Famotidine"
     category: "medication"
     indication: "H2 antihistamine / mast cell"
+    frequency: "1x/day"
+    schedule: "evening"
 
   - name: "Magnesium glycinate"
     category: "supplement"
@@ -105,7 +110,8 @@ regimen:
   - name: "Vitamin C"
     category: "supplement"
     indication: "antioxidant, iron absorption cofactor"
-    notes: "often co-administered with iron"
+    end_date: "2026-03-26"
+    notes: "Discontinued 2026-03-26; supply exhausted. Was often co-administered with iron."
 
   - name: "PEA (palmitoylethanolamide)"
     category: "supplement"
