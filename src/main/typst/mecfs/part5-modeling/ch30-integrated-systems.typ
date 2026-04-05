@@ -3,7 +3,7 @@
 = Integrated Multi-System Models
 <ch:integrated-systems>
 
-The preceding chapters developed models of individual physiological subsystems in isolation. ME/CFS, however, is fundamentally a multi-system disease: energy metabolism, immune function, neuroendocrine regulation, and autonomic control are coupled through shared substrates, signaling molecules, and feedback loops (@ch:integrative-models). This chapter formalizes the inter-system couplings and constructs an integrated model that captures emergent properties not present in any subsystem alone.
+The preceding chapters developed models of individual physiological subsystems in isolation. ME/CFS, however, is a multi-system disease: energy metabolism, immune function, neuroendocrine regulation, and autonomic control are coupled through shared substrates, signaling molecules, and feedback loops (@ch:integrative-models). This chapter formalizes the inter-system couplings and constructs an integrated model that captures emergent properties not present in any subsystem alone (@fig:integrated-systems-architecture).
 
 #include "../figures/fig-integrated-systems-architecture.typ"
 
@@ -185,7 +185,7 @@ The whole-body model couples the four subsystem models through the interaction v
 - *Sleep* (2 variables): $S_upright("sleep")$, $C$
 - *Gut* (5 variables): $[upright("butyrate")]$, $[upright("LPS")]$, $cal(G)$ (motility index), $B_upright("SI")$ (SIBO load), $eta$ (absorption efficiency)
 
-The total system comprises approximately 42 state variables governed by coupled ODEs. Note that several symbols are reused across subsystems ($S$ for sympathetic tone and sleep pressure; $V$ for vagal tone and viral load); the subscripted forms ($S_upright("sleep")$, $V_upright("vagal")$) are used in the integrated model to resolve ambiguity. While large, this system is modest compared to genome-scale metabolic models (thousands of variables) and computationally tractable with standard numerical solvers.
+The total system comprises approximately 45 state variables governed by coupled ODEs. Note that several symbols are reused across subsystems ($S$ for sympathetic tone and sleep pressure; $V$ for vagal tone and viral load); the subscripted forms ($S_upright("sleep")$, $V_upright("vagal")$) are used in the integrated model to resolve ambiguity. While large, this system is modest compared to genome-scale metabolic models (thousands of variables) and computationally tractable with standard numerical solvers.
 
 === Healthy Baseline and ME/CFS Disease State
 <sec:baseline-disease>
@@ -241,10 +241,10 @@ Microclot burden reduces effective oxygen delivery (@eq:o2-microclot), which red
 Hypermobile Ehlers--Danlos syndrome (hEDS) is overrepresented among ME/CFS patients. The biomechanical consequences of connective tissue laxity enter the model through modified vascular compliance parameters. Increased venous compliance ($C_v$) amplifies gravitational blood pooling during orthostatic stress:
 
 $
-Delta V_upright("pool") = C_v dot.op Delta P_upright("grav") dot.op h_upright("column"), quad C_v^upright("hEDS") = kappa dot.op C_v^upright("normal"), quad kappa in [1.3, 2.0]
+Delta V_upright("pool") = C_v dot.op rho g dot.op h_upright("column"), quad C_v^upright("hEDS") = kappa dot.op C_v^upright("normal"), quad kappa in [1.3, 2.0]
 $ <eq:eds-vascular>
 
-where $h_upright("column")$ is the hydrostatic column height and $kappa$ is the compliance amplification factor in hEDS. The increased pooling volume enters the orthostatic model (@eq:orthostatic) as a larger effective $Delta P_upright("grav")$, requiring greater compensatory sympathetic activation to maintain MAP. *The model predicts---uniquely through quantitative analysis---that hEDS patients have a narrower energy envelope* because the energy cost of maintaining upright posture is amplified: greater sympathetic drive means higher cardiac work, and the compensatory tachycardia consumes additional ATP. For $kappa = 1.5$, the model predicts a 10--20% reduction in energy available for activity during upright hours, independent of any mitochondrial or immune dysfunction. This provides a quantitative explanation for why hEDS patients with ME/CFS tend toward greater severity: the connective tissue deficit imposes a permanent energy tax on postural maintenance.
+where $C_v$ is venous compliance (volume/pressure), $rho g h_upright("column")$ is the gravitational hydrostatic pressure over column height $h_upright("column")$, and $kappa$ is the compliance amplification factor in hEDS. The increased pooling volume enters the orthostatic model (@eq:orthostatic) as a larger effective $Delta P_upright("grav")$, requiring greater compensatory sympathetic activation to maintain MAP. *The model predicts---uniquely through quantitative analysis---that hEDS patients have a narrower energy envelope* because the energy cost of maintaining upright posture is amplified: greater sympathetic drive means higher cardiac work, and the compensatory tachycardia consumes additional ATP. For $kappa = 1.5$, the model predicts a 10--20% reduction in energy available for activity during upright hours, independent of any mitochondrial or immune dysfunction. This provides a quantitative explanation for why hEDS patients with ME/CFS tend toward greater severity: the connective tissue deficit imposes a permanent energy tax on postural maintenance.
 
 Additionally, increased joint laxity raises proprioceptive error, which the autonomic system compensates for through increased muscle co-contraction. This adds a term $J_upright("proprioceptive") = e_upright("co-contract") dot.op (1 - upright("stability") \/ upright("stability")_0)$ to the energy demand, further narrowing the energy envelope.
 
@@ -265,7 +265,7 @@ where the $epsilon$ coefficients quantify the sensitivity of each parameter to e
 
 $
 frac(d cal(M), d t) &= k_upright("DNMT") dot.op bold(C)_upright("pro") dot.op (1 - cal(M)) - k_upright("demeth") dot.op cal(M) \
-frac(d cal(A), d t) &= k_upright("HAT") dot.op frac([upright("AcCoA")], K_upright("AcCoA") + [upright("AcCoA")]) dot.op (1 - cal(A)) - k_upright("HDAC") dot.op cal(A) + k_upright("SIRT") dot.op frac([upright("NAD")^+], K_upright("SIRT") + [upright("NAD")^+])
+frac(d cal(A), d t) &= k_upright("HAT") dot.op frac([upright("AcCoA")], K_upright("AcCoA") + [upright("AcCoA")]) dot.op (1 - cal(A)) - k_upright("HDAC") dot.op cal(A) - k_upright("SIRT") dot.op frac([upright("NAD")^+], K_upright("SIRT") + [upright("NAD")^+]) dot.op cal(A)
 $ <eq:epigenetic-evolution>
 
 where pro-inflammatory cytokines promote DNA methylation (DNMT upregulation), acetyl-CoA availability limits histone acetylation (HAT activity), and SIRT1/SIRT3 (NAD⁺-dependent deacetylases) modulate histone state. *This model produces hysteresis---a phenomenon that can only be identified through dynamical systems analysis*: the disease state promotes epigenetic changes that stabilize the disease parameters, which in turn maintain the disease state. Even if the original trigger (e.g., viral infection) is fully resolved, the epigenetic state $bold(cal(E))$ may have shifted to values that keep the system in the disease attractor. Recovery then requires not just removing the trigger but reversing the epigenetic changes---a process that operates on the slow timescale $tau_upright("epi") ~ 1 \/ k_upright("demeth") ~$ months to years.
@@ -285,15 +285,138 @@ The extended model incorporates the new subsystem variables:
 - *Autonomic/cardiovascular* (5 variables): original 4 $+$ CBF
 - *Pain/sensitization* (2 variables): $cal(S)$ (sensitization state), $cal(F)$ (fiber density)
 - *Sleep* (2 variables): unchanged
-- *Gut* (2 variables): unchanged
+- *Gut* (5 variables): unchanged
 - *Epigenetic* (2 variables): $cal(M)$, $cal(A)$
 
-The total system now comprises approximately 64 state variables. The additional 22 variables (relative to the initial 42-variable model) capture mast cell/histamine dynamics, coagulation, mitochondrial quality control, metabolic flexibility, neurovascular regulation, pain processing, epigenetic memory, and GI motility/SIBO dynamics. While the system is larger, its modular structure (each subsystem has $lt.eq 5$ coupling variables with others) maintains computational tractability: the Jacobian is sparse, enabling efficient numerical integration and bifurcation analysis.
+The total system now comprises approximately 64 state variables. The additional 19 variables (relative to the initial 45-variable model) capture mast cell/histamine dynamics, coagulation, mitochondrial quality control, metabolic flexibility, neurovascular regulation, pain processing, epigenetic memory, and GI motility/SIBO dynamics. While the system is larger, its modular structure (each subsystem has $lt.eq 5$ coupling variables with others) maintains computational tractability: the Jacobian is sparse, enabling efficient numerical integration and bifurcation analysis.
 
 == Bifurcation Analysis and Disease Subtypes
 <sec:bifurcation-analysis>
 
-The integrated model's nonlinear feedback structure implies the existence of multiple steady states (attractors) for certain parameter ranges. Bifurcation analysis---systematic exploration of how the number and character of attractors change as parameters vary---provides the most powerful application of the mathematical framework, yielding results that are fundamentally inaccessible without formal modeling.
+The integrated model's nonlinear feedback structure implies the existence of multiple steady states (attractors) for certain parameter ranges. Bifurcation analysis---systematic exploration of how the number and character of attractors change as parameters vary---provides the most powerful application of the mathematical framework, yielding results that are inaccessible to verbal reasoning alone.
+
+=== Attractors as an Emergent Consequence of the Biochemistry
+<sec:attractors-emergent>
+
+An epistemological point warrants explicit discussion. The ODEs in @ch:energy-metabolism-models through @ch:integrated-systems were built from biochemical literature---enzyme kinetics, immune cell dynamics, mitochondrial biophysics---without targeting any particular dynamical behaviour. A modeller working from the same literature would make similar (though not necessarily identical) choices, because the key structural elements---saturating production kinetics, immune cell activation dependent on energy availability, bidirectional coupling---are standard biochemical building blocks, not exotic constructions selected for their dynamical properties.
+
+This matters because the bistability derived below is a _consequence_ of these biochemical choices, not a premise. The model was not reverse-engineered from a desired phase portrait. However, we must be precise about what "emergent" means here: it does _not_ mean that every possible model of ME/CFS biochemistry will exhibit bistability. Specific modelling choices---particularly the Hill exponent in the immune activation term (see Remark below)---are necessary conditions for bistability. What we claim is weaker and more defensible: _given_ the standard biochemical forms used throughout @ch:energy-metabolism-models and @ch:immune-system-models, bistability follows without additional assumptions.
+
+This section demonstrates that claim analytically, by deriving attractor existence from first principles on a reduced two-variable subsystem.
+
+==== The Reduced Energy--Immune System
+<sec:reduced-2d>
+
+Consider only the two state variables that carry the dominant positive feedback: ATP concentration $A equiv [upright("ATP")]$ and activated immune cell count $I equiv N_a$. All other variables are treated as quasi-steady-state parameters. From @eq:energy-immune-coupling and @eq:immune-energy-feedback, the reduced system is:
+
+$
+frac(d A, d t) &= P(A) - beta_0 - J_upright("immune")(I) \
+frac(d I, d t) &= k_upright("act")^upright("eff")(A) dot.op I_0 - (k_upright("exh") + d_a) I
+$ <eq:reduced-system>
+
+where $P(A)$ is the net ATP production rate---a unimodal (hump-shaped) function of $A$. The shape follows directly from the PFK-1 kinetics in @eq:pfk1: at low ATP, AMP is high (via adenylate kinase equilibrium $2 upright("ADP") arrow.l.r upright("ATP") + upright("AMP")$), maximally activating glycolysis, but the production machinery itself requires minimal ATP (hexokinase priming, ion gradients), so net production rises with $A$; at high ATP, product inhibition of PFK-1 and low AMP reduce glycolytic flux, while ATP synthase slows as ADP becomes scarce (@eq:atp-synthase), so production falls. The result is $P(A)$ rising from near zero, reaching a peak at intermediate $A$, then declining---a consequence of the adenylate kinase feedback loop, not a modelling choice. The remaining terms: $beta_0$ is basal demand, $J_upright("immune")(I) = e_a I$ is immune energy drain (linear in activated cells), $k_upright("act")^upright("eff")(A) = k_(upright("act,0")) A^2 \/ (K_upright("ATP")^2 + A^2)$ is the Hill-type effective activation rate (@eq:immune-energy-feedback), and $I_0$ is the resting immune cell pool (treated as constant in the reduced model). The parameter $e_a > 0$ is the per-cell energy cost of immune activation.
+
+==== Nullcline Analysis
+<sec:nullcline-analysis>
+
+The fixed points of the system are the intersections of the two nullclines: the $A$-nullcline ($d A\/d t = 0$) and the $I$-nullcline ($d I\/d t = 0$).
+
+*$I$-nullcline.* Setting $d I\/d t = 0$:
+
+$ I^*(A) = frac(k_(upright("act,0")) I_0, k_upright("exh") + d_a) dot.op frac(A^2, K_upright("ATP")^2 + A^2) $ <eq:i-nullcline>
+
+This is a sigmoidal (Hill) function of $A$, increasing from 0 at $A = 0$ to a plateau $I_max = k_(upright("act,0")) I_0 \/ (k_upright("exh") + d_a)$ as $A -> infinity$. The sigmoidal shape is a consequence of the Hill kinetics governing ATP-dependent immune activation (@eq:immune-energy-feedback).
+
+#remark(title: [The Hill Exponent Is a Modelling Choice])[
+The cooperativity exponent $n = 2$ in @eq:immune-energy-feedback is a modelling choice with consequences for bistability. With $n = 1$ (standard Michaelis--Menten), the $I$-nullcline becomes a hyperbolic function lacking the inflection point that enables triple intersection with the $A$-nullcline; the system is then monostable for all parameter values. With $n gt.eq 2$, the $I$-nullcline is sigmoidal and triple intersection becomes possible.
+
+The choice of $n = 2$ is motivated by immunometabolism: immune cell activation involves cooperative processes (receptor clustering, signalling threshold effects, metabolic reprogramming switches) that produce ultrasensitive responses @Ferrell1996ultrasensitivity. T cell activation in particular exhibits a switch-like dependence on TCR signal strength, well-described by Hill kinetics with $n = 1.5$--$3$ @Altan-Bonnet2005. However, $n = 1$ cannot be excluded a priori for all immune cell types, and the bistability result depends on this choice. The analysis below should therefore be read as: _if_ ATP-dependent immune activation is cooperative ($n gt.eq 2$), _then_ bistability follows from the feedback structure.
+] <rem:hill-exponent>
+
+*$A$-nullcline.* Setting $d A\/d t = 0$:
+
+$ I_upright("null")^A (A) = frac(P(A) - beta_0, e_a) $ <eq:a-nullcline>
+
+As established above, $P(A)$ is unimodal: it rises at low $A$ (where the production machinery activates as minimal ATP becomes available), peaks at intermediate $A$, and declines at high $A$ (where product inhibition of PFK-1 and ADP scarcity throttle production). For the ME/CFS regime, where Complex I is partially inhibited ($alpha_upright("CI") < 1$), $P(A)$ is vertically compressed (lower peak) and horizontally compressed (the peak shifts leftward). The $A$-nullcline $(P(A) - beta_0)\/e_a$ inherits this unimodal shape: it rises at low $A$, peaks, and descends at high $A$.
+
+*Intersection multiplicity condition.* Bistability exists when the $I$-nullcline and the $A$-nullcline intersect _three_ times. The $I$-nullcline (@eq:i-nullcline) is strictly monotone increasing and sigmoidal. The $A$-nullcline (@eq:a-nullcline) is unimodal (one local maximum, no other critical points). A strictly monotone curve and a unimodal curve can intersect at most three times: at most once on the ascending limb, at most once near the peak, and at most once on the descending limb. Three intersections occur when the following condition holds:
+
+$ lr(frac(d I_upright("null")^A, d A)|)_(A=A_upright("inflection")) > lr(frac(d I^*, d A)|)_(A=A_upright("inflection")) $ <eq:bistability-condition>
+
+That is, at the inflection point of the $A$-nullcline, its slope exceeds the slope of the sigmoidal $I$-nullcline. Expanding: the $I^*$ slope at inflection is $k_(upright("act,0")) I_0 \/ (2 (k_upright("exh") + d_a) K_upright("ATP"))$; the $A$-nullcline slope depends on $P'(A) \/ e_a$. The condition reduces to:
+
+$ frac(P'(A_upright("inf")), e_a) > frac(k_(upright("act,0")) I_0, 2 (k_upright("exh") + d_a) K_upright("ATP")) $ <eq:bistability-inequality>
+
+==== Parameter Regimes: Healthy vs.~ME/CFS
+<sec:parameter-regimes>
+
+@eq:bistability-inequality can be evaluated for each parameter regime using the values in @app:mathematical-details.
+
+*Healthy regime* ($alpha_upright("CI") = 1.0$, $k_upright("exh") = 0.05 "day"^(-1)$, $k_upright("recov") = 0.10 "day"^(-1)$). With full Complex I activity, $P'(A)$ is steep and $P(A) - beta_0 > 0$ for a wide range of $A$. However, healthy $k_upright("exh")$ is low and $k_upright("recov")$ is high, so the immune exhaustion term $(k_upright("exh") + d_a)$ in the denominator of $I^*(A)$ is moderate. The $I$-nullcline plateau $I_max$ is therefore limited: the immune system self-regulates before escalating to energy-depleting levels. Numerically, the $A$-nullcline lies above the $I$-nullcline for all physiologically plausible $A$, and the two curves intersect _once_---yielding a single, stable healthy fixed point. The eigenvalues of the Jacobian at this point are:
+
+$ lambda_(1,2) = frac(1, 2) [(f_(A A) + g_(I I)) plus.minus sqrt((f_(A A) - g_(I I))^2 + 4 f_(A I) g_(I A))] $ <eq:healthy-eigenvalues>
+
+where $f_(A A) = partial(dot(A))\/partial A < 0$ (ATP dynamics are self-stabilising at steady state), $g_(I I) = -(k_upright("exh") + d_a) < 0$ (immune populations decay in the absence of activation), and the cross-terms $f_(A I) = -e_a < 0$ and $g_(I A) = k'_(upright("act,0")) I_0 > 0$. For healthy parameters, $|f_(A A) g_(I I)| > |f_(A I) g_(I A)|$, so the discriminant is negative (complex eigenvalues) or both real parts are negative. The single fixed point is a stable node or stable spiral: *the healthy state is an attractor*.
+
+*ME/CFS regime* ($alpha_upright("CI") = 0.65$, $k_upright("exh") = 0.15 "day"^(-1)$, $k_upright("recov") = 0.04 "day"^(-1)$). With reduced Complex I activity, $P(A)$ is compressed: $P(A) - beta_0$ is positive over a narrower range of $A$ and the peak of $P'(A)$ is lower---the $A$-nullcline drops. Simultaneously, the ME/CFS regime has elevated $k_upright("exh")$. This _increases_ the denominator $(k_upright("exh") + d_a)$ of $I^*(A)$, which _lowers_ the plateau $I_max$---on its own this would make bistability harder, not easier. However, the critical effect is that the depressed $A$-nullcline (from reduced $alpha_upright("CI")$) now has a lower, narrower hump that intersects the (also lowered) $I$-nullcline in the three-intersection geometry. Whether @eq:bistability-inequality is satisfied depends on the quantitative balance between the compression of $P(A)$ and the lowering of $I_max$; for the stated parameter values, the condition holds (verified numerically in @app:mathematical-details).
+
+#proposition(title: [Bistability of the Energy--Immune Subsystem])[
+Under ME/CFS parameters ($alpha_upright("CI") = 0.65$, $k_upright("exh") = 0.15 "day"^(-1)$, $k_upright("recov") = 0.04 "day"^(-1)$) and with cooperative immune activation ($n = 2$, @rem:hill-exponent), the reduced system (@eq:reduced-system) has exactly three fixed points: two stable fixed points (nodes or spirals) and one saddle.
+] <prop:bistability>
+
+#proof[
+_Step 1: A positively invariant region exists._ Since $A$ and $I$ represent physical concentrations, the positive quadrant $A gt.eq 0$, $I gt.eq 0$ is preserved by the dynamics (at $A = 0$: $dot(A) = P(0) - beta_0 gt.eq 0$ when $I = 0$; at $I = 0$: $dot(I) = k_upright("act")^upright("eff")(A) dot.op I_0 > 0$ for $A > 0$). For the upper bounds, choose $A_max$ so that $P(A_max) < beta_0$ (guaranteed by PFK-1 product inhibition at high ATP) and let $I_max = k_(upright("act,0")) I_0 \/ (k_upright("exh") + d_a)$ (the $I$-nullcline plateau). Define the trapping region as the set bounded by $I = 0$, $A = A_max$, $I = I_max$, and the $A$-nullcline curve $I = (P(A) - beta_0)\/e_a$ on the left (which lies to the left of the ascending limb and satisfies $dot(A) > 0$ in its interior). On the upper boundary $I = I_max$: $dot(I) < 0$ because immune clearance $(k_upright("exh") + d_a)I$ exceeds activation at the plateau. On $A = A_max$: $dot(A) = P(A_max) - beta_0 - e_a I < 0$. On $I = 0$: $dot(I) > 0$. On the left boundary (the $A$-nullcline curve): by construction $dot(A) = 0$ on this curve and $dot(A) > 0$ immediately to its right, so trajectories cannot exit leftward. This trapping region $cal(R)$ is positively invariant and contains all three fixed points.
+
+_Step 2: Exactly three fixed points._ Fixed points are intersections of the $I$-nullcline and $A$-nullcline. The $I$-nullcline (@eq:i-nullcline) is strictly monotone increasing (derivative always positive for $A > 0$). The $A$-nullcline (@eq:a-nullcline) is unimodal: it has exactly one local maximum (inherited from the unimodal $P(A)$) and is therefore composed of two monotone pieces---an ascending limb and a descending limb. On any interval where both curves are monotone in the same direction, they can intersect at most once (by the monotonicity of their difference). The ascending limb of the $A$-nullcline and the $I$-nullcline are both increasing, giving at most one intersection; the descending limb of the $A$-nullcline intersects the still-increasing $I$-nullcline at most once (again by monotonicity of the difference). A third intersection can occur in the transition region near the peak. Thus at most three intersections total.
+
+The lower bound uses the intermediate value theorem on the difference $h(A) = I_upright("null")^A (A) - I^*(A)$. Near $A = 0$: $P(0) approx 0$ (the production machinery requires some ATP), so $I_upright("null")^A (0) approx -beta_0\/e_a < 0$ while $I^*(0) = 0$, giving $h(0) < 0$. As $A$ increases, $P(A)$ rises (ascending limb of the unimodal production function) and eventually $P(A) - beta_0 > e_a I^*(A)$, making $h > 0$: the $A$-nullcline rises above the $I$-nullcline. By the IVT, at least one crossing occurs on the ascending limb (the disease fixed point). On the descending limb at high $A$, $P(A)$ falls back below $beta_0$ while $I^*(A) > 0$, so $h < 0$ again: at least one crossing on the descending limb (the healthy fixed point). This gives at least two crossings. The third crossing (the saddle) arises when @eq:bistability-inequality holds: the condition ensures that near the peak of the $A$-nullcline, the $A$-nullcline slope exceeds the $I$-nullcline slope, creating a fold where the $I$-nullcline overtakes the $A$-nullcline from below, producing an additional sign change in $h$. Numerical evaluation at the stated ME/CFS parameter values (@app:mathematical-details) confirms that three crossings occur. Combined with the upper bound of three: *exactly three*.
+
+_Step 3: Jacobian and eigenvalue classification._ At each fixed point $(A^*, I^*)$, the Jacobian is:
+
+$ J = mat(P'(A^*), -e_a; display(frac(2 k_(upright("act,0")) I_0 K_upright("ATP")^2 A^*, (K_upright("ATP")^2 + A^(*2))^2)), -(k_upright("exh") + d_a)) equiv mat(f_A, f_I; g_A, g_I) $ <eq:jacobian-2d>
+
+The trace is $tau = f_A + g_I = P'(A^*) - (k_upright("exh") + d_a)$ and the determinant is $Delta = f_A g_I - f_I g_A$. Since $f_I = -e_a < 0$ and $g_A > 0$ for all $A^* > 0$, the cross-coupling term $-f_I g_A = e_a g_A > 0$ always contributes positively to $Delta$.
+
+*Healthy fixed point* $(A_H, I_H)$, on the descending limb of the $A$-nullcline: $P'(A_H) < 0$, so $f_A < 0$. The trace $tau = P'(A_H) - (k_upright("exh") + d_a) < 0$ (both terms negative). The determinant $Delta = |P'(A_H)|(k_upright("exh") + d_a) + e_a g_A > 0$. Negative trace and positive determinant: *stable* (node or spiral).
+
+*Disease fixed point* $(A_D, I_D)$, on the ascending limb of the $A$-nullcline: $P'(A_D) > 0$, so $f_A > 0$. The determinant sign follows from the nullcline crossing geometry. At this intersection, the $I$-nullcline is steeper than the $A$-nullcline (the $I$-nullcline crosses from below as $A$ increases). In terms of Jacobian entries, this means $g_A \/ |g_I| > P'(A_D) \/ e_a$, i.e., $e_a g_A > P'(A_D)(k_upright("exh") + d_a)$, ensuring $Delta > 0$. For the trace: $tau = P'(A_D) - (k_upright("exh") + d_a) < 0$ requires $P'(A_D) < k_upright("exh") + d_a$. Both quantities have units of (time)$""^(-1)$ in the non-dimensionalised system. This condition holds when $A_D$ lies in the region where the ascending slope of $P$ is moderate, which is the case for the stated ME/CFS parameter values (verified numerically in @app:mathematical-details). Negative trace and positive determinant: *stable* (node or spiral).
+
+*Saddle point* $(A_s, I_s)$, near the peak of the $A$-nullcline: here the $I$-nullcline is _less steep_ than the $A$-nullcline (the $A$-nullcline crosses the $I$-nullcline from below as $A$ increases---the opposite crossing direction). This gives $P'(A_s) \/ e_a > g_A \/ (k_upright("exh") + d_a)$, so $P'(A_s)(k_upright("exh") + d_a) > e_a g_A$, making $Delta = -P'(A_s)(k_upright("exh") + d_a) + e_a g_A < 0$. Negative determinant: eigenvalues have opposite signs, confirming an *unstable saddle*.
+
+_Step 4: Index theory consistency._ By the planar fixed-point index theorem applied to the trapping region $cal(R)$ (Step 1), the sum of indices of all interior fixed points must equal $+1$. Stable nodes/spirals have index $+1$; saddles have index $-1$. Three fixed points with indices $+1, -1, +1$ sum to $+1$. $checkmark$
+]
+
+The three fixed points are therefore:
+
++ *Disease fixed point* $(A_D, I_D)$: low ATP, high immune activation. On the ascending limb of the $A$-nullcline. The *disease attractor*.
++ *Saddle point* $(A_s, I_s)$: intermediate ATP, intermediate immune activation. Its stable manifold forms the *separatrix*---the boundary between the two basins of attraction.
++ *Healthy-adjacent fixed point* $(A_H, I_H)$: high ATP, low immune activation. On the descending limb of the $A$-nullcline. A *stable attractor*, but with a smaller basin of attraction than in the healthy regime.
+
+The disease attractor exists because the positive feedback loop is self-sustaining at ME/CFS parameter values: high immune activation depletes ATP, depleted ATP impairs immune regulation, impaired regulation sustains high immune activation. This cycle does not close in the healthy regime because $k_upright("recov")$ is sufficiently high to bring activated cells back to resting before ATP is critically depleted.
+
+==== Analytical Summary
+<sec:attractor-summary>
+
+The reduced 2D system establishes three results for the energy--immune subsystem:
+
++ *Both regimes have a healthy attractor*: even ME/CFS parameters support a healthy fixed point---but with a smaller basin of attraction. Recovery is theoretically possible without parameter restoration, but requires a large directed perturbation.
++ *The disease attractor is absent in the healthy regime*: at healthy parameter values, only one fixed point exists (@sec:parameter-regimes). As $alpha_upright("CI")$ decreases and $k_upright("exh")$ increases toward ME/CFS values, the disease and saddle fixed points appear (consistent with a saddle-node bifurcation, though tracing the exact bifurcation curve requires numerical continuation).
++ *The bistability depends on two structural ingredients*: (a) cooperative ($n gt.eq 2$) ATP-dependent immune activation (@rem:hill-exponent), and (b) a unimodal production function $P(A)$ (a consequence of adenylate kinase feedback and PFK-1 product inhibition). Models sharing both ingredients will exhibit qualitatively similar bifurcation structure; models lacking either (e.g., $n = 1$ Michaelis--Menten activation) will not.
+
+#limitation(title: [Quasi-Steady-State Reduction])[
+The 2D analysis treats 62 state variables as quasi-steady-state (QSS) parameters. This is justified when the omitted variables equilibrate faster than the two retained variables. For many omitted variables this holds: cytokine half-lives are minutes to hours, membrane potential equilibrates in milliseconds, and metabolite pools turn over in seconds @Eissing2011. However, some omitted variables---notably epigenetic modifications ($tau_upright("epi") tilde.op$ months) and immune cell exhaustion ($tau_upright("exh") tilde.op$ weeks)---operate on _slower_ timescales than ATP and activated immune cells. These slow variables act as slowly drifting parameters in the reduced system rather than fast slaves; their effect is to slowly move the bifurcation point, not to alter the existence of bistability at a given parameter snapshot. Nonetheless, the qualitative conclusions---bistability exists, healthy parameters support one attractor, ME/CFS parameters support two---should be regarded as analytically demonstrated for the 2D subsystem and conjectured for the full model until verified by numerical continuation analysis (AUTO, MATCONT). Quantitative claims (exact bifurcation thresholds, basin sizes) require the full system.
+] <lim:qss-reduction>
+
+==== Competing Dynamical Hypotheses
+<sec:competing-hypotheses>
+
+The bistable fixed-point model is not the only dynamical explanation for ME/CFS chronicity. Three alternatives deserve explicit consideration.
+
+*Continuous parametric shift (no bistability).* Under this hypothesis, ME/CFS represents a different region of a single attractor's basin: parameters (e.g., $alpha_upright("CI")$, $k_upright("exh")$) drift due to ongoing damage, and symptoms track the parameter shift continuously. Recovery occurs gradually when parameters return. This model predicts that partial treatment should produce partial, graded improvement---and that spontaneous recovery should correlate smoothly with parameter restoration. It is _less parsimonious_ than the bistable model for explaining two clinical observations: (1) many infections of comparable severity resolve without triggering ME/CFS, suggesting a threshold rather than a graded response; and (2) symptoms persist after the apparent trigger resolves, which a purely parametric model explains only by invoking ongoing hidden damage. However, the continuous-shift hypothesis is not decisively falsified by current evidence---a parametric model with rapid parameter change could mimic threshold-like onset, and ongoing subclinical damage (e.g., viral persistence) could explain persistence. Distinguishing the two models requires longitudinal multi-omic trajectories with sufficient temporal resolution to detect whether the state-space path shows a continuous drift or a discontinuous jump.
+
+*Limit cycle (oscillatory attractor).* Under this hypothesis, the disease state is not a fixed point but a stable limit cycle: the system oscillates between better and worse states, potentially explaining the boom-bust pattern (PEM followed by partial recovery) characteristic of ME/CFS. This is a genuine alternative that the 2D analysis does not exclude. For limit cycles to arise in a 2D system, the disease fixed point would need to be an unstable spiral (positive real part of complex eigenvalues) surrounded by a stable limit cycle (via Hopf bifurcation). @prop:bistability shows the disease fixed point is a stable node at the stated parameters; however, for other parameter values a Hopf bifurcation could replace the stable disease node with a limit cycle. The two hypotheses are not mutually exclusive: some patients may sit in a stable disease attractor (steady-state illness) while others orbit a limit cycle (relapsing-remitting course). Distinguishing them clinically requires longitudinal time-series analysis of biomarkers with sufficient temporal resolution to detect oscillatory versus steady-state dynamics.
+
+*Epigenetic lock-in (no dynamical bistability needed).* T cell exhaustion via epigenetic imprinting is well-documented @Pauken2016epigenetic: once T cells commit to an exhausted phenotype through DNA methylation changes, they persist regardless of the original trigger. Under this simpler hypothesis, chronicity reflects epigenetic memory rather than dynamical bistability---no feedback loop is needed, just a one-way epigenetic switch. This hypothesis is compatible with our model (@sec:epigenetic-dynamics already includes epigenetic consolidation), but would predict that disease persistence depends entirely on the epigenetic state, not on ongoing energy--immune feedback. It is testable: if epigenetic reprogramming (e.g., via demethylating agents) restores immune function without addressing energy metabolism, the epigenetic-only model is supported. If recovery requires simultaneous energy and immune normalisation, the feedback model is supported.
 
 === Steady-State Multiplicity
 
@@ -306,7 +429,9 @@ The energy--immune coupling alone (@eq:energy-immune-coupling and @eq:immune-ene
 + *Neurovascular-dominant attractor*: impaired CBF autoregulation, BH₄ depletion, autonomic dysfunction, moderate energy and immune impairment. Patients present with cognitive dysfunction, orthostatic intolerance, and pain as primary symptoms.
 + *Severe/locked attractor*: all subsystems degraded, epigenetic consolidation complete. This attractor has the deepest basin of attraction and the highest intervention threshold for escape.
 
-Each attractor has a characteristic biomarker signature derivable from the model's steady-state equations, enabling classification of individual patients into subtypes. *This subtyping is mechanistic, not phenomenological*: it derives from the mathematical structure of the coupled ODEs, not from statistical clustering of symptoms. The model predicts that patients within the same attractor basin should respond similarly to targeted interventions, providing a rational basis for treatment stratification.
+Each attractor has a characteristic biomarker signature derivable from the model's steady-state equations. This subtyping is mechanistic: it derives from the mathematical structure of the coupled ODEs, not from statistical clustering of symptoms. The model predicts that patients within the same attractor basin should respond similarly to targeted interventions, providing a rational basis for treatment stratification.
+
+An important caveat: the discrete-attractor subtype model competes with the alternative that ME/CFS heterogeneity forms a continuous spectrum, as proposed by symptom-based severity models @Nacul2020naturalhistory @Jason2010subtypes. These are empirically distinguishable: discrete attractors predict clusters in multi-omics data with gaps between them, while a continuous spectrum predicts a smooth distribution. Current data are insufficient to discriminate (most studies lack the multi-domain simultaneous measurements the model requires), and the truth may be intermediate: discrete attractors with noisy parameter variation producing apparent continuity within each basin.
 
 === Separatrix Topology and Recovery Paths
 
@@ -409,3 +534,163 @@ _Captured_: energy metabolism (glycolysis, Krebs, ETC, ROS, mitochondrial dynami
 
 *Falsification criteria for the integrated model.*
 The integrated model's central prediction is _emergent multi-system dysfunction from modest individual impairments_ (the multiplicative interaction principle). *Falsified if*: comprehensive multi-system profiling reveals that ME/CFS patients have _one_ severely impaired system with others unaffected (additive, not multiplicative, pathology), or if correcting a single system (e.g., normalizing immune function alone) produces complete remission (would disprove the multi-system coupling requirement).
+
+== Neuroplasticity Attractor Dynamics
+<sec:neuroplasticity-attractor>
+
+The preceding sections model ME/CFS as a multi-system disease with coupled energy--immune--neuroendocrine dynamics. This section extends the framework to incorporate neuroplasticity, central sensitization, and thyroid hormone interactions---formalizing the "pathological attractor state" concept from the clinical brainstorm (Speculation @spec:attractor-landscape).
+
+#limitation(title: [Conceptual Scaffold, Not Quantitative Model])[
+The ODE system presented below is a *conceptual scaffold*: it formalizes the hypothesized causal structure (which variables affect which, and in what direction) but contains no empirically constrained parameters. No ME/CFS-specific measurement exists for any rate constant in the model. The mathematical formalism serves three purposes: (1) forcing explicit specification of causal links rather than verbal hand-waving; (2) deriving qualitative predictions (e.g., multiplicative combination effects) that follow logically from the assumed structure; and (3) identifying what measurements would be needed to constrain the model. It does NOT provide quantitative predictions, and the fixed-point analysis describes what the model implies IF its structure is correct---not what will happen in patients. The verbal summary of the model's content is: "kindling, T3 depletion, microglial activation, and epigenetic locking may reinforce each other; treating multiple ones simultaneously may work better than treating one at a time." The ODE formalism adds one genuinely novel prediction beyond this verbal statement: that combination effects should be *multiplicative* (detectable as interaction terms in factorial trials), not merely additive. Readers should evaluate whether the mathematical apparatus is justified by this single additional prediction.
+]
+
+=== Multi-Loop Feedback Model
+
+The core observation motivating this model is that ME/CFS appears to be maintained by multiple self-reinforcing feedback loops operating simultaneously. None of the proposed loops has been demonstrated as a complete closed loop in ME/CFS patients---each is assembled from cross-disease evidence (see individual hypothesis limitations in Chapters @ch:neurological and @ch:endocrine). The model therefore explores the *consequences* of assuming these loops exist, not their existence per se. The neuroplasticity-relevant loops are:
+
+$
+"Loop 1 (Kindling):" quad &upright("PEM") arrow.r upright("microglial priming") arrow.r upright("lower threshold") arrow.r upright("more PEM") \
+"Loop 2 (T3 depletion):" quad &upright("inflammation") arrow.r arrow.b upright("DIO2") arrow.r arrow.b upright("T3") arrow.r arrow.b upright("BDNF") arrow.r upright("M1 microglia") arrow.r upright("inflammation") \
+"Loop 3 (Epigenetic lock):" quad &upright("chronic inflammation") arrow.r upright("HDAC-mediated silencing") arrow.r arrow.b upright("plasticity genes") \
+"Loop 4 (Energy failure):" quad &arrow.b upright("T3") arrow.r arrow.b upright("mitochondrial OXPHOS") arrow.r arrow.b upright("ATP") arrow.r upright("impaired immune regulation")
+$
+
+We formalize these as a coupled ODE system. Let $K$ represent the kindling state (cumulative microglial priming), $T$ the effective brain T3 level, $M$ the microglial activation level, and $E$ the epigenetic consolidation depth:
+
+$
+frac(d K, d t) &= alpha dot.op P(t) - beta dot.op K dot.op u_upright("AK")(t) - gamma dot.op K \
+frac(d T, d t) &= delta dot.op (T_0 - T) - epsilon dot.op M dot.op T + zeta dot.op u_upright("T3")(t) \
+frac(d M, d t) &= eta dot.op K + theta dot.op (1 - T slash T_0) - mu dot.op M dot.op u_upright("AI")(t) - nu dot.op M \
+frac(d E, d t) &= kappa dot.op M dot.op (1 - E) - lambda_0 dot.op E - lambda_1 dot.op E dot.op u_upright("HDAC")(t)
+$ <eq:neuroplasticity-attractor>
+
+where:
+
+- $P(t)$ is the PEM event rate (crashes per unit time)
+- $u_upright("AK")(t)$ is the anti-kindling intervention strength (e.g., levetiracetam)
+- $u_upright("T3")(t)$ is the exogenous T3 supplementation rate
+- $u_upright("AI")(t)$ is the anti-inflammatory intervention strength (e.g., LDN, levetiracetam)
+- $u_upright("HDAC")(t)$ is the HDAC inhibitor intervention strength (e.g., valproate)
+- $T_0$ is the healthy baseline brain T3 level
+- Greek letters ($alpha, beta, gamma, delta, epsilon, zeta, eta, theta, mu, nu, kappa, lambda_0, lambda_1$) are rate constants; all are positive. Parameter estimation requires longitudinal multi-biomarker data not currently available for ME/CFS (see Limitation box at end of section)
+
+=== Fixed-Point Analysis
+
+Setting all derivatives to zero and all interventions to zero ($u = 0$), the system has two classes of fixed points:
+
+*Healthy fixed point:* $(K^*, T^*, M^*, E^*) = (0, T_0, 0, 0)$ --- no kindling, normal T3, quiescent microglia, no epigenetic locking. Stability requires $P(t) = 0$ (no PEM events).
+
+*Disease fixed point:* A non-trivial equilibrium exists where kindling, T3 depletion, microglial activation, and epigenetic consolidation are all elevated and mutually sustaining. At this fixed point:
+
+$
+K^* = frac(alpha P^*, gamma) , quad M^* = frac(eta K^* + theta(1 - T^* slash T_0), nu) , quad T^* = frac(delta T_0, delta + epsilon M^*) , quad E^* = frac(kappa M^*, kappa M^* + lambda_0)
+$
+
+The disease fixed point is stable when the loop gains reinforce each other: microglial activation ($M$) suppresses T3, which increases microglial activation further (loop 2); kindling ($K$) increases $M$, which increases $E$, which prevents resolution of $M$ (loops 1+3). The Jacobian eigenvalues at the disease fixed point determine stability and timescale separation.
+
+=== The "Combination Cliff" Prediction
+<sec:combination-cliff>
+
+The most consequential prediction of this model concerns the effect of multi-target interventions. Define the *effective loop gain* $G$ as the product of individual loop gains:
+
+$
+G = G_1 dot.op G_2 dot.op G_3 dot.op G_4
+$
+
+where each $G_i$ depends on the corresponding intervention: $G_1(u_upright("AK"))$, $G_2(u_upright("T3"))$, $G_3(u_upright("HDAC"))$, $G_4(u_upright("AI"))$. The disease attractor is stable when $G > 1$ and unstable when $G < 1$.
+
+Each intervention reduces its corresponding loop gain: $G_i(u_i) = G_i(0) dot.op (1 - u_i slash u_(i,max))$ (linear dose-response for simplicity). The total intervention effect is *multiplicative*, not additive:
+
+$
+G(bold(u)) = product_(i=1)^4 G_i(0) dot.op (1 - u_i / u_(i,max))
+$
+
+This multiplicative structure predicts a *combination cliff*: if the disease attractor requires $G > 1$ for stability, then addressing each loop partially can push $G$ below 1 even though no single loop is fully broken. Suppose each untreated loop has gain $G_i(0) = 1.5$ (50% amplification per cycle). Four untreated loops give $G = 1.5^4 = 5.06$ (strongly stable attractor). Reducing each loop gain by 40% ($G_i arrow.r 0.6 dot.op G_i(0) = 0.9$):
+
+$
+G = 0.9^4 = 0.66 < 1 quad "(attractor collapses)"
+$
+
+while addressing only one loop ($G_1 arrow.r 0.9$, others unchanged):
+
+$
+G = 0.9 dot.op 1.5^3 = 3.04 quad "(attractor persists)"
+$
+
+#speculation(title: [Multiplicative Combination Effect in ME/CFS Treatment])[
+*Certainty: 0.35.* The multi-loop attractor model predicts that combination treatments targeting $gt.eq$ 3 independent feedback loops should produce dramatically larger effect sizes than any single intervention---not through pharmacological synergy but through attractor destabilization. Specifically: (a) a factorial trial design (e.g., 2$times$2$times$2 for lithium $times$ T3 $times$ levetiracetam) should show a significant three-way interaction term, where the triple combination effect exceeds the sum of individual and pairwise effects; (b) there exists a critical number of loops ($N_upright("crit")$) below which interventions produce negligible benefit and above which they produce disproportionate improvement.
+
+*Post-hoc fitting caveat:* The observation that single-agent ME/CFS trials have historically shown modest effects is consistent with the attractor model but cannot be cited as evidence FOR the model, since the model was constructed partly to explain this observation. Alternative explanations for single-agent trial failures---disease heterogeneity, underpowered trials, wrong drug targets, wrong patient selection---are equally or more parsimonious and are not excluded by the model.
+
+*Falsification:* If a well-powered factorial combination trial targeting three mechanistically independent loops shows purely additive effects (no significant interaction terms), the multiplicative attractor model would be falsified in favor of a simpler additive damage model. If the trial shows no benefit from any arm, the underlying loop hypotheses (not just the integration framework) are weakened.
+] <spec:combination-cliff>
+
+=== PEM Threshold Recovery Model
+<sec:pem-threshold-recovery>
+
+The PEM kindling hypothesis (Section @sec:pem-kindling, Chapter @ch:neurological) proposed that each crash lowers the subsequent PEM threshold: $T(n) = T(0) slash alpha^n$. With anti-kindling therapy, a recovery term appears:
+
+$
+T(n+1) = frac(T(n), alpha) + beta dot.op (T_max - T(n))
+$ <eq:pem-threshold-recovery>
+
+where $beta$ is the anti-kindling recovery rate (e.g., from levetiracetam or lithium). At steady state ($T(n+1) = T(n) = T_upright("ss")$), rearranging gives:
+
+$
+T_upright("ss") = frac(beta dot.op T_max, 1 - 1 slash alpha + beta)
+$
+
+*Clinical interpretation:*
+
+- For any $alpha > 1$ and $beta > 0$, $T_upright("ss") > 0$ --- anti-kindling therapy always prevents complete collapse.
+- The steady-state threshold increases with $beta$ (stronger anti-kindling) and decreases with $alpha$ (more severe kindling per crash).
+- If $beta = 0$ (no treatment): $T_upright("ss") = 0$ --- inevitable collapse to zero threshold (severe disease).
+- The clinically meaningful question is whether $T_upright("ss")$ exceeds a functional threshold $T_upright("func")$ below which activities of daily living become impossible.
+
+For the illustrative values from the original hypothesis ($alpha = 1.5$), anti-kindling alone ($beta = 0.3$) gives:
+
+$
+T_upright("ss") = frac(0.3 dot.op T_max, 1 - 0.667 + 0.3) = frac(0.3 dot.op T_max, 0.633) approx 0.47 dot.op T_max
+$
+
+With strict pacing reducing $alpha$ from 1.5 to 1.2 (fewer and milder crashes), the combined effect yields:
+
+$
+T_upright("ss") = frac(0.3 dot.op T_max, 1 - 0.833 + 0.3) = frac(0.3 dot.op T_max, 0.467) approx 0.64 dot.op T_max
+$
+
+This predicts stabilization at approximately 64% of maximum threshold---a substantial functional improvement that depends critically on both pacing (reducing $alpha$) and pharmacological anti-kindling (increasing $beta$). Pacing alone ($beta = 0$) gives $T_upright("ss") = 0$; anti-kindling alone ($alpha = 1.5$, $beta = 0.3$) gives $T_upright("ss") approx 0.47 dot.op T_max$. The combination achieves more than either alone because pacing reduces the denominator while anti-kindling increases the numerator.
+
+=== T3-Neuroplasticity Phase Space
+<sec:t3-plasticity-phase>
+
+The T3-neuroplasticity interaction can be visualized as a 2D phase plane with coordinates ($T$, $Pi$), where $T$ is the effective brain T3 concentration and $Pi$ is the neuroplasticity capacity (0 = fully locked, 1 = fully plastic):
+
+$
+frac(d T, d t) &= sigma dot.op (T_0 - T) - rho dot.op (1 - Pi) dot.op T + u_upright("T3") \
+frac(d Pi, d t) &= phi dot.op T slash T_0 dot.op (1 - Pi) - omega_0 dot.op Pi - omega_1 dot.op (1 - T slash T_0) dot.op Pi + u_upright("Li")
+$ <eq:t3-plasticity>
+
+where:
+
+- $sigma$: natural T3 homeostasis rate
+- $rho$: inflammation-mediated T3 suppression (stronger when plasticity is low, i.e., neuroinflammation is high)
+- $phi$: T3-driven plasticity enhancement (via BDNF, LTP)
+- $omega_0$: baseline plasticity decay rate (natural turnover of plastic synaptic connections)
+- $omega_1$: additional plasticity loss from T3 deficiency (epigenetic locking, reduced BDNF)
+- $u_upright("T3")$: exogenous T3 supplementation
+- $u_upright("Li")$: lithium-driven plasticity enhancement (GSK-3$beta$ inhibition, BDNF, autophagy)
+
+At the healthy equilibrium ($u = 0$), $Pi_0$ and $T^*$ are determined simultaneously from the coupled nullclines. Setting $d Pi / d t = 0$ at $T = T_0$ gives $Pi_0 = phi / (phi + omega_0)$, but substituting into $d T / d t = 0$ yields a residual $-rho (1 - Pi_0) T_0 eq.not 0$ since $Pi_0 < 1$. The true healthy fixed point therefore has $T^* < T_0$, shifted slightly below the nominal setpoint by the baseline plasticity-mediated suppression term. When $rho$ is small relative to $sigma$ (strong T3 homeostasis), $T^* approx T_0$ and $Pi_0 approx phi / (phi + omega_0)$ remains a good approximation. The disease equilibrium is at a substantially lower $(T^("disease"), Pi^("disease"))$ where low T3 and low plasticity mutually reinforce each other. A separatrix divides the two basins.
+
+*Treatment vectors in phase space:*
+
+- T3 supplementation: pushes the state rightward (toward normal $T$)
+- Lithium: pushes the state upward (toward normal $Pi$)
+- The separatrix determines the *minimum combination* of T3 and lithium needed to escape the disease attractor
+
+The model predicts that: (1) T3 alone is insufficient if plasticity is too locked (the system slides back along the $T$-nullcline); (2) lithium alone is insufficient if T3 is too low to support BDNF-mediated plasticity; (3) the combination crosses the separatrix that neither alone can cross---the quintessential multi-loop effect formalized in Section @sec:combination-cliff.
+
+#limitation(title: [Neuroplasticity Attractor Model: Parameter Uncertainty])[
+All parameters in the neuroplasticity attractor model (@eq:neuroplasticity-attractor, @eq:pem-threshold-recovery, @eq:t3-plasticity) are illustrative. No ME/CFS-specific measurements of kindling rates, DIO2 suppression kinetics, microglial priming dynamics, or epigenetic consolidation timescales exist. The model's value lies in its qualitative predictions (multiplicative combination effects, threshold behaviors, separatrix crossing) rather than quantitative forecasts. Parameterization requires longitudinal multi-biomarker studies tracking kindling state (PEM threshold), T3 levels, inflammatory markers, and cognitive function simultaneously with sufficient temporal resolution to fit ODE dynamics.
+]

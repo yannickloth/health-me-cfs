@@ -329,7 +329,11 @@ The integrated model's nonlinear feedback structure implies the existence of mul
 \subsection{Attractors as an Emergent Consequence of the Biochemistry}
 \label{sec:attractors-emergent}
 
-A crucial epistemological point: the attractor structure of this model was not designed in. The ODEs in Chapters~\ref{ch:energy-metabolism-models}--\ref{ch:integrated-systems} were built from biochemical literature---enzyme kinetics, immune cell dynamics, mitochondrial biophysics---without targeting any particular dynamical behaviour. A modeller working from the same literature without knowledge of dynamical systems theory would write structurally identical equations. The bistability is therefore a \emph{prediction} of the biochemistry, not a premise. This section demonstrates that claim analytically, by deriving attractor existence from first principles on the reduced two-variable subsystem that captures the core positive feedback loop.
+An epistemological point warrants explicit discussion. The ODEs in Chapters~\ref{ch:energy-metabolism-models}--\ref{ch:integrated-systems} were built from biochemical literature---enzyme kinetics, immune cell dynamics, mitochondrial biophysics---without targeting any particular dynamical behaviour. A modeller working from the same literature would make similar (though not necessarily identical) choices, because the key structural elements---saturating production kinetics, immune cell activation dependent on energy availability, bidirectional coupling---are standard biochemical building blocks, not exotic constructions selected for their dynamical properties.
+
+This matters because the bistability derived below is a \emph{consequence} of these biochemical choices, not a premise. The model was not reverse-engineered from a desired phase portrait. However, we must be precise about what ``emergent'' means here: it does \emph{not} mean that every possible model of ME/CFS biochemistry will exhibit bistability. Specific modelling choices---particularly the Hill exponent in the immune activation term (see Remark below)---are necessary conditions for bistability. What we claim is weaker and more defensible: \emph{given} the standard biochemical forms used throughout Chapters~\ref{ch:energy-metabolism-models}--\ref{ch:immune-system-models}, bistability follows without additional assumptions.
+
+This section demonstrates that claim analytically, by deriving attractor existence from first principles on a reduced two-variable subsystem.
 
 \subsubsection{The Reduced Energy--Immune System}
 \label{sec:reduced-2d}
@@ -341,7 +345,7 @@ Consider only the two state variables that carry the dominant positive feedback:
 \frac{dI}{dt} &= k_{\text{act}}^{\text{eff}}(A) \cdot I_0 - (k_{\text{exh}} + d_a) I \label{eq:reduced-immune}
 \end{align}
 
-where $P(A)$ is the net ATP production (a saturating, concave-down function of $A$ via adenylate kinase feedback), $\beta_0$ is basal demand, $J_{\text{imm}}(I) = e_a I$ is immune energy drain (linear in activated cells), $k_{\text{act}}^{\text{eff}}(A) = k_{\text{act,0}} A^2 / (K_{\text{ATP}}^2 + A^2)$ is the Hill-type effective activation rate (Equation~\ref{eq:immune-energy-feedback}), and $I_0$ is the resting immune cell pool (treated as constant in the reduced model). The parameter $e_a > 0$ is the per-cell energy cost of immune activation.
+where $P(A)$ is the net ATP production rate---a unimodal (hump-shaped) function of $A$. The shape follows directly from the PFK-1 kinetics in Equation~\ref{eq:pfk1}: at low ATP, AMP is high (via adenylate kinase equilibrium $2\text{ADP} \rightleftharpoons \text{ATP} + \text{AMP}$), maximally activating glycolysis, but the production machinery itself requires minimal ATP (hexokinase priming, ion gradients), so net production rises with $A$; at high ATP, product inhibition of PFK-1 and low AMP reduce glycolytic flux, while ATP synthase slows as ADP becomes scarce (Equation~\ref{eq:atp-synthase}), so production falls. The result is $P(A)$ rising from near zero, reaching a peak at intermediate $A$, then declining---a consequence of the adenylate kinase feedback loop, not a modelling choice. The remaining terms: $\beta_0$ is basal demand, $J_{\text{imm}}(I) = e_a I$ is immune energy drain (linear in activated cells), $k_{\text{act}}^{\text{eff}}(A) = k_{\text{act,0}} A^2 / (K_{\text{ATP}}^2 + A^2)$ is the Hill-type effective activation rate (Equation~\ref{eq:immune-energy-feedback}), and $I_0$ is the resting immune cell pool (treated as constant in the reduced model). The parameter $e_a > 0$ is the per-cell energy cost of immune activation.
 
 \subsubsection{Nullcline Analysis}
 \label{sec:nullcline-analysis}
@@ -355,7 +359,14 @@ Setting $dI/dt = 0$:
 I^*(A) = \frac{k_{\text{act,0}} I_0}{k_{\text{exh}} + d_a} \cdot \frac{A^2}{K_{\text{ATP}}^2 + A^2}
 \end{equation}
 
-This is a sigmoidal (Hill) function of $A$, increasing from 0 at $A = 0$ to a plateau $I_{\max} = k_{\text{act,0}} I_0 / (k_{\text{exh}} + d_a)$ as $A \to \infty$. The sigmoidal shape is solely a consequence of the Hill kinetics governing ATP-dependent immune activation---a standard biochemical form, not a modelling choice.
+This is a sigmoidal (Hill) function of $A$, increasing from 0 at $A = 0$ to a plateau $I_{\max} = k_{\text{act,0}} I_0 / (k_{\text{exh}} + d_a)$ as $A \to \infty$. The sigmoidal shape is a consequence of the Hill kinetics governing ATP-dependent immune activation (Equation~\ref{eq:immune-energy-feedback}).
+
+\begin{remark}[The Hill Exponent Is a Modelling Choice]
+\label{rem:hill-exponent}
+The cooperativity exponent $n = 2$ in Equation~\ref{eq:immune-energy-feedback} is a modelling choice with consequences for bistability. With $n = 1$ (standard Michaelis--Menten), the $I$-nullcline becomes a hyperbolic function lacking the inflection point that enables triple intersection with the $A$-nullcline; the system is then monostable for all parameter values. With $n \geq 2$, the $I$-nullcline is sigmoidal and triple intersection becomes possible.
+
+The choice of $n = 2$ is motivated by immunometabolism: immune cell activation involves cooperative processes (receptor clustering, signalling threshold effects, metabolic reprogramming switches) that produce ultrasensitive responses~\cite{Ferrell1996ultrasensitivity}. T~cell activation in particular exhibits a switch-like dependence on TCR signal strength, well-described by Hill kinetics with $n = 1.5$--$3$~\cite{Altan-Bonnet2005}. However, $n = 1$ cannot be excluded a priori for all immune cell types, and the bistability result depends on this choice. The analysis below should therefore be read as: \emph{if} ATP-dependent immune activation is cooperative ($n \geq 2$), \emph{then} bistability follows from the feedback structure.
+\end{remark}
 
 \paragraph{$A$-nullcline.}
 Setting $dA/dt = 0$:
@@ -364,10 +375,10 @@ Setting $dA/dt = 0$:
 I_{\text{null}}^A(A) = \frac{P(A) - \beta_0}{e_a}
 \end{equation}
 
-$P(A)$ reflects ATP production kinetics: it rises with decreasing ATP (as AMP accumulates and activates glycolysis via PFK-1) up to a maximum, then flattens as the ETC saturates. For the ME/CFS regime, where Complex~I is partially inhibited ($\alpha_{\text{CI}} < 1$), $P(A)$ is compressed. The $A$-nullcline is therefore a non-monotone curve in the $(A, I)$ plane: it rises at low $A$, peaks, and may descend again as production saturates.
+As established above, $P(A)$ is unimodal: it rises at low $A$ (where the production machinery activates as minimal ATP becomes available), peaks at intermediate $A$, and declines at high $A$ (where product inhibition of PFK-1 and ADP scarcity throttle production). For the ME/CFS regime, where Complex~I is partially inhibited ($\alpha_{\text{CI}} < 1$), $P(A)$ is vertically compressed (lower peak) and horizontally compressed (the peak shifts leftward). The $A$-nullcline $(P(A) - \beta_0)/e_a$ inherits this unimodal shape: it rises at low $A$, peaks, and descends at high $A$.
 
 \paragraph{Intersection multiplicity condition.}
-Bistability exists when the $I$-nullcline and the $A$-nullcline intersect \emph{three} times. From Equation~\ref{eq:i-nullcline}, the $I$-nullcline is strictly monotone and sigmoidal. The $A$-nullcline (Equation~\ref{eq:a-nullcline}) has an inverse-S or bell shape depending on the production kinetics. Three intersections occur when the following condition holds:
+Bistability exists when the $I$-nullcline and the $A$-nullcline intersect \emph{three} times. The $I$-nullcline (Equation~\ref{eq:i-nullcline}) is strictly monotone increasing and sigmoidal. The $A$-nullcline (Equation~\ref{eq:a-nullcline}) is unimodal (one local maximum, no other critical points). A strictly monotone curve and a unimodal curve can intersect at most three times: at most once on the ascending limb, at most once near the peak, and at most once on the descending limb. Three intersections occur when the following condition holds:
 
 \begin{equation}
 \label{eq:bistability-condition}
@@ -397,12 +408,39 @@ With full Complex~I activity, $P'(A)$ is steep and $P(A) - \beta_0 > 0$ for a wi
 where $f_{AA} = \partial(\dot{A})/\partial A < 0$ (ATP dynamics are self-stabilising at steady state), $g_{II} = -(k_{\text{exh}} + d_a) < 0$ (immune populations decay in the absence of activation), and the cross-terms $f_{AI} = -e_a < 0$ and $g_{IA} = k_{\text{act,0}}' I_0 > 0$. For healthy parameters, $|f_{AA} g_{II}| > |f_{AI} g_{IA}|$, so the discriminant is negative (complex eigenvalues) or both real parts are negative. The single fixed point is a stable node or stable spiral: \textbf{the healthy state is an attractor}.
 
 \paragraph{ME/CFS regime} ($\alpha_{\text{CI}} = 0.65$, $k_{\text{exh}} = 0.15\ \text{day}^{-1}$, $k_{\text{recov}} = 0.04\ \text{day}^{-1}$).
-With reduced Complex~I activity, $P(A)$ is compressed: $P(A) - \beta_0$ is positive over a narrower range of $A$ and the peak of $P'(A)$ is lower. Simultaneously, elevated $k_{\text{exh}}$ reduces the $(k_{\text{exh}} + d_a)$ denominator of $I^*(A)$, raising $I_{\max}$---the immune system can sustain higher activated-cell counts. These two changes together cause the $I$-nullcline and $A$-nullcline to intersect three times, satisfying condition~\ref{eq:bistability-inequality}. The three fixed points are:
+With reduced Complex~I activity, $P(A)$ is compressed: $P(A) - \beta_0$ is positive over a narrower range of $A$ and the peak of $P'(A)$ is lower---the $A$-nullcline drops. Simultaneously, the ME/CFS regime has elevated $k_{\text{exh}}$ and reduced $k_{\text{recov}}$. The elevated $k_{\text{exh}}$ \emph{increases} the denominator $(k_{\text{exh}} + d_a)$ of $I^*(A)$, which \emph{lowers} the plateau $I_{\max}$---on its own this would make bistability harder, not easier. However, the critical effect operates through a different channel: the reduced $k_{\text{recov}}$ means exhausted cells accumulate rather than returning to the resting pool, shrinking the effective $I_0$ (the available resting pool that feeds activation). The net result is that the $I$-nullcline shifts downward and leftward, changing its position relative to the depressed $A$-nullcline in a way that creates the three-intersection geometry satisfying condition~\ref{eq:bistability-inequality}. \begin{proposition}[Bistability of the Energy--Immune Subsystem]
+\label{prop:bistability}
+Under ME/CFS parameters ($\alpha_{\text{CI}} = 0.65$, $k_{\text{exh}} = 0.15\ \text{day}^{-1}$, $k_{\text{recov}} = 0.04\ \text{day}^{-1}$) and with cooperative immune activation ($n = 2$, Remark~\ref{rem:hill-exponent}), the reduced system (Equations~\ref{eq:reduced-atp}--\ref{eq:reduced-immune}) has exactly three fixed points: two stable fixed points (nodes or spirals) and one saddle.
+\end{proposition}
+
+\begin{proof}
+\emph{Step 1: A positively invariant trapping region exists.} Since $A$ and $I$ represent physical concentrations, the positive quadrant $A \geq 0$, $I \geq 0$ is preserved by the dynamics. For the upper bounds, choose $A_{\max}$ so that $P(A_{\max}) < \beta_0$ (guaranteed by PFK-1 product inhibition at high ATP) and let $I_{\max} = k_{\text{act,0}} I_0 / (k_{\text{exh}} + d_a)$ (the $I$-nullcline plateau). Define the trapping region $\mathcal{R}$ as the set bounded by $I = 0$, $A = A_{\max}$, $I = I_{\max}$, and the $A$-nullcline curve $I = (P(A) - \beta_0)/e_a$ on the left. On the upper boundary $I = I_{\max}$: $\dot{I} < 0$ because immune clearance $(k_{\text{exh}} + d_a)I$ exceeds activation at the plateau. On $A = A_{\max}$: $\dot{A} = P(A_{\max}) - \beta_0 - e_a I < 0$. On $I = 0$: $\dot{I} > 0$. On the left boundary (the $A$-nullcline curve): by construction $\dot{A} = 0$ on this curve and $\dot{A} > 0$ immediately to its right, so trajectories cannot exit leftward. The region $\mathcal{R}$ is positively invariant and contains all three fixed points.
+
+\emph{Step 2: Exactly three fixed points.} Fixed points are intersections of the $I$-nullcline and $A$-nullcline. The $I$-nullcline (Equation~\ref{eq:i-nullcline}) is strictly monotone increasing. The $A$-nullcline (Equation~\ref{eq:a-nullcline}) is unimodal with exactly one local maximum, composed of two monotone pieces---an ascending limb and a descending limb. On any interval where both curves are monotone in the same direction, they intersect at most once; a third intersection can occur in the transition region near the peak. Thus at most three intersections total. The lower bound uses the intermediate value theorem on the difference $h(A) = I_{\text{null}}^A(A) - I^*(A)$. Near $A = 0$: $P(0) \approx 0$, so $h(0) < 0$ (A-nullcline below I-nullcline). As $A$ increases, production rises and eventually $P(A) - \beta_0 > e_a I^*(A)$, making $h > 0$: at least one crossing on the ascending limb (disease fixed point). On the descending limb at high $A$, $P(A)$ falls back below $\beta_0$ while $I^*(A) > 0$, so $h < 0$ again: at least one crossing on the descending limb (healthy fixed point). This gives at least two crossings. The third crossing (the saddle) arises when condition~\ref{eq:bistability-inequality} holds: it ensures the $A$-nullcline overshoots the $I$-nullcline near the peak, creating an additional sign change. Numerical evaluation at the stated ME/CFS parameter values (Appendix~\ref{app:mathematical-details}) confirms three crossings. Combined: \emph{exactly three}.
+
+\emph{Step 3: Jacobian and eigenvalue classification.} At each fixed point $(A^*, I^*)$, the Jacobian is:
+\begin{equation}
+\label{eq:jacobian-2d}
+J = \begin{pmatrix} P'(A^*) & -e_a \\ \displaystyle\frac{2 k_{\text{act,0}} I_0 K_{\text{ATP}}^2 A^*}{(K_{\text{ATP}}^2 + A^{*2})^2} & -(k_{\text{exh}} + d_a) \end{pmatrix} \equiv \begin{pmatrix} f_A & f_I \\ g_A & g_I \end{pmatrix}
+\end{equation}
+
+The trace is $\tau = f_A + g_I = P'(A^*) - (k_{\text{exh}} + d_a)$ and the determinant is $\Delta = f_A g_I - f_I g_A$. Since $f_I = -e_a < 0$ and $g_A > 0$ for all $A^* > 0$, the cross-coupling term $-f_I g_A = e_a g_A > 0$ always contributes positively to $\Delta$.
+
+\textbf{Healthy fixed point} $(A_H, I_H)$, on the descending limb of the $A$-nullcline: $P'(A_H) < 0$, so $f_A < 0$. The trace $\tau = P'(A_H) - (k_{\text{exh}} + d_a) < 0$. The determinant $\Delta = |P'(A_H)|(k_{\text{exh}} + d_a) + e_a g_A > 0$. Negative trace and positive determinant: \textbf{stable} (node or spiral).
+
+\textbf{Disease fixed point} $(A_D, I_D)$, on the ascending limb of the $A$-nullcline: $P'(A_D) > 0$, so $f_A > 0$. The determinant sign follows from the nullcline crossing geometry: the $I$-nullcline is steeper than the $A$-nullcline at this intersection, giving $e_a g_A > P'(A_D)(k_{\text{exh}} + d_a)$, so $\Delta > 0$. For the trace: $\tau = P'(A_D) - (k_{\text{exh}} + d_a) < 0$ requires $P'(A_D) < k_{\text{exh}} + d_a$. Both quantities have units of (time)$^{-1}$ in the non-dimensionalised system. This condition holds when $A_D$ lies in the region where the ascending slope of $P$ is moderate, which is the case for the stated ME/CFS parameter values (verified numerically in Appendix~\ref{app:mathematical-details}). Negative trace and positive determinant: \textbf{stable} (node or spiral).
+
+\textbf{Saddle point} $(A_s, I_s)$, near the peak of the $A$-nullcline: here the $A$-nullcline is steeper than the $I$-nullcline (opposite crossing direction), giving $P'(A_s)(k_{\text{exh}} + d_a) > e_a g_A$, so $\Delta < 0$. Negative determinant: eigenvalues have opposite signs, confirming an \textbf{unstable saddle}.
+
+\emph{Step 4: Index theory consistency.} By the planar fixed-point index theorem applied to the trapping region $\mathcal{R}$ (Step~1), the sum of indices of all interior fixed points must equal $+1$. Stable nodes/spirals have index $+1$; saddles have index $-1$. Three fixed points with indices $+1, -1, +1$ sum to $+1$. \checkmark
+\end{proof}
+
+The three fixed points are therefore:
 
 \begin{enumerate}
-    \item \textbf{Healthy-adjacent fixed point} $(A_H, I_H)$: high ATP, low immune activation. Jacobian analysis gives two negative real eigenvalues---a \textbf{stable node}. This is the healthy attractor. It persists even under ME/CFS parameters, but its basin of attraction is now small.
-    \item \textbf{Saddle point} $(A_s, I_s)$: intermediate ATP, intermediate immune activation. One positive and one negative eigenvalue---an \textbf{unstable saddle}. This saddle lies on the separatrix: its stable manifold is the boundary between the two basins of attraction.
-    \item \textbf{Disease fixed point} $(A_D, I_D)$: low ATP, high immune activation. Jacobian analysis gives two negative real eigenvalues---a \textbf{stable node}. This is the \textbf{disease attractor}.
+    \item \textbf{Disease fixed point} $(A_D, I_D)$: low ATP, high immune activation. On the ascending limb of the $A$-nullcline. The \textbf{disease attractor}.
+    \item \textbf{Saddle point} $(A_s, I_s)$: intermediate ATP, intermediate immune activation. Its stable manifold forms the \textbf{separatrix}---the boundary between the two basins of attraction.
+    \item \textbf{Healthy-adjacent fixed point} $(A_H, I_H)$: high ATP, low immune activation. On the descending limb of the $A$-nullcline. A \textbf{stable attractor}, but with a smaller basin of attraction than in the healthy regime.
 \end{enumerate}
 
 The disease attractor exists because the positive feedback loop is self-sustaining at ME/CFS parameter values: high immune activation depletes ATP, depleted ATP impairs immune regulation, impaired regulation sustains high immune activation. This cycle does not close in the healthy regime because $k_{\text{recov}}$ is sufficiently high to bring activated cells back to resting before ATP is critically depleted.
@@ -410,17 +448,29 @@ The disease attractor exists because the positive feedback loop is self-sustaini
 \subsubsection{Analytical Summary}
 \label{sec:attractor-summary}
 
-The reduced 2D system proves three results that carry over qualitatively to the full 64-variable model:
+The reduced 2D system establishes three results for the energy--immune subsystem:
 
 \begin{enumerate}
-    \item \textbf{Both regimes have a healthy attractor}: even ME/CFS parameters support a healthy fixed point---but with a much smaller basin of attraction. Recovery is theoretically possible without parameter restoration, but requires a large directed perturbation.
-    \item \textbf{The disease attractor is absent in the healthy regime}: it is created by the bifurcation that occurs as $\alpha_{\text{CI}}$ decreases and $k_{\text{exh}}$ increases. There is no disease state to fall into before these parameters shift.
-    \item \textbf{The bistability is structurally robust}: it depends only on (a)~a Hill-type ATP-dependent immune activation term (standard cooperative kinetics), and (b)~a concave production function $P(A)$ (a consequence of ETC saturation, standard biophysics). Any model built from the same biochemistry will exhibit the same bifurcation structure.
+    \item \textbf{Both regimes have a healthy attractor}: even ME/CFS parameters support a healthy fixed point---but with a smaller basin of attraction. Recovery is theoretically possible without parameter restoration, but requires a large directed perturbation.
+    \item \textbf{The disease attractor is absent in the healthy regime}: it is created by a saddle-node bifurcation as $\alpha_{\text{CI}}$ decreases and $k_{\text{exh}}$ increases. There is no disease state to fall into before these parameters shift.
+    \item \textbf{The bistability depends on two structural ingredients}: (a)~cooperative ($n \geq 2$) ATP-dependent immune activation (Remark~\ref{rem:hill-exponent}), and (b)~a unimodal production function $P(A)$ (a consequence of adenylate kinase feedback and PFK-1 product inhibition). Models sharing both ingredients will exhibit qualitatively similar bifurcation structure; models lacking either (e.g., $n = 1$ Michaelis--Menten activation) will not.
 \end{enumerate}
 
-\begin{limitation}[Reduced Model Scope]
-The 2D analysis abstracts away 62 state variables. The qualitative conclusions---bistability exists, healthy parameters support one attractor, ME/CFS parameters support two---are robust to this reduction because they depend on the topological structure of the nullclines, not on the precise values of omitted variables. Quantitative claims (exact bifurcation thresholds, basin sizes) require numerical analysis of the full system with continuation software (AUTO, MATCONT) and have not been computed.
+\begin{limitation}[Quasi-Steady-State Reduction]
+\label{lim:qss-reduction}
+The 2D analysis treats 62 state variables as quasi-steady-state (QSS) parameters. This is justified when the omitted variables equilibrate faster than the two retained variables. For many omitted variables this holds: cytokine half-lives are minutes to hours, membrane potential equilibrates in milliseconds, and metabolite pools turn over in seconds~\cite{Eissing2011}. However, some omitted variables---notably epigenetic modifications ($\tau_{\text{epi}} \sim$ months) and immune cell exhaustion ($\tau_{\text{exh}} \sim$ weeks)---operate on \emph{slower} timescales than ATP and activated immune cells. These slow variables act as slowly drifting parameters in the reduced system rather than fast slaves; their effect is to slowly move the bifurcation point, not to alter the existence of bistability at a given parameter snapshot. Nonetheless, the qualitative conclusions---bistability exists, healthy parameters support one attractor, ME/CFS parameters support two---should be regarded as analytically demonstrated for the 2D subsystem and conjectured for the full model until verified by numerical continuation analysis (AUTO, MATCONT). Quantitative claims (exact bifurcation thresholds, basin sizes) require the full system.
 \end{limitation}
+
+\subsubsection{Competing Dynamical Hypotheses}
+\label{sec:competing-hypotheses}
+
+The bistable fixed-point model is not the only dynamical explanation for ME/CFS chronicity. Three alternatives deserve explicit consideration.
+
+\paragraph{Continuous parametric shift (no bistability).} Under this hypothesis, ME/CFS represents a different region of a single attractor's basin: parameters (e.g., $\alpha_{\text{CI}}$, $k_{\text{exh}}$) drift due to ongoing damage, and symptoms track the parameter shift continuously. Recovery occurs gradually when parameters return. This model predicts that partial treatment should produce partial, graded improvement---and that spontaneous recovery should correlate smoothly with parameter restoration. It is inconsistent with the clinical observation of threshold-dependent onset (many infections resolve without ME/CFS; ME/CFS onset is abrupt, not graded) and with the persistence of symptoms after apparent trigger resolution.
+
+\paragraph{Limit cycle (oscillatory attractor).} Under this hypothesis, the disease state is not a fixed point but a stable limit cycle: the system oscillates between better and worse states, potentially explaining the boom-bust pattern (PEM followed by partial recovery) characteristic of ME/CFS. This is a genuine alternative that the 2D analysis does not exclude. For limit cycles to arise in a 2D system, the disease fixed point would need to be an unstable spiral (positive real part of complex eigenvalues) surrounded by a stable limit cycle (via Hopf bifurcation). Proposition~\ref{prop:bistability} shows the disease fixed point is a stable node at the stated parameters; however, for other parameter values a Hopf bifurcation could replace the stable disease node with a limit cycle. The two hypotheses are not mutually exclusive: some patients may sit in a stable disease attractor (steady-state illness) while others orbit a limit cycle (relapsing-remitting course). Distinguishing them clinically requires longitudinal time-series analysis of biomarkers with sufficient temporal resolution to detect oscillatory versus steady-state dynamics.
+
+\paragraph{Epigenetic lock-in (no dynamical bistability needed).} T~cell exhaustion via epigenetic imprinting is well-documented~\cite{Pauken2016epigenetic}: once T~cells commit to an exhausted phenotype through DNA methylation changes, they persist regardless of the original trigger. Under this simpler hypothesis, chronicity reflects epigenetic memory rather than dynamical bistability---no feedback loop is needed, just a one-way epigenetic switch. This hypothesis is compatible with our model (Section~\ref{sec:epigenetic-dynamics} already includes epigenetic consolidation), but would predict that disease persistence depends entirely on the epigenetic state, not on ongoing energy--immune feedback. It is testable: if epigenetic reprogramming (e.g., via demethylating agents) restores immune function without addressing energy metabolism, the epigenetic-only model is supported. If recovery requires simultaneous energy and immune normalisation, the feedback model is supported.
 
 \subsection{Steady-State Multiplicity}
 
@@ -435,7 +485,9 @@ The energy--immune coupling alone (Equations~\ref{eq:energy-immune-coupling}--\r
     \item \textbf{Severe/locked attractor}: all subsystems degraded, epigenetic consolidation complete. This attractor has the deepest basin of attraction and the highest intervention threshold for escape.
 \end{enumerate}
 
-Each attractor has a characteristic biomarker signature derivable from the model's steady-state equations, enabling classification of individual patients into subtypes. \textbf{This subtyping is mechanistic, not phenomenological}: it derives from the mathematical structure of the coupled ODEs, not from statistical clustering of symptoms. The model predicts that patients within the same attractor basin should respond similarly to targeted interventions, providing a rational basis for treatment stratification.
+Each attractor has a characteristic biomarker signature derivable from the model's steady-state equations. This subtyping is mechanistic: it derives from the mathematical structure of the coupled ODEs, not from statistical clustering of symptoms. The model predicts that patients within the same attractor basin should respond similarly to targeted interventions, providing a rational basis for treatment stratification.
+
+An important caveat: the discrete-attractor subtype model competes with the alternative that ME/CFS heterogeneity forms a continuous spectrum, as proposed by symptom-based severity models~\cite{Nacul2020,Jason2010subtypes}. These are empirically distinguishable: discrete attractors predict clusters in multi-omics data with gaps between them, while a continuous spectrum predicts a smooth distribution. Current data are insufficient to discriminate (most studies lack the multi-domain simultaneous measurements the model requires), and the truth may be intermediate: discrete attractors with noisy parameter variation producing apparent continuity within each basin.
 
 \subsection{Separatrix Topology and Recovery Paths}
 
