@@ -722,6 +722,62 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
 
 // =============================================================================
 
+== Pain Research and Assessment
+<sec:bib-pain-research>
+// =============================================================================
+
+=== Fall et al.\ 2024 --- Chronic Overlapping Pain Conditions in ME/CFS (MCAM)
+
+@Fall2024COPCsMECFS
+
+    / *Full Citation:*: Fall EA, Chen Y, Lin J-MS, et al.\ Chronic Overlapping Pain Conditions in people with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): a sample from the Multi-site Clinical Assessment of ME/CFS (MCAM) study. _BMC Neurology_. 2024;24:399.
+    / *DOI:*: #link("https://doi.org/10.1186/s12883-024-03872-0")[10.1186/s12883-024-03872-0]
+    / *PMID:*: 39425035
+    / *PMCID:*: PMC11488184
+    / *Study Design:*: Cross-sectional, multi-site clinical assessment
+    / *Sample Size:*: 595 ME/CFS patients, 328 healthy controls across 7 US specialty clinics (2012--2020)
+    / *Key Findings:*: 76.1% of ME/CFS participants had at least one Chronic Overlapping Pain Condition (COPC), versus 17.4% of controls. Prevalence ratios versus controls: fibromyalgia 147.7$times$, chronic low back pain 39.5$times$, interstitial cystitis/painful bladder 13.8$times$, chronic migraine 4.2$times$. BPI Interference mean difference for ME/CFS with chronic low back pain = 3.77 (Cohen's $d = 1.6$). Pain interference comparable to spinal cord injury, muscular dystrophy, and multiple sclerosis.
+    / *Relevance:*: The richest systematically collected ME/CFS pain dataset using validated instruments. Establishes that COPCs are the norm, not the exception, in ME/CFS and quantifies the severity of pain interference.
+    / *Certainty:*: High (large multi-site sample, validated instruments, CDC-coordinated, appropriate controls).
+
+=== Marshall et al.\ 2010 --- Pain Characteristics of People with CFS
+
+@Marshall2010PainCharacteristics
+
+    / *Full Citation:*: Marshall R, Paul L, McFadyen AK, Rafferty D, Wood L.\ Pain Characteristics of People with Chronic Fatigue Syndrome. _Journal of Musculoskeletal Pain_. 2010;18(2):127--137.
+    / *DOI:*: #link("https://doi.org/10.3109/10582452.2010.483966")[10.3109/10582452.2010.483966]
+    / *Study Design:*: Cross-sectional with McGill Pain Questionnaire, VAS, PASS-20, Margolis Body Chart
+    / *Key Findings:*: Mean Pain Rating Index 23.6 $plus.minus$ 10.8. Current VAS intensity 43.2 $plus.minus$ 20.8 mm; 24-hour retrospective VAS ~58 mm (higher, reflecting fluctuation). Most selected MPQ descriptors: _throbbing_, _aching_, _tender_, _gnawing_, _burning_; severe patients additionally: _exhausting_, _nagging_, _gruelling_. Most common pain locations: cervical spine (66%), anterior thighs (44--46%), lumbar spine (42%), posterior calves (38%). PASS-20 total 37.9 $plus.minus$ 17.6; significantly elevated in severely disabled.
+    / *Relevance:*: The only study systematically documenting ME/CFS pain quality using the McGill Pain Questionnaire with body mapping. Provides the qualitative pain language data essential for understanding patient experience and for instrument development.
+    / *Certainty:*: Medium (single-centre, small sample, but validated instruments and detailed pain characterisation).
+
+=== Lu et al.\ 2025 --- Assessment of Symptoms in ME/CFS: Comparative Study of Existing Scales
+
+@Lu2025AssessmentScalesMECFS
+
+    / *Full Citation:*: Lu J, Sun W, Li S, et al.\ Assessment of symptoms in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: a comparative study of existing scales. _Frontiers in Neurology_. 2025;16:1618272.
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2025.1618272")[10.3389/fneur.2025.1618272]
+    / *PMID:*: 41341517
+    / *Study Design:*: Systematic comparative review of assessment scales used in ME/CFS research
+    / *Key Findings:*: Comprehensive comparison of pain, fatigue, cognitive, and sleep instruments applied to ME/CFS. For pain specifically: recommends McGill Pain Questionnaire as preferred because it is "sensitive to treatment-related changes and useful for distinguishing nociceptive and neuropathic pain." Notes that no ME/CFS-specific pain instrument exists. The NINDS CDE Pain Subgroup recommendations are reviewed, identifying three unmet needs: PEM-pain integration, multi-COPC capture, and cross-condition comparability.
+    / *Relevance:*: The most current comprehensive review of ME/CFS assessment instruments. Provides evidence-based guidance on which instruments to use in clinical research and highlights critical measurement gaps.
+    / *Certainty:*: High (systematic methodology, comprehensive scope, up-to-date).
+
+=== Ramiller et al.\ 2022 --- You + ME Registry Protocol
+
+@Ramiller2022YouMERegistry
+
+    / *Full Citation:*: Ramiller A, Mudie K, Seibert E, Whittaker S.\ The Facilitation of Clinical and Therapeutic Discoveries in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Related Diseases: Protocol for the You + ME Registry Research Platform. _JMIR Research Protocols_. 2022;11(8):e36798.
+    / *DOI:*: #link("https://doi.org/10.2196/36798")[10.2196/36798]
+    / *PMID:*: 35816681
+    / *PMCID:*: PMC9369615
+    / *Study Design:*: Registry protocol paper describing design, data collection, and governance
+    / *Key Findings:*: Patient-powered registry with 4,200+ participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021). Mobile app captures longitudinal symptom tracking on 0--4 severity scale including pain. Designed to harmonise with other ME/CFS registries. Growing at ~72 registrants/week. Governance includes patient advisory board.
+    / *Relevance:*: The largest patient-powered ME/CFS research platform. Longitudinal pain tracking enables time-series analysis of pain patterns, PEM-pain relationships, and treatment response monitoring at scale. Harmonisation design facilitates cross-registry analyses.
+    / *Certainty:*: High for protocol design and enrolment data; data quality depends on patient self-report adherence.
+
+// =============================================================================
+
 == Pathophysiology: Metabolic and Mitochondrial Dysfunction
 <sec:bib-metabolic>
 // =============================================================================
@@ -5578,3 +5634,262 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 
 // =============================================================================
+
+== Thyroid Hormone--Mitochondrial Axis in ME/CFS
+<sec:bib-thyroid-mito>
+// =============================================================================
+
+=== Sun et al.\ 2023 — Selenoprotein P Autoantibodies and Acquired Thyroid Hormone Resistance
+
+    / *Full Citation:*: Sun Q, Oltra E, Engström K, Scheibenbogen C, Seissler N, Wang X, Schomburg L. Autoantibodies to selenoprotein P in chronic fatigue syndrome suggest selenium transport impairment and acquired resistance to thyroid hormone. _Redox Biology_. 2023;65:102796.
+    / *DOI:*: #link("https://doi.org/10.1016/j.redox.2023.102796")[10.1016/j.redox.2023.102796]
+    / *PMID:*: 37392583
+    / *PMCID:*: PMC10338150
+    / *Published:*: July 2023
+    / *Study Design:*: Case-control study (two independent ME/CFS cohorts)
+    / *Sample Size:*: $n = 167$ ME/CFS patients across two cohorts, $n = 545$ healthy controls
+    / *Key Findings:*:
+
+        - Autoantibodies to selenoprotein P (SELENOP-aAb) present in 9.6--15.6% of ME/CFS patients vs 0.9--2.0% of controls (~10-fold enrichment)
+        - SELENOP-aAb--positive patients showed lowest deiodinase activity (SPINA-GD: 13.1 vs 15.8, $p < 0.001$)
+        - Reduced FT3/FT4 ratio (27.7 vs 34.0, $p < 0.001$) and TT3/TT4 ratio (1.84 vs 2.19, $p = 0.005$)
+        - Dramatically lower urinary iodine (43.2 vs 89.0 $mu$g/L, $p < 0.001$)
+        - Loss of normal correlation between serum selenium and GPx3 activity in SELENOP-aAb--positive patients
+
+    / *Conclusion:*: A subset of ME/CFS patients has autoantibodies that impair selenium transport, producing acquired thyroid hormone resistance through reduced tissue deiodinase activity.
+    / *Limitations:*: In-house ELISA; no commercial standardised assay. Tissue selenium not directly measured. Two cohorts from same research group.
+    / *Relevance:*: Provides the strongest mechanistic link between autoimmunity and the Low T3 Syndrome in ME/CFS. Explains why standard thyroid tests (TSH, FT4) can appear normal while tissues are functionally hypothyroid. Directly supports @ach:selenop-autoantibodies and the tissue T3 amplification hypothesis @hyp:t3-mito-amplifier.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (rigorous two-cohort design, multiple biomarker endpoints)
+        - *Replication:* Not yet replicated independently
+        - *Certainty:* 0.55
+
+=== Singh & Yen 2022 — Bioenergetic Aspects of Mitochondrial Actions of Thyroid Hormones
+
+    / *Full Citation:*: Singh BK, Yen PM. Bioenergetic Aspects of Mitochondrial Actions of Thyroid Hormones. _Cells_. 2022;11(6):997.
+    / *DOI:*: #link("https://doi.org/10.3390/cells11060997")[10.3390/cells11060997]
+    / *PMCID:*: PMC8947633
+    / *Published:*: March 2022
+    / *Study Design:*: Comprehensive review
+    / *Key Findings:*:
+
+        - T3 regulates all five ETC complexes plus ATP synthase through nuclear and direct mitochondrial pathways
+        - T3 promotes respiratory supercomplex assembly; hypothyroidism reduces supercomplex formation
+        - Biphasic ROS response: physiological T3 limits ROS via supercomplexes; excess or deficient T3 increases ROS
+        - T3 induces cardiolipin synthesis, essential for supercomplex stability
+        - T3 coordinates mitochondrial quality control: fission $arrow.r$ mitophagy $arrow.r$ biogenesis cycle
+
+    / *Conclusion:*: T3 is a master regulator of mitochondrial bioenergetics at every level: biogenesis, function, quality control, and membrane composition.
+    / *Relevance:*: Provides the mechanistic foundation for the thyroid-mitochondria connection in ME/CFS. The supercomplex assembly function of T3 directly converges with the WASF3 supercomplex disruption mechanism (@ach:wasf3-mechanism).
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (comprehensive review of well-established molecular biology)
+        - *Replication:* Core mechanisms extensively replicated across model systems
+        - *Certainty:* 0.85 (basic mechanisms); 0.45 (ME/CFS application)
+
+=== Liao et al.\ 2024 — Thyroid Hormone in Mitochondrial Regulation at the Interface of Health and Disease
+
+    / *Full Citation:*: Liao C-H, et al. The key roles of thyroid hormone in mitochondrial regulation, at interface of human health and disease. _Molecular and Cellular Endocrinology_. 2024.
+    / *PMCID:*: PMC11522957
+    / *Published:*: 2024
+    / *Study Design:*: Comprehensive review
+    / *Key Findings:*:
+
+        - Cardiolipin content directly tracks thyroid status; hypothyroidism depletes cardiolipin
+        - ~4 shared cardiolipins per Complex III/IV interface in supercomplexes
+        - T3 regulates phospholipid remodelling and membrane unsaturation
+        - Clinical disease states with mitochondrial dysfunction show consistent thyroid hormone abnormalities
+
+    / *Conclusion:*: Thyroid hormone-mitochondrial interactions are clinically significant in multiple disease states and represent therapeutic targets.
+    / *Relevance:*: Provides the cardiolipin-supercomplex stability mechanism linking T3 deficiency to respiratory chain dysfunction in Section @sec:thyroid-mito-regulation.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (integrative review)
+        - *Replication:* Cardiolipin-thyroid relationship well established
+        - *Certainty:* 0.80
+
+=== Wrutniak-Cabello et al.\ 2018 — Thyroid Hormone Action: The p43 Mitochondrial Pathway
+
+    / *Full Citation:*: Wrutniak-Cabello C, Casas F, Cabello G. Thyroid Hormone Action: The p43 Mitochondrial Pathway. _Methods in Molecular Biology_. 2018;1801:163--181.
+    / *DOI:*: #link("https://doi.org/10.1007/978-1-4939-7902-8_14")[10.1007/978-1-4939-7902-8\_14]
+    / *PMID:*: 29892824
+    / *Published:*: 2018
+    / *Study Design:*: Methodological review with experimental data
+    / *Key Findings:*:
+
+        - p43 (~43 kDa) is a truncated TR$alpha$1 product imported into the mitochondrial matrix
+        - p43 binds T3 and functions as a T3-dependent transcription factor of mitochondrial DNA
+        - p43 promotes transcription of all 13 mtDNA-encoded OXPHOS subunits
+        - p28 (~28 kDa) localises to the inner mitochondrial membrane; function unknown
+
+    / *Conclusion:*: Mitochondria have their own thyroid hormone receptor system that directly regulates mtDNA gene expression, independent of nuclear thyroid hormone signalling.
+    / *Relevance:*: Explains how T3 deficiency can impair mitochondrial function through a direct pathway that bypasses nuclear gene regulation entirely---tissue T3 deficit reduces both nuclear and mitochondrial OXPHOS gene expression simultaneously.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (original researchers who discovered p43)
+        - *Replication:* p43 protein confirmed; functional significance debated
+        - *Certainty:* 0.70
+
+=== Singh et al.\ 2017 — Thyroid Hormone Receptor and ERR$alpha$ Coordinate Mitochondrial Quality Control
+
+    / *Full Citation:*: Singh BK, Sinha RA, Tripathi M, et al. Thyroid hormone receptor and ERR$alpha$ coordinately regulate mitochondrial fission, mitophagy, biogenesis, and function. _Science Signaling_. 2017;10(486):eaam5855.
+    / *DOI:*: #link("https://doi.org/10.1126/scisignal.aam5855")[10.1126/scisignal.aam5855]
+    / *Published:*: July 2017
+    / *Study Design:*: Experimental (cell culture, mouse models)
+    / *Key Findings:*:
+
+        - T3 induces DRP1-mediated mitochondrial fission through ESRRA-dependent ULK1 expression
+        - T3 simultaneously induces mitophagy (autophagy of damaged mitochondria) via the same pathway
+        - T3 promotes biogenesis of replacement mitochondria via PGC-1$alpha$
+        - The coordinated fission-mitophagy-biogenesis cycle ensures mitochondrial quality control
+
+    / *Conclusion:*: T3 is essential for the complete mitochondrial turnover cycle; without T3, damaged mitochondria accumulate rather than being cleared and replaced.
+    / *Relevance:*: Directly relevant to ME/CFS: impaired mitophagy is documented (Section @sec:mito-damage), and T3 deficiency provides a mechanistic explanation for why damaged mitochondria persist. Supports the amplification hypothesis @hyp:t3-mito-amplifier.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (_Science Signaling_, rigorous experimental design)
+        - *Replication:* Core pathway confirmed in multiple tissues
+        - *Certainty:* 0.80
+
+=== Lombardi et al.\ 2015 — T2 and Skeletal Muscle Mitochondrial Regulation
+
+    / *Full Citation:*: Lombardi A, de Lange P, Silvestri E, et al. Regulation of skeletal muscle mitochondrial activity by thyroid hormones: focus on the "old" triiodothyronine and the "emerging" 3,5-diiodothyronine. _Frontiers in Physiology_. 2015;6:237.
+    / *DOI:*: #link("https://doi.org/10.3389/fphys.2015.00237")[10.3389/fphys.2015.00237]
+    / *Published:*: August 2015
+    / *Study Design:*: Comprehensive review
+    / *Key Findings:*:
+
+        - T2 binds Complex IV subunit Va, abolishing allosteric ATP inhibition
+        - T2 stimulates fatty acid oxidation (+80--104% with palmitoyl substrates) via SIRT1/AMPK
+        - T2 reduces H#sub[2]O#sub[2] production while increasing respiration rate
+        - T2 effects are rapid (minutes), non-genomic, and independent of protein synthesis
+
+    / *Conclusion:*: T2 is a biologically active thyroid metabolite with distinct mitochondrial effects complementary to T3.
+    / *Relevance:*: Opens the question of whether T2 deficiency contributes to exercise intolerance in ME/CFS (@oq:t2-mecfs). The rapid non-genomic mechanism suggests T2 may be critical for acute metabolic demand responses.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (comprehensive review by leading T2 researchers)
+        - *Replication:* T2-Complex IV interaction well established; clinical significance debated
+        - *Certainty:* 0.75
+
+=== Saito et al.\ 2025 — Mitochondrial Dysfunction in ME/CFS (Review)
+
+    / *Full Citation:*: Saito A, Bi H, Hanai T, Suzuki K. Mitochondrial Dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Physiology_. 2025.
+    / *DOI:*: #link("https://doi.org/10.1152/physiol.00057.2024")[10.1152/physiol.00057.2024]
+    / *PMID:*: 39960432
+    / *Published:*: 2025
+    / *Study Design:*: Systematic review
+    / *Key Findings:*:
+
+        - Comprehensive synthesis of mitochondrial dysfunction evidence across OXPHOS, substrate oxidation, and morphology in ME/CFS
+        - Identifies thyroid hormone signalling as an under-investigated regulatory axis
+        - Highlights the gap between documented mitochondrial abnormalities and their upstream drivers
+
+    / *Conclusion:*: Mitochondrial dysfunction is a consistent feature of ME/CFS, but upstream regulatory mechanisms (including thyroid hormone signalling) remain insufficiently characterised.
+    / *Relevance:*: Current authoritative review confirming the mitochondrial dysfunction evidence base that the thyroid-mitochondrial hypothesis seeks to explain.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (American Physiological Society journal)
+        - *Replication:* Review synthesises multiple independent studies
+        - *Certainty:* 0.75
+
+=== Lowe et al.\ 1997 — T3 for Euthyroid Fibromyalgia
+
+    / *Full Citation:*: Lowe JC, Garrison RL, Reichman AJ, Yellin J. Effectiveness and Safety of T3 Therapy for Euthyroid Fibromyalgia: A Double-Blind Placebo-Controlled Response-Driven Crossover Study. _Clinical Bulletin of Myofascial Therapy_. 1997;2(2--3).
+    / *DOI:*: #link("https://doi.org/10.1300/J425v02n02_04")[10.1300/J425v02n02\_04]
+    / *Published:*: 1997
+    / *Study Design:*: Double-blind placebo-controlled crossover RCT
+    / *Key Findings:*:
+
+        - Supraphysiologic T3 doses were "safe and significantly effective" in euthyroid fibromyalgia
+        - Positive clinical response with acceptable adverse effect profile
+        - Response-driven design (dose titration to clinical response)
+
+    / *Conclusion:*: T3 supplementation can benefit euthyroid patients with fibromyalgia symptoms.
+    / *Limitations:*: Fibromyalgia is distinct from ME/CFS; direct extrapolation is unjustified. Supraphysiologic dosing carries cardiac and bone risks. Small sample size. Single study, not replicated. The lead author's broader claims about "T3 resistance" were rejected by the American Thyroid Association.
+    / *Relevance:*: The only controlled trial of T3 in a fatiguing condition with ME/CFS symptom overlap. Provides proof-of-concept that euthyroid patients can respond to T3, but does not constitute evidence for T3 use in ME/CFS.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (controlled trial, but small and in a different condition)
+        - *Replication:* Not replicated
+        - *Certainty:* 0.35 (for ME/CFS applicability)
+
+=== Frontiers 2025 — Elevated mtDNA Copy Number in Impaired Peripheral Thyroid Sensitivity
+
+    / *Full Citation:*: Elevated mitochondrial DNA copy number in euthyroid individuals with impaired peripheral sensitivity to thyroid hormones. _Frontiers in Endocrinology_. 2025.
+    / *DOI:*: #link("https://doi.org/10.3389/fendo.2025.1635820")[10.3389/fendo.2025.1635820]
+    / *Published:*: 2025
+    / *Study Design:*: Cross-sectional analysis
+    / *Key Findings:*:
+
+        - Euthyroid individuals with impaired peripheral sensitivity to thyroid hormones show elevated mtDNA copy number
+        - Interpreted as compensatory response to reduced T3 signalling at tissue level
+        - Supports the concept that tissue-level thyroid resistance produces measurable mitochondrial adaptations even when serum thyroid tests are normal
+
+    / *Conclusion:*: Peripheral thyroid hormone resistance produces compensatory mitochondrial adaptations detectable by mtDNA copy number.
+    / *Relevance:*: Provides a measurable biomarker (mtDNA copy number) that could identify ME/CFS patients with tissue-level thyroid hormone resistance, even when standard thyroid tests are normal.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (single cross-sectional study)
+        - *Replication:* Not yet replicated
+        - *Certainty:* 0.50
+
+// =============================================================================
+
+== Circulating Cell-Free Mitochondrial DNA in Long COVID
+<sec:bib-cfmtdna-longcovid>
+// =============================================================================
+
+=== Matits et al.\ 2026 — Circulating cf-mtDNA, Cognition, and Inflammation in Long COVID
+
+    / *Full Citation:*: Matits L, et al.; EPILOC Phase 2 Study Group. Circulating mitochondrial and cellular damage markers in long COVID: Links to cognitive function, psychological distress, and inflammation. _Molecular Psychiatry_. 2026. Online ahead of print.
+    / *DOI:*: #link("https://doi.org/10.1038/s41380-026-03471-0")[10.1038/s41380-026-03471-0]
+    / *PMID:*: 41654652
+    / *Published:*: February 7, 2026 (online ahead of print)
+    / *Study Design:*: Nested case-control study within the EPILOC (Epidemiology of Long COVID) population-based cohort, Baden-Württemberg, Germany
+    / *Sample Size:*: n=228 (PASC/Long COVID n=128; recovered controls n=100)
+    / *Key Findings:*:
+
+        - Long COVID (PASC) patients had lower relative circulating cell-free mitochondrial DNA (ccf-mtDNA) than recovered controls
+        - After full covariate adjustment: F(1,192)=2.92; p=0.089; partial η²=0.01 (borderline non-significant)
+        - Excluding high-CRP participants (>10 mg/L): F(1,181)=4.36; p=0.038; partial η²=0.02 (just significant; very small effect)
+        - General cognition correlated positively with ccf-mtDNA (less ccf-mtDNA associated with worse cognition)
+        - CRP correlated negatively with ccf-mtDNA (higher inflammation associated with less ccf-mtDNA)
+        - Total cell-free DNA was not elevated — the reduction is mitochondria-specific
+        - 25% of PASC patients showed low-grade inflammation (elevated CRP)
+
+    / *Conclusion:*: Reduced ccf-mtDNA in Long COVID may reflect impaired mitophagy (altered mitochondrial quality control) rather than reduced cellular damage, potentially causing intracellular accumulation of damaged mitochondria and chronic energy deficits. Physical deconditioning is an alternative explanation, as ccf-mtDNA rises physiologically with exercise.
+    / *Relevance to ME/CFS:*: This finding is directly relevant to the ME/CFS vs Long COVID comparison. In contrast, Tsilioni et al.~@Tsilioni2022exosome (2022) found exosome-associated mtDNA _elevated_ in ME/CFS serum after exercise challenge (not at rest). This directional difference — reduced free cf-mtDNA in Long COVID at rest vs elevated exosome-associated mtDNA in ME/CFS post-exercise — is intriguing but not established as a distinguishing biomarker: measurements use different compartments, different timing, and no direct head-to-head comparison exists.
+    / *Limitations:*: Very small effect sizes; marginal statistical significance; heterogeneous PASC definition; physical activity confound not fully excluded; multiple comparisons without p-value correction; only second study of cf-mtDNA in PASC.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium-High (population-based cohort, n=228, high-impact peer-reviewed journal)
+        - *Effect size:* Very small (partial η²=0.01--0.02)
+        - *Replication:* Not replicated; only second PASC study (prior: Szögi 2024, n=5)
+        - *Conflicts of interest:* None declared
+        - *Certainty:* 0.35 (for distinguishing Long COVID from ME/CFS claim); 0.50 (for reduced ccf-mtDNA observation in PASC)
+
+=== Szögi et al.\ 2025 — Novel Mitochondrial Dysfunction Biomarkers in Long COVID
+
+    / *Full Citation:*: Szögi T, Borsos BN, Masic D, et al. Novel biomarkers of mitochondrial dysfunction in Long COVID patients. _GeroScience_. 2025;47(2):2245--2261.
+    / *DOI:*: #link("https://doi.org/10.1007/s11357-024-01398-4")[10.1007/s11357-024-01398-4]
+    / *PMID:*: 39495479
+    / *Published:*: Epub November 2024; published April 2025
+    / *Study Design:*: Small comparative study using transmission electron microscopy and biomarker analysis
+    / *Sample Size:*: n=10 (5 Long COVID patients, 5 controls with secondary ciliary dyskinesia)
+    / *Key Findings:*:
+
+        - Reduced circulating cell-free mitochondrial DNA (ccf-mtDNA) in Long COVID patients — first study to report this finding in PASC
+        - Mitochondrial ultrastructural abnormalities: significant swelling, disrupted cristae, irregular morphology
+        - Elevated superoxide dismutase 1 (SOD1) and autophagy-related 4B cysteine peptidase (ATG4B)
+        - Five mitochondrial genes analysed: MTATP6, MTCYTB, MTND1, MTND4, MTND5
+
+    / *Conclusion:*: Mitochondrial structural and functional abnormalities persist in Long COVID, with ccf-mtDNA serving as a candidate biomarker. Elevated ATG4B may indicate autophagy dysregulation.
+    / *Relevance:*: First study to demonstrate reduced ccf-mtDNA in PASC; replicated directionally by Matits et al.~@Matits2026cfmtDNA in a much larger cohort. Provides ultrastructural evidence supporting mitochondrial pathology in Long COVID.
+    / *Limitations:*: Extremely small sample (n=5 per group); controls have secondary ciliary dyskinesia (atypical comparison group); tissue biopsy rather than blood sample; highly selected patient population for olfactory symptoms.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Low (n=5, highly selected sample, atypical control group)
+        - *Replication:* Directionally replicated in larger cohort (Matits 2026)
+        - *Certainty:* 0.30 (preliminary finding only)
