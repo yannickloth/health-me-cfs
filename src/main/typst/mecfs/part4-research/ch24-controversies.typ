@@ -133,6 +133,7 @@ The evidence against GET in ME/CFS is now extensive:
     - *Patient surveys*: 51% of ME/CFS patients report GET worsened their condition across surveys in four countries @Kindlon2011GET
     - *Physiological evidence*: Two-day CPET demonstrates that exertion produces measurable metabolic failure, not psychological fear @keller2024cpet @Lim2020
     - *Guideline withdrawals*: NICE (2021) withdrew GET, CDC (2022) removed exercise recommendations, and multiple national guidelines now explicitly warn against GET @NICE2021mecfs
+    - *Long COVID confirmation*: A _Nature Reviews Cardiology_ commentary reported that 75% of 477 Long COVID patients experienced worsening symptoms and function after following exercise recommendations, with 85% showing PEM combined with cardiovascular autonomic dysfunction @vanRhijnBrouwer2024GETharm
     - *Deconditioning refutation*: The NIH study documented that exercise impairment exceeds what deconditioning predicts, and equal maximum grip strength argues against deconditioning as the primary mechanism @walitt2024deep
 
 === Current Recommendations
@@ -513,6 +514,34 @@ The peptic ulcer story is particularly instructive: despite clear evidence that 
 This historical context does not prove that ME/CFS has a specific biological cause, but it does demonstrate that medicine has a systematic tendency to classify poorly understood diseases as psychosomatic, and that this classification has consistently been wrong when biological investigation eventually catches up. The lesson is that absence of a known mechanism is not evidence for a psychological cause.
 
 The question then becomes: what would the equivalent of Marshall's _H. pylori_ discovery look like for ME/CFS? The Peptic Ulcer Parallel speculation (Chapter @ch:integrative-models, Speculation @spec:peptic-ulcer-parallel) identifies three candidates for the "molecular switch" that maintains ME/CFS independently of the original trigger: (1) TRPM3 ion channel dysfunction affecting calcium signalling across immune, neuronal, and metabolic cells (Chapter @ch:immune-dysfunction); (2) epigenetic methylation locks at autonomic regulatory genes that persist after the triggering infection resolves; (3) a genetic bottleneck in mitophagy capacity revealed by the DecodeME autophagy genes _FBXL4_ and _CCPG1_ (Chapter @ch:genetics-epigenetics, Hypothesis @hyp:mitophagy-vulnerability). Each candidate predicts a different "eradication therapy"---TRPM3-restoring drugs, targeted demethylation agents, or mitophagy enhancers---but all share the peptic ulcer pattern: a simple persistent factor maintaining a complex disease that was assumed to be psychosomatic.
+
+== Medical Gaslighting: Systemic Diagnostic Dismissal
+<sec:medical-gaslighting>
+
+Medical gaslighting---the dismissal or minimisation of patient symptoms by healthcare professionals without adequate clinical investigation---is a pervasive problem in ME/CFS that extends beyond individual clinician behaviour to reflect systemic failures in medical education, time-constrained consultation models, and the legacy of the psychogenic framing discussed in preceding sections.
+
+The phenomenon takes several characteristic forms in ME/CFS. Patients report being told their symptoms are caused by stress, depression, or deconditioning despite objective evidence of physiological dysfunction. Post-exertional malaise is frequently overlooked or dismissed, leading to exercise recommendations that worsen the condition (Section @sec:exercise-debates). Diagnostic investigations are curtailed because unremarkable standard laboratory results are interpreted as excluding organic disease, rather than as expected findings in a condition that affects systems not captured by routine panels.
+
+Contributing systemic factors include limited ME/CFS content in medical training (most physicians receive no structured education on the condition), consultation time constraints that prevent thorough clinical evaluation, unconscious bias along gender and socioeconomic lines, and the historical psychogenic framing that positioned ME/CFS as a behavioural rather than biomedical condition. The gender dimension is particularly significant: ME/CFS disproportionately affects women, and a documented gender health gap means that women's symptoms are more likely to receive delayed or dismissive responses across medical specialties.
+
+The consequences extend beyond diagnostic delay. Repeated dismissal produces measurable psychological harm: anxiety disorders, depression, deep distrust of medical institutions, and---in severe cases---medical post-traumatic stress that causes patients to avoid seeking care even when deteriorating. This avoidance creates a vicious cycle in which undertreated patients become more severely ill, reinforcing the perception that ME/CFS is intractable.
+
+The historical parallel to multiple sclerosis is instructive. MS patients---particularly women---were historically diagnosed as hysterical, their motor symptoms attributed to psychological conversion disorder. The biological basis of MS was eventually established, but the decades of psychogenic dismissal caused preventable suffering. The 1984 Lake Tahoe ME/CFS outbreak was similarly dismissed as mass hysteria despite subsequently generating thousands of peer-reviewed publications validating the condition's biological basis. Whether ME/CFS is currently at the inflection point where MS was in the 1960s---accumulating biological evidence coexisting with institutional resistance to abandoning the psychogenic model---remains an open question (see Section @sec:psychosomatic-parallels).
+
+== International Clinical Guidelines: Convergence Against Activation Therapy
+<sec:international-guidelines>
+
+The convergence of major national and international guidelines against graded exercise therapy (GET) and toward energy management represents one of the clearest policy shifts in ME/CFS history.
+
+The *NICE 2021 guideline* (United Kingdom) marked a watershed by explicitly withdrawing its prior recommendation for GET and stating that CBT is not curative for ME/CFS @NICE2021mecfs. The guideline recommends individualised energy management and explicitly warns against exercise programmes that do not accommodate post-exertional malaise.
+
+The *DEGAM 2022 S3-Leitlinie Müdigkeit* (Germany)---issued by the Deutsche Gesellschaft für Allgemeinmedizin und Familienmedizin, the primary German GP professional society---recommends using the IOM criteria for initial screening and the Canadian Consensus Criteria for diagnostic confirmation @DEGAM2022fatigue. The guideline explicitly warns against "activating measures" (_aktivierende Maßnahmen_), adopting language that directly contradicts the earlier European rehabilitation paradigm. Pacing and energy management are recommended as the primary non-pharmacological approach.
+
+The *EUROMENE consensus* (European Network on ME/CFS) provides coordinated European guidance on diagnosis, service provision, and care @Nacul2021EUROMENE. It emphasises PEM as the distinguishing clinical feature and advocates for interdisciplinary care models.
+
+At the policy level, the German *Gemeinsamer Bundesausschuss* (G-BA, Joint Federal Committee) established the LongCOV-RL in 2023---a statutory care guideline under §92 SGB V that mandates structured, needs-based care for Long COVID and ME/CFS following SARS-CoV-2 infection @GBA2023LongCOVRL. Unlike advisory guidelines, this directive carries regulatory force: it establishes GP-coordinated multi-level care pathways, requires specialist referral for complex cases, and includes specific provisions for PEM assessment. The guideline includes a three-year evaluation mandate to assess effectiveness using patient care data and emerging research. This represents one of the first statutory (not advisory) care frameworks for ME/CFS-spectrum conditions in any jurisdiction.
+
+The direction of travel is unambiguous: every major guideline revision since 2020 has moved away from activation-based therapy and toward recognition of PEM as a central clinical feature requiring energy management, not exercise escalation.
 
 == Scientific Integrity in ME/CFS Research
 <sec:scientific-integrity>
