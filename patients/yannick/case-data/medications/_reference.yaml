@@ -1,5 +1,5 @@
 # Current medication and supplement regimen
-# Last updated: 2026-03-16
+# Last updated: 2026-03-31
 
 regimen:
   - name: "Riboflavin (Vitamin B2)"
@@ -123,6 +123,23 @@ regimen:
       palmitoylethanolamide: "1100 mg"
       luteolin: "included (amount not specified separately)"
     notes: "Liposomal formulation. Contains PEA + luteolin."
+
+  - name: "Pyridostigmine (Mestinon)"
+    category: "medication"
+    indication: "autonomic support, preload failure, acetylcholinesterase inhibitor"
+    frequency: "3x/day"
+    dose_per_pill: "10 mg"
+    daily_total: "30 mg"
+    start_date: "2026-03-31"
+    titration:
+      - dose: "10 mg x 3/day (30 mg/day)"
+        from: "2026-03-31"
+        to: null
+    current_dose: "10 mg x 3/day"
+    notes: >
+      Trial for autonomic dysfunction / preload failure per Mestinon request document.
+      Based on Joseph et al. 2022 RCT evidence. Monitor for bradycardia given
+      vasovagal history. Day 1: started afternoon (2 pills only).
 
   - name: "Bactecal gelules"
     category: "supplement"
