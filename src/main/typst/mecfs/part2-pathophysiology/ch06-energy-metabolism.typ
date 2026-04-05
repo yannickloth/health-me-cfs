@@ -181,6 +181,7 @@ Reactive oxygen species (ROS) damage mitochondrial components:
 Figures @fig:oxidative-stress-normal and @fig:oxidative-stress-mecfs illustrate how oxidative stress creates a self-perpetuating cycle in ME/CFS, where excessive ROS production (5–10% electron leakage vs.\ normal 2%) combined with depleted antioxidants leads to progressive damage.
 
 ==== Calcium Dysregulation
+<sec:calcium-dysregulation>
 
 Mitochondria buffer cytosolic calcium and use it for signaling:
 
@@ -188,6 +189,37 @@ Mitochondria buffer cytosolic calcium and use it for signaling:
     - *ER-mitochondria crosstalk*: Abnormal calcium transfer between organelles
     - *Apoptosis signaling*: Calcium overload can trigger cell death pathways
     - *Enzyme regulation*: Many mitochondrial enzymes are calcium-sensitive
+
+===== The Na#super[+]/K#super[+]-ATPase Failure Cascade
+
+The sodium-potassium pump (Na#super[+]/K#super[+]-ATPase) normally maintains a steep electrochemical gradient: 3~Na#super[+] exported for every 2~K#super[+] imported per cycle. This gradient is essential for nerve signalling, glucose transport, cell volume regulation, and muscle contraction. In ME/CFS, multiple mechanisms converge to slow this pump:
+
+    + *Hypoperfusion*: Reduced oxygen and substrate delivery impairs the ATP supply the pump requires (each cycle consumes one ATP molecule).
+    + *Frequent anaerobic threshold crossing*: Anaerobic metabolism produces lactate, lowering intracellular pH and activating the sodium-hydrogen exchanger (NHE1), which imports Na#super[+] to extrude H#super[+]; the already-impaired pump cannot clear this excess Na#super[+].
+    + *$beta_2$-adrenergic receptor dysfunction*: These receptors directly activate Na#super[+]/K#super[+]-ATPase during physical activity; their desensitisation and autoantibody blocking (see Section @sec:blood-volume of Chapter @ch:cardiovascular) removes this activation signal.
+
+When intracellular Na#super[+] rises sufficiently, the sodium-calcium exchanger (NCX) enters "reverse mode": instead of exporting Ca#super[2+] (its normal function), it imports Ca#super[2+] in exchange for Na#super[+] efflux. The result is excessive intracellular calcium accumulation---a cytotoxic state.
+
+#clinical-finding(title: [Elevated Intracellular Sodium in ME/CFS Skeletal Muscle])[
+Wirth and Scheibenbogen (2022) used MRI-based sodium imaging to measure intracellular sodium in the gastrocnemius muscle of ME/CFS patients after a calf-raise protocol (30 per minute for 3~minutes). ME/CFS patients showed a 30% intracellular sodium rise versus 17% in controls, measured 12~minutes post-exercise (likely underestimating the peak difference during exertion) @Wirth2022muscleSodium. ME/CFS patients also had elevated muscle sodium at baseline, and higher resting sodium correlated with lower handgrip strength---suggesting pump dysfunction as a primary driver of weakness.
+] <obs:muscle-sodium>
+
+#fhypothesis(title: [Calcium Toxicity as the Primary Mechanism of Post-Exertional Malaise], falsifiability: [weakly], justification: [Falsified if (a) intracellular calcium levels in ME/CFS muscle fibres are normal during PEM, or (b) calcium channel blockers or NCX inhibitors fail to reduce PEM severity, or (c) an alternative mechanism for exercise-induced muscle necrosis in ME/CFS is identified])[
+The calcium toxicity cascade---Na#super[+]/K#super[+]-ATPase failure $arrow.r$ NCX reversal $arrow.r$ Ca#super[2+] overload---may be the primary cellular mechanism of post-exertional malaise. Excessive intracellular calcium causes muscle pain, direct mitochondrial damage, reduced ATP production, and in severe cases drives mitochondria to _consume_ rather than produce ATP in a futile attempt to buffer the calcium load @Walkon2022calcium. At extreme levels, calcium toxicity causes necrotic muscle fibre death.
+
+Appelman et al. (2024) provided direct histological evidence: light microscopy of Long~COVID patient muscle biopsies revealed an unusually high number of necrotic (dead) muscle fibres during PEM @Appelman2024muscle. Wirth and Scheibenbogen (2024) argue that calcium toxicity is the only mechanism in their systematic analysis that can account for exercise-induced muscle fibre necrosis @Wirth2024keyRole, though independent systematic reviews of this claim have not yet been published.
+
+Wirth and Scheibenbogen propose positioning ME/CFS as an "acquired ischaemic mitochondrial myopathy" --- a classification that, if validated, would imply dysfunction in mitochondria occurring simultaneously with reduced blood perfusion (ischaemia). PEM severity and duration depend on the extent of calcium overload and the body's capacity to restore ionic homeostasis---a process severely hampered by the same hypoperfusion that caused the overload.
+
+*Testable predictions:*
+
+    / *(a)*: Intracellular calcium levels (measured by #super[31]P-MRS or calcium-sensitive fluorescent probes in biopsy) are elevated in ME/CFS muscle during PEM compared to baseline.
+    / *(b)*: The degree of post-exercise sodium accumulation (Wirth-Scheibenbogen sodium MRI protocol) predicts PEM severity and duration in a dose-response relationship.
+    / *(c)*: Pharmacological Na#super[+]/K#super[+]-ATPase stimulation (e.g., MDC002/Mitodicure) reduces or eliminates PEM by preventing the sodium-calcium cascade from reaching the toxicity threshold.
+
+*Treatment implication:* If calcium toxicity is the proximate PEM mechanism, then MDC002---which restores Na#super[+]/K#super[+]-ATPase function---would address the immediate trigger. Upstream interventions improving muscular blood flow (see bradykinin model, Section @sec:blood-volume of Chapter @ch:cardiovascular) would reduce the pump's metabolic burden.
+*Certainty: 0.50*---strong mechanistic logic supported by the sodium MRI data and muscle necrosis finding, but direct calcium measurements in ME/CFS muscle during PEM have not yet been performed.
+] <hyp:calcium-pem>
 
 ==== Mitochondrial DNA Alterations
 
@@ -207,6 +239,57 @@ Mitophagy removes damaged mitochondria:
     - *Accumulation*: Damaged mitochondria continue producing ROS
     - *Quality control failure*: Network of damaged organelles
 
+==== Thyroid Hormone Regulation of Mitochondrial Function
+<sec:thyroid-mito-regulation>
+
+The mechanisms of mitochondrial damage described above---oxidative stress, calcium overload, impaired mitophagy---do not operate in isolation. Thyroid hormones, particularly triiodothyronine (T3), regulate mitochondrial biogenesis, respiratory chain assembly, and quality control through well-characterised pathways in general endocrinology @Singh2022bioenergetic @Liao2024thyroidMito. Whether disruption of thyroid hormone signalling contributes to mitochondrial dysfunction in ME/CFS specifically has not been directly tested. Comparable mechanistic arguments could be constructed for other hormones with broad mitochondrial regulatory roles (cortisol, insulin, IGF-1), so the existence of a mechanistic overlap is necessary but not sufficient to prioritise this axis. The case for considering thyroid hormones here rests on the documented Low T3 Syndrome in ~16% of ME/CFS patients @ruiznunez2018thyroid and the selenoprotein P autoantibody finding @Sun2023selenop (Chapter @ch:endocrine, Section @sec:thyroid), which provide ME/CFS-specific evidence---albeit from single unreplicated studies---for disrupted thyroid hormone availability.
+
+T3 regulates mitochondrial function through two distinct pathways operating on different timescales @Singh2022bioenergetic @Liao2024thyroidMito. (Note: the relative quantitative importance of T3 versus other mitochondrial regulators---insulin signalling, AMPK, mTOR, glucocorticoids, PPAR ligands---varies by tissue and metabolic context. The description below presents the T3-specific pathways; it does not imply T3 is the dominant regulator in all settings.)
+
+===== Nuclear/Genomic Pathway (Hours to Days)
+
+T3 binds nuclear thyroid hormone receptors (TR$alpha$1 and TR$beta$1), which act as ligand-dependent transcription factors at thyroid response elements (TREs) in nuclear DNA. This activates a transcriptional cascade: T3 $arrow.r$ PGC-1$alpha$ induction $arrow.r$ NRF-1/GABPA (Nuclear Respiratory Factor 2, distinct from the Nrf2/NFE2L2 antioxidant pathway) coactivation $arrow.r$ TFAM (mitochondrial transcription factor A) expression $arrow.r$ mtDNA replication and transcription. The net result is increased mitochondrial mass, mtDNA copy number, and respiratory capacity over 1--several days. T3 also coordinates fission, mitophagy, and biogenesis through a pathway proposed to involve ERR$alpha$-dependent ULK1 and DRP1 expression @Singh2017thyroidERR: in this proposed model, T3-induced DRP1-mediated fission physically separates damaged mitochondrial segments, enabling their PINK1/Parkin-dependent mitophagic clearance, while PGC-1$alpha$ simultaneously drives biogenesis of replacement organelles (demonstrated in specific cell types in vitro; generalisability to skeletal muscle and neurons is assumed but not confirmed). This quality-control cycle, if operative, would ensure that the mitochondrial population remains functional---a process compromised when tissue T3 is low.
+
+===== Direct Mitochondrial Pathway (Minutes to Hours)
+
+The full-length TR$alpha$1 mRNA also encodes two truncated proteins that are imported directly into mitochondria @WrutniakCabello2018p43. The p43 isoform (~43 kDa) localises to the mitochondrial matrix, binds T3, and evidence from in vitro transactivation assays suggests it functions as a T3-dependent transcription factor of the mitochondrial genome---binding putative TREs in the mitochondrial D-loop region to promote synthesis of the 13 mitochondrial-encoded OXPHOS subunits. This dual system (nuclear + mitochondrial) ensures coordinated expression of both nuclear-encoded and mtDNA-encoded respiratory chain components; loss of either pathway produces stoichiometric imbalance and assembly defects.
+
+===== Supercomplex Assembly and Cardiolipin
+
+T3 promotes the assembly of individual respiratory complexes (I, III, IV) into *supercomplexes* (respirasomes), which channel electrons more efficiently and limit ROS generation @Singh2022bioenergetic. Supercomplex stability depends on cardiolipin, the signature phospholipid of the inner mitochondrial membrane: T3 rapidly increases cardiolipin synthase activity, and cardiolipin acts as molecular "glue" bridging Complexes III and IV (multiple cardiolipin molecules per interface in cryo-EM structures, with variable occupancy across species). Hypothyroidism causes reduced cardiolipin content and impaired supercomplex formation---a phenotype that overlaps with the supercomplex disruption produced by WASF3 overexpression, though via distinct mechanisms (@ach:wasf3-mechanism below). T3 deficiency and WASF3 elevation could in principle disrupt supercomplexes through complementary mechanisms (reduced assembly signals vs. active disassembly). Whether these two mechanisms co-occur in individual ME/CFS patients has not been tested---no study has measured both WASF3 levels and tissue T3 in the same cohort @Liao2024thyroidMito.
+
+===== 3,5-Diiodothyronine (T2): Rapid Mitochondrial Effects
+
+3,5-Diiodo-L-thyronine (3,5-T2), a thyroid hormone metabolite previously considered inactive, has rapid non-genomic effects on mitochondria that are independent of protein synthesis and evident within one hour @Lombardi2015T2skeletal. In vitro evidence suggests 3,5-T2 interacts with Complex IV (cytochrome $c$ oxidase), modulating the allosteric ATP-inhibitory conformation---effectively reducing the brake on terminal electron transfer (the precise binding subunit remains to be confirmed by structural studies). 3,5-T2 also stimulates fatty acid oxidation (+80--104% increase with palmitoyl substrates) via SIRT1 activation of AMPK, which phosphorylates and inhibits ACC, reducing malonyl-CoA production and thereby relieving CPT1-mediated inhibition of mitochondrial fatty acid import. T2 reduces H#sub[2]O#sub[2] production while increasing respiration rate, suggesting it shifts mitochondria toward efficient coupled respiration. Whether T2 levels are altered in ME/CFS has not been investigated.
+
+===== Relevance to ME/CFS: The Thyroid--Mitochondrial Convergence
+
+#fhypothesis(title: [Low Tissue T3 as Amplifier of Mitochondrial Dysfunction in a Subset of ME/CFS Patients], falsifiability: [weakly], justification: [Falsified if (a) intramuscular T3 concentrations in ME/CFS patients with serum Low T3 are normal, or (b) T3 supplementation in Low T3 ME/CFS patients fails to improve the primary endpoint of maximal coupled respiration in muscle biopsy respirometry at 12 weeks])[
+*Certainty: 0.45.* In the ~16% of ME/CFS patients with documented Low T3 Syndrome (Section @sec:thyroid in Chapter @ch:endocrine), reduced tissue T3 availability may amplify several of the mitochondrial damage mechanisms described in this section through a convergent cascade. Note that this hypothesis applies specifically to the Low T3 subgroup and does not claim to explain mitochondrial dysfunction in ME/CFS patients with normal thyroid profiles:
+
+    + *Reduced PGC-1$alpha$ activation*: Impaired mitochondrial biogenesis---fewer new mitochondria to replace damaged ones.
+    + *Reduced cardiolipin synthesis*: Destabilised respiratory supercomplexes---increased electron leak and ROS generation.
+    + *Impaired mitophagy coordination (if the proposed ERR$alpha$/ULK1/DRP1 pathway operates in relevant tissues)*: Reduced fission-mitophagy-biogenesis cycle---damaged mitochondria accumulate rather than being cleared @Singh2017thyroidERR. This step depends on a pathway demonstrated in vitro but not confirmed in human skeletal muscle or neurons.
+    + *Potential supercomplex disruption overlap with WASF3*: Low T3 reduces assembly signals while WASF3 actively disrupts assembled supercomplexes---whether these co-occur in individual patients has not been tested @wang2023wasf3.
+    + *Reduced p43-mediated mtDNA transcription*: Insufficient production of the 13 mtDNA-encoded OXPHOS subunits, creating stoichiometric imbalance with nuclear-encoded subunits @WrutniakCabello2018p43.
+
+A hypothesised self-reinforcing cycle could operate as follows: low tissue T3 $arrow.r$ impaired biogenesis and quality control $arrow.r$ accumulation of damaged, ROS-producing mitochondria. The proposed closing link---ROS-driven oxidative inactivation of deiodinase selenocysteine residues, further reducing T4-to-T3 conversion---is the weakest step in the cycle: while sustained oxidative stress can irreversibly oxidise selenocysteine to seleninic acid, this requires severe and sustained ROS levels beyond what has been directly demonstrated in ME/CFS tissues. *This closing link should be treated as an open question rather than an established feedback mechanism.* If it does not operate, the cycle is open (T3 deficit worsens mitochondrial function, but mitochondrial dysfunction does not necessarily worsen T3 availability through this route).
+
+Selenoprotein P autoantibodies, documented in 9.6--15.6% of ME/CFS patients @Sun2023selenop, represent a separate mechanism that could impair deiodinase function by reducing selenium delivery (Section @sec:thyroid in Chapter @ch:endocrine). However, this is a distinct mechanistic branch (autoimmune selenium transport impairment), not a substitute for the ROS-deiodinase closing link: it does not demonstrate that mitochondrial dysfunction _causes_ worsened T3 availability, which is what a true self-reinforcing cycle requires. Without evidence for either closing link, the most conservative interpretation is a one-directional pathway: low T3 may worsen mitochondrial function, but whether mitochondrial dysfunction reciprocally worsens T3 availability remains an open question.
+
+*Testable predictions:*
+
+    / *(a)*: ME/CFS patients with documented Low T3 Syndrome should show lower supercomplex content (measured by blue native PAGE of muscle biopsy mitochondria) than ME/CFS patients with normal thyroid hormone profiles.
+    / *(b)*: Intramuscular T3 concentrations (measured by LC-MS/MS in biopsy) should be disproportionately reduced relative to serum FT3 in patients with selenoprotein P autoantibodies.
+    / *(c)*: T3 supplementation in Low T3 ME/CFS patients should increase mtDNA copy number and improve respirometric parameters (maximal coupled respiration, spare respiratory capacity) measured in PBMCs or muscle biopsy at 8--12 weeks.
+
+*Research implication:* This hypothesis predicts that future clinical trials of mitochondrial cofactor supplementation (CoQ10, NAD#super[+] precursors, carnitine) should stratify by thyroid status, as patients in the Low T3 subgroup might respond differently. This is a testable prediction, not a clinical recommendation---no evidence currently shows that cofactor supplementation fails due to T3 deficiency, and well-tolerated supplements should not be withheld pending thyroid investigation. The alternative hypothesis---that Low T3 is a protective adaptation to energy deficiency (Section @sec:thyroid in Chapter @ch:endocrine)---would predict the opposite: that correcting T3 without addressing the underlying energy deficit could worsen outcomes by raising metabolic demand beyond supply.
+] <hyp:t3-mito-amplifier>
+
+#warning-env(title: [No Direct Measurement of Intramuscular T3 in ME/CFS])[
+No study has directly measured T3 concentrations in ME/CFS skeletal muscle or other target tissues. The hypothesis that tissue-level T3 is reduced rests on indirect evidence: serum Low T3 pattern @ruiznunez2018thyroid, reduced deiodinase activity indices (SPINA-GD) @Sun2023selenop, and the general finding that serum T3 underestimates tissue deficits when deiodinase function is impaired. Direct tissue measurement using LC-MS/MS in muscle biopsy is technically feasible but has not been performed in ME/CFS.
+]
+
 ==== IgG Immune Complex--Mediated Mitochondrial Disruption
 <sec:igg-mito-disruption>
 
@@ -217,6 +300,31 @@ Patient-derived IgG induced mitochondrial fragmentation---a shift from elongated
 #achievement(title: [IgG Transfer Reproduces Mitochondrial Pathology in Endothelial Cells])[
 Liu et al.\ (2026) @Liu2026IgGcomplexes demonstrated that IgG immune complexes purified from ME/CFS patient sera are sufficient to induce mitochondrial fragmentation and inflammatory cytokine secretion (IL-1$beta$) when applied to healthy endothelial cells. This "transfer experiment" establishes that a circulating humoral factor---not cell-intrinsic defects---can drive the mitochondrial structural abnormalities observed in ME/CFS. Mass spectrometry proteomics revealed disease-specific signatures in the IgG complexes: classic ME/CFS IgG was enriched in extracellular matrix reorganisation pathways, while post-COVID ME/CFS IgG was enriched in hemostasis and blood clot formation pathways.
 ] <ach:igg-mito-transfer>
+
+==== Circulating Cell-Free Mitochondrial DNA and Mitophagy Signalling
+<sec:cfmtdna-mitophagy>
+
+Circulating cell-free mitochondrial DNA (ccf-mtDNA) is released from cells during both physiological processes (exercise, mitophagy) and pathological states (cell death, inflammation). Its levels therefore reflect the balance between mitochondrial turnover, damage, and clearance. In acute SARS-CoV-2 infection, markedly elevated ccf-mtDNA signals massive mitochondrial release during cell death and predicts adverse outcomes. By contrast, Matits et al.\ @Matits2026cfmtDNA ($n = 228$; EPILOC cohort) reported nominally lower ccf-mtDNA in Long COVID patients compared to recovered controls, though the finding did not reach statistical significance after full covariate adjustment ($p = 0.089$; partial $eta^2 = 0.01$--$0.02$; $p = 0.038$ only in a sensitivity analysis excluding high-CRP outliers). A preliminary case series (Szögi et al.\ @Szogi2024cfmtDNA; $n = 5$ Long COVID, $n = 5$ ciliary dyskinesia controls) also reported reduced ccf-mtDNA alongside mitochondrial ultrastructural abnormalities, though the extremely small sample and non-standard controls preclude generalisation.
+
+#hypothesis(title: [Impaired Mitophagy Traps Damaged Mitochondria in Long COVID])[
+*Certainty: 0.35.* _If_ ccf-mtDNA is genuinely reduced in Long COVID (a finding that did not reach conventional significance after full covariate adjustment in the sole adequately powered study), one interpretation is that impaired mitophagy prevents clearance and extracellular release of damaged mitochondria, causing their intracellular accumulation. This would produce chronic cellular stress and energy deficits without the external damage signal seen in acute infection @Matits2026cfmtDNA @Szogi2024cfmtDNA. This connects to the mitophagy coordination pathway proposed in Section @sec:thyroid-mito-regulation: if the ERR$alpha$/ULK1/DRP1 fission-mitophagy-biogenesis cycle is disrupted, damaged organelles persist. However, the deconditioning alternative has not been excluded---physically active individuals have higher ccf-mtDNA, and Long COVID patients are typically less active than recovered controls.
+
+*Testable prediction:* Muscle biopsy from Long COVID patients with low ccf-mtDNA should show increased mitochondrial PINK1/Parkin co-localisation (stalled mitophagy) compared to recovered controls with normal ccf-mtDNA. Falsified if mitophagy markers are normal or reduced despite low ccf-mtDNA.
+] <hyp:impaired-mitophagy-longcovid>
+
+In ME/CFS, Tsilioni et al.\ @Tsilioni2022exosome found exosome-associated mtDNA _elevated_ after exercise\ ---a different compartment, different timing, and potentially a different mechanism (active exosomal secretion rather than passive release from cell death). Quantitative details (sample size, effect size) for the Tsilioni study are not available from the abstract, and the finding has not been independently replicated; it should be weighted accordingly. Whether resting ccf-mtDNA is also altered in ME/CFS is unknown (see @spec:cfmtdna-distinguish in Section @sec:cross-disease for the cross-disease comparison).
+
+*Post-hoc observation: IgG immune complexes and the mitophagy block.*
+The following connection was constructed after both the Liu and Matits findings were available; it was not predicted by either study and should be read as a hypothesis-generating observation, not as a deduction. The IgG immune complex finding (Section @sec:igg-mito-disruption above) could in principle relate to the impaired mitophagy hypothesis. Liu et al.\ @Liu2026IgGcomplexes showed that IgG from ME/CFS patients induces mitochondrial fragmentation _without_ depolarising the fragments---spare respiratory capacity was maintained or increased. Since the canonical PINK1/Parkin mitophagy pathway requires depolarisation, IgG-induced fragments that retain membrane potential might evade this clearance route, potentially contributing to intracellular accumulation. However, this reasoning has several unverified steps: (a) PINK1/Parkin dynamics have not been measured in IgG-treated cells; (b) PINK1-independent mitophagy pathways (BNIP3, FUNDC1) could clear polarised fragments; (c) the Liu experiment used ME/CFS sera while the Matits finding is in Long COVID patients; (d) the HUVEC model may not represent whole-body ccf-mtDNA dynamics. The connection remains speculative and requires direct experimental testing before it can be considered mechanistically supported.
+
+*Deconditioning as a causal feedback loop, not merely a confound.*
+Physical activity is a potent stimulus for mitophagy via AMPK activation. The deconditioning commonly seen in ME/CFS and Long COVID patients may therefore not simply confound the ccf-mtDNA measurement---it may _mediate_ the mitophagy impairment. Reduced activity $arrow.r$ reduced AMPK-stimulated mitophagy $arrow.r$ accumulation of damaged mitochondria $arrow.r$ further impaired energy production $arrow.r$ further reduced activity capacity. This creates a self-reinforcing loop in which deconditioning is both a consequence and a cause of mitochondrial quality control failure. Strict pacing, while essential for preventing PEM-mediated kindling (Chapter @ch:neurological), may paradoxically worsen this mitophagy deficit. Whether a "therapeutic window" exists---activity sufficient to maintain AMPK-mediated mitophagy signalling without crossing the PEM threshold---is an open question with direct clinical implications (see Chapter @ch:lifestyle for pacing recommendations).
+
+#warning-env(title: [Deconditioning--Mitophagy Loop Does Not Justify Graded Exercise Therapy])[
+The observation that reduced physical activity may impair AMPK-mediated mitophagy does _not_ justify graded exercise therapy (GET), which operates at intensities far above any plausible mitophagy-only threshold and carries well-documented risk of harm in ME/CFS patients. The "therapeutic window" concept---if one exists---would involve minimal activity levels (e.g., gentle movement well below the PEM threshold), not structured exercise programmes. This distinction is critical: the deconditioning loop is a mechanistic observation, not a clinical recommendation.
+]
+
+*Clinical translation:* None of the pathways described in this subsection (ccf-mtDNA, mitophagy, PINK1/Parkin) are currently testable or targetable in clinical practice. ccf-mtDNA measurement is a research-only assay. No approved drug specifically targets mitophagy in ME/CFS or Long COVID. The one provisional clinical implication is that strict rest-only approaches may have a theoretical cost; discuss gentle movement within the patient's individual PEM threshold with a pacing specialist (Chapter @ch:lifestyle). For severe or very severe patients who are bedbound, this consideration does not apply---rest is essential.
 
 #warning-env(title: [Replication Status and Limitations])[
 The mitochondrial fragmentation effect was predominantly observed in female patients; male-specific mechanisms remain unexplored. The HUVEC model relies heavily on glycolysis, which may mask oxidative phosphorylation effects that would manifest in more OXPHOS-dependent tissues (skeletal muscle, neurons). The IgG purification method did not effectively capture pentameric IgM, which may carry additional pathogenic activity. Not all ME/CFS patients' IgG induced fragmentation, consistent with disease heterogeneity. Independent replication is pending.
@@ -237,7 +345,7 @@ The WASF3 mechanism provides a molecular explanation for several ME/CFS features
 ] <ach:wasf3-mechanism>
 
 #warning-env(title: [Replication Status])[
-Single study (Hwang 2023) from the NIH intramural ME/CFS cohort. While the mechanism was validated in cell culture (pharmacologic ER stress inhibition rescued mitochondrial function), no independent cohort has replicated the WASF3 elevation finding in ME/CFS muscle biopsies. The “druggable target” claim remains preclinical. Independent replication in patient tissue is required before therapeutic development.
+Single study (Wang et al. 2023) from the NIH intramural ME/CFS cohort. While the mechanism was validated in cell culture (pharmacologic ER stress inhibition rescued mitochondrial function), no independent cohort has replicated the WASF3 elevation finding in ME/CFS muscle biopsies. The “druggable target” claim remains preclinical. Independent replication in patient tissue is required before therapeutic development.
 ]
 
 A 2025 muscle biopsy study in long COVID and ME/CFS patients confirmed
@@ -287,6 +395,25 @@ Different tissues manifest energy deficits differently:
     - Reduced NK cell cytotoxicity
     - Abnormal cytokine production
     - Ineffective pathogen clearance
+
+==== Calcium Toxicity, Exercise Chunking, and Threshold Dynamics
+
+The calcium toxicity model (Section @sec:calcium-dysregulation) has a critical therapeutic implication: calcium overload is a _threshold_ phenomenon, not a linear dose-response. The Na#super[+]/K#super[+]-ATPase can maintain ionic homeostasis below a certain workload; above it, intracellular sodium accumulates faster than the pump can clear, NCX reverses, and calcium floods in. Damage is then proportional to the _area above threshold_, not to total work performed.
+
+#speculation(title: [Exercise Chunking Works by Staying Below the Calcium Toxicity Threshold])[
+The Klimas reconditioning protocol (Chapter @ch:lifestyle)---short exercise bouts separated by supine rests---may work specifically because it keeps intracellular sodium below the NCX reversal threshold throughout. Supine rest between bouts is critical for a precise reason: it restores muscular perfusion (by eliminating orthostatic demand), which restores aerobic ATP production, which powers the Na#super[+]/K#super[+]-ATPase to clear accumulated sodium _before_ NCX reversal occurs. The rest period is a race between sodium clearance rate and the reversal threshold.
+
+If correct, the optimal rest interval is patient-specific and depends on individual Na#super[+]/K#super[+]-ATPase kinetics (measurable via the Wirth-Scheibenbogen sodium MRI protocol). Compression stockings during exercise (by maintaining perfusion) should extend the tolerable bout duration before pump failure.
+
+*Testable predictions:*
+
+    / *(a)*: Two equal-total-work exercise sessions---one continuous, one chunked with supine rests---should produce dramatically different PEM severity, with the chunked session producing near-zero PEM if rest intervals are sufficient.
+    / *(b)*: Intracellular sodium should return to baseline during properly timed supine rests, measurable by repeated sodium MRI.
+    / *(c)*: Combining compression stockings with exercise chunking should allow longer bouts before sodium accumulation reaches the reversal threshold.
+
+*Treatment implication:* Personalised exercise prescription based on sodium MRI-derived pump kinetics, rather than empirical activity restriction alone.
+*Certainty: 0.40*---the logic follows directly from the calcium toxicity model and known Na#super[+]/K#super[+]-ATPase physiology, but the threshold dynamics have not been directly measured during exercise chunking in ME/CFS.
+] <spec:exercise-calcium-threshold>
 
 ==== Connection to Post-Exertional Malaise
 
@@ -675,8 +802,8 @@ When superoxide and NO react, they form peroxynitrite (ONOO#super[-]):
 
 Nitrosative stress specifically impairs energy production:
 
-    - *Complex I inhibition*: NO competitively inhibits oxygen binding
-    - *Complex IV inhibition*: NO binds cytochrome c oxidase
+    - *Complex I inhibition*: NO reversibly inhibits electron transfer
+    - *Complex IV inhibition*: NO competitively inhibits oxygen binding at cytochrome c oxidase
     - *Aconitase inactivation*: Impairs Krebs cycle
     - *Glyceraldehyde-3-phosphate dehydrogenase*: Inhibited by peroxynitrite
 
@@ -857,7 +984,7 @@ The chronic lactate accumulation and reliance on anaerobic metabolism in ME/CFS 
 
 The critical difference: athletes experience this state transiently after intense exertion and recover within hours to days; ME/CFS patients exist in this state continuously, even at rest or after minimal activity.
 
-This parallel has practical treatment implications. Sports medicine recovery protocols—electrolyte replacement, magnesium supplementation, ATP precursors (D-ribose), lactate clearance strategies—may provide symptomatic benefit by addressing the chronic metabolic stress state. See Appendix the Sports Medicine Parallel discussion for detailed discussion of how this clinical insight informed treatment protocol development.
+This parallel has practical treatment implications. Sports medicine recovery protocols—electrolyte replacement, magnesium supplementation, ATP precursors (D-ribose), lactate clearance strategies—may provide symptomatic benefit by addressing the chronic metabolic stress state.  These recovery strategies informed the development of baseline metabolic support protocols discussed in the treatment chapters.
 
 ME/CFS muscle pathophysiology may be understood as a state of continuous post-exercise metabolic stress without the triggering exercise. Interventions that support athletic recovery from intense exertion may provide baseline metabolic support for ME/CFS patients:
 
@@ -1004,7 +1131,7 @@ While sparing:
 Several findings support compartmental rather than global dysfunction:
 
     - *Preserved peripheral ATP at rest*: 31P-MRS studies show variable findings, with some patients showing normal resting muscle ATP despite symptoms
-    - *Demand-response failure*: 91–100% of ME/CFS patients show abnormal cerebral blood flow reduction during orthostatic challenge—3-fold greater than controls @Novak2022—yet baseline perfusion may be preserved
+    - *Demand-response failure*: 91–100% of ME/CFS patients show abnormal cerebral blood flow reduction during orthostatic challenge—3-fold greater than controls @VanCampenEtAl2024—yet baseline perfusion may be preserved
     - *Brain-specific hypometabolism*: PET and SPECT studies reveal regional brain hypometabolism without corresponding peripheral findings @Nakatomi2014neuroinflammation
     - *Pharmacological bypass effectiveness*: Direct-acting agents like midodrine can restore function that CNS coordination cannot achieve, suggesting intact peripheral machinery
 
@@ -1166,7 +1293,7 @@ Immune activation is not independent of metabolic dysfunction—instead, immune-
 
 === Tryptophan-Kynurenine Metabolism and NAD#super[+] Depletion
 
-The tryptophan-kynurenine pathway is one of the primary immune-activated routes of tryptophan catabolism. Elevated kynurenine production is associated with chronic immune activation (elevated IFN-gamma, TNF-alpha). However, the balance of kynurenine metabolites matters: normal kynurenine metabolism feeds into NAD#super[+] synthesis, supporting mitochondrial energy production; imbalanced metabolism produces neurotoxic metabolites while depleting NAD#super[+].
+The tryptophan-kynurenine pathway is one of the primary immune-activated routes of tryptophan catabolism. Elevated kynurenine production is associated with chronic immune activation (elevated IFN-$gamma$, TNF-$alpha$). However, the balance of kynurenine metabolites matters: normal kynurenine metabolism feeds into NAD#super[+] synthesis, supporting mitochondrial energy production; imbalanced metabolism produces neurotoxic metabolites while depleting NAD#super[+].
 
 A recent metabolomics study @Abujrais2024tryptophan (published in ACS Chemical Neuroscience) profiled tryptophan metabolism in ME/CFS plasma and found higher 3-hydroxykynurenine (a neurotoxic branch product), lower kynurenic acid (neuroprotective, NAD#super[+]-producing), and lower quinolinic acid (a neurotoxic NMDA agonist that also feeds NAD#super[+] synthesis via QPRT). The net effect: immune-mediated tryptophan catabolism is diverted away from NAD#super[+] synthesis and toward neurotoxic branches. This directly links immune activation to NAD#super[+] depletion and impaired mitochondrial function.
 
@@ -1325,7 +1452,7 @@ The following mechanisms are proposed but not yet confirmed. Where explicitly as
 
     / *Arginine-citrulline/NO cycle dysfunction*: Low citrulline/arginine availability produces substrate-limited NO synthesis, impairing vasodilation, mitochondrial biogenesis (via PGC-1$alpha$), and endothelial function @Yamano2016tca_urea (Chapter @ch:gut-microbiome).
 
-    / *Thyroid hormone resistance*: Suboptimal T4$\to$T3 conversion and possible reduced expression of thyroid hormone transporters (MCT8, MCT10), impairing basal metabolic rate and mitochondrial biogenesis (Chapter @ch:endocrine).
+    / *Thyroid hormone resistance*: Suboptimal T4$\to$T3 conversion and selenoprotein P autoantibodies @Sun2023selenop impair tissue T3 availability, reducing PGC-1$alpha$-mediated mitochondrial biogenesis, cardiolipin-dependent supercomplex assembly, and ERR$alpha$-coordinated mitophagy---amplifying every mitochondrial vulnerability pathway (Section @sec:thyroid-mito-regulation; Chapter @ch:endocrine, Section @sec:thyroid).
 
 Therapeutic interventions targeting these energy deficits—including mitochondrial cofactors, substrates, and biogenesis signals—are discussed in Section @sec:energy-interventions and extensively in #link(<part:treatment>)[Part III (Treatment and Management)].
 

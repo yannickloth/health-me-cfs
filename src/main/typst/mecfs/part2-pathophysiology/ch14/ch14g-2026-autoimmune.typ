@@ -84,6 +84,7 @@ This suggests autoantibodies may have effects far beyond simple receptor modulat
     - Combined autoantibody removal + monocyte modulation might be synergistic
 
 === The Receptor Internalization Hypothesis
+<sec:receptor-internalization>
 
 #open-question(title: [Autoantibodies Causing Functional Receptor Depletion])[
 The Kim et al.\ (2026) cryo-EM study @Kim2026nmdar_cryoem of NMDA receptor autoantibodies revealed that autoantibody binding causes receptor internalization—removing functional receptors from the cell surface. This isn't receptor blocking; it's receptor elimination.
@@ -117,6 +118,9 @@ This mechanism would create a fundamentally different pathophysiology than simpl
     - Receptor upregulation strategies (if they exist) might accelerate recovery
     - The lag between autoantibody clearance and symptom improvement is explained
     - Combined approaches: remove autoantibodies + support receptor resynthesis
+
+*Converging Clinical Evidence: NMDAR Autoimmunity Following HSE.*
+The receptor internalization mechanism is not merely a structural hypothesis — it has clinical parallels in herpes simplex encephalitis (HSE). Westman et al.\ documented that 24.5% of HSE patients develop anti-NMDAR IgG antibodies with a 3-month delay following acute infection, and these seropositive patients show dramatically impaired neurocognitive recovery compared to seronegative patients (median MDRS increase 1.5 vs 10 points at 24 months, p=0.018) @Westman2016nmdar_hse @Westman2021nfl_nmdar. The proposed mechanism — viral-induced neuronal damage releases NMDAR antigens, triggering autoantibody production that then perpetuates inflammation — provides a concrete in vivo example of how infection-triggered receptor autoimmunity leads to chronic neurological dysfunction. If GPCR autoantibodies in ME/CFS cause receptor internalization analogous to NMDAR autoantibodies in HSE, this would explain the chronic, self-perpetuating nature of autonomic dysfunction (see Section @sec:hsv1-hse for the full HSE evidence base).
 
 === The Antigenic Hotspot Vulnerability Hypothesis
 

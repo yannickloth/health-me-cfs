@@ -12,6 +12,10 @@ The following hypotheses emerged from systematic analysis of treatment response 
 All hypotheses in this chapter were generated through clinical pattern recognition and mechanistic reasoning, not empirical data analysis. None has been tested in controlled studies. The certainty ratings are uniformly low. Pattern recognition is susceptible to confirmation bias (attending to cases that fit the pattern while ignoring those that do not) and post-hoc rationalisation (constructing mechanistic narratives to explain known clinical features). These hypotheses are presented as research stimuli, not as evidence-based conclusions.
 ]
 
+#warning-env(title: [Drug Doses Are Research Context Only])[
+All drug doses cited in this chapter (including lithium, liothyronine, levetiracetam, gabapentinoids, and combination protocols) are for research-context illustration only and must *not* be interpreted as treatment recommendations. All named medications are prescription drugs requiring physician evaluation, contraindication screening, and ongoing monitoring before use. In particular, liothyronine carries cardiovascular contraindications and levetiracetam requires renal dose adjustment and carries behavioural side-effect risk.
+]
+
 %=============================================================================
 
 === The “Metabolic Runway” Theory of PEM
@@ -90,7 +94,7 @@ The vagus nerve connects gut, heart, brain, and immune system. It directly inhib
 *Proposed hub structure:*
 
     - *Vagus $arrow.r$ Mast cells*: Cholinergic anti-inflammatory pathway inhibits mast cell degranulation; vagal dysfunction $arrow.r$ MCAS
-    - *Vagus $arrow.r$ Heart*: Parasympathetic withdrawal $arrow.r$ elevated resting HR, reduced HRV, POTS
+    - *Vagus $arrow.r$ Heart*: Parasympathetic withdrawal $arrow.r$ elevated resting HR, reduced HRV @Escorihuela2020hrv, POTS
     - *Vagus $arrow.r$ Gut*: Reduced vagal tone $arrow.r$ decreased motility, gastroparesis, SIBO
     - *Vagus $arrow.r$ Brain*: Afferent vagal signals modulate neuroinflammation; dysfunction $arrow.r$ brain fog, fatigue signaling
     - *Vagus $arrow.r$ Immune*: Inflammatory reflex impairment $arrow.r$ chronic systemic inflammation
@@ -120,7 +124,7 @@ While vagal involvement in ME/CFS is plausible and HRV changes are documented, n
 %=============================================================================
 
 #hypothesis(title: [Ketones as Bypass Fuel])[
-Normal energy metabolism relies primarily on glucose $arrow.r$ TCA cycle $arrow.r$ ATP. If TCA cycle dysfunction is present in ME/CFS (as metabolomic studies suggest), ketone bodies may provide a bypass pathway.
+Normal energy metabolism relies primarily on glucose $arrow.r$ TCA cycle $arrow.r$ ATP. If TCA cycle dysfunction is present in ME/CFS (as metabolomic studies suggest @Naviaux2016metabolomics), ketone bodies may provide a bypass pathway.
 
 *Rationale:*
 
@@ -230,7 +234,7 @@ Circadian disruption in ME/CFS is documented but causality is not established. S
 %=============================================================================
 
 #hypothesis(title: [Capillary Occlusion as Final Common Pathway])[
-Emerging Long COVID research has identified microclots—fibrin deposits that occlude capillaries—as a potential mechanism. If capillaries are blocked, oxygen delivery fails regardless of mitochondrial health.
+Emerging Long COVID research has identified microclots — fibrin deposits that occlude capillaries — as a potential mechanism @VanderLinden2023microclots. If capillaries are blocked, oxygen delivery fails regardless of mitochondrial health.
 
 *How microclots could explain ME/CFS features:*
 
@@ -282,7 +286,7 @@ Microclots have been documented in Long COVID but not systematically studied in 
 %=============================================================================
 
 #hypothesis(title: [Susceptibility Over Pathogen])[
-ME/CFS can be triggered by remarkably diverse infections: EBV, COVID-19, Lyme disease, Q fever, Ross River virus, giardia, and others. What if the specific infection is largely irrelevant, and what matters is host susceptibility?
+ME/CFS can be triggered by remarkably diverse infections: EBV, COVID-19, Lyme disease, Q fever, Ross River virus, giardia, and others @Carruthers2011ICC. What if the specific infection is largely irrelevant, and what matters is host susceptibility?
 
 *Proposed model:*
 
@@ -315,7 +319,7 @@ This hypothesis does not explain why some infections (EBV, COVID) seem more like
 %=============================================================================
 
 #hypothesis(title: [Estrogen as Cascade Amplifier])[
-Women are 3–4$times$ more likely to develop ME/CFS than men. While often attributed to general “autoimmunity is more common in women,” the cascade model suggests a more specific mechanism: estrogen amplifies multiple steps.
+Women are 3–4$times$ more likely to develop ME/CFS than men @heng2025sexspecific. While often attributed to general “autoimmunity is more common in women,” the cascade model suggests a more specific mechanism: estrogen amplifies multiple steps.
 
 *Estrogen effects on implicated pathways:*
 
@@ -548,8 +552,60 @@ Why do some MCAS-phenotype patients respond dramatically to aggressive electroly
 *Testable prediction:* MCAS-phenotype patients should show greater ORS benefit than non-MCAS; mast cell markers should decrease with adequate electrolyte loading.
 ] <spec:electrolyte-mcas>
 
+#speculation(title: [Lithium + T3 Dual Neuroplasticity Restoration])[
+Lithium and T3 address complementary neuroplasticity mechanisms: lithium promotes neurogenesis and grey matter growth via GSK-3$beta$ inhibition, while T3 drives myelination via oligodendrocyte differentiation and restores mitochondrial bioenergetics via PGC-1$alpha$ upregulation. Their combination targets both the grey matter (neuronal/synaptic) and white matter (myelin) components of brain repair simultaneously.
+
+A specific pharmacological interaction creates both risk and opportunity: lithium inhibits thyroid hormone release, which could worsen the Low T3 Syndrome documented in ME/CFS (Chapter @ch:endocrine). However, concurrent T3 supplementation directly compensates for this effect while independently providing its own neuroplasticity benefits. In this framing, the two agents become complementary rather than contradictory---lithium provides the neuronal/synaptic repair signal while T3 provides the myelin repair and mitochondrial bioenergetics signal, and T3 compensates for lithium's thyroid-suppressive side effect.
+
+*Proposed protocol:* Low-dose lithium orotate (10--20 mg elemental) + liothyronine (12.5--25 $mu$g/day), titrated sequentially (T3 first to establish thyroid baseline, lithium added after 4 weeks). Monitor: TSH, free T3, free T4, serum lithium, creatinine, cognitive testing (MoCA or equivalent) at baseline, 4, 8, and 12 weeks.
+
+*Predicted responders:* Patients with documented Low T3 Syndrome, cognitive-predominant phenotype, and/or structural neuroimaging abnormalities.
+
+*Testable prediction:* The combination should produce greater cognitive improvement (MoCA change $gt.eq$ 2 points) than either agent alone over 12 weeks, with TSH remaining within reference range due to the T3 compensating for lithium's thyroid suppression.
+
+*Safety concerns:* Both agents require monitoring (lithium: renal/thyroid; T3: cardiac). Combined cardiac monitoring is essential---T3 can cause tachycardia while lithium can cause bradycardia; net effect is unpredictable. Start low, titrate slow.
+
+#warning-env(title: [Prescription-Only Medications: Do Not Self-Initiate])[
+Liothyronine (T3) is a prescription medication with significant cardiovascular risks including tachyarrhythmias, angina, and atrial fibrillation---particularly hazardous in ME/CFS patients with POTS or autonomic dysfunction. This protocol must *not* be self-initiated. Physician supervision with baseline ECG and cardiac evaluation is required. Absolute contraindications include active coronary artery disease and uncontrolled tachyarrhythmia. See @spec:low-dose-lithium in Chapter @ch:neurological for lithium-specific drug interaction warnings.
+]
+] <spec:lithium-t3-combo>
+
+#speculation(title: [Levetiracetam as Disease-Modifying Anti-Kindling Agent in ME/CFS])[
+If PEM represents neurobiological kindling (Hypothesis @hyp:pem-kindling-sensitization), then levetiracetam---the strongest anti-kindling agent among anticonvulsants---may be disease-modifying in ME/CFS. Unlike other anticonvulsants that merely suppress established seizures, levetiracetam's anti-kindling effects persist even after drug discontinuation in animal models @Lynch2004levetiracetam, suggesting genuine circuit modification rather than ongoing pharmacological suppression.
+
+*Why levetiracetam specifically:* (1) Unique SV2A mechanism---modulates vesicle dynamics rather than channels or receptors, avoiding the cognitive impairment of sodium channel blockers and GABA enhancers. (2) Superior anti-neuroinflammatory profile---reduces microglial activation, TNF-$alpha$, IL-1$beta$, IL-6, COX-2, and NF-$kappa$B more effectively than valproate or carbamazepine @Itoh2019levetiracetam. (3) Cognitive-sparing---no negative impact on cognition and some evidence for cognitive preservation. (4) Anti-kindling persists post-discontinuation---the only agent to demonstrate this.
+
+*Predicted responders:* Patients with progressive disease course (worsening over time despite adequate pacing), high crash frequency, and/or documented neuroinflammatory markers.
+
+*Testable prediction:* ME/CFS patients treated with levetiracetam (250--500 mg BID) for 6 months should show: (a) increased PEM threshold (tolerate more activity before crash), (b) reduced crash severity when PEM does occur, and (c) maintenance of threshold gains for $gt.eq$ 3 months after drug discontinuation.
+
+*Key concern:* Behavioral side effects ("Keppra rage"---irritability, agitation) occur in 13--17% of epilepsy patients and would be poorly tolerated in the ME/CFS population. Careful dose titration and patient selection are essential. Brivaracetam (Briviact), a more selective SV2A ligand with fewer behavioral effects, may be an alternative.
+] <spec:levetiracetam-anti-kindling>
+
+#speculation(title: [Gabapentinoid Anti-Synaptogenesis for Central Sensitization Reset])[
+Gabapentin and pregabalin act through a mechanism distinct from classical anti-kindling: they bind the $alpha$2$delta$-1 subunit of voltage-gated calcium channels, which is also the neuronal thrombospondin receptor responsible for excitatory synaptogenesis. Astrocyte-secreted thrombospondins bind $alpha$2$delta$-1 to form a synaptogenic signaling complex that drives new excitatory synapse formation. In neuropathic pain states, $alpha$2$delta$-1 and thrombospondins are upregulated, promoting aberrant excitatory synaptogenesis---a structural basis of central sensitization. Gabapentinoids specifically block this pathological synapse formation rather than merely reducing calcium currents.
+
+If ME/CFS central sensitization involves neuroinflammation-driven thrombospondin/$alpha$2$delta$-1 upregulation creating aberrant excitatory connections, gabapentinoids would target this specific structural change. This is mechanistically distinct from and potentially complementary to anti-kindling (which prevents progressive threshold lowering) and anti-neuroinflammatory (which reduces the inflammatory driver).
+
+However, concerning signals exist: patients with 6+ gabapentin prescriptions showed 29% increased dementia risk and 85% increased MCI risk within 10 years. Whether this reflects the drug's anti-synaptogenic mechanism impairing normal plasticity, or confounding by indication, remains unresolved.
+
+*Testable prediction:* ME/CFS patients with high Central Sensitization Inventory scores should show greater response to pregabalin than those with low scores; furthermore, response should correlate with serum or CSF thrombospondin levels if measurable.
+] <spec:gabapentinoid-synaptogenesis>
+
+#speculation(title: [The Attractor Landscape Model: ME/CFS as a Pathological Stable State])[
+Integrating kindling, central sensitization, epigenetic locking, and the T3-microglial vicious cycle, ME/CFS can be conceptualized as a pathological attractor state in a dynamical systems framework. The healthy brain operates in one basin of attraction; post-infectious neuroinflammation pushes the system over a separatrix into a pathological basin where multiple self-reinforcing feedback loops (kindling, T3 depletion, microglial priming, epigenetic silencing of plasticity genes) maintain the pathological state.
+
+In this framework, symptom management (pacing, LDN, antihistamines) reduces the depth of the pathological basin without crossing the separatrix back to health. True recovery requires sufficient perturbation to escape the pathological attractor entirely---either by: (1) weakening the feedback loops enough that the basin becomes shallow and spontaneous escape becomes probable (anti-kindling, T3 restoration, anti-neuroinflammatory agents); or (2) pharmacologically lowering the separatrix barrier (critical period reopening, HDAC inhibition, lithium-induced neuroplasticity); or (3) a combination providing both basin-shallowing and barrier-lowering simultaneously.
+
+This model makes a qualitative prediction: if the pathological state is maintained by N independent feedback loops, then targeting fewer than some critical fraction of them may produce no benefit (the remaining loops re-establish the attractor), while targeting above the critical fraction produces disproportionate improvement (the attractor collapses). This predicts nonlinear dose-response relationships and threshold effects in multi-agent treatment strategies.
+
+*Falsifiability and the rescue hypothesis concern:* This model must be evaluated against the risk of being an unfalsifiable rescue hypothesis. If single agents fail, the model "explains" this (not enough loops targeted). If combinations fail, one can always claim not enough loops were addressed. To be genuinely falsifiable, the model must commit to a specific prediction: a well-designed factorial combination trial (e.g., 2$times$2$times$2) targeting three mechanistically independent loops should show a statistically significant three-way interaction term. If such a trial shows purely additive effects (each agent contributes independently, no interaction), the multi-loop attractor model is falsified in favor of a simpler additive damage model. If the trial shows no benefit from any combination, the model is falsified entirely. The model is NOT confirmed by the mere observation that "nothing has worked so far."
+
+See Chapter @ch:integrated-systems for formal attractor modeling.
+] <spec:attractor-landscape>
+
 #limitation(title: [Combination Hypotheses: No Drug Interaction or Safety Data])[
-The novel combination hypotheses in this section (triple anti-inflammatory stack, neuroplasticity combination, statin paradox resolution) propose multi-drug regimens that have never been tested for safety or efficacy in ME/CFS or any related condition. Drug interaction profiles for these specific combinations are unknown. The rationale is based on single-mechanism reasoning that does not account for the complexity of multi-drug pharmacokinetics and pharmacodynamics. These combinations must not be attempted outside formal clinical trial settings with appropriate safety monitoring.
+The novel combination hypotheses in this section (triple anti-inflammatory stack, neuroplasticity combination, lithium + T3, levetiracetam anti-kindling, statin paradox resolution) propose drug regimens that have never been tested for safety or efficacy in ME/CFS or any related condition. Drug interaction profiles for these specific combinations are unknown. The rationale is based on single-mechanism reasoning that does not account for the complexity of multi-drug pharmacokinetics and pharmacodynamics. These combinations must not be attempted outside formal clinical trial settings with appropriate safety monitoring.
 ]
 
 === Phenotype-Matched Selection
@@ -557,20 +613,65 @@ The novel combination hypotheses in this section (triple anti-inflammatory stack
 Rather than “one size fits all,” these novel agents show differential relevance to ME/CFS subgroups:
 
     - *MCAS-predominant*: PEA + Ginkgo (mast cell stabilization via distinct mechanisms)
-    - *Central sensitization/chronic pain*: Ketamine + PEA + Devil's Claw (NMDA, neuroinflammation, COX-2)
+    - *Central sensitization/chronic pain*: Ketamine + PEA + Devil's Claw (NMDA, neuroinflammation, COX-2); gabapentinoids (anti-synaptogenesis); levetiracetam (anti-kindling + anti-neuroinflammation)
     - *TRPM3-positive/channelopathy*: Pregnenolone (direct TRPM3 modulation)
     - *Cerebral hypoperfusion*: Ginkgo (documented blood flow enhancement)
     - *Inflammatory biomarker elevation*: Devil's Claw + PEA + Statin (triple NF-$kappa$B; requires CoQ10 protection)
     - *Autoantibody-positive*: Statin with aggressive mitochondrial co-treatment
-    - *Cognitive-predominant*: Pregnenolone + Ginkgo (neurosteroid + perfusion)
+    - *Cognitive-predominant / Low T3*: Liothyronine + low-dose lithium orotate (neuroplasticity + myelination + grey matter restoration); pregnenolone + Ginkgo (neurosteroid + perfusion)
+    - *Progressive kindling phenotype*: Levetiracetam (disease-modifying anti-kindling); lamotrigine (cognitive-sparing neuroprotection + BDNF)
+
+=== Multi-Target "Layer Cake" Protocol
+<sec:layer-cake>
+
+The attractor dynamics model (Chapter @ch:integrated-systems, Section @sec:neuroplasticity-attractor) predicts that targeting multiple feedback loops simultaneously produces disproportionate benefit compared to sequential single-agent trials. The following speculation illustrates how this principle might be operationalized---not as a ready-to-implement protocol, but as a research direction for clinical trial design.
+
+#limitation(title: [Motivated Reasoning Caveat: Patient-Authored Treatment Hypothesis])[
+This section is authored by a patient with ME/CFS who would personally benefit from the proposed interventions. The multi-target combination framework was constructed partly to explain the desired conclusion (why polypharmacy might succeed where monotherapy has failed). Readers should weigh this context when evaluating the specificity of the proposed protocol. The biological reasoning may be sound while the direction of inference---from desired treatment to supporting model---represents motivated reasoning rather than dispassionate hypothesis generation.
+]
+
+#speculation(title: [Multi-Target Neuroplasticity Research Direction])[
+*Certainty: 0.20.* The attractor model suggests that a staged protocol targeting multiple feedback loops might produce disproportionate benefit. The general principle---sequential addition of agents addressing independent loops, with each layer building on the preceding one---could be tested through the following research framework:
+
+*Layer 1: Restore thyroid hormone availability.* T3 supplementation to correct documented Low T3 Syndrome. Rationale: restoring brain T3 re-enables mitochondrial biogenesis, oligodendrocyte myelination, and BDNF expression---prerequisites for any plasticity-based improvement.
+
+*Layer 2: Anti-kindling.* Addition of a cognitive-sparing anticonvulsant (e.g., lamotrigine or levetiracetam). Rationale: reduce presynaptic glutamate excitotoxicity and/or microglial activation to attenuate progressive sensitization.
+
+*Layer 3: Neuroprotection.* Addition of a neuroprotective agent (e.g., low-dose lithium). Rationale: promote BDNF upregulation, autophagy, and microglial modulation.
+
+*Layer 4: Guided rehabilitation.* With multiple feedback loops partially weakened, careful expansion of the activity envelope may become tolerable.
+
+Specific dosages, timing, and monitoring requirements would need to be determined through formal clinical trial design---not speculated from first principles. The research question is whether the multi-loop targeting principle produces non-additive benefits, not whether any specific dosing protocol is optimal.
+
+*Key uncertainty:* The "combination cliff" prediction from the attractor model (Section @sec:combination-cliff) would predict nonlinear improvement when enough loops are addressed simultaneously. However, this prediction derives entirely from the model's mathematical structure and has no empirical support. If a factorial trial shows purely additive effects, the attractor framework is falsified.
+] <spec:layer-cake-protocol>
+
+=== Autonomic + Neuroplasticity Synergy: The Triple-Target Hypothesis
+
+#speculation(title: [Pyridostigmine + T3 + Lithium for Autonomic-Primary ME/CFS])[
+*Certainty: 0.30.* In the autonomic-primary ME/CFS subtype (characterized by preload failure, orthostatic intolerance as the dominant functional limitation, and pre-existing vasovagal susceptibility), three agents target the autonomic circuit at three distinct levels:
+
+  - *Pyridostigmine (peripheral effector):* Enhances parasympathetic ganglionic transmission $arrow.r$ improves venous return and cardiac preload @Joseph2022pyridostigmine. Additionally reduces daily kindling trigger load by preventing autonomic crises (Speculation @spec:pyridostigmine-anti-kindling, Section @sec:pyridostigmine).
+  - *Liothyronine (myelin maintenance):* T3 drives oligodendrocyte differentiation and myelin repair. Autonomic pathways (vagus nerve, sympathetic chain) require intact myelination for efficient signal conduction. Low T3 in ME/CFS (Section @sec:thyroid) may impair autonomic nerve myelination, compounding the ganglionic transmission deficit that pyridostigmine addresses.
+  - *Low-dose lithium (central neuroprotection):* GSK-3$beta$ inhibition promotes neurogenesis and dendritic remodeling in the autonomic regulatory centers (nucleus tractus solitarius, ventrolateral medulla, hypothalamus). BDNF upregulation supports the plasticity required for central autonomic recalibration. Grey matter preservation prevents further deterioration of central autonomic control circuits.
+
+*Predicted synergy:* Pyridostigmine fixes the peripheral effector. T3 repairs the wiring (myelination of autonomic tracts). Lithium restores the central controller. Together, they address the autonomic system at all three anatomical levels---ganglionic, axonal, and central---that are likely compromised in ME/CFS.
+
+*Testable prediction:* The triple combination should produce greater improvement in orthostatic tolerance (standing time, HR response) and HRV metrics than pyridostigmine alone over 12 weeks. The direction of effect (combination > monotherapy) is the testable prediction; specific response rates cannot be estimated without prior data.
+
+*Limitations:* This specific three-agent combination has never been tested in any condition. The "three anatomical levels" framing is conceptually appealing but oversimplified---autonomic dysfunction in ME/CFS likely involves additional mechanisms (autoantibodies against adrenergic receptors, hypovolemia, endothelial dysfunction) that these agents do not address. The hypothesis applies specifically to the autonomic-primary subtype; patients with predominantly immune or metabolic drivers may not benefit.
+] <spec:triple-autonomic>
 
 #key-point(title: [Novel Agent Integration Summary])[
-The six newly integrated agents expand the ME/CFS therapeutic toolkit:
+The neuroplasticity-focused agents represent a class of interventions whose mechanisms are theoretically relevant to ME/CFS pathophysiology, though none has been tested in ME/CFS clinical trials:
 
-    - *Mechanistic convergence* at NF-$kappa$B, microglial, and mast cell nodes suggests rational combination strategies
-    - *TRPM3 modulation* (pregnenolone) represents an entirely new approach aligned with channelopathy research
-    - *The statin paradox* can potentially be resolved with aggressive mitochondrial co-treatment
-    - *Phenotype matching* is essential—clinical subtyping should guide agent selection
+    - *Mechanistic convergence* at NF-$kappa$B, microglial, mast cell, AND neuroplasticity nodes suggests rational combination strategies
+    - *TRPM3 modulation* (pregnenolone) represents a channelopathy approach
+    - *Anti-kindling agents* (levetiracetam, lamotrigine) may be disease-modifying rather than symptomatic
+    - *Critical period reopening* (valproate HDAC inhibition) offers a fundamentally new paradigm: pharmacologically induced plasticity windows for circuit reorganization
+    - *T3 + lithium* addresses the dual grey matter / white matter repair axis
+    - *The combination cliff* (attractor dynamics model) predicts that multi-target protocols will show nonlinear, disproportionate improvement compared to single-agent approaches
+    - *Phenotype matching* remains essential---the autonomic-primary, cognitive-predominant, and progressive-kindling phenotypes predict different optimal agent selections
 
 These hypotheses are presented for research prioritization, not as validated treatment recommendations. All require safety monitoring and ideally formal clinical evaluation.
 ]

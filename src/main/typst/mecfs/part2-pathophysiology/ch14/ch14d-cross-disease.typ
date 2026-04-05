@@ -24,6 +24,23 @@ Large-scale post-COVID data provide indirect quantification relevant to ME/CFS. 
 
 These findings strengthen the case that Long COVID and ME/CFS involve convergent neurocognitive pathology rather than merely coincidental symptom overlap. The ME/CFS cognitive profile—established by meta-analysis (effect sizes $g = -0.55$ to $-0.82$ across domains @Sebaiti2022cognitive) and multi-site objective testing @Lange2024cognitive—is quantitatively comparable to or more severe than post-COVID cognitive impairment, consistent with ME/CFS representing a more established or severe form of the same underlying process (see Chapter @ch:neurological, Section @subsec:cognitive-quantification for detailed analysis).
 
+*Circulating cell-free mitochondrial DNA: a potential divergence point.*
+Despite clinical overlap, Long COVID and ME/CFS may differ in circulating cell-free mitochondrial DNA (ccf-mtDNA) dynamics. In the EPILOC population-based cohort ($n = 228$), Matits et al.\ @Matits2026cfmtDNA found _reduced_ relative ccf-mtDNA in Long COVID patients ($n = 128$) compared to recovered controls ($n = 100$; partial $eta^2 = 0.01$--$0.02$; $p = 0.089$ with full covariate adjustment, i.e.\ non-significant in the primary analysis; $p = 0.038$ only after excluding high-CRP outliers in a sensitivity analysis). Lower ccf-mtDNA correlated with worse general cognition, while CRP showed no independent association with cognitive function after controlling for ccf-mtDNA. Total cell-free DNA was not elevated, consistent with the reduction being mitochondria-specific rather than reflecting generalised cell death (though alternative explanations such as differential DNA stability or assay-specific effects cannot be excluded). The authors interpret this as impaired mitophagy: damaged mitochondria accumulate intracellularly instead of being released and cleared. A prior case series (Szögi et al.\ @Szogi2024cfmtDNA; $n = 5$ Long COVID, $n = 5$ ciliary dyskinesia controls) also reported reduced ccf-mtDNA alongside mitochondrial ultrastructural abnormalities in Long COVID tissue biopsies; however, this was an extremely small sample with non-standard controls and should be considered preliminary rather than confirmatory.
+
+By contrast, in ME/CFS, Tsilioni et al.\ @Tsilioni2022exosome found exosome-associated mtDNA _elevated_ in serum after exercise challenge---not at rest (sample size, effect size, and p-values not reported in the abstract; the study has not been independently replicated). If confirmed by head-to-head studies using identical methodology, this divergence could point to fundamentally different mitochondrial dynamics: Long COVID involving impaired mitophagy (damaged mitochondria trapped intracellularly) versus ME/CFS involving exercise-triggered mitochondrial content release via exosomes (see Section @sec:thyroid-mito-regulation in Chapter @ch:energy-metabolism for the broader mitophagy context).
+
+#limitation(title: [ccf-mtDNA Comparison: Different Methods Preclude Direct Conclusions])[
+The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted cautiously: the studies use different compartments (free plasma vs.\ exosome-associated), different timing (resting vs.\ post-exercise), and different quantification methods (qPCR $Delta$CT vs.\ exosome isolation). No study has measured free ccf-mtDNA at rest in a well-characterised ME/CFS cohort using the Matits et al.\ protocol. Additionally, the Matits effect size is very small (partial $eta^2 lt.eq 0.02$) and loses statistical significance after full covariate adjustment. Physical activity itself increases ccf-mtDNA release; deconditioning in both patient populations may confound resting-state measurements independently of primary mitochondrial pathology.
+]
+
+#speculation(title: [ccf-mtDNA as a Potential Long COVID vs ME/CFS Distinguishing Biomarker])[
+*Certainty: 0.25.* If the pattern holds---low resting ccf-mtDNA in Long COVID @Matits2026cfmtDNA versus elevated exosome-associated mtDNA post-exercise in ME/CFS @Tsilioni2022exosome\ ---ccf-mtDNA dynamics could help distinguish the two conditions. This would imply different predominant mitochondrial failure modes: impaired clearance (Long COVID) versus excessive stress-triggered release (ME/CFS). However, no direct comparison using identical methodology exists, and the Long COVID finding itself is borderline (very small effect, lost significance with full covariate adjustment). The certainty is low because: (a) no ME/CFS resting ccf-mtDNA data exist; (b) the deconditioning confound applies to both conditions; (c) anxiety disorders show similarly low ccf-mtDNA, reducing specificity.
+
+*Testable prediction:* A study measuring ccf-mtDNA by qPCR at rest and post-exercise in matched ME/CFS, Long COVID, and healthy control groups would show divergent trajectories: ME/CFS patients showing higher post-exercise ccf-mtDNA release than Long COVID patients, with both differing from controls. Falsified if resting ccf-mtDNA is equivalently low in both conditions, or if post-exercise trajectories are indistinguishable between the two conditions.
+
+*Clinical note:* ccf-mtDNA measurement is a research-only assay. Until head-to-head studies exist, clinicians should distinguish Long COVID from ME/CFS using established clinical criteria (symptom duration, PEM pattern, exclusion criteria); ccf-mtDNA adds nothing to current diagnostic practice.
+] <spec:cfmtdna-distinguish>
+
 *Post-Treatment Lyme Disease Syndrome.* Chronic symptoms after Lyme treatment:
 
     - Fatigue, cognitive dysfunction, pain
@@ -46,7 +63,7 @@ These findings strengthen the case that Long COVID and ME/CFS involve convergent
 
     - 31–34% of meningitis survivors report persistent fatigue at 1–2 year follow-up, independent of acute illness severity @Schwitter2024meningitis @Ungureanu2021meningitis
     - 53% report rapid exhaustion after cognitive effort—consistent with post-exertional cognitive malaise as described in ME/CFS, though ME/CFS diagnostic criteria were not applied @Schwitter2024meningitis
-    - CFS prevalence of 12.6% after viral meningitis in a small controlled study ($n=83$), though non-significant after adjustment (OR 1.4, CI 0.5–3.6) @Hotopf1996meningitis
+    - CFS prevalence of 12.6% after viral meningitis in a small controlled study ($n = 83$), though non-significant after adjustment (OR 1.4, CI 0.5–3.6) @Hotopf1996meningitis
     - Consistent with the Dubbo cohort finding that post-infectious CFS develops at $tilde$11% regardless of pathogen identity (EBV, _Coxiella_, Ross River virus—meningitis pathogens were not studied but the rate is comparable) @Hickie2006postinfectious
     - _Speculative link:_ Meningitis causes direct neuroinflammation, blood-brain barrier disruption, and glymphatic system dysfunction @Pinas2022glymphatic; these overlap with documented features of ME/CFS (see Chapter @ch:neurological, Sections @sec:bbb and @sec:glial). Unlike peripheral infections, meningitis delivers the inflammatory insult directly to the CNS, potentially explaining the high rates of persistent cognitive symptoms. The implications of microglial priming for meningitis in existing ME/CFS patients are explored in Speculation @spec:meningitis-double-vulnerability
 
@@ -121,6 +138,14 @@ Mast cell activation appears connected to ME/CFS:
     - More severe than MCAS but overlapping symptoms
     - _Speculative link:_ Both conditions might involve mast cell progenitor dysregulation; ME/CFS could involve functional mastocytosis without clonal proliferation
 
+#speculation(title: [Na#super[+]/K#super[+]-ATPase Failure as Common Mechanism for PEM and MCAS Flares])[
+Mast cell degranulation requires intracellular calcium elevation. The NCX reversal mechanism described in Chapter @ch:energy-metabolism — Na#super[+]/K#super[+]-ATPase failure $arrow.r$ intracellular sodium rise $arrow.r$ NCX reverse mode $arrow.r$ calcium influx---operates in all cell types, not only skeletal muscle. If $beta_2$-adrenergic receptor dysfunction impairs pump function globally, then mast cells would experience the same calcium flooding that causes muscle necrosis during PEM. This would mean the same upstream mechanism simultaneously triggers PEM (via muscle calcium toxicity) and MCAS flares (via mast cell calcium-induced degranulation), explaining their frequent co-occurrence without requiring mast cells to be independently dysfunctional.
+
+The prediction is clean: MDC002 (Na#super[+]/K#super[+]-ATPase stimulator, Chapter @ch:emerging-therapies) should reduce both PEM severity _and_ MCAS flare frequency if the shared calcium source is confirmed. Conversely, mast cell stabilisers (cromolyn, ketotifen) that partially regulate calcium channels may provide modest PEM benefit as a secondary effect.
+
+*Certainty: 0.30*---mechanistically coherent but entirely untested; requires demonstration of elevated intracellular sodium and calcium in mast cells (not just muscle) of ME/CFS patients.
+] <spec:pump-mcas>
+
 #open-question(title: [Mast Cells as Central Orchestrators?])[
 What if mast cells are the “hub” connecting multiple ME/CFS mechanisms? Mast cells:
 
@@ -157,7 +182,7 @@ The intimate physical proximity of mast cells to peripheral nerve endings ($<$20
     - Time-course studies: sensory thresholds should fluctuate with mast cell mediator levels
     - Electrophysiology: mast cell degranulation near nerve fibers should alter nerve conduction patterns
 
-*Supporting evidence:* Mast cells form CADM1-mediated adhesion structures with sensory neurons that amplify degranulation ( 2-fold) and IL-6 secretion ( 3-fold) @Magadmi2019. Approximately 80% of mast cell disorder patients demonstrate small fiber neuropathy on objective testing @Novak2022, establishing the clinical overlap. Mast cell-nerve bidirectional signaling has been documented, though the specific role of tryptase-PAR2 interactions in ME/CFS sensory symptoms remains to be established.
+*Supporting evidence:* Mast cells form CADM1-mediated adhesion structures with sensory neurons that amplify degranulation ($times$2-fold) and IL-6 secretion ($times$3-fold) @Magadmi2019. Approximately 80% of mast cell disorder patients demonstrate small fiber neuropathy on objective testing @Novak2022, establishing the clinical overlap. Mast cell-nerve bidirectional signaling has been documented, though the specific role of tryptase-PAR2 interactions in ME/CFS sensory symptoms remains to be established.
 
 *Current evidence gaps:* No direct studies demonstrate mast cells amplifying neural signals in real-time. However, the physical infrastructure exists (proximity, neurotransmitter release capability, bidirectional signaling via CADM1 @Magadmi2019), and the clinical phenotype (SFN + MCAS + allodynia) suggests functional coupling.
 ]
@@ -492,7 +517,7 @@ Autoantibody signatures add a further layer of convergence. In a study comparing
 
 *Post-Exertional Malaise: Shared but Asymmetric.*
 
-A three-level meta-analysis of 45 effects from 15 studies confirmed that both ME/CFS and fibromyalgia patients show small-to-moderate increases in pain severity following exercise, establishing pain-related PEM as a shared feature @Barhorst2022painPEM. However, PEM after _physical_ exertion remains the cardinal distinguishing criterion: present in $>$90% of ME/CFS patients but absent or inconsistent in pure fibromyalgia. When FM is comorbid, PEM severity is amplified (scores 79.63 vs.\ 71.18, $p\<0.001$).
+A three-level meta-analysis of 45 effects from 15 studies confirmed that both ME/CFS and fibromyalgia patients show small-to-moderate increases in pain severity following exercise, establishing pain-related PEM as a shared feature @Barhorst2022painPEM. However, PEM after _physical_ exertion remains the cardinal distinguishing criterion: present in $>$90% of ME/CFS patients but absent or inconsistent in pure fibromyalgia. When FM is comorbid, PEM severity is amplified (scores 79.63 vs.\ 71.18, $p < 0.001$).
 
 *Key Differences.*
 
@@ -520,13 +545,13 @@ The “seronegative Sjögren's” hypothesis has historical roots. Already in 19
 
 A 2023 Berlin study brought contemporary rigor to this question. Kim et al.\ assessed 19 pSS patients against the Canadian Consensus Criteria for ME/CFS and found that 22% (4/18) fulfilled full CCC criteria, while 32% (6/19) had severe ME/CFS-like symptoms @Kim2023SjogrenMECFS. Crucially, PEM in pSS was primarily triggered by _mental and emotional_ exertion rather than physical exertion, and hand grip strength recovered normally within 60 minutes after exercise—in contrast to the abnormal recovery pattern characteristic of ME/CFS. This suggests that while the fatigue phenotypes overlap, the underlying exercise physiology diverges.
 
-The immunological connections are striking. Both pSS and ME/CFS show elevated $beta_1$/$beta_2$-adrenergic and M3/M4-muscarinic receptor autoantibodies. However, in pSS these autoantibodies correlate with systemic disease activity (ESSDAI, $p\<0.05$) but _not_ with fatigue severity @Kim2023SjogrenMECFS—whereas in ME/CFS, GPCR autoantibodies are hypothesized to mediate fatigue and autonomic dysfunction directly. The same molecular target thus appears to have different functional consequences in the two conditions.
+The immunological connections are striking. Both pSS and ME/CFS show elevated $beta_1$/$beta_2$-adrenergic and M3/M4-muscarinic receptor autoantibodies. However, in pSS these autoantibodies correlate with systemic disease activity (ESSDAI, $p < 0.05$) but _not_ with fatigue severity @Kim2023SjogrenMECFS—whereas in ME/CFS, GPCR autoantibodies are hypothesized to mediate fatigue and autonomic dysfunction directly. The same molecular target thus appears to have different functional consequences in the two conditions.
 
 Type I interferon dysregulation provides another convergence point. In pSS, elevated plasmacytoid dendritic cells drive a type I IFN signature that correlates with extraglandular manifestations and autoantibody production. Similar plasmacytoid dendritic cell elevation and increased type I IFN production have been documented in ME/CFS, potentially increasing susceptibility to autoimmune mechanisms in both conditions.
 
 CSF neuroinflammation further links the two. In pSS, IL-1Ra in cerebrospinal fluid is significantly associated with fatigue severity, implicating IL-1$beta$-mediated neuroinflammation @Omdal2019CSFfatigueSjogren. Parallel findings of elevated IL-1$beta$ and neuroinflammatory markers in ME/CFS CSF suggest a shared central inflammatory driver of fatigue.
 
-Small fiber neuropathy (SFN) may represent a unifying structural substrate across pSS, fibromyalgia, and ME/CFS. SFN prevalence reaches 49% in fibromyalgia by meta-analysis, is well-documented in pSS (presenting predominantly as a non-length-dependent pattern), and has been reported in ME/CFS cohorts at 40–50%. This shared neuropathic substrate could underlie the overlapping pain, autonomic, and sensory symptoms across all three conditions.
+Small fiber neuropathy (SFN) may represent a unifying structural substrate across pSS, fibromyalgia, and ME/CFS. SFN prevalence reaches 49% in fibromyalgia by meta-analysis, is well-documented in pSS (presenting predominantly as a non-length-dependent pattern), and has been reported in ME/CFS cohorts at up to 34% @Azcue2023sfn. This shared neuropathic substrate could underlie the overlapping pain, autonomic, and sensory symptoms across all three conditions.
 
 The diagnostic implications are bidirectional. The average diagnostic delay for Sjögren's disease is 3–6 years, and pSS patients commonly receive initial labels of fibromyalgia, CFS, or functional disorder before correct diagnosis @Lee2024SjogrenDiagnosis. Conversely, 7–8% of pSS patients have no sicca symptoms at diagnosis, creating a risk that Sjögren's is missed in ME/CFS patients who lack the classic dry eyes/mouth presentation. In any ME/CFS patient presenting with fatigue, dry eyes or mouth, joint pain, and sensory symptoms, Sjögren's evaluation (Schirmer's test, salivary flow, lip biopsy, SSA/SSB antibodies) is warranted—including when seronegative, given the Nishikai data @Nishikai1996seronegative.
 
@@ -708,4 +733,169 @@ Some specific ME/CFS symptoms suggest particular connections:
 
     - Many female patients report cycle-dependent symptoms
     - _Speculative link:_ Estrogen and progesterone affect immune function, mast cells, mitochondria, and virtually every proposed mechanism; hormonal influence on HERV expression might explain cyclical viral-like symptoms
+
+=== ADHD, Autism Spectrum, and Depression as Secondary Manifestations of ME/CFS
+<sec:neurodevelopmental-secondary>
+
+A striking feature of ME/CFS is the high co-occurrence of ADHD, autism spectrum disorder (ASD), and depression. These relationships are conventionally treated as comorbidities—parallel conditions sharing genetic susceptibility or diagnostic overlap. An alternative framing warrants rigorous examination: can all three emerge as _secondary manifestations_ of ME/CFS, arising from the same neurobiological cascades that produce the primary illness? And can body-wandering—the brain's spontaneous, internally-oriented bodily attention described by Banellis et al.\ @Banellis2025bodywandering—provide a unifying mechanistic lens?
+
+This section develops that hypothesis with strict attention to the difference between what the evidence establishes and what remains speculative. The discussion is a research-level mechanistic analysis, not clinical guidance; patients should not alter treatment plans based on the hypotheses presented here without consulting their physician.
+
+==== Epidemiological Signal: Prevalence and Temporal Structure
+
+The epidemiological co-occurrence is well-documented. Children with ADHD are twice as likely to develop chronic disabling fatigue by age 18 compared to the general population @Norris2017adhdfatigue. Autistic children show a 78% elevated risk of chronic disabling fatigue by age 18, independent of depressive symptoms @Colby2024autism. Rates of ADHD in ME/CFS cohorts reach 40–47% with childhood-onset ADHD and ~21% with persistent adult ADHD @Rimes2015adhdcfs. Among autistic adults, 60% score at or above clinical cutoff for central sensitivity syndrome symptoms and 21% carry a formal ME/CFS or fibromyalgia diagnosis @Casanova2021autism.
+
+These figures establish comorbidity but not causality. Critically, the temporal directionality in the available data does not support Architecture B straightforwardly: the Norris and Rimes studies both show ADHD _preceding_ fatigue onset (childhood ADHD predicting later chronic fatigue), not the reverse. This is consistent with Architecture A (shared vulnerability) or bidirectional amplification, and constitutes evidence _against_ a simple "ME/CFS causes ADHD" narrative. Architecture B may still apply to a subset of patients who develop new-onset inattention after ME/CFS, but the epidemiological data suggest this subset is smaller than the shared-vulnerability population.
+
+Two competing architectures are logically possible:
+
+*Architecture A (shared vulnerability):* A common upstream factor—genetic, immune, or developmental—predisposes individuals to both ME/CFS and neurodevelopmental/psychiatric conditions independently. The co-occurrence is then a selection artefact: the same underlying vulnerability produces all four phenotypes.
+
+*Architecture B (secondary cascade):* ME/CFS pathophysiology—neuroinflammation, dopaminergic depletion, HPA axis dysfunction, interoceptive disruption—produces downstream neuropsychiatric phenotypes in individuals who would not otherwise develop them. The ADHD/ASD/depression arises _because of_ ME/CFS, not alongside it.
+
+No definitive longitudinal study has yet distinguished these architectures in ME/CFS. However, the long COVID literature is consistent with Architecture B: post-COVID patients develop ADHD-like executive dysfunction and neuroinflammation-mediated depressive symptoms @Rukmangadachar2024longocovidneurotransmitter through mechanisms paralleling those proposed for ME/CFS. This consistency does not constitute proof—long COVID data were not predicted by ME/CFS Architecture B models but were retrospectively fitted to the framework—but it demonstrates that infection-triggered neuroinflammatory cascades _can_ produce acquired neuropsychiatric phenotypes, which is the minimum requirement for Architecture B's plausibility.
+
+#limitation(title: [Epidemiology Establishes Comorbidity, Not Causality])[
+The prevalence figures cited above reflect cross-sectional or retrospective designs in specialist referral cohorts. No prospective study has tracked ADHD, ASD, or depression emergence _after_ confirmed ME/CFS onset in a pre-illness-characterised cohort. The elevated comorbidity rates are consistent with shared vulnerability (Architecture A), secondary cascade (Architecture B), or bidirectional amplification. Without temporal precedence data, causal direction cannot be established from epidemiology alone.
+] <lim:neurodevelopmental-epidemiology>
+
+==== Mechanism I: Neuroinflammation as a Common Upstream Driver
+
+The most frequently invoked neurobiological bridge between ME/CFS and all three psychiatric phenotypes is neuroinflammation—though "bridge" may overstate the evidence, since neuroinflammation is documented in each condition independently without proof that ME/CFS-specific neuroinflammation _causes_ the others. One PET study ($n = 9$ ME/CFS patients) reported 45–199% elevation in microglial activation markers across six brain regions @Nakatomi2014neuroinflammation, but a subsequent study using the same TSPO radioligand in women with CFS and Q fever fatigue syndrome ($n = 31$) found no signs of neuroinflammation @Raijmakers2021neuroinflammation. The neuroinflammation foundation for Architecture B is therefore contested, not established; all downstream claims inherit this uncertainty. Separately, blood-brain barrier dysfunction in ME/CFS may allow peripheral cytokines (TNF-$alpha$, IL-1$beta$, IL-8) and immune cells to enter the CNS @Rowe2019neuroinflammation, providing an alternative route to central immune activation that does not require resident microglial involvement.
+
+These same neuroinflammatory mechanisms link independently to ADHD, ASD, and depression:
+
+- *ADHD and neuroinflammation:* Substantial evidence supports neuroinflammation in ADHD pathophysiology @Dunn2019neuroinflammationadhd, including elevated pro-inflammatory cytokines in children with ADHD and microglial activation in post-mortem and imaging studies.
+- *ASD and neuroinflammation:* Altered neuroinflammation has been documented across four decades of ASD research @Estes2016gutbrain @Vargas2005neuroinflammationautism, with microglial and astroglial activation characteristic of ASD post-mortem brain tissue.
+- *Depression and neuroinflammation:* Cytokine-induced activation of the indoleamine 2,3-dioxygenase (IDO) pathway depletes serotonin and produces the neurotoxic metabolite quinolinic acid @Raison2006cytokines, providing a mechanistic route from inflammation to depressive phenotype distinct from classical monoamine depletion.
+
+The critical question is whether ME/CFS neuroinflammation—if confirmed by future replication—is severe enough, and sufficiently targeted to the relevant circuits, to produce these downstream effects. The Nakatomi study reported involvement of cingulate cortex, hippocampus, amygdala, thalamus, midbrain, and pons @Nakatomi2014neuroinflammation, which overlaps with circuits implicated in each of the three conditions; but this finding awaits independent replication (see above).
+
+#speculation(title: [Shared Neuroinflammatory Cascade as Generator of All Three Phenotypes])[
+*Certainty: 0.35.* Chronic microglial activation in ME/CFS—particularly in mesolimbic, thalamocortical, and prefrontal circuits—may be sufficient to produce ADHD-like, ASD-like, and depressive phenotypes in individuals with intact pre-illness neurodevelopment. If this cascade is the proximate cause, interventions targeting neuroinflammation should partially reverse these secondary phenotypes—a testable and not yet tested prediction. Candidate agents include low-dose naltrexone (off-label, physician-supervised; see Ch.\ 18 for dosing and contraindications); anti-cytokine biologics (tocilizumab, anakinra) are research-context only, require specialist prescribing, and have no ME/CFS trial evidence. This hypothesis does not require identical mechanisms to primary ADHD, primary ASD, or primary depression; it only requires that neuroinflammation degrades the same circuits that those conditions affect through developmental means.
+] <spec:neuroinflammation-cascade-generator>
+
+==== Mechanism II: Dopaminergic Dysfunction and the Effort-Computation Failure
+
+In animal models and computational accounts, dopamine encodes not only reward prediction errors but tonic _behavioral vigor_—the speed and energy with which organisms execute goal-directed actions @Salamone2012dopamine. Tonic dopamine depletion in the striatum produces effort aversion: organisms maintain intact reward discrimination (they still _want_ the reward) but shift preference sharply toward low-effort/low-reward options, producing a motivational profile that may be clinically difficult to distinguish from ADHD-type executive dysfunction.
+
+In ME/CFS, preliminary evidence for dopaminergic deficiency exists but remains limited. The NIH deep phenotyping study found significantly reduced homovanillic acid (HVA, the primary dopamine metabolite) in cerebrospinal fluid, alongside reduced putamen activity correlating with poor reward sensitivity @walitt2024deep. ADHD stimulants improve brain fog in 77.1% and fatigue perception in 71.7% of ME/CFS patients surveyed @Vernon2025PNAS—a pharmacological response pattern consistent with dopaminergic insufficiency rather than primary ADHD.
+
+The _effort-cost computation_ depends on a circuit involving the dorsal anterior cingulate cortex (dACC), ventromedial prefrontal cortex (VMPFC), and striatum @Treadway2012effortbaseddecisionmaking. In the neuroeconomic framework, action value is modelled as:
+
+$ A = bb(E)[R] - k dot C_("effort") $
+
+where $bb(E)[R]$ is expected reward, $C_("effort")$ is the effort cost, and $k$ is a scaling coefficient regulated by dopaminergic tone. This equation is qualitative in the ME/CFS context—no parameter values have been estimated from ME/CFS data—but it makes a directional prediction: If this model applies to ME/CFS, the documented dopamine depletion would effectively raise $k$, making effort costs feel prohibitively high even for low-cost actions. The predicted behavioural signature—prolonged decision latency, preference for minimal-demand tasks, and collapse of sustained attention when reward salience drops—matches the cognitive profile reported by ME/CFS patients, though this match is circumstantial rather than mechanistically proven.
+
+According to one influential account of primary ADHD, the deficit is characteristically one of _incentive salience instability_: dopaminergic tone fluctuates rather than being chronically depleted, producing intermittent hyperfocus alongside inattention @Volkow2011adhddopamine. If this distinction holds, ME/CFS-secondary "ADHD-like" presentation should be more uniform—a tonic suppression of effort invigoration—and may respond differently to stimulants. This prediction has not been directly tested.
+
+#hypothesis(title: [Dopaminergic Tonic Depletion as Generator of ADHD-Like Phenotype in ME/CFS])[
+*Certainty: 0.45.* Chronic dopaminergic depletion in ME/CFS—mediated by neuroinflammation (IDO pathway diverting tryptophan away from catecholamine synthesis), metabolic constraint (reduced CNS energy supply for neurotransmitter turnover), and HPA axis hypocortisolism (cortisol normally upregulates tyrosine hydroxylase)—produces a tonic effort-invigoration deficit. Clinically, this manifests as inattention, executive dysfunction, and motivational collapse that closely resembles ADHD but arises from a different mechanism. *Falsification condition:* If stimulant response in ME/CFS-associated inattention shows the same variability and concentration-dependence as primary ADHD, primary ADHD mechanisms are implicated; if stimulant response is more uniform and dose-linear, tonic depletion is more likely. CSF HVA level should predict response.
+] <hyp:dopamine-adhd-secondary>
+
+==== Mechanism III: Interoceptive Hierarchy Disruption and the Body-Wandering Paradox
+
+A third proposed mechanism—more elaborate than neuroinflammation or dopaminergic depletion alone—operates at the level of interoceptive predictive processing. A parsimony caveat is warranted: the simpler cytokine-induced sickness behaviour pathway (Mechanism I) may already account for depressive and cognitive symptoms without requiring the theoretical apparatus of predictive processing. The framework below is therefore offered not as the only explanation but as one that, if validated, would provide a more differentiated account of _why_ ME/CFS produces ADHD-like features in some patients, ASD-like features in others, and depression in most—a specificity that simple neuroinflammation models do not explain. The theoretical components are imported from other fields (computational psychiatry, interoceptive neuroscience) and none has been directly validated in ME/CFS.
+
+*The interoceptive hierarchy.* The brain does not passively receive bodily signals; it generates _predictions_ about internal states and computes _prediction errors_ when actual afferent signals diverge from expectation @Seth2016interoceptive @Barrett2015interoceptive. This interoceptive inference operates through a hierarchical network: brainstem nuclei supply raw visceral afference; posterior insula maps first-order bodily states; mid-insula contextualises them; anterior insula and dorsal ACC assign allostatic significance; prefrontal cortex encodes higher-order beliefs about self-regulatory efficacy. Each level sends downward predictions and receives upward prediction errors.
+
+*Precision-weighting and its failure.* Healthy interoceptive inference requires _adaptive precision-weighting_: the relative confidence assigned to prior predictions versus incoming sensory evidence must adjust dynamically to context. Powers et al.\ @Powers2021interoceptiveprecision demonstrated, across anxiety, depression, eating disorders, and substance use disorders, a transdiagnostic failure to adaptively update precision estimates during an interoceptive perturbation (breath-holding to amplify cardiac afference). All clinical groups failed to increase precision-weighting on ascending cardiac signals as healthy controls did. The result is a locked system: the brain cannot accurately register whether its regulatory commands are working, and therefore cannot calibrate them.
+
+*Body-wandering as endogenous interoceptive monitoring.* Banellis et al.\ @Banellis2025bodywandering characterised _body-wandering_—spontaneous, task-unrelated thought directed toward somatomotor and visceral bodily sensations—as a distinct dimension of mind-wandering with its own neural signature: increased connectivity among somatomotor, interoceptive, and thalamocortical networks, with elevated negative affect and physiological arousal during episodes. The paradox is that individuals with _higher habitual propensity_ for body-wandering show _lower_ ADHD severity and _lower_ depression—the opposite of what simple negative-affect coupling would predict. Their cross-validated canonical correlation analysis ($N = 536$, CCA canonical loadings: stomach 0.576, arousal 0.442, breathing 0.345, movement 0.300, negative affect 0.286) established this as a reproducible individual-differences dimension.
+
+The proposed explanation: habitual body-wandering reflects the brain's capacity for _endogenous interoceptive monitoring_—actively sampling bodily states even when aversive. This monitoring maintains the precision-weighting update cycles that keep allostatic regulation functional. Those who cannot body-wander (whether due to alexithymia, ADHD-type external attention orientation, or dissociation from interoceptive signals) may lose the endogenous feedback channel that normally prevents allostatic drift—though this causal interpretation goes beyond what the Banellis et al.\ correlational data establish.
+
+*ME/CFS and pathological body-wandering.* In ME/CFS, however, the relationship inverts. Patients do not lack body-attention; they are often characterised by _interoceptive hypervigilance_—sustained, distress-driven monitoring of symptoms @Henningsen2018interoception. This is not equivalent to adaptive body-wandering. Adaptive body-wandering draws on accurate predictive models of bodily states; hypervigilance reflects _amplified attention to prediction errors_ without the ability to resolve them. The body-wandering literature's protective paradox—more body-attention predicts better outcomes—may apply only when the underlying interoceptive generative models are intact. If the models are corrupted, as Architecture B predicts in ME/CFS, increased attention to bodily signals would amplify awareness of unresolvable discrepancies, producing symptom amplification rather than allostatic correction.
+
+This distinction maps onto the distinction between primary ASD interoceptive profiles and ME/CFS-acquired interoceptive disruption. ASD involves altered _precision of priors_—overprecise top-down predictions that suppress sensory updating @Pellicano2012autism—whereas ME/CFS, according to the proposed model, involves corrupted _lower-level signals_ (brainstem, thalamocortical) that prevent accurate afference from reaching the cortical models. The phenomenological result may resemble each other (sensory overwhelm, difficulty interpreting internal states, alexithymia), but the computational locus differs.
+
+#speculation(title: [Interoceptive Hierarchy Failure as Generator of Autism-Like Features in ME/CFS])[
+*Certainty: 0.30.* Thalamocortical disruption and brainstem RAS dysfunction in ME/CFS corrupt the lower levels of the interoceptive hierarchy, generating persistent prediction errors that reach anterior insula and ACC as unresolvable "error signals." The brain's compensatory response—increasing prior precision to suppress the noise—produces the same phenomenology as ASD interoceptive hyperprecision: rigid perceptual filtering, difficulty in novel or unpredictable sensory environments, withdrawal from socially demanding contexts, and apparent alexithymia (not from absent emotional response but from inability to link it reliably to a specific bodily state). Crucially, this is _acquired_ rigidity—it should be more context-dependent and potentially reversible with treatment of the underlying neuroinflammation—distinguishing it from developmental ASD where the precision profile is stable and trait-like. *Falsification condition:* If ME/CFS-associated sensory hypersensitivity shows the same trait stability and context-independence as developmental ASD—persisting unchanged across PEM cycles and not correlating with neuroinflammatory markers—the acquired-rigidity model is not supported.
+] <spec:interoceptive-asd-secondary>
+
+#speculation(title: [Failed Body-Wandering as the Pathway to ME/CFS-Secondary Depression])[
+*Certainty: 0.40.* Adaptive body-wandering maintains allostatic regulation by providing the endogenous feedback that allows the brain's generative model to update beliefs about bodily state. In ME/CFS, the corrupted interoceptive hierarchy degrades this feedback: the brain attends to bodily signals (hypervigilance) but cannot resolve the prediction errors they generate, because the generative model itself is miscalibrated. The accumulation of unresolvable prediction errors—persistently high free energy @Friston2010FreeEnergy—produces a learned belief of allostatic self-inefficacy: the brain predicts that it _cannot_ successfully regulate its own physiological state. This belief is not irrational given the functional evidence the brain has accumulated; it is a coherent inference from a corrupted information channel. The depressive phenotype that follows—anhedonia, motivational collapse, negative future prediction—is structurally identical to what Stephan et al.\ @Stephan2015depressionallostasis term _allostatic interoceptive overload_ and what Seth @Seth2016interoceptive terms the affective consequence of persistent interoceptive prediction error. Depression in ME/CFS is therefore not a mood disorder with a separate aetiology that happens to co-occur; it is the fourth-order cognitive consequence of the same hierarchy failure that generates fatigue, pain, and post-exertional malaise at lower levels. *Falsification condition:* If depressive affect in ME/CFS does not correlate with interoceptive accuracy measures (cardiac interoception tasks) more strongly than with rumination scores, or if SSRI-resistance is not linked to interoceptive disruption severity, this pathway is not supported.
+] <spec:body-wandering-depression>
+
+==== A Formal Causal Structure
+
+The proposed Architecture B can be represented as a directed acyclic graph (DAG) with explicit uncertainty annotations. The following represents the core causal skeleton; all edges are speculative except those annotated as established (E): Figure @fig:mecfs-dag-neuropsychiatric presents the proposed causal structure.
+
+#figure(
+  kind: "diagram",
+  supplement: [Figure],
+  caption: [Proposed causal DAG for ME/CFS secondary neuropsychiatric phenotypes. Solid arrows: supported by convergent evidence in ME/CFS or mechanistic analogues. Dashed arrows: speculative. E = established in non-ME/CFS literature. C = confounded by shared genetic vulnerability.],
+)[
+  #table(
+    columns: 1,
+    stroke: none,
+    align: left,
+    [*Root nodes:* Viral/immune trigger → Systemic inflammation],
+    [*BBB disruption [E: long COVID]*  → CNS microglial activation],
+    [*Microglial activation [E: neuroinflammation]*  → {IDO pathway activation; HPA hypocortisolism; Thalamocortical disruption; RAS dysfunction}],
+    [*IDO pathway* → {Serotonin depletion; Dopamine depletion; Quinolinic acid excitotoxicity}],
+    [*HPA hypocortisolism* → {Unconstrained cytokine cascades; Reduced tyrosine hydroxylase activity}],
+    [*Thalamocortical disruption* → {Brainstem interoceptive signal corruption; Precision-weighting rigidity}],
+    [*Dopamine depletion* → {Effort aversion [ADHD-like phenotype]; Anhedonia [depressive phenotype]}],
+    [*Precision-weighting rigidity* → {Acquired interoceptive inflexibility [ASD-like phenotype]; Failed body-wandering feedback}],
+    [*Failed body-wandering feedback* → {Unresolvable prediction errors → Allostatic self-inefficacy [depressive phenotype]}],
+    [],
+    [*Confounders (C):* Shared genetic susceptibility (immune dysregulation loci, HLA variants) acts as a common cause of both ME/CFS trigger-susceptibility and elevated baseline risk for ADHD/ASD/depression, creating non-causal association even if Architecture B is false.],
+  )
+]
+<fig:mecfs-dag-neuropsychiatric>
+
+The DAG identifies the key confounders that must be controlled and the colliders that must not be conditioned on. If shared genetic susceptibility (C) is the dominant pathway, adjusting for polygenic risk scores for immune dysregulation should substantially attenuate the ME/CFS → psychiatric phenotype associations. If Architecture B is dominant, it should not.
+
+==== What Distinguishes Secondary from Primary Conditions
+
+If Architecture B is correct, the clinical and mechanistic distinction between primary conditions and ME/CFS-secondary phenotypes would be important for treatment selection. The predicted distinguishing features listed below are derived from the proposed mechanisms and have _not_ been systematically confirmed in prospective ME/CFS cohort studies. They require professional evaluation and cannot be reliably self-applied.
+
+*Predicted secondary ADHD-like presentation:*
+- Onset after ME/CFS onset (not childhood history)
+- Predominantly inattentive type (rather than combined or hyperactive-impulsive)
+- Deficits correlate with fatigue severity and neuroinflammatory markers
+- Stimulant response uniform and dose-linear (tonic depletion model) rather than variable (incentive salience model)
+- May coexist with primary ADHD (25–40% of ME/CFS patients report childhood ADHD, suggesting Architecture A operates in a significant subset)
+
+*Predicted secondary ASD-like features:*
+- Acquired sensory hypersensitivity, not a lifelong trait
+- Context-dependent: worse during post-exertional malaise, better in low-demand periods
+- Alexithymia correlates with illness duration and severity, not developmental history
+- Social withdrawal driven by energy limitation and symptom management, rather than social motivation difference
+- May be partially reversible with treatment of neuroinflammation
+
+*Predicted secondary depression:*
+- Neurobiologically distinct from primary major depressive disorder: IDO/kynurenine mechanism versus monoamine depletion @Raison2006cytokines
+- Correlates with inflammatory markers (CRP, IL-6, TNF-$alpha$) rather than early adverse experience or rumination scores alone
+- May respond less completely to SSRIs alone than to combined anti-inflammatory and antidepressant strategies; however, SSRIs remain a standard treatment for symptom management and must not be discontinued without medical supervision
+- In the allostatic self-inefficacy framework, depressive affect reflects accumulated evidence that self-regulatory actions have failed—a mechanistic framing, not a claim that hopelessness is rational or that treatment is futile. Depression in ME/CFS carries serious morbidity and suicide risk regardless of its mechanistic origin and warrants the same clinical urgency as primary depression
+
+#open-question(title: [Can Neuroinflammation-Targeted Treatment Reverse Secondary Neuropsychiatric Phenotypes?])[
+If ADHD-like features, ASD-like sensory disruption, and depression in ME/CFS arise through the proposed cascade, anti-neuroinflammatory interventions should selectively improve these phenotypes beyond their effect on core fatigue. Low-dose naltrexone (LDN), which modulates microglial activation via toll-like receptor 4, already shows benefit for brain fog and fatigue @Younger2014LDN. LDN is off-label, contraindicated with concurrent opioid use, and requires physician supervision. Whether it also reduces ADHD symptom scores, interoceptive rigidity, or depressive affect in ME/CFS patients—controlling for fatigue improvement—is entirely untested. This is a tractable, clinically relevant question that current trial designs do not address.
+] <oq:neuroinflammation-reversal>
+
+#open-question(title: [Does Habitual Body-Wandering Predict ME/CFS Onset, Severity, or Trajectory?])[
+The Banellis et al.\ @Banellis2025bodywandering finding—that individuals with higher propensity for body-wandering have lower ADHD and depression—raises a specific prediction for ME/CFS: pre-illness body-wandering capacity (a proxy for intact interoceptive feedback circuits) may predict whether post-infectious fatigue resolves or becomes chronic. Individuals with robust endogenous interoceptive monitoring may have stronger allostatic error-correction capacity following the initial immune insult. This is testable in post-infection cohort studies with pre-illness cognitive phenotyping. Body-wandering propensity also predicts the profile of psychiatric sequelae: low baseline body-wandering capacity → greater vulnerability to ME/CFS-secondary depression; disrupted (hypervigilant) body-wandering → greater vulnerability to symptom amplification and acquired ASD-like features.
+] <oq:body-wandering-mecfs-predictor>
+
+==== Implications for Clinical Management
+
+#warning-env(title: [Research Hypotheses, Not Treatment Protocols])[
+The implications below derive from Architecture B, which remains unproven. They are intended for clinicians and researchers, not as patient-directed guidance. Patients should _not_ discontinue prescribed psychiatric medications or decline psychiatric referrals on the basis of this speculative framework. ADHD, depression, and sensory processing difficulties warrant treatment in their own right, regardless of whether they are primary or secondary to ME/CFS. All medication changes require physician supervision.
+]
+
+The Architecture B framing, _if validated_, would have clinical implications that differ from the standard comorbidity framing:
+
+1. *Consider the inflammatory substrate alongside the psychiatric phenotype.* If ADHD-like and depressive features arise partly from neuroinflammation, targeting inflammation may complement—not replace—standard psychiatric treatment. This is an argument for adding anti-inflammatory strategies, not for withdrawing effective psychiatric medications.
+
+2. *Stimulants for cognitive symptoms provide real benefit.* In a patient-reported outcomes survey ($N = 3{,}925$, not an RCT), ADHD stimulants improved subjective brain fog in 77.1% and fatigue perception in 71.7% of ME/CFS respondents @Vernon2025PNAS. Self-selection and placebo effects limit this evidence, but the signal is consistent with dopaminergic insufficiency. Addressing cognitive dysfunction is a legitimate and valuable treatment goal even if it does not alter the primary illness. However, stimulants' negligible or negative effect on PEM means they do not address exertional limits. Clinicians must also consider the sympathomimetic effects of stimulants in the 30–40% of ME/CFS patients with comorbid POTS: methylphenidate and amphetamine salts can worsen tachycardia and interact with midodrine, fludrocortisone, or beta-blocker regimens. Stimulant prescribing in ME/CFS requires cardiac-aware monitoring.
+
+3. *Interoceptive rehabilitation is experimental and unvalidated.* If the pathway to depression in ME/CFS runs through failed body-wandering feedback and allostatic self-inefficacy, interventions that restore accurate interoceptive awareness _might_ complement standard depression treatment. However, no validated protocol exists for PEM-safe interoceptive rehabilitation in ME/CFS. Body-scan practices and biofeedback are well-established in other populations but have not been tested in ME/CFS. Any future protocol must be clinician-supervised, respect strict pacing constraints, and exclude severely ill patients who cannot safely engage in structured cognitive activities. This is a research direction, not a current recommendation; it should not substitute for established psychological support or antidepressant treatment.
+
+4. *Acquired sensory features warrant support, not dismissal.* Acquired sensory hypersensitivity and social withdrawal in ME/CFS may serve an adaptive function (reducing stimulation load during energy depletion). Recognising this may reduce iatrogenic harm from demands for social normalisation. However, patients experiencing these features may still benefit from occupational therapy, environmental accommodations, and autism-informed support services; the point is to offer appropriate support rather than pathologize illness adaptations.
+
+#limitation(title: [Architectural Uncertainty: Architecture A Cannot Be Ruled Out])[
+The entire section above develops Architecture B (ME/CFS → secondary phenotypes) in mechanistic detail, because this architecture has clinical implications that the standard comorbidity framing misses. However, the evidence does not yet rule out Architecture A. The shared vulnerability model predicts identical epidemiological patterns (elevated comorbidity) and identical pharmacological responses (stimulants help both primary ADHD and ME/CFS executive dysfunction) through entirely different causal pathways. Distinguishing these architectures requires longitudinal studies with pre-illness psychiatric phenotyping, Mendelian randomisation studies using ME/CFS genetic instruments, and treatment trials designed to test whether anti-inflammatory interventions reduce psychiatric symptom burden independently of fatigue improvement. Until such studies exist, both architectures should inform clinical reasoning.
+] <lim:architecture-uncertainty>
 

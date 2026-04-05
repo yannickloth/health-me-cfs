@@ -17,7 +17,7 @@ Multiple neuroimaging studies have documented structural brain abnormalities in 
 *White Matter Abnormalities*
 Several studies have reported increased white matter hyperintensities (WMH) in ME/CFS patients compared to healthy controls @Lange1999mri @Zeineh2015white. These hyperintensities, visible on T2-weighted and FLAIR MRI sequences, may indicate demyelination, axonal loss, or microvascular damage. The distribution of WMH in ME/CFS patients tends to involve periventricular white matter, subcortical regions, and frontal and temporal lobes. Zeineh et al. @Zeineh2015white identified increased fractional anisotropy in the right arcuate fasciculus, which correlated with disease severity (r=0.649, p=0.0015), providing anatomical substrate for the cognitive dysfunction observed in ME/CFS.
 
-The clinical significance of these findings remains debated, as similar changes occur with normal aging and various medical conditions. However, the presence of WMH in younger ME/CFS patients suggests pathological processes beyond typical age-related changes.
+The clinical significance of these findings remains debated, as similar changes occur with normal aging and various medical conditions. However, the presence of WMH in younger ME/CFS patients suggests pathological processes beyond typical age-related changes @Lange1999mri @Zeineh2015white.
 
 *Gray Matter Volume Changes*
 Voxel-based morphometry (VBM) studies have identified regional brain abnormalities in ME/CFS patients, though findings vary across cohorts @Puri2012VBM @Finkelmeyer2017VBM @Shan2020JTMneuroimaging. Documented changes include gray matter differences in the parahippocampal gyrus, occipital regions, amygdala, and insula, alongside white matter volume reductions in the brainstem and temporal regions. No single pattern has been consistently replicated across studies, reflecting the clinical heterogeneity of ME/CFS.
@@ -95,15 +95,17 @@ The convergence of regional hypometabolism (PET), hypoperfusion (SPECT), neuroin
 
 #speculation(title: [CNS Energy Crisis as Primary Dysfunction])[
 *Certainty: 0.40.* The near-universal presence of cognitive dysfunction, documented brain hypometabolism @Chaudhuri2004fatigue, and neuroinflammation with 45–199% elevation in key regions @Nakatomi2014neuroinflammation suggest CNS energy crisis may be the primary pathophysiological event. Failure of the brain to coordinate peripheral demand-responsive processes could explain the selective pattern of dysfunction observed in ME/CFS, where autonomous processes (hair growth, nail growth, baseline cellular metabolism) remain intact while CNS-coordinated responses (exercise capacity, orthostatic tolerance, immune adaptation) are severely impaired.
+
+*Testable prediction:* CNS-targeted interventions (microglial modulation, catecholamine restoration, cerebral perfusion enhancement) should outperform periphery-only interventions (mitochondrial cofactors without CNS penetration, peripheral immune modulation) on global symptom burden in randomised comparative trials. Falsified if periphery-targeted treatments produce equivalent or greater whole-body improvement without CNS-specific effects. See @hyp:cascade-neuroinflammatory for the detailed causal cascade prediction.
 ] <spec:cns-primary>
 
 ==== Evidence for Brain-Centric Model
 
 Several observations support the brain as primary bottleneck:
 
-    - *Universal cognitive involvement*: Brain fog and cognitive dysfunction are present in nearly all ME/CFS patients, regardless of primary symptom presentation or disease severity
+    - *Universal cognitive involvement*: Brain fog and cognitive dysfunction are present in nearly all ME/CFS patients, regardless of primary symptom presentation or disease severity @walitt2024deep
 
-    - *Disproportionate brain energy demand*: The brain comprises 2% of body mass but consumes 20–25% of resting energy, making it uniquely vulnerable to energy constraint
+    - *Disproportionate brain energy demand*: The brain comprises 2% of body mass but consumes 20–25% of resting energy @Magistretti2018, making it uniquely vulnerable to energy constraint
 
     - *Cascading coordination failure*: The brain coordinates peripheral demand responses via autonomic signaling; CNS energy deficit would impair this coordination across multiple organ systems simultaneously
 
@@ -165,7 +167,7 @@ Single study (Walitt 2024). This represents the first-ever direct CSF catecholam
 <obs:catecholamine-symptoms>
 Walitt et al. @walitt2024deep established direct correlations between CSF catecholamine levels and clinical measures. Lower catecholamines correlated with reduced grip strength endurance and slower reaction times (motor performance), catecholamine deficits predicted reduced selection of “hard” tasks in decision-making paradigms (effort-related behaviors), memory and executive function scores correlated with dopamine metabolite levels (cognitive impairment), and subjective fatigue ratings inversely correlated with norepinephrine concentrations (fatigue severity).
 
-This establishes, for the first time, a direct biochemical pathway linking specific neurotransmitter abnormalities to the core symptoms of ME/CFS.
+These correlations suggest, for the first time in direct CSF measurement, a biochemical pathway linking specific neurotransmitter abnormalities to the core symptoms of ME/CFS.
 // Insert Figure: Normal Catecholamine Synthesis
 #include "../figures/fig-catecholamine-normal.typ"
 
@@ -233,6 +235,13 @@ Emerging research by Wirth and Scheibenbogen (2025) @WirthScheibenbogen2025Neur
 
 <obs:serotonin>
 Beyond tryptophan diversion, multiple lines of evidence indicate primary serotonergic abnormalities in ME/CFS. PET imaging has demonstrated reduced serotonin transporter (5-HTT) density in the rostral anterior cingulate cortex @Yamamoto2004serotonin. Additional findings include abnormal responses to serotonergic challenge tests, correlations between serotonin markers and fatigue severity, and variable responses to serotonergic medications. The serotonergic system's role in regulating sleep, mood, pain perception, and autonomic function positions it as a plausible contributor to the multisystem dysfunction of ME/CFS.
+
+A preclinical model by Lee et al. (2024) provides complementary evidence from the opposite direction: rather than serotonin depletion via kynurenine diversion, serotonergic _hyperactivity_ may also produce ME/CFS-like pathophysiology @Lee2024serotonin. Using high-dose fluoxetine to induce elevated serotonin in mouse dorsal raphe nuclei and hypothalamus, the study demonstrated that chronic serotonergic excess produced severe fatigue, enhanced pain sensitivity, anxiety-like behaviour, and HPA axis dysfunction. The mechanism involved functional loss of 5-HT1A autoreceptors---the inhibitory feedback receptors that normally limit serotonin release---rather than quantitative receptor changes. This autoreceptor desensitisation amplified serotonergic signalling in limbic regions, producing a hyperserotonergia that paradoxically mimics the symptom profile attributed to serotonin _deficiency_ in other models.
+
+#speculation(title: [Bidirectional Serotonin Dysregulation in ME/CFS])[
+*Certainty: 0.25.* The coexistence of evidence for both serotonin depletion (tryptophan diversion via kynurenine pathway) and serotonin excess (5-HT1A desensitisation) in ME/CFS models suggests that serotonergic dysfunction may be _bidirectional_ rather than unidirectional. Different compartments or brain regions may experience opposite perturbations simultaneously: peripheral serotonin pools depleted by IDO-driven tryptophan diversion while central raphe-limbic circuits become hyperactive due to 5-HT1A autoreceptor dysfunction. If correct, this explains the heterogeneous and sometimes paradoxical responses of ME/CFS patients to serotonergic medications (SSRIs helping some patients while worsening others). This remains a preclinical observation in mice; direct measurement of regional serotonergic tone in ME/CFS patients has not been performed.
+] <spec:bidirectional-serotonin>
+
 ==== Dopaminergic Dysfunction
 
 <obs:dopamine>
@@ -334,7 +343,23 @@ microglial activation: NfL and GFAP primarily reflect neuronal injury, whereas
 PET imaging studies demonstrating elevated TSPO binding in ME/CFS detect
 glial inflammation without overt neurodegeneration @Nakatomi2014neuroinflammation.
 Study: (case-control, $n=96$, Scientific Reports 2026, certainty: 0.55).
-Chronic microglial activation, when present, can produce sustained release of pro-inflammatory cytokines (IL-1$beta$, TNF-$alpha$, IL-6), oxidative stress through reactive oxygen species production, glutamate release contributing to excitotoxicity, disruption of synaptic pruning and plasticity, and blood-brain barrier dysfunction.
+Chronic microglial activation, when present, can produce sustained release of pro-inflammatory cytokines (IL-1$beta$, TNF-$alpha$, IL-6), oxidative stress through reactive oxygen species production, glutamate release contributing to excitotoxicity, disruption of synaptic pruning and plasticity, and blood-brain barrier dysfunction @Frank2024S1Priming @Nakatomi2014neuroinflammation.
+
+*HSE as a Prospective Window into Post-Viral Neuroinflammation*
+
+The Omdal null NfL finding contrasts with results from herpes simplex encephalitis (HSE), where CSF neurofilament light chain levels correlate with both impaired neurocognitive recovery (rho=-0.36, p=0.020) and subsequent development of anti-NMDAR autoantibodies (p=0.006) @Westman2021nfl_nmdar. Westman et al.\ propose a causative chain: acute viral brain tissue damage (measured by NFL) $arrow.r$ NMDAR antigen release $arrow.r$ autoimmunization $arrow.r$ prolonged CSF proinflammatory response $arrow.r$ persistent neurocognitive dysfunction. In HSE, 24.5% of patients develop anti-NMDAR IgG antibodies, which appear only after 3 months and are associated with dramatically impaired cognitive recovery @Westman2016nmdar_hse.
+
+#speculation(title: [Subclinical Neuroinflammation Without Overt Neuronal Injury])[
+*Certainty: 0.30.* The distinction between HSE (positive NfL) and long COVID (null NfL per Omdal) may reflect a spectrum of neuronal injury severity: HSE causes frank tissue necrosis, while lower-grade neurotropic infections or systemic inflammation may produce microglial activation without sufficient neuronal damage to elevate circulating NfL. This does not exclude the autoimmune sequence — if subclinical BBB disruption allows antigen exposure to peripheral immune cells, autoantibody generation could occur without the massive neuronal death characteristic of HSE. Temporal CSF proteomics in HSE patients has identified dynamic pathway activation and specific protein signatures (including reduced apolipoprotein A1 and complement factor I) distinguishing patients who develop NMDAR autoimmunity @Naas2023hse_proteome. Whether similar CSF proteomic signatures exist in ME/CFS patients remains untested (see Section @sec:hsv1-hse for detailed HSE evidence).
+
+*Testable prediction:* CSF proteomic profiling in ME/CFS patients with cognitive dysfunction would reveal pathway activation signatures overlapping with the NMDAR-autoimmunity-associated profiles identified in HSE, despite normal or near-normal NfL levels. Falsified if ME/CFS CSF proteomics show no overlap with the Naas et al.\ HSE signature.
+] <spec:subclinical-neuroinflammation>
+
+*Circulating mitochondrial DNA and cognitive function.*
+An emerging line of evidence connects mitochondrial dynamics to cognitive impairment independently of classical inflammatory markers. In a population-based Long COVID cohort ($n = 228$), Matits et al.\ @Matits2026cfmtDNA found that general cognition score correlated positively with relative circulating cell-free mitochondrial DNA (ccf-mtDNA): less ccf-mtDNA was associated with worse cognition. Notably, CRP showed no independent association with cognition after controlling for ccf-mtDNA, suggesting mitochondrial dynamics may be a more proximal correlate of cognitive dysfunction than systemic inflammation. The authors propose that impaired mitophagy leads to intracellular accumulation of damaged mitochondria, depriving neurons and glia of adequate energy supply while failing to generate the extracellular mtDNA signal. Effect sizes were small; causal direction is unknown. Whether this pattern extends to ME/CFS cognitive impairment---where brain fog severity shows weak correlation with peripheral inflammatory markers but strong association with central metabolic dysfunction @Nakatomi2014neuroinflammation\ ---is an open question. The astrocyte energy gate hypothesis (Section @sec:astrocyte-energy-gate) offers a mechanistic explanation: if astrocyte mitochondria are damaged, lactate shuttle capacity is reduced, and the resulting neuronal energy deficit manifests as cognitive dysfunction. Systemic ccf-mtDNA would correlate with this deficit because astrocyte mitochondrial health is part of the global mitochondrial quality control picture, whereas CRP reflects hepatic acute-phase response with no direct relationship to astrocyte-specific metabolism. This explanation is speculative: no study has directly measured astrocyte mitochondrial health alongside ccf-mtDNA in ME/CFS or Long COVID. An important alternative: physical fitness independently predicts both ccf-mtDNA levels (via exercise-stimulated release) and cognitive function, so the ccf-mtDNA--cognition correlation may be entirely confounded by activity level without requiring any direct mitochondrial--cognitive link. Additionally, the Matits partial correlation that eliminates CRP may reflect multicollinearity between two weakly predictive variables (both $eta^2 lt.eq 0.02$) rather than true causal proximity.
+
+*Exosomal mtDNA as a molecular substrate for PEM kindling.*
+The kindling hypothesis (Section @sec:pem-kindling) proposes that each PEM episode lowers the threshold for subsequent episodes through progressive neuronal sensitisation, but lacks a specific molecular mechanism. The Tsilioni et al.\ @Tsilioni2022exosome finding may provide one: exercise-triggered exosomal mtDNA release activates microglia (demonstrated in vitro to produce IL-1$beta$), and primed microglia have a lower activation threshold for subsequent stimuli. Each PEM episode would thus release exosomal mtDNA $arrow.r$ prime microglia $arrow.r$ lower the threshold for the next episode. This creates a molecular kindling loop: exosomal mtDNA is the kindling signal, microglial priming is the substrate, and IL-1$beta$ is the effector. Since mtDNA is also recognised by mast cell TLR9 and MRGPRX2, exercise-released mtDNA exosomes could simultaneously engage the mast cell--microglia amplification loop, creating a dual amplification circuit for each PEM episode. If ME/CFS patients release more exosomal mtDNA per exertion than Long COVID patients (consistent with the Tsilioni vs.\ Matits pattern), this would explain why some ME/CFS patients show relentless progressive deterioration through kindling while some Long COVID patients stabilise at a moderate disability level.
 
 #hypothesis(title: [Glial Maturation Window and Pediatric Recovery])[
 
@@ -556,6 +581,33 @@ Several important caveats apply to this hypothesis:
 
 For the relationship between the astrocyte energy gate and the broader selective energy dysfunction framework, including formal mathematical treatment and additional predictions, see Section @sec:selective-dysfunction, specifically the astrocyte energy gate sub-hypothesis (@spec:astrocyte-gate).
 
+==== Astrocytes as the Brain's T3 Factory: A Dual Vulnerability
+<sec:astrocyte-t3-factory>
+
+The astrocyte energy gate hypothesis above addresses astrocytes' role as metabolic intermediaries for neurons. However, astrocytes serve a second critical function that has received less attention in the ME/CFS context: they are the brain's primary producers of active thyroid hormone (T3).
+
+Type 2 deiodinase (DIO2)---the enzyme that converts inactive T4 to active T3---is expressed approximately 50-fold higher in astrocytes than in any other brain cell type. In the normal paracrine signaling model, T4 crosses the blood-brain barrier via OATP1C1 transporters, enters astrocyte end-feet, is converted to T3 by DIO2, and is then released into the extracellular space for uptake by neurons via MCT8 transporters @Bianco2018DIO2. Approximately 50% of adult brain T3 is produced locally through this astrocytic pathway; the remainder comes from circulating T3.
+
+#speculation(title: [Astrocyte Dual-Failure: Energy Gate and T3 Factory Collapse])[
+*Certainty: 0.35.* Astrocyte dysfunction in ME/CFS may simultaneously impair both the lactate shuttle (energy gate, Speculation @spec:astrocyte-energy-gate) and local T3 production. If reactive, metabolically stressed astrocytes have reduced DIO2 activity, the brain experiences a *hidden hypothyroidism* that is invisible to all blood tests---because it arises from impaired local conversion rather than reduced circulating hormone levels.
+
+This creates a convergent failure: neurons receive inadequate metabolic fuel (impaired lactate shuttle) AND inadequate trophic/plasticity signaling (impaired T3 supply) from the same dysfunctional cell type. The consequences of reduced brain T3 compound the energy deficit: T3 drives mitochondrial biogenesis via PGC-1$alpha$, promotes oligodendrocyte differentiation for myelin maintenance, upregulates BDNF for synaptic plasticity, and modulates microglial phenotype toward anti-inflammatory surveillance states (Section @sec:thyroid-neuroplasticity). Without adequate astrocytic T3 production, all of these processes are impaired simultaneously.
+
+Importantly, this local brain T3 deficit is independent of and additive with the systemic Low T3 Syndrome documented in ME/CFS (Section @sec:thyroid): cytokine-mediated DIO2 suppression reduces both circulating T3 (via liver/kidney DIO1) and brain T3 (via astrocytic DIO2). The DIO2 Thr92Ala polymorphism (present in ~50% of the population), which further impairs astrocytic DIO2 function, would exacerbate this hidden brain hypothyroidism in carriers.
+
+*Testable predictions*
+
+  - ME/CFS patients should show reduced brain T3 relative to serum T3 if measured (requires post-mortem tissue or advanced imaging). The brain/serum T3 ratio should be lower in ME/CFS than in controls.
+  - DIO2 Thr92Ala carriers with ME/CFS should have more severe cognitive dysfunction than non-carriers at equivalent serum T3 levels, because their astrocytic T3 production is doubly compromised (genetic + inflammatory).
+  - Interventions that rescue astrocyte function (e.g., reduced GFAP reactivity, improved astrocyte metabolism) should simultaneously improve both brain energy delivery (cognitive endurance under load) AND markers of brain T3 sufficiency (BDNF levels, oligodendrocyte-related myelin markers).
+
+*Limitations*
+
+  - No study has directly measured astrocytic DIO2 activity in ME/CFS brain tissue.
+  - The "dual failure" framing is a narrative device based on co-localization of two functions in one cell type, not an independently testable claim beyond the two individual hypotheses (energy gate failure + DIO2 impairment). The simpler explanation---that stressed astrocytes lose multiple functions---generates the same predictions. Independent impairment of each pathway cannot be excluded.
+  - Brain T3 measurement in living patients is not currently feasible with standard clinical tools.
+] <spec:astrocyte-dual-failure>
+
 ==== Oligodendrocyte Function
 
 Oligodendrocytes produce the myelin sheaths essential for rapid nerve conduction. Potential abnormalities include demyelination contributing to white matter hyperintensities, impaired remyelination capacity, oxidative damage to oligodendrocytes, and disrupted axon-glial signaling.
@@ -650,6 +702,7 @@ The PEM kindling hypothesis (below) applies a concept from epilepsy and substanc
 ]
 
 === Post-Exertional Malaise and the Kindling Hypothesis
+<sec:pem-kindling>
 
 The clinical observation that each crash lowers the threshold for the next crash—that activities previously tolerated trigger worse symptoms as disease progresses—parallels a phenomenon well-established in neurology: kindling.
 
@@ -707,6 +760,18 @@ _Blocking new kindling triggers is critical:_ Infections are major microglial pr
 
 _Active deprimming requires intervention:_ Merely halting new crashes (pacing) prevents further decline but doesn't reverse existing kindling. If the hypothesis is correct, therapies that actively reverse microglial priming (CSF-1R inhibition to deplete and regenerate microglia, fasting-promoting interventions to reset glial metabolism, neuroplasticity-promoting therapies like low-dose BDNF or photobiomodulation) might restore threshold to baseline over time.
 
+_Pharmacological anti-kindling agents:_ Notably, the very agents developed to prevent kindling in epilepsy may have direct relevance. In epilepsy research, anti-kindling refers to preventing the progressive lowering of seizure thresholds through repeated subthreshold stimulation---the exact analogy proposed for PEM. Several agents demonstrate genuine anti-kindling properties (preventing sensitization development) rather than merely anticonvulsant effects (suppressing established seizures):
+
+  - *Levetiracetam* binds synaptic vesicle protein 2A (SV2A) and shows the strongest anti-kindling evidence of any agent in animal epilepsy models---uniquely, its anti-kindling effects in rat amygdala kindling persist even after drug discontinuation, suggesting true disease modification rather than symptom suppression @Lynch2004levetiracetam. Whether this translates to anti-kindling effects in the proposed PEM context remains entirely unvalidated. Levetiracetam also demonstrates superior microglial suppression compared to valproate and carbamazepine @Itoh2019levetiracetam, directly addressing the microglial priming mechanism proposed in the kindling hypothesis. Its cognitive profile is clean (no impairment), though behavioral effects (irritability in ~13--17%) require monitoring.
+
+  - *Lithium* inhibits GSK-3$beta$ (Ki: 1--2 mM) and is associated with grey matter volume increases of up to 2.56% at 10--12 weeks on MRI---the only mood stabilizer to show this effect @Lyoo2010lithium (though volume changes on MRI may reflect glial proliferation, dendritic branching, or water content shifts rather than neurogenesis per se, and lithium's effects on aquaporin channels could contribute). It upregulates BDNF by 10--28% at subtherapeutic concentrations in cell culture @Dwivedi2016lithiumBDNF, induces mTOR-independent autophagy via inositol monophosphatase inhibition @Sarkar2005lithiumAutophagy, and suppresses microglial activation through TLR4/NF-$kappa$B inhibition in animal models @Wang2022lithiumNeuroinflammation. A 2024 observational meta-analysis found lithium use associated with lower Alzheimer's risk (RR 0.59) and all-cause dementia (RR 0.66), though confounding by surveillance bias in medically monitored psychiatric patients cannot be excluded @Damiano2024lithiumDementia. A Long COVID trial (JAMA Network Open 2024, n=unclear for dose-escalation sub-study) found that doses of 40--45 mg/day (serum 0.18--0.49 mEq/L) improved cognitive dysfunction and fatigue in a post-hoc dose-escalation analysis, while lower doses (10--15 mg/day) were largely ineffective @Guttuso2024lithiumLongCOVID.
+
+  - *Valproic acid (Depakine)* inhibits class I HDACs (IC50 ~0.4 mM for HDAC1), inducing widespread epigenetic reprogramming affecting >1,300 genes @Gottlicher2001VPA. Most remarkably, a randomized controlled trial demonstrated that valproate reopens developmental critical periods in adults---participants acquired absolute pitch, a skill normally learnable only in early childhood @Gervain2013VPA. This creates a transient window of heightened epigenetic plasticity during which neural circuits can be reshaped by experience or training. Valproate also demonstrates general anti-sensitization properties extending beyond epilepsy to opioid and psychostimulant sensitization @Gomes2004VPAantiSensitization. However, working memory impairment and the risk of valproate-induced reversible cognitive decline (VIRCD, mean onset latency 6.87 years) @Armon2023VIRCD are significant concerns for patients already experiencing cognitive dysfunction.
+
+  - *Lamotrigine* reduces presynaptic glutamate release via sodium channel blockade, upregulates both BDNF and Bcl-2, and is widely considered the most cognitive-sparing anticonvulsant---with evidence for actual cognitive enhancement (improved attention and working memory) @Aldenkamp2001lamotrigine @Khan2023lamotrigine. Its neuroprotective profile without cognitive penalty makes it theoretically attractive for ME/CFS patients where brain fog is a cardinal symptom.
+
+These agents represent pharmacological tools that could potentially be repurposed for the specific anti-kindling application proposed in the PEM kindling hypothesis. The distinction between suppression (controlling symptoms while on drug) and true circuit modification (persistent change after withdrawal) is critical: only levetiracetam shows convincing evidence for the latter in kindling models. See Chapter @ch:emerging-therapies for detailed treatment considerations and Chapter @ch:integrated-systems (Section @sec:neuroplasticity-attractor) for the formal attractor dynamics model that predicts multiplicative combination effects from multi-target interventions.
+
 *Falsification criteria*
 
 The kindling hypothesis makes specific predictions that can be empirically refuted. The hypothesis would be falsified by:
@@ -720,6 +785,78 @@ The kindling hypothesis makes specific predictions that can be empirically refut
     - *Lack of threshold reduction with infection-equivalent priming:* If experimental immune activation (e.g., viral challenge or endotoxin administration) that triggers robust microglial and systemic inflammatory responses does not produce measurable threshold lowering in animal models of ME/CFS-like disease, the kindling mechanism would be questionable.
 
 ] <hyp:pem-kindling-sensitization>
+
+#speculation(title: [Pharmacological Critical Period Reopening for ME/CFS Circuit Reset])[
+*Certainty: 0.30.* The adult brain's inability to rewire maladaptive neuroinflammatory circuits may be a treatable barrier to ME/CFS recovery. If ME/CFS involves epigenetically locked microglial activation states and pathological synaptic configurations established during the acute phase, then pharmacologically reopening developmental critical periods---combined with targeted rehabilitation---could enable circuit-level reorganization normally impossible in the adult brain.
+
+*Mechanistic basis*
+
+Three distinct pharmacological pathways can enhance adult neuroplasticity:
+
+_HDAC inhibition (valproate):_ Valproate removes epigenetic brakes on plasticity by inhibiting class I HDACs. In a randomized controlled trial, healthy adults on valproate (500--1000 mg/day for 15 days) acquired absolute pitch---a skill normally only learnable during the childhood critical period @Gervain2013VPA. The mechanism involves dramatic chromatin reorganization at enhancer regions and retrotransposon elements, creating a transient window during which neural circuits become reshapeable by experience. In the visual cortex, valproate restores ocular dominance plasticity that is normally absent in adults. Applied to ME/CFS, this suggests that valproate could create windows during which maladaptive neuroinflammatory circuits become susceptible to remodeling by concurrent anti-inflammatory or rehabilitative interventions.
+
+_GSK-3$beta$ inhibition (lithium):_ Lithium disinhibits multiple transcription factors (CREB, HSF-1, $beta$-catenin), promoting neurogenesis, dendritic remodeling, and new synapse formation. Grey matter increases of 2.56% peak at 10--12 weeks @Lyoo2010lithium, with regional increases up to 10--15% in the cingulate gyrus. These structural changes correlate with clinical improvement (Spearman $rho$ = $minus$0.59 for depression) and are not observed with other mood stabilizers or antipsychotics. Lithium's additional mTOR-independent autophagy induction (via inositol monophosphatase inhibition) @Sarkar2005lithiumAutophagy could simultaneously clear accumulated cellular debris from chronically stressed neurons.
+
+_Thyroid hormone augmentation:_ T3 is the primary signal driving oligodendrocyte precursor cell differentiation into mature myelinating oligodendrocytes. In stroke models, T3-treated mice achieved high functional scores in 73% of cases versus 9% vehicle-treated, without changes in infarct volume---demonstrating plasticity enhancement rather than tissue preservation. T3 also increases dendritic spine density (both mushroom-type and thin spines) and shifts the excitatory/inhibitory balance toward excitation by upregulating GluR2 while downregulating GAD 65/67. In ME/CFS, documented Low T3 Syndrome (Section @sec:thyroid) means that the brain may be operating with actively repressed plasticity genes---unliganded thyroid receptors recruit corepressors that actively suppress transcription, making hypothyroidism worse than mere absence of activation.
+
+*The "window + guide" model*
+
+Critical period reopening alone is insufficient---it creates vulnerability to both beneficial and harmful reorganization. The model requires two components: (1) a plasticity-enhancing agent to open the window, and (2) concurrent targeted input to guide reorganization toward healthy circuit configurations. Possible guided inputs include anti-neuroinflammatory agents (redirecting microglial phenotype during the plastic window), structured cognitive rehabilitation (rebuilding prefrontal circuits), graded autonomic reconditioning (resetting baroreflex setpoints), and sensory enrichment protocols.
+
+*Testable predictions*
+
+  - Valproate or lithium administered alongside anti-neuroinflammatory therapy (e.g., LDN, levetiracetam) should produce greater and more durable symptom improvement than either alone---specifically, Central Sensitization Inventory scores should decrease by >30% with combination versus $lt$15% with anti-inflammatory alone.
+  - PET neuroimaging (TSPO ligand) should show greater reduction in microglial activation when plasticity-enhancing agents are combined with microglial modulators than with modulators alone.
+  - Improvements achieved during pharmacological plasticity windows should show greater persistence after drug withdrawal than improvements from symptomatic treatment alone.
+
+*Limitations*
+
+  - The critical period reopening evidence comes from a single small trial in healthy adults @Gervain2013VPA; no replication exists, and applicability to pathological states is unproven.
+  - Valproate's cognitive side effects (working memory impairment) may compound ME/CFS brain fog, potentially making the treatment window counterproductive if not carefully managed.
+  - No animal model exists for testing critical period reopening in post-infectious neuroinflammatory conditions.
+  - The "window + guide" concept is theoretically appealing but operationally complex: timing the plasticity window, selecting the guide intervention, and preventing harmful rewiring are all unsolved problems.
+] <spec:critical-period-reopening>
+
+#speculation(title: [Low-Dose Lithium as Neuroprotective Agent in ME/CFS])[
+*Certainty: 0.40.* Lithium at doses far below conventional psychiatric ranges (40--45 mg/day lithium aspartate or 5--20 mg elemental lithium via lithium orotate) may provide neuroprotection, microglial modulation, and autophagy enhancement in ME/CFS without the cognitive and renal side effects associated with standard dosing.
+
+*Evidence base*
+
+_Long COVID trial:_ A 2024 JAMA Network Open randomized trial tested lithium aspartate in Long COVID patients @Guttuso2024lithiumLongCOVID. Low doses (10--15 mg/day) were largely ineffective, but a dose-escalation sub-study found that 40--45 mg/day achieving serum concentrations of 0.18--0.49 mEq/L produced improvements in cognitive dysfunction and fatigue. These serum levels are well below the standard therapeutic range (0.6--1.2 mEq/L) but sufficient for partial GSK-3$beta$ inhibition and BDNF upregulation.
+
+_Subtherapeutic neuroprotection:_ In cortical neurons, lithium at 0.02 mM increased intracellular BDNF by 10%; in hippocampal neurons, increases of 28% were observed at subtherapeutic concentrations @Dwivedi2016lithiumBDNF. Even doses 400-fold below conventional clinical ranges show neuroprotective potential in Alzheimer's models. A microdose trial (300 $mu$g/day for 15 months) stabilized MMSE scores in Alzheimer's patients while placebo declined from ~20 to ~14.
+
+_Brain lithium depletion:_ A 2025 Nature study found lithium was the only metal significantly reduced in the brain of individuals with mild cognitive impairment, raising the possibility that lithium functions as an essential neuroprotective micronutrient @Bhatt2025lithiumBrain.
+
+*Proposed ME/CFS mechanisms*
+
+At sub-therapeutic doses, lithium likely acts through: (1) partial GSK-3$beta$ inhibition sufficient for BDNF upregulation and Wnt/$beta$-catenin activation without complete enzyme blockade; (2) inositol monophosphatase inhibition driving mTOR-independent autophagy, potentially clearing accumulated cellular debris; (3) partial TLR4/NF-$kappa$B suppression reducing microglial pro-inflammatory signaling; and (4) NLRP3 inflammasome modulation. These converging mechanisms address multiple nodes of ME/CFS pathophysiology: neuroinflammation, impaired autophagy, reduced neurotrophic support, and grey matter loss.
+
+*Testable predictions*
+
+  - ME/CFS patients treated with lithium orotate (10--20 mg elemental, ~equivalent to 40--45 mg lithium aspartate) for 8--12 weeks should show improvement on cognitive testing (specifically processing speed and working memory) compared to baseline.
+  - Serum BDNF levels should increase measurably at these sub-therapeutic doses.
+  - If structural MRI is feasible, grey matter volume should not decline (and may increase) over 6--12 months of treatment.
+
+*Safety considerations*
+
+Even at low doses, lithium requires monitoring of thyroid function (TSH) and renal function (creatinine), as it inhibits thyroid hormone release and is renally cleared. The documented Low T3 Syndrome in ME/CFS (Section @sec:thyroid) creates a specific interaction: lithium's suppression of thyroid function could worsen an already-compromised thyroid axis. This argues for concurrent thyroid monitoring and potentially prophylactic T3 co-supplementation in ME/CFS patients on even low-dose lithium.
+
+#warning-env(title: [Lithium Safety: Drug Interactions and Contraindications])[
+Although lithium orotate is sold over-the-counter as a supplement, this does *not* imply it is safe to self-initiate. Even at low doses:
+
+    - *Drug interactions*: NSAIDs (ibuprofen, naproxen), ACE inhibitors, and thiazide diuretics substantially raise lithium levels and can precipitate toxicity. ME/CFS patients frequently use these medications.
+    - *Renal impairment*: Contraindicated if eGFR < 30 mL/min. Baseline renal function must be checked before initiation.
+    - *Dehydration risk*: Diarrhoea, excessive sweating, or reduced fluid intake (common during PEM crashes) requires temporary dose reduction or interruption, as lithium is renally cleared and dehydration concentrates serum levels.
+    - *Do not self-initiate*: Physician baseline evaluation including renal function, thyroid panel, and medication review is required before starting any lithium formulation.
+]
+
+*Limitations*
+
+  - The Long COVID trial is not directly in ME/CFS; overlap with ME/CFS populations is substantial but not complete.
+  - Lithium orotate (the supplement form) lacks the pharmacokinetic characterization of lithium carbonate; claims of superior BBB penetration via OATP1A2 transport require verification.
+  - No ME/CFS-specific lithium trial exists; historical attempts used standard psychiatric dosing and were negative.
+] <spec:low-dose-lithium>
 
 == Autonomic Nervous System Dysfunction
 <sec:ans-pathophysiology>
@@ -801,7 +938,7 @@ Punch skin biopsies with intraepidermal nerve fiber density (IENFD) measurement 
     - *Reduced IENFD*: Multiple studies report decreased nerve fiber density in ME/CFS patients @Oaklander2013sfn @Grayston2019sfn
     - *Correlation with symptoms*: Lower IENFD correlates with pain severity and autonomic dysfunction
     - *Distal predominance*: Typical length-dependent pattern with greater abnormalities in feet than thighs
-    - *Prevalence*: Estimates range from 30–60% of ME/CFS patients meeting criteria for SFN. Oaklander et al. @Oaklander2013sfn found 41% of fibromyalgia patients (overlapping with ME/CFS) had reduced IENFD diagnostic for SFN. A meta-analysis by Grayston et al. @Grayston2019sfn reported 49% pooled prevalence (95% CI: 38-60%) of small fiber pathology in fibromyalgia across 8 studies
+    - *Prevalence*: Estimates range from 30--80% of ME/CFS patients meeting criteria for SFN, with the wide range reflecting variability in diagnostic methods (skin biopsy IENFD vs sudomotor testing), disease definition heterogeneity, and whether fibromyalgia-overlapping cohorts are included @Oaklander2022SFN @Grayston2019sfn. Oaklander et al. @Oaklander2013sfn found 41% of fibromyalgia patients (overlapping with ME/CFS) had reduced IENFD diagnostic for SFN. A meta-analysis by Grayston et al. @Grayston2019sfn reported 49% pooled prevalence (95% CI: 38-60%) of small fiber pathology in fibromyalgia across 8 studies
 
 ==== Autonomic Testing
 
@@ -850,6 +987,10 @@ The contrast between abnormal small fiber findings and relatively preserved larg
 
 === Treatment of Small Fiber Neuropathy
 <sec:sfn-treatment>
+
+#limitation(title: [Clinical Context, Not Treatment Advice])[
+The treatment guidance below is provided for clinical context within a pathophysiology chapter. All medications listed are prescription-only (several off-label in ME/CFS). Prescribers should consult current neuropathic pain guidelines (e.g. Finnerup et al.\ 2015 @Finnerup2015neuropathic) and the patient's full medication list before initiation. This is not a substitute for individualised clinical assessment.
+]
 
 Management of SFN in ME/CFS requires addressing both symptomatic relief and underlying mechanisms. Treatment strategies must be adapted for ME/CFS-specific considerations including medication sensitivity and post-exertional malaise.
 
@@ -1099,6 +1240,8 @@ A landmark 2025 study demonstrated that dural mast cells regulate CSF dynamics a
 *Certainty: 0.25.*
 
 If dural mast cells regulate CSF dynamics at ACE points @Christodoulides2024meningitis, then chronic mast cell dysfunction—as in the ME/CFS-associated MCAS phenotype (Section @sec:mcas)—could disrupt CSF flow regulation at these exit points, directly impairing glymphatic clearance. This would connect mast cell pathology to waste accumulation and cognitive symptoms via a non-inflammatory mechanism, distinct from the systemic inflammatory effects of mast cell mediator release. The certainty is low because the Christodoulides et al.\ finding is from a murine model, has not been replicated, and the extension to chronic MCAS is entirely extrapolated—no study has examined dural mast cell function in ME/CFS or MCAS patients.
+
+*Testable prediction:* ME/CFS patients with comorbid MCAS show reduced CSF flow velocity (phase-contrast MRI) or impaired glymphatic clearance markers compared to ME/CFS patients without MCAS, and mast cell stabiliser treatment partially restores CSF flow metrics. Falsified if MCAS-positive and MCAS-negative ME/CFS patients show equivalent glymphatic function on imaging.
 ] <spec:mcas-glymphatic>
 
 #speculation(title: [Meningitis as Disproportionate Neurological Threat in ME/CFS: The Double Vulnerability Hypothesis])[

@@ -22,7 +22,7 @@ The hypothalamic-pituitary-adrenal axis represents one of the most extensively s
 // Insert Figure: ME/CFS HPA Axis Dysregulation
 #include "../figures/fig-hpa-axis-mecfs.typ"
 
-Figures @fig:hpa-axis-normal and @fig:hpa-axis-mecfs illustrate the characteristic pattern of HPA axis dysfunction observed in ME/CFS. Unlike the robust circadian cortisol rhythm and responsive feedback regulation seen in healthy individuals, ME/CFS patients demonstrate a distinct pattern of dysregulation. This involves blunted corticotropin-releasing hormone (CRH) secretion from the hypothalamus, reduced adrenocorticotropic hormone (ACTH) response from the pituitary, flattened diurnal cortisol rhythm with loss of the normal morning peak, and paradoxically enhanced negative feedback sensitivity. This constellation of abnormalities distinguishes ME/CFS from both healthy states and primary adrenal insufficiency (Addison's disease), suggesting a unique form of central HPA axis hypofunction.
+Figures @fig:hpa-axis-normal and @fig:hpa-axis-mecfs illustrate the characteristic pattern of HPA axis dysfunction observed in ME/CFS. Unlike the robust circadian cortisol rhythm and responsive feedback regulation seen in healthy individuals, ME/CFS patients demonstrate a distinct pattern of dysregulation. This involves blunted corticotropin-releasing hormone (CRH) secretion from the hypothalamus, reduced adrenocorticotropic hormone (ACTH) response from the pituitary, flattened diurnal cortisol rhythm with loss of the normal morning peak, and paradoxically enhanced negative feedback sensitivity. This constellation of abnormalities distinguishes ME/CFS from both healthy states and primary adrenal insufficiency (Addison's disease), suggesting a unique form of central HPA axis hypofunction @Tomas2017 @Papadopoulos2012HPA.
 
 === HPA Axis Abnormalities
 
@@ -38,7 +38,7 @@ Recent sex-stratified analysis by Pipper et al.\ (2024) revealed that cortisol d
 
 The central components of the HPA axis—CRH from the hypothalamus and ACTH from the pituitary—show complex abnormalities that do not fit simple models of endocrine failure. Studies employing CRH stimulation tests have yielded inconsistent results. Some report normal ACTH and cortisol responses to exogenous CRH administration, while others document blunted ACTH responses despite adequate CRH stimulation. Still others find normal ACTH responses but reduced cortisol output, suggesting adrenal hyposensitivity. These inconsistencies likely reflect the heterogeneity of ME/CFS patient populations, differences in disease duration and severity, and the limitations of single-timepoint testing to capture dynamic regulatory dysfunction.
 
-The most consistent finding across studies is evidence of enhanced negative feedback sensitivity. Dexamethasone suppression tests demonstrate that low doses of synthetic glucocorticoid produce greater and more prolonged suppression of cortisol secretion in ME/CFS patients compared to controls. This suggests that the hypothalamus and pituitary remain exquisitely sensitive to glucocorticoid feedback signals, inappropriately dampening HPA axis output even when cortisol levels are already low-normal. This pattern resembles the neuroendocrine adaptation seen in chronic stress conditions but persists inappropriately in ME/CFS despite the clinical need for robust stress responses.
+The most consistent finding across studies is evidence of enhanced negative feedback sensitivity @Papadopoulos2012HPA @Tomas2017. Dexamethasone suppression tests demonstrate that low doses of synthetic glucocorticoid produce greater and more prolonged suppression of cortisol secretion in ME/CFS patients compared to controls. This suggests that the hypothalamus and pituitary remain exquisitely sensitive to glucocorticoid feedback signals, inappropriately dampening HPA axis output even when cortisol levels are already low-normal. This pattern resembles the neuroendocrine adaptation seen in chronic stress conditions but persists inappropriately in ME/CFS despite the clinical need for robust stress responses.
 
 ==== Diurnal Rhythm Disruption
 
@@ -123,6 +123,27 @@ The direction of causality between HPA axis abnormalities and ME/CFS remains unr
 
 ]
 
+==== Structural Adrenal Atrophy
+<sec:adrenal-atrophy>
+
+The mechanisms described above---enhanced glucocorticoid feedback, cytokine-mediated suppression, steroidogenic enzyme dysfunction, and post-viral pituitary injury---are primarily functional or signalling-level dysregulations. A fifth mechanism operates at the structural level: physical shrinkage of the adrenal glands themselves.
+
+#achievement(title: [Adrenal Glands Approximately 50% Smaller in ME/CFS])[
+Scott and Dinan (1999) performed CT imaging of adrenal glands in 8 ME/CFS patients and healthy controls. All 8 patients had adrenal glands approximately half the volume of controls @ScottDinan1999adrenal. All patients also showed lower 24-hour urinary free cortisol and blunted cortisol response to ACTH stimulation testing, consistent with reduced adrenal cortical mass limiting both hormone storage and synthesis capacity.
+
+Study: (cross-sectional CT imaging, $n = 8$ ME/CFS vs.\ controls, Psychoneuroendocrinology 1999; certainty: 0.45---striking finding but very small sample, not yet replicated).
+] <ach:adrenal-shrinkage>
+
+The proposed mechanism is trophic: ACTH acts as a growth stimulus for the adrenal cortex. Chronically low ACTH output (from any of the upstream HPA dysfunction mechanisms) removes this trophic signal, leading to gradual adrenocortical atrophy over months to years. This creates a self-reinforcing vicious cycle: HPA dysfunction $arrow.r$ low ACTH $arrow.r$ adrenal atrophy $arrow.r$ reduced cortisol capacity $arrow.r$ inadequate stress responses $arrow.r$ further HPA suppression via negative feedback.
+
+This structural finding provides an important differential against major depression, where the HPA axis is _hyperactive_ and adrenal glands _enlarge_ due to chronic ACTH overstimulation. The opposite structural pattern in ME/CFS (hypoactive HPA, shrunken adrenals) argues against ME/CFS being a depressive disorder and supports a distinct neuroendocrine pathology.
+
+#limitation(title: [Replication Urgently Needed])[
+The Scott and Dinan finding has not been independently replicated in 25+ years. The sample size ($n = 8$) precludes confident generalisation. Modern imaging studies with larger cohorts and correlation to illness duration, severity, and hormonal profiles are needed before structural atrophy can be considered an established feature of ME/CFS.
+]
+
+*DHEA deficiency prevalence:* Nathan (2013) @Nathan2013healing, drawing on clinical experience with over 5,000 patients, reported that more than 90% of fibromyalgia and ME/CFS patients are DHEA-deficient, "often to a profound degree." DHEA supplementation has shown promising results in ME/CFS (see Section on Testosterone and Androgens below for details). Interpretation of DHEA results requires age-appropriate reference ranges, as levels naturally decline from a peak in adolescence; a result appearing "normal" on wide laboratory ranges may represent functional deficiency for a younger patient.
+
 === Clinical Consequences
 
 The HPA axis abnormalities documented in ME/CFS produce wide-ranging clinical effects that contribute directly to the cardinal symptoms of the disease. Understanding these consequences illuminates why seemingly minor hormonal changes cause profound functional impairment.
@@ -167,12 +188,12 @@ Integrating low cortisol with evidence of baseline gut permeability @GutPermeab
 == Thyroid Function
 <sec:thyroid>
 
-Thyroid dysfunction represents a critical consideration in ME/CFS for two distinct reasons: the substantial clinical overlap between hypothyroidism and ME/CFS symptoms creates diagnostic challenges requiring careful differentiation, and ME/CFS patients exhibit a specific pattern of thyroid abnormalities—the “Low T3 Syndrome”—that occurs despite normal TSH levels and complicates interpretation of standard thyroid function tests. Understanding these thyroid-related issues is essential for appropriate diagnosis and management.
+Thyroid function has been investigated in ME/CFS for two distinct reasons: the substantial clinical overlap between hypothyroidism and ME/CFS symptoms creates diagnostic challenges requiring careful differentiation, and ME/CFS patients exhibit a specific pattern of thyroid abnormalities—the “Low T3 Syndrome”—that occurs despite normal TSH levels and complicates interpretation of standard thyroid function tests. Awareness of these thyroid-related issues may aid in appropriate differential diagnosis and in interpreting thyroid function tests in this population.
 
 === The Low T3 Syndrome in ME/CFS
 
-#achievement(title: [Low T3 Syndrome as Distinct ME/CFS Feature])[
-Ruiz-Núñez et al.\ (2018) conducted a rigorous case-control study comparing 98 ME/CFS patients to 99 healthy controls and documented a distinctive pattern of thyroid hormone abnormalities @ruiznunez2018thyroid. ME/CFS patients showed 16% prevalence of free T3 (FT3) below the reference range compared to only 7% in controls (odds ratio 2.56). They exhibited significantly lower FT3, total T4 (TT4), and total T3 (TT3) concentrations, along with reduced T3/T4 ratio indicating impaired peripheral conversion of T4 to active T3. The percentage of reverse T3 (rT3), an inactive T3 isomer, was elevated, with increased rT3/TT3 ratio reflecting preferential conversion to the inactive form. Estimated deiodinase activity—the enzyme responsible for converting T4 to T3—showed a 14.4% reduction.
+#clinical-finding(title: [Low T3 Syndrome in a Subset of ME/CFS Patients])[
+Ruiz-Núñez et al.\ (2018) conducted a case-control study comparing 98 ME/CFS patients to 99 healthy controls and documented a pattern of thyroid hormone abnormalities @ruiznunez2018thyroid. ME/CFS patients showed 16% prevalence of free T3 (FT3) below the reference range compared to only 7% in controls (odds ratio 2.56). They exhibited significantly lower FT3, total T4 (TT4), and total T3 (TT3) concentrations, along with reduced T3/T4 ratio indicating impaired peripheral conversion of T4 to active T3. The percentage of reverse T3 (rT3), an inactive T3 isomer, was elevated, with increased rT3/TT3 ratio reflecting preferential conversion to the inactive form. Estimated deiodinase activity—the enzyme responsible for converting T4 to T3—showed a 14.4% reduction.
 
 Critically, these abnormalities occurred while thyroid-stimulating hormone (TSH) levels remained within the normal reference range. Standard thyroid screening tests would therefore classify these patients as “euthyroid” (normal thyroid function) despite functionally significant thyroid hormone deficits.
 ] <ach:low-t3>
@@ -181,44 +202,151 @@ Critically, these abnormalities occurred while thyroid-stimulating hormone (TSH)
 The Low T3 pattern (Ruiz-Núñez 2018, n=98 vs.\ 99) is the only ME/CFS-specific thyroid study. However, the Low T3/euthyroid sick pattern is well-established in other chronic diseases, providing indirect support. ME/CFS-specific replication with standardized thyroid panels is needed.
 ]
 
-This pattern resembles the “non-thyroidal illness syndrome” (NTIS) or “euthyroid sick syndrome” observed in acute critical illness, starvation, and chronic diseases. However, unlike the transient thyroid changes in acute illness that normalize with recovery, the Low T3 Syndrome in ME/CFS persists chronically and may represent a maladaptive response that perpetuates rather than resolves the disease state.
+This pattern resembles the “non-thyroidal illness syndrome” (NTIS) or “euthyroid sick syndrome” observed in acute critical illness, starvation, and chronic diseases such as heart failure and COPD. Unlike the transient thyroid changes in acute illness that normalise with recovery, the Low T3 Syndrome in ME/CFS persists chronically---as it also does in heart failure and other chronic conditions where the adaptive-vs-maladaptive question remains equally unresolved.
 
 #limitation(title: [Low T3 Syndrome: Adaptive Response vs.\ Pathological Driver])[
-Whether the Low T3 pattern in ME/CFS represents a maladaptive state requiring correction or an appropriate protective adaptation (reducing metabolic demand in the face of energy deficiency) has not been determined:
+Whether the Low T3 pattern in ME/CFS represents a maladaptive state requiring correction or an appropriate protective adaptation (reducing metabolic demand in the face of energy deficiency) has not been determined. This distinction is fundamental: the sections below build a mechanistic case for T3 deficiency as a contributor to mitochondrial dysfunction, but an equally plausible mechanistic case exists for the opposite interpretation.
 
-    - The characterisation rests on a single ME/CFS-specific study (Ruiz-N\'{u}\ {n}ez 2018, n=98 vs.\ 99). The Low T3/NTIS pattern itself is well-established in other chronic diseases, but ME/CFS-specific mechanisms remain unvalidated.
-    - No interventional study has demonstrated that correcting Low T3 (via T3 supplementation) improves ME/CFS outcomes without adverse effects—mixed clinical results are equally consistent with the adaptation hypothesis.
+*The adaptation hypothesis:* In acute critical illness, NTIS is understood as an energy-conservation response that reduces metabolic demand when ATP supply is compromised. If ME/CFS involves chronic energy deficiency (Chapter @ch:energy-metabolism), then Low T3 may be _protective_: reducing mitochondrial biogenesis, supercomplex assembly, and metabolic rate to match the reduced energy supply. In this model, correcting T3 without first resolving the underlying energy deficit would be harmful---like revving an engine with insufficient fuel. Heart failure and COPD show the same persistent NTIS pattern, and T3 supplementation trials in heart failure have yielded mixed results, consistent with this concern.
+
+*The driver hypothesis:* The sections below develop the alternative---that T3 deficiency actively worsens mitochondrial dysfunction in a self-reinforcing cycle. The reader should note that this hypothesis receives more space because its mechanistic details are more elaborated in the literature, _not_ because the evidence favours it over the adaptation hypothesis. Both interpretations are equally consistent with the available data. Only interventional studies (T3 supplementation in ME/CFS with mitochondrial endpoints) can distinguish between them.
+
+    - The characterisation rests on a single ME/CFS-specific study (Ruiz-Núñez 2018, n=98 vs.\ 99). The Low T3/NTIS pattern itself is well-established in other chronic diseases, but ME/CFS-specific mechanisms remain unvalidated.
+    - No interventional study has demonstrated that correcting Low T3 improves ME/CFS outcomes without adverse effects---mixed clinical results are equally consistent with the adaptation hypothesis.
     - The proposed cytokine-mediated deiodinase suppression mechanism is inferred from general immunology; deiodinase activity has not been directly measured in ME/CFS patients.
 
 ]
 
 === Mechanisms of Impaired T4 to T3 Conversion
 
-The conversion of thyroxine (T4, the major thyroid hormone secreted by the thyroid gland) to triiodothyronine (T3, the metabolically active form) occurs primarily in peripheral tissues through the action of deiodinase enzymes. Three deiodinase isoforms exist. Type 1 deiodinase (D1) in liver and kidney produces most circulating T3. Type 2 deiodinase (D2) in brain, pituitary, and brown fat produces local T3 for tissue-specific needs. Type 3 deiodinase (D3) in multiple tissues inactivates T4 and T3 by converting them to reverse T3 (rT3) and T2.
+The conversion of thyroxine (T4, the major thyroid hormone secreted by the thyroid gland) to triiodothyronine (T3, the metabolically active form) occurs primarily in peripheral tissues through the action of deiodinase enzymes. Three deiodinase isoforms exist, all selenoproteins requiring selenocysteine at their catalytic site. Type 1 deiodinase (DIO1) in liver and kidney contributes a substantial fraction of circulating T3 via outer-ring deiodination. Type 2 deiodinase (DIO2) in brain, pituitary, thyroid, skeletal muscle, heart, and adipose tissue produces local T3 for tissue-specific needs and contributes comparably to circulating T3 in humans. Type 3 deiodinase (DIO3) in multiple tissues inactivates T4 and T3 by inner-ring deiodination, converting T4 to reverse T3 (rT3) and T3 to the inactive isomer 3,3$prime$-T2 (distinct from the biologically active 3,5-T2, which is produced from T3 by DIO1/DIO2 outer-ring deiodination; see Section @sec:t2-diiodothyronine).
 
 #fhypothesis(title: [Cytokine-Mediated Deiodinase Suppression], falsifiability: [weakly], justification: [Falsified if deiodinase enzyme activity is normal despite elevated IL-6/TNF-$alpha$, or if patients with documented deiodinase suppression show normal free T3 and reverse T3 levels])[
-The chronic low-grade inflammation documented in ME/CFS (Chapter @ch:immune-dysfunction) likely suppresses deiodinase enzyme activity through multiple mechanisms. Pro-inflammatory cytokines, particularly IL-6 and TNF-$alpha$, directly inhibit D1 and D2 expression and activity while upregulating D3, shifting the balance toward production of inactive reverse T3 rather than active T3. Oxidative stress, elevated in ME/CFS (Chapter @ch:energy-metabolism), damages selenocysteine residues essential for deiodinase enzymatic function; all deiodinases are selenium-dependent enzymes. Additionally, the mitochondrial dysfunction documented in ME/CFS may impair ATP-dependent cellular uptake of T4, reducing substrate availability for conversion to T3 @ruiznunez2018thyroid.
+The chronic low-grade inflammation documented in ME/CFS (Chapter @ch:immune-dysfunction) likely suppresses deiodinase enzyme activity through multiple mechanisms. Pro-inflammatory cytokines, particularly IL-6 and TNF-$alpha$, directly inhibit DIO1 and DIO2 expression and activity while upregulating DIO3, shifting the balance toward production of inactive reverse T3 rather than active T3. Sustained oxidative stress, documented in ME/CFS (Chapter @ch:energy-metabolism), may irreversibly oxidise the catalytic selenocysteine residues of deiodinases to seleninic acid, though this requires severe and sustained ROS levels beyond what has been directly measured in ME/CFS tissues. Additionally, the mitochondrial dysfunction documented in ME/CFS may impair ATP-dependent cellular uptake of T4, reducing substrate availability for conversion to T3 @ruiznunez2018thyroid.
 ] <hyp:deiodinase-suppression>
 
-This mechanism explains why simply increasing thyroid hormone replacement dose (giving more T4) often fails to improve symptoms in ME/CFS patients: the limiting factor is not T4 availability but rather the capacity to convert T4 to active T3 at the cellular level.
+If this hypothesis is correct, it would offer one possible explanation for why increasing thyroid hormone replacement dose (giving more T4) often fails to improve symptoms in ME/CFS patients: the limiting factor would be not T4 availability but rather the capacity to convert T4 to active T3 at the cellular level. However, T4 treatment failure in ME/CFS has multiple competing explanations, including symptom overlap with non-thyroidal causes, the possibility that Low T3 is a protective adaptation, and the fundamental question of whether thyroid dysfunction is relevant to a given patient's presentation.
 
 === Tissue-Level Thyroid Hormone Resistance
 
 Beyond impaired T4 to T3 conversion, emerging evidence suggests that some ME/CFS patients may exhibit functional thyroid hormone resistance at the cellular level. This could involve reduced expression or function of thyroid hormone transporters (MCT8, MCT10) that move hormones into cells, altered expression of thyroid hormone receptors (TR$alpha$, TR$beta$) in target tissues, or impaired receptor-coactivator interactions that reduce transcriptional responses to thyroid hormone binding.
 
-<obs:selenium-antibodies>
-A Netherlands study identified markedly elevated selenium autoantibodies in 9.6–15.6% of ME/CFS patients compared to only 0.9–2.0% of healthy controls. Selenium is essential for deiodinase function, selenoprotein synthesis, and thyroid hormone metabolism. Autoantibodies against selenium transport proteins could create an acquired form of thyroid hormone resistance by impairing the selenium-dependent enzymatic machinery required for thyroid hormone activation and action.
-This finding suggests a potential autoimmune mechanism contributing to thyroid dysfunction in a subset of ME/CFS patients and raises the possibility that interventions targeting selenium metabolism might benefit this subgroup.
+#clinical-finding(title: [Selenoprotein P Autoantibodies in a Subset of ME/CFS Patients])[
+Sun et al.\ (2023) @Sun2023selenop identified autoantibodies to selenoprotein P (SELENOP-aAb) in 9.6--15.6% of ME/CFS patients compared to only 0.9--2.0% of healthy controls---an approximately 10-fold enrichment, though this means 84--90% of ME/CFS patients do _not_ carry these autoantibodies. Selenoprotein P is the major selenium transport protein; autoantibodies against it may impair selenium delivery to tissues expressing SELENOP receptors (brain, skeletal muscle, kidney, bone). SELENOP-aAb--positive patients showed the lowest deiodinase activity (SPINA-GD index: 13.1 vs 15.8 in controls, $p < 0.001$), lower FT3/FT4 ratio (27.7 vs 34.0, $p < 0.001$), lower TT3/TT4 ratio (1.84 vs 2.19, $p = 0.005$), and lower urinary iodine (43.2 vs 89.0 $mu$g/L, $p < 0.001$). The normal correlation between serum selenium and GPx3 activity was abolished in SELENOP-aAb--positive patients, indicating impaired selenium utilisation despite adequate serum selenium levels.
+
+These findings suggest---but do not yet establish---a possible autoimmune mechanism for acquired thyroid hormone resistance in the SELENOP-aAb--positive subgroup: SELENOP-aAb $arrow.r$ impaired tissue selenium delivery $arrow.r$ intracellular selenium deficiency $arrow.r$ reduced DIO2 catalytic activity $arrow.r$ impaired local T4-to-T3 conversion $arrow.r$ tissue-level hypothyroidism despite normal serum TSH and T4. The intermediate steps (tissue selenium delivery, intracellular selenium deficiency) are inferred from general selenoprotein biology; none have been directly measured in ME/CFS tissue. If confirmed, this mechanism would explain why standard thyroid function tests (TSH, FT4) appear normal in these patients while target tissues may be functionally hypothyroid. The potential downstream mitochondrial consequences are discussed in Section @sec:thyroid-mito-regulation of Chapter @ch:energy-metabolism.
+] <ach:selenop-autoantibodies>
+
+#warning-env(title: [Replication Status: Not Yet Replicated])[
+Single study (Sun et al.\ 2023, $n = 167$ ME/CFS across two cohorts, $n = 545$ controls). The SELENOP-aAb assay used an in-house ELISA; standardised commercial assays are not available. The functional consequence of SELENOP-aAb on tissue selenium delivery is inferred from the biomarker pattern (reduced SPINA-GD, lost Se-GPx3 correlation) but has not been directly measured via tissue biopsy. Independent replication with direct selenium tissue measurement is required.
+]
+
+==== Selenium Autoantibodies: Potential Implications for Brain T3 Availability
+
+The implications of selenium autoantibodies extend beyond systemic thyroid hormone metabolism to brain neuroplasticity specifically. All three deiodinases (DIO1, DIO2, DIO3) are selenoproteins requiring selenocysteine at their catalytic site. DIO2, expressed at ~50-fold higher levels in astrocytes than other brain cells, is the brain's primary T3 source (Section @sec:astrocyte-t3-factory in Chapter @ch:neurological). Selenium autoantibodies that impair selenium transport would reduce DIO2 catalytic activity in astrocytes, creating a brain-specific T3 deficit that compounds the systemic Low T3 Syndrome.
+
+Additionally, selenium is required for glutathione peroxidases (GPx1--GPx4), thioredoxin reductases, and selenoprotein P---all of which protect neurons against oxidative stress. If SELENOP autoantibodies impair selenium availability in brain tissue (which has not been directly measured), this could in principle affect both antioxidant defence (via GPx) and thyroid hormone activation (via DIO2)---though the magnitude and clinical significance of each effect remain speculative.
+
+#speculation(title: [Selenium Autoantibody-Defined ME/CFS Subgroup with Impaired Neuroplasticity])[
+*Certainty: 0.25.* The 9.6--15.6% of ME/CFS patients with selenium autoantibodies may represent a clinically identifiable subgroup with autoimmune-mediated impairment of brain neuroplasticity. These patients would be predicted to show: (a) more severe cognitive dysfunction relative to their systemic disease markers; (b) disproportionately poor response to T4 monotherapy (because DIO2 cannot convert it to T3); (c) preferential response to direct T3 supplementation (bypassing DIO2 entirely); and (d) potential benefit from selenium supplementation to partially overcome the autoantibody-mediated transport deficit.
+
+*Testable prediction:* ME/CFS patients stratified by selenium autoantibody status should show divergent cognitive outcomes with T3 versus T4 supplementation---autoantibody-positive patients should improve more with T3 than T4, while autoantibody-negative patients may respond comparably to either.
+
+*Null prediction:* The same data pattern (impaired DIO2 in a subgroup) could equally indicate that SELENOP-aAb--positive patients are simply more severely ill and respond to any effective treatment, not specifically T3 or selenium. If SELENOP-aAb status does not predict differential treatment response, the subgroup distinction has prognostic but not therapeutic significance.
+] <spec:selenium-neuroplasticity>
+
+=== Thyroid Hormones and Brain Neuroplasticity
+<sec:thyroid-neuroplasticity>
+
+Beyond systemic metabolic effects, T3 plays roles in adult brain neuroplasticity (reviewed from general hypothyroid models below). If the Low T3 Syndrome documented above (Section @sec:thyroid) produces tissue-level T3 deficiency in the brain---which has not been measured in ME/CFS patients---it could in principle affect neurological function. The subsections below describe myelination, synaptic plasticity, and microglial regulation separately for clarity, but these are not independent lines of evidence: all are downstream predictions of the same T3-deficit premise.
+
+==== T3 as Myelination Signal
+
+T3 is the primary signal driving oligodendrocyte precursor cell (OPC) differentiation into mature, myelin-producing oligodendrocytes. OPC exit from the cell cycle is T3-dependent, mediated through E2F1 repression and Klf9 induction. While this role was initially characterized in development, adult OPCs retain the capacity to generate new oligodendrocytes, and T3 promotes remyelination in animal demyelination models. A Phase I clinical trial of liothyronine in multiple sclerosis established safety and dosing but was not designed or powered to measure remyelination outcomes @Wooliscroft2020liothyronineMS; whether T3 promotes remyelination in humans remains untested. If ME/CFS involves subclinical demyelination or impaired myelin maintenance---consistent with the white matter abnormalities documented on neuroimaging---then low T3 could in principle compromise the brain's capacity for myelin repair, though this chain of reasoning is speculative.
+
+==== T3 and Synaptic Plasticity
+
+Long-term T3 administration increases dendritic spine density in cortical layers II/III, including both mushroom-type (mature, stable) and thin (newly forming, plastic) spines. T3 upregulates GluR2 (AMPA receptor subunit) in peri-infarct cortex while downregulating GABAergic inhibition (GAD 65/67, parvalbumin-positive interneuron activity), shifting the excitatory/inhibitory balance toward excitation. In murine stroke models, T3-treated mice achieved higher functional recovery scores (73% vs 9% vehicle-treated), without changes in infarct volume---suggesting plasticity enhancement rather than tissue preservation. However, stroke involves acute large lesions requiring fundamentally different repair biology from the chronic neuroinflammatory context of ME/CFS, and effect sizes from murine stroke models routinely fail to translate to human trials. Whether any comparable plasticity effects occur in chronic neuroinflammatory conditions is unknown.
+
+Adult-onset hypothyroidism significantly impairs long-term potentiation (LTP) at hippocampal synapses and decreases expression of MAPK/ERK-CREB and Ca$""^(2+)$/calmodulin pathway components essential for memory consolidation. T3 replacement restores LTP and associative learning. By inference from these general hypothyroid findings (no ME/CFS-specific LTP data exist), the Low T3 Syndrome in ME/CFS could impair synaptic plasticity relevant to cognitive function and recovery-associated circuit reorganisation---though this causal chain is entirely inferential.
+
+==== T3 and Neuroinflammation: The Vicious Cycle
+
+#speculation(title: [T3-BDNF-Microglial Vicious Cycle in ME/CFS])[
+*Certainty: 0.40.* The Low T3 Syndrome in ME/CFS may drive a self-perpetuating neuroinflammatory cycle: low T3 reduces BDNF expression, diminishing PI3K-Akt signaling that normally inhibits pro-inflammatory (M1) microglial polarization. M1 microglia release IL-6 and TNF-$alpha$, which further suppress deiodinase DIO2 activity while upregulating inactivating DIO3, deepening the T3 deficit. This cycle---inflammation $arrow.r$ low T3 $arrow.r$ reduced BDNF $arrow.r$ M1 microglia $arrow.r$ more inflammation---may represent a self-sustaining attractor state that persists long after the initial infectious trigger has resolved.
+
+*Evidence*
+
+  - Hypothyroidism promotes M1 microglial polarization via BDNF-mediated PI3K-Akt pathway inhibition in animal models @Ge2024hypothyroidismMicroglia.
+  - T3 treatment reverses cognitive impairment and reduces microglial activation (Iba-1), GFAP expression, and pro-inflammatory cytokines (TNF-$alpha$, IL-6, IL-1$beta$) in hippocampus.
+  - In Alzheimer's models, brain hypothyroidism (reduced DIO2 and local T3) silences the disease-associated microglia (DAM) population, impairing amyloid clearance; T3 supplementation rescued both microglial function and memory @Chamas2024brainHypothyroidismAD.
+  - ME/CFS patients show a cytokine profile (elevated IL-6, TNF-$alpha$) known to suppress DIO1/DIO2 and upregulate DIO3 @ruiznunez2018thyroid.
+
+*Breaking the cycle*
+
+If this vicious cycle model is correct, T3 supplementation could break it at the thyroid hormone node: directly providing T3 bypasses the impaired DIO2 conversion, restoring BDNF levels, re-establishing PI3K-Akt inhibition of M1 polarization, and allowing microglial phenotype to shift toward surveillance. Critically, this predicts that T3 supplementation should reduce neuroinflammatory markers---not merely improve thyroid-related symptoms---making it distinguishable from simple metabolic correction.
+
+*Testable predictions*
+
+  - ME/CFS patients with documented Low T3 Syndrome treated with liothyronine (25--37.5 $mu$g/day) should show reduction in serum IL-6 and TNF-$alpha$ at 8--12 weeks, in addition to cognitive improvement.
+  - CSF or plasma BDNF should increase with T3 supplementation proportionally to the improvement in free T3 levels.
+  - Patients with the DIO2 Thr92Ala polymorphism (present in ~50% of the population), which impairs local brain T3 production, should show greater cognitive response to exogenous T3 than wild-type patients.
+
+*Limitations*
+
+  - The vicious cycle model is inferred from combining findings across different disease contexts (hypothyroidism, Alzheimer's, general inflammation); no study has demonstrated this complete cycle operating within ME/CFS specifically.
+  - T3 supplementation in ME/CFS has shown mixed clinical results; some patients report adverse effects (palpitations, anxiety) suggesting tissue-level hypersensitivity, which is inconsistent with a simple deficiency model and may reflect receptor upregulation from chronic T3 deprivation.
+  - The DIO2 Thr92Ala polymorphism's functional significance remains debated; at least one large study found no association with cognitive impairment in older adults.
+
+This vicious cycle is formalized as Loop 2 in the neuroplasticity attractor dynamics model (Chapter @ch:integrated-systems, Section @sec:neuroplasticity-attractor), where it interacts with kindling, epigenetic locking, and energy failure loops. Note that the convergence of chapter-level hypotheses into the integrated model is architectural (the model was designed to incorporate them), not evidential (independent lines of evidence did not independently converge).
+] <spec:t3-bdnf-microglial-cycle>
+
+==== The DIO2 Polymorphism: A Vulnerability Factor
+
+The type 2 deiodinase Thr92Ala polymorphism (rs225014) is present in approximately 50% of the global population. The Ala92 variant causes endoplasmic reticulum stress and aberrant accumulation of DIO2 protein in the trans-Golgi apparatus, where it is catalytically inactive. This reduces local T3 production in astrocytes---the primary source of brain T3 via the paracrine astrocyte-to-neuron T3 supply pathway. Carrier mice show impaired short-term memory, reduced physical activity, and increased sleep @Bianco2018DIO2. The polymorphism has been associated with bipolar disorder, Alzheimer's disease, and post-COVID-19 depression, though at least one large study found no association with cognitive impairment in older adults, and the functional significance of the polymorphism remains contested. The high population frequency (~50%) means any clinical effect is likely modest in the absence of additional insults.
+
+#speculation(title: [DIO2 Thr92Ala as ME/CFS Cognitive Vulnerability Factor])[
+*Certainty: 0.25.* In the ME/CFS context, DIO2 Thr92Ala carriers could represent a subgroup with constitutively impaired brain T3 availability that is further compromised by the cytokine-mediated deiodinase suppression documented in Section @sec:thyroid. If so, these patients would be predicted to: (1) have more severe cognitive symptoms relative to their systemic thyroid hormone levels; (2) show preferential response to T3 supplementation over T4 monotherapy; and (3) experience greater neurological benefit from any intervention that restores brain T3 levels. Genotyping could serve as a stratification biomarker in future T3 supplementation trials.
+
+However, the ~50% population prevalence presents a challenge: if this variant meaningfully impairs brain T3 in the presence of ME/CFS, one would expect stronger clustering of cognitive severity in carriers---a prediction that has not been tested. The null prediction (carriers respond like non-carriers) is equally plausible given the contested functional significance of this polymorphism.
+] <spec:dio2-thr92ala>
+
+=== 3,5-Diiodothyronine (T2): An Overlooked Thyroid Metabolite
+<sec:t2-diiodothyronine>
+
+3,5-Diiodo-L-thyronine (3,5-T2), produced from T3 by outer-ring deiodination (DIO1 or DIO2), was long considered an inactive degradation product. (Note: this is distinct from the inactive 3,3$prime$-T2 produced by DIO3 inner-ring deiodination of T3; see Section @sec:thyroid.) Recent work has established that 3,5-T2 has distinct, rapid, non-genomic effects on mitochondria that are independent of protein synthesis and evident within one hour---far faster than T3's genomic actions @Lombardi2015T2skeletal.
+
+In vitro evidence suggests 3,5-T2 interacts with Complex IV (cytochrome $c$ oxidase), modulating the allosteric ATP-inhibitory conformation and effectively reducing the brake on terminal electron transfer (the precise binding subunit remains to be confirmed by structural studies). 3,5-T2 also stimulates fatty acid oxidation (+80--104% increase with palmitoyl substrates) via SIRT1 activation of AMPK, which phosphorylates and inhibits ACC, reducing malonyl-CoA production and thereby relieving CPT1-mediated inhibition of mitochondrial fatty acid import. Importantly, T2 reduces mitochondrial H#sub[2]O#sub[2] production while increasing respiration rate, suggesting it shifts mitochondria toward efficient coupled respiration rather than the electron leak and ROS generation that characterise the ME/CFS mitochondrial phenotype.
+
+#open-question(title: [Are T2 Levels Altered in ME/CFS?])[
+No study has measured 3,5-diiodothyronine (T2) levels in ME/CFS patients. Given that T2 is produced from T3 by deiodination, the documented Low T3 Syndrome would be expected to reduce T2 availability as well. If T2 acts as a rapid mitochondrial "efficiency signal" complementary to T3's slower genomic programme, then T2 deficiency could contribute to the exercise intolerance phenotype: the rapid mitochondrial response to acute energy demand (mediated by T2's non-genomic Complex IV activation) may be impaired, producing an acute energy shortfall on exertion even before the chronic biogenesis deficits from low T3 manifest. Measurement of serum and tissue T2 in ME/CFS patients, particularly in relation to exercise challenge, is a priority gap.
+] <oq:t2-mecfs>
+
+=== Thyroid Hormone Regulation of Mitochondrial Function
+
+The thyroid hormone abnormalities documented in the preceding sections have direct consequences for mitochondrial energy production---the central deficit in ME/CFS (Chapter @ch:energy-metabolism). T3 regulates mitochondrial function through two pathways: a nuclear/genomic pathway (T3 $arrow.r$ PGC-1$alpha$ $arrow.r$ NRF-1/GABPA $arrow.r$ TFAM $arrow.r$ mitochondrial biogenesis, operating over hours to days) and a direct mitochondrial pathway (via p43, a truncated thyroid receptor imported into the mitochondrial matrix that acts as a T3-dependent transcription factor of mtDNA @WrutniakCabello2018p43). T3 also coordinates the mitochondrial quality-control cycle: a pathway proposed to involve ERR$alpha$-dependent DRP1 and ULK1 expression drives coordinated fission, PINK1/Parkin-dependent mitophagy, and biogenesis to replace damaged mitochondria with functional ones @Singh2017thyroidERR.
+
+The mechanistic details of these pathways---including supercomplex assembly, cardiolipin synthesis, and the overlap with WASF3-mediated supercomplex disruption---are developed in Section @sec:thyroid-mito-regulation of Chapter @ch:energy-metabolism, where a formal hypothesis (@hyp:t3-mito-amplifier) proposes that low tissue T3 may amplify several mechanisms of mitochondrial damage in the Low T3 subgroup of ME/CFS patients. If this hypothesis is correct, the Low T3 Syndrome (@ach:low-t3), the SELENOP autoantibody mechanism (@ach:selenop-autoantibodies), and the cytokine-mediated deiodinase suppression (@hyp:deiodinase-suppression) would represent upstream contributors to mitochondrial dysfunction in the affected subgroup. Whether the Low T3 pattern is itself a driver or a protective adaptation to energy deficiency (see Limitation @sec:thyroid above) remains unresolved and has direct implications for whether T3 correction would help or harm.
 
 === Clinical Implications and Diagnostic Challenges
 
 The overlap between ME/CFS symptoms and hypothyroidism creates substantial diagnostic challenges. Both conditions present with severe fatigue and exhaustion, cognitive impairment (“brain fog”), cold intolerance and temperature dysregulation, weight changes and metabolic disturbances, mood alterations including depression, muscle weakness and pain, and sleep disturbances. Undiagnosed hypothyroidism may therefore masquerade as ME/CFS, while ME/CFS-related Low T3 Syndrome may be mistaken for thyroid disease.
 
 #warning-env(title: [Limitations of Standard Thyroid Testing in ME/CFS])[
-Standard thyroid screening using TSH alone is insufficient for evaluating thyroid function in ME/CFS patients. The Low T3 Syndrome occurs with normal TSH because the pituitary senses adequate T4 levels and reduces TSH secretion appropriately, unaware that peripheral tissues cannot effectively convert T4 to active T3. Comprehensive thyroid evaluation in ME/CFS should include TSH to exclude primary thyroid disease, free T4 (FT4) to assess thyroid hormone production, free T3 (FT3) to evaluate the active hormone level, and reverse T3 (rT3) to assess the balance between activation and inactivation. Calculation of T3/T4 and rT3/T3 ratios quantifies conversion efficiency @ruiznunez2018thyroid.
+Standard thyroid screening using TSH alone may miss the Low T3 pattern documented by Ruiz-Núñez et al.\ @ruiznunez2018thyroid, because the Low T3 Syndrome occurs with normal TSH (the pituitary senses adequate T4 and reduces TSH appropriately, while peripheral tissues cannot effectively convert T4 to T3). In a _research context_, expanded thyroid panels including FT3, rT3, and T3/T4 ratios could help characterise this pattern. Whether routine clinical use of expanded panels in ME/CFS is warranted depends on evidence that identifying the Low T3 subgroup leads to actionable management changes---evidence that does not yet exist. The cost-benefit and false-positive implications of expanded thyroid testing in this population have not been evaluated.
 ] <warn:thyroid-testing>
 
-The therapeutic implications remain uncertain. While the rationale for T3 supplementation appears sound (directly providing the active hormone bypasses the impaired conversion step), clinical trial evidence remains limited and results have been mixed. Some patients report subjective improvement, others experience no benefit, and a subset develops adverse effects (palpitations, anxiety, insomnia) suggesting tissue-level hypersensitivity to thyroid hormone. Careful individualized treatment trials with close monitoring may be warranted in ME/CFS patients with documented Low T3 Syndrome, but systematic evidence for efficacy is lacking.
+=== T3 Supplementation: Evidence and Risks
+
+The rationale for T3 supplementation in patients with documented Low T3 Syndrome appears mechanistically plausible: directly providing the active hormone bypasses the impaired DIO1/DIO2 conversion step. However, no clinical trial has tested T3 supplementation in ME/CFS patients, and the evidence base is essentially absent.
+
+The only controlled trial identified in a condition with symptom overlap (noting that this was not a systematic search) is Lowe et al.\ (1997) @Lowe1997T3fibro, a double-blind placebo-controlled crossover study in euthyroid fibromyalgia patients using _supraphysiologic_ T3 doses (not the physiologic replacement discussed elsewhere in this section). The study was published in a low-impact specialty journal (_Clinical Bulletin of Myofascial Therapy_), has not been replicated, and the lead author was a prominent T3 advocacy figure whose broader claims about "thyroid hormone resistance" were explicitly rejected by the American Thyroid Association. Fibromyalgia is a distinct condition from ME/CFS; direct extrapolation is unjustified. The literature on T3 supplementation in fatigue conditions is nearly empty: the absence of null-finding studies reflects a lack of research in this area, not an absence of negative results.
+
+#warning-env(title: [Risks of T3 Supplementation in Euthyroid Patients])[
+Established risks of T3 supplementation include: (1) cardiac effects---atrial fibrillation (up to 15% prevalence in hyperthyroid states), tachycardia, and heart failure with prolonged overstimulation; (2) bone effects---increased turnover, osteopenia, and osteoporosis risk (particularly post-menopausal women); (3) thyroid axis suppression---exogenous T3 suppresses TSH and endogenous hormone production, with rebound hypothyroidism on abrupt discontinuation; (4) narrow therapeutic window---T3's shorter half-life (~1 day vs ~7 days for T4) makes iatrogenic thyrotoxicosis more likely. A 2024 meta-analysis of 52 studies ($n = 630{,}254$) found regulated liothyronine use was not associated with increased mortality or serious adverse outcomes in _patients with diagnosed hypothyroidism_. This safety data cannot be directly extrapolated to euthyroid ME/CFS patients, who have intact thyroid axes and may respond differently to exogenous T3. Any T3 supplementation in euthyroid ME/CFS patients remains experimental and requires endocrinologist supervision with cardiac monitoring.
+] <warn:t3-supplementation-risks>
+
+Selenium supplementation represents a potentially safer intervention, particularly for the SELENOP-aAb--positive subgroup (@ach:selenop-autoantibodies): it could support deiodinase function (DIO1/DIO2), glutathione peroxidase activity, and partially bypass the autoantibody-mediated transport deficit. The tolerable upper limit is 400 $mu$g/day; toxicity (selenosis) manifests above this threshold. No clinical trial has specifically tested selenium supplementation for the thyroid-mitochondrial axis in ME/CFS.
 
 == Sex Hormones and Gender Differences
 <sec:sex-hormones>
@@ -327,7 +455,7 @@ Growth hormone (GH) and its primary mediator, insulin-like growth factor 1 (IGF-
 Research on the GH/IGF-1 axis in ME/CFS has produced conflicting findings, likely reflecting the heterogeneity of patient populations and the complexity of growth hormone regulation. Some studies document clear abnormalities, while others find normal GH dynamics, suggesting that GH dysfunction characterizes a subset of ME/CFS patients rather than representing a universal feature.
 
 <obs:igf1-low>
-Bennett et al.\ (1997) documented significantly lower serum IGF-1 levels in ME/CFS patients compared to healthy controls, accompanied by reduced nocturnal secretion of growth hormone. IGF-1 serves as the primary mediator of GH's anabolic effects, produced predominantly in the liver in response to GH stimulation and acting on peripheral tissues to promote protein synthesis, muscle growth, and metabolic regulation. Low IGF-1 despite normal or near-normal GH secretion suggests either hepatic resistance to GH or impaired liver function affecting IGF-1 synthesis.
+Bennett et al.\ (1997) @Bennett1997IGF1 documented significantly lower serum IGF-1 levels in ME/CFS patients compared to healthy controls, accompanied by reduced nocturnal secretion of growth hormone. IGF-1 serves as the primary mediator of GH's anabolic effects, produced predominantly in the liver in response to GH stimulation and acting on peripheral tissues to promote protein synthesis, muscle growth, and metabolic regulation. Low IGF-1 despite normal or near-normal GH secretion suggests either hepatic resistance to GH or impaired liver function affecting IGF-1 synthesis.
 However, contradicting these findings, other rigorous studies found no differences in basal IGF-1 or IGF-binding protein (IGFBP) levels between ME/CFS patients and controls, normal urinary growth hormone excretion, and similar GH responses to provocative testing. These inconsistencies highlight the challenge of identifying reliable biomarkers in a heterogeneous disease and suggest the need for subgroup stratification based on clinical phenotypes or other biomarkers.
 
 === Growth Hormone Treatment Trial
@@ -365,7 +493,7 @@ The association between ME/CFS and metabolic syndrome raises important mechanist
 
 === Metabolic Phenotypes and Insulin Dynamics
 
-Armstrong et al.\ (2021) employed comprehensive metabolomics to identify distinct ME/CFS subtypes with different metabolic signatures. One subtype (ME-M2) demonstrated elevated triglyceride and insulin levels despite normal glucose, reflecting low-grade lipid-induced insulin resistance. ME/CFS patients overall showed slightly elevated insulin and leptin (an adipose tissue hormone signaling energy status) and lower high molecular weight adiponectin (an anti-inflammatory adipokine that enhances insulin sensitivity). Hoel et al.\ (2021) similarly used metabolic phenotyping to identify a lipid-dysregulated subtype with elevated triglycerides and leptin, confirming the metabolic heterogeneity within ME/CFS @Hoel2021metabolicphenotypes.
+Hoel et al.\ (2021) @Hoel2021metabolicphenotypes employed comprehensive metabolomics to identify distinct ME/CFS subtypes with different metabolic signatures. One subtype (ME-M2) demonstrated elevated triglyceride and insulin levels despite normal glucose, reflecting low-grade lipid-induced insulin resistance. ME/CFS patients overall showed slightly elevated insulin and leptin (an adipose tissue hormone signaling energy status) and lower high molecular weight adiponectin (an anti-inflammatory adipokine that enhances insulin sensitivity), confirming metabolic heterogeneity within ME/CFS.
 
 === Appetite Dysregulation and Hunger Signaling
 
@@ -384,10 +512,13 @@ Leptin is an adipokine secreted by fat cells that signals satiety to the hypotha
 *Phase-Dependent Appetite Changes.*
 Clinical observation suggests that appetite in ME/CFS changes characteristically across disease phases, though formal prospective data are limited:
 
-#speculation(title: [Phase-Dependent Appetite Model in ME/CFS])[{0.35}{Falsified if prospective dietary tracking across disease phases shows no consistent relationship between disease severity/phase and appetite/food intake patterns}
-<spec:appetite-phases>
+#speculation(title: [Phase-Dependent Appetite Model in ME/CFS])[
 Appetite may follow a phase-dependent pattern in ME/CFS. During acute exacerbations and PEM episodes, appetite suppression is common—driven by elevated inflammatory cytokines (IL-6, TNF-$alpha$) acting on hypothalamic appetite centers, nausea from autonomic dysfunction, and orthostatic symptoms that worsen with eating. During stable periods, appetite may normalize or increase, reflecting the body's attempt to restore depleted energy stores. In severe ME/CFS, a distinct pattern of reduced appetite with weight loss may reflect hypermetabolism or severe mitochondrial dysfunction preventing adequate energy extraction from food. These phase-dependent changes mean that appetite complaints in ME/CFS require contextualization within current disease state rather than treatment as a fixed symptom.
-]
+
+_Falsified if_ prospective dietary tracking across disease phases shows no consistent relationship between disease severity/phase and appetite/food intake patterns.
+
+*Certainty: 0.35*
+] <spec:appetite-phases>
 
 #fhypothesis(title: [Peripheral Insulin Resistance With Central Deficits], falsifiability: [weakly], justification: [Falsified if glucose clamp studies show normal peripheral insulin sensitivity combined with normal cerebral glucose uptake on FDG-PET imaging])[
 ME/CFS may involve a paradoxical state of peripheral insulin resistance (reduced glucose uptake in muscle and adipose tissue) combined with inadequate glucose delivery or utilization in the central nervous system. This would explain the constellation of elevated peripheral insulin levels reflecting compensatory hyperinsulinemia, cerebral glucose hypometabolism documented by PET imaging, symptoms resembling hypoglycemia without documented low blood glucose, and the energy deficit despite apparently adequate systemic glucose availability @tirelli1998pet @siessmeier2003pet.
@@ -474,7 +605,13 @@ While melatonin supplementation showed benefits in the Castro-Marrero trial, cli
 
 The circadian rhythm abnormalities documented in ME/CFS should not be viewed as isolated sleep problems but rather as disruption of a master regulatory system that normally coordinates multi-system physiology. Loss of circadian organization contributes to HPA axis dysfunction (flattened cortisol rhythm discussed earlier in this chapter), immune dysfunction (loss of circadian immune regulation), metabolic dysfunction (disrupted glucose homeostasis and lipid metabolism), autonomic dysfunction (altered cardiovascular circadian patterns discussed in Chapter @ch:cardiovascular), and thermoregulatory dysfunction (impaired circadian temperature variation).
 
-This integrative perspective suggests that interventions targeting circadian resynchronization—whether through melatonin, light therapy, behavioral scheduling, or other chronotherapeutic approaches—might provide broader benefits than expected from improving sleep alone. By restoring temporal coordination across multiple systems, circadian interventions could theoretically address multiple aspects of ME/CFS pathophysiology simultaneously. However, this hypothesis requires rigorous testing in well-designed clinical trials.
+#speculation(title: [Circadian Resynchronization as Multi-System Intervention])[
+*Certainty: 0.30.* Interventions targeting circadian resynchronization — whether through melatonin, light therapy, behavioural scheduling, or other chronotherapeutic approaches — might provide broader benefits than expected from improving sleep alone. By restoring temporal coordination across multiple systems, circadian interventions could theoretically address multiple aspects of ME/CFS pathophysiology simultaneously.
+
+*Testable prediction:* A chronotherapy trial (timed light + melatonin + activity scheduling) in ME/CFS patients with documented circadian disruption would improve at least two non-sleep outcome domains (e.g. immune markers, cortisol rhythm amplitude, HRV) beyond what sleep improvement alone would predict. Falsified if chronotherapy normalises sleep metrics without measurable improvement in non-sleep circadian outputs.
+
+*Limitations:* The Castro-Marrero 2021 melatonin trial @castromarrero2021melatonin is the only RCT supporting circadian intervention in ME/CFS, combined melatonin with zinc (individual contributions inseparable), and had a modest sample size. No study has tested multi-modal chronotherapy in ME/CFS.
+] <spec:circadian-resynchronization>
 
 == Integrated Endocrine-Metabolic Model
 <sec:endocrine-integration>
@@ -517,7 +654,11 @@ The consistent 3–4:1 female-to-male prevalence ratio and the sex-specific path
 
 This recognition has profound implications for research and clinical care. Studies must stratify by sex to avoid obscuring sex-specific patterns, biomarker development should pursue sex-specific panels rather than assuming universal markers, and treatment trials should evaluate efficacy separately in male and female patients, as interventions effective in one sex may prove ineffective or even harmful in the other.
 
-The early menopause finding by Boneva et al.\ (2015)—approximately 11 years earlier than controls—suggests that endocrine dysfunction may precede or contribute to ME/CFS onset rather than solely resulting from the disease @boneva2015menopause. This raises the possibility that hormonal interventions (hormone replacement therapy in appropriate contexts, androgen supplementation for documented deficiency) might prevent or mitigate disease progression in susceptible individuals, though this hypothesis requires prospective testing.
+The early menopause finding by Boneva et al.\ (2015)—approximately 11 years earlier than controls—suggests that endocrine dysfunction may precede or contribute to ME/CFS onset rather than solely resulting from the disease @boneva2015menopause. This raises the possibility that hormonal interventions (hormone replacement therapy in appropriate contexts, androgen supplementation for documented deficiency) might prevent or mitigate disease progression in susceptible individuals.
+
+#open-question(title: [Hormonal Intervention as Disease-Modifying Strategy])[
+Could timely hormonal interventions (hormone replacement therapy in appropriate contexts, androgen supplementation for documented deficiency) prevent or mitigate ME/CFS disease progression in susceptible individuals? The early menopause finding suggests endocrine disruption may precede symptom onset, but this remains correlational. Prospective cohort studies tracking hormonal status before ME/CFS onset, or randomised trials of HRT in perimenopausal ME/CFS patients, would be needed to distinguish disease modification from symptom management.
+] <oq:hormonal-disease-modification>
 
 === Clinical Implications and Therapeutic Considerations
 

@@ -916,6 +916,8 @@ If this hypothesis is correct, B cell depletion therapy (rituximab) might be par
 This hypothesis is speculative. EBV is ubiquitous (95% adult seropositivity), so most ME/CFS patients will have been infected regardless of trigger. The specific role of infection timing versus other factors (genetic susceptibility, viral strain, co-infections) is unknown. Additionally, many adolescents with EBV-triggered ME/CFS do recover, suggesting protective factors beyond simple timing. See Section @sec:pediatric-adult-study for a proposed study design that could inform this hypothesis.
 ] <hyp:ebv-adolescence>
 
+Longitudinal data from the first German study of adolescent and young adult ME/CFS following EBV-triggered infectious mononucleosis provide partial support for the age-dependent hypothesis. Pricoco et al. (2024) followed 25 patients (12 adolescents, 13 young adults) for 12 months after EBV-confirmed onset @Pricoco2024EBVyouth. The results revealed a stark age-dependent recovery pattern: 45% of adolescents no longer met ME/CFS diagnostic criteria at 12 months and showed improvement in fatigue and health-related quality of life, whereas 100% of young adults retained their diagnosis with minimal symptom or quality-of-life improvement. Patients averaged 27 distinct symptoms each, with exhaustion, daily-life limitations, rest requirements, and PEM being the most persistent. While the sample size is small and the study lacked a non-EBV control group, the differential recovery trajectory is consistent with the hypothesis that post-pubertal immune maturation reduces the capacity for spontaneous resolution of virus-triggered autoimmune processes.
+
 ==== Human Herpesvirus 6 (HHV-6)
 
 HHV-6 infects T cells and can integrate into chromosomes @EatonFitch2019:
@@ -941,6 +943,32 @@ VZV establishes latency in sensory ganglia following primary infection (chickenp
     - Encodes a dUTPase homologue (ORF8) with immunomodulatory properties @Ariza2025polyherpesvirus
     - Neurotropism in sensory ganglia may contribute to sensory and autonomic symptoms, though this has not been directly studied in ME/CFS
     - Included in the poly-herpesvirus co-reactivation pattern described below (Section @sec:poly-herpesvirus)
+
+==== Herpes Simplex Virus 1 (HSV-1) and Encephalitis
+<sec:hsv1-hse>
+
+HSV-1 infects 57% of American adults and establishes latency in trigeminal ganglia. While most carriers remain asymptomatic, HSV-1 can cause herpes simplex encephalitis (HSE), an acute neurotropic infection affecting approximately 1 in 500,000 individuals per year. HSE presents with decreased consciousness, fatigue, confusion, and personality changes, and can mimic stroke presentation.
+
+*HSE as a Prospective Model for Post-Viral ME/CFS*
+
+The Uppsala University ME/CFS Collaborative Research Center (directed by Jonas Bergquist, OMF-funded) has studied HSE as a uniquely informative model for post-viral fatigue and ME/CFS onset, since HSE patients can be followed prospectively from the acute infection @Naas2023hse_proteome @Westman2021nfl_nmdar. A series of studies in approximately 50 HSE patients with serial CSF and blood sampling has revealed:
+
+    - *NMDA receptor autoimmunity:* Anti-NMDAR IgG antibodies developed in 24.5% of HSE patients, never present at disease onset but appearing after 3 months @Westman2016nmdar_hse. 56% had anti-NMDAR antibodies of any isotype class (IgG 25%, IgM 29%, IgA 27%), though only IgG correlated with cognitive outcome @Westman2018nmdar_igg_igm.
+    - *Impaired neurocognitive recovery:* NMDAR-seropositive patients had dramatically worse neurocognitive recovery — median MDRS score increase of 1.5 points versus 10 points at 24 months (p=0.018) @Westman2016nmdar_hse.
+    - *Proposed causative chain:* Neurofilament light chain (NFL, a marker of neuronal damage) correlated with both impaired cognition (rho=-0.36, p=0.020) and subsequent NMDAR autoimmunization (p=0.006), suggesting: brain tissue damage $arrow.r$ NMDAR antigen release $arrow.r$ autoimmunization $arrow.r$ prolonged CSF inflammation $arrow.r$ persistent neurocognitive dysfunction @Westman2021nfl_nmdar.
+    - *CSF proteomics:* Temporal analysis of 890 CSF proteins (LC-MS) revealed an acute multi-pathway response at days 0--9 (acute phase, antimicrobial pattern recognition, glycolysis/gluconeogenesis), which resolved by 2 weeks. Six proteins were significantly reduced in NMDAR-seropositive patients, including apolipoprotein A1 — previously linked to NMDAR encephalitis — and complement factor I @Naas2023hse_proteome.
+    - *Predictive viral antibody signature:* PhIP-Seq analysis identified HSV-1 UL42 and UL48 antibody signatures that predict which HSE patients develop secondary NMDAR encephalitis (75% sensitivity, >99% specificity, PPV 90%, OR 209) @Westman2025phipseq_nmdar.
+
+#hypothesis(title: [Viral Encephalitis as Mechanistic Template for Post-Infectious ME/CFS])[
+
+*Certainty: 0.45.* The HSE $arrow.r$ NMDAR autoimmunity $arrow.r$ persistent neurocognitive dysfunction sequence, documented prospectively in a cohort with known viral onset, may represent a generalizable mechanism for post-infectious ME/CFS. The certainty level reflects: (1) strong prospective evidence for the causative chain in HSE (NFL $arrow.r$ NMDAR autoimmunization $arrow.r$ cognitive decline); (2) 70--80% of ME/CFS patients report infection-triggered onset; (3) GPCR autoantibodies are documented in ME/CFS (Section @sec:gpcr-autoantibodies), and receptor internalization by autoantibodies is established for NMDAR (Section @sec:receptor-internalization); (4) however, HSE causes severe, focal brain damage with high NFL, whereas most ME/CFS-triggering infections (EBV, enteroviruses) do not typically produce this degree of tissue destruction; (5) extrapolation from HSV-1 to other viral triggers remains unconfirmed.
+
+If viral-induced brain tissue damage is a necessary precursor to autoantibody-mediated ME/CFS, then: (1) ME/CFS patients with higher acute-phase NFL levels should have worse long-term outcomes; (2) subclinical neuroinflammation markers (CSF neopterin, TSPO-PET signal) should precede autoantibody development; (3) early immunomodulatory therapy post-infection should reduce NMDAR autoantibody incidence and improve neurocognitive outcomes; (4) ME/CFS triggered by non-neurotropic infections should show lower autoantibody prevalence than ME/CFS triggered by neurotropic viruses.
+
+*Treatment implications:* This model suggests a therapeutic window in the acute and early recovery phases of triggering infections. If autoantibody development follows neuronal damage with a 3-month lag (as in HSE), early anti-inflammatory or immunosuppressive intervention during this window could prevent the establishment of chronic autoimmunity. Bergquist's group is conducting a 160-patient clinical trial at Harvard testing low-dose naltrexone, pyridostigmine, and their combination, which may provide relevant data.
+
+*Limitations:* HSE causes catastrophic, often fatal brain injury; the degree of neuronal damage in typical ME/CFS-triggering infections is orders of magnitude lower. The relevance of this severe model to mild post-viral fatigue requires demonstration that the same mechanism operates at subclinical tissue damage levels. Additionally, only a subset of ME/CFS patients report post-infectious onset, limiting the generalizability of any virus-triggered model.
+] <hyp:hse-mecfs-template>
 
 ==== Abortive Lytic Replication and dUTPase
 <sec:abortive-lytic>
