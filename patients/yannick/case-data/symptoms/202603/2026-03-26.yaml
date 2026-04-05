@@ -1,5 +1,25 @@
 date: 2026-03-26
 
+medications_supplements:
+  # medications
+  ldn:               { taken: true }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true }
+  famotidine:        { taken: true }
+  # supplements
+  riboflavin:        { taken: true }
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: true }
+  vitamin_c:         { taken: false, reason: "supply exhausted — discontinued from this date" }
+  mct_oil:           { taken: true }
+  d_ribose:          { taken: true }
+
 symptoms:
   fatigue_level: "low"
   fatigue_notes: >
@@ -15,14 +35,6 @@ symptoms:
 
 sleep:
   quality: null
-  sleep_notes: null
-
-medications_supplements:
-  taken_as_planned: true
-  all_taken: true
-  vitamin_c_discontinued: true
-  vitamin_c_notes: >
-    Supply exhausted; patient will stop taking Vitamin C.
 
 notes: >
   Good start to the day. Feeling well with low fatigue in early morning.

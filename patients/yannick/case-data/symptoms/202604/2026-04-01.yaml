@@ -1,0 +1,22 @@
+date: 2026-04-01
+
+medications_supplements:
+  # medications
+  ldn:               { taken: true }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true, count: 2, notes: "2 taken (vs usual 3/day)" }
+  famotidine:        { taken: true }
+  pyridostigmine:    { taken: true, count: 2, notes: "2 pills taken (10 mg each) — Mestinon day 2 of trial" }
+  # supplements
+  riboflavin:        { taken: true }
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: true }
+  mct_oil:           { taken: false, reason: "Skipped" }
+  d_ribose:          { taken: false, reason: "Skipped" }
+  vitamin_c:         { taken: false, reason: "discontinued 2026-03-26" }

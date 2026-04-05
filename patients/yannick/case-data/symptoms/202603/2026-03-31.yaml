@@ -1,0 +1,38 @@
+date: 2026-03-31
+
+medications_supplements:
+  # medications
+  ldn:               { taken: true }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true }
+  famotidine:        { taken: true }
+  pyridostigmine:    { taken: true, notes: "Day 1 of trial — 2 pills only (10 mg each), started afternoon; 3rd pill not taken" }
+  # supplements
+  riboflavin:        { taken: true }
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: true }
+  mct_oil:           { taken: false, reason: "Skipped" }
+  d_ribose:          { taken: false, reason: "Skipped" }
+  vitamin_c:         { taken: false, reason: "discontinued 2026-03-26" }
+
+new_medication:
+  name: "Pyridostigmine (Mestinon)"
+  start_date: 2026-03-31
+  dose: "10 mg"
+  frequency: "3x/day"
+  daily_total: "30 mg"
+  day_1_schedule:
+    pill_1: "afternoon"
+    pill_2: "evening (planned)"
+    pill_3: "not taken (started mid-day)"
+  notes: >
+    First day of Mestinon trial. Started at 10 mg x 3/day (30 mg/day),
+    which is the low end of the proposed range from the Mestinon request
+    document (which suggested starting at 30 mg 1-2x/day). Actual prescription
+    is 10 mg pills, 3x/day. Only 2 pills today since started in the afternoon.

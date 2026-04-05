@@ -1,5 +1,26 @@
 date: 2026-03-29
 
+medications_supplements:
+  # medications
+  ldn:               { taken: null, notes: "not reported for this date" }
+  montelukast:       { taken: null, notes: "not reported for this date" }
+  rupatadine:        { taken: true, notes: "1 rupatall taken in the evening" }
+  famotidine:        { taken: true, notes: "1 famotidine taken in the evening" }
+  pyridostigmine:    { taken: null, notes: "not reported for this date" }
+  # supplements
+  riboflavin:        { taken: true, notes: "1 B2 taken in the evening" }
+  magnesium:         { taken: null, notes: "not reported for this date" }
+  b_forte:           { taken: null, notes: "not reported for this date" }
+  nad_resveratrol:   { taken: null, notes: "not reported for this date" }
+  urolithin_a:       { taken: null, notes: "not reported for this date" }
+  coq10:             { taken: null, notes: "not reported for this date" }
+  pea:               { taken: null, notes: "not reported for this date" }
+  bactecal:          { taken: null, notes: "not reported for this date" }
+  iron:              { taken: null, notes: "not reported for this date" }
+  mct_oil:           { taken: null, notes: "not reported for this date" }
+  d_ribose:          { taken: null, notes: "not reported for this date" }
+  vitamin_c:         { taken: false, reason: "discontinued 2026-03-26" }
+
 symptoms:
   fatigue_level: "moderate"
   fatigue_notes: >
@@ -30,12 +51,6 @@ sleep:
     Sleep after party/alcohol. Alcohol suppresses REM — likely poor restorative quality
     even if adequate duration.
 
-medications_supplements:
-  taken_as_planned: true
-  notes: >
-    Evening doses (1 rupatall, 1 famotidine, 1 riboflavin/B2) not yet taken
-    at time of logging — standard evening schedule.
-
 activity:
   social: true
   social_notes: >
@@ -45,7 +60,7 @@ activity:
 notes: >
   Hangover day after party on 2026-03-28 evening. Headache (already present yesterday,
   worsened by alcohol) and drug-like brain fog / feeling of intoxication in the morning.
-  Feeling better as the day progresses. Evening doses pending:
+  Feeling better as the day progresses. Evening doses taken:
   1 rupatall, 1 famotidine, 1 riboflavin/B2.
   Cognitive impairment concrete example: poker mental arithmetic (counting cards,
   tokens, money) felt effortful and degraded — normally a strength.

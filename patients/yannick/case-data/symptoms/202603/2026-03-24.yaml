@@ -1,0 +1,64 @@
+date: 2026-03-24
+
+medications_supplements:
+  # medications
+  ldn:               { taken: true }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true }
+  famotidine:        { taken: true }
+  # supplements
+  riboflavin:        { taken: true }
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: true }
+  mct_oil:           { taken: true }
+  d_ribose:          { taken: true }
+
+symptoms:
+  fatigue_level: "moderate-to-high"
+  fatigue_notes: >
+    Persistent tiredness throughout the entire day, present from morning.
+    No clear improvement with rest.
+  pain_arms: true
+  pain_arms_notes: >
+    Pain in arms by end of day. Consistent with delayed post-exertional
+    response to garden work performed on 2026-03-23.
+  pem_active: true
+  pem_notes: >
+    Today's fatigue and arm pain follow 1h garden work on 2026-03-23
+    (cutting branches). Heart rate during activity estimated at 105–115 bpm,
+    above the typical PEM-threshold (~105 bpm for ME/CFS). Onset pattern
+    (next-day) is consistent with delayed PEM. Activities yesterday were
+    predominantly the garden work; no other significant exertion reported.
+  cognitive_status: null
+  nausea: null
+  headache: null
+  orthostatic_intolerance: null
+
+sleep:
+  quality: "poor"
+  sleep_notes: >
+    First waking ~00:00: strong toothpain (devitalized tooth, pending implant).
+    Got up, ate something to take Ibuprofen. Pain resolved after medication.
+    Remained awake for an extended period before returning to sleep.
+    Second waking ~03:00: TV too loud, got up to shut it off.
+    Fragmented night overall due to two separate disturbances.
+
+activity_yesterday:
+  date: 2026-03-23
+  description: >
+    ~1h garden work, cutting branches. Heart rate estimated 105–115 bpm
+    for a portion of the activity. No other significant exertion.
+  heart_rate_peak_estimate: "105-115 bpm"
+  exceeded_pem_threshold: true
+
+notes: >
+  Classic delayed PEM presentation: moderate-to-high fatigue all day and
+  arm pain, following garden work (cutting branches, ~1h) the prior day
+  with heart rate exceeding the ~105 bpm aerobic threshold. Medications
+  and supplements taken as planned.

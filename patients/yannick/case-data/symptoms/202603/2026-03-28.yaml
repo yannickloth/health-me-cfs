@@ -1,5 +1,26 @@
 date: 2026-03-28
 
+medications_supplements:
+  # medications (not explicitly reported — recorded as not documented)
+  ldn:               { taken: null, notes: "not reported for this date" }
+  montelukast:       { taken: null, notes: "not reported for this date" }
+  rupatadine:        { taken: null, notes: "not reported for this date" }
+  famotidine:        { taken: null, notes: "not reported for this date" }
+  pyridostigmine:    { taken: null, notes: "not reported for this date" }
+  # supplements
+  riboflavin:        { taken: null, notes: "not reported for this date" }
+  magnesium:         { taken: null, notes: "not reported for this date" }
+  b_forte:           { taken: null, notes: "not reported for this date" }
+  nad_resveratrol:   { taken: null, notes: "not reported for this date" }
+  urolithin_a:       { taken: null, notes: "not reported for this date" }
+  coq10:             { taken: null, notes: "not reported for this date" }
+  pea:               { taken: null, notes: "not reported for this date" }
+  bactecal:          { taken: null, notes: "not reported for this date" }
+  iron:              { taken: null, notes: "not reported for this date" }
+  mct_oil:           { taken: null, notes: "not reported for this date" }
+  d_ribose:          { taken: null, notes: "not reported for this date" }
+  vitamin_c:         { taken: false, reason: "discontinued 2026-03-26" }
+
 symptoms:
   fatigue_level: "low"
   fatigue_notes: >
@@ -24,13 +45,8 @@ symptoms:
       Muscle cramp in right leg calf during the night.
 
 sleep:
-  quality: null
   sleep_notes: >
     Disturbed by muscle cramp in right calf during the night.
-
-medications_supplements:
-  taken_as_planned: null
-  vitamin_c_discontinued: true
 
 activity:
   social: true
@@ -47,3 +63,4 @@ notes: >
   Went to a party in the evening; consumed alcohol.
   Cognitive load during poker: mental arithmetic and card/token counting
   felt effortful and degraded vs. usual ability.
+  Medication adherence not reported for this date.

@@ -1,0 +1,21 @@
+date: 2026-03-30
+
+medications_supplements:
+  # medications
+  ldn:               { taken: true }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true }
+  famotidine:        { taken: true }
+  # supplements
+  riboflavin:        { taken: true }
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: true }
+  mct_oil:           { taken: false, reason: "Skipped" }
+  d_ribose:          { taken: false, reason: "Skipped" }
+  vitamin_c:         { taken: false, reason: "discontinued 2026-03-26" }
