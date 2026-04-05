@@ -34,7 +34,7 @@ This objectively demonstrates that exertional stress produces measurable metabol
 
 ==== Heart Rate Monitoring
 
-Heart rate provides a practical, real-time proxy for metabolic stress. The Workwell Foundation and other clinical researchers recommend using heart rate thresholds to prevent PEM @keller2024cpet:
+Heart rate provides a practical, real-time proxy for metabolic stress. The Workwell Foundation and other clinical researchers recommend using heart rate thresholds to prevent PEM @keller2024cpet.
 
     - *Determine anaerobic threshold (AT)*: Ideally via CPET; alternatively, estimate as 60–70% of age-predicted maximum heart rate in moderate-to-severe ME/CFS
     - *Set activity threshold*: AT $-$10 to 15 bpm as a safe upper limit
@@ -160,7 +160,7 @@ Sleep disturbance is nearly universal in ME/CFS and contributes directly to symp
 The sleep environment should minimize sensory stimulation and support temperature regulation:
 
     - *Darkness*: Blackout curtains or a sleep mask. Even dim light exposure during sleep suppresses melatonin and disrupts circadian rhythm. Cover or remove LED indicators on electronic devices
-    - *Temperature*: Maintain 18–20\textdegree C. ME/CFS patients with autonomic dysfunction often have impaired thermoregulation; cooling mattress pads and breathable bedding help compensate
+    - *Temperature*: Maintain 18–20°C. ME/CFS patients with autonomic dysfunction often have impaired thermoregulation; cooling mattress pads and breathable bedding help compensate
     - *Noise*: White noise machines or earplugs for patients with sound sensitivity. Consistent background noise is preferable to intermittent disturbances
     - *Air quality*: HEPA air purifiers reduce allergen load that may worsen sleep through nasal congestion. Adequate ventilation without cold drafts
     - *Screen-free zone*: Remove televisions, tablets, and smartphones from the bedroom. If a phone is needed for medical monitoring, use “do not disturb” mode with red-shifted display
@@ -388,7 +388,7 @@ Graded exercise therapy—progressive incremental increases in physical activity
 
 *The PACE Trial and Subsequent Reanalysis*
 
-The 2011 PACE trial initially claimed benefits from GET and cognitive behavioral therapy (CBT). However, subsequent reanalysis using objective outcomes (rather than subjective questionnaires) found @Wilshire2018 @geraghty2019cognitive:
+The 2011 PACE trial initially claimed benefits from GET and cognitive behavioral therapy (CBT). However, subsequent reanalysis using objective outcomes (rather than subjective questionnaires) found @Wilshire2018 @geraghty2019cognitive.
 
     - No significant improvement in objective measures (6-minute walk distance, step counts, employment, benefits claims)
     - High rates of patient-reported harm in long-term follow-up
@@ -400,7 +400,7 @@ Not all national bodies have followed suit. In Australia, the Royal Australian C
 
 *Two-Day CPET Evidence Against GET*
 
-Objective physiological evidence demonstrates why GET is contraindicated. Keller et al.\ (2024) showed that even a single maximal exertion produces @keller2024cpet:
+Objective physiological evidence demonstrates why GET is contraindicated. Keller et al.\ (2024) showed that even a single maximal exertion produces @keller2024cpet.
 
     - *Day 2 performance decrements*: 5–8% declines in VO#sub[2]peak, work output, ventilation
     - *Worsening impairment classification*: Severe impairment cases nearly doubled (14% → 27%)
@@ -423,7 +423,7 @@ Charlton et al.\ (2026) reinforced this conclusion in the _British Journal of Sp
 *Patient-Reported Harms*
 
 #warning-env(title: [Patient-Reported Harms from GET])[
-Large patient surveys consistently report high rates of harm from GET. A systematic review of 10 patient surveys across four countries found that 51% of respondents reported GET worsened their health, compared to 20% for CBT @Kindlon2011GET. These figures underline why GET is no longer recommended by NICE and other major guidelines @NICE2021mecfs:
+Large patient surveys consistently report high rates of harm from GET. A systematic review of 10 patient surveys across four countries found that 51% of respondents reported GET worsened their health, compared to 20% for CBT @Kindlon2011GET. These figures underline why GET is no longer recommended by NICE and other major guidelines @NICE2021mecfs.
 
     - 51% of ME/CFS patients across surveys reported GET worsened their condition @Kindlon2011GET
     - Many report GET as triggering transition to more severe disease states
@@ -536,7 +536,7 @@ months @ClagueBaker2025HRMpacing.
 
 Gloeckl et al.\ (2024) proposed a three-tier framework for exercise in
 post-viral conditions with PEM that is directly applicable to ME/CFS
-comorbidity management @Gloeckl2024LCexercise:
+comorbidity management @Gloeckl2024LCexercise.
 
     - *No PEM (rare in ME/CFS):* Standard comorbidity-specific
       exercise guidelines may apply, with heart rate monitoring as a safety
@@ -712,6 +712,105 @@ Biofeedback provides real-time physiological feedback that patients can use to l
     - *Temperature biofeedback*: Learning to increase peripheral hand temperature through relaxation. Useful for patients with Raynaud's phenomenon or cold extremities from autonomic dysfunction
     - *Electrodermal activity*: Monitoring skin conductance as a proxy for sympathetic activation. Can help patients identify and reduce stress responses they may not consciously recognize
 
+== Breathing Interventions and CO#sub[2] Optimisation
+<sec:breathing-co2>
+
+=== Carbon Dioxide as Vasodilator and Oxygen Facilitator
+
+CO#sub[2] serves two critical physiological roles often overlooked in ME/CFS: it is a potent vasodilator (opening blood vessels to increase tissue perfusion) and it facilitates oxygen release from haemoglobin via the Bohr Effect. Low CO#sub[2] levels therefore impair both blood delivery and cellular oxygenation simultaneously, compounding the hypoperfusion discussed in Chapter @ch:cardiovascular.
+
+#fhypothesis(title: [Low CO#sub[2] in ME/CFS Is a Consequence of Impaired Muscular Respiration], falsifiability: [weakly], justification: [Falsified if ME/CFS patients with normal muscular O#sub[2] extraction (by invasive CPET) still show low ETCO#sub[2], or if respiratory rate is elevated rather than respiratory depth])[
+ME/CFS patients exhibit low end-tidal CO#sub[2] (ETCO#sub[2]), but this appears to result from impaired cellular respiration rather than primary hyperventilation. Wood et al. (2022) found that 74% of Long~COVID patients had ETCO#sub[2] below 35~mmHg _despite normal respiratory rate_ @Wood2022etco2. Natelson identified "hyperpnea" (deeper breathing) rather than tachypnea (faster breathing) in ME/CFS---a compensatory response to poor muscular O#sub[2] extraction. Rossman and Van der Togt (2023) proposed that intramuscular acidosis from anaerobic metabolism drives respiratory compensation @VanDerTogt2023acidbase.
+
+Orthostatic stress dramatically worsens CO#sub[2] loss. Visser et al. (2023) measured ETCO#sub[2] during tilt-table testing @VisserVanCampen2023co2.
+
+    - ME/CFS without POTS: 37 $arrow.r$ 30~mmHg (7~mmHg drop)
+    - ME/CFS with POTS: 36 $arrow.r$ 26~mmHg (10~mmHg drop)
+    - Healthy controls: 37 $arrow.r$ 36~mmHg (1~mmHg drop)
+    - 53% of ME/CFS patients fell below the 30~mmHg clinical reference range while standing
+
+*Certainty: 0.50*---the data are consistent across studies, but direct demonstration that low CO#sub[2] is secondary to impaired muscular respiration (rather than an independent central respiratory drive abnormality) requires simultaneous measurement of tissue O#sub[2] extraction and ETCO#sub[2].
+] <hyp:co2-consequence>
+
+#limitation(title: [From Mechanism to Treatment])[
+Even if low CO#sub[2] in ME/CFS is confirmed as a consequence of impaired muscular respiration, it does not automatically follow that breathing techniques to raise CO#sub[2] will alleviate symptoms. No clinical trial of adapted Buteyko breathing in ME/CFS has been published. The practitioner recommendations in this section (Courtney, McKeown) derive from clinical experience reported in Ussher (2025) @Ussher2025, not from peer-reviewed research.
+]
+
+=== Buteyko Breathing Method
+
+The Buteyko Method, developed by Ukrainian physician Konstantin Buteyko (1923--2003), aims to normalise breathing patterns by reducing breathing depth to build CO#sub[2] levels. The core measurement is the "Control Pause": the time one can comfortably hold the nose after a normal exhalation before the first distinct urge to breathe. A longer Control Pause reflects higher baseline CO#sub[2] and better CO#sub[2] tolerance.
+
+=== ME/CFS Adaptation
+
+#warning-env(title: [Standard Buteyko Is Too Aggressive for ME/CFS])[
+Some Buteyko practitioners claim chronic hyperventilation _causes_ ME/CFS. The evidence discussed above suggests the reverse: ME/CFS causes low CO#sub[2]. Standard Buteyko targets (40+ second Control Pause, 3--4 hours daily practice) are unrealistic and potentially harmful for ME/CFS patients. The adapted approach below uses gentle techniques with realistic goals.
+]
+
+Rosalba Courtney (Australian PhD specialising in dysfunctional breathing in ME/CFS) advises that ME/CFS hyperventilation is driven by mitochondrial and pulmonary limitations, requiring a gentle rather than aggressive approach:
+
+    - *Realistic targets:* Starting Control Pause typically 5--15 seconds; achievable target 20 seconds (a meaningful physiological improvement); 40+ seconds unrealistic while ill
+    - *Daily habits:* Nasal breathing during the day (mouth breathing loses CO#sub[2]); mouth taping at night with hypoallergenic tape; walking at a pace that does not deepen breathing
+    - *Breath reduction exercises:* Reduce breathing depth by 10--25% while sitting; start with 5 breaths, build to 5--20 minute sessions. The resulting mild air hunger is the training stimulus
+    - *Steps practice:* Walk while holding the nose (start with 10 steps, progress gradually). This teaches muscles to extract oxygen with less available air and may modify the anaerobic threshold---McKeown notes it mimics high-altitude training effects and may increase red blood cell mass
+    - *Integration with pacing:* Walking pace should be set by breathing, not perceived effort. If breathing deepens, the pace is too fast
+
+=== Structured Reconditioning: The Klimas Program
+<sec:klimas-program>
+
+Prof. Nancy Klimas observed a clinically suggestive pattern: a patient who crashed after a continuous 12-minute walk did _not_ crash when the same total walking time was divided into three 4-minute walks separated by 4-minute supine rests. This observation led to a structured reconditioning protocol distinct from graded exercise therapy (GET).
+
+*Physiological rationale:* Supine rest between activity bouts maximises blood return to the peripheries and muscles, temporarily ameliorating the global hypoperfusion that drives exercise intolerance (see Chapter @ch:cardiovascular). The body can recover from brief exertion bursts in ways it cannot from sustained continuous effort.
+
+*Protocol structure (example progression over 6 months):*
+
+    + _Weeks 1--2:_ 3 $times$ 2-minute walks daily, 2-minute supine rest after each
+    + _Weekly progression:_ Add 1--2 minutes to one session; insert additional rest breaks within longer sessions
+    + _By month 6:_ Morning and afternoon sessions of 8+7~min walking with 8+7~min supine rest between bouts = 30--45~min total walking per day without continuous effort
+
+*Key distinctions from GET:*
+
+    - No prescribed trajectory: increases only when patient feels ready
+    - Rests are physiologically motivated (vascular reperfusion), not psychological
+    - Does not assume deconditioning is the primary problem
+    - Immediate rollback at any sign of PEM
+    - Goal is improved quality of life within illness, not "cure through exercise"
+
+*Very slow walking:* Walking pace should match actual O#sub[2] extraction capacity. Breathing should remain identical before and after climbing stairs---if it deepens, the pace is too fast. Stairs and inclines require dramatic pace reduction; resting 5 seconds per step if needed.
+
+#limitation(title: [Evidence Base for Klimas Reconditioning Program])[
+This protocol is based on clinical observation (reported by Ussher 2025 @Ussher2025, attributed to Prof.\ Nancy Klimas). No published protocol paper, controlled trial, or peer-reviewed outcome data exist for this specific approach. The week-by-week progression parameters are clinical heuristics, not empirically calibrated values. The physiological rationale (supine rest for blood redistribution) is consistent with established cardiovascular physiology but has not been tested as a structured intervention in ME/CFS.
+]
+
+=== Compression Stockings for Orthostatic Support
+<sec:compression-stockings>
+
+#clinical-finding(title: [Compression Stockings Halve Cerebral Blood Flow Decline During Orthostatic Stress])[
+Visser, Van Campen, and Rowe (2022) conducted a randomised crossover trial in 16 ME/CFS patients using knee-high 20--30~mmHg medical-grade compression stockings during tilt-table testing @VisserVanCampenRowe2022compression.
+
+    - _Without stockings:_ Cerebral blood flow reduced approximately 30% when upright
+    - _With stockings:_ Cerebral blood flow reduced approximately 14% when upright
+    - The 16-percentage-point improvement is clinically significant, though still above the healthy control norm (~5%)
+
+Hip-high stockings would likely show greater benefit but have not been studied. Stockings are low-cost, immediately actionable, and generally well-tolerated (contraindicated in peripheral arterial disease; some patients report heat intolerance or skin irritation). They are particularly helpful during upright activities such as shopping and social events.
+] <obs:compression-stockings>
+
+=== Osteopathic and Lymphatic Drainage: The Perrin Technique
+<sec:perrin-technique>
+
+The Perrin Technique, developed by British osteopath Dr. Raymond Perrin from 1989, combines lymphatic drainage effleurage with classical osteopathic spinal manipulation, targeting thoracic spine rigidity and lymphatic stagnation.
+
+*Theoretical basis:* Thoracic spine rigidity impairs lymphatic drainage from the brain (the brain's glymphatic/lymphatic system was only recently confirmed, though no study has directly demonstrated that Perrin's technique affects glymphatic clearance). Stagnant lymphatic fluid allows toxin and metabolic waste accumulation in the central nervous system, potentially contributing to autonomic dysregulation. A sympathetic-dominant nervous system further slows lymphatic flow, creating a vicious cycle.
+
+*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls) @Perrin2017diagnosis. The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple ("Perrin's point"), tender solar plexus, and reduced cranio-sacral rhythm.
+
+*Efficacy evidence:* Perrin et al. (2022) treated 20 Long~COVID patients with an average of 9 weekly sessions and measured improvement on a 54-item fatigue scale: 41.8% improvement in men, 60.5% improvement in women, with most scale items improving approximately 50% @Perrin2022longcovid.
+
+*Craniocervical considerations:* Bragée et al. (2020) performed MRI on 229 ME/CFS patients and found craniocervical obstructions in approximately 80% @Bragee2020. This suggests structural spinal issues may be more prevalent in severe disease, though the direction of causality remains unclear.
+
+#limitation(title: [Evidence Base for Perrin Technique])[
+No randomised controlled trial of the Perrin Technique exists for ME/CFS specifically. The Long~COVID study was uncontrolled ($n = 20$). The diagnostic study is promising but requires independent replication. Cost and treatment duration (weekly sessions for 3 months, then tapering over ~1 year) present accessibility barriers.
+]
+
 == Environmental Modifications
 <sec:environmental>
 
@@ -724,7 +823,7 @@ The home environment should be configured to minimize physical demands and senso
     - *Reducing physical demands*: Single-floor living where possible. Stairlift or bedroom relocation to ground floor if stairs trigger PEM. Shower chair, handheld showerhead, grab bars. Electric can openers, jar openers, and lightweight cookware. Voice-activated home assistants for lights, temperature, and communication
     - *Lighting*: Adjustable lighting throughout the home. Dimmer switches or smart bulbs that allow intensity control. Many ME/CFS patients experience photosensitivity; overhead fluorescent lighting is particularly problematic. Warm-toned, indirect lighting at low intensity is generally best tolerated
     - *Noise reduction*: Soft furnishings (carpets, curtains, upholstered furniture) absorb sound. Double glazing reduces external noise. White noise machines provide consistent background sound that masks intermittent disturbances. Noise-cancelling headphones for use during sensory overload episodes
-    - *Temperature control*: Programmable thermostat maintaining 20–22\textdegree C. Ceiling fans for air circulation without cold drafts. Heated mattress pad for patients with cold intolerance. Portable air conditioning unit for the primary living/resting space if central cooling is unavailable
+    - *Temperature control*: Programmable thermostat maintaining 20–22°C. Ceiling fans for air circulation without cold drafts. Heated mattress pad for patients with cold intolerance. Portable air conditioning unit for the primary living/resting space if central cooling is unavailable
 
 === Chemical and Environmental Sensitivities
 

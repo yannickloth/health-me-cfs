@@ -153,6 +153,7 @@
 
 // ── Part III: Treatment and Management ───────────────────────────────────────
 #include "part3-treatment/part3-intro.typ"
+#include "part3-treatment/ch14-mechanism-treatment-map.typ"
 #include "part3-treatment/ch14-symptom-management.typ"
 #include "part3-treatment/ch14a-urgent-action-severe.typ"
 #include "part3-treatment/ch14b-action-mild-moderate.typ"

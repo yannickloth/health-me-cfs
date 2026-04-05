@@ -68,6 +68,8 @@ LDN's reputation as a “harmless” intervention may lead to inadequate monitor
 
 #speculation(title: [LDN Combination Protocols])[
 Patient community reports describe synergistic benefits from combining LDN with other interventions. One frequently mentioned combination involves LDN (at bedtime), NAD+ precursors (nicotinamide riboside or NMN, in the morning), and melatonin (at bedtime for circadian regulation). The theoretical rationale combines: (1) LDN's anti-neuroinflammatory effects, (2) NAD+'s role in mitochondrial energy production and cellular repair, and (3) melatonin's effects on sleep architecture, circadian rhythm, and its own anti-inflammatory properties. Individual case reports describe dramatic improvements, including return to work after prolonged disability. However, this represents *anecdotal evidence only*—no controlled trials have evaluated this specific combination, and publication bias strongly favors positive reports. The heterogeneous nature of ME/CFS means that treatments helping some patients may be ineffective or harmful for others. Patients considering such combinations should work with knowledgeable physicians and implement changes sequentially to identify individual responses.
+
+*Testable prediction:* A controlled crossover trial of LDN + NAD+ precursors + melatonin vs LDN monotherapy shows greater improvement in PEM frequency and cognitive processing speed at 12 weeks. Falsified if the combination produces no benefit over LDN alone. *Limitations:* Evidence is anecdotal only; no controlled data for this specific combination exist.
 ]
 
 *Energy Profile.*
@@ -597,6 +599,8 @@ Add to basic stack:
 
 ==== Implementation Strategy
 
+_Severe ME/CFS patients should begin with the most minimal subset (CoQ10 alone or CoQ10 + magnesium) and introduce one supplement at a time with 2--4 week intervals, given documented hypersensitivity to new compounds. Patients on diabetes medication should note the ALA hypoglycaemia risk (see above) before including it in any stack._
+
     - Start with basic stack for 4–6 weeks
     - Add one additional supplement at a time, spaced 2–4 weeks apart
     - Monitor response to each addition with symptom diary
@@ -731,6 +735,8 @@ Several features make PEA particularly suitable for ME/CFS:
 
 #speculation(title: [PEA + LDN Combination])[
 Both PEA and low-dose naltrexone (LDN) modulate neuroinflammation through distinct mechanisms—PEA via PPAR-$alpha$/mast cells and LDN via TLR4/microglia. Theoretically, combining these agents could provide synergistic anti-neuroinflammatory effects. Patient community reports describe such combinations, though no controlled trials have evaluated them. Given the excellent safety profiles of both compounds, empirical combination in patients with partial response to either alone may be reasonable under physician supervision.
+
+*Testable prediction:* PEA + LDN combination produces greater reduction in neuroinflammatory markers (serum IL-6, TNF-$alpha$) or symptom scores than LDN alone in a double-blind crossover design. Falsified if the combination shows no benefit beyond LDN monotherapy. *Limitations:* Evidence is anecdotal only; no controlled data for this specific combination exist.
 ]
 
 *Energy Profile.*
@@ -1246,6 +1252,8 @@ A striking feature of ME/CFS treatment is the extreme variability in individual 
 Patient communities have developed an empirical treatment sequencing approach that prioritizes symptom domains in a specific order: (1) cognition/brain fog first, (2) fatigue second, (3) muscle weakness and pain third. The rationale is that cognitive restoration allows patients to better recognize their activity limits and manage pacing effectively, whereas fatigue improvement without cognitive restoration leads to dangerous overexertion. A frequently described sequence combines: low-dose aripiprazole or similar dopaminergic agents for cognitive symptoms (if metabolically tolerated), followed by low-dose naltrexone for sustained energy support, then pyridostigmine for autonomic/muscle symptoms. This represents community-derived knowledge rather than evidence-based protocol. Individual case reports describe dramatic functional improvement with this sequence, though others experience minimal benefit or adverse effects. The theoretical appeal lies in addressing the constraint (cognition) that limits patient's ability to self-manage other symptoms. However, this protocol lacks controlled trial validation, and the optimal sequence likely varies by individual pathophysiology. Patients considering such sequencing should work with knowledgeable physicians, monitor carefully for adverse effects (particularly metabolic effects of dopaminergic agents), and recognize that individual responses may differ substantially from published case reports.
 #hypothesis(title: [Upstream-to-Downstream Treatment Sequencing])[
 
+*Certainty:* 0.25 (mechanistic reasoning from known pharmacology; no controlled trials testing this specific sequence; speculative cascade model).
+
 The “Brain First” sequence LDA → LDN → Mestinon may align with the neuroinflammatory cascade hypothesis in pathophysiology:
 
 *Proposed sequencing logic*:
@@ -1273,8 +1281,6 @@ This upstream-to-downstream approach may be more effective than simultaneous mul
     - The optimal sequence likely varies between rapid/acute responders (who benefit from simultaneous multi-agent) and slow-responders (who benefit from sequential layering)
 
 The “Brain First” sequence represents an emerging hypothesis that cognitive improvement should precede fatigue improvement to allow safer self-management of remaining symptoms. Whether the proposed cascade mechanism actually explains superior outcomes remains uncertain.
-
-*Certainty:* 0.25 (mechanistic reasoning from known pharmacology; no controlled trials testing this specific sequence; speculative cascade model)
 ] <hyp:treatment-cascade-mechanism>
 
 #open-question(title: [Predicting Treatment Response])[
@@ -1343,7 +1349,7 @@ For patients with suspected viral-driven ME/CFS who show cimetidine response, a 
 
 *Antivirals alone*:
 
-    - Directly inhibit viral replication (valacyclovir inhibits HSV/EBV/VZV DNA polymerase)
+    - Directly inhibit viral replication (valacyclovir inhibits HSV/EBV/VZV DNA polymerase @Lerner2002valacyclovir)
     - Reduce viral load during active replication phases
     - *Limitation*: Less effective during latency; require functional immune response for complete suppression
 
@@ -1357,7 +1363,7 @@ For patients with suspected viral-driven ME/CFS who show cimetidine response, a 
 ] <hyp:cimetidine-antiviral>
 
 Goldstein et al. @Goldstein1986CimetidineEBV reported improvement in patients with chronic active EBV infection treated with cimetidine. More recent reviews of H2 receptor immunomodulation @vanderPol2021H2ReceptorImmune confirm the mechanistic basis for enhanced cellular immunity. A recent pharmacokinetic study by Stuijt et al. @Stuijt2026CimetidineAcyclovir demonstrated that cimetidine significantly enhances systemic acyclovir concentrations through inhibition of renal clearance, providing a mechanistic rationale for the synergistic potential of cimetidine-antiviral combinations. The logical extension—combining H2 blockade with direct antiviral therapy—represents a hypothesis-driven approach worthy of controlled evaluation.
-*Practical Protocol Considerations.*
+*Practical Protocol Considerations.* _The following dosing considerations are speculative research discussion derived from the hypothesis above, not validated clinical guidance. This combination has not been evaluated in any controlled trial. See @sec:vim-pathway for formal safety warnings._
 
 For patients with:
 
@@ -1644,6 +1650,18 @@ If pyridostigmine's anti-inflammatory effects in severe COVID-19 are mediated by
 
 *Testable prediction*: ME/CFS patients on chronic pyridostigmine should show improved heart rate variability (reflecting enhanced vagal tone) that correlates with reductions in tissue-level inflammatory markers (e.g., neuroimaging-detected neuroinflammation) even without changes in serum cytokines.
 ] <spec:pyridostigmine-immunomod>
+
+#speculation(title: [Pyridostigmine as Anti-Kindling Agent by Proxy])[
+The PEM kindling hypothesis (Section @sec:pem-kindling, Chapter @ch:neurological) proposes that each autonomic crisis---orthostatic tachycardia, preload failure during exertion, vasovagal episodes---acts as a metabolic stress event that primes microglia and lowers the PEM threshold. In this framework, the number of autonomic crises per day directly determines the rate of progressive sensitization: more crises $arrow.r$ more microglial priming $arrow.r$ faster threshold decline.
+
+Pyridostigmine, by stabilizing autonomic function and reducing the frequency and severity of orthostatic decompensation, would reduce the daily "kindling trigger load" even without directly targeting neuroinflammation. This makes pyridostigmine *anti-kindling by proxy*: it prevents the peripheral events that drive central sensitization progression.
+
+If correct, this reframes pyridostigmine from a purely symptomatic autonomic agent into a potentially disease-modifying intervention whose benefit extends beyond hemodynamic improvement. A specific prediction follows: ME/CFS patients on chronic pyridostigmine should show slower progression of PEM threshold decline over 6--12 months compared to matched untreated patients, independent of any improvement in autonomic symptoms per se.
+
+This anti-kindling framing also suggests a synergistic rationale for combining pyridostigmine (reducing kindling triggers) with a direct anti-kindling agent such as levetiracetam (reducing the kindling response to each trigger)---addressing both the frequency and the impact of sensitizing events. The LIFT trial's factorial design (pyridostigmine $times$ LDN) @LIFT2025protocol will not test this specific combination, but its cognitive outcome data (DANA Brain Vital) may provide indirect evidence for disease modification.
+
+*Certainty*: 0.20 (inferred from combining the kindling hypothesis with pyridostigmine's autonomic mechanism; no direct evidence that autonomic stabilization slows PEM progression).
+] <spec:pyridostigmine-anti-kindling>
 
 ==== Ongoing Trials
 

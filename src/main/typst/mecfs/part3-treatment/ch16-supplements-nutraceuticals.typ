@@ -91,7 +91,7 @@ Category A (net energy provider). Essential cofactor for Na#super[+]/K#super[+]-
     - Supports autonomic function
     - Promotes sleep (GABA-A receptor modulation)
 
-*Evidence.* Low–Moderate for ME/CFS; one small trial showed benefit with IM magnesium sulfate.
+*Evidence.* Low–Moderate for ME/CFS; one small trial showed benefit with IM magnesium sulfate @Cox1991magnesium.
 
 *Forms.*
 
@@ -123,6 +123,14 @@ Many patients find pre-mixed electrolyte formulas convenient. Key ingredients to
 1 L water + 1/2 tsp salt + 1/4 tsp potassium chloride (Nu-Salt) + 2 tbsp sugar or honey + optional: squeeze of citrus
 ]
 Cost: pennies per liter versus \$1–3 for commercial products.
+
+*Clinical evidence for ORS efficacy.*
+<sec:ors>
+Medow et al. (2019) compared ORS (1~litre over 30~minutes, orally) with intravenous saline (1~litre) in children with POTS and found similar improvement in cerebral blood flow and similar reduction in orthostatic intolerance in both groups @Medow2019ors. This establishes ORS as a practical, non-invasive alternative to IV saline for blood volume expansion in dysautonomia. The mechanism exploits the intestinal sodium-glucose cotransporter (SGLT1): glucose in the ORS enables active sodium absorption in the small intestine, carrying water along osmotically. This pathway operates independently of renal sodium retention, which is impaired in ME/CFS due to RAAS suppression (see Section @sec:blood-volume in Chapter @ch:cardiovascular). For patients with severe hypovolemic thirst (Section @sec:hypovolemic-thirst in Chapter @ch:cardiovascular), consuming 70--80% of daily fluids as ORS rather than plain water can substantially reduce fluid intake while improving blood volume. Commercial products formulated for ME/CFS and POTS include Normalyte (dextrose-based, minimal additives) and Trioral Salts (lowest cost).
+
+#warning-env(title: [ORS Long-Term Safety])[
+Long-term safety of high daily ORS consumption has not been formally studied. Some clinicians report electrolyte formulations being hard on the kidneys. ORS may further suppress RAAS activity (the body receives easy electrolyte supply, reducing endogenous retention stimulus). Tapering is recommended when discontinuing regular ORS. Do not combine high ORS intake with aggressive salt loading.
+]
 
 #warning-env(title: [Histamine Intolerance and Electrolyte Products])[
 A substantial subset of ME/CFS patients have histamine intolerance (HIT) or mast cell activation syndrome (MCAS) @Afrin2017MCAS, making standard electrolyte products problematic (see Section @sec:mcas for MCAS pathophysiology). Common triggers in commercial electrolyte formulas:
@@ -198,6 +206,7 @@ Given the uncertainty, conservative initiation is prudent:
     - *Long-term risks:* High sodium intake carries cardiovascular risks independent of blood pressure @Stock2022sodium; regular monitoring advisable
 
 The interaction between dietary sodium and intracellular muscle sodium in ME/CFS has not been directly studied. This caution is based on documented intracellular elevation, plausible mechanisms, and clinical reports of sodium intolerance in some patients. Prospective studies comparing titration protocols with sodium MRI endpoints would clarify this relationship.
+
 == Mitochondrial and Energy Support
 <sec:mito-support>
 
@@ -396,7 +405,6 @@ Pediatric dosing for mitochondrial supplements is extrapolated from adult data a
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns{l c c c X}
   
   [*Supplement*], [*Adults ($gt.eq$18y)*], [*Adolescents (12–17y)*], [*Children (6–11y)*], [*Notes*],
   
@@ -591,7 +599,7 @@ Category A (net energy provider). B vitamins are essential cofactors for virtual
 
 *Rationale.* Essential for pyruvate dehydrogenase (PDH)—the enzyme that feeds pyruvate into the TCA cycle. PDH dysfunction is documented in ME/CFS.
 
-*Evidence.* Preliminary. Case reports and small studies suggest high-dose thiamine may help a subset of ME/CFS patients. One Italian study used 600–1800 mg daily with significant benefit in chronic fatigue.
+*Evidence.* Preliminary. Case reports and small studies suggest high-dose thiamine may help a subset of ME/CFS patients. One Italian study used 600–1800 mg daily with significant benefit in chronic fatigue @Costantini2013thiamine.
 
 *Forms.*
 
@@ -987,7 +995,7 @@ Given the documented gut microbiome abnormalities in ME/CFS @Giloteaux2016 @But
 
 *Rationale.* May restore beneficial bacteria, reduce gut permeability, modulate immune function, and reduce systemic inflammation.
 
-*Evidence.* Low–Moderate. Two small RCTs in ME/CFS showed modest benefit.
+*Evidence.* Low–Moderate. Two small RCTs in ME/CFS showed modest benefit @Rao2009probiotic @Sullivan2009probiotic.
 
 *Strain Selection.*
 
@@ -1072,7 +1080,8 @@ Discontinue a supplement if:
     - Financial burden outweighs uncertain benefit
     - Interactions with new medications
 
-Many ME/CFS patients accumulate large, expensive supplement regimens over time without systematically evaluating benefit. Periodically reassess: stop everything non-essential for 2–4 weeks, then reintroduce one at a time. You may discover that many supplements you've been taking for years provide no discernible benefit.
+Many ME/CFS patients accumulate large, expensive supplement regimens over time without systematically evaluating benefit. Periodically reassess: stop everything non-essential for 2–4 weeks, then reintroduce one at a time. Patients may discover that many supplements taken for years provide no discernible benefit.
+
 == Conclusion
 
 Supplements can play a supportive role in ME/CFS management, but expectations should be realistic:

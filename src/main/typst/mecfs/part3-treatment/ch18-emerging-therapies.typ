@@ -111,6 +111,19 @@ MDC002 has not entered clinical trials as of early 2026. All claims about potent
 The AIMM model predicts that patients with demonstrable vascular insufficiency, elevated muscle sodium on MRI, and post-infectious onset are the most likely responders to ionic cascade correction. Patients whose ME/CFS is predominantly autoimmune (elevated GPCR autoantibodies, responding to immunoadsorption) may benefit from the PDE7-inhibitory beta-adrenergic bypass effect of MDC002. Patients with predominantly central mechanisms (neuroinflammation, HPA dysregulation) may not benefit from peripheral ionic correction alone. Stratified trial design using intracellular sodium MRI (@Petter2022sodium methodology), GPCR autoantibody titres, and clinical subtype criteria is warranted.
 ]
 
+== Neuromuscular Junction Modulation: Amifampridin (3,4-DAP)
+<sec:amifampridin>
+
+Amifampridin (3,4-diaminopyridine) is a voltage-gated potassium channel blocker approved for Lambert-Eaton myasthenic syndrome (LEMS), where it enhances acetylcholine release at the neuromuscular junction by prolonging presynaptic action potentials. Its relevance to ME/CFS and post-COVID fatigue derives from the hypothesis that neuromuscular transmission failure contributes to the pathological fatigability observed in these conditions.
+
+Boehmeke (2024) reported a collective case series of five post-COVID syndrome patients treated with amifampridin, incorporating double-blind discontinuation trials with alternating three-day periods of active medication versus placebo @Boehmeke2024amifampridin. All five participants demonstrated improvement on the Bell Disability Scale, measuring alertness, physical capacity, and work capacity. Pathologically increased sleep requirement normalised during treatment. In the blinded discontinuation phase, two of five participants showed clear deterioration on placebo, confirming the drug effect beyond open-label response.
+
+#warning-env(title: [Amifampridin: Minimal Evidence Base])[
+This is a case series of five patients with no control group beyond the within-subject discontinuation design. Only two of five participants showed confirmed blinded response, and the three-day crossover periods may be too short for adequate washout. The mechanism connecting potassium channel blockade at the neuromuscular junction to post-COVID fatigue has not been characterised. Amifampridin carries risks of seizures (dose-dependent), paraesthesias, and gastrointestinal symptoms. Its use in post-COVID or ME/CFS is off-label and not supported by current evidence for clinical adoption outside a research setting.
+]
+
+*Evidence Grade*: D --- single n=5 case series with partial blinded confirmation; mechanistically interesting (NMJ modulation); RCT required
+
 == Mitophagy-Enhancing Compounds
 <subsubsec:mitophagy-enhancers>
 
@@ -153,7 +166,7 @@ The Diagnostic Mirage hypothesis (Speculation @spec:diagnostic-mirage, Chapter @
 
 Rapamycin inhibits mTOR (mechanistic target of rapamycin), a master regulator of cellular metabolism, growth, and autophagy. A theoretical rationale for ME/CFS has existed for several years; a 2025 uncontrolled pilot study provides the first human data on rapamycin in this population.
 
-== Mechanism of Action
+=== Mechanism of Action
 <subsubsec:rapamycin-mechanism>
 
 mTOR hyperactivation suppresses autophagy---the cellular recycling process that clears damaged organelles, misfolded proteins, and dysfunctional mitochondria. Rapamycin is a sensitive CYP3A4 and P-glycoprotein substrate; co-administration with CYP3A4 inhibitors (azole antifungals, macrolides, some antivirals) substantially elevates blood levels and must be avoided unless doses are adjusted under specialist supervision. Oral rapamycin has highly variable bioavailability (approximately 15%) with food substantially altering absorption; once-weekly off-label dosing at 6 mg is far below transplant immunosuppression doses, but even intermittent mTOR inhibition produces measurable immunosuppression. Rapamycin is used off-label in ME/CFS; its approved indications are organ transplant rejection prophylaxis and lymphangioleiomyomatosis.
@@ -162,16 +175,16 @@ mTOR hyperactivation suppresses autophagy---the cellular recycling process that 
 *Certainty: 0.25.* Ruan et al. (2025) reported autophagy impairment markers (reduced LC3-II, elevated p62) in ME/CFS patients @Ruan2025rapamycin, though caution is warranted: these markers were measured in peripheral blood cells from the same uncontrolled pilot study that assessed treatment outcomes, and PBMC autophagy markers may not reflect autophagy flux in the skeletal muscle, neurons, and other parenchymal tissues where dysfunction is hypothesised to matter. Elevated p62 can indicate either blocked autophagy flux or increased substrate production (e.g., from oxidative stress); distinguishing these requires a bafilomycin challenge assay, which was not performed. If autophagy impairment is real and tissue-relevant, proposed mechanisms include: (1) *mitophagy restoration* --- clearing dysfunctional mitochondria to reduce energy deficit and ROS generation; (2) *immunomodulation* --- shifting T-cell balance toward regulatory phenotypes via mTORC1 suppression; (3) *senolysis* --- reducing cellular senescence and the senescence-associated secretory phenotype (SASP), though direct evidence of elevated senescence markers in ME/CFS has not been independently established. The unifying "TorS" paradigm proposes mTOR hyperactivation as a shared mechanism across post-acute infection syndromes @BarTana2025mTOR; this is a single speculative proposal, not a consensus framework. These mechanisms are extrapolated from aging biology and oncology; none has been validated in ME/CFS-specific experimental models.
 ]
 
-== Clinical Evidence
+=== Clinical Evidence
 <subsubsec:rapamycin-evidence>
-
-#warning-env(title: [Rapamycin: Uncontrolled Pilot Only])[
-The Ruan 2025 study has no placebo arm. The response rate cannot be distinguished from natural fluctuation, regression to the mean, or placebo effect without an RCT. Of 86 enrolled patients, only 40 completed the full 90-day protocol (53% attrition); the 74.3% figure is computed from full-protocol completers, not from all enrolled patients, introducing severe selection bias toward tolerators. Rapamycin carries known risks even at low doses: delayed wound healing, mucositis, dyslipidaemia, insulin resistance, and infection reactivation risk (including EBV and HHV-6, commonly reactivated in ME/CFS). Use outside a clinical trial or specialist supervision is not appropriate.
-]
 
 Ruan et al.\ (2025) conducted the first dedicated ME/CFS rapamycin pilot study across six clinical sites @Ruan2025rapamycin. Of 86 patients enrolled, 40 completed the full 90-day protocol (53% attrition). On an intention-to-treat basis, approximately 34% of enrolled patients (29 of 86, assuming all dropouts as non-responders) could be considered responders; 74.3% of full-protocol completers reported improvement in fatigue and PEM. These two figures --- 34% vs.\ 74.3% --- bound the true response rate; the honest denominator depends on why patients dropped out (intolerance vs.\ logistical withdrawal). Autophagy markers (LC3-II, p62) changed in the same direction as reported symptoms in responders; this is a consistency finding within an uncontrolled study, not independent mechanistic validation, and it is compatible with general immunosuppression producing both effects. No serious adverse events were observed with the once-weekly protocol.
 
 mTOR inhibition also suppresses protein synthesis, which may be counterproductive in patients with significant muscle atrophy. The once-weekly protocol is intended to allow partial mTOR re-activation between doses; rapamycin's half-life is approximately 62 hours @Ruan2025rapamycin, meaning trough levels accumulate at steady state and the drug-free interval is limited. The claim of true pulsed inhibition should be regarded as a design intent rather than a confirmed pharmacokinetic outcome. If rapamycin produces benefit primarily through general immunosuppression rather than specific autophagy restoration, the dose-schedule rationale loses its specificity advantage over other immunomodulatory agents.
+
+#warning-env(title: [Rapamycin: Uncontrolled Pilot Only])[
+The Ruan 2025 study has no placebo arm. The response rate cannot be distinguished from natural fluctuation, regression to the mean, or placebo effect without an RCT. Of 86 enrolled patients, only 40 completed the full 90-day protocol (53% attrition); the 74.3% figure is computed from full-protocol completers, not from all enrolled patients, introducing severe selection bias toward tolerators. Rapamycin carries known risks even at low doses: delayed wound healing, mucositis, dyslipidaemia, insulin resistance, and infection reactivation risk (including EBV and HHV-6, commonly reactivated in ME/CFS). Use outside a clinical trial or specialist supervision is not appropriate.
+]
 
 *Evidence Grade*: C --- single uncontrolled pilot (53% attrition; ~34% ITT response); mechanistically grounded; placebo-controlled trial required
 
@@ -180,7 +193,7 @@ mTOR inhibition also suppresses protein synthesis, which may be counterproductiv
 
 The stellate ganglion is a bilateral cervical sympathetic ganglion (fusion of the inferior cervical and first thoracic ganglia at the C7--T1 level) providing sympathetic innervation to the head, neck, upper limbs, and heart. In clinical practice, stellate ganglion block (SGB) injects local anaesthetic at the C6 or C7 level (anterior to the ganglion proper) rather than directly at T1, because the C7--T1 approach carries pneumothorax risk. Transient Horner syndrome (ptosis, miosis, anhidrosis) is an expected consequence of a correctly placed block, not simply a complication.
 
-== Rationale in ME/CFS and Long COVID
+=== Rationale in ME/CFS and Long COVID
 <subsubsec:sgb-rationale>
 
 Several features of ME/CFS and Long COVID suggest sympathetic hyperactivation as a potentially treatable contributor. HRV studies in ME/CFS show a trend toward reduced parasympathetic tone, though findings are heterogeneous across studies and methodologies, and some cohorts show no significant sympatho-vagal difference from controls. Orthostatic tachycardia (POTS), present in a substantial minority of ME/CFS patients, is in part driven by sympathetic dysregulation. Liu and Duricka hypothesised that Long COVID fatigue, brain fog, and orthostatic intolerance resemble "sickness behaviour" perpetuated by autonomic dysregulation, and that neuromodulation at the sympathetic chain could interrupt this cycle @Liu2022SGB.
@@ -189,7 +202,7 @@ Several features of ME/CFS and Long COVID suggest sympathetic hyperactivation as
 *Certainty: 0.20.* The proposed causal chain is: infection → sustained sympathetic hyperactivation → vasoconstriction → endothelial hypoperfusion → symptom perpetuation; SGB interrupts the chain by temporarily blocking sympathetic output at C6--C7. Two aspects of this chain require scrutiny. First, endothelial hypoperfusion in ME/CFS may be driven by microclot obstruction, glycocalyx disruption, or primary endothelial dysfunction rather than by sympathetic vasoconstriction, in which case SGB would treat a downstream variable rather than a proximal cause. Second, local anaesthetic SGB lasts 6--12 hours; for a transient blockade to produce lasting benefit, the sympathetic hyperactivation must constitute a positive feedback loop that, once interrupted, does not re-establish itself. The neuroplasticity basis for such hysteresis in the sympathetic chain has not been demonstrated in ME/CFS or Long COVID.
 ]
 
-== Clinical Evidence
+=== Clinical Evidence
 <subsubsec:sgb-evidence>
 
 Three publications report outcomes after SGB in Long COVID patients. Liu & Duricka 2022 (J Neuroimmunol; _n_ = 2) is a two-patient case report in which both patients improved across fatigue, PEM, cognitive dysfunction, and sleep @Liu2022SGB. Pearson et al.\ 2023 (Cureus; _n_ = 41) is a retrospective cohort from a chronic pain practice in which 86% reported symptom reduction; there is no control group @Pearson2023SGB. Duricka & Liu 2024 (Autonomic Neuroscience) is a retrospective chart review from the same group as the 2022 paper, confirming improvements in fatigue, PEM, cognition, and mood @Duricka2024SGB. Two of the three publications originate from the same authors, so this represents two independent data sources, not three.
@@ -207,7 +220,7 @@ Patients with objective evidence of sympathetic hyperactivation (resting tachyca
 
 Sulodexide (Aterina) is a highly purified glycosaminoglycan mixture (80% fast-moving heparin fraction, 20% dermatan sulphate) used in European vascular medicine. Its relevance to Long COVID and ME/CFS derives from endothelial glycocalyx restoration.
 
-== Mechanism
+=== Mechanism
 <subsubsec:sulodexide-mechanism>
 
 Endothelial glycocalyx damage in Long COVID has been documented directly by intravital microscopy and indirectly via plasma syndecan-1 shedding @Charfeddine2022sulodexide. Whether the same mechanism operates in ME/CFS outside Long COVID has not been directly measured; the overlap in microclot and endothelial findings makes it a plausible inference but not an established fact.
@@ -216,7 +229,7 @@ Endothelial glycocalyx damage in Long COVID has been documented directly by intr
 *Certainty: 0.30.* When the endothelial glycocalyx is disrupted, the following downstream consequences are predicted by vascular biology: increased vascular permeability, platelet and leukocyte adhesion promoting thromboinflammation, loss of shear-stress mechanosensing impairing flow-dependent vasodilation, and exposure of subendothelial collagen promoting microclot formation. These are established vascular pathophysiology findings in glycocalyx-damaged endothelium generally; their contribution to ME/CFS symptom production is inferred, not demonstrated. Sulodexide replenishes heparan sulphate and dermatan sulphate glycocalyx components, and also exerts direct anticoagulant and anti-inflammatory effects independent of glycocalyx restoration. The clinical outcomes in the Charfeddine trial may therefore reflect anticoagulant and anti-inflammatory activity rather than glycocalyx-specific restoration.
 ]
 
-== Clinical Evidence
+=== Clinical Evidence
 <subsubsec:sulodexide-evidence>
 
 Charfeddine et al.\ (2022) conducted the TUN-EndCOV study, a multi-centre controlled trial in Long COVID patients with persistent cardiac symptoms @Charfeddine2022sulodexide:
@@ -236,6 +249,30 @@ Sulodexide has antithrombotic and anticoagulant properties. Patients already on 
 
 *Evidence Grade*: C --- controlled trial positive for Long COVID cardiac subgroup; ME/CFS extrapolation requires validation
 
+== Acute Antivirals for Long COVID Prevention: Negative Evidence
+<sec:paxlovid-longcovid>
+
+A common clinical assumption has been that early antiviral treatment of acute SARS-CoV-2 infection might prevent the development of Long COVID. Durstenfeld et al. (2024) tested this hypothesis in an observational cohort of 4,684 participants from the COVID Citizen Science study, of whom 988 (21.1%) received nirmatrelvir (Paxlovid) during acute infection @Durstenfeld2024paxlovid. Long COVID symptoms at 90+ days occurred in 16.1% of the treatment group versus 14.0% of controls---no statistically significant reduction. Symptom recurrence ("Paxlovid rebound") was not associated with subsequent Long COVID risk.
+
+This negative finding is clinically important: it refutes the assumption that viral persistence during acute infection is the sole driver of Long COVID, and by extension challenges the simplest viral persistence models for post-infectious ME/CFS. If acute viral load reduction were sufficient to prevent chronic sequelae, nirmatrelvir should have shown benefit. The result is consistent with models in which immune dysregulation, autoimmune priming, or tissue-resident viral reservoirs established early in infection persist independently of circulating viral levels.
+
+#limitation(title: [Observational Design])[
+This is an observational study with potential selection bias (sicker patients may have been more likely to receive nirmatrelvir). The cohort was predominantly vaccinated, white, and college-educated, limiting generalisability. The study cannot exclude a small protective effect below the detection threshold, and the 90-day symptom assessment may miss later-onset Long COVID.
+]
+
+== Endothelial HDL Proteome Modulation: Statin/ARB Combination
+<sec:hdl-statin-arb>
+
+Grote et al. (2024) explored a combination of statins (HMG-CoA reductase inhibitors) and angiotensin II receptor blockers (ARBs) as a therapeutic approach for post-COVID syndrome based on HDL proteome analysis @Grote2024HDLproteome. In 16 patients (8 with post-COVID syndrome, 8 with post-vaccination syndrome), quantitative proteomics revealed abnormal HDL composition---elevated haemoglobin and cytoskeletal proteins compared to healthy controls---with no significant differences between PCS and PVS groups. Following six weeks of combined statin/ARB therapy, treatment reduced expression of inflammatory cytokines and adhesion molecules in endothelial cells, and upregulated HDL-associated proteins FAM3C, ATP6AP2, and ADAM10.
+
+The rationale connects to the endothelial dysfunction documented in ME/CFS and Long COVID (Chapter @ch:cardiovascular): disrupted renin-angiotensin system signalling and cholesterol metabolism dysfunction may contribute to endothelial activation and vascular inflammation. Statin/ARB combination addresses both pathways simultaneously.
+
+#warning-env(title: [Very Preliminary; No Control Group])[
+This is an uncontrolled study with 16 participants. No placebo arm, no blinding, and no clinical outcome measures beyond proteomics and questionnaires. Both statins and ARBs have well-characterised pleiotropic effects (anti-inflammatory, endothelial-protective) that could account for symptomatic improvement independently of HDL proteome correction. The finding that PCS and PVS patients had identical HDL abnormalities is interesting but may reflect shared endothelial dysfunction rather than a specific spike-protein-mediated mechanism. Larger controlled trials with clinical endpoints are required before this can be considered a treatment approach.
+]
+
+*Evidence Grade*: D --- n=16 uncontrolled proteomics study; mechanistically interesting; RCT required
+
 == Viral Persistence: Maraviroc and Pravastatin
 <sec:maraviroc-pravastatin>
 
@@ -244,7 +281,7 @@ Patterson et al.\ proposed that a subset of Long COVID and ME/CFS patients harbo
     - *Maraviroc* (CCR5 antagonist): Blocks CCR5-mediated monocyte migration and activation; CCR5 is upregulated on non-classical monocytes in Long COVID
     - *Pravastatin* (or atorvastatin): Pleiotropic anti-inflammatory and endothelial-stabilising effects; reduces monocyte activation through NF-κB pathways
 
-== Evidence
+=== Evidence
 <subsubsec:maraviroc-evidence>
 
 Patterson et al.\ (2023) — the same group that proposed the hypothesis — reported outcomes in 18 participants (case series) receiving maraviroc 300 mg twice daily plus pravastatin 10 mg daily @Patterson2023maraviroc:
@@ -284,7 +321,7 @@ Anti-PD-1 therapies carry a well-characterised risk of immune-related adverse ev
 
 Psilocybin is a 5-HT2A serotonin receptor agonist that produces acute psychedelic effects and --- more durably --- appears to reduce default-mode-network activity and promote dendritic spine growth in preclinical models. Whether "default-mode-network hyperactivity" is a consistent ME/CFS finding is contested: some neuroimaging studies show hypoactivation rather than hyperactivation, and the relationship to brain fog symptoms has not been established causally. Putative mechanistic relevance to ME/CFS includes serotonergic modulation of the tryptophan/kynurenine pathway (Chapter @ch:neurological) and preclinical anti-inflammatory effects via 5-HT2A signalling. However, 5-HT2A agonism does not directly modulate kynurenine pathway enzymes (IDO, TDO, KMO); any interaction between serotonergic and kynurenine dysregulation would be indirect and speculative.
 
-There are no controlled trial data in ME/CFS. Available evidence consists of a single case report by Chopra et al.\ (2024) of a patient who self-administered psilocybin combined with MDMA and reported significant symptom improvement @Chopra2024psilocybin --- the combination makes it impossible to attribute the effect to psilocybin alone --- and a small pilot study by Bornemann et al.\ (Front Psychiatry, 2024) suggesting potential benefit for Long COVID neuropsychiatric symptoms.
+There are no controlled trial data in ME/CFS. Available evidence consists of a single case report by Chopra et al.\ (2024) of a patient who self-administered psilocybin combined with MDMA and reported significant symptom improvement @Chopra2024psilocybin --- the combination makes it impossible to attribute the effect to psilocybin alone --- and an observational Reddit-based investigation by Bobak et al.\ (2025) @Bobak2025psilocybin suggesting potential benefit for Long COVID neuropsychiatric symptoms (78% of 110 self-reporting users described improvement).
 
 #warning-env(title: [Legal Status, PEM Risk, and Drug Interactions])[
 Psilocybin remains a Schedule I substance in most jurisdictions. Psychedelic sessions involve 4--6 hours of sustained cognitive and physiological activation; in severe and very severe ME/CFS this level of exertion is very likely to trigger significant post-exertional deterioration and is contraindicated. Any investigation in moderate ME/CFS must monitor for PEM as a primary safety endpoint. Psilocybin should not be combined with SSRIs or SNRIs without specialist guidance: SSRIs cause pharmacodynamic blunting of psychedelic effects via 5-HT2A downregulation, and the addition of a direct 5-HT2A agonist (psilocin, the active metabolite) to serotonin-elevating agents carries a clinically recognised risk of serotonin syndrome, not merely a theoretical one. Additionally, patients with a personal or family history of psychosis, schizophrenia, or bipolar disorder are considered contraindicated for psychedelic administration due to risk of triggering or exacerbating a psychotic episode; this is a standard exclusion criterion in clinical psilocybin research and must be assessed before any trial participation. The Chopra 2024 case used MDMA co-administration, a combination with additional serotonergic and cardiovascular risks not representative of psilocybin alone.
@@ -310,7 +347,7 @@ Guanfacine is a centrally-acting α₂-agonist with clinically significant cardi
 
 Nicotine activates nicotinic acetylcholine receptors (nAChRs), including α₇-nAChR, which plays significant roles in neuroimmune regulation (the "cholinergic anti-inflammatory pathway"), autonomic function, and prefrontal cognitive processing.
 
-Leitzke (2023, Bioelectronic Medicine) proposed nAChR dysfunction as a unifying mechanism for Long COVID symptoms and reported a case series (_n_ = 4) showing improvement with 7.5 mg/day transdermal nicotine. Patient community surveys report high self-reported response rates, but these are uncontrolled self-report data from self-selected populations and cannot be interpreted as evidence of efficacy.
+Leitzke (2023) @Leitzke2023nAChR proposed nAChR dysfunction as a unifying mechanism for Long COVID symptoms and reported a case series (_n_ = 4) showing improvement with 7.5 mg/day transdermal nicotine. Patient community surveys report high self-reported response rates, but these are uncontrolled self-report data from self-selected populations and cannot be interpreted as evidence of efficacy.
 
 #warning-env(title: [Cardiovascular Caution; Drug Interactions; Addictive Potential])[
 Nicotine is a cardiovascular stimulant. In POTS patients with already elevated sympathetic tone and resting tachycardia, nicotine may worsen tachycardia and hypertension. Transdermal nicotine produces sustained systemic levels, increasing cardiovascular exposure relative to intermittent dosing. Use is off-label in ME/CFS; the approved indication is smoking cessation.
@@ -331,7 +368,7 @@ Nicotine is a developmental neurotoxin via nAChR activation and must not be used
 == Tocilizumab (IL-6 Receptor Blockade)
 <subsec:tocilizumab>
 
-Tocilizumab (Actemra) is a monoclonal antibody blocking the IL-6 receptor, approved for rheumatoid arthritis, giant cell arteritis, and cytokine release syndrome. Its use in Long COVID or ME/CFS is off-label, extrapolated from the IL-6 elevation hypothesis. IL-6 has been reported as elevated in some ME/CFS cohorts, though the literature is heterogeneous: Hornig et al. (2015) found IL-6 elevation only in patients with short illness duration ($lt.eq$3 years), not in long-duration patients, illustrating that "elevated in a subset" does not imply a consistent, reliable treatment target across the population.
+Tocilizumab (Actemra) is a monoclonal antibody blocking the IL-6 receptor, approved for rheumatoid arthritis, giant cell arteritis, and cytokine release syndrome. Its use in Long COVID or ME/CFS is off-label, extrapolated from the IL-6 elevation hypothesis. IL-6 has been reported as elevated in some ME/CFS cohorts, though the literature is heterogeneous: Hornig et al. (2015) @Hornig2015 found IL-6 elevation only in patients with short illness duration ($lt.eq$3 years), not in long-duration patients, illustrating that "elevated in a subset" does not imply a consistent, reliable treatment target across the population.
 
 A 2022 case report by Visvabharathy et al. described a rheumatoid arthritis patient who developed post-COVID fatigue and brain fog @Visvabharathy2022tocilizumab. Discontinuing tocilizumab (already prescribed for her RA) provoked symptom relapse; resuming it achieved resolution. An important confound is that stopping tocilizumab in an RA patient could independently provoke an RA flare producing fatigue, brain fog, and malaise indistinguishable from Long COVID symptoms; the case report does not fully resolve this alternative explanation. The observation is suggestive but cannot be interpreted as proof-of-concept for IL-6-driven Long COVID without an RA-free comparator.
 
@@ -400,7 +437,7 @@ Both leronlimab and maraviroc target CCR5 but through different mechanisms (mono
 GLP-1 receptor agonists --- semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound, a dual GLP-1/GIP agonist) --- are approved for type 2 diabetes and obesity. Their use in ME/CFS or Long COVID is off-label. Proposed mechanisms of relevance, all extrapolated from non-ME/CFS literature:
 
 #speculation(title: [GLP-1 Agonist Mechanisms Extrapolated to ME/CFS])[
-*Certainty: 0.20.* None of the following mechanisms has been validated in ME/CFS or Long COVID patients; each is inferred from the drug's known pharmacology in other disease contexts. (1) *Anti-inflammatory*: GLP-1R activation suppresses NF-κB-driven cytokine production in macrophages and microglia in preclinical and diabetic-population studies. (2) *Mast cell modulation*: GLP-1R is expressed on mast cells in preclinical models; agonism reduces degranulation in vitro; whether this translates to clinically meaningful MCAS suppression at therapeutic doses in humans is untested. (3) *Neuroprotection*: GLP-1R agonism promotes BDNF and reduces neuroinflammatory markers in Parkinson's disease and metabolic syndrome studies; early-phase trials in Parkinson's have shown modest signal (Athauda et al., 2017); Phase 3 Alzheimer's data were not yet published as of March 2026. (4) *Mitochondrial effects*: GLP-1R signalling activates AMPK/PGC-1α pathways in metabolic tissue; mitochondrial relevance in ME/CFS is speculative. (5) *Endothelial protection*: Reduces endothelial inflammation in cardiovascular trials. A multi-target rationale spanning five distinct mechanisms increases the prior probability that at least one will contribute --- but it also complicates falsifiability: a negative trial could be attributed to insufficient effect on any one mechanism while leaving the others intact.
+*Certainty: 0.20.* None of the following mechanisms has been validated in ME/CFS or Long COVID patients; each is inferred from the drug's known pharmacology in other disease contexts. (1) *Anti-inflammatory*: GLP-1R activation suppresses NF-κB-driven cytokine production in macrophages and microglia in preclinical and diabetic-population studies. (2) *Mast cell modulation*: GLP-1R is expressed on mast cells in preclinical models; agonism reduces degranulation in vitro; whether this translates to clinically meaningful MCAS suppression at therapeutic doses in humans is untested. (3) *Neuroprotection*: GLP-1R agonism promotes BDNF and reduces neuroinflammatory markers in Parkinson's disease and metabolic syndrome studies; early-phase trials in Parkinson's have shown modest signal (Athauda et al., 2017) @Athauda2017exenatide; Phase 3 Alzheimer's data were not yet published as of March 2026. (4) *Mitochondrial effects*: GLP-1R signalling activates AMPK/PGC-1α pathways in metabolic tissue; mitochondrial relevance in ME/CFS is speculative. (5) *Endothelial protection*: Reduces endothelial inflammation in cardiovascular trials. A multi-target rationale spanning five distinct mechanisms increases the prior probability that at least one will contribute --- but it also complicates falsifiability: a negative trial could be attributed to insufficient effect on any one mechanism while leaving the others intact.
 ]
 
 A tirzepatide trial in Long COVID (_n_ ≈ 1,000, enrollment reportedly completed December 2025) is the largest prospective GLP-1 trial in this population; results are pending. A positive result in Long COVID would be important for ME/CFS but would not directly license GLP-1 use in ME/CFS patients without a Long COVID history; Long COVID and ME/CFS share clinical features but are not the same population, and a separate ME/CFS trial would be needed to extend any finding. The trial's secondary outcomes (which symptom domains respond, correlation with baseline inflammatory or metabolic markers) will determine whether subgroup-enriched ME/CFS trials are warranted.
@@ -436,7 +473,7 @@ Two anti-SARS-CoV-2 monoclonal antibodies appear in emerging therapy databases i
 
 Pemivibart (AER002) is an anti-spike monoclonal antibody. A UCSF randomised controlled trial (_n_ = 36) investigated whether anti-spike antibody administration could reduce persistent spike protein antigen in Long COVID patients and thereby reduce symptoms. Results were presented at a spring 2025 symposium but have not been published in peer-reviewed form as of March 2026.
 
-*What the trial will establish:* If pemivibart reduces persistent spike antigen and that reduction correlates with symptom improvement, it would provide the strongest direct evidence to date that spike protein persistence is a causal driver of Long COVID symptoms --- not just a biomarker. This would open a dedicated treatment pathway for the spike-persistence subgroup and inform the viral persistence sections of Chapters @ch:emerging-therapies and @ch:immune-dysfunction. Conversely, if antigen is reduced but symptoms are not, it would suggest that spike persistence is a downstream effect of immune dysregulation rather than its cause, shifting therapeutic priority toward upstream immune repair.
+*What the trial will establish:* If pemivibart reduces persistent spike antigen and that reduction correlates with symptom improvement, it would provide the strongest direct evidence to date that spike protein persistence is a causal driver of Long COVID symptoms --- not just a biomarker. This would open a dedicated treatment pathway for the spike-persistence subgroup and inform the viral persistence sections of Chapter @ch:immune-dysfunction. Conversely, if antigen is reduced but symptoms are not, it would suggest that spike persistence is a downstream effect of immune dysregulation rather than its cause, shifting therapeutic priority toward upstream immune repair.
 
 #limitation(title: [Awaiting Published Results])[
 Results of the pemivibart Long COVID trial (_n_ = 36) are unpublished as of March 2026. The mechanistic premise --- persistent spike antigen driving symptoms --- is compatible with published evidence of spike protein detection months post-infection, but the frequency of persistent antigen and its causal role remain debated. Additional interpretive complexity: if spike persistence is a consequence of immune failure to clear antigen rather than an independent driver of symptoms, then antibody-mediated clearance would remove a biomarker without addressing the upstream immune dysfunction.
@@ -486,3 +523,33 @@ However, the trial does not definitively refute the autoantibody hypothesis. Two
 *Note:* For immunoadsorption (a related but distinct apheresis approach targeting IgG specifically), see Section @sec:immunoadsorption.
 
 *Evidence Grade*: B --- sham-controlled Phase II RCT (_n_ = 50), negative primary endpoint; autoantibody-unselected population; subgroup data pending
+
+== HELP Apheresis (Heparin-Induced Extracorporeal LDL/Fibrinogen Precipitation)
+<sec:help-apheresis>
+
+HELP apheresis is a distinct approach from TPE that targets microclots and fibrinogen specifically rather than replacing plasma wholesale. Blood is drawn, plasma separated from red blood cells, and plasma run through a sub-filter containing heparin (400,000~IU per session---20$times$ the standard oral dose, but remaining within the filter with minimal systemic entry). The heparin binds and precipitates fibrinogen and fibrinaloid microclots, which are then removed. Filtered plasma is reunited with red blood cells and returned to the patient.
+
+*Protocol:* 2.5--4 litres of plasma filtered per session, 3--4 hours per session, typically 4--5 weekly sessions. Cost approximately 1,400~EUR per session in Germany; available in Germany, Switzerland, and Cyprus @Jaeger2022help.
+
+*Evidence:* Bücker et al.\ (2023) @Bucker2023apheresis reported outcomes in 31 Long~COVID patients receiving a median of 5 HELP apheresis sessions (presented at International Society for Apheresis, Berlin; conference abstract only). Overall patient-rated status improved from "bad" (median 2/5) pre-treatment to "good" (median 4/5) at follow-up. Side effects occurred in 1 of 144 sessions (0.7%---one episode of low blood pressure). 83% of patients would recommend the treatment.
+
+#limitation(title: [HELP Apheresis Evidence Limitations])[
+No ME/CFS-specific data for HELP apheresis have been published; all available evidence derives from Long COVID cohorts. No sham-controlled trials exist for HELP apheresis in ME/CFS or Long~COVID. The Bücker data are unblinded and based on patient self-report. Given the strongly negative result of the sham-controlled TPE trial (España-Cueto et al. 2025), placebo effects from invasive blood-filtering procedures must be considered. Cost and geographic access present significant barriers.
+]
+
+== Triple Anticoagulant Therapy (Pretorius Protocol)
+<sec:triple-anticoagulant>
+
+An alternative pharmaceutical approach to microclot burden does not _remove_ existing microclots but prevents formation of _new_ ones, allowing the body's endogenous fibrinolytic pathways to gradually clear the pre-existing clot burden over time.
+
+*Components:* Aspirin 75~mg once daily + clopidogrel 75~mg once daily + apixaban 5~mg twice daily + pantoprazole 40~mg once daily (gastric protection). Duration: 2--6 months @Pretorius2023triple.
+
+*Evidence:* Pretorius et al. (2023) treated 91 Long~COVID patients with this protocol. 80% reported significant improvement (patient-rated on an unvalidated scale; no control arm or validated outcome measure); over one-third reported "considerable improvement that made all the difference." Most experienced only mild bruising. One patient suffered gastrointestinal bleeding requiring transfusion.
+
+#warning-env(title: [Triple Anticoagulant Therapy Carries Serious Bleeding Risk])[
+Anticoagulant therapy can cause internal bleeding, which may be life-threatening. This protocol must only be prescribed and monitored by a physician experienced in anticoagulation management. Patients must be screened for bleeding risk factors. Regular monitoring of platelet count and coagulation parameters is essential. The protocol should never be self-prescribed based on patient reports of benefit.
+]
+
+#limitation(title: [Pretorius Protocol Evidence Limitations])[
+The primary evidence source (@Pretorius2023triple) is a medRxiv preprint that has not undergone peer review. The 91-patient study was uncontrolled and unblinded. Microclots are not validated as a diagnostic biomarker; patient selection was clinical rather than biomarker-stratified. The 80% improvement rate exceeds typical placebo response rates but cannot exclude placebo effects without a sham control. The single GI bleed ($tilde$1% rate) may underestimate real-world bleeding risk outside a research setting.
+]
