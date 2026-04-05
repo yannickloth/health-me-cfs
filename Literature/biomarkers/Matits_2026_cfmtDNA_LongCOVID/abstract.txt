@@ -1,0 +1,17 @@
+Circulating mitochondrial and cellular damage markers in long COVID: Links to cognitive function, psychological distress, and inflammation
+
+Lynn Matits et al.; EPILOC Phase 2 Study Group
+
+Molecular Psychiatry. 2026. Online ahead of print: 7 February 2026.
+DOI: 10.1038/s41380-026-03471-0
+PMID: 41654652
+
+ABSTRACT (reconstructed from PubMed record and Science for ME forum thread):
+
+Persistent mitochondrial inflexibility and mitochondrial damage have been postulated to contribute to long COVID (post-acute sequelae of COVID-19; PASC). In this nested case-control study from the population-based EPILOC (Epidemiology of Long COVID) Phase 2 study in Baden-Württemberg, Germany, we investigated circulating cell-free mitochondrial DNA (ccf-mtDNA) and other cellular damage markers in relation to cognitive function, psychological distress, and inflammation.
+
+In 228 adults (PASC n=128; recovered controls n=100), we measured relative ccf-mtDNA by quantitative real-time PCR, total ccf-DNA by UV-Vis spectroscopy, C-reactive protein (CRP), and systemic immune-inflammation index (SII). Cognitive function and psychological distress were assessed by neuropsychological tests analysed via principal component analysis yielding three components (general cognition, verbal memory, psychological distress).
+
+PASC patients demonstrated significantly lower cognitive function and higher psychological distress than recovered controls, and also had elevated CRP levels and lower relative ccf-mtDNA, with 25% showing low-grade inflammation. Across all participants, general cognition correlated positively with relative ccf-mtDNA, while CRP correlated negatively with relative ccf-mtDNA. Mediation analysis suggested relative ccf-mtDNA as a potential mediator of CRP differences between groups, though this association did not persist after adjusting for confounders (age, sex, education, smoking, BMI, psychiatric medication): F(1,192)=2.92; p=0.089; partial eta-squared=0.01. The difference remained significant when excluding participants with high CRP (>10 mg/L): F(1,181)=4.36; p=0.038; partial eta-squared=0.02.
+
+Lower relative ccf-mtDNA in PASC patients might indicate altered mitochondrial quality control (mitophagy dysregulation), potentially leading to mitochondrial dysfunction, accumulation of damaged mitochondria, and increased inflammation — rather than reflecting generalised cell death.
