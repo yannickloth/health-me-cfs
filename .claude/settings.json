@@ -73,7 +73,10 @@
       "Bash(which:*)",
       "Write(//home/nicky/code/health-me-cfs/**)",
       "Edit(//home/nicky/code/health-me-cfs/**)",
-      "Bash(fc-list)"
+      "Bash(fc-list)",
+      "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Éducation/TDAH/**)",
+      "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Éducation/Trennungsangst/**)",
+      "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Santé/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
