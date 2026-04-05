@@ -65,6 +65,14 @@ Earlier-stage topics that open important new research directions.
 | 32 | **Gut Virome** | `gut-virome.md` | **L** | **L** | **H** | Frontier research. Phage-bacteria interactions. Almost no ME/CFS data yet. |
 | 33 | **Gut Mycobiome** | `gut-mycobiome.md` | **L** | **M** | **M** | Common patient concern (Candida). Limited evidence but validates experience. |
 
+## Pending: Source Acquisition & Analysis
+
+Topics where integration is blocked on acquiring the source material.
+
+| # | Topic | Source | Status | Rationale |
+|---|-------|--------|--------|-----------|
+| P1 | **Patrick Ussher's ME/CFS Insights** | *Understanding ME/CFS & Strategies for Healing* (book, 2025-02-12) | ANALYSED — execution plan ready | Book acquired and fully analysed (13 chapters). 5 HIGH + 6 MEDIUM priority integrations identified across ch06, ch09, ch10, ch16, ch17, ch18. Key novel content: Buteyko breathing (absent from doc), Klimas exercise program (mentioned but not detailed), Wirth-Scheibenbogen bradykinin spillover model, Na+/K+-ATPase calcium toxicity PEM mechanism, adrenal gland shrinkage (Scott & Dinan 1999). See `content-staging/plan-ussher-book-integration.md` for full execution plan and `content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md` for extracted content. |
+
 ---
 
 ## Implementation Batches
