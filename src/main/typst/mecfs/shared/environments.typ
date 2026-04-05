@@ -164,6 +164,9 @@
   show figure.where(kind: "derivation"): it => align(start, it.body)
   show figure.where(kind: "calculation"): it => align(start, it.body)
 
+  // Allow tables wrapped in figure() to break across pages
+  show figure.where(kind: table): set block(breakable: true)
+
   // Per-chapter counter resets
   show heading.where(level: 1): it => {
     _cnt-hypothesis.update(0)
@@ -481,6 +484,14 @@
   v(1em)
 }
 
+// --- Direction (solid, recommendation palette) — research directions ---------
+#let direction(title: none, body) = {
+  _callout(color.recommendation-frame, color.recommendation-bg,
+    fig-kind: "direction",
+    fig-supplement: [Direction],
+    "→", "Research Direction", body, title: title, style: "solid")
+}
+
 // --- Roadmap (solid, hypothesis palette) ------------------------------------
 #let roadmap(title: none, body) = {
   _callout(color.hypothesis-frame, color.hypothesis-bg,
@@ -562,6 +573,10 @@
 #let principle(title: none, body) = {
   let n = context str(_cnt-principle.get().at(0))
   _thm-block("Principle", n, title, body, italic: false, fig-kind: "principle", fig-supplement: [Principle], cnt: _cnt-principle)
+}
+
+#let proof(title: none, body) = {
+  _thm-block("Proof", none, title, [#text(style: "italic", body) #h(1fr) □], italic: false)
 }
 
 #let derivation(title: none, body) = {
