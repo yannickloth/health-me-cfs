@@ -256,6 +256,60 @@ Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 for
 ) <tab:hypothesis-registry-2026-03-23>
 ] // end landscape page
 
+=== Entries Added 2026-04-08: Sigma-1 Receptor, ER Stress, and Fluvoxamine
+
+Motivated by: Reis et al.\ 2026 REVIVE-TOGETHER RCT (fluvoxamine in Long COVID fatigue, _Annals of Internal Medicine_); creative synthesis connecting S1R pharmacology to WASF3/ER stress/MAM pathways; Benoist commentary on treatment ≠ mechanism epistemology.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Sigma-1 Agonism as Upstream Brake on the WASF3--ER Stress Loop],
+    [H], [0.25],
+    [S1R agonism suppresses IRE1$alpha$-mediated UPR, reducing ER stress signal amplitude and downstream WASF3 upregulation. (a) S1R agonist treatment reduces WASF3 expression in ME/CFS PBMCs or muscle. (b) S1R agonism improves mitochondrial supercomplex assembly ex vivo. (c) Highest-WASF3 patients show greatest fatigue benefit from fluvoxamine. (d) S1R agonist + mitochondrial antioxidant (MitoQ) shows synergy.],
+    [WASF3 protein quantification in ME/CFS PBMCs vs healthy controls --- feasible. Fluvoxamine + WASF3 co-measurement trial in Long COVID/ME/CFS --- not yet done. Ex vivo S1R agonist + supercomplex assay (Wang 2023 protocol) --- feasible.],
+    [Ch.18 @hyp:sigma1-wasf3-brake],
+
+    [S1R--MAM Axis as Shared Vulnerability in Post-Infectious ME/CFS],
+    [S], [0.20],
+    [Multiple post-infectious triggers (EBV, enterovirus, SARS-CoV-2, HHV-6) converge on ER stress; genetically S1R-vulnerable individuals have lower threshold for permanent MAM dysfunction. (a) S1R expression reduced in ME/CFS PBMCs. (b) S1R promoter methylation elevated in ME/CFS. (c) UPR markers (BiP, CHOP, sXBP-1) elevated in ME/CFS blood. (d) S1R genetic variants enriched in ME/CFS GWAS.],
+    [S1R expression Western blot / ELISA in ME/CFS PBMCs vs healthy controls --- not done. Bisulfite sequencing of S1R promoter --- feasible. UPR marker ELISA (BiP, CHOP) --- feasible, inexpensive. GWAS enrichment analysis when full DecodeME data available.],
+    [Ch.18 @spec:s1r-mam-vulnerability],
+
+    [DHEA--S1R Agonism: Mechanism Behind a Common Empirical Report],
+    [H], [0.20],
+    [DHEA/DHEA-S have documented S1R agonist activity; reported ME/CFS benefit may reflect S1R pathway rather than androgen receptor signalling. (a) DHEA-S levels inversely correlate with UPR markers in ME/CFS. (b) Ex vivo DHEA reduces ER stress markers in ME/CFS PBMCs at equimolar S1R occupancy vs. fluvoxamine. (c) S1R-selective agonist (pridopidine) produces comparable benefit to high-dose DHEA in crossover pilot.],
+    [DHEA-S quantification in ME/CFS biobanks --- feasible and some data exist (often reduced). UPR marker co-measurement --- not done. Pridopidine is in Phase 2/3 for Huntington's disease; off-label ME/CFS pilot feasible.],
+    [Ch.18 @hyp:dhea-s1r],
+
+    [Fluvoxamine in ME/CFS: Does the Long COVID Signal Translate?],
+    [OQ], [---],
+    [REVIVE-TOGETHER shows FSS benefit (−0.43, 99% PP) in Long COVID fatigue. PEM, cognitive outcomes, and POTS were not measured. Whether benefit extends to formal ME/CFS patients and affects PEM specifically is the critical unknown.],
+    [12-week RDBPC crossover in ICC/CCC-diagnosed ME/CFS measuring FSS, DSQ-PEM, cognitive battery, and WASF3 in PBMCs. CYP1A2/caffeine confound must be prospectively controlled (randomise caffeine abstinence). No such trial registered as of 2026-04.],
+    [Ch.18 @oq:fluvoxamine-mecfs],
+
+    [S1R Agonist Class Effects: Does S1R Affinity Rank Predict Efficacy?],
+    [OQ], [---],
+    [If S1R agonism is the active mechanism, SSRI efficacy in post-infectious fatigue should track S1R affinity rank (fluvoxamine > fluoxetine > sertraline/paroxetine). Retrospective registry analysis would test this at low cost.],
+    [Retrospective SSRI outcome data from Long COVID registries (RECOVER, UKCCP) stratified by S1R affinity rank. Prospective head-to-head comparison of fluvoxamine vs.\ fluoxetine in Long COVID fatigue feasible with adaptive design.],
+    [Ch.18 @oq:s1r-affinity-selectivity],
+
+    [ER Stress Drugs (4-PBA, TUDCA) in ME/CFS: Upstream Test of the WASF3 Hypothesis],
+    [OQ], [---],
+    [If ER stress drives WASF3 upregulation and ME/CFS mitochondrial dysfunction, direct ER stress suppressors (4-PBA, TUDCA) should produce comparable benefit to S1R agonism via the same downstream pathway. Neither has been tested in ME/CFS. 4-PBA is FDA-approved (urea cycle disorders); TUDCA is OTC.],
+    [3-arm pilot: 4-PBA vs.\ TUDCA vs.\ placebo, 12 weeks, measuring WASF3 expression, BiP/CHOP, FSS, and DSQ-PEM. 4-PBA safety profile in adults is established; low risk. TUDCA safety established. This would be the first direct test of the ER stress hypothesis as therapeutic target.],
+    [Ch.18 @oq:er-stress-drugs-mecfs],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from sigma-1 receptor / ER stress / fluvoxamine synthesis (2026-04-08). Connects REVIVE-TOGETHER RCT evidence to WASF3 mitochondrial pathway, S1R pharmacology, and novel drug candidates.],
+) <tab:hypothesis-registry-2026-04-08>
+] // end landscape page
+
 /*
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
@@ -1823,15 +1877,123 @@ Motivated by: comprehensive pain research synthesis including MCAM study (Fall 2
 ] // end landscape page
 
 
+=== Entries Added 2026-04-06: Intestinal Parasites as ME/CFS Triggers
+
+Motivated by: integration of Bergen Giardia outbreak evidence (Wensaas 2012, 2018; Bolstad 2017) and the inciting-trigger vs sustaining-mechanism conceptual framework developed for ch07 Section on intestinal parasites.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Molecular Mimicry: Giardia VSPs and Autonomic Receptor Autoimmunity],
+    [H], [0.30],
+    [Anti-M2R and anti-β2-adrenergic receptor autoantibodies elevated in Bergen cohort ME/CFS patients vs non-ME/CFS exposed; VSP epitope homology to human GPCRs detectable computationally; immunoadsorption produces improvement in post-Giardia ME/CFS.],
+    [Bergen cohort accessible for serological study; Scheibenbogen group autoantibody assays already validated for GPCR panels. VSP proteomics feasible. No direct test has been done.],
+    [Ch.7 @hyp:giardia-molecular-mimicry],
+
+    [Post-Parasitic IDO1 Upregulation → Chronic Kynurenine Shunt → Neuroinflammation],
+    [H], [0.35],
+    [Kynurenine/tryptophan ratio elevated in Bergen ME/CFS patients vs non-ME/CFS exposed at 5–10 years; H3K4me3 enrichment at IDO1 promoter in intestinal macrophage biopsies; IDO1 inhibitors reduce kyn/trp ratio and cognitive symptoms.],
+    [Bergen cohort accessible; serum kyn/trp easily measurable. Intestinal biopsy epigenomics technically feasible. IDO1 inhibitors available (epacadostat). No ME/CFS post-parasitic study done.],
+    [Ch.7 @hyp:parasite-ido1-kynurenine],
+
+    [Secretory IgA Deficiency as Parasite-Triggered ME/CFS Conversion Risk Factor],
+    [OQ], [---],
+    [Sub-clinical sIgA insufficiency is more prevalent in Bergen cohort ME/CFS converters than non-converters; sIgA level predicts ME/CFS incidence after documented Giardia infection; sIgA restoration reduces conversion risk.],
+    [Bergen cohort serum IgA measurable retrospectively on archived samples. sIgA measurement in incident ME/CFS cohorts feasible. No study has tested this.],
+    [Ch.7 @oq:siga-parasite-mecfs],
+
+    [Early Parasite Eradication as ME/CFS Prevention (Therapeutic Window)],
+    [OQ], [---],
+    [Aggressive early treatment of acute Giardia reduces ME/CFS incidence at 12 months vs delayed/standard treatment; treatment timing within Bergen cohort correlates with CFS conversion rate; prospective RCT in outbreak setting would directly test.],
+    [Bergen cohort treatment records potentially available for retrospective analysis of timing. Prospective RCT ethically feasible in outbreak context (standard care arm exists). No trial done.],
+    [Ch.7 @oq:parasite-prevention],
+
+    [Systematic PCR Multiplex Parasite Screening in ME/CFS],
+    [OQ], [---],
+    [Blastocystis ST1/ST3 and Dientamoeba fragilis prevalence elevated in incident ME/CFS patients vs matched healthy controls by PCR multiplex; standard O&P microscopy misses >50% of positive cases in this population.],
+    [PCR multiplex panels (FilmArray GI, BioFire) commercially available (~€200/sample). Incident ME/CFS cohort recruitment via specialist clinics. Study feasible within 18 months; not yet initiated.],
+    [Ch.7 @oq:parasite-screening],
+
+    [Mucosal Checkpoint Failure: GALT NK Depletion Permits Autoreactive Escape],
+    [S], [0.20],
+    [GALT NK cell counts (intestinal biopsy) lower in post-Giardia ME/CFS vs recovered Giardia-exposed controls; broader autoantibody panel (ANA, anti-thyroid, anti-GPCR) elevated in post-Giardia ME/CFS vs non-CFS; NK reconstitution reduces autoantibody titres in animal model.],
+    [Intestinal biopsy for NK cell quantification; autoantibody ELISA panels; animal model NK reconstitution trial. Requires specialist intestinal immunophenotyping. No study done.],
+    [Ch.7 @spec:galt-checkpoint-failure],
+
+    [Post-Parasitic Mast Cell Priming as MCAS–ME/CFS Overlap Driver],
+    [S], [0.20],
+    [Serum tryptase and urinary PGD₂ metabolites elevated in post-Giardia ME/CFS vs non-CFS exposed; MCAS criteria prevalence higher in post-parasitic vs post-viral ME/CFS onset; H1/H2 antihistamine + cromolyn trial improves symptoms in elevated-tryptase subgroup.],
+    [Serum tryptase and urinary mast cell mediators; cross-cohort MCAS prevalence comparison; antihistamine + cromolyn proof-of-concept trial in elevated-tryptase subgroup. Methods available; no study done.],
+    [Ch.7 @spec:parasite-mcas-priming],
+
+    [Duodenal Microbiome Disruption as Sustaining ME/CFS Mechanism],
+    [OQ], [---],
+    [Duodenal microbiome persistently altered in post-Giardia ME/CFS (reduced butyrate-producers, increased gram-negative bacteria); persistent low-grade LPS translocation detectable in blood; microbiome restoration reduces systemic inflammation and improves outcomes.],
+    [Duodenal aspirate or proximal jejunal biopsy for 16S/metagenomic sequencing; endotoxin assays; small-bowel microbiome restoration trial. Requires endoscopic access; methods available in specialist centres. No study done.],
+    [Ch.7 @oq:duodenal-microbiome],
+
+    [Bergen Biobank Recontact: Cross-Sectional Multi-Biomarker Study],
+    [OQ], [---],
+    [GPCR autoantibody panels, duodenal epigenetic profiles, small intestinal microbiome, serum tryptase, and secretory IgA levels differ between Bergen PI-CFS patients and matched non-CFS exposed controls; results correlate with ME/CFS development status.],
+    [Recontact study: serum GPCR autoantibodies, duodenal biopsy H3K4me3 ChIP-seq, small-bowel microbiome, serum tryptase, sIgA. Cohort already characterised; recontact logistically feasible at low marginal cost.],
+    [Ch.7 @oq:bergen-biobank-recontact],
+
+    [Cryptosporidium Long-Term Cohort: Generalising Beyond Giardia],
+    [OQ], [---],
+    [ME/CFS conversion rate after Cryptosporidium parvum outbreak measurable via Bergen-style design; immunological profile (NK cells, sCD40L) recapitulates or differs from post-Giardia; findings generalise mechanistic hypotheses across two apicomplexan species.],
+    [Prospective cohort following documented Cryptosporidium outbreak for 3–10 years with formal ME/CFS ascertainment and immunophenotyping. Outbreaks recurrent in Europe/North America; opportunistic prospective design feasible. No study initiated.],
+    [Ch.7 @oq:cryptosporidium-longitudinal],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from intestinal parasite–ME/CFS trigger research (2026-04-06). Includes molecular mimicry, IDO1/kynurenine, sIgA risk, early treatment window, diagnostic screening, GALT checkpoint failure, MCAS priming, duodenal microbiome, Bergen biobank recontact, and Cryptosporidium cohort hypotheses (10 entries).],
+) <tab:hypothesis-registry-2026-04-06>
+] // end landscape page
+
+=== New Entries 2026-04-07: Physical Device Therapies and Monitoring
+
+Added with integration of BEMER/PEMF, earthing/grounding, and NIRS/Moxy research into Ch.18.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Earthing and Autonomic Modulation: Does Any Effect Persist Beyond Relaxation?],
+    [OQ], [---],
+    [If earthing genuinely shifts autonomic tone toward parasympathetic dominance, this is mechanistically relevant to ME/CFS sympathetic excess. Entire evidence base is COI-contaminated with no independent replication. No ME/CFS trial exists.],
+    [Sham-controlled crossover sleep study: grounded vs ungrounded mats, continuous HRV monitoring, n$>=$ 40 ME/CFS patients.],
+    [Ch.18 @sec:earthing-grounding],
+
+    [SmO₂-Guided Pacing: Can Real-Time Muscle Oxygenation Data Improve PEM Prevention?],
+    [OQ], [---],
+    [NIRS-documented muscle O₂ abnormalities are well-established in ME/CFS (McCully 1999, Vermeulen 2014, Miller 2015) and Long COVID (Colosio 2023, Jamieson 2024). Heart-rate pacing is indirect; SmO₂ could provide a more direct anaerobic threshold signal. No pacing trial using SmO₂ exists.],
+    [Pilot RCT comparing HR-guided vs SmO₂-guided activity management over 12 weeks; PEM frequency and severity as primary outcomes.],
+    [Ch.18 @sec:nirs-moxy-pacing],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from physical device therapy and monitoring research (2026-04-07). Two open questions: earthing autonomic modulation and SmO₂-guided pacing.],
+) <tab:hypothesis-registry-2026-04-07>
+] // end landscape page
+
 === Full Harvest Statistics
 
-The complete document contains approximately *330 environments* of the
-four harvested types (updated 2026-03-27):
+The complete document contains approximately *332 environments* of the
+four harvested types (updated 2026-04-07):
 
   - *Hypothesis:* $approx 137$ — Ch.9, 13, 14d, 14j, 18, 27, 29, 30 most dense.
   - *Speculation:* $approx 79$ — Ch.14a–i, 14d, 15–19 most dense.
   - *Prediction:* $approx 10$ — Ch.12 and Ch.14j primarily.
-  - *Open Question:* $approx 99$ — Ch.14a–h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
+  - *Open Question:* $approx 101$ — Ch.14a–h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
   - *Keypoint:* 1 new (convergence argument, Ch.13).
 
 Selection criteria for the 42 table entries: (1) mechanism domain coverage;
