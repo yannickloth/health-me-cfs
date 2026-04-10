@@ -310,6 +310,78 @@ Motivated by: Reis et al.\ 2026 REVIVE-TOGETHER RCT (fluvoxamine in Long COVID f
 ) <tab:hypothesis-registry-2026-04-08>
 ] // end landscape page
 
+=== Entries Added 2026-04-10: Vascular Pathology, Endothelial Senescence, and Carotid Body Sensitisation
+
+Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wirth 2024 vascular-primary temporal model; Guo 2025 microfluidic RBC biomechanics; Flaskamp 2022 endothelial progenitor failure; El-Medany 2024 carotid body sensitisation; Edgell 2025 IMT pilot RCT; van Campen 2023 orthostatic hypocapnia quantification.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Senescent Endothelial Cell Burden as a Central Maintaining Mechanism],
+    [H], [0.40],
+    [(a) p16/p21 immunostaining in ME/CFS skin/muscle biopsies elevated vs healthy controls. (b) SASP markers (GDF-15, IL-6, syndecan-1) correlate with disease severity. (c) NK cell cytotoxicity inversely correlates with senescent cell burden in same patient. (d) Senolytic treatment (D+Q) reduces SASP and improves FMD.],
+    [Skin punch biopsy p16/p21 immunostaining — not done in ME/CFS. SASP marker correlation with severity — feasible with existing biobanks. NK cytotoxicity + senescence co-measurement — not done. D+Q pilot trial feasible (established safety record from IPF trials).],
+    [Ch.7 @hyp:endothelial-senescence-loop],
+
+    [Vascular-Primary Causal Model: Microvascular Damage Precedes Mitochondrial Injury],
+    [H], [0.45],
+    [(a) Post-COVID patients converting to ME/CFS show capillary basement membrane thickening appearing before mitochondrial ultrastructure abnormalities on serial biopsies. (b) Interventions improving microvascular flow (sulodexide, HELP apheresis) improve post-exertional oxygen delivery before improving mitochondrial function markers. (c) Blood volume expansion alone improves CPET VO#sub[2] proportionally to restored capillary density.],
+    [Serial muscle biopsy at 3, 6, 12 months post-COVID stratified by ME/CFS development — not done. Mechanistic sequence requires prospective biopsy design. Sulodexide/HELP apheresis with parallel mitochondrial and microvascular outcome measurement — feasible but no trial with that design.],
+    [Ch.6 @hyp:vascular-primary-mecfs],
+
+    [Failed Angiogenic Compensation as ME/CFS Chronification Threshold],
+    [H], [0.30],
+    [(a) Circulating endothelial progenitor cells (EPCs) are depleted in ME/CFS. (b) EPC count correlates inversely with disease duration. (c) Agents that mobilise EPCs (G-CSF, exercise mimetics) improve capillary density in ME/CFS.],
+    [EPC quantification (flow cytometry, CD34+/CD133+/VEGFR2+ cells) in ME/CFS — not systematically done. Flaskamp 2022 data in Long COVID only. Exercise mimetics trial not feasible without safety data.],
+    [Ch.10 @hyp:failed-angiogenesis-mecfs],
+
+    [The Glycocalyx as a Molecular Pacing Device: Impaired Flow-Mediated Exercise Regulation],
+    [H], [0.30],
+    [(a) ME/CFS patients show blunted flow-mediated dilation responses disproportionately worse during incremental exercise. (b) Syndecan-1 shedding correlates with VE/VCO#sub[2] slope on CPET. (c) Glycocalyx restoration (sulodexide) normalises intra-exercise FMD before improving resting FMD.],
+    [Intra-exercise Doppler FMD during low-level ergometry — not performed in ME/CFS. Syndecan-1 + CPET co-measurement — feasible. Sulodexide trial with Doppler FMD endpoints — feasible.],
+    [Ch.14k @hyp:glycocalyx-pacing-device],
+
+    [Orthostatic Hypocapnia as a Positive Feedback Loop for Microclot Formation],
+    [H], [0.20],
+    [Tilt-induced alkalosis (capillary pH) correlates with post-tilt microclot burden (fluorescence microscopy) in within-patient comparison. Preventing hypocapnia (CO#sub[2] rebreathing during tilt) reduces post-tilt microclot accumulation.],
+    [Simultaneous tilt-table + capillary blood gas + microclot fluorescence microscopy — not done. CO#sub[2] rebreathing tilt protocol feasible. Each individual link physiologically grounded; integrated cycle not tested.],
+    [Ch.14k @hyp:hypocapnia-microclot-loop],
+
+    [Senescent Endothelial Cell Exosomes as Systemic SASP Propagators],
+    [S], [0.15],
+    [(a) ME/CFS plasma EVs show elevated SA-EV markers (p21, p16, SA-$beta$-galactosidase cargo). (b) ME/CFS EVs induce senescence in healthy endothelial cells in vitro. (c) SA-EV burden correlates with severity and SASP marker levels.],
+    [SA-EV characterisation in ME/CFS plasma — not done. In vitro senescence induction assay — feasible. SA-EV biology established in aging literature; ME/CFS application entirely speculative.],
+    [Ch.14k @spec:saev-propagation],
+
+    [RBC Phosphatidylserine Externalisation as a Microclot Nucleation Signal],
+    [H], [0.30],
+    [Annexin-V binding to ME/CFS RBCs elevated vs healthy controls. PS externalisation correlates with microclot area in fluorescence microscopy of same patient sample. Anti-PS treatment reduces microclot burden in vitro.],
+    [Annexin-V flow cytometry on ME/CFS RBCs — not done; 2-hour assay from standard blood draw. PS + microclot co-measurement — feasible. RBC PS externalisation not directly measured in ME/CFS despite ROS and morphology data.],
+    [Ch.14k @hyp:rbc-ps-microclot-nucleation],
+
+    [Carotid Body Sensitisation as a Reversible Amplifier of Orthostatic Symptoms in ME/CFS],
+    [S], [0.25],
+    [(a) HVR (hypoxic ventilatory response) to 15% O#sub[2] is elevated in ME/CFS vs healthy controls. (b) Gefapixant (P2X3 antagonist) reduces HVR in ME/CFS within 2 weeks. (c) Reduced HVR correlates with improvement in orthostatic symptom scores and PETCO#sub[2] trajectories during tilt.],
+    [HVR measurement with El-Medany carotid body protocol in ME/CFS — not done; 30-min test per patient. Gefapixant has established safety record (chronic cough trials). P2X3 antagonism + tilt PETCO#sub[2] measurement — feasible. Long COVID carotid body data @ElMedany2024carotid requires replication in formal ME/CFS.],
+    [Ch.18 @spec:carotid-body-mecfs],
+
+    [Inspiratory Muscle Training (IMT) as a PEM-Safe Autonomic Intervention in ME/CFS],
+    [OQ], [---],
+    [Does 8-week IMT (30 breaths at 75% MIP) improve HRV, peak VO#sub[2], and SF-36 vitality in ME/CFS without triggering PEM at a rate exceeding 15% (vs 31% in exercise groups)? Does IMT-induced HRV improvement predict exercise tolerance gains? What is the minimum effective dose?],
+    [Edgell 2025 pilot ($n=16$, unblinded) shows promising signals: +1.4 mL/kg/min VO#sub[2], HRV improvement, SF-36 physical function +5.6. Sham-controlled RCT feasible ($n approx 60$). PEM monitoring by DSQ-2 at 24h and 72h post-session — not done in pilot.],
+    [Ch.18 @sec:imt-mecfs],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular pathology integration (2026-04-10). Covers endothelial senescence, vascular-primary causal model, failed angiogenic compensation, glycocalyx mechanosensing, orthostatic hypocapnia--microclot loop, SA-EV propagation, RBC phosphatidylserine externalisation, carotid body sensitisation, and IMT as autonomic intervention.],
+) <tab:hypothesis-registry-2026-04-10>
+] // end landscape page
+
 /*
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
@@ -1987,13 +2059,13 @@ Added with integration of BEMER/PEMF, earthing/grounding, and NIRS/Moxy research
 
 === Full Harvest Statistics
 
-The complete document contains approximately *332 environments* of the
-four harvested types (updated 2026-04-07):
+The complete document contains approximately *333 environments* of the
+four harvested types (updated 2026-04-10):
 
   - *Hypothesis:* $approx 137$ — Ch.9, 13, 14d, 14j, 18, 27, 29, 30 most dense.
   - *Speculation:* $approx 79$ — Ch.14a–i, 14d, 15–19 most dense.
   - *Prediction:* $approx 10$ — Ch.12 and Ch.14j primarily.
-  - *Open Question:* $approx 101$ — Ch.14a–h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
+  - *Open Question:* $approx 102$ — Ch.14a–h, 14d, 14e, 14g, 14h, 22, 26, 28, 30, 32 most dense.
   - *Keypoint:* 1 new (convergence argument, Ch.13).
 
 Selection criteria for the 42 table entries: (1) mechanism domain coverage;
@@ -2004,3 +2076,47 @@ Entries excluded from the table but meriting future registries:
 brainstorm-level speculations in Ch.14i without testable predictions;
 redundant entries superseded elsewhere; cross-disease open questions in Ch.14d
 requiring expertise outside ME/CFS scope.
+
+=== Perioperative Care Registry Entry (2026-04-10)
+
+#figure(
+  table(
+    columns: (2fr, 1fr, 1fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Does Surgery Trigger Clinically Significant PEM in ME/CFS, and Can Pre-operative Protocols Mitigate It?],
+    [OQ], [---],
+    [Surgical stress (exertion, anesthesia, immune activation, sleep disruption) is expected to trigger PEM in a clinically significant proportion of ME/CFS patients. Predictions: (1) $>=$ 50% of ME/CFS patients report clinically significant PEM within 72~h post-surgery; (2) PEM severity correlates with baseline ME/CFS severity; (3) minimally invasive procedures produce less PEM than open surgery; (4) pre-operative metabolic preparation reduces PEM burden.],
+    [Prospective cohort: recruit ME/CFS patients scheduled for elective surgery, capture PEM outcomes via validated instruments (DSQ-2) at 24~h, 72~h, 1~wk, 4~wk post-op. Compare by procedure type and pre-operative protocol. No such study exists (2026).],
+    [Ch.14a @sec:perioperative-management],
+  ),
+  kind: table, supplement: [Table], caption: [Perioperative open question added 2026-04-10 following Steinkirchner et al.\ 2026 preprint — first empirical perioperative study in ME/CFS, which did not capture PEM as an outcome.],
+) <tab:hypothesis-registry-perioperative-2026-04-10>
+
+=== VNS Fibre Selectivity Registry Entries (2026-04-10)
+
+#figure(
+  table(
+    columns: (2fr, 1fr, 1fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [The "Wrong Fibres" Hypothesis: VNS Non-Response in ME/CFS as a Fibre-Selectivity Artifact],
+    [Spec], [0.30],
+    [C-fibre-confirmed VNS engagement will predict anti-inflammatory response (IL-6, TNF-alpha reduction) while A/B-only engagement predicts autonomic but not inflammatory improvement. Autonomic-dominant ME/CFS patients respond to B-fibre-range tVNS; immune/inflammatory-dominant patients require C-fibre parameters or alpha-7 nAChR agonist co-administration.],
+    [tVNS trial with concurrent CNAP monitoring stratified by ME/CFS phenotype (autonomic vs.\ inflammatory dominant). No such trial exists (2026).],
+    [Ch.18 @spec:vns-wrong-fibres],
+
+    [Gut Microbiome Restoration as Indirect Vagal C-Fibre Therapy],
+    [Spec], [0.40],
+    [Successful microbiome restoration (increased fecal butyrate) will increase vagal afferent tone (HRV HF power or vagal evoked potential amplitude) in addition to GI and inflammatory improvements. Patients who restore butyrate but NOT vagal tone will not show systemic anti-inflammatory benefit, implicating the C-fibre afferent pathway as the mediating mechanism.],
+    [Microbiome intervention trial with concurrent vagal tone monitoring (HRV) and inflammatory markers. Requires validated fecal butyrate measurement at baseline and follow-up. No ME/CFS study with this combined endpoint design exists (2026).],
+    [Ch.18 @spec:gut-vagal-cfibre],
+  ),
+  kind: table, supplement: [Table], caption: [VNS fibre-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive anatomical characterisation of vagal fibre-class recruitment thresholds and implications for neuromodulation specificity.],
+) <tab:hypothesis-registry-vns-fibre-2026-04-10>

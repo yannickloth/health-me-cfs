@@ -2446,6 +2446,46 @@ A minority of very severe ME/CFS patients have a genuine comorbid eating disorde
     - *Patient assistance*: Many biologics (tocilizumab, etanercept) have manufacturer patient assistance programs
     - *Crowdfunding*: GoFundMe, patient advocacy organizations may assist with treatment costs
 
+=== Perioperative Management
+<sec:perioperative-management>
+
+ME/CFS patients who require surgery face a set of clinically relevant challenges that are now beginning to be characterized empirically. The first retrospective study to examine perioperative outcomes in ME/CFS identified 15 patients undergoing general anesthesia at a tertiary center and matched them with controls @Steinkirchner2026anesthesia.
+
+#clinical-finding(title: [General Anesthesia: Hemodynamically Tolerated but Pain Burden Elevated])[
+
+Steinkirchner et al.\ (2026) found that ME/CFS patients reached lower intraoperative nadir values for systolic blood pressure (90 vs 100~mmHg, $p$=0.044) and heart rate (50 vs 60~bpm, $p$=0.012) compared to matched controls, consistent with underlying autonomic dysfunction. Despite these differences, no clinically significant hemodynamic instability occurred: no severe hypotension episodes, no excess vasopressor use, and vasopressor administration and fluid volumes did not differ between groups.
+
+Postoperative pain was substantially higher in ME/CFS patients: maximum NRS pain score 5.0 vs 1.0 ($p$=0.008), with 80% of ME/CFS patients requiring opioid rescue analgesia compared to 33% of controls ($p$=0.039). Non-opioid rescue analgesia, oxygen supplementation, nausea and vomiting, and length of stay in the recovery unit did not differ significantly.
+
+*Proposed mechanisms:* Autonomic dysfunction (lower sympathetic tone baseline) explains the intraoperative hemodynamic differences. Central sensitization, documented in a substantial proportion of ME/CFS patients, is the most plausible explanation for elevated postoperative pain burden.
+
+*Critical gap:* Post-exertional malaise was not captured in this study. Routine perioperative documentation focuses on immediate outcomes; delayed PEM onset means the true perioperative burden is almost certainly underestimated.
+
+*Evidence quality:* Preprint (April 2026), not yet peer-reviewed; single-center retrospective design; n=15 matched pairs. Results are directionally plausible and mechanistically coherent but must be interpreted with caution.
+]
+
+*Pre-operative planning.*
+
+    - *Disclose ME/CFS and autonomic status to anesthesiology team* in advance; share the Steinkirchner 2026 preprint if clinicians are unfamiliar with the literature
+    - *Plan postoperative analgesia proactively*: the 80% opioid rescue rate suggests default pain protocols are insufficient — negotiate a pre-emptive multimodal analgesia plan before surgery
+    - *If opioids are used*: be aware that opioid-mediated pain reduction can mask the energy envelope, risking PEM from over-exertion in the recovery period; communicate this risk clearly to nursing staff
+    - *Blood pressure monitoring thresholds*: lower baseline BP is expected; alert clinical team that ME/CFS patients' "normal" may sit at 90~mmHg systolic without representing pathological hypotension requiring intervention
+    - *Avoid elective procedures when possible during high-symptom periods*
+
+*Postoperative considerations.*
+
+    - *Plan for extended recovery*: the physiological stress of surgery can trigger significant PEM with delayed onset (24–72~h or beyond); arrange caregiver support and reduce all non-essential activity for at least one week
+    - *Monitor pain aggressively*: do not assume standard pain management will be adequate; communicate NRS scores clearly and advocate for dose adjustment
+    - *Orthostatic challenge of mobilisation*: early post-operative mobilisation protocols must account for POTS/OI — sit to stand slowly, use compression garments, ensure adequate fluid and sodium loading before any upright position
+
+#warning-env(title: [Perioperative PEM Risk Is Unstudied and Likely Underestimated])[
+The most important perioperative risk for ME/CFS patients — a severe, potentially prolonged crash triggered by the physiological stress of surgery, anesthesia, and recovery — has not yet been studied. Anecdotal reports from patients describe crashes lasting weeks to months following procedures that were hemodynamically uneventful. Pre-operative counseling should explicitly address this risk. Where possible, minimally invasive alternatives to open surgery should be preferred.
+]
+
+#open-question(title: [Does Surgery Trigger Clinically Significant PEM in ME/CFS, and Can Pre-operative Protocols Mitigate It?])[
+The only available study of perioperative outcomes in ME/CFS did not assess post-exertional malaise, the cardinal disease feature @Steinkirchner2026anesthesia. Whether surgical stress — involving physical exertion, anesthetic agents, immune activation, pain, and disrupted sleep — triggers PEM in a clinically significant proportion of ME/CFS patients, and how severe and prolonged such crashes are, is entirely unknown. Secondary questions include: does the severity of baseline ME/CFS predict crash severity? Do minimally invasive procedures reduce crash risk? Can pre-operative metabolic preparation (electrolytes, mitochondrial support) or post-operative pacing reduce the perioperative PEM burden? Prospective studies capturing PEM as a primary outcome are urgently needed given the frequency with which ME/CFS patients require surgery.
+]
+
 === Structural Evaluation: CCI and EDS in Severe Cases
 <sec:cci-eds-severe>
 

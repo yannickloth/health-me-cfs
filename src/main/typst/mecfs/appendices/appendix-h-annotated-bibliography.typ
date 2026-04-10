@@ -233,9 +233,9 @@ First official institutional medication list for ME/CFS with insurance coverage 
     / *PMID:*: 39759581
     / *Published:*: February 2025
     / *Study Design:*: Prospective cohort study
-    / *Key Findings:*: Repeated immunoadsorption treatment in post-COVID ME/CFS patients with elevated $beta$2-adrenergic receptor autoantibodies showed efficacy in improving symptoms. Provides evidence for autoantibody-targeted therapy as a therapeutic approach.
-    / *Relevance:*: First prospective cohort demonstrating therapeutic benefit of removing GPCR autoantibodies. Validates autoantibodies as pathogenic rather than epiphenomenal. Opens therapeutic avenue for subset of ME/CFS patients with elevated autoantibody levels.
-    / *Certainty:*: High (prospective design, published in _Lancet Regional Health_, targeted patient selection based on biomarker).
+    / *Key Findings:*: Repeated immunoadsorption treatment in post-COVID ME/CFS patients with elevated $beta$2-adrenergic receptor autoantibodies showed symptom improvement in an uncontrolled prospective cohort (n=20). Provides hypothesis-strengthening evidence for autoantibody-targeted therapy in a biomarker-selected subgroup.
+    / *Relevance:*: Largest prospective cohort to date for immunoadsorption in post-COVID ME/CFS. Supports further investigation of autoantibody-targeted therapy in biomarker-selected patients. Cannot confirm efficacy without sham control: invasive multi-session procedures typically produce substantial placebo responses, and the absence of a control arm prevents distinguishing specific from non-specific effects.
+    / *Certainty:*: Medium (prospective design, published in _Lancet Regional Health_, targeted patient selection based on biomarker, n=20; however, no sham/control arm; open-label; cannot rule out placebo effects from invasive procedure). Mechanistic evidence for autoantibody pathogenicity: Medium. Efficacy evidence: Low-Medium pending sham-controlled replication.
 
     / *Full Citation:*: Loebel M, Grabowski P, Heidecke H, et al.\ Antibodies to beta adrenergic and muscarinic cholinergic receptors in patients with Chronic Fatigue Syndrome. _Brain Behav Immun_. 2016;52:32–39.
     / *DOI:*: #link("https://doi.org/10.1016/j.bbi.2015.09.013")[10.1016/j.bbi.2015.09.013]
@@ -1171,6 +1171,211 @@ Provides theoretical framework for understanding chronic ME/CFS and suggests tes
     / *Key Findings:*: 83% overall eradication rate; 100% in hydrogen-dominant SIBO (n=6), 58% in IMO (n=12); 66% symptom improvement in responders. Palatable formulation improved tolerability vs traditional Vivonex Plus.
     / *Relevance:*: Updates the 2004 Pimentel study with modern palatable formula; confirms elemental diet efficacy and improves adherence; mBIOTA Elemental formula now available clinically.
     / *Limitations:*: Small sample size, particularly for IMO subgroup; single-centre; no RCT design.
+
+// =============================================================================
+
+== Pathophysiology: Post-Infectious Triggers — Intestinal Parasites
+<sec:bib-parasites-post-infectious>
+// =============================================================================
+
+=== Wensaas et al.\ 2012 — Giardia Bergen Outbreak: 3-Year Follow-Up
+
+    / *Full Citation:*: Wensaas K-A, Langeland N, Hanevik K, Mørch K, Eide GE, Rortveit G. Irritable bowel syndrome and chronic fatigue 3 years after acute giardiasis: historic cohort study. _Gut_. 2012;61(2):214–219.
+    / *DOI:*: #link("https://doi.org/10.1136/gutjnl-2011-300220")[10.1136/gutjnl-2011-300220]
+    / *PMID:*: 21926063
+    / *Published:*: 2012
+    / *Study Design:*: Historic cohort study; 1,252 laboratory-confirmed Giardia cases from the 2004 Bergen waterborne outbreak vs unexposed controls
+    / *Key Findings:*:
+
+        - 41.5% of chronic fatigue subgroup met CFS criteria at 3 years; combined idiopathic chronic fatigue + CFS prevalence 54.7%
+        - IBS prevalence 46.1% in Giardia-exposed vs 14% in controls
+        - Fatigue and bowel symptoms persisted well beyond parasite eradication, confirming post-infectious mechanism
+
+    / *Relevance:*: Foundational natural experiment establishing Giardia as a post-infectious ME/CFS trigger. The uniform, documented exposure date provides unusually clean causal inference. Part of the Bergen cohort series — the most rigorous parasitic ME/CFS evidence base in existence.
+    / *Certainty:*: High for association; moderate for causal interpretation (no randomized exposure).
+
+=== Wensaas et al.\ 2018 — Giardia Bergen Outbreak: 10-Year Follow-Up
+
+    / *Full Citation:*: Wensaas K-A, Hanevik K, Hausken T, Eide GE, Langeland N, Rortveit G. Persisting symptoms and duodenal changes in Giardia infection: a 10-year follow-up cohort study. _BMC Infectious Diseases_. 2018;18(1):46.
+    / *DOI:*: #link("https://doi.org/10.1186/s12879-018-2956-4")[10.1186/s12879-018-2956-4]
+    / *PMID:*: 29378314
+    / *Published:*: 2018
+    / *Study Design:*: 10-year follow-up of the Bergen Giardia outbreak cohort
+    / *Key Findings:*:
+
+        - 26% of exposed individuals had chronic fatigue at 10 years vs 11% of unexposed controls (RR ~2.4)
+        - IBS prevalence 43% vs 14% in controls
+        - Duodenal mucosal changes (villous atrophy, intraepithelial lymphocytes) persisted in a subset
+        - Fatigue and bowel dysfunction outlasted any detectable active infection by at least 9–10 years
+
+    / *Relevance:*: The 10-year persistence of elevated fatigue prevalence in an exposed-vs-unexposed cohort is among the strongest population-level evidence linking a parasitic infection to chronic fatigue syndrome. Cannot be attributed to ongoing infection or recall bias from acute disease.
+    / *Certainty:*: High for association at population level.
+
+=== Bolstad et al.\ 2017 — Immune Persistence After Giardia in Post-Infectious CFS
+
+    / *Full Citation:*: Bolstad N, Wensaas K-A, Hanevik K, Langeland N, Nkrumah B, Rortveit G, Mørch K. Long-term humoral and cellular immunity after acute giardiasis in Bergen patients with and without post-infectious fatigue. _Journal of Infection_. 2017;74(3):295–303.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jinf.2016.11.011")[10.1016/j.jinf.2016.11.011]
+    / *PMID:*: 27919709
+    / *Published:*: 2017
+    / *Study Design:*: Immunological sub-study of the Bergen Giardia cohort; comparison of immune profiles between post-giardiasis CFS patients and non-CFS exposed individuals
+    / *Key Findings:*:
+
+        - Persistent _Giardia_-specific cellular immune responses (T-cell proliferation and cytokine production) detected in post-giardiasis CFS patients at 5+ years
+        - Elevated parasite-specific IgG persisted in the CFS subgroup compared to non-CFS exposed
+        - Immune activation was ongoing in the absence of detectable active parasite
+
+    / *Relevance:*: Provides the mechanistic link for the Bergen cohort observations: the sustaining mechanism is ongoing parasite-specific immune activation, not continued parasitic presence. Directly supports the inciting trigger vs sustaining mechanism framework. Analogous to post-viral immune activation documented in EBV- and COVID-triggered ME/CFS.
+    / *Certainty:*: Moderate (small immunological sub-cohort; mechanistic link plausible but not proven causal).
+
+=== Naess et al.\ 2012 — Post-Giardia CFS: Clinical Characterisation and Disability
+
+    / *Full Citation:*: Naess H, Nyland M, Hausken T, Follestad I, Nyland HI. Chronic fatigue syndrome after Giardia enteritis: clinical characteristics, disability and long-term sickness absence. _BMC Gastroenterology_. 2012;12:13.
+    / *DOI:*: #link("https://doi.org/10.1186/1471-230X-12-13")[10.1186/1471-230X-12-13]
+    / *PMID:*: 22316329
+    / *PMCID:*: PMC3292445
+    / *Published:*: February 2012
+    / *Study Design:*: Case series; 58 CFS cases from the Bergen 2004 Giardia outbreak, mean illness duration 2.7 years at specialist referral
+    / *Key Findings:*:
+
+        - At least 5% of all laboratory-confirmed Giardia cases developed full CFS meeting Fukuda criteria
+        - Progressive worsening course in 57% at time of referral; 16% improved, 28% stable
+        - SF-36 profile: disproportionate impairment in physical functioning, vitality, and social functioning; mental health relatively preserved
+        - All 58 patients had long-term sickness absence from work or study
+
+    / *Relevance:*: Provides clinical phenotyping of post-parasitic CFS from a well-defined exposure cohort. The SF-36 profile (physical > mental impairment) aligns with ME/CFS rather than primary depression. Quantifies minimum incidence: 5% of lab-confirmed Giardia cases → clinical ME/CFS. The predominantly progressive (not self-limiting) course at 2.7 years contradicts assumption of spontaneous resolution.
+    / *Limitations:*: Case series design; no matched controls; subset referred to specialist, not population-wide screening.
+    / *Certainty:*: Moderate (well-defined exposure, systematic CFS diagnosis; selection bias possible).
+
+=== Mørch et al.\ 2013 — Post-Giardia CFS: 5-Year Natural Course and Differential Diagnosis
+
+    / *Full Citation:*: Mørch K, Hanevik K, Rivenes AC, Bødtker JE, Næss H, Stubhaug B, Wensaas K-A, Rortveit G, Eide GE, Hausken T, Langeland N. Chronic fatigue syndrome 5 years after giardiasis: differential diagnoses, characteristics and natural course. _BMC Gastroenterology_. 2013;13:28.
+    / *DOI:*: #link("https://doi.org/10.1186/1471-230X-13-28")[10.1186/1471-230X-13-28]
+    / *PMID:*: 23399438
+    / *PMCID:*: PMC3598369
+    / *Published:*: February 2013
+    / *Study Design:*: Prospective follow-up; 53 persistently fatigued post-Giardia patients evaluated by multi-specialist panel (psychiatry, neurology, infectious disease) at 5 years
+    / *Key Findings:*:
+
+        - 41.5% (22/53) met Fukuda CFS criteria at 5 years; 13.2% had idiopathic chronic fatigue
+        - Important differential diagnoses identified: sleep apnoea (n=5), depression (n=6), anxiety (n=5)
+        - 20.8% had resolved by 5 years; fatigue scores improved significantly from 3 to 5 years
+        - CFS group showed persistent functional impairment despite 5 years since infection
+
+    / *Relevance:*: Establishes that post-parasitic CFS can persist for at least 5 years in a substantial minority. Multi-specialist diagnostic rigor demonstrates that persistent post-Giardia fatigue is not simply missed depression or sleep apnoea in most cases — though these remain important differentials to exclude. Provides temporal trajectory: slow partial recovery occurs, but majority remain ill.
+    / *Limitations:*: Only 53/253 eligible patients participated (self-selection bias possible); small subgroup for differential analyses.
+    / *Certainty:*: Moderate (multi-specialist diagnosis is strength; selection bias and small n are limitations).
+
+=== Hanevik et al.\ 2012 — NK Cell Reduction in Post-Giardia CFS: Immunophenotyping
+
+    / *Full Citation:*: Hanevik K, Kristoffersen EK, Sørnes S, Mørch K, Næss H, Rivenes AC, Bødtker JE, Hausken T, Langeland N. Immunophenotyping in post-giardiasis functional gastrointestinal disease and chronic fatigue syndrome. _BMC Infectious Diseases_. 2012;12:258.
+    / *DOI:*: #link("https://doi.org/10.1186/1471-2334-12-258")[10.1186/1471-2334-12-258]
+    / *PMID:*: 23061432
+    / *PMCID:*: PMC3553045
+    / *Published:*: October 2012
+    / *Study Design:*: Immunological cross-sectional sub-study of the Bergen Giardia cohort at 5 years post-infection; compares post-infectious CFS, post-infectious functional GI disease, and non-fatigued exposed controls
+    / *Key Findings:*:
+
+        - Post-infectious CFS patients had significantly lower NK-cell counts vs non-fatigued Giardia-exposed controls at 5 years
+        - NK-cell levels correlated negatively with fatigue severity and abdominal symptom severity
+        - Post-infectious FGID showed higher CD8 T-cell levels (distinct immune profile from CFS subgroup)
+        - No significant difference in most other immune markers between groups
+
+    / *Relevance:*: First objective immunological marker differentiating post-parasitic CFS from recovered Giardia cases. The NK-cell reduction at 5 years mirrors the chronic NK dysfunction documented in ME/CFS from viral triggers (Section @sec:nk-cells), providing cross-etiology mechanistic convergence. The correlation between NK levels and symptom severity suggests NK dysfunction is not incidental. Supports the hypothesis that post-parasitic ME/CFS shares immunological hallmarks with post-viral ME/CFS regardless of the triggering pathogen.
+    / *Limitations:*: Small n (19 CFS cases); cross-sectional measurement cannot establish causality; single cohort.
+    / *Certainty:*: Moderate (well-defined exposure and consistent NK findings with broader ME/CFS literature).
+
+=== Hanevik et al.\ 2014 — Post-Giardia CFS: 6-Year Controlled Prospective Cohort
+
+    / *Full Citation:*: Hanevik K, Wensaas K-A, Rortveit G, Eide GE, Mørch K, Langeland N. Irritable bowel syndrome and chronic fatigue 6 years after giardia infection: a controlled prospective cohort study. _Clinical Infectious Diseases_. 2014;59(10):1394–1400.
+    / *DOI:*: #link("https://doi.org/10.1093/cid/ciu629")[10.1093/cid/ciu629]
+    / *PMID:*: 25115874
+    / *PMCID:*: PMC4207419
+    / *Published:*: November 2014
+    / *Study Design:*: Controlled prospective cohort; 748 Giardia-exposed vs 878 matched population controls; postal questionnaire at 6 years
+    / *Key Findings:*:
+
+        - Chronic fatigue in 30.8% of exposed vs controls: RR 2.9 (95% CI 2.3–3.4)
+        - IBS in 39.4% of exposed vs controls: RR 3.4 (95% CI 2.9–3.9)
+        - From 3 to 6 years: chronic fatigue prevalence fell 15%, IBS fell 7% — slow partial recovery
+        - Increasing age was a risk factor for persisting chronic fatigue
+
+    / *Relevance:*: The methodologically strongest study in the Bergen series — controlled, prospective, large matched cohort. Establishes a nearly threefold excess risk of chronic fatigue six years after documented parasitic infection at population scale. The controlled design allows true excess-risk calculation not confounded by background rates. The temporal trajectory (slow decline from 3-year peak) supports the disease course hypothesis: post-parasitic ME/CFS is not immediately self-limiting but does show partial natural recovery over years.
+    / *Limitations:*: Self-report outcomes (postal questionnaire); formal ME/CFS diagnostic criteria not applied to full cohort; response rate not specified in abstract.
+    / *Certainty:*: High (for post-Giardia excess chronic fatigue risk at population level).
+
+=== Hanevik et al.\ 2017 — sCD40L Elevation in Post-Giardia CFS: Immune Activation Marker
+
+    / *Full Citation:*: Hanevik K, Kristoffersen E, Mørch K, Rye KP, Sørnes S, Svärd S, Bruserud Ø, Langeland N. Giardia-specific cellular immune responses in post-giardiasis chronic fatigue syndrome. _BMC Immunology_. 2017;18(1):5.
+    / *DOI:*: #link("https://doi.org/10.1186/s12865-017-0190-3")[10.1186/s12865-017-0190-3]
+    / *PMID:*: 28129747
+    / *PMCID:*: PMC5279576
+    / *Published:*: January 2017
+    / *Study Design:*: Immunological sub-study of Bergen cohort; comparison of antigen-specific T-cell responses and sCD40L levels between PI-CFS, non-fatigued post-Giardia controls, and unexposed healthy controls
+    / *Key Findings:*:
+
+        - Antigen-specific CD4 T-cell activation and proliferation did not differentiate PI-CFS from non-fatigued Giardia-exposed controls
+        - Elevated soluble CD40 ligand (sCD40L) in PI-CFS and fatigued post-Giardia patients vs non-fatigued controls
+        - sCD40L correlated positively with current fatigue severity
+        - Giardia-specific immune memory (antigen recall response) was detectable in exposed vs unexposed groups
+
+    / *Relevance:*: sCD40L is a marker of platelet activation and CD4 T-cell–mediated immune activation. Its elevation in proportion to fatigue severity suggests ongoing systemic immune activation as a fatigue-sustaining mechanism, not merely residual antigen-specific T-cell memory. The negative finding for antigen-specific CD4 T-cell responses (despite positive Bolstad 2017 findings for cellular immunity) may reflect methodological differences or a shift from Giardia-specific to bystander immune activation at this later timepoint.
+    / *Limitations:*: Small n (15 CFS cases); sCD40L finding requires independent replication; cross-sectional design.
+    / *Certainty:*: Moderate (novel finding; awaits replication).
+
+=== Stiff et al.\ 2017 — Post-Cryptosporidium Persistent Symptoms: 1-Year Follow-Up
+
+    / *Full Citation:*: Stiff RE, Davies AP, Mason BW, Hutchings HA, Chalmers RM. Long-term health effects after resolution of acute Cryptosporidium parvum infection: a 1-year follow-up of outbreak-associated cases. _Journal of Medical Microbiology_. 2017;66(11):1607–1611.
+    / *DOI:*: #link("https://doi.org/10.1099/jmm.0.000609")[10.1099/jmm.0.000609]
+    / *PMID:*: 28984243
+    / *Published:*: November 2017
+    / *Study Design:*: Longitudinal follow-up of adult outbreak-associated Cryptosporidium parvum cohort; self-reported symptoms at 12 months post-infection
+    / *Key Findings:*:
+
+        - Persistent fatigue in 22% at 12 months post-infection
+        - Joint pain 33%, abdominal pain 38%, diarrhoea 33%, IBS-consistent symptoms 28%
+        - Multi-system symptom cluster extending beyond GI involvement
+        - First study to describe 12-month sequelae of C. parvum; sequelae similar to C. hominis
+
+    / *Relevance:*: Extends the post-infectious ME/CFS trigger spectrum beyond Giardia to a second waterborne protozoan. The multi-system phenotype (fatigue + joint pain + GI) is consistent with post-infectious ME/CFS. Formal CFS diagnostic criteria were not applied and follow-up was limited to 12 months — insufficient for full ME/CFS ascertainment (most ME/CFS diagnoses require ≥6 months, and the Bergen data show peak CFS prevalence at 3 years). This study should be understood as preliminary evidence requiring longer follow-up and formal diagnostic ascertainment.
+    / *Limitations:*: No control group; 12-month follow-up too short for ME/CFS assessment; CFS criteria not applied; likely small sample; single C. parvum subtype.
+    / *Certainty:*: Low-moderate (consistent with trigger hypothesis; insufficient for definitive conclusion).
+
+=== Jason et al.\ 2022 — Patient-Reported Infectious Triggers of ME/CFS: 100+ Pathogens
+
+    / *Full Citation:*: Jason LA, Yoo S, Bhatia S. Patient perceptions of infectious illnesses preceding Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Chronic Illness_. 2022;18(4):901–910.
+    / *DOI:*: #link("https://doi.org/10.1177/17423953211043106")[10.1177/17423953211043106]
+    / *PMID:*: 34541918
+    / *PMCID:*: PMC9152619
+    / *Published:*: 2022
+    / *Study Design:*: Multi-site, multi-country cross-sectional survey; 1,773 individuals diagnosed with ME, CFS, or ME/CFS; qualitative open-ended reporting of preceding infectious illness
+    / *Key Findings:*:
+
+        - 60.3% of 1,773 ME/CFS patients reported a preceding infectious illness
+        - Most common single trigger: mononucleosis/EBV (30% of those with infectious triggers)
+        - Over 100 distinct infectious agents identified in total
+        - No single pathogen dominates; trigger spectrum is highly diverse
+        - Parasitic triggers documented (Giardia, amoeba, tapeworm) but represent a minority
+
+    / *Relevance:*: Establishes the empirical basis for the diverse-trigger model of post-infectious ME/CFS onset. The dominance of no single pathogen (EBV, despite being #1, accounts for only 30% of infectious triggers) supports the hypothesis that severity and duration of the host immune response — not the specific pathogen — is the primary determinant of ME/CFS conversion. Contextualises parasite-triggered ME/CFS as a real but minority pathway within a broader post-infectious spectrum.
+    / *Limitations:*: Entirely self-reported and retrospective; recall bias and misattribution risk; no control group; no parasitic triggers quantified separately (grouped under "other"); qualitative coding reliability not detailed.
+    / *Certainty:*: Moderate (large multi-country sample; limited by retrospective self-report design).
+
+=== Dunwell 2013 — ME/CFS and Blastocystis / Dientamoeba: Clinical Comparison
+
+    / *Full Citation:*: Dunwell D. ME/CFS and Blastocystis spp or Dientamoeba fragilis, an in-house comparison. _The British Journal of General Practice_. 2013;63(607):73–74.
+    / *DOI:*: #link("https://doi.org/10.3399/bjgp13X663028")[10.3399/bjgp13X663028]
+    / *PMID:*: 23561675
+    / *PMCID:*: PMC3553628
+    / *Published:*: February 2013
+    / *Study Design:*: Clinical letter; in-house case series comparison
+    / *Key Findings:*:
+
+        - Documents ME/CFS patients positive for _Blastocystis_ spp or _Dientamoeba fragilis_ in a UK general practice
+        - Raises the question of whether these organisms are incidental findings or contributors to symptom burden
+
+    / *Relevance:*: Earliest UK primary care documentation of the ME/CFS–Blastocystis/Dientamoeba intersection. Methodologically limited (letter, no control group) but clinically significant as a first flag for a gap in routine investigation. Highlights the diagnostic sensitivity limitation of standard O&P microscopy for these organisms.
+    / *Limitations:*: Letter format; no control group; no PCR confirmation of subtype; cannot establish causation or prevalence.
+    / *Certainty:*: Low (case series letter). Cited as hypothesis-generating, not as evidence of association.
 
 // =============================================================================
 
@@ -2184,6 +2389,29 @@ Cymba conchae stimulation, 25–50 Hz frequency, 200–300 microsecond pulse wid
 *Integration Notes:*
 tVNS represents a potential non-pharmacological, home-based intervention for autonomic and immune modulation in ME/CFS. The dual mechanisms (vagal tone enhancement + cholinergic anti-inflammatory pathway) address multiple pathophysiological features. Safety profile is favorable with minimal adverse effects across studies. However, current evidence is preliminary: the ME/CFS pilot lacks sham control, and POTS studies have small samples and short durations. Baseline autonomic testing (HRV) may enable precision medicine approach by identifying likely responders. Larger sham-controlled RCTs in ME/CFS populations are needed before clinical adoption beyond POTS subgroup.
 
+*Bu et al.\ 2026 — VNS Mechanisms: Fibre Selectivity and Anatomical Architecture*
+
+    / *Full Citation:*: Bu Y, Liang A, Hoffman BU, Schiehser DM, Case O, Simmons A, Klaming R, Gottfried-Blackmore A, Mittal RK, Puleo C, Lim H, Lerman I. A Review of Vagus Nerve Stimulation for Disease: Comprehensive Theory and Evidence for Mechanisms of Action. _Comprehensive Physiology_. 2026;16(2):e70109.
+    / *DOI:*: #link("https://doi.org/10.1002/cph4.70109")[10.1002/cph4.70109]
+    / *PMID:*: 41781173
+    / *Published:*: April 2026
+    / *Study Design:*: Comprehensive narrative review with anatomical data
+    / *Key Findings:*:
+
+        - Cervical vagus cross-section (Figure 2A) reveals multi-fascicle architecture: the nerve is not a uniform cable but contains heterogeneous bundles with distinct fibre populations — large myelinated A-fibres, smaller myelinated B-fibres, and unmyelinated C-fibres
+        - Fibre recruitment follows biophysical activation thresholds: A-fibres recruited first at lowest intensities (explaining voice hoarseness as the most common cervical VNS side effect — laryngeal efferent A-fibres engage before autonomic fibres), then B-fibres (preganglionic autonomic efferents: heart rate, bronchomotor tone, gut motility), then C-fibres (visceral/nociceptive/inflammatory signals; highest threshold)
+        - C-fibres are numerically dominant and carry the inflammatory signals most relevant to ME/CFS pathophysiology, but require higher effective activation thresholds — robust C-fibre recruitment co-occurs with full A- and B-fibre engagement unless deliberate fibre-selectivity strategies are used
+        - Electrode geometry, pulse width, frequency, duty cycle, and waveform shape all determine which fibre classes are actually recruited in a given protocol
+        - Critical interpretive principle: when a study reports "VNS" effects on inflammation, fatigue, or cardiac function, the key question is not nominal dose but which fibre classes were plausibly engaged under those specific anatomical and parameter conditions
+
+    / *Relevance to ME/CFS:*: Provides the mechanistic framework for interpreting all VNS literature in ME/CFS. The anti-inflammatory C-fibre pathway is not simply "dialled up" by increasing stimulation intensity — parameter specificity determines which pathways are engaged. Studies reporting VNS effects on inflammation in ME/CFS should be evaluated against their specific electrode placement, waveform, and parameters; cross-study comparison of aggregate "VNS effects" is difficult to interpret without this specification. Essential context for evaluating Natelson 2022 (tVNS pilot) and Yu 2022 (POTS data) in light of whether the anti-inflammatory C-fibre pathway was plausibly activated under the parameters used.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (Comprehensive Physiology; peer-reviewed; anatomical data with imaging evidence)
+        - *Study type:* Comprehensive review with primary anatomical data (cross-sectional imaging)
+        - *Limitations:* Review methodology; anatomical data from non-ME/CFS specimens; parameter thresholds are from general peripheral nerve biophysics, not ME/CFS-specific validation
+        - *Convergence:* Consistent with established peripheral nerve biophysics; provides anatomical evidence that was previously described theoretically
+
 === Pacing and Energy Management
 
     / *Full Citation:*: Goudsmit EM, Nijs J, Jason LA, Wallman KE. A scoping review of "Pacing" for management of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): lessons learned for the long COVID pandemic. _Journal of Translational Medicine_. 2023;21:738.
@@ -2671,6 +2899,9 @@ Peripheral endothelial dysfunction found in 51% of ME/CFS patients vs 20% of hea
 
 *Appel et al.\ 2024 @Appel2025*:
 Comprehensive review of endothelial dysfunction in ME/CFS. Elevated adhesion molecules (ICAM-1, VCAM-1), impaired flow-mediated dilation, chronic inflammatory state contributing to vascular pathology. Links endothelial dysfunction to exercise intolerance and post-exertional symptoms. *Certainty:* High (systematic review, multiple lines of evidence).
+
+*Nunes et al.\ 2026 @Nunes2026endothelialSenescence*:
+Theoretical framework proposing virus-induced endothelial senescence as the unifying mechanistic cause of ME/CFS and long COVID. Central model: acute viral infection triggers endothelial dysfunction and cellular senescence directly (viral endothelial infection) and indirectly (immune-mediated damage). Senescent endothelial cells adopt the senescence-associated secretory phenotype (SASP) --- proinflammatory, pro-oxidative, procoagulant, and vasoconstriction-primed --- which drives multisystem symptoms. Crucially, the well-documented NK cell dysfunction and T cell exhaustion in ME/CFS prevents clearance of senescent endothelial cells, creating a bidirectional self-sustaining loop: SASP impairs immune function, impaired immune function perpetuates senescence. Tissue-specific effects at the blood-brain barrier (neuroinflammation, brain fog), cerebral arteries (reduced cerebral blood flow), gastrointestinal endothelium (leaky gut, dysbiosis), and skeletal muscle microvasculature (PEM, exercise intolerance) map to distinct ME/CFS symptom clusters. Treatment implications: senolytics (dasatinib + quercetin), senomorphics, NK cell restoration, anticoagulants. _Study type:_ Mechanistic review/theory (no new patient data). _Certainty:_ Medium (peer-reviewed in _Cell Death \& Disease_, Nature Publishing Group; theoretical framework integrating published findings; endothelial senescence not yet directly measured in ME/CFS tissue; causal direction not established). _Key limitation:_ Most supporting evidence from long COVID rather than ME/CFS-specific studies; does not address non-post-viral ME/CFS presentations.
 
 *Miller et al.\ 2020 @Miller2020arterial*:
 Arterial elasticity significantly increased in Ehlers-Danlos syndrome patients. Central pulse wave velocity significantly lower in EDS (4.73 m/s vs controls), indicating increased arterial elasticity that impairs baroreceptor-mediated blood pressure control. Explains orthostatic intolerance mechanism in EDS and related hypermobility conditions. n=46 EDS patients across multiple subtypes (primarily hEDS). *Certainty:* High (objective arterial measurements, published in _Genes_, significant finding). *Relevance to ME/CFS:* High comorbidity between ME/CFS and hEDS/hypermobility spectrum disorders. Increased arterial compliance reduces effectiveness of baroreceptor responses, contributing to orthostatic intolerance and POTS. Provides vascular mechanism linking connective tissue disorders to autonomic symptoms common in ME/CFS population.
@@ -5892,4 +6123,162 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
         - *Quality:* Low (n=5, highly selected sample, atypical control group)
         - *Replication:* Directionally replicated in larger cohort (Matits 2026)
-        - *Certainty:* 0.30 (preliminary finding only)
+
+// =============================================================================
+
+== Perioperative Care and Anesthesia in ME/CFS
+<sec:bib-perioperative>
+// =============================================================================
+
+=== Steinkirchner et al.\ 2026 — Perioperative Outcomes Under General Anesthesia
+
+    / *Full Citation:*: Steinkirchner FM, Kaufmann C, Kraus RF, Kaess M, Schieffer E, Graf BM, Lassen C, Kimmerling V, Dejaco A. Perioperative outcomes in patients with myalgic encephalomyelitis/chronic fatigue syndrome undergoing general anesthesia: a retrospective matched-pair study. _medRxiv_. 2026. (Preprint, not yet peer-reviewed.)
+    / *DOI:*: #link("https://doi.org/10.64898/2026.04.06.26348924")[10.64898/2026.04.06.26348924]
+    / *Posted:*: April 7, 2026
+    / *Institution:*: Department of Anaesthesiology, ME/CFS Research Group, University Hospital Regensburg, Germany
+    / *Status:*: Preprint — not yet peer-reviewed
+    / *Study Design:*: Retrospective matched-pair analysis, single tertiary centre, 2015–2026
+    / *Sample Size:*: 15 ME/CFS patients matched 1:1 with controls (30 total); identified from 189 ICD-10 coded cases (G93.3, U09.9)
+    / *Matching:*: Sex and surgical procedure; not matched for BMI, age, or year of procedure
+    / *Key Findings:*:
+
+        - *Intraoperative hemodynamics:* ME/CFS patients had lower lowest systolic BP (90 vs 100~mmHg, $p$=0.044) and lower lowest heart rate (50 vs 60~bpm, $p$=0.012) vs controls; however, no severe hypotension episodes, no excess vasopressor use, and no perioperative adverse events in either group — differences were statistically significant but not clinically significant
+        - *Postoperative pain:* Maximum NRS pain score 5.0 vs 1.0 ($p$=0.008); opioid rescue analgesia required in 80% of ME/CFS vs 33% of controls ($p$=0.039)
+        - *Other outcomes:* Non-opioid rescue analgesia, oxygen supplementation, postoperative nausea and vomiting, and length of PACU stay did not differ significantly
+
+    / *Proposed Mechanisms:*: Autonomic dysfunction explains lower intraoperative hemodynamic values (lower sympathetic baseline). Central sensitization, documented in ME/CFS, is proposed as the primary mechanism underlying elevated postoperative pain burden.
+    / *Critical Gap:*: Post-exertional malaise — the cardinal feature of ME/CFS — was not captured. Routine perioperative documentation focuses on immediate outcomes; delayed PEM onset (24–72+ hours) means the true perioperative burden is very likely underestimated by this study design.
+    / *Conclusion:*: "General anesthesia appears hemodynamically well tolerated in individuals with ME/CFS. In contrast, postoperative pain burden is increased and may require tailored analgesic strategies."
+    / *Limitations:*:
+
+        - Small sample (n=15 pairs); substantially underpowered
+        - Retrospective, single-centre; limited generalizability
+        - Matching incomplete (not controlled for age, BMI, year of procedure)
+        - Large attrition from 189 identified to 15 included, likely reflecting both underdiagnosis and patient avoidance of elective procedures
+        - PEM not assessed: the most clinically relevant perioperative risk in ME/CFS is entirely unmeasured
+        - Preprint: not yet peer-reviewed
+
+    / *Certainty Assessment:*:
+
+        - *Quality:* Low (retrospective, single-centre, n=15, preprint)
+        - *Novelty:* High — first study to empirically examine perioperative hemodynamics in ME/CFS
+        - *Replication:* Not replicated; no prior literature to compare against
+        - *Conflicts of interest:* None declared
+        - *Certainty (hemodynamic safety claim):* 0.45 — directionally reassuring and mechanistically coherent, but small sample and preprint status warrant caution
+        - *Certainty (elevated pain burden claim):* 0.55 — large effect size ($Delta$NRS = 4 points; OR for opioid use $approx$ 8.0) makes chance less plausible despite small n
+
+// =============================================================================
+
+== Vascular Pathology, RBC Dysfunction, and Endothelial Senescence (2022--2026)
+<sec:bib-vascular-2022-2026>
+
+_Added 2026-04-10. This section covers the 2022--2026 vascular literature integrated into Chapters 6, 7, 10, 14, and 18._
+
+// =============================================================================
+
+=== Nunes et al.\ 2026 — Virus-Induced Endothelial Senescence as Cause of ME/CFS
+
+    / *Full Citation:*: Nunes M, Kell L, Slaghekke A, Wüst RC, Fielding BC, Kell DB, Pretorius E. Virus-induced endothelial senescence as a cause and driving factor for ME/CFS and long COVID: mediated by a dysfunctional immune system. _Cell Death & Disease_. 2026;17(1):16.
+    / *DOI:*: #link("https://doi.org/10.1038/s41419-025-08162-2")[10.1038/s41419-025-08162-2]
+    / *Key Argument:*: Viral infection induces endothelial senescence at BBB, cerebral arteries, gut, and skeletal muscle microvasculature. Senescent cells produce SASP (pro-inflammatory, pro-oxidative, procoagulant, vasoconstrictive). NK cell dysfunction and T cell exhaustion in ME/CFS prevent senescent cell clearance, establishing a self-perpetuating loop. IgG from ME/CFS/Long COVID patients causes mitochondrial fragmentation in endothelial cells, not the reverse.
+    / *Certainty:*: 0.40 — mechanistic logic compelling; endothelial senescence not yet directly measured in ME/CFS tissue
+    / *Integrated into:*: Chapter 7 (@sec:endothelial-senescence), Chapter 10 (@sec:endothelial-senescence-cv)
+    / *Key Implication:*: Senolytics (dasatinib + quercetin) as rational therapeutic target; explains why cytokine/B-cell therapies have had limited benefit
+
+=== Flaskamp et al.\ 2022 — Failed Angiogenic Compensation in ME/CFS
+
+    / *Full Citation:*: Flaskamp L, Roubal C, Uddin S, Sotzny F, Kedor C, Bauer S, Scheibenbogen C, Seifert M. Serum of Post-COVID-19 Syndrome Patients with or without ME/CFS Differentially Affects Endothelial Cell Function In Vitro. _Cells_. 2022;11(15):2376.
+    / *DOI:*: #link("https://doi.org/10.3390/cells11152376")[10.3390/cells11152376]
+    / *Key Finding:*: Post-COVID serum (without ME/CFS) enhances angiogenic tube formation in endothelial cells; ME/CFS serum specifically abolishes this response. ME/CFS serum also reduces VCAM-1, ICAM-1, and E-selectin expression. Suggests failed angiogenic compensation as a transition mechanism to ME/CFS chronicity.
+    / *Certainty:*: 0.30 — single in vitro study; in vivo relevance not established
+    / *Integrated into:*: Chapter 10 (@sec:endothelial-senescence-cv, @hyp:failed-angiogenesis-mecfs)
+
+=== Nunes et al.\ 2022 — First Documentation of Microclots in ME/CFS
+
+    / *Full Citation:*: Nunes JM, Kruger A, Proal A, Kell DB, Pretorius E. The Occurrence of Hyperactivated Platelets and Fibrinaloid Microclots in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Pharmaceuticals (Basel)_. 2022;15(8):931.
+    / *DOI:*: #link("https://doi.org/10.3390/ph15080931")[10.3390/ph15080931]
+    / *Key Finding:*: First paper to document fibrinaloid microclots in ME/CFS (not just Long COVID). Microclot area >10-fold greater than controls. Platelet spreading score 2.72 ± 1.24 vs 1.00 (PAC-1 and CD62P markers). Hypercoagulable state in ~50% by thromboelastography.
+    / *Certainty:*: 0.55 — replicated within the Pretorius group; independent replication needed
+    / *Integrated into:*: Chapter 10 (@sec:hypercoagulability)
+
+=== Nunes et al.\ 2023 — Cardiovascular and Haematological Pathology Review
+
+    / *Full Citation:*: Nunes JM, Kell DB, Pretorius E. Cardiovascular and haematological pathology in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A role for viruses. _Blood Reviews_. 2023;60:101075.
+    / *DOI:*: #link("https://doi.org/10.1016/j.blre.2023.101075")[10.1016/j.blre.2023.101075]
+    / *Key Finding:*: Review documenting 26% mean CBF reduction, orthostatic intolerance >95% in some cohorts, reduced stroke volume (10.2% in severe ME/CFS), fibrinaloid microclots and platelet hyperactivation below Long COVID levels but above healthy controls. Herpesviruses proposed as maintenance factors.
+    / *Certainty:*: 0.50 (review of mostly replicated findings)
+    / *Integrated into:*: Chapter 10 (@sec:fibrin)
+
+=== Nunes et al.\ 2024 — Plasma Proteomics Reveals Prothrombotic State
+
+    / *Full Citation:*: Nunes JM, Vlok M, Proal A, Kell DB, Pretorius E. Data-independent LC-MS/MS analysis of ME/CFS plasma reveals a dysregulated coagulation system, endothelial dysfunction, downregulation of complement machinery. _Cardiovascular Diabetology_. 2024;23:259.
+    / *DOI:*: #link("https://doi.org/10.1186/s12933-024-02315-x")[10.1186/s12933-024-02315-x]
+    / *Key Finding:*: 24 significantly elevated proteins in ME/CFS plasma (n=15 vs 10 controls). THBS1, PF4, P-selectin elevated; Protein S decreased. Complement components reduced. Ongoing prothrombotic, pro-coagulant state — not a residual acute-phase artifact.
+    / *Certainty:*: 0.50 — small cohort; replicated by Heng et al. 2025 for THBS1 and VWF independently
+    / *Integrated into:*: Chapter 10 (@sec:hypercoagulability)
+
+=== Kruger et al.\ 2022 — Microclot Proteomics in Long COVID
+
+    / *Full Citation:*: Kruger A, Vlok M, Turner S, Venter C, Laubscher GJ, Kell DB, Pretorius E. Proteomics of fibrin amyloid microclots in long COVID/post-acute sequelae of COVID-19 (PASC) shows many entrapped pro-inflammatory molecules that may also contribute to a failed fibrinolytic system. _Cardiovascular Diabetology_. 2022;21:190.
+    / *DOI:*: #link("https://doi.org/10.1186/s12933-022-01623-4")[10.1186/s12933-022-01623-4]
+    / *Key Finding:*: 27 distinct immunoglobulin variants in Long COVID microclots absent from controls. VWF 2.6×, PF4 3.5× elevated. Plasma kallikrein 4.4× decreased. Entrapped pro-inflammatory molecules impair fibrinolysis. Microclots physically obstruct capillaries.
+    / *Certainty:*: 0.55 (replicated within Pretorius group)
+    / *Integrated into:*: Chapter 10 (@sec:fibrin)
+
+=== Guo et al.\ 2025 — ME/CFS RBC Oxygen-Sensing Failure at Capillary Level
+
+    / *Full Citation:*: Guo Y, Zhou S, Ren S, Liu X, Nemat-Gorgani M, Gresser MJ, Davis RW, Wan J. Microfluidic Assessment of PO2-Regulated RBC Capillary Velocity in ME/CFS. _Blood: Red Cells & Iron_. 2025;1(3):100019.
+    / *DOI:*: #link("https://doi.org/10.1182/bloodrci.2024.100019")[10.1182/bloodrci.2024.100019]
+    / *Institution:*: Stanford University
+    / *Key Finding:*: Using microfluidic channels (5.05 × 5.94 μm) under hypoxia (PO#sub[2] 0–34 mmHg), ME/CFS RBCs show significantly compromised capillary velocity vs healthy controls. Hypoxia-sensing mechanism — normally triggering vasodilation — is impaired: a cell-autonomous defect independent of target tissue mitochondrial state.
+    / *Certainty:*: 0.55 — novel methodology from Stanford Davis lab; independent replication needed
+    / *Integrated into:*: Chapter 10 (@sec:rbc-deformability), Chapter 6 (@sec:microcirculation-oxygen)
+
+=== Grau et al.\ 2024 — Persistent RBC Morphological Abnormalities in Long COVID
+
+    / *Full Citation:*: Grau M, Presche A, Krüger AL, Bloch W, Haiduk B. Red Blood Cell Morphology Is Associated with Altered Hemorheological Properties and Fatigue in Patients with Long COVID. _Biology (Basel)_. 2024;13(11):948.
+    / *DOI:*: #link("https://doi.org/10.3390/biology13110948")[10.3390/biology13110948]
+    / *Key Finding:*: 20.8 ± 10.7% morphologically abnormal RBCs (echinocytes, acanthocytes) vs 2.9 ± 1.5% in controls, at mean 42 weeks post-infection (beyond RBC lifespan — ongoing production of abnormal RBCs). Fatigue correlation r = −0.51 (p = 0.006).
+    / *Certainty:*: 0.55 — quantified haematological-symptom link; Long COVID cohort, ME/CFS-specific replication needed
+    / *Integrated into:*: Chapter 10 (@sec:rbc-deformability)
+
+=== Rogers et al.\ 2024 — Modelling COVID-19 Oxygen Delivery Deficit
+
+    / *Full Citation:*: Rogers SC, Brummet M, Safari Z, Wang Q, Rowden T, Boyer T, Doctor A. COVID-19 impairs oxygen delivery by altering red blood cell hematological, hemorheological, and oxygen transport properties. _Frontiers in Physiology_. 2024;15:1320697.
+    / *DOI:*: #link("https://doi.org/10.3389/fphys.2023.1320697")[10.3389/fphys.2023.1320697]
+    / *Key Finding:*: Three concurrent RBC defects in COVID-19. Maintaining equivalent oxygen delivery would require ~135% increase in cardiac output — physiologically impossible. Blood type O shows greater deformability impairment than blood type A.
+    / *Certainty:*: 0.55 — quantitative modelling validates clinical severity; COVID-19 acute phase, not ME/CFS
+    / *Integrated into:*: Chapter 10 (@sec:fibrin, @sec:rbc-deformability)
+
+=== Scheibenbogen & Wirth 2024 — Temporal Model: Vascular to Mitochondrial
+
+    / *Full Citation:*: Scheibenbogen C, Wirth KJ. Key Pathophysiological Role of Skeletal Muscle Disturbance in Post COVID and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): Accumulated Evidence. _Journal of Cachexia, Sarcopenia and Muscle_. 2024;16(1):e13669.
+    / *DOI:*: #link("https://doi.org/10.1002/jcsm.13669")[10.1002/jcsm.13669]
+    / *Key Finding:*: Early post-COVID: predominantly microvascular disturbance. ME/CFS: mitochondrial structural damage appears later and selectively. Causal chain: capillary hypoperfusion → ischaemia/reperfusion → Na+/H+ exchange → Na+ overload → NCX1 reversal → mitochondrial Ca2+ toxicity. Termed Acquired Ischaemic Mitochondrial Myopathy (AIMM). Strong evidence for vascular-primary causation.
+    / *Certainty:*: 0.50 — cross-sectional comparison not longitudinal; AIMM framework compelling
+    / *Integrated into:*: Chapter 6 (@sec:microcirculation-oxygen), Chapter 10 (@sec:rbc-deformability, @hyp:vascular-primary-mecfs)
+
+=== Van Campen et al.\ 2023 — Orthostatic Hypocapnia as CBF Amplifier
+
+    / *Full Citation:*: van Campen CMC, Rowe PC, Verheugt FWA, Visser FC. Influence of End-Tidal CO2 on Cerebral Blood Flow during Orthostatic Stress in Controls and Adults with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Physiological Reports_. 2023;11(17):e15639.
+    / *DOI:*: #link("https://doi.org/10.14814/phy2.15639")[10.14814/phy2.15639]
+    / *Key Finding:*: n=535 female ME/CFS patients. End-tilt PETCO#sub[2]: 26–30 mmHg vs 36 ± 3 mmHg controls. CO#sub[2] reactivity slopes intact — hypocapnia is the amplifier, not impaired reactivity. CBF reduction 28–31% vs 7% controls. Orthostatic hypocapnia functions as a physiological amplifier of CBF deficits beyond what cardiac output alone predicts.
+    / *Certainty:*: 0.60 — large cohort (n=535); single research group
+    / *Integrated into:*: Chapter 10 (@sec:cerebral-orthostatic, @sec:co2-bradykinin)
+
+=== El-Medany et al.\ 2024 — Carotid Body Sensitisation in Long COVID
+
+    / *Full Citation:*: El-Medany A, Carberry J, McConnachie A, et al. Carotid body dysregulation contributes to Long COVID symptoms. _Communications Medicine_. 2024;4:20.
+    / *DOI:*: #link("https://doi.org/10.1038/s43856-024-00447-5")[10.1038/s43856-024-00447-5]
+    / *Key Finding:*: HVR 145% higher in Long COVID vs controls (p=0.0007). VE/VCO#sub[2] slope significantly elevated. ACE2 receptor abundance in carotid body provides direct viral entry mechanism. P2X3 receptor antagonism (gefapixant) proposed as therapeutic target.
+    / *Certainty:*: 0.40 — small study (n=14); novel finding requiring replication; Long COVID not ME/CFS
+    / *Integrated into:*: Chapter 18 (@sec:carotid-body-mecfs)
+
+=== Edgell et al.\ 2025 — IMT Pilot RCT in ME/CFS
+
+    / *Full Citation:*: Edgell H, Pereira TJ, Kerr K, Badhwar S, et al. Inspiratory muscle training improves autonomic function in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and post-acute sequelae of SARS-CoV-2: A pilot study. _Respiratory Physiology & Neurobiology_. 2025;331:104360.
+    / *DOI:*: #link("https://doi.org/10.1016/j.resp.2024.104360")[10.1016/j.resp.2024.104360]
+    / *NCT:*: NCT05196529
+    / *Key Finding:*: 8-week IMT pilot RCT (n=12 ME/CFS). PEM-avoiding design (frequency, not effort). Improved: inspiratory muscle pressure, 6MWT, resting HR, HRV, sleep. Additional ME/CFS-specific improvements: vascular function, COMPASS-31 autonomic score, pain. No PEM exacerbations.
+    / *Certainty:*: 0.35 — pilot (n=12); no sham comparator; positive signal warrants definitive trial
+    / *Integrated into:*: Chapter 18 (@sec:imt-mecfs)
