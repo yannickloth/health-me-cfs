@@ -134,6 +134,10 @@ Anti-inflammatory interventions alone are insufficient for PEM prevention becaus
 === Emergency PEM Protocol
 <subsubsec:emergency-pem-protocol>
 
+#warning-env(title: [Not a Validated Clinical Protocol — Research Framework Only])[
+The following protocol has *never been tested* in a clinical trial. No randomized controlled trial, observational study, or even systematic case series has evaluated this combination of interventions for PEM prevention in ME/CFS. The protocol is a mechanistically-reasoned research proposal, assembled from individual components with safety data in other contexts. It should not be adopted as standard clinical practice. Patients should discuss any supplement or medication use with their physician before implementing any component. The specific doses, timing windows, and phase structure are illustrative of the mechanistic rationale, not validated prescriptions.
+]
+
 *Clinical context:* For patients who must undergo unavoidable exertion (medical procedures, essential activities, emergency situations), can targeted interventions immediately post-exertion reduce PEM severity or prevent onset?
 
 *Evidence tier:* _Hypothesis-driven, mechanistically justified, pending RCT validation._ Individual components have safety data from other contexts. The integrated protocol represents rational polypharmacy targeting identified mechanisms but lacks direct testing in ME/CFS PEM.
@@ -145,8 +149,8 @@ Anti-inflammatory interventions alone are insufficient for PEM prevention becaus
 _Goal_: Prevent ATP threshold crossing; minimize oxidative damage; provide NAD+ substrate; initiate parasympathetic recovery.
 
 - *ATP substrate provision*:
-  - *D-ribose* 10--15~g: Ribose is the sugar backbone of ATP; provides direct substrate for ATP resynthesis. Open-label studies in ME/CFS patients (n=257) report 61% improvement in energy @Teitelbaum2012ribose. *CONTRAINDICATION*: Diabetes, hypoglycemia (paradoxically lowers blood glucose)---see warning in Chapter @ch:action-mild-moderate
-  - *Citrulline-malate* 3--6~g: Dual mechanism---malate replenishes depleted TCA cycle intermediates (documented deficiency in ME/CFS @Yamano2016tca_urea); citrulline supports urea cycle/ammonia detoxification. 31P-MRS evidence shows 34% increased oxidative ATP production @Bendahan2002citrulline
+  - *D-ribose* 10--15~g: Ribose is the sugar backbone of ATP; provides direct substrate for ATP resynthesis. An open-label, uncontrolled survey (n=257) reported 61% improvement in energy @Teitelbaum2012ribose; the absence of a control group prevents distinguishing specific from placebo effects, and the lead author has commercial interests in supplement products. *CONTRAINDICATION*: Diabetes, hypoglycemia (paradoxically lowers blood glucose)---see warning in Chapter @ch:action-mild-moderate
+  - *Citrulline-malate* 3--6~g: Dual mechanism---malate replenishes depleted TCA cycle intermediates (documented deficiency in ME/CFS @Yamano2016tca_urea); citrulline supports urea cycle/ammonia detoxification. 31P-MRS evidence in healthy subjects shows 34% increased oxidative ATP production @Bendahan2002citrulline; extrapolation to ME/CFS is inferential
   - *Creatine* 5~g: Buffers ATP via phosphocreatine system; provides immediate energy reserve
   - *Medium-chain triglycerides (MCT oil)* 15--30~mL: Rapidly absorbed, bypasses damaged mitochondrial complexes; provides ketones as alternative fuel
   - Dissolve ribose, citrulline-malate, and creatine in water or juice; take MCT oil separately or mixed in beverage
@@ -323,7 +327,7 @@ This protocol is *mechanistically justified but clinically unvalidated*. No rand
 - Accidental overexertion despite careful pacing
 - Situations where crash prevention is critical (e.g., before important medical appointment)
 
-This protocol represents rational therapeutic design based on identified pathophysiology. It is offered for informed patient-physician decision-making in situations where potential benefits outweigh the minimal risks of the interventions and the certain risks of unmitigated severe PEM. Patients using this protocol should document outcomes to contribute to collective knowledge about efficacy.
+This protocol represents rational therapeutic design based on identified pathophysiology. It is offered for informed patient-physician decision-making, with the understanding that the individual supplement components have established safety profiles at these doses in other populations, while the integrated protocol's efficacy is unproven. Note: the comparison to "unmitigated severe PEM" as the counterfactual cannot currently be quantified — whether protocol-with-unknown-efficacy is better than careful rest-alone is itself untested. Patients using this protocol should document outcomes to contribute to collective knowledge about efficacy.
 ]
 
 === Future Research Directions
@@ -455,21 +459,25 @@ The cycle dynamics framework (Chapter @ch:core-symptoms, @sec:pem, "Ratchet Effe
 
 A critical insight is that many mechanisms transition from _reversible_ to _irreversible_ over time. Acute mitochondrial dysfunction in early disease may be 80% reversible through enhanced biogenesis and repair, but after years of sustained dysfunction, accumulated mtDNA mutations and organelle loss create damage that cannot be fully corrected.
 
-This time-dependency can be modeled as exponential decay:
+This time-dependency can be represented conceptually as exponential decay:
 
 $ R(t) = R_0 e^(-lambda t) $
 <eq:reversibility-decay>
 
-where $R(t)$ = reversibility fraction at time $t$ (proportion of dysfunction that remains correctable), $R_0$ = initial reversibility (at onset, often 0.8--0.95 for metabolic/immune dysfunction), $lambda$ = decay constant (mechanism-specific; estimated 0.1--0.3 yr#super[-1] for mitochondrial dysfunction), and $t$ = time since onset (years).
+where $R(t)$ = reversibility fraction at time $t$ (proportion of dysfunction that remains correctable), $R_0$ = initial reversibility (at onset), $lambda$ = decay constant, and $t$ = time since onset (years).
 
-*Clinical Interpretation of Time-Dependent Reversibility:* Consider two patients with comparable mitochondrial dysfunction severity:
+#warning-env(title: [Illustrative Model — Parameters Not Empirically Calibrated])[
+The parameters $R_0$ and $lambda$ in this model have not been measured in ME/CFS patients. No study has quantified "reversibility fraction" prospectively. The values below ($R_0 = 0.9$, $lambda = 0.2$ yr#super[-1]) are illustrative assumptions chosen to demonstrate the qualitative principle that early intervention likely offers higher recovery potential than late intervention. They should not be taken as predictive of any individual patient's prognosis. Do not use these calculations to advise patients on their recovery probability.
+]
 
-- *Patient A*: 6 months of illness, $R(0.5) = 0.9 times e^(-0.2 times 0.5) approx 0.81$ (81% reversible)
-- *Patient B*: 5 years of illness, $R(5) = 0.9 times e^(-0.2 times 5) approx 0.33$ (33% reversible)
+*Illustrative Calculation (hypothetical, not predictive):* Consider two patients with comparable mitochondrial dysfunction severity:
 
-Even with identical current dysfunction severity, Patient A has #sym.gt 2-fold higher recovery potential. This framework explains why early intervention is critical and why expecting symmetric outcomes across disease durations is unrealistic.
+- *Patient A*: 6 months of illness, $R(0.5) = 0.9 times e^(-0.2 times 0.5) approx 0.81$ (illustrative: 81% of dysfunction potentially reversible)
+- *Patient B*: 5 years of illness, $R(5) = 0.9 times e^(-0.2 times 5) approx 0.33$ (illustrative: 33% of dysfunction potentially reversible)
 
-*Clinical implication*: Duration should factor into prognosis discussions and treatment intensity decisions. Early-stage patients (#sym.lt 2 years) warrant aggressive multi-target intervention; late-stage patients (#sym.gt 10 years) should focus on stabilization and targeting remaining reversible components.
+These numbers are model outputs from assumed parameters, not empirical measurements. The qualitative implication — that earlier intervention likely offers more reversibility potential — has face validity based on general principles of tissue repair, but has not been tested in ME/CFS specifically. This framework explains why early intervention is likely critical, but individual prognosis requires clinical assessment, not formula calculation.
+
+*Clinical implication (from qualitative principle, not the model):* The general principle that earlier intervention tends to offer higher reversibility potential is grounded in tissue-repair biology, even if the specific decay model above is uncalibrated. Duration should factor into prognosis discussions. The guidance that follows (Tier 1-3 framework) is based on this qualitative reasoning, not on the exponential decay equation's numerical outputs: specific percentage thresholds should not be extracted from that equation for individual patients.
 
 === Reversibility Classification: Three-Tier Framework
 
@@ -585,16 +593,20 @@ Based on disease duration, severity, and biomarkers, estimate which tier dominat
 
 *Step 3: Set Realistic Goals by Tier.*
 
-- *Tier 1 (high reversibility)*: Realistic goal = 30--60% functional improvement, possibly remission
-  - Example: Moderate ME/CFS (housebound 3 days/week) → Mild ME/CFS (working part-time, occasional social activities)
-  - Aggressive intervention justified; high expected value
+#warning-env(title: [Percentage Improvement Targets Are Illustrative, Not Evidence-Based])[
+The percentage improvement ranges below (30--60%, 10--30%, 5--15%) are illustrative estimates of relative improvement potential between tiers — not validated clinical predictions. No ME/CFS trial has produced these specific figures; they are derived from clinical reasoning about reversibility, not from outcome data. Individual prognosis depends on factors these tiers cannot capture (subtype, comorbidities, available treatments, social support). Use these ranges to communicate the _relative_ principle that earlier-stage disease likely has higher recovery potential, not as specific promises to patients.
+]
 
-- *Tier 2 (moderate reversibility)*: Realistic goal = 10--30% functional improvement
+- *Tier 1 (higher reversibility)*: Illustrative goal = substantial functional improvement (possibly 30--60%), possibly remission
+  - Example: Moderate ME/CFS (housebound 3 days/week) → Mild ME/CFS (working part-time, occasional social activities)
+  - Aggressive intervention justified if evidence-based options exist; higher expected value compared to later tiers
+
+- *Tier 2 (moderate reversibility)*: Illustrative goal = meaningful functional improvement (possibly 10--30%)
   - Example: Severe (bedbound 80% of time) → Moderate-severe (housebound, can attend medical appointments, short visits)
   - Sustained effort justified; meaningful quality of life gains
   - Not "cure," but life-changing for patient and caregivers
 
-- *Tier 3 (low reversibility)*: Realistic goal = stabilization + 5--15% improvement in specific symptoms
+- *Tier 3 (lower reversibility)*: Illustrative goal = stabilization + targeted symptom improvement (possibly 5--15% in specific domains)
   - Example: Very severe (bedbound, severe sensory sensitivity) → Very severe (bedbound, but tolerates 30-minute visitor vs 10 minutes; less severe pain)
   - Focus on quality of life within severe constraints
   - Prevent false hope; validate suffering while maintaining realistic optimism
@@ -891,7 +903,7 @@ The AIMM cascade (Section @sec:sodium-calcium-cascade) proceeds as: ischaemia �
 
 *Vericiguat* is a soluble guanylate cyclase (sGC) stimulator approved for heart failure with reduced ejection fraction. By elevating cGMP independently of nitric oxide availability, it produces vasodilation, reduces cardiac preload, and has demonstrated mitochondrial protective effects in preclinical cardiac ischaemia models. Its relevance to ME/CFS derives from the vascular insufficiency component of the AIMM model: if endothelial NO bioavailability is impaired (the mechanism proposed in Section @sec:endothelial), sGC stimulation could partially compensate. The Scheibenbogen group (Charité Berlin) holds a patent application on sGC stimulators for ME/CFS treatment and has registered a clinical trial (NCT05697640) testing vericiguat in ME/CFS patients. No efficacy results are published as of early 2026.
 
-*Trimetazidine* is a mitochondrial cytoprotective agent that shifts cardiac and skeletal muscle metabolism from fatty acid oxidation toward glucose oxidation, reducing oxygen demand per unit of ATP produced. An Australian RCT (TRI-ME) is testing trimetazidine in ME/CFS; results are not yet available.
+*Trimetazidine* is a mitochondrial cytoprotective agent that shifts cardiac and skeletal muscle metabolism from fatty acid oxidation toward glucose oxidation, reducing oxygen demand per unit of ATP produced. An Australian RCT (TRI-ME) is testing trimetazidine in ME/CFS; results are not yet available. *Regulatory and sport note*: Trimetazidine is not approved by the FDA (not available in the United States) and is listed by WADA as a prohibited substance in-competition and out-of-competition; patients in competitive sport cannot use it legally.
 
 ==== Mechanistically Relevant, No ME/CFS Data
 
@@ -950,8 +962,8 @@ The Diagnostic Mirage hypothesis (Speculation @spec:diagnostic-mirage, Chapter @
 
 *Candidate unified approaches:*
 
-    - *Transcutaneous vagus nerve stimulation (tVNS):* Modulates both autonomic tone (parasympathetic enhancement) and neuroinflammation. Multi-site RCT currently recruiting for ME/CFS. Could simultaneously improve autonomic symptoms (POTS), inflammatory mediator release (MCAS), and central sensitisation (cognitive symptoms, pain).
-    - *Pyridostigmine:* Acetylcholinesterase inhibitor enhancing parasympathetic tone. Used for POTS; may also reduce neuroinflammation via the cholinergic anti-inflammatory pathway. The LIFT trial (LDN + pyridostigmine) tests a combination that targets both autonomic regulation and immune modulation.
+    - *Transcutaneous vagus nerve stimulation (tVNS):* Modulates both autonomic tone (parasympathetic enhancement) and neuroinflammation. Multi-site RCT currently recruiting for ME/CFS. Could simultaneously improve autonomic symptoms (POTS), inflammatory mediator release (MCAS), and central sensitisation (cognitive symptoms, pain). *Important mechanistic caveat:* the vagus nerve is not a uniform cable but a multi-fascicle mixed nerve containing three fibre populations with different activation thresholds — large myelinated A-fibres (lowest threshold; includes laryngeal efferents, explaining voice hoarseness as a common tVNS side effect), smaller myelinated B-fibres (preganglionic autonomic efferents: heart rate, bronchomotor tone, gut motility), and unmyelinated C-fibres (numerically dominant; slow visceral/inflammatory signals, highest threshold) @Bu2026VNSReview. The anti-inflammatory C-fibre pathway is therefore not simply "dialled up" by increasing intensity — robust C-fibre recruitment at cervical VNS sites typically requires parameters that also fully engage A- and B-fibre populations. Electrode placement, pulse width, frequency, and duty cycle all determine which fibre classes are actually recruited under a given protocol, and studies rarely report this. Cross-study comparisons of tVNS "effects on inflammation" or "fatigue" are therefore difficult to interpret without knowing the fibre-class engagement profile @Bu2026VNSReview.
+    - *Pyridostigmine:* Acetylcholinesterase inhibitor enhancing parasympathetic tone. Used for POTS; may also reduce neuroinflammation via the cholinergic anti-inflammatory pathway. The LIFT trial (LDN + pyridostigmine) tests a combination that targets both autonomic regulation and immune modulation. The fibre-selectivity framework raises the speculative possibility that pyridostigmine — by amplifying ACh at neuroeffector junctions — might potentiate whatever vagal efferent signal is present, reducing the reliance on reaching C-fibre recruitment thresholds. This is untested and would require the B-fibre efferent pathway to deliver ACh to the same macrophage targets (alpha-7 nAChR on splenic macrophages via the splenic nerve relay) as C-fibre-mediated pathways — an anatomical assumption that has not been validated @Bu2026VNSReview.
     - *Integrated protocol:* Rather than prescribing fludrocortisone for POTS, physiotherapy for hEDS, antihistamines for MCAS, and pacing for ME/CFS as independent treatments, an integrated protocol would target autonomic regulation as the upstream driver and measure outcomes across all four diagnostic categories simultaneously.
 
 #speculation(title: [Unified Autonomic Protocol Trial Design])[
@@ -960,6 +972,34 @@ The Diagnostic Mirage hypothesis (Speculation @spec:diagnostic-mirage, Chapter @
 
 *Limitations:* Pragmatic trials sacrifice internal validity for external validity. The unified intervention is complex, making it difficult to attribute effects to specific components. Ethical concerns about withholding established treatments in the control arm could be addressed by using add-on design (standard care + unified vs. standard care alone).
 ] <spec:unified-autonomic-trial>
+
+#speculation(title: [The "Wrong Fibres" Hypothesis: VNS Non-Response as a Fibre-Selectivity Artifact])[
+
+*Certainty: 0.30.* ME/CFS VNS trials report highly variable outcomes. The fibre-selectivity framework (Bu et al. 2026 @Bu2026VNSReview) offers one possible explanation: responders may be those whose primary pathology is B-fibre-mediated (autonomic dysregulation — POTS, HRV abnormalities, heart rate control), while non-responders may be those whose pathology is primarily C-fibre-mediated (chronic inflammatory signalling, immune dysregulation). At standard clinical parameters, VNS devices engage A and B fibres effectively but C-fibres poorly — so a patient whose ME/CFS pathology is predominantly inflammatory might not receive the therapeutic signal they need.
+
+Important caveats on the evidence: The Natelson pilot @NatelsonTVNS2022 cited here (57% response, n=14, open-label, preprint) cannot distinguish drug effect from placebo response — ME/CFS trials routinely show 24% placebo response rates, and an uncontrolled 57% figure may reflect mostly placebo. The "variability" this hypothesis explains may be statistical noise rather than a real treatment-responder signal. The same fibre-selectivity logic that explains non-response should also call into question what the positive responses represent: if standard-parameter tVNS engages primarily A/B fibres, positive responses in the "inflammatory-dominant" group cannot be attributed to C-fibre anti-inflammatory mechanisms either.
+
+*Existing evidence:* Yu et al.\ (2022) showed that low baseline vagal tone (HF-HRV < 200 ms#super[2]) predicted response to taVNS in POTS @Yu2022 — consistent with B-fibre-mediated autonomic supplementation, though a ceiling effect in patients with normal vagal tone is an equally parsimonious explanation. No ME/CFS study has measured inflammatory biomarker response to VNS stratified by stimulation parameters or fibre-class engagement.
+
+*Testable prediction:* In a tVNS trial with concurrent compound nerve action potential (CNAP) monitoring, C-fibre-confirmed engagement will predict anti-inflammatory response (IL-6, TNF-alpha reduction) while A/B-only engagement will predict autonomic but not inflammatory improvement. ME/CFS patients phenotyped as autonomic-dominant will respond to B-fibre-range parameters; immune-dominant patients will require C-fibre-range parameters. *Not yet replicated; rests on one mechanistic review paper; no ME/CFS trial data.*
+
+*Limitations:* Alternative explanations for VNS response variability — ME/CFS heterogeneity in aetiology, disease stage, and comorbidity profile — are at least as parsimonious as the fibre-selectivity hypothesis and require no novel assumptions. Pure autonomic-vs-inflammatory subtype separation does not exist in clinical reality: most ME/CFS patients have mixed features, which limits the predictive value of this framework. The CNAP monitoring required for direct fibre-class confirmation is not available in clinical settings. The validated subtyping tool ("autonomic-dominant vs. immune-dominant") this hypothesis requires does not exist.
+] <spec:vns-wrong-fibres>
+
+#speculation(title: [Gut Microbiome Restoration as Indirect Vagal C-Fibre Therapy])[
+
+*Certainty: 0.40.* The butyrate → enterochromaffin (EC) cell serotonin → vagal afferent pathway described in Chapters @ch:gut-microbiome and @ch:energy-metabolism can be reinterpreted, in fibre-selectivity terms, as a natural route for activating predominantly unmyelinated vagal afferent terminals in the gut mucosa. Kaelberer et al. (2018) established that EC cells form glutamatergic synapses with vagal afferent neurons @Kaelberer2018; these mucosal vagal afferent terminals are predominantly unmyelinated (C-fibre class). Therefore, restoring butyrate-producing bacteria (via FMT, targeted probiotics, or dietary fibre) may increase vagal C-fibre afferent input to the brainstem via a physiological chemosensory route.
+
+An important structural distinction: this pathway engages the *afferent* arm of the vagal inflammatory reflex (C-fibre sensory input to the nucleus tractus solitarius, NTS), whereas VNS devices primarily engage the *efferent* arm (B-fibre output to splenic macrophages). Whether increasing afferent C-fibre input reliably drives efferent anti-inflammatory output depends on whether the NTS-to-dorsal motor nucleus signalling cascade is intact in ME/CFS — which has not been established. If central autonomic processing is dysfunctional (as autonomic models of ME/CFS suggest), augmenting afferent input alone may not produce the expected anti-inflammatory output.
+
+Compared to electrical stimulation, chemosensory C-fibre activation may avoid off-target A- and B-fibre co-recruitment, though serotonin's wide receptor distribution (5-HT3, 5-HT4, and others throughout the gut and cardiovascular system) means "specificity" is limited in practice. EC-cell serotonin release is modulated by meal composition, gut motility, and microbiome activity — all tunable without electrical hardware, but also less precisely controllable.
+
+*Existing evidence:* ME/CFS is associated with reduced Faecalibacterium prausnitzii, reduced faecal butyrate, and increased intestinal permeability. Barton et al. (2025) demonstrated that butyrate enhances EC-cell serotonin production in preclinical models @Barton2025. Kaelberer et al. (2018) established that EC-cell serotonin directly activates vagal afferents via synaptic coupling @Kaelberer2018.
+
+*Testable prediction:* Successful microbiome restoration (documented increase in faecal butyrate and EC-cell serotonin markers) will increase vagal afferent tone, measurable as improvement in HRV high-frequency power or vagal evoked potential amplitude, in addition to GI and inflammatory improvements. Patients who achieve butyrate restoration but NOT vagal tone improvement are unlikely to show systemic anti-inflammatory benefit, suggesting the butyrate effect is mediated through vagal C-fibre afferents rather than systemic absorption. *Not yet replicated in ME/CFS.*
+
+*Limitations:* The butyrate → EC-cell serotonin → vagal afferent chain is established in preclinical models; direct human validation in ME/CFS is lacking. The critical afferent-to-efferent step — whether increased NTS vagal input drives downstream anti-inflammatory efferent output in ME/CFS — is unvalidated and could fail if central autonomic processing is already impaired. Serotonin has complex bidirectional roles in ME/CFS: increased gut serotonin may worsen visceral hypersensitivity, promote intestinal permeability, or trigger mast cell activation in susceptible patients — this is a meaningful safety concern, not a minor caveat, and any deliberate attempt to increase gut serotonin via this pathway should be approached cautiously. FMT carries procedural risks. Dietary fibre interventions vary substantially in their butyrate output by microbiome composition. The EC-cell serotonin pathway is one of multiple gut-brain communication routes, and isolating its specific contribution to systemic inflammatory outcomes is methodologically difficult.
+] <spec:gut-vagal-cfibre>
 
 // ===== New sections added 2026-03-26: Spooniverse gap-fill =====
 
@@ -1631,11 +1671,11 @@ S1R agonism is not fluvoxamine's only pharmacologically active pathway. Four add
 
 *2. Serotonin transporter (SERT) blockade:* The classical SSRI mechanism increases synaptic serotonin. In the gut, serotonin regulates motility and mucosal immune tone via 5-HT3/5-HT4 receptors; systemic serotonin signalling modulates platelet activation and vasoconstriction. Whether serotonin-pathway effects are relevant to the fatigue result is unclear; other SSRIs with comparable SERT affinity but lower S1R affinity have not consistently reproduced fluvoxamine's acute COVID and Long COVID results, weakening the SERT-specific hypothesis.
 
-*3. CYP1A2 inhibition and drug interaction network:* Fluvoxamine is the most potent CYP1A2 inhibitor among SSRIs. This creates a pharmacokinetic interaction of clinical importance: CYP1A2 metabolises caffeine, melatonin, theophylline, duloxetine, clozapine, olanzapine, and several other drugs. In patients on CYP1A2 substrates, fluvoxamine will increase their plasma levels substantially. The CYP1A2 interaction is a safety consideration but also an unaddressed confound in the REVIVE-TOGETHER trial: patients consuming caffeine (the primary CYP1A2 substrate in everyday life) would have had substantially extended caffeine half-life ($sim$5 hours $arrow.r$ $sim$30 hours), which could independently reduce fatigue-related subjective effects and improve sleep. This confound was not addressed by the trial authors and was identified by independent community reviewers. It does not negate the trial result, but it should be prospectively controlled in replication studies.
+*3. CYP1A2 inhibition and drug interaction network:* Fluvoxamine is the most potent CYP1A2 inhibitor among SSRIs. This creates a pharmacokinetic interaction of clinical importance: CYP1A2 metabolises caffeine, melatonin, theophylline, duloxetine, clozapine, olanzapine, and several other drugs. In patients on CYP1A2 substrates, fluvoxamine will increase their plasma levels substantially. The CYP1A2 interaction is a safety consideration but also an unaddressed confound in the REVIVE-TOGETHER trial: patients consuming caffeine (the primary CYP1A2 substrate in everyday life) would have had substantially extended caffeine half-life (~5 hours $arrow.r$ ~30 hours), which could independently reduce fatigue-related subjective effects and improve sleep. This confound was not addressed by the trial authors and was identified by independent community reviewers. It does not negate the trial result, but it should be prospectively controlled in replication studies.
 
 *4. Anti-inflammatory and NF-$kappa$B suppression:* Multiple SSRIs show NF-$kappa$B inhibition in cell models, reducing downstream production of IL-6, TNF-$alpha$, and IL-1$beta$. Whether this occurs at therapeutic plasma concentrations in vivo is debated; it may contribute additively to the S1R-mediated UPR suppression.
 
-=== The "Treatment $ne$ Mechanism" Epistemological Point
+=== The "Treatment $eq.not$ Mechanism" Epistemological Point
 <subsubsec:treatment-ne-mechanism>
 
 The REVIVE-TOGETHER trial has attracted commentary suggesting that fluvoxamine's efficacy implies a psychological or functional component to Long COVID. This inference is logically invalid and must be addressed explicitly.
@@ -1660,7 +1700,7 @@ The sigma-1 / ER stress / WASF3 mechanistic connection is plausible in ME/CFS. W
 ] <oq:fluvoxamine-mecfs>
 
 #open-question(title: [S1R Agonist Selectivity: Should We Prefer High-S1R-Affinity SSRIs?])[
-Among SSRIs, fluvoxamine has the highest S1R affinity (Ki $sim$36 nM). Fluoxetine has moderate affinity ($sim$240 nM); paroxetine and sertraline have low affinity. If S1R agonism is the active mechanism, then within-class differences should predict differential efficacy. Does the pattern of SSRI clinical outcomes in post-infectious fatigue match the rank order of S1R affinity? A retrospective analysis of SSRI outcomes in Long COVID registries stratified by S1R affinity rank would test this prediction at low cost.
+Among SSRIs, fluvoxamine has the highest S1R affinity (Ki ~36 nM). Fluoxetine has moderate affinity (~240 nM); paroxetine and sertraline have low affinity. If S1R agonism is the active mechanism, then within-class differences should predict differential efficacy. Does the pattern of SSRI clinical outcomes in post-infectious fatigue match the rank order of S1R affinity? A retrospective analysis of SSRI outcomes in Long COVID registries stratified by S1R affinity rank would test this prediction at low cost.
 ] <oq:s1r-affinity-selectivity>
 
 #speculation(title: [The S1R--MAM Axis as a Shared Vulnerability in Post-Infectious ME/CFS Subtype])[
@@ -1709,3 +1749,71 @@ If ER stress drives WASF3 upregulation and ME/CFS mitochondrial dysfunction, dir
 
 *Evidence Grade*: C (Long COVID RCT) / E (ME/CFS) --- REVIVE-TOGETHER provides strong Bayesian evidence in Long COVID fatigue; S1R--WASF3 mechanistic connection is hypothesis-level; no ME/CFS trial data exist; sigma-1 agonism across the class (fluvoxamine, pridopidine, DHEA) warrants systematic investigation
 
+
+== Inspiratory Muscle Training (IMT)
+<sec:imt-mecfs>
+
+Inspiratory muscle training — systematic resistance training of the diaphragm and accessory inspiratory muscles — has been piloted in ME/CFS as a potentially PEM-safe form of targeted physical training.
+
+=== Mechanism
+<subsubsec:imt-mechanism>
+
+The rationale for IMT in ME/CFS is distinct from general exercise rehabilitation. Rather than increasing total cardiovascular load (which risks PEM), IMT targets a specific muscle group with direct physiological relevance:
+
+    - *Autonomic modulation*: Inspiratory muscles project afferent signals to brainstem autonomic centres; strengthening these muscles may improve autonomic tone, particularly parasympathetic activity and heart rate variability — both impaired in ME/CFS
+    - *Venous return*: Diaphragmatic contraction generates the thoracic pressure gradient that drives venous return to the right heart; stronger diaphragmatic function may partially compensate for the preload failure documented in ME/CFS @Joseph2022pyridostigmine
+    - *Dysfunctional breathing correction*: 42.1% of ME/CFS patients show dysfunctional breathing patterns and 32% exhibit hyperventilation @vanDixhoorn2025; IMT may reduce reliance on accessory muscles (which consume 3× more energy than the diaphragm) and stabilise breathing mechanics
+
+=== Clinical Evidence
+
+Edgell et al.\ (2025) @Edgell2025imt conducted a pilot RCT (NCT05196529) of 8 weeks of IMT in ME/CFS and PASC patients. Key design decision: training increased breathing frequency (shortened intervals between breaths) rather than increasing inspiratory pressure — specifically to avoid the high-effort muscle loading that could trigger PEM in ME/CFS.
+
+Results in ME/CFS patients ($n$ = 12):
+
+    - *Improved*: Inspiratory muscle pressure, 6-minute walk distance, resting heart rate, heart rate variability, sleep-related symptoms
+    - *Additionally improved in ME/CFS (not controls)*: Vascular function, secretomotor function, total COMPASS-31 autonomic score, pain-related symptoms
+
+The improvement in vascular function and overall autonomic score beyond the general improvements seen in controls suggests a disease-specific therapeutic effect, not simply a conditioning response. No participant experienced a clinically significant worsening or PEM exacerbation during the trial.
+
+=== Caveats
+
+    - *Pilot scale*: $n$ = 12 ME/CFS. No sham comparator; all groups knew their assignment
+    - *Mechanism uncertain*: Whether benefit operates through autonomic improvement, venous return, or breathing pattern normalisation is not established
+    - *Individual variation*: Some patients are likely to be high-responders (those with significant dysfunctional breathing component) while others may see limited benefit
+    - *Protocol specificity*: The low-intensity protocol used here cannot be assumed equivalent to conventional IMT protocols used in cardiac or pulmonary rehabilitation
+
+*Evidence grade*: C (pilot RCT, positive signal, not powered for efficacy conclusions). Warrants a definitive multi-centre trial with stratification by dysfunctional breathing status.
+
+== Carotid Body Sensitisation and P2X3 Antagonism
+<sec:carotid-body-mecfs>
+
+The carotid body — a small chemoreceptive organ at the carotid bifurcation — detects arterial O#sub[2], CO#sub[2], and pH, transmitting signals via the glossopharyngeal nerve to the brainstem respiratory centre. Carotid body sensitisation has been proposed as a contributor to Long COVID symptoms and potentially ME/CFS.
+
+=== Evidence for Carotid Body Dysregulation
+
+El-Medany et al.\ (2024) @ElMedany2024carotid measured hypoxic ventilatory response (HVR) — a direct index of carotid body chemoreflex sensitivity — in 14 non-hospitalised Long COVID patients vs.\ 14 matched controls:
+
+    - *HVR*: Long COVID −0.44 ± 0.23 L/min/SpO#sub[2]% vs.\ controls −0.17 ± 0.13 L/min/SpO#sub[2]% ($p$ = 0.0007) — carotid chemoreflex sensitivity 145% higher in Long COVID
+    - *VE/VCO#sub[2] slope*: 37.8 ± 4.4 vs.\ 27.7 ± 4.8 ($p$ = 0.0003)
+    - *Correlation*: HVR correlated with VE/VCO#sub[2] slope ($r$ = −0.53, $p$ = 0.004)
+
+The proposed mechanism: SARS-CoV-2 enters carotid body glomus cells via their ACE2 receptor abundance, directly sensitising the chemoreflex. Sensitised carotid bodies generate exaggerated respiratory responses to mild hypoxia and hypercapnia, contributing to dysfunctional breathing, breathlessness, and the ventilatory inefficiency documented on CPET. Orthostatic CO#sub[2] falls documented in ME/CFS — PETCO#sub[2] dropping to 26–30 mmHg during tilt testing vs.\ 36 mmHg in controls @VanCampen2023co2cbf — may partly reflect carotid body-driven respiratory overcompensation rather than primary hyperventilation.
+
+=== Therapeutic Target: P2X3 Antagonism
+
+P2X3 receptors are expressed in carotid body afferent fibres and modulate chemoreflex sensitivity. *Gefapixant*, a P2X3/P2X2/3 antagonist already approved in some markets for refractory chronic cough, has been proposed as a pharmacological target to reduce carotid body sensitisation @ElMedany2024carotid. No trial has tested gefapixant in ME/CFS or Long COVID at the time of writing.
+
+#speculation(title: [Carotid Body Sensitisation as a Reversible Amplifier of Orthostatic Intolerance in ME/CFS])[
+If carotid body sensitisation occurs in ME/CFS (by analogy with Long COVID), it would function as a reversible physiological amplifier: normal mild orthostatic hypoxia and CO#sub[2] changes trigger exaggerated hyperventilation, orthostatic hypocapnia falls further, cerebral vasoconstriction worsens @VanCampen2023co2cbf, and cognitive symptoms and OI are amplified beyond what the underlying cardiac preload failure alone would produce.
+
+_Certainty: 0.25._ The Long COVID carotid body sensitisation data are from a small study ($n$ = 14) and have not been replicated in ME/CFS specifically. The mechanistic plausibility is high given: (1) shared post-viral triggers, (2) documented orthostatic hypocapnia in ME/CFS, (3) ACE2 expression in carotid body.
+
+*Falsifiable predictions:*
+    + ME/CFS patients should show elevated HVR (≥145% of healthy controls) on hypoxic ventilatory challenge
+    + HVR should correlate with orthostatic PETCO#sub[2] fall and symptom severity during tilt testing
+    + Gefapixant (or equivalent P2X3 antagonist) should attenuate orthostatic hypocapnia and reduce cognitive OI symptoms in an n-of-1 crossover trial
+
+*Treatment implication:* If confirmed, carotid body sensitisation is a plausible target for gefapixant — a drug already approved, with known safety profile, that could be tested rapidly. It would not be expected to address the primary vascular or mitochondrial pathology but could reduce a significant symptom amplifier.
+] <spec:carotid-body-mecfs>
+
+*Evidence grade*: E (no ME/CFS data); D (Long COVID proof-of-concept study only). Research priority: replicate carotid body sensitivity measurement in ME/CFS cohorts.

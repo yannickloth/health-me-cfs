@@ -664,6 +664,60 @@ Each entry follows the format: *What* changed, _why_ it changed
     (Chapter 6, Section `sec:vascular-primary-causation` expanded; Chapter 7, new Section `sec:endothelial-senescence` with `hyp:endothelial-senescence-loop`; Chapter 10, new Sections `sec:endothelial-senescence-cv`, expanded coagulation/RBC/fibrin content; Chapter 14k new file `ch14k-vascular-brainstorm.typ` with `sec:vascular-brainstorm`; Chapter 18, new Sections `sec:imt-mecfs`, `sec:carotid-body-mecfs` with `spec:carotid-body-mecfs`; Appendix H, new Section `sec:bib-vascular-2022-2026`; references.bib, 13 new entries; hypothesis registry, 9 new entries): Comprehensive integration of 2022--2026 vascular pathology research. *(1) Endothelial senescence (Nunes et al.\ 2026):* virus-induced endothelial senescence as a self-perpetuating maintaining mechanism; NK/T cell clearance failure; SASP driving ongoing vascular damage (Chapter 7, certainty 0.40). *(2) Fibrinaloid microclots (Nunes/Pretorius group):* Nunes 2022/2023 platelet and blood reviews, Nunes 2024 proteomics, Kruger 2022 triple anticoagulant trial ($n = 91$, 80% improvement) — systematic expansion of the coagulation section in Chapter 10. *(3) RBC dysfunction:* Grau 2024 (Long COVID RBC morphology), Guo 2025 (microfluidic biomechanics), Rogers 2024 (COVID oxygen-sensing failure) — RBCs as both passive victims and active microclot nucleators. *(4) Vascular-primary causal model:* Scheibenbogen-Wirth 2024 temporal hypothesis (early PCS = vascular-only; ME/CFS = mitochondrial damage downstream once capillary thickening reaches threshold) integrated into Chapter 6 substrate delivery section. *(5) Failed angiogenic compensation:* Flaskamp 2022 endothelial progenitor cell failure preventing adaptive capillary remodelling — new Section `sec:endothelial-senescence-cv` in Chapter 10, hypothesis certainty 0.30. *(6) Orthostatic hypocapnia:* van Campen 2023 PETCO#sub[2] quantification (26--30 vs.\ 36 mmHg in controls) as a cerebral blood flow amplifier — added to Chapter 10 CBF mechanisms. *(7) Carotid body sensitisation:* El-Medany 2024 hypoxic/hypercapnic ventilatory responses in Long COVID with P2X3 antagonism proposal — new Chapter 18 section (speculation, certainty 0.25). *(8) Inspiratory muscle training:* Edgell 2025 pilot RCT ($n = 16$) showing clinically meaningful improvement in peak VO#sub[2] (+1.4~mL/kg/min), SF-36, and HRV with minimal PEM risk — new Chapter 18 section (Evidence grade C). *(9) Creative brainstorm (Chapter 14k):* four novel hypotheses (glycocalyx as molecular pacing device, orthostatic hypocapnia–microclot positive feedback loop, SA-EV propagation, RBC phosphatidylserine externalisation as microclot nucleator); three treatment proposals (D+Q senolytic pilot trial, glycocalyx prevention trial in early post-COVID, P2X3 + volume combination); ODE bistable loop formalising the vascular-mitochondrial self-sustaining attractor with four state variables $V(t), M(t), "Na"(t), "Ca"(t)$.
     _Motivated by:_ Nunes et al.\ 2026 endothelial senescence paper @Nunes2026endothelialSenescence; Scheibenbogen and Wirth 2024 sarcopenia temporal model @ScheibenbogenWirth2024sarcopenia; Guo et al.\ 2025 microfluidic RBC biomechanics @GuoRBC2025microfluidic; Flaskamp et al.\ 2022 endothelial progenitor failure @Flaskamp2022endothelial; El-Medany et al.\ 2024 carotid body sensitisation @ElMedany2024carotid; Edgell et al.\ 2025 IMT pilot RCT @Edgell2025imt; van Campen et al.\ 2023 orthostatic hypocapnia @VanCampen2023co2cbf; Kruger et al.\ 2022 triple anticoagulant @KrugerMicroclot2022longcovid.
 
+  - *VNS fibre-selectivity: anatomical constraint analysis and two speculations*
+    (Chapter 18, inline mechanistic caveat added to tVNS bullet and pyridostigmine
+    bullet; two new `#speculation` environments: `spec:vns-wrong-fibres`
+    "The Wrong Fibres Hypothesis" (certainty 0.30) and `spec:gut-vagal-cfibre`
+    "Gut Microbiome Restoration as Indirect Vagal C-Fibre Therapy" (certainty 0.40);
+    Appendix H, new Bu et al.\ 2026 annotated bibliography entry;
+    hypothesis registry, new VNS fibre-selectivity table
+    `tab:hypothesis-registry-vns-fibre-2026-04-10`; references.bib, 1 new entry
+    @Bu2026VNSReview):
+    Integration of Bu et al.\ 2026 (_Comprehensive Physiology_ 16(2):e70109,
+    PMID 41781173) — a comprehensive review establishing the cervical vagus as a
+    multi-fascicle structure with heterogeneous fibre composition and biophysical
+    recruitment thresholds. A-fibres (large, myelinated) recruit first at low
+    stimulation intensities; B-fibres (preganglionic autonomic efferents governing
+    heart rate, gut motility, bronchomotor tone) require intermediate parameters;
+    C-fibres (unmyelinated, visceral afferents carrying inflammatory and nociceptive
+    signals) require the highest intensities. This anatomical hierarchy generates a
+    critical selectivity problem for VNS in ME/CFS.
+    *Inline additions to Ch.18:* (1) tVNS mechanistic caveat explaining that
+    transcutaneous stimulation uses auricular branches with uncertain fascicular
+    correspondence to the cervical trunk, raising fundamental questions about which
+    fibre classes are engaged clinically. (2) Pyridostigmine bullet updated to
+    reflect a speculative (clearly labelled) possibility that systemic acetylcholinesterase
+    inhibition might complement the B-fibre cholinergic anti-inflammatory pathway
+    without requiring electrical recruitment of B-fibres — with explicit caveat that
+    the relevant anatomical assumption (spleen-innervating fibres are truly B-class)
+    is not validated.
+    *Wrong Fibres Hypothesis (certainty 0.30):* tVNS devices operating at intensities
+    sufficient to avoid adverse effects may primarily recruit A-fibres (cutaneous) or
+    low-threshold B-fibres, while the C-fibre afferents carrying gut inflammatory
+    status signals and the B-fibre efferents driving splenic macrophage suppression
+    require higher thresholds than typically used. The 57% response rate in the
+    Natelson 2022 pilot @NatelsonTVNS2022 would then reflect either the minority of
+    patients in whom the accessible auricular branches reach relevant fibre populations,
+    or benefit mediated through a different (non-fibre-selective) mechanism.
+    *Gut Microbiome Restoration as Indirect Vagal C-Fibre Therapy (certainty 0.40):*
+    Microbiome restoration (butyrate, dietary fibre, FMT) could activate gut mucosal
+    C-fibre afferents via the EC-cell serotonin pathway — producing afferent vagal
+    tone increases measurable as HRV improvement — without requiring any electrical
+    hardware or fibre-selectivity engineering. The prediction distinguishes two separate
+    arms: afferent (gut butyrate $arrow$ EC-cell serotonin $arrow$ vagal C-fibre afferents
+    $arrow$ NTS activation) versus efferent (NTS $arrow$ splenic nerve $arrow$
+    alpha-7 nAChR macrophage suppression), and notes that central autonomic processing
+    failure in ME/CFS could decouple these arms even if the afferent arm is intact.
+    Serotonin safety concern noted as a meaningful limitation for patients with
+    visceral hypersensitivity or MCAS.
+    _Motivated by:_ Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive
+    anatomical characterisation of vagal fibre-class recruitment thresholds and
+    fascicular architecture; Kaelberer et al.\ 2018 @Kaelberer2018 — EC-cell
+    glutamatergic synaptic coupling to vagal afferents; Barton et al.\ 2025
+    @Barton2025 — butyrate EC-cell serotonin production; Natelson et al.\ 2022
+    @NatelsonTVNS2022 — tVNS pilot in ME/CFS; Yu et al.\ 2022 @Yu2022 — HRV
+    as tVNS responder predictor in POTS.
+
 === Document Infrastructure
 
   - *LaTeX to Typst migration*: Complete migration of the document source

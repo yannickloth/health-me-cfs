@@ -2114,8 +2114,8 @@ requiring expertise outside ME/CFS scope.
 
     [Gut Microbiome Restoration as Indirect Vagal C-Fibre Therapy],
     [Spec], [0.40],
-    [Successful microbiome restoration (increased fecal butyrate) will increase vagal afferent tone (HRV HF power or vagal evoked potential amplitude) in addition to GI and inflammatory improvements. Patients who restore butyrate but NOT vagal tone will not show systemic anti-inflammatory benefit, implicating the C-fibre afferent pathway as the mediating mechanism.],
-    [Microbiome intervention trial with concurrent vagal tone monitoring (HRV) and inflammatory markers. Requires validated fecal butyrate measurement at baseline and follow-up. No ME/CFS study with this combined endpoint design exists (2026).],
+    [Successful microbiome restoration (increased faecal butyrate) will increase vagal afferent tone (HRV HF power or vagal evoked potential amplitude) in addition to GI and inflammatory improvements. Patients who restore butyrate but NOT vagal tone will not show systemic anti-inflammatory benefit, implicating the C-fibre afferent pathway as the mediating mechanism.],
+    [Microbiome intervention trial with concurrent vagal tone monitoring (HRV) and inflammatory markers. Requires validated faecal butyrate measurement at baseline and follow-up. No ME/CFS study with this combined endpoint design exists (2026).],
     [Ch.18 @spec:gut-vagal-cfibre],
   ),
   kind: table, supplement: [Table], caption: [VNS fibre-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive anatomical characterisation of vagal fibre-class recruitment thresholds and implications for neuromodulation specificity.],

@@ -359,7 +359,7 @@ Extends previous cytokine findings to reveal sex- and age-specific patterns. The
 @Giloteaux2023
 
 *Key Findings:*
-Novel study examining cytokine content in extracellular vesicles (EVs) rather than free plasma. IL-2 was significantly elevated in ME/CFS patient EVs. Proinflammatory cytokines CSF2 and TNF$alpha$ correlated with physical and fatigue symptom severity. EVs represent cell-to-cell signaling mechanism and may better reflect active immune communication.
+Novel study examining cytokine content in extracellular vesicles (EVs) rather than free plasma. IL-2 was significantly elevated in ME/CFS patient EVs. Proinflammatory cytokines CSF2 and TNF$alpha$ correlated with physical and fatigue symptom severity. EVs represent cell-to-cell signalling mechanism and may better reflect active immune communication.
 
 *Relevance:*
 Identifies IL-2 as potentially important cytokine in ME/CFS pathophysiology. Notably, Hunter 2025 independently identified IL-2 pathway using epigenetic methods, providing convergent evidence from different methodologies. EV-based analysis may reveal immune signals missed by conventional plasma assays.
@@ -386,7 +386,7 @@ Provides epigenetic validation of immune pathways identified by cytokine studies
     - *Quality:* Medium-High (peer-reviewed, high diagnostic accuracy)
     - *Sample:* n=108 (47 ME/CFS, 61 controls)
     - *Replication:* Single study; proprietary technology limits independent validation
-    - *Limitations:* Severe patients only; EpiSwitch technology not widely available; needs independent cohort validation
+    - *Limitations:* Severe patients only; EpiSwitch technology not commercially available for clinical ordering — this is a research-stage proprietary platform, not a test clinicians can currently request; needs independent cohort validation
 
 === Natural Killer Cell Dysfunction
 
