@@ -15,6 +15,81 @@ Each entry follows the format: \textbf{What} changed, \textit{why} it changed
 
 \begin{itemize}
 
+  \item \textbf{Vascular pathology integration (2026-04-10): new content across Chapters 6, 7, 10, 14, 18}
+    based on systematic research into endothelial glycocalyx, microvascular dysfunction, RBC pathology,
+    respiratory physiology, and endothelial senescence in ME/CFS and Long COVID.
+    \begin{itemize}
+
+      \item \textbf{Chapter 7 (Immune Dysfunction) --- new section: Virus-Induced Endothelial Senescence}:
+        Added full mechanistic section on SASP-producing senescent endothelial cells, NK/T cell clearance
+        failure creating a self-sustaining bidirectional loop, tissue-specific manifestations, and senolytic
+        therapeutic implications. Formal \texttt{hypothesis} environment added with falsifiable predictions.
+        Motivated by: Nunes et al.\ Cell Death \& Disease 2026.
+        \cite{Nunes2026endothelialSenescence}
+
+      \item \textbf{Chapter 10 (Cardiovascular) --- endothelial senescence + failed angiogenesis}:
+        New subsection on endothelial senescence mechanism (cross-referencing Chapter~7) and Flaskamp et al.\
+        finding that ME/CFS serum specifically loses angiogenic compensation present in post-COVID without ME/CFS.
+        Motivated by: Nunes et al.\ 2026; Flaskamp et al.\ Cells 2022.
+        \cite{Nunes2026endothelialSenescence, Flaskamp2022endothelial}
+
+      \item \textbf{Chapter 10 --- coagulation and fibrin sections expanded}:
+        Platelet hyperactivation and microclot data quantified with exact figures from Nunes et al.\ 2022.
+        Fibrin section expanded with microclot proteomics (Kruger et al.\ 2022: 27 immunoglobulin variants,
+        VWF 2.6$\times$, PF4 3.5$\times$). Proteomic signature added (Nunes et al.\ 2024: THBS1, PF4, P-selectin elevated,
+        Protein S reduced). Cardiovascular haematology review (Nunes et al.\ 2023) added.
+        Motivated by: Nunes et al.\ Pharmaceuticals 2022; Kruger et al.\ Cardiovasc Diabetol 2022;
+        Nunes et al.\ Cardiovasc Diabetol 2024; Nunes et al.\ Blood Reviews 2023.
+        \cite{NunesPlatelets2022mecfs, KrugerMicroclot2022longcovid, NunesProteomics2024mecfs, NunesBloodReviews2023mecfs}
+
+      \item \textbf{Chapter 10 --- RBC deformability section substantially expanded}:
+        Added Stanford microfluidic data (Guo et al.\ 2025: impaired hypoxia-sensing in ME/CFS RBCs at
+        capillary level), persistent RBC morphological abnormalities in Long COVID at 42 weeks (Grau et al.\
+        2024: 20.8\% abnormal vs.\ 2.9\% controls; r=0.51 fatigue correlation), and modelling of oxygen
+        delivery deficit magnitude (Rogers et al.\ 2024: 135\% cardiac output increase needed to compensate).
+        Motivated by: Guo et al.\ Blood RCI 2025; Grau et al.\ Biology 2024; Rogers et al.\ Front Physiol 2024.
+        \cite{GuoRBC2025microfluidic, GrauRBC2024longcovid, RogersRBC2024covidoxygen}
+
+      \item \textbf{Chapter 10 --- CBF mechanisms expanded with orthostatic hypocapnia amplifier}:
+        Added van Campen et al.\ 2023 quantitative data (PETCO$_2$ 26--30 mmHg during tilt vs.\ 36 mmHg controls;
+        n=535) as a documented amplifier mechanism in the cerebral hypoperfusion mechanisms list. CO$_2$ reactivity
+        intact but hypocapnia large, explaining why CBF falls exceed systemic haemodynamic changes.
+        Motivated by: van Campen et al.\ Physiol Rep 2023.
+        \cite{VanCampen2023co2cbf}
+
+      \item \textbf{Chapter 10 --- two new formal hypotheses added}:
+        (1) Vascular pathology as the primary initiating event in ME/CFS (certainty 0.45; falsifiable
+        predictions listed). (2) Failed angiogenic compensation as the ME/CFS transition mechanism
+        (certainty 0.30; falsifiable predictions listed).
+        Motivated by: Scheibenbogen \& Wirth J Cachexia Sarcopenia Muscle 2024; Flaskamp et al.\ 2022.
+        \cite{ScheibenbogenWirth2024sarcopenia, Flaskamp2022endothelial}
+
+      \item \textbf{Chapter 6 (Energy Metabolism) --- vascular-primary causal model added}:
+        Expanded the ``Substrate Delivery Failure'' section with the Scheibenbogen-Wirth temporal model
+        (early PCS vascular-only, later ME/CFS mitochondrial damage), three independent lines of supporting
+        evidence (structural, cell-autonomous RBC, interventional), and the AIMM framework implications.
+        Motivated by: Scheibenbogen \& Wirth 2024; Guo et al.\ 2025; Joseph et al.\ Chest 2022.
+        \cite{ScheibenbogenWirth2024sarcopenia, GuoRBC2025microfluidic, Joseph2022pyridostigmine}
+
+      \item \textbf{Chapter 18 (Emerging Therapies) --- two new sections added}:
+        (1) Inspiratory Muscle Training (IMT): pilot RCT evidence (Edgell et al.\ 2025, n=12 ME/CFS,
+        safe PEM-avoiding protocol, improved vascular function and COMPASS-31 autonomic score).
+        (2) Carotid Body Sensitisation and P2X3 Antagonism: Long COVID evidence (El-Medany et al.\ 2024,
+        HVR 145\% elevated), ACE2 mechanism, gefapixant as therapeutic target; speculation environment
+        with falsifiable predictions for ME/CFS.
+        Motivated by: Edgell et al.\ Respir Physiol Neurobiol 2025; El-Medany et al.\ Commun Med 2024.
+        \cite{Edgell2025imt, ElMedany2024carotid}
+
+      \item \textbf{Chapter 14k (new subfile: ch14k-vascular-brainstorm.typ)}:
+        Creative brainstorm section with: four novel mechanistic hypotheses (glycocalyx as pacing device,
+        orthostatic hypocapnia--microclot loop, SA-EV propagation of senescence, RBC phosphatidylserine
+        as microclot nucleation signal); three novel treatment proposals (senolytic D+Q pilot trial,
+        glycocalyx prevention trial, P2X3+volume combination); formal ODE sketch of vascular-mitochondrial
+        bistable loop (V, M, Na, Ca state variables); research priority matrix.
+        Motivated by: synthesis of 2022--2026 vascular literature.
+
+    \end{itemize}
+
   \item \textbf{Eight new treatment sections added to Chapter~18 (Emerging Therapies)}
     based on coverage gap analysis against the Spooniverse treatment database (75 entries):
     \begin{itemize}

@@ -262,11 +262,25 @@ A hypothesized gut--vagal link may also be relevant: butyrate enhances enterochr
 
 \subsubsection{Vagal Nerve Stimulation Devices}
 
-Non-invasive vagal nerve stimulation (nVNS) devices (gammaCore, others) deliver electrical stimulation transcutaneously. While FDA-approved for migraine and cluster headache, off-label use in ME/CFS has shown:
+\paragraph{Neuroanatomy of VNS: fibre selectivity matters}
+
+The vagus nerve is not a single wire but a mixed nerve composed of multiple fascicles, each containing distinct fibre populations with different biophysical properties~\cite{Bu2026VNSReview}. Cross-sectional anatomy of the cervical vagus reveals three major fibre classes: large myelinated A-fibres (somatic efferents to laryngeal muscles and fast-conducting afferents), smaller myelinated B-fibres (preganglionic autonomic efferents that regulate heart rate, bronchomotor tone, and gut motility), and unmyelinated C-fibres (numerically dominant; carry slow visceral, nociceptive, and inflammatory signals).
+
+Fibre recruitment follows the standard peripheral nerve biophysics: at the lowest stimulus intensities, the largest myelinated fibres (A-fibres) are activated first. This explains the most common side effect of cervical VNS---voice hoarseness---which occurs because laryngeal efferent A-fibres are engaged before autonomic fibres at typical clinical doses. As pulse width, intensity, and frequency increase, B-fibre preganglionic autonomic efferents are recruited, producing the bradycardia, bronchomotor, and gut motility effects that underlie many of VNS's therapeutic applications. C-fibres, despite being numerically dominant and carrying the inflammatory and visceral signals most relevant to ME/CFS pathophysiology, have the highest activation thresholds; by the time they are substantially engaged, most A- and B-fibre populations are already fully recruited---unless specific electrode geometry, waveform shaping, or kilohertz-frequency blocking strategies are used to bias selectivity~\cite{Bu2026VNSReview}.
+
+\begin{limitation}[VNS Study Interpretation Requires Fibre-Class Specification]
+\label{lim:vns-fibre-selectivity}
+When a study reports ``VNS reduced inflammation'' or ``VNS improved fatigue,'' the mechanistically critical question is \emph{which fibre classes were plausibly engaged} under that study's specific electrode placement, waveform, pulse width, frequency, and duty cycle---not merely the nominal current or whether the device was commercially approved. Studies of cervical VNS (gammaCore), transcutaneous auricular VNS (taVNS), and implanted VNS use fundamentally different anatomical delivery points and waveform parameters. Without this specification, cross-study comparisons in ME/CFS are unreliable. Extrapolating anti-inflammatory effects observed under one parameter set to another device or protocol is not justified~\cite{Bu2026VNSReview}.
+\end{limitation}
+
+\paragraph{Clinical evidence in ME/CFS}
+
+Non-invasive vagal nerve stimulation (nVNS) devices (gammaCore, others) deliver electrical stimulation transcutaneously to the cervical vagus branch. Transcutaneous auricular VNS (taVNS) targets auricular branches of the vagus via the ear. Both are FDA-approved for migraine and cluster headache; off-label use in ME/CFS and dysautonomia has shown:
 \begin{itemize}
     \item Improvements in heart rate variability in some patients
-    \item Reduced inflammation markers
+    \item Reduced inflammation markers (mechanism uncertain; likely B-fibre-mediated cholinergic anti-inflammatory pathway, though fibre classes engaged at studied doses are not characterised in the ME/CFS literature)
     \item Variable effects on fatigue and other core symptoms
+    \item Reduction in orthostatic tachycardia in a POTS subgroup (see Section~\ref{sec:tvns-pots})
 \end{itemize}
 
 \subsubsection{Natural Vagal Activation Techniques}
@@ -2717,4 +2731,119 @@ However, the trial does not definitively refute the autoantibody hypothesis. Two
 \textit{Note:} For immunoadsorption (a related but distinct apheresis approach targeting IgG specifically), see the Immunoadsorption subsection in the Apheresis Techniques section.
 
 \textbf{Evidence Grade}: B---sham-controlled Phase II RCT ($n=50$), negative primary endpoint; autoantibody-unselected population; subgroup data pending
+
+\chapter{Post-Parasitic ME/CFS: Subtype-Specific Treatment Considerations}
+\label{ch:post-parasitic-treatment}
+
+The Bergen Giardia outbreak cohort (Chapter~\ref{ch:immune-dysfunction}, Section~\ref{sec:parasites-post-infectious}) established that intestinal parasitic infection can trigger ME/CFS that persists for at least a decade. Whether a patient's ME/CFS was triggered by a parasitic infection has direct treatment implications that are distinct from the general ME/CFS treatment landscape: specific mechanistic targets become plausible, certain comorbidity phenotypes are more likely, and one documented prevention opportunity exists that has no equivalent in post-viral ME/CFS.
+
+This section addresses the treatment implications of post-parasitic ME/CFS specifically. The general ME/CFS treatment protocols (Chapters~\ref{ch:urgent-action-severe} through~\ref{ch:supplements}) apply to this subtype in full; what follows are considerations \emph{additional to} or \emph{prioritised within} that general framework for patients with confirmed or probable parasitic onset.
+
+\begin{limitation}[No Clinical Trials in Post-Parasitic ME/CFS; All Below Is Mechanistic Inference]
+\label{lim:post-parasitic-no-trials}
+No randomised controlled trial has been conducted specifically in patients with post-parasitic ME/CFS. The Bergen cohort provides epidemiological and immunological characterisation but no intervention data. Treatment recommendations in this section are mechanistic extrapolations from general ME/CFS literature and from the pathophysiology of the proposed parasite-specific mechanisms (Chapter~\ref{ch:immune-dysfunction}). They should be applied with the same caution as all other experimental interventions in this chapter.
+\end{limitation}
+
+\section{The Acute Prevention Window: Confirmed Parasitic Infection}
+\label{sec:parasite-prevention-window}
+
+The most actionable treatment implication of the parasite--ME/CFS literature is a prevention opportunity that exists only before ME/CFS establishes. If intestinal parasitic infections trigger ME/CFS via an immune dysregulation cascade that eventually becomes self-sustaining, then aggressive, confirmed eradication of the parasite during the acute infection phase may prevent ME/CFS from developing.
+
+The Bergen data establish that a substantial fraction of Giardia-infected patients do not develop ME/CFS --- approximately 74\% of laboratory-confirmed cases did not develop the condition at 3 years~\cite{Wensaas2012giardia5yr}. The question of whether treatment timing within the acute phase predicts ME/CFS conversion has not been studied directly (see Open Question~\ref{oq:parasite-prevention}), but standard clinical practice recommends prompt eradication therapy regardless of ME/CFS risk, making this a zero-cost opportunity.
+
+\textbf{Clinical implications for acute parasitic infection:}
+
+\begin{itemize}
+  \item \textbf{Confirmed eradication is essential.} Symptomatic resolution alone does not confirm parasite clearance. Standard of care for \emph{Giardia duodenalis} includes stool PCR or antigen testing 4--6 weeks post-treatment to confirm eradication; if first-line treatment (metronidazole or tinidazole) fails, second-line therapy (albendazole, combination metronidazole + quinacrine) should be pursued. Persistent low-level Giardia infection --- below symptomatic threshold but sufficient to maintain immune activation --- is a plausible ME/CFS-sustaining mechanism that confirmed-eradication testing can rule out.
+
+  \item \textbf{Early post-infection monitoring.} Patients who develop persistent fatigue, post-exertional malaise, or orthostatic symptoms in the 3--12 months following a documented intestinal parasitic infection should be evaluated for ME/CFS using standard diagnostic criteria (Chapter~\ref{ch:diagnosis}). Early recognition avoids the compounding harm of misdiagnosis and inappropriate activity recommendations.
+
+  \item \textbf{No evidence supports prophylactic antiparasitic therapy in established ME/CFS.} The inciting trigger vs.\ sustaining mechanism distinction (Section~\ref{sec:parasites-post-infectious}) means that antiparasitic treatment in a patient who cleared their infection years ago carries negligible theoretical benefit for ME/CFS itself. Prescribing empirical antiparasitic therapy to ME/CFS patients without documented active infection is not supported by any evidence and exposes patients to unnecessary drug side effects.
+\end{itemize}
+
+\begin{warning}[Empirical Antiparasitic Therapy Is Not Indicated in Established ME/CFS]
+\label{warn:no-empirical-antiparasitic}
+Metronidazole, tinidazole, albendazole, and other antiparasitic agents carry adverse effect profiles (metronidazole: peripheral neuropathy with prolonged use, disulfiram-like reaction with alcohol, CYP2C9 inhibition; albendazole: hepatotoxicity, neutropenia requiring monitoring) that are not justified in the absence of documented active parasitic infection. Ivermectin, which has no evidence base in ME/CFS treatment and is not active against the intestinal protozoa most relevant to post-infectious ME/CFS (\emph{Giardia}, \emph{Cryptosporidium}), should not be prescribed for ME/CFS under the mistaken belief that it addresses a parasitic aetiology. Claims that ME/CFS is broadly caused by parasitic infection and should be treated empirically with antiparasitic agents are not supported by the scientific evidence reviewed in this document.
+\end{warning}
+
+\section{Post-Parasitic MCAS Phenotype}
+\label{sec:post-parasitic-mcas}
+
+The post-parasitic mast cell priming speculation (Speculation~\ref{spec:parasite-mcas-priming}, Chapter~\ref{ch:immune-dysfunction}) proposes that acute Giardia infection may permanently sensitise intestinal mast cells, producing a post-parasitic MCAS phenotype characterised by food intolerances, chemical sensitivities, flushing, autonomic instability, and fatigue that began after the acute parasitic infection.
+
+Clinically, this phenotype is indistinguishable from MCAS from any other cause --- the same diagnostic criteria apply and the same treatments are used. The treatment protocols for MCAS in ME/CFS are covered in full in Section~\ref{sec:allergies-mast-cells}. The contribution of this section is to heighten index of suspicion: patients with parasitic-onset ME/CFS who have not yet been evaluated for MCAS should be screened, particularly if their symptom profile includes the following features that commenced or worsened after the acute infection:
+
+\begin{itemize}
+  \item New-onset food intolerances or reactions to foods previously well-tolerated
+  \item Flushing, urticaria, or pruritis without identifiable allergic trigger
+  \item Gastrointestinal cramping, diarrhoea, or nausea disproportionate to any residual GI pathology
+  \item Chemical or environmental sensitivities (fragrance, cleaning products, smoke) of new onset
+  \item Rapid worsening of orthostatic symptoms specifically after eating (postprandial hypotension may be exacerbated by mast cell mediator release)
+\end{itemize}
+
+\textbf{Diagnostic approach:} Serum tryptase (baseline; elevated in systemic mastocytosis, sometimes elevated in MCAS) and 24-hour urinary N-methylhistamine and prostaglandin D\textsubscript{2} metabolites (during a symptomatic period) are the most accessible initial investigations. The AAAAI/EAACI 2020 consensus criteria for MCAS diagnosis require: (1) episodic symptoms consistent with mast cell mediator release; (2) a rise in serum tryptase from baseline of $>$20\% + 2~ng/mL during a symptomatic episode, or elevation of other mast cell mediators; (3) symptomatic response to mast cell-directed therapy.
+
+\textbf{If MCAS criteria are met,} the full mast cell treatment protocol applies (Section~\ref{sec:allergies-mast-cells}). A therapeutic trial of H1 + H2 antihistamine combination prior to formal diagnosis is reasonable given the safety profile of these agents, though this is based on mechanistic inference from Speculation~\ref{spec:parasite-mcas-priming} and lacks direct evidence in post-parasitic ME/CFS specifically (Evidence Grade E).
+
+\section{Duodenal Mucosal Repair}
+\label{sec:duodenal-mucosal-repair}
+
+Wensaas et al.\ (2018) documented persistent duodenal histological changes --- villous atrophy and intraepithelial lymphocytosis --- in a subset of Bergen cohort patients at 10 years post-infection~\cite{Wensaas2018giardia10yr}. In patients with these changes, ongoing mucosal barrier dysfunction could maintain chronic LPS translocation and systemic immune activation as a sustaining ME/CFS mechanism (Open Question~\ref{oq:duodenal-microbiome}).
+
+This represents a potentially targetable structural abnormality, but only in the subset with documented ongoing histological damage. The key clinical principle is that intervention should follow confirmed investigation, not be applied empirically.
+
+\textbf{Investigative pathway:}
+
+Patients with post-parasitic ME/CFS and prominent GI symptoms, particularly duodenal-type symptoms (early satiety, epigastric discomfort, nausea, malabsorption of fats), should have coeliac disease excluded (anti-tissue transglutaminase IgA with total IgA; duodenal biopsy if serology is positive or IgA deficiency is present). If coeliac disease is excluded and symptoms persist, upper endoscopy with duodenal biopsy can assess for persistent villous atrophy and intraepithelial lymphocytosis attributable to post-infectious pathology.
+
+\textbf{Intervention if ongoing mucosal pathology is confirmed:}
+
+\begin{itemize}
+  \item \textbf{Elemental or semi-elemental diet:} Provides complete nutrition in a pre-digested, low-antigen form, reducing mucosal immune stimulation. Used in small bowel Crohn's disease as mucosal healing induction therapy; no controlled data in post-parasitic ME/CFS but mechanistically applicable if mucosal inflammation is confirmed. Typically used as a 6--8 week induction period while conventional anti-inflammatory treatment is initiated. Not appropriate as a long-term dietary strategy without specialist supervision.
+
+  \item \textbf{L-glutamine supplementation:} Glutamine is the primary metabolic fuel of enterocytes and is required for tight junction protein synthesis (claudin-1, occludin, ZO-1). Supplementation at 0.5~g/kg/day has been studied in intestinal barrier dysfunction contexts including critical illness, chemotherapy-related mucositis, and inflammatory bowel disease, with mixed but suggestive results. In the context of post-parasitic villous atrophy, glutamine may support enterocyte regeneration and barrier repair. Evidence specifically in post-parasitic ME/CFS does not exist; this is a mechanistically plausible low-risk intervention in confirmed mucosal pathology. \textbf{Contraindications:} Glutamine should not be used in patients with hepatic encephalopathy or significant renal impairment (eGFR $<$30~mL/min/1.73~m\textsuperscript{2}), as impaired nitrogen handling can worsen encephalopathy or contribute to uraemia. Physician supervision and baseline liver and renal function testing are required before initiating supplementation at this dose.
+
+  \item \textbf{Zinc supplementation:} Zinc deficiency impairs intestinal barrier function and mucosal immune competence; zinc supplementation at 20--40~mg elemental zinc/day is used in WHO diarrhoeal disease protocols and has evidence for reducing intestinal permeability in small trials of inflammatory bowel disease. In the context of confirmed villous atrophy with possible micronutrient malabsorption, zinc status should be checked and repleted. \textbf{Safety note:} The EU Tolerable Upper Intake Level (UL) for zinc in adults is 25~mg/day; doses above this threshold require clinical justification (e.g.\ confirmed deficiency or documented malabsorption) and should not be self-prescribed. Prolonged supplementation above 25~mg/day induces copper deficiency by competitive absorption inhibition, which can cause sideroblastic anaemia and peripheral neuropathy. If zinc is supplemented at $\geq$25~mg/day for more than 4 weeks, co-supplementation with 1--2~mg elemental copper/day and periodic serum copper/caeruloplasmin monitoring are warranted.
+\end{itemize}
+
+\begin{limitation}[Duodenal Mucosal Repair: No ME/CFS Trial Data]
+No clinical trial has tested elemental diet, glutamine, or zinc specifically for post-parasitic ME/CFS with confirmed ongoing mucosal pathology. The interventions described above are mechanistically grounded in intestinal barrier physiology and have evidence bases in related conditions, but efficacy and effect size in this specific context are unknown. The critical clinical gate is confirmation of ongoing mucosal pathology by biopsy before these interventions are pursued.
+\end{limitation}
+
+\textbf{Evidence Grade}: E---mechanistically motivated; extrapolated from intestinal barrier literature; no ME/CFS-specific trial data; applicable only in patients with confirmed ongoing mucosal pathology
+
+\section{IDO1/Kynurenine Pathway Targeting in Post-Parasitic ME/CFS}
+\label{sec:post-parasitic-ido1}
+
+The IDO1 kynurenine shunt speculation (Speculation~\ref{hyp:parasite-ido1-kynurenine}, Chapter~\ref{ch:immune-dysfunction}) proposes that intestinal parasitic infection may epigenetically prime IDO1 overexpression, creating a persistent kynurenine shunt that drives neuroinflammation and cognitive dysfunction in post-parasitic ME/CFS. This is a speculative mechanistic model with no direct human evidence, but it maps onto a therapeutic target --- IDO1 inhibition --- that has existing pharmacological tools developed for oncology.
+
+\textbf{Epacadostat} (INCB024360; Incyte) is a selective IDO1 enzyme inhibitor developed as an oncological immunotherapy agent; it failed to improve outcomes in Phase 3 melanoma trials, but the clinical experience demonstrated that IDO1 inhibition at therapeutic doses is achievable and reasonably well-tolerated in humans. Mechanistically, epacadostat reduces kynurenine production from tryptophan, which would --- if the IDO1 hypothesis is correct --- reduce quinolinic acid (a neurotoxic NMDA agonist), increase tryptophan availability for serotonin synthesis, and reduce neuroinflammatory kynurenine pathway metabolites.
+
+\textbf{Why this is not yet a clinical recommendation:}
+
+\begin{itemize}
+  \item The foundational premise --- that IDO1 is persistently overexpressed in post-parasitic ME/CFS intestinal macrophages --- has not been demonstrated.
+  \item The kynurenine/tryptophan ratio has not been measured longitudinally in the Bergen cohort or any post-parasitic ME/CFS cohort.
+  \item Epacadostat's Phase 3 oncology failures reflected synergy failure with pembrolizumab, not IDO1 inhibition failure per se; its standalone safety profile is not a barrier, but use in ME/CFS would be entirely off-label without any ME/CFS pharmacodynamic data.
+  \item The IDO1 mechanism, if active, would be one of several parallel sustaining mechanisms; IDO1 inhibition alone might not produce meaningful clinical improvement even if the pathway is overactive.
+\end{itemize}
+
+\textbf{What would change this assessment:} A cross-sectional study measuring the kynurenine/tryptophan ratio in Bergen cohort ME/CFS patients vs non-ME/CFS exposed controls (a low-cost serum assay, feasible within a Bergen biobank recontact study --- see Open Question~\ref{oq:bergen-biobank-recontact}) is the minimal threshold for moving this from speculation to investigable hypothesis. A positive result (elevated ratio in PI-CFS vs non-CFS exposed) would justify a small proof-of-concept trial.
+
+\textbf{Currently:} IDO1 inhibition in post-parasitic ME/CFS is not recommended outside of a future clinical trial specifically designed to test this mechanism in a biomarker-selected population (elevated kynurenine/tryptophan ratio at baseline).
+
+\textbf{Evidence Grade}: E---purely mechanistic; no clinical data; dependent on biomarker evidence that does not yet exist
+
+\section{GPCR Autoantibody Assessment for Immunoadsorption Selection}
+\label{sec:post-parasitic-autoantibody-screen}
+
+The molecular mimicry speculation (Speculation~\ref{hyp:giardia-molecular-mimicry}, Chapter~\ref{ch:immune-dysfunction}) proposes that Giardia VSP epitopes may prime GPCR autoantibody production via molecular mimicry. If correct, a subset of post-parasitic ME/CFS patients would have elevated anti-muscarinic and/or anti-$\beta_2$-adrenergic receptor autoantibodies --- the same targets studied in the broader ME/CFS autoimmunity literature~\cite{Loebel2016}.
+
+This has an immediately actionable implication: post-parasitic ME/CFS patients being evaluated for immunoadsorption (Section~\ref{sec:immunoadsorption}) or rituximab should have GPCR autoantibody profiling as part of their pre-treatment workup, using the same autoantibody panel applied in the broader ME/CFS autoimmune subtype literature. If autoantibodies are present, post-parasitic patients are eligible for the same immunoadsorption protocols as post-viral autoimmune-phenotype patients; the trigger (parasitic vs.\ viral) does not change the treatment target if the endpoint is the same (GPCR autoantibody reduction).
+
+This does not require any new treatment development --- it requires application of existing protocols to a population that has not yet been systematically screened.
+
+\textbf{Diagnostic gate:} GPCR autoantibody testing (anti-M3R, anti-M4R, anti-$\beta_1$-adrenergic, anti-$\beta_2$-adrenergic IgG) is not widely available in routine clinical settings; in Europe, the Charit\'e laboratory (Berlin) has operated this assay in research contexts. Before this becomes a standard clinical recommendation, GPCR autoantibody profiling in a post-parasitic ME/CFS cohort --- ideally the Bergen cohort --- is needed to establish prevalence and clinical correlation.
+
+\textbf{Evidence Grade}: E---mechanistically motivated; no data on GPCR autoantibody prevalence in post-parasitic ME/CFS; feasible as a targeted biomarker screening study
 
