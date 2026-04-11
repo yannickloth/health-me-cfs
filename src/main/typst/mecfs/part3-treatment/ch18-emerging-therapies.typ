@@ -5,38 +5,70 @@
 
 This chapter explores therapies at the frontier of ME/CFS treatment---approaches with theoretical rationale but limited clinical validation. Some represent extensions of established medical science; others venture into more speculative territory. The heterogeneous nature of ME/CFS suggests that different patients may require fundamentally different interventions, making this exploratory landscape particularly relevant.
 
+#observation(title: [Clinician Quick Reference: Actionability by Intervention Category])[
+*Available now (off-label, with supportive evidence):*
+- CoQ10 200~mg + NADH 20~mg daily: Highest-quality current evidence (RCT n=207 @CastroMarrero2021CoQ10); appropriate for discussion with all patients
+- Pyridostigmine 30--60~mg: Two positive controlled haemodynamic studies @Joseph2022pyridostigmine @Squires2023pyridostigmine; appropriate for patients with documented orthostatic intolerance or preload failure
+- Low-dose naltrexone 1.5--4.5~mg: Convergent evidence across fibromyalgia and ME/CFS case series; reasonable to offer patients unresponsive to first-line symptomatic management (see Chapter @sec:sigma1-fluvoxamine)
+- Fluvoxamine 25~mg: Sigma-1 receptor agonism with small ME/CFS trial support (see Chapter @sec:sigma1-fluvoxamine)
+
+*Active clinical trials (consider referring eligible patients):*
+- Vericiguat (NCT05697640, Charité Berlin): Ion homeostasis via sGC stimulation
+- Trimetazidine (TRI-ME, Australia): Metabolic cytoprotection
+
+*Requires specialist referral / institutional setting:*
+- Transcranial magnetic stimulation (rTMS): Neurological specialist; inpatient preferred for moderate-severe patients
+- Immunotherapy approaches (IVIG, immunoadsorption): Immunology/rheumatology
+
+*Research-stage only (do not offer clinically):*
+- MDC002 (Mitodicure): Preclinical only as of early 2026
+- Rimeporide, ranolazine for AIMM: No ME/CFS trial data
+- Emergency PEM Protocol: Hypothesis-driven; discuss mechanism with patient; not a validated clinical protocol
+- Cycle gain measurement: Research proposal only
+
+*Not recommended outside formal research:*
+- Stem cell therapy (marketed variants): No evidence; significant harm potential
+- HBOT: Insufficient ME/CFS-specific evidence
+]
+
 == Novel Therapeutic Frameworks
 <sec:novel-frameworks>
 
 Before examining specific interventions, several overarching conceptual frameworks offer novel approaches to treatment design.
 
 #hypothesis(title: [Metabolic State Transition])[
-ME/CFS may represent a stable but maladaptive metabolic state---analogous to cellular "hibernation" or the evolutionarily conserved sickness behavior response that became pathologically persistent. The body entered a low-energy conservation mode in response to an initial trigger (infection, trauma, severe stress) but failed to receive or respond to the "all clear" signal to return to normal metabolism. If true, effective treatment may require interventions that trigger metabolic state transitions rather than symptom suppression. Candidate approaches include:
+*Certainty: 0.25.* ME/CFS may represent a stable but maladaptive metabolic state---analogous to cellular "hibernation" or the evolutionarily conserved sickness behavior response that became pathologically persistent. The body entered a low-energy conservation mode in response to an initial trigger (infection, trauma, severe stress) but failed to receive or respond to the "all clear" signal to return to normal metabolism. If true, effective treatment may require interventions that trigger metabolic state transitions rather than symptom suppression. Candidate approaches include:
 
 - Controlled metabolic stressors (fasting, hypoxia, temperature extremes) that force cellular adaptation
 - Interventions targeting metabolic switching pathways (AMPK activation, mTOR modulation)
 - Circadian rhythm reset protocols combining light therapy, meal timing, and temperature cues
 
-This framework suggests that gradual, gentle interventions may perpetuate the maladaptive state, while carefully designed acute challenges might catalyze transition---though the risks of such approaches in a population with impaired stress tolerance are substantial.
+This framework suggests that gradual, gentle interventions may perpetuate the maladaptive state, while carefully designed acute challenges might catalyze transition---though the risks of such approaches in a population with impaired stress tolerance are substantial. *Falsifiable prediction*: Protocols that include a controlled metabolic stressor (e.g., a single 24-hour fast or brief hypoxic exposure) will outperform matched controls receiving pacing alone on 6-month SF-36 PF score in a prospective trial.
 ]
 
 #hypothesis(title: [Cellular Danger Response Persistence])[
-Robert Naviaux's cell danger response (CDR) hypothesis @Naviaux2014cdr proposes that cells remain stuck in a defensive metabolic mode characterized by reduced mitochondrial function, altered purinergic signaling, and maintained inflammatory readiness. The CDR evolved as a protective response to threats, but in ME/CFS, the "threat resolved" signal may never arrive or may not be recognized. Therapeutic implications include:
+*Certainty: 0.25.* Robert Naviaux's cell danger response (CDR) hypothesis @Naviaux2014cdr proposes that cells remain stuck in a defensive metabolic mode characterized by reduced mitochondrial function, altered purinergic signaling, and maintained inflammatory readiness. The CDR evolved as a protective response to threats, but in ME/CFS, the "threat resolved" signal may never arrive or may not be recognized. Therapeutic implications include:
 
 - Antipurinergic therapy (suramin showed promise in an autism pilot trial @Naviaux2018suraminpilot; ME/CFS trials have not been conducted)
 - Modulating extracellular ATP signaling through P2X/P2Y receptor antagonists
 - Reducing triggers that maintain CDR activation (chronic infections, gut dysbiosis, environmental toxins)
 - Flavonoids with antipurinergic properties (quercetin, luteolin) as accessible alternatives
+
+*Falsifiable prediction*: A sham-controlled trial of antipurinergic therapy in ME/CFS will show significant reduction in post-exertional symptom severity relative to sham, with effect size SMD #sym.gt 0.4.
 ]
 
 #hypothesis(title: [Glymphatic Dysfunction and Neuroinflammatory Persistence])[
-Sleep in ME/CFS is characteristically non-restorative despite adequate duration. The glymphatic system---the brain's waste clearance mechanism---operates primarily during deep sleep @Xie2013glymphatic. If glymphatic function is impaired, neuroinflammatory debris may accumulate, perpetuating microglial activation and cognitive dysfunction. Testable interventions include:
+*Certainty: 0.20.* Sleep in ME/CFS is characteristically non-restorative despite adequate duration. The glymphatic system---the brain's waste clearance mechanism---operates primarily during deep sleep @Xie2013glymphatic. If glymphatic function is impaired, neuroinflammatory debris may accumulate, perpetuating microglial activation and cognitive dysfunction. Testable interventions include:
 
 - Sleep architecture optimization targeting slow-wave sleep (when glymphatic clearance peaks)
 - Sleep position modification (lateral sleeping may enhance glymphatic flow)
 - Agents that improve glymphatic function (low-dose naltrexone reduces neuroinflammation; specific anesthetics enhance glymphatic clearance in animal models)
 - Timing of hydration (adequate fluids without excessive evening intake)
 - Omega-3 fatty acids (AQP4 water channel function depends on membrane composition)
+
+*Contested model:* The glymphatic hypothesis has been challenged on methodological grounds. Smith and Verkman (2018) argued that the evidence for bulk convective cerebrospinal fluid flow through perivascular spaces---the proposed mechanism---relies on experimental artefacts (dye injection techniques) and is inconsistent with the known physical properties of brain parenchyma; diffusion rather than bulk flow may explain tracer spread @SmithVerkman2018glymphatic. This critique does not invalidate the association between SWS and cognitive recovery, but challenges the specific glymphatic mechanism. If the critique is correct, interventions targeting aquaporin-4 (AQP4) water channels directly would be less relevant, while interventions improving SWS quality for other reasons (melatonin, sleep hygiene) remain valid.
+
+*Falsifiable prediction*: ME/CFS patients with objectively impaired slow-wave sleep (polysomnography SWS #sym.lt 10% of TST) will show higher neuroinflammatory markers (PET or MRS) and greater cognitive impairment than ME/CFS patients with preserved SWS, independent of total sleep time. This prediction holds regardless of whether the mechanism is glymphatic bulk flow or SWS-dependent diffusion enhancement.
 ]
 
 #limitation(title: [Emerging Therapies: Pre-Validation Evidence Throughout])[
@@ -122,14 +154,14 @@ The delay mechanisms most amenable to intervention include:
 
 - *Delayed-type immune activation*: Exercise releases damage-associated molecular patterns (DAMPs) triggering cytokine production that peaks 24--48h post-stimulus in classical DTH patterns. _Intervention target_: Modulate immune activation in the 12--24h window.
 
-#observation(title: [Hypothesis: Dual Pathway Requirement])[
-Anti-inflammatory interventions alone are insufficient for PEM prevention because the core dysfunction is ATP production failure---this follows logically from the mechanism. *Whether energy restoration alone is sufficient, or whether cascade interruption is also required, remains untested.* The hypothesis that both pathways must be addressed rests on two theoretical considerations:
+#hypothesis(title: [Dual Pathway Requirement for PEM Prevention])[
+*Certainty: 0.20.* Anti-inflammatory interventions alone are insufficient for PEM prevention because the core dysfunction is ATP production failure---this follows logically from the mechanism. *Whether energy restoration alone is sufficient, or whether cascade interruption is also required, remains untested.* The hypothesis that both pathways must be addressed rests on two theoretical considerations:
 
-+ *Energy restoration (ATP/NAD+ support)*: Required because ATP depletion is the initiating driver (mechanistically established)
++ *Energy restoration (ATP/NAD#super[+] support)*: Required because ATP depletion is the initiating driver (mechanistically established)
 + *Cascade interruption (anti-inflammatory/antioxidant)*: Hypothetically required because unchecked inflammatory cascades might (a) cause secondary ATP depletion through cytokine-mediated mitochondrial dysfunction, or (b) create symptoms independent of energy status through direct tissue damage
 
-*Empirical question:* Could ATP/NAD+ support alone achieve 60--80% severity reduction, or is anti-inflammatory intervention necessary? This requires comparative trials. Until then, addressing both pathways simultaneously represents the most mechanistically complete approach.
-]
+*Falsifiable prediction*: In a factorial trial, the ATP/NAD#super[+] support arm alone will achieve #sym.lt 30% PEM severity reduction, while the combined arm will achieve #sym.gt 50% reduction, demonstrating necessity of cascade interruption in addition to energy substrate provision. *Empirical question:* Could ATP/NAD#super[+] support alone achieve 60--80% severity reduction, or is anti-inflammatory intervention necessary? This requires comparative trials. Until then, addressing both pathways simultaneously represents the most mechanistically complete approach.
+] <hyp:pem-dual-pathway>
 
 === Emergency PEM Protocol
 <subsubsec:emergency-pem-protocol>
@@ -164,6 +196,7 @@ _Goal_: Prevent ATP threshold crossing; minimize oxidative damage; provide NAD+ 
   - *Vitamin C* 2000--3000~mg: Regenerates other antioxidants; supports BH4 recycling
   - *Alpha-lipoic acid* 600~mg: Mitochondrial antioxidant; regenerates glutathione
   - Rationale: Exercise-induced ROS damage peaks in first hours; antioxidant support minimizes mitochondrial damage requiring later removal
+  - #warning-env(title: [Antioxidant-Mitophagy Trade-off])[High-dose antioxidants (NAC, ALA, Vitamin C) may blunt PINK1/Parkin-mediated mitophagy, because ROS and mild mitochondrial membrane depolarisation are required signals for mitophagy initiation @Ristow2009oxidativehormesis. Scavenging these signals in Phase 1 (0--2h) could interfere with Phase 2 damaged-mitochondria removal, potentially prolonging the functional deficit. The protocol simultaneously prescribes Urolithin A (mitophagy activator) in Phase 2 to compensate, but the net interaction is untested. Conservative option: reduce antioxidant dose and duration, limiting high-dose antioxidants to the first 2--4 hours only.]
 
 - *Vagal activation* (parasympathetic recovery):
   - Deep diaphragmatic breathing: 6 breaths/minute for 10--20 minutes
@@ -283,6 +316,7 @@ _Goal_: Modulate immune activation; support mitochondrial biogenesis; maintain e
   - Omega-3 fatty acids: Blood thinning effect; use caution with anticoagulants (warfarin, etc.)
   - NSAIDs: Avoid with anticoagulants, other NSAIDs, corticosteroids
   - NR/NMN: Theoretical interaction with PARPi cancer drugs (avoid combination)
+  - #warning-env(title: [Interactions with Common ME/CFS Co-prescriptions])[Patients with ME/CFS are frequently prescribed the following medications, which interact with Emergency PEM Protocol components: *Fludrocortisone* (mineralocorticoid for POTS) — NSAIDs reduce its natriuretic efficacy and increase sodium retention; do not combine NSAIDs with fludrocortisone without physician oversight. *Midodrine* (alpha-agonist for POTS) — no direct pharmacokinetic interactions identified; haemodynamic monitoring advised during protocol. *Low-dose naltrexone (LDN)* — no direct interaction with protocol components; LDN's opioid receptor blockade is unaffected by supplement stack. *Beta-blockers* (used for POTS and tachycardia) — high-dose magnesium may mildly potentiate antihypertensive effects; cold water face immersion (vagal activation step) may cause greater heart rate depression in patients on beta-blockers; use cold exposure cautiously. *Antihistamines* (H1/H2 for MCAS) — no direct interaction; concurrent use during protocol is acceptable. *Pyridostigmine* — NAC and high-dose antioxidants have no known interaction; the cholinergic anti-inflammatory effect of pyridostigmine is independent of protocol mechanism.]
 
 - *Tolerability issues*:
   - D-ribose: Sweet taste; some report transient hypoglycemia symptoms (take with food if occurs)
@@ -747,9 +781,13 @@ A clinical proxy for cycle gain could be derived from recovery dynamics:
 
 $ G_"proxy" = frac("Peak symptom severity" times "Recovery time", "Exertion magnitude" times "Baseline function") $
 
-*Rationale*: This formula captures the intuition that higher cycle gain produces both more severe symptoms and longer recovery from equivalent exertion. However, this is a _proposed_ metric requiring validation---the specific functional form is not theoretically derived and alternatives (logarithmic, threshold-based) may prove superior.
+#warning-env(title: [G_proxy Is a Conceptual Heuristic, Not a Theoretically Derived Quantity])[
+This formula is an ad hoc construct that captures the qualitative intuition that higher cycle gain should produce larger, longer responses to equivalent exertion. It is *not* derived from the control-theoretic definition of loop gain ($G = product_(i=1)^(n) g_i$), and the two quantities ($G_"proxy"$ and $G$) are not equivalent. The formula has not been validated against any biological measurement; the choice of linear rather than logarithmic or threshold-based form is arbitrary; and the units (if computed numerically) would depend on measurement scales in ways that make cross-patient comparison undefined without standardisation. The $G_"proxy"$ notation is retained for continuity with the cycle dynamics framework in Chapter @ch:core-symptoms, but readers should treat it as a label for a research proposal, not a measured quantity.
+]
 
-*Calibration*: Healthy control reference values must be established empirically. We hypothesize $G_"healthy" approx 0.2$--$0.4$ based on typical post-exercise recovery (1--3 days), but this requires measurement in validation studies.
+*Calibration*: Healthy control reference values must be established empirically. We hypothesize $G_"healthy" approx 0.2$--$0.4$ based on typical post-exercise recovery (1--3 days), but this requires measurement in validation studies. Note that even if the proxy formula proves empirically predictive, the inferred $G$ values would be proxy-specific (not the true loop gain).
+
+*Alternative operationalizations*: Time to 90% symptom return alone (simpler, more reliable); area-under-curve symptom severity over 14 days; ratio of Day 2 CPET VO#sub[2peak] to Day 1 VO#sub[2peak] (objective, established methodology). Any of these may prove superior to the composite formula above.
 
 === Clinical Interpretation
 
@@ -869,6 +907,10 @@ The AIMM model predicts that patients with demonstrable vascular insufficiency, 
 <sec:aimm-bridging>
 
 MDC002 targets the AIMM ionic cascade with high specificity, but it remains in preclinical development as of early 2026. Several existing or investigational compounds act on overlapping nodes of the same cascade and may provide partial benefit in the interim. None has been designed specifically for the AIMM mechanism; none has been tested in a trial explicitly targeting ionic homeostasis in ME/CFS. Their relevance is mechanistic, not established.
+
+#limitation(title: [AIMM Is One of Several Competing Mechanistic Frameworks])[
+The AIMM cascade is the organising hypothesis for this section, but at least three other frameworks offer alternative explanations for ME/CFS energy failure, each suggesting different intervention priorities. Naviaux's cell danger response (CDR) and purinergic signalling model @Naviaux2014cdr proposes that extracellular ATP and purinergic receptor activation maintain a persistent cellular defence state; its primary intervention target is antipurinergic therapy rather than ionic cascade correction. Phair's itaconate shunt hypothesis proposes that immune-metabolic reprogramming diverts citrate to itaconate production via aconitase inhibition, producing functional TCA cycle arrest; its intervention target is upstream of the ionic cascade. Systrom's preload failure model identifies abnormal oxygen extraction and haemodynamic insufficiency as primary drivers, rather than downstream ionic pathology. The bridging agents below are framed through the AIMM lens, but their documented benefits (pyridostigmine in haemodynamic OI, CoQ10 in fatigue) are equally compatible with these alternative frameworks. Readers should not conclude that benefit from a bridging agent constitutes evidence for the AIMM mechanism specifically.
+]
 
 The AIMM cascade (Section @sec:sodium-calcium-cascade) proceeds as: ischaemia → proton accumulation → NHE1 activation → Na#super[+] overload → NCX1 reversal → mitochondrial Ca#super[2+] overload → OXPHOS failure. Bridging candidates act at different nodes:
 
@@ -1497,7 +1539,7 @@ This has an immediately actionable implication: post-parasitic ME/CFS patients b
 
 This does not require any new treatment development — it requires application of existing protocols to a population that has not yet been systematically screened.
 
-*Diagnostic gate:* GPCR autoantibody testing (anti-M3R, anti-M4R, anti-β₁-adrenergic, anti-β₂-adrenergic IgG) is not widely available in routine clinical settings; in Europe, the Charite laboratory (Berlin) has operated this assay in research contexts. Before this becomes a standard clinical recommendation, GPCR autoantibody profiling in a post-parasitic ME/CFS cohort — ideally the Bergen cohort — is needed to establish prevalence and clinical correlation.
+*Diagnostic gate:* GPCR autoantibody testing (anti-M3R, anti-M4R, anti-β₁-adrenergic, anti-β₂-adrenergic IgG) is not widely available in routine clinical settings; in Europe, the Charité laboratory (Berlin) has operated this assay in research contexts. Before this becomes a standard clinical recommendation, GPCR autoantibody profiling in a post-parasitic ME/CFS cohort — ideally the Bergen cohort — is needed to establish prevalence and clinical correlation.
 
 *Evidence Grade*: E --- mechanistically motivated; no data on GPCR autoantibody prevalence in post-parasitic ME/CFS; feasible as a targeted biomarker screening study
 

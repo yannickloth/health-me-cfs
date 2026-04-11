@@ -2120,3 +2120,46 @@ requiring expertise outside ME/CFS scope.
   ),
   kind: table, supplement: [Table], caption: [VNS fibre-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive anatomical characterisation of vagal fibre-class recruitment thresholds and implications for neuromodulation specificity.],
 ) <tab:hypothesis-registry-vns-fibre-2026-04-10>
+
+=== Ch18 Therapeutic Framework Hypotheses Registry Entries (2026-04-11)
+
+#figure(
+  table(
+    columns: (2fr, 1fr, 1fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Metabolic State Transition],
+    [H], [0.25],
+    [Protocols including a controlled metabolic stressor (24-hour fast or brief hypoxic exposure) will outperform matched controls receiving pacing alone on 6-month SF-36 PF score in a prospective trial.],
+    [Prospective RCT comparing metabolic stressor protocol vs.\ pacing-only control. Primary endpoint: SF-36 PF at 6 months. No ME/CFS trial of this design exists (2026).],
+    [Ch.18 @sec:novel-frameworks],
+
+    [Cellular Danger Response Persistence],
+    [H], [0.25],
+    [A sham-controlled trial of antipurinergic therapy in ME/CFS will show significant reduction in post-exertional symptom severity relative to sham, SMD #sym.gt 0.4.],
+    [Sham-controlled trial of suramin or P2X/P2Y antagonist. Relevant: autism suramin pilot @Naviaux2018suraminpilot; ME/CFS trial not conducted (2026).],
+    [Ch.18 @sec:novel-frameworks],
+
+    [Glymphatic Dysfunction and Neuroinflammatory Persistence],
+    [H], [0.20],
+    [ME/CFS patients with objectively impaired SWS (#sym.lt 10% TST by PSG) will show higher neuroinflammatory markers and greater cognitive impairment than ME/CFS patients with preserved SWS, independent of total sleep time.],
+    [Polysomnography with 7T MRS neuroinflammation markers (glutamate, mI, Cho) and cognitive battery. Cross-sectional study design; correlates testable immediately.],
+    [Ch.18 @sec:novel-frameworks],
+
+    [Dual Pathway Requirement for PEM Prevention],
+    [H], [0.20],
+    [In a factorial trial: ATP/NAD#super[+] support arm alone achieves #sym.lt 30% PEM severity reduction; combined arm achieves #sym.gt 50% reduction, demonstrating necessity of cascade interruption in addition to energy substrate provision.],
+    [Factorial RCT: (1) energy arm (D-ribose, NR/NMN, creatine), (2) anti-inflammatory arm (NAC, omega-3, curcumin), (3) combined, (4) placebo. Primary outcome: PEM AUC severity days 1--7. No ME/CFS trial of this design exists (2026).],
+    [Ch.18 @hyp:pem-dual-pathway],
+
+    [AIMM Cascade Node: Which is Rate-Limiting for Clinical Improvement?],
+    [OQ], [---],
+    [A mechanistic head-to-head trial randomising patients to agents targeting different AIMM cascade nodes (NHE1 inhibition vs.\ Na#super[+]/K#super[+]-ATPase stimulation vs.\ mitochondrial downstream support) would identify the rate-limiting node for clinical improvement.],
+    [No AIMM node-comparison trial exists. Active trials: NCT05697640 (vericiguat, sGC/vasodilation); TRI-ME (trimetazidine, mitochondrial metabolic); MDC002 Phase I (dual-target NKA + NCLX, pending).],
+    [Ch.18 @oq:aimm-cascade-node],
+  ),
+  kind: table, supplement: [Table], caption: [Ch18 therapeutic framework hypotheses added 2026-04-11: three chapter-introduction hypotheses (Metabolic State Transition, CDR Persistence, Glymphatic Dysfunction) migrated from LaTeX source; one PEM prevention dual-pathway hypothesis and one AIMM cascade open question arising from AIMM bridging therapies section.],
+) <tab:hypothesis-registry-ch18-frameworks-2026-04-11>

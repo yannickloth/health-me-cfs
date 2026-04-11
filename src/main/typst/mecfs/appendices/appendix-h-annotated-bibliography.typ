@@ -6365,3 +6365,38 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Limitations:*: Cell line overexpression system (HEK293T); interactions may not fully replicate in primary infection context; functional consequences of Nsp6/Nsp8–S1R binding not yet directly tested in ME/CFS.
     / *Certainty:*: 0.75 (landmark _Nature_ paper; affinity purification is rigorous; cell-line caveat for in vivo translation)
     / *Integrated into:*: Chapter 18 (@subsubsec:sigma1-mechanism)
+
+=== Smith & Verkman 2018 — Critique of the Glymphatic Hypothesis
+
+    / *Full Citation:*: Smith AJ, Verkman AS. The "glymphatic" mechanism for solute clearance in Alzheimer's disease: game changer or unproven speculation? _FASEB Journal_. 2018;32(2):543--551.
+    / *DOI:*: #link("https://doi.org/10.1096/fj.201700999")[10.1096/fj.201700999]
+    / *PMID:*: 28935817
+    / *Study Design:*: Methodological review and critique
+    / *Key Findings:*:
+
+        - The proposed bulk convective flow of cerebrospinal fluid through perivascular spaces is physically inconsistent with the high hydraulic resistance of brain parenchyma
+        - Tracer spread in the original glymphatic studies is more parsimoniously explained by diffusion than bulk convection
+        - AQP4 knockout studies used to support the glymphatic model have been replicated inconsistently
+        - The glymphatic framework may be an experimental artefact of dye injection techniques
+
+    / *Conclusion:*: The specific mechanism of aquaporin-4-dependent bulk flow may be incorrect; associations between sleep and brain waste clearance may reflect other SWS-dependent processes (diffusion, metabolic rate reduction, extracellular space expansion).
+    / *Limitations:*: Review paper without new experimental data; focused on Alzheimer's context; subsequent studies continue to debate the question.
+    / *Certainty:*: 0.50 (methodological critique; expert-level; does not resolve the empirical debate but raises important cautions)
+    / *Integrated into:*: Chapter 18, glymphatic hypothesis caveat (@sec:novel-frameworks)
+
+=== Ristow & Zarse 2010 — Mitohormesis: Oxidative Stress as Adaptive Signal
+
+    / *Full Citation:*: Ristow M, Zarse K. How increased oxidative stress promotes longevity and metabolic health: the concept of mitochondrial hormesis (mitohormesis). _Experimental Gerontology_. 2010;45(6):410--418.
+    / *DOI:*: #link("https://doi.org/10.1016/j.exger.2010.03.014")[10.1016/j.exger.2010.03.014]
+    / *PMID:*: 20350594
+    / *Study Design:*: Mechanistic review and conceptual paper
+    / *Key Findings:*:
+
+        - Mild ROS elevation serves as an essential hormetic signal for PINK1/Parkin-mediated mitophagy, antioxidant gene induction (via Nrf2), and mitochondrial biogenesis
+        - High-dose antioxidant supplementation during exercise abolishes ROS signalling and can blunt adaptive responses
+        - This creates a trade-off: antioxidants reduce oxidative damage but may impair mitochondrial quality control
+
+    / *Conclusion:*: Mitohormesis provides mechanistic basis for the counter-intuitive finding that exercise-induced ROS is beneficial; complete ROS scavenging is not the goal of antioxidant therapy.
+    / *Limitations:*: Primarily mechanistic and animal-model based; dose-response relationships for the ROS threshold in humans are not established; ME/CFS-specific applicability is inferential.
+    / *Certainty:*: 0.60 (established mechanism; widely cited; dose-response in human ME/CFS context is extrapolation)
+    / *Integrated into:*: Chapter 18, Emergency PEM Protocol antioxidant-mitophagy trade-off warning (@subsubsec:emergency-pem-protocol)
