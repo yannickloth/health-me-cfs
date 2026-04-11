@@ -718,6 +718,42 @@ Each entry follows the format: *What* changed, _why_ it changed
     @NatelsonTVNS2022 — tVNS pilot in ME/CFS; Yu et al.\ 2022 @Yu2022 — HRV
     as tVNS responder predictor in POTS.
 
+  - *Sigma-1 receptor agonism, ER stress, and fluvoxamine: REVIVE-TOGETHER RCT integration and creative extensions*
+    (Chapter 18, new Section `sec:sigma1-fluvoxamine` with subsections covering the REVIVE-TOGETHER trial,
+    S1R mechanism, WASF3/ER stress connection, additional pharmacological mechanisms, epistemological framing,
+    ME/CFS relevance caveats, and creative extensions; Appendix H, new Section `sec:bib-sigma1-fluvoxamine`
+    with 4 annotated bibliography entries; hypothesis registry, 6 new entries: 2 hypotheses, 1 speculation,
+    3 open questions; references.bib, 4 new entries):
+    Integration of Reis et al.\ 2026 REVIVE-TOGETHER Bayesian adaptive RCT ($n = 399$; Long COVID fatigue
+    $≥$90 days; fluvoxamine 100~mg BID vs.\ metformin vs.\ placebo; FSS difference −0.43, 99% posterior
+    probability of superiority @Reis2026fluvoxamine) combined with mechanistic synthesis of sigma-1 receptor
+    biology. *Main mechanistic development:* Fluvoxamine is the highest-S1R-affinity SSRI (Ki $approx$36~nM);
+    S1R agonism suppresses IRE1$alpha$-mediated UPR; SARS-CoV-2 Nsp6/Nsp8 directly bind S1R (Gordon et al.\
+    2020 interactome @Gordon2020sigma1SARS). Connection to ME/CFS: Wang et al.\ 2023 WASF3/ER stress loop in
+    skeletal muscle — ER stress $arrow.r$ WASF3 $arrow.r$ mitochondrial supercomplex disruption $arrow.r$
+    Complex IV impairment $arrow.r$ more ER stress. S1R agonism proposed as upstream brake on this loop
+    (certainty 0.25; IRE1$alpha$-dependence of WASF3 in ME/CFS is the untested node). *Creative extensions:*
+    DHEA--S1R hypothesis (certainty 0.20); 4-PBA and TUDCA as direct ER stress suppressors; MAM calcium
+    handling and Krebs cycle suppression connection; TRPM3/ceramide intersection; CYP1A2 melatonin paradox
+    as research tool. *Methodological rigor:* Five limitation items for REVIVE-TOGETHER (baseline imbalance,
+    differential dropout, modest effect size, no biomarkers, Long COVID ≠ ME/CFS). CYP1A2/caffeine elevated
+    from confound to rival primary explanation requiring explicit rebuttal in replications. Failed acute
+    COVID replications (STOP-COVID 2, ACTIV-6, COVID-OUT) cited to contextualise the Lenze 2020 positive
+    signal. Epistemological section applies the "treatment $eq.not$ mechanism" logic symmetrically (blocks
+    both psychogenic and S1R inferences equally). *Safety:* Comprehensive `#warning-env` covering CYP1A2
+    substrates (melatonin, duloxetine, clozapine/olanzapine, theophylline), CYP2C19 substrates (omeprazole,
+    clopidogrel, diazepam, phenytoin, voriconazole), serotonin syndrome (MAOIs, triptans, tramadol, mirtazapine,
+    St.\ John's Wort), POTS/hypotension risk, QTc monitoring, conservative ME/CFS dose-escalation schedule
+    (25~mg evening start, 4-step uptitration), stopping criteria, and discontinuation taper.
+    *Evidence grade:* C (Long COVID RCT) / E (ME/CFS).
+    _Motivated by:_ Reis et al.\ 2026 @Reis2026fluvoxamine — Bayesian adaptive RCT providing the strongest
+    pharmacological signal in Long COVID fatigue to date in a well-powered adaptive design; Hashimoto 2021
+    @Hashimoto2021sigma1 — sigma-1 receptor pharmacology review establishing S1R as drug repurposing target
+    in COVID; Gordon et al.\ 2020 @Gordon2020sigma1SARS — SARS-CoV-2 interactome identifying Nsp6/Nsp8 S1R
+    binding; Lenze et al.\ 2020 @Lenze2020fluvoxamine — original acute COVID pilot with S1R mechanistic
+    hypothesis; converging evidence from WASF3/ER stress ME/CFS biology warranting systematic integration of
+    this pharmacological pathway into the emerging therapies chapter.
+
 === Document Infrastructure
 
   - *LaTeX to Typst migration*: Complete migration of the document source
