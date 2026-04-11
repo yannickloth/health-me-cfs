@@ -123,6 +123,7 @@
 #let _cnt-recommendation = counter("recommendation")
 #let _cnt-limitation    = counter("limitation")
 #let _cnt-modelinsight  = counter("model_insight")
+#let _cnt-observation   = counter("observation")
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets(body) = {
@@ -184,6 +185,7 @@
     _cnt-recommendation.update(0)
     _cnt-limitation.update(0)
     _cnt-modelinsight.update(0)
+    _cnt-observation.update(0)
     it
   }
   body
@@ -403,6 +405,21 @@
     fig-kind: "limitation",
     fig-supplement: [Limitation],
     "∄", "Limitation", body, title: title, style: "left-bar-dashed-bottom")
+}
+
+// --- Observation (○, left-bar, teal-grey) ------------------------------------
+#let observation(title: none, body) = {
+  let n = _num(_cnt-observation)
+  _callout(color.observation-frame, color.observation-bg,
+    fig-kind: "observation",
+    fig-supplement: [Observation],
+    "○", "Observation", body, title: title, style: "left-bar", number: n)
+}
+#let observation-unnumbered(title: none, body) = {
+  _callout(color.observation-frame, color.observation-bg,
+    fig-kind: "observation",
+    fig-supplement: [Observation],
+    "○", "Observation", body, title: title, style: "left-bar")
 }
 
 // --- Model Insight (◇, solid indigo) -----------------------------------------

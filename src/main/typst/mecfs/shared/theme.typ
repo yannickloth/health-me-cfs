@@ -28,6 +28,9 @@
   recommendation-frame: rgb("#2E7D32"),
   recommendation-bg:    rgb("#F1F8F6"),
 
+  observation-frame: rgb("#4A7C6F"),
+  observation-bg:    rgb("#F0F7F5"),
+
   limitation-frame: rgb("#546E7A"),
   limitation-bg:    rgb("#ECEFF1"),
 
