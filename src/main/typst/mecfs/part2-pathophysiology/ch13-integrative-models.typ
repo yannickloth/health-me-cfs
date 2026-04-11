@@ -78,7 +78,7 @@ table.cell(colspan: 6)[*TIER 2: PROBABLE MECHANISMS*],
 
 
 
-[Mitochondrial/energy metabolism dysfunction (@sec:mitochondrial-dysfunction)], [Probable], [ATP profile abnormalities; Heng 2025 AMP/ADP elevation; lactate abnormalities; metabolomic signatures], [Fatigue; exercise intolerance; PEM; muscle weakness], [CoQ10; NAD#super[+] precursors; D-ribose; B vitamins], [Low–Moderate],
+[Mitochondrial/energy metabolism dysfunction (@sec:mito-evidence)], [Probable], [ATP profile abnormalities; Heng 2025 AMP/ADP elevation; lactate abnormalities; metabolomic signatures], [Fatigue; exercise intolerance; PEM; muscle weakness], [CoQ10; NAD#super[+] precursors; D-ribose; B vitamins], [Low–Moderate],
 
 
 

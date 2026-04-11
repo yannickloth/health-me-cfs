@@ -1275,7 +1275,7 @@ GI dysfunction in ME/CFS reflects autonomic nervous system dysregulation (Sectio
 *[IMMEDIATELY ACTIONABLE - NO RESEARCH NEEDED (except prescription options)]*
 
 *Rationale*
-Cognitive dysfunction ("brain fog") in ME/CFS results from catecholamine deficiency (Section @sec:catecholamine-metabolism), cerebral hypoperfusion (Section @sec:cerebral-blood-flow), and energy metabolism impairment (Section @sec:energy-overview). Neurotransmitter precursor supplementation and cerebral blood flow optimization can provide rapid improvement.
+Cognitive dysfunction ("brain fog") in ME/CFS results from catecholamine deficiency (Section @sec:catecholamine-metabolism), cerebral hypoperfusion (Section @sec:cerebral-blood-flow), and energy metabolism impairment (Section @sec:energy-chain-overview). Neurotransmitter precursor supplementation and cerebral blood flow optimization can provide rapid improvement.
 
 *Neurotransmitter Support*
 

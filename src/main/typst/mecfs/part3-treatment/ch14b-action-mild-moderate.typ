@@ -1007,7 +1007,7 @@ It should be implemented conservatively, with close monitoring, and under physic
 ==== Cognitive Dysfunction (Brain Fog)
 
 *Rationale*
-Cognitive dysfunction results from multiple mechanisms: catecholamine deficiency (Section @sec:catecholamine-metabolism), cerebral hypoperfusion (Section @sec:cerebral-blood-flow), and reduced ATP availability in the brain (Section @sec:energy-overview). Targeting neurotransmitter precursors and optimizing cerebral blood flow can improve function.
+Cognitive dysfunction results from multiple mechanisms: catecholamine deficiency (Section @sec:catecholamine-metabolism), cerebral hypoperfusion (Section @sec:cerebral-blood-flow), and reduced ATP availability in the brain (Section @sec:energy-chain-overview). Targeting neurotransmitter precursors and optimizing cerebral blood flow can improve function.
 
 *Non-Pharmaceutical*
 
@@ -3051,7 +3051,7 @@ Graded Exercise Therapy (GET) remains recommended in some countries despite evid
 
     - *Ignores PEM*: GET protocols ignore delayed symptom exacerbation, attributing it to “expected discomfort” rather than disease mechanism (Section @sec:energy-consequences).
 
-    - *Biomarker evidence*: Chapters 6–7 document that exertion triggers immune activation (Section @sec:immune-activation), oxidative stress (Section @sec:oxidative-stress), and metabolic dysfunction (Section @sec:mitochondrial-dysfunction) - not adaptation.
+    - *Biomarker evidence*: Chapters 6–7 document that exertion triggers immune activation (Section @sec:immune-activation), oxidative stress (Section @sec:oxidative-stress), and metabolic dysfunction (Section @sec:mito-evidence) - not adaptation.
 
     - *Patient harm surveys*:
     

@@ -5976,7 +5976,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - The coordinated fission-mitophagy-biogenesis cycle ensures mitochondrial quality control
 
     / *Conclusion:*: T3 is essential for the complete mitochondrial turnover cycle; without T3, damaged mitochondria accumulate rather than being cleared and replaced.
-    / *Relevance:*: Directly relevant to ME/CFS: impaired mitophagy is documented (Section @sec:mito-damage), and T3 deficiency provides a mechanistic explanation for why damaged mitochondria persist. Supports the amplification hypothesis @hyp:t3-mito-amplifier.
+    / *Relevance:*: Directly relevant to ME/CFS: impaired mitophagy is documented (Section @sec:cross-cutting-mechanisms), and T3 deficiency provides a mechanistic explanation for why damaged mitochondria persist. Supports the amplification hypothesis @hyp:t3-mito-amplifier.
     / *Certainty Assessment:*:
 
         - *Quality:* High (_Science Signaling_, rigorous experimental design)
@@ -6232,7 +6232,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Institution:*: Stanford University
     / *Key Finding:*: Using microfluidic channels (5.05 × 5.94 μm) under hypoxia (PO#sub[2] 0–34 mmHg), ME/CFS RBCs show significantly compromised capillary velocity vs healthy controls. Hypoxia-sensing mechanism — normally triggering vasodilation — is impaired: a cell-autonomous defect independent of target tissue mitochondrial state.
     / *Certainty:*: 0.55 — novel methodology from Stanford Davis lab; independent replication needed
-    / *Integrated into:*: Chapter 10 (@sec:rbc-deformability), Chapter 6 (@sec:microcirculation-oxygen)
+    / *Integrated into:*: Chapter 10 (@sec:rbc-deformability), Chapter 6 (@sec:step1-substrate-delivery)
 
 === Grau et al.\ 2024 — Persistent RBC Morphological Abnormalities in Long COVID
 
@@ -6256,7 +6256,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *DOI:*: #link("https://doi.org/10.1002/jcsm.13669")[10.1002/jcsm.13669]
     / *Key Finding:*: Early post-COVID: predominantly microvascular disturbance. ME/CFS: mitochondrial structural damage appears later and selectively. Causal chain: capillary hypoperfusion → ischaemia/reperfusion → Na+/H+ exchange → Na+ overload → NCX1 reversal → mitochondrial Ca2+ toxicity. Termed Acquired Ischaemic Mitochondrial Myopathy (AIMM). Strong evidence for vascular-primary causation.
     / *Certainty:*: 0.50 — cross-sectional comparison not longitudinal; AIMM framework compelling
-    / *Integrated into:*: Chapter 6 (@sec:microcirculation-oxygen), Chapter 10 (@sec:rbc-deformability, @hyp:vascular-primary-mecfs)
+    / *Integrated into:*: Chapter 6 (@sec:step1-substrate-delivery), Chapter 10 (@sec:rbc-deformability, @hyp:vascular-primary-mecfs)
 
 === Van Campen et al.\ 2023 — Orthostatic Hypocapnia as CBF Amplifier
 

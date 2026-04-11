@@ -167,7 +167,7 @@ The “ratchet effect,” “crash limit rule,” and cumulative damage model de
 
 Research and patient reports suggest that *repeated episodes of post-exertional malaise cause cumulative physiological damage* @Chu2019 @Maksoud2020natural. While individual crashes may appear to resolve, each episode may contribute to progressive deterioration through vicious cycle mechanisms. These pathophysiological systems both contribute to PEM susceptibility and are further damaged by PEM episodes themselves, creating self-reinforcing feedback loops:
 
-    - *Mitochondrial dysfunction accumulation* (Section @sec:mitochondrial-dysfunction): Impaired energy metabolism increases PEM vulnerability, while repeated ATP depletion and oxidative stress during crashes further damage mitochondrial membranes and DNA
+    - *Mitochondrial dysfunction accumulation* (Section @sec:mito-evidence): Impaired energy metabolism increases PEM vulnerability, while repeated ATP depletion and oxidative stress during crashes further damage mitochondrial membranes and DNA
     - *Endothelial dysfunction* (Section @sec:endothelial): Baseline vascular impairment limits oxygen delivery, while each PEM episode involves additional vascular stress; repeated insults progressively impair vessel reactivity
     - *Neuroinflammation* (Section @sec:neuroinflammation): Pre-existing neuroinflammation lowers the threshold for symptom exacerbation, while repeated microglial activation during crashes perpetuates chronic neuroinflammatory states
     - *Immune exhaustion* (Section @sec:chronic-activation): Baseline immune dysfunction increases infection risk (a common PEM trigger), while chronic activation during crashes progressively depletes immune cell populations and function
@@ -427,7 +427,7 @@ While randomized controlled trials of aggressive early pacing do not exist (such
 
 The biological mechanisms documented in Chapters @ch:energy-metabolism through @ch:integrative-models support the cumulative damage model:
 
-    - *Mitochondrial damage from repeated ATP depletion* (Section @sec:mitochondrial-dysfunction): Each PEM episode involves cellular energy crisis; repeated crises accumulate damage
+    - *Mitochondrial damage from repeated ATP depletion* (Section @sec:mito-evidence): Each PEM episode involves cellular energy crisis; repeated crises accumulate damage
 
     - *Oxidative stress accumulation* (Section @sec:oxidative-stress): Exertion triggers reactive oxygen species production; inadequate recovery allows oxidative damage to accumulate
 
