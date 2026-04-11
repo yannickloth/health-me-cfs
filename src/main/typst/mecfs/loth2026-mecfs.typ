@@ -140,6 +140,7 @@
 // ── Part II: Pathophysiology and Biological Mechanisms ───────────────────────
 #include "part2-pathophysiology/part2-intro.typ"
 #include "part2-pathophysiology/ch06-energy-metabolism.typ"
+#include "part2-pathophysiology/ch06b-energy-failure-cartography.typ"
 #include "part2-pathophysiology/ch07-immune-dysfunction.typ"
 #include "part2-pathophysiology/ch08-neurological.typ"
 #include "part2-pathophysiology/ch09-endocrine.typ"

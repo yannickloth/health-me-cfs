@@ -359,6 +359,15 @@ immune cells, linking energy deficits to immune
 dysfunction @CellReportsMedicine2025MECFS
 (Section @sec:registry-cell-reports-medicine).
 
+// =========================================================================
+// Cartography moved to dedicated chapter ch06b-energy-failure-cartography.typ
+// =========================================================================
+
+=== Systematic Failure Cartography
+<sec:energy-cartography>
+
+The preceding sections approach mitochondrial dysfunction from the direction of known findings — what has been observed and measured in ME/CFS. Chapter @ch:energy-failure-cartography reverses the direction: starting from the complete functional chain of cellular energy metabolism and asking, at each of ten steps, what can fail, what has been studied in ME/CFS, and what remains uninvestigated despite being mechanistically plausible. The chapter identifies eleven uninvestigated failure modes with direct therapeutic implications and develops four integrative hypotheses connecting multiple steps in the chain.
+
 === Consequences of Energy Deficits
 <sec:energy-consequences>
 
