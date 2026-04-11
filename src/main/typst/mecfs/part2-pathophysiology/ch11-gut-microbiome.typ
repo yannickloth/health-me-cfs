@@ -691,10 +691,18 @@ FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyo
 
 *Bifidobacterium infantis 35624:*
 
-    - 35 ME/CFS patients, 8 weeks
-    - Significantly *reduced inflammatory markers*: CRP, IL-6, TNF-$alpha$
+    - 48 female ME/CFS patients, double-blind RCT, 8 weeks @Groeger2013Bifido
+    - Significantly *reduced inflammatory markers*: CRP (p=0.0285), IL-6, TNF-$alpha$ vs placebo
     - 71% showed reduced pro-inflammatory markers
-    - Symptom reduction in 3 separate RCTs
+    - Fatigue was not a primary outcome; inflammatory marker reduction is the key finding
+
+*Multi-strain synbiotic (STOP-FATIGUE trial):*
+
+    - 26 post-COVID ME/CFS patients, RCT, 3 months @Ranisavljev2025synbiotic
+    - Combination: _L. rhamnosus_ DSM 32550 + _L. plantarum_ DSM 34532 + _B. lactis_ DSM 32269 + _B. longum_ DSM 32946 + FOS + zinc
+    - Significant reduction in *post-exertional malaise* (p=0.02) — the most ME/CFS-specific outcome in any probiotic trial
+    - No significant difference in general fatigue overall; increased brain choline and creatine on spectroscopy
+    - Limitation: small sample, post-COVID ME/CFS specifically; replication needed
 
 #key-point(title: [Strain-Specific Probiotic Selection])[
 Probiotic effects are highly strain-specific—a well-established principle in microbiology. _B. infantis_ 35624 shows strongest evidence for reducing inflammation in ME/CFS, while _L. casei_ Shirota may preferentially improve anxiety. Generic “probiotic” recommendations are unlikely to be helpful; strain selection should be evidence-based.
@@ -740,8 +748,8 @@ Rationale for FMT in ME/CFS:
 
 *Current Evidence:*
 
-    - *Finnish pilot study (2023)*: Randomized, double-blind, placebo-controlled (n=11). FMT was safe but did *not* relieve symptoms or improve quality of life. However, dose may have been suboptimal (30g vs 70g typically needed).
-    - *Norwegian “Comeback” study*: Randomized, double-blind, placebo-controlled (n=80). Completed enrollment March 2025; results expected 2026.
+    - *Finnish pilot study (Salonen et al.\ 2023)*: Randomized, double-blind, placebo-controlled (n=11; 5 FMT, 6 autologous placebo) @Salonen2023FMT. Colonoscopy delivery. FMT was safe but did *not* improve fatigue (VAS, MFIS) or quality of life. The study was grossly underpowered and did not assess microbiota engraftment; the negative result is informative but not definitive.
+    - *Norwegian “Comeback” study (Skjevling et al.\ 2024)*: Randomized, double-blind, donor FMT vs autologous placebo (n=80); 12-month follow-up @Skjevling2024FMTprotocol. Primary endpoint: FSS improvement #sym.gt 1.2 points at 3 months. Includes metagenomic sequencing, HRV, and cognitive testing. Results expected 2026.
     - *RESTORE ME study*: Placebo-controlled (n=160); underway since 2020.
 
 #limitation(title: [FMT: Association Established, Causality Not Proven])[
