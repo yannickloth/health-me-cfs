@@ -265,6 +265,16 @@ Additionally, ME/CFS patients showed increased WASF3 expression, a target of the
 
 Ligand-receptor interaction analysis from the Hoel et al.\ proteomics data @Hoel2026proteome revealed concordant changes in multiple members of the Ephrin signaling family: four Ephrin subfamily A receptors (EPHA1, EPHA2, EPHA4, EPHA7) and their EFNA ligands showed coordinated alterations in ME/CFS. Ephrin signaling regulates vascular development, endothelial cell migration, and angiogenesis. Disrupted Ephrin-Eph signaling had been previously suggested in ME/CFS based on earlier proteomic studies @Germain2021plasma, and the Hoel et al.\ findings provide independent confirmation across a different cohort and analytical platform. This pathway represents a potential mechanistic link between immune activation (Ephrin signaling also modulates immune cell migration and T cell activation) and the vascular dysfunction observed in ME/CFS.
 
+
+==== Endothelial Senescence and Failed Angiogenic Compensation
+<sec:endothelial-senescence-cv>
+
+Two findings advance the mechanistic understanding of endothelial dysfunction beyond functional impairment to a structural and cellular biology level.
+
+Flaskamp et al.\ (2022) @Flaskamp2022endothelial compared the effect of ME/CFS and post-COVID serum on endothelial cell behaviour _in vitro_. Post-COVID serum significantly enhanced angiogenic tube formation — a compensatory vascular response to hypoperfusion — whereas ME/CFS serum did not. ME/CFS serum selectively abolished this compensatory angiogenic response while also reducing ICAM-1 and E-selectin expression. If confirmed in vivo, this failed angiogenic compensation would explain why microvascular hypoperfusion becomes structural and self-sustaining in ME/CFS, consistent with the collagen IV deposition and basement membrane thickening documented by Wüst et al.\ @Wust2024capillary.
+
+Nunes et al.\ (2026) @Nunes2026endothelialSenescence proposed that virus-induced endothelial senescence at the BBB, cerebral arteries, gut vasculature, and skeletal muscle capillaries produces a SASP (senescence-associated secretory phenotype) that is pro-inflammatory, pro-oxidative, procoagulant, and vasoconstrictive. Senescent endothelial cells lose the capacity for vascular regeneration, consistent with the failed angiogenic response above. NK cell dysfunction and T cell exhaustion (Chapter @ch:immune-dysfunction, Section @sec:endothelial-senescence) prevent clearance of senescent cells, establishing a self-perpetuating loop. The therapeutic implication is that senolytic agents (dasatinib + quercetin) may reduce the senescent cell burden and break this cycle; no ME/CFS trial has yet tested this approach.
+
 The ACHTSAM outreach study @Fricke2026achtsam is deploying EndoPAT
 (peripheral arterial tonometry) as a non-invasive, home-based endothelial
 function assessment in severe ME/CFS patients (Bell score $lt.eq$30)—a
@@ -438,6 +448,7 @@ Multiple mechanisms likely contribute to orthostatic cerebral hypoperfusion in M
     - *Endothelial dysfunction* *(hypothesized)*: May impair nitric oxide-mediated vasodilation; suggested by absence of compensatory response but not directly measured in CBF studies
     - *Autonomic dysregulation* *(documented)*: Impaired sympathetic vasoconstriction in peripheral vascular beds allows excessive venous pooling; documented via HRV and catecholamine studies (see Chapter @ch:neurological Section @sec:autonomic-imbalance)
     - *Blood volume deficit* *(documented)*: Reduced circulating volume exacerbates orthostatic hemodynamic stress; documented in multiple studies showing 10–15% blood volume reduction (see Section @sec:blood-volume)
+    - *Orthostatic hypocapnia* *(documented)*: Van Campen et al.\ (2023) @VanCampen2023co2cbf quantified PETCO#sub[2] during tilt in 535 female ME/CFS patients: end-tilt PETCO#sub[2] was 26–30~mmHg vs.\ 36±3~mmHg in controls. CO#sub[2] reactivity slopes were preserved, meaning the hypocapnia drives CBF reduction via normal cerebrovascular reactivity — orthostatic hypocapnia functions as a physiological amplifier: reduced cardiac output causes ventilation/perfusion mismatch, PETCO#sub[2] falls, CO#sub[2]-sensitive cerebral vessels constrict, and CBF falls further than systemic haemodynamics alone would predict. This mechanism may explain why CBF reductions (26–31%) consistently exceed systemic cardiac output reduction in ME/CFS tilt studies
 
 In mast cell disorder patients, Novak et al.\ documented 20–24% reduction in orthostatic cerebral blood flow velocity using transcranial Doppler @Novak2022. Given the substantial overlap between mast cell activation and ME/CFS, histamine-mediated vasodilation during orthostatic stress may contribute to cerebral hypoperfusion in some patients. The combination of reduced blood volume, impaired vasoconstriction, and potentially histamine-induced vasodilation creates multiple mechanisms converging on inadequate cerebral perfusion during upright posture.
 
@@ -649,33 +660,46 @@ Heart rate recovery (HRR) after exercise reflects parasympathetic reactivation:
 === Hypercoagulability
 <sec:hypercoagulability>
 
-Some ME/CFS patients show evidence of increased coagulation activation (@Nunes2022microclots):
+Converging evidence from haematology, proteomics, and functional assays documents a prothrombotic, procoagulant state in ME/CFS.
 
-    - *Platelet hyperactivation*: Approximately 80% of ME/CFS patients demonstrate platelet hyperactivation (mean spreading score 2.72 vs.\ 1.00 in controls), with pseudopodia formation @Nunes2022microclots
-    - *Thromboelastography*: Hypercoagulable state detected in $tilde$50% of ME/CFS participants across multiple thromboelastography parameters @Nunes2022microclots
-    - *Elevated fibrinogen and D-dimer*: Clotting cascade activation markers have been reported in some cohorts, though systematic data remain limited
+Nunes et al.\ (2022) @NunesPlatelets2022mecfs provided the first quantitative characterisation of haematological pathology in ME/CFS specifically. Key findings in 25 ME/CFS patients vs.\ controls:
 
-Serum proteomics data from Hoel et al.\ (2026) @Hoel2026proteome provided further evidence for a pro-coagulant state in ME/CFS. Among secreted proteins, those involved in coagulation and complement pathways showed a consistent pattern of elevated levels. Specifically, coagulation-related proteins showed increased secretion across multiple tissue compartments, while the broader secretome analysis revealed heightened activity in inflammation-associated pathways (complement factors, chemokines, cytokines) alongside reduced enzyme levels—a pattern consistent with chronic low-grade immune activation driving a prothrombotic environment.
+    - *Platelet hyperactivation*: Mean spreading score 2.72 ± 1.24 vs.\ 1.00 for healthy controls — confirmed by PAC-1 and CD62P markers, indicating pre-activated platelets circulating in the blood
+    - *Fibrinaloid microclots*: Amyloid-resistant fibrin microclots present at more than 10-fold greater area than in healthy controls, establishing that microclot pathology is not unique to Long COVID
+    - *Thromboelastography*: Hypercoagulable state detected in approximately 50% of ME/CFS participants across multiple parameters
 
-=== Fibrin Deposition
+Plasma proteomics by Nunes et al.\ (2024) @NunesProteomics2024mecfs (15 ME/CFS patients vs.\ 10 controls, data-independent LC-MS/MS) identified 24 significantly elevated proteins, with a coherent procoagulant pattern:
+
+    - *Thrombospondin-1 (THBS1) elevated*: Produced by activated endothelial cells and platelets; promotes endothelial dysfunction via pro-oxidative and proinflammatory mechanisms
+    - *Platelet factor 4 (PF4) elevated*: A platelet-released chemokine that potentiates coagulation
+    - *P-selectin elevated*: Reflects platelet and endothelial activation
+    - *Protein S decreased*: An endogenous anticoagulant; its reduction predisposes to pathological clotting
+
+These findings were corroborated by Heng et al.\ (2025) @heng2025mecfs, whose multi-omics study in 61 ME/CFS patients independently identified VWF (von Willebrand factor), THBS1, and FN1 (fibronectin 1) among the top discriminating biomarkers — convergence across independent cohorts and analytical platforms strengthens confidence in this prothrombotic signature.
+
+=== Fibrin Deposition and Microclot Biology
 <sec:fibrin>
 
-Excessive fibrin deposition may impair microcirculation (@Nunes2022microclots):
+Kruger et al.\ (2022) @KrugerMicroclot2022longcovid characterised the proteome of Long COVID microclots, finding 27 distinct immunoglobulin variants trapped within fibrin microclots absent from controls, alongside elevated VWF (2.6-fold), PF4 (3.5-fold), and reduced plasma kallikrein (4.4-fold). Entrapped pro-inflammatory molecules impair fibrinolysis from within the clot, and microclots exceeding capillary diameter ($<$10~$mu$m) physically obstruct capillary flow, limiting red blood cell transit and oxygen exchange.
 
-    - *Fibrinaloid microclots*: Amyloid-resistant fibrin microclots are present in ME/CFS plasma at $>$10-fold greater burden than in healthy controls @Nunes2022microclots
-    - *Microcapillary obstruction*: These rigid microclots may block microcapillaries, reducing perfusion and contributing to post-exertional symptoms @Nunes2022microclots
-    - *Fibrinolysis resistance*: The amyloid conformation of these microclots renders them resistant to normal fibrinolytic clearance @Nunes2022microclots
-    - *Treatment implications*: Anticoagulation and fibrinolytic agents have been investigated in small, preliminary case series; evidence remains insufficient for clinical recommendations
+Nunes et al.\ (2023) @NunesBloodReviews2023mecfs reviewed cardiovascular and haematological pathology in ME/CFS, documenting a 26% mean reduction in cerebral blood flow and orthostatic intolerance prevalence exceeding 95% in some cohorts, with microclot and platelet pathology at lower levels than Long COVID but significantly above healthy controls. Viral reservoirs (EBV, HHV-6, HHV-7) are proposed as maintenance factors that continuously reactivate coagulation through direct endothelial infection and proinflammatory cytokine release.
 
-=== Red Blood Cell Deformability
+    - *Fibrinolysis resistance*: Amyloid conformation renders microclots resistant to normal fibrinolytic clearance
+    - *Oxygen delivery deficit*: Modelling of comparable RBC rheological disruption in COVID-19 indicates maintaining equivalent oxygen delivery would require a $tilde$135% increase in cardiac output @RogersRBC2024covidoxygen — a physiologically impossible compensation
+    - *Treatment implications*: Anticoagulation and fibrinolytic agents have been investigated in preliminary Long COVID case series; no controlled trial data exist specifically in ME/CFS
+
+=== Red Blood Cell Deformability and Oxygen Delivery Failure
 <sec:rbc-deformability>
 
-Red blood cells must deform to traverse capillaries (@Saha2019):
+Red blood cells must deform to traverse narrow capillaries (5--8~$mu$m, smaller than the unstressed RBC diameter of $tilde$8~$mu$m). Impaired deformability directly reduces capillary transit velocity and oxygen delivery independently of haemoglobin concentration or cardiac output.
 
-    - *Reduced deformability*: Red blood cell deformability is significantly diminished in ME/CFS patients @Saha2019
-    - *Mechanisms*: Membrane oxidative damage, altered lipid composition
-    - *Consequences*: Impaired capillary perfusion and oxygen delivery, potentially contributing to exercise intolerance @Saha2019
-    - *Measurement*: Ektacytometry, micropipette aspiration
+Saha et al.\ (2019) @Saha2019 demonstrated ME/CFS RBCs show approximately 12% longer capillary entry time, 17% reduced transit velocity, and 14% reduced membrane deformability, alongside 30% elevated ROS production — creating a self-amplifying cycle of oxidative membrane damage and further deformability reduction.
+
+Guo et al.\ (2025) @GuoRBC2025microfluidic provided direct capillary-level evidence using microfluidic channels (5.05~$times$~5.94~$mu$m, matching real capillary dimensions) under controlled hypoxia (PO#sub[2] = 0--34~mmHg): ME/CFS patient RBCs showed significantly compromised capillary velocity compared to healthy controls under low oxygen tension. Critically, the hypoxia-sensing mechanism — which normally triggers local vasodilation and increased RBC flow to hypoxic tissue — was impaired in ME/CFS RBCs. This is a cell-autonomous defect in the oxygen delivery feedback loop: ME/CFS RBCs not only transit capillaries more slowly but also fail to signal for increased local perfusion when tissue oxygen falls.
+
+Grau et al.\ (2024) @GrauRBC2024longcovid documented persistent RBC morphological abnormalities in Long COVID at mean 42 weeks post-infection — beyond the 120-day RBC lifespan — indicating ongoing production of morphologically abnormal RBCs rather than survival of initially damaged ones. Echinocytes and acanthocytes constituted 16.0 ± 9.9% vs.\ 2.3 ± 1.4% in controls (p $<$ 0.0001). RBC morphological abnormality correlated with fatigue severity (r = $-$0.51, p = 0.006), establishing a quantitative haematological-symptom link.
+
+The combined picture is of multi-level oxygen delivery failure: microclots obstruct capillary lumina mechanically, abnormal RBC morphology reduces membrane flexibility for transit, impaired hypoxia-sensing prevents compensatory vasodilation, and accumulated ROS further damage already-impaired RBC membranes. Scheibenbogen and Wirth (2024) @ScheibenbogenWirth2024sarcopenia proposed that this chronic capillary hypoperfusion — initiating in the post-COVID or post-infectious phase — is the upstream event that eventually drives mitochondrial calcium toxicity in skeletal muscle, with ME/CFS representing the chronic phase in which mitochondrial damage has become structurally fixed (see @ch:energy-metabolism, @sec:sodium-calcium-cascade).
 
 == Cardiovascular Dysfunction in Post-COVID ME/CFS
 <sec:post-covid-cardiovascular>
@@ -763,7 +787,7 @@ Cardiovascular dysfunction in ME/CFS involves multiple interacting abnormalities
 
 This cardiovascular dysfunction explains much of the disability in ME/CFS: patients cannot sustain physical activity because their cardiovascular system cannot deliver adequate oxygen to meet metabolic demands. The objective documentation of reduced VO#sub[2]peak and chronotropic incompetence in the NIH deep phenotyping study provides biological validation of patients' reported exercise intolerance. These cardiovascular abnormalities integrate with metabolic dysfunction (Chapter @ch:energy-metabolism), autonomic dysfunction (Chapter @ch:neurological), and immune dysregulation (Chapter @ch:immune-dysfunction) to produce the multi-system pathophysiology synthesized in Chapter @ch:integrative-models.
 
-Treatment approaches targeting cardiovascular dysfunction include volume expansion (fludrocortisone, increased fluid and salt intake), direct-acting autonomic agents (midodrine as alpha-agonist for vasoconstriction), and careful activity management to avoid exceeding the reduced aerobic threshold. The efficacy of pharmacological agents that bypass impaired CNS autonomic coordination (such as midodrine acting directly on peripheral alpha-receptors) provides indirect support for the selective energy dysfunction hypothesis discussed in Section @sec:selective-energy-dysfunction.
+Treatment approaches targeting cardiovascular dysfunction include volume expansion (fludrocortisone, increased fluid and salt intake), direct-acting autonomic agents (midodrine as alpha-agonist for vasoconstriction), and careful activity management to avoid exceeding the reduced aerobic threshold. The efficacy of midodrine (acting directly on peripheral alpha-receptors) is consistent with any model in which peripheral vasoconstriction aids orthostatic tolerance — including simple hypovolemia, peripheral autonomic failure, or central coordination failure. It is not specific evidence for the selective energy dysfunction hypothesis, as multiple mechanistic frameworks predict the same clinical response.
 
 The recognition that cardiovascular abnormalities are objective and measurable helps counter misconceptions that ME/CFS exercise intolerance reflects psychological factors or simple deconditioning. Charlton et al.\ (2026) formalized this argument in the _British Journal of Sports Medicine_, concluding that post-exertional malaise cannot be explained by cardiac deconditioning and calling for a fundamental rethinking of exercise pathophysiology in post-viral illness @Charlton2026pem.
 
@@ -834,8 +858,42 @@ If this hypothesis is correct, treating SFN may reduce CNS metabolic burden and 
 No studies have directly measured CNS metabolic demand in relation to SFN severity in ME/CFS. SFN and cognitive dysfunction may share common causes (e.g., autoimmunity or inflammation) rather than having a causal relationship. The relative contribution of SFN to overall CNS energy constraints is unknown and may be minor compared to other factors.
 
 *Current Evidence.*
-Azcue et al.\ documented that ME/CFS patients show prolonged heat response latencies indicating C-fiber dysfunction, with 31% meeting POTS criteria @Azcue2023sfn. A follow-up study using corneal confocal microscopy demonstrated increased small fiber tortuosity in ME/CFS compared to controls ($F=6.80$, $p\<0.01$), with tortuosity serving as the primary discriminator between patients and controls (AUC$=0.720$) @Azcue2025sfn. The non-length-dependent pattern (upper and lower extremities equally affected) distinguishes ME/CFS-associated SFN from metabolic neuropathies like diabetic neuropathy, suggesting immune-mediated damage targeting specific antigens on small nerve fibers. The connection between reduced parasympathetic activation and worse cognitive performance @Azcue2023sfn provides indirect support for peripheral-CNS interface dysfunction, though directionality remains uncertain.
+Azcue et al.\ documented that ME/CFS patients show prolonged heat response latencies indicating C-fiber dysfunction, with 31% meeting POTS criteria @Azcue2023sfn. A follow-up study using corneal confocal microscopy demonstrated increased small fiber tortuosity in ME/CFS compared to controls ($F=6.80$, $p\<0.01$), with tortuosity serving as the primary discriminator between patients and controls (AUC$=0.720$) @Azcue2025sfn. The non-length-dependent pattern (upper and lower extremities equally affected) distinguishes ME/CFS-associated SFN from metabolic neuropathies like diabetic neuropathy; by analogy with other immune-mediated neuropathies @Oaklander2016autoimmuneSFN, this distribution pattern is consistent with immune-mediated damage, though the specific antigens targeted in ME/CFS have not been identified. The connection between reduced parasympathetic activation and worse cognitive performance @Azcue2023sfn provides indirect support for peripheral-CNS interface dysfunction, though directionality remains uncertain.
 
 *Certainty:* 0.40 (SFN prevalence established; CNS metabolic mechanism speculative)
 ] <spec:sfn-interface-failure>
+
+
+#hypothesis(title: [Vascular Pathology as the Primary Initiating Event in ME/CFS])[
+The temporal, structural, and interventional evidence is _consistent with_ a model in which vascular and microvascular dysfunction precedes and causes mitochondrial damage, rather than representing a downstream consequence of primary mitochondrial failure. This temporal ordering is the hypothesis, not an established finding: the current evidence is cross-sectional, and the causal direction remains unconfirmed.
+
+*Evidence for vascular primacy:*
+    + *Temporal sequence*: Early post-COVID syndrome is dominated by microvascular disturbance (microclots, inflammatory capillary changes), with mitochondrial structural damage appearing later and selectively in patients who develop ME/CFS @ScheibenbogenWirth2024sarcopenia
+    + *Mechanistic chain*: Capillary hypoperfusion $arrow.r$ ischaemia/reperfusion $arrow.r$ proton accumulation $arrow.r$ NHE1 sodium influx $arrow.r$ NCX1 reversal $arrow.r$ mitochondrial Ca#super[(2+)] overload $arrow.r$ mitochondrial structural damage (Section @sec:sodium-calcium-cascade in @ch:energy-metabolism)
+    + *Structural irreversibility*: Collagen IV deposition and basement membrane thickening in skeletal muscle capillaries @Wust2024capillary represent structural (not merely functional) pathology not explained as consequences of mitochondrial failure
+    + *Cell-autonomous RBC sensing failure*: ME/CFS RBCs fail to sense and respond to tissue hypoxia @GuoRBC2025microfluidic — a defect independent of target tissue mitochondrial state
+    + *Interventional evidence*: Correcting preload failure pharmacologically (pyridostigmine) improves peak VO#sub[2] and cardiac output @Joseph2022pyridostigmine — consistent with a model in which preload failure contributes to exercise limitation. Note: pyridostigmine acts via cholinergic autonomic mechanisms, not direct vascular effects; its benefit is consistent with multiple models (autonomic, vascular, mixed) and does not differentially confirm vascular primacy over other explanations
+
+_Certainty: 0.45._ Evidence for vascular primacy is strengthening but remains circumstantial for the causal direction claim. The temporal model from Scheibenbogen and Wirth is the strongest argument (early PCS vascular-only, later ME/CFS mitochondrial), but requires prospective cohort confirmation. Some patients may have primary mitochondrial pathology without preceding vascular disease (e.g., those with genetic mitochondrial variants).
+
+*Falsifiable predictions:*
+    + Prospective early post-COVID cohort studies should show vascular abnormalities (microclots, endothelial dysfunction) preceding mitochondrial structural changes in muscle biopsies, with mitochondrial changes only in those who progress to ME/CFS
+    + Vascular-targeted interventions (sulodexide, glycocalyx restoration) implemented early in post-COVID course should reduce ME/CFS incidence
+    + Correcting microvascular obstruction (e.g., targeted fibrinolysis) should normalise mitochondrial energetics in ME/CFS patients with demonstrable capillary obstruction
+
+*Limitations:* No prospective biopsy-series from early to chronic ME/CFS exists; the Wirth/Scheibenbogen temporal model comes from cross-sectional comparison, not longitudinal tracking; some mitochondrial defects (WASF3) may be primary.
+] <hyp:vascular-primary-mecfs>
+
+#hypothesis(title: [Failed Angiogenic Compensation as the Transition Mechanism from Post-COVID to ME/CFS])[
+Flaskamp et al.\ (2022) @Flaskamp2022endothelial demonstrated that post-COVID serum (without ME/CFS) retains the capacity to induce angiogenic tube formation in endothelial cells in vitro, while ME/CFS serum selectively loses this response. This failed angiogenic compensation may represent the biological transition point: post-COVID patients who retain vascular repair capacity recover; those in whom this mechanism fails progress to ME/CFS.
+
+_Certainty: 0.30._ The in vitro finding is from a single study with small numbers; the clinical implication (failed angiogenesis as the transition event) is extrapolated, not directly tested.
+
+*Falsifiable predictions:*
+    + Longitudinal sampling of post-COVID patients before and after ME/CFS development should show loss of angiogenic serum activity coinciding with clinical deterioration
+    + Angiogenic capacity of patient serum should correlate inversely with capillary basement membrane thickness on biopsy
+    + Pro-angiogenic interventions (e.g., VEGF-based approaches, hypoxia-inducible factor stabilisers) should attenuate ME/CFS development in at-risk post-COVID patients if given early
+
+*Limitations:* Single in vitro study; serum angiogenic activity is a composite of many factors; mechanism of selective angiogenic failure in ME/CFS is not established.
+] <hyp:failed-angiogenesis-mecfs>
 

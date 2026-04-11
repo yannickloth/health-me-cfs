@@ -32,6 +32,8 @@ These hypotheses are offered in the spirit of scientific brainstorming: to stimu
 
 #include "ch14/ch14j-selective-dysfunction.typ"
 
+#include "ch14/ch14k-vascular-brainstorm.typ"
+
 == Conclusion
 
 The hypotheses presented in this chapter are speculative extrapolations intended to stimulate new research directions. They share several features:
