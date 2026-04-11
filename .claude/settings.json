@@ -76,7 +76,8 @@
       "Bash(fc-list)",
       "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Éducation/TDAH/**)",
       "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Éducation/Trennungsangst/**)",
-      "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Santé/**)"
+      "Read(//home/nicky/sync/notes/Family vault/Family/Sven/Santé/**)",
+      "Read(//home/nicky/sync/10-19 - Personnes et Animaux/11 - Christine/11.001 Santé/**)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
