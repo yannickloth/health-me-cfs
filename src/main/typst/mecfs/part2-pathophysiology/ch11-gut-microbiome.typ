@@ -691,21 +691,22 @@ FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyo
 
 *Bifidobacterium infantis 35624:*
 
-    - 48 female ME/CFS patients, double-blind RCT, 8 weeks @Groeger2013Bifido
+    - ME/CFS arm of a three-population double-blind RCT (48 female ME/CFS patients, 8 weeks) @Groeger2013Bifido. Note: the same paper studied psoriasis and ulcerative colitis cohorts; the ME/CFS results represent one arm of a multi-population study and have not been independently replicated in ME/CFS specifically.
     - Significantly *reduced inflammatory markers*: CRP (p=0.0285), IL-6, TNF-$alpha$ vs placebo
     - 71% showed reduced pro-inflammatory markers
     - Fatigue was not a primary outcome; inflammatory marker reduction is the key finding
+    - Replication status: not independently replicated in ME/CFS
 
 *Multi-strain synbiotic (STOP-FATIGUE trial):*
 
     - 26 post-COVID ME/CFS patients, RCT, 3 months @Ranisavljev2025synbiotic
     - Combination: _L. rhamnosus_ DSM 32550 + _L. plantarum_ DSM 34532 + _B. lactis_ DSM 32269 + _B. longum_ DSM 32946 + FOS + zinc
-    - Significant reduction in *post-exertional malaise* (p=0.02) — the most ME/CFS-specific outcome in any probiotic trial
-    - No significant difference in general fatigue overall; increased brain choline and creatine on spectroscopy
-    - Limitation: small sample, post-COVID ME/CFS specifically; replication needed
+    - Significant reduction in *post-exertional malaise* (p=0.02) — PEM was not the primary endpoint; general fatigue (the pre-specified primary outcome) did not reach significance. With multiple secondary endpoints measured, the PEM result is subject to multiple-comparisons uncertainty and should be considered exploratory. Additionally, the synbiotic contained zinc and FOS as well as four bacterial strains; the effect cannot be attributed to the probiotic component alone without arm separation.
+    - Increased brain choline and creatine on spectroscopy (exploratory neuroimaging finding)
+    - Limitation: small sample, post-COVID ME/CFS specifically; multi-component formulation; replication in a single-strain or zinc-free arm needed
 
 #key-point(title: [Strain-Specific Probiotic Selection])[
-Probiotic effects are highly strain-specific—a well-established principle in microbiology. _B. infantis_ 35624 shows strongest evidence for reducing inflammation in ME/CFS, while _L. casei_ Shirota may preferentially improve anxiety. Generic “probiotic” recommendations are unlikely to be helpful; strain selection should be evidence-based.
+Probiotic effects are highly strain-specific—a well-established principle in microbiology. _B. infantis_ 35624 shows anti-inflammatory evidence in one small ME/CFS-arm RCT (not independently replicated), while _L. casei_ Shirota may preferentially improve anxiety. Generic “probiotic” recommendations are unlikely to be helpful; strain selection should be evidence-based. Both findings await independent replication in adequately powered ME/CFS-specific trials.
 ] <key:probiotic-strain>
 
 #warning-env(title: [Probiotic Cautions])[
@@ -772,7 +773,7 @@ Gastrointestinal dysfunction interconnects with other ME/CFS mechanisms (these c
 
     - *Autonomic dysfunction* (Chapter @ch:neurological): Vagal impairment causes gastroparesis and MMC dysfunction; dysautonomia and GI symptoms bidirectionally reinforce each other. A specific gut–vagal mechanism may operate through enterochromaffin cell serotonin release affecting vagal afferent signaling (Section @sec:gut-brain), with potential downstream effects on cardiovascular autonomic function (Chapter @ch:cardiovascular)
 
-    - *MCAS* (Section @sec:septad): Bidirectional microbiome–mast cell regulation operates through butyrate-mediated epigenetic suppression and dysbiosis-driven histamine/LPS activation (\hyperref[par:microbiome-mast-cell]{Microbiome–Mast Cell Bidirectional Regulation}, Section @sec:gut-metabolic-cascade); mast cells in gut mucosa affect motility and permeability, with potential interactions with SIBO
+    - *MCAS* (Section @sec:septad): Bidirectional microbiome–mast cell regulation operates through butyrate-mediated epigenetic suppression and dysbiosis-driven histamine/LPS activation (Microbiome–Mast Cell Bidirectional Regulation, Section @sec:gut-metabolic-cascade); mast cells in gut mucosa affect motility and permeability, with potential interactions with SIBO
 
     - *Energy metabolism* (Chapter @ch:energy-metabolism): Butyrate deficiency reduces colonocyte energy; malabsorption impairs nutrient availability for mitochondrial function
 
