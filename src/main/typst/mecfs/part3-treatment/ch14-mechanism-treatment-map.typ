@@ -5,24 +5,28 @@
 
 This chapter serves as the navigational entry point to Part III. It answers a single question: *for each known ME/CFS mechanism, what treatment options exist?*
 
-The map is organised by causal tier, as established in Chapter @ch:causal-hierarchy. Tier 1 mechanisms are those with evidence of trigger-capability — they can initiate ME/CFS independently from a healthy baseline. Tier 2 mechanisms are amplifiers: real, documented processes that worsen or perpetuate disease but cannot initiate it alone. The distinction matters therapeutically: addressing Tier 1 mechanisms may produce remission; addressing Tier 2 mechanisms primarily reduces disease burden and prevents further deterioration.
+The map is organised by causal tier, as established in Chapter @ch:causal-hierarchy. Tier 1 mechanisms are those with evidence of trigger-capability — they can initiate ME/CFS independently from a healthy baseline. Tier 2 mechanisms are amplifiers: real, documented processes that worsen or perpetuate disease but cannot initiate it alone. The distinction matters therapeutically: *in theory*, addressing Tier 1 mechanisms could produce remission in some patients; addressing Tier 2 mechanisms primarily reduces disease burden and prevents further deterioration. This is the *theoretical expectation* of the causal model — no controlled trial has yet demonstrated durable remission from any Tier 1-targeted intervention.
 
 #key-point(title: [How to Use This Chapter])[
-*For clinicians and patients*, this chapter functions as a diagnostic checklist. The overview table below (@tab:mechanism-overview) shows all mechanisms at a glance with their tier, treatment priority, and coverage count. For each active mechanism, proceed to the corresponding section for the full treatment list.
+*For clinicians and patients*, this chapter functions as a diagnostic checklist. The overview table below (@tab:mechanism-overview) shows all mechanisms at a glance with their tier, treatment priority, and coverage count. For each active mechanism, proceed to the corresponding section for the full treatment list. Guidance on how to assess which mechanisms are active in a given patient is in Chapter @ch:integrative-treatment (phenotyping protocol, Section @sec:phenotyping-imperative).
 
 *For navigation*, each treatment listed links to the chapter where it is discussed in full. Evidence levels and energy categories (A/B/C) are defined in Chapter @ch:integrative-treatment.
 
 *For research planning*, the last section (@sec:mechanism-coverage-gaps) identifies which mechanisms have no targeted treatments — the most urgent research gaps.
+
+*Scope note:* This map catalogues mechanism-targeted and substrate-level interventions. It does not include purely symptom-management approaches (e.g., pain medications, sleep aids) unless those share a mechanistic rationale with the listed mechanisms. Treatments are included regardless of current regulatory or access status; many listed under Tier 1 are investigational or not clinically accessible outside research centres — see the Evidence column for each entry.
 ]
 
 #warning-env(title: [This Map Does Not Replace Clinical Judgement])[
-The presence of a treatment in this table does not constitute a recommendation to use it. Mechanism activation must be assessed per patient. Evidence levels range from robust RCT data to single case reports. Energy category and crash risk must be evaluated before any trial. See Chapter @ch:integrative-treatment for the full safety framework.
+The presence of a treatment in this table does not constitute a recommendation to use it. Mechanism activation must be assessed per patient. Evidence levels range from robust RCT data to single case reports. Energy category and crash risk must be evaluated before any trial. See Chapter @ch:integrative-treatment for the full safety framework, including phenotyping protocol, micro-dosing imperative, and severity-based gating.
+
+*Priority ratings* in the overview table reflect theoretical remission potential × evidence tractability — they do *not* encode evidence strength alone. A 5-star Tier 1 mechanism with multiple failed controlled trials may rank higher than a 3-star Tier 2 mechanism with strong symptom-reduction evidence, because the former has higher *theoretical upside* if the right intervention is found.
 ]
 
 == Mechanism Overview
 <sec:mechanism-overview>
 
-The table below provides a one-page view of all ME/CFS mechanisms, their causal tier, therapeutic priority, and the number of interventions currently available. Treatment priority reflects two factors: (1) whether targeting the mechanism can produce remission vs. symptom reduction, and (2) current evidence base and treatment tractability.
+The table below provides a one-page view of all ME/CFS mechanisms, their causal tier, therapeutic priority, and the number of interventions currently available. Treatment priority reflects two factors: (1) whether targeting the mechanism could produce remission vs. symptom reduction (theoretical), and (2) current evidence base and treatment tractability. *Energy categories* A/B/C refer to the patient energy cost of the intervention, not evidence strength — see Chapter @ch:integrative-treatment for definitions. A* denotes a treatment whose metabolic profile is Category A but that is not yet clinically available (investigational only).
 
 #figure(
   table(
@@ -39,7 +43,7 @@ The table below provides a one-page view of all ME/CFS mechanisms, their causal 
     [Metabolic Safe Mode Lock], [T1], [★★★★★ — remission-capable; near-zero pharmacological coverage], [8], [@sec:map-metabolic-safe-mode],
     [CNS Energy Crisis], [T1], [★★★★☆ — remission-capable; neuromodulation pipeline growing], [15], [@sec:map-cns-energy],
     [TRPM3 Channelopathy], [T1], [★★★★☆ — remission-capable; LDN validated in vitro; underexplored], [2], [@sec:map-trpm3],
-    [Dysautonomia / ANS Dysfunction], [T2], [★★★★☆ — most tractable Tier 2; multiple approved options], [17], [@sec:map-dysautonomia],
+    [Dysautonomia / ANS Dysfunction], [T2], [★★★★☆ — most tractable Tier 2; multiple approved options], [16], [@sec:map-dysautonomia],
     [Mast Cell–Energy Loop], [T2], [★★★☆☆ — high tractability; reduces burden + crash frequency], [8], [@sec:map-mast-cell],
     [Oxidative Stress Vicious Cycle], [T2], [★★★☆☆ — broadly addressable; foundational for energy recovery], [12], [@sec:map-oxidative],
     [NAD⁺ Depletion Spiral], [T2], [★★★☆☆ — direct substrates available; Category A], [7], [@sec:map-nad],
@@ -60,7 +64,7 @@ These are the mechanisms for which there is evidence of independent disease-init
 === GPCR Autoantibody Cascade
 <sec:map-gpcr>
 
-Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors drive endothelial dysfunction, autonomic dysregulation, immune reprogramming, and neuroinflammation. Prevalence estimates range 29–91% across studies; therapeutic response to antibody-depleting strategies provides the strongest mechanistic validation @Scheibenbogen2018immunoadsorption @Loebel2016.
+Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors are hypothesised to drive endothelial dysfunction, autonomic dysregulation, and neuroinflammation. Prevalence estimates range 29–91% across studies — a spread reflecting assay heterogeneity and varying cut-offs rather than a stable biomarker @Scheibenbogen2018immunoadsorption @Loebel2016. Uncontrolled immunoadsorption series show high response rates (~70%), but controlled RCTs of rituximab, efgartigimod, and plasma exchange targeting the same mechanism have all returned negative primary endpoints. The mechanistic hypothesis remains plausible and clinically important; it has not yet been confirmed by a positive sham-controlled trial.
 
 #figure(
   table(
@@ -101,7 +105,7 @@ Post-viral dysfunction of the TRPM3 calcium channel impairs NK cell function, ne
 === CNS Energy Crisis
 <sec:map-cns-energy>
 
-Central nervous system hypometabolism driven by neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction. Validated by PET/SPECT hypometabolism studies and Walitt 2024 CSF catecholamine precursor deficits. The CNS energy crisis produces downstream autonomic dysfunction, immune dyscoordination, endocrine disruption, and sleep fragmentation.
+Central nervous system hypometabolism driven by neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction. Supported by PET/SPECT hypometabolism studies and CSF catecholamine precursor deficits @Walitt2024NIH. Note: that study's authors interpret the findings in terms of altered effort signalling rather than primary metabolic pathology; the "energy crisis" framing is one valid reading of the data, not the only one. The CNS energy crisis produces downstream autonomic dysfunction, immune dyscoordination, endocrine disruption, and sleep fragmentation.
 
 #figure(
   table(
@@ -109,7 +113,7 @@ Central nervous system hypometabolism driven by neuroinflammation, neurovascular
     fill: (_, row) => if calc.odd(row) { luma(245) } else { white },
     [*Treatment*], [*Mechanism of action*], [*Category*], [*Energy*], [*Evidence*],
 
-    [MDC002 (Mitodicure)], [Na⁺/K⁺-ATPase + NCLX + NHE1/PDE7 → mitochondrial Ca²⁺ rescue], [Medication], [A], [Phase I],
+    [MDC002 (Mitodicure)], [Na⁺/K⁺-ATPase + NCLX + NHE1/PDE7 → mitochondrial Ca²⁺ rescue], [Medication], [A*], [Phase I — safety only; no efficacy data; not prescribable],
     [LDN], [TLR4 antagonism → microglial activation ↓], [Medication], [B], [Clinical, off-label],
     [PEA (palmitoylethanolamide)], [PPAR-α → mast cell + neuroinflammation ↓], [Supplement], [B], [Clinical, off-label],
     [Low-dose aripiprazole], [Dopaminergic / microglial modulation], [Medication], [C], [Clinical, off-label; pharmacogenomics required],
@@ -140,7 +144,7 @@ An evolutionarily conserved metabolic suppression programme — initiated by inf
     fill: (_, row) => if calc.odd(row) { luma(245) } else { white },
     [*Treatment*], [*Mechanism of action*], [*Category*], [*Energy*], [*Evidence*],
 
-    [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A], [Phase I],
+    [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A*], [Phase I — safety only; no efficacy data; not prescribable],
     [NAD⁺ precursors (NR/NMN)], [Kynurenine bypass + PARP substrate replenishment], [Supplement], [A], [Clinical use; emerging Long COVID data],
     [Rapamycin (sirolimus)], [mTOR inhibition → autophagy/mitophagy restored, immune brake], [Medication], [B/C], [Pilot — ~34% ITT response],
     [Metformin], [AMPK activation → mitochondrial biogenesis], [Medication], [B], [Off-label; studied in Long COVID],
@@ -269,7 +273,7 @@ Thromboinflammation, endothelial dysfunction, and microclot formation cause tiss
     [Plasma exchange (TPE)], [Microclot + mediator + autoantibody removal], [Procedure], [C], [Trial — Phase 2 RCT _negative_],
     [Sulodexide], [Endothelial glycocalyx restoration], [Medication], [B], [Experimental],
     [Statin + ARB combination], [Endothelial protection + anti-inflammatory], [Medication], [B], [Experimental],
-    [Triple anticoagulant protocol], [Microclot dissolution (aspirin + clopidogrel + apixaban)], [Medication], [C], [Experimental; _high bleeding risk_],
+    [Triple anticoagulant protocol], [Microclot dissolution (aspirin + clopidogrel + apixaban)], [Medication], [C], [Experimental; _high bleeding risk_; single-group origin (Pretorius/Kell); not guideline-supported; significant medicolegal exposure for prescribing clinicians],
     [Omega-3 (EPA/DHA)], [Anti-platelet aggregation; endothelial membrane protection], [Supplement], [A], [Clinical use],
   ),
   caption: [Treatments targeting endothelial activation and microclotting],
@@ -292,7 +296,7 @@ Orthostatic intolerance, POTS, impaired cerebral autoregulation, and parasympath
     [Midodrine], [α1-agonist → vasoconstriction ↑], [Medication], [B/C], [Clinical],
     [Ivabradine], [HCN channel → HR reduction (POTS)], [Medication], [B], [Clinical, off-label],
     [Propranolol / metoprolol], [β-blocker for hyperadrenergic POTS], [Medication], [B], [Clinical],
-    [High sodium + electrolytes], [Plasma volume loading], [Supplement], [A], [Clinical; 8–12 g sodium daily],
+    [High sodium + electrolytes], [Plasma volume loading], [Supplement], [A], [Clinical; 8–12 g sodium daily; _contraindicated in hypertension, heart failure, renal disease_],
     [Compression garments], [Venous return ↑; orthostatic pooling ↓], [Physical], [A], [Clinical],
     [Stellate ganglion block (SGB)], [Sympathetic denervation C6–C7; vasoconstriction ↓; ANS reset], [Procedure], [B], [Trial — uncontrolled case series; no RCT],
     [tVNS / taVNS], [Parasympathetic tone ↑; sympathetic ↓; HRV ↑], [Neuromodulation], [A], [RCT feasibility; ongoing RCTs],
@@ -335,7 +339,7 @@ Butyrate-producer depletion → intestinal permeability ↑ → LPS translocatio
 === Epigenetic Consolidation
 <sec:map-epigenetic>
 
-DNA methylation changes and histone modifications acquired during the acute phase stabilise gene expression patterns that perpetuate disease. This mechanism explains treatment resistance and the tendency of ME/CFS to persist even when upstream triggers are resolved.
+DNA methylation changes and histone modifications observed in ME/CFS patients may stabilise disease-promoting gene expression patterns. This is a hypothesis, not a confirmed mechanism: the observed methylation differences are cross-sectional and could reflect consequences of illness state, medication, or activity level rather than causal drivers @Trivedi2018methylation. If valid, this mechanism would help explain why some patients who partially respond to Tier 1 interventions do not fully recover. A falsifiable prediction: methylation-stratified treatment trials should show that patients with high "consolidation signatures" fail treatments that low-signature patients respond to.
 
 #figure(
   table(
@@ -350,8 +354,8 @@ DNA methylation changes and histone modifications acquired during the acute phas
   kind: table,
 ) <tab:map-epigenetic>
 
-#open-question(title: [Epigenetic Consolidation: The Largest Therapeutic Gap])[
-Of all documented ME/CFS mechanisms, epigenetic consolidation has the fewest targeted treatment options. No approved therapy has been tested specifically for its epigenetic effects in ME/CFS. Rapamycin and spermidine have relevant mechanisms but have not been studied in this context. This represents one of the most urgent unmet needs in ME/CFS treatment research. Epigenetic modifiers developed for oncology (HDAC inhibitors, DNMT inhibitors) have not entered ME/CFS trials. The identification of specific methylation signatures in ME/CFS @Trivedi2018methylation creates, in principle, measurable targets for future intervention.
+#open-question(title: [Epigenetic Consolidation: A Major Therapeutic Gap])[
+Of all documented ME/CFS mechanisms, epigenetic consolidation has the fewest targeted treatment options. No approved therapy has been tested for its epigenetic effects in ME/CFS. Rapamycin and spermidine have relevant mechanisms but have not been studied in this context. The causal role of epigenetic changes in ME/CFS remains unproven — observed methylation differences @Trivedi2018methylation are cross-sectional and could be consequences rather than causes of disease. If the causal direction were confirmed, epigenetic modifiers (HDAC inhibitors, DNMT inhibitors, dietary polyamines) would become testable candidates. The key open question: are the methylation signatures observed in ME/CFS driving disease persistence, or reflecting it?
 ] <oq:epigenetic-gap>
 
 == Cross-Tier and Mechanism-Agnostic Interventions
@@ -368,8 +372,8 @@ Some interventions target multiple mechanisms simultaneously, or address disease
     [Pacing / energy envelope management], [Prevents Tier 2 amplification cascade; avoids PEM-driven worsening], [A], [Core clinical practice; validated by 2-day CPET @keller2024cpet],
     [Sleep optimisation (environment + schedule)], [Tiers 1+2: CNS recovery, immune regulation, ANS restoration], [A], [Clinical consensus],
     [CPAP (if OSA comorbid)], [Tier 2: sleep fragmentation ↓; dysautonomia ↓; treats comorbidity only], [A/B], [Clinical; does _not_ resolve core ME/CFS],
-    [Mediterranean / anti-inflammatory diet], [Tiers 2: oxidative stress ↓, gut barrier ↑, mast cell load ↓], [A], [Lifestyle; no ME/CFS RCT],
-    [MCT oil], [Ketone substrate; bypasses glycolytic bottleneck], [A], [Supplement],
+    [Mediterranean / anti-inflammatory diet], [Tier 2: oxidative stress ↓, gut barrier ↑, mast cell load ↓], [A], [Lifestyle; no ME/CFS RCT],
+    [MCT oil], [Ketone substrate; bypasses glycolytic bottleneck], [A], [Supplement; no ME/CFS RCT],
     [Rapamycin (sirolimus)], [Tier 1 (immune brake) + Tier 2 (mitophagy, epigenetic aging ↓)], [B/C], [Pilot — ~34% ITT response],
     [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone], [B/C], [Experimental; Long COVID signal],
     [LOLA (L-ornithine L-aspartate)], [Ammonia detoxification + mitochondrial substrate], [A/B], [Experimental],

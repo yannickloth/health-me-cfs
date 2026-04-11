@@ -181,6 +181,7 @@ Each entry follows the format: *What* changed, _why_ it changed
     Motivated by: the causal hierarchy (Chapter @ch:causal-hierarchy) established a tiered classification of
     mechanisms but no chapter translated this into a treatment lookup by mechanism; patients and clinicians
     needed a single cross-reference view before navigating the full treatment chapters.
+    @Scheibenbogen2018immunoadsorption @Cabanas2021 @Trivedi2018methylation @keller2024cpet @Loebel2016 @Maes2009CoQ10.
 
   - *Causal hierarchy analysis: root causes, amplifiers, and consequences*
     (New Chapter 16 in Part II; new Chapter 33 in Part V; hypothesis registry
