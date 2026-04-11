@@ -26,7 +26,7 @@ The presence of a treatment in this table does not constitute a recommendation t
 == Mechanism Overview
 <sec:mechanism-overview>
 
-The table below provides a one-page view of all ME/CFS mechanisms, their causal tier, therapeutic priority, and the number of interventions currently available. Treatment priority reflects two factors: (1) whether targeting the mechanism could produce remission vs. symptom reduction (theoretical), and (2) current evidence base and treatment tractability. *Energy categories* A/B/C refer to the patient energy cost of the intervention, not evidence strength — see Chapter @ch:integrative-treatment for definitions. A* denotes a treatment whose metabolic profile is Category A but that is not yet clinically available (investigational only).
+The table below provides a one-page view of all ME/CFS mechanisms, their causal tier, therapeutic priority, and the number of interventions currently available. Treatment priority reflects two factors: (1) whether targeting the mechanism could produce remission vs. symptom reduction (theoretical), and (2) current evidence base and treatment tractability. *Energy categories* A/B/C refer to the patient energy cost of the intervention, not evidence strength — see Chapter @ch:integrative-treatment for definitions. A#super[\*] denotes a treatment whose metabolic profile is Category A but that is not yet clinically available (investigational only).
 
 #figure(
   table(
@@ -113,7 +113,7 @@ Central nervous system hypometabolism driven by neuroinflammation, neurovascular
     fill: (_, row) => if calc.odd(row) { luma(245) } else { white },
     [*Treatment*], [*Mechanism of action*], [*Category*], [*Energy*], [*Evidence*],
 
-    [MDC002 (Mitodicure)], [Na⁺/K⁺-ATPase + NCLX + NHE1/PDE7 → mitochondrial Ca²⁺ rescue], [Medication], [A*], [Phase I — safety only; no efficacy data; not prescribable],
+    [MDC002 (Mitodicure)], [Na⁺/K⁺-ATPase + NCLX + NHE1/PDE7 → mitochondrial Ca²⁺ rescue], [Medication], [A#super[\*]], [Phase I — safety only; no efficacy data; not prescribable],
     [LDN], [TLR4 antagonism → microglial activation ↓], [Medication], [B], [Clinical, off-label],
     [PEA (palmitoylethanolamide)], [PPAR-α → mast cell + neuroinflammation ↓], [Supplement], [B], [Clinical, off-label],
     [Low-dose aripiprazole], [Dopaminergic / microglial modulation], [Medication], [C], [Clinical, off-label; pharmacogenomics required],
@@ -144,7 +144,7 @@ An evolutionarily conserved metabolic suppression programme — initiated by inf
     fill: (_, row) => if calc.odd(row) { luma(245) } else { white },
     [*Treatment*], [*Mechanism of action*], [*Category*], [*Energy*], [*Evidence*],
 
-    [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A*], [Phase I — safety only; no efficacy data; not prescribable],
+    [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A#super[\*]], [Phase I — safety only; no efficacy data; not prescribable],
     [NAD⁺ precursors (NR/NMN)], [Kynurenine bypass + PARP substrate replenishment], [Supplement], [A], [Clinical use; emerging Long COVID data],
     [Rapamycin (sirolimus)], [mTOR inhibition → autophagy/mitophagy restored, immune brake], [Medication], [B/C], [Pilot — ~34% ITT response],
     [Metformin], [AMPK activation → mitochondrial biogenesis], [Medication], [B], [Off-label; studied in Long COVID],
