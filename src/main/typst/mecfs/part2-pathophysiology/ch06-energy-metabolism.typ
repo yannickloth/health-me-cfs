@@ -1390,83 +1390,107 @@ The vicious cycle model (vascular $\to$ ischemia $\to$ ion dysregulation $\to$ m
 == Summary: Integrated Metabolic Model
 <sec:metabolism-summary>
 
-This chapter and the broader document identify over thirty distinct mechanisms affecting energy creation, delivery, and utilization in ME/CFS. These range from well-established biochemical pathways through documented dysfunctions to emerging hypotheses. The following taxonomy organizes all identified mechanisms by evidence status.
+This chapter and the broader document identify over thirty distinct mechanisms affecting energy creation, delivery, and utilization in ME/CFS. These are not all of the same kind. The taxonomy below organizes them into six conceptually distinct categories: (1) the five normal ATP synthesis pathways that constitute the biochemical machinery of energy production; (2) documented dysfunctions that break or impair that machinery or its prerequisites, subdivided by whether they affect production, delivery, or consumption; (3) hypothesized dysfunctions of the same kind as the documented ones, but not yet confirmed at the same evidential level; (4) normal biological programs that have become pathologically self-sustaining, suppressing energy production as a side effect of their persistence; (5) a proposed compensatory mechanism—a normal pathway that may partially offset specific production failures; and (6) an explanatory framework proposing that the pattern of impairment reflects selective allocation failure rather than global production deficit. Understanding which category a mechanism belongs to matters for treatment in principle, even where validated protocols do not yet exist: a broken enzyme requires replacement or support; a stuck protective program requires an exit signal rather than more substrate; a compensatory pathway may be deliberately amplified; an allocation failure requires routing interventions rather than more fuel. These implications are theoretical—no clinical trial has yet randomized patients by taxonomic category—but they orient the direction of research and constrain which interventions are plausible candidates.
 
 === Normal ATP Synthesis Pathways
 
 Five baseline energy systems supply cellular ATP under normal conditions. All are relevant to ME/CFS because each represents a potential point of failure:
 
-    / *Glycolysis*: Cytoplasmic, anaerobic conversion of glucose to pyruvate yielding 2 ATP and 2 NADH per glucose (Section @sec:atp-synthesis).
-    / *Krebs cycle (TCA cycle)*: Mitochondrial matrix oxidation of acetyl-CoA generating 3 NADH, 1 FADH#sub[2], and 1 GTP per turn (Section @sec:atp-synthesis).
-    / *Electron transport chain and oxidative phosphorylation*: Inner mitochondrial membrane complexes I–V producing 30–32 ATP per glucose via the proton gradient (Section @sec:atp-synthesis).
+    / *Glycolysis*: Cytoplasmic, anaerobic conversion of glucose to pyruvate yielding 2 ATP and 2 NADH per glucose (Section @sec:atp-synthesis).
+    / *Krebs cycle (TCA cycle)*: Mitochondrial matrix oxidation of acetyl-CoA generating 3 NADH, 1 FADH#sub[2], and 1 GTP per turn (Section @sec:atp-synthesis).
+    / *Electron transport chain and oxidative phosphorylation*: Inner mitochondrial membrane complexes I–V producing 30–32 ATP per glucose via the proton gradient (Section @sec:atp-synthesis).
     / *Fatty acid $beta$-oxidation*: Carnitine-shuttle-dependent mitochondrial degradation of long-chain fatty acids into acetyl-CoA units (Section @sec:lipid-metabolism).
     / *Phosphocreatine buffering*: Immediate ATP regeneration from phosphocreatine, operating on a timescale of seconds (Section @sec:normal-metabolism).
 
 === Documented Energy Dysfunctions
 
-The following dysfunctions are supported by peer-reviewed evidence at the level of established or probable findings:
+The following dysfunctions are supported by peer-reviewed evidence at the level of established or probable findings. They are subdivided by what they impair: the biochemical production machinery itself, the delivery of oxygen and signaling that the machinery depends on, or the consumption of ATP by processes that become wasteful sinks. Evidence quality varies across items: some rest on multiple independent cohorts; others (WASF3 pathway, intracellular sodium, AMP/ADP ratio in lymphocytes) currently derive from single studies and await independent replication. See the replication status notes in the body sections for individual items.
+
+==== Production Failures
+
+These dysfunctions directly impair one or more of the five normal pathways above:
 
     / *Impaired mitochondrial ATP production*: Reduced ATP in lymphocytes/PBMCs, abnormal mitochondrial morphology on electron microscopy, and reduced oxygen consumption rates across multiple studies (Section @sec:mito-evidence).
 
-    / *Elevated AMP/ADP with reduced ATP/ADP ratio*: Heng et al.\ 2025 multi-omics study ($n=61$) documented elevated AMP (median 312.2 nM vs 147.2 nM controls) and reduced ATP generation in white blood cells @heng2025mecfs (Section @sec:mito-evidence).
+    / *Elevated AMP/ADP with reduced ATP/ADP ratio*: Heng et al. 2025 multi-omics study ($n=61$) documented elevated AMP (median 312.2 nM vs 147.2 nM controls) and reduced ATP generation in white blood cells @heng2025mecfs (Section @sec:mito-evidence).
 
-    / *WASF3–ER stress–Complex IV pathway*: Viral ER stress elevates WASF3, which translocates to mitochondria and disrupts respiratory chain supercomplex assembly, specifically impairing Complex IV @wang2023wasf3 (Section @sec:mito-damage).
+    / *WASF3–ER stress–Complex IV pathway*: Viral ER stress elevates WASF3, which translocates to mitochondria and disrupts respiratory chain supercomplex assembly, specifically impairing Complex IV @wang2023wasf3 (Section @sec:mito-damage).
 
     / *Reactive oxygen species vicious cycle*: Electron leakage at Complexes I and III (5–10% in ME/CFS vs normal 2%) damages mitochondrial DNA, proteins, and membranes, producing further ROS in a self-amplifying loop (Section @sec:ros).
 
-    / *Nitrosative stress*: Excess NO and peroxynitrite inhibit Complex I, Complex IV, and aconitase, directly impairing both the ETC and TCA cycle (Section @sec:rns).
+    / *Nitrosative stress*: Excess NO and peroxynitrite inhibit Complex I, Complex IV, and aconitase, directly impairing both the ETC and TCA cycle (Section @sec:rns).
 
-    / *Glutathione depletion*: Reduced cortical glutathione correlating with physical functioning ($rho=0.506$) and energy ($rho=0.606$) @Shungu2012glutathione (Section @sec:oxidative-stress).
+    / *Glutathione depletion*: Reduced cortical glutathione correlating with physical functioning ($rho=0.506$) and energy ($rho=0.606$) @Shungu2012glutathione; glutathione is the primary antioxidant protecting ETC complexes from oxidative damage (Section @sec:oxidative-stress).
 
-    / *TCA cycle intermediate deficiencies*: Significantly reduced plasma citrulline, malate, and isocitrate; diagnostic pyruvate/isocitrate and ornithine/citrulline ratios @Yamano2016tca_urea (Chapter @ch:gut-microbiome).
+    / *TCA cycle intermediate deficiencies*: Significantly reduced plasma citrulline, malate, and isocitrate; diagnostic pyruvate/isocitrate and ornithine/citrulline ratios @Yamano2016tca_urea (Chapter @ch:gut-microbiome).
 
     / *Pyruvate dehydrogenase dysfunction*: Impaired conversion of pyruvate to acetyl-CoA at the TCA cycle entry point; thiamine and lipoic acid are cofactors (Section @sec:energy-interventions).
 
     / *Fatty acid oxidation defects*: Reduced carnitine levels, elevated acylcarnitines suggesting incomplete oxidation, and premature shift to glucose utilization during exercise (Section @sec:lipid-metabolism).
 
-    / *CoQ10 deficiency*: Significantly lower plasma CoQ10 with 44.8% of patients below the lowest control value; correlates with fatigue, autonomic symptoms, and cognitive dysfunction @Maes2009CoQ10 (Section @sec:energy-interventions).
+    / *CoQ10 deficiency*: Significantly lower plasma CoQ10 with 44.8% of patients below the lowest control value; CoQ10 is the mobile electron carrier between Complexes II and III in the ETC, and its deficiency directly reduces chain throughput @Maes2009CoQ10 (Section @sec:energy-interventions).
 
-    / *NAD#super[+]/NADH dysregulation*: Abnormal NAD#super[+] metabolism documented in ME/CFS white blood cells, impairing Complex I function, glycolysis, and TCA cycle activity @heng2025mecfs (Section @sec:mito-evidence).
+    / *NAD#super[+]/NADH dysregulation*: Abnormal NAD#super[+] metabolism documented in ME/CFS white blood cells, impairing Complex I function, glycolysis, and TCA cycle activity simultaneously @heng2025mecfs (Section @sec:mito-evidence).
 
-    / *Immune cell metabolic dysfunction*: CD8#super[+] T cells show failed Warburg-effect transition: reduced mitochondrial membrane potential and inability to switch from oxidative phosphorylation to glycolysis upon activation @Mandarano2020 (Chapter @ch:immune-dysfunction).
+    / *Immune cell metabolic dysfunction*: CD8#super[+] T cells show failed Warburg-effect transition: reduced mitochondrial membrane potential and inability to switch from oxidative phosphorylation to glycolysis upon activation @Mandarano2020 (Chapter @ch:immune-dysfunction).
 
-    / *Lactate accumulation and anaerobic shift*: Earlier and greater lactate accumulation during exercise, elevated resting and brain lactate, slower post-exercise clearance, and leftward-shifted anaerobic threshold (Section @sec:carbohydrate).
+    / *Lactate accumulation and anaerobic shift*: Earlier and greater lactate accumulation during exercise, elevated resting and brain lactate, slower post-exercise clearance, and leftward-shifted anaerobic threshold; reflects overflow from glycolysis when the ETC cannot process pyruvate fast enough (Section @sec:carbohydrate).
 
-    / *Brain lactate elevation*: Elevated ventricular and regional brain lactate on MR spectroscopy, with lactate-to-creatine ratio increases in right insula, thalamus, and cerebellum @Shungu2012glutathione (Section @sec:compartmental-energy).
+    / *Brain lactate elevation*: Elevated ventricular and regional brain lactate on MR spectroscopy, with lactate-to-creatine ratio increases in right insula, thalamus, and cerebellum @Shungu2012glutathione; indicates compartment-specific failure of oxidative metabolism in the CNS (Section @sec:compartmental-energy).
 
-    / *Oxygen delivery impairment*: Fibrinaloid microclots ($>$10-fold greater burden), reduced red blood cell mass (93.8% of female patients below normal), impaired flow-mediated dilation, and 91% abnormal cerebral blood flow reduction during tilt testing (Chapter @ch:cardiovascular).
+==== Delivery Failures
 
-    / *Catecholamine deficiency*: Reduced CSF dopamine metabolites (HVA) and norepinephrine metabolites (MHPG) @walitt2024deep, impairing autonomic cardiovascular regulation and energy mobilization on demand (Section @sec:catecholamine-metabolism).
+These dysfunctions do not break the biochemical machinery directly. Instead they impair the upstream prerequisites—oxygen, substrate, and neuroendocrine demand-signaling—without which the five pathways cannot operate at capacity:
 
-    / *Na#super[+]/K#super[+]-ATPase impairment*: Elevated baseline intracellular muscle sodium (12.2 mM vs 9.4 mM, $p=0.003$) with greater post-exercise accumulation, suggesting ion pump failure secondary to ATP deficit @Petter2022sodium (Chapter @ch:supplements).
+    / *Oxygen delivery impairment*: Fibrinaloid microclots (>10-fold greater burden), reduced red blood cell mass (93.8% of female patients below normal), impaired flow-mediated dilation, and 91% abnormal cerebral blood flow reduction during tilt testing collectively reduce the oxygen available to mitochondria regardless of their intrinsic functional state (Chapter @ch:cardiovascular).
 
-=== Hypothesized Energy Mechanisms
+    / *Catecholamine deficiency*: Reduced CSF dopamine metabolites (HVA) and norepinephrine metabolites (MHPG) @walitt2024deep impair autonomic cardiovascular regulation and energy mobilization on demand; this is a failure of the signaling system that routes energy to where it is needed, not of production capacity itself (Section @sec:catecholamine-metabolism).
 
-The following mechanisms are proposed but not yet confirmed. Where explicitly assessed, certainty levels are noted:
+==== Consumption Failures
 
-    / *Selective energy dysfunction (CNS-dependency hypothesis)*: ME/CFS selectively impairs CNS-dependent and demand-responsive processes while sparing autonomous steady-state functions, suggesting an energy _allocation_ problem rather than a global production deficit (Section @sec:selective-energy-dysfunction).
+This dysfunction does not reduce ATP production. Instead it increases wasteful ATP consumption, widening the gap between production and usable supply:
 
-    / *Astrocyte-neuron lactate shuttle dysfunction \normalfont{(certainty 0.35)}*: Neuroinflammation may reprogram astrocytes toward a glycolytic-inflammatory phenotype, reducing lactate transfer to neurons via MCT2/MCT4 downregulation and explaining coexistent elevated brain lactate with cognitive dysfunction (Section @sec:compartmental-energy; Chapter @ch:neurological).
+    / *Na#super[+]/K#super[+]-ATPase impairment*: Elevated baseline intracellular muscle sodium (12.2 mM vs 9.4 mM, $p=0.003$) with greater post-exercise accumulation indicates that the Na#super[+]/K#super[+] pump—itself an ATP consumer, not a producer—is working against a leak rather than restoring resting ion gradients efficiently @Petter2022sodium (Chapter @ch:supplements).
 
-    / *Cell danger response*: Cells remain stuck in a defensive metabolic mode—reduced mitochondrial function, altered purinergic signaling, maintained inflammatory readiness—that evolved as a protective response but fails to terminate @Naviaux2014cdr (Section @sec:metabolic-trap).
+=== Hypothesized Dysfunctions
 
-    / *Hypometabolic dauer state*: ME/CFS as a hypometabolic survival state analogous to the _C. elegans_ dauer state, with ${tilde}$80% of metabolic pathways suppressed and a ${tilde}$2-year threshold separating potentially reversible early disease from entrenched hypometabolism (Section @sec:metabolic-trap).
+The following are proposed failures of the same kinds as the documented dysfunctions above—impairments of production, delivery, or consumption—but not yet confirmed at the same evidential level. Certainty values reflect the classification conventions used throughout this document: ≥ 0.45 warrants a _hypothesis_ designation; < 0.45 a _speculation_.
 
-    / *Ketone bypass hypothesis*: Beta-hydroxybutyrate and acetoacetate may bypass blocked TCA cycle steps and the impaired ANLS by entering neurons directly via MCT1/MCT2, potentially benefiting patients with TCA (but not ETC) defects (Chapter @ch:speculative-hypotheses).
+    / *Astrocyte-neuron lactate shuttle dysfunction (certainty 0.35 — production, compartmental)*: Neuroinflammation may reprogram astrocytes toward a glycolytic-inflammatory phenotype, reducing lactate transfer to neurons via MCT2/MCT4 downregulation. This would constitute a production failure at the compartmental level: glycolysis in astrocytes would continue, but neurons would be denied the lactate they depend on as fuel, explaining coexistent elevated brain lactate with cognitive dysfunction (Section @sec:compartmental-energy; Chapter @ch:neurological).
 
-    / *Purinergic signaling dysregulation*: Extracellular ATP acting as danger signal via sensitized P2X/P2Y receptors may explain delayed PEM through exercise-induced massive inappropriate danger signaling and NLRP3 inflammasome activation (Chapter @ch:speculative-hypotheses).
+    / *Purinergic signaling dysregulation (certainty 0.30 — delivery/signaling)*: Extracellular ATP released during exertion may act as a pathological danger signal via sensitized P2X/P2Y receptors rather than returning to the intracellular ATP pool. This would constitute a delivery failure: ATP is lost to extracellular signaling cascades—including NLRP3 inflammasome activation—rather than being recycled for cellular work, and may explain the delayed PEM timecourse (Chapter @ch:speculative-hypotheses).
 
-    / *Succinate as metabolic danger signal*: Succinate accumulation from impaired oxidative phosphorylation activates NLRP3 inflammasome and stabilizes HIF-1$alpha$, creating a self-reinforcing glycolytic-inflammatory loop (Chapter @ch:symptom-mechanisms).
+    / *Metabolic flexibility loss (certainty 0.40 — production)*: The inability to switch between fuel sources (glucose, fatty acids, ketones) based on availability and demand would constitute a production failure: when one substrate pathway is impaired, a healthy system shifts to alternatives, but this adaptive capacity appears reduced in ME/CFS, leaving cells dependent on whichever pathway happens to be most impaired (Chapter @ch:emerging-therapies).
 
-    / *IDO metabolic trap*: IFN-$gamma$-activated IDO diverts tryptophan to the kynurenine pathway, producing neurotoxic metabolites that perpetuate immune activation, maintaining the metabolic diversion in a self-sustaining loop (Section @sec:metabolic-trap).
+    / *Arginine-citrulline/NO cycle dysfunction (certainty 0.40 — delivery)*: Low citrulline/arginine availability produces substrate-limited NO synthesis, impairing vasodilation and endothelial function. Additionally, NO is required for mitochondrial biogenesis signaling via PGC-1$alpha$ @Yamano2016tca_urea; this dysfunction therefore impairs both acute oxygen delivery and the longer-term capacity to build new mitochondria (Chapter @ch:gut-microbiome).
 
-    / *Metabolic flexibility loss*: Inability to switch between fuel sources (glucose, fatty acids, ketones) based on availability and demand, potentially addressable through time-restricted eating protocols (Chapter @ch:emerging-therapies).
+    / *Thyroid hormone resistance (certainty 0.35 — production, upstream regulation)*: Suboptimal T4→T3 conversion and selenoprotein P autoantibodies @Sun2023selenop impair tissue T3 availability, reducing PGC-1$alpha$-mediated mitochondrial biogenesis, cardiolipin-dependent supercomplex assembly, and ERR$alpha$-coordinated mitophagy. Unlike production failures that damage existing mitochondria, this reduces the rate at which new mitochondria are synthesized—a failure of regenerative capacity rather than acute biochemical function (Section @sec:thyroid-mito-regulation; Chapter @ch:endocrine, Section @sec:thyroid).
 
-    / *Arginine-citrulline/NO cycle dysfunction*: Low citrulline/arginine availability produces substrate-limited NO synthesis, impairing vasodilation, mitochondrial biogenesis (via PGC-1$alpha$), and endothelial function @Yamano2016tca_urea (Chapter @ch:gut-microbiome).
+=== Normal Mechanisms Turned Pathological
 
-    / *Thyroid hormone resistance*: Suboptimal T4$\to$T3 conversion and selenoprotein P autoantibodies @Sun2023selenop impair tissue T3 availability, reducing PGC-1$alpha$-mediated mitochondrial biogenesis, cardiolipin-dependent supercomplex assembly, and ERR$alpha$-coordinated mitophagy---amplifying every mitochondrial vulnerability pathway (Section @sec:thyroid-mito-regulation; Chapter @ch:endocrine, Section @sec:thyroid).
+The following are not failures of the energy machinery in the conventional sense. Each is a normal biological program—one that evolved for protective purposes—that has become self-sustaining and now suppresses energy production as a consequence of its persistence. The distinction matters therapeutically: these programs cannot be treated by supplying more substrate or replacing a broken enzyme. They require a different kind of intervention—a signal that tells the system the danger has passed—and until that signal arrives, they will continue to consume or suppress the very energy they originally evolved to protect.
 
-Therapeutic interventions targeting these energy deficits—including mitochondrial cofactors, substrates, and biogenesis signals—are discussed in Section @sec:energy-interventions and extensively in #link(<part:treatment>)[Part III (Treatment and Management)].
+    / *Cell danger response (certainty 0.40)*: The cell danger response (CDR) is a normal coordinated defensive program: when a cell is threatened, it reduces mitochondrial function, shifts metabolism toward protective inflammatory readiness, and alters purinergic signaling to alert neighboring cells @Naviaux2014cdr. In ME/CFS, this program appears to fail to terminate after the initial trigger resolves—or, under the strongest alternative interpretation, the trigger itself (persistent virus, autoantibodies, microclots) has not resolved, and the CDR continues responding appropriately to an ongoing stimulus. Either interpretation implies chronically suppressed oxidative phosphorylation; they differ in what treatment is required (Section @sec:metabolic-trap).
+
+    / *Hypometabolic dauer state (certainty 0.30)*: The dauer state is a well-characterized survival program in _C. elegans_: when environmental conditions become hostile, the organism suppresses approximately 80% of metabolic activity to conserve resources until conditions improve. The hypothesis is that ME/CFS represents an analogous human hypometabolic survival state, with a ~2-year threshold beyond which the state becomes entrenched and potentially irreversible. As with the CDR, this is not a broken mechanism—it is a working one applied in the wrong context (Section @sec:metabolic-trap).
+
+    / *IDO metabolic trap (certainty 0.35)*: Indoleamine 2,3-dioxygenase (IDO) is a normal immune enzyme: when activated by IFN-$gamma$ during infection, it diverts tryptophan away from serotonin synthesis toward the kynurenine pathway, depleting an amino acid that pathogens need. In ME/CFS, chronic immune activation maintains IDO activity, producing neurotoxic kynurenine metabolites that perpetuate the immune activation that drives IDO—a self-sustaining loop. The IDO pathway is functioning correctly; it is the immune context that maintains it that has become pathological (Section @sec:metabolic-trap).
+
+    / *Succinate as metabolic danger signal (certainty 0.35)*: Succinate is a normal TCA cycle intermediate. When it accumulates—as occurs when oxidative phosphorylation is impaired and the TCA cycle backs up—it acts as a danger signal: it activates the NLRP3 inflammasome and stabilizes HIF-1$alpha$, both of which promote glycolytic-inflammatory metabolism. This is a designed signaling role, but in ME/CFS the impaired ETC creates chronic succinate accumulation, locking cells into a self-reinforcing glycolytic-inflammatory state that further suppresses oxidative metabolism (Chapter @ch:symptom-mechanisms).
+
+=== Proposed Compensatory Mechanism
+
+One mechanism identified in this document is neither a dysfunction nor a pathological program. It is a normal pathway proposed as a potential workaround around specific documented production failures:
+
+    / *Ketone bypass (certainty 0.30)*: Beta-hydroxybutyrate and acetoacetate can enter neurons directly via MCT1/MCT2 transporters and feed into the ETC as acetyl-CoA, bypassing both the TCA cycle entry step (impaired by pyruvate dehydrogenase dysfunction) and the astrocyte-neuron lactate shuttle (potentially impaired by neuroinflammation). This pathway is entirely normal and functional; the hypothesis is simply that it may partially compensate for ME/CFS-specific blockades in patients whose ETC remains sufficiently intact to use the fuel (Chapter @ch:speculative-hypotheses).
+
+=== Explanatory Framework
+
+One item in this taxonomy is not a mechanism at all—neither a dysfunction, a normal program, nor a compensatory pathway. It is a hypothesis about the _pattern_ of which mechanisms are selectively impaired:
+
+    / *Selective energy dysfunction / CNS-dependency hypothesis (certainty 0.40 — interpretive framework, not a testable mechanism)*: ME/CFS selectively impairs CNS-dependent and demand-responsive processes while sparing autonomous steady-state functions—hair growth, basic wound healing, basal organ maintenance—that do not require active CNS demand-signaling. This pattern suggests an energy _allocation_ problem rather than a global production deficit: not that cells cannot make ATP, but that the system cannot route energy appropriately in response to demand. This framework does not replace any of the documented production or delivery failures; it proposes a higher-level explanation for why those failures produce the specific pattern of disability seen clinically, and it implies that treatment requires addressing coordination and routing mechanisms, not only biochemical production (Section @sec:selective-energy-dysfunction).
+
+Therapeutic interventions targeting these energy deficits—including mitochondrial cofactors, substrates, and biogenesis signals—are discussed in Section @sec:energy-interventions and extensively in #link(<part:treatment>)[Part III (Treatment and Management)].
 
 
 
