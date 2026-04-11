@@ -60,7 +60,7 @@ These mechanisms may form a self-reinforcing cycle rather than a simple linear c
 
 A major breakthrough in understanding impaired calcium signaling in ME/CFS immune cells came from research on the TRPM3 ion channel @Sasso2026trpm3. TRPM3 (Transient Receptor Potential Melastatin 3) is a calcium-permeable ion channel, and calcium signaling is essential for healthy immune cell activity—including the degranulation process disrupted in ME/CFS NK cells.
 
-A study conducted by researchers at Griffith University's National Centre for Neuroimmunology and Emerging Diseases (NCNED) confirmed that TRPM3 functions abnormally in immune cells of ME/CFS patients compared to healthy controls. Critically, this finding was validated across multiple independent laboratories separated by over 4,000 kilometers (Gold Coast and Perth, Australia), using gold-standard techniques—demonstrating robust scientific reproducibility.
+A study conducted by researchers at Griffith University's National Centre for Neuroimmunology and Emerging Diseases (NCNED) found that TRPM3 functions abnormally in immune cells of ME/CFS patients compared to healthy controls. This finding was reproduced across two laboratories within the same NCNED network (Gold Coast and Perth, Australia). As noted in the limitation box below, independent replication by groups outside this network has not yet been published; the "4,000 km separation" refers to internal network sites, not independent research groups.
 
 The researchers describe the faulty ion channels as acting like “stuck doors,” preventing cells from receiving the calcium they need for normal function. Calcium signaling is essential for immune cell activity, including NK cell cytotoxic function (degranulation requires calcium influx).
 
@@ -74,7 +74,7 @@ This discovery has several important implications:
 The TRPM3 findings connect to broader ion channel research in ME/CFS and suggest that channelopathy—dysfunction of ion channels—may be a unifying mechanism underlying multiple immune abnormalities observed in the condition.
 
 #limitation(title: [TRPM3 Channelopathy: Single Research Group])[
-TRPM3 ion channel dysfunction in ME/CFS has been characterized primarily by a single research group (Griffith University NCNED). While the multi-site validation (Gold Coast and Perth) strengthens internal reproducibility, independent replication by groups outside this collaboration has not yet been published. The diagnostic biomarker potential, therapeutic implications, and status as a “unifying mechanism” for immune abnormalities remain speculative until independently replicated and mechanistically linked to clinical outcomes in prospective studies. See Appendix @app:research-registry, Section @sec:registry-ncned-trpm3 for current study status and planned LDN trials.
+TRPM3 ion channel dysfunction in ME/CFS has been characterized primarily by a single research group (Griffith University NCNED). While the multi-site validation (Gold Coast and Perth) strengthens internal reproducibility, independent replication by groups outside this collaboration has not yet been published. The diagnostic biomarker potential, therapeutic implications, and status as a “unifying mechanism” for immune abnormalities remain speculative until independently replicated and mechanistically linked to clinical outcomes in prospective studies. *Clinical availability*: TRPM3 testing is not commercially available outside the NCNED research context and cannot be ordered by clinicians for individual patient decision-making. See Appendix @app:research-registry, Section @sec:registry-ncned-trpm3 for current study status and planned LDN trials.
 ]
 
 === Neutrophil and Monocyte Function
@@ -1247,6 +1247,121 @@ Patients and clinicians should be aware of these controversies and the current l
 What proportion of ME/CFS cases have an undiagnosed tick-borne infection as the inciting event or ongoing driver? Given the symptom overlap between PTLDS and ME/CFS, improved diagnostic tools for chronic _Borrelia_, _Bartonella_, and _Babesia_ infections could identify a treatable subset. Key research needs include: development of more sensitive diagnostic assays; prospective studies of tick-borne infection cohorts for ME/CFS development; controlled treatment trials in patients with documented chronic infection.
 ]
 
+=== Intestinal Parasites as Post-Infectious Triggers
+<sec:parasites-post-infectious>
+
+While viral and bacterial triggers of ME/CFS have received substantial research attention, intestinal parasites represent an underexplored but potentially important class of triggering agents. The evidence base is heterogeneous: one large, well-controlled natural experiment provides strong population-level data, while several smaller studies document symptom overlap with contested pathogenicity.
+
+==== The Bergen Giardia Outbreak: A Natural Experiment
+
+The 2004 waterborne outbreak of _Giardia duodenalis_ in Bergen, Norway---affecting 1,300 laboratory-confirmed cases from contaminated drinking water---provides the most rigorous available evidence linking a parasitic infection to ME/CFS onset. Because the exposure was sudden, uniform, and documented, the cohort offers unusually clean causal inference compared to typical retrospective studies. Importantly, the entire evidence base derives from one research group at the University of Bergen; no independent replication in a separate Giardia cohort has been published. The Bergen group's series of longitudinal studies collectively traces the natural history of post-parasitic ME/CFS from the acute phase to a decade later.
+
+*Three-year follow-up.* At three years, chronic fatigue prevalence in exposed individuals substantially exceeded background rates @Wensaas2012giardia5yr. A clinical case series from the same cohort found that at least 5% of all laboratory-confirmed cases developed CFS meeting Fukuda criteria, with a progressive worsening course in the majority (57%) at specialist referral @Naess2012giardia_cfs. The SF-36 profile showed disproportionate impairment in physical functioning, vitality, and social functioning with relatively preserved mental health---a pattern consistent with ME/CFS and distinct from primary depression.
+
+*Five-year follow-up.* A structured multi-specialist evaluation at five years (psychiatry, neurology, and infectious disease) found 41.5% of persistently fatigued patients still met CFS criteria, with a further 13.2% having idiopathic chronic fatigue @Morch2013giardia_5yr. Sleep apnoea and depressive disorders were identified as differential diagnoses in a minority, underscoring that post-parasitic fatigue is not simply depression. Partial natural recovery was observed: 20.8% had resolved at five years, and fatigue scores improved significantly from the three-year mark.
+
+*Six-year controlled prospective follow-up.* The methodologically strongest study in the series---a controlled prospective cohort with 748 exposed individuals and 878 matched population controls---found that at six years, 30.8% of Giardia-exposed reported chronic fatigue symptoms on a postal questionnaire versus controls (relative risk 2.9, 95% CI 2.3--3.4), and IBS was present in 39.4% (RR 3.4, 95% CI 2.9--3.9) @Hanevik2014giardia_6yr. Formal ME/CFS diagnostic criteria were not applied to the full cohort; the outcome measured was self-reported chronic fatigue, not clinically diagnosed ME/CFS. Conditions declined slowly from the three-year peak but remained highly elevated: a nearly threefold excess of chronic fatigue symptom burden six years after documented parasitic infection in a population-matched controlled cohort.
+
+*Ten-year follow-up.* At ten years, 26% of exposed still reported chronic fatigue versus 11% of unexposed controls (OR 3.0); IBS remained 43% versus 14% @Wensaas2018giardia10yr. As with the six-year data, these are self-reported symptom prevalences from a postal questionnaire, not clinical ME/CFS diagnoses. The persistence of excess fatigue burden a full decade after parasite eradication cannot be attributed to ongoing infection.
+
+*Immune mechanism.* Immunological substudies of the Bergen cohort, all from the same Bergen research group, have identified two abnormalities. At five years post-infection, post-infectious CFS patients showed significantly lower NK-cell counts versus non-fatigued Giardia-exposed controls, with NK-cell levels correlating negatively with both fatigue and abdominal symptom severity @Hanevik2012immunophenotype. This parallels the NK cell count reductions documented in ME/CFS from other causes (@sec:nk-cells), though those studies primarily measured cytotoxic function rather than counts. A separate study found elevated soluble CD40 ligand (sCD40L)---a marker of platelet and immune activation---in post-infectious CFS patients versus non-fatigued controls, correlating with current fatigue severity @Hanevik2017cellular_immunity; notably, that same study found no difference in antigen-specific CD4 T-cell responses between groups. Long-term _Giardia_-specific cellular immune responses are also detectable at five years @Bolstad2017giardia_immune. These findings are consistent with immune dysregulation persisting after parasite clearance, though causality has not been demonstrated and all immunological substudies originate from the same Bergen research group (n=15–19 per study), limiting independent replication.
+
+#observation(title: [Parasite-Triggered ME/CFS: Bergen Giardia Cohort])[
+The Bergen waterborne _Giardia_ outbreak constitutes the primary evidence base for parasitic ME/CFS triggers: a defined exposure event, laboratory-confirmed pathogen, matched controls, and longitudinal follow-up to ten years --- all from one research group at the University of Bergen, with no independent replication in a separate Giardia cohort. A controlled prospective study found a threefold excess risk of chronic fatigue symptoms (self-reported, not formally diagnosed ME/CFS) at six years @Hanevik2014giardia_6yr; at ten years, 26% of exposed still had chronic fatigue versus 11% controls @Wensaas2018giardia10yr. At least 5% of all laboratory-confirmed cases developed clinically diagnosed ME/CFS @Naess2012giardia_cfs. Immunological substudies (n=15–19 per study) found reduced NK-cell counts @Hanevik2012immunophenotype and elevated sCD40L @Hanevik2017cellular_immunity persisting years after parasite clearance, consistent with ongoing immune dysregulation @Bolstad2017giardia_immune.
+] <obs:giardia-mecfs>
+
+==== Other Intestinal Parasites with Symptom Overlap
+
+*Cryptosporidium parvum.* A 1-year follow-up of an adult outbreak-associated cohort after acute _Cryptosporidium parvum_ infection found persistent fatigue in 22%, joint pain in 33%, and IBS-consistent symptoms in 28% @Stiff2017cryptosporidium. The multi-system symptom cluster---extending beyond GI symptoms to joint and fatigue phenotypes---is consistent with post-infectious ME/CFS, though formal CFS diagnostic criteria were not applied and follow-up was limited to 12 months. This extends the post-infectious trigger spectrum beyond Giardia to a second waterborne protozoan, though the evidence requires replication with longer follow-up and formal diagnostic ascertainment.
+
+*Blastocystis spp.* _Blastocystis_ is a highly prevalent intestinal protozoan of contested pathogenicity. Some carriers remain entirely asymptomatic, while symptomatic individuals report gastrointestinal and fatigue symptoms. A 2013 clinical letter reported an in-house comparison of ME/CFS patients positive for _Blastocystis_ or _Dientamoeba fragilis_ @Blastocystis2013letter, but no controlled trial data exist in ME/CFS cohorts. The pathogenicity of _Blastocystis_ remains genuinely disputed in the scientific literature, with some evidence suggesting it may be commensal in many hosts, making individual-level attribution difficult.
+
+*Dientamoeba fragilis.* _Dientamoeba fragilis_ follows a similar pattern: associated with gastrointestinal symptoms and fatigue in symptomatic carriers, with disputed pathogenicity in immunocompetent hosts. No ME/CFS-specific controlled studies exist. Diagnosis is complicated by the limited sensitivity of standard stool microscopy compared to PCR-based multiplex testing, though the latter is not routinely ordered during ME/CFS clinical evaluation.
+
+*Toxoplasma gondii.* Latent toxoplasmosis is associated with neuropsychiatric sequelae and should be considered in the differential diagnosis before an ME/CFS diagnosis is established in patients with relevant exposure history. It is not considered an established ME/CFS co-trigger in the current literature.
+
+*Trigger spectrum context.* Parasitic infections represent a minority of ME/CFS triggers. A large multi-country survey of 1,773 ME/CFS patients found that 60.3% reported a preceding infectious illness, with mononucleosis (EBV) the single most common trigger (30% of infections), distributed across more than 100 distinct pathogens @Jason2022triggers; no single pathogen dominates the trigger landscape. The Bergen cohort data illustrate that even relatively uncommon parasitic triggers can generate post-infectious ME/CFS in a substantial minority of exposed individuals.
+
+==== The Inciting Trigger vs. Sustaining Mechanism Distinction
+
+A conceptual distinction is essential for interpreting the parasite literature and for understanding why conventional medicine may appear to "ignore" this field.
+
+Medical management of chronic illness appropriately focuses on _sustaining mechanisms_---what maintains disease activity in an established patient today. A patient with ME/CFS of ten years' duration who tests positive for _Blastocystis_ is unlikely to recover from ME/CFS after eradication, because by this stage the sustaining mechanisms (immune dysregulation, autonomic dysfunction, mitochondrial damage) are hypothesised to be operating independently of the original trigger. From the clinician's perspective, treating the parasite in this context has low expected benefit, and the Bergen data support this: ME/CFS persists a decade after confirmed parasite eradication.
+
+This reasoning is clinically sound for established, longstanding disease. However, it creates a systematic blind spot for two important questions:
+
++ *Parasites as inciting triggers:* A parasite may initiate the post-infectious immune dysregulation cascade that eventually becomes self-sustaining ME/CFS, even if the parasite itself is subsequently cleared. In this model, the parasite is causally essential (it started the process) but therapeutically irrelevant by the time ME/CFS is diagnosed.
++ *The early treatment window:* If parasites act as inciting triggers, aggressive treatment at the time of acute infection---before immune dysregulation becomes self-sustaining---might prevent ME/CFS from establishing. This early therapeutic window is unstudied.
+
+==== Diagnostic Gap and Clinical Implications
+
+A practical diagnostic gap exists: standard stool ova and parasite (O&P) microscopy examination has limited sensitivity for _Dientamoeba fragilis_ and _Blastocystis_. PCR-based multiplex stool testing is substantially more sensitive but is not routinely ordered during ME/CFS clinical evaluation. This creates a systematic underdetection of potentially relevant findings in patients whose ME/CFS onset followed gastrointestinal symptoms.
+
+#open-question(title: [Early Parasite Eradication as ME/CFS Prevention])[
+If intestinal parasites act as inciting triggers for post-infectious ME/CFS via immune dysregulation, does aggressive early treatment of acute parasitic infection reduce subsequent ME/CFS incidence? The Bergen Giardia cohort provides the ideal test case---what proportion of the CFS cases in that cohort received timely, confirmed eradication therapy, and does treatment timing correlate with chronic outcome? A prospective cohort study tracking ME/CFS development after documented gastrointestinal parasitic infection, with early vs. delayed treatment arms, could directly address this therapeutic window hypothesis. No such study has been conducted.
+] <oq:parasite-prevention>
+
+#open-question(title: [Systematic Parasite Screening in ME/CFS Evaluation])[
+What is the prevalence of _Blastocystis_, _Dientamoeba fragilis_, and other intestinal protozoa in ME/CFS patients compared to healthy controls, when assessed by sensitive PCR-based multiplex testing rather than standard microscopy? If prevalence is elevated, does treatment of symptomatic carriers with gastrointestinal phenotype improve ME/CFS outcomes? The absence of such a study is a gap in the differential diagnosis literature, particularly given the well-documented gut-brain axis dysfunction in ME/CFS (@sec:microbiome).
+] <oq:parasite-screening>
+
+==== Emerging Hypotheses from the Parasite–ME/CFS Interface
+
+The Bergen data and the trigger-vs-sustaining framework generate several mechanistically grounded hypotheses that connect intestinal parasitic infection to known ME/CFS pathways.
+
+#speculation(title: [Molecular Mimicry: Giardia VSPs and Autonomic Receptor Autoimmunity])[
+*Certainty: 0.30.* Mechanistically coherent and consistent with the established autoimmune hypothesis for ME/CFS (@sec:autoantibodies), but no epitope homology data or autoantibody profiling in Bergen cohort patients has been published. Certainty is limited by absence of direct evidence.
+
+_Giardia duodenalis_ (syn. _G. lamblia_) expresses a large family of variant-specific surface proteins (VSPs) that undergo rapid antigenic variation to evade immune clearance. We speculate that certain VSP epitopes may share structural homology with human G-protein-coupled receptor epitopes — particularly muscarinic and beta-2 adrenergic receptors already implicated in ME/CFS autoimmunity @Loebel2016. Acute _Giardia_ infection could prime autoreactive B-cell clones via molecular mimicry; after parasite clearance, these clones might persist and produce receptor-blocking autoantibodies, driving the autonomic and vascular dysfunction of ME/CFS. This model would explain why post-Giardia ME/CFS clinically resembles post-viral ME/CFS: both would converge on the same GPCR autoimmune endpoint via different antigenic routes.
+
+*Testable predictions:* (1) Anti-muscarinic and anti-β2-adrenergic receptor autoantibodies are elevated in Bergen cohort ME/CFS patients vs non-ME/CFS exposed and unexposed controls, replicating the Loebel 2016 pattern in a parasitically triggered cohort. (2) VSP structural homology to human GPCR epitopes is detectable by computational proteomics (e.g., BLAST, HHpred) at an E-value threshold ≤ 1×10⁻⁴; failure to detect homology above this threshold at both sequence and predicted-structure levels constitutes disconfirmation of this specific mechanism. (3) Immunoadsorption produces clinical improvement in post-Giardia ME/CFS patients with confirmed elevated GPCR autoantibodies, as has been shown for other ME/CFS autoimmune subgroups @Scheibenbogen2018immunoadsorption.
+] <hyp:giardia-molecular-mimicry>
+
+#speculation(title: [Post-Parasitic Kynurenine Shunt: IDO1 as Sustained Neuroinflammatory Driver])[
+*Certainty: 0.35.* The IDO1–kynurenine axis has been implicated in ME/CFS neuroinflammation in preliminary studies, and IDO1 upregulation during intestinal parasite infection has been proposed mechanistically, but no data directly link persistent IDO1 upregulation to post-Giardia ME/CFS specifically.
+
+Intestinal parasite infection, including _Giardia_, is hypothesised to upregulate indoleamine 2,3-dioxygenase (IDO1) in intestinal macrophages---the rate-limiting enzyme diverting tryptophan into the kynurenine pathway rather than toward serotonin synthesis---though direct demonstration in the Bergen cohort is lacking. The kynurenine pathway is already implicated in ME/CFS: excess quinolinic acid (a neurotoxic NMDA receptor agonist) and deficient serotonin precursor availability are proposed contributors to cognitive dysfunction, fatigue, and disordered sleep (@sec:ch15-kynurenine). We speculate that parasitic infection may epigenetically prime IDO1 expression in gut-associated macrophages into a durably upregulated state, by analogy with the H3K4me3-mediated trained innate immunity mechanism described for other macrophage-activating stimuli @Netea2016trained; the specific H3K4me3/IDO1 connection has not been demonstrated in the context of Giardia infection. After parasite clearance, persistently elevated IDO1 activity maintains a chronic kynurenine shunt — explaining ME/CFS fatigue, cognitive dysfunction, and neuroinflammation as downstream sequelae of a gut enzyme reprogrammed by an infection that is long gone.
+
+*Testable predictions:* (1) Serum kynurenine/tryptophan ratio is elevated in Bergen cohort ME/CFS patients vs non-ME/CFS exposed at 5 and 10 years. (2) H3K4me3 enrichment at the _IDO1_ promoter in intestinal macrophage biopsies is greater in post-Giardia ME/CFS patients than controls. (3) IDO1 inhibitors (e.g., epacadostat) reduce kynurenine/tryptophan ratio and improve cognitive symptoms in post-parasitic ME/CFS.
+] <hyp:parasite-ido1-kynurenine>
+
+#open-question(title: [Secretory IgA Deficiency as ME/CFS Conversion Risk Factor])[
+Selective or partial secretory IgA (sIgA) deficiency predisposes to protracted and recurrent _Giardia_ infection. If sub-clinical mucosal IgA insufficiency — not reaching the threshold for clinical diagnosis of selective IgA deficiency, but functionally reduced at intestinal mucosal surfaces — is more prevalent in individuals who converted to ME/CFS after Bergen Giardia exposure, this would: (1) identify a measurable immunogenetic risk factor for parasite-triggered ME/CFS, (2) explain the ~5% conversion rate, and (3) identify a potential prevention target. Serum IgA and secretory IgA measurement in the Bergen cohort ME/CFS subgroup vs non-converters would directly test this at low cost.
+] <oq:siga-parasite-mecfs>
+
+#speculation(title: [Mucosal Checkpoint Failure: GALT NK Depletion Permits Autoreactive Escape])[
+*Certainty: 0.20.* Mechanistically coherent but entirely inferential; no direct evidence from ME/CFS or post-Giardia studies. Speculative integration of Bergen NK findings with GALT immunotolerance biology.
+
+_Giardia_ colonises the duodenum and proximal jejunum — the anatomical site of the intestinal immune checkpoint where NK cells in the gut-associated lymphoid tissue (GALT) normally suppress autoreactive lymphocyte clones. The Bergen immunophenotyping data show chronically reduced peripheral NK cell counts in post-infectious ME/CFS patients @Hanevik2012immunophenotype. We speculate that GALT-resident NK cell depletion during or after Giardia infection may impair this local tolerogenic checkpoint. Giardia cysteine proteases are known to degrade secretory IgA, reducing a key mucosal barrier; combined with NK depletion, autoreactive clones primed by parasite antigens (potentially via molecular mimicry as in @spec:galt-checkpoint-failure) could escape into systemic circulation, driving GPCR autoimmunity or other autoimmune mechanisms observed in ME/CFS (@sec:autoantibodies). This "mucosal checkpoint failure" model would predict that post-Giardia ME/CFS patients show evidence of a broader autoimmune diathesis, not limited to GPCR antibodies.
+
+*Testable predictions:* (1) GALT NK cell counts (intestinal biopsy) are lower in post-Giardia ME/CFS patients vs recovered Giardia-exposed controls. (2) A broader panel of autoantibodies (ANA, anti-thyroid, anti-GPCR) is elevated in post-Giardia ME/CFS vs post-Giardia non-CFS. (3) Reconstitution of mucosal NK cell function (mechanism to be defined) reduces autoantibody titres in a relevant animal model.
+] <spec:galt-checkpoint-failure>
+
+
+#speculation(title: [Post-Parasitic Mast Cell Priming as MCAS–ME/CFS Overlap Driver])[
+*Certainty: 0.20.* Based on known Giardia–mast cell biology and the documented MCAS–ME/CFS comorbidity, but no study has examined mast cell phenotype or tryptase levels in the Bergen cohort or any post-parasitic ME/CFS population.
+
+Acute _Giardia_ infection induces significant intestinal mast cell degranulation as part of the innate immune response to luminal parasites. We speculate that in a subset of susceptible individuals, this acute mast cell activation permanently primes intestinal mast cell populations toward hyper-reactivity: a lowered degranulation threshold and elevated baseline tryptase. This post-parasitic mast cell sensitisation would clinically manifest as Mast Cell Activation Syndrome (MCAS, @sec:allergies-mast-cells), which carries substantial phenotypic overlap with ME/CFS (fatigue, cognitive dysfunction, orthostatic intolerance, chemical sensitivities). Under this model, a proportion of post-Giardia ME/CFS patients may be post-parasitic MCAS cases in which mast cell mediators — histamine, prostaglandins, PAF — drive autonomic dysfunction, neuroinflammation, and immune dysregulation. The treatment implication is testable: mast cell stabilisers (cromolyn sodium, ketotifen) and combined H1/H2 antihistamine blockade represent low-risk interventions that could be trialled in post-parasitic ME/CFS patients with clinical MCAS features.
+
+*Testable predictions:* (1) Serum tryptase and urinary prostaglandin D₂ metabolites are elevated in post-Giardia ME/CFS patients vs post-Giardia non-CFS and unexposed controls. (2) The proportion of ME/CFS patients meeting MCAS criteria (AAAAI 2020 consensus) is higher among those with post-parasitic onset than among those with post-viral onset. (3) H1/H2 antihistamine + cromolyn sodium trial produces symptom improvement specifically in post-parasitic ME/CFS patients with elevated baseline tryptase.
+] <spec:parasite-mcas-priming>
+
+
+#open-question(title: [Duodenal Microbiome Disruption as Sustaining Mechanism in Post-Parasitic ME/CFS])[
+_Giardia_ selectively colonises the proximal small intestine — a region with normally sparse, carefully regulated microbiota that is distinct from the colonic microbiome typically studied in ME/CFS research. Wensaas et al.\ 2018 documented persistent duodenal histological changes (villous atrophy, intraepithelial lymphocytes) in a subset of Bergen cohort patients at ten years @Wensaas2018giardia10yr. We hypothesise that Giardia infection may permanently shift the small intestinal (duodenal) microbiome composition — reducing butyrate-producing species and increasing LPS-presenting gram-negative bacteria — resulting in chronic low-grade LPS translocation, TLR4 activation, and systemic neuroinflammation as a sustaining ME/CFS mechanism. This would connect the parasite trigger mechanistically to the gut–brain axis and microbiome abnormalities documented in ME/CFS (@sec:microbiome). Unlike colonic microbiome studies (which have been conducted in ME/CFS, see @sec:microbiome), duodenal microbiome profiling via duodenal aspirate or proximal small-bowel biopsy has not been performed in any post-parasitic ME/CFS cohort.
+] <oq:duodenal-microbiome>
+
+
+#open-question(title: [Bergen Biobank Recontact: Maximising the Natural Experiment])[
+The Bergen Giardia cohort represents one of the highest-value underutilised research resources in ME/CFS science: a cohort with a known exposure date, laboratory-confirmed pathogen, longitudinal clinical follow-up to 10 years, and a well-characterised PI-CFS subgroup. Existing studies have measured cytokine profiles, NK counts, sCD40L, and cellular immune responses — but the cohort has not been systematically interrogated for: (1) GPCR autoantibody panels (anti-muscarinic, anti-β2-adrenergic) as in @spec:galt-checkpoint-failure; (2) duodenal biopsy for epigenetic profiling (H3K4me3 at IDO1, IL-6, and TNFα promoters); (3) small intestinal microbiome composition by shotgun metagenomic sequencing; (4) serum tryptase and urinary mast cell mediators; (5) secretory IgA levels. Recontacting surviving PI-CFS patients and matched non-CFS exposed controls for a cross-sectional biomarker panel study would simultaneously test multiple mechanistic hypotheses at low marginal cost, given that the cohort is already characterised. This is likely the highest return-on-investment study available in post-parasitic ME/CFS research.
+] <oq:bergen-biobank-recontact>
+
+
+#open-question(title: [Cryptosporidium Long-Term Cohort Study: Generalising Beyond Giardia])[
+The Stiff 2017 data establish that 22% of Cryptosporidium parvum outbreak survivors report persistent fatigue at 12 months @Stiff2017cryptosporidium, but follow-up was insufficient and formal ME/CFS criteria were not applied. A Bergen-style prospective controlled cohort study following a documented Cryptosporidium outbreak for 3–10 years with formal ME/CFS diagnostic ascertainment would determine: (1) whether the Giardia findings generalise to a second apicomplexan protozoan; (2) whether the ME/CFS conversion rate differs between parasite species; (3) whether the immunological profile (NK cells, sCD40L, antigen-specific responses) recapitulates the Bergen findings or differs systematically. Given that Cryptosporidium outbreaks occur recurrently in Europe and North America, an opportunistic prospective cohort design is feasible. No such study has been initiated.
+] <oq:cryptosporidium-longitudinal>
+
+
 === Infection-Induced Cumulative Damage and Disease Progression
 
 The progressive, often step-wise deterioration seen in many ME/CFS patients following repeated infections or viral reactivation suggests that each infectious event produces cumulative, irreversible damage rather than merely triggering reversible inflammation.
@@ -1901,6 +2016,64 @@ Links between allergy and ME/CFS @Wirth2023 @Frioni2025MCAS:
     - Elevated IgE in subsets
     - Mast cell dysfunction @Hardcastle2016
     - Neurogenic inflammation (sensory nerve-mast cell interactions)
+
+== Virus-Induced Endothelial Senescence
+<sec:endothelial-senescence>
+
+Nunes et al.\ (2026) @Nunes2026endothelialSenescence proposed a unifying mechanistic framework in which acute viral infection triggers endothelial cell senescence at multiple tissue sites, and an already-dysfunctional immune system fails to clear these senescent cells, establishing a self-perpetuating pathological loop that drives ME/CFS and Long COVID.
+
+=== The Senescence Mechanism
+
+Acute viral infection — including SARS-CoV-2, EBV, and HHV-6, all documented triggers of ME/CFS — induces endothelial cell senescence at the blood-brain barrier, cerebral arteries, gastrointestinal microvasculature, and skeletal muscle capillaries. Senescent endothelial cells are not simply dormant; they develop a *senescence-associated secretory phenotype (SASP)* that renders them actively harmful:
+
+    - *Proinflammatory*: SASP includes IL-6, IL-8, TNF-$alpha$, and other cytokines that sustain chronic inflammation
+    - *Pro-oxidative*: Elevated reactive oxygen species from senescent cells damage adjacent endothelium
+    - *Procoagulant*: Upregulation of PAI-1 and tissue factor shifts the local coagulation balance toward thrombosis and fibrin microclot formation
+    - *Vasoconstrictive*: Reduced nitric oxide production and elevated endothelin-1 shift vascular tone toward constriction, impairing tissue perfusion
+    - *Adhesion-promoting*: Upregulation of ICAM-1, VCAM-1, and E-selectin promotes leukocyte adhesion and further endothelial activation
+
+=== The Immune Clearance Failure
+
+In healthy subjects, senescent cells are recognised and cleared by NK cells and cytotoxic T cells. In ME/CFS, this clearance mechanism is specifically impaired at both effector arms:
+
+    - *NK cell dysfunction*: The well-documented reduction in NK cell cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKmeta; Section @sec:nk-cells) prevents efficient recognition and elimination of SASP-producing endothelial cells
+    - *T cell exhaustion*: Chronic stimulation exhausts cytotoxic T cell responses (Section @sec:t-cells), further reducing senescent cell clearance capacity
+
+The result is a bidirectional amplifying loop: SASP from senescent endothelial cells drives cytokine-mediated suppression of NK and T cell function, which in turn prevents clearance of senescent cells, which continue to produce SASP. Once established, this loop is self-sustaining regardless of whether the initial viral trigger is still present.
+
+=== Tissue-Specific Manifestations
+
+The tissue distribution of endothelial senescence maps coherently onto ME/CFS symptom clusters:
+
+    - *BBB and cerebral arteries*: Impaired cerebral blood flow and neuroinflammatory signaling → cognitive impairment, brain fog, headache
+    - *Skeletal muscle microvasculature*: Reduced capillary perfusion → exercise intolerance, muscle pain, post-exertional malaise
+    - *Gastrointestinal microvasculature*: Gut barrier dysfunction, mucosal inflammation → IBS-type symptoms, food intolerances
+    - *Systemic microvasculature*: Chronic low-grade SASP-driven inflammation → immune dysregulation, fatigue amplification
+
+=== Therapeutic Implications: Senolytics
+
+If senescent endothelial cells are causal rather than epiphenomenal, senolytic drugs — agents that selectively eliminate senescent cells — represent a rational therapeutic target. The combination of *dasatinib* (a tyrosine kinase inhibitor) and *quercetin* (a flavonoid) has shown senolytic efficacy in animal models and early human trials for other conditions (idiopathic pulmonary fibrosis, diabetic kidney disease). Neither has been tested in ME/CFS or Long COVID at the time of writing.
+
+The mechanistic prediction is that reducing the senescent cell burden would:
+1. Attenuate the SASP-driven endothelial dysfunction and procoagulant state
+2. Relieve the SASP-mediated suppression of NK and T cell function, enabling immune system recovery
+3. Reduce chronic low-grade inflammation and its metabolic cost
+
+This framework also explains why previous immunomodulatory trials targeting cytokines (anakinra) or B cells (rituximab) produced limited benefit: they addressed downstream SASP products without eliminating the senescent cell source.
+
+#hypothesis(title: [Senescent Endothelial Cell Burden as a Central Maintaining Mechanism])[
+Virus-induced endothelial senescence and the consequent SASP create a self-perpetuating pathological state that maintains ME/CFS independently of the initial viral trigger. NK cell and T cell dysfunction in ME/CFS prevent senescent cell clearance, establishing a bidirectional amplifying loop between immune dysfunction and endothelial SASP @Nunes2026endothelialSenescence.
+
+_Certainty: 0.40._ The mechanistic logic is compelling and each component (NK dysfunction, T cell exhaustion, endothelial SASP biology) is individually well-supported. The central limitation is that endothelial senescence has not yet been directly measured in ME/CFS patient tissue (biopsy or imaging). The framework is currently theory-level, not yet empirically established in this specific disease context.
+
+*Falsifiable predictions:*
+    + Skeletal muscle or skin punch biopsies from ME/CFS patients should show elevated p21, p16INK4a, and SA-$beta$-galactosidase staining in capillary endothelial cells compared to healthy controls
+    + Plasma SASP markers (GDF-15, PAI-1, syndecan-1 as glycocalyx shedding index) should be elevated and correlate with disease severity
+    + Senolytic intervention (dasatinib + quercetin, or navitoclax) should reduce endothelial dysfunction markers (FMD, EndoPAT), SASP cytokines, and ME/CFS symptom burden in a prospective trial
+    + NK cell cytotoxicity restoration (via LDN, TRPM3 modulators, or low-dose IL-2) should be associated with reduced circulating SASP markers over time
+
+*Limitations:* Review/theory paper — endothelial senescence not yet directly measured in ME/CFS tissue; senolytic trials in ME/CFS are pending; the framework does not resolve whether immune dysfunction or endothelial senescence is the primary initiating event.
+] <hyp:endothelial-senescence-loop>
 
 == Summary: Integrated Model of Immune Dysfunction
 <sec:immune-summary>

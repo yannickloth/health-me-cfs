@@ -535,20 +535,20 @@ Additionally, the mecfsscience.org analysis#footnote[mecfsscience.org is a non-p
 The two-day CPET is therefore best understood as a research tool demonstrating the biological reality of PEM at the group level, rather than as a clinical diagnostic test for individual patients.
 ]
 
-===== Deconditioning Cannot Explain ME/CFS Exercise Intolerance
+===== Deconditioning Alone Cannot Explain ME/CFS Exercise Intolerance
 <sec:deconditioning-refutation>
 
-A persistent alternative explanation for exercise intolerance in ME/CFS is that patients are merely deconditioned from inactivity. NASA bed rest studies provide a direct test of this hypothesis @MECFSScience2024deconditioning. In controlled bed rest experiments, prolonged immobilisation produces measurable deconditioning---but the resulting phenotype differs qualitatively from ME/CFS:
+A persistent alternative explanation for exercise intolerance in ME/CFS is that patients are merely deconditioned from inactivity. Note that deconditioning may be a _contributing_ factor (as discussed above in the mitophagy section, which describes deconditioning as both a consequence and a cause of mitochondrial quality control failure through reduced AMPK signalling). The claim examined here is the stronger one: whether deconditioning is a _sufficient_ explanation. NASA bed rest studies provide a direct test of this stronger claim @MECFSScience2024deconditioning. In controlled bed rest experiments, prolonged immobilisation produces measurable deconditioning---but the resulting phenotype differs qualitatively from ME/CFS:
 
     - *Magnitude:* Bed rest deconditioning produces mild fatigue that is readily distinguished from the profound energy failure in ME/CFS
-    - *Reversibility:* Deconditioning reverses rapidly with reconditioning programmes; ME/CFS exercise intolerance does not respond to graded exercise and may worsen (see Chapter @ch:symptom-management for evidence against GET)
+    - *Reversibility:* Deconditioning reverses rapidly with reconditioning programmes; ME/CFS exercise intolerance shows no improvement on objective measures (actometry, Day 2 CPET) with graded exercise, and many patients report worsening — though some report subjective improvement on self-rated outcomes in unblinded trials (see Chapter @ch:symptom-management for evidence discussion)
     - *VO#sub[2]max range:* ME/CFS patients' aerobic capacity typically falls in the 10th--25th percentile of population norms---reduced, but within the range of sedentary individuals rather than in the severely deconditioned range @MECFSScience2024deconditioning @keller2024cpet. This overlap complicates the distinction: the VO#sub[2]max values of ME/CFS patients and sedentary but healthy controls overlap substantially, meaning that aerobic capacity alone cannot differentiate between deconditioning and ME/CFS-specific pathology. The Day 2 CPET decline (Achievement @ach:two-day-cpet) provides the additional discriminating evidence.
     - *Birth cohort evidence:* As reviewed by mecfsscience.org, prospective birth cohort studies show no association between pre-illness physical activity levels and subsequent development of ME/CFS, arguing against a deconditioning pathway @MECFSScience2024deconditioning
 
-===== The Boom-and-Bust Myth
+===== The Boom-and-Bust Model: Accelerometer Evidence
 <sec:boom-bust-myth>
 
-The "boom-and-bust" behavioural model posits that ME/CFS patients alternate between overexertion on "good days" and prolonged recovery, maintaining illness through a maladaptive activity pattern. This model underpins cognitive behavioural therapy (CBT) approaches and graded exercise therapy (GET) recommendations. However, multiple accelerometer studies measuring objective physical activity patterns have found no support for this model @MECFSScience2024boombust:
+The "boom-and-bust" behavioural model posits that ME/CFS patients alternate between overexertion on "good days" and prolonged recovery, maintaining illness through a maladaptive activity pattern. This model has informed some cognitive behavioural therapy (CBT) approaches and graded exercise therapy (GET) recommendations, though proponents of these approaches also cite deconditioning and fear-avoidance models as complementary rationales. Multiple accelerometer studies measuring objective physical activity patterns have not found boom-and-bust cycling as the dominant activity pattern in established ME/CFS patients @MECFSScience2024boombust:
 
     - Objective activity monitoring shows ME/CFS patients maintain remarkably stable, low activity levels rather than the peaks and troughs predicted by boom-and-bust theory
     - Symptom exacerbations (crashes) occur without preceding activity spikes, indicating they reflect PEM biology triggered by normal daily activities rather than behavioural overexertion
@@ -1250,9 +1250,21 @@ Wust et al. @Wust2024capillary conducted electron microscopy studies of muscle 
 
 Godlewska et al. @Godlewska2025MRS used 7-Tesla magnetic resonance spectroscopy (7T MRS) in 24 ME/CFS patients to measure brain lactate levels at high spatial resolution. They found elevated brain lactate in the pregenual anterior cingulate cortex (pACC) and dorsal anterior cingulate cortex (d ACC)—regions critical for mood, pain processing, and autonomic regulation. Elevated brain lactate reflects anaerobic metabolism in brain tissue, consistent with localized microvascular insufficiency in these regions.
 
-=== Integration: Substrate Delivery Failure
+=== Integration: Substrate Delivery Failure and Vascular-Primary Causation
 
-Together, these findings identify a pre-mitochondrial energy bottleneck: endothelial dysfunction reduces perfusion pressure, RBC deformability limits capillary transit, structural capillary pathology blocks oxygen diffusion, and localized brain insufficiency impairs central regulatory systems. Cells cannot generate energy efficiently when they cannot access substrates, regardless of mitochondrial capacity. This substrate delivery failure occurs independent of and before any mitochondrial defect.
+Together, these findings identify a pre-mitochondrial energy bottleneck: endothelial dysfunction reduces perfusion pressure, RBC deformability limits capillary transit, structural capillary pathology blocks oxygen diffusion, and localised brain insufficiency impairs central regulatory systems. Cells cannot generate energy efficiently when they cannot access substrates, regardless of mitochondrial capacity.
+
+A critical question for both mechanistic understanding and therapeutic targeting is whether vascular oxygen delivery failure *causes* mitochondrial dysfunction or results from it. The 2022--2025 literature increasingly supports vascular pathology as primary, with mitochondrial damage as the downstream consequence of chronic ischaemia/reperfusion.
+
+Scheibenbogen and Wirth (2024) @ScheibenbogenWirth2024sarcopenia proposed an explicit temporal model: early post-COVID syndrome is dominated by microvascular disturbance (microclots, inflammatory capillary changes) with mitochondrial damage appearing later and selectively in patients who develop ME/CFS. The proposed causal chain is: capillary hypoperfusion $arrow.r$ ischaemia/reperfusion $arrow.r$ anaerobic metabolism $arrow.r$ proton accumulation $arrow.r$ NHE1 sodium influx $arrow.r$ NCX1 reversal $arrow.r$ mitochondrial Ca#super[2+] overload $arrow.r$ mitochondrial structural damage. Once mitochondria are damaged, the loop becomes self-sustaining via ROS-mediated worsening of endothelial function and reduced ATP availability for ion pump maintenance (Section @sec:sodium-calcium-cascade).
+
+Three independent lines of interventional and structural evidence support vascular primacy:
+
+    - *Structural precedence*: Electron microscopy shows capillary basement membrane thickening (collagen IV deposition) in ME/CFS skeletal muscle @Wust2024capillary — a structural change that precedes and imposes mechanical limits independent of mitochondrial state
+    - *Cell-autonomous RBC oxygen sensing failure*: ME/CFS RBCs fail to sense and respond to tissue hypoxia by accelerating capillary transit @GuoRBC2025microfluidic, a defect that is independent of mitochondrial function in the target tissue
+    - *Interventional evidence*: Pharmacological correction of preload failure (pyridostigmine) improves peak VO#sub[2] and cardiac output in ME/CFS @Joseph2022pyridostigmine — a vascular-targeted intervention producing functional improvement without directly targeting mitochondria
+
+These data do not exclude mitochondrial primary dysfunction in all patients, but they challenge the assumption that vascular abnormalities are secondary epiphenomena. For therapeutic purposes, the distinction matters: a patient whose primary lesion is capillary ischaemia requires a different intervention strategy than one whose primary lesion is mitochondrial supercomplex disruption. The acquired ischaemic mitochondrial myopathy (AIMM) framework proposed by Scheibenbogen and Wirth frames ME/CFS as arising from a primary vascular event producing acquired — and therefore potentially reversible — mitochondrial damage, with important implications for ion homeostasis restoration therapies (Section @sec:sodium-calcium-cascade).
 
 == Energy Utilization Beyond ATP Production
 <sec:energy-utilization>

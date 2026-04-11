@@ -6282,3 +6282,86 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Key Finding:*: 8-week IMT pilot RCT (n=12 ME/CFS). PEM-avoiding design (frequency, not effort). Improved: inspiratory muscle pressure, 6MWT, resting HR, HRV, sleep. Additional ME/CFS-specific improvements: vascular function, COMPASS-31 autonomic score, pain. No PEM exacerbations.
     / *Certainty:*: 0.35 — pilot (n=12); no sham comparator; positive signal warrants definitive trial
     / *Integrated into:*: Chapter 18 (@sec:imt-mecfs)
+
+// =============================================================================
+
+== Sigma-1 Receptor Agonism, ER Stress, and Fluvoxamine in Long COVID / ME/CFS
+<sec:bib-sigma1-fluvoxamine>
+// =============================================================================
+
+=== Reis et al.\ 2026 — REVIVE-TOGETHER RCT: Fluvoxamine for Long COVID Fatigue
+
+    / *Full Citation:*: Reis G, Silva EASM, Silva DCM, Thabane L, et al.\ The Effect of Fluvoxamine and Metformin for Fatigue in Patients With Long COVID: An Adaptive Randomized Trial. _Annals of Internal Medicine_. 2026.
+    / *DOI:*: #link("https://doi.org/10.7326/ANNALS-25-03959")[10.7326/ANNALS-25-03959]
+    / *Published:*: March 31, 2026
+    / *Trial Name:*: REVIVE-TOGETHER
+    / *Study Design:*: Bayesian adaptive platform RCT, 3-arm (fluvoxamine vs.\ metformin vs.\ placebo)
+    / *Sample Size:*: 399 adults; Long COVID fatigue ≥90 days post-confirmed SARS-CoV-2, Brazil
+    / *Duration:*: 60 days treatment, 90 days follow-up
+    / *Key Findings:*:
+
+        - Primary outcome (FSS day 60): fluvoxamine −0.43 (95% CrI −0.80 to −0.07); 99.0% posterior probability of superiority over placebo
+        - Day-90 follow-up: −0.58 (CrI −0.98 to −0.16); 99.7% posterior probability — effect sustained after stopping
+        - Quality of life (EQ-5D-5L): improvements at days 30, 60, and 90
+        - Metformin: no benefit (mean diff −0.03; 56.0% PP); arm halted early for futility
+        - Adverse events: fluvoxamine 20.0% vs.\ metformin 28.8% vs.\ placebo 29.7%
+        - No biomarkers measured; sigma-1/neuroinflammation mechanism not directly tested
+
+    / *Conclusion:*: Fluvoxamine produces statistically robust reduction in Long COVID fatigue; metformin does not. Mechanism attributed to non-SERT pharmacology (sigma-1 agonism, ER stress suppression, ASM inhibition) but not empirically tested in the trial.
+    / *Limitations:*: Baseline imbalance (placebo higher baseline fatigue and proportion female); differential dropout (13% fluvoxamine vs.\ 6% placebo at day 90); modest absolute effect size; CYP1A2/caffeine confound not addressed; Long COVID population, not formally ME/CFS; PEM, cognitive outcomes, and orthostatic intolerance not assessed.
+    / *Certainty:*: 0.65 (strong Bayesian RCT; mechanistic attribution remains uncertain; methodological caveats temper)
+    / *Integrated into:*: Chapter 18 (@sec:sigma1-fluvoxamine)
+
+=== Hashimoto 2021 — Sigma-1 Receptor as Drug Repurposing Target in COVID-19
+
+    / *Full Citation:*: Hashimoto K. Repurposing of CNS drugs to treat COVID-19 infection: targeting the sigma-1 receptor. _European Archives of Psychiatry and Clinical Neuroscience_. 2021;271(2):249--258.
+    / *DOI:*: #link("https://doi.org/10.1007/s00406-020-01231-x")[10.1007/s00406-020-01231-x]
+    / *PMID:*: 33159562
+    / *Key Findings:*:
+
+        - Fluvoxamine has the highest S1R affinity among commercially available SSRIs: Ki ≈ 36 nM (vs.\ 240 nM fluoxetine; >4,000 nM sertraline/paroxetine)
+        - S1R agonism stabilises ER proteostasis; suppresses IRE1α-mediated splicing of XBP-1 mRNA, dampening the unfolded protein response
+        - S1R agonism attenuates downstream NF-κB-driven cytokine storm (IL-6, TNF-α)
+        - Theoretical basis for class-within-class difference in SSRI efficacy on COVID/Long COVID outcomes
+
+    / *Conclusion:*: Among SSRIs, fluvoxamine's unique S1R affinity profile makes it the strongest candidate for repurposing in ER-stress-mediated post-infectious conditions.
+    / *Limitations:*: Mechanistic review, not clinical trial; most evidence from cell models and animal studies; clinical dose sufficiency for S1R occupancy is inferred, not measured.
+    / *Certainty:*: 0.60 (strong mechanistic review; S1R Ki rankings well-established; clinical implications extrapolated)
+    / *Integrated into:*: Chapter 18 (@sec:sigma1-fluvoxamine, @subsubsec:sigma1-mechanism)
+
+=== Lenze et al.\ 2020 — Fluvoxamine Prevents Clinical Deterioration in Acute COVID-19
+
+    / *Full Citation:*: Lenze EJ, Mattar C, Zorumski CF, et al.\ Fluvoxamine vs Placebo and Clinical Deterioration in Outpatients With Symptomatic COVID-19: A Randomized Clinical Trial. _JAMA_. 2020;324(22):2292--2300.
+    / *DOI:*: #link("https://doi.org/10.1001/jama.2020.22760")[10.1001/jama.2020.22760]
+    / *PMID:*: 33180147
+    / *Study Design:*: Double-blind RCT; fluvoxamine 100 mg three times daily vs.\ placebo; 15 days
+    / *Sample Size:*: 152 (80 fluvoxamine, 72 placebo)
+    / *Key Findings:*:
+
+        - Clinical deterioration: 0/80 (0%) fluvoxamine vs.\ 6/72 (8.3%) placebo; $p$=0.009
+        - No serious adverse events in fluvoxamine arm
+        - Authors attribute benefit to sigma-1 receptor agonism suppressing cytokine storm rather than SERT inhibition
+
+    / *Conclusion:*: First RCT evidence that fluvoxamine prevents clinical deterioration in acute COVID-19; establishes sigma-1 mechanism in COVID context, predating the post-acute (Long COVID) evidence.
+    / *Limitations:*: Small sample; event rate low (6 events); 15-day duration; sigma-1 mechanism inferred, not measured; cytokine/inflammatory biomarkers not collected.
+    / *Certainty:*: 0.60 (peer-reviewed RCT in top journal; small sample; mechanism inferential)
+    / *Integrated into:*: Chapter 18 (@subsubsec:sigma1-mechanism)
+
+=== Gordon et al.\ 2020 — SARS-CoV-2 Interactome: Nsp6 and Nsp8 Bind Sigma-1 Receptor
+
+    / *Full Citation:*: Gordon DE, Jang GM, Bouhaddou M, et al.\ A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. _Nature_. 2020;583:459--468.
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-020-2286-9")[10.1038/s41586-020-2286-9]
+    / *PMID:*: 32353859
+    / *Study Design:*: Affinity purification mass spectrometry interactome mapping; 26 of 29 SARS-CoV-2 proteins expressed in HEK293T/17 cells
+    / *Key Findings:*:
+
+        - 332 high-confidence protein–protein interactions between SARS-CoV-2 and human proteins
+        - Nsp6 and Nsp8 (ER-localised replication proteins) directly bind sigma-1 receptor (SIGMAR1)
+        - This interaction provides molecular basis for SARS-CoV-2 co-opting ER proteostasis machinery
+        - 69 existing FDA-approved drugs and investigational compounds target the identified interactions
+        - Sigma-1 ligands identified as drug repurposing candidates from the interactome data
+
+    / *Conclusion:*: SARS-CoV-2 directly engages sigma-1 receptor via two viral proteins, establishing the molecular basis for ER stress induction and the mechanistic rationale for S1R agonism as therapy.
+    / *Limitations:*: Cell line overexpression system (HEK293T); interactions may not fully replicate in primary infection context; functional consequences of Nsp6/Nsp8–S1R binding not yet directly tested in ME/CFS.
+    / *Certainty:*: 0.75 (landmark _Nature_ paper; affinity purification is rigorous; cell-line caveat for in vivo translation)
+    / *Integrated into:*: Chapter 18 (@subsubsec:sigma1-mechanism)

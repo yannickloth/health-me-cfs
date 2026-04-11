@@ -497,7 +497,7 @@ These mechanisms maintain dysfunction through active, ongoing processes that can
     [Functional autonomic dysregulation], [Neurotransmitter deficits reversible; no neuronal death], [Fludrocortisone, midodrine, L-tyrosine, BH4 support], [4--12 weeks],
     [Acute epigenetic changes], [Recent histone modifications reverse spontaneously or with intervention], [HDAC inhibitors (experimental), NAD+ precursors (sirtuin activation)], [3--6 months],
   ),
-  caption: [Highly Reversible Pathological Mechanisms. *Clinical implication*: Early aggressive intervention (disease duration #sym.lt 2--3 years) targeting these mechanisms has highest probability of substantial improvement (30--60% function restoration). Example: Daratumumab responders achieving SF-36 scores of 80--95 @Fluge2025daratumumab.]
+  caption: [Highly Reversible Pathological Mechanisms. *Clinical implication*: Early aggressive intervention (disease duration #sym.lt 2--3 years) targeting these mechanisms has higher probability of substantial improvement than later intervention. (Illustrative goal: 30--60% function restoration — this range is not evidence-based; see the warning in Section @subsec:reversibility-windows on illustrative percentage targets.) Example of best-documented outcome: Daratumumab responders achieving SF-36 scores of 80--95 @Fluge2025daratumumab.]
 )
 <tab:reversible-tier1>
 
@@ -1597,7 +1597,7 @@ Reis et al.\ (2026) conducted a Bayesian adaptive platform RCT in 399 adults in 
 The Bayesian design provides a posterior probability rather than a p-value: 99.0% means that, given the data, the probability that fluvoxamine outperforms placebo is 99.0% --- a notably strong signal from a well-powered adaptive trial.
 
 #limitation(title: [REVIVE-TOGETHER: Methodological Caveats])[
-Four concerns temper interpretation:
+Five concerns temper interpretation:
 
 1. *Baseline imbalance*: The placebo arm had slightly higher mean baseline fatigue (5.9 vs.\ 5.6) and a higher proportion of female participants (85.5% vs.\ 76.7%). Both differences favour fluvoxamine's apparent superiority. Whether these imbalances arose by chance or reflect inadequate randomisation strata is not reported.
 
@@ -1671,7 +1671,7 @@ S1R agonism is not fluvoxamine's only pharmacologically active pathway. Four add
 
 *2. Serotonin transporter (SERT) blockade:* The classical SSRI mechanism increases synaptic serotonin. In the gut, serotonin regulates motility and mucosal immune tone via 5-HT3/5-HT4 receptors; systemic serotonin signalling modulates platelet activation and vasoconstriction. Whether serotonin-pathway effects are relevant to the fatigue result is unclear; other SSRIs with comparable SERT affinity but lower S1R affinity have not consistently reproduced fluvoxamine's acute COVID and Long COVID results, weakening the SERT-specific hypothesis.
 
-*3. CYP1A2 inhibition and drug interaction network:* Fluvoxamine is the most potent CYP1A2 inhibitor among SSRIs. This creates a pharmacokinetic interaction of clinical importance: CYP1A2 metabolises caffeine, melatonin, theophylline, duloxetine, clozapine, olanzapine, and several other drugs. In patients on CYP1A2 substrates, fluvoxamine will increase their plasma levels substantially. The CYP1A2 interaction is a safety consideration but also an unaddressed confound in the REVIVE-TOGETHER trial: patients consuming caffeine (the primary CYP1A2 substrate in everyday life) would have had substantially extended caffeine half-life (~5 hours $arrow.r$ ~30 hours), which could independently reduce fatigue-related subjective effects and improve sleep. This confound was not addressed by the trial authors and was identified by independent community reviewers. It does not negate the trial result, but it should be prospectively controlled in replication studies.
+*3. CYP1A2 inhibition and drug interaction network:* Fluvoxamine is the most potent CYP1A2 inhibitor among SSRIs. This creates a pharmacokinetic interaction of clinical importance: CYP1A2 metabolises caffeine, melatonin, theophylline, duloxetine, clozapine, olanzapine, and several other drugs. In patients on CYP1A2 substrates, fluvoxamine will increase their plasma levels substantially. The CYP1A2 interaction is a safety consideration but also an unaddressed confound in the REVIVE-TOGETHER trial: patients consuming caffeine (the primary CYP1A2 substrate in everyday life) would have had substantially extended caffeine half-life ($approx$5~hours $arrow.r$ $approx$30~hours), which could independently reduce fatigue-related subjective effects and improve sleep. This confound was not addressed by the trial authors and was identified by independent community reviewers. It does not negate the trial result, but it should be prospectively controlled in replication studies.
 
 *4. Anti-inflammatory and NF-$kappa$B suppression:* Multiple SSRIs show NF-$kappa$B inhibition in cell models, reducing downstream production of IL-6, TNF-$alpha$, and IL-1$beta$. Whether this occurs at therapeutic plasma concentrations in vivo is debated; it may contribute additively to the S1R-mediated UPR suppression.
 
@@ -1700,7 +1700,7 @@ The sigma-1 / ER stress / WASF3 mechanistic connection is plausible in ME/CFS. W
 ] <oq:fluvoxamine-mecfs>
 
 #open-question(title: [S1R Agonist Selectivity: Should We Prefer High-S1R-Affinity SSRIs?])[
-Among SSRIs, fluvoxamine has the highest S1R affinity (Ki ~36 nM). Fluoxetine has moderate affinity (~240 nM); paroxetine and sertraline have low affinity. If S1R agonism is the active mechanism, then within-class differences should predict differential efficacy. Does the pattern of SSRI clinical outcomes in post-infectious fatigue match the rank order of S1R affinity? A retrospective analysis of SSRI outcomes in Long COVID registries stratified by S1R affinity rank would test this prediction at low cost.
+Among SSRIs, fluvoxamine has the highest S1R affinity (Ki $approx$36~nM). Fluoxetine has moderate affinity ($approx$240~nM); paroxetine and sertraline have low affinity. If S1R agonism is the active mechanism, then within-class differences should predict differential efficacy. Does the pattern of SSRI clinical outcomes in post-infectious fatigue match the rank order of S1R affinity? A retrospective analysis of SSRI outcomes in Long COVID registries stratified by S1R affinity rank would test this prediction at low cost.
 ] <oq:s1r-affinity-selectivity>
 
 #speculation(title: [The S1R--MAM Axis as a Shared Vulnerability in Post-Infectious ME/CFS Subtype])[
@@ -1746,6 +1746,31 @@ Low-dose DHEA supplementation is commonly reported by ME/CFS patients to modestl
 #open-question(title: [4-PBA and TUDCA in ME/CFS: Testing ER Stress Reduction Independent of S1R])[
 If ER stress drives WASF3 upregulation and ME/CFS mitochondrial dysfunction, direct ER stress suppressors that do not require S1R (4-phenylbutyrate, TUDCA, arimoclomol) should produce comparable or greater benefit than S1R agonism. 4-PBA is FDA-approved (urea cycle disorders) with known human safety. TUDCA is available OTC. Neither has been tested in ME/CFS. A 3-arm pilot (4-PBA vs.\ TUDCA vs.\ placebo) measuring WASF3 expression, UPR markers, and FSS would simultaneously test the ER stress hypothesis and screen two low-risk candidates for a larger trial.
 ] <oq:er-stress-drugs-mecfs>
+
+#warning-env(title: [Fluvoxamine: Drug Interactions, Monitoring, and Dosing in ME/CFS Context])[
+*Off-label status:* Fluvoxamine is approved for OCD and depression. Use for ME/CFS or Long COVID fatigue is off-label; evidence is limited to the REVIVE-TOGETHER Long COVID trial. No ME/CFS-specific trial data exist. Prescriber guidance and informed consent are required.
+
+*Time to response:* In REVIVE-TOGETHER, benefit was apparent at day 30 and maximal at day 90 (30 days after stopping). Whether a trial period shorter than 8--12 weeks would be sufficient to assess response in ME/CFS is unknown.
+
+*Starting dose in severe/very-severe ME/CFS:* The REVIVE-TOGETHER dose was 100~mg BID (standard antidepressant dose). No dose-escalation data exist for ME/CFS patients. For bedbound or very severe patients, initiation at 25--50~mg once daily (evening) with slow uptitration is prudent given general ME/CFS sensitivity to pharmacological agents. This approach is not validated by any trial.
+
+*CYP1A2 drug interactions --- critical in ME/CFS polypharmacy:* Fluvoxamine is the most potent CYP1A2 inhibitor among SSRIs and markedly increases plasma concentrations of all CYP1A2 substrates. Relevant ME/CFS co-medications affected:
+
+- *Melatonin*: CYP1A2 substrate; plasma levels may increase 5--17× --- increased sedation, potential hypotensive effects; monitor melatonin dose and timing
+- *Duloxetine* (sometimes used for pain/fatigue): partial CYP1A2 substrate; plasma levels increase; monitor for serotonin syndrome symptoms (see below)
+- *Clozapine / olanzapine*: CYP1A2 substrates with narrow therapeutic windows; dose reduction required if co-prescribed; consult psychiatry
+- *Theophylline*: CYP1A2 substrate; not typically ME/CFS-specific but co-prescription requires dose reduction
+
+*CYP1A2 and caffeine:* Habitual caffeine intake has a dramatically extended half-life ($approx$5~h $arrow.r$ $approx$30~h) during fluvoxamine therapy. Patients should be counselled to reduce or eliminate caffeine intake at initiation to avoid caffeine toxicity (tachycardia, anxiety, insomnia) that could be misattributed to disease worsening.
+
+*Serotonin syndrome risk:* Fluvoxamine's SERT inhibition creates a serotonin syndrome risk when combined with other serotonergic agents (MAOIs, triptans, tramadol, high-dose tryptophan, methylene blue, linezolid). Concurrent SSRI or SNRI use requires dose adjustment or substitution. Serotonin syndrome presents as hyperthermia, clonus, agitation, and autonomic instability --- symptoms that overlap with ME/CFS and PEM, requiring clinical vigilance.
+
+*QTc monitoring:* Fluvoxamine at therapeutic doses (100~mg BID) carries low QTc prolongation risk compared with other SSRIs (citalopram/escitalopram have higher QTc risk). However, in ME/CFS patients with established POTS or cardiovascular comorbidities, a baseline and follow-up ECG is advisable.
+
+*Stopping criteria:* Discontinue if: (a) PEM frequency or severity worsens, (b) clear worsening of autonomic symptoms, (c) QTc prolongation >60~ms from baseline or absolute QTc >500~ms, (d) signs of serotonin syndrome.
+
+*Discontinuation:* Gradual taper on cessation (e.g.\ 25% dose reduction every 1--2 weeks) to avoid SSRI discontinuation syndrome (flu-like symptoms, paresthesias, dizziness) which could be misinterpreted as ME/CFS relapse.
+]
 
 *Evidence Grade*: C (Long COVID RCT) / E (ME/CFS) --- REVIVE-TOGETHER provides strong Bayesian evidence in Long COVID fatigue; S1R--WASF3 mechanistic connection is hypothesis-level; no ME/CFS trial data exist; sigma-1 agonism across the class (fluvoxamine, pridopidine, DHEA) warrants systematic investigation
 
