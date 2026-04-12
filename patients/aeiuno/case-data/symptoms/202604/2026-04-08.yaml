@@ -1,0 +1,26 @@
+date: 2026-04-08
+
+context:
+  trigger_event: "Road trip to Clinique du Sommeil @ Clinique St Luc Bouge (Namur) on 2026-04-07 to consult the multidisciplinary sleep team (Dr Dusart — Christine Dusart)"
+  trigger_event_type: "travel + medical appointment"
+
+symptoms:
+  fatigue:
+    present: true
+    severity: severe
+    pattern: "extreme tiredness lasting the entire day"
+    notes: "Did not go to work; spent most of the day sleeping to recover from yesterday's road trip and medical consultation"
+  sleep:
+    present: true
+    pattern: "prolonged daytime sleep (most of the day)"
+    purpose: "recovery from previous day's exertion"
+
+activity:
+  work: { performed: false, reason: "too fatigued to attend" }
+  notes: "Rest day — majority of day spent sleeping; only got up in late afternoon due to noise from the chickens excited by the children — would have stayed in bed otherwise"
+
+pem_assessment:
+  suspected: true
+  delay_hours: ~0
+  trigger: "road trip + multi-disciplinary medical consultation on 2026-04-07"
+  notes: "Classic post-exertional pattern: significant activity on Day-1 → crash with extreme fatigue and prolonged sleep on Day 0"

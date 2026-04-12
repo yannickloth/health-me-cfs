@@ -1,0 +1,49 @@
+patient: aeiuno
+
+hypermobility:
+  present: partial
+  pattern: segmental
+  assessed: false  # never formally tested — no hEDS/HSD workup done
+  details:
+    back: "extremely flexible"
+    joints_general: "not all joints hyperflexible — mobility depends on the specific joint"
+  notes: >
+    Partial/segmental hypermobility reported 2026-04-11. Back is extremely flexible; other
+    joints are not uniformly hypermobile. No hEDS or HSD diagnosis — and no formal testing
+    has been done. The observed flexibility is consistent with segmental/localized ligamentous
+    laxity, which does not require a systemic connective tissue disorder to explain CCI or TMJ
+    dysfunction. Spinal ligamentous laxity at the cervical and upper thoracic segments can
+    produce craniocervical instability even without generalized hypermobility.
+  beighton_score: unknown
+  beighton_note: >
+    Beighton score likely underestimates laxity for aeiuno given axial-dominant pattern —
+    the score is heavily weighted toward peripheral joints. A low score would NOT rule out CCI.
+    Cervical-specific clinical assessment needed.
+  to_do:
+    - "Formal hypermobility assessment (Beighton score)"
+    - "Specifically assess upper cervical mobility and suboccipital muscle tone"
+    - "Consider hEDS/HSD workup if clinician deems appropriate — never been tested"
+
+tmj:
+  present: true
+  side: right
+  triggers:
+    - "opening mouth"
+    - "mastication (chewing)"
+    - "jaw movement"
+  symptom: pain
+  notes: >
+    TMJ dysfunction on the right side. In the context of segmental hypermobility and probable
+    CCI, TMJ involvement is consistent with localized ligamentous laxity affecting the TMJ
+    capsule. The right-side predominance may indicate asymmetric bite, dental asymmetry, or
+    asymmetric muscle compensation. TMJ pain from masseter/temporalis/pterygoid referral can
+    produce circumferential headache directly and may be the primary cause of aeiuno's headache.
+  clinical_relevance:
+    - "TMJ referred pain (masseter, temporalis, pterygoids) can produce exactly the circumferential muscular headache she describes"
+    - "May be the primary cause of today's headache, independent of or in addition to CCI"
+    - "Right-side predominance warrants dental assessment for occlusion or asymmetry"
+    - "Shares localized ligamentous laxity mechanism with CCI"
+  to_do:
+    - "Dental or maxillofacial physiotherapy assessment for TMJ"
+    - "Ask whether TMJ symptoms correlate with headache days"
+    - "Assess occlusion / bite asymmetry"

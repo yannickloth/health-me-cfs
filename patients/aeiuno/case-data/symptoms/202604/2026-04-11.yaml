@@ -1,0 +1,112 @@
+date: 2026-04-11
+
+symptoms:
+  headache:
+    present: true
+    description: "circumferential headache — goes around the head"
+    quality: "muscular; feels like muscles too tired and too contracted"
+    notes: "Tension-type presentation with sensation of diffuse muscle fatigue/contraction around the head"
+    persistence: "persistent; did not fully resolve with Excedrin"
+    postural_observation: >
+      Standing upright is not more painful than lying horizontal — BUT only when posture is
+      correct: shoulders back, head up, spine straight.
+    confirmed_trigger: "bad posture → induces pain"
+    medication_tried:
+      - name: "Excedrin"
+        effect: "partial relief — better than paracetamol but headache persists"
+      - name: "Paracetamol / Dafalgan"
+        effect: "less effective than Excedrin"
+
+hypotheses:
+  - id: "H1-atp-muscle-tension"
+    label: "ATP deficit → chronic pericranial muscle tension"
+    mechanism: >
+      Partial ATP deficit maintains pericranial muscles (temporalis, occipitalis, suboccipitals)
+      in a persistent semi-contracted state — insufficient energy to fully relax.
+      Produces the circumferential 'too tight, too tired' sensation.
+    supporting_document_ref: "ch06:938 — partial ATP deficit keeps muscles in pre-cramp tension state"
+    consistency_with_symptoms: "matches circumferential quality and muscular fatigue character"
+
+  - id: "H2-tension-myofascial"
+    label: "Tension-type / myofascial headache amplified by central sensitization"
+    mechanism: >
+      Hypertonic pericranial muscles produce a band or ring of pressure around the head.
+      In ME/CFS, central sensitization (lowered pain thresholds) amplifies this, and poor sleep
+      impairs nocturnal muscle recovery, perpetuating the cycle.
+    consistency_with_symptoms: "classic presentation; Excedrin partial response consistent with mixed mechanism"
+
+  - id: "H3-sleep-related"
+    label: "Sleep disruption → insufficient overnight muscle recovery"
+    mechanism: >
+      Unrestorative or fragmented sleep prevents the normal nocturnal drop in sympathetic tone
+      required for muscle relaxation. If sleep-disordered breathing is present, nocturnal
+      hypercapnia or hypoxia can directly cause morning/daytime headaches.
+    supporting_document_ref: "ch19:384 — severe morning headaches from nocturnal hypoventilation/hypercapnia"
+    relevance: "timely given recent sleep clinic consultation (Dr Dusart, 2026-04-07)"
+    open_question: "Does headache tend to appear in the morning vs. later in the day? Does it correlate with sleep quality the night before?"
+
+  - id: "H5-craniocervical-instability"
+    label: "Craniocervical instability (CCI) / ligamentous laxity at skull-spine junction"
+    mechanism: >
+      CCI refers to excessive mobility or abnormal alignment at the junction between the skull
+      base (occiput) and the upper cervical spine (C1-C2). Ligamentous laxity allows the skull
+      to shift slightly on the vertebral column, straining suboccipital muscles and potentially
+      compressing brainstem structures or altering CSF dynamics. This produces persistent
+      tension/pressure headaches that are typically refractory to standard analgesics.
+      Common in ME/CFS patients, especially those with hypermobility features (hEDS/HSD).
+    supporting_document_ref: >
+      ch18:375 — CCI can produce brainstem compression, altered CSF dynamics, vagal dysfunction;
+      ch18:379 — Bragée et al. found craniocervical obstructions in 80% of ME/CFS patients
+      at a specialized clinic (highly selected population, not community prevalence);
+      ch04:356 — suboccipital headaches and neck pain listed as CCI features
+    consistency_with_symptoms: >
+      Circumferential headache with muscular quality, Excedrin-resistant, persists regardless
+      of rest — consistent with structural/mechanical origin rather than purely metabolic
+    open_question: >
+      Does aeiuno have any hypermobility features (hEDS/HSD)? Does headache worsen with
+      upright posture, neck movement, or prolonged sitting? Does it improve lying flat?
+    note: >
+      CCI remains controversial in ME/CFS — laxity ≠ instability, and causation vs coincidence
+      is unresolved. CCI is a confirmed consideration for aeiuno.
+    probability: "most probable"
+    clinical_flag: "DISCUSS WITH MEDICAL TEAM — CCI is the most probable explanation for this headache pattern"
+    imaging_note: >
+      If pursuing CCI workup: upright dynamic MRI is preferred over standard supine MRI,
+      which can miss CCI entirely. Flexion-extension CT required if surgical planning needed.
+    questions_to_confirm:
+      postural:
+        - "Does the headache worsen when upright (sitting, standing) and improve when lying flat?"
+        - "Does it worsen with neck movement — flexion, extension, rotation?"
+        - "Does it worsen after prolonged sitting (e.g., at a desk, in a car)?"
+        - "Does it improve after lying down for 20-30 minutes?"
+      hypermobility:
+        - "Are her joints hyperflexible — can she bend fingers back further than normal, hyperextend elbows or knees?"
+        - "Does she have a history of frequent sprains, joint dislocations, or subluxations?"
+        - "Is her skin unusually stretchy or soft?"
+        - "Does she bruise easily?"
+        - "Has she ever been assessed for hEDS (hypermobile Ehlers-Danlos syndrome) or HSD (hypermobility spectrum disorder)?"
+      symptom_pattern:
+        - "Does the headache radiate from the base of the skull (suboccipital) forward?"
+        - "Is there associated neck stiffness or pain?"
+        - "Does it correlate with head position changes (e.g., looking up, looking down at a phone)?"
+        - "Any visual disturbances, tinnitus, or swallowing difficulties accompanying the headache?"
+
+  - id: "H4-pem-recovery"
+    label: "Residual post-exertional symptom from PEM crash on 2026-04-08"
+    mechanism: >
+      Headache is part of the post-exertional symptom cluster in ME/CFS.
+      The PEM crash on 2026-04-08 (triggered by road trip + medical appointment on 2026-04-07)
+      may not be fully resolved; this headache could be a residual PEM symptom.
+    consistency_with_symptoms: "timeline consistent — 3 days post-exertion"
+
+  mechanism_summary: >
+    The Excedrin > paracetamol differential suggests aspirin (anti-inflammatory) and/or caffeine
+    (vasoconstriction, adenosine blockade) provide partial benefit, indicating a mixed mechanism:
+    myofascial/ATP-deficit component plus a mild vascular or inflammatory contributor.
+    Pure myofascial headache would not respond to Excedrin at all; pure vascular would resolve fully.
+
+  to_monitor:
+    - "Time of day headache appears (morning vs. afternoon/evening)"
+    - "Correlation with previous night's sleep quality"
+    - "Frequency and duration over coming weeks"
+    - "Response to magnesium supplementation or heat application"
