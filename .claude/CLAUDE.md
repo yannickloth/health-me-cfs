@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-LaTeX-based ME/CFS documentation with automatic subagent delegation for quality assurance.
+Typst-based ME/CFS documentation with automatic subagent delegation for quality assurance.
 
 ---
 
