@@ -2397,4 +2397,35 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
   ),
   kind: table, supplement: [Table], caption: [Chapter 6 gap brainstorm integration entries (2026-04-12, Session 12): twelve speculations (PDK tissue divergence, glutathionylation spiral, itaconate--aconitase double block, dual-compartment NAD+ paradox, CD38--senescence cycle, ANT complement fixation, astrocyte creatine sink, cognitive PEM via PCr, biogenesis trap) — twelve entries total. Motivated by brainstorm files for G7, G9, G16, G17, G22, G28, G32, G39.],
 ) <tab:hypothesis-registry-brainstorm-2026-04-12>
+
+=== VNS Fibre Selectivity and ANT Mimicry Brainstorm Integration (2026-04-12)
+
+#figure(
+  table(
+    columns: (2fr, 1fr, 1fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Vagal C-Fibre Afferent Deafferentation Maintains the Neuroinflammatory Set-Point],
+    [S], [0.40],
+    [SFN (reduced IENFD) in ME/CFS damages vagal C-fibre afferents, preventing the brainstem from receiving "periphery is inflamed" signals. The efferent anti-inflammatory reflex is inadequately triggered, and sickness behaviour persists. Vicious cycle: inflammation $arrow.r$ C-fibre damage $arrow.r$ reduced afferent signalling $arrow.r$ impaired reflex $arrow.r$ more inflammation.],
+    [SFN-positive ME/CFS patients should show lower vagal C-fibre conduction (late VEP components >50~ms), higher inflammatory markers, and poorer VNS response than SFN-negative patients. VNS response in SFN-positive limited to autonomic (B-fibre) endpoints. No SFN-stratified VNS trial exists (2026).],
+    [Ch.18 @spec:cfibre-deafferentation],
+
+    [Alpha-7 nAChR Agonists as Pharmacological VNS Bypass],
+    [H], [0.45],
+    [Selective alpha-7 nAChR agonists (GTS-21, galantamine) directly activate the downstream effector of the cholinergic anti-inflammatory pathway on macrophages, bypassing fibre-selectivity and C-fibre deafferentation problems entirely. Anti-inflammatory effect independent of SFN status.],
+    [Alpha-7 agonist (GTS-21 or galantamine) will reduce TNF-$alpha$/IL-6 in ME/CFS patients with elevated baseline inflammation, effect size $gt.eq$ standard tVNS, without hoarseness/bradycardia. Independent of SFN status (unlike VNS). No ME/CFS trial for either agent (2026).],
+    [Ch.18 @hyp:alpha7-pharmacological-vns],
+
+    [Coxsackie B3--ANT Molecular Mimicry in Post-Enteroviral ME/CFS],
+    [S], [0.30],
+    [Coxsackie B3 generates anti-ANT1 autoantibodies via molecular mimicry between viral epitopes and ANT1 C-terminal/M2--M3 loop regions. First specific molecular mimicry target proposed for ME/CFS (filling gap noted in Ch.7). Persists after viral clearance, causing chronic energy deficit.],
+    [ME/CFS patients with enteroviral onset (Coxsackie B3 serology) should have higher anti-ANT1 titres than EBV-onset or non-infectious-onset patients. In silico homology analysis of Coxsackie B3 proteome vs ANT1 epitopes (Manchado 2002) can rapidly support/refute mimicry mechanism.],
+    [Ch.6 @spec:coxsackie-ant-mimicry],
+  ),
+  kind: table, supplement: [Table], caption: [VNS fibre-selectivity extensions and ANT molecular mimicry brainstorm integration (2026-04-12). Two VNS-related entries (C-fibre deafferentation, alpha-7 nAChR pharmacological bypass) extend the fibre-selectivity framework; one ANT entry proposes the first specific molecular mimicry target for ME/CFS. Motivated by brainstorm files for VNS fibre selectivity and ANT autoantibodies.],
+) <tab:hypothesis-registry-brainstorm-remaining-2026-04-12>
 ] // end landscape page for brainstorm integration

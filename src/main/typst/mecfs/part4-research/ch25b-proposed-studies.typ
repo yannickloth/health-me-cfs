@@ -194,20 +194,20 @@ Implementation requires identification of a principal investigator and instituti
 
 === Background and Rationale
 
-The selective energy dysfunction hypothesis (Chapter @ch:energy-metabolism, Section @sec:selective-energy-dysfunction) previously listed wound healing among preserved autonomous functions. Literature integration (Chapter @ch:energy-metabolism, Section @oq:wound-healing-mecfs) revealed this assumption is unsupported: no study has measured wound healing in ME/CFS, and mechanistic evidence from three independent pathways — NK cell dysfunction @Baraniuk2024NKMeta @Sobecki2021NKWoundHypoxia, sympathetic overactivation @Xue2018ANSWoundHealing, and immune exhaustion @Stanojcic2016ImmuneExhaustionBurns predicts impairment. This creates a testable question with implications for both the selective dysfunction framework and clinical biomarker development.
+The selective energy dysfunction hypothesis (Chapter @ch:energy-metabolism, Section @sec:selective-energy-dysfunction) previously listed wound healing among preserved autonomous functions. Literature integration (Chapter @ch:energy-metabolism, Section @oq:wound-healing-mecfs) revealed this assumption is unsupported: no study has measured wound healing in ME/CFS, and mechanistic evidence from three independent pathways — NK cell dysfunction @Baraniuk2024NKMeta @Sobecki2021NKWoundHypoxia, sympathetic overactivation @Xue2018ANSWoundHealing, immune exhaustion @Stanojcic2016ImmuneExhaustionBurns, and chronic TGF-β disruption of NK-MSC wound repair circuits @Petri2017MSCNKTGFb — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. This creates a testable question with implications for both the selective dysfunction framework and clinical biomarker development.
 
 === Study Design
 
-*Design:* Prospective case-control. $n = 40$ ME/CFS patients (ICC criteria) + 40 age/sex-matched sedentary controls.
+*Design:* Prospective three-arm case-control. $n = 40$ ME/CFS patients (ICC criteria) + 20 age/sex-matched sedentary healthy controls + 20 disease controls (fibromyalgia or multiple sclerosis patients matched for disability level and sedentary lifestyle). The disease control arm distinguishes ME/CFS-specific wound healing abnormalities from generic deconditioning- or disability-associated effects.
 
 *Primary outcome:* Suction blister reepithelialization time (standardised 8mm blister, negative pressure method — an established dermatological technique, low-risk, bedside-feasible).
 
 *Secondary outcomes:*
     - Histological scar quality at day 14 and day 28 (collagen organisation, inflammatory infiltrate, vascularity)
-    - Blister fluid cytokine panel: IFN-γ, GM-CSF (NK repair function @Sobecki2021NKWoundHypoxia), TGF-β (MSC-NK regulatory circuit @Petri2017MSCNKTGFb), catecholamines (sympathetic drive @Xue2018ANSWoundHealing)
-    - Correlation with NK cell cytotoxicity, HRV (sympathovagal balance), Bell disability score
+    - Blister fluid cytokine panel: IFN-γ, GM-CSF (NK cytokine output — note: distinct from NK cytotoxicity measured by Baraniuk @Baraniuk2024NKMeta), TGF-β (MSC-NK regulatory circuit @Petri2017MSCNKTGFb), catecholamines (local sympathetic drive — note: blister fluid catecholamines reflect local wound-site trauma response and may not directly index systemic sympathetic tone @Xue2018ANSWoundHealing; concurrent medications including beta-blockers must be recorded and analysed as covariates)
+    - Correlation with NK cell cytotoxicity _and_ NK cytokine secretion (IFN-γ, GM-CSF from stimulated PBMCs — both measures needed to test whether cytotoxicity reduction predicts cytokine secretion reduction), HRV (sympathovagal balance), Bell disability score
 
-*Stratification:* Disease severity (mild/moderate/severe), disease duration ($<$3yr, 3–7yr, $>$7yr), POTS comorbidity (yes/no).
+*Stratification:* Disease severity (mild/moderate/severe), disease duration ($<$3yr, 3–7yr, $>$7yr), POTS comorbidity (yes/no), beta-blocker use (yes/no).
 
 === Why This Study Is Uniquely Informative
 
@@ -227,7 +227,7 @@ If validated in a prospective cohort, different patterns would suggest different
 
 === Feasibility
 
-Estimated cost: ~€500 per patient for the wound procedure, histology, and blister fluid cytokine panel; NK cell cytotoxicity assays (~€150/patient) and HRV measurement (~€50/patient) add approximately €200 per patient, for a total of ~€700/patient (~€56,000 for the full cohort). Requires no specialist equipment beyond a suction chamber. Can be performed at bedside (critical for severe patients). Study duration: 6 months recruitment + 1 month follow-up. Single-site feasible.
+Estimated cost: ~€500 per participant for the wound procedure, histology, and blister fluid cytokine panel; NK cell cytotoxicity assays (~€150), NK cytokine secretion assays (~€100), and HRV measurement (~€50) add approximately €300 per participant, for a total of ~€800/participant (~€64,000 for 80 participants across three arms). Requires no specialist equipment beyond a suction chamber. Can be performed at bedside (critical for severe patients). Study duration: 6 months recruitment + 1 month follow-up. Single-site feasible.
 
 #limitation(title: [Wound Healing Study: Exploratory Phase Required])[
 This proposal assumes wound healing IS impaired in ME/CFS, which has not been established. A pilot study ($n = 10 + 10$) should precede the full protocol to establish effect size and confirm feasibility. If wound healing proves normal in the pilot, the study still provides valuable data by ruling out tissue repair deficit as a clinically relevant mechanism.
