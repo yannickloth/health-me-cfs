@@ -593,18 +593,78 @@ Step 6 is not a distinct pipeline step in the stoichiometric sense — cofactors
 
 === Normal Function and ATP Accounting
 
-Even if ATP is synthesised normally in the mitochondrial matrix, it must exit via the adenine nucleotide translocator (ANT), which exchanges matrix ATP#super[4−] for cytosolic ADP#super[3−]. ANT is not a passive channel but an active exchanger consuming one proton's worth of membrane potential per cycle; it is the sole route for ATP export. Direct ATP yield is zero (ANT does not synthesise ATP); gated yield is ~28 ATP per glucose (all matrix-produced ATP), ~93% of total. Blocking ANT traps ATP inside the matrix regardless of how efficiently it is made.
+Even if ATP is synthesised normally in the mitochondrial matrix, it must exit via the adenine nucleotide translocator (ANT), which exchanges matrix ATP#super[4−] for cytosolic ADP#super[3−] across the inner membrane. ANT is not a passive channel but an active exchanger consuming one proton's worth of membrane potential per cycle; it is the sole route for ATP export. Direct ATP yield is zero (ANT does not synthesise ATP); gated yield is ~28 ATP per glucose (all matrix-produced ATP), ~93% of total. Blocking ANT traps ATP inside the matrix regardless of how efficiently it is made.
+
+Four isoforms exist (ANT1--4) with tissue-specific expression: ANT1 predominates in cardiac and skeletal muscle, ANT2 in proliferating and regenerating tissues, ANT3 is ubiquitous, and ANT4 is testis-restricted @ChenEtAl2023ant. In dilated cardiomyopathy (DCM), an ANT1↑/ANT2↓ isoform shift reduces maximal ATP transport capacity (V#sub[max]) by ~55% @DornerEtAl2006.
 
 === Documented ME/CFS Findings and Failure Modes
 
-Even if ATP is synthesised normally in the mitochondrial matrix, it must exit via the adenine nucleotide translocator (ANT), which exchanges matrix ATP#super[4-] for cytosolic ADP#super[3-] across the inner membrane. ANT is not a passive channel but an active exchanger that consumes one proton's worth of membrane potential per cycle. It is the sole route for ATP export from mitochondria.
+==== Anti-ANT autoantibodies: mechanistic precedent from cardiac autoimmune disease
 
-Four ANT isoforms exist (ANT1--4) with tissue-specific expression; ANT1 predominates in cardiac and skeletal muscle. Autoantibodies against ANT (antimitochondrial antibodies of the M4 subtype, AMA-M4) are well-characterized in primary biliary cirrhosis and have been described in dilated cardiomyopathy. Given the broad autoantibody findings in ME/CFS (including antibodies against beta-adrenergic receptors, muscarinic receptors, and other membrane proteins @Sotzny2021), ANT-specific autoantibodies represent a mechanistically plausible but *entirely unstudied* failure mode: a cell with normal ETC function could still be energy-starved if ANT is blocked by autoantibody. This distinction matters because it would not be detectable by standard mitochondrial function assays measuring oxygen consumption.
+Anti-ANT autoantibodies are well-characterised in cardiac autoimmune disease but have *never been tested in ME/CFS*. The key mechanistic evidence comes from three independent groups:
 
+- Schultheiss & Bolte (1985) reported 17/18 (94%) DCM patients positive for anti-ANT antibodies, with zero positives in all control groups; antibody titre correlated with haemodynamic function, and the antibodies directly inhibited ADP/ATP exchange in isolated mitochondria @SchultheissBolte1985.
+- Takemoto et al. (1993) independently confirmed anti-ANT positivity in 16% of DCM (n=37) and 42% of active myocarditis (n=12) patients, with negative controls @TakemotoEtAl1993. The lower prevalence compared to Schultheiss likely reflects methodological differences in antigen preparation.
+- Schulze et al. (1999) provided the definitive animal-model demonstration: in Coxsackie B3 viral myocarditis, 14/19 mice developed anti-ANT antibodies, with cytosolic ATP/ADP ratios falling by 56% (136±20 → 59±18) while mitochondrial ATP/ADP ratios rose fourfold (1.1±0.3 → 4.2±1.0), directly demonstrating the ATP-trapping mechanism @SchulzeEtAl1999. This is the experimental proof-of-concept for the failure mode proposed in G28.
+
+Epitope mapping by Manchado et al. (2002) localised anti-ANT1 reactivity to at least three epitopes in the C-terminal 146 amino acids and the M2/M3 hydrophilic loops, specifying the antigen regions required for a diagnostically specific ELISA @ManchadoEtAl2002.
+
+#warning-env(title: [Nomenclature Correction: Anti-ANT ≠ AMA-M4])[
+  Anti-ANT autoantibodies are *not* classified under the standard anti-mitochondrial antibody (AMA) subtype system. AMA-M4 targets sulfite oxidase (52 kDa), not ANT. AMA-M2 targets the PDC-E2/BCOADC-E2/OGDC-E2 complex. Anti-ANT antibodies found in DCM and myocarditis constitute a separate cardiac-specific autoantibody class, measured by dedicated ANT-protein ELISA or radioimmunoassay — not by standard PBC-focused AMA panels @SchultheissReview1989.
+]
+
+==== Mechanistic caveat: autoantibody access to ANT
+
+A key mechanistic question is how circulating IgG autoantibodies access ANT, which resides on the inner mitochondrial membrane. Unlike GPCR autoantibodies targeting cell-surface receptors with extracellular epitopes, anti-ANT antibodies must reach an intracellular, intramitochondrial target. The Schultheiss and Schulze studies demonstrate that anti-ANT antibodies *do* functionally impair ATP export in intact tissue @SchultheissBolte1985 @SchulzeEtAl1999, but the mechanism of access — likely involving cell damage, mitochondrial release during necrosis, or complement-mediated membrane disruption — has not been fully elucidated. This access constraint may also explain why standard extracellular-focused autoantibody platforms (REAP, Luminex) cannot detect anti-ANT reactivity even when it is present.
+
+==== Assay specificity constraint
+
+Antigen source critically determines assay specificity. Mendel-Hartvig et al. (1986) showed that when rat liver ANT (predominantly the ANT2 isoform) is used as antigen, healthy controls and SLE patients show equal or higher titres compared to disease groups, eliminating diagnostic value @MendelHartvig1986. Disease-specific detection requires human cardiac ANT1, specifically the C-terminal and M2/M3 loop regions @ManchadoEtAl2002.
+
+==== Absence of evidence is not evidence of absence
+
+Two recent large-scale autoantibody studies in ME/CFS have been misinterpreted as closing G28. They do not:
+
+- Nilsson et al. (2020) tested 161 ME/CFS patients across three cohorts for anti-PDC antibodies and general AMA by indirect immunofluorescence (IIF) — all negative @NilssonEtAl2020. However, ANT-specific antibodies were *not tested*; IIF on rat tissue sections cannot sensitively detect low-titre ANT-specific antibodies that require purified human ANT1 protein as antigen.
+- Germain et al. (2025) screened 1,134 Luminex autoantibodies and 6,183 REAP (Rapid Extracellular Antigen Profiling) targets in up to 95 ME/CFS patients — no significant differences @GermainEtAl2025. However, REAP covers the *extracellular* proteome by design; intramitochondrial proteins including ANT are outside its detection scope.
+
+The gap therefore remains fully open: no ME/CFS study has tested anti-ANT antibodies using the methodology known to be required (human cardiac ANT1-specific ELISA).
+
+==== Additional ANT failure modes
+
+Beyond autoantibodies, ANT function can be impaired by post-translational modifications including acetylation and S-nitrosylation, both of which reduce transport activity @ChenEtAl2023ant. Given the elevated oxidative and nitrosative stress reported in ME/CFS @Shankar2025oxidativestress, nitrosylative ANT inhibition represents a non-autoimmune ANT failure pathway. Whether mitochondrial fragmentation — observed in cells exposed to ME/CFS patient serum via the HHV-6/miR-aU14/DRP1 axis @SchreinerEtAl2020 — secondarily affects ANT function through cristae disruption has not been tested; this remains a speculative link.
+
+==== Genetic disease precedent
+
+Sengers syndrome (autosomal recessive ANT1 loss-of-function) produces exercise intolerance and lactic acidosis — features overlapping with ME/CFS post-exertional malaise, though Sengers also includes cataracts and cardiomyopathy @ChenEtAl2023ant. This genetic precedent demonstrates that ANT1 dysfunction alone is sufficient to produce exercise intolerance and lactic acidosis, supporting (but not confirming) the plausibility of ANT involvement in ME/CFS.
+
+==== Therapeutic implications if anti-ANT confirmed
+
+If anti-ANT autoantibodies are confirmed in ME/CFS, the therapeutic framework already exists: immunoadsorption has been piloted for GPCR autoantibodies in post-COVID ME/CFS (14/20 patients improved after five sessions) @WohlrabEtAl2025. The same approach — and newer Fc receptor-targeting agents such as efgartigimod — would be directly applicable to anti-ANT autoimmunity. Given the broad autoantibody landscape in ME/CFS @Sotzny2021 — noting that whether GPCR autoantibodies are pathogenic or epiphenomenal remains actively debated — standard protein A immunoadsorption, which removes IgG non-specifically, would simultaneously deplete both GPCR and any anti-ANT autoantibodies present.
+
+#hypothesis(title: [The "Invisible Bottleneck": ANT Blockade Explains Normal Respirometry with Abnormal Energy])[
+  *Certainty: 0.45.* Standard mitochondrial function assays (Seahorse, high-resolution respirometry) measure oxygen consumption rate (OCR) at the ETC. If ANT is blocked — whether by autoantibody, nitrosylation, or structural damage — ATP accumulates in the matrix while the ETC continues to consume oxygen normally. The critical implication: a patient can have *normal OCR* but *profoundly abnormal cytosolic ATP availability*. The Schulze et al. data directly demonstrate this: anti-ANT raised mitochondrial ATP/ADP fourfold (matrix full of unexportable ATP) while cytosolic ATP/ADP fell by 56% @SchulzeEtAl1999. This resolves a persistent paradox in ME/CFS research: several studies show relatively preserved mitochondrial respiration, yet patients clearly have a functional energy deficit.
+
+  *Falsifiable prediction:* In ME/CFS patients, compartment-specific ATP sensors (ATeam or iATPSnFR) will show elevated mitochondrial-to-cytosolic ATP ratio (>2 SD above controls) in ≥20% of cases, even when Seahorse OCR is within normal range.
+
+  *If falsified:* The energy deficit in ME/CFS is upstream of ANT (production, not export), and respirometry results are genuinely representative of the cellular energy state.
+
+  *Limitations:* Compartment-specific ATP measurement has not been performed in ME/CFS. The prediction extrapolates from animal myocarditis to human ME/CFS. Partially replicated conceptually (Schulze 1999 in animal model) but not yet tested in ME/CFS.
+] <hyp:invisible-bottleneck>
+
+#speculation(title: [ANT Autoantibody-Mediated ATP Trapping as a Unifying ME/CFS Energy Lesion])[
+  *Certainty: 0.30.* If anti-ANT1 autoantibodies are present in a subset of ME/CFS patients, they would produce a failure mode uniquely consistent with the disease phenotype: normal oxygen consumption (ETC operates normally), normal mitochondrial membrane potential, but profoundly reduced cytosolic ATP availability. This would explain the paradox of normal-appearing mitochondrial respiration in some studies alongside severe functional energy limitation. The post-viral trigger (Coxsackie B3 → anti-ANT in animal models @SchulzeEtAl1999; EBV/HHV-6 as common ME/CFS triggers) provides an aetiological bridge.
+
+  *Falsifiable prediction:* ≥10% of ME/CFS patients meeting ICC criteria will test positive for anti-ANT1 antibodies using human cardiac ANT1-specific ELISA, compared to $<$2% of matched healthy controls.
+
+  *If falsified:* ANT autoimmunity can be excluded as a common ME/CFS mechanism, though post-translational ANT inhibition (nitrosylation, acetylation) remains testable.
+
+  *Limitations:* No ME/CFS data exist. The prediction is extrapolated from cardiac autoimmune disease prevalence, which may not transfer to a non-cardiac autoimmune context. Not yet replicated in ME/CFS — entirely speculative.
+] <spec:ant-autoantibody-atp-trapping>
 
 === Research Gaps at Step 7
 
-Only one gap at Step 7, but it is _catastrophic_ and _entirely unstudied_: (G28) ANT autoantibody (AMA-M4) prevalence in ME/CFS. ANT is a sole-route ATP exporter; failure traps all matrix-produced ATP inside mitochondria regardless of how efficiently it is made.
+Only one gap at Step 7, but it is _high-impact if confirmed_ and _entirely unstudied_: (G28) anti-ANT autoantibody prevalence in ME/CFS. ANT is a sole-route ATP exporter; failure traps all matrix-produced ATP inside mitochondria regardless of how efficiently it is made.
 
 #figure(
   kind: table,
@@ -613,11 +673,11 @@ Only one gap at Step 7, but it is _catastrophic_ and _entirely unstudied_: (G28)
     columns: (auto, auto, auto, auto, auto, auto),
     align: (left, left, left, left, left, center),
     table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
-    [G28: ANT autoantibodies (AMA-M4 subtype)], [High — ANT is the sole ATP export route; no redundancy], [~93% of gated yield (~28/30 ATP, the matrix-produced fraction)], [Easy — ELISA assay established in primary biliary cirrhosis context], [Long-term — no approved intervention for anti-ANT autoimmunity, but IVIG/plasmapheresis used in analogous autoimmune conditions], [1],
+    [G28: Anti-ANT1 autoantibodies], [High — ANT is the sole ATP export route; no redundancy], [~93% of gated yield (~28/30 ATP, the matrix-produced fraction)], [Easy — human ANT1-specific ELISA; epitopes mapped @ManchadoEtAl2002], [Medium-term — immunoadsorption already piloted in ME/CFS for GPCR autoantibodies @WohlrabEtAl2025], [1],
   )
 ) <tab:step7-gap-priorities>
 
-G28 is the single highest-impact, lowest-cost gap in the entire chapter: Step 7 is one of only two _individually essential_ steps (with Step 3 PDC), a single ELISA can resolve it, and ME/CFS already has broad GPCR autoantibody findings @Sotzny2021 providing a mechanistic prior. There is no good reason for this gap to remain open. *Priority 1, highest-leverage single gap in Chapter 6.*
+G28 is the single highest-impact, lowest-cost gap in the entire chapter: Step 7 is one of only two _individually essential_ steps (with Step 3 PDC), a single ELISA can resolve it, and ME/CFS already has broad GPCR autoantibody findings @Sotzny2021 providing a mechanistic prior. Existing studies ruling out general AMA @NilssonEtAl2020 and extracellular autoantibodies @GermainEtAl2025 do not close G28 because they used methods incapable of detecting ANT-specific antibodies. The combination of high potential impact, low assay cost, and existing positive-control sera from DCM makes this gap unusually tractable. *Priority 1, highest-leverage single gap in Chapter 6.*
 
 == Step 8: Creatine Phosphate Shuttle
 <sec:step8-creatine-shuttle>
@@ -628,7 +688,7 @@ The creatine phosphate (PCr) shuttle provides spatial and temporal buffering bet
 
 === Documented ME/CFS Findings and Failure Modes
 
-The creatine phosphate (PCr) shuttle provides spatial and temporal buffering between mitochondrial ATP production and cytoplasmic ATP consumption. In brain and muscle, creatine kinase (CK) at the mitochondrial outer membrane converts mitochondrial ATP into phosphocreatine (PCr), which diffuses to the myofibril or synapse where the cytoplasmic CK isoform instantly regenerates ATP on demand. Without this shuttle, cells would require direct diffusion of ATP from the matrix to the consumption site — too slow for burst demands.
+The PCr shuttle has additional significance in the context of ANT dysfunction (@sec:step7-ant): if ANT is partially blocked, each ATP molecule that does exit the matrix is immediately captured by mitochondrial CK and shuttled to the cytosol as PCr, preventing product inhibition at the ANT exit site. Creatine supplementation ensures the shuttle substrate is not limiting, effectively functioning as a partial bypass of an ANT bottleneck. This is one possible mechanistic rationale — among several, including simple energy buffering — for why creatine might benefit ME/CFS patients; the ANT-bypass explanation is post-hoc and would require demonstration of ANT dysfunction before it can be preferred over simpler accounts.
 
 #achievement(title: [Creatine Supplementation Increases Brain Creatine and Reduces Fatigue])[
 In a feasibility study ($n=11$ completers), Godlewska et al.\ found that 6 weeks of creatine monohydrate (16 g/day) significantly increased brain creatine in the pregenual anterior cingulate cortex (+8.3%, $p=0.004$) and dorsolateral prefrontal cortex (+2.9%, $p=0.012$), measured by 7T MRS @Godlewska2024creatineMRS. Secondary outcomes showed decreased fatigue scores and improved Stroop reaction time and hand-grip strength. This is the first intervention evidence that brain creatine deficiency in ME/CFS — previously documented by 7T MRS cross-sectionally @Godlewska2025MRS — is pharmacologically correctable.

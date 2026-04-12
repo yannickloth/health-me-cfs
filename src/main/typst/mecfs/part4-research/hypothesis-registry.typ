@@ -2186,11 +2186,17 @@ requiring expertise outside ME/CFS scope.
     [Skeletal muscle biopsy with PGC-1α quantification (IHC or qPCR); correlation with Shankar 2025 MnSOD data @Shankar2025oxidativestress. No measurement in ME/CFS tissue exists (2026).],
     [Ch.6 @hyp:pgc1alpha-suppression],
 
-    [ANT Autoantibodies as Undetected Energy Export Blockade],
-    [OQ], [---],
-    [Do ME/CFS patients harbour ANT-specific autoantibodies (AMA-M4 subtype) that block ATP export from mitochondria, producing cellular energy crisis with normal ETC oxygen consumption?],
-    [ANT autoantibody ELISA in ME/CFS cohort. Established assay in PBC context; never applied to ME/CFS (2026). ME/CFS has broad GPCR autoantibodies @Sotzny2021 but ANT-specific subtype not tested.],
-    [Ch.6 @sec:step7-ant],
+    [The "Invisible Bottleneck": ANT Blockade Explains Normal Respirometry with Abnormal Energy],
+    [H], [0.45],
+    [If ANT is blocked (autoantibody, nitrosylation, or structural damage), ATP accumulates in the matrix while ETC continues consuming oxygen normally. Patient can have *normal OCR* but *abnormal cytosolic ATP*. Schulze 1999: anti-ANT raised mitochondrial ATP/ADP 4× while cytosolic fell 56% @SchulzeEtAl1999. Several studies show relatively preserved respirometry, yet patients have a functional energy deficit; this resolves that paradox.],
+    [Compartment-specific ATP sensors (ATeam or iATPSnFR) in ME/CFS cells: mitochondrial-to-cytosolic ATP ratio >2 SD above controls in ≥20% of cases, even when Seahorse OCR is within normal range. Not yet tested in ME/CFS (2026).],
+    [Ch.6 @hyp:invisible-bottleneck],
+
+    [ANT Autoantibody-Mediated ATP Trapping as a Unifying ME/CFS Energy Lesion],
+    [Spec], [0.30],
+    [≥10% of ME/CFS patients (ICC criteria) will test positive for anti-ANT1 antibodies using human cardiac ANT1-specific ELISA, vs $<$2% of matched controls. Animal-model precedent: anti-ANT antibodies reduce cytosolic ATP/ADP by 56% and elevate mitochondrial ATP/ADP fourfold in Coxsackie B3 myocarditis @SchulzeEtAl1999. Note: anti-ANT is *not* AMA-M4 (which targets sulfite oxidase); requires dedicated ANT1-protein ELISA with C-terminal/M2-M3 loop epitopes @ManchadoEtAl2002. General AMA @NilssonEtAl2020 and REAP @GermainEtAl2025 negative results do not close G28.],
+    [Human cardiac ANT1-specific ELISA in ME/CFS cohort (n≥50); antigen must include C-terminal + M2/M3 loop regions. Assay established in DCM context @SchultheissBolte1985 @TakemotoEtAl1993. Never applied to ME/CFS (2026). If confirmed, immunoadsorption already piloted for GPCR antibodies in ME/CFS @WohlrabEtAl2025.],
+    [Ch.6 @spec:ant-autoantibody-atp-trapping],
 
     [ISCU Dysfunction as Multi-Enzyme Iron-Sulfur Failure],
     [OQ], [---],
