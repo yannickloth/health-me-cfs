@@ -2186,6 +2186,18 @@ requiring expertise outside ME/CFS scope.
     [Skeletal muscle biopsy with PGC-1α quantification (IHC or qPCR); correlation with Shankar 2025 MnSOD data @Shankar2025oxidativestress. No measurement in ME/CFS tissue exists (2026).],
     [Ch.6 @hyp:pgc1alpha-suppression],
 
+    [NAD#super[+]--Sirtuin--Acetylation Hub: Unified Upstream Regulator of G22, G34, and G39],
+    [H], [0.35],
+    [NAD#super[+] depletion in energy-intensive tissues (muscle, neurons) simultaneously inactivates SIRT1 and SIRT3, producing PGC-1$alpha$ hyperacetylation (G39), NRF2 functional suppression (G34), Complex I/TCA impairment, and SIRT4-mediated PDC inhibition. The PBMC NAD#super[+] elevation (Heng 2025) represents substrate backup (ETC block), not systemic surplus. Predicts that G22, G34, and G39 are three readouts of a single upstream failure.],
+    [Muscle biopsy co-measuring NAD#super[+]/NADH ratio + PGC-1$alpha$ acetylation + NRF2 target gene expression in the same samples. If NAD#super[+] correlates inversely with PGC-1$alpha$ acetylation, the hub is supported. NR/NMN supplementation should simultaneously improve all three readouts. Factorial RCT (NAD#super[+] precursor $times$ AMPK activator) predicts synergistic effects. No such co-measurement exists in ME/CFS (2026).],
+    [Ch.6 @hyp:nad-sirtuin-hub],
+
+    [Brain PCr Depletion as Molecular Mechanism for Selective Energy Dysfunction],
+    [Spec], [0.30],
+    [Brain-specific creatine depletion (Godlewska 2025, 7T MRS @Godlewska2025MRS) with normal muscle creatine loading (@Ostojic2016GAA) maps onto the selective energy dysfunction pattern (@hyp:selective-energy). The PCr shuttle is the sole millisecond-timescale ATP delivery system; its depletion in brain but not muscle predicts CNS-dependent demand-responsive failures (cognition, autonomic coordination) alongside preserved autonomous peripheral functions.],
+    [Brain-creatine-to-muscle-creatine ratio (brain 1H-MRS + muscle 31P-MRS in the same participants) will be lower in ME/CFS than controls. Patients with the lowest brain/muscle creatine ratio should show the greatest cognitive impairment relative to physical capacity. Never measured within one ME/CFS cohort (2026).],
+    [Ch.6 @spec:brain-pcr-selective-energy],
+
     [The "Invisible Bottleneck": ANT Blockade Explains Normal Respirometry with Abnormal Energy],
     [H], [0.45],
     [If ANT is blocked (autoantibody, nitrosylation, or structural damage), ATP accumulates in the matrix while ETC continues consuming oxygen normally. Patient can have *normal OCR* but *abnormal cytosolic ATP*. Schulze 1999: anti-ANT raised mitochondrial ATP/ADP 4× while cytosolic fell 56% @SchulzeEtAl1999. Several studies show relatively preserved respirometry, yet patients have a functional energy deficit; this resolves that paradox.],
