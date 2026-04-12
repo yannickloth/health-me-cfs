@@ -4973,6 +4973,58 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 // =============================================================================
 
+== Riboflavin, FAD, and EGRAC
+<sec:bib-riboflavin-fad>
+// =============================================================================
+
+=== Heap et al.\ 1999 — Vitamin B Status in CFS (Glutathione Reductase)
+
+    / *Full Citation:*: Heap LC, Peters TJ, Wessely S. Vitamin B status in patients with chronic fatigue syndrome. _Journal of the Royal Society of Medicine_. 1999;92(4):183--185. @Heap1999vitaminB
+    / *DOI:*: #link("https://doi.org/10.1177/014107689909200405")[10.1177/014107689909200405]
+    / *Key Findings:*:
+
+        - Case-control; $n = 12$ CFS + 18 age/sex-matched controls
+        - Erythrocyte glutathione reductase (GTR) basal activity reduced in CFS: 6.13 (SD 1.89) vs 7.42 (1.25) U/g Hb ($p < 0.04$)
+        - Erythrocyte transketolase (TK, thiamine proxy) also reduced: 0.50 vs 0.60 ($p < 0.04$)
+        - Erythrocyte AST (pyridoxine proxy) most strongly reduced: 2.84 vs 4.61 ($p < 0.001$)
+        - *Critical limitation:* measured _basal enzyme activity_ only, NOT the activation coefficient ratio (EGRAC). Cannot distinguish between reduced enzyme protein mass and functional FAD depletion
+        - Very small sample ($n = 12$); single centre (King's College London)
+        - *Certainty: 0.40* — provides directional evidence of reduced functional B vitamin status but the absence of the activation coefficient makes this a near-miss for G23, not a closure
+
+    / *Relevance:*: The closest existing measurement to EGRAC in ME/CFS — and the most frustrating near-miss. Had Heap et al.\ computed the activation coefficient (stimulated/basal ratio), G23 might have been partially closed in 1999. The reduced GTR basal activity is _consistent with_ FAD depletion but could also reflect reduced GTR protein expression, oxidative damage to the enzyme, or methodological artefact in a very small sample. The fact that all three B vitamin proxies were reduced suggests a general micronutrient deficiency pattern rather than a riboflavin-specific deficit — though this does not exclude FAD depletion as a contributor.
+
+=== Baraniuk 2025 — CSF Riboflavin and FMN Lower in ME/CFS
+
+    / *Full Citation:*: Baraniuk JN. Cerebrospinal fluid metabolomics, lipidomics and serine pathway dysfunction in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). _Scientific Reports_. 2025;15:7450. @Baraniuk2025CSFmetabolomics
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-025-91324-1")[10.1038/s41598-025-91324-1]
+    / *Key Findings:*:
+
+        - Case-control CSF metabolomics; nonexercise cohort ($n = 45$ ME/CFS, 20 controls) + postexercise cohort ($n = 15$ ME/CFS, 12 controls)
+        - Sedentary controls had _higher_ CSF riboflavin and FMN than ME/CFS patients
+        - Riboflavin Metabolism pathway enriched among significantly different CSF metabolites
+        - Also: 5-MTHF, choline, dimethylglycine higher in controls — broad one-carbon/cofactor deficit
+        - Exercise provocation: metabolites consumed in ME/CFS but generated in controls — a directional reversal
+        - *Certainty: 0.55* — peer-reviewed (Scientific Reports), reasonable sample, targeted MS panel; but CSF riboflavin/FMN were secondary findings in a serine pathway paper, not primary endpoints
+
+    / *Relevance:*: Extends the riboflavin deficit from plasma (Naviaux 2016: FAD reduced) to the central nervous system. If riboflavin and its active form FMN are lower in CSF, this implies that the FAD depletion observed peripherally also affects the brain — where FAD-dependent enzymes (Complex I as FMN-dependent, Complex II, glutathione reductase) are critical for neuronal energy metabolism. Strengthens the case for the riboflavin master-rate-limiter hypothesis (@spec:riboflavin-master) and raises the question of whether oral riboflavin at 400 mg/day achieves adequate CSF penetration.
+
+=== Schoenen et al.\ 1998 — Riboflavin 400 mg/day for Migraine Prophylaxis (RCT)
+
+    / *Full Citation:*: Schoenen J, Jacquy J, Lenaerts M. Effectiveness of high-dose riboflavin in migraine prophylaxis: a randomized controlled trial. _Neurology_. 1998;50(2):466--470. @Schoenen1998riboflavinmigraine
+    / *DOI:*: #link("https://doi.org/10.1212/WNL.50.2.466")[10.1212/WNL.50.2.466]
+    / *Key Findings:*:
+
+        - RCT; $n = 55$ migraine patients; riboflavin 400 mg/day vs placebo × 3 months
+        - Riboflavin superior for attack frequency ($p = 0.005$) and headache days ($p = 0.012$)
+        - 59% responders ($≥$50% reduction) vs 15% placebo ($p = 0.002$); NNT = 2.3
+        - Proposed mechanism: enhanced mitochondrial energy reserve via FAD-dependent Complexes I and II
+        - Well-tolerated; no significant adverse effects at 400 mg/day
+        - *Certainty: 0.70* — RCT with clinically meaningful effect size; subsequent meta-analysis (Thompson 2017) and systematic review (2021) broadly confirm
+
+    / *Relevance:*: The migraine–ME/CFS comorbidity link makes this directly relevant. If riboflavin's mitochondrial mechanism (FAD→Complex I/II enhancement) explains its migraine efficacy, the same mechanism predicts benefit in ME/CFS where Complex I dysfunction is documented (Heng 2025) and FAD availability is reduced (Naviaux 2016, Baraniuk 2025). The 59% responder rate and NNT of 2.3 would be remarkable if even partially replicated in ME/CFS. The absence of a riboflavin trial in ME/CFS despite this 1998 evidence base is one of the field's most puzzling omissions.
+
+// =============================================================================
+
 == Circadian Rhythm and Sleep
 <sec:bib-circadian-sleep>
 // =============================================================================
