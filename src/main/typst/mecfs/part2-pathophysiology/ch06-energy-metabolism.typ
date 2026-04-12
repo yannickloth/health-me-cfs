@@ -216,15 +216,16 @@ Before mitochondria can produce ATP, substrate must reach the cell and enter the
 
 === Microcirculation and Oxygen Delivery
 <sec:microcirculation-oxygen>
+
 The energy crisis in ME/CFS begins upstream of mitochondrial ATP synthesis. Multiple independent research groups have documented vascular and microcirculatory dysfunction that directly impairs substrate and oxygen availability, creating a pre-mitochondrial bottleneck.
 
-=== Endothelial Dysfunction
+==== Endothelial Dysfunction
 
 Scherbakov et al. @Scherbakov2020 found endothelial dysfunction (ED) in 51% of ME/CFS patients using peripheral arterial tonometry (EndoPAT). This early indicator of vascular disease correlates with systemic atherosclerosis risk and predicts cardiovascular events. Haffke et al. @Haffke2023fmd measured flow-mediated dilation (FMD), the gold-standard non-invasive endothelial function test, and found severely impaired responses in ME/CFS patients (5.1% vs 8.2% in healthy controls, $p < 0.0001$). This indicates reduced nitric oxide (NO) bioavailability and impaired vasodilatory capacity.
 
 Blauensteiner et al. @Blauensteiner2021mirna identified five endothelial-regulating microRNAs (miR-21, miR-34a, miR-92a, miR-126, miR-200c) with altered expression in up to 60% of ME/CFS patients. All five microRNAs are key regulators of the NO pathway and endothelial function. This suggests dysfunction at the molecular level controlling vascular biology.
 
-=== Red Blood Cell Deformability and Rheology
+==== Red Blood Cell Deformability and Rheology
 
 Red blood cell function is critical for oxygen delivery: RBCs must deform to traverse narrow capillaries and must maintain membrane fluidity to exchange gases efficiently. Saha et al. @Saha2019 studied ME/CFS patient RBCs using ektacytometry and rheological analysis, finding:
 
@@ -236,15 +237,15 @@ Red blood cell function is critical for oxygen delivery: RBCs must deform to tra
 
 Critically, recovering ME/CFS patients showed normalization of these parameters, suggesting that RBC dysfunction is a reversible consequence of the disease rather than a primary genetic defect. The combination of reduced deformability and elevated ROS creates a cascade: stiff RBCs move slower through capillaries, allowing more time for oxidative damage, further reducing deformability and oxygen delivery.
 
-=== Capillary Structural Pathology
+==== Capillary Structural Pathology
 
 Wust et al. @Wust2024capillary conducted electron microscopy studies of muscle capillaries from ME/CFS patients and documented structural abnormalities: massive collagen IV deposition in the capillary basement membrane, thickening and narrowing of capillary passageways, and physical barriers to oxygen diffusion. These are not functional abnormalities but anatomical obstructions—capillaries cannot transport oxygen effectively due to structural remodeling. This represents a mechanical bottleneck independent of mitochondrial function.
 
-=== Brain Microvascular Insufficiency
+==== Brain Microvascular Insufficiency
 
 Godlewska et al. @Godlewska2025MRS used 7-Tesla magnetic resonance spectroscopy (7T MRS) in 24 ME/CFS patients to measure brain lactate levels at high spatial resolution. They found elevated brain lactate in the pregenual anterior cingulate cortex (pACC) and dorsal anterior cingulate cortex (d ACC)—regions critical for mood, pain processing, and autonomic regulation. Elevated brain lactate reflects anaerobic metabolism in brain tissue, consistent with localized microvascular insufficiency in these regions.
 
-=== Integration: Substrate Delivery Failure and Vascular-Primary Causation
+==== Integration: Substrate Delivery Failure and Vascular-Primary Causation
 
 Together, these findings identify a pre-mitochondrial energy bottleneck: endothelial dysfunction reduces perfusion pressure, RBC deformability limits capillary transit, structural capillary pathology blocks oxygen diffusion, and localised brain insufficiency impairs central regulatory systems. Cells cannot generate energy efficiently when they cannot access substrates, regardless of mitochondrial capacity.
 
@@ -262,7 +263,66 @@ These data do not exclude mitochondrial primary dysfunction in all patients, but
 
 === Research Gaps at Step 1
 
-GLUT4 trafficking in ME/CFS skeletal muscle has not been directly examined. The malonyl-CoA/CPT1 switch — the molecular gate that controls whether cells preferentially oxidise glucose or fatty acids — has not been characterised in ME/CFS. AMPK activators (metformin, berberine) that restore GLUT4 surface expression via AMPK-dependent mechanisms have not been trialled.
+Three substrate-delivery mechanisms remain uncharacterised in ME/CFS despite being standard targets in diabetes, mitochondrial myopathy, and obesity research: GLUT4 trafficking in skeletal muscle, the malonyl-CoA/CPT1 fuel-switch, and AMPK-activator trials (metformin, berberine) for GLUT4 restoration. The three are enumerated below, with an explicit assessment of essentiality, worst-case impact if the mechanism fails, and a priority tier.
+
+==== Prioritisation Framework
+
+To decide which gaps to study first, the following four criteria are applied to each gap:
+
+    / *Essentiality*: Is the mechanism a _sole_ pathway (no redundancy) or one of several parallel routes? A sole pathway's failure is catastrophic; a redundant pathway's failure is compensable.
+    / *Worst-case impact*: If the mechanism is fully failed, what fraction of the ~30 ATP/glucose total is lost downstream? Expressed as a percentage of Step 1's gated yield (100% of ~30 ATP).
+    / *Tractability*: How hard is the measurement to perform in patients? Scored as _easy_ (plasma/serum, existing assay), _moderate_ (PBMC or imaging, specialist lab), _hard_ (muscle biopsy, research-only assay), or _very hard_ (tissue that requires invasive sampling or post-mortem).
+    / *Therapeutic leverage*: Is a correction already available, or would development be required? _Immediate_ (FDA-approved drug exists for analogous indication), _near-term_ (off-label repurposing with reasonable prior), _long-term_ (new drug development required).
+
+A gap is _priority 1_ (highest) if its essentiality is high, worst-case impact is ≥50% of step-gated yield, and tractability is easy or moderate. A gap is _priority 2_ if any one of those is downgraded. A gap is _priority 3_ if essentiality is low, worst-case impact is modest, or tractability is hard. The framework is deliberately biased toward actionable measurements — a gap that would take a decade to measure and would not change treatment is explicitly de-prioritised against one that could be resolved in months with an existing assay.
+
+_Exception for sole-route catastrophic gaps:_ a gap that is high-essentiality (sole route, no redundancy) AND high worst-case impact (≥80%) may be assigned priority 1 even with _hard_ tractability, because the cost of not knowing is strictly higher than the cost of measuring. This exception applies to a small number of Step 3 (PDC), Step 4 (ETF/ETF-QO), and Step 10 (PGC-1α, mitophagy flux) gaps where the mechanism is both sole-route and catastrophic.
+
+_Intervention gaps_ (those asking whether a particular trial has been run, rather than whether a mechanism has been measured) are evaluated on a separate axis: priority is driven by whether the trial would change clinical practice conditional on a positive mechanistic signal, and by drug availability. Intervention gaps marked "N/A" on essentiality are conditional gaps — their priority reflects the prior probability that the upstream mechanistic gap will turn out to be positive.
+
+==== Essentiality Note
+
+None of the three listed Step 1 gaps is _individually essential_ to cellular energy production. Step 1 as a whole is essential (it gates 100% of downstream ATP), but within Step 1 there are parallel delivery routes (glucose via GLUT1/2/3/4, fatty acids via CPT1/2, and oxygen via vascular perfusion — all independently reviewed in this Step). Failure of one substrate route forces compensation through the others, not catastrophic shutdown. This is different from Steps 3 (PDC) and 7 (ANT), which are sole-route bottlenecks and therefore intrinsically high-priority. At Step 1, prioritisation must weigh the _combined_ leverage of a mechanism across multiple subroutes, not just its individual necessity.
+
+==== Gap-by-Gap Assessment
+
+#figure(
+  kind: table,
+  caption: [Step 1 research gaps — essentiality, worst-case impact, tractability, therapeutic leverage, and priority tier. Worst-case impact is expressed as the fraction of Step 1's gated ATP yield (~30 ATP/glucose = 100%) that would be lost if the mechanism fully failed, assuming no compensation from parallel routes. Priority tiers integrate all four criteria.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header(
+      [*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]
+    ),
+    [G1: GLUT4 trafficking (skeletal muscle)],
+    [Medium — one of 4 GLUT isoforms; GLUT1/3 compensate partially at rest but not under insulin-stimulated demand],
+    [~30--60% of gated yield in insulin-sensitive tissues during exertion; negligible at rest],
+    [Hard — muscle biopsy with GLUT4 immunofluorescence or surface-biotinylation assay],
+    [Immediate — metformin, berberine, exercise-mimetics (AICAR research-grade)],
+    [2],
+    [G2: Malonyl-CoA/CPT1 fuel switch],
+    [High — this is the _sole_ gate between glucose-preferential and fatty-acid-preferential metabolism; there is no parallel switch],
+    [~20--40% of gated yield if the switch is locked in either mode (prevents substrate-flexible compensation during exertion or fasting)],
+    [Moderate — plasma malonyl-CoA (specialist LC-MS) + PBMC ACC/AMPK phospho-Western],
+    [Near-term — AMPK activators (metformin); ACC inhibitors (firsocostat) in phase II for NASH],
+    [1],
+    [G3: AMPK-activator trials (metformin, berberine)],
+    [N/A — this is an intervention gap, not a mechanistic one; its value depends on G1 and G2 being confirmed failures first],
+    [Unknown pending G1/G2; bounded above by the sum of G1 and G2 impact],
+    [Easy — metformin is FDA-approved, cheap, and widely tolerated; RCT designs for ME/CFS are straightforward],
+    [Immediate — metformin is off-patent and available],
+    [2 (conditional on G1 or G2 being positive); 3 (if treated as speculative)],
+  )
+) <tab:step1-gap-priorities>
+
+==== Prioritisation Summary
+
+G2 (malonyl-CoA/CPT1 switch) is the highest-priority Step 1 gap: it is the sole gate between carbohydrate and fatty-acid oxidation, tractable via plasma and PBMC assays, and has an immediate therapeutic anchor (metformin). G1 (GLUT4 trafficking) is priority 2 because its measurement requires muscle biopsy — the main barrier is tractability, not impact. G3 (metformin/berberine RCT) is conditionally priority 2: worth pursuing if a positive mechanistic signal emerges from G1 or G2, but not worth a standalone RCT without one.
+
+None of the three gaps is essential to the chain in the way that PDC (Step 3) or ANT (Step 7) is. Fully resolving all three would close a significant diagnostic and therapeutic gap in insulin-sensitive tissues, but Step 1 has enough parallel redundancy (GLUT1/3, alternative fuel sources, passive oxygen diffusion at low demand) that its failure mode tends to be _graded capacity loss under exertion_ rather than _absolute shutdown at rest_. This is consistent with the clinical pattern of ME/CFS: preserved baseline function with catastrophic failure under demand (Section @sec:selective-energy-dysfunction).
+
+The same four-criterion framework is applied to each subsequent step's research gaps in the subsections below. Step 1 establishes the scoring rubric; Steps 2–10 apply it without restating the criteria. See @sec:cartography-gaps for the chapter-wide summary list of uninvestigated failure modes.
 
 == Step 2: Glycolysis
 <sec:step2-glycolysis>
@@ -281,6 +341,26 @@ Direct yield: +2 ATP (net) and +2 NADH (~+5 ATP when oxidised via the malate-asp
 Glycolysis converts glucose to pyruvate in the cytoplasm, yielding 2 ATP and 2 NADH per glucose. The pathway is normally rapid but oxygen-independent, making it the fallback when mitochondrial capacity is reduced.
 
 In ME/CFS, T cell metabolic profiling by Mandarano et al.\ shows reduced basal glycolysis in both CD4#super[+] and CD8#super[+] subsets @Mandarano2020. Naviaux et al.\ identified broad glycolytic pathway abnormalities in the metabolomic signature of ME/CFS @Naviaux2016metabolomics. However, enzyme-level analysis of the individual glycolytic steps (hexokinase, phosphofructokinase, pyruvate kinase) in ME/CFS tissue has not been performed. Hexokinase II, which normally anchors to the mitochondrial outer membrane and couples glycolysis directly to oxidative phosphorylation, has not been studied in ME/CFS.
+
+
+=== Research Gaps at Step 2
+
+Three glycolytic-enzyme-level gaps remain open in ME/CFS: (G4) direct activity assay of hexokinase I/II, phosphofructokinase-1 (PFK1), and pyruvate kinase M2 (PKM2) in patient tissue; (G5) the mitochondrial-outer-membrane anchoring of hexokinase II, which normally couples glycolysis to oxidative phosphorylation; and (G6) whether PFK1 allosteric regulation (AMP/ATP, fructose-2,6-bisphosphate) is dysfunctional in ME/CFS PBMCs or muscle. Prioritisation uses the framework from @sec:step1-substrate-delivery.
+
+#figure(
+  kind: table,
+  caption: [Step 2 (Glycolysis) research gap prioritisation.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G4: Glycolytic enzyme activity assay (HK, PFK1, PKM2)], [Medium — each enzyme has isoform redundancy but PFK1 is the rate-limiting committed step], [~10--30% of gated yield (direct 2 ATP) plus indirect loss of pyruvate supply to PDC], [Moderate — enzyme activity assays on PBMC lysates are standardised; muscle requires biopsy], [Long-term — no approved enzyme-targeted therapy], [2],
+    [G5: Hexokinase II mitochondrial anchoring (VDAC association)], [High if confirmed — anchoring physically couples glycolytic ATP to ETC and regulates apoptosis], [~15--25% of gated yield via lost mito-glycolytic coupling], [Hard — requires muscle biopsy with subcellular fractionation or immuno-EM], [Long-term — HK2-displacement compounds are research tools only], [3],
+    [G6: PFK1 allosteric regulation], [Low — PFK1 is rate-limiting but its dysregulation would already be detected in G4], [Overlaps with G4], [Moderate — metabolomic F2,6BP measurement is feasible], [Long-term — no approved modulators], [3],
+  )
+) <tab:step2-gap-priorities>
+
+G4 is the highest-priority Step 2 gap because it is the single measurement that would resolve whether the reduced basal glycolysis observed by Mandarano et al.\ in PBMCs @Mandarano2020 reflects enzyme-level lesions or upstream substrate limitation. No Step 2 gap is _individually essential_ to the chain; glycolysis is a rate-limiting pipeline with parallel isoforms, so partial failure produces graded capacity loss rather than shutdown.
 
 == Step 3: Pyruvate Dehydrogenase Complex (PDC)
 <sec:step3-pdc>
@@ -319,6 +399,27 @@ The DCA reports (Comhaire 2018, $n=22$ and $n=35$) are open-label single-investi
 
 The PDK upregulation finding is conventionally framed as a pathological lesion driving energy deficit. An alternative interpretation — that PDK overactivation may be a protective cellular response to compromised ROS handling rather than a primary cause — is developed in the Cross-Cutting section (Section @spec:pdk-protective below). These framings are reconcilable by MnSOD status: patients with intact antioxidant capacity and elevated PDK represent pathological inhibition (PDK inhibition would help); patients with low MnSOD/GPX4 represent protective restriction (PDK inhibition without antioxidant support may worsen). A stratified DCA trial with baseline antioxidant biomarkers would discriminate between subgroups — but only if the biomarkers used reflect muscle and brain MnSOD/GPX4 status, not only lymphocyte levels. The Shankar 2025 finding is currently lymphocyte-based; a validation study establishing lymphocyte-to-tissue correspondence would be a prerequisite for interpretable stratification.
 
+
+=== Research Gaps at Step 3
+
+PDC sits at a sole-route bottleneck between glycolysis and the TCA cycle, so every Step 3 gap is _high essentiality_ by construction. The open gaps are: (G7) muscle-biopsy replication of the Fluge 2016 PDK1/2/4 upregulation finding @Fluge2016; (G8) direct PDC activity assay in ME/CFS muscle (not just transcriptomic inference); (G9) simultaneous measurement of all four PDC cofactors (thiamine, lipoic acid, riboflavin/FAD, NAD#super[+]) within the same cohort; and (G10) MnSOD-stratified DCA trial design to test the PDK-as-protective reinterpretation (@spec:pdk-protective).
+
+#figure(
+  kind: table,
+  caption: [Step 3 (PDC) research gap prioritisation. PDC is a sole-route pipeline gate; essentiality is high for every gap.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G7: Muscle-biopsy replication of Fluge 2016 PDK upregulation], [High — confirms or refutes the anchor finding for the PDC failure hypothesis], [Determines whether the current PDC framing is correct; up to ~83% of gated yield], [Hard — muscle biopsy qPCR + PDK Western], [Near-term — DCA is available (Comhaire 2018)], [1],
+    [G8: Direct PDC activity assay in ME/CFS muscle], [High], [Same as G7], [Hard — radioactive pyruvate decarboxylation assay requires specialist lab], [Near-term], [1],
+    [G9: Combined cofactor measurement (thiamine + LA + riboflavin + NAD#super[+])], [High — any single cofactor failure inactivates PDC], [Up to 83% if any cofactor is limiting], [Easy (individual assays all standardised) to moderate (integration)], [Immediate — all four cofactors are OTC supplements with established safety], [1],
+    [G10: MnSOD-stratified DCA trial], [Dependent on @spec:pdk-protective], [Intervention test, not a mechanism gap], [Moderate — requires stratified recruitment], [Immediate — DCA is orphan-drug available], [2],
+  )
+) <tab:step3-gap-priorities>
+
+All four gaps at Step 3 are high-essentiality because PDC is a sole-route bottleneck. G7--G9 are priority 1; G10 is priority 2 as an interventional follow-up contingent on the protective/pathological reinterpretation being tested. PDC is one of the two _individually essential_ steps in the chain (the other is Step 7 ANT export) — failure cannot be compensated by any parallel route.
+
 == Step 4: Carnitine Shuttle and Beta-Oxidation
 <sec:step4-carnitine-betaox>
 
@@ -339,7 +440,7 @@ The Vermeulen 2004 crossover ($n=30$; single-group; not independently replicated
 
 Beta-oxidation is entirely FAD-dependent: all four acyl-CoA dehydrogenases (VLCAD, LCAD, MCAD, SCAD), the ETF, and ETF-QO require riboflavin-derived FAD. If the riboflavin pathway abnormality identified by Naviaux et al.\ reflects FAD depletion, it would simultaneously impair every step of beta-oxidation. This is identical to the biochemical picture in multiple acyl-CoA dehydrogenase deficiency (MADD), for which riboflavin 400 mg/day is standard treatment @Maksoud2021nutraceuticals — yet riboflavin has not been formally trialled in ME/CFS.
 
-=== Lipid Metabolism Findings from ch06
+=== Additional Lipid Metabolism Findings
 
 
 ==== Fatty Acid Oxidation Defects
@@ -375,6 +476,28 @@ Ceramides are signaling lipids with metabolic effects:
     - *Mitochondrial effects*: Can promote apoptosis
     - *Inflammation link*: Produced in response to inflammatory signals
 
+
+=== Research Gaps at Step 4
+
+Five gaps are open at Step 4: (G11) CPT1 activity and malonyl-CoA regulation of the carbohydrate/fat fuel switch; (G12) individual acyl-CoA dehydrogenase activities (VLCAD, LCAD, MCAD, SCAD); (G13) ETF and ETF-QO function (the FAD-dependent bridge from β-oxidation to the ubiquinone pool); (G14) carnitine transporter (OCTN2/SLC22A5) expression and function; and (G15) a formal riboflavin standalone trial, given that riboflavin-responsive multiple acyl-CoA dehydrogenase deficiency (MADD) produces a clinically similar syndrome @Maksoud2021nutraceuticals. Prioritisation per @sec:step1-substrate-delivery.
+
+#figure(
+  kind: table,
+  caption: [Step 4 (Carnitine shuttle / β-oxidation) research gap prioritisation.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G11: CPT1/malonyl-CoA switch (= G2 at Step 1, restated)], [High — sole gate for long-chain FA entry], [~100% of fatty-acid-derived ATP; variable on glucose-basis], [Moderate], [Near-term — metformin, AMPK activators], [1],
+    [G12: Individual β-oxidation enzyme activities (VLCAD/LCAD/MCAD/SCAD)], [Medium — chain-length redundancy but not complete], [Up to ~60% of fatty-acid-derived ATP if one enzyme fails], [Hard — muscle biopsy with chain-length-specific assays], [Near-term — riboflavin (MADD precedent)], [2],
+    [G13: ETF / ETF-QO function], [High — sole bridge from β-oxidation FADH#sub[2] to the ubiquinone pool], [~100% of fatty-acid-derived ATP if ETF-QO fails], [Hard — muscle biopsy with electron transfer assay], [Near-term — riboflavin], [1],
+    [G14: Carnitine transporter (OCTN2/SLC22A5)], [High — sole route for carnitine uptake into muscle cells], [~100% of fatty-acid-derived ATP in muscle], [Moderate — serum carnitine + urinary carnitine (standard)], [Immediate — L-carnitine supplementation is OTC and tolerated], [1],
+    [G15: Formal riboflavin RCT], [N/A — intervention gap], [Bounded by G12+G13 impact], [Easy — riboflavin 400 mg/day is cheap and well tolerated], [Immediate], [1],
+  )
+) <tab:step4-gap-priorities>
+
+Step 4 has three priority-1 mechanism gaps (G11, G13, G14) because long-chain fatty acid oxidation has multiple _sole-route_ components (one carnitine transporter, one ETF bridge, one CPT1 switch). G15 is priority 1 as an intervention because riboflavin is already in common use for MADD and the ME/CFS metabolomic pattern is consistent with flavin deficit. Step 4 is _conditionally essential_: cells that can fully rely on glucose can survive without fatty acid oxidation, but exertion-tolerant cells (muscle, heart) depend on it, and ME/CFS patients consistently show acylcarnitine patterns suggesting the step is perturbed @Germain2020metabolic.
+
 == Step 5: Krebs Cycle — Enzyme-Level Failure Modes
 <sec:step5-krebs>
 
@@ -393,6 +516,31 @@ The Krebs cycle generates NADH and FADH#sub[2] for the ETC via eight sequential 
 *Succinate dehydrogenase (Complex II, step 6).* Succinate dehydrogenase is the only enzyme that participates in both the TCA cycle and the ETC. It contains iron-sulfur clusters and is the entry point for FADH#sub[2] electrons into the ubiquinone pool. It is therefore simultaneously vulnerable to ROS (via iron-sulfur cluster damage) and to CoQ10 deficiency (via impaired electron acceptance).
 
 *Iron-sulfur cluster assembly as a systemic bottleneck.* Aconitase, KGDHC, Complex I (which contains eight [Fe--S] clusters), Complex II, and ETF-QO all depend on iron-sulfur clusters assembled by the ISCU machinery. ISCU mutations cause exercise intolerance, myopathy, and lactic acidosis — a syndrome with significant clinical overlap with ME/CFS @MorrisMaes2014mitochondria. ISCU function has not been studied in ME/CFS. MnSOD decrease (Shankar 2025) would accelerate superoxide-mediated destruction of all iron-sulfur proteins simultaneously, creating a multi-enzyme failure pattern that could amplify the effects of any primary Complex I dysfunction.
+
+
+=== Research Gaps at Step 5
+
+Six gaps at Step 5 focus on individual TCA-enzyme measurement and the iron-sulfur cluster assembly machinery: (G16) aconitase activity (predicted low given ROS-vulnerable [4Fe--4S] cluster); (G17) KGDHC activity (shares PDC cofactors, likely co-impaired); (G18) succinate dehydrogenase (Complex II) activity; (G19) isocitrate dehydrogenase and malate dehydrogenase (both NAD#super[+]-dependent, relevant to the NAD+ gap at Step 6); (G20) ISCU iron-sulfur cluster assembly machinery; and (G21) aconitase as a biomarker of mitochondrial superoxide.
+
+#figure(
+  kind: table,
+  caption: [Step 5 (Krebs cycle) research gap prioritisation.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G16: Aconitase activity], [High — sole TCA step 2; no isoform redundancy in mitochondria], [~67% of gated yield (entire TCA downstream)], [Moderate — aconitase activity assay is standardised], [Long-term — ROS reduction only], [1],
+    [G17: KGDHC activity], [High — sole TCA step 4], [~50% of gated yield downstream], [Moderate], [Immediate — cofactor supplementation (thiamine, LA, riboflavin)], [1],
+    [G18: Succinate dehydrogenase / Complex II], [High — sole TCA step 6 and ETC entry point], [~30% of gated yield], [Moderate — SDH histochemistry is routine], [Near-term — riboflavin], [1],
+    [G19: IDH + MDH activity], [Medium — shared with NAD#super[+] pool availability], [Covered by Step 6 NAD#super[+] gap], [Moderate], [Immediate — NAD#super[+] precursors (NR/NMN)], [2],
+    [G20: ISCU iron-sulfur cluster assembly], [High — upstream of aconitase, Complex I, Complex II, ETF-QO], [Multi-step cascade; could zero-out ~80% of gated yield], [Hard — muscle biopsy with [Fe-S] cluster reconstitution], [Long-term], [2 (high impact but hard to measure and no immediate therapy)],
+    [G21: Aconitase as ROS biomarker], [N/A — biomarker repurposing], [Dependent on G16], [Moderate], [Near-term — could stratify ROS interventions], [2],
+  )
+) <tab:step5-gap-priorities>
+
+G16, G17, and G18 are priority 1: each is a sole-route TCA enzyme with standardised activity assays and either immediate (cofactor) or near-term (riboflavin) therapeutic anchors. G20 (ISCU) is the highest-impact single gap but is demoted to priority 2 because the measurement is very difficult and no immediate therapy exists — resolving it would require a multi-year research programme whereas G17 could be closed in a single cohort study.
+
+Step 5 as a whole is _individually essential_ on the glucose-oxidation branch: there is no parallel path from acetyl-CoA to NADH/FADH#sub[2] for the ETC. Any severe TCA enzyme failure shuts down aerobic ATP production on carbohydrates. The chain has compensation through ketone-body oxidation (which bypasses glycolysis and PDC but still feeds into the TCA cycle at acetyl-CoA), so Step 5 remains essential even under the ketogenic bypass hypothesis discussed in @sec:metabolism-summary.
 
 == Step 6: Key Cofactors as Cross-Cutting Failure Modes
 <sec:step6-cofactors>
@@ -415,6 +563,31 @@ Several cofactors are required by multiple steps in the chain simultaneously. Th
 
 *Thiamine (TPP precursor).* Thiamine pyrophosphate is the cofactor for the E1 subunits of both PDC and KGDHC. Functional thiamine deficiency (documented by elevated erythrocyte transketolase activation ratio in historical CFS series) would simultaneously impair pyruvate entry into the TCA cycle and reduce alpha-ketoglutarate oxidation. High-dose thiamine (600--1800 mg/day) is used in thiamine-responsive metabolic disorders and in POTS-adjacent autonomic conditions. It has not been tested in ME/CFS in a formal trial @Maksoud2021nutraceuticals.
 
+
+=== Research Gaps at Step 6
+
+Cofactor gaps are inherently high-leverage because a single cofactor gates multiple steps simultaneously. Open gaps: (G22) direct NAD#super[+] tissue measurement in ME/CFS (currently inferred from kynurenine pathway perturbation); (G23) EGRAC functional riboflavin status (the gold-standard assay, never done in ME/CFS); (G24) high-dose thiamine trial; (G25) lipoic acid status and supplementation; (G26) CoQ10 tissue (not plasma) measurement; (G27) magnesium status (required for all ATP-utilising reactions, routinely deficient in sedentary populations).
+
+#figure(
+  kind: table,
+  caption: [Step 6 (Cofactors) research gap prioritisation.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G22: NAD#super[+] tissue measurement], [High — NAD#super[+] gates Complex I, PDC, KGDHC, IDH, MDH, sirtuins], [Up to ~83% of gated yield across multiple steps], [Moderate — plasma NAD#super[+]/NADH LC-MS is available; tissue requires biopsy], [Immediate — nicotinamide riboside (NR) is OTC], [1],
+    [G23: EGRAC functional riboflavin assay], [High — gates PDC E3, KGDHC E3, β-ox, Complex I, Complex II], [Up to ~83%], [Easy — EGRAC is a simple erythrocyte assay], [Immediate — riboflavin 400 mg/day], [1],
+    [G24: High-dose thiamine trial], [High — gates PDC E1 and KGDHC E1], [Up to ~50%], [Easy — erythrocyte transketolase activation is standardised], [Immediate — thiamine is OTC and cheap], [1],
+    [G25: Lipoic acid status and supplementation], [Medium — gates PDC E2 and KGDHC E2 but cellular synthesis is normally sufficient], [Up to ~50% if fully depleted; rare], [Hard — no routine assay; requires LC-MS], [Immediate — ALA is OTC], [2],
+    [G26: CoQ10 tissue (muscle biopsy) measurement], [High — sole mobile electron carrier between Complexes I/II and III], [~50% of gated yield], [Hard — muscle biopsy], [Immediate — CoQ10 supplementation is widely used], [2],
+    [G27: Magnesium status (serum + RBC)], [High — required by every kinase and ATPase], [Indirect; gates ATP _utilisation_ more than production], [Easy — RBC magnesium is available], [Immediate — magnesium supplementation is OTC], [1],
+  )
+) <tab:step6-gap-priorities>
+
+Step 6 has the highest density of priority-1 gaps in the chapter (G22, G23, G24, G27). This reflects the cross-cutting nature of cofactors: a single measurement resolves multiple downstream steps simultaneously. G23 (EGRAC) is especially high-value because the riboflavin master-rate-limiter hypothesis (@spec:riboflavin-master) predicts that ≥30% of ME/CFS patients will have EGRAC ≥1.3, and the assay is both cheap and immediately actionable.
+
+Step 6 is not a distinct pipeline step in the stoichiometric sense — cofactors are consumed catalytically, not stoichiometrically, and their supply is typically upstream (diet, absorption, tissue-level handling). But the _functional essentiality_ of Step 6 is uniquely high because a single cofactor failure cascades across multiple downstream steps. Cofactor gaps are therefore disproportionately leveraged: if any one of G22--G27 turns out positive, multiple apparent failures at Steps 3, 5, and 7 can be explained by a single upstream lesion.
+
 == Step 7: ATP Export — The Adenine Nucleotide Translocator (ANT)
 <sec:step7-ant>
 
@@ -427,6 +600,24 @@ Even if ATP is synthesised normally in the mitochondrial matrix, it must exit vi
 Even if ATP is synthesised normally in the mitochondrial matrix, it must exit via the adenine nucleotide translocator (ANT), which exchanges matrix ATP#super[4-] for cytosolic ADP#super[3-] across the inner membrane. ANT is not a passive channel but an active exchanger that consumes one proton's worth of membrane potential per cycle. It is the sole route for ATP export from mitochondria.
 
 Four ANT isoforms exist (ANT1--4) with tissue-specific expression; ANT1 predominates in cardiac and skeletal muscle. Autoantibodies against ANT (antimitochondrial antibodies of the M4 subtype, AMA-M4) are well-characterized in primary biliary cirrhosis and have been described in dilated cardiomyopathy. Given the broad autoantibody findings in ME/CFS (including antibodies against beta-adrenergic receptors, muscarinic receptors, and other membrane proteins @Sotzny2021), ANT-specific autoantibodies represent a mechanistically plausible but *entirely unstudied* failure mode: a cell with normal ETC function could still be energy-starved if ANT is blocked by autoantibody. This distinction matters because it would not be detectable by standard mitochondrial function assays measuring oxygen consumption.
+
+
+=== Research Gaps at Step 7
+
+Only one gap at Step 7, but it is _catastrophic_ and _entirely unstudied_: (G28) ANT autoantibody (AMA-M4) prevalence in ME/CFS. ANT is a sole-route ATP exporter; failure traps all matrix-produced ATP inside mitochondria regardless of how efficiently it is made.
+
+#figure(
+  kind: table,
+  caption: [Step 7 (ANT) research gap prioritisation.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G28: ANT autoantibodies (AMA-M4 subtype)], [High — ANT is the sole ATP export route; no redundancy], [~93% of gated yield (~28/30 ATP, the matrix-produced fraction)], [Easy — ELISA assay established in primary biliary cirrhosis context], [Long-term — no approved intervention for anti-ANT autoimmunity, but IVIG/plasmapheresis used in analogous autoimmune conditions], [1],
+  )
+) <tab:step7-gap-priorities>
+
+G28 is the single highest-impact, lowest-cost gap in the entire chapter: Step 7 is one of only two _individually essential_ steps (with Step 3 PDC), a single ELISA can resolve it, and ME/CFS already has broad GPCR autoantibody findings @Sotzny2021 providing a mechanistic prior. There is no good reason for this gap to remain open. *Priority 1, highest-leverage single gap in Chapter 6.*
 
 == Step 8: Creatine Phosphate Shuttle
 <sec:step8-creatine-shuttle>
@@ -453,6 +644,27 @@ Creatine supplementation routinely elevates serum creatinine by approximately 20
 ]
 
 *NOT STUDIED:* The creatine transporter (SLC6A8) and the synthesis enzymes (AGAT, GAMT) have not been characterised in ME/CFS. Whether brain creatine deficiency reflects impaired synthesis, impaired transport into cells, or increased consumption (e.g., by activated astrocytes or microglia) is unknown.
+
+
+=== Research Gaps at Step 8
+
+Four gaps at Step 8 revolve around creatine-phosphate-shuttle components: (G29) creatine transporter SLC6A8 expression; (G30) creatine synthesis enzymes AGAT (l-arginine:glycine amidinotransferase) and GAMT (guanidinoacetate N-methyltransferase); (G31) mitochondrial vs cytosolic creatine kinase isoform balance; (G32) a placebo-controlled creatine RCT to confirm the Godlewska 2024 feasibility signal @Godlewska2024creatineMRS.
+
+#figure(
+  kind: table,
+  caption: [Step 8 (Creatine shuttle) research gap prioritisation. Note that creatine is a kinetic buffer: failure degrades demand-response capacity, not per-cycle ATP count.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G29: SLC6A8 (creatine transporter)], [Medium — sole route for creatine uptake into muscle and brain, but creatine can be partially synthesised _in situ_], [Kinetic, not stoichiometric; affects burst capacity not steady-state ATP], [Moderate — serum creatinine tracking plus MRS of brain creatine], [Immediate — creatine supplementation is OTC], [2],
+    [G30: AGAT + GAMT (synthesis enzymes)], [Low — dietary creatine compensates], [Minor in presence of diet], [Hard — specialist LC-MS or biopsy], [Immediate — creatine supplementation bypasses both], [3],
+    [G31: Mitochondrial vs cytosolic CK isoform balance], [High if disrupted — mito-CK is the _direct_ coupler of matrix ATP to cytosolic demand], [Kinetic; up to 100% of demand-response capacity], [Hard — muscle biopsy with isoform fractionation], [Long-term], [2],
+    [G32: Placebo-controlled creatine RCT], [N/A — confirmatory intervention], [Determines whether the Godlewska signal is real], [Easy — RCT design is simple], [Immediate — creatine is OTC], [1],
+  )
+) <tab:step8-gap-priorities>
+
+G32 is priority 1 because it closes an intervention question using an existing, cheap, tolerated supplement — the Godlewska 2024 feasibility result (@ach:godlewska2024-creatine) needs blinded confirmation before wider clinical recommendation. Step 8 is not individually essential to ATP production (creatine shuttles are kinetic buffers) but its failure mode is _exactly_ the demand-response failure pattern observed in PEM, making it a candidate mechanism for the selective-dysfunction hypothesis (@hyp:selective-energy).
 
 == Step 9: ROS Scavenging — The Mitochondrial Antioxidant Defence
 <sec:step9-ros-scavenging>
@@ -577,6 +789,29 @@ Lipid peroxidation products serve as biomarkers:
 
 Studies have found elevated markers of lipid peroxidation in ME/CFS patients, supporting the role of oxidative stress.
 
+
+=== Research Gaps at Step 9
+
+Six gaps at Step 9, all concerning the mitochondrial antioxidant machinery: (G33) PRDX3 expression in ME/CFS patient tissue (PRDX3-KO mice phenotypically resemble ME/CFS); (G34) NRF2 pathway activation status; (G35) thioredoxin / thioredoxin reductase (TRX/TXNRD) system; (G36) GPX4 lipid-peroxidation surveillance; (G37) direct muscle F2-isoprostanes (the gold-standard lipid peroxidation biomarker); (G38) mitochondrial glutathione (mGSH) pool.
+
+#figure(
+  kind: table,
+  caption: [Step 9 (ROS scavenging) research gap prioritisation. Step 9 is net-negative for ATP; failure is amplificatory, propagating damage to Steps 3, 5, 6, 7.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G33: PRDX3 expression], [High — secondary H#sub[2]O#sub[2] scavenger downstream of MnSOD], [Indirect: amplifies aconitase, Complex I, cardiolipin damage], [Hard — muscle biopsy Western or IHC], [Long-term], [2],
+    [G34: NRF2 pathway (master antioxidant regulator)], [High — upregulates MnSOD, GPX1, catalase, thioredoxin, HO-1 simultaneously], [Indirect but widespread], [Moderate — NRF2 target mRNA panel in PBMCs (NQO1, HO-1, GCLC)], [Immediate — sulforaphane (broccoli sprouts), dimethyl fumarate (approved for MS)], [1],
+    [G35: Thioredoxin / TXNRD system], [High — parallel to GSH as a major redox buffer], [Indirect; could mask or worsen G33], [Moderate — erythrocyte TXNRD activity is available], [Long-term], [2],
+    [G36: GPX4 lipid peroxidation surveillance], [High — sole enzyme preventing ferroptotic membrane damage], [Indirect; links to cardiolipin peroxidation (@spec:cardiolipin-peroxidation)], [Moderate — Shankar 2025 has some data @Shankar2025oxidativestress], [Near-term — selenium, vitamin E, CoQ10], [1],
+    [G37: Muscle F2-isoprostanes], [N/A — biomarker, not mechanism], [Objective quantification of the ROS-damage state], [Moderate — LC-MS assay available], [Immediate — baseline and response-to-intervention marker], [1],
+    [G38: Mitochondrial glutathione pool (mGSH)], [High — the cytosolic GSH compartment is not equivalent; mGSH is separately regulated], [Direct on ROS scavenging capacity], [Hard — requires subcellular fractionation from biopsy], [Immediate — NAC, GSH precursors already in use], [2],
+  )
+) <tab:step9-gap-priorities>
+
+G34 (NRF2 pathway) and G37 (F2-isoprostanes) are priority 1 because they are tractable PBMC/plasma assays with immediately actionable interventions (sulforaphane, dimethyl fumarate; antioxidant dose-titration). G36 (GPX4) is priority 1 because it connects directly to cardiolipin peroxidation (@spec:cardiolipin-peroxidation) and is already partially characterised by Shankar 2025 @Shankar2025oxidativestress — the remaining work is replication. Step 9 as a whole is _amplificatory_ rather than stoichiometric: its failure does not reduce per-cycle ATP output but accelerates damage to every other step, which is why antioxidant-targeted interventions have the potential for non-linear benefit once the primary ROS source is identified.
+
 == Step 10: Mitochondrial Dynamics and Biogenesis
 <sec:step10-dynamics-biogenesis>
 
@@ -645,6 +880,28 @@ The observation that reduced physical activity may impair AMPK-mediated mitophag
 The mitochondrial fragmentation effect was predominantly observed in female patients; male-specific mechanisms remain unexplored. The HUVEC model relies heavily on glycolysis, which may mask oxidative phosphorylation effects that would manifest in more OXPHOS-dependent tissues (skeletal muscle, neurons). The IgG purification method did not effectively capture pentameric IgM, which may carry additional pathogenic activity. Not all ME/CFS patients' IgG induced fragmentation, consistent with disease heterogeneity. Independent replication is pending.
 ]
 
+
+=== Research Gaps at Step 10
+
+Five gaps at Step 10, all concerning the longitudinal capacity-setting machinery: (G39) direct PGC-1α protein and mRNA in ME/CFS tissue (the master regulator of biogenesis, _entirely unstudied_); (G40) DRP1/FIS1 vs MFN1/2/OPA1 balance (fission/fusion tone); (G41) direct mitophagy flux in patient cells (PINK1/Parkin co-localisation, LC3-II turnover); (G42) mtDNA copy number in skeletal muscle (inconsistent findings from blood; muscle is the relevant tissue); (G43) TFAM expression (mitochondrial transcription factor A, downstream of PGC-1α).
+
+#figure(
+  kind: table,
+  caption: [Step 10 (Dynamics and biogenesis) research gap prioritisation. Step 10 failure is longitudinal — it reduces total mitochondrial capacity over days to weeks rather than per-cycle output.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
+    [G39: PGC-1α protein and mRNA in tissue], [High — master transcription factor gating every biogenesis target (TFAM, NRF-1, MnSOD, cytochrome c, etc.)], [Longitudinal; halving PGC-1α halves new mitochondrial synthesis rate], [Hard — muscle biopsy Western + qPCR], [Near-term — low-dose resveratrol, AICAR, exercise-mimetics (research-grade)], [1],
+    [G40: DRP1/FIS1 vs MFN1/2/OPA1 balance (fission/fusion tone)], [High — determines whether damaged segments are isolated for mitophagy or kept in the network], [Kinetic; affects quality-control efficiency], [Hard — muscle biopsy IF + Western], [Long-term — Mdivi-1 is research-only], [2],
+    [G41: Direct mitophagy flux (PINK1/Parkin, LC3-II turnover)], [High — the _only_ mechanism for removing damaged mitochondria], [Determines whether damaged mitochondria accumulate (G39 + G40 interaction)], [Hard — PBMC mitophagy flux assay exists but specialist], [Near-term — urolithin A (OTC, phase 3 in sarcopenia)], [1],
+    [G42: Skeletal muscle mtDNA copy number], [Medium — proxy for total mitochondrial content], [~proportional to mtDNA depletion], [Moderate — muscle biopsy qPCR is standard], [Long-term], [2],
+    [G43: TFAM expression], [Medium — downstream of PGC-1α; G39 covers most of the signal], [Overlaps with G39], [Moderate], [Long-term], [3],
+  )
+) <tab:step10-gap-priorities>
+
+G39 (PGC-1α) is the highest-priority Step 10 gap: despite its centrality to the PGC-1α suppression hypothesis (@hyp:pgc1alpha-suppression), it has _never been directly measured in ME/CFS tissue_. Closing this single gap would convert an untested hypothesis into either a confirmed mechanism or a refuted one, and urolithin A (approved OTC for sarcopenia) provides an immediate therapeutic anchor conditional on a positive G41 finding. Step 10 is _conditionally essential_: cells can run on existing mitochondria for days without biogenesis, but sustained dysfunction depletes capacity non-linearly via a damaged-mitochondria accumulation cycle — which is exactly the pattern proposed for post-exertional malaise.
+
 == Summary: Uninvestigated Failure Modes with Therapeutic Implications
 <sec:cartography-gaps>
 
@@ -680,7 +937,7 @@ Mitochondria buffer cytosolic calcium and use it for signaling:
     - *Apoptosis signaling*: Calcium overload can trigger cell death pathways
     - *Enzyme regulation*: Many mitochondrial enzymes are calcium-sensitive
 
-===== The Na#super[+]/K#super[+]-ATPase Failure Cascade
+==== The Na#super[+]/K#super[+]-ATPase Failure Cascade
 
 The sodium-potassium pump (Na#super[+]/K#super[+]-ATPase) normally maintains a steep electrochemical gradient: 3~Na#super[+] exported for every 2~K#super[+] imported per cycle. This gradient is essential for nerve signalling, glucose transport, cell volume regulation, and muscle contraction. In ME/CFS, multiple mechanisms converge to slow this pump:
 
@@ -718,23 +975,23 @@ The mechanisms of mitochondrial damage described above---oxidative stress, calci
 
 T3 regulates mitochondrial function through two distinct pathways operating on different timescales @Singh2022bioenergetic @Liao2024thyroidMito. (Note: the relative quantitative importance of T3 versus other mitochondrial regulators---insulin signalling, AMPK, mTOR, glucocorticoids, PPAR ligands---varies by tissue and metabolic context. The description below presents the T3-specific pathways; it does not imply T3 is the dominant regulator in all settings.)
 
-===== Nuclear/Genomic Pathway (Hours to Days)
+==== Nuclear/Genomic Pathway (Hours to Days)
 
 T3 binds nuclear thyroid hormone receptors (TR$alpha$1 and TR$beta$1), which act as ligand-dependent transcription factors at thyroid response elements (TREs) in nuclear DNA. This activates a transcriptional cascade: T3 $arrow.r$ PGC-1$alpha$ induction $arrow.r$ NRF-1/GABPA (Nuclear Respiratory Factor 2, distinct from the Nrf2/NFE2L2 antioxidant pathway) coactivation $arrow.r$ TFAM (mitochondrial transcription factor A) expression $arrow.r$ mtDNA replication and transcription. The net result is increased mitochondrial mass, mtDNA copy number, and respiratory capacity over 1--several days. T3 also coordinates fission, mitophagy, and biogenesis through a pathway proposed to involve ERR$alpha$-dependent ULK1 and DRP1 expression @Singh2017thyroidERR: in this proposed model, T3-induced DRP1-mediated fission physically separates damaged mitochondrial segments, enabling their PINK1/Parkin-dependent mitophagic clearance, while PGC-1$alpha$ simultaneously drives biogenesis of replacement organelles (demonstrated in specific cell types in vitro; generalisability to skeletal muscle and neurons is assumed but not confirmed). This quality-control cycle, if operative, would ensure that the mitochondrial population remains functional---a process compromised when tissue T3 is low.
 
-===== Direct Mitochondrial Pathway (Minutes to Hours)
+==== Direct Mitochondrial Pathway (Minutes to Hours)
 
 The full-length TR$alpha$1 mRNA also encodes two truncated proteins that are imported directly into mitochondria @WrutniakCabello2018p43. The p43 isoform (~43 kDa) localises to the mitochondrial matrix, binds T3, and evidence from in vitro transactivation assays suggests it functions as a T3-dependent transcription factor of the mitochondrial genome---binding putative TREs in the mitochondrial D-loop region to promote synthesis of the 13 mitochondrial-encoded OXPHOS subunits. This dual system (nuclear + mitochondrial) ensures coordinated expression of both nuclear-encoded and mtDNA-encoded respiratory chain components; loss of either pathway produces stoichiometric imbalance and assembly defects.
 
-===== Supercomplex Assembly and Cardiolipin
+==== Supercomplex Assembly and Cardiolipin
 
 T3 promotes the assembly of individual respiratory complexes (I, III, IV) into *supercomplexes* (respirasomes), which channel electrons more efficiently and limit ROS generation @Singh2022bioenergetic. Supercomplex stability depends on cardiolipin, the signature phospholipid of the inner mitochondrial membrane: T3 rapidly increases cardiolipin synthase activity, and cardiolipin acts as molecular "glue" bridging Complexes III and IV (multiple cardiolipin molecules per interface in cryo-EM structures, with variable occupancy across species). Hypothyroidism causes reduced cardiolipin content and impaired supercomplex formation---a phenotype that overlaps with the supercomplex disruption produced by WASF3 overexpression, though via distinct mechanisms (@ach:wasf3-mechanism below). T3 deficiency and WASF3 elevation could in principle disrupt supercomplexes through complementary mechanisms (reduced assembly signals vs. active disassembly). Whether these two mechanisms co-occur in individual ME/CFS patients has not been tested---no study has measured both WASF3 levels and tissue T3 in the same cohort @Liao2024thyroidMito.
 
-===== 3,5-Diiodothyronine (T2): Rapid Mitochondrial Effects
+==== 3,5-Diiodothyronine (T2): Rapid Mitochondrial Effects
 
 3,5-Diiodo-L-thyronine (3,5-T2), a thyroid hormone metabolite previously considered inactive, has rapid non-genomic effects on mitochondria that are independent of protein synthesis and evident within one hour @Lombardi2015T2skeletal. In vitro evidence suggests 3,5-T2 interacts with Complex IV (cytochrome $c$ oxidase), modulating the allosteric ATP-inhibitory conformation---effectively reducing the brake on terminal electron transfer (the precise binding subunit remains to be confirmed by structural studies). 3,5-T2 also stimulates fatty acid oxidation (+80--104% increase with palmitoyl substrates) via SIRT1 activation of AMPK, which phosphorylates and inhibits ACC, reducing malonyl-CoA production and thereby relieving CPT1-mediated inhibition of mitochondrial fatty acid import. T2 reduces H#sub[2]O#sub[2] production while increasing respiration rate, suggesting it shifts mitochondria toward efficient coupled respiration. Whether T2 levels are altered in ME/CFS has not been investigated.
 
-===== Relevance to ME/CFS: The Thyroid--Mitochondrial Convergence
+==== Relevance to ME/CFS: The Thyroid--Mitochondrial Convergence
 
 #fhypothesis(title: [Low Tissue T3 as Amplifier of Mitochondrial Dysfunction in a Subset of ME/CFS Patients], falsifiability: [weakly], justification: [Falsified if (a) intramuscular T3 concentrations in ME/CFS patients with serum Low T3 are normal, or (b) T3 supplementation in Low T3 ME/CFS patients fails to improve the primary endpoint of maximal coupled respiration in muscle biopsy respirometry at 12 weeks])[
 *Certainty: 0.45.* In the ~16% of ME/CFS patients with documented Low T3 Syndrome (Section @sec:thyroid in Chapter @ch:endocrine), reduced tissue T3 availability may amplify several of the mitochondrial damage mechanisms described in this section through a convergent cascade. Note that this hypothesis applies specifically to the Low T3 subgroup and does not claim to explain mitochondrial dysfunction in ME/CFS patients with normal thyroid profiles:
@@ -838,25 +1095,25 @@ These mechanisms reveal a critical distinction: ATP production defects (failing 
 
 Immune activation is not independent of metabolic dysfunction—instead, immune-mediated pathways actively maintain and amplify the energy crisis. This creates a feedback loop where immune activation perpetuates energy failure.
 
-=== Tryptophan-Kynurenine Metabolism and NAD#super[+] Depletion
+==== Tryptophan-Kynurenine Metabolism and NAD#super[+] Depletion
 
 The tryptophan-kynurenine pathway is one of the primary immune-activated routes of tryptophan catabolism. Elevated kynurenine production is associated with chronic immune activation (elevated IFN-$gamma$, TNF-$alpha$). However, the balance of kynurenine metabolites matters: normal kynurenine metabolism feeds into NAD#super[+] synthesis, supporting mitochondrial energy production; imbalanced metabolism produces neurotoxic metabolites while depleting NAD#super[+].
 
 A recent metabolomics study @Abujrais2024tryptophan (published in ACS Chemical Neuroscience) profiled tryptophan metabolism in ME/CFS plasma and found higher 3-hydroxykynurenine (a neurotoxic branch product), lower kynurenic acid (neuroprotective, NAD#super[+]-producing), and lower quinolinic acid (a neurotoxic NMDA agonist that also feeds NAD#super[+] synthesis via QPRT). The net effect: immune-mediated tryptophan catabolism is diverted away from NAD#super[+] synthesis and toward neurotoxic branches. This directly links immune activation to NAD#super[+] depletion and impaired mitochondrial function.
 
-=== T-Cell Exhaustion with Metabolic Reprogramming
+==== T-Cell Exhaustion with Metabolic Reprogramming
 
 Iu et al. @iu2024tcell_exhaustion (published in PNAS) profiled CD8#super[+] T cell epigenetics and metabolism in ME/CFS, finding that T cells are epigenetically primed toward an exhausted phenotype (high PD-1, TIM-3, LAG-3) while simultaneously showing altered metabolic reprogramming. Post-exercise, this metabolic dysregulation worsened. This suggests T cells cannot sustain normal metabolic flexibility in response to immune demands, contributing to both the dysfunctional immune response and persistent metabolic strain.
 
-=== Exaggerated Innate Immune Response with Metabolic Consequences
+==== Exaggerated Innate Immune Response with Metabolic Consequences
 
 Che, Hornig, and Lipkin @Che2025 (published in npj Metabolic Health and Disease) documented an exaggerated innate immune response to standard challenges in ME/CFS. Their metabolomic data showed that immune activation is associated with impaired citric acid cycle (TCA cycle) flux and reduced beta-oxidation capacity. Mechanistically, IFN-gamma (elevated in their cohort) accelerates tryptophan degradation via indoleamine 2,3-dioxygenase (IDO), directly linking innate immune state to NAD#super[+] depletion and energy failure.
 
-=== Oxidative Stress in Immune Cells
+==== Oxidative Stress in Immune Cells
 
 Paul and Bhatt @PaulBhatt2025oxidative (published in PNAS) measured reactive oxygen species (ROS) in circulating lymphocytes from ME/CFS and Long COVID patients. They found elevated ROS in memory T cells, with striking sex differences: females showed higher ROS production and T-cell hyperproliferation; males showed evidence of mitochondrial lipid oxidative damage. Critically, metformin treatment attenuated T-cell hyperproliferation in vitro, suggesting ROS-driven immune dysregulation may be pharmacologically reversible.
 
-=== Multi-Omics Integration: The Full Picture
+==== Multi-Omics Integration: The Full Picture
 
 The Heng 2025 multi-omics study @heng2025mecfs integrated cellular ATP profiling with plasma proteomics from 61 matched pairs, revealing coordinated abnormalities: elevated AMP and ADP with a reduced ATP/ADP ratio (indicating cellular energy stress), altered immune cell subsets skewed toward less mature effector populations, and elevated vascular dysfunction markers (VWF, fibronectin, thrombospondin-1). A 7-biomarker panel spanning these three domains achieved 91% diagnostic accuracy (Section @sec:systems-biology in Chapter @ch:integrative-models).
 
@@ -871,7 +1128,7 @@ Together, these studies demonstrate that energy metabolism dysfunction in ME/CFS
 
 Integrating findings from vascular, metabolic, and immune domains reveals a multi-level positive feedback loop where dysfunction at any level amplifies all others. This model, synthesized by Wirth, Scheibenbogen, and colleagues, explains both the severity and persistence of the energy crisis.
 
-=== The Cycle in Detail
+==== The Cycle in Detail
 
 The vicious cycle operates as follows:
 
@@ -895,7 +1152,7 @@ The vicious cycle operates as follows:
 
 This is not a linear pathway with a beginning and end. Rather, it is a positive feedback loop where each step amplifies the next, and dysfunction propagates in all directions simultaneously.
 
-=== Multi-Level Integration
+==== Multi-Level Integration
 
 Critically, this cycle operates at multiple biological levels simultaneously:
 
@@ -906,7 +1163,7 @@ Critically, this cycle operates at multiple biological levels simultaneously:
 
 No single level can be addressed in isolation. A therapeutic intervention that improves mitochondrial function alone, without addressing vascular dysfunction or ion dysregulation, will have limited impact because ROS and calcium overload will continue to damage mitochondria. Similarly, anti-inflammatory therapy alone cannot restore energy if vascular dysfunction persists. Effective treatment likely requires simultaneous multi-level intervention.
 
-=== Evidence for the Integrated Cycle
+==== Evidence for the Integrated Cycle
 
 Appelman et al. @Appelman2024muscle (published in Nature Communications) studied muscle mitochondrial function before and after post-exertional malaise (PEM). They found that exercise triggered reductions in OXPHOS capacity and succinate dehydrogenase (SDH) activity, consistent with mitochondrial damage during PEM. Importantly, this occurred despite normal cardiopulmonary responses during exercise—the heart and lungs functioned normally, confirming that the energy crisis is peripheral (muscle) and mitochondrial, not cardiopulmonary.
 
@@ -919,7 +1176,7 @@ ME/CFS pathophysiology is fundamentally a multi-level positive feedback loop whe
 ] <hyp:vicious-cycle-integrated>
 
 #limitation(title: [Multi-Level Vicious Cycle: Integrated Loop Not Demonstrated])[
-The vicious cycle model (vascular $\to$ ischemia $\to$ ion dysregulation $\to$ mitochondrial damage $\to$ ROS $\to$ vascular amplification) integrates findings from multiple independent research groups, but no single study has demonstrated the complete loop operating in ME/CFS patients. Each link is supported by evidence from separate cohorts using different methodologies. The integration is logical inference, not empirical demonstration. Positive feedback loops are inherently difficult to distinguish from parallel independent dysfunctions that happen to co-occur. The therapeutic implication that multi-level targeting is required has not been tested against sequential single-target intervention.
+The vicious cycle model (vascular $arrow.r$ ischemia $arrow.r$ ion dysregulation $arrow.r$ mitochondrial damage $arrow.r$ ROS $arrow.r$ vascular amplification) integrates findings from multiple independent research groups, but no single study has demonstrated the complete loop operating in ME/CFS patients. Each link is supported by evidence from separate cohorts using different methodologies. The integration is logical inference, not empirical demonstration. Positive feedback loops are inherently difficult to distinguish from parallel independent dysfunctions that happen to co-occur. The therapeutic implication that multi-level targeting is required has not been tested against sequential single-target intervention.
 ]
 
 == Cross-Cutting Hypotheses
@@ -974,7 +1231,7 @@ Elamipretide (SS-31/bendavia) is a mitochondria-targeted tetrapeptide that selec
 == Consequences of Energy Deficits
 <sec:energy-consequences>
 
-==== Cellular Function Impairment
+=== Cellular Function Impairment
 
 Inadequate ATP affects all cellular processes:
 
@@ -983,7 +1240,7 @@ Inadequate ATP affects all cellular processes:
     - *Cell signaling*: Many signaling pathways require ATP
     - *Membrane function*: Active transport and vesicle trafficking
 
-==== Tissue-Specific Effects
+=== Tissue-Specific Effects
 
 Different tissues manifest energy deficits differently:
 
@@ -1008,7 +1265,7 @@ Different tissues manifest energy deficits differently:
     - Abnormal cytokine production
     - Ineffective pathogen clearance
 
-==== Calcium Toxicity, Exercise Chunking, and Threshold Dynamics
+=== Calcium Toxicity, Exercise Chunking, and Threshold Dynamics
 
 The calcium toxicity model (Section @sec:calcium-dysregulation) has a critical therapeutic implication: calcium overload is a _threshold_ phenomenon, not a linear dose-response. The Na#super[+]/K#super[+]-ATPase can maintain ionic homeostasis below a certain workload; above it, intracellular sodium accumulates faster than the pump can clear, NCX reverses, and calcium floods in. Damage is then proportional to the _area above threshold_, not to total work performed.
 
@@ -1027,7 +1284,7 @@ If correct, the optimal rest interval is patient-specific and depends on individ
 *Certainty: 0.40*---the logic follows directly from the calcium toxicity model and known Na#super[+]/K#super[+]-ATPase physiology, but the threshold dynamics have not been directly measured during exercise chunking in ME/CFS.
 ] <spec:exercise-calcium-threshold>
 
-==== Connection to Post-Exertional Malaise
+=== Connection to Post-Exertional Malaise
 
 Mitochondrial dysfunction provides a compelling explanation for PEM:
 
@@ -1119,7 +1376,7 @@ The sense of extreme vulnerability—“I wouldn't amount to shit in a fight”�
 
 This vulnerability is not imagined or exaggerated—it is a direct consequence of documented metabolic, cardiovascular, and mitochondrial dysfunction that prevents reliable energy mobilization on demand.
 
-==== Exercise-Induced Metabolic Failure: Two-Day CPET Evidence
+=== Exercise-Induced Metabolic Failure: Two-Day CPET Evidence
 
 The most compelling objective evidence for exercise-induced metabolic failure comes from two-day cardiopulmonary exercise testing (CPET) protocols. Unlike single-day assessments that may be confounded by deconditioning or effort, the two-day protocol documents the failure to reproduce initial performance after 24 hours—a hallmark of post-exertional malaise @keller2024cpet.
 
@@ -1147,7 +1404,7 @@ Additionally, the mecfsscience.org analysis#footnote[mecfsscience.org is a non-p
 The two-day CPET is therefore best understood as a research tool demonstrating the biological reality of PEM at the group level, rather than as a clinical diagnostic test for individual patients.
 ]
 
-===== Deconditioning Alone Cannot Explain ME/CFS Exercise Intolerance
+==== Deconditioning Alone Cannot Explain ME/CFS Exercise Intolerance
 <sec:deconditioning-refutation>
 
 A persistent alternative explanation for exercise intolerance in ME/CFS is that patients are merely deconditioned from inactivity. Note that deconditioning may be a _contributing_ factor (as discussed above in the mitophagy section, which describes deconditioning as both a consequence and a cause of mitochondrial quality control failure through reduced AMPK signalling). The claim examined here is the stronger one: whether deconditioning is a _sufficient_ explanation. NASA bed rest studies provide a direct test of this stronger claim @MECFSScience2024deconditioning. In controlled bed rest experiments, prolonged immobilisation produces measurable deconditioning---but the resulting phenotype differs qualitatively from ME/CFS:
@@ -1157,7 +1414,7 @@ A persistent alternative explanation for exercise intolerance in ME/CFS is that 
     - *VO#sub[2]max range:* ME/CFS patients' aerobic capacity typically falls in the 10th--25th percentile of population norms---reduced, but within the range of sedentary individuals rather than in the severely deconditioned range @MECFSScience2024deconditioning @keller2024cpet. This overlap complicates the distinction: the VO#sub[2]max values of ME/CFS patients and sedentary but healthy controls overlap substantially, meaning that aerobic capacity alone cannot differentiate between deconditioning and ME/CFS-specific pathology. The Day 2 CPET decline (Achievement @ach:two-day-cpet) provides the additional discriminating evidence.
     - *Birth cohort evidence:* As reviewed by mecfsscience.org, prospective birth cohort studies show no association between pre-illness physical activity levels and subsequent development of ME/CFS, arguing against a deconditioning pathway @MECFSScience2024deconditioning
 
-===== The Boom-and-Bust Model: Accelerometer Evidence
+==== The Boom-and-Bust Model: Accelerometer Evidence
 <sec:boom-bust-myth>
 
 The "boom-and-bust" behavioural model posits that ME/CFS patients alternate between overexertion on "good days" and prolonged recovery, maintaining illness through a maladaptive activity pattern. This model has informed some cognitive behavioural therapy (CBT) approaches and graded exercise therapy (GET) recommendations, though proponents of these approaches also cite deconditioning and fear-avoidance models as complementary rationales. Multiple accelerometer studies measuring objective physical activity patterns have not found boom-and-bust cycling as the dominant activity pattern in established ME/CFS patients @MECFSScience2024boombust:
@@ -1359,7 +1616,7 @@ Formal subtype analysis based on the selective dysfunction framework is develope
 <sec:amino-acid>
 
 
-==== Tryptophan Metabolism: NIH Study Findings
+=== Tryptophan Metabolism: NIH Study Findings
 
 The NIH deep phenotyping study documented significant abnormalities in tryptophan metabolism in cerebrospinal fluid @walitt2024deep. Tryptophan is an essential amino acid that serves as precursor for:
 
@@ -1383,7 +1640,7 @@ Approximately 95% of dietary tryptophan is metabolized through the kynurenine pa
     - Reduced neuroprotective metabolites (kynurenic acid) in some studies
     - Depletion of tryptophan available for serotonin synthesis
 
-==== Implications for Neurotransmitter Production
+=== Implications for Neurotransmitter Production
 
 Tryptophan diversion into the kynurenine pathway reduces serotonin synthesis:
 
@@ -1392,7 +1649,7 @@ Tryptophan diversion into the kynurenine pathway reduces serotonin synthesis:
     - *Quinolinic acid excess*: May cause excitotoxicity and cognitive dysfunction
     - *Oxidative stress*: 3-hydroxykynurenine generates free radicals
 
-==== Other Amino Acid Abnormalities
+=== Other Amino Acid Abnormalities
 
 Metabolomic studies have identified broader amino acid disturbances:
 
@@ -1401,7 +1658,7 @@ Metabolomic studies have identified broader amino acid disturbances:
     - *Glycine*: Inhibitory neurotransmitter, glutathione precursor
     - *Cysteine*: Rate-limiting for glutathione synthesis
 
-==== Homocysteine and Methylation Cycle
+=== Homocysteine and Methylation Cycle
 
 #hypothesis(title: [Homocysteine-Mediated ETC Disruption as a Contributing Mechanism])[
 Elevated homocysteine — whether arising from methylenetetrahydrofolate reductase (MTHFR) polymorphisms,
@@ -1443,7 +1700,7 @@ tested as an integrated pathway in ME/CFS.
 <sec:carbohydrate>
 
 
-==== Glucose Utilization
+=== Glucose Utilization
 
 Abnormal glucose handling occurs in ME/CFS:
 
@@ -1452,7 +1709,7 @@ Abnormal glucose handling occurs in ME/CFS:
     - *Altered insulin sensitivity*: Variable findings
     - *Post-prandial symptoms*: Reactive responses to meals
 
-==== Lactate Accumulation
+=== Lactate Accumulation
 
 Elevated lactate indicates reliance on anaerobic metabolism:
 
@@ -1482,7 +1739,8 @@ ME/CFS muscle pathophysiology may be understood as a state of continuous post-ex
     - D-ribose as direct ATP building block
 
 This framework suggests ME/CFS patients require continuous application of recovery protocols, not as performance enhancement but as compensatory support for chronically impaired energy metabolism.
-==== Insulin Sensitivity
+
+=== Insulin Sensitivity
 
 Insulin resistance features in some ME/CFS patients:
 
