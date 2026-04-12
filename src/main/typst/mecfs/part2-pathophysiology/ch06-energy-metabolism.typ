@@ -402,6 +402,18 @@ A mechanistic bridge between ME/CFS immune dysfunction and muscle-level PDK4 ove
 The PDK upregulation finding is conventionally framed as a pathological lesion driving energy deficit. An alternative interpretation — that PDK overactivation may be a protective cellular response to compromised ROS handling rather than a primary cause — is developed in the Cross-Cutting section (Section @spec:pdk-protective below). These framings are reconcilable by MnSOD status: patients with intact antioxidant capacity and elevated PDK represent pathological inhibition (PDK inhibition would help); patients with low MnSOD/GPX4 represent protective restriction (PDK inhibition without antioxidant support may worsen). A stratified DCA trial with baseline antioxidant biomarkers would discriminate between subgroups — but only if the biomarkers used reflect muscle and brain MnSOD/GPX4 status, not only lymphocyte levels. The Shankar 2025 finding is currently lymphocyte-based; a validation study establishing lymphocyte-to-tissue correspondence would be a prerequisite for interpretable stratification.
 
 
+#speculation(title: [Tissue-Divergent PDK: Brain Resting Lactate vs. Muscle Exertion-Gated PDC Inhibition])[
+*Certainty: 0.30.* The Godlewska/Syan 2025 7T MRS finding creates a striking puzzle: elevated brain lactate (pgACC 1.52 vs 1.22 mM) alongside normal resting muscle metabolites @Godlewska2025MRS. If PDK upregulation were systemic, both tissues should show resting lactate elevation. Three explanations resolve the dissociation:
+
++ *Tissue-selective PDK isoform expression:* PDK4 dominates in skeletal muscle while PDK1 predominates in brain. The Fluge 2016 PBMC finding (PDK1/2/4 all upregulated @Fluge2016) may map differently onto each tissue. Brain PDK1 upregulation could produce resting lactate elevation; muscle PDK4 upregulation may manifest only under exertion when pyruvate flux increases — explaining normal resting muscle metabolites.
++ *Activity-gated threshold:* PDK4 is acutely upregulated by fasting, exercise, and fatty acid availability. In ME/CFS, the baseline may be near-normal but the PDK4 response to even mild exertion may be exaggerated and recovery delayed — a metabolic trap that produces the characteristic PEM pattern.
++ *Different metabolic reserve margins:* Brain has essentially zero glycogen reserve and relies on continuous glucose oxidation; even modest PDC inhibition immediately elevates lactate. Muscle has substantial glycogen and creatine phosphate buffers that absorb mild PDC inhibition at rest, decompensating only under load.
+
+*Testable predictions:* (1) Exercise-provoked muscle #super[31]P-MRS or venous lactate will show dramatically exaggerated PDK-signature (high lactate, slow PCr recovery) compared to the mild resting abnormality; a paired brain MRS + exercise muscle MRS study would demonstrate the divergence. (2) A muscle biopsy finding only PDK4 elevated (not PDK1/2) would implicate inflammation-driven JNK→PDK4 mechanisms @ParkJeoung2016PDK4 rather than cell-autonomous reprogramming.
+
+*Limitation:* The brain-vs-muscle comparison is a cross-study inference from different populations and modalities. DCA crosses the BBB but carries neurotoxicity risk — paradoxically, the brain compartment showing more resting dysfunction is the one most vulnerable to DCA side effects.
+] <spec:pdk-tissue-divergence>
+
 === Research Gaps at Step 3
 
 PDC sits at a sole-route bottleneck between glycolysis and the TCA cycle, so every Step 3 gap is _high essentiality_ by construction. The open gaps are: (G7) muscle-biopsy replication of the Fluge 2016 PDK1/2/4 upregulation finding @Fluge2016; (G8) direct PDC activity assay in ME/CFS muscle (not just transcriptomic inference); (G9) simultaneous measurement of all four PDC cofactors (thiamine, lipoic acid, riboflavin/FAD, NAD#super[+]) within the same cohort; and (G10) MnSOD-stratified DCA trial design to test the PDK-as-protective reinterpretation (@spec:pdk-protective).
@@ -558,6 +570,45 @@ A parallel cytosolic mechanism amplifies the effect. Cytosolic aconitase (ACO1) 
 *Limitation:* The entire chain is inferred from general biochemistry and indirect ME/CFS data; no step has been directly demonstrated in ME/CFS tissue. The Ciregia 2016 compensatory protein upregulation is consistent with but does not prove this mechanism.
 ] <spec:aconitase-ferroptosis-bridge>
 
+#speculation(title: [KGDHC as the Primary TCA Bottleneck in ME/CFS — More Vulnerable and More Consequential Than PDC])[
+*Certainty: 0.35.* The ME/CFS field has focused on PDC as the critical TCA entry-point lesion @Fluge2016, but KGDHC may be more vulnerable and more consequential for three reasons:
+
++ *ROS sensitivity hierarchy:* KGDHC is inhibited 40--50% by physiological H#sub[2]O#sub[2] concentrations @TretterAdamVizi2005, making it the most oxidant-sensitive TCA enzyme. Its E1 subunit contains 37 cysteine residues (Starkov 2012), far exceeding PDC's oxidation-susceptible surface.
++ *SIRT4 dual-targeting:* Fluge 2016 documented SIRT4 upregulation in ME/CFS PBMCs @Fluge2016. SIRT4 has lipoamidase activity on E2 of _both_ PDC and KGDHC. The field has discussed only the PDC consequence. If SIRT4 inhibits both complexes simultaneously, KGDHC impairment may be the _larger_ metabolic consequence because KGDHC sits mid-cycle where the substrate ($alpha$-ketoglutarate) is harder to replenish via anaplerosis, whereas PDC has glucose as an effectively unlimited upstream substrate.
++ *The "mid-cycle trap":* When PDC is impaired, pyruvate backs up but the cell can shunt to lactate (documented in ME/CFS). When KGDHC is impaired, $alpha$-KG backs up but there is no analogous overflow valve mid-cycle — the cell must either reverse the cycle (thermodynamically unfavourable) or export $alpha$-KG, creating a more severe metabolic trap.
+
+*Testable prediction:* Paired PDC + KGDHC activity measurement in ME/CFS PBMCs or muscle will show KGDHC reduction _exceeding_ PDC reduction in magnitude, particularly in patients with longer disease duration (where cumulative ROS damage would accumulate on the 37 cysteine residues). Post-exercise KGDHC activity (PBMCs at 4h and 24h post-CPET) should decline in ME/CFS but not controls, with the magnitude of decline correlating with PEM severity.
+
+*Competing explanation:* If PDC is the sole rate-limiting step (the current consensus framing), KGDHC activity should be normal or elevated (compensatory) rather than reduced. A simultaneous measurement of both enzymes would resolve this directly.
+
+*Limitation:* KGDHC activity has never been measured in any ME/CFS study. The entire argument is from general enzymology and indirect metabolomics.
+] <spec:kgdhc-primary-bottleneck>
+
+#speculation(title: [The Glutathionylation Depletion Spiral: Duration-Dependent KGDHC Vulnerability])[
+*Certainty: 0.25.* Chen et al.\ (2016, _J Neurochem_) demonstrated a duration-dependent switch in KGDHC regulation: acute KGDHC reduction _increases_ glutathionylation by 114% (a protective modification), but chronic reduction _depletes_ glutathionylation by 40% (removing protection). This maps onto ME/CFS natural history:
+
++ *Years 0--2 (acute phase):* Viral trigger reduces KGDHC via ROS and SIRT4. Glutathionylation increases as a protective response. Some patients recover during this window — possibly because glutathionylation protection is still intact.
++ *Years 2--5 (transition):* Chronic KGDHC reduction exhausts glutathionylation capacity. The protective mechanism fails. ROS damage becomes cumulative rather than buffered.
++ *Years 5+ (chronic):* Glutathionylation is depleted. KGDHC is now unprotected against ROS. Further inactivation occurs via a self-amplifying spiral: reduced KGDHC $arrow.r$ reduced glutathionylation capacity $arrow.r$ more ROS damage $arrow.r$ further KGDHC reduction.
+
+*Testable prediction:* KGDHC activity measured in PBMCs will show an inverse correlation with disease duration, with a non-linear acceleration point around 2--5 years. The same intervention (cofactor repletion) will have _different efficacy depending on disease duration_ — effective in the acute phase (where glutathionylation protection is intact) but ineffective in the chronic phase (where the protective mechanism is exhausted). Glutathionylation status would serve as a biomarker of treatment responsiveness.
+
+*Limitation:* The Chen 2016 finding was in neuronal culture, not in ME/CFS tissue. The time-course mapping to years of disease is extrapolated from a cellular phenomenon lasting hours — the correspondence is conceptual, not quantitative.
+] <spec:glutathionylation-spiral>
+
+#speculation(title: [Itaconate--Aconitase Double Block: Two Independent Mechanisms Converge at TCA Step 2])[
+*Certainty: 0.25.* Aconitase activity at TCA step 2 (citrate $arrow.r$ isocitrate) may be impaired by two simultaneous, mechanistically independent mechanisms:
+
++ *Substrate diversion:* ACOD1 (immune responsive gene 1) shunts cis-aconitate — the obligate intermediate between citrate and isocitrate — toward itaconate production. Thomas & Peterson 2025 demonstrated in a zebrafish model that ACOD1 overexpression alone produces a fatigue phenotype. If ACOD1 is upregulated in ME/CFS immune cells (consistent with the metabolic safe mode model in Chapter @ch:integrative-models), it directly reduces aconitase substrate availability.
++ *Enzyme inactivation:* ROS destroys the aconitase [4Fe-4S] cluster, reducing enzymatic capacity (detailed in @spec:aconitase-ferroptosis-bridge above).
+
+The combined effect would be far more severe than either mechanism alone. Critically, they operate through different pathways: the itaconate shunt is _intentional_ immune metabolic reprogramming (part of the safe mode), while aconitase inactivation is _collateral damage_ from ROS. This means they can be independently modulated — and failing to address both would produce incomplete therapeutic response.
+
+*Testable prediction:* In ME/CFS PBMCs, itaconate levels will be elevated AND ACO2 activity will be reduced simultaneously. The citrate/isocitrate ratio will be more severely disrupted than predicted by either mechanism alone. ACOD1 inhibitors (citraconate) will partially restore isocitrate production, but full restoration will additionally require ROS reduction.
+
+*Limitation:* ACOD1 expression has not been measured in ME/CFS cells. The itaconate shunt is best characterised in macrophages; its relevance to muscle and neuronal aconitase is unclear.
+] <spec:itaconate-aconitase-double-block>
+
 == Step 6: Key Cofactors as Cross-Cutting Failure Modes
 <sec:step6-cofactors>
 
@@ -615,6 +666,52 @@ Cofactor gaps are inherently high-leverage because a single cofactor gates multi
 Step 6 has the highest density of priority-1 gaps in the chapter (G22, G23, G24). This reflects the cross-cutting nature of cofactors: a single measurement resolves multiple downstream steps simultaneously. G27 (magnesium) was downgraded to priority 2 because the sole positive finding (Cox 1991) was not replicated by three independent groups @Clague1992magnesiumCFS @Hinds1994magnesiumCFS @Swanink1995magnesiumCFS. G23 (EGRAC) is especially high-value because the riboflavin master-rate-limiter hypothesis (@spec:riboflavin-master) predicts that ≥30% of ME/CFS patients will have EGRAC ≥1.3, and the assay is both cheap and immediately actionable.
 
 Step 6 is not a distinct pipeline step in the stoichiometric sense — cofactors are consumed catalytically, not stoichiometrically, and their supply is typically upstream (diet, absorption, tissue-level handling). But the _functional essentiality_ of Step 6 is uniquely high because a single cofactor failure cascades across multiple downstream steps. Cofactor gaps are therefore disproportionately leveraged: if any one of G22--G27 turns out positive, multiple apparent failures at Steps 3, 5, and 7 can be explained by a single upstream lesion.
+
+#speculation(title: [The Dual-Compartment NAD#super[+] Paradox: PBMCs and Muscle Are Dysregulated in Opposite Directions])[
+*Certainty: 0.30.* The Heng 2025 finding — NAD#super[+] _elevated_ in PBMCs while ATP/ADP is _reduced_ @heng2025mecfs — is not merely a curiosity but may be the single most informative datapoint in ME/CFS energy metabolism. The conventional narrative (NAD#super[+] is depleted, supplement it) appears wrong in PBMCs, but muscle and neurons almost certainly behave differently.
+
++ *Compartment A (PBMCs):* NAD#super[+] accumulates because Complex I cannot accept electrons from NADH — the ETC is blocked or dysfunctional. NAD#super[+] is _stranded upstream_ — present but functionally useless. This is substrate backup, not substrate deficiency.
++ *Compartment B (skeletal muscle / neurons):* NAD#super[+] is genuinely depleted by three concurrent consumers: (i) PARP overactivation from exercise-induced DNA damage and oxidative stress, (ii) CD38 upregulation from chronic immune activation, (iii) kynurenine pathway diversion reducing de novo NAD#super[+] synthesis @Naviaux2016metabolomics.
+
+If both compartments are dysfunctional but in _opposite directions_, any blood-based NAD#super[+] measurement (predominantly PBMCs) will systematically mislead. Supplementing NAD#super[+] precursors would raise an already-elevated PBMC pool (useless or harmful) while potentially helping muscle/neurons (beneficial) — explaining the inconsistent clinical trial results for NR/NMN.
+
+*Testable predictions:* (1) Muscle biopsy NAD#super[+] will be _reduced_ (opposite to PBMC NAD#super[+]) in ME/CFS vs controls. (2) The PBMC NAD#super[+] / muscle NAD#super[+] ratio will be $> 1$ in ME/CFS and $< 1$ in controls. (3) NR/NMN supplementation will improve muscle-specific outcomes (handgrip, exercise tolerance) more than cognitive outcomes if muscle is the depleted compartment. (4) PBMC NAD#super[+] elevation will correlate with Complex I dysfunction markers (NADH/NAD#super[+] ratio, Complex I activity assay) — confirming the backup rather than surplus interpretation.
+
+*Limitation:* The tissue-compartment dissociation is a prediction; PBMC and muscle NAD#super[+] have never been measured in the same ME/CFS cohort. The hypothesis that PBMC NAD#super[+] elevation reflects substrate backup (rather than, e.g., upregulated salvage pathway activity) is plausible but not the only interpretation.
+] <spec:dual-compartment-nad>
+
+#speculation(title: [CD38--Senescence--NAD#super[+] Vicious Cycle: A Self-Amplifying Loop Connecting Four Observations])[
+*Certainty: 0.25.* CD38 is upregulated on senescent cells and is the dominant NAD#super[+]-consuming enzyme in aged tissues. In ME/CFS, a self-amplifying loop may connect four previously separate observations:
+
++ Viral infection triggers endothelial senescence (Nunes 2026 hypothesis).
++ Senescent endothelial cells upregulate surface CD38.
++ CD38 consumes NAD#super[+] in the local microenvironment (endothelium, perivascular tissue).
++ NAD#super[+] depletion triggers mtDNA leakage via VDAC1, activating cGAS-STING @Chini2025NADInterferon.
++ The type I interferon response from cGAS-STING further promotes cellular senescence (IFN-$beta$ is a known senescence inducer).
++ More senescence $arrow.r$ more CD38 $arrow.r$ more NAD#super[+] depletion $arrow.r$ more mtDNA leakage $arrow.r$ more interferon $arrow.r$ more senescence.
+
+Breaking the loop at any node could theoretically interrupt the cycle: senolytics (dasatinib + quercetin), CD38 inhibitors (apigenin, luteolin, 78c), NAD#super[+] precursors (NR, NMN), or cGAS-STING inhibitors.
+
+*Testable predictions:* (1) ME/CFS patient endothelial cells will co-express senescence markers (p16, SA-$beta$-gal) and CD38 at higher rates than age-matched controls. (2) In vitro CD38 inhibition (78c) will reduce cGAS-STING activation in ME/CFS patient-derived cells. (3) Senolytics will reduce CD38 expression and partially restore tissue NAD#super[+] levels.
+
+*Limitation:* Endothelial senescence in ME/CFS is itself unconfirmed (Nunes 2026 is a hypothesis). The loop is assembled from findings in different disease contexts (ageing, COVID, cancer) and has not been directly demonstrated in ME/CFS.
+] <spec:cd38-senescence-nad-cycle>
+
+#speculation(title: [Cofactor Recycling Network Failure: FAD as the Master Rate-Limiter Via Interdependent Recycling])[
+*Certainty: 0.35.* Most cofactors are not consumed stoichiometrically — they cycle between oxidised and reduced forms. The rate of recycling depends on _other_ cofactors, creating an interdependent recycling network:
+
++ FAD recycling in glutathione reductase requires NADPH.
++ Lipoic acid recycling on PDC-E2 and KGDHC-E2 requires NAD#super[+] (via E3/dihydrolipoamide dehydrogenase, which _also_ requires FAD).
++ CoQ10 recycling (ubiquinol $arrow.r$ ubiquinone) occurs at Complex III but is impaired if the proton gradient is disrupted.
+
+A deficit in one cofactor can impair recycling of others, creating cascading failure. Specifically: FAD depletion $arrow.r$ impaired E3 function $arrow.r$ impaired lipoic acid _and_ NAD#super[+] recycling simultaneously. FAD depletion also impairs Complex I (FMN cofactor shares the flavin pathway), Complex II, and glutathione reductase (the master antioxidant recycler). This network analysis mechanistically strengthens the riboflavin master-rate-limiter speculation (@spec:riboflavin-master) by identifying FAD as the node with the highest outdegree in the recycling dependency graph.
+
+*Testable prediction:* In a simultaneous cofactor panel (G9), FAD deficiency (EGRAC $gt.eq$ 1.3) will predict deficiency in the most other cofactors (highest co-deficiency count). Riboflavin supplementation will partially normalise lipoic acid function and NAD#super[+] status even without directly supplementing those cofactors — because restoring FAD restores the E3 recycling hub that regenerates both.
+
+*Competing explanation:* A simpler model where each cofactor is depleted independently by oxidative stress (@sec:step6-cofactors) does not require the recycling network. The recycling model predicts _correlated_ depletion patterns (FAD predicts NAD#super[+] and lipoic acid status); the independent model predicts uncorrelated depletion.
+
+*Limitation:* The recycling network dependencies are established in general biochemistry but the quantitative contribution of inter-cofactor recycling (vs direct dietary supply and de novo synthesis) to steady-state cofactor pools in human tissue is poorly characterised.
+] <spec:cofactor-recycling-fad-hub>
 
 == Step 7: ATP Export — The Adenine Nucleotide Translocator (ANT)
 <sec:step7-ant>
@@ -689,6 +786,20 @@ If anti-ANT autoantibodies are confirmed in ME/CFS, the therapeutic framework al
 
   *Limitations:* No ME/CFS data exist. The prediction is extrapolated from cardiac autoimmune disease prevalence, which may not transfer to a non-cardiac autoimmune context. Not yet replicated in ME/CFS — entirely speculative.
 ] <spec:ant-autoantibody-atp-trapping>
+
+#speculation(title: [Anti-ANT Complement Fixation: Exercise-Triggered Complement Activation on Mitochondrial Membranes])[
+*Certainty: 0.15.* Anti-ANT autoantibodies are IgG class @SchulzeEtAl1999. IgG fixes complement via C1q binding to Fc regions. ANT resides on the inner mitochondrial membrane, normally inaccessible to circulating antibodies — but three scenarios expose it:
+
++ *Cell death / necrosis:* Dying cells release mitochondria. Anti-ANT IgG binds exposed ANT on free mitochondria, initiating the classical complement cascade. The resulting complement-opsonised mitochondrial DAMPs are a much stronger pro-inflammatory signal than naked mitochondrial fragments.
++ *Mitochondrial-derived vesicles (MDVs):* If damaged mitochondria are extruded via MDVs (during impaired mitophagy, as proposed in @hyp:impaired-mitophagy-longcovid), anti-ANT IgG on these vesicles activates complement in the extracellular space.
++ *Exercise-induced mPTP opening:* During intense exercise, calcium transients transiently open the mitochondrial permeability transition pore. If anti-ANT IgG accesses ANT during these openings, complement deposition on the inner membrane could cause irreversible pore formation.
+
+The self-amplifying cascade — exercise $arrow.r$ mPTP opening $arrow.r$ ANT exposure $arrow.r$ anti-ANT binding $arrow.r$ complement activation $arrow.r$ membrane damage $arrow.r$ more mitochondrial release $arrow.r$ more anti-ANT binding — would activate only above an exercise threshold (when mPTP opens), explaining the threshold nature of PEM. Post-exertional C4a elevation, specifically documented in ME/CFS, has lacked a specific molecular target; anti-ANT-mediated complement fixation on mitochondrial membranes would provide one.
+
+*Testable predictions:* (1) Complement components (C3d, C5b-9) will be found deposited on circulating cell-free mitochondria in anti-ANT-positive ME/CFS patients at higher levels than in anti-ANT-negative patients. (2) Post-exercise C4a elevation will correlate with anti-ANT titre but not with anti-GPCR titre @Sotzny2021.
+
+*Limitation:* The inner mitochondrial membrane accessibility problem is real and may prevent this mechanism in vivo for scenarios (a) and (c). Anti-ANT prevalence in ME/CFS is itself unknown (G28). The entire speculation depends on G28 being positive. Certainty: very low (0.15).
+] <spec:ant-complement-mitochondria>
 
 === Research Gaps at Step 7
 
@@ -781,6 +892,42 @@ The brain-to-muscle dissociation in the creatine data — brain creatine decreas
 
 *Limitation:* This speculation rests on a single open-label feasibility study ($n = 11$) for brain creatine and a small RCT ($n = 21$) for muscle creatine loading. The brain-vs-muscle comparison has never been performed within the same ME/CFS cohort — the apparent dissociation is a cross-study inference from different populations, compounds, and outcome measures. The cause of brain-selective depletion (impaired SLC6A8 transport, astrocyte consumption, or reduced local synthesis) is unknown. A simpler alternative: brain creatine depletion may be a downstream consequence of chronic deconditioning and reduced physical activity rather than a primary pathological mechanism — exercise increases brain creatine in healthy subjects, and the Godlewska study did not include activity-matched deconditioned controls.
 ] <spec:brain-pcr-selective-energy>
+
+#speculation(title: [The Astrocyte Creatine Sink: Neuroinflammation Hoards Brain Creatine])[
+*Certainty: 0.25.* Activated astrocytes undergo metabolic reprogramming toward glycolysis (a Warburg-like shift documented in neuroinflammation) and have markedly increased creatine kinase activity and PCr turnover — they consume creatine at an accelerated rate to fuel immune signalling and glutamate recycling. If neuroinflammation is present in ME/CFS (supported by TSPO-PET elevation in Nakatomi 2014 and Mueller 2020), reactive astrocytes may create a _creatine sink_ in neuroinflamed tissue, depleting the neuronal PCr pool.
+
+This provides a mechanistic explanation for why brain creatine is decreased @Godlewska2025MRS while muscle creatine loads normally @Ostojic2016GAA: astrocytes in neuroinflamed regions sequester creatine, starving neurons of their primary rapid-response ATP buffer. The resulting neuronal energy deficit forces increased glycolytic reliance during demand spikes, producing the brain lactate elevation documented by Godlewska et al.\ 2025 @Godlewska2025MRS.
+
+*Testable prediction:* In brain regions with higher neuroinflammation (measured by TSPO-PET or elevated myo-inositol on MRS), creatine depletion should be more severe. A combined TSPO-PET + 1H-MRS study would test this directly.
+
+*Treatment implication:* Anti-neuroinflammatory interventions (LDN, minocycline) might restore brain creatine levels without supplementation by reducing the astrocyte sink. Conversely, creatine supplementation without addressing neuroinflammation might require perpetual high-dose maintenance.
+
+*Limitation:* Astrocyte creatine kinase upregulation during neuroinflammation is characterised in rodent models; human in vivo confirmation is lacking. The neuroinflammation evidence in ME/CFS (TSPO-PET) is itself limited by small samples and radiotracer specificity concerns.
+] <spec:astrocyte-creatine-sink>
+
+#speculation(title: [The Creatine--Lactate Seesaw: Brain PCr Depletion Directly Causes Brain Lactate Elevation])[
+*Certainty: 0.35.* Godlewska/Syan 2025 reported decreased brain creatine and elevated brain lactate as separate findings @Godlewska2025MRS, but they are mechanistically linked and may represent a single underlying failure. The PCr shuttle normally absorbs transient ATP demand within milliseconds; without it, glycolysis must ramp up within seconds, producing lactate as a byproduct. The seesaw model: brain [Cr] down $arrow.r$ PCr buffering capacity down $arrow.r$ glycolytic demand up during demand spikes $arrow.r$ lactate up. This is a direct thermodynamic consequence, not merely a correlation.
+
+*Testable prediction (falsifiable):* In a creatine supplementation RCT, measure both brain creatine (should increase) and brain lactate (should _decrease_) with MRS pre- and post-supplementation. Plot $Delta$-brain-creatine against $Delta$-brain-lactate: the seesaw model predicts a negative correlation ($r < -0.5$). If $r approx 0$, the phenomena are independent and the lactate elevation has a separate cause (e.g., mitochondrial dysfunction independent of creatine). This provides an elegant dual-endpoint for the creatine RCT design proposed at G32.
+
+*Competing explanation:* Brain lactate may be elevated due to impaired mitochondrial oxidation (Complex I dysfunction, PDC inhibition) rather than PCr buffer depletion. Under this model, creatine supplementation would raise brain creatine but _not_ reduce lactate, because the lactate source is upstream of the PCr system.
+
+*Limitation:* The seesaw model treats brain creatine and brain lactate as primarily linked through the PCr buffer mechanism, but both are influenced by multiple additional factors (glucose delivery, astrocyte-neuron lactate shuttle, monocarboxylate transporter activity).
+] <spec:creatine-lactate-seesaw>
+
+#speculation(title: [Cognitive PEM as Brain PCr Depletion--Repletion Failure])[
+*Certainty: 0.30.* Physical PEM is extensively discussed in this chapter, but cognitive PEM (brain fog worsening after mental exertion) is equally debilitating and less mechanistically explained. The PCr shuttle model offers a specific mechanism:
+
++ Mental effort depletes brain PCr in activated regions (prefrontal cortex, cingulate — the regions where Godlewska found creatine depletion @Godlewska2025MRS).
++ In healthy individuals, mitochondrial ATP production rapidly regenerates the PCr pool via mitochondrial creatine kinase.
++ In ME/CFS with impaired mitochondrial function _and_ a depleted baseline creatine pool, recovery is doubly impaired: the starting pool is smaller (longer to deplete) and the regeneration rate is slower (impaired oxidative phosphorylation).
+
+Cognitive PEM is therefore a _depletion + repletion failure_ event: the brain's creatine buffer is already running near-empty, so moderate cognitive demand causes a transient ATP crisis in activated brain regions. The characteristic delay in cognitive PEM (symptoms worsening hours after mental exertion) reflects the time course of PCr pool recovery failure, analogous to the delayed PCr recovery kinetics documented in Long COVID muscle by Finnigan et al.\ ($tau$PCr 92.5 vs 51.9 s @Finnigan2024MRS).
+
+*Testable prediction:* Brain #super[31]P-MRS immediately after a standardised cognitive task (e.g., 30-min Stroop test) should show greater PCr depletion in ME/CFS vs controls, with slower recovery kinetics. This is technically feasible with 7T #super[31]P-MRS.
+
+*Limitation:* #super[31]P-MRS of brain during cognitive tasks is technically challenging (low SNR, motion artefacts). The analogy between muscle PCr recovery kinetics and brain PCr recovery kinetics is assumed but not established.
+] <spec:cognitive-pem-pcr>
 
 == Step 9: ROS Scavenging — The Mitochondrial Antioxidant Defence
 <sec:step9-ros-scavenging>
@@ -968,6 +1115,21 @@ Four lines of indirect evidence now constrain this hypothesis:
 *Limitation:* PGC-1$alpha$ _protein_ has not been directly measured in ME/CFS skeletal muscle. The PBMC null result @CastroMarrero2013mito and the muscle mRNA upregulation @wang2023wasf3 suggest that the failure mode is post-translational (acetylation/phosphorylation) rather than transcriptional — but this remains a hypothesis.
 ] <hyp:pgc1alpha-suppression>
 
+#speculation(title: [The Biogenesis Trap: ME/CFS Cells Waste Energy on Dysfunctional Mitochondrial Production])[
+*Certainty: 0.25.* PGC-1$alpha$ mRNA is upregulated in ME/CFS muscle @wang2023wasf3, yet AMPK activation is impaired @Brown2018AMPK, SIRT4 opposes SIRT1 @Fluge2016, and WASF3 disrupts respiratory supercomplex assembly @wang2023wasf3. This combination creates a _biogenesis trap_ — a metabolic Sisyphus:
+
++ The cell correctly senses mitochondrial insufficiency and transcribes more PGC-1$alpha$.
++ The PGC-1$alpha$ protein is hyperacetylated (inactive) because SIRT1 cannot deacetylate it (NAD#super[+] depletion, @hyp:nad-sirtuin-hub).
++ Even the fraction that _is_ active drives production of new mitochondria that are immediately dysfunctional because WASF3 prevents Complex IV supercomplex assembly.
++ The cell expends energy on biogenesis but receives no functional return.
+
+This is worse than no biogenesis at all, because: (a) lipid and protein synthesis for new membranes consumes ATP; (b) importing nuclear-encoded mitochondrial proteins via TIM/TOM complexes consumes ATP; (c) new dysfunctional mitochondria generate additional ROS (electrons that cannot be efficiently passed to oxygen at Complex IV back up through the chain, increasing electron leak at Complexes I and III); (d) the cell cannot distinguish functional from dysfunctional new mitochondria for mitophagy (they may initially retain membrane potential).
+
+*Testable prediction:* ME/CFS muscle will show elevated markers of active biogenesis (mitochondrial protein import machinery, cardiolipin synthesis intermediates) alongside _decreased_ functional respiratory capacity per mitochondrion (citrate synthase-normalised Complex IV activity) — a signature of "spinning wheels." The WASF3/ER-stress axis should be addressed _before_ stimulating PGC-1$alpha$/biogenesis; otherwise, more biogenesis amplifies ROS and energy waste.
+
+*Limitation:* The biogenesis trap combines three findings (WASF3, AMPK impairment, SIRT4 upregulation) from different tissue compartments and different studies into a single model. No study has simultaneously measured all components in the same ME/CFS tissue sample.
+] <spec:biogenesis-trap>
+
 === mtDNA Alterations and Impaired Mitophagy
 
 Mitochondrial DNA (mtDNA) is vulnerable to damage:
@@ -1093,6 +1255,107 @@ The systematic analysis above identifies the following failure modes that are me
     - *Riboflavin* (as standalone intervention): the FAD-dependent beta-oxidation/ETC failure signature has never been formally trialled
 
 See Chapter @ch:medications-mechanisms for treatment protocols related to established interventions (CoQ10, L-carnitine, NADH). The gaps listed above represent priority research directions rather than current clinical recommendations.
+
+
+== Integrative Reference Tables
+<sec:integrative-tables>
+
+The following tables synthesise the ten-step analysis into cross-step reference views: reactions (success and failure), therapeutic targets, yield accounting, and step interactions.
+
+=== Key Reactions: Success and Failure Modes per Step
+
+#figure(
+  kind: table,
+  caption: [Primary biochemical reaction and documented or predicted failure-mode reactions at each step. Failure modes listed are those with ME/CFS-specific evidence or strong mechanistic prior.],
+  table(
+    columns: (auto, 1fr, 1fr),
+    align: (left, left, left),
+    table.header([*Step*], [*Success reaction*], [*ME/CFS failure mode(s)*]),
+    [1: Substrate delivery], [Glucose $arrow.r$ cell via GLUT1/4; fatty acids via CD36/CPT1], [Impaired GLUT4 trafficking (G1); reduced fatty acid oxidation with paradoxical lipid accumulation @Naviaux2016metabolomics],
+    [2: Glycolysis], [Glucose $arrow.r$ 2 pyruvate + 2 ATP + 2 NADH], [Impaired AMPK-stimulated glycolytic activation @Brown2018AMPK; possible HK/PFK1/PKM2 deficits (G4, unstudied)],
+    [3: PDC], [Pyruvate + CoA + NAD#super[+] $arrow.r^("TPP, FAD, lipoate")$ acetyl-CoA + CO#sub[2] + NADH], [PDK-mediated PDC phosphorylation (inactivation); cofactor depletion (thiamine, riboflavin, lipoate); SIRT4 lipoamidase E2 delipoylation],
+    [4: Beta-oxidation], [Fatty acyl-CoA $arrow.r^("FAD, NAD+, CoA")$ acetyl-CoA + FADH#sub[2] + NADH (per 2C removed)], [Reduced CPT1 activity or malonyl-CoA dysregulation; VLCAD/LCAD/MCAD deficits (G12, unstudied)],
+    [5: Krebs cycle], [Acetyl-CoA $arrow.r^("NAD+, FAD, GDP")$ 3 NADH + FADH#sub[2] + GTP + 2 CO#sub[2]], [Aconitase inactivation by superoxide (G16: protein up 1.9$times$, activity unmeasured); KGDHC inhibition by H#sub[2]O#sub[2] and HNE (G17)],
+    [6: Cofactors], [NAD#super[+] $arrow.l.r$ NADH; FAD $arrow.l.r$ FADH#sub[2]; CoQ10 shuttles electrons], [NAD#super[+] depletion in energy-intensive tissues (G22, predicted); riboflavin/FAD insufficiency (G23); CoQ10 tissue deficit (G26)],
+    [7: ANT], [ATP#sub[matrix] + ADP#sub[cytosol] $arrow.l.r^("ANT")$ ADP#sub[matrix] + ATP#sub[cytosol]], [Anti-ANT1 autoantibodies trapping ATP in matrix (G28, unstudied but highest-leverage gap)],
+    [8: PCr shuttle], [ATP + Cr $arrow.l.r^("mi-CK")$ ADP + PCr; PCr + ADP $arrow.l.r^("cy-CK")$ Cr + ATP], [Brain creatine depletion (Godlewska 2025, 7T MRS @Godlewska2025MRS); SLC6A8 dysfunction (G29, unstudied)],
+    [9: ROS scavenging], [O#sub[2]#super[•−] $arrow.r^("MnSOD")$ H#sub[2]O#sub[2] $arrow.r^("GPX, PRDX3")$ H#sub[2]O], [Decreased MnSOD protein @Shankar2025oxidativestress; GPX4-mediated lipid peroxidation; NRF2 unmeasured (G34)],
+    [10: Dynamics], [Fission $arrow.r$ mitophagy; PGC-1$alpha$ $arrow.r$ biogenesis], [PGC-1$alpha$ hyperacetylation (inferred: impaired AMPK/SIRT1 + elevated SIRT4 @Fluge2016); IgG-induced fragmentation @Liu2026IgGcomplexes],
+  )
+) <tab:reactions-per-step>
+
+=== Therapeutic Map: Interventions Targeting Each Step
+
+#figure(
+  kind: table,
+  caption: [Medications and supplements with mechanistic rationale at each step. Evidence: RCT = randomised controlled trial in ME/CFS or related condition; OL = open-label; Mech = mechanistic rationale only. All require physician review.],
+  table(
+    columns: (auto, 1fr, auto),
+    align: (left, left, center),
+    table.header([*Step*], [*Intervention (target)*], [*Evidence*]),
+    [1], [Metformin (AMPK $arrow.r$ GLUT4) @Brown2018AMPK], [Mech],
+    [2], [AMPK activators (glycolytic flux) @Brown2018AMPK], [Mech],
+    [3], [DCA (PDK inhibitor); _caution:_ may worsen ROS], [Mech],
+    [3], [Thiamine 300--600 mg/day (PDC E1) @Bager2021thiamineIBD], [RCT (IBD)],
+    [3], [Riboflavin 400 mg/day (PDC E3) @Schoenen1998riboflavinmigraine], [RCT (migraine)],
+    [4], [L-carnitine 1--2 g/day (CPT1 substrate)], [OL],
+    [5], [Alpha-lipoic acid 600 mg/day (KGDHC E2)], [Mech],
+    [6], [CoQ10 200--400 mg/day ubiquinol @CastroMarrero2021CoQ10], [RCT],
+    [6], [NR/NMN 250--500 mg/day (NAD#super[+]) @heng2025mecfs], [Mech],
+    [7], [Elamipretide (cardiolipin stabiliser)], [Mech],
+    [8], [Creatine monohydrate 5 g/day @Godlewska2024creatineMRS], [OL],
+    [9], [Sulforaphane (NRF2); _caution:_ may be futile if NRF2 overwhelmed], [Mech],
+    [9], [NAC 600--1200 mg/day (glutathione precursor)], [Mech],
+    [10], [Metformin (AMPK $arrow.r$ PGC-1$alpha$) @Brown2018AMPK], [Mech],
+    [10], [Urolithin A (mitophagy; phase 1--2 in sarcopenia)], [Mech],
+  )
+) <tab:therapeutic-map>
+
+=== Yield Accounting: Cumulative ATP Loss Under Failure Scenarios
+
+#figure(
+  kind: table,
+  caption: [Estimated ATP yield per glucose under isolated single-step failure. Combined failures are worse than additive (@tab:interaction-matrix). Steps 8--10 ($dagger$) do not change per-cycle yield but degrade performance over time.],
+  table(
+    columns: (auto, auto, auto, auto, 1fr),
+    align: (left, center, center, center, left),
+    table.header([*Step*], [*Healthy*], [*Mild*], [*Severe*], [*Mechanism of loss*]),
+    [1: Substrate delivery], [~30], [~25], [~5], [Reduced substrate $arrow.r$ lower flux],
+    [2: Glycolysis], [~30], [~28], [~20], [Glycolytic ATP lost; downstream flux reduced],
+    [3: PDC], [~30], [~20], [~7], [~25 gated ATP lost (83%); only glycolytic ATP remains],
+    [4: Beta-oxidation], [~30], [~30], [~15], [Glucose basis unaffected; fatty-acid tissues lose ~50%],
+    [5: Krebs cycle], [~30], [~22], [~7], [~20 gated ATP (67%) at risk],
+    [6: Cofactors], [~30], [~22], [~5], [Multi-step gate: one deficit impairs multiple steps],
+    [7: ANT], [~30], [~20], [~2], [Matrix ATP trapped; 93% is matrix-produced],
+    [8$dagger$: PCr shuttle], [~30], [~30], [~30], [Per-cycle yield unchanged; burst capacity degraded],
+    [9$dagger$: ROS scavenging], [~30], [~28], [~15], [Progressive: ROS damages Steps 3, 5, 6, 7 over days--weeks],
+    [10$dagger$: Dynamics], [~30], [~28], [~10], [Longitudinal: mito mass declines over weeks--months],
+  )
+) <tab:yield-accounting>
+
+=== Cross-Step Interaction Matrix
+
+#figure(
+  kind: table,
+  caption: [Failure at Step X (row) exacerbating Step Y (column). $arrow.r.double$ = direct amplification; $arrow.r$ = indirect/delayed; — = no significant interaction.],
+  table(
+    columns: (auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto),
+    align: (center, center, center, center, center, center, center, center, center, center, center),
+    table.header([*↓X \\ Y→*], [*1*], [*2*], [*3*], [*4*], [*5*], [*6*], [*7*], [*8*], [*9*], [*10*]),
+    [*1*], [—], [$arrow.r.double$], [$arrow.r.double$], [$arrow.r.double$], [$arrow.r.double$], [—], [—], [—], [—], [—],
+    [*2*], [—], [—], [$arrow.r$], [—], [—], [—], [—], [—], [—], [—],
+    [*3*], [—], [—], [—], [—], [$arrow.r.double$], [—], [—], [—], [$arrow.r$], [—],
+    [*4*], [—], [—], [—], [—], [$arrow.r.double$], [—], [—], [—], [—], [—],
+    [*5*], [—], [—], [—], [—], [—], [$arrow.r$], [—], [—], [$arrow.r$], [—],
+    [*6*], [—], [—], [$arrow.r.double$], [$arrow.r$], [$arrow.r.double$], [—], [$arrow.r$], [—], [$arrow.r$], [$arrow.r$],
+    [*7*], [—], [—], [—], [—], [—], [—], [—], [$arrow.r$], [—], [—],
+    [*8*], [—], [—], [—], [—], [—], [—], [—], [—], [—], [—],
+    [*9*], [—], [—], [$arrow.r.double$], [—], [$arrow.r.double$], [$arrow.r.double$], [$arrow.r.double$], [—], [—], [$arrow.r.double$],
+    [*10*], [$arrow.r$], [—], [$arrow.r$], [$arrow.r$], [$arrow.r$], [$arrow.r$], [$arrow.r$], [$arrow.r$], [$arrow.r.double$], [—],
+  )
+) <tab:interaction-matrix>
+
+Key interactions: Step 9 (ROS scavenging) failure amplifies nearly every other step — superoxide inactivates aconitase (Step 5), oxidises cardiolipin (Step 7), damages PDC E2 lipoyl groups (Step 3), depletes cofactors (Step 6), and accelerates mitochondrial damage requiring biogenesis (Step 10). Step 10 (biogenesis) failure is a slow amplifier: over weeks the declining mitochondrial population reduces capacity at Steps 3--9. Step 6 (cofactors) has the widest _direct_ amplification because a single cofactor gates multiple enzymatic steps simultaneously.
 
 == Cross-Cutting Mechanisms
 <sec:cross-cutting-mechanisms>
