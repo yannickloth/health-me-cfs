@@ -5023,6 +5023,41 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
     / *Relevance:*: The migraine–ME/CFS comorbidity link makes this directly relevant. If riboflavin's mitochondrial mechanism (FAD→Complex I/II enhancement) explains its migraine efficacy, the same mechanism predicts benefit in ME/CFS where Complex I dysfunction is documented (Heng 2025) and FAD availability is reduced (Naviaux 2016, Baraniuk 2025). The 59% responder rate and NNT of 2.3 would be remarkable if even partially replicated in ME/CFS. The absence of a riboflavin trial in ME/CFS despite this 1998 evidence base is one of the field's most puzzling omissions.
 
+== Cofactor Panel Evidence and Systematic Reviews
+<sec:bib-cofactor-panel>
+// =============================================================================
+
+=== Joustra et al.\ 2017 — Systematic Review: Vitamins and Minerals in CFS/FM
+
+    / *Full Citation:*: Joustra ML, Minovic I, Janssens KAM, Bakker SJL, Rosmalen JGM. Vitamin and mineral status in chronic fatigue syndrome and fibromyalgia syndrome: A systematic review and meta-analysis. _PLoS ONE_. 2017;12(4):e0176631. @Joustra2017micronutrients
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0176631")[10.1371/journal.pone.0176631]
+    / *Key Findings:*:
+
+        - Systematic review + meta-analysis; 45 studies (5 RCTs, 40 observational)
+        - Covered vitamins A, B1, B12, C, D, E and 13 minerals
+        - Little overall evidence for vitamin/mineral deficiency playing a role in CFS/FM
+        - Only vitamin E lower, but effect disappeared in high-quality studies
+        - *Critical omission:* CoQ10 and NAD#super[+] excluded from primary analysis — the two cofactors with the strongest mechanistic rationale in the energy metabolism literature
+        - Riboflavin/FAD also not a primary focus
+        - *Certainty: 0.65* — rigorous methodology but the exclusion of the most mechanistically relevant cofactors limits its applicability to the G9 question
+
+    / *Relevance:*: The best available systematic evidence synthesis for classical vitamins/minerals in CFS — and an object lesson in how selection of which cofactors to study shapes conclusions. The exclusion of CoQ10, NAD#super[+], and riboflavin from primary analysis means the review answers the wrong question for the energy metabolism hypothesis. A future systematic review scoped to energy-relevant cofactors specifically is needed.
+
+=== Dorczok et al.\ 2025 — Systematic Review: Dietary Supplementation in ME/CFS
+
+    / *Full Citation:*: Dorczok M, et al.\ Dietary Supplementation for Fatigue Symptoms in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) — A Systematic Review. _Nutrients_. 2025;17(3):475. @Dorczok2025supplements
+    / *DOI:*: #link("https://doi.org/10.3390/nu17030475")[10.3390/nu17030475]
+    / *Key Findings:*:
+
+        - Systematic review; 14 studies ($n = 809$ total); heterogeneous designs
+        - CoQ10+NADH combination shows strongest signal for fatigue reduction
+        - One trial tested CoQ10 + alpha-lipoic acid + NAC + B vitamins combined — closest to a multi-cofactor intervention
+        - 9/14 studies included blood analyses, but cofactors measured in separate trials, never simultaneously
+        - No study measured all G9 cofactors at baseline
+        - *Certainty: 0.55* — moderate evidence base; heterogeneous designs prevent firm conclusions
+
+    / *Relevance:*: Confirms that the supplementation literature has converged on CoQ10+NADH as the most promising combination but has never tested whether baseline cofactor status predicts response. The absence of pre-treatment comprehensive cofactor panels in all 14 studies means responder prediction is impossible — exactly the problem G9 would solve.
+
 // =============================================================================
 
 == Circadian Rhythm and Sleep
