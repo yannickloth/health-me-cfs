@@ -2216,6 +2216,24 @@ requiring expertise outside ME/CFS scope.
     [ISCU protein measurement (WB/IHC) in ME/CFS muscle biopsy; ISCU mutation screening; aconitase activity assay. Clinical features of ISCU myopathy (exercise intolerance, lactic acidosis, myoglobinuria) overlap with ME/CFS. ISCU has never been studied in ME/CFS (2026); general mitochondrial dysfunction evidence: @MorrisMaes2014mitochondria.],
     [Ch.6 @sec:step5-krebs],
 
+    [Is Wound Healing Actually Impaired in ME/CFS?],
+    [OQ], [---],
+    [No study has directly measured wound healing in ME/CFS. Convergent mechanistic evidence from NK cell dysfunction (cytotoxicity halved @Baraniuk2024NKMeta; NK cells required for wound closure @Sobecki2021NKWoundHypoxia), sympathetic overactivation impairing reepithelialization @Xue2018ANSWoundHealing, immune exhaustion phenotype @Stanojcic2016ImmuneExhaustionBurns, and chronic TGF-β disrupting NK-MSC wound repair circuits @Petri2017MSCNKTGFb predicts impairment. However, wound healing is not a prominent clinical complaint in ME/CFS. Possible explanations: subclinical impairment masked by low wound burden in sedentary patients; compensatory fibrosis; or genuinely preserved healing through uncharacterised mechanisms.],
+    [Standardised suction blister wound healing assay in ME/CFS patients (n≥30) vs age-matched controls, measuring time to complete reepithelialization and histological scar quality. Would directly test whether the selective energy dysfunction hypothesis (@hyp:selective-energy) correctly excludes wound healing from spared functions. Never studied (2026).],
+    [Ch.6 @oq:wound-healing-mecfs],
+
+    [Systemic Tissue Repair Deficit: NK Cells as Repair Coordinators Beyond Skin],
+    [Spec], [0.40],
+    [If NK cells are upstream regulators of wound healing (@Sobecki2021NKWoundHypoxia) and ME/CFS NK cytotoxicity is halved (@Baraniuk2024NKMeta), the repair deficit should extend to all NK-dependent tissue maintenance: mucosal barrier repair (gut permeability), muscle damage repair (PEM duration), and endothelial repair. Unifies multiple separate pathophysiological findings under a single upstream cause.],
+    [Gut mucosal repair rate (serial lactulose-mannitol permeability after standardised challenge) should correlate with NK cell cytotoxicity ($r > 0.4$). Never tested in ME/CFS (2026).],
+    [Ch.6 @spec:systemic-repair-deficit],
+
+    [Autonomic Macrophage Polarisation as Unifying Tissue Repair Mechanism],
+    [Spec], [0.45],
+    [Sympathetic overactivation favours CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favours CD64+CCR2- pro-repair macrophages (@Xue2018ANSWoundHealing). ME/CFS autonomic imbalance would bias macrophage polarisation toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
+    [ME/CFS patients with higher sympathetic tone (lower HF-HRV) should show slower wound healing, more neuroinflammation (PET), and worse gut permeability, all correlating with the same ANS measure. Not yet tested (2026).],
+    [Ch.6 @spec:autonomic-macrophage-repair],
+
     [PDK Upregulation as Protective Response to ROS],
     [Spec], [0.45],
     [In a stratified DCA trial: patients with low MnSOD/GPX4 will worsen (higher F2-isoprostanes, worse PEM); patients with normal antioxidant status will improve. DCA + NAC + CoQ10 + riboflavin will outperform DCA monotherapy.],
@@ -2290,3 +2308,93 @@ requiring expertise outside ME/CFS scope.
   ),
   kind: table, supplement: [Table], caption: [Chapter 6 energy-metabolism failure-cartography entries (added 2026-04-11; updated 2026-04-12 with three Phase 3 brainstorm-derived entries): one hypothesis (PGC-1α suppression, H, certainty 0.40); seven speculations (PDC cofactor depletion, PDK upregulation as protective, PEM timing as ISR kinetics, riboflavin FAD master rate-limiter, cardiolipin peroxidation convergence, aconitase--ferroptosis iron bridge, itaconate--NRF2 paradox); eight open questions (ANT autoantibodies, ISCU dysfunction, KGDHC cofactor failure, CPT1/malonyl-CoA regulation, NRF2 pathway suppression, PRDX3/thioredoxin system, UCP2/UCP3 upregulation, riboflavin consumption vs supply) — sixteen entries total. Motivated by @Fluge2016, @Shankar2025oxidativestress, @Maksoud2021nutraceuticals, @MorrisMaes2014mitochondria, @Molnar2024LCmitochondria, @Kennedy2005isoprostanes, @Robinson2010isoprostanes.],
 ) <tab:hypothesis-registry-ch06-cartography-2026-04-11>
+
+=== Entries Added 2026-04-12: Ch06 Gap Brainstorm Integration (Session 12)
+
+Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, G16, G17, G22, G23, G28, G32, G34, G39); top ideas selected by Novelty $gt.eq$ 4 AND Feasibility $gt.eq$ 3.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Tissue-Divergent PDK: Brain Resting Lactate vs. Muscle Exertion-Gated PDC Inhibition],
+    [S], [0.30],
+    [PDK isoform expression varies by tissue (PDK4 in muscle, PDK1 in brain). Brain PDK1 upregulation produces resting lactate elevation; muscle PDK4 manifests only under exertion. Paired brain MRS + exercise muscle MRS would demonstrate divergence. Muscle biopsy finding PDK4-only elevation implicates JNK-driven inflammation.],
+    [Paired brain 1H-MRS + exercise muscle 31P-MRS — feasible but never done in same ME/CFS cohort. Muscle biopsy with isoform-specific PDK Western blot — feasible.],
+    [Ch.6 Step 3 @spec:pdk-tissue-divergence],
+
+    [KGDHC as the Primary TCA Bottleneck],
+    [S], [0.35],
+    [KGDHC is more ROS-sensitive than PDC (40--50% inhibition at physiological H2O2; 37 cysteine residues). SIRT4 dual-targets both PDC and KGDHC E2. Mid-cycle trap: no overflow valve (unlike PDC→lactate). Paired PDC + KGDHC measurement should show KGDHC reduction exceeding PDC.],
+    [PBMC KGDHC activity assay (NADH production at 340 nm) — standardised protocol available. Muscle biopsy for definitive tissue measurement. Neither measured in ME/CFS (2026).],
+    [Ch.6 Step 5 @spec:kgdhc-primary-bottleneck],
+
+    [Glutathionylation Depletion Spiral],
+    [S], [0.25],
+    [Acute KGDHC reduction increases glutathionylation (+114%, protective); chronic reduction depletes it (-40%, harmful). Maps onto ME/CFS natural history: recovery possible in years 0--2, irreversible decline after 5+. Same intervention may have different efficacy depending on disease duration.],
+    [KGDHC activity vs disease duration (non-linear acceleration at 2--5 years). Glutathionylation status as treatment-responsiveness biomarker. Chen 2016 (neuronal culture) is the basis — ME/CFS validation needed.],
+    [Ch.6 Step 5 @spec:glutathionylation-spiral],
+
+    [Itaconate--Aconitase Double Block],
+    [S], [0.25],
+    [Aconitase impaired by two independent mechanisms: (a) ACOD1 substrate diversion (cis-aconitate→itaconate) and (b) ROS-mediated [4Fe-4S] cluster destruction. Combined effect exceeds either alone. Failing to address both yields incomplete response.],
+    [Simultaneous itaconate + ACO2 activity + ACOD1 expression in ME/CFS PBMCs. ACOD1 inhibitors (citraconate) for partial restoration. Neither ACOD1 expression nor itaconate measured in ME/CFS cells (2026).],
+    [Ch.6 Step 5 @spec:itaconate-aconitase-double-block],
+
+    [Dual-Compartment NAD+ Paradox],
+    [S], [0.30],
+    [NAD+ elevated in PBMCs (substrate backup from ETC block) but depleted in muscle/neurons (consumed by PARP, CD38, kynurenine diversion). Blood-based NAD+ measurements systematically mislead. Explains inconsistent NR/NMN trial results.],
+    [Paired PBMC + muscle biopsy NAD+ measurement in same cohort — never done. PBMC NAD+/muscle NAD+ ratio as diagnostic. Complex I activity assay in PBMCs to confirm backup interpretation.],
+    [Ch.6 Step 6 @spec:dual-compartment-nad],
+
+    [CD38--Senescence--NAD+ Vicious Cycle],
+    [S], [0.25],
+    [Self-amplifying loop: endothelial senescence → CD38 upregulation → NAD+ depletion → mtDNA leakage via VDAC1 → cGAS-STING → IFN-β → more senescence. Connects four separate observations. Breakable at any node (senolytics, CD38 inhibitors, NAD+ precursors, cGAS-STING inhibitors).],
+    [Endothelial senescence markers (p16, SA-β-gal) + CD38 co-expression in ME/CFS biopsies. In vitro CD38 inhibition (78c) effect on cGAS-STING in patient cells. Endothelial senescence itself unconfirmed in ME/CFS (2026).],
+    [Ch.6 Step 6 @spec:cd38-senescence-nad-cycle],
+
+    [Cofactor Recycling Network Failure: FAD as Master Rate-Limiter],
+    [S], [0.35],
+    [Cofactors form an interdependent recycling network. FAD gates E3 (which recycles lipoic acid AND NAD+), Complex I, Complex II, and glutathione reductase — highest outdegree in the dependency graph. FAD deficiency causes cascading co-deficiency.],
+    [Simultaneous cofactor panel: FAD deficiency (EGRAC ≥ 1.3) should predict highest co-deficiency count. Riboflavin supplementation should partially normalise lipoic acid function and NAD+ status without direct supplementation.],
+    [Ch.6 Step 6 @spec:cofactor-recycling-fad-hub],
+
+    [Anti-ANT Complement Fixation on Mitochondrial Membranes],
+    [S], [0.15],
+    [Anti-ANT IgG fixes complement on exposed mitochondrial membranes (cell death, MDVs, exercise-induced mPTP opening). Self-amplifying cascade explains threshold nature of PEM and provides molecular target for post-exertional C4a elevation.],
+    [Complement components (C3d, C5b-9) on circulating cell-free mitochondria in anti-ANT-positive vs anti-ANT-negative ME/CFS patients. Requires G28 (anti-ANT prevalence) to be positive first.],
+    [Ch.6 Step 7 @spec:ant-complement-mitochondria],
+
+    [Astrocyte Creatine Sink],
+    [S], [0.25],
+    [Reactive astrocytes in neuroinflamed tissue consume creatine at accelerated rates, depleting the neuronal PCr pool. Explains brain creatine decreased (Godlewska 2025) while muscle loads normally. Anti-neuroinflammatory interventions might restore brain creatine without supplementation.],
+    [Combined TSPO-PET + 1H-MRS: creatine depletion should be worse in regions with higher neuroinflammation (elevated myo-inositol). TSPO-PET + MRS feasible but not yet combined in ME/CFS.],
+    [Ch.6 Step 8 @spec:astrocyte-creatine-sink],
+
+    [Creatine--Lactate Seesaw in Brain Energy],
+    [S], [0.35],
+    [Brain creatine down and brain lactate up are mechanistically linked: PCr buffer depletion forces glycolytic compensation during demand spikes, producing lactate. Creatine supplementation should reduce brain lactate (dual-endpoint for RCT). Falsified if Δ-creatine and Δ-lactate are uncorrelated ($r approx 0$).],
+    [Creatine RCT with pre/post brain MRS measuring both creatine and lactate. Plot Δ-creatine vs Δ-lactate: seesaw predicts $r < -0.5$. Design is simple but MRS adds cost.],
+    [Ch.6 Step 8 @spec:creatine-lactate-seesaw],
+
+    [Cognitive PEM as Brain PCr Depletion--Repletion Failure],
+    [S], [0.30],
+    [Mental exertion depletes brain PCr in a pool already running near-empty; impaired mitochondrial function prevents rapid regeneration. The delay in cognitive PEM reflects PCr recovery failure kinetics. Analogous to delayed muscle PCr recovery in Long COVID.],
+    [Brain 31P-MRS after standardised cognitive task (30-min Stroop): greater PCr depletion + slower recovery in ME/CFS vs controls. Technically feasible at 7T but challenging (low SNR, motion).],
+    [Ch.6 Step 8 @spec:cognitive-pem-pcr],
+
+    [The Biogenesis Trap: Metabolic Sisyphus],
+    [S], [0.25],
+    [PGC-1α drives production of new mitochondria that are immediately dysfunctional (WASF3 disrupts supercomplex assembly). Cell wastes ATP on biogenesis with no functional return. Worse than no biogenesis: new dysfunctional organelles amplify ROS. WASF3/ER stress should be addressed before stimulating biogenesis.],
+    [ME/CFS muscle: elevated biogenesis markers (import machinery, cardiolipin synthesis) alongside decreased functional respiratory capacity per mitochondrion (CS-normalised Complex IV). WASF3 + PGC-1α acetylation + supercomplex assembly in same biopsies.],
+    [Ch.6 Step 10 @spec:biogenesis-trap],
+  ),
+  kind: table, supplement: [Table], caption: [Chapter 6 gap brainstorm integration entries (2026-04-12, Session 12): twelve speculations (PDK tissue divergence, glutathionylation spiral, itaconate--aconitase double block, dual-compartment NAD+ paradox, CD38--senescence cycle, ANT complement fixation, astrocyte creatine sink, cognitive PEM via PCr, biogenesis trap) — twelve entries total. Motivated by brainstorm files for G7, G9, G16, G17, G22, G28, G32, G39.],
+) <tab:hypothesis-registry-brainstorm-2026-04-12>
+] // end landscape page for brainstorm integration

@@ -104,7 +104,7 @@
 
     dag-node((10.25, 2.0), [#text(weight: "bold")[Hair Growth]\ Normal rate\ $delta_"CNS" = 0.1$], pres-fill, pres-stroke, w: 2.8)
     dag-node((10.25, 0.5), [#text(weight: "bold")[Nail Growth]\ Normal rate\ $delta_"CNS" = 0.1$], pres-fill, pres-stroke, w: 2.8)
-    dag-node((10.25, -1.0), [#text(weight: "bold")[Wound Healing]\ Preserved\ $delta_"CNS" = 0.2$], pres-fill, pres-stroke, w: 2.8)
+    dag-node((10.25, -1.0), [#text(weight: "bold")[Cardiac Pacing]\ SA node intrinsic\ $delta_"CNS" = 0.15$], pres-fill, pres-stroke, w: 2.8)
 
     // No causal path indicator
     line((1.8, 4.8), (3.5, 4.8), stroke: (paint: rgb("#bbbbbb"), thickness: 0.9pt, dash: "dotted"))
@@ -141,7 +141,7 @@
     // === KEY INSIGHT BOX ===
     rect((-7.0, -8.0), (7.0, -5.5), fill: rgb("#fffff0"), stroke: rgb("#555555") + 1pt, radius: 0.2)
     content((0, -6.75), box(width: 13cm, text(size: 8pt, [
-      #text(weight: "bold")[Key Structural Feature:] The CNS energy crisis node has _no clinically significant causal path_ to autonomous processes (hair, nails, wound healing). These processes have sub-threshold CNS-dependency ($delta_"CNS" lt.eq 0.2$, $tilde(rho) lt.eq 0.2$, giving $S lt.eq 0.24$), well below the lowest impaired process ($S = 0.79$). Their preservation despite severe ME/CFS symptoms supports the selective dysfunction hypothesis: the disease targets CNS-dependent, demand-responsive processes while sparing CNS-independent autonomous functions.
+      #text(weight: "bold")[Key Structural Feature:] The CNS energy crisis node has _no clinically significant causal path_ to autonomous processes (hair, nails, basal cardiac pacing). These processes have sub-threshold CNS-dependency ($delta_"CNS" lt.eq 0.2$, $tilde(rho) lt.eq 0.2$, giving $S lt.eq 0.24$), well below the lowest impaired process ($S = 0.79$). Their preservation despite severe ME/CFS symptoms supports the selective dysfunction hypothesis: the disease targets CNS-dependent, demand-responsive processes while sparing CNS-independent autonomous functions.
     ])))
   })
   ),

@@ -93,7 +93,7 @@
     // === PRESERVED AUTONOMOUS PROCESSES (far right) ===
     rect((8.0, 2.5), (11.5, 5.0), fill: pres-fill, stroke: pres-stroke + 1.5pt, radius: 0.2)
     content((9.75, 4.4), text(size: 9pt, weight: "bold", [AUTONOMOUS]))
-    content((9.75, 3.5), text(size: 8pt, [Hair, nails, wound healing\ $delta_"CNS" = 0.1 dash 0.2$]))
+    content((9.75, 3.5), text(size: 8pt, [Hair, nails, cardiac pacing\ $delta_"CNS" = 0.1 dash 0.2$]))
     status-badge((9.75, 2.0), [PRESERVED], rgb("#d4f0d4"), rgb("#448844"))
 
     // Direct energy (bypasses CNS)

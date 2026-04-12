@@ -186,6 +186,54 @@ This proposal is currently in draft form and is being developed for submission t
 Implementation requires identification of a principal investigator and institutional home with research infrastructure and expertise in neuroimaging, exercise physiology, and ME/CFS patient populations. The full detailed proposal (50+ pages) includes complete methods, statistical analysis plan, regulatory considerations, and appendices, and is available in the project staging area (see `content-staging/research-proposal-selective-dysfunction.md`).
 
 // ============================================================================
+// SECTION: Wound Healing as Functional Biomarker Study
+// ============================================================================
+
+== Wound Healing as Functional Biomarker and Mechanistic Subtyping Tool
+<sec:wound-healing-biomarker-study>
+
+=== Background and Rationale
+
+The selective energy dysfunction hypothesis (Chapter @ch:energy-metabolism, Section @sec:selective-energy-dysfunction) previously listed wound healing among preserved autonomous functions. Literature integration (Chapter @ch:energy-metabolism, Section @oq:wound-healing-mecfs) revealed this assumption is unsupported: no study has measured wound healing in ME/CFS, and convergent mechanistic evidence from NK cell dysfunction @Baraniuk2024NKMeta @Sobecki2021NKWoundHypoxia, sympathetic overactivation @Xue2018ANSWoundHealing, and immune exhaustion @Stanojcic2016ImmuneExhaustionBurns predicts impairment. This creates a testable question with implications for both the selective dysfunction framework and clinical biomarker development.
+
+=== Study Design
+
+*Design:* Prospective case-control. $n = 40$ ME/CFS patients (ICC criteria) + 40 age/sex-matched sedentary controls.
+
+*Primary outcome:* Suction blister reepithelialization time (standardised 8mm blister, negative pressure method — an established dermatological technique, low-risk, bedside-feasible).
+
+*Secondary outcomes:*
+    - Histological scar quality at day 14 and day 28 (collagen organisation, inflammatory infiltrate, vascularity)
+    - Blister fluid cytokine panel: IFN-γ, GM-CSF (NK repair function @Sobecki2021NKWoundHypoxia), TGF-β (MSC-NK regulatory circuit @Petri2017MSCNKTGFb), catecholamines (sympathetic drive @Xue2018ANSWoundHealing)
+    - Correlation with NK cell cytotoxicity, HRV (sympathovagal balance), Bell disability score
+
+*Stratification:* Disease severity (mild/moderate/severe), disease duration ($<$3yr, 3–7yr, $>$7yr), POTS comorbidity (yes/no).
+
+=== Why This Study Is Uniquely Informative
+
+A single suction blister measurement simultaneously tests: (1) whether wound healing is actually impaired in ME/CFS; (2) which mechanism dominates (NK vs. ANS vs. immune exhaustion — blister fluid cytokines distinguish these); (3) whether the selective dysfunction model's process classification is correct; (4) whether wound healing rate correlates with disease severity (biomarker potential).
+
+Because wound healing requires NK cells, autonomic balance, macrophage polarisation, and metabolic capacity, the healing rate is effectively a systems-biology readout — a single composite functional biomarker integrating information about multiple dysfunctional systems. This is particularly valuable for severe/bedbound patients where exercise testing (CPET) is impossible.
+
+=== Mechanistic Subtyping Potential
+
+Blister fluid cytokine profiles could distinguish ME/CFS subtypes by dominant repair mechanism:
+    - *Pattern A* (high IFN-γ, low GM-CSF): NK cells shifted to defence mode — HIF-1α pathway active @Sobecki2021NKWoundHypoxia
+    - *Pattern B* (low IFN-γ, low GM-CSF): NK cells globally non-functional — general exhaustion
+    - *Pattern C* (high TGF-β): MSC-NK regulatory circuit constitutively activated @Petri2017MSCNKTGFb
+    - *Pattern D* (high catecholamines): Sympathetic drive to wound macrophages dominates @Xue2018ANSWoundHealing
+
+If validated in a prospective cohort, different patterns would suggest different treatment targets to explore in subsequent trials — e.g., NK-supportive interventions for Patterns A/B, autonomic modulation for Pattern D, anti-fibrotic approaches for Pattern C. Pattern classification criteria must be pre-registered before unblinding cytokine data to avoid post-hoc subtyping.
+
+=== Feasibility
+
+Estimated cost: ~€500 per patient including histology (~€40,000 total). Requires no specialist equipment beyond a suction chamber. Can be performed at bedside (critical for severe patients). Study duration: 6 months recruitment + 1 month follow-up. Single-site feasible.
+
+#limitation(title: [Wound Healing Study: Exploratory Phase Required])[
+This proposal assumes wound healing IS impaired in ME/CFS, which has not been established. A pilot study ($n = 10 + 10$) should precede the full protocol to establish effect size and confirm feasibility. If wound healing proves normal in the pilot, the study still provides valuable data by ruling out tissue repair deficit as a clinically relevant mechanism.
+]
+
+// ============================================================================
 // SECTION: Secondary Analysis Opportunities
 // ============================================================================
 

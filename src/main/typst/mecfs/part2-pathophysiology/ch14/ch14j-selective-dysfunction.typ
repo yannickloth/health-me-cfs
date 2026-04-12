@@ -7,13 +7,15 @@
 <sec:selective-dysfunction>
 
 #open-question(title: [Why Does Hair Grow Normally in Severe ME/CFS?])[
-A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conversation, cannot tolerate light or sound—yet their hair continues to grow at a normal rate. Their nails grow. Wounds heal. These clinical observations derive from patient self-reports and informal clinical experience; no published study has formally measured hair or nail growth rates in ME/CFS patients. Nevertheless, the consistency of these reports across diverse patient populations poses a fundamental challenge to the “global energy failure” model of ME/CFS: if mitochondrial dysfunction were truly systemic, _all_ energy-dependent processes should be impaired proportionally.
+A patient with severe ME/CFS cannot walk to the bathroom, cannot sustain a conversation, cannot tolerate light or sound — yet their hair continues to grow at a normal rate. Their nails grow. These clinical observations derive from patient self-reports and informal clinical experience; no published study has formally measured hair or nail growth rates in ME/CFS patients. Nevertheless, the consistency of these reports across diverse patient populations poses a fundamental challenge to the “global energy failure” model of ME/CFS: if mitochondrial dysfunction were truly systemic, _all_ energy-dependent processes should be impaired proportionally. (Note: wound healing was previously included among preserved processes but has been removed — see Section @oq:wound-healing-mecfs for the evidence that this assumption was unsupported.)
 
 This chapter proposes that ME/CFS represents _selective_ rather than global energy dysfunction—specifically, a CNS coordination failure that impairs demand-responsive, CNS-dependent processes while sparing autonomous local processes that operate independently of central regulation.
 ]
 
 #limitation(title: [Preserved Processes: Informal Clinical Observation, Not Measured])[
-The foundational claim that hair growth, nail growth, and wound healing are preserved in ME/CFS derives from patient self-reports and informal clinical experience. No published study has formally measured hair growth rate, nail growth rate, or wound healing time in ME/CFS patients compared to matched controls. These processes may in fact be subtly impaired without patients noticing, or they may appear preserved because their energy demands are negligible relative to the total energy budget even in health. The “selective vs.\ global” distinction may therefore be a continuum rather than a dichotomy, and the motivating observation could be an artefact of measurement insensitivity.
+The foundational claim that hair growth, nail growth, and other autonomous processes are preserved in ME/CFS derives from patient self-reports and informal clinical experience. No published study has formally measured hair growth rate or nail growth rate in ME/CFS patients compared to matched controls. These processes may in fact be subtly impaired without patients noticing, or they may appear preserved because their energy demands are negligible relative to the total energy budget even in health. The “selective vs.\ global” distinction may therefore be a continuum rather than a dichotomy, and the motivating observation could be an artefact of measurement insensitivity.
+
+Wound healing — previously listed among preserved processes — has been removed from this framework. Wound healing is a complex, multi-phase, demand-responsive cascade requiring NK cell mobilisation, autonomic vascular regulation, and substantial energy expenditure. No study has measured wound healing in ME/CFS patients, and convergent mechanistic evidence from NK cell dysfunction @Baraniuk2024NKMeta @Sobecki2021NKWoundHypoxia, sympathetic overactivation @Xue2018ANSWoundHealing, and immune exhaustion @Stanojcic2016ImmuneExhaustionBurns predicts impairment rather than preservation (see Chapter @ch:energy-metabolism Section @oq:wound-healing-mecfs for full analysis).
 ]
 
 === Motivation and Clinical Observations
@@ -25,7 +27,7 @@ The selective dysfunction hypothesis emerged from a simple observation: processe
 
     - Hair growth—local follicle autonomous cycle
     - Nail growth—keratinocyte autonomous proliferation
-    - Basic wound healing—local inflammatory cascade
+    - Basal cardiac automaticity—SA node intrinsic pacing
     - Baseline digestion—enteric nervous system (“second brain”)
 
 *Severely impaired* (high CNS dependency):
@@ -140,7 +142,7 @@ Table @tab:process-classification classifies biological processes by their pred
   
   [Nail growth#super[†]], [0.1], [0.0], [0.06], [Preserved], [0.4],
   
-  [Wound healing (basic)], [0.2], [0.2], [0.24], [Preserved], [0.6],
+  [Basal cardiac automaticity], [0.15], [0.0], [0.09], [Preserved], [0.7],
   
   [Digestion (baseline)#super[‡]], [0.3], [0.2], [0.30], [Variable], [0.5],
   
@@ -189,7 +191,7 @@ The causal diagram encodes the following claims with certainty-weighted edges:
     - *CNS Crisis $arrow.r$ Cognitive Dysfunction* (certainty: 0.85): Direct effect of brain hypometabolism @Nakatomi2014neuroinflammation @walitt2024deep
     - *CNS Crisis $arrow.r$ Autonomic Control Failure* (certainty: 0.80): Impaired CNS signaling disrupts autonomic regulation @VanCampenEtAl2020
     - *Autonomic Failure $arrow.r$ Orthostatic Intolerance* (certainty: 0.75): Secondary to failed cardiovascular coordination @VanCampenEtAl2020
-    - *Sub-threshold edge: CNS $arrow.r$ Autonomous Processes*: Hair/nails ($delta_("CNS") = 0.1$, $tilde(rho) = 0$: $S = 0.06$) and wound healing ($delta_("CNS") = 0.2$, $tilde(rho) = 0.2$: $S = 0.24$) all fall in the preserved range of Table @tab:process-classification; all yield $S lt.eq 0.24$, well below the lowest impaired process ($S = 0.79$, immune response to challenge)
+    - *Sub-threshold edge: CNS $arrow.r$ Autonomous Processes*: Hair/nails ($delta_("CNS") = 0.1$, $tilde(rho) = 0$: $S = 0.06$) and basal cardiac automaticity ($delta_("CNS") = 0.15$, $tilde(rho) = 0$: $S = 0.09$) fall in the preserved range of Table @tab:process-classification; all yield $S lt.eq 0.24$, well below the lowest impaired process ($S = 0.79$, immune response to challenge)
 
 === Mechanistic Sub-Hypotheses
 

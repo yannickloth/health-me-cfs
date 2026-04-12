@@ -739,7 +739,7 @@ The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction
 #key-point(title: [Integration of Selective Dysfunction with Unifying Models])[
 *Clarifies the vicious cycle targets:* The energy-immune cycle and autonomic-vascular cycle both operate through CNS coordination. If CNS energy is the primary bottleneck, all cycles dependent on CNS signaling become vulnerable simultaneously—explaining why ME/CFS affects multiple systems.
 
-*Explains preserved functions:* Hair growth, nail growth, and basic wound healing continue because they operate via local autonomous regulation ($delta_("CNS") < 0.2$) outside the affected coordination pathways.
+*Explains preserved functions:* Hair growth, nail growth, and basal cardiac automaticity continue because they operate via local autonomous regulation ($delta_("CNS") < 0.2$) outside the affected coordination pathways.
 
 *Reframes the “stuck state”:* The multi-lock model proposes multiple independent locks. Selective dysfunction suggests these locks may be downstream manifestations of a single upstream CNS energy bottleneck. If the brain cannot generate coordination signals, all CNS-dependent systems fail regardless of their local machinery's integrity.
 
@@ -750,7 +750,7 @@ The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction
 
 The selective energy dysfunction framework is supported by consistent evidence across multiple physiological systems, each documenting preserved baseline function with impaired demand-responsive capacity:
 
-    - *Energy Metabolism (Chapter @ch:energy-metabolism, Section @sec:selective-energy-dysfunction):* CNS-dependent and demand-responsive processes show selective impairment while autonomous steady-state peripheral functions (hair growth, nail growth, wound healing) continue at apparently normal rates despite severe systemic symptoms. This pattern distinguishes selective coordination failure from global mitochondrial dysfunction.
+    - *Energy Metabolism (Chapter @ch:energy-metabolism, Section @sec:selective-energy-dysfunction):* CNS-dependent and demand-responsive processes show selective impairment while autonomous steady-state peripheral functions (hair growth, nail growth, basal cardiac automaticity) continue at apparently normal rates despite severe systemic symptoms. This pattern distinguishes selective coordination failure from global mitochondrial dysfunction.
 
     - *Neurological System (Chapter @ch:neurological, Section @sec:brain-bottleneck):* Near-universal cognitive dysfunction, documented brain hypometabolism, neuroinflammation (45–199% elevation across key regions), and catecholamine deficiency suggest the brain serves as the primary energy bottleneck. The brain's disproportionate energy demand (20–25% of total energy while comprising only 2% of body mass) makes it uniquely vulnerable to energy constraint, with downstream failures in autonomic coordination affecting all CNS-dependent systems.
 

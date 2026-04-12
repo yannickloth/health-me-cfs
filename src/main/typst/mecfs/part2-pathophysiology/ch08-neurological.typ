@@ -1766,7 +1766,7 @@ The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction
 
     - *CNS-specific findings*: Neuroinflammation (45–199% elevation in key regions @Nakatomi2014neuroinflammation), catecholamine deficiency in CSF, and regional hypometabolism are documented in the CNS specifically, not as reflections of peripheral dysfunction
 
-    - *Preserved autonomous processes*: Hair growth, nail growth, and basic wound healing—processes that operate locally without CNS coordination—remain intact even in severe ME/CFS, arguing against global metabolic failure
+    - *Preserved autonomous processes*: Hair growth, nail growth, and basal cardiac automaticity—processes that operate locally without CNS coordination—remain intact even in severe ME/CFS, arguing against global metabolic failure
 
     - *Demand-response failure*: The pattern of preserved baseline function with impaired challenge response (91–100% show abnormal CBF reduction during orthostatic challenge @Novak2022) is consistent with a CNS coordination bottleneck rather than peripheral end-organ dysfunction
 
