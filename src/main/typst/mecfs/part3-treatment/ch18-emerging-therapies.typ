@@ -1043,6 +1043,45 @@ Compared to electrical stimulation, chemosensory C-fibre activation may avoid of
 *Limitations:* The butyrate → EC-cell serotonin → vagal afferent chain is established in preclinical models; direct human validation in ME/CFS is lacking. The critical afferent-to-efferent step — whether increased NTS vagal input drives downstream anti-inflammatory efferent output in ME/CFS — is unvalidated and could fail if central autonomic processing is already impaired. Serotonin has complex bidirectional roles in ME/CFS: increased gut serotonin may worsen visceral hypersensitivity, promote intestinal permeability, or trigger mast cell activation in susceptible patients — this is a meaningful safety concern, not a minor caveat, and any deliberate attempt to increase gut serotonin via this pathway should be approached cautiously. FMT carries procedural risks. Dietary fibre interventions vary substantially in their butyrate output by microbiome composition. The EC-cell serotonin pathway is one of multiple gut-brain communication routes, and isolating its specific contribution to systemic inflammatory outcomes is methodologically difficult.
 ] <spec:gut-vagal-cfibre>
 
+#speculation(title: [Vagal C-Fibre Afferent Deafferentation Maintains the Neuroinflammatory Set-Point])[
+*Certainty: 0.40.* The "wrong fibres" hypothesis (Speculation @spec:vns-wrong-fibres) addresses the _device_ side of VNS non-response. This speculation addresses the _patient_ side: vagal C-fibre afferents may be structurally damaged in ME/CFS, creating a vicious cycle independent of stimulation parameters.
+
+Vagal C-fibre afferents from gut, liver, and spleen communicate peripheral inflammatory status to the brainstem nucleus tractus solitarius (NTS). Small fibre neuropathy (SFN), documented in 40--60% of ME/CFS patients, preferentially affects unmyelinated C-fibres. If vagal C-fibres are damaged:
+
++ The efferent anti-inflammatory reflex is inadequately triggered because the brainstem does not receive the "periphery is inflamed" signal.
++ Sickness behaviour persists without resolution because the sensory arm cannot relay the "inflammation resolved" signal.
++ The resulting vicious cycle --- peripheral inflammation $arrow.r$ C-fibre damage $arrow.r$ reduced afferent signalling $arrow.r$ impaired anti-inflammatory reflex $arrow.r$ more inflammation --- is self-sustaining and invisible to standard autonomic testing (which assesses A/B-fibre-mediated cardiovagal reflexes, not C-fibre afferent function).
+
+The gut--vagal pathway is particularly vulnerable: butyrate deficiency (documented in ME/CFS microbiome studies) reduces enterochromaffin cell serotonin production, which specifically activates vagal C-fibre afferents @Kaelberer2018. This compounds the structural C-fibre deficit with a functional chemosensory deficit.
+
+*Testable predictions:*
++ ME/CFS patients with SFN (reduced intraepidermal nerve fibre density, IENFD) will show lower vagal C-fibre conduction (measurable via late-component vagal evoked potentials, latency >50~ms), higher peripheral inflammatory markers, and poorer response to standard-parameter VNS, compared to ME/CFS patients without SFN.
++ VNS response in SFN-positive patients will be limited to autonomic endpoints (HRV, heart rate) mediated by myelinated B-fibres, which are relatively spared in SFN, while inflammatory endpoints (IL-6, TNF-$alpha$) will show no improvement.
+
+*Limitations:* Vagal C-fibre conduction measurement is technically challenging and not standardised. The assumption that SFN severity in skin biopsy reflects vagal C-fibre involvement is an extrapolation --- vagal afferents traverse different anatomical compartments than cutaneous sensory fibres, and the correlation between IENFD and vagal fibre integrity has not been established. The vicious cycle model, while logically coherent, could be confounded by the simpler explanation that systemic inflammation directly impairs the efferent anti-inflammatory pathway at the brainstem level, independent of afferent input.
+] <spec:cfibre-deafferentation>
+
+#hypothesis(title: [Alpha-7 nAChR Agonists as Pharmacological VNS Bypass])[
+*Certainty: 0.45.* The fibre-selectivity problem (Speculation @spec:vns-wrong-fibres) and the C-fibre deafferentation hypothesis (Speculation @spec:cfibre-deafferentation) both converge on a practical limitation: electrical VNS may fail to activate the anti-inflammatory pathway because it cannot reliably engage C-fibres. A pharmacological alternative bypasses the fibre-selectivity problem entirely by directly activating the downstream effector: the alpha-7 nicotinic acetylcholine receptor ($alpha$7 nAChR) on macrophages.
+
+The cholinergic anti-inflammatory pathway terminates at $alpha$7 nAChR on splenic and tissue-resident macrophages, where ACh binding suppresses NF-$kappa$B translocation and reduces TNF-$alpha$, IL-6, and HMGB1 release. Selective $alpha$7 agonists activate this endpoint regardless of how the vagal signal fails upstream --- whether by device limitation, fibre damage, or central processing dysfunction.
+
+*Candidate agents:*
+- *GTS-21 (DMXB-A):* Selective $alpha$7 partial agonist. Reduced TNF-$alpha$ and IL-6 in human endotoxemia models. Phase~II completed in schizophrenia (cognitive endpoints). Never tested in ME/CFS or any post-infectious fatigue syndrome.
+- *Galantamine:* Acetylcholinesterase inhibitor with $alpha$7 positive allosteric modulator activity. FDA-approved for Alzheimer's disease with established safety profile. Low starting dose (4~mg BID) with slow titration. Nausea and GI effects are dose-limiting but manageable.
+
+*Testable predictions:*
++ An $alpha$7 nAChR agonist (GTS-21 or galantamine) will reduce TNF-$alpha$ and IL-6 in ME/CFS patients with elevated baseline inflammatory markers, with an effect size $gt.eq$ standard-parameter tVNS, without the cardiovascular side effects (hoarseness, bradycardia) of VNS.
++ The anti-inflammatory effect will be independent of SFN status --- unlike VNS, which is predicted to fail in SFN-positive patients (Speculation @spec:cfibre-deafferentation), pharmacological $alpha$7 activation bypasses the damaged afferent pathway entirely.
++ In the existing pyridostigmine framework (Section @sec:pyridostigmine), galantamine would provide both the downstream ACh amplification (AChE inhibition, like pyridostigmine) _and_ direct $alpha$7 modulation --- potentially superior to pyridostigmine for the anti-inflammatory endpoint while retaining the autonomic benefit.
+
+*Limitations:* GTS-21 is not commercially available outside research settings. Galantamine's cholinergic side effects (nausea, diarrhoea, bradycardia) overlap with common ME/CFS symptoms and may limit tolerability. The $alpha$7 nAChR mechanism assumes that the downstream macrophage pathway is intact in ME/CFS --- if macrophage $alpha$7 receptor expression is downregulated by chronic inflammation, pharmacological activation may be insufficient. No ME/CFS trial data exist for either agent. The comparison to VNS efficacy is speculative; a head-to-head trial would be required to validate the predicted superiority.
+
+#warning-env(title: [Research-Stage Hypothesis])[
+This hypothesis identifies pharmacological targets, not clinical recommendations. Neither GTS-21 nor galantamine has been tested in ME/CFS. Galantamine is approved for Alzheimer's disease; its use in ME/CFS would be off-label and should only be considered in the context of a clinical trial or under specialist supervision with explicit informed consent regarding off-label status.
+]
+] <hyp:alpha7-pharmacological-vns>
+
 // ===== New sections added 2026-03-26: Spooniverse gap-fill =====
 
 == Rapamycin (Sirolimus) --- First Human Pilot Data
