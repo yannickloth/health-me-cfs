@@ -654,7 +654,7 @@ Once this threshold is crossed ($G > 1$), the system enters a stable dysfunction
 
 Several factors influence whether an individual's post-viral vicious cycles remain escapable or become inescapable:
 
-    / *Genetic reserve capacity*: Individuals with variants affecting mitochondrial biogenesis efficiency (e.g., WASF3 regulation @wang2023wasf3), NAD#super[+] synthesis capacity @syed2025nad_therapy, or antioxidant systems start with different baseline repair capacities. A genetic variant reducing mitochondrial biogenesis by 30% means the same viral insult creates stronger cycle gain.
+    / *Genetic reserve capacity*: Individuals with variants affecting mitochondrial biogenesis efficiency (e.g., WASF3 regulation @wang2023wasf3), NAD#super[+] synthesis capacity @heng2025mecfs, or antioxidant systems start with different baseline repair capacities. A genetic variant reducing mitochondrial biogenesis by 30% means the same viral insult creates stronger cycle gain.
 
     / *Severity of initial trigger*: Massive viral load or severe infection causes more extensive initial damage. Damage to 80% of mitochondrial population creates stronger cycle gain than damage to 40% because insufficient functional mitochondria remain to support repair.
 

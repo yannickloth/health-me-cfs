@@ -27,7 +27,7 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
   
   [Coenzyme Q10 (ubiquinol)], [200–400mg/day], [Moderate], [ETC electron carrier; RCT showed reduced fatigue @CastroMarrero2021CoQ10. Take with fat-containing meal.],
   
-  [NAD#super[+] precursors (NR or NMN)], [250–500mg/day], [Low], [Replenishes NAD#super[+] pool; limited ME/CFS-specific data @syed2025nad_therapy.],
+  [NAD#super[+] precursors (NR or NMN)], [250–500mg/day], [Low], [Replenishes NAD#super[+] pool; limited ME/CFS-specific data @heng2025mecfs.],
   
   [D-Ribose], [5g 2–3$times$/day], [Low], [ATP precursor; small open-label studies suggest benefit. Dissolve in water.],
   

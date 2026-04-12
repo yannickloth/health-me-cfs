@@ -4590,17 +4590,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     
     / *Relevance to Part V:*: Treatment parameter data for mitochondrial supplement models and exercise response modelling.
 
-=== Syed et al.\ 2025 — NAD+ Therapy Pilot Study
-
-    / *Full Citation:*: Syed S, Brenu EW, Staines DR, Marshall-Gradisnik SM. NAD+ therapy in chronic fatigue syndrome: A pilot study. _Journal of Translational Medicine_. 2025;23(1):45. @syed2025nad_therapy
-    / *DOI:*: #link("https://doi.org/10.1186/s12967-025-04876-5")[10.1186/s12967-025-04876-5]
-    / *Key Findings:*:
-    
-        - Pilot study of NAD+ supplementation in ME/CFS
-        - Preliminary evidence of therapeutic benefit
-    
-    / *Relevance to Part V:*: Early clinical data for NAD+ pathway modelling and treatment simulation.
-
 === Newton et al.\ 2007 — Fatigue Comparison with Sj\"{ogren's}
 
     / *Full Citation:*: Newton JL, Harte AL, Man W, Jones DE, Pyke DA, Deary IJ, Ng W-F. Fatigue in primary Sj\"{o}gren's syndrome: A comparison with chronic fatigue syndrome. _Rheumatology_. 2007;46(12):1817–1821. @Newton2007

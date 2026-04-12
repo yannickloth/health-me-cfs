@@ -40,7 +40,7 @@ Table @tab:energy-params lists all parameters with healthy baseline values, ME/C
     [$Delta Psi_upright("threshold")$], [110], [110], [mV], [Biophysics],
     [$J_("leak,0")$], [0.05], [0.075--0.15], [mM/min], [Estimated],
     [$A_upright("total")$], [8.0], [8.0], [mM], [Physiology],
-    [$N_upright("total")$], [1.0], [0.6--0.9], [mM], [@syed2025nad_therapy],
+    [$N_upright("total")$], [1.0], [0.6--0.9], [mM], [@heng2025mecfs (PBMC data; tissue value predicted)],
     [$k_upright("ROS")$], [0.01], [0.01], [min⁻¹], [Estimated],
     [$k_upright("SOD")$], [10.0], [10.0], [mM⁻¹min⁻¹], [Enzymology],
     [$k_D$], [0.001], [0.001], [min⁻¹], [Estimated],

@@ -102,7 +102,7 @@ The ME/CFS disease state is modeled by modifying healthy-state parameters at spe
 
 + *Reduced Complex I activity*: $V_(max, upright("CI"))^(upright("ME/CFS")) = alpha_(upright("CI")) dot.op V_(max, upright("CI"))^(upright("healthy"))$ with $alpha_(upright("CI")) in [0.5, 0.8]$, consistent with findings of impaired Complex I function in ME/CFS lymphocytes @Tomas2017
 + *Increased proton leak*: $J_(upright("leak"))^(upright("ME/CFS")) = beta dot.op J_(upright("leak"))^(upright("healthy"))$ with $beta in [1.5, 3.0]$, reducing the fraction of proton-motive force available for ATP synthesis
-+ *Reduced $"NAD"^"+"$ pool*: $[upright("NAD")^+]_(upright("total"))^(upright("ME/CFS")) = gamma dot.op [upright("NAD")^+]_(upright("total"))^(upright("healthy"))$ with $gamma in [0.6, 0.9]$, consistent with $"NAD"^"+"$ depletion observed in chronic inflammatory states @syed2025nad_therapy
++ *Reduced $"NAD"^"+"$ pool*: $[upright("NAD")^+]_(upright("total"))^(upright("ME/CFS")) = gamma dot.op [upright("NAD")^+]_(upright("total"))^(upright("healthy"))$ with $gamma in [0.6, 0.9]$, consistent with abnormal NAD#super[+] metabolism documented in ME/CFS white blood cells @heng2025mecfs (note: Heng 2025 found NAD#super[+] _elevated_ in PBMCs, suggesting substrate backup; the $gamma < 1$ assumption applies to energy-intensive tissues where depletion is predicted but not yet measured)
 + *Elevated baseline ROS*: $[upright("ROS")]_0^(upright("ME/CFS")) > [upright("ROS")]_0^(upright("healthy"))$, consistent with oxidative stress biomarkers
 
 The model predicts that these parameter changes produce a new steady state with reduced ATP production, elevated lactate, and increased sensitivity to metabolic perturbation---qualitatively matching the ME/CFS metabolic phenotype described by Naviaux @Naviaux2016metabolomics and Germain et al. @Germain2020metabolic.
@@ -260,7 +260,7 @@ Coenzyme Q10 (ubiquinone) functions as an electron carrier between Complexes I/I
 
 === $"NAD"^"+"$ Precursor Supplementation
 
-Supplementation with nicotinamide riboside or nicotinamide mononucleotide increases the total $"NAD"^"+"$ pool, modeled by increasing $[upright("NAD")^+]_(upright("total"))$. The model predicts that this increases Krebs cycle flux (through the $"NAD"^"+"$/NADH ratio term in @eq:krebs-flux) and shifts the ROS balance favorably. The predicted magnitude of benefit depends on the degree of baseline $"NAD"^"+"$ depletion ($gamma$ parameter), suggesting that patients with lower baseline $"NAD"^"+"$ levels would show greater response---a testable prediction for treatment stratification @syed2025nad_therapy.
+Supplementation with nicotinamide riboside or nicotinamide mononucleotide increases the total $"NAD"^"+"$ pool, modeled by increasing $[upright("NAD")^+]_(upright("total"))$. The model predicts that this increases Krebs cycle flux (through the $"NAD"^"+"$/NADH ratio term in @eq:krebs-flux) and shifts the ROS balance favorably. The predicted magnitude of benefit depends on the degree of baseline $"NAD"^"+"$ depletion ($gamma$ parameter), suggesting that patients with lower baseline $"NAD"^"+"$ levels would show greater response — a testable prediction for treatment stratification. No ME/CFS-specific NAD#super[+] precursor RCT has been published (as of 2026); the closest evidence is Schreiber 2025 ($n = 900$, nicotinamide 1000 mg/day in post-COVID, significant symptom reduction).
 
 === Prediction Limitations
 
