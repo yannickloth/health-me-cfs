@@ -350,27 +350,27 @@ result-*
 
 # Reference materials
 test-tikz-figure.pdf
-patients/majesticspinach2909/quickref-daily.pdf
 .gitignore
-patients/majesticspinach2909/majesticspinach2909-protocol.pdf
-patients/majesticspinach2909/CASE_STUDY.pdf
-patients/marie/*.pdf
-patients/ursula/majesticspinach2909-protocol.pdf
-patients/ursula/CASE_STUDY.pdf
-patients/ursula/quickref-daily.pdf
 .claude/logs/routing.log.lock
-patients/aeiuno/20260208 prurit visage.aeiuno.pdf
-patients/aeiuno/20260322 narcolepsy-pattern sleep.aeiuno.pdf
-patients/aeiuno/20260407_index-dossier-sante-CAN.pdf
-patients/aeiuno/20260407_prep-rdv-Christine-Dusart.pdf
-patients/aeiuno/20260407_rapport-clinique-CAN-sommeil.pdf
 general protocols/light-energy-protocol.pdf
 general protocols/medication-supplement-guide.pdf
 tmp/
 .history/
 figures/FIXES-*.md
 figures/VALIDATION_REPORT-*.md
-patients/sven
 .claudelens
+
+# Sven folder is a symlink to external notes vault — not tracked
+patients/sven
+
+# Patient generated/ folders: compiled PDFs and build artifacts
+patients/*/generated/*.pdf
+patients/*/generated/**/*.pdf
+patients/*/generated/*.synctex.gz
+patients/*/generated/**/*.synctex.gz
+patients/*/generated/*.aux
+patients/*/generated/**/*.aux
+patients/*/generated/*.log
+patients/*/generated/**/*.log
 Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/
 Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher.htmlz
