@@ -5060,6 +5060,73 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 // =============================================================================
 
+== PDK/PDC Muscle Evidence and Skeletal Muscle Pathology
+<sec:bib-pdk-muscle>
+// =============================================================================
+
+=== Tomas et al.\ 2020 — CFS Skeletal Muscle Cells Fail to Oxidise Glucose
+
+    / *Full Citation:*: Tomas C, Elson JL, Newton JL, Walker M. Substrate utilisation of cultured skeletal muscle cells in patients with CFS. _Scientific Reports_. 2020;10(1):18232. @Tomas2020substrate
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-020-75406-w")[10.1038/s41598-020-75406-w]
+    / *Key Findings:*:
+
+        - Extracellular flux analysis (Seahorse XFe96) of primary skeletal muscle cells from vastus lateralis biopsies; $n = 9$ CFS vs 11 controls
+        - CFS muscle cells cannot utilise glucose normally
+        - Galactose oxidation, fatty acid oxidation, and glycolytic function were all _normal_
+        - Authors conclude: "the cellular bioenergetic dysfunction in CFS lies upstream of the TCA cycle" — at the pyruvate→acetyl-CoA link step
+        - PDK explicitly named as a candidate mechanism alongside PDC defects and mitochondrial pyruvate carriers
+        - Direct PDC activity was NOT measured; localisation inferred from substrate switching
+        - *Certainty: 0.45* — peer-reviewed, well-designed bioenergetics; small $n = 9$; not independently replicated; does not prove PDK involvement
+
+    / *Relevance:*: The closest available tissue-level evidence supporting the Fluge 2016 PBMC finding. By using cultured muscle cells from actual ME/CFS biopsies (not PBMCs), this study bridges the tissue gap that makes G7 critical. The selective glucose oxidation failure with preserved fatty acid and galactose oxidation is precisely the pattern expected from PDK overactivation (which blocks pyruvate→acetyl-CoA but not other TCA entry points). Falls short of G7 closure because PDK expression was not directly measured.
+
+=== Bizjak et al.\ 2024 — ME/CFS Muscle Mitochondria: Subsarcolemmal Damage by EM
+
+    / *Full Citation:*: Bizjak DA, Ohmayer B, Buhl JL, et al.\ Functional and Morphological Differences of Muscle Mitochondria in Chronic Fatigue Syndrome and Post-COVID Syndrome. _International Journal of Molecular Sciences_. 2024;25(3):1675. @Bizjak2024muscleMito
+    / *DOI:*: #link("https://doi.org/10.3390/ijms25031675")[10.3390/ijms25031675]
+    / *Key Findings:*:
+
+        - Muscle biopsy; ME/CFS $n = 14$, post-COVID $n = 14$, controls $n = 13$
+        - Electron microscopy: ME/CFS shows smaller, more deformed _subsarcolemmal_ mitochondria (preferentially damaged)
+        - This subsarcolemmal pattern was NOT seen in post-COVID — disease-specific
+        - Complex I activity reduced in post-COVID vs controls but not significantly in ME/CFS
+        - PDK not measured
+        - *Certainty: 0.55* — peer-reviewed, EM + functional assay, small samples
+
+    / *Relevance:*: Provides the first ME/CFS-specific mitochondrial morphology data distinguishing it from post-COVID at the ultrastructural level. Subsarcolemmal mitochondria are preferentially involved in ATP export and membrane-associated energy functions; their selective damage in ME/CFS but not post-COVID suggests distinct pathophysiological mechanisms despite overlapping clinical phenotypes.
+
+=== Finnigan et al.\ 2024 — 31P MRS: Prolonged PCr Recovery in Long COVID
+
+    / *Full Citation:*: Finnigan LEM, Cassar MP, Jafarpour M, et al.\ 1H and 31P MR Spectroscopy to Assess Muscle Mitochondrial Dysfunction in Long COVID. _Radiology_. 2024;313(3):e233173. @Finnigan2024MRS
+    / *DOI:*: #link("https://doi.org/10.1148/radiol.233173")[10.1148/radiol.233173]
+    / *Key Findings:*:
+
+        - Prospective; 41 fatigue-predominant post-COVID patients vs 29 controls; 3T 31P MRS during plantar flexion
+        - $τ_"PCr"$ severely prolonged: 92.5 $±$ 35.3 s vs 51.9 $±$ 31.9 s ($p ≤ 0.001$) — nearly doubled
+        - Maximal oxidative flux (Qmax) significantly lower ($p = 0.008$)
+        - No correlation between MRS parameters and subjective fatigue scores
+        - First quantitative in vivo measure of impaired muscle OXPHOS in post-COVID
+        - *Certainty: 0.60* — high-quality (Radiology, Oxford), prospective; applies to long COVID, not directly ME/CFS
+
+    / *Relevance:*: Establishes a non-invasive quantitative measure of muscle mitochondrial capacity impairment in a condition overlapping ME/CFS. The ~78% prolongation of PCr recovery is a large effect size. This methodology could be applied directly to ME/CFS to close or narrow G7/G8 without requiring invasive biopsy.
+
+=== Park & Jeoung 2016 — Inflammation Drives PDK4 in Skeletal Muscle via JNK
+
+    / *Full Citation:*: Park H, Jeoung NH. Inflammation increases pyruvate dehydrogenase kinase 4 (PDK4) expression via the Jun N-Terminal Kinase (JNK) pathway in C2C12 cells. _Biochemical and Biophysical Research Communications_. 2016;469(4):1049--1054. @ParkJeoung2016PDK4
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbrc.2015.12.113")[10.1016/j.bbrc.2015.12.113]
+    / *Key Findings:*:
+
+        - In vitro; C2C12 mouse skeletal muscle myoblasts treated with LPS
+        - LPS induces PDK4 (but NOT PDK1, PDK2, or PDK3) mRNA and protein upregulation
+        - LPS increases lactate production via PDK4-mediated PDC inhibition
+        - JNK inhibitor prevents both PDK4 upregulation and lactate excess
+        - Mechanism: LPS → JNK phosphorylation → PDK4 transcription → PDC inhibition → glycolytic shift
+        - *Certainty: 0.50* — in vitro only; mechanism is consistent with broader HIF-1α/inflammatory literature
+
+    / *Relevance:*: Provides a direct mechanistic bridge from immune dysfunction (chronic inflammation with elevated TNF-α, IL-6, IL-1β) to muscle-specific PDK4 overactivation, without requiring the PBMC-to-muscle generalisation that limits the Fluge 2016 finding. If chronic low-grade inflammation in ME/CFS activates JNK in skeletal muscle, PDK4 would be upregulated specifically in the tissue where the metabolic bottleneck matters — explaining exercise intolerance at the pyruvate→acetyl-CoA gate.
+
+// =============================================================================
+
 == Circadian Rhythm and Sleep
 <sec:bib-circadian-sleep>
 // =============================================================================
