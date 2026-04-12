@@ -288,30 +288,33 @@ None of the three listed Step 1 gaps is _individually essential_ to cellular ene
 
 #figure(
   kind: table,
-  caption: [Step 1 research gaps — essentiality, worst-case impact, tractability, therapeutic leverage, and priority tier. Worst-case impact is expressed as the fraction of Step 1's gated ATP yield (~30 ATP/glucose = 100%) that would be lost if the mechanism fully failed, assuming no compensation from parallel routes. Priority tiers integrate all four criteria.],
+  caption: [Step 1 research gaps — essentiality, worst-case impact, tractability, therapeutic leverage, measurement accessibility, and priority tier. Worst-case impact is expressed as the fraction of Step 1's gated ATP yield (~30 ATP/glucose = 100%) that would be lost if the mechanism fully failed, assuming no compensation from parallel routes. Priority tiers integrate all four criteria.],
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
-    align: (left, left, left, left, left, center),
+    columns: (auto, auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, left, center),
     table.header(
-      [*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]
+      [*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Measurement*], [*Priority*]
     ),
     [G1: GLUT4 trafficking (skeletal muscle)],
     [Medium — one of 4 GLUT isoforms; GLUT1/3 compensate partially at rest but not under insulin-stimulated demand; glucose uptake impaired in ME/CFS muscle cells with defect proximal to AMPK @Brown2018AMPK],
     [~30--60% of gated yield in insulin-sensitive tissues during exertion; negligible at rest],
     [Hard — muscle biopsy with GLUT4 immunofluorescence or surface-biotinylation assay],
     [Immediate — metformin, berberine, exercise-mimetics (AICAR research-grade)],
+    [Muscle biopsy (IF)],
     [2],
     [G2: Malonyl-CoA/CPT1 fuel switch],
     [High — sole gate between glucose-preferential and fatty-acid-preferential metabolism; no parallel switch; Reuter 2011 inferred reduced CPT-I from 30--40% lower long-chain acylcarnitines @Reuter2011],
     [~20--40% of gated yield if the switch is locked in either mode (prevents substrate-flexible compensation during exertion or fasting)],
     [Moderate — plasma malonyl-CoA (specialist LC-MS) + PBMC ACC/AMPK phospho-Western],
     [Near-term — AMPK activators (metformin); ACC inhibitors (firsocostat) in phase II for NASH],
+    [Blood draw (specialist LC-MS)],
     [1],
     [G3: AMPK-activator trials (metformin, berberine)],
     [N/A — intervention gap; in vitro proof-of-concept exists (Brown 2018: metformin rescues AMPK and glucose uptake in ME/CFS muscle cells @Brown2018AMPK); Long COVID RCT null for established fatigue (Reis 2026: metformin halted for futility @Reis2026fluvoxamine); prevention-stage evidence from COVID-OUT (41% Long COVID reduction @Reis2023COVIDOUT)],
     [Unknown pending G1/G2; Long COVID RCT null weakens the case for established fatigue],
     [Easy — metformin is FDA-approved, cheap, and widely tolerated; RCT designs for ME/CFS are straightforward],
     [Immediate — metformin is off-patent and available],
+    [Blood draw (RCT)],
     [3 (downgraded: in vitro positive but clinical null in Long COVID fatigue)],
   )
 ) <tab:step1-gap-priorities>
@@ -351,12 +354,12 @@ Three glycolytic-enzyme-level gaps remain open in ME/CFS: (G4) direct activity a
   kind: table,
   caption: [Step 2 (Glycolysis) research gap prioritisation.],
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
-    align: (left, left, left, left, left, center),
-    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
-    [G4: Glycolytic enzyme activity assay (HK, PFK1, PKM2)], [Medium — each enzyme has isoform redundancy but PFK1 is the rate-limiting committed step], [~10--30% of gated yield (direct 2 ATP) plus indirect loss of pyruvate supply to PDC], [Moderate — enzyme activity assays on PBMC lysates are standardised; muscle requires biopsy], [Long-term — no approved enzyme-targeted therapy], [2],
-    [G5: Hexokinase II mitochondrial anchoring (VDAC association)], [High if confirmed — anchoring physically couples glycolytic ATP to ETC and regulates apoptosis], [~15--25% of gated yield via lost mito-glycolytic coupling], [Hard — requires muscle biopsy with subcellular fractionation or immuno-EM], [Long-term — HK2-displacement compounds are research tools only], [3],
-    [G6: PFK1 allosteric regulation], [Low — PFK1 is rate-limiting but its dysregulation would already be detected in G4], [Overlaps with G4], [Moderate — metabolomic F2,6BP measurement is feasible], [Long-term — no approved modulators], [3],
+    columns: (auto, auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Measurement*], [*Priority*]),
+    [G4: Glycolytic enzyme activity assay (HK, PFK1, PKM2)], [Medium — each enzyme has isoform redundancy but PFK1 is the rate-limiting committed step], [~10--30% of gated yield (direct 2 ATP) plus indirect loss of pyruvate supply to PDC], [Moderate — enzyme activity assays on PBMC lysates are standardised; muscle requires biopsy], [Long-term — no approved enzyme-targeted therapy], [Blood draw (PBMC lysate) or muscle biopsy], [2],
+    [G5: Hexokinase II mitochondrial anchoring (VDAC association)], [High if confirmed — anchoring physically couples glycolytic ATP to ETC and regulates apoptosis], [~15--25% of gated yield via lost mito-glycolytic coupling], [Hard — requires muscle biopsy with subcellular fractionation or immuno-EM], [Long-term — HK2-displacement compounds are research tools only], [Muscle biopsy (immuno-EM)], [3],
+    [G6: PFK1 allosteric regulation], [Low — PFK1 is rate-limiting but its dysregulation would already be detected in G4], [Overlaps with G4], [Moderate — metabolomic F2,6BP measurement is feasible], [Long-term — no approved modulators], [Blood draw (metabolomics)], [3],
   )
 ) <tab:step2-gap-priorities>
 
@@ -424,13 +427,13 @@ G9 is a confirmed open gap despite existing partial evidence. The closest publis
   kind: table,
   caption: [Step 3 (PDC) research gap prioritisation. PDC is a sole-route pipeline gate; essentiality is high for every gap.],
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
-    align: (left, left, left, left, left, center),
-    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Priority*]),
-    [G7: Muscle-biopsy replication of Fluge 2016 PDK upregulation], [High — confirms or refutes the anchor finding; indirect tissue support from Tomas 2020 (glucose oxidation defect at PDC link step) and Bizjak 2024 (subsarcolemmal mito damage)], [Determines whether the current PDC framing is correct; up to ~83% of gated yield], [Hard — muscle biopsy qPCR + PDK Western; inflammation→PDK4 mechanism via JNK available (Park 2016)], [Near-term — DCA is available (Comhaire 2018)], [1],
-    [G8: Direct PDC activity assay in ME/CFS muscle], [High], [Same as G7], [Hard — radioactive pyruvate decarboxylation assay requires specialist lab], [Near-term], [1],
-    [G9: Combined cofactor measurement (thiamine + LA + riboflavin + NAD#super[+])], [High — any single cofactor failure inactivates PDC; partial data exist (Heap 1999: 3 B vitamins; Myhill 2012: NAD+CoQ10+carnitine; Castro-Marrero 2015: CoQ10+NAD) but no study covers all four PDC cofactors], [Up to 83% if any cofactor is limiting], [Easy (individual assays all standardised) to moderate (integration); lipoic acid and Fe-S cluster status have never been measured in ME/CFS], [Immediate — all four cofactors are OTC supplements; CoQ10+NADH shows strongest supplementation signal (Dorczok 2025 systematic review)], [1],
-    [G10: MnSOD-stratified DCA trial], [Dependent on @spec:pdk-protective], [Intervention test, not a mechanism gap], [Moderate — requires stratified recruitment], [Immediate — DCA is orphan-drug available], [2],
+    columns: (auto, auto, auto, auto, auto, auto, auto),
+    align: (left, left, left, left, left, left, center),
+    table.header([*Gap*], [*Essentiality*], [*Worst-case impact*], [*Tractability*], [*Therapeutic leverage*], [*Measurement*], [*Priority*]),
+    [G7: Muscle-biopsy replication of Fluge 2016 PDK upregulation], [High — confirms or refutes the anchor finding; indirect tissue support from Tomas 2020 (glucose oxidation defect at PDC link step) and Bizjak 2024 (subsarcolemmal mito damage)], [Determines whether the current PDC framing is correct; up to ~83% of gated yield], [Hard — muscle biopsy qPCR + PDK Western; inflammation→PDK4 mechanism via JNK available (Park 2016)], [Near-term — DCA is available (Comhaire 2018)], [Muscle biopsy (qPCR + Western)], [1],
+    [G8: Direct PDC activity assay in ME/CFS muscle], [High], [Same as G7], [Hard — radioactive pyruvate decarboxylation assay requires specialist lab], [Near-term], [Muscle biopsy (specialist assay)], [1],
+    [G9: Combined cofactor measurement (thiamine + LA + riboflavin + NAD#super[+])], [High — any single cofactor failure inactivates PDC; partial data exist (Heap 1999: 3 B vitamins; Myhill 2012: NAD+CoQ10+carnitine; Castro-Marrero 2015: CoQ10+NAD) but no study covers all four PDC cofactors], [Up to 83% if any cofactor is limiting], [Easy (individual assays all standardised) to moderate (integration); lipoic acid and Fe-S cluster status have never been measured in ME/CFS], [Immediate — all four cofactors are OTC supplements; CoQ10+NADH shows strongest supplementation signal (Dorczok 2025 systematic review)], [Blood draw (standardised assays)], [1],
+    [G10: MnSOD-stratified DCA trial], [Dependent on @spec:pdk-protective], [Intervention test, not a mechanism gap], [Moderate — requires stratified recruitment], [Immediate — DCA is orphan-drug available], [Blood draw (stratified RCT)], [2],
   )
 ) <tab:step3-gap-priorities>
 
@@ -563,7 +566,7 @@ Step 5 as a whole is _individually essential_ on the glucose-oxidation branch: t
 #speculation(title: [Aconitase Inactivation as the Iron Source for Mitochondrial Ferroptotic Stress])[
 *Certainty: 0.30.* When superoxide attacks aconitase's [4Fe-4S] cluster, the enzyme releases labile iron (Fe#super[2+]) into the mitochondrial matrix. This iron catalyses the Fenton reaction (Fe#super[2+] + H#sub[2]O#sub[2] $arrow.r$ OH$dot$ + OH#super[-] + Fe#super[3+]), generating hydroxyl radicals that attack inner mitochondrial membrane polyunsaturated fatty acids. If MnSOD is reduced (as documented by Shankar 2025 @Shankar2025oxidativestress), superoxide is elevated, aconitase continuously loses its cluster iron, and GPX4 (elevated 1.9× as a compensatory response but potentially enzymatically insufficient @Shankar2025oxidativestress) may be unable to clear the resulting lipid peroxides. This creates a mechanistic chain: reduced MnSOD $arrow.r$ elevated O#sub[2]#super[$dot -$] $arrow.r$ aconitase [4Fe-4S] destruction $arrow.r$ labile iron release $arrow.r$ Fenton chemistry $arrow.r$ lipid peroxidation $arrow.r$ GPX4 overwhelmed $arrow.r$ sub-lethal ferroptotic stress. Aconitase is not merely a TCA cycle casualty of oxidative stress — it may be the _iron donor_ that converts a mitochondrial ROS problem into a membrane damage problem, bridging the energy metabolism deficit (this chapter) to the ferroptosis hypothesis.
 
-A parallel cytosolic mechanism amplifies the effect. Cytosolic aconitase (ACO1) moonlights as Iron Regulatory Protein 1 (IRP1): when its [4Fe-4S] cluster is destroyed by oxidative stress, ACO1 gains RNA-binding activity, upregulating transferrin receptor (increasing iron import) while suppressing ferritin (reducing iron storage) and ferroportin (reducing iron export). The net result is intracellular labile iron accumulation despite normal or low serum ferritin — a state invisible to standard iron panels that would allow Fenton-chemistry-driven damage to proceed undetected by routine clinical assessment.
+A parallel cytosolic mechanism amplifies the effect. Cytosolic aconitase (ACO1) moonlights as Iron Regulatory Protein 1 (IRP1): when its [4Fe-4S] cluster is destroyed by oxidative stress, ACO1 gains RNA-binding activity, upregulating transferrin receptor (increasing iron import) while suppressing ferritin (reducing iron storage) and ferroportin (reducing iron export). The net result is intracellular labile iron accumulation despite normal or low serum ferritin — standard iron panels measure serum levels but not intracellular labile iron, creating a diagnostic blind spot through which Fenton-chemistry-driven damage could proceed undetected.
 
 *Testable predictions:* (1) Mitochondrial labile iron (calcein-AM quenching) will be elevated in ME/CFS PBMCs and will inversely correlate with ACO2 enzymatic activity. (2) IRP1 RNA-binding activity (EMSA) will be elevated while ACO1 enzymatic activity is reduced. (3) Post-exercise C4a elevation (documented in ME/CFS) will correlate with aconitase inactivation markers.
 
