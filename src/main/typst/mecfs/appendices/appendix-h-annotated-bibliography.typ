@@ -5060,6 +5060,41 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 // =============================================================================
 
+== Krebs Cycle Enzyme Evidence (KGDHC, Aconitase)
+<sec:bib-krebs-enzymes>
+// =============================================================================
+
+=== Che et al.\ 2022 — α-KG and Succinate Elevated in ME/CFS Plasma
+
+    / *Full Citation:*: Che X, Brydges CR, Yu Y, et al.\ Metabolomic Evidence for Peroxisomal Dysfunction and Dysregulation of the CDP-Choline Pathway in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _International Journal of Molecular Sciences_. 2022;23(14):7906. @Che2022peroxisomal
+    / *DOI:*: #link("https://doi.org/10.3390/ijms23147906")[10.3390/ijms23147906]
+    / *Key Findings:*:
+
+        - Untargeted plasma metabolomics; $n = 106$ ME/CFS vs 91 frequency-matched controls
+        - Both $α$-ketoglutarate AND succinate elevated in ME/CFS plasma
+        - Pattern consistent with a functional KGDHC block: substrate ($α$-KG) accumulates upstream, product (succinate) accumulates downstream
+        - Also identified peroxisomal dysfunction and CDP-choline pathway disruption
+        - *Certainty: 0.50* — reasonable sample, but metabolite accumulation is consistent with multiple explanations (glutamine overflow, transamination imbalance)
+
+    / *Relevance:*: Strongest standalone metabolomic evidence for a KGDHC flux defect in ME/CFS. The simultaneous elevation of substrate and product is the metabolomic fingerprint of an enzyme bottleneck, though alternative explanations exist. Combined with the Germain 2022 exercise-provoked inverse $α$-KG trajectory, this constitutes converging indirect evidence for G17.
+
+=== Tretter & Adam-Vizi 2005 — KGDHC as Target and Generator of Oxidative Stress
+
+    / *Full Citation:*: Tretter L, Adam-Vizi V. Alpha-ketoglutarate dehydrogenase: a target and generator of oxidative stress. _Philosophical Transactions of the Royal Society B_. 2005;360(1464):2335--2345. @TretterAdamVizi2005
+    / *DOI:*: #link("https://doi.org/10.1098/rstb.2005.1764")[10.1098/rstb.2005.1764]
+    / *Key Findings:*:
+
+        - Core mechanistic paper on KGDHC vulnerability to ROS
+        - 40--50% inhibition at 0.1--0.5 mM H#sub[2]O#sub[2] (physiologically relevant concentrations)
+        - HNE (4-hydroxynonenal, lipid peroxidation product) irreversibly modifies E2 lipoic acid residues
+        - Peroxynitrite nitrates E1/E2 tyrosines
+        - Elevated NADH/NAD#super[+] ratio drives E3 to generate _more_ ROS (positive feedback)
+        - *Certainty: 0.75* — rigorous in vitro biochemistry; core reference for KGDHC-ROS field
+
+    / *Relevance:*: Every inactivating condition described — elevated H#sub[2]O#sub[2], HNE from lipid peroxidation, elevated NADH/NAD#super[+] — is independently documented in ME/CFS (Shankar 2025: elevated ROS and HNE; Heng 2025: elevated NAD#super[+] in PBMCs with impaired reduction). KGDHC is therefore _mechanistically predicted_ to be impaired in ME/CFS, but has never been measured (G17). The positive feedback loop (KGDHC inhibition → less NADH reduction → more E3 ROS → more KGDHC inhibition) could sustain a self-amplifying vicious cycle.
+
+// =============================================================================
+
 == PDK/PDC Muscle Evidence and Skeletal Muscle Pathology
 <sec:bib-pdk-muscle>
 // =============================================================================
