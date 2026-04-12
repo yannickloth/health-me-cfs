@@ -848,7 +848,7 @@ The PCr shuttle has additional significance in the context of ANT dysfunction (@
 
 #achievement(title: [Creatine Supplementation Increases Brain Creatine and Reduces Fatigue])[
 In a feasibility study ($n=11$ completers), Godlewska et al.\ found that 6 weeks of creatine monohydrate (16 g/day) significantly increased brain creatine in the pregenual anterior cingulate cortex (+8.3%, $p=0.004$) and dorsolateral prefrontal cortex (+2.9%, $p=0.012$), measured by 7T MRS @Godlewska2024creatineMRS. Secondary outcomes showed decreased fatigue scores and improved Stroop reaction time and hand-grip strength. This is the first intervention evidence that brain creatine deficiency in ME/CFS — previously documented by 7T MRS cross-sectionally @Godlewska2025MRS — is pharmacologically correctable.
-Study: (open-label feasibility, no placebo arm; certainty: 0.45 — requires blinded RCT before clinical recommendation).
+Study: (open-label feasibility, no placebo arm; certainty: 0.45 — requires blinded RCT before clinical recommendation). Note: the 16 g/day dose is 3.2$times$ the standard loading dose and substantially above the 6 g/day used in the positive Long COVID RCT (Dos Santos 2026); at this dose, GI distress (bloating, diarrhea, cramping) is common and may be functionally debilitating, particularly for ME/CFS patients with comorbid IBS.
 ] <ach:godlewska2024-creatine>
 
 #warning-env(title: [Replication Status: Preliminary])[
@@ -1142,7 +1142,7 @@ Four lines of indirect evidence now constrain this hypothesis:
 + Even the fraction that _is_ active drives production of new mitochondria that are immediately dysfunctional because WASF3 prevents Complex IV supercomplex assembly.
 + The cell expends energy on biogenesis but receives no functional return.
 
-This is worse than no biogenesis at all, because: (a) lipid and protein synthesis for new membranes consumes ATP; (b) importing nuclear-encoded mitochondrial proteins via TIM/TOM complexes consumes ATP; (c) new dysfunctional mitochondria generate additional ROS (electrons that cannot be efficiently passed to oxygen at Complex IV back up through the chain, increasing electron leak at Complexes I and III); (d) the cell cannot distinguish functional from dysfunctional new mitochondria for mitophagy (they may initially retain membrane potential).
+If the fraction of functional new mitochondria is sufficiently low (i.e., the biosynthetic ATP cost exceeds the functional ATP return from partially assembled organelles), this could be worse than no biogenesis at all, because: (a) lipid and protein synthesis for new membranes consumes ATP; (b) importing nuclear-encoded mitochondrial proteins via TIM/TOM complexes consumes ATP; (c) new dysfunctional mitochondria generate additional ROS (electrons that cannot be efficiently passed to oxygen at Complex IV back up through the chain, increasing electron leak at Complexes I and III); (d) the cell cannot distinguish functional from dysfunctional new mitochondria for mitophagy (they may initially retain membrane potential).
 
 *Testable prediction:* ME/CFS muscle will show elevated markers of active biogenesis (mitochondrial protein import machinery, cardiolipin synthesis intermediates) alongside _decreased_ functional respiratory capacity per mitochondrion (citrate synthase-normalised Complex IV activity) — a signature of "spinning wheels." The WASF3/ER-stress axis should be addressed _before_ stimulating PGC-1$alpha$/biogenesis; otherwise, more biogenesis amplifies ROS and energy waste.
 
