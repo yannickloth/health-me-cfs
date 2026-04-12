@@ -1,0 +1,23 @@
+PMID: 28781075
+Title: Activated Tissue-Resident Mesenchymal Stromal Cells Regulate the Immune Response in the Tumor Microenvironment
+Authors: Petri RM, Hackel A, Hahnel K, Dumitru CA, Bruderek K, Flohe SB, Paschen A, Lang S, Brandau S
+Journal: Stem Cell Reports
+Year: 2017
+Volume: 9
+Number: 3
+Pages: 985-998
+DOI: 10.1016/j.stemcr.2017.06.020
+
+Abstract:
+This study challenges the static inhibitory model of MSC-NK cell interactions. Using poly(I:C)
+stimulation to model infection/tissue injury, it reveals a time-dependent system: early on,
+activated MSCs secrete type I interferon to enhance NK cell effector function; at later time
+points, TGF-β and IL-6 limit NK cell effector function and terminate inflammatory responses
+by inducing a regulatory senescent-like NK cell phenotype. Feedback from these regulatory NK
+cells to MSCs promotes survival, proliferation, and pro-angiogenic properties critical to
+wound healing.
+
+Key implication: In ME/CFS, where TGF-β is chronically elevated and NK cells are in a
+functionally exhausted state, this regulatory circuit may be constitutively activated —
+driving premature inflammatory resolution and impaired angiogenic wound support without
+completing the repair process.

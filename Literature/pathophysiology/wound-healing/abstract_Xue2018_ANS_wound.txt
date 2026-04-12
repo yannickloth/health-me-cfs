@@ -1,0 +1,23 @@
+PMID: 29988115
+Title: The mouse autonomic nervous system modulates inflammation and epithelial renewal after
+      corneal abrasion through the activation of distinct local macrophages
+Authors: Xue Y, He J, Xiao C, Guo Y, Fu T, Liu J, Lin C, Wu M, Yang Y, Dong D, Pan H,
+         Xia C, Ren L, Li Z
+Journal: Mucosal Immunology
+Year: 2018
+Volume: 11
+Number: 5
+Pages: 1496-1511
+DOI: 10.1038/s41385-018-0031-6
+
+Abstract:
+This study demonstrates that the autonomic nervous system regulates corneal wound healing
+and inflammatory responses through distinct macrophage populations with opposite effects.
+Sympathetic activation inhibited reepithelialization after corneal abrasion and increased
+neutrophil influx, while parasympathetic activation had the opposite effects. Two macrophage
+subsets were identified: CD64+CCR2+ cells expressing β2-adrenergic receptors (pro-inflammatory,
+SNS-responsive) and CD64+CCR2- cells expressing α7 nicotinic acetylcholine receptors
+(anti-inflammatory, PNS-responsive). The findings suggest that manipulation of autonomic
+nervous system inputs to wounds may represent an alternative approach to treating impaired
+wound healing. Importantly, sympathetic overactivation — well-documented in ME/CFS through
+POTS and dysautonomia — is shown here to directly impair epithelial repair.

@@ -1,0 +1,20 @@
+PMID: 34349124
+Title: NK cells in hypoxic skin mediate a trade-off between wound healing and antibacterial defence
+Authors: Sobecki M, Krzywinska E, Nagarajan S, Audigé A, Huỳnh K, Zacharjasz J, Debbache J,
+        Kerdiles Y, Gotthardt D, Takeda N, Fandrey J, Sommer L, Sexl V, Stockmann C
+Journal: Nature Communications
+Year: 2021
+Volume: 12
+Pages: 4700
+DOI: 10.1038/s41467-021-25065-w
+
+Abstract:
+NK cells in the wound microenvironment must balance two competing biological functions under
+hypoxic conditions. HIF-1α in NK cells acts as a regulatory switch: when absent in NK cells,
+mice show impaired release of IFN-γ and GM-CSF, resulting in faster wound repair but weakened
+infection control. Enhanced HIF pathway activation strengthens NK cell-mediated antibacterial
+defence while slowing healing. The researchers conclude that HIF-1α in NK cells serves as a
+regulatory mechanism determining whether the body prioritizes tissue regeneration or immune
+protection during skin injury recovery. The study establishes that NK cells are active,
+mechanistically required participants in wound healing (not passive bystanders), with
+their cytokine output directly modulating the rate of tissue closure.

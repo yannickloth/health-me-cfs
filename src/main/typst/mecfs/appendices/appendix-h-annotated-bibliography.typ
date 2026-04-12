@@ -6911,3 +6911,134 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Limitations:*: Primarily mechanistic and animal-model based; dose-response relationships for the ROS threshold in humans are not established; ME/CFS-specific applicability is inferential.
     / *Certainty:*: 0.60 (established mechanism; widely cited; dose-response in human ME/CFS context is extrapolation)
     / *Integrated into:*: Chapter 18, Emergency PEM Protocol antioxidant-mitophagy trade-off warning (@subsubsec:emergency-pem-protocol)
+
+// ============================================================
+// Wound Healing in ME/CFS Context — added 2026-04-12
+// ============================================================
+
+=== Baraniuk et al.\ 2024 --- Meta-analysis of NK Cell Cytotoxicity in ME/CFS
+
+    / *Full Citation:*: Baraniuk JN, Eaton-Fitch N, Marshall-Gradisnik S. Meta-analysis of natural killer cell cytotoxicity in myalgic encephalomyelitis/chronic fatigue syndrome. _Frontiers in Immunology_. 2024;15:1440643.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1440643")[10.3389/fimmu.2024.1440643]
+    / *PMID:*: 39483457
+    / *Study Design:*: Systematic review and meta-analysis; 28 papers, 55 data points on NK cell function
+    / *Key Findings:*:
+
+        - NK cell cytotoxicity is reduced to approximately half of healthy control levels in ME/CFS
+        - Overall effect size: Hedges' g = 0.96 (95% CI: 0.75--1.18)
+        - Described as the most replicated and consistent immune finding in ME/CFS
+        - Heterogeneity in effect sizes attributable to varying methodology and effector-to-target ratios, not absence of effect
+        - Dysfunction confirmed across multiple independent research groups
+
+    / *Wound Healing Relevance:*: NK cells are mechanistically required for wound healing (see Sobecki 2021 and Petri 2017). ME/CFS NK cells are reduced to ~50% functional capacity by the most rigorous meta-analytic standard available. This directly undermines any claim that wound healing proceeds normally in ME/CFS.
+    / *Limitations:*: Meta-analysis of heterogeneous studies; effect size variability; does not directly measure wound healing outcomes.
+    / *Certainty:*: 0.90 (high --- large multi-study meta-analysis; well-powered; independent replication across 28 studies)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+=== Sobecki et al.\ 2021 --- NK Cells Mediate a Trade-Off Between Wound Healing and Antibacterial Defence
+
+    / *Full Citation:*: Sobecki M, Krzywinska E, Nagarajan S, et al. NK cells in hypoxic skin mediate a trade-off between wound healing and antibacterial defence. _Nature Communications_. 2021;12:4700.
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-021-25065-w")[10.1038/s41467-021-25065-w]
+    / *PMID:*: 34349124
+    / *Study Design:*: Mechanistic mouse study; NK cell conditional knockouts and HIF-1alpha pathway manipulation
+    / *Key Findings:*:
+
+        - NK cells are active, mechanistically required participants in wound closure --- not passive bystanders
+        - HIF-1alpha in NK cells controls IFN-γ and GM-CSF output, which directly modulates wound healing rate
+        - NK-cell-derived IFN-γ and GM-CSF impair tissue closure; their absence accelerates healing but impairs bacterial control
+        - Wound healing is thus directly regulated by NK cell functional state
+
+    / *Conclusion:*: NK cells are not "downstream" of wound healing; they are upstream regulators. Reducing NK cell output (as in ME/CFS) would shift the balance toward faster initial closure but impaired coordination with immune defence --- a plausible mechanism for atypical wound healing in ME/CFS.
+    / *Limitations:*: Mouse model (corneal skin); HIF-1alpha biology in human NK cells may differ; no ME/CFS data.
+    / *Certainty:*: 0.75 (high-quality mechanistic study; _Nature Communications_; mouse model --- human translation indirect)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+=== Xue et al.\ 2018 --- Autonomic Nervous System Modulates Wound Healing via Macrophages
+
+    / *Full Citation:*: Xue Y, He J, Xiao C, et al. The mouse autonomic nervous system modulates inflammation and epithelial renewal after corneal abrasion through the activation of distinct local macrophages. _Mucosal Immunology_. 2018;11(5):1496--1511.
+    / *DOI:*: #link("https://doi.org/10.1038/s41385-018-0031-6")[10.1038/s41385-018-0031-6]
+    / *PMID:*: 29988115
+    / *Study Design:*: Mechanistic mouse study with pharmacological sympathetic/parasympathetic manipulation
+    / *Key Findings:*:
+
+        - Sympathetic nervous system activation inhibits reepithelialization and increases pro-inflammatory neutrophil influx
+        - Parasympathetic activation promotes tissue repair through anti-inflammatory macrophages (α7-nAChR+)
+        - Two functionally distinct macrophage subsets identified: β2-AR+ (SNS-responsive, pro-inflammatory) and α7-nAChR+ (PNS-responsive, pro-healing)
+        - ANS manipulation proposed as therapeutic approach for impaired wound healing
+
+    / *Conclusion:*: ME/CFS is characterised by sympathetic overactivation and parasympathetic withdrawal (documented in POTS, HRV studies). By this mechanism, the autonomic dysfunction of ME/CFS would directly bias wound healing toward the inflammatory/delayed-repair phenotype.
+    / *Limitations:*: Mouse corneal model; epithelial tissue specific; broader wound healing generalisation requires caution.
+    / *Certainty:*: 0.70 (strong mechanistic evidence; _Mucosal Immunology_; mouse model with pharmacological validation)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+=== Barrenas et al.\ 2019 --- Tissue Repair Mechanisms Prevent Immune Exhaustion in SIV
+
+    / *Full Citation:*: Barrenas F, Raehtz K, Xu C, et al. Macrophage-associated wound healing contributes to African green monkey SIV pathogenesis control. _Nature Communications_. 2019;10:5101.
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-019-12987-9")[10.1038/s41467-019-12987-9]
+    / *PMID:*: 31704931
+    / *Study Design:*: Transcriptomics and comparative immunology; African green monkeys vs rhesus macaques following SIV infection
+    / *Key Findings:*:
+
+        - Natural SIV hosts maintain evolutionarily conserved regenerative wound healing mechanisms in mucosal tissue
+        - Repair/regeneration signature (TGF-β, fibronectin) in macrophages prevents immunopathology
+        - Failure to activate tissue repair correlates with immune exhaustion and AIDS progression
+        - Wound healing mechanisms are thus part of normal immune homeostasis, not a separate peripheral process
+
+    / *Conclusion:*: Establishes that tissue repair is actively required for immune homeostasis. Systems with immune exhaustion (ME/CFS analog) have impaired tissue repair as a co-feature, not as a separate problem.
+    / *Limitations:*: Non-human primate model; indirect relevance to ME/CFS; SIV infection is an acute-to-chronic viral challenge, not identical to ME/CFS pathogenesis.
+    / *Certainty:*: 0.70 (_Nature Communications_; non-human primate; indirect but mechanistically coherent)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+=== Stanojcic et al.\ 2016 --- Immune Exhaustion Phenotype Impairs Wound Healing in Burns
+
+    / *Full Citation:*: Stanojcic M, Chen P, Xiu F, Jeschke MG. Impaired Immune Response in Elderly Burn Patients: New Insights Into the Immune-senescence Phenotype. _Annals of Surgery_. 2016;264(1):195--202.
+    / *DOI:*: #link("https://doi.org/10.1097/SLA.0000000000001408")[10.1097/SLA.0000000000001408]
+    / *PMID:*: 26649579
+    / *Study Design:*: Prospective clinical cohort; n = 130 burned patients (94 adults, 36 elderly) + 10 controls
+    / *Key Findings:*:
+
+        - Immune exhaustion phenotype in elderly patients produces blunted early inflammatory response followed by hyperinflammation
+        - Outcomes: significantly elevated sepsis rates and mortality despite smaller burn sizes
+        - Pattern characterised as NK cell exhaustion, dysregulated cytokine profiles, impaired early wound immune response
+        - Authors conclude immune exhaustion is a primary mediator of poor wound repair and mortality
+
+    / *Conclusion:*: The immune exhaustion phenotype (which ME/CFS shares: halved NK cytotoxicity, TGF-β elevation, persistent immune activation) produces clinically documented impairment of wound healing responses. This is the closest clinical analog to predict wound healing impairment in ME/CFS.
+    / *Limitations:*: Burn patients are not ME/CFS patients; elderly immune senescence is a different mechanism from ME/CFS immune exhaustion; direct causal chain requires additional bridging studies.
+    / *Certainty:*: 0.70 (clinical; adequately powered cohort; burn injury model --- immune mechanism plausibly transferable)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+=== Petri et al.\ 2017 --- TGF-β and IL-6 Lock NK Cells into Regulatory Wound-Repair Circuit
+
+    / *Full Citation:*: Petri RM, Hackel A, Hahnel K, et al. Activated Tissue-Resident Mesenchymal Stromal Cells Regulate the Immune Response in the Tumor Microenvironment. _Stem Cell Reports_. 2017;9(3):985--998.
+    / *DOI:*: #link("https://doi.org/10.1016/j.stemcr.2017.06.020")[10.1016/j.stemcr.2017.06.020]
+    / *PMID:*: 28781075
+    / *Study Design:*: In vitro mechanistic study; poly(I:C) stimulation of MSC-NK co-cultures
+    / *Key Findings:*:
+
+        - TGF-β and IL-6 drive NK cells into a regulatory senescent-like state at later timepoints of injury response
+        - Regulatory NK cells then provide pro-angiogenic feedback to MSCs, supporting tissue repair
+        - Early type I IFN from MSCs first enhances NK cytotoxicity; late TGF-β terminates it
+        - This time-dependent circuit is essential for controlled, phase-appropriate wound healing
+
+    / *Conclusion:*: In ME/CFS, chronically elevated TGF-β and IL-6 may constitutively activate the suppressive arm of this circuit, locking NK cells in a non-cytotoxic regulatory state and disrupting the temporal sequencing required for normal wound healing. This could produce both impaired infection clearance and premature inflammatory resolution.
+    / *Limitations:*: In vitro only; tumor microenvironment context; NK-MSC interactions in wound healing may differ; ME/CFS application is inferential.
+    / *Certainty:*: 0.60 (in vitro; mechanistically coherent; indirect inference for ME/CFS)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+=== Abhimanyu et al.\ 2021 --- Post-Infectious Epigenetics Impairs Both Inflammation and Wound Repair
+
+    / *Full Citation:*: Abhimanyu, Ontiveros CO, Guerra-Resendez RS, et al. Reversing Post-Infectious Epigenetic-Mediated Immune Suppression. _Frontiers in Immunology_. 2021;12:688132.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2021.688132")[10.3389/fimmu.2021.688132]
+    / *PMID:*: 34163486
+    / *Study Design:*: Mechanistic review of epigenetic immune suppression and reversal strategies
+    / *Key Findings:*:
+
+        - Post-infectious epigenetic scars (detrimental marks after sepsis, TB, viral infections) produce long-lasting immune suppression
+        - The suppression affects both pro-inflammatory cytotoxicity AND the wound repair arm of immunity
+        - AMPK-mTOR, NFAT, NR4A pathway modulation and HDAC inhibitors can partially reverse these changes
+        - Immune response must balance cytotoxicity with wound repair; post-infectious states dysregulate this balance
+
+    / *Conclusion:*: ME/CFS as a post-infectious condition with documented epigenetic immune changes (trained immunity dysregulation) would, by this mechanism, have impaired wound repair capacity as part of the same epigenetic suppression that impairs NK cytotoxicity. Wound healing impairment is not a separate prediction but co-results from the same causal chain.
+    / *Limitations:*: Review; ME/CFS-specific epigenetic data limited; AMPK-mTOR and HDAC data mostly in animal models.
+    / *Certainty:*: 0.60 (review; mechanism well-supported; ME/CFS applicability is inferential)
+    / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism

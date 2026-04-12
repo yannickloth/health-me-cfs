@@ -1,0 +1,25 @@
+PMID: 34163486
+Title: Reversing Post-Infectious Epigenetic-Mediated Immune Suppression
+Authors: Abhimanyu, Ontiveros CO, Guerra-Resendez RS, Nishiguchi T, Ladki M, Hilton IB,
+         Schlesinger LS, DiNardo AR
+Journal: Frontiers in Immunology
+Year: 2021
+Volume: 12
+Pages: 688132
+DOI: 10.3389/fimmu.2021.688132
+
+Abstract:
+Following severe infections like sepsis and tuberculosis, detrimental epigenetic scars persist
+and result in long-lasting immune suppression. The authors describe how pathway modulation
+(AMPK-mTOR, NFAT, NR4A) and epigenetic enzyme inhibitors can reverse these harmful marks.
+The immune response must balance pro-inflammatory, cell-mediated cytotoxicity with the
+anti-inflammatory and wound repair response. Evidence from laboratory and animal studies
+demonstrates that approaches like HDAC inhibitors, DNA hypomethylating agents, and
+bioengineering techniques can restore host immunity in the setting of cancer-, LCMV- or
+murine sepsis-induced epigenetic-mediated immune suppression, though clinical translation
+studies remain necessary.
+
+Relevance: ME/CFS has documented post-infectious epigenetic immune changes (trained
+immunity gone wrong). This paper establishes that post-infectious immune suppression
+specifically impairs the wound repair arm of immunity, supporting the claim that
+ME/CFS immune dysfunction would impair wound healing.

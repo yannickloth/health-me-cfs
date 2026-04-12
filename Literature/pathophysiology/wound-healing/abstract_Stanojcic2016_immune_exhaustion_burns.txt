@@ -1,0 +1,23 @@
+PMID: 26649579
+Title: Impaired Immune Response in Elderly Burn Patients: New Insights Into the Immune-senescence Phenotype
+Authors: Stanojcic M, Chen P, Xiu F, Jeschke MG
+Journal: Annals of Surgery
+Year: 2016
+Volume: 264
+Number: 1
+Pages: 195-202
+DOI: 10.1097/SLA.0000000000001408
+
+Abstract:
+This research compared inflammatory and immune responses between burned adults (n=94, under 65)
+and elderly burn patients (n=36, age 65+) plus 10 healthy controls. Elderly patients, despite
+smaller burn sizes, had worse clinical outcomes. The researchers observed that the elderly are
+immune compromised and unable to respond with the expected inflammatory response during the early
+phase after injury. This pattern reversed later, becoming hyperinflammatory. Septic elderly
+patients and non-survivors displayed an immune exhaustion phenotype which may represent one of
+the main mediators responsible for striking mortality.
+
+Relevance to ME/CFS wound healing claim: ME/CFS exhibits an immune exhaustion phenotype
+(exhausted NK cells, skewed cytokine profiles, persistent immune activation) analogous to
+what this study documents in elderly burn patients — where that same phenotype predicts
+impaired wound healing responses and elevated mortality from infection.

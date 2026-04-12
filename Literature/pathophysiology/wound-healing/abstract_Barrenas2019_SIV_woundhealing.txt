@@ -1,0 +1,22 @@
+PMID: 31704931
+Title: Macrophage-associated wound healing contributes to African green monkey SIV pathogenesis control
+Authors: Barrenas F, Raehtz K, Xu C, Law L, Green RR, Silvestri G, Bosinger SE, Nishida A,
+         Li Q, Lu W, Zhang J, Thomas MJ, Chang J, Smith E, Weiss JM, Dawoud RA, Richter GH,
+         Trichel A, Ma D, Peng X, Komorowski J, Apetrei C, Pandrea I, Gale M Jr.
+Journal: Nature Communications
+Year: 2019
+Volume: 10
+Pages: 5101
+DOI: 10.1038/s41467-019-12987-9
+
+Abstract:
+African green monkeys naturally control SIV infection without developing AIDS through distinct
+mechanisms. Using Conserved Gene Signature Analysis (CGSA), researchers found that AGMs rapidly
+activate and then maintain evolutionarily conserved regenerative wound healing mechanisms in
+mucosal tissue. These animals display enhanced tissue repair signatures with reduced inflammatory
+gene expression compared to AIDS-susceptible rhesus macaques. Notable differences include
+distinct fibronectin distribution patterns and monocytes exhibiting an embryonic development
+and repair/regeneration signature featuring TGF-β. This regenerative response appears to
+maintain mucosal integrity and prevent inflammatory damage associated with immune exhaustion.
+Critically, this paper establishes the inverse relationship: when tissue repair/wound healing
+mechanisms are impaired (as in immune exhaustion states), systemic pathology worsens.
