@@ -2257,6 +2257,24 @@ requiring expertise outside ME/CFS scope.
     [Are mitochondrial uncoupling proteins (UCP2 in visceral tissues, UCP3 in skeletal muscle) upregulated in ME/CFS as a compensatory ROS-reduction mechanism, with the side-effect of dissipating the proton gradient and further reducing ATP yield? Would this explain why ME/CFS patients feel worse with higher metabolic demand even when ETC substrates appear adequate?],
     [UCP2/UCP3 mRNA and protein in skeletal muscle biopsy; proton leak measurement in isolated mitochondria. Neither measured in ME/CFS (2026). Proton leak correlates with ROS in model systems. See @sec:cartography-gaps.],
     [Ch.6 @sec:cartography-gaps],
+
+    [Aconitase--Ferroptosis Iron Bridge],
+    [S], [0.30],
+    [Aconitase [4Fe-4S] cluster destruction by superoxide releases labile iron into the mitochondrial matrix, catalysing Fenton chemistry and driving sub-lethal ferroptotic membrane damage. The parallel cytosolic ACO1→IRP1 switch redistributes iron intracellularly (upregulating TfR1, suppressing ferritin), explaining normal serum iron with elevated intracellular labile iron. This bridges the energy metabolism deficit (TCA blockade) to the ferroptosis hypothesis.],
+    [Mitochondrial labile iron pool (calcein-AM quenching) in ME/CFS PBMCs; ACO2 activity vs protein ratio; IRP1 RNA-binding (EMSA) vs ACO1 enzymatic activity. None measured in ME/CFS (2026). See @spec:aconitase-ferroptosis-bridge.],
+    [Ch.6 Step 5],
+
+    [Itaconate--NRF2 Paradox: NRF2 Activated But Overwhelmed],
+    [S], [0.30],
+    [If itaconate shunt is active in ME/CFS, NRF2 should already be activated (itaconate alkylates KEAP1). Yet downstream targets are depleted. Three sub-hypotheses: (a) demand exceeds supply; (b) NRF2 target promoters are epigenetically silenced; (c) NRF2 splice variants with reduced transactivation dominate. Connects bidirectionally to PGC-1α (G39) via the broken hormetic loop.],
+    [NRF2 nuclear protein + NQO1/HO-1 mRNA + protein levels + ARE promoter methylation in PBMCs. NRF2 not measured in ME/CFS (2026). If NRF2 nuclear protein is elevated but target proteins are low, supports overwhelm hypothesis. See @spec:itaconate-nrf2-paradox.],
+    [Ch.6 Step 9],
+
+    [Riboflavin: Consumption vs Supply Problem],
+    [OQ], [---],
+    [Is FAD insufficiency in ME/CFS driven by increased consumption (oxidative-stress-driven GR turnover acting as a FAD sink) rather than dietary deficiency? If so, EGRAC will correlate with oxidative stress markers, and riboflavin + antioxidant co-administration will outperform riboflavin alone.],
+    [EGRAC measured alongside F2-isoprostanes and GSSG/GSH ratio; riboflavin dose-response with and without NAC co-administration. EGRAC not yet measured in ME/CFS (2026). See @oq:riboflavin-consumption-vs-supply.],
+    [Ch.6 Step 6],
   ),
-  kind: table, supplement: [Table], caption: [Chapter 6 energy-metabolism failure-cartography entries (added 2026-04-11; originally in the since-merged Chapter 6b): one hypothesis (PGC-1α suppression, H, certainty 0.40); five speculations (PDC cofactor depletion, PDK upregulation as protective, PEM timing as ISR kinetics, riboflavin FAD master rate-limiter, cardiolipin peroxidation convergence); seven open questions (ANT autoantibodies, ISCU dysfunction, KGDHC cofactor failure, CPT1/malonyl-CoA regulation, NRF2 pathway suppression, PRDX3/thioredoxin system, UCP2/UCP3 upregulation) — thirteen entries total. Motivated by @Fluge2016, @Shankar2025oxidativestress, @Maksoud2021nutraceuticals, @MorrisMaes2014mitochondria, @Molnar2024LCmitochondria.],
+  kind: table, supplement: [Table], caption: [Chapter 6 energy-metabolism failure-cartography entries (added 2026-04-11; updated 2026-04-12 with three Phase 3 brainstorm-derived entries): one hypothesis (PGC-1α suppression, H, certainty 0.40); seven speculations (PDC cofactor depletion, PDK upregulation as protective, PEM timing as ISR kinetics, riboflavin FAD master rate-limiter, cardiolipin peroxidation convergence, aconitase--ferroptosis iron bridge, itaconate--NRF2 paradox); eight open questions (ANT autoantibodies, ISCU dysfunction, KGDHC cofactor failure, CPT1/malonyl-CoA regulation, NRF2 pathway suppression, PRDX3/thioredoxin system, UCP2/UCP3 upregulation, riboflavin consumption vs supply) — sixteen entries total. Motivated by @Fluge2016, @Shankar2025oxidativestress, @Maksoud2021nutraceuticals, @MorrisMaes2014mitochondria, @Molnar2024LCmitochondria, @Kennedy2005isoprostanes, @Robinson2010isoprostanes.],
 ) <tab:hypothesis-registry-ch06-cartography-2026-04-11>
