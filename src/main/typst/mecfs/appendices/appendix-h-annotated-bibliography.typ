@@ -4882,6 +4882,95 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     
     / *Relevance to Part V:*: Quantitative metabolite–symptom correlations for parameterising kynurenine–NAD+ models.
 
+=== Groven et al.\ 2021 — Kynurenine Metabolites: CFS vs Fibromyalgia vs Controls
+
+    / *Full Citation:*: Groven N, Reitan SK, Fors EA, Guzey IC. Kynurenine metabolites and ratios differ between Chronic Fatigue Syndrome, Fibromyalgia, and healthy controls. _Psychoneuroendocrinology_. 2021;131:105287. @Groven2021kynurenine
+    / *DOI:*: #link("https://doi.org/10.1016/j.psyneuen.2021.105287")[10.1016/j.psyneuen.2021.105287]
+    / *Key Findings:*:
+
+        - Case-control; $n = 49$ CFS, 57 FM, 54 healthy controls (all female, 18--60 y); 9 kynurenine metabolites in serum
+        - Neuroprotective KA/QA ratio specifically lower in CFS vs controls ($β = -0.211$, $p = 0.016$)
+        - QA differs between CFS and FM ($β = 0.144$, $p = 0.036$)
+        - CFS and FM have _distinct_ kynurenine profiles despite shared fatigue phenotype
+        - Cross-sectional, all-female, unreplicated for CFS-specific finding
+        - *Certainty: 0.45* — condition-specific kynurenine distinctions are novel but require male and replication cohorts
+
+    / *Relevance:*: Independent evidence that kynurenine pathway disruption in CFS is condition-specific, not a generic fatigue marker. Lower KA/QA ratio implies more quinolinic acid flux — simultaneously more neurotoxic and more NAD#super[+]-synthetic, creating a paradox where the brain may sustain excitotoxic damage while the NAD#super[+] supply from this branch is actually increased. Relevant to G22 gap interpretation and to distinguishing ME/CFS from FM mechanistically.
+
+=== Germain et al.\ 2022 — NAD#super[+] Precursor Pathway Disrupted at Baseline
+
+    / *Full Citation:*: Germain A, Giloteaux L, Moore GE, et al.\ Plasma metabolomics reveals disrupted response and recovery following maximal exercise in myalgic encephalomyelitis/chronic fatigue syndrome. _JCI Insight_. 2022;7(9):e157621. @Germain2022exercise
+    / *DOI:*: #link("https://doi.org/10.1172/jci.insight.157621")[10.1172/jci.insight.157621]
+    / *Key Findings:*:
+
+        - Prospective case-control; $n = 60$ ME/CFS (45F, 15M) + 45 matched controls; 1157 plasma metabolites before and after two CPETs 24 h apart
+        - Nicotinate and nicotinamide metabolism significantly disrupted _at baseline_ in female ME/CFS (KEGG $p = 0.0006$, $q = 0.04$; SMPDB $p = 0.001$, $q = 0.1$)
+        - These are NAD#super[+] and NADP#super[+] precursor pathways — disruption implies impaired precursor availability even without exercise challenge
+        - Pathway-level significance only; individual metabolites not separately quantified
+        - *Certainty: 0.60* — high-quality study (JCI Insight, Cornell, CPET-validated), but pathway-level finding awaits individual-metabolite confirmation
+
+    / *Relevance:*: The strongest indirect evidence that NAD#super[+] precursor availability is altered in ME/CFS at rest. Critical for G22: the gap is not only about measuring NAD#super[+] itself but about understanding whether the precursor supply (nicotinate, nicotinamide) is compromised independently of the PARP/CD38 consumption side.
+
+=== Missailidis et al.\ 2021 — Sirtuin Dysregulation in ME/CFS Lymphoblasts
+
+    / *Full Citation:*: Missailidis D, Sanislav O, Allan CY, Smith PK, Annesley SJ, Fisher PR. Dysregulated Provision of Oxidisable Substrates to the Mitochondria in ME/CFS Lymphoblasts. _International Journal of Molecular Sciences_. 2021;22(4):2046. @Missailidis2021substrates
+    / *DOI:*: #link("https://doi.org/10.3390/ijms22042046")[10.3390/ijms22042046]
+    / *Key Findings:*:
+
+        - Proteomics ($n = 34$ ME/CFS vs 31 control lymphoblast cell lines) + transcriptomics ($n = 23$ vs 17)
+        - SIRT3 (mitochondrial deacetylase) and SIRT6 (nuclear, DNA repair/metabolism) _downregulated_ in ME/CFS
+        - SIRT2 (cytoplasmic, tubulin deacetylase) _upregulated_ in ME/CFS
+        - Sirtuin data from transcriptomics only — not detected in proteomics
+        - GLUD1 elevated; TCA cycle and β-oxidation enzymes broadly upregulated
+        - EBV-immortalisation caveat: lymphoblast biology may not mirror primary cell phenotype
+        - *Certainty: 0.50* — controlled cell-line study with adequate sample sizes, but EBV transformation and mRNA-only sirtuin data limit confidence
+
+    / *Relevance:*: SIRT3 is the principal mitochondrial NAD#super[+]-dependent deacetylase regulating oxidative metabolism. Its downregulation is consistent with impaired NAD#super[+] flux through the mitochondrial compartment, though the causal direction is uncertain: low NAD#super[+] → low SIRT3, or low SIRT3 → impaired metabolic regulation → secondary NAD#super[+] perturbation. Provides sirtuin context for the G22 NAD#super[+] gap.
+
+=== Mikirova et al.\ 2012 — Serum NAD(P)H Reduced in CFS
+
+    / *Full Citation:*: Mikirova N, Casciari J, Hunninghake R. The assessment of the energy metabolism in patients with chronic fatigue syndrome by serum fluorescence emission. _Alternative Therapies in Health and Medicine_. 2012;18(1):36--40. PMID: 22516851. @Mikirova2012NADPH
+    / *Key Findings:*:
+
+        - Case-control; $n = 44$ CFS + 30 healthy controls; Riordan Clinic, Kansas
+        - Serum NADH/NADPH measured by fluorescence at 450 nm
+        - CFS: 8.0 $±$ 1.4 nmol/mL vs controls: 10.8 $±$ 0.8 nmol/mL (significantly reduced)
+        - AUC = 0.9; specificity 1.0 at 9.5 nmol/mL cutoff
+        - First direct serum measurement of reduced nicotinamide dinucleotides in CFS
+        - *Certainty: 0.35* — complementary medicine clinic (selection bias); fluorescence method cannot distinguish NAD#super[+] from NADH from NADPH; lower-tier journal; unreplicated
+
+    / *Relevance:*: Historical curiosity and the first attempt at direct NAD(P)H measurement in CFS. The low certainty rating reflects methodological limitations, but the finding direction (reduced in CFS) is consistent with the kynurenine/PARP depletion narrative. Needs replication with LC-MS methodology (cf.\ Braidy 2021 NADomics protocol).
+
+=== Schreiber et al.\ 2025 — Nicotinamide RCT: Largest NAD#super[+] Precursor Trial
+
+    / *Full Citation:*: Schreiber S, Waetzig GH, López-Agudelo VA, et al.\ Nicotinamide modulates gut microbial metabolic potential and accelerates recovery in mild-to-moderate COVID-19. _Nature Metabolism_. 2025;7(6):1136--1149. @Schreiber2025Nicotinamide
+    / *DOI:*: #link("https://doi.org/10.1038/s42255-025-01290-1")[10.1038/s42255-025-01290-1]
+    / *Key Findings:*:
+
+        - Double-blind RCT; $n = 900$ symptomatic outpatients (PCR-confirmed COVID-19); nicotinamide 1000 mg/day × 4 weeks vs placebo
+        - Primary analysis ($n = 379$ with performance drop): 57.6% NAM vs 42.6% placebo recovered at week 2 ($p = 0.004$)
+        - Post-hoc 6-month follow-up: fewer post-COVID symptoms in NAM responders (median 6.5 vs 10.5, $p = 0.010$)
+        - No direct NAD#super[+] levels measured in participants
+        - Mechanism: tryptophan/kynurenine-NAD#super[+] pathway + gut microbiome modulation
+        - *Certainty: 0.65* — large well-powered RCT (Nature Metabolism), but Long COVID implication is post-hoc responder analysis only
+
+    / *Relevance:*: Strongest therapeutic evidence that NAD#super[+] precursor supplementation can reduce post-COVID symptom burden. The mechanism explicitly involves the kynurenine pathway, bridging to the same NAD#super[+] depletion narrative proposed in ME/CFS. Motivates a dedicated NAM or NR trial in ME/CFS.
+
+=== Chini et al.\ 2025 — Chronic NAD Depletion → Interferon Response via mtDNA Leakage
+
+    / *Full Citation:*: Chini CCS, Colman L, Palmieri E, et al.\ Chronic Cellular NAD Depletion Activates a Viral Infection-Like Interferon Response Through Mitochondrial DNA Leakage. _Aging Cell_. 2025;24(9):e70135. @Chini2025NADInterferon
+    / *DOI:*: #link("https://doi.org/10.1111/acel.70135")[10.1111/acel.70135]
+    / *Key Findings:*:
+
+        - In vitro; NIH3T3, IMR90 (human fibroblast), HS5 (stromal) cells; Mayo Clinic group
+        - Chronic NAD depletion (nicotinamide removal): NAD#super[+] falls to less than 10% of control within days
+        - Mitochondrial DNA leaks into cytoplasm via VDAC1
+        - cGAS-STING pathway activated → Type I interferon gene expression
+        - Cells remain viable but with reduced spare respiratory capacity and impaired glycolysis
+        - *Certainty: 0.55* — rigorous in vitro mechanism (Aging Cell), but not demonstrated in ME/CFS patients or animal model of ME/CFS
+
+    / *Relevance:*: Provides a mechanistic bridge between NAD#super[+] depletion and the persistent interferon-like immune signature observed in ME/CFS. If chronic partial NAD#super[+] depletion occurs (via PARP overactivation, kynurenine diversion, or CD38 upregulation), this VDAC1→cGAS-STING pathway could sustain innate immune activation indefinitely — explaining why post-viral ME/CFS resembles an ongoing viral infection immunologically, even after pathogen clearance. Directly relevant to cross-cutting immune-metabolic models.
+
 // =============================================================================
 
 == Circadian Rhythm and Sleep
