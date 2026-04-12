@@ -5078,6 +5078,21 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
     / *Relevance:*: Strongest standalone metabolomic evidence for a KGDHC flux defect in ME/CFS. The simultaneous elevation of substrate and product is the metabolomic fingerprint of an enzyme bottleneck, though alternative explanations exist. Combined with the Germain 2022 exercise-provoked inverse $α$-KG trajectory, this constitutes converging indirect evidence for G17.
 
+=== Ciregia et al.\ 2016 — Aconitase Protein Upregulated in CFS Proteomics
+
+    / *Full Citation:*: Ciregia F, Kollipara L, Giusti L, Zahedi RP, et al.\ Bottom-up proteomics suggests an association between differential expression of mitochondrial proteins and chronic fatigue syndrome. _Translational Psychiatry_. 2016;6:e904. @Ciregia2016proteomics
+    / *DOI:*: #link("https://doi.org/10.1038/tp.2016.184")[10.1038/tp.2016.184]
+    / *Key Findings:*:
+
+        - Three-phase proteomics: discovery (nano-LC-MS platelet mitochondria from monozygotic twins discordant for CFS, $n = 2$ pairs), pathway analysis, validation (Western blot $n = 45$ CFS vs 45 controls, saliva)
+        - Mitochondrial aconitase (ACON/ACO2) upregulated: fold change 3.1 (twins), 1.9 (cohort, $p = 0.02$)
+        - Protein _upregulation_ amid documented high ROS is paradoxical unless interpreted as compensatory overexpression of an enzyme being oxidatively destroyed
+        - No aconitase activity assay performed
+        - Discovery phase is $n = 2$ twin pairs (extremely small); validation used saliva (not metabolically relevant tissue)
+        - *Certainty: 0.40* — confirms altered aconitase protein expression in CFS; cannot address the activity question
+
+    / *Relevance:*: Combined with Yamano 2016 (reduced isocitrate implying reduced aconitase flux) and Shankar 2025 (elevated superoxide that would inactivate aconitase's [4Fe-4S] cluster), this creates a three-way convergence: reduced product (metabolomics), elevated protein (proteomics), elevated inactivator (ROS). The predicted resolution — high protein, low activity — would confirm oxidative aconitase inactivation and close G16.
+
 === Tretter & Adam-Vizi 2005 — KGDHC as Target and Generator of Oxidative Stress
 
     / *Full Citation:*: Tretter L, Adam-Vizi V. Alpha-ketoglutarate dehydrogenase: a target and generator of oxidative stress. _Philosophical Transactions of the Royal Society B_. 2005;360(1464):2335--2345. @TretterAdamVizi2005
