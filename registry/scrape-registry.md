@@ -108,3 +108,24 @@ Prevents re-processing of already-integrated content.
 | https://mecfsscience.org/nice-guideline-draft/ | mecfsscience.org | 2026-03-21 | SKIP | other |
 | https://mecfsscience.org/progress-in-me-cfs-research/ | mecfsscience.org | 2026-03-21 | SKIP | other |
 | https://mecfsscience.org/history-of-surgery/ | mecfsscience.org | 2026-03-21 | 2026-03-22 | other |
+| https://pubmed.ncbi.nlm.nih.gov/24557875/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — MorrisMaes2014mitochondria — O&NS mitochondrial pathways |
+| https://pubmed.ncbi.nlm.nih.gov/29602463/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Comhaire2018DCA — DCA pilot trial |
+| https://pubmed.ncbi.nlm.nih.gov/30220343/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Comhaire2018DCAresponders — DCA responder prediction |
+| https://pubmed.ncbi.nlm.nih.gov/32727475/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Holden2020mitosysrev — systematic review mitochondria |
+| https://pubmed.ncbi.nlm.nih.gov/40627396/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Shankar2025oxidativestress — MnSOD decrease PNAS 2025 |
+| https://pubmed.ncbi.nlm.nih.gov/39408275/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Godlewska2024creatineMRS — creatine supplementation MRS |
+| https://pubmed.ncbi.nlm.nih.gov/38668888/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Molnar2024LCmitochondria — Long COVID mitochondria therapeutics |
+| https://pubmed.ncbi.nlm.nih.gov/32972442/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Sweetman2020SWATH — PBMC proteomics ETC proteins |
+| https://pubmed.ncbi.nlm.nih.gov/33596913/ | pubmed | 2026-04-11 | 2026-04-11 | ch06 — Maksoud2021nutraceuticals — nutraceutical systematic review |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC7136523/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — NilssonEtAl2020 — ME/CFS metabolic dysfunction not due to anti-mitochondrial antibodies |
+| https://pubmed.ncbi.nlm.nih.gov/32327453/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — SchreinerEtAl2020 — HHV-6 reactivation and mitochondrial fragmentation in ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/8283607/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — TakemotoEtAl1993 — anti-ANT prevalence in DCM and myocarditis |
+| https://pubmed.ncbi.nlm.nih.gov/2991541/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — SchultheissBolte1985 — anti-ANT in DCM landmark study |
+| https://pubmed.ncbi.nlm.nih.gov/2546261/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — SchultheissReview1989 — ADP/ATP carrier autoantibodies pathogenesis review |
+| https://academic.oup.com/cardiovascres/article/44/1/91/275782 | oxford-academic | 2026-04-12 | 2026-04-12 | ch06/G28 — SchulzeEtAl1999 — anti-ANT antibodies trap ATP in viral myocarditis |
+| https://www.sciencedirect.com/science/article/abs/pii/S0022282802915385 | sciencedirect | 2026-04-12 | 2026-04-12 | ch06/G28 — ManchadoEtAl2002 — ANT1 epitope mapping in IDCM |
+| https://pubmed.ncbi.nlm.nih.gov/3028680/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — MendelHartvig1986 — ANT not specific for PBC (null/specificity finding) |
+| https://pubmed.ncbi.nlm.nih.gov/37224026/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — ChenEtAl2023ant — ANT isoforms comprehensive review FASEB |
+| https://pubmed.ncbi.nlm.nih.gov/16107323/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — DornerEtAl2006 — ANT isoform shift halves ATP transport in DCM |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11943395/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — GermainEtAl2025 — comprehensive autoantibody profiling in ME/CFS (null) |
+| https://pubmed.ncbi.nlm.nih.gov/40211686/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — WohlrabEtAl2025 — autoantibody targeting therapies ME/CFS post-COVID |

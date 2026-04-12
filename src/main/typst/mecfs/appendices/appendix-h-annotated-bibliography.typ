@@ -6384,6 +6384,235 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Certainty:*: 0.50 (methodological critique; expert-level; does not resolve the empirical debate but raises important cautions)
     / *Integrated into:*: Chapter 18, glymphatic hypothesis caveat (@sec:novel-frameworks)
 
+// ============================================================
+// ANT AUTOANTIBODIES — G28 RESEARCH STREAM
+// ============================================================
+
+=== Schultheiss & Bolte 1985 — Anti-ANT Autoantibodies in Dilated Cardiomyopathy
+
+    / *Full Citation:*: Schultheiss HP, Bolte HD. Immunological analysis of auto-antibodies against the adenine nucleotide translocator in dilated cardiomyopathy. _Journal of Molecular and Cellular Cardiology_. 1985;17(6):603--617.
+    / *DOI:*: #link("https://doi.org/10.1016/S0022-2828(85)80029-8")[10.1016/S0022-2828(85)80029-8]
+    / *PMID:*: 2991541
+    / *Study Design:*: Cross-sectional immunological study; n=18 histologically confirmed DCM patients; controls: coronary heart disease, alcoholic heart disease, healthy donors
+    / *Key Findings:*:
+
+        - 17/18 (94%) DCM patients showed significant binding to isolated adenine nucleotide translocase (ANT)
+        - Zero positive results in all control groups (coronary disease, alcoholic cardiomyopathy, healthy donors)
+        - Organ-specific antigenic determinants confirmed by crossed immunoelectrophoresis and immunoadsorption
+        - Functionally active antibodies decreased ADP/ATP exchange rate from cardiac mitochondria
+        - Close correlation between antibody titre and hemodynamic function (contractility proxy)
+
+    / *Conclusion:*: Landmark study establishing ANT as a cardiac autoantigen with functional energy-metabolism consequences. Autoimmunological mechanisms likely contribute to DCM pathogenesis via impaired ATP export.
+    / *Limitations:*: Very small sample (n=18); single uncontrolled study; the 94% prevalence was not replicated at this magnitude in subsequent studies; single-centre German cohort.
+    / *Certainty:*: 0.60 (pioneering peer-reviewed study; foundational; small n and non-replicated extreme prevalence reduce confidence)
+    / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
+
+=== Schultheiss 1989 — ADP/ATP Carrier Autoantibodies: Pathogenesis Review
+
+    / *Full Citation:*: Schultheiss HP. The significance of autoantibodies against the ADP/ATP carrier for the pathogenesis of myocarditis and dilated cardiomyopathy --- clinical and experimental data. _Springer Seminars in Immunopathology_. 1989;11(1):15--30.
+    / *DOI:*: #link("https://doi.org/10.1007/BF00197081")[10.1007/BF00197081]
+    / *PMID:*: 2546261
+    / *Study Design:*: Review of clinical and experimental evidence
+    / *Key Findings:*:
+
+        - ADP/ATP carrier (ANT) of the inner mitochondrial membrane identified as autoantigen in myocarditis and DCM
+        - Autoimmunity to ANT may contribute to DCM as a downstream stage of myocarditis
+        - Proposes antibody-mediated reduction of cardiac function via energy imbalance between ATP delivery and demand
+        - Framework linking post-viral autoimmune response to chronic cardiac dysfunction
+
+    / *Conclusion:*: Synthesises the Schultheiss programme of research; establishes conceptual framework for ANT autoimmunity as a pathogenic mechanism in post-viral cardiomyopathy.
+    / *Limitations:*: Review without new primary data; abstract not available in PubMed; quantitative details not confirmable from available metadata.
+    / *Certainty:*: 0.50 (review paper; historically important; details not independently verifiable from abstract)
+    / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
+
+=== Schulze et al.\ 1999 — Anti-ANT Antibodies Trap ATP in Viral Myocarditis
+
+    / *Full Citation:*: Schulze K, Witzenbichler B, Christmann C, Schultheiss HP. Disturbance of myocardial energy metabolism in experimental virus myocarditis by antibodies against the adenine nucleotide translocator. _Cardiovascular Research_. 1999;44(1):91--100.
+    / *DOI:*: #link("https://doi.org/10.1016/S0008-6363(99)00204-7")[10.1016/S0008-6363(99)00204-7]
+    / *PMID:*: 10615393
+    / *Study Design:*: Animal model; Coxsackie B3 virus myocarditis in A.SW/SnJ mice; n=19 infected animals
+    / *Key Findings:*:
+
+        - Anti-ANT antibodies detected in 14/19 infected mice by Western blot
+        - Cytosolic ATP/ADP ratio decreased from 136±20 (controls) to 59±18 in antibody-positive hearts (56% reduction)
+        - Mitochondrial ATP/ADP ratio elevated from 1.1±0.3 to 4.2±1.0 (fourfold increase) --- direct demonstration of ATP trapping in matrix
+        - Reduced left ventricular pressure, rate-pressure product, and oxygen consumption (all $p < 0.05$)
+        - Mechanistic proof: anti-ANT antibodies inhibit nucleotide transport and disrupt cytosolic-mitochondrial phosphorylation potential
+
+    / *Conclusion:*: Most direct experimental evidence that anti-ANT antibodies functionally impair ATP export across the inner mitochondrial membrane, causing the ATP-trapping mechanism central to G28 hypothesis. Post-viral autoimmunity to ANT produces measurable bioenergetic and cardiac contractile impairment.
+    / *Limitations:*: Animal model (mouse), not human patients; antibodies induced by viral infection, not spontaneous autoimmunity; small sample; direct translation to ME/CFS requires confirmation.
+    / *Certainty:*: 0.65 (peer-reviewed; mechanistically rigorous; animal model caveat; directly demonstrates G28 ATP-trapping mechanism)
+    / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
+
+=== Takemoto et al.\ 1993 — Anti-ANT Prevalence in DCM and Myocarditis
+
+    / *Full Citation:*: Takemoto M, Kusachi S, Urabe N, Inoue K, Tsuji T. Auto-antibody against adenine nucleotide translocator in dilated cardiomyopathy and myocarditis: incidence and relation to cardiac function and morphology. _Japanese Circulation Journal_. 1993;57(12):1150--1158.
+    / *DOI:*: #link("https://doi.org/10.1253/jcj.57.1150")[10.1253/jcj.57.1150]
+    / *PMID:*: 8283607
+    / *Study Design:*: Cross-sectional study; DCM n=37, myocarditis n=12, control cardiac diseases and healthy controls
+    / *Key Findings:*:
+
+        - Anti-ANT antibodies detected in 6/37 (16%) DCM patients and 5/12 (42%) myocarditis patients
+        - Negative in all control and other cardiac disease groups --- high specificity confirmed
+        - No statistically significant correlation between anti-ANT titre and cardiac parameters (LVEF, LVDd, CTR)
+        - Prevalence much lower than the 94% reported by Schultheiss & Bolte 1985, suggesting methodological and selection differences
+
+    / *Conclusion:*: Confirms anti-ANT antibodies are specific to cardiac autoimmune disease but prevalence is substantially lower in an independent cohort. The lack of haemodynamic correlation raises questions about pathogenic relevance in all anti-ANT-positive patients.
+    / *Limitations:*: Cross-sectional; Japanese cohort; different methodology from Schultheiss 1985 (explains prevalence discrepancy); LVEF may be insensitive to subtle ATP-export defects.
+    / *Certainty:*: 0.55 (peer-reviewed; larger DCM sample than 1985 paper; non-significant haemodynamic correlation weakens pathogenic claim)
+    / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
+
+=== Manchado et al.\ 2002 --- ANT1 Epitope Mapping in Idiopathic DCM
+
+    / *Full Citation:*: Manchado C, Orús J, Villarroya F, Roig E, Heras M, Giralt M, Iglesias R, Sanz G, Mampel T, Viñas O. Epitope mapping of mitochondrial adenine nucleotide translocase-1 in idiopathic dilated cardiomyopathy. _Journal of Molecular and Cellular Cardiology_. 2002;34(5):571--582.
+    / *DOI:*: #link("https://doi.org/10.1006/jmcc.2002.1538")[10.1006/jmcc.2002.1538]
+    / *Study Design:*: Immunological epitope mapping study; IDCM n=45 patients
+    / *Key Findings:*:
+
+        - 16/45 (36%) IDCM patients had anti-ANT1 antibodies above control levels
+        - Primary epitopes located in C-terminal 146 amino acids of ANT1
+        - Most significant epitopes in M2 and M3 hydrophilic loops (membrane-facing regions of ANT1)
+        - At least three distinct epitopes identified
+        - Distinguishes IDCM from ischemic cardiomyopathy by antibody profile
+
+    / *Conclusion:*: Provides structural basis for ANT1 autoimmunity; membrane-facing loop regions are both functionally essential for ATP/ADP exchange and immunogenically accessible. Relevant for assay design in ME/CFS research --- antigen preparation should include C-terminal and loop regions.
+    / *Limitations:*: IDCM only; epitope accessibility in vivo (serum vs.\ intact mitochondrial membrane) not fully established; PMID not confirmed from available source text.
+    / *Certainty:*: 0.60 (peer-reviewed; provides mechanistic depth; moderate sample; in vivo epitope accessibility caveat)
+    / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
+
+=== Mendel-Hartvig et al.\ 1986 --- Anti-ANT Lacks Disease Specificity (Null Finding)
+
+    / *Full Citation:*: Mendel-Hartvig I, Frostell A, Nelson BD. Primary biliary cirrhosis: assessment of the quantitative importance of the adenine nucleotide translocator protein as a major mitochondrial antigen. _Clinical and Experimental Immunology_. 1986;66(2):399--405.
+    / *PMID:*: 3028680
+    / *Study Design:*: Specificity assessment study; PBC patients, SLE patients, chronic active hepatitis, healthy controls
+    / *Key Findings:*:
+
+        - PBC antibodies bind to rat liver ANT by ELISA and immunoblotting
+        - SLE patients and chronic active hepatitis patients show comparable or higher anti-ANT titres than PBC patients
+        - Healthy controls show measurable anti-ANT reactivity at comparable levels
+        - Conclusion: rat liver ANT is NOT a specific antigen for PBC autoantibodies
+
+    / *Conclusion:*: Critical null/specificity finding for G28 research design. Anti-ANT antibodies measured against rat liver ANT lack disease specificity. Any ME/CFS anti-ANT assay must use isoform-specific human cardiac ANT1 antigen with strict thresholds and full control panels to avoid false-positives.
+    / *Limitations:*: Uses rat liver ANT (predominantly ANT2); cross-reactivity patterns may differ with human cardiac ANT1; historical (1986) ELISA methods less sensitive than modern platforms.
+    / *Certainty:*: 0.65 (well-designed specificity study; directly relevant to assay design; antigen-species caveat is important)
+    / *Integrated into:*: G28 integration guide (null findings section; establishes what has and has not been tested)
+
+=== Nilsson et al.\ 2020 --- ME/CFS Metabolic Dysfunction Not Due to Anti-Mitochondrial Antibodies
+
+    / *Full Citation:*: Nilsson I, Palmer J, Apostolou E, Gottfries J, Rizwan M, Dahle C, Rosén A. Metabolic Dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Not Due to Anti-mitochondrial Antibodies. _Frontiers in Medicine_. 2020;7:108.
+    / *DOI:*: #link("https://doi.org/10.3389/fmed.2020.00108")[10.3389/fmed.2020.00108]
+    / *PMID:*: 32296708
+    / *Study Design:*: Cross-sectional; 161 ME/CFS patients (3 cohorts) + 44 healthy donors + 15 PBC + 14 fibromyalgia + 29 MS patients
+    / *Key Findings:*:
+
+        - Only 1/161 ME/CFS patients positive for anti-PDC (pyruvate dehydrogenase complex); vs.\ 15/15 PBC patients positive
+        - General anti-mitochondrial antibodies (inner and outer membrane by IIF) negative in ME/CFS cohort
+        - Anti-cardiolipin (IgG/IgM/IgA) not significantly different from healthy donors
+        - CRITICAL CAVEAT: anti-ANT was NOT specifically tested; assay used general IIF on rat tissue sections, not ANT-specific ELISA
+        - Metabolic dysfunction in ME/CFS is not explained by the anti-mitochondrial autoantibodies tested
+
+    / *Conclusion:*: Important partial null finding. ME/CFS metabolic dysfunction is not driven by anti-PDC, anti-cardiolipin, or general AMA. However, this study does not close the G28 gap because ANT-specific ELISA with human cardiac ANT1 was not performed. The IIF screening method lacks the sensitivity and specificity for detecting low-titre ANT-targeted antibodies.
+    / *Limitations:*: Anti-ANT not specifically tested (critical gap); IIF may miss low-titre ANT-specific antibodies; rat tissue substrate for IIF may not display human ANT1 epitopes equivalently.
+    / *Certainty:*: 0.70 (robust multi-cohort study; well-controlled; null finding is genuine but incomplete for G28 specifically)
+    / *Integrated into:*: G28 integration guide (null findings section; establishes what has and has not been tested)
+
+=== Germain et al.\ 2025 --- Comprehensive Autoantibody Profiling in ME/CFS: No Significant Differences
+
+    / *Full Citation:*: Germain A, Jaycox JR, Emig CJ, Ring AM, Hanson MR. An In-Depth Exploration of the Autoantibody Immune Profile in ME/CFS Using Novel Antigen Profiling Techniques. _International Journal of Molecular Sciences_. 2025;26(6):2799.
+    / *DOI:*: #link("https://doi.org/10.3390/ijms26062799")[10.3390/ijms26062799]
+    / *PMID:*: 40141440
+    / *Study Design:*: Cross-sectional; n=172 unique participants (up to 95 ME/CFS, 69 controls); Oncimmune/Augmenta Luminex (1,134 autoantibodies) + REAP (6,183 extracellular proteins + 225 viral antigens)
+    / *Key Findings:*:
+
+        - No significant differences in any of 1,134 autoantibody reactivities between ME/CFS and controls (Luminex panel)
+        - No elevation in beta2-adrenergic, alpha1A-adrenergic, or muscarinic receptor antibodies (contradicts Loebel 2016)
+        - Elevated herpesvirus antigen reactivity in ME/CFS: EBV gp42 and HSV1 gL
+        - CRITICAL CAVEAT: REAP covers extracellular proteome only; intramitochondrial proteins (ANT, PDC) excluded by platform design
+        - Anti-ANT was NOT measured in this study
+
+    / *Conclusion:*: Most comprehensive null finding for autoantibodies in ME/CFS to date; contradicts GPCR autoantibody findings. Platform limitation means intramitochondrial targets including ANT remain unaddressed. Supports viral reactivation hypothesis via herpesvirus antigen reactivity.
+    / *Limitations:*: REAP restricted to extracellular proteome; ANT and inner mitochondrial membrane proteins not assessable; discrepancy with Loebel 2016 may reflect assay differences; cannot address G28.
+    / *Certainty:*: 0.65 (rigorous multi-platform study; large panel; methodological caveat for intramitochondrial targets)
+    / *Integrated into:*: G28 integration guide (null findings/platform limitations section)
+
+=== Schreiner et al.\ 2020 --- HHV-6 Reactivation and Mitochondrial Fragmentation in ME/CFS
+
+    / *Full Citation:*: Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human Herpesvirus-6 Reactivation, Mitochondrial Fragmentation, and the Coordination of Antiviral and Metabolic Phenotypes in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _ImmunoHorizons_. 2020;4(4):201--215.
+    / *DOI:*: #link("https://doi.org/10.4049/immunohorizons.2000006")[10.4049/immunohorizons.2000006]
+    / *PMID:*: 32327453
+    / *Study Design:*: Mechanistic study; n=10 ME/CFS patient serum samples in cell culture adoptive transfer assays
+    / *Key Findings:*:
+
+        - HHV-6 reactivation induces mitochondrial fragmentation via miR-aU14/miR-30/p53/DRP1 axis
+        - Adoptive transfer of ME/CFS patient serum reproduced mitochondrial fragmentation in recipient cells
+        - HHV-6 reactivation strongly inhibits pyruvate dehydrogenase and fatty acid oxidation enzymes
+        - 1-carbon metabolism, dUTPase, and thymidylate synthase strongly induced
+        - Mitochondrial fragmentation associated with severely compromised energy metabolism and antiviral cell danger response
+
+    / *Conclusion:*: ME/CFS patient serum contains transferable factor(s) sufficient to induce mitochondrial fragmentation. Mitochondrial fragmentation disrupts cristae architecture and may impair ANT function indirectly. Provides mechanistic link between viral reactivation, structural mitochondrial damage, and energy failure. ANT not directly measured.
+    / *Limitations:*: n=10; in vitro serum transfer model; HHV-6 mechanism not universally confirmed; ANT not directly assessed; transferable factor not identified.
+    / *Certainty:*: 0.55 (peer-reviewed; mechanistically novel; small n and in vitro model limit translation)
+    / *Integrated into:*: G28 integration guide (indirect mitochondrial fragmentation mechanism)
+
+=== Chen et al.\ 2023 --- ANT Isoforms: Comprehensive Review
+
+    / *Full Citation:*: Chen Y, Wu L, Liu J, Ma L, Zhang W. Adenine nucleotide translocase: Current knowledge in post-translational modifications, regulations and pathological implications for human diseases. _FASEB Journal_. 2023;37:e22953.
+    / *DOI:*: #link("https://doi.org/10.1096/fj.202201855RR")[10.1096/fj.202201855RR]
+    / *PMID:*: 37224026
+    / *Study Design:*: Systematic review
+    / *Key Findings:*:
+
+        - ANT1: heart/skeletal muscle/brain; pro-apoptotic; primary ATP exporter; mutations cause Sengers syndrome (exercise intolerance, cardiomyopathy, lactic acidosis)
+        - ANT2: liver and proliferating cells; anti-apoptotic; ATP importer in glycolytic mode
+        - ANT3: ubiquitously expressed; constitutive baseline transporter
+        - ANT4: germ cells only
+        - Post-translational modifications (acetylation, nitrosylation, glutathionylation, carbonylation) impair transport activity
+        - Disease associations: diabetes, heart disease, Parkinson's, Sengers syndrome, cancer (isoform shift), Alzheimer's, Progressive External Ophthalmoplegia, FSHD
+
+    / *Conclusion:*: Definitive reference for ANT isoform biology. Sengers syndrome (ANT1 loss-of-function) produces exercise intolerance and lactic acidosis highly analogous to ME/CFS PEM, supporting ANT1 as highest-priority target for G28 investigation. Post-translational modifications provide additional mechanism by which ANT1 could be impaired without autoantibodies.
+    / *Limitations:*: Review only; no ME/CFS discussion; autoantibodies not addressed.
+    / *Certainty:*: 0.75 (peer-reviewed review; comprehensive isoform coverage; FASEB Journal)
+    / *Integrated into:*: G28 integration guide (ANT isoform biology and disease precedent)
+
+=== Dörner et al.\ 2006 --- ANT Isoform Shift Halves ATP Transport Capacity in DCM
+
+    / *Full Citation:*: Dörner A, Giessen S, Gaub R, Grosse Siestrup H, Schwimmbeck PL, Hetzer R, Poller W, Schultheiss HP. An isoform shift in the cardiac adenine nucleotide translocase expression alters the kinetic properties of the carrier in dilated cardiomyopathy. _European Journal of Heart Failure_. 2006;8(1):81--89.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ejheart.2005.05.003")[10.1016/j.ejheart.2005.05.003]
+    / *PMID:*: 16107323
+    / *Study Design:*: Comparative expression and kinetics study in DCM cardiac tissue vs.\ controls
+    / *Key Findings:*:
+
+        - DCM hearts show upregulation of ANT1 with downregulation of ANT2 (relative isoform shift)
+        - Maximum ADP/ATP transport velocity: 1112±178 (controls) vs.\ 498±113 micromol/min/g in DCM (55% reduction)
+        - ATP binding affinity Km shifted from 90.4 to 104.3 microM in DCM
+        - G1409T polymorphism in ANT2 not associated with DCM or functional impairment
+        - No autoantibody measurements in this study
+
+    / *Conclusion:*: ANT expression-level changes (isoform shift) independently produce a severe (~55%) reduction in ATP transport capacity in diseased cardiac tissue. In ME/CFS, ANT1 expression changes may compound any autoantibody-mediated inhibition, suggesting multiple convergent mechanisms at Step 7.
+    / *Limitations:*: DCM cardiac tissue only; no ME/CFS data; no autoantibody measurements; whether similar isoform shifts occur in ME/CFS muscle or PBMCs is unknown.
+    / *Certainty:*: 0.65 (peer-reviewed; quantitatively rigorous; DCM-specific, not ME/CFS)
+    / *Integrated into:*: G28 integration guide (ANT expression-level dysfunction as independent mechanism)
+
+=== Wohlrab et al.\ 2025 --- Autoantibody Targeting Therapies in ME/CFS and Post-COVID
+
+    / *Full Citation:*: Wohlrab F, Eltity M, Ufer F, Paul F, Scheibenbogen C, Bellmann-Strobl J. Autoantibody targeting therapies in post COVID syndrome and myalgic encephalomyelitis/chronic fatigue syndrome. _Expert Opinion on Biological Therapy_. 2025;25(5):1--5.
+    / *DOI:*: #link("https://doi.org/10.1080/14712598.2025.2492774")[10.1080/14712598.2025.2492774]
+    / *PMID:*: 40211686
+    / *Study Design:*: Editorial review
+    / *Key Findings:*:
+
+        - Immunoadsorption (IA): removes circulating IgG; 14/20 post-COVID ME/CFS patients improved after 5 IA sessions
+        - Efgartigimod (FcRn blocker): enhances IgG degradation; reduces total autoantibody burden
+        - BC007/rovunaptabin: neutralises GPCR autoantibodies; Phase II trials ongoing
+        - Rituximab (B-cell depletion): inconsistent results in ME/CFS
+        - Daratumumab (plasma cell depletion): early positive results in small studies
+        - Primary autoantibody targets discussed: beta2-adrenergic and muscarinic receptors; ANT not discussed
+
+    / *Conclusion:*: Establishes therapeutic toolkit for autoantibody-mediated ME/CFS. If anti-ANT autoantibodies are confirmed, immunoadsorption is the most immediately applicable intervention. Inconsistent results with GPCR-targeted therapies may reflect heterogeneous autoantibody profiles across patients.
+    / *Limitations:*: Editorial; limited primary data summarised; ANT not discussed; no RCT evidence for most approaches; full text behind paywall.
+    / *Certainty:*: 0.50 (editorial; framework rather than evidence; provides therapeutic roadmap only)
+    / *Integrated into:*: G28 integration guide (therapeutic implications section)
+
 === Ristow & Zarse 2010 — Mitohormesis: Oxidative Stress as Adaptive Signal
 
     / *Full Citation:*: Ristow M, Zarse K. How increased oxidative stress promotes longevity and metabolic health: the concept of mitochondrial hormesis (mitohormesis). _Experimental Gerontology_. 2010;45(6):410--418.
