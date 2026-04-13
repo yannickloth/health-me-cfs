@@ -107,7 +107,7 @@ Votre identification du lien **TRP → mastocytes → SAMA** est biologiquement 
 
 - Les mastocytes libèrent de la **substance P** qui active TRPV1 et MRGPRX2 sur d'autres mastocytes — une boucle d'amplification : mastocyte → substance P → TRPV1 sur fibres C → relargage CGRP → sensibilisation → plus de dégranulation mastocytaire.
 
-- **TRPA1** est le capteur de stress oxydatif par excellence : il est activé par modification covalente directe de résidus cystéine réactifs dans sa portion cytosolique par H₂O₂, l'acroléine, le 4-hydroxynonenal et d'autres métabolites électrophiles des dommages tissulaires [17]. Dans le ME/CFS, où le stress oxydatif systémique est documenté, TRPA1 pourrait être en activation chronique basse, sustenant la neuroinflammation périphérique et l'allodynie mécanique indépendamment de tout stimulus extérieur.
+- **TRPA1** est le capteur de stress oxydatif par excellence : il est activé par modification covalente directe de résidus cystéine réactifs dans sa portion cytosolique par H₂O₂, l'acroléine, le 4-hydroxynonenal et d'autres métabolites électrophiles des dommages tissulaires [17]. Dans le ME/CFS, où le stress oxydatif systémique est documenté, TRPA1 pourrait être en activation chronique basse, sustenant la neuroinflammation périphérique et l'allodynie mécanique indépendamment de tout stimulus extérieur [13].
 
 - La **boucle mastocytes–microglie** : les produits de dégranulation mastocytaire (histamine, tryptase, IL-1β, TNF-α) activent la microglie via le récepteur PAR2 et les récepteurs purinergiques. Les microglia activés stimulent en retour la dégranulation mastocytaire — une boucle de rétroaction positive qui amplifie la neuroinflammation et explique les poussées déclenchées par des stimuli en apparence mineurs.
 
@@ -138,7 +138,7 @@ Nous avons un chapitre dédié à la dysfonction TRPM3 dans le ME/CFS. C'est le 
 
 ### L'hypothèse des "portes coincées"
 
-La dysfonction TRPM3 explique le paradoxe immunologique du ME/CFS : le système immunitaire semble simultanément **suractivé** (inflammation chronique, cytokines élevées) et **sous-actif** (mauvaise clairance des pathogènes). Le mécanisme : les cellules NK détectent les menaces mais ne peuvent pas dégranulner correctement faute d'afflux calcique suffisant via TRPM3 dysfonctionnel. Le résultat est une inflammation chronique frustrée — les cellules continuent d'envoyer des signaux d'alerte mais n'arrivent pas à éliminer la cible.
+La dysfonction TRPM3 explique le paradoxe immunologique du ME/CFS : le système immunitaire semble simultanément **suractivé** (inflammation chronique, cytokines élevées) et **sous-actif** (mauvaise clairance des pathogènes). Le mécanisme : les cellules NK détectent les menaces mais ne peuvent pas dégranuler correctement faute d'afflux calcique suffisant via TRPM3 dysfonctionnel. Le résultat est une inflammation chronique frustrée — les cellules continuent d'envoyer des signaux d'alerte mais n'arrivent pas à éliminer la cible.
 
 ### La cascade Calcium → Mitochondrie
 
@@ -172,7 +172,7 @@ L'étude Sasso et al. 2026 [9] apporte la validation indépendante dans plusieur
 
 ---
 
-## 5. Piezo1 et Piezo2 — votre intuition sur le Prix Nobel Julius
+## 5. Piezo1 et Piezo2 — votre intuition sur le Prix Nobel 2021 (Julius et Patapoutian)
 
 Votre référence aux récepteurs Piezo (Prix Nobel 2021, David Julius et Ardem Patapoutian) est parfaitement pertinente pour le ME/CFS. Depuis votre message, nous avons intégré ces canaux explicitement dans notre documentation — voici ce que cette intégration a produit.
 
@@ -254,7 +254,7 @@ Yannick
 
 [15] Li X, Kroin JS, Kc R, et al. TRPV1 mediates neurogenic inflammation via substance P and CGRP release, and drives COX-2/PGE2 production in synoviocytes. *Scientific Reports*. 2021;11:4711. <https://doi.org/10.1038/s41598-021-82829-6>
 
-[16] Souza GR, et al. Topiramate reduces neurogenic dural inflammation via modulation of TRPV1 and mast cell degranulation. *Brain Sciences*. 2024;14(11):1070. <https://doi.org/10.3390/brainsci14111070>
+[16] Costa GR, et al. Topiramate reduces neurogenic dural inflammation via modulation of TRPV1 and mast cell degranulation. *Brain Sciences*. 2024;14(11):1070. <https://doi.org/10.3390/brainsci14111070>
 
 [17] Macpherson LJ, Dubin AE, Evans MJ, et al. Noxious compounds activate TRPA1 ion channels through covalent modification of cysteines. *Nature*. 2007;445(7127):541–545. <https://doi.org/10.1038/nature05544>
 
@@ -466,8 +466,9 @@ Yannick
 / **Key Findings:**
 
   - PIEZO2 est requis pour l'allodynie tactile induite par blessure chez la souris et chez l'humain
-  - Les patients avec mutations perte-de-fonction PIEZO2 (syndrome CRAMPED : hypermobilité, allodynie, scoliose) n'développent pas d'allodynie après lésion périphérique
-  - PIEZO2 est essentiel pour l'encodage proprioceptif normal : les mutations perte-de-fonction causent une ataxie proprioceptive profonde
+  - Les patients avec mutations perte-de-fonction PIEZO2 n'développent pas d'allodynie après lésion périphérique, et présentent une ataxie proprioceptive profonde
+  - Les variants gain-de-fonction PIEZO2 (syndrome CRAMPED : hypermobilité, allodynie, scoliose) produisent le phénotype opposé — hypersensibilité mécanique
+  - PIEZO2 est essentiel pour l'encodage proprioceptif normal
 / **Conclusion:** PIEZO2 est le mécanorécepteur principal pour le toucher léger, la vibration, la proprioception ET l'allodynie tactile induite.
 / **Limitations:** Population spécifique de patients avec mutations génétiques rares ; extrapolation à la dysrégulation acquise dans ME/CFS est spéculative.
 / **Certainty Assessment:**
@@ -535,9 +536,9 @@ Yannick
 
 ---
 
-### [16] Souza/Costa et al. 2024 — Topiramate, TRPV1 et dégranulation mastocytaire durale
+### [16] Costa et al. 2024 — Topiramate, TRPV1 et dégranulation mastocytaire durale
 
-/ **Full Citation:** Souza GR [first author: Costa], et al. Topiramate reduces neurogenic dural inflammation via modulation of TRPV1 and mast cell degranulation. *Brain Sciences*. 2024;14(11):1070.
+/ **Full Citation:** Costa GR, et al. Topiramate reduces neurogenic dural inflammation via modulation of TRPV1 and mast cell degranulation. *Brain Sciences*. 2024;14(11):1070.
 / **DOI:** <https://doi.org/10.3390/brainsci14111070>
 / **Published:** 2024
 / **Study Design:** Étude préclinique ex vivo sur mastocytes duraux de rongeurs
