@@ -2429,3 +2429,40 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
   kind: table, supplement: [Table], caption: [VNS fibre-selectivity extensions and ANT molecular mimicry brainstorm integration (2026-04-12). Two VNS-related entries (C-fibre deafferentation, alpha-7 nAChR pharmacological bypass) extend the fibre-selectivity framework; one ANT entry proposes the first specific molecular mimicry target for ME/CFS. Motivated by brainstorm files for VNS fibre selectivity and ANT autoantibodies.],
 ) <tab:hypothesis-registry-brainstorm-remaining-2026-04-12>
 ] // end landscape page for brainstorm integration
+
+=== TRP/Piezo Channel Integration (2026-04-13)
+
+#figure(
+  table(
+    columns: (2fr, 1fr, 1fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Beyond TRPM3: A Broader TRP Channelopathy in ME/CFS],
+    [S], [0.40],
+    [In ME/CFS, elevated ROS and prostaglandins sensitize TRPV1 and TRPA1 on sensory neurons and mast cells, creating self-sustaining feed-forward loops (TRPV1→COX2→PGE2→TRPV1 @Li2021 @Moriyama2005; TRPA1 cysteine-ROS @Macpherson2007). Co-sensitization across multiple TRP channels may explain why ME/CFS symptoms span pain, chemical sensitivity, and temperature dysregulation simultaneously.],
+    [Capsaicin-induced flare thresholds in ME/CFS-MCS vs ME/CFS-no-MCS patients; TRPA1 activation threshold (mustard challenge); NK cell TRPV1/TRPA1 gating in ME/CFS (can exploit existing blood draw protocols). No ME/CFS-specific TRP sensitization study published (2026).],
+    [Ch.14h @spec:ch14h-trp-expanded],
+
+    [Piezo1 Dysregulation as a Mechanism for RBC Stiffness in ME/CFS],
+    [S], [0.35],
+    [Chronic oxidative stress and cytokines in ME/CFS may dysregulate Piezo1-KCa3.1 coupling in RBCs, producing dehydrated/stiff cells that impair capillary transit. RBC deformability is documented reduced in ME/CFS @Saha2019; Piezo1 mechanism proposed by Cahalan2015 for RBC volume homeostasis @Cahalan2015.],
+    [Patch-clamp Piezo1 gating in ME/CFS RBCs vs controls; KCa3.1 (Gardos) activity assay; RBC deformability vs 2-day CPET VO₂max correlation. No ME/CFS Piezo1 study exists (2026).],
+    [Ch.14h @spec:ch14h-piezo1-rbc],
+
+    [Piezo2 Gain-of-Function and Mechanical Allodynia in ME/CFS],
+    [S], [0.35],
+    [Piezo2 mediates light-touch allodynia and proprioceptive encoding @Szczot2018. Gain-of-function Piezo2 variants (CRAMPED syndrome: hypermobility, allodynia, scoliosis) overlap with hEDS features overrepresented in ME/CFS. Chronic neuroinflammation may lower Piezo2 activation thresholds, contributing to mechanical allodynia.],
+    [Piezo2-dependent sensory modality thresholds (von Frey filaments, vibration) vs pain thresholds in ME/CFS; joint position sense testing in ME/CFS-hEDS vs ME/CFS-no-hEDS; skin biopsy DRG culture for Piezo2 electrophysiology. Not yet studied (2026).],
+    [Ch.14h @spec:ch14h-piezo2-allodynia],
+
+    [Ambroxol as Repurposed TRP Channel Modulator in ME/CFS],
+    [S], [0.35],
+    [Ambroxol (OTC mucolytic) blocks Nav1.8 in nociceptors @Gaida2005Ambroxol and antagonizes human TRPV1 by electrophysiology @Hefner2025AmbroxolTRPV1. If TRPV1 sensitization drives ME/CFS pain and chemical hypersensitivity, ambroxol could reduce sensitization-driven nociceptor activation. Also modulates TRPA1 at higher concentrations.],
+    [ME/CFS patients with pain/MCS features should show pain reduction with ambroxol 75--150 mg/day correlating with capsaicin flare-threshold improvement. No ME/CFS trial exists (2026). Note: species-specific Nav1.8 data (rat IC50 18 µM vs human 279 µM) limits translation.],
+    [Ch.14h @spec:ch14h-ambroxol-trp],
+  ),
+  kind: table, supplement: [Table], caption: [TRP/Piezo channel integration (2026-04-13): three open-questions generated from Julius 2021 Nobel context applied to ME/CFS, plus ambroxol speculation from Phase 4. Motivated by @Macpherson2007, @Li2021, @Moriyama2005, @Saha2019, @Cahalan2015, @Szczot2018, @Molot2023, @Gaida2005Ambroxol, @Hefner2025AmbroxolTRPV1, @Russo2023Ambroxol.],
+) <tab:hypothesis-registry-trp-piezo-2026-04-13>
