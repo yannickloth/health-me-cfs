@@ -139,6 +139,10 @@ This is not contradictory—it is the expected result of ion channel dysfunction
 
 === The Calcium-Mitochondria Cascade Hypothesis
 
+#limitation(title: [Working Model: Evidence from Separate Studies, Not an Integrated Pathway])[
+The hypotheses in the following sections (calcium-mitochondria cascade, post-infectious acquisition, temperature dysregulation, TRP channel sensitization, Piezo channels) assemble evidence from studies in different cell types, species, and research groups. No study has demonstrated this cascade end-to-end in a single ME/CFS patient cohort. The integration is a working model intended to generate testable predictions, not a description of established pathophysiology.
+]
+
 #open-question(title: [TRPM3 Dysfunction Upstream of Mitochondrial Failure])[
 Mitochondrial dysfunction is well-documented in ME/CFS: impaired oxidative phosphorylation, reduced ATP production, abnormal metabolomics. But is mitochondrial dysfunction primary or secondary?
 
@@ -234,11 +238,15 @@ TRPM3 is a *thermosensor*—it responds to temperature changes, particularly in 
 This reframes temperature symptoms from “vague subjective complaints” to objective consequences of ion channel pathology.
 ]
 
-#limitation(title: [TRPM3 Hypotheses: Single-Study Foundation with In Vitro Scope])[
-The TRPM3 dysfunction finding @Sasso2026trpm3 is reproducible across laboratories but has important boundaries that constrain the hypotheses built upon it:
+#limitation(title: [TRPM3 Hypotheses: Single Research Group, In Vitro Scope])[
+The TRPM3 dysfunction finding has been reported across multiple sites @Sasso2026trpm3, but all studies to date originate from the same research network (Cabanas/Marshall-Gradisnik, Griffith University/NCNED). Multi-site is not the same as independent validation when the sites are within the same network. The following boundaries constrain the hypotheses built on this evidence:
 
     - TRPM3 dysfunction has been demonstrated only in _immune cells_ (NK cells, T cells); the “systemic channelopathy” hypothesis—that TRPM3 is dysfunctional in sensory neurons, pancreatic $beta$-cells, vascular smooth muscle, and brain—is extrapolation, not measurement.
-    - Whether TRPM3 dysfunction is a _cause_ of ME/CFS symptoms, a _consequence_ of chronic immune activation, or an _epiphenomenon_ of another upstream process has not been determined by the available cross-sectional data.
+    - Three distinct causal hypotheses for TRPM3's role must be distinguished, as they have opposite therapeutic implications:
+        - *Causal hypothesis*: TRPM3 dysfunction is a primary pathogenic mechanism; correcting TRPM3 should improve symptoms. This underpins all TRPM3-targeted therapeutic speculation in this chapter.
+        - *Consequential hypothesis*: TRPM3 dysfunction is a downstream consequence of chronic immune activation, redox stress, or altered membrane lipid composition caused by the disease---all of which modulate TRP channel gating independently of primary TRPM3 pathology. Correcting TRPM3 would not address the upstream cause.
+        - *Biomarker hypothesis*: TRPM3 dysfunction is a reliable marker of NK cell state in ME/CFS with no direct causal role; useful diagnostically but not therapeutically.
+        Available cross-sectional data cannot distinguish between these three; prospective intervention studies are required.
     - The proposed TRPM3-GPCR signalling convergence and calcium-mitochondria cascade are mechanistically plausible models, but the causal links (autoantibodies $\to$ TRPM3 dysfunction $\to$ mitochondrial failure) have not been demonstrated in any experimental system.
     - Therapeutic speculation regarding TRPM3 agonists/antagonists is premature: TRPM3 pharmacology in humans is poorly characterised, and no TRPM3-modulating compound has been tested in ME/CFS patients.
 
@@ -395,12 +403,15 @@ application is entirely extrapolated. Not yet replicated in ME/CFS.)
 
 #speculation(title: [Piezo1 Dysregulation as a Mechanism for RBC Stiffness in ME/CFS])[
 A brief communication by Saha et al.\ documented reduced RBC deformability in ME/CFS
-patients using ektacytometry @Saha2019, though the study is a short report and the finding
-awaits independent replication. Stiffened RBCs cannot traverse capillaries of diameter
-3--5~µm efficiently, impairing oxygen delivery to tissues even when hemoglobin concentration
-is normal. The mechanistic basis for this finding may involve Piezo1, though competing
-mechanisms include oxidative membrane lipid peroxidation, ATP depletion, and spectrin/
-cytoskeletal protein defects.
+patients using ektacytometry @Saha2019---a phenotypic measurement only. *Critically, the
+Saha study did not measure Piezo1 expression, activity, or genetic variants.* The
+involvement of Piezo1 is an inference from general physiology (Piezo1 governs RBC volume
+in murine models), not a direct finding. Competing mechanisms for reduced RBC deformability
+are at least equally plausible: oxidative membrane lipid peroxidation (a well-documented
+feature of ME/CFS), ATP depletion reducing spectrin cytoskeleton flexibility, and
+dysautonomia-driven alterations in RBC hydration. None of these require Piezo1 dysfunction.
+The study is also a short report from a single group (Davis/Stanford) awaiting independent
+replication.
 
 Piezo1 is the mechanically-activated cation channel that governs RBC volume homeostasis:
 calcium influx through Piezo1 activates the KCa3.1 (Gardos) channel, causing K$^+$ efflux

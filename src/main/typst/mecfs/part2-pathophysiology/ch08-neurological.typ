@@ -822,7 +822,7 @@ Critical period reopening alone is insufficient---it creates vulnerability to bo
 
 *Evidence base*
 
-_Long COVID trial:_ A 2024 JAMA Network Open randomized trial tested lithium aspartate in Long COVID patients @Guttuso2024lithiumLongCOVID. Low doses (10--15 mg/day) were largely ineffective, but a dose-escalation sub-study found that 40--45 mg/day achieving serum concentrations of 0.18--0.49 mEq/L produced improvements in cognitive dysfunction and fatigue. These serum levels are well below the standard therapeutic range (0.6--1.2 mEq/L) but sufficient for partial GSK-3$beta$ inhibition and BDNF upregulation.
+_Long COVID trial:_ A 2024 JAMA Network Open randomized trial tested lithium aspartate in Long COVID patients @Guttuso2024lithiumLongCOVID. *The primary RCT endpoint was negative*: low doses (10--15 mg/day) did not improve cognition or fatigue versus placebo. A non-randomised, open-label dose-escalation sub-study found that 40--45 mg/day achieving serum concentrations of 0.18--0.49 mEq/L produced improvements in cognitive dysfunction and fatigue---but this signal is hypothesis-generating, not a demonstration of efficacy (open-label design, subject to placebo effect and expectation bias). *Extrapolation to ME/CFS*: estimates suggest 30--50% of Long COVID patients meet IOM ME/CFS criteria, meaning 50--70% do not. The positive sub-study signal could originate entirely from the non-ME/CFS fraction (e.g., SARS-CoV-2-specific neuropathology, organ damage), which limits applicability to ME/CFS @Guttuso2024lithiumLongCOVID.
 
 _Subtherapeutic neuroprotection:_ In cortical neurons, lithium at 0.02 mM increased intracellular BDNF by 10%; in hippocampal neurons, increases of 28% were observed at subtherapeutic concentrations @Dwivedi2016lithiumBDNF. Even doses 400-fold below conventional clinical ranges show neuroprotective potential in Alzheimer's models. A microdose trial (300 $mu$g/day for 15 months) stabilized MMSE scores in Alzheimer's patients while placebo declined from ~20 to ~14.
 
@@ -830,7 +830,7 @@ _Brain lithium depletion:_ A 2025 Nature study found lithium was the only metal 
 
 *Proposed ME/CFS mechanisms*
 
-At sub-therapeutic doses, lithium likely acts through: (1) partial GSK-3$beta$ inhibition sufficient for BDNF upregulation and Wnt/$beta$-catenin activation without complete enzyme blockade; (2) inositol monophosphatase inhibition driving mTOR-independent autophagy, potentially clearing accumulated cellular debris; (3) partial TLR4/NF-$kappa$B suppression reducing microglial pro-inflammatory signaling; and (4) NLRP3 inflammasome modulation. These converging mechanisms address multiple nodes of ME/CFS pathophysiology: neuroinflammation, impaired autophagy, reduced neurotrophic support, and grey matter loss.
+At sub-therapeutic doses, lithium likely acts through: (1) partial GSK-3$beta$ inhibition sufficient for BDNF upregulation and Wnt/$beta$-catenin activation without complete enzyme blockade; (2) inositol monophosphatase inhibition driving mTOR-independent autophagy, potentially clearing accumulated cellular debris; (3) partial TLR4/NF-$kappa$B suppression reducing microglial pro-inflammatory signaling; and (4) NLRP3 inflammasome modulation (shown in preclinical models; not yet demonstrated in ME/CFS patients). These converging mechanisms address multiple nodes of ME/CFS pathophysiology: neuroinflammation, impaired autophagy, reduced neurotrophic support, and grey matter loss.
 
 *Testable predictions*
 
@@ -845,10 +845,17 @@ Even at low doses, lithium requires monitoring of thyroid function (TSH) and ren
 #warning-env(title: [Lithium Safety: Drug Interactions and Contraindications])[
 Although lithium orotate is sold over-the-counter as a supplement, this does *not* imply it is safe to self-initiate. Even at low doses:
 
-    - *Drug interactions*: NSAIDs (ibuprofen, naproxen), ACE inhibitors, and thiazide diuretics substantially raise lithium levels and can precipitate toxicity. ME/CFS patients frequently use these medications.
+    - *Drug interactions*: Several drug classes substantially raise lithium levels and can precipitate toxicity---all are common in ME/CFS:
+        - *NSAIDs* (ibuprofen, naproxen, diclofenac): reduce renal lithium clearance via prostaglandin inhibition; avoid or monitor closely
+        - *ACE inhibitors / ARBs* (lisinopril, enalapril, losartan, valsartan): reduce lithium clearance via renin-angiotensin system; enhanced monitoring required
+        - *Thiazide diuretics* (hydrochlorothiazide, indapamide---sometimes used for POTS): reduce lithium clearance more than ACE inhibitors; highest-risk combination; relative contraindication
+        - *Beta-blockers* (propranolol, metoprolol---often used for POTS): reduce T4→T3 conversion via peripheral deiodinase inhibition; compound the lithium-induced thyroid suppression in ME/CFS patients already with Low T3 Syndrome
+        - *SSRIs / SNRIs* (sertraline, duloxetine---prescribed for comorbid depression): low but real risk of serotonin syndrome at initiation or dose increase; monitor for agitation, myoclonus, hyperthermia
+        - *Antibiotics* (metronidazole, tetracyclines---sometimes used for SIBO or co-infections): can raise lithium concentrations; check serum level if co-prescribed
     - *Renal impairment*: Contraindicated if eGFR < 30 mL/min. Baseline renal function must be checked before initiation.
     - *Dehydration risk*: Diarrhoea, excessive sweating, or reduced fluid intake (common during PEM crashes) requires temporary dose reduction or interruption, as lithium is renally cleared and dehydration concentrates serum levels.
-    - *Do not self-initiate*: Physician baseline evaluation including renal function, thyroid panel, and medication review is required before starting any lithium formulation.
+    - *Thyroid monitoring specifics*: TSH alone is insufficient---free T3 (fT3) must be explicitly ordered as it is not included in standard thyroid panels. The mechanism of concern is lithium's suppression of T4→T3 conversion, which can reduce fT3 while TSH remains normal.
+    - *Do not self-initiate*: Physician baseline evaluation including renal function, fT3/TSH, and comprehensive medication review is required before starting any lithium formulation.
 ]
 
 *Limitations*

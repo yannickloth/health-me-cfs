@@ -1786,7 +1786,22 @@ Adjunctive to sleep optimization:
 
     - *Taurine*: 2–3 g daily. Critical osmoregulation agent for astrocyte water channels; supports aquaporin-4-mediated water transport through the interstitium.
 
-    - *Low-dose lithium* (if baseline renal function normal): 150–300 mg daily. Enhances aquaporin-4 expression and glymphatic flow; also provides mood stabilization and neuroprotection. Requires baseline and periodic (q3 months) renal function and TSH monitoring @MCMC2024Neurometabolic.
+    - *Low-dose lithium* (if baseline renal function normal): Target serum concentration 0.18--0.49 mEq/L; dose is titrated to concentration, not fixed. Proposed to enhance aquaporin-4 expression and glymphatic flow (preclinical evidence); also provides mood stabilization and neuroprotection @MCMC2024Neurometabolic. No human glymphatic data exist for low-dose lithium.
+
+        *Titration ladder (carbonate formulation):*
+        - Start: 50 mg/day
+        - Check serum level at 5--7 days (12h post-dose):
+            - < 0.15 mEq/L and tolerated: increase 25 mg/day, recheck in 5--7 days
+            - 0.15--0.18 mEq/L: maintain, recheck at 2 weeks
+            - ≥ 0.18 mEq/L: target reached, stabilise
+        - Maximum: 150 mg/day without specialist input
+        - This protocol is by analogy with standard lithium titration, not ME/CFS-specific data
+
+        *Monitoring:* Serum lithium, fT3 (must be explicitly ordered---not in standard TSH panel), TSH, creatinine every 3 months. Serum level check at 5--7 days after each dose change.
+
+        *Key drug interactions:* Thiazide diuretics (highest risk---relative contraindication), NSAIDs, ACE inhibitors/ARBs (all reduce renal clearance); fludrocortisone (common in ME/CFS for OI---reduces lithium excretion, requires closer initial monitoring); beta-blockers (compound T4→T3 suppression); SSRIs/SNRIs (serotonin syndrome risk).
+
+        *Stopping criteria:* (1) fT3 declining or TSH > 4 mU/L despite dose adjustment; (2) creatinine increase > 30% from baseline; (3) serum lithium > 0.6 mEq/L; (4) fine tremor, polyuria/polydipsia, confusion, nausea, ataxia → stop immediately, urgent serum check within 24h; (5) acute dehydration episode (diarrhoea, fever, vomiting) → suspend lithium until rehydrated and serum level confirmed in range.
 
 *Activity Timing for Neuroinflammation Minimization*
 
