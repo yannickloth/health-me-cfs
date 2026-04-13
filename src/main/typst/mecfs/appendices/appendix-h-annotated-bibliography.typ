@@ -7042,3 +7042,422 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Limitations:*: Review; ME/CFS-specific epigenetic data limited; AMPK-mTOR and HDAC data mostly in animal models.
     / *Certainty:*: 0.60 (review; mechanism well-supported; ME/CFS applicability is inferential)
     / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
+
+// =============================================================================
+
+== Neuroprotection: Lithium and ME/CFS
+<sec:bib-lithium-neuroprotection>
+// =============================================================================
+
+=== Guttuso et al.\ 2024 --- Lithium for Cognitive Impairment in Long COVID: RCT
+
+    / *Full Citation:*: Guttuso T, Zhu R, Zahra K. Lithium for Cognitive Impairment in Long {COVID}: A Randomized Clinical Trial. _JAMA Network Open_. 2024;7(8):e2427562.
+    / *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2024.27562")[10.1001/jamanetworkopen.2024.27562]
+    / *Published:*: 2024
+    / *Study Design:*: Randomised clinical trial with dose-escalation substudy
+    / *Key Findings:*:
+
+        - Low doses (10--15 mg/day lithium aspartate): largely ineffective for cognition and fatigue
+        - Dose-escalation to 40--45 mg/day: serum concentrations 0.18--0.49 mEq/L → improvement in cognitive dysfunction and fatigue
+        - Effective range well below standard psychiatric therapeutic range (0.6--1.2 mEq/L)
+        - Sufficient at this range for partial GSK-3$beta$ inhibition and BDNF upregulation
+        - First RCT testing lithium at sub-psychiatric doses in a post-infectious condition with substantial ME/CFS overlap
+
+    / *Relevance:*: Only existing RCT testing low-dose lithium in a condition closely overlapping ME/CFS (many Long COVID patients meet IOM ME/CFS criteria). Establishes a clear dose--response threshold (~40 mg/day). Provides proof-of-concept for a ME/CFS-specific trial. Mechanistically interpretable: partial GSK-3$beta$ inhibition and BDNF upregulation occur at sub-therapeutic serum concentrations, consistent with Dwivedi 2016 preclinical data.
+    / *Limitations:*: Not ME/CFS-specific; no mechanistic biomarker measurements (BDNF, GSK-3$beta$ phosphorylation); serum concentration data only from the non-randomised dose-escalation substudy; sample size insufficient for subgroup analyses.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate --- RCT but dose-escalation substudy not randomised
+        - *Currency:* Very current (2024)
+        - *Evidence base:* Proof-of-concept; requires replication in ME/CFS
+
+=== Bhatt et al.\ 2025 --- Lithium is the Only Metal Significantly Reduced in MCI Brains
+
+    / *Full Citation:*: Bhatt N, et al.\ Lithium is the Only Metal Significantly Reduced in Brains of Individuals with Mild Cognitive Impairment. _Nature_. 2025.
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-025-09335-x")[10.1038/s41586-025-09335-x]
+    / *Published:*: 2025
+    / *Study Design:*: Post-mortem metallomics of human brain tissue
+    / *Key Findings:*:
+
+        - Across all metals analysed, lithium was the only metal significantly reduced in MCI brains versus controls
+        - Distinguishes lithium from other metals (zinc, copper, iron) associated with neurodegeneration
+        - Suggests lithium may function as an essential neuroprotective micronutrient
+
+    / *Relevance:*: Reframes low-dose lithium supplementation as potentially correcting a micronutrient deficiency rather than administering a psychiatric drug. Relevant to ME/CFS where brain fog and grey matter abnormalities are documented, and where lithium depletion (if present) could compound neurological symptom burden. Strengthens the rationale for clinical trials of low-dose lithium in ME/CFS.
+    / *Limitations:*: Post-mortem study (advanced MCI); causality not established; no data on dietary lithium intake; no ME/CFS cohort.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (_Nature_; rigorous metallomics)
+        - *Currency:* Very current (2025)
+        - *Evidence base:* Observational; does not demonstrate supplementation efficacy
+
+=== Dwivedi & Zhang 2016 --- Lithium Neuroprotection via Epigenetic BDNF Upregulation
+
+    / *Full Citation:*: Dwivedi T, Zhang H. Lithium-Induced Neuroprotection is Associated with Epigenetic Modification of Specific {BDNF} Gene Promoter and Altered Expression of Apoptotic-Regulatory Proteins. _Frontiers in Neuroscience_. 2016;8.
+    / *DOI:*: #link("https://doi.org/10.3389/fnins.2014.00457")[10.3389/fnins.2014.00457]
+    / *Published:*: 2016
+    / *Study Design:*: Preclinical mechanistic study (cortical and hippocampal neurons)
+    / *Key Findings:*:
+
+        - Lithium at 0.02 mM increased intracellular BDNF by 10% in cortical neurons
+        - Hippocampal neurons showed 28% BDNF increase at sub-therapeutic concentrations
+        - Mechanism: epigenetic modification of specific BDNF gene promoter regions
+        - Neuroprotective effects demonstrated at concentrations 400-fold below conventional clinical ranges
+
+    / *Relevance:*: Provides the mechanistic basis for BDNF upregulation at the very low lithium doses proposed in ch08 speculation (40--45 mg/day lithium aspartate). In ME/CFS, BDNF is implicated in synaptic plasticity, neurogenesis, and modulation of neuroinflammation. Directly supports the dose range validated in Guttuso 2024.
+    / *Limitations:*: In vitro / preclinical; direct extrapolation to humans requires caution.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (preclinical)
+        - *Evidence base:* Mechanistic; well-cited; consistent with in vivo data
+
+=== Sarkar et al.\ 2005 --- Lithium Induces mTOR-Independent Autophagy
+
+    / *Full Citation:*: Sarkar S, Floto RA, Berger Z, Imarisio S, Cordenier A, Pasco M, Cook LJ, Rubinsztein DC. Lithium Induces Autophagy by Inhibiting Inositol Monophosphatase. _Journal of Cell Biology_. 2005;170(7):1101--1111.
+    / *DOI:*: #link("https://doi.org/10.1083/jcb.200504035")[10.1083/jcb.200504035]
+    / *PMCID:*: PMC2171537
+    / *Published:*: 2005
+    / *Study Design:*: Mechanistic cell biology study
+    / *Key Findings:*:
+
+        - Lithium induces autophagy via inositol monophosphatase (IMPase) inhibition
+        - Pathway is mTOR-independent --- activates autophagy even when mTOR is active
+        - Demonstrated autophagic clearance of aggregation-prone proteins (mutant huntingtin)
+        - Applicable at standard therapeutic concentrations
+
+    / *Relevance:*: Impaired autophagy is documented in ME/CFS (cellular debris accumulation, mitochondrial dysfunction, possible intracellular viral antigen persistence). The mTOR-independent pathway could promote mitophagy (clearance of damaged mitochondria) and reduce antigen burden. Operates at therapeutic concentrations: patients on psychiatric-dose lithium (e.g.\ Théralite) have this mechanism active, supporting registry-based epidemiology.
+    / *Limitations:*: Preclinical; direct demonstration in ME/CFS patient cells not available.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (_Journal of Cell Biology_; well-replicated; foundational mechanism)
+        - *Evidence base:* Central to lithium pharmacology; widely accepted
+
+=== Wang et al.\ 2024 --- Lithium Modulates Neuroinflammation: Narrative Review
+
+    / *Full Citation:*: Wang M, et al.\ Lithium Modulates Neuroinflammation: A Narrative Review. _Molecular Medicine_. 2024;30:245.
+    / *DOI:*: #link("https://doi.org/10.1186/s10020-024-01017-4")[10.1186/s10020-024-01017-4]
+    / *PMCID:*: PMC11678236
+    / *Published:*: 2024
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+
+        - Lithium suppresses TLR4/NF-$kappa$B signalling via GSK-3$beta$ inhibition
+        - Reduces microglial pro-inflammatory (M1) activation
+        - Modulates NLRP3 inflammasome → reduced IL-1$beta$ and IL-18 production
+        - Effects documented at both therapeutic and sub-therapeutic doses
+        - Included observational meta-analysis: lithium associated with RR 0.59 for Alzheimer's disease and RR 0.66 for all-cause dementia
+
+    / *Relevance:*: All four anti-neuroinflammatory mechanisms described directly address documented ME/CFS pathophysiology: microglial activation (TSPO-PET, post-mortem), TLR4/NF-$kappa$B upregulation, and NLRP3 activation by post-exercise succinate and lactate. The dementia risk reduction data supports the biological plausibility of protective effects in registry studies (lithium users vs.\ non-users in Long COVID/ME/CFS cohorts).
+    / *Limitations:*: Narrative review (not systematic); ME/CFS-specific data absent; confounding in observational dementia data cannot be excluded.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (narrative review)
+        - *Currency:* Current (2024)
+
+=== Lyoo et al.\ 2010 --- Lithium-Induced Grey Matter Volume Increase in Bipolar Disorder
+
+    / *Full Citation:*: Lyoo IK, Dager SR, Kim JE, Yoon SJ, Friedman SD, Dunner DL, Renshaw PF. Lithium-Induced Gray Matter Volume Increase as a Neural Correlate of Treatment Response in Bipolar Disorder: A Longitudinal Brain Imaging Study. _Neuropsychopharmacology_. 2010;35(8):1743--1750.
+    / *DOI:*: #link("https://doi.org/10.1038/npp.2010.41")[10.1038/npp.2010.41]
+    / *PMCID:*: PMC3055479
+    / *Published:*: 2010
+    / *Study Design:*: Longitudinal volumetric MRI study
+    / *Key Findings:*:
+
+        - Therapeutic lithium induces grey matter volume increase: mean 2.56% at 10--12 weeks
+        - Regional increases up to 10--15% in cingulate gyrus
+        - Volume increase correlates with therapeutic response
+        - Mechanism: neurogenesis via GSK-3$beta$ inhibition and Wnt/$beta$-catenin activation
+        - Only mood stabiliser demonstrating structural neuroprotective effect
+
+    / *Relevance:*: Grey matter loss is documented in ME/CFS (prefrontal cortex and other regions). Therapeutic-dose lithium (as in Théralite) produces active structural neuroprotection --- at concentrations greater than the sub-therapeutic range in Guttuso 2024, with correspondingly stronger effects. Relevant to patient registry studies: bipolar patients on lithium would be expected to show reduced neurological decline, potentially extending to ME/CFS/Long COVID outcomes.
+    / *Limitations:*: Bipolar disorder population; ME/CFS extrapolation mechanistically justified but indirect; mood stabilisation confounding cannot be excluded.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (longitudinal; quantitative MRI)
+        - *Evidence base:* Clinical (bipolar disorder); mechanistic extrapolation to ME/CFS
+
+// =============================================================================
+
+== Ion Channel Pathophysiology: TRPM3 in ME/CFS
+<sec:bib-trpm3-mecfs>
+// =============================================================================
+
+=== Cabanas et al.\ 2021 --- Low-Dose Naltrexone Restores TRPM3 Function in NK Cells
+
+    / *Full Citation:*: Cabanas H, et al.\ Low Dose Naltrexone Restores TRPM3 Ion Channel Function in {NK} Cells of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Patients. _Frontiers in Immunology_. 2021;12.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2021.684703")[10.3389/fimmu.2021.684703]
+    / *Published:*: July 2021
+    / *Study Design:*: In vitro mechanistic study using NK cells from ME/CFS patients and healthy controls
+    / *Key Findings:*:
+
+        - Confirmed TRPM3 ion channel dysfunction in NK cells of ME/CFS patients
+        - Low-dose naltrexone (LDN) restores TRPM3 function in vitro
+        - TRPM3 is a calcium-permeable cation channel expressed on NK cells, sensory neurons, pancreatic $beta$-cells, vascular smooth muscle, and brain
+        - Dysfunction impairs calcium influx required for NK cell degranulation and cytotoxic function
+
+    / *Relevance:*: Establishes the mechanistic link TRPM3 dysfunction → impaired NK cell calcium signalling → ME/CFS pathophysiology, and identifies LDN as a therapeutic agent acting via this mechanism. Directly supports the TRPM3-calcium-mitochondria cascade hypothesis: impaired calcium influx through dysfunctional TRPM3 reduces mitochondrial calcium signalling, impairing ATP production under demand. Provides the first actionable therapeutic target from ion channel research in ME/CFS.
+    / *Limitations:*: In vitro study on isolated NK cells; mechanism by which LDN restores TRPM3 function not fully elucidated; clinical outcome data needed.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (in vitro; human NK cells)
+        - *Evidence base:* Mechanistic; confirmed by Cabanas 2024 and Sasso 2026
+
+=== Cabanas et al.\ 2024 --- Pathophysiological Role of TRPM3 in ME/CFS and LDN Therapeutic Effect
+
+    / *Full Citation:*: Cabanas H, et al.\ Potential pathophysiological role of TRPM3 in {ME/CFS} and therapeutic effect of low-dose naltrexone. _Journal of Translational Medicine_. 2024;22:630.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-024-05412-3")[10.1186/s12967-024-05412-3]
+    / *Published:*: 2024
+    / *Study Design:*: Original data plus mechanistic review
+    / *Key Findings:*:
+
+        - Extends TRPM3 dysfunction beyond NK cells to sensory neurons, pancreatic $beta$-cells, vascular smooth muscle, retinal ganglion cells
+        - Systemic TRPM3 channelopathy provides a unified explanation for multi-organ ME/CFS manifestations
+        - Confirms and extends LDN therapeutic effects on TRPM3 function
+        - Proposes TRPM3 as a candidate biomarker for ME/CFS subtyping
+
+    / *Relevance:*: The systemic channelopathy framework explains how a single ion channel dysfunction produces the diverse ME/CFS symptom constellation: sensory hypersensitivity (sensory neurons), autonomic instability (vascular smooth muscle), glucose dysregulation (pancreatic $beta$-cells), and cognitive impairment (brain). Provides mechanistic basis for TRPM3-SAMA connection: dysfunctional TRPM3 in sensory neurons may lower mast cell activation thresholds via abnormal neuropeptide release (substance P, CGRP).
+    / *Limitations:*: Direct demonstration of TRPM3 dysfunction in non-NK cell tissues in ME/CFS patients not yet completed for all proposed tissues.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Moderate (original data + review)
+        - *Currency:* Current (2024)
+
+=== Sasso et al.\ 2026 --- Multi-Site Validation of TRPM3 Dysfunction in ME/CFS
+
+    / *Full Citation:*: Sasso EM, et al.\ Multi-site validation of TRPM3 ion channel dysfunction in {ME/CFS}. _Frontiers in Medicine_. 2026.
+    / *Published:*: January 2026
+    / *Study Design:*: Multi-site validation across independent cohorts
+    / *Key Findings:*:
+
+        - Independent replication across multiple sites of TRPM3 ion channel dysfunction in NK cells of ME/CFS patients
+        - Validates Cabanas 2021 and 2024 findings in geographically and methodologically independent cohorts
+        - Establishes TRPM3 NK cell dysfunction as a robust, reproducible finding
+
+    / *Relevance:*: Multi-site replication is the highest available level of evidence for this mechanism in ME/CFS. Transforms a single-group finding into a robust, reproducible result. Supports using TRPM3 NK cell assays as a mechanistic endpoint in clinical trials. Validates the TRPM3 channelopathy hypothesis as a priority research and therapeutic target.
+    / *Limitations:*: Full publication details not available at time of writing; clinical outcome correlations and full therapeutic characterisation remain to be published.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (multi-site validation, 2026)
+        - *Currency:* Very current (2026)
+        - *Evidence base:* Highest available level of evidence for TRPM3 in ME/CFS
+
+// =============================================================================
+// TRP CHANNELS AND PIEZO MECHANOSENSORS IN ME/CFS PATHOPHYSIOLOGY
+// =============================================================================
+
+== TRP Channels and Piezo Mechanosensors in ME/CFS Pathophysiology
+<sec:bib-trp-piezo-mecfs>
+
+This section covers the foundational mechanosensation and nociception literature underpinning the TRP channel and Piezo channel hypotheses in ME/CFS. Papers here establish: (1) reduced RBC deformability in ME/CFS (Saha 2019); (2) Piezo1 as RBC volume regulator via Gardos channel (Cahalan 2015); (3) Piezo2 as mediator of tactile allodynia and proprioception (Szczot 2018); (4) multiple chemical sensitivity (MCS) as TRP-sensitization syndrome (Molot 2023); (5) prostaglandin-TRPV1 sensitization loop (Moriyama 2005); (6) TRPV1-COX2 feed-forward amplification (Li 2021); (7) TRPV1-mast cell degranulation axis (Costa/Souza 2024); (8) TRPA1 as oxidative stress sensor via cysteine modification (Macpherson 2007).
+
+=== Saha et al.\ 2019 --- RBC Deformability Diminished in ME/CFS
+
+    / *Full Citation:*: Saha AK, Schmidt BR, Wilhelmy J, et al.\ Red blood cell deformability is diminished in patients with chronic fatigue syndrome. _Clinical Hemorheology and Microcirculation_. 2019;71(1):113--116.
+    / *DOI:*: #link("https://doi.org/10.3233/CH-180469")[10.3233/CH-180469]
+    / *Published:*: 2019
+    / *Study Design:*: Case-control, ektacytometry of RBCs from ME/CFS patients vs.\ healthy controls
+    / *Key Findings:*:
+        - RBC deformability significantly reduced in ME/CFS patients compared to healthy controls
+        - Reduced deformability implies impaired passage through narrow capillaries, potentially reducing oxygen delivery
+        - Authors propose hemorheological abnormality as contributor to exercise intolerance and post-exertional fatigue
+        - Ronald W.\ Davis group (Stanford)
+    / *Conclusion:*: ME/CFS patients have measurably stiffer red blood cells, consistent with impaired microcirculatory oxygen delivery and a Piezo1 dysregulation hypothesis.
+    / *Limitations:*: Small sample; does not establish Piezo1 as mechanism; cross-sectional; no exercise challenge data.
+    / *Certainty Assessment:*:
+        - *Sample size:* n=29 ME/CFS, n=29 controls
+        - *Design:* Case-control, ektacytometry
+        - *Replication:* Not yet independently replicated; single brief communication
+        - *Score:* 0.45
+
+=== Cahalan et al.\ 2015 --- Piezo1 Links Mechanical Forces to RBC Volume
+
+    / *Full Citation:*: Cahalan SM, Lukacs V, Ranade SS, Chien S, Bandell M, Patapoutian A. Piezo1 links mechanical forces to red blood cell volume. _eLife_. 2015;4:e07370.
+    / *DOI:*: #link("https://doi.org/10.7554/eLife.07370")[10.7554/eLife.07370]
+    / *Published:*: 2015
+    / *Study Design:*: Conditional knockout mouse model; electrophysiology; osmotic fragility assays
+    / *Key Findings:*:
+        - Piezo1 conditional knockout in RBCs produces overhydrated, mechanically fragile erythrocytes
+        - Piezo1 regulates RBC volume via calcium influx activating KCa3.1 (Gardos) channel, causing K$^+$ efflux and cell dehydration
+        - Establishes Piezo1 as essential volume homeostasis channel in RBCs
+        - Patapoutian group (Nobel Prize 2021); foundational Piezo1 RBC paper
+    / *Conclusion:*: Piezo1 is the primary mechanical sensor governing RBC volume; its dysregulation can produce stiffened or fragile RBCs with impaired deformability.
+    / *Limitations:*: Mouse model; does not directly address ME/CFS; human Piezo1 gain-of-function variants (hereditary xerocytosis) provide supporting but distinct human evidence.
+    / *Certainty Assessment:*:
+        - *Sample size:* Conditional knockout mouse; multiple cohorts
+        - *Design:* Mechanistic mouse genetics + electrophysiology
+        - *Replication:* Fully replicated; foundational finding; confirmed by multiple groups
+        - *Score:* 0.85
+
+=== Szczot et al.\ 2018 --- Piezo2 Mediates Injury-Induced Tactile Pain in Mice and Humans
+
+    / *Full Citation:*: Szczot M, Liljencrantz J, Ghitani N, et al.\ PIEZO2 mediates injury-induced tactile pain in mice and humans. _Science Translational Medicine_. 2018;10(462):eaat9892.
+    / *DOI:*: #link("https://doi.org/10.1126/scitranslmed.aat9892")[10.1126/scitranslmed.aat9892]
+    / *Published:*: October 2018
+    / *Study Design:*: Combination of Piezo2-deficient human patients (loss-of-function) and conditional Piezo2 knockout mice; quantitative sensory testing
+    / *Key Findings:*:
+        - Piezo2 loss-of-function in humans causes profound proprioceptive ataxia and absence of tactile allodynia after injury
+        - Piezo2 conditional knockout mice do not develop mechanical allodynia post-injury, unlike wild-type
+        - Confirms Piezo2 as the primary mechanotransducer for light touch, proprioception, and injury-induced tactile hypersensitivity
+        - Piezo2 gain-of-function (Piezo2-CRAMPED syndrome): joint hypermobility, allodynia, progressive scoliosis --- features overlapping with hEDS
+    / *Conclusion:*: Piezo2 is required for mechanical allodynia; loss prevents tactile pain hypersensitivity while gain produces hypermobility-allodynia phenotype resembling hEDS/ME-CFS comorbidity pattern.
+    / *Limitations:*: Human loss-of-function subjects are rare; gain-of-function syndrome (CRAMPED) not yet studied in ME/CFS cohorts; direct ME/CFS Piezo2 function data absent.
+    / *Certainty Assessment:*:
+        - *Sample size:* Small number of human Piezo2-deficient patients + mouse model
+        - *Design:* Human genetics + conditional knockout + quantitative sensory testing
+        - *Replication:* Partially replicated; Piezo2 proprioception role confirmed by multiple groups
+        - *Score:* 0.80
+
+=== Molot et al.\ 2023 --- Multiple Chemical Sensitivity: Time to Catch Up to the Science
+
+    / *Full Citation:*: Molot J, Sears M, Anisman H. Multiple chemical sensitivity: It's time to catch up to the science. _Neuroscience and Biobehavioral Reviews_. 2023;151:105227.
+    / *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2023.105227")[10.1016/j.neubiorev.2023.105227]
+    / *Published:*: 2023
+    / *Study Design:*: Comprehensive narrative review with mechanistic synthesis
+    / *Key Findings:*:
+        - Multiple chemical sensitivity (MCS) is mediated by sensitization of TRPV1 and TRPA1
+        - Prior inflammation, oxidative stress, or infection lowers TRP activation threshold below ordinary chemical concentrations
+        - Fragrances activate TRPA1 (allyl isothiocyanate-like structures); capsaicin-analogues activate TRPV1 --- both at sub-threshold concentrations in sensitized patients
+        - Capsaicin challenge studies in MCS patients demonstrate TRPV1 sensitization measurably
+        - MCS co-occurs with ME/CFS, fibromyalgia, and MCAS at high rates; shared TRP sensitization mechanism proposed as common pathway
+    / *Conclusion:*: MCS is not a psychiatric disorder but a neurobiological sensitization syndrome mediated by TRP channels; overlapping prevalence with ME/CFS supports shared pathophysiology.
+    / *Limitations:*: Review; underlying MCS clinical studies often have small samples; no direct TRP measurement in ME/CFS patients yet.
+    / *Certainty Assessment:*:
+        - *Sample size:* Review; underlying studies vary (n=20--150)
+        - *Design:* Narrative review; mechanistic synthesis
+        - *Replication:* MCS-TRP link: partially replicated; ME/CFS-specific data absent
+        - *Score:* 0.65
+
+=== Moriyama et al.\ 2005 --- Sensitization of TRPV1 by EP1 and IP Prostaglandin Receptors
+
+    / *Full Citation:*: Moriyama T, Higashi T, Togashi K, Iida T, Segi E, Sugimoto Y, Tominaga T, Narumiya S, Tominaga M. Sensitization of TRPV1 by EP1 and IP reveals peripheral nociceptive mechanism of prostaglandins. _Molecular Pain_. 2005;1:3.
+    / *DOI:*: #link("https://doi.org/10.1186/1744-8069-1-3")[10.1186/1744-8069-1-3]
+    / *Published:*: January 2005
+    / *Study Design:*: In vitro electrophysiology (DRG neurons) + in vivo mouse behavioral assays
+    / *Key Findings:*:
+        - PGE$_2$ and PGI$_2$ sensitize TRPV1 via EP1 and IP G-protein coupled receptors
+        - Sensitization lowers TRPV1 thermal threshold and increases capsaicin sensitivity
+        - Both protein kinase A (PKA) and protein kinase C (PKC) pathways involved in TRPV1 phosphorylation/sensitization
+        - Establishes molecular mechanism for prostaglandin-mediated peripheral nociceptor sensitization
+    / *Conclusion:*: Prostaglandins sensitize TRPV1 via EP1/IP receptors, explaining why anti-inflammatory drugs (NSAIDs reducing prostaglandins) can reduce thermal hyperalgesia.
+    / *Limitations:*: In vitro primary DRG neurons; older study (2005); human translation implied but not directly demonstrated.
+    / *Certainty Assessment:*:
+        - *Sample size:* In vitro DRG + mouse in vivo; multiple experiments
+        - *Design:* Mechanistic electrophysiology + mouse behavioral
+        - *Replication:* Fully replicated; foundational mechanism, confirmed in hundreds of subsequent papers
+        - *Score:* 0.75
+
+=== Li et al.\ 2021 --- TRPV1 Feed-Forward Sensitization via COX2 Upregulation
+
+    / *Full Citation:*: Li T, Wang G, Hui VCC, Saad D, de Sousa Valente J, La Montanara P, Nagy I. TRPV1 feed-forward sensitisation depends on COX2 upregulation in primary sensory neurons. _Scientific Reports_. 2021;11(1):3514.
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-021-82829-6")[10.1038/s41598-021-82829-6]
+    / *Published:*: February 2021
+    / *Study Design:*: In vitro primary sensory neuron cultures; COX2 inhibitors; RT-PCR and calcium imaging
+    / *Key Findings:*:
+        - TRPV1 activation induces COX2 (cyclooxygenase-2) upregulation in sensory neurons within ~30 minutes
+        - COX2-derived prostaglandins re-sensitize TRPV1 via EP receptors, creating a feed-forward amplification loop
+        - Loop can be broken by COX2 inhibitors (NSAIDs) or TRPV1 antagonists
+        - Demonstrates TRPV1 is both sensor and amplifier in nociceptive sensitization
+    / *Conclusion:*: TRPV1 activation creates its own amplification through COX2-prostaglandin signaling; this loop explains persistent hypersensitivity after initial nociceptive triggers.
+    / *Limitations:*: In vitro only; human primary sensory neuron equivalence not directly tested; COX2 induction timing may differ in vivo.
+    / *Certainty Assessment:*:
+        - *Sample size:* In vitro primary sensory neuron cultures
+        - *Design:* Mechanistic in vitro; pharmacological dissection
+        - *Replication:* Not yet independently replicated; mechanism internally coherent
+        - *Score:* 0.70
+
+=== Costa et al.\ 2024 --- Topiramate Inhibits Capsaicin-Induced Mast Cell Degranulation (cited as Souza2024)
+
+    / *Full Citation:*: Costa RF, Rosas EP, Paz ST, de Freitas MFL, de Souza SL, de Andrade JR, de Oliveira DA, Jansen-Olesen I, Christensen SL, Valença MM. Topiramate Inhibits Capsaicin-Induced Mast Cell Degranulation and CGRP Release in Rat Dura Mater. _Brain Sciences_. 2024;14(11):1070.
+    / *DOI:*: #link("https://doi.org/10.3390/brainsci14111070")[10.3390/brainsci14111070]
+    / *Published:*: November 2024
+    / *Study Design:*: Ex vivo rat dura mater preparation; capsaicin TRPV1 agonist stimulation; mast cell degranulation and CGRP measurement
+    / *Key Findings:*:
+        - Capsaicin (TRPV1 agonist) triggers mast cell degranulation and CGRP release in rat dura mater
+        - Topiramate inhibits both degranulation and CGRP release downstream of TRPV1 activation
+        - Demonstrates TRPV1-mast cell axis in neurogenic inflammation: TRPV1 activation on sensory fibers triggers adjacent mast cells
+        - Mechanism is non-IgE pathway (neurogenic, not allergic mast cell activation)
+    / *Conclusion:*: TRPV1 on sensory fibers activates nearby mast cells via non-IgE neurogenic pathway; topiramate may block this axis, relevant to migraine and neuroinflammatory conditions.
+    / *Limitations:*: Animal model (rat); ex vivo preparation; dura mater-specific; direct relevance to ME/CFS MCAS subtype is extrapolated.
+    / *Certainty Assessment:*:
+        - *Sample size:* Rat ex vivo; n not reported for animal cohort
+        - *Design:* Ex vivo pharmacological; animal model
+        - *Replication:* Not yet independently replicated; TRPV1-mast cell axis concept supported by other studies
+        - *Score:* 0.55
+
+=== Macpherson et al.\ 2007 --- TRPA1 Activated by Covalent Modification of Cysteines
+
+    / *Full Citation:*: Macpherson LJ, Dubin AE, Evans MJ, Marr F, Schultz PG, Cravatt BF, Patapoutian A. Noxious compounds activate TRPA1 ion channels through covalent modification of cysteines. _Nature_. 2007;445:541--545.
+    / *DOI:*: #link("https://doi.org/10.1038/nature05544")[10.1038/nature05544]
+    / *Published:*: February 2007
+    / *Study Design:*: In vitro electrophysiology; click-chemistry covalent labeling; mass spectrometry; mutagenesis
+    / *Key Findings:*:
+        - TRPA1 is activated by electrophilic/oxidative compounds (mustard oil, cinnamaldehyde, acrolein, H$_2$O$_2$) via covalent modification of reactive cysteine residues
+        - 14 cytosolic cysteine residues identified; 3 are required for normal channel activation
+        - The 14 ankyrin repeats in the N-terminus contain the key cysteine sensors
+        - Establishes TRPA1 as a molecular sensor for oxidative stress, tissue damage metabolites, and electrophilic irritants
+        - Patapoutian group; landmark paper confirming TRPA1's role as ROS/electrophile sensor
+    / *Conclusion:*: TRPA1 functions as a chemical/oxidative stress sensor through direct covalent modification of cytosolic cysteines; oxidative stress (ROS) in ME/CFS would activate TRPA1 on nociceptors and Schwann cells.
+    / *Limitations:*: In vitro only; mechanism confirmed in heterologous expression systems and mouse DRG; in vivo relevance and ME/CFS specificity extrapolated.
+    / *Certainty Assessment:*:
+        - *Sample size:* In vitro; mouse DRG; mechanistic
+        - *Design:* In vitro electrophysiology + biochemistry; landmark Nature paper
+        - *Replication:* Fully replicated; foundational mechanism; cited thousands of times
+        - *Score:* 0.85
+
+=== Gaida et al.\ 2005 --- Ambroxol as Nav1.8-Preferring Sodium Channel Blocker for Pain
+
+    / *Full Citation:*: Gaida W, Klinder K, Arndt K, Weiser T. Ambroxol, a Nav1.8-preferring Na(+) channel blocker, effectively suppresses pain symptoms in animal models of chronic, neuropathic and inflammatory pain. _Neuropharmacology_. 2005;49(8):1220--1227.
+    / *DOI:*: #link("https://doi.org/10.1016/j.neuropharm.2005.08.004")[10.1016/j.neuropharm.2005.08.004]
+    / *Published:*: 2005
+    / *Study Design:*: Preclinical; rat models of acute (formalin), neuropathic (two mononeuropathy models), and inflammatory (monoarthritis) pain; comparison with gabapentin
+    / *Key Findings:*:
+        - Ambroxol was only weakly effective in acute pain (formalin model) but substantially reduced pain symptoms in all chronic, neuropathic, and inflammatory models
+        - Effects at clinically achievable plasma concentrations (1 g/kg) generally exceeded those of gabapentin
+        - Confirms Nav1.8 preference: ambroxol selectively blocks TTX-resistant sodium channels (Nav1.8) expressed in small-diameter sensory neurons
+        - Establishes the preclinical pharmacological basis for ambroxol as an analgesic in chronic pain states
+    / *Conclusion:*: Nav1.8-selective block with ambroxol suppresses neuropathic and inflammatory pain more effectively than acute pain, matching the channel's expression profile in nociceptors.
+    / *Limitations:*: Rodent models only; dose translation to humans uncertain; mechanism attributed to Nav1.8 block; direct TRPV1 effects not tested in this study.
+    / *Certainty Assessment:*:
+        - *Sample size:* Rat (n per group not specified)
+        - *Design:* Preclinical multi-model; pharmacodynamic comparison
+        - *Replication:* Mechanism partially replicated; subsequent electrophysiology confirms Nav1.8 preference
+        - *Score:* 0.65
+
+=== Hefner et al.\ 2025 --- Ambroxol Inhibits Nav1.8, TRPV1, and TRPA1 (Electrophysiology)
+
+    / *Full Citation:*: Hefner S, Oprita G, Pantke S, Hage A, Leffler A. Nav1.8, TRPV1 and TRPA1 as possible targets of ambroxol when used for topical treatment of neuropathic pain. _The Journal of Pain_. 2025;37:105563.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpain.2025.105563")[10.1016/j.jpain.2025.105563]
+    / *Published:*: 2025
+    / *Study Design:*: In vitro whole-cell patch-clamp electrophysiology; human and rat Nav1.8; heterologous expression of hTRPV1 and hTRPA1
+    / *Key Findings:*:
+        - Ambroxol blocks rat Nav1.8 with IC50 18 µM versus human Nav1.8 IC50 279 µM --- pronounced species-specificity (rat > human potency)
+        - Ambroxol inhibits capsaicin-induced hTRPV1 currents in a concentration-dependent, partly reversible manner --- direct TRPV1 antagonism confirmed by electrophysiology
+        - TRPA1 also modulated at high concentrations
+        - Provides first direct electrophysiological evidence that ambroxol acts as a TRPV1 antagonist at relevant concentrations
+    / *Conclusion:*: Nav1.8, TRPV1, and TRPA1 are all pharmacological targets of ambroxol; the species-specificity of Nav1.8 block is an important caution for direct extrapolation from rodent pain models.
+    / *Limitations:*: In vitro only; topical concentrations at the application site may differ substantially from systemic plasma levels; species-specificity limits rodent-to-human extrapolation for Nav1.8; TRPV1 effect concentration range and clinical relevance not yet established.
+    / *Certainty Assessment:*:
+        - *Sample size:* In vitro; heterologous expression systems
+        - *Design:* Rigorous patch-clamp electrophysiology; peer-reviewed 2025
+        - *Replication:* Not yet independently replicated; mechanism internally consistent and extends prior Nav1.8 literature
+        - *Score:* 0.65
+
+=== Russo et al.\ 2023 --- Ambroxol for Neuropathic Pain: Review of Repurposing Evidence
+
+    / *Full Citation:*: Russo MA, Baron R, Dickenson AH, Kern K-U, Santarelli DM. Ambroxol for neuropathic pain: hiding in plain sight? _Pain_. 2023;164(1):3--13.
+    / *DOI:*: #link("https://doi.org/10.1097/j.pain.0000000000002693")[10.1097/j.pain.0000000000002693]
+    / *Published:*: January 2023
+    / *Study Design:*: Narrative review; synthesis of preclinical and clinical case series / small trial evidence
+    / *Key Findings:*:
+        - Ambroxol blocks Nav1.8 and Nav1.7 voltage-gated sodium channels in sensory neurons; established mechanism for analgesic activity
+        - Clinical case series and small uncontrolled studies report pain reduction in trigeminal neuralgia, fibromyalgia, and complex regional pain syndrome
+        - Long-standing OTC safety profile at mucolytic doses (30--75 mg/day); neuropathic pain doses 75--300 mg/day studied off-label without serious adverse effects reported
+        - No controlled clinical trials had been completed at time of publication; authors call for formal RCTs
+        - Bromhexine (prodrug of ambroxol) has equivalent mechanisms; ambroxol is the active metabolite
+    / *Conclusion:*: Ambroxol is an established drug with a good safety record; preclinical and preliminary clinical evidence supports its repurposing for neuropathic pain via sodium channel block, but controlled trials are needed.
+    / *Limitations:*: Review paper; clinical evidence is case series and small studies only (no RCTs at time of publication); doses needed for neuropathic pain exceed standard OTC mucolytic dosing; optimal formulation (topical vs.\ oral) not established.
+    / *Certainty Assessment:*:
+        - *Sample size:* Review; clinical data from case series (n = 10--50 range in cited studies)
+        - *Design:* Narrative review in Pain (high-impact journal; peer-reviewed)
+        - *Replication:* Nav1.8 mechanism well-replicated preclinically; clinical efficacy not yet replicated in RCTs
+        - *Score:* 0.60

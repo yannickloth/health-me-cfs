@@ -28,6 +28,17 @@ Prevents re-processing of already-integrated content.
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/?term=10.7554%2FeLife.07370 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/bib — Cahalan2015 — Piezo1 RBC volume KCa3.1 |
+| https://pubmed.ncbi.nlm.nih.gov/?term=10.1126%2Fscitranslmed.aat9892 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch08/bib — Szczot2018 — Piezo2 allodynia proprioception |
+| https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.neubiorev.2023.105227 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Molot2023 — MCS TRP sensitization |
+| https://pubmed.ncbi.nlm.nih.gov/?term=10.1186%2F1744-8069-1-3 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Moriyama2005 — PGE2 sensitizes TRPV1 |
+| https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs41598-021-82829-6 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Li2021 — TRPV1 COX2 feed-forward |
+| https://pubmed.ncbi.nlm.nih.gov/?term=10.3390%2Fbrainsci14111070 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/bib — Souza2024 — TRPV1 mast cell degranulation |
+| https://pubmed.ncbi.nlm.nih.gov/39595833/ | pubmed | 2026-04-13 | 2026-04-13 | bib — Souza2024 (Costa 2024) — full author verification |
+| https://www.nature.com/articles/nature05544 | nature.com | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Macpherson2007 — TRPA1 cysteine oxidation |
+| https://pubmed.ncbi.nlm.nih.gov/35580314/ | pubmed | 2026-04-13 | 2026-04-13 | bib/appendix-h/integration-guide — Russo2023Ambroxol — ambroxol neuropathic pain review |
+| https://pubmed.ncbi.nlm.nih.gov/16182323/ | pubmed | 2026-04-13 | 2026-04-13 | bib/appendix-h/integration-guide — Gaida2005Ambroxol — ambroxol Nav1.8 preclinical pain models |
+| https://pubmed.ncbi.nlm.nih.gov/40967389/ | pubmed | 2026-04-13 | 2026-04-13 | bib/appendix-h/integration-guide — Hefner2025AmbroxolTRPV1 — ambroxol Nav1.8/TRPV1/TRPA1 electrophysiology |
 | https://mecfsmed.de/mecfs/was-ist-mecfs/ | mecfsmed.de | 2026-03-28 | SKIP | Foundational page; content already covered at research depth |
 | https://mecfsmed.de/mecfs/mecfs-definitionen/ | mecfsmed.de | 2026-03-28 | SKIP | Definitions page; all criteria systems already covered |
 | https://mecfsmed.de/mecfs/mecfs-diagnose/ | mecfsmed.de | 2026-03-28 | SKIP | Diagnosis page; already covered |
