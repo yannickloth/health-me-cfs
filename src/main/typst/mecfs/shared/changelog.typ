@@ -1131,6 +1131,59 @@ Each entry follows the format: *What* changed, _why_ it changed
   - *Bibliography*: Added approximately 200 new references covering
     recent ME/CFS research across pathophysiology, treatment, and modeling.
 
+=== Appendix H: Lithium Neuroprotection and TRPM3 Annotations (2026-04-13)
+  - *Appendix H --- Annotated Bibliography*: Added two new thematic sections:
+    (1) _Neuroprotection: Lithium and ME/CFS_ — six entries covering Guttuso 2024
+    (Long COVID RCT), Bhatt 2025 (brain lithium depletion in MCI), Dwivedi 2016
+    (sub-therapeutic BDNF upregulation), Sarkar 2005 (mTOR-independent autophagy),
+    Wang 2024 (neuroinflammation modulation), and Lyoo 2010 (grey matter volume
+    increase); (2) _Ion Channel Pathophysiology: TRPM3 in ME/CFS_ --- three entries
+    covering Cabanas 2021 (LDN restores TRPM3 in NK cells), Cabanas 2024
+    (systemic TRPM3 channelopathy), and Sasso 2026 (multi-site validation).
+    _Motivated by:_ Correspondence with Geneviève Fourel (2026-03-28 to 2026-04-08)
+    raising questions on lithium × ME/CFS registry studies and TRP channel
+    pathophysiology; nine bibliography entries already present in `references.bib`
+    but not yet annotated in Appendix H.
+    Key sources: @Guttuso2024lithiumLongCOVID @Bhatt2025lithiumBrain
+    @Dwivedi2016lithiumBDNF @Sarkar2005lithiumAutophagy @Wang2022lithiumNeuroinflammation
+    @Lyoo2010lithium @Cabanas2021 @Cabanas2024trpm3 @Sasso2026trpm3.
+
+=== TRP Channels and Piezo Mechanosensors in ME/CFS Pathophysiology (2026-04-13)
+  - *Chapter 14h --- TRPM3 Novel Hypotheses* (new environments `spec:ch14h-trp-expanded`,
+    `spec:ch14h-piezo1-rbc`, `spec:ch14h-piezo2-allodynia`, `spec:ch14h-ambroxol-trp`):
+    Extended the TRPM3 channelopathy chapter to the broader TRP channel family and Piezo
+    mechanosensors. Added four new speculation environments: (1) expanded TRP channelopathy
+    hypothesis proposing concurrent TRPV1/TRPA1 sensitization in ME/CFS via ROS and
+    prostaglandin feed-forward loops (certainty 0.40); (2) Piezo1-RBC microcirculation
+    hypothesis linking reduced RBC deformability in ME/CFS to Piezo1/KCa3.1 dysregulation
+    (certainty 0.35); (3) Piezo2 and mechanical allodynia hypothesis connecting the
+    Piezo2-CRAMPED phenotype overlap with hEDS features in ME/CFS (certainty 0.35);
+    (4) ambroxol (OTC mucolytic) as a repurposed TRPV1 antagonist and Nav1.8 blocker for
+    ME/CFS neuropathic pain (certainty 0.35).
+  - *Chapter 15 --- Symptom-Producing Mechanisms* (expanded `sec:ch15-oxidative-stress`,
+    `sec:ch15-mast-cells`, `sec:ch15-metabolic-danger`): Added TRPV1→COX2→PGE2→TRPV1
+    feed-forward loop; TRPA1 as covalent ROS sensor via cytosolic cysteines; TRPV1-mast
+    cell degranulation axis (non-IgE neurogenic pathway); MCS as one of several mechanistic
+    models (TRP sensitization alongside limbic kindling and TILT); RBC deformability via
+    Piezo1/KCa3.1 as potential oxygen delivery mechanism.
+  - *Chapter 8 --- Neurological* (new sections): Added Multiple Chemical Sensitivity
+    (MCS) and TRP sensitization section (with competing models acknowledged); Piezo2/
+    proprioception section; expanded capsaicin/TRPV1 citation to include feed-forward
+    loop context.
+  - *Appendix H --- Annotated Bibliography*: New section `== TRP Channels and Piezo
+    Mechanosensors in ME/CFS Pathophysiology` with 11 entries: Saha 2019 (RBC
+    deformability), Cahalan 2015 (Piezo1-KCa3.1), Szczot 2018 (Piezo2 allodynia),
+    Molot 2023 (MCS/TRP), Moriyama 2005 (PGE2-TRPV1), Li 2021 (TRPV1-COX2), Souza
+    2024 (TRPV1-mast cell), Macpherson 2007 (TRPA1-ROS), Gaida 2005 (ambroxol Nav1.8),
+    Hefner 2025 (ambroxol TRPV1), Russo 2023 (ambroxol review).
+  - *References.bib*: 10 new entries (`research_stream = {trp-piezo-mecfs}`).
+  - *Hypothesis Registry*: 4 new entries (all speculation type, certainties 0.35--0.40).
+  _Motivated by:_ Correspondence with Geneviève Fourel (2026-04-08) asking about the
+  2021 Julius Nobel Prize TRPV1 lecture and TRP/Piezo channel relevance to ME/CFS;
+  systematic integration of Nobel lecture context into pathophysiology chapters.
+  Key sources: @Saha2019 @Cahalan2015 @Szczot2018 @Molot2023 @Moriyama2005 @Li2021
+  @Souza2024 @Macpherson2007 @Gaida2005Ambroxol @Hefner2025AmbroxolTRPV1 @Russo2023Ambroxol.
+
 // Changelog synchronized up to commit 704a55c (2026-03-07).
 // Next changelog update should cover commits after 704a55c.
 
