@@ -1038,7 +1038,7 @@ Topical agents provide targeted relief with minimal systemic effects—particula
 
     - *Low-concentration cream (0.025–0.075%)*: Apply 3–4 times daily
     - *High-concentration patch (8%)*: Single application by healthcare provider; effects last 3 months
-    - *Mechanism*: Depletes substance P from peripheral nerve endings; defunctionalizes TRPV1-expressing nociceptors
+    - *Mechanism*: Depletes substance P from peripheral nerve endings; defunctionalizes TRPV1-expressing nociceptors. TRPV1 is sensitized by prostaglandins via EP1 and IP receptors @Moriyama2005 and by its own activation via a COX2 feed-forward loop @Li2021, making chronic sensitization self-sustaining without repeated external triggers; capsaicin desensitization interrupts this loop
     - *Cautions*: Initial burning sensation (usually diminishes with regular use); avoid mucous membranes and eyes
 
 ==== Treatment of Underlying Causes
@@ -1439,6 +1439,38 @@ Despite the convergent evidence for auditory dysfunction in ME/CFS, significant 
 #open-question(title: [Central Auditory Gain and Sensory Hypersensitivity])[
 Hyperacusis (sound sensitivity) in ME/CFS may reflect dysregulated central gain in auditory processing pathways. The brainstem and auditory cortex normally adjust sensitivity (gain) based on environmental demands and context. In ME/CFS, chronic neuroinflammation, altered neurotransmitter levels, or thalamic dysfunction may inappropriately increase central auditory gain, amplifying all sounds and making normal environmental noise intolerable. This would parallel central sensitization in pain pathways. Testing this hypothesis with objective measures of auditory gain (acoustic reflex thresholds, loudness discomfort levels, auditory brainstem response) could clarify mechanisms and guide treatment targeting central gain normalization rather than peripheral protection.
 ]
+
+=== Multiple Chemical Sensitivity (MCS) and TRP Sensitization
+
+Multiple chemical sensitivity (MCS) co-occurs with ME/CFS at elevated rates. One mechanistic
+model proposes that MCS reflects peripheral sensitization of TRPV1 and TRPA1 by prior
+inflammation or oxidative stress, lowering their activation thresholds below ordinary chemical
+concentrations @Molot2023. TRPA1 is the primary sensor for fragrances, allyl
+isothiocyanate-containing compounds, and volatile organic chemicals; TRPV1 responds to
+capsaicin-like molecules and thermal/acid stimuli @Macpherson2007. In ME/CFS, chronic elevated
+ROS and prostaglandin production (Section @sec:ch15-oxidative-stress) could provide the
+sensitizing milieu. Competing models for MCS include limbic/olfactory kindling, toxicant-induced
+loss of tolerance (TILT), and central olfactory sensitization; none are mutually exclusive with
+peripheral TRP sensitization. The TRPV1-mast cell axis (Section @sec:ch15-mast-cells) provides
+an additional mechanism by which chemical stimuli could trigger mast cell degranulation without
+neuronal firing, contributing to the systemic responses observed in some ME/CFS patients.
+
+=== Proprioceptive Dysfunction and Piezo2 Mechanosensation
+
+Proprioceptive dysfunction --- manifesting as impaired sense of body position, unsteady
+gait, and motor incoordination --- has a specific mechanosensory substrate. Piezo2 is the
+primary mechanotransducer for light touch, vibration, and proprioception in mammals, as
+established by human loss-of-function mutations producing profound proprioceptive ataxia
+@Szczot2018.
+
+Two distinct genetic directions point toward Piezo2 as potentially relevant in ME/CFS,
+though they predict different phenotypes. Loss-of-function mutations reduce proprioception,
+potentially explaining motor incoordination in some patients. Gain-of-function Piezo2
+variants (Piezo2-CRAMPED syndrome: hypermobility, tactile allodynia, scoliosis) predict
+heightened mechanosensitivity --- features overlapping with hEDS overrepresented in ME/CFS.
+These are opposite mechanistic directions and cannot both be true simultaneously; which
+direction, if either, applies in ME/CFS is entirely unknown. Whether any form of Piezo2
+dysregulation contributes to ME/CFS symptoms remains unstudied as of 2026.
 
 == Cognitive Dysfunction: Clinical Manifestations
 <sec:cognitive-clinical>

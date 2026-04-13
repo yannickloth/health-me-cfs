@@ -326,6 +326,19 @@ The mast cell-microglia loop is demonstrated in vitro and in animal models; its 
 
 Substance P is released from sensory neurons and activates mast cells via MRGPRX2/NK1 receptors. Activated mast cells release more substance P (amplification loop) and histamine/tryptase that sensitize nociceptors, contributing to allodynia, widespread pain, and central sensitization in ME/CFS @Kempuraj2016neuroinflammation @Lakatos2025mastMicroglia.
 
+A second neurogenic pathway for mast cell activation involves TRPV1 directly. TRPV1 is
+expressed not only on sensory C-fiber endings but also on mast cells themselves. Capsaicin
+and TRPV1-activating stimuli (heat, protons, prostaglandins, some food compounds) have been
+shown to trigger mast cell degranulation via TRPV1-mediated calcium influx in rodent dural
+mast cells @Souza2024; whether this mechanism operates in human peripheral mast cells is not
+yet directly demonstrated. In ME/CFS patients with sensitized TRPV1
+(Section @sec:ch15-oxidative-stress), ordinary stimuli --- fragrances, food compounds,
+temperature changes --- can trigger this TRPV1-mast cell axis, contributing to the episodic,
+trigger-sensitive degranulation pattern characteristic of MCAS overlap. This mechanism is
+distinct from the substance P/MRGPRX2 axis (which requires prior neuropeptide release from
+C-fibers) and provides a direct, stimulus-activated mast cell degranulation pathway that can
+be triggered without neuronal firing.
+
 // =============================================================================
 // PART C: SYSTEMS-LEVEL SYMPTOM MECHANISMS
 // =============================================================================
@@ -399,7 +412,7 @@ Substance P and calcitonin gene-related peptide (CGRP) released from primary aff
 A subset of ME/CFS patients report deep, burning, or lancinating pain along nerve trunks—distinct from the diffuse aching of central sensitization and from the distal burning of small fiber neuropathy. This pattern suggests pathology at the level of the nerve sheath itself, where Schwann cells, endoneurial vasculature, and local immune cells create a microenvironment vulnerable to several converging ME/CFS mechanisms.
 
 *Schwann Cell Activation as Nociceptive Amplifier.*
-Schwann cells are not passive insulators. They express TRPA1 channels that, when activated by reactive oxygen species (ROS) or CGRP, trigger the release of pro-algesic mediators including prostaglandins, cytokines, and additional CGRP, sustaining neurogenic inflammation independently of direct axonal injury. In ME/CFS, the combination of elevated systemic ROS (Section @sec:ch15-oxidative-stress) and circulating pro-inflammatory cytokines creates conditions for chronic Schwann cell activation along nerve trunks. The resulting neurogenic inflammation produces pain that is localized to nerve distribution but does not require demyelination or axonal degeneration.
+Schwann cells are not passive insulators. They express TRPA1 channels that, when activated by reactive oxygen species (ROS) or CGRP, trigger the release of pro-algesic mediators including prostaglandins, cytokines, and additional CGRP, sustaining neurogenic inflammation independently of direct axonal injury @Macpherson2007. In ME/CFS, the combination of elevated systemic ROS (Section @sec:ch15-oxidative-stress) and circulating pro-inflammatory cytokines creates conditions for chronic Schwann cell activation along nerve trunks. The resulting neurogenic inflammation produces pain that is localized to nerve distribution but does not require demyelination or axonal degeneration.
 
 *Endoneurial Hypoxia and Metabolic Stress.*
 The endoneurium—the connective tissue layer immediately surrounding individual nerve fibers—is supplied by vasa nervorum, small blood vessels vulnerable to the endothelial dysfunction documented in ME/CFS @heng2025mecfs. Microvascular impairment reduces oxygen delivery to the metabolically active Schwann cells and axons within the nerve sheath. Nerve fibers have exceptionally high energy demands: maintaining resting membrane potential, sodium-potassium pump activity, and axonal transport all require substantial ATP. When endoneurial oxygen supply falls below demand, local ischemia activates acid-sensing ion channels (ASICs) on nerve fibers, producing aching pain along nerve trunks, and hypoxia-inducible factor (HIF-1$alpha$) upregulation in Schwann cells further promotes pro-inflammatory signaling.
@@ -408,7 +421,7 @@ The endoneurium—the connective tissue layer immediately surrounding individual
 Autoantibodies against neuronal and glial antigens have been identified in ME/CFS subsets @Oaklander2016autoimmuneSFN. In autoimmune small fiber neuropathy, antibodies target components of the nerve sheath including gangliosides, sodium channels, and contactin-associated proteins. Complement fixation at the node of Ranvier disrupts saltatory conduction and recruits inflammatory cells to the endoneurium, creating focal painful neuropathy. The 30–38% prevalence of biopsy-confirmed SFN in ME/CFS @Oaklander2022SFN likely underestimates nerve sheath involvement, because standard IENFD measurement captures only the most distal epidermal fibers and misses proximal nerve trunk pathology.
 
 *Mast Cell Enrichment of the Perineurium.*
-Mast cells are concentrated in the perineurium (the connective tissue sheath surrounding nerve fascicles) and epineurium of peripheral nerves. In the context of mast cell activation syndrome (MCAS), which overlaps with ME/CFS (Section @sec:ch15-mast-cells), perineurial mast cell degranulation releases histamine, tryptase, and nerve growth factor (NGF) directly into the nerve sheath microenvironment. NGF sensitizes nociceptive fibers by upregulating TRPV1 expression, while tryptase activates proteinase-activated receptor 2 (PAR2) on Schwann cells and sensory neurons, lowering pain thresholds. This mechanism explains why nerve trunk tenderness can fluctuate with mast cell activation episodes.
+Mast cells are concentrated in the perineurium (the connective tissue sheath surrounding nerve fascicles) and epineurium of peripheral nerves. In the context of mast cell activation syndrome (MCAS), which overlaps with ME/CFS (Section @sec:ch15-mast-cells), perineurial mast cell degranulation releases histamine, tryptase, and nerve growth factor (NGF) directly into the nerve sheath microenvironment. NGF sensitizes nociceptive fibers by upregulating TRPV1 expression @Moriyama2005, while tryptase activates proteinase-activated receptor 2 (PAR2) on Schwann cells and sensory neurons, lowering pain thresholds. This mechanism explains why nerve trunk tenderness can fluctuate with mast cell activation episodes.
 
 #hypothesis(title: [Convergent Nerve Sheath Vulnerability in ME/CFS])[
 Nerve sheaths represent a site of convergent pathology in ME/CFS, where four disease mechanisms—oxidative Schwann cell activation, endoneurial hypoxia from microvascular dysfunction, autoimmune targeting of nerve sheath antigens, and perineurial mast cell degranulation—simultaneously lower pain thresholds and sustain neurogenic inflammation. This convergence predicts that nerve trunk pain in ME/CFS should correlate with composite biomarkers of oxidative stress, endothelial dysfunction, autoantibody burden, and mast cell activation, rather than with any single marker. (Certainty: Low-Medium; individual mechanisms are supported by evidence from other conditions; convergence in ME/CFS specifically is not yet empirically demonstrated.)
@@ -427,7 +440,7 @@ In ME/CFS, mitochondrial ATP synthesis impairment (Chapter @ch:energy-metabolis
 
   - *Acid-sensing ion channels (ASICs):* ASIC3, expressed on muscle afferents, responds to the combination of low pH, elevated lactate, and elevated ATP that characterizes ischemic muscle metabolism. Importantly, ASIC3 responds to the _combination_ of these signals rather than any one alone, functioning as an integrative metabolic danger sensor @Nijs2012painCFS. Post-exercise ASIC3 gene expression is significantly upregulated in ME/CFS patients and persists for 48h, correlating with pain severity.
   - *Purinergic P2X receptors:* Extracellular ATP released from metabolically stressed muscle fibers activates P2X3 receptors on muscle afferents, producing deep aching pain. In ME/CFS, where ATP metabolism is disturbed, resting extracellular ATP may be chronically elevated.
-  - *TRPV1 (vanilloid receptors):* Proton accumulation and elevated temperature in metabolically active muscle sensitize TRPV1 on muscle nociceptors, lowering pain thresholds for mechanical and thermal stimulation.
+  - *TRPV1 (vanilloid receptors):* Proton accumulation and elevated temperature in metabolically active muscle sensitize TRPV1 on muscle nociceptors, lowering pain thresholds for mechanical and thermal stimulation @Moriyama2005.
 
 *Fascial and Connective Tissue Innervation.*
 The thoracolumbar fascia, intramuscular septa, and periosteum are richly innervated by C-fiber and A-delta nociceptors and contain substantial mast cell populations. In hypermobile Ehlers–Danlos syndrome (hEDS)—overrepresented among ME/CFS patients—connective tissue laxity produces microtrauma at fascial attachment sites during normal movement, generating nociceptive input that would not occur with normal tissue resilience. Even in non-hEDS ME/CFS patients, deconditioning-related changes in fascial stiffness and hydration may alter the mechanical environment of fascial nociceptors.
@@ -467,7 +480,36 @@ Empirical support for oxidative stress as a disease mechanism in ME/CFS comes fr
 
 === TRP Channel Sensitization by ROS
 
-Reactive oxygen species activate transient receptor potential channels directly: TRPV1 (vanilloid 1, the capsaicin receptor) and TRPA1 (ankyrin 1, activated by oxidant products such as 4-hydroxynonenal and acrolein) function as cellular danger sensors, translating oxidative stress into nociceptive signaling. In the context of neurogenic inflammation, CGRP-driven TRPA1 activation in Schwann cells sustains mechanical allodynia independently of direct neuronal injury, providing a peripheral amplification loop for central sensitization.
+Reactive oxygen species activate transient receptor potential channels directly: TRPV1 (vanilloid 1, the capsaicin receptor) and TRPA1 (ankyrin 1, activated by oxidant products such as 4-hydroxynonenal and acrolein) function as cellular danger sensors, translating oxidative stress into nociceptive signaling @Macpherson2007. In the context of neurogenic inflammation, CGRP-driven TRPA1 activation in Schwann cells sustains mechanical allodynia independently of direct neuronal injury, providing a peripheral amplification loop for central sensitization.
+
+TRPV1 activation is self-amplifying: stimulation upregulates COX2 (cyclooxygenase-2)
+in primary sensory neurons within approximately 30 minutes, generating prostaglandins that
+re-sensitize TRPV1 via EP1 and IP G-protein-coupled receptors @Li2021 @Moriyama2005. This
+feed-forward loop means that a single triggering event --- heat, acidosis, a capsaicin-like
+food compound, or an ROS burst during exertion --- can establish a sustained sensitized state
+lasting hours, even after the initial trigger is removed. In ME/CFS, where prostaglandin
+production is chronically elevated and ROS clearance is impaired, this loop may operate
+constitutively, maintaining continuous low-grade TRPV1-driven nociceptor activation without
+requiring repeated external triggers.
+
+Similarly, TRPA1 serves as a molecular sensor for oxidative tissue damage: it is activated
+by direct covalent modification of reactive cytosolic cysteine residues by H$_2$O$_2$,
+acrolein, 4-hydroxynonenal, and other electrophilic oxidative stress metabolites @Macpherson2007.
+In ME/CFS, where systemic oxidative stress is well-documented @Shungu2012glutathione,
+chronically elevated ROS would provide continuous TRPA1-activating stimuli on sensory neurons
+and Schwann cells, sustaining neurogenic inflammation independently of mechanical or thermal
+triggers.
+
+Multiple chemical sensitivity (MCS) co-occurs with ME/CFS at elevated rates. One mechanistic
+model proposes that MCS in ME/CFS reflects sensitization of TRPV1 and TRPA1 by prior
+inflammation or oxidative stress, lowering their activation thresholds below ordinary chemical
+concentrations @Molot2023. TRPA1 is the primary sensor for fragrances, allyl
+isothiocyanate-containing compounds, and volatile organic chemicals; TRPV1 responds to
+capsaicin-like molecules and thermal/acid stimuli. In ME/CFS, chronic elevated ROS and
+prostaglandin production could provide the sensitizing milieu. Competing models for MCS include
+limbic/olfactory kindling, toxicant-induced loss of tolerance (TILT), and central olfactory
+sensitization; none of these models are mutually exclusive with TRP sensitization, and the
+mechanistic picture remains incompletely resolved.
 
 === Antioxidant Strategies
 
@@ -513,6 +555,21 @@ Post-exertional malaise arises through a multi-step metabolic danger signal casc
 === Why Graded Exercise Therapy Is Contraindicated
 
 Standard graded exercise therapy (GET) assumes deconditioning as the primary mechanism of exercise intolerance and prescribes progressive load increases. The metabolic danger signal model predicts the opposite: even modest exercise above the impaired ventilatory threshold on Day 1 produces supra-threshold ASIC3/NLRP3 activation on Day 2, exacerbating metabolic stress rather than resolving it. The consistent finding of objectively reduced Day 2 ventilatory threshold in 2-day CPET studies demonstrates that this threshold is physiologically (not psychologically) impaired @keller2024cpet @VanCampen2020SeverityCPET, and that progressive exercise at conventional doses worsens physiological capacity. This constitutes physiological contraindication to GET as currently prescribed.
+
+=== Erythrocyte Deformability and Microcirculatory Oxygen Delivery
+
+Microvascular oxygen delivery impairment in ME/CFS extends to red blood cell rheology.
+Saha et al.\ documented reduced RBC deformability in ME/CFS patients using ektacytometry
+@Saha2019 (a preliminary communication pending independent replication), consistent with
+possible dysregulation of the mechanosensitive Piezo1 channel, which regulates RBC volume via
+KCa3.1 (Gardos) channel calcium influx @Cahalan2015. Alternative mechanisms for RBC stiffness
+include oxidative lipid peroxidation of the membrane and cytoskeletal spectrin defects.
+Stiffened RBCs cannot efficiently traverse capillaries of 3--5~µm diameter, reducing oxygen
+delivery to tissues even when hemoglobin and cardiac output are preserved --- a mechanism that
+would amplify the exercise intolerance from mitochondrial and cardiovascular dysfunction. In
+capillaries under increased flow demands during exertion, stiffened RBCs may effectively block
+transit, creating transient focal ischemia that could contribute to explaining why symptoms can
+onset mid-activity before any metabolic threshold is reached.
 
 == Endocannabinoid Deficiency and Mast Cell Brake Failure
 <sec:ch15-endocannabinoid>

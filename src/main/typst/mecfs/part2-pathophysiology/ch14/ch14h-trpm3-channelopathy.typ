@@ -291,6 +291,190 @@ The TRPM3 findings may help define ME/CFS subgroups:
 
 This parallels the evolution of cancer treatment—from “breast cancer” to “HER2-positive breast cancer” with targeted therapy. ME/CFS may similarly fragment into molecular subtypes with tailored treatments.
 
+=== The Expanded TRP Channel Sensitization Hypothesis
+
+#speculation(title: [Beyond TRPM3: A Broader TRP Channelopathy in ME/CFS?])[
+TRPM3 dysfunction has been replicated in independent cohorts in ME/CFS @Cabanas2021trpm3 @Sasso2026trpm3. TRPM3 belongs
+to the TRP superfamily alongside TRPV1 (vanilloid 1) and TRPA1 (ankyrin 1), which are
+co-expressed in sensory neurons, mast cells, and Schwann cells. TRPV1 is described as a
+"molecular integrator of noxious stimuli" based on its polymodal activation properties: it responds to heat
+>43°C, capsaicin, protons (pH<6), and prostaglandins, and is sensitized by PGE$_2$ via EP1
+and IP receptors @Moriyama2005. TRPA1 functions as an oxidative stress sensor, activated by
+H$_2$O$_2$, acrolein, and electrophilic tissue damage metabolites through covalent
+modification of reactive cytosolic cysteines @Macpherson2007.
+
+*Proposed mechanism:*
+
+    - In ME/CFS, elevated systemic ROS and chronic prostaglandin production sensitize both
+      TRPV1 and TRPA1 on sensory neurons and mast cells
+    - Sensitized TRPV1 creates a feed-forward loop: activation upregulates COX2 in sensory
+      neurons, generating more prostaglandins, which re-sensitize TRPV1 @Li2021
+    - Sensitized TRPA1 on Schwann cells sustains neurogenic inflammation independently of
+      axonal injury
+    - TRPV1-mast cell axis: capsaicin-induced activation of TRPV1 on dural mast cells
+      triggers degranulation via non-IgE neurogenic pathway in rodent models @Souza2024;
+      whether this mechanism operates in human peripheral sensory mast cells is not yet
+      directly demonstrated
+    - Multiple chemical sensitivity (MCS) in ME/CFS patients may represent TRP
+      sensitization reducing activation threshold to sub-ordinary chemical concentrations
+      @Molot2023
+
+Whether TRPV1 and TRPA1 dysfunction co-occurs with TRPM3 dysfunction in ME/CFS is not yet
+tested. However, shared expression patterns in sensory neurons and the common oxidative
+stress milieu of ME/CFS provide a plausible mechanism for concurrent multi-TRP-channel
+sensitization.
+
+*Testable predictions.*
+
+    - ME/CFS patients with MCS features should show lower capsaicin-induced flare
+      thresholds than ME/CFS patients without chemical sensitivity (TRPV1 sensitization)
+    - TRPA1 activation threshold (measured by allyl isothiocyanate/mustard challenge) should
+      be reduced in ME/CFS patients with elevated oxidative stress markers
+    - NK cells from ME/CFS patients (already showing TRPM3 dysfunction) should also show
+      altered TRPV1/TRPA1 gating properties
+    - ME/CFS patients with elevated pain/MCS features treated with TRPV1 antagonists should
+      show reduced capsaicin-evoked flare responses (objective TRPV1 sensitization endpoint),
+      not merely self-reported symptom improvement
+
+(Certainty: 0.40. TRPM3 dysfunction is replicated; TRPV1/TRPA1 co-sensitization in ME/CFS
+is mechanistically plausible but not yet directly tested. Not yet replicated in ME/CFS.)
+] <spec:ch14h-trp-expanded>
+
+=== TRP-Targeted Therapeutic Approaches: Ambroxol as TRPV1 Antagonist
+
+#speculation(title: [Ambroxol as a Repurposed TRP Channel Modulator in ME/CFS])[
+Ambroxol is an OTC mucolytic (active metabolite of bromhexine) with two distinct analgesic
+mechanisms identified in preclinical and electrophysiological studies: preferential block of
+Nav1.8 voltage-gated sodium channels in nociceptors @Gaida2005Ambroxol, and direct inhibition
+of TRPV1-mediated calcium influx demonstrated by patch-clamp electrophysiology on human TRPV1
+channels @Hefner2025AmbroxolTRPV1.
+
+*Mechanistic rationale for ME/CFS:*
+
+    - If TRPV1 sensitization contributes to ME/CFS pain and chemical hypersensitivity
+      (as proposed above @hyp:ch14h-trp-expanded), ambroxol's TRPV1 antagonism could
+      theoretically reduce sensitization-driven nociceptor activation
+    - Nav1.8 block would additionally reduce action potential firing in small-diameter
+      pain-sensing fibers independently of upstream sensitization
+    - Ambroxol also modulates TRPA1 at higher concentrations @Hefner2025AmbroxolTRPV1,
+      potentially addressing oxidative-stress-driven TRPA1 activation
+
+*Available evidence:*
+
+    - Preclinical: Effective in rat neuropathic and inflammatory pain models; exceeds
+      gabapentin efficacy at clinically achievable doses @Gaida2005Ambroxol
+    - Electrophysiology (2025): hTRPV1 antagonism reported by patch-clamp (partly reversible;
+      single lab, not independently replicated); study context is topical neuropathic pain ---
+      tissue concentrations with topical application are far higher than systemic oral plasma
+      levels @Hefner2025AmbroxolTRPV1
+    - Clinical: Case series report pain reduction in trigeminal neuralgia, fibromyalgia,
+      and CRPS at 75--300 mg/day; no serious adverse effects @Russo2023Ambroxol
+    - No clinical trials in ME/CFS or post-exertional neuropathic pain
+
+*Translational caveats:*
+
+    - Nav1.8 species-specificity: rat IC#sub[50] 18 µM vs human IC#sub[50] 279 µM;
+      rodent efficacy data may overestimate human analgesic effect via Nav1.8 block alone
+      @Hefner2025AmbroxolTRPV1
+    - TRPV1 antagonism is shown on human channels but optimal systemic concentrations
+      for ME/CFS pain are not established
+    - All clinical data are case series or small uncontrolled studies; no RCTs in any
+      neuropathic pain indication as of the 2023 review @Russo2023Ambroxol
+
+*Testable prediction:*
+
+    - ME/CFS patients with elevated pain and MCS features should show measurable pain
+      reduction with oral ambroxol 75--150 mg/day; effect should correlate with
+      capsaicin flare-threshold improvement (TRPV1 endpoint)
+
+(Certainty: 0.35. Mechanism established in general pain pharmacology; ME/CFS-specific
+application is entirely extrapolated. Not yet replicated in ME/CFS.)
+] <spec:ch14h-ambroxol-trp>
+
+=== The Piezo1-RBC Microcirculation Hypothesis
+
+#speculation(title: [Piezo1 Dysregulation as a Mechanism for RBC Stiffness in ME/CFS])[
+A brief communication by Saha et al.\ documented reduced RBC deformability in ME/CFS
+patients using ektacytometry @Saha2019, though the study is a short report and the finding
+awaits independent replication. Stiffened RBCs cannot traverse capillaries of diameter
+3--5~µm efficiently, impairing oxygen delivery to tissues even when hemoglobin concentration
+is normal. The mechanistic basis for this finding may involve Piezo1, though competing
+mechanisms include oxidative membrane lipid peroxidation, ATP depletion, and spectrin/
+cytoskeletal protein defects.
+
+Piezo1 is the mechanically-activated cation channel that governs RBC volume homeostasis:
+calcium influx through Piezo1 activates the KCa3.1 (Gardos) channel, causing K$^+$ efflux
+and controlled cell dehydration @Cahalan2015. In healthy RBCs, Piezo1 maintains the
+optimal water content and biconcave shape required for capillary transit. Gain-of-function
+Piezo1 variants (hereditary xerocytosis) produce dehydrated, stiff RBCs---the same
+phenotype documented in ME/CFS by Saha et al. (pending independent replication).
+
+*Proposed mechanism:*
+
+    - Chronic oxidative stress and elevated cytokines in ME/CFS may alter Piezo1 function
+      in RBCs (overactivation $arrow.r$ dehydration $arrow.r$ stiffness, or dysregulation of Gardos
+      channel coupling $arrow.r$ impaired volume regulation)
+    - Stiffened RBCs impair capillary transit, reducing tissue oxygen delivery
+    - Reduced oxygen delivery amplifies the energy deficit even without intrinsic
+      mitochondrial dysfunction
+    - The RBC stiffness could explain why exercise quickly depletes oxygen delivery
+      capacity in ME/CFS: stiffened RBCs block capillaries under the increased flow
+      demands of exertion
+
+This hypothesis is currently untested: no ME/CFS study has directly measured Piezo1
+function or expression in patient RBCs.
+
+*Testable predictions.*
+
+    - ME/CFS patient RBCs should show altered Piezo1 gating properties (patch clamp) or
+      expression compared to healthy controls
+    - Gardos channel (KCa3.1) activity should be abnormal in ME/CFS RBCs
+    - Severity of RBC deformability reduction should correlate with exercise intolerance
+      severity (e.g., 2-day CPET VO$_2$max)
+    - _In vitro_ correction of Piezo1/KCa3.1 activity (GsMTx4 Piezo inhibitor or Gardos
+      channel modulator) should partially restore RBC deformability
+
+(Certainty: 0.35. Reduced RBC deformability in ME/CFS is from a single unreplicated brief
+communication; Piezo1 as the mechanism is untested and competing mechanisms exist. Not yet
+replicated in ME/CFS.)
+] <spec:ch14h-piezo1-rbc>
+
+=== Piezo2, Proprioception, and Mechanical Allodynia
+
+#speculation(title: [Piezo2 and Tactile Hypersensitivity in ME/CFS])[
+Piezo2 is the primary mechanotransducer for light touch, vibration, and proprioception.
+The relevance to ME/CFS rests on two distinct lines of evidence from human genetics:
+
+First, gain-of-function PIEZO2 variants produce a syndrome (Piezo2-CRAMPED) characterized
+by hypermobility, tactile allodynia, scoliosis, and proprioceptive disruption @Szczot2018 ---
+features that closely overlap with the hypermobile Ehlers-Danlos syndrome (hEDS) phenotype
+overrepresented in ME/CFS. This suggests that heightened Piezo2 mechanosensitivity (rather
+than reduced) is the relevant direction for allodynia.
+
+Second, Piezo2 is required for normal proprioceptive encoding: loss-of-function mutations
+cause profound proprioceptive ataxia, confirming its essential role in body position sense.
+
+These two lines of evidence are mechanistically in opposite directions and do not both
+predict the same disease phenotype in ME/CFS. The allodynia-relevant model (Piezo2 GoF or
+sensitization) would predict heightened mechanical sensitivity, not proprioceptive loss.
+Whether chronic neuroinflammation or oxidative stress shifts Piezo2 activation thresholds
+in either direction in ME/CFS sensory neurons is entirely unknown.
+
+*Testable predictions.*
+
+    - ME/CFS patients with allodynia should show reduced mechanical pain thresholds on
+      Piezo2-dependent sensory modalities (light touch, vibration) relative to other
+      pain thresholds
+    - Proprioceptive accuracy tests (joint position sense, balance without visual input)
+      should be disproportionately impaired in ME/CFS patients with hEDS features
+    - Piezo2 expression and function in sensory neurons from ME/CFS patients should be
+      measurable via skin punch biopsy and primary afferent culture
+
+(Certainty: 0.35. Piezo2 role in allodynia is established in gain-of-function syndromes;
+application to ME/CFS neuroinflammation-driven sensitization is speculative and untested.
+Not yet studied in ME/CFS.)
+] <spec:ch14h-piezo2-allodynia>
+
 === Updated Testable Predictions from TRPM3 Research
 
     - *Multi-tissue TRPM3 dysfunction*: If systemic, TRPM3 impairment should be detectable in immune cells, sensory neurons, and other accessible cell types
