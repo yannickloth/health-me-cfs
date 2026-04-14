@@ -1,7 +1,5 @@
 # LaTeX Conventions
 
-Rules for consistent LaTeX formatting in this project.
-
 ## File Organization
 
 ```
@@ -20,22 +18,29 @@ project/
 ## Formatting Standards
 
 ### Spacing
-- One sentence per line (for better diffs)
+- One sentence per line (better diffs)
 - Blank line between paragraphs
 - No trailing whitespace
-- Consistent indentation (2 spaces) inside environments
+- 2-space indentation inside environments
 
 ### Math
-- Display math for important equations: `\begin{equation}...\end{equation}`
-- Inline math for brief expressions: `$...$`
-- Use `\label{eq:name}` for referenced equations
-- Consistent notation throughout document
+
+| Use case | Syntax |
+| --- | --- |
+| Important equations | `\begin{equation}...\end{equation}` |
+| Brief inline expressions | `$...$` |
+| Referenced equations | `\label{eq:name}` |
+
+Consistent notation throughout.
 
 ### References
-- `\ref{sec:name}` for sections
-- `\eqref{eq:name}` for equations (includes parentheses)
-- `\cite{key}` for citations
-- Non-breaking space before: `Section~\ref{sec:foo}`
+
+| Target | Syntax |
+| --- | --- |
+| Sections | `\ref{sec:name}` |
+| Equations | `\eqref{eq:name}` (includes parentheses) |
+| Citations | `\cite{key}` |
+| Non-breaking space | `Section~\ref{sec:foo}` |
 
 ### Environments
 
@@ -76,18 +81,20 @@ Sample size limited to 42 participants from a single center.
 
 ### Environment Selection Guidelines
 
-1. **Check template first:** Before creating custom environments, consult [template-environments.md](template-environments.md)
-2. **Use template-advisor:** Run `template-advisor` agent when unsure
-3. **Standard math:** Use `theorem`, `lemma`, `definition`, `example`
-4. **Scientific claims:** Use `hypothesis`, `achievement`, `prediction`, `warning`, etc.
-5. **Project-specific only when necessary:** ME/CFS-specific diagnostic criteria, custom scales
+1. Check template first → [template-environments.md](template-environments.md)
+2. Unsure? → run `template-advisor` agent
+3. Standard math → `theorem`, `lemma`, `definition`, `example`
+4. Scientific claims → `hypothesis`, `achievement`, `prediction`, `warning`, etc.
+5. Project-specific only when necessary (ME/CFS diagnostic criteria, custom scales)
 
 ### Available Template Categories
 
-- **Standard Math:** theorem, lemma, corollary, proposition, definition, example, remark
-- **IVP/Design:** principle, directive, pattern, construction, observation
-- **Scientific Claims:** achievement, prediction, hypothesis, axiom, warning, requirement, open_question
-- **Structure:** chapterabstract, roadmap, conclusion, derivation
+| Category | Environments |
+| --- | --- |
+| Standard Math | theorem, lemma, corollary, proposition, definition, example, remark |
+| IVP/Design | principle, directive, pattern, construction, observation |
+| Scientific Claims | achievement, prediction, hypothesis, axiom, warning, requirement, open_question |
+| Structure | chapterabstract, roadmap, conclusion, derivation |
 
 ## Anti-Patterns
 
@@ -119,7 +126,7 @@ as shown in Figure~\ref{fig:example}
 
 ## Build Hygiene
 
-- Document must build with zero errors
-- Warnings should be addressed or explicitly accepted
-- Overfull boxes should be fixed
+- Zero errors required
+- Address warnings or explicitly accept them
+- Fix overfull boxes
 - No undefined references

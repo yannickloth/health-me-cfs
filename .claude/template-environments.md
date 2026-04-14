@@ -1,31 +1,23 @@
 # Template Environments Quick Reference
 
-Quick guide to theorem-like environments available in [infolead-latex-templates](../infolead-latex-templates/).
+Theorem-like environments in [infolead-latex-templates](../infolead-latex-templates/).
 
-## When to Use This Guide
+**Use when:** creating new env | choosing between similar | checking visual styles | maintaining consistency.
 
-- Before creating a new custom environment
-- When choosing between similar environments
-- To understand available visual styles
-- To maintain consistency with template conventions
+## 1. Standard Math Environments
 
-## Environment Categories
+`\newtheorem`-defined, simple styling, chapter-numbered.
 
-### 1. Standard Mathematical Environments
-
-Defined with `\newtheorem`, simple styling, chapter-numbered.
-
-| Environment | Purpose | Style | Counter |
-|-------------|---------|-------|---------|
+| Env | Purpose | Style | Counter |
+|---|---|---|---|
 | `theorem` | Mathematical theorems | Plain (italic) | `chapter.X` |
-| `lemma` | Supporting results | Plain (italic) | Shares with theorem |
-| `corollary` | Direct consequences | Plain (italic) | Shares with theorem |
-| `proposition` | Propositions | Plain (italic) | Shares with theorem |
+| `lemma` | Supporting results | Plain (italic) | shares w/ theorem |
+| `corollary` | Direct consequences | Plain (italic) | shares w/ theorem |
+| `proposition` | Propositions | Plain (italic) | shares w/ theorem |
 | `definition` | Formal definitions | Definition (upright) | `chapter.X` |
 | `example` | Examples | Definition (upright) | `chapter.X` |
-| `remark` | Remarks and notes | Remark | Unnumbered |
+| `remark` | Remarks/notes | Remark | unnumbered |
 
-**Usage:**
 ```latex
 \begin{theorem}[Optional Name]
 \label{thm:mytheorem}
@@ -37,24 +29,23 @@ Proof content.
 \end{proof}
 ```
 
-### 2. Design and Methodological Environments
+## 2. Design / Methodological Environments
 
-For theoretical frameworks, architectural decisions, and methodological structures.
+Theoretical frameworks, architectural decisions, methodological structures. All globally numbered.
 
-| Environment | Purpose | Global Numbering |
-|-------------|---------|------------------|
-| `principle` | Fundamental principles or axioms | Yes |
-| `directive` | Guidelines or directives | Yes |
-| `problem` | Problem statements | Yes |
-| `pattern` | Patterns or recurring structures | Yes |
-| `design-decision` | Explicit design decisions | Yes |
-| `fallacy` | Common misconceptions | Yes |
-| `observation` | Empirical observations | Yes |
-| `instantiation` | Concrete examples of abstract concepts | Yes |
-| `construction` | Algorithms, processes, systematic methods | Yes |
-| `speculation` | Speculative hypotheses | Yes |
+| Env | Purpose |
+|---|---|
+| `principle` | Fundamental principles/axioms |
+| `directive` | Guidelines/directives |
+| `problem` | Problem statements |
+| `pattern` | Recurring structures |
+| `design-decision` | Explicit design decisions |
+| `fallacy` | Common misconceptions |
+| `observation` | Empirical observations |
+| `instantiation` | Concrete examples of abstract concepts |
+| `construction` | Algorithms/processes/systematic methods |
+| `speculation` | Speculative hypotheses |
 
-**Usage:**
 ```latex
 \begin{principle}[Conservation of Energy]
 \label{prin:energy}
@@ -67,41 +58,40 @@ ME/CFS symptoms tend to cluster into distinct phenotypic groups.
 \end{pattern}
 ```
 
-### 3. Scientific Claim Environments (Enhanced tcolorbox)
+## 3. Scientific Claim Environments (tcolorbox)
 
-Visually distinctive boxes for different epistemic statuses. All have chapter-based numbering.
+Visually distinct boxes per epistemic status. Chapter-numbered.
 
-#### Research Results
+**Research results:**
 
-| Environment | Visual Style | Purpose | When to Use |
-|-------------|-------------|---------|-------------|
-| `achievement` | Double border, star icon | Novel breakthroughs | Original findings unique to your work |
-| `prediction` | Dashed border, arrow | Testable predictions | Future-oriented, falsifiable claims |
-| `postdiction` | Solid border, checkmark | Matches known data | Results that fit existing experimental data |
+| Env | Visual | When to use |
+|---|---|---|
+| `achievement` | Double border, star | Original findings unique to your work |
+| `prediction` | Dashed border, arrow | Future-oriented, falsifiable claims |
+| `postdiction` | Solid border, checkmark | Results fitting existing experimental data |
 
-#### Foundational Claims
+**Foundational claims:**
 
-| Environment | Visual Style | Purpose | When to Use |
-|-------------|-------------|---------|-------------|
-| `axiom` | Thick double border | Foundational statements | Basic assumptions taken as given |
-| `hypothesis` | Dash-dot border | Unproven assumptions | Working hypotheses requiring validation |
-| `assumption` | Left+right bars | Working assumptions | Conditional premises |
+| Env | Visual | When to use |
+|---|---|---|
+| `axiom` | Thick double border | Basic assumptions taken as given |
+| `hypothesis` | Dash-dot border | Working hypotheses requiring validation |
+| `assumption` | Left+right bars | Conditional premises |
 
-#### Verification and Requirements
+**Verification / requirements:**
 
-| Environment | Visual Style | Purpose | When to Use |
-|-------------|-------------|---------|-------------|
-| `requirement` | Corner brackets | Necessary conditions | Mandatory criteria or constraints |
-| `consistency_check` | Simple box | Verification | Confirms theory reproduces known physics |
+| Env | Visual | When to use |
+|---|---|---|
+| `requirement` | Corner brackets | Mandatory criteria/constraints |
+| `consistency_check` | Simple box | Confirms theory reproduces known physics |
 
-#### Questions and Caveats
+**Questions / caveats:**
 
-| Environment | Visual Style | Purpose | When to Use |
-|-------------|-------------|---------|-------------|
-| `open_question` | Dotted border | Unresolved problems | Future research directions |
-| `warning` | Left bar, triangle | Limitations | Caveats, scope boundaries, known issues |
+| Env | Visual | When to use |
+|---|---|---|
+| `open_question` | Dotted border | Future research directions |
+| `warning` | Left bar, triangle | Caveats, scope boundaries, known issues |
 
-**Usage with optional title:**
 ```latex
 \begin{achievement}[Biomarker Discovery]
 \label{ach:biomarker}
@@ -118,22 +108,21 @@ This study included only 42 participants, limiting generalizability.
 \end{warning}
 ```
 
-**Unnumbered variants:** Add `*` after environment name:
+**Unnumbered variants:** append `*` to env name.
 ```latex
 \begin{achievement*}[Optional Title]
 Content for unnumbered box (useful in appendices).
 \end{achievement*}
 ```
 
-### 4. Derivation and Calculation Environments
+## 4. Derivation / Calculation Environments
 
-| Environment | Purpose | Numbering |
-|-------------|---------|-----------|
+| Env | Purpose | Numbering |
+|---|---|---|
 | `derivation` | Mathematical derivations | `chapter.X` |
 | `calculation` | Numerical calculations | `chapter.X` |
-| `step` | Individual proof/derivation steps | Sequential |
+| `step` | Individual proof/derivation steps | sequential |
 
-**Usage:**
 ```latex
 \begin{derivation}[Energy Balance]
 \label{der:energy}
@@ -145,16 +134,15 @@ Starting from conservation of energy:
 \end{derivation}
 ```
 
-### 5. Document Structure Environments
+## 5. Document Structure Environments
 
-| Environment | Purpose |
-|-------------|---------|
+| Env | Purpose |
+|---|---|
 | `chapterabstract` | Chapter-level summaries (not document abstract) |
 | `roadmap` | Chapter structure outline (tcolorbox) |
 | `conclusion` | Chapter/section conclusions |
-| `\qa{question}` | Q&A sections (use `\setcounter{qacounter}{0}` per chapter) |
+| `\qa{question}` | Q&A sections; reset via `\setcounter{qacounter}{0}` per chapter |
 
-**Usage:**
 ```latex
 \begin{chapterabstract}
 This chapter examines the core symptoms of ME/CFS, including...
@@ -168,99 +156,66 @@ We first introduce diagnostic criteria (\S\ref{sec:diagnosis}), then...
 Post-exertional malaise involves a delayed worsening...
 ```
 
-## Visual Styling Guide
+## Visual Styling
 
-All scientific claim environments use:
-- **Subtle semantic colors** (defined in `colors.tex`)
-- **Distinct border patterns** (visible in B&W printing)
-- **Icons** for quick visual identification
-- **Breakable boxes** (can span pages if needed)
-- **Boxed titles** (attached to top-left)
+Scientific claim envs: subtle semantic colors (`colors.tex`) | distinct B&W-visible borders | icons | breakable boxes | boxed top-left titles.
 
-Color schemes are defined in `infolead-latex-templates/colors.tex`:
-- Viridis-inspired palette (perceptually uniform)
-- Inferno/magma colors for warnings/requirements
-- All have light backgrounds with darker frames
-- Designed for both screen and print
+Color schemes (`infolead-latex-templates/colors.tex`): viridis palette (perceptually uniform); inferno/magma for warnings/requirements; light backgrounds + darker frames; screen + print.
 
-## Decision Tree
+## Selection Decision Table
 
-```
-Do you need a boxed environment?
-├─ NO → Use standard environments (theorem, definition, remark)
-│
-└─ YES → Is it a scientific claim with epistemic status?
-    ├─ NO → Is it methodological/theoretical?
-    │   ├─ YES → Use design environments (principle, pattern, construction, etc.)
-    │   └─ NO → Create project-specific or use roadmap/chapterabstract
-    │
-    └─ YES → Choose by epistemic status:
-        ├─ Novel result? → achievement
-        ├─ Future test? → prediction
-        ├─ Fits existing data? → postdiction
-        ├─ Unproven claim? → hypothesis
-        ├─ Foundational? → axiom
-        ├─ Working assumption? → assumption
-        ├─ Necessary condition? → requirement
-        ├─ Verification? → consistency_check
-        ├─ Unsolved problem? → open_question
-        └─ Caveat/limitation? → warning
-```
+| Question | → Path |
+|---|---|
+| Need boxed env? | NO → standard (`theorem`/`definition`/`remark`); YES → next |
+| Scientific claim w/ epistemic status? | NO → next; YES → epistemic table below |
+| Methodological/theoretical? | YES → design envs (`principle`, `pattern`, `construction`, ...); NO → project-specific or `roadmap`/`chapterabstract` |
 
-## Medical Writing Recommendations
+**Epistemic-status selection (when boxed scientific claim):**
 
-### For ME/CFS Documentation
+| Claim type | → Env |
+|---|---|
+| Novel result | `achievement` |
+| Future test | `prediction` |
+| Fits existing data | `postdiction` |
+| Unproven claim | `hypothesis` |
+| Foundational | `axiom` |
+| Working assumption | `assumption` |
+| Necessary condition | `requirement` |
+| Verification | `consistency_check` |
+| Unsolved problem | `open_question` |
+| Caveat/limitation | `warning` |
 
-| Content Type | Recommended Environment | Example |
-|--------------|------------------------|---------|
-| Diagnostic criteria | `definition` or `requirement` | ICC-2011 criteria |
-| Biomarker findings | `achievement` or `observation` | Novel metabolite discoveries |
+## Medical Writing (ME/CFS) Recommendations
+
+| Content type | → Env | Example |
+|---|---|---|
+| Diagnostic criteria | `definition` \| `requirement` | ICC-2011 criteria |
+| Biomarker findings | `achievement` \| `observation` | Novel metabolite discoveries |
 | Pathophysiology hypotheses | `hypothesis` | Mitochondrial dysfunction theory |
-| Treatment protocols | Project-specific | Pacing strategies |
+| Treatment protocols | project-specific | Pacing strategies |
 | Research gaps | `open_question` | Mechanism of PEM |
 | Study limitations | `warning` | Sample size constraints |
 | Clinical observations | `observation` | Symptom patterns |
 | Known results | `postdiction` | Reproducing published cytokine data |
 
-### Project-Specific Environments
+**Keep project-specific (NOT in template):** custom symptom severity scales | patient case study formats | diagnostic flowcharts | treatment decision trees | ME/CFS abbreviation lists.
 
-These ME/CFS-specific structures should remain in project files, NOT in template:
-- Custom symptom severity scales
-- Patient case study formats
-- Diagnostic flowcharts
-- Treatment decision trees
-- ME/CFS-specific abbreviation lists
+## Template vs Project-Specific
 
-## Template Modification Guidelines
-
-### When to Add to Template
-
-Add to `infolead-latex-templates/theorems.tex` when:
-- Environment is reusable across multiple academic documents
-- It represents a general scientific/academic need
-- Multiple people would benefit from it
-- It's not domain-specific
+**Add to template (`infolead-latex-templates/theorems.tex`)** when ALL of: reusable across academic docs | general scientific/academic need | benefits multiple people | not domain-specific.
 
 **Process:**
 1. Edit `infolead-latex-templates/theorems.tex`
-2. Add environment in appropriate section
+2. Add env in appropriate section
 3. If tcolorbox: define colors in `colors.tex`
 4. Document in template README
-5. Commit to template repository
+5. Commit to template repo
 
-### When to Keep Project-Specific
-
-Keep in project files when:
-- Unique to ME/CFS documentation
-- One-off custom structure
-- References project-specific content
-- Experimental or temporary
-
-**Location:** Create in project-specific preamble file or inline in document.
+**Keep project-specific** when ANY: unique to ME/CFS | one-off | references project-specific content | experimental/temporary. Location: project preamble file or inline.
 
 ## Color Customization
 
-All environment colors are defined in `infolead-latex-templates/colors.tex`:
+Defined in `infolead-latex-templates/colors.tex`:
 
 ```latex
 % Achievement (green theme)
@@ -270,7 +225,7 @@ All environment colors are defined in `infolead-latex-templates/colors.tex`:
 \colorlet{achievementbg}{viridis_yellowgreen_bg}
 ```
 
-To override colors for a specific document:
+Per-document override:
 ```latex
 \input{\preamble/theorems.tex}
 
@@ -281,7 +236,7 @@ To override colors for a specific document:
 
 ## Common Patterns
 
-### Multiple Related Claims
+**Multiple related claims:**
 ```latex
 \begin{hypothesis}[Energy Depletion]
 \label{hyp:energy}
@@ -298,7 +253,7 @@ ATP assays show high inter-laboratory variability ($\pm$30\%).
 \end{warning}
 ```
 
-### Q&A Sections
+**Q&A:**
 ```latex
 \section{Frequently Asked Questions}
 \setcounter{qacounter}{0}
@@ -310,7 +265,7 @@ The mechanism remains unclear, though several hypotheses...
 No single test exists. Diagnosis requires...
 ```
 
-### Chapter Roadmaps
+**Chapter roadmap:**
 ```latex
 \chapter{Pathophysiology}
 
@@ -328,20 +283,18 @@ We examine three major systems:
 ...
 ```
 
-## Pedagogical and Instructional Environments
+## Pedagogical / Instructional Environments
 
-### Purpose
-These environments guide the reader and provide instructional content. They do NOT make truth-claims about reality (use scientific environments for that).
+Guide reader; NOT truth-claims about reality (use scientific envs for that).
 
-| Environment | Numbering | Purpose | When to Use |
-|-------------|-----------|---------|-------------|
-| `protocol` | `chapter.X` | Step-by-step procedures | Treatment protocols, experimental methods, systematic procedures |
-| `clinicalfinding` | `chapter.X` | Case-specific observations | Patient case observations, diagnostic summaries (NOT literature claims) |
-| `keypoint` | Unnumbered | Critical insights | Pedagogical emphasis, key distinctions, takeaways |
-| `practicalwarning` | Unnumbered | Real-world caveats | Safety warnings, practical constraints, clinical warnings |
-| `continuation` | Unnumbered | Cross-references | Pointing to appendices, continued topics |
+| Env | Numbering | When to use |
+|---|---|---|
+| `protocol` | `chapter.X` | Treatment protocols, experimental methods, systematic procedures |
+| `clinicalfinding` | `chapter.X` | Patient case observations, diagnostic summaries (NOT literature claims) |
+| `keypoint` | unnumbered | Pedagogical emphasis, key distinctions, takeaways |
+| `practicalwarning` | unnumbered | Safety warnings, practical constraints, clinical warnings |
+| `continuation` | unnumbered | Pointers to appendices, continued topics |
 
-**Usage:**
 ```latex
 \begin{protocol}[Iron Supplementation]
 \label{prot:iron}
@@ -364,42 +317,41 @@ When taking methylphenidate or modafinil, subjective energy perception is unreli
 \end{practicalwarning}
 ```
 
-**Unnumbered variants:** Add `*` after environment name for `protocol` and `clinicalfinding`:
+**Unnumbered variants** (append `*`): available for `protocol`, `clinicalfinding`.
 ```latex
 \begin{protocol*}[Quick Protocol]
 Content for unnumbered protocol (useful in appendices).
 \end{protocol*}
 ```
 
-**Note:** `keypoint`, `practicalwarning`, and `continuation` are always unnumbered by design.
+`keypoint`, `practicalwarning`, `continuation` → always unnumbered by design.
 
 ## Formalization Environments (Proposed for Template)
 
-These environments support formal modeling of scientific processes with explicit uncertainty quantification. Currently project-specific pending template inclusion decision.
+Formal modeling w/ explicit uncertainty quantification. Currently project-specific.
 
-| Environment | Numbering | Purpose | When to Use |
-|-------------|-----------|---------|-------------|
-| `model` | `chapter.X` | Mathematical models (ODEs, equations) | Quantitative models with fitted parameters, validation, predictions |
-| `epcprocess` | `chapter.X` | Event-Driven Process Chains | Biological processes with temporal dynamics, event triggers, probabilities |
-| `causalclaim` | Unnumbered | Causal relationships with certainty | Explicit cause-effect claims with evidence quality (high/medium/low) |
-| `dag` | Standard figure | Causal DAG figures | Directed acyclic graphs showing causal structure with certainty weights |
+| Env | Numbering | When to use |
+|---|---|---|
+| `model` | `chapter.X` | Quantitative models w/ fitted parameters, validation, predictions (ODEs, equations) |
+| `epcprocess` | `chapter.X` | Biological processes w/ temporal dynamics, event triggers, probabilities |
+| `causalclaim` | unnumbered | Cause-effect claims w/ evidence quality (high/medium/low) |
+| `dag` | standard figure | Directed acyclic graphs of causal structure w/ certainty weights |
 
-### Why Event-Driven Process Chains (EPC)?
+### Why EPC over pure BPMN (biological processes)
 
-For biological/medical processes, EPC is superior to pure BPMN because:
-- **Events are first-class entities** (not just sequence markers)
-- **Observable detection criteria** for validation (e.g., "IL-6 > 2.0 pg/mL")
-- **Temporal precision** (latency, duration, probabilities from cohort data)
-- **Natural feedback loops** (common in pathophysiology)
+- Events first-class (not just sequence markers)
+- Observable detection criteria for validation (e.g., "IL-6 > 2.0 pg/mL")
+- Temporal precision (latency, duration, probabilities from cohort data)
+- Natural feedback loops (common in pathophysiology)
 
 **Structure:** Event → Activity → Event
-- **Events:** Observable state changes with detection criteria
-- **Activities:** Biological responses with durations and mechanisms
-- **Connectors:** Branching probabilities (Recovery 40% vs. Chronic 60%)
+- **Events:** observable state changes w/ detection criteria
+- **Activities:** biological responses w/ durations and mechanisms
+- **Connectors:** branching probabilities (e.g., Recovery 40% | Chronic 60%)
 
-### Usage Examples
+### Examples
 
-**EPC Process (Event-Driven Temporal Model):**
+**EPC Process:**
 ```latex
 \begin{epcprocess}[Post-Exertional Malaise Cascade]
 \label{epc:pem}
@@ -510,56 +462,34 @@ Mitochondrial dysfunction may trigger further immune dysregulation (feedback loo
 \end{dag}
 ```
 
-### When to Use Each Environment
+### Selection per Use Case
 
-**For biological processes with temporal dynamics:**
-- Use `epcprocess` (events, activities, branching probabilities)
-- Example: PEM cascade, viral reactivation timeline, 2-day CPET response
+| Use case | → Env | Notes / examples |
+|---|---|---|
+| Biological process w/ temporal dynamics | `epcprocess` | events + activities + branching probabilities; PEM cascade, viral reactivation timeline, 2-day CPET response |
+| Quantitative mechanistic model | `model` | ODEs + fitted params; require data ≥2 studies, n≥20, temporal data; ATP dynamics, cytokine kinetics, autonomic response |
+| Causal claim w/ uncertainty | `causalclaim` | certainty=high\|medium\|low; visual distinction by frame thickness/color intensity; annotating pathophysiology chapters |
+| Overall causal structure | `dag` | DAG + legend; chapter/section overviews; Ch. 13 (Integrative Models), per-system summaries |
 
-**For quantitative mechanistic models:**
-- Use `model` (differential equations, fitted parameters)
-- Only when data is sufficient (≥2 studies, n≥20, temporal data)
-- Example: ATP dynamics, cytokine kinetics, autonomic response
-
-**For causal claims requiring uncertainty qualification:**
-- Use `causalclaim` with certainty level (high/medium/low)
-- Visual distinction by certainty (frame thickness, color intensity)
-- Example: Annotating pathophysiology chapters with evidence quality
-
-**For showing overall causal structure:**
-- Use `dag` (directed acyclic graph with legend)
-- Chapter-level or section-level causal overviews
-- Example: Chapter 13 (Integrative Models), per-system summaries
-
-### Relationship to Existing Environments
+### Relation to Existing Environments
 
 | Existing | Formalization | Distinction |
-|----------|---------------|-------------|
-| `hypothesis` | `model` | Hypothesis = qualitative claim; Model = quantitative with equations |
-| `prediction` | `model` | Prediction = single testable claim; Model = complete system with multiple predictions |
-| `derivation` | `model` | Derivation = mathematical proof; Model = empirical model with fitted parameters |
-| `construction` | `epcprocess` | Construction = algorithmic; EPC = empirical workflow with timing data |
-| `observation` | `causalclaim` | Observation = empirical data; Causal claim = inferred causation with certainty |
+|---|---|---|
+| `hypothesis` | `model` | Hypothesis = qualitative; Model = quantitative w/ equations |
+| `prediction` | `model` | Prediction = single testable claim; Model = complete system, multiple predictions |
+| `derivation` | `model` | Derivation = mathematical proof; Model = empirical w/ fitted params |
+| `construction` | `epcprocess` | Construction = algorithmic; EPC = empirical workflow w/ timing data |
+| `observation` | `causalclaim` | Observation = empirical data; Causal claim = inferred causation w/ certainty |
 
-### Full Specification
+### Full Spec + Methodology
 
-See `.claude/template-proposal-formalization-environments.md` for:
-- Complete LaTeX code (colors, tcolorbox definitions)
-- Decision criteria (when to propose to template vs. keep project-specific)
-- Implementation notes (icon choices, parameter syntax)
-
-### Methodology
-
-See `.claude/FORMALIZATION_METHODOLOGY.md` for:
-- Decision matrix (Data × Impact × Maturity → Level/Model type)
-- Evidence quality tiers (High/Medium/Low certainty 0-1 scale)
-- EPC vs. BPMN rationale for biological systems
-- Process-by-process analysis of ME/CFS pathophysiology
+- `.claude/template-proposal-formalization-environments.md` → complete LaTeX code (colors, tcolorbox defs); template-vs-project criteria; implementation notes (icons, param syntax)
+- `.claude/FORMALIZATION_METHODOLOGY.md` → decision matrix (Data × Impact × Maturity → Level/Model type); evidence quality tiers (High/Med/Low certainty 0–1); EPC vs BPMN rationale; per-process ME/CFS analysis
 
 ## See Also
 
-- [infolead-latex-templates/README.md](../infolead-latex-templates/README.md) - Comprehensive template documentation
-- [infolead-latex-templates/theorems.tex](../infolead-latex-templates/theorems.tex) - Full environment definitions
-- [infolead-latex-templates/THEOREMS-MIGRATION.md](../infolead-latex-templates/THEOREMS-MIGRATION.md) - Migration guide
-- [.claude/latex-conventions.md](latex-conventions.md) - LaTeX formatting standards
-- [.claude/preamble-setup.md](preamble-setup.md) - Preamble loading order
+- [infolead-latex-templates/README.md](../infolead-latex-templates/README.md) — template docs
+- [infolead-latex-templates/theorems.tex](../infolead-latex-templates/theorems.tex) — env definitions
+- [infolead-latex-templates/THEOREMS-MIGRATION.md](../infolead-latex-templates/THEOREMS-MIGRATION.md) — migration guide
+- [.claude/latex-conventions.md](latex-conventions.md) — LaTeX formatting
+- [.claude/preamble-setup.md](preamble-setup.md) — preamble loading order

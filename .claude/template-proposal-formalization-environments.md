@@ -1,34 +1,36 @@
 # Template Proposal: Formalization Environments
 
-**Date:** 2026-01-24
-**Proposer:** ME/CFS Documentation Project
-**Status:** Draft - for template inclusion consideration
+| Field | Value |
+|-------|-------|
+| Date | 2026-01-24 |
+| Proposer | ME/CFS Documentation Project |
+| Status | Draft → template inclusion consideration |
 
 ## Motivation
 
-Scientific documents increasingly require formal models (causal DAGs, mathematical models, process diagrams) with explicit uncertainty quantification. This proposal adds environments for:
+Scientific docs need formal models + uncertainty quantification. Adds environments for:
 
-1. **Formal mathematical models** (ODEs, differential equations, algebraic models)
-2. **Process models** (BPMN, workflows, temporal sequences)
-3. **Causal claims** with certainty annotations
-4. **Testable predictions** generated from models
+1. Formal math models (ODEs, differential, algebraic)
+2. Process models (BPMN, workflows, temporal sequences)
+3. Causal claims w/ certainty annotations
+4. Testable predictions from models
 
-These complement existing `achievement`, `hypothesis`, and `prediction` environments by providing structure for **quantitative and formal representations**.
+Complements existing `achievement`, `hypothesis`, `prediction` → structure for quantitative/formal representations.
 
 ## Proposed Environments
 
-### 1. `model` - Mathematical Models
+### 1. `model` — Mathematical Models
 
-**Purpose:** Formal mathematical models with equations, parameters, and validation.
-
-**Visual Style:** Blue-themed tcolorbox with double left bar, gear/equation icon
-
-**Numbering:** `chapter.X` (shares counter with `derivation`)
-
-**Structure:**
-- Optional title (e.g., "ATP Dynamics", "Cytokine Cascade")
-- Automatic sections for: Variables, Equations, Parameters, Predictions, Validation, Limitations
-- Can contain align/equation environments
+| Field | Spec |
+|-------|------|
+| Purpose | Formal math models w/ equations, parameters, validation |
+| Visual | Blue tcolorbox, double left bar, gear/equation icon |
+| Numbering | `chapter.X` (shares counter w/ `derivation`) |
+| Title | Optional (e.g., "ATP Dynamics", "Cytokine Cascade") |
+| Auto sections | Variables, Equations, Parameters, Predictions, Validation, Limitations |
+| Contents | May contain align/equation envs |
+| Unnumbered | `\begin{model*}[Title]...\end{model*}` |
+| Rationale | `derivation` = math proofs; `model` = complete models w/ params, validation, predictions |
 
 **Usage:**
 ```latex
@@ -63,25 +65,19 @@ Does not account for mitochondrial recovery time (multi-day effects).
 \end{model}
 ```
 
-**Unnumbered variant:** `\begin{model*}[Title]...\end{model*}`
-
-**Rationale:** Existing `derivation` environment is for mathematical proofs, not complete models with parameters, validation, and predictions. This environment provides structure for reproducible quantitative models.
-
 ---
 
-### 2. `process` - Process and Workflow Models
+### 2. `process` — Process and Workflow Models
 
-**Purpose:** BPMN diagrams, temporal sequences, state machines, workflow descriptions.
-
-**Visual Style:** Purple-themed tcolorbox with dashed border, flowchart icon
-
-**Numbering:** `chapter.X` (shares counter with `construction`)
-
-**Structure:**
-- Optional title (e.g., "Post-Exertional Malaise Cascade")
-- Typically contains a figure (BPMN diagram, state machine)
-- Annotations for timing, probabilities, transitions
-- References to supporting data
+| Field | Spec |
+|-------|------|
+| Purpose | BPMN diagrams, temporal sequences, state machines, workflow descriptions |
+| Visual | Purple tcolorbox, dashed border, flowchart icon |
+| Numbering | `chapter.X` (shares counter w/ `construction`) |
+| Title | Optional (e.g., "Post-Exertional Malaise Cascade") |
+| Contents | Typically figure (BPMN, state machine); annotations for timing, probabilities, transitions; refs to supporting data |
+| Unnumbered | `\begin{process*}[Title]...\end{process*}` |
+| Rationale | `construction` = math/CS algorithms; `process` = scientific/clinical processes w/ empirical timing + probability data |
 
 **Usage:**
 ```latex
@@ -102,28 +98,18 @@ Does not account for mitochondrial recovery time (multi-day effects).
 \end{process}
 ```
 
-**Unnumbered variant:** `\begin{process*}[Title]...\end{process*}`
-
-**Rationale:** While `construction` exists for algorithms, it's math/CS-focused. This environment is for scientific/clinical processes with empirical timing and probability data.
-
 ---
 
-### 3. `causalclaim` - Causal Claims with Certainty
+### 3. `causalclaim` — Causal Claims with Certainty
 
-**Purpose:** Explicit causal relationships with uncertainty quantification.
-
-**Visual Style:** Orange-themed tcolorbox with arrow icon, color intensity varies by certainty level
-
-**Numbering:** Unnumbered (too many in typical document)
-
-**Parameters:**
-- `certainty=high|medium|low` (changes frame thickness and background intensity)
-
-**Structure:**
-- Main causal claim
-- Evidence section (studies, sample sizes, p-values)
-- Mechanism explanation (if known)
-- Gap/uncertainty notes
+| Field | Spec |
+|-------|------|
+| Purpose | Explicit causal relationships w/ uncertainty quantification |
+| Visual | Orange tcolorbox, arrow icon; color intensity varies by certainty |
+| Numbering | Unnumbered (too many per document) |
+| Parameter | `certainty=high\|medium\|low` → frame thickness + bg intensity |
+| Structure | Main claim · Evidence (studies, n, p-values) · Mechanism (if known) · Gap/uncertainty notes |
+| Rationale | `hypothesis` = unproven claims, no certainty gradations; `causalclaim` = causal vs. correlational + visual certainty |
 
 **Usage:**
 ```latex
@@ -154,22 +140,17 @@ Mitochondrial dysfunction may trigger further immune dysregulation.
 \end{causalclaim}
 ```
 
-**Rationale:** Existing `hypothesis` is for unproven claims, but doesn't capture **certainty gradations** or distinguish causal from correlational claims. This environment makes uncertainty explicit and visual.
-
 ---
 
-### 4. `dag` - Causal DAG Figures
+### 4. `dag` — Causal DAG Figures
 
-**Purpose:** Directed acyclic graphs showing causal structure.
-
-**Visual Style:** Minimal box, gray theme, graph/network icon
-
-**Numbering:** Uses standard `figure` numbering
-
-**Structure:**
-- Contains TikZ graph or included PDF
-- Legend explaining edge styles (certainty levels)
-- Key for node types (triggers, intermediates, outcomes)
+| Field | Spec |
+|-------|------|
+| Purpose | Directed acyclic graphs showing causal structure |
+| Visual | Minimal box, gray theme, graph/network icon |
+| Numbering | Standard `figure` numbering |
+| Contents | TikZ graph or included PDF · Legend (edge styles → certainty levels) · Key for node types (triggers, intermediates, outcomes) |
+| Rationale | Standard `figure` works, but `dag` adds semantic meaning + enforces legend/certainty docs |
 
 **Usage:**
 ```latex
@@ -188,8 +169,6 @@ Mitochondrial dysfunction may trigger further immune dysregulation.
 \textbf{Feedback loops:} Oxidative stress ↔ Mitochondrial dysfunction (certainty 0.8)
 \end{dag}
 ```
-
-**Rationale:** Could use standard `figure`, but this environment adds semantic meaning and enforces legend/certainty documentation.
 
 ---
 
@@ -321,7 +300,7 @@ Mitochondrial dysfunction may trigger further immune dysregulation.
 }
 ```
 
-**Note:** The `causalclaim` parameter parsing would need refinement based on tcolorbox's actual key-value syntax. Above is conceptual.
+**Note:** `causalclaim` parameter parsing needs refinement per tcolorbox key-value syntax. Above = conceptual.
 
 ---
 
@@ -329,109 +308,72 @@ Mitochondrial dysfunction may trigger further immune dysregulation.
 
 | Existing | Proposed | Distinction |
 |----------|----------|-------------|
-| `hypothesis` | `model` | Hypothesis = qualitative claim; Model = quantitative with equations |
-| `prediction` | `model` | Prediction = single testable claim; Model = complete system with multiple predictions |
-| `derivation` | `model` | Derivation = mathematical proof; Model = empirical model with fitted parameters |
-| `construction` | `process` | Construction = algorithmic; Process = empirical workflow with timing data |
-| `observation` | `causalclaim` | Observation = empirical data; Causal claim = inferred causation with certainty |
+| `hypothesis` | `model` | Hypothesis = qualitative; Model = quantitative w/ equations |
+| `prediction` | `model` | Prediction = single testable claim; Model = complete system, multiple predictions |
+| `derivation` | `model` | Derivation = math proof; Model = empirical w/ fitted parameters |
+| `construction` | `process` | Construction = algorithmic; Process = empirical workflow w/ timing data |
+| `observation` | `causalclaim` | Observation = empirical data; Causal claim = inferred causation w/ certainty |
 
-**No overlap or redundancy** - each serves a distinct purpose.
+No overlap — each serves distinct purpose.
 
 ---
 
 ## Alternatives Considered
 
-### Alternative 1: Use existing `hypothesis` + manual certainty notes
-
-**Rejected because:**
-- No visual distinction for certainty levels
-- Readers must parse prose to understand confidence
-- Can't systematically extract all low-certainty claims for review
-
-### Alternative 2: Use standard `figure` for all models
-
-**Rejected because:**
-- Loses semantic distinction (is this decorative or a formal model?)
-- Can't cross-reference "all models" easily
-- No enforcement of required sections (parameters, validation, limitations)
-
-### Alternative 3: Keep everything project-specific
-
-**Rejected because:**
-- Formal modeling is increasingly common across scientific fields
-- Other documents (physics, biology, medicine, economics) would benefit
-- Reinventing per-project wastes effort
+| # | Alternative | Rejected because |
+|---|-------------|------------------|
+| 1 | Existing `hypothesis` + manual certainty notes | No visual certainty distinction · Readers parse prose for confidence · Can't systematically extract low-certainty claims |
+| 2 | Standard `figure` for all models | Loses semantic distinction (decorative vs. formal model) · Can't cross-ref "all models" · No enforcement of required sections (params, validation, limitations) |
+| 3 | Keep everything project-specific | Formal modeling increasingly common across fields · Other docs (physics, biology, medicine, economics) benefit · Reinventing per-project wastes effort |
 
 ---
 
 ## Open Questions
 
-1. **Icon choices:** What icons best represent model/process/causal/DAG?
-   - Could use FontAwesome: `\faGear`, `\faProjectDiagram`, `\faArrowRight`, `\faShareAlt`
-   - Or unicode: ⚙, ⚡, →, ⚛
-
-2. **`causalclaim` certainty syntax:**
-   - Current draft: `\begin{causalclaim}[certainty=high]`
-   - Alternative: Three separate environments? `\begin{causalclaim_high}`, etc.?
-   - Template maintainer should decide based on tcolorbox best practices
-
-3. **Counter sharing:**
-   - Should `model` share counter with `derivation`? (both math-focused)
-   - Should `process` share counter with `construction`? (both procedural)
-   - Or independent counters?
-
-4. **Breakability:**
-   - Should multi-page models break across pages or force page breaks?
-   - Current draft: breakable (for long models)
+1. **Icons:** model/process/causal/DAG?
+   - FontAwesome: `\faGear`, `\faProjectDiagram`, `\faArrowRight`, `\faShareAlt`
+   - Unicode: ⚙, ⚡, →, ⚛
+2. **`causalclaim` certainty syntax:** `\begin{causalclaim}[certainty=high]` | three separate envs `\begin{causalclaim_high}` etc. — maintainer decides per tcolorbox best practices
+3. **Counter sharing:** `model` ↔ `derivation` (math) | `process` ↔ `construction` (procedural) | independent?
+4. **Breakability:** multi-page models break across pages | force page breaks? Current draft: breakable (for long models)
 
 ---
 
 ## Integration with ME/CFS Document
 
-Once added to template, the ME/CFS document would use:
-
-1. **`model`** for:
-   - ATP dynamics (Chapter 6 - Energy Metabolism)
-   - Cytokine cascade kinetics (Chapter 7 - Immune Dysfunction)
-   - HPA axis feedback model (Chapter 9 - Endocrine)
-
-2. **`process`** for:
-   - PEM timeline (Chapter 2 - Core Symptoms)
-   - 2-day CPET response (Chapter 6)
-   - Diagnostic workflow (Chapter 4)
-
-3. **`causalclaim`** throughout Part 2 (Pathophysiology):
-   - Replace vague "may cause" with explicit certainty levels
-   - Annotate every causal chain
-
-4. **`dag`** for:
-   - Overall pathophysiology DAG (Chapter 13 - Integrative Models)
-   - Subsystem DAGs (per chapter in Part 2)
+| Env | Use cases |
+|-----|-----------|
+| `model` | ATP dynamics (Ch.6 Energy Metabolism) · Cytokine cascade kinetics (Ch.7 Immune Dysfunction) · HPA axis feedback (Ch.9 Endocrine) |
+| `process` | PEM timeline (Ch.2 Core Symptoms) · 2-day CPET response (Ch.6) · Diagnostic workflow (Ch.4) |
+| `causalclaim` | Throughout Part 2 (Pathophysiology) — replace vague "may cause" w/ explicit certainty; annotate every causal chain |
+| `dag` | Overall pathophysiology DAG (Ch.13 Integrative Models) · Subsystem DAGs (per chapter, Part 2) |
 
 ---
 
 ## Recommendation
 
-**Propose to template for inclusion** because:
+**Propose to template for inclusion:**
 
-1. **Generalizable:** Useful for any scientific field with formal models (biology, medicine, physics, economics, climate science)
-2. **Non-redundant:** Complements existing environments without overlap
-3. **Standards-promoting:** Encourages best practices (uncertainty quantification, validation reporting)
-4. **Accessibility:** Visual certainty coding helps readers assess confidence at a glance
+1. Generalizable → any scientific field w/ formal models (biology, medicine, physics, economics, climate)
+2. Non-redundant → complements existing envs, no overlap
+3. Standards-promoting → encourages uncertainty quantification + validation reporting
+4. Accessibility → visual certainty coding aids reader confidence assessment
 
-**Alternative:** If template maintainers prefer to wait for broader demand, keep in project-specific file for now and propose later once usage is proven.
+**Alt:** If maintainers prefer waiting for broader demand → keep project-specific, propose later once usage proven.
 
 ---
 
 ## Next Steps
 
-1. **Refine implementation** (icon choices, certainty parameter syntax)
-2. **Create examples** in ME/CFS document to demonstrate value
-3. **Propose to template maintainers** with this document as specification
-4. **If accepted:** Migrate from project-specific to template
-5. **If rejected:** Keep project-specific, document in `.claude/template-environments.md` as custom additions
+1. Refine implementation (icon choices, certainty parameter syntax)
+2. Create examples in ME/CFS document to demonstrate value
+3. Propose to template maintainers (this doc = spec)
+4. Accepted → migrate project-specific → template
+5. Rejected → keep project-specific; document in `.claude/template-environments.md` as custom additions
 
 ---
 
-**Contact:** ME/CFS Documentation Project (@claude-code-assistant)
-**Template Repository:** [infolead-latex-templates](../infolead-latex-templates/)
+| Field | Value |
+|-------|-------|
+| Contact | ME/CFS Documentation Project (@claude-code-assistant) |
+| Template Repo | [infolead-latex-templates](../infolead-latex-templates/) |

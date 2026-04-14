@@ -1,6 +1,6 @@
 # TikZ Diagram Templates
 
-Reusable templates for common diagram types. These templates follow spatial awareness rules and compile cleanly.
+Reusable templates — follow spatial awareness rules, compile cleanly.
 
 ## Process Flow Diagram
 
@@ -72,11 +72,7 @@ Linear sequence with optional decision points.
 \end{document}
 ```
 
-**Key features**:
-- 2.5cm vertical spacing (minimum)
-- 3cm horizontal spacing for branches
-- Color-coded node types
-- Clear arrow labels for decisions
+Key: 2.5cm vertical / 3cm horizontal spacing; color-coded node types; labeled decision arrows.
 
 ---
 
@@ -128,11 +124,7 @@ Directed acyclic graph showing causal relationships.
 \end{document}
 ```
 
-**Key features**:
-- 3cm vertical layers, 4cm horizontal spacing
-- Circular nodes for variables
-- Calculated positioning for balanced layout
-- Bend for direct paths that skip layers
+Key: 3cm vertical / 4cm horizontal; circular variable nodes; calculated positioning; bend for skip-layer paths.
 
 ---
 
@@ -207,11 +199,7 @@ Organizational structure or taxonomy.
 \end{document}
 ```
 
-**Key features**:
-- 2.5cm spacing between levels
-- Color gradient by level
-- Node size decreases by level
-- Uses `below left`, `below right` for tree structure
+Key: 2.5cm level spacing; color gradient by level; node size decreases by level; `below left`/`below right` for tree structure.
 
 ---
 
@@ -291,11 +279,7 @@ Components with bidirectional communication.
 \end{document}
 ```
 
-**Key features**:
-- 3cm spacing, 3.5cm for horizontal layout
-- Shape variety (rectangle, cylinder, dashed)
-- Background layer for subsystem grouping
-- Bidirectional arrows for communication
+Key: 3cm / 3.5cm spacing; shape variety (rectangle, cylinder, dashed); background layer for subsystem grouping; bidirectional arrows.
 
 ---
 
@@ -345,11 +329,7 @@ Chronological sequence of events.
 \end{document}
 ```
 
-**Key features**:
-- Horizontal axis with arrow
-- Milestones as circles on axis
-- Events above axis with connecting arrows
-- Calculated spacing using `\foreach`
+Key: horizontal axis with arrow; milestones as circles; events above axis with connecting arrows; `\foreach` for calculated spacing.
 
 ---
 
@@ -396,11 +376,7 @@ Nodes with multiple connections.
 \end{document}
 ```
 
-**Key features**:
-- Polar coordinate positioning for radial layout
-- 3.5cm radius for clear spacing
-- Solid lines for hub connections
-- Dashed lines for peer connections
+Key: polar coordinate positioning; 3.5cm radius; solid lines for hub connections; dashed for peer connections.
 
 ---
 
@@ -454,11 +430,7 @@ Grid of related elements.
 \end{document}
 ```
 
-**Key features**:
-- Matrix environment for automatic grid layout
-- 2.5cm row separation, 3cm column separation
-- Automatic node naming (easy to reference)
-- Flexible for tables, grids, or structured diagrams
+Key: matrix env for auto grid layout; 2.5cm row / 3cm column separation; automatic node naming; suits tables, grids, structured diagrams.
 
 ---
 
@@ -531,11 +503,7 @@ Stacked layers with dependencies.
 \end{document}
 ```
 
-**Key features**:
-- 2.5cm vertical spacing between layers
-- Background rectangles for layer grouping
-- Calculated positioning for centered elements
-- Clear dependency arrows
+Key: 2.5cm vertical layer spacing; background rectangles for grouping; calculated centering; clear dependency arrows.
 
 ---
 
@@ -543,34 +511,36 @@ Stacked layers with dependencies.
 
 ### Choosing a Template
 
-1. **Process Flow**: Sequential steps, branching logic, workflows
-2. **Causal Diagram**: Cause-effect relationships, DAGs, influence diagrams
-3. **Hierarchical Tree**: Taxonomies, org charts, classification
-4. **System Architecture**: Software components, microservices, infrastructure
-5. **Timeline**: Historical events, project schedules, chronology
-6. **Network Diagram**: Interconnected systems, peer networks, graph structures
-7. **Matrix Layout**: Comparison tables, grid relationships, structured data
-8. **Layered Architecture**: Software layers, protocol stacks, abstraction levels
+| Template | Use for |
+| --- | --- |
+| Process Flow | Sequential steps, branching logic, workflows |
+| Causal Diagram | Cause-effect relationships, DAGs, influence diagrams |
+| Hierarchical Tree | Taxonomies, org charts, classification |
+| System Architecture | Software components, microservices, infrastructure |
+| Timeline | Historical events, project schedules, chronology |
+| Network Diagram | Interconnected systems, peer networks, graph structures |
+| Matrix Layout | Comparison tables, grid relationships, structured data |
+| Layered Architecture | Software layers, protocol stacks, abstraction levels |
 
 ### Customization
 
-All templates follow spacing guidelines but can be adjusted:
-- Increase `node distance` for more space
-- Adjust `minimum width/height` for different content lengths
-- Change colors with `fill=color!percentage`
-- Add more node styles as needed
+- More space → increase `node distance`
+- Different content lengths → adjust `minimum width/height`
+- Colors → `fill=color!percentage`
+- Add node styles as needed
 
 ### Compilation
 
 All templates use `standalone` document class:
-- Compile with `pdflatex template.tex`
-- Output is cropped to diagram size
-- Can be included in larger documents with `\input{}`
+
+- Compile: `pdflatex template.tex`
+- Output cropped to diagram size
+- Include in larger documents with `\input{}`
 
 ### Best Practices
 
-1. **Always start from a template** - faster and more reliable
-2. **Test compile early** - catch errors before adding complexity
-3. **Use comments** - label sections for easier modification
-4. **Keep consistent spacing** - use global `node distance` when possible
-5. **Run through tikz-validator** - automatic quality checking
+1. Start from a template — faster, more reliable
+2. Test compile early — catch errors before adding complexity
+3. Use comments — label sections for easier modification
+4. Keep consistent spacing — use global `node distance` when possible
+5. Run through `tikz-validator` — automatic quality checking

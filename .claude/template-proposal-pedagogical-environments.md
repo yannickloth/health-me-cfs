@@ -4,29 +4,18 @@
 
 ## Motivation
 
-Currently, the template provides excellent environments for scientific claims (hypothesis, observation, etc.) but lacks structured environments for pedagogical and instructional content. This forces authors to use ad-hoc `tcolorbox` definitions, leading to:
-
-1. **Inconsistent styling** across documents
-2. **Code duplication** when multiple documents need similar pedagogical boxes
-3. **Lack of semantic markup** (ad-hoc boxes don't convey *what* the content is)
-4. **Maintenance burden** when styling needs to change
+Template has scientific-claim environments (hypothesis, observation, etc.) but no pedagogical/instructional ones → ad-hoc `tcolorbox` usage → inconsistent styling, code duplication, no semantic markup, maintenance burden.
 
 ## Proposed Environments
 
 ### Category 1: Instructional Content
 
-#### `protocol` Environment
-**Purpose**: Step-by-step procedures, systematic methods, experimental protocols
+| Environment | Purpose | Use cases | Visual style |
+|---|---|---|---|
+| `protocol` | Step-by-step procedures, systematic methods, experimental protocols | Medical protocols, experimental procedures, config steps, algorithms | Blue, solid border, numbered |
+| `clinicalfinding` | Documented clinical/experimental findings (not literature claims) | Patient observations, experimental results, diagnostic summaries, lab findings | Gray, simple border, professional |
 
-**Use cases**:
-- Medical treatment protocols
-- Experimental procedures
-- Configuration steps
-- Algorithmic procedures
-
-**Visual style**: Blue theme, solid border, numbered steps encouraged
-
-**Example**:
+**`protocol` example:**
 ```latex
 \begin{protocol}[Iron Supplementation for RLS]
 \label{prot:iron-rls}
@@ -41,18 +30,7 @@ Currently, the template provides excellent environments for scientific claims (h
 \end{protocol}
 ```
 
-#### `clinicalfinding` Environment
-**Purpose**: Documented clinical or experimental findings (not literature claims)
-
-**Use cases**:
-- Patient case observations
-- Experimental results
-- Diagnostic summaries
-- Laboratory findings
-
-**Visual style**: Gray theme, simple border, professional tone
-
-**Example**:
+**`clinicalfinding` example:**
 ```latex
 \begin{clinicalfinding}[Polysomnography Results]
 \label{cf:sleep-study}
@@ -67,18 +45,12 @@ Currently, the template provides excellent environments for scientific claims (h
 
 ### Category 2: Pedagogical Emphasis
 
-#### `keypoint` Environment
-**Purpose**: Critical insights, key takeaways, essential concepts
+| Environment | Purpose | Use cases | Visual style |
+|---|---|---|---|
+| `keypoint` | Critical insights, key takeaways, essential concepts | Crucial distinctions, important principles, counter-intuitive findings, "aha moments" | Yellow/gold, left bar |
+| `practicalwarning` | Real-world caveats, practical limitations, clinical warnings | Theory-practice gap, common pitfalls, practical constraints, clinical safety | Orange/red, triangle icon, left bar |
 
-**Use cases**:
-- Highlighting crucial distinctions
-- Summarizing important principles
-- Emphasizing counter-intuitive findings
-- Educational "aha moments"
-
-**Visual style**: Yellow/gold theme, left bar, attention-grabbing
-
-**Example**:
+**`keypoint` example:**
 ```latex
 \begin{keypoint}[Unwilling vs. Unable]
 \label{kp:unwilling-unable}
@@ -86,18 +58,7 @@ ME/CFS patients choose low-effort tasks not due to lack of motivation, but becau
 \end{keypoint}
 ```
 
-#### `practicalwarning` Environment
-**Purpose**: Real-world caveats, practical limitations, clinical warnings
-
-**Use cases**:
-- Bridging theory-practice gap
-- Warning about common pitfalls
-- Highlighting practical constraints
-- Clinical safety warnings
-
-**Visual style**: Orange/red theme, triangle icon, left bar
-
-**Example**:
+**`practicalwarning` example:**
 ```latex
 \begin{practicalwarning}[Stimulant Medication Caution]
 \label{pw:stimulant}
@@ -107,18 +68,11 @@ When taking methylphenidate or modafinil, subjective energy perception is unreli
 
 ### Category 3: Document Navigation
 
-#### `continuation` Environment
-**Purpose**: Cross-references to related content in other sections
+| Environment | Purpose | Use cases | Visual style |
+|---|---|---|---|
+| `continuation` | Cross-references to related content in other sections | Pointing to appendices, supplementary material, multi-part content | Light blue, simple box, small font |
 
-**Use cases**:
-- Pointing to appendices
-- Directing to supplementary material
-- Indicating where topics continue
-- Managing multi-part content
-
-**Visual style**: Light blue theme, simple box, small font
-
-**Example**:
+**`continuation` example:**
 ```latex
 \begin{continuation}
 For detailed information on:
@@ -227,48 +181,53 @@ For detailed information on:
 
 ## Benefits
 
-1. **Semantic clarity**: `\begin{protocol}` is more meaningful than `\begin{tcolorbox}[colback=blue!5!white,...]`
-2. **Consistency**: All documents using the template get the same styling
-3. **Maintainability**: Change colors/styling in one place
-4. **Numbering**: Automatic chapter-based numbering for protocols and findings
-5. **Accessibility**: Distinct visual styles aid comprehension
-6. **Reusability**: Useful across medical, technical, and educational documents
+| Benefit | Detail |
+|---|---|
+| Semantic clarity | `\begin{protocol}` > `\begin{tcolorbox}[colback=blue!5!white,...]` |
+| Consistency | All template documents → same styling |
+| Maintainability | Colors/styling changed in one place |
+| Numbering | Automatic chapter-based numbering for `protocol`, `clinicalfinding` |
+| Accessibility | Distinct visual styles aid comprehension |
+| Reusability | Applicable across medical, technical, educational documents |
 
 ## Compatibility
 
-- Does not interfere with existing scientific claim environments
-- Uses same tcolorbox infrastructure
-- Follows same naming/styling conventions
-- Compatible with starred (unnumbered) variants
-- Works with existing color system
+- ✓ No interference with existing scientific claim environments
+- ✓ Same tcolorbox infrastructure
+- ✓ Same naming/styling conventions
+- ✓ Starred (unnumbered) variants supported
+- ✓ Compatible with existing color system
 
 ## Distinction from Scientific Environments
 
-| Type | Purpose | Examples | Epistemic Status |
-|------|---------|----------|------------------|
+| Type | Purpose | Examples | Epistemic status |
+|---|---|---|---|
 | **Scientific** | Claims about reality | hypothesis, observation, prediction | Has epistemic status (true/false/uncertain) |
-| **Pedagogical** | Instructional content | protocol, keypoint, practicalwarning | No epistemic status (instructional, not truth-claims) |
+| **Pedagogical** | Instructional content | protocol, keypoint, practicalwarning | No epistemic status — instructional, not truth-claims |
 
-**Key difference**: Scientific environments make claims about the world; pedagogical environments guide the reader.
+Scientific environments → claims about the world; pedagogical environments → guide the reader.
 
 ## Migration Path
 
 For this ME/CFS document:
-1. Convert "Novel Therapeutic Proposal" boxes → `speculation` (scientific claim)
-2. Convert "Iron Protocol" boxes → `protocol` (instructional)
-3. Convert "Key Distinction" boxes → `keypoint` (pedagogical)
-4. Convert "Stimulant Warning" boxes → `practicalwarning` (practical caveat)
-5. Convert "Continued in Appendices" → `continuation` (navigation)
+
+| Old box | → | New environment | Type |
+|---|---|---|---|
+| "Novel Therapeutic Proposal" | → | `speculation` | scientific claim |
+| "Iron Protocol" | → | `protocol` | instructional |
+| "Key Distinction" | → | `keypoint` | pedagogical |
+| "Stimulant Warning" | → | `practicalwarning` | practical caveat |
+| "Continued in Appendices" | → | `continuation` | navigation |
 
 ## Open Questions
 
-1. Should `keypoint` and `practicalwarning` be numbered or unnumbered by default?
-2. Should `continuation` have an icon or just be a simple box?
-3. Color palette: Should we align with viridis/inferno used for scientific claims, or use a distinct pedagogical palette?
+1. `keypoint` / `practicalwarning`: numbered or unnumbered by default?
+2. `continuation`: icon or plain box?
+3. Color palette: align with viridis/inferno (scientific claims) or use distinct pedagogical palette?
 
 ## Next Steps
 
-1. Review proposal with template maintainer
+1. Review with template maintainer
 2. Finalize color schemes and visual styling
 3. Implement in `theorems.tex`
 4. Document in template README
