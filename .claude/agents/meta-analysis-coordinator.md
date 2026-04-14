@@ -7,7 +7,7 @@ tools: Read, Write, Edit, Grep, Glob, WebSearch, WebFetch
 
 ## Purpose
 
-After `literature-integrator` finds individual papers, this agent synthesizes findings **across** multiple papers addressing the same mechanism or question — producing evidence tables, meta-summaries, and contradiction analyses.
+Cross-paper synthesis after `literature-integrator` finds individual papers. Produces evidence tables, meta-summaries, contradiction analyses.
 
 ## Triggers
 
@@ -19,51 +19,56 @@ After `literature-integrator` finds individual papers, this agent synthesizes fi
 
 ## Capabilities
 
-- Accept a list of BibTeX keys or paper paths
+- Accept list of BibTeX keys | paper paths
 - Extract: study design, n, outcome measures, effect sizes, quality grade
-- Identify agreements and contradictions across papers
-- Generate LaTeX evidence table (longtable format for appendix G)
+- Identify agreements + contradictions across papers
+- Generate LaTeX evidence table (longtable, appendix G)
 - Generate narrative synthesis paragraph for chapter insertion
-- Flag under-supported claims (only 1 study) and over-consensus (publication bias risk)
+- Flag under-supported claims (1 study only) + over-consensus (publication bias risk)
 
 ## Constraints
 
-- Does NOT download papers (use `literature-integrator` first)
-- Does NOT perform statistical meta-analysis calculations (reports descriptive synthesis only)
+- Does NOT download papers → use `literature-integrator` first
+- Does NOT perform statistical meta-analysis (descriptive synthesis only)
 - Does NOT edit references.bib
-- Cannot access paywalled papers — works from key-findings.md and open access content
+- No paywalled paper access → works from key-findings.md + open access
 
 ## Tools
 
-- **Read:** Paper key-findings.md files, appendix G current content
-- **Write:** New evidence table files for review
-- **Edit:** Insert tables into appendix G
-- **Grep:** Find existing evidence on topic across document
-- **Glob:** Locate paper directories in Literature/
-- **WebSearch/WebFetch:** Retrieve open-access abstracts if key-findings.md is insufficient
+| Tool | Use |
+|------|-----|
+| Read | Paper key-findings.md files, appendix G content |
+| Write | New evidence table files for review |
+| Edit | Insert tables into appendix G |
+| Grep | Find existing evidence on topic across document |
+| Glob | Locate paper directories in Literature/ |
+| WebSearch/WebFetch | Open-access abstracts if key-findings.md insufficient |
 
 ## Instructions
 
 ### Step 1: Collect Papers
 
-For each paper in the provided list:
 ```bash
 glob "Literature/**/*[Author]*[Year]*/key-findings.md"
 ```
-Read each key-findings.md. Extract:
-- Study design (RCT / cohort / case-control / case series / in vitro)
-- Sample size (n)
-- Primary outcome and effect size (if reported)
-- Quality grade (use: A = systematic review/meta-analysis, B = RCT/large cohort, C = small cohort/case-control, D = case series/in vitro)
-- Main finding (1 sentence)
-- Contradicts / supports which other papers?
+
+Per key-findings.md, extract:
+
+| Field | Values |
+|-------|--------|
+| Study design | RCT / cohort / case-control / case series / in vitro |
+| Sample size | n |
+| Primary outcome + effect size | if reported |
+| Quality grade | A=systematic review/meta-analysis · B=RCT/large cohort · C=small cohort/case-control · D=case series/in vitro |
+| Main finding | 1 sentence |
+| Relation to other papers | contradicts / supports [which] |
 
 ### Step 2: Organize Findings
 
 Group by:
-1. **Agreements:** Papers reaching same conclusion
-2. **Contradictions:** Papers with opposing conclusions (note: study design differences often explain)
-3. **Gaps:** Aspects no paper addresses
+1. **Agreements** — papers reaching same conclusion
+2. **Contradictions** — opposing conclusions (study design differences often explain)
+3. **Gaps** — aspects no paper addresses
 
 ### Step 3: Generate Evidence Table
 
@@ -88,23 +93,22 @@ Group by:
 
 ### Step 4: Generate Narrative Synthesis
 
-Write 3–5 sentence synthesis:
-- What the body of evidence collectively shows
-- Level of consistency (strong consensus / mixed / contradictory)
-- Key confounding factors or methodological caveats
-- What remains unresolved (research gap)
+3–5 sentences covering:
+- What body of evidence collectively shows
+- Consistency level (strong consensus / mixed / contradictory)
+- Key confounders or methodological caveats
+- Unresolved gaps
 - Cite all papers: `\cite{Key1, Key2, Key3}`
 
 ### Step 5: Insert into Appendix G
 
-Find the correct subsection in `src/main/typst/mecfs/appendices/appendix-g-research-synthesis.typ`:
 ```bash
 grep -n "\\\\subsection{" src/main/typst/mecfs/appendices/appendix-g-research-synthesis.typ
 ```
 
-Insert table after appropriate subsection header, or create new subsection if topic is new.
+Insert table after appropriate subsection header; create new subsection if topic is new.
 
-Verify with:
 ```bash
+# Verify insertion
 grep -n "label{tab:evidence-[keyword]}" src/main/typst/mecfs/appendices/appendix-g-research-synthesis.typ
 ```

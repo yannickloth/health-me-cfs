@@ -7,7 +7,7 @@ tools: Read, Grep, Glob, Bash
 
 ## Purpose
 
-Trace certainty values through the formalization hierarchy (DAG edges → EPC event probabilities → ODE parameter confidence) to ensure model predictions are not more certain than the underlying evidence supports. Flags cases where `hypothesis` environments should be `speculation`.
+Trace certainty through formalization hierarchy (DAG edges → EPC event probabilities → ODE parameter confidence). Ensures model predictions not more certain than evidence supports. Flags `hypothesis` environments that should be `speculation`.
 
 ## Triggers
 
@@ -15,50 +15,52 @@ Trace certainty values through the formalization hierarchy (DAG edges → EPC ev
 - "Propagate certainty through [PEM / energy / immune] model"
 - "Are any model predictions overconfident?"
 - "Check if this ODE prediction should be hypothesis or speculation"
-- After completing a full model stack (DAG + EPC + ODE) for a process
+- After completing full model stack (DAG + EPC + ODE) for a process
 - Invoked by formalization-pipeline coordinator at Stage 5 quality gate
 
 ## Capabilities
 
-- Extract all certainty values from DAG, EPC, and ODE model files
+- Extract all certainty values from DAG, EPC, ODE model files
 - Apply certainty propagation rules (conjunction, chaining, branching)
-- Identify model outputs whose certainty exceeds input evidence
-- Recommend `hypothesis` vs. `speculation` environment reclassification
-- Generate an uncertainty profile for a given ME/CFS process
+- Identify model outputs exceeding input evidence confidence
+- Recommend `hypothesis` vs. `speculation` reclassification
+- Generate uncertainty profile for a ME/CFS process
 
 ## Constraints
 
 - Read-only: does NOT modify models
-- Does NOT perform statistical computations beyond simple arithmetic propagation
-- Does NOT assess scientific validity of the certainty values themselves (that's `scientific-rigor-auditor`)
-- Works with explicit certainty annotations only; does not infer certainty from text
+- No statistical computation beyond simple arithmetic propagation
+- Does NOT assess scientific validity of certainty values → use `scientific-rigor-auditor`
+- Works with explicit certainty annotations only; does not infer from text
 
 ## Tools
 
-- **Read:** YAML model files, chapter .typ files with formal environments
-- **Grep:** Extract `certainty:` annotations throughout the model stack
-- **Glob:** Find all model-related files for a process
-- **Bash:** Simple arithmetic for certainty calculations
+| Tool | Use |
+|------|-----|
+| Read | YAML model files, chapter .typ files with formal environments |
+| Grep | `certainty:` annotations throughout model stack |
+| Glob | All model-related files for a process |
+| Bash | Simple arithmetic for certainty calculations |
 
 ## Instructions
 
 ### Certainty Propagation Rules
 
-**Sequential causation (A → B → C):**
-`certainty(A→C) = certainty(A→B) × certainty(B→C)`
+| Pattern | Formula |
+|---------|---------|
+| Sequential (A→B→C) | `certainty(A→C) = certainty(A→B) × certainty(B→C)` |
+| Parallel (A→C, B→C) | `certainty(combined) = 1 - (1 - certainty(A→C)) × (1 - certainty(B→C))` |
+| EPC branching | All branch probabilities from a gateway must sum to 1.0; flag otherwise |
 
-Example: If immune activation causes ATP depletion (0.8) and ATP depletion causes PEM (0.7), then immune activation → PEM certainty = 0.8 × 0.7 = 0.56.
-
-**Parallel causation (A → C, B → C):**
-`certainty(combined) = 1 - (1 - certainty(A→C)) × (1 - certainty(B→C))`
-
-**EPC branching:**
-Branching probabilities must sum to 1.0 across all branches from a gateway. Flag if they don't.
+Example: immune activation → ATP depletion (0.8) × ATP depletion → PEM (0.7) = immune activation → PEM propagated certainty: 0.56.
 
 **Certainty → Environment mapping:**
-- certainty ≥ 0.7: May use `\begin{achievement}` (if replicated) or `\begin{observation}`
-- certainty 0.45–0.69: Use `\begin{hypothesis}`
-- certainty < 0.45: Use `\begin{speculation}`
+
+| Certainty | Environment |
+|-----------|-------------|
+| ≥ 0.7 | `\begin{achievement}` (if replicated) or `\begin{observation}` |
+| 0.45–0.69 | `\begin{hypothesis}` |
+| < 0.45 | `\begin{speculation}` |
 
 ### Step 1: Extract Certainty Values
 
@@ -67,11 +69,10 @@ grep -rn "certainty:" content-staging/ src/main/typst/mecfs/part5-modeling/
 grep -rn "certainty" figures/*.typ
 ```
 
-Map each certainty to its model level (DAG edge / EPC event / ODE parameter).
+Map each value to model level: DAG edge / EPC event / ODE parameter.
 
 ### Step 2: Build Propagation Chains
 
-For the target process:
 1. Start from root DAG nodes (well-established anchors)
 2. Trace each causal path to terminal outcomes
 3. Apply sequential multiplication at each step
@@ -80,9 +81,9 @@ For the target process:
 
 ### Step 3: Identify Overconfident Claims
 
-For each formal environment in Part V chapters:
+Per formal environment in Part V chapters:
 - Check stated/implied certainty
-- Compare to propagated certainty from the model chain
+- Compare to propagated certainty from model chain
 - **Flag if stated certainty > propagated certainty by > 0.15**
 
 ### Step 4: Generate Uncertainty Profile

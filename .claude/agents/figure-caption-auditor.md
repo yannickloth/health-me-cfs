@@ -1,62 +1,61 @@
 # figure-caption-auditor Agent
 
-**Purpose**: Audit figure and table captions for quality — captions must state a claim (not just describe), be standalone-readable without surrounding prose, and be consistent. Also checks that all figures/tables are referenced in the text.
+**Purpose**: Audit figure/table captions — must state a claim (not just describe), standalone-readable, consistent. Checks all figures/tables referenced in text.
 
-**When to use**:
-- After adding figures or tables
-- At volume completion
-- When reviewing for publication readiness
+**When to use**: After adding figures/tables · at volume completion · publication readiness review
 
 **Scope**: Book chapters (`src/main/latex/volume-N/partP/chNN*.typ`)
 
-**What to check**:
+## Checks
 
 ### 1. Caption Existence
-- Every `\begin{figure}` has a `\caption{...}`
-- Every `\begin{table}` has a `\caption{...}`
-- Flag captionless floats (CRITICAL)
+- Every `\begin{figure}` → has `\caption{...}` (CRITICAL if missing)
+- Every `\begin{table}` → has `\caption{...}` (CRITICAL if missing)
 
 ### 2. Caption Quality
-- **A caption must state a claim, not merely label the content.** A reader who sees only the figure and its caption should grasp the argument being illustrated — without reading any surrounding prose.
-- Bad: `\caption{Architecture}` — labels, does not argue
-- Bad: `\caption{A diagram showing the layered architecture}` — describes, does not argue
-- Good: `\caption{Layered architecture isolates domain logic from infrastructure, so each layer varies independently}` — states why the figure exists and what it demonstrates
-- Flag captions that merely describe ("a diagram of X", "X showing Y") without asserting a claim as WARNING
-- Flag single-word or very short captions (< 5 words) as WARNING
-- Flag captions that cannot be understood without reading surrounding prose as WARNING
+**Rule:** Caption must state a claim. Reader sees only figure + caption → grasps the argument without surrounding prose.
+
+| Example | Verdict |
+|---------|---------|
+| `\caption{Architecture}` | ✗ labels only |
+| `\caption{A diagram showing the layered architecture}` | ✗ describes only |
+| `\caption{Layered architecture isolates domain logic from infrastructure, so each layer varies independently}` | ✓ states claim |
+
+- Describe-only captions ("a diagram of X", "X showing Y") → WARNING
+- Short captions (< 5 words) → WARNING
+- Caption requires surrounding prose to understand → WARNING
 
 ### 3. Label Presence
-- Every `\begin{figure}` should have a `\label{fig:...}`
-- Every `\begin{table}` should have a `\label{tab:...}`
-- Flag figures/tables without labels (they can't be cross-referenced)
+- `\begin{figure}` → must have `\label{fig:...}`
+- `\begin{table}` → must have `\label{tab:...}`
+- Missing label → cannot cross-reference (flag)
 
 ### 4. Text Reference
-- Every figure/table should be referenced at least once in the text with `\ref{fig:...}` or `\cref{fig:...}`
-- Flag floats that are never referenced (orphan floats)
-- The reference should appear BEFORE or NEAR the float (not only many pages later)
+- Every float → referenced at least once via `\ref{fig:...}` | `\cref{fig:...}`
+- Unreferenced float → orphan (WARNING)
+- Reference must appear BEFORE or NEAR float (not many pages later)
 
 ### 5. Caption Position
-- Figures: caption goes BELOW the figure (LaTeX convention)
-- Tables: caption goes ABOVE the table (LaTeX convention)
-- Flag reversed placement
+- Figures: caption BELOW (LaTeX convention)
+- Tables: caption ABOVE (LaTeX convention)
+- Flag reversed placement (INFO)
 
 ### 6. Numbering Consistency
-- No hardcoded figure/table numbers in text ("see Figure 3" instead of "see Figure~\ref{fig:...}")
-- Flag all hardcoded float references
+- No hardcoded "Figure 3" / "Table 2" in text → must use `\ref{fig:...}`
+- Flag all hardcoded float references (WARNING)
 
 ### 7. Alt-Text / Accessibility
-- For complex diagrams, is there descriptive text nearby that could serve as alt-text?
-- Flag complex TikZ diagrams with no surrounding descriptive prose (INFO level)
+- Complex TikZ diagrams without surrounding descriptive prose → INFO
 
-**Process**:
+## Process
 1. Find all `\begin{figure}` and `\begin{table}` environments
-2. For each, check: caption exists, label exists, caption length/quality
-3. Cross-reference: find all `\ref{fig:...}` and `\ref{tab:...}` in text
+2. For each: caption exists? label exists? caption length/quality?
+3. Cross-reference: find all `\ref{fig:...}` / `\ref{tab:...}` in text
 4. Match labels to references
-5. Check caption positioning (above/below)
-6. Grep for hardcoded "Figure N" or "Table N" without `\ref`
+5. Check caption positioning
+6. Grep for hardcoded "Figure N" / "Table N" without `\ref`
 
-**Output**:
+## Output
 ```
 === Figure/Table Caption Audit: [chapter] ===
 Figures found: N, Tables found: M

@@ -7,69 +7,59 @@ tools: Read, Grep, Glob, Bash
 
 ## Purpose
 
-Provide a structural health overview of the document without reading full content: chapter sizes, citation counts per chapter, proportion of placeholder content, and which Part V skeleton sections still need work.
+Structural health overview without reading full content: chapter sizes, citation counts, placeholder proportion, Part V skeleton completeness.
 
 ## Triggers
 
-- "Document health check"
-- "Document metrics"
+- "Document health check" / "Document metrics"
 - "Find empty sections / stubs"
 - "How complete is Part V?"
 - "Which chapters are shortest?"
-- "Where are the \lipsum placeholders?"
-- During planning sessions before a writing sprint
+- "Where are the `\lipsum` placeholders?"
+- Before writing sprints
 
 ## Capabilities
 
-- Count lines and approximate word count per chapter
-- Count citations per chapter (LaTeX: `\cite{}`, Typst: `@Key`)
-- Detect placeholder content (`\lipsum`, `lorem()`, `// TODO`, `% TODO`, `% PLACEHOLDER`)
-- Identify empty environments or skeleton-only sections
-- Flag chapters with zero citations (likely stub)
-- Generate summary health report with rankings
+- Line count + approximate word count per chapter
+- Citation count per chapter (LaTeX: `\cite{}` · Typst: `@Key`)
+- Detect placeholders: `\lipsum`, `lorem()`, `// TODO`, `% TODO`, `% PLACEHOLDER`
+- Identify empty environments / skeleton-only sections
+- Flag zero-citation chapters (likely stubs)
+- Generate ranked health report
 
 ## Constraints
 
 - Read-only: does NOT modify files
-- Does NOT assess content quality (use `content-reviewer`)
+- Does NOT assess content quality → use `content-reviewer`
 - Metrics are structural proxies, not quality measures
 - Line counts include markup (not pure text)
-
-## Format Detection
-
-All files use Typst (.typ) format. Adapt grep patterns accordingly.
+- Format: all files are Typst (.typ)
 
 ## Tools
 
-- **Read:** Individual files for spot-checking placeholders
-- **Grep:** Count citations, find placeholders, find empty environments
-- **Glob:** List all chapter files
-- **Bash:** `wc -l` for line counts
+| Tool | Use |
+|------|-----|
+| Read | Spot-check individual placeholder files |
+| Grep | Count citations, find placeholders, find empty environments |
+| Glob | List all chapter files |
+| Bash | `wc -l` for line counts |
 
 ## Instructions
 
 ### Step 1: List All Chapter Files
 
 ```bash
-# LaTeX
-glob "src/main/typst/mecfs/**/*.typ"
-# Typst
 glob "typst/src/main/typst/mecfs/**/*.typ"
 ```
 
-Group by part (part1 through part5, appendices).
+Group by part (part1–part5, appendices).
 
 ### Step 2: Measure Line Counts
 
 ```bash
-# Typst (primary)
 wc -l typst/src/main/typst/mecfs/part1-clinical/*.typ typst/src/main/typst/mecfs/part2-pathophysiology/*.typ \
       typst/src/main/typst/mecfs/part3-treatment/*.typ typst/src/main/typst/mecfs/part4-research/*.typ \
       typst/src/main/typst/mecfs/part5-modeling/*.typ typst/src/main/typst/mecfs/appendices/*.typ
-# LaTeX (if still present)
-wc -l src/main/typst/mecfs/part1-clinical/*.typ src/main/typst/mecfs/part2-pathophysiology/*.typ \
-      src/main/typst/mecfs/part3-treatment/*.typ src/main/typst/mecfs/part4-research/*.typ \
-      src/main/typst/mecfs/part5-modeling/*.typ src/main/typst/mecfs/appendices/*.typ
 ```
 
 ### Step 3: Count Citations Per Chapter
@@ -77,25 +67,18 @@ wc -l src/main/typst/mecfs/part1-clinical/*.typ src/main/typst/mecfs/part2-patho
 ```bash
 # Typst
 grep -c "@[A-Za-z]" typst/src/main/typst/mecfs/part1-clinical/*.typ 2>/dev/null
-# LaTeX
-grep -c "\\\\cite{" src/main/typst/mecfs/part1-clinical/*.typ 2>/dev/null
 # Repeat for each part
 ```
 
 ### Step 4: Detect Placeholders
 
 ```bash
-# Typst
 grep -rn "// TODO\|// PLACEHOLDER\|// STUB\|lorem" typst/src/main/typst/mecfs/ --include="*.typ"
-# LaTeX
-grep -rn "% TODO\|% PLACEHOLDER\|% STUB\|\\\\lipsum\|lorem ipsum" src/main/typst/mecfs/ --include="*.typ"
 ```
 
 ### Step 5: Part V Skeleton Analysis
 
-For each Part V chapter, check what exists:
 ```bash
-# Typst
 grep -c "^=" typst/src/main/typst/mecfs/part5-modeling/*.typ        # headings
 grep -c "#" typst/src/main/typst/mecfs/part5-modeling/*.typ          # function calls (environments)
 grep -c "@[A-Z]" typst/src/main/typst/mecfs/part5-modeling/*.typ     # citations

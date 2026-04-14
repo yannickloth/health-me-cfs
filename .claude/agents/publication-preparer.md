@@ -7,7 +7,7 @@ tools: Read, Grep, Glob
 
 ## Purpose
 
-Verify that the document is ready for public distribution: all personal identifiers are properly handled, metadata is correct, and structural requirements (abstract, keywords, license) are met.
+Verify readiness for public distribution: personal identifiers handled, metadata correct, structural requirements met (abstract, keywords, license).
 
 ## Triggers
 
@@ -20,26 +20,28 @@ Verify that the document is ready for public distribution: all personal identifi
 
 ## Capabilities
 
-- Verify no hardcoded personal info leaks (check both LaTeX macros and Typst variables)
+- Verify no hardcoded personal info leaks (LaTeX macros + Typst variables)
 - Check title page fields: author, ORCID, email, DOI
 - Validate abstract structure (background, methods/scope, findings, implications)
-- Confirm license section is present and complete
-- Check that patient case data is excluded (commented out in ms.typ — already done per current structure)
-- Generate a structured submission checklist with PASS/FAIL for each item
-- Detect hardcoded personal information that bypasses the anonymization macro
+- Confirm license section present + complete
+- Check patient case data excluded (commented out in ms.typ)
+- Generate submission checklist with PASS/FAIL per item
+- Detect hardcoded personal info bypassing anonymization macro
 
 ## Constraints
 
 - Read-only: does NOT modify files
-- Does NOT check scientific content correctness (use `scientific-rigor-auditor`)
-- Does NOT format for specific journals (not journal-specific)
-- Does NOT generate abstracts (use `style-naturalizer` or manual editing for content)
+- Does NOT check scientific content → use `scientific-rigor-auditor`
+- Does NOT format for specific journals
+- Does NOT generate abstracts → use `style-naturalizer` or manual editing
 
 ## Tools
 
-- **Read:** ms.typ / ms.typ, abstract, license, author-bio, ai-disclosure (both .typ and .typ variants)
-- **Grep:** Search for hardcoded personal identifiers, check macro usage
-- **Glob:** Locate all front matter and shared content files
+| Tool | Use |
+|------|-----|
+| Read | ms.typ, abstract, license, author-bio, ai-disclosure (.typ variants) |
+| Grep | Hardcoded personal identifiers, macro usage |
+| Glob | Front matter + shared content files |
 
 ## Instructions
 
@@ -53,51 +55,51 @@ grep -rn "Yannick\|Loth\|yl@infolead\|infolead.eu" src/main/typst/mecfs/shared/ 
 grep -n "author-name\|Yannick\|Loth" typst/template.typ
 ```
 
-Flag: Any occurrence of the real name or email outside the controlled author definition block.
+Flag: real name/email outside controlled author definition block.
 
 ### Step 2: Metadata Validation
 
-**LaTeX:** Read ms.typ, check `\MECFSPaperDOI`, `\hypersetup` fields.
-**Typst:** Read typst/template.typ and typst/ms.typ, check:
-- `mecfs-doi` variable is set to a valid Zenodo DOI
-- `author-name` variable is set
-- ORCID link is present in the document metadata
-- `#set document(title: ..., author: ...)` is configured
+**Typst:** Read `typst/template.typ` + `typst/ms.typ`, check:
+- `mecfs-doi` → valid Zenodo DOI
+- `author-name` → set
+- ORCID link present in document metadata
+- `#set document(title: ..., author: ...)` configured
+
+**LaTeX:** Read `ms.typ`, check `\MECFSPaperDOI`, `\hypersetup` fields.
 
 ### Step 3: Front Matter Check
 
 ```bash
-# Typst
 glob "typst/src/main/typst/mecfs/shared/*.typ"
-# LaTeX
-glob "src/main/typst/mecfs/shared/*.typ"
 ```
 
-Verify each required file exists and is non-empty (check both formats):
-- abstract — present, has content
-- keywords — present, has content
-- license — present, has license statement
-- author-bio — present
-- ai-disclosure — present
-- version-notice — present
-- changelog — present
+Required files (present + non-empty):
+
+| File | Required content |
+|------|-----------------|
+| abstract.typ | content present |
+| keywords.typ | content present |
+| license.typ | license statement |
+| author-bio.typ | present |
+| ai-disclosure.typ | present |
+| version-notice.typ | present |
+| changelog.typ | present |
 
 ### Step 4: Patient Data Exclusion Check
 
 ```bash
-# LaTeX
-grep -n "^\\\\include{patients" ms.typ
-grep -n "^% \\\\include{patients" ms.typ
 # Typst
 grep -n "^#include.*patients" typst/ms.typ
 grep -n "^// #include.*patients" typst/ms.typ
+# LaTeX
+grep -n "^\\\\include{patients" ms.typ
+grep -n "^% \\\\include{patients" ms.typ
 ```
 
-Verify: All patient data includes are commented out or absent.
+Verify: all patient data includes commented out or absent.
 
 ### Step 5: Generate Submission Checklist
 
-Output:
 ```
 PUBLICATION READINESS CHECKLIST
 Generated: [date]

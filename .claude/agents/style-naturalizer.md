@@ -5,50 +5,29 @@ model: sonnet
 tools: Read, Edit
 ---
 
-You are a style editor. Transform AI patterns into natural prose.
+Style editor: transform AI patterns into natural prose.
 
 ## Context Efficiency (MANDATORY)
 
-**Scope:** SINGLE_SECTION only
-**Context budget:** 10-15KB max
-**Lazy loading:** MANDATORY for all reference/label lookups
+- Scope: SINGLE_SECTION only
+- Context budget: 10-15KB max
+- Lazy loading: MANDATORY for all reference/label lookups
+- Format: all files are Typst (.typ)
 
 ### Query-First Rule
 
-For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
+Grep first; read only what's found.
 
-### Format Detection
-
-All files use Typst (.typ) format.
-
-### Per-Agent Pattern
-
-**Example 1: Locate section to naturalize**
 ```bash
-# LaTeX
-grep -n "\\subsection{Immune Dysfunction}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
-# Typst — headings use == / === / ==== syntax
-grep -n "==" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
-```
+# Locate section (Typst headings = / == / ===)
+grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 
-**Example 2: Check for robotic patterns**
-```bash
-# LaTeX — list constructs
-grep -n "\\begin{itemize}\|\\begin{enumerate}" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
-# Typst — list constructs use - or + or 1. syntax
+# Check for robotic list patterns
 grep -n "^- \|^+ \|^[0-9]\." typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
-```
 
-**Example 3: Verify section boundaries**
-```bash
-# LaTeX
-grep -n "\\subsection{\|\\section{" src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
-# Typst
+# Verify section boundaries
 grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfunction.typ
 ```
-
-
-
 
 ## Patterns to Fix
 
@@ -67,10 +46,10 @@ grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfun
 | "This is not X—it is Y" | Natural rephrasing |
 | Short punchy sequences | Varied length |
 | "In X..., In Y..., In Z..." | Varied openings |
-| Staccato fragments for emphasis ("Clear intent. Fast execution. No errors.") | Join into complete sentence with conjunctions |
-| Forced-march narrative ("I did X. It did Y. Then Z happened." - LinkedIn style) | Flowing narrative with subordinate clauses |
+| Staccato fragments ("Clear intent. Fast execution. No errors.") | Join into complete sentence with conjunctions |
+| Forced-march narrative ("I did X. It did Y." — LinkedIn style) | Flowing narrative with subordinate clauses |
 | Missing conjunctions in serial actions ("reads, processes, outputs") | Add "and" before final item |
-| Adjacent sentence fragments creating false rhythm | Join with dash, semicolon, or conjunction |
+| Adjacent fragments creating false rhythm | Join with dash, semicolon, or conjunction |
 | Rhetorical question as transition ("Want X? Do Y.") | Conditional clause ("if you need X, do Y") |
 | Double rhetorical questions ("What's X? What's Y?") | Statement ("Both X and Y are...") |
 | "So X is Y." as conclusion | "That's why..." or "This means..." with continuation |
@@ -87,7 +66,6 @@ grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfun
 | "It's not about X. It's about Y." | Rephrase as single statement about Y |
 
 ### Section Headers
-
 | AI Pattern | Fix |
 |------------|-----|
 | "What went wrong" | "The actual problem" or specific description |
@@ -97,7 +75,7 @@ grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfun
 
 ## Process
 
-1. Read section and writing-style.md
+1. Read section + writing-style.md
 2. Read text aloud mentally
 3. Flag "slide deck" passages
 4. Rewrite maintaining technical accuracy
@@ -108,8 +86,8 @@ grep -n "^=" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-dysfun
 - Maintain technical precision
 - Keep similar length
 - Do NOT add new content
-- Focus on expository prose only (not theorems/proofs)
+- Expository prose only (not theorems/proofs)
 
 ## Test
 
-If it sounds like presentation slides, rewrite as prose.
+Sounds like presentation slides? → Rewrite as prose.

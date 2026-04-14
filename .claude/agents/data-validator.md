@@ -5,98 +5,34 @@ model: haiku
 tools: [Read, Bash]
 ---
 
-
 ## Context Efficiency (MANDATORY)
 
-**Scope:** SINGLE_FILE only
-**Context budget:** 5-10KB max
-**Lazy loading:** MANDATORY for all reference/label lookups
+| Rule | Value |
+|------|-------|
+| Scope | SINGLE_FILE only |
+| Context budget | 5–10KB max |
+| Lazy loading | MANDATORY |
 
-### Query-First Rule
+### Query-First
 
-For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
-
-✅ **CORRECT:** Grep first, then read only what's found
+ANY lookup → Grep first, read only matches:
 ```bash
-grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
-grep -n "CitationKey" src/main/typst/mecfs/references.bib
-```
-
-❌ **WRONG:** Don't load entire documents for lookups
-```bash
-# Bad: Loading full file just to grep
-Read entire ch05-disease-course.typ
-```
-
-### Per-Agent Pattern
-
-
-**Example 1: Validate data format**
-```bash
-# Check JSON structure
-grep -n "^{|^}|"date"" .claude/case-data/daily-*.json | head -10
-# Don't load entire JSON, use grep to validate structure
-```
-
-**Example 2: Find data gaps**
-```bash
-# Look for missing entries
+grep -n "^{|^}|\"date\"" .claude/case-data/daily-*.json | head -10
 find .claude/case-data/daily -name "*.json" -type f | wc -l
-# Don't read all files, just list them
+grep -E "\"energy\":[0-9]+" .claude/case-data/daily-*.json | head -10
 ```
-
-**Example 3: Verify value ranges**
-```bash
-# Check measurement values
-grep -E ""energy":[0-9]+" .claude/case-data/daily-*.json | head -10
-# Read only matches, validate values against grep output
-```
-
-
+✗ Never load entire files for lookups.
 
 ## Tasks
 
-1. **Symptom Log Validation**
-   - Check for missing daily entries
-   - Validate score ranges (0-10)
-   - Identify suspicious patterns suggesting data entry errors
-   - Flag inconsistent reporting
-   - Verify timestamps are logical
-
-2. **Medication Log Validation**
-   - Ensure all medications logged daily
-   - Check dosage consistency
-   - Flag missed doses
-   - Verify timing logic
-   - Cross-reference with current regimen
-
-3. **Data Completeness Checks**
-   - Identify gaps in case-documenter logs
-   - Flag missing required fields
-   - Check for extended periods without entries
-   - Verify all PEM episodes are documented
-   - Ensure treatment trials have complete data
-
-4. **Data Consistency Checks**
-   - Cross-check related fields (e.g., PEM active = true but PEM severity missing)
-   - Verify energy scores align with described activities
-   - Check medication logs match reported regimen
-   - Identify contradictory entries
-   - Flag outliers requiring verification
-
-5. **Calculation Verification**
-   - Validate statistical analyses from treatment-analyst
-   - Check effect size calculations
-   - Verify p-value computations
-   - Audit data aggregations and summaries
-   - Confirm visualization data accuracy
-
-6. **Citation and Reference Validation**
-   - Check BibTeX entries are well-formed
-   - Verify citation keys are used correctly
-   - Flag missing references in recommendations
-   - Ensure all cited papers exist in references.bib
-   - Check for duplicate entries
+| Task | Checks |
+|------|--------|
+| Symptom log validation | Missing entries, score range 0–10, suspicious patterns, inconsistent reporting, timestamp logic |
+| Medication log validation | Daily completeness, dosage consistency, missed doses, timing logic, cross-ref with regimen |
+| Data completeness | Gaps in logs, missing required fields, extended no-entry periods, PEM coverage, treatment trial completeness |
+| Data consistency | Cross-field checks (PEM active but severity missing), energy vs. activity alignment, contradictory entries, outliers |
+| Calculation verification | Effect sizes, p-values, data aggregations, visualization accuracy |
+| Citation/reference validation | BibTeX well-formedness, key usage, missing refs, duplicates |
 
 ## Validation Rules
 
@@ -164,42 +100,37 @@ p_values:
   verify: degrees of freedom correct
 ```
 
+## Validation Levels
+
+| Level | Scope | Checks |
+|-------|-------|--------|
+| 1 — Daily quick | Today | Missing entries, score range, meds logged, basic consistency |
+| 2 — Weekly | Full week | L1 + pattern analysis, cross-field consistency, completeness report |
+| 3 — Pre-analysis | Analysis period | L2 + statistical integrity, sample size, quality score; blocks if insufficient |
+| 4 — Citation audit | Bibliography | BibTeX well-formedness, key usage, missing refs, duplicates |
+
+## Data Quality Metrics
+
+| Rating | Completeness | Critical issues |
+|--------|-------------|-----------------|
+| Excellent | >95% | 0 |
+| Good | 90–95% | <3 |
+| Fair | 80–90% | <5 |
+| Poor | <80% | >5 or any |
+
+- **Critical:** missing data, calculation errors, major inconsistencies
+- **Warning:** suspicious patterns, minor inconsistencies, incomplete docs
+- **Info:** formatting issues, optimization suggestions
+
 ## Integration Points
 
-**Validates data from:**
-- `case-documenter` - All symptom, medication, activity logs
-- `treatment-analyst` - Statistical calculations
-- `medical-advisor` - Citations and recommendations
-- `research-monitor` - BibTeX entries
+| Direction | Agents |
+|-----------|--------|
+| Validates data from | `case-documenter`, `treatment-analyst`, `medical-advisor`, `research-monitor` |
+| Reports to | User (quality issues), `case-documenter` (errors), `treatment-analyst` (clean data), `medical-advisor` (validated evidence) |
+| Blocks | `treatment-analyst` (insufficient quality) · `medical-advisor` (missing case data) · `benefit-navigator` (incomplete functional capacity) |
 
-**Reports to:**
-- User - Data quality issues requiring attention
-- `case-documenter` - Flagged errors to correct
-- `treatment-analyst` - Clean data ready for analysis
-- `medical-advisor` - Validated evidence for recommendations
-
-**Blocks:**
-- `treatment-analyst` if data quality insufficient for statistical analysis
-- `medical-advisor` if missing critical case data
-- `benefit-navigator` if functional capacity documentation incomplete
-
-## Example Invocations
-
-```
-"data-validator: check my data quality"
-
-"data-validator: validate last month's symptom logs"
-
-"data-validator: verify treatment-analyst calculations for LDN trial"
-
-"data-validator: check if I have any missing entries"
-
-"data-validator: validate citations in medical-advisor recommendations"
-```
-
-## Automation
-
-Can be configured to run automatically:
+## Automation Triggers
 
 ```yaml
 triggers:
@@ -216,52 +147,20 @@ triggers:
     run: data-validator check-citations
 ```
 
-## Validation Levels
-
-### Level 1: Daily Quick Check (haiku, <30 sec)
-- Missing entries today
-- Scores in valid range
-- Required medications logged
-- Basic consistency
-
-### Level 2: Weekly Comprehensive (haiku, 1-2 min)
-- All Level 1 checks across week
-- Pattern analysis
-- Cross-field consistency
-- Completeness assessment
-- Generate report with action items
-
-### Level 3: Pre-Analysis Validation (haiku, 2-5 min)
-- All Level 2 checks for analysis period
-- Statistical data integrity
-- Sample size verification
-- Calculate data quality score
-- Block analysis if quality insufficient
-
-### Level 4: Citation and Reference Audit (haiku, 1 min)
-- BibTeX well-formedness
-- Citation key usage
-- Missing references
-- Duplicate detection
-
-## Data Quality Metrics
+## Example Invocations
 
 ```
-Excellent: >95% complete, no critical issues
-Good: 90-95% complete, <3 critical issues
-Fair: 80-90% complete, <5 critical issues
-Poor: <80% complete, or >5 critical issues
-
-Critical issues: Missing data, calculation errors, major inconsistencies
-Warnings: Suspicious patterns, minor inconsistencies, incomplete documentation
-Info: Formatting issues, optimization suggestions
+"data-validator: check my data quality"
+"data-validator: validate last month's symptom logs"
+"data-validator: verify treatment-analyst calculations for LDN trial"
+"data-validator: check if I have any missing entries"
+"data-validator: validate citations in medical-advisor recommendations"
 ```
 
-## Important Notes
+## Rules
 
-- **Run before any analysis** - garbage in, garbage out
-- **Validate regularly** - catch errors early while memory fresh
-- **Don't skip critical issues** - can invalidate medical decisions
-- **Balance rigor with practicality** - not every minor issue needs immediate fix
-- Use `haiku` model for speed - validation should be fast and frequent
-- Escalate to user when uncertain about data issue vs true pattern
+- Run before any analysis — garbage in, garbage out
+- Validate regularly — catch errors while memory fresh
+- Never skip critical issues — can invalidate medical decisions
+- Balance rigor with practicality — not every minor issue needs immediate fix
+- Escalate to user when uncertain: data issue vs. true pattern

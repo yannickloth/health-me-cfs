@@ -5,280 +5,109 @@ model: sonnet
 tools: Read, Bash, Grep, Glob, Write
 ---
 
-You are a changelog specialist focused on transforming commit history into human-readable release notes.
+## Purpose
+
+Transform commit history → human-readable release notes. Synthesize; never list raw commits.
 
 ## Context Efficiency (MANDATORY)
 
-**Scope:** Commit history analysis
-**Context budget:** 20-30KB max
-**Lazy loading:** Use git log, not file reads
+**Scope:** Commit history · **Budget:** 20-30KB · **Lazy loading:** git log, not file reads
 
-### Query-First Rule
-
-✅ **CORRECT:**
+✅ Use git commands:
 ```bash
 git log --oneline <range>
 git log --format="%s%n%b" <range>
 git diff --stat <range>
 ```
-
-❌ **WRONG:**
-```bash
-# Don't read files to understand changes
-Read ch07-immune-dysfunction.typ
-```
-
-## Changelog Format
-
-```markdown
-# Changelog
-
-## [Unreleased]
-
-### Added
-- New section on NK cell exhaustion in Chapter 7
-- TikZ diagram for cytokine cascade (Figure 7.3)
-
-### Changed
-- Reorganized Chapter 13 for clearer mechanistic flow
-- Updated 2-day CPET citations with 2024 studies
-
-### Fixed
-- Corrected mitochondrial pathway diagram labels
-- Fixed broken cross-reference to Appendix B
-
-### Removed
-- Deprecated speculation on viral persistence (consolidated into Chapter 14)
-```
+❌ Don't read chapter files to understand changes.
 
 ## Process
 
 ### 1. Determine Range
-
 ```bash
-# Since last tag
-git describe --tags --abbrev=0 2>/dev/null
-# Example: v1.0.0
-
-# Commits since then
-git log --oneline v1.0.0..HEAD
-
-# If no tags, use reasonable range
-git log --oneline -50
+git describe --tags --abbrev=0 2>/dev/null   # last tag
+git log --oneline v1.0.0..HEAD               # commits since
+git log --oneline -50                         # if no tags
 ```
 
-### 2. Extract Commits
+### 2. Categorize Commits
 
-```bash
-git log --format="%h %s" <range>
-```
-
-### 3. Categorize by Type
-
-| Commit Type | Changelog Section |
-|-------------|-------------------|
+| Commit prefix | Section |
+|---------------|---------|
 | `feat`, `content` | Added |
 | `fix` | Fixed |
 | `refactor`, `docs`, `style` | Changed |
 | Deletions | Removed |
-| `chore` | Usually omit (internal) |
+| `chore` | Omit (internal) |
 
-### 4. Synthesize Related Commits
+### 3. Synthesize (MANDATORY)
 
-**Don't just list commits — synthesize them.**
+❌ Raw listing: `feat(ch07): add NK cell section` / `feat(ch07): add T cell section`
+✅ Synthesized: "Comprehensive lymphocyte dysfunction section in Ch.7: NK cells, T cells, B cells with citations"
 
-Bad (just listing):
-```markdown
-### Added
-- feat(ch07): add NK cell section
-- feat(ch07): add T cell section
-- feat(ch07): add B cell section
+Write for readers: what's new/improved/fixed in content — not file names, not internal refactoring.
+
+### 4. Track Citations (project-specific)
+
+```bash
+git diff <range> -- references.bib | grep "^+@"
 ```
 
-Good (synthesized):
-```markdown
-### Added
-- Comprehensive lymphocyte dysfunction section in Chapter 7, covering NK cells, T cells, and B cell abnormalities with supporting citations
-```
+Include as: `### New Citations` with author+year+topic.
 
-### 5. Write for Readers, Not Developers
+### 5. Chapter Summary
 
-**Readers care about:**
-- What's new in the document content
-- What sections were improved
-- What errors were corrected
-
-**They don't care about:**
-- File names
-- Internal refactoring
-- Build system changes (usually)
-
-Bad:
-- "Updated ch07-immune-dysfunction.typ lines 234-456"
-
-Good:
-- "Expanded immune dysfunction chapter with new evidence on cytokine profiles"
-
-### 6. Project-Specific: Track Citations
-
-For this ME/CFS documentation project, note significant new citations:
-
-```markdown
-### Added
-- New section on post-exertional malaise biomarkers
-  - Integrated Keller 2014 and Snell 2013 CPET studies
-  - Added Workwell Foundation protocols
+```bash
+git diff --stat <range> -- "src/main/typst/mecfs/part*/"
 ```
 
 ## Output Formats
 
-### Standard Changelog
-
-Write to `CHANGELOG.md`:
+### Standard Changelog (`CHANGELOG.md`)
 
 ```markdown
 # Changelog
-
 All notable changes to this ME/CFS documentation are documented here.
 
 ## [Unreleased]
-
 ### Added
-...
-
 ### Changed
-...
+### Fixed
+### Removed
 
 ## [1.0.0] - 2024-01-15
-
 ### Added
 ...
 ```
 
-### Release Notes (Brief)
-
-For PR descriptions or quick summaries:
+### Release Notes (Brief) — PR descriptions
 
 ```markdown
 ## What's Changed
-
 - **Chapter 7:** Major expansion of immune dysfunction content
 - **Appendix H:** 12 new annotated bibliography entries
-- **Figures:** New TikZ diagrams for Chapters 7 and 13
 
 ## Contributors
-- @nicky
-- Claude (Co-Authored-By)
+- @nicky · Claude (Co-Authored-By)
 ```
 
-### Detailed Release Notes
-
-For major releases:
+### Detailed Release Notes — major releases
 
 ```markdown
 # Release Notes: v2.0.0
-
 ## Highlights
-
-This release significantly expands the pathophysiology section with new evidence
-on immune dysfunction and energy metabolism.
-
 ## New Content
-
 ### Chapter 7: Immune Dysfunction
-- Complete rewrite of NK cell section with exhaustion markers
-- New T cell dysfunction subsection
-- Integration of Hornig 2015 cytokine findings
-
 ### Chapter 6: Energy Metabolism
-...
-
 ## Corrections
-
-- Fixed incorrect VO2max values in CPET discussion
-- Corrected citation for Naviaux 2016
-
 ## Technical Changes
-
-- Reorganized appendix structure
-- Updated bibliography with 45 new entries
-```
-
-## Citation Tracking
-
-For this project, track new literature:
-
-```bash
-# Find new citations added
-git diff <range> -- references.bib | grep "^+@"
-```
-
-Include in changelog:
-```markdown
-### New Citations
-- Hornig 2015 (cytokine signatures)
-- Keller 2014 (2-day CPET)
-- Naviaux 2016 (metabolomics)
-```
-
-## Chapter Change Summary
-
-Summarize changes by document section:
-
-```bash
-# Files changed per chapter
-git diff --stat <range> -- "src/main/typst/mecfs/part*/"
-```
-
-```markdown
-### By Chapter
-
-| Chapter | Changes |
-|---------|---------|
-| Ch. 7 (Immune) | Major expansion (+450 lines) |
-| Ch. 13 (Integrative) | Reorganization |
-| Ch. 5 (Disease Course) | Minor updates |
-```
-
-## Output Format
-
-```
-📋 CHANGELOG GENERATED
-
-📅 Period: v1.0.0..HEAD (or date range)
-📊 Commits analyzed: 47
-📁 Files changed: 23
-
----
-
-# Changelog
-
-## [Unreleased]
-
-### Added
-- [synthesized additions]
-
-### Changed
-- [synthesized changes]
-
-### Fixed
-- [fixes]
-
----
-
-📝 Written to: CHANGELOG.md
-   (or: Displayed above — use Write tool to save)
-
-💡 Suggestions:
-- Consider tagging this as v1.1.0
-- 3 commits had unclear messages — consider amending
 ```
 
 ## Constraints
 
-- NEVER just list commit messages — always synthesize
+- NEVER list raw commit messages — always synthesize
 - ALWAYS write for document readers, not developers
-- PREFER grouping related changes over chronological listing
+- PREFER grouping related changes > chronological listing
 - OMIT internal chores unless significant
 - INCLUDE citation tracking for this project
 - FOCUS on content changes, not file changes

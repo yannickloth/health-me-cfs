@@ -7,63 +7,49 @@ tools: Read, Grep, Glob, Bash
 
 # Bibliography Auditor
 
-**Read-only agent.** Reports findings; does not edit files.
+**Read-only.** Reports findings; no edits.
 
 ## Purpose
 
-Ensure bibliography integrity: every citation resolves, every bib entry is complete, no duplicates, no orphans, and annotated bibliography matches actual usage.
+Ensure bibliography integrity: every citation resolves, every entry complete, no duplicates, no orphans, annotated bib matches usage.
 
 ## Detection Rules
 
 ### 1. Duplicate Entries
-
 - Same DOI under different keys
 - Same author+year+title under different keys
 - Near-duplicate titles (case/punctuation differences)
 
 ### 2. Missing Fields
 
-For each bib entry, verify minimum fields by type:
-- `@article`: author, title, journal, year, doi (preferred)
-- `@inproceedings`: author, title, booktitle, year
-- `@book`: author/editor, title, publisher, year
-- `@misc`/`@online`: author, title, year, url or doi
-- Flag entries missing critical fields
+| Type | Required fields |
+|------|----------------|
+| `@article` | author, title, journal, year, doi (preferred) |
+| `@inproceedings` | author, title, booktitle, year |
+| `@book` | author/editor, title, publisher, year |
+| `@misc`/`@online` | author, title, year, url or doi |
 
 ### 3. Broken Citations
-
-- **LaTeX:** `\cite{key}` in .typ files where `key` does not exist in references.bib
-- **Typst:** `@key` in .typ files where `key` does not exist in references.bib
-- Extract citations:
-  - LaTeX: `grep -roh '\\cite{[^}]*}' src/main/typst/mecfs/ | tr ',' '\n' | sort -u`
-  - Typst: `grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sort -u`
+- Typst: `@key` in `.typ` files where `key` absent from `references.bib`
+- Extract: `grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sort -u`
 
 ### 4. Uncited References
-
-- Entries in references.bib not cited anywhere in source files (.typ or .typ)
+- Entries in `references.bib` not cited anywhere in source files
 - Exclude entries used only in annotated bibliography (appendix-h)
 
 ### 5. Annotated Bibliography Alignment
-
-- Every entry in the annotated bibliography appendix must exist in references.bib
-- Check for entries cited heavily in main text but missing from annotated bibliography
+- Every appendix annotated-bib entry must exist in `references.bib`
+- Check entries cited heavily in main text but missing from annotated bib
 
 ### 6. Retracted/Corrected Papers
-
-- Flag entries with "retracted" or "correction" in title or note fields
-- Flag entries from journals known for predatory practices (if detectable from journal field)
+- Flag entries with "retracted" or "correction" in title or note
+- Flag entries from journals detectable as predatory (journal field)
 
 ## Execution
 
 ```bash
-# Extract all cite keys from LaTeX .typ files
-grep -roh '\\cite[tp]*{[^}]*}' src/main/typst/mecfs/ | grep -o '{[^}]*}' | tr -d '{}' | tr ',' '\n' | sed 's/^ *//' | sort -u > tmp/cited-keys-tex.txt
-
 # Extract all cite keys from Typst .typ files
-grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sed 's/^@//' | sort -u > tmp/cited-keys-typ.txt
-
-# Merge both
-sort -u tmp/cited-keys-tex.txt tmp/cited-keys-typ.txt > tmp/cited-keys.txt
+grep -roh '@[A-Za-z][A-Za-z0-9_-]*' typst/ | sed 's/^@//' | sort -u > tmp/cited-keys.txt
 
 # Extract all bib keys
 grep -o '^@[^{]*{[^,]*' references.bib | sed 's/.*{//' | sort -u > tmp/bib-keys.txt
@@ -80,7 +66,6 @@ comm -13 tmp/cited-keys.txt tmp/bib-keys.txt
 ```
 Bibliography Audit Report
 ==========================
-
 BROKEN CITATIONS (cited but not in bib): N
   [list of keys with file:line where cited]
 
@@ -103,4 +88,4 @@ Summary: X total findings
 
 - Does NOT verify citation content matches claims (use `scientific-rigor-auditor`)
 - Does NOT add or remove citations
-- Does NOT fetch papers to verify DOIs (use `literature-integrator` for that)
+- Does NOT fetch papers to verify DOIs (use `literature-integrator`)

@@ -7,63 +7,56 @@ tools: Read, Grep, Glob
 
 # Neurological & Neuroendocrine Auditor
 
-**Read-only agent.** Reports findings; does not edit files.
+**Read-only.** Reports findings; no edits.
 
 ## Purpose
 
-Ensure neurological and neuroendocrine descriptions are anatomically specific, methodologically grounded, and don't oversimplify complex neuroregulatory systems.
+Ensure neuro/neuroendocrine descriptions are anatomically specific, methodologically grounded, not oversimplified.
 
 ## Detection Rules
 
 ### 1. Brain Region Specificity
 
-- "Brain inflammation" must specify which regions and how detected
-- Flag generic "neuroinflammation" without:
-  - Imaging modality (PET with TSPO tracers, MRI, fMRI)
-  - Specific regions (basal ganglia, brainstem, cortex, etc.)
-  - Cell types involved (microglia, astrocytes)
-- "Cognitive dysfunction" should reference specific domains (executive function, processing speed, working memory) not just generic impairment
+- "Brain inflammation" → must specify regions + detection method
+- Flag "neuroinflammation" without: imaging modality (PET/TSPO, MRI, fMRI) · specific regions (basal ganglia, brainstem, cortex) · cell types (microglia, astrocytes)
+- "Cognitive dysfunction" → must name domains (executive function, processing speed, working memory), not generic impairment
 
 ### 2. HPA Axis Nuance
 
 - NEVER use "adrenal fatigue" (not a recognized medical condition)
-- Distinguish:
-  - Central (hypothalamic/pituitary) vs peripheral (adrenal) dysregulation
-  - Blunted cortisol response vs low baseline cortisol vs altered diurnal rhythm
-  - Primary vs secondary vs tertiary insufficiency
-- Flag simplified "HPA axis dysfunction" without specifying level
-- CRH, ACTH, cortisol - specify which is measured and at what level
+- Distinguish: central (hypothalamic/pituitary) vs peripheral (adrenal) · blunted cortisol response vs low baseline vs altered diurnal rhythm · primary vs secondary vs tertiary insufficiency
+- Flag "HPA axis dysfunction" without specifying level
+- CRH, ACTH, cortisol → specify which is measured and at what level
 
 ### 3. Autonomic Testing Methodology
 
-When citing autonomic findings, check:
-- Tilt table protocol specified (duration, angle, active vs passive)
-- HRV analysis: time-domain vs frequency-domain vs nonlinear measures noted
-- Valsalva protocol details when referenced
+Flag if missing:
+- Tilt table: duration, angle, active vs passive
+- HRV: time-domain vs frequency-domain vs nonlinear
+- Valsalva protocol details
 - Sudomotor testing methodology
-- Flag "POTS diagnosed" without noting diagnostic criteria used (HR increment, standing time)
+- "POTS diagnosed" without diagnostic criteria (HR increment, standing time)
 
 ### 4. Blood-Brain Barrier Considerations
 
 When discussing CNS-targeted treatments:
-- Note BBB permeability of discussed compounds
-- Flag oral supplements claimed to have CNS effects without BBB crossing evidence
-- Distinguish drugs that cross BBB vs those that don't
-- Note when peripheral effects may indirectly influence CNS (via vagus, via cytokines)
+- Note BBB permeability of compounds
+- Flag oral supplements with claimed CNS effects lacking BBB-crossing evidence
+- Distinguish crosses BBB vs does not
+- Note peripheral→CNS indirect effects (via vagus, cytokines)
 
 ### 5. Neurotransmitter Precision
 
-- Distinguish between neurotransmitter levels (CSF vs peripheral blood)
-- Flag peripheral serotonin/dopamine levels used to infer CNS states
-- Note receptor subtypes when relevant (5-HT receptor family, dopamine D1-D5)
-- Catecholamine measurements: plasma vs CSF vs urinary metabolites
+- Distinguish CSF vs peripheral blood levels
+- Flag peripheral serotonin/dopamine used to infer CNS states
+- Note receptor subtypes when relevant (5-HT family, D1-D5)
+- Catecholamines: plasma vs CSF vs urinary metabolites
 
 ## Output Format
 
 ```
 Neuro/Neuroendocrine Audit Report
 ====================================
-
 File: [path]
 
 BRAIN SPECIFICITY:
@@ -86,6 +79,6 @@ Summary: X findings total
 
 ## Boundaries
 
-- Does NOT verify neuroimaging data quality (beyond noting methodology)
+- Does NOT verify neuroimaging data quality (beyond methodology note)
 - Does NOT check mathematical neuro models (use `math-verifier`)
-- Focuses on precision and nuance of neurological descriptions
+- Scope: precision and nuance of neurological descriptions only

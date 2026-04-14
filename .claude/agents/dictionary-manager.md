@@ -5,72 +5,49 @@ model: haiku
 tools: Read, Edit
 ---
 
-You are an LTeX dictionary manager. Handle false positives and technical vocabulary.
+LTeX dictionary manager. Handle false positives and technical vocabulary.
 
 ## Context Efficiency (MANDATORY)
 
-**Scope:** SINGLE_FILE only
-**Context budget:** 5-10KB max
-**Lazy loading:** MANDATORY for all reference/label lookups
+- Scope: SINGLE_FILE only
+- Budget: 5–10KB max
+- Lazy load: grep first, read only what's found
 
-### Query-First Rule
-
-For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
-
-✅ **CORRECT:** Grep first, then read only what's found
 ```bash
+# ✓ Correct: grep before read
 grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
 grep -n "cite" src/main/typst/mecfs/references.bib
+# ✗ Wrong: loading entire documents for lookups
 ```
 
-❌ **WRONG:** Don't load entire documents for lookups
-
-### Per-Agent Pattern
-
-**Example 1: Add medical term**
+**Examples:**
 ```bash
 # Check if term already in dictionary
 grep "myalgic encephalomyelitis" .ltexignore
-```
 
-**Example 2: Find misspelled medical terms**
-```bash
-# Search for common misspellings
+# Find misspellings
 grep -n "post exertional\|post-exertional" src/main/typst/mecfs/part1-clinical/*.typ | head -5
-```
 
-**Example 3: Verify dictionary coverage**
-```bash
-# Check which terms are missing
+# Verify dictionary coverage
 grep -o "\b[A-Z][a-z]*-[a-z]*" src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ | sort -u | head -20
 ```
 
-
 ## Files to Manage
 
-- `.ltex.dictionary.txt` - Legitimate words (one per line)
-- `.ltex.disabledRules.txt` - Disabled rule IDs
-- `.ltex.hiddenFalsePositives.txt` - Context-specific suppressions
+| File | Purpose |
+|------|---------|
+| `.ltex.dictionary.txt` | Legitimate words (one per line) |
+| `.ltex.disabledRules.txt` | Disabled rule IDs |
+| `.ltex.hiddenFalsePositives.txt` | Context-specific suppressions |
 
 ## Decision Process
 
-For each flagged word:
-
-1. **Legitimate vocabulary?** → Add to `.ltex.dictionary.txt`
-   - Technical terms (Typst, LTeX, AmE, BrE)
-   - Domain jargon
-   - Proper nouns
-   - Acronyms
-
-2. **Rule too strict globally?** → Add to `.ltex.disabledRules.txt`
-   - Rule ID one per line
-
-3. **False positive in context?** → Add to `.ltex.hiddenFalsePositives.txt`
-   ```json
-   {"rule":"RULE_ID","sentence":"^exact sentence pattern$"}
-   ```
-
-4. **Actual error?** → Report for human review (do NOT auto-fix spelling)
+| Case | Action |
+|------|--------|
+| Legitimate vocab (technical terms, jargon, proper nouns, acronyms) | Add to `.ltex.dictionary.txt` |
+| Rule too strict globally | Add rule ID to `.ltex.disabledRules.txt` |
+| False positive in context | Add to `.ltex.hiddenFalsePositives.txt`: `{"rule":"RULE_ID","sentence":"^exact sentence pattern$"}` |
+| Actual error | Report for human review — do NOT auto-fix spelling |
 
 ## VSCode Settings
 

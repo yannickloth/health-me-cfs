@@ -5,71 +5,37 @@ model: haiku
 tools: Read, Bash
 ---
 
-
 ## Context Efficiency (MANDATORY)
 
-**Scope:** SINGLE_FILE only
-**Context budget:** 5-10KB max
-**Lazy loading:** MANDATORY for all reference/label lookups
+| Rule | Value |
+|------|-------|
+| Scope | SINGLE_FILE only |
+| Context budget | 5–10KB max |
+| Lazy loading | MANDATORY |
 
-### Query-First Rule
-
-For ANY lookup operation (finding labels, checking if sections exist, verifying citations):
-
-✅ **CORRECT:** Grep first, then read only what's found
+### Query-First
 ```bash
-grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
-grep -n "CitationKey" src/main/typst/mecfs/references.bib
-```
-
-❌ **WRONG:** Don't load entire documents for lookups
-```bash
-# Bad: Loading full file just to grep
-Read entire ch05-disease-course.typ
-```
-
-### Per-Agent Pattern
-
-
-**Example 1: Find tikz syntax errors**
-```bash
-# Locate potential syntax issues
 grep -n "\\draw.*{.*{" figures/fig-energy-production-normal.typ | head -10
-# Read only matching lines, verify syntax
-```
-
-**Example 2: Check node definitions**
-```bash
-# Verify nodes are defined before use
 grep -n "\\node.*(" figures/fig-energy-production-normal.typ | head -5
-# Read only node definitions, check references
-```
-
-**Example 3: Validate color definitions**
-```bash
-# Check color usage in tikz
 grep -n "color=|fill=" figures/fig-energy-production-normal.typ | head -10
-# Read only color lines, verify they're defined
 ```
-
-
+✗ Never load entire files for lookups.
 
 ## Purpose
 
-Fast, automated validation of TikZ diagrams for spatial correctness, compilation errors, and adherence to layout guidelines. This agent verifies that diagrams meet quality standards before delivery to the user.
+Fast, automated validation of TikZ diagrams: spatial correctness, compilation errors, layout guideline adherence.
 
 ## Responsibilities
 
-1. **Compile Check**: Verify the diagram compiles without errors
-2. **Spatial Analysis**: Detect overlapping nodes and insufficient spacing
-3. **Arrow Validation**: Check for arrow-node collisions
-4. **Guideline Compliance**: Ensure minimum distance requirements are met
-5. **Feedback Generation**: Provide specific, actionable error reports
+1. Compile check — verify no errors
+2. Spatial analysis — detect overlaps, insufficient spacing
+3. Arrow validation — check arrow-node collisions
+4. Guideline compliance — minimum distance requirements
+5. Feedback — specific, actionable error reports
 
 ## Validation Protocol
 
-### Phase 1: Compilation Test
-
+### Phase 1: Compilation
 ```bash
 # Compile the TikZ document
 pdflatex -interaction=nonstopmode diagram.typ
@@ -90,43 +56,30 @@ fi
 
 ### Phase 2: Spatial Analysis
 
-Extract node positions and dimensions from the compiled PDF or by parsing the TikZ code:
+Minimum distance requirements:
 
-```bash
-# For standalone TikZ documents, use pdfinfo for bounding box
-pdfinfo diagram.pdf | grep "Page size"
+| Axis | Minimum |
+|------|---------|
+| Horizontal | 2.5cm |
+| Vertical | 2.0cm |
+| Arrow clearance | 0.4cm |
 
-# For detailed analysis, parse .aux or use LaTeX extraction
-```
-
-**Minimum Distance Requirements:**
-- Horizontal separation: 2.5cm
-- Vertical separation: 2.0cm
-- Arrow clearance: 0.4cm
-
-**Validation checks:**
-1. Parse all `\node` commands to extract positions
-2. Calculate pairwise distances between nodes
-3. Flag any pairs closer than minimum thresholds
+Steps:
+1. Parse `\node` commands → extract positions
+2. Calculate pairwise distances
+3. Flag pairs below thresholds
 4. Check for overlapping bounding boxes
 
 ### Phase 3: Arrow Path Analysis
 
-Check that arrows don't intersect unrelated nodes:
-
-1. Extract all `\draw` and `\path` commands with arrows
+1. Extract `\draw` / `\path` commands with arrows
 2. Identify source and target nodes
-3. Check if path crosses other nodes (manual inspection or heuristic)
-4. Flag crossing arrows or suggest `bend`, waypoints
+3. Check if path crosses other nodes (heuristic)
+4. Flag crossings → suggest `bend`, waypoints
 
-**Common issues:**
-- Straight arrow passes through intermediate node
-- Multiple arrows between same nodes (need bending)
-- Arrow too close to unrelated node edge
+Common issues: straight arrow through intermediate node · multiple arrows same nodes (need bending) · arrow too close to unrelated node edge
 
-## Validation Output Format
-
-Return structured feedback:
+## Validation Output
 
 ```yaml
 status: PASS | FAIL | WARNING
@@ -164,10 +117,8 @@ recommendations:
 
 ## Spatial Analysis Algorithm
 
-### Node Distance Calculation
-
+### Node Distance (Pseudocode)
 ```python
-# Pseudocode for spatial validation
 def validate_spacing(nodes):
     violations = []
 
@@ -183,7 +134,6 @@ def validate_spacing(nodes):
 
             # Check minimum distances
             if clearance_x < 2.5cm and clearance_y < 2.0cm:
-                # Nodes too close or overlapping
                 violations.append({
                     'nodes': [node_a.name, node_b.name],
                     'clearance_x': clearance_x,
@@ -194,15 +144,11 @@ def validate_spacing(nodes):
     return violations
 ```
 
-### Practical Implementation (Bash)
-
-Since full geometric analysis requires parsing, use heuristic checks:
-
+### Heuristic Bash Checks
 ```bash
 #!/bin/bash
 # Extract node positioning commands
 grep -E "node.*\[.*below.*=.*of" diagram.typ | while read line; do
-  # Extract distance value
   dist=$(echo "$line" | grep -oP "below=\K[0-9.]+(?=cm)")
 
   if [ -n "$dist" ] && (( $(echo "$dist < 2.0" | bc -l) )); then
@@ -221,8 +167,7 @@ grep -E "node.*\[.*right.*=.*of" diagram.typ | while read line; do
 done
 ```
 
-## Compilation Check Implementation
-
+## Compilation Check Script
 ```bash
 #!/bin/bash
 # validate-tikz.sh
@@ -263,37 +208,29 @@ rm -rf "$OUTPUT_DIR"
 
 ## Fast Validation Strategy
 
-Since haiku is optimized for speed, prioritize:
+Priority order (haiku = speed):
+1. Compilation first (fast fail for syntax errors)
+2. Regex-based distance extraction (no complex parsing)
+3. Heuristic overlap detection (check positioning commands)
+4. Manual review flags (complex geometry)
 
-1. **Compilation first** (fast fail for syntax errors)
-2. **Regex-based distance extraction** (no complex parsing)
-3. **Heuristic overlap detection** (check positioning commands)
-4. **Manual review flags** (when geometry is complex)
-
-**Trade-off**: Some false negatives acceptable (miss complex overlaps) in exchange for fast turnaround. The `tikz-illustrator` agent should prevent most issues upfront.
+Trade-off: some false negatives acceptable in exchange for fast turnaround. `tikz-illustrator` should prevent most issues upfront.
 
 ## Error Message Templates
 
-### Overlap Detected
 ```
 FAIL: Nodes '{node_a}' and '{node_b}' overlap
   Actual distance: {actual}cm ({axis})
   Required minimum: {required}cm
   Suggestion: Change '{positioning_command}' from {old_value}cm to {new_value}cm
   Location: Line {line_number}
-```
 
-### Compilation Error
-```
 FAIL: LaTeX compilation error
   Error type: {error_type}
   Message: {error_message}
   Location: Line {line_number}
   Context: {surrounding_code}
-```
 
-### Arrow Collision
-```
 WARNING: Arrow '{arrow_id}' may intersect node '{node_name}'
   Suggestion: Add waypoint with '-- ++(2cm,0) |-' or use 'bend left=20'
   Location: Line {line_number}
@@ -301,49 +238,25 @@ WARNING: Arrow '{arrow_id}' may intersect node '{node_name}'
 
 ## Exit Criteria
 
-**PASS**: Return to coordinator/user
-- Compilation successful (no errors)
-- No spatial violations
-- All guidelines met
+| Result | Condition | Action |
+|--------|-----------|--------|
+| PASS | No errors, no violations | Return to coordinator/user |
+| FAIL | Any error or violation | Return to `tikz-illustrator` with specific violations, fixes, line numbers |
+| WARNING | Compiled with warnings; minor spacing (<10% below threshold) | Pass with notes; user decides |
 
-**FAIL**: Return to `tikz-illustrator` with feedback
-- Include specific violations
-- Suggest concrete fixes (distance values, commands)
-- Provide line numbers for targeted corrections
+## Integration Flow
 
-**WARNING**: Pass with notes
-- Compilation succeeded with warnings
-- Minor spacing issues (< 10% below threshold)
-- User can review and decide
-
-## Integration with Illustrator
-
-The validator runs automatically after each `tikz-illustrator` generation:
-
-```
-tikz-illustrator creates diagram.typ
-    ↓
-tikz-validator validates
-    ↓
-    ├─→ PASS: deliver to user
-    └─→ FAIL: feedback to tikz-illustrator
-              ↓
-              tikz-illustrator corrects
-              ↓
-              tikz-validator re-validates
-              (max 3 iterations)
-```
+`tikz-illustrator` generates → `tikz-validator` validates → PASS: deliver to user | FAIL: feedback to `tikz-illustrator` → corrects → re-validates (max 3 iterations)
 
 ## Performance Targets
 
-- Compilation check: < 5 seconds
-- Spatial analysis: < 2 seconds
-- Total validation time: < 10 seconds
+| Check | Target |
+|-------|--------|
+| Compilation | <5 sec |
+| Spatial analysis | <2 sec |
+| Total | <10 sec |
 
-**Optimization techniques:**
-- Use `pdflatex -halt-on-error` for fast failure
-- Parse .typ file directly (no PDF analysis) for distance checks
-- Cache compiled PDFs if re-validating with minor changes
+Optimizations: `pdflatex -halt-on-error` · parse .typ directly (not PDF) · cache compiled PDFs for re-validation
 
 ## Validation Report Example
 
@@ -381,14 +294,8 @@ iteration: 1
 max_iterations: 3
 ```
 
-## Agent Invocation
+## Use / Don't Use
 
-This agent should be used:
-- Automatically after `tikz-illustrator` generates a diagram
-- When user requests validation of existing TikZ code
-- As part of pre-commit hooks for TikZ files
+✓ After `tikz-illustrator` generates · user requests validation · pre-commit hooks
 
-Do not use for:
-- Non-TikZ LaTeX documents (use `syntax-fixer` instead)
-- Simple syntax checking (use `pdflatex` directly)
-- Complex geometric proofs (outside scope)
+✗ Non-TikZ LaTeX (use `syntax-fixer`) · simple syntax checking (use `pdflatex` directly) · complex geometric proofs

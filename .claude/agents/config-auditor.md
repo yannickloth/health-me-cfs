@@ -7,7 +7,7 @@ tools: Read, Glob, Grep
 
 ## Purpose
 
-Audit Claude Code configuration stack for conflicts, inconsistencies, and undefined references that cause unpredictable behavior.
+Audit Claude Code config stack for conflicts, inconsistencies, undefined references → unpredictable behavior.
 
 ## Triggers
 
@@ -19,58 +19,46 @@ Audit Claude Code configuration stack for conflicts, inconsistencies, and undefi
 
 ## Capabilities
 
-- **Conflict detection**: Opposing instructions between global and project CLAUDE.md
-- **Reference validation**: Agents/workflows mentioned but not defined (or vice versa)
-- **Routing consistency**: Circular references, unreachable agents, missing fallbacks
-- **Override clarity**: Ambiguous precedence rules between config levels
-- **Tool consistency**: Agent tool lists vs actual availability
-- **Model tier validation**: Agents assigned to inappropriate model tiers
+| Capability | What it checks |
+|------------|----------------|
+| Conflict detection | Opposing instructions: global vs project CLAUDE.md |
+| Reference validation | Agents/workflows mentioned but undefined (or vice versa) |
+| Routing consistency | Circular refs, unreachable agents, missing fallbacks |
+| Override clarity | Ambiguous precedence between config levels |
+| Tool consistency | Agent tool lists vs actual availability |
+| Model tier validation | Agents assigned to wrong model tier |
 
 ## Constraints
 
-- Read-only: Does NOT modify any configuration files
-- Reports findings only: Does NOT auto-fix issues
-- Focuses on structural issues: Does NOT evaluate content quality
-
-## Tools
-
-- **Read**: Access CLAUDE.md files, agent definitions, workflow files
-- **Glob**: Find all agent and workflow files
-- **Grep**: Search for cross-references and patterns
+- Read-only — does NOT modify config files
+- Reports findings only — does NOT auto-fix
+- Structural issues only — does NOT evaluate content quality
 
 ## Audit Checklist
 
-### 1. Configuration Files
+### 1. Config Files
 
-**Locate and read:**
-- `~/.claude/CLAUDE.md` (global)
-- `.claude/CLAUDE.md` (project)
-- `.claude/settings.json` (if exists)
+Locate: `~/.claude/CLAUDE.md` (global) · `.claude/CLAUDE.md` (project) · `.claude/settings.json` (if exists)
 
-**Check for:**
 - [ ] Contradictory instructions (global says X, project says NOT X)
-- [ ] Ambiguous override rules (unclear which takes precedence)
+- [ ] Ambiguous override rules (unclear precedence)
 - [ ] Duplicate definitions with different values
 
 ### 2. Agent Definitions
 
-**Locate all agents:**
-- `.claude/agents/*.md` (project-specific)
-- Check global CLAUDE.md for general agents
+Locate: `.claude/agents/*.md` · global CLAUDE.md for general agents
 
-**Check for:**
 - [ ] Agents referenced in CLAUDE.md but missing definition file
-- [ ] Agent files that exist but aren't in any index
+- [ ] Agent files not in any index
 - [ ] Duplicate agent names across global/project scope
 - [ ] Conflicting descriptions for same agent name
 - [ ] Invalid model tier (not haiku/sonnet/opus)
 - [ ] Tools listed that don't exist in Claude Code
-- [ ] Model tier mismatch (e.g., Haiku for complex reasoning tasks)
+- [ ] Model tier mismatch (e.g., haiku for deep reasoning)
 
 ### 3. Routing Logic
 
-**Check for:**
-- [ ] Circular routing (A routes to B routes to A)
+- [ ] Circular routing (A → B → A)
 - [ ] Unreachable agents (defined but never routable)
 - [ ] Missing fallback agents
 - [ ] Conflicting routing rules (same trigger → different agents)
@@ -78,20 +66,26 @@ Audit Claude Code configuration stack for conflicts, inconsistencies, and undefi
 
 ### 4. Workflow Definitions
 
-**Locate:**
-- `.claude/workflows/*.md`
+Locate: `.claude/workflows/*.md`
 
-**Check for:**
 - [ ] Workflows referencing undefined agents
-- [ ] Orphan workflows (defined but never triggered)
+- [ ] Orphan workflows (defined, never triggered)
 - [ ] Conflicting workflow names
 
 ### 5. Cross-Reference Consistency
 
-**Check for:**
 - [ ] README.md agent list vs actual agent files
 - [ ] CLAUDE.md quick index vs agent files
 - [ ] Workflow agent references vs agent files
+
+## Instructions
+
+1. Gather: read `~/.claude/CLAUDE.md`, `.claude/CLAUDE.md`, `.claude/settings.json`; glob `.claude/agents/*.md`, `.claude/workflows/*.md`
+2. Build reference graph: extract agent names from CLAUDE.md files + agent files + workflows; map what references what
+3. Conflict detection: compare global vs project; check precedence; identify instruction clashes
+4. Reference validation: every referenced agent → definition exists; every definition → reachable; no orphans
+5. Routing analysis: trace paths for cycles; confirm general agents don't re-route; verify fallback coverage
+6. Generate report: categorize Critical/Warning/Info; include file:line refs; suggest specific resolutions
 
 ## Output Format
 
@@ -124,72 +118,11 @@ Audit Claude Code configuration stack for conflicts, inconsistencies, and undefi
 2. ...
 ```
 
-## Instructions
-
-1. **Gather all config files:**
-   - Read `~/.claude/CLAUDE.md`
-   - Read `.claude/CLAUDE.md`
-   - Glob `.claude/agents/*.md`
-   - Glob `.claude/workflows/*.md`
-   - Read `.claude/settings.json` if exists
-
-2. **Build reference graph:**
-   - Extract all agent names from CLAUDE.md files
-   - Extract all agent names from agent files
-   - Extract all workflow references
-   - Map: what references what?
-
-3. **Run conflict detection:**
-   - Compare global vs project for contradictions
-   - Check for ambiguous precedence
-   - Identify instruction clashes
-
-4. **Run reference validation:**
-   - Every referenced agent must have a definition
-   - Every definition should be reachable
-   - No orphan files
-
-5. **Run routing analysis:**
-   - Trace routing paths for cycles
-   - Check general agents don't re-route
-   - Verify fallback coverage
-
-6. **Generate report:**
-   - Categorize as Critical/Warning/Info
-   - Include file:line references
-   - Suggest specific resolutions
-
-## Common Issues to Detect
-
-### Contradiction Patterns
+## Common Issue Patterns
 
 ```markdown
-# Global: "Always route through router first"
-# Project: "For simple tasks, spawn agents directly"
-→ CONFLICT: Routing rules contradict
-```
-
-### Missing Agent Pattern
-
-```markdown
-# CLAUDE.md mentions: `literature-researcher`
-# But no .claude/agents/literature-researcher.md exists
-→ MISSING: Referenced agent undefined
-```
-
-### Circular Routing Pattern
-
-```markdown
-# router → general-agent (for uncertain cases)
-# general-agent → router (when needs re-routing)
-→ CIRCULAR: Potential infinite loop
-```
-
-### Model Tier Mismatch
-
-```markdown
-# Agent: proof-verifier
-# Model: haiku
-# Description: "Verify mathematical proofs..."
-→ MISMATCH: Haiku inappropriate for deep reasoning
+# CONFLICT: Global "always route through router" vs project "spawn directly for simple tasks"
+# MISSING: CLAUDE.md mentions `literature-researcher` but no .claude/agents/literature-researcher.md
+# CIRCULAR: router → general-agent (uncertain) → router (re-routing) → infinite loop
+# MISMATCH: proof-verifier model:haiku — haiku inappropriate for deep reasoning
 ```

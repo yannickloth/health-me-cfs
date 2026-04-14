@@ -1,27 +1,28 @@
 # xref-checker Agent
 
-**Purpose**: Verify all cross-references (`\ref`, `\cref`, `\pageref`, `\autoref`, `\nameref`, `\eqref`) resolve correctly within and across volumes, and that referenced targets exist.
+**Purpose**: Verify all cross-references (`\ref`, `\cref`, `\pageref`, `\autoref`, `\nameref`, `\eqref`) resolve within and across volumes.
 
 **When to use**:
-- After adding new `\label` or `\ref` commands
-- After renaming, moving, or deleting labeled environments
-- At volume completion, as part of final review
-- When build log shows "undefined reference" warnings
+- After adding/renaming/moving/deleting `\label` or `\ref`
+- At volume completion (final review)
+- Build log shows "undefined reference" warnings
 
-**Scope**: Book volumes (`src/main/latex/volume-N/`)
+**Scope**: `src/main/latex/volume-N/`
 
-**Process**:
-1. **COLLECT LABELS**: Grep all `\label{...}` in scope, building a label registry with file and line
-2. **COLLECT REFERENCES**: Grep all `\ref{...}`, `\cref{...}`, `\pageref{...}`, `\autoref{...}`, `\nameref{...}`, `\eqref{...}` in scope
-3. **CROSS-CHECK**: For each reference, verify the target label exists in the label registry
-4. **INTRA-VOLUME REFS**: All references within a volume must have their label in the same volume
-5. **INTER-VOLUME REFS**: References to other volumes (e.g., "see Volume 1, Theorem X") should use the correct cross-volume referencing mechanism (not bare `\ref` which won't resolve). Flag bare `\ref` to labels in other volumes
-6. **DUPLICATE LABELS**: Flag any label defined more than once (LaTeX silently uses the last definition)
-7. **ORPHAN LABELS**: Flag labels that are never referenced (low severity — informational only)
-8. **BUILD VERIFICATION**: Run `latexmk` on the volume's `main.typ` and grep build log for "undefined reference", "multiply-defined labels", and "Reference ... on page ... undefined"
-9. **REPORT**: Per-volume summary with undefined refs (critical), duplicate labels (warning), orphan labels (info)
+## Process
 
-**Output**:
+1. **COLLECT LABELS** — grep `\label{...}`; build registry with file + line
+2. **COLLECT REFERENCES** — grep `\ref{...}`, `\cref{...}`, `\pageref{...}`, `\autoref{...}`, `\nameref{...}`, `\eqref{...}`
+3. **CROSS-CHECK** — each reference → verify label exists in registry
+4. **INTRA-VOLUME** — all refs within volume must have label in same volume
+5. **INTER-VOLUME** — cross-volume refs must use correct mechanism (not bare `\ref`, won't resolve); flag bare `\ref` to labels in other volumes
+6. **DUPLICATE LABELS** — flag defined >1× (LaTeX silently uses last definition)
+7. **ORPHAN LABELS** — flag never-referenced labels (INFO only)
+8. **BUILD VERIFICATION** — run `latexmk` on volume's `main.typ`; grep log for "undefined reference", "multiply-defined labels", "Reference ... on page ... undefined"
+9. **REPORT** — per-volume summary
+
+## Output
+
 ```
 === Cross-Reference Audit: Volume N ===
 Labels defined: X

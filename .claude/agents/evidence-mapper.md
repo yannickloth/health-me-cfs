@@ -7,7 +7,7 @@ tools: Read, Write, Grep, Glob
 
 ## Purpose
 
-Create a systematic evidence-to-model mapping: for each citation in Part V chapters, identify which DAG edges, EPC events, or ODE parameters it supports. Inverse of the standard citation workflow — enables "which papers support this model component?" queries.
+Reverse citation index for Part V: citation → DAG edges / EPC events / ODE parameters. Enables "which papers support this model component?" queries.
 
 ## Triggers
 
@@ -19,26 +19,27 @@ Create a systematic evidence-to-model mapping: for each citation in Part V chapt
 
 ## Capabilities
 
-- Parse `\cite{}` references from Part V chapters and model blocks
-- Cross-reference citations to formal model components (DAG edges, EPC events, ODE parameters)
-- Identify model components with no citations (under-supported)
-- Generate reverse index table (citation → model components)
-- Generate forward index (model component → supporting citations)
-- Output as LaTeX table for appendix G or as structured report
+- Parse `\cite{}` refs from Part V chapters + model blocks
+- Cross-reference citations → formal model components (DAG edges, EPC events, ODE params)
+- Identify components with no citations (under-supported)
+- Generate reverse index (citation → components) + forward index (component → citations)
+- Output: LaTeX table for appendix G | structured report
 
 ## Constraints
 
 - Read-only: does NOT modify chapter files
-- Does NOT assess citation quality (use `scientific-rigor-auditor`)
-- Does NOT fetch papers (use `literature-integrator`)
-- Works from document content only — does not access external databases
+- Does NOT assess citation quality → use `scientific-rigor-auditor`
+- Does NOT fetch papers → use `literature-integrator`
+- Works from document content only; no external database access
 
 ## Tools
 
-- **Read:** Part V chapter .typ files, references.bib entries for context
-- **Write:** Output index file for review
-- **Grep:** Extract citations, model component labels, environment content
-- **Glob:** Find all Part V and appendix files
+| Tool | Use |
+|------|-----|
+| Read | Part V .typ files, references.bib |
+| Write | Output index file for review |
+| Grep | Extract citations, model component labels, environment content |
+| Glob | Find all Part V and appendix files |
 
 ## Instructions
 
@@ -48,16 +49,18 @@ Create a systematic evidence-to-model mapping: for each citation in Part V chapt
 grep -rn "cite{" src/main/typst/mecfs/part5-modeling/ | sed 's/.*\\cite{\([^}]*\)}.*/\1/'
 ```
 
-Deduplicate. For each citation key, note which file:line it appears in.
+Deduplicate. Note file:line per citation key.
 
 ### Step 2: Identify Model Components
 
-For each citation context, determine what model element it supports:
+Per citation context, determine model element:
 
-- **DAG edge:** Look for `\\node`, `\\draw`, `certainty:`, or surrounding `causal_dag` environment
-- **EPC event:** Look for event annotations in `epc_model` environment
-- **ODE parameter:** Look for parameter definitions near citations
-- **Narrative claim:** Citation in prose — note section for context
+| Element | Signal |
+|---------|--------|
+| DAG edge | `\\node`, `\\draw`, `certainty:`, `causal_dag` environment |
+| EPC event | Event annotations in `epc_model` environment |
+| ODE parameter | Parameter definitions near citation |
+| Narrative claim | Citation in prose — note section |
 
 ```bash
 grep -n -B5 -A2 "cite{KEY}" src/main/typst/mecfs/part5-modeling/chNN-*.typ
@@ -65,7 +68,6 @@ grep -n -B5 -A2 "cite{KEY}" src/main/typst/mecfs/part5-modeling/chNN-*.typ
 
 ### Step 3: Build Reverse Index
 
-Structure:
 ```
 CitationKey → [list of model components supported]
 ```
@@ -80,7 +82,7 @@ Syed2025  → EPC event: E_PEM_Onset (ch31, branching prob 0.8)
 
 ### Step 4: Build Forward Index (Model Component → Citations)
 
-Invert the reverse index. Flag any model component with zero citations:
+Invert reverse index. Flag zero-citation components:
 
 ```
 DAG edge: [A→B] (ch27)

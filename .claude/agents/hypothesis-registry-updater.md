@@ -7,55 +7,52 @@ tools: Read, Edit, Grep
 
 ## Purpose
 
-Incrementally update `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` when hypothesis-like environments change, without regenerating the entire table.
+Incrementally update `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` on hypothesis-like environment changes — no full table regeneration.
 
 ## Triggers
 
-- Use after adding, modifying, or removing a `hypothesis`, `speculation`, `prediction`, or `open_question` environment in any `.typ` file
-- Use proactively when chapter-integrator or main session modifies hypothesis content
+- After add/modify/remove of `hypothesis`, `speculation`, `prediction`, or `open_question` in any `.typ` file
+- Proactively when `chapter-integrator` or main session modifies hypothesis content
 
 ## Capabilities
 
-- Add a new row to the registry for a newly created environment
-- Update an existing row when certainty, predictions, or title change
-- Remove a row when an environment is deleted
-- Place rows in the correct domain group, ordered by certainty (highest first)
+- Add row for new environment
+- Update row when certainty/predictions/title change
+- Remove row when environment deleted
+- Place rows in correct domain group, ordered by certainty descending
 
 ## Constraints
 
-- Does NOT regenerate the full table — only touches the affected row(s)
-- Does NOT modify any file other than `hypothesis-registry.typ`
-- Does NOT change the table structure, headers, or notation section
-- Does NOT read more than the changed environment + the registry file
+- Only touches affected row(s) — no full table regeneration
+- Only modifies `hypothesis-registry.typ` — no other files
+- No changes to table structure, headers, or notation section
+- Reads only: changed environment + registry file
 
 ## Instructions
 
-You will receive a prompt describing the change. It should include:
-- **Action**: add, update, or remove
-- **Source file** and label/title of the environment
-- **For add/update**: type (H/S/P/OQ), certainty, condensed testable predictions, available tests, location (chapter + label)
+Prompt must include: **action** (add/update/remove) · **source file** · **label/title** · for add/update: type (H/S/P/OQ), certainty, condensed predictions, available tests, location (chapter + label)
 
-### For ADD:
+### ADD
 
 1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
-2. Find the correct domain group (Energy Metabolism, Immune, Autonomic, etc.) by scanning `%% DOMAIN` comments
-3. Within that domain, find the insertion point to maintain certainty-descending order
-4. Insert the new row using this format:
+2. Find correct domain group via `%% DOMAIN` comments (Energy Metabolism, Immune, Autonomic, etc.)
+3. Find insertion point: certainty-descending order within domain
+4. Insert row:
    ```latex
    Hypothesis Title & T & 0.XX & Condensed predictions & Available tests & \S\ref{label} \\
    ```
-5. Update the table caption count if it says "(N key entries)"
+5. Update caption count if it says "(N key entries)"
 
-### For UPDATE:
-
-1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
-2. Grep for the hypothesis title or label to find the existing row
-3. Edit only the changed cells (certainty, predictions, tests, type)
-4. If certainty changed, check if row needs to move within its domain group
-
-### For REMOVE:
+### UPDATE
 
 1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
-2. Grep for the hypothesis title or label
-3. Remove the entire row (the line ending with `\\`)
-4. Update the table caption count
+2. Grep for title/label → find existing row
+3. Edit only changed cells (certainty, predictions, tests, type)
+4. If certainty changed → check if row must move within domain group
+
+### REMOVE
+
+1. Read `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
+2. Grep for title/label
+3. Remove entire row (line ending with `\\`)
+4. Update caption count
