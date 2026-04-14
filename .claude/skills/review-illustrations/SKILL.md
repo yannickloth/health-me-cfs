@@ -6,15 +6,14 @@ argument-hint: <file-path-or-glob>
 
 # Illustration Review
 
-Run all diagram review agents on the specified figure scope. Covers four dimensions: technical layout, scientific accuracy, visual rhetoric/bias, and cross-figure consistency.
+All diagram review agents on specified figure scope. Four dimensions: layout, scientific accuracy, visual rhetoric/bias, cross-figure consistency.
 
 ## Arguments
 
-- `$ARGUMENTS` -- file path(s) or glob pattern (e.g., `typst/figures/fig-immune-*.typ`, `typst/figures/`)
+- `$ARGUMENTS` — file path(s) or glob (e.g., `typst/figures/fig-immune-*.typ`, `typst/figures/`)
 
-**Guard:** If `$ARGUMENTS` is empty, ask the user for a scope.
-
-**Guard:** If the resolved glob matches zero files, ask user to refine.
+**Guard:** `$ARGUMENTS` empty → ask user for scope.
+**Guard:** Glob resolves to zero files → ask user to refine.
 
 ## Review Pipeline
 
@@ -29,10 +28,10 @@ Run all diagram review agents on the specified figure scope. Covers four dimensi
 ## Execution Protocol
 
 1. **Resolve scope:** Expand glob, list files, count. Report.
-2. **For each phase:**
-   a. Launch agent with prompt: "Audit the following figure files. Files: [list]. Report findings. Do NOT edit files."
-   b. Collect findings
-   c. Report: "Phase N complete: X findings"
+2. **Per phase:**
+   - Launch agent: "Audit the following figure files. Files: [list]. Report findings. Do NOT edit files."
+   - Collect findings
+   - Report: "Phase N complete: X findings"
 3. **Aggregate report:**
 
 ```
@@ -51,7 +50,7 @@ FINDINGS BY DIMENSION:
   5. Cross-figure consistency:  N findings
 
 CRITICAL FINDINGS:
-  [List all critical-severity findings across all phases]
+  [All critical-severity findings across all phases]
 
 FULL DETAILS:
   [per-phase reports appended]
@@ -64,11 +63,11 @@ RECOMMENDED FIX ORDER:
   5. Caption improvements (completeness)
 ```
 
-4. **Write report** to `$XDG_RUNTIME_DIR/review-illustrations-[timestamp].md`
+4. Write report → `$XDG_RUNTIME_DIR/review-illustrations-[timestamp].md`
 
 ## Constraints
 
-- All agents run in **audit mode** (read-only, no edits)
-- Phase 3-4 (accuracy, rhetoric) are most valuable AFTER figures are actually implemented (not placeholders)
-- If all figures are still placeholders, report this and skip Phases 3-5
-- Phase 5 (consistency) requires multiple figures — skip if scope is a single figure
+- All agents: **audit mode** (read-only, no edits)
+- Phases 3–4 (accuracy, rhetoric) most valuable after figures implemented — not placeholders
+- All figures placeholders → report this; skip Phases 3–5
+- Phase 5 (consistency) requires multiple figures → skip if scope is single figure

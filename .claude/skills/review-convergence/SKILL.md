@@ -6,51 +6,48 @@ argument-hint: <file-path-or-glob>
 
 # Autonomous Review Convergence
 
-Run iterative adversarial review rounds on the specified scope until convergence (zero findings) or max rounds reached. Works with any file type.
+Iterative adversarial review-fix loop until convergence (zero findings) or max rounds. Any file type.
 
-For LaTeX-specific review (scientific rigor, citation checks, `nix build`), use `/review-latex` instead.
+For LaTeX-specific review (scientific rigor, citation checks, `nix build`) → use `/review-latex` instead.
 
 ## Arguments
 
-- `$ARGUMENTS` — file path(s) or glob pattern to review (e.g., `.claude/agents/*.md` or `.claude/CLAUDE.md`)
+- `$ARGUMENTS` — file path(s) or glob (e.g., `.claude/agents/*.md`, `.claude/CLAUDE.md`)
 
-**Guard:** If `$ARGUMENTS` is empty, blank, or contains only the literal string `$ARGUMENTS`, ask the user for a scope before proceeding. Do not start the review loop without a concrete file path or glob pattern.
-
-**Guard:** If the resolved glob matches zero files, report the empty match and ask the user to refine the scope. Do not start the review loop with an empty file set.
+**Guard:** `$ARGUMENTS` empty/blank/literal → ask user for scope; do not start without concrete path/glob.
+**Guard:** Glob resolves to zero files → report empty match; ask user to refine; do not start with empty file set.
 
 ## Protocol
 
-For each round (R1, R2, ...):
+Per round (R1, R2, ...):
 
-1. **REVIEW**: Read all files in scope. Perform adversarial audit for:
-   - Internal consistency: no contradictions between files or within a file
-   - Cross-file references: every referenced path, command, or agent exists
-   - Completeness: no unhandled branches, missing instructions, or unstated assumptions
-   - Logical coherence: no circular reasoning, non sequiturs, or ambiguous directives
+1. **REVIEW** — Read all files in scope. Audit for:
+   - Internal consistency: no contradictions within/between files
+   - Cross-file references: every referenced path, command, agent exists
+   - Completeness: no unhandled branches, missing instructions, unstated assumptions
+   - Logical coherence: no circular reasoning, non sequiturs, ambiguous directives
    - Correctness: stated behaviors match actual implementations
 
-2. **FIX**: Apply all fixes.
+2. **FIX** — Apply all fixes.
 
-3. **REPORT**: Output structured summary:
-
+3. **REPORT:**
    ```
    Round RN: X findings found, Y fixed
    Categories: [consistency: A, references: B, completeness: C, logic: D, correctness: E]
    ```
 
-4. **DECIDE**:
-   - If findings > 0 AND round < 12: proceed to next round
-   - If findings = 0: track a consecutive-clean counter (starts at 0, increments each round with 0 findings, resets to 0 on any round with findings > 0)
-     - If consecutive-clean counter < 2: proceed to next round (confirmation pass)
-     - If consecutive-clean counter ≥ 2: declare convergence and stop
-   - **Convergence requires 2 consecutive rounds of 0 findings.** Any correction — however small — resets the counter and restarts the clean-pass requirement.
-   - If round = 12 AND findings > 0: stop, report remaining findings for human review
+4. **DECIDE:**
+   - findings > 0 AND round < 12 → next round
+   - findings = 0 → increment consecutive-clean counter (resets to 0 on any round with findings > 0)
+     - counter < 2 → next round (confirmation pass)
+     - counter ≥ 2 → declare convergence; stop
+   - **Convergence = 2 consecutive rounds of 0 findings.** Any correction — however small — resets counter.
+   - round = 12 AND findings > 0 → stop; report remaining findings for human review
 
 ## Checkpoint
 
-After every 3 rounds, write a continuation checkpoint to `.claude/review-checkpoint-convergence.md` with:
-
-- Scope and current round number
+Every 3 rounds → write continuation checkpoint to `.claude/review-checkpoint-convergence.md`:
+- Scope + current round number
 - Cumulative findings by category
 - Remaining known issues
 - Exact next steps to resume
@@ -60,4 +57,4 @@ After every 3 rounds, write a continuation checkpoint to `.claude/review-checkpo
 - Do NOT invent content or factual claims
 - Do NOT add content beyond what's needed to fix a finding
 - Do NOT refactor code that isn't broken
-- If unsure about a claim, flag it for human review rather than changing it
+- Unsure about a claim → flag for human review; do not change
