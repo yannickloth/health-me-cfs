@@ -1,6 +1,8 @@
+> **Style rule:** All `.claude/` config files must use schematic, telegraphic style — tables/lists/symbols > prose, short phrases, filler words dropped. Goal: minimize context window consumption.
+
 # CLAUDE.md
 
-Typst-based ME/CFS documentation with automatic subagent delegation for quality assurance.
+ME/CFS documentation (Typst-based) with automatic subagent delegation for quality assurance.
 
 ---
 
@@ -13,48 +15,36 @@ nix run .#clean        # Clean artifacts
 
 ## Context and Cost Management
 
-**Claude MUST proactively monitor token usage and optimize session costs.**
+MUST proactively monitor token usage and optimize session costs.
 
 ### Monitoring Requirements
 
-**CRITICAL: Check EVERY `<system_warning>Token usage: X/200000` tag and calculate percentage.**
+CRITICAL: Check EVERY `<system_warning>Token usage: X/200000` tag and calculate percentage.
 
-**MANDATORY: Start EVERY response with context status:**
+MANDATORY: Start EVERY response with context status (before any other content):
 
 ```text
 📊 Context: X.X% (XXX,XXX / 200,000 tokens)
 ```
 
-**Always include this at the start of your response, before any other content.**
-
-- Extract tokens from: `<system_warning>Token usage: 152000/200000; 48000 remaining</system_warning>`
+- Extract from: `<system_warning>Token usage: 152000/200000; 48000 remaining</system_warning>`
 - Calculate: `percentage = (tokens_used / 200000) * 100`
-- Display at start of every response
-- **When percentage exceeds 35%**, IMMEDIATELY evaluate cost trade-offs (note: compaction occurs at ~100k tokens, so 35% of 200k = 70% of effective limit):
-  - **Compaction cost**: Processing current tokens + generating summary at 95% threshold
-    (typically: `~current_tokens * 0.000015` for input + summary generation)
-  - **Fresh start cost**: New session with system prompt + CLAUDE.md (cached) + continuation summary
-    (typically: `~10000 tokens * 0.000003` cached rate + `~5000 continuation * 0.000015`)
-- **Checking frequency**: Every response that includes tool use, and periodically in conversation
+- Check every response with tool use, and periodically
+- >35% → IMMEDIATELY evaluate cost trade-offs (compaction at ~100k tokens; 35% of 200k = 70% of effective limit)
+
+| Cost type | Formula |
+|-----------|---------|
+| Compaction | `~current_tokens * 0.000015` (input) + summary generation |
+| Fresh start | `~10000 tokens * 0.000003` (cached) + `~5000 continuation * 0.000015` |
 
 ### Decision Logic
 
-**If fresh start is cheaper** (typically when >35% is unique conversation history):
+| Condition | Action |
+|-----------|--------|
+| Fresh start cheaper (typically >35% unique history) | Auto-generate continuation prompt; present to user; instruct: `/rename 'session-name'` → `/clear` → paste |
+| Continuing cheaper (typically <35% or much cached) | Continue; mention "continuing is more cost-effective"; auto-compact triggers ~50% (100k) |
 
-1. **Automatically generate continuation prompt** without asking
-2. **Present to user**: "We're at X% context usage. Starting a new session would be more cost-effective. Here's your continuation prompt:"
-3. **Include in continuation prompt**:
-   - Current project/task
-   - Active files and their state
-   - Decisions made and rationale
-   - Next steps
-   - Critical context to preserve (NOT full conversation)
-4. **Instruct user**: "Copy the prompt above, then run: `/rename 'session-name'` → `/clear` → paste prompt in new session"
-
-**If continuing is cheaper** (typically when <35% or much context is cached):
-
-- Continue normally, mention "continuing is more cost-effective"
-- Auto-compact will trigger at ~50% (100k tokens) if needed
+Continuation prompt must include: current project/task, active files + state, decisions + rationale, next steps, critical context (NOT full conversation).
 
 ### Continuation Prompt Template
 
@@ -66,189 +56,166 @@ Next: [specific next steps].
 Context: [essential info only].
 ```
 
-**Goal**: Continuation prompt should be <5% of current context size.
+Goal: continuation prompt <5% of current context size.
 
 ### Triggering Behavior
 
-Note: Thresholds are halved because Claude Code compacts at ~100k tokens, not 200k.
-Original 70% threshold meant 140k tokens—but compaction at 100k made this unreachable.
-70% of the *actual* limit (100k) = 70k tokens, which is 35% of the displayed 200k max.
+Thresholds halved: compaction at ~100k tokens (not 200k). 70% of actual limit (100k) = 70k tokens = 35% of displayed 200k max.
 
-**At 35-39% context (~70-78k tokens):**
-
-- Mention: "Note: We're at X% context. Monitoring for cost optimization."
-- Continue working normally
-
-**At 40-44% context (~80-88k tokens):**
-
-- Evaluate costs and inform user of decision
-- If continuing is cheaper: "We're at X% context, but continuing is more cost-effective due to prompt caching."
-- If switching is cheaper: Generate continuation prompt immediately
-
-**At 45%+ context (~90k+ tokens):**
-
-- ALWAYS generate continuation prompt (switching is almost always cheaper at this point)
-- Auto-compact at ~50% (100k) is expensive, switching now saves significant costs
+| Context % | Tokens | Action |
+|-----------|--------|--------|
+| 35–39% | ~70–78k | Mention monitoring; continue normally |
+| 40–44% | ~80–88k | Evaluate costs; inform user; generate prompt if switching cheaper |
+| ≥45% | ~90k+ | ALWAYS generate continuation prompt; switching almost always cheaper |
 
 ### Hook Integration
 
-A `PostToolUse` hook at `.claude/hooks/context-cost-monitor.sh` provides automated warnings. Claude should acknowledge and act on hook warnings about context thresholds.
+`PostToolUse` hook: `.claude/hooks/context-cost-monitor.sh` → automated threshold warnings. Acknowledge and act on hook warnings.
 
 ## Project-Specific Agents (Lazy-Load)
 
-**Full details:** See [`.claude/agents/README.md`](.claude/agents/README.md) for agent index and individual agent files for full specifications.
+Full details: [`.claude/agents/README.md`](.claude/agents/README.md) — agent index and specifications.
 
-## Workflows (Lazy-Load)
+## Multi-Step Operations
 
-Multi-step operations are documented in `.claude/workflows/` and loaded on demand.
+All pipelines are skills or agents.
 
-**Available workflows:** `literature-integration`, `formalization-pipeline`, `tikz-illustration-pipeline`, `environment-selection`, `pre-commit`, `section-review`, `full-document-review`
+| Skill | Trigger |
+|-------|---------|
+| `/formalization-pipeline` | "formalize [process/chapter]" · "build causal model" |
+| `/integrate-topic` | "integrate [topic] into paper" |
+| `/tikz-illustration-pipeline` | "create a TikZ diagram showing [description]" |
+| `/pre-commit` | "run pre-commit checks" |
+| `/section-review` | "review section [X]" |
+| `/full-document-review` | "full document review" |
 
-**How to trigger:** Use natural language describing what you want:
-- "find and integrate papers on [topic]"
-- "formalize [process/chapter]"
-- "create a TikZ diagram showing [description]"
-- "help me choose an environment"
-- "run the pre-commit workflow"
-
-**Architecture:** When triggered, workflows load the appropriate agent sequence from `.claude/workflows/`. Each phase has clear verification criteria before proceeding.
-
-For full workflow details (phases, verification steps, agent coordination), read the specific workflow file from `.claude/workflows/` on demand.
+Agent: `environment-selection` — "help me choose an environment"
 
 ## Formalization System (Lazy-Load)
 
-For building formal causal and quantitative models of ME/CFS pathophysiology with explicit uncertainty quantification.
+Builds formal causal and quantitative models of ME/CFS pathophysiology with explicit uncertainty quantification.
 
-**Trigger phrases:**
-- "Formalize [process/chapter]"
-- "Build causal model for [mechanism]"
-- "Create EPC for [biological process]"
-- "Model [phenomenon] mathematically"
+**Triggers:** "Formalize [process/chapter]" · "Build causal model for [mechanism]" · "Create EPC for [biological process]" · "Model [phenomenon] mathematically"
 
-**Key agents:** `formalization-advisor` (assess first), `causal-model-builder`, `epc-model-builder`, `quantitative-model-builder`, `model-integrator` (insert into chapters), `model-auditor` (cross-validate DAG↔EPC↔ODE), `uncertainty-analyst` (certaity propagation)
+| Agent | Role |
+|-------|------|
+| `formalization-advisor` | Assess first |
+| `causal-model-builder` | Build DAG |
+| `epc-model-builder` | Build EPC |
+| `quantitative-model-builder` | Build ODE/math model |
+| `model-integrator` | Insert into chapters |
+| `model-auditor` | Cross-validate DAG↔EPC↔ODE |
+| `uncertainty-analyst` | Certainty propagation |
 
-**Workflow:** See `.claude/workflows/formalization-pipeline.md` for full phases, verification steps, and architecture.
-
-**Methodology and rules:** See `.claude/FORMALIZATION_METHODOLOGY.md` for decision matrices, EPC vs BPMN rationale, and process-by-process analysis.
-
-**Output structure and LaTeX environments:** See `.claude/template-proposal-formalization-environments.md` for specification.
+- Full workflow: `.claude/workflows/formalization-pipeline.md`
+- Methodology + decision matrices: `.claude/FORMALIZATION_METHODOLOGY.md`
+- Output structure + LaTeX environments: `.claude/template-proposal-formalization-environments.md`
 
 ## Lazy-Loading Principle
 
-**Context cost of inline documentation > cost of lazy search + read on demand**
+Inline documentation cost > lazy search + read on demand.
 
-All detailed specifications, workflows, methodology, and reference material are lazy-loaded:
-- Keep base CLAUDE.md focused and minimal
-- Full details live in dedicated files
-- Search/navigate to files as needed
-- Load on-demand when task requires them
-
-This minimizes token overhead while preserving complete documentation.
+- Base CLAUDE.md: focused, minimal
+- Full details: dedicated files
+- Load on demand when task requires
 
 ## LaTeX Template Integration (Lazy-Load)
 
-This project uses [infolead-latex-templates](infolead-latex-templates/) as a git submodule for all preamble configuration and theorem environments.
+`infolead-latex-templates/` (git submodule) — all preamble config and theorem environments.
 
-**When to use:** Always check if an appropriate environment exists in the template before creating custom ones.
-
-**Trigger:** "help me choose an environment" or "should I use template or project-specific?"
-
-**Agent:** `template-advisor` - uses when: deciding between template/project-specific, creating new environments, unsure which existing environment fits
-
-**Template details:** See `infolead-latex-templates/README.md` and `infolead-latex-templates/theorems.tex` for full environment reference and decision rules.
+- Always check template before creating custom environments
+- **Triggers:** "help me choose an environment" · "should I use template or project-specific?"
+- **Agent:** `template-advisor` — deciding template vs. project-specific, creating environments, finding fitting environment
+- **Refs:** `infolead-latex-templates/README.md`, `infolead-latex-templates/theorems.tex`
 
 ## Literature Management System (Lazy-Load)
 
-**When finding research papers, PDFs, or online references, automatically trigger literature management workflow.**
+Auto-trigger when finding research papers, PDFs, or online references.
 
-**Trigger phrases:**
-- "Find and integrate papers on [topic]"
-- "Add citations for [claim]"
-- "Search for research on [mechanism]"
+**Triggers:** "Find and integrate papers on [topic]" · "Add citations for [claim]" · "Search for research on [mechanism]"
 
-**Workflow:** See `.claude/workflows/literature-integration.md` for full pipeline, certainty assessment rules, and examples.
+| Agent | Role |
+|-------|------|
+| `literature-integrator` | Search + download |
+| `chapter-integrator` | Insert into chapters |
+| `scientific-insight-generator` | Extract insights |
+| `meta-analysis-coordinator` | Synthesize across papers |
+| `evidence-mapper` | Citation↔model index |
 
-**Key agents:** `literature-integrator`, `chapter-integrator`, `scientific-insight-generator`, `meta-analysis-coordinator` (synthesize across papers), `evidence-mapper` (citation↔model index)
+Full pipeline: `/integrate-topic` skill (`.claude/skills/integrate-topic/SKILL.md`)
 
 ## Scrape Registry (MANDATORY)
 
 **Location:** `registry/scrape-registry.md`
 
-**MUST be used whenever scraping websites or accessing URLs for content integration.** This registry prevents re-processing of already-integrated web content across sessions and sources.
+MUST use whenever scraping websites or accessing URLs for content integration. Prevents re-processing already-integrated content across sessions.
 
 **Before scraping any URL:**
-1. Check `registry/scrape-registry.md` — if the URL is already listed with an `Integrated` date, skip it unless the source shows a newer publication date than the `Scraped` date in the registry
+- Check `registry/scrape-registry.md` — URL already listed with `Integrated` date → skip, unless source shows newer publication date than `Scraped` date
 
 **After integrating content from a URL:**
-1. Add the URL to the registry if not already present
-2. Set `Integrated` to today's date
-3. Set `Target` to the chapter(s) where content was integrated
+1. Add URL to registry if absent
+2. Set `Integrated` → today's date
+3. Set `Target` → chapter(s) where integrated
 
 **After scraping a new source:**
-1. Add the source to the Sources table with `Last Scraped` date
-2. Add all discovered article URLs to the Articles table
+1. Add source to Sources table with `Last Scraped` date
+2. Add all discovered article URLs to Articles table
 
 **Columns:** `URL | Source | Scraped | Integrated | Target`
-- `Integrated = —` means pending integration
-- Source shows newer date than `Scraped` on re-scrape → update `Scraped` date and reset `Integrated` to `—`
+- `Integrated = —` → pending
+- Re-scrape + source newer than `Scraped` → update `Scraped`, reset `Integrated` to `—`
 
-**Per-source catalog files** (e.g. `content-staging/mecfsscience-org-catalog.md`) are temporary working documents during a scrape session — delete them after all entries are transferred to the registry.
+Per-source catalog files (e.g. `content-staging/mecfsscience-org-catalog.md`) are temporary — delete after all entries transferred to registry.
 
 ## Medical Case Management System (Lazy-Load)
 
-This project includes a comprehensive **medical agent system** for personal ME/CFS case management, documentation, and decision support.
+Medical agent system for personal ME/CFS case management, documentation, and decision support.
 
-**Common requests:**
-- "Log today's symptoms..."
-- "Help me plan my activities"
-- "Analyze my treatment trial"
-- "I'm crashing, what do I do?"
-- "What's new in ME/CFS research?"
+**Triggers:** "Log today's symptoms..." · "Help me plan my activities" · "Analyze my treatment trial" · "I'm crashing, what do I do?" · "What's new in ME/CFS research?"
 
-**Medical agents:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
+**Agents:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
 
-**System documentation:** See `.claude/systems/medical-agent-system.md` for full system architecture, agent tiers, safety protocols, and privacy protections.
+- System docs: `.claude/systems/medical-agent-system.md` (architecture, agent tiers, safety protocols, privacy)
+- Case data: `.claude/case-data/`
+- Recommendations: `appendix-j-recommendations.tex`
+- Personal case data: `appendix-i-*.tex`
 
-**Key files:** Case data in `.claude/case-data/`, recommendations in `appendix-j-recommendations.tex`, personal case data in `appendix-i-*.tex`
-
-**Important:** All recommendations are preliminary and require physician review before implementation.
+**IMPORTANT:** All recommendations preliminary — require physician review before implementation.
 
 ## Medical Documentation Guidelines (Lazy-Load)
 
-When working with ME/CFS content:
+| Rule | Detail |
+|------|--------|
+| Medical terminology | Use `dictionary-manager` |
+| Clinical claims | Require citations via `literature-integrator` |
+| Patient data | Clearly distinguish from clinical findings |
+| Diagnostic criteria | Use theorem-like environments (consult `template-advisor`) |
+| Tone | Neutral, evidence-based throughout |
+| Research citations | Always include certainty assessment |
 
-**Key rules:**
-- Medical terminology → use `dictionary-manager`
-- Clinical claims → require citations via `literature-integrator`
-- Patient data → clearly distinguish from clinical findings
-- Diagnostic criteria → use appropriate theorem-like environments (consult `template-advisor`)
-- Tone → neutral, evidence-based throughout
-- Research citations → always include certainty assessment
-
-**Full guidelines:** See `.claude/writing-style.md` for detailed medical writing standards, evidence hierarchies, and citation practices.
+Full guidelines: `.claude/writing-style.md`
 
 ## Document Quality and Publication (Lazy-Load)
 
-**Common requests:**
-
-- "Check terminology consistency for [term]"
-- "Prepare for publication / check submission readiness"
-- "Find empty sections or stubs"
-- "Synthesize research gaps into agenda"
-- "Synthesize evidence across papers on [topic]"
-
-**Key agents:** `terminology-harmonizer` (term consistency), `publication-preparer` (submission readiness), `document-health-monitor` (structural metrics), `research-gap-synthesizer` (gap → agenda), `meta-analysis-coordinator` (cross-paper synthesis)
+| Trigger | Agent |
+|---------|-------|
+| "Check terminology consistency for [term]" | `terminology-harmonizer` |
+| "Prepare for publication / check submission readiness" | `publication-preparer` |
+| "Find empty sections or stubs" | `document-health-monitor` |
+| "Synthesize research gaps into agenda" | `research-gap-synthesizer` |
+| "Synthesize evidence across papers on [topic]" | `meta-analysis-coordinator` |
 
 ## Biomedical Review System (Lazy-Load)
 
-Comprehensive 20-category review covering scientific accuracy, medical safety, biological precision, and patient-facing content safety.
+20-category review: scientific accuracy, medical safety, biological precision, patient-facing content safety.
 
-**Trigger:** `/review-biomedical <scope>` (runs all 20 categories sequentially on target files)
+**Trigger:** `/review-biomedical <scope>` → runs all 20 categories sequentially on target files
 
-**Individual agents** (can also be used standalone):
+| Category | Agents |
+|----------|--------|
+| Domain auditors | `pathway-auditor`, `immunology-auditor`, `biochemistry-auditor`, `neuro-auditor`, `microbiome-auditor`, `biomarker-auditor`, `epidemiology-auditor`, `comorbidity-auditor` |
+| Safety auditors | `safety-auditor`, `pharmacology-auditor`, `patient-safety-auditor` |
+| Rigor auditors | `falsifiability-auditor`, `bibliography-auditor` |
 
-- Domain auditors: `pathway-auditor`, `immunology-auditor`, `biochemistry-auditor`, `neuro-auditor`, `microbiome-auditor`, `biomarker-auditor`, `epidemiology-auditor`, `comorbidity-auditor`
-- Safety auditors: `safety-auditor`, `pharmacology-auditor`, `patient-safety-auditor`
-- Rigor auditors: `falsifiability-auditor`, `bibliography-auditor`
-
-**Skill details:** See `.claude/skills/review-biomedical/SKILL.md` for full phase breakdown and execution protocol.
+Full phase breakdown + execution protocol: `.claude/skills/review-biomedical/SKILL.md`
