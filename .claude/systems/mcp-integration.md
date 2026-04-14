@@ -3,14 +3,16 @@
 ## Recommended Servers
 
 ### TexLab (LaTeX LSP)
-Real-time syntax checking, completion, go-to-definition.
+
+Real-time syntax check · completion · go-to-definition.
 
 ```json
 {"mcpServers": {"texlab": {"command": "texlab", "args": []}}}
 ```
 
 ### LTeX (Grammar/Spelling)
-LaTeX-aware grammar checking.
+
+LaTeX-aware grammar check.
 
 ```json
 {"mcpServers": {"ltex": {"command": "ltex-ls", "args": []}}}
@@ -18,7 +20,7 @@ LaTeX-aware grammar checking.
 
 ## Local LLM (Ollama)
 
-Route Haiku-tier tasks to local models for cost savings:
+Route Haiku-tier tasks → local models for cost savings.
 
 ```bash
 ollama pull qwen2.5:7b

@@ -1,26 +1,37 @@
 # Medical Agent System
 
-Comprehensive ME/CFS case management system using specialized AI agents for documentation, analysis, and medical decision support.
+ME/CFS case management system: specialized AI agents for documentation, analysis, medical decision support.
+
+**IMPORTANT:** All recommendations preliminary — require physician review before implementation. System is documentation/decision-support tool, NOT replacement for medical care.
 
 ## System Overview
 
-The medical agent system consists of 10 specialized agents organized into 3 tiers:
+10 specialized agents in 3 tiers.
 
 ### Tier 1: Core Documentation and Safety (Essential)
-1. **case-documenter** (sonnet) - Daily symptom/medication/activity logging
-2. **medical-advisor** (opus) - Evidence-based treatment recommendations
-3. **data-validator** (haiku) - Data quality assurance
+
+| # | Agent | Model | Role |
+|---|-------|-------|------|
+| 1 | case-documenter | sonnet | Daily symptom/medication/activity logging |
+| 2 | medical-advisor | opus | Evidence-based treatment recommendations |
+| 3 | data-validator | haiku | Data quality assurance |
 
 ### Tier 2: Analysis and Planning (Enhanced functionality)
-4. **treatment-analyst** (opus) - Statistical analysis of treatment effectiveness
-5. **crisis-manager** (sonnet) - Severe crash detection and emergency protocols
-6. **pacing-coach** (haiku) - Real-time activity guidance and PEM prevention
+
+| # | Agent | Model | Role |
+|---|-------|-------|------|
+| 4 | treatment-analyst | opus | Statistical analysis of treatment effectiveness |
+| 5 | crisis-manager | sonnet | Severe crash detection + emergency protocols |
+| 6 | pacing-coach | haiku | Real-time activity guidance + PEM prevention |
 
 ### Tier 3: Support and Insights (Advanced features)
-7. **hypothesis-generator** (opus) - Subtype analysis and mechanistic insights
-8. **research-monitor** (sonnet) - Track new ME/CFS research publications
-9. **benefit-navigator** (sonnet) - Disability and accommodation documentation
-10. **caregiver-coordinator** (sonnet) - Family/caregiver education and support
+
+| # | Agent | Model | Role |
+|---|-------|-------|------|
+| 7 | hypothesis-generator | opus | Subtype analysis + mechanistic insights |
+| 8 | research-monitor | sonnet | Track new ME/CFS research publications |
+| 9 | benefit-navigator | sonnet | Disability + accommodation documentation |
+| 10 | caregiver-coordinator | sonnet | Family/caregiver education + support |
 
 ## Agent Interaction Map
 
@@ -37,13 +48,9 @@ The medical agent system consists of 10 specialized agents organized into 3 tier
 - case-documenter → pacing-coach
 - case-documenter → crisis-manager → medical-advisor, pacing-coach, caregiver-coordinator → benefit-navigator
 
-**Output:**
-
-- All agents → User (via LaTeX documents and markdown reports)
+**Output:** All agents → User (via LaTeX documents + markdown reports)
 
 ## Data Flow
-
-**Input → Processing → Output:**
 
 User Daily Input → case-documenter (logs) → data-validator (checks) → {pacing-coach (guidance), crisis-manager (monitors), treatment-analyst (analyzes), hypothesis-generator (patterns), medical-advisor (recommendations)} → User (Appendix J, reports)
 
@@ -51,61 +58,33 @@ User Daily Input → case-documenter (logs) → data-validator (checks) → {pac
 
 ### Daily Operations
 
-**"case-documenter: log today's symptoms: energy 3/10, pain 5/10"**
-- Use: Every day
-- Purpose: Maintain medical record
-- Outputs to: `.claude/case-data/symptoms/YYYY-MM-DD.yaml`
-
-**"pacing-coach: help me plan today's activities"**
-- Use: Daily or before activities
-- Purpose: Stay within energy envelope
-- Outputs: Activity plans, real-time guidance
+| Trigger | Frequency | Purpose | Output |
+|---------|-----------|---------|--------|
+| `"case-documenter: log today's symptoms: energy 3/10, pain 5/10"` | Daily | Medical record | `.claude/case-data/symptoms/YYYY-MM-DD.yaml` |
+| `"pacing-coach: help me plan today's activities"` | Daily / pre-activity | Stay within energy envelope | Activity plans, real-time guidance |
 
 ### Weekly Monitoring
 
-**"data-validator: weekly report"**
-- Use: Weekly (automated)
-- Purpose: Ensure data quality
-- Outputs: Quality report with action items
-
-**"research-monitor: what's new this week?"**
-- Use: Weekly (automated)
-- Purpose: Stay current on ME/CFS research
-- Outputs: Weekly research alert
+| Trigger | Frequency | Purpose | Output |
+|---------|-----------|---------|--------|
+| `"data-validator: weekly report"` | Weekly (auto) | Ensure data quality | Quality report + action items |
+| `"research-monitor: what's new this week?"` | Weekly (auto) | Stay current | Weekly research alert |
 
 ### As-Needed Analysis
 
-**"medical-advisor: I'm having worse [symptom], what should we try?"**
-- Use: When symptoms change or need treatment guidance
-- Purpose: Evidence-based recommendations
-- Outputs: Appendix J recommendation sections
-
-**"treatment-analyst: analyze my [treatment] trial"**
-- Use: After completing treatment trial (typically 8-12 weeks)
-- Purpose: Determine if treatment is effective
-- Outputs: Statistical analysis with continue/stop recommendation
-
-**"hypothesis-generator: what's my ME/CFS subtype?"**
-- Use: Periodically to understand case (every 3-6 months or when patterns change)
-- Purpose: Identify underlying mechanisms
-- Outputs: Subtype analysis with testing recommendations
-
-**"crisis-manager: I'm crashing, what do I do?"**
-- Use: During severe symptom exacerbations
-- Purpose: Emergency protocols and recovery guidance
-- Outputs: Crisis management plan, ER documentation if needed
+| Trigger | Use When | Purpose | Output |
+|---------|----------|---------|--------|
+| `"medical-advisor: I'm having worse [symptom], what should we try?"` | Symptoms change / need treatment guidance | Evidence-based recommendations | Appendix J recommendation sections |
+| `"treatment-analyst: analyze my [treatment] trial"` | After trial complete (typically 8–12 weeks) | Determine effectiveness | Statistical analysis + continue/stop recommendation |
+| `"hypothesis-generator: what's my ME/CFS subtype?"` | Every 3–6 months / pattern changes | Identify underlying mechanisms | Subtype analysis + testing recommendations |
+| `"crisis-manager: I'm crashing, what do I do?"` | Severe exacerbations | Emergency protocols + recovery guidance | Crisis management plan, ER documentation if needed |
 
 ### Administrative Needs
 
-**"benefit-navigator: generate disability application documentation"**
-- Use: When applying for benefits or accommodations
-- Purpose: Professional medical evidence summaries
-- Outputs: Functional assessments, application support
-
-**"caregiver-coordinator: create guide for my new caregiver"**
-- Use: When onboarding caregivers or educating family
-- Purpose: Clear instructions and education
-- Outputs: Caregiver guides, specialist summaries
+| Trigger | Use When | Purpose | Output |
+|---------|----------|---------|--------|
+| `"benefit-navigator: generate disability application documentation"` | Applying for benefits/accommodations | Professional medical evidence summaries | Functional assessments, application support |
+| `"caregiver-coordinator: create guide for my new caregiver"` | Onboarding caregivers / educating family | Clear instructions + education | Caregiver guides, specialist summaries |
 
 ## File System Organization
 
@@ -311,17 +290,20 @@ User → medical-advisor → (spawns) → literature-researcher
 ## Privacy and Security
 
 ### Data Storage
+
 - All case data stored locally in `.claude/case-data/`
 - Add `.claude/case-data/` to `.gitignore` (personal health data)
 - Appendix I sections can be redacted before sharing document
 - No cloud storage or external transmission
 
 ### Anonymization
+
 - Use "Patient" or initials in generated documents
 - Dates can be offset (e.g., "Day 0" instead of actual dates)
 - Remove identifying information before sharing with researchers
 
 ### Access Control
+
 - Keep repository private
 - Encrypt backups
 - Consider using encrypted filesystem for `.claude/case-data/`
@@ -330,15 +312,13 @@ User → medical-advisor → (spawns) → literature-researcher
 
 ### Built-in Safeguards
 
-1. **data-validator** runs before any analysis
-2. **medical-advisor** always includes:
-   - Evidence quality ratings
-   - Contraindications
-   - "Preliminary - requires physician review" warnings
-   - Questions for doctor
-3. **treatment-analyst** uses rigorous statistical methods
-4. **hypothesis-generator** explicitly states confidence levels
-5. All recommendations include citations
+| # | Safeguard |
+|---|-----------|
+| 1 | **data-validator** runs before any analysis |
+| 2 | **medical-advisor** always includes: evidence quality ratings · contraindications · "Preliminary - requires physician review" warnings · questions for doctor |
+| 3 | **treatment-analyst** uses rigorous statistical methods |
+| 4 | **hypothesis-generator** explicitly states confidence levels |
+| 5 | All recommendations include citations |
 
 ### Human Oversight
 
@@ -351,118 +331,96 @@ User → medical-advisor → (spawns) → literature-researcher
 
 ### Regular Tasks
 
-**Daily:**
-- case-documenter logging
-- data-validator quick check (automated)
-
-**Weekly:**
-- data-validator comprehensive report (automated)
-- research-monitor search (automated)
-- Review and address data quality issues
-
-**Monthly:**
-- research-monitor comprehensive summary
-- Review treatment-analyst trends
-- Update medical-advisor with new evidence
-
-**Quarterly:**
-- hypothesis-generator reassessment
-- Comprehensive case review
-- Update benefit documentation if needed
+| Cadence | Tasks |
+|---------|-------|
+| Daily | case-documenter logging · data-validator quick check (auto) |
+| Weekly | data-validator comprehensive report (auto) · research-monitor search (auto) · review + address data quality issues |
+| Monthly | research-monitor comprehensive summary · review treatment-analyst trends · update medical-advisor with new evidence |
+| Quarterly | hypothesis-generator reassessment · comprehensive case review · update benefit documentation if needed |
 
 ### System Evolution
 
 As case data accumulates:
-- treatment-analyst predictions become more accurate
-- hypothesis-generator identifies patterns more reliably
-- pacing-coach learns individual trigger thresholds
-- crisis-manager predicts recovery times better
+
+- treatment-analyst predictions → more accurate
+- hypothesis-generator → identifies patterns more reliably
+- pacing-coach → learns individual trigger thresholds
+- crisis-manager → predicts recovery times better
 
 ## Getting Started
 
 ### Initial Setup
 
 1. **Start with case-documenter**
+
    ```
    "case-documenter: initialize my case with current medications and baseline symptoms"
    ```
 
-2. **Establish baseline** (2-4 weeks of daily logging)
-   - Symptoms
-   - Medications
-   - Activities
-   - PEM episodes
+2. **Establish baseline** (2–4 weeks daily logging): symptoms · medications · activities · PEM episodes
 
 3. **Run initial analyses**
+
    ```
    "hypothesis-generator: analyze my initial data and propose subtype"
    "pacing-coach: calculate my energy envelope from baseline data"
    ```
 
-4. **Set up weekly automation**
-   - data-validator weekly reports
-   - research-monitor weekly alerts
+4. **Set up weekly automation:** data-validator weekly reports · research-monitor weekly alerts
 
 ### First Treatment Recommendation
 
-After 4 weeks of baseline data:
+After 4 weeks baseline:
+
 ```
 "medical-advisor: review my baseline data and suggest initial treatment priorities"
 ```
 
 ### Ongoing Use
 
-- Daily: case-documenter + pacing-coach
-- Weekly: Review data-validator and research-monitor
-- As needed: medical-advisor, treatment-analyst, others
-- Crisis: crisis-manager
+| Cadence | Agents |
+|---------|--------|
+| Daily | case-documenter + pacing-coach |
+| Weekly | Review data-validator + research-monitor |
+| As needed | medical-advisor, treatment-analyst, others |
+| Crisis | crisis-manager |
 
 ## Troubleshooting
 
-### "Data quality insufficient for analysis"
-- Run data-validator to identify missing/incorrect entries
-- Fill gaps or document reasons for missing data
-- Ensure at least 4 weeks of consistent logging
-
-### "Agent recommendation seems wrong"
-- Check if agent has access to latest case data
-- Verify case-documenter logs are accurate
-- Consider if agent model needs update (haiku vs sonnet vs opus)
-- Remember: all recommendations are preliminary, for doctor review
-
-### "Agents providing conflicting recommendations"
-- This is normal - different agents have different perspectives
-- hypothesis-generator: theoretical framework
-- medical-advisor: evidence-based treatments
-- pacing-coach: activity management
-- Discuss all perspectives with physician to integrate
+| Issue | Resolution |
+|-------|-----------|
+| "Data quality insufficient for analysis" | Run data-validator → identify missing/incorrect · fill gaps or document reasons · ensure ≥4 weeks consistent logging |
+| "Agent recommendation seems wrong" | Verify latest case data access · verify case-documenter logs accurate · consider model update (haiku/sonnet/opus) · remember: all recommendations preliminary, for doctor review |
+| "Agents providing conflicting recommendations" | Normal — different perspectives: hypothesis-generator (theoretical) · medical-advisor (evidence-based) · pacing-coach (activity) → discuss all with physician |
 
 ## Model Selection Rationale
 
-- **haiku**: Fast, frequent interactions (pacing-coach, data-validator)
-- **sonnet**: Balanced reasoning (case-documenter, crisis-manager, monitors, coordinators)
-- **opus**: Complex analysis (medical-advisor, treatment-analyst, hypothesis-generator)
+| Model | Use | Agents |
+|-------|-----|--------|
+| haiku | Fast, frequent | pacing-coach, data-validator |
+| sonnet | Balanced reasoning | case-documenter, crisis-manager, monitors, coordinators |
+| opus | Complex analysis | medical-advisor, treatment-analyst, hypothesis-generator |
 
-Can override in specific cases if needed.
+Can override in specific cases.
 
 ## Future Enhancements
 
-Potential additions:
 - Heart rate integration (real-time pacing alerts)
 - Automated voice logging for low-energy days
 - Visualization dashboard
 - Research study matching
 - Multi-patient pattern analysis (if privacy-preserving)
-- Integration with wearables (sleep tracking, HRV, etc.)
+- Wearables integration (sleep, HRV, etc.)
 
 ## Support and Feedback
 
-For issues with:
-- **Agent functionality**: Check agent .md file for detailed instructions
-- **Medical questions**: Consult qualified healthcare provider
-- **System bugs**: Document and report
-- **Feature requests**: Consider if aligns with system goals
+| Issue type | Action |
+|------------|--------|
+| Agent functionality | Check agent .md for detailed instructions |
+| Medical questions | Consult qualified healthcare provider |
+| System bugs | Document + report |
+| Feature requests | Consider alignment with system goals |
 
 ---
 
-**Remember: This system is a tool for documentation and decision support, not a replacement for medical care. All significant medical decisions should be made in consultation with qualified healthcare providers.**
+**Remember: This system is a tool for documentation and decision support, NOT a replacement for medical care. All significant medical decisions should be made in consultation with qualified healthcare providers.**

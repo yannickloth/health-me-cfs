@@ -1,44 +1,40 @@
-# Agent Architecture: Hierarchical Coordination with Strict Verification
+# Agent Architecture: Hierarchical Coordination + Strict Verification
 
 ## Core Principle: Mandatory Active Delegation
 
-**Claude MUST actively interpret user requests and immediately delegate to specialized agents.**
+Claude MUST interpret user requests and immediately delegate to specialized agents.
 
-This is not optional. Every request must be:
-1. **Parsed** - Understand user intent (not just literal words)
-2. **Mapped** - Identify which agent(s) can accomplish this
-3. **Delegated** - Spawn appropriate agent(s) WITHOUT attempting task yourself first
+| Step | Action |
+|------|--------|
+| Parse | Understand user intent (not literal words) |
+| Map | Identify agent(s) that can accomplish this |
+| Delegate | Spawn agent(s) WITHOUT attempting task first |
 
-**Anti-pattern:** "Let me try this first, then delegate if needed"
-**Correct pattern:** "This requires [agent], spawning immediately"
+- ✗ Anti-pattern: "Let me try this first, then delegate if needed"
+- ✓ Correct: "This requires [agent], spawning immediately"
 
-See CLAUDE.md for detailed interpretation examples.
+See CLAUDE.md for interpretation examples.
 
 ---
 
 ## Problem Statement
 
-**Original issue:** The `literature-manager` agent would sometimes declare tasks "complete" without actually integrating papers into main chapter files, despite having clear instructions to do so.
+**Original issue:** `literature-manager` would declare tasks "complete" without integrating papers into main chapter files.
 
-**Root causes identified:**
-1. **Task complexity gradient**: Steps 1-5 (download, organize, bibliography) were mechanical, while Step 6 (edit chapters) required judgment and multiple file edits
-2. **Fuzzy completion criteria**: "Integrate into document" was interpreted as "create integration guides" rather than "actually edit files"
-3. **Conservative agent behavior**: Agents prefer creating new files over editing existing ones when uncertain
-4. **No verification enforcement**: Agent could self-declare success without proving work was done
+**Root causes:**
+1. Task complexity gradient — Steps 1–5 (download, organize, bibliography) mechanical; Step 6 (edit chapters) judgment + multi-file edits
+2. Fuzzy completion criteria — "Integrate into document" interpreted as "create integration guides" not "edit files"
+3. Conservative agent behavior — prefer creating new files over editing existing ones
+4. No verification enforcement — self-declared success without proof
 
 ## Solution: Two-Layered Architecture
 
 ### Layer 1: Coordinator Pattern
 
-**Purpose:** Break complex multi-step tasks into single-responsibility agents
+- Purpose: break complex multi-step tasks → single-responsibility agents
+- Implementation: `literature-integration-coordinator.md` workflow
 
-**Implementation:** `literature-integration-coordinator.md` workflow
-
-**Benefits:**
-- Each agent has ONE clear job
-- Failure isolation (one agent failing doesn't break entire pipeline)
-- Easier debugging (know exactly which phase failed)
-- Parallel execution potential
+**Benefits:** ONE job per agent · failure isolation · easier debugging · parallel execution potential
 
 **Structure:**
 ```
@@ -66,15 +62,14 @@ Coordinator (workflow in main session)
 
 ### Layer 2: Strict Verification Protocol
 
-**Purpose:** Ensure each agent actually completes its work, not just claims to
-
-**Implementation:** Three levels of verification
+- Purpose: ensure each agent completes its work (not just claims to)
+- Implementation: 3 verification levels
 
 #### Level 2.1: Agent Self-Verification (Mandatory)
 
-Each agent must verify its own work before returning:
+Each agent verifies own work before returning.
 
-**Example from `chapter-integrator`:**
+**`chapter-integrator` example:**
 ```bash
 # Before declaring success, agent MUST run:
 grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
@@ -86,7 +81,7 @@ grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
 #   → If still failing, return ERROR status (not SUCCESS)
 ```
 
-**Example from `literature-manager`:**
+**`literature-manager` example:**
 ```bash
 # Verification 1: Folder structure
 ls Literature/biomarkers/Che_2025_InnateImmunity/{abstract.txt,notes.md,key-findings.md,integration-guide.md}
@@ -105,9 +100,9 @@ grep "cite{Che2025}" contents/appendices/appendix-h*.tex
 
 #### Level 2.2: Coordinator Verification (Trust but Verify)
 
-Coordinator independently verifies each agent's output:
+Coordinator independently verifies each agent output.
 
-**Example from coordinator workflow:**
+**Coordinator workflow example:**
 ```bash
 # After chapter-integrator reports success
 # Coordinator runs independent check:
@@ -121,7 +116,7 @@ grep "cite{Che2025}" contents/part2-pathophysiology/ch07-immune-dysfunction.tex
 
 #### Level 2.3: Final Pipeline Verification
 
-Before declaring entire workflow complete:
+Before declaring workflow complete:
 
 ```bash
 # Master verification checklist
@@ -151,25 +146,20 @@ nix build
 
 ### 1. Single Responsibility
 
-**Before:**
-- `literature-manager`: Download + organize + bibliography + appendix + chapters + ???
-  - Too many responsibilities → easy to skip steps
-
-**After:**
-- `literature-manager`: Download + organize + bibliography + appendix (clear, bounded scope)
-- `chapter-integrator`: ONLY edit chapters (focused, verifiable)
-- `scientific-insight-generator`: ONLY creative analysis (distinct phase)
+| State | `literature-manager` | `chapter-integrator` | `scientific-insight-generator` |
+|-------|----------------------|----------------------|--------------------------------|
+| Before | Download + organize + bibliography + appendix + chapters + ??? (too many → skip steps) | — | — |
+| After  | Download + organize + bibliography + appendix (bounded) | ONLY edit chapters (verifiable) | ONLY creative analysis (distinct phase) |
 
 ### 2. Explicit Verification Criteria
 
-**Before:**
+**Before** (no clear criteria, agent rationalizes "guides = integration"):
 ```markdown
 ## Step 6: Integrate into Main Document
 When findings are significant, add to appropriate chapter...
 ```
-→ No clear success criteria, agent can rationalize "guides = integration"
 
-**After:**
+**After** (unambiguous, verifiable):
 ```markdown
 ## Success Criteria (Non-Negotiable)
 
@@ -180,7 +170,6 @@ You have NOT completed this task until:
 
 DO NOT return success if grep returns 0 results.
 ```
-→ Unambiguous, verifiable criteria
 
 ### 3. Fail-Fast with Retries
 
@@ -220,27 +209,25 @@ def run_phase(agent, task):
 ### 4. Defense in Depth
 
 Multiple verification layers catch failures:
-```
-If agent self-verification fails → Agent retries
-If agent returns success but coordinator verification fails → Coordinator retries agent
-If coordinator retries exhaust → Report partial completion to user
 
-No silent failures. Every failure is caught and handled.
-```
+- Agent self-verification fails → Agent retries
+- Agent returns success but coordinator verification fails → Coordinator retries agent
+- Coordinator retries exhausted → Report partial completion to user
+
+No silent failures.
 
 ## New Agents Created
 
 ### chapter-integrator
 
-**Model:** Haiku (task is focused, doesn't need Opus reasoning)
+| Field | Value |
+|-------|-------|
+| Model | Haiku (focused, no Opus needed) |
+| Purpose | Edit chapter .tex → add citations from integrated papers |
+| Tools | Read, Edit only |
+| Success | grep verification |
 
-**Purpose:** Edit chapter .tex files to add citations from integrated papers
-
-**Why separate?**
-- Different toolset (Read, Edit only)
-- Different success criteria (grep verification)
-- Separates mechanical work (bibliography) from judgment work (placement)
-- Can be invoked multiple times for different chapters
+**Why separate?** Separates mechanical (bibliography) from judgment (placement). Invokable multiple times per chapter.
 
 **Verification:**
 ```bash
@@ -250,27 +237,14 @@ grep "cite{CITATION_KEY}" TARGET_CHAPTER.tex
 
 ### scientific-insight-generator
 
-**Model:** Opus (requires deep creative reasoning)
+| Field | Value |
+|-------|-------|
+| Model | Opus (deep creative reasoning) |
+| Purpose | After integration: novel phenomena, cross-lit connections, treatment implications, research directions |
+| Phase | Optional (core integration succeeds without it) |
+| Cost | Time-intensive (don't block other phases) |
 
-**Purpose:** After papers are integrated, analyze for:
-- Novel biological phenomena
-- Cross-literature connections
-- Treatment implications (medications + supplements)
-- Research directions
-
-**Why separate?**
-- Fundamentally different task (creative vs. mechanical)
-- Requires most powerful model (Opus for reasoning)
-- Optional phase (core integration can succeed without it)
-- Time-intensive (don't block other phases)
-
-**Output:** `scientific-insights.md` per paper with:
-- Novel mechanisms identified
-- Connections to other papers
-- Pharmaceutical interventions brainstormed
-- Nutraceutical approaches
-- Proposed research studies
-- Risk assessments
+**Output:** `scientific-insights.md` per paper — novel mechanisms · paper connections · pharmaceutical interventions · nutraceutical approaches · proposed studies · risk assessments
 
 **Verification:**
 ```bash
@@ -288,11 +262,12 @@ grep "## Proposed Research Studies" scientific-insights.md
 
 ### literature-manager (Updated)
 
-**Changes:**
-1. **Removed responsibility:** No longer edits chapter files
-2. **Added responsibility:** Create `integration-guide.md` for chapter-integrator
-3. **Added verification:** Four mandatory verification steps before completion
-4. **Clarified output:** Reports what was done AND what's ready for next phase
+| Change | Detail |
+|--------|--------|
+| Removed | No longer edits chapter files |
+| Added | Create `integration-guide.md` for chapter-integrator |
+| Added | 4 mandatory verification steps before completion |
+| Clarified | Reports what was done AND what's ready for next phase |
 
 **New success criteria:**
 ```markdown
@@ -307,7 +282,7 @@ ALL must pass. If any fails, DO NOT declare success.
 
 ## Workflow Invocation
 
-### User triggers coordinator:
+### User triggers coordinator
 
 ```
 User: "find and integrate papers on NK cell dysfunction"
@@ -330,7 +305,7 @@ Main Claude session:
   └─ Generates final report for user
 ```
 
-### Output to user:
+### Output to user
 
 ```markdown
 ✅ Literature integration complete!
@@ -356,105 +331,44 @@ Full report: Literature/INTEGRATION_REPORT_[timestamp].md
 Scientific insights: Literature/.../scientific-insights.md
 ```
 
-## Benefits of This Architecture
+## Benefits
 
-### 1. Reliability
-- Verification at multiple levels catches failures
-- Explicit verification commands (grep, ls) leave no ambiguity
-- Agents cannot rationalize away incomplete work
-
-### 2. Debuggability
-- Know exactly which phase failed
-- Verification output shows what passed/failed
-- Can re-run individual phases without starting over
-
-### 3. Modularity
-- Each agent is self-contained
-- Can improve one agent without affecting others
-- Can add new phases (e.g., `translation-checker`) without rewriting existing agents
-
-### 4. Transparency
-- User sees comprehensive report of what happened
-- Partial completions are clearly marked
-- No silent failures
-
-### 5. Maintainability
-- Each agent's instructions are simpler (single responsibility)
-- Verification logic is explicit and testable
-- Easy to update verification criteria as needs change
+| Benefit | Detail |
+|---------|--------|
+| Reliability | Multi-level verification · explicit commands (grep, ls) · no rationalization |
+| Debuggability | Exact failed phase known · verification output shows pass/fail · re-run individual phases |
+| Modularity | Self-contained agents · improve one without affecting others · add new phases (e.g., `translation-checker`) easily |
+| Transparency | Comprehensive report · partial completions marked · no silent failures |
+| Maintainability | Simpler instructions (single responsibility) · explicit + testable verification · easy criteria updates |
 
 ## Lessons Learned
 
-### 1. Clear instructions ≠ Reliable execution
-Even with detailed step-by-step instructions, agents may:
-- Misinterpret completion criteria
-- Satisfy with "good enough" partial results
-- Prefer low-risk actions (create files) over high-risk ones (edit files)
-
-**Solution:** Add verification that cannot be misinterpreted
-
-### 2. Verification must be mandatory and explicit
-Instructions like "verify your work" are too vague. Agents need:
-- Exact commands to run: `grep "pattern" file.tex`
-- Expected output: "Must return results"
-- Failure action: "If 0 results, retry"
-
-### 3. Hierarchical coordination works better than monolithic agents
-One large agent with 10 steps is fragile. Ten small agents each doing 1 step is robust.
-
-### 4. Use appropriate models for each task
-- Haiku: Mechanical tasks with clear criteria (chapter-integrator)
-- Sonnet: Moderate reasoning + tools (literature-manager)
-- Opus: Deep creative reasoning (scientific-insight-generator)
-
-Don't waste Opus on mechanical tasks. Don't ask Haiku to be creative.
-
-### 5. Partial success is valuable
-Don't make workflow all-or-nothing. If 2 of 3 papers integrate successfully, that's progress worth reporting.
+| # | Lesson | Implication |
+|---|--------|-------------|
+| 1 | Clear instructions ≠ reliable execution | Agents misinterpret, settle for "good enough", prefer low-risk actions → add unmissable verification |
+| 2 | Verification must be mandatory + explicit | "verify your work" too vague → exact command (`grep "pattern" file.tex`), expected output ("Must return results"), failure action ("If 0, retry") |
+| 3 | Hierarchical > monolithic | 1 agent × 10 steps = fragile · 10 agents × 1 step = robust |
+| 4 | Match model to task | Haiku=mechanical (chapter-integrator) · Sonnet=moderate+tools (literature-manager) · Opus=creative (scientific-insight-generator) |
+| 5 | Partial success is valuable | Not all-or-nothing — 2/3 papers integrated = progress worth reporting |
 
 ## Future Improvements
 
-### 1. Parallel Agent Execution
-Currently sequential. Could run literature-manager on multiple papers in parallel.
-
-### 2. Verification Test Suite
-Create automated tests:
-```bash
-test-integration.sh:
-  - Create dummy paper
-  - Run coordinator
-  - Verify all checkpoints passed
-  - Cleanup
-```
-
-### 3. Agent Performance Metrics
-Track:
-- Success rate per agent
-- Retry frequency
-- Time per phase
-- Use to identify weak points
-
-### 4. User Preferences
-Allow user to configure:
-- Certainty threshold (only High? or Medium+?)
-- Which phases to run (skip creative analysis if time-constrained?)
-- Verification strictness
-
-### 5. Rollback Capability
-If Phase 5 (build) fails, offer to rollback Phase 3 (chapter edits) automatically.
+| # | Improvement | Detail |
+|---|-------------|--------|
+| 1 | Parallel agent execution | Run literature-manager on multiple papers in parallel |
+| 2 | Verification test suite | `test-integration.sh`: create dummy paper → run coordinator → verify checkpoints → cleanup |
+| 3 | Agent performance metrics | Track success rate, retry frequency, time per phase → identify weak points |
+| 4 | User preferences | Certainty threshold · which phases to run · verification strictness |
+| 5 | Rollback capability | Phase 5 (build) fails → auto-rollback Phase 3 (chapter edits) |
 
 ## Conclusion
 
-The combination of **hierarchical agent coordination** + **strict verification** solves the reliability problem.
+**Hierarchical coordination + strict verification = reliability.**
 
-Neither alone is sufficient:
-- Coordination without verification → Distributed wishful thinking
-- Verification without coordination → One agent trying to do too much
+| Combo | Result |
+|-------|--------|
+| Coordination without verification | Distributed wishful thinking |
+| Verification without coordination | One agent doing too much |
+| Both together | Clear responsibility · proven work · graceful failure · transparency |
 
-Together, they create a reliable system where:
-- Each agent has a clear, achievable responsibility
-- Every agent proves its work via verification
-- Failures are caught and handled gracefully
-- Users get transparency into what succeeded and what didn't
-
-This architecture can be applied to any complex multi-step workflow in the project.
+Applies to any complex multi-step workflow in the project.
