@@ -97,14 +97,125 @@ This hypothesis provides explanations for:
     - Treatments that improve CSF dynamics (addressing craniocervical issues, improving cardiovascular function) might help subsets of patients
     - Symptom severity might correlate with measures of glymphatic function
 
+== Synergistic CSF Volume Reduction and Neurolymphatic Drainage
+<sec:csf-drainage-synergy>
+
+#speculation(title: [Combined CA Inhibitor + Lymphatic Drainage Restores Glymphatic Flow])[
+*Certainty: 0.30.*
+
+If ME/CFS involves glymphatic clearance failure (Section @sec:glymphatic), two interventions address this from opposite sides of the equation: carbonic anhydrase (CA) inhibitors reduce CSF _production_ volume, and the Perrin Technique provides mechanical lymphatic _drainage_. The combination reduces input while increasing output—a net restoration of CSF throughput that neither achieves alone.
+
+This hypothesis is motivated by the observation that the glymphatic hypothesis identifies impaired clearance but offers no pharmacological strategy to reduce the volume of fluid requiring clearance. CA inhibitors provide precisely this pharmacological lever. The combination has never been proposed or tested.
+
+*Subgroup specificity.* This approach targets a recognisable clinical phenotype: ME/CFS with comorbid connective tissue disorder (hEDS/HSD), craniocervical instability, intracranial hypertension signs, and POTS. Midtlien et al. (2024) described this conserved cluster (CTD + CVD + IIH + CCI + POTS + MCAS) in the largest series to date (n = 86) @Midtlien2024CVDphenotype. Bragee et al. (2020) found intracranial hypertension signs in 78% of 229 ME/CFS patients @Bragee2020. Henderson et al. (2017) established the EDS—IIH comorbidity @Henderson2017EDS. These patients have a structural basis for CSF flow impairment that CA inhibitors + manual drainage could address.
+
+*Mechanistic rationale.*
+
+    - *CA inhibitors reduce CSF production.* Acetazolamide inhibits choroid plexus carbonic anhydrase, reducing CSF production by an estimated 40–60%. The IIHTT (n = 165, Class I evidence) established acetazolamide as first-line IIH therapy, reducing papilledema and improving visual outcomes @Wall2014IIHTT. Topiramate provides comparable ICP reduction (−2.3 mmHg vs acetazolamide −3.3 mmHg, Mitchell et al. 2025 @Mitchell2025drugComparison) with additional TRPV1/mast cell modulation @Souza2024.
+    - *Perrin Technique provides mechanical drainage.* Practitioner-administered osteopathic lymphatic drainage targeting thoracic spine rigidity and lymphatic stagnation. First RCT evidence: self-help Perrin Technique improved fatigue in Long COVID (n = 100, p = 0.01) @Riste2025perrinLongCOVID. Diagnostic accuracy: 86% with five physical signs @Perrin2017diagnosis.
+    - *Synergy:* Reducing CSF volume via CA inhibition lowers the hydraulic pressure against which lymphatic drainage must work. Lower CSF volume means that the Perrin Technique's mechanical drainage moves less fluid to achieve the same clearance ratio. Neither alone may be sufficient: CA inhibitors reduce production but do not address mechanical drainage impairment; Perrin improves drainage but cannot overcome excessive CSF volume.
+
+*Testable predictions.*
+
+    - CSF flow metrics (phase-contrast MRI, diffusion tensor imaging along perivascular spaces) will improve with combination therapy more than with either intervention alone
+    - Patients with intracranial hypertension signs (measured opening pressure > 25 cm H~2~O, papilledema, or MRI signs) will respond better than those without
+    - Cognitive symptoms (brain fog, processing speed) will improve before fatigue symptoms, reflecting direct CSF clearance effects rather than systemic metabolic changes
+    - The combination will show measurable benefit at lower CA inhibitor doses than required for classical IIH, consistent with Midtlien et al.'s finding of pressure hypersensitivity in CTD patients @Midtlien2024CVDphenotype
+    - Addition of the Perrin Technique will allow dose reduction of CA inhibitors while maintaining clinical effect
+
+*Therapeutic implication.* Acetazolamide 125 mg BID (one-quarter IIHTT dose) + weekly practitioner Perrin Technique sessions for hEDS/CCI-comorbid ME/CFS patients with intracranial hypertension signs. Topiramate 25–50 mg daily as alternative for patients with comorbid migraine or MCAS features, providing additional TRPV1/mast cell modulation @Goyal2023topiramate @Souza2024. Treatment duration: 3 months minimum before assessment. Cross-reference: Section @sec:perrin-technique, Table @tab:map-cross-tier.
+
+*Critical safety concerns.*
+
+    - Mitchell et al. (2025) demonstrated that both acetazolamide and topiramate _worsened_ fluid cognition at ICP-reducing doses (p = 0.057 and 0.061 respectively) in IIH patients @Mitchell2025drugComparison. ME/CFS patients already have impaired cognition—this is a serious safety barrier that demands careful monitoring and conservative dosing.
+    - Medow and Stewart (2024) found that acute acetazolamide had _no effect_ on orthostatic cognitive function in ME/CFS+POTS patients (n = 15) @Medow2024acetazolamideMECFS. This challenges the hypothesis for the OI/POTS subgroup, though it tested acute rather than chronic administration.
+    - CA inhibitor diuresis may worsen POTS/orthostatic intolerance through volume depletion—a particular concern given that 55.8% of the target phenotype has POTS @Midtlien2024CVDphenotype. Concurrent volume loading with electrolyte monitoring is essential.
+    - Topiramate carries a well-documented cognitive blunting profile (10% treatment-emergent cognitive events, including word-finding difficulty and working memory impairment) that may counteract benefits from CSF clearance in ME/CFS.
+    - No study has tested this combination. Evidence is extrapolated from two independent evidence bases (CA inhibitors in IIH; Perrin Technique in Long COVID) with no direct bridge.
+] <spec:csf-drainage-synergy>
+
+== Sequential Therapy: Perrin First, CA Inhibitor Only If Needed
+<sec:sequential-therapy-perrin-ca>
+
+#speculation(title: [Staged Approach Reduces Cognitive Risk and Improves Patient Selection])[
+*Certainty: 0.55.*
+
+The combined CA inhibitor + Perrin Technique proposal (@sec:csf-drainage-synergy) suggests starting both simultaneously. However, Riste et al. (2025) demonstrated that self-help Perrin Technique alone produced significant fatigue improvement in Long COVID (n = 100, p = 0.01) without any pharmacological CSF reduction @Riste2025perrinLongCOVID. This raises a critical question: is Perrin alone sufficient for a substantial subset of patients? A staged approach—Perrin Technique first, with CA inhibitors added only if response is inadequate—offers three advantages:
+
+*Avoidance of unnecessary cognitive risk.* Mitchell et al. (2025) showed that both acetazolamide and topiramate worsened fluid cognition at ICP-reducing doses @Mitchell2025drugComparison. Starting Perrin alone eliminates the CA inhibitor component of risk for responders, creating a natural comparator group within each patient.
+
+*Identification of CA inhibitor–responsive subgroup.* Patients whose CSF flow metrics (phase-contrast MRI, ONSD, or overnight ONSD change; see Section @sec:onsd-overnight) normalize with Perrin alone may not require CA inhibitors at all. Patients with persistently elevated ICP or insufficient CSF flow despite Perrin would then add CA inhibitors as a second line—allowing individualized therapeutic windows rather than blanket dosing.
+
+*Built-in outcome measurement.* Sequential therapy allows clear attribution of improvement to each component. Cognitive effects can be directly assessed after Perrin initiation; subsequent CA inhibitor addition can be evaluated for net benefit or harm. This addresses a key gap identified in Section @sec:csf-drainage-synergy: no study has measured CSF flow before/after Perrin Technique.
+
+*Alignment with ME/CFS community preference.* The ME/CFS patient community strongly prefers "least harm first" approaches. Sequential therapy respects this principle while still offering the full combination for patients who need it.
+
+*Testable predictions.*
+
+    - ≥30% of hEDS/CCI ME/CFS patients will normalize CSF flow metrics with Perrin Technique alone, requiring no CA inhibitor addition
+    - Patients requiring CA inhibitor addition will show different cognitive trajectories: improved cognitive function from CSF clearance without the worsening seen in Mitchell 2025, because Perrin addresses the mechanical drainage component while avoiding over-correction
+    - Sequential therapy will produce superior patient-reported outcomes (fatigue, QoL) compared to simultaneous initiation in a randomized trial, because responders avoid unnecessary medication exposure
+    - Time-to-response with Perrin alone will predict CA inhibitor requirement: faster responders (CSF metrics normalize within 4–6 weeks) less likely to need CA inhibitors
+] <spec:sequential-therapy-perrin-ca>
+
+== Overnight ONSD Change as Non-Invasive Glymphatic Biomarker
+<sec:onsd-overnight>
+
+#speculation(title: [Diurnal ONSD Fluctuation Reflects Overnight Glymphatic Clearance])[
+*Certainty: 0.50.*
+
+If glymphatic clearance operates primarily during sleep (Xie et al. 2013 @Xie2013glymphatic showed 60% interstitial space expansion during slow-wave sleep), then CSF volume should decrease overnight as waste is cleared. Optic nerve sheath diameter (ONSD), measured non-invasively via bedside ultrasound, correlates with intracranial pressure in IIH validation studies (r ≈ 0.7–0.8). This proposes that measuring ONSD at bedtime versus morning provides a surrogate for overnight glymphatic function: a decrease in ONSD from evening (10 PM) to morning (7 AM) would indicate effective overnight CSF clearance; no change or an increase would suggest glymphatic failure.
+
+This approach addresses a critical gap identified in Phase 1: no non-invasive, repeatable measure of glymphatic function exists. It is immediately implementable with existing ultrasound equipment, costs nothing after the initial probe, and can be performed serially to track treatment response to Perrin Technique, CA inhibitors, or sleep interventions.
+
+*Technical rationale.* CSF production occurs continuously at approximately 0.35 mL/min (21 mL/h). Overnight (9 hours at typical sleep duration), the choroid plexus produces ~189 mL. If glymphatic clearance during sleep is normal, this volume should be cleared, reducing intracranial pressure and CSF volume. ONSD reflects intracranial pressure dynamics continuously and responds rapidly to pressure changes (<15 seconds for acute ICP elevation). Diurnal ONSD variation in healthy individuals is minimal (≤0.3 mm), but in IIH it shows larger fluctuations. In ME/CFS with glymphatic dysfunction, overnight clearance may be impaired, leading to either no decrease or paradoxical increase in ONSD (if CSF production continues without adequate drainage).
+
+*Applications.*
+
+    - *Screening tool:* Identify ME/CFS patients with elevated ICP who might benefit from CSF volume reduction. ONSD >5.0 mm in supine position indicates possible intracranial hypertension requiring workup (lumbar puncture, MRI). Patients with normal supine ONSD but elevated morning ONSD may have overnight glymphatic failure.
+    - *Treatment monitoring:* Track ONSD changes during interventions. A successful Perrin Technique course or CA inhibitor therapy should produce a measurable decrease in morning ONSD (≥0.2 mm reduction from evening baseline). No change suggests inadequate drainage; increase suggests continued CSF production without improved clearance.
+    - *Diagnostic stratification:* ME/CFS patients can be stratified by ONSD pattern: "normalizer" (decrease with treatment) vs "non-responder" (no change or paradoxical increase). This could predict response to CSF drainage interventions.
+    - *Dose titration guide:* For CA inhibitors, titrate until morning ONSD stabilizes in target range (4.0–5.0 mm for ME/CFS—higher than IIH target of <3.5 mm to account for pressure hypersensitivity described by Midtlien et al. 2024 @Midtlien2024CVDphenotype) while monitoring cognitive function.
+
+*Testable predictions.*
+
+    - Healthy controls will show a consistent decrease in ONSD from evening to morning (≥0.2 mm), reflecting normal overnight glymphatic clearance
+    - ME/CFS patients will show either no decrease or a paradoxical increase in morning ONSD compared to evening, indicating glymphatic dysfunction
+    - ME/CFS patients who respond to CSF drainage interventions (Perrin, CA inhibitors, sleep optimization) will show normalization of ONSD diurnal pattern (decrease restored)
+    - Baseline morning ONSD (before treatment) will correlate with symptom severity: higher ONSD associated with worse brain fog, headache, and cognitive symptoms
+    - Adding CA inhibitors to non-responders (normal morning ONSD) will not reduce ONSD, confirming that impaired clearance, not excess production, is the primary deficit
+] <spec:onsd-overnight>
+
+== Normal Pressure Hydrocephalus as ME/CFS "Micro-NPH" Parallel
+<sec:micro-nph-bridge>
+
+#speculation(title: [{ME/CFS} as {CSF Dynamics-Only} Hydrocephalus: The Brain Fog Parallels])[
+*Certainty: 0.35.*
+
+Normal pressure hydrocephalus (NPH) presents with the triad of gait disturbance, cognitive impairment, and urinary incontinence—symptoms that overlap extensively with ME/CFS, particularly the cognitive dysfunction ("brain fog") and fatigue. NPH is diagnosed by CSF dynamics abnormalities and treated effectively by CSF shunting or lumbar puncture drainage—essentially a "reduce CSF volume" intervention. In thousands of documented cases, CSF drainage (via shunt or tap test with temporary removal of 20–30 mL) produces dramatic cognitive recovery, often within days to weeks. This provides a proof-of-concept that reducing CSF volume can improve cognitive function in patients with CSF dynamics impairment.
+
+ME/CFS could be conceptualized as "micro-NPH"—CSF dynamics impairment below the resolution threshold of standard imaging, where ventriculomegaly is not visible but CSF turnover is inadequate. The NIH deep phenotyping study identified reduced CSF catecholamines (dopamine, norepinephrine, epinephrine metabolites) in ME/CFS CSF @Walitt2024NIH, suggesting CSF neurochemical dysfunction that could impair glymphatic clearance or signaling. Smith and Verkman (2018) critique the glymphatic bulk flow hypothesis @SmithVerkman2018glymphatic, arguing that tracer spread may reflect diffusion rather than convection—this criticism actually supports a "CSF dynamics only" model: if bulk flow is limited, enhancing turnover becomes critical, which is precisely what CA inhibitors achieve by reducing production.
+
+*Clinical implications.* The NPH literature provides well-characterized outcome measures (gait speed, cognitive test batteries, urodynamic studies) that ME/CFS research could adapt. If ME/CFS cognitive symptoms reflect inadequate CSF turnover rather than inflammation or neurodegeneration, then a subset of patients should respond to CSF drainage strategies. This predicts that: (a) ME/CFS patients with brain-fog–predominant phenotype and no structural CSF obstruction (normal ventricles on MRI) may benefit from diagnostic lumbar puncture with removal of 20–30 mL (tap test analog), producing measurable cognitive improvement; (b) Phase-contrast MRI CSF flow studies will show reduced aqueductal CSF stroke volume and slower perivascular diffusion in responders; (c) ONSD diurnal pattern (Section @sec:onsd-overnight) will normalize with successful drainage.
+
+*Key distinctions from classical NPH.* In NPH, ventriculomegaly is visible on MRI; in ME/CFS, ventricular size may be normal, suggesting the impairment is functional (turnover dynamics) rather than anatomical obstruction. CSF opening pressure may be normal or only mildly elevated in ME/CFS, whereas NPH patients typically have higher pressures (>25 cm H~2~O). This suggests that ME/CFS may involve a milder form of CSF dynamics disorder that is nonetheless functionally significant due to neurochemical sensitivity (reduced catecholamines) or glymphatic AQP4 dysfunction.
+
+*Testable predictions.*
+
+    - ME/CFS patients with brain-fog–predominant phenotype will show improvement in processing speed, executive function, and working memory after diagnostic lumbar puncture with 20–30 mL CSF removal, mirroring NPH cognitive recovery
+    - Phase-contrast MRI in these patients will show reduced aqueductal CSF stroke volume and increased CSF pulsatility compared to baseline, indicating improved CSF turnover
+    - ME/CFS patients with normal ventricles on MRI will respond equally well to CSF drainage as NPH patients with ventriculomegaly, provided CSF turnover is the limiting factor
+    - Patients with documented intracranial hypertension signs (opening pressure >25 cm H~2~O, papilledema) will show larger cognitive benefit from CSF drainage than patients with normal pressures, predicting that elevated ICP is a positive predictor of response
+    - Combining CSF drainage with existing ME/CFS treatments (Perrin Technique, sleep optimization) will produce additive cognitive benefit in responder subgroup
+] <spec:micro-nph-bridge>
+
 #limitation(title: [Speculative Mechanistic Hypotheses: Plausibility Is Not Evidence])[
-The hypotheses in this chapter—metabolic “safe mode,” glymphatic impairment, HERV reactivation, lactate compartmentalisation, vagal danger signalling, kynurenine trapping, and purinergic quorum sensing—share a common epistemic limitation: each is internally consistent and mechanistically plausible, but none has been directly tested in ME/CFS patients. Key boundaries:
+The hypotheses in this chapter—metabolic "safe mode," glymphatic impairment, synergistic CSF drainage, sequential therapy, overnight ONSD monitoring, and micro-NPH—share a common epistemic limitation: each is internally consistent and mechanistically plausible, but none has been directly tested in ME/CFS patients. Key boundaries:
 
     - No prospective study has demonstrated that any of these mechanisms _precedes_ or _causes_ ME/CFS; all are inferred from cross-sectional data, analogy to other diseases, or theoretical modelling.
-    - The “safe mode” / “locked sickness behaviour” framing is a narrative organising device, not an empirically validated construct; identical language could be applied post hoc to any chronic illness with inflammatory features.
+    - The "safe mode" / "locked sickness behaviour" framing is a narrative organising device, not an empirically validated construct; identical language could be applied post hoc to any chronic illness with inflammatory features.
     - Testable predictions listed for each hypothesis are necessary but not sufficient: confirmation of individual predictions would support but not prove the overarching model, as alternative mechanisms could generate the same observations.
     - Several hypotheses (HERV reactivation, purinergic quorum sensing, MCT dysfunction) rest on phenomena demonstrated in cell lines or animal models that have not been measured in ME/CFS cohorts at all.
-
 ]
 
 == Endogenous Retrovirus Reactivation
