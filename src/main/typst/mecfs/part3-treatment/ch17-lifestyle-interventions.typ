@@ -811,6 +811,8 @@ The Perrin Technique, developed by British osteopath Dr. Raymond Perrin from 198
 No randomised controlled trial of the Perrin Technique exists for ME/CFS specifically. The Long~COVID study was uncontrolled ($n = 20$). The diagnostic study is promising but requires independent replication. Cost and treatment duration (weekly sessions for 3 months, then tapering over ~1 year) present accessibility barriers.
 ]
 
+*Combination hypothesis:* See Section @sec:csf-drainage-synergy for a proposed synergistic combination with carbonic anhydrase inhibitors targeting glymphatic clearance failure from both sides (reduce CSF input + improve drainage output).
+
 == Environmental Modifications
 <sec:environmental>
 
