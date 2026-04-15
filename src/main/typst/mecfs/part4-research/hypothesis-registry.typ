@@ -2464,5 +2464,65 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
     [ME/CFS patients with pain/MCS features should show pain reduction with ambroxol 75--150 mg/day correlating with capsaicin flare-threshold improvement. No ME/CFS trial exists (2026). Note: species-specific Nav1.8 data (rat IC50 18 µM vs human 279 µM) limits translation.],
     [Ch.14h @spec:ch14h-ambroxol-trp],
   ),
-  kind: table, supplement: [Table], caption: [TRP/Piezo channel integration (2026-04-13): three open-questions generated from Julius 2021 Nobel context applied to ME/CFS, plus ambroxol speculation from Phase 4. Motivated by @Macpherson2007, @Li2021, @Moriyama2005, @Saha2019, @Cahalan2015, @Szczot2018, @Molot2023, @Gaida2005Ambroxol, @Hefner2025AmbroxolTRPV1, @Russo2023Ambroxol.],
+  kind: table, supplement: [Table], caption: [TRP/Piezo channel integration (2026-04-13): three open-questions generated from Julius 2021 Nobel context applied to ME/CFS, plus ambroxol speculation from Phase 4. Motivated by @Macpherson2007, @Li2021, @Moriyama2005, @Saha2019, @Cahalan2015, @Szczot2018, @Molot2023, @Gaida2005Ambroxol, @Hefner2025AmbroxolTRPV1, @Russo2023Ambroxol],
 ) <tab:hypothesis-registry-trp-piezo-2026-04-13>
+
+=== Entries Added 2026-04-14: CSF Drainage Synergy
+
+Motivated by: Wall 2014 IIHTT; Mitchell 2025 drug comparison; Riste 2025 Perrin RCT; Midtlien 2024 CTD phenotype.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Synergistic CSF Volume Reduction and Neurolymphatic Drainage],
+    [S], [0.30],
+    [CA inhibitor (acetazolamide/topiramate) reduces CSF production; Perrin Technique provides mechanical drainage. Combination addresses glymphatic failure from both sides. (a) CSF flow metrics improve with combination vs monotherapy. (b) ICP-sign patients respond better. (c) Cognitive improvement precedes fatigue improvement. (d) Lower CA inhibitor doses sufficient with concurrent Perrin.],
+    [Phase-contrast MRI + Perrin + acetazolamide trial in hEDS/CCI ME/CFS subgroup — never tested. Mitchell2025 cognition worsening is key safety barrier. Medow2024 negative for acute OI cognition.],
+    [Ch.14a @sec:csf-drainage-synergy],
+  ),
+  caption: [CSF drainage synergy hypothesis],
+  kind: table,
+) <tab:registry-csf-drainage>
+
+=== Entries Added 2026-04-14: Sequential Therapy, ONSD Biomarker, and NPH Bridge
+
+Motivated by: Riste 2025 Perrin RCT; Mitchell 2025 cognitive safety; Xie 2013 glymphatic sleep coupling; NPH literature cognitive recovery; Walitt 2024 CSF catecholamines.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Sequential Therapy: Perrin First, CA Inhibitor Only If Needed],
+    [S], [0.55],
+    [≥30% of hEDS/CCI ME/CFS patients normalize CSF flow with Perrin alone, requiring no CA inhibitor. CA addition only for inadequate responders. Avoids Mitchell 2025 cognitive risk. Provides natural comparator within each patient.],
+    [Sequential trial (Perrin first → assess → add CA if needed) — never tested. Riste 2025 showed Perrin alone improved fatigue. Mitchell 2025 cognitive worsening can be avoided for responders.],
+    [Ch.14a @sec:sequential-therapy-perrin-ca],
+
+    [Overnight ONSD Change as Non-Invasive Glymphatic Biomarker],
+    [S], [0.50],
+    [ONSD evening → morning decrease ≥0.2 mm = effective overnight glymphatic clearance in healthy controls. ME/CFS patients will show no decrease or paradoxical increase. Normalizers vs non-responders predict treatment response. Titration guide: target ONSD 4.0–5.0 mm (higher than IIH). Screening tool for ICP elevation.],
+    [Bedside ultrasound probe immediately available. Serial measurement to track Perrin/CA inhibitor/sleep response. Novel non-invasive glymphatic biomarker.],
+    [Ch.14a @sec:onsd-overnight],
+
+    [Normal Pressure Hydrocephalus (NPH) as ME/CFS "CSF Dynamics-Only" Parallel],
+    [S], [0.35],
+    [ME/CFS "micro-NPH" — CSF dynamics impairment without ventriculomegaly. Diagnostic tap test (20–30 mL removal) produces dramatic cognitive recovery in NPH. ME/CFS brain-fog phenotype should respond similarly. MRI shows reduced aqueductal CSF stroke volume. ONSD normalizes with drainage. Opening pressure predicts response.],
+    [Diagnostic lumbar puncture with CSF removal as proof-of-concept — immediately testable. Phase-contrast MRI CSF flow metrics available. NPH cognitive recovery literature provides outcome measures. SmithVerkman 2018 critique supports CSF turnover model.],
+    [Ch.14a @sec:micro-nph-bridge],
+  ),
+  caption: [Sequential therapy and glymphatic biomarkers (2026-04-14): three new speculations motivated by Perrin feasibility and Mitchell cognitive safety, extending CSF drainage framework with staged approach, non-invasive monitoring, and NPH cross-disease bridge],
+  kind: table,
+) <tab:registry-sequential-onsd-nph>
