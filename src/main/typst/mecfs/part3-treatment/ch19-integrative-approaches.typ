@@ -864,15 +864,18 @@ High-altitude medicine targets ferritin $\>$100 $mu$g/L to maximize oxygen-carr
     - *Additional benefit*: Iron is cofactor for dopamine synthesis, addressing low catecholamines found in ME/CFS CSF
 
 *2. Acetazolamide (Diamox).*
-A carbonic anhydrase inhibitor used for altitude sickness prevention.
+A carbonic anhydrase inhibitor used for altitude sickness prevention and as first-line therapy for idiopathic intracranial hypertension (IIH).
 
-    - *Mechanism*: Induces metabolic acidosis, stimulating ventilation and improving oxygenation
+    - *Mechanism*: (a) Induces metabolic acidosis, stimulating ventilation and improving oxygenation; (b) inhibits choroid plexus carbonic anhydrase, reducing CSF production by an estimated 40–60% @Wall2014IIHTT
+    - *ME/CFS relevance*: 78% of ME/CFS patients show intracranial hypertension signs @Bragee2020. A conserved CTD+IIH+CCI+POTS+MCAS phenotype has been described where acetazolamide may address CSF volume excess @Midtlien2024CVDphenotype
     - *Anecdotal ME/CFS reports*: Some patients report improved energy and cognitive function
-    - *Dose*: 125–250 mg twice daily (half the altitude sickness dose)
+    - *Dose*: 125–250 mg twice daily (half the altitude sickness dose; one-quarter of IIH dose)
     - *Side effects*: Paresthesias (tingling), increased urination, taste changes, potassium loss
     - *Contraindications*: Kidney disease, liver disease, sulfa allergy
-    - *Caution*: Limited ME/CFS-specific evidence; primarily case reports and clinical experience
+    - *Caution (cognitive)*: CA inhibitors worsened fluid cognition at ICP-reducing doses in IIH patients @Mitchell2025drugComparison. Acute acetazolamide did not improve orthostatic cognition in ME/CFS+POTS @Medow2024acetazolamideMECFS. Monitor cognitive function carefully
+    - *Caution (POTS)*: Diuretic effect may worsen orthostatic intolerance; concurrent volume loading with electrolyte monitoring essential
     - *Monitoring*: Electrolytes, kidney function before starting and periodically
+    - *See also*: Section @sec:csf-drainage-synergy for the combined CA inhibitor + Perrin Technique hypothesis
 
 *3. Breathing Optimization.*
 High-altitude climbers use specific breathing techniques to maximize oxygenation.
