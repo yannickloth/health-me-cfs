@@ -378,6 +378,7 @@ Some interventions target multiple mechanisms simultaneously, or address disease
     [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone], [B/C], [Experimental; Long COVID signal],
     [LOLA (L-ornithine L-aspartate)], [Ammonia detoxification + mitochondrial substrate], [A/B], [Experimental],
     [Perrin technique (lymphatic drainage)], [Glymphatic clearance of CNS neurotoxins; ANS normalisation], [A], [Very low evidence; mechanistically plausible],
+    [CA inhibitors (acetazolamide / topiramate)], [CSF volume reduction / intracranial pressure normalisation; topiramate adds TRPV1–mast cell modulation], [B/C], [IIH Class I evidence (acetazolamide); no ME/CFS trial; cognitive worsening concern @Mitchell2025drugComparison @Medow2024acetazolamideMECFS; see @sec:csf-drainage-synergy],
     [Acupuncture], [ANS, neuroinflammation, pain; see @sec:map-dysautonomia], [A/B], [Pilot RCTs],
     [Melatonin], [Sleep + antioxidant + immune modulation; start 0.5 mg — higher doses may worsen sleep], [A/B], [Clinical use],
     [B-vitamin complex (B1, B2, B6, B9, B12)], [Methylation; mitochondrial cofactors; neurotransmitter synthesis], [A], [Clinical use; MTHFR genotype relevant for B9/B12],
