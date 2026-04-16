@@ -134,16 +134,20 @@ Per idea: mechanistic rationale + evidence link + preliminary certainty (0.0–1
 
 **Agent:** main session | **Model:** current
 
-**MANDATORY: Integrate EVERY idea from Phase 3 that has any remote relevance to ME/CFS — even Tier 3 long-shots and speculative cross-disease bridges. No idea is skipped just because it is speculative, cross-disease, or lacks direct ME/CFS evidence.** Only skip ideas that are explicitly irrelevant (e.g., marked "NOT for clinical integration" in the brainstorm with no research value).
+**MANDATORY: Integrate EVERY idea from Phase 3 that has any remote relevance to ME/CFS — even Tier 3 long-shots and speculative cross-disease bridges. No idea is skipped just because it is speculative, cross-disease, or lacks direct ME/CFS evidence.** Only skip ideas explicitly marked as having no research value (e.g., "NOT for clinical integration, research curiosity only" in the brainstorm).
 
-Read Phase 3 output. Per idea, integrate using the appropriate environment:
+**Every integrated idea MUST carry an explicit certainty value** in the environment body. This is non-negotiable — certainty makes speculative ideas honest rather than misleading.
 
-| Certainty | Evidence | Environment |
-|-----------|----------|-------------|
-| ≥ 0.45 | Direct | `#hypothesis` |
-| 0.20–0.44 | Indirect/cross-disease | `#speculation` |
-| < 0.20 | Highly speculative | `#speculation` (low certainty) |
-| No anchor | Research question | `#open-question` |
+Read Phase 3 output. Per idea, map certainty → environment:
+
+| Certainty | Evidence type | Environment | Certainty in body |
+|-----------|---------------|-------------|-------------------|
+| ≥ 0.45 | Direct ME/CFS data | `#hypothesis` | `(Certainty: 0.XX)` |
+| 0.20–0.44 | Indirect / cross-disease / mechanistic inference | `#speculation` | `(Certainty: 0.XX)` |
+| < 0.20 | Highly speculative, analogy only | `#speculation` | `(Certainty: 0.XX)` |
+| No mechanistic anchor | Pure research question, tool proposal | `#open-question` | no certainty needed |
+
+**Certainty anchoring rule:** Use Phase 3 brainstorm certainty value as the starting point. Adjust down if the idea was uprated in Phase 3 without direct evidence. State the reason for the certainty level in one sentence (e.g., "TRPM3 assay validated; combination untested").
 
 1. **Research** (optional for Tier 1–2) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates `references.bib` + annotated bib. For Tier 3 ideas with no direct evidence, skip the research step and integrate directly as `#speculation` or `#open-question`.
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 2 rules (bypasses `chapter-integrator` — ideas already scoped by Phase 3)
