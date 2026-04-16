@@ -1188,6 +1188,14 @@ Each entry follows the format: *What* changed, _why_ it changed
   Key sources: @Saha2019 @Cahalan2015 @Szczot2018 @Molot2023 @Moriyama2005 @Li2021
   @Souza2024 @Macpherson2007 @Gaida2005Ambroxol @Hefner2025AmbroxolTRPV1 @Russo2023Ambroxol.
 
+=== Taurine and the AIMM Calcium Cascade (2026-04-16)
+  - *Chapter 16 (Supplements and Nutraceuticals)*, expanded taurine section (new `sec:taurine`; 3 new formal environments: `#clinical-finding`, `#speculation` `<spec:taurine-aimm>`, `#open-question` `<open:taurine-compartment>`; 1 warning box for LDN/taurine speculative complementarity; bile acid competition `#speculation` `<spec:taurine-bile-competition>`; full dosing, response monitoring, and combination rationale): Taurine metabolism is a top-ranked disturbed pathway in ME/CFS plasma metabolomics (exploratory, n=17) and taurine depletion impairs Na#super[+]/K#super[+]-ATPase function in macrophages via VRAC efflux---a mechanism mapping onto the AIMM cascade upstream of NCX reversal. Two null results prominently integrated: Marcangeli 2025 (n=137 humans, serum taurine unrelated to mitochondrial outcomes) and McGurk 2022 systematic review (11 RCTs, non-significant in heart failure). Compartment argument noted as cutting both ways. Taurine symptom-cluster entry qualified as mechanistic rationale only.
+  - *Chapter 6 (Energy Metabolism)*, treatment implication addition near `<hyp:calcium-pem>` and new `#speculation` `<spec:taurine-aimm-heterogeneity>`: Cross-reference to taurine supplementation as potential dual-node AIMM support; speculation that intracellular taurine status may explain PEM severity heterogeneity across patients with similar hypoperfusion, with acknowledgement of competing explanatory variables.
+  - *Appendix H*: 10 new annotated bibliography entries (taurine research stream).
+  - *references.bib*: 10 new entries (`research_stream = {taurine}`).
+  - *Hypothesis registry*: 3 new entries (`<tab:hypothesis-registry-2026-04-16-taurine>`): AIMM downstream support (S, 0.30), AIMM heterogeneity variable (S, 0.30), bile acid conjugation competition (S, 0.20).
+  _Motivated by:_ @Germain2017taurineME---taurine metabolism top-ranked disturbed pathway in ME/CFS plasma; @RossiSmith2025taurineNKA---taurine depletion impairs Na#super[+]/K#super[+]-ATPase via VRAC pathway, directly mapping onto AIMM cascade node. Key null results: @McGurk2022taurineHFreview @Marcangeli2025taurineNull.
+
 // Changelog synchronized up to commit 704a55c (2026-03-07).
 // Next changelog update should cover commits after 704a55c.
 

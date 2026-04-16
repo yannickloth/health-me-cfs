@@ -382,6 +382,36 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
 ) <tab:hypothesis-registry-2026-04-10>
 ] // end landscape page
 
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.6fr, 0.5fr, 3fr, 2.5fr, 1.5fr),
+    fill: (col, row) => if row == 0 { luma(220) } else if calc.odd(row) { luma(245) } else { white },
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Taurine as Downstream Support in the AIMM Cascade],
+    [S], [0.30],
+    [(a) Taurine supplementation (1--2 g/day, 12 weeks) reduces post-exertional sodium accumulation measured by sodium MRI in patients with documented intracellular sodium overload. (b) Null result expected in patients without intracellular sodium overload (AIMM-negative phenotype). (c) Serum taurine levels do not predict mitochondrial outcomes (consistent with Marcangeli 2025 null result; compartment-specific depletion may be at issue).],
+    [Sodium MRI protocol @Petter2022sodium as endpoint---feasible but specialist equipment required. PEM diary + DSQ-2 as clinical endpoint. No ME/CFS taurine supplementation RCT exists. Cardiac analog (heart failure, 11 studies) non-significant @McGurk2022taurineHFreview. ME/CFS metabolomics show disturbed taurine pathway @Germain2017taurineME but not measured depletion.],
+    [Ch.16 @spec:taurine-aimm; Ch.6 @sec:calcium-dysregulation],
+
+    [Taurine Status as Determinant of AIMM Severity Heterogeneity],
+    [S], [0.30],
+    [(a) Intracellular taurine (RBC lysate or muscle biopsy) inversely correlates with post-exercise sodium accumulation on sodium MRI in ME/CFS patients. (b) Taurine supplementation (2 g/day, 8 weeks) reduces intracellular sodium rise in patients with documented sodium overload.],
+    [No study has simultaneously measured intracellular taurine and sodium accumulation in ME/CFS. Sodium MRI protocol established @Petter2022sodium. RBC taurine assay feasible with standard amino acid analysis.],
+    [Ch.6 @spec:taurine-aimm-heterogeneity; Ch.16 @sec:taurine],
+
+    [Bile Acid Conjugation Competition Diverts Taurine from Cytoprotective Roles],
+    [S], [0.20],
+    [(a) ME/CFS patients have higher taurine-conjugated to glycine-conjugated bile acid ratio than controls. (b) Glycine co-supplementation raises free plasma taurine more than equivalent taurine supplementation alone.],
+    [Germain 2017 found both taurine and bile acid pathways disturbed @Germain2017taurineME---independent signals or coupled? Direction of bile acid pathway disturbance unspecified. Bile acid profile + free taurine + microbiome assay is feasible and low cost.],
+    [Ch.16 @spec:taurine-bile-competition],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from taurine integration (2026-04-16). Covers AIMM-cascade support, heterogeneity mechanism, and bile acid competition hypothesis.],
+) <tab:hypothesis-registry-2026-04-16-taurine>
+] // end landscape page
+
 /*
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
@@ -2657,3 +2687,33 @@ Motivated by: Health Rising synthesis of 11 recent ME/CFS pathophysiology studie
   kind: table,
 ) <tab:registry-blood-immune-convergence>
 ] // end landscape page
+
+=== Entries Added 2026-04-18: Calcium Channelopathy Integration
+
+Motivated by: Nguyen 2017 @Nguyen2017trpm3; Cabanas 2019 electrophysiology @Cabanas2019trpm3val; Eaton-Fitch 2021 PIP2 @EatonFitch2021trpm3pip2; Eaton-Fitch 2022 NTX @EatonFitch2022trpm3ntx; du Preez 2023 TRPM7 @DuPreez2023trpm7; Vijayan 2015 alpha-delta model @Vijayan2015alphaDelta; Crunelli 2006 CaV3.1 @Crunelli2006thalamicTtype.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left),
+    table.header([*Hypothesis / Speculation Title*], [*Type*], [*Cert.*], [*Mechanistic Summary*], [*Key Falsifiable Predictions + Study Feasibility*], [*Location*]),
+
+    [Subtype A vs Subtype B: Two Distinct Calcium Mechanisms in ME/CFS],
+    [S], [0.35],
+    [Calcium dysregulation in ME/CFS falls into two mechanistically distinct subtypes: Subtype A (energy failure → secondary Ca#super[2+] via NCX reversal; downstream, correctable via Na#super[+]/K#super[+]-ATPase restoration) and Subtype B (primary TRPM3 channelopathy → Ca#super[2+] dysfunction → multi-system failure; upstream, requiring TRPM3 restoration). Subtypes may co-exist or interact in a self-amplifying cascade. Framework motivated by @Wirth2024keyRole, @Nguyen2017trpm3, @Sasso2026trpm3.],
+    [(a) TRPM3 dysfunction should be measurable before PEM-triggering exertion in Subtype B patients but not Subtype A. (b) MDC002 (Na#super[+]/K#super[+]-ATPase restoration) prevents NCX reversal but does not normalize TRPM3 current. (c) Mixed-subtype patients require both MDC002 and TRPM3 restoration for symptom improvement. No subtyping study exists (2026). Cross-sectional TRPM3 assays cannot distinguish subtypes --- prospective longitudinal design required.],
+    [Ch.14h @spec:ch14h-calcium-subtypes],
+
+    [Thalamic T-Type Calcium Channel Disruption as Mechanism of Alpha-Delta Sleep in ME/CFS],
+    [H], [0.35],
+    [CaV3.1 T-type Ca#super[2+] channels in thalamic relay neurons generate delta oscillations; CaV3.1 KO mice show reduced NREM sleep @Crunelli2006thalamicTtype. Vijayan 2015 computational model shows altered I#sub[h]/GABA#sub[B]/K#super[+]-leak balance transforms delta into alpha-delta @Vijayan2015alphaDelta. Neuroinflammation, oxidative stress, or systemic channelopathy in ME/CFS may disrupt CaV3.1 gating, producing alpha-delta intrusion and non-restorative sleep. No direct ME/CFS study exists; extrapolated from fibromyalgia models.],
+    [(a) ME/CFS patients with alpha-delta EEG pattern show more severe non-restorative sleep than those without. (b) T-type Ca#super[2+] channel blockers (ethosuximide, zonisamide) convert alpha-delta to delta sleep and improve PSG delta power. (c) TRPM3 dysfunction severity (NK cell assay) correlates with alpha-delta sleep severity. Feasible: PSG + TRPM3 assay in same cohort; ethosuximide N-of-1 trials with PSG pre/post.],
+    [Ch.8 @hyp:thalamic-calcium-sleep],
+  ),
+  caption: [Calcium channelopathy integration (2026-04-18): Subtype A/B framework formalizing two mechanistically distinct calcium pathways, and thalamic CaV3.1 hypothesis linking sleep calcium channels to alpha-delta sleep in ME/CFS. Motivated by @Nguyen2017trpm3, @Cabanas2019trpm3val, @EatonFitch2021trpm3pip2, @EatonFitch2022trpm3ntx, @DuPreez2023trpm7, @Vijayan2015alphaDelta, @Crunelli2006thalamicTtype.],
+  kind: table,
+) <tab:registry-calcium-channelopathy-2026-04-18>
+] // end landscape page
+

@@ -721,21 +721,86 @@ Category B (energy-neutral). Immune regulatory and gene expression effects opera
 <sec:amino-acids>
 
 === Taurine
+<sec:taurine>
 
-*Rationale.*
+*Rationale.* Taurine is a conditionally essential amino acid found in high concentrations in skeletal muscle, heart, and the nervous system. It has multiple roles relevant to ME/CFS pathophysiology:
 
-    - Mitochondrial membrane stabilization
-    - Antioxidant
-    - Supports bile acid conjugation
-    - May support cardiac and nervous system function
-    - Autonomic support
+    - *Na#super[+]/K#super[+]-ATPase support:* Taurine depletion impairs Na#super[+]/K#super[+]-ATPase function; conversely, supplemental taurine may help maintain pump activity---potentially intersecting the AIMM cascade at the step immediately upstream of sodium-calcium exchanger (NCX) reversal via an analogous mechanism (demonstrated in macrophages, not yet in skeletal muscle) (see Section @sec:calcium-dysregulation in Chapter @ch:energy-metabolism) @RossiSmith2025taurineNKA @Suleiman1994taurineCardiac
+    - *Mitochondrial membrane stabilisation and calcium buffering:* Taurine reduces pathological calcium accumulation, blocks endoplasmic reticulum stress, reduces mitochondrial permeability transition pore (mPTP) opening probability, and helps preserve mitochondrial membrane integrity during calcium overload @Prentice2015taurineNeuro
+    - *NCX cascade position:* In the AIMM model, the sequence is: hypoperfusion → acidosis → NHE1 imports Na#super[+] → Na#super[+]/K#super[+]-ATPase overloaded → NCX reversal → Ca#super[2+] overload → mitochondrial damage → PEM. Taurine acts at two nodes: upstream (pump support) and downstream (calcium buffering)
+    - *Disturbed pathway in ME/CFS:* Taurine metabolism has been identified as a top-ranked disturbed metabolic pathway in ME/CFS plasma metabolomics in one exploratory study (n=17) @Germain2017taurineME; pathway rankings from untargeted metabolomics in small cohorts are exploratory and database-dependent. Impaired taurine pathway recovery has also been observed during the post-exertional window @Glass2023urineMetabolomics. These findings identify taurine as a mechanistically plausible target but do not establish plasma depletion or clinical benefit from supplementation
+    - *Antioxidant and osmolyte functions:* Taurine acts as an osmolyte supporting cell volume regulation and has antioxidant properties relevant to oxidative stress documented in ME/CFS @Prentice2015taurineNeuro @Syed2025
 
-*Evidence.* Theoretical for ME/CFS; widely used.
+*Evidence.*
+#clinical-finding(title: [Taurine Metabolism Disturbed in ME/CFS Plasma])[
+Germain et al.\ (2017) profiled plasma metabolomics in 17 ME/CFS patients versus 15 controls and identified taurine and taurine-conjugate metabolism as the top-ranked disturbed metabolic pathway, ahead of glycerophospholipid metabolism and bile acid biosynthesis @Germain2017taurineME. Glass et al.\ (2023) found impaired taurine pathway recovery during the post-exertional window in a small pilot (n=10 ME/CFS, n=8 controls) using urine metabolomics @Glass2023urineMetabolomics.
 
-*Dosing.* 500–3000 mg daily.
+*Limitations:* Both studies are small (n ≤ 17), limited to metabolomics pathway analysis, and do not measure plasma taurine concentrations directly. Neither establishes whether supplementation would correct the disturbed pathway or produce clinical benefit. These findings support mechanistic plausibility, not clinical efficacy. Replication status: not yet replicated (single study each).
+]
+
+#speculation(title: [Taurine as Downstream Support in the AIMM Cascade])[
+*Certainty: 0.30.* No direct taurine supplementation trial in ME/CFS exists. Rationale extrapolated from mechanistic analogs (cardiac, neurological), one recent Na#super[+]/K#super[+]-ATPase study @RossiSmith2025taurineNKA, and classic cardiology framework @Suleiman1994taurineCardiac.
+
+In cardiac and neurological contexts, taurine depletion impairs Na#super[+]/K#super[+]-ATPase function and allows NCX reversal-driven calcium overload @Suleiman1994taurineCardiac. Rossi-Smith et al.\ (2025) demonstrated this pathway in macrophages: intracellular taurine depletion via VRAC efflux → Na#super[+]/K#super[+]-ATPase failure → ionic dysregulation → NLRP3 inflammasome activation @RossiSmith2025taurineNKA. This molecular mechanism maps directly onto the AIMM Na#super[+]/K#super[+]-ATPase node.
+
+*Null result caveat:* Marcangeli et al.\ (2025) found no association between serum taurine levels and age, muscle mass, mitochondrial respiration, or calcium handling in 137 men aged 20--93 @Marcangeli2025taurineNull---directly challenging the hypothesis that serum taurine reflects intracellular taurine status or predicts mitochondrial outcomes. An important limitation: the study measured serum taurine, not intracellular or tissue taurine; compartment-specific depletion could be present despite normal serum levels. Crucially, the compartment argument cuts both ways: if serum does not reflect intracellular taurine, then the Germain 2017 plasma metabolomics finding @Germain2017taurineME also cannot establish intracellular taurine depletion---both lines of evidence are limited to the same plasma compartment.
+
+*Critical counter-evidence:* The strongest clinical analog---a systematic review of 11 taurine RCTs in heart failure (the condition sharing exercise intolerance and the proposed NCX/calcium overload cascade in cardiomyocytes)---showed non-significant effects on ejection fraction and stroke volume @McGurk2022taurineHFreview. This null result should be the primary anchor for evaluating the ME/CFS hypothesis, not a cautionary note isolated elsewhere.
+
+*Falsifiable prediction:* Taurine supplementation (1--2 g/day for 12 weeks) would improve post-exertional sodium accumulation measured by sodium MRI @Petter2022sodium or reduce PEM severity in patients with documented intracellular sodium overload. Null result in patients without intracellular sodium overload would be consistent with the absence of mechanism.
+] <spec:taurine-aimm>
+
+#warning-env(title: [Taurine: No ME/CFS Supplementation Trial Exists])[
+Despite strong mechanistic rationale and disturbed metabolomic signals, no randomised controlled trial of taurine supplementation in ME/CFS has been published. The strongest analog evidence---a 2022 systematic review of taurine in heart failure (11 studies)---found non-significant effects on ejection fraction and stroke volume @McGurk2022taurineHFreview. One small RCT in exercise-intolerant heart failure patients (n ≈ 30, 1,500 mg/day for 2 weeks) showed significant reductions in inflammatory markers @Ahmadian2017taurineHF but did not measure functional capacity or fatigue. Strong mechanistic rationale does not guarantee clinical benefit.
+]
+
+*Forms.*
+
+    - *Pure L-taurine powder:* Pharmaceutical or food grade; no bioactive isomers. Reputable brands (NOW Foods, Jarrow, Thorne, bulk suppliers) are equivalent; no evidence any proprietary form outperforms
+    - *Magnesium taurate:* Taurine chelated with magnesium; may benefit patients needing both (see Section @sec:electrolytes); lower elemental taurine per dose than pure taurine
+    - *Avoid combined formulas with stimulants:* Energy drink and pre-workout formulations conflict with ME/CFS pacing requirements
+
+*Dosing.*
+
+    - Research-analog doses: 1,000--3,000 mg daily, typically split (500 mg--1,000 mg twice daily)
+    - ME/CFS starting dose: 500 mg/day for 1--2 weeks; titrate slowly---taurine shifts osmolyte balance and may transiently alter electrolyte handling @Prentice2015taurineNeuro
+    - Maintenance: 1,000--2,000 mg daily if tolerated
+    - Take with meals to reduce gastrointestinal side effects
+
+*Timing.* No established protocol specific to ME/CFS. For the AIMM hypothesis (preventing exertion-triggered NCX cascade), pre-exertional dosing has theoretical support but is unstudied.
+
+*Response Timeline.* Unknown in ME/CFS. Cardiac analogs suggest 2--4 weeks minimum. Allow 8--12 weeks before concluding non-response.
+
+*What to track.*
+
+    - PEM frequency and severity (primary target if AIMM mechanism active)
+    - Muscle pain or weakness changes
+    - Any symptom shift in first 2--3 weeks at each dose step; keep a symptom diary
+
+*Cautions.* Generally well-tolerated. Mild gastrointestinal discomfort possible; start low. May transiently shift electrolyte balance in patients with marginal Na#super[+]/K#super[+]-ATPase function (see @spec:taurine-aimm for mechanistic basis; extrapolation from preclinical evidence).
+
+#warning-env(title: [Taurine + LDN: Speculative Complementarity, Not Established Guidance])[
+Both taurine (targeting the AIMM/NCX cascade via Na#super[+]/K#super[+]-ATPase support) and low-dose naltrexone (targeting TRPM3 channelopathy, Section @sec:trpm3-hypotheses) address calcium dysregulation in ME/CFS. However, both pathway attributions are at speculation level (certainty ≤ 0.30). Whether either pathway is active in a given patient is unconfirmed. The claim that they are "mechanistically complementary" rests on two separate unvalidated hypotheses. No clinical evidence for this combination exists. No pharmacological interaction between taurine and LDN is expected, but combined use should be discussed with a physician.
+]
 
 *Energy Profile.*
-Category A–B (provider to neutral). Conditionally essential amino acid that stabilizes mitochondrial membranes and regulates calcium homeostasis—both critical for mitochondrial energy production. Also functions as an osmolyte supporting cell volume regulation with minimal ATP cost. May improve mitochondrial efficiency without direct ATP provision.
+Category A--B (provider to neutral). Acts at two nodes of the AIMM cascade: upstream (Na#super[+]/K#super[+]-ATPase maintenance) and downstream (calcium buffering, mitochondrial membrane stabilisation). Functions as an osmolyte with minimal ATP cost. May improve mitochondrial efficiency without direct ATP provision. Clinical energy benefit in ME/CFS is unproven.
+
+#speculation(title: [Bile Acid Conjugation Competition Diverts Taurine from Cytoprotective Roles])[
+*Certainty: 0.20.* Speculative. No ME/CFS study has directly measured taurine partitioning between bile acid conjugation and intracellular pools. Taurine direction in the disturbed Germain 2017 pathway is not specified.
+
+Taurine is consumed by two major competing pathways: (1) hepatic bile acid conjugation (taurocholate, taurodeoxycholate) and (2) intracellular cytoprotective roles (osmolyte, calcium buffer, Na#super[+]/K#super[+]-ATPase support). Germain et al.\ (2017) found both taurine metabolism and bile acid biosynthesis ranked among the top disturbed metabolic pathways in ME/CFS plasma @Germain2017taurineME. These are not independent signals: taurine IS a bile acid conjugation substrate. If ME/CFS gut dysbiosis (see Chapter @ch:gut-microbiome) drives increased enterohepatic cycling or impaired bile acid reabsorption, hepatic taurine demand rises, diverting taurine away from muscle and immune cell cytoprotection --- including the Na#super[+]/K#super[+]-ATPase support role at the AIMM cascade node. Co-supplementing glycine (2--3 g/day), which is an alternative bile acid conjugation substrate, may spare taurine for intracellular functions by competing for the hepatic conjugation pathway.
+
+*Falsifiable prediction:* (a) ME/CFS patients show a higher taurine-conjugated to glycine-conjugated bile acid ratio than controls. (b) Glycine co-supplementation raises free plasma taurine more than equivalent taurine supplementation alone.
+] <spec:taurine-bile-competition>
+
+#open-question(title: [Is Taurine Intracellularly Depleted in ME/CFS? The Compartment Question])[
+The Marcangeli et al.\ (2025) null result---no association between serum taurine and muscle mass, mitochondrial respiration, or calcium handling in 137 humans @Marcangeli2025taurineNull---challenges assuming that serum taurine reflects intracellular taurine status. Red blood cell (RBC) taurine concentration provides a more direct intracellular proxy: RBCs have Na#super[+]/K#super[+]-ATPase and taurine transport, making them an accessible cellular model for the ionic mechanism. Whether ME/CFS patients have lower RBC taurine despite normal serum taurine has not been measured.
+
+A second open question: does baseline taurine status predict the magnitude of post-exertional physiological dysfunction? Adding pre-CPET plasma or RBC taurine measurement to the standard two-day CPET protocol would allow stratification of the Day 2 decrement by taurine status. If taurine-depleted patients show a larger Day 2 decrement, this would identify a treatment-responsive AIMM subgroup.
+] <open:taurine-compartment>
+
+*Combination note: taurine in the ionic resilience stack.* For patients in whom the AIMM cascade is suspected (significant exertion-triggered PEM, documented orthostatic intolerance, intracellular sodium accumulation if tested by sodium MRI), taurine combines rationally with its ionic support partners: magnesium (cofactor for Mg-ATP, the true Na#super[+]/K#super[+]-ATPase substrate), and potassium (the pump's import substrate). All three support Na#super[+]/K#super[+]-ATPase function at different molecular points. For practical dosing of this combination, see Section @sec:electrolytes (magnesium, potassium) and this section.
 
 === Glycine
 
@@ -827,7 +892,7 @@ For mild-to-moderate patients who can afford broader support. *Severity note*: F
 
     - Electrolytes (priority)
     - Magnesium
-    - Taurine
+    - Taurine (mechanistic rationale only; no ME/CFS trial evidence; see Section @sec:taurine)
     - Licorice root (caution: raises BP)
 
 *Predominant Cognitive Symptoms.*

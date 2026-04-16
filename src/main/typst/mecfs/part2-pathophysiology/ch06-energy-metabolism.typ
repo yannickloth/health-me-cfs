@@ -1422,9 +1422,19 @@ Wirth and Scheibenbogen propose positioning ME/CFS as an "acquired ischaemic mit
     / *(b)*: The degree of post-exercise sodium accumulation (Wirth-Scheibenbogen sodium MRI protocol) predicts PEM severity and duration in a dose-response relationship.
     / *(c)*: Pharmacological Na#super[+]/K#super[+]-ATPase stimulation (e.g., MDC002/Mitodicure) reduces or eliminates PEM by preventing the sodium-calcium cascade from reaching the toxicity threshold.
 
-*Treatment implication:* If calcium toxicity is the proximate PEM mechanism, then MDC002---which restores Na#super[+]/K#super[+]-ATPase function---would address the immediate trigger. Upstream interventions improving muscular blood flow (see bradykinin model, Section @sec:blood-volume of Chapter @ch:cardiovascular) would reduce the pump's metabolic burden.
+*Treatment implication:* If calcium toxicity is the proximate PEM mechanism, then MDC002---which restores Na#super[+]/K#super[+]-ATPase function---would address the immediate trigger. Upstream interventions improving muscular blood flow (see bradykinin model, Section @sec:blood-volume of Chapter @ch:cardiovascular) would reduce the pump's metabolic burden. Taurine may provide supplementary support at two nodes of this cascade: maintaining Na#super[+]/K#super[+]-ATPase activity and buffering downstream calcium overload (see Section @sec:taurine in Chapter @ch:supplements @RossiSmith2025taurineNKA @Prentice2015taurineNeuro); however, no ME/CFS supplementation trial has tested this hypothesis.
 *Certainty: 0.50*---strong mechanistic logic supported by the sodium MRI data and muscle necrosis finding, but direct calcium measurements in ME/CFS muscle during PEM have not yet been performed.
 ] <hyp:calcium-pem>
+
+#speculation(title: [Taurine Status as a Determinant of AIMM Severity Heterogeneity])[
+*Certainty: 0.30.* No study has simultaneously measured intracellular taurine and sodium accumulation in ME/CFS patients. Rationale is mechanistic extrapolation.
+
+The AIMM cascade describes a deterministic sequence, but patients with similar degrees of hypoperfusion show substantially different PEM severity. The existing model contains no variable to explain this heterogeneity. Many factors could contribute (fitness level, mitochondrial reserve, autoantibody burden, autonomic tone, sleep quality, genetic variation in ion channel isoforms). Intracellular taurine status is one candidate variable: taurine acts as a two-node ionic buffer at the Na#super[+]/K#super[+]-ATPase support point (upstream @RossiSmith2025taurineNKA) and at calcium buffering (downstream @Prentice2015taurineNeuro), effectively raising the sodium threshold at which NCX reversal occurs and the calcium threshold at which mitochondrial damage begins. Patients with higher intracellular taurine would have a larger ionic safety margin before PEM cascade onset.
+
+*Falsifiable prediction:* Intracellular taurine concentration (muscle biopsy or RBC lysate proxy) inversely correlates with post-exercise sodium accumulation measured by the Petter et al.\ sodium MRI protocol @Petter2022sodium in ME/CFS patients. A direct trial: taurine supplementation (2 g/day, 8 weeks) reduces the magnitude of intracellular sodium rise in patients with documented sodium overload.
+
+See Section @sec:taurine in Chapter @ch:supplements for supplement protocol.
+] <spec:taurine-aimm-heterogeneity>
 
 === Thyroid Hormone Regulation of Mitochondrial Function
 <sec:thyroid-mito-regulation>

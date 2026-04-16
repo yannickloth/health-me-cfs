@@ -142,3 +142,21 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/40211686/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — WohlrabEtAl2025 — autoantibody targeting therapies ME/CFS post-COVID |
 | https://mecfsresearchreview.me/2026/04/15/me-cfs-onset-had-two-peaks-which-may-be-a-clue-to-causes/ | mecfsresearchreview.me | 2026-04-16 | 2026-04-16 | ch05-onset-patterns, ch05-subgroups, ch23-epidemiology — McGrath2026bimodalOnset bimodal onset age peaks |
 | https://www.healthrising.org/blog/2026/04/14/blood-immune-system-me-cfs/ | healthrising.org | 2026-04-16 | 2026-04-16 | ch07 (immune remodeling, Galectin-9, complement genetics, EV signaling), ch08 (NII neuroinflammation, CSF proteomics), ch20 (emerging biomarkers), hypothesis registry — 11-study cross-system convergence |
+| https://pubmed.ncbi.nlm.nih.gov/27727448/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — Nguyen2017trpm3 — first TRPM3 impairment ME/CFS NK cells |
+| https://pubmed.ncbi.nlm.nih.gov/31014226/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — Cabanas2019trpm3val — patch-clamp validation TRPM3 dysfunction |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC6834647/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — Cabanas2019trpm3ldnFront — naltrexone restores TRPM3 in vitro |
+| https://pubmed.ncbi.nlm.nih.gov/34266470/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — EatonFitch2021trpm3pip2 — TRPM3/PIP2 co-localization NK degranulation |
+| https://pubmed.ncbi.nlm.nih.gov/35172836/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — EatonFitch2022trpm3ntx — TRPM3 Ca2+ influx + NTX restoration expanded |
+| https://pubmed.ncbi.nlm.nih.gov/37509075/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — DuPreez2023trpm7 — TRPM7 calcium dysregulation ME/CFS NK cells |
+| https://pubmed.ncbi.nlm.nih.gov/26245315/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — Vijayan2015alphaDelta — thalamic alpha-delta sleep model fibromyalgia |
+| https://pubmed.ncbi.nlm.nih.gov/16777223/ | pubmed | 2026-04-18 | 2026-04-18 | bib/appendix-h — Crunelli2006thalamicTtype — thalamic T-type Ca2+ NREM sleep |
+| https://pubmed.ncbi.nlm.nih.gov/28059425/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Germain2017taurineME — ME/CFS plasma metabolomics taurine pathway disturbance |
+| https://pubmed.ncbi.nlm.nih.gov/36835097/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Glass2023urineMetabolomics — urine metabolomics post-exertion ME/CFS taurine recovery impaired |
+| https://pubmed.ncbi.nlm.nih.gov/37289866/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Singh2023taurineAging — taurine deficiency driver of aging Science landmark |
+| https://pubmed.ncbi.nlm.nih.gov/41061678/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Marcangeli2025taurineNull — null result taurine aging humans Aging Cell |
+| https://pubmed.ncbi.nlm.nih.gov/40974575/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — RossiSmith2025taurineNKA — taurine efflux impairs Na/K-ATPase NLRP3 Cell Reports |
+| https://pubmed.ncbi.nlm.nih.gov/7786694/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Suleiman1994taurineCardiac — cardiac calcium paradox taurine Na/K-ATPase NCX |
+| https://pubmed.ncbi.nlm.nih.gov/26576229/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Prentice2015taurineNeuro — taurine neuroprotection calcium buffering mitochondrial stabilization |
+| https://pubmed.ncbi.nlm.nih.gov/28580833/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Ahmadian2017taurineHF — taurine RCT heart failure anti-inflammatory exercise |
+| https://pubmed.ncbi.nlm.nih.gov/35855073/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — McGurk2022taurineHFreview — systematic review taurine heart failure null meta-analysis |
+| https://pubmed.ncbi.nlm.nih.gov/31865328/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Zhang2020taurineDiabetes — taurine TRPC6 H2S calcium overload mitochondrial protection diabetes analog |
