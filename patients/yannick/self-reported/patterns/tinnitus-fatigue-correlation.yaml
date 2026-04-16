@@ -13,6 +13,11 @@ patient_observation:
   reliability: high
   reproducibility: "Patient reports 100% correlation"
   confidence: "Patient very confident in this pattern"
+  modulating_factors:
+    - factor: "Sleep deprivation / insufficient sleep"
+      effect: "Tinnitus more pronounced"
+      reported: "2026-04-17"
+      notes: "Patient reports tinnitus is more pronounced specifically when tired or after poor/insufficient sleep — consistent with 3 consecutive days of tinnitus (2026-04-14 to 2026-04-16) during a period with non-restorative sleep"
 
 clinical_significance:
   potential_mechanisms:
