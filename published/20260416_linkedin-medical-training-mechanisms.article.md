@@ -12,21 +12,31 @@ Not because the data was missing. Not because the mechanism was unknown. Because
 
 ICD-11, the current international disease classification, contains approximately **17,000 diagnostic categories** and over **130,000 clinical terms**. This is what medical training is organized around: an enormous taxonomy of named conditions, each with its own criteria, its own protocol, its own specialist.
 
-Meanwhile, the number of **fundamental biological mechanisms** underlying those 17,000 conditions is roughly **30 to 50**, depending on how you count:
+Meanwhile, the number of **fundamental biological mechanism families** underlying those 17,000 conditions is roughly **20**, each containing multiple concrete mechanisms — approximately 80–100 distinct mechanisms in total, depending on the level of resolution at which you count:
 
-- Chronic inflammation and immune dysregulation
-- Mitochondrial dysfunction and energy failure
-- Thalamo-cortical hyperexcitability
-- Autonomic dysregulation
-- Vascular perfusion failure
-- Biological barrier dysfunction (gut epithelium, blood-brain barrier)
-- Stress hormone axis dysregulation (cortisol, adrenaline)
-- Cellular senescence and epigenetic consolidation
-- Microbiome dysbiosis and translocation
+- Energy and metabolic regulation (mitochondrial dysfunction, PDH/PDK block, glycolytic shift, NAD⁺ depletion)
+- Redox and oxidative balance (ROS/RNS overproduction, lipid peroxidation, nitrosative stress)
+- Ion channel and membrane transport (channelopathies, membrane stiffness, Ca²⁺ signalling failure)
+- Immune activation and cytokine signalling (innate hyperactivation, NK exhaustion, complement)
+- Autoimmunity and molecular mimicry (receptor autoantibodies, post-viral immune misdirection)
+- Coagulation and haematological (microclot formation, platelet hyperactivation, hypercoagulability)
+- Vascular and endothelial dysfunction (endothelial failure, cerebral hypoperfusion, RAAS paradox)
+- Autonomic and peripheral nervous system (POTS, baroreflex failure, small fiber neuropathy)
+- Neuroendocrine and hormonal regulation (HPA blunting, thyroid conversion failure, sex hormones)
+- Neurological and thalamocortical (neuroinflammation, E/I imbalance, alpha intrusion, glymphatic failure)
+- Amino acid and neurotransmitter metabolism (IDO/kynurenine, serotonin depletion, NAD⁺ pathway)
+- Genomic and epigenetic regulation (methylation signatures, telomere attrition, post-viral epigenetic locking)
+- Protein homeostasis and degradation (HSP dysregulation, autophagy failure, aggregation)
+- Cell death and senescence (exhaustion, SASP, pyroptosis, ferroptosis)
+- Gut-microbiome-immune axis (dysbiosis, leaky gut, LPS translocation, gut-brain axis)
+- Viral persistence and immune evasion (herpesvirus reactivation, enterovirus persistence)
+- Structural and tissue integrity (muscle damage, capillary rarefaction, nerve fiber loss)
+- Transcriptional and nuclear signalling (NF-κB, Nrf2, nuclear receptor dysregulation)
+- Purinergic and danger signalling (ATP-DAMP, P2X7, cell danger response, NLRP3)
 
-The 17,000 diseases are not 17,000 independent phenomena. They are different combinations and tissue-specific expressions of this small mechanism set. The number of diseases is large because the combinatorics of a small mechanism set, expressed across different tissues, ages, severities, and triggers, produces a large number of distinct clinical pictures.
+The 17,000 diseases are not 17,000 independent phenomena. They are different combinations and tissue-specific expressions of this small set of mechanism families. The number of diseases is large because the combinatorics of ~20 families, expressed across different tissues, ages, severities, and triggers, produces an enormous number of distinct clinical pictures.
 
-Medical training is organized around the 17,000. It should be organized around the 50.
+Medical training is organized around the 17,000. It should be organized around the 20.
 
 ---
 
