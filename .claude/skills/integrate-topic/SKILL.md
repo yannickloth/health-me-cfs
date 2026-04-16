@@ -130,21 +130,28 @@ Per idea: mechanistic rationale + evidence link + preliminary certainty (0.0–1
 
 ---
 
-## Phase 4 — Develop and Integrate Best Ideas
+## Phase 4 — Develop and Integrate ALL Remotely-Relevant Ideas
 
 **Agent:** main session | **Model:** current
 
-Read Phase 3 output. Per idea worth integrating:
+**MANDATORY: Integrate EVERY idea from Phase 3 that has any remote relevance to ME/CFS — even Tier 3 long-shots and speculative cross-disease bridges. No idea is skipped just because it is speculative, cross-disease, or lacks direct ME/CFS evidence.** Only skip ideas that are explicitly irrelevant (e.g., marked "NOT for clinical integration" in the brainstorm with no research value).
 
-1. **Research** — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates `references.bib` + annotated bib
+Read Phase 3 output. Per idea, integrate using the appropriate environment:
+
+| Certainty | Evidence | Environment |
+|-----------|----------|-------------|
+| ≥ 0.45 | Direct | `#hypothesis` |
+| 0.20–0.44 | Indirect/cross-disease | `#speculation` |
+| < 0.20 | Highly speculative | `#speculation` (low certainty) |
+| No anchor | Research question | `#open-question` |
+
+1. **Research** (optional for Tier 1–2) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates `references.bib` + annotated bib. For Tier 3 ideas with no direct evidence, skip the research step and integrate directly as `#speculation` or `#open-question`.
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 2 rules (bypasses `chapter-integrator` — ideas already scoped by Phase 3)
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
-Skip ideas with no supporting evidence; document rationale.
+**Integration threshold:** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. No idea is "too speculative to integrate" — speculative ideas belong in `#speculation` environments with low certainty ratings.
 
-**Integration threshold:** ≥1 credible mechanistic anchor in literature, even if direct ME/CFS evidence sparse → use `#speculation` + certainty < 0.35 for speculative bridges.
-
-**Report:** "Phase 4 complete: N ideas developed and integrated, M skipped (reasons documented)."
+**Report:** "Phase 4 complete: N ideas integrated (M hypotheses, K speculations, J open questions), P skipped (reason: [explicit irrelevance only])."
 
 ---
 
