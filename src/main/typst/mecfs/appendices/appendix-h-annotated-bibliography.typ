@@ -7806,6 +7806,158 @@ This section covers the foundational mechanosensation and nociception literature
         - *Quality:* Medium (novel genetic approach, UK Biobank partial validation, CDC authorship, but small discovery n)
         - *Score:* 0.50
 
+// ============================================================
+// CALCIUM CHANNELOPATHY RESEARCH STREAM
+// ============================================================
+
+=== Nguyen et al.\ 2017 --- First TRPM3 Impairment in ME/CFS NK Cells
+
+    / *Full Citation:*: Nguyen T, Johnston S, Clarke L, Smith P, Staines D, Marshall-Gradisnik S. Impaired calcium mobilization in natural killer cells from chronic fatigue syndrome/myalgic encephalomyelitis patients is associated with transient receptor potential melastatin 3 ion channels. _Clin Exp Immunol_. 2017;187(2):284--293.
+    / *DOI:*: #link("https://doi.org/10.1111/cei.12882")[10.1111/cei.12882]
+    / *PMID:*: 27727448
+    / *Study Design:*: Case-control; flow cytometry, calcium flux assays in NK cell subtypes
+    / *Sample Size:*: n=15 CFS/ME patients, n=25 healthy controls
+    / *Key Findings:*:
+        - Unstimulated CD56bright NK cells: significantly reduced TRPM3 surface expression in CFS/ME vs controls
+        - PregS-stimulated CD56bright NK cells: elevated Ca2+ flux in CFS/ME patients vs controls
+        - Thapsigargin-stimulated CD56dim NK cells: elevated cytotoxicity in CFS/ME
+        - Differential TRPM3 expression patterns between NK cell subtypes
+    / *Conclusion:*: First study linking TRPM3 dysfunction to impaired calcium mobilization in ME/CFS NK cells; identifies TRPM3 as pathomechanistic candidate
+    / *Limitations:*: Small n; unequal group sizes; cross-sectional; single center (Griffith University)
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed clinically relevant journal, but small n, single center)
+        - *Replication:* Replicated by multiple subsequent studies from same group and Sasso et al. 2026
+        - *Score:* 0.55
+
+=== Cabanas et al.\ 2019a --- Validation of TRPM3 Dysfunction (Patch-Clamp)
+
+    / *Full Citation:*: Cabanas H, Muraki K, Balinas C, Eaton-Fitch N, Staines D, Marshall-Gradisnik S. Validation of impaired Transient Receptor Potential Melastatin 3 ion channel activity in natural killer cells from Chronic Fatigue Syndrome/Myalgic Encephalomyelitis patients. _Mol Med_. 2019;25(1):14.
+    / *DOI:*: #link("https://doi.org/10.1186/s10020-019-0083-4")[10.1186/s10020-019-0083-4]
+    / *PMID:*: 31014226
+    / *Study Design:*: Case-control; whole-cell patch-clamp electrophysiology
+    / *Sample Size:*: n=12 CFS/ME, n=12 age/sex-matched healthy controls
+    / *Key Findings:*:
+        - Significantly reduced amplitude of TRPM3 currents in CFS/ME NK cells
+        - Confirmed using multiple pharmacological probes: PregS (agonist), nifedipine, ononetin (antagonist)
+        - Establishes TRPM3 dysfunction as potential diagnostic biomarker
+    / *Conclusion:*: Electrophysiological validation of TRPM3 loss of function in ME/CFS NK cells; supports ion channelopathy model
+    / *Limitations:*: Small n; single center; NK cells only; patch-clamp is labor-intensive limiting scale
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (rigorous patch-clamp methodology, peer-reviewed, but small n)
+        - *Replication:* Validated by Sasso et al. 2026 multi-site study
+        - *Score:* 0.55
+
+=== Cabanas et al.\ 2019b --- Naltrexone Restores TRPM3 Function In Vitro
+
+    / *Full Citation:*: Cabanas H, Muraki K, Staines D, Marshall-Gradisnik S. Naltrexone Restores Impaired Transient Receptor Potential Melastatin 3 Ion Channel Function in Natural Killer Cells From Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Patients. _Front Immunol_. 2019;10:2545.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2019.02545")[10.3389/fimmu.2019.02545]
+    / *PMID:*: 31736966
+    / *Study Design:*: Case-control; patch-clamp; in vitro naltrexone incubation
+    / *Sample Size:*: n=8 ME/CFS, n=8 age/sex-matched healthy controls
+    / *Key Findings:*:
+        - Impaired TRPM3 function confirmed in ME/CFS NK cells
+        - 24h naltrexone (NTX) incubation fully restores TRPM3 channel activity in IL-2-stimulated NK cells
+        - NTX mechanism: opioid receptor antagonism removes inhibitory block on TRPM3
+        - First pharmacological restoration of TRPM3 function in ME/CFS
+    / *Conclusion:*: Proof-of-concept that TRPM3 dysfunction is pharmacologically reversible; supports LDN as therapeutic candidate
+    / *Limitations:*: Very small n (8/group); in vitro only; mechanism inferred; single center
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-low (small n, in vitro, but rigorous electrophysiology, high-impact open-access journal)
+        - *Replication:* Confirmed by Eaton-Fitch et al. 2022 (n=10/group) and Cabanas et al. 2025
+        - *Score:* 0.50
+
+=== Eaton-Fitch et al.\ 2021 --- TRPM3/PIP2 Co-Localization and NK Degranulation
+
+    / *Full Citation:*: Eaton-Fitch N, Cabanas H, du Preez S, Staines D, Marshall-Gradisnik S. The effect of IL-2 stimulation and treatment of TRPM3 on channel co-localisation with PIP2 and NK cell function in myalgic encephalomyelitis/chronic fatigue syndrome patients. _J Transl Med_. 2021;19:306.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-021-02974-4")[10.1186/s12967-021-02974-4]
+    / *PMID:*: 34266470
+    / *Study Design:*: Case-control; confocal microscopy, flow cytometry, cytotoxicity assay
+    / *Sample Size:*: n=15 ME/CFS, n=15 age/sex-matched healthy controls
+    / *Key Findings:*:
+        - TRPM3/PIP2 co-localization significantly reduced in ME/CFS NK cells vs controls
+        - PIP2-dependent Ca2+ entry required for granule polarization, perforin pore formation, granzyme-dependent apoptosis
+        - IL-2 stimulation significantly enhances NK cytotoxicity in both groups; partially compensates for TRPM3 dysfunction
+        - Ononetin treatment enhanced TRPM3/PIP2 co-localization in patient cells
+    / *Conclusion:*: TRPM3--PIP2 interaction is mechanistically upstream of NK cell degranulation; its disruption explains reduced cytotoxic killing in ME/CFS
+    / *Limitations:*: n=15/group; single center; indirect degranulation readout; confocal co-localization is semi-quantitative
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (mechanistically informative, peer-reviewed, adequate n for exploratory study)
+        - *Score:* 0.50
+
+=== Eaton-Fitch et al.\ 2022 --- TRPM3 Calcium Influx and Naltrexone Restoration (Expanded)
+
+    / *Full Citation:*: Eaton-Fitch N, du Preez S, Cabanas H, Muraki K, Staines D, Marshall-Gradisnik S. Impaired TRPM3-dependent calcium influx and restoration using Naltrexone in natural killer cells of myalgic encephalomyelitis/chronic fatigue syndrome patients. _J Transl Med_. 2022;20(1):94.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-022-03297-8")[10.1186/s12967-022-03297-8]
+    / *PMID:*: 35172836
+    / *Study Design:*: Case-control; calcium flux assay (live cell imaging), in vitro naltrexone
+    / *Sample Size:*: n=10 ME/CFS, n=10 age/sex-matched healthy controls
+    / *Key Findings:*:
+        - Ca2+ response amplitude and T1/2 significantly reduced at baseline in ME/CFS NK cells vs HC (p<0.0001)
+        - Overnight naltrexone treatment fully restores TRPM3-dependent Ca2+ influx to HC levels
+        - Both response timing and amplitude normalized post-NTX
+        - Validates and extends Cabanas et al. 2019b with improved sample size
+    / *Conclusion:*: Strengthened evidence for TRPM3 dysfunction as core ME/CFS abnormality; naltrexone pharmacological rescue confirmed in larger cohort
+    / *Limitations:*: Small n (10/group); in vitro pharmacology; single center; no clinical correlation
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (improved n vs prior study, rigorous methodology, peer-reviewed)
+        - *Replication:* Builds directly on Cabanas 2019b; further confirmed by Cabanas 2025
+        - *Score:* 0.55
+
+=== du Preez et al.\ 2023 --- TRPM7 Calcium Dysregulation in ME/CFS NK Cells
+
+    / *Full Citation:*: du Preez S, Eaton-Fitch N, Smith PK, Marshall-Gradisnik S. Altered TRPM7-Dependent Calcium Influx in Natural Killer Cells of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Patients. _Biomolecules_. 2023;13(7):1039.
+    / *DOI:*: #link("https://doi.org/10.3390/biom13071039")[10.3390/biom13071039]
+    / *PMID:*: 37509075
+    / *Study Design:*: Case-control; calcium flux assay (TRPM7 agonist/antagonist pharmacology)
+    / *Sample Size:*: n=9 ME/CFS, n=9 age/sex-matched healthy controls
+    / *Key Findings:*:
+        - TRPM7-dependent Ca2+ influx slope significantly reduced in ME/CFS following TRPM7 activation
+        - Response parameters during TRPM7 desensitization also significantly differ between groups
+        - Suggests broader TRP channelopathy beyond TRPM3 alone
+        - Authors propose TRPM7 dysfunction may reflect downstream consequence of impaired Ca2+ homeostasis
+    / *Conclusion:*: ME/CFS involves multi-channel TRP channelopathy; TRPM7 adds to TRPM3 as dysregulated calcium channel in NK cells
+    / *Limitations:*: Very small n (9/group); single center; unclear if primary or secondary TRPM7 dysfunction; single cell type
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (very small n, exploratory, but peer-reviewed open access, rigorous methodology)
+        - *Replication:* Not yet independently replicated
+        - *Score:* 0.45
+
+=== Vijayan et al.\ 2015 --- Thalamic Alpha-Delta Sleep Mechanism
+
+    / *Full Citation:*: Vijayan S, Klerman EB, Adler GK, Kopell NJ. Thalamic mechanisms underlying alpha-delta sleep with implications for fibromyalgia. _J Neurophysiol_. 2015;114(3):1923--1930.
+    / *DOI:*: #link("https://doi.org/10.1152/jn.00280.2015")[10.1152/jn.00280.2015]
+    / *PMID:*: 26245315
+    / *Study Design:*: Computational biophysical modeling of thalamocortical circuits
+    / *Sample Size:*: Mathematical model (no human/animal subjects)
+    / *Key Findings:*:
+        - Alterations in GABAB currents, Ih (hyperpolarization-activated), and K+ leak currents transform normal delta oscillations into pathological alpha-delta pattern
+        - CaV3 T-type channels prevalent in thalamus; model implicates ionic substrate of sleep oscillation generation
+        - Alpha-delta sleep prevalent in fibromyalgia; artificially induced alpha intrusion causes fibromyalgia-like pain in healthy subjects
+        - Predicts: drugs reducing Ih conductances and/or increasing K+ conductances may restore delta sleep
+    / *Conclusion:*: Provides mechanistic thalamic circuit model for non-restorative sleep; alpha-delta pattern explained by specific ionic current imbalances involving T-type Ca2+ channel substrates
+    / *Limitations:*: Theoretical model only; no direct ME/CFS data; applicable by analogy via fibromyalgia/non-restorative sleep overlap
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (rigorous computational approach, top physiology journal, but model-only, indirect ME/CFS relevance)
+        - *Score:* 0.50
+
+=== Crunelli et al.\ 2006 --- Thalamic T-Type Ca2+ Channels and NREM Sleep
+
+    / *Full Citation:*: Crunelli V, Cope DW, Hughes SW. Thalamic T-type Ca2+ channels and NREM sleep. _Cell Calcium_. 2006;40(2):175--190.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ceca.2006.04.022")[10.1016/j.ceca.2006.04.022]
+    / *PMID:*: 16777223
+    / *Study Design:*: Review and primary electrophysiology; CaV3.1 knockout mouse studies
+    / *Sample Size:*: Animal model (CaV3.1 KO mice) and review of literature
+    / *Key Findings:*:
+        - T-type Ca2+ channels generate low-threshold potentials underlying sleep spindles and delta waves
+        - CaV3.1 knockout mice: significantly reduced total NREM sleep duration
+        - CaV3.1 established as most crucial voltage-dependent conductance for thalamic sleep activity
+        - Persistent opening of small fraction of T channels drives slow-oscillation depolarization phase
+    / *Conclusion:*: Foundational mechanistic basis for how disruption of thalamic T-type Ca2+ channels impairs delta/NREM sleep architecture; relevant to non-restorative sleep in fibromyalgia and ME/CFS
+    / *Limitations:*: Primarily animal data; extrapolation to human ME/CFS requires caution; 2006 review may miss recent refinements
+    / *Certainty Assessment:*:
+        - *Quality:* High for basic science (KO model, rigorous electrophysiology, peer-reviewed); indirect ME/CFS relevance
+        - *Score:* 0.65
+
 === Germain et al.\ 2025 --- Plasma Proteome Dynamics Post-Exertion
 
     / *Full Citation:*: Germain A, Glass KA, Eckert MA, et al.\ Temporal Dynamics of the Plasma Proteomic Landscape Reveals Maladaptation in ME/CFS Following Exertion. _Mol Cell Proteomics_. 2025;24(12):101467.
@@ -7826,3 +7978,207 @@ This section covers the foundational mechanosensation and nociception literature
         - *Quality:* Medium-high (n=132 largest proteomics study, longitudinal, sedentary controls, top-tier journal)
         - *Replication:* No independent replication; builds on prior metabolomics work
         - *Score:* 0.65
+
+// ============================================================
+// TAURINE RESEARCH STREAM
+// Added 2026-04-16
+// ============================================================
+
+=== Germain et al.\ 2017 --- ME/CFS Plasma Metabolomics: Taurine Pathway Disturbance
+
+    / *Full Citation:*: Germain A, Ruppert D, Levine SM, Hanson MR. Metabolic profiling of a myalgic encephalomyelitis/chronic fatigue syndrome discovery cohort reveals disturbances in fatty acid and lipid metabolism. _Mol Biosyst_. 2017;13(2):371--379.
+    / *DOI:*: #link("https://doi.org/10.1039/c6mb00600k")[10.1039/c6mb00600k]
+    / *PMID:*: 28059425
+    / *Study Design:*: Untargeted plasma metabolomics; LC-MS; cross-sectional
+    / *Sample Size:*: n=17 ME/CFS vs n=15 matched controls
+    / *Key Findings:*:
+        - 74 differentially accumulated metabolites identified in ME/CFS plasma
+        - Top disturbed pathways: taurine metabolism, glycerophospholipid metabolism, bile acid metabolism
+        - Energy-related compounds and glucose regulation significantly affected
+        - Taurine pathway disruption among the highest-ranked metabolic signatures in ME/CFS
+        - Consistent with systemic metabolic dysfunction hypothesis (hypometabolism)
+    / *Conclusion:*: ME/CFS is characterized by a disrupted taurine metabolic signature alongside lipid and energy pathway dysregulation; provides direct biochemical evidence of taurine relevance in ME/CFS patients
+    / *Limitations:*: Small discovery cohort (n=17); cross-sectional; no replication cohort in this paper; does not measure free plasma taurine levels directly
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, respected group, but n=17; requires replication)
+        - *Replication:* Taurine metabolomics disturbance partially supported by Glass 2023 urine metabolomics
+        - *Score:* 0.55
+
+=== Glass et al.\ 2023 --- Urine Metabolomics Post-Exertion: Impaired Taurine Recovery
+
+    / *Full Citation:*: Glass KA, Germain A, Huang YV, Hanson MR. Urine Metabolomics Exposes Anomalous Recovery after Maximal Exertion in Female ME/CFS Patients. _Int J Mol Sci_. 2023;24(4):3685.
+    / *DOI:*: #link("https://doi.org/10.3390/ijms24043685")[10.3390/ijms24043685]
+    / *PMID:*: 36835097
+    / *Study Design:*: Urine metabolomics pre/post maximal cardiopulmonary exercise test (CPET); longitudinal
+    / *Sample Size:*: n=10 female ME/CFS vs n=8 healthy controls
+    / *Key Findings:*:
+        - ME/CFS patients showed virtually no metabolomic recovery response after maximal exertion
+        - Controls demonstrated significant post-exercise metabolic adaptations; ME/CFS did not
+        - Significant differences in lipid and amino acid pathways including taurine metabolism during PEM
+        - Results suggest failure of normal physiological adaptation to physical stress
+        - Urine taurine pathway: disrupted in ME/CFS recovery window (PEM period)
+    / *Conclusion:*: Metabolomic evidence that PEM in ME/CFS involves impaired amino acid and lipid pathway recovery, including taurine; supports the hypothesis of defective metabolic adaptation post-exertion
+    / *Limitations:*: Very small n (10 ME/CFS); female-only cohort; single time-point recovery measurement; pilot study
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (very small n; pilot; female-only; requires replication in larger mixed cohorts)
+        - *Replication:* None to date for urine taurine specifically
+        - *Score:* 0.45
+
+=== Singh et al.\ 2023 --- Taurine Deficiency as a Driver of Aging
+
+    / *Full Citation:*: Singh P, Gollapalli K, Mangiola S, et al.\ Taurine deficiency as a driver of aging. _Science_. 2023;380(6649):eabn9257.
+    / *DOI:*: #link("https://doi.org/10.1126/science.abn9257")[10.1126/science.abn9257]
+    / *PMID:*: 37289866
+    / *Study Design:*: Multi-species observational (mice, primates, humans) + supplementation RCT (rodents/primates); lifespan and healthspan endpoints
+    / *Sample Size:*: Large multi-arm; human cross-sectional cohort (n not specified in abstract); rodent lifespan study (hundreds of mice)
+    / *Key Findings:*:
+        - Taurine concentrations decline progressively with age across mice, monkeys, and humans
+        - Taurine supplementation extended average lifespan in mice by ~10--12%; improved healthspan in primates
+        - Mechanisms: reduced cellular senescence, telomerase protection, suppressed mitochondrial dysfunction, decreased DNA damage, attenuated inflammaging
+        - Exercise transiently elevates taurine levels in humans
+        - Human clinical trials recommended
+    / *Conclusion:*: Landmark multi-species evidence that taurine deficiency is a systemic driver of aging via mitochondrial and senescence pathways; directly relevant to ME/CFS hypotheses linking taurine depletion to chronic cellular dysfunction
+    / *Limitations:*: Human data cross-sectional only; causality not established in humans; contradicted by Marcangeli 2025 null result; supplementation trial in humans not yet completed
+    / *Certainty Assessment:*:
+        - *Quality:* High for animal data; medium for human inference (Science, large multi-species, rigorous)
+        - *Replication:* Human component not replicated; Marcangeli 2025 contradicts human aging hypothesis
+        - *Score:* 0.65
+
+=== Marcangeli et al.\ 2025 --- NULL RESULT: No Taurine--Aging Link in Humans
+
+    / *Full Citation:*: Marcangeli V, Cefis M, Hammad R, et al.\ Experimental Evidence Against Taurine Deficiency as a Driver of Aging in Humans. _Aging Cell_. 2025;24(10):e70191.
+    / *DOI:*: #link("https://doi.org/10.1111/acel.70191")[10.1111/acel.70191]
+    / *PMID:*: 41061678
+    / *Study Design:*: Cross-sectional observational; serum taurine vs physiological and mitochondrial measures
+    / *Sample Size:*: n=137 men aged 20--93 (sedentary and physically active)
+    / *Key Findings:*:
+        - No association between circulating taurine levels and age in humans
+        - No correlation with muscle mass, strength, power, or validated functional performance tests
+        - No link to insulin sensitivity, inflammatory markers, or mitochondrial respiration
+        - Mitochondrial calcium handling capacity also uncorrelated with taurine levels
+        - Directly contradicts Singh et al.\ 2023 hypothesis for the human aging context
+    / *Conclusion:*: In humans, circulating taurine is not a biomarker of aging, physical function, or mitochondrial health; species-specific effects likely explain discrepancy with rodent/primate data; this limits extrapolation of animal taurine-depletion models to human ME/CFS
+    / *Limitations:*: Men only; cross-sectional; measures circulating (serum) not intracellular taurine; tissue-level depletion may not be reflected in serum
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high (n=137, peer-reviewed Aging Cell, specific mechanistic tests)
+        - *Replication:* Single null study; does not rule out tissue-level taurine depletion
+        - *Score:* 0.60
+
+=== Rossi-Smith et al.\ 2025 --- Taurine Efflux Impairs Na/K-ATPase, Drives NLRP3
+
+    / *Full Citation:*: Rossi-Smith P, Kim J, Skirlo K, et al.\ Taurine transport is a critical modulator of ionic fluxes during NLRP3 inflammasome activation. _Cell Reports_. 2025;44(10):116317.
+    / *DOI:*: #link("https://doi.org/10.1016/j.celrep.2025.116317")[10.1016/j.celrep.2025.116317]
+    / *PMID:*: 40974575
+    / *Study Design:*: Mechanistic cell biology + tuberculosis patient clinical cohort (immune reconstitution inflammatory syndrome)
+    / *Sample Size:*: In vitro (macrophage cultures) + patient cohort (n not specified)
+    / *Key Findings:*:
+        - Upon inflammasome stimulation, taurine rapidly exits cells via volume-regulated anion channel (VRAC)
+        - Intracellular taurine depletion impairs Na/K-ATPase activity --- the primary ionic dysregulation consequence
+        - Disrupted Na/K-ATPase drives ionic imbalance that activates NLRP3 inflammasome and IL-1beta release
+        - Blocking VRAC or supplementing taurine restores Na/K-ATPase function and suppresses IL-1beta
+        - Taurine metabolism correlated with TB-associated immune reconstitution inflammatory syndrome in clinical cohort
+    / *Conclusion:*: Taurine depletion is mechanistically upstream of Na/K-ATPase failure; this is the most direct mechanistic link to the AIMM cascade (NHE1 Na+ import → Na/K-ATPase exhaustion → NCX reversal → Ca2+ overload); taurine supplementation is a plausible intervention at the Na/K-ATPase node
+    / *Limitations:*: Primary data from macrophages, not muscle cells or neurons; extrapolation to AIMM tissue context requires validation; clinical cohort is TB/IRIS, not ME/CFS
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high (Cell Reports, mechanistic rigor, clinical correlation)
+        - *Replication:* Novel 2025 finding; not independently replicated
+        - *Score:* 0.60
+
+=== Suleiman 1994 --- Taurine, Na/K-ATPase, and Cardiac Calcium Paradox
+
+    / *Full Citation:*: Suleiman MS. New concepts in the cardioprotective action of magnesium and taurine during the calcium paradox and ischaemia of the heart. _Magnesium Research_. 1994;7(3--4):295--312.
+    / *PMID:*: 7786694
+    / *Study Design:*: Review; synthesizes animal model and mechanistic data
+    / *Sample Size:*: Review (no primary data)
+    / *Key Findings:*:
+        - Intracellular Na+ accumulation during ischemia drives Ca2+ overload via NCX reversal (classical mechanism)
+        - Taurine protects cardiac cells by promoting Na+ efflux via the taurine/Na+ symport, reducing intracellular Na+
+        - By reducing intracellular Na+, taurine indirectly prevents NCX reversal and subsequent Ca2+ overload
+        - Both taurine and Mg2+ act through preservation of Na/K-ATPase activity
+        - Species differences documented in protective efficacy
+    / *Conclusion:*: Establishes the classic conceptual framework directly relevant to AIMM: taurine acts upstream of NCX to reduce the Na+ load that drives reverse-mode NCX and Ca2+ overload; foundational for AIMM-taurine integration hypothesis
+    / *Limitations:*: 1994 review; predates modern ion channel molecular tools; primarily cardiac ischemia context; no ME/CFS data
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (old review, conceptual framework, no modern molecular validation cited)
+        - *Replication:* Mechanism broadly accepted in cardiac physiology literature
+        - *Score:* 0.45
+
+=== Prentice et al.\ 2015 --- Taurine Neuroprotection via Calcium Buffering and Mitochondrial Stabilization
+
+    / *Full Citation:*: Prentice H, Modi JP, Wu JY. Mechanisms of Neuronal Protection against Excitotoxicity, Endoplasmic Reticulum Stress, and Mitochondrial Dysfunction in Stroke and Neurodegenerative Diseases. _Oxid Med Cell Longev_. 2015;2015:964518.
+    / *DOI:*: #link("https://doi.org/10.1155/2015/964518")[10.1155/2015/964518]
+    / *PMID:*: 26576229
+    / *Study Design:*: Narrative review; synthesizes cell biology, animal model, and clinical data
+    / *Sample Size:*: Review (no primary data)
+    / *Key Findings:*:
+        - Taurine prevents pathological Ca2+ accumulation in neurons and mitochondria
+        - Blocks ER stress pathways (UPR) implicated in cell death cascades following Ca2+ overload
+        - Mitochondrial membrane stabilization: taurine preserves membrane potential and reduces mPTP opening probability
+        - Multi-target: addresses calcium, oxidative stress, and ER dysfunction simultaneously
+        - Relevant downstream of NCX reversal: Ca2+ overload → mitochondrial damage cascade that taurine interrupts
+    / *Conclusion:*: Taurine acts at multiple nodes downstream of Ca2+ overload to protect mitochondria and prevent cell death; mechanistically supports its use as a downstream AIMM cascade intervention
+    / *Limitations:*: Review only; primarily neuronal context; mechanistic extrapolation to ME/CFS skeletal muscle and cardiac contexts requires caution
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed review, broad mechanistic coverage, no ME/CFS-specific data)
+        - *Replication:* Underlying mechanisms well-replicated in basic science literature
+        - *Score:* 0.55
+
+=== Ahmadian et al.\ 2017 --- Taurine RCT in Heart Failure: Anti-Inflammatory, Exercise Analog
+
+    / *Full Citation:*: Ahmadian M, Roshan VD, Aslani E, Stannard SR. Taurine supplementation has anti-atherogenic and anti-inflammatory effects before and after incremental exercise in heart failure. _Ther Adv Cardiovasc Dis_. 2017;11(7):185--194.
+    / *DOI:*: #link("https://doi.org/10.1177/1753944717711138")[10.1177/1753944717711138]
+    / *PMID:*: 28580833
+    / *Study Design:*: Randomized controlled trial; 2-week intervention; before/after incremental exercise test
+    / *Sample Size:*: ~30 heart failure patients (taurine 1,500 mg/day vs placebo)
+    / *Key Findings:*:
+        - CRP and platelet counts decreased significantly in taurine group post-supplementation
+        - Atherogenic indices (Castelli risk indices, atherogenic coefficient) improved with taurine but not placebo
+        - Benefits observed both at rest and in relation to incremental exercise
+        - No safety concerns with 2-week supplementation
+        - Exercise-intolerance population: relevant analog to ME/CFS post-exertional inflammation
+    / *Conclusion:*: Short-term taurine supplementation reduces inflammation and atherogenic risk in heart failure patients with exercise intolerance; provides proof-of-concept that taurine has measurable clinical effects in a population sharing key features with ME/CFS (exercise intolerance, oxidative stress, cardiac dysfunction)
+    / *Limitations:*: Small n; 2-week duration only; heart failure patients not ME/CFS; no measures of mitochondrial function or calcium handling
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (RCT design, small n, short duration, analog population)
+        - *Replication:* One of few RCTs in exercise-intolerance population
+        - *Score:* 0.50
+
+=== McGurk et al.\ 2022 --- Systematic Review: Taurine in Heart Failure (Sobering)
+
+    / *Full Citation:*: McGurk KA, Kasapi M, Ware JS. Effect of taurine administration on symptoms, severity, or clinical outcome of dilated cardiomyopathy and heart failure in humans: a systematic review. _Wellcome Open Res_. 2022;7:9.
+    / *DOI:*: #link("https://doi.org/10.12688/wellcomeopenres.17505.3")[10.12688/wellcomeopenres.17505.3]
+    / *PMID:*: 35855073
+    / *Study Design:*: Systematic review and meta-analysis; PRISMA methodology
+    / *Sample Size:*: 11 studies included; dilated cardiomyopathy and heart failure populations
+    / *Key Findings:*:
+        - Taurine doses ranged from 500 mg to 6 g/day across included studies
+        - No significant adverse effects reported across all studies
+        - Meta-analysis of ejection fraction and stroke volume: non-significant effect in all-cause heart failure
+        - Only 1 of 11 studies met high-quality methodological standards
+        - Formal well-powered RCTs needed before any clinical recommendation
+    / *Conclusion:*: Despite strong theoretical rationale and preclinical support, taurine supplementation has not demonstrated robust clinical benefit in human heart failure; this is a critical null signal for the AIMM-taurine hypothesis --- theoretical mechanism does not automatically translate to clinical outcomes
+    / *Limitations:*: Very few high-quality studies; heterogeneous populations and dosing; limited follow-up durations in underlying trials
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high for systematic review quality; underlying studies low quality
+        - *Replication:* Sobering: null/non-significant meta-analytic signal despite mechanistic rationale
+        - *Score:* 0.55
+
+=== Zhang et al.\ 2020 --- Taurine Reverses Mitochondrial Ca2+ Overload via TRPC6/H2S (Analog)
+
+    / *Full Citation:*: Zhang R, Wang X, Gao Q, et al.\ Taurine Supplementation Reverses Diabetes-Induced Podocytes Injury via Modulation of the CSE/TRPC6 Axis and Improvement of Mitochondrial Function. _Nephron_. 2020;144(2):84--95.
+    / *DOI:*: #link("https://doi.org/10.1159/000503832")[10.1159/000503832]
+    / *PMID:*: 31865328
+    / *Study Design:*: Animal and cell culture model (diabetic nephropathy); taurine supplementation intervention
+    / *Sample Size:*: Animal model (STZ-diabetic rats) + in vitro podocyte cultures
+    / *Key Findings:*:
+        - Taurine supplementation reduced diabetes-induced Ca2+ overload in kidney podocytes
+        - Mechanism: taurine upregulates CSE (cystathionine gamma-lyase) → H2S production → TRPC6 channel downregulation → reduced Ca2+ influx
+        - Mitochondrial function improved: membrane potential restored, ROS reduced, apoptosis decreased
+        - Urinary protein excretion and cell death reduced
+        - Provides a detailed molecular mechanism: taurine → H2S → calcium channel suppression → mitochondrial protection
+    / *Conclusion:*: Identifies a taurine → H2S → TRPC6 → calcium overload mitigation → mitochondrial protection pathway; mechanistically relevant to AIMM as evidence that taurine can interrupt calcium-driven mitochondrial damage in non-cardiac, non-neuronal tissue
+    / *Limitations:*: Animal/cell model only; diabetic context; TRPC6 not established as primary channel in ME/CFS; H2S pathway relevance to AIMM muscle context not validated
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (animal model, single group, no independent replication, indirect ME/CFS relevance)
+        - *Replication:* Mechanism consistent with broader taurine calcium-buffering literature
+        - *Score:* 0.45
