@@ -7461,3 +7461,143 @@ This section covers the foundational mechanosensation and nociception literature
         - *Design:* Narrative review in Pain (high-impact journal; peer-reviewed)
         - *Replication:* Nav1.8 mechanism well-replicated preclinically; clinical efficacy not yet replicated in RCTs
         - *Score:* 0.60
+
+// =============================================================================
+
+== Pathophysiology: CSF Drainage and Glymphatic Clearance
+<sec:bib-csf-drainage-synergy>
+// =============================================================================
+
+=== Wall et al.\ 2014 --- IIHTT: Acetazolamide RCT for Idiopathic Intracranial Hypertension
+
+    / *Full Citation:*: Wall M, Kupersmith MJ, Kieburtz KD, et al.\ The Idiopathic Intracranial Hypertension Treatment Trial: Clinical Profile at Baseline. _JAMA_. 2014;311(16):1641--1651.
+    / *DOI:*: #link("https://doi.org/10.1001/jama.2014.3312")[10.1001/jama.2014.3312]
+    / *PMID:*: 24756514
+    / *Published:*: 2014
+    / *Study Design:*: Multicenter RCT, 38 sites, n=165 IIH patients, 6 months
+    / *Intervention:*: Maximally tolerated acetazolamide (up to 4 g/day) vs placebo + low-sodium diet
+    / *Key Findings:*:
+        - Acetazolamide improved visual field function (+0.71 dB, p=.050)
+        - Reduced papilledema (p<.001)
+        - Improved vision-related QoL (p=.003)
+        - Weight loss -4.05 kg (p<.001)
+    / *Relevance:*: Landmark Class I evidence establishing acetazolamide as first-line IIH therapy. Demonstrates that CA inhibition reduces CSF production, directly supporting the "reduce input" side of the combined hypothesis. Establishes mechanistic basis for acetazolamide use in CSF dynamics disorders.
+    / *Limitations:*: Modest effect size on visual field; 50\% experienced treatment-limiting adverse effects (paresthesias, dysgeusia); benefit may partially reflect weight loss; nearly all participants were women (limiting generalizability).
+    / *Certainty Assessment:*:
+        - *Quality:* High (Class I RCT, multicenter, JAMA)
+        - *Sample:* Adequate (n=165)
+        - *Replication:* Landmark trial; standard of care
+        - *Score:* 0.90
+
+=== Mitchell et al.\ 2025 --- Head-to-Head ICP Drug Comparison (CRITICAL NEGATIVE)
+
+    / *Full Citation:*: Mitchell JL, Bhatt N, Weckerle C, Wicklund M, Smith M, Pott J, Bodle JD. A randomized sequential crossover study comparing acetazolamide, amiloride, furosemide, spironolactone, and topiramate in idiopathic intracranial hypertension. _Headache_. 2025;65(2):258--268.
+    / *DOI:*: #link("https://doi.org/10.1111/head.14897")[10.1111/head.14897]
+    / *PMID:*: 39853738
+    / *Published:*: 2025
+    / *Study Design:*: Randomized sequential crossover, n=14 IIH patients, telemetric ICP monitoring, 2-week treatment periods
+    / *Key Findings:*:
+        - All drugs reduced ICP marginally: acetazolamide -3.3 mmHg, furosemide -3.0, spironolactone -2.7, topiramate -2.3 (no significant between-drug difference)
+        - Side effects common: acetazolamide 100\%, topiramate 93\%
+        - #bold[#alert[Both acetazolamide and topiramate worsened fluid cognition (p=0.057 and 0.061 respectively)]]
+    / *Relevance:*: #bold[Critical negative finding for ME/CFS application.] CA inhibitors impaired cognition at ICP-reducing doses. ME/CFS patients already have cognitive dysfunction; this is a serious safety barrier. First head-to-head comparison with objective telemetric ICP measurement. Directly challenges the safety of the combined hypothesis.
+    / *Limitations:*: Small sample (n=14), not powered for between-drug differences, unblinded design for individual drugs.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (novel design with objective ICP measurement, but small n, unblinded)
+        - *Sample:* Small (n=14)
+        - *Replication:* Not yet replicated; unique telemetric ICP design
+        - *Score:* 0.70
+    / *Safety Concern:*: MAJOR --- cognitive worsening at effective ICP-reducing doses directly challenges safety for ME/CFS.
+
+=== Goyal & Zarroli 2023 --- Topiramate as Alternative First-Line for IIH
+
+    / *Full Citation:*: Goyal A, Zarroli K. Topiramate: An Alternative First-Line Agent for the Treatment of Idiopathic Intracranial Hypertension. _Medicine_. 2023;102(42):e35545.
+    / *DOI:*: #link("https://doi.org/10.1097/MD.0000000000035545")[10.1097/MD.0000000000035545]
+    / *PMID:*: 37861536
+    / *Published:*: 2023
+    / *Study Design:*: Literature review
+    / *Key Findings:*: Topiramate has multiple mechanisms relevant to IIH: CA inhibition (reduces ICP), weight loss promotion, migraine prophylaxis. Safety profile comparable or superior to acetazolamide. Weight loss benefit addresses obesity-IIH overlap.
+    / *Relevance:*: Supports topiramate as rational alternative/complement to acetazolamide, particularly for patients with comorbid migraine (common in ME/CFS). Additional TRPV1/mast cell mechanism (Souza2024) may provide dual therapeutic action.
+    / *Limitations:*: Review article only; no direct comparison data; limited RCT evidence for topiramate in IIH.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (review article, Medicine journal)
+        - *Replication:* No primary data
+        - *Score:* 0.55
+
+=== Wang et al.\ 2022 --- IIH Comprehensive Review
+
+    / *Full Citation:*: Wang MTM, Bhatti MT, Danesh-Meyer HV. Idiopathic intracranial hypertension: a review. _J Clin Neurosci_. 2022;95:172--179.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jocn.2021.11.029")[10.1016/j.jocn.2021.11.029]
+    / *PMID:*: 34929642
+    / *Published:*: 2022
+    / *Study Design:*: Narrative review
+    / *Key Findings:*: IIH pathophysiology involves CSF dynamics dysregulation and venous sinus pressure. IIHTT provides Class I evidence for acetazolamide. Emerging metabolic/hormonal targets discussed.
+    / *Relevance:*: Provides mechanistic context for CA inhibitor use in CSF dynamics disorders. Useful background for understanding the "reduce input" side of the combined hypothesis.
+    / *Limitations:*: Narrative review, no primary data.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (narrative review)
+        - *Score:* 0.55
+
+=== Medow & Stewart 2024 --- Acetazolamide in ME/CFS with Orthostatic Intolerance (NEGATIVE)
+
+    / *Full Citation:*: Medow MS, Stewart JM. Effects of acetazolamide and phenylephrine on neurocognitive function during head-up tilt in ME/CFS with POTS. _Am J Physiol Regul Integr Comp Physiol_. 2024;326(6):R599--R608.
+    / *DOI:*: #link("https://doi.org/10.1152/ajpregu.00071.2024")[10.1152/ajpregu.00071.2024]
+    / *PMID:*: 38682242
+    / *Published:*: 2024
+    / *Study Design:*: Controlled experimental physiology study, n=15 ME/CFS+POTS, n=11 controls
+    / *Intervention:*: CO2, acetazolamide, and phenylephrine tested during head-up tilt
+    / *Key Findings:*:
+        - #bold[Acetazolamide had NO effect on neurocognitive function during orthostatic challenge in ME/CFS]
+        - Only phenylephrine improved upright N-back performance (ME/CFS+PE=65.6\% vs control 56.9\%)
+        - Acetazolamide did not improve cerebral autoregulation (phase synchronization index)
+    / *Relevance:*: #bold[Directly challenges the hypothesis for ME/CFS application.] In ME/CFS with OI/POTS, acetazolamide does not improve the orthostatic cognitive impairment the hypothesis targets. Only tested acute effects; chronic CSF volume reduction might differ.
+    / *Limitations:*: Small sample, acute (not chronic) administration, phenylephrine not viable long-term treatment.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high (controlled design, directly relevant population, AJP journal)
+        - *Sample:* Small (n=15 ME/CFS+POTS, n=11 controls)
+        - *Replication:* Not yet replicated; unique ME/CFS-specific acetazolamide study
+        - *Score:* 0.75
+    / *Safety Concern:*: MODERATE --- ineffective for targeted symptom; Mitchell2025 adds cognitive worsening risk.
+
+=== Riste et al.\ 2025 --- Self-Help Perrin Technique RCT for Long COVID
+
+    / *Full Citation:*: Riste L, Perrin R, Mulholland T, Hann M, McDonald O, Heald A. A feasibility randomised controlled trial of a self-help Perrin Technique intervention for Long COVID. _Infect Dis Ther_. 2026;15(2):577--589.
+    / *DOI:*: #link("https://doi.org/10.1007/s40121-025-01287-z")[10.1007/s40121-025-01287-z]
+    / *PMID:*: 41442105
+    / *Published:*: 2026
+    / *Study Design:*: Feasibility RCT, n=100 Long COVID patients, self-help Perrin Technique vs wait-list control, 3-month follow-up
+    / *Intervention:*: Self-massage, mobility exercises, breathing exercises, cold/warm packs
+    / *Key Findings:*:
+        - Chalder Fatigue Questionnaire improvement in intervention group at 3 months (p=0.01)
+        - High recruitment rate (90.6\%), 79.3\% follow-up
+        - Participants found intervention onerous but were keen to engage
+    / *Relevance:*: First RCT evidence supporting Perrin-derived lymphatic drainage approach for fatigue. Supports the "increase output" side of the combined hypothesis. Applicable to both Long COVID and ME/CFS.
+    / *Limitations:*: Feasibility study (not powered for efficacy); self-help not practitioner-administered; no ME/CFS-specific data; no CSF/glymphatic measurement; conflict of interest (Perrin developed the intervention); large control group improvement may confound results.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-medium (feasibility RCT, conflict of interest)
+        - *Sample:* Adequate for feasibility (n=100), underpowered for efficacy
+        - *Replication:* First RCT; not yet replicated
+        - *Score:* 0.55
+
+=== Midtlien et al.\ 2024 --- CTD + CVD + IIH Clinical Phenotype
+
+    / *Full Citation:*: Midtlien JP, Linde M, Aamodt AH, et al.\ Clinical features of patients with connective tissue disorders and cerebral venous disease. _Front Neurol_. 2024;15:1305972.
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2023.1305972")[10.3389/fneur.2023.1305972]
+    / *PMID:*: 38269002
+    / *Published:*: 2024
+    / *Study Design:*: Retrospective single-center review, n=86 patients with CTD + cerebral venous outflow disorders
+    / *Key Findings:*:
+        - 55\% had EDS diagnosis
+        - 55.8\% had POTS
+        - 51.2\% had CSF leaks
+        - 37.2\% had CCI
+        - 25.6\% had MCAS
+        - Despite lower opening pressures than classic IIH, headache severity and QoL were comparable, suggesting #bold[hypersensitivity to intracranial pressures]
+        - 87.2\% had medication allergies; 19.8\% allergic to surgical tape
+    / *Relevance:*: #bold[Critically important for the hypothesis.] Establishes a conserved clinical phenotype of CTD+CVD+IIH+CCI+POTS+MCAS --- precisely the patient population where combined CA inhibitor + lymphatic drainage would be considered. The pressure hypersensitivity finding suggests lower drug doses may be needed than classical IIH protocols. Largest series of this phenotype to date.
+    / *Limitations:*: Retrospective, single center, no control group, potential selection bias from tertiary referral center.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (largest series of this phenotype, retrospective design)
+        - *Sample:* Moderate (n=86)
+        - *Replication:* Not yet independently replicated; consistent with Bragee2020 ME/CFS findings (78\% intracranial hypertension signs in n=229)
+        - *Score:* 0.70
