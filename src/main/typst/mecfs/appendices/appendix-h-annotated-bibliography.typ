@@ -31,7 +31,7 @@ This appendix provides a comprehensive annotated bibliography of scientific lite
         - Sex-specific gene expression differences with $<$5% overlap between sexes
     
     / *Conclusion:*: ME/CFS appears to be a centrally mediated disorder characterized by altered effort preference, potentially associated with central catecholamine dysregulation.
-    / *Limitations:*: Small sample size (80% power only detects effects $gt.eq$0.94 SD); cross-sectional design; recruitment terminated due to COVID-19 pandemic.
+    / *Limitations:*: Small sample size (80% power only detects effects ≥0.94 SD); cross-sectional design; recruitment terminated due to COVID-19 pandemic.
 
 // =============================================================================
 
@@ -46,9 +46,9 @@ This appendix provides a comprehensive annotated bibliography of scientific lite
     / *ISBN:*: 978-0-309-31689-7
     / *Key Requirements:*:
     
-        - Three required symptoms: (1) substantial reduction in functioning with fatigue $gt.eq$6 months, (2) post-exertional malaise, (3) unrefreshing sleep
+        - Three required symptoms: (1) substantial reduction in functioning with fatigue ≥6 months, (2) post-exertional malaise, (3) unrefreshing sleep
         - Plus at least one of: cognitive impairment OR orthostatic intolerance
-        - Symptoms must be present $gt.eq$50% of the time with moderate-to-severe intensity
+        - Symptoms must be present ≥50% of the time with moderate-to-severe intensity
     
     / *Significance:*: Proposed renaming to Systemic Exertion Intolerance Disease (SEID); currently used by CDC.
 
@@ -60,7 +60,7 @@ This appendix provides a comprehensive annotated bibliography of scientific lite
     / *Key Changes from 2007 Guideline:*:
     
         - All four core symptoms required: debilitating fatiguability, PEM, unrefreshing sleep, cognitive difficulties
-        - Symptoms must persist $gt.eq$3 months (suspected from 6 weeks in adults, 4 weeks in children)
+        - Symptoms must persist ≥3 months (suspected from 6 weeks in adults, 4 weeks in children)
         - Graded Exercise Therapy (GET) *no longer recommended*
         - CBT not considered a treatment for ME/CFS itself
         - Recognition of PEM as the cardinal symptom
@@ -591,7 +591,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     / *Published:*: December 2008
     / *Study Design:*: Cross-sectional prevalence study with tilt table testing
     / *Sample Size:*: ME/CFS patients (n varied), healthy controls
-    / *Key Findings:*: Formal tilt table testing in Northern CFS/ME Clinical Network patients found 27% prevalence of POTS in ME/CFS patients compared to 9% in healthy controls (approximately 3-fold increased prevalence). Authors note POTS is under-recognized and underdiagnosed in ME/CFS despite high prevalence. POTS diagnosis requires standardized tilt table protocol to detect heart rate response $gt.eq$30 bpm increase upon standing.
+    / *Key Findings:*: Formal tilt table testing in Northern CFS/ME Clinical Network patients found 27% prevalence of POTS in ME/CFS patients compared to 9% in healthy controls (approximately 3-fold increased prevalence). Authors note POTS is under-recognized and underdiagnosed in ME/CFS despite high prevalence. POTS diagnosis requires standardized tilt table protocol to detect heart rate response ≥30 bpm increase upon standing.
     / *Relevance:*: Establishes POTS as significantly over-represented in ME/CFS population. Critical for clinical recognition and appropriate management. Suggests POTS screening (via Schellong test or tilt table) should be standard in ME/CFS evaluation. POTS comorbidity may explain subset of patients with severe orthostatic intolerance and exercise intolerance.
     / *Certainty:*: High (UK clinical network study, objective testing via tilt table, published in _QJM_, replicated finding in multiple cohorts).
 
@@ -602,7 +602,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     / *Published:*: June 2015
     / *Document Type:*: Multidisciplinary expert consensus statement from Heart Rhythm Society
     / *Authors:*: 21 international cardiac electrophysiologists and autonomic specialists
-    / *Key Findings:*: Consensus definition of POTS: sustained heart rate increase $gt.eq$30 bpm upon standing (or $gt.eq$40 bpm in ages 12-19) in absence of hypovolemia or supine hypertension, occurring within 5 minutes of standing. Diagnostic criteria include either active standing or head-up tilt at 60–80\textdegree. Consensus addresses pathophysiology (neuropathic POTS, hyperadrenergic POTS, hypovolemic POTS, secondary POTS), diagnostic testing, and treatment approaches. Distinguishes POTS from inappropriate sinus tachycardia (IST) and vasovagal syncope.
+    / *Key Findings:*: Consensus definition of POTS: sustained heart rate increase ≥30 bpm upon standing (or ≥40 bpm in ages 12-19) in absence of hypovolemia or supine hypertension, occurring within 5 minutes of standing. Diagnostic criteria include either active standing or head-up tilt at 60–80\textdegree. Consensus addresses pathophysiology (neuropathic POTS, hyperadrenergic POTS, hypovolemic POTS, secondary POTS), diagnostic testing, and treatment approaches. Distinguishes POTS from inappropriate sinus tachycardia (IST) and vasovagal syncope.
     / *Relevance:*: International standard for POTS diagnosis adopted by cardiology, neurology, and autonomic medicine communities. Essential reference for ME/CFS clinicians managing comorbid POTS. Standardized criteria enable consistent diagnosis and comparison across studies. Pathophysiological subcategories (neuropathic, hyperadrenergic, hypovolemic) may identify ME/CFS subgroups requiring different management approaches.
     / *Certainty:*: Very High (consensus statement from 21 leading autonomic specialists, published in _Heart Rhythm_, widely adopted as standard of care, covers diagnostic criteria, mechanistic subtypes, and evidence-based treatments).
 
@@ -1522,7 +1522,7 @@ This 2005 work gains renewed relevance with Long COVID, which may involve simila
 @hwang2023viral
 
 *Key Findings:*
-Comprehensive systematic review and meta-analysis of 64 studies with 4,971 ME/CFS patients and 9,221 controls, examining 18 viral species. Five viruses showed odds ratios $>$2.0 indicating moderate to strong associations: Borna disease virus (OR$gt.eq$3.47, strongest association), HHV-7 (OR$>$2.0), parvovirus B19 (OR$>$2.0), enterovirus (OR$>$2.0), and coxsackie B virus (OR$>$2.0). Notably, EBV and enterovirus showed high heterogeneity ($>$50%) across studies, suggesting subgroup effects or methodological variability. BDV association strongest but controversial due to concerns about human pathogenicity and possible laboratory contamination.
+Comprehensive systematic review and meta-analysis of 64 studies with 4,971 ME/CFS patients and 9,221 controls, examining 18 viral species. Five viruses showed odds ratios $>$2.0 indicating moderate to strong associations: Borna disease virus (OR≥3.47, strongest association), HHV-7 (OR$>$2.0), parvovirus B19 (OR$>$2.0), enterovirus (OR$>$2.0), and coxsackie B virus (OR$>$2.0). Notably, EBV and enterovirus showed high heterogeneity ($>$50%) across studies, suggesting subgroup effects or methodological variability. BDV association strongest but controversial due to concerns about human pathogenicity and possible laboratory contamination.
 
 *Relevance:*
 Provides quantitative meta-analytic evidence for viral associations in ME/CFS etiology. Multiple viral triggers implicated, suggesting diverse pathways to chronic illness rather than single causative agent. High heterogeneity for some viruses (EBV, enterovirus) explains inconsistent findings in individual studies and supports hypothesis of viral-onset subgroups within ME/CFS. Complements mechanistic viral papers (Ruiz-Pablos 2021 EBV, O'Neal 2021 enterovirus, Nunes 2024 herpesvirus endothelial hypothesis) with epidemiological quantification.
@@ -1714,7 +1714,7 @@ This landmark negative trial definitively refutes B-cell depletion as a therapeu
     / *Study Type:*: Long-term observational follow-up of RituxME (Phase III RCT) and CycloME (Phase II open-label) trials
 
 *Key Findings:*
-At 6-year follow-up, rituximab showed no sustained benefit over placebo: 27.6% of rituximab-treated patients achieved SF-36 Physical Function $gt.eq$70 compared to 20.4% of placebo patients (not statistically significant). In contrast, the open-label cyclophosphamide group showed 44.1% achieving SF-36 PF $gt.eq$70, with 17.6% reaching normal function (PF $gt.eq$90). However, the authors explicitly caution: “cyclophosphamide carries toxicity concerns and should not be used for ME/CFS patients outside clinical trials.” The placebo group data provides valuable natural history information: approximately 20% of patients improved substantially over 6 years without specific treatment, while 15% worsened significantly.
+At 6-year follow-up, rituximab showed no sustained benefit over placebo: 27.6% of rituximab-treated patients achieved SF-36 Physical Function ≥70 compared to 20.4% of placebo patients (not statistically significant). In contrast, the open-label cyclophosphamide group showed 44.1% achieving SF-36 PF ≥70, with 17.6% reaching normal function (PF ≥90). However, the authors explicitly caution: “cyclophosphamide carries toxicity concerns and should not be used for ME/CFS patients outside clinical trials.” The placebo group data provides valuable natural history information: approximately 20% of patients improved substantially over 6 years without specific treatment, while 15% worsened significantly.
 
 *Relevance:*
 Confirms long-term lack of benefit for rituximab. The cyclophosphamide results are intriguing but *cannot be interpreted as evidence of efficacy* due to absence of placebo control, open-label design, small sample (n=34 at 6 years), and potential selection bias (94% follow-up rate may favor responders). Given cyclophosphamide's severe toxicity (cancer risk, infertility, life-threatening infections), the uncertain benefit based solely on open-label data is insufficient to justify clinical use. The findings do, however, support the hypothesis of a possible immune-mediated subgroup and warrant investigation of safer immune-modulating agents with proper placebo-controlled trials.
@@ -2346,7 +2346,7 @@ Start 30 mg once daily; increase to 30 mg 2–3 times daily as tolerated. Comm
     / *Intervention:*: Parasym tVNS device, left tragus placement, 35+ minutes daily for 6 weeks
 
 *Key Findings:*
-8 of 14 patients (57%) met success criteria (improvement on $gt.eq$2 of 4 outcome measures: SF-36 physical function $gt.eq$14% improvement, symptom severity VAS reduction $gt.eq$2 points, loss of “fatigue case” status on Chalder scale, or Patient Global Impression of Change +2/+3). No adverse effects reported during the 6-week trial. The 57% response rate exceeds typical ME/CFS placebo response ( 24%) but causality cannot be established without sham control.
+8 of 14 patients (57%) met success criteria (improvement on ≥2 of 4 outcome measures: SF-36 physical function ≥14% improvement, symptom severity VAS reduction ≥2 points, loss of “fatigue case” status on Chalder scale, or Patient Global Impression of Change +2/+3). No adverse effects reported during the 6-week trial. The 57% response rate exceeds typical ME/CFS placebo response ( 24%) but causality cannot be established without sham control.
 
 *Relevance:*
 First pilot study of tVNS specifically for ME/CFS (Long COVID subset). Suggests potential benefit through vagal nerve modulation of autonomic and immune function. The intervention is low-cost, non-invasive, home-based, and well-tolerated, making it suitable for severe ME/CFS patients. However, the open-label design and small sample size limit interpretability.
@@ -2742,8 +2742,8 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     / *Primary Hypotheses:*:
     
         - H1: $<$50% of standard clinical assessments will be fully completable due to PEM or exhaustion
-        - H2: Non-invasive supine-position assessments will have $gt.eq$80% completion; high-burden tests $<$30%
-        - H3: Very severe patients (Bell $lt.eq$20) will tolerate $gt.eq$20% fewer assessments than severe (Bell 21–30)
+        - H2: Non-invasive supine-position assessments will have ≥80% completion; high-burden tests $<$30%
+        - H3: Very severe patients (Bell $lt.eq$20) will tolerate ≥20% fewer assessments than severe (Bell 21–30)
         - H4: Autonomic, endothelial, and pupillary parameters will show deviations in a substantial proportion
     
     / *Significance:*: Establishes methodological framework for inclusive severe ME/CFS research; home-based approach reduces clinic-induced stress and PEM risk; includes pilot biobank component for future biomarker investigations (viral reactivation, autoantibodies).
@@ -3189,10 +3189,10 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     / *Protocol:*: Intermittent theta burst stimulation (iTBS): 3-pulse bursts at 50 Hz, repeated at 5 Hz, 600 pulses per site. Dual targets: left DLPFC (MRI-guided) and left M1 (motor hot spot). 10 sessions over 2-week inpatient stay. Intensity: 80% resting motor threshold (range 32–80% after tolerability adjustment).
     / *Key Findings:*:
     
-        - Performance status: 67% achieved $gt.eq$2-point improvement; median decreased from 7 to 5 ($p\<0.01$)
+        - Performance status: 67% achieved ≥2-point improvement; median decreased from 7 to 5 ($p\<0.01$)
         - Orthostatic intolerance: 83% (10/12) who could not complete standing test at baseline completed it post-treatment ($p\<0.01$)
         - Disequilibrium: 88% (15/17) resolved; prevalence dropped from 57% to 7% ($p\<0.01$)
-        - Pain: 70% (7/10) showed $gt.eq$4 tender point reduction; median tender points 2$\to$0 ($p\<0.01$)
+        - Pain: 70% (7/10) showed ≥4 tender point reduction; median tender points 2$\to$0 ($p\<0.01$)
         - No serious adverse effects; 7 patients required intensity reduction for discomfort/headache/dizziness
     
     / *Relevance:*: Largest ME/CFS-specific rTMS study to date. The dual-target approach (DLPFC + M1) and particularly strong effects on orthostatic intolerance and disequilibrium distinguish this from depression-focused TMS protocols. However, the complete absence of sham control is a critical limitation—TMS produces strong expectancy effects, and the inpatient setting (rest, clinical attention) is itself therapeutic.
@@ -3697,7 +3697,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     / *Key Findings:*:
     
         - Open-label prospective trial: oral minocycline 100 mg/day for 42 days in 100 ME patients
-        - Favourable response (performance status improvement $gt.eq$2 points) in 27 patients (27%)
+        - Favourable response (performance status improvement ≥2 points) in 27 patients (27%)
         - Best response in patients within 6 months of disease onset
         - Rationale: minocycline inhibits microglial activation and exerts anti-inflammatory, immunomodulatory, and neuroprotective effects
         - 38% discontinued due to adverse effects (nausea, dizziness, photosensitivity)
@@ -6536,7 +6536,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
 
     / *Full Citation:*: Scheibenbogen C, Wirth KJ. Key Pathophysiological Role of Skeletal Muscle Disturbance in Post COVID and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): Accumulated Evidence. _Journal of Cachexia, Sarcopenia and Muscle_. 2024;16(1):e13669.
     / *DOI:*: #link("https://doi.org/10.1002/jcsm.13669")[10.1002/jcsm.13669]
-    / *Key Finding:*: Early post-COVID: predominantly microvascular disturbance. ME/CFS: mitochondrial structural damage appears later and selectively. Causal chain: capillary hypoperfusion → ischaemia/reperfusion → Na+/H+ exchange → Na+ overload → NCX1 reversal → mitochondrial Ca2+ toxicity. Termed Acquired Ischaemic Mitochondrial Myopathy (AIMM). Strong evidence for vascular-primary causation.
+    / *Key Finding:*: Early post-COVID: predominantly microvascular disturbance. ME/CFS: mitochondrial structural damage appears later and selectively. Causal chain: capillary hypoperfusion → ischaemia/reperfusion → Na+/H+ exchange → Na+ overload → NCX1 reversal → mitochondrial Ca#super[2+] toxicity. Termed Acquired Ischaemic Mitochondrial Myopathy (AIMM). Strong evidence for vascular-primary causation.
     / *Certainty:*: 0.50 — cross-sectional comparison not longitudinal; AIMM framework compelling
     / *Integrated into:*: Chapter 6 (@sec:step1-substrate-delivery), Chapter 10 (@sec:rbc-deformability, @hyp:vascular-primary-mecfs)
 
@@ -7277,7 +7277,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Study Design:*: Conditional knockout mouse model; electrophysiology; osmotic fragility assays
     / *Key Findings:*:
         - Piezo1 conditional knockout in RBCs produces overhydrated, mechanically fragile erythrocytes
-        - Piezo1 regulates RBC volume via calcium influx activating KCa3.1 (Gardos) channel, causing K$^+$ efflux and cell dehydration
+        - Piezo1 regulates RBC volume via calcium influx activating KCa3.1 (Gardos) channel, causing K#super[+] efflux and cell dehydration
         - Establishes Piezo1 as essential volume homeostasis channel in RBCs
         - Patapoutian group (Nobel Prize 2021); foundational Piezo1 RBC paper
     / *Conclusion:*: Piezo1 is the primary mechanical sensor governing RBC volume; its dysregulation can produce stiffened or fragile RBCs with impaired deformability.
@@ -7334,7 +7334,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Published:*: January 2005
     / *Study Design:*: In vitro electrophysiology (DRG neurons) + in vivo mouse behavioral assays
     / *Key Findings:*:
-        - PGE$_2$ and PGI$_2$ sensitize TRPV1 via EP1 and IP G-protein coupled receptors
+        - PGE#sub[2] and PGI#sub[2] sensitize TRPV1 via EP1 and IP G-protein coupled receptors
         - Sensitization lowers TRPV1 thermal threshold and increases capsaicin sensitivity
         - Both protein kinase A (PKA) and protein kinase C (PKC) pathways involved in TRPV1 phosphorylation/sensitization
         - Establishes molecular mechanism for prostaglandin-mediated peripheral nociceptor sensitization
@@ -7391,7 +7391,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Published:*: February 2007
     / *Study Design:*: In vitro electrophysiology; click-chemistry covalent labeling; mass spectrometry; mutagenesis
     / *Key Findings:*:
-        - TRPA1 is activated by electrophilic/oxidative compounds (mustard oil, cinnamaldehyde, acrolein, H$_2$O$_2$) via covalent modification of reactive cysteine residues
+        - TRPA1 is activated by electrophilic/oxidative compounds (mustard oil, cinnamaldehyde, acrolein, H#sub[2]O#sub[2]) via covalent modification of reactive cysteine residues
         - 14 cytosolic cysteine residues identified; 3 are required for normal channel activation
         - The 14 ankyrin repeats in the N-terminus contain the key cysteine sensors
         - Establishes TRPA1 as a molecular sensor for oxidative stress, tissue damage metabolites, and electrophilic irritants
@@ -7499,8 +7499,8 @@ This section covers the foundational mechanosensation and nociception literature
     / *Key Findings:*:
         - All drugs reduced ICP marginally: acetazolamide -3.3 mmHg, furosemide -3.0, spironolactone -2.7, topiramate -2.3 (no significant between-drug difference)
         - Side effects common: acetazolamide 100\%, topiramate 93\%
-        - #bold[#alert[Both acetazolamide and topiramate worsened fluid cognition (p=0.057 and 0.061 respectively)]]
-    / *Relevance:*: #bold[Critical negative finding for ME/CFS application.] CA inhibitors impaired cognition at ICP-reducing doses. ME/CFS patients already have cognitive dysfunction; this is a serious safety barrier. First head-to-head comparison with objective telemetric ICP measurement. Directly challenges the safety of the combined hypothesis.
+        - *Both acetazolamide and topiramate worsened fluid cognition (p=0.057 and 0.061 respectively)*
+    / *Relevance:*: *Critical negative finding for ME/CFS application.* CA inhibitors impaired cognition at ICP-reducing doses. ME/CFS patients already have cognitive dysfunction; this is a serious safety barrier. First head-to-head comparison with objective telemetric ICP measurement. Directly challenges the safety of the combined hypothesis.
     / *Limitations:*: Small sample (n=14), not powered for between-drug differences, unblinded design for individual drugs.
     / *Certainty Assessment:*:
         - *Quality:* Medium (novel design with objective ICP measurement, but small n, unblinded)
@@ -7547,10 +7547,10 @@ This section covers the foundational mechanosensation and nociception literature
     / *Study Design:*: Controlled experimental physiology study, n=15 ME/CFS+POTS, n=11 controls
     / *Intervention:*: CO2, acetazolamide, and phenylephrine tested during head-up tilt
     / *Key Findings:*:
-        - #bold[Acetazolamide had NO effect on neurocognitive function during orthostatic challenge in ME/CFS]
+        - *Acetazolamide had NO effect on neurocognitive function during orthostatic challenge in ME/CFS*
         - Only phenylephrine improved upright N-back performance (ME/CFS+PE=65.6\% vs control 56.9\%)
         - Acetazolamide did not improve cerebral autoregulation (phase synchronization index)
-    / *Relevance:*: #bold[Directly challenges the hypothesis for ME/CFS application.] In ME/CFS with OI/POTS, acetazolamide does not improve the orthostatic cognitive impairment the hypothesis targets. Only tested acute effects; chronic CSF volume reduction might differ.
+    / *Relevance:*: *Directly challenges the hypothesis for ME/CFS application.* In ME/CFS with OI/POTS, acetazolamide does not improve the orthostatic cognitive impairment the hypothesis targets. Only tested acute effects; chronic CSF volume reduction might differ.
     / *Limitations:*: Small sample, acute (not chronic) administration, phenylephrine not viable long-term treatment.
     / *Certainty Assessment:*:
         - *Quality:* Medium-high (controlled design, directly relevant population, AJP journal)
@@ -7592,9 +7592,9 @@ This section covers the foundational mechanosensation and nociception literature
         - 51.2\% had CSF leaks
         - 37.2\% had CCI
         - 25.6\% had MCAS
-        - Despite lower opening pressures than classic IIH, headache severity and QoL were comparable, suggesting #bold[hypersensitivity to intracranial pressures]
+        - Despite lower opening pressures than classic IIH, headache severity and QoL were comparable, suggesting *hypersensitivity to intracranial pressures*
         - 87.2\% had medication allergies; 19.8\% allergic to surgical tape
-    / *Relevance:*: #bold[Critically important for the hypothesis.] Establishes a conserved clinical phenotype of CTD+CVD+IIH+CCI+POTS+MCAS --- precisely the patient population where combined CA inhibitor + lymphatic drainage would be considered. The pressure hypersensitivity finding suggests lower drug doses may be needed than classical IIH protocols. Largest series of this phenotype to date.
+    / *Relevance:*: *Critically important for the hypothesis.* Establishes a conserved clinical phenotype of CTD+CVD+IIH+CCI+POTS+MCAS --- precisely the patient population where combined CA inhibitor + lymphatic drainage would be considered. The pressure hypersensitivity finding suggests lower drug doses may be needed than classical IIH protocols. Largest series of this phenotype to date.
     / *Limitations:*: Retrospective, single center, no control group, potential selection bias from tertiary referral center.
     / *Certainty Assessment:*:
         - *Quality:* Medium (largest series of this phenotype, retrospective design)
@@ -7626,7 +7626,7 @@ This section covers the foundational mechanosensation and nociception literature
         - Familial clustering: OR 1.43 for early onset with affected first-degree relative ($p = 4.4 times 10^(-7)$)
         - No significant gender difference between peaks ($p = 0.21$)
     / *Conclusion:*: ME/CFS has two robust onset age peaks (~16 and ~37 years) replicated across multiple European countries and an independent dataset. Early onset is associated with infectious triggers (especially IM), greater severity, and familial clustering, suggesting distinct biological substrates for the two peaks.
-    / *Limitations:*: Self-report survey data; selection bias (promoted by ME organisations); only diagnosed patients; onset age from recall; DecodeME onset age approximated ($pm$2.5 year error). Cross-sectional design cannot establish causation for observed associations.
+    / *Limitations:*: Self-report survey data; selection bias (promoted by ME organisations); only diagnosed patients; onset age from recall; DecodeME onset age approximated (±2.5 year error). Cross-sectional design cannot establish causation for observed associations.
     / *Certainty Assessment:*:
         - *Quality:* Medium (self-report; moderate journal; but large n and independent replication)
         - *Sample:* Large (n=9,380 + 6,455 validation)
@@ -7819,7 +7819,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Sample Size:*: n=15 CFS/ME patients, n=25 healthy controls
     / *Key Findings:*:
         - Unstimulated CD56bright NK cells: significantly reduced TRPM3 surface expression in CFS/ME vs controls
-        - PregS-stimulated CD56bright NK cells: elevated Ca2+ flux in CFS/ME patients vs controls
+        - PregS-stimulated CD56bright NK cells: elevated Ca#super[2+] flux in CFS/ME patients vs controls
         - Thapsigargin-stimulated CD56dim NK cells: elevated cytotoxicity in CFS/ME
         - Differential TRPM3 expression patterns between NK cell subtypes
     / *Conclusion:*: First study linking TRPM3 dysfunction to impaired calcium mobilization in ME/CFS NK cells; identifies TRPM3 as pathomechanistic candidate
@@ -7875,7 +7875,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Sample Size:*: n=15 ME/CFS, n=15 age/sex-matched healthy controls
     / *Key Findings:*:
         - TRPM3/PIP2 co-localization significantly reduced in ME/CFS NK cells vs controls
-        - PIP2-dependent Ca2+ entry required for granule polarization, perforin pore formation, granzyme-dependent apoptosis
+        - PIP2-dependent Ca#super[2+] entry required for granule polarization, perforin pore formation, granzyme-dependent apoptosis
         - IL-2 stimulation significantly enhances NK cytotoxicity in both groups; partially compensates for TRPM3 dysfunction
         - Ononetin treatment enhanced TRPM3/PIP2 co-localization in patient cells
     / *Conclusion:*: TRPM3--PIP2 interaction is mechanistically upstream of NK cell degranulation; its disruption explains reduced cytotoxic killing in ME/CFS
@@ -7892,8 +7892,8 @@ This section covers the foundational mechanosensation and nociception literature
     / *Study Design:*: Case-control; calcium flux assay (live cell imaging), in vitro naltrexone
     / *Sample Size:*: n=10 ME/CFS, n=10 age/sex-matched healthy controls
     / *Key Findings:*:
-        - Ca2+ response amplitude and T1/2 significantly reduced at baseline in ME/CFS NK cells vs HC (p<0.0001)
-        - Overnight naltrexone treatment fully restores TRPM3-dependent Ca2+ influx to HC levels
+        - Ca#super[2+] response amplitude and T1/2 significantly reduced at baseline in ME/CFS NK cells vs HC (p < 0.0001)
+        - Overnight naltrexone treatment fully restores TRPM3-dependent Ca#super[2+] influx to HC levels
         - Both response timing and amplitude normalized post-NTX
         - Validates and extends Cabanas et al. 2019b with improved sample size
     / *Conclusion:*: Strengthened evidence for TRPM3 dysfunction as core ME/CFS abnormality; naltrexone pharmacological rescue confirmed in larger cohort
@@ -7911,7 +7911,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Study Design:*: Case-control; calcium flux assay (TRPM7 agonist/antagonist pharmacology)
     / *Sample Size:*: n=9 ME/CFS, n=9 age/sex-matched healthy controls
     / *Key Findings:*:
-        - TRPM7-dependent Ca2+ influx slope significantly reduced in ME/CFS following TRPM7 activation
+        - TRPM7-dependent Ca#super[2+] influx slope significantly reduced in ME/CFS following TRPM7 activation
         - Response parameters during TRPM7 desensitization also significantly differ between groups
         - Suggests broader TRP channelopathy beyond TRPM3 alone
         - Authors propose TRPM7 dysfunction may reflect downstream consequence of impaired Ca2+ homeostasis
@@ -7934,7 +7934,7 @@ This section covers the foundational mechanosensation and nociception literature
         - CaV3 T-type channels prevalent in thalamus; model implicates ionic substrate of sleep oscillation generation
         - Alpha-delta sleep prevalent in fibromyalgia; artificially induced alpha intrusion causes fibromyalgia-like pain in healthy subjects
         - Predicts: drugs reducing Ih conductances and/or increasing K+ conductances may restore delta sleep
-    / *Conclusion:*: Provides mechanistic thalamic circuit model for non-restorative sleep; alpha-delta pattern explained by specific ionic current imbalances involving T-type Ca2+ channel substrates
+    / *Conclusion:*: Provides mechanistic thalamic circuit model for non-restorative sleep; alpha-delta pattern explained by specific ionic current imbalances involving T-type Ca#super[2+] channel substrates
     / *Limitations:*: Theoretical model only; no direct ME/CFS data; applicable by analogy via fibromyalgia/non-restorative sleep overlap
     / *Certainty Assessment:*:
         - *Quality:* Medium (rigorous computational approach, top physiology journal, but model-only, indirect ME/CFS relevance)
@@ -7942,17 +7942,17 @@ This section covers the foundational mechanosensation and nociception literature
 
 === Crunelli et al.\ 2006 --- Thalamic T-Type Ca2+ Channels and NREM Sleep
 
-    / *Full Citation:*: Crunelli V, Cope DW, Hughes SW. Thalamic T-type Ca2+ channels and NREM sleep. _Cell Calcium_. 2006;40(2):175--190.
+    / *Full Citation:*: Crunelli V, Cope DW, Hughes SW. Thalamic T-type Ca#super[2+] channels and NREM sleep. _Cell Calcium_. 2006;40(2):175--190.
     / *DOI:*: #link("https://doi.org/10.1016/j.ceca.2006.04.022")[10.1016/j.ceca.2006.04.022]
     / *PMID:*: 16777223
     / *Study Design:*: Review and primary electrophysiology; CaV3.1 knockout mouse studies
     / *Sample Size:*: Animal model (CaV3.1 KO mice) and review of literature
     / *Key Findings:*:
-        - T-type Ca2+ channels generate low-threshold potentials underlying sleep spindles and delta waves
+        - T-type Ca#super[2+] channels generate low-threshold potentials underlying sleep spindles and delta waves
         - CaV3.1 knockout mice: significantly reduced total NREM sleep duration
         - CaV3.1 established as most crucial voltage-dependent conductance for thalamic sleep activity
         - Persistent opening of small fraction of T channels drives slow-oscillation depolarization phase
-    / *Conclusion:*: Foundational mechanistic basis for how disruption of thalamic T-type Ca2+ channels impairs delta/NREM sleep architecture; relevant to non-restorative sleep in fibromyalgia and ME/CFS
+    / *Conclusion:*: Foundational mechanistic basis for how disruption of thalamic T-type Ca#super[2+] channels impairs delta/NREM sleep architecture; relevant to non-restorative sleep in fibromyalgia and ME/CFS
     / *Limitations:*: Primarily animal data; extrapolation to human ME/CFS requires caution; 2006 review may miss recent refinements
     / *Certainty Assessment:*:
         - *Quality:* High for basic science (KO model, rigorous electrophysiology, peer-reviewed); indirect ME/CFS relevance
@@ -8172,7 +8172,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Sample Size:*: Animal model (STZ-diabetic rats) + in vitro podocyte cultures
     / *Key Findings:*:
         - Taurine supplementation reduced diabetes-induced Ca2+ overload in kidney podocytes
-        - Mechanism: taurine upregulates CSE (cystathionine gamma-lyase) → H2S production → TRPC6 channel downregulation → reduced Ca2+ influx
+        - Mechanism: taurine upregulates CSE (cystathionine gamma-lyase) → H2S production → TRPC6 channel downregulation → reduced Ca#super[2+] influx
         - Mitochondrial function improved: membrane potential restored, ROS reduced, apoptosis decreased
         - Urinary protein excretion and cell death reduced
         - Provides a detailed molecular mechanism: taurine → H2S → calcium channel suppression → mitochondrial protection

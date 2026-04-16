@@ -32,6 +32,7 @@
             cd src/main/typst/mecfs
             typst compile \
               --font-path fonts \
+              --package-path packages \
               loth2026-mecfs.typ \
               loth2026-mecfs.pdf
           '';

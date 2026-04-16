@@ -160,8 +160,7 @@ The multi-hit cascade pattern suggests that ME/CFS onset may involve:
 
 This model aligns with the “exhausted immune surveillance” phenotype described in Section @sec:exhausted-surveillance, where laboratory findings reflect end-stage depletion of immune reserves after years of chronic stimulation.
 
-==== Bimodal Onset Age Distribution
-<sec:bimodal-onset-age>
+==== Bimodal Onset Age Distribution <sec:bimodal-onset-age>
 
 A striking epidemiological feature of ME/CFS, unique among diseases with bimodal onset, is the consistent observation of two distinct peaks in age at onset: approximately age 16 and age 37. This pattern was first identified in Norwegian population-based registry data using age at diagnosis @Bakken2014bimodalOnset and subsequently confirmed in European survey data using self-reported age at onset across ten countries ($n = 9{,}380$) @McGrath2026bimodalOnset. The finding was independently replicated in the UK DecodeME dataset ($n = 6{,}455$ with illness duration under ten years) @McGrath2026bimodalOnset.
 

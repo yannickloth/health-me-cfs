@@ -150,6 +150,7 @@
 #include "part2-pathophysiology/ch14-speculative-hypotheses.typ"
 #include "part2-pathophysiology/ch15-symptom-producing-mechanisms.typ"
 #include "part2-pathophysiology/ch16-causal-hierarchy.typ"
+#include "part2-pathophysiology/ch17-universal-mechanisms.typ"
 
 // ── Part III: Treatment and Management ───────────────────────────────────────
 #include "part3-treatment/part3-intro.typ"

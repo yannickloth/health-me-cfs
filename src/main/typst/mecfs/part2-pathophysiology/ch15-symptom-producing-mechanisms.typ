@@ -493,7 +493,7 @@ constitutively, maintaining continuous low-grade TRPV1-driven nociceptor activat
 requiring repeated external triggers.
 
 Similarly, TRPA1 serves as a molecular sensor for oxidative tissue damage: it is activated
-by direct covalent modification of reactive cytosolic cysteine residues by H$_2$O$_2$,
+by direct covalent modification of reactive cytosolic cysteine residues by H#sub[2]O#sub[2],
 acrolein, 4-hydroxynonenal, and other electrophilic oxidative stress metabolites @Macpherson2007.
 In ME/CFS, where systemic oxidative stress is well-documented @Shungu2012glutathione,
 chronically elevated ROS would provide continuous TRPA1-activating stimuli on sensory neurons
