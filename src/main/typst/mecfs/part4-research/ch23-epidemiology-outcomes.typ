@@ -22,7 +22,7 @@ The most cited prevalence estimates range from 0.1% to 0.9% of the general adult
 Prevalence varies across populations, though much variation may reflect diagnostic practices rather than true disease frequency:
 
     - *Sex ratio*: Females outnumber males approximately 3–4:1 across most studies @jason2018prevalence @Lim2020prevalence. This ratio is consistent across cultures and diagnostic criteria, suggesting a biological basis (hormonal, immune, or genetic)
-    - *Age distribution*: Peak onset in the 30–49 age range, though ME/CFS occurs at all ages including children and adolescents. Pediatric prevalence is estimated at 0.1–0.5% @Lim2020prevalence
+    - *Age distribution*: Earlier studies reported peak onset in the 30--49 age range, though ME/CFS occurs at all ages including children and adolescents. Pediatric prevalence is estimated at 0.1--0.5% @Lim2020prevalence. Recent evidence reveals that this apparently broad peak conceals a bimodal onset-age distribution with two peaks at approximately age 16 and age 37, confirmed across ten European countries ($n = 9{,}380$) and replicated in the DecodeME dataset ($n = 6{,}455$) @McGrath2026bimodalOnset @Bakken2014bimodalOnset (see Section @sec:bimodal-onset-age)
     - *Ethnic and socioeconomic factors*: Community-based studies (as opposed to clinic-based) show similar or higher prevalence in minority and lower-income populations @jason2018prevalence, contradicting the outdated characterization of ME/CFS as a disease of affluent white women. Underdiagnosis in minority populations likely reflects healthcare access disparities rather than lower disease incidence
 
 === Post-COVID Surge
@@ -72,7 +72,7 @@ Environmental triggers interact with genetic susceptibility to precipitate ME/CF
 Demographic factors associated with ME/CFS risk include:
 
     - *Sex*: Female predominance (3–4:1) is robust across studies. Potential explanations include hormonal influences on immune function, higher autoimmune disease susceptibility in females, and possible diagnostic bias (males may be less likely to seek care or receive the diagnosis)
-    - *Age*: Peak onset in the 30s–40s, but can occur at any age. Pediatric onset may carry a better prognosis than adult onset @Rowe2019pediatric
+    - *Age*: Bimodal onset-age distribution with peaks at approximately 16 and 37 years @McGrath2026bimodalOnset. Early onset is associated with higher severity (OR 2.15), greater infectious trigger rates (especially infectious mononucleosis), and more familial clustering (OR 1.43). Pediatric onset may carry distinct biological features rather than simply earlier presentation of the same disease @Rowe2019pediatric
     - *Socioeconomic status*: Community-based studies show no association with higher socioeconomic status. The historical perception of ME/CFS as a “yuppie flu” reflected clinic-based sampling bias (wealthier patients had better access to specialists who could diagnose the condition)
 
 == Natural History Studies

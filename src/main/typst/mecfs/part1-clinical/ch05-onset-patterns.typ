@@ -160,6 +160,45 @@ The multi-hit cascade pattern suggests that ME/CFS onset may involve:
 
 This model aligns with the “exhausted immune surveillance” phenotype described in Section @sec:exhausted-surveillance, where laboratory findings reflect end-stage depletion of immune reserves after years of chronic stimulation.
 
+==== Bimodal Onset Age Distribution
+<sec:bimodal-onset-age>
+
+A striking epidemiological feature of ME/CFS, unique among diseases with bimodal onset, is the consistent observation of two distinct peaks in age at onset: approximately age 16 and age 37. This pattern was first identified in Norwegian population-based registry data using age at diagnosis @Bakken2014bimodalOnset and subsequently confirmed in European survey data using self-reported age at onset across ten countries ($n = 9{,}380$) @McGrath2026bimodalOnset. The finding was independently replicated in the UK DecodeME dataset ($n = 6{,}455$ with illness duration under ten years) @McGrath2026bimodalOnset.
+
+#achievement(title: [Bimodal Onset Age Peaks Confirmed Across Multiple Datasets])[
+Two onset age peaks are robustly established in ME/CFS. Using Hartigan's Dip Test, the bimodal pattern was highly significant for Norway and all other countries combined ($p lt 2 times 10^(-16)$) and for six of nine individual countries @McGrath2026bimodalOnset. Gaussian mixture modelling yielded consistent peak locations across countries: early peak at mean 16.0 years (SD 4.3) and late peak at mean 36.6 years (SD 10.5). The DecodeME replication produced slightly older estimates (early 18.8, late 40.1), likely reflecting the minimum participation age of 16 and approximated onset from duration bins. The original Norwegian registry study reported the same two-decade pattern at diagnosis level (peaks in age groups 10--19 and 30--39) @Bakken2014bimodalOnset.
+_Certainty: 0.65 (large n, independent replication, but self-report data and cross-sectional design)._
+] <ach:bimodal-onset-peaks>
+
+*Differences Between Early and Late Onset.*
+
+The two peaks are not merely statistical artefacts---they correspond to clinically meaningful differences in disease characteristics @McGrath2026bimodalOnset:
+
+    - *Infectious triggers*: More common in early onset (57% vs.\ 47%, $p = 2.1 times 10^(-13)$), with infectious mononucleosis (glandular fever) particularly prominent (OR 2.32 for early onset, $p = 2.4 times 10^(-24)$ in DecodeME)
+    - *Severity*: Early-onset cases are more than twice as likely to be severe or very severe (OR 2.15, $p lt 2 times 10^(-16)$), and this association is independent of illness duration
+    - *Familial clustering*: First-degree relatives with ME/CFS are more common in the early peak (22.5% vs.\ 14.9%, OR 1.43, $p = 4.4 times 10^(-7)$), suggesting greater genetic or shared-environment contribution
+    - *Gender ratio*: No significant difference between peaks (~80% female in both)
+
+#clinical-finding(title: [Early-Onset ME/CFS Carries Higher Severity and Greater Familial Clustering])[
+Early-onset ME/CFS (around age 16) is associated with higher severity (OR 2.15 for severe/very severe vs.\ moderate/mild) and greater familial aggregation (OR 1.43 for having an affected first-degree relative) compared to late-onset disease @McGrath2026bimodalOnset. The severity difference is independent of illness duration, arguing against a simple disease-accumulation explanation. Infectious mononucleosis is disproportionately associated with early onset (OR 2.32), consistent with prospective evidence that ~13% of adolescents develop CFS after IM @Katz2009IMadolescentCFS.
+_Certainty: 0.60 (large survey data, replicated in DecodeME; self-report and cross-sectional)._
+] <cf:bimodal-clinical-differences>
+
+#limitation(title: [Bimodal Onset: Self-Report and Cross-Sectional Data])[
+The bimodal onset evidence relies on self-reported age at onset from survey data @McGrath2026bimodalOnset. Recall bias may affect accuracy, though the consistency across ten countries and independent replication in DecodeME argue against systematic bias. The original Norwegian registry study used age at diagnosis rather than onset, and diagnostic delay (mean 3--5 years) shifts the apparent distribution toward older ages. All evidence is from European/Nordic populations; the pattern has not been tested in non-European cohorts. Cross-sectional design precludes causal inference about the associations between onset age, severity, and triggers.
+] <lim:bimodal-onset>
+
+*Research Implications of Bimodal Onset.*
+
+The bimodal pattern has direct implications for ME/CFS research design:
+
+    - *Stratification*: Future studies should stratify by onset age (early vs.\ late) to detect subgroup-specific biological mechanisms, as has been done successfully in vitiligo (see below)
+    - *Genetic analysis*: The vitiligo precedent demonstrates that bimodal onset can reveal distinct genetic architectures---early-onset vitiligo has an MHC class II haplotype with OR > 8 @Jin2019vitiligoBimodal. No GWAS has yet stratified ME/CFS by onset age
+    - *Mechanistic investigation*: The specific ages (~16 and ~37) may correspond to windows of biological vulnerability (pubertal immune changes, hormonal transitions, cumulative exposures)
+    - *Infection prevention*: Vaccination against EBV and other common triggers could preferentially reduce the early-onset peak, as EBV vaccines are in development. Post-licensure surveillance should test whether the early peak (~16) flattens while the late peak (~37) remains unchanged---a differential pattern that would confirm EBV as the primary driver of early-onset disease
+
+The cross-disease precedent is examined in Section @sec:bimodal-cross-disease.
+
 ==== Clinical Significance of Onset Pattern
 
 While onset pattern provides useful clinical information, it should not be overemphasized in individual patient management. Both post-infectious and gradual-onset patients develop the same symptom complex and require the same management approaches. The key clinical implications of onset pattern include:

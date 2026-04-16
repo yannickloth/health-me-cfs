@@ -2526,3 +2526,73 @@ Motivated by: Riste 2025 Perrin RCT; Mitchell 2025 cognitive safety; Xie 2013 gl
   caption: [Sequential therapy and glymphatic biomarkers (2026-04-14): three new speculations motivated by Perrin feasibility and Mitchell cognitive safety, extending CSF drainage framework with staged approach, non-invasive monitoring, and NPH cross-disease bridge],
   kind: table,
 ) <tab:registry-sequential-onsd-nph>
+
+=== Entries Added 2026-04-16: Bimodal Onset Age Peaks
+
+Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) @McGrath2026bimodalOnset; Bakken et al.\ 2014 (BMC Medicine) @Bakken2014bimodalOnset; Jin et al.\ 2019 (Nature Communications) @Jin2019vitiligoBimodal.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Early-Onset ME/CFS Has a Distinct Genetic Architecture],
+    [S], [0.40],
+    [Vitiligo precedent: bimodal onset revealed MHC class II haplotype OR > 8 in early onset @Jin2019vitiligoBimodal. ME/CFS early onset shows stronger familial clustering (OR 1.43) and IM trigger enrichment (OR 2.32). (a) GWAS stratified by onset age shows at least one locus with differential allele frequency. (b) HLA region most likely candidate. (c) Early-onset heritability exceeds late-onset heritability.],
+    [DecodeME dataset (n > 17,000 with genetic data) can be stratified by onset age — not yet done. HLA fine-mapping feasible. Twin heritability analysis by onset age requires new cohort.],
+    [Ch.5 @oq:bimodal-genetic-architecture; Ch.14d @spec:bimodal-genetic-subtype],
+
+    [Pubertal Immune Remodelling Drives Early-Onset Peak],
+    [S], [0.30],
+    [Age ~16 coincides with pubertal thymic involution, EBV primary infection timing, and hormonal changes. (a) Early-onset ME/CFS patients have distinct immune profiles vs late onset (T cell subset differences, EBV-specific). (b) Onset-age-specific immune vulnerability window exists around puberty. (c) Sex hormones modulate susceptibility (but McGrath found no gender difference between peaks).],
+    [Immune profiling stratified by onset age — not done. EBV-specific T cell assays feasible. Longitudinal adolescent cohort would be ideal but expensive.],
+    [Ch.5 @sec:bimodal-onset-age],
+
+    [Early-Onset Severity Reflects Disease Mechanism, Not Duration],
+    [S], [0.35],
+    [Early-onset cases more severe (OR 2.15) independent of duration @McGrath2026bimodalOnset. Suggests early-onset ME/CFS involves more aggressive pathophysiology rather than longer disease course. (a) Biomarker severity correlates with onset age after controlling for duration. (b) Early-onset has distinct metabolic or immune signatures predicting severity. (c) Pediatric immune response to triggers is qualitatively different.],
+    [DecodeME and EMEA datasets have both severity and onset-age data — stratified analysis feasible. Muscle biopsy studies by onset age not available.],
+    [Ch.5 @cf:bimodal-clinical-differences],
+
+    [Hormonal Modulation Explains Pregnancy/Breastfeeding Improvement in Early-Onset Patients],
+    [S], [0.20],
+    [Clinical observation (Tate, blog comment): early-onset patients report improvement during pregnancy/breastfeeding with relapse after weaning. If real, suggests hormonal state modulates the disease mechanism specific to early-onset subtype. (a) Early-onset patients show hormonal biomarker differences (estrogen/progesterone metabolites). (b) Pregnancy hormone profile (high progesterone, prolactin) correlates with symptom improvement. (c) Relapse timing correlates with hormonal transition.],
+    [No published evidence. Case series with hormonal profiling needed. Retrospective survey of pregnancy outcomes by onset age feasible. Very low certainty due to anecdotal origin.],
+    [Ch.5 @sec:bimodal-onset-age],    [Thymic--EBV Synchrony: Early Peak as Pubertal "Perfect Storm"],
+    [H], [0.45],
+    [Age ~16 = thymic involution + EBV primary infection + puberty. EBV creates memory B cells just as nTreg output collapses → autoreactive clones escape. (a) Early-onset patients have lower RTEs (CD31+ naive CD4). (b) RTE:EBV-memory ratio at seroconversion predicts ME/CFS. (c) HLA variants affecting thymic selection enriched in early onset.],
+    [RTE measurement in ME/CFS patients by onset age — not done. Prospective EBV cohort with immune profiling — expensive but feasible. DecodeME HLA analysis by onset age — data exists.],
+    [Ch.14d @hyp:thymic-ebv-synchrony],
+
+    [Developmental Neurovulnerability Explains Early-Onset Severity],
+    [S], [0.30],
+    [Brain myelination continues to mid-20s. Neuroinflammation during developmental window → permanent structural changes. (a) Early-onset shows reduced DTI fractional anisotropy vs late-onset matched for duration. (b) Severity difference mediated by white matter integrity. (c) Altered functional connectivity in networks maturing at age 16.],
+    [Neuroimaging by onset age — not done. DTI/fMRI study stratified by onset age feasible.],
+    [Ch.14d @spec:developmental-neuro-severity],
+
+    [Late Peak as Cumulative Mitochondrial Reserve Exhaustion],
+    [S], [0.25],
+    [Age ~37: mtDNA deletions accumulate, mitophagy declines, NAD+ drops, peak stress. Unlike early onset (catastrophic immune event), late onset = gradual erosion past threshold. (a) Late-onset shows higher mtDNA deletion burden vs controls but lower than early-onset. (b) Oxidative stress metabolites correlate with pre-illness stress. (c) NAD+ precursors preferentially benefit late-onset patients.],
+    [Muscle biopsy mtDNA deletion analysis by onset age — not done. NAD+ stratified trial by onset age feasible.],
+    [Ch.14d @spec:mitochondrial-reserve-late-peak],
+
+    [IM-Specific ME/CFS as Three-Compartment Immune Failure],
+    [S], [0.35],
+    [IM triggers simultaneous B cell activation, NK expansion, CD8 expansion → three-compartment failure: large EBV latent reservoir + NK exhaustion + CD8 T cell exhaustion. (a) IM-triggered ME/CFS clusters separately from non-IM in immunophenotype analysis. (b) Higher EBV viral load, more NK exhaustion, more clonal EBV-specific T cells. (c) Autoantibody repertoire enriched for EBV-cross-reactive specificities.],
+    [IM vs non-IM head-to-head immunophenotyping — not done. EBV viral load comparison feasible.],
+    [Ch.14d @sec:bimodal-cross-disease],
+
+    [XCI Escape Explains Constant Female Ratio Across Both Peaks],
+    [S], [0.25],
+    [80% female in both peaks despite diverging hormonal states → non-hormonal mechanism. X chromosome carries highest density of immune genes (TLR7/8, CD40L, FOXP3). Incomplete XCI for immune genes creates baseline immune activation difference independent of hormonal state. (a) ME/CFS patients show higher XCI-escapee gene expression. (b) XCI skewness predicts risk in females. (c) Klinefelter (XXY) males have elevated risk; Turner (XO) females reduced.],
+    [XCI escape measurement — not done in ME/CFS. Methylation-based skewness assay feasible.],
+    [Ch.14d @sec:bimodal-cross-disease],
+  ),
+  caption: [Bimodal onset age peaks (2026-04-16): two hypotheses and seven speculations motivated by McGrath et al.\ 2026 bimodal onset discovery and vitiligo genetic precedent],
+  kind: table,
+) <tab:registry-bimodal-onset>

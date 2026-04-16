@@ -140,3 +140,4 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/16107323/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — DornerEtAl2006 — ANT isoform shift halves ATP transport in DCM |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11943395/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — GermainEtAl2025 — comprehensive autoantibody profiling in ME/CFS (null) |
 | https://pubmed.ncbi.nlm.nih.gov/40211686/ | pubmed | 2026-04-12 | 2026-04-12 | ch06/G28 — WohlrabEtAl2025 — autoantibody targeting therapies ME/CFS post-COVID |
+| https://mecfsresearchreview.me/2026/04/15/me-cfs-onset-had-two-peaks-which-may-be-a-clue-to-causes/ | mecfsresearchreview.me | 2026-04-16 | 2026-04-16 | ch05-onset-patterns, ch05-subgroups, ch23-epidemiology — McGrath2026bimodalOnset bimodal onset age peaks |

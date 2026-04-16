@@ -36,6 +36,18 @@ Approximately 36% of cases develop gradually without clear infectious trigger @J
     - Longer diagnostic delay (trigger less obvious)
     - Possibly different underlying mechanisms
 
+*Early vs.\ Late Onset Subgroups.*
+Beyond the binary post-infectious vs.\ gradual distinction, recent evidence reveals a bimodal age-at-onset distribution with two distinct peaks (Section @sec:bimodal-onset-age). These two onset-age subgroups differ in clinically meaningful ways @McGrath2026bimodalOnset:
+
+    - *Early onset* (~age 16): Higher rates of infectious triggers (especially infectious mononucleosis), greater severity (OR 2.15 for severe/very severe), and more familial clustering (OR 1.43). The prominence of IM in this peak is consistent with prospective evidence that ~13% of adolescents develop CFS after acute IM @Katz2009IMadolescentCFS
+    - *Late onset* (~age 37): Lower severity on average, less infectious trigger predominance, less familial aggregation
+
+The vitiligo precedent demonstrates that bimodal onset can reveal fundamentally different genetic architectures: early-onset vitiligo harbours an MHC class II haplotype with OR > 8 that is absent from late-onset disease @Jin2019vitiligoBimodal. Whether early- and late-onset ME/CFS similarly reflect distinct biological subtypes remains an open question, but the clinical differences in severity, trigger profile, and familial aggregation are consistent with this possibility.
+
+#open-question(title: [Do Early and Late Onset ME/CFS Have Distinct Genetic Architectures?])[
+In autoimmune vitiligo, stratifying by age of onset revealed a specific MHC class II haplotype with OR > 8 in early-onset disease @Jin2019vitiligoBimodal. No GWAS in ME/CFS has yet stratified by onset age. The DecodeME dataset ($n gt 17{,}000$ with genetic data) could test whether early-onset ME/CFS has a distinct polygenic signal, stronger heritability, or specific HLA associations. The clinical differences already documented (severity, trigger profile, familial clustering) @McGrath2026bimodalOnset provide a rationale for this stratification.
+] <oq:bimodal-genetic-architecture>
+
 *Clinical Implications of Onset Type.*
 While onset type may have research significance for identifying biological subgroups, its clinical utility remains unclear:
 

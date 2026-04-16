@@ -7601,3 +7601,112 @@ This section covers the foundational mechanosensation and nociception literature
         - *Sample:* Moderate (n=86)
         - *Replication:* Not yet independently replicated; consistent with Bragee2020 ME/CFS findings (78\% intracranial hypertension signs in n=229)
         - *Score:* 0.70
+
+// =============================================================================
+// Bimodal ME/CFS Onset Age Peaks
+// =============================================================================
+<sec:bib-bimodal-onset>
+
+=== McGrath et al.\ 2026 --- Bimodal ME/CFS Onset Age Peaks
+
+    / *Full Citation:*: McGrath SJ, Hillier CB, Dibble JJ, Schei T, Angelsen A, Ryback AA. Incidence age is bimodal for myalgic encephalomyelitis/chronic fatigue syndrome, with higher severity burden for early onset disease. _Oxford Open Immunology_. 2026;7(1):iqag007.
+    / *DOI:*: #link("https://doi.org/10.1093/oxfimm/iqag007")[10.1093/oxfimm/iqag007]
+    / *PMID:*: 41983041
+    / *PMCID:*: PMC13070794
+    / *Published:*: 2026
+    / *Study Design:*: Cross-sectional survey analysis (EMEA survey, n=9,380) with statistical validation (Hartigan's Dip Test, Gaussian mixture models) and independent replication in DecodeME subset (n=6,455)
+    / *Key Findings:*:
+        - Early onset peak: mean 16.0 years (SD 4.3); late onset peak: mean 36.6 years (SD 10.5)
+        - Dip test highly significant for Norway and all-other-countries combined ($p lt 2 times 10^(-16)$)
+        - Six of nine non-Norway countries individually significant
+        - Replicated in DecodeME (early peak ~18.8, late peak ~40.1)
+        - Infection as trigger: 57% early vs.\ 47% late onset ($p = 2.1 times 10^(-13)$)
+        - Infectious mononucleosis specifically: OR 2.32 for early onset ($p = 2.4 times 10^(-24)$)
+        - Severity: early onset OR 2.15 for severe/very severe ($p lt 2 times 10^(-16)$)
+        - Familial clustering: OR 1.43 for early onset with affected first-degree relative ($p = 4.4 times 10^(-7)$)
+        - No significant gender difference between peaks ($p = 0.21$)
+    / *Conclusion:*: ME/CFS has two robust onset age peaks (~16 and ~37 years) replicated across multiple European countries and an independent dataset. Early onset is associated with infectious triggers (especially IM), greater severity, and familial clustering, suggesting distinct biological substrates for the two peaks.
+    / *Limitations:*: Self-report survey data; selection bias (promoted by ME organisations); only diagnosed patients; onset age from recall; DecodeME onset age approximated ($pm$2.5 year error). Cross-sectional design cannot establish causation for observed associations.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (self-report; moderate journal; but large n and independent replication)
+        - *Sample:* Large (n=9,380 + 6,455 validation)
+        - *Replication:* Partially replicated (DecodeME subset with different methodology)
+        - *Score:* 0.65
+
+=== Bakken et al.\ 2014 --- Norwegian Registry Bimodal Onset (Precursor)
+
+    / *Full Citation:*: Bakken IJ, Tveito K, Gunnes N, Ghaderi S, Stoltenberg C, Trogstad L, Håberg SE, Magnus P. Two age peaks in the incidence of chronic fatigue syndrome/myalgic encephalomyelitis: a population-based registry study from Norway 2008--2012. _BMC Medicine_. 2014;12:167.
+    / *DOI:*: #link("https://doi.org/10.1186/s12916-014-0167-5")[10.1186/s12916-014-0167-5]
+    / *PMID:*: 25274261
+    / *PMCID:*: PMC4232642
+    / *Published:*: 2014
+    / *Study Design:*: Population-based registry study using Norwegian patient register (hospital and specialist outpatient records), entire population of Norway 2008--2012
+    / *Key Findings:*:
+        - G93.3 diagnoses most frequent in age groups 10--19 and 30--39 years
+        - Higher proportion of females in second peak
+        - First demonstration of bimodal age distribution in ME/CFS
+    / *Conclusion:*: ME/CFS shows two distinct age peaks at diagnosis in a population-based registry, establishing the bimodal pattern before the McGrath et al.\ survey-based confirmation.
+    / *Limitations:*: Age at diagnosis (not onset); specialist/hospital records only (misses primary care); diagnostic delay biases age estimates toward older ages.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (population-based registry, but diagnosis not onset)
+        - *Sample:* Large (n=5,809)
+        - *Replication:* Replicated by McGrath et al.\ 2026 using survey onset data
+        - *Score:* 0.70
+
+=== Jin et al.\ 2019 --- Vitiligo Bimodal Onset Reveals MHC Class II Haplotype
+
+    / *Full Citation:*: Jin Y, Roberts GHL, Ferrara TM, et al.\ Early-onset autoimmune vitiligo associated with an enhancer variant haplotype that upregulates class II HLA expression. _Nature Communications_. 2019;10:391.
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-019-08337-4")[10.1038/s41467-019-08337-4]
+    / *PMID:*: 30674883
+    / *PMCID:*: PMC6344500
+    / *Published:*: 2019
+    / *Study Design:*: GWAS with subgroup analysis by age of onset (n=4,523 vitiligo cases)
+    / *Key Findings:*:
+        - Vitiligo age-of-onset is bimodal: early onset mean 10.3 years (38.4%), late onset mean 34.0 years (61.6%)
+        - Early-onset subgroup: novel MHC class II association with rs145954018 indel
+        - High-risk haplotype rs145954018del-rs9271597A: OR = 8.10 ($p = 2.40 times 10^(-86)$)
+        - Haplotype upregulates HLA-DQB1 expression in monocytes and dendritic cells
+    / *Conclusion:*: Demonstrates that bimodal disease onset can reveal distinct genetic architectures. The early-onset vitiligo subgroup has a specific HLA association with OR > 8, providing the strongest precedent for using bimodal onset analysis to identify biological subtypes.
+    / *Limitations:*: European ancestry only; GWAS design cannot prove causation.
+    / *Certainty Assessment:*:
+        - *Quality:* High (top journal, large n, rigorous methodology)
+        - *Sample:* Large (n=4,523)
+        - *Replication:* GWAS replicated; functional validation of HLA expression
+        - *Score:* 0.80
+
+=== Katz et al.\ 2009 --- CFS After Infectious Mononucleosis in Adolescents
+
+    / *Full Citation:*: Katz BZ, Shiraishi Y, Mears CJ, Binns HJ, Taylor R. Chronic fatigue syndrome after infectious mononucleosis in adolescents. _Pediatrics_. 2009;124(1):189--93.
+    / *DOI:*: #link("https://doi.org/10.1542/peds.2008-1879")[10.1542/peds.2008-1879]
+    / *PMID:*: 19564299
+    / *Published:*: 2009
+    / *Study Design:*: Prospective cohort study, 2-year follow-up after acute IM in adolescents
+    / *Key Findings:*:
+        - 13% of adolescents met CFS criteria 6 months after acute IM
+        - IM is a specific risk factor for CFS in adolescents
+        - Onset in adolescence consistent with early ME/CFS peak
+    / *Conclusion:*: Infectious mononucleosis is a major driver of the early-onset ME/CFS peak, with ~13% of affected adolescents progressing to CFS.
+    / *Limitations:*: Small sample; single centre.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (prospective design, peer-reviewed, but small n)
+        - *Sample:* Small (n~200)
+        - *Replication:* Consistent with McGrath 2026 DecodeME finding (IM OR 2.32 for early onset)
+        - *Score:* 0.55
+
+=== Grotmol et al.\ 2011 --- Hodgkin Lymphoma Bimodal Frailty Model
+
+    / *Full Citation:*: Grotmol T, Bray F, Holte H, Klepp O, Foss Å, Aalen OO. Frailty modeling of the bimodal age-incidence of Hodgkin lymphoma in the Nordic countries. _Cancer Epidemiology, Biomarkers & Prevention_. 2011;20(7):1350--7.
+    / *DOI:*: #link("https://doi.org/10.1158/1055-9965.EPI-10-1014")[10.1158/1055-9965.EPI-10-1014]
+    / *PMID:*: 21558495
+    / *Published:*: 2011
+    / *Study Design:*: Frailty modeling of population-based Nordic cancer registry data
+    / *Key Findings:*:
+        - HL age-incidence data consistent with bimodal frailty model
+        - Subgroups with distinct aetiologies (EBV-associated young-adult vs.\ elderly HL)
+    / *Conclusion:*: Demonstrates statistical methodology for establishing bimodal disease patterns and supports the general principle that bimodal onset reflects distinct disease subtypes.
+    / *Limitations:*: Modeling study; no individual-level data on triggers.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (population-based data, peer-reviewed, modeling approach)
+        - *Sample:* Large (Nordic cancer registries)
+        - *Replication:* Standard methodology applied to well-established bimodal pattern
+        - *Score:* 0.60

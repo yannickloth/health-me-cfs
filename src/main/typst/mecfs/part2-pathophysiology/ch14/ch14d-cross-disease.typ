@@ -84,6 +84,50 @@ This chapter maps symptom overlaps between ME/CFS and numerous other conditions 
 
 ]
 
+=== Bimodal Onset: Cross-Disease Lessons from Vitiligo
+<sec:bimodal-cross-disease>
+
+ME/CFS shares the rare feature of bimodal age at onset with a small number of other conditions, most notably autoimmune vitiligo, Hodgkin lymphoma, and inflammatory bowel disease @McGrath2026bimodalOnset @Grotmol2011HLbimodal. The combination of adolescent and early-middle-age peaks appears distinctive for ME/CFS, though systematic comparison of peak-age combinations across all bimodal-onset diseases has not been performed @McGrath2026bimodalOnset.
+
+*The vitiligo precedent.*
+
+Autoimmune vitiligo provides the strongest precedent for what bimodal onset analysis can reveal about disease biology. Jin et al.\ @Jin2019vitiligoBimodal demonstrated that vitiligo has two onset-age peaks (mean 10.3 and 34.0 years) and that early-onset vitiligo harbours a specific MHC class II enhancer variant haplotype (rs145954018del-rs9271597A) with an extraordinary odds ratio of 8.10 ($p = 2.4 times 10^(-86)$). This haplotype upregulates HLA-DQB1 expression in monocytes and dendritic cells. The late-onset subgroup lacked this genetic signal entirely, establishing that bimodal onset can reveal fundamentally distinct genetic architectures within a single clinical diagnosis.
+
+*Implications for ME/CFS.*
+
+The vitiligo finding motivates a specific research programme for ME/CFS:
+
+    - *Genetic stratification*: GWAS of early-onset vs.\ late-onset ME/CFS could reveal subtype-specific genetic signals, as it did in vitiligo
+    - *HLA analysis*: The DecodeME dataset ($n gt 17{,}000$) contains genetic data that could be stratified by onset age; HLA fine-mapping would be the logical first target given the vitiligo precedent
+    - *Mechanistic divergence*: The clinical differences between early and late onset (severity, triggers, familial clustering) @McGrath2026bimodalOnset are consistent with distinct biological substrates, though this remains unproven
+
+#speculation(title: [Early-Onset ME/CFS Has a Distinct Genetic Architecture Revealed by Bimodal Stratification])[
+The vitiligo precedent demonstrates that bimodal disease onset can unmask genetic subtypes with very large effect sizes (OR > 8) @Jin2019vitiligoBimodal. The clinical differences between early and late onset in ME/CFS (severity OR 2.15, infectious trigger enrichment, familial clustering OR 1.43) @McGrath2026bimodalOnset are consistent with early-onset ME/CFS having stronger genetic loading, as the familial aggregation signal suggests. The infectious mononucleosis association (OR 2.32 for early onset) may reflect age-specific immune vulnerability (adolescent thymic output, EBV primary infection timing) interacting with genetic susceptibility at HLA or immune-regulatory loci.
+*Certainty: 0.40* (strong cross-disease precedent from vitiligo; clinical correlates consistent with genetic substructure; no direct evidence yet from ME/CFS GWAS stratified by onset age).
+*Testable prediction:* GWAS of DecodeME participants stratified by onset age (early: $lt.eq$20 years vs.\ late: $gt.eq$30 years) will show at least one locus with significantly different allele frequency between subgroups. HLA region is the most likely candidate based on vitiligo precedent and existing ME/CFS HLA associations.
+] <spec:bimodal-genetic-subtype>
+
+#limitation(title: [Cross-Disease Analogy Limits: ME/CFS Is Not Vitiligo])[
+The vitiligo analogy, while mechanistically suggestive, has important limitations. Vitiligo is a classical autoimmune disease with well-characterised HLA associations; ME/CFS has no such established autoimmune aetiology. The bimodal peaks in ME/CFS (16 and 37) differ from vitiligo (10 and 34) and may reflect different biological processes entirely. The familial clustering signal in ME/CFS (OR 1.43) is far weaker than the genetic signal in early-onset vitiligo (OR > 8), suggesting that if a genetic subtype exists in early-onset ME/CFS, its effect sizes are likely modest. The bimodal pattern could also reflect age-specific exposure (EBV infection timing) rather than genetic susceptibility windows.
+] <lim:bimodal-cross-disease>
+
+*Why these specific ages? Two mechanistic hypotheses.*
+
+#hypothesis(title: [Thymic--EBV Synchrony: The Early Peak as a Pubertal "Perfect Storm" Window])[
+Age ~16 coincides with three simultaneous biological events: (1) accelerating thymic involution (thymus halves in size during puberty; naive T cell output drops sharply), (2) peak EBV primary infection incidence (ages 15--19 in Western populations), and (3) pubertal sex hormone surge. The early onset peak may represent EBV primary infection occurring during the narrow window when thymic output is collapsing. EBV-driven B cell transformation creates a large pool of novel EBV-specific memory B cells just as thymic output of naive regulatory T cells (nTregs) is declining. Without adequate nTreg replenishment, EBV-induced autoreactive clones that would normally be suppressed escape peripheral tolerance. This predicts: (a) early-onset patients will have lower recent thymic emigrants (CD31+ naive CD4) than age-matched controls; (b) the ratio of RTEs to EBV-specific memory B cells at seroconversion will predict ME/CFS development; (c) HLA variants affecting thymic selection will be enriched in early-onset ME/CFS.
+*Certainty: 0.45* (mechanistically coherent; consistent with McGrath IM enrichment OR 2.32, Katz 2009 ~13% CFS after IM, and Pricoco 2024 @Pricoco2024EBVyouth differential adolescent recovery; no direct measurement of thymic output in ME/CFS by onset age).
+] <hyp:thymic-ebv-synchrony>
+
+#speculation(title: [Early-Onset Severity Reflects Developmental Neurovulnerability, Not Disease Duration])[
+Early-onset ME/CFS is more severe (OR 2.15) independent of illness duration @McGrath2026bimodalOnset. Brain myelination and synaptic pruning continue into the mid-20s. Immune-mediated neuroinflammation during this developmental window may produce permanent structural changes (reduced prefrontal white matter integrity, altered default mode network connectivity) that are irreversible even if the immune trigger resolves. Late onset, hitting a mature brain, produces functional but not structural disruption. This predicts: (a) early-onset patients will show reduced fractional anisotropy on DTI in prefrontal regions compared to late-onset patients matched for duration and severity; (b) the severity difference will be mediated by white matter integrity metrics; (c) early-onset patients will show altered functional connectivity in networks still maturing at age 16 (default mode, salience network).
+*Certainty: 0.30* (developmental neurobiology well-established; no ME/CFS neuroimaging data stratified by onset age; mediation analysis not performed).
+] <spec:developmental-neuro-severity>
+
+#speculation(title: [The Late Peak as Cumulative Mitochondrial Reserve Exhaustion])[
+Age ~37 may represent the point where cumulative metabolic stress intersects with beginning age-related mitochondrial quality-control decline. Mitochondrial DNA deletions begin accumulating measurably in the 30s; mitophagy efficiency declines; NAD#super[+] levels drop. Simultaneously, this is peak career stress (ages 35--44), peak childbearing years, and for some women, earliest perimenopausal hormonal shifts. Unlike early onset (a single catastrophic immune event), late onset may represent a "mitochondrial debt" model: years of subclinical metabolic inefficiency accumulate until a threshold event tips the system past a critical point. This predicts: (a) late-onset patients will show higher mitochondrial DNA deletion burden than age-matched controls but lower than early-onset patients; (b) metabolomic signatures of cumulative oxidative stress will correlate with pre-illness stress burden; (c) NAD#super[+] precursor supplementation will preferentially benefit late-onset patients.
+*Certainty: 0.25* (consistent with lower severity and lower infectious trigger rate in late onset; no direct evidence for mitochondrial reserve threshold at age ~37).
+] <spec:mitochondrial-reserve-late-peak>
+
 === The Dysautonomia Spectrum
 
 ME/CFS overlaps heavily with autonomic dysfunction syndromes:
