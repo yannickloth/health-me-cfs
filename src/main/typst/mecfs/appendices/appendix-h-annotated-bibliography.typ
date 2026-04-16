@@ -8182,3 +8182,169 @@ This section covers the foundational mechanosensation and nociception literature
         - *Quality:* Low-medium (animal model, single group, no independent replication, indirect ME/CFS relevance)
         - *Replication:* Mechanism consistent with broader taurine calcium-buffering literature
         - *Score:* 0.45
+
+// =============================================================================
+
+== Universal Disease Mechanism Families (ch17 Supporting Literature)
+<sec:bib-universal-mechanisms>
+// =============================================================================
+
+=== López-Otín et al.\ 2023 --- Hallmarks of Aging: An Expanding Universe
+
+    / *Full Citation:*: López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. Hallmarks of aging: An expanding universe. _Cell_. 2023;186(2):243--278. @lopez-otin2023hallmarks
+    / *DOI:*: #link("https://doi.org/10.1016/j.cell.2022.11.001")[10.1016/j.cell.2022.11.001]
+    / *PMID:*: 36599349
+    / *Study Design:*: Landmark expert review expanding the hallmarks-of-aging framework
+    / *Key Findings:*:
+        - Expands the 2013 hallmarks-of-aging framework from 9 to 12 hallmarks
+        - Three new hallmarks added: disabled macroautophagy, chronic inflammation (inflammaging), and dysbiosis
+        - Hallmarks 1--12 include: genomic instability, telomere attrition, epigenetic alterations, loss of proteostasis, disabled macroautophagy, deregulated nutrient sensing, mitochondrial dysfunction, cellular senescence, stem cell exhaustion, altered intercellular communication, chronic inflammation, dysbiosis
+        - Describes mechanistic interdependencies and cross-talk between hallmarks
+    / *Relevance to ch17:*: Closest published taxonomy to the 19-family universal mechanism framework. Hallmarks map directly onto ch17 families 1, 2, 12, 13, 14, 9, 4, 15.
+    / *Limitations:*: Focused on aging biology; does not address acute disease, infectious, or structural-integrity mechanisms.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Cell landmark review, 5 senior authors)
+        - *Replication:* Framework widely adopted and validated
+        - *Score:* 0.95
+
+=== Gorman/Hwang et al.\ 2023 --- WASF3 Disrupts Mitochondrial Respiratory Complex Assembly in ME/CFS
+
+    / *Full Citation:*: Hwang YS et al.\ WASF3 disrupts mitochondrial respiration and may mediate exercise intolerance in myalgic encephalomyelitis/chronic fatigue syndrome. _PNAS_. 2023;120(34):e2302738120. @gorman2023wasf3
+    / *DOI:*: #link("https://doi.org/10.1073/pnas.2302738120")[10.1073/pnas.2302738120]
+    / *PMID:*: 37579159
+    / *Key Findings:*:
+        - ER stress-induced WASF3 localises to mitochondria, disrupts respiratory supercomplex assembly
+        - Reduces oxygen consumption and exercise endurance in vivo
+        - ME/CFS skeletal muscle biopsies: elevated WASF3 and aberrant ER stress
+    / *Relevance to ch17:*: Family 1 (energy/metabolic); links ER stress (Family 13) to OXPHOS failure. Single NIH group finding.
+    / *Certainty Assessment:*:
+        - *Quality:* High (PNAS, NIH)
+        - *Replication:* Not yet independently replicated
+        - *Score:* 0.60
+
+=== Fluge and Mella et al.\ 2017 --- Metabolic Profiling Indicates Impaired PDH Function in ME/CFS
+
+    / *Full Citation:*: Fluge Ø, Mella O, Bruland O, et al.\ Metabolic profiling indicates impaired pyruvate dehydrogenase function in myalgic encephalopathy/chronic fatigue syndrome. _JCI Insight_. 2017;1(21):e89376. @fluge2017metabolic
+    / *DOI:*: #link("https://doi.org/10.1172/jci.insight.89376")[10.1172/jci.insight.89376]
+    / *PMID:*: 28018972
+    / *Study Design:*: Case-control metabolomics + PBMC gene expression; n=200 ME/CFS, 102 controls
+    / *Key Findings:*:
+        - Amino acid depletion pattern consistent with PDH impairment
+        - PDK1 (p=0.002), PDK2 (p=0.022), PDK4 (p=0.006) mRNA upregulated in PBMCs; SIRT4 upregulated (p=0.013)
+        - Myoblasts in ME/CFS serum: increased mitochondrial respiration + excess lactate
+    / *Relevance to ch17:*: Central evidence for PDK upregulation in Family 1.
+    / *Certainty Assessment:*:
+        - *Quality:* High (JCI Insight, n=200)
+        - *Replication:* PDK block partially replicated; Bergen group
+        - *Score:* 0.80
+
+=== Rajeevan et al.\ 2018 --- ME/CFS Associated with Premature Telomere Attrition
+
+    / *Full Citation:*: Rajeevan MS, Murray J, Oakley LP, Lin J-MS, Unger ER. Association of chronic fatigue syndrome with premature telomere attrition. _J Transl Med_. 2018;16(1):44. @knights2024telomere
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-018-1414-x")[10.1186/s12967-018-1414-x]
+    / *PMID:*: 29486769
+    / *Study Design:*: Cross-sectional; 639 participants from Georgia CFS surveillance study (CDC)
+    / *Key Findings:*:
+        - Telomeres 254--957 bp shorter in CFS vs non-fatigued controls (equivalent 4--20 years added aging)
+        - Association strongest in women under 45
+    / *Relevance to ch17:*: Family 12 (genomic/epigenetic). ch17 key @knights2024telomere is an alias for this paper.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (CDC cohort, cross-sectional, n=639)
+        - *Replication:* Single cohort study; consistent with broader chronic-disease accelerated-aging literature
+        - *Score:* 0.60
+
+=== Ayres 2020 --- The Biology of Physiological Health
+
+    / *Full Citation:*: Ayres JS. The biology of physiological health. _Cell_. 2020;181(2):250--269. @ayres2020biology
+    / *DOI:*: #link("https://doi.org/10.1016/j.cell.2020.03.029")[10.1016/j.cell.2020.03.029]
+    / *PMID:*: 32302569
+    / *Key Findings:*:
+        - Body responds to diverse insults via a finite set of tolerance and resistance pathways
+        - Physiological health involves active evolved mechanisms distinct from disease pathogenesis
+    / *Relevance to ch17:*: Theoretical support for the finite-mechanisms framing in ch17 opening. Cited with @bmcmed2014curriculum.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Cell Perspectives)
+        - *Score:* 0.85
+
+=== Sasso et al.\ 2026 --- Large-Scale Confirmation of TRPM3 Ion Channel Dysfunction in ME/CFS
+
+    / *Full Citation:*: Sasso EM, Er TS, Eaton-Fitch N, Hool L, Muraki K, Marshall-Gradisnik S. Large-scale investigation confirms TRPM3 ion channel dysfunction in ME/CFS. _Frontiers in Medicine_. 2026;12:1703924. @marshall2025trpm3
+    / *DOI:*: #link("https://doi.org/10.3389/fmed.2025.1703924")[10.3389/fmed.2025.1703924]
+    / *Study Design:*: Multi-site; whole-cell patch-clamp; 36 ME/CFS, 42 controls; two independent laboratories
+    / *Key Findings:*:
+        - Confirms reduced TRPM3 current in ME/CFS NK cells across two independent labs
+        - Supports TRPM3 as candidate diagnostic biomarker
+    / *Relevance to ch17:*: Primary large-scale replication for Family 3. ch17 key @marshall2025trpm3.
+    / *Certainty Assessment:*:
+        - *Quality:* High (multi-site, two independent labs)
+        - *Replication:* Replicated; builds on 5+ prior Griffith studies
+        - *Score:* 0.80
+
+=== Gottschalk et al.\ 2022 --- ATG13 Drives Microglial Oxidative Stress via RAGE in ME/CFS
+
+    / *Full Citation:*: Gottschalk CG, Peterson D, Knox K, Maynard M, Whelan RJ. Elevated ATG13 in serum of patients with ME/CFS stimulates oxidative stress response in microglial cells via activation of receptor for advanced glycation end products (RAGE). _Mol Cell Neurosci_. 2022;120:103731. @wallis2022atg13
+    / *DOI:*: #link("https://doi.org/10.1016/j.mcn.2022.103731")[10.1016/j.mcn.2022.103731]
+    / *PMID:*: 35487443
+    / *Key Findings:*:
+        - ATG13 elevated in ME/CFS serum; induces ROS + NO in HMC3 microglial cells via RAGE
+        - ATG13 neutralisation reduces microglial oxidative stress
+    / *Relevance to ch17:*: Family 13 (autophagy block) linked to Family 10 (neuroinflammation). ch17 key @wallis2022atg13.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high (mechanistic ex vivo, peer-reviewed)
+        - *Replication:* ATG13 elevation replicated; RAGE mechanism single group
+        - *Score:* 0.65
+
+=== Kavyani et al.\ 2022 --- Kynurenine Pathway as the Key Missing Piece of ME/CFS
+
+    / *Full Citation:*: Kavyani B et al.\ Could the kynurenine pathway be the key missing piece of ME/CFS complex puzzle? _Cell Mol Life Sci_. 2022;79(8):412. @kennedy2022tryptophan
+    / *DOI:*: #link("https://doi.org/10.1007/s00018-022-04380-5")[10.1007/s00018-022-04380-5]
+    / *PMID:*: 35821534
+    / *Key Findings:*:
+        - IDO1/IDO2 diverts tryptophan to kynurenine → reduces NAD+ → impairs mitochondrial energy
+        - Neurotoxic kynurenine metabolites contribute to neuroinflammation
+        - Integrates Families 4, 11, and 1
+    / *Relevance to ch17:*: Family 11 (amino acid/neurotransmitter metabolism). ch17 key @kennedy2022tryptophan.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (review, Cellular and Molecular Life Sciences)
+        - *Score:* 0.65
+
+=== Nunes et al.\ 2024 --- Proteomics Reveals Coagulation and Endothelial Dysfunction in ME/CFS
+
+    / *Full Citation:*: Nunes JM, Vlok M, Proal A, Kell DB, Pretorius E. Data-independent LC-MS/MS analysis of ME/CFS plasma reveals a dysregulated coagulation system, endothelial dysfunction. _Cardiovasc Diabetol_. 2024;23(1):254. @lacerda2024proteomics
+    / *DOI:*: #link("https://doi.org/10.1186/s12933-024-02315-x")[10.1186/s12933-024-02315-x]
+    / *Study Design:*: DIA LC-MS/MS proteomics; 15 ME/CFS, 10 controls
+    / *Key Findings:*:
+        - 24 proteins elevated (thrombospondin-1, platelet factor 4, protein S); 21 downregulated (complement)
+        - Supports dysregulated coagulation + endothelial dysfunction
+    / *Relevance to ch17:*: Families 6 and 7. ch17 key @lacerda2024proteomics.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (n=15; single group)
+        - *Score:* 0.60
+
+=== Sasso/Marshall-Gradisnik et al.\ 2025 --- Oxidative Stress Shared by ME/CFS and Long COVID (PNAS)
+
+    / *Full Citation:*: Sasso EM et al.\ Oxidative stress is a shared characteristic of ME/CFS and Long COVID. _PNAS_. 2025;122(28):e2426564122. @oxidativestress2025
+    / *DOI:*: #link("https://doi.org/10.1073/pnas.2426564122")[10.1073/pnas.2426564122]
+    / *PMID:*: 40627396
+    / *Study Design:*: Case-control; flow cytometry, RNA-seq, mass spectrometry; n=25 healthy, 27 ME/CFS, 20 Long COVID
+    / *Key Findings:*:
+        - Elevated ROS, reduced SOD2, GPx4-mediated lipid oxidative damage in both conditions
+        - Sex-specific pattern; converges on shared oxidative-mitochondrial signature
+    / *Relevance to ch17:*: Family 2 (redox/oxidative balance). Confirms shared ME/CFS/Long COVID signature.
+    / *Certainty Assessment:*:
+        - *Quality:* High (PNAS, 2025)
+        - *Score:* 0.70
+
+=== Palomo et al.\ 2026 --- Chronic Herpesvirus Reactivation in Post-Infectious ME/CFS
+
+    / *Full Citation:*: Palomo A, Cox B, Williams M, Ariza ME. Chronic reactivation of persistent herpesviruses EBV, HHV-6 and VZV in post-infectious ME/CFS. _J Med Virol_. 2026;98:e70769. @palomo2026herpesvirus
+    / *DOI:*: #link("https://doi.org/10.1002/jmv.70769")[10.1002/jmv.70769]
+    / *PMID:*: 41451845
+    / *Study Design:*: Longitudinal serology; 40 ME/CFS (873 samples), 16 controls (378 samples)
+    / *Key Findings:*:
+        - 72.5% ME/CFS patients elevated anti-EBV dUTPase IgG; also elevated anti-HHV-6 and anti-VZV IgG
+        - Antibody levels correlate with fatigue severity
+    / *Relevance to ch17:*: Family 16 (viral persistence/immune evasion).
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (n=40, Journal of Medical Virology)
+        - *Score:* 0.65
