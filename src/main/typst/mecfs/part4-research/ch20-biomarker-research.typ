@@ -723,6 +723,31 @@ The UK Biobank contains population-level data from which researchers have define
 The MCAM, You + ME Registry, UK ME/CFS Biobank, and UK Biobank all collect pain-related data, but using different instruments, severity scales, and time windows. A key research question is whether these datasets can be harmonised to create a pain phenotype dataset large enough for reliable subgroup identification. Minimum requirements would include: (1) mapping pain variables across registries to a common ontology; (2) testing whether independent registries identify the same cluster structure; and (3) sufficient sample size for interaction analyses (pain phenotype $times$ biomarker $times$ treatment response). Cross-registry harmonisation studies in other chronic pain conditions have demonstrated feasibility but required substantial methodological investment.
 ] <oq:registry-harmonisation-pain>
 
+== Emerging Biomarker Candidates from Cross-System Convergence Studies (2025--2026)
+<sec:emerging-biomarkers-convergence>
+
+Multiple 2025--2026 studies have produced convergent evidence for biomarker candidates across immune, neurological, and vascular compartments. While none of these have yet achieved clinical validation, their convergence across independent research groups using different platforms strengthens confidence that they reflect genuine ME/CFS biology.
+
+=== Neuroinflammation Imaging Biomarkers
+
+Yu et al.\ (2026) demonstrated that the neuroinflammation imaging (NII) model applied to diffusion MRI can detect widespread white matter abnormalities in ME/CFS that conventional DTI misses @Yu2026diffusion-neuroinflammation. NII-HR (cerebral edema), NII-RF (cellular infiltration), and NII-FF (axonal reorganisation) metrics correlated with mental health, disability, and disease severity in 67 ME/CFS patients vs.\ 67 matched controls. The NII model requires only standard diffusion MRI sequences (no contrast agent, no special hardware), making it potentially translatable to clinical settings if validated in larger cohorts.
+
+=== Complement-Based Subgroup Stratification
+
+Maya et al.\ (2026) identified a complement pQTL-defined inflammatory subgroup in ME/CFS with a high C3/low Bb profile, validated against UK Biobank fatigue phenotypes @Maya2026complement-genetics. Complement protein levels (C3, C4, Bb, C3a, C5a) could serve as a stratification biomarker to identify patients who may benefit from complement-targeted interventions. The genetic basis of the finding (pQTLs) suggests this is a stable trait rather than a transient state.
+
+=== Extracellular Vesicle miRNA Signatures
+
+Seifert et al.\ (2026) identified hsa-let-7b-5p downregulation in EVs from post-COVID ME/CFS patients, correlating with fatigue, pain, and impaired physical functioning @Seifert2026extracellular-vesicles. EV-based biomarkers are advantageous because they reflect inter-cellular communication and may capture compartment-specific pathology. However, the small sample size (n=12 vs 15) and lack of replication limit current utility.
+
+=== Longitudinal Exercise Proteomics
+
+Germain, Hanson, and colleagues (2025) demonstrated that the _pattern_ of proteomic response to exercise---particularly persistent immune/metabolic/neuromuscular dysregulation during the recovery phase---distinguishes ME/CFS from sedentary controls @Germain2025plasma-proteome-exertion. The proteomic signature of PEM (suppressed T/B cell signaling, upregulated glycolysis, disrupted IL-17) captured at 24h post-exercise may serve as an objective PEM biomarker, which is critically needed for clinical trials.
+
+#limitation(title: [Emerging Biomarkers Require Validation])[
+None of the biomarker candidates above have been independently validated in external cohorts. The NII model, complement pQTL approach, and longitudinal exercise proteomics design are the most promising due to their methodological rigour and larger sample sizes, but all require replication before clinical application. The EV miRNA findings are discovery-phase only (certainty 0.30) and should be considered hypothesis-generating rather than diagnostic.
+] <lim:emerging-biomarkers-validation>
+
 == Summary: Current State and Future Directions
 <sec:biomarker-summary>
 

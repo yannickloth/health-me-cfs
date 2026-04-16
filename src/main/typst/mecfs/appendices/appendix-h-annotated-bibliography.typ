@@ -7710,3 +7710,119 @@ This section covers the foundational mechanosensation and nociception literature
         - *Sample:* Large (Nordic cancer registries)
         - *Replication:* Standard methodology applied to well-established bimodal pattern
         - *Score:* 0.60
+
+// =============================================================================
+// Blood & Immune System Convergence (added 2026-04-16)
+// =============================================================================
+
+== Blood and Immune System Convergence in ME/CFS
+<sec:bib-blood-immune-convergence>
+
+=== Seifert et al.\ 2026 --- Extracellular Vesicle Signatures as Biomarkers
+
+    / *Full Citation:*: Seifert M, Sch{\"a}fers J, Douglas FF, et al.\ Extracellular Vesicle Protein and MiRNA Signatures as Biomarkers for Post-Infectious ME/CFS Patients. _Int J Mol Sci_. 2026;27(5).
+    / *DOI:*: #link("https://doi.org/10.3390/ijms27052314")[10.3390/ijms27052314]
+    / *PMID:*: 41828537
+    / *Study Design:*: Case-control; plasma EV isolation by size-exclusion chromatography; proteomics + small RNA sequencing
+    / *Sample Size:*: n<=10/cohort (proteomics); n=12 post-COVID ME/CFS vs n=15 HC (miRNA); all female
+    / *Key Findings:*:
+        - Altered EV cargo proteins: hemoglobin subunit alpha, IGFBP acid labile subunit
+        - hsa-let-7b-5p downregulated in post-COVID ME/CFS EVs
+        - Reduced hsa-let-7b-5p correlated with impaired physical functioning, fatigue, pain, immune activation
+    / *Conclusion:*: EV cargo and miRNA signatures are promising biomarker candidates for diagnosis and stratification
+    / *Limitations:*: Very small n; female-only; no replication; discovery phase
+    / *Certainty Assessment:*:
+        - *Quality:* Low (very small n, mid-tier journal, no replication)
+        - *Score:* 0.30
+
+=== Bragee et al.\ 2026 --- CSF Proteomic Signatures in ME/CFS
+
+    / *Full Citation:*: Bragee B, Li P, Meadows D, et al.\ Proteomic signatures in cerebrospinal fluid and their clinical associations in patients with ME/CFS. _Sci Rep_. 2026.
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-026-46965-1")[10.1038/s41598-026-46965-1]
+    / *PMID:*: 41932997
+    / *Study Design:*: Cross-sectional CSF proteomics with clinical factor analysis
+    / *Sample Size:*: n=31 ME/CFS patients (no control group)
+    / *Key Findings:*:
+        - 902 CSF proteins quantified
+        - Neutrophil degranulation, platelet activation enriched in POTS+ patients
+        - Complement cascade, coagulation, IGFBP-mediated IGF transport enriched in severe cases
+        - Four severity-associated protein ratios identified
+    / *Conclusion:*: CSF proteomics reveals biological processes associated with clinical heterogeneity; POTS+ patients show distinct inflammatory/coagulation signatures
+    / *Limitations:*: No control group; n=31; single-center; ratio-based analysis only
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-low (no controls, small n, mid-tier journal)
+        - *Score:* 0.35
+
+=== Yu et al.\ 2026 --- White Matter Neuroinflammation via Diffusion MRI
+
+    / *Full Citation:*: Yu Q, Kothe K, Kwiatek RA, et al.\ Evidence of White Matter Neuroinflammation in ME/CFS: A Diffusion-Based Neuroinflammation Imaging Study. _Hum Brain Mapp_. 2026;47(4):e70505.
+    / *DOI:*: #link("https://doi.org/10.1002/hbm.70505")[10.1002/hbm.70505]
+    / *PMID:*: 41834684
+    / *Study Design:*: Case-control advanced diffusion MRI with neuroinflammation imaging (NII) model
+    / *Sample Size:*: n=67 ME/CFS vs 67 matched HC (54F/13M per group)
+    / *Key Findings:*:
+        - Widespread white matter abnormalities: lower NII-HR (cerebral edema), lower NII-RF (cellular infiltration), higher NII-FF (axonal reorganisation)
+        - Conventional DTI showed minimal differences --- NII far more sensitive
+        - NII metrics correlated with mental health, disability, disease severity
+    / *Conclusion:*: First in vivo evidence of white matter neuroinflammation in ME/CFS using advanced NII model; NII metrics substantially more sensitive than conventional DTI
+    / *Limitations:*: Cross-sectional; single-center; NII model needs further validation
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high (n=67/group, rigorous matching, advanced methodology, reputable journal)
+        - *Replication:* No direct replication yet
+        - *Score:* 0.60
+
+=== Shahbaz et al.\ 2026 --- Single-Cell Immune Remodeling in LC-ME/CFS
+
+    / *Full Citation:*: Shahbaz S, Bozorgmehr N, Rahmati A, et al.\ Single-cell analysis reveals immune remodeling of monocytes, NK cells, T cell exhaustion, and Galectin-9-associated depletion of gamma delta and MAIT cells in Long COVID with ME/CFS. _Front Immunol_. 2026;17:1745933.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1745933")[10.3389/fimmu.2026.1745933]
+    / *PMID:*: 41822518
+    / *Study Design:*: Single-cell RNA-seq of PBMCs from LC-ME/CFS patients
+    / *Sample Size:*: Female LC-ME/CFS vs recovered (12 months post-COVID); compared with public idiopathic ME/CFS datasets
+    / *Key Findings:*:
+        - Reduced naive CD4+/CD8+, Tregs, MAIT cells, gamma-delta T cells; expanded effector T cells
+        - NK cells reduced with altered activation; monocytes: reduced phagocytosis, increased pro-inflammatory genes
+        - Galectin-9--TIM-3 identified as driver of gamma-delta and MAIT cell depletion
+        - Idiopathic ME/CFS: less pronounced changes, no MAIT/NK reduction, no T cell exhaustion
+    / *Conclusion:*: Extensive peripheral immune remodeling in LC-ME/CFS distinct from idiopathic ME/CFS; Galectin-9--TIM-3 axis is a novel mechanistic target
+    / *Limitations:*: Female-only; cross-dataset comparison introduces batch effects; no replication
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (scRNA-seq powerful, novel mechanism, reputable OA journal, but small n, batch effects)
+        - *Score:* 0.50
+
+=== Maya et al.\ 2026 --- Complement Genetics and Inflammatory Subgroup
+
+    / *Full Citation:*: Maya J, Unger ER, Lin JS, Rajeevan MS. Genetic Insights into Circulating Complement Proteins in ME/CFS: A Potential Inflammatory Subgroup. _Int J Mol Sci_. 2026;27(3).
+    / *DOI:*: #link("https://doi.org/10.3390/ijms27031574")[10.3390/ijms27031574]
+    / *PMID:*: 41683992
+    / *Study Design:*: pQTL analysis of complement proteins; linear/logistic regression; UK Biobank validation
+    / *Sample Size:*: 50 ME/CFS vs 121 non-fatigued; UK Biobank replication
+    / *Key Findings:*:
+        - Alternative complement pathway dysregulation in ME/CFS subset (high C3/low Bb profile)
+        - 6 pQTLs also associated with fatigue phenotypes in UK Biobank (4 complement-related)
+        - Identifies inflammatory complement subgroup
+    / *Conclusion:*: Genetic basis for complement dysregulation in a ME/CFS inflammatory subgroup; many roads may lead to complement activation
+    / *Limitations:*: Small discovery cohort; general population controls; pQTL is indirect measure
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (novel genetic approach, UK Biobank partial validation, CDC authorship, but small discovery n)
+        - *Score:* 0.50
+
+=== Germain et al.\ 2025 --- Plasma Proteome Dynamics Post-Exertion
+
+    / *Full Citation:*: Germain A, Glass KA, Eckert MA, et al.\ Temporal Dynamics of the Plasma Proteomic Landscape Reveals Maladaptation in ME/CFS Following Exertion. _Mol Cell Proteomics_. 2025;24(12):101467.
+    / *DOI:*: #link("https://doi.org/10.1016/j.mcpro.2025.101467")[10.1016/j.mcpro.2025.101467]
+    / *PMID:*: 41237904
+    / *Study Design:*: Longitudinal plasma proteomics (SomaScan 7K) before/after maximal exercise; 2 CPET tests
+    / *Sample Size:*: n=79 ME/CFS vs n=53 sedentary controls (132 total)
+    / *Key Findings:*:
+        - Most pronounced proteomic alterations during recovery phase (PEM onset)
+        - Persistent dysregulation of immune, metabolic, neuromuscular pathways
+        - T/B cell signaling suppressed; IL-17 and cell-cell communication downregulated
+        - Glycolysis/gluconeogenesis upregulated --- mitochondrial stress
+        - Sex-stratified analyses: distinct molecular responses females vs males
+        - Symptom severity correlated with immune protein changes
+    / *Conclusion:*: Dynamic proteomics captures PEM maladaptation at molecular level; sedentary controls distinguish disease from deconditioning
+    / *Limitations:*: Single-center; 24h recovery may miss later PEM dynamics
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-high (n=132 largest proteomics study, longitudinal, sedentary controls, top-tier journal)
+        - *Replication:* No independent replication; builds on prior metabolomics work
+        - *Score:* 0.65

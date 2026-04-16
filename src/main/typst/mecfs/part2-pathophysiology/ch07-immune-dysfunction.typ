@@ -180,6 +180,19 @@ Complement deficiency—particularly of the terminal pathway (C5–C9) and prope
 The ME/CFS complement phenotype—chronic activation with component consumption—is mechanistically distinct from the genetic complement deficiencies that confer high meningococcal susceptibility. Reduced C3/C4 from consumption may transiently impair opsonisation and pathogen clearance, but the terminal pathway (C5–C9 membrane attack complex) critical for killing _Neisseria meningitidis_ has not been specifically assessed in ME/CFS. Whether the exercise-induced C4a elevation @Sorensen2003complement @Glass2025ev reflects a complement system that is functionally compromised—rather than merely activated—for pathogen defense remains an open question. Extrapolating from complement dysregulation to increased meningococcal susceptibility is biologically plausible but empirically unsupported.
 ]
 
+#hypothesis(title: [Complement-Driven Perivascular Mast Cell Amplification Loop])[
+*Certainty: 0.45.* Based on complement activation evidence (Sorensen, Maya, Bragee), mast cell biology (established C3a/C5a mechanisms), and spatial considerations of perivascular mast cell anatomy. Not directly demonstrated in ME/CFS tissue. @Maya2026complement-genetics @Bragée2026csf-proteome @Sorensen2003complement
+
+The Maya et al.\ complement pQTL subgroup (high C3/low Bb) may represent individuals predisposed to a perivascular amplification loop: complement activation produces C3a/C5a anaphylatoxins → mast cell degranulation at perivascular sites → histamine, tryptase, and heparin increase vascular permeability → further complement protein leakage into perivascular tissue → alternative pathway amplification on host surfaces → more C3a/C5a → more mast cell activation. This creates a spatially confined positive feedback loop.
+
+The Brag{\'e}e et al.\ CSF finding of complement cascade enrichment in severe ME/CFS cases @Bragée2026csf-proteome could reflect this loop operating at the blood-brain barrier, where mast cells are known to reside perivascularly @sec:mcas. The co-occurrence of neutrophil degranulation and platelet activation pathways in POTS+ patients @Bragée2026csf-proteome further supports a vascular compartment localisation of this process.
+
+*Testable predictions:*
+    + Skin blister fluid or interstitial fluid from ME/CFS patients will show higher C3a:C3 ratio than plasma, indicating local complement amplification
+    + Complement-pQTL-positive subgroup will have higher serum tryptase and prostaglandin D2 than complement-pQTL-negative patients
+    + C5a receptor antagonist (avacopan) will reduce mast cell mediators in a crossover trial
+] <hyp:complement-mast-cell-loop>
+
 === Dendritic Cells
 <sec:dendritic-cells>
 
@@ -2074,6 +2087,66 @@ _Certainty: 0.40._ The mechanistic logic is compelling and each component (NK dy
 
 *Limitations:* Review/theory paper — endothelial senescence not yet directly measured in ME/CFS tissue; senolytic trials in ME/CFS are pending; the framework does not resolve whether immune dysfunction or endothelial senescence is the primary initiating event.
 ] <hyp:endothelial-senescence-loop>
+
+== Immune Remodeling: Beyond Activation
+<sec:immune-remodeling>
+
+A convergent finding across multiple 2025--2026 studies is that the immune disturbance in ME/CFS is better characterised as _remodeling_ rather than simple activation @Hoel2026proteome @Shahbaz2026single-cell-immune @Germain2025plasma-proteome-exertion @Che2025. Immune activation implies a uniform upregulation that might be addressed with immunosuppression; remodeling describes a more complex reorganisation---some arms upregulated, others downregulated, with altered inter-cellular communication networks.
+
+#achievement(title: [Convergent Evidence for Immune Remodeling])[
+*Certainty: 0.55.* Based on four independent studies using different methodologies (serum proteomics, scRNA-seq, longitudinal exercise proteomics, multi-omics immune stimulation), all finding immune reorganisation rather than uniform activation. Replication is partial (different cohorts, different platforms, convergent conclusion). @Hoel2026proteome @Shahbaz2026single-cell-immune @Germain2025plasma-proteome-exertion @Che2025
+
+Hoel et al.\ (2026) charted the circulating proteome using SomaScan 7K (n=50 ME/CFS vs 29 HC) and found immune _reprogramming_: a broad increase in secreted proteins with distinct reduction in activated-neutrophil secreted proteins, and intensified regulatory interactions across immune, inflammatory, vasculature, and metabolic pathways @Hoel2026proteome.
+
+Germain, Hanson, and colleagues (2025) conducted the largest longitudinal exercise proteomics study in ME/CFS to date (n=79 ME/CFS vs 53 sedentary controls; SomaScan 7K) and found that post-exertional malaise is characterised by suppression of T and B cell signaling, downregulation of IL-17 and cell-cell communication, and upregulation of glycolysis/gluconeogenesis---a pattern of immune _collapse_ under stress rather than immune activation @Germain2025plasma-proteome-exertion. Sex-stratified analyses revealed distinct molecular responses between females and males.
+
+Shahbaz et al.\ (2026) provided single-cell resolution of this remodeling in Long COVID with ME/CFS features: marked reduction in naive CD4+/CD8+ T cells, Tregs, MAIT cells, and gamma-delta T cells; expansion of effector T cells; NK cells reduced with altered activation; monocytes showing reduced phagocytosis genes alongside increased pro-inflammatory cytokine genes @Shahbaz2026single-cell-immune. Notably, idiopathic ME/CFS showed less pronounced changes---T cell activation without MAIT/NK cell reduction or T cell exhaustion---suggesting LC-ME/CFS may represent a more extensively remodelled immune state.
+
+*Limitations:* Cross-sectional designs (except Germain 2025); scRNA-seq limited to female LC-ME/CFS cohort; idiopathic ME/CFS comparison across datasets introduces batch effects; no independent replication of the immune remodeling framework as a unified construct.
+] <ach:immune-remodeling-convergence>
+
+=== Galectin-9--TIM-3: A Novel Mechanism for Tissue-Resident Cell Depletion
+
+#speculation(title: [Galectin-9--TIM-3 Axis as Driver of Gamma-Delta and MAIT Cell Depletion])[
+*Certainty: 0.35.* Based on single scRNA-seq study in LC-ME/CFS (Shahbaz et al.\ 2026); mechanism not directly demonstrated in ME/CFS; Galectin-9--TIM-3 well-established in cancer immunology. @Shahbaz2026single-cell-immune
+
+Shahbaz et al.\ identified the Galectin-9--TIM-3 interaction as a potential driver of gamma-delta and MAIT cell depletion in LC-ME/CFS @Shahbaz2026single-cell-immune. This is mechanistically significant because: (1) Galectin-9 is expressed by activated monocytes and endothelial cells---both cell types showing abnormalities in ME/CFS; (2) TIM-3 is an immune checkpoint receptor whose engagement triggers T cell exhaustion and apoptosis; (3) gamma-delta T cells and MAIT cells are tissue-resident populations critical for barrier immunity, and their depletion aligns with the gut barrier dysfunction and infection susceptibility documented in ME/CFS @Hsu2025gut @sec:infection-susceptibility.
+
+If confirmed, this pathway would connect several disparate findings: monocyte activation (which produces Galectin-9), tissue-resident cell depletion (which impairs mucosal immunity), and T cell exhaustion (which limits adaptive immune surveillance). Therapeutic implications would include Galectin-9 inhibitors or TIM-3 blocking antibodies, though these are currently experimental.
+
+*Testable predictions:*
+    + Galectin-9 levels in ME/CFS serum should be elevated and correlate with MAIT/gamma-delta T cell depletion
+    + In vitro Galectin-9 blockade should rescue MAIT and gamma-delta T cell survival in ME/CFS PBMC cultures
+    + Galectin-9 levels should correlate with gut barrier dysfunction markers (zonulin, LPS-binding protein)
+] <spec:galectin-9-tim3-axis>
+
+=== Complement Genetics and the Inflammatory Subgroup
+
+#hypothesis(title: [A Complement-Mediated Inflammatory Subgroup in ME/CFS])[
+*Certainty: 0.50.* CDC pQTL study (n=50 ME/CFS vs 121 non-fatigued) with UK Biobank validation of fatigue associations; genetic approach is novel; complement involvement supported by multiple independent studies. @Maya2026complement-genetics @Sorensen2003complement @Polli2019complement @Che2025
+
+Maya et al.\ (2026) used protein quantitative trait locus (pQTL) analysis to identify a ME/CFS subgroup with genetic predisposition to altered complement activity---specifically, dysregulation of the alternative complement pathway characterised by a high C3/low Bb profile @Maya2026complement-genetics. Six significant pQTLs were also associated with fatigue phenotypes in the UK Biobank (four complement-related), providing population-level validation.
+
+This finding is significant for several reasons. First, it provides a potential _genetic basis_ for complement dysregulation in ME/CFS, complementing the biochemical evidence for complement activation after exercise @Sorensen2003complement @Polli2019complement and the complement pathway enrichment in multi-omics data @Che2025. Second, the identification of a subgroup suggests that complement activation is not universal in ME/CFS---many patients may arrive at complement dysregulation through different routes (infection, autoimmunity, endothelial damage) rather than genetic predisposition. Third, the alternative complement pathway specifically connects to mast cell activation (via C3a and C5a anaphylatoxins) and coagulation (via the terminal complement complex), providing a mechanistic bridge between the immune remodeling and blood vessel dysfunction themes @sec:complement.
+
+*Testable predictions:*
+    + ME/CFS patients carrying complement pQTL risk variants should show higher C3 levels and more severe post-exertional symptoms
+    + Complement-targeted interventions (eculizumab, C1-INH) should preferentially benefit the genetically defined subgroup
+    + CSF proteomics should show complement enrichment specifically in the complement-pQTL-positive subgroup
+] <hyp:complement-inflammatory-subgroup>
+
+=== Extracellular Vesicles as Inter-Compartment Signaling Vectors
+
+#speculation(title: [Extracellular Vesicle-Mediated Signaling in ME/CFS Pathophysiology])[
+*Certainty: 0.25.* Based on small discovery study (n<=12) in post-COVID ME/CFS; EV biology well-established but ME/CFS-specific findings preliminary. @Seifert2026extracellular-vesicles
+
+Seifert et al.\ (2026) found altered extracellular vesicle (EV) cargo in post-COVID ME/CFS, including hemoglobin subunit alpha and IGFBP acid labile subunit changes, with downregulation of hsa-let-7b-5p correlating with fatigue and impaired physical functioning @Seifert2026extracellular-vesicles. While the sample size limits definitive conclusions, EVs are biologically significant because they serve as inter-compartment communication vectors---carrying proteins, miRNA, and lipids between cells and across the blood-brain barrier. If EV cargo is altered in ME/CFS, this could represent a mechanism by which peripheral immune or metabolic dysfunction communicates with the central nervous system, bypassing the limitations of blood-based biomarker studies.
+
+*Testable predictions:*
+    + ME/CFS EVs should carry distinct miRNA signatures that alter gene expression in recipient neurons, endothelial cells, or immune cells
+    + EV cargo should change after exercise stress, providing a dynamic biomarker of PEM
+    + Correction of EV cargo (e.g., let-7b-5p supplementation or miRNA mimic delivery) should improve cellular function in recipient cells
+] <spec:ev-signaling-mecfs>
 
 == Summary: Integrated Model of Immune Dysfunction
 <sec:immune-summary>

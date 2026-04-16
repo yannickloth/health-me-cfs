@@ -19,6 +19,32 @@ Several studies have reported increased white matter hyperintensities (WMH) in M
 
 The clinical significance of these findings remains debated, as similar changes occur with normal aging and various medical conditions. However, the presence of WMH in younger ME/CFS patients suggests pathological processes beyond typical age-related changes @Lange1999mri @Zeineh2015white.
 
+==== Diffusion-Based Neuroinflammation Imaging
+<sec:nii-neuroinflammation>
+
+Yu et al.\ (2026) applied an advanced neuroinflammation imaging (NII) model to diffusion MRI data from 67 ME/CFS patients and 67 matched healthy controls, providing the first in vivo evidence of widespread white matter neuroinflammation in ME/CFS @Yu2026diffusion-neuroinflammation. The NII model, which estimates tissue microstructure parameters beyond conventional diffusion tensor imaging (DTI), revealed three key abnormalities: reduced NII-HR (consistent with cerebral edema), reduced NII-RF (consistent with cellular infiltration), and increased NII-FF (consistent with axonal reorganisation).
+
+#achievement(title: [Widespread White Matter Neuroinflammation Detected by Advanced Diffusion MRI])[
+*Certainty: 0.60.* n=67 per group with rigorous matching; NII model substantially more sensitive than conventional DTI; findings correlate with clinical measures; Human Brain Mapping is a reputable specialty journal. Not independently replicated. @Yu2026diffusion-neuroinflammation
+
+The critical methodological advance is that conventional DTI metrics showed minimal group differences, while NII metrics revealed widespread abnormalities. This resolves a longstanding inconsistency in ME/CFS neuroimaging---prior DTI studies produced mixed results, which may have reflected insufficient sensitivity of the standard DTI model rather than absence of pathology. The NII model's parameters map more directly onto tissue-level processes (edema, cellular infiltration, axonal change), providing a clearer window into the biological substrate of white matter abnormalities.
+
+The NII findings are consistent with neuroinflammation, though they cannot definitively distinguish neuroinflammation from other white matter pathologies (demyelination, ischemia, neurodegeneration). However, the pattern---cerebral edema, cellular infiltration, and axonal reorganisation---aligns with the neuroinflammatory cascade described in the integrated model @sec:glial, and is consistent with the peripheral immune remodeling and blood-brain barrier dysfunction documented elsewhere @sec:bbb @sec:immune-remodeling.
+
+*Limitations:* Cross-sectional design precludes causal inference; single-center study; NII model requires validation in independent ME/CFS cohorts; the neuroinflammation interpretation, while plausible, is inferential rather than directly confirmed by histopathology.
+] <ach:nii-neuroinflammation>
+
+=== CSF Proteomics: Complement, Coagulation, and Clinical Heterogeneity
+<sec:csf-proteome-mecfs>
+
+Brag{\'e}e et al.\ (2026) performed CSF proteomics on 31 ME/CFS patients, quantifying 902 proteins and correlating findings with clinical features @Bragée2026csf-proteome. The most striking finding was the enrichment of neutrophil degranulation and platelet activation pathways in POTS-positive patients, alongside complement cascade and coagulation pathway enrichment in severe cases.
+
+This CSF compartment data is valuable because it samples the central nervous system directly, avoiding the confounds of blood-brain barrier permeability that complicate blood-based biomarker interpretation. The convergence of complement and coagulation pathway enrichment in the CSF with the peripheral blood findings of immune remodeling and vascular dysfunction @sec:immune-remodeling suggests that the same fundamental processes---immune dysregulation, complement activation, and coagulation cascade engagement---operate across both peripheral and central compartments.
+
+#limitation(title: [CSF Proteomics Without Controls])[
+*Certainty: 0.35.* n=31 ME/CFS patients with no healthy control group; ratio-based within-group analysis only; single-center; Scientific Reports is mid-tier. The absence of a control group means differential expression between patients and healthy individuals cannot be established; only within-patient severity associations are possible. These findings require validation in an independent cohort with matched controls.
+] <lim:csf-proteome-no-controls>
+
 *Gray Matter Volume Changes*
 Voxel-based morphometry (VBM) studies have identified regional brain abnormalities in ME/CFS patients, though findings vary across cohorts @Puri2012VBM @Finkelmeyer2017VBM @Shan2020JTMneuroimaging. Documented changes include gray matter differences in the parahippocampal gyrus, occipital regions, amygdala, and insula, alongside white matter volume reductions in the brainstem and temporal regions. No single pattern has been consistently replicated across studies, reflecting the clinical heterogeneity of ME/CFS.
 
@@ -1330,7 +1356,27 @@ Importantly, cerebral perfusion abnormalities worsen following physical or cogni
     - Further CBF reductions post-exercise
     - Prolonged recovery of normal perfusion
     - Correlation with post-exertional malaise severity
-    - Potential contribution to cognitive “crashes” following activity
+    - Potential contribution to cognitive "crashes" following activity
+
+=== The Brainstem Autonomic Loop Hypothesis
+<sec:brainstem-autonomic-loop>
+
+The convergence of brainstem neuroinflammation (Yu et al.\ 2026 NII imaging @Yu2026diffusion-neuroinflammation), brainstem functional connectivity changes (Faro et al.\ 2024 @Faro2024connectivity), cerebral hypoperfusion, and autonomic dysfunction suggests a three-node vicious cycle that may maintain ME/CFS pathology.
+
+#hypothesis(title: [Brainstem Autonomic Loop: Neuroinflammation as Both Cause and Consequence of Vascular-Immune Failure])[
+*Certainty: 0.40.* Based on convergent neuroimaging (NII, fMRI), autonomic testing, and CSF proteomics evidence; mechanism consistent with established vagal anti-inflammatory pathway biology. Not directly tested as a unified hypothesis in ME/CFS. @Yu2026diffusion-neuroinflammation @Faro2024connectivity @Bragée2026csf-proteome
+
+The brainstem (medulla, pons) contains autonomic centers---nucleus tractus solitarius, dorsal motor nucleus of vagus, rostral ventrolateral medulla---that regulate heart rate, blood pressure, and cerebral blood flow. Neuroinflammation in the brainstem would: (1) impair autonomic output, reducing vagal tone and the cholinergic anti-inflammatory pathway; (2) produce cerebral hypoperfusion through impaired autoregulation; (3) allow peripheral immune activation to proceed unchecked due to loss of vagal immune restraint.
+
+Simultaneously, reduced autonomic output produces hypovolemia and hypoperfusion, causing cerebral ischemia and metabolic stress that further drives neuroinflammation. Peripheral immune activation generates cytokines that cross the blood-brain barrier, amplifying brainstem neuroinflammation. This three-node cycle---brainstem neuroinflammation $leftrightarrow$ autonomic failure $leftrightarrow$ peripheral immune-vascular dysfunction---creates a self-sustaining state consistent with the bistability described in the energy-immune coupling model.
+
+The Faro et al.\ finding of increased cuneiform nucleus--medulla functional connectivity in ME/CFS @Faro2024connectivity may reflect compensatory activation of this impaired brainstem circuit. POTS+ patients (Brag{\'e}e et al.\ 2026 @Bragée2026csf-proteome) showing neutrophil degranulation and platelet activation in CSF may represent the most extreme manifestation of this loop, where autonomic collapse permits full peripheral immune activation to penetrate the CNS compartment.
+
+*Testable predictions:*
+    + NII metrics in brainstem white matter tracts will correlate more strongly with autonomic function tests (HRV, tilt table response) than with cognitive tests
+    + POTS+ patients will show worse brainstem NII metrics than non-POTS patients
+    + Improving vagal tone (transcutaneous VNS) will reduce peripheral inflammatory markers only in patients with brainstem NII abnormalities
+] <hyp:brainstem-autonomic-loop>
 
 == Auditory Processing Dysfunction and Tinnitus
 <sec:auditory-dysfunction>
