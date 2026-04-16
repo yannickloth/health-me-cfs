@@ -427,7 +427,7 @@ Full discussion: @ch:gut-microbiome.
 
 - *Viral antigen as autoimmune trigger.* Molecular mimicry between EBV EBNA-1 and human adrenergic/muscarinic receptor epitopes, and between CoV spike protein and various host proteins, provides the initiating event for the autoantibodies documented in Family 5.
 
-Full discussion: @ch:immune-dysfunction and @ch:immune-dysfunction.
+Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 
 *Evidence status:* Probable (herpesvirus reactivation replicated; enterovirus evidence strong in specific cohorts; causal role of ongoing persistence vs past priming remains debated).
 
