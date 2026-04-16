@@ -344,6 +344,70 @@ If sleep architecture failure reflects energy-limited coordination, intervention
 This hypothesis has moderate certainty (0.50). No published studies have quantified spindle density or power in ME/CFS with simultaneous metabolic measures. Coherence data exists for waking but not sleep EEG. Alternative explanations include primary brainstem pathology, autonomic dysfunction, or circadian disruption rather than energy limitation. Causality direction remains unclear: does poor metabolism fragment sleep, or does fragmented sleep worsen metabolism?
 ] <hyp:sleep-architecture-failure>
 
+==== Thalamic T-Type Calcium Channels and Alpha-Delta Sleep Intrusion
+<sec:thalamic-calcium-sleep>
+
+The thalamus is not merely a relay station for sleep oscillations—it is their primary _generator_. T-type voltage-gated calcium channels (CaV3.1, the predominant thalamic isoform) are the principal conductance underlying thalamic delta oscillations. CaV3.1 knockout mice show markedly reduced NREM sleep and altered sleep oscillations, establishing CaV3.1 as the critical molecular substrate for delta wave generation @Crunelli2006thalamicTtype. During deep NREM sleep, CaV3.1 channels in thalamocortical relay neurons generate the low-threshold Ca#super[2+] spikes that underlie 0.5--4 Hz delta oscillations --- the dominant EEG rhythm of restorative slow-wave sleep.
+
+Alpha-delta sleep (intrusion of alpha waves, normally associated with wakefulness, into delta sleep) has been documented in fibromyalgia and reported in ME/CFS. Vijayan et al.\ (2015) developed a computational thalamocortical model demonstrating how alterations in three ionic currents --- the hyperpolarization-activated cation current (I#sub[h]), GABA#sub[B]-mediated K#super[+] conductance, and background K#super[+] leak --- transform thalamic delta oscillations into alpha-delta patterns @Vijayan2015alphaDelta. Crucially, the T-type Ca#super[2+] channels (CaV3) providing the low-threshold calcium spikes are the substrate on which these disruptions act: altering the balance of competing currents shifts the oscillation away from CaV3-dependent delta and toward alpha frequency.
+
+#hypothesis(title: [Thalamic T-Type Calcium Channel Disruption as a Mechanism of Alpha-Delta Sleep in ME/CFS])[
+*Certainty: 0.35.*
+
+In a subset of ME/CFS patients, disruption of thalamic T-type Ca#super[2+] channel (CaV3.1) function---whether from neuroinflammation, altered membrane lipid composition, autoimmune targeting, or systemic channelopathy---may generate the alpha-delta sleep intrusion pattern that underlies non-restorative sleep.
+
+*Proposed mechanism:*
+
+    - CaV3.1 channels generate low-threshold Ca#super[2+] spikes that drive delta oscillations in thalamocortical relay neurons
+    - Neuroinflammation, oxidative stress, or channelopathy shifts the balance of competing ionic currents (I#sub[h], GABA#sub[B]-K#super[+], background K#super[+] leak), as modeled by Vijayan et al.\ @Vijayan2015alphaDelta
+    - Delta oscillations are replaced by alpha-frequency activity --- patients experience subjectively non-restorative sleep despite adequate total sleep time
+    - Sleep spindle generation (dependent on thalamic reticular nucleus burst firing) is also impaired, as it shares the same thalamocortical circuit
+
+*Connection to systemic channelopathy:*
+
+If TRPM3 dysfunction in ME/CFS reflects a systemic channelopathy affecting ion channels across multiple tissues (Section @sec:trpm3-hypotheses), thalamic CaV3.1 channels represent a plausible additional target. The same upstream mechanisms proposed for TRPM3 dysfunction (post-viral channel remodeling, autoimmune targeting, epigenetic downregulation, membrane lipid disruption) could in principle disrupt CaV3.1 gating. This would create a mechanistic link between the immune arm of calcium dysfunction (TRPM3 in NK cells) and the sleep arm (CaV3.1 in thalamus) --- suggesting these are not independent comorbidities but manifestations of the same root pathology.
+
+*Important limitation:* No study has directly measured CaV3.1 expression or function in ME/CFS patients. The thalamic calcium channel hypothesis for ME/CFS is extrapolated from fibromyalgia sleep models and basic CaV3.1 neuroscience; whether it applies to ME/CFS specifically is untested.
+
+*Testable predictions.*
+
+    - ME/CFS patients with alpha-delta sleep EEG pattern should show more severe non-restorative sleep symptoms than those without it
+    - T-type Ca#super[2+] channel blockers (ethosuximide, zonisamide, low-dose pregabalin) should convert alpha-delta to delta sleep in affected ME/CFS patients and improve sleep quality (objective measure: increased delta power on PSG)
+    - Thalamic neurochemistry (MRS) in ME/CFS patients with alpha-delta sleep should differ from those without it, consistent with altered I#sub[h]/GABA#sub[B]/K#super[+] balance
+    - If TRPM3 channelopathy is systemic, TRPM3 dysfunction severity (measured in NK cells) should correlate with severity of alpha-delta sleep intrusion
+
+*Treatment implication:* Ethosuximide (a selective T-type Ca#super[2+] channel blocker used in absence epilepsy) and zonisamide reduce CaV3.1-dependent burst firing. Low-dose use in ME/CFS patients with documented alpha-delta sleep is a testable research hypothesis, not a recommendation; adverse effects include sedation, GI upset, and --- at higher doses --- cognitive effects that may be particularly poorly tolerated in ME/CFS.
+] <hyp:thalamic-calcium-sleep>
+
+#open-question(title: [Ethosuximide and Zonisamide: Which Direction Does T-Type Block Go?])[
+The mechanistic direction for T-type calcium channel blockers in ME/CFS sleep is genuinely uncertain, and the uncertainty matters clinically:
+
+*If alpha-delta arises from insufficient T-type current for delta generation:* CaV3.1 is already hypoactive (reduced by energy failure or systemic channelopathy) and further blocking with ethosuximide would worsen delta generation and deepen non-restorative sleep. This is the likely scenario if the Wirth energy failure model applies to thalamic metabolism.
+
+*If alpha-delta arises from residual T-type burst firing at the wrong frequency:* CaV3.1 still fires but now generates alpha-frequency bursts instead of delta (due to altered Ih/GABAB balance per the Vijayan 2015 model @Vijayan2015alphaDelta). In this case, selective T-type suppression might specifically dampen the aberrant alpha component while leaving delta largely intact.
+
+*Zonisamide as a dual-mechanism option:* Unlike ethosuximide (selective T-type block), zonisamide also blocks sodium channels and enhances GABA-A signaling. The GABA-A enhancement could address the GABAB/K#super[+] conductance imbalance in Vijayan's alpha-delta model independently of T-type block. Antioxidant properties (free radical scavenging) of zonisamide could additionally reduce the neuroinflammatory milieu affecting thalamic membrane properties.
+
+*Research design:* A single-dose crossover study (ethosuximide 250 mg vs. placebo, overnight PSG) measuring delta power and alpha-delta index would directly answer the direction question. If delta increases and alpha intrusion decreases, the alpha component is T-channel-mediated. If delta decreases, T-channels are needed for delta generation and the drug worsens sleep. This is a low-cost mechanistically decisive trial that would either support or refute the thalamic calcium hypothesis.
+
+_Not a clinical recommendation._ Both agents have significant adverse effect profiles. This is a research question only.
+] <oq:ch08-ethosuximide-direction>
+
+#speculation(title: [Sleep EEG Delta/Alpha Ratio as a Non-Invasive Thalamic Calcium Proxy])[
+If thalamic CaV3.1 dysfunction underlies alpha-delta sleep in ME/CFS, the NREM delta/alpha power ratio serves as a non-invasive functional proxy for thalamic calcium channel activity. This is measurable with consumer home EEG devices. Longitudinal tracking of the delta/alpha ratio could:
+
+    - Serve as a pharmacodynamic biomarker for calcium-targeted treatments: does T-type modulation shift the ratio?
+    - Predict PEM episodes: does the delta/alpha ratio worsen in the nights preceding a crash?
+    - Subtype patients by sleep calcium phenotype: consistent alpha-delta vs. normal sleep architecture on home EEG
+    - Replace expensive PSG for longitudinal tracking at the cost of reduced spatial resolution
+
+The advantage over laboratory sleep study is scalability; the disadvantage is that frontal consumer-grade EEG does not provide thalamic source-localization. The ratio measure is correlational, not mechanistically validated.
+
+*Falsifiable predictions:* (a) NREM delta/alpha ratio measured by home EEG should correlate with ME/CFS severity scores across patients. (b) The ratio should worsen during PEM and recover during post-PEM rest. (c) Interventions that improve thalamic calcium function (T-type modulators, improved metabolic support of thalamic tissue) should shift the ratio toward higher delta/lower alpha.
+
+(Certainty: 0.35. The delta/alpha ratio as an EEG severity marker is established in fibromyalgia; whether it serves as a thalamic calcium proxy in ME/CFS specifically is extrapolation.)
+] <spec:ch08-sleep-eeg-proxy>
+
 === Glial Cell Dysfunction
 <sec:glial>
 
@@ -1368,7 +1432,7 @@ The convergence of brainstem neuroinflammation (Yu et al.\ 2026 NII imaging @Yu2
 
 The brainstem (medulla, pons) contains autonomic centers---nucleus tractus solitarius, dorsal motor nucleus of vagus, rostral ventrolateral medulla---that regulate heart rate, blood pressure, and cerebral blood flow. Neuroinflammation in the brainstem would: (1) impair autonomic output, reducing vagal tone and the cholinergic anti-inflammatory pathway; (2) produce cerebral hypoperfusion through impaired autoregulation; (3) allow peripheral immune activation to proceed unchecked due to loss of vagal immune restraint.
 
-Simultaneously, reduced autonomic output produces hypovolemia and hypoperfusion, causing cerebral ischemia and metabolic stress that further drives neuroinflammation. Peripheral immune activation generates cytokines that cross the blood-brain barrier, amplifying brainstem neuroinflammation. This three-node cycle---brainstem neuroinflammation $leftrightarrow$ autonomic failure $leftrightarrow$ peripheral immune-vascular dysfunction---creates a self-sustaining state consistent with the bistability described in the energy-immune coupling model.
+Simultaneously, reduced autonomic output produces hypovolemia and hypoperfusion, causing cerebral ischemia and metabolic stress that further drives neuroinflammation. Peripheral immune activation generates cytokines that cross the blood-brain barrier, amplifying brainstem neuroinflammation. This three-node cycle---brainstem neuroinflammation $arrow.l.r$ autonomic failure $arrow.l.r$ peripheral immune-vascular dysfunction---creates a self-sustaining state consistent with the bistability described in the energy-immune coupling model.
 
 The Faro et al.\ finding of increased cuneiform nucleus--medulla functional connectivity in ME/CFS @Faro2024connectivity may reflect compensatory activation of this impaired brainstem circuit. POTS+ patients (Brag{\'e}e et al.\ 2026 @Bragée2026csf-proteome) showing neutrophil degranulation and platelet activation in CSF may represent the most extreme manifestation of this loop, where autonomic collapse permits full peripheral immune activation to penetrate the CNS compartment.
 

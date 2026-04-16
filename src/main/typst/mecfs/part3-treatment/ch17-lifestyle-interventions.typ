@@ -876,3 +876,59 @@ Family members and caregivers are essential partners in ME/CFS management but of
     - *Communication strategies*: Teach patients and families to communicate about energy levels using concrete language (e.g., a 0–10 energy scale) rather than vague terms. This reduces misunderstandings about what the patient can and cannot do on a given day
     - *Boundary setting*: Help families understand that encouraging the patient to “push through” or “try harder” is harmful. Support pacing decisions even when they limit family activities or social plans
 
+== Experimental Non-Pharmacological Approaches: Ion Channel Hypotheses
+<sec:experimental-nonpharm>
+
+The following approaches are _research hypotheses_, not established interventions. They are included because the underlying mechanistic rationale is grounded in documented ME/CFS pathophysiology, and because the interventions are accessible without prescription and low-risk if done cautiously. None has been tested in ME/CFS clinical trials.
+
+=== Controlled Thermal Stimulation and TRPM3 Activation
+<sec:thermal-trpm3>
+
+#speculation(title: [Graded Warm Thermal Stimulation as Non-Pharmacological TRPM3 Agonism])[
+TRPM3 is a thermosensor channel activated in the warm/noxious heat range ($>$40°C). If TRPM3 channels in ME/CFS patients are hypoactive but not completely non-functional (consistent with Cabanas et al.\ showing reduced rather than absent Ca#super[2+] current @Cabanas2019trpm3val), controlled warm stimulation at temperatures approaching the TRPM3 activation range might provide calcium entry that is insufficient at baseline thermoneutral conditions.
+
+*Proposed protocol concept:* Brief warm water immersion (5--10 minutes, 38--39°C) activates remaining functional TRPM3 channels in peripheral sensory neurons without generating the full thermal pain response (threshold $>$40°C). The mechanistic prediction: measurable acute increase in NK cell Ca#super[2+] flux sampled within 30 minutes post-immersion, reflecting TRPM3-mediated calcium entry.
+
+*Critical caveat --- heat intolerance in ME/CFS:* Many ME/CFS patients report heat intolerance, and excessive thermal load can precipitate PEM through increased circulatory demands and metabolic stress. The hypothetical therapeutic window (warm enough to activate TRPM3, not so warm as to worsen energy expenditure) has not been identified. Any thermal protocol must begin extremely cautiously with brief, partial-body exposures (hands/feet only) before considering whole-body immersion.
+
+*Falsifiable prediction:* Brief warm water immersion at 38°C for 5 minutes should produce measurable increase in NK cell Ca#super[2+] flux compared to thermoneutral control (34°C) in ME/CFS patients with documented TRPM3 dysfunction. If the effect is present, regular mild thermal exposure (3x/week, 10 min, 38°C) should improve TRPM3 function measurements over 8 weeks.
+
+(Certainty: 0.25. TRPM3 thermosensor activation is established physiology; the therapeutic direction in ME/CFS with its heat intolerance is uncertain. Not studied in ME/CFS.)
+] <spec:ch17-thermal-trpm3>
+
+=== Whole-Body Vibration and Piezo Channel Mechanosensing
+<sec:vibration-piezo>
+
+#speculation(title: [Low-Magnitude Vibration as a Piezo1 Activator Without Metabolic Exercise Demand])[
+Piezo1 is the mechanically-activated cation channel governing RBC volume homeostasis and endothelial mechanosensing. In bone physiology, low-magnitude high-frequency vibration (0.3g at 30 Hz) selectively activates Piezo1 in osteocytes, promoting bone formation without the metabolic cost of load-bearing exercise.
+
+*Proposed ME/CFS rationale:* If Piezo1 dysregulation contributes to RBC stiffness and microcirculatory failure in ME/CFS (Section @spec:ch14h-piezo1-rbc), whole-body vibration (WBV) at bone-physiology parameters (0.3g, 30 Hz, 10 minutes) could activate Piezo1 in RBCs and endothelial cells, potentially improving microcirculation without the exercise-induced metabolic demand that triggers PEM. The mechanical stimulus replaces the cardiovascular exercise that ME/CFS patients cannot tolerate.
+
+Additionally, Piezo2 --- expressed in proprioceptive sensory neurons --- may be stimulated by specific vibration frequencies, potentially recalibrating mechanical pain thresholds in patients with allodynia and proprioceptive disruption (Section @spec:ch14h-piezo2-allodynia).
+
+*Access consideration:* WBV platforms are available for home use. Protocols for bedbound or housebound patients could begin with handheld vibrating devices on extremities before progressing to platform standing, allowing Piezo activation without orthostatic stress.
+
+*Falsifiable predictions:* (a) WBV (0.3g, 30 Hz, 10 min) should improve RBC deformability (ektacytometry) measured 1 hour post-session in ME/CFS patients versus rest control. (b) A 4-week WBV protocol should improve orthostatic tolerance on tilt table without worsening PEM by self-report. (c) Piezo1 activation should be measurable as acute increase in RBC Ca#super[2+] content using calcium-sensitive fluorescent dyes.
+
+#warning-env(title: [WBV Safety in ME/CFS: Post-Exertional Malaise Risk])[
+Whole-body vibration constitutes a physical stimulus with energy expenditure. Even low-magnitude protocols could precipitate PEM in energy-limited patients. Any vibration protocol in ME/CFS must: (a) begin at extremely low exposure (1--2 minutes); (b) monitor heart rate continuously; (c) observe a 24-hour PEM watch period before increasing duration; (d) stop immediately if pre-PEM symptoms emerge. Bedbound or severe patients should not use standing WBV platforms; supine vibration applied to extremities only is a safer starting point.
+]
+
+(Certainty: 0.20. RBC deformability deficit in ME/CFS is a single unreplicated study; Piezo1 involvement is untested; WBV efficacy in ME/CFS has no clinical data. Speculative.)
+] <spec:ch17-vibration-piezo>
+
+=== Cold Thermogenesis and TRPM8 Activation
+<sec:cold-trpm8>
+
+#speculation(title: [Cold Exposure as TRPM8 Activation: Alternative Calcium Entry Route])[
+TRPM8 is a cold-activated TRP channel (activation threshold $<$25°C, enhanced by menthol) expressed in cold-sensing neurons and brown adipose tissue. Unlike TRPM3, TRPM8 has not been studied in ME/CFS. Brief cold exposure activates TRPM8 in thermosensory neurons and brown adipose tissue, triggering thermogenesis and norepinephrine release.
+
+*Speculative rationale:* If ME/CFS patients have dysfunctional TRPM3 but intact TRPM8, cold exposure could provide calcium signaling through an intact alternative TRP channel, partially compensating for TRPM3 deficit. This is essentially a pathway compensation strategy. The norepinephrine release from cold-activated brown adipose thermogenesis might additionally improve orthostatic tolerance short-term.
+
+*Critical limitations:* The hypothesis assumes TRPM8 is spared while TRPM3 is dysfunctional, which has never been tested. Many ME/CFS patients report cold intolerance (consistent with the TRPM3 thermoregulation hypothesis in Section @sec:trpm3-hypotheses), which could indicate that cold stimulation would worsen symptoms. Cold exposure is energetically costly through thermogenesis. This is the most speculative of the thermal protocols.
+
+*Falsifiable prediction:* Brief cold water hand immersion (10°C, 2 minutes) in ME/CFS patients with documented TRPM3 dysfunction should produce measurable serum norepinephrine increase (cold-TRPM8-mediated) of similar magnitude to healthy controls, confirming that TRPM8 is functionally intact. If TRPM8 is also dysfunctional, the norepinephrine response would be blunted.
+
+(Certainty: 0.10. Highly speculative. TRPM8 status in ME/CFS is completely unknown. Cold exposure may be harmful in this population. Research hypothesis only.)
+] <spec:ch17-cold-trpm8>
+

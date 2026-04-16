@@ -3,7 +3,7 @@
 == Novel Hypotheses from TRPM3 Ion Channel Research
 <sec:trpm3-hypotheses>
 
-The 2026 multi-site validation of TRPM3 ion channel dysfunction in ME/CFS @Sasso2026trpm3 opens entirely new avenues for understanding disease mechanisms. TRPM3 (Transient Receptor Potential Melastatin 3) is not merely an immune cell ion channel—it is expressed across multiple tissue types and participates in diverse physiological processes. The robust, reproducible finding of TRPM3 dysfunction suggests several novel hypotheses.
+TRPM3 (Transient Receptor Potential Melastatin 3) ion channel dysfunction is one of the most consistently replicated findings in ME/CFS research, with evidence accumulating across multiple independent studies and research groups. Nguyen et al.\ (2017) first identified reduced TRPM3 surface expression and impaired Ca#super[2+] mobilization in CD56bright NK cells from ME/CFS patients @Nguyen2017trpm3. Cabanas et al.\ (2019) confirmed this with whole-cell patch-clamp electrophysiology, demonstrating significantly reduced TRPM3 current amplitude using multiple pharmacological probes (pregnenolone sulfate, nifedipine, ononetin) @Cabanas2019trpm3val. Eaton-Fitch et al.\ (2021) showed reduced TRPM3/PIP#sub[2] co-localization, linking channel dysfunction directly to impaired NK cell degranulation and failed perforin/granzyme release @EatonFitch2021trpm3pip2. A subsequent study confirmed that Ca#super[2+] influx amplitude is significantly reduced at baseline (p < 0.0001) and that overnight naltrexone fully restores TRPM3-dependent Ca#super[2+] influx @EatonFitch2022trpm3ntx. The 2026 multi-site validation by Sasso et al.\ (n=78) @Sasso2026trpm3 confirms the finding as robust. TRPM3 is not merely an immune cell ion channel---it is expressed across multiple tissue types and participates in diverse physiological processes. This reproducible finding suggests several novel hypotheses.
 
 === The Paradoxical Immune State Hypothesis
 
@@ -288,6 +288,38 @@ If TRPM3 dysfunction is central to ME/CFS pathophysiology, targeting TRPM3 pharm
 These therapeutic ideas are *entirely speculative*. TRPM3 pharmacology in humans is poorly characterized. No clinical trials have tested TRPM3 modulators in ME/CFS. Self-experimentation with TRPM3-active compounds is not recommended. These ideas are presented to stimulate research, not to guide treatment.
 ]
 
+=== Two Calcium Subtypes: A Unifying Framework
+<sec:calcium-subtypes>
+
+#speculation(title: [Subtype A vs Subtype B: Two Distinct Calcium Mechanisms in ME/CFS])[
+The calcium mechanisms documented across ME/CFS research do not represent a single unified pathway. They fall into two mechanistically distinct subtypes with opposite causal logic and potentially different therapeutic implications.
+
+*Subtype A --- Energy Failure Leading to Secondary Calcium Dysregulation*
+
+Calcium overload is _downstream_ of metabolic and vascular crisis. The proposed cascade (Section @sec:sodium-calcium-cascade): capillary hypoperfusion → anaerobic metabolism → proton accumulation → NHE1 sodium influx → Na#super[+]/K#super[+]-ATPase saturation → NCX1 reversal → intracellular Ca#super[2+] overload. This is a well-characterized pathophysiology that predicts muscle necrosis during PEM @Wirth2024keyRole and is supported by sodium MRI evidence @Wirth2022muscleSodium. The calcium dysregulation is real and damaging, but it is secondary to the upstream energy/vascular failure. Correcting the upstream hypoperfusion or restoring Na#super[+]/K#super[+]-ATPase function (e.g., MDC002/Mitodicure) should prevent the calcium cascade from reaching the toxicity threshold.
+
+*Subtype B --- Primary Calcium Channelopathy Leading to Multi-System Failure*
+
+Calcium dysfunction is _upstream_. The TRPM3 channelopathy is the root lesion; energy failure, immune dysfunction, and potentially sleep disruption are all downstream consequences. In this subtype:
+
+    - TRPM3 dysfunction impairs Ca#super[2+] transients required for mitochondrial activation
+    - Insufficient Ca#super[2+] signaling reduces ATP synthesis capacity under demand (the Calcium-Mitochondria Cascade Hypothesis, Section @sec:trpm3-hypotheses)
+    - Impaired NK cell degranulation permits viral persistence, sustaining inflammatory burden
+    - Potential systemic TRPM3 dysfunction in sensory neurons, vascular smooth muscle, and brain tissue creates the full multi-system phenotype
+
+Treating the mitochondria in Subtype B addresses consequences but not cause; restoring TRPM3 function would be causal.
+
+*The Diagnostic Problem*
+
+These two subtypes may be clinically indistinguishable at presentation. Both produce fatigue, PEM, and immune dysfunction. Key differentiating questions: Does the calcium problem precede or follow the energy failure? Is TRPM3 dysfunction detectable before the metabolic crisis, or only during PEM? Current cross-sectional TRPM3 assays cannot answer this --- prospective longitudinal studies with paired TRPM3 + metabolic measurements are needed.
+
+*Overlap and Mixed Subtypes*
+
+The subtypes are not mutually exclusive. A patient could have primary TRPM3 channelopathy (Subtype B) that impairs mitochondrial function, which then triggers secondary NCX reversal during exertion (Subtype A component), creating a self-amplifying cascade. In such patients, both MDC002 (prevents NCX reversal) and TRPM3 restoration (addresses root cause) might be needed.
+
+(Certainty: 0.35. The Subtype A/B framework is a proposed organizing structure not yet published in peer-reviewed literature as a formal taxonomy. The individual mechanisms it groups are supported by evidence; the unification is conceptual. Not yet tested as a subtyping framework.)
+] <spec:ch14h-calcium-subtypes>
+
 === Subtyping Implications
 
 The TRPM3 findings may help define ME/CFS subgroups:
@@ -299,16 +331,49 @@ The TRPM3 findings may help define ME/CFS subgroups:
 
 This parallels the evolution of cancer treatment—from “breast cancer” to “HER2-positive breast cancer” with targeted therapy. ME/CFS may similarly fragment into molecular subtypes with tailored treatments.
 
+=== TRPM3 and TRPM7 Dual Channelopathy
+<sec:trpm3-trpm7-dual>
+
+#hypothesis(title: [Dual TRPM3+TRPM7 Dysfunction as a Subtype-Defining Signature])[
+TRPM3 dysfunction is well-replicated across six cohort studies (2017--2026). Du Preez et al.\ (2023) extended this to TRPM7, demonstrating significantly reduced TRPM7-dependent Ca#super[2+] influx slope in ME/CFS NK cells (n=9) @DuPreez2023trpm7. TRPM7 is a chanzyme --- a fused ion channel and kinase --- that regulates intracellular Mg#super[2+] homeostasis, cell migration, and apoptotic cell clearance through phosphorylation of annexin A1 and myosin IIA. These substrates are required for immune cell motility and phagocytic function.
+
+*Proposed mechanism:* When both TRPM3 (Ca#super[2+] entry for degranulation) and TRPM7 (Mg#super[2+] homeostasis and immune cell motility) are dysfunctional simultaneously, NK cells face a compounded functional deficit: they are unable to migrate efficiently to target cells AND unable to complete degranulation upon arrival. The functional impairment is predicted to exceed what either channelopathy alone would produce.
+
+*Subtype-defining implication:* Patients with dual TRPM3+TRPM7 dysfunction may represent a more severe immune channelopathy subtype. The number of dysfunctional TRP channels could serve as a dimensional severity measure rather than a binary biomarker.
+
+*Falsifiable prediction:* ME/CFS patients with simultaneous TRPM3 and TRPM7 dysfunction (measured by patch-clamp Ca#super[2+] flux in NK cells) should show worse NK cytotoxicity than patients with TRPM3 dysfunction alone. Bell scale functional scores should correlate inversely with the number of dysfunctional TRP channels. (Certainty: 0.42. TRPM3 dysfunction replicated; TRPM7 finding is single study, n=9, not independently replicated.)
+] <hyp:ch14h-trpm3-trpm7-dual>
+
+=== PIP#sub[2] Depletion as the Convergence Mechanism
+<sec:pip2-depletion-convergence>
+
+#hypothesis(title: [PIP#sub[2] Exhaustion Links GPCR Autoantibodies to Multi-Channel Dysfunction])[
+Eaton-Fitch et al.\ (2021) demonstrated reduced TRPM3/PIP#sub[2] co-localization in ME/CFS NK cells @EatonFitch2021trpm3pip2. PIP#sub[2] (phosphatidylinositol 4,5-bisphosphate) is a plasma membrane phospholipid required for the gating of multiple ion channel families including TRPM3, TRPM7, Piezo channels, and KCNQ potassium channels. PIP#sub[2] is consumed by phospholipase C (PLC) downstream of GPCR signaling.
+
+*Proposed convergence mechanism:* Chronic stimulation of GPCR autoantibodies (anti-$beta_2$-adrenergic, anti-muscarinic M3/M4) documented in ME/CFS tonically activates PLC, consuming PIP#sub[2] faster than PI4K/PIP5K enzymes can regenerate it. The resulting PIP#sub[2] pool depletion simultaneously impairs:
+
+    - TRPM3 gating $arrow.r$ reduced Ca#super[2+] entry for NK degranulation
+    - TRPM7 gating $arrow.r$ Mg#super[2+] homeostasis disrupted
+    - Piezo channel mechanosensitivity $arrow.r$ altered RBC deformability and mechanosensing
+    - KCNQ channel function $arrow.r$ altered neuronal and cardiac excitability
+
+This mechanism transforms the GPCR autoantibody hypothesis and the TRPM3 channelopathy hypothesis from parallel independent findings into a single upstream deficit. A chronic PIP#sub[2] supply problem simultaneously explains why multiple ion channel families are dysfunctional in the same patients.
+
+*Falsifiable predictions:* (a) PIP#sub[2] levels in ME/CFS NK cell membranes (measured by anti-PIP#sub[2] immunofluorescence or membrane phosphoinositide mass spectrometry) should be reduced compared to healthy controls. (b) _In vitro_ PIP#sub[2] supplementation (exogenous diC8-PIP#sub[2]) should partially rescue TRPM3-mediated Ca#super[2+] flux in ME/CFS cells even without naltrexone. (c) GPCR autoantibody titers should inversely correlate with membrane PIP#sub[2] levels across ME/CFS patients.
+
+(Certainty: 0.45. The PIP#sub[2]/TRPM3 co-localization deficit is a direct experimental finding; the GPCR $arrow.r$ PLC $arrow.r$ PIP#sub[2] cascade is established signaling biology; the convergence as a unified mechanism is inferred, not demonstrated. Not yet replicated.)
+] <hyp:ch14h-pip2-convergence>
+
 === The Expanded TRP Channel Sensitization Hypothesis
 
 #speculation(title: [Beyond TRPM3: A Broader TRP Channelopathy in ME/CFS?])[
-TRPM3 dysfunction has been replicated in independent cohorts in ME/CFS @Cabanas2021trpm3 @Sasso2026trpm3. TRPM3 belongs
+TRPM3 dysfunction has been replicated in independent cohorts in ME/CFS @Cabanas2021 @Sasso2026trpm3. Extending beyond TRPM3, du Preez et al.\ (2023) demonstrated that TRPM7-dependent Ca#super[2+] influx slope is also significantly reduced in ME/CFS NK cells following TRPM7 activation (n=9, not yet independently replicated) @DuPreez2023trpm7 --- raising the possibility that the channelopathy is not limited to TRPM3 but reflects a broader dysfunction across the TRP channel family. TRPM3 belongs
 to the TRP superfamily alongside TRPV1 (vanilloid 1) and TRPA1 (ankyrin 1), which are
 co-expressed in sensory neurons, mast cells, and Schwann cells. TRPV1 is described as a
 "molecular integrator of noxious stimuli" based on its polymodal activation properties: it responds to heat
->43°C, capsaicin, protons (pH<6), and prostaglandins, and is sensitized by PGE$_2$ via EP1
+>43°C, capsaicin, protons (pH below 6), and prostaglandins, and is sensitized by PGE#sub[2] via EP1
 and IP receptors @Moriyama2005. TRPA1 functions as an oxidative stress sensor, activated by
-H$_2$O$_2$, acrolein, and electrophilic tissue damage metabolites through covalent
+H#sub[2]O#sub[2], acrolein, and electrophilic tissue damage metabolites through covalent
 modification of reactive cytosolic cysteines @Macpherson2007.
 
 *Proposed mechanism:*
@@ -360,7 +425,7 @@ channels @Hefner2025AmbroxolTRPV1.
 *Mechanistic rationale for ME/CFS:*
 
     - If TRPV1 sensitization contributes to ME/CFS pain and chemical hypersensitivity
-      (as proposed above @hyp:ch14h-trp-expanded), ambroxol's TRPV1 antagonism could
+      (as proposed above @spec:ch14h-trp-expanded), ambroxol's TRPV1 antagonism could
       theoretically reduce sensitization-driven nociceptor activation
     - Nav1.8 block would additionally reduce action potential firing in small-diameter
       pain-sensing fibers independently of upstream sensitization
@@ -403,7 +468,7 @@ application is entirely extrapolated. Not yet replicated in ME/CFS.)
 
 #speculation(title: [Piezo1 Dysregulation as a Mechanism for RBC Stiffness in ME/CFS])[
 A brief communication by Saha et al.\ documented reduced RBC deformability in ME/CFS
-patients using ektacytometry @Saha2019---a phenotypic measurement only. *Critically, the
+patients using ektacytometry @Saha2019 ---a phenotypic measurement only. *Critically, the
 Saha study did not measure Piezo1 expression, activity, or genetic variants.* The
 involvement of Piezo1 is an inference from general physiology (Piezo1 governs RBC volume
 in murine models), not a direct finding. Competing mechanisms for reduced RBC deformability
@@ -414,7 +479,7 @@ The study is also a short report from a single group (Davis/Stanford) awaiting i
 replication.
 
 Piezo1 is the mechanically-activated cation channel that governs RBC volume homeostasis:
-calcium influx through Piezo1 activates the KCa3.1 (Gardos) channel, causing K$^+$ efflux
+calcium influx through Piezo1 activates the KCa3.1 (Gardos) channel, causing K#super[+] efflux
 and controlled cell dehydration @Cahalan2015. In healthy RBCs, Piezo1 maintains the
 optimal water content and biconcave shape required for capillary transit. Gain-of-function
 Piezo1 variants (hereditary xerocytosis) produce dehydrated, stiff RBCs---the same
@@ -441,7 +506,7 @@ function or expression in patient RBCs.
       expression compared to healthy controls
     - Gardos channel (KCa3.1) activity should be abnormal in ME/CFS RBCs
     - Severity of RBC deformability reduction should correlate with exercise intolerance
-      severity (e.g., 2-day CPET VO$_2$max)
+      severity (e.g., 2-day CPET VO#sub[2]max)
     - _In vitro_ correction of Piezo1/KCa3.1 activity (GsMTx4 Piezo inhibitor or Gardos
       channel modulator) should partially restore RBC deformability
 
@@ -485,6 +550,63 @@ in either direction in ME/CFS sensory neurons is entirely unknown.
 application to ME/CFS neuroinflammation-driven sensitization is speculative and untested.
 Not yet studied in ME/CFS.)
 ] <spec:ch14h-piezo2-allodynia>
+
+=== Multi-Parameter Immune Calcium Biomarker Panel
+<sec:trpm3-biomarker-panel>
+
+#hypothesis(title: [TRPM3+TRPM7+NK Cytotoxicity as a Mechanistic Biomarker Panel])[
+Individual TRPM3 assays have demonstrated diagnostic value, but combining multiple calcium pathway measurements into a panel captures mechanism, intermediate physiology, and functional consequence simultaneously. A proposed multi-parameter immune calcium panel combines: (a) TRPM3 Ca#super[2+] influx amplitude (flow cytometry-based calcium flux after pregnenolone sulfate stimulation), (b) TRPM7-dependent Ca#super[2+] influx slope (DuPreez protocol @DuPreez2023trpm7), and (c) NK cell cytotoxicity against K562 targets.
+
+*Advantages over single biomarkers:* The panel distinguishes whether functional impairment (NK cytotoxicity) is driven by Ca#super[2+] entry failure (TRPM3), Mg#super[2+]/motility failure (TRPM7), or both. It also provides a pharmacodynamic readout for treatment trials: responders to naltrexone should show normalized TRPM3 but not necessarily TRPM7; a hypothetical TRPM7-targeted treatment should show the reverse pattern.
+
+*Falsifiable predictions:* (a) The three-parameter panel should distinguish ME/CFS from healthy controls with $>$80% sensitivity and $>$75% specificity. (b) Responders to LDN should show selective improvement in TRPM3 Ca#super[2+] flux without change in TRPM7. (c) Panel results should be reproducible across laboratories using standardized stimulation protocols.
+
+(Certainty: 0.50. TRPM3 assay evidence is multi-study; TRPM7 data preliminary; panel combination is proposed but not yet tested as a composite.)
+] <hyp:ch14h-calcium-biomarker-panel>
+
+=== Sodium MRI + TRPM3 Assay: Subtype Identification Protocol
+<sec:subtype-identification-protocol>
+
+#speculation(title: [Two-Test Protocol for Subtype A vs Subtype B Classification])[
+The Subtype A/B framework (Section @sec:calcium-subtypes) lacks a practical clinical method to classify individual patients. The following two-test protocol uses currently available technology:
+
+*Test 1 --- Post-exercise #super[23]Na-MRI:* Measures intracellular sodium accumulation in calf muscle after standardized exercise (Wirth/Petter protocol). Elevated sodium = NCX reversal = Subtype A component present.
+
+*Test 2 --- TRPM3 Ca#super[2+] flux assay in NK cells:* Measures Ca#super[2+] influx amplitude after pregnenolone sulfate stimulation. Reduced flux = TRPM3 channelopathy = Subtype B component present.
+
+This yields a 2x2 classification: (A+/B−) Subtype A dominant → metabolic/vascular intervention priority; (A−/B+) Subtype B dominant → TRPM3-restoration priority; (A+/B+) Mixed subtype → combination approach; (A−/B−) Neither → different primary mechanism, investigate autoimmune or neurological pathway.
+
+*Predicted clinical-biological correlations:* Subtype A dominant: PEM with early-onset muscle weakness, high sodium accumulation. Subtype B dominant: predominant immune symptoms, chemical sensitivity, non-restorative sleep. Mixed: most severe overall functional impairment.
+
+(Certainty: 0.50 for individual tests; 0.30 for the 2x2 framework as a treatment-predictive tool. #super[23]Na-MRI post-exercise validated by Wirth group; TRPM3 assay validated by NCNED/Griffith; the combination as a classifier is proposed but untested.)
+] <spec:ch14h-subtype-protocol>
+
+=== Post-Infectious Channelopathy: Brugada Syndrome Parallel
+
+#speculation(title: [Post-Viral Acquired Channelopathy — Brugada Syndrome as Mechanistic Precedent])[
+Brugada syndrome provides a compelling precedent for post-infectious acquired ion channel dysfunction. Type 1 Brugada ECG patterns can appear or become unmasked after febrile viral illness, and in some patients the phenotype persists after recovery. The mechanism involves post-infectious alteration of Nav1.5 (cardiac sodium channel) function — through immune-mediated targeting, viral protease cleavage, or epigenetic silencing — producing durable channel dysfunction without ongoing viral infection.
+
+If post-infectious mechanisms can permanently alter Nav1.5 in cardiac cells, analogous mechanisms could alter TRPM3 in immune cells. The Brugada precedent establishes that: (a) post-viral channelopathy is biologically real (not speculative), (b) the dysfunction can persist indefinitely after pathogen clearance, and (c) viral proteases are candidates for the initiating mechanism.
+
+*Translational prediction for ME/CFS:* SARS-CoV-2 3CL#super[pro], EBV proteases, and enteroviral 2A/3C proteases should be screened for ability to cleave TRPM3 protein in vitro. If a viral protease cleaves a TRPM3 domain required for PIP#sub[2] gating or channel assembly, post-infectious TRPM3 dysfunction has a mechanistic anchor. This experiment requires only purified proteases and recombinant TRPM3 protein.
+
+(Certainty: 0.15. Brugada post-febrile channelopathy is established; the extension to TRPM3 in immune cells is an inference by analogy, not yet tested. Speculative.)
+] <spec:ch14h-brugada-parallel>
+
+=== GsMTx-4 as a Research Tool for Piezo1 Testing
+
+The Piezo1-RBC hypothesis (Section @spec:ch14h-piezo1-rbc) predicts that Piezo1 overactivation or dysregulation drives RBC stiffness in ME/CFS. Testing this mechanistic claim requires selective Piezo1 inhibition in patient cells. GsMTx-4 --- a tarantula venom-derived peptide that selectively blocks mechanosensitive channels including Piezo1 --- is the most precise tool currently available for this purpose.
+
+#open-question(title: [Can Selective Piezo1 Inhibition Restore ME/CFS RBC Deformability?])[
+If Piezo1 overactivation causes RBC stiffness in ME/CFS (Section @spec:ch14h-piezo1-rbc), then:
+
+    - Treating ME/CFS RBCs with GsMTx-4 in vitro should restore ektacytometry-measured deformability to near-control levels
+    - No improvement would indicate that competing mechanisms (oxidative membrane lipid peroxidation, ATP depletion reducing spectrin flexibility, cytokine-mediated cytoskeletal changes) are responsible
+
+GsMTx-4 is not a therapeutic candidate --- venom-derived peptides are not clinically viable, and Piezo1 is expressed on platelets and endothelial cells where inhibition could cause bleeding. However, as an in vitro mechanistic probe on isolated RBCs, GsMTx-4 provides a decisive test that no other approach currently offers. A negative result would redirect the field toward the competing mechanisms.
+
+_Research priority_: Low cost, mechanistically decisive. Could be combined with the Saha ektacytometry protocol as a two-condition experiment.
+] <oq:ch14h-gsmtx4-piezo1>
 
 === Updated Testable Predictions from TRPM3 Research
 

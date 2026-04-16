@@ -1,4 +1,5 @@
 #import "../shared/environments.typ": *
+#import "../shared/tables.typ": landscape
 
 //
 // Hypothesis, Speculation, Prediction, and Open Question Registry
@@ -405,7 +406,7 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
     [Bile Acid Conjugation Competition Diverts Taurine from Cytoprotective Roles],
     [S], [0.20],
     [(a) ME/CFS patients have higher taurine-conjugated to glycine-conjugated bile acid ratio than controls. (b) Glycine co-supplementation raises free plasma taurine more than equivalent taurine supplementation alone.],
-    [Germain 2017 found both taurine and bile acid pathways disturbed @Germain2017taurineME---independent signals or coupled? Direction of bile acid pathway disturbance unspecified. Bile acid profile + free taurine + microbiome assay is feasible and low cost.],
+    [Germain 2017 found both taurine and bile acid pathways disturbed @Germain2017taurineME ---independent signals or coupled? Direction of bile acid pathway disturbance unspecified. Bile acid profile + free taurine + microbiome assay is feasible and low cost.],
     [Ch.16 @spec:taurine-bile-competition],
   ),
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from taurine integration (2026-04-16). Covers AIMM-cascade support, heterogeneity mechanism, and bile acid competition hypothesis.],
@@ -2520,6 +2521,7 @@ Motivated by: Wall 2014 IIHTT; Mitchell 2025 drug comparison; Riste 2025 Perrin 
   caption: [CSF drainage synergy hypothesis],
   kind: table,
 ) <tab:registry-csf-drainage>
+] // end landscape page
 
 === Entries Added 2026-04-14: Sequential Therapy, ONSD Biomarker, and NPH Bridge
 
@@ -2556,6 +2558,7 @@ Motivated by: Riste 2025 Perrin RCT; Mitchell 2025 cognitive safety; Xie 2013 gl
   caption: [Sequential therapy and glymphatic biomarkers (2026-04-14): three new speculations motivated by Perrin feasibility and Mitchell cognitive safety, extending CSF drainage framework with staged approach, non-invasive monitoring, and NPH cross-disease bridge],
   kind: table,
 ) <tab:registry-sequential-onsd-nph>
+] // end landscape page
 
 === Entries Added 2026-04-16: Bimodal Onset Age Peaks
 
@@ -2626,6 +2629,7 @@ Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) @McGrath2026bimodalO
   caption: [Bimodal onset age peaks (2026-04-16): two hypotheses and seven speculations motivated by McGrath et al.\ 2026 bimodal onset discovery and vitiligo genetic precedent],
   kind: table,
 ) <tab:registry-bimodal-onset>
+] // end landscape page
 
 === Entries Added 2026-04-16: Blood and Immune System Convergence
 
@@ -2679,7 +2683,7 @@ Motivated by: Health Rising synthesis of 11 recent ME/CFS pathophysiology studie
 
     [Brainstem Autonomic Loop: Three-Node Bistable System],
     [H], [0.40],
-    [Brainstem neuroinflammation $leftrightarrow$ autonomic failure $leftrightarrow$ peripheral immune-vascular dysfunction. (a) Brainstem NII correlates with HRV more than cognition. (b) POTS+ have worse brainstem NII. (c) tVNS reduces inflammation only in NII-positive patients.],
+    [Brainstem neuroinflammation $arrow.l.r$ autonomic failure $arrow.l.r$ peripheral immune-vascular dysfunction. (a) Brainstem NII correlates with HRV more than cognition. (b) POTS+ have worse brainstem NII. (c) tVNS reduces inflammation only in NII-positive patients.],
     [NII analysis of brainstem tracts --- requires Yu2026 model application to existing data. tVNS trial stratified by NII --- feasible.],
     [Ch.8 @hyp:brainstem-autonomic-loop],
   ),
@@ -2715,5 +2719,128 @@ Motivated by: Nguyen 2017 @Nguyen2017trpm3; Cabanas 2019 electrophysiology @Caba
   caption: [Calcium channelopathy integration (2026-04-18): Subtype A/B framework formalizing two mechanistically distinct calcium pathways, and thalamic CaV3.1 hypothesis linking sleep calcium channels to alpha-delta sleep in ME/CFS. Motivated by @Nguyen2017trpm3, @Cabanas2019trpm3val, @EatonFitch2021trpm3pip2, @EatonFitch2022trpm3ntx, @DuPreez2023trpm7, @Vijayan2015alphaDelta, @Crunelli2006thalamicTtype.],
   kind: table,
 ) <tab:registry-calcium-channelopathy-2026-04-18>
+] // end landscape page
+
+=== Entries Added 2026-04-18: Calcium Brainstorm Integration (Phase 4)
+
+#page(flipped: true, margin: 1.5cm)[
+#figure(
+  table(
+    columns: (1.6fr, 0.5fr, 0.6fr, 2.8fr, 1.2fr, 1.2fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Open Question*],
+      [*Type*],
+      [*Certainty*],
+      [*Condensed Predictions / Key Points*],
+      [*Test Method*],
+      [*Location*],
+    ),
+    [TRPM3+TRPM7 Dual Channelopathy as Subtype-Defining Signature],
+    [[H]],
+    [[0.42]],
+    [Dual dysfunction creates compounded NK cell deficit (can't migrate AND can't degranulate). Disease severity correlates inversely with number of dysfunctional TRP channels.],
+    [Patch-clamp Ca#super[2+] flux in NK cells comparing TRPM3-only vs TRPM3+TRPM7 dysfunction groups; Bell scale correlation.],
+    [Ch.14h @hyp:ch14h-trpm3-trpm7-dual],
+    [PIP#sub[2] Exhaustion Links GPCR Autoantibodies to Multi-Channel Dysfunction],
+    [[H]],
+    [[0.45]],
+    [Chronic GPCR autoantibody stimulation depletes PIP#sub[2], simultaneously impairing TRPM3, TRPM7, Piezo, and KCNQ channels. PIP#sub[2] levels inversely correlate with autoantibody titers.],
+    [Anti-PIP#sub[2] immunofluorescence in NK cells; exogenous diC8-PIP#sub[2] rescue of TRPM3 Ca#super[2+] flux; autoantibody/PIP#sub[2] correlation analysis.],
+    [Ch.14h @hyp:ch14h-pip2-convergence],
+    [TRPM3+TRPM7+NK Cytotoxicity as Mechanistic Biomarker Panel],
+    [[H]],
+    [[0.50]],
+    [Three-parameter panel achieves $>$80% sensitivity/$>$75% specificity for ME/CFS. Predicts LDN response: TRPM3 normalizes, TRPM7 unchanged.],
+    [Standardized Ca#super[2+] flux + NK cytotoxicity panel; blinded multi-site validation; LDN pre/post comparison.],
+    [Ch.14h @hyp:ch14h-calcium-biomarker-panel; Ch.20 @sec:trpm3-biomarker-candidate],
+    [Sodium MRI + TRPM3 Assay: Subtype A/B Identification Protocol],
+    [[S]],
+    [[0.30]],
+    [2x2 classification (A+/B+/-) yields distinct clinical profiles and predicts differential treatment response: MDC002 for A, LDN for B, combination for AB.],
+    [Post-exercise #super[23]Na-MRI + TRPM3 Ca#super[2+] flux assay applied to clinical cohort; clinical profile comparison across 2x2 groups.],
+    [Ch.14h @spec:ch14h-subtype-protocol],
+    [LDN + MDC002 Orthogonal Calcium Correction],
+    [[S]],
+    [[0.40]],
+    [LDN restores Ca#super[2+] signaling in immune cells; MDC002 prevents Ca#super[2+] toxicity in muscle cells. Combination improves both NK cytotoxicity AND post-exercise sodium accumulation; monotherapy improves only one.],
+    [Combination vs monotherapy RCT with NK cytotoxicity and #super[23]Na-MRI as co-primary endpoints; subgroup by Subtype A/B classification.],
+    [Ch.18 @spec:ch18-ldn-mdc002-combination],
+    [NCX1 Reversal in Cardiac Muscle: Mechanism for Diastolic Dysfunction],
+    [[S]],
+    [[0.35]],
+    [Cardiac NCX1 reversal under chronic hypoperfusion causes diastolic dysfunction, amplifying preload failure. E/e' ratio correlates with post-exercise muscle sodium accumulation.],
+    [Echocardiography (E/e'); cardiac #super[23]Na-MRI; MDC002 trial with cardiac endpoints.],
+    [Ch.10 @spec:ch10-cardiac-ncx-reversal],
+    [Brugada Post-Viral Channelopathy Parallel],
+    [[S]],
+    [[0.15]],
+    [Post-infectious Nav1.5 dysfunction in Brugada provides mechanistic precedent for post-viral TRPM3 dysfunction. Viral proteases may directly cleave TRPM3.],
+    [Viral protease screening (SARS-CoV-2 3CL#super[pro], EBV proteases) against recombinant TRPM3 protein in vitro.],
+    [Ch.14h @spec:ch14h-brugada-parallel],
+    [Thalamic Calcium: Ethosuximide Direction Uncertainty],
+    [[OQ]],
+    [[-]],
+    [T-type block may worsen delta (if CaV3.1 hypoactive) OR improve sleep (if alpha-frequency bursting persists). Direction determines therapeutic viability. Single-dose crossover PSG study needed.],
+    [Ethosuximide 250 mg vs placebo crossover; overnight PSG measuring delta power and alpha-delta index.],
+    [Ch.8 @oq:ch08-ethosuximide-direction],
+    [Sleep EEG Delta/Alpha Ratio as Thalamic Calcium Proxy],
+    [[S]],
+    [[0.35]],
+    [NREM delta/alpha ratio correlates with ME/CFS severity; worsens before PEM; improves with thalamic calcium-targeted interventions. Scalable via home EEG.],
+    [Longitudinal home EEG (Dreem/Muse); PEM prediction study; intervention pre/post (T-type modulators, metabolic support).],
+    [Ch.8 @spec:ch08-sleep-eeg-proxy],
+    [HypoPP Parallel: Acquired Multi-Channel Channelopathy Producing PEM],
+    [[S]],
+    [[0.25]],
+    [ME/CFS may represent an acquired multi-channel HypoPP-like state. Post-exertional CMAP reduction expected. Acetazolamide may have untested muscle-protective rationale via gating pore mechanism.],
+    [CMAP measurement pre/post exercise in ME/CFS vs HypoPP vs controls; acetazolamide crossover for PEM reduction.],
+    [Ch.13 @spec:ch13-hypopp-parallel],
+    [Timothy Syndrome: Channelopathy-Driven Immunodeficiency Proof-of-Concept],
+    [[S]],
+    [[0.15]],
+    [Timothy syndrome (CaV1.2 GoF) demonstrates that calcium channel dysfunction of any type produces immunodeficiency, supporting the channelopathy-immunodeficiency link in ME/CFS.],
+    [TRPM3 function measurement in Timothy syndrome patients (rare); comparison to ME/CFS.],
+    [Ch.13, Timothy syndrome section],
+    [Cromolyn + LDN for MCAS-ME/CFS Overlap],
+    [[S]],
+    [[0.35]],
+    [Opposing calcium modulation: cromolyn suppresses pathological mast cell Ca#super[2+] entry; LDN restores physiological NK cell Ca#super[2+] entry. Neither alone achieves both endpoints.],
+    [MCAS+ME/CFS cohort; NK cytotoxicity + urinary N-methylhistamine as co-endpoints; monotherapy vs combination.],
+    [Ch.18 @spec:ch18-cromolyn-ldn-mcas],
+    [Graded Warm Thermal Stimulation as TRPM3 Agonism],
+    [[S]],
+    [[0.25]],
+    [38--39°C brief immersion activates remaining TRPM3, providing Ca#super[2+] entry insufficient at thermoneutral. Measurable acute NK Ca#super[2+] flux increase post-immersion.],
+    [NK Ca#super[2+] flux before/after 38°C vs 34°C hand immersion; 8-week protocol TRPM3 assay pre/post.],
+    [Ch.17 @spec:ch17-thermal-trpm3],
+    [Low-Magnitude Vibration as Piezo1 Activator Without Exercise Demand],
+    [[S]],
+    [[0.20]],
+    [WBV (0.3g, 30 Hz) activates Piezo1 in RBCs and endothelium, potentially improving microcirculation without PEM-triggering metabolic cost.],
+    [RBC deformability (ektacytometry) pre/post WBV session; 4-week protocol orthostatic tolerance test; acute RBC Ca#super[2+] content.],
+    [Ch.17 @spec:ch17-vibration-piezo],
+    [Endogenous Ouabain Depletion as Missing Na#super[+]/K#super[+]-ATPase Regulatory Signal],
+    [[OQ]],
+    [[-]],
+    [Endogenous ouabain (picomolar adrenal hormone) activates Na#super[+]/K#super[+]-ATPase via Src kinase. Depletion in ME/CFS could contribute to pump failure before ionic cascade. Not a therapeutic target --- research question only.],
+    [Serum endogenous ouabain radioimmunoassay in ME/CFS vs healthy controls; correlate with post-exercise Na accumulation.],
+    [Ch.6 @oq:ch06-endogenous-ouabain],
+    [GsMTx-4 In Vitro Test of Piezo1-RBC Hypothesis],
+    [[OQ]],
+    [[-]],
+    [Selective Piezo1 inhibition by spider venom peptide GsMTx-4 applied to ME/CFS RBCs in vitro. Deformability restoration = Piezo1 overactivation mechanism; no restoration = competing mechanism (oxidative damage, ATP depletion).],
+    [Ektacytometry of ME/CFS RBCs ± GsMTx-4 (research tool only, not therapeutic).],
+    [Ch.14h @oq:ch14h-gsmtx4-piezo1],
+    [CRISPR-TRPM3 Reporter for High-Throughput Drug Screening],
+    [[OQ]],
+    [[-]],
+    [GFP + GCaMP reporter in iPSC-derived NK cells enables compound library screening for TRPM3 function restoration. Systematic identification of TRPM3 modulators for drug repurposing.],
+    [Reporter cell line engineering; compound library screen; hits tested on patient-derived NK cells.],
+    [Ch.20 @oq:ch20-crispr-trpm3-reporter],
+  ),
+  caption: [Calcium brainstorm Phase 4 integration (2026-04-18): 17 new entries from systematic brainstorm of all calcium mechanisms in ME/CFS. Includes hypotheses, speculations, and open questions across channels (TRPM3/7, Piezo, CaV3.1), treatments (LDN+MDC002, thermal, vibration, cromolyn+LDN), diagnostics (panel, subtype protocol, sleep EEG proxy), and cross-disease parallels (HypoPP, Timothy syndrome, Brugada). Motivated by @EatonFitch2021trpm3pip2, @DuPreez2023trpm7, @Sasso2026trpm3, @Vijayan2015alphaDelta, @Crunelli2006thalamicTtype, @Wirth2024keyRole.],
+  kind: table,
+) <tab:registry-calcium-brainstorm-2026-04-18>
 ] // end landscape page
 

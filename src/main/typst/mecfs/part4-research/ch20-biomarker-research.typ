@@ -774,3 +774,20 @@ The path forward requires:
     - Demonstration of clinical utility for diagnosis and treatment selection
 
 The era of “no objective findings” in ME/CFS is ending. The challenge now is translating research discoveries into clinically useful tools that improve patient care.
+
+=== TRPM3 Calcium Channel Panel as a Candidate Multi-Parameter Immune Biomarker
+<sec:trpm3-biomarker-candidate>
+
+Among emerging biomarker approaches, functional ion channel assays represent a mechanistic strategy: measuring the channel dysfunction (TRPM3 Ca#super[2+] influx), its intermediate consequence (intracellular calcium handling), and the functional outcome (NK cell cytotoxicity) in a single workflow.
+
+The proposed panel (Section @sec:trpm3-biomarker-panel) measures: (a) TRPM3-dependent Ca#super[2+] flux amplitude after pregnenolone sulfate stimulation; (b) TRPM7-dependent Ca#super[2+] influx slope; (c) NK cytotoxicity against K562 targets. TRPM3 dysfunction has been validated across six studies including a multi-site validation (Sasso et al.\ 2026, n=78) @Sasso2026trpm3; TRPM7 dysfunction was reported in a smaller preliminary study (du Preez et al.\ 2023, n=9) @DuPreez2023trpm7. The panel's diagnostic performance as a composite has not been tested.
+
+#open-question(title: [CRISPR-Based TRPM3 Reporter for High-Throughput Drug Discovery])[
+The TRPM3 functional assay pipeline currently relies on patient-derived NK cells --- a supply-constrained, variable-quality biological resource requiring repeated blood draws from ME/CFS patients who may be severely ill. A stable, genetically controlled assay system would enable high-throughput drug screening.
+
+*Proposed research tool:* A cell line engineered to co-express (a) TRPM3 promoter driving GFP (expression readout) and (b) TRPM3-GCaMP fusion protein (functional calcium flux readout). When applied to ME/CFS patient iPSC-derived NK cells differentiated in this reporter framework, the system could simultaneously measure TRPM3 protein expression (GFP fluorescence) and channel function (GCaMP Ca#super[2+] signal), enabling systematic compound library screening for TRPM3 function restoration.
+
+*Why this matters for ME/CFS:* The known pharmacological tools for TRPM3 modulation (pregnenolone sulfate, CIM0216, nifedipine, naltrexone) were identified serendipitously, not through systematic screening. A reporter cell line could identify novel TRPM3 modulators from existing approved drug libraries (drug repurposing) --- a more efficient path to the clinic than de novo drug development.
+
+_Research priority:_ Medium-high. This is not a near-term clinical biomarker, but a research infrastructure investment that could accelerate the entire TRPM3 therapeutics pipeline.
+] <oq:ch20-crispr-trpm3-reporter>

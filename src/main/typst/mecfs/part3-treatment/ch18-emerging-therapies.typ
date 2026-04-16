@@ -903,6 +903,28 @@ MDC002 has not entered clinical trials as of early 2026. All claims about potent
 The AIMM model predicts that patients with demonstrable vascular insufficiency, elevated muscle sodium on MRI, and post-infectious onset are the most likely responders to ionic cascade correction. Patients whose ME/CFS is predominantly autoimmune (elevated GPCR autoantibodies, responding to immunoadsorption) may benefit from the PDE7-inhibitory beta-adrenergic bypass effect of MDC002. Patients with predominantly central mechanisms (neuroinflammation, HPA dysregulation) may not benefit from peripheral ionic correction alone. Stratified trial design using intracellular sodium MRI (@Petter2022sodium methodology), GPCR autoantibody titres, and clinical subtype criteria is warranted.
 ]
 
+=== Orthogonal Calcium Correction: LDN + MDC002 Combination Rationale
+<sec:ldn-mdc002-combination>
+
+#speculation(title: [LDN + MDC002 as Subtype A and Subtype B Convergence Therapy])[
+The Calcium Subtype A/B framework (Section @sec:calcium-subtypes) identifies two mechanistically distinct calcium pathways in ME/CFS: Subtype A (energy failure $arrow.r$ NCX reversal $arrow.r$ Ca#super[2+] overload, targeted by MDC002) and Subtype B (primary TRPM3 channelopathy $arrow.r$ impaired Ca#super[2+] signaling, targeted by LDN). Many patients may express both pathways simultaneously: chronic TRPM3 dysfunction impairs immune surveillance, sustaining viral persistence and inflammatory burden, which eventually produces hypoperfusion, energy failure, and NCX reversal.
+
+*Proposed combination rationale:* LDN and MDC002 modulate calcium in opposite directions in different compartments, and in so doing are predicted to be complementary rather than redundant:
+
+    - LDN *restores* Ca#super[2+] entry in immune cells (TRPM3 arm): reverses impaired NK degranulation, corrects frustrated immune response, reduces inflammatory drive
+    - MDC002 *prevents* Ca#super[2+] toxicity in muscle cells (NCX arm): restores Na#super[+]/K#super[+]-ATPase, reverses NCX1 reversal, prevents PEM-triggered calcium overload
+
+These mechanisms act on distinct tissues, distinct channels, and move calcium in opposite physiological directions. No pharmacokinetic interaction is predicted. Both have favorable safety profiles individually.
+
+*Falsifiable predictions:* (a) Patients receiving LDN+MDC002 combination should show improvement in both NK cytotoxicity (TRPM3 arm) AND post-exercise intracellular sodium accumulation on #super[23]Na-MRI (NCX arm), whereas monotherapy improves only one endpoint. (b) Subtype A-dominant patients (high intracellular sodium, normal TRPM3) respond to MDC002 alone; Subtype B-dominant patients (abnormal TRPM3, normal sodium accumulation) respond to LDN alone; mixed patients require the combination.
+
+#warning-env(title: [Research Rationale Only --- Not a Clinical Protocol])[
+This combination has never been tested in humans. MDC002 is a preclinical compound with no human pharmacokinetic or safety data. LDN has clinical use in ME/CFS and fibromyalgia with acceptable safety; combining it with an untested compound is not clinically appropriate outside of a formal research protocol. This rationale is presented to motivate trial design, not to guide patient self-experimentation.
+]
+
+(Certainty: 0.40. Individual mechanisms are supported; the combination is mechanistic inference without empirical support. Not yet tested in ME/CFS.)
+] <spec:ch18-ldn-mdc002-combination>
+
 === Bridging Therapies: Targeting the AIMM Cascade While Awaiting MDC002
 <sec:aimm-bridging>
 
@@ -1506,6 +1528,30 @@ The Bergen data establish that a substantial fraction of Giardia-infected patien
 #warning-env(title: [Empirical Antiparasitic Therapy Is Not Indicated in Established ME/CFS])[
 Metronidazole, tinidazole, albendazole, and other antiparasitic agents carry adverse effect profiles (metronidazole: peripheral neuropathy with prolonged use, disulfiram-like reaction with alcohol, CYP2C9 inhibition; albendazole: hepatotoxicity, neutropenia requiring monitoring) that are not justified in the absence of documented active parasitic infection. Ivermectin, which has no evidence base in ME/CFS treatment and is not active against the intestinal protozoa most relevant to post-infectious ME/CFS (Giardia, Cryptosporidium), should not be prescribed for ME/CFS under the mistaken belief that it addresses a parasitic etiology. Claims that ME/CFS is broadly caused by parasitic infection and should be treated empirically with antiparasitic agents are not supported by the scientific evidence reviewed in this document.
 ] <warn:no-empirical-antiparasitic>
+
+== Cromolyn + LDN Combination for MCAS-ME/CFS Overlap
+<sec:cromolyn-ldn-mcas>
+
+#speculation(title: [Cromolyn + LDN: Opposing Calcium Modulation in Different Cell Types for MCAS-ME/CFS Overlap])[
+In patients with concurrent MCAS and ME/CFS, two distinct calcium dysregulations are proposed:
+
+    - Mast cells: _excessive_ Ca#super[2+] entry driving pathological degranulation (histamine, tryptase, prostaglandin D#sub[2] release)
+    - NK cells / immune cells: _insufficient_ Ca#super[2+] entry through dysfunctional TRPM3, impairing cytotoxic degranulation
+
+Cromolyn sodium (mast cell stabilizer) suppresses Ca#super[2+] influx into mast cells via blockade of the plasma membrane calcium channel involved in IgE-independent degranulation, reducing pathological mediator release. LDN restores TRPM3-dependent Ca#super[2+] entry in NK cells, restoring immune cytotoxicity.
+
+The combination is mechanistically complementary because the two drugs move calcium in opposite directions in different cell types: suppressing pathological calcium signaling in mast cells while restoring physiological calcium signaling in immune cells. This bidirectional calcium modulation cannot be achieved by either agent alone.
+
+*Clinical context:* MCAS+ME/CFS overlap is estimated at 10--50%; both agents have acceptable safety profiles (cromolyn is not systemically absorbed at meaningful concentrations; LDN is well-tolerated). The combination therefore represents a low-risk mechanistic trial candidate for this subgroup.
+
+*Falsifiable predictions:* (a) MCAS+ME/CFS patients receiving cromolyn+LDN should show improved NK cytotoxicity (LDN TRPM3 effect) AND reduced urinary N-methylhistamine/tryptase (cromolyn mast cell effect) simultaneously. (b) Neither agent alone achieves both endpoints. (c) Clinical response should correlate with baseline evidence of both TRPM3 dysfunction and MCAS biochemical activity.
+
+#warning-env(title: [Research Rationale Only])[
+This combination has not been evaluated in any clinical trial for MCAS-ME/CFS overlap. Cromolyn and LDN are both used clinically but for different indications. Their combination is untested and should not be adopted without clinical supervision. Cromolyn must be used as the oral formulation (not inhaled) for systemic mast cell effects; oral bioavailability is very low and dosing for systemic MCAS effect is not standardized.
+]
+
+(Certainty: 0.35. Individual mechanisms are documented; the combination is mechanistic inference.)
+] <spec:ch18-cromolyn-ldn-mcas>
 
 == Post-Parasitic MCAS Phenotype
 <sec:post-parasitic-mcas>

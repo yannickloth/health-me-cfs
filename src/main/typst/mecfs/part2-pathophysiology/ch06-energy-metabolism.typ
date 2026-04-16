@@ -1436,6 +1436,16 @@ The AIMM cascade describes a deterministic sequence, but patients with similar d
 See Section @sec:taurine in Chapter @ch:supplements for supplement protocol.
 ] <spec:taurine-aimm-heterogeneity>
 
+#open-question(title: [Endogenous Ouabain Depletion: A Missing Regulatory Signal for Na#super[+]/K#super[+]-ATPase?])[
+Cardiac glycosides (digoxin, ouabain) inhibit Na#super[+]/K#super[+]-ATPase at pharmacological concentrations. However, endogenous ouabain --- a steroid hormone produced by the adrenal cortex at picomolar-nanomolar concentrations --- _activates_ Na#super[+]/K#super[+]-ATPase through a distinct signaling pathway (Src kinase phosphorylation of the alpha subunit) rather than inhibiting transport. Endogenous ouabain thereby fine-tunes pump activity under physiological conditions.
+
+*Research question:* If ME/CFS involves impaired Na#super[+]/K#super[+]-ATPase function (the AIMM hypothesis, Section @sec:sodium-calcium-cascade), one underexplored question is whether endogenous ouabain levels are depleted in ME/CFS patients. Reduced adrenal output of this regulatory hormone could remove an activating signal from the pump, contributing to the pump failure even before the downstream ionic cascade.
+
+*Proposed measurement:* Serum endogenous ouabain is measurable by radioimmunoassay. A case-control study comparing ME/CFS patients to healthy controls and patients with other fatigue conditions would be low-cost and potentially informative.
+
+_Important distinction from therapeutic use:_ This is a basic science question about endogenous signaling, not a rationale for cardiac glycoside therapy. Pharmacological cardiac glycosides at therapeutic doses inhibit rather than activate the pump, and have a narrow toxic window. Therapeutic cardiac glycoside use in ME/CFS would have a highly unfavorable risk-benefit ratio and is not under consideration.
+] <oq:ch06-endogenous-ouabain>
+
 === Thyroid Hormone Regulation of Mitochondrial Function
 <sec:thyroid-mito-regulation>
 

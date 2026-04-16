@@ -1079,6 +1079,9 @@ Fibromyalgia (FM) shares substantial symptom overlap with ME/CFS, leading to dia
 *Shared Mechanisms.*
 Both conditions demonstrate central sensitization (amplified pain processing in the CNS), sleep architecture abnormalities (reduced slow-wave sleep, alpha-delta intrusion), autonomic dysfunction (altered HRV, orthostatic intolerance), and neuroendocrine changes (HPA axis dysfunction, altered cortisol patterns).
 
+*Thalamic Calcium as a Shared Pathophysiological Node.*
+The alpha-delta sleep model of Vijayan et al.\ (2015) was developed _for fibromyalgia_ as the primary target @Vijayan2015alphaDelta. If thalamic T-type Ca#super[2+] channel dysfunction underlies alpha-delta sleep in fibromyalgia, and ME/CFS shares this sleep phenotype (Section @sec:thalamic-calcium-sleep), the thalamic calcium mechanism may be a shared pathophysiological node between the two conditions rather than independent findings. This reframes the alpha-delta sleep overlap from "symptom similarity due to diagnostic imprecision" to "shared specific pathophysiology." A corollary: gabapentinoids (alpha-2-delta subunit ligands) used in both FM and ME/CFS reduce surface expression of CaV2.1/2.2 channels and modulate thalamic excitability through calcium channel mechanisms — the calcium rationale for gabapentinoid benefit in ME/CFS sleep has not previously been articulated but is mechanistically grounded.
+
 *Distinct Features.*
 ME/CFS is characterized by post-exertional malaise with objective deterioration on 2-day CPET, immune abnormalities (NK cell dysfunction, B cell shifts, cytokine dysregulation), and post-infectious onset in many cases. Fibromyalgia primarily features widespread pain with tender points (though diagnostic criteria have evolved), pain as the dominant symptom (whereas fatigue dominates in ME/CFS), and less consistent immune abnormalities.
 
@@ -1264,6 +1267,39 @@ If early intervention halves progression to chronic disease, this would transfor
 Multiple chemical sensitivity (MCS)—adverse reactions to low-level chemical exposures—is reported by 20–50% of ME/CFS patients. Shared features include: sensitivity to fragrances, cleaning products, pesticides; symptom exacerbation from environmental exposures; and neurological symptoms (headache, brain fog, fatigue) following exposure.
 
 Proposed mechanisms linking MCS and ME/CFS include: mast cell activation (chemicals trigger degranulation), neuroinflammation (sensitized microglia respond to chemical exposures), impaired detoxification (reduced hepatic clearance of xenobiotics), and central sensitization (amplified CNS response to peripheral stimuli). The relationship remains poorly understood, with MCS itself lacking clear diagnostic criteria or validated biomarkers.
+
+=== Hypokalemic Periodic Paralysis: A Channelopathy Model for PEM
+<sec:hypopp-parallel>
+
+Hypokalemic periodic paralysis (HypoPP) is a genetic channelopathy with striking functional parallels to ME/CFS post-exertional malaise. HypoPP is caused by mutations in CaV1.1 (L-type calcium channel, _CACNA1A_) or Nav1.4 (sodium channel, _SCN4A_) that create an anomalous gating pore current --- a small depolarizing conductance active in the voltage range where normal channels are closed. This gating pore current, amplified by exercise, carbohydrate intake, and rest after exertion, progressively depolarizes muscle fibers until voltage-gated sodium channels inactivate, producing inexcitable paralysis.
+
+The parallel to ME/CFS:
+
+    - *Triggers*: HypoPP attacks are triggered by exertion, carbohydrate intake, and rest after activity --- strikingly similar to ME/CFS PEM triggers
+    - *Mechanism*: Ion channel dysfunction produces episodes of reduced cellular excitability under metabolic stress
+    - *Post-exertional pattern*: Like ME/CFS PEM, HypoPP weakness follows exertion by hours and recovers with prolonged rest
+    - *Acquired variant*: HypoPP can be acquired after thyrotoxicosis (not exclusively genetic), establishing that channelopathy phenotypes can arise from acquired physiological disruption
+
+#speculation(title: [ME/CFS as an Acquired Multi-Channel HypoPP-Like State])[
+In HypoPP, a single channel mutation disrupts ionic homeostasis; in ME/CFS, post-infectious mechanisms may disrupt multiple channel families (TRPM3, TRPM7, potentially CaV and Nav) through autoimmune targeting, post-viral protein modifications, or epigenetic silencing. The functional consequence --- episodes of reduced cellular excitability triggered by metabolic stress --- could be similar despite different molecular causes.
+
+*Treatment insight from HypoPP:* Acetazolamide (carbonic anhydrase inhibitor) prevents HypoPP attacks, possibly by acidifying muscle pH and hyperpolarizing gating pore current. Acetazolamide is already used in ME/CFS for intracranial pressure reduction; its muscle-protective mechanism in HypoPP suggests an independent and untested rationale for its potential role in PEM prevention. Whether the gating pore mechanism operates in ME/CFS is unknown; HypoPP patient RBCs show normal electrophysiology, while ME/CFS patients show elevated intracellular sodium and abnormal RBC deformability --- suggesting a related but distinct ionic phenotype.
+
+*Falsifiable prediction:* ME/CFS patients should show post-exertional changes in compound muscle action potential (CMAP) amplitude measured by electromyography, analogous to (but milder than) the CMAP reduction during HypoPP attacks. If present, this would confirm that the muscle inexcitability mechanism in HypoPP is partially recapitulated in ME/CFS.
+
+(Certainty: 0.25. The parallel is mechanistically suggestive; direct comparative data do not exist. Not yet studied in ME/CFS.)
+] <spec:ch13-hypopp-parallel>
+
+=== Timothy Syndrome: Proof-of-Concept for Channelopathy-Driven Immunodeficiency
+<sec:timothy-syndrome>
+
+Timothy syndrome is caused by a gain-of-function mutation in CaV1.2 (L-type calcium channel, _CACNA1C_), producing multi-organ dysfunction including cardiac arrhythmias, syndactyly, autism spectrum features, and --- crucially --- recurrent infections due to impaired T cell activation. The immune deficiency in Timothy syndrome arises because T cell activation requires sustained Ca#super[2+] influx through CRAC channels (mediated by STIM1/ORAI1); when CaV1.2 dysfunction disrupts the broader cellular calcium homeostasis, T cell calcium signaling is also impaired.
+
+*Relevance to ME/CFS channelopathy hypothesis:* Timothy syndrome provides a genetic proof-of-concept that calcium channel dysfunction of _any_ type can produce immunodeficiency as a downstream consequence. The specific channel matters less than the disruption of overall calcium homeostasis. If ME/CFS involves acquired multi-channel dysfunction (TRPM3, TRPM7, potentially others), the result --- impaired immune calcium signaling --- mirrors the Timothy syndrome immunodeficiency, but through post-infectious acquisition rather than germline mutation.
+
+*Insight from treatment:* Timothy syndrome management focuses on arrhythmia prevention and supportive care; no TRPM3-targeted therapy exists in this context. The relevance to ME/CFS is mechanistic, not therapeutic.
+
+(Certainty: 0.15. Timothy syndrome channelopathy-immunodeficiency link is established; extension to ME/CFS acquired channelopathy is an inference by analogy. Not yet tested.)
 
 === Allergic and Atopic Conditions
 

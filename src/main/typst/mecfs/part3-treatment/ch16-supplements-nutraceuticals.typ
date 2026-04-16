@@ -90,6 +90,7 @@ Category A (net energy provider). Essential cofactor for Na#super[+]/K#super[+]-
     - Modulates NMDA receptors (relevant to central sensitization)
     - Supports autonomic function
     - Promotes sleep (GABA-A receptor modulation)
+    - *Calcium overload cascade --- calcium-specific rationale:* Mg-ATP is the true substrate of Na#super[+]/K#super[+]-ATPase (not ATP alone); Mg#super[2+] deficiency impairs pump function, raising intracellular Na#super[+] and driving NCX1 reversal toward Ca#super[2+] overload (the AIMM cascade, Section @sec:sodium-calcium-cascade). Mg#super[2+] also acts as a physiological Ca#super[2+] antagonist at NMDA receptors. If TRPM7 (the primary cellular Mg#super[2+] entry channel) is dysfunctional in ME/CFS @DuPreez2023trpm7, intracellular Mg#super[2+] depletion is an expected downstream consequence, amplifying the calcium overload cascade.
 
 *Evidence.* Low–Moderate for ME/CFS; one small trial showed benefit with IM magnesium sulfate @Cox1991magnesium.
 
@@ -536,6 +537,7 @@ Category A (net energy provider at supplemental doses). Essential cofactor for p
     - Support cell membrane fluidity
     - Neuroprotective
     - May support endothelial function (relevant to vascular hypothesis)
+    - *TRP channel membrane environment (speculative):* TRPM3, TRPM7, and TRPV1 gating properties are sensitive to the lipid bilayer composition surrounding the channel protein --- cholesterol content, phospholipid acyl chain length, and the omega-3/omega-6 ratio all modulate TRP channel activation thresholds. Altered membrane fatty acid profiles are documented in ME/CFS. Omega-3 supplementation modifies membrane composition over 8--12 weeks, potentially restoring the lipid environment required for normal TRP channel function --- an effect independent of the anti-inflammatory rationale. (Certainty: 0.30; no direct TRP channel assay data in ME/CFS with omega-3; the membrane composition effect on TRP channels is established physiology but not demonstrated in ME/CFS specifically.)
 
 *Evidence.* Moderate for general anti-inflammatory effects; limited ME/CFS-specific data.
 
@@ -691,6 +693,7 @@ is needed before this approach can be recommended broadly.
     - Muscle function
     - Mood
     - Bone health
+    - *Potential TRPM3 regulation (speculative):* The vitamin D receptor (VDR) is a nuclear transcription factor; VDR response elements have been identified in the promoter regions of multiple TRPM genes. If VDR drives TRPM3 expression, chronic vitamin D deficiency could reduce TRPM3 protein abundance in immune cells, compounding functional channelopathy. This provides a second, channel-specific rationale for vitamin D monitoring in ME/CFS beyond the general immune and musculoskeletal effects. (Certainty: 0.30; VDR-TRPM regulatory link is inferred from VDR binding site analysis; not yet measured in ME/CFS patients.)
 
 Deficiency is common in ME/CFS patients (often housebound with limited sun exposure).
 
@@ -743,7 +746,7 @@ Germain et al.\ (2017) profiled plasma metabolomics in 17 ME/CFS patients versus
 
 In cardiac and neurological contexts, taurine depletion impairs Na#super[+]/K#super[+]-ATPase function and allows NCX reversal-driven calcium overload @Suleiman1994taurineCardiac. Rossi-Smith et al.\ (2025) demonstrated this pathway in macrophages: intracellular taurine depletion via VRAC efflux → Na#super[+]/K#super[+]-ATPase failure → ionic dysregulation → NLRP3 inflammasome activation @RossiSmith2025taurineNKA. This molecular mechanism maps directly onto the AIMM Na#super[+]/K#super[+]-ATPase node.
 
-*Null result caveat:* Marcangeli et al.\ (2025) found no association between serum taurine levels and age, muscle mass, mitochondrial respiration, or calcium handling in 137 men aged 20--93 @Marcangeli2025taurineNull---directly challenging the hypothesis that serum taurine reflects intracellular taurine status or predicts mitochondrial outcomes. An important limitation: the study measured serum taurine, not intracellular or tissue taurine; compartment-specific depletion could be present despite normal serum levels. Crucially, the compartment argument cuts both ways: if serum does not reflect intracellular taurine, then the Germain 2017 plasma metabolomics finding @Germain2017taurineME also cannot establish intracellular taurine depletion---both lines of evidence are limited to the same plasma compartment.
+*Null result caveat:* Marcangeli et al.\ (2025) found no association between serum taurine levels and age, muscle mass, mitochondrial respiration, or calcium handling in 137 men aged 20--93 @Marcangeli2025taurineNull ---directly challenging the hypothesis that serum taurine reflects intracellular taurine status or predicts mitochondrial outcomes. An important limitation: the study measured serum taurine, not intracellular or tissue taurine; compartment-specific depletion could be present despite normal serum levels. Crucially, the compartment argument cuts both ways: if serum does not reflect intracellular taurine, then the Germain 2017 plasma metabolomics finding @Germain2017taurineME also cannot establish intracellular taurine depletion---both lines of evidence are limited to the same plasma compartment.
 
 *Critical counter-evidence:* The strongest clinical analog---a systematic review of 11 taurine RCTs in heart failure (the condition sharing exercise intolerance and the proposed NCX/calcium overload cascade in cardiomyocytes)---showed non-significant effects on ejection fraction and stroke volume @McGurk2022taurineHFreview. This null result should be the primary anchor for evaluating the ME/CFS hypothesis, not a cautionary note isolated elsewhere.
 
@@ -795,7 +798,7 @@ Taurine is consumed by two major competing pathways: (1) hepatic bile acid conju
 ] <spec:taurine-bile-competition>
 
 #open-question(title: [Is Taurine Intracellularly Depleted in ME/CFS? The Compartment Question])[
-The Marcangeli et al.\ (2025) null result---no association between serum taurine and muscle mass, mitochondrial respiration, or calcium handling in 137 humans @Marcangeli2025taurineNull---challenges assuming that serum taurine reflects intracellular taurine status. Red blood cell (RBC) taurine concentration provides a more direct intracellular proxy: RBCs have Na#super[+]/K#super[+]-ATPase and taurine transport, making them an accessible cellular model for the ionic mechanism. Whether ME/CFS patients have lower RBC taurine despite normal serum taurine has not been measured.
+The Marcangeli et al.\ (2025) null result---no association between serum taurine and muscle mass, mitochondrial respiration, or calcium handling in 137 humans @Marcangeli2025taurineNull ---challenges assuming that serum taurine reflects intracellular taurine status. Red blood cell (RBC) taurine concentration provides a more direct intracellular proxy: RBCs have Na#super[+]/K#super[+]-ATPase and taurine transport, making them an accessible cellular model for the ionic mechanism. Whether ME/CFS patients have lower RBC taurine despite normal serum taurine has not been measured.
 
 A second open question: does baseline taurine status predict the magnitude of post-exertional physiological dysfunction? Adding pre-CPET plasma or RBC taurine measurement to the standard two-day CPET protocol would allow stratification of the Day 2 decrement by taurine status. If taurine-depleted patients show a larger Day 2 decrement, this would identify a treatment-responsive AIMM subgroup.
 ] <open:taurine-compartment>
@@ -1027,6 +1030,44 @@ Both pregnenolone sulfate and low-dose naltrexone influence TRPM3 function in ME
 
 *Energy Profile.*
 Category B–C (neutral to mildly demanding). Neurosteroid requiring hepatic CYP-mediated metabolism for conversion to downstream hormones (DHEA, progesterone, cortisol). Steroidogenesis is moderately energy-intensive. At supplemental doses, processing burden is modest but non-negligible.
+
+=== Myo-Inositol (PIP#sub[2] Precursor Strategy)
+<subsec:inositol>
+
+Myo-inositol is the head-group precursor for phosphatidylinositol (PI) synthesis. PI is sequentially phosphorylated by PI4K and PIP5K to generate PIP#sub[2] (phosphatidylinositol 4,5-bisphosphate), a plasma membrane phospholipid required for the gating of multiple ion channels including TRPM3, TRPM7, Piezo channels, and KCNQ potassium channels.
+
+*Rationale.*
+
+    - *PIP#sub[2] precursor*: If chronic GPCR autoantibody activity depletes PIP#sub[2] pools in ME/CFS immune cells (Section @sec:pip2-depletion-convergence), myo-inositol supplementation theoretically supports PIP#sub[2] resynthesis by providing the rate-limiting substrate
+    - *TRPM3 environment*: Eaton-Fitch et al.\ (2021) demonstrated reduced TRPM3/PIP#sub[2] co-localization in ME/CFS NK cells @EatonFitch2021trpm3pip2; restoring membrane PIP#sub[2] levels could improve the channel gating environment independently of direct channel modulation
+    - *Brain relevance*: MRS studies have found altered cerebral myo-inositol levels in ME/CFS and fibromyalgia patients, suggesting disrupted phosphoinositide metabolism in the central nervous system
+    - *Safety profile*: Myo-inositol at 2–4 g/day is well-tolerated with established use in PCOS and depression research; no serious adverse effects at these doses
+
+*Evidence.*
+
+    - No direct ME/CFS trials of myo-inositol for ion channel function
+    - Documented PIP#sub[2]/TRPM3 co-localization deficit in ME/CFS NK cells @EatonFitch2021trpm3pip2
+    - PIP#sub[2] requirement for TRPM3 gating: established biochemistry
+    - Brain inositol alterations in ME/CFS: indirect evidence of phosphoinositide disruption
+
+*Dosing (research-stage rationale only).*
+
+    - 2–4 g/day myo-inositol (most studied form for phosphoinositide support)
+    - Split into two doses; may be taken with food
+    - 8-week trial period to allow membrane remodeling
+
+*Cautions.*
+
+    - GI tolerance issues (nausea, loose stools) are the primary dose-limiting factor; start at 1 g/day
+    - Inositol affects serotonin and dopamine receptor sensitivity; monitor for mood changes
+    - High doses may affect thyroid function; caution in thyroid conditions
+
+#speculation(title: [Myo-Inositol + LDN: PIP#sub[2] Environment Restoration + TRPM3 Gating Restoration])[
+*Certainty: 0.25.* Both approaches target TRPM3 dysfunction through different mechanisms: inositol replenishes the membrane lipid environment (PIP#sub[2] pool), while LDN restores channel gating responsiveness. If PIP#sub[2] depletion is an upstream contributor to TRPM3 dysfunction, inositol would address a cause that LDN alone cannot correct; LDN would additionally restore receptor-mediated channel activation. This combination is entirely theoretical and untested. Falsifiable prediction: In ME/CFS patients with documented TRPM3/PIP#sub[2] co-localization deficit, 8-week myo-inositol supplementation should increase PIP#sub[2]/TRPM3 co-localization measured by immunofluorescence and improve NK cytotoxicity, with additive effect when combined with LDN.
+] <spec:inositol-ldn-synergy>
+
+*Energy Profile.*
+Category B (energy-neutral). Small organic molecule requiring minimal metabolic processing. Enzymatic phosphorylation to PIP#sub[2] is part of normal phospholipid metabolism.
 
 === Zinc
 <subsec:zinc>
