@@ -1,0 +1,31 @@
+date: 2026-04-14
+
+medications_supplements:
+  # medications
+  ldn:               { taken: unknown }
+  montelukast:       { taken: unknown }
+  rupatadine:        { taken: unknown }
+  famotidine:        { taken: unknown }
+  pyridostigmine:    { taken: unknown }
+  # supplements
+  riboflavin:        { taken: unknown }
+  magnesium:         { taken: unknown }
+  b_forte:           { taken: unknown }
+  nad_resveratrol:   { taken: unknown }
+  urolithin_a:       { taken: unknown }
+  coq10:             { taken: unknown }
+  pea:               { taken: unknown }
+  bactecal:          { taken: unknown }
+  iron:              { taken: unknown }
+  mct_oil:           { taken: unknown }
+  d_ribose:          { taken: unknown }
+
+symptoms:
+  tinnitus:
+    severity: moderate
+    timing: whole day
+
+overall_wellbeing: unknown
+
+activity:
+  notes: "Tinnitus whole day — added retrospectively"

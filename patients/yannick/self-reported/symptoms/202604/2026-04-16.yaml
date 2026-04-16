@@ -1,0 +1,47 @@
+date: 2026-04-16
+
+medications_supplements:
+  # medications
+  ldn:               { taken: true }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true }
+  famotidine:        { taken: true }
+  pyridostigmine:    { taken: true }
+  # supplements
+  riboflavin:        { taken: true }
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: false }
+  mct_oil:           { taken: false }
+  d_ribose:          { taken: false }
+
+symptoms:
+  non_restorative_sleep:
+    severity: severe
+    notes: "Long 4h morning nap, non-restorative"
+  headache:
+    severity: moderate
+    timing: "present after nap, persisting into evening"
+    notes: "Headache after nap; evening headache making sleep onset difficult"
+  post_exertional_malaise:
+    severity: moderate
+    notes: "Feeling intoxicated/toxic after nap — typical post-exertional pattern"
+  brain_fog:
+    severity: moderate
+    timing: "after nap"
+  sleep_onset_difficulty:
+    timing: evening
+    notes: "Unable to sleep in evening due to headache"
+  tinnitus:
+    severity: moderate
+    timing: whole day
+
+overall_wellbeing: bad
+
+activity:
+  notes: "Bad day — 4h morning nap non-restorative; post-nap headache, toxic feeling, brain fog; difficulty initiating sleep in evening due to headache"
