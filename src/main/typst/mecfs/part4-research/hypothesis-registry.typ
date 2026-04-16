@@ -413,6 +413,48 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
 ) <tab:hypothesis-registry-2026-04-16-taurine>
 ] // end landscape page
 
+=== Entries Added 2026-04-17: Universal Mechanism Families Survey (ch17)
+
+Motivated by: systematic survey of 19 universal disease mechanism families applied to ME/CFS; bottom-up taxonomy synthesis; Phase 3 brainstorming on ch17 content.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Breadth of Channelopathy in ME/CFS],
+    [OQ], [---],
+    [Is TRPM3/TRP channel dysfunction an isolated finding or part of a broader channelopathy affecting voltage-gated, ligand-gated, and transporter families across multiple cell types? Systematic profiling would determine whether channelopathy is a convergent feature across immune, neural, and endothelial lineages.],
+    [Patch-clamp electrophysiology and ion channel expression profiling (RNAseq + proteomics) in T cells, neurons (iPSC-derived), and endothelial cells from ME/CFS patients vs healthy controls. TRPM2/TRPC4 co-profiling feasible with existing NK cell protocols @sasso2026trpm3.],
+    [Ch.17 @sec:um-ion-channel],
+
+    [Scope of Proteostasis Failure in ME/CFS],
+    [OQ], [---],
+    [Does proteostasis failure in ME/CFS extend beyond extracellular fibrin microclots to intracellular protein aggregation in neurons, NK cells, or endothelial cells? Primary vs secondary phenomenon remains unresolved.],
+    [Amyloid detection assays (thioflavin T, Congo red) on ME/CFS-derived iPSC neurons. Cryo-EM on patient-derived NK cells and endothelial cells. Long COVID intracellular aggregation data (Pretorius group) as comparator.],
+    [Ch.17 @sec:um-proteostasis],
+
+    [Senolytic Therapy Potential in ME/CFS],
+    [OQ], [---],
+    [If senescent cells accumulate in vascular endothelium, CNS glia, or immune compartments in ME/CFS, senolytic agents (dasatinib + quercetin, fisetin) might reduce SASP-driven neuroinflammation and vascular dysfunction. Entirely unstudied in ME/CFS.],
+    [Senescence burden quantification (p16/p21 immunostaining, SA-β-galactosidase, SASP marker panel) in ME/CFS skin/muscle biopsies. Phase 1/2 dasatinib + quercetin pilot in ME/CFS (established safety in IPF, diabetic kidney disease). Fisetin is OTC with acceptable safety profile.],
+    [Ch.17 @sec:um-cell-death],
+
+    [Cell Danger Response Resolution in ME/CFS],
+    [OQ], [---],
+    [Is the cell danger response chronically engaged in ME/CFS, and if so, what prevents resolution? Ectonucleotidase failure, purine metabolite imbalance, and P2X7R overactivation are candidate mechanisms.],
+    [CD73/CD39 ectonucleotidase activity assay in ME/CFS PBMCs vs healthy controls. Extracellular purine ratio (ATP/AMP/adenosine) quantification by HPLC in ME/CFS plasma. P2X7R expression and function in ME/CFS monocytes and microglia (iPSC-derived). Naviaux suramin data (2019) provides partial CDR framework context @naviaux2019salugenesis.],
+    [Ch.17 @sec:um-purinergic],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from ch17 universal mechanism families survey (2026-04-17). Covers channelopathy breadth, proteostasis scope, senolytic therapy potential, and cell danger response resolution.],
+) <tab:hypothesis-registry-2026-04-17>
+] // end landscape page
+
 /*
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
