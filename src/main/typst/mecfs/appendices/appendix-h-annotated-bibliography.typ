@@ -8335,6 +8335,136 @@ This section covers the foundational mechanosensation and nociception literature
         - *Quality:* High (PNAS, 2025)
         - *Score:* 0.70
 
+=== Saha, Krishnan & Raghu 2023 --- IMPA1-Dependent PIP2 and Ca2+ Signalling by Lithium
+
+    / *Full Citation:*: Saha S, Krishnan H, Raghu P. IMPA1 dependent regulation of phosphatidylinositol 4,5-bisphosphate and calcium signalling by lithium. _Life Sci Alliance_. 2023;7(2):e202302425. @saha2023impa1
+    / *DOI:*: #link("https://doi.org/10.26508/lsa.202302425")[10.26508/lsa.202302425]
+    / *PMID:*: 38056909
+    / *Study Design:*: Mechanistic; HEK293T WT + CRISPR IMPA1 KO; human iPSC-derived forebrain cortical neurons (DIV45)
+    / *Key Findings:*:
+        - 1 mM Li+ slows PIP2 resynthesis after PLC activation; absent in IMPA1 KO cells (causal proof)
+        - Li+ reduces receptor-activated ER Ca2+ release in IMPA1-dependent manner
+        - Human cortical neurons: reduced Ca2+ transient frequency + diminished excitability after Li+
+        - GSK-3beta inhibition does not replicate these effects: IMPA1 is the primary route
+        - Transcriptomics: enrichment in glutamatergic + Ca2+ signaling pathways
+    / *Relevance:*: Direct mechanistic evidence for Li+ to IMPase to reduced PIP2 pool to attenuated IP3-mediated Ca2+ release. Primary support for paragraph addition to spec:low-dose-lithium (ch08). Also relevant to hyp:pip2-exhaustion (ch14h).
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (Life Science Alliance; CRISPR KO controls; iPSC human neurons)
+        - *Score:* 0.62
+        - *Limitation:* Cell model only; single group (NCBS, India); no animal or clinical data
+
+=== Schlecker et al.\ 2006 --- NCS-1 Enhancement of InsP3R1 Inhibited by Lithium
+
+    / *Full Citation:*: Schlecker C, Boehmerle W, Jeromin A, DeGray B, Varshney A, Sharma Y, Szigeti-Buck K, Ehrlich BE. Neuronal calcium sensor-1 enhancement of InsP3 receptor activity is inhibited by therapeutic levels of lithium. _J Clin Invest_. 2006;116(6):1668--1674. @schlecker2006ncs1
+    / *DOI:*: #link("https://doi.org/10.1172/JCI22466")[10.1172/JCI22466]
+    / *PMID:*: 16691292
+    / *Study Design:*: Mechanistic; rat brain tissue; PC12 cells; planar lipid bilayers with purified InsP3R1 + NCS-1 protein; n>=3 bilayer experiments, n>=10 Ca2+ imaging experiments
+    / *Key Findings:*:
+        - NCS-1 increases InsP3R1 open probability approximately 5-fold (4% to 21%)
+        - Li+ IC50 approximately 350 uM (within therapeutic plasma range) attenuates NCS-1/InsP3R1 association
+        - Therapeutic Li+ significantly reduces NCS-1-mediated Ca2+ release in intact cells
+        - Effect specific to InsP3R1; no effect on ryanodine receptor type 2
+    / *Relevance:*: Second route by which Li+ dampens IP3-mediated ER Ca2+ release -- independent of IMPase. Relevant wherever NCS-1 is elevated (bipolar disorder, schizophrenia; conceivably ME/CFS neuronal tissue).
+    / *Certainty Assessment:*:
+        - *Quality:* High (Journal of Clinical Investigation; rigorous bilayer + cell validation)
+        - *Score:* 0.65
+        - *Limitation:* Rat and cell model; IC50 near upper limit of clinical Li+ plasma range
+
+=== Boeckel & Ehrlich 2018 --- NCS-1 as Regulator of Ca2+ Signaling in Health and Disease
+
+    / *Full Citation:*: Boeckel GR, Ehrlich BE. NCS-1 is a regulator of calcium signaling in health and disease. _Biochim Biophys Acta Mol Cell Res_. 2018;1865(11 Pt B):1660--1667. @boeckel2018ncs1
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbamcr.2018.05.005")[10.1016/j.bbamcr.2018.05.005]
+    / *PMID:*: 29746899
+    / *Study Design:*: Review
+    / *Key Findings:*:
+        - NCS-1 modulates InsP3R by increasing InsP3-gated channel activity without altering single-channel amplitude
+        - Li+ and ibudilast both reduce overexpressed NCS-1 effects
+        - NCS-1 implicated in bipolar disorder, schizophrenia, autism, and chemotherapy-induced peripheral neuropathy
+    / *Relevance:*: Contextualises NCS-1/IP3R as a broadly disease-relevant regulatory axis; reinforces Li+ to NCS-1 to IP3R dampening as a general mechanistic principle extending beyond bipolar disorder.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (review; Biochimica et Biophysica Acta)
+        - *Score:* 0.55
+
+=== Nguyen et al.\ 2019 --- Structural Basis of NCS-1/InsP3R1 Interaction
+
+    / *Full Citation:*: Nguyen LD, Petri ET, Huynh LK, Ehrlich BE. Characterization of NCS1--InsP3R1 interaction and its functional significance. _J Biol Chem_. 2019;294(49):18923--18933. @nguyen2019ncs1
+    / *DOI:*: #link("https://doi.org/10.1074/jbc.RA119.009736")[10.1074/jbc.RA119.009736]
+    / *PMID:*: 31659121
+    / *Study Design:*: Mechanistic; MDA-MB231 + HEK293 cells; mouse cerebellum; protein docking using crystal structures
+    / *Key Findings:*:
+        - NCS-1 binding site mapped to residues 66--110 on InsP3R1 suppressor domain
+        - Leu-89 on NCS-1 is critical; mutations at this position abolish Ca2+ signaling enhancement
+        - EC50 for interaction approximately 160 nM Ca2+ (physiologically relevant submicromolar range)
+        - Cell-penetrant blocking peptides reduce InsP3R-dependent Ca2+ signaling in live cells
+    / *Relevance:*: Provides structural basis for NCS-1/IP3R amplification that Li+ disrupts. Confirms the interaction has a defined and potentially targetable binding interface.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (Journal of Biological Chemistry; rigorous binding-site mapping)
+        - *Score:* 0.62
+        - *Limitation:* Breast cancer cell line + docking; limited primary neuronal data
+
+=== Sade et al.\ 2016 --- IP3 Accumulation and/or Inositol Depletion as Lithium's Downstream Effects
+
+    / *Full Citation:*: Sade Y, Toker L, Kara NZ, Einat H, Rapoport S, Moechars D, Berry GT, Bersudsky Y, Agam G. IP3 accumulation and/or inositol depletion: two downstream lithium's effects that may mediate its behavioral and cellular changes. _Transl Psychiatry_. 2016;6(12):e968. @sade2016ip3
+    / *DOI:*: #link("https://doi.org/10.1038/tp.2016.217")[10.1038/tp.2016.217]
+    / *PMID:*: 27922641
+    / *Study Design:*: Mouse behavioral models; SMIT1 KO + IMPA1 KO; forced swim + locomotor assays; hippocampal molecular analysis
+    / *Key Findings:*:
+        - IP3 (not IP1) reduces immobility in forced swim by approximately 30%; reversed by IP3R antagonists
+        - SMIT1 KO (60% reduced brain inositol) and IMPA1 KO both phenocopy Li+ behaviorally
+        - IP3 treatment increases autophagy (Beclin-1/p62 ratio approximately 3-fold), paralleling Li+
+        - Both pathways (IP3 accumulation AND inositol depletion) contribute independently
+    / *Relevance:*: Establishes that IMPA1 inhibition to IP3 accumulation is behaviorally and molecularly significant. Supports interpretation that chronic GPCR-driven IP3 accumulation in ME/CFS (from the PIP2 exhaustion hypothesis) could be pathological, and Li+ moderates it.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Translational Psychiatry; mouse models; limited human translation)
+        - *Score:* 0.62
+
+=== Harwood 2005 --- Lithium and Bipolar: Inositol-Depletion Hypothesis Revisited
+
+    / *Full Citation:*: Harwood AJ. Lithium and bipolar mood disorder: the inositol-depletion hypothesis revisited. _Mol Psychiatry_. 2005;10(1):117--126. @harwood2005inositol
+    / *DOI:*: #link("https://doi.org/10.1038/sj.mp.4001618")[10.1038/sj.mp.4001618]
+    / *PMID:*: 15558078
+    / *Study Design:*: Review
+    / *Key Findings:*:
+        - Li+ reduces cellular myo-inositol and attenuates PLC-downstream signaling
+        - Full PI cycle covered: IMPase to inositol to PIP2 to PLC to IP3 to Ca2+
+        - Hypothesis contested: clinical studies inconsistent on brain inositol reduction in vivo
+        - 35+ years of supporting biochemical evidence summarised
+    / *Relevance:*: Foundational review and critical appraisal for the Li+ to IMPase to inositol to PIP2 chain. Acknowledged uncertainty supports keeping this content in a speculation environment.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Molecular Psychiatry review; high-impact but no primary data)
+        - *Score:* 0.55
+
+=== Belmaker et al.\ 1998 --- Behavioral Reversal of Lithium by Inositol Isomers
+
+    / *Full Citation:*: Belmaker RH, Agam G, van Calker D, Richards MH, Kofman O. Behavioral reversal of lithium effects by four inositol isomers correlates perfectly with biochemical effects on the PI cycle. _Neuropsychopharmacology_. 1998;19(3):220--232. @belmaker1998inositol
+    / *DOI:*: #link("https://doi.org/10.1016/S0893-133X(98)00017-7")[10.1016/S0893-133X(98)00017-7]
+    / *PMID:*: 9653710
+    / *Study Design:*: Rat behavioral + biochemical; human postmortem brain inositol measurement
+    / *Key Findings:*:
+        - Four inositol isomers (including unnatural epi-inositol) reverse Li+ behavioral effects; correlations perfect with PI cycle biochemistry
+        - Chronic Li+ brain inositol depletion specific to hypothalamus
+        - Postmortem bipolar frontal cortex: 25% reduced inositol vs. controls
+        - Stereospecific reversal by myo-inositol (not D-chiroinositol) in pilocarpine seizure model
+    / *Relevance:*: Classical causal evidence linking inositol depletion to Li+ behavioral mechanism. Stereospecificity is strong evidence for the PI cycle pathway. Inositol supplementation reversal is a testable prediction for the speculation environment.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Neuropsychopharmacology; rat + postmortem; 1998)
+        - *Score:* 0.58
+
+=== Yu & Greenberg 2016 --- Inositol Depletion, GSK3 Inhibition and Bipolar Disorder
+
+    / *Full Citation:*: Yu W, Greenberg ML. Inositol depletion, GSK3 inhibition and bipolar disorder. _Future Neurol_. 2016;11(2):135--148. @yu2016inositolGSK3
+    / *DOI:*: #link("https://doi.org/10.2217/fnl-2016-0003")[10.2217/fnl-2016-0003]
+    / *PMID:*: 29339929
+    / *Study Design:*: Review
+    / *Key Findings:*:
+        - Li+ inhibits IMPase; valproate inhibits MIPS activity via GSK3 -- both reduce brain inositol
+        - GSK3 regulates MIPS phosphorylation; GSK3 inhibition reduces inositol synthesis
+        - Inositol depletion and GSK3 inhibition are synergistic (not alternative) mechanisms of Li+
+    / *Relevance:*: Connects the two major Li+ mechanisms (IMPase inhibition and GSK3 inhibition, already in spec:low-dose-lithium) as convergent routes to inositol/PIP2 reduction. Unifies the existing and new speculative paragraphs in ch08.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (Future Neurology; lower-tier review journal)
+        - *Score:* 0.50
+
 === Palomo et al.\ 2026 --- Chronic Herpesvirus Reactivation in Post-Infectious ME/CFS
 
     / *Full Citation:*: Palomo A, Cox B, Williams M, Ariza ME. Chronic reactivation of persistent herpesviruses EBV, HHV-6 and VZV in post-infectious ME/CFS. _J Med Virol_. 2026;98:e70769. @palomo2026herpesvirus

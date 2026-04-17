@@ -160,3 +160,11 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/28580833/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Ahmadian2017taurineHF — taurine RCT heart failure anti-inflammatory exercise |
 | https://pubmed.ncbi.nlm.nih.gov/35855073/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — McGurk2022taurineHFreview — systematic review taurine heart failure null meta-analysis |
 | https://pubmed.ncbi.nlm.nih.gov/31865328/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Zhang2020taurineDiabetes — taurine TRPC6 H2S calcium overload mitochondrial protection diabetes analog |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10700560/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — saha2023impa1 — IMPA1/PIP2/Ca2+ signaling by lithium iPSC neurons |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC1459068/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — schlecker2006ncs1 — NCS-1 InsP3R1 lithium IC50 JCI |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC6224314/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — boeckel2018ncs1 — NCS-1 calcium signaling review BBA |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC6901312/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — nguyen2019ncs1 — NCS-1 InsP3R1 binding site Leu89 JBC |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC5315558/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — sade2016ip3 — IP3 accumulation inositol depletion lithium behavioral Transl Psychiatry |
+| https://pubmed.ncbi.nlm.nih.gov/15558078/ | pubmed | 2026-04-17 | 2026-04-17 | bib/appendix-h — harwood2005inositol — inositol depletion hypothesis revisited Mol Psychiatry |
+| https://pubmed.ncbi.nlm.nih.gov/9653710/ | pubmed | 2026-04-17 | 2026-04-17 | bib/appendix-h — belmaker1998inositol — behavioral reversal lithium by inositol isomers Neuropsychopharmacology |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC5751514/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — yu2016inositolGSK3 — inositol depletion GSK3 inhibition bipolar Future Neurology |
