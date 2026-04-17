@@ -1,6 +1,6 @@
 ICD-11 contains 17,000 diagnostic categories and 130,000 clinical terms. Medical training is organized around memorizing and matching them.
 
-The number of fundamental biological mechanisms underlying those 17,000 diseases: roughly 30 to 50.
+The number of fundamental biological mechanism families underlying those 17,000 diseases: roughly 20 — containing approximately 80–100 distinct mechanisms in total.
 
 That asymmetry is the root of a massive, systematic failure.
 
