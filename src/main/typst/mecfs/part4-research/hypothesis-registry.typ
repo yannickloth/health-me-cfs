@@ -450,8 +450,38 @@ Motivated by: systematic survey of 19 universal disease mechanism families appli
     [Is the cell danger response chronically engaged in ME/CFS, and if so, what prevents resolution? Ectonucleotidase failure, purine metabolite imbalance, and P2X7R overactivation are candidate mechanisms.],
     [CD73/CD39 ectonucleotidase activity assay in ME/CFS PBMCs vs healthy controls. Extracellular purine ratio (ATP/AMP/adenosine) quantification by HPLC in ME/CFS plasma. P2X7R expression and function in ME/CFS monocytes and microglia (iPSC-derived). Naviaux suramin data (2019) provides partial CDR framework context @naviaux2019salugenesis.],
     [Ch.17 @sec:um-purinergic],
+
+    [The CD73 Dual Bottleneck: Purinergic Resolution and NAD⁺ Salvage Share a Single Rate-Limiting Step],
+    [S], [0.30],
+    [CD73 serves dual duty: ATP→adenosine (danger resolution) AND NMN→NR (NAD⁺ salvage). If overwhelmed by purine catabolism in ME/CFS, neither pathway resolves. (a) CD73 activity in ME/CFS PBMCs inversely correlates with extracellular ATP:adenosine AND intracellular NAD⁺ simultaneously. (b) NMN supplementation fails in low-CD73 patients while NR bypasses bottleneck.],
+    [CD73 enzymatic activity assay (malachite green phosphate assay) — feasible; not done in ME/CFS. Purine metabolite panel (LC-MS/MS) simultaneously with CD73 activity — not done. NMN vs NR crossover stratified by CD73 activity — tractable pilot design @naviaux2016metabolic @naviaux2019salugenesis.],
+    [Ch.17 @sec:um-purinergic],
+
+    [The Three-Brake Failure Hypothesis: Simultaneous NF-κB Checkpoint Loss in ME/CFS],
+    [H], [0.35],
+    [All three major NF-κB transcriptional brakes fail simultaneously in ME/CFS: (1) GR epigenetic hyposensitivity @roberts2017glucocorticoid, (2) VDR blockade by EBV EBNA-3 (established EBV biology; see Family 16), (3) Nrf2 impairment (hypothetical). Triple brake loss explains self-sustaining inflammation without ongoing acute infection. (a) ME/CFS PBMCs show reduced Nrf2+GR+VDR nuclear translocation vs controls simultaneously. (b) Sulforaphane reduces NF-κB markers only in Nrf2-responsive patients.],
+    [Three-transcription-factor ChIP-seq or nuclear fractionation Western blot (Nrf2, GR p65, VDR) — not done in ME/CFS. ChIP-seq feasible (PBMCs, n=60). VDR binding assay after EBV-antigen challenge feasible. Sulforaphane dose-escalation + biomarker panel — low risk, no trial registered.],
+    [Ch.17 @sec:um-transcriptional],
+
+    [The Structural Ratchet Hypothesis: Irreversible Damage Accumulation Across Mechanism Families],
+    [H], [0.50],
+    [Capillary rarefaction, SFN fiber loss, telomere shortening, epigenetic lock-in, muscle fiber type shift, and senescent cell accumulation all resist reversal on physiological timescales — each crash advances the ratchet. (a) Disease duration predicts structural damage burden (capillary density, IENFD, telomere length) more strongly than current symptom severity. (b) Functional improvement outpaces structural recovery on biopsy. (c) Early-treatment cohorts ($<=$2yr) show higher complete-remission rates vs late-treatment ($>=$5yr) with identical interventions.],
+    [Longitudinal biopsy study (muscle + skin) in newly diagnosed ME/CFS tracking capillary density, IENFD, mitochondrial morphology — not done. Cross-sectional disease-duration vs structural damage — feasible with existing biobank samples. Early vs late treatment comparison — requires registry data with treatment timing @knights2024telomere @scheibenbogen2025muscle @giannoccaro2021sfn.],
+    [Ch.17 @sec:structural-ratchet],
+
+    [Which ME/CFS Mechanism Families Are Keystones?],
+    [OQ], [---],
+    [A 19-family interaction matrix (estimated from co-occurrence in multi-omics datasets) would identify keystones with highest downstream impact and the minimum family-targeting set to collapse the disease-state attractor. Preliminary analysis suggests Family 19 (purinergic) is highest-leverage: sits upstream of both immune activation (P2X7/NLRP3) and metabolic sensing (CDR).],
+    [19×19 interaction matrix construction from ME/CFS multi-omics — feasible bioinformatics task. Eigenstructure analysis of existing network medicine datasets. Validation: predicted keystone families should show strongest correlations with overall severity. Multi-target vs single-target RCT design powered to test keystone prediction.],
+    [Ch.17 @sec:family-interactions],
+
+    [Can a 19-Marker Panel Stratify ME/CFS Patients by Mechanism Profile?],
+    [OQ], [---],
+    [One canonical biomarker per family (19-marker panel) to compute a "Multi-Family Mechanism Score" per patient. Would confirm diagnosis, grade severity by mechanism breadth, stratify for targeted treatment, and track response. Mechanism breadth (number of active families) predicted to correlate with severity and duration. $>=$12/19 families active predicted to indicate poorest prognosis.],
+    [19-marker panel study design is feasible at research level; no such multi-family characterisation study exists. Individual markers are all validated — combinatorial study is the gap. Predicted discrimination: >90% AUC vs healthy controls if 10+ families are captured.],
+    [Ch.17 @sec:mfms],
   ),
-  kind: table, supplement: [Table], caption: [Hypothesis registry entries from ch17 universal mechanism families survey (2026-04-17). Covers channelopathy breadth, proteostasis scope, senolytic therapy potential, and cell danger response resolution.],
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from ch17 universal mechanism families survey (2026-04-17). Covers channelopathy breadth, proteostasis scope, senolytic therapy potential, CDR resolution, CD73 dual bottleneck, three-brake failure, structural ratchet, keystone families, and 19-marker diagnostic panel.],
 ) <tab:hypothesis-registry-2026-04-17>
 ] // end landscape page
 

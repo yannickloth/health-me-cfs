@@ -471,7 +471,19 @@ Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 
 - *Thyroid hormone nuclear receptor hypoactivation.* Low T3 syndrome implies reduced thyroid hormone receptor (TR) activation in target tissues despite normal systemic T4; functional tissue-level hypothyroidism in the absence of gland pathology.
 
-*Evidence status:* Theoretical to Emerging (mostly inferred from downstream effectors; direct transcription factor assays in ME/CFS remain rare; mechanistically coherent with documented findings).
+*Evidence status:* Theoretical (mostly inferred from downstream effectors; direct transcription factor assays in ME/CFS remain rare; mechanistically coherent with documented findings).
+
+#hypothesis(title: [The Three-Brake Failure Hypothesis: Simultaneous NF-κB Checkpoint Loss in ME/CFS])[
+  Nrf2 and NF-κB are reciprocally regulated: Nrf2 activation suppresses NF-κB, while NF-κB activity suppresses Nrf2. Under normal physiology, oxidative stress activates Nrf2 first (protective antioxidant response); only when Nrf2 is overwhelmed does NF-κB dominate (inflammatory response). Three independent lines of ME/CFS evidence suggest all three major transcriptional brakes on NF-κB are simultaneously impaired:
+
+  1. *Glucocorticoid receptor (GR) hyposensitivity.* Epigenetically reduced GR sensitivity (Family 12) impairs glucocorticoid-mediated NF-κB suppression @roberts2017glucocorticoid.
+  2. *Vitamin D receptor (VDR) blockade.* EBV EBNA-3 protein competitively inhibits VDR-dependent gene activation (Family 16), removing vitamin D's anti-inflammatory brake on NF-κB.
+  3. *Nrf2 impairment (hypothetical).* If chronic oxidative stress exhausts or epigenetically suppresses Nrf2 nuclear translocation, the third NF-κB brake is also released.
+
+  If all three brakes fail simultaneously, NF-κB activity is constitutively elevated without any endogenous checkpoint capable of resolving it — explaining the self-sustaining chronic inflammation observed in ME/CFS despite the absence of ongoing acute infection. This hypothesis would move Family 18 from "theoretical" to "emerging" with a single targeted assay measuring Nrf2, GR, and VDR nuclear translocation in patient PBMCs.
+
+  _Certainty: 0.35. GR and VDR components have direct evidence; Nrf2 component is inferred. Not yet tested as a unified three-factor mechanism._
+]
 
 == Family 19: Purinergic and Danger Signalling
 <sec:um-purinergic>
@@ -492,6 +504,12 @@ Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 
 *Evidence status:* Theoretical (CDR hypothesis mechanistically coherent and supported by metabolomics; direct P2X7, NLRP3, and ectonucleotidase studies in ME/CFS are sparse).
 
+#speculation(title: [The CD73 Dual Bottleneck: Purinergic Resolution and NAD⁺ Salvage Share a Single Rate-Limiting Step])[
+  In health, CD73 (5′-ectonucleotidase) terminates danger signalling by converting AMP to adenosine. In parallel, CD73 converts NMN to NR, a key step in the NAD⁺ salvage pathway. Under chronic mitochondrial stress, massive ATP release through pannexin-1 and connexin hemichannels (opened by the oxidative stress documented in Family 2) floods the extracellular space with purines. If CD73 activity is overwhelmed or downregulated, a dual bottleneck emerges: neither purinergic resolution (excess extracellular ATP persists, sustaining P2X7 and immune activation) nor NAD⁺ repletion (NMN→NR conversion impaired) can occur simultaneously. This predicts a threshold phenomenon: below a critical CD73 activity level, supplemental NMN will fail as a NAD⁺ source, while NR — which bypasses the CD73 step — will succeed. It also predicts that NMN supplementation trials in ME/CFS will show heterogeneous outcomes stratified by patient CD73 activity @naviaux2016metabolic @naviaux2019salugenesis.
+
+  _Certainty: 0.30. No direct measurement of CD73 activity in ME/CFS exists. Not yet tested._
+]
+
 #open-question(title: [Cell Danger Response Resolution in ME/CFS])[
   Is the cell danger response chronically engaged in ME/CFS, and if so, what prevents resolution? Measuring CD73/CD39 ectonucleotidase activity, extracellular purine ratios (ATP/AMP/adenosine), and P2X7R expression in ME/CFS PBMCs would directly test whether purinergic resolution failure sustains the disease state.
 ]
@@ -499,7 +517,7 @@ Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 == Synthesis: The Mechanism Landscape of ME/CFS
 <sec:universal-mechanisms-synthesis>
 
-The survey above identifies *19 universal disease mechanism families* and enumerates approximately *90 concrete mechanisms* within them. ME/CFS shows documented involvement in at least 15 of 19 families; the remaining 4 are theoretically implicated but lack direct evidence.
+The survey above identifies *19 universal disease mechanism families* and enumerates approximately *90 concrete mechanisms* within them. ME/CFS shows documented involvement in at least 17 of 19 families — 9 Established, 5 Probable, 3 Emerging; the remaining 2 (transcriptional/nuclear and purinergic/danger signalling) are theoretically implicated but lack direct experimental evidence.
 
 #figure(
   table(
@@ -537,6 +555,46 @@ Three structural observations follow from this map.
 
 The full research gap agenda derived from this map is in @ch:proposed-studies.
 
+=== The Structural Ratchet: Why ME/CFS Rarely Fully Reverses
+<sec:structural-ratchet>
+
+#hypothesis(title: [The Structural Ratchet Hypothesis: Irreversible Damage Accumulation Across Multiple Families])[
+  The critical transition model explains why ME/CFS begins and persists. What it does not fully explain is why recovery is so rare even when triggering factors resolve. Families 12, 14, and 17 together provide an answer: certain disease consequences are structurally irreversible on physiological timescales, functioning as a ratchet — each crash advances the ratchet one notch, and recovery between crashes cannot fully reverse it.
+
+  - *Capillary rarefaction* (Family 17): Reduced capillary density takes months to years to reverse via angiogenesis; impaired oxygen delivery persists.
+  - *Small fiber nerve loss* (Families 8, 17): Axonal regeneration occurs at ~1 mm/day; IENFD deficits in ME/CFS patients represent years of nerve fiber loss that cannot recover quickly.
+  - *Telomere shortening* (Family 12): 254–957 bp shorter than age-matched controls @knights2024telomere — irreversible without telomerase activation; corresponds to 4–20 years of additional biological aging.
+  - *Epigenetic locking* (Family 12): Disease-state methylation patterns persist through cell divisions; passive demethylation in lymphocytes is slow.
+  - *Muscle fiber type shift* (Family 17): Conversion to glycolytic (Type II) fibers requires sustained aerobic retraining that PEM prevents @scheibenbogen2025muscle.
+  - *Senescent cell accumulation* (Family 14): Senescent cells are not cleared by normal immune surveillance and accumulate over time, sustaining SASP-driven inflammation.
+
+  The clinical implication is that *time-to-treatment matters not because the initiating trigger disappears, but because structural damage accumulates and progressively raises the recovery threshold*. Patients treated within two years of onset may have substantially fewer irreversible changes than those treated after a decade. Early-treatment cohorts should show higher complete-remission rates even with identical interventions.
+
+  _Certainty: 0.50. Individual structural findings (capillary rarefaction, IENFD loss, telomere attrition, muscle remodelling) are independently documented; the ratchet framing as a unified accumulation model is a synthesis not yet formally tested._
+]
+
+=== Cross-Family Interaction Structure and High-Leverage Targets
+<sec:family-interactions>
+
+The 19-family taxonomy raises an immediate research question: which family pairs amplify each other most strongly, and which families — if suppressed — would maximally destabilize the disease state? Formalizing family interactions as a 19×19 asymmetric interaction matrix (where entry (i,j) represents the magnitude and sign of family i's influence on family j) would allow eigenstructure analysis to identify keystone families and self-reinforcing loops.
+
+Preliminary analysis of the interactions described in this chapter suggests two structural features. First, Families 1, 2, and 4 (energy, redox, immune) form the core amplification triad: mitochondrial dysfunction drives ROS, which activates NF-κB and NLRP3, which worsen mitochondrial function. Second, Family 19 (purinergic signalling) may be the highest-leverage intervention point, because it sits upstream of both immune activation (via P2X7 and NLRP3) and metabolic sensing (via CDR), and resolution failure in Family 19 sustains both.
+
+#open-question(title: [Which ME/CFS Mechanism Families Are Keystones?])[
+  A formal 19-family interaction model — with matrix entries estimated from co-occurrence in multi-omic datasets — could identify the families with highest eigenvector centrality (most downstream impact if suppressed) and the smallest number of families whose simultaneous targeting would collapse the disease-state attractor. This would transform ch17's descriptive taxonomy into a prescriptive treatment-target ranking. The analysis is tractable with existing bioinformatics tools and would provide the mathematical justification for multi-target versus single-target treatment strategies in ME/CFS.
+]
+
+=== The Multi-Family Mechanism Score: From Taxonomy to Diagnostic Tool
+<sec:mfms>
+
+#open-question(title: [Can a 19-Marker Panel Stratify ME/CFS Patients by Mechanism Profile?])[
+  The 19-family framework proposed in this chapter is descriptive — it characterises ME/CFS at the population level. Its highest practical value lies in individual-level stratification: measuring one canonical biomarker per family creates a 19-dimensional "mechanism fingerprint" per patient that could (a) confirm diagnosis, (b) grade severity by mechanism breadth, (c) identify which families are active in a given individual for targeted treatment selection, and (d) track treatment response.
+
+  A minimal proposed panel: lactate:pyruvate ratio (Family 1); F2-isoprostanes (Family 2); NK cell TRPM3 calcium flux (Family 3); NK cytotoxicity (Family 4); anti-β2AR titer (Family 5); microclot area (Family 6); flow-mediated dilation (Family 7); HRV RMSSD (Family 8); cortisol awakening response (Family 9); qEEG peak alpha frequency (Family 10); kynurenine:tryptophan ratio (Family 11); epigenetic age acceleration (Family 12); serum ATG13 (Family 13); p16INK4a in PBMCs (Family 14); serum LPS-binding protein (Family 15); anti-EBV dUTPase IgG (Family 16); IENFD on skin biopsy (Family 17); Nrf2 nuclear translocation index (Family 18); serum ATP:adenosine ratio (Family 19).
+
+  No such multi-family characterisation study exists. Its absence is itself a research gap — the field has characterised individual mechanisms in isolation but has not asked how many families are simultaneously active in the same patient, or whether mechanism breadth predicts severity and prognosis.
+]
+
 #achievement(title: [19-Family Mechanism Map Constructed for ME/CFS])[
-  This chapter provides the first systematic survey of all universal disease mechanism families applied to ME/CFS, identifying documented involvement across approximately 90 concrete mechanisms in 15 of 19 families. The map establishes ME/CFS as a genuinely multi-mechanism systemic disease and provides a structured framework for research prioritisation and cross-disease comparison.
+  This chapter provides the first systematic survey of all universal disease mechanism families applied to ME/CFS, identifying documented involvement across approximately 90 concrete mechanisms in 17 of 19 families. The map establishes ME/CFS as a genuinely multi-mechanism systemic disease and provides a structured framework for research prioritisation and cross-disease comparison.
 ]
