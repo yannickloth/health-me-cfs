@@ -723,10 +723,10 @@ The UK Biobank contains population-level data from which researchers have define
 The MCAM, You + ME Registry, UK ME/CFS Biobank, and UK Biobank all collect pain-related data, but using different instruments, severity scales, and time windows. A key research question is whether these datasets can be harmonised to create a pain phenotype dataset large enough for reliable subgroup identification. Minimum requirements would include: (1) mapping pain variables across registries to a common ontology; (2) testing whether independent registries identify the same cluster structure; and (3) sufficient sample size for interaction analyses (pain phenotype $times$ biomarker $times$ treatment response). Cross-registry harmonisation studies in other chronic pain conditions have demonstrated feasibility but required substantial methodological investment.
 ] <oq:registry-harmonisation-pain>
 
-== Emerging Biomarker Candidates from Cross-System Convergence Studies (2025--2026)
+== Emerging Biomarker Candidates from Parallel Multi-Modal Studies (2025--2026)
 <sec:emerging-biomarkers-convergence>
 
-Multiple 2025--2026 studies have produced convergent evidence for biomarker candidates across immune, neurological, and vascular compartments. While none of these have yet achieved clinical validation, their convergence across independent research groups using different platforms strengthens confidence that they reflect genuine ME/CFS biology.
+Multiple 2025--2026 studies have produced parallel evidence for biomarker candidates across immune, neurological, and vascular compartments. While none have yet achieved clinical validation, the methodological diversity of these studies is encouraging. It should be noted that these studies identify _different_ biological signals in _different_ cohorts using _different_ platforms---this is complementary multi-modal evidence, not convergence on a single mechanism. True convergence would require independent groups identifying the same biomarker abnormality with different methods. The historical failure rate of ME/CFS biomarkers (NK cytotoxicity, cytokine panels, various autoantibody signatures---all initially promising, none clinically validated) should temper expectations.
 
 === Neuroinflammation Imaging Biomarkers
 

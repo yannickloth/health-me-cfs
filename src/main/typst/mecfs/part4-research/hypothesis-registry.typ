@@ -31,6 +31,7 @@ ordered within domains from highest to lowest certainty.
   / *S*: Speculation — plausible but lower-confidence claim.
   / *P*: Prediction — specific, directional; directly falsifiable.
   / *OQ*: Open Question — framed as unresolved; testability implied.
+  / *Obs*: Observation — documented empirical finding; certainty reflects confidence in the measurement, not mechanistic interpretation.
 
 // TODO: Full table conversion from LaTeX format pending.
 // The commented-out block below (lines 42–1239) contains all entries in broken mixed format.
@@ -2718,48 +2719,48 @@ Motivated by: Health Rising synthesis of 11 recent ME/CFS pathophysiology studie
     [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
 
     [A Complement-Mediated Inflammatory Subgroup in ME/CFS],
-    [H], [0.50],
-    [CDC pQTL study: ME/CFS subset with high C3/low Bb and complement pathway pQTLs. (a) Complement pQTL risk variant carriers show higher C3 and worse PEM. (b) Complement-targeted interventions preferentially benefit this subgroup. (c) CSF complement enrichment specific to pQTL-positive subgroup.],
-    [C3/Bb measurement in existing cohorts — feasible. Eculizumab or C1-INH trial with pQTL stratification — expensive but feasible. UK Biobank partial validation done.],
-    [Ch.7 @hyp:complement-inflammatory-subgroup],
+    [S], [0.35],
+    [CDC pQTL: high C3/low Bb subgroup. UK Biobank fatigue validation is non-specific. Activation vs deficiency ambiguity. (a) Complement pQTL risk variant carriers show higher C3 and worse PEM. (b) AH50 distinguishes activation from deficiency. (c) CSF complement enrichment specific to pQTL-positive subgroup.],
+    [C3/Bb ELISA standard; AH50 send-out test --- feasible. Subgroup identification requires genotyping not clinically available.],
+    [Ch.7 @spec:complement-inflammatory-subgroup],
 
     [Galectin-9--TIM-3 Axis as Driver of Tissue-Resident Cell Depletion],
     [S], [0.35],
-    [Galectin-9 from activated monocytes engages TIM-3 on gamma-delta/MAIT cells → exhaustion and depletion. (a) Galectin-9 elevated in ME/CFS serum, correlates with MAIT/gamma-delta depletion. (b) In vitro Galectin-9 blockade rescues cell survival. (c) Galectin-9 correlates with gut barrier markers.],
-    [Galectin-9 ELISA + flow cytometry for MAIT/gamma-delta counts — feasible. In vitro TIM-3 blockade assays — feasible. Single scRNA-seq study (Shahbaz 2026) as starting point.],
+    [Galectin-9--TIM-3 associated with gamma-delta/MAIT depletion in LC-ME/CFS (scRNA-seq, not protein-level). Alternative explanations: barrier displacement, AICD, cytokine suppression. May be LC-ME/CFS-specific. (a) Galectin-9 elevated in ME/CFS serum, correlates with MAIT/gamma-delta depletion. (b) In vitro Galectin-9 blockade rescues cell survival. (c) Galectin-9 correlates with gut barrier markers.],
+    [Galectin-9 ELISA + flow cytometry for MAIT/gamma-delta counts --- feasible. Therapeutic agents in early oncology development only.],
     [Ch.7 @spec:galectin-9-tim3-axis],
 
     [Extracellular Vesicle-Mediated Signaling in ME/CFS Pathophysiology],
     [S], [0.25],
-    [Altered EV cargo (miRNA, proteins) mediates inter-compartment communication between peripheral immune dysfunction and CNS. (a) ME/CFS EVs carry distinct miRNA signatures altering gene expression in recipient cells. (b) EV cargo changes after exercise stress (dynamic PEM biomarker). (c) let-7b-5p supplementation restores function in recipient cells.],
-    [EV isolation + small RNA sequencing — feasible but expensive. EV functional assays (recipient cell incubation) — feasible. Currently n=12 discovery study only.],
+    [Altered EV cargo (n<=12 discovery). Hemoglobin likely RBC contamination artifact. BBB crossing in brain-to-blood direction established; peripheral-to-central limited. (a) ME/CFS EVs alter gene expression in recipient cells. (b) EV cargo changes after exercise stress. (c) Hemoglobin persists after contamination correction.],
+    [EV isolation + small RNA sequencing --- expensive. Contamination controls required.],
     [Ch.7 @spec:ev-signaling-mecfs],
 
     [NII Metrics as Translatable Neuroinflammation Biomarkers],
-    [P], [0.55],
-    [NII model on standard diffusion MRI detects white matter neuroinflammation in ME/CFS that DTI misses. (a) NII metrics replicate in independent ME/CFS cohort (n>50). (b) NII-HR correlates with neuroinflammation PET (TSPO) in subset. (c) NII metrics track treatment response longitudinally.],
-    [NII model application to existing diffusion MRI datasets — requires collaboration. Prospective NII + TSPO-PET validation study — expensive. NII model is open-source, no special hardware needed.],
+    [Obs], [0.35],
+    [NII model on standard diffusion MRI detects white matter abnormalities (n=67/group). Neuroinflammation vs hypoperfusion ambiguity; unreplicated model. (a) NII metrics replicate in independent ME/CFS cohort. (b) NII-HR correlates with TSPO-PET (distinguishes neuroinflammation from ischemia). (c) NII metrics track treatment response longitudinally.],
+    [NII model application to existing diffusion datasets --- requires collaboration. NII is research software, not clinically available.],
     [Ch.8 @ach:nii-neuroinflammation],
 
     [Cross-Compartment Convergence: Immune-Blood-Brain Axis in ME/CFS],
     [OQ], [---],
-    [Multiple independent 2025--2026 studies (proteomics, scRNA-seq, neuroimaging, CSF, exercise challenge) converge on two themes: immune remodeling and blood/vascular dysfunction, operating in both peripheral and central compartments. Is this convergence reflecting a shared upstream mechanism, or multiple downstream consequences of different primary insults?],
-    [Multi-compartment longitudinal study (blood + CSF + neuroimaging + exercise challenge in same patients) --- not done. The "ideal exercise study" proposed by Hanson, Lipkin, Systrom would address this directly.],
+    [Multiple 2025--2026 studies (proteomics, scRNA-seq, neuroimaging, CSF, exercise challenge) show heterogeneous, mixed findings across platforms, cohorts, and disease definitions. No study uses cross-compartment design or severity-matched chronic illness controls; convergence cannot be established from the current evidence base.],
+    [Multi-compartment longitudinal study (blood + CSF + neuroimaging + exercise challenge in same patients) --- not done. Blood contamination controls essential for any CSF proteomics study.],
     [Ch.7 @sec:immune-remodeling; Ch.8 @sec:nii-neuroinflammation],
 
     [Complement-Driven Perivascular Mast Cell Amplification Loop],
-    [H], [0.45],
-    [C3a/C5a trigger mast cell degranulation at perivascular sites; vascular leakage; more complement in tissue; amplification. (a) Skin blister fluid C3a:C3 ratio higher than plasma. (b) Complement-pQTL subgroup has higher tryptase/PGD2. (c) Avacopan reduces mast cell mediators in crossover trial.],
-    [Skin blister fluid complement assay --- feasible. Serum tryptase + PGD2 ELISA --- standard. Avacopan crossover trial --- expensive but drug approved for ANCA vasculitis.],
-    [Ch.7 @hyp:complement-mast-cell-loop],
+    [S], [0.25],
+    [Complement and mast cell activation could be parallel downstream effects of shared upstream trigger rather than causally linked. Loop requires regulatory protein failure (Factor H, CD55, CD59 not addressed), spatial confinement (no mechanism), and sustained mast cell responsiveness (tachyphylaxis not addressed). (a) Skin blister fluid C3a:C3 ratio higher than plasma. (b) Complement-pQTL subgroup has higher tryptase/PGD2. (c) C5aRA reduces mast cell mediators --- negative result supports parallel-activation alternative.],
+    [Skin blister complement assay --- specialised research technique. Serum tryptase + PGD2 ELISA --- standard.],
+    [Ch.7 @spec:complement-mast-cell-loop],
 
-    [Brainstem Autonomic Loop: Three-Node Bistable System],
-    [H], [0.40],
-    [Brainstem neuroinflammation $arrow.l.r$ autonomic failure $arrow.l.r$ peripheral immune-vascular dysfunction. (a) Brainstem NII correlates with HRV more than cognition. (b) POTS+ have worse brainstem NII. (c) tVNS reduces inflammation only in NII-positive patients.],
-    [NII analysis of brainstem tracts --- requires Yu2026 model application to existing data. tVNS trial stratified by NII --- feasible.],
-    [Ch.8 @hyp:brainstem-autonomic-loop],
+    [Brainstem Autonomic Loop: Three-Node Cycle vs Shared Upstream Cause],
+    [S], [0.20],
+    [Three-node vicious cycle assembled from non-overlapping cohorts; simpler alternative is all three nodes as parallel downstream effects of a shared upstream event. Vicious cycle hypotheses are generically unfalsifiable. Vagal anti-inflammatory pathway controversial in humans. NII shows widespread (not brainstem-specific) changes. (a) Brainstem NII correlates with HRV more than cognition. (b) POTS+ have worse brainstem NII. (c) Shared upstream cause model predicts all three nodes correlate with severity; cycle model predicts each predicts others after controlling for severity.],
+    [NII analysis of brainstem tracts --- requires model application to existing data.],
+    [Ch.8 @spec:brainstem-autonomic-loop],
   ),
-  caption: [Blood and immune system convergence entries (2026-04-16): three hypotheses, two speculations, one prediction, one open question motivated by 11-study cross-system synthesis and creative brainstorming.],
+  caption: [Blood and immune system convergence entries (2026-04-16; revised after adversarial review): zero hypotheses, five speculations, one observation, one open question. Certainty scores reduced; complement-mast-cell loop and brainstem autonomic loop reclassified from hypothesis to speculation after adversarial review identified unfalsifiability, circular logic, and cohort heterogeneity concerns; complement subgroup reclassified from hypothesis to speculation (certainty 0.35, underpowered pQTL); NII entry reclassified from prediction to observation with certainty corrected to 0.35.],
   kind: table,
 ) <tab:registry-blood-immune-convergence>
 ] // end landscape page
