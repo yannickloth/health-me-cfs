@@ -7,16 +7,16 @@
 #let doc-title    = "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
 #let doc-subtitle = "A Comprehensive Medical Documentation"
 #let doc-author   = "Ing. Yannick Loth, M.Sc. (Management)"
-#let doc-doi      = "10.5281/zenodo.19184064"
+#let doc-doi      = "10.5281/zenodo.19627450"
 #let doc-doi-url  = "https://doi.org/" + doc-doi
 #let doc-orcid    = "0009-0003-5754-827X"
 #let doc-email    = "yl@infolead.eu"
-#let doc-version  = 6
+#let doc-version  = 7
 
 // Compile date — override via `--input compile-date=YYYY-MM-DD`.
 // Fallback: doc-date-fallback below (update on each release).
 // datetime.today() is unreliable (returns epoch in sandboxed/Nix builds).
-#let doc-date-fallback = datetime(year: 2026, month: 3, day: 23)
+#let doc-date-fallback = datetime(year: 2026, month: 4, day: 17)
 
 #let doc-date = {
   let raw = sys.inputs.at("compile-date", default: none)

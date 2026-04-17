@@ -8,7 +8,7 @@ This is an actively maintained, regularly updated document. The research landsca
 
 *To ensure you have the most current version:*
 
-- Visit the Zenodo repository: #link("https://doi.org/10.5281/zenodo.18370021")
+- Visit the Zenodo repository: #link("https://doi.org/10.5281/zenodo.19627450")
 - Check the publication date: This version was compiled on *#doc-date.display("[year]-[month]-[day]")*
 - Bookmark the DOI link above and check periodically for updates
 - Significant updates typically occur monthly as new research emerges and analysis deepens
