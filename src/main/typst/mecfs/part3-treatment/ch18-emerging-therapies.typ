@@ -1876,6 +1876,18 @@ Low-dose DHEA supplementation is commonly reported by ME/CFS patients to modestl
 If ER stress drives WASF3 upregulation and ME/CFS mitochondrial dysfunction, direct ER stress suppressors that do not require S1R (4-phenylbutyrate, TUDCA, arimoclomol) should produce comparable or greater benefit than S1R agonism. 4-PBA is FDA-approved (urea cycle disorders) with known human safety. TUDCA is available OTC. Neither has been tested in ME/CFS. A 3-arm pilot (4-PBA vs.\ TUDCA vs.\ placebo) measuring WASF3 expression, UPR markers, and FSS would simultaneously test the ER stress hypothesis and screen two low-risk candidates for a larger trial.
 ] <oq:er-stress-drugs-mecfs>
 
+#speculation(title: [Fluvoxamine + Low-Dose Lithium: Complementary IP3R Axis Modulation])[
+*Certainty: 0.25.* The newly characterised Li#super[+] → IMPase → IP3 axis and the S1R → IP3R3 → MAM axis operate on the same IP3R system from different angles (@spec:low-dose-lithium, @subsubsec:sigma1-mechanism). Li#super[+] reduces IP3R amplification by disrupting the NCS-1/InsP3R1 interaction and slowing PIP#sub[2] resynthesis @schlecker2006ncs1 @saha2023impa1. Fluvoxamine via S1R agonism stabilises IP3R3 specifically at MAM sites, preserving the ER-to-mitochondria calcium transfer that mitochondria require for OXPHOS regulation.
+
+A theoretical combination effect: Li#super[+] dampens pathological IP3R-mediated bulk ER Ca#super[2+] release (reducing excitotoxic and autoantibody-driven calcium signalling), while fluvoxamine preserves the specific, spatially restricted IP3R3/MAM calcium transfer that supports mitochondrial function. Net: reduced pathological calcium signalling with preserved mitochondrial calcium supply.
+
+*Falsifiable prediction.* In iPSC-derived neurons treated with muscarinic agonist (modelling autoantibody activation): Li#super[+] alone reduces both cytosolic Ca#super[2+] transients and mitochondrial Ca#super[2+] uptake; Li#super[+] + fluvoxamine reduces cytosolic transients but preserves mitochondrial Ca#super[2+] uptake via S1R-stabilised IP3R3.
+
+_Not a clinical recommendation._ No human data exist for this combination. The interaction between lithium and fluvoxamine also raises potential serotonin syndrome risk at initiation; SSRIs are listed as a caution in the lithium drug-interaction box (@spec:low-dose-lithium). Medical supervision required.
+
+(Certainty: 0.25 — each mechanism is independently supported; the combination effect is mechanistic inference; no direct evidence for synergy. Not yet replicated.)
+] <spec:fluvoxamine-lithium-ip3r>
+
 #warning-env(title: [Fluvoxamine: Drug Interactions, Monitoring, and Dosing in ME/CFS Context])[
 *Off-label status:* Fluvoxamine is approved for OCD and depression. Use for ME/CFS or Long COVID fatigue is off-label; evidence is limited to the REVIVE-TOGETHER Long COVID trial. No ME/CFS-specific trial data exist. Prescriber guidance and informed consent are required.
 

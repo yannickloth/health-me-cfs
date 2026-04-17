@@ -924,6 +924,12 @@ _Brain lithium depletion:_ A 2025 Nature study found lithium was the only metal 
 
 At sub-therapeutic doses, lithium likely acts through: (1) partial GSK-3$beta$ inhibition sufficient for BDNF upregulation and Wnt/$beta$-catenin activation without complete enzyme blockade; (2) inositol monophosphatase inhibition driving mTOR-independent autophagy, potentially clearing accumulated cellular debris; (3) partial TLR4/NF-$kappa$B suppression reducing microglial pro-inflammatory signaling; and (4) NLRP3 inflammasome modulation (shown in preclinical models; not yet demonstrated in ME/CFS patients). These converging mechanisms address multiple nodes of ME/CFS pathophysiology: neuroinflammation, impaired autophagy, reduced neurotrophic support, and grey matter loss.
 
+_Li#super[+] → IMPase → PIP#sub[2] depletion → reduced IP3-mediated Ca#super[2+] release:_ A further mechanistic arm connects Li#super[+] to the PIP#sub[2]/IP3/Ca#super[2+] axis described in @hyp:ch14h-pip2-convergence. At therapeutic concentrations, Li#super[+] uncompetitively inhibits inositol monophosphatase (IMPase/IMPA1), the enzyme that regenerates free myo-inositol from inositol monophosphate after each PLC signalling cycle @harwood2005inositol @belmaker1998inositol. Depletion of free inositol slows PIP#sub[2] resynthesis following receptor-activated PLC activity; this was confirmed in human iPSC-derived cortical neurons using CRISPR-deleted IMPA1 controls, demonstrating that the effect is IMPA1-specific and not replicated by GSK-3$beta$ inhibition alone @saha2023impa1. In parallel, Li#super[+] disrupts the NCS-1/InsP3R1 interaction (IC#sub[50] ≈ 350 µM, within therapeutic plasma range) that normally amplifies IP3 receptor channel open probability approximately five-fold @schlecker2006ncs1 @boeckel2018ncs1. The two routes — reduced substrate for PIP#sub[2] resynthesis, and reduced amplification of the IP3 receptor — converge on attenuated IP3-mediated ER Ca#super[2+] release in neurons @sade2016ip3.
+
+The therapeutic relevance to ME/CFS is speculative but structurally specific: if GPCR autoantibody-driven chronic PLC activation is already depleting the PIP#sub[2] pool (@hyp:ch14h-pip2-convergence), then Li#super[+] via IMPase inhibition would further slow regeneration of this depleted pool. This could be either beneficial — dampening pathological IP3/Ca#super[2+] signalling arising from autoantibody-driven PLC hyperactivation — or harmful, by further impairing channels (TRPM3, TRPM7, Piezo, KCNQ) that depend on PIP#sub[2] for normal gating. The inositol depletion hypothesis of Li#super[+] action itself remains contested: some in-vivo studies have not found reduced brain inositol at therapeutic concentrations @harwood2005inositol. Low-dose Li#super[+] (serum ≈ 0.3–0.5 mmol/L) may not achieve sufficient IMPA1 inhibition to produce meaningful PIP#sub[2] effects, and no study has directly measured IP3R activity, IMPase function, or NCS-1 expression in ME/CFS tissue. If the mechanism operates, inositol supplementation should reverse the PIP#sub[2]-related effects — a directly testable prediction @belmaker1998inositol.
+
+(ME/CFS-specific translation certainty: 0.28. Base mechanism — Li#super[+] inhibits IMPA1 → reduces PIP#sub[2] resynthesis → attenuates IP3-mediated Ca#super[2+] release — is established in human cortical neurons. ME/CFS application is entirely inferential from convergence with the PIP#sub[2] exhaustion hypothesis; no direct ME/CFS data exist.)
+
 *Testable predictions*
 
   - ME/CFS patients treated with lithium orotate (10--20 mg elemental, ~equivalent to 40--45 mg lithium aspartate) for 8--12 weeks should show improvement on cognitive testing (specifically processing speed and working memory) compared to baseline.
@@ -955,7 +961,19 @@ Although lithium orotate is sold over-the-counter as a supplement, this does *no
   - The Long COVID trial is not directly in ME/CFS; overlap with ME/CFS populations is substantial but not complete.
   - Lithium orotate (the supplement form) lacks the pharmacokinetic characterization of lithium carbonate; claims of superior BBB penetration via OATP1A2 transport require verification.
   - No ME/CFS-specific lithium trial exists; historical attempts used standard psychiatric dosing and were negative.
+  - The IMPase/PIP#sub[2] mechanism creates a context-dependent risk: in ME/CFS where PIP#sub[2] is already depleted (@hyp:ch14h-pip2-convergence), Li#super[+] may further impair PIP#sub[2]-dependent ion channel gating. Co-administration of myo-inositol could address this arm --- see @spec:inositol-lithium-cotherapy.
 ] <spec:low-dose-lithium>
+
+#open-question(title: [NCS-1 in ME/CFS: Elevated, Normal, or Reduced?])[
+NCS-1 (neuronal calcium sensor protein 1) amplifies InsP3R1 channel open probability approximately five-fold via direct protein--protein interaction @schlecker2006ncs1. Lithium disrupts this NCS-1/InsP3R1 association at concentrations within the therapeutic plasma range (IC#sub[50] ≈ 350 µM), constituting a second mechanism by which Li#super[+] reduces IP3-mediated ER Ca#super[2+] release. NCS-1 expression is elevated in bipolar disorder and schizophrenia, where it correlates with aberrant calcium signaling @boeckel2018ncs1.
+
+In ME/CFS, NCS-1 expression has never been measured. The clinical implications diverge radically depending on the answer:
+
+    - *If NCS-1 is elevated:* Chronic GPCR autoantibody stimulation may upregulate NCS-1 as a compensatory response, creating IP3R hyperactivation coexisting with PIP#sub[2] depletion. Li#super[+]'s NCS-1 disruption would then be specifically therapeutic, dampening pathological Ca#super[2+] oscillations.
+    - *If NCS-1 is normal or reduced:* Li#super[+]'s disruption of a non-elevated NCS-1/InsP3R1 interaction might further impair calcium signaling in a system already compromised. It would make Li#super[+] the wrong therapeutic choice and low-dose NCS-1 agonism potentially beneficial.
+
+NCS-1 protein quantification in ME/CFS PBMCs by ELISA or Western blot would be inexpensive, immediately feasible on stored biobank samples, and diagnostically informative. It could also serve as a patient-stratification biomarker predicting lithium response direction — one of the most actionable unknowns in the low-dose lithium research agenda.
+] <oq:ncs1-mecfs-expression>
 
 == Autonomic Nervous System Dysfunction
 <sec:ans-pathophysiology>

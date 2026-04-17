@@ -362,7 +362,50 @@ This mechanism transforms the GPCR autoantibody hypothesis and the TRPM3 channel
 *Falsifiable predictions:* (a) PIP#sub[2] levels in ME/CFS NK cell membranes (measured by anti-PIP#sub[2] immunofluorescence or membrane phosphoinositide mass spectrometry) should be reduced compared to healthy controls. (b) _In vitro_ PIP#sub[2] supplementation (exogenous diC8-PIP#sub[2]) should partially rescue TRPM3-mediated Ca#super[2+] flux in ME/CFS cells even without naltrexone. (c) GPCR autoantibody titers should inversely correlate with membrane PIP#sub[2] levels across ME/CFS patients.
 
 (Certainty: 0.45. The PIP#sub[2]/TRPM3 co-localization deficit is a direct experimental finding; the GPCR $arrow.r$ PLC $arrow.r$ PIP#sub[2] cascade is established signaling biology; the convergence as a unified mechanism is inferred, not demonstrated. Not yet replicated.)
+
+_Intersection with low-dose lithium:_ Li#super[+] inhibits IMPase/IMPA1, the enzyme regenerating free inositol for PIP#sub[2] resynthesis, and disrupts the NCS-1/InsP3R1 interaction that amplifies IP3-mediated Ca#super[2+] release. These actions directly impinge on the PIP#sub[2] supply problem described here — see @spec:low-dose-lithium for mechanistic detail and certainty assessment.
 ] <hyp:ch14h-pip2-convergence>
+
+=== PLC-Delta Positive Feedback and Self-Sustaining PIP#sub[2] Depletion
+<sec:plc-delta-feedback>
+
+#speculation(title: [PLC-delta Positive Feedback Loop: PIP#sub[2] Depletion as a Self-Sustaining State])[
+PLC exists in multiple isoforms with distinct activation mechanisms: PLC-$beta$ is activated by G-protein-coupled receptors (the GPCR autoantibody route described in @hyp:ch14h-pip2-convergence), while PLC-$delta$ is activated by elevated cytosolic Ca#super[2+] itself. If GPCR autoantibody-driven PLC-$beta$ activity raises cytosolic calcium, this elevation may activate PLC-$delta$ independently, generating a self-amplifying cycle: elevated Ca#super[2+] → PLC-$delta$ activation → PIP#sub[2] cleavage → more IP3 → more ER Ca#super[2+] release → more cytosolic Ca#super[2+].
+
+If this positive feedback loop becomes autonomous, PIP#sub[2] depletion would persist even after autoantibody removal. This could explain why immunoadsorption and BC007 therapy produce inconsistent or partial responses in some patients: by the time the autoantibodies are cleared, the PLC-$delta$ feedback loop may have become self-sustaining at a level independent of GPCR stimulation.
+
+*Falsifiable predictions.* (a) PLC-$delta$ expression or activity is elevated in ME/CFS cells relative to healthy controls. (b) PLC-$delta$ inhibition (e.g., compound U73122 in vitro, or calcium chelation) allows PIP#sub[2] to recover even without removal of GPCR autoantibodies. (c) ME/CFS patients with residual PIP#sub[2] depletion after successful autoantibody clearance show higher PLC-$delta$ activity than those who fully recover.
+
+(Certainty: 0.15. PLC-$delta$ calcium activation is established cell biology; its role in sustaining ME/CFS pathology is entirely inferred. No ME/CFS-specific data on PLC isoforms exist. Not yet replicated.)
+] <spec:plc-delta-feedback>
+
+=== Store-Operated Calcium Entry and Futile Cycling
+<sec:soce-futile-cycling>
+
+#speculation(title: [Futile ER Calcium Cycling via STIM1/Orai1 in ME/CFS])[
+When ER calcium stores are depleted by chronic IP3-driven release, STIM1 proteins in the ER membrane oligomerize and translocate to ER--plasma membrane junctions, activating Orai1 channels to trigger store-operated calcium entry (SOCE). This is the cell's homeostatic refilling response. In a context of chronic GPCR autoantibody-driven IP3 generation, however, SOCE may enter a futile cycle: calcium imported via Orai1 is pumped into the ER by SERCA (consuming 1 ATP per 2 Ca#super[2+] ions transported), only to be immediately released again by ongoing IP3R activation, before SERCA can complete refilling. The net result is continuous SOCE activation, elevated cytosolic calcium, persistent ER Ca#super[2+] depletion, and significant ATP consumption with no net restoration of calcium homeostasis.
+
+An additional complication: Orai1 channel activity itself requires PIP#sub[2] for proper gating. In ME/CFS, where membrane PIP#sub[2] is already depleted (@hyp:ch14h-pip2-convergence), SOCE could be doubly compromised — STIM1 signaling is activated (by ER depletion) but Orai1 cannot respond normally (due to PIP#sub[2] deficiency). The cell would thus be simultaneously unable to restore ER calcium and unable to fully activate the compensatory channel.
+
+*Falsifiable predictions.* (a) STIM1 puncta formation (an ER--plasma membrane junction marker visible by immunofluorescence) should be elevated in resting ME/CFS cells relative to healthy controls, reflecting chronic ER calcium depletion. (b) Thapsigargin-releasable ER calcium should be reduced in ME/CFS cells (smaller ER calcium pool). (c) SERCA-dependent ATP consumption (oligomycin-sensitive OCR fraction) should be elevated in ME/CFS cells, reflecting futile cycling.
+
+(Certainty: 0.25. Each individual component — SOCE activation, SERCA ATP cost, PIP#sub[2] Orai1 dependence — is established cell biology. The convergence as a futile cycling state in ME/CFS is inferred from the GPCR autoantibody hypothesis; no direct measurement of SOCE activity or STIM1 puncta in ME/CFS cells has been published. Not yet replicated.)
+] <spec:soce-futile-cycling>
+
+=== ER-to-Mitochondria Calcium Transfer: IP3R/VDAC/MCU Axis
+<sec:ip3r-vdac-mcu>
+
+#speculation(title: [Dual-Route Mitochondrial Calcium Overload in ME/CFS: NCX Reversal Plus IP3R/VDAC/MCU])[
+The NCX reversal mechanism (NHE1 → Na#super[+] overload → NCX1 reverse mode → cytoplasmic Ca#super[2+] import) is described in @hyp:calcium-pem as the plasma-membrane route to mitochondrial calcium overload during PEM. A second, simultaneous route operates from the ER side: at mitochondria-associated ER membranes (MAMs), IP3R3 forms physical complexes with VDAC1 on the outer mitochondrial membrane, linked by the chaperone GRP75. Ca#super[2+] released from ER via IP3R is preferentially funnelled through VDAC1 into the intermembrane space, then through the mitochondrial calcium uniporter (MCU) into the matrix.
+
+If GPCR autoantibody-driven PLC activation generates chronic IP3 flux, ER calcium release would be elevated. NCS-1 (neuronal calcium sensor protein 1) amplifies IP3R channel open probability approximately five-fold; whether NCS-1 expression is elevated in ME/CFS is unknown, but if so this would further amplify ER Ca#super[2+] release (see @oq:ncs1-mecfs-expression and @spec:low-dose-lithium). The IP3R/GRP75/VDAC1/MCU pathway would then deliver excessive calcium directly to the mitochondrial matrix. This ER-side route is additive with the NCX-reversal route: during PEM, both could operate simultaneously — NCX-reversal from plasma membrane-side sodium overload, AND IP3R/VDAC/MCU from ER-side IP3 excess. The combination would impose greater mitochondrial calcium loading than either mechanism alone, potentially explaining why mitochondrial damage in ME/CFS appears disproportionate to the degree of ischemia.
+
+A further connection: S1R stabilises IP3R3 at MAMs (Section @subsubsec:sigma1-mechanism). If S1R function is impaired in ME/CFS (by viral protein binding, ER stress, or autoimmune disruption), the IP3R3/MAM coupling may become dysregulated, contributing to uncontrolled calcium transfer.
+
+*Falsifiable predictions.* (a) ME/CFS patient cells should show elevated mitochondrial calcium at baseline, measurable by Rhod-2 AM fluorescence. (b) IP3R inhibition (2-APB or xestospongin C, in vitro) should reduce mitochondrial calcium overload in ME/CFS cells more than in healthy controls. (c) GRP75 expression or IP3R3/VDAC1 co-localization at MAMs should be altered in ME/CFS cells.
+
+(Certainty: 0.30. The IP3R/GRP75/VDAC1/MCU calcium transfer pathway is well-established cell biology. Application to ME/CFS is entirely inferential from the PIP#sub[2] exhaustion and GPCR autoantibody hypotheses. No direct MAM or MCU measurements in ME/CFS tissue exist. Not yet replicated.)
+] <spec:ip3r-vdac-mcu-overload>
 
 === The Expanded TRP Channel Sensitization Hypothesis
 

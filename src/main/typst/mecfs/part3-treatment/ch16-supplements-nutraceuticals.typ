@@ -1050,9 +1050,17 @@ Myo-inositol is the head-group precursor for phosphatidylinositol (PI) synthesis
     - PIP#sub[2] requirement for TRPM3 gating: established biochemistry
     - Brain inositol alterations in ME/CFS: indirect evidence of phosphoinositide disruption
 
+*Inositol forms: which to use and which to avoid.*
+
+Not all commercially available inositol forms are interchangeable for PIP#sub[2] replenishment:
+
+    - *Myo-inositol*: The physiologically dominant isomer (>95% of the body inositol pool) and the direct precursor for phosphatidylinositol synthesis. The only appropriate form for PIP#sub[2] strategy. Available as powder at 2--4 g/day; well-tolerated; extensive safety data from PCOS and depression trials.
+    - *D-chiro-inositol (DCI)*: A minor isomer (~3% of body pool) that participates in insulin signaling via GPI-linked mediators. DCI is _not_ efficiently converted back to myo-inositol and does _not_ directly support PIP#sub[2] synthesis. High DCI:myo ratios in the PCOS literature correlate with impaired outcomes. DCI is irrelevant for the PIP#sub[2] replenishment strategy described here.
+    - *IP6 (inositol hexakisphosphate / phytic acid)*: Six phosphate groups must be removed sequentially before free myo-inositol is liberated --- a slow process that occurs primarily in the gut. Meanwhile, IP6 strongly chelates Fe#super[2+], Zn#super[2+], Ca#super[2+], and Mg#super[2+] --- minerals commonly deficient in ME/CFS. The mineral depletion risk outweighs any theoretical PIP#sub[2] benefit. Not recommended as a PIP#sub[2] replenishment strategy.
+
 *Dosing (research-stage rationale only).*
 
-    - 2–4 g/day myo-inositol (most studied form for phosphoinositide support)
+    - 2--4 g/day myo-inositol (most studied form for phosphoinositide support)
     - Split into two doses; may be taken with food
     - 8-week trial period to allow membrane remodeling
 
@@ -1065,6 +1073,16 @@ Myo-inositol is the head-group precursor for phosphatidylinositol (PI) synthesis
 #speculation(title: [Myo-Inositol + LDN: PIP#sub[2] Environment Restoration + TRPM3 Gating Restoration])[
 *Certainty: 0.25.* Both approaches target TRPM3 dysfunction through different mechanisms: inositol replenishes the membrane lipid environment (PIP#sub[2] pool), while LDN restores channel gating responsiveness. If PIP#sub[2] depletion is an upstream contributor to TRPM3 dysfunction, inositol would address a cause that LDN alone cannot correct; LDN would additionally restore receptor-mediated channel activation. This combination is entirely theoretical and untested. Falsifiable prediction: In ME/CFS patients with documented TRPM3/PIP#sub[2] co-localization deficit, 8-week myo-inositol supplementation should increase PIP#sub[2]/TRPM3 co-localization measured by immunofluorescence and improve NK cytotoxicity, with additive effect when combined with LDN.
 ] <spec:inositol-ldn-synergy>
+
+#speculation(title: [Myo-Inositol as Lithium Co-Therapy: Decoupling Beneficial and Harmful Arms])[
+*Certainty: 0.30.* Low-dose lithium inhibits IMPase/IMPA1, depleting free inositol and slowing PIP#sub[2] resynthesis @harwood2005inositol @saha2023impa1 — a potentially harmful effect in ME/CFS, where PIP#sub[2] is already depleted by GPCR autoantibody-driven PLC activity (@sec:pip2-depletion-convergence). However, lithium's inositol depletion simultaneously drives mTOR-independent autophagy via IP3 accumulation (Sade et al., 2016 @sade2016ip3) and dampens NCS-1-amplified IP3R activity @schlecker2006ncs1 — effects that may be beneficial. Co-administration of myo-inositol could selectively restore the PIP#sub[2] pool via mass action (providing substrate downstream of the blocked IMPase) while preserving the IP3-driven autophagy benefit, because IP3 accumulation persists regardless of inositol levels when IMPase remains inhibited.
+
+This pharmacological separation is non-obvious and mechanistically specific: inositol rescues the PIP#sub[2] arm without fully reversing lithium's IP3/autophagy arm. It is directly testable: in ME/CFS PBMCs or iPSC-derived neurons treated with Li#super[+] (0.5 mM) ± myo-inositol (10 mM), preserved autophagy flux (LC3-II/I ratio) with restored membrane PIP#sub[2] levels would confirm the separation. If inositol also abolishes the IP3/autophagy signal, the separation fails.
+
+_Not a clinical recommendation._ This remains entirely pre-clinical rationale. No ME/CFS trial data for this combination exist.
+
+(Certainty: 0.30 — mechanism established in cell models; ME/CFS-specific duality is inferential; pharmacological separation hypothesis is untested. Not yet replicated in ME/CFS context.)
+] <spec:inositol-lithium-cotherapy>
 
 *Energy Profile.*
 Category B (energy-neutral). Small organic molecule requiring minimal metabolic processing. Enzymatic phosphorylation to PIP#sub[2] is part of normal phospholipid metabolism.

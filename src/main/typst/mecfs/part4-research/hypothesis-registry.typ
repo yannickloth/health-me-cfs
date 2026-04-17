@@ -2917,3 +2917,67 @@ Motivated by: Nguyen 2017 @Nguyen2017trpm3; Cabanas 2019 electrophysiology @Caba
 ) <tab:registry-calcium-brainstorm-2026-04-18>
 ] // end landscape page
 
+=== Entries Added 2026-04-17: Li#super[+]/IMPase/IP3/PIP#sub[2] Axis Integration
+
+Motivated by: integration of the Li#super[+] → IMPase → PIP#sub[2] depletion → reduced IP3-mediated Ca#super[2+] release chain; 8 papers on the inositol depletion hypothesis and NCS-1/InsP3R1 axis. Sources: @saha2023impa1 @schlecker2006ncs1 @boeckel2018ncs1 @harwood2005inositol @belmaker1998inositol @sade2016ip3 @nguyen2019ncs1 @yu2016inositolGSK3.
+
+#page(flipped: true, margin: 1.5cm)[
+#figure(
+  table(
+    columns: (1.6fr, 0.5fr, 0.6fr, 2.8fr, 1.2fr, 1.2fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Open Question*],
+      [*Type*],
+      [*Certainty*],
+      [*Condensed Predictions / Key Points*],
+      [*Test Method*],
+      [*Location*],
+    ),
+    [NCS-1 Expression in ME/CFS: Elevated, Normal, or Reduced?],
+    [[OQ]],
+    [[-]],
+    [NCS-1 amplifies InsP3R1 ~5×; Li#super[+] disrupts this. If elevated: Li#super[+] is therapeutic. If normal/reduced: Li#super[+] may be harmful. Divergent treatment implications make this a critical unknown.],
+    [NCS-1 ELISA/Western blot on ME/CFS PBMCs vs healthy controls — feasible on stored biobank samples. Correlation with disease severity and TRPM3 dysfunction.],
+    [Ch.8 @oq:ncs1-mecfs-expression],
+
+    [PLC-delta Positive Feedback: PIP#sub[2] Depletion as Autonomous State],
+    [[S]],
+    [[0.15]],
+    [Elevated cytosolic Ca#super[2+] activates PLC-$delta$, consuming more PIP#sub[2] — a self-amplifying loop making depletion persist after autoantibody removal.],
+    [PLC-$delta$ expression/activity in ME/CFS cells. Autoantibody clearance ± PLC-$delta$ inhibition for PIP#sub[2] recovery.],
+    [Ch.14h @spec:plc-delta-feedback],
+
+    [Futile ER Calcium Cycling via STIM1/Orai1 SOCE],
+    [[S]],
+    [[0.25]],
+    [Chronic IP3-driven ER depletion activates SOCE; imported Ca#super[2+] immediately re-released; SERCA wastes ATP. Orai1 also PIP#sub[2]-dependent — double failure. (a) Elevated STIM1 puncta; (b) reduced TG-releasable ER Ca#super[2+]; (c) elevated SERCA-dependent OCR.],
+    [STIM1 puncta immunofluorescence; thapsigargin protocol; Seahorse OCR fractionation.],
+    [Ch.14h @spec:soce-futile-cycling],
+
+    [Dual-Route Mitochondrial Calcium Overload: NCX Reversal + IP3R/VDAC/MCU],
+    [[S]],
+    [[0.30]],
+    [NCX-reversal (plasma-membrane Ca#super[2+] import) and IP3R/VDAC/MCU (ER → mitochondria via MAM) both operate during PEM, causing additive mitochondrial Ca#super[2+] overload disproportionate to ischemia alone.],
+    [Rhod-2 AM baseline mitochondrial Ca#super[2+]; 2-APB in ME/CFS vs controls; GRP75/VDAC1/IP3R3 co-localization.],
+    [Ch.14h @spec:ip3r-vdac-mcu-overload],
+
+    [Myo-Inositol + Lithium Co-Therapy: Decoupled Benefit/Harm Arms],
+    [[S]],
+    [[0.30]],
+    [Myo-inositol restores PIP#sub[2] (reversing Li#super[+] IMPase arm) while IP3-driven autophagy persists. LC3-II/I preserved with Li#super[+] + inositol; PIP#sub[2] restored.],
+    [Li#super[+] ± myo-inositol in ME/CFS PBMCs: LC3-II/I (autophagy), membrane PIP#sub[2] (IF), TRPM3 Ca#super[2+] flux.],
+    [Ch.16 @spec:inositol-lithium-cotherapy],
+
+    [Fluvoxamine + Low-Dose Lithium: Complementary IP3R Axis Modulation],
+    [[S]],
+    [[0.25]],
+    [Li#super[+] dampens bulk IP3R ER Ca#super[2+] release; fluvoxamine/S1R preserves IP3R3/MAM transfer for mitochondria. Combined: reduced pathological Ca#super[2+] with preserved mitochondrial Ca#super[2+] supply.],
+    [iPSC neurons + muscarinic agonist: cytosolic Ca#super[2+] (Fura-2) + mitochondrial Ca#super[2+] (Rhod-2). Li#super[+] alone reduces both; Li#super[+] + fluvoxamine reduces cytosolic, preserves mitochondrial.],
+    [Ch.18 @spec:fluvoxamine-lithium-ip3r],
+  ),
+  caption: [Li#super[+]/IMPase/IP3/PIP#sub[2] axis integration (2026-04-17): 6 new entries. Extends @hyp:ch14h-pip2-convergence and @spec:low-dose-lithium. Motivated by @saha2023impa1 @schlecker2006ncs1 @harwood2005inositol @belmaker1998inositol @sade2016ip3.],
+  kind: table,
+) <tab:registry-lithium-ip3-pip2-2026-04-17>
+] // end landscape page
+
