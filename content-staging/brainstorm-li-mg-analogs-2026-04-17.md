@@ -1,3 +1,5 @@
+/integrate-topic all the things below:
+
 # Brainstorm: Substances with Li/Mg-Analogous Relationships in ME/CFS
 **Date:** 2026-04-17
 **Trigger:** Analysis of Li/Mg ionic substitution, shared enzyme targets, and convergent mechanisms  
