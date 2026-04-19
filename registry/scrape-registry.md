@@ -168,3 +168,29 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/15558078/ | pubmed | 2026-04-17 | 2026-04-17 | bib/appendix-h — harwood2005inositol — inositol depletion hypothesis revisited Mol Psychiatry |
 | https://pubmed.ncbi.nlm.nih.gov/9653710/ | pubmed | 2026-04-17 | 2026-04-17 | bib/appendix-h — belmaker1998inositol — behavioral reversal lithium by inositol isomers Neuropsychopharmacology |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5751514/ | PMC | 2026-04-17 | 2026-04-17 | bib/appendix-h — yu2016inositolGSK3 — inositol depletion GSK3 inhibition bipolar Future Neurology |
+| https://pubmed.ncbi.nlm.nih.gov/37648856/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Lansky2023trpv3pentamer — TRPV3 pentamer HS-AFM cryo-EM pore dilation Nature |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12081643/ | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Lansky2025trpv3dynamics — TRPV3 pentamer structural dynamics Nat Commun |
+| https://pubmed.ncbi.nlm.nih.gov/21451044/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Cavanaugh2011trpv1vascular — TRPV1 arteriolar smooth muscle vasoconstriction J Neurosci |
+| https://pubmed.ncbi.nlm.nih.gov/32944976/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Phan2020trpv1arterial — TRPV1 arterial circulation vasoconstriction blood pressure J Physiol |
+| https://pubmed.ncbi.nlm.nih.gov/35020949/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Phan2022trpv1myogenic — TRPV1 myogenic tone arteries J Physiol |
+| https://pubmed.ncbi.nlm.nih.gov/38399371/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — RiveraMancilla2024trpDermal — TRPA1/TRPM3/TRPV1 human dermal arteries Pharmaceuticals |
+| https://pubmed.ncbi.nlm.nih.gov/39539288/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Ren2024oligomeric — oligomeric rearrangement channel activity Biophys Rep |
+| https://pubmed.ncbi.nlm.nih.gov/33007264/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Delmas2020snapShot — SnapShot orofacial sensation TRP family Cell |
+| <https://www.explorationpub.com/Journals/ent/Article/1004112> | explorationpub | 2026-04-19 | 2026-04-19 | bib/appendix-h — LopezAmador2025orexin — integrative review orexin system ME/CFS 27 studies |
+| <https://pubmed.ncbi.nlm.nih.gov/21813697/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Grossberg2011orexinLethargy — inflammation-induced lethargy orexin neuron suppression J Neurosci |
+| <https://pubmed.ncbi.nlm.nih.gov/19328847/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Gaykema2009orexinSickness — LPS Fos suppression orexin neurons sickness behavior BBI |
+| <https://pubmed.ncbi.nlm.nih.gov/24216337/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Weymann2014orexinChemoFatigue — orexin chemotherapy-induced fatigue BBI |
+| <https://pubmed.ncbi.nlm.nih.gov/40149526/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Ruhrländer2025orexinPASC — orexin autonomic cardiometabolic PASC Biomedicines |
+| <https://pmc.ncbi.nlm.nih.gov/articles/PMC12173137/> | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Heinicke2025orexinCOVID — plasma orexin-A COVID-19 ICU BJA Open |
+| <https://pubmed.ncbi.nlm.nih.gov/37796986/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Ito2023orexinREM — orexin deficiency REM sleep architecture narcolepsy PNAS |
+| <https://pubmed.ncbi.nlm.nih.gov/41076550/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Rauf2025narcolepsyOrexin — orexin deficiency narcolepsy mechanisms agonist therapeutics Brain Behavior |
+| <https://pubmed.ncbi.nlm.nih.gov/9527442/> | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Sakurai1998orexin — orexin/hypocretin discovery neuropeptides GPCRs Cell 1998 |
+| https://pubmed.ncbi.nlm.nih.gov/39788123/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Hauglund2025neVasomotion — NE vasomotion drives glymphatic clearance Cell 2025 |
+| https://pubmed.ncbi.nlm.nih.gov/31672896/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Fultz2019csfOscillations — EEG/hemodynamic/CSF oscillations human NREM sleep Science |
+| https://pubmed.ncbi.nlm.nih.gov/30679382/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Holth2019tauSleep — sleep-wake cycle regulates ISF tau + CSF tau Science |
+| https://pubmed.ncbi.nlm.nih.gov/26245965/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Lee2015sleepPosition — lateral sleep position and glymphatic transport J Neurosci |
+| https://pubmed.ncbi.nlm.nih.gov/34526407/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — HablitzNedergaard2021glymphatic — glymphatic system fundamental neurobiology review J Neurosci |
+| https://pubmed.ncbi.nlm.nih.gov/28899014/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Ju2017slowWaveAmyloid — slow wave disruption increases CSF amyloid-beta Brain |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12339398/ | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Zhu2025noradrenergicGlymphatic — noradrenergic modulation glymphatic Mol Psychiatry |
+| https://pubmed.ncbi.nlm.nih.gov/40108491/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Chaganti2025longCovidGlymphatic — DTI-ALPS glymphatic dysfunction Long COVID BMC Neurology |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12182059/ | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Tang2025covidSleepDTIALPS — glymphatic alterations post-COVID sleep disorder DTI-ALPS Nat Sci Sleep |
