@@ -2981,3 +2981,97 @@ Motivated by: integration of the Li#super[+] → IMPase → PIP#sub[2] depletion
 ) <tab:registry-lithium-ip3-pip2-2026-04-17>
 ] // end landscape page
 
+=== Entries Added 2026-04-19: TRP Pentamerization and Vascular TRPV1
+
+Motivated by: LinkedIn comment on v7 calcium post (Lansky 2023/2025 TRPV3 pentamer; Cavanaugh 2011/Phan 2020/2022 arteriolar TRPV1); 8 papers integrated.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (2.5fr, 0.4fr, 0.5fr, 3fr, 3fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header([*Title*], [*Type*], [*Cert.*], [*Core Claim*], [*Test (Method)*], [*Location*]),
+
+    [TRP Pentamer Formation as Gain-of-Function Escalation in ME/CFS],
+    [[S]],
+    [[0.20]],
+    [Sustained TRP agonist exposure drives tetramer→pentamer transition (5.3× wider pore); if occurring in ME/CFS, produces uncontrolled ionic leak via hyper-conductive pore. Feedforward: each inflammatory episode increases pentamer fraction.],
+    [Single-molecule imaging or native gel of TRP channels in ME/CFS patient cells: pentamer:tetramer ratio vs controls. Tetrameric stabilizers should reduce Ca#super[2+] flux.],
+    [Ch.14h @spec:trp-pentamer-escalation],
+
+    [Arteriolar TRPV1 as PEM Vasoconstriction Mechanism],
+    [[H]],
+    [[0.40]],
+    [TRPV1 in skeletal muscle arteriolar smooth muscle activated by exercise-generated LPA → sustained non-desensitizing vasoconstriction → impaired perfusion during and after exertion. Explains prolonged PEM duration (12–72h) via LPA kinetics.],
+    [TRPV1 antagonist (AMG 517) + NIRS during exercise in ME/CFS: attenuated perfusion drop = positive. Plasma LPA post-exercise should be elevated vs controls and correlate with PEM severity.],
+    [Ch.14h @hyp:arteriolar-trpv1-pem],
+
+    [PIP#sub[2] Depletion Lowers Pentamerization Threshold],
+    [[S]],
+    [[0.15]],
+    [PIP#sub[2] stabilizes TRP tetrameric closed state; depletion (via GPCR autoantibody-driven PLC) lowers barrier to pentamer transition. ME/CFS channels constitutively closer to pentamerization threshold.],
+    [In vitro: PIP#sub[2] depletion + HS-AFM should increase TRPV3 pentamer frequency. ME/CFS cells + exogenous diC8-PIP#sub[2] should show reduced pentamer fraction.],
+    [Ch.14h @spec:pip2-pentamer-susceptibility],
+
+    [Two-Compartment PEM: NCX Reversal + Arteriolar TRPV1],
+    [[S]],
+    [[0.35]],
+    [NCX reversal (cellular Ca#super[2+]) and arteriolar TRPV1 (vascular tone) couple through ischemia: vasoconstriction prevents ATP recovery needed to reverse NCX. Three temporal phases (0–2h, 2–24h, 24–72h).],
+    [Combined NCX modulator + TRPV1 antagonist should reduce PEM duration more than either alone. Sequential NIRS + #super[23]Na-MRI at 24h post-exercise.],
+    [Ch.14h @spec:two-compartment-pem],
+
+    [LPA--Microclot--TRPV1 Triangle],
+    [[S]],
+    [[0.30]],
+    [Three-way positive feedback: microclots → ischemia → LPA → TRPV1 vasoconstriction → altered flow → more microclots. Connects ch10 coagulation to ch14h channelopathy via LPA.],
+    [Post-exercise simultaneous LPA + D-dimer + NIRS. Anticoagulation should attenuate LPA elevation.],
+    [Ch.14h @spec:lpa-microclot-trpv1-triangle],
+
+    [Mast Cell--TRPV1 Dual Amplification Loop],
+    [[S]],
+    [[0.25]],
+    [Mast cell degranulation → PGE#sub[2] → TRPV1 sensitization → vasoconstriction → ischemia → mast cell activation. Self-sustaining local circuit.],
+    [Ketotifen should reduce exercise-induced vasoconstriction (NIRS). Ketotifen + ambroxol synergistic for PEM reduction vs either alone.],
+    [Ch.14h @spec:mast-cell-trpv1-loop],
+
+    [Tissue-Specific TRP Response Map],
+    [[S]],
+    [[0.35]],
+    [Single TRP channelopathy produces different phenotypes per tissue (TRPV1 vasoconstriction in muscle, TRPM3 relaxation failure in skin, TRPM3 degranulation failure in NK cells). Explains multi-system disease from one mechanism.],
+    [Symptom domain should predict tissue-specific TRP dysfunction profile. Vascular-dominant patients: greater arteriolar TRPV1; immune-dominant: greater TRPM3.],
+    [Ch.14h @spec:tissue-trp-map],
+
+    [NEO6860 TRPV1 Antagonist for ME/CFS],
+    [[S]],
+    [[0.30]],
+    [Next-gen TRPV1 antagonist blocking inflammatory activation while preserving thermoregulation. Phase II complete for osteoarthritis.],
+    [NEO6860 should improve exercise tolerance (NIRS, CPET) and reduce PEM in ME/CFS with confirmed exercise-induced perfusion deficit.],
+    [Ch.14h @spec:neo6860-trpv1],
+
+    [Autotaxin Inhibitors to Block LPA-Driven PEM],
+    [[S]],
+    [[0.25]],
+    [Autotaxin converts LPC → LPA; inhibition reduces LPA available to activate arteriolar TRPV1. Ziritaxestat in Phase III for IPF.],
+    [Autotaxin inhibitor should reduce post-exercise LPA (LC-MS/MS) and PEM severity. Highest-LPA patients should benefit most.],
+    [Ch.14h @spec:autotaxin-inhibitors],
+
+    [Omega-3 as LPA Substrate Competitors],
+    [[S]],
+    [[0.25]],
+    [EPA/DHA compete with AA for PLA2; higher omega-3 membrane incorporation shifts products away from LPA precursors.],
+    [High-dose EPA/DHA (3 g/day, 3 mo) should lower post-exercise LPA. Effect correlates with omega-3 index.],
+    [Ch.14h @spec:omega3-lpa-competition],
+
+    [Post-Exercise LPA Panel as PEM Subtyping Biomarker],
+    [[OQ]],
+    [],
+    [LC-MS/MS of plasma LPA species at baseline + 4h post-exercise distinguishes vascular-component PEM from metabolic-only PEM. Adds third dimension to Subtype A/B classification.],
+    [Elevated LPA + elevated Na = A+LPA+ (metabolic + vascular). Normal LPA + elevated Na = A+LPA− (metabolic only). Stratifies intervention trials.],
+    [Ch.14h @oq:lpa-biomarker-panel],
+  ),
+  caption: [TRP pentamerization and vascular TRPV1 integration (2026-04-19): 11 entries (1 hypothesis, 9 speculations, 1 open question). Extends @spec:ch14h-trp-expanded. Motivated by @Lansky2023trpv3pentamer @Lansky2025trpv3dynamics @Cavanaugh2011trpv1vascular @Phan2020trpv1arterial @Phan2022trpv1myogenic @RiveraMancilla2024trpDermal.],
+  kind: table,
+) <tab:registry-trp-pentamer-vascular-2026-04-19>
+] // end landscape page
+

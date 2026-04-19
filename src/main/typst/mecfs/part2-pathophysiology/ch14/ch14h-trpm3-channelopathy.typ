@@ -507,6 +507,187 @@ channels @Hefner2025AmbroxolTRPV1.
 application is entirely extrapolated. Not yet replicated in ME/CFS.)
 ] <spec:ch14h-ambroxol-trp>
 
+=== TRP Channel Pentamerization: A Structural Escalation Mechanism
+<sec:trp-pentamerization>
+
+#speculation(title: [TRP Pentamer Formation as a Gain-of-Function Escalation in ME/CFS])[
+TRP channels are canonically tetramers --- four subunits assembling around a central ion-conducting pore. In 2023, Lansky et al.\ used high-speed atomic force microscopy (HS-AFM) combined with cryo-EM to demonstrate that TRPV3 channels transition from tetramers to pentamers under sustained agonist exposure, via membrane-diffusive protomer exchange @Lansky2023trpv3pentamer. The pentameric pore is approximately 2.4-fold wider than the tetrameric pore, with a lifetime of approximately 3 minutes, and is promoted by prolonged agonist application. A subsequent study from the same group (2025) resolved the pentameric structure at 4.07 Å by cryo-EM and performed molecular dynamics simulations confirming that the pentameric selectivity filter is 5.3-fold wider and the gate 7.3-fold wider than the closed tetramer, permitting free passage of large organic cations (Tris#super[+], NMDG#super[+], 2-MAE#super[+]) that are excluded by the tetramer @Lansky2025trpv3dynamics. Multiple structurally diverse agonists (2-APB, camphor, propofol) destabilize tetramers and facilitate pentamer formation, and the authors describe the pentameric state as "hyper-activated." Ren et al.\ (2024) proposed oligomeric stoichiometry switching as a general gating mechanism across ion channel families, suggesting it may extend beyond TRPV3 @Ren2024oligomeric.
+
+*Proposed ME/CFS relevance:* If sustained pathological stimulation of TRP channels in ME/CFS --- driven by chronic oxidative stress, elevated prostaglandins, or inflammatory lipids (Section @spec:ch14h-trp-expanded) --- promotes tetramer-to-pentamer transition, the result would be a qualitative shift from modulated ion flux to uncontrolled ionic leak. This represents a fundamentally different state from simple loss-of-function or gain-of-function gating: a structural rearrangement producing a hyper-conductive pore that admits ions and molecules normally excluded.
+
+In a feedforward loop context: sensitized TRPV1 (by PGE#sub[2]) or TRPA1 (by ROS) → prolonged activation → protomer exchange → pentamer formation → dramatically amplified Ca#super[2+] influx → further inflammatory mediator release → further TRP activation. The 3-minute pentamer lifetime is sufficient to trigger sustained downstream calcium signaling cascades. If pentamer formation probability increases with each activation episode, disease progression would show a ratchet-like escalation --- each PEM episode or inflammatory flare driving a larger fraction of channels into the hyper-activated pentameric state.
+
+*Critical limitation:* Pentamer formation has been demonstrated only for TRPV3. Whether TRPM3, TRPV1, or TRPA1 undergo analogous stoichiometry transitions is unknown. The TRPV3 pentamer discovery is recent (2023) and independently replicated only by the same laboratory (Lansky/Scheuring group). Extrapolation to other TRP family members, and to ME/CFS pathophysiology specifically, is entirely inferential. No ME/CFS study has examined TRP channel stoichiometry in patient cells.
+
+*Falsifiable predictions.* (a) TRPV3 (and potentially TRPV1) channels in ME/CFS patient sensory neurons or immune cells should show elevated pentamer:tetramer ratios relative to healthy controls, measurable by single-molecule imaging or native gel electrophoresis. (b) Pharmacological stabilization of the tetrameric state (if such compounds are identified) should reduce TRP-mediated calcium flux in ME/CFS cells. (c) Pentamer formation frequency should correlate with disease severity or duration, reflecting cumulative inflammatory exposure.
+
+(Certainty: 0.20. TRPV3 pentamerization is established structural biology; extension to TRPM3 or other TRP channels is undemonstrated; application to ME/CFS is a double extrapolation. Not yet studied in ME/CFS.)
+] <spec:trp-pentamer-escalation>
+
+#speculation(title: [PIP#sub[2] Depletion Lowers the Pentamerization Threshold])[
+PIP#sub[2] stabilizes TRP channels in their closed or low-conductance tetrameric conformations. The PIP#sub[2] depletion mechanism described in Section @hyp:ch14h-pip2-convergence --- where GPCR autoantibody-driven PLC-$beta$ activity chronically consumes PIP#sub[2] --- may create a constitutive predisposition to pentamer formation. If PIP#sub[2] depletion destabilizes the tetrameric closed state, then a lower concentration of agonist would suffice to trigger protomer exchange and pentamer assembly. The chain: GPCR autoantibodies → PLC-$beta$ → PIP#sub[2] consumption → loss of tetrameric stabilization → lower barrier to pentamer transition → hyper-conductive pore at sub-threshold stimuli → calcium overload → PLC-$delta$ activation (Section @spec:plc-delta-feedback) → further PIP#sub[2] depletion.
+
+This would mean ME/CFS patients' TRP channels are constitutively _closer_ to the pentamerization threshold than healthy channels, even before an exertion trigger. Every inflammatory episode or PEM event would push more channels across a lowered threshold.
+
+*Falsifiable prediction.* In vitro, PIP#sub[2] depletion (using a synthetic PIP#sub[2] phosphatase or PLC activators) should increase TRPV3 pentamer frequency measurable by HS-AFM. ME/CFS cells with documented PIP#sub[2] depletion should show higher pentamer fractions than PIP#sub[2]-replete cells from the same patients after exogenous diC8-PIP#sub[2] supplementation.
+
+(Certainty: 0.15. PIP#sub[2]'s role in TRP channel gating is established; that PIP#sub[2] depletion specifically facilitates pentamer formation is inferred, not demonstrated. Not yet studied.)
+] <spec:pip2-pentamer-susceptibility>
+
+The pentameric pore has implications beyond calcium flux. Lansky et al.\ (2025) demonstrated that the pentameric channel admits large organic cations --- Tris#super[+] (MW 121), NMDG#super[+] (MW 195), 2-MAE#super[+] --- that tetrameric channels exclude @Lansky2025trpv3dynamics. If pentamerization occurs in ME/CFS, this represents a loss of membrane molecular selectivity, not merely increased ion flux. Pentamerized channels could theoretically admit polyamines (spermine, spermidine) or other normally membrane-impermeant molecules, potentially disrupting intracellular signaling through mechanisms entirely distinct from calcium overload. This "molecular sieve failure" is highly speculative (certainty: 0.10) and would require demonstration that pentameric TRP channels in vivo admit specific pathologically relevant molecules.
+
+If pentamer formation probability increases cumulatively with each inflammatory episode, the pentamer:tetramer ratio could serve as a molecular record of cumulative disease burden. This "pentamer ratchet" predicts that the ratio should correlate with disease duration (not just current severity), with patients of longer duration showing higher pentamer fractions at matched severity levels. This would be testable by native gel electrophoresis of TRP channels from PBMCs stratified by disease duration.
+
+=== Arteriolar TRPV1 and PEM-Associated Vasoconstriction
+<sec:arteriolar-trpv1-pem>
+
+#hypothesis(title: [TRPV1 in Vascular Smooth Muscle as a Mechanism for PEM-Associated Perfusion Failure])[
+TRPV1 expression is not restricted to sensory neurons. Using TRPV1-reporter mice and cross-species histology, Cavanaugh et al.\ (2011, Julius/Basbaum group) demonstrated functional TRPV1 expression in arteriolar smooth muscle cells across thermoregulatory tissues (cremaster, dura, tongue, trachea, skin), where capsaicin activation caused calcium influx and vasoconstriction --- the opposite of the vasodilation mediated by neuronal TRPV1 @Cavanaugh2011trpv1vascular.
+
+Phan et al.\ (2020) extended this finding to terminal arterioles in skeletal muscle, heart, and adipose tissue. TRPV1 activation in these resistance arterioles produced sustained vasoconstriction and elevated blood pressure that persisted after complete nerve ablation, confirming a vascular-intrinsic (non-neuronal) mechanism. Critically, arteriolar TRPV1 was resistant to desensitization --- unlike neuronal TRPV1, which rapidly desensitizes upon prolonged capsaicin exposure. The mechanism operates through TRPV1 membrane depolarization → L-type Ca#super[2+] channel activation → sustained smooth muscle contraction @Phan2020trpv1arterial. Lysophosphatidic acid (LPA), an inflammatory lipid generated during tissue damage, was identified as an endogenous activator.
+
+Phan et al.\ (2022) further demonstrated that TRPV1 drives rapid myogenic tone in cardiac and skeletal muscle arterioles via PLC/PKC signaling. TRPV1 antagonists dilated arterioles and increased coronary flow, while TRPM4 contributed the remaining tone. TRPV1 disruption also impaired post-constriction vasodilatory recovery @Phan2022trpv1myogenic.
+
+*Important tissue specificity nuance:* Rivera-Mancilla et al.\ (2024) examined human dermal arteries ex vivo and found that TRPV1 and TRPA1 did not activate standard vasodilation pathways in this tissue bed, while TRPM3 (activated by pregnenolone sulfate) produced relaxation via non-CGRP mechanisms @RiveraMancilla2024trpDermal. This demonstrates that TRP-mediated vascular effects are tissue-bed-specific: skeletal muscle resistance arterioles (Phan data) and dermal arteries (Rivera-Mancilla data) respond differently.
+
+*Proposed PEM mechanism:* During physical exertion in ME/CFS patients:
+
++ Exercise-induced micro-damage generates LPA and oxidized phospholipids in skeletal muscle
++ These endogenous ligands activate arteriolar TRPV1 in skeletal muscle resistance arterioles
++ TRPV1 activation → L-type Ca#super[2+] channel → sustained vasoconstriction
++ Non-desensitizing nature of arteriolar TRPV1 enables prolonged abnormal vascular tone
++ Sustained vasoconstriction → impaired oxygen and substrate delivery during and _after_ exertion
++ Compounded by: TRPM3-mediated vascular relaxation failure (@spec:ch14h-trp-expanded; @RiveraMancilla2024trpDermal) and stiffened RBCs (Section @spec:ch14h-piezo1-rbc)
++ The delayed and prolonged nature of PEM (12--72 hours post-exertion) is consistent with LPA generation kinetics following tissue micro-damage
+
+This mechanism addresses a gap in current PEM models: why perfusion failure persists long after exertion has ceased. NCX reversal (@sec:calcium-subtypes, Subtype A) explains the immediate sodium/calcium crisis, but the vascular component --- _why arteriolar tone remains elevated_ --- has lacked a molecular anchor. Arteriolar TRPV1, activated by exercise-generated inflammatory lipids and resistant to desensitization, provides this anchor.
+
+*Falsifiable predictions.* (a) TRPV1 expression in skeletal muscle arterioles from ME/CFS patients (skin punch biopsy with microvascular analysis, or post-mortem tissue) should be detectable and potentially upregulated relative to healthy controls. (b) TRPV1 antagonists (AMG 517, SB-705498 — research tools) should attenuate exercise-induced perfusion reduction in ME/CFS patients, measurable by near-infrared spectroscopy (NIRS) or contrast-enhanced ultrasound of muscle microcirculation. (c) Plasma LPA levels should be elevated post-exercise in ME/CFS patients relative to healthy controls, and should correlate with PEM severity. (d) TRPV1 antagonism should not affect PEM severity in patients whose PEM is primarily metabolic (Subtype A dominant per Section @spec:ch14h-subtype-protocol) rather than vascular.
+
+(Certainty: 0.40. Arteriolar TRPV1 expression and non-desensitizing vasoconstriction are established in rodent models (two independent groups: Julius/Basbaum and Ahern). LPA as endogenous activator is demonstrated. Application to ME/CFS PEM is entirely inferential --- no ME/CFS vascular TRPV1 data exist. Tissue specificity (Rivera-Mancilla 2024 dermal vs Phan skeletal muscle) remains an open question for human tissue. Not yet studied in ME/CFS.)
+] <hyp:arteriolar-trpv1-pem>
+
+A critical feature of the arteriolar TRPV1 mechanism is its _dissociation_ from neuronal TRPV1. Cavanaugh et al.\ (2011) showed that neuronal and arteriolar TRPV1 produce opposite vascular effects: neuronal TRPV1 activation causes vasodilation (via CGRP release from afferents), while arteriolar TRPV1 activation causes vasoconstriction @Cavanaugh2011trpv1vascular. In ME/CFS with sensitized TRPV1, this creates a "dual trap": nociceptive TRPV1 signals _pain_ (telling the patient to stop exerting) while arteriolar TRPV1 maintains _vasoconstriction_ (preventing perfusion recovery even at rest). The non-desensitizing nature of arteriolar TRPV1 @Phan2020trpv1arterial means that even if neuronal TRPV1 partially habituates (reducing pain perception), the vascular arm continues to restrict perfusion. This dissociation could explain why some patients report that pain diminishes before fatigue does --- the nociceptive warning system adapts while the vascular damage persists.
+
+#speculation(title: [Two-Compartment PEM Cascade: NCX Reversal Plus Arteriolar TRPV1])[
+The NCX reversal mechanism (Section @sec:calcium-subtypes, Subtype A: NHE1 → Na#super[+] overload → NCX1 reverse mode → Ca#super[2+] import) and the arteriolar TRPV1 mechanism are not independent --- they are coupled through tissue ischemia. In the first phase (0--2 hours post-exertion), both mechanisms activate simultaneously: proton accumulation drives NCX reversal in muscle cells, while exercise-generated LPA activates arteriolar TRPV1. In the second phase (2--24 hours), the two arms reinforce each other: TRPV1-mediated vasoconstriction reduces oxygen delivery, which prevents Na#super[+]/K#super[+]-ATPase recovery (ATP-dependent), maintaining NCX in reverse mode. Sustained NCX reversal generates continued calcium overload, which activates PLC-$delta$ (Section @spec:plc-delta-feedback), depleting PIP#sub[2] and potentially facilitating TRP pentamerization (Section @spec:pip2-pentamer-susceptibility). In the third phase (24--72 hours), slow LPA clearance (tissue half-life measured in hours to days) maintains vasoconstriction, while mitochondrial damage from calcium overload reduces ATP capacity, lowering the exertion threshold for the next episode.
+
+Treating only one arm may be insufficient: calcium channel blockers (for NCX reversal) cannot restore perfusion if TRPV1-mediated vasoconstriction persists; conversely, TRPV1 antagonists cannot prevent calcium overload if NCX reversal continues.
+
+*Falsifiable prediction.* Combined treatment targeting both arms (e.g., NCX modulator + TRPV1 antagonist) should reduce PEM duration more than either alone. Measurable by sequential NIRS (perfusion arm) and #super[23]Na-MRI (NCX arm) at 24 hours post-standardized exercise.
+
+(Certainty: 0.35. Each arm is supported by independent evidence; the coupling through ischemia is inferred but mechanistically coherent. Not yet studied as a combined model.)
+] <spec:two-compartment-pem>
+
+#speculation(title: [LPA--Microclot--TRPV1 Triangle: Three Vascular Pathologies Converging])[
+Microclots documented in ME/CFS (Chapter @ch:cardiovascular, Section @sec:vascular) cause capillary obstruction and downstream tissue ischemia. Ischemic tissue activates phospholipase A2, generating LPA. LPA activates arteriolar TRPV1 (@hyp:arteriolar-trpv1-pem), causing vasoconstriction upstream of the microclot obstruction, compounding the perfusion deficit. Additionally, TRPV1-mediated vasoconstriction alters local flow dynamics --- increased wall shear stress at constriction points and turbulent flow downstream may promote further fibrin deposition and microclot formation. This creates a three-way positive feedback: microclots → ischemia → LPA → TRPV1 vasoconstriction → altered flow → more microclots.
+
+This triangle connects two previously separate pathological domains in ME/CFS (coagulation and TRP channelopathy) through a specific molecular intermediary (LPA) that is measurable and targetable. Autotaxin inhibitors (ziritaxestat, in Phase III trials for idiopathic pulmonary fibrosis) or secreted PLA#sub[2] inhibitors (varespladib) would reduce tissue LPA generation, potentially breaking the triangle at the LPA node.
+
+*Falsifiable prediction.* ME/CFS patients post-exercise should show simultaneous elevation of plasma LPA (LC-MS/MS), D-dimer (microclot turnover marker), and reduced muscle oxygenation (NIRS). Anticoagulation sufficient to reduce microclot burden should partially attenuate post-exercise LPA elevation.
+
+(Certainty: 0.30. Each vertex of the triangle is supported by independent evidence: microclots in ME/CFS, LPA generation from ischemia, TRPV1-mediated vasoconstriction from LPA. The three-way coupling is inferred. Not yet studied as a system.)
+] <spec:lpa-microclot-trpv1-triangle>
+
+#speculation(title: [Mast Cell--TRPV1 Dual Amplification Loop])[
+Mast cell activation in ME/CFS (Chapter @ch:immune-dysfunction, Section @sec:allergies-mast-cells) and arteriolar TRPV1 vasoconstriction converge in a tissue-level positive feedback. Mast cell degranulation releases histamine, tryptase, and prostaglandins. Prostaglandins sensitize both neuronal TRPV1 (via PGE#sub[2]/EP1, as described in Section @spec:ch14h-trp-expanded @Moriyama2005) and arteriolar TRPV1. Sensitized arteriolar TRPV1 drives vasoconstriction, producing tissue ischemia. Tissue ischemia activates mast cells (hypoxia-driven degranulation is documented in the mast cell literature), completing the loop.
+
+This creates a _local_, self-sustaining inflammatory circuit that does not require systemic immune activation. It could explain why ME/CFS symptoms are often regional or patchy rather than uniform --- individual tissue beds may or may not have entered the mast cell--TRPV1 feedback state depending on local inflammatory history. Combined mast cell stabilization (ketotifen, cromolyn) plus TRPV1 modulation (ambroxol, Section @spec:ch14h-ambroxol-trp) would break the loop at two points simultaneously.
+
+*Falsifiable prediction.* Mast cell stabilizers (cromolyn, ketotifen) should reduce not only allergic symptoms but also exercise-induced vasoconstriction (measurable by NIRS). The combination of ketotifen + ambroxol should be synergistic for PEM reduction compared to either alone.
+
+(Certainty: 0.25. Each component --- mast cell activation in ME/CFS, prostaglandin-mediated TRPV1 sensitization, arteriolar TRPV1 vasoconstriction --- is independently supported. The closed-loop coupling is inferred. Not yet studied in ME/CFS.)
+] <spec:mast-cell-trpv1-loop>
+
+=== TRP Family as a Coordinated Sensory System
+<sec:trp-family-coordination>
+
+The preceding sections have discussed individual TRP channels (TRPM3, TRPV1, TRPA1, TRPV3) as separate entities. However, the TRP superfamily comprises at least 28 members in mammals grouped into six subfamilies (TRPC, TRPV, TRPM, TRPA, TRPP, TRPML), many of which are co-expressed in the same cell types and share regulatory mechanisms including PIP#sub[2] dependence, redox sensitivity, and calcium-dependent modulation @Delmas2020snapShot. In sensory neurons, TRPV1, TRPA1, TRPM3, and TRPM8 form overlapping detection arrays for temperature, chemical irritants, oxidative stress, and mechanical stimuli.
+
+In the context of ME/CFS, where chronic inflammation, oxidative stress, and PIP#sub[2] depletion (@hyp:ch14h-pip2-convergence) simultaneously affect multiple TRP-dependent regulatory mechanisms, the dysfunction may not be limited to one or two channels but may represent a coordinated system-level failure. The relevant question is not "which TRP channel is dysfunctional?" but "how many TRP-dependent regulatory loops have shifted to pathological operating points?" The multi-parameter biomarker panel proposed in Section @sec:trpm3-biomarker-panel captures this logic by measuring TRPM3 and TRPM7 simultaneously; extending it to include TRPV1 sensitivity (capsaicin flare threshold) and TRPA1 reactivity (allyl isothiocyanate challenge) would test the broader coordinated-failure hypothesis.
+
+#speculation(title: [Tissue-Specific TRP Response Map: One Channelopathy, Many Phenotypes])[
+The tissue specificity demonstrated by Rivera-Mancilla et al.\ (2024) --- TRPM3 relaxes dermal arteries while TRPV1 constricts skeletal muscle arterioles @RiveraMancilla2024trpDermal --- implies that a _single_ systemic TRP channelopathy could produce _opposite_ effects depending on tissue bed. This provides a parsimonious explanation for the multi-system nature of ME/CFS without requiring separate pathological mechanisms for each symptom domain:
+
+#figure(
+  kind: table,
+  caption: [Predicted tissue-specific manifestations of systemic TRP channelopathy in ME/CFS. The dominant TRP channel in each tissue determines the local phenotype of a shared upstream dysfunction.],
+  table(
+    columns: (auto, auto, auto),
+    align: (left, left, left),
+    table.header([*Tissue*], [*Dominant TRP*], [*Predicted dysfunction*]),
+    [Skeletal muscle arterioles], [TRPV1], [Vasoconstriction → exercise intolerance, PEM],
+    [Dermal arteries], [TRPM3], [Impaired relaxation → Raynaud's-like symptoms],
+    [Cardiac arterioles], [TRPV1 + TRPM4], [Vasoconstriction → reduced cardiac output],
+    [Sensory neurons], [TRPV1/TRPA1/TRPM3], [Sensitization → pain, MCS, hyperalgesia],
+    [NK cells], [TRPM3], [Impaired Ca#super[2+] flux → failed degranulation],
+    [Cerebral arterioles], [Unknown (likely mixed)], [Perfusion instability → cognitive dysfunction],
+  ),
+) <tab:tissue-trp-map>
+
+The tissue-specific response profile should predict which symptom domains predominate in individual patients. Patients with primarily vascular symptoms (POTS, exercise intolerance) would show greater arteriolar TRPV1 dysfunction, while patients with primarily immune symptoms (infections, lymphadenopathy) would show predominantly TRPM3 dysfunction. This converts the systemic channelopathy hypothesis from a qualitative concept to a quantitatively testable framework.
+
+(Certainty: 0.35. Tissue-specific TRP vascular responses are demonstrated for two tissue beds. Extrapolation to all listed tissues is inferred. Not yet studied as a diagnostic framework.)
+] <spec:tissue-trp-map>
+
+=== Cross-Disease Bridges: TRP Channel Parallels
+
+The TRP channelopathy framework connects ME/CFS to several other conditions through shared molecular mechanisms:
+
+*Erythromelalgia* involves Nav1.7 gain-of-function mutations producing excessive vasodilation and burning pain --- a mirror image of the arteriolar TRPV1-mediated vasoconstriction proposed here. If confirmed, TRPV1 antagonists effective in ME/CFS would be predicted to _worsen_ erythromelalgia symptoms (opposite direction on the ion channel → vascular tone axis).
+
+*Fibromyalgia* may represent primarily _neuronal_ TRP sensitization (TRPV1/TRPA1 on nociceptors) without the vascular and immune components of ME/CFS. This would predict: fibromyalgia-only patients should have normal exercise-induced muscle perfusion (NIRS) despite elevated pain; ME/CFS-only patients should show impaired perfusion; and overlap patients should exhibit both.
+
+*Sickle cell vaso-occlusive crises* share key elements with the LPA--microclot--TRPV1 triangle: microvascular obstruction, ischemia-driven LPA generation, and TRPV1-mediated pain. Recent preclinical work demonstrates that TRPV1 antagonists reduce vaso-occlusive crisis severity in mouse models. If confirmed in human trials, the same TRPV1 antagonists would be candidates for ME/CFS PEM --- the shared LPA-driven mechanism predicts similar responses.
+
+*Migraine* involves TRPV1 on trigeminal neurons, CGRP release, and high comorbidity with ME/CFS. If TRP pentamerization occurs during prolonged trigeminal activation in migraine aura, ME/CFS patients with comorbid migraine might show higher TRP pentamer fractions than those without, reflecting greater cumulative inflammatory TRP exposure. The pentameric pore's ability to admit large organic cations (Section @spec:trp-pentamer-escalation) could contribute to CGRP-independent migraine mechanisms.
+
+=== TRP-Targeted Therapeutic Extensions
+<sec:trp-therapeutic-extensions>
+
+The arteriolar TRPV1 mechanism and LPA--microclot triangle suggest several therapeutic approaches beyond those discussed in the ambroxol section (@spec:ch14h-ambroxol-trp):
+
+#speculation(title: [NEO6860: Next-Generation TRPV1 Antagonist Without Hyperthermia Risk])[
+Early TRPV1 antagonists (AMG 517) caused dangerous hyperthermia by blocking TRPV1's thermoregulatory function. NEO6860 is a next-generation selective TRPV1 antagonist that blocks inflammatory/agonist-driven activation while preserving the channel's temperature-sensing role. NEO6860 has completed Phase II trials for osteoarthritis pain without hyperthermia signals. In ME/CFS, NEO6860 would be predicted to block LPA-activated arteriolar TRPV1 vasoconstriction and prostaglandin-sensitized nociceptive TRPV1, without disrupting core thermoregulation.
+
+(Certainty: 0.30. NEO6860 pharmacology is established in human trials; application to ME/CFS vascular TRPV1 is entirely extrapolated. Not yet studied in ME/CFS.)
+] <spec:neo6860-trpv1>
+
+#speculation(title: [Autotaxin Inhibitors to Block LPA Generation During PEM])[
+LPA is generated extracellularly by autotaxin (lysophospholipase D), which converts lysophosphatidylcholine to LPA. If exercise-generated LPA drives arteriolar TRPV1 vasoconstriction during PEM (@hyp:arteriolar-trpv1-pem), autotaxin inhibition would reduce LPA availability and break the LPA--TRPV1--vasoconstriction chain. Ziritaxestat, an oral autotaxin inhibitor, has been tested in Phase III trials for idiopathic pulmonary fibrosis. Repurposing for ME/CFS would target a specific, measurable biomarker (plasma LPA levels) with a clear pharmacodynamic readout.
+
+*Falsifiable prediction.* Autotaxin inhibition should reduce post-exercise LPA elevation (LC-MS/MS) and PEM severity. Patients with highest post-exercise LPA should show greatest benefit.
+
+(Certainty: 0.25. Autotaxin → LPA biology is established; LPA → TRPV1 activation is demonstrated; application to ME/CFS PEM is inferred. Not yet studied in ME/CFS.)
+] <spec:autotaxin-inhibitors>
+
+L-type calcium channel blockers (amlodipine, nifedipine) operate downstream of arteriolar TRPV1: the vasoconstriction cascade proceeds TRPV1 → membrane depolarization → L-type Ca#super[2+] channel → smooth muscle contraction @Phan2020trpv1arterial. L-type CCBs are FDA-approved, cheap, and well-tolerated. However, ME/CFS patients frequently have low blood pressure already, limiting the dose range. Low-dose amlodipine (2.5 mg) in patients with normal supine blood pressure might improve exercise-induced muscle perfusion without unacceptable hypotension. Magnesium, a natural L-type Ca#super[2+] channel competitor, provides a lower-risk alternative: adequate Mg#super[2+] levels partially counteract the TRPV1 → L-type Ca#super[2+] → vasoconstriction cascade.
+
+#speculation(title: [Omega-3 Fatty Acids as LPA Substrate Competitors])[
+EPA and DHA compete with arachidonic acid for phospholipase A2 substrates. Higher omega-3 membrane incorporation shifts PLA2 activity toward omega-3-derived lysophospholipids rather than LPA precursors. Omega-3-derived resolvins also reduce inflammatory lipid signaling. This provides a _specific_ mechanistic rationale for omega-3 supplementation in ME/CFS beyond general anti-inflammatory effects: shifting the lipid substrate pool away from LPA precursors would reduce exercise-induced LPA generation and attenuate arteriolar TRPV1 activation.
+
+*Falsifiable prediction.* ME/CFS patients supplemented with high-dose EPA/DHA (3 g/day, 3 months) should show lower post-exercise LPA elevation (LC-MS/MS) compared to baseline. The effect should correlate with membrane omega-3 index.
+
+(Certainty: 0.25. Omega-3/arachidonic acid substrate competition is established; the effect on tissue LPA generation in ME/CFS exercise is extrapolated. Not yet studied for this endpoint.)
+] <spec:omega3-lpa-competition>
+
+Palmitoylethanolamide (PEA), an endogenous fatty acid amide, provides multi-target TRP modulation: TRPV1 desensitization via PPAR-$alpha$ activation, mast cell stabilization (potentially breaking the mast cell--TRPV1 loop described in Section @spec:mast-cell-trpv1-loop), and anti-neuroinflammatory effects via microglial modulation. PEA is available as a supplement (600--1200 mg/day, micronized form for bioavailability) with a good safety profile.
+
+=== Diagnostic Implications: Vascular TRP Assessment
+<sec:vascular-trp-diagnostics>
+
+The arteriolar TRPV1 hypothesis generates several novel diagnostic approaches that extend the biomarker panel described in Section @sec:trpm3-biomarker-panel:
+
+#open-question(title: [Post-Exercise Plasma LPA Panel as PEM Subtyping Biomarker])[
+LC-MS/MS measurement of plasma LPA species (16:0, 18:1, 18:2, 20:4) at baseline and 4 hours after standardized exercise (e.g., 2-minute step test) could distinguish vascular-component PEM from purely metabolic PEM. Elevated post-exercise LPA would suggest arteriolar TRPV1 activation as a contributing mechanism, while normal LPA with elevated post-exercise sodium (Section @spec:ch14h-subtype-protocol, #super[23]Na-MRI) would suggest NCX reversal-dominant PEM.
+
+This would add a third dimension to the Subtype A/B classification: A+LPA+ (metabolic + vascular), A+LPA− (metabolic only), B+ (channelopathy-dominant), creating finer stratification for targeted intervention trials.
+] <oq:lpa-biomarker-panel>
+
+A non-invasive alternative: the _thermal recovery index_ (TRI). After brief controlled cold exposure (hand immersion in 15°C water for 60 seconds), the time to 50% skin temperature recovery (T50), measured by infrared thermography, reflects arteriolar TRPV1-mediated vascular tone. ME/CFS patients with sensitized arteriolar TRPV1 should show prolonged T50. This test requires only a consumer infrared camera (approximately EUR 200), is patient-administerable, repeatable, and could generate longitudinal datasets tracking treatment response.
+
+The capsaicin flare test, a standard dermatological assessment, could be combined with simultaneous NIRS on underlying muscle to dissociate neuronal from arteriolar TRPV1 responses: the capsaicin flare (skin reddening) reflects neuronal TRPV1-mediated vasodilation, while the NIRS signal reflects deeper arteriolar responses. In healthy subjects, vasodilation should dominate. In ME/CFS with sensitized arteriolar TRPV1, vasoconstriction in deeper tissue may partially counteract the superficial flare, producing a smaller or paradoxical NIRS response.
+
 === The Piezo1-RBC Microcirculation Hypothesis
 
 #speculation(title: [Piezo1 Dysregulation as a Mechanism for RBC Stiffness in ME/CFS])[

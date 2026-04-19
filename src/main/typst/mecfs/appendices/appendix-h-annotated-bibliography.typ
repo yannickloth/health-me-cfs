@@ -1958,6 +1958,177 @@ DORAs represent a mechanistically-informed treatment option for ME/CFS sleep dis
 )
 ]
 
+// =============================================================================
+
+== Orexin/Hypocretin System in ME/CFS and Related Conditions
+<sec:bib-orexin-mecfs>
+// =============================================================================
+
+This section covers mechanistic studies on the orexin/hypocretin system relevant to ME/CFS: inflammation-induced suppression of orexin neurons, post-infectious and post-COVID orexin dysfunction, sleep architecture instability, narcolepsy-overlap mechanisms, and emerging orexin-targeted therapeutics.
+
+=== Sakurai et al.\ 1998 --- Discovery of Orexins and Orexin Receptors
+
+    / *Full Citation:*: Sakurai T, Amemiya A, Ishii M, et al.\ Orexins and orexin receptors: a family of hypothalamic neuropeptides and G protein-coupled receptors that regulate feeding behavior. _Cell_. 1998;92(5):573--585.
+    / *DOI:*: #link("https://doi.org/10.1016/S0092-8674(02)09256-5")[10.1016/S0092-8674(02)09256-5]
+    / *PMID:*: 9527442
+    / *Study Design:*: Foundational discovery (reverse pharmacology, animal)
+
+*Key Findings:*
+Identified orexin-A (33 aa) and orexin-B (28 aa) as novel hypothalamic neuropeptides activating two orphan GPCRs: OX1R (selective for orexin-A) and OX2R (non-selective). Prepro-orexin mRNA localizes to the lateral and posterior hypothalamus. Central administration stimulates food intake; fasting up-regulates prepro-orexin mRNA. Established that the orexin system is a lateral hypothalamic integrator of energy status, arousal, and autonomic output.
+
+*Relevance to ME/CFS:*
+Foundational reference for all orexin biology. Any ME/CFS model proposing hypothalamic orexinergic dysfunction traces back to this discovery paper.
+
+*Certainty Assessment:*
+
+    - *Quality:* Very High (Cell, landmark molecular discovery)
+    - *Direct ME/CFS evidence:* None (foundational mechanistic reference)
+    - *Limitations:* Original scope was feeding behavior; sleep/arousal roles established in follow-up work
+
+=== Grossberg et al.\ 2011 --- Inflammation-Induced Lethargy via Orexin Suppression
+
+    / *Full Citation:*: Grossberg AJ, Zhu X, Leinninger GM, Levasseur PR, Braun TP, Myers MG Jr, Marks DL. Inflammation-induced lethargy is mediated by suppression of orexin neuron activity. _Journal of Neuroscience_. 2011;31(31):11376--11386.
+    / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.2311-11.2011")[10.1523/JNEUROSCI.2311-11.2011]
+    / *PMID:*: 21813697
+    / *Study Design:*: Experimental animal study (rat/mouse), pharmacological rescue
+    / *Sample Size:*: 3--12 animals per group
+
+*Key Findings:*
+During systemic LPS inflammation, orexin neuron activity in the perifornical hypothalamus is suppressed: CSF orexin-A levels decrease and dark-phase activation of Ox neurons is blocked. Central orexin-A replacement reverses inflammation-induced locomotor suppression. Orexin neurons themselves lack direct cytokine/LPS receptors; suppression is mediated indirectly via lateral hypothalamic neurotensin-expressing interneurons activated during inflammation. Prostaglandin and melanocortin pathways were not required.
+
+*Mechanism for ME/CFS:*
+Establishes a specific neural circuit: cytokines (IL-1$beta$, TNF$alpha$) to neurotensin neurons to orexin neuron suppression to lethargy. In ME/CFS with chronic low-grade neuroinflammation, this pathway would produce persistent orexinergic suppression even without acute infection.
+
+*Certainty Assessment:*
+
+    - *Quality:* High (Journal of Neuroscience, mechanistic animal study)
+    - *Direct ME/CFS evidence:* None (animal mechanistic)
+    - *Certainty:* 0.65 (strong mechanism; translation pending)
+    - *Limitations:* Acute inflammation model; chronic low-grade ME/CFS neuroinflammation untested
+
+=== Gaykema & Goehler 2009 --- LPS Suppresses Orexin Neurons in Sickness Behavior
+
+    / *Full Citation:*: Gaykema RPA, Goehler LE. Lipopolysaccharide challenge-induced suppression of Fos in hypothalamic orexin neurons: their potential role in sickness behavior. _Brain, Behavior, and Immunity_. 2009;23(7):926--930.
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbi.2009.03.005")[10.1016/j.bbi.2009.03.005]
+    / *PMID:*: 19328847
+    / *Study Design:*: Rat in vivo, Fos immunohistochemistry
+    / *Sample Size:*: n$approx$6--8 per condition
+
+*Key Findings:*
+LPS challenge markedly reduces Fos expression in lateral orexin neurons during exploratory behavior (47% to 25%) and dark-phase activity (42% to 9%). Histaminergic tuberomammillary neurons show parallel suppression (64% to 11%), indicating co-shutdown of the orexin--histamine arousal axis. Proposes orexin--histamine circuit suppression as the neural substrate of sickness-related inactivity and withdrawal.
+
+*Relevance to ME/CFS:*
+Provides Fos evidence for context-dependent orexin suppression during peripheral immune challenge. In ME/CFS, persistent immune activation would chronically suppress this arousal circuit.
+
+*Certainty Assessment:*
+
+    - *Quality:* High (BBI, well-controlled histochemistry)
+    - *Certainty:* 0.60
+    - *Limitations:* Acute LPS model; chronic immune activation not modelled
+
+=== Weymann et al.\ 2014 --- Orexin in Chemotherapy-Induced Fatigue
+
+    / *Full Citation:*: Weymann KB, Wood LJ, Zhu X, Marks DL. A role for orexin in cytotoxic chemotherapy-induced fatigue. _Brain, Behavior, and Immunity_. 2014;37:84--94.
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbi.2013.11.003")[10.1016/j.bbi.2013.11.003]
+    / *PMID:*: 24216337
+    / *Study Design:*: Rodent experimental (mice/rats), pharmacological rescue
+    / *Sample Size:*: n=6--12 per group
+
+*Key Findings:*
+CAF chemotherapy (cyclophosphamide/adriamycin/5-fluorouracil) induces hypothalamic neuroinflammation (IL-1R1, IL-6, TNF$alpha$, MCP-1 elevated). Orexin neuron activity suppressed (reduced nuclear cFos, decreased CSF orexin-A). Fatigue behaviors correlate with orexin suppression. Causal test: central orexin-A (1 $mu$g) administration fully restores activity in CAF-treated rats, demonstrating that orexin depletion drives fatigue rather than merely accompanying it.
+
+*Relevance to ME/CFS:*
+Provides causal evidence for the cytokine-to-hypothalamic-inflammation-to-orexin-suppression-to-fatigue chain. The pharmacological rescue is directly translatable to ME/CFS neuroimmune fatigue models.
+
+*Certainty Assessment:*
+
+    - *Quality:* High (BBI, pharmacological rescue design)
+    - *Certainty:* 0.55 (strong mechanism; no human translation yet)
+    - *Limitations:* Acute chemotherapy model; preclinical only; no ME/CFS patients
+
+=== Ito et al.\ 2023 --- Orexin Deficiency and REM Sleep Instability
+
+    / *Full Citation:*: Ito H, Fukatsu N, Rahaman SM, Mukai Y, Izawa S, Ono D, Kilduff TS, Yamanaka A. Deficiency of orexin signaling during sleep is involved in abnormal REM sleep architecture in narcolepsy. _Proceedings of the National Academy of Sciences U.S.A._ 2023;120(41):e2301951120.
+    / *DOI:*: #link("https://doi.org/10.1073/pnas.2301951120")[10.1073/pnas.2301951120]
+    / *PMID:*: 37796986
+    / *Study Design:*: Mouse optogenetics + calcium imaging (causal)
+    / *Sample Size:*: Animal (multiple groups per experiment)
+
+*Key Findings:*
+Orexin neurons are highly active during wakefulness, show synchronised bursting during NREM sleep, become silent before NREM-to-REM transitions, and a subpopulation active during REM suppresses subsequent REM sleep and cataplexy. When orexin signaling is absent (narcoleptic mice), this suppression mechanism fails, resulting in excessive REM intrusions and sleep fragmentation. Optogenetic inhibition confirms causality.
+
+*Relevance to ME/CFS:*
+Mechanistic basis for how partial orexin deficiency produces sleep-wake instability: insufficient orexin during sleep leads to loss of REM gating and alpha intrusion into NREM, yielding unrefreshing sleep --- a cardinal ME/CFS symptom.
+
+*Certainty Assessment:*
+
+    - *Quality:* High (PNAS, optogenetic causal design)
+    - *Certainty:* 0.65 (strong mechanism; human translation needed)
+    - *Limitations:* Complete orexin-neuron-ablation model; partial deficiency (ME/CFS scenario) not directly tested
+
+=== Rauf et al.\ 2025 --- Narcolepsy Mechanisms and Orexin Agonist Therapeutics
+
+    / *Full Citation:*: Rauf R, Asif S, AlSaafeen A, et al.\ Orexin deficiency in narcolepsy: molecular mechanisms, clinical phenotypes, and emerging therapeutic frontiers. _Brain and Behavior_. 2025;15(10):e70984.
+    / *DOI:*: #link("https://doi.org/10.1002/brb3.70984")[10.1002/brb3.70984]
+    / *PMID:*: 41076550
+    / *Study Design:*: Narrative review
+    / *Sample Size:*: N/A (review)
+
+*Key Findings:*
+Over 90% of NT1 patients have CSF orexin-A below 110 pg/mL and carry HLA-DQB1*06:02, confirming autoimmune destruction of up to 95% of hypothalamic orexin neurons. H1N1 influenza and Pandemrix vaccination trigger temporal NT1 clustering, establishing post-infectious immune-mediated orexin loss as a proven mechanism. Danavorexton (OX2R-selective agonist) improved Maintenance of Wakefulness Test by 11.1 points versus modafinil.
+
+*Relevance to ME/CFS:*
+Post-infectious orexin loss mechanism (H1N1 to NT1) directly parallels ME/CFS viral triggers. ME/CFS may occupy an intermediate orexin deficiency zone (110--200 pg/mL), between narcolepsy ($<$110) and healthy ($>$200). OX2R agonists represent a therapeutic class relevant to any partial orexin deficiency state.
+
+*Certainty Assessment:*
+
+    - *Quality:* Medium (Brain and Behavior; narrative review)
+    - *Certainty:* 0.60 for narcolepsy mechanisms; 0.35 for ME/CFS applicability
+    - *Limitations:* Narrative review; ME/CFS section absent; analogy not tested
+
+=== Ruhrländer et al.\ 2025 --- Orexin System and Autonomic Dysfunction in PASC
+
+    / *Full Citation:*: Ruhrländer J, Syntila S, Schieffer E, Schieffer B. The orexin system and its impact on the autonomic nervous and cardiometabolic system in post-acute sequelae of COVID-19. _Biomedicines_. 2025;13(3):545.
+    / *DOI:*: #link("https://doi.org/10.3390/biomedicines13030545")[10.3390/biomedicines13030545]
+    / *PMID:*: 40149526
+    / *Study Design:*: Narrative review
+    / *Sample Size:*: N/A (review)
+
+*Key Findings:*
+Orexin dysregulation plausibly underlies PASC autonomic and cardiometabolic symptoms: orexin regulates baroreflex sensitivity, sympathetic tone, catecholamine release, electrolyte balance, and circadian rhythms. Disruption explains POTS, orthostatic hypotension, endothelial dysfunction, and insulin resistance. Most mechanistic evidence is animal-derived; human PASC-specific orexin measurements are lacking.
+
+*Relevance to ME/CFS:*
+PASC and ME/CFS share orthostatic intolerance and fatigue. Orexin to autonomic to orthostatic intolerance applies directly to ME/CFS, supporting the view that orexin pathway dysfunction contributes beyond sleep disturbance alone.
+
+*Certainty Assessment:*
+
+    - *Quality:* Medium (Biomedicines/MDPI; open access)
+    - *Certainty:* 0.45 (mechanistically plausible; human data absent)
+    - *Limitations:* Narrative review; no original data; many claims extrapolated from animal studies
+
+=== Heinicke et al.\ 2025 --- Plasma Orexin-A in Severe COVID-19 ICU Patients
+
+    / *Full Citation:*: Heinicke U, Talbot SR, Thanasis F, Adam EH, von Knethen A, Steinbicker AU, Zinn S, Zacharowski K, Flinspach AN. Systemic role of orexin A, substance P, bradykinin, and DABK in severe COVID-19 and 2.5-yr follow-ups: an observational study. _BJA Open_. 2025;14:100415.
+    / *DOI:*: #link("https://doi.org/10.1016/j.bjao.2025.100415")[10.1016/j.bjao.2025.100415]
+    / *PMID:*: 40529720
+    / *Study Design:*: Single-centre observational cohort
+    / *Sample Size:*: 78 ICU COVID-19 patients; 14 survivors at 2.5-yr follow-up; 14 healthy controls; 423 ELISA measurements
+
+*Key Findings:*
+Plasma orexin-A concentrations correlate with ICU survival (Cohen's $d$=0.4) and inversely with length of stay ($r$=--0.26, $p$=0.02) in severe COVID-19. Bradykinin and substance P were reduced acutely; DABK elevated. At 2.5-year follow-up, substance P remained elevated, potentially contributing to Long COVID neuropsychological symptoms. Bradykinin--substance P--orexin axis dynamics associated with disease severity and prognosis.
+
+*Relevance to ME/CFS:*
+First observational study measuring plasma orexin-A in a post-COVID follow-up cohort. Long-term neuropeptide perturbations consistent with ME/CFS post-infectious orexin hypothesis. Bradykinin axis involvement an additional shared pathway with ME/CFS.
+
+*Certainty Assessment:*
+
+    - *Quality:* Medium (BJA Open, peer-reviewed; prospective cohort)
+    - *Sample:* n=78 acute, n=14 follow-up (modest)
+    - *Certainty:* 0.50 (direct measurement; confounded by sedation and ICU medications)
+    - *Limitations:* Single-centre; ICU population not directly analogous to ME/CFS; no ME/CFS controls
+
+// =============================================================================
+
 === Mitochondrial and Metabolic Support: Amino Acids
 
 *Rationale for Multi-Amino Acid Approach*
@@ -3521,7 +3692,47 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
         - *Sample:* 24 studies, 1278 total participants
         - *Replication:* Meta-analytic synthesis across multiple independent cohorts
         - *Limitation:* Heterogeneity across included studies; no direct melatonin measurement data; no conflicts of interest
-    
+
+
+==== Gotts et al.\ 2015 — Daytime Napping and Cognitive Functioning in CFS
+
+@Gotts2015napCFS
+
+    / *Key Findings:*:
+
+        - N=118 CFS patients (Fukuda criteria), 14-day sleep diary with standardised neuropsychological testing
+        - Afternoon napping predicted worse objective cognitive dysfunction, explaining 25.6% of variance (p<.001)
+        - Morning napping predicted worse subjective cognitive dysfunction, explaining 32.2% of variance
+        - Longer nap duration and afternoon nap timing both associated with greater daytime sleepiness
+        - No experimental manipulation — purely observational association
+
+    / *Relevance:*: First study to quantify the nap--cognition association in CFS. The finding that napping predicts _worse_ cognitive outcomes (rather than restoration) is consistent with the nap pathophysiology framework: alpha-delta intrusion during naps prevents restorative sleep stages, adenosine regenerates immediately post-nap due to metabolic deficit, and prolonged naps trigger amplified sleep inertia. Causal direction unclear — napping may reflect greater disease severity rather than causing cognitive decline.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (PLoS ONE, observational design)
+        - *Sample:* n=118, reasonable size for ME/CFS
+        - *Replication:* Not yet replicated; single study
+        - *Limitation:* Cross-sectional; no EEG during naps; cannot distinguish cause from effect; Fukuda criteria (broader than CCC/ICC)
+
+==== Tassi \& Muzet 2000 — Sleep Inertia Review
+
+@Tassi2000sleepInertia
+
+    / *Key Findings:*:
+
+        - Sleep inertia (transient lowered arousal post-awakening) lasts 1 minute to 4 hours depending on conditions
+        - Rarely exceeds 30 minutes without major sleep deprivation in healthy populations
+        - Most severe after awakening from slow-wave sleep — naps >30 minutes entering deep sleep produce worse inertia than naps <20 minutes
+        - Dose-dependent with prior sleep debt; circadian modulation (worse near core body temperature trough)
+        - Different cognitive tasks show different sensitivity to sleep inertia
+
+    / *Relevance:*: Foundational reference for understanding amplified sleep inertia in ME/CFS. The normal 15--30 minute duration becomes 2--4 hours in ME/CFS patients (clinical observation, not yet formally measured). The SWS-awakening mechanism predicts that ME/CFS patients with preserved SWS entry during long naps will experience severe inertia, while the energy-deficit model predicts that state transitions (sleep → wake) are metabolically demanding and fail preferentially in ME/CFS. Together, these predict that long naps are counterproductive: they enter SWS (triggering inertia) in a brain unable to execute the wake-transition (prolonging inertia).
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (Sleep Medicine Reviews, comprehensive narrative review)
+        - *Sample:* Review of multiple studies across healthy populations
+        - *Replication:* Sleep inertia phenomenon well-replicated across many studies
+        - *Limitation:* No ME/CFS-specific data; ME/CFS sleep inertia duration never formally measured
 
 ==== Burgess et al.\ 2010 — Phase Response Curves: 0.5mg vs 3.0mg Melatonin
 
@@ -8478,3 +8689,363 @@ This section covers the foundational mechanosensation and nociception literature
     / *Certainty Assessment:*:
         - *Quality:* Medium (n=40, Journal of Medical Virology)
         - *Score:* 0.65
+
+// =============================================================================
+// TRP CHANNEL PENTAMERIZATION AND VASCULAR TRPV1
+// =============================================================================
+
+== TRP Channel Pentamerization and Vascular TRPV1
+<sec:bib-trp-pentamer-vascular>
+
+This section covers: (1) the discovery that TRP channels can adopt pentameric stoichiometry as a gain-of-function escalation state (Lansky 2023, 2025; Ren 2024); (2) functional TRPV1 expression in arteriolar smooth muscle and its role in vasoconstriction and myogenic tone (Cavanaugh 2011; Phan 2020, 2022); (3) TRP channel vascular roles in human tissue ex vivo (Rivera-Mancilla 2024); (4) a reference overview of the TRP channel family (Delmas 2020). Together these papers support the novel hypotheses that (a) pathological TRP channel over-activation in ME/CFS could escalate to a pentameric hyper-conductive state, and (b) arteriolar TRPV1 dysfunction could mediate the inappropriate vasoconstriction seen during post-exertional malaise.
+
+=== Lansky et al.\ 2023 --- A Pentameric TRPV3 Channel with a Dilated Pore
+
+    / *Full Citation:*: Lansky S, Betancourt JM, Zhang J, Jiang Y, Kim ED, Paknejad N, Nimigean CM, Yuan P, Scheuring S. A pentameric TRPV3 channel with a dilated pore. _Nature_. 2023;621(7977):206--214. @Lansky2023trpv3pentamer
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-023-06470-1")[10.1038/s41586-023-06470-1]
+    / *PMID:*: 37648856
+    / *Study Design:*: High-speed atomic force microscopy (HS-AFM) + cryo-EM structural biology; lipid bilayer reconstitution
+    / *Key Findings:*:
+        - TRPV3 channels exist in dynamic equilibrium between canonical tetramers and pentamers via membrane diffusive protomer exchange
+        - Pentamer average lifetime ~3 minutes; DPBA agonist significantly increases pentamer frequency
+        - Pentameric pore is ~2.4-fold wider at selectivity filter vs.\ tetramer; subunits undergo 18-degree hinge motion
+        - Enlarged pore explains the well-documented "pore-dilation phenomenon": prolonged activation leads to increased conductance and permeability to large ions
+        - First demonstration of non-tetrameric stoichiometry with functional consequence in any TRP channel
+    / *Conclusion:*: TRP channels are not constrained to tetrameric stoichiometry; pentamer formation represents a structurally distinct hyper-conductive state with dramatically increased ion flux.
+    / *Limitations:*: TRPV3 specifically; lipid bilayer reconstitution (not native membrane); whether pentamer formation occurs for TRPM3 or other ME/CFS-relevant channels is unknown and speculative.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Nature; high-resolution HS-AFM + cryo-EM; Scheuring group, leading structural biology lab)
+        - *Sample:* Biophysical — multiple independent preparations
+        - *Replication:* Structural finding confirmed by follow-up (Lansky 2025); pentamer existence replicated
+        - *Score:* 0.80
+
+=== Lansky et al.\ 2025 --- Structural Dynamics and Permeability of the TRPV3 Pentamer
+
+    / *Full Citation:*: Lansky S, Wang Z, Clarke OB, Chipot C, Scheuring S. Structural dynamics and permeability of the TRPV3 pentamer. _Nat Commun_. 2025;16:4347. @Lansky2025trpv3dynamics
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-025-59798-9")[10.1038/s41467-025-59798-9]
+    / *PMID:*: 40374654
+    / *Study Design:*: Cryo-EM at 4.07 Å resolution + molecular dynamics simulations
+    / *Key Findings:*:
+        - Pentamer has domain-swapped architecture and collapsed vanilloid binding site
+        - Selectivity filter 5.3-fold wider than closed tetramer; gate 7.3-fold wider
+        - MD simulations: free passage of large organic cations (Tris+, NMDG+, 2-MAE+) through pentameric pore
+        - Multiple agonists (2-APB, camphor, propofol) destabilize tetramers and facilitate pentamer formation via intermediate states
+        - Authors propose pentamer = "hyper-activated state" with highly permissive permeation
+    / *Conclusion:*: Provides atomic-resolution mechanism for large-cation permeability in pentameric TRPV3. Agonist-driven destabilization suggests pentamer formation could be promoted by any sufficiently potent activating stimulus.
+    / *Limitations:*: Computational (MD) component; generalization to other TRP subtypes not demonstrated; in vitro structural work.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Nature Communications; same Scheuring group; independent MD simulation validation)
+        - *Sample:* Structural/computational
+        - *Replication:* Direct follow-up confirming Lansky 2023 with higher resolution
+        - *Score:* 0.78
+
+=== Cavanaugh et al.\ 2011 --- TRPV1 Reporter Mice: Arteriolar Smooth Muscle Expression
+
+    / *Full Citation:*: Cavanaugh DJ, Chesler AT, Jackson AC, Sigal YM, Yamanaka H, Grant R, O'Donnell D, Nicoll RA, Shah NM, Julius D, Basbaum AI. Trpv1 reporter mice reveal highly restricted brain distribution and functional expression in arteriolar smooth muscle cells. _J Neurosci_. 2011;31(13):5067--5077. @Cavanaugh2011trpv1vascular
+    / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.6451-10.2011")[10.1523/JNEUROSCI.6451-10.2011]
+    / *PMID:*: 21451044
+    / *Study Design:*: Genetic reporter mouse (TRPV1-Cre x reporter); calcium imaging; pharmacological vasomotion assays; cross-species immunostaining (mouse, rat, monkey, human)
+    / *Key Findings:*:
+        - Neuronal TRPV1 restricted to nociceptors in primary sensory ganglia + discrete hypothalamic band
+        - TRPV1 expressed in arteriolar smooth muscle cells in thermoregulatory tissues: cremaster, dura, tongue, trachea, skin
+        - Capsaicin increases calcium in smooth muscle cells and causes vasoconstriction
+        - Vascular TRPV1 vasoconstriction counteracts the vasodilation produced by neuronal TRPV1 (opposite functional roles)
+        - Pattern conserved across mouse, rat, monkey, human brain and vasculature
+    / *Conclusion:*: TRPV1 has dual roles: nociception (neuronal) and vasoconstriction (arteriolar smooth muscle). These are anatomically and functionally distinct and may act in opposition.
+    / *Limitations:*: Reporter mouse system — expression pattern may not perfectly reflect endogenous protein levels; TRPV1-Cre lineage tracing could include earlier developmental expression; functional vasomotion studies use exogenous capsaicin at supraphysiological concentrations.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Journal of Neuroscience; Julius/Basbaum group — Nobel-prize associated; genetic reporter gold standard)
+        - *Sample:* Multiple mouse cohorts + cross-species histology
+        - *Replication:* Vascular expression finding confirmed by Phan 2020, 2022
+        - *Score:* 0.75
+
+=== Phan et al.\ 2020 --- TRPV1 Throughout the Arterial Circulation Regulates Blood Pressure
+
+    / *Full Citation:*: Phan TX, Ton HT, Gulyás H, Pórszász R, Tóth A, Russo R, Kay MW, Sahibzada N, Ahern GP. TRPV1 expressed throughout the arterial circulation regulates vasoconstriction and blood pressure. _J Physiol_. 2020;598(24):5639--5659. @Phan2020trpv1arterial
+    / *DOI:*: #link("https://doi.org/10.1113/JP279909")[10.1113/JP279909]
+    / *PMID:*: 32944976
+    / *Study Design:*: Pharmacological TRPV1 antagonism + TRPV1 global knockout mice; isolated artery experiments; in vivo blood pressure measurement; sensory nerve ablation controls
+    / *Key Findings:*:
+        - TRPV1 localizes to terminal arterioles in skeletal muscle, heart, adipose tissue; absent from large arteries
+        - Capsaicin causes dose-dependent vasoconstriction and increased systemic blood pressure in mice and rats
+        - Effect persists after sensory nerve ablation: confirms vascular smooth muscle origin, not neuronal
+        - Arteriolar TRPV1 is resistant to activity-induced desensitization (unlike sensory neurons) — enables sustained vasoconstriction
+        - Lysophosphatidic acid (LPA), an endogenous inflammatory lipid, activates arteriolar TRPV1
+        - Mechanism: TRPV1 depolarization -> L-type Ca2+ channel activation -> sustained vasoconstriction
+    / *Conclusion:*: Arteriolar TRPV1 is a functionally distinct vasoconstrictor activated by inflammatory lipids; its resistance to desensitization makes it capable of sustained pressure effects.
+    / *Limitations:*: Rodent models; human arteriolar TRPV1 expression and function not directly demonstrated; LPA is not a specific TRPV1 agonist (multiple receptor targets).
+    / *ME/CFS relevance:*: During PEM, inflammatory lipids (LPA, lysophosphatidylcholine, oxidized phospholipids) accumulate in exercising tissue. These could activate arteriolar TRPV1, producing vasoconstriction and impaired perfusion — the opposite of normal exercise hyperaemia. The non-desensitizing property would sustain this abnormal response.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Journal of Physiology; multi-method, genetic and pharmacological; independent replication by Phan 2022)
+        - *Sample:* Multiple mouse cohorts + pharmacological replication in rats
+        - *Replication:* Confirmed by companion paper Phan 2022; tissue-specific expression confirmed by Cavanaugh 2011
+        - *Score:* 0.72
+
+=== Phan et al.\ 2022 --- TRPV1 Enables Rapid Myogenic Tone in Arteries
+
+    / *Full Citation:*: Phan TX, Ton HT, Gulyás H, Pórszász R, Tóth A, Russo R, Kay MW, Sahibzada N, Ahern GP. TRPV1 in arteries enables a rapid myogenic tone. _J Physiol_. 2022;600(7):1651--1666. @Phan2022trpv1myogenic
+    / *DOI:*: #link("https://doi.org/10.1113/JP281873")[10.1113/JP281873]
+    / *PMID:*: 35020949
+    / *Study Design:*: TRPV1 KO mice + pharmacological antagonism; pressure myography; in vivo skeletal muscle and coronary flow; pharmacological dissection of PLC/PKC signalling
+    / *Key Findings:*:
+        - TRPV1 antagonists dilate skeletal muscle arterioles in vitro and in vivo, increase coronary perfusion, transiently decrease blood pressure
+        - Stretch-induced activation requires phospholipase C/PKC signalling combined with temperature
+        - TRPV1 drives the rapid component of myogenic tone in heart and skeletal muscle arteries; TRPM4 contributes remaining tone
+        - TRPV1 disruption slows tone development and impairs vasodilation following brief arterial constriction
+    / *Conclusion:*: TRPV1 is the primary stretch sensor for rapid myogenic tone in cardiac and skeletal muscle arterioles; its activation is temperature- and signalling-pathway-dependent.
+    / *Limitations:*: Rodent; does not address ME/CFS; temperature dependence means findings are context-sensitive.
+    / *ME/CFS relevance:*: If TRPV1 is sensitized (as in inflamed or pro-nociceptive states documented in ME/CFS), myogenic tone would be elevated at rest and exaggerated during exercise, impairing normal exercise-induced vasodilation and contributing to post-exertional muscle ischaemia.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Journal of Physiology; same Ahern group; direct follow-up with mechanistic depth)
+        - *Sample:* Multiple knockout + pharmacological cohorts
+        - *Replication:* Same group as Phan 2020; cross-validates findings
+        - *Score:* 0.72
+
+=== Rivera-Mancilla et al.\ 2024 --- TRP Channels in Human Dermal Arteries
+
+    / *Full Citation:*: Rivera-Mancilla E, Al-Hassany L, Marynissen H, Bamps D, Garrelds IM, Cornette J, Danser AHJ, Villalón CM, de Hoon JN, MaassenVanDenBrink A. Functional Analysis of TRPA1, TRPM3, and TRPV1 Channels in Human Dermal Arteries and Their Role in Vascular Modulation. _Pharmaceuticals_. 2024;17(2):156. @RiveraMancilla2024trpDermal
+    / *DOI:*: #link("https://doi.org/10.3390/ph17020156")[10.3390/ph17020156]
+    / *PMID:*: 38399371
+    / *Study Design:*: Ex vivo pharmacology; isolated human dermal artery segments from surgical patients; wire myography; TRP agonists/antagonists; CGRP, NOS, COX and K-channel pathway dissection
+    / *Key Findings:*:
+        - Pregnenolone sulfate (PregS, TRPM3 agonist) induces relaxation in human dermal arteries via CGRP-independent mechanisms; blocked by isosakuranetin (TRPM3 antagonist)
+        - Capsaicin-induced relaxation not blocked by CGRP receptor antagonists, NOS inhibitors, COX inhibitors, or K-channel blockers — standard vasodilation pathways not involved
+        - Cinnamaldehyde (TRPA1) similarly did not activate the tested relaxation pathways
+        - *TRPV1 vasoconstriction was not tested or observed in this preparation*
+    / *Conclusion:*: In human dermal arteries, TRPM3 mediates vascular relaxation via non-CGRP pathways. TRPV1 vasodilation pathways tested were inconclusive. Does not contradict TRPV1 vasoconstriction in resistance arterioles (different tissue, different receptor-effector coupling).
+    / *Limitations:*: Dermal arteries (not skeletal muscle or cardiac resistance arterioles); focused on relaxation, not constriction; patient-derived tissue has uncontrolled variability.
+    / *ME/CFS relevance:*: Confirms TRPM3 vascular activity in human tissue. Tissue specificity is critical: dermal findings cannot be generalized to the skeletal muscle arterioles where Phan 2020/2022 demonstrated TRPV1 vasoconstriction.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Pharmaceuticals MDPI; ex vivo human tissue; Erasmus/KU Leuven groups)
+        - *Sample:* Human dermal arteries from surgical patients (n not specified per arm)
+        - *Replication:* Not independently replicated; single study
+        - *Score:* 0.65
+
+=== Ren et al.\ 2024 --- Oligomeric Rearrangement as Channel Activity Regulator
+
+    / *Full Citation:*: Ren Y, Yang X, Shen Y. Oligomeric rearrangement may regulate channel activity. _Biophys Rep_. 2024;10(5):293--296. @Ren2024oligomeric
+    / *DOI:*: #link("https://doi.org/10.52601/bpr.2023.230018")[10.52601/bpr.2023.230018]
+    / *PMID:*: 39539288
+    / *Study Design:*: Perspective/commentary; no primary data
+    / *Key Findings:*:
+        - Proposes oligomeric stoichiometry switching as a general gating mechanism across channel families
+        - Highlights TRPV3 pentamer (Lansky 2023) and CALHM channel data as evidence
+        - Argues this mechanism could be widespread and represent a novel therapeutic target category
+    / *Conclusion:*: Oligomeric transitions are not unique to TRPV3; could represent a general regulatory principle. Conceptual framework for considering whether other TRP channels (including TRPM3, TRPV1) undergo similar transitions under pathological conditions.
+    / *Limitations:*: Commentary only — no primary data; highly speculative extrapolation from TRPV3 data; primary evidence base is Lansky 2023.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (Biophys Rep; perspective format; no primary data)
+        - *Sample:* N/A (commentary)
+        - *Replication:* N/A
+        - *Score:* 0.55
+
+=== Delmas \& Coste 2020 --- SnapShot: Orofacial Sensation (TRP Family Reference)
+
+    / *Full Citation:*: Delmas P, Coste B. SnapShot: Orofacial Sensation. _Cell_. 2020;183(1):284--284.e1. @Delmas2020snapShot
+    / *DOI:*: #link("https://doi.org/10.1016/j.cell.2020.08.014")[10.1016/j.cell.2020.08.014]
+    / *PMID:*: 33007264
+    / *Study Design:*: Cell SnapShot (visual one-page reference summary; no primary data)
+    / *Key Findings:*:
+        - Provides overview of TRP channel family members in trigeminal/orofacial sensory system
+        - Covers: TRPV1 (heat >43°C, capsaicin, acidosis, inflammation), TRPA1 (cold <17°C, irritants, ROS), TRPM8 (cool <25°C, menthol), TRPV3/TRPV4 (warm), TRPM3 (noxious heat, steroids), TRPC4/TRPC5 (mechanosensation)
+        - Includes receptor-channel overview for all major sensory modalities
+    / *Conclusion:*: Authoritative reference summary for TRP channel family physiological roles from Cell. Useful for contextualizing where each TRP channel sits in the sensory-vascular landscape.
+    / *Limitations:*: Reference format only — no primary data, no statistical analysis; limited to orofacial context (not systemic vascular roles).
+    / *Certainty Assessment:*:
+        - *Quality:* High journal (Cell) for a reference format; content is review/synthesis
+        - *Sample:* N/A
+        - *Score:* 0.60
+
+// =============================================================================
+
+== Glymphatic Clearance, Norepinephrine Vasomotion, and Neurodegeneration Risk
+<sec:bib-glymphatic-neurodegeneration>
+// =============================================================================
+
+=== Hauglund et al.\ 2025 --- Norepinephrine Vasomotion Drives Glymphatic Clearance
+
+    / *Full Citation:*: Hauglund NL, Andersen M, Tokarska K, et al.\ Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep. _Cell_. 2025;188(3):606--622.e17. @Hauglund2025neVasomotion
+    / *DOI:*: #link("https://doi.org/10.1016/j.cell.2024.11.027")[10.1016/j.cell.2024.11.027]
+    / *PMID:*: 39788123
+    / *Study Design:*: Multi-modal mechanistic study in freely behaving mice; fiber photometry, EEG/EMG, optogenetics, SPECT/CT neuroimaging; pharmacological intervention (zolpidem)
+    / *Sample Size:*: n=3--15 per condition across multiple experiments
+    / *Key Findings:*:
+        - Tightly synchronized infraslow oscillations in norepinephrine (NE), cerebral blood volume (CBV), and CSF are the strongest predictors of glymphatic clearance during NREM sleep
+        - NE released from locus coeruleus (LC) drives slow rhythmic constriction and dilation of cerebral arteries (vasomotion); because CBV and CSF share the confined intracranial space, arterial contraction displaces CSF inward --- a hydraulic pump
+        - Optogenetic stimulation of LC induced anti-correlated changes in vasomotion and CSF signal; artificial arterial oscillations enhanced CSF inflow into brain parenchyma
+        - Zolpidem (common sleep aid) suppressed NE oscillations by ~50% and proportionally reduced glymphatic flow, despite maintaining sleep --- dissociating sleep duration from clearance efficacy
+        - Adrenergic receptor blockade (pan-adrenergic) eliminated LC-induced vascular effects, confirming NE-adrenergic signalling as the mechanistic driver
+    / *Conclusion:*: The LC-NE axis is a master regulator of glymphatic clearance during sleep. Chronic autonomic dysfunction (including ME/CFS dysautonomia) and medications that suppress NE oscillations may directly impair brain waste clearance regardless of total sleep time.
+    / *Limitations:*: Mouse model; human validation pending; multiple experiments use small n; zolpidem effects in humans require dedicated study.
+    / *ME/CFS Relevance:*: ME/CFS involves documented LC/NE dysfunction (DHPG deficits in NIH deep phenotyping), autonomic dysregulation, and unrefreshing sleep. This paper provides the mechanistic chain: LC-NE dysfunction #sym.arrow impaired vasomotion #sym.arrow reduced glymphatic clearance #sym.arrow brain waste accumulation #sym.arrow cognitive symptoms and PEM amplification.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Cell; Nedergaard lab; multi-modal, mechanistic, interventional)
+        - *Sample:* Preclinical (mouse); human replication pending
+        - *Replication:* Not yet independently replicated in humans
+        - *Score:* 0.82
+
+=== Fultz et al.\ 2019 --- EEG/Hemodynamic/CSF Oscillations in Human Sleep
+
+    / *Full Citation:*: Fultz NE, Bonmassar G, Setsompop K, et al.\ Coupled electrophysiological, hemodynamic, and cerebrospinal fluid oscillations in human sleep. _Science_. 2019;366(6465):628--631. @Fultz2019csfOscillations
+    / *DOI:*: #link("https://doi.org/10.1126/science.aax5440")[10.1126/science.aax5440]
+    / *PMID:*: 31672896
+    / *Study Design:*: Observational human neuroimaging study; simultaneous EEG + accelerated fMRI measuring neural activity, hemodynamics, and fourth-ventricle CSF flow during sleep and wakefulness
+    / *Sample Size:*: n=13 subjects (sleep); n=11 (wakefulness); 129 analyzed sleep segments
+    / *Key Findings:*:
+        - During NREM sleep, neural slow waves are followed by hemodynamic oscillations (CBV decrease), which are coupled to large inward pulses of CSF through the fourth ventricle --- one wave every ~20 seconds
+        - CSF waves during sleep are macroscopically visible and far larger than those during wakefulness (~4-second smaller waves while awake)
+        - The three signals (EEG slow waves #sym.arrow blood volume #sym.arrow CSF flow) form a temporally ordered, predictable cascade
+        - Provides the first direct human evidence that NREM slow wave activity mechanistically drives CSF clearance
+    / *Conclusion:*: Human confirmatory data showing that the glymphatic pump is engaged during NREM sleep and driven by the slow-wave EEG signature. NREM slow-wave deficits (documented in ME/CFS) would directly reduce this CSF pump activity.
+    / *Limitations:*: Small sample; MRI-based CSF measurement limited to fourth ventricle; cannot directly measure parenchymal clearance.
+    / *ME/CFS Relevance:*: Documents the human mechanism disrupted by ME/CFS unrefreshing sleep. Alpha intrusion into NREM and slow-wave deficits documented in ME/CFS would reduce the CSF pump oscillations measured here.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Science; MIT/MGH; human neuroimaging)
+        - *Sample:* n=13; small but high-quality
+        - *Replication:* Core finding replicated across multiple subsequent studies
+        - *Score:* 0.80
+
+=== Holth et al.\ 2019 --- Sleep-Wake Cycle Regulates Tau in ISF and Human CSF
+
+    / *Full Citation:*: Holth JK, Fritschi SK, Wang C, et al.\ The sleep-wake cycle regulates brain interstitial fluid tau in mice and CSF tau in humans. _Science_. 2019;363(6429):880--884. @Holth2019tauSleep
+    / *DOI:*: #link("https://doi.org/10.1126/science.aav2546")[10.1126/science.aav2546]
+    / *PMID:*: 30679382
+    / *Study Design:*: Combined mouse ISF microdialysis, human CSF sampling during acute sleep deprivation, chemogenetic wakefulness induction, tau seeding/spreading model
+    / *Sample Size:*: Human arm n=4--6; mouse arms n=6--16 per condition
+    / *Key Findings:*:
+        - Brain ISF tau was ~90% higher during normal wakefulness vs.\ sleep; ~100% higher during sleep deprivation (SD) vs.\ sleep
+        - Human CSF tau increased >50% after one night of total sleep deprivation
+        - Chemogenetically driven wakefulness in mice significantly increased both ISF amyloid-#sym.beta and tau
+        - Chronic SD enhanced tau pathology spreading in a tau seeding-and-spreading model, suggesting accumulation is not merely transient
+        - The wakefulness-tau link appears driven by increased neuronal activity (not just impaired clearance) --- both production and clearance axes are involved
+    / *Conclusion:*: Chronic sleep disruption, as occurs in ME/CFS, could drive progressive tau accumulation. The >50% human CSF tau increase from a single night of deprivation demonstrates acute sensitivity; chronic ME/CFS sleep deficit would be expected to produce sustained elevation.
+    / *Limitations:*: Human arm very small (n=4--6); mouse mechanistic data may not fully translate; long-term consequences of years-long disruption not directly studied; ME/CFS population not studied.
+    / *ME/CFS Relevance:*: Quantifies the neurodegeneration risk created by ME/CFS unrefreshing sleep. No study has yet measured whether ME/CFS patients accumulate tau/amyloid at accelerated rates --- a critical research gap.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Science; Holtzman lab, WashU; human + mechanistic animal data)
+        - *Sample:* Human n=4--6 (very small); mouse n=6--16
+        - *Replication:* Core tau-sleep finding corroborated by Ju 2017 and Lucey/Holtzman subsequent work
+        - *Score:* 0.82
+
+=== Ju et al.\ 2017 --- Slow Wave Sleep Disruption Increases CSF Amyloid-β
+
+    / *Full Citation:*: Ju Y-E S, Ooms SJ, Sutphen C, et al.\ Slow wave sleep disruption increases cerebrospinal fluid amyloid-#sym.beta levels. _Brain_. 2017;140(8):2104--2111. @Ju2017slowWaveAmyloid
+    / *DOI:*: #link("https://doi.org/10.1093/brain/awx148")[10.1093/brain/awx148]
+    / *PMID:*: 28899014
+    / *Study Design:*: Experimental SWA disruption via acoustic tones + lumbar CSF sampling in 22 participants aged 35--65; 6-night home actigraphy pre-sampling; cross-over design
+    / *Sample Size:*: n=22 (SWA disruption arm)
+    / *Key Findings:*:
+        - Specific disruption of slow wave activity (SWA) strongly correlated with increased CSF amyloid-#sym.beta 40 (r=0.610, p=0.009) and amyloid-#sym.beta 42
+        - Total sleep time and overall sleep efficiency did not correlate with amyloid-#sym.beta changes --- the quality of deep sleep architecture matters, not just duration
+        - Worse home sleep quality (6-night actigraphy) correlated with higher CSF tau (r=0.543, p=0.045)
+        - Suggests neuronal activity changes during disrupted deep sleep drive biomarker elevation
+    / *Conclusion:*: The unrefreshing sleep in ME/CFS is characterized by impaired SWA (alpha intrusion, NREM microstructure abnormalities). This paper shows SWA disruption specifically elevates amyloid-#sym.beta and tau, providing a direct link between ME/CFS sleep phenotype and neurodegeneration biomarkers.
+    / *Limitations:*: Single-night SWA disruption; n=22; long-term effects not assessed; ME/CFS patients not studied.
+    / *ME/CFS Relevance:*: The ME/CFS sleep deficit is quantitatively SWA-specific --- exactly the parameter this study shows to elevate Alzheimer's biomarkers.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Brain; Holtzman lab; experimental design with lumbar puncture)
+        - *Sample:* n=22; moderate
+        - *Replication:* Corroborated by Holth 2019
+        - *Score:* 0.78
+
+=== Lee et al.\ 2015 --- Body Posture and Glymphatic Transport
+
+    / *Full Citation:*: Lee H, Xie L, Yu M, et al.\ The effect of body posture on brain glymphatic transport. _Journal of Neuroscience_. 2015;35(31):11034--11044. @Lee2015sleepPosition
+    / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.1625-15.2015")[10.1523/JNEUROSCI.1625-15.2015]
+    / *PMID:*: 26245965
+    / *Study Design:*: Dynamic contrast-enhanced MRI with kinetic modelling in anesthetized rodents (supine/prone/lateral positions); validated with fluorescence microscopy and radioactive tracers
+    / *Sample Size:*: MRI arm: 24 rats; fluorescence/tracer arms: mice n=6--8 per group
+    / *Key Findings:*:
+        - Lateral position produced most efficient glymphatic transport --- best CSF-ISF exchange, fastest amyloid-#sym.beta clearance
+        - Prone position (mimicking upright/awake posture) showed tracer retention, slower clearance, more CSF efflux via large cervical vessels
+        - Supine position was intermediate
+        - Proposes lateral sleep preference across mammals may have evolved to optimize brain waste clearance
+    / *Conclusion:*: Sleep position is a modifiable factor affecting glymphatic efficiency. Lateral sleep may be particularly important for ME/CFS patients to maximize whatever glymphatic function remains.
+    / *Limitations:*: Anesthetized animals only; anesthesia itself affects glymphatic function (NE dynamics altered); human validation not yet published.
+    / *ME/CFS Relevance:*: Provides evidence-based sleep hygiene rationale. ME/CFS patients who frequently change position due to pain or OI may lose the positional glymphatic advantage.
+    / *Certainty Assessment:*:
+        - *Quality:* High (J Neurosci; Nedergaard/Benveniste labs; multi-method validation)
+        - *Sample:* Rodent only; not replicated in humans
+        - *Replication:* Not yet confirmed in humans
+        - *Score:* 0.68
+
+=== Hablitz \& Nedergaard 2021 --- The Glymphatic System: Fundamental Neurobiology Review
+
+    / *Full Citation:*: Hablitz LM, Nedergaard M. The glymphatic system: a novel component of fundamental neurobiology. _Journal of Neuroscience_. 2021;41(37):7698--7711. @HablitzNedergaard2021glymphatic
+    / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.0619-21.2021")[10.1523/JNEUROSCI.0619-21.2021]
+    / *PMID:*: 34526407
+    / *Study Design:*: Invited review; comprehensive synthesis of glymphatic system biology from Nedergaard lab
+    / *Key Findings:*:
+        - Describes structural basis: perivascular channels around arteries (CSF influx) and veins (ISF efflux), facilitated by AQP4 water channels on astrocytic endfeet
+        - Astrocyte and blood vessel geometry determines perivascular space shape and fluid transport rate; AQP4 deletion reduces clearance by ~70%
+        - Acute hypertension stiffens arterial walls, reduces pulsatility, and reduces perivascular fluid flow by up to 50%
+        - Cross-talk documented between glymphatic, cardiovascular, gastrointestinal, and lymphatic systems; positions glymphatic/lymphatic axis as a "cornerstone in signalling between the brain and body"
+    / *Conclusion:*: Authoritative review establishing the biological foundation for glymphatic-ME/CFS hypotheses. The cardiovascular cross-talk is directly relevant: ME/CFS cardiovascular dysfunction (reduced cardiac output, OI, POTS) reduces the arterial pulsatility driving glymphatic flow.
+    / *Limitations:*: Review article; primarily Nedergaard lab perspective; some aspects debated (magnitude of AQP4 contribution; bulk flow vs.\ diffusion controversy).
+    / *ME/CFS Relevance:*: Mechanistic foundation paper. Cardiovascular-glymphatic cross-talk explains why OI/POTS contributes to glymphatic failure via reduced cerebral perfusion and pulsatility.
+    / *Certainty Assessment:*:
+        - *Quality:* High (J Neurosci review; authoritative primary lab)
+        - *Sample:* N/A (review)
+        - *Replication:* Core findings well-replicated; some contested
+        - *Score:* 0.78
+
+=== Zhu et al.\ 2025 --- Noradrenergic Modulation: Neuropsychiatric and Mortality Implications
+
+    / *Full Citation:*: Zhu T-T, Yang J-J, Hashimoto K. Noradrenergic modulation of glymphatic clearance: implications for neuropsychiatric disorders and mortality. _Molecular Psychiatry_. 2025;30(9):4432--4434. @Zhu2025noradrenergicGlymphatic
+    / *DOI:*: #link("https://doi.org/10.1038/s41380-025-03051-8")[10.1038/s41380-025-03051-8]
+    / *PMID:*: 40399469
+    / *Study Design:*: Perspective/commentary synthesizing Hauglund 2025 and clinical implications
+    / *Key Findings:*:
+        - Confirms NE oscillation frequency during NREM sleep as the key predictor of glymphatic clearance
+        - Identifies drug classes that may impair glymphatic clearance via adrenergic blockade: zolpidem, orexin receptor antagonists (suvorexant, lemborexant), antipsychotics with adrenergic antagonism, anesthetics
+        - Zolpidem associated with increased dementia risk in elderly
+        - Calls for research on therapies restoring rhythmic vasomotion to enhance clearance
+    / *Conclusion:*: Many medications used in ME/CFS management (sleep aids, certain antipsychotics) may paradoxically worsen glymphatic function. Clinically significant warning.
+    / *Limitations:*: Commentary only; no primary data; extrapolates from mouse data to human clinical recommendations.
+    / *ME/CFS Relevance:*: Direct clinical implication: Z-drugs and alpha-adrenergic blocking agents used for ME/CFS sleep or cardiovascular management may suppress NE oscillations and reduce glymphatic clearance.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Mol Psychiatry; commentary without primary data)
+        - *Sample:* N/A
+        - *Replication:* Mechanistic drug effects not directly tested in humans
+        - *Score:* 0.62
+
+=== Chaganti et al.\ 2025 --- Glymphatic Dysfunction in Long COVID Neurocognitive Impairment
+
+    / *Full Citation:*: Chaganti JR, Talekar TK, Brew BJ. Asymmetrical glymphatic dysfunction in patients with long Covid associated neurocognitive impairment --- correlation with BBB disruption. _BMC Neurology_. 2025;25(1):112. @Chaganti2025longCovidGlymphatic
+    / *DOI:*: #link("https://doi.org/10.1186/s12883-025-04133-4")[10.1186/s12883-025-04133-4]
+    / *PMID:*: 40108491
+    / *Study Design:*: Proof-of-concept comparative study; DTI-ALPS glymphatic index + Dynamic Contrast Enhanced BBB permeability (Ktrans); longitudinal at 3 and 12 months
+    / *Sample Size:*: 14 PASC subjects with cognitive impairment; 10 healthy controls; longitudinal n=10 patients
+    / *Key Findings:*:
+        - Significant reduction in left-hemisphere DTI-ALPS index in PASC vs.\ controls (p<0.04) --- asymmetrical glymphatic dysfunction
+        - Strong inverse correlation between white matter BBB permeability (Ktrans) and glymphatic index (rho=0.66, p<0.03)
+        - DTI-ALPS values did not significantly change over 12 months --- persistent dysfunction
+        - First in vivo DTI-ALPS measurement of glymphatic function in Long COVID/PASC
+    / *Conclusion:*: Long COVID brain fog is associated with measurable glymphatic dysfunction detectable by non-invasive MRI. The BBB-glymphatic correlation suggests a positive feedback loop relevant to ME/CFS.
+    / *Limitations:*: Very small sample (n=14); proof-of-concept only; single center; no non-COVID control; no tau/NfL biomarker data.
+    / *ME/CFS Relevance:*: Provides the methodological blueprint for an ME/CFS DTI-ALPS glymphatic study. BBB-glymphatic coupling mechanism is relevant to ME/CFS neuroinflammation findings.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (BMC Neurology; proof-of-concept; small n)
+        - *Sample:* n=14
+        - *Replication:* Preliminary; not independently replicated
+        - *Score:* 0.55
+
+=== Tang et al.\ 2025 --- Glymphatic Function in Post-COVID Sleep Disorders: DTI-ALPS Longitudinal Study
+
+    / *Full Citation:*: Tang YL, Chen HB, Liu P, Liao YH, Xie A. Glymphatic function alterations in sleep disorder patients post-COVID-19: a longitudinal DTI-ALPS study. _Nature and Science of Sleep_. 2025;17:1377--1390. @Tang2025covidSleepDTIALPS
+    / *DOI:*: #link("https://doi.org/10.2147/NSS.S522745")[10.2147/NSS.S522745]
+    / *PMID:*: 40547338
+    / *Study Design:*: Prospective longitudinal; 59 post-COVID subjects with new sleep disorder (COVID_SD) vs.\ 39 post-COVID without (COVID_NSD); DTI-ALPS at baseline and 2-month follow-up
+    / *Sample Size:*: n=59 (COVID_SD), n=39 (COVID_NSD)
+    / *Key Findings:*:
+        - COVID_SD showed significantly lower bilateral DTI-ALPS vs.\ COVID_NSD at baseline: left 1.23#sym.plus.minus 0.08 vs.\ 1.29#sym.plus.minus 0.11 (p=0.033); right 1.29#sym.plus.minus 0.08 vs.\ 1.33#sym.plus.minus 0.11 (p=0.013)
+        - Strong negative correlation between glymphatic dysfunction and sleep quality: left r=--0.636 (p=0.0002); right r=--0.539 (p<0.0001)
+        - 2-month follow-up: ALPS indices showed recovery trends paralleling improved sleep
+    / *Conclusion:*: Post-viral sleep disorder tracks with glymphatic dysfunction in a biologically close model for ME/CFS. Recovery of sleep quality is associated with recovery of glymphatic function, suggesting reversibility.
+    / *Limitations:*: Single-center; no non-COVID insomnia control; DTI-ALPS reflects awake-state function only; no tau/NfL biomarkers; modest effect sizes.
+    / *ME/CFS Relevance:*: Post-viral sleep disorder #sym.arrow glymphatic dysfunction directly analogous to ME/CFS. Largest DTI-ALPS sleep-disorder study in post-COVID. Supports feasibility and rationale for an ME/CFS DTI-ALPS study.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Nature Sci Sleep; prospective but single-center)
+        - *Sample:* n=59 (COVID_SD); adequate
+        - *Replication:* Not independently replicated
+        - *Score:* 0.60
