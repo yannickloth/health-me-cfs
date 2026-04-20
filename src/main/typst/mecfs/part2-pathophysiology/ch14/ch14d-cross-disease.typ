@@ -695,6 +695,31 @@ What if ME/CFS, inflammatory depression, “brain fog” conditions, and some an
 Different presentations might reflect which brain regions are most affected, not fundamentally different diseases.
 ]
 
+=== Architecture C Cross-Disease Bridges
+<sec:architecture-c-cross-disease-bridges>
+
+The metabolic reserve framework generates predictions about ME/CFS connections to diseases not traditionally associated with it. These speculative bridges suggest testable hypotheses and potential shared mechanisms.
+
+#speculation(title: [Parkinson's as Terminal Reserve Depletion in the Dopaminergic System], certainty: 0.15)[
+Parkinson's manifests when >60% of dopaminergic neurons in the substantia nigra are lost — a reserve concept. Pre-existing conditions reducing dopaminergic reserve (including ADHD lifelong dopaminergic inefficiency) might show either earlier PD onset (cumulative stress) or protective compensation (lifelong upregulation). Caffeine's protective effect on PD risk aligns with the reserve model: it reduces adenosine-mediated dopaminergic inhibition, effectively increasing functional $R_"headroom"$. Testable with existing PD registries cross-referenced with neurodevelopmental history. Entirely speculative.
+] <spec:parkinsons-reserve-depletion>
+
+#speculation(title: [Compounded Glymphatic Failure in Neurodivergent ME/CFS], certainty: 0.15)[
+Neurodivergent individuals have chronic sleep disruption (ADHD delayed phase, ASD fragmented sleep) leading to impaired glymphatic clearance. If ME/CFS further degrades sleep quality, neurodivergent ME/CFS patients face compounded glymphatic failure — potentially accelerating amyloid and tau accumulation. Predicts faster cognitive decline on longitudinal testing and lower CSF amyloid-beta 42 in neurodivergent ME/CFS vs non-neurodivergent ME/CFS patients. Multiple speculative steps; each link has evidence but the chain is untested. Not yet replicated.
+] <spec:alzheimers-glymphatic-compound>
+
+#speculation(title: [Bipolar State-Switching as Oscillation Around Metabolic Reserve Threshold], certainty: 0.20)[
+Bipolar disorder involves state-dependent mitochondrial function — mania shows hypermetabolism, depression shows hypometabolism. In the reserve model, this maps to oscillation around $R_"crit"$ rather than sustained depletion below it. Prediction: bipolar patients should develop ME/CFS more frequently during or after depressive episodes (when $R_"headroom"$ is minimized) than during euthymia. Infection during a depressive phase should carry higher ME/CFS risk than infection during mania. Novel framing; no data. Not yet replicated.
+] <spec:bipolar-reserve-oscillation>
+
+#speculation(title: [Fibromyalgia Central Sensitization as Self-Amplifying Metabolic Cost], certainty: 0.35)[
+Central sensitization in fibromyalgia (amplified pain signalling) is metabolically expensive — maintaining heightened neural excitability requires more ATP via Na#super[+]/K#super[+]-ATPase demand. In Architecture C, fibromyalgia is both a consequence of reduced metabolic reserve AND a cause of further reduction: the sensitization itself consumes energy. This creates a self-amplifying loop distinct from but synergistic with the PEM damage cycle. The memantine rationale (@spec:memantine-demand-reduction) targets this demand-side amplification. Individual links documented; self-amplifying loop framing novel. Not yet replicated.
+] <spec:fibromyalgia-metabolic-amplification>
+
+#speculation(title: [Depression as BH4-Mediated Reserve Reduction and Consequence], certainty: 0.25)[
+If BH4 is the convergent bottleneck (@spec:bh4-convergent-bottleneck), depression (serotonin depletion) could be both cause and consequence of reserve reduction. BH4 depletion reduces serotonin, causing depression; depression disrupts sleep, impairing mitochondrial repair; further reserve reduction worsens BH4 depletion. This bidirectional loop explains why depressed ME/CFS patients respond poorly to SSRIs alone — SSRIs address serotonin reuptake without fixing the upstream BH4 deficit. Prediction: depressed ME/CFS patients with low BH4 should respond better to BH4 supplementation + SSRI than SSRI alone. BH4 levels should predict SSRI response magnitude. Mechanistically logical; no clinical data. Not yet replicated.
+] <spec:depression-bh4-bidirectional>
+
 === The Cancer Cachexia Connection
 
 Cancer-associated cachexia shares surprising features with ME/CFS:

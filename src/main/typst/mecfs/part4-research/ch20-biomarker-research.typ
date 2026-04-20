@@ -791,3 +791,67 @@ The TRPM3 functional assay pipeline currently relies on patient-derived NK cells
 
 _Research priority:_ Medium-high. This is not a near-term clinical biomarker, but a research infrastructure investment that could accelerate the entire TRPM3 therapeutics pipeline.
 ] <oq:ch20-crispr-trpm3-reporter>
+
+== Architecture C Diagnostic Concepts
+<sec:architecture-c-diagnostics>
+
+The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) suggests several diagnostic approaches targeting reserve measurement and risk stratification. These range from immediately implementable screening panels to research-stage cellular assays.
+
+=== Composite Metabolic Reserve Score (MRS)
+<subsec:metabolic-reserve-score>
+
+A clinically practical composite score estimating metabolic reserve from available measurements:
+
+$ "MRS" = w_1 dot ("ferritin" / 100) + w_2 dot ("BH4" / "BH4"_"ref") + w_3 dot ("VO"_2 "max" / "VO"_2 "max"_"predicted") + w_4 dot ("CBF" / "CBF"_"ref") + w_5 dot (1 - "ND"_"burden") $
+
+where $"ND"_"burden"$ = sum of binary indicators (ADHD = 0.15, ASD = 0.20, hEDS = 0.10, migraine = 0.05, GCH1 homozygous = 0.10).
+
+*Practical challenge:* BH4 and CBF are not routine clinical measures. A simplified version using only ferritin + VO#sub[2]max + neurodivergent diagnosis could be implemented in primary care as a screening tool.
+
+*Use case:* Identify high-risk individuals before infection (prevention) and stratify treatment intensity (lowest MRS = most aggressive metabolic support per @sec:severity-stratified-reserve-protocol).
+
+#speculation(
+  title: "Composite Metabolic Reserve Score for Risk Stratification",
+  label: <spec:metabolic-reserve-score>,
+  certainty: 0.20,
+)[
+  A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study (@sec:prospective-metabolic-phenotyping). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
+]
+
+=== Urinary Neopterin:Biopterin Ratio as Non-Invasive BH4 Screen
+<subsec:neopterin-biopterin-screen>
+
+Neopterin is produced when GTP cyclohydrolase I activity is diverted toward immune activation rather than BH4 synthesis. An elevated neopterin:biopterin ratio indicates both immune activation AND BH4 depletion --- both relevant to Architecture C.
+
+*Practical advantages:* Non-invasive urine collection, can be done at home and mailed. HPLC measurement is standard and cheap (~\$30--50 per sample at specialty labs).
+
+*Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support (@subsec:sapropterin-bh4, @subsubsec:bh4-recycling-support).
+
+#speculation(
+  title: "Neopterin:Biopterin Ratio as Architecture C Screening Biomarker",
+  label: <spec:neopterin-biopterin-screen>,
+  certainty: 0.40,
+)[
+  If the BH4 convergent bottleneck hypothesis is correct (@spec:bh4-convergent-bottleneck), the urinary neopterin:biopterin ratio should be elevated across ALL predisposing conditions (ADHD, ASD, hEDS, migraine), not just post-infection. This would make it a universal Architecture C screening biomarker available at ~\$30--50 per test. Biochemistry well-established; whether this ratio predicts ME/CFS risk or treatment response is untested. Not yet replicated.
+]
+
+=== Pre-Infection Risk Screening Protocol for Neurodivergent Patients
+<subsec:pre-infection-screening>
+
+For patients with known neurodivergent diagnoses, a tiered screening protocol could identify those at highest metabolic reserve risk:
+
+*Tier 1 (any primary care, ~\$100):* Ferritin (target $> 100$ ng/mL), CBC with differential, vitamin D (target $> 50$ ng/mL), CRP, ESR.
+
+*Tier 2 (specialist, ~\$300):* Urinary neopterin:biopterin ratio, tilt table or NASA lean test (CBF proxy), serum zinc/copper/B12/folate, CPET if ambulatory (VO#sub[2]max, anaerobic threshold).
+
+*Tier 3 (research only, ~\$2,000+):* GCH1 genotyping, FDG-PET (cerebral glucose metabolism), PBMC respirometry.
+
+*Actionability:* Tier 1 is implementable today. Tier 2 requires specialist referral. Tier 3 is research-only.
+
+#speculation(
+  title: "Tiered Pre-Infection Screening for ME/CFS Risk in Neurodivergent Patients",
+  label: <spec:pre-infection-screening>,
+  certainty: 0.30,
+)[
+  A tiered screening approach could identify neurodivergent patients at highest metabolic reserve risk before viral illness, enabling preventive intervention (iron repletion, BH4 support, perfusion optimization). Tier 1 is available and cheap; Tier 2 requires specialist access; Tier 3 is research-only. Individual tests are validated; the composite screening approach and the prediction that it would reduce post-infectious ME/CFS incidence is unvalidated. Not yet replicated.
+]
