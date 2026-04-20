@@ -363,6 +363,8 @@ Category A (net energy provider). Enables mitochondrial fatty acid oxidation—t
 *Energy Profile.*
 Category A (net energy provider). Directly buffers ATP via the phosphocreatine system—the fastest cellular energy reserve. Creatine kinase converts phosphocreatine to ATP within milliseconds, providing immediate energy during demand spikes. Also supports brain energy metabolism. Minimal processing demands.
 
+*Architecture C: Cognitive PEM Buffer.* In the metabolic reserve framework (@sec:architecture-c-metabolic-reserve), creatine monohydrate maintains a phosphocreatine reserve that regenerates ATP faster than mitochondrial oxidative phosphorylation. In a brain with reduced $R_"headroom"$, phosphocreatine acts as a temporal buffer — extending the window during which cognitive demand can exceed mitochondrial production capacity before ATP depletion triggers the damage cascade. The analogy: if mitochondrial capacity is the generator and ATP the electricity, phosphocreatine is the battery backup. A smaller generator (neurodivergent brain) benefits MORE from a larger battery than a large generator does. Brain creatine supplementation (5 g/day for 6 weeks) improves working memory and processing speed in healthy adults (multiple RCTs). No ME/CFS-specific trials exist, but at ~\$0.50/day with extensive safety data, creatine is among the most actionable Architecture C interventions. (Certainty: 0.35.)
+
 === PQQ (Pyrroloquinoline Quinone)
 
 *Rationale.* PQQ stimulates mitochondrial biogenesis (creation of new mitochondria) and has antioxidant properties.
@@ -529,6 +531,8 @@ Category A–B (provider to neutral). Glutathione precursor that reduces oxidati
 *Energy Profile.*
 Category A (net energy provider at supplemental doses). Essential cofactor for pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase—enables energy production rather than consuming it. At high doses, mineral chelation may transiently reduce cofactor availability (see Cautions above). See Chapter @ch:medications-mechanisms for detailed profile.
 
+*Architecture C: Dual-Parameter Reserve Enhancement.* In the metabolic reserve model (@sec:architecture-c-metabolic-reserve), ALA uniquely shifts both terms of the $R_"headroom"$ equation. As a mitochondrial cofactor (pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase), it modestly increases $J_"production,max"$. As a potent antioxidant that recycles vitamin C, E, and glutathione, it raises the ROS threshold at which oxidative damage initiates the PEM damage cascade. Recommended form: R-lipoic acid (the bioactive enantiomer), 300–600 mg on empty stomach. Must be taken separately from meals due to metal chelation properties. (Certainty: 0.30 for Architecture C framing; individual ALA pharmacology well-established.)
+
 === Omega-3 Fatty Acids (EPA/DHA)
 
 *Rationale.*
@@ -651,6 +655,23 @@ variants, supplementation with the pre-reduced form (methylfolate, 5-MTHF) bypas
 enzymatic bottleneck, though RCT evidence for this approach in ME/CFS is absent.
 
 *Cautions.* Must be balanced with B12; folate alone can mask B12 deficiency.
+
+==== BH4 Recycling Support: Folinic Acid + Vitamin C + Iron
+<subsubsec:bh4-recycling-support>
+
+The BH4 convergent bottleneck hypothesis (@spec:bh4-convergent-bottleneck) identifies tetrahydrobiopterin depletion as a potential convergence point for multiple ME/CFS predisposing conditions. Direct BH4 supplementation (sapropterin) is expensive and requires prescription (@subsec:sapropterin-bh4). A combination of cofactors supporting endogenous BH4 recycling may achieve partial benefit at much lower cost:
+
+- *Folinic acid (5-MTHF), 400–800 mcg:* Supports dihydrofolate reductase (DHFR)-mediated BH4 regeneration from BH2. Preferred over folic acid because it bypasses MTHFR polymorphisms common in neurodivergent populations.
+- *Vitamin C, 500–1000 mg:* Prevents BH4 oxidation to BH2 by scavenging peroxynitrite. Also serves as dopamine beta-hydroxylase cofactor (norepinephrine synthesis).
+- *Iron bisglycinate:* Cofactor for dihydropteridine reductase (DHPR), the enzyme that recycles BH4. Dose titrated to ferritin $> 100$ ng/mL per Architecture C rationale (@subsec:iron-repletion-neurodivergent).
+
+#warning-env(title: [This Is Not Equivalent to BH4 Supplementation])[
+This combination supports endogenous BH4 recycling rather than providing exogenous BH4. Effectiveness depends on residual GCH1 activity — it will not help severe GCH1 deficiency (homozygous loss-of-function variants). No clinical data exist for this specific combination in any condition. The rationale is biochemically logical but entirely untested.
+]
+
+#speculation(title: [OTC BH4 Recycling Support as Low-Cost Reserve Intervention])[
+*Certainty: 0.25.* If the BH4 convergent bottleneck hypothesis is correct, a combination of folinic acid, vitamin C, and iron supporting BH4 recycling should produce measurable improvement in urinary neopterin:biopterin ratio and correlated symptom improvement (cognition, orthostatic tolerance) in ME/CFS patients with elevated neopterin:biopterin at baseline. This is testable with a pre/post design measuring the biomarker before and after 8 weeks of supplementation. All components are OTC, well-tolerated, and cheap (~\$20/month combined). Biochemically logical; no clinical data for this combination. Not yet replicated.
+] <spec:otc-bh4-recycling>
 
 === Cobalamin (B12)
 
@@ -936,6 +957,35 @@ ME/CFS patients often have multiple sensitivities (clinical experience). Introdu
     - CoQ10 + NADH (exception to the one-at-a-time principle: the RCT evidence is for the combination, not the individual components; see Section @subsec:mito-combination-guide). NADH requires an empty stomach 30–60 min before breakfast; CoQ10 is taken with a fat-containing meal—these timing constraints naturally separate the two supplements
     - NAC (antioxidant; watch for sulfur sensitivity)
     - Additional mitochondrial support (NAD#super[+] precursors, D-ribose, ALCAR) based on response
+
+=== Architecture C "Reserve Builder" Stack
+<subsec:reserve-builder-stack>
+
+Standard ME/CFS mitochondrial supplement protocols (CoQ10 + NADH + D-ribose) target electron transport chain throughput ($J_"production,max"$). Architecture C suggests a complementary approach targeting the UPSTREAM bottlenecks that determine why metabolic reserve is low in neurodivergent patients --- cofactor supply, enzyme efficiency, and rapid-access energy buffers.
+
+#figure(
+  table(
+    columns: 4,
+    [*Component*], [*Target*], [*Dose*], [*Rationale*],
+    [Iron bisglycinate], [Complex I/II + dopamine synthesis], [Titrate to ferritin $> 100$ ng/mL], [Dual bottleneck @DelRosso2026ironNeurodevelopmental],
+    [Folinic acid (5-MTHF)], [BH4 recycling support], [400--800 mcg], [Supports DHFR-mediated BH4 regeneration],
+    [Vitamin C], [BH4 oxidation protection + dopamine beta-hydroxylase cofactor], [500--1000 mg], [Prevents BH4 → BH2 oxidation],
+    [Zinc], [Dopamine receptor function + SOD cofactor], [15--30 mg], [Documented deficiency in ADHD],
+    [Magnesium threonate], [NMDA modulation + mito cofactor + BBB-crossing], [144 mg elemental Mg (as threonate)], [Brain-bioavailable form],
+    [Creatine monohydrate], [Phosphocreatine buffer (rapid ATP regeneration)], [3--5 g/day], [Extends time before ATP depletion reaches critical level],
+  ),
+  caption: [Architecture C "Reserve Builder" stack targeting upstream metabolic bottlenecks.],
+) <tab:reserve-builder-stack>
+
+*Distinction from standard protocols.* This stack focuses on upstream bottlenecks (cofactor supply, enzyme efficiency, phosphocreatine buffer) rather than downstream ETC support. The two approaches are complementary and may be combined. Estimated cost: \~\$80/month.
+
+#warning-env(title: [Untested Combination Protocol])[
+Individual components have evidence for their specific targets, but the combination has never been tested. Interaction effects between components are unknown. This protocol should not replace evidence-based ME/CFS management. Start one component at a time (2-week intervals) to identify individual tolerability and response. Consult a physician before initiating multi-supplement protocols, particularly regarding iron dosing.
+]
+
+#speculation(title: [Reserve Builder Stack Targeting Upstream Bottlenecks])[
+*Certainty: 0.30.* The combined upstream approach --- simultaneously addressing iron status, BH4 recycling, antioxidant protection, phosphocreatine buffering, and neurotransmitter cofactors --- should produce greater cognitive and energy improvement in neurodivergent ME/CFS patients than standard mitochondrial protocols targeting only ETC throughput. Testable by comparing the Reserve Builder stack vs standard CoQ10 + NADH + D-ribose protocol in a crossover design ($n = 40$, neurodivergent ME/CFS). Individual components have moderate evidence; the combination is untested. Not yet replicated.
+] <spec:reserve-builder-stack>
 
 == Additional Supplements
 <sec:additional-supplements>
