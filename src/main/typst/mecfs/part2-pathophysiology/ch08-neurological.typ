@@ -541,6 +541,27 @@ This hypothesis provides a mechanistic framework for understanding one component
 
 ] <hyp:glial-maturation-window>
 
+==== Brainstem Glial Senescence and Sympathetic Overactivity
+<sec:brainstem-glial-senescence>
+
+The preceding glial maturation window hypothesis addresses age-dependent recovery. A complementary question is whether glial senescence in brainstem autonomic nuclei directly drives the sympathetic overactivity documented in ME/CFS.
+
+Balasubramanian et al.\ (2021) demonstrated in a mouse aging model that brainstem glia show dramatic age-related senescence: p16#super[INK4a] expression increased 32--90-fold in aged versus young brainstem tissue, accompanied by elevated NF-$kappa$B, SASP cytokines (IL-1$beta$, IL-6, TNF-$alpha$), and elevated serum norepinephrine @Balasubramanian2021glialSenescence. The brainstem houses the locus coeruleus (LC, the primary source of brain norepinephrine) and the dorsal motor vagal nucleus (dmVN, parasympathetic outflow to viscera). Senescent glia surrounding these nuclei would produce a local inflammatory milieu that could impair catecholamine reuptake, alter neuronal firing patterns, and shift the sympathovagal balance toward sustained sympathetic dominance.
+
+In ME/CFS, this mechanism connects several documented findings:
+
++ *CSF catecholamine deficiency* (NIH deep phenotyping study @walitt2024deep): senescent brainstem glia may impair catecholamine synthesis (tyrosine hydroxylase requires non-inflammatory microenvironment) or accelerate catecholamine degradation, explaining the paradox of sympathetic overactivity with low CSF catecholamines.
++ *Reduced HRV* (Chapter @ch:cardiovascular Section @sec:hrv): brainstem glial senescence affecting dmVN would directly impair parasympathetic outflow to the heart.
++ *Cerebral hypoperfusion*: senescent brainstem glia disrupting autonomic vasomotor control centres in the rostral ventrolateral medulla would impair cerebral blood flow autoregulation.
+
+#speculation(title: [Brainstem Glial Senescence as a Self-Reinforcing Autonomic Trap])[
+*Certainty: 0.30.* Senescent glia in brainstem autonomic nuclei produce SASP cytokines that impair local catecholamine signalling, increasing sympathetic tone and reducing parasympathetic output @Balasubramanian2021glialSenescence. Sustained sympathetic overdrive in turn generates systemic ROS and inflammatory mediators that further promote glial senescence via blood-brain barrier penetration---creating a feedback loop. This mechanism would explain why autonomic dysfunction in ME/CFS is structurally fixed (HRV does not normalise under slow breathing @Ryabkova2024dysautonomia) and worsens with disease duration.
+
+*Testable predictions:* (a) PET-TSPO imaging should show higher tracer uptake in brainstem regions (pons, medulla) in ME/CFS patients with more severe autonomic dysfunction, independent of supratentorial neuroinflammation. (b) CSF p16#super[INK4a] levels should correlate inversely with HRV parameters. (c) Senolytic compounds (fisetin, dasatinib+quercetin) should improve both autonomic metrics and CSF catecholamine levels if brainstem senescence is load-bearing.
+
+*Limitation:* Evidence comes from a mouse aging study ($n = 4$--$6$ per group) @Balasubramanian2021glialSenescence; human brainstem senescence markers have not been measured in ME/CFS. TSPO-PET has poor specificity for senescence versus activation (see limitation box in Section @sec:glial above). The causal direction (senescence $arrow.r$ sympathetic overdrive versus reverse) cannot be determined from cross-sectional data. Not yet replicated.
+] <spec:brainstem-glial-senescence>
+
 ==== Astrocyte Abnormalities and the Astrocyte Energy Gate
 <sec:astrocyte-energy-gate>
 

@@ -237,6 +237,63 @@ First official institutional medication list for ME/CFS with insurance coverage 
     / *Relevance:*: Largest prospective cohort to date for immunoadsorption in post-COVID ME/CFS. Supports further investigation of autoantibody-targeted therapy in biomarker-selected patients. Cannot confirm efficacy without sham control: invasive multi-session procedures typically produce substantial placebo responses, and the absence of a control arm prevents distinguishing specific from non-specific effects.
     / *Certainty:*: Medium (prospective design, published in _Lancet Regional Health_, targeted patient selection based on biomarker, n=20; however, no sham/control arm; open-label; cannot rule out placebo effects from invasive procedure). Mechanistic evidence for autoantibody pathogenicity: Medium. Efficacy evidence: Low-Medium pending sham-controlled replication.
 
+    / *Full Citation:*: T\"olle M, Freitag H, Antelmann M, et al.\ Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Efficacy of Repeat Immunoadsorption. _Journal of Clinical Medicine_. 2020;9(8):2443.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm9082443")[10.3390/jcm9082443]
+    / *PMID:*: 32751659
+    / *Published:*: August 2020
+    / *Study Design:*: Follow-up pilot study (n=5), retreating previously responsive ME/CFS patients
+    / *Key Findings:*: Repeat immunoadsorption (approximately 2 years after initial treatment) achieved 80--90% decline in total IgG and $beta$2AR-AB. 4/5 patients showed symptom improvement lasting 6--12 months. Modified protocol was well tolerated. Demonstrates feasibility of repeated IA cycles with sustained biomarker reduction.
+    / *Relevance:*: First study to examine repeat IA in ME/CFS; addresses the key clinical question of whether retreatment can re-establish and prolong response. Complements Scheibenbogen 2018 (initial treatment) and provides basis for multi-cycle strategies tested in Stein 2024.
+    / *Certainty:*: Low-Medium (n=5; open-label; no sham control; selected for prior response; small pilot only. Mechanistic plausibility: High).
+
+    / *Full Citation:*: Stein E, Heindrich C, Wittke K, et al.\ Observational Study of Repeat Immunoadsorption (RIA) in Post-COVID ME/CFS Patients with Elevated $beta$2-Adrenergic Receptor Autoantibodies---An Interim Report. _Journal of Clinical Medicine_. 2023;12(19):6428.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm12196428")[10.3390/jcm12196428]
+    / *PMID:*: 37835071
+    / *Published:*: October 2023
+    / *Study Design:*: Interim report of prospective observational study; n=10 at time of publication
+    / *Key Findings:*: 7/10 (70%) patients responded, defined by $gt.eq$10-point increase in SF-36 Physical Function at week 4. Responders also improved in fatigue severity, muscle pain, headache, and cognitive symptoms. Published as interim analysis; the full cohort (n=20) was reported in Stein 2024 (Lancet Regional Health).
+    / *Relevance:*: Bridge publication between the Scheibenbogen 2018 pilot and the definitive Stein 2024 cohort study. Demonstrates consistent response rates across the Charit\'e cohort and refines responder criteria.
+    / *Certainty:*: Low-Medium (interim analysis, n=10, open-label observational, no sham control; selection bias for elevated autoantibodies).
+
+    / *Full Citation:*: Pre{\ss}ler H, Machule M-L, Ufer F, et al.\ IA-PACS-CFS: a double-blinded, randomized, sham-controlled, exploratory trial of immunoadsorption in patients with chronic fatigue syndrome (CFS) including patients with post-acute COVID-19 CFS (PACS-CFS). _Trials_. 2024;25(1):172.
+    / *DOI:*: #link("https://doi.org/10.1186/s13063-024-07982-5")[10.1186/s13063-024-07982-5]
+    / *PMID:*: 38454468
+    / *ClinicalTrials:*: NCT05710770
+    / *Published:*: March 2024 (protocol paper)
+    / *Study Design:*: Published protocol for double-blind, randomized, sham-controlled trial; 2:1 allocation (active:sham); 66 patients; Charit\'e Universit\"atsmedizin Berlin
+    / *Key Findings:*: Protocol paper only --- no efficacy results. 5 IA sessions administered every other day during 9--12 day inpatient hospitalization. Primary outcome: Chalder Fatigue Scale at 3 months. Quadruple-masked (participant, care provider, investigator, outcomes assessor). Trial completed October 2025; results pending publication.
+    / *Relevance:*: First sham-controlled RCT of immunoadsorption in ME/CFS. Critical for establishing whether IA benefits are specific (autoantibody removal) or non-specific (placebo, hospitalization, nursing attention). The 2:1 design maximizes power in the active arm while maintaining blinded control. Results will determine whether the Stein 2024 observational cohort findings replicate under controlled conditions.
+    / *Certainty:*: Protocol only --- efficacy certainty pending. Trial design: High quality (double-blind, sham-controlled, pre-registered, quadruple-masked).
+
+    / *Full Citation:*: Anft M, Wiemers L, Rosiewicz KS, et al.\ Effect of immunoadsorption on clinical presentation and immune alterations in COVID-19-induced and/or aggravated ME/CFS. _Molecular Therapy_. 2025;33(6):2886--2899.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ymthe.2025.01.007")[10.1016/j.ymthe.2025.01.007]
+    / *PMID:*: 39797400
+    / *Published:*: 2025
+    / *Institution:*: Marien Hospital Herne / Ruhr-University Bochum (independent of Charit\'e Berlin)
+    / *Study Design:*: Observational study; n=12 post-COVID patients with ME/CFS symptoms and elevated autonomic nervous system receptor autoantibodies
+    / *Key Findings:*: Autoantibodies nearly eliminated after IA. Pro-inflammatory cytokines reduced (IL-4, IL-2, IL-1$beta$, TNF, IL-17A) and soluble spike protein decreased. At 30 days: improved neuropsychological function and modest but statistically significant improvement in hand grip strength. However, self-reported ME/CFS symptom questionnaire scores were *not* significantly improved. Autoantibody and cytokine levels rebounded within one month.
+    / *Relevance:*: Independent replication of IA immunological effects from a different German institution, providing external validation of the Charit\'e immunological findings. The discordance between objective immune/grip-strength improvements and subjective symptom questionnaires is important: it suggests either (a) the symptom questionnaires are insensitive at n=12, (b) autoantibody rebound within a month prevents sustained improvement, or (c) ME/CFS symptoms are not primarily autoantibody-driven.
+    / *Certainty:*: Low-Medium (n=12 only; observational; no sham control; symptom scores non-significant; rebound within 30 days limits clinical conclusions. Immunological findings: Medium strength).
+
+    / *Full Citation:*: EXTINCT Trial. NCT05954325. Extracorporal Apheresis Hannover Medical School Study in Post COVID-19 Patients. ClinicalTrials.gov.
+    / *ClinicalTrials:*: NCT05954325
+    / *Institution:*: Hannover Medical School, Hanover, Germany
+    / *Study Design:*: Double-blind, randomized, sham-controlled RCT; n=63; 5 IA sessions within 14 days; start date 2023-08-15; completed (verified September 2025)
+    / *Primary Endpoint:*: Chalder Fatigue Scale at 12 weeks
+    / *Key Findings:*: Trial registration only --- results not yet published at time of writing (April 2026). The trial is completed and results are awaited.
+    / *Relevance:*: Second sham-controlled RCT of immunoadsorption in ME/CFS/post-COVID. Independent of Charit\'e Berlin (Hannover Medical School). Larger than any single Charit\'e cohort. Double-blind sham-controlled design allows definitive assessment of placebo effect of invasive apheresis procedures. Results will be pivotal for the field.
+    / *Certainty:*: Trial design: High quality. Efficacy certainty: Pending publication.
+
+    / *Full Citation:*: IMPACT Trial. NCT07529197. Observational Study on Immunoadsorption (IA) in Patients With Autoantibody-Positive Post-Infectious ME/CFS. ClinicalTrials.gov.
+    / *ClinicalTrials:*: NCT07529197
+    / *Institution:*: Charit\'e -- Universit\"atsmedizin Berlin, Germany
+    / *Study Design:*: Non-interventional prospective observational cohort; n=50 estimated; 5 outpatient IA sessions on days 1, 2, 4, 6, 8; start date 2026-03-11; recruiting
+    / *Primary Endpoint:*: SF-36 Physical Function at 8 weeks
+    / *Secondary Endpoints:*: Memory B-cell changes, autoantibody reduction, Chalder Fatigue Scale, COMPASS-31 autonomic score, handgrip strength, work ability
+    / *Key Findings:*: Trial registration only --- ongoing as of April 2026.
+    / *Relevance:*: Novel focus on memory B-cell dynamics distinguishes IMPACT from prior IA studies. If IA produces durable responses in some patients, memory B-cell depletion/reprogramming is a plausible mechanism; if responses are short-lived (as in Anft 2025), memory B-cells may be the missing link. Outpatient design is also notable: previous studies required hospitalization, limiting access. IMPACT will test whether outpatient IA achieves comparable effects.
+    / *Certainty:*: Trial registration only --- no efficacy data.
+
     / *Full Citation:*: Loebel M, Grabowski P, Heidecke H, et al.\ Antibodies to beta adrenergic and muscarinic cholinergic receptors in patients with Chronic Fatigue Syndrome. _Brain Behav Immun_. 2016;52:32–39.
     / *DOI:*: #link("https://doi.org/10.1016/j.bbi.2015.09.013")[10.1016/j.bbi.2015.09.013]
     / *PMID:*: 26399744
@@ -9240,4 +9297,175 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - *Quality:* Medium (Nature Sci Sleep; prospective but single-center)
         - *Sample:* n=59 (COVID_SD); adequate
         - *Replication:* Not independently replicated
+        - *Score:* 0.55
+
+// =============================================================================
+
+== ANS Imbalance and Accelerated Aging
+<sec:bib-ans-aging>
+// =============================================================================
+
+=== Errico et al.\ 2025 --- Sympathetic-Parasympathetic Deregulation Theory of Aging
+
+    / *Full Citation:*: Errico JP, Ben-Azu B, Gargus M, Newell Rogers MK, Tremblay M-È. Sympathetic-parasympathetic system deregulation theory of aging. _npj Aging_. 2025;11:100. @Errico2025ANSaging
+    / *DOI:*: #link("https://doi.org/10.1038/s41514-025-00293-2")[10.1038/s41514-025-00293-2]
+    / *PMID:*: 41402304 · *PMCID:*: PMC12708862
+    / *Article Type:*: Perspective (theoretical framework; no original data)
+    / *Key Findings:*:
+        - Proposes chronic sympathetic dominance as unifying driver of all 9 hallmarks of aging (Lopez-Otin framework)
+        - SNS pathway: catecholamines/NADPH oxidase→ROS→mtDNA damage; PKA/cAMP→AMPK inhibition→blocked autophagy; beta-AR desensitization→NF-κB inflammaging
+        - PNS pathway: alpha7-nAChR→NF-κB inhibition/JAK2-STAT3/pro-resolving mediators; PGC-1α→mitochondrial biogenesis; cortisol→gut permeability/dysbiosis
+        - VNS proposed as therapeutic target; empirical longevity studies called for
+    / *Conclusion:*: ANS balance may represent a master regulatory axis linking all hallmarks of aging. Rebalancing toward parasympathetic tone via pharmacological or device-based interventions is proposed as anti-aging strategy.
+    / *Limitations:*: Theoretical perspective only; no primary data; no ME/CFS patient data; causal claims unverified; VNS longevity evidence sparse.
+    / *ME/CFS Relevance:*: ANS imbalance is a core ME/CFS feature (sympathetic dominance, reduced HRV, orthostatic intolerance). This framework integrates mitochondrial dysfunction, inflammaging, cellular senescence, gut dysbiosis, and epigenetic degradation --- all documented in ME/CFS --- under a single ANS-imbalance model.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (npj Aging, Nature Portfolio; but perspective only --- no data)
+        - *Sample:* N/A (theoretical)
+        - *Replication:* Framework not yet formally tested
+        - *Score:* 0.45
+
+=== Giunta et al.\ 2024 --- ANS Imbalance Impairs Anti-Inflammaging Strategies in Aging
+
+    / *Full Citation:*: Giunta S, Xia S, Pelliccioni G, Olivieri F. Autonomic nervous system imbalance during aging contributes to impair endogenous anti-inflammaging strategies. _GeroScience_. 2024;46:113--127. @Giunta2023ANSinflamaging
+    / *DOI:*: #link("https://doi.org/10.1007/s11357-023-00947-7")[10.1007/s11357-023-00947-7]
+    / *PMID:*: 37821752 · *PMCID:*: PMC10828245
+    / *Article Type:*: Perspective review (no original data)
+    / *Key Findings:*:
+        - Age-related ANS imbalance: sympathetic overactivity + parasympathetic decline progressively impair cholinergic anti-inflammatory pathway (CAP)
+        - HRV inversely correlates with IL-6 and CRP (systemic inflammation markers)
+        - Decreased vagal output associated with endothelial dysfunction and macrophage overactivation
+        - Both CAP and HPA axis responses diminish with age, reducing protective inflammation control
+    / *Conclusion:*: ANS imbalance is a primary mechanism sustaining inflammaging. Restoring vagal tone is proposed as an intervention point.
+    / *Limitations:*: Theoretical; limited sex-specific mechanistic data; no optimal HRV threshold defined for elderly risk stratification; no ME/CFS patient cohort.
+    / *ME/CFS Relevance:*: Directly supports the ANS-imbalance model for ME/CFS. Reduced HRV (parasympathetic decline) is well-documented in ME/CFS. The CAP impairment described here provides a mechanistic explanation for chronic low-grade inflammation in ME/CFS without clear infection.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (GeroScience, high-impact aging journal; perspective)
+        - *Sample:* N/A (review)
+        - *Replication:* Reviewed evidence is replicated; framework itself not formally tested
+        - *Score:* 0.55
+
+=== Balasubramanian et al.\ 2021 --- Glial Senescence in Brainstem Drives Sympathetic Overactivity
+
+    / *Full Citation:*: Balasubramanian P, Branen L, Sivasubramanian MK, Monteiro R, Subramanian M. Aging is associated with glial senescence in the brainstem --- implications for age-related sympathetic overactivity. _Aging (Albany NY)_. 2021;13(10):13460--13473. @Balasubramanian2021glialSenescence
+    / *DOI:*: #link("https://doi.org/10.18632/aging.203111")[10.18632/aging.203111]
+    / *Study Design:*: Mouse comparative study; young (2--4 months) vs.\ aged (24 months)
+    / *Sample Size:*: n=4--6 per group per measurement
+    / *Key Findings:*:
+        - Aged brainstem: 32-fold increase in p16 mRNA; glial cells show 90-fold increase (senescence)
+        - Elevated nuclear NF-κB activity in aged brainstems, activating SASP genes
+        - Serum norepinephrine elevated in aged animals --- heightened sympathetic activity
+        - Elevated SASP cytokines/chemokines: IL-1β, MCP1, TNFα, Eotaxin, RANTES
+    / *Conclusion:*: Glial senescence in the brainstem (sympathetic control centers) may drive age-related sympathetic overactivity via SASP-mediated neuroinflammation. Provides cellular mechanism for the SNS dominance described in Errico2025ANSaging.
+    / *Limitations:*: Mouse model only; associative (no causal proof); small n; unable to isolate neuronal senescence (no viable neurons extracted); no human validation.
+    / *ME/CFS Relevance:*: Brainstem abnormalities are documented in ME/CFS (e.g., microglial activation, neuroinflammation). Glial senescence as a driver of sympathetic overactivity provides a cellular substrate for ME/CFS ANS dysfunction that could be triggered by viral infection.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Aging Albany; animal study; small n)
+        - *Sample:* n=4--6 per group
+        - *Replication:* Not independently replicated in human tissue
+        - *Score:* 0.50
+
+=== Kim et al.\ 2023 --- Molecular Mechanisms of mtDNA Release and cGAS-STING Activation
+
+    / *Full Citation:*: Kim J, Kim H-S, Chung JH. Molecular mechanisms of mitochondrial DNA release and activation of the cGAS-STING pathway. _Experimental \& Molecular Medicine_. 2023;55(3):510--519. @Kim2023cGASSTING
+    / *DOI:*: #link("https://doi.org/10.1038/s12276-023-00965-7")[10.1038/s12276-023-00965-7]
+    / *PMID:*: 36964253 · *PMCID:*: PMC10037406
+    / *Article Type:*: Review
+    / *Key Findings:*:
+        - cGAS senses cytosolic double-stranded DNA fragments; activates STING to initiate innate immune response
+        - mtDNA release via VDAC oligomerization macropores on outer mitochondrial membrane
+        - NLRP3 inflammasome requires oxidized mtDNA release for activation
+        - VDAC oligomerization inhibition mitigates inflammatory response; therapeutic implication
+        - Relevance to neurodegenerative conditions (ALS) discussed
+    / *Conclusion:*: mtDNA release is a central link between mitochondrial stress and chronic innate immune activation. VDAC as a potential therapeutic target.
+    / *Limitations:*: Review article; no primary data; primarily pre-clinical mechanistic evidence.
+    / *ME/CFS Relevance:*: Provides the mechanistic bridge: SNS-driven NADPH oxidase→ROS→mtDNA oxidative damage→VDAC pore mtDNA release→cGAS-STING activation→sustained type-I interferon and NF-κB signaling. Consistent with elevated ccf-mtDNA reported in Long COVID (Matits2026) and hypothesized in ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (Exp Mol Med, Nature Portfolio; review)
+        - *Sample:* N/A (review)
+        - *Replication:* Reviewed mechanisms well-established in pre-clinical models
+        - *Score:* 0.65
+
+=== Park et al.\ 2023 --- Redefining AMPK's Role in Autophagy and Energy Stress
+
+    / *Full Citation:*: Park J-M, Lee D-H, Kim D-H. Redefining the role of AMPK in autophagy and the energy stress response. _Nature Communications_. 2023;14(1):2994. @Park2023AMPK
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-023-38401-z")[10.1038/s41467-023-38401-z]
+    / *PMID:*: 37225695 · *PMCID:*: PMC10209092
+    / *Study Design:*: In vitro (HCT116, HEK293T, MEFs, HeLa cell lines) + in vivo mouse (liver, skeletal muscle)
+    / *Key Findings:*:
+        - AMPK inhibits ULK1 (autophagy initiation kinase) during energy depletion via LKB1-AMPK axis
+        - Challenges prior model: AMPK does not promote autophagy during energy stress
+        - AMPK simultaneously protects autophagy machinery components from caspase degradation
+        - Recovery function: cells can restore autophagy capacity when stress resolves
+    / *Conclusion:*: AMPK has dual regulatory role in autophagy --- suppressive during acute energy depletion, protective for long-term recovery. Refines how PKA/cAMP interference with AMPK impacts mitochondrial quality control.
+    / *Limitations:*: Cell culture and mouse models; no human tissue validation; no clinical conditions modeled.
+    / *ME/CFS Relevance:*: If chronic SNS activation (PKA/cAMP) inhibits AMPK, autophagy/mitophagy is suppressed, leading to accumulation of dysfunctional mitochondria. This directly supports the Errico2025ANSaging AMPK pathway and is consistent with ME/CFS mitochondrial dysfunction literature.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Nature Communications; rigorous mechanistic study)
+        - *Sample:* Multiple cell lines + mouse tissue
+        - *Replication:* Pre-clinical; mechanistic findings robust
+        - *Score:* 0.65
+
+=== Rajeevan et al.\ 2018 --- ME/CFS Associated with Premature Telomere Attrition
+
+    / *Full Citation:*: Rajeevan MS, Murray J, Oakley L, Lin J-MS, Unger ER. Association of chronic fatigue syndrome with premature telomere attrition. _Journal of Translational Medicine_. 2018;16(1):44. @Rajeevan2018telomere
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-018-1414-x")[10.1186/s12967-018-1414-x]
+    / *PMID:*: 29486769
+    / *Study Design:*: Cross-sectional; 4-group classification (CFS / CFS-X / ISF / non-fatigued controls); 1994 Fukuda criteria
+    / *Sample Size:*: n=639 (64 CFS, 77 CFS-X, 302 ISF, 196 NF)
+    / *Key Findings:*:
+        - Mean telomere length differed significantly across groups ($p$=0.0017)
+        - CFS: telomeres shorter by 957 bp vs.\ controls, equivalent to 10.1--20.5 years additional biological aging
+        - ISF (insufficient symptoms): 424 bp shorter (6.6--13.7 years additional aging)
+        - Effect largely moderated by female subjects under 45 years old
+        - Differences persisted after adjusting for age, BMI, covariates
+    / *Conclusion:*: ME/CFS is associated with measurable accelerated biological aging via telomere attrition, consistent with the ANS-imbalance aging framework.
+    / *Limitations:*: Cross-sectional; 1994 Fukuda criteria (broader than ICC/CCC); causality unclear; telomere length as aging proxy has limitations; sex/age interaction limits generalizability.
+    / *ME/CFS Relevance:*: Direct evidence of accelerated biological aging in ME/CFS. Connects to Errico2025ANSaging framework: if chronic ANS imbalance drives aging hallmarks, ME/CFS patients' accelerated telomere attrition is an expected downstream consequence.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (J Transl Med; cross-sectional; single time point)
+        - *Sample:* n=639; adequate
+        - *Replication:* Not independently replicated with newer diagnostic criteria cohorts
+        - *Score:* 0.60
+
+=== Luo et al.\ 2025 --- Immunosenescence and Physical Fatigue in ME/CFS
+
+    / *Full Citation:*: Luo Y, Xu H, Xiong S, Ke J. Understanding Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Physical Fatigue Through the Perspective of Immunosenescence. _Comprehensive Physiology_. 2025;15(5):e70056. @Luo2025MECFSimmunophysiology
+    / *DOI:*: #link("https://doi.org/10.1002/cph4.70056")[10.1002/cph4.70056]
+    / *PMID:*: 41017304
+    / *Article Type:*: Narrative review
+    / *Key Findings:*:
+        - Immunosenescence (aging immune cells) drives chronic inflammation impairing mitochondrial ATP production in ME/CFS
+        - HPA-axis suppression + beta2-adrenergic dysfunction amplify immune aging pathology
+        - Cross-organ communication (immune--muscular--neuroendocrine--vascular) sustains fatigue cycle
+        - Muscle catabolism promoted by SASP-driven inflammatory environment
+        - Proposed biomarkers include cytokines and immune exhaustion markers
+    / *Conclusion:*: Immunosenescence provides a unifying pathophysiological framework for ME/CFS physical fatigue, linking immune aging to energy failure.
+    / *Limitations:*: Narrative review; no original data; proposed biomarkers not validated in ME/CFS-specific cohorts.
+    / *ME/CFS Relevance:*: Directly applies immunosenescence framework to ME/CFS. Beta2-adrenergic dysfunction connects to ANS-imbalance literature. Mitochondrial ATP impairment links to core ME/CFS energy failure phenotype.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Comprehensive Physiology; review)
+        - *Sample:* N/A (review)
+        - *Replication:* Synthesizes partially replicated findings
+        - *Score:* 0.55
+
+=== Xu et al.\ 2026 --- Immunosenescence-Driven Hemodynamic Dysregulation and Cognitive Impairment in ME/CFS
+
+    / *Full Citation:*: Xu H, Luo Y, Wu X. Immunosenescence-Driven Hemodynamic Dysregulation and Cognitive Impairment in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: An Integrative Perspective. _Comprehensive Physiology_. 2026;16(1):e70098. @Xu2026immunosenescenceCognitive
+    / *DOI:*: #link("https://doi.org/10.1002/cph4.70098")[10.1002/cph4.70098]
+    / *PMID:*: 41527963
+    / *Article Type:*: Review
+    / *Key Findings:*:
+        - Proposes immune-vascular-cognitive axis: immunosenescence→chronic inflammation→impaired cerebral blood flow and nitric oxide production
+        - Brain hypoperfusion reduces neuronal energy availability → cognitive dysfunction
+        - BBB compromise, oxidative stress, neurotransmitter imbalance contribute to brain fog
+        - Suggests therapeutic targets: cytokine blockade, nitric oxide enhancement
+    / *Conclusion:*: Brain fog in ME/CFS can be mechanistically explained through an immune aging→vascular→cognitive cascade, extending the immunosenescence framework from physical to cognitive fatigue.
+    / *Limitations:*: Review article; no original data; therapeutic suggestions speculative; ME/CFS-specific hemodynamic data limited.
+    / *ME/CFS Relevance:*: Extends Luo2025MECFSimmunophysiology to cognitive impairment. Aligns with established ME/CFS findings: reduced cerebral blood flow, orthostatic hypoperfusion, brain fog. Provides ANS-aging bridge to neurological symptom domain.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Comprehensive Physiology; review)
+        - *Sample:* N/A (review)
+        - *Replication:* Synthesizes emerging data; not independently validated
+        - *Score:* 0.50
         - *Score:* 0.60

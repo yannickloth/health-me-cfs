@@ -321,6 +321,22 @@ DNA methylation patterns change predictably with chronological age, enabling con
 
 Preliminary evidence suggests ME/CFS patients may show accelerated epigenetic aging, with methylation-based age estimates exceeding actual age. This finding, if replicated in larger cohorts, would support the hypothesis that ME/CFS involves accelerated biological aging processes affecting multiple physiological systems. The mechanisms underlying epigenetic age acceleration in ME/CFS remain unclear but could involve chronic oxidative stress, mitochondrial dysfunction, or chronic inflammation, all of which affect methylation patterns and associate with aging.
 
+==== Telomere Shortening and Replicative Senescence
+<sec:telomere-aging>
+
+Telomere length provides a complementary measure of biological aging independent of the epigenetic clock. Rajeevan et al.\ (2018) conducted the largest study of biological aging markers in CFS ($n = 639$; Wichita and Georgia population-based cohorts; Fukuda criteria) and found leukocyte telomeres 957 bp shorter than age-matched controls, equivalent to 10.1--20.5 years of additional biological aging ($p = 0.0017$) @Rajeevan2018telomere. The effect was most pronounced in females under 45---the demographic with highest ME/CFS prevalence---and was independent of BMI, depression, and other potential confounders.
+
+Telomere shortening in ME/CFS may be driven by multiple converging mechanisms documented in this document: chronic oxidative stress (Chapter @ch:energy-metabolism, Step 9) accelerates telomere erosion; sustained immune activation (Chapter @ch:immune-dysfunction) drives replicative senescence in T and NK cells; and chronic sympathetic overdrive may accelerate cellular aging through the ANS-aging pathway described by Errico et al.\ @Errico2025ANSaging (see Chapter @ch:cardiovascular Section @sec:ans-aging-phenotype).
+
+#limitation(title: [Telomere Evidence: Single Cross-Sectional Study])[
+The Rajeevan study uses Fukuda criteria (less specific than ICC/CCC), and the cross-sectional design cannot determine whether telomere shortening precedes ME/CFS onset (predisposing factor) or results from it. Longitudinal studies with newer diagnostic criteria and modern epigenetic clocks applied alongside telomere measurements are needed. Telomere length measurement methodology (qPCR versus Southern blot) introduces variability across studies. Not yet replicated with post-2015 case definitions.
+]
+
+==== Integration: Multi-Modal Biological Aging Assessment
+<sec:aging-integration>
+
+The convergence of epigenetic clock acceleration (methylation-based), telomere shortening (replication-based), and immunosenescence markers (Section @sec:immunosenescence-aging of Chapter @ch:immune-dysfunction) in ME/CFS suggests that accelerated biological aging is a real phenomenon rather than an artifact of any single measurement modality. However, no study has simultaneously measured all three aging modalities in the same ME/CFS cohort. This represents a critical research gap: multi-modal biological aging assessment in a well-characterised cohort (ICC criteria, $n > 100$) using Horvath/Hannum clocks, telomere length, and immunosenescence markers (p16#super[INK4a], SASP cytokine panel) would determine whether these aging signatures are correlated within patients or reflect independent processes.
+
 === Histone Modifications
 <sec:histone-modifications>
 

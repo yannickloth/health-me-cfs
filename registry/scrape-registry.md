@@ -195,6 +195,12 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/40108491/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Chaganti2025longCovidGlymphatic — DTI-ALPS glymphatic dysfunction Long COVID BMC Neurology |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12182059/ | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Tang2025covidSleepDTIALPS — glymphatic alterations post-COVID sleep disorder DTI-ALPS Nat Sci Sleep |
 | https://pubmed.ncbi.nlm.nih.gov/34202826/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — KhanpourArdestani2021mindBody — systematic review mind-body interventions ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/32751659/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Tolle2020immunoadsorption — repeat IA pilot n=5 ME/CFS JCM |
+| https://pubmed.ncbi.nlm.nih.gov/37835071/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Stein2023immunoadsorptionInterim — interim report RIA post-COVID ME/CFS n=10 JCM |
+| https://pubmed.ncbi.nlm.nih.gov/38454468/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Pressler2024IAPACSCFSprotocol — IA-PACS-CFS RCT protocol paper Trials NCT05710770 |
+| https://pubmed.ncbi.nlm.nih.gov/39797400/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Anft2025immunoadsorption — IA immune alterations COVID-induced ME/CFS n=12 Molecular Therapy |
+| https://clinicaltrials.gov/study/NCT05954325 | clinicaltrials.gov | 2026-04-20 | 2026-04-20 | bib/appendix-h — EXTINCTtrial2023 — EXTINCT sham-controlled RCT n=63 Hannover completed |
+| https://clinicaltrials.gov/study/NCT07529197 | clinicaltrials.gov | 2026-04-20 | 2026-04-20 | bib/appendix-h — IMPACTtrial2026 — IMPACT observational n=50 Charite outpatient recruiting |
 | https://pubmed.ncbi.nlm.nih.gov/21197347/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Sampalli2009MBSR — MBSR controlled trial MCS/CFS/fibromyalgia |
 | https://pubmed.ncbi.nlm.nih.gov/23990997/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Lakhan2013MBT — meta-analysis mindfulness somatization disorders incl. CFS |
 | https://pubmed.ncbi.nlm.nih.gov/20815988/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Merkes2010MBSR — systematic review MBSR for chronic diseases incl. CFS |
@@ -202,3 +208,11 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/28270860/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Oka2017recumbentYoga — recumbent isometric yoga pilot severe ME/CFS n=12 |
 | https://pubmed.ncbi.nlm.nih.gov/29643935/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Oka2018yogaMechanisms — autonomic/biomarker mechanisms isometric yoga CFS |
 | https://pubmed.ncbi.nlm.nih.gov/29231037/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — OConnor2019energyEnvelope — energy envelope pacing theory ME/CFS |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12708862/ | PMC | 2026-04-20 | 2026-04-20 | bib/appendix-h — Errico2025ANSaging — ANS deregulation theory of aging npj Aging perspective |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10828245/ | PMC | 2026-04-20 | 2026-04-20 | bib/appendix-h — Giunta2023ANSinflamaging — ANS imbalance aging anti-inflammaging GeroScience |
+| https://www.aging-us.com/article/203111/text | aging-us.com | 2026-04-20 | 2026-04-20 | bib/appendix-h — Balasubramanian2021glialSenescence — brainstem glial senescence sympathetic overactivity mouse |
+| https://pubmed.ncbi.nlm.nih.gov/36964253/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Kim2023cGASSTING — mtDNA release cGAS-STING Exp Mol Med review |
+| https://pubmed.ncbi.nlm.nih.gov/37225695/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Park2023AMPK — AMPK autophagy energy stress Nature Commun |
+| https://pubmed.ncbi.nlm.nih.gov/29486769/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Rajeevan2018telomere — ME/CFS premature telomere attrition n=639 J Transl Med |
+| https://pubmed.ncbi.nlm.nih.gov/41017304/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Luo2025MECFSimmunophysiology — immunosenescence ME/CFS physical fatigue Comp Physiology |
+| https://pubmed.ncbi.nlm.nih.gov/41527963/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Xu2026immunosenescenceCognitive — immunosenescence hemodynamics cognition ME/CFS Comp Physiology |

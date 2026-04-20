@@ -1151,6 +1151,17 @@ If the fraction of functional new mitochondria is sufficiently low (i.e., the bi
 *Limitation:* The biogenesis trap combines three findings from different tissue compartments and different studies into a single model. No study has simultaneously measured all components in the same ME/CFS tissue sample. The composite cannot be falsified by a negative result in any single component — only a study measuring WASF3 + PGC-1$alpha$ acetylation + supercomplex assembly + functional respiratory capacity in the same biopsies could test the integrated model.
 ] <spec:biogenesis-trap>
 
+==== Sympathetic Nervous System as an Upstream AMPK Suppressor
+<sec:sns-ampk-suppression>
+
+The upstream AMPK impairment documented by Brown et al.\ @Brown2018AMPK (point 4 above) may have a specific autonomic origin. Sympathetic nervous system activation elevates intracellular cAMP via $beta$-adrenergic receptors, activating protein kinase A (PKA). PKA directly phosphorylates AMPK$alpha$ at Ser485/491, inhibiting its activation by LKB1 @Park2023AMPK. In a state of chronic sympathetic dominance---characteristic of ME/CFS autonomic dysfunction (Chapter @ch:cardiovascular)---sustained PKA activity would tonically suppress AMPK, blocking the AMPK $arrow.r$ SIRT1 $arrow.r$ PGC-1$alpha$ biogenesis axis described above @Errico2025ANSaging.
+
+Park et al.\ (2023) further demonstrate that AMPK's role in autophagy is more nuanced than previously understood: during acute energy depletion, AMPK actually suppresses autophagy (via ULK1 inhibition) to preserve cellular viability, only permitting autophagy during recovery @Park2023AMPK. In ME/CFS, where energy depletion may be chronic rather than transient, this dual role could create a paradox: AMPK is both tonically suppressed by sympathetic PKA _and_ functionally programmed to suppress autophagy during the energy deficit it is experiencing. The result is a double brake on mitophagy and mitochondrial quality control.
+
+This SNS $arrow.r$ PKA $arrow.r$ AMPK suppression mechanism connects to the broader autonomic aging framework (Chapter @ch:cardiovascular Section @sec:ans-aging-phenotype): reduced vagal tone simultaneously removes the cholinergic anti-inflammatory brake on NF-$kappa$B @Giunta2023ANSinflamaging, while sympathetic overdrive suppresses the AMPK-dependent quality control machinery responsible for clearing damaged mitochondria. The two arms of autonomic imbalance converge on the same outcome: accumulation of dysfunctional mitochondria and sustained inflammaging.
+
+The Brown et al.\ finding that pharmacological AMPK activators (metformin, compound 991) rescued the deficit @Brown2018AMPK suggests that the AMPK machinery itself is intact---the problem is upstream signalling. If sympathetic PKA is the upstream suppressor, then interventions reducing sympathetic tone ($beta$-blockers, vagal nerve stimulation) could theoretically restore AMPK activity without requiring direct pharmacological activation. This is speculative: no study has tested whether autonomic modulation improves AMPK phosphorylation in ME/CFS tissue.
+
 === mtDNA Alterations and Impaired Mitophagy
 
 Mitochondrial DNA (mtDNA) is vulnerable to damage:

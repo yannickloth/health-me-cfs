@@ -3204,3 +3204,156 @@ Motivated by: Creative brainstorm synthesising Hauglund 2025, Fultz 2019, López
 ) <tab:registry-sleep-glymphatic-creative>
 ] // end landscape page
 
+=== Entries Added 2026-04-20: ANS Imbalance and Accelerated Aging Integration
+
+Motivated by: Errico et al.\ 2025 (npj Aging) ANS-aging perspective; supporting literature on cGAS-STING, AMPK, immunosenescence, brainstem glial senescence, and telomere shortening in ME/CFS.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [ANS Imbalance as Unifying Driver of Accelerated Aging in ME/CFS],
+    [H], [0.45],
+    [Chronic sympathetic dominance drives mitochondrial damage (ROS $arrow.r$ mtDNA $arrow.r$ cGAS-STING), immune aging ($beta$-AR desensitisation $arrow.r$ NF-$kappa$B), and metabolic decline (PKA $arrow.r$ AMPK suppression), while reduced vagal tone removes anti-inflammatory brake. (a) HRV correlates with biological aging markers (telomere, epigenetic clock, ccf-mtDNA) within ME/CFS, independent of age. (b) taVNS improves both autonomic metrics and inflammaging markers. (c) $beta$-AR desensitisation correlates with NF-$kappa$B activation in PBMCs.],
+    [HRV + telomere/methylation clock co-measurement --- feasible in biobanks. taVNS RCT ($n = 40$, sham-controlled) completed data collection 2026 --- results pending. $beta$-AR dose-response assay in PBMCs --- feasible. No published VNS RCT in ME/CFS with results as of 2026-04-20.],
+    [Ch.10 @hyp:ans-aging-unifying],
+
+    [mtDNA--cGAS-STING Inflammaging Loop Maintains ME/CFS Chronicity],
+    [S], [0.40],
+    [Mitochondrial damage releases mtDNA via VDAC oligomerisation $arrow.r$ cGAS-STING $arrow.r$ type I IFN + NF-$kappa$B; loop self-reinforces as inflammation causes more mito damage. (a) Circulating mtDNA correlates with STING phosphorylation/IRF3 in ME/CFS. (b) Improved mito quality control decreases ISG expression. (c) STING inhibitors (H-151) reduce PEM severity in patients with elevated cGAS-STING.],
+    [Circulating mtDNA qPCR + STING/IRF3 flow cytometry --- feasible. STING inhibitors in preclinical development only. VDAC inhibitors (VBIT-4) available for in vitro testing.],
+    [Ch.7 @spec:mtdna-cgas-sting-loop],
+
+    [Brainstem Glial Senescence as Primary Autonomic Dysfunction Driver],
+    [S], [0.30],
+    [Senescent brainstem glia (p16#super[INK4a]+) produce SASP cytokines impairing catecholamine signalling in LC/dmVN. Self-reinforcing: sympathetic overdrive $arrow.r$ systemic inflammation $arrow.r$ more glial senescence. (a) PET-TSPO higher in brainstem in ME/CFS with severe autonomic dysfunction. (b) CSF p16 correlates inversely with HRV. (c) Senolytics improve autonomic metrics and CSF catecholamines.],
+    [PET-TSPO brainstem ROI analysis --- feasible as re-analysis of existing data. CSF p16 ELISA --- feasible. Senolytic trial (fisetin/dasatinib+quercetin) --- ongoing in aging research; none in ME/CFS.],
+    [Ch.8 @spec:brainstem-glial-senescence],
+
+    [Sympathetic PKA as Upstream AMPK Suppressor in ME/CFS Energy Crisis],
+    [H], [0.35],
+    [Chronic $beta$-adrenergic $arrow.r$ PKA phosphorylates AMPK$alpha$ Ser485/491, blocking LKB1 activation. Double brake: PKA suppresses AMPK + AMPK suppresses autophagy during energy deficit. (a) Sympathetic overdrive correlates with reduced AMPK activity in immune/muscle tissue. (b) $beta$-blockers increase AMPK phosphorylation. (c) Pharmacological AMPK activators plus $beta$-blockers synergise.],
+    [AMPK phosphorylation state in PBMCs --- feasible (invasive for muscle biopsy). Brown 2018 showed pharmacological rescue. $beta$-blocker + metformin combination trial --- conceptually feasible. No study has tested autonomic modulation $arrow.r$ AMPK in ME/CFS.],
+    [Ch.6 @sec:sns-ampk-suppression],
+
+    [Multi-Modal Biological Aging Assessment as ME/CFS Diagnostic/Stratification Tool],
+    [OQ], [---],
+    [Do epigenetic clock acceleration, telomere shortening, and immunosenescence markers correlate within ME/CFS patients? If yes: composite biological aging score could stratify patients for senescence-targeted therapies. If no: different aging modalities reflect independent processes requiring different interventions.],
+    [Horvath/Hannum clock + telomere qPCR + p16/SASP panel in same cohort ($n > 100$, ICC criteria) --- feasible but expensive. de Vega 2018 methylation data exists but not integrated with telomere/senescence data.],
+    [Ch.12 @sec:aging-integration],
+  ),
+  caption: [ANS-aging integration hypothesis registry entries (2026-04-20): one core hypothesis (ANS $arrow.r$ aging hallmarks), three supporting speculations (cGAS-STING loop, brainstem senescence, PKA $arrow.r$ AMPK), and one open question (multi-modal aging assessment). All motivated by Errico et al.\ 2025 @Errico2025ANSaging and supporting literature.],
+  kind: table,
+) <tab:registry-ans-aging>
+] // end landscape page
+
+=== Entries Added 2026-04-20: ANS-Aging Creative Synthesis (Phase 4)
+
+Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipeline; cross-domain synthesis of autonomic-aging framework with existing ME/CFS pathophysiology.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Autoantibody-Aging Amplification Loop],
+    [S], [0.40],
+    [GPCR autoantibodies ($beta_2$-AR, muscarinic) lock ANS into pro-aging configuration. Anti-$beta_2$-AR mimics sympathetic activation; anti-muscarinic impairs CAP. Autoantibodies $arrow.r$ ANS imbalance $arrow.r$ aging $arrow.r$ immune dysregulation $arrow.r$ more autoantibodies. (a) Autoantibody titres correlate with aging markers after controlling for age/duration. (b) Daratumumab reduces SASP markers and epigenetic clock age. (c) Ab-positive patients show greater aging acceleration than Ab-negative.],
+    [Autoantibody titres + aging biomarkers in same cohort --- feasible with existing biobanks. Daratumumab pilot (Fluge 2025) collecting samples. No study has measured both simultaneously.],
+    [Ch.10 @spec:autoantibody-aging-loop],
+
+    [Two-Hit Model: Infection Primes, ANS-Aging Sustains],
+    [H], [0.45],
+    [Hit 1 (infection) causes transient damage; Hit 2 = ANS-aging loop activation when damage exceeds tipping point. Below threshold: recovery; above: self-sustaining. (a) ANS-aging biomarker acceleration detectable within 3 months of onset. (b) Rest intervention during acute infection maintains HRV and reduces ME/CFS incidence. (c) Pre-infection HRV predicts risk.],
+    [Prospective cohort from acute infection through 12 months --- feasible in pandemic contexts. Wearable HRV data + biobanking at infection. No study has tracked ANS-aging from infection to ME/CFS.],
+    [Ch.10 @hyp:two-hit-ans-aging],
+
+    [Gut-Vagal-Aging Triad: Butyrate Deficiency as Parasympathetic Aging Accelerant],
+    [S], [0.40],
+    [Butyrate deficiency $arrow.r$ reduced vagal afferent C-fibre input $arrow.r$ CAP failure $arrow.r$ inflammaging. Self-reinforcing: dysbiosis $arrow.r$ butyrate loss $arrow.r$ vagal deafferentation $arrow.r$ sympathetic dominance $arrow.r$ barrier dysfunction $arrow.r$ more dysbiosis. (a) Faecal butyrate inversely correlates with epigenetic clock. (b) Butyrate supplementation improves HF-HRV. (c) Preserved butyrate producers = less telomere shortening.],
+    [Faecal SCFA + HRV + methylation clock co-measurement --- feasible. Butyrate supplementation trial --- feasible (sodium butyrate OTC). No simultaneous measurement in ME/CFS.],
+    [Ch.11 @spec:gut-vagal-aging-triad],
+
+    [Disease Duration Predicts Treatment Modality: Aging Phase Model],
+    [H], [0.40],
+    [Early ($<$3 yr): immune dysregulation, minimal senescence --- immunomodulation preferred. Mid (3--10 yr): accumulating senescent cells --- senolytic + metabolic support. Late ($>$10 yr): locked epigenetic aging --- multi-target combination. Mixing stages in trials dilutes effects. (a) Rituximab reanalysis by duration shows higher early response. (b) Senescent cell burden increases non-linearly with duration. (c) Duration-stratified trial design shows differential effects.],
+    [Rituximab (Fluge 2019) and Ampligen retrospective reanalysis by duration --- feasible. SASP panel + p16 vs disease duration cross-sectional study --- feasible. Duration-stratified adaptive trial needed.],
+    [Ch.5 + Ch.25b],
+
+    [PEM-Aging Bridge: Each PEM Episode as a Measurable Aging Pulse],
+    [H], [0.50],
+    [Exercise triggers ccf-mtDNA release via VDAC $arrow.r$ cGAS-STING $arrow.r$ inflammaging. Each PEM episode = acute pulse of biological aging. Cumulative PEM explains progressive deterioration in Ch.5. (a) Post-CPET ccf-mtDNA spike correlates with subsequent PEM severity. (b) Serial spikes over 6 months predict epigenetic clock acceleration. (c) MitoQ pre-treatment reduces ccf-mtDNA spike.],
+    [2-day CPET + serial ccf-mtDNA measurement --- feasible. MitoQ pre-treatment crossover --- feasible. No study has measured ccf-mtDNA kinetics during PEM.],
+    [Ch.6 + Ch.25b],
+
+    [Paced Breathing at Resonance Frequency as Anti-Aging Intervention],
+    [H], [0.50],
+    [Slow breathing ($tilde$6/min) maximises RSA, activates vagal efferents $arrow.r$ $alpha$7-nAChR $arrow.r$ NF-$kappa$B suppression + PGC-1$alpha$ activation. Zero cost; severity-tiered (bedbound patients: 5 min). (a) 8-week daily breathing improves HF-HRV + reduces IL-6/CRP. (b) Effect largest in lowest-baseline-HRV patients. (c) Salivary cortisol reduction confirms HPA deactivation.],
+    [HRV biofeedback + inflammatory panel RCT --- feasible. Home-based protocol accessible. RSA training shown effective in POTS (small trials). No ME/CFS-specific trial with inflammatory endpoints.],
+    [Ch.17 biofeedback section],
+
+    [HRV as Surrogate Aging Endpoint for Clinical Trials],
+    [H], [0.55],
+    [If HRV correlates with aging biomarkers, it becomes a cheap, continuous, non-invasive surrogate for anti-aging endpoints. Enables n-of-1 trials, large remote monitoring, real-time dose titration. (a) Wearable RMSSD over 7-day windows correlates with lab SASP markers ($r > 0.40$). (b) HRV change over 12 weeks predicts aging biomarker change. (c) HRV-guided taVNS outperforms fixed-dose.],
+    [Wearable HRV + serial blood draws validation study --- feasible. Garmin/Oura data + biobank integration. No ME/CFS validation of HRV as aging surrogate.],
+    [Ch.10 + Ch.25b],
+
+    [ME/CFS as Model for Premature Autonomic Aging Across Diseases],
+    [OQ], [---],
+    [ME/CFS may be the clearest clinical model of premature autonomic aging: sudden onset (natural experiment), measurable ANS dysfunction, multiple aging hallmarks, young population. Do Parkinson's (vagal degeneration), Long COVID, POTS, and fibromyalgia share the same ANS-aging axis? (a) GrimAge acceleration correlates with HRV reduction across all four conditions. (b) VNS improves aging biomarkers across conditions. (c) ANS-aging magnitude ranks: ME/CFS $>$ Long COVID $>$ FM $>$ POTS.],
+    [Cross-disease aging biomarker comparison study --- feasible with existing cohorts. Multi-disease VNS trial design. No cross-disease aging comparison exists.],
+    [Ch.14d],
+  ),
+  caption: [ANS-aging creative synthesis registry entries (2026-04-20, Phase 4): eight entries from cross-domain brainstorming. Includes autoantibody-aging amplification, two-hit infection model, gut-vagal triad, aging phase staging, PEM-aging bridge, paced breathing, HRV surrogate endpoint, and cross-disease comparison.],
+  kind: table,
+) <tab:registry-ans-aging-creative>
+] // end landscape page
+
+// =============================================================================
+// Immunoadsorption Trial Landscape Open Questions (added 2026-04-20)
+// =============================================================================
+
+#page(flipped: true)[
+#figure(
+  table(
+    columns: (2.2in, 0.3in, 0.35in, 3.3in, 2.8in, 0.8in),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Title (Label)*], [*Type*], [*Cert.*],
+      [*Statement / Rationale*], [*Testing Protocol*], [*Chapter*],
+    ),
+
+    [Immunoadsorption Efficacy: Awaiting Sham-Controlled Confirmation],
+    [OQ], [---],
+    [Two sham-controlled RCTs of immunoadsorption in ME/CFS have completed enrolment—IA-PACS-CFS (n=66, Charité @Pressler2024IAPACSCFSprotocol) and EXTINCT (n=63, Hannover @EXTINCTtrial2023)—but results are unpublished as of April 2026. All prior positive results (70% response rate @Stein2024immunoadsorption @Scheibenbogen2018immunoadsorption) are from open-label studies at a single centre. Does immunoadsorption for ME/CFS exceed sham?],
+    [Await publication of IA-PACS-CFS and EXTINCT RCT results. If both positive: strong confirmation. If discordant: analyse differences in patient selection, IA protocol, and endpoints. If both negative: reassess autoantibody hypothesis and consider non-autoantibody mechanisms of IA benefit.],
+    [Ch.14b @sec:gpcr-autoantibodies],
+
+    [Autoantibody Removal Without Clinical Improvement: Anft Discordance],
+    [OQ], [---],
+    [Anft et al.\ 2025 @Anft2025immunoadsorption (independent centre, n=12) showed successful autoantibody elimination and cytokine reduction but *no significant ME/CFS symptom improvement* with rebound within one month. Three competing explanations: (a) insufficient power (n=12); (b) autoantibody removal is necessary but not sufficient—downstream damage persists; (c) autoantibodies are not the primary pathogenic driver, and open-label Charité results reflect non-specific effects. Which is correct?],
+    [IMPACT trial (NCT07529197 @IMPACTtrial2026) will measure memory B-cell dynamics and may explain rebound. Comparison of Charité vs Anft protocols (duration, depth of IgG depletion) needed. If sham-controlled RCTs positive but Anft negative: likely power issue. If sham RCTs also negative: autoantibody hypothesis substantially weakened.],
+    [Ch.14b @sec:gpcr-autoantibodies],
+
+    [Memory B-Cell Repopulation as Relapse Mechanism After Immunoadsorption],
+    [H], [0.45],
+    [If autoantibody relapse after IA is driven by memory B-cell repopulation and re-differentiation into autoantibody-secreting plasma cells, then IA alone is a temporary measure. Combining IA with anti-CD20 (rituximab—memory B-cells) or anti-CD38 (daratumumab—plasma cells) should produce more durable responses than IA alone. The Tölle 2020 retreatment data (4/5 responded to repeat IA @Tolle2020immunoadsorption) supports that relapse is the rule, not the exception.],
+    [IMPACT trial (NCT07529197 @IMPACTtrial2026) measures memory B-cell dynamics pre/post IA. Prediction: patients with faster memory B-cell reconstitution relapse sooner. If confirmed: sequential IA + daratumumab trial warranted.],
+    [Ch.14b @hyp:plasma-cell-sanctuary],
+  ),
+  caption: [Immunoadsorption trial landscape registry entries (2026-04-20): two open questions on pending RCT results and Anft discordance, plus one hypothesis on memory B-cell relapse mechanism.],
+  kind: table,
+) <tab:registry-ia-trials>
+] // end landscape page
+
