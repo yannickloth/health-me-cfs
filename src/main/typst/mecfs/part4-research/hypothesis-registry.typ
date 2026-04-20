@@ -1941,6 +1941,53 @@ Motivated by: systematic research on lithium, valproate, anticonvulsants, and th
 ) <tab:hypothesis-registry-2026-03-27-neurodevelopmental>
 ] // end landscape page
 
+=== Entries Added 2026-04-20: Metabolic Reserve Predisposition (Architecture C)
+
+#page(flipped: true)[
+#figure(
+  table(
+    columns: (3fr, 0.3fr, 0.4fr, 5fr, 3fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation*], [*Type*], [*Cert.*],
+      [*Testable Prediction (condensed)*], [*Available Tests / Status*],
+      [*Location*],
+    ),
+
+    [Metabolic Reserve Depletion as ME/CFS Predisposition (Architecture C)],
+    [H], [0.50],
+    [Pre-existing conditions (ADHD, ASD, hEDS/POTS, migraine, GCH1 variants) chronically reduce brain metabolic reserve; immune trigger precipitates ME/CFS in individuals with insufficient buffer. (a) ADHD/ASD patients should show higher ME/CFS incidence after EBV/COVID than non-neurodivergent controls. (b) Compound risk: ASD + hEDS + iron deficiency → higher incidence than single condition. (c) Pre-illness metabolic markers (FDG-PET, BH4, ferritin, ASL-MRI CBF) should predict post-infectious ME/CFS risk. (d) Correcting modifiable reserve reducers (iron, BH4 for GCH1 carriers, POTS cerebral perfusion) should reduce risk or improve outcomes.],
+    [ALSPAC data: OR=2.18 ADHD, OR=1.78 ASD for CDF at 18, IL-6 mediated. 29.7% childhood ADHD in CFS. hEDS registries exist for compound-risk testing. No prospective post-infection study with metabolic phenotyping. Falsification: equal/lower ME/CFS incidence in ADHD/ASD after matched infection.],
+    [Ch.14d @hyp:metabolic-reserve-predisposition],
+
+    [ADHD Hyperfocus Crash as Micro-PEM],
+    [OQ], [—],
+    [Post-hyperfocus exhaustion in ADHD parallels PEM: cognitive energy envelope depletion at subclinical scale. If ADHD is energy deficit, hyperfocus depletes limited budget → disproportionate recovery cost. Predicts: ADHD patients already experience micro-PEM; crash severity should correlate with metabolic reserve markers; pattern should worsen after infection.],
+    [No formal study. ADHD community self-reports widely describe the phenomenon. Requires actigraphy + cognitive testing + metabolic markers in ADHD cohort before/after sustained cognitive effort. Comparison with ME/CFS PEM profile.],
+    [Ch.14d @oq:adhd-hyperfocus-micro-pem],
+
+    [Two-Hit Threshold Model for ME/CFS Onset],
+    [S], [0.40],
+    [Post-infectious fatigue → ME/CFS transition occurs when immune insult pushes below critical metabolic reserve threshold (R~crit~), triggering self-sustaining mitochondrial damage cycle. Pre-existing low reserve (neurodivergent, hEDS, iron-deficient) determines who crosses threshold. Model exhibits hysteresis: reversing infection does not reverse ME/CFS. (a) Pre-COVID metabolic markers should predict Long COVID → ME/CFS conversion. (b) Neurodivergent Long COVID patients should have higher ME/CFS conversion rates.],
+    [Raw 2025: autistic traits predict prolonged COVID symptoms ($n = 267$). Testable via UK Biobank (ADHD/ASD diagnosis + COVID + Long COVID data). No prospective pre-infection metabolic phenotyping study exists.],
+    [Ch.14d @spec:two-hit-threshold-onset],
+
+    [BH4 Depletion as Convergent Bottleneck Linking Predisposing Conditions to ME/CFS],
+    [S], [0.35],
+    [BH4 is the single metabolic chokepoint through which ADHD (consumption), ASD (oxidative destruction via IL-6), hEDS/POTS (ischemia-reperfusion oxidation), iron deficiency (impaired recycling), and GCH1 variants (reduced production) all reduce metabolic reserve. (a) Urinary neopterin:biopterin should be elevated in ALL predisposing conditions. (b) Pre-illness BH4 status should predict post-infectious ME/CFS risk better than any single diagnosis.],
+    [ColpaniFilho 2025: low BH4 in ASD (systematic review). Williams 2025: GCH1 rs841 $arrow.r$ ADHD improvement with BH4 ($n = 5$). Neopterin:biopterin ratio measurable via HPLC (\~\$30--50). Falsification: if BH4 is normal in ADHD and hEDS patients.],
+    [Ch.14d @spec:bh4-convergent-bottleneck],
+
+    [Can Modifiable Reserve Reducers Be Corrected to Prevent or Treat ME/CFS?],
+    [OQ], [—],
+    [Iron repletion (ferritin $> 100$ ng/mL), BH4 cofactor support (folinic acid + vitamin C + iron for recycling; direct BH4 for GCH1 carriers), and cerebral perfusion optimisation (POTS management) are clinically actionable today. Does pre-emptive correction in neurodivergent patients reduce ME/CFS incidence after infection or improve outcomes in established ME/CFS?],
+    [No study. All individual interventions are standard care for their respective conditions; the combination framed as metabolic reserve building is novel. Retrospective analysis possible in hEDS clinics with ME/CFS outcome tracking.],
+    [Ch.14d @oq:modifiable-reserve-correction],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries for metabolic reserve predisposition framework (Architecture C) and ADHD hyperfocus-crash as micro-PEM (2026-04-20). Links ADHD, ASD, hEDS/POTS, migraine, and GCH1 variants as pre-existing metabolic reserve reducers predisposing to ME/CFS.],
+) <tab:hypothesis-registry-2026-04-20-metabolic-reserve>
+] // end landscape page
+
 === Entries Added 2026-03-27: Thyroid Hormone--Mitochondrial Axis
 
 #page(flipped: true)[

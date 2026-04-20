@@ -216,3 +216,14 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/29486769/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Rajeevan2018telomere — ME/CFS premature telomere attrition n=639 J Transl Med |
 | https://pubmed.ncbi.nlm.nih.gov/41017304/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Luo2025MECFSimmunophysiology — immunosenescence ME/CFS physical fatigue Comp Physiology |
 | https://pubmed.ncbi.nlm.nih.gov/41527963/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Xu2026immunosenescenceCognitive — immunosenescence hemodynamics cognition ME/CFS Comp Physiology |
+| https://pubmed.ncbi.nlm.nih.gov/38703861/ | pubmed | 2026-04-20 | — | bib/staging — Frye2024ASDmitochondria — ASD mitochondrial biomarkers meta-analysis 204 studies |
+| https://pubmed.ncbi.nlm.nih.gov/33603376/ | pubmed | 2026-04-20 | — | bib/staging — Kindgren2021hEDSadhd — ADHD/ASD prevalence in hEDS/HSD children Sweden |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC8847158/ | PMC | 2026-04-20 | — | bib/staging — Csecs2022hypermobility — joint hypermobility mediates neurodivergence–dysautonomia link |
+| https://pubmed.ncbi.nlm.nih.gov/40145613/ | pubmed | 2026-04-20 | — | bib/staging — BaezaVelasco2025autismEDS — autism–hypermobility–EDS systematic review meta-analysis |
+| https://pubmed.ncbi.nlm.nih.gov/26505533/ | pubmed | 2026-04-20 | — | bib/staging — Lau2015migraineCFS — migraine confers 1.5x CFS risk, Taiwan national cohort |
+| https://pubmed.ncbi.nlm.nih.gov/37123270/ | pubmed | 2026-04-20 | — | bib/staging — Wang2023migraineMito — energy metabolism disturbance migraine mitochondrial review |
+| https://pubmed.ncbi.nlm.nih.gov/40002484/ | pubmed | 2026-04-20 | — | bib/staging — ColpaniFilho2025BH4ASD — BH4/tetrahydrobiopterin in ASD systematic review |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12386507/ | PMC | 2026-04-20 | — | bib/staging — Williams2025GCH1mental — GCH1 rs841 deficiency BH4 neurodevelopmental case series |
+| https://pubmed.ncbi.nlm.nih.gov/41749537/ | pubmed | 2026-04-20 | — | bib/staging — DelRosso2026ironNeurodevelopmental — iron deficiency ADHD/ASD comparative review |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11733788/ | PMC | 2026-04-20 | — | bib/staging — Quadt2024neurodivergentFatigue — neurodivergent traits IL-6 chronic disabling fatigue ALSPAC |
+| https://www.mdpi.com/2673-8112/6/1/1 | MDPI | 2026-04-20 | — | bib/staging — Raw2025neurodivergencePostCOVID — neurodivergence as post-COVID-19 risk factor n=267 HCWs |

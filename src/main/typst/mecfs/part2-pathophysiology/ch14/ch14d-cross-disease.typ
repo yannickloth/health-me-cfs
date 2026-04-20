@@ -943,3 +943,160 @@ The Architecture B framing, _if validated_, would have clinical implications tha
 The entire section above develops Architecture B (ME/CFS → secondary phenotypes) in mechanistic detail, because this architecture has clinical implications that the standard comorbidity framing misses. However, the evidence does not yet rule out Architecture A. The shared vulnerability model predicts identical epidemiological patterns (elevated comorbidity) and identical pharmacological responses (stimulants help both primary ADHD and ME/CFS executive dysfunction) through entirely different causal pathways. Distinguishing these architectures requires longitudinal studies with pre-illness psychiatric phenotyping, Mendelian randomisation studies using ME/CFS genetic instruments, and treatment trials designed to test whether anti-inflammatory interventions reduce psychiatric symptom burden independently of fatigue improvement. Until such studies exist, both architectures should inform clinical reasoning.
 ] <lim:architecture-uncertainty>
 
+==== Architecture C: The Metabolic Reserve Hypothesis — Pre-Existing Energy Deficits as ME/CFS Predisposition
+<sec:architecture-c-metabolic-reserve>
+
+The preceding sections develop Architectures A (shared vulnerability) and B (ME/CFS → secondary phenotypes). A third architecture warrants separate treatment because it makes distinct predictions and identifies a different set of at-risk populations: certain pre-existing conditions chronically reduce the brain's metabolic reserve — the buffer between baseline energy demand and maximum energy production capacity — so that an immune trigger (EBV, SARS-CoV-2, other pathogens) that would produce transient post-infectious fatigue in a metabolically robust individual instead precipitates sustained decompensation into ME/CFS.
+
+Architecture C differs from Architecture A in a critical respect: Architecture A posits shared genetic vulnerability without specifying the mechanism by which it predisposes. Architecture C identifies the mechanism as _reduced metabolic reserve_ — a measurable, potentially modifiable state. It differs from Architecture B by reversing the causal arrow: the neurodevelopmental condition _precedes and predisposes to_ ME/CFS rather than arising from it.
+
+===== ADHD as Brain Energy Failure: The Primary Case
+
+ADHD is the condition for which the energy-deficit framing is most directly supported. Zametkin et al.\ demonstrated in the foundational PET study that ADHD adults show 8.1% lower global cerebral glucose metabolism than controls, with the largest reductions in premotor and superior prefrontal cortex — the regions most metabolically demanding and most critical for sustained attention @Zametkin1990. A systematic review of 20 cerebral blood flow studies (total $n = 1{,}652$ ADHD participants) confirmed resting-state hypoperfusion in prefrontal, temporal, and basal ganglia regions, with methylphenidate normalising striatal and thalamic blood flow @Berthier2025cbfadhd. Both glucose metabolism and cerebral perfusion data converge: the ADHD brain operates with less energy delivery to the regions it needs most.
+
+The energy framing extends beyond perfusion. Mitochondrial dysfunction in ADHD — decreased membrane potential, impaired oxidative phosphorylation, and variants in Complex~I assembly genes (NDUFAF2, UCP2) — has been documented primarily in preclinical models but is convergent with the ME/CFS mitochondrial literature @Almutairi2024mitoadhd. Dual-tracer PET imaging in drug-naive ADHD adults ($n = 24$ per group) simultaneously demonstrated reduced D1 receptor availability in the anterior cingulate cortex _and_ increased microglial activation in the dorsolateral prefrontal cortex, with the two measures correlated only in ADHD subjects @Yokokura2021D1Rmicroglia. This co-imaging finding is mechanistically important: the same brain shows both catecholamine deficit and neuroinflammation — precisely the combination documented in ME/CFS by the NIH deep phenotyping study @walitt2024deep.
+
+Iron deficiency compounds the energy deficit through a dual mechanism: iron is a required cofactor for both dopamine/norepinephrine synthesis (via tyrosine hydroxylase) _and_ mitochondrial complex~I/II function @DelRosso2026ironNeurodevelopmental. Iron-deficient neurodivergent individuals thus suffer impaired neurotransmitter production _and_ reduced ATP yield — a modifiable metabolic reserve reducer. Per neurodevelopmental guidelines, ferritin thresholds below which iron supplementation is recommended are $< 30$ ng/mL for ADHD and $< 50$ ng/mL for ASD sleep phenotypes @DelRosso2026ironNeurodevelopmental; whether these thresholds are relevant to ME/CFS predisposition risk specifically has not been tested.
+
+Whether ADHD is fundamentally "developmental" (structural wiring) or reflects chronic catecholamine insufficiency from birth remains an open question. The Dunedin birth cohort study ($n = 1{,}037$; 95% retention to age 38) found that 90% of adult ADHD cases had no childhood ADHD diagnosis, and childhood and adult ADHD populations were "virtually non-overlapping sets" with distinct neuropsychological and genetic profiles @Moffitt2015adhdadult. If adult-onset ADHD represents acquired catecholaminergic dysfunction rather than lifelong neurodevelopmental disorder, then some cases may be early manifestations of the same metabolic fragility that later produces ME/CFS — though this interpretation remains contested.
+
+The epidemiological data are consistent with the metabolic reserve hypothesis. In the ALSPAC birth cohort ($n = 4{,}563$), ADHD traits at age 9 conferred OR$= 2.18$ (95% CI 1.33--3.56) for chronic disabling fatigue at age 18 @Quadt2024neurodivergentfatigue. Critically, this relationship was partially mediated by IL-6 at age 9, suggesting that pre-existing low-grade neuroinflammation — itself an energy drain — serves as the mechanistic bridge. Among adult CFS patients, 29.7% had childhood ADHD and 20.9% had persistent adult ADHD; those with comorbid ADHD had earlier CFS onset and worse prognosis @SaezFrancas2012adhdcfs.
+
+The stimulant response pattern in ME/CFS is particularly informative. A patient-reported outcomes survey ($N = 3{,}925$) found that ADHD stimulants improved brain fog in 77.1% and fatigue perception in 71.7% of ME/CFS respondents, but had a net $-1.5%$ effect on PEM itself @Vernon2025PNAS. This dissociation is precisely what the metabolic reserve hypothesis predicts: stimulants boost catecholamine availability at the prefrontal synapse (patching the energy-starved executive system) without addressing the systemic metabolic crisis that produces post-exertional malaise.
+
+===== Autism Spectrum Disorder: Mitochondrial Baseline Deficit
+
+The metabolic reserve case for ASD rests on stronger biological evidence than for ADHD. A meta-analysis of 204 studies found systemic mitochondrial dysfunction in ASD: elevated lactate (17%), pyruvate (41%), alanine (15%), and creatine kinase (9%), with significant ATP deficit and elevated lactate:pyruvate ratio at moderate-to-large effect sizes ($d >= 0.6$) @Frye2024ASDmitochondria. These are the same electron transport chain impairments documented in ME/CFS energy metabolism studies (see Ch.~6). In ASD, they represent a _baseline feature_ — present before any infectious trigger — constituting a pre-existing lower metabolic floor.
+
+The BH4 cofactor bottleneck provides a molecular link between ASD and ME/CFS. A systematic review found consistently lower BH4 levels in ASD biological samples compared to controls @ColpaniFilho2025BH4ASD. Since BH4 is the essential cofactor for tyrosine hydroxylase (dopamine/NE synthesis), tryptophan hydroxylase (serotonin synthesis), and all three nitric oxide synthase isoforms, low BH4 simultaneously impairs neurotransmitter production and vascular autoregulation — the same pathways affected in ME/CFS orthostatic intolerance. GCH1 rs841, the variant encoding the rate-limiting enzyme for BH4 synthesis, is homozygous in approximately 4% of the population and has been associated with both ADHD and ASD traits @Williams2025GCH1BH4. This represents a high-frequency shared genetic vulnerability linking both neurodevelopmental conditions to ME/CFS susceptibility through a single enzymatic deficit.
+
+Autistic traits at age 7 independently predicted chronic disabling fatigue at 18 (OR$= 1.78$, 95% CI 1.17--2.72), with IL-6 mediating the pathway @Quadt2024neurodivergentfatigue. Among autistic adults, 60% score at or above clinical cutoff for central sensitivity syndrome symptoms and 21% carry a formal ME/CFS or fibromyalgia diagnosis @Casanova2021autism.
+
+===== The Neurodivergent--Hypermobility--Dysautonomia Cluster: Compounded Risk
+
+The highest-risk phenotype for ME/CFS may be the intersection of neurodivergence and connective tissue hypermobility, because this combination creates _two independent_ metabolic reserve reductions simultaneously.
+
+A meta-analysis of 20 studies found autistic individuals are 7.4 times more likely to have Ehlers-Danlos syndrome than comparison groups, with 31% showing clinically assessed joint hypermobility @BaezaVelasco2025autismEDS. In children with hEDS or HSD ($n = 201$), ADHD was present in 16% overall but 46% of the 17--18 age group; ASD was present in 6% @Kindgren2021hEDSadhd. Crucially, joint hypermobility statistically _mediates_ the association between neurodivergence and dysautonomia: in 109 neurodivergent adults, 51% had generalised joint hypermobility (vs.\ 20% general population), and hypermobility mediated both dysautonomia and pain @Csecs2022hypermobility.
+
+The proposed mechanistic chain — connective tissue laxity → impaired venous return → orthostatic cerebral hypoperfusion → chronic energy delivery deficit to the brain — is consistent with the mediation analysis showing hypermobility mediates the neurodivergence-dysautonomia association @Csecs2022hypermobility, though the specific biophysical steps remain inferential. If this chain operates, it would add to the mitochondrial and catecholamine deficits already present from the neurodevelopmental condition itself, producing a _compound lower baseline_: mitochondrial dysfunction (reduced ATP production) _plus_ cerebral hypoperfusion (reduced ATP delivery). When an immune trigger strikes this already marginal system, the threshold for decompensation into sustained ME/CFS is substantially lower.
+
+===== Migraine: Cumulative Mitochondrial Depletion
+
+Migraine fits the metabolic reserve model through a different mechanism: cumulative depletion rather than baseline deficit. A Taiwan national cohort ($n = 6{,}902$ migraineurs vs.\ $n = 27{,}608$ controls) found migraine conferred a 1.5-fold elevated risk of CFS (IRR$approx 1.5$), with a dose-response relationship (risk scaled with migraine frequency) and age amplification (IRR$= 2.11$ in those $>= 65$) @Lau2015migraineCFS. Migraineurs show elevated blood lactate, decreased activities of NADH dehydrogenase, citrate synthase, and cytochrome c oxidase, and many triggers that provoke migraine attacks (stress, sleep deprivation, fasting, exercise) are also reported as ME/CFS relapse triggers @Wang2023migraineMito — a convergence consistent with shared energy metabolism vulnerability, though the overlap has not been systematically quantified. Each cortical spreading depression event creates a massive transient energy demand that mitochondrially impaired cortex may not efficiently recover from @Wang2023migraineMito. If this recovery deficit is cumulative, repeated CSD events could progressively deplete neuronal energy reserves over years — a speculative but mechanistically coherent explanation for the age-dependent amplification of migraine-CFS risk observed by Lau et al.
+
+===== Neurodivergence as Post-Infectious Risk Factor: Emerging Direct Evidence
+
+The most direct test of the metabolic reserve hypothesis comes from post-COVID studies. In a cross-sectional study of 267 healthcare workers, higher autistic trait scores — specifically the sensory reactivity subscale — predicted COVID-19 symptoms lasting longer than 12 weeks, independent of formal autism diagnosis @Raw2025neurodivergencePostCOVID. This is consistent with central sensitization (a form of neural hyperexcitability that consumes extra metabolic resources) leaving less buffer for post-viral recovery. The dimensional finding (autistic _traits_, not just diagnosis) is important because it suggests the predisposition operates on a spectrum: any degree of neurodivergent biology that increases baseline neural energy consumption narrows the margin for absorbing an immune insult.
+
+#hypothesis(title: [Metabolic Reserve Depletion as ME/CFS Predisposition (Architecture C)])[
+*Certainty: 0.50.* Pre-existing conditions that chronically reduce brain metabolic reserve — through mitochondrial dysfunction (ASD), catecholamine inefficiency (ADHD), cerebral hypoperfusion (hEDS/POTS), cumulative energy depletion (migraine), or shared BH4 cofactor deficiency (GCH1 variants) — create a lower baseline from which immune-triggered energy demands cannot be met, precipitating sustained decompensation into ME/CFS. The hypothesis makes several testable predictions:
+
++ *Epidemiological:* ADHD and ASD patients should show higher ME/CFS incidence after documented EBV or COVID-19 infection than non-neurodivergent controls, after controlling for sex, age, socioeconomic status, and pre-existing autoimmune conditions. This is testable now using ADHD diagnosis registries cross-referenced with post-COVID ME/CFS diagnoses.
+
++ *Dose-response:* Among neurodivergent individuals, those with _more_ metabolic reserve reducers (e.g., ASD + hEDS + iron deficiency) should have higher ME/CFS incidence than those with only one. The compound-risk prediction is testable in existing hEDS registries.
+
++ *Biomarker:* Pre-illness metabolic markers (FDG-PET glucose metabolism, MRS lactate, BH4 levels, ferritin, cerebral blood flow by ASL-MRI) should predict post-infectious ME/CFS risk. This requires prospective post-infection cohorts with baseline metabolic phenotyping.
+
++ *Interventional:* Correcting modifiable reserve reducers (iron supplementation, BH4 supplementation for GCH1 carriers, optimising cerebral perfusion in POTS) should reduce ME/CFS risk after infection or improve ME/CFS outcomes in neurodivergent patients. This is the most clinically actionable prediction.
+
+*Falsification:* If ADHD/ASD patients show _equal_ or _lower_ ME/CFS incidence after matched infectious triggers, or if pre-illness metabolic markers do not predict post-infectious fatigue trajectory, the metabolic reserve hypothesis is not supported. The existing ALSPAC data (OR$= 2.18$ for ADHD, OR$= 1.78$ for ASD) are consistent with but do not prove this hypothesis because "chronic disabling fatigue" at 18 may not meet ME/CFS criteria.
+
+*Not yet replicated.* No study has directly tested this hypothesis by prospectively measuring metabolic reserve before infection and tracking ME/CFS outcomes.
+] <hyp:metabolic-reserve-predisposition>
+
+===== The Unifying Energy Thread
+
+What connects ADHD, ASD, hEDS/POTS, and migraine as ME/CFS predisposing conditions is not a single gene or pathway but a _convergent functional state_: insufficient energy production, delivery, or utilisation in the brain. Each condition achieves this state through a different mechanism:
+
+#figure(
+  kind: table,
+  supplement: [Table],
+  caption: [Pre-existing conditions as metabolic reserve reducers. Each condition creates energy deficit through distinct mechanisms, but the convergent functional state — reduced brain metabolic reserve — creates a common predisposition to ME/CFS following immune triggers.],
+)[
+  #table(
+    columns: (2fr, 3fr, 1.5fr, 1.5fr),
+    align: (left, left, left, left),
+    table.header(
+      [*Condition*], [*Mechanism(s) reducing metabolic reserve*], [*Key evidence*], [*ME/CFS risk data*],
+    ),
+    [ADHD],
+    [↓ prefrontal glucose metabolism; ↓ D1R + ↑ microglia; ↓ dopaminergic efficiency → ↑ neural effort per task; iron deficiency → ↓ complex I/II + ↓ dopamine synthesis],
+    [Zametkin 1990 (PET); Yokokura 2021 (dual-PET); Berthier 2025 (CBF review)],
+    [OR = 2.18 for CDF at 18 (ALSPAC); 29.7% childhood ADHD in CFS],
+
+    [ASD],
+    [Systemic mitochondrial ETC dysfunction (↑ lactate, ↓ ATP); ↓ BH4 → ↓ dopamine/serotonin/NO; chronic IL-6 elevation],
+    [Frye 2024 (204-study meta-analysis); ColpaniFilho 2025 (BH4 systematic review)],
+    [OR = 1.78 for CDF at 18 (ALSPAC); 21% carry ME/CFS or fibro diagnosis],
+
+    [hEDS / POTS],
+    [Connective tissue laxity → venous pooling → ↓ cerebral perfusion; chronic sympathetic activation → ATP drain],
+    [Csecs 2022 (mediation); BaezaVelasco 2025 (7.4× EDS in ASD)],
+    [~60% POTS prevalence within ME/CFS @Natelson2022 (cross-sectional; reverse risk untested)],
+
+    [ASD + hEDS],
+    [Compound: mitochondrial dysfunction + cerebral hypoperfusion (dual mechanism)],
+    [BaezaVelasco 2025; Kindgren 2021 (46% ADHD in hEDS age 17--18)],
+    [Highest-risk subgroup (untested directly)],
+
+    [Migraine],
+    [Cumulative CSD → progressive mitochondrial depletion; ↓ cytochrome c oxidase; shared triggers with ME/CFS],
+    [Lau 2015 (national cohort); Wang 2023 (mito review)],
+    [IRR ≈ 1.5 for CFS; dose-response],
+
+    [GCH1 rs841 carriers],
+    [↓ BH4 → ↓ NO → ↓ vascular autoregulation; ↓ dopamine/serotonin synthesis (~4% homozygous)],
+    [Williams 2025 (case series, n = 5); ColpaniFilho 2025],
+    [Untested; high-frequency variant],
+
+    [Iron deficiency],
+    [↓ Complex I/II → ↓ ATP; ↓ TH activity → ↓ dopamine. Modifiable.],
+    [DelRosso 2026 (comparative review)],
+    [Untested directly; modifiable],
+  )
+] <tab:metabolic-reserve-reducers>
+
+If Architecture~C is correct, ADHD, ASD, migraine, hEDS, and POTS should not be treated merely as comorbidities in ME/CFS but as _predisposing conditions_ whose pre-existing energy deficits contributed to the development of ME/CFS. Architecture~C predicts — but no study has yet tested — that identifying and correcting modifiable components of the metabolic reserve deficit (iron status, BH4 cofactor support, cerebral perfusion optimisation) could improve outcomes even after ME/CFS is established. This prediction requires validation through the interventional studies described below.
+
+#limitation(title: [Architecture C Shares Epidemiological Predictions with Architecture A])[
+Architecture C (metabolic reserve deficit predisposes to ME/CFS) makes the same epidemiological prediction as Architecture A (shared genetic vulnerability): elevated comorbidity of ADHD/ASD with ME/CFS. The architectures differ in their mechanistic predictions — Architecture C predicts that _pre-illness metabolic markers_ should predict post-infectious ME/CFS risk, and that correcting metabolic deficits should reduce that risk — but no study has tested these mechanistic predictions directly. The ALSPAC IL-6 mediation finding @Quadt2024neurodivergentfatigue is more consistent with Architecture C (inflammation as the mechanism reducing reserve) than with a non-mechanistic Architecture A, but does not definitively distinguish them. All three architectures (A, B, and C) likely coexist in the patient population: some patients have shared genetic vulnerability without specific metabolic deficit (A), some develop acquired ADHD/ASD features from ME/CFS (B), and some had pre-existing metabolic fragility that predisposed them to ME/CFS (C).
+] <lim:architecture-c-epidemiology>
+
+#open-question(title: [ADHD Hyperfocus Crash as Micro-PEM: Same Mechanism at Different Severity?])[
+ADHD communities describe "crashing after hyperfocus" — exhaustion, brain fog, irritability, and hours needed to recover from sustained cognitive effort. If ADHD represents a brain energy deficit, hyperfocus depletes a limited cognitive energy budget just as physical exertion depletes the limited energy budget in ME/CFS. The phenomenological parallel is striking: both involve an activity that feels sustainable in the moment, followed by disproportionate recovery cost. If this analogy holds, ADHD patients are already experiencing _micro-PEM_ — energy envelope depletion at a subclinical scale. This reframes ME/CFS not as a categorically distinct condition but as the severe end of a spectrum that begins with the energy management challenges already familiar to ADHD patients. *Testable:* Do ADHD patients' post-hyperfocus recovery times correlate with metabolic reserve markers? Does the "crash" pattern worsen after infection (partial decompensation)?
+] <oq:adhd-hyperfocus-micro-pem>
+
+===== The Two-Hit Threshold: Why Some Post-Infectious Patients Develop ME/CFS and Others Recover
+
+Architecture C provides a framework for the central unsolved question in post-infectious illness: why do most patients recover from EBV, SARS-CoV-2, or influenza while a minority develop persistent fatigue meeting ME/CFS criteria? If metabolic reserve determines the outcome, then the same infection produces a binary result based on pre-illness headroom. In high-reserve individuals, the metabolic cost of the immune response (cytokine production, lymphocyte proliferation, neuroinflammation) remains within the system's capacity to sustain repair processes simultaneously — transient fatigue is followed by recovery and eventual return to baseline. In low-reserve individuals, the immune response may push the system below a critical threshold where mitochondrial damage from reactive oxygen species exceeds repair capacity — potentially initiating the kind of self-sustaining feed-forward cycle that has been proposed to characterise ME/CFS (see speculation below).
+
+#speculation(title: [Two-Hit Threshold Model for ME/CFS Onset])[
+*Certainty: 0.40.* The transition from post-infectious fatigue to ME/CFS occurs when an acute immune insult pushes an individual below a critical metabolic reserve threshold (R~crit~), triggering feed-forward mitochondrial damage that does not spontaneously reverse when the infection resolves. Pre-existing metabolic reserve determines who crosses R~crit~. The model exhibits hysteresis: reversing the infection does not reverse ME/CFS, because the damage cycle is self-sustaining once initiated. *Testable:* Pre-COVID metabolic markers (FDG-PET, BH4, ferritin, VO#sub[2]max) in biobank samples should predict Long COVID → ME/CFS transition. Neurodivergent Long COVID patients should show higher ME/CFS conversion rates than neurotypical patients matched for infection severity. The Raw 2025 finding (autistic traits predict prolonged COVID symptoms, $n = 267$) is a preliminary directional signal @Raw2025neurodivergencePostCOVID.
+] <spec:two-hit-threshold-onset>
+
+===== BH4 as Convergent Metabolic Bottleneck
+
+The observation that multiple predisposing conditions converge on a single cofactor is noteworthy. Tetrahydrobiopterin (BH4) is simultaneously required for dopamine synthesis (ADHD relevance), serotonin synthesis (depression, sleep), nitric oxide synthesis (vascular tone, cerebral perfusion), and phenylalanine metabolism (energy substrates). A single cofactor deficit thus impairs neurotransmitter efficiency, vascular delivery, and metabolic substrate availability simultaneously @Fanet2021BH4neuro. Multiple predisposing conditions may deplete BH4 through different mechanisms @Fanet2021BH4neuro: high dopaminergic demand (ADHD) increases BH4 consumption through tyrosine hydroxylase turnover; chronic IL-6 elevation (ASD) drives oxidative BH4 destruction @ColpaniFilho2025BH4ASD; oxidative stress from any source (including ischemia-reperfusion in orthostatic hypoperfusion) generates peroxynitrite that oxidises BH4 to dihydrobiopterin (BH2) @Fanet2021BH4neuro; iron deficiency impairs BH4 recycling via dihydropteridine reductase @DelRosso2026ironNeurodevelopmental; GCH1 rs841 variants reduce BH4 production constitutionally @Williams2025GCH1BH4; and post-infectious interferon-gamma surges divert GTP cyclohydrolase~I activity toward neopterin production at the expense of BH4 @Fanet2021BH4neuro.
+
+#speculation(title: [BH4 Depletion as the Convergent Bottleneck Linking Predisposing Conditions to ME/CFS])[
+*Certainty: 0.35.* BH4 depletion may be the single metabolic chokepoint through which ADHD, ASD, hEDS/POTS, iron deficiency, and GCH1 variants all reduce metabolic reserve. If so, urinary neopterin:biopterin ratio — a non-invasive marker of immune activation relative to BH4 status (~\$30--50 per sample) — should be elevated across ALL predisposing conditions, not just post-infection. Pre-illness BH4 status should predict post-infectious ME/CFS risk better than any single predisposing diagnosis alone. *Falsification:* If BH4 levels are normal in ADHD and hEDS patients (only depleted in ASD and post-infection), the convergent bottleneck hypothesis fails and condition-specific mechanisms dominate.
+] <spec:bh4-convergent-bottleneck>
+
+===== Why Stimulants Help Symptoms but Not PEM
+
+The dissociation between stimulant benefit for brain fog (77.1%) and negligible effect on PEM ($-1.5%$) @Vernon2025PNAS is precisely what the metabolic reserve model predicts. Stimulants increase catecholamine availability at the synapse, improving dopaminergic efficiency — the metabolic cost per unit of cognitive output decreases. This is equivalent to increasing cognitive headroom by reducing demand rather than increasing production capacity. However, stimulants do not augment mitochondrial maximum capacity. The improved subjective function enables patients to sustain higher cognitive workloads, potentially _increasing_ total energy expenditure and bringing them closer to the PEM threshold. The net $-1.5%$ PEM effect in the Vernon survey may represent the average of two opposing behavioural responses: patients who use the cognitive improvement to do more (increased PEM risk) and patients who maintain activity levels (reduced PEM risk from lower metabolic cost per task). This predicts that stimulant-treated ME/CFS patients who maintain strict activity pacing should experience _lower_ PEM frequency, while those who increase activity should experience _higher_ PEM frequency — a testable prediction that current trial designs do not capture.
+
+===== Proposed Research Priorities
+
+The metabolic reserve hypothesis generates several tractable research directions ordered by feasibility:
+
+1. *Reanalysis of existing datasets (fast, low-cost).* The ALSPAC, UK Biobank, RECOVER, and DecodeME datasets contain neurodevelopmental history, metabolic markers, infection records, and fatigue outcomes. Cross-referencing these existing data can test the compound-risk prediction without new data collection.
+
+2. *Peripheral blood mitochondrial respirometry (moderate cost).* Seahorse XF respirometry from a standard blood draw can measure spare respiratory capacity — the cellular analogue of metabolic reserve — across six groups: ADHD-only, ASD-only, ADHD+ME/CFS, ASD+ME/CFS, ME/CFS-only, and controls. If spare respiratory capacity follows the predicted gradient (controls $>$ neurodivergent-only $>$ ME/CFS-only $>$ neurodivergent+ME/CFS), the reserve model is directly supported.
+
+3. *Prospective post-infection metabolic phenotyping (expensive, definitive).* The only design that can definitively prove or disprove Architecture~C: recruit neurodivergent and neurotypical cohorts, measure baseline metabolic parameters, and follow prospectively through viral infections. This requires substantial funding but would resolve a fundamental question in ME/CFS aetiology.
+
+#open-question(title: [Can Modifiable Reserve Reducers Be Corrected to Prevent or Treat ME/CFS?])[
+Architecture C identifies several modifiable components of the metabolic reserve deficit. Iron repletion (targeting ferritin $> 100$ ng/mL per clinical opinion, not trial-validated for ME/CFS) targets both mitochondrial complex~I/II function and dopamine synthesis @DelRosso2026ironNeurodevelopmental. BH4 cofactor support — either indirect (folinic acid and vitamin C to support BH4 recycling via dihydrofolate reductase @Fanet2021BH4neuro) or direct (BH4 supplementation for confirmed GCH1 carriers, evidence limited to $n = 5$ case reports @Williams2025GCH1BH4) — addresses the proposed convergent bottleneck. Cerebral perfusion optimisation through standard POTS management increases energy delivery. These interventions exist and are testable, though none has been validated specifically for ME/CFS prevention or treatment in this context. Whether pre-emptive correction of modifiable reserve reducers in neurodivergent patients reduces ME/CFS incidence after infection — or improves outcomes in established ME/CFS — is entirely untested but represents the most immediate translational prediction of Architecture~C.
+] <oq:modifiable-reserve-correction>
+

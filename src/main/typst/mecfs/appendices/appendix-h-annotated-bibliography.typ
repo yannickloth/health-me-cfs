@@ -9468,4 +9468,346 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - *Sample:* N/A (review)
         - *Replication:* Synthesizes emerging data; not independently validated
         - *Score:* 0.50
+
+== ADHD, Neurodivergence, and Lower Metabolic Baseline as ME/CFS Predisposition
+<sec:bib-adhd-neurodivergent-baseline>
+
+=== Zametkin et al.\ 1990 --- Cerebral Glucose Metabolism in ADHD Adults
+
+    / *Full Citation:*: Zametkin AJ, Nordahl TE, Gross M, et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. _New England Journal of Medicine_. 1990;323(20):1361--1366. @Zametkin1990
+    / *DOI:*: #link("https://doi.org/10.1056/NEJM199011153232001")[10.1056/NEJM199011153232001]
+    / *PMID:*: 2233902
+    / *Article Type:*: Original research (PET imaging)
+    / *Key Findings:*:
+        - PET [18F]FDG: global cerebral glucose metabolism 8.1% lower in ADHD adults (n=25) vs controls (n=50)
+        - Largest reductions in premotor cortex and superior prefrontal cortex
+        - Significant hypometabolism in 30 of 60 brain regions examined
+    / *Conclusion:*: ADHD adults show widespread cerebral glucose hypometabolism. Foundational evidence for ADHD as a brain energy/metabolic deficit disorder.
+    / *Limitations:*: Adults only; task-state PET; pre-modern diagnostic criteria; no female-matched controls.
+    / *ME/CFS Relevance:*: Pre-existing prefrontal hypometabolism lowers the metabolic reserve threshold above which infection-triggered neuroinflammation produces sustained ME/CFS phenotype.
+    / *Certainty Assessment:*:
+        - *Quality:* High (NEJM landmark)
+        - *Sample:* n=75
+        - *Replication:* Extensively replicated over 30 years
+        - *Score:* 0.80
+
+=== Quadt et al.\ 2024 --- Neurodivergent Traits, IL-6, and Chronic Disabling Fatigue (ALSPAC)
+
+    / *Full Citation:*: Quadt L, Csecs J, Bond R, et al. Childhood neurodivergent traits, inflammation and chronic disabling fatigue in adolescence: a longitudinal case--control study. _BMJ Open_. 2024;14(7):e084203. @Quadt2024neurodivergentfatigue
+    / *DOI:*: #link("https://doi.org/10.1136/bmjopen-2024-084203")[10.1136/bmjopen-2024-084203]
+    / *PMID:*: 39038862
+    / *Article Type:*: Longitudinal cohort study
+    / *Key Findings:*:
+        - ALSPAC cohort (n=4,563): ADHD traits age 9 → OR=2.18 for chronic disabling fatigue at age 18
+        - Autism traits age 7 → OR=1.78 for chronic disabling fatigue at age 18
+        - IL-6 at age 9 mediated the pathway, independent of depression
+    / *Conclusion:*: Strongest prospective evidence that neurodivergent traits predict adolescent fatigue, with IL-6-mediated inflammation as mechanism.
+    / *Limitations:*: Screening instruments (not clinical diagnoses); CDF outcome not equivalent to ME/CFS criteria; IL-6 single timepoint.
+    / *ME/CFS Relevance:*: Establishes temporal precedence: neurodivergent traits → elevated IL-6 → chronic fatigue. Pre-existing neuroinflammation reduces metabolic reserve before any acute trigger.
+    / *Certainty Assessment:*:
+        - *Quality:* High (large longitudinal cohort; mediation analysis)
+        - *Sample:* n=4,563
+        - *Replication:* Extends Norris 2017 in same cohort
+        - *Score:* 0.75
+
+=== Sáez-Francàs et al.\ 2012 --- ADHD Prevalence in Adult CFS Patients
+
+    / *Full Citation:*: Sáez-Francàs N, Alegre J, Calvo N, et al. Attention-deficit hyperactivity disorder in chronic fatigue syndrome patients. _Psychiatry Research_. 2012;200(2--3):748--753. @SaezFrancas2012adhdcfs
+    / *DOI:*: #link("https://doi.org/10.1016/j.psychres.2012.04.041")[10.1016/j.psychres.2012.04.041]
+    / *PMID:*: 22648008
+    / *Article Type:*: Cross-sectional study
+    / *Key Findings:*:
+        - 29.7% of 158 adult CFS patients had childhood ADHD; 20.9% had persistent adult ADHD
+        - CFS + ADHD patients: earlier CFS onset, more anxiety/depression, higher suicide risk
+        - ADHD severity and depressive symptoms independently predicted fatigue intensity
+    / *Conclusion:*: ADHD is a common comorbidity in CFS (~30% childhood prevalence). Comorbid ADHD worsens prognosis.
+    / *Limitations:*: Cross-sectional; recall bias; single specialist clinic; Oxford CFS criteria.
+    / *ME/CFS Relevance:*: Primary source for ~30% childhood ADHD prevalence in CFS. Consistent with lower metabolic baseline predisposing to ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (single-centre)
+        - *Sample:* n=158
+        - *Replication:* Partially replicated
+        - *Score:* 0.55
+
+=== Yokokura et al.\ 2021 --- D1R Reduction and Microglial Activation Co-Imaged in ADHD
+
+    / *Full Citation:*: Yokokura M, Takedera K, Kazumata K, et al. In vivo imaging of dopamine D1 receptor and activated microglia in ADHD: a PET study. _Molecular Psychiatry_. 2021;26(9):4958--4967. @Yokokura2021D1Rmicroglia
+    / *DOI:*: #link("https://doi.org/10.1038/s41380-020-0784-1")[10.1038/s41380-020-0784-1]
+    / *PMID:*: 32439845
+    / *Article Type:*: Original research (dual-tracer PET)
+    / *Key Findings:*:
+        - Decreased D1R in anterior cingulate cortex; correlated with hyperactivity severity
+        - Increased activated microglia in DLPFC and orbitofrontal cortex
+        - D1R reduction and microglial activation positively correlated in ADHD only
+    / *Conclusion:*: First in vivo co-imaging of dopaminergic deficit and neuroinflammation in ADHD subjects. Bridges the ME/CFS--ADHD pathway through both catecholamine depletion and microglial activation.
+    / *Limitations:*: n=24 per group; cross-sectional; causality indeterminate.
+    / *ME/CFS Relevance:*: ADHD brains show simultaneous catecholamine deficit and neuroinflammation — the same combination documented in ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* High (dual-tracer PET; drug-naive)
+        - *Sample:* n=48
+        - *Replication:* Single study
+        - *Score:* 0.62
+
+=== Moffitt et al.\ 2015 --- Adult ADHD as Potentially Distinct from Childhood ADHD (Dunedin)
+
+    / *Full Citation:*: Moffitt TE, Houts R, Asherson P, et al. Is adult ADHD a childhood-onset neurodevelopmental disorder? Evidence from a four-decade longitudinal cohort study. _American Journal of Psychiatry_. 2015;172(10):967--977. @Moffitt2015adhdadult
+    / *DOI:*: #link("https://doi.org/10.1176/appi.ajp.2015.14101266")[10.1176/appi.ajp.2015.14101266]
+    / *PMID:*: 25998281
+    / *Article Type:*: Longitudinal cohort study (Dunedin, 40 years)
+    / *Key Findings:*:
+        - 90% of adult ADHD cases had no childhood ADHD diagnosis
+        - Only 5% of childhood ADHD persisted to adult criteria at age 38
+        - Adult-onset group: no neuropsychological deficits, no polygenic risk for childhood ADHD
+    / *Conclusion:*: Challenges purely developmental framing of adult ADHD. Some adult ADHD may represent acquired catecholaminergic dysfunction.
+    / *Limitations:*: Single NZ birth cohort; adult ADHD assessed once at age 38; findings contested.
+    / *ME/CFS Relevance:*: If adult-onset ADHD is biologically distinct, it may represent acquired energy deficit — compatible with post-infectious ME/CFS trajectory.
+    / *Certainty Assessment:*:
+        - *Quality:* High (gold-standard longitudinal cohort; 95% retention)
+        - *Sample:* n=1,037
+        - *Replication:* Contested
+        - *Score:* 0.70
+
+=== Frye et al.\ 2024 --- ASD Mitochondrial Biomarkers Meta-Analysis (204 Studies)
+
+    / *Full Citation:*: Frye RE, Rincon N, McCarty PJ, et al. Biomarkers of mitochondrial dysfunction in autism spectrum disorder: A systematic review and meta-analysis. _Neurobiology of Disease_. 2024;197:106520. @Frye2024ASDmitochondria
+    / *DOI:*: #link("https://doi.org/10.1016/j.nbd.2024.106520")[10.1016/j.nbd.2024.106520]
+    / *PMID:*: 38703861
+    / *Article Type:*: Systematic review and meta-analysis
+    / *Key Findings:*:
+        - 204 studies: elevated lactate (17%), pyruvate (41%), alanine (15%), creatine kinase (9%) in ASD
+        - Significant ATP deficit; moderate-to-large effect sizes (d ≥ 0.6)
+        - Mitochondrial dysfunction correlated with GI symptoms, oxidative stress, immune dysfunction
+    / *Conclusion:*: ASD involves systemic mitochondrial dysfunction. The same ETC impairments in ME/CFS energy failure are chronically active in ASD as a baseline feature.
+    / *Limitations:*: High heterogeneity; non-standardized assays; cause vs. consequence unclear.
+    / *ME/CFS Relevance:*: Core evidence that ASD reduces metabolic reserve via the same mitochondrial pathways as ME/CFS — a pre-existing lower baseline.
+    / *Certainty Assessment:*:
+        - *Quality:* High (largest meta-analysis on this topic)
+        - *Sample:* 204 studies
+        - *Replication:* Consistent direction
+        - *Score:* 0.70
+
+=== Baeza-Velasco et al.\ 2025 --- Autism--Hypermobility--EDS Meta-Analysis
+
+    / *Full Citation:*: Baeza-Velasco C, Vergne J, Poli M, et al. Autism in the context of joint hypermobility, HSD, and EDS: A systematic review and prevalence meta-analyses. _Autism_. 2025;29(8):1939--1958. @BaezaVelasco2025autismEDS
+    / *DOI:*: #link("https://doi.org/10.1177/13623613251328059")[10.1177/13623613251328059]
+    / *PMID:*: 40145613
+    / *Article Type:*: Systematic review and meta-analysis
+    / *Key Findings:*:
+        - Joint hypermobility in autistic individuals: 22.3% (clinical: 31%)
+        - HSD/EDS in autistic samples: 27.9% (clinical: 39%)
+        - Autistic individuals 7.4× more likely to have EDS than comparison groups
+    / *Conclusion:*: Meta-analytically confirms ASD--EDS cluster. Since EDS → POTS → cerebral hypoperfusion, ASD + EDS = compounded lower baseline via mitochondrial dysfunction + cerebral hypoperfusion.
+    / *Limitations:*: Variable assessment methods; possible ascertainment bias.
+    / *ME/CFS Relevance:*: Highest-risk phenotype for ME/CFS: ASD + EDS combines two independent mechanisms of metabolic reserve reduction.
+    / *Certainty Assessment:*:
+        - *Quality:* High (systematic meta-analysis)
+        - *Sample:* 20 studies; 12/15 significant
+        - *Replication:* Consistent
+        - *Score:* 0.70
+
+=== Csecs et al.\ 2022 --- Joint Hypermobility Mediates Neurodivergence--Dysautonomia Link
+
+    / *Full Citation:*: Csecs JLL, Iodice V, Rae CL, et al. Joint Hypermobility Links Neurodivergence to Dysautonomia and Pain. _Frontiers in Psychiatry_. 2022;12:786916. @Csecs2022hypermobility
+    / *DOI:*: #link("https://doi.org/10.3389/fpsyt.2021.786916")[10.3389/fpsyt.2021.786916]
+    / *PMID:*: 35185636
+    / *Article Type:*: Prospective cross-sectional with mediation analysis
+    / *Key Findings:*:
+        - n=109 neurodivergent adults: 51% joint hypermobility (vs. 20% general population)
+        - Hypermobility statistically mediated neurodivergence → dysautonomia and pain
+        - Female prevalence: 69%
+    / *Conclusion:*: Connective tissue laxity is a mechanistic bridge linking neurodivergence to autonomic dysfunction and pain — the triad that characterises ME/CFS-adjacent presentations.
+    / *Limitations:*: Cross-sectional; self-selected cohort; mediation ≠ causation.
+    / *ME/CFS Relevance:*: Explains why ADHD/ASD + POTS co-occurrence is not coincidental: shared connective tissue biology creates an additive energy drain.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (novel mediation finding)
+        - *Sample:* n=109
+        - *Replication:* Single study
+        - *Score:* 0.65
+
+=== Kindgren et al.\ 2021 --- ADHD/ASD Prevalence in hEDS/HSD Children
+
+    / *Full Citation:*: Kindgren E, Quiñones Perez A, Knez R. Prevalence of ADHD and ASD in Children with HSD or hEDS. _Neuropsychiatr Dis Treat_. 2021;17:379--388. @Kindgren2021hEDSadhd
+    / *DOI:*: #link("https://doi.org/10.2147/NDT.S290494")[10.2147/NDT.S290494]
+    / *PMID:*: 33603376
+    / *Article Type:*: Retrospective study
+    / *Key Findings:*:
+        - n=201 children with hEDS/HSD: ADHD 16% (+ 7% under investigation); ASD 6%
+        - Age 17--18 cohort: ADHD in 46%
+        - hEDS significantly higher ADHD than HSD
+    / *Conclusion:*: Connective tissue hypermobility carries substantially elevated neurodevelopmental burden. The hEDS--ADHD--ASD cluster is a high-risk phenotype.
+    / *Limitations:*: Retrospective; single-centre; no within-study controls.
+    / *ME/CFS Relevance:*: Quantifies the neurodivergent--hypermobility axis; this cluster carries the highest ME/CFS predisposition risk.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* n=201
+        - *Replication:* Consistent with literature
         - *Score:* 0.60
+
+=== Lau et al.\ 2015 --- Migraine Confers 1.5× CFS Risk
+
+    / *Full Citation:*: Lau C-I, Lin C-C, Chen W-H, et al. Increased risk of chronic fatigue syndrome in patients with migraine. _J Psychosom Res_. 2015;79(6):514--518. @Lau2015migraineCFS
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2015.10.005")[10.1016/j.jpsychores.2015.10.005]
+    / *PMID:*: 26505533
+    / *Article Type:*: Retrospective cohort
+    / *Key Findings:*:
+        - Taiwan NHIRD: n=6,902 migraine vs. n=27,608 controls
+        - CFS incidence IRR ~1.5; age ≥65: IRR=2.11
+        - Dose-response with migraine frequency
+    / *Conclusion:*: Migraine history predisposes to CFS, with cumulative mitochondrial depletion as proposed mechanism.
+    / *Limitations:*: ICD-based diagnoses; Taiwan cohort; CFS criteria unspecified.
+    / *ME/CFS Relevance:*: Migraine as another metabolic reserve reducer — cumulative CSD events deplete neuronal energy stores.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (large administrative cohort)
+        - *Sample:* n=34,510
+        - *Replication:* No direct replication
+        - *Score:* 0.60
+
+=== Wang et al.\ 2023 --- Migraine Energy Metabolism: Mitochondrial Review
+
+    / *Full Citation:*: Wang Y, Wang Y, Yue G, Zhao Y. Energy metabolism disturbance in migraine: From a mitochondrial point of view. _Front Physiol_. 2023;14:1133528. @Wang2023migraineMito
+    / *DOI:*: #link("https://doi.org/10.3389/fphys.2023.1133528")[10.3389/fphys.2023.1133528]
+    / *PMID:*: 37123270
+    / *Article Type:*: Narrative review
+    / *Key Findings:*:
+        - Migraineurs: elevated lactate, lower NAA, decreased cytochrome c oxidase
+        - CSD creates massive energy demand exceeding impaired recovery capacity
+        - Migraine and ME/CFS share identical triggers (stress, sleep deprivation, fasting, exercise)
+    / *Conclusion:*: Migraine is a condition of chronically reduced mitochondrial reserve. Same ETC impairments found in ME/CFS.
+    / *Limitations:*: Narrative review; heterogeneous sources.
+    / *ME/CFS Relevance:*: Provides mechanistic explanation for migraine → CFS risk (Lau 2015).
+    / *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Review
+        - *Replication:* Consistent
+        - *Score:* 0.60
+
+=== Colpani Filho et al.\ 2025 --- BH4 Pathway in ASD: Systematic Review
+
+    / *Full Citation:*: Colpani Filho C, Melfior L, Ramos SL, et al. Tetrahydrobiopterin and ASD: A Systematic Review. _Brain Sciences_. 2025;15(2):151. @ColpaniFilho2025BH4ASD
+    / *DOI:*: #link("https://doi.org/10.3390/brainsci15020151")[10.3390/brainsci15020151]
+    / *PMID:*: 40002484
+    / *Article Type:*: Systematic review
+    / *Key Findings:*:
+        - Lower BH4 consistently in ASD biological samples vs. controls
+        - BH4 is cofactor for dopamine, serotonin, NE, and NO synthesis
+        - BH4 supplementation shows potential in some ASD trials
+    / *Conclusion:*: ASD shares the BH4 bottleneck with ME/CFS. GCH1 pathway variants may be shared genetic vulnerability.
+    / *Limitations:*: Variable measurement methods; heterogeneous populations; therapeutic evidence preliminary.
+    / *ME/CFS Relevance:*: Links ASD to BH4--ME/CFS pathway. Low BH4 → reduced NO → impaired vascular autoregulation.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (systematic review)
+        - *Sample:* Multiple studies
+        - *Replication:* Consistent direction
+        - *Score:* 0.60
+
+=== Williams et al.\ 2025 --- GCH1 rs841, BH4, and Neurodevelopmental Conditions
+
+    / *Full Citation:*: Williams GE, Hausman-Cohen S, Sotos M, et al. The Role of GCH1 Deficiency and Tetrahydrobiopterin in Mental Health. _Int J Mol Sci_. 2025;26(16):8030. @Williams2025GCH1BH4
+    / *DOI:*: #link("https://doi.org/10.3390/ijms26168030")[10.3390/ijms26168030]
+    / *PMID:*: 40869351
+    / *Article Type:*: Narrative review with case series
+    / *Key Findings:*:
+        - GCH1 rs841 AA (~4% population): reduced BH4 → impaired dopamine/NE/serotonin/NO synthesis
+        - Associated with ADHD, ASD, depression, PMDD, insomnia
+        - n=5 case reports: BH4 supplementation improved ADHD behaviour
+    / *Conclusion:*: GCH1 rs841 as a high-frequency shared genetic vulnerability across neurodevelopmental conditions and ME/CFS.
+    / *Limitations:*: Case series n=5 only; potential COI; genetic association weak.
+    / *ME/CFS Relevance:*: BH4 bottleneck connects ADHD, ASD, and ME/CFS through same enzymatic deficit.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (case series)
+        - *Sample:* n=5
+        - *Replication:* None
+        - *Score:* 0.40
+
+=== Berthier et al.\ 2025 --- Cerebral Blood Flow in ADHD: Systematic Review
+
+    / *Full Citation:*: Berthier J, Endomba FT, Lecendreux M, et al. Cerebral blood flow in ADHD: A systematic review. _Neuroscience_. 2025;567:67--76. @Berthier2025cbfadhd
+    / *DOI:*: #link("https://doi.org/10.1016/j.neuroscience.2024.11.075")[10.1016/j.neuroscience.2024.11.075]
+    / *PMID:*: 39631658
+    / *Article Type:*: Systematic review
+    / *Key Findings:*:
+        - 20 studies (n=1,652 ADHD): resting hypoperfusion in prefrontal, temporal, basal ganglia
+        - Methylphenidate normalises striatal and thalamic blood flow
+    / *Conclusion:*: ADHD shows baseline prefrontal-striatal hypoperfusion convergent with ME/CFS cerebral blood flow data.
+    / *Limitations:*: Heterogeneous methods; most underlying studies small.
+    / *ME/CFS Relevance:*: Shared vascular-metabolic vulnerability: both conditions show cerebral hypoperfusion as baseline.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (systematic review)
+        - *Sample:* n=2,232 across 20 studies
+        - *Replication:* Consistent core finding
+        - *Score:* 0.62
+
+=== Almutairi et al.\ 2024 --- Mitochondrial Dysfunction and Mitophagy in ADHD
+
+    / *Full Citation:*: Almutairi MM, Althekair A, Almutairi F, et al. Mitochondrial dysfunction and mitophagy in ADHD. _Saudi Pharm J_. 2024;32(12):102212. @Almutairi2024mitoadhd
+    / *DOI:*: #link("https://doi.org/10.1016/j.jsps.2024.102212")[10.1016/j.jsps.2024.102212]
+    / *PMC:*: PMC11664080
+    / *Article Type:*: Narrative review
+    / *Key Findings:*:
+        - Decreased mitochondrial membrane potential and impaired oxidative phosphorylation in ADHD
+        - NDUFAF2 (Complex I), UCP2 variants correlated with reduced respiratory capacity
+        - Methylphenidate increases Parkin and reduces ROS
+    / *Conclusion:*: Mitochondrial energy failure is a plausible ADHD mechanism parallel to ME/CFS mitochondrial dysfunction.
+    / *Limitations:*: Mostly preclinical; human evidence limited.
+    / *ME/CFS Relevance:*: Same mitochondrial impairments in both conditions support shared energy deficit model.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (narrative review, preclinical)
+        - *Sample:* Review
+        - *Replication:* Convergent
+        - *Score:* 0.35
+
+=== Fanet et al.\ 2021 --- BH4 Pathway: From Metabolism to Neuropsychiatry
+
+    / *Full Citation:*: Fanet H, Capuron L, Castanon N, et al. Tetrahydrobiopterin (BH4) pathway: from metabolism to neuropsychiatry. _Curr Neuropharmacol_. 2021;19(5):591--609. @Fanet2021BH4neuro
+    / *DOI:*: #link("https://doi.org/10.2174/1570159X18666200729103529")[10.2174/1570159X18666200729103529]
+    / *PMID:*: 32744952
+    / *Article Type:*: Narrative review
+    / *Key Findings:*:
+        - BH4 cofactor for TH (dopamine/NE), TPH (serotonin), all NOS isoforms
+        - Inflammatory cytokines increase BH4 synthesis but accelerate oxidation → net monoamine depletion
+        - Reduced CSF BH4 in depression, Parkinson's, Alzheimer's, ADHD, autism
+    / *Conclusion:*: Infection/neuroinflammation → BH4 oxidative depletion → catecholamine deficiency → ADHD-like and ME/CFS symptoms.
+    / *Limitations:*: Narrative review; ADHD coverage brief.
+    / *ME/CFS Relevance:*: Mechanistic bridge: shared inflammatory trigger → shared neurotransmitter deficit via BH4 bottleneck.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Review
+        - *Replication:* Core biochemistry established
+        - *Score:* 0.50
+
+=== DelRosso et al.\ 2026 --- Iron Deficiency in ADHD and ASD
+
+    / *Full Citation:*: DelRosso LM, Estrada Chaverri L, Ceballos Fuentes FA. Iron Deficiency Across Neurodevelopmental Disorders. _Children (Basel)_. 2026;13(2):180. @DelRosso2026ironNeurodevelopmental
+    / *DOI:*: #link("https://doi.org/10.3390/children13020180")[10.3390/children13020180]
+    / *PMID:*: 41749537
+    / *Article Type:*: Narrative review
+    / *Key Findings:*:
+        - Reduced brain iron in dopaminergic regions in ADHD
+        - Iron is cofactor for dopamine synthesis AND mitochondrial complex I/II — dual role
+        - Ferritin thresholds: \<30 ng/mL (ADHD), \<50 ng/mL (ASD sleep phenotype)
+    / *Conclusion:*: Iron deficiency creates a double metabolic deficit in neurodivergent patients: impaired neurotransmitter synthesis + reduced mitochondrial capacity. A modifiable baseline reducer.
+    / *Limitations:*: Narrative review; peripheral iron proxies unreliable for brain iron.
+    / *ME/CFS Relevance:*: Iron screening and correction in neurodivergent ME/CFS patients — tractable intervention to improve metabolic reserve.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Review
+        - *Replication:* Robust mechanistic rationale
+        - *Score:* 0.60
+
+=== Raw et al.\ 2025 --- Neurodivergence as Post-COVID-19 Risk Factor
+
+    / *Full Citation:*: Raw RK, Rees J, Pearson A, Chadwick DR. Neurodivergence as a Risk Factor for Post-COVID-19 Syndrome. _COVID_. 2025;6(1):1--7. @Raw2025neurodivergencePostCOVID
+    / *DOI:*: #link("https://doi.org/10.3390/covid6010001")[10.3390/covid6010001]
+    / *Article Type:*: Cross-sectional study
+    / *Key Findings:*:
+        - n=267 healthcare workers: higher autistic trait scores predicted symptoms \>12 weeks
+        - Sensory reactivity subscale strongest predictor
+        - Dimensional (autistic traits, not just formal diagnosis)
+    / *Conclusion:*: Autistic traits predict post-COVID syndrome risk, consistent with lower-baseline model via central sensitization.
+    / *Limitations:*: Small sample; healthcare workers only; self-reported traits; cross-sectional.
+    / *ME/CFS Relevance:*: Dimensional evidence that neurodivergent biology predisposes to post-infectious fatigue.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium
+        - *Sample:* n=267
+        - *Replication:* No
+        - *Score:* 0.45
