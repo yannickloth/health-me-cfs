@@ -420,9 +420,9 @@ microclot literature @Nunes2022microclots.
     / *Contact/URL:*: #link("https://cfc.charite.de/en/clinical_research/nksg/trial_ia_pacs_cfs")
     / *Registry ID:*: NCT05710770
     / *Funder:*: Institutional and ME/CFS Research Foundation
-    / *Status:*: Active (double-blind, sham-controlled)
-    / *Phase:*: Exploratory interventional trial
-    / *Cohort:*: ME/CFS patients (post-COVID and other post-infectious)
+    / *Status:*: Completed (October 2025); results pending
+    / *Phase:*: Double-blind, sham-controlled RCT (2:1 allocation)
+    / *Cohort:*: 66 ME/CFS patients (post-COVID and other post-infectious)
         with elevated $beta_2$-adrenergic receptor autoantibodies
     / *Mechanism/Focus:*: Five immunoadsorption sessions over 10 days
         to remove pathogenic autoantibodies targeting G-protein coupled
@@ -455,7 +455,9 @@ changes.
 
     / *Principal Investigator:*: Hannover Medical School investigators
     / *Institution:*: Hannover Medical School, Germany
+    / *Contact/URL:*: #link("https://clinicaltrials.gov/study/NCT05954325")
     / *Registry ID:*: NCT05954325
+    / *Funder:*: Not publicly disclosed
     / *Status:*: Completed (September 2025); results pending
     / *Phase:*: Double-blind, sham-controlled RCT
     / *Cohort:*: 63 ME/CFS patients
@@ -464,6 +466,8 @@ changes.
         sham-controlled RCT of immunoadsorption in ME/CFS.
     / *Primary Outcomes:*: Chalder Fatigue Scale at 12 weeks
     / *Estimated Completion:*: Completed September 2025; publication pending
+    / *Timeline:*: Enrolment started August 2023; completed September 2025
+    / *Publication Medium:*: Not yet announced
     / *Document Relevance:*: Ch.\ 7 (immune dysfunction), Ch.\ 14b
         (autoimmune hypothesis), Ch.\ 21 (clinical trials)
 
@@ -479,7 +483,9 @@ prior positive results originated from a single research group.
 
     / *Principal Investigator:*: Charité Fatigue Centrum investigators
     / *Institution:*: Charité – Universitätsmedizin Berlin, Germany
+    / *Contact/URL:*: #link("https://clinicaltrials.gov/study/NCT07529197")
     / *Registry ID:*: NCT07529197
+    / *Funder:*: Institutional (Charité)
     / *Status:*: Recruiting (since March 2026)
     / *Phase:*: Non-interventional prospective observational
     / *Cohort:*: 50 ME/CFS patients undergoing immunoadsorption
@@ -491,6 +497,9 @@ prior positive results originated from a single research group.
     / *Primary Outcomes:*: SF-36 Physical Function at 8 weeks;
         memory B-cell dynamics
     / *Estimated Completion:*: Not yet announced
+    / *Timeline:*: Recruiting since March 2026; outpatient design
+        (first non-inpatient IA protocol)
+    / *Publication Medium:*: Not yet announced
     / *Document Relevance:*: Ch.\ 7 (immune dysfunction), Ch.\ 14b
         (autoimmune hypothesis—plasma cell sanctuary)
 
