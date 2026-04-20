@@ -3199,7 +3199,7 @@ Motivated by: Creative brainstorm synthesising Hauglund 2025, Fultz 2019, López
     [DTI-ALPS stratified by OI status --- feasible as subgroup analysis within DTI-ALPS study. Autonomic testing + overnight PSG + MRI in same cohort.],
     [Ch.15 @spec:ch15-orexin-autonomic-vascular],
   ),
-  caption: [Sleep--glymphatic--orexin creative synthesis (2026-04-20): six speculations connecting orexin dysfunction, NE vasomotion, and glymphatic clearance into novel mechanistic loops. PGE#sub[2]--EP3 feedback loop, cognitive PEM ratchet, thalamocortical--vasomotion resonance failure, dual-route glymphatic impairment, and orexin--cortisol desynchrony are novel constructs.],
+  caption: [Sleep--glymphatic--orexin creative synthesis (2026-04-20): six speculations connecting orexin dysfunction, NE vasomotion, and glymphatic clearance into novel mechanistic loops. Orexin--vasomotion--glymphatic triad, PGE#sub[2]--EP3 feedback loop, cognitive PEM ratchet, thalamocortical--vasomotion resonance failure, dual-route glymphatic impairment, and orexin--cortisol desynchrony are novel constructs.],
   kind: table,
 ) <tab:registry-sleep-glymphatic-creative>
 ] // end landscape page
