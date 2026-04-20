@@ -430,9 +430,9 @@ microclot literature @Nunes2022microclots.
         Prior open-label cohort ($n=20$) showed clinical improvement.
     / *Primary Outcomes:*: Clinical improvement at 3 months (Chalder
         Fatigue Scale); autoantibody levels; 6-month follow-up
-    / *Estimated Completion:*: Not yet announced
+    / *Estimated Completion:*: RCT completed October 2025; results pending
     / *Timeline:*: Open-label cohort 2022–2023 (published January 2025);
-        double-blind RCT ongoing
+        double-blind RCT completed October 2025; protocol published @Pressler2024IAPACSCFSprotocol
     / *Publication Medium:*: Open-label results in peer-reviewed journal
         (2025); RCT results expected in high-impact immunology journal
     / *Document Relevance:*: Ch. 7 (immune dysfunction—autoantibodies),
@@ -449,6 +449,58 @@ mechanism simultaneously.  A new 2026-funded neuroimaging substudy will
 assess whether thalamocortical hyperconnectivity normalises after
 immunoadsorption, linking peripheral autoimmunity to central nervous system
 changes.
+
+=== EXTINCT Trial (Hannover Medical School)
+<sec:registry-extinct>
+
+    / *Principal Investigator:*: Hannover Medical School investigators
+    / *Institution:*: Hannover Medical School, Germany
+    / *Registry ID:*: NCT05954325
+    / *Status:*: Completed (September 2025); results pending
+    / *Phase:*: Double-blind, sham-controlled RCT
+    / *Cohort:*: 63 ME/CFS patients
+    / *Mechanism/Focus:*: Five immunoadsorption sessions within 14 days
+        vs.\ sham procedure.  First independent-institution (non-Charité)
+        sham-controlled RCT of immunoadsorption in ME/CFS.
+    / *Primary Outcomes:*: Chalder Fatigue Scale at 12 weeks
+    / *Estimated Completion:*: Completed September 2025; publication pending
+    / *Document Relevance:*: Ch.\ 7 (immune dysfunction), Ch.\ 14b
+        (autoimmune hypothesis), Ch.\ 21 (clinical trials)
+
+The EXTINCT trial is the first sham-controlled immunoadsorption RCT
+conducted independently of the Charité group.  Together with IA-PACS-CFS
+(Section @sec:registry-charite-ia), these two completed RCTs will
+provide the definitive test of whether immunoadsorption efficacy exceeds
+placebo in ME/CFS.  Independent replication is critical given that all
+prior positive results originated from a single research group.
+
+=== IMPACT Trial (Memory B-Cell Dynamics)
+<sec:registry-impact>
+
+    / *Principal Investigator:*: Charité Fatigue Centrum investigators
+    / *Institution:*: Charité – Universitätsmedizin Berlin, Germany
+    / *Registry ID:*: NCT07529197
+    / *Status:*: Recruiting (since March 2026)
+    / *Phase:*: Non-interventional prospective observational
+    / *Cohort:*: 50 ME/CFS patients undergoing immunoadsorption
+    / *Mechanism/Focus:*: Five outpatient IA sessions on days 1, 2, 4, 6,
+        and 8.  Primary novelty: systematic measurement of memory B-cell
+        changes before and after IA—addressing the mechanistic question of
+        why some patients relapse (memory B-cell repopulation and
+        re-synthesis of autoantibodies).
+    / *Primary Outcomes:*: SF-36 Physical Function at 8 weeks;
+        memory B-cell dynamics
+    / *Estimated Completion:*: Not yet announced
+    / *Document Relevance:*: Ch.\ 7 (immune dysfunction), Ch.\ 14b
+        (autoimmune hypothesis—plasma cell sanctuary)
+
+The IMPACT trial is the first study to systematically investigate memory
+B-cell dynamics after immunoadsorption.  This is mechanistically critical:
+if relapse after IA is driven by memory B-cell repopulation and
+re-differentiation into autoantibody-secreting plasma cells, then
+combining IA with B-cell depletion (rituximab) or plasma cell depletion
+(daratumumab) could prevent relapse.  The outpatient design also represents
+a practical advance over the prior inpatient protocols.
 
 === BC007 (Rovunaptabin) Phase II Trials
 <sec:registry-bc007>
@@ -1932,6 +1984,15 @@ replication or extension studies in 2026–2027:
         gut/blood data; blinded independent replication needed.
     - *Post-IM 7-year cohort*: 4% locked-in ME/CFS rate at
         24 months; risk factor analysis pending.
+    - *IA-PACS-CFS and EXTINCT*: Two sham-controlled immunoadsorption
+        RCTs completed (n=66 and n=63); results pending as of April 2026.
+        Will be the first placebo-controlled tests of autoantibody removal
+        in ME/CFS.
+    - *Anft et al.\ 2025*: Independent-centre IA study (n=12) showed
+        autoantibody elimination but non-significant symptom improvement
+        @Anft2025immunoadsorption; rebound within 1 month.
+    - *IMPACT trial*: First study measuring memory B-cell dynamics
+        after IA (n=50, recruiting); may explain relapse mechanism.
 
 // =============================================================================
 
