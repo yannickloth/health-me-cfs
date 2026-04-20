@@ -3434,3 +3434,196 @@ Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipel
 ) <tab:registry-ia-trials>
 ] // end landscape page
 
+=== Entries Added 2026-04-20: Architecture C Reserve Builder Stack
+
+Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d); BH4 recycling support section (Ch.16); @DelRosso2026ironNeurodevelopmental.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Reserve Builder Stack Targeting Upstream Bottlenecks],
+    [S], [0.30],
+    [The combined upstream approach --- iron status, BH4 recycling, antioxidant protection, phosphocreatine buffering, and neurotransmitter cofactors --- produces greater cognitive and energy improvement in neurodivergent ME/CFS patients than standard mitochondrial protocols targeting only ETC throughput. (a) Reserve Builder stack outperforms CoQ10 + NADH + D-ribose on cognitive fatigue measures in neurodivergent ME/CFS. (b) Effect size is larger in patients with baseline ferritin $< 50$ ng/mL or documented ADHD.],
+    [Crossover RCT ($n = 40$, neurodivergent ME/CFS): 8 weeks Reserve Builder stack vs 8 weeks standard CoQ10 + NADH + D-ribose. Primary endpoint: cognitive fatigue (CFQ). Individual components have moderate evidence; the combination is untested. Not yet replicated.],
+    [Ch.16 @spec:reserve-builder-stack],
+  ),
+  caption: [Architecture C Reserve Builder Stack (2026-04-20): one speculation on upstream bottleneck targeting in neurodivergent ME/CFS. Complements standard ETC-targeting protocols. Motivated by Architecture C metabolic reserve predisposition framework.],
+  kind: table,
+) <tab:registry-reserve-builder-stack>
+] // end landscape page
+
+=== Entries Added 2026-04-20: Architecture C Brainstorm Development
+
+Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d) brainstorm expansion; treatment implications (Ch.15, Ch.16, Ch.17, Ch.18, Ch.19, Ch.20).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (2.2fr, 0.5fr, 0.5fr, 2.5fr, 2fr, 1.3fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Focal PEM Threshold],
+    [S], [0.25],
+    [Cognitive exertion alone triggers PEM independently of physical effort; prefrontal metabolic markers predict cognitive PEM threshold.],
+    [No formal study; testable with neuroimaging + actigraphy.],
+    [Ch.14d @spec:focal-pem-threshold],
+
+    [Pre-Pandemic Biobank Two-Hit Test],
+    [P], [---],
+    [Compound low-reserve markers predict ME/CFS conversion; neurodivergent Long COVID patients convert at higher rates.],
+    [UK Biobank, ALSPAC, RECOVER, DecodeME data exist.],
+    [Ch.14d @pred:two-hit-biobank-test],
+
+    [Neurodivergent Mitochondria: Constitutional Lower Capacity],
+    [S], [0.20],
+    [ND muscle biopsies show lower maximal and spare respiratory capacity; different Complex I/II ratios vs neurotypical controls.],
+    [No study comparing isolated mitochondrial function ND vs NT.],
+    [Ch.14d @spec:neurodivergent-mito-genetic],
+
+    [Stimulant + Pacing Interaction],
+    [P], [---],
+    [Strict pacers on stimulants show lower PEM frequency; activity-escalators on stimulants show higher PEM frequency.],
+    [No trial stratifying by pacing adherence.],
+    [Ch.14d @pred:stimulant-pacing-interaction],
+
+    [Progressive Reserve Erosion with Age],
+    [S], [0.20],
+    [ADHD adults show faster prefrontal FDG-PET decline; higher mtDNA mutation burden at matched ages vs neurotypical controls.],
+    [No longitudinal metabolic imaging in ADHD; mtDNA testable in biobanks.],
+    [Ch.14d @spec:progressive-reserve-erosion],
+
+    [ME/CFS as Hysteretic Phase Transition],
+    [S], [0.30],
+    [System cannot return to healthy attractor by removing trigger alone; treatment requires breaking feed-forward cycle.],
+    [Testable with longitudinal metabolic imaging during/after infection.],
+    [Ch.14d @spec:mecfs-phase-transition],
+
+    [Sapropterin for ME/CFS],
+    [S], [0.30],
+    [GCH1-stratified ME/CFS patients show cognitive and orthostatic improvement on BH4 supplementation.],
+    [Crossover trial $n = 20$ GCH1-stratified; zero ME/CFS data currently.],
+    [Ch.18 @spec:sapropterin-mecfs],
+
+    [Methylphenidate + Pacing Protocol],
+    [S], [0.40],
+    [Compliant pacers on MPH show lower PEM vs untreated; critical outcome is PEM frequency, not fatigue score.],
+    [Crossover trial $n = 30$ ADHD+ME/CFS with pacing diary.],
+    [Ch.18 @spec:methylphenidate-pacing-protocol],
+
+    [Higher Ferritin Targets for ND ME/CFS],
+    [S], [0.50],
+    [Ferritin $> 100$ ng/mL target improves fatigue and cognition in ND ME/CFS with baseline ferritin 30--100 ng/mL.],
+    [Pragmatic RCT $n = 60$ ME/CFS+ND; $> 100$ vs $> 30$ ng/mL target.],
+    [Ch.18 @spec:iron-repletion-higher-target],
+
+    [Solriamfetol for ND ME/CFS],
+    [S], [0.35],
+    [DNRI improves cognitive reserve without amphetamine depletion risk in neurodivergent ME/CFS.],
+    [Trial in ADHD+ME/CFS measuring PEM + cognition with pacing diary.],
+    [Ch.15 @spec:solriamfetol-neurodivergent-mecfs],
+
+    [Memantine as Demand-Side Reserve Intervention],
+    [S], [0.20],
+    [Low-dose memantine reduces baseline neural metabolic cost via NMDA antagonism, preserving reserve.],
+    [Case reports exist; no controlled ME/CFS data.],
+    [Ch.18 @spec:memantine-demand-reduction],
+
+    [OTC BH4 Recycling Support],
+    [S], [0.25],
+    [Folinic acid + vitamin C + iron improves neopterin:biopterin ratio in ME/CFS patients.],
+    [Pre/post biomarker study; all components OTC and available.],
+    [Ch.16 @spec:otc-bh4-recycling],
+
+    [Reserve Builder Stack],
+    [S], [0.30],
+    [6-component upstream stack outperforms standard CoQ10 + NADH + D-ribose on cognitive fatigue in ND ME/CFS.],
+    [Crossover trial $n = 40$ ND ME/CFS vs standard protocol.],
+    [Ch.16 @spec:reserve-builder-stack],
+
+    [ADHD Cognitive Pacing Protocol],
+    [S], [0.35],
+    [Externally-enforced timer-based pacing reduces cognitive PEM frequency in ADHD+ME/CFS.],
+    [No evidence; combines ADHD and ME/CFS pacing literature.],
+    [Ch.17 @spec:adhd-cognitive-pacing],
+
+    [POTS Management as Cognitive Reserve],
+    [S], [0.30],
+    [Perfusion optimization reduces cognitive PEM frequency; ASL-MRI as endpoint.],
+    [Standard POTS treatment; not tested for cognitive PEM specifically.],
+    [Ch.17 @spec:pots-cognitive-reserve],
+
+    [Sleep Optimization as Reserve Recovery],
+    [S], [0.45],
+    [ND-adapted sleep protocol slows reserve erosion; PBMC spare respiratory capacity improves over 3 months.],
+    [Actigraphy + PBMC respirometry over 3 months.],
+    [Ch.17 @spec:sleep-reserve-recovery],
+
+    [Severity-Stratified Reserve Protocol],
+    [S], [0.25],
+    [Tiered protocol (severe/moderate/mild) reduces PEM across severity levels vs uniform approach.],
+    [Pragmatic trial $n = 60$, 3 arms, 6-month follow-up.],
+    [Ch.19 @spec:severity-stratified-reserve-protocol],
+
+    [Parkinson's: Terminal Reserve Depletion],
+    [S], [0.15],
+    [ND individuals show earlier or later PD onset (direction uncertain due to competing mechanisms).],
+    [PD registries + neurodevelopmental history cross-reference.],
+    [Ch.14d @spec:parkinsons-reserve-depletion],
+
+    [Alzheimer's: Compounded Glymphatic Failure],
+    [S], [0.15],
+    [ND ME/CFS patients show faster cognitive decline and lower CSF A$beta$42 vs ME/CFS-only controls.],
+    [Longitudinal cognitive testing + CSF biomarkers.],
+    [Ch.14d @spec:alzheimers-glymphatic-compound],
+
+    [Bipolar: Reserve Threshold Oscillation],
+    [S], [0.20],
+    [ME/CFS onset clusters after depressive episodes; infection during depressive phase carries higher ME/CFS risk.],
+    [Bipolar registries with infection and ME/CFS outcome records.],
+    [Ch.14d @spec:bipolar-reserve-oscillation],
+
+    [Fibromyalgia: Self-Amplifying Metabolic Cost],
+    [S], [0.35],
+    [Central sensitization $arrow.r$ $uparrow$ATP demand $arrow.r$ $downarrow$reserve $arrow.r$ $uparrow$sensitization loop is self-sustaining.],
+    [Individual links documented; feed-forward loop as a whole untested.],
+    [Ch.14d @spec:fibromyalgia-metabolic-amplification],
+
+    [Depression: BH4 Bidirectional Loop],
+    [S], [0.25],
+    [BH4 + SSRI $>$ SSRI alone in low-BH4 depressed ME/CFS; BH4 status predicts SSRI response.],
+    [Trial combining BH4 supplementation + SSRI in ME/CFS with depression.],
+    [Ch.14d @spec:depression-bh4-bidirectional],
+
+    [Composite Metabolic Reserve Score],
+    [S], [0.20],
+    [MRS predicts ME/CFS risk and guides treatment stratification; simplified version (ferritin + VO2max + ND) is pilotable now.],
+    [Simplified version pilotable immediately; full MRS requires prospective cohort.],
+    [Ch.20 @spec:metabolic-reserve-score],
+
+    [Neopterin:Biopterin Screening Biomarker],
+    [S], [0.40],
+    [Elevated ratio across ALL predisposing conditions (ADHD, ASD, hEDS, GCH1), not only post-infection.],
+    [$tilde$\$30--50/test at specialty labs; available now.],
+    [Ch.20 @spec:neopterin-biopterin-screen],
+
+    [Tiered Pre-Infection Screening],
+    [S], [0.30],
+    [Tier 1--3 screening identifies highest-risk ND patients pre-infection; Tier 1 implementable today.],
+    [Tier 1 implementable today; Tier 2 specialist; Tier 3 research only.],
+    [Ch.20 @spec:pre-infection-screening],
+  ),
+  caption: [Entries added 2026-04-20: Architecture C metabolic reserve brainstorm development.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-20-brainstorm>
+] // end landscape page
+
