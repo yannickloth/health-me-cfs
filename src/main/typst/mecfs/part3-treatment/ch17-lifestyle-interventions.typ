@@ -172,7 +172,21 @@ Circadian rhythm disruption is common in ME/CFS and contributes to the delayed s
     - *Fixed wake time*: A consistent morning wake time (within 30 minutes) is the single most powerful circadian anchor, more important than a fixed bedtime
     - *Gradual schedule shifting*: Patients with severely delayed sleep phase should advance their schedule by 15 minutes every 3–5 days rather than attempting abrupt changes
     - *Avoid compensatory sleeping*: Sleeping late after a bad night perpetuates the cycle. Brief daytime rest (20–30 minutes, before 14:00) is preferable to extended morning sleep
-    - *Napping guidelines*: Short naps (20–30 minutes) can restore function without disrupting nighttime sleep. Naps longer than 45 minutes or after 15:00 may worsen sleep onset
+    - *Napping guidelines*: See nap management below
+
+==== Nap Management in ME/CFS
+<sec:nap-management>
+
+Naps in ME/CFS do not function like naps in healthy fatigue. The mechanisms that make healthy naps restorative --- adenosine clearance, brief entry into light sleep stages, rapid return to alertness --- are all impaired in ME/CFS (Section @sec:nap-paradox). Nap guidance must therefore aim at harm reduction rather than restoration:
+
+    - *Timing*: Early afternoon (13:00--15:00), aligned with the natural post-prandial circadian dip in alertness. Late naps (after 16:00) risk shifting the already-fragile circadian phase, delaying nighttime sleep onset, and reducing overnight slow-wave sleep @Tassi2000sleepInertia
+    - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section @sec:ch15-adenosine)
+    - *Horizontal rest without sleep has independent value*: Lying down reduces cardiac preload demands (critical for patients with orthostatic intolerance), decreases skeletal muscle energy expenditure, and may improve cerebral perfusion. Patients who "nap without sleeping" should not consider the time wasted
+    - *Avoid fighting the nap*: Pushing through exhaustion to "save sleep for tonight" often costs more metabolically than a brief timed rest. The energy expenditure of forcing a depleted system to remain upright and active typically exceeds the circadian cost of a short early-afternoon rest
+    - *Set an alarm*: Uncontrolled nap duration is the primary risk. A 20-minute alarm prevents entry into slow-wave sleep and the associated amplified sleep inertia
+    - *Monitor for PEM-masking*: Afternoon sleepiness that follows unusual exertion may be the prodrome of post-exertional malaise rather than ordinary fatigue. If the nap is driven by activity from the previous 24--72 hours, pacing assessment is more appropriate than sleep
+
+Observational evidence suggests that afternoon napping in CFS is associated with worse objective cognitive performance @Gotts2015napCFS, though the causal direction is uncertain (napping may reflect severity rather than cause impairment).
 
 === Light Exposure Management
 
@@ -695,14 +709,64 @@ Structured relaxation practices reduce sympathetic activation and may improve au
     - *Guided imagery*: Audio-guided visualization of calming scenes. Requires minimal physical energy and can be used during rest periods. Available as smartphone apps or recordings designed for chronic illness populations
     - *Autogenic training*: Self-directed relaxation using verbal cues for warmth and heaviness in the limbs. May improve peripheral circulation and reduce autonomic hyperreactivity
 
-=== Meditation and Mindfulness
+=== Meditation, Mindfulness, and Sensory Rest
+<sec:meditation-rest>
 
-Mindfulness-based approaches have demonstrated efficacy for chronic pain, fatigue, and psychological distress in related conditions (fibromyalgia, chronic pain), though ME/CFS-specific evidence is limited:
+The central principle for meditation and rest practices in ME/CFS is that _cognitive effort draws from the same limited energy reserve as physical effort_ @OConnor2019energyEnvelope. Practices must therefore be evaluated not by their label (meditation, yoga, mindfulness) but by their metabolic cost: passive, receptive practices that reduce CNS activation load are potentially beneficial; effortful practices requiring sustained concentration constitute cognitive exertion and can trigger PEM with 24--72 hour delay.
 
-    - *Adapted mindfulness*: Standard mindfulness-based stress reduction (MBSR) programs require 45 minutes of daily practice and regular group attendance, which exceeds the capacity of many ME/CFS patients. Adapted versions using 5–15 minute sessions, audio guidance, and remote participation are more appropriate
-    - *Body scan meditation*: A lying-down practice that cultivates awareness of bodily sensations without attempting to change them. May help patients develop a more accepting relationship with symptoms and reduce the distress amplification that accompanies chronic illness
-    - *Acceptance and commitment therapy (ACT)*: A mindfulness-based psychotherapy particularly suited to ME/CFS because it focuses on living meaningfully within limitations rather than striving to eliminate symptoms. Preliminary evidence suggests benefit for quality of life in chronic fatigue conditions
-    - *Cautions*: Meditation can occasionally increase distress in patients with trauma histories or severe anxiety. Concentration-based practices may trigger cognitive PEM. Patients should start with very brief sessions and use guided approaches rather than unstructured meditation
+==== Evidence: Mind-Body Interventions in ME/CFS
+
+A systematic review of 12 studies (7 RCTs) evaluating mind-body interventions in ME/CFS --- including MBSR, MBCT, relaxation training, Qigong, and isometric yoga --- found that 9 of 12 reported fatigue improvement and 8 of 12 showed anxiety/depression reduction @KhanpourArdestani2021mindBody. Meta-analysis of mindfulness-based therapies across somatisation disorders (including CFS) showed a small-to-moderate effect on symptom severity (SMD $= -0.40$) and quality of life (SMD $= 0.39$) @Lakhan2013MBT. A controlled study of a 10-week MBSR program in women with CFS, fibromyalgia, and multiple chemical sensitivity ($n = 76$) found statistically significant improvements maintained at 3-month follow-up @Sampalli2009MBSR.
+
+#limitation(title: [Mind-Body Evidence Limitations])[
+All studies suffer from heterogeneous diagnostic criteria, small samples, and high risk of bias @KhanpourArdestani2021mindBody @Merkes2010MBSR. No study distinguished whether benefit derives from the _rest component_ (lying during body scan, reduced activity), the _cognitive mindfulness component_, or _social contact_ in group formats. Adverse event tracking is absent in most studies, meaning PEM exacerbation from cognitive demands may be underreported.
+]
+
+==== Isometric Yoga: The Best-Evidenced Adapted Form
+
+Isometric yoga --- static muscle contractions _without joint movement_, performed seated or lying down --- avoids the aerobic demand, balance challenge, and orthostatic stress of conventional yoga. Three studies from Oka and colleagues provide the most rigorous evidence for a mind-body practice adapted to ME/CFS:
+
+    - *Seated isometric yoga (RCT):* In 30 therapy-resistant CFS patients (Fukuda criteria), biweekly supervised sessions plus daily home practice over 2 months reduced Chalder Fatigue Scale scores from 25.9 $plus.minus$ 6.1 to 19.2 $plus.minus$ 7.5 ($p = 0.002$) in the yoga group versus no change in controls @Oka2014isometricYoga
+    - *Recumbent format for severe ME/CFS:* A pilot study ($n = 12$) adapted isometric yoga to a fully recumbent (lying down) format for patients too ill to sit, showing significant fatigue reduction with no PEM exacerbation --- critical safety data for the most vulnerable patients @Oka2017recumbentYoga
+    - *Mechanistic profile:* Single-session measurements in 15 CFS patients showed that isometric yoga produces the _opposite_ physiological signature from exercise-induced PEM: decreased cortisol, decreased TNF-$alpha$, increased DHEA-S, enhanced vagal tone (HF-HRV increase), and reduced heart rate @Oka2018yogaMechanisms. This parasympathetic-shift and anti-inflammatory profile distinguishes isometric yoga from aerobic exertion at the biomarker level
+
+(Replication status: Partially replicated --- three studies from the same research group in Japan, using different designs but consistent methodology. Independent replication by other centres needed.)
+
+==== Passive and Low-Effort Practices
+
+The following practices require minimal cognitive effort and can be performed lying down:
+
+    - *Body scan meditation:* A lying-down practice cultivating receptive awareness of bodily sensations without attempting to change them. Unlike concentration meditation, body scan is _receptive_ rather than effortful --- the practitioner observes sensations as they arise rather than directing or sustaining attention. May help patients develop acceptance of symptoms and reduce distress amplification
+    - *Yoga nidra:* "Yogic sleep" --- a guided practice performed supine in which the practitioner follows audio instructions to rotate awareness through body parts, observe the breath, and rest in a state between waking and sleeping. Requires no physical movement and minimal cognitive engagement beyond following simple verbal cues
+    - *Sensory rest / stimulus withdrawal:* Deliberately reducing sensory input --- lying in a darkened, quiet room without screens, conversation, or auditory stimulation. For patients with sensory overload (common in ME/CFS), this is not passive avoidance but active recovery: reducing the CNS processing load allows reallocation of limited metabolic resources toward restorative processes. Earplugs, eye masks, and weighted blankets can enhance sensory reduction
+    - *Acceptance and commitment therapy (ACT):* A mindfulness-based psychotherapy particularly suited to ME/CFS because it focuses on living meaningfully within limitations rather than striving to eliminate symptoms. Preliminary evidence suggests benefit for quality of life in chronic fatigue conditions
+
+==== Horizontal Rest Without Sleep
+<sec:horizontal-rest>
+
+Lying down without sleeping has independent physiological value for ME/CFS patients that is distinct from napping:
+
+    - *Cardiovascular unloading:* Supine position eliminates the gravitational challenge to venous return that orthostatic intolerance makes so costly. Cardiac preload normalises, cerebral perfusion improves, and the sympathetic compensatory drive that consumes metabolic resources during upright posture is reduced
+    - *Skeletal muscle rest:* Even quiet sitting requires continuous postural muscle activation. Lying down eliminates this ongoing energy expenditure --- a meaningful savings in patients operating at the margins of their energy envelope
+    - *Not wasted time:* Patients who rest horizontally without falling asleep should not consider the time unproductive. The physiological benefits (reduced cardiac demand, improved cerebral perfusion, decreased sympathetic activation) accrue regardless of whether sleep occurs. This reframing is important: guilt about "not sleeping during rest" adds cognitive stress that undermines the rest itself
+
+#warning-env(title: [What NOT to Do: Meditation and Rest Pitfalls in ME/CFS])[
+<warn:ch17-meditation-pitfalls>
+
+*Standard MBSR programs:* The standard mindfulness-based stress reduction format requires 2.5 hours per week of group attendance plus 45 minutes per day of home practice. This represents a substantial cognitive and scheduling commitment that likely exceeds the energy envelope of moderate-to-severe ME/CFS patients. No study has tracked PEM exacerbation rates from standard MBSR in ME/CFS.
+
+*Concentration meditation:* Practices requiring sustained focused attention (mantra repetition, single-point focus, counting breaths with mental tracking) constitute cognitive exertion. Even 10--15 minutes of effortful concentration can trigger cognitive PEM in severely ill patients. Prefer _receptive_ practices (body scan, yoga nidra) over _concentrative_ practices.
+
+*Meditation retreats:* Retreat formats impose fixed schedules (early rising, multiple sessions, meal times, group activities) that are incompatible with ME/CFS pacing requirements. The combination of travel, schedule disruption, social obligation, and sustained practice duration makes meditation retreats a high-risk activity for PEM.
+
+*Movement-combined practices:* Standard yoga, Tai Chi, Qigong, and walking meditation combine physical exertion with cognitive engagement --- a dual metabolic demand. While adapted seated/recumbent forms may be appropriate (see isometric yoga above), standard group classes with standing poses, balance challenges, and instructor-paced sequences should be treated as exercise, not rest.
+
+*Long naps ($>$ 60 minutes):* Extended daytime sleep risks entry into slow-wave sleep, producing prolonged sleep inertia (2--4 hours in ME/CFS versus 15--30 minutes in health) that eliminates any restorative benefit @Tassi2000sleepInertia. Late-afternoon naps (after 16:00) additionally shift the circadian phase, delay nighttime sleep onset, and reduce overnight slow-wave sleep --- the very sleep stage most critical for glymphatic clearance (Section @sec:ch15-glymphatic). See Section @sec:nap-management for safe nap parameters.
+
+*Excessive horizontal rest without activity:* While horizontal rest has physiological value (see above), complete inactivity over weeks to months carries secondary risks: cardiovascular deconditioning (worsening orthostatic intolerance), muscle mass loss (accelerating functional decline), and reduced circadian entrainment (weakening the light-dark cycle that anchors sleep timing). The goal is structured rest integrated with minimal sustainable activity --- not perpetual bed rest. See Section @sec:klimas-program for the structured reconditioning approach that balances rest with brief activity bouts.
+
+*Hyperventilation-inducing practices:* Prolonged deep breathing exercises, extended breath-holds, or vigorous pranayama can trigger respiratory alkalosis and autonomic destabilisation. Brief, gentle diaphragmatic breathing (Section @sec:breathing-co2) is appropriate; extended breathwork protocols are not.
+]
 
 === Biofeedback
 
