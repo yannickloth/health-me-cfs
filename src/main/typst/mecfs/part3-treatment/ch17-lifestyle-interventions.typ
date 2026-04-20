@@ -236,7 +236,7 @@ Protocol targeting Architecture C sleep barriers:
 + *No cognitive engagement 2 hours before sleep.* The ADHD "bedtime revenge procrastination" pattern — using evening hours for stimulating activities to compensate for the day's constraints — directly depletes the reserve meant to be recovered during sleep.
 + *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients.
 
-#speculation(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
+#hypothesis(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
 If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
 ] <spec:sleep-reserve-recovery>
 

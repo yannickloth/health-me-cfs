@@ -1094,12 +1094,11 @@ _Risk:_ Low if monitored. Iron overload risk managed with transferrin saturation
 The $> 100$ ng/mL target derives from ADHD clinical practice and expert opinion, not from ME/CFS randomised trials. Standard haematological thresholds ($> 30$ ng/mL) are sufficient to exclude iron deficiency anaemia. The higher target is based on the rationale that neurodivergent brains require more iron for dopamine synthesis, but this threshold has not been validated for ME/CFS outcomes. Iron supplementation above standard thresholds should be discussed with a physician.
 ]
 
-#speculation(title: [Higher Ferritin Targets for Neurodivergent ME/CFS])[
-<spec:iron-repletion-higher-target>
+#hypothesis(title: [Higher Ferritin Targets for Neurodivergent ME/CFS])[
 *Certainty: 0.50*
 
 Iron repletion to ferritin $> 100$ ng/mL in neurodivergent ME/CFS patients with baseline ferritin $30$–$100$ ng/mL should improve both fatigue scores and cognitive function by simultaneously augmenting mitochondrial capacity and dopaminergic efficiency. This is the most immediately actionable prediction from Architecture C: cheap (~\$5–15/month oral), widely available, well-tolerated, and measurable via routine blood tests. A pragmatic RCT ($n = 60$, ME/CFS + neurodivergent, ferritin $30$–$100$) randomising aggressive repletion (target $> 100$) vs standard care (target $> 30$) with 6-month follow-up on fatigue, cognitive function, and PEM frequency would be definitive. Not yet replicated — no ME/CFS-specific trial targeting higher ferritin thresholds exists. @DelRosso2026ironNeurodevelopmental
-]
+] <spec:iron-repletion-higher-target>
 
 == Unified Autonomic Treatment Approach
 <subsec:unified-autonomic>

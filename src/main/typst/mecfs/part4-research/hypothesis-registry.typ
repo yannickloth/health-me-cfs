@@ -3521,7 +3521,7 @@ Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d)
     [Ch.18 @spec:methylphenidate-pacing-protocol],
 
     [Higher Ferritin Targets for ND ME/CFS],
-    [S], [0.50],
+    [H], [0.50],
     [Ferritin $> 100$ ng/mL target improves fatigue and cognition in ND ME/CFS with baseline ferritin 30--100 ng/mL.],
     [Pragmatic RCT $n = 60$ ME/CFS+ND; $> 100$ vs $> 30$ ng/mL target.],
     [Ch.18 @spec:iron-repletion-higher-target],
@@ -3563,7 +3563,7 @@ Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d)
     [Ch.17 @spec:pots-cognitive-reserve],
 
     [Sleep Optimization as Reserve Recovery],
-    [S], [0.45],
+    [H], [0.45],
     [ND-adapted sleep protocol slows reserve erosion; PBMC spare respiratory capacity improves over 3 months.],
     [Actigraphy + PBMC respirometry over 3 months.],
     [Ch.17 @spec:sleep-reserve-recovery],
