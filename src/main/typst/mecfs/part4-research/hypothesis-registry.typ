@@ -3627,3 +3627,88 @@ Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d)
 ) <tab:hypothesis-registry-2026-04-20-brainstorm>
 ] // end landscape page
 
+=== Entries Added 2026-04-20: Retrospective Prodromal Signs
+
+Motivated by: Wirth 2026 (N=36,332 ICD pre-diagnostic data), Collin 2018 (ALSPAC prospective sleep data), clinical pattern recognition of subclinical energy deficit in children and adults before ME/CFS diagnosis.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Retrospective Prodromal Syndrome as Subclinical Metabolic Reserve Depletion],
+    [S], [0.40],
+    [Clinical vignettes (overtrained-but-unfit, late-game fader, always-tired high performer, unexplained tremor, cold extremities) represent unified subclinical energy deficit preceding ME/CFS by years. Predicts: (a) pre-illness CPET shows reduced VO#sub[2]max relative to training volume, (b) siblings show subclinical exercise intolerance, (c) school absence records elevated 3--5 years before Dx.],
+    [Retrospective wearable data analysis; sibling CPET studies; school record linkage. Wirth 2026 ICD data (N=36,332) supports 5-year pre-diagnostic window. Not yet prospectively validated.],
+    [Ch.5 @spec:prodromal-syndrome],
+
+    [Prospective Validation of ME/CFS Prodromal Signs],
+    [OQ], [---],
+    [Can prodromal signs be validated prospectively? What sensitivity/specificity? Can early intervention prevent progression? Are adult and pediatric prodromal patterns identical?],
+    [Children-of-ME/CFS-parents cohort with wearables + annual CPET. Birth cohort data mining (ALSPAC, Generation R). Intervention trial in identified prodromal individuals.],
+    [Ch.5 @oq:prodromal-validation],
+
+    [Adaptation Debt — Failed Mitochondrial Biogenesis Despite Training],
+    [S], [0.40],
+    [PGC-1$alpha$ signalling impaired → training stress accumulates without supercompensation. Pre-illness biopsies should show reduced biogenesis response to exercise.],
+    [Muscle biopsy + exercise challenge protocol in at-risk athletes. Rutherford 2016 consistent but post-diagnosis.],
+    [Ch.5 @spec:adaptation-debt],
+
+    [Cognitive Energy Cliff — Discrete Phase Transition in Brain ATP Allocation],
+    [S], [0.35],
+    [Brain exhibits abrupt (not linear) cognitive failure when ATP drops below threshold. fNIRS should show step-function prefrontal oxyHb decline.],
+    [fNIRS during dual-task paradigm in prodromal vs controls. Threshold detection in time series.],
+    [Ch.5 @spec:cognitive-cliff],
+
+    [Holiday Paradox — Sympathetic Withdrawal Unmasking Energy Deficit],
+    [H], [0.55],
+    [Rest-day crashes reflect catecholamine withdrawal unmasking true baseline. Weekday-to-weekend catecholamine drop should correlate with symptom severity.],
+    [Salivary cortisol + urinary catecholamines across weekday-weekend transitions. Wyller 2007 consistent.],
+    [Ch.5 @hyp:holiday-paradox],
+
+    [Puberty as Reserve-Depleting Event — Explaining Age 16 Peak],
+    [H], [0.45],
+    [Pubertal energy demand + reduced ceiling = catastrophic window. Earlier menarche, rapid growth velocity, iron deficiency should predict risk.],
+    [Retrospective ALSPAC analysis with pubertal timing variables. Iron status at puberty vs ME/CFS outcome.],
+    [Ch.5 @hyp:puberty-reserve-depletion],
+
+    [Overtraining Syndrome as Recoverable ME/CFS],
+    [S], [0.50],
+    [OTS = same mechanism pre-hysteresis. OTS athletes should have >5$times$ ME/CFS risk over 10 years.],
+    [Longitudinal follow-up of documented OTS athletes. Shared biomarker profiles documented.],
+    [Ch.5 @spec:overtraining-recoverable-mecfs],
+
+    [RED-S as Gender-Specific Prodrome],
+    [S], [0.45],
+    [RED-S simultaneously reduces ceiling AND exceeds it. RED-S athletes should have elevated ME/CFS incidence post-infection.],
+    [Longitudinal ME/CFS tracking in RED-S populations. Dose-dependent severity correlation.],
+    [Ch.5 @spec:reds-prodrome],
+
+    [Burnout-to-ME/CFS Pipeline — Allostatic Overload as Adult Prodrome],
+    [S], [0.40],
+    [Burnout = adult version of chronic reserve depletion. Post-infection ME/CFS should be >3$times$ rate in burnout cohort.],
+    [Prospective burnout cohort (Maslach) with post-infection ME/CFS tracking. PBMC respirometry intermediate.],
+    [Ch.5 @spec:burnout-pipeline],
+
+    [Training Ratio Protocol for Prodromal Athletes],
+    [S], [0.55],
+    [HRV-gated sub-threshold training preserves biogenesis without ceiling breach. Should yield equivalent fitness with zero crashes.],
+    [RCT: Training Ratio Protocol vs conventional coaching × 12 months in at-risk athletes.],
+    [Ch.5 @spec:training-ratio-protocol],
+
+    [Prodromal Recognition Education Reduces Diagnostic Delay],
+    [P], [0.65],
+    [Education targeting coaches, school nurses, paediatricians should reduce time-to-referral by >12 months.],
+    [School-based intervention study. Current delay 4–8 years; 40% error rate (Geraghty 2019).],
+    [Ch.5 @pred:prodromal-education],
+  ),
+  caption: [Entries added 2026-04-20: Retrospective prodromal signs of ME/CFS.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-20-prodromal>
+] // end landscape page
+

@@ -12,7 +12,7 @@ Pacing is the most evidence-based and universally recommended non-pharmacologica
 
 ==== Conceptual Foundation
 
-The energy envelope theory, developed through patient advocacy and clinical observation, posits that ME/CFS patients have a limited daily “energy budget” beyond which exertion triggers PEM @Jason2008EnergyEnvelope. Exceeding this envelope results in:
+The energy envelope theory, developed through patient advocacy and clinical observation, posits that ME/CFS patients have a limited daily "energy budget" beyond which exertion triggers PEM @Jason2008EnergyEnvelope. Exceeding this envelope results in:
 
     - Symptom exacerbation within 12–48 hours
     - Prolonged recovery periods (days to weeks)
@@ -47,7 +47,7 @@ For example, a patient with AT of 115 bpm would aim to keep activity-related hea
 
 Many ME/CFS patients exhibit a maladaptive pattern:
 
-    - *“Good day”*: Feeling relatively better, patient attempts normal or compensatory activity
+    - *"Good day"*: Feeling relatively better, patient attempts normal or compensatory activity
     - *Overexertion*: Exceeds energy envelope, often unknowingly
     - *Crash (PEM)*: Severe symptom exacerbation 12–72 hours later
     - *Extended recovery*: Days to weeks of reduced function
@@ -55,7 +55,7 @@ Many ME/CFS patients exhibit a maladaptive pattern:
 
 This pattern prevents stabilization and may contribute to progressive worsening. Breaking the cycle requires:
 
-    - Consistent activity limits even on “good days”
+    - Consistent activity limits even on "good days"
     - Recognition that feeling better does not mean capacity has increased
     - Pre-planned rest periods regardless of symptom level
     - Objective monitoring (heart rate, step counts) to override subjective assessment
@@ -144,7 +144,7 @@ In healthy individuals, meals trigger 10–30% increase in splanchnic blood flow
     - *Supine positioning during eating*: Where practical and safe, consuming meals while lying semi-recumbent or with head elevated can reduce orthostatic stress
     - *Wheat-specific timing*: If trialing wheat elimination, monitor post-prandial symptoms specifically. Wheat meals may show larger post-prandial symptom exacerbation (due to zonulin-mediated barrier stress under ischemic conditions) compared to wheat-free meals of equivalent caloric content
 
-*Integration with Pacing:* Recognize that meals constitute a form of physiological “activity” requiring metabolic and autonomic resources. Budget meal-related energy demands into daily activity planning, scheduling rest periods to coincide with post-prandial periods.
+*Integration with Pacing:* Recognize that meals constitute a form of physiological "activity" requiring metabolic and autonomic resources. Budget meal-related energy demands into daily activity planning, scheduling rest periods to coincide with post-prandial periods.
 
 Individual responses vary widely; objective symptom tracking (postprandial fatigue, cognitive fog, or gastrointestinal symptoms at 0.5, 1, 2, and 4 hours post-meal) is recommended to identify optimal meal patterns.
 
@@ -181,7 +181,7 @@ The sleep environment should minimize sensory stimulation and support temperatur
     - *Temperature*: Maintain 18–20°C. ME/CFS patients with autonomic dysfunction often have impaired thermoregulation; cooling mattress pads and breathable bedding help compensate
     - *Noise*: White noise machines or earplugs for patients with sound sensitivity. Consistent background noise is preferable to intermittent disturbances
     - *Air quality*: HEPA air purifiers reduce allergen load that may worsen sleep through nasal congestion. Adequate ventilation without cold drafts
-    - *Screen-free zone*: Remove televisions, tablets, and smartphones from the bedroom. If a phone is needed for medical monitoring, use “do not disturb” mode with red-shifted display
+    - *Screen-free zone*: Remove televisions, tablets, and smartphones from the bedroom. If a phone is needed for medical monitoring, use "do not disturb" mode with red-shifted display
 
 === Sleep Schedule Consistency
 
@@ -221,28 +221,24 @@ A consistent pre-sleep routine signals the transition from wakefulness to sleep:
     - *Wind-down period*: 30–60 minutes of low-stimulation activities (gentle music, audiobooks, light reading). Avoid emotionally stimulating content, news, or social media
     - *Warm bath or shower*: A warm bath 1–2 hours before bed raises core body temperature; the subsequent cooling promotes sleep onset. A shower chair reduces the physical exertion
     - *Relaxation practices*: Guided relaxation recordings, breathing exercises, or body scan meditation can reduce the hyperarousal that interferes with sleep initiation in ME/CFS
-    - *Avoid cognitive stimulation*: Problem-solving, planning, or worrying close to bedtime activates the prefrontal cortex and delays sleep. A “worry journal” earlier in the evening can offload anxious thoughts
+    - *Avoid cognitive stimulation*: Problem-solving, planning, or worrying close to bedtime activates the prefrontal cortex and delays sleep. A "worry journal" earlier in the evening can offload anxious thoughts
 
 === Sleep Architecture Optimization as Metabolic Reserve Recovery
 <subsec:sleep-reserve-recovery>
 
-In the metabolic reserve model, sleep is when mitochondrial biogenesis and repair predominantly occur — the supercompensation phase that restores $R_”headroom”$ depleted during waking activity. Neurodivergent individuals have high rates of disordered sleep: ADHD (delayed sleep phase, reduced efficiency), ASD (melatonin deficiency, fragmented sleep). Poor sleep recovery means the daily repair cycle fails to restore $R_”headroom”$, leading to progressive reserve erosion (@spec:progressive-reserve-erosion).
+In the metabolic reserve model, sleep is when mitochondrial biogenesis and repair predominantly occur — the supercompensation phase that restores $R_"headroom"$ depleted during waking activity. Neurodivergent individuals have high rates of disordered sleep: ADHD (delayed sleep phase, reduced efficiency), ASD (melatonin deficiency, fragmented sleep). Poor sleep recovery means the daily repair cycle fails to restore $R_"headroom"$, leading to progressive reserve erosion (@spec:progressive-reserve-erosion).
 
 Protocol targeting Architecture C sleep barriers:
 
 + *Melatonin timing (0.3–0.5 mg, fixed time, 2 hours before target sleep).* Not higher doses, which may impair sleep architecture. The low-dose approach supports circadian entrainment rather than sedation.
 + *Blue light elimination 3 hours before sleep.* More aggressive than the standard 1-hour recommendation — necessary because neurodivergent circadian systems are typically more disrupted.
 + *Temperature optimization (18–20°C ambient).* Cool environment promotes slow-wave sleep, the phase most associated with mitochondrial repair processes.
-+ *No cognitive engagement 2 hours before sleep.* The ADHD “bedtime revenge procrastination” pattern — using evening hours for stimulating activities to compensate for the day's constraints — directly depletes the reserve meant to be recovered during sleep.
++ *No cognitive engagement 2 hours before sleep.* The ADHD "bedtime revenge procrastination" pattern — using evening hours for stimulating activities to compensate for the day's constraints — directly depletes the reserve meant to be recovered during sleep.
 + *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients.
 
-#speculation(
-  title: “Sleep Optimization as Metabolic Reserve Recovery Strategy”,
-  label: <spec:sleep-reserve-recovery>,
-  certainty: 0.45,
-)[
-  If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
-]
+#speculation(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
+If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
+] <spec:sleep-reserve-recovery>
 
 == Dietary Approaches
 <sec:dietary>
@@ -267,7 +263,7 @@ Several dietary patterns have theoretical relevance to ME/CFS, though none has b
     - *Low-histamine diet*: Relevant for the subgroup with mast cell activation syndrome (MCAS) or histamine intolerance (Section @sec:food-sensitivities-wheat). Restricts aged, fermented, and high-histamine foods (aged cheese, wine, fermented meats, canned fish). Response within 2–4 weeks suggests histamine involvement
     - *Low-FODMAP diet*: May benefit the 50–60% of ME/CFS patients with concurrent IBS symptoms. Reduces fermentable carbohydrates that cause gas, bloating, and diarrhea. Should be implemented with dietitian guidance through elimination and structured reintroduction phases
     - *Elimination diets*: Systematic removal and reintroduction of suspected trigger foods (dairy, gluten, soy, eggs) can identify individual sensitivities. Requires careful nutritional planning to avoid deficiencies during elimination phases
-    - *Ketogenic or low-carbohydrate diets*: Theoretical interest based on the metabolic shift away from glycolysis observed in ME/CFS. Some patients report improved cognitive function and energy stability. However, the ketogenic adaptation period (“keto flu”) can trigger PEM, and long-term safety in ME/CFS has not been studied. Not recommended without medical supervision
+    - *Ketogenic or low-carbohydrate diets*: Theoretical interest based on the metabolic shift away from glycolysis observed in ME/CFS. Some patients report improved cognitive function and energy stability. However, the ketogenic adaptation period ("keto flu") can trigger PEM, and long-term safety in ME/CFS has not been studied. Not recommended without medical supervision
 
 #limitation(title: [Dietary Evidence in ME/CFS])[
 No randomized controlled trial has demonstrated efficacy of any specific dietary pattern for ME/CFS. Current recommendations are extrapolated from mechanistic rationale, evidence in related conditions (fibromyalgia, IBS, autoimmune disease), and clinical experience. Individual responses vary substantially.
@@ -449,7 +445,7 @@ The 2011 PACE trial initially claimed benefits from GET and cognitive behavioral
 
 Major health authorities have since revised guidelines to *recommend against GET* for ME/CFS, including NICE (UK, 2021), CDC (USA, 2022), and others @NICE2021mecfs.
 
-Not all national bodies have followed suit. In Australia, the Royal Australian College of General Practitioners (RACGP) maintained a HANDI recommendation for “incremental physical activity” in ME/CFS until it was formally challenged in 2026. Stallard et al.\ demonstrated that the guideline scored only 2% on the AGREE II rigor domain, relied on the methodologically contested PACE trial and an outdated Cochrane review, and ignored patient surveys reporting 54–74% harm rates @Stallard2026handi. The authors called for immediate withdrawal and contraindication of GET pending the NHMRC's review of ME/CFS guidelines, recommending that Australian general practitioners refer to NICE and BMJ Best Practice guidelines in the interim.
+Not all national bodies have followed suit. In Australia, the Royal Australian College of General Practitioners (RACGP) maintained a HANDI recommendation for "incremental physical activity" in ME/CFS until it was formally challenged in 2026. Stallard et al.\ demonstrated that the guideline scored only 2% on the AGREE II rigor domain, relied on the methodologically contested PACE trial and an outdated Cochrane review, and ignored patient surveys reporting 54–74% harm rates @Stallard2026handi. The authors called for immediate withdrawal and contraindication of GET pending the NHMRC's review of ME/CFS guidelines, recommending that Australian general practitioners refer to NICE and BMJ Best Practice guidelines in the interim.
 
 *Two-Day CPET Evidence Against GET*
 
@@ -608,7 +604,7 @@ stratification: Wormgoor and Rodenburg (2021) found that any apparent
 treatment effect of exercise disappeared when stricter PEM-inclusive
 diagnostic criteria and objective outcome measures were
 applied @Wormgoor2021physio. This confirms that exercise interventions
-validated in broader “chronic fatigue” populations cannot be extrapolated to
+validated in broader "chronic fatigue" populations cannot be extrapolated to
 patients meeting full ME/CFS criteria with documented PEM.
 
 *Practical Adaptations by Comorbidity*
@@ -744,7 +740,7 @@ Psychological stress activates the hypothalamic–pituitary–adrenal (HPA) axis
 Structured relaxation practices reduce sympathetic activation and may improve autonomic balance:
 
     - *Diaphragmatic breathing*: Slow, deep abdominal breathing (4–6 breaths per minute) activates the vagus nerve and shifts autonomic balance toward parasympathetic dominance. Can be practiced lying down with minimal energy expenditure. Particularly helpful for patients with hyperventilation or orthostatic hypocapnia
-    - *Progressive muscle relaxation (PMR)*: Systematic tensing and releasing of muscle groups. The “release only” variant (focusing on relaxation without tensing) is preferred for ME/CFS patients, as even brief isometric contractions may trigger PEM in severe cases
+    - *Progressive muscle relaxation (PMR)*: Systematic tensing and releasing of muscle groups. The "release only" variant (focusing on relaxation without tensing) is preferred for ME/CFS patients, as even brief isometric contractions may trigger PEM in severe cases
     - *Guided imagery*: Audio-guided visualization of calming scenes. Requires minimal physical energy and can be used during rest periods. Available as smartphone apps or recordings designed for chronic illness populations
     - *Autogenic training*: Self-directed relaxation using verbal cues for warmth and heaviness in the limbs. May improve peripheral circulation and reduce autonomic hyperreactivity
 
@@ -971,11 +967,11 @@ Peer support provides validation, practical advice, and social connection that m
 
 === Counseling and Psychotherapy
 
-Psychotherapy in ME/CFS addresses the psychological consequences of chronic illness, not the illness itself. The distinction is critical: therapy is for coping with ME/CFS, not for “curing” it.
+Psychotherapy in ME/CFS addresses the psychological consequences of chronic illness, not the illness itself. The distinction is critical: therapy is for coping with ME/CFS, not for "curing" it.
 
     - *Acceptance and commitment therapy (ACT)*: Focuses on living a meaningful life within the constraints of illness rather than fighting symptoms. Particularly effective for adjustment to disability and chronic pain
     - *Cognitive behavioral therapy (CBT) — adapted*: CBT adapted for ME/CFS targets unhelpful thought patterns about illness (catastrophizing, all-or-nothing thinking) without implying that symptoms are psychologically caused. Critically, adapted CBT respects the energy envelope and does not encourage activity increases beyond physiological limits. Standard CBT protocols designed to increase activity (as in the PACE trial) are contraindicated
-    - *Grief counseling*: ME/CFS involves profound loss—of career, social roles, physical capacity, independence, and future plans. Processing this grief is essential and should not be dismissed as “depression”
+    - *Grief counseling*: ME/CFS involves profound loss—of career, social roles, physical capacity, independence, and future plans. Processing this grief is essential and should not be dismissed as "depression"
     - *Remote therapy*: Telephone or video therapy sessions reduce the energy cost of attending appointments. Many patients cannot tolerate in-person sessions, particularly during flares
 
 === Addressing Secondary Depression and Anxiety
@@ -994,7 +990,7 @@ Family members and caregivers are essential partners in ME/CFS management but of
     - *Disease education*: Provide family members with clear, evidence-based information about ME/CFS pathophysiology, PEM, and the energy envelope. Understanding that the illness is biological—not psychological or motivational—transforms the family dynamic
     - *Caregiver burnout*: Caregivers of ME/CFS patients are at high risk of burnout, particularly when the patient is severe and requires assistance with all activities of daily living. Caregiver support groups, respite care, and professional home care services should be utilized where available
     - *Communication strategies*: Teach patients and families to communicate about energy levels using concrete language (e.g., a 0–10 energy scale) rather than vague terms. This reduces misunderstandings about what the patient can and cannot do on a given day
-    - *Boundary setting*: Help families understand that encouraging the patient to “push through” or “try harder” is harmful. Support pacing decisions even when they limit family activities or social plans
+    - *Boundary setting*: Help families understand that encouraging the patient to "push through" or "try harder" is harmful. Support pacing decisions even when they limit family activities or social plans
 
 == Experimental Non-Pharmacological Approaches: Ion Channel Hypotheses
 <sec:experimental-nonpharm>

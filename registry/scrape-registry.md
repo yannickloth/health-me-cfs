@@ -227,3 +227,11 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/41749537/ | pubmed | 2026-04-20 | — | bib/staging — DelRosso2026ironNeurodevelopmental — iron deficiency ADHD/ASD comparative review |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11733788/ | PMC | 2026-04-20 | — | bib/staging — Quadt2024neurodivergentFatigue — neurodivergent traits IL-6 chronic disabling fatigue ALSPAC |
 | https://www.mdpi.com/2673-8112/6/1/1 | MDPI | 2026-04-20 | — | bib/staging — Raw2025neurodivergencePostCOVID — neurodivergence as post-COVID-19 risk factor n=267 HCWs |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12949141/ | PMC | 2026-04-20 | 2026-04-20 | bib/appendix-h — Wirth2026prodromalICD — ICD-10 pre-ME/CFS diagnoses children N=36,332 case-control |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC5974860/ | PMC | 2026-04-20 | 2026-04-20 | bib/appendix-h — Collin2018sleepCFS — childhood sleep predicts adolescent ME/CFS ALSPAC N=13,978 |
+| https://pubmed.ncbi.nlm.nih.gov/17606539/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Wyller2007thermoregCFS — thermoregulation abnormalities adolescent CFS sympathetic dysfunction |
+| https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2019.00012/full | frontiersin | 2026-04-20 | 2026-04-20 | bib/appendix-h — Chu2019onsetPatterns — onset patterns course ME/CFS N=150 prodromal |
+| https://pubmed.ncbi.nlm.nih.gov/38537312/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Moak2024SFNpediatric — SFN in pediatric POTS/OI 53% prevalence N=109 |
+| https://pubmed.ncbi.nlm.nih.gov/17088507/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Kato2006premorbid — premorbid predictors chronic fatigue Swedish twins N=19,192 |
+| https://pubmed.ncbi.nlm.nih.gov/25584529/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Jason2015CFSvsME — CFS vs sudden onset ME null result for universal prodrome N=285 |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC6348258/ | PMC | 2026-04-20 | 2026-04-20 | bib/appendix-h — Geraghty2019diagnosticAccuracy — diagnostic accuracy pediatric ME/CFS commentary 40% error rate |

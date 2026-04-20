@@ -9811,3 +9811,170 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - *Sample:* n=267
         - *Replication:* No
         - *Score:* 0.45
+
+// ============================================================
+// Prodromal signs / pre-illness indicators in children
+// ============================================================
+
+=== Wirth et al.\ 2026 --- Pre-ME/CFS ICD-10 Diagnoses in Children (N=36,332)
+
+    / *Full Citation:*: Wirth M, Haastert B, Linnenkamp U, et al. ICD-10 Diagnoses prior to ME/CFS diagnosis in children and young people suggest potential early diagnostic indicators. _Sci Rep_. 2026. @Wirth2026prodromalICD
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-026-40848-1")[10.1038/s41598-026-40848-1]
+    / *PMID:*: 41741569 | *PMC:* PMC12949141
+    / *Article Type:*: Retrospective matched case-control (health insurance claims)
+    / *Key Findings:*:
+        - n=6,077 pediatric ME/CFS cases matched 1:5 to 30,255 controls in German claims data 2020--2022
+        - 48 ICD-10 code classes significantly elevated before ME/CFS diagnosis
+        - Fatigue (OR 2.19), pain disorders (OR 1.55), somatoform disorders (OR 1.32), depression (OR 1.21), laryngopharyngitis (OR 1.15)
+        - Rare but strongly associated: post-COVID condition (OR 3.84), mild cognitive impairment (OR 2.93), fibromyalgia (OR 2.08)
+        - Pre-ME/CFS medical utilization window: up to 5 years before diagnosis
+    / *Conclusion:*: Pre-ME/CFS diagnoses in children span fatigue, pain, cognitive, and autonomic symptom clusters — consistent with multi-year prodromal phase of subclinical energy deficit.
+    / *Limitations:*: Observational; direction of causality not established. Pre-illness psychiatric codes (depression, somatoform) may be misattributed prodromal ME/CFS symptoms. Temporal window limited to 2020--2022 (overlaps COVID pandemic).
+    / *ME/CFS Relevance:*: Largest evidence base (N=36,332) for pre-illness symptom clustering in children. Directly supports Architecture C predisposition framework: subclinical dysfunction visible in claims data years before formal ME/CFS threshold.
+    / *Certainty Assessment:*:
+        - *Quality:* High (large N, matched design, administrative data)
+        - *Sample:* n=36,332
+        - *Replication:* Single study (2026); no independent replication yet
+        - *Score:* 0.70
+
+=== Collin et al.\ 2018 --- Childhood Sleep Predicts Adolescent ME/CFS (ALSPAC)
+
+    / *Full Citation:*: Collin SM, Norris T, Gringras P, et al. Childhood sleep and adolescent chronic fatigue syndrome (CFS/ME): evidence of associations in a UK birth cohort. _Sleep Med_. 2018;47:85--91. @Collin2018sleepCFS
+    / *DOI:*: #link("https://doi.org/10.1016/j.sleep.2018.01.005")[10.1016/j.sleep.2018.01.005]
+    / *PMID:*: 29773208 | *PMC:* PMC5974860
+    / *Article Type:*: Prospective birth cohort (ALSPAC)
+    / *Key Findings:*:
+        - n=13,978 children followed to age 18; 242 developed chronic disabling fatigue (CDF)
+        - Shorter nighttime sleep, difficulty falling asleep (OR 1.74), later bedtimes, more nocturnal awakenings
+        - Each extra hour of sleep at age 9 cut CDF odds at age 13 by 39%; at age 11 cut CDF odds at age 16 by 51%
+        - Sleep abnormalities precede CDF/ME/CFS by 4--7 years — a prospective prodromal signal
+    / *Conclusion:*: Childhood sleep disruption is a measurable precursor to adolescent ME/CFS, consistent with early autonomic dysregulation or shared pathophysiological cause.
+    / *Limitations:*: CDF definition may not fully align with strict ME/CFS criteria; mechanism of sleep-to-CFS pathway uncharacterized; general population sleep data, not specialist clinic.
+    / *ME/CFS Relevance:*: Strongest prospective prodromal evidence to date. A fatigued, sleep-disrupted child who "never feels rested" may be manifesting early autonomic dysregulation — not a behavioral problem. Supports early intervention window.
+    / *Certainty Assessment:*:
+        - *Quality:* High (prospective cohort, N=13,978, 18-year follow-up)
+        - *Sample:* n=13,978
+        - *Replication:* Within ALSPAC; independent replication needed
+        - *Score:* 0.65
+
+=== Wyller et al.\ 2007 --- Thermoregulatory Dysfunction in Adolescent CFS
+
+    / *Full Citation:*: Wyller VB, Godang K, Mørkrid L, et al. Abnormal thermoregulatory responses in adolescents with chronic fatigue syndrome: relation to clinical symptoms. _Pediatrics_. 2007;120(1):e129--e137. @Wyller2007thermoregCFS
+    / *DOI:*: #link("https://doi.org/10.1542/peds.2006-2759")[10.1542/peds.2006-2759]
+    / *PMID:*: 17606539
+    / *Article Type:*: Comparative clinical study
+    / *Key Findings:*:
+        - n=15 adolescent CFS patients (ages 12--18) vs 57 healthy controls
+        - Impaired peripheral vasoconstriction during cooling; vasoconstriction events at lower temperatures
+        - Elevated basal NE, epinephrine, HR — central sympathetic dysregulation
+        - Catecholamine cooling responses comparable to controls → central rather than peripheral defect
+        - Increased shivering, skin color changes, cold extremities reported
+    / *Conclusion:*: Cold extremities in adolescent ME/CFS reflect documentable sympathetic nervous system dysfunction, not benign circulatory variation.
+    / *Limitations:*: Very small n=15; single center; cross-sectional (at diagnosis, not before).
+    / *ME/CFS Relevance:*: Validates cold hands/feet as physiological marker of sympathetic dysregulation in adolescent ME/CFS. If autonomic dysfunction precedes full diagnosis (as OI literature suggests), persistent cold extremities + fatigue in a child is a plausible early flag.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (rigorous methods, very small N)
+        - *Sample:* n=15
+        - *Replication:* Sympathetic dysregulation in pediatric ME/CFS multi-study supported; specific thermoregulation protocol not widely replicated
+        - *Score:* 0.50
+
+=== Chu et al.\ 2019 --- Onset Patterns and Course of ME/CFS
+
+    / *Full Citation:*: Chu L, Valencia IJ, Garvert DW, Montoya JG. Onset Patterns and Course of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Front Pediatr_. 2019;7:12. @Chu2019onsetPatterns
+    / *DOI:*: #link("https://doi.org/10.3389/fped.2019.00012")[10.3389/fped.2019.00012]
+    / *Article Type:*: Descriptive survey + qualitative interviews
+    / *Key Findings:*:
+        - N=150 adults meeting Fukuda 1994 CFS criteria; 14 qualitative interviews
+        - 38% had \>6 months from initial symptom to full syndrome — multi-month prodromal window
+        - 79% (11/14) reported pre-illness health problems: recurrent infections, autonomic symptoms, unusual fatigue
+        - One participant experienced dyspnea and presyncope for months before formal onset
+        - Top triggers: infection 64%, stress 39%, environmental toxin 20%
+    / *Conclusion:*: ME/CFS onset is complex; a substantial minority have a multi-month prodromal window with autonomic and infectious precursors.
+    / *Limitations:*: Retrospective recall; no control group; adult sample; N=14 for qualitative phase.
+    / *ME/CFS Relevance:*: Supports the gradual-onset prodromal model. The 38% with \>6-month prodrome represents the population where retrospective prodromal signs (exercise intolerance, sleep disruption, OI) would be detectable in childhood histories.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (survey-based, no controls)
+        - *Sample:* n=150 (quantitative); n=14 (qualitative)
+        - *Replication:* Consistent with Evans & Jason 2018
+        - *Score:* 0.45
+
+=== Moak et al.\ 2024 --- Small Fiber Neuropathy in Pediatric POTS/OI
+
+    / *Full Citation:*: Moak JP, Ramwell CB, Gordish-Dressman H, Sule SD, Bettini E. Small fiber neuropathy in children, adolescents, and young adults with chronic orthostatic intolerance and POTS: A retrospective study. _Auton Neurosci_. 2024;253:103163. @Moak2024SFNpediatric
+    / *DOI:*: #link("https://doi.org/10.1016/j.autneu.2024.103163")[10.1016/j.autneu.2024.103163]
+    / *PMID:*: 38537312
+    / *Article Type:*: Retrospective cohort
+    / *Key Findings:*:
+        - n=109 pediatric POTS/OI patients with neuropathic symptoms
+        - Skin biopsy abnormal in 53% — SFN in majority tested
+        - 3× probability of positive ANA or anti-thyroid antibody in SFN+ group — autoimmune substrate
+        - Presentation: OI + fatigue + paresthesia + brain fog + pain
+    / *Conclusion:*: Small fiber neuropathy is common in pediatric POTS/OI and may underlie the combined autonomic + neuropathic symptom constellation seen in early ME/CFS.
+    / *Limitations:*: Single center specialty clinic; retrospective; no healthy control biopsy group; skin biopsy only in symptomatic subgroup (selection bias).
+    / *ME/CFS Relevance:*: SFN causes dysautonomia, fatigue, proprioceptive deficits, and fine tremor in young patients — all plausible prodromal or early signs before ME/CFS threshold. Autoimmune substrate supports immune-mediated gradual deterioration model.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (retrospective, specialty clinic, n=109)
+        - *Sample:* n=109
+        - *Replication:* SFN in POTS established in adults; pediatric-specific data emerging
+        - *Score:* 0.50
+
+=== Kato et al.\ 2006 --- Premorbid Predictors of Chronic Fatigue (Twin Study)
+
+    / *Full Citation:*: Kato K, Sullivan PF, Evengård B, Pedersen NL. Premorbid Predictors of Chronic Fatigue. _Arch Gen Psychiatry_. 2006;63(11):1267--1272. @Kato2006premorbid
+    / *DOI:*: #link("https://doi.org/10.1001/archpsyc.63.11.1267")[10.1001/archpsyc.63.11.1267]
+    / *PMID:*: 17088507
+    / *Article Type:*: Prospective nested case-control (Swedish Twin Registry)
+    / *Key Findings:*:
+        - N=19,192 twins; pre-illness measures 25 years before fatigue onset
+        - Perceived life stress: 5.81× increased risk after genetic control — true environmental causal factor
+        - Emotional instability: elevated risk disappears in MZ discordant pairs — genetic, not environmental
+        - Extraversion: no association
+    / *Conclusion:*: Perceived stress is a true causal premorbid risk factor for chronic fatigue independent of genetics; emotional instability reflects shared genetic background.
+    / *Limitations:*: Outcome is broad "chronic fatigue," not strictly ME/CFS. Psychological instruments only; no physiological biomarkers. 25-year lead time may miss onset-proximate prodromal factors. "Emotional instability" may partly reflect undetected subclinical autonomic dysregulation.
+    / *ME/CFS Relevance:*: Largest twin study of chronic fatigue premorbid predictors. Stress as causal factor supports physiological stress-response vulnerability model (Architecture C). Caution: emotional instability as premorbid predictor may be circular if prodromal autonomic dysfunction produces instability-like features.
+    / *Certainty Assessment:*:
+        - *Quality:* High (twin design, N=19,192, 25-year prospective)
+        - *Sample:* n=19,192
+        - *Replication:* Unique design; consistent with stress-onset literature
+        - *Score:* 0.50 (for chronic fatigue); lower for ME/CFS specifically
+
+=== Jason et al.\ 2015 --- CFS vs Sudden Onset ME (Null Result for Universal Prodrome)
+
+    / *Full Citation:*: Jason LA, Evans M, Brown A, Sunnquist M, Newton JL. Chronic Fatigue Syndrome Versus Sudden Onset Myalgic Encephalomyelitis. _J Prev Interv Community_. 2015;43(1):6--12. @Jason2015CFSvsME
+    / *DOI:*: #link("https://doi.org/10.1080/10852352.2014.973233")[10.1080/10852352.2014.973233]
+    / *PMID:*: 25584529
+    / *Article Type:*: Comparative observational study
+    / *Key Findings:*:
+        - N=285 (DePaul n=189; Newcastle n=96)
+        - ME (sudden onset within 24h--1 week): more severe functional limitations, greater PEM severity
+        - Sudden-onset ME by definition has no prodromal gradual deterioration
+        - Prodromal evidence from other studies does not apply to this subgroup
+    / *Conclusion:*: A substantial ME/CFS subpopulation has sudden onset with no prodromal phase; prodromal signs apply to gradual-onset subtype only.
+    / *Limitations:*: Retrospective onset categorization (recall bias); two-category classification likely oversimplified (Evans & Jason 2018).
+    / *ME/CFS Relevance:*: Critical null result. Claims of universal prodromal ME/CFS are incorrect. The gradual-onset subtype (with prodromal evidence from Collin 2018, Wirth 2026, Chu 2019) represents one heterogeneous presentation; sudden-onset ME patients would have different pre-illness histories.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* n=285
+        - *Replication:* Consistent with onset heterogeneity literature
+        - *Score:* 0.55 (null result for prodrome in sudden-onset subtype)
+
+=== Geraghty & Adeniji 2019 --- Diagnostic Accuracy in Pediatric ME/CFS (Commentary)
+
+    / *Full Citation:*: Geraghty KJ, Adeniji C. The Importance of Accurate Diagnosis of ME/CFS in Children and Adolescents: A Commentary. _Front Pediatr_. 2019;7:435. @Geraghty2019diagnosticAccuracy
+    / *DOI:*: #link("https://doi.org/10.3389/fped.2018.00435")[10.3389/fped.2018.00435]
+    / *PMID:*: 30719431 | *PMC:* PMC6348258
+    / *Article Type:*: Commentary / narrative review
+    / *Key Findings:*:
+        - 40% diagnostic error rate among children referred to specialist ME/CFS clinics
+        - Misdiagnosis breakdown: 47% other chronic disease, 20% primary sleep disorder, 15% psychiatric, 4% cardiovascular (likely OI/POTS)
+        - Adult ME/CFS: average 5-year diagnostic delay; pediatric: elevated medical utilization up to 5 years before diagnosis
+        - PEM most frequently missed cardinal symptom
+        - 80% of pediatric broad-criteria CFS cases recovered by age 18 — overdiagnosis risk with loose criteria
+    / *Conclusion:*: Both under- and over-diagnosis are significant problems in pediatric ME/CFS. The 5-year pre-diagnosis medical utilization window is consistent with a prodromal period, but PEM must be confirmed to avoid false positives.
+    / *Limitations:*: Commentary; not primary research. Error rate data from secondary sources.
+    / *ME/CFS Relevance:*: Documents 5-year pre-diagnosis symptom window. Sleep disorder misdiagnosis (20%) directly consistent with Collin 2018 prodromal sleep data. Cardiovascular misdiagnosis (4%) reflects OI/POTS being labeled as cardiac. Critical dual caveat: prodromal signals exist, but 80% pediatric recovery rate warns against over-pathologizing normal fatigue.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (commentary)
+        - *Sample:* Narrative synthesis
+        - *Replication:* Diagnostic delay data consistent across sources
+        - *Score:* 0.40

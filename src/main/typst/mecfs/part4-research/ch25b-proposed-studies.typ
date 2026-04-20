@@ -2131,5 +2131,95 @@ If any PRS $times$ treatment interaction reaches significance, this would: (1) v
 
 Requires access to DecodeME genotype data (planned for sharing), collaboration with ME/CFS clinical trial networks, and pharmaceutical industry or foundation funding. PRS construction is computationally straightforward once genotype data are available. Memantine, urolithin A, and amitriptyline are all available and have established safety profiles. The adaptive platform design reduces total sample size requirements compared to separate trials for each intervention.
 
+== Prodromal Detection and Prevention Research Program
+<sec:prodromal-research-program>
+
+The retrospective prodromal signs described in @sec:prodromal-recognition generate a research programme aimed at prospective validation, early detection, and preventive intervention.
+
+=== Study 1: The Sibling Stress Test — Prospective Metabolic Phenotyping in First-Degree Relatives
+
+*Design:* Prospective cohort. N=200 asymptomatic siblings of confirmed ME/CFS patients (ages 10--25). Baseline and annual assessments:
+
+    - Cardiopulmonary exercise testing (CPET) with 2-day repeat protocol
+    - 24-hour HRV analysis (Holter)
+    - PBMC respirometry (Seahorse: spare respiratory capacity)
+    - Quantitative sensory testing (small fiber function)
+    - Home polysomnography (sleep architecture)
+    - Salivary cortisol diurnal curve
+    - Serum ferritin, BH4 metabolites, methylation panel
+
+*Primary question:* Do siblings show a gradient of subclinical abnormalities correlating with number of prodromal signs (@spec:prodromal-syndrome)? Can a pre-symptomatic metabolic signature predict ME/CFS development within 5 years?
+
+*Falsification:* If siblings show no subclinical metabolic differences from unrelated controls despite sharing genetic background, the genetic-ceiling model of Architecture C is not supported.
+
+*Power calculation:* N=200 siblings (assuming 15% conversion rate over 5 years) provides 80% power to detect an OR of 3.0 for metabolic signature vs. conversion, at $alpha = 0.05$.
+
+=== Study 2: Wearable Transition Detection — Machine Learning on Pre-Diagnostic Physiological Streams
+
+*Design:* Retrospective analysis of consumer wearable data (Garmin, Apple Watch, Oura Ring) from ME/CFS patients who were wearing devices before diagnosis. N=1000+ feasible via patient registries and ME/CFS biobanks.
+
+*Features extracted:* Resting HR trend, HRV trajectory (RMSSD), sleep duration and efficiency, step count variability, recovery time from exercise, respiratory rate during sleep.
+
+*Primary question:* Is the prodromal-to-disease transition abrupt (supporting phase-transition model, @spec:cognitive-cliff) or gradual (supporting linear decline model)? Can machine learning identify the inflection point?
+
+*Falsification:* If no detectable signal precedes diagnosis by >3 months, the prodromal decompensation model has no wearable signature. If the transition is abrupt (within 2 weeks), this supports the hysteretic phase-transition model; if gradual (>6 months decline), this supports linear reserve erosion.
+
+=== Study 3: 2-Day CPET Subclinical PEM — Prodromal Biomarker Validation
+
+*Design:* Cross-sectional comparison with longitudinal follow-up. Three groups (N=50 each): (a) at-risk individuals (prodromal composite score >8, see below), (b) healthy controls matched for age/sex/activity, (c) established ME/CFS patients. All undergo 2-day CPET protocol.
+
+*Hypothesis:* Prodromal individuals will show a Day 2 VO#sub[2]max decline of 5--10% --- intermediate between controls (0%) and established ME/CFS (>15%). This "subclinical PEM" would be an objective, quantitative prodromal biomarker.
+
+*Longitudinal component:* Follow at-risk group for 3 years. Primary outcome: Does Day 2 decline magnitude predict ME/CFS conversion? Expected: >5$times$ conversion rate for those with 5--10% decline vs. those with 0% decline.
+
+=== Study 4: HRV Recovery Kinetics as Population-Scale Screening Tool
+
+*Design:* Cohort study using existing wearable data. Define "HRV recovery ratio" = (time to return to resting HRV baseline after standardised exercise) / (expected recovery time for that fitness level, derived from population norms). Ratio >1.5 = prodromal flag.
+
+*Key advantage:* Measurable with consumer wearables at population scale, enabling screening without clinical visits.
+
+*Validation:* In a cohort wearing HRV-capable devices for >12 months, test whether progressive lengthening of HRV recovery time in the 6--12 months preceding ME/CFS diagnosis is detectable. Critical discriminator: recovery ratio should distinguish pre-ME/CFS from simple deconditioning (deconditioned individuals improve recovery time with training; pre-ME/CFS individuals do not) @Wyller2007thermoregCFS.
+
+=== Study 5: Exercise Non-Responder Genomics
+
+*Design:* Cross-reference existing exercise intervention GWAS data (HERITAGE, DREW, Gene SMART cohorts) with ME/CFS GWAS hits (DecodeME). In large exercise cohorts, approximately 20% are "non-responders" to aerobic training despite adherence.
+
+*Primary question:* Do exercise non-responders and ME/CFS patients share genetic variants in mitochondrial adaptation pathways (PGC-1$alpha$ regulators, AMPK signalling, mitophagy genes)?
+
+*Falsification:* If non-responder genetics are entirely unrelated to ME/CFS susceptibility loci, the shared mitochondrial biogenesis failure hypothesis (@spec:adaptation-debt) is not supported.
+
+=== Proposed Prodromal Composite Score for Risk Stratification
+
+A weighted clinical checklist for identifying at-risk individuals, pending validation:
+
+#figure(
+  kind: table,
+  supplement: [Table],
+  caption: [Proposed prodromal composite score. Components weighted by specificity and mechanistic plausibility. Total range 0--18. Proposed risk tiers: 0--4 low, 5--8 moderate (Tier 1 prevention), 9--12 high (Tier 2), >12 very high (Tier 3 + urgent referral). Requires prospective validation.],
+)[
+#table(
+  columns: (4fr, 0.8fr, 4fr),
+  align: (left, center, left),
+  stroke: 0.5pt,
+  [*Sign*], [*Weight*], [*Rationale*],
+  [Training:fitness ratio >3:1 (high volume, poor gains)], [2], [Strongest specific signal for failed adaptation],
+  [Late-game cognitive fade (duration-dependent)], [1], [Common, moderate specificity],
+  [Morning fatigue despite adequate sleep duration], [1], [Very common, low specificity alone],
+  [Fine action tremor (no neurological Dx)], [2], [Unusual in healthy youth, high specificity],
+  [Cold extremities + orthostatic symptoms], [1], [Common, moderate specificity],
+  [Post-exertional fog >24h recovery], [2], [Highly specific for energy deficit],
+  [Holiday/rest crashes (paradoxical)], [2], [Paradoxical pattern, high specificity],
+  [Family history ME/CFS or POTS], [2], [Genetic loading (Architecture C)],
+  [Neurodivergence (ADHD/ASD)], [1], [Architecture C risk factor],
+  [Hypermobility (Beighton ≥5)], [1], [Architecture C risk factor],
+  [Frequent minor infections (>6/year)], [1], [Immune surveillance deficit],
+  [Unrefreshing sleep (validated scale)], [1], [Prospectively validated @Collin2018sleepCFS],
+)
+] <tab:prodromal-composite-score>
+
+#limitation(title: [Prodromal Composite Score: Not Yet Validated])[
+The prodromal composite score above is a research proposal, not a validated screening tool. Individual items are evidence-backed (@cf:prodromal-window) but the composite has not been tested for sensitivity, specificity, or predictive value. Prospective validation in a large at-risk cohort is required before clinical use. There is significant risk of both false positives (many healthy tired children) and false negatives (prodromal individuals who present atypically). The score should not be used to diagnose or label children without specialist evaluation.
+] <lim:prodromal-score>
+
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"
