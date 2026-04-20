@@ -1132,6 +1132,51 @@ Falsifiable predictions: Longitudinal FDG-PET in ADHD adults should show faster 
 *Replication status:* Not yet replicated — no study has examined age-related metabolic decline specifically in neurodivergent populations.
 ] <spec:progressive-reserve-erosion>
 
+===== Mathematical Formalization: Individual Reserve Capacity
+<sec:math-individual-reserve>
+
+The metabolic reserve model can be formalized to incorporate individual variation in maximum production capacity. Rather than treating $J_"production,max"$ as a population parameter, Architecture C proposes:
+
+$ J_"production,max" ("individual") = J_"production,max" ("population") dot product_(i) (1 - delta_i) $
+
+where $delta_i$ represents the fractional reserve reduction from each predisposing condition:
+
+#table(
+  columns: (auto, auto),
+  table.header([*Condition*], [*Estimated $delta_i$*]),
+  [ADHD], [~0.08 (8.1% reduced glucose metabolism, @Zametkin1990)],
+  [ASD], [~0.10–0.15 (ETC dysfunction magnitude, @Frye2024ASDmitochondria)],
+  [hEDS/POTS], [~0.05–0.10 (cerebral hypoperfusion magnitude)],
+  [Migraine], [~0.03–0.05 per decade of active migraine (cumulative CSD damage, @Lau2015migraineCFS)],
+  [Iron deficiency], [0.00–0.15 (variable, depends on ferritin level, @DelRosso2026ironNeurodevelopmental)],
+  [GCH1 rs841 homozygous], [~0.05–0.10 (@Williams2025GCH1BH4)],
+)
+
+The multiplicative model predicts compound conditions produce MORE than additive reserve reduction. Example: a patient with ASD ($delta = 0.12$) + hEDS ($delta = 0.08$) + iron deficiency ($delta = 0.10$) would have $J_"production,max" = J_"base" dot 0.88 dot 0.92 dot 0.90 = J_"base" dot 0.729$ — a 27% reduction before any infection.
+
+#limitation(title: [Delta Values Are Rough Estimates Requiring Calibration])[
+The specific $delta_i$ values are derived from population-level studies and represent rough estimates. Individual variation is likely enormous. Calibration requires the PBMC respirometry study (@sec:pbmc-respirometry-comparative). The multiplicative assumption (independence of reserve reducers) may not hold if conditions share downstream mechanisms.
+]
+
+===== Vulnerability Score and Phase Transition
+<sec:vulnerability-phase-transition>
+
+Define a vulnerability score:
+
+$ V(t) = 1 - R_"headroom" (t) = 1 - (J_"prod,max" ("individual", t) - J_"demand" (t)) / J_"prod,max" ("individual", t) $
+
+ME/CFS onset occurs when $V(t)$ crosses a critical threshold $V_"crit"$ during infection:
+
+$ J_"demand" (t) = J_"demand,baseline" + J_"immune" (t) $
+
+where $J_"immune"$ represents the metabolic cost of the immune response.
+
+The key feature is HYSTERESIS: once the system crosses $V_"crit"$, reversing the infection does not reverse ME/CFS because the feed-forward damage cycle (ROS → ETC damage → lower $J_"prod,max"$ → more ROS) has been initiated.
+
+#speculation(title: [ME/CFS as Hysteretic Phase Transition], certainty: 0.30)[
+If the transition to ME/CFS is genuinely hysteretic — exhibiting path-dependence such that the system cannot return to the healthy attractor by simply removing the triggering infection — then treatment requires not just resolving inflammation but actively breaking the feed-forward cycle (ROS scavenging + mitochondrial biogenesis stimulation + metabolic demand reduction simultaneously). Prevention (keeping $V(t) < V_"crit"$ during infection) would be far more effective than treatment. Whether the dynamics are truly hysteretic vs simply slow-recovering is an empirical question testable with longitudinal metabolic imaging during and after acute infection. Not yet replicated.
+] <spec:mecfs-phase-transition>
+
 ===== Proposed Research Priorities
 
 The metabolic reserve hypothesis generates several tractable research directions ordered by feasibility:
