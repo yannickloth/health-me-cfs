@@ -961,6 +961,17 @@ Dose-dependent increases in systolic/diastolic blood pressure and heart rate are
 *Energy Profile.*
 Category C (energy-masking). Pure reuptake inhibition without releasing activity makes solriamfetol less metabolically costly than amphetamines or methylphenidate, but it still masks fatigue perception without addressing underlying energy production deficits. No data on immune or mitochondrial effects.
 
+==== Architecture C Framing
+
+*Metabolic reserve framing.* In the Architecture C framework (@sec:architecture-c-metabolic-reserve), solriamfetol's dual dopamine-norepinephrine reuptake inhibition without releasing activity may provide a cleaner cognitive efficiency improvement than amphetamine-class stimulants. For neurodivergent ME/CFS patients, this means increased $R_"headroom"$ for cognitive tasks with lower risk of catecholamine depletion --- the mechanism that may underlie stimulant-associated crashes. The critical untested question remains whether this translates to PEM reduction when combined with pacing (see @pred:stimulant-pacing-interaction).
+
+#speculation(title: [Solriamfetol as Preferred Stimulant for Neurodivergent ME/CFS])[
+
+*Certainty: 0.35*
+
+Among available wake-promoting agents, solriamfetol may be optimal for neurodivergent ME/CFS patients because it improves catecholamine efficiency without amphetamine-class depletion risk or abuse potential. The Young 2025 trial (@Young2025solriamfetol) showed fatigue improvement but did not measure PEM or stratify by neurodivergent status. A dedicated trial in ADHD + ME/CFS patients measuring PEM frequency alongside cognitive outcomes --- with enforced pacing protocol --- would determine whether the metabolic reserve benefit translates to clinical improvement. _Not yet replicated for this specific indication._
+] <spec:solriamfetol-neurodivergent-mecfs>
+
 === Pitolisant
 <subsec:pitolisant>
 

@@ -852,6 +852,13 @@ Memantine is an uncompetitive NMDA receptor antagonist approved for moderate-to-
 Memantine has not been tested in any ME/CFS clinical trial. The rationale is based on genetic evidence (DecodeME), metabolomic evidence (kynurenine pathway), and analogy to fibromyalgia. Preclinical validation of the glutamatergic hypothesis in ME/CFS-relevant models would strengthen the case for proceeding to a human trial. Any trial should include careful PEM monitoring as a safety endpoint, as NMDA modulation could theoretically worsen symptoms in some patients.
 ]
 
+*Architecture C perspective.* In the metabolic reserve framework (@sec:architecture-c-metabolic-reserve), glutamate excitotoxicity represents a demand-side reserve reducer: excess excitatory signalling increases baseline Na#super[+]/K#super[+]-ATPase demand, consuming ATP that would otherwise contribute to cognitive or physical headroom. Neurodivergent brains --- particularly those on the autism spectrum --- show altered glutamate/GABA ratios with excess excitatory tone. Low-dose NMDA antagonism could reduce this background metabolic cost without affecting peak cognitive capacity, effectively increasing $R_"headroom"$ by reducing $J_"demand,baseline"$ rather than increasing $J_"production,max"$.
+
+#speculation(title: [Low-Dose Memantine as Demand-Side Metabolic Reserve Intervention])[
+<spec:memantine-demand-reduction>
+*Certainty: 0.20.* Low-dose memantine (5--10 mg) in ME/CFS patients with documented glutamate/GABA imbalance or ASD comorbidity could reduce baseline neural metabolic cost and increase functional headroom. This targets a different parameter than mitochondrial supplements (which target production capacity): memantine reduces demand. Case reports of memantine benefit in ME/CFS exist but are uncontrolled. Well-tolerated at low doses in autism trials. The certainty is low because no controlled data support this specific mechanism in ME/CFS, and the glutamate/GABA imbalance in ME/CFS is itself not well-established. Not yet replicated.
+]
+
 === Ion Homeostasis Therapeutics: MDC002 (Mitodicure)
 <sec:mdc002>
 
@@ -1017,6 +1024,81 @@ The DecodeME identification of autophagy genes (_FBXL4_ for mitophagy, _CCPG1_ f
 
 #limitation(title: [Hypothesis-Driven, Not Evidence-Based])[
 These treatment proposals derive from genetic association data (DecodeME) and mechanistic reasoning, not from clinical trials in ME/CFS. The _FBXL4_ locus is sub-threshold in the main DecodeME analysis, and gene assignment is not definitive. Mitophagy-enhancing compounds have not been tested in any ME/CFS trial. Preclinical validation (demonstrating target engagement and efficacy in ME/CFS-relevant cellular or animal models) should precede human trials. The proposed pharmacogenomic stratification requires access to DecodeME genotype data. These are research proposals, not clinical recommendations.
+]
+
+== Metabolic Reserve Interventions
+<sec:metabolic-reserve-interventions>
+
+The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identifies several pharmacological targets for increasing R_headroom — either by improving energy production capacity or by reducing the metabolic cost of baseline function. The following interventions are speculative but based on established pharmacology applied to a novel indication.
+
+=== Sapropterin (Kuvan) — BH4 Supplementation
+<subsec:sapropterin-bh4>
+
+*Mechanism:* Synthetic BH4 (6R-BH4), FDA-approved for phenylketonuria. Simultaneously supports dopamine synthesis, serotonin synthesis, and nitric oxide-mediated cerebral perfusion — directly addressing the proposed BH4 convergent bottleneck (@spec:bh4-convergent-bottleneck).
+
+*Evidence:* Williams 2025 case series ($n = 5$) documented ADHD symptom improvement with low-dose BH4 (0.088–0.292 mg/kg/day) @Williams2025GCH1BH4. ColpaniFilho 2025 systematic review consistently found low BH4 in ASD @ColpaniFilho2025BH4ASD. No ME/CFS trials exist.
+
+*Target population:* GCH1 rs841 homozygous ME/CFS patients (genotype-guided); neurodivergent ME/CFS patients with documented low serum biopterin or elevated neopterin:biopterin ratio.
+
+*Risk:* Low to moderate. Well-characterised safety profile from decades of PKU use. Main risk: if NO production increases systemically before cerebral autoregulation adapts, transient hypotension is possible. Cost is high (~\$1,000–3,000/month without insurance).
+
+#warning-box(title: [Sapropterin Is Research-Stage for ME/CFS])[
+No ME/CFS trial data exist for sapropterin. The rationale is entirely derived from the BH4 convergent bottleneck hypothesis (certainty 0.35). The evidence base consists of a 5-patient ADHD case series and ASD observational data. Off-label use should not be attempted without specialist supervision, BH4/neopterin baseline measurement, and monitoring for hypotension. Cost may be prohibitive.
+]
+
+#speculation(title: [BH4 Supplementation as Metabolic Reserve Intervention in ME/CFS])[
+<spec:sapropterin-mecfs>
+*Certainty: 0.30*
+
+If BH4 depletion is indeed the convergent bottleneck linking predisposing conditions to ME/CFS (@spec:bh4-convergent-bottleneck), sapropterin supplementation in BH4-depleted ME/CFS patients should improve both cognitive function (via dopamine/serotonin) and orthostatic tolerance (via NO-mediated cerebral perfusion). GCH1 rs841 homozygotes (~4% of the population) represent a genotype-guided target population analogous to pharmacogenomic approaches in oncology. The prediction is testable in a small crossover trial ($n = 20$, GCH1-stratified) measuring cognitive performance, tilt-table response, and urinary neopterin:biopterin ratio before and after 8 weeks of low-dose sapropterin. Not yet replicated — zero ME/CFS-specific data.
+]
+
+=== Low-Dose Methylphenidate with Enforced Pacing Protocol
+<subsec:methylphenidate-pacing>
+
+_Rationale:_ The Vernon 2025 survey data (77% brain fog improvement, $-1.5%$ PEM effect; @Vernon2025PNAS) and the Architecture C stimulant analysis (@pred:stimulant-pacing-interaction) suggest that the net PEM-neutral effect masks two opposing subgroups. Reframing methylphenidate not as a fatigue treatment but as a cognitive efficiency intervention — paired with enforced pacing to prevent activity escalation — may capture the $R_"headroom"$ benefit while avoiding the PEM risk.
+
+_Mechanism:_ Low-dose methylphenidate (5–10 mg, not the standard ADHD dose of 20–60 mg) increases synaptic dopamine availability, reducing the metabolic cost per unit of cognitive output. At low doses, methylphenidate may additionally maintain Parkin-mediated mitophagy and reduce mitochondrial ROS (@Almutairi2024mitoadhd), providing a direct mitochondrial benefit beyond catecholamine efficiency.
+
+_Protocol:_ Combine low-dose methylphenidate with mandatory pacing structure: time-limited cognitive blocks (25 minutes), mandatory 10-minute rest between blocks, maximum 4 blocks per session, maximum 2 sessions per day (mild ME/CFS). The medication provides the cognitive efficiency; the pacing prevents activity escalation.
+
+_Target population:_ ME/CFS patients with ADHD comorbidity or documented catecholamine deficiency (Walitt 2024 CSF metabolites; @Walitt2024NIH).
+
+_Risk:_ Moderate. Requires careful behavioural monitoring — the subjective improvement creates strong temptation to exceed the pacing protocol. Standard methylphenidate cardiovascular monitoring applies. The pacing component requires external accountability (timer apps, caregiver support) because ADHD patients cannot reliably self-pace.
+
+#warning-box(title: [Stimulant Use in ME/CFS Requires Strict Pacing Discipline])[
+Without enforced pacing, stimulants in ME/CFS risk enabling activity escalation that worsens PEM. The Vernon 2025 finding of -1.5% PEM effect is a population average that likely conceals increased PEM in patients who escalated activity. This protocol is untested as an integrated intervention. Patients and prescribers must agree on non-negotiable pacing limits before initiation.
+]
+
+#speculation(title: [Methylphenidate + Pacing as Cognitive Reserve Protocol])[
+<spec:methylphenidate-pacing-protocol>
+*Certainty: 0.40*
+
+If behavioural demand is held constant by strict pacing, low-dose methylphenidate should increase cognitive $R_"headroom"$ by reducing $J_"demand"$ for equivalent output — predicting lower PEM frequency in compliant patients compared to untreated controls. A crossover trial ($n = 30$, ADHD + ME/CFS) randomising methylphenidate vs placebo with identical pacing protocols and PEM diary monitoring would test this directly. The critical comparison is PEM frequency, not fatigue scores — the prediction is that PEM decreases only when activity does not escalate. Partially supported by the Vernon 2025 data pattern @Vernon2025PNAS but never tested as an integrated protocol. Not yet replicated.
+]
+
+=== Iron Repletion to Ferritin >100 ng/mL in Neurodivergent ME/CFS
+<subsec:iron-repletion-neurodivergent>
+
+_Rationale:_ Iron serves as a dual bottleneck in neurodivergent ME/CFS: it is a cofactor for mitochondrial Complex I/II function AND for tyrosine hydroxylase (dopamine synthesis). Standard ferritin thresholds ($> 30$ ng/mL) may be insufficient for neurodivergent brains with higher catecholamine demand. The ADHD literature suggests ferritin $< 50$ ng/mL is suboptimal; some clinicians target $> 100$ ng/mL (@DelRosso2026ironNeurodevelopmental).
+
+_Mechanism:_ Iron repletion simultaneously improves two Architecture C reserve reducers — mitochondrial energy production capacity ($J_"production,max"$) and dopaminergic efficiency (reducing $J_"demand"$ for equivalent cognitive output). This makes iron unique among metabolic reserve interventions: it shifts both terms of the $R_"headroom"$ equation favourably.
+
+_Protocol:_ Oral iron bisglycinate (preferred for tolerability), titrated to ferritin $> 100$ ng/mL with transferrin saturation monitoring. For patients intolerant to oral iron: IV ferric carboxymaltose (single infusion, avoids gastrointestinal burden relevant to bedbound patients). Monitor ferritin and transferrin saturation every 3 months; stop if transferrin saturation $> 45%$.
+
+_Target population:_ All neurodivergent ME/CFS patients with ferritin $< 100$ ng/mL. Broader application to all ME/CFS patients with ferritin below this threshold is reasonable given the low risk profile.
+
+_Risk:_ Low if monitored. Iron overload risk managed with transferrin saturation monitoring. Gastrointestinal side effects common with oral forms (mitigate with bisglycinate form, every-other-day dosing). Contraindicated in haemochromatosis carriers.
+
+#warning-box(title: [Ferritin >100 ng/mL Target Is Clinical Opinion, Not Trial-Validated])[
+The $> 100$ ng/mL target derives from ADHD clinical practice and expert opinion, not from ME/CFS randomised trials. Standard haematological thresholds ($> 30$ ng/mL) are sufficient to exclude iron deficiency anaemia. The higher target is based on the rationale that neurodivergent brains require more iron for dopamine synthesis, but this threshold has not been validated for ME/CFS outcomes. Iron supplementation above standard thresholds should be discussed with a physician.
+]
+
+#speculation(title: [Higher Ferritin Targets for Neurodivergent ME/CFS])[
+<spec:iron-repletion-higher-target>
+*Certainty: 0.50*
+
+Iron repletion to ferritin $> 100$ ng/mL in neurodivergent ME/CFS patients with baseline ferritin $30$–$100$ ng/mL should improve both fatigue scores and cognitive function by simultaneously augmenting mitochondrial capacity and dopaminergic efficiency. This is the most immediately actionable prediction from Architecture C: cheap (~\$5–15/month oral), widely available, well-tolerated, and measurable via routine blood tests. A pragmatic RCT ($n = 60$, ME/CFS + neurodivergent, ferritin $30$–$100$) randomising aggressive repletion (target $> 100$) vs standard care (target $> 30$) with 6-month follow-up on fatigue, cognitive function, and PEM frequency would be definitive. Not yet replicated — no ME/CFS-specific trial targeting higher ferritin thresholds exists. @DelRosso2026ironNeurodevelopmental
 ]
 
 == Unified Autonomic Treatment Approach
