@@ -150,6 +150,24 @@ Individual responses vary widely; objective symptom tracking (postprandial fatig
 
 ] <hyp:postprandial-pacing>
 
+=== Cognitive Energy Envelope for ADHD + ME/CFS
+<subsec:cognitive-pacing-adhd>
+
+Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that the patient can prospectively monitor their energy state and voluntarily limit activity. ADHD fundamentally compromises both abilities: poor prospective self-monitoring, hyperfocus episodes where time awareness vanishes, and dopamine-seeking behaviour that overrides energy conservation. A modified protocol addresses these ADHD-specific barriers.
+
++ *External timers, not internal awareness.* Set physical timers for 25-minute cognitive blocks (modified Pomodoro). ADHD patients cannot reliably sense energy depletion until crash.
++ *Mandatory 10-minute rest between blocks.* Non-negotiable, even if "feeling fine." The micro-PEM hypothesis (@spec:focal-pem-threshold) predicts damage accumulates before symptoms appear.
++ *Maximum 4 cognitive blocks per session, 2 sessions per day (mild ME/CFS).* Hard cap, adjustable downward based on PEM response. Severe patients: 1–2 blocks per day.
++ *Hyperfocus interruption strategy.* External accountability partner or app-based interruption. Hyperfocus in ME/CFS patients produces cognitive exertion exceeding the energy envelope — the capability is present but using it causes damage.
++ *Dopamine scheduling.* Plan engaging tasks strategically. Instead of dopamine-seeking filling all available time, schedule 1–2 high-engagement tasks per day with mandatory low-demand periods between them.
++ *Post-cognitive-exertion monitoring.* Track cognitive symptoms at 6h, 24h, 48h after cognitive sessions — the same delayed PEM monitoring used for physical exertion.
+
+#speculation(title: [ADHD-Adapted Cognitive Pacing Protocol])[
+
+*Certainty: 0.35.* An externally-enforced cognitive pacing protocol adapted for ADHD neurology — using timers, hard caps, and accountability partners instead of self-monitoring — should reduce cognitive PEM frequency in ADHD + ME/CFS patients compared to standard pacing advice alone. No evidence exists for this specific protocol. The rationale combines ADHD behavioural management literature with ME/CFS pacing literature and Architecture C metabolic reserve framing (@sec:architecture-c-metabolic-reserve). Zero cost, implementable immediately. Not yet replicated.
+
+] <spec:adhd-cognitive-pacing>
+
 == Sleep Optimization
 <sec:sleep-optimization>
 
@@ -204,6 +222,27 @@ A consistent pre-sleep routine signals the transition from wakefulness to sleep:
     - *Warm bath or shower*: A warm bath 1–2 hours before bed raises core body temperature; the subsequent cooling promotes sleep onset. A shower chair reduces the physical exertion
     - *Relaxation practices*: Guided relaxation recordings, breathing exercises, or body scan meditation can reduce the hyperarousal that interferes with sleep initiation in ME/CFS
     - *Avoid cognitive stimulation*: Problem-solving, planning, or worrying close to bedtime activates the prefrontal cortex and delays sleep. A “worry journal” earlier in the evening can offload anxious thoughts
+
+=== Sleep Architecture Optimization as Metabolic Reserve Recovery
+<subsec:sleep-reserve-recovery>
+
+In the metabolic reserve model, sleep is when mitochondrial biogenesis and repair predominantly occur — the supercompensation phase that restores $R_”headroom”$ depleted during waking activity. Neurodivergent individuals have high rates of disordered sleep: ADHD (delayed sleep phase, reduced efficiency), ASD (melatonin deficiency, fragmented sleep). Poor sleep recovery means the daily repair cycle fails to restore $R_”headroom”$, leading to progressive reserve erosion (@spec:progressive-reserve-erosion).
+
+Protocol targeting Architecture C sleep barriers:
+
++ *Melatonin timing (0.3–0.5 mg, fixed time, 2 hours before target sleep).* Not higher doses, which may impair sleep architecture. The low-dose approach supports circadian entrainment rather than sedation.
++ *Blue light elimination 3 hours before sleep.* More aggressive than the standard 1-hour recommendation — necessary because neurodivergent circadian systems are typically more disrupted.
++ *Temperature optimization (18–20°C ambient).* Cool environment promotes slow-wave sleep, the phase most associated with mitochondrial repair processes.
++ *No cognitive engagement 2 hours before sleep.* The ADHD “bedtime revenge procrastination” pattern — using evening hours for stimulating activities to compensate for the day's constraints — directly depletes the reserve meant to be recovered during sleep.
++ *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients.
+
+#speculation(
+  title: “Sleep Optimization as Metabolic Reserve Recovery Strategy”,
+  label: <spec:sleep-reserve-recovery>,
+  certainty: 0.45,
+)[
+  If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
+]
 
 == Dietary Approaches
 <sec:dietary>
@@ -857,6 +896,23 @@ Visser, Van Campen, and Rowe (2022) conducted a randomised crossover trial in 16
 
 Hip-high stockings would likely show greater benefit but have not been studied. Stockings are low-cost, immediately actionable, and generally well-tolerated (contraindicated in peripheral arterial disease; some patients report heat intolerance or skin irritation). They are particularly helpful during upright activities such as shopping and social events.
 ] <obs:compression-stockings>
+
+=== Cerebral Perfusion Optimization as Metabolic Reserve Intervention
+<subsec:perfusion-optimization-reserve>
+
+In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/POTS reduces metabolic reserve via cerebral hypoperfusion — an energy _delivery_ deficit rather than a _production_ deficit. Interventions that improve cerebral blood flow directly increase $R_"headroom"$. These interventions are standard POTS management but are rarely framed as metabolic reserve interventions — in Architecture C, they do not just treat orthostatic symptoms but directly increase the energy available for cognitive work.
+
+    + *Head-of-bed elevation (10–15 degrees).* Improves cerebral venous drainage during sleep, enhancing glymphatic clearance and reducing morning brain fog.
+    + *Graduated compression (abdominal binder + thigh-high stockings, 30–40 mmHg).* Reduces venous pooling, improves venous return and cardiac output, increases cerebral blood flow. Abdominal binder particularly relevant for reclined/bedbound patients.
+    + *Fluid and salt loading (2–3 L fluid + 5–10 g NaCl daily).* Expands plasma volume. Contraindicated in hypertension. Monitor for oedema.
+    + *Postural optimization for cognitive work.* Reclined desk position (30–45 degree recline) for all cognitive tasks. Removes the orthostatic component of cerebral hypoperfusion during the activity most likely to cause cognitive PEM.
+    + *Counterpressure manoeuvres before and during cognitive effort.* Not just for presyncope — proactive use during any sustained cognitive work to maintain cerebral perfusion.
+
+#speculation(title: [POTS Management as Cognitive Reserve Intervention])[
+Standard POTS management interventions (compression, fluid/salt, postural optimization) are well-validated for orthostatic symptoms but have not been studied specifically for their effect on cognitive PEM frequency or cognitive metabolic reserve. Architecture C predicts that these interventions should reduce cognitive PEM in hEDS/POTS + ME/CFS patients by increasing cerebral blood flow during sustained cognitive effort. This is testable by measuring cognitive PEM frequency before and after implementing a comprehensive perfusion optimization protocol, with ASL-MRI cerebral blood flow as the mechanistic endpoint. Partially replicated for orthostatic symptoms; not yet tested for cognitive PEM specifically.
+
+_Certainty:_ 0.50 for individual components (standard POTS management); 0.30 for the metabolic reserve framing.
+] <spec:pots-cognitive-reserve>
 
 === Osteopathic and Lymphatic Drainage: The Perrin Technique
 <sec:perrin-technique>
