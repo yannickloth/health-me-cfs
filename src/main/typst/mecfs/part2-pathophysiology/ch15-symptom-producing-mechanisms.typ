@@ -145,17 +145,20 @@ This mechanism explains why cognitive PEM can occur independently of muscular PE
 #speculation(title: [Orexin--Autonomic--Vascular Convergence: Dual-Route Glymphatic Impairment])[
 *Certainty: 0.25.* Orexin neurons project to sympathetic preganglionic neurons and regulate cardiovascular sympathetic tone @Sakurai1998orexin @Ruhrländer2025orexinPASC. Reduced orexin-A thus impairs glymphatic clearance via _two independent routes_ (orexin receptor subtype projections --- OX1R to LC, OX2R to tuberomammillary nucleus --- are well-established pharmacology): (1) the LC NE oscillation route described in @spec:ch15-orexin-vasomotion-triad, and (2) peripheral vascular sympathetic regulation of arterial vasomotion. Perivascular sympathetic nerves controlling cerebral arterial vasomotion receive descending brainstem control that is modulated by orexinergic input. Orexin deficiency therefore reduces both the central (LC-mediated NE oscillation) and peripheral (sympathetic vasomotor) components of the glymphatic pump simultaneously.
 
-This dual-route convergence predicts that ME/CFS patients with documented orthostatic intolerance (POTS/NMH --- as a proxy for autonomic dysfunction severity) should show worse glymphatic clearance (DTI-ALPS) than ME/CFS patients _without_ OI, independent of sleep quality measures. The subgroup with both orexin reduction and severe autonomic dysfunction would have the most profound glymphatic impairment.
+*Testable predictions:*
+
+    - (a) ME/CFS patients with documented OI (POTS/NMH) should show worse DTI-ALPS glymphatic index than ME/CFS patients without OI, independent of sleep quality measures
+    - (b) The subgroup with both low CSF orexin-A and severe autonomic dysfunction should have the most profound glymphatic impairment of any ME/CFS stratum
 ] <spec:ch15-orexin-autonomic-vascular>
 
 #speculation(title: [Chronobiological Phase Separation: Internal Desynchrony Between Orexin and Cortisol Rhythms])[
-*Certainty: 0.20.* ME/CFS patients show flattened cortisol diurnal rhythm (Chapter @ch:endocrine). Orexin neurons receive input from the suprachiasmatic nucleus (SCN) and normally show circadian variation @Sakurai1998orexin. If neuroinflammatory PGE#sub[2] suppression of orexin is tonic (constant) rather than phasic, the orexin rhythm may flatten or shift _independently_ of the cortisol rhythm.
+*Certainty: 0.20.* ME/CFS patients show flattened cortisol diurnal rhythm (Chapter @ch:endocrine). Orexin neurons receive input from the suprachiasmatic nucleus (SCN) and normally show circadian variation @Sakurai1998orexin. If neuroinflammatory suppression of orexin (via PGE#sub[2]/EP3 or neurotensin interneuron pathways --- see @spec:ch15-pge2-orexin-feedback) is tonic (constant) rather than phasic, the orexin rhythm may flatten or shift _independently_ of the cortisol rhythm.
 
 When two master circadian outputs (HPA axis cortisol, hypothalamic orexin) desynchronise relative to each other, the result is _internal desynchrony_ --- distinct from simple circadian delay. The patient is not merely shifted but _incoherent_: alternating periods of paradoxical alertness (one system promoting wakefulness while the other promotes sleep) and sudden crashes (both systems simultaneously at nadir). This may explain the characteristic ME/CFS complaint of unpredictable energy fluctuations that do not follow a recognisable daily pattern.
 
 *Testable predictions:*
 
-    - (a) 24-hour orexin-A profiling (serial CSF or validated saliva proxy) in ME/CFS should show reduced amplitude and/or phase shift relative to cortisol rhythm
+    - (a) 24-hour orexin-A profiling (serial CSF sampling; no validated saliva assay currently exists) in ME/CFS should show reduced amplitude and/or phase shift relative to cortisol rhythm
     - (b) The degree of orexin--cortisol phase separation should correlate with subjective symptom variability (assessed by hourly symptom logging)
 ] <spec:ch15-orexin-cortisol-desynchrony>
 
