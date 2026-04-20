@@ -194,3 +194,11 @@ Prevents re-processing of already-integrated content.
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12339398/ | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Zhu2025noradrenergicGlymphatic — noradrenergic modulation glymphatic Mol Psychiatry |
 | https://pubmed.ncbi.nlm.nih.gov/40108491/ | pubmed | 2026-04-19 | 2026-04-19 | bib/appendix-h — Chaganti2025longCovidGlymphatic — DTI-ALPS glymphatic dysfunction Long COVID BMC Neurology |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12182059/ | PMC | 2026-04-19 | 2026-04-19 | bib/appendix-h — Tang2025covidSleepDTIALPS — glymphatic alterations post-COVID sleep disorder DTI-ALPS Nat Sci Sleep |
+| https://pubmed.ncbi.nlm.nih.gov/34202826/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — KhanpourArdestani2021mindBody — systematic review mind-body interventions ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/21197347/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Sampalli2009MBSR — MBSR controlled trial MCS/CFS/fibromyalgia |
+| https://pubmed.ncbi.nlm.nih.gov/23990997/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Lakhan2013MBT — meta-analysis mindfulness somatization disorders incl. CFS |
+| https://pubmed.ncbi.nlm.nih.gov/20815988/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Merkes2010MBSR — systematic review MBSR for chronic diseases incl. CFS |
+| https://pubmed.ncbi.nlm.nih.gov/25525457/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Oka2014isometricYoga — isometric yoga RCT CFS n=30 |
+| https://pubmed.ncbi.nlm.nih.gov/28270860/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Oka2017recumbentYoga — recumbent isometric yoga pilot severe ME/CFS n=12 |
+| https://pubmed.ncbi.nlm.nih.gov/29643935/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Oka2018yogaMechanisms — autonomic/biomarker mechanisms isometric yoga CFS |
+| https://pubmed.ncbi.nlm.nih.gov/29231037/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — OConnor2019energyEnvelope — energy envelope pacing theory ME/CFS |

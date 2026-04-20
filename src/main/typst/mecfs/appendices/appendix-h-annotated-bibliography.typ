@@ -3722,7 +3722,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
 
         - Sleep inertia (transient lowered arousal post-awakening) lasts 1 minute to 4 hours depending on conditions
         - Rarely exceeds 30 minutes without major sleep deprivation in healthy populations
-        - Most severe after awakening from slow-wave sleep — naps >30 minutes entering deep sleep produce worse inertia than naps <20 minutes
+        - Most severe after awakening from slow-wave sleep --- naps \>30 minutes entering deep sleep produce worse inertia than naps \<20 minutes
         - Dose-dependent with prior sleep debt; circadian modulation (worse near core body temperature trough)
         - Different cognitive tasks show different sensitivity to sleep inertia
 
@@ -3733,6 +3733,198 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
         - *Sample:* Review of multiple studies across healthy populations
         - *Replication:* Sleep inertia phenomenon well-replicated across many studies
         - *Limitation:* No ME/CFS-specific data; ME/CFS sleep inertia duration never formally measured
+
+// =============================================================================
+// SECTION: MEDITATION, MIND-BODY, AND SENSORY REST IN ME/CFS (added 2026-04-20)
+// =============================================================================
+
+=== Meditation, Mind-Body Interventions, and Sensory Rest
+<sec:bib-meditation-rest>
+
+The central clinical challenge for meditation/mindfulness in ME/CFS is that cognitive effort is itself a physiological stressor capable of triggering post-exertional malaise. Standard meditation protocols (concentration on breath, prolonged guided visualization, group retreat formats) impose cognitive load that may exceed patients' energy envelope. The distinction between _passive_ practices (body scan, yoga nidra, sensory deprivation, lying still) and _active_ practices (effortful concentration, sustained attention, visualization) is clinically critical but largely unexamined in the existing trial literature.
+
+==== Khanpour Ardestani et al.\ 2021 --- Systematic Review of Mind-Body Interventions
+
+@KhanpourArdestani2021mindBody
+
+    / *Full Citation:*: Khanpour Ardestani S, Karkhaneh M, Stein E, Punja S, Junqueira DR, Kuzmyn T, Pearson M, Smith L, Olson K, Vohra S\@. Systematic Review of Mind-Body Interventions to Treat Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Medicina (Kaunas)_. 2021;57(7):652. DOI: 10.3390/medicina57070652.
+    / *PMID:*: 34202826
+    / *Study Design:*: Systematic review; 12 studies (7 RCTs); interventions included MBSR, MBCT, relaxation, Qigong, CBT-stress management, acceptance and commitment therapy, and isometric yoga
+    / *Key Findings:*:
+
+        - 9 of 12 studies showed fatigue severity improvement; 8 of 12 showed anxiety/depression reduction
+        - Physical and mental functioning improved in 3 studies
+        - Interventions were heterogeneous; no head-to-head comparisons
+        - Critical limitation: diagnostic criteria varied across studies; many used Fukuda (broader) rather than CCC or ICC
+        - High risk of bias across most included studies; small samples throughout
+        - No adverse event tracking in the majority of studies
+
+    / *Relevance:*: Best available evidence synthesis for mind-body interventions in ME/CFS. The positive signal across heterogeneous studies is consistent with benefit, but the active component cannot be isolated: improvement may reflect rest, acceptance, reduced catastrophizing, social contact, or direct physiological effects of specific practices. Cannot determine whether standard MBSR (cognitively demanding for severely ill patients) or low-exertion adapted forms (isometric yoga, body scan alone) drive efficacy.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (Medicina, systematic review; heterogeneous evidence base)
+        - *Sample:* 12 studies pooled; individual trial n ranges approximately 12--100
+        - *Replication:* Multiple studies show directional consistency; no replications of specific protocols
+        - *Limitation:* Heterogeneous criteria, small samples, high bias risk, no adverse event tracking, cannot isolate active component
+
+==== Sampalli et al.\ 2009 --- MBSR Controlled Trial: MCS, CFS, and Fibromyalgia
+
+@Sampalli2009MBSR
+
+    / *Full Citation:*: Sampalli T, Berlasso E, Fox R, Petter M\@. A controlled study of the effect of a mindfulness-based stress reduction technique in women with multiple chemical sensitivity, chronic fatigue syndrome, and fibromyalgia. _Journal of Multidisciplinary Healthcare_. 2009;2:53--59. DOI: 10.2147/jmdh.s5220.
+    / *PMID:*: 21197347
+    / *Study Design:*: Controlled (non-randomized) trial; 10-week MBSR program; n=50 intervention, n=26 waitlist controls; all women with MCS, CFS, or fibromyalgia
+    / *Key Findings:*:
+
+        - SCL-90R global symptom index: statistically significant pre-post improvement (p\<0.0001) and maintained at 3-month follow-up in intervention group
+        - Waitlist control group: no significant change over same period
+        - Three-month durability suggests effects beyond immediate relaxation response
+        - MBSR standard format = 2.5h/week group sessions + daily home practice (45 min/day); cognitively demanding schedule for severe ME/CFS patients
+        - Study population mixed (MCS + CFS + FM) -- CFS-specific effect cannot be isolated
+
+    / *Relevance:*: Provides evidence that MBSR produces durable symptom reduction in a mixed chronic-illness population including CFS. However, the non-randomized design and mixed population limit CFS-specific conclusions. The standard MBSR format represents a high cognitive and time commitment; severely ill ME/CFS patients may not tolerate it. The result may reflect the _rest component_ (lying during body scan; reduced activity) rather than cognitive mindfulness training per se.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (non-randomized controlled design; self-selected groups)
+        - *Sample:* n=76 total; CFS subgroup size not reported separately
+        - *Replication:* Not independently replicated in CFS-specific cohort
+        - *Limitation:* Non-randomized; mixed diagnosis; cognitively demanding format untested for severe ME/CFS; no adverse events reported
+
+==== Lakhan \& Schofield 2013 --- Meta-Analysis of Mindfulness for Somatization Disorders
+
+@Lakhan2013MBT
+
+    / *Full Citation:*: Lakhan SE, Schofield KL\@. Mindfulness-based therapies in the treatment of somatization disorders: a systematic review and meta-analysis. _PLoS ONE_. 2013;8(8):e71834. DOI: 10.1371/journal.pone.0071834.
+    / *PMID:*: 23990997
+    / *Study Design:*: Meta-analysis; 13 RCTs; mindfulness-based therapies (MBSR, MBCT, mindfulness-based CBT) for somatization disorders including CFS
+    / *Key Findings:*:
+
+        - Small-to-moderate positive effect on somatic symptom severity (SMD = --0.40)
+        - Small-to-moderate effect on quality of life (SMD = 0.39)
+        - Benefits consistent across pain, depression, anxiety sub-scores
+        - Greatest efficacy for IBS; CFS included but not isolated as subgroup
+        - MBSR and MBCT showed greater efficacy than eclectic approaches
+
+    / *Relevance:*: Provides the broadest pooled evidence for mindfulness benefit in conditions overlapping with ME/CFS. The SMD of approximately 0.40 is clinically modest but statistically consistent. The IBS-dominant efficacy signal may reflect gut-brain mechanisms rather than central fatigue pathways, limiting direct extrapolation to ME/CFS. CFS is not a primary somatization disorder under current understanding; inclusion in somatization reviews is itself a contested nosological position.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (PLoS ONE; pooled across heterogeneous populations)
+        - *Sample:* 13 RCTs; total n not specified for CFS subgroup
+        - *Replication:* Meta-analytic pooling; consistent signal across studies
+        - *Limitation:* CFS not isolated; somatization framing contested; cannot distinguish rest from mindfulness as active component
+
+==== Merkes 2010 --- MBSR for Chronic Diseases: Systematic Review
+
+@Merkes2010MBSR
+
+    / *Full Citation:*: Merkes M\@. Mindfulness-based stress reduction for people with chronic diseases. _Australian Journal of Primary Health_. 2010;16(3):200--210. DOI: 10.1071/PY09063.
+    / *PMID:*: 20815988
+    / *Study Design:*: Systematic review; 15 peer-reviewed studies; MBSR programs for chronic conditions including cancer, anxiety, HIV, fibromyalgia, and chronic fatigue syndrome
+    / *Key Findings:*:
+
+        - All 15 studies reported improvements on primary outcome measures; no negative outcomes documented
+        - Benefits reported across mental health, QoL, pain, fatigue, and functional status domains
+        - No adverse events documented across any study
+        - Methodological quality variable; most studies pre-dated CONSORT reporting standards
+
+    / *Relevance:*: Provides the broadest positive signal for MBSR in chronic conditions. The uniform positive finding across all 15 studies is consistent with benefit but also reflects publication bias: negative or null MBSR trials are underrepresented in the literature. The absence of adverse event tracking is particularly problematic for ME/CFS, where standard MBSR (45-minute daily home practice, 2.5h weekly sessions) imposes significant cognitive load. Should be cited with explicit acknowledgment of publication bias and absence of harm data.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Low-to-Medium (narrative systematic review; publication bias acknowledged; no meta-analytic pooling)
+        - *Sample:* 15 studies; CFS-specific subgroup not isolated
+        - *Replication:* Multiple studies consistent in direction; likely publication bias
+        - *Limitation:* Narrative only; CFS not isolated; no adverse event data; pre-CONSORT methods; ME/CFS-specific cognitive load of MBSR not addressed
+
+==== Oka et al.\ 2014 --- Isometric Yoga RCT: Seated, Non-Aerobic
+
+@Oka2014isometricYoga
+
+    / *Full Citation:*: Oka T, Tanahashi T, Chijiwa T, Lkhagvasuren B, Sudo N, Oka K\@. Isometric yoga improves the fatigue and pain of patients with chronic fatigue syndrome who are resistant to conventional therapy: a randomized, controlled trial. _Biopsychosocial Medicine_. 2014;8(1):27. DOI: 10.1186/s13030-014-0027-8.
+    / *PMID:*: 25525457
+    / *Study Design:*: RCT; n=30 therapy-resistant CFS patients (Fukuda criteria); biweekly instructor sessions + daily home practice; 2 months; waitlist control
+    / *Key Findings:*:
+
+        - Chalder Fatigue Scale (CFS): yoga group 25.9 $plus.minus$ 6.1 #sym.arrow.r 19.2 $plus.minus$ 7.5 (p=0.002); control no significant change
+        - Post-session mood fatigue scores improved immediately (p\<0.05); body warmth and pain relief reported
+        - Isometric yoga involves static muscle contractions _without joint movement_ --- no aerobic demand, no balance challenge, performed seated
+        - Key differentiator: removes cardiovascular exertion component that would trigger PEM in ME/CFS
+        - Single center (Kyushu University, Japan); no blinding possible; Fukuda criteria (broader than CCC/ICC)
+
+    / *Relevance:*: Best-quality RCT evidence for an adapted yoga format compatible with ME/CFS energy envelope constraints. Isometric contractions without movement represent a distinct physiological category from aerobic or standard yoga practice. The parasympathetic shift observed (Oka 2018) may explain why this format avoids post-exertional worsening. Directly relevant to ch17 treatment recommendations.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (Biopsychosocial Medicine; small RCT; single center)
+        - *Sample:* n=30 (15 yoga, 15 control)
+        - *Replication:* Partially --- Oka group published multiple follow-up studies; independent replication absent
+        - *Limitation:* No blinding; Fukuda criteria; short follow-up (2 months); Japan-specific setting; no PEM monitoring
+
+==== Oka et al.\ 2017 --- Recumbent Isometric Yoga for Severe ME/CFS
+
+@Oka2017recumbentYoga
+
+    / *Full Citation:*: Oka T, Wakita H, Kimura K\@. Development of a recumbent isometric yoga program for patients with severe chronic fatigue syndrome/myalgic encephalomyelitis: A pilot study to assess feasibility and efficacy. _Biopsychosocial Medicine_. 2017;11:5. DOI: 10.1186/s13030-017-0090-z.
+    / *PMID:*: 28270860
+    / *Study Design:*: Pilot study; n=12 severe ME/CFS; no control group; recumbent (supine) format × 3 months; two groups by severity
+    / *Key Findings:*:
+
+        - Both groups: significant fatigue reduction (Chalder FS) over 3 months
+        - Recumbent format preferred unanimously by group 2 (more severe) patients
+        - No serious adverse events; no PEM worsening reported
+        - Recumbent position eliminates orthostatic challenge --- eliminates OI-related autonomic destabilization during practice
+        - Clinically accessible for patients unable to attend outpatient clinic (home-based option explored)
+
+    / *Relevance:*: Extends isometric yoga evidence to the most severely affected ME/CFS patients. Recumbent format directly addresses orthostatic intolerance — the most common barrier to physical activity in severe ME/CFS. No control group means efficacy interpretation is limited, but safety signal is important: no PEM worsening in a very vulnerable population. Provides the practical template for adapted practice.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Low (pilot; no control; n=12; single center)
+        - *Sample:* n=12
+        - *Replication:* Not independently replicated
+        - *Limitation:* No control; very small n; same research group as Oka 2014/2018; selection bias possible (participants willing to try yoga)
+
+==== Oka et al.\ 2018 --- Mechanisms: Autonomic and Biomarker Effects
+
+@Oka2018yogaMechanisms
+
+    / *Full Citation:*: Oka T, Tanahashi T, Sudo N, Lkhagvasuren B, Yamada Y\@. Changes in fatigue, autonomic functions, and blood biomarkers due to sitting isometric yoga in patients with chronic fatigue syndrome. _Biopsychosocial Medicine_. 2018;12:3. DOI: 10.1186/s13030-018-0123-2.
+    / *PMID:*: 29643935
+    / *Study Design:*: Mechanistic study (pre-post single session); n=15 CFS patients; seated isometric yoga session; autonomic monitoring (HRV) + blood biomarkers
+    / *Key Findings:*:
+
+        - POMS fatigue score: reduced (p\<0.01); vigor: increased (p\<0.01) immediately post-session
+        - Reduced heart rate, increased HF-HRV power (vagal tone up)
+        - Decreased cortisol (anti-stress signal) and TNF-$alpha$ (anti-inflammatory)
+        - Increased DHEA-S (adrenal reserve marker; opposite direction to exertion-stress response)
+        - Biomarker profile: parasympathetic dominance + reduced inflammation, NOT the cortisol/IL-6 spike seen after aerobic exertion
+
+    / *Relevance:*: Mechanistic evidence that isometric yoga does _not_ produce the physiological stress signature that triggers PEM in ME/CFS. The cortisol decrease + TNF-$alpha$ decrease + vagal increase is the opposite profile from exercise-induced PEM. This distinguishes isometric yoga from aerobic exertion at the biomarker level, providing a mechanistic rationale for why this specific form is tolerable. Relevant to ch15 mechanism discussion (cognitive/physical exertion triggers).
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (Biopsychosocial Medicine; mechanistic; n=15; single session only)
+        - *Sample:* n=15
+        - *Replication:* Biomarker findings consistent with Oka 2019 (longitudinal); not independently replicated
+        - *Limitation:* Single time point; no blinding; no long-term biomarker tracking; same group as other Oka studies
+
+==== O'Connor et al.\ 2019 --- Energy Envelope Theory: Pacing Framework
+
+@OConnor2019energyEnvelope
+
+    / *Full Citation:*: O'Connor K, Sunnquist M, Nicholson L, Jason LA, Newton JL, Strand EB\@. Energy envelope maintenance among patients with myalgic encephalomyelitis and chronic fatigue syndrome: Implications of limited energy reserves. _Chronic Illness_. 2019;15(1):51--60. DOI: 10.1177/1742395317746470.
+    / *PMID:*: 29231037
+    / *Study Design:*: Cross-sectional; six groups stratified by available energy level and envelope adherence
+    / *Key Findings:*:
+
+        - Higher available energy + within-envelope exertion = best functional outcomes
+        - Overexertion diminishes the functional advantage of higher available energy
+        - Patients who stay within their energy envelope show better functioning regardless of absolute energy level
+        - Framework applies equally to cognitive and physical exertion — mental effort draws from the same limited energy reserve
+
+    / *Relevance:*: Provides the theoretical and empirical framework for all ME/CFS rest and activity recommendations including meditation adaptation. Cognitive exertion (effortful concentration meditation, prolonged guided visualization) must be treated identically to physical exertion within the pacing framework. Passive practices that minimize cognitive demand (body scan without sustained attention requirements, yoga nidra, lying still with sensory reduction) respect the energy envelope; standard MBSR programs with 2.5h/week structured sessions may not.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (Chronic Illness; cross-sectional; well-established theory)
+        - *Sample:* Sample size not specified in abstract; grouped stratification design
+        - *Replication:* Energy envelope concept well-supported across multiple Jason lab publications
+        - *Limitation:* Cross-sectional; self-reported energy levels; causality not established
 
 ==== Burgess et al.\ 2010 — Phase Response Curves: 0.5mg vs 3.0mg Melatonin
 
@@ -8847,7 +9039,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Study Design:*: Cell SnapShot (visual one-page reference summary; no primary data)
     / *Key Findings:*:
         - Provides overview of TRP channel family members in trigeminal/orofacial sensory system
-        - Covers: TRPV1 (heat >43°C, capsaicin, acidosis, inflammation), TRPA1 (cold <17°C, irritants, ROS), TRPM8 (cool <25°C, menthol), TRPV3/TRPV4 (warm), TRPM3 (noxious heat, steroids), TRPC4/TRPC5 (mechanosensation)
+        - Covers: TRPV1 (heat \>43°C, capsaicin, acidosis, inflammation), TRPA1 (cold \<17°C, irritants, ROS), TRPM8 (cool \<25°C, menthol), TRPV3/TRPV4 (warm), TRPM3 (noxious heat, steroids), TRPC4/TRPC5 (mechanosensation)
         - Includes receptor-channel overview for all major sensory modalities
     / *Conclusion:*: Authoritative reference summary for TRP channel family physiological roles from Cell. Useful for contextualizing where each TRP channel sits in the sensory-vascular landscape.
     / *Limitations:*: Reference format only — no primary data, no statistical analysis; limited to orofacial context (not systemic vascular roles).
@@ -9017,8 +9209,8 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Study Design:*: Proof-of-concept comparative study; DTI-ALPS glymphatic index + Dynamic Contrast Enhanced BBB permeability (Ktrans); longitudinal at 3 and 12 months
     / *Sample Size:*: 14 PASC subjects with cognitive impairment; 10 healthy controls; longitudinal n=10 patients
     / *Key Findings:*:
-        - Significant reduction in left-hemisphere DTI-ALPS index in PASC vs.\ controls (p<0.04) --- asymmetrical glymphatic dysfunction
-        - Strong inverse correlation between white matter BBB permeability (Ktrans) and glymphatic index (rho=0.66, p<0.03)
+        - Significant reduction in left-hemisphere DTI-ALPS index in PASC vs.\ controls ($p < 0.04$) --- asymmetrical glymphatic dysfunction
+        - Strong inverse correlation between white matter BBB permeability (Ktrans) and glymphatic index (rho=0.66, $p < 0.03$)
         - DTI-ALPS values did not significantly change over 12 months --- persistent dysfunction
         - First in vivo DTI-ALPS measurement of glymphatic function in Long COVID/PASC
     / *Conclusion:*: Long COVID brain fog is associated with measurable glymphatic dysfunction detectable by non-invasive MRI. The BBB-glymphatic correlation suggests a positive feedback loop relevant to ME/CFS.
@@ -9039,7 +9231,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Sample Size:*: n=59 (COVID_SD), n=39 (COVID_NSD)
     / *Key Findings:*:
         - COVID_SD showed significantly lower bilateral DTI-ALPS vs.\ COVID_NSD at baseline: left 1.23#sym.plus.minus 0.08 vs.\ 1.29#sym.plus.minus 0.11 (p=0.033); right 1.29#sym.plus.minus 0.08 vs.\ 1.33#sym.plus.minus 0.11 (p=0.013)
-        - Strong negative correlation between glymphatic dysfunction and sleep quality: left r=--0.636 (p=0.0002); right r=--0.539 (p<0.0001)
+        - Strong negative correlation between glymphatic dysfunction and sleep quality: left r=--0.636 (p=0.0002); right r=--0.539 ($p < 0.0001$)
         - 2-month follow-up: ALPS indices showed recovery trends paralleling improved sleep
     / *Conclusion:*: Post-viral sleep disorder tracks with glymphatic dysfunction in a biologically close model for ME/CFS. Recovery of sleep quality is associated with recovery of glymphatic function, suggesting reversibility.
     / *Limitations:*: Single-center; no non-COVID insomnia control; DTI-ALPS reflects awake-state function only; no tau/NfL biomarkers; modest effect sizes.

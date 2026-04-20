@@ -392,6 +392,8 @@ The mechanistic direction for T-type calcium channel blockers in ME/CFS sleep is
 
 *Research design:* A single-dose crossover study (ethosuximide 250 mg vs. placebo, overnight PSG) measuring delta power and alpha-delta index would directly answer the direction question. If delta increases and alpha intrusion decreases, the alpha component is T-channel-mediated. If delta decreases, T-channels are needed for delta generation and the drug worsens sleep. This is a low-cost mechanistically decisive trial that would either support or refute the thalamic calcium hypothesis.
 
+*Glymphatic endpoint:* The identification of NE-mediated vasomotion as the primary glymphatic pump (Section @sec:ch15-ne-vasomotion) adds a critical dimension to this trial. If ethosuximide restores delta frequency, it should also restore thalamocortical--vasomotion phase coupling, amplifying glymphatic benefits beyond subjective sleep quality improvement. Conversely, if ethosuximide worsens delta, it would further decouple these oscillatory systems and worsen glymphatic clearance. DTI-ALPS (diffusion tensor imaging along perivascular spaces) should be included as a pre/post endpoint, transforming a sleep-quality study into a glymphatic-function study.
+
 _Not a clinical recommendation._ Both agents have significant adverse effect profiles. This is a research question only.
 ] <oq:ch08-ethosuximide-direction>
 

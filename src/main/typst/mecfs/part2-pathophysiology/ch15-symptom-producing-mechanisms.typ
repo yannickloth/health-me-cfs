@@ -52,6 +52,113 @@ In acute infection, sickness behavior resolves as pathogens are cleared and cyto
 (Certainty: Medium. Mechanism coherent; direct PGE#sub[2] measurement in ME/CFS lacking.)
 ] <hyp:ch15-sickness-persistence>
 
+=== Orexin/Hypocretin Suppression as a Central Mediator of ME/CFS Fatigue and Sleep Dysfunction
+<sec:ch15-orexin>
+
+The orexin (hypocretin) system provides a mechanistic link between the cytokine-driven sickness behaviour described above and several cardinal ME/CFS symptoms: fatigue, unrefreshing sleep, autonomic instability, and the "tired but wired" paradox. Orexin-A and orexin-B are hypothalamic neuropeptides produced by a small population (~70,000 in humans) of neurons in the lateral and posterior hypothalamus. These neurons project widely to cortical, brainstem, and spinal targets and regulate sleep-wake transitions, arousal, autonomic function, and energy homeostasis @Sakurai1998orexin.
+
+*Evidence for orexin suppression in ME/CFS.* López-Amador (2025) conducted an integrative review of 27 studies examining the orexin system in ME/CFS and found consistent evidence of reduced orexin-A levels, with variable orexin-B responses that may serve as a subtyping biomarker @LopezAmador2025orexin. The review identified hypothalamic orexinergic dysfunction as a central pathophysiological feature of ME/CFS, supported by concurrent hypocortisolism and autonomic dysregulation. CSF orexin-A levels in ME/CFS appear to fall in an intermediate range ($tilde$250 $plus.minus$ 30 pg/mL) --- below healthy controls but above the $<$110 pg/mL diagnostic threshold for narcolepsy type 1 @LopezAmador2025orexin @Rauf2025narcolepsyOrexin.
+
+*Mechanism: cytokine-induced orexin suppression.* Animal studies have established a precise circuit through which inflammation suppresses orexin neurons. Grossberg et al.\ (2011) demonstrated that LPS-induced inflammation suppresses perifornical hypothalamic orexin neuron activity, reduces CSF orexin-A, and blocks dark-phase orexin activation @Grossberg2011orexinLethargy. Central orexin-A replacement fully reversed inflammation-induced lethargy, establishing causal direction: orexin suppression _drives_ fatigue rather than merely accompanying it. Importantly, orexin neurons themselves lack direct cytokine receptors; suppression is mediated by lateral hypothalamic neurotensin interneurons rather than the PGE#sub[2]/melanocortin pathways @Grossberg2011orexinLethargy. Gaykema and Goehler (2009) confirmed this using Fos immunohistochemistry: LPS reduced Fos expression in lateral orexin neurons during exploration (47% $arrow.r$ 25%) and dark-phase activity (42% $arrow.r$ 9%), with parallel suppression of histaminergic tuberomammillary neurons --- suggesting co-shutdown of the orexin--histamine arousal axis @Gaykema2009orexinSickness. Weymann et al.\ (2014) extended these findings to chemotherapy-induced fatigue, showing the same cytokine $arrow.r$ hypothalamic inflammation $arrow.r$ orexin suppression $arrow.r$ locomotor fatigue pathway, again reversible by central orexin-A rescue @Weymann2014orexinChemoFatigue.
+
+#hypothesis(title: [Chronic Orexin Suppression as a Central Driver of ME/CFS Fatigue and Sleep-Wake Instability])[
+*Certainty: 0.50.* In ME/CFS, chronic low-grade neuroinflammation --- sustained by peripheral cytokine signalling (Section @sec:ch15-cytokine-fatigue) and microglial activation (Section @sec:ch15-microglia) --- persistently suppresses lateral hypothalamic orexin neurons via neurotensin interneuron-mediated inhibition @Grossberg2011orexinLethargy @Gaykema2009orexinSickness. The resulting partial orexin deficiency (intermediate between health and narcolepsy) produces:
+
+    - *Fatigue:* Reduced orexin-mediated arousal drive; causal reversal demonstrated by orexin-A rescue in animal fatigue models @Grossberg2011orexinLethargy @Weymann2014orexinChemoFatigue
+    - *Unrefreshing sleep:* Impaired REM gating produces sleep fragmentation; orexin neuron activity normally suppresses inappropriate REM intrusions during NREM @Ito2023orexinREM
+    - *"Tired but wired" paradox:* Partial (not complete) orexin loss may create state-instability where neither wake nor sleep is fully consolidated --- the system oscillates between insufficient arousal and insufficient sleep depth
+    - *Autonomic instability:* Orexin modulates baroreflex sensitivity, sympathetic tone, and electrolyte balance; dysfunction may contribute to POTS/OI @Ruhrländer2025orexinPASC
+    - *Circadian desynchronisation:* Orexin neurons integrate metabolic, circadian, and immune signals; their dysfunction decouples these systems
+
+*Replication status:* Not yet replicated as a unified ME/CFS-specific mechanism. Individual components (reduced orexin-A: reviewed across 27 studies @LopezAmador2025orexin; cytokine-orexin suppression: 3 independent animal studies @Grossberg2011orexinLethargy @Gaykema2009orexinSickness @Weymann2014orexinChemoFatigue; REM gating by orexin: optogenetic causal proof @Ito2023orexinREM) are well-replicated. No ME/CFS-specific CSF orexin measurement study with simultaneous symptom correlation has been published.
+
+*Testable predictions:*
+
+    - (a) ME/CFS patients with CSF orexin-A $<$ 200 pg/mL have more severe fatigue and unrefreshing sleep than those with higher levels
+    - (b) Anti-inflammatory interventions (LDN, tocilizumab) that reduce neuroinflammation should increase CSF orexin-A levels and improve fatigue
+    - (c) Central orexin replacement (OX2R agonist) should improve fatigue and sleep quality in orexin-low ME/CFS patients
+    - (d) Orexin-B/orexin-A ratio distinguishes ME/CFS subtypes with different treatment response profiles
+
+*Treatment implication:* OX2R-selective agonists (danavorexton, TAK-861/oveporexton) are in clinical development for narcolepsy @Rauf2025narcolepsyOrexin. If ME/CFS involves partial orexin deficiency, these agents represent a mechanistically rational therapeutic class --- but no ME/CFS trial has been conducted. This is a research hypothesis, not a recommendation.
+] <hyp:ch15-orexin-suppression>
+
+*Post-infectious context.* The orexin suppression pathway has direct parallels across post-infectious conditions. Narcolepsy type 1 is a confirmed post-infectious orexin disease: H1N1 influenza and the Pandemrix vaccine triggered autoimmune destruction of $>$95% of orexin neurons in genetically susceptible individuals (HLA-DQB1\*06:02) @Rauf2025narcolepsyOrexin. ME/CFS may occupy a less severe position on the same spectrum: functional suppression rather than destruction, intermediate orexin levels rather than abolition, and reversibility (in principle) if the inflammatory drive resolves. In Long COVID/PASC, Ruhrländer et al.\ (2025) proposed orexin disruption as an explanation for POTS, endothelial dysfunction, and metabolic dysregulation @Ruhrländer2025orexinPASC. Heinicke et al.\ (2025) measured plasma orexin-A in 78 ICU COVID patients and found that levels correlated with survival (Cohen's $d=0.4$) and inversely with length of stay, with neuropeptide perturbations persisting at 2.5-year follow-up @Heinicke2025orexinCOVID.
+
+#speculation(title: [PGE#sub[2]--EP3 Self-Sustaining Feedback Loop: Orexin Suppression as a CNS Disease Maintenance Mechanism])[
+*Certainty: 0.30.* The orexin suppression and glymphatic failure mechanisms described above may form a closed positive feedback loop entirely within the CNS:
+
+Neuroinflammation (activated microglia) $arrow.r$ orexin neuron suppression (via PGE#sub[2]/EP3 signalling at the BBB endothelium and/or neurotensin interneuron-mediated inhibition in the lateral hypothalamus --- the two routes may be parallel or context-dependent @Grossberg2011orexinLethargy) $arrow.r$ reduced orexin tone $arrow.r$ impaired LC NE oscillatory quality $arrow.r$ reduced vasomotion amplitude $arrow.r$ impaired glymphatic clearance $arrow.r$ metabolite accumulation (tau, amyloid-$beta$, adenosine) $arrow.r$ microglial activation $arrow.r$ more neuroinflammation
+
+Once established, this loop operates independently of peripheral immune activation. Even if peripheral cytokine drive resolves (e.g., viral clearance), the CNS PGE#sub[2] source (activated microglia responding to accumulated waste) is self-sustaining. This may explain why ME/CFS persists long after the triggering infection has cleared.
+
+*Testable predictions:*
+
+    - (a) CSF PGE#sub[2] levels should correlate inversely with CSF orexin-A in ME/CFS patients
+    - (b) COX-2 inhibitors (which reduce PGE#sub[2]) should transiently improve sleep quality (measurable by overnight PSG delta power) in ME/CFS
+    - (c) EP3-selective antagonists should restore orexin neuron activity and improve glymphatic clearance in animal models of post-infectious fatigue
+
+*Treatment implication:* If this loop is a primary disease maintenance mechanism, breaking it at the PGE#sub[2] node (anti-inflammatory), the orexin node (OX2R agonist), or the glymphatic node (SWS-enhancing interventions) could each be sufficient to interrupt the cycle --- consistent with the multi-lock framework's prediction that some single-node interventions succeed in mild/moderate subtypes (Chapter @ch:causal-hierarchy). Research-stage hypothesis only, not a clinical recommendation.
+] <spec:ch15-pge2-orexin-feedback>
+
+#speculation(title: [The Orexin--Vasomotion--Glymphatic Triad: A Unified Sleep Failure Model])[
+*Certainty: 0.35.* Orexin neurons in the lateral hypothalamus project densely to the locus coeruleus (LC) @Sakurai1998orexin. During normal sleep, orexin withdrawal permits LC norepinephrine (NE) to settle into the infraslow ($tilde$0.05 Hz) oscillatory pattern that drives cerebral vasomotion and glymphatic clearance @Hauglund2025neVasomotion. If orexin-A is chronically low (as in ME/CFS, Section @sec:ch15-orexin), the LC never receives a clean on--off signal. Instead of crisp wake-state (high tonic NE) transitioning to sleep-state (infraslow NE oscillations), the LC operates in a dysregulated intermediate state: insufficient tonic drive for full wakefulness (daytime fatigue), yet failing to settle into the coherent infraslow oscillation needed for glymphatic pumping.
+
+This reframes orexin deficiency as simultaneously a _sleep quality_ problem (via disrupted LC oscillatory dynamics) and a _wakefulness_ problem --- explaining the "tired but wired" paradox where neither wake nor sleep is fully consolidated. No published paper connects orexin deficiency specifically to impaired NE oscillatory quality (as distinct from NE level).
+
+If orexin-A (OX1R-preferring) is selectively reduced while orexin-B (OX2R-preferring) is preserved @LopezAmador2025orexin, the result is: the histamine arousal system (OX2R-driven, tuberomammillary nucleus) remains partially active, while LC modulation (OX1R-driven) is impaired @Sakurai1998orexin --- producing the combination of residual arousal drive with disrupted sleep architecture.
+
+*Testable predictions:*
+
+    - (a) ME/CFS patients with lower CSF orexin-A should show reduced DTI-ALPS glymphatic index
+    - (b) ME/CFS patients should show reduced coherence of infraslow pupil oscillations (an LC NE proxy) vs controls
+    - (c) The orexin-B/orexin-A ratio should correlate with "tired but wired" severity and inversely with objective SWS duration
+] <spec:ch15-orexin-vasomotion-triad>
+
+#speculation(title: [Thalamocortical--Vasomotion Resonance Failure: Alpha-Delta Sleep as Glymphatic Decoupler])[
+*Certainty: 0.25.* The NE infraslow oscillation ($tilde$0.05 Hz) drives vasomotion at a specific frequency @Hauglund2025neVasomotion. Thalamocortical delta oscillations (0.5--4 Hz) nest _within_ these slower NE oscillations --- the two must be phase-locked for optimal glymphatic flow, because the neural slow wave drives blood volume changes that in turn drive CSF pulsation @Fultz2019csfOscillations.
+
+If CaV3.1 T-type calcium channels are dysfunctional in ME/CFS (Section @sec:thalamic-calcium-sleep), producing alpha instead of delta oscillations, the thalamocortical oscillations may no longer phase-lock properly with the NE infraslow rhythm. The result is not just impaired sleep quality but specifically impaired _resonance_ between the neural oscillation and the vascular oscillation. Both rhythms may be present but _decoupled_ --- producing an incoherent oscillatory pattern that cannot drive coordinated fluid dynamics. This predicts that alpha-delta sleep is worse for glymphatic function than simply reduced delta power, because incoherent oscillations actively disrupt the sequential slow-wave $arrow.r$ blood-volume-change $arrow.r$ CSF-pulse cascade.
+
+*Testable predictions:*
+
+    - (a) Phase-amplitude coupling between infraslow ($tilde$0.05 Hz) and delta (0.5--4 Hz) EEG oscillations should be reduced in ME/CFS versus controls during NREM sleep
+    - (b) Alpha-delta sleep phenotype should show worse DTI-ALPS glymphatic scores than low-delta-without-alpha sleep, distinguishing frequency disruption from amplitude disruption
+    - (c) Interventions that specifically restore delta frequency (not just increase total slow-wave power) should improve glymphatic metrics
+
+*Research feasibility:* Phase-coupling analysis can be performed computationally on existing ME/CFS polysomnography datasets at minimal cost --- no new data collection required.
+] <spec:ch15-thalamocortical-resonance>
+
+#speculation(title: [Glymphatic Failure as a Mechanism for Post-Exertional Cognitive Crash])[
+*Certainty: 0.25.* Physical and cognitive exertion increase neuronal metabolic waste production (extracellular potassium, lactate, adenosine, and potentially tau fragments). In health, the next sleep episode clears this waste via glymphatic flow. In ME/CFS with impaired glymphatic clearance, exercise-generated waste accumulates _additively_ because overnight clearance is insufficient.
+
+This predicts a ratchet effect: each day's activity adds waste that is only partially cleared overnight. The cumulative effect manifests as progressive cognitive deterioration over days of normal-for-the-patient activity, with recovery requiring multiple days of rest during which even the impaired glymphatic system eventually catches up.
+
+This mechanism explains why cognitive PEM can occur independently of muscular PEM --- the brain has its own waste accumulation dynamic independent of muscle damage via the NCX1/AIMM pathway (Chapter @ch:energy-metabolism).
+
+*Testable predictions:*
+
+    - (a) Cognitive PEM severity should correlate with objective sleep quality (delta power) from the preceding night
+    - (b) Plasma NfL or p-tau should show transient increases after cognitive exertion in ME/CFS patients but not controls
+    - (c) Interventions improving SWS quality should selectively improve cognitive PEM recovery more than muscular PEM recovery
+] <spec:ch15-glymphatic-pem-ratchet>
+
+#speculation(title: [Orexin--Autonomic--Vascular Convergence: Dual-Route Glymphatic Impairment])[
+*Certainty: 0.25.* Orexin neurons project to sympathetic preganglionic neurons and regulate cardiovascular sympathetic tone @Sakurai1998orexin @Ruhrländer2025orexinPASC. Reduced orexin-A thus impairs glymphatic clearance via _two independent routes_ (orexin receptor subtype projections --- OX1R to LC, OX2R to tuberomammillary nucleus --- are well-established pharmacology): (1) the LC NE oscillation route described in @spec:ch15-orexin-vasomotion-triad, and (2) peripheral vascular sympathetic regulation of arterial vasomotion. Perivascular sympathetic nerves controlling cerebral arterial vasomotion receive descending brainstem control that is modulated by orexinergic input. Orexin deficiency therefore reduces both the central (LC-mediated NE oscillation) and peripheral (sympathetic vasomotor) components of the glymphatic pump simultaneously.
+
+This dual-route convergence predicts that ME/CFS patients with documented orthostatic intolerance (POTS/NMH --- as a proxy for autonomic dysfunction severity) should show worse glymphatic clearance (DTI-ALPS) than ME/CFS patients _without_ OI, independent of sleep quality measures. The subgroup with both orexin reduction and severe autonomic dysfunction would have the most profound glymphatic impairment.
+] <spec:ch15-orexin-autonomic-vascular>
+
+#speculation(title: [Chronobiological Phase Separation: Internal Desynchrony Between Orexin and Cortisol Rhythms])[
+*Certainty: 0.20.* ME/CFS patients show flattened cortisol diurnal rhythm (Chapter @ch:endocrine). Orexin neurons receive input from the suprachiasmatic nucleus (SCN) and normally show circadian variation @Sakurai1998orexin. If neuroinflammatory PGE#sub[2] suppression of orexin is tonic (constant) rather than phasic, the orexin rhythm may flatten or shift _independently_ of the cortisol rhythm.
+
+When two master circadian outputs (HPA axis cortisol, hypothalamic orexin) desynchronise relative to each other, the result is _internal desynchrony_ --- distinct from simple circadian delay. The patient is not merely shifted but _incoherent_: alternating periods of paradoxical alertness (one system promoting wakefulness while the other promotes sleep) and sudden crashes (both systems simultaneously at nadir). This may explain the characteristic ME/CFS complaint of unpredictable energy fluctuations that do not follow a recognisable daily pattern.
+
+*Testable predictions:*
+
+    - (a) 24-hour orexin-A profiling (serial CSF or validated saliva proxy) in ME/CFS should show reduced amplitude and/or phase shift relative to cortisol rhythm
+    - (b) The degree of orexin--cortisol phase separation should correlate with subjective symptom variability (assessed by hourly symptom logging)
+] <spec:ch15-orexin-cortisol-desynchrony>
+
 // =============================================================================
 // PART B: NEUROCHEMICAL SYMPTOM GENERATORS
 // =============================================================================
@@ -101,6 +208,10 @@ Theophylline, a non-selective adenosine receptor antagonist with A1 and A2A acti
 Systematic review of polysomnographic studies in ME/CFS identifies elevated microarousal index as the single most consistent objective abnormality: all five studies measuring microarousal index found significantly elevated values in ME/CFS patients vs. healthy controls, while 13 studies found no difference in sleep onset latency @Maksoud2021SleepMECFS. The pattern — normal sleep initiation but pathological sleep fragmentation — is mechanistically consistent with an adenosine dysregulation hypothesis. Sleep onset depends on adenosine reaching a threshold level (preserved in ME/CFS, since sleep onset latency is normal), while sleep maintenance depends on continued adenosine-mediated suppression of arousal circuits across the night. Heightened A2A receptor sensitivity or elevated basal adenosine tone may paradoxically impair this maintenance function by saturating receptors and triggering compensatory arousal responses.
 
 The subjective–objective discrepancy (91% of patients report non-restorative sleep despite near-normal aggregate polysomnography scores) may reflect microarchitectural disruption not captured by standard sleep staging: elevated microarousals interrupt slow-wave sleep restorative function without prolonging sleep onset or dramatically altering sleep stage proportions.
+
+=== The Nap Paradox as Adenosine Illustration
+
+The failure of naps in ME/CFS encapsulates the adenosine dysregulation hypothesis. In healthy fatigue, a 20-minute nap clears accumulated adenosine and restores alertness. In ME/CFS, naps fail to restore because adenosine clearance is futile: the metabolic deficit (impaired mitochondrial ATP production $\to$ elevated AMP/ADP ratios $\to$ constitutive adenosine generation) regenerates sleep pressure immediately after any transient clearance @Gotts2015napCFS. The underlying fuel deficit persists regardless of rest duration. Additionally, alpha-delta intrusion (Section @sec:thalamic-calcium-sleep) operates during daytime naps as well as overnight sleep, preventing even brief naps from entering the restorative sleep stages where adenosine-mediated restoration would occur. The nap paradox illustrates a broader principle: in ME/CFS, normal recovery mechanisms exist but run on an energy substrate that is insufficient. Adenosine clearance works; adenosine regenerates immediately. Sleep spindles can theoretically be generated; thalamic circuits lack the metabolic support to sustain them. Glymphatic clearance activates during delta sleep; delta is contaminated by alpha intrusion. Each repair system is intact in principle and broken in practice. See Section @sec:nap-paradox for clinical implications.
 
 == Inflammatory Cytokine-Induced Somnolence and Fatigue
 <sec:ch15-cytokine-fatigue>
@@ -362,10 +473,66 @@ In ME/CFS, several factors converge to impair glymphatic function:
 
 *Pre-existing neuroinflammation.* Activated microglia disrupt perivascular flow dynamics.
 
+=== Norepinephrine Vasomotion as the Glymphatic Pump
+<sec:ch15-ne-vasomotion>
+
+Recent mechanistic work has identified the primary physical driver of glymphatic flow: infraslow oscillations in locus coeruleus (LC) norepinephrine (NE) release generate rhythmic vasomotion in cerebral arteries, which in turn drives CSF pulsation through perivascular spaces @Hauglund2025neVasomotion. Hauglund et al.\ (2025) demonstrated using LC-specific optogenetics that NE oscillations are both necessary and sufficient for glymphatic clearance during NREM sleep --- optogenetic silencing of LC abolished glymphatic transport, while patterned LC stimulation restored it. Zolpidem, a Z-drug commonly prescribed for sleep in ME/CFS, suppressed NE oscillation amplitude by approximately 50% and proportionally reduced glymphatic flow @Hauglund2025neVasomotion.
+
+In humans, Fultz et al.\ (2019) provided the first direct evidence of this cascade using simultaneous EEG and fast fMRI: during NREM sleep, large slow waves of neural activity ($<$ 0.1 Hz) preceded oscillations in cerebral blood volume, which in turn preceded pulsatile CSF inflow into the fourth ventricle @Fultz2019csfOscillations. The coupling is sequential and directional: neural slow wave $arrow.r$ blood volume change $arrow.r$ CSF pulse. This establishes that glymphatic clearance depends not merely on sleep stage (SWS vs.\ REM) but on the integrity of neurovascular coupling within SWS --- a distinction with direct ME/CFS relevance.
+
+*Implications for ME/CFS.* ME/CFS patients have documented LC-noradrenergic dysfunction: the NIH deep phenotyping study found reduced DHPG (the primary NE metabolite) in cerebrospinal fluid, indicating impaired central catecholamine turnover @Walitt2024NIH. If LC-NE oscillatory dynamics are disrupted --- whether from reduced LC neuron firing capacity, altered NE synthesis, or dysregulated feedback --- the vasomotion-driven CSF pump would operate at reduced amplitude regardless of sleep architecture quality. This creates a double hit: alpha-delta intrusion reduces the time spent in SWS (reducing the _window_ for clearance), while LC-NE dysfunction reduces the _efficiency_ of clearance during whatever SWS occurs.
+
+Arterial pulsatility provides an independent contributor to glymphatic flow. Hablitz and Nedergaard (2021) showed that reduced arterial pulsatility --- from cardiovascular deconditioning, low blood pressure, or reduced cardiac output --- can decrease glymphatic transport by up to 50% @HablitzNedergaard2021glymphatic. ME/CFS patients with orthostatic intolerance (OI) and POTS exhibit precisely this pattern: reduced cerebral perfusion pressure during upright posture and, potentially, reduced nocturnal arterial pulsatility from autonomic dysfunction. The convergence of LC-NE dysfunction, reduced arterial pulsatility, and impaired SWS architecture represents a triple hit on glymphatic clearance.
+
 #hypothesis(title: [Glymphatic Failure as Driver of Cognitive Symptoms and Unrefreshing Sleep])[
 The glymphatic system — a brain-wide CSF/ISF exchange network driven by astrocytic aquaporin-4 (AQP4) water channels and perivascular fluid dynamics — clears metabolic waste, tau, and amyloid-$beta$ primarily during slow-wave sleep @Xie2013glymphatic. In ME/CFS, multiple factors converge to impair this system: (1) reduced SWS content from alpha-delta sleep intrusion, (2) chronic adrenergic dysregulation (elevated norepinephrine) inhibiting AQP4 polarization at astrocytic endfeet, and (3) pre-existing neuroinflammation disrupting perivascular flow dynamics @NematGorgani2025glymphatic. Waste accumulation then activates the NLRP3 inflammasome in microglia, producing IL-1$beta$ and IL-18 that further disrupt sleep architecture @NematGorgani2025glymphatic @Ding2025glymphaticAD. The resulting vicious cycle — impaired glymphatic clearance $\to$ waste accumulation $\to$ neuroinflammation $\to$ worse sleep — may explain why ME/CFS patients report unrefreshing sleep despite adequate total sleep duration @Wostyn2018glymphatic @NematGorgani2025glymphatic.
 (Certainty: Low-Medium for the ME/CFS-specific application; the glymphatic mechanism itself is High certainty. Direct glymphatic imaging studies in ME/CFS are lacking as of 2025.)
 ] <hyp:ch15-glymphatic-vicious-cycle>
+
+The glymphatic hypothesis additionally has implications for drug safety. Several medications commonly used for sleep in ME/CFS --- notably zolpidem and other Z-drugs --- suppress the NE oscillations that drive glymphatic flow by approximately 50% @Hauglund2025neVasomotion. Orexin receptor antagonists, alpha-1 adrenergic blockers (doxazosin, prazosin), and antipsychotics with adrenergic antagonism (low-dose quetiapine) may similarly impair the vasomotion-dependent CSF pump through their effects on noradrenergic signalling @Zhu2025noradrenergicGlymphatic. The clinical magnitude of this effect in humans is unknown, but the mechanism raises the possibility that some sleep medications, while improving subjective sleep, may paradoxically impair the waste-clearance function that makes sleep restorative.
+
+#warning-env(title: [Glymphatic-Impairing Medications in ME/CFS Sleep Management])[
+Several drug classes used for ME/CFS sleep management may suppress the norepinephrine oscillations that drive glymphatic clearance during NREM sleep @Hauglund2025neVasomotion @Zhu2025noradrenergicGlymphatic:
+
+    - *Z-drugs (zolpidem, zopiclone, eszopiclone):* Suppress NE oscillation amplitude by ~50% in animal models @Hauglund2025neVasomotion
+    - *Orexin receptor antagonists (suvorexant, lemborexant, daridorexant):* LC pathway effects may reduce NE-driven vasomotion @Zhu2025noradrenergicGlymphatic
+    - *Alpha-1 adrenergic blockers (doxazosin, prazosin):* Directly reduce vasomotion amplitude @Zhu2025noradrenergicGlymphatic
+    - *Low-dose quetiapine:* Alpha-1 blockade component may impair vasomotion @Zhu2025noradrenergicGlymphatic
+
+This evidence is from animal models; clinical magnitude in humans is unknown. This does _not_ constitute a recommendation to discontinue these medications. The trade-off between improved subjective sleep (which may itself enhance glymphatic function via SWS consolidation) and potential impairment of NE-driven clearance has not been quantified. Clinicians should be aware of this emerging mechanistic concern. No ME/CFS-specific data exist.
+] <warn:ch15-glymphatic-medications>
+
+=== Long-Term Consequences: Neurodegeneration Risk from Chronic Glymphatic Impairment
+<sec:ch15-neurodegeneration-risk>
+
+The glymphatic system clears not only acute metabolic waste but also the protein aggregates implicated in neurodegenerative disease: tau, amyloid-$beta$, and alpha-synuclein. If glymphatic clearance is chronically impaired in ME/CFS --- as the mechanisms in Sections @sec:ch15-glymphatic and @sec:ch15-ne-vasomotion predict --- the question of long-term neurodegeneration risk arises.
+
+The evidence linking sleep disruption to neurodegenerative protein accumulation is quantitative. Holth et al.\ (2019) demonstrated in mice that brain interstitial fluid (ISF) tau increases approximately 90% during normal wakefulness compared to sleep, and that chronic sleep deprivation accelerates tau seeding and spreading in a tauopathy model @Holth2019tauSleep. In humans, a single night of sleep deprivation increased cerebrospinal fluid tau by more than 50% @Holth2019tauSleep. Ju et al.\ (2017) showed that targeted disruption of slow-wave activity (SWA) --- using acoustic stimulation to degrade SWS without reducing total sleep time --- elevated CSF amyloid-$beta$40 and amyloid-$beta$42 levels, with SWA disruption magnitude correlating with amyloid increase ($r=0.61$) @Ju2017slowWaveAmyloid. Actigraphy-measured sleep quality also correlated with CSF tau levels @Ju2017slowWaveAmyloid. Crucially, Ju et al.\ disrupted SWA quality rather than sleep duration --- precisely the pattern seen in ME/CFS alpha-delta sleep.
+
+The closest tested analogue is Long COVID. Chaganti et al.\ (2025) measured glymphatic function using DTI-ALPS (diffusion tensor imaging along perivascular spaces) in Long COVID patients with brain fog and found significant reduction in the left-hemisphere DTI-ALPS index compared to controls, inversely correlated with blood-brain barrier permeability @Chaganti2025longCovidGlymphatic. Tang et al.\ (2025) independently found reduced DTI-ALPS in post-COVID sleep disorder patients ($n=59$), with strong correlation between DTI-ALPS and sleep quality ($r=-0.64$) and partial reversibility over time @Tang2025covidSleepDTIALPS. Both studies provide the methodological blueprint --- and the mechanistic precedent --- for equivalent measurements in ME/CFS.
+
+#speculation(title: [Chronic Glymphatic Impairment as a Risk Factor for Accelerated Neurodegeneration in ME/CFS])[
+*Certainty: 0.25.* ME/CFS patients with chronic impairment of slow-wave sleep quality (alpha-delta intrusion), LC-NE oscillatory dysfunction (Section @sec:ch15-ne-vasomotion), and reduced arterial pulsatility (OI/POTS) may accumulate tau and amyloid-$beta$ at rates exceeding age-matched controls. If sustained over years to decades, this triple-hit on glymphatic clearance could elevate long-term risk of Alzheimer's disease or related tauopathies.
+
+*Supporting evidence:*
+
+    - One night of human sleep deprivation $arrow.r$ $>$50% CSF tau increase @Holth2019tauSleep
+    - Targeted SWA disruption (not sleep duration reduction) $arrow.r$ elevated CSF amyloid-$beta$ ($r=0.61$) @Ju2017slowWaveAmyloid
+    - Chronic mouse sleep deprivation $arrow.r$ tau pathology spreading @Holth2019tauSleep
+    - Long COVID shows reduced DTI-ALPS glymphatic index, persistent at 12 months @Chaganti2025longCovidGlymphatic
+    - Post-COVID sleep disorder correlates with DTI-ALPS reduction ($r=-0.64$), partially reversible @Tang2025covidSleepDTIALPS
+
+*Critical gap:* No study has measured CSF or plasma tau, phospho-tau, amyloid-$beta$, or neurofilament light chain (NfL) in ME/CFS patients specifically to test this prediction. The Omdal 2026 Long COVID study found no NfL elevation at median 69 weeks post-infection (Section @obs:omdal2026-null-nfl), but this tested acute neuronal injury, not the gradual protein accumulation predicted by chronic glymphatic impairment over years.
+
+*Testable predictions:*
+
+    - (a) ME/CFS patients with $>$5 years disease duration show elevated plasma p-tau181 and/or NfL vs.\ age-matched controls
+    - (b) ME/CFS patients show reduced DTI-ALPS glymphatic index, correlating with brain fog severity and disease duration
+    - (c) Interventions improving SWS quality in ME/CFS (sodium oxybate, trazodone, circadian resynchronisation) reduce CSF tau relative to baseline
+    - (d) Registry-linkage studies show elevated age-adjusted dementia incidence in ME/CFS cohorts vs.\ general population
+
+*Important limitation:* This is extrapolation from sleep deprivation studies and Long COVID imaging to a disease in which neither glymphatic function nor neurodegeneration biomarkers have been directly measured. The speculation is mechanistically grounded but entirely untested in ME/CFS.
+] <spec:ch15-neurodegeneration-risk>
 
 The glymphatic hypothesis provides a mechanistic rationale for a clinically observed but poorly explained phenomenon: ME/CFS patients often sleep for adequate or extended durations yet report profoundly unrefreshing sleep and persistent cognitive impairment @Wostyn2018glymphatic. Since glymphatic clearance is maximally coupled to delta-oscillation (slow-wave) sleep — not total sleep duration — the alpha-delta intrusion pattern documented in ME/CFS polysomnography (non-delta electroencephalographic activity during NREM sleep) would suppress glymphatic flow regardless of how long the patient sleeps @NematGorgani2025glymphatic @Xie2013glymphatic. Treatment implication: improving sleep quality (SWS content) is likely more therapeutically relevant than extending sleep duration @NematGorgani2025glymphatic.
 == Central Sensitization and Nociplastic Pain
@@ -690,7 +857,14 @@ Each symptom-producing mechanism identified in this chapter represents a potenti
 
 *Domain 3: Systems-Level Amplifier Suppression.*
 
-  - Sleep quality optimization: Improving slow-wave sleep (SWS) content (not just duration) drives glymphatic clearance. Approaches: circadian alignment, sleep hygiene, potentially low-dose melatonin. Evidence: Mechanistically grounded; direct glymphatic studies in ME/CFS lacking.
+  - *Sleep-glymphatic axis optimization:* Improving slow-wave sleep (SWS) content (not just duration) drives glymphatic clearance. The NE-vasomotion mechanism (Section @sec:ch15-ne-vasomotion) adds an important drug-selection criterion: sleep aids should preferably _not_ suppress the NE oscillations that drive glymphatic flow.
+    - *Trazodone (25--50 mg at bedtime):* Increases SWS via 5-HT2A antagonism without significantly suppressing NE oscillations. At low doses, the alpha-1 blocking effect is weak. Preliminary Alzheimer's disease data suggest that trazodone-enhanced SWS may reduce CSF tau accumulation, consistent with the SWS--glymphatic--tau link established by Holth et al.\ and Ju et al.\ @Holth2019tauSleep @Ju2017slowWaveAmyloid. Strongest candidate for glymphatic-friendly sleep medication in ME/CFS (certainty: 0.40 for SWS effect, 0.25 for glymphatic effect). No ME/CFS-specific trazodone--glymphatic study exists.
+    - *Gabapentin/pregabalin:* Increase SWS via alpha-2-delta ligand mechanism without direct NE suppression.
+    - *Z-drugs (zolpidem, zopiclone):* Effective for sleep initiation but suppress NE oscillation amplitude by $tilde$50% in animal models @Hauglund2025neVasomotion. May paradoxically impair glymphatic function while improving subjective sleep (Section @warn:ch15-glymphatic-medications). Reserve for intermittent use.
+    - *Glycine (3 g at bedtime):* Improves SWS onset via hypothalamic cooling (peripheral vasodilation reduces core body temperature, triggering SWS). May bypass the impaired autonomic thermoregulatory mechanism in ME/CFS. Extremely safe, inexpensive, no prescription required. Evidence: RCTs in healthy adults and insomnia; ME/CFS-specific data absent (certainty: 0.35).
+    - *Phase-locked acoustic slow-wave stimulation:* Pink noise timed to the up-phase of slow oscillations enhances delta power and SWS depth. Commercial devices available (bone conduction). Non-pharmacological, no NE suppression risk. May stabilise delta oscillations and prevent alpha intrusion in ME/CFS patients with intact but unstable thalamocortical circuits. Evidence: validated in healthy adults and MCI; ME/CFS-specific application untested (certainty: 0.35). Caveat: ME/CFS patients with sound sensitivity may not tolerate.
+    - *Circadian alignment:* DLMO-timed melatonin (0.5--1 mg) + morning bright light ($>$10,000 lux, 30 min within 30 min of waking) + strict evening darkness ($<$1 lux from 2 hours before bed). Aggressive protocol aims to maximise orexin rhythm amplitude: morning light activates SCN $arrow.r$ orexin neuron projections, boosting the morning orexin peak even in reduced-orexin states (Section @sec:ch15-orexin). Evidence: Medium @castromarrero2021melatonin.
+    - *Lateral sleeping position:* Enhances glymphatic transport vs supine or prone in rodent models @Lee2015sleepPosition. Left lateral decubitus optimises CSF flow geometry. Already recommended for severe ME/CFS in Chapter @ch:urgent-action-severe. Evidence: rodent only; human clinical magnitude unknown (certainty: 0.20).
   - Antioxidant support: NAC (N-acetylcysteine 1800mg/day), CoQ10 + NADH, melatonin. Evidence: Pilot/observational. Best as multi-agent approach per NO/ONOO#super[-] cycle prediction.
   - NMDA antagonism for central sensitization: Low-dose ketamine infusions, memantine, low-dose dextromethorphan. Evidence: Established in other pain syndromes; not directly tested in ME/CFS.
   - Alpha-2-delta ligands: Pregabalin, gabapentin. Evidence: Established in fibromyalgia; ME/CFS-specific evidence absent.

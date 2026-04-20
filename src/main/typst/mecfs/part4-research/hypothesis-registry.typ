@@ -3075,3 +3075,132 @@ Motivated by: LinkedIn comment on v7 calcium post (Lansky 2023/2025 TRPV3 pentam
 ) <tab:registry-trp-pentamer-vascular-2026-04-19>
 ] // end landscape page
 
+=== Entries Added 2026-04-20: Orexin/Hypocretin Suppression in ME/CFS
+
+Motivated by: López-Amador 2025 (integrative review, 27 studies) @LopezAmador2025orexin; Grossberg et al.\ 2011 @Grossberg2011orexinLethargy; Gaykema \& Goehler 2009 @Gaykema2009orexinSickness; Weymann et al.\ 2014 @Weymann2014orexinChemoFatigue; Ito et al.\ 2023 @Ito2023orexinREM; Rauf et al.\ 2025 @Rauf2025narcolepsyOrexin; Ruhrländer et al.\ 2025 @Ruhrländer2025orexinPASC; Heinicke et al.\ 2025 @Heinicke2025orexinCOVID.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Chronic Orexin Suppression as Central Driver of ME/CFS Fatigue and Sleep-Wake Instability],
+    [H], [0.50],
+    [Chronic neuroinflammation suppresses lateral hypothalamic orexin neurons via neurotensin interneurons (Grossberg 2011). Partial orexin deficiency (CSF ~250 pg/mL, intermediate between health and narcolepsy) drives fatigue, unrefreshing sleep, autonomic instability, and "tired but wired" paradox. (a) CSF orexin-A $<$200 correlates with worse fatigue and sleep quality. (b) Anti-inflammatory treatment increases CSF orexin-A. (c) OX2R agonist improves fatigue in orexin-low ME/CFS. (d) Orexin-B/A ratio distinguishes subtypes.],
+    [CSF orexin-A measurement --- feasible, standard lab. López-Amador 2025 reviews 27 studies showing reduced orexin-A. No ME/CFS OX2R agonist trial. Danavorexton/oveporexton in narcolepsy development. Animal causal proof: 3 independent studies.],
+    [Ch.15 @hyp:ch15-orexin-suppression],
+
+    [Orexin-B as ME/CFS Subtyping Biomarker],
+    [S], [0.35],
+    [Orexin-B variability (unlike consistent orexin-A reduction) may distinguish ME/CFS subtypes with different autonomic profiles and treatment responses. (a) Orexin-B correlates with POTS severity. (b) OX2R agonist preferentially benefits low-orexin-B patients. (c) Orexin-B predicts sleep architecture phenotype.],
+    [CSF orexin-B measurement feasible but rarely done in ME/CFS. López-Amador 2025 notes variable responses. No subtyping study using orexin-B. Plasma orexin correlation with CSF uncertain.],
+    [Ch.15 @sec:ch15-orexin],
+
+    [ME/CFS as Intermediate Orexin Deficiency on Narcolepsy Spectrum],
+    [S], [0.30],
+    [ME/CFS occupies CSF orexin-A zone between health ($>$300 pg/mL) and NT1 ($<$110 pg/mL). Functional suppression rather than neuronal destruction; potentially reversible. Post-infectious trigger parallel (H1N1→NT1 vs EBV→ME/CFS). (a) CSF orexin-A in ME/CFS falls 110--250 pg/mL range. (b) Unlike NT1, ME/CFS orexin levels fluctuate with disease activity. (c) Orexin neurons intact on post-mortem (if ever available).],
+    [CSF orexin-A measurement with simultaneous immune markers --- not done. Longitudinal orexin tracking during remission/relapse --- technically feasible. Narcolepsy registry comparison for shared HLA alleles.],
+    [Ch.15 @sec:ch15-orexin],
+  ),
+  caption: [Orexin/hypocretin suppression (2026-04-20): one hypothesis and two speculations. Cytokine-driven orexin neuron suppression as central mediator of ME/CFS fatigue, unrefreshing sleep, and autonomic instability. López-Amador 2025 27-study review as primary evidence.],
+  kind: table,
+) <tab:registry-orexin-2026-04-20>
+] // end landscape page
+
+=== Entries Added 2026-04-20: Glymphatic NE-Vasomotion and Neurodegeneration Risk
+
+Motivated by: Hauglund et al.\ 2025 (Cell) @Hauglund2025neVasomotion; Fultz et al.\ 2019 (Science) @Fultz2019csfOscillations; Holth et al.\ 2019 (Science) @Holth2019tauSleep; Ju et al.\ 2017 (Brain) @Ju2017slowWaveAmyloid; Chaganti et al.\ 2025 (BMC Neurology) @Chaganti2025longCovidGlymphatic; Tang et al.\ 2025 (Nat Sci Sleep) @Tang2025covidSleepDTIALPS; Zhu et al.\ 2025 (Mol Psychiatry) @Zhu2025noradrenergicGlymphatic.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [LC-NE Oscillatory Dysfunction Impairs Glymphatic Clearance in ME/CFS (Triple Hit)],
+    [H], [0.40],
+    [LC-NE dysfunction (DHPG deficit, Walitt 2024) + alpha-delta SWS intrusion + reduced arterial pulsatility (OI/POTS) converge to impair glymphatic clearance via three independent mechanisms. NE oscillations drive vasomotion (Hauglund 2025); SWS drives neural slow-wave CSF coupling (Fultz 2019); arterial pulsatility drives perivascular convection (Hablitz 2021). (a) ME/CFS shows reduced DTI-ALPS vs controls. (b) DTI-ALPS correlates with brain fog severity and OI severity. (c) LC-NE-sparing sleep aids (trazodone, gabapentin) preserve glymphatic flow better than NE-suppressing agents (zolpidem, quetiapine).],
+    [DTI-ALPS imaging feasible (Chaganti 2025 protocol). Brain fog + OI + sleep quality correlation analysis. Head-to-head sleep medication comparison with overnight DTI-ALPS pre/post --- technically challenging but feasible. No ME/CFS glymphatic imaging study exists.],
+    [Ch.15 @sec:ch15-ne-vasomotion],
+
+    [Chronic Glymphatic Impairment as Neurodegeneration Risk Factor in ME/CFS],
+    [S], [0.25],
+    [Years-to-decades of impaired tau/amyloid clearance may elevate Alzheimer's risk. (a) ME/CFS $>$5 yrs shows elevated plasma p-tau181 and/or NfL vs controls. (b) DTI-ALPS correlates with disease duration. (c) SWS-improving interventions reduce CSF tau. (d) Registry-linkage shows elevated age-adjusted dementia incidence in ME/CFS.],
+    [Plasma p-tau181/NfL measurement --- feasible, low cost. DTI-ALPS by disease duration --- cross-sectional feasible. Registry linkage (Danish, UK Biobank) --- data exists. No study has tested any of these predictions. Omdal 2026 null NfL in Long COVID (69 wks) tests acute injury, not gradual accumulation.],
+    [Ch.15 @spec:ch15-neurodegeneration-risk],
+
+    [Z-Drugs and Alpha-Blockers Paradoxically Impair Glymphatic Function],
+    [S], [0.30],
+    [Zolpidem suppresses NE oscillations ~50% (Hauglund 2025, mouse). Alpha-1 blockers reduce vasomotion amplitude (Zhu 2025). Orexin antagonists affect LC pathway. These drugs improve subjective sleep but may impair waste clearance. (a) DTI-ALPS is lower in ME/CFS patients on Z-drugs vs LC-sparing alternatives. (b) Switching from zolpidem to trazodone improves brain fog without worsening sleep. (c) NE oscillation amplitude (measurable via pupillometry proxy) is suppressed by Z-drugs in ME/CFS patients.],
+    [Retrospective chart review (brain fog by sleep medication class) --- feasible. Crossover switching study --- feasible. Mouse data strong; human clinical magnitude unknown. No ME/CFS-specific data.],
+    [Ch.15 @warn:ch15-glymphatic-medications],
+  ),
+  caption: [Glymphatic NE-vasomotion and neurodegeneration risk (2026-04-20): one hypothesis and two speculations. NE oscillatory vasomotion identified as primary glymphatic pump; ME/CFS LC-NE, SWS, and arterial pulsatility deficits converge on triple-hit clearance failure. Long-term neurodegeneration risk predicted but untested. Drug warning for NE-suppressing sleep medications.],
+  kind: table,
+) <tab:registry-glymphatic-ne-neurodegeneration>
+] // end landscape page
+
+=== Entries Added 2026-04-20: Sleep--Glymphatic--Orexin Creative Synthesis
+
+Motivated by: Creative brainstorm synthesising Hauglund 2025, Fultz 2019, López-Amador 2025, Holth 2019, Ju 2017, and existing document content (ch08 thalamic calcium, ch15 cytokine-to-brain, ch33 bistability model).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Orexin--Vasomotion--Glymphatic Triad: Unified Sleep Failure Model],
+    [S], [0.35],
+    [Chronic orexin-A reduction prevents clean LC on--off signal $arrow.r$ LC operates in dysregulated intermediate state $arrow.r$ insufficient wakefulness AND insufficient NE oscillation quality for glymphatic pumping. Selective OX1R (LC-targeting) vs OX2R (histamine) impairment explains "tired but wired." (a) Lower CSF orexin-A $arrow.r$ lower DTI-ALPS. (b) Reduced infraslow pupil oscillation coherence in ME/CFS. (c) Orexin-B/A ratio correlates with "tired but wired" severity.],
+    [DTI-ALPS + CSF orexin-A in same cohort --- not done. Pupillometry infraslow analysis --- novel, feasible with consumer eye tracker. OX1R/OX2R differential established neuroscience; ME/CFS application novel.],
+    [Ch.15 @spec:ch15-orexin-vasomotion-triad],
+
+    [PGE#sub[2]--EP3 Self-Sustaining CNS Feedback Loop],
+    [S], [0.30],
+    [PGE#sub[2] $arrow.r$ EP3 on orexin neurons $arrow.r$ reduced orexin $arrow.r$ impaired LC NE oscillation $arrow.r$ reduced glymphatic clearance $arrow.r$ waste accumulation $arrow.r$ microglial activation $arrow.r$ more PGE#sub[2]. Self-sustaining after peripheral immune resolution. (a) CSF PGE#sub[2] inversely correlates with CSF orexin-A. (b) COX-2 inhibitors transiently improve delta power. (c) EP3 antagonists restore orexin activity in animal fatigue model.],
+    [CSF PGE#sub[2] + orexin-A co-measurement --- feasible but not done. EP3 antagonists available as research tools (L-798,106, DG-041). Animal model proof-of-concept is the critical next step.],
+    [Ch.15 @spec:ch15-pge2-orexin-feedback],
+
+    [Glymphatic Ratchet in Cognitive Post-Exertional Malaise],
+    [S], [0.25],
+    [Impaired overnight glymphatic clearance $arrow.r$ additive waste accumulation from daily activity $arrow.r$ progressive cognitive deterioration over days $arrow.r$ recovery requires multiple rest days. Explains cognitive PEM independent of muscular PEM. (a) Cognitive PEM correlates with prior-night delta power. (b) Plasma NfL/p-tau shows transient post-cognitive-exertion increase. (c) SWS-improving interventions preferentially improve cognitive vs muscular PEM recovery.],
+    [Daily diary + home EEG correlation --- feasible. Post-exertion p-tau measurement --- feasible with Simoa platform. SWS intervention + differential PEM outcome --- requires stratified trial design.],
+    [Ch.15 @spec:ch15-glymphatic-pem-ratchet],
+
+    [Thalamocortical--Vasomotion Resonance Failure],
+    [S], [0.25],
+    [Alpha-delta sleep decouples thalamocortical oscillations from NE infraslow rhythm. Phase-locking between $tilde$0.05 Hz (NE) and 0.5--4 Hz (delta) is required for coordinated glymphatic flow. Alpha intrusion produces incoherent oscillatory pattern worse for clearance than simple low-delta. (a) Phase-amplitude coupling between infraslow and delta reduced in ME/CFS. (b) Alpha-delta sleep shows worse DTI-ALPS than low-delta-without-alpha. (c) Delta-frequency-restoring interventions improve glymphatic metrics.],
+    [Phase-coupling analysis of existing ME/CFS PSG datasets --- LOW COST, no new data needed, computational only. DTI-ALPS by EEG phenotype --- feasible as part of imaging study.],
+    [Ch.15 @spec:ch15-thalamocortical-resonance],
+
+    [Orexin--Cortisol Phase Separation as Internal Desynchrony],
+    [S], [0.20],
+    [If PGE#sub[2] suppression of orexin is tonic (constant) rather than phasic, orexin rhythm flattens independently of cortisol rhythm. Result: two master circadian outputs (cortisol, orexin) desynchronise $arrow.r$ internal incoherence distinct from simple delay. Explains "out of phase" feeling with alternating paradoxical alertness and crashes. (a) 24h orexin-A profiling shows reduced amplitude and phase shift vs cortisol. (b) Orexin--cortisol phase separation correlates with symptom variability.],
+    [24h serial CSF/saliva orexin profiling --- technically challenging but feasible. Proxy via pupillometry circadian pattern may be possible.],
+    [Ch.15 @spec:ch15-orexin-cortisol-desynchrony],
+
+    [Orexin--Autonomic--Vascular Convergence: Dual-Route Glymphatic Impairment],
+    [S], [0.25],
+    [Orexin neurons project to sympathetic preganglionic neurons. Orexin-A reduction impairs glymphatic clearance via two independent routes: (1) LC NE oscillation quality, (2) peripheral vascular sympathetic regulation of arterial vasomotion. Dual-route convergence. Prediction: ME/CFS patients with OI/POTS show worse DTI-ALPS than ME/CFS patients without OI, independent of sleep quality.],
+    [DTI-ALPS stratified by OI status --- feasible as subgroup analysis within DTI-ALPS study. Autonomic testing + overnight PSG + MRI in same cohort.],
+    [Ch.15 @spec:ch15-orexin-autonomic-vascular],
+  ),
+  caption: [Sleep--glymphatic--orexin creative synthesis (2026-04-20): six speculations connecting orexin dysfunction, NE vasomotion, and glymphatic clearance into novel mechanistic loops. PGE#sub[2]--EP3 feedback loop, cognitive PEM ratchet, thalamocortical--vasomotion resonance failure, dual-route glymphatic impairment, and orexin--cortisol desynchrony are novel constructs.],
+  kind: table,
+) <tab:registry-sleep-glymphatic-creative>
+] // end landscape page
+
