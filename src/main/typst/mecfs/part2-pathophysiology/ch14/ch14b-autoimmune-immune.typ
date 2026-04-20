@@ -109,6 +109,28 @@ Potential factors:
 Identifying responder biomarkers is critical for treatment personalization.
 ]
 
+=== Competing Hypotheses for Immunoadsorption Mechanism
+
+The Anft et al. (2025) discordance—autoantibodies eliminated but symptoms unchanged—combined with the BC007 Phase II failure and Germain 2025 comprehensive null, demands consideration of alternative mechanisms by which immunoadsorption might produce the 70% open-label response rate observed at Charité.
+
+#speculation(title: [Bystander Clearance: IA Works by Removing Non-Autoantibody IgG])[
+*(Certainty: 0.40.)* Immunoadsorption is non-selective—it removes all IgG, not just GPCR autoantibodies. The therapeutic effect may come from removing other pathogenic immunoglobulin fractions: pro-inflammatory IgG glycoforms (agalactosylated IgG, known to drive inflammation via Fc$gamma$RIIIa in RA), circulating immune complexes that activate complement, anti-neuronal antibodies not captured by GPCR panels, anti-mitochondrial antibodies, or persistent soluble spike protein (confirmed reduced by Anft 2025 @Anft2025immunoadsorption). The Germain 2025 REAP/Luminex null @Germain2025autoantibody is devastating for GPCR autoantibodies specifically, but IA removes _everything_. The "active ingredient" may be clearance of a pathogenic IgG fraction that current assays do not measure.
+
+*Falsifiable prediction:* IA responders will have more agalactosylated (pro-inflammatory) IgG pre-treatment than non-responders. Selective removal of agalactosylated IgG (using lectin affinity columns) would reproduce IA's clinical effect without removing GPCR autoantibodies. Not yet tested (2026).
+] <spec:bystander-clearance>
+
+#hypothesis(title: [Threshold Duration: Anft Rebound Was Too Fast for Downstream Recovery])[
+*(Certainty: 0.50.)* The Anft 2025 symptom non-response @Anft2025immunoadsorption may reflect insufficient duration of autoantibody suppression rather than mechanistic failure. Autoantibody rebound within one month means patients never achieved a sustained low-autoantibody state. Even if autoantibodies cause tissue damage (endothelial dysfunction, receptor internalization, neuroinflammation), removing the cause does not instantly reverse the consequence. Recovery requires: (1) autoantibody clearance (days—achieved); (2) receptor re-expression on cell surfaces (days to weeks); (3) endothelial repair and vascular remodelling (weeks); (4) neuroinflammatory resolution via microglial deactivation (weeks to months); (5) metabolic recovery from energy deficit (weeks to months). The Tölle 2020 retreatment data @Tolle2020immunoadsorption—4/5 responded to repeat IA—supports that the key may be sustained suppression via repeated courses rather than a single course.
+
+*Falsifiable prediction:* In the pending RCTs, response will correlate with duration of autoantibody suppression (measured by post-IA autoantibody half-life). Patients with faster rebound will be non-responders.
+] <hyp:threshold-duration>
+
+#hypothesis(title: [Immune Reset: IA as Immunomodulation Independent of Autoantibodies])[
+*(Certainty: 0.45.)* Massive IgG removal ($tilde$80%) is a profound perturbation that triggers homeostatic immune recalibration: compensatory B-cell activation, cytokine milieu shift (confirmed by Anft 2025: IL-4, IL-2, IL-1$beta$, TNF, IL-17A all reduced @Anft2025immunoadsorption), possible Treg expansion, and FcRn upregulation altering immune complex clearance. This would explain why BC007 failed (specific neutralisation without the broader reset), why open-label IA works (real immunomodulation, not autoantibody-specific), and why daratumumab works (plasma cell depletion also causes broad immunomodulation). A critical discriminating experiment: FcRn inhibitors like efgartigimod (FDA-approved for myasthenia gravis) produce $tilde$70% IgG reduction non-invasively via accelerated IgG catabolism. If efgartigimod reproduces IA's clinical effect in ME/CFS, the invasive procedure is unnecessary and IgG-mediated pathology—but not necessarily autoantibody-specific pathology—is confirmed.
+
+*Falsifiable prediction:* IgG-depleting interventions that do not remove autoantibodies specifically (efgartigimod, rozanolixizumab) should produce similar clinical effects to IA in ME/CFS. Not yet tested (2026).
+] <hyp:immune-reset>
+
 === Undocumented Biological Phenomena
 
 Based on the GPCR autoantibody literature, several biological phenomena have never been directly examined:
@@ -135,7 +157,11 @@ Based on the GPCR autoantibody literature, several biological phenomena have nev
 
     [Symptom correlation with titers], [Low-Moderate], [Sotzny 2021; Swedish replication weak ($r < 0.3$)],
 
-    [Immunoadsorption efficacy], [Moderate-High], [Lancet 2024; no placebo control],
+    [Immunoadsorption efficacy (Charité)], [Moderate], [Lancet 2024 (n=20); no placebo control; single centre],
+
+    [Immunoadsorption efficacy (independent)], [Low], [Anft 2025 (n=12): autoantibodies cleared but symptoms not improved @Anft2025immunoadsorption],
+
+    [Immunoadsorption RCTs], [Pending], [IA-PACS-CFS (n=66) and EXTINCT (n=63) completed; results awaited],
 
     [Daratumumab efficacy], [Moderate], [60% response; open-label],
 
@@ -148,11 +174,11 @@ Based on the GPCR autoantibody literature, several biological phenomena have nev
     [Broad autoantibody screen (REAP/Luminex)], [Strong null], [Germain 2025: 7,542 interactions; no signal],
   ),
   kind: table, supplement: [Table],
-  caption: [Evidence assessment for GPCR autoantibody findings in ME/CFS. Evidence levels updated March 2026 to reflect Germain et al.\ 2025 comprehensive null finding.],
+  caption: [Evidence assessment for GPCR autoantibody findings in ME/CFS. Evidence levels updated April 2026 to reflect Germain et al.\ 2025 comprehensive null, Anft et al.\ 2025 independent-centre discordance, and pending sham-controlled RCTs.],
 ) <tab:gpcr-autoantibody-evidence>
 
 
-*Overall assessment:* The GPCR autoantibody hypothesis is at an inflection point. The detection evidence has weakened: the most comprehensive screen to date (Germain 2025, two orthogonal platforms) found no autoantibody signal, and the only placebo-controlled treatment trial (BC007 Phase II) failed. However, the open-label treatment evidence from immunoadsorption and daratumumab remains notable, and the upcoming RESETME randomised trial will be decisive. If RESETME is negative, the autoantibody hypothesis takes a critical blow. If positive, it would constitute the most important ME/CFS therapeutic breakthrough to date---and would force re-examination of why detection assays fail while removal therapies succeed.
+*Overall assessment:* The GPCR autoantibody hypothesis is at a critical inflection point. The detection evidence has weakened substantially: the most comprehensive screen to date (Germain 2025 @Germain2025autoantibody, two orthogonal platforms, 7,542 interactions) found no autoantibody signal, and the only placebo-controlled treatment trial (BC007 Phase II) failed. The Anft 2025 @Anft2025immunoadsorption independent-centre study adds a further complication: autoantibodies were successfully eliminated but symptoms did not improve—raising the possibility that even the open-label treatment responses from Charité reflect non-autoantibody mechanisms of immunoadsorption (bystander IgG clearance, immune reset, or placebo effects of invasive procedures; see @spec:bystander-clearance, @hyp:immune-reset). However, *four pivotal events are imminent*: (1) IA-PACS-CFS sham-controlled RCT results (n=66 @Pressler2024IAPACSCFSprotocol), (2) EXTINCT sham-controlled RCT results (n=63, independent centre @EXTINCTtrial2023), (3) RESETME daratumumab RCT, and (4) IMPACT memory B-cell dynamics study @IMPACTtrial2026. If all RCTs are negative, the autoantibody hypothesis takes a blow comparable to the rituximab-to-RituxME collapse—the second promising open-label immune intervention to fail under placebo control. If positive, they would constitute the most important ME/CFS therapeutic breakthrough to date and would force re-examination of why detection assays fail while removal therapies succeed.
 
 == Ion Channel Autoimmunity
 <sec:ion-channel>

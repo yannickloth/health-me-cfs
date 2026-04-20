@@ -3351,8 +3351,38 @@ Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipel
     [If autoantibody relapse after IA is driven by memory B-cell repopulation and re-differentiation into autoantibody-secreting plasma cells, then IA alone is a temporary measure. Combining IA with anti-CD20 (rituximab—memory B-cells) or anti-CD38 (daratumumab—plasma cells) should produce more durable responses than IA alone. The Tölle 2020 retreatment data (4/5 responded to repeat IA @Tolle2020immunoadsorption) supports that relapse is the rule, not the exception.],
     [IMPACT trial (NCT07529197 @IMPACTtrial2026) measures memory B-cell dynamics pre/post IA. Prediction: patients with faster memory B-cell reconstitution relapse sooner. If confirmed: sequential IA + daratumumab trial warranted.],
     [Ch.14b @hyp:plasma-cell-sanctuary],
+
+    [Bystander Clearance: IA Works by Removing Non-Autoantibody IgG],
+    [Spec], [0.40],
+    [IA is non-selective—it removes all IgG. The therapeutic effect may come from removing pro-inflammatory IgG glycoforms (agalactosylated IgG), immune complexes, anti-neuronal antibodies not on GPCR panels, or soluble spike protein—not GPCR autoantibodies specifically. Explains Germain 2025 null, BC007 failure, and Anft discordance simultaneously.],
+    [IA responders will have more agalactosylated IgG pre-treatment than non-responders. Selective lectin affinity column removal of agalactosylated IgG reproduces IA's clinical effect. Never tested in ME/CFS (2026).],
+    [Ch.14b @spec:bystander-clearance],
+
+    [Threshold Duration: Anft Rebound Too Fast for Downstream Recovery],
+    [H], [0.50],
+    [Anft 2025 autoantibody rebound within 1 month means downstream pathology (endothelial repair, receptor re-expression, neuroinflammatory resolution, metabolic recovery) was never initiated. Charité patients may have had slower rebound, giving more time for tissue recovery. Tölle 2020 retreatment data (4/5 responded) supports that sustained suppression via repeated IA is key.],
+    [In pending RCTs, response will correlate with post-IA autoantibody half-life. Patients with faster rebound will be non-responders. Retreatment protocol with 2+ IA courses will outperform single course.],
+    [Ch.14b @hyp:threshold-duration],
+
+    [Immune Reset: IA as Non-Specific Immunomodulation],
+    [H], [0.45],
+    [Massive IgG depletion (~80%) triggers homeostatic immune recalibration: compensatory B-cell activation, cytokine milieu shift, possible Treg expansion, FcRn upregulation. Explains BC007 failure (specific neutralisation without broader reset) and why both IA and daratumumab show open-label benefit (both cause broad immunomodulation). Discriminating experiment: FcRn inhibitors (efgartigimod) produce similar IgG reduction non-invasively—if they work in ME/CFS, IgG-mediated pathology confirmed but not autoantibody-specific.],
+    [Efgartigimod or rozanolixizumab produces similar clinical effects to IA in biomarker-selected ME/CFS. Phase 2 RCT of efgartigimod was negative but unstratified @subsec:efgartigimod. Biomarker-stratified trial needed.],
+    [Ch.14b @hyp:immune-reset],
+
+    [IgG Glycoform Profiling as IA Response Predictor],
+    [OQ], [---],
+    [Do ME/CFS patients have skewed IgG glycoform profiles (lower galactosylation/sialylation)? If so, IA's benefit may come from removing pro-inflammatory IgG glycoforms. Post-IA reconstituted IgG may have temporarily improved glycoform profile if inflammation has resolved—a self-reinforcing benefit cycle.],
+    [Cross-sectional: IgG glycoforms in ME/CFS vs controls (n=100 each). Interventional: correlate pre-treatment glycoform profile with IA response in pending RCT datasets. Never tested in ME/CFS (2026).],
+    [Ch.25b @oq:igg-glycoform-ia],
+
+    [Post-IA Autoantibody Decay Curve as Diagnostic Stratification],
+    [OQ], [---],
+    [The rate of autoantibody rebound after IA reveals plasma cell pool size/activity: fast rebound ($lt$2 weeks) = large pool → daratumumab needed; slow rebound ($gt$8 weeks) = small pool → retreatment sufficient; no rebound = non-autoantibody mechanism. The decay curve is itself diagnostic.],
+    [Weekly autoantibody measurements for 8 weeks post-IA. IMPACT trial @IMPACTtrial2026 will measure some dynamics via memory B-cell tracking. Never formally proposed as diagnostic tool (2026).],
+    [Ch.25b @oq:post-ia-decay-curve],
   ),
-  caption: [Immunoadsorption trial landscape registry entries (2026-04-20): two open questions on pending RCT results and Anft discordance, plus one hypothesis on memory B-cell relapse mechanism.],
+  caption: [Immunoadsorption trial landscape registry entries (2026-04-20): two open questions on pending RCT results and Anft discordance, one hypothesis on memory B-cell relapse, three speculations on alternative IA mechanisms (bystander clearance, threshold duration, immune reset), and two research proposals (IgG glycoform profiling, post-IA decay curve).],
   kind: table,
 ) <tab:registry-ia-trials>
 ] // end landscape page
