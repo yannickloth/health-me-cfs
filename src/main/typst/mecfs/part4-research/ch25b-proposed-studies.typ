@@ -2019,6 +2019,84 @@ ME/CFS is particularly suited to aggregated N-of-1 methodology for several reaso
 
 We propose that a network of ME/CFS research centers could conduct aggregated N-of-1 trials systematically, building both individual treatment response profiles and population-level evidence for responder biomarkers. This approach would be low-cost compared to large RCTs, would provide immediate individualized clinical utility, and would generate biomarker hypotheses to inform future basket, umbrella, and adaptive trials.
 
+== Metabolic Reserve Predisposition Studies (Architecture C)
+<sec:architecture-c-research-program>
+
+Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative-ch14d) predicts that pre-existing metabolic reserve determines post-infectious ME/CFS risk. A low reserve state — arising from neurodivergence, connective tissue disorder, nutritional deficits, or prior immune activation — may mean that a viral insult which would be metabolically manageable for most people instead tips the system into chronic energy deficit. Four study designs test this framework at increasing cost and specificity.
+
+=== Prospective Post-Infection Metabolic Phenotyping
+<sec:prospective-metabolic-phenotyping>
+
+*Background:* The only design that can definitively prove or disprove Architecture C. Must establish whether pre-illness metabolic markers predict post-infectious ME/CFS conversion and whether compound predisposing conditions create multiplicative risk.
+
+*Design:* Recruit $n = 500$ neurodivergent adults (ADHD, ASD, hEDS diagnosis) and $n = 500$ matched neurotypical controls. At baseline, measure: FDG-PET (cerebral glucose metabolism), ASL-MRI (cerebral blood flow), MRS (brain NAA, lactate), serum BH4/neopterin, ferritin, urinary organic acids, CPET (VO#sub[2]max, anaerobic threshold), PBMC mitochondrial respirometry. Follow prospectively for 5 years. When participants experience documented viral infections (EBV, COVID, influenza), repeat measures at 1, 3, 6, and 12 months post-infection.
+
+*Primary outcome:* ME/CFS diagnosis rate at 6 months post-infection in neurodivergent vs neurotypical groups.
+
+*Secondary outcomes:* Which baseline metabolic markers best predict ME/CFS conversion? Does the compound-risk prediction from Architecture C hold (more reserve reducers = higher risk)?
+
+*Feasibility:* Estimated budget ~\$5–10M. The study is expensive and logistically demanding but represents the only prospective design that can definitively validate or refute the metabolic reserve predisposition hypothesis. Partial versions could leverage existing cohorts (see study 2.2 below).
+
+*Impact:* Highest among Architecture C studies. A positive result would transform ME/CFS prevention strategy; a negative result would redirect research away from predisposition models.
+
+#limitation[
+  Recruitment bias — neurodivergent adults willing to undergo extensive baseline testing may not represent the full neurodivergent population. Infection timing is unpredictable; 5-year follow-up may miss the critical window. Cost makes this study unlikely without dedicated NIH/Wellcome funding streams.
+]
+
+=== Reanalysis of Existing Datasets for Metabolic Reserve Prediction
+<sec:existing-dataset-reanalysis>
+
+*Background:* The compound-risk prediction from Architecture C — that neurodivergent individuals with multiple metabolic reserve reducers develop ME/CFS at higher rates — is testable using existing data without new recruitment. Several large cohorts already contain the required variables.
+
+*Datasets:*
+
+- *ALSPAC (Avon Longitudinal Study of Parents and Children):* Already has ADHD/ASD trait measures at age 7/9, IL-6 at age 9, chronic fatigue at age 18 (the Quadt 2024 analysis used this cohort @Quadt2024neurodivergentfatigue). Request access to hEDS/hypermobility data, iron/ferritin measures, migraine history, and infection records to test the compound-risk model.
+
+- *UK Biobank:* Contains neurodivergent diagnoses (ICD codes), baseline metabolic markers, COVID infection records, and Long COVID self-report. Can test whether pre-existing ADHD/ASD diagnosis predicts Long COVID to ME/CFS transition.
+
+- *RECOVER cohort (NIH Long COVID study):* Request neurodevelopmental history data to test whether neurodivergent participants have worse trajectories.
+
+- *DecodeME (UK ME/CFS genetics study):* Cross-reference GCH1 rs841 genotyping with disease onset characteristics. Test whether GCH1 homozygotes have earlier onset or more neurodivergent comorbidity.
+
+*Primary analysis:* Compound-risk score (number of metabolic reserve reducers present before illness) vs ME/CFS incidence, stratified by infection severity.
+
+*Feasibility:* Low cost (\$10–50K for data access fees and analyst time). All datasets exist and accept research proposals. Timeline: 6–12 months from approval to results.
+
+*Impact:* High. Fast, cheap, and capable of providing strong preliminary evidence for or against Architecture C before committing to the expensive prospective study.
+
+=== PBMC Respirometry Comparative Study
+<sec:pbmc-respirometry-comparative>
+
+*Background:* Spare respiratory capacity in peripheral blood mononuclear cells (PBMCs) is the cellular analogue of metabolic reserve. If Architecture C is correct, this measurable parameter should follow a predictable gradient across patient groups. Seahorse XF respirometry from a standard blood draw provides the measurement.
+
+*Design:* Cross-sectional, $n = 30$ per group across six groups: (a) ADHD only, (b) ASD only, (c) ADHD + ME/CFS, (d) ASD + ME/CFS, (e) ME/CFS only, (f) healthy controls. Measure PBMC mitochondrial function via Seahorse XF: basal respiration, maximal respiration, spare respiratory capacity, ATP-linked respiration, proton leak.
+
+*Hypothesis:* Spare respiratory capacity should follow the gradient: controls > ADHD-only $approx$ ASD-only > ME/CFS-only > ADHD + ME/CFS $approx$ ASD + ME/CFS. The neurodivergent + ME/CFS groups should show the lowest spare respiratory capacity, consistent with compound reserve depletion.
+
+*Feasibility:* Estimated budget ~\$50–100K. Highly feasible with existing Seahorse XF equipment at most research universities. Standard blood draw, no invasive procedures. Total $n = 180$ is achievable at a single site within 12 months.
+
+*Impact:* High. Directly measures the metabolic reserve concept at the cellular level. A positive gradient validates the core Architecture C prediction; absence of gradient between neurodivergent-only and controls would argue against constitutional metabolic reserve differences.
+
+#prediction(
+  title: "PBMC Spare Respiratory Capacity Gradient Across Neurodivergent and ME/CFS Groups",
+  label: <pred:pbmc-spare-capacity-gradient>,
+)[
+  The predicted gradient (controls > neurodivergent-only > ME/CFS-only > neurodivergent + ME/CFS) is the single most direct cellular test of Architecture C. If the gradient is absent --- particularly if ADHD-only and ASD-only groups show identical spare respiratory capacity to controls --- the constitutional metabolic deficit hypothesis (@spec:neurodivergent-mito-genetic) is falsified, and demand-side explanations for neurodivergent ME/CFS risk must be explored instead.
+]
+
+=== ADHD Hyperfocus Metabolic Profiling Study
+<sec:adhd-hyperfocus-metabolic-profiling>
+
+*Background:* The micro-PEM hypothesis (@oq:adhd-hyperfocus-micro-pem, @spec:focal-pem-threshold) predicts that ADHD hyperfocus episodes produce metabolic signatures paralleling ME/CFS post-exertional malaise --- specifically, delayed cognitive fatigue scaling nonlinearly with session duration, elevated peripheral lactate, and immune activation markers at 24 hours. No study has measured these parameters during or after sustained cognitive effort in ADHD adults.
+
+*Design:* $n = 20$ ADHD adults and $n = 20$ controls. Sustained cognitive task (3-hour programming session or equivalent high-engagement task). Measure before, during (hourly), and after (2h, 6h, 24h, 48h): blood lactate, cortisol, catecholamine metabolites, inflammatory markers (IL-6, TNF-alpha), cognitive performance (reaction time, working memory). Wearables: heart rate variability, continuous glucose monitoring throughout.
+
+*Hypothesis:* ADHD participants will show: (a) higher metabolic cost for equivalent cognitive output (indexed by lactate and glucose dynamics), (b) delayed recovery of cognitive performance paralleling PEM's characteristic delayed onset, (c) elevated IL-6 at 24 hours paralleling post-exertional immune activation documented in ME/CFS.
+
+*Feasibility:* Estimated budget ~\$30--50K. Very feasible --- requires no specialised equipment beyond standard phlebotomy and commercial wearables. Can be run at any clinical research unit. Timeline: 6 months from IRB approval.
+
+*Impact:* Medium-high. Would establish or refute the micro-PEM hypothesis. A positive result would provide the first objective evidence linking ADHD energy management to ME/CFS pathophysiology. A negative result (no metabolic perturbation after hyperfocus in ADHD) would argue that the hyperfocus crash is subjective/psychological rather than metabolic.
+
 == DecodeME-Stratified Pharmacogenomic Trial Platform
 <sec:decodeme-pharmacogenomics>
 
