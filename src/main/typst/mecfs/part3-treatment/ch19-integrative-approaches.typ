@@ -1738,7 +1738,7 @@ All moderate-level interventions PLUS:
     + Graduated cognitive block extension (25 min → 35 min → 45 min, only if zero PEM for 2 weeks at each level)
     + Estimated cost: ~\$80–150/month (+ sapropterin if indicated)
 
-#warning-box(title: [Untested Integrated Protocol])[
+#warning-env(title: [Untested Integrated Protocol])[
 This severity-stratified protocol is derived from Architecture C logic, not from clinical trial evidence. Individual components have varying levels of evidence (see referenced sections). The combination has never been tested. This protocol should not replace established ME/CFS management. All pharmacological components require physician supervision. Start components sequentially (one new addition every 2 weeks) to identify individual response and tolerability.
 ]
 

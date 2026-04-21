@@ -810,11 +810,11 @@ where $"ND"_"burden"$ = sum of binary indicators (ADHD = 0.15, ASD = 0.20, hEDS 
 
 *Use case:* Identify high-risk individuals before infection (prevention) and stratify treatment intensity (lowest MRS = most aggressive metabolic support per @sec:severity-stratified-reserve-protocol).
 
-#limitation(title: "MRS Formula Encodes the Hypothesis It Purports to Test")[
+#limitation(title: [MRS Formula Encodes the Hypothesis It Purports to Test])[
 The $"ND"_"burden"$ term directly reduces the composite score for neurodivergent patients, encoding the Architecture C hypothesis (neurodivergence reduces metabolic reserve) into the diagnostic instrument. The MRS cannot fail to show lower values for neurodivergent patients because the formula guarantees it. Empirical validation requires calibrating $"ND"_"burden"$ weights against independently measured metabolic outcomes (PBMC spare respiratory capacity, CPET performance) rather than assuming them a priori. Until weights are empirically derived, the MRS is a hypothesis-structuring tool, not a validated diagnostic.
 ]
 
-#speculation(title: "Composite Metabolic Reserve Score for Risk Stratification")[
+#speculation(title: [Composite Metabolic Reserve Score for Risk Stratification])[
   *Certainty: 0.20.* A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study (@sec:prospective-metabolic-phenotyping). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
 ] <spec:metabolic-reserve-score>
 
@@ -827,7 +827,7 @@ Neopterin is produced when GTP cyclohydrolase I activity is diverted toward immu
 
 *Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support (@subsec:sapropterin-bh4, @subsubsec:bh4-recycling-support).
 
-#speculation(title: "Neopterin:Biopterin Ratio as Architecture C Screening Biomarker")[
+#speculation(title: [Neopterin:Biopterin Ratio as Architecture C Screening Biomarker])[
   *Certainty: 0.40.* If the BH4 convergent bottleneck hypothesis is correct (@spec:bh4-convergent-bottleneck), the urinary neopterin:biopterin ratio should be elevated across ALL predisposing conditions (ADHD, ASD, hEDS, migraine), not just post-infection. This would make it a universal Architecture C screening biomarker available at ~\$30--50 per test. Biochemistry well-established; whether this ratio predicts ME/CFS risk or treatment response is untested. Not yet replicated.
 ] <spec:neopterin-biopterin-screen>
 
@@ -844,6 +844,6 @@ For patients with known neurodivergent diagnoses, a tiered screening protocol co
 
 *Actionability:* Tier 1 is implementable today. Tier 2 requires specialist referral. Tier 3 is research-only.
 
-#speculation(title: "Tiered Pre-Infection Screening for ME/CFS Risk in Neurodivergent Patients")[
+#speculation(title: [Tiered Pre-Infection Screening for ME/CFS Risk in Neurodivergent Patients])[
   *Certainty: 0.30.* A tiered screening approach could identify neurodivergent patients at highest metabolic reserve risk before viral illness, enabling preventive intervention (iron repletion, BH4 support, perfusion optimization). Tier 1 is available and cheap; Tier 2 requires specialist access; Tier 3 is research-only. Individual tests are validated; the composite screening approach and the prediction that it would reduce post-infectious ME/CFS incidence is unvalidated. Not yet replicated.
 ] <spec:pre-infection-screening>

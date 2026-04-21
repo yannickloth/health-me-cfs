@@ -1968,7 +1968,7 @@ Motivated by: systematic research on lithium, valproate, anticonvulsants, and th
 
     [Two-Hit Threshold Model for ME/CFS Onset],
     [S], [0.40],
-    [Post-infectious fatigue → ME/CFS transition occurs when immune insult pushes below critical metabolic reserve threshold (R~crit~), triggering self-sustaining mitochondrial damage cycle. Pre-existing low reserve (neurodivergent, hEDS, iron-deficient) determines who crosses threshold. Model exhibits hysteresis: reversing infection does not reverse ME/CFS. (a) Pre-COVID metabolic markers should predict Long COVID → ME/CFS conversion. (b) Neurodivergent Long COVID patients should have higher ME/CFS conversion rates.],
+    [Post-infectious fatigue → ME/CFS transition occurs when immune insult pushes below critical metabolic reserve threshold ($R_"crit"$), triggering self-sustaining mitochondrial damage cycle. Pre-existing low reserve (neurodivergent, hEDS, iron-deficient) determines who crosses threshold. Model exhibits hysteresis: reversing infection does not reverse ME/CFS. (a) Pre-COVID metabolic markers should predict Long COVID → ME/CFS conversion. (b) Neurodivergent Long COVID patients should have higher ME/CFS conversion rates.],
     [Raw 2025: autistic traits predict prolonged COVID symptoms ($n = 267$). Testable via UK Biobank (ADHD/ASD diagnosis + COVID + Long COVID data). No prospective pre-infection metabolic phenotyping study exists.],
     [Ch.14d @spec:two-hit-threshold-onset],
 

@@ -1028,7 +1028,7 @@ These treatment proposals derive from genetic association data (DecodeME) and me
 == Metabolic Reserve Interventions
 <sec:metabolic-reserve-interventions>
 
-The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identifies several pharmacological targets for increasing R_headroom — either by improving energy production capacity or by reducing the metabolic cost of baseline function. The following interventions are speculative but based on established pharmacology applied to a novel indication.
+The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identifies several pharmacological targets for increasing $R_"headroom"$ — either by improving energy production capacity or by reducing the metabolic cost of baseline function. The following interventions are speculative but based on established pharmacology applied to a novel indication.
 
 === Sapropterin (Kuvan) — BH4 Supplementation
 <subsec:sapropterin-bh4>
@@ -1041,7 +1041,7 @@ The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identif
 
 *Risk:* Low to moderate. Well-characterised safety profile from decades of PKU use. Main risk: if NO production increases systemically before cerebral autoregulation adapts, transient hypotension is possible. Cost is high (~\$1,000–3,000/month without insurance).
 
-#warning-box(title: [Sapropterin Is Research-Stage for ME/CFS])[
+#warning-env(title: [Sapropterin Is Research-Stage for ME/CFS])[
 No ME/CFS trial data exist for sapropterin. The rationale is entirely derived from the BH4 convergent bottleneck hypothesis (certainty 0.35). The evidence base consists of a 5-patient ADHD case series and ASD observational data. Off-label use should not be attempted without specialist supervision, BH4/neopterin baseline measurement, and monitoring for hypotension. Cost may be prohibitive.
 ]
 
@@ -1064,7 +1064,7 @@ _Target population:_ ME/CFS patients with ADHD comorbidity or documented catecho
 
 _Risk:_ Moderate. Requires careful behavioural monitoring — the subjective improvement creates strong temptation to exceed the pacing protocol. Standard methylphenidate cardiovascular monitoring applies. The pacing component requires external accountability (timer apps, caregiver support) because ADHD patients cannot reliably self-pace.
 
-#warning-box(title: [Stimulant Use in ME/CFS Requires Strict Pacing Discipline])[
+#warning-env(title: [Stimulant Use in ME/CFS Requires Strict Pacing Discipline])[
 Without enforced pacing, stimulants in ME/CFS risk enabling activity escalation that worsens PEM. The Vernon 2025 finding of -1.5% PEM effect is a population average that likely conceals increased PEM in patients who escalated activity. This protocol is untested as an integrated intervention. Patients and prescribers must agree on non-negotiable pacing limits before initiation.
 ]
 
@@ -1087,7 +1087,7 @@ _Target population:_ All neurodivergent ME/CFS patients with ferritin $< 100$ ng
 
 _Risk:_ Low if monitored. Iron overload risk managed with transferrin saturation monitoring. Gastrointestinal side effects common with oral forms (mitigate with bisglycinate form, every-other-day dosing). Contraindicated in haemochromatosis carriers.
 
-#warning-box(title: [Ferritin >100 ng/mL Target Is Clinical Opinion, Not Trial-Validated])[
+#warning-env(title: [Ferritin >100 ng/mL Target Is Clinical Opinion, Not Trial-Validated])[
 The $> 100$ ng/mL target derives from ADHD clinical practice and expert opinion, not from ME/CFS randomised trials. Standard haematological thresholds ($> 30$ ng/mL) are sufficient to exclude iron deficiency anaemia. The higher target is based on the rationale that neurodivergent brains require more iron for dopamine synthesis, but this threshold has not been validated for ME/CFS outcomes. Iron supplementation above standard thresholds should be discussed with a physician.
 ]
 
