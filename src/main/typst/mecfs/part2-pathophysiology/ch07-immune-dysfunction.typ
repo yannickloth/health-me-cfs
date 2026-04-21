@@ -2150,6 +2150,12 @@ This observation coexists with the chapter's "Paradox of Invisible Immunity" (Se
 *Limitations:* Cross-sectional designs (except Germain 2025); scRNA-seq limited to female LC-ME/CFS cohort; idiopathic ME/CFS comparison across datasets introduces batch effects; no independent replication of the immune remodeling framework as a unified construct; the "remodeling" label is broadly defined enough that almost any heterogeneous immune pattern would fit, making it difficult to falsify; critically, none of the cited studies use severity-matched chronic illness controls (e.g., rheumatoid arthritis, lupus) --- the "immune remodeling" pattern may be a generic feature of any severe chronic illness rather than ME/CFS-specific, and this cannot be distinguished from the current evidence base.
 ] <obs:immune-remodeling-convergence>
 
+#speculation(title: [Exercise-Induced Immune Activation as Occult Long-Term Harm])[
+*Certainty: 0.35.* Post-exercise ME/CFS patients show upregulation of metabolite-detecting receptors (ASIC3, P2X4, P2X5) and TLR4 persisting 48 hours (Light et al.\ 2012), while Germain et al.\ (2025) found suppression of T and B cell signalling during PEM---immune _collapse_ under stress @Germain2025plasma-proteome-exertion. Even when exercise trials report subjective improvement on questionnaires, they may simultaneously cause immune activation and NK cell metabolic depletion that worsens the underlying disease process. The subjective improvement masks immune deterioration that manifests as disease progression months to years later. No exercise trial has measured immune biomarkers at outcome assessment timepoints. Not yet replicated---long-term immune consequences of structured exercise in ME/CFS are unmeasured.
+
+*Testable prediction.* Exercise trials including immune biomarkers (NK cell cytotoxicity, ASIC3/TLR4 expression, cytokine panels) at questionnaire timepoints should show immune deterioration in the subgroup reporting subjective improvement.
+] <spec:exercise-immune-harm>
+
 === Galectin-9--TIM-3: A Novel Mechanism for Tissue-Resident Cell Depletion
 
 #speculation(title: [Galectin-9--TIM-3 Axis as Driver of Gamma-Delta and MAIT Cell Depletion])[

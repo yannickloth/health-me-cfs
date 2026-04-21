@@ -3594,7 +3594,7 @@ Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d)
 
     [Fibromyalgia: Self-Amplifying Metabolic Cost],
     [S], [0.35],
-    [Central sensitization $arrow.r$ $uparrow$ATP demand $arrow.r$ $downarrow$reserve $arrow.r$ $uparrow$sensitization loop is self-sustaining.],
+    [Central sensitization $arrow.r$ $arrow.t$ATP demand $arrow.r$ $arrow.b$reserve $arrow.r$ $arrow.t$sensitization loop is self-sustaining.],
     [Individual links documented; feed-forward loop as a whole untested.],
     [Ch.14d @spec:fibromyalgia-metabolic-amplification],
 
@@ -3740,5 +3740,75 @@ Motivated by: Wirth 2026 (N=36,332 ICD pre-diagnostic data), Collin 2018 (ALSPAC
   caption: [Entries added 2026-04-21: Gut-derived hydrogen sulfide and mitochondrial energy metabolism.],
   kind: table,
 ) <tab:hypothesis-registry-2026-04-21-h2s>
+] // end landscape page
+
+=== Entries Added 2026-04-21: Exercise Blinding Bias and Cross-Disease Exercise Response
+
+Motivated by: Zhao et al.\ 2026 exercise meta-analysis @Zhao2026exercise; BRANDO collaboration @Savovic2012blinding; Hróbjartsson et al.\ 2014 @Hrobjartsson2014blinding.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3fr, 0.3fr, 0.4fr, 5fr, 3fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation*], [*Type*], [*Cert.*],
+      [*Testable Prediction (condensed)*], [*Available Tests / Status*],
+      [*Location*],
+    ),
+
+    [Endorphin-Questionnaire Confound],
+    [H], [0.55],
+    [Exercise-induced endorphins alter questionnaire responses without modifying pathophysiology. Questionnaires \<2h post-exercise show improvement; \>48h show deterioration.],
+    [Questionnaire timing manipulation in exercise RCT. Naloxone pre-treatment arm.],
+    [Ch.24 @hyp:endorphin-questionnaire],
+
+    [Response Shift and Therapeutic Ritual Effects],
+    [S], [0.35],
+    [Patients recalibrate fatigue reference standard. Therapeutic ritual independently improves subjective well-being.],
+    [Then-test at follow-up. Enhanced-care control arm.],
+    [Ch.24 @spec:response-shift-ritual],
+
+    [Exercise Discordance as Diagnostic Quality Indicator],
+    [H], [0.65],
+    [Discordance rate measures diagnostic contamination. PEM-requiring trials #sym.arrow SMD~0; non-PEM #sym.arrow SMD~0.85.],
+    [Stratify Zhao 2026 by PEM requirement.],
+    [Ch.24 @hyp:discordance-diagnostic],
+
+    [Long COVID Will Repeat ME/CFS Exercise Error],
+    [P], [0.75],
+    [Long COVID rehab trials: positive subjective + null objective in unblinded designs.],
+    [Systematic review stratified by blinding and outcome type.],
+    [Ch.24 @pred:long-covid-exercise-error],
+
+    [Depression as Blinding Calibration Standard],
+    [H], [0.50],
+    [Blinding quality moderates effect size more in ME/CFS than depression.],
+    [Cross-condition meta-regression with identical blinding moderators.],
+    [Ch.24 @hyp:depression-calibration],
+
+    [PEM as Cross-Disease Exercise Response Determinant],
+    [H], [0.50],
+    [PEM status predicts exercise harm across conditions. PEM-negative FM retains benefit; PEM-positive FM matches ME/CFS null.],
+    [FM meta-analyses stratified by PEM. Cross-condition meta-regression.],
+    [Ch.14d @hyp:pem-exercise-determinant],
+
+    [Forced Exit from Metabolic Safe Mode],
+    [S], [0.25],
+    [Exercise forces cells out of itaconate-mediated safe mode #sym.arrow transient activation #sym.arrow deeper crash.],
+    [Multi-timepoint metabolomics during exercise trial.],
+    [Ch.6 @spec:forced-exit-safe-mode],
+
+    [Exercise-Induced Immune Activation as Occult Harm],
+    [S], [0.35],
+    [Exercise causes immune activation + collapse. Subjective improvement masks immune deterioration.],
+    [Immune biomarkers at same timepoints as questionnaires.],
+    [Ch.7 @spec:exercise-immune-harm],
+  ),
+  caption: [Entries added 2026-04-21: Exercise blinding bias framework and cross-disease exercise response.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-21-exercise-blinding>
+// Open questions: oq:blinding-adjusted-policy (Ch.24), oq:next-gen-exercise-trial (Ch.21), oq:bayesian-bias-correction (Ch.26)
 ] // end landscape page
 

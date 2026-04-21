@@ -10013,7 +10013,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Article Type:*: Phase 3 double-blind RCT (two identically designed trials)
     / *Key Findings:*:
         - Rifaximin 550 mg three times daily × 14 days vs placebo in IBS without constipation (IBS-D)
-        - Adequate relief of global IBS symptoms: 40.7% rifaximin vs 31.7% placebo (combined; p<0.001)
+        - Adequate relief of global IBS symptoms: 40.7% rifaximin vs 31.7% placebo (combined; p\<0.001)
         - Significant relief of bloating, abdominal pain, loose/watery stools
         - Effect maintained up to 10 weeks after treatment completion
         - Rifaximin is minimally absorbed, acting locally in the gut lumen — low systemic adverse effects
@@ -10035,7 +10035,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Key Findings:*:
         - 64 IBS-SIBO patients with confirmed clinical and breath test resolution post-antibiotic treatment
         - Symptom-free days before relapse: no prevention 59.7 days; low-dose nocturnal erythromycin 138.5 days; low-dose nocturnal tegaserod 241.6 days
-        - Tegaserod significantly superior to erythromycin (p<0.05) and to no prevention
+        - Tegaserod significantly superior to erythromycin (p\<0.05) and to no prevention
         - Mechanism: prokinetics stimulate MMC phase III contractions, maintaining fasting clearance of small intestinal contents
         - Note: tegaserod withdrawn from US market (cardiac risk); prucalopride is the current functional replacement
     / *Conclusion:*: Post-eradication prokinetics meaningfully extend relapse-free intervals in IBS-SIBO, supporting their routine use to address the underlying motility deficit.
@@ -10411,14 +10411,14 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *PMID:*: 22777991
     / *Study Design:*: Multicentre parallel RCT, 44 primary care practices, France; observer-blinded
     / *Sample Size:*: n=198 (102 iron, 96 placebo), ages 18--53
-    / *Ferritin Cutoff:*: <50 µg/L with normal hemoglobin (>12.0 g/dL)
+    / *Ferritin Cutoff:*: \<50 µg/L with normal hemoglobin (\>12.0 g/dL)
     / *Key Findings:*:
 
         - Ferrous sulfate 80 mg elemental iron daily × 12 weeks reduced fatigue score 47.7% vs 28.8% placebo (p=0.02)
         - No significant improvement in quality of life, depression, or anxiety
         - Iron therapy raised hemoglobin, raised ferritin, reduced soluble transferrin receptor
 
-    / *Reference Range Problem:*: WHO iron deficiency threshold is <15 µg/L; most clinical labs flag deficiency only below 12--15 µg/L. This RCT demonstrates fatigue benefit at ferritin levels up to 50 µg/L — more than 3× the WHO cutoff. Patients with ferritin 16--49 µg/L would typically be told their iron is "normal."
+    / *Reference Range Problem:*: WHO iron deficiency threshold is \<15 µg/L; most clinical labs flag deficiency only below 12--15 µg/L. This RCT demonstrates fatigue benefit at ferritin levels up to 50 µg/L — more than 3× the WHO cutoff. Patients with ferritin 16--49 µg/L would typically be told their iron is "normal."
     / *Certainty Assessment:*:
 
         - *Quality:* High — CMAJ, peer-reviewed RCT, independent
@@ -10456,11 +10456,11 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Study Design:*: Systematic review + two meta-analyses (6 RCTs, 6 cross-sectional studies)
     / *Key Findings:*:
 
-        - RCT pool: iron supplementation significantly reduced fatigue in IDWA (effect size 0.33, p<0.0001)
+        - RCT pool: iron supplementation significantly reduced fatigue in IDWA (effect size 0.33, p\<0.0001)
         - Cross-sectional pool: IDWA status did not significantly predict fatigue (effect size 0.10, p=0.362)
         - Interpretation: supplementation improves fatigue; cross-sectional IDWA status alone does not reliably stratify fatigued from non-fatigued individuals
 
-    / *Reference Range Problem:*: Ferritin thresholds defining IDWA in included studies ranged from <12 to <50 µg/L across different research teams, confirming there is no consensus on where "normal" iron stores end and functional deficiency begins.
+    / *Reference Range Problem:*: Ferritin thresholds defining IDWA in included studies ranged from \<12 to \<50 µg/L across different research teams, confirming there is no consensus on where "normal" iron stores end and functional deficiency begins.
     / *Certainty Assessment:*:
 
         - *Quality:* Medium-high — _British Journal of Nutrition_, systematic methods
@@ -10477,8 +10477,8 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Key Findings:*:
 
         - IDWA is at least twice as common as iron deficiency anemia, yet remains clinically underrecognized
-        - WHO cutoff (<15 µg/L) misses many clinically significant cases; <30 µg/L has high specificity and sensitivity for absent bone marrow iron stores
-        - In inflammatory conditions (relevant to ME/CFS): threshold rises to 100 µg/L (with TSAT <20% as confirmatory marker)
+        - WHO cutoff (\<15 µg/L) misses many clinically significant cases; \<30 µg/L has high specificity and sensitivity for absent bone marrow iron stores
+        - In inflammatory conditions (relevant to ME/CFS): threshold rises to 100 µg/L (with TSAT \<20% as confirmatory marker)
         - Calls for IDWA to be recognized as a standalone clinical diagnosis
 
     / *Certainty Assessment:*:
@@ -10558,7 +10558,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Study Design:*: Evidence-based clinical practice guideline (Endocrine Society)
     / *Key Findings:*:
 
-        - Deficiency defined as <20 ng/mL; insufficiency 21--29 ng/mL; sufficiency ≥30 ng/mL
+        - Deficiency defined as \<20 ng/mL; insufficiency 21--29 ng/mL; sufficiency ≥30 ng/mL
         - Recommends targeting 40--60 ng/mL for maximum extraskeletal (immune, cancer, cardiovascular) benefit
         - Adults at risk may require 1500--2000 IU/day to achieve >30 ng/mL
         - The guideline itself makes explicit that bone-health cutoffs and extraskeletal-benefit thresholds are different
@@ -10624,7 +10624,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Key Findings:*:
 
         - Anti-TPO cutoff for true thyroid inflammation calculated at 121.0 IU/mL
-        - Women above cutoff had significantly higher symptom counts (6.7±2.5 vs 4.1±2.8, p<0.001)
+        - Women above cutoff had significantly higher symptom counts (6.7±2.5 vs 4.1±2.8, p\<0.001)
         - Chronic fatigue was significantly more prevalent in the Hashimoto's group
         - TSH levels were statistically identical between groups (1.7±1.3 vs 1.5±1.4 µU/mL)
         - Autoimmune inflammation itself — not hypothyroidism — drives fatigue and other symptoms
@@ -10657,3 +10657,84 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Quality:* Medium-high — _PLoS One_, systematic methods, pre-registered
         - *Sample:* 45 studies pooled
         - *Limitations:* Relies entirely on serum/plasma measures; poor primary study quality; high heterogeneity; may miss functional deficiencies by design; does not address the reference range problem directly
+
+// =============================================================================
+
+== Research Methodology: Blinding Bias
+<sec:bib-blinding-bias>
+// =============================================================================
+
+=== Savović et al.\ 2012 — BRANDO: Blinding Bias in 1,973 Randomised Trials
+
+    / *Full Citation:*: Savović J, Jones HE, Altman DG, et al.\ Influence of reported study design characteristics on intervention effect estimates from randomized, controlled trials. _Annals of Internal Medicine_. 2012;157(6):429--38. @Savovic2012blinding
+    / *DOI:*: #link("https://doi.org/10.7326/0003-4819-157-6-201209180-00537")[10.7326/0003-4819-157-6-201209180-00537]
+    / *Key Findings:*:
+
+        - Meta-epidemiological analysis (BRANDO collaboration): 1,973 RCTs within 234 meta-analyses
+        - Trials lacking double-blinding exaggerate intervention effects by average 13% (ROR 0.87)
+        - Bias driven entirely by trials with subjective outcomes; negligible in objective/mortality outcome trials
+        - Subjective-outcome trials without blinding: ~23% exaggeration (ROR ~0.77)
+
+    / *Relevance:*: Primary BRANDO project publication. Establishes the quantitative basis for critiquing all unblinded ME/CFS behavioural intervention trials. Directly applicable to the 2025--2026 exercise meta-analysis cluster.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — _Annals of Internal Medicine_; 7-dataset combined synthesis
+        - *Sample:* 1,973 RCTs across 234 meta-analyses
+        - *Replication:* Confirmed by Hróbjartsson 2014 and Pitre 2023
+
+=== Hróbjartsson et al.\ 2014 — Within-Trial Quantification of Patient Blinding Bias
+
+    / *Full Citation:*: Hróbjartsson A, Emanuelsson F, Thomsen ASS, Hilden J, Brorson S. Bias due to lack of patient blinding in clinical trials. _International Journal of Epidemiology_. 2014;43(4):1272--83. @Hrobjartsson2014blinding
+    / *DOI:*: #link("https://doi.org/10.1093/ije/dyu115")[10.1093/ije/dyu115]
+    / *Key Findings:*:
+
+        - 12 trials (n=3,869) using internal blinded/unblinded sub-study design
+        - Unblinded patients exaggerated treatment effect by mean SMD 0.56 (95% CI 0.41--0.71) for patient-reported outcomes
+        - No comparable exaggeration for observer-reported outcomes
+
+    / *Relevance:*: Gold-standard quantification of patient-blinding bias. Zhao 2026's fatigue SMD 0.85 is within the range explainable by this bias alone.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — internal sub-study design; _International Journal of Epidemiology_
+        - *Sample:* n=3,869 across 12 trials
+        - *Limitations:* Acupuncture-heavy sample (10/12 trials)
+
+// =============================================================================
+
+== Exercise Meta-Analyses: The 2025--2026 Cluster
+<sec:bib-exercise-meta-cluster>
+// =============================================================================
+
+=== Zhao et al.\ 2026 — Exercise in ME/CFS: Subjective Improvements, Null Objective Outcomes
+
+    / *Full Citation:*: Zhao L, Gou B, Zhang M. The efficacy of exercise in patients with myalgic encephalomyelitis/chronic fatigue syndrome: A systematic review and meta-analysis. _Journal of Psychosomatic Research_. 2026. @Zhao2026exercise
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2026.112136")[10.1016/j.jpsychores.2026.112136]
+    / *Key Findings:*:
+
+        - 17 RCTs, n=1,944; RoB 2.0 found "prevalent high risk of bias across the included studies"
+        - Exercise improves fatigue (SMD=0.85), sleep, QoL, depression, anxiety — all subjective
+        - No improvement in cardiopulmonary function or objective functional capacity
+        - Mixed diagnostic criteria: Oxford, Fukuda, Reeves — none requiring PEM
+        - Pooled aerobic exercise with yoga, qigong, tai chi
+
+    / *Critical Interpretation:*: The subjective-only improvement with null objective results is the predicted signature of blinding bias per Savović 2012 and Hróbjartsson 2014. The "physiological ceiling" explanation is less parsimonious than the bias explanation.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium — acknowledged high RoB throughout; no PEM-criteria sensitivity analysis
+        - *Replication:* Pattern replicated in Wei 2025 and Liao 2025 (same structural flaws)
+
+=== Vink \& Vink-Niese 2022 — NICE Reversal Exposes GET/CBT Trial Flaws
+
+    / *Full Citation:*: Vink M, Vink-Niese A. The Updated NICE Guidance Exposed the Serious Flaws in CBT and Graded Exercise Therapy Trials for ME/CFS. _Healthcare_. 2022;10(5):898. @VinkNiese2022NICE
+    / *DOI:*: #link("https://doi.org/10.3390/healthcare10050898")[10.3390/healthcare10050898]
+    / *Key Findings:*:
+
+        - PACE trial: 20% of participants who improved subjectively had deteriorated objectively
+        - Oxford criteria inflate efficacy by including non-ME/CFS patients
+        - Cites Savović 2012: lack of blinding → 13% average exaggeration
+
+    / *Relevance:*: Bridge paper connecting PACE-era critique to the BRANDO blinding framework.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium-high — _Healthcare_ (MDPI); peer-reviewed
+        - *Replication:* NICE 2021 guideline change independently corroborates the critique

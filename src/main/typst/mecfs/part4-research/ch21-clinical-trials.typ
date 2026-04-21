@@ -192,5 +192,9 @@ Synthesizing the ME/CFS trial literature reveals consistent patterns:
 The failure of rituximab in an unselected ME/CFS population, contrasted with apparent benefit in patients with elevated autoantibodies, suggests that ME/CFS comprises mechanistically distinct subgroups. Future trials should stratify by: (1) autoantibody profile (for immunomodulatory interventions), (2) viral reactivation markers (for antiviral interventions), (3) metabolomic profile (for mitochondrial support), and (4) autonomic subtype (for cardiovascular interventions). The challenge is developing validated biomarker panels for stratification before launching large trials.
 ] <oq:stratified-trials>
 
+#open-question(title: [Next-Generation Exercise Trial Design for ME/CFS])[
+If exercise trials in ME/CFS are to produce credible evidence, three design innovations are needed. (1) _Two-day CPET as primary endpoint_: the Day 1--to--Day 2 VO#sub[2]peak decline is objective, ME/CFS-specific, and unaffected by blinding status @Lim2020. (2) _Sham-exercise control_: matched therapist contact, scheduling, and clinic visits, but passive stretching or social interaction instead of exercise---directly testing whether the therapeutic element is exercise physiology or therapist attention. (3) _Wearable-derived objective endpoint battery_: continuous heart rate, HRV, step count, and sleep architecture via consumer devices, providing blinding-proof longitudinal data that captures the PEM signature. These three innovations would produce the first exercise trial immune to the blinding bias documented in the 2025--2026 meta-analysis cluster (Section @sec:exercise-meta-cluster).
+] <oq:next-gen-exercise-trial>
+
 // Negative trials and null results (planned for V6)
 #include "negative-trials.typ"

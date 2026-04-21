@@ -447,7 +447,7 @@ A pervasive methodological problem in ME/CFS treatment research is the absence o
 
 The mecfsscience.org analysis identifies a pattern across ME/CFS treatment trials: unblinded designs using subjective outcomes report positive results, while the same interventions assessed by objective measures (actigraphy, employment status, fitness testing, welfare claims) show no benefit @MECFSScience2019blinding. The Cochrane systematic review of exercise therapy for ME/CFS exemplifies this problem: its positive conclusions rest on trials using Oxford criteria (the broadest definition, likely including non-ME/CFS patients), subjective fatigue scales as primary outcomes, and non-blinded designs @MECFSScience2019cochrane. When these methodological limitations are accounted for, the evidence base for exercise therapy in ME/CFS collapses.
 
-This is not unique to ME/CFS---unblinded behavioural trials produce inflated effect sizes across medicine---but it is particularly consequential in ME/CFS because the psychogenic model relied on precisely these trial designs to justify treatments now recognised as harmful.
+This is not unique to ME/CFS---unblinded behavioural trials produce inflated effect sizes across medicine (quantified in Section @sec:brando-evidence)---but it is particularly consequential in ME/CFS because the psychogenic model relied on precisely these trial designs to justify treatments now recognised as harmful.
 
 === FITNET-NHS: Failure to Replicate
 <sec:fitnet-failure>
@@ -484,6 +484,86 @@ The NICE guideline was not universally welcomed. Flottorp et al.\ criticised the
 <sec:metablind>
 
 The MetaBLIND study claimed that ME/CFS patients cannot distinguish active treatment from placebo, potentially undermining the argument that unblinded trials produce inflated effects. However, critical analysis identified substantial methodological problems with this claim @MECFSScience2021metablind, including inadequate assessment of whether participants actually attempted to guess their allocation, conflation of inability to guess with absence of expectation effects, and failure to account for nocebo responses in the placebo group. The study's conclusions do not justify abandoning the requirement for blinded designs in ME/CFS trials.
+
+=== Quantifying Blinding Bias: The BRANDO Evidence
+<sec:brando-evidence>
+
+The claim that blinding matters is not merely theoretical---it has been quantified across thousands of trials. The BRANDO collaboration (Bias in Randomised and Observational studies) pooled data from seven meta-epidemiological datasets comprising 1,973 RCTs within 234 meta-analyses @Savovic2012blinding. The results are unequivocal: trials lacking double-blinding exaggerate intervention effects by an average of 13% (ratio of odds ratios 0.87). Critically, this exaggeration was _driven entirely by trials using subjective outcomes_---trials with objective or mortality endpoints showed negligible bias. For subjective-outcome trials specifically, the exaggeration reached approximately 23% (ROR ~0.77). The BRANDO authors concluded: "clinical and policy decisions should not be based on trials in which blinding is not feasible and outcome measures are subjectively assessed."
+
+Hróbjartsson et al.\ (2014) provided even more direct evidence using a uniquely powerful design: 12 trials (n=3,869) that randomised patients to both blinded and non-blinded sub-groups _within the same trial_, eliminating between-trial confounders @Hrobjartsson2014blinding. The results were striking: unblinded patients exaggerated treatment effects by a mean standardised mean difference (SMD) of 0.56 (95% CI 0.41 to 0.71) for patient-reported outcomes. No comparable exaggeration was found for observer-reported outcomes. A 2023 Cochrane-affiliated update confirmed these findings @Pitre2023blindingImpact.
+
+These converging lines of evidence establish a quantitative framework for evaluating any trial that combines unblinded participants with subjective outcomes. In such trials, reported effect sizes must be interpreted against a baseline bias of SMD 0.56 or 13--23% exaggeration before attributing effects to the intervention itself.
+
+=== The 2025--2026 Exercise Meta-Analysis Cluster
+<sec:exercise-meta-cluster>
+
+Between 2025 and 2026, three new systematic reviews and meta-analyses of exercise therapy for ME/CFS appeared: Wei et al.\ (2025, 13 RCTs, n=1,305) @Wei2025exerciseMECFS, Liao et al.\ (2025, 20 trials, n=2,831) @Liao2025exerciseNetwork, and Zhao et al.\ (2026, 17 RCTs, n=1,944) @Zhao2026exercise. All three share the same structural features: they pool studies using broad diagnostic criteria that do not require PEM, rely exclusively on patient-reported subjective outcomes as primary endpoints, include trials where blinding of participants and therapists is impossible, and---in the case of Zhao and Wei---pool mechanistically distinct interventions (aerobic exercise, yoga, qigong, tai chi) into single analyses.
+
+Zhao et al.\ (2026) is the most detailed and merits close examination. The review reports that exercise significantly improves fatigue (SMD = 0.85), sleep quality, quality of life, depression, and anxiety---all measured by subjective questionnaires. However, exercise produced _no significant improvement_ in cardiopulmonary function or objective functional capacity. The authors themselves applied the Risk of Bias 2.0 tool and found "prevalent high risk of bias across the included studies" @Zhao2026exercise. Despite this, they dismissed the bias as representing "inherent challenges of the field rather than fatal flaws that would completely invalidate the clinical value of these trials."
+
+This dismissal is difficult to sustain when placed against the BRANDO evidence (Section @sec:brando-evidence). Hróbjartsson et al.\ quantified the bias from patient unblinding at a mean SMD of 0.56 for patient-reported outcomes @Hrobjartsson2014blinding. Zhao's reported fatigue effect of SMD 0.85 falls well within the range where unblinding artifact could account for most or all of the observed effect. The pattern of subjective improvement with null objective results is not a "physiological ceiling," as Zhao et al.\ propose---it is the _predicted signature_ of blinding bias, documented across 1,973 trials in the BRANDO synthesis @Savovic2012blinding. The more parsimonious explanation is that unblinded patients reported feeling better while their underlying physiology remained unchanged.
+
+The diagnostic criteria problem compounds the blinding issue. Zhao's included studies used criteria including Oxford @Sharpe1991oxford, Fukuda @Fukuda1994, and Reeves 2005---none requiring PEM as a mandatory feature. Wormgoor and Rodenburg (2021) demonstrated that treatment effects _disappear_ when only PEM-requiring criteria are used and _disappear_ as outcome measures become more objective @Wormgoor2021physio. Zhao et al.\ did not perform this sensitivity analysis. The intervention heterogeneity further weakens the conclusions: pooling aerobic exercise protocols with yoga, qigong, and tai chi obscures fundamental differences in physiological demands and PEM risk profiles.
+
+#warning-env(title: [The "Acknowledged-But-Discounted Bias" Pattern])[
+A recurring pattern in the exercise therapy literature for ME/CFS deserves explicit identification: reviews apply formal risk-of-bias tools, find pervasive high risk of bias, and then proceed to endorse the intervention regardless. Both the updated Cochrane review @Larun2024exerciseCFS and Zhao et al.\ (2026) @Zhao2026exercise follow this template. This pattern converts a quality-assessment tool from a decision aid into a disclosure ritual: bias is documented but has no consequence for the conclusions drawn. The BRANDO evidence (Section @sec:brando-evidence) demonstrates quantitatively that the bias these reviews acknowledge is _sufficient in magnitude_ to produce the effect sizes they report.
+] <warn:acknowledged-discounted-bias>
+
+#limitation(title: [Diagnostic Criteria Heterogeneity in Exercise Meta-Analyses])[
+All three meta-analyses in the 2025--2026 cluster include studies using Oxford, Fukuda, and Reeves 2005 criteria---none requiring PEM. When Wormgoor and Rodenburg (2021) stratified exercise evidence by diagnostic stringency, treatment effects disappeared with PEM-requiring criteria @Wormgoor2021physio. None of the three 2025--2026 meta-analyses performed this sensitivity analysis. Their positive findings may reflect exercise benefits in a mixed population rather than evidence for ME/CFS patients specifically.
+] <lim:exercise-meta-criteria>
+
+Vink and Vink-Niese have documented the subjective/objective discrepancy across multiple analyses. Their 2018 re-analysis of the Cochrane exercise review demonstrated that objective measures showed no benefit from GET @Vink2018cochrane. Their 2020 analysis established that GET does not restore the ability to work @VinkNiese2020workCFS. Most strikingly, their 2022 analysis of the PACE trial data showed that 20% of participants whose physical functioning improved on subjective questionnaires had actually _deteriorated_ on the objective six-minute walk test @VinkNiese2022NICE.
+
+The convergence of these findings with the BRANDO quantitative framework produces a clear conclusion: the 2025--2026 exercise meta-analyses do not provide evidence that exercise improves ME/CFS. They provide evidence that unblinded patients report feeling better on questionnaires while their physiology remains unchanged---exactly what the blinding-bias literature predicts. Until exercise trials for ME/CFS include adequate blinding (or at minimum use objective primary endpoints and PEM-requiring diagnostic criteria), meta-analyses of existing trials will continue to produce the same misleading pattern.
+
+==== Mechanisms Beyond Classical Blinding Bias
+
+While unblinding is the primary explanation for the subjective/objective split, several additional mechanisms may contribute:
+
+#hypothesis(title: [The Endorphin-Questionnaire Confound])[
+*Certainty: 0.55.* Exercise-induced beta-endorphin release transiently improves subjective well-being and alters questionnaire responses without modifying underlying ME/CFS pathophysiology. If fatigue questionnaires are administered within the endorphin window (hours post-exercise), responses capture mood elevation, not physiological improvement. Altered beta-endorphin immunoreactivity is documented in ME/CFS @Ryabkova2023autoantibodies. This mechanism is independent of classical blinding bias. Not yet replicated---the specific effect on questionnaire validity in ME/CFS is untested.
+
+A related mechanism is attentional analgesia: structured exercise programs redirect attentional resources away from interoceptive symptom monitoring toward external goals, reducing symptom salience.
+
+*Testable predictions.* (1) Questionnaires administered \<2 hours post-exercise should show improvement while those administered \>48 hours post-exercise should show deterioration. (2) Naloxone pre-treatment before exercise should abolish subjective improvement without affecting objective outcomes.
+] <hyp:endorphin-questionnaire>
+
+#speculation(title: [Response Shift and Therapeutic Ritual Effects])[
+*Certainty: 0.35.* Two additional mechanisms may operate. First, _response shift_: patients undergoing progressive exercise may unconsciously recalibrate their internal reference standard for fatigue, rating their worsened state as "acceptable." Second, _therapeutic ritual_: exercise trials provide clinic visits, therapist relationships, and external validation---independently improving well-being for ME/CFS patients whose prior medical experience was dismissal (Section @sec:medical-gaslighting). Neither mechanism would produce objective improvement. Not yet replicated---both are inferred from other conditions.
+
+*Testable predictions.* (1) A "then-test" design should detect response shift. (2) An "enhanced care" control arm (same therapist contact without exercise) should produce identical subjective improvement.
+] <spec:response-shift-ritual>
+
+#hypothesis(title: [Exercise Discordance as Diagnostic Criterion Quality Indicator])[
+*Certainty: 0.65.* The subjective/objective discordance rate directly measures diagnostic contamination: criteria that admit patients who improve objectively with exercise are selecting non-ME/CFS patients. Wormgoor and Rodenburg (2021) demonstrated this---exercise effects vanish with PEM-requiring criteria @Wormgoor2021physio. Partially replicated via the Wormgoor finding; independent replication with prospective PEM-stratified trials is needed.
+
+*Testable prediction.* Reanalysing Zhao et al.\ (2026) by stratifying included trials by PEM requirement should show: PEM-requiring trials cluster at SMD ~0; non-PEM trials show SMD ~0.85.
+] <hyp:discordance-diagnostic>
+
+#prediction(title: [Long COVID Rehabilitation Trials Will Repeat the ME/CFS Exercise Error])[
+*Certainty: 0.75.* Long COVID rehabilitation trials face identical blinding vulnerabilities. Van Rhijn-Brouwer et al.\ (2024) report that 75% of 477 Long COVID patients worsened after following exercise recommendations @vanRhijnBrouwer2024GETharm, suggesting the harm pathway is already active.
+
+*Falsifiable.* A systematic review of Long COVID rehabilitation trials stratified by blinding and outcome type should show the same pattern as ME/CFS. If Long COVID trials show genuine objective benefit, this prediction is falsified.
+] <pred:long-covid-exercise-error>
+
+#hypothesis(title: [Depression as Blinding Calibration Standard])[
+*Certainty: 0.50.* Exercise meta-analyses for depression (SMD = --1.11; Schuch et al.\ 2016 @Schuch2016exerciseDepression) share blinding vulnerabilities but involve established biological exercise mechanisms. Depression can serve as a _calibration standard_: if blinding quality moderates effect size far more in ME/CFS than depression, this confirms the ME/CFS effect is primarily artifactual. Not yet replicated---the cross-condition meta-regression has not been performed.
+
+*Testable prediction.* In depression, well-blinded trials should retain a meaningful effect; in ME/CFS, effect size should approach zero in blinded or objective-outcome trials.
+] <hyp:depression-calibration>
+
+#limitation(title: [Severity Selection Artifact in Exercise Trials])[
+Exercise trial enrollment inherently selects for less severe ME/CFS patients---moderate, severe, and very severe patients cannot attend clinic visits or perform exercise protocols. Enrolled populations are enriched for patients with more functional capacity and higher probability of misdiagnosis under broad criteria. Baseline severity scores in exercise trial participants should be compared against population registries to quantify this artifact.
+] <lim:severity-selection>
+
+#open-question(title: [Policy Innovation: Blinding-Adjusted Effect Sizes and Bias-Resilient Meta-Analysis])[
+Three innovations could prevent the "acknowledged-but-discounted bias" pattern from recurring. (1) _Blinding-adjusted effect size reporting_: guidelines should require both raw and BRANDO-adjusted effect sizes for unblinded behavioural interventions. For Zhao 2026: raw SMD = 0.85; adjusted SMD = 0.29. (2) _BRANDO-adjusted treatment evidence map_: apply the SMD 0.56 correction to all unblinded ME/CFS treatments. (3) _Numbers Needed to Mislead (NNM) metric_: the number of additional unblinded trials needed to maintain a significant pooled effect against null blinded evidence---formalising how bias-dominated literatures become more "precise" while remaining equally biased.
+] <oq:blinding-adjusted-policy>
+
+==== Quantifying the Iatrogenic Harm Pathway
+
+The qualitative iatrogenic chain documented in Hypothesis @hyp:deconditioning-iatrogenic can be made quantitative. Each link has estimable transition probabilities: (1) meta-analysis to guideline (Zhao 2026 published; Cochrane and RACGP maintained GET); (2) guideline to prescription (standard UK care until 2021); (3) prescription to PEM trigger (51--74% harm rate @Kindlon2011GET @Stallard2026handi); (4) PEM to severity progression (75% worsened in Long COVID @vanRhijnBrouwer2024GETharm; ME/CFS recovery rate \<5%). Jurisdictions that adopted NICE 2021 early versus those maintaining GET provide a natural experiment.
 
 == Catastrophizing: A Weaponised Construct
 <sec:catastrophizing-critique>

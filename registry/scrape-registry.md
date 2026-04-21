@@ -155,6 +155,16 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/37289866/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Singh2023taurineAging — taurine deficiency driver of aging Science landmark |
 | https://pubmed.ncbi.nlm.nih.gov/41061678/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Marcangeli2025taurineNull — null result taurine aging humans Aging Cell |
 | https://pubmed.ncbi.nlm.nih.gov/40974575/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — RossiSmith2025taurineNKA — taurine efflux impairs Na/K-ATPase NLRP3 Cell Reports |
+| https://pubmed.ncbi.nlm.nih.gov/24881045/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — Hrobjartsson2014blinding — blinding bias SMD 0.56 patient-reported outcomes |
+| https://pubmed.ncbi.nlm.nih.gov/22945832/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — Savovic2012blinding — BRANDO 13% exaggeration subjective outcomes |
+| https://pubmed.ncbi.nlm.nih.gov/40475370/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — Pitre2023blindingImpact — Cochrane blinding impact review |
+| https://pubmed.ncbi.nlm.nih.gov/30305916/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — VinkNiese2018getCochrane — GET not effective re-analysis |
+| https://pubmed.ncbi.nlm.nih.gov/32568149/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — VinkNiese2020workCFS — GET does not restore work capacity |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC9141828/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — VinkNiese2022NICE — NICE guidance exposed GET/CBT flaws |
+| https://pubmed.ncbi.nlm.nih.gov/39697147/ | pubmed | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — Larun2024exerciseCFS — Cochrane exercise CFS updated Dec 2024 |
+| [frontiersin/fneur.2025.1681990](https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1681990/full) | frontiersin | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — Wei2025exerciseMECFS — exercise meta-analysis 13 RCTs n=1305 |
+| [sciencedirect/S2589004225024393](https://www.sciencedirect.com/science/article/pii/S2589004225024393) | sciencedirect | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — Liao2025exerciseNetwork — network meta-analysis 25 RCTs n=2831 |
+| [s4me.info/zhao-et-al-49862](https://www.s4me.info/threads/the-efficacy-of-exercise-in-patients-with-myalgic-encephalomyelitis-chronic-fatigue-syndrome-a-systematic-review-and-meta-analysis-2026-zhao-et-al.49862/) | s4me.info | 2026-04-21 | — | content-staging/literature-zhao2026-exercise.md — community critique of Zhao 2026 |
 | https://pubmed.ncbi.nlm.nih.gov/7786694/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Suleiman1994taurineCardiac — cardiac calcium paradox taurine Na/K-ATPase NCX |
 | https://pubmed.ncbi.nlm.nih.gov/26576229/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Prentice2015taurineNeuro — taurine neuroprotection calcium buffering mitochondrial stabilization |
 | https://pubmed.ncbi.nlm.nih.gov/28580833/ | pubmed | 2026-04-16 | 2026-04-16 | bib/appendix-h — Ahmadian2017taurineHF — taurine RCT heart failure anti-inflammatory exercise |
@@ -265,3 +275,12 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/29615976/ | pubmed | 2026-04-21 | — | bib/staging — RuizNunez2018 — low T3 syndrome ME/CFS case-control n=197 normal TSH FT3 below range OR 2.56 |
 | https://pubmed.ncbi.nlm.nih.gov/21186954/ | pubmed | 2026-04-21 | — | bib/staging — Ott2011 — Hashimoto thyroiditis fatigue quality of life normal TSH Thyroid n=426 |
 | https://pubmed.ncbi.nlm.nih.gov/28453534/ | pubmed | 2026-04-21 | — | bib/staging — Joustra2017 — vitamin mineral status CFS fibromyalgia systematic review 45 studies negative serum findings |
+| https://www.sciencedirect.com/science/article/abs/pii/S0022399926001613 | sciencedirect | 2026-04-21 | 2026-04-21 | ch24/ch17/bib/appendix-h — Zhao2026exercise — exercise meta-analysis 17 RCTs n=1944 subjective-only improvement |
+| https://pubmed.ncbi.nlm.nih.gov/24881045/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — Hrobjartsson2014blinding — within-trial blinding bias SMD 0.56 patient-reported outcomes |
+| https://pubmed.ncbi.nlm.nih.gov/22945832/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — Savovic2012blinding — BRANDO 1973 RCTs blinding 13% exaggeration subjective outcomes |
+| https://pubmed.ncbi.nlm.nih.gov/40475370/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — Pitre2023blindingImpact — Cochrane blinding update confirms BRANDO |
+| https://pubmed.ncbi.nlm.nih.gov/32568149/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — VinkNiese2020workCFS — GET does not restore work capacity |
+| https://pubmed.ncbi.nlm.nih.gov/35628033/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — VinkNiese2022NICE — PACE 20% subjective improved objectively deteriorated |
+| https://pubmed.ncbi.nlm.nih.gov/39697147/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — Larun2024exerciseCFS — Cochrane exercise review updated Dec 2024 acknowledged-but-discounted bias |
+| https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1681990/full | frontiersin | 2026-04-21 | 2026-04-21 | ch17/bib — Wei2025exerciseMECFS — exercise meta-analysis 13 RCTs same structural flaw |
+| https://www.sciencedirect.com/science/article/pii/S2589004225024393 | sciencedirect | 2026-04-21 | 2026-04-21 | ch17/bib — Liao2025exerciseNetwork — network meta-analysis 20 trials same structural flaw |

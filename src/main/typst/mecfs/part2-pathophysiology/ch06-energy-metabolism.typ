@@ -612,6 +612,12 @@ If both mechanisms produce partial rather than complete inhibition, the combined
 *Limitation:* ACOD1 expression has not been measured in ME/CFS cells. The itaconate shunt is best characterised in macrophages; its relevance to muscle and neuronal aconitase is unclear.
 ] <spec:itaconate-aconitase-double-block>
 
+#speculation(title: [Forced Exit from Metabolic Safe Mode: Temporal Illusion of Exercise Benefit])[
+*Certainty: 0.25.* Cells in ME/CFS may occupy a low-energy "safe mode" characterised by itaconate-mediated metabolic suppression and reduced TCA flux @Naviaux2016metabolomics. Exercise forcibly increases metabolic demands, potentially driving cells out of this conserved state. This forced exit could produce a transient increase in metabolic activity---experienced subjectively as improved energy---followed by a deeper crash as the system re-enters safe mode with depleted reserves. If outcome questionnaires are administered during the "forced activation" window, patients may report improvement, while the subsequent crash would be missed by standard assessment timepoints. Not yet replicated---temporal metabolic dynamics during exercise in ME/CFS have not been profiled.
+
+*Testable prediction.* Multi-timepoint metabolomics during an exercise trial should show transient mid-intervention aerobic marker increase, then deeper suppression at 2 weeks post-intervention versus baseline.
+] <spec:forced-exit-safe-mode>
+
 == Step 6: Key Cofactors as Cross-Cutting Failure Modes
 <sec:step6-cofactors>
 
