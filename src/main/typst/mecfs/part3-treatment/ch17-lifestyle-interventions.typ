@@ -160,7 +160,7 @@ Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that 
 + *Maximum 4 cognitive blocks per session, 2 sessions per day (mild ME/CFS).* Hard cap, adjustable downward based on PEM response. Severe patients: 1–2 blocks per day.
 + *Hyperfocus interruption strategy.* External accountability partner or app-based interruption. Hyperfocus in ME/CFS patients produces cognitive exertion exceeding the energy envelope — the capability is present but using it causes damage.
 + *Dopamine scheduling.* Plan engaging tasks strategically. Instead of dopamine-seeking filling all available time, schedule 1–2 high-engagement tasks per day with mandatory low-demand periods between them.
-+ *Post-cognitive-exertion monitoring.* Track cognitive symptoms at 6h, 24h, 48h after cognitive sessions — the same delayed PEM monitoring used for physical exertion.
++ *Post-cognitive-exertion monitoring.* Track cognitive symptoms at 6h, 24h, 48h after cognitive sessions — the same delayed PEM monitoring used for physical exertion. For patients too cognitively impaired to self-monitor, a caregiver-proxy version using a simple 3-point scale (better / same / worse) at each timepoint is an acceptable substitute.
 
 #speculation(title: [ADHD-Adapted Cognitive Pacing Protocol])[
 
@@ -234,7 +234,7 @@ Protocol targeting Architecture C sleep barriers:
 + *Blue light elimination 3 hours before sleep.* More aggressive than the standard 1-hour recommendation — necessary because neurodivergent circadian systems are typically more disrupted.
 + *Temperature optimization (18–20°C ambient).* Cool environment promotes slow-wave sleep, the phase most associated with mitochondrial repair processes.
 + *No cognitive engagement 2 hours before sleep.* The ADHD "bedtime revenge procrastination" pattern — using evening hours for stimulating activities to compensate for the day's constraints — directly depletes the reserve meant to be recovered during sleep.
-+ *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients.
++ *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients. Photosensitivity is common in severe ME/CFS — start at 2,500 lux for 5 minutes and titrate upward only if tolerated. Discontinue if it triggers headache, eye pain, or sensory overload.
 
 #hypothesis(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
 If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
@@ -480,6 +480,14 @@ Large patient surveys consistently report high rates of harm from GET. A systema
     - Very few ($<$10%) report sustained benefit
 
 ]
+
+#limitation(title: [Fairness Note: The BPS/GET Position Is More Nuanced Than Presented Here])[
+The biopsychosocial model's strongest form does not claim ME/CFS is purely deconditioning or psychological --- it proposes that perpetuating factors including deconditioning and activity avoidance interact with biological abnormalities. The original PACE protocol included therapist-guided, patient-negotiated activity targets with explicit instructions not to push beyond tolerated limits, which is more nuanced than the "progressive incremental increases" summary above. Pre-PACE trials (Fulcher and White 1997; Powell et al.\ 2001) showed benefit on subjective outcomes and some objective measures, and these findings deserve engagement rather than omission. The evidentiary standard applied here to PACE --- demanding objective primary outcomes from a trial powered and designed for subjective ones --- is stricter than the standard applied to many speculative frameworks elsewhere in this document, including Architecture C (certainty 0.50, with a key component resting on n=5 case data). This asymmetry should be acknowledged: describing PACE's findings as "decisively refuted" while presenting Architecture C with careful hedging reflects the author's biomedical perspective rather than a balanced evidence assessment, and readers should weigh both sides accordingly.
+]
+
+*Recent Meta-Analyses Do Not Rehabilitate GET*
+
+A cluster of systematic reviews and meta-analyses published in 2025--2026 @Zhao2026exercise @Wei2025exerciseMECFS @Liao2025exerciseNetwork claim that exercise improves fatigue in ME/CFS. However, all three share the same structural limitations: they pool unblinded trials using subjective outcomes, include studies with broad diagnostic criteria that do not require PEM, and mix mechanistically different interventions (aerobic exercise, yoga, qigong, tai chi). Zhao et al.\ (2026, 17 RCTs, n=1,944) is representative: exercise improved subjective fatigue (SMD = 0.85) but produced no improvement in objective cardiopulmonary function or functional capacity---the predicted signature of blinding bias, not genuine therapeutic effect (see Section @sec:exercise-meta-cluster for detailed analysis). The BRANDO meta-epidemiological synthesis demonstrates that unblinding alone inflates patient-reported outcomes by SMD 0.56 on average @Hrobjartsson2014blinding, sufficient to explain most of the effect Zhao et al.\ report. These meta-analyses do not provide grounds for reconsidering the consensus against GET in PEM-positive ME/CFS patients.
 
 ==== The Comorbidity Exercise Conflict
 <sec:comorbidity-exercise-conflict>
@@ -900,7 +908,7 @@ In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/PO
 
     + *Head-of-bed elevation (10–15 degrees).* Improves cerebral venous drainage during sleep, enhancing glymphatic clearance and reducing morning brain fog.
     + *Graduated compression (abdominal binder + thigh-high stockings, 30–40 mmHg).* Reduces venous pooling, improves venous return and cardiac output, increases cerebral blood flow. Abdominal binder particularly relevant for reclined/bedbound patients.
-    + *Fluid and salt loading (2–3 L fluid + 5–10 g NaCl daily).* Expands plasma volume. Contraindicated in hypertension. Monitor for oedema.
+    + *Fluid and salt loading (2–3 L fluid + 5–10 g NaCl daily).* Expands plasma volume. Contraindicated in hypertension. Monitor for oedema. Also use caution in MCAS (GI intolerance, mast cell instability with fluid shifts) and renal impairment. Patients already on fludrocortisone or midodrine should coordinate salt loading with their prescriber — the combination risks volume overload and supine hypertension.
     + *Postural optimization for cognitive work.* Reclined desk position (30–45 degree recline) for all cognitive tasks. Removes the orthostatic component of cerebral hypoperfusion during the activity most likely to cause cognitive PEM.
     + *Counterpressure manoeuvres before and during cognitive effort.* Not just for presyncope — proactive use during any sustained cognitive work to maintain cerebral perfusion.
 

@@ -1028,7 +1028,7 @@ These treatment proposals derive from genetic association data (DecodeME) and me
 == Metabolic Reserve Interventions
 <sec:metabolic-reserve-interventions>
 
-The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identifies several pharmacological targets for increasing $R_"headroom"$ — either by improving energy production capacity or by reducing the metabolic cost of baseline function. The following interventions are speculative but based on established pharmacology applied to a novel indication.
+The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identifies several pharmacological targets for increasing $R_"headroom"$ — either by improving energy production capacity or by reducing the metabolic cost of baseline function. The following interventions are speculative but based on established pharmacology applied to a novel indication. None of these interventions has been validated for ME/CFS. Clinicians should treat this section as a research-stage landscape rather than a prescribing guide — all require specialist discussion, off-label consent where applicable, and individual risk-benefit assessment.
 
 === Sapropterin (Kuvan) — BH4 Supplementation
 <subsec:sapropterin-bh4>
@@ -1037,9 +1037,9 @@ The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) identif
 
 *Evidence:* Williams 2025 case series ($n = 5$) documented ADHD symptom improvement with low-dose BH4 (0.088–0.292 mg/kg/day) @Williams2025GCH1BH4. ColpaniFilho 2025 systematic review consistently found low BH4 in ASD @ColpaniFilho2025BH4ASD. No ME/CFS trials exist.
 
-*Target population:* GCH1 rs841 homozygous ME/CFS patients (genotype-guided); neurodivergent ME/CFS patients with documented low serum biopterin or elevated neopterin:biopterin ratio.
+*Target population:* GCH1 rs841 homozygous ME/CFS patients (genotype-guided); neurodivergent ME/CFS patients with documented low serum biopterin or elevated neopterin:biopterin ratio. GCH1 genotyping is not a standard clinical test — it requires research-laboratory sequencing or direct-to-consumer genomic testing (e.g., 23andMe raw data includes rs841), with no routine ordering pathway or insurance billing code in most health systems.
 
-*Risk:* Low to moderate. Well-characterised safety profile from decades of PKU use. Main risk: if NO production increases systemically before cerebral autoregulation adapts, transient hypotension is possible. Cost is high (~\$1,000–3,000/month without insurance).
+*Risk:* Low to moderate. Well-characterised safety profile from decades of PKU use. Main risk: if NO production increases systemically before cerebral autoregulation adapts, transient hypotension is possible. Cost is prohibitive for most patients globally (~\$1,000–3,000/month without insurance), making this effectively inaccessible outside well-insured health systems. The OTC BH4-recycling stack (@subsubsec:bh4-recycling-support) is a partial alternative at ~\$20/month.
 
 #warning-env(title: [Sapropterin Is Research-Stage for ME/CFS])[
 No ME/CFS trial data exist for sapropterin. The rationale is entirely derived from the BH4 convergent bottleneck hypothesis (certainty 0.35). The evidence base consists of a 5-patient ADHD case series and ASD observational data. Off-label use should not be attempted without specialist supervision, BH4/neopterin baseline measurement, and monitoring for hypotension. Cost may be prohibitive.
@@ -1062,7 +1062,7 @@ _Protocol:_ Combine low-dose methylphenidate with mandatory pacing structure: ti
 
 _Target population:_ ME/CFS patients with ADHD comorbidity or documented catecholamine deficiency (Walitt 2024 CSF metabolites; @Walitt2024NIH).
 
-_Risk:_ Moderate. Requires careful behavioural monitoring — the subjective improvement creates strong temptation to exceed the pacing protocol. Standard methylphenidate cardiovascular monitoring applies. The pacing component requires external accountability (timer apps, caregiver support) because ADHD patients cannot reliably self-pace.
+_Risk:_ Moderate. Requires careful behavioural monitoring — the subjective improvement creates strong temptation to exceed the pacing protocol. Standard methylphenidate cardiovascular monitoring applies. The pacing component requires external accountability (timer apps, caregiver support) because ADHD patients cannot reliably self-pace. Titration: start at 5 mg immediate-release, morning only. Increase by 2.5 mg weekly if tolerated, not exceeding 10 mg. Expected time-to-response for cognitive efficiency: 1–2 weeks. Monitor: resting heart rate, blood pressure, and PEM diary at baseline, 2 weeks, and 4 weeks. In ME/CFS patients with baseline tachycardia or POTS, obtain cardiology clearance before initiation.
 
 #warning-env(title: [Stimulant Use in ME/CFS Requires Strict Pacing Discipline])[
 Without enforced pacing, stimulants in ME/CFS risk enabling activity escalation that worsens PEM. The Vernon 2025 finding of -1.5% PEM effect is a population average that likely conceals increased PEM in patients who escalated activity. This protocol is untested as an integrated intervention. Patients and prescribers must agree on non-negotiable pacing limits before initiation.
@@ -1081,7 +1081,7 @@ _Rationale:_ Iron serves as a dual bottleneck in neurodivergent ME/CFS: it is a 
 
 _Mechanism:_ Iron repletion simultaneously improves two Architecture C reserve reducers — mitochondrial energy production capacity ($J_"production,max"$) and dopaminergic efficiency (reducing $J_"demand"$ for equivalent cognitive output). This makes iron unique among metabolic reserve interventions: it shifts both terms of the $R_"headroom"$ equation favourably.
 
-_Protocol:_ Oral iron bisglycinate (preferred for tolerability), titrated to ferritin $> 100$ ng/mL with transferrin saturation monitoring. For patients intolerant to oral iron: IV ferric carboxymaltose (single infusion, avoids gastrointestinal burden relevant to bedbound patients). Monitor ferritin and transferrin saturation every 3 months; stop if transferrin saturation $> 45%$.
+_Protocol:_ Oral iron bisglycinate (preferred for tolerability), titrated to ferritin $> 100$ ng/mL with transferrin saturation monitoring. For patients intolerant to oral iron: IV ferric carboxymaltose (single infusion, avoids gastrointestinal burden relevant to bedbound patients). Monitor ferritin and transferrin saturation every 3 months; stop if transferrin saturation $> 45%$. Also pause supplementation if ferritin exceeds 200 ng/mL — overshoot beyond the target range increases iron overload risk without demonstrated additional benefit.
 
 _Target population:_ All neurodivergent ME/CFS patients with ferritin $< 100$ ng/mL. Broader application to all ME/CFS patients with ferritin below this threshold is reasonable given the low risk profile.
 

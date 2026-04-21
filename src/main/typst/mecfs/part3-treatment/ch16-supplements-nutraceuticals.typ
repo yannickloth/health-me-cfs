@@ -661,13 +661,15 @@ enzymatic bottleneck, though RCT evidence for this approach in ME/CFS is absent.
 
 The BH4 convergent bottleneck hypothesis (@spec:bh4-convergent-bottleneck) identifies tetrahydrobiopterin depletion as a potential convergence point for multiple ME/CFS predisposing conditions. Direct BH4 supplementation (sapropterin) is expensive and requires prescription (@subsec:sapropterin-bh4). A combination of cofactors supporting endogenous BH4 recycling may achieve partial benefit at much lower cost:
 
-- *Folinic acid (5-MTHF), 400–800 mcg:* Supports dihydrofolate reductase (DHFR)-mediated BH4 regeneration from BH2. Preferred over folic acid because it bypasses MTHFR polymorphisms common in neurodivergent populations.
+- *Folinic acid (5-MTHF), 400–800 mcg:* Supports dihydrofolate reductase (DHFR)-mediated BH4 regeneration from BH2. Preferred over folic acid because it bypasses MTHFR polymorphisms common in neurodivergent populations. Contraindicated in patients on methotrexate (used in co-occurring autoimmune conditions) — folinic acid antagonises methotrexate's therapeutic effect. Consult prescriber before initiating.
 - *Vitamin C, 500–1000 mg:* Prevents BH4 oxidation to BH2 by scavenging peroxynitrite. Also serves as dopamine beta-hydroxylase cofactor (norepinephrine synthesis).
 - *Iron bisglycinate:* Cofactor for dihydropteridine reductase (DHPR), the enzyme that recycles BH4. Dose titrated to ferritin $> 100$ ng/mL per Architecture C rationale (@subsec:iron-repletion-neurodivergent).
 
 #warning-env(title: [This Is Not Equivalent to BH4 Supplementation])[
 This combination supports endogenous BH4 recycling rather than providing exogenous BH4. Effectiveness depends on residual GCH1 activity — it will not help severe GCH1 deficiency (homozygous loss-of-function variants). No clinical data exist for this specific combination in any condition. The rationale is biochemically logical but entirely untested.
 ]
+
+If the OTC combination produces no improvement in urinary neopterin:biopterin ratio after 8 weeks of adherence, and the patient is confirmed GCH1 rs841 homozygous, escalation to sapropterin should be discussed with a metabolic specialist — this is the point at which endogenous recycling support has failed and exogenous BH4 may be required.
 
 #speculation(title: [OTC BH4 Recycling Support as Low-Cost Reserve Intervention])[
 *Certainty: 0.25.* If the BH4 convergent bottleneck hypothesis is correct, a combination of folinic acid, vitamin C, and iron supporting BH4 recycling should produce measurable improvement in urinary neopterin:biopterin ratio and correlated symptom improvement (cognition, orthostatic tolerance) in ME/CFS patients with elevated neopterin:biopterin at baseline. This is testable with a pre/post design measuring the biomarker before and after 8 weeks of supplementation. All components are OTC, well-tolerated, and cheap (~\$20/month combined). Biochemically logical; no clinical data for this combination. Not yet replicated.
@@ -977,10 +979,10 @@ Standard ME/CFS mitochondrial supplement protocols (CoQ10 + NADH + D-ribose) tar
   caption: [Architecture C "Reserve Builder" stack targeting upstream metabolic bottlenecks.],
 ) <tab:reserve-builder-stack>
 
-*Distinction from standard protocols.* This stack focuses on upstream bottlenecks (cofactor supply, enzyme efficiency, phosphocreatine buffer) rather than downstream ETC support. The two approaches are complementary and may be combined. Estimated cost: \~\$80/month.
+*Distinction from standard protocols.* This stack focuses on upstream bottlenecks (cofactor supply, enzyme efficiency, phosphocreatine buffer) rather than downstream ETC support. The two approaches are complementary and may be combined. Estimated cost: \~\$80/month. The biochemical rationales for each component are individually grounded but the combination has never been tested --- the specificity of mechanism-target mapping should not be mistaken for clinical validation.
 
 #warning-env(title: [Untested Combination Protocol])[
-Individual components have evidence for their specific targets, but the combination has never been tested. Interaction effects between components are unknown. This protocol should not replace evidence-based ME/CFS management. Start one component at a time (2-week intervals) to identify individual tolerability and response. Consult a physician before initiating multi-supplement protocols, particularly regarding iron dosing.
+Individual components have evidence for their specific targets, but the combination has never been tested. Interaction effects between components are unknown. This protocol should not replace evidence-based ME/CFS management. Start one component at a time (2-week intervals) to identify individual tolerability and response. Adherence burden is substantial: 6 supplements atop any existing protocol (CoQ10, NADH, D-ribose) creates a 9+ daily supplement load. Energy-limited patients with cognitive impairment may find this impractical — prioritise iron and creatine (highest evidence and actionability) if full adherence is unrealistic. Consult a physician before initiating multi-supplement protocols, particularly regarding iron dosing.
 ]
 
 #speculation(title: [Reserve Builder Stack Targeting Upstream Bottlenecks])[

@@ -806,7 +806,7 @@ $ "MRS" = w_1 dot ("ferritin" / 100) + w_2 dot ("BH4" / "BH4"_"ref") + w_3 dot (
 
 where $"ND"_"burden"$ = sum of binary indicators (ADHD = 0.15, ASD = 0.20, hEDS = 0.10, migraine = 0.05, GCH1 homozygous = 0.10).
 
-*Practical challenge:* BH4 and CBF are not routine clinical measures. A simplified version using only ferritin + VO#sub[2]max + neurodivergent diagnosis could be implemented in primary care as a screening tool.
+*Practical challenge:* BH4 and CBF are not routine clinical measures. A simplified version using only ferritin + VO#sub[2]max + neurodivergent diagnosis could be implemented in primary care as a screening tool. However, the simplified version currently lacks calibrated weights, clinical cut-off values, and actionable interpretation guidance — a GP receiving a raw score would have no evidence-based threshold for deciding intervention intensity.
 
 *Use case:* Identify high-risk individuals before infection (prevention) and stratify treatment intensity (lowest MRS = most aggressive metabolic support per @sec:severity-stratified-reserve-protocol).
 
@@ -825,6 +825,8 @@ Neopterin is produced when GTP cyclohydrolase I activity is diverted toward immu
 
 *Practical advantages:* Non-invasive urine collection, can be done at home and mailed. HPLC measurement is standard and cheap (~\$30--50 per sample at specialty labs).
 
+*Current limitations:* No validated clinical reference range exists for ME/CFS populations; HPLC pteridine measurement has no CPT/INAMI billing code in most countries; and elevated neopterin also occurs in renal failure, HIV, and active malignancy, creating false-positive risk in patients with these comorbidities.
+
 *Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support (@subsec:sapropterin-bh4, @subsubsec:bh4-recycling-support).
 
 #speculation(title: [Neopterin:Biopterin Ratio as Architecture C Screening Biomarker])[
@@ -838,7 +840,9 @@ For patients with known neurodivergent diagnoses, a tiered screening protocol co
 
 *Tier 1 (any primary care, ~\$100):* Ferritin (target $> 100$ ng/mL), CBC with differential, vitamin D (target $> 50$ ng/mL), CRP, ESR.
 
-*Tier 2 (specialist, ~\$300):* Urinary neopterin:biopterin ratio, tilt table or NASA lean test (CBF proxy), serum zinc/copper/B12/folate, CPET if ambulatory (VO#sub[2]max, anaerobic threshold).
+_Interpretation:_ Ferritin $< 100$ ng/mL → consider iron repletion per @subsec:iron-repletion-neurodivergent. Vitamin D $< 50$ ng/mL → supplement to target. Elevated CRP/ESR → investigate active inflammation before attributing to ME/CFS predisposition. Normal results do not exclude low metabolic reserve — Tier 1 captures only the most accessible markers.
+
+*Tier 2 (specialist, ~\$300):* Urinary neopterin:biopterin ratio, tilt table or NASA lean test (CBF proxy) (note: tilt table testing is a cardiology/autonomic specialty procedure requiring referral in most health systems; the NASA lean test is a simpler office-based alternative), serum zinc/copper/B12/folate, CPET if ambulatory (VO#sub[2]max, anaerobic threshold).
 
 *Tier 3 (research only, ~\$2,000+):* GCH1 genotyping, FDG-PET (cerebral glucose metabolism), PBMC respirometry.
 
