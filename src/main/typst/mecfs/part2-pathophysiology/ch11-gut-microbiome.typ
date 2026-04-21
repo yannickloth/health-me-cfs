@@ -500,7 +500,7 @@ Different bacterial populations produce different gases, leading to distinct cli
 
 Hydrogen sulfide (H#sub[2]S) produced by intestinal sulfate-reducing bacteria (_Desulfovibrio_, _Bilophila wadsworthia_, _Fusobacterium_) directly inhibits mitochondrial Complex IV (cytochrome _c_ oxidase) by binding to its binuclear CuB/heme~a#sub[3] active site --- the same site targeted by cyanide @Nicholls2013sulfideCOX. The inhibition is biphasic and partially reversible, but at the micromolar concentrations produced by bacterial overgrowth, it chronically reduces ATP output without causing acute cell death.
 
-#hypothesis-box(title: [Gut-Derived H#sub[2]S as a Contributor to ME/CFS Energy Failure])[
+#hypothesis(title: [Gut-Derived H#sub[2]S as a Contributor to ME/CFS Energy Failure])[
   In ME/CFS patients with documented gut dysbiosis, sulfate-reducing bacterial overgrowth may produce sufficient H#sub[2]S to chronically inhibit Complex IV, contributing to the cellular energy deficit independently of other mitochondrial impairments. (Certainty: 0.40 --- mechanism established in general biochemistry and IBS cohorts @Borisov2021h2sMito @VillanuevaMillan2022IBSsubtypes; no ME/CFS-specific H#sub[2]S measurements exist.)
 
   *Mechanistic chain:*
@@ -522,7 +522,7 @@ Hydrogen sulfide (H#sub[2]S) produced by intestinal sulfate-reducing bacteria (_
   *Treatment implications (research-stage only):* Bismuth subsalicylate has shown proof-of-concept in murine models where Desulfovibrio-derived H#sub[2]S suppressed GLP-1 production via mitochondrial inhibition @Qi2024DesulfovibrioGLP1. Dietary sulfur restriction (reducing garlic, cruciferous vegetables, eggs, NAC, alpha-lipoic acid) reduced sulfidogenic pathobionts in an 8-week UC pilot @Ye2025lowSulfurUC.
 ]
 
-#warning-box(title: [Sulfur-Containing Supplement Caution])[
+#warning-env(title: [Sulfur-Containing Supplement Caution])[
   Several supplements commonly recommended for ME/CFS patients contain sulfur: N-acetyl cysteine (NAC), alpha-lipoic acid (ALA), methylsulfonylmethane (MSM), and taurine. In patients with H#sub[2]S-dominant dysbiosis, these supplements increase substrate availability for sulfate-reducing bacteria, potentially worsening the very mitochondrial impairment they are intended to treat. Patients reporting worsening fatigue, rotten-egg gas, or diarrhoea on sulfur-containing supplements should be evaluated for H#sub[2]S-dominant SIBO before continuing.
 ]
 
