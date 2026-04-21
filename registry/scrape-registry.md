@@ -235,3 +235,33 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/17088507/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Kato2006premorbid — premorbid predictors chronic fatigue Swedish twins N=19,192 |
 | https://pubmed.ncbi.nlm.nih.gov/25584529/ | pubmed | 2026-04-20 | 2026-04-20 | bib/appendix-h — Jason2015CFSvsME — CFS vs sudden onset ME null result for universal prodrome N=285 |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6348258/ | PMC | 2026-04-20 | 2026-04-20 | bib/appendix-h — Geraghty2019diagnosticAccuracy — diagnostic accuracy pediatric ME/CFS commentary 40% error rate |
+| https://pubmed.ncbi.nlm.nih.gov/24059525/ | pubmed | 2026-04-21 | — | bib/staging — Nicholls2013sulfideCOX — sulfide inhibition of cytochrome c oxidase biphasic mechanism |
+| https://pubmed.ncbi.nlm.nih.gov/34884491/ | pubmed | 2026-04-21 | — | bib/staging — Borisov2021h2sMito — H2S impact on mitochondrial and bacterial bioenergetics dose-response |
+| https://pubmed.ncbi.nlm.nih.gov/21208106/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Pimentel2011TARGET — rifaximin IBS-D TARGET 1+2 RCTs NEJM |
+| https://pubmed.ncbi.nlm.nih.gov/20574504/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Pimentel2009prokinetics — low-dose prokinetics delay SIBO recurrence |
+| https://pubmed.ncbi.nlm.nih.gov/22450306/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Deloose2012MMCreview — MMC control mechanisms Nat Rev Gastroenterol Hepatol |
+| https://pubmed.ncbi.nlm.nih.gov/23991830/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Szabo2014H2Smito — H2S mitochondrial Complex IV biphasic regulation Br J Pharmacol |
+| https://pubmed.ncbi.nlm.nih.gov/28323273/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Rezaie2017breathConsensus — North American Consensus breath testing Am J Gastroenterol |
+| https://pubmed.ncbi.nlm.nih.gov/32023228/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Pimentel2020ACGguideline — ACG clinical guideline SIBO |
+| https://pubmed.ncbi.nlm.nih.gov/39000446/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Wielgosz2024SIBOnutrition — SIBO subtypes nutritional status Int J Mol Sci |
+| https://pubmed.ncbi.nlm.nih.gov/38798120/ | pubmed | 2026-04-21 | — | content-staging/bib-entries-sibo.bib — Kashyap2024SIBOcritique — critical appraisal SIBO hypothesis ESNM/ANMS |
+| https://pubmed.ncbi.nlm.nih.gov/33080111/ | pubmed | 2026-04-21 | — | bib/staging — Landry2020SQOR — SQOR H2S clearance enzyme CoQ10 coupling mechanism |
+| https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1685252/full | frontiersin | 2026-04-21 | — | bib/staging — Peng2025SQORrheostat — SQOR metabolic rheostat H2S redox homeostasis disease |
+| https://pubmed.ncbi.nlm.nih.gov/21617578/ | pubmed | 2026-04-21 | — | bib/staging — Norris2011liverH2S — liver portal clearance H2S oxygen-dependent >97% efficiency |
+| https://pubmed.ncbi.nlm.nih.gov/39059820/ | pubmed | 2026-04-21 | — | bib/staging — Pimenta2024sulfidogenic — Desulfovibrio Bilophila wadsworthia human disease review 2024 |
+| https://pubmed.ncbi.nlm.nih.gov/39030389/ | pubmed | 2026-04-21 | — | bib/staging — Qi2024DesulfovibrioGLP1 — Desulfovibrio H2S inhibits mitochondria L cells GLP-1 Nature Metabolism |
+| https://pubmed.ncbi.nlm.nih.gov/36114762/ | pubmed | 2026-04-21 | — | bib/staging — VillanuevaMillan2022IBSsubtypes — H2S producers IBS-D Desulfovibrio Fusobacterium breath test human |
+| https://pubmed.ncbi.nlm.nih.gov/38060167/ | pubmed | 2026-04-21 | — | bib/staging — VillanuevaMillan2023animalH2S — H2S producers diarrhea phenotype D. piger rat model causal |
+| https://pubmed.ncbi.nlm.nih.gov/40429741/ | pubmed | 2026-04-21 | — | bib/staging — Ye2025lowSulfurUC — reduced sulfur diet UC pilot RCT n=22 microbiome metabolome |
+| https://pubmed.ncbi.nlm.nih.gov/33137711/ | pubmed | 2026-04-21 | — | bib/staging — Paul2020h2sMitoRedox — H2S mitochondria biphasic effects nuanced cytoprotective vs cytotoxic |
+| https://pubmed.ncbi.nlm.nih.gov/22777991/ | pubmed | 2026-04-21 | — | bib/staging — Vaucher2012 — iron supplementation RCT nonanemic women ferritin <50 µg/L fatigue 47.7% reduction |
+| https://pubmed.ncbi.nlm.nih.gov/21705493/ | pubmed | 2026-04-21 | — | bib/staging — Krayenbuehl2011 — IV iron RCT fatigue nonanemic women ferritin ≤50 ng/mL benefit at ≤15 ng/mL |
+| https://pubmed.ncbi.nlm.nih.gov/28625177/ | pubmed | 2026-04-21 | — | bib/staging — Yokoi2017 — meta-analysis IDWA fatigue 6 RCTs 6 cross-sectional British J Nutrition |
+| https://pubmed.ncbi.nlm.nih.gov/33762368/ | pubmed | 2026-04-21 | — | bib/staging — AlNaseem2021 — IDWA clinical review ferritin thresholds 15/30/100 µg/L Clinical Medicine |
+| https://pubmed.ncbi.nlm.nih.gov/30200431/ | pubmed | 2026-04-21 | — | bib/staging — Workinger2018 — magnesium serum vs intracellular testing limitations Nutrients |
+| https://pubmed.ncbi.nlm.nih.gov/32679784/ | pubmed | 2026-04-21 | — | bib/staging — Charoenngam2020 — vitamin D immune threshold 40-60 ng/mL vs bone 20 ng/mL Nutrients |
+| https://pubmed.ncbi.nlm.nih.gov/21646368/ | pubmed | 2026-04-21 | — | bib/staging — Holick2011 — Endocrine Society vitamin D guideline JCEM deficiency/insufficiency/sufficiency thresholds |
+| https://pubmed.ncbi.nlm.nih.gov/19190113/ | pubmed | 2026-04-21 | — | bib/staging — Panicker2009 — DIO2 Thr92Ala polymorphism psychological wellbeing normal TSH T3 T4 JCEM n=552 |
+| https://pubmed.ncbi.nlm.nih.gov/29615976/ | pubmed | 2026-04-21 | — | bib/staging — RuizNunez2018 — low T3 syndrome ME/CFS case-control n=197 normal TSH FT3 below range OR 2.56 |
+| https://pubmed.ncbi.nlm.nih.gov/21186954/ | pubmed | 2026-04-21 | — | bib/staging — Ott2011 — Hashimoto thyroiditis fatigue quality of life normal TSH Thyroid n=426 |
+| https://pubmed.ncbi.nlm.nih.gov/28453534/ | pubmed | 2026-04-21 | — | bib/staging — Joustra2017 — vitamin mineral status CFS fibromyalgia systematic review 45 studies negative serum findings |

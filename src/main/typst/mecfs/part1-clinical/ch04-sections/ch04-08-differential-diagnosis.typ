@@ -109,6 +109,129 @@ Hematologic disorders must be ruled out in the differential diagnosis of ME/CFS.
     - *Symptoms*: Fatigue, cognitive impairment, peripheral neuropathy, macrocytic anemia
     - *Testing*: B12 level \<200 pg/mL; methylmalonic acid (MMA) elevated if tissue deficiency
 
+==== Functional Deficiency Below Diagnostic Thresholds
+<sec:functional-deficiency>
+
+Standard laboratory reference ranges are derived from population distributions, not functional outcome data. A value within the "normal" range may be insufficient for individual cellular function, particularly in chronic illness where compensatory mechanisms are impaired, acute-phase proteins mask deficiencies, and peripheral hormone conversion may be disrupted despite normal serum markers. Five domains are clinically relevant to ME/CFS evaluation.
+
+#limitation(title: [Reference Ranges Encode Population Distributions, Not Functional Thresholds])[
+
+The Joustra 2017 systematic review and meta-analysis (45 studies, n pooled) found no consistent differences in serum vitamin D, magnesium, B12, iron, zinc, or folate between ME/CFS/FMS patients and controls @Joustra2017. This finding is frequently cited as evidence against nutritional deficiency in ME/CFS. However, this conclusion is constrained by methodology: all included studies used standard serum assays — the same measures identified below as inadequate for detecting functional deficiency. A null result in the wrong assay does not rule out tissue-level depletion.
+
+] <lim:joustra-serum-null>
+
+===== Iron Deficiency Without Anemia (IDWA)
+
+The WHO diagnostic threshold for iron deficiency is ferritin $<15$ µg/L. Clinical laboratory practice flags deficiency at $<12$–15 µg/L. However, RCT evidence demonstrates fatigue benefit at ferritin levels well above these cutoffs.
+
+#clinical-finding(title: [Iron Supplementation Reduces Fatigue at Ferritin Up to 50 µg/L])[
+
+Three independent bodies of evidence support a functional iron threshold substantially higher than WHO minimum:
+
+- *Vaucher 2012 (CMAJ, n=198):* Multicentre RCT in nonanemic menstruating women with ferritin $<50$ µg/L. Iron supplementation reduced fatigue score 47.7% vs 28.8% placebo (p=0.02). Enrollment cutoff was $3times$ the WHO deficiency threshold @Vaucher2012.
+
+- *Krayenbuehl 2011 (Blood, n=90):* Double-blind RCT, IV iron vs placebo, women with ferritin $≤50$ ng/mL and normal hemoglobin. In the subgroup with ferritin $≤15$ ng/mL, fatigue decreased 1.8 vs 0.4 points (p=0.005); 82% vs 47% reported improvement (p=0.03) @Krayenbuehl2011.
+
+- *Yokoi 2017 (BJN, meta-analysis of 6 RCTs):* Iron supplementation significantly reduced fatigue in IDWA patients (effect size 0.33, p$lt$0.0001). Included studies used ferritin thresholds ranging from $<12$ to $<50$ µg/L, demonstrating no consensus on where "normal" ends functionally @Yokoi2017.
+
+*Clinical threshold:* Al-Naseem 2021 (narrative review) identifies ferritin $<30$ µg/L as the threshold with high sensitivity/specificity for iron deficiency; in inflammatory states, the functional threshold rises to 100 µg/L (with transferrin saturation $<20$% as confirmatory marker) @AlNaseem2021.
+
+*Certainty:* 0.70 (moderate-high; RCT evidence in non-ME/CFS populations; women only; effect size modest).
+
+] <cf:idwa-fatigue>
+
+#warning-env(title: [Ferritin "Normal" Does Not Rule Out Functional Iron Deficiency])[
+
+A ferritin of 20–45 µg/L will be reported as "within normal range" by most clinical laboratories. In a patient with ME/CFS and unexplained fatigue, ferritin below 50 µg/L warrants clinical consideration for a trial of iron supplementation, particularly if transferrin saturation is $<20$%. In states of chronic inflammation (elevated CRP or ferritin $>100$ µg/L driven by acute-phase response), ferritin alone is unreliable and transferrin saturation becomes the primary indicator.
+
+] <warn:idwa-threshold>
+
+===== Magnesium — Serum vs Intracellular
+
+#observation(title: [Serum Magnesium Is an Unreliable Marker of Body Stores])[
+
+Only approximately 1% of total body magnesium circulates in serum; 99% is intracellular (53% bone, 27% muscle, 19% other tissues). Serum magnesium levels are tightly defended by renal excretion and remain within the reference range even when total body stores are substantially depleted. Workinger 2018 (narrative review) concludes that serum magnesium has "no reliable correlation with total body magnesium levels or concentrations in specific tissues" @Workinger2018.
+
+Approximately 45% of Americans are magnesium-deficient by dietary intake standards despite many having serum levels within the reference range. RBC magnesium is a better proxy than serum magnesium but is not standardized across laboratories and remains imperfect.
+
+*Clinical implication:* When evaluating fatigue, muscle cramps, or sleep disturbance in ME/CFS patients, a "normal" serum magnesium does not exclude intracellular depletion. RBC magnesium is the preferred test when magnesium status is clinically relevant @Workinger2018.
+
+*Certainty:* 0.65 (narrative review; MDPI open-access journal; physiological principle is well-established).
+
+] <obs:magnesium-serum-unreliable>
+
+===== Vitamin B12 — Functional vs Serum Status
+
+#speculation(title: [Functional B12 Deficiency May Occur with Normal Serum B12 in ME/CFS])[
+
+Russell-Jones 2022 (observational study, n=350 CFS patients) reports that the majority showed markers of functional B12 deficiency — elevated methylmalonic acid (MMA) and abnormal urinary metabolites — despite normal to elevated serum B12. The proposed mechanism involves co-deficiency of riboflavin (B2), which is required for intracellular B12 utilization @RussellJones2022.
+
+*Caution:* This study is published in a lower-tier open-access journal (not MEDLINE-indexed); methodology has not been independently replicated in a high-impact journal. The finding is biologically plausible and consistent with earlier work (Regland et al.) on B12 in CFS, but must be treated as hypothesis-generating only. MMA is available as a standard serum assay and can confirm functional B12 insufficiency when serum B12 is within range but tissue deficiency is suspected.
+
+*Certainty:* 0.35 — flag as speculation; independent replication required before clinical reliance.
+
+] <spec:b12-functional-deficiency>
+
+===== Vitamin D — Bone Threshold vs Immune Threshold
+
+#clinical-finding(title: [Standard Vitamin D "Sufficiency" (≥20 ng/mL) Is Below the Immune-Optimization Threshold])[
+
+Most clinical laboratories define vitamin D sufficiency as $≥20$ ng/mL (50 nmol/L) — a threshold established for bone health. The Endocrine Society clinical practice guideline (Holick 2011) distinguishes this from the extraskeletal benefit threshold @Holick2011:
+
+- *Bone health threshold:* $≥20$ ng/mL — basis for most lab reference ranges
+- *Insufficiency zone:* 21–29 ng/mL (Endocrine Society classification)
+- *Immune-optimization threshold:* 40–60 ng/mL — significant gene expression differences in immune response begin only above 30 ng/mL @Charoenngam2020
+
+Active vitamin D (1,25-dihydroxyvitamin D) modulates T-cell and B-cell activity, cathelicidin production, and anti-inflammatory cytokine profiles. Individual variation in VDR gene expression means two patients with identical serum 25(OH)D may have substantially different cellular responses @Charoenngam2020.
+
+*Clinical implication:* A result of 22–28 ng/mL will be flagged "normal" or at most "insufficient" by most laboratories, but is approximately half the immune-optimization target. In ME/CFS patients with immune dysregulation, targeting 40–60 ng/mL may be clinically relevant, though RCT evidence for immune endpoints in ME/CFS specifically is not yet available.
+
+*Certainty:* 0.65 (Holick2011 is high-quality guideline; immune threshold is from observational/mechanistic data; VITAL trial showed less benefit than expected for some extraskeletal endpoints).
+
+_Note: Holick 2011 has been partially superseded by the 2024 Endocrine Society guideline for some recommendations; the dual-threshold concept remains valid._
+
+] <cf:vitamind-dual-threshold>
+
+===== Thyroid — Tissue-Level Deficiency with Normal TSH
+
+TSH-based thyroid screening classifies patients as euthyroid when TSH is within range. Two mechanisms can produce tissue-level thyroid deficiency invisible to TSH:
+
+#hypothesis(title: [DIO2 Thr92Ala Polymorphism Impairs Intracellular T4→T3 Conversion Despite Normal TSH])[
+
+Type II deiodinase (DIO2) converts T4 to active T3 intracellularly in the brain and pituitary. The rs225014 CC genotype of DIO2 (Thr92Ala substitution) is present in approximately 16% of the population and reduces enzyme efficiency. Panicker 2009 (JCEM, n=552 hypothyroid patients on T4 monotherapy) found that CC-genotype patients had measurably worse psychological wellbeing compared to TT-genotype (GHQ 14.1 vs 12.8, p=0.03) and greater improvement when switched to T4+T3 combination therapy (+2.3 GHQ points, p=0.03). Critically, TSH, T3, and T4 serum levels were statistically identical between genotype groups — the deficit was invisible to standard thyroid panel testing @Panicker2009.
+
+*Relevance to ME/CFS:* A subset of ME/CFS patients with the DIO2 Thr92Ala variant may experience brain-level T3 deficiency despite normal TSH. This would explain fatigue, cognitive impairment, and cold intolerance that persists after standard hypothyroidism has been ruled out.
+
+*Certainty:* 0.60 (JCEM, prospective, n=552; replication has been mixed; findings apply to hypothyroid patients on T4, not general or ME/CFS population).
+
+*Falsifiability:* ME/CFS patients with DIO2 CC genotype should show disproportionate improvement on T4+T3 combination therapy compared to TT-genotype patients; absence of genotype-stratified response would disconfirm.
+
+] <hyp:dio2-tissue-t3-deficiency>
+
+#clinical-finding(title: [Low Free T3 and Elevated Reverse T3 in ME/CFS with Normal TSH])[
+
+Ruiz-Núñez 2018 (Frontiers in Endocrinology, case-control, n=98 ME/CFS / 99 controls) found that ME/CFS patients showed lower FT3, total T3, and total T4 with elevated reverse T3 (rT3%), resembling a mild non-thyroidal illness syndrome (NTIS). FT3 was below the reference range in 16/98 ME/CFS patients vs 7/99 controls (OR 2.56, p=0.035). TSH was normal in all groups @RuizNunez2018.
+
+Separately, Ott 2011 (Thyroid, prospective case-control, n=426 euthyroid women) demonstrated that histologically confirmed Hashimoto's thyroiditis substantially increased symptom burden — including chronic fatigue — independent of TSH. Anti-TPO antibody levels above 121 IU/mL were associated with significantly higher symptom counts (mean 6.7±2.5 vs 4.1±2.8, p$lt.eq$0.001) in patients with statistically identical TSH levels (1.7±1.3 vs 1.5±1.4 µU/mL) @Ott2011.
+
+*Clinical implication:* Standard TSH-only thyroid screening misses two distinct mechanisms of fatigue: (1) impaired T4→T3 peripheral conversion (low FT3 / elevated rT3 pattern), and (2) autoimmune inflammation from Hashimoto's thyroiditis operating independently of thyroid hormone levels. FT3 and anti-TPO antibody testing should be considered in ME/CFS patients with persistent fatigue and a normal TSH, particularly when hypothyroid-like symptoms persist.
+
+*Certainty for RuizNunez2018:* 0.55 (case-control; Frontiers journal; not replicated in large cohort). *Certainty for Ott2011:* 0.70 (prospective; histology-confirmed; Thyroid journal; small Hashimoto's subgroup n=28; women only).
+
+] <cf:low-t3-hashimoto-normal-tsh>
+
+#warning-env(title: [TSH Alone Is an Insufficient Thyroid Screen in ME/CFS])[
+
+In a patient with ME/CFS and unexplained thyroid-like symptoms (fatigue, cognitive dysfunction, cold intolerance, weight changes), a normal TSH does not exclude:
+
+    - Impaired T4→T3 conversion (check FT3, reverse T3)
+    - Hashimoto's autoimmune inflammation (check anti-TPO antibodies)
+    - DIO2 polymorphism-mediated tissue-level T3 deficiency (genotype testing available but not routine)
+
+Anti-TPO positivity above 121 IU/mL in a symptomatic euthyroid patient warrants clinical attention even when TSH is normal @Ott2011.
+
+] <warn:tsh-insufficient-screen>
+
 ==== Infectious Diseases
 
 <obs:infection-distinction>

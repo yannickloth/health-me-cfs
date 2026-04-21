@@ -446,6 +446,8 @@ A retrospective analysis of ME/CFS patients referred for breath testing found:
     - Predictive factors: older age, IBS diagnosis
 
 This suggests a substantial proportion of ME/CFS patients have bacterial overgrowth, though the retrospective design and referral bias (patients referred for breath testing likely had more GI symptoms) limit generalizability (retrospective chart review; 479 referred, 367 with usable results, 316 conclusive; Medium certainty) @SIBOKarhu2023.
+An earlier conference abstract @Pimentel2000SIBOcfs (Pimentel et al.\ 2000; n=31 CFS patients; Low certainty 0.25 --- conference abstract only, not peer-reviewed as full paper) reported 77% SIBO positivity by lactulose hydrogen breath test and a double-blind RCT of neomycin versus placebo. The study was underpowered and showed no significant difference between arms; breath test normalization correlated with symptom improvement in responders. This historically early finding is consistent with the direction of the Karhu 2023 data but should be interpreted with caution given study design limitations.
+
 *Pathophysiology: Migrating Motor Complex Dysfunction.*
 
 The migrating motor complex (MMC) is a cyclic pattern of electromechanical activity that “sweeps” bacteria from the small intestine to the colon during fasting.
@@ -457,7 +459,8 @@ The migrating motor complex (MMC) is a cyclic pattern of electromechanical activ
 
 *Factors impairing MMC in ME/CFS:*
 
-    - *Autonomic dysfunction*: Vagal impairment reduces MMC activity
+    - *Enteric nervous system dysfunction*: The small bowel MMC is driven autonomously by the enteric nervous system, not by the vagus nerve. Deloose et al. @Deloose2012MMCreview established that the vagus modulates gastric MMC phase III but does _not_ regulate small bowel MMC periodicity. Consequently, enteric neuropathy—rather than vagal dysfunction—is the primary autonomic mechanism for small bowel MMC failure. Motilin and ghrelin signaling disruption are additional pathways.
+    - *Autonomic dysfunction (gastric phase)*: Vagal impairment reduces gastric MMC phase III amplitude and can delay gastroduodenal propagation, but this does not account for small bowel SIBO-predisposing MMC failure directly.
     - *Post-infectious autoimmunity*: Anti-CdtB and anti-vinculin antibodies (from prior gastroenteritis) damage Interstitial Cells of Cajal
     - *Chronic stress*: Sympathetic activation suppresses MMC
     - *Hypothyroidism*: Modulates enteric nervous system function
@@ -493,6 +496,36 @@ Different bacterial populations produce different gases, leading to distinct cli
     - *Methane-dominant (IMO)*: Archaea (_Methanobrevibacter smithii_) convert H#sub[2] to CH#sub[4]; slows transit time, causes constipation
     - *Hydrogen sulfide (ISO)*: Sulfate-reducing bacteria; associated with diarrhea; NOT detected by standard H#sub[2]/CH#sub[4] tests (requires Trio-Smart 3-gas test)
 
+===== Hydrogen Sulfide as a Gut-Derived Mitochondrial Toxin <sec:h2s-mitochondrial-toxin>
+
+Hydrogen sulfide (H#sub[2]S) produced by intestinal sulfate-reducing bacteria (_Desulfovibrio_, _Bilophila wadsworthia_, _Fusobacterium_) directly inhibits mitochondrial Complex IV (cytochrome _c_ oxidase) by binding to its binuclear CuB/heme~a#sub[3] active site --- the same site targeted by cyanide @Nicholls2013sulfideCOX. The inhibition is biphasic and partially reversible, but at the micromolar concentrations produced by bacterial overgrowth, it chronically reduces ATP output without causing acute cell death.
+
+#hypothesis-box(title: [Gut-Derived H#sub[2]S as a Contributor to ME/CFS Energy Failure])[
+  In ME/CFS patients with documented gut dysbiosis, sulfate-reducing bacterial overgrowth may produce sufficient H#sub[2]S to chronically inhibit Complex IV, contributing to the cellular energy deficit independently of other mitochondrial impairments. (Certainty: 0.40 --- mechanism established in general biochemistry and IBS cohorts @Borisov2021h2sMito @VillanuevaMillan2022IBSsubtypes; no ME/CFS-specific H#sub[2]S measurements exist.)
+
+  *Mechanistic chain:*
+  + Dysbiosis shifts microbiome toward sulfate-reducing bacteria (favoured by Western diet, dietary sulfur, impaired motility)
+  + Sulfate-reducing bacteria produce H#sub[2]S as metabolic waste @Pimenta2024sulfidogenic
+  + H#sub[2]S enters portal circulation; liver clears >97% when oxygenated, but clearance drops to ~23% under hypoxic conditions @Norris2011liverH2S
+  + Orthostatic hypoperfusion (common in ME/CFS) may reduce hepatic oxygen delivery, impairing portal H#sub[2]S clearance
+  + Systemic H#sub[2]S reaches skeletal muscle, cardiac muscle, and brain mitochondria
+  + Complex IV inhibition reduces ATP ceiling in all affected tissues
+
+  *Critical nuance:* H#sub[2]S at physiological concentrations (low nanomolar range) is a beneficial gaseous signalling molecule with anti-inflammatory and cytoprotective properties via S-sulfhydration. The pathological mechanism requires micromolar concentrations produced by bacterial overgrowth --- a dose-response relationship, not a binary toxin/non-toxin distinction @Paul2020h2sMitoRedox.
+
+  *SQOR--CoQ10 link:* The primary H#sub[2]S clearance enzyme --- sulfide quinone oxidoreductase (SQOR) --- transfers electrons from H#sub[2]S to coenzyme Q10 @Landry2020SQOR. CoQ10 deficiency, which is proposed in ME/CFS and worsened by statin use, would directly impair SQOR function, creating a vicious cycle: reduced CoQ10 #sym.arrow impaired H#sub[2]S clearance #sym.arrow H#sub[2]S accumulation #sym.arrow further Complex IV inhibition #sym.arrow worsened energy failure.
+
+  *Falsifiable prediction:* ME/CFS patients with diarrhoea-predominant gastrointestinal symptoms and documented dysbiosis should show elevated breath H#sub[2]S (Trio-Smart test) and elevated urinary thiosulfate compared to ME/CFS patients without GI symptoms. Dietary sulfur restriction or bismuth subsalicylate should reduce H#sub[2]S markers and improve fatigue scores in this subset.
+
+  *Limitations:* No ME/CFS study has measured Desulfovibrio abundance, breath H#sub[2]S, or SQOR activity. The mechanism is extrapolated from general biochemistry and IBS/IBD data. The SQOR--CoQ10 link is mechanistically established but not demonstrated in ME/CFS patients. Not yet replicated in any ME/CFS cohort.
+
+  *Treatment implications (research-stage only):* Bismuth subsalicylate has shown proof-of-concept in murine models where Desulfovibrio-derived H#sub[2]S suppressed GLP-1 production via mitochondrial inhibition @Qi2024DesulfovibrioGLP1. Dietary sulfur restriction (reducing garlic, cruciferous vegetables, eggs, NAC, alpha-lipoic acid) reduced sulfidogenic pathobionts in an 8-week UC pilot @Ye2025lowSulfurUC.
+]
+
+#warning-box(title: [Sulfur-Containing Supplement Caution])[
+  Several supplements commonly recommended for ME/CFS patients contain sulfur: N-acetyl cysteine (NAC), alpha-lipoic acid (ALA), methylsulfonylmethane (MSM), and taurine. In patients with H#sub[2]S-dominant dysbiosis, these supplements increase substrate availability for sulfate-reducing bacteria, potentially worsening the very mitochondrial impairment they are intended to treat. Patients reporting worsening fatigue, rotten-egg gas, or diarrhoea on sulfur-containing supplements should be evaluated for H#sub[2]S-dominant SIBO before continuing.
+]
+
 *Diagnosis: Breath Testing.*
 
 Breath testing remains the primary non-invasive diagnostic method for SIBO.
@@ -515,6 +548,18 @@ Breath testing remains the primary non-invasive diagnostic method for SIBO.
     - Lactulose reaches colon (may yield false positives)
     - Glucose preferred for diagnosis; lactulose may detect distal SIBO
 
+#limitation(title: [Breath Test Validity: ESNM/ANMS Critical Appraisal])[
+A 2024 clinical practice update endorsed by the European Society of Neurogastroenterology and Motility (ESNM) and the American Neurogastroenterology and Motility Society (ANMS) raises fundamental methodological concerns about lactulose hydrogen breath testing @Kashyap2024SIBOcritique:
+
+    - The lactulose H#sub[2] breath test (LHBT) primarily measures oro-cecal transit time, not bacterial overgrowth — normal transit ranges from 25–200 minutes, creating widespread false-positive results
+    - Three independent research teams found no single time point reliably discriminates IBS from healthy controls
+    - Diagnostic criteria have shifted repeatedly (20 ppm at 90 min → 180 min → addition of methane) without prospective validation
+    - Breath test normalization after antibiotic treatment does not reliably predict clinical symptom improvement
+    - The authors conclude: "after two decades, this hypothesis remains unproven," and raise antimicrobial stewardship concerns about antibiotic prescribing driven by unvalidated testing
+
+*Scope of critique:* This appraisal targets the SIBO-IBS hypothesis and breath test methodology. It does not negate SIBO as a pathological entity or its potential relevance to ME/CFS. The ME/CFS-specific study (Karhu 2023, @SIBOKarhu2023) has independent limitations (retrospective, referral bias). Glucose breath testing carries fewer false-positive concerns than lactulose. Clinicians should interpret positive lactulose breath tests with caution and prioritize glucose-based protocols where available.
+] <lim:breath-test-validity>
+
 === Digestive Function
 
 Beyond motility, ME/CFS patients may have impaired digestive capacity:
@@ -523,6 +568,17 @@ Beyond motility, ME/CFS patients may have impaired digestive capacity:
     - *Bile acid malabsorption*: Impaired fat digestion; contributes to diarrhea
     - *Nutrient malabsorption*: Consequent to SIBO, intestinal permeability, and enzyme deficiency
     - *Hypochlorhydria*: Reduced gastric acid (sometimes from PPI overuse) predisposes to SIBO
+
+*SIBO Subtype–Specific Nutritional Deficits.*
+
+Wielgosz-Grochowska et al. @Wielgosz2024SIBOnutrition (n=67 newly diagnosed SIBO patients; observational, single-centre, Medium certainty 0.45; not ME/CFS-specific) found that deficiency burden varies significantly by SIBO subtype:
+
+    - *H+/M+ mixed subtype* (51% of cohort): Lowest serum vitamin D, lowest serum ferritin — highest nutritional deficiency burden of all three subtypes; also had highest dietary fat intake
+    - *M+ methane-dominant* (31%): Elevated folate (bacterial production), reduced fiber intake; >70% consumed excessive fat
+    - *H+ hydrogen-dominant* (18%): Primarily reduced lactose tolerance
+    - All subtypes: 87–97% were below the vitamin D adequate intake threshold
+
+These findings suggest SIBO patients with mixed H+/M+ phenotype — likely the most severe subtype — should be evaluated for vitamin D deficiency and iron depletion as a standard part of workup. Given the 48% SIBO prevalence in ME/CFS patients (Karhu 2023 @SIBOKarhu2023), subtype-stratified nutritional assessment is clinically relevant.
 
 == Metabolites and Short-Chain Fatty Acids
 <sec:metabolites>
@@ -583,6 +639,14 @@ Treatment of gastrointestinal dysfunction in ME/CFS requires addressing multiple
 
 #warning-env(title: [SIBO Recurrence])[
 SIBO frequently recurs after antibiotic treatment, particularly if underlying motility dysfunction is not addressed. Addressing root causes (MMC dysfunction, autonomic impairment) and using prokinetics post-treatment may reduce recurrence.
+
+Pimentel et al. @Pimentel2009prokinetics quantified relapse-free duration in 64 IBS-SIBO patients post-eradication (retrospective chart review; IBS proxy, not ME/CFS-specific; Low-Medium certainty):
+
+    - No prophylaxis: 59.7 relapse-free days before symptom recurrence
+    - Low-dose nocturnal erythromycin: 138.5 relapse-free days
+    - Low-dose nocturnal tegaserod: 241.6 relapse-free days (tegaserod superior to erythromycin, p#sym.lt 0.05)
+
+Note: tegaserod was withdrawn from the US market due to cardiac adverse events; prucalopride (Motegrity), a 5-HT#sub[4] agonist, is the current functional substitute. These data support prokinetic use post-eradication as standard of care, though the evidence base is from IBS populations and requires extrapolation to ME/CFS.
 ]
 
 ==== Herbal Antimicrobials

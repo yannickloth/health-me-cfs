@@ -3524,7 +3524,7 @@ Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d)
     [H], [0.50],
     [Ferritin $> 100$ ng/mL target improves fatigue and cognition in ND ME/CFS with baseline ferritin 30--100 ng/mL.],
     [Pragmatic RCT $n = 60$ ME/CFS+ND; $> 100$ vs $> 30$ ng/mL target.],
-    [Ch.18 @spec:iron-repletion-higher-target],
+    [Ch.18 @hyp:iron-repletion-higher-target],
 
     [Solriamfetol for ND ME/CFS],
     [S], [0.35],
@@ -3566,7 +3566,7 @@ Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d)
     [H], [0.45],
     [ND-adapted sleep protocol slows reserve erosion; PBMC spare respiratory capacity improves over 3 months.],
     [Actigraphy + PBMC respirometry over 3 months.],
-    [Ch.17 @spec:sleep-reserve-recovery],
+    [Ch.17 @hyp:sleep-reserve-recovery],
 
     [Severity-Stratified Reserve Protocol],
     [S], [0.25],
@@ -3710,5 +3710,35 @@ Motivated by: Wirth 2026 (N=36,332 ICD pre-diagnostic data), Collin 2018 (ALSPAC
   caption: [Entries added 2026-04-20: Retrospective prodromal signs of ME/CFS.],
   kind: table,
 ) <tab:hypothesis-registry-2026-04-20-prodromal>
+] // end landscape page
+
+=== Entries Added 2026-04-21: H#sub[2]S--Mitochondria Axis
+
+#page(flipped: true)[
+#figure(
+  table(
+    columns: (3fr, 0.3fr, 0.4fr, 5fr, 3fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation*], [*Type*], [*Cert.*],
+      [*Testable Prediction (condensed)*], [*Available Tests / Status*],
+      [*Location*],
+    ),
+
+    [Gut-Derived H#sub[2]S as Contributor to ME/CFS Energy Failure],
+    [H], [0.40],
+    [ME/CFS patients with GI symptoms show elevated breath H#sub[2]S ($gt.eq$3 ppm) and urinary thiosulfate vs GI-negative ME/CFS. Dietary sulfur restriction or bismuth should reduce markers and improve fatigue in this subset.],
+    [Trio-Smart breath test + urinary thiosulfate in GI-symptomatic vs GI-asymptomatic ME/CFS. 8-week low-sulfur dietary intervention with fatigue outcomes. No ME/CFS-specific H#sub[2]S data exists.],
+    [Ch.11 @sec:h2s-mitochondrial-toxin],
+
+    [SQOR--CoQ10 Vicious Cycle],
+    [S], [0.35],
+    [CoQ10 deficiency impairs SQOR #sym.arrow reduced H#sub[2]S clearance #sym.arrow Complex IV inhibition #sym.arrow worsened energy failure. CoQ10 repletion should reduce breath H#sub[2]S in deficient patients.],
+    [SQOR activity + CoQ10 + breath H#sub[2]S before/after CoQ10 supplementation in CoQ10-deficient ME/CFS subset. Mechanistically established (Landry 2021) but untested in ME/CFS.],
+    [Ch.11 @sec:h2s-mitochondrial-toxin],
+  ),
+  caption: [Entries added 2026-04-21: Gut-derived hydrogen sulfide and mitochondrial energy metabolism.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-21-h2s>
 ] // end landscape page
 

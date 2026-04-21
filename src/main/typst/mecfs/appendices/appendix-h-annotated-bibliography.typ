@@ -9978,3 +9978,682 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - *Sample:* Narrative synthesis
         - *Replication:* Diagnostic delay data consistent across sources
         - *Score:* 0.40
+
+// =============================================================================
+
+== SIBO and Gut Motility (2026-04-21)
+
+<sec:bib-sibo-motility>
+
+=== Pimentel et al.\ 2000 --- SIBO Eradication Decreases CFS Symptoms (RCT)
+
+    / *Full Citation:*: Pimentel M, Hallegua D, Chow EJ, Wallace D, Bonorris G, Lin HC. Eradication of small intestinal bacterial overgrowth decreases symptoms in chronic fatigue syndrome: a double blind, randomized study. _Gastroenterology_. 2000;118(4):A414. @Pimentel2000SIBOcfs
+    / *DOI:*: #link("https://doi.org/10.1016/S0016-5085(00)83765-8")[10.1016/S0016-5085(00)83765-8]
+    / *PMID:*: Not indexed (conference abstract, Digestive Disease Week 2000)
+    / *Article Type:*: Double-blind, placebo-controlled RCT (conference abstract)
+    / *Key Findings:*:
+        - n=31 CFS patients; 77% SIBO-positive by lactulose hydrogen breath test
+        - Neomycin vs placebo: no statistically significant difference between arms (underpowered)
+        - Breath test normalisation correlated with symptom improvement in responders
+        - First controlled study demonstrating high SIBO prevalence in CFS and testing eradication
+    / *Conclusion:*: Supports the biological plausibility of SIBO as a comorbid contributor to CFS symptoms, but the RCT was insufficiently powered to demonstrate treatment efficacy.
+    / *Limitations:*: Conference abstract only; never published as full peer-reviewed paper. n=31 is severely underpowered. Lactulose breath test validity is contested (see Kashyap 2024). Study is 25+ years old; replication urgently needed. Conflict of interest not assessable (abstract).
+    / *ME/CFS Relevance:*: Provides the only (albeit low-quality) RCT evidence for SIBO eradication in CFS specifically. Supports biological rather than functional explanation for GI symptoms. The 77% SIBO prevalence figure should be cited cautiously given methodology limitations.
+    / *Certainty Assessment:*:
+        - *Quality:* Low (conference abstract, never peer-reviewed as full paper)
+        - *Sample:* n=31
+        - *Replication:* Not independently replicated
+        - *Score:* 0.25
+
+=== Pimentel et al.\ 2011 --- Rifaximin for IBS-D: TARGET 1 and 2 RCTs
+
+    / *Full Citation:*: Pimentel M, Lembo A, Chey WD, et al.; TARGET Study Group. Rifaximin therapy for patients with irritable bowel syndrome without constipation. _N Engl J Med_. 2011;364(1):22--32. @Pimentel2011TARGET
+    / *DOI:*: #link("https://doi.org/10.1056/NEJMoa1004409")[10.1056/NEJMoa1004409]
+    / *PMID:*: 21208106
+    / *Article Type:*: Phase 3 double-blind RCT (two identically designed trials)
+    / *Key Findings:*:
+        - Rifaximin 550 mg three times daily × 14 days vs placebo in IBS without constipation (IBS-D)
+        - Adequate relief of global IBS symptoms: 40.7% rifaximin vs 31.7% placebo (combined; p<0.001)
+        - Significant relief of bloating, abdominal pain, loose/watery stools
+        - Effect maintained up to 10 weeks after treatment completion
+        - Rifaximin is minimally absorbed, acting locally in the gut lumen — low systemic adverse effects
+    / *Conclusion:*: Rifaximin provides modest but statistically significant and durable symptom relief in IBS-D, consistent with SIBO or dysbiosis as a contributing pathomechanism. Effect size is real but not large (NNT ≈ 11).
+    / *Limitations:*: IBS-D cohort, not ME/CFS-specific. Commercial funding by Salix Pharmaceuticals (disclosed). Effect size modest. Breath test not used for patient selection. Mechanism inferred (dysbiosis/SIBO), not confirmed. No long-term follow-up beyond 10 weeks.
+    / *ME/CFS Relevance:*: Provides highest-quality evidence that rifaximin is effective against presumed small intestinal dysbiosis — the closest proxy for SIBO treatment in ME/CFS patients who share IBS comorbidity. Supports rifaximin as a reasonable therapeutic option for ME/CFS patients with confirmed SIBO and IBS-D symptoms.
+    / *Certainty Assessment:*:
+        - *Quality:* High (phase 3 RCT × 2, NEJM, large n)
+        - *Sample:* n≈1,200 combined
+        - *Replication:* Independently replicated across two trials; FDA approved
+        - *Score:* 0.75
+
+=== Pimentel et al.\ 2009 --- Prokinetics Delay SIBO Relapse
+
+    / *Full Citation:*: Pimentel M, Morales W, Lezcano S, Sun-Chuan D, Low K, Yang J. Low-dose nocturnal tegaserod or erythromycin delays symptom recurrence after treatment of irritable bowel syndrome based on presumed bacterial overgrowth. _Gastroenterol Hepatol (N Y)_. 2009;5(6):435--442. @Pimentel2009prokinetics
+    / *DOI:*: Not available
+    / *PMID:*: 20574504 | *PMC:* PMC2886395
+    / *Article Type:*: Retrospective chart review
+    / *Key Findings:*:
+        - 64 IBS-SIBO patients with confirmed clinical and breath test resolution post-antibiotic treatment
+        - Symptom-free days before relapse: no prevention 59.7 days; low-dose nocturnal erythromycin 138.5 days; low-dose nocturnal tegaserod 241.6 days
+        - Tegaserod significantly superior to erythromycin (p<0.05) and to no prevention
+        - Mechanism: prokinetics stimulate MMC phase III contractions, maintaining fasting clearance of small intestinal contents
+        - Note: tegaserod withdrawn from US market (cardiac risk); prucalopride is the current functional replacement
+    / *Conclusion:*: Post-eradication prokinetics meaningfully extend relapse-free intervals in IBS-SIBO, supporting their routine use to address the underlying motility deficit.
+    / *Limitations:*: Retrospective, small subgroups (tegaserod n=16), no blinding, IBS-SIBO proxy for ME/CFS. Tegaserod unavailable; evidence does not directly apply to prucalopride (assumed class effect). Single-centre.
+    / *ME/CFS Relevance:*: Directly supports the clinical strategy of prokinetic prophylaxis after SIBO eradication in ME/CFS patients with autonomic/MMC dysfunction. Addresses the root-cause gap: without restoring MMC function, antibiotic-treated SIBO will recur within 2--3 months.
+    / *Certainty Assessment:*:
+        - *Quality:* Low--Medium (retrospective, small groups)
+        - *Sample:* n=64 (subgroups n=16--42)
+        - *Replication:* Not independently replicated
+        - *Score:* 0.35
+
+=== Deloose et al.\ 2012 --- Migrating Motor Complex: Control and Disease
+
+    / *Full Citation:*: Deloose E, Janssen P, Depoortere I, Tack J. The migrating motor complex: control mechanisms and its role in health and disease. _Nat Rev Gastroenterol Hepatol_. 2012;9(5):271--285. @Deloose2012MMCreview
+    / *DOI:*: #link("https://doi.org/10.1038/nrgastro.2012.57")[10.1038/nrgastro.2012.57]
+    / *PMID:*: 22450306
+    / *Article Type:*: Comprehensive narrative review (Nature Reviews)
+    / *Key Findings:*:
+        - MMC is a cyclic fasting motility pattern (4 phases; phase III = powerful peristaltic sweep every 90--120 min)
+        - MMC absence definitively associated with gastroparesis, intestinal pseudo-obstruction, and SIBO
+        - Critical mechanistic distinction: vagus nerve modulates *gastric* MMC phase III but does NOT regulate small bowel MMC periodicity (enteric nervous system autonomous)
+        - Motilin, ghrelin, erythromycin induce antro-duodenal phase III; serotonin and somatostatin induce duodenal-origin phase III
+        - Scintigraphy and electrophysiology studies confirm enteric autonomy of small bowel MMC
+    / *Conclusion:*: MMC dysfunction is a central mechanism linking gut dysmotility to SIBO. The enteric nervous system dominates small bowel MMC; autonomic vagal dysfunction is a contributing but not sufficient cause of MMC failure in ME/CFS.
+    / *Limitations:*: Review article, no primary data. Does not address ME/CFS specifically. Mechanistic understanding of enteric neuropathy in ME/CFS remains incomplete.
+    / *ME/CFS Relevance:*: Establishes the mechanistic foundation for the vagal dysfunction → MMC impairment → SIBO pathway in ME/CFS. Clarifies that the autonomic component is primarily gastric; small bowel MMC failure likely requires additional enteric neuropathy. This nuance prevents oversimplification of the ME/CFS-SIBO pathway.
+    / *Certainty Assessment:*:
+        - *Quality:* High (Nature Reviews Gastroenterology, comprehensive and widely cited)
+        - *Sample:* Review (no primary cohort)
+        - *Replication:* Mechanisms well-replicated in referenced primary studies
+        - *Score:* 0.80
+
+=== Szabo et al.\ 2014 --- H2S and Mitochondrial Complex IV Inhibition
+
+    / *Full Citation:*: Szabo C, Ransy C, Módis K, Andriamihaja M, Murghes B, Coletta C, Olah G, Yanagi K, Bouillaud F. Regulation of mitochondrial bioenergetic function by hydrogen sulfide. Part I. Biochemical and physiological mechanisms. _Br J Pharmacol_. 2014;171(8):2099--2122. @Szabo2014H2Smito
+    / *DOI:*: #link("https://doi.org/10.1111/bph.12369")[10.1111/bph.12369]
+    / *PMID:*: 23991830
+    / *Article Type:*: Biochemical review with experimental evidence
+    / *Key Findings:*:
+        - H2S has a biphasic (bell-shaped) relationship with mitochondrial function
+        - At low-physiological concentrations: H2S donates electrons via sulfide:quinone oxidoreductase (SQR) → stimulates electron transport chain → increases ATP production
+        - At high-toxic concentrations: H2S competitively binds to cytochrome a3 prosthetic group of Complex IV (cytochrome c oxidase) → blocks O2 binding → electron backup throughout ETC → inner membrane potential collapses → aerobic ATP synthesis ceases
+        - Mechanism is functionally identical to cyanide poisoning at high doses
+        - Colonocytes normally metabolise H2S as a barrier, preventing systemic absorption; intestinal sulfide overproduction (ISO) overwhelms this protection
+        - SQR-mediated H2S oxidation integrates H2S into the ETC as an electron donor — dual substrate and inhibitor depending on concentration
+    / *Conclusion:*: H2S-dominant SIBO (ISO) creates a local gut environment of chronically elevated H2S that, when systemic exposure occurs, directly inhibits mitochondrial Complex IV with consequences for ATP generation — a plausible mechanism connecting gut dysbiosis to ME/CFS-pattern energy failure.
+    / *Limitations:*: Biochemical review; direct demonstration of SIBO-derived H2S inhibiting patient mitochondria has not been performed in ME/CFS cohorts. The concentration thresholds for stimulation vs inhibition are not fully characterised in vivo.
+    / *ME/CFS Relevance:*: Provides the mechanistic bridge for the SIBO-derived H2S → Complex IV inhibition → reduced aerobic ATP → fatigue pathway. Directly connects the gut-microbiome chapter to the energy-metabolism and mitochondrial dysfunction chapters. H2S-dominant SIBO subtype (ISO) warrants specific identification and treatment in ME/CFS patients with fatigue disproportionate to other findings.
+    / *Certainty Assessment:*:
+        - *Quality:* High (British Journal of Pharmacology, mechanistic review with experimental grounding)
+        - *Sample:* Biochemical studies (multiple)
+        - *Replication:* Core mechanism well-replicated; SIBO-ME/CFS application is inference
+        - *Score:* 0.80
+
+=== Rezaie et al.\ 2017 --- North American Consensus on Breath Testing
+
+    / *Full Citation:*: Rezaie A, Buresi M, Lembo A, Lin H, McCallum R, Rao S, Schmulson M, Valdovinos M, Zakko S, Pimentel M. Hydrogen and methane-based breath testing in gastrointestinal disorders: the North American Consensus. _Am J Gastroenterol_. 2017;112(5):775--784. @Rezaie2017breathConsensus
+    / *DOI:*: #link("https://doi.org/10.1038/ajg.2017.46")[10.1038/ajg.2017.46]
+    / *PMID:*: 28323273
+    / *Article Type:*: Expert consensus statement
+    / *Key Findings:*:
+        - 26 consensus statements across five domains: indications, preparation, performance, result interpretation, knowledge gaps
+        - SIBO positive threshold: hydrogen rise ≥20 ppm by 90 min on glucose or lactulose BT
+        - Methane (IMO) positive: ≥10 ppm at any time point
+        - Recommended substrate doses: lactulose 10 g, glucose 75 g, fructose 25 g, lactose 25 g
+        - Standard 2-gas devices do not measure H2S — identified explicitly as a knowledge gap (predates trio-smart)
+        - Not recommended for oro-cecal transit measurement (transit-time confounding)
+    / *Conclusion:*: Establishes the diagnostic standard for hydrogen/methane breath testing 2017--present. Explicitly acknowledges H2S as an unmeasured gap, creating the clinical rationale for trio-smart development.
+    / *Limitations:*: Consensus, not systematic review. Lactulose test specificity questioned by subsequent ESNM/ANMS critique (Kashyap 2024). H2S/ISO detection still requires specialised equipment not widely available. Consensus group includes Pimentel, whose commercial ties to breath test technology represent a potential COI.
+    / *ME/CFS Relevance:*: Defines the diagnostic standards that should be applied when breath testing ME/CFS patients for SIBO. Critical for interpreting the Karhu 2023 prevalence data. The H2S gap means existing ME/CFS prevalence studies may systematically undercount ISO-dominant patients.
+    / *Certainty Assessment:*:
+        - *Quality:* High (multi-expert consensus, American Journal of Gastroenterology)
+        - *Sample:* Expert consensus (no primary cohort)
+        - *Replication:*: Widely adopted as standard; partially critiqued by Kashyap 2024
+        - *Score:* 0.75
+
+=== Pimentel et al.\ 2020 --- ACG Clinical Guideline: SIBO
+
+    / *Full Citation:*: Pimentel M, Saad RJ, Long MD, Rao SSC. ACG clinical guideline: small intestinal bacterial overgrowth. _Am J Gastroenterol_. 2020;115(2):165--178. @Pimentel2020ACGguideline
+    / *DOI:*: #link("https://doi.org/10.14309/ajg.0000000000000501")[10.14309/ajg.0000000000000501]
+    / *PMID:*: 32023228
+    / *Article Type:*: Clinical practice guideline (GRADE methodology)
+    / *Key Findings:*:
+        - GRADE-based guideline covering diagnosis, testing, and treatment of SIBO
+        - Breath testing recommended for IBS, symptomatic motility disorders, and post-GI-surgery patients
+        - Rifaximin 550 mg TID × 14 days: first-line for H2-dominant SIBO
+        - Rifaximin + neomycin: for CH4-dominant (intestinal methanogenic overgrowth, IMO)
+        - Nutrient malabsorption mechanisms documented: vitamin B12 (bacterial competitive consumption before intrinsic-factor-bound B12 reaches terminal ileum), fat-soluble vitamins A/D/E/K (bacterial deconjugation of bile salts → fat maldigestion), iron (mucosal inflammation + competitive uptake)
+        - Prokinetics post-eradication mentioned as prevention strategy
+        - Predisposing conditions include motility disorders, anatomical abnormalities, immunodeficiency — all relevant to ME/CFS
+    / *Conclusion:*: Comprehensive evidence-based guidance for SIBO management applicable to ME/CFS patients with GI comorbidity. Formalises the nutrient malabsorption consequences that compound ME/CFS-related deficiency burden.
+    / *Limitations:*: GRADE evidence base is limited for many recommendations; much relies on expert opinion. First-author (Pimentel) has commercial interest in SIBO breath testing field. H2S/ISO not yet addressed (predates wider trio-smart use).
+    / *ME/CFS Relevance:*: Gold-standard reference for SIBO treatment decisions in ME/CFS clinic. Nutrient malabsorption section directly explains why ME/CFS patients with untreated SIBO accumulate B12, iron, and fat-soluble vitamin deficiencies that worsen fatigue, cognitive symptoms, and immune dysfunction independent of primary ME/CFS pathology.
+    / *Certainty Assessment:*:
+        - *Quality:* High (ACG official guideline, GRADE methodology)
+        - *Sample:* Guideline (synthesises multiple studies)
+        - *Replication:*: Widely adopted; evidence graded per GRADE
+        - *Score:* 0.80
+
+=== Wielgosz-Grochowska et al.\ 2024 --- SIBO Subtypes and Nutritional Status
+
+    / *Full Citation:*: Wielgosz-Grochowska JP, Domanski N, Drywien ME. Identification of SIBO subtypes along with nutritional status and diet as key elements of SIBO therapy. _Int J Mol Sci_. 2024;25(13):7341. @Wielgosz2024SIBOnutrition
+    / *DOI:*: #link("https://doi.org/10.3390/ijms25137341")[10.3390/ijms25137341]
+    / *PMID:*: 39000446
+    / *Article Type:*: Observational cross-sectional study
+    / *Key Findings:*:
+        - n=67 newly diagnosed SIBO patients: H+ 18%, M+ 31%, H+/M+ mixed 51%
+        - H+/M+ group: lowest serum vitamin D, lowest serum ferritin (iron stores), highest dietary fat intake; most pronounced deficiency burden
+        - M+ group: elevated serum folate (bacterial production of folate as byproduct), reduced fibre intake
+        - H+ group: primary abnormality was reduced lactose tolerance
+        - 87--97% of all subtypes below vitamin D adequate intake threshold
+        - Over 70% of M+ and H+/M+ groups consumed excessive dietary fat
+        - Conclusion: SIBO subtype determines specific nutritional deficiency profile; subtype-guided supplementation required
+    / *Conclusion:*: SIBO subtype is clinically meaningful for nutritional assessment. Mixed H+/M+ patients carry the greatest deficiency burden, particularly for vitamin D and iron — nutrients already commonly deficient in ME/CFS.
+    / *Limitations:*: Small n (67), single-centre (Warsaw, Poland), observational design with no control group. Not ME/CFS-specific. Polish cohort dietary patterns may not generalise. Serum vitamin D reflects sun exposure and supplementation as well as gut absorption.
+    / *ME/CFS Relevance:*: Quantifies subtype-specific deficiency profiles directly relevant to ME/CFS patients with SIBO comorbidity. Low ferritin and vitamin D in the mixed subtype compound the energy-metabolism and immune-dysfunction burden in ME/CFS. Supports routine subtype testing and targeted repletion rather than empirical supplementation alone.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (observational, single-centre, small n)
+        - *Sample:* n=67
+        - *Replication:* Not independently replicated
+        - *Score:* 0.45
+
+=== Kashyap et al.\ 2024 --- Critical Appraisal of SIBO Hypothesis (ESNM/ANMS)
+
+    / *Full Citation:*: Kashyap P, Moayyedi P, Quigley EMM, Simren M, Vanner S. Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by the European Society of Neurogastroenterology and Motility (ESNM) and the American Neurogastroenterology and Motility Society (ANMS). _Neurogastroenterol Motil_. 2024;36(6):e14817. @Kashyap2024SIBOcritique
+    / *DOI:*: #link("https://doi.org/10.1111/nmo.14817")[10.1111/nmo.14817]
+    / *PMID:*: 38798120 | *PMC:* PMC11268457
+    / *Article Type:*: Clinical practice update / critical appraisal (endorsed by two major societies)
+    / *Key Findings:*:
+        - Core conclusion: "after two decades, this hypothesis remains unproven"
+        - Primary methodological flaw: lactulose H2 breath test (LHBT) measures oro-cecal transit, not small intestinal bacterial counts; normal transit range (25--200 min) generates widespread false positives
+        - Three independent research teams found no time point discriminates IBS patients from healthy controls on LHBT
+        - Diagnostic cut-off criteria (20 ppm, 90 min; later 180 min; adding methane, H2S) changed repeatedly without prospective validation
+        - Breath test normalisation does not reliably predict clinical improvement — the claimed mechanistic link is unconfirmed
+        - Injudicious antibiotic prescribing driven by unvalidated testing raises antimicrobial resistance concerns
+    / *Conclusion:*: The SIBO-as-cause-of-IBS hypothesis and the diagnostic value of standard breath testing for IBS are not supported by evidence. Recommends rejecting the hypothesis and curtailing breath-test-driven antibiotic prescribing.
+    / *Limitations:*: Critique focuses on IBS; does not address ME/CFS-specific data. Does not negate the existence of SIBO as a pathological condition or its prevalence in other populations. Some panelists may have publication bias against the SIBO hypothesis. The Karhu 2023 ME/CFS data (referral-based cohort with confirmed breath test) is not directly addressed.
+    / *ME/CFS Relevance:*: Essential counter-evidence. Mandates that breath-test-based SIBO prevalence data in ME/CFS (Karhu 2023; Pimentel 2000) be interpreted cautiously given unresolved test validity concerns. Supports use of breath testing only as an adjunct, not a standalone diagnostic tool, and prevents overclaiming SIBO as a core ME/CFS mechanism without stronger evidence.
+    / *Certainty Assessment:*:
+        - *Quality:* High (endorsed by ESNM and ANMS, rigorous methodology critique)
+        - *Sample:* Appraisal of multiple studies
+        - *Replication:*: Consistent with independent critiques of breath test validity
+        - *Score:* 0.80
+
+// =============================================================================
+
+== Hydrogen Sulfide and Mitochondrial Toxicity (2026-04-21)
+
+<sec:bib-h2s-mitochondria>
+
+=== Nicholls et al.\ 2013 — Sulfide Inhibition of Cytochrome c Oxidase
+
+    / *Full Citation:*: Nicholls P, Marshall DC, Cooper CE, Wilson MT. Sulfide inhibition of and metabolism by cytochrome c oxidase. _Biochemical Society Transactions_. 2013;41(5):1312–1316.
+    / *DOI:*: #link("https://doi.org/10.1042/BST20130070")[10.1042/BST20130070]
+    / *PMID:*: 24059525
+    / *Study Design:*: Enzyme kinetics (in vitro); mechanistic review of inhibition states
+    / *Key Findings:*:
+
+        - H2S inhibits mitochondrial Complex IV (cytochrome c oxidase) via the binuclear center (CuB + heme a3) — the same site as cyanide
+        - Inhibition is biphasic: at least two successive inhibited enzyme states, with partial reversibility if sulfide oxidation clears the active site
+        - At low concentrations H2S acts as an electron donor to the ETC; at 3–30× higher concentrations it switches to being a Complex IV inhibitor
+        - IC50 for the related bacterial bo3 terminal oxidase: ~1.1 μM — eukaryotic Complex IV is in a similar range
+
+    / *Conclusion:*: H2S is a concentration-dependent reversible inhibitor of Complex IV. The therapeutic/toxicological boundary is at low micromolar levels.
+    / *Quality:*: High — foundational mechanistic biochemistry
+    / *Certainty:*: 0.90 (mechanism well-established; gut-lumen to mitochondria translation uncertain)
+    / *Limitations:*: In vitro enzyme kinetics; human gut H2S concentrations vastly exceed IC50 but most is cleared before reaching mitochondria.
+
+=== Borisov and Forte 2021 — H2S Impact on Mitochondrial and Bacterial Bioenergetics
+
+    / *Full Citation:*: Borisov VB, Forte E. Impact of Hydrogen Sulfide on Mitochondrial and Bacterial Bioenergetics. _International Journal of Molecular Sciences_. 2021;22(23):12688.
+    / *DOI:*: #link("https://doi.org/10.3390/ijms222312688")[10.3390/ijms222312688]
+    / *PMID:*: 34884491
+    / *Study Design:*: Comprehensive review
+    / *Key Findings:*:
+
+        - Low H2S: enhances FoF1-ATP synthase and lactate dehydrogenase via S-sulfhydration; net ETC stimulation
+        - Mid/high H2S: inhibits cytochrome c oxidase in both eukaryotes and aerobic bacteria; leads to ATP collapse
+        - Sulfidogenic bacteria (Desulfovibrio, Fusobacterium) survive their own H2S by expressing cytochrome bd — an alternative terminal oxidase not sensitive to sulfide inhibition
+        - This differential sensitivity explains why H2S-producing bacteria thrive in conditions that would disable host mitochondria
+
+    / *Conclusion:*: The dose-response curve is non-monotonic — beneficial at low μM, toxic at higher μM. Host mitochondria are more vulnerable to H2S than the bacteria producing it.
+    / *Quality:*: High
+    / *Certainty:*: 0.85
+    / *Limitations:*: Review; precise threshold concentrations for human intestinal epithelial mitochondria not established.
+
+=== Landry et al.\ 2021 — SQOR: The Mitochondrial H2S Clearance Enzyme
+
+    / *Full Citation:*: Landry AP, Ballou DP, Banerjee R. Hydrogen Sulfide Oxidation by Sulfide Quinone Oxidoreductase. _ChemBioChem_. 2021;22(6):949–960.
+    / *DOI:*: #link("https://doi.org/10.1002/cbic.202000661")[10.1002/cbic.202000661]
+    / *PMID:*: 33080111
+    / *Study Design:*: Structural/kinetic characterization; review of SQOR biochemistry
+    / *Key Findings:*:
+
+        - SQOR (sulfide quinone oxidoreductase) is the committed step in mitochondrial H2S clearance — the primary gatekeeper preventing H2S accumulation
+        - Couples H2S oxidation to coenzyme Q10 reduction: links H2S detoxification directly to the electron transport chain
+        - Generates glutathione persulfide (GSSH) as reactive intermediate, feeding into ETHE1 (persulfide dioxygenase) → sulfite oxidase → sulfate
+        - Active site is structurally flexible — accommodates multiple persulfide acceptors
+        - CoQ10 deficiency directly impairs SQOR function (SQOR requires CoQ as electron acceptor)
+
+    / *Conclusion:*: SQOR is the rate-limiting enzyme in H2S detoxification. Any CoQ10 deficiency will impair this clearance and allow H2S to accumulate.
+    / *Quality:*: High
+    / *Certainty:*: 0.85
+    / *Limitations:*: Biochemical characterization; SQOR capacity in ME/CFS patients not measured.
+    / *ME/CFS relevance:*: CoQ10 deficiency has been proposed in ME/CFS energy metabolism hypotheses; SQOR impairment would be an indirect consequence.
+
+=== Peng et al.\ 2025 — SQOR as Metabolic Rheostat of H2S
+
+    / *Full Citation:*: Peng MH, Zhang KL, Ma ZW, Zhang HW, Guan SW, Yu HB. SQOR as a metabolic rheostat of H2S: structure, redox homeostasis, and disease therapy. _Frontiers in Cell and Developmental Biology_. 2025;13.
+    / *DOI:*: #link("https://doi.org/10.3389/fcell.2025.1685252")[10.3389/fcell.2025.1685252]
+    / *Study Design:*: Comprehensive review (2025)
+    / *Key Findings:*:
+
+        - SQOR acts as a "metabolic rheostat" — dynamically regulates H2S flux; the body maintains H2S in a narrow steady-state window through SQOR
+        - SQOR deficiency causes severe metabolic crises; mouse SQOR knockout produces Leigh syndrome-like disease
+        - Disease contexts where SQOR is implicated: neurological (Leigh), cardiovascular (ischemia-reperfusion), metabolic (diabetic nephropathy), cancer (ferroptosis)
+        - When SQOR is overwhelmed by excess gut-derived H2S load, spillover inhibits Complex IV in peripheral tissues
+        - Therapeutic target: SQOR modulation could address H2S-related mitochondrial toxicity
+
+    / *Conclusion:*: SQOR is the central molecular checkpoint preventing gut-derived H2S from reaching systemic mitochondria. Its impairment — whether from CoQ10 deficiency, genetic variants, or saturating H2S flux — creates the conditions for systemic mitochondrial inhibition.
+    / *Quality:*: Medium-High (2025 review; recent but comprehensive)
+    / *Certainty:*: 0.70
+    / *Limitations:*: Review; most disease data from genetic SQOR deficiency, not from excess gut production.
+
+=== Norris et al.\ 2011 — Liver as Central Regulator of H2S
+
+    / *Full Citation:*: Norris EJ, Culberson CR, Narasimhan S, Clemens MG. The liver as a central regulator of hydrogen sulfide. _Shock_. 2011;36(3):242–250.
+    / *DOI:*: #link("https://doi.org/10.1097/SHK.0b013e3182252ee7")[10.1097/SHK.0b013e3182252ee7]
+    / *PMID:*: 21617578
+    / *Study Design:*: Experimental — nonrecirculating isolated perfused rat liver
+    / *Key Findings:*:
+
+        - Liver clears H2S from portal circulation with >97% efficiency at oxygenated conditions, up to 200 μM infusion
+        - Clearance is oxygen-dependent: removing perfusate O2 drops efficiency from 97% to 23%
+        - H2S infusion increases hepatic NADH/NAD+ ratio and reduces hepatic O2 availability — creating a positive feedback toward impaired clearance
+        - Primary oxidation products in liver: sulfate (dominant) and thiosulfate (intermediate)
+        - Septic livers maintain H2S-metabolizing capacity (no sepsis-specific impairment in this model)
+
+    / *Conclusion:*: The liver is the primary first-pass H2S barrier. Any condition reducing hepatic oxygenation will reduce this clearance, allowing portal H2S to reach systemic circulation.
+    / *Quality:*: High — quantified experimental model
+    / *Certainty:*: 0.80 (ex vivo rat; human translation requires confirmation)
+    / *Limitations:*: Animal/ex vivo model. Orthostatic hypoperfusion effects on hepatic H2S clearance are extrapolated, not directly tested.
+    / *ME/CFS relevance:*: Orthostatic intolerance and reduced cardiac output in ME/CFS could reduce hepatic O2 delivery → impaired portal H2S clearance → systemic H2S elevation; this is a speculative but mechanistically coherent hypothesis.
+
+=== Pimenta et al.\ 2024 — Sulfidogenic Bacteria in Human Disease
+
+    / *Full Citation:*: Pimenta AI, Bernardino RM, Pereira IAC. Role of sulfidogenic members of the gut microbiota in human disease. _Advances in Microbial Physiology_. 2024;85:145–200.
+    / *DOI:*: #link("https://doi.org/10.1016/bs.ampbs.2024.04.003")[10.1016/bs.ampbs.2024.04.003]
+    / *PMID:*: 39059820
+    / *Study Design:*: Comprehensive review of human disease associations
+    / *Key Findings:*:
+
+        - Principal sulfidogenic gut bacteria: _Desulfovibrio_ spp. and _Bilophila wadsworthia_ (the two most clinically significant)
+        - Western diet (high animal protein, saturated fat, refined sugar) promotes their overgrowth via increased luminal sulfate and taurine
+        - _B. wadsworthia_ shows additional pathogenic properties: epithelial invasion, LPS-mediated inflammation, membrane vesicle production
+        - At high luminal concentrations, H2S disrupts intestinal barrier integrity and mucus layer → increased permeability
+        - Disease associations include IBD (Crohn's, UC), colorectal cancer, metabolic syndrome — conditions sharing ME/CFS comorbidity patterns
+
+    / *Conclusion:*: Sulfidogenic bacteria are a mechanistically distinct class of gut pathogens whose pathogenicity is mediated primarily through H2S and barrier disruption.
+    / *Quality:*: High
+    / *Certainty:*: 0.75 for IBD/CRC associations; speculative extrapolation to ME/CFS
+    / *Limitations:*: No ME/CFS-specific data. ME/CFS microbiome studies have not specifically measured sulfidogenic taxa.
+
+=== Qi et al.\ 2024 — Desulfovibrio H2S Suppresses GLP-1 via Mitochondrial Inhibition
+
+    / *Full Citation:*: Qi Q, Zhang H, Jin Z, et al. Hydrogen sulfide produced by the gut microbiota impairs host metabolism via reducing GLP-1 levels in male mice. _Nature Metabolism_. 2024;6(8):1601–1615.
+    / *DOI:*: #link("https://doi.org/10.1038/s42255-024-01068-x")[10.1038/s42255-024-01068-x]
+    / *PMID:*: 39030389
+    / *Study Design:*: Murine in vivo model + human metabolic syndrome correlation
+    / *Key Findings:*:
+
+        - _Desulfovibrio_ (enriched in human metabolic syndrome patients) produces H2S that inhibits mitochondrial respiration in intestinal L cells
+        - Mitochondrial inhibition in L cells induces the unfolded protein response (UPR) → suppresses GLP-1 secretion
+        - Bismuth subsalicylate (BSS) chelates luminal H2S → rescues GLP-1 production and ameliorates diet-induced metabolic disorder in male mice
+        - Provides direct causal evidence of the gut H2S → mitochondrial inhibition → metabolic dysfunction axis
+        - Human correlation: _Desulfovibrio_ abundance tracks with GLP-1 suppression in metabolic syndrome patients
+
+    / *Conclusion:*: This is the most direct experimental evidence that gut-derived H2S from a named sulfidogenic organism inhibits host mitochondria with measurable metabolic consequences. Bismuth subsalicylate provides mechanistic proof-of-concept for luminal H2S targeting as a therapeutic approach.
+    / *Quality:*: High — Nature Metabolism, experimental with human correlation
+    / *Certainty:*: 0.75 (murine model; GLP-1 mechanism established; ME/CFS extrapolation speculative)
+    / *Limitations:*: Male mice only; metabolic syndrome, not ME/CFS; exact H2S concentrations at mitochondria not measured.
+
+=== Villanueva-Millan et al.\ 2022 — H2S Producers Guide IBS Subtypes (Human)
+
+    / *Full Citation:*: Villanueva-Millan MJ, Leite G, Wang J, Morales W, et al. Methanogens and Hydrogen Sulfide Producing Bacteria Guide Distinct Gut Microbe Profiles and Irritable Bowel Syndrome Subtypes. _American Journal of Gastroenterology_. 2022;117(12):2055–2066.
+    / *DOI:*: #link("https://doi.org/10.14309/ajg.0000000000001997")[10.14309/ajg.0000000000001997]
+    / *PMID:*: 36114762
+    / *Study Design:*: Human cross-sectional; IBS cohort with 3-gas breath testing + 16S microbiome sequencing (Cedars-Sinai)
+    / *Key Findings:*:
+
+        - IBS-D subjects: elevated breath H2S and H2; higher relative abundance of _Fusobacterium_ and _Desulfovibrio_ spp.
+        - IBS-C subjects: elevated breath methane; higher _Methanobrevibacter smithii_
+        - Distinct microbial pathway enrichment: H2S producers → sulfate reduction pathways; methanogens → methanogenesis pathways
+        - Lower gut microbial diversity in IBS-D vs IBS-C — consistent with sulfidogenic overgrowth
+        - Confirms that breath gas pattern from Trio-Smart-type testing reflects actual underlying microbiome
+
+    / *Conclusion:*: Breath H2S is a reliable proxy for sulfidogenic dysbiosis in IBS. H2S-producing bacteria are causally implicated in IBS-D phenotype, not just correlated.
+    / *Quality:*: High
+    / *Certainty:*: 0.80
+    / *Limitations:*: IBS patients, not ME/CFS; cross-sectional; exact n not provided in abstract.
+
+=== Villanueva-Millan et al.\ 2024 — H2S Producers Drive Diarrhea Phenotype in Rats
+
+    / *Full Citation:*: Villanueva-Millan MJ, Leite G, Morales W, Sanchez M, Parodi G, Weitsman S, et al. Hydrogen Sulfide Producers Drive a Diarrhea-Like Phenotype and a Methane Producer Drives a Constipation-Like Phenotype in Animal Models. _Digestive Diseases and Sciences_. 2024;69(2):426–436.
+    / *DOI:*: #link("https://doi.org/10.1007/s10620-023-08197-5")[10.1007/s10620-023-08197-5]
+    / *PMID:*: 38060167
+    / *Study Design:*: Animal model (Sprague-Dawley rats); bacterial gavage experiment
+    / *Key Findings:*:
+
+        - Gavage with _Desulfovibrio piger_ or _Fusobacterium varium_ → increased stool wet weight (diarrhea phenotype) + increased stool H2S production
+        - Gavage with _Methanobrevibacter smithii_ → constipation phenotype (decreased stool wet weight)
+        - Establishes causality: these organisms are sufficient to produce their associated IBS subtype phenotype in otherwise normal animals
+        - H2S production co-varies with diarrhea severity — mechanism likely involves mucosal H2S effects on colonic fluid secretion and transit
+
+    / *Conclusion:*: Specific sulfidogenic organisms produce measurable H2S and drive IBS-D phenotype causally in animal models. This supports targeted approaches (antimicrobials, dietary sulfur restriction, H2S chelation) for IBS-D.
+    / *Quality:*: High — causal animal model
+    / *Certainty:*: 0.80 (animal; human translation reasonable)
+    / *Limitations:*: Rat model; single-species gavage may not reflect mixed-flora dynamics; short intervention period.
+
+=== Ye et al.\ 2025 — Reduced Sulfur Diet Reshapes Microbiome in Ulcerative Colitis
+
+    / *Full Citation:*: Ye Z, Raman M, Taylor L, Yousuf M, Panaccione R, et al. Reduced Sulfur Diet Reshapes the Microbiome and Metabolome in Mild--Moderate Ulcerative Colitis. _International Journal of Molecular Sciences_. 2025;26(10):4596.
+    / *DOI:*: #link("https://doi.org/10.3390/ijms26104596")[10.3390/ijms26104596]
+    / *PMID:*: 40429741
+    / *Study Design:*: Open-label RCT pilot; n=9 reduced-sulfur diet vs n=13 controls; 8 weeks; mild-moderate UC
+    / *Key Findings:*:
+
+        - Sulfur intake reduced from 411 mg/day to 172 mg/day (−58%) in RS group
+        - Significant increase in gut microbial alpha diversity and Shannon index in RS group
+        - Decreased pathobiont _Eggerthella lenta_; increased _Faecalibacterium prausnitzii_ (anti-inflammatory)
+        - Reduced LPS-binding protein (−5,280 ng/mL) suggesting decreased intestinal permeability
+        - Increased anti-inflammatory metabolite indoleacetyl glutamine
+        - 43% of RS group showed ≥50% fecal calprotectin reduction vs 25% in controls
+
+    / *Conclusion:*: Dietary sulfur restriction is feasible, measurable, and produces beneficial microbiome and metabolome shifts. Provides rationale for trials in other sulfidogenic-dysbiosis conditions.
+    / *Quality:*: Medium — pilot RCT, small n, open-label
+    / *Certainty:*: 0.55 (small n; UC, not ME/CFS)
+    / *Limitations:*: n=22 total; open-label; UC population; 8-week duration; no sham control. ME/CFS extrapolation is speculative.
+
+=== Paul et al.\ 2021 — H2S and Mitochondria: Biphasic Effects (Nuanced/Negative)
+
+    / *Full Citation:*: Paul BD, Snyder SH, Kashfi K. Effects of hydrogen sulfide on mitochondrial function and cellular bioenergetics. _Redox Biology_. 2021;38:101772.
+    / *DOI:*: #link("https://doi.org/10.1016/j.redox.2020.101772")[10.1016/j.redox.2020.101772]
+    / *PMID:*: 33137711
+    / *Study Design:*: Review with experimental literature synthesis
+    / *Key Findings:*:
+
+        - H2S exhibits beneficial mitochondrial effects at low concentrations: cytoprotective, anti-apoptotic, anti-inflammatory via S-sulfhydration
+        - At high concentrations: cytotoxic via Complex IV inhibition and ATP collapse
+        - **Caution against oversimplification:** context (hypoxia, acidosis, cell type) shifts the beneficial/toxic boundary — the same concentration may be protective in one cell type and toxic in another
+        - Endogenous H2S overproduction (CBS/3-MST overexpression in Down syndrome) impairs mitochondria — demonstrating that even endogenous H2S excess is pathological
+        - "A complete picture of the impact of H2S on bioenergetics is lacking" — authors explicitly caution
+
+    / *Conclusion:*: H2S is not uniformly toxic. Framing it as a simple poison ignores its essential roles as a gasotransmitter. For ME/CFS integration, the document should present H2S as a concentration-dependent double-edged molecule, not frame gut H2S as straightforwardly harmful.
+    / *Quality:*: High
+    / *Certainty:*: 0.85 as nuanced/critical finding
+    / *Limitations:*: Review; precise threshold concentrations in human gut and portal circulation not established.
+
+// =============================================================================
+
+== Reference Range Problem and Functional Deficiency (2026-04-21)
+
+<sec:bib-reference-range-problem>
+
+This section covers the systematic gap between population-derived laboratory reference
+intervals and the thresholds required for optimal cellular function in chronically ill
+individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid hormones.
+
+=== Vaucher et al.\ 2012 — Iron Supplementation in Nonanemic Women with Low Ferritin (RCT)
+
+    / *Full Citation:*: Vaucher P, Druais PL, Waldvogel S, Favrat B. Effect of iron supplementation on fatigue in nonanemic menstruating women with low ferritin: a randomized controlled trial. _CMAJ_. 2012;184(11):1247--54.
+    / *DOI:*: #link("https://doi.org/10.1503/cmaj.110950")[10.1503/cmaj.110950]
+    / *PMID:*: 22777991
+    / *Study Design:*: Multicentre parallel RCT, 44 primary care practices, France; observer-blinded
+    / *Sample Size:*: n=198 (102 iron, 96 placebo), ages 18--53
+    / *Ferritin Cutoff:*: <50 µg/L with normal hemoglobin (>12.0 g/dL)
+    / *Key Findings:*:
+
+        - Ferrous sulfate 80 mg elemental iron daily × 12 weeks reduced fatigue score 47.7% vs 28.8% placebo (p=0.02)
+        - No significant improvement in quality of life, depression, or anxiety
+        - Iron therapy raised hemoglobin, raised ferritin, reduced soluble transferrin receptor
+
+    / *Reference Range Problem:*: WHO iron deficiency threshold is <15 µg/L; most clinical labs flag deficiency only below 12--15 µg/L. This RCT demonstrates fatigue benefit at ferritin levels up to 50 µg/L — more than 3× the WHO cutoff. Patients with ferritin 16--49 µg/L would typically be told their iron is "normal."
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — CMAJ, peer-reviewed RCT, independent
+        - *Sample:* n=198, female only, France primary care
+        - *Replication:* Supported by Krayenbuehl 2011 and Yokoi 2017 meta-analysis
+        - *Limitations:* Women only; no ME/CFS patients; short follow-up (12 weeks); no objective performance measures improved
+
+=== Krayenbuehl et al.\ 2011 — Intravenous Iron for Fatigue in Nonanemic Women (RCT)
+
+    / *Full Citation:*: Krayenbuehl PA, Battegay E, Breymann C, Furrer J, Schulthess G. Intravenous iron for the treatment of fatigue in nonanemic, premenopausal women with low serum ferritin concentration. _Blood_. 2011;118(12):3222--7.
+    / *DOI:*: #link("https://doi.org/10.1182/blood-2011-04-346304")[10.1182/blood-2011-04-346304]
+    / *PMID:*: 21705493
+    / *Study Design:*: Randomized, double-blind, placebo-controlled trial
+    / *Sample Size:*: n=90 premenopausal women; ferritin ≤50 ng/mL; hemoglobin ≥120 g/L
+    / *Key Findings:*:
+
+        - In subgroup with ferritin ≤15 ng/mL: fatigue decreased 1.8 (iron) vs 0.4 (placebo), p=0.005
+        - 82% vs 47% reported subjective improvement in that subgroup (p=0.03)
+        - Full cohort (up to 50 ng/mL) showed smaller overall effect
+        - Adverse events 21% iron group vs 7% placebo
+
+    / *Reference Range Problem:*: Enrollment threshold of ≤50 ng/mL is well above standard lab deficiency cutoffs (typically 12 ng/mL for women). Strongest benefit was in the ≤15 ng/mL subgroup, confirming functional importance of the near-deficient range that most labs classify as "normal."
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — _Blood_ journal, double-blind RCT
+        - *Sample:* n=90, women only
+        - *Replication:* Consistent with Vaucher 2012
+        - *Limitations:* Subgroup analysis for main effect; women only; single centre
+
+=== Yokoi and Konomi 2017 — Meta-Analysis of IDWA and Fatigue
+
+    / *Full Citation:*: Yokoi K, Konomi A. Iron deficiency without anaemia is a potential cause of fatigue: meta-analyses of randomised controlled trials and cross-sectional studies. _British Journal of Nutrition_. 2017;117(10):1422--31.
+    / *DOI:*: #link("https://doi.org/10.1017/S0007114517001349")[10.1017/S0007114517001349]
+    / *PMID:*: 28625177
+    / *Study Design:*: Systematic review + two meta-analyses (6 RCTs, 6 cross-sectional studies)
+    / *Key Findings:*:
+
+        - RCT pool: iron supplementation significantly reduced fatigue in IDWA (effect size 0.33, p<0.0001)
+        - Cross-sectional pool: IDWA status did not significantly predict fatigue (effect size 0.10, p=0.362)
+        - Interpretation: supplementation improves fatigue; cross-sectional IDWA status alone does not reliably stratify fatigued from non-fatigued individuals
+
+    / *Reference Range Problem:*: Ferritin thresholds defining IDWA in included studies ranged from <12 to <50 µg/L across different research teams, confirming there is no consensus on where "normal" iron stores end and functional deficiency begins.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium-high — _British Journal of Nutrition_, systematic methods
+        - *Sample:* Pooled from 12 studies
+        - *Replication:* Summarizes existing evidence
+        - *Limitations:* Heterogeneous ferritin cutoffs; no ME/CFS-specific data; publication bias possible
+
+=== Al-Naseem et al.\ 2021 — Iron Deficiency Without Anaemia: A Diagnosis That Matters
+
+    / *Full Citation:*: Al-Naseem A, Sallam A, Choudhury S, Thachil J. Iron deficiency without anaemia: a diagnosis that matters. _Clinical Medicine (London)_. 2021;21(2):107--113.
+    / *DOI:*: #link("https://doi.org/10.7861/clinmed.2020-0582")[10.7861/clinmed.2020-0582]
+    / *PMID:*: 33762368
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+
+        - IDWA is at least twice as common as iron deficiency anemia, yet remains clinically underrecognized
+        - WHO cutoff (<15 µg/L) misses many clinically significant cases; <30 µg/L has high specificity and sensitivity for absent bone marrow iron stores
+        - In inflammatory conditions (relevant to ME/CFS): threshold rises to 100 µg/L (with TSAT <20% as confirmatory marker)
+        - Calls for IDWA to be recognized as a standalone clinical diagnosis
+
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium — _Clinical Medicine_ (Royal College of Physicians), peer-reviewed narrative review
+        - *Sample:* Review, no primary data
+        - *Limitations:* Narrative review; no ME/CFS data; practical guidance for general medicine
+
+=== Workinger et al.\ 2018 — Challenges in the Diagnosis of Magnesium Status
+
+    / *Full Citation:*: Workinger JL, Doyle RP, Bortz J. Challenges in the diagnosis of magnesium status. _Nutrients_. 2018;10(9):1202.
+    / *DOI:*: #link("https://doi.org/10.3390/nu10091202")[10.3390/nu10091202]
+    / *PMID:*: 30200431
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+
+        - Only ~1% of total body magnesium is in blood; 99% is intracellular (53% bone, 27% muscle, 19% other tissues)
+        - Standard serum magnesium assay has "no reliable correlation" with total body or tissue magnesium levels
+        - Serum levels are tightly regulated by renal excretion and remain "normal" even when total body stores are depleted
+        - No validated rapid bedside test for true magnesium status exists
+        - RBC magnesium is a better (but imperfect and non-standardized) proxy
+        - Estimated 45% of Americans are magnesium-deficient by dietary intake measures despite frequently normal serum results
+
+    / *Reference Range Problem:*: The standard serum magnesium reference interval measures the wrong compartment for chronic deficiency detection. Patients with textbook magnesium deficiency symptoms (fatigue, muscle cramps, sleep disruption) routinely present with "normal" serum magnesium because the body preserves serum levels at the expense of tissue stores.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium — _Nutrients_ (MDPI), MEDLINE-indexed, systematic narrative methods
+        - *Sample:* Review, no primary data
+        - *Limitations:* No primary data; MDPI open-access journal; recommendation to use RBC magnesium is not uniformly endorsed
+
+=== Russell-Jones 2022 — Functional Vitamin B12 Deficiency in Chronic Fatigue Syndrome
+
+    / *Full Citation:*: Russell-Jones G. Functional vitamin B12 deficiency in chronic fatigue syndrome. _International Journal of Psychiatry_. 2022;7(3):153--158.
+    / *DOI:*: 10.33140/IJP (journal prefix; article-level DOI not confirmed in PubMed)
+    / *PMID:*: Not indexed in PubMed
+    / *Study Design:*: Observational comparison, n=350 CFS individuals
+    / *Key Findings:*:
+
+        - Majority of CFS patients showed functional B12 deficiency markers (elevated methylmalonic acid, urinary metabolites) despite normal to elevated serum B12
+        - Termed "paradoxical vitamin B12 deficiency" — serum B12 does not reflect functional B12 status
+        - B2 (riboflavin) co-deficiency proposed as mechanism: riboflavin is required for functional B12 activity
+        - Serum B12 reference ranges measure circulating cobalamin, not intracellular utilization
+
+    / *Certainty Assessment:*:
+
+        - *Quality:* Low — not PubMed-indexed; Opast Publishing (lower-tier open-access); peer review quality uncertain
+        - *Sample:* n=350, no control group details confirmed
+        - *Replication:* Not independently replicated at this level of specificity
+        - *Limitations:* Low-tier journal; methods not fully validated; treat as hypothesis-generating only; use `speculation` environment
+
+=== Charoenngam and Holick 2020 — Immunologic Effects of Vitamin D
+
+    / *Full Citation:*: Charoenngam N, Holick MF. Immunologic effects of vitamin D on human health and disease. _Nutrients_. 2020;12(7):2097.
+    / *DOI:*: #link("https://doi.org/10.3390/nu12072097")[10.3390/nu12072097]
+    / *PMID:*: 32679784
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+
+        - Classical bone-health threshold (basis for most lab reference ranges): 20 ng/mL (50 nmol/L)
+        - Optimal immune function threshold: 40--60 ng/mL (100--150 nmol/L)
+        - Active vitamin D modulates T-cell and B-cell activity, cathelicidin production, anti-inflammatory cytokines
+        - Significant inter-individual variation in VDR gene expression: identical serum 25(OH)D levels produce different cellular immune responses
+
+    / *Reference Range Problem:*: A 25(OH)D of 22 ng/mL is labeled "sufficient" by standard lab reference ranges (bone health threshold). The immune-optimization threshold is 2--3× higher. VDR polymorphisms mean some individuals may require substantially higher serum levels to achieve equivalent intracellular vitamin D signaling.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium — _Nutrients_ (MDPI), MEDLINE-indexed; Holick is leading authority in field
+        - *Sample:* Review; draws on mechanistic, observational, and RCT data
+        - *Replication:* Optimal immune threshold supported by multiple independent research groups
+        - *Limitations:* Narrative review; Holick has disclosed commercial relationships (speaking fees); optimal immune threshold not established by large RCTs; VITAL trial showed partial benefits only
+
+=== Holick et al.\ 2011 — Endocrine Society Vitamin D Clinical Practice Guideline
+
+    / *Full Citation:*: Holick MF, Binkley NC, Bischoff-Ferrari HA, et al. Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society clinical practice guideline. _Journal of Clinical Endocrinology & Metabolism_. 2011;96(7):1911--30.
+    / *DOI:*: #link("https://doi.org/10.1210/jc.2011-0385")[10.1210/jc.2011-0385]
+    / *PMID:*: 21646368
+    / *Study Design:*: Evidence-based clinical practice guideline (Endocrine Society)
+    / *Key Findings:*:
+
+        - Deficiency defined as <20 ng/mL; insufficiency 21--29 ng/mL; sufficiency ≥30 ng/mL
+        - Recommends targeting 40--60 ng/mL for maximum extraskeletal (immune, cancer, cardiovascular) benefit
+        - Adults at risk may require 1500--2000 IU/day to achieve >30 ng/mL
+        - The guideline itself makes explicit that bone-health cutoffs and extraskeletal-benefit thresholds are different
+
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — Endocrine Society, evidence-graded guideline, >20,000 citations
+        - *Replication:* Widely adopted; partially updated by 2024 Endocrine Society guideline
+        - *Limitations:* 2011 guideline; some extraskeletal benefit claims revised in light of subsequent RCTs (VITAL); Holick COI disclosure
+
+=== Panicker et al.\ 2009 — DIO2 Polymorphism, Psychological Wellbeing, and T4/T3 Response
+
+    / *Full Citation:*: Panicker V, Saravanan P, Vaidya B, Evans J, Hattersley AT, Frayling TM, Dayan CM. Common variation in the DIO2 gene predicts baseline psychological well-being and response to combination thyroxine plus triiodothyronine therapy in hypothyroid patients. _Journal of Clinical Endocrinology & Metabolism_. 2009;94(5):1623--9.
+    / *DOI:*: #link("https://doi.org/10.1210/jc.2008-1301")[10.1210/jc.2008-1301]
+    / *PMID:*: 19190113
+    / *Study Design:*: Prospective genetic subgroup analysis within the Weston Area T4 T3 Study (WATTS)
+    / *Sample Size:*: n=552 subjects on T4 monotherapy for hypothyroidism
+    / *Key Findings:*:
+
+        - DIO2 rs225014 CC genotype (present in 16% of the sample) associated with worse baseline psychological wellbeing on T4 alone (GHQ 14.1 vs 12.8, p=0.03)
+        - CC genotype showed greater benefit from T4+T3 combination therapy: +2.3 GHQ points at 3 months, +1.4 at 12 months (p=0.03 repeated-measures ANOVA)
+        - Critically: the CC genotype had NO impact on serum TSH, T3, or T4 levels
+        - DIO2 encodes type II deiodinase, which converts T4 to active T3 intracellularly in brain and pituitary; Thr92Ala substitution reduces enzyme efficiency
+
+    / *Reference Range Problem:*: TSH is the primary clinical marker of thyroid function and was completely normal in all genotype groups. Yet 16% of hypothyroid patients had measurably worse psychological function explicable only by impaired intracellular T4-to-T3 conversion — a process serum TSH cannot assess. Tissue-level thyroid hormone deficiency exists in a measurable fraction of patients despite normal serum thyroid function tests.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — _JCEM_, prospective genetic analysis, validated study design
+        - *Sample:* n=552 on T4 therapy (hypothyroid patients, not general population or ME/CFS)
+        - *Replication:* Mixed; the Thr92Ala DIO2 polymorphism principle is supported by multiple groups; specific effect sizes contested
+        - *Limitations:* Hypothyroid patients only; not applicable to euthyroid individuals directly; p-values borderline (0.02--0.06); does not apply to TSH screening in general ME/CFS without known hypothyroidism
+
+=== Ruiz-Núñez et al.\ 2018 — Low T3 Syndrome in ME/CFS (Case-Control)
+
+    / *Full Citation:*: Ruiz-Núñez B, Tarasse R, Vogelaar EF, Dijck-Brouwer DAJ, Muskiet FAJ. Higher prevalence of "low T3 syndrome" in patients with chronic fatigue syndrome: a case--control study. _Frontiers in Endocrinology_. 2018;9:97.
+    / *DOI:*: #link("https://doi.org/10.3389/fendo.2018.00097")[10.3389/fendo.2018.00097]
+    / *PMID:*: 29615976
+    / *Study Design:*: Case-control
+    / *Sample Size:*: n=98 ME/CFS patients; n=99 age/sex-matched healthy controls
+    / *Key Findings:*:
+
+        - ME/CFS patients showed lower FT3, total T3, total T4; elevated reverse T3 percentage
+        - FT3 below reference range in 16/98 CFS patients vs 7/99 controls (OR 2.56, p=0.035)
+        - TSH was normal in all subjects — the abnormality is invisible to TSH-based screening
+        - Reduced deiodination function and thyroid secretory capacity in CFS group
+        - Pattern resembles mild non-thyroidal illness syndrome (NTIS), suggesting systemic illness suppresses T4→T3 conversion independently of primary thyroid disease
+
+    / *Reference Range Problem:*: Standard thyroid screening uses TSH only. All ME/CFS patients in this study would be classified "euthyroid" by TSH. FT3 and reverse T3 measurements — which revealed a 2.56-fold increased risk of low T3 — are not part of routine thyroid function panels.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium — _Frontiers in Endocrinology_ (peer-reviewed open-access; variable review quality)
+        - *Sample:* n=197 case-control; adequate size
+        - *Replication:* Not independently replicated in larger ME/CFS cohort
+        - *Limitations:* Case-control cannot establish causality; Frontiers publication; NTIS pattern may reflect effect rather than cause of ME/CFS
+
+=== Ott et al.\ 2011 — Hashimoto's Thyroiditis: Fatigue Independent of TSH
+
+    / *Full Citation:*: Ott J, Promberger R, Kober F, Neuhold N, Tea M, Huber JC, Hermann M. Hashimoto's thyroiditis affects symptom load and quality of life unrelated to hypothyroidism: a prospective case-control study in women undergoing thyroidectomy for benign goiter. _Thyroid_. 2011;21(2):161--7.
+    / *DOI:*: #link("https://doi.org/10.1089/thy.2010.0191")[10.1089/thy.2010.0191]
+    / *PMID:*: 21186954
+    / *Study Design:*: Prospective case-control (histology-confirmed Hashimoto's as case definition)
+    / *Sample Size:*: n=426 euthyroid women undergoing thyroid surgery; 28 (6.6%) confirmed Hashimoto's on histology
+    / *Key Findings:*:
+
+        - Anti-TPO cutoff for true thyroid inflammation calculated at 121.0 IU/mL
+        - Women above cutoff had significantly higher symptom counts (6.7±2.5 vs 4.1±2.8, p<0.001)
+        - Chronic fatigue was significantly more prevalent in the Hashimoto's group
+        - TSH levels were statistically identical between groups (1.7±1.3 vs 1.5±1.4 µU/mL)
+        - Autoimmune inflammation itself — not hypothyroidism — drives fatigue and other symptoms
+
+    / *Reference Range Problem:*: Euthyroid Hashimoto's patients have "normal" TSH by every standard reference interval. The symptom burden (including chronic fatigue) is driven by TPO antibody-mediated autoimmune activity, which is not part of standard thyroid function panels and has no established reference range for "safe" antibody levels.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High — _Thyroid_ (leading specialty journal), prospective, histology-confirmed case definition
+        - *Sample:* n=426 total; Hashimoto's subgroup n=28 (small)
+        - *Replication:* Consistent with wider literature on euthyroid Hashimoto's symptom burden
+        - *Limitations:* Women only (surgical sample); small Hashimoto's subgroup; surgical sample may overrepresent structural thyroid disease
+
+=== Joustra et al.\ 2017 — Vitamin and Mineral Status in CFS/Fibromyalgia (Systematic Review)
+
+    / *Full Citation:*: Joustra ML, Minovic I, Janssens KAM, Bakker SJL, Rosmalen JGM. Vitamin and mineral status in chronic fatigue syndrome and fibromyalgia syndrome: a systematic review and meta-analysis. _PLoS One_. 2017;12(4):e0176631.
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0176631")[10.1371/journal.pone.0176631]
+    / *PMID:*: 28453534
+    / *Study Design:*: Systematic review + meta-analysis; 45 studies (5 RCTs, 40 observational)
+    / *Key Findings:*:
+
+        - No consistent differences in vitamin D, magnesium, B12, iron, zinc, or folate between CFS/FMS patients and controls using standard serum/plasma measures
+        - Vitamin E lower in patients vs controls, but effect disappeared in higher-quality studies
+        - Supplementation RCTs showed no consistent clinical improvements
+        - Study quality was generally poor; substantial heterogeneity
+        - Conclusion: "Little evidence was found to support the hypothesis that vitamin and mineral deficiencies play a role in the pathophysiology of CFS and FMS"
+
+    / *Critical Interpretation:*: This is the necessary empirical counterweight. However, the systematic review used standard serum/plasma assays — precisely the measures identified elsewhere in this section as inadequate for detecting intracellular and functional deficiencies (magnesium, B12) or for applying functional thresholds (ferritin, vitamin D). The negative finding should be read as "standard serum measures show no consistent differences," not "no functional deficiency exists." The two conclusions are compatible.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium-high — _PLoS One_, systematic methods, pre-registered
+        - *Sample:* 45 studies pooled
+        - *Limitations:* Relies entirely on serum/plasma measures; poor primary study quality; high heterogeneity; may miss functional deficiencies by design; does not address the reference range problem directly
