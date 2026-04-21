@@ -238,7 +238,7 @@ Protocol targeting Architecture C sleep barriers:
 
 #hypothesis(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
 If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
-] <spec:sleep-reserve-recovery>
+] <hyp:sleep-reserve-recovery>
 
 == Dietary Approaches
 <sec:dietary>
