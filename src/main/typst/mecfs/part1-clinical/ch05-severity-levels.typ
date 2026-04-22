@@ -194,6 +194,9 @@ Very severe ME/CFS represents the extreme end of the disease spectrum: patients 
 
 The detailed reality of very severe ME/CFS—the complete energy bankruptcy, the necessity of existence in darkness and silence, the loss of basic bodily functions, and the existential suffering that leads many to wish for death—is addressed comprehensively in Section @sec:severe-reality.
 
+*Extended Extremely Severe Classification.*
+The standard four-level classification collapses all patients below "very severe" into a single category, yet these patients exhibit clinically meaningful differences in functional capacity. Jahanbani et al. proposed a finer-grained framework that subdivides the extremely severe range into five sub-levels (A through E, with E the most profound), reflecting discrete functional milestones: oral nutrition capacity, sensory tolerance, communication ability, and independent repositioning @Jahanbani2024severity. Norwegian survey data ($n = 586$) confirm the heterogeneity within this range: among very severe patients, 17% required tube feeding, 43% had swallowing difficulties, 60% could not tolerate normal speech volume, and 76% never received visitors @Sommerfelt2023NorwaySevere. The FUNCAP questionnaire, specifically designed to avoid floor effects at the extreme end, may enable longitudinal tracking across these sub-levels @Sommerfelt2024FUNCAP. This extended classification has implications for treatment monitoring: the ratchet model (Section @sec:ratchet-model) predicts that recovery time increases steeply through the "cliff" regime and plateaus at a high constant in the "floor" regime (Table @tab:recovery-regimes), meaning that transitions between adjacent extremely severe sub-levels are clinically hard to detect despite ongoing biological improvement.
+
 *Key Features.*
 Very severe ME/CFS is characterized by @NICE2021mecfs:
 
@@ -220,7 +223,7 @@ The ACHTSAM pilot study @Fricke2026achtsam represents the first systematic
 investigation of diagnostic tolerability in severe and very severe ME/CFS
 (Bell score $lt.eq$30), conducting all assessments—including ECG, heart rate
 variability, pupillography, cognitive testing, endothelial function, and blood
-sampling—at the patient's home. The study hypothesises that fewer than 50%
+sampling—at the patient's home. The study hypothesizes that fewer than 50%
 of standard clinical assessments will be fully completable in this population
 and that supine-position procedures will be substantially better tolerated than
 standing tests. If validated, this framework could serve as a template for

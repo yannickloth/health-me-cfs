@@ -1473,7 +1473,23 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Critical Foundation (Implement Immediately)*
 
-Pacing is _not_ a treatment, but it _prevents worsening_ and reduces baseline symptom burden. The post-exertional malaise mechanism (Section @sec:energy-consequences) documents how exertion beyond capacity triggers mitochondrial dysfunction, oxidative stress, and immune activation. Without pacing, other interventions will be less effective.
+Pacing is _not_ a treatment, but it _prevents worsening_ and reduces baseline symptom burden.
+
+#warning-box(title: [Damage Prevention Is the Dominant Modality at Extremely Severe Levels])[
+Clinical experience and patient reports consistently demonstrate that at extremely severe levels, preventing the next crash is more important than any active treatment. The mathematical ratchet model (Equation @eq:recovery-scaling, Table @tab:recovery-regimes) provides a biophysical rationale for this established clinical principle: in the cliff and floor recovery regimes, a single PEM crash is acute (hours to days) but recovery takes weeks to months, creating an asymmetry where every prevented event saves disproportionate recovery time. For patients at ES-C and below, preventing the next damaging event---infection prevention, sensory environment control, elimination of all avoidable physiological stressors---is the dominant disease-modifying intervention. This recommendation rests on clinical consensus, independently of whether the quantitative model predictions are precisely correct.
+]
+
+#speculation(title: [Repair Multiplier Priority: Targeting $r(B)$ at the Extremely Severe End])[
+The piecewise recovery scaling (Table @tab:recovery-regimes) reveals that increasing the repair rate $r(B)$ has disproportionately more absolute leverage at the extremely severe end than at moderate severity. In the floor regime, $r(B) approx r_min$ is the dominant bottleneck---doubling $r_min$ halves a recovery time that is already months to years, producing an absolute benefit orders of magnitude larger than the same doubling at moderate severity (where $tau_upright("rec")$ is already short). _(Certainty: 0.40.)_
+
+Candidate repair-rate enhancers warranting prioritised investigation in extremely severe patients include: NAD#super[+] precursors (NR, NMN) as direct cofactors for SIRT1/SIRT3-mediated mitochondrial repair signalling; urolithin A for mitophagy enhancement (clearing damaged mitochondria to enable biogenesis); and growth hormone (if deficient) as a broad anabolic driver. The mathematical rationale for severity-stratified treatment prioritisation is that at moderate severity, repair-rate enhancers and damage-reducers are roughly equivalent, but at the extremely severe end, repair-rate enhancers dominate.
+
+#practical-warning(title: [Research-Stage Only])[
+This prioritisation is a mathematical prediction, not a clinical recommendation. No RCTs have tested repair-rate enhancers specifically in extremely severe ME/CFS. Doses, safety profiles, and efficacy in this population are unknown.
+]
+] <spec:repair-multiplier>
+
+The post-exertional malaise mechanism (Section @sec:energy-consequences) documents how exertion beyond capacity triggers mitochondrial dysfunction, oxidative stress, and immune activation. Without pacing, other interventions will be less effective.
 
 #key-point(title: [Experimental: Emergency Post-Exertion Protocol])[
 For situations where exertion is *unavoidable* (medical procedures, emergencies, essential activities), an experimental post-exertion intervention protocol exists that may reduce PEM severity or prevent crashes. This protocol targets the 24–72 hour window between exertion and symptom onset with ATP substrates (D-ribose, MCT oil), NAD#super[+] precursors, antioxidants, and anti-inflammatory support.

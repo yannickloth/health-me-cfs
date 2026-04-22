@@ -153,7 +153,202 @@ upright("Severity")(t) = cases(
 )
 $ <eq:ratchet-severity>
 
-with approximate thresholds $theta_upright("mod") approx 0.6$, $theta_upright("sev") approx 0.35$, $theta_upright("vs") approx 0.15$ (to be calibrated against functional capacity scores). Each severity transition is a one-way gate _within the ratchet model as formulated_: once $B_max$ drops below a threshold, the inter-event dynamics (Equation @eq:ratchet-interevent) cannot restore it, since $B(t)$ relaxes toward $B_max$ but never exceeds it. Reversal would require mechanisms that increase $B_max$ itself---mitochondrial biogenesis, epigenetic reprogramming, or immune reconstitution---which are outside the current model's scope but could be incorporated as an upward jump map if empirical evidence for such recovery emerges.
+with approximate thresholds $theta_upright("mod") approx 0.6$, $theta_upright("sev") approx 0.35$, $theta_upright("vs") approx 0.15$ (to be calibrated against functional capacity scores).
+
+===== Extended Severity Classification for the Extremely Severe Range
+
+The standard four-level classification (Equation @eq:ratchet-severity) collapses all patients below $theta_upright("vs")$ into a single category. Jahanbani et al. proposed a finer-grained scale that subdivides the very severe range into five extremely severe sub-levels (A through E, with E the most profound) @Jahanbani2024severity. This reflects clinical observations that patients at the bottom of the severity spectrum exhibit meaningful differences in functional capacity---ability to communicate, tolerate sensory input, or take nutrition orally---that the coarse classification obscures. The model accommodates this refinement by partitioning the very severe range into equal-width bands:
+
+$
+upright("Sub-level")(t) = cases(
+  upright("VS") & theta_upright("es") < B(t) lt.eq theta_upright("vs"),
+  upright("ES-A") & theta_upright("es") - w < B(t) lt.eq theta_upright("es"),
+  upright("ES-B") & theta_upright("es") - 2w < B(t) lt.eq theta_upright("es") - w,
+  upright("ES-C") & theta_upright("es") - 3w < B(t) lt.eq theta_upright("es") - 2w,
+  upright("ES-D") & theta_upright("es") - 4w < B(t) lt.eq theta_upright("es") - 3w,
+  upright("ES-E") & B(t) lt.eq theta_upright("es") - 4w
+)
+$ <eq:ratchet-severity-extended>
+
+with $theta_upright("es") approx 0.10$ and band width $w = theta_upright("es") \/ 5 = 0.02$ (thresholds to be calibrated against the Jahanbani functional descriptors). The equal-width partition is deliberate: it is not the _thresholds_ that need a nonlinear transformation, because the _dynamics_ already supply the compression.
+
+===== Biophysically Grounded Recovery Asymmetry
+
+The recovery time constant (Equation @eq:ratchet-recovery-time) depends on both the repair rate $r(B)$ and the energy-dependent repair term:
+
+$
+tau_upright("rec") (B) = frac(1, r(B)) dot.op frac(K_upright("repair") + [upright("ATP")](B), [upright("ATP")](B))
+$
+
+Rather than assuming linear proportionalities ($[upright("ATP")] prop B$, $r prop B$), both relationships can be derived from the biophysics already in the model (Chapter @ch:energy-metabolism-models).
+
+====== $[upright("ATP")](B)$: Three Regimes from the ATP Synthase Threshold
+
+The ATP synthase equation (Equation @eq:atp-synthase) gives ATP production as a function of the mitochondrial membrane potential $Delta Psi$:
+
+$
+J_upright("ATP synthase") prop frac(Delta Psi - Delta Psi_upright("threshold"), Delta Psi)
+$
+
+where $Delta Psi_upright("threshold") approx 110$ mV. Since $Delta Psi$ depends on ETC complex activity (which maps to $B$ through $alpha_upright("CI")$), steady-state ATP is a piecewise function of $B$ with three regimes:
+
+$
+[upright("ATP")](B) approx cases(
+  [upright("ATP")]_max quad & B > B_upright("cliff") quad & "(plateau: " Delta Psi ">>" Delta Psi_upright("threshold") ")",
+  [upright("ATP")]_max dot.op phi.alt(B) quad & B_upright("floor") < B lt.eq B_upright("cliff") quad & "(cliff: steep " Delta Psi "drop)",
+  [upright("ATP")]_min quad & B lt.eq B_upright("floor") quad & "(floor: cell-survival minimum)"
+)
+$ <eq:atp-piecewise>
+
+where $phi.alt(B)$ is the strongly nonlinear cliff function derived from the $Delta Psi$ dependence on Complex I capacity. From the worked example in Section @sec:etc-model: a 35% Complex I impairment ($alpha_upright("CI"): 1.0 -> 0.65$) produces a 39% ATP synthase flux reduction---disproportionate because $Delta Psi$ approaches $Delta Psi_upright("threshold")$. This disproportionality _is_ the cliff. Below $B_upright("floor")$, cells maintain $[upright("ATP")]_min$ (estimated at 15--30% of healthy levels from the ischaemia literature) to avoid apoptosis.
+
+The approximate regime boundaries, mapped from the $alpha_upright("CI")$ values in the ch27 worked examples to the $B$ scale:
+
+- $B_upright("cliff") approx 0.65$: above this, $Delta Psi$ is well above threshold ($> 145$ mV), ATP is near-maximal, and small changes in $B$ produce small ATP changes (quasi-plateau)
+- $B_upright("floor") approx 0.05$: below this, $Delta Psi$ is at or below threshold, ATP synthase is minimal, and the cell operates on glycolytic ATP with an apoptosis-prevention floor
+
+====== $r(B)$: Biogenesis--Mitophagy Balance
+
+The repair rate $r(B)$ is not a free parameter but the net output of two ATP-dependent processes already modelled in Chapter @ch:energy-metabolism-models:
+
+*Biogenesis* (Equation @eq:biogenesis): $J_upright("biogenesis") = v_upright("bio") dot.op frac([upright("AMPK")_a], K_upright("AMPK") + [upright("AMPK")_a]) dot.op frac([upright("NAD")^+], K_upright("SIRT1") + [upright("NAD")^+])$
+
+This is a product of two Hill functions with _opposing_ energy dependencies: energy deficit activates AMPK (promoting biogenesis) but depletes NAD#super[+] (inhibiting SIRT1). The net result is a non-monotonic hump: biogenesis peaks at intermediate energy deficit and collapses at severe deficit when NAD#super[+] depletion dominates.
+
+*Mitophagy* (Equation @eq:mitophagy): $J_upright("mitophagy") prop frac([upright("ATP")], K_upright("ATP,autophagy") + [upright("ATP")])$
+
+Autophagy requires ATP. Below the critical threshold $[upright("ATP")]_upright("crit,autophagy")$, quality control collapses: damaged mitochondria accumulate because the energy for cleanup is precisely what the damaged organelles fail to produce.
+
+The effective repair rate is therefore:
+
+$
+r(B) approx cases(
+  r_max dot.op (1 - B\/B_upright("cliff")) quad & B > B_upright("cliff") quad & "(healthy: mild deficit, AMPK rising, NAD" upright("+") " adequate)",
+  r_max dot.op psi(B) quad & B_upright("collapse") < B lt.eq B_upright("cliff") quad & "(cliff zone: competing AMPK/NAD" upright("+") " signals)",
+  r_min quad & B lt.eq B_upright("collapse") quad & "(collapse: NAD" upright("+") " depleted, mitophagy stalled)"
+)
+$ <eq:repair-piecewise>
+
+where $psi(B)$ captures the biogenesis hump---initially rising as AMPK activates, then falling as NAD#super[+] depletion dominates---and $B_upright("collapse") approx 0.10$--$0.15$ is the threshold where Chapter @ch:energy-metabolism-models predicts quality control failure ($gamma < 0.7$, $J_upright("biogenesis") < J_upright("mitophagy,eff")$).
+
+====== Recovery Scaling by Regime
+
+Substituting the biophysical functions (Equations @eq:atp-piecewise and @eq:repair-piecewise) into the recovery time constant:
+
+$
+tau_upright("rec") (B) = frac(1, r(B)) dot.op frac(K_upright("repair") + [upright("ATP")](B), [upright("ATP")](B))
+$ <eq:recovery-scaling>
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    [*Regime*], [*$B$ range*], [*$[upright("ATP")]$*], [*$r(B)$*], [*$tau_upright("rec")$ behaviour*],
+    [Plateau], [$> B_upright("cliff") approx 0.65$], [$approx [upright("ATP")]_max$], [Moderate (rising)], [Slow, roughly constant --- recovery timescale set by $r$ alone],
+    [Cliff], [$B_upright("collapse") < B lt.eq B_upright("cliff")$], [Steep drop ($phi.alt$)], [Hump then decline ($psi$)], [Rapid increase --- small $B$ drops cause disproportionate $tau_upright("rec")$ increase],
+    [Floor], [$lt.eq B_upright("collapse") approx 0.10$], [$approx [upright("ATP")]_min$], [$approx r_min$ (collapsed)], [$tau_upright("rec") approx "const" \/ r_min$ --- very long, set by collapsed repair machinery],
+  ),
+  caption: [Recovery time constant behaviour in three biophysical regimes. The cliff regime produces the steepest $tau_upright("rec")$ increase because both $[upright("ATP")]$ and $r(B)$ decline simultaneously.],
+) <tab:recovery-regimes>
+
+In the *cliff regime* ($B approx 0.15$--$0.65$, encompassing moderate through severe), both $[upright("ATP")]$ and $r(B)$ decline with $B$, producing a steep rise in $tau_upright("rec")$. The exact exponent depends on the shapes of $phi.alt$ and $psi$, which are determined by the ETC threshold nonlinearity and the AMPK/NAD#super[+] competition respectively. The order of magnitude is consistent with the $1\/B^2$ estimate from the linear approximation, but the cliff shape makes it locally _steeper_ than $1\/B^2$ near the $Delta Psi$ threshold.
+
+In the *floor regime* ($B lt.eq 0.10$, extremely severe), $[upright("ATP")]$ plateaus at $[upright("ATP")]_min$ and $r(B)$ has collapsed to $r_min$. Recovery time is high but no longer divergent---instead, $tau_upright("rec") approx K_upright("repair") \/ (r_min dot.op [upright("ATP")]_min)$, a large constant. This has a clinical consequence: transitions between adjacent extremely severe sub-levels take approximately equal (very long) times, rather than the quadratically expanding times predicted by the linear approximation. The difference is that between ES-D and ES-E, the patient has hit the biophysical floor---the system cannot get worse in terms of per-unit recovery cost, even though it can still get worse in terms of absolute functional capacity.
+
+The practical consequence across the full range: a moderate patient ($B approx 0.50$, in the cliff zone) already experiences significantly prolonged recovery compared to a mild patient ($B approx 0.70$, near the plateau), because the ATP cliff amplifies every functional drop. By the severe range ($B approx 0.25$), recovery times have risen by at least an order of magnitude. In the extremely severe range ($B lt.eq 0.10$), the floor regime means recovery times are extremely long but approximately uniform per band---consistent with the observation that patients at ES-C, ES-D, and ES-E all show similarly slow (near-imperceptible) improvement @Jahanbani2024severity, without ES-E being dramatically worse than ES-C in rate of improvement per se.
+
+The model therefore predicts that transitions between adjacent extremely severe sub-levels are clinically hard to distinguish not because the underlying biology is static, but because the recovery timescale exceeds typical observation windows. This is an emergent property of the biophysics---the ATP synthase threshold equation, the AMPK/NAD#super[+] competition in biogenesis, and the ATP-dependent mitophagy collapse produce the compression without requiring any fitting assumptions.
+
+#limitation(title: [Within-Person vs.\ Between-Person Recovery Scaling])[
+The recovery scaling (Equation @eq:recovery-scaling) describes _within-person_ dynamics: how recovery time changes as a single patient's functional capacity $B$ evolves over the disease course. It does not predict that sicker patients recover more slowly than milder patients _in cross-sectional comparison_. Indeed, Moore et al. found no significant difference in post-CPET recovery time across baseline symptom severity levels ($F = 1.12$, $p = 0.33$) @Moore2023recovery. This null result is consistent with the model: between-person variation in $delta_0$, $alpha$, $r(B)$, and $K_upright("repair")$ may dominate over the within-person $B$-dependence, and the CPET protocol itself excludes the most severely affected patients who cannot exercise, truncating the severity range over which the scaling would be most pronounced. Empirical validation requires longitudinal within-person tracking across severity transitions---data that do not yet exist but that home-visit protocols such as ACHTSAM @Fricke2026achtsam and instruments such as FUNCAP @Sommerfelt2024FUNCAP (designed to avoid floor effects at the extreme end) may enable.
+]
+
+#limitation(title: [Regime Boundaries Are Approximate])[
+The boundaries $B_upright("cliff") approx 0.65$ and $B_upright("collapse") approx 0.10$ are estimated from the ch27 worked examples ($alpha_upright("CI")$ values mapped to $B$) and the NAD#super[+] depletion threshold ($gamma < 0.7$). The true boundaries are patient-specific, depending on individual mitochondrial reserve, antioxidant capacity, and NAD#super[+] metabolism. Numerical integration of the full coupled ODE system (Equations @eq:atp-synthase, @eq:biogenesis, @eq:mitophagy with patient-specific parameters) would yield precise $tau_upright("rec")(B)$ curves; the piecewise description here captures the qualitative regime structure.
+]
+
+Survey data from Norway ($n = 586$) confirm the clinical heterogeneity that the extended classification aims to capture: among very severe patients, 17% required tube feeding, 43% had swallowing difficulties, 60% could not tolerate normal speech volume, and 76% never received visitors @Sommerfelt2023NorwaySevere. These functional milestones provide candidate anchors for calibrating the sub-level thresholds $theta_upright("es")$ and band width $w$.
+
+===== Consequences of the Nonlinear Recovery Scaling
+
+The steep $tau_upright("rec")$ increase through the cliff regime and the high constant in the floor regime have several implications for clinical management, monitoring, and model refinement.
+
+#hypothesis-box(title: [The Biological Shadow: Biomarkers Improve Before Function])[
+At extremely severe levels, the piecewise recovery scaling (Table @tab:recovery-regimes) predicts a temporal dissociation between biological and functional improvement. Blood biomarkers (8-OHdG, cell-free mitochondrial DNA, inflammatory cytokines, HRV metrics) should begin improving weeks to months before the patient or caregiver can detect any functional change. At moderate severity ($B approx 0.50$), the same biomarkers and functional capacity improve approximately in parallel. In the cliff regime, the lag grows steeply with decreasing $B$; in the floor regime, the lag plateaus at a high constant. _(Certainty: 0.50.)_ This is a direct consequence of the ATP synthase threshold nonlinearity and the collapsed biogenesis/mitophagy machinery at low $B$. The Jahanbani 2024 $n = 1$ trajectory is consistent with prolonged biological improvement preceding functional milestones @Jahanbani2024severity.
+
+*Clinical implication:* The absence of visible functional improvement in an extremely severe patient does not mean the treatment is failing. Clinicians and caregivers should monitor biological markers rather than functional milestones to assess treatment efficacy at this end of the spectrum.
+
+*Falsifiable prediction:* A longitudinal study of $gt.eq 20$ extremely severe patients with monthly paired biological and functional assessments over $gt.eq 12$ months should show statistically significant biomarker improvement preceding functional improvement by $gt.eq 2$ months at ES-D/E, versus $lt.eq 2$ weeks at moderate severity. Falsified if biomarker and functional trajectories are synchronous at all severity levels.
+] <hyp:biological-shadow>
+
+#hypothesis-box(title: [Recovery Horizon: A Computable Patience Metric])[
+The piecewise recovery scaling (Table @tab:recovery-regimes) enables computation of the expected time for a patient at a given $B$ to traverse one sub-level band. In the cliff regime, $tau_upright("rec")$ rises steeply; in the floor regime, it plateaus at a high constant. Both are dramatically longer than in the plateau regime where healthy and mild patients reside. The qualitative pattern:
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    [*Sub-level*], [*$B$ (midpoint)*], [*Regime*], [*Recovery horizon (qualitative)*],
+    [Mild], [0.70], [Plateau], [Days to weeks --- $tau_upright("rec")$ set by $r$ alone; ATP near-maximal],
+    [Moderate], [0.50], [Cliff], [Weeks to months --- ATP cliff amplifies every $Delta B$ loss],
+    [Severe], [0.25], [Cliff (steep)], [Months --- near $Delta Psi$ threshold; disproportionate $tau_upright("rec")$ rise],
+    [ES-A], [0.09], [Floor], [Months to years --- repair machinery collapsed; high constant $tau_upright("rec")$],
+    [ES-C], [0.05], [Floor], [Years --- similar per-band cost to ES-A; constant floor regime],
+    [ES-E], [0.01], [Floor], [Years --- same floor constant; not quadratically worse than ES-C],
+  ),
+  caption: [Qualitative recovery horizon per severity band. Unlike the $1\/B^2$ approximation, the biophysical model predicts a floor in per-band recovery cost at extremely severe levels rather than unbounded divergence.],
+) <tab:recovery-horizon>
+
+_(Certainty: 0.45.)_ Treatment trials in extremely severe patients that use standard 3--6 month endpoints will systematically fail to detect genuine improvement, even for effective interventions. Quantitative calibration requires numerical integration of the coupled ODE system with patient-specific parameters.
+
+*Falsifiable prediction:* Within-person recovery time plotted against $B$ on a log-log scale should show two slope changes: a steepening in the cliff regime ($B approx 0.15$--$0.65$) and a flattening in the floor regime ($B lt.eq 0.10$). A pure power law ($tau prop 1\/B^n$ with constant $n$) at all severity levels is falsified by the piecewise biophysics.
+] <hyp:recovery-horizon>
+
+#hypothesis-box(title: [Damage Prevention Dominance Below the Severe Threshold])[
+The ratchet asymmetry at the extremely severe end has a quantifiable consequence for therapeutic priorities. In the floor regime, recovery from any crash takes the same very long time $tau_upright("rec") approx K_upright("repair") \/ (r_min dot.op [upright("ATP")]_min)$ regardless of the patient's exact $B$ within that regime. But the crash itself is acute (hours to days). This asymmetry means that every single preventable damaging event saves months to years of recovery time. In the cliff regime (moderate through severe), the asymmetry is even steeper: a crash at $B = 0.25$ costs _disproportionately_ more than the same crash at $B = 0.50$ because the $Delta Psi$ threshold nonlinearity amplifies every $B$ drop. _(Certainty: 0.55.)_
+
+The model predicts that for patients in the cliff and floor regimes, the dominant therapeutic modality is not any drug or supplement but rather the prevention of the next damaging event: infection prevention (masking, antivirals), sensory environment control (darkness, silence), and strict elimination of all avoidable physiological stressors. This is consistent with existing clinical practice for this population but provides the biophysical justification.
+
+*Falsifiable prediction:* In a matched cohort, the ratio of 5-year trajectory benefit (event-sparing vs.\ event-exposed) should increase with decreasing $B$, with the steepest increase in the cliff regime and a plateau in the floor regime.
+] <hyp:damage-prevention-dominance>
+
+#speculation(title: [Rate-of-Change Biomarker: $d B\/d t$ as Primary Outcome for Extremely Severe Patients])[
+Since functional milestones are separated by very long time intervals at the bottom of the scale (floor regime, Table @tab:recovery-regimes), threshold-crossing outcomes are insensitive. The model suggests that the instantaneous rate of recovery $d B\/d t$ is the informative quantity:
+$
+d B \/ d t = r(B) dot.op frac([upright("ATP")], K_upright("repair") + [upright("ATP")]) dot.op (B_max - B(t))
+$
+At low $B$, $d B\/d t$ is small but nonzero if the patient is improving. A composite "recovery rate index" derived from the slopes of 3--5 biomarkers (HRV trend, cytokine decline rate, oxidative marker reduction rate) could serve as a surrogate endpoint for clinical trials in this population. _(Certainty: 0.40.)_
+
+*Falsifiable prediction:* In a 12-month study of $gt.eq 15$ extremely severe patients receiving consistent supportive care, a composite biomarker slope should be positive in $gt.eq 50%$ of patients who show no detectable functional change.
+] <spec:recovery-rate-index>
+
+#speculation(title: [Therapeutic Threshold: A Minimum $B$ Below Which Standard Repair Is Impractically Slow])[
+In the floor regime ($B lt.eq B_upright("collapse")$), the recovery time per band is approximately constant: $T_upright("band") approx w dot.op K_upright("repair") \/ (r_min dot.op [upright("ATP")]_min)$. If $T_upright("band")$ exceeds a practical observation limit (say 10 years), even one sub-level improvement is undetectable within a clinical timeframe. Whether the floor regime produces recovery times this long depends on the values of $r_min$ and $[upright("ATP")]_min$, which are currently uncalibrated. _(Certainty: 0.35.)_
+
+This does _not_ mean the patient cannot improve---it means that improvement through endogenous repair may be too slow to observe within clinical timeframes. Note the distinction from the floor regime's uniform per-band recovery time: the therapeutic threshold is not a separate regime but rather the question of whether the floor regime's constant $T_upright("band")$ exceeds practical limits. If $T_upright("band") < 10$ years, floor-regime patients recover very slowly but observably; if $T_upright("band") > 10$ years, recovery via endogenous repair is functionally imperceptible and interventions that bypass or dramatically enhance the repair pathway (e.g., by increasing $r_min$) become necessary. These interventions are currently unavailable for ME/CFS.
+
+*Falsifiable prediction:* Falsified if patients at Bell score 0--3 (estimated $B < 0.01$) show functional improvement at rates within an order of magnitude of patients at Bell score 10--15 ($B approx 0.05$) when given the same intervention.
+] <spec:therapeutic-threshold>
+
+#speculation(title: [Repair Starvation Trap: A Secondary Attractor at Very Low $B$])[
+The floor regime reveals a potential positive feedback loop. As $B$ decreases within the floor, repair remains at $r_min$; the patient spends more time at low $B$, during which ongoing chronic damage (ROS, inflammation from Equation @eq:damage-accumulation) continues to erode $B_max$. Below a critical $B_upright("trap")$, the continuous damage rate may exceed the diminished repair capacity even in the absence of discrete events:
+$
+r(B) dot.op frac([upright("ATP")], K_upright("repair") + [upright("ATP")]) dot.op (B_max - B) < k_upright("damage") dot.op [upright("ROS")] + k_upright("immune_damage") dot.op bold(C)_upright("pro") quad forall B < B_upright("trap")
+$
+If this condition holds, the patient is trapped in inexorable decline regardless of event prevention. Escape requires either dramatically reducing chronic damage (aggressive anti-inflammatory intervention), dramatically enhancing $r(B)$, or external input bypassing endogenous repair. _(Certainty: 0.40.)_ Some extremely severe patients decline progressively despite maximally protective environments, consistent with being below $B_upright("trap")$.
+
+*Falsifiable prediction:* Patients at the very bottom of ES-E in maximally protective environments (no discrete events for $gt.eq 12$ months) should still show decline if below $B_upright("trap")$. Falsified if all such patients stabilise or improve.
+] <spec:repair-starvation-trap>
+
+// Note: The ATP floor concept is now incorporated into the piecewise biophysical model
+// as the third regime of Equation @eq:atp-piecewise (floor: B ≤ B_floor, [ATP] ≈ [ATP]_min).
+// The former speculation @spec:atp-floor is subsumed by this formal treatment.
+// The falsifiable prediction (slope change on log-log plot) is captured in the
+// recovery horizon hypothesis @hyp:recovery-horizon.
+
+#limitation(title: [Piecewise Model Limitations])[
+The piecewise recovery model (Equations @eq:atp-piecewise, @eq:repair-piecewise) replaces the earlier linear approximations with biophysically grounded functions, but the regime boundaries ($B_upright("cliff")$, $B_upright("collapse")$) are estimated from worked examples, not measured. The shapes of $phi.alt(B)$ and $psi(B)$ within the cliff regime are qualitatively constrained by the ATP synthase threshold equation and the AMPK/NAD#super[+] competition but not numerically integrated. The extremely severe population is exceptionally difficult to study @Sommerfelt2023NorwaySevere, and validation requires home-visit protocols such as ACHTSAM @Fricke2026achtsam. Numerical integration of the full coupled ODE system (Chapters @ch:energy-metabolism-models through @ch:integrated-systems) with patient-specific parameters would yield precise $tau_upright("rec")(B)$ curves, including the exact location and sharpness of the cliff-to-floor transition.
+]
+
+Each severity transition is a one-way gate _within the ratchet model as formulated_: once $B_max$ drops below a threshold, the inter-event dynamics (Equation @eq:ratchet-interevent) cannot restore it, since $B(t)$ relaxes toward $B_max$ but never exceeds it. Reversal would require mechanisms that increase $B_max$ itself---mitochondrial biogenesis, epigenetic reprogramming, or immune reconstitution---which are outside the current model's scope but could be incorporated as an upward jump map if empirical evidence for such recovery emerges.
 
 ==== Trajectory Classes
 

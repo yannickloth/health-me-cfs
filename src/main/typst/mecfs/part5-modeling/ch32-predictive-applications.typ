@@ -40,6 +40,22 @@ Wearable devices (heart rate monitors, accelerometers, continuous glucose monito
 Personalized pacing optimization requires individual calibration of $E_"budget"$ and its time-varying components. Current clinical practice lacks the routine measurements needed for this calibration (CPET is not widely available, resting metabolic rate is rarely measured). Until these measurements become routine, the pacing model serves as a conceptual framework rather than a clinical tool.
 ]
 
+==== Severity-Stratified Monitoring Strategy
+
+The piecewise recovery scaling (Equation @eq:recovery-scaling, Table @tab:recovery-regimes) predicts that optimal monitoring strategies differ by severity level. At moderate severity (plateau regime), functional milestones (step count, SF-36) change fast enough to track progress directly. At the extremely severe end (floor regime), functional change is extremely slow, requiring a shift to _rate-of-change_ monitoring.
+
+#speculation(title: [Monitoring Strategy Shift by Severity])[
+At moderate severity ($B approx 0.5$), autocorrelation of HRV is the primary early warning signal for approaching transitions (Section @sec:critical-slowing-down). At extremely severe levels, the baseline autocorrelation is already high (because the system's return-to-equilibrium rate is approximately $r_min$ in the floor regime --- very low but approximately constant --- leaving minimal dynamic range for detecting further increases). The model predicts that _variance_-based monitoring (coefficient of variation of resting heart rate) becomes more informative than autocorrelation at the extremely severe end. _(Certainty: 0.30.)_
+
+*Falsifiable prediction:* In $gt.eq 20$ patients spanning moderate to extremely severe, with continuous HR monitoring for $gt.eq 3$ months, the coefficient of variation of resting HR should correlate negatively with $B$.
+] <spec:monitoring-strategy-shift>
+
+#speculation(title: [Cross-Disease Parallel: ICU-Acquired Weakness and Energy-Limited Repair Scaling])[
+ICU-acquired weakness (ICUAW) shares the structural features of extremely severe ME/CFS recovery: (a) the repair machinery itself is damaged, (b) ATP availability limits repair rate, (c) equal-interval functional scales mask quadratically different timescales. The ICU literature addresses this with the Functional Status Score for the ICU (FSS-ICU), which uses logarithmically spaced functional milestones rather than equal intervals---effectively compensating for the nonlinear scaling. The piecewise recovery scaling predicts that _any_ condition where repair depends on the same resource being depleted will show similar nonlinear recovery dynamics at the severe end, potentially unifying extremely severe ME/CFS, ICUAW, severe traumatic brain injury, and advanced sarcopenia under a single mathematical framework. _(Certainty: 0.35.)_
+
+*Falsifiable prediction:* Recovery trajectories from ICUAW, severe TBI, and ME/CFS extremely severe patients, when normalized to a common scale, should all show approximately $1\/B^n$ scaling with $n in [1.5, 2.5]$.
+] <spec:icuaw-parallel>
+
 == Treatment Selection and Optimization
 <sec:treatment-optimization>
 
@@ -356,6 +372,71 @@ The intervention window concept (Equation @eq:intervention-window) and stochasti
 
 #speculation(title: [Chronotherapy for ME/CFS])[
 The oscillation dynamics near Hopf bifurcation (Equation @eq:oscillation-period) suggest that treatment timing within the patient's intrinsic symptom cycle matters. If a patient exhibits a detectable ~4-week symptom cycle, the model predicts that immunomodulatory treatment administered at the nadir of immune activation (trough of the cycle) will be more effective than treatment at the peak, because the system is more susceptible to perturbation when near its unstable equilibrium. This is analogous to chronotherapy in oncology, where cell-cycle-dependent drugs are timed to maximize tumor cell vulnerability. Testing this prediction requires continuous biomarker monitoring to identify individual cycle phases, combined with randomized timing of treatment initiation.
+]
+
+== Novel Predictions: Results That Emerge Only from the Formal Model
+<sec:novel-predictions>
+
+The formal models developed in Chapters @ch:energy-metabolism-models through @ch:causal-hierarchy-formal produce fifteen predictions that range from formalizations of existing clinical intuition (e.g., damage prevention dominance) to genuinely counterintuitive claims (e.g., moderate patients benefiting most from mitochondrial supplements). Some of these predictions require the formal model to derive; others could be stated verbally but gain quantitative precision from the mathematics. None have been prospectively validated. Each is tagged with its biophysical origin equation and grouped by the type of insight it provides.
+
+=== Predictions from the Multiplicative Structure of Metabolism
+
+#key-point(title: [The Multiplicative Cascade: Why Nothing Is Very Abnormal])[
+Metabolic subsystems are arranged _in series_ (glycolysis $arrow.r$ Krebs cycle $arrow.r$ ETC $arrow.r$ ATP synthase). The cascade example (Section @sec:cascade-example) demonstrates that two individually moderate deficits---35% Complex~I impairment and 30% NAD#super[+] depletion---compound multiplicatively to produce 57% ATP reduction and 7-fold ROS elevation: $0.65 times 0.70 = 0.46$, not $0.65 + 0.70 = 1.35$ or $(0.35 + 0.30)\/2 = 0.33$. This resolves the central clinical puzzle of ME/CFS: why patients are profoundly disabled despite no single biomarker being dramatically abnormal. The answer is that modest individual abnormalities _multiply_ through the metabolic pipeline. Mono-omic studies measuring only one domain will systematically underestimate disease burden because they capture one factor in a product, not a sum.
+]
+
+The multiplicative structure has a direct treatment consequence: two interventions targeting _different_ bottlenecks in the series pipeline (e.g., CoQ10 for ETC + nattokinase for oxygen delivery) produce super-additive effects ($cal(S) approx 0.45$, Section @sec:treatment-candidates), while two interventions targeting the _same_ bottleneck (e.g., CoQ10 + NMN, both acting on ETC/NAD#super[+]) show diminishing returns ($cal(S) approx 0.12$). This explains why supplement "stacking" sometimes produces dramatic results and sometimes produces nothing---it depends on whether the stack targets different or identical bottlenecks.
+
+=== Predictions from Threshold Nonlinearities
+
+#key-point(title: [The ATP Synthase Cliff: Treatment Response Depends on Severity in a Non-Obvious Way])[
+The ATP synthase threshold equation (@eq:atp-synthase) creates three distinct clinical populations. (1) _Above the cliff_ ($alpha_upright("CI") > 0.80$, mild impairment): $Delta Psi$ is well above threshold; mitochondrial supplements produce minimal benefit because ATP production is already near-maximal. (2) _On the cliff_ ($alpha_upright("CI") approx 0.60$--$0.70$, moderate impairment): small improvements in Complex~I capacity produce disproportionate ATP gains because $Delta Psi$ is near the threshold where the synthase driving force drops steeply. These patients respond best to mitochondrial support. (3) _Below the cliff_ ($alpha_upright("CI") < 0.50$, severe impairment): $Delta Psi$ is below threshold; the deficit is too large for supplements to bridge. Treatment requires either massive ETC restoration or bypass strategies (e.g., glycolytic support, ketone bodies). The counterintuitive prediction: _moderate_ patients benefit most from CoQ10/NAD#super[+] supplementation, not the most severely impaired.
+]
+
+#key-point(title: [The Biogenesis Paradox: The Repair Signal That Cannot Be Executed])[
+The biogenesis equation (@eq:biogenesis) is a product of two Hill functions with opposing energy dependencies. AMPK activation (sensing energy deficit) says "build new mitochondria." NAD#super[+] depletion (also from energy deficit) blocks SIRT1-mediated PGC-1$alpha$ deacetylation, saying "cannot execute the build order." The result is a non-monotonic hump: biogenesis peaks at intermediate energy deficit (where AMPK is active and NAD#super[+] is still adequate) and _collapses_ at severe deficit (where NAD#super[+] depletion blocks execution). Below the threshold $gamma < 0.7$, the cell receives a maximal "build" signal but cannot act on it. This predicts that ME/CFS patients show elevated phospho-AMPK alongside reduced PGC-1$alpha$ activity---a decoupling signature. NAD#super[+] precursor supplementation should improve biogenesis markers (mtDNA copy number, citrate synthase activity) _before_ improving energy capacity, because it unblocks the rate-limiting step.
+]
+
+The GPR81 lactate feedback (Section @sec:lactate-kinetics) adds a second threshold: when $alpha_upright("CI") < 0.65$, the lactate $arrow.r$ GPR81 $arrow.r$ FFA suppression $arrow.r$ more glycolysis loop gain exceeds unity, producing a _bistable metabolic state_. Patients below this threshold are locked into glycolytic dominance and cannot recover metabolic flexibility with mitochondrial support alone---they require either GPR81 antagonism or medium-chain triglycerides (which bypass CPT-I) in addition.
+
+=== Predictions from Temporal Dynamics
+
+#key-point(title: [Recovery Requires Overshooting the Onset Threshold])[
+The structural hysteresis (Equation @eq:hysteresis-width) means that the separatrix between disease and health is asymmetric. To recover, $alpha_upright("CI")$ must be restored to a level _above_ the value at which disease was triggered---not merely to the trigger value. Correcting biomarkers to pre-illness levels is necessary but _not sufficient_ for recovery. The required overshoot grows with disease duration because epigenetic consolidation progressively widens the hysteresis gap. This explains the persistent clinical frustration: why doesn't normalising the apparent biochemical deficits restore health? The model predicts that interventions producing temporary improvement followed by relapse are landing in the hysteresis gap---past the onset threshold but short of the recovery threshold.
+]
+
+#key-point(title: [The Intervention Window Has a Computable Duration: 3--12 Months])[
+The epigenetic consolidation dynamics (Equation @eq:intervention-window) predict that early disease ($< tau_upright("window")$) and late disease ($> tau_upright("window")$) are qualitatively different problems. Early: the attractor is shallow, recovery requires only crossing the structural separatrix. Late: the attractor is deepened by methylation at disease-state CpG sites, and recovery requires both crossing the separatrix _and_ reversing epigenetic changes on a months-to-years timescale. The window duration $tau_upright("window") approx ln(2) \/ (k_upright("DNMT") dot.op overline(C)_upright("pro"))$ is estimated at 3--12 months. This predicts a step-function-like relationship between disease duration at treatment initiation and treatment response---not a smooth gradient but an inflection where the problem changes character.
+]
+
+The piecewise recovery scaling (Table @tab:recovery-regimes) predicts that the biological shadow---biomarkers improving weeks to months before any functional change is detectable---is an expected feature of the floor regime, not a treatment failure (Hypothesis @hyp:biological-shadow). Damage prevention dominance (Hypothesis @hyp:damage-prevention-dominance) quantifies that a single prevented crash saves months to years of recovery time at severe and extremely severe levels.
+
+=== Predictions from Oscillatory and Stochastic Dynamics
+
+#key-point(title: [Crash Prediction from Wearables: A 24--48 Hour Warning Window])[
+The critical slowing down analysis (Section @sec:critical-slowing-down) predicts specific statistical signatures in wearable data 24--48 hours before a PEM crash: rising lag-1 autocorrelation in resting heart rate, increasing HRV variance, and reduced HRV complexity. These are the generic early warning signals of an approaching bifurcation, applied to the energy envelope threshold. A smartphone app implementing rolling autocorrelation and variance detectors on HRV data could warn patients to reduce activity before the crash occurs. The same signals operating in reverse---paradoxical instability during a stable period---would indicate approaching recovery transition.
+]
+
+The Hopf bifurcation analysis (Section @sec:oscillation-analysis) predicts endogenous symptom oscillations with a period of 2--6 weeks when the system resides near the bifurcation (Equation @eq:oscillation-period). The oscillation period itself encodes disease dynamics: shorter period indicates higher immune--metabolic loop gain (more active disease); lengthening period signals approaching recovery. This transforms a subjective complaint ("my symptoms cycle") into a quantitative biomarker.
+
+The stochastic resonance analysis (Section @sec:stochastic-resonance) predicts that for patients very near the separatrix, a non-zero level of physiological perturbation could in principle maximise spontaneous recovery probability. The optimal perturbation amplitude scales as $sigma^2_upright("optimal") prop sqrt(Delta U \/ g_upright("loop"))$. However, this prediction is in _direct tension_ with the damage prevention dominance result (Hypothesis @hyp:damage-prevention-dominance): the ratchet model predicts that any perturbation carries a risk of irreversible ceiling loss $delta_k$, and the recovery cost of that loss is disproportionately high at lower $B$. The risk-benefit asymmetry is stark---a failed perturbation (crash) causes permanent damage, while a successful one (separatrix crossing) is beneficial but uncertain. In practice, the stochastic resonance prediction applies only to the narrow subpopulation near the separatrix with shallow attractor depth ($Delta U$ small), where the perturbation needed is small enough that ratchet damage risk is negligible. For patients deep in the disease attractor or in the severe/extremely severe range, the damage prevention logic dominates and perturbation is contraindicated. This analysis does _not_ endorse graded activity programs; the perturbations considered are endogenous physiological fluctuations (hormonal cycling, circadian variation), not externally imposed exercise.
+
+=== Predictions from Network Structure
+
+#key-point(title: [Minimum 4--6 Drug Cocktail: A Structural Prediction])[
+Network controllability analysis of the model Jacobian (Section @sec:network-controllability) predicts that _if the model topology is an adequate representation of the real biological network_, the system requires a minimum of 4--6 independent driver nodes for full structural controllability. This is a property of the network topology, independent of parameter values, but dependent on whether the modelled connections are real. Furthermore, full controllability may not be the clinical goal---partial controllability (disrupting one critical feedback loop) might suffice for recovery. The minimum controllable driver sets span distinct subsystems: metabolic + immune + neuroendocrine + autonomic, at minimum. This explains why unselected monotherapy trials consistently show small average effect sizes even for drugs that may be highly effective within the right patient subtype.
+]
+
+=== Predictions from Comorbidity Coupling
+
+The hEDS vascular coupling model (Section @sec:eds-coupling, Equation @eq:eds-vascular) predicts that hypermobile Ehlers-Danlos syndrome imposes a permanent 10--20% reduction in the energy available for activity during upright hours, independent of any mitochondrial or immune dysfunction, purely from the increased sympathetic drive needed to maintain blood pressure against excessive venous pooling ($kappa = 1.5$ vs.\ 1.0 in normal connective tissue). This predicts that hEDS+ME/CFS patients should tend toward greater severity than non-hEDS patients with equivalent mitochondrial and immune profiles, that supine positioning should disproportionately benefit hEDS patients, and that compression garments should expand the energy envelope more in hEDS than in non-hEDS patients. The energy tax is posture-dependent and therefore modifiable---a directly actionable prediction.
+
+=== The Repair Starvation Trap
+
+At the bottom of the severity scale, Speculation @spec:repair-starvation-trap identifies a potential secondary attractor where continuous chronic damage (ROS, inflammation) exceeds the diminished repair capacity even in the absence of discrete damaging events. Below a critical $B_upright("trap")$, patients decline inexorably regardless of crash prevention. This predicts that a subpopulation of extremely severe patients deteriorates despite maximally protective environments---and that recovery from this regime requires interventions that bypass or dramatically enhance the endogenous repair machinery rather than merely preventing further damage.
+
+#limitation(title: [Validation Status of Novel Predictions])[
+None of the fifteen predictions listed here have been prospectively validated in ME/CFS cohorts. The multiplicative cascade, ATP cliff, and biogenesis paradox follow from established biochemistry applied to ME/CFS parameters, but the parameter values themselves are estimated from cross-sectional studies. The temporal predictions (intervention window, hysteresis, CSD) require longitudinal data that do not yet exist. The network controllability analysis depends on the model topology being an adequate representation of the real biological network. These are model-generated hypotheses, not established findings. Their value is that they are _specific_, _falsifiable_, and _derived from biophysics rather than fitting_---each can be tested with existing or near-future methods.
 ]
 
 == Implementation Roadmap

@@ -4701,7 +4701,100 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Quality:* Medium (Healthcare/MDPI; van Campen and Visser are established ME/CFS researchers; Rowe PC adds international credibility)
         - *Study type:* Cross-sectional validation study; single centre (Netherlands)
         - *Limitations:* CPET may underrepresent most severe patients who cannot exercise; severity thresholds may require population-specific adjustment
-    
+
+
+=== Jahanbani et al.\ 2024 — Extremely Severe ME/CFS Longitudinal Case Study
+<sec:bib-jahanbani-severity>
+
+    / *Full Citation:*: Jahanbani F, Sing J, Maynard RD, et al.\ Longitudinal cytokine and multi-modal health data of an extremely severe ME/CFS patient with HSD reveals insights into immunopathology, and disease severity. _Frontiers in Immunology_. 2024;15:1369295.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1369295")[10.3389/fimmu.2024.1369295]
+    / *Published:*: 2024
+    / *Study Design:*: Longitudinal single-patient deep phenotyping case study
+    / *Key Findings:*:
+
+        - Proposed extended severity classification subdividing the very severe range into five extremely severe sub-levels (A through E), with E representing the most profound disability
+        - Demonstrated that patients beyond traditional "very severe" exhibit clinically meaningful differences in functional capacity: ability to communicate, tolerate sensory input, or take nutrition orally
+        - Longitudinal cytokine profiling revealed immunopathological signatures that varied with severity sub-level transitions
+        - Multi-modal health data (cytokines, clinical assessments, functional measures) captured disease evolution at the extreme end of the spectrum that standard four-level scales cannot resolve
+        - The patient's trajectory through sub-levels illustrated that recovery at the extremely severe end produces minimal perceptible improvement despite ongoing biological changes
+
+    / *Relevance to ME/CFS:*: Provides the first systematic framework for classifying extremely severe ME/CFS beyond the standard mild/moderate/severe/very-severe categories. The extended A--E sub-classification is integrated into the ratchet model's severity mapping (Section @sec:ratchet-model, Equation @eq:ratchet-severity-extended). The observation that equal functional gains produce diminishing clinical visibility at lower severity is explained by the model's emergent recovery asymmetry (Equation @eq:recovery-scaling) without requiring an extrinsic nonlinear mapping.
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (Frontiers in Immunology; established ME/CFS research group including R.\ W.\ Davis)
+        - *Study type:* Single-patient longitudinal case study; deep phenotyping with multi-modal data
+        - *Limitations:* $n = 1$; severity sub-level thresholds not validated in cohort study; HSD comorbidity may confound some findings; replication of the classification framework in larger cohorts needed
+
+
+=== Moore et al.\ 2023 — Recovery from Exercise in ME/CFS
+
+    / *Full Citation:*: Moore GE, Keller BA, Stevens J, et al.\ Recovery from Exercise in Persons with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Medicina_. 2023;59(3):571.
+    / *DOI:*: #link("https://doi.org/10.3390/medicina59030571")[10.3390/medicina59030571]
+    / *PMID:*: 36984572
+    / *Published:*: March 2023
+    / *Study Design:*: Prospective cohort study with 2-day CPET protocol
+    / *Sample Size:*: $n = 78$ ME/CFS, $n = 64$ sedentary controls
+    / *Key Findings:*:
+
+        - ME/CFS subjects required mean $12.7 plus.minus 1.2$ days to recover post-CPET versus $2.1 plus.minus 0.2$ days for controls ($p < 0.0001$)
+        - Recovery range in ME/CFS: 1--64 days; approximately 7--8% required 1--2 months; one subject did not recover after one year
+        - Pharmacokinetic modelling confirmed extremely prolonged decay of PEM response
+        - *Critical null result:* no significant difference in recovery time across ME/CFS baseline symptom severity levels ($F = 1.12$, $p = 0.33$)
+
+    / *Relevance to ME/CFS:*: The null severity--recovery-time result constrains interpretation of the piecewise recovery scaling prediction (Equation @eq:recovery-scaling, Table @tab:recovery-regimes). The prediction applies to _within-person_ dynamics (how recovery time changes as a single patient's $B$ evolves), not _between-person_ cross-sectional comparisons where inter-individual parameter variation dominates. Additionally, CPET exclusion of the most severe patients truncates the severity range over which the scaling would be most pronounced.
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (standardized 2-day CPET protocol, Canadian Consensus Criteria)
+        - *Study type:* Prospective cohort; moderate sample size
+        - *Limitations:* Post-CPET activity not monitored; SSS forms collected only through day 10; exclusion of one non-recovering subject; severity measured by self-reported symptom burden rather than objective functional grading
+
+
+=== Sommerfelt, Schei & Angelsen 2023 — Severe and Very Severe ME/CFS in Norway
+
+    / *Full Citation:*: Sommerfelt K, Schei T, Angelsen A.\ Severe and Very Severe Myalgic Encephalopathy/Chronic Fatigue Syndrome ME/CFS in Norway: Symptom Burden and Access to Care. _Journal of Clinical Medicine_. 2023;12(4):1487.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm12041487")[10.3390/jcm12041487]
+    / *PMID:*: 36836022
+    / *Published:*: February 2023
+    / *Study Design:*: Cross-sectional survey
+    / *Sample Size:*: $n = 586$ (47 very severe, 444 severe, 95 severe-moderate)
+    / *Key Findings:*:
+
+        - Among very severe patients: 17% tube-fed, 43% had swallowing problems, 60% could not tolerate normal speech volume, 77% could not tolerate indoor lighting
+        - 46 of 47 very severe patients never left the house; 76% never had visitors
+        - Provides the most granular empirical characterisation of functional capacity at the extreme end currently available in peer-reviewed literature
+        - Demonstrates enormous heterogeneity within the "very severe" category, supporting finer-grained sub-classification
+
+    / *Relevance to ME/CFS:*: The functional milestone data (tube feeding, sensory tolerance, communication capacity) provide candidate anchors for calibrating the extremely severe sub-level thresholds ($theta_upright("es")$ and band width $w$) in the extended ratchet severity model (Equation @eq:ratchet-severity-extended).
+    / *Certainty Assessment:*:
+
+        - *Quality:* Medium (large survey, peer-reviewed JCM)
+        - *Study type:* Internet-based survey; self-reported diagnosis
+        - *Limitations:* Selection bias toward patients who can access internet; proxy-reported data for most severe patients; standard four-tier ICC classification used (no additional sub-levels proposed)
+
+
+=== Sommerfelt et al.\ 2024 — FUNCAP Functional Capacity Questionnaire
+
+    / *Full Citation:*: Sommerfelt K, Schei T, Seton KA, Carding SR.\ Assessing Functional Capacity in Myalgic Encephalopathy/Chronic Fatigue Syndrome: A Patient-Informed Questionnaire. _Journal of Clinical Medicine_. 2024;13(12):3486.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm13123486")[10.3390/jcm13123486]
+    / *PMID:*: 38930014
+    / *Published:*: June 2024
+    / *Study Design:*: Instrument development and validation study (6-round iterative)
+    / *Sample Size:*: $n = 1{,}263$ Norwegian + $n = 1{,}387$ international validation
+    / *Key Findings:*:
+
+        - Developed FUNCAP55 and FUNCAP27---the first ME/CFS-specific functional capacity instrument designed to avoid floor and ceiling effects across the full severity spectrum
+        - Eight functional domains including light/sound sensitivity and basic functions (washing, eating)
+        - Negligible floor/ceiling effects in both cohorts, including very severe patients
+        - Test-retest reliability validated ($n = 301$)
+        - Authors explicitly state FUNCAP captures capacity "in both mild and very severe ME/CFS patients"
+
+    / *Relevance to ME/CFS:*: FUNCAP addresses the measurement gap that limits validation of the extended severity classification. Generic instruments (SF-36, Karnofsky) exhibit severe floor effects at the extremely severe end, making longitudinal tracking of within-person recovery impossible. FUNCAP's sensitivity across the full spectrum is a prerequisite for empirical testing of the piecewise recovery scaling prediction (Equation @eq:recovery-scaling, Table @tab:recovery-regimes).
+    / *Certainty Assessment:*:
+
+        - *Quality:* High (large samples, iterative validation, test-retest)
+        - *Study type:* Instrument development; psychometric validation
+        - *Limitations:* Self-reported diagnosis without medical record verification; proxy-response bias for most severe patients; no comparison against objective functional measures (actigraphy, CPET)
+
 
 === Heng et al.\ 2025 — Mapping the Complexity of ME/CFS
 
