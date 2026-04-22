@@ -2165,7 +2165,7 @@ Motivated by: integration of Bergen Giardia outbreak evidence (Wensaas 2012, 201
     [Bergen Biobank Recontact: Cross-Sectional Multi-Biomarker Study],
     [OQ], [---],
     [GPCR autoantibody panels, duodenal epigenetic profiles, small intestinal microbiome, serum tryptase, and secretory IgA levels differ between Bergen PI-CFS patients and matched non-CFS exposed controls; results correlate with ME/CFS development status.],
-    [Recontact study: serum GPCR autoantibodies, duodenal biopsy H3K4me3 ChIP-seq, small-bowel microbiome, serum tryptase, sIgA. Cohort already characterised; recontact logistically feasible at low marginal cost.],
+    [Recontact study: serum GPCR autoantibodies, duodenal biopsy H3K4me3 ChIP-seq, small-bowel microbiome, serum tryptase, sIgA. Cohort already characterized; recontact logistically feasible at low marginal cost.],
     [Ch.7 @oq:bergen-biobank-recontact],
 
     [Cryptosporidium Long-Term Cohort: Generalising Beyond Giardia],
@@ -3810,5 +3810,103 @@ Motivated by: Zhao et al.\ 2026 exercise meta-analysis @Zhao2026exercise; BRANDO
   kind: table,
 ) <tab:hypothesis-registry-2026-04-21-exercise-blinding>
 // Open questions: oq:blinding-adjusted-policy (Ch.24), oq:next-gen-exercise-trial (Ch.21), oq:bayesian-bias-correction (Ch.26)
+] // end landscape page
+
+=== Entries Added 2026-04-21: Piecewise Recovery Scaling and Extended Severity Classification
+
+Motivated by: Jahanbani et al.\ 2024 @Jahanbani2024severity — extended extremely severe A--E classification; analysis of emergent piecewise biophysical recovery dynamics (Equations @eq:atp-piecewise, @eq:repair-piecewise) from coupled ODE system.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Piecewise Recovery Scaling: Cliff and Floor Regimes at Severe/Extremely Severe Levels],
+    [P], [0.45],
+    [Recovery time $tau_"rec"(B)$ follows three biophysically distinct regimes: plateau ($B > 0.65$), cliff ($0.10 < B lt.eq 0.65$, steep rise from ATP synthase threshold), floor ($B lt.eq 0.10$, constant-high from collapsed repair). (a) Log-log plot of recovery time vs $B$ shows two slope changes (cliff steepening, floor flattening). (b) In floor regime, ES-C/D/E show similarly slow improvement per band. (c) Patients at ES-D/E show biological improvement (cytokine normalisation, HRV recovery) weeks before perceptible functional gain.],
+    [Longitudinal functional capacity monitoring with wearables in extremely severe patients (Bell score $lt.eq$ 10) over $gt.eq 12$ months. Paired biological markers + functional assessment at monthly intervals. Jahanbani 2024 $n = 1$ trajectory consistent; cohort validation needed. ACHTSAM pilot @Fricke2026achtsam may provide severity-tolerant protocol.],
+    [Ch.31 @eq:recovery-scaling],
+
+    [Extended Severity Classification: Clinically Distinct Sub-Levels Within Very Severe ME/CFS],
+    [H], [0.40],
+    [The very severe range ($B lt.eq 0.15$) contains clinically distinguishable sub-levels (VS + ES-A through ES-E) that map to discrete functional milestones: oral nutrition capacity, sensory tolerance, communication ability, independent repositioning. (a) Clinician-rated sub-level assignments show inter-rater reliability $kappa gt.eq 0.6$. (b) Sub-levels correlate with objective measures (HRV, cytokine panels, activity actigraphy). (c) Transitions between sub-levels predict treatment response timescale.],
+    [Jahanbani 2024 proposed the A--E framework for $n = 1$. Cohort validation requires home-visit protocols (ACHTSAM model). Inter-rater reliability study feasible with trained assessors + video-recorded assessments. No cohort study exists.],
+    [Ch.31 @eq:ratchet-severity-extended],
+  ),
+  caption: [Entries added 2026-04-21: Piecewise recovery scaling prediction and extended severity classification for extremely severe ME/CFS.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-21-severity-scaling>
+] // end landscape page
+
+=== Entries Added 2026-04-21: Consequences of Piecewise Recovery Scaling
+
+Motivated by: creative synthesis of piecewise biophysical recovery scaling implications (Equations @eq:atp-piecewise, @eq:repair-piecewise, Table @tab:recovery-regimes); integration with Jahanbani A--E classification @Jahanbani2024severity and ratchet model dynamics (Ch.31).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Biological Shadow: Biomarkers Improve Before Function],
+    [H], [0.50],
+    [At ES-D/E, blood biomarkers (8-OHdG, cfmtDNA, cytokines, HRV) improve weeks to months before detectable functional gain. In the piecewise model, the lag grows steeply through the cliff regime and plateaus at a high constant in the floor regime. At moderate severity, biomarkers and function improve approximately in parallel.],
+    [Longitudinal paired biomarker + functional assessment in $gt.eq 20$ extremely severe patients over $gt.eq 12$ months. ACHTSAM protocol @Fricke2026achtsam + FUNCAP @Sommerfelt2024FUNCAP. Jahanbani 2024 $n=1$ consistent.],
+    [Ch.31 @hyp:biological-shadow],
+
+    [Recovery Horizon: Computable Patience Metric],
+    [H], [0.45],
+    [In the floor regime, per-band recovery cost is approximately constant and very high (Table @tab:recovery-regimes). In the cliff regime, cost rises steeply with decreasing $B$. Standard 3--6 month trial endpoints systematically miss genuine improvement at ES-C and below.],
+    [Within-person longitudinal tracking across severity bands. Log-log recovery-time vs $B$ plot should show slope steepening in cliff regime and flattening in floor regime; pure power-law ($tau_"rec" prop 1\/B^n$ with constant $n$) is falsified by the piecewise biophysics.],
+    [Ch.31 @hyp:recovery-horizon],
+
+    [Damage Prevention Dominance Below Severe Threshold],
+    [H], [0.55],
+    [In cliff and floor regimes, PEM crash recovery takes months to years while the crash itself is acute. Event prevention outperforms any repair-enhancing intervention by orders of magnitude at ES-C and below.],
+    [Matched cohort: event-sparing vs event-exposed. Trajectory benefit ratio should increase with decreasing $B$ through the cliff regime and plateau in the floor regime.],
+    [Ch.31 @hyp:damage-prevention-dominance],
+
+    [Therapeutic Threshold: Minimum $B$ for Standard Repair],
+    [S], [0.35],
+    [$B_"crit" approx 0.009$: below this, one sub-level improvement via ATP-dependent repair takes $> 10$ years. Recovery requires repair-bypassing interventions (mitochondrial transplant, stem cells).],
+    [Compare improvement rates at Bell 0--3 vs Bell 10--15 with same intervention. Falsified if rates within one order of magnitude.],
+    [Ch.31 @spec:therapeutic-threshold],
+
+    [Repair Starvation Trap: Secondary Attractor at Very Low $B$],
+    [S], [0.40],
+    [$exists B_"trap"$: below it, chronic damage exceeds repair even without discrete events. Patients decline despite maximal protective environment.],
+    [Track extremely severe patients in controlled environments ($gt.eq 12$ months no events). Continued decline $=$ consistent. Stabilisation/improvement $=$ falsified.],
+    [Ch.31 @spec:repair-starvation-trap],
+
+    [ATP Floor Modifies Scaling Law],
+    [S], [0.40],
+    [Minimum viable $["ATP"]_min$ causes $tau_"rec"$ to plateau rather than diverge in the floor regime. Log-log recovery-time vs $B$ plot shows slope change at the cliff-to-floor transition.],
+    [Within-person longitudinal data spanning ES-A through ES-E. Slope change detection requires $gt.eq 3$ data points below transition.],
+    [Ch.31 @eq:atp-piecewise],
+
+    [ICU-Acquired Weakness: Energy-Limited Repair Scaling Parallel],
+    [S], [0.35],
+    [ICUAW, severe TBI, advanced sarcopenia share $1\/B^n$ scaling ($n in [1.5, 2.5]$). Unifying "energy-limited repair" framework.],
+    [Cross-condition normalised recovery trajectory comparison. FSS-ICU log-spacing is indirect evidence. Formal $n$ estimation needed.],
+    [Ch.32 @spec:icuaw-parallel],
+
+    [Repair Multiplier Priority at Extremely Severe End],
+    [S], [0.40],
+    [In floor regime, $r_min$ is the dominant bottleneck; doubling $r_min$ halves a recovery time that is months-to-years, producing orders-of-magnitude more absolute benefit than the same doubling at moderate severity. NAD#super[+] precursors, urolithin A, growth hormone warrant severity-stratified investigation.],
+    [RCT of NR/NMN stratified by severity. Relative biomarker improvement at ES vs moderate. Falsified if relative improvement equal across strata.],
+    [Ch.14a @spec:repair-multiplier],
+  ),
+  caption: [Entries added 2026-04-21: Consequences of piecewise recovery scaling for clinical management, monitoring, and model extensions.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-21-scaling-consequences>
 ] // end landscape page
 
