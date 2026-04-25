@@ -300,3 +300,13 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/18586181/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Allen2008childbearing — CFS women childbearing years clinical review midwifery guidelines |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12468137/ | pmc | 2026-04-25 | 2026-04-25 | bib/appendix-h — Compton2025endometriosis — endometriosis ME/CFS meta-analysis OR=2.79 13 studies |
 | https://pubmed.ncbi.nlm.nih.gov/37234076/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Pollack2023reproductiveHealth — female reproductive health Long COVID ME/CFS POTS literature review |
+| https://pubmed.ncbi.nlm.nih.gov/30177236/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — MeltzerBrody2018brexanolone — Lancet phase 3 RCT brexanolone n=246 PPD proof-of-concept allopregnanolone GABA-A |
+| https://pubmed.ncbi.nlm.nih.gov/32435663/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — MeltzerBrodyKanes2020allopregnanolone — allopregnanolone PPD pathophysiology review GABA-A HPA anti-inflammatory |
+| https://pubmed.ncbi.nlm.nih.gov/31345741/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — SzekeresBartho2019progestogens — progestogens immunology review PIBF Th2 NK suppression Treg |
+| https://pubmed.ncbi.nlm.nih.gov/19371956/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Raghupathy2009PIBF — PIBF cytokine shift n=72 IL-4 IL-10 Th2 in vitro recurrent miscarriage |
+| https://pubmed.ncbi.nlm.nih.gov/30604567/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Hierweger2019progesteroneT — progesterone T-cell GR-dependent Treg enrichment in vitro murine |
+| https://pubmed.ncbi.nlm.nih.gov/16406399/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — AndreenBackstrom2006pharmacokinetics — oral progesterone PK n=8 allopregnanolone prodrug 20 mg |
+| https://pubmed.ncbi.nlm.nih.gov/22393359/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Zhao2012continuousProgesterone — continuous vs cyclic progesterone receptor downregulation hippocampus rats |
+| https://pubmed.ncbi.nlm.nih.gov/19272715/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — AndreenBackstrom2009negMood — allopregnanolone biphasic GABA-A paradoxical anxiogenic low dose PMDD |
+| https://pubmed.ncbi.nlm.nih.gov/15142269/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Gur2004fibromyalgiaHormones — progesterone null result n=176 fibromyalgia CFS HPG axis normal |
+| https://pubmed.ncbi.nlm.nih.gov/15588275/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Cevik2004CFShormones — progesterone null result n=43 CFS both menstrual phases HPG normal |

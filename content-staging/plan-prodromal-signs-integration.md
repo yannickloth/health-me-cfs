@@ -150,3 +150,20 @@ resume from Phase 2.
 - Cross-reference `@sec:prodromal-recognition` resolves
 - Hypothesis registry entries consistent with new content
 - Review convergence: zero findings across all three review types
+
+---
+
+## Follow-Up Topic: Chronic Sleep Insufficiency as Causal Mechanism (ch15)
+
+**Not a marker — a mechanism.** The Collin 2018 data shows children sleeping less for 4-7 years before ME/CFS. This needs a dedicated section arguing the CAUSAL pathway:
+
+1. Mitochondrial repair happens during deep sleep → less sleep = less repair = progressive mito damage
+2. Glymphatic clearance requires sustained sleep → fragmented sleep = waste accumulation (Xie 2013, Hauglund 2025)
+3. Chronic partial sleep deprivation drives inflammation (IL-6, TNF-α, CRP) → further impairs mito function
+4. Compound interest effect: invisible daily damage × years = depleted reserve when trigger arrives
+
+**Target:** New subsection in ch15 (sleep/symptom-producing mechanisms): "Chronic Sleep Insufficiency as Progressive Metabolic Reserve Erosion"
+
+**Cross-references needed:** @sec:prodromal-recognition (ch05), @sec:architecture-c-metabolic-reserve (ch14d), @sec:ch15-ne-vasomotion (existing glymphatic content)
+
+**Execute via:** `/integrate-topic` in a fresh session (research the causal sleep-deprivation → inflammation → mitochondrial damage pathway specifically)
