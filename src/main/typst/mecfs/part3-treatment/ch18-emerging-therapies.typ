@@ -2071,3 +2071,144 @@ _Certainty: 0.25._ The Long COVID carotid body sensitisation data are from a sma
 ] <spec:carotid-body-mecfs>
 
 *Evidence grade*: E (no ME/CFS data); D (Long COVID proof-of-concept study only). Research priority: replicate carotid body sensitivity measurement in ME/CFS cohorts.
+
+== Neurosteroid Axis Interventions
+<sec:neurosteroid-axis-mecfs>
+
+The pregnancy-improvement signal in ME/CFS (@Schacterle2004pregnancy; approximately 30% of patients improve during gestation) motivates a series of related pharmacological hypotheses centered on the progesterone–allopregnanolone–GABA-A axis. These are distinct from the primary bridge-therapy hypothesis introduced in @spec:micronized-progesterone-bridge (Chapter @ch:epidemiology-outcomes); this section covers dosing schedule optimization, oral neurosteroid analogs, upstream precursors, and combination approaches that extend that hypothesis.
+
+#warning-env(title: [Research-Stage Section: No ME/CFS Trial Data Exist])[
+Every pharmacological idea in this section is research-stage only. The progesterone–neurosteroid axis has not been evaluated in any controlled trial in ME/CFS. All mechanistic rationales are built on indirect evidence chains (pregnancy immunology, postpartum depression trials, preclinical pharmacology). These are not clinical recommendations.
+
+Women with a history of thromboembolic disease, hormone-sensitive cancers, unexplained vaginal bleeding, or severe hepatic dysfunction should not receive progesterone-based interventions. All interventions require specialist supervision (reproductive endocrinology or gynecology).
+]
+
+=== Cycle-Synchronized Oral Micronized Progesterone
+<subsec:cycle-synchronized-progesterone>
+
+The main bridge-therapy speculation (@spec:micronized-progesterone-bridge) describes continuous or broadly cyclic progesterone dosing. A more targeted refinement: synchronize progesterone administration to the patient's existing luteal phase rather than applying a fixed calendar schedule.
+
+#speculation(title: [Cycle-Synchronized Luteal-Phase Progesterone as a Precision Dosing Strategy])[
+*Certainty: 0.30.* Continuous oral progesterone downregulates progesterone receptors, abolishing neurosteroid and neuroprotective gene expression profiles in animal models @Zhao2012continuousProgesterone. Arbitrary cyclic schedules (e.g., days 15–28 of a calendar month) may misalign with the patient's actual ovulatory cycle. A more pharmacologically rational approach would synchronize administration with the patient's documented luteal phase: begin oral micronized progesterone at confirmed ovulation (LH surge) and continue for 10–14 days, followed by complete cessation.
+
+Rationale: allopregnanolone produced from oral micronized progesterone @AndreenBackstrom2006pharmacokinetics exhibits a biphasic GABA-A dose-response — low concentrations paradoxically worsen anxiety, whereas concentrations above a threshold produce tonic inhibition analogous to the pregnancy milieu @AndreenBackstrom2009negMood. Synchronized luteal-phase dosing aims to reach and maintain suprathreshold concentrations during the phase when the patient's existing hormonal environment is most permissive.
+
+*Testable predictions:*
+- In a crossover trial, luteal-phase-synchronized oral micronized progesterone 200 mg nightly will reduce PSQI scores more than a fixed calendar schedule (days 15–28) in women with documented cycle-phase symptom worsening
+- Allopregnanolone serum concentrations will be higher and more stable in the synchronized arm
+
+*Safety note:* Requires LH testing (urine OPK or serum) to confirm ovulation timing; patients with anovulatory cycles cannot use this protocol. Monitoring for paradoxical anxiety worsening is mandatory across the first two cycles.
+] <spec:cycle-synchronized-progesterone>
+
+=== PPD Trial Methodology as a Template for ME/CFS Research
+<subsec:ppd-methodology-transfer>
+
+The postpartum depression (PPD) allopregnanolone replacement trials established a methodological template directly relevant to postpartum-onset ME/CFS.
+
+#speculation(title: [Postpartum-Onset ME/CFS as a Neurosteroid Withdrawal Subtype Amenable to Trial Methodology from PPD Research])[
+*Certainty: 0.30.* The brexanolone (IV synthetic allopregnanolone, Lancet phase 3 RCTs, $n = 246$) @MeltzerBrody2018brexanolone and oral neurosteroid analog (zuranolone, 14-day course) PPD trials validated rapid-onset endpoints, allopregnanolone dose-response characterization, and patient selection by postpartum timing. These trial design elements are directly transferable to a postpartum ME/CFS cohort given that: (1) postpartum-onset ME/CFS shares the allopregnanolone withdrawal trigger (@spec:allopregnanolone-postpartum), (2) the same 60-hour IV and 14-day oral endpoints could be adapted for ME/CFS fatigue scales rather than depression rating scales, and (3) postpartum timing provides a natural inclusion criterion that enriches for the neurosteroid-withdrawal mechanism.
+
+A 14-day oral neurosteroid analog pulse in postpartum-onset ME/CFS (within 12 months of delivery) represents the highest-feasibility trial design for the neurosteroid hypothesis: it targets the subgroup most likely to have the mechanism, uses an approved drug with established safety data, and requires a short observation window.
+
+*Testable prediction:* A 14-day oral neurosteroid pulse in postpartum-onset ME/CFS within 12 months of delivery will produce ≥ 30% reduction in DSQ-PEM score at day 28, at a rate exceeding non-postpartum-onset ME/CFS controls receiving the same protocol.
+
+*Limitations:* PPD endpoints (Hamilton Depression Rating Scale change) are not validated for ME/CFS fatigue; trial design adaptation requires ME/CFS outcome validation work first. The IV brexanolone proof of concept does not translate directly to oral chronic dosing in a different condition.
+] <spec:ppd-methodology-transfer>
+
+=== Upstream Neurosteroid Precursors
+<subsec:neurosteroid-precursors>
+
+Two upstream precursors to the allopregnanolone pathway warrant investigation as lower-risk alternatives to direct progesterone administration.
+
+#speculation(title: [Pregnenolone as a Substrate-Level Approach to Neurosteroid Enhancement])[
+*Certainty: 0.25.* Pregnenolone is the direct upstream precursor of both progesterone and allopregnanolone (and DHEA). As an over-the-counter supplement in many jurisdictions, it offers a lower hormonal side-effect profile than micronized progesterone while providing substrate for endogenous neurosteroid synthesis. The approach depends on intact downstream 5α-reductase and 3α-HSD activity.
+
+Potential advantage over progesterone: the body distributes pregnenolone across multiple downstream pathways according to enzymatic capacity and hormonal milieu, potentially avoiding the supraphysiological progesterone concentrations that carry thromboembolic and breast-cancer risks with long-term use.
+
+*Testable prediction:* Pregnenolone 50–500 mg/day × 8 weeks will increase serum allopregnanolone in ME/CFS women; response will correlate with baseline 5α-reductase activity as proxied by the 5α/5β androgen metabolite ratio in urine.
+
+*Safety note:* Pregnenolone can shift downstream toward androgenic metabolites in some individuals (acne, hirsutism, DHEA-mediated androgenization). Monitor accordingly. Contraindicated with hormone-sensitive conditions.
+] <spec:pregnenolone-mecfs>
+
+#speculation(title: [DHEA-S-Stratified Supplementation in ME/CFS])[
+*Certainty: 0.25.* A subset of ME/CFS patients show low dehydroepiandrosterone sulfate (DHEA-S) relative to age-matched controls. DHEA is a precursor to both androgens and estrogens and modulates neurosteroid balance indirectly. Stratified supplementation — restricted to patients with baseline DHEA-S below the age-adjusted 25th percentile — avoids the primary failure mode of untargeted hormonal supplementation in ME/CFS (overtreatment of patients with normal or elevated baseline).
+
+*Testable prediction:* ME/CFS patients with baseline DHEA-S below the age-adjusted 25th percentile will show greater improvement in FUNCAP score on DHEA 25–50 mg/day × 12 weeks than those with baseline-normal DHEA-S (expected effect size difference > 0.3 SD).
+
+*Safety note:* Monitor DHEA-S, testosterone, and estradiol levels at 4 and 12 weeks. Androgenic side effects (acne, hair changes) may require dose reduction. Not for use in patients with hormone-sensitive cancers.
+] <spec:dhea-s-stratified>
+
+=== Severity-Tiered Neurosteroid Bridge Protocol
+<subsec:severity-tiered-neurosteroid>
+
+For patients and clinicians considering neurosteroid-axis interventions, an evidence-stratified severity tiering reduces intervention burden and minimizes harm in those least able to tolerate side effects.
+
+#speculation(title: [Severity-Tiered Approach to Neurosteroid Axis Interventions])[
+*Certainty: 0.30 (as a protocol design principle).* Given that progesterone-based interventions carry non-trivial risks (sedation, thromboembolic, mood dysregulation) and require gynecological monitoring infrastructure, the appropriate intervention scales with functional capacity and access to supervision.
+
+Proposed tiers (research-stage, not clinical recommendation):
+
+*Mild (FUNCAP ≥ 60):* Magnesium glycinate (400 mg/day) + pyridoxal-5-phosphate (50 mg/day, luteal phase only) (@subsec:cycle-synced-pacing); track cycle-phase symptoms for three cycles; consider pregnenolone (50 mg/day luteal-only) trial if luteal worsening replicates. Specialist assessment is still advisable for any chronic supplementation; this tier does not involve prescription hormones.
+
+*Moderate (FUNCAP 30–60):* Above, plus: biomarker pre-screening (serum allopregnanolone and progesterone at cycle days 7 and 21; assess conversion capacity); if conversion capacity confirmed adequate, luteal-phase oral micronized progesterone trial (100 mg nightly for 10–14 days per cycle) under gynecologist supervision; start low and titrate over 2–3 cycles.
+
+*Severe (FUNCAP < 30):* Bedside-deliverable only. Oral progesterone at home requires a clinician available for remote monitoring — not currently standard of care. IV neurosteroid analogs (brexanolone) are contraindicated by the hospitalization requirement, which is incompatible with severe ME/CFS environmental sensitivities. At this tier, the neurosteroid axis hypothesis is a *research priority* rather than a clinical option.
+
+*Falsifiable prediction:* In a factorial trial, patients assigned to the severity-appropriate tier will show higher response rates than patients assigned to a uniform protocol ignoring functional capacity.
+
+*Limitation:* FUNCAP thresholds are illustrative; validated cut-points for intervention selection do not yet exist in ME/CFS.
+] <spec:severity-tiered-neurosteroid>
+
+=== Oral Neurosteroid Analogs: Ganaxolone and Zuranolone
+<subsec:oral-neurosteroid-analogs>
+
+Two FDA-approved oral neurosteroid analogs avoid the hormonal side effects of progesterone while delivering GABA-A neurosteroid signaling.
+
+#speculation(title: [Ganaxolone as a Hormonally Inert Oral Allopregnanolone Analog])[
+*Certainty: 0.20.* Ganaxolone (approved for CDKL5 deficiency disorder) is an oral allopregnanolone analog with a 3β-methyl substitution that prevents back-conversion to progesterone, eliminating hormonal activity. It is a positive allosteric modulator of both synaptic and extrasynaptic GABA-A receptors, with selectivity for the α4βδ extrasynaptic subtype at low concentrations.
+
+If the allopregnanolone route accounts for the HPA-calming, sleep-improving, and anti-inflammatory effects proposed in @spec:micronized-progesterone-bridge, ganaxolone would deliver those effects without progesterone receptor activation — removing the hormonal risks (thromboembolic, endometrial, breast) and the requirement for intact 5α-reductase conversion. Access is the primary barrier: ganaxolone is not approved for ME/CFS, carries significant off-label prescribing barriers, and is expensive.
+
+*Testable prediction:* Ganaxolone 600–1800 mg/day × 4 weeks will improve PSQI sleep score and reduce PEM frequency in ME/CFS patients with documented low baseline allopregnanolone; patients with normal baseline allopregnanolone will show no effect.
+
+*Limitation:* No ME/CFS data; approved only for a pediatric epilepsy syndrome; access outside clinical trials is very limited.
+] <spec:ganaxolone-mecfs>
+
+#speculation(title: [Zuranolone Pulse Therapy in Postpartum-Onset ME/CFS])[
+*Certainty: 0.25 (postpartum-onset subgroup); lower in non-postpartum onset.* Zuranolone (Zurzuvae) is an FDA-approved oral neurosteroid positive allosteric GABA-A modulator, indicated as a 14-day once-daily course for postpartum depression. It is structurally related to brexanolone @MeltzerBrody2018brexanolone but orally bioavailable, with a short-course design that avoids receptor downregulation concerns.
+
+The postpartum-onset ME/CFS subgroup — where abrupt neurosteroid withdrawal after delivery may trigger or worsen the disease (@spec:allopregnanolone-postpartum) — is the highest-prior-probability target for a zuranolone pulse trial. The 14-day course design maps naturally to a postpartum window of treatment and avoids chronic dosing pitfalls.
+
+*Testable prediction:* A 14-day zuranolone course (50 mg/day) in postpartum-onset ME/CFS within 12 months of delivery will produce > 30% reduction in DSQ-PEM at day 28, with sustained effect at day 90.
+
+*Limitation:* Zuranolone causes sedation (usually favorable in ME/CFS but impairs daytime function), dizziness, and falls risk; driving should be avoided during treatment. No ME/CFS data. Effect may not generalize to non-postpartum onset.
+] <spec:zuranolone-mecfs>
+
+=== Cross-Disease Cautionary Lesson: TBI Progesterone Trials
+<subsec:tbi-progesterone-lesson>
+
+#warning-env(title: [Translational Failure Lesson: Progesterone in Traumatic Brain Injury])[
+Multiple large phase 3 trials of progesterone in traumatic brain injury (TBI) — PROTECT III and SYNAPSE — failed despite strong preclinical evidence and compelling early-phase signals. Progesterone demonstrated neuroprotection in rodent TBI models, and phase 2 trials showed promising survival and functional recovery signals. Both phase 3 trials (each enrolling hundreds of patients) found no benefit over placebo.
+
+The ME/CFS community should note several methodological lessons from this failure:
+
+- *Translation from animal models is unreliable at the best of times.* Progesterone's preclinical benefits were robust and replicated; they did not translate. Any ME/CFS preclinical or indirect mechanistic evidence for progesterone carries this caveat.
+- *Patient heterogeneity matters.* TBI trials enrolled heterogeneous injury severities; ME/CFS trials must stratify by subtype (immune-driven vs. metabolic vs. neurological) to avoid averaging out mechanism-specific responders.
+- *Timing and dose may define success.* TBI progesterone failure may reflect wrong timing relative to injury cascade. ME/CFS trials must carefully specify timing (postpartum-onset window, cycle phase) and dose (avoid biphasic zone per @AndreenBackstrom2009negMood).
+- *Negative lessons have value.* Documenting this cautionary analogy prevents premature optimism about ME/CFS progesterone trials.
+
+This lesson does not rule out progesterone in ME/CFS — the mechanisms are entirely different (neurosteroid immune modulation vs. neuroprotection) — but it establishes the translational risk as real and documented.
+]
+
+=== LDN + Progesterone Combination
+<subsec:ldn-progesterone-combination>
+
+#speculation(title: [Low-Dose Naltrexone and Cyclic Micronized Progesterone as a Non-Overlapping Combination])[
+*Certainty: 0.20.* Low-dose naltrexone (LDN, 1.5–4.5 mg/day) modulates microglia and TLR4 signaling via the non-opioid LDN mechanism. Oral micronized progesterone operates via GABA-A neurosteroid signaling and PIBF-mediated immune modulation. The mechanisms are pharmacologically non-overlapping: LDN does not meaningfully affect GABA-A or progesterone receptors; progesterone does not affect TLR4 or opioid receptor pathways. This non-overlap raises the hypothesis that the combination could produce additive (not antagonistic) effects in moderate ME/CFS without meaningful pharmacokinetic interaction.
+
+No pharmacokinetic interaction data exist for this combination in any population. Progesterone is hepatically metabolized (CYP enzymes); naltrexone at low doses is also hepatically metabolized but at far lower concentrations. Clinically significant interaction is unlikely but unstudied.
+
+*Testable prediction:* A 2×2 factorial trial (LDN alone vs. cyclic progesterone alone vs. combination vs. placebo) in ME/CFS patients with autoimmune-dominant phenotype will show additive improvement in the combination arm relative to either monotherapy at 12 weeks.
+
+*Limitation:* Factorial trial requires n≥80 per arm for reasonable power; no precedent for this combination; LDN + hormonal therapy in ME/CFS is not yet a clinical pathway.
+] <spec:ldn-progesterone-combination>

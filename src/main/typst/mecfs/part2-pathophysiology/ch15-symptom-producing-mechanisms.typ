@@ -992,6 +992,26 @@ Feasibility: High (trials are feasible; requires 200–300 patients total across
 *Priority 6: Exercise-Induced Metabolic Danger Signal Biomarkers.*
 The metabolic danger hypothesis predicts lactate/succinate surge, NLRP3 inflammasome activation, and ASIC upregulation post-exercise. Study design: Measure plasma lactate, succinate, NLRP3 activity (cleaved IL-18), and leukocyte ASIC3/P2X mRNA at baseline, immediately post-exercise, and 6/12/24/48h post-exercise in 30 ME/CFS patients vs. 30 controls during 2-day CPET. Correlate with PEM severity. Feasibility: High (established protocols). Impact: Would validate metabolic danger model and enable development of biomarker-guided exercise prescriptions. Expected timeline: 1–2 years.
 
+*Priority 6b: Neurosteroid Enhancement of Slow-Wave Sleep and Glymphatic Clearance.*
+
+#speculation(title: [Allopregnanolone--Glymphatic Coupling as a Secondary Mechanism of Neurosteroid Benefit in ME/CFS])[
+*Certainty: 0.22.* Allopregnanolone potentiates extrasynaptic GABA-A receptor (α4βδ subtype) tonic inhibition, which promotes NREM slow-wave sleep architecture (@spec:alpha4betadelta-mecfs). Slow-wave sleep is the principal driver of glymphatic clearance --- perivascular CSF-ISF exchange that clears metabolic waste from brain parenchyma. If progesterone bridge therapy improves ME/CFS partly by restoring slow-wave sleep, the downstream benefit would include enhanced overnight glymphatic clearance of neuroinflammatory metabolites, providing a mechanistic bridge between neurosteroid intervention and the glymphatic failure model documented in Section @sec:glymphatic.
+
+This chain (allopregnanolone → SWS enhancement → glymphatic clearance → reduced neuroinflammatory burden) is physiologically coherent but has not been tested as an integrated pathway in ME/CFS.
+
+*Falsifiable prediction:* In ME/CFS patients on luteal-phase oral micronized progesterone, polysomnography will show increased slow-wave sleep (N3) duration; improvement in brain fog and morning fatigue will correlate with N3 gain rather than with daytime allopregnanolone concentrations alone, consistent with glymphatic clearance as the mediating variable.
+
+*Limitations:* No study has measured polysomnography alongside neurosteroid levels in ME/CFS during progesterone supplementation.
+] <spec:allopregnanolone-glymphatic>
+
+*Priority 6c: Sleep Spindle Density as a Pharmacodynamic Biomarker.*
+
+#open-question(title: [Can Sleep Spindle Density Serve as a Non-Invasive Pharmacodynamic Readout for Neurosteroid Interventions in ME/CFS?])[
+Sleep spindles (12--15 Hz bursts during NREM stage 2) reflect extrasynaptic GABA-A function and are sensitive to neurosteroid concentrations. Spindle density and N3 percentage are measurable by standard polysomnography. If α4βδ GABA-A dysregulation mediates cycle-phase ME/CFS symptom variation (@spec:alpha4betadelta-mecfs), spindle density would change with luteal-phase progesterone variation and with oral micronized progesterone supplementation --- providing a non-invasive pharmacodynamic marker that does not require serum neurosteroid assays.
+
+*Research questions:* Does baseline spindle density predict ME/CFS symptom severity across the menstrual cycle? Does on-treatment spindle density change correlate with symptom improvement during neurosteroid interventions?
+] <oq:spindle-density-biomarker>
+
 *Priority 7: Systems Biology Modeling of the Symptom Cascade.*
 Develop mechanistic computational models integrating cytokine dynamics, neurochemical generators, and systems amplifiers. Study design: Agent-based or network-based modeling (e.g., using data from above studies) to simulate cascade dynamics and predict treatment combinations. Validation: Prospective simulation of responses to single and combined interventions, tested against clinical trial outcomes. Feasibility: High (modeling is computationally feasible with existing data). Impact: Would provide framework for treatment optimization and prediction of which interventions will synergize vs. antagonize. Expected timeline: Parallel to above studies (1–5 years).
 

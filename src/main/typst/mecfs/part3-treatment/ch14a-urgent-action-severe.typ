@@ -1475,7 +1475,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 Pacing is _not_ a treatment, but it _prevents worsening_ and reduces baseline symptom burden.
 
-#warning-box(title: [Damage Prevention Is the Dominant Modality at Extremely Severe Levels])[
+#warning-env(title: [Damage Prevention Is the Dominant Modality at Extremely Severe Levels])[
 Clinical experience and patient reports consistently demonstrate that at extremely severe levels, preventing the next crash is more important than any active treatment. The mathematical ratchet model (Equation @eq:recovery-scaling, Table @tab:recovery-regimes) provides a biophysical rationale for this established clinical principle: in the cliff and floor recovery regimes, a single PEM crash is acute (hours to days) but recovery takes weeks to months, creating an asymmetry where every prevented event saves disproportionate recovery time. For patients at ES-C and below, preventing the next damaging event---infection prevention, sensory environment control, elimination of all avoidable physiological stressors---is the dominant disease-modifying intervention. This recommendation rests on clinical consensus, independently of whether the quantitative model predictions are precisely correct.
 ]
 

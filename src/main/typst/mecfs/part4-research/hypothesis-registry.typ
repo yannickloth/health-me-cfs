@@ -4212,9 +4212,173 @@ Motivated by: creative synthesis of pregnancy/reproductive health literature (@S
     [Reducing activity quota 20--30% in the late luteal/menstrual phases, matched to the low-estrogen/low-progesterone window, reduces PEM episode frequency in women reporting cycle-phase symptom variation. Effect > 25% reduction vs flat pacing.],
     [Crossover trial ($n gt.eq 40$) over 4 menstrual cycles: cycle-synchronized vs flat pacing. Patient diary + actigraphy. Zero cost intervention; feasible near-term.],
     [Ch.17 @spec:cycle-synced-pacing],
+
+    [Oral Micronized Progesterone as Immunological and Neurosteroid Bridge Therapy in ME/CFS],
+    [S], [0.25],
+    [Oral micronized progesterone (100--200 mg/day, oral route for allopregnanolone via first-pass metabolism) replicates pregnancy immunosuppression (PIBF → Th2 shift + NK suppression) and HPA calming (allopregnanolone → GABA-A → reduced CRH/ACTH) in non-pregnant ME/CFS patients. Responders enriched in autoimmune-dominant phenotype. Cyclic not continuous dosing required. Normal baseline progesterone in ME/CFS confirmed (pharmacological not replacement rationale).],
+    [Crossover RCT: oral vs vaginal micronized progesterone vs placebo. Primary endpoint: PSQI sleep score + immune panel (NK cytotoxicity, Th1/Th2 ratio). Biomarker stratification by autoantibody status. Brexanolone Lancet RCTs ($n = 246$) provide proof-of-concept for allopregnanolone pathway. No ME/CFS trial exists.],
+    [Ch.23 @spec:micronized-progesterone-bridge],
   ),
-  caption: [Entries added 2026-04-25: Reproductive health mechanisms (pregnancy subtypes, PRIS, allopregnanolone, endometriosis axis, iron-hepcidin, AMH) and cycle-synchronized pacing.],
+  caption: [Entries added 2026-04-25: Reproductive health mechanisms (pregnancy subtypes, PRIS, allopregnanolone, endometriosis axis, iron-hepcidin, AMH), cycle-synchronized pacing, and oral micronized progesterone bridge therapy.],
   kind: table,
 ) <tab:hypothesis-registry-2026-04-25-reproductive-mechanisms>
 ] // end landscape page
 
+
+=== Entries Added 2026-04-25: Progesterone/Neurosteroid Axis Hypotheses (Phase 4 Brainstorm Integration)
+
+Motivated by: scientific-insight-generator brainstorm on oral micronized progesterone as ME/CFS therapeutic bridge, building on @Schacterle2004pregnancy, @AndreenBackstrom2006pharmacokinetics, @MeltzerBrody2018brexanolone, @Raghupathy2009PIBF, @SzekeresBartho2019progestogens, @AndreenBackstrom2009negMood.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Pregnancy as Forced Tolerogenic Reset: Why ~30% Improve],
+    [S], [0.35],
+    [Pregnancy expands CD56#super[bright] decidual NK and Tregs, suppressing exhausted CD56#super[dim] NK and effector T cells. Improvers have immune-driven subtype; non-improvers have metabolic/neurological subtype. Baseline NK phenotype predicts pregnancy response.],
+    [Prospective cohort: NK subtype panel + Treg fraction before conception. No ME/CFS pregnancy immunophenotyping study exists.],
+    [Ch.07 @spec:tolerogenic-reset],
+
+    [Mast Cell Stabilization via Progesterone Receptor B],
+    [S], [0.25],
+    [PR-B on mast cells reduces histamine and tryptase release. MCAS-overlap ME/CFS patients (elevated tryptase/urinary methylhistamine) show greater improvement on luteal progesterone than those with normal mast cell markers.],
+    [Mast cell markers (tryptase, urinary methylhistamine) as progesterone trial stratifiers. MCAS-overlap cohort trial. No ME/CFS PR-B mast cell data.],
+    [Ch.07 @spec:mast-cell-progesterone],
+
+    [Sequential Estrogen--Progesterone Required for PIBF Induction Outside Pregnancy],
+    [S], [0.25],
+    [PIBF requires estrogen priming. Sequential transdermal estradiol (days 1--14) + oral progesterone (days 15--28) induces PIBF ex vivo; progesterone-alone protocol does not.],
+    [Ex vivo PBMC PIBF assay: sequential vs progesterone-alone protocol. Combined HRT safety screen required. No ME/CFS PIBF ex vivo data.],
+    [Ch.07 @spec:estrogen-pibf-priming],
+
+    [Post-Viral Immune Context as a PIBF-Sensitizing Window],
+    [S], [0.15],
+    [Acute viral/vaccine immune perturbation transiently permits PIBF induction by exogenous progesterone in non-pregnant patients. Within 4 weeks of trigger: PIBF inducible; > 6 months from trigger: not inducible.],
+    [PIBF ex vivo assay in ME/CFS patients within 4 weeks vs > 6 months of documented immune trigger. Entirely novel hypothesis; no supporting data.],
+    [Ch.07 @spec:postviral-pibf-window],
+
+    [Extrasynaptic α4βδ GABA-A Receptor Dysregulation as Cycle-Phase ME/CFS Severity Modulator],
+    [S], [0.28],
+    [PMDD-like α4βδ dysregulation explains the bifurcation of ME/CFS luteal responders vs non-responders. EEG tonic GABA-A signature and sleep spindle density will differ between "luteal-better" and "luteal-worse" ME/CFS subgroups across cycle days 5, 14, 21, 26.],
+    [Cycle-phase EEG + polysomnography study in ME/CFS stratified by luteal symptom response. No ME/CFS α4βδ EEG data exist.],
+    [Ch.09 @spec:alpha4betadelta-mecfs],
+
+    [Pre-Treatment Allopregnanolone Conversion Capacity as a Neurosteroid Response Stratifier],
+    [S], [0.35],
+    [Patients with low mid-luteal allopregnanolone/pregnenolone ratio (low 5α-reductase capacity) are the highest-benefit target for oral micronized progesterone. Pre-treatment ratio stratifies responders with AUC > 0.70.],
+    [Serum neurosteroid panel (allopregnanolone, pregnenolone, DHEA-S) at cycle days 3 and 21; requires LC-MS/MS assay. Stratifier for any progesterone trial.],
+    [Ch.09 @spec:allopregnanolone-ratio-predictor],
+
+    [Allopregnanolone--Glymphatic Coupling as Secondary Mechanism of Neurosteroid Benefit],
+    [S], [0.22],
+    [Progesterone bridge → allopregnanolone → increased N3 SWS → glymphatic clearance → reduced neuroinflammatory burden. Brain fog/morning fatigue improvement correlates with N3 gain, not daytime allopregnanolone level.],
+    [Polysomnography during progesterone supplementation in ME/CFS. Correlation analysis: N3 change vs symptom change. No ME/CFS neurosteroid + polysomnography study exists.],
+    [Ch.15 @spec:allopregnanolone-glymphatic],
+
+    [Sleep Spindle Density as Pharmacodynamic Readout for Neurosteroid Interventions],
+    [OQ], [---],
+    [Does baseline spindle density predict ME/CFS severity and neurosteroid response? Does on-treatment spindle change correlate with symptom improvement?],
+    [Polysomnography or ambulatory EEG across menstrual cycle in ME/CFS. Within-subject comparison luteal vs follicular phase. Pre-treatment in any neurosteroid trial.],
+    [Ch.15 @oq:spindle-density-biomarker],
+
+    [Cycle-Synchronized Luteal-Phase Progesterone as a Precision Dosing Strategy],
+    [S], [0.30],
+    [Luteal-phase-synchronized oral micronized progesterone (200 mg nightly, LH-surge-timed) reduces PSQI more than a fixed calendar schedule in women with documented cycle-phase worsening.],
+    [Crossover trial: LH-synchronized vs calendar-fixed dosing. Requires OPK monitoring. Not studied in ME/CFS.],
+    [Ch.18 @spec:cycle-synchronized-progesterone],
+
+    [Postpartum-Onset ME/CFS as a Neurosteroid Withdrawal Subtype Amenable to PPD Trial Design],
+    [S], [0.30],
+    [A 14-day oral neurosteroid pulse in postpartum-onset ME/CFS (within 12 months of delivery) produces ≥ 30% DSQ-PEM reduction at day 28, exceeding non-postpartum-onset ME/CFS controls.],
+    [14-day oral neurosteroid trial in postpartum-onset ME/CFS subgroup. Brexanolone @MeltzerBrody2018brexanolone and oral analog PPD trials provide design template. No ME/CFS trial exists.],
+    [Ch.18 @spec:ppd-methodology-transfer],
+
+    [Pregnenolone as Substrate-Level Neurosteroid Enhancement in ME/CFS],
+    [S], [0.25],
+    [Pregnenolone 50--500 mg/day increases serum allopregnanolone in ME/CFS women; response correlates with baseline 5α-reductase activity (urine 5α/5β androgen metabolite ratio).],
+    [Pregnenolone dose-escalation + neurosteroid metabolite profiling. No ME/CFS data.],
+    [Ch.18 @spec:pregnenolone-mecfs],
+
+    [DHEA-S-Stratified Supplementation in ME/CFS],
+    [S], [0.25],
+    [ME/CFS patients with baseline DHEA-S below age-adjusted 25th percentile show > 0.3 SD greater FUNCAP improvement on DHEA 25--50 mg/day × 12 weeks than normal-DHEA-S patients.],
+    [Stratified DHEA supplementation RCT; stratification by baseline DHEA-S. Monitor testosterone, estradiol, androgenic side effects.],
+    [Ch.18 @spec:dhea-s-stratified],
+
+    [Severity-Tiered Neurosteroid Bridge Protocol],
+    [S], [0.30],
+    [Matching intervention burden to functional capacity (supplements for mild, cycle-synchronized progesterone for moderate, deferred for severe) produces higher response rates than a uniform protocol.],
+    [Factorial trial comparing tiered vs uniform protocol. FUNCAP threshold validation required. No precedent trial.],
+    [Ch.18 @spec:severity-tiered-neurosteroid],
+
+    [Ganaxolone as Hormonally Inert Oral Allopregnanolone Analog in ME/CFS],
+    [S], [0.20],
+    [Ganaxolone 600--1800 mg/day × 4 weeks improves PSQI and reduces PEM frequency in ME/CFS patients with low baseline allopregnanolone; no effect in normal-baseline patients.],
+    [Off-label ganaxolone trial; access barrier. Requires allopregnanolone baseline stratification. No ME/CFS data.],
+    [Ch.18 @spec:ganaxolone-mecfs],
+
+    [Zuranolone Pulse Therapy in Postpartum-Onset ME/CFS],
+    [S], [0.25],
+    [14-day zuranolone (50 mg/day) in postpartum-onset ME/CFS within 12 months of delivery produces > 30% DSQ-PEM reduction at day 28, sustained at day 90.],
+    [14-day zuranolone trial in postpartum-onset subgroup. Zuranolone approved for PPD @MeltzerBrody2018brexanolone; design transfer to ME/CFS requires outcome adaptation.],
+    [Ch.18 @spec:zuranolone-mecfs],
+
+    [LDN + Cyclic Micronized Progesterone as a Non-Overlapping Combination],
+    [S], [0.20],
+    [Non-overlapping mechanisms (TLR4 vs GABA-A/immune) produce additive symptom improvement in a 2×2 factorial trial; no pharmacokinetic interaction expected.],
+    [2×2 factorial RCT: LDN alone vs cyclic progesterone alone vs combination vs placebo. No combination precedent.],
+    [Ch.18 @spec:ldn-progesterone-combination],
+
+    [Magnesium-L-Threonate + P5P as OTC GABA-A Modulator Stack],
+    [S], [0.40],
+    [Mg-threonate 2 g + P5P 50 mg nightly × 8 weeks improves PSQI sleep score in ME/CFS without affecting PEM frequency. Negative result on PEM expected; positive on sleep consistent with GABA-A mechanism.],
+    [Placebo-controlled RCT: Mg-threonate + P5P vs placebo, 8 weeks. PSQI + actigraphy. Low cost, low risk; feasible near-term.],
+    [Ch.17 @spec:gaba-supplement-stack],
+
+    [Mild Heat Adaptation as Allopregnanolone-Independent GABA Tone Modulator],
+    [S], [0.15],
+    [Tepid bath (38°C, 15 min, 3×/week, 8 weeks) improves PSQI in heat-tolerant mild-to-moderate ME/CFS without triggering PEM at 48 hours. Heat tolerance screen required.],
+    [Single-arm pilot: tepid bath protocol in pre-screened heat-tolerant ME/CFS. No ME/CFS thermal neurosteroid data.],
+    [Ch.17 @spec:heat-gaba-mecfs],
+
+    [Pregnancy Response History as Clinical Subtype Stratifier],
+    [S], [0.45],
+    [Historical improvers show higher immune-driven subtype markers and greater response to progesterone-related interventions vs historical worseners; effect size difference > 0.4 SD in any trial stratified by pregnancy history.],
+    [Add pregnancy response history question to clinical ME/CFS assessment. Stratify in any progesterone trial. Based entirely on Schacterle 2004 @Schacterle2004pregnancy.],
+    [Ch.23 @spec:pregnancy-history-stratifier],
+
+    [Multiple Sclerosis Pregnancy Effect as Cross-Disease Template for ME/CFS Research],
+    [S], [0.42],
+    [ME/CFS pregnancy improvers share T-cell autoreactivity profile with MS pregnancy responders; estriol trial design (8 mg/day) directly transferable to ME/CFS autoimmune subtype.],
+    [ME/CFS pregnancy improvers vs non-improvers: T-cell panel, autoantibody screen. Estriol trial in autoimmune-dominant ME/CFS subgroup. MS PRIMS study provides design precedent.],
+    [Ch.23 @spec:ms-pregnancy-analogy],
+
+    [Schacterle & Komaroff Replication as Highest-Leverage Pregnancy Research Investment],
+    [OQ], [---],
+    [Does the ~30% improvement rate replicate? Does baseline biomarker signature predict response? Does postpartum crash trajectory predict progesterone trial response?],
+    [Prospective cohort, $n gt.eq 200$ ME/CFS women, preconception enrollment through 24 months postpartum. Quarterly DSQ-PEM, FUNCAP, immune phenotype, neurosteroid metabolites, actigraphy.],
+    [Ch.23 @oq:schacterle-replication],
+
+    [Allopregnanolone Mitochondrial Effects as a Third Neurosteroid Mechanism in ME/CFS],
+    [S], [0.18],
+    [Seahorse PBMC respiratory function improves on cycle-synchronized progesterone independently of immune marker changes; confirms mitochondrial (non-GABA-A) mechanism.],
+    [PBMC Seahorse assay before and during progesterone supplementation in ME/CFS. No ME/CFS neurosteroid + bioenergetics study exists.],
+    [Ch.06 @spec:neurosteroid-mitochondria],
+
+    [Sigma-1 Receptor at ER--Mitochondria Interface as Progesterone-Axis Co-Mechanism],
+    [S], [0.15],
+    [Sig-1R agonists (fluvoxamine high dose, pridopidine) produce overlapping symptom signature with progesterone bridge therapy, particularly for cognitive fatigue; brexanolone-like agents improve sleep/HPA but not cognitive fatigue.],
+    [Comparative trial: Sig-1R agonist vs progesterone bridge vs placebo. Cognitive fatigue as secondary endpoint. No ME/CFS Sig-1R + neurosteroid comparison study exists.],
+    [Ch.06 @spec:sigma1-neurosteroid],
+
+  ),
+  caption: [Entries added 2026-04-25: Progesterone/neurosteroid axis hypotheses --- Phase 4 brainstorm integration across ch06, ch07, ch09, ch15, ch17, ch18, ch23.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-25-neurosteroid>
+] // end landscape page

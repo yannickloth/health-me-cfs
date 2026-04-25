@@ -1125,3 +1125,42 @@ TRPM8 is a cold-activated TRP channel (activation threshold $<$25°C, enhanced b
 (Certainty: 0.10. Highly speculative. TRPM8 status in ME/CFS is completely unknown. Cold exposure may be harmful in this population. Research hypothesis only.)
 ] <spec:ch17-cold-trpm8>
 
+
+
+=== Mild Heat Adaptation as an Allopregnanolone-Independent GABA Tone Modulator
+<sec:heat-gaba-adaptation>
+
+#speculation(title: [Mild Repeated Heat Exposure as a Non-Hormonal Route to HPA Calming in ME/CFS])[
+*Certainty: 0.15.* Mild repeated heat exposure (warm baths, sauna at low temperatures) increases endogenous neurosteroid synthesis in preclinical models and transiently modulates HPA axis response. For ME/CFS patients unable to tolerate hormonal intervention, mild heat protocols may achieve modest GABA tone enhancement through neurosteroid upregulation rather than exogenous supplementation.
+
+*Proposed protocol concept:* Tepid bath (15 minutes, 38°C, 3× per week), deliberately below the noxious heat threshold to avoid activating the TRPM3-mediated stress response. Pre-screening required for heat tolerance (see @spec:ch17-thermal-trpm3).
+
+*Falsifiable prediction:* A tolerated tepid bath protocol (15 min, 38°C, 3×/week for 8 weeks) will improve PSQI sleep scores in heat-tolerant mild-to-moderate ME/CFS without triggering PEM by actigraphy within 48 hours of sessions.
+
+*Critical caveats:* Many ME/CFS patients have temperature dysregulation and post-exertional intolerance to thermal stress; this protocol is restricted to patients who have passed a heat tolerance screen (no symptom worsening 24 hours after a single 10-minute 37°C immersion session). Any PEM signal on the tolerance screen → do not proceed.
+
+*Limitation:* Certainty is intentionally low (0.15); this is the most speculative of the thermal protocols, relying on extrapolation from preclinical neurosteroid data. It is included as a research-stage hypothesis; no clinical trial data support it in ME/CFS.
+] <spec:heat-gaba-mecfs>
+
+== GABA-A Modulating Supplement Stack
+<sec:gaba-supplement-stack>
+
+For ME/CFS patients who cannot tolerate hormonal neurosteroid interventions or who want a lower-risk entry point to GABA-A modulation, a magnesium-threonate + activated B6 supplement stack provides physiologically rationale support for GABA synthesis and extrasynaptic receptor function without hormonal effects.
+
+#speculation(title: [Magnesium-L-Threonate + Pyridoxal-5-Phosphate as an OTC GABA-A Modulator Stack])[
+*Certainty: 0.40.* Two complementary mechanisms provide GABA-A tonal support:
+
+*Magnesium-L-threonate.* Magnesium is a positive allosteric modulator of GABA-A receptors and antagonizes NMDA excitotoxicity, providing functional overlap with some allopregnanolone effects. The L-threonate form crosses the blood-brain barrier more efficiently than glycinate, sulfate, or oxide forms, producing measurable CNS magnesium elevation at doses of 1--2 g/day.
+
+*Pyridoxal-5-phosphate (P5P).* P5P is the active cofactor for glutamate decarboxylase (GAD), the rate-limiting enzyme in GABA synthesis (glutamate → GABA). Many ME/CFS patients have suboptimal B6 status. P5P 50 mg/day (not pyridoxine — the inactive precursor form) provides the active cofactor directly without requiring hepatic conversion.
+
+This stack targets the substrate side (P5P increases GABA production) and the receptor side (magnesium enhances GABA-A signaling), providing complementary reinforcement without hormonal intervention.
+
+*Falsifiable prediction:* Magnesium-L-threonate 2 g + P5P 50 mg nightly for 8 weeks will improve PSQI sleep scores in ME/CFS without affecting PEM frequency (negative result on PEM expected; positive on sleep would be consistent with GABA-A mechanism but also explainable by nutrient repletion).
+
+*How this extends existing cycle-pacing supplementation:* Section @subsec:cycle-synced-pacing recommends magnesium glycinate + pyridoxine during the luteal phase for cycle-synced support. The present stack uses the threonate form of magnesium (better CNS penetration) and the activated P5P form of B6 (no hepatic conversion step), and is intended for year-round nightly use rather than luteal-phase-only targeting.
+
+*Safety note:* P5P at 50 mg/day is within the safe range; do not exceed 100 mg/day to avoid sensory neuropathy. Magnesium-L-threonate is well-tolerated; common adverse effects are loose stools (dose-dependent) and initial headache. Discontinue if headache persists beyond 2 weeks.
+
+*Limitations:* No ME/CFS-specific trial exists for either compound in this combination. Certainty reflects general nutrient physiology and GABA pharmacology, not ME/CFS trial data.
+] <spec:gaba-supplement-stack>

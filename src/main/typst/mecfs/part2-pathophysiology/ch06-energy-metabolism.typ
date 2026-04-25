@@ -2613,5 +2613,31 @@ Therapeutic interventions targeting these energy deficits—including mitochondr
 
 
 
+
+== Neurosteroid Cross-Talk with Mitochondrial Bioenergetics
+<sec:neurosteroid-mitochondria>
+
+A speculative but mechanistically grounded connection links the allopregnanolone axis to the mitochondrial dysfunction documented in this chapter. Allopregnanolone has been reported to modulate mitochondrial bioenergetics beyond its well-characterized GABA-A effects.
+
+#speculation(title: [Allopregnanolone Mitochondrial Effects as a Third Mechanism of Neurosteroid Benefit in ME/CFS])[
+*Certainty: 0.18.* Allopregnanolone and progesterone have been shown in preclinical studies to affect mitochondrial membrane potential, respiratory chain complex activity, and ATP production — effects independent of GABA-A receptor activation. If these mitochondrial effects are operative in ME/CFS, neurosteroid bridge therapy (@spec:micronized-progesterone-bridge, Chapter @ch:epidemiology-outcomes) may improve ME/CFS partly via direct mitochondrial bioenergetic support, rather than solely through HPA calming (allopregnanolone route) or immune modulation (PIBF route).
+
+This would be particularly relevant given that ME/CFS mitochondrial dysfunction may resist cofactor supplementation alone; a hormonal signal acting at the level of mitochondrial membrane dynamics could address a distinct node in the dysfunction network.
+
+*Falsifiable prediction:* Seahorse extracellular flux assays (measuring PBMC oxygen consumption rate and extracellular acidification rate) will improve in ME/CFS patients on cycle-synchronized oral micronized progesterone, independently of changes in immune phenotype markers. If mitochondrial respiration does not improve while immune markers do change, the mitochondrial route is not operative.
+
+*Limitations:* Preclinical mitochondrial effects of allopregnanolone are from non-ME/CFS models. No study has measured PBMC mitochondrial function during progesterone supplementation in ME/CFS. The effect size is expected to be modest; this is proposed as a contributing factor, not a primary mechanism.
+] <spec:neurosteroid-mitochondria>
+
+#speculation(title: [Sigma-1 Receptor at the ER--Mitochondria Interface as a Progesterone-Axis Co-Mechanism])[
+*Certainty: 0.15.* Allopregnanolone and progesterone modulate sigma-1 receptor (Sig-1R) activity. Sig-1R is a ligand-activated chaperone at the mitochondria-associated endoplasmic reticulum membrane (MAM) — the interface between ER and mitochondria. Sig-1R regulates ER stress response, mitochondrial-ER calcium transfer, and mitochondrial biogenesis; its dysfunction contributes to ER stress and impaired ATP production.
+
+If some progesterone-axis benefits in ME/CFS operate via Sig-1R at the MAM rather than via GABA-A, this would explain why the brexanolone (pure GABA-A modulator without Sig-1R activity) proof-of-concept may underestimate the efficacy of oral micronized progesterone in ME/CFS: oral progesterone reaches Sig-1R, while brexanolone does not. It also connects the neurosteroid hypothesis to the broader ER stress and mitochondrial dysfunction framework developed in this chapter and in @sec:sigma1-fluvoxamine (Chapter @ch:emerging-therapies).
+
+*Falsifiable prediction:* Selective Sig-1R agonists (fluvoxamine at high dose, pridopidine) will produce an overlapping symptom improvement signature with progesterone bridge therapy in ME/CFS, particularly for the mitochondrial and cognitive fatigue components — while brexanolone-like pure GABA-A agonists will improve sleep/HPA symptoms but not cognitive fatigue.
+
+*Limitations:* Sig-1R modulation by progesterone is documented in vitro; ME/CFS-specific Sig-1R function is entirely unstudied. The predicted signature overlap between Sig-1R agonists and progesterone therapy is untested.
+] <spec:sigma1-neurosteroid>
+
 This metabolic dysfunction interacts bidirectionally with immune dysfunction (Chapter @ch:immune-dysfunction) and neurological abnormalities (Chapter @ch:neurological): inflammation impairs metabolism, metabolic dysfunction impairs immune cell function, and energy deficits affect brain function. Chapter @ch:integrative-models synthesizes these bidirectional interactions into comprehensive models of ME/CFS pathophysiology, examining how metabolic dysfunction participates in vicious cycles (Section @sec:unifying-mechanisms) and contributes to the multi-lock state that perpetuates chronic illness (Section @sec:synthesis).
 

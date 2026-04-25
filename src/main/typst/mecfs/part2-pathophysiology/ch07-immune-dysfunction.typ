@@ -2781,3 +2781,58 @@ Zonulin is a protein that regulates intestinal tight junctions. In ME/CFS:
     - *Therapeutic target*: Zonulin inhibitors (larazotide acetate) may reduce gut permeability
 
 Gut barrier dysfunction represents a critical interface between peripheral inflammation and systemic ME/CFS pathophysiology.
+
+== Pregnancy Immunology and ME/CFS
+<sec:pregnancy-immunology-mecfs>
+
+The approximately 30% of ME/CFS patients who improve during pregnancy (@Schacterle2004pregnancy) provide a natural experiment revealing immune-axis plasticity. This section examines the immunological mechanisms that may underlie that signal and the research questions they raise.
+
+=== Pregnancy as a Forced Tolerogenic Reset
+
+#speculation(title: [Pregnancy as a Forced Tolerogenic Reset — Why ~30% Improve])[
+*Certainty: 0.35.* Existing mechanistic frameworks for pregnancy improvement in ME/CFS invoke PIBF-driven Th2 shift and allopregnanolone-mediated HPA calming (introduced in @spec:micronized-progesterone-bridge, Chapter @ch:epidemiology-outcomes). A deeper immunological mechanism may operate in parallel: pregnancy forces sustained expansion of decidual NK cells (CD56#super[bright]CD16#super[−]) and tolerogenic regulatory T cells (Tregs), transiently suppressing the exhausted or autoreactive CD56#super[dim] NK and effector T-cell phenotypes characteristic of ME/CFS @Brenu2011NK.
+
+The 30% who improve may represent patients whose ME/CFS is driven primarily by *peripheral immune dysregulation amenable to tolerogenic reset* — a mechanistically distinct subgroup from those driven by mitochondrial, autonomic, or structural neurological pathology. This immune-driven subtype would be enriched in patients responsive to rituximab (per @Fluge2011rituximab), to immunoadsorption, and to progesterone bridge therapy — all of which modulate peripheral immune effector cells rather than the nervous system.
+
+*Falsifiable prediction:* Baseline NK-cell phenotype (CD56#super[bright]/CD56#super[dim] ratio, NKG2A expression, KIR repertoire) and Treg fraction, measured before planned conception, will predict pregnancy response in a prospective cohort. Improvers will begin with a more "exhausted/effector-skewed" profile that normalizes during gestation; non-improvers will show a phenotype driven by non-immune mechanisms (metabolic or neurological).
+
+*Limitations:* No prospective study has measured NK subtype evolution across pregnancy in ME/CFS. The mechanism is extrapolated from general pregnancy immunology. Single unreplicated source for the 30% figure @Schacterle2004pregnancy limits confidence.
+] <spec:tolerogenic-reset>
+
+=== Mast Cell Stabilization via Progesterone Receptor B
+
+#speculation(title: [Mast Cell Activation Attenuation via Progesterone Receptor B as a Secondary Mechanism])[
+*Certainty: 0.25.* Mast cells express progesterone receptor isoform B (PR-B); progesterone reduces histamine release and tryptase secretion from mast cells in vitro. In the ME/CFS context, a subgroup with mast cell activation syndrome (MCAS) overlap — characterized by elevated serum tryptase, urinary methylhistamine, and flushing episodes @Theoharides2021Cells — may obtain a secondary benefit from cycle-synchronized oral micronized progesterone: cyclic mast cell stabilization during luteal-phase dosing, reducing the neuroinflammatory and pain amplification cascade driven by mast cell-nerve interaction.
+
+This mechanism is distinct from both PIBF-mediated Th2 shift and allopregnanolone GABA-A modulation, and would be expected to be most prominent in the MCAS-overlap ME/CFS phenotype rather than the broader population.
+
+*Falsifiable prediction:* ME/CFS patients with elevated baseline tryptase or 24-hour urinary N-methylhistamine will show greater symptomatic improvement on luteal-phase oral micronized progesterone than those with normal mast cell activation markers.
+
+*Limitation:* Mast cell PR-B expression and functional response in ME/CFS have not been studied. Effect in non-pregnant, non-sensitized conditions is extrapolated from in vitro work.
+] <spec:mast-cell-progesterone>
+
+=== Estrogen Priming as a Prerequisite for PIBF Induction
+
+#speculation(title: [Sequential Estrogen–Progesterone May Be Required for PIBF Induction Outside Pregnancy])[
+*Certainty: 0.25.* A critical mechanistic gap in the oral micronized progesterone hypothesis (@spec:micronized-progesterone-bridge, Chapter @ch:epidemiology-outcomes) is that progesterone-induced blocking factor (PIBF) was not induced by progesterone alone in non-pregnant controls in the key in vitro study @Raghupathy2009PIBF. Pregnancy uniquely combines high estrogen, high progesterone, and placental-derived factors; the absence of PIBF in non-pregnant controls may reflect a requirement for preceding estrogen priming that remodels lymphocyte progesterone receptor density and downstream signaling.
+
+If PIBF induction requires sequential estrogen–progesterone exposure (mimicking the follicular-to-luteal hormonal transition, or the first-trimester surge), then a simple progesterone-only protocol may fail to activate the immune route while still producing allopregnanolone neurosteroid effects. This implies that the PIBF immune mechanism is more accessible during late-luteal phase (when estrogen has primed receptors) than during follicular-phase supplementation.
+
+*Falsifiable prediction:* Sequential transdermal estradiol (days 1–14 of cycle) followed by oral micronized progesterone (days 15–28) will induce measurable PIBF in ME/CFS patients' peripheral blood mononuclear cells (ex vivo assay), while a progesterone-alone protocol using the same progesterone dose will not.
+
+*Safety caveat:* Sequential combined HRT carries higher thromboembolic and endometrial cancer risk than progesterone alone; combined HRT requires more specialist oversight and is not appropriate for self-administration. Any trial design must screen for and exclude high-risk individuals.
+
+*Limitation:* Combined HRT trials in ME/CFS are not on any current trial registry. The PIBF ex vivo assay described in the prediction would need to be developed and validated before large trials.
+] <spec:estrogen-pibf-priming>
+
+=== Post-Viral Immune Context as a PIBF-Sensitizing Window
+
+#speculation(title: [Post-Viral Immune Activation as a Transient PIBF-Permissive State])[
+*Certainty: 0.15.* PIBF production appears to require an immune context that resembles the pregnancy milieu — characterized by elevated progesterone, specific lymphocyte priming, and placental signaling factors that have no non-pregnant equivalent @Raghupathy2009PIBF. However, other states of acute systemic immune perturbation — acute viral infection, vaccine response, post-Epstein-Barr virus reactivation window — may transiently create sufficient immune-context overlap to permit PIBF induction by exogenous progesterone in non-pregnant patients.
+
+This would imply a narrow *therapeutic window* following acute immune triggers where progesterone bridge therapy is most likely to engage the immune route: administration shortly after an immune trigger, when the immune milieu is most dynamically altered. Outside this window, the neurosteroid (allopregnanolone) route may be the only operative mechanism.
+
+*Falsifiable prediction:* Oral micronized progesterone administered within 4 weeks of a confirmed acute immune trigger (documented viral infection or vaccine) will induce measurable PIBF in non-pregnant ME/CFS patients' PBMCs (ex vivo), while the same protocol administered > 6 months from any trigger will not.
+
+*Limitation:* This hypothesis lacks any direct supporting evidence — it is a mechanistic extrapolation. The PIBF assay itself does not exist in standardized form. Certainty is intentionally low (0.15).
+] <spec:postviral-pibf-window>

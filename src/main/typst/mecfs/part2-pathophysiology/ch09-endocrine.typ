@@ -613,6 +613,37 @@ The circadian rhythm abnormalities documented in ME/CFS should not be viewed as 
 *Limitations:* The Castro-Marrero 2021 melatonin trial @castromarrero2021melatonin is the only RCT supporting circadian intervention in ME/CFS, combined melatonin with zinc (individual contributions inseparable), and had a modest sample size. No study has tested multi-modal chronotherapy in ME/CFS.
 ] <spec:circadian-resynchronization>
 
+== Neurosteroid Axis and Menstrual Cycle Regulation
+<sec:neurosteroid-axis-endocrine>
+
+Beyond classical HPA, HPG, and thyroid dysregulation, a neurosteroid axis centered on allopregnanolone — produced from progesterone via hepatic and central nervous system 5α-reductase — modulates HPA function, GABA-A tone, and sleep architecture. This axis is dynamically regulated across the menstrual cycle and may represent a distinct vulnerability in ME/CFS.
+
+=== α4βδ GABA-A Receptor Plasticity as a Cycle-Severity Modulator
+
+#speculation(title: [Extrasynaptic α4βδ GABA-A Receptor Dysregulation as a Mechanism of Cycle-Phase ME/CFS Severity Variation])[
+*Certainty: 0.28.* Extrasynaptic GABA-A receptors containing α4 and δ subunits (α4βδ) are the primary molecular targets of allopregnanolone. Unlike synaptic GABA-A receptors (which mediate phasic inhibition), α4βδ receptors mediate *tonic* inhibition — a continuous background GABA-A current that regulates neuronal excitability and stress response. Critically, α4βδ receptor density and sensitivity are dynamically regulated across the menstrual cycle: upregulated during the luteal phase (when allopregnanolone is high) and downregulated at menstruation (when allopregnanolone falls abruptly).
+
+In premenstrual dysphoric disorder (PMDD), this cycle-dependent plasticity goes awry: rather than increased tonic inhibition, some PMDD-susceptible women exhibit a paradoxical *anxiogenic* response to luteal-phase allopregnanolone, now understood to reflect altered α4βδ subunit composition that reverses the functional effect of the neurosteroid. The divergent ME/CFS patient reports — some improve during the luteal phase, most worsen — may reflect an analogous bifurcation in α4βδ functional state: patients with intact tonic GABA inhibition experience luteal allopregnanolone as calming (luteal improvers), while patients with PMDD-like α4βδ dysregulation experience it as excitatory (luteal worseners).
+
+*Falsifiable prediction:* EEG resting state tonic GABA-A signature (resting-state alpha/theta power at cycle days 7, 14, 21, 26) and sleep spindle density (as a functional α4βδ readout) will differ significantly between "luteal-better" and "luteal-worse" ME/CFS subgroups; the magnitude and direction of difference will parallel the electrophysiological pattern documented in PMDD vs. healthy controls in cycle-phase EEG studies.
+
+*Implication for therapy:* If confirmed, α4βδ dysregulation explains why a single progesterone dose protocol may help some patients and harm others (@spec:micronized-progesterone-bridge, Chapter @ch:epidemiology-outcomes; @AndreenBackstrom2009negMood). Pre-treatment EEG or sleep spindle assessment could stratify patients before neurosteroid intervention.
+
+*Limitations:* No published study has measured cycle-phase EEG tonic GABA signatures or sleep spindle density in ME/CFS patients stratified by luteal symptom response. The PMDD α4βδ model is well-developed but its application to ME/CFS is entirely novel.
+] <spec:alpha4betadelta-mecfs>
+
+=== Allopregnanolone-to-Pregnenolone Ratio as a Response Predictor
+
+#speculation(title: [Pre-Treatment Allopregnanolone Conversion Capacity as a Stratifier for Neurosteroid Interventions])[
+*Certainty: 0.35.* The enzymatic capacity of 5α-reductase and 3α-hydroxysteroid dehydrogenase (3α-HSD) to convert progesterone to allopregnanolone varies substantially between individuals. Patients with low conversion capacity (low allopregnanolone despite normal progesterone) would receive the greatest benefit from oral micronized progesterone supplementation, which maximizes first-pass hepatic allopregnanolone production @AndreenBackstrom2006pharmacokinetics. Patients with already-high baseline allopregnanolone may be in or near the paradoxical anxiogenic concentration range @AndreenBackstrom2009negMood.
+
+A pre-treatment serum neurosteroid profile (allopregnanolone, pregnenolone, pregnenolone sulfate, DHEA-S) collected at cycle day 21 (mid-luteal) and at cycle day 3 (follicular baseline) would characterize conversion capacity before any intervention.
+
+*Falsifiable prediction:* Pre-treatment mid-luteal serum allopregnanolone/pregnenolone ratio < median (low conversion capacity) will identify responders to oral micronized progesterone with AUC > 0.70 vs. non-responders in a crossover trial.
+
+*Limitations:* Commercial allopregnanolone assays are not widely available; specialized liquid chromatography-tandem mass spectrometry is required. Reference ranges in ME/CFS are not established. This prediction requires a trial that has not been conducted.
+] <spec:allopregnanolone-ratio-predictor>
+
 == Integrated Endocrine-Metabolic Model
 <sec:endocrine-integration>
 
