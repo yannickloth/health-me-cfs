@@ -11156,3 +11156,186 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Conclusion:*: Provides a broad overview of the intersection of post-infectious illness and female reproductive health. Useful for contextualising ME/CFS pregnancy findings within the wider Long COVID/POTS/EDS cluster. Identifies the same evidence gap as Slack 2023 but from a broader infection-associated illness perspective.
     / *Limitations:*: Literature review without systematic search; Long COVID literature is very recent and rapidly evolving; conflates several distinct conditions; no primary data; some claims extrapolated from associated conditions rather than ME/CFS specifically.
     / *Certainty:*: 0.45
+
+== Progesterone and Allopregnanolone in ME/CFS <sec:bib-progesterone-mecfs>
+
+This section covers the evidence base for oral micronized progesterone as a potential
+therapeutic agent in ME/CFS, motivated by the Schacterle & Komaroff (2004) finding that
+approximately 30% of ME/CFS patients improve during pregnancy. The proposed mechanisms
+are: (1) Th2 immunoshift and Treg elevation via progesterone-induced blocking factor
+(PIBF); (2) allopregnanolone production (GABA-A potentiation, HPA calming, sleep
+improvement); (3) progesterone receptor-mediated anti-inflammatory signalling. Two null
+results from CFS hormone studies confirm that ME/CFS is not characterised by progesterone
+deficiency, supporting a pharmacological rather than replacement rationale.
+
+=== Meltzer-Brody et al.\ 2018 --- Brexanolone for Postpartum Depression (Phase 3 RCTs)
+
+    @MeltzerBrody2018brexanolone
+
+    / *Full Citation:*: Meltzer-Brody S, Colquhoun H, Riesenberg R, et al. "Brexanolone injection in post-partum depression: two multicentre, double-blind, randomised, placebo-controlled, phase 3 trials." _Lancet_. 2018;392(10152):1058--1070.
+    / *DOI:*: #link("https://doi.org/10.1016/S0140-6736(18)31551-4")[10.1016/S0140-6736(18)31551-4]
+    / *PMID:*: 30177236
+    / *Study Design:*: Two phase 3 double-blind RCTs at 30 US sites; Study 1 n=138 (BRX60, BRX90, placebo); Study 2 n=108 (BRX90, placebo). 60-hour IV infusion.
+    / *Key Findings:*:
+        - Study 1: BRX 60 mcg/kg/h reduced HAM-D by 19.5 points vs 14.0 placebo (p=0.0013); BRX 90 mcg/kg/h reduced by 17.7 points (p=0.0252)
+        - Study 2: BRX 90 mcg/kg/h reduced HAM-D by 14.6 points vs 12.1 placebo (p=0.0160)
+        - Rapid onset (significant effect within 60 hours); effects sustained through 30-day follow-up
+        - Brexanolone is synthetic IV allopregnanolone; acts as GABA-A receptor positive allosteric modulator
+        - Common adverse events: sedation, dizziness, somnolence, headache; 4% syncope/presyncope
+    / *Conclusion:*: Establishes proof-of-concept for the allopregnanolone route: exogenous GABA-A potentiation via allopregnanolone produces rapid, clinically meaningful effects on a neuroendocrine--immune disorder. Directly supports the hypothesis that oral micronized progesterone (generating endogenous allopregnanolone) could produce analogous effects in ME/CFS, particularly HPA calming and sleep improvement.
+    / *Limitations:*: IV delivery only (not oral); PPD is not ME/CFS; follow-up limited to 30 days; REMS program required; modest effect sizes; presyncope adverse event requires monitoring.
+    / *Certainty:*: 0.82
+
+=== Meltzer-Brody & Kanes 2020 --- Allopregnanolone in PPD: Pathophysiology and Treatment
+
+    @MeltzerBrodyKanes2020allopregnanolone
+
+    / *Full Citation:*: Meltzer-Brody S, Kanes SJ. "Allopregnanolone in postpartum depression: Role in pathophysiology and treatment." _Neurobiology of Stress_. 2020;12:100212.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ynstr.2020.100212")[10.1016/j.ynstr.2020.100212]
+    / *PMID:*: 32435663
+    / *Study Design:*: Narrative review; no original data.
+    / *Key Findings:*:
+        - Allopregnanolone is a GABA-A receptor positive allosteric modulator; pregnancy levels are 10--100-fold above non-pregnant baseline
+        - Postpartum allopregnanolone withdrawal is proposed to precipitate PPD in sensitive individuals
+        - Brexanolone inhibits inflammatory signalling post-infusion, suggesting an anti-inflammatory effect secondary to GABA modulation
+        - Future oral neurosteroids (zuranolone, ganaxolone) may replicate IV brexanolone via oral route
+        - HPA axis dysregulation (elevated CRH, altered cortisol feedback) is partially normalised by allopregnanolone
+    / *Conclusion:*: Provides mechanistic framework connecting allopregnanolone deficiency, GABA-A dysfunction, HPA dysregulation, and inflammation --- all of which overlap with ME/CFS pathophysiology. Supports the hypothesis that oral progesterone-derived allopregnanolone could address multiple ME/CFS disease mechanisms simultaneously.
+    / *Limitations:*: Narrative review; PPD-focused; ME/CFS is a different condition with different aetiology; direct evidence in ME/CFS absent.
+    / *Certainty:*: 0.52
+
+=== Szekeres-Bartho & Schindler 2019 --- Progestogens and Immunology
+
+    @SzekeresBartho2019progestogens
+
+    / *Full Citation:*: Szekeres-Bartho J, Schindler AE. "Progestogens and immunology." _Best Practice & Research Clinical Obstetrics & Gynaecology_. 2019;60:16--24.
+    / *DOI:*: #link("https://doi.org/10.1016/j.bpobgyn.2019.07.001")[10.1016/j.bpobgyn.2019.07.001]
+    / *PMID:*: 31345741
+    / *Study Design:*: Authoritative review by leading PIBF researcher; summarises decades of mechanistic work.
+    / *Key Findings:*:
+        - Progesterone binds lymphocyte receptors to induce production of progesterone-induced blocking factor (PIBF)
+        - PIBF increases Th2 cytokine production (IL-4, IL-6, IL-10) and inhibits NK cell degranulation
+        - This Th2 shift and NK suppression underlies the immune tolerance of pregnancy
+        - Natural progesterone and some synthetic progestins (dydrogesterone) induce PIBF; others (medroxyprogesterone acetate) do not
+        - PIBF-mediated NK suppression reduces immune surveillance --- potentially beneficial for ME/CFS (where NK overactivation may contribute to symptoms) but must be weighed against infection risk
+    / *Conclusion:*: Provides the central immunological mechanism for the oral progesterone hypothesis in ME/CFS. The Th2 shift and NK suppression mediated by PIBF directly correspond to the immunological changes associated with pregnancy-related ME/CFS improvement.
+    / *Limitations:*: Review article; most mechanistic data from pregnancy immunology, not immune dysfunction conditions; NK suppression effect may be context-dependent.
+    / *Certainty:*: 0.58
+
+=== Raghupathy et al.\ 2009 --- PIBF-Mediated Cytokine Shift
+
+    @Raghupathy2009PIBF
+
+    / *Full Citation:*: Raghupathy R, Al-Mutawa E, Al-Azemi M, Makhseed M, Azizieh F, Szekeres-Bartho J. "Progesterone-induced blocking factor (PIBF) modulates cytokine production by lymphocytes from women with recurrent miscarriage or preterm delivery." _Journal of Reproductive Immunology_. 2009;80(1--2):91--99.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jri.2009.01.004")[10.1016/j.jri.2009.01.004]
+    / *PMID:*: 19371956
+    / *Study Design:*: In vitro lymphocyte stimulation study; n=72 women (30 recurrent miscarriage, 18 preterm delivery, 11 normal pregnancy, 13 non-pregnant controls); cytokine measurement with and without PIBF exposure.
+    / *Key Findings:*:
+        - PIBF significantly increased IL-4, IL-6, and IL-10 (Th2 cytokines) in pregnancy-associated groups
+        - Th1:Th2 cytokine ratios were reduced in PIBF-treated samples
+        - No significant Th2-shifting effect observed in non-pregnant controls
+        - The Th1-to-Th2 cytokine shift is dose-dependent and reproduces the immunological profile of successful pregnancy
+    / *Conclusion:*: Provides direct experimental evidence for the PIBF--Th2 cytokine shift mechanism. The absence of effect in non-pregnant controls raises the important question of whether ME/CFS patients (who are not pregnant) would respond similarly, or whether progesterone-receptor expression on immune cells differs.
+    / *Limitations:*: In vitro only; non-pregnant controls unresponsive; unknown whether ME/CFS patients have the progesterone-receptor-bearing lymphocytes required for PIBF production; small group sizes.
+    / *Certainty:*: 0.55
+
+=== Hierweger et al.\ 2019 --- Progesterone Modulates T Cells via Glucocorticoid Receptor
+
+    @Hierweger2019progesteroneT
+
+    / *Full Citation:*: Hierweger AM, Engler JB, Friese MA, et al. "Progesterone modulates the T-cell response via glucocorticoid receptor-dependent pathways." _American Journal of Reproductive Immunology_. 2019;81(4):e13084.
+    / *DOI:*: #link("https://doi.org/10.1111/aji.13084")[10.1111/aji.13084]
+    / *PMID:*: 30604567
+    / *Study Design:*: In vitro murine study; splenic T cells from pregnant and non-pregnant mice incubated with progesterone or dexamethasone.
+    / *Key Findings:*:
+        - Progesterone and dexamethasone selectively induced T-cell death while sparing regulatory T cells (Tregs)
+        - Mechanism is glucocorticoid receptor (GR) dependent, not progesterone receptor (PR) dependent
+        - Result: preferential enrichment of Treg proportion in progesterone-exposed immune cultures
+        - Progesterone cross-reacts with GR at pharmacological concentrations, explaining immunosuppressive effects
+    / *Conclusion:*: Identifies a second mechanism (beyond PIBF) by which progesterone elevates Tregs: GR cross-activation inducing selective effector T-cell apoptosis. This is pharmacologically important because it implies that pharmacological (supratherapeutic) progesterone doses --- as in oral supplementation --- may produce stronger immunosuppressive effects via GR than physiological progesterone via PR.
+    / *Limitations:*: Murine in vitro only; GR cross-activation requires concentrations above physiological range; in vivo bioavailability differences from in vitro conditions; direct human validation absent.
+    / *Certainty:*: 0.38
+
+=== Andreen et al.\ 2006 --- PK of Oral Progesterone: Allopregnanolone Production
+
+    @AndreenBackstrom2006pharmacokinetics
+
+    / *Full Citation:*: Andreen L, Spigset O, Andersson A, Nyberg S, Backström T. "Pharmacokinetics of progesterone and its metabolites allopregnanolone and pregnanolone after oral administration of low-dose progesterone." _Maturitas_. 2006;54(3):238--244.
+    / *DOI:*: #link("https://doi.org/10.1016/j.maturitas.2005.11.005")[10.1016/j.maturitas.2005.11.005]
+    / *PMID:*: 16406399
+    / *Study Design:*: Open-label pharmacokinetic study; n=8 postmenopausal women; single and repeated oral dosing of 20 mg progesterone.
+    / *Key Findings:*:
+        - Oral 20 mg progesterone twice daily produced plasma allopregnanolone concentrations matching physiological mid-luteal phase levels
+        - Confirms that oral micronized progesterone functions as a prodrug for allopregnanolone
+        - First-pass hepatic conversion (5alpha-reductase, 3alpha-HSD) produces substantial allopregnanolone with oral route
+        - Allopregnanolone peak: approximately 5--15 ng/mL at 1--2 hours post dose
+    / *Conclusion:*: Critical pharmacokinetic evidence establishing that oral micronized progesterone at clinical doses (100--200 mg = 5--10x the study dose) will generate clinically significant allopregnanolone. This bridges the brexanolone (IV allopregnanolone) proof-of-concept to the oral micronized progesterone hypothesis for ME/CFS. Limitation: only 20 mg studied; 100--200 mg doses in clinical use will produce higher concentrations with potentially greater sedation and GABA effects.
+    / *Limitations:*: Very small n=8; postmenopausal only; only 20 mg dose studied; no sleep or immune endpoints; extrapolation to clinical 100--200 mg doses requires caution.
+    / *Certainty:*: 0.42
+
+=== Zhao et al.\ 2012 --- Continuous vs Cyclic Progesterone: Receptor Downregulation
+
+    @Zhao2012continuousProgesterone
+
+    / *Full Citation:*: Zhao L, Morgan TE, Mao Z, et al. "Continuous versus cyclic progesterone exposure differentially regulates hippocampal gene expression and functional profiles." _PLoS One_. 2012;7(2):e31267.
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0031267")[10.1371/journal.pone.0031267]
+    / *PMID:*: 22393359
+    / *Study Design:*: Animal study (ovariectomized rats); qRT-PCR analysis of hippocampal gene expression under four conditions: estradiol + cyclic progesterone, estradiol + continuous progesterone, estradiol only, OVX control.
+    / *Key Findings:*:
+        - Cyclic progesterone with estradiol restored neuroprotective gene profiles (bioenergetics, anti-inflammatory, synaptic plasticity)
+        - Continuous progesterone with estradiol produced gene expression patterns indistinguishable from hormone-depleted OVX conditions
+        - Continuous exposure appears to downregulate progesterone receptors and downstream neuroprotective pathways
+        - Inflammatory marker expression was higher under continuous vs cyclic progesterone
+    / *Conclusion:*: Key safety and efficacy concern for the oral progesterone ME/CFS hypothesis. Continuous daily progesterone supplementation may attenuate or abolish therapeutic effects through receptor downregulation. Implies that cyclic dosing regimens (e.g., days 1--14 of a 28-day cycle, or intermittent pulsing) would be pharmacologically preferable to continuous daily dosing.
+    / *Limitations:*: Rodent model only; translational relevance uncertain; does not study immune endpoints; hippocampal-focused; clinical protocols for ME/CFS not tested.
+    / *Certainty:*: 0.38
+
+=== Andreen et al.\ 2009 --- Biphasic GABA-A Effects of Allopregnanolone
+
+    @AndreenBackstrom2009negMood
+
+    / *Full Citation:*: Andreen L, Nyberg S, Turkmen S, van Wingen G, Fernandez G, Backström T. "Sex steroid induced negative mood may be explained by the paradoxical effect mediated by GABA-A modulators." _Psychoneuroendocrinology_. 2009;34(8):1121--1132.
+    / *DOI:*: #link("https://doi.org/10.1016/j.psyneuen.2009.02.003")[10.1016/j.psyneuen.2009.02.003]
+    / *PMID:*: 19272715
+    / *Study Design:*: Review and analysis of human experimental data; not a primary RCT.
+    / *Key Findings:*:
+        - Allopregnanolone produces biphasic dose-response at GABA-A receptors: low concentrations (luteal-phase equivalent, approximately 1--5 nM) paradoxically increase anxiety and negative mood
+        - Higher concentrations (above approximately 10 nM) produce sedation, anxiolysis, and positive mood effects
+        - Women with PMDD show exaggerated negative responses at low allopregnanolone concentrations due to altered GABA-A receptor subunit composition
+        - The paradoxical anxiogenic effect is mediated by altered alpha-4/delta subunit expression in GABA-A receptors
+    / *Conclusion:*: Important safety signal for the oral progesterone hypothesis in ME/CFS. Patients who achieve only low-to-moderate allopregnanolone levels (e.g., due to variable first-pass metabolism) may experience worsened anxiety, insomnia, or mood rather than improvement. Women with PMDD or pre-existing mood dysregulation are at elevated risk. Dose titration and monitoring for paradoxical response are essential.
+    / *Limitations:*: Review/analysis paper, not primary RCT; mechanism confirmed in rodent models, human data more limited; thresholds for paradoxical vs beneficial effects are not precisely established in clinical populations.
+    / *Certainty:*: 0.45
+
+=== Gur et al.\ 2004 --- Progesterone Levels Normal in Fibromyalgia and CFS (Null Result)
+
+    @Gur2004fibromyalgiaHormones
+
+    / *Full Citation:*: Gur A, Cevik R, Nas K, Sarac AJ, Colpan L, Em S. "Cortisol and hypothalamic-pituitary-gonadal axis hormones in follicular-phase women with fibromyalgia and chronic fatigue syndrome and effect of depressive symptoms on these hormones." _Arthritis Research & Therapy_. 2004;6(3):R232--R238.
+    / *DOI:*: #link("https://doi.org/10.1186/ar1163")[10.1186/ar1163]
+    / *PMID:*: 15142269
+    / *Study Design:*: Cross-sectional; n=176 women (46 controls, 68 fibromyalgia, 62 CFS); follicular-phase hormone sampling; Beck Depression Inventory for mood.
+    / *Key Findings:*:
+        - NULL RESULT: no significant differences in FSH, LH, estradiol, or progesterone between fibromyalgia/CFS patients and healthy controls
+        - Cortisol significantly lower in patient groups (consistent with HPA hypocortisolism pattern in ME/CFS)
+        - Depressive symptoms correlated with lower cortisol but not with HPG hormone levels
+    / *Conclusion:*: Confirms that ME/CFS and fibromyalgia are not characterised by progesterone deficiency. The oral progesterone hypothesis for ME/CFS is therefore a pharmacological intervention (raising progesterone above normal levels to exploit immune and neurosteroid effects) rather than hormone replacement. This is an important interpretive distinction.
+    / *Limitations:*: Follicular phase only (progesterone naturally low; luteal phase not assessed); cross-sectional design; no correlation with symptom severity; early 2003 CFS diagnostic criteria.
+    / *Certainty:*: 0.55
+
+=== Cevik et al.\ 2004 --- HPG Axis Normal Across Menstrual Cycle in CFS (Null Result, Replication)
+
+    @Cevik2004CFShormones
+
+    / *Full Citation:*: Cevik R, Gur A, Acar S, Nas K, Sarac AJ. "Hypothalamic-pituitary-gonadal axis hormones and cortisol in both menstrual phases of women with chronic fatigue syndrome and effect of depressive mood on these hormones." _BMC Musculoskeletal Disorders_. 2004;5:47.
+    / *DOI:*: #link("https://doi.org/10.1186/1471-2474-5-47")[10.1186/1471-2474-5-47]
+    / *PMID:*: 15588275
+    / *Study Design:*: Case-control; n=43 CFS, 35 healthy controls; premenopausal women; hormone sampling in both follicular and luteal phases.
+    / *Key Findings:*:
+        - NULL RESULT: no significant differences in FSH, LH, estradiol, or progesterone between CFS patients and controls in either menstrual phase
+        - Cortisol significantly lower in CFS group in both phases
+        - Depressive mood did not account for the cortisol difference
+        - Extends Gur 2004 by measuring both cycle phases, confirming luteal-phase progesterone also normal
+    / *Conclusion:*: Together with Gur 2004, provides consistent evidence across two independent cohorts that ME/CFS is not a progesterone-deficiency state. Importantly, normal luteal-phase progesterone (sampled in this study) confirms the baseline is intact --- any therapeutic effect of oral progesterone supplementation would be via supraphysiological immune/neurosteroid mechanisms.
+    / *Limitations:*: Small sample; premenopausal only; single-centre; no correlation with ME/CFS severity sub-groups.
+    / *Certainty:*: 0.52
