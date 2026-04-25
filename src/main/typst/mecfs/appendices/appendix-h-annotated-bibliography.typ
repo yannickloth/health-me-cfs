@@ -10831,3 +10831,328 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
         - *Quality:* Medium-high — _Healthcare_ (MDPI); peer-reviewed
         - *Replication:* NICE 2021 guideline change independently corroborates the critique
+
+// =============================================================================
+
+== Functional Capacity Assessment in ME/CFS (FUNCAP)
+<sec:bib-funcap>
+// =============================================================================
+
+=== Sommerfelt et al.\ 2024 — FUNCAP: Patient-Informed Functional Capacity Questionnaire
+
+    @Sommerfelt2024FUNCAP
+
+    / *Full Citation:*: Sommerfelt K, Schei T, Seton KA, Carding SR. Assessing Functional Capacity in Myalgic Encephalopathy/Chronic Fatigue Syndrome: A Patient-Informed Questionnaire. _Journal of Clinical Medicine_. 2024;13(12):3486.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm13123486")[10.3390/jcm13123486]
+    / *PMID:*: 38930014
+    / *PMCID:*: PMC11204454
+    / *Study Design:*: Questionnaire development and validation (5 rounds of web surveys + test-retest)
+    / *Sample Size:*: Norwegian sample n=1,263 ME/CFS + 178 HC; international English sample n=1,387 ME/CFS
+    / *Key Findings:*:
+        - Developed FUNCAP55 (55 items) and FUNCAP27 (27 items) questionnaire versions
+        - 8 domains: personal hygiene, walking/movement, being upright, home activities, communication, activities outside home, light/sound reactions, concentration
+        - Novel question design: asks about *consequences* of activity, not whether patient "can" do it
+        - Good reliability and validity; negligible floor/ceiling effects
+        - Discriminates ME/CFS severity levels (mild to very severe)
+        - Validated in two independent large samples (Norwegian + international English)
+        - Available in 8 languages (Dutch, English, French, German, Italian, Japanese, Norwegian, Swedish)
+        - CC BY license — free to use for clinical and research purposes
+    / *Conclusion:*: FUNCAP is the first patient-informed functional capacity questionnaire specifically designed for PEM-affected patients. It addresses a critical gap in ME/CFS assessment for diagnosis, follow-up, disability evaluation, and research.
+    / *Limitations:*: Cross-sectional validation only (no longitudinal sensitivity-to-change data yet); single-center development; no independent external validation study published as of 2026; JCM is a mid-tier MDPI journal.
+    / *Certainty:*: 0.70
+
+=== Weigel et al.\ 2024 — Symptom Clusters and Patient-Reported Outcomes in ME/CFS and PCC
+
+    @Weigel2024SymptomClusters
+
+    / *Full Citation:*: Weigel B, Eaton-Fitch N, Thapaliya K, Marshall-Gradisnik S. A pilot cross-sectional investigation of symptom clusters and associations with patient-reported outcomes in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Post COVID-19 Condition. _Quality of Life Research_. 2024;33(12):3229--3243.
+    / *DOI:*: #link("https://doi.org/10.1007/s11136-024-03794-x")[10.1007/s11136-024-03794-x]
+    / *PMID:*: 39361124
+    / *PMCID:*: PMC11599292
+    / *Study Design:*: Pilot cross-sectional
+    / *Sample Size:*: ME/CFS n=60, PCC n=30 (Australian residents)
+    / *Key Findings:*:
+        - Autonomic symptoms (notably dyspnoea) associated with poorest patient-reported outcomes across both cohorts
+        - No symptom clusters unique to ME/CFS or PCC — clusters delineated by GI/neurosensory symptoms, illness duration, criteria met
+        - Pain, flu-like symptoms, and temperature dysregulation more burdensome in PCC (possibly representing early-stage ME/CFS)
+        - Illness duration may explain differences in symptom burden between ME/CFS and PCC
+    / *Relevance to FUNCAP:*: Demonstrates need for tools like FUNCAP that capture functional capacity across PEM-affected populations (ME/CFS and PCC). Validates the construct that functional capacity is central to both conditions.
+    / *Limitations:*: Small sample (n=90 total); single center; cross-sectional; no use of FUNCAP itself
+    / *Certainty:*: 0.50
+
+=== Jason \& Chee 2025 — Brief Comprehensive Measure of Post-Exertional Malaise
+
+    @JasonChee2025PEMmeasure
+
+    / *Full Citation:*: Jason LA, Chee KJ. A brief, comprehensive measure of post-exertional malaise. _Exploration of Neuroprotective Therapy_. 2025.
+    / *DOI:*: #link("https://doi.org/10.37349/ent.2025.1004116")[10.37349/ent.2025.1004116]
+    / *Study Design:*: Questionnaire development
+    / *Key Findings:*:
+        - Develops a brief PEM measure complementing existing functional capacity tools
+        - Cites FUNCAP as validating that functional capacity has been "well assessed" in ME/CFS
+        - Addresses physical fatigue, reduced stamina/functional capacity as core PEM symptoms
+    / *Relevance to FUNCAP:*: Complementary PEM measurement tool; references FUNCAP as the standard for functional capacity assessment in ME/CFS
+    / *Limitations:*: New instrument without extensive validation data; small journal (Exploration of Neuroprotective Therapy)
+    / *Certainty:*: 0.50
+
+=== Goxhaj et al.\ 2026 — Negative Results in Long COVID Trials: Outcome Measures
+
+    @Goxhaj2026OutcomeMeasures
+
+    / *Full Citation:*: Goxhaj L, McCorkell L, van Rhijn-Brouwer F, Soares L, Vogel JM, de Canson C. Negative results in long COVID clinical trials: choosing outcome measures for a heterogeneous disease. _Lancet Infectious Diseases_. 2026;26(1):13--15.
+    / *DOI:*: #link("https://doi.org/10.1016/S1473-3099(25)00665-6")[10.1016/S1473-3099(25)00665-6]
+    / *PMID:*: 41213281
+    / *Study Design:*: Commentary/Editorial
+    / *Key Findings:*:
+        - Argues that poor outcome measure choice drives negative results in Long COVID trials
+        - Highlights FUNCAP as a functional capacity scale specifically designed for PEM-affected patients
+        - Emphasizes need for measures capturing the activity-limiting nature of ME/CFS
+        - Patient-led research collaborative authorship
+    / *Relevance to FUNCAP:*: Lancet Infectious Diseases commentary recommending FUNCAP as a functional capacity outcome measure for PEM-related conditions — significant endorsement in a top-tier journal
+    / *Limitations:*: Commentary, not original research; no new data
+    / *Certainty:*: 0.40
+
+=== Meadows et al.\ 2025 — LIFT Trial Protocol (FUNCAP-55 as Primary Outcome)
+
+    @Meadows2025LIFTprotocol
+
+    / *Full Citation:*: Meadows D, Squires J, Dibble J, Palwayi S, et al. Pyridostigmine and low-dose naltrexone for ME/CFS: study protocol for the Life Improvement Trial (LIFT), a randomized, double-blind, placebo-controlled clinical trial. _Research Square_ (preprint). 2025.
+    / *DOI:*: #link("https://doi.org/10.21203/rs.3.rs-5626167")[10.21203/rs.3.rs-5626167]
+    / *Study Design:*: RCT protocol (preprint)
+    / *Key Findings:*:
+        - FUNCAP-55 score designated as primary outcome measure
+        - Also measures peak VO#sub[2] and heart rate variability
+        - Tests combination of pyridostigmine + LDN for ME/CFS
+    / *Relevance to FUNCAP:*: First RCT to adopt FUNCAP-55 as primary outcome — validates its suitability as an interventional trial endpoint
+    / *Limitations:*: Preprint only (not peer-reviewed); protocol stage — no results yet
+    / *Certainty:*: 0.30
+
+// =============================================================================
+
+== JCM Special Issue 2025--2026: Infection-Associated Chronic Conditions
+<sec:bib-jcm-special-issue-2025>
+// =============================================================================
+
+=== Grach et al.\ 2025 — Voice and Speech Abnormalities as a Signal in ME/CFS
+
+    @Grach2025voiceSpeech
+
+    / *Full Citation:*: Grach SL, Seltzer J, Orbelo DM. "A Signal for Voice and Speech Abnormalities in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome." _Journal of Clinical Medicine_. 2025;14(14):4847.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm14144847")[10.3390/jcm14144847]
+    / *PMID:*: 40725538
+    / *Study Design:*: Mixed-methods online survey (Pacing Narrative Study dataset); n=685 participants, 302 qualitative respondents. Mayo Clinic + ME Action Network collaboration. First use of this dataset.
+    / *Key Findings:*:
+        - 9.27% of qualitative responses (38/410 mentions across 28 unique respondents) referenced voice or speech changes
+        - Voice and speech anomalies emerged spontaneously without direct prompting — suggesting salience to patients
+        - AI-assisted qualitative analysis applied to open-ended PEM-focused survey responses
+        - Proposes voice/speech as a potential digital biomarker for PEM detection and disease monitoring
+    / *Conclusion:*: This is a preliminary signal study rather than a validation study. The authors acknowledge the need for prospective acoustic measurement studies and do not claim diagnostic utility. The Pacing Narrative Study dataset focused on PEM experiences, making voice/speech findings incidental but clinically interesting.
+    / *Limitations:*: Self-selected online sample; no acoustic measurements; qualitative only; no control group; low absolute mention rate (9.27%); dataset not designed to capture voice/speech
+    / *Certainty:*: 0.35
+
+=== Issa et al.\ 2025 — Autonomic Dysfunction in ME/CFS: MCAM Multi-Site Study
+
+    @MCAM2025autonomic
+
+    / *Full Citation:*: Issa A, Lin J-M S, Chen Y, Attell J, Brimmer D, Bertolli J, Natelson BH, Lapp CW, Podell RN, Kogelnik AM, Klimas NG, Peterson DL, Bateman L, Unger ER; MCAM Study Group. "Autonomic Dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): Findings from the Multi-Site Clinical Assessment of ME/CFS (MCAM) Study in the USA." _Journal of Clinical Medicine_. 2025;14(17):6269.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm14176269")[10.3390/jcm14176269]
+    / *PMID:*: 40944028
+    / *Study Design:*: Multi-site cross-sectional study; n=442 (301 ME/CFS, 141 healthy controls); 7 specialist ME/CFS clinics across the USA. Tools: COMPASS-31 (Composite Autonomic Symptom Scale 31), NASA lean test, medical history review.
+    / *Key Findings:*:
+        - 97% of ME/CFS participants had at least one autonomic symptom (vs. controls, all p<0.0001)
+        - Higher burden across all three assessment tools: COMPASS-31, NASA lean test, medical history
+        - Orthostatic intolerance, gastrointestinal, and pupillomotor domain symptoms correlated with heightened illness severity
+        - Supports targeted dysautonomia assessment to guide symptom management
+    / *Conclusion:*: The largest multi-site US study of autonomic dysfunction in ME/CFS to date. The near-universal (97%) prevalence of autonomic symptoms, objectively confirmed by NASA lean test and COMPASS-31, provides high-quality evidence that dysautonomia is a core feature rather than an epiphenomenon of ME/CFS. The severity correlation with orthostatic intolerance domains is clinically actionable.
+    / *Limitations:*: Cross-sectional design precludes causal inference; specialist clinic sample (selection bias toward more severe or diagnosed patients); no longitudinal follow-up
+    / *Certainty:*: 0.75
+
+=== Goicoechea-Calvo et al.\ 2026 — Pediatric Pulmonary Rehabilitation in Post-COVID-19
+
+    @Goicoechea2026pediatricRehab
+
+    / *Full Citation:*: Goicoechea-Calvo A, Navarro Expósito N, Coll-Fernández R, Colomer Giralt M, Martín Saavedra A, González-Aumatell A, Méndez-Hernández M, Carreras-Abad C, Moreira M, Giralt-López M, Pallarès N, Tebe Cordomi C, Rodríguez-Palmero A, Rodrigo C, Durà Mata MJ. "Impact of Pulmonary Rehabilitation on Physical, Mental Health and Quality of Life in Children with Post-COVID-19 Condition: A 12-Month Quasi-Experimental Study." _Journal of Clinical Medicine_. 2026;15(2):535.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm15020535")[10.3390/jcm15020535]
+    / *PMID:*: 41598473
+    / *Study Design:*: Quasi-experimental (pre-post) study; n=115 pediatric post-COVID patients; mean age 13.3 years; 66.1% female; 12-month multidisciplinary pulmonary rehabilitation program. Spain.
+    / *Key Findings:*:
+        - 6-minute walk distance improved +37 m (509 to 546 m; p<0.001; Cohen's d=0.50)
+        - Handgrip strength improved +2.4 kg; breathing muscle strength +15 cmH#sub[2]O
+        - Fatigue scores improved by 9.3 points
+        - Psychiatric symptom scores decreased by 4.5 points (p<0.001)
+        - Overall well-being scores increased by 11 points
+        - Muscle imaging showed increased thickness and improved composition
+    / *Conclusion:*: Multidisciplinary pulmonary rehabilitation appears feasible and potentially effective for pediatric post-COVID patients. However, this is a quasi-experimental design without a control group, meaning improvements could reflect natural recovery, regression to the mean, or placebo effects in addition to any genuine rehabilitation benefit. The pediatric post-COVID population overlaps substantially with pediatric ME/CFS but is not identical.
+    / *Limitations:*: No control group (quasi-experimental); cannot exclude natural recovery; single center (Spain); diagnostic heterogeneity in "post-COVID" cohort; no PEM screening; no washout; 12 months may include spontaneous recovery trajectory
+    / *Certainty:*: 0.50
+
+=== Vink \& Vink-Niese 2026 — An Overview of Severe Myalgic Encephalomyelitis
+
+    @Vink2026severeME
+
+    / *Full Citation:*: Vink M, Vink-Niese A. "An Overview of Severe Myalgic Encephalomyelitis." _Journal of Clinical Medicine_. 2026;15(2):805.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm15020805")[10.3390/jcm15020805]
+    / *PMID:*: 41598742
+    / *Study Design:*: Narrative review. Authors previously published critiques of GET/CBT trial methodology (Healthcare 2022, other venues).
+    / *Key Findings:*:
+        - Severe ME/CFS diagnosed clinically; no diagnostic test exists
+        - Most severe cases: bedbound 24/7, dependent on carers, require dark/quiet environments
+        - Some patients require tube feeding due to life-threatening nutritional deficiency
+        - 2-day CPET (cardiopulmonary exercise testing) can document abnormal exercise response for research/disability purposes
+        - COVID-19 has substantially increased the pool of post-infectious ME/CFS cases
+        - No effective treatments currently available for severe ME/CFS
+        - Authors call for pharmacological intervention research using advanced medical technologies
+    / *Conclusion:*: Provides a comprehensive narrative overview of the most severely affected ME/CFS subgroup, who are largely invisible in clinical research due to inability to participate. The Vink authorship brings specific methodological critique expertise (prior publications on GET/PACE trial flaws). The paper underscores that severe ME/CFS represents an unmet need distinct from milder presentations that dominate trial populations.
+    / *Limitations:*: Narrative review (not systematic); potential author perspective bias given prior advocacy positions; no new primary data; severity definitions not uniformly operationalized across cited studies
+    / *Certainty:*: 0.60
+
+=== Blitshteyn 2026 — POTS, Menopause, and Hormone Replacement Therapy
+
+    @Blitshteyn2026POTSmenopause
+
+    / *Full Citation:*: Blitshteyn S. "Postural Orthostatic Tachycardia Syndrome, Menopause and Hormone Replacement Therapy: Clinical Decisions in Times of Uncertainty." _Journal of Clinical Medicine_. 2026;15(4):1477.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm15041477")[10.3390/jcm15041477]
+    / *PMID:*: 41753164
+    / *Study Design:*: Narrative review. Author is guest editor of this JCM special issue on infection-associated chronic conditions. Affiliation: Department of Neurology, University at Buffalo; Dysautonomia Clinic, Williamsville NY.
+    / *Key Findings:*:
+        - POTS predominantly affects women of reproductive age (≥30 bpm HR rise supine to standing, without orthostatic hypotension)
+        - Hormonal factors significantly modulate POTS: symptoms exacerbated during menstruation; pregnancy is a recognized trigger
+        - For women with significant menopausal symptoms and/or POTS exacerbation in peri-/postmenopause, HRT may be considered
+        - Vaginal estrogen appears to be the safest option; transdermal estrogen + micronized progesterone may address menopausal symptoms
+        - Long-term outcomes of HRT in POTS patients remain unknown
+    / *Conclusion:*: Addresses a clinically important gap: the management of POTS through the menopausal transition, where hormonal changes may worsen dysautonomia. The review is practical and appropriately cautious given sparse RCT evidence. Relevant for the ME/CFS population because a substantial subset has comorbid POTS, and sex-based differences in ME/CFS prevalence and presentation may partly relate to hormonal factors.
+    / *Limitations:*: Narrative review without systematic search; no RCT evidence for HRT in POTS specifically; author is a POTS specialist (potential perspective bias); limited generalizability to non-menopausal POTS
+    / *Certainty:*: 0.45
+
+=== Boris 2026 — Telemedicine Clinic for Pediatric and Young Adult POTS
+
+    @Boris2026POTStelemedicine
+
+    / *Full Citation:*: Boris JR. "Patient Characteristics of a Telemedicine Clinic for Pediatric and Young Adult Postural Orthostatic Tachycardia Syndrome." _Journal of Clinical Medicine_. 2026;15(4):1626.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm15041626")[10.3390/jcm15041626]
+    / *PMID:*: 41753313
+    / *Study Design:*: Retrospective analysis; n=277 adolescents and young adults with POTS; telemedicine clinic; median age 16.8 years; 88.1% female.
+    / *Key Findings:*:
+        - Suspected mast cell activation syndrome (MCAS) in 70% of cases
+        - Joint hypermobility in 78.3% (more prevalent in females); consistent with hypermobile EDS overlap
+        - Migraine in 51.6%; tension-type headache in 57.4%
+        - Head trauma or concussion history in ~40%
+        - Vestibular dysfunction and convergence disorder identified as previously underrecognized comorbidities
+        - Telemedicine format shown feasible for comprehensive POTS evaluation
+    / *Conclusion:*: Largest pediatric/young adult telemedicine POTS cohort to date. The high prevalence of MCAS (70%), joint hypermobility (78.3%), and neurological comorbidities (migraine, vestibular, convergence) in this cohort aligns with the emerging "dysautonomia triad" framework linking POTS, MCAS, and hypermobile connective tissue disorders. The concussion history finding (40%) raises questions about head trauma as a precipitant or comorbidity. Telemedicine feasibility is relevant for the severely affected ME/CFS subgroup.
+    / *Limitations:*: Retrospective single-center; telemedicine selection bias (patients able to attend video appointments); MCAS diagnosis based on suspicion rather than formal criteria in most cases; no ME/CFS diagnostic assessment performed
+    / *Certainty:*: 0.55
+
+// =============================================================================
+
+== Pregnancy and Reproductive Health in ME/CFS
+<sec:bib-pregnancy-reproductive-health>
+// =============================================================================
+
+=== Schacterle \& Komaroff 2004 — Pregnancy Outcomes Before and After CFS Onset
+
+    @Schacterle2004pregnancy
+
+    / *Full Citation:*: Schacterle RS, Komaroff AL. "A Comparison of Pregnancies That Occur Before and After the Onset of Chronic Fatigue Syndrome." _Archives of Internal Medicine_. 2004;164(4):401--404.
+    / *DOI:*: #link("https://doi.org/10.1001/archinte.164.4.401")[10.1001/archinte.164.4.401]
+    / *PMID:*: 14980991
+    / *Study Design:*: Retrospective questionnaire survey; n=86 women; 252 pregnancies compared (171 before CFS onset, 75 after onset, 43 live births after onset); patients used as own controls.
+    / *Key Findings:*:
+        - Spontaneous abortion rate 30% in pregnancies after CFS onset vs 8% before onset (statistically significant)
+        - Offspring developmental delays or learning disabilities: 21% (born after onset) vs 8% (born before onset)
+        - Symptom change during pregnancy: 41% no change, 30% improved, 29% worsened
+        - Most maternal complications (pre-eclampsia, gestational diabetes, mode of delivery) did not differ significantly by CFS status
+    / *Conclusion:*: The only quantitative primary study of pregnancy outcomes in CFS with an internal control design. Raises important signals for spontaneous abortion and offspring neurodevelopment that remain unreplicated. The within-person design (same women before and after CFS onset) partially controls for individual baseline risk, but cannot control for maternal age at time of pregnancy.
+    / *Limitations:*: Retrospective self-report with recall bias risk; no external age-matched control group; maternal age confound (post-onset pregnancies occur later in life); small post-onset live birth sample (n=43); published 2004 using Fukuda 1994 CFS criteria; no replication study published as of 2025.
+    / *Certainty:*: 0.42
+
+=== Slack et al.\ 2023 — ME/CFS and Pregnancy: Mixed-Methods Systematic Review
+
+    @Slack2023pregnancyReview
+
+    / *Full Citation:*: Slack E, Pears KA, Rankin J, Newton JL, Pearce M. "Identifying, synthesising and appraising existing evidence relating to myalgic encephalomyelitis/chronic fatigue syndrome and pregnancy: a mixed-methods systematic review." _BMJ Open_. 2023;13(10):e070366.
+    / *DOI:*: #link("https://doi.org/10.1136/bmjopen-2022-070366")[10.1136/bmjopen-2022-070366]
+    / *PMID:*: 37798026
+    / *PMCID:*: PMC10565252
+    / *Study Design:*: Mixed-methods systematic review (convergent segregated design); 16 included studies (4 quantitative, 11 qualitative, 1 mixed-methods) from 3,675 initially screened articles.
+    / *Key Findings:*:
+        - Evidence on ME/CFS and pregnancy is highly limited and findings are inconclusive
+        - Pregnancy effects on ME/CFS symptoms are individual and variable: different quantitative studies report 29--42% worsening, 27--30% improvement, and up to 41% no change
+        - Qualitative evidence emphasizes that experiences vary not only between people but between pregnancies in the same person
+        - Postpartum relapse (3--6 months after delivery) reported clinically; hypothesised mechanism: physiological reduction in blood volume plus sleep disruption
+        - Spontaneous abortion signal from Schacterle 2004 (30% vs 8%) has not been independently replicated
+        - Difficulty making parenthood decisions is a significant reported burden for people with ME/CFS
+    / *Conclusion:*: The most comprehensive synthesis of ME/CFS and pregnancy evidence to date. Confirms the extreme evidence gap: only 5 of 16 included studies are peer-reviewed, most have no control groups, and none are prospective with adequate power. Calls urgently for high-quality prospective controlled studies.
+    / *Limitations:*: Very limited primary evidence base to synthesise; no studies adjusted for maternal age confound; lack of standardised ME/CFS diagnostic criteria across studies; severely affected individuals under-represented in all studies.
+    / *Certainty:*: 0.52
+
+=== Thomas et al.\ 2022 — Sex Differences and Neuroendocrinology in ME/CFS
+
+    @Thomas2022sexDifferences
+
+    / *Full Citation:*: Thomas N, Gurvich C, Huang K, Gooley PR, Armstrong CW. "The underlying sex differences in neuroendocrine adaptations relevant to Myalgic Encephalomyelitis Chronic Fatigue Syndrome." _Frontiers in Neuroendocrinology_. 2022;66:100995.
+    / *DOI:*: #link("https://doi.org/10.1016/j.yfrne.2022.100995")[10.1016/j.yfrne.2022.100995]
+    / *PMID:*: 35421511
+    / *Study Design:*: Narrative review.
+    / *Key Findings:*:
+        - ME/CFS shows a 3:1 female predominance; sex dimorphism in prevalence, clinical phenotypes, and etiological triggers
+        - Female reproductive life events correlate with ME/CFS onset and symptom fluctuation: menarche, menstrual cycle phase, pregnancy, postpartum period, perimenopause
+        - Gonadal (estrogen, progesterone), adrenal (cortisol), and renal (aldosterone) neuroendocrine systems all implicated, each with established sex differences
+        - Estrogen is the most studied sex steroid in ME/CFS; menstrual cycle phase influences fatigue, pain, and cognitive function in ME/CFS patients
+        - Pregnancy is reported as a trigger for ME/CFS onset in 3--10% of cases; postpartum period is a recognized vulnerability window
+    / *Conclusion:*: Provides a theoretical framework for understanding why ME/CFS disproportionately affects women and why reproductive events modulate symptom onset and severity. The neuroendocrine mechanisms identified (especially HPA and HPG axis interactions) offer testable targets for future research. Relevant for interpreting the Schacterle 2004 pregnancy findings within a biological context.
+    / *Limitations:*: Narrative review without systematic search; no primary data; mechanistic claims require further experimental validation.
+    / *Certainty:*: 0.55
+
+=== Allen 2008 — CFS Implications for Women During the Childbearing Years
+
+    @Allen2008childbearing
+
+    / *Full Citation:*: Allen PR. "Chronic fatigue syndrome: implications for women and their health care providers during the childbearing years." _Journal of Midwifery & Women's Health_. 2008;53(4):289--301.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jmwh.2007.12.001")[10.1016/j.jmwh.2007.12.001]
+    / *PMID:*: 18586181
+    / *Study Design:*: Narrative review with clinical practice guidelines; not primary research.
+    / *Key Findings:*:
+        - Approximately 4 million people in the US have CFS; women predominantly affected
+        - Notes severe scarcity of scientific literature on the reproductive experience of women with CFS at time of publication
+        - Provides guidance for pregnancy, labour and birth, lactation, and postpartum care in the context of CFS
+        - Identifies that misperceptions among healthcare providers create significant burden for patients
+    / *Conclusion:*: Clinically useful framework for midwifery and obstetric providers caring for women with CFS during childbearing. The evidence gap it identifies in 2008 has only been partially addressed by the 2023 Slack systematic review.
+    / *Limitations:*: Narrative review; no systematic search; guidance not evidence-based in the strict sense; pre-2011 diagnostic criteria; not updated since publication.
+    / *Certainty:*: 0.38
+
+=== Compton et al.\ 2025 — Endometriosis and ME/CFS: Systematic Review and Meta-Analysis
+
+    @Compton2025endometriosis
+
+    / *Full Citation:*: Compton S, Alkabalan R, Cadet J, Mastali A, Ramdass PVK. "Endometriosis and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Systematic Review and Meta-Analysis." _Diagnostics_. 2025;15(18):2332.
+    / *DOI:*: #link("https://doi.org/10.3390/diagnostics15182332")[10.3390/diagnostics15182332]
+    / *PMID:*: 41008704
+    / *Study Design:*: Systematic review and meta-analysis (PRISMA 2020); 13 studies included (8 cross-sectional, 2 case-control, 3 cohort); study sample sizes ranged from 84 to 134,805 participants; publications 2002--2024.
+    / *Key Findings:*:
+        - Women with endometriosis have 2.79-fold higher odds (95% CI: 2.00--3.89) of developing ME/CFS compared to controls
+        - Pooled OR for ME/CFS--endometriosis association: 2.52 (95% CI: 2.45--2.60)
+        - ME/CFS prevalence in endometriosis patient populations: 17% (95% CI: 6--41%)
+        - Endometriosis prevalence in ME/CFS patient populations: 13% (95% CI: 5--31%)
+        - Minimal heterogeneity for association studies (I#super[2] = 0.0%); extreme heterogeneity for prevalence estimates (I#super[2] >98%)
+    / *Conclusion:*: First meta-analysis to quantify the ME/CFS--endometriosis comorbidity association. The 2.79-fold odds ratio is clinically meaningful and aligns with the broader pattern of ME/CFS co-occurring with conditions driven by immune dysregulation and chronic inflammation. Shared mechanisms may include neuroinflammation, HPA axis dysregulation, and altered immune tolerance. Relevant to gynecological assessment in ME/CFS patients.
+    / *Limitations:*: Predominantly cross-sectional designs preclude causal inference; 54% of studies used self-reported endometriosis diagnosis (not laparoscopic confirmation); extreme prevalence heterogeneity (I#super[2] >98%) cautions against pooled prevalence estimates; US-centric sample (11/13 studies); only 23% of studies used standardised ME/CFS diagnostic criteria.
+    / *Certainty:*: 0.58
+
+=== Pollack et al.\ 2023 — Female Reproductive Health in Long COVID and ME/CFS
+
+    @Pollack2023reproductiveHealth
+
+    / *Full Citation:*: Pollack B, von Saltza E, McCorkell L, Santos L, Hultman A, Cohen AK, Soares L. "Female reproductive health impacts of Long COVID and associated illnesses including ME/CFS, POTS, and connective tissue disorders: a literature review." _Frontiers in Rehabilitation Sciences_. 2023;4:1122673.
+    / *DOI:*: #link("https://doi.org/10.3389/fresc.2023.1122673")[10.3389/fresc.2023.1122673]
+    / *PMID:*: 37234076
+    / *Study Design:*: Literature review; not primary research.
+    / *Key Findings:*:
+        - Long COVID, ME/CFS, POTS, and EDS disproportionately affect premenopausal women (70--80% female in affected populations)
+        - Long COVID may cause menstrual cycle disruptions, gonadal dysfunction, premature ovarian insufficiency, and adverse pregnancy outcomes
+        - Associated conditions show elevated rates of dysmenorrhea, amenorrhea, infertility, and endometriosis
+        - Critical knowledge gaps: how sex hormones, menstrual cycle phase, pregnancy, and menopause influence symptom progression in these conditions
+        - Historical inequities in medical research for predominantly female patient populations have contributed to the evidence gap
+    / *Conclusion:*: Provides a broad overview of the intersection of post-infectious illness and female reproductive health. Useful for contextualising ME/CFS pregnancy findings within the wider Long COVID/POTS/EDS cluster. Identifies the same evidence gap as Slack 2023 but from a broader infection-associated illness perspective.
+    / *Limitations:*: Literature review without systematic search; Long COVID literature is very recent and rapidly evolving; conflates several distinct conditions; no primary data; some claims extrapolated from associated conditions rather than ME/CFS specifically.
+    / *Certainty:*: 0.45

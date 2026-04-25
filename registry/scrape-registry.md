@@ -284,3 +284,19 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/39697147/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — Larun2024exerciseCFS — Cochrane exercise review updated Dec 2024 acknowledged-but-discounted bias |
 | https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1681990/full | frontiersin | 2026-04-21 | 2026-04-21 | ch17/bib — Wei2025exerciseMECFS — exercise meta-analysis 13 RCTs same structural flaw |
 | https://www.sciencedirect.com/science/article/pii/S2589004225024393 | sciencedirect | 2026-04-21 | 2026-04-21 | ch17/bib — Liao2025exerciseNetwork — network meta-analysis 20 trials same structural flaw |
+| https://pubmed.ncbi.nlm.nih.gov/40725538/ | pubmed | 2026-04-23 | — | ch20/ch02/ch05/bib/appendix-h — Grach2025voiceSpeech — voice speech abnormalities ME/CFS Pacing Narrative Study AI analysis |
+| https://pubmed.ncbi.nlm.nih.gov/40944028/ | pubmed | 2026-04-23 | — | ch09/ch14d/ch20/bib/appendix-h — MCAM2025autonomic — autonomic dysfunction MCAM multi-site n=442 COMPASS-31 NASA lean test |
+| https://pubmed.ncbi.nlm.nih.gov/41598473/ | pubmed | 2026-04-23 | — | ch17/ch24/bib/appendix-h — Goicoechea2026pediatricRehab — pediatric post-COVID pulmonary rehab 12-month n=115 quasi-experimental |
+| https://pubmed.ncbi.nlm.nih.gov/41598742/ | pubmed | 2026-04-23 | — | ch05/ch03/ch14a/bib/appendix-h — Vink2026severeME — severe ME overview bedbound 2-day CPET no effective treatments |
+| https://pubmed.ncbi.nlm.nih.gov/41753164/ | pubmed | 2026-04-23 | — | ch14d/ch23/bib/appendix-h — Blitshteyn2026POTSmenopause — POTS menopause HRT clinical review vaginal estrogen transdermal |
+| https://pubmed.ncbi.nlm.nih.gov/41753313/ | pubmed | 2026-04-23 | — | ch14d/ch05/ch23/bib/appendix-h — Boris2026POTStelemedicine — pediatric POTS telemedicine n=277 MCAS 70% hypermobility 78% |
+| https://www.funcap.no/ | funcap.no | 2026-04-23 | — | content-staging/literature-funcap-2026-04-23.md — FUNCAP questionnaire official site; questionnaire downloads 8 languages; CC BY license |
+| https://www.funcap.no/translations-2/funcap-in-french/ | funcap.no | 2026-04-23 | — | content-staging/literature-funcap-2026-04-23.md — FUNCAP French translation page; downloads FUNCAP55/27 PDF+DOCX |
+| https://www.funcap.no/funcap-resources/ | funcap.no | 2026-04-23 | — | content-staging/literature-funcap-2026-04-23.md — FUNCAP resources page; links to Sommerfelt 2024 open-access paper |
+| https://www.funcap.no/funcap-news/ | funcap.no | 2026-04-23 | SKIP — News page empty (no posts) | content-staging/literature-funcap-2026-04-23.md — no content |
+| https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/216675 | jamanetwork | 2026-04-25 | 2026-04-25 | bib/appendix-h — Schacterle2004pregnancy — CFS pregnancy outcomes n=86 women; spontaneous abortion 30% vs 8%; offspring developmental delays 21% vs 8% |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10565252/ | pmc | 2026-04-25 | 2026-04-25 | bib/appendix-h — Slack2023pregnancyReview — ME/CFS pregnancy mixed-methods systematic review 16 studies; evidence limited and inconclusive |
+| https://pubmed.ncbi.nlm.nih.gov/35421511/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Thomas2022sexDifferences — ME/CFS sex differences neuroendocrinology 3:1 female ratio reproductive events |
+| https://pubmed.ncbi.nlm.nih.gov/18586181/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Allen2008childbearing — CFS women childbearing years clinical review midwifery guidelines |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12468137/ | pmc | 2026-04-25 | 2026-04-25 | bib/appendix-h — Compton2025endometriosis — endometriosis ME/CFS meta-analysis OR=2.79 13 studies |
+| https://pubmed.ncbi.nlm.nih.gov/37234076/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Pollack2023reproductiveHealth — female reproductive health Long COVID ME/CFS POTS literature review |

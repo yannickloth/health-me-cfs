@@ -138,6 +138,222 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
 ) <tab:hypothesis-registry-2026-03-21>
 ] // end landscape page
 
+=== Entries Added 2026-04-23: FUNCAP and Functional Capacity Assessment
+
+Motivated by: funcap.no website; Sommerfelt2024FUNCAP and related literature; systematic creative brainstorming (30 ideas generated).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [The Consequence Gap as PEM Biomarker],
+    [S], [0.40],
+    [SF-36 minus FUNCAP discrepancy measures PEM-specific functional limitation. (a) Gap correlates with 2-day CPET VO#sub[2]max decline (r > 0.4). (b) Gap correlates with post-exercise IL-6/TNF-alpha elevation at 24h. (c) Gap correlates with DSQ-PEM severity.],
+    [Cohort study (n >= 100) with SF-36 + FUNCAP + 2-day CPET + cytokines. Novel derived metric—no existing data.],
+    [Ch.23],
+
+    [Domain-Specific Subtyping from FUNCAP Profiles],
+    [S], [0.30],
+    [FUNCAP 8-domain patterns map onto pathophysiological subtypes (autonomic, immune, metabolic, neurocognitive). (a) Unsupervised clustering produces 3-5 stable clusters. (b) Clusters differ in comorbidity profile (POTS, FM, neurocognitive tests). (c) Clusters show different treatment response patterns.],
+    [Cluster analysis of FUNCAP data in n >= 200 patients. Feasible once FUNCAP adoption increases. Novel application—no existing studies.],
+    [Ch.5 / Ch.20],
+
+    [Anchor Domain Hypothesis: Differential Sensitivity to Treatment],
+    [S], [0.35],
+    [Not all FUNCAP domains equally sensitive to treatment effects. "Anchor domains" change earliest and most robustly, predicting treatment mechanism. (a) Pyridostigmine: "being upright" improves first. (b) LDN: "light/sound reactions" improves first. (c) Domain effect sizes differ significantly within treatments.],
+    [LIFT trial analysis (n = ?) by domain. Longitudinal FUNCAP data needed. Untested prediction—requires trial with domain-level analysis.],
+    [Ch.21],
+
+    [The Severity Floor Effect Paradox],
+    [H], [0.55],
+    [FUNCAP detects sub-Karnofsky-10 deterioration that SF-36 misses, creating classification disagreement in critical range. (a) FUNCAP shows significant variance (SD/mean > 0.15) in severe patients where SF-36 at floor. (b) FUNCAP sub-levels predict care requirements independent of Karnofsky.],
+    [Cohort of severe patients (Bell < 10) with both instruments. Feasible—severe patients exist. Novel comparison—not yet done.],
+    [Ch.5],
+
+    [The Consequence Economy: Inter-Domain Substitution],
+    [S], [0.30],
+    [Patients trade functional capacity across FUNCAP domains to stay within energy envelope. (a) High negative correlation between domain pairs across time indicates substitution. (b) Patients with high substitution show more stable total FUNCAP scores. (c) Low substitution correlates with volatile courses and frequent PEM crashes.],
+    [Time-use diary study + weekly FUNCAP-27 for 12 weeks. Feasible but resource-intensive. Novel framework—not tested.],
+    [Ch.17 / Ch.32],
+
+    [Definitive FUNCAP Validation Study],
+    [OQ], [---],
+    [Multi-center, multi-country study (n >= 500 ME/CFS, 200 HC, 100 Long COVID). Test convergent validity, known-groups validity, floor/ceiling effects, cross-cultural DIF, cross-disease validity. Primary: Does FUNCAP-55 discriminate severity better than SF-36? (ROC AUC comparison).],
+    [Feasible (CC BY license, 8 languages). Estimated cost: $300-500K. Highest priority study in field—not yet done.],
+    [Ch.25b],
+
+    [FUNCAP Longitudinal Sensitivity-to-Change],
+    [OQ], [---],
+    [Prospective cohort (n >= 300, severity-stratified). FUNCAP-27 monthly for 12 months + PEM event log. Determine MCID, responsiveness to deterioration/improvement, test-retest reliability. Key innovation: test whether FUNCAP detects delayed consequences of PEM crashes.],
+    [Feasible (remote administration). Estimated cost: $100-200K. No longitudinal data exist—critical gap before trial endpoint use.],
+    [Ch.25b],
+
+    [Head-to-Head: FUNCAP vs. SF-36 vs. WHODAS],
+    [OQ], [---],
+    [Cross-sectional n >= 400 ME/CFS (severity-stratified). All three instruments + 2-day CPET subset (n >= 80). Compare floor/ceiling effects, correlation with objective measures, patient preference, clinician usability. Direct evidence that FUNCAP outperforms generic tools would drive adoption.],
+    [Feasible (requires CPET for objective benchmark). Estimated cost: $200-400K. No direct comparison exists—advocacy gap.],
+    [Ch.25b],
+
+    [FUNCAP Digital Adaptation for Real-Time PEM Monitoring],
+    [OQ], [---],
+    [Convert FUNCAP-27 to mobile app with daily micro-assessment (3-5 items/day rotating through all 27). Pair with wearable data (HRV, steps, sleep). Test whether daily FUNCAP domain scores predict PEM crashes 24-72h before onset. Consequence items may provide earlier warning than capability items.],
+    [App development + validation study. Estimated cost: $150-250K. Novel application—no existing digital adaptation.],
+    [Ch.25b / Ch.33],
+
+    [Cross-Cultural FUNCAP Validation],
+    [OQ], [---],
+    [Administer FUNCAP-55 in all 8 language versions to ME/CFS patients in 8 countries (n >= 100 per language/country). Test differential item functioning (DIF) to determine whether items behave differently across cultures. Identify items needing cultural adaptation.],
+    [Feasible (requires international collaboration). CC BY license facilitates. Estimated cost: $200-300K. Essential for international trials—not yet done.],
+    [Ch.25b],
+
+    [Domain-Guided Pharmacotherapy],
+    [S], [0.30],
+    [Match drugs to patient's dominant impaired FUNCAP domain. Pyridostigmine for "being upright", LDN for "light/sound reactions", methylphenidate for "concentration", CoQ10+NADH for "walking/movement". (a) Domain-stratified RCT shows greater improvement on matched domain than non-matched treatment.],
+    [Domain-stratified RCT design. Feasible but requires large sample. Novel approach—no domain-specific trials exist.],
+    [Ch.15],
+
+    [Pyridostigmine Dose Titration by "Being Upright" Domain],
+    [S], [0.40],
+    [The "being upright" FUNCAP domain serves as patient-reported pharmacodynamic biomarker for pyridostigmine dose optimization. (a) Domain score shows monotonic dose-response (or plateau at effective dose). (b) Other domains show minimal change.],
+    [Pyridostigmine dose-escalation study (30mg -> 60mg -> 90mg TID). Feasible within existing trial framework. Untested titration strategy.],
+    [Ch.15],
+
+    [LDN Sequential Domain Recovery Trajectory],
+    [S], [0.25],
+    [If LDN works via microglial modulation/TRPM3 restoration, predicted recovery sequence: light/sound reactions first → concentration → communication/home activities → walking/movement/being upright last. (a) "Light/sound reactions" improves earliest (month 1-2). (b) "Concentration" improves next (month 2-3). (c) Physical domains show smallest/latest change.],
+    [Longitudinal LDN trial with monthly FUNCAP-27. Feasible but requires long follow-up. Speculative sequence—LIFT results will test.],
+    [Ch.15],
+
+    [Creatine for Cognitive FUNCAP Domains],
+    [S], [0.35],
+    [Creatine (5g/day) preferentially improves FUNCAP domains requiring rapid neural ATP turnover: concentration and communication. (a) Cognitive domains show significantly greater improvement than physical domains. (b) Effect correlates with working memory tests.],
+    [Creatine vs. placebo RCT (n >= 60, 8-week crossover). Feasible. ME/CFS-specific cognitive effects untested. Domain-specific prediction novel.],
+    [Ch.16],
+
+    [Magnesium L-Threonate for Sensory Domain],
+    [S], [0.25],
+    [Magnesium L-threonate (144mg elemental Mg/day) reduces "light/sound reactions" FUNCAP domain via NMDA receptor modulation and enhanced glymphatic clearance. (a) Reduces domain score more than magnesium citrate or placebo. (b) Effect correlates with sensory threshold testing.],
+    [8-week RCT. Feasible. Sensory hypersensitivity effects untested in any condition. Speculative mechanism.],
+    [Ch.16],
+
+    [CoQ10+NADH Expected Non-Response Pattern],
+    [S], [0.35],
+    [CoQ10+NADH improves fatigue VAS but NOT FUNCAP domain scores—tests genuine functional benefit vs. perceived energy. (a) Fatigue VAS shows improvement (replicating Castro-Marrero). (b) FUNCAP scores show minimal change. (c) If FUNCAP also improves, contradicts perception-performance gap hypothesis.],
+    [CoQ10+NADH RCT with both outcomes. Feasible. Prediction of non-response is valuable falsification test.],
+    [Ch.16],
+
+    [FUNCAP-Informed Domain-Targeted Pacing],
+    [H], [0.45],
+    [Weekly FUNCAP-27 identifies deteriorating domains, enabling domain-targeted pacing adjustments. (a) Domain-targeted pacing shows greater total FUNCAP improvement than generic pacing. (b) Same total activity restriction, different distribution.],
+    [12-week pacing intervention RCT. Feasible (free tool). Clinically sensible—sensitivity of weekly assessment unknown.],
+    [Ch.17],
+
+    [HRV-Guided Pacing with FUNCAP Outcomes],
+    [S], [0.40],
+    [Wearable HRV monitoring + FUNCAP-27 monthly outcome tests whether HRV-guided pacing produces functional improvement. (a) Significant FUNCAP improvement at 12 weeks vs. baseline. (b) "Being upright" and "walking/movement" most improved. (c) FUNCAP improvement correlates with HRV improvement metrics.],
+    [HRV-guided pacing study with FUNCAP outcomes. Feasible. HRV-guided pacing established (89% adherence at 8 weeks). FUNCAP adds validated outcome.],
+    [Ch.17],
+
+    [FUNCAP-Guided Environmental Modification],
+    [H], [0.50/0.35],
+    ["Light/sound reactions" domain quantifies target for environmental interventions. (a) Top-quartile patients show greater improvement from dark/quiet protocol than bottom-quartile. (b) Domain score tracks intervention effectiveness.],
+    [4-week environmental modification RCT stratified by domain score. Feasible. Individual interventions validated—domain tracking novel.],
+    [Ch.17],
+
+    [The FUNCAP Disability Package],
+    [H], [0.45],
+    [Composite package (FUNCAP-55 + 2-day CPET + COMPASS-31 + actigraphy) provides convergent validation harder to dismiss than single instrument. Addresses all limitations of individual tools.],
+    [Standardization of composite protocol. Each component validated individually—combination novel. Practical: requires multiple assessments.],
+    [Ch.5 / Ch.23],
+
+    [Caregiver-Administered FUNCAP for Severe Patients],
+    [S], [0.40],
+    [Develop caregiver proxy version for patients who cannot self-report. Consequence-based items amenable to proxy completion. (a) Caregiver scores correlate at r >= 0.70 with patient self-report in moderate ME/CFS. (b) Proxy scores show discriminant validity across severe sub-levels.],
+    [Proxy validation study. Feasible (moderate patients provide both reports). Addresses critical gap in severe assessment.],
+    [Ch.6 / Ch.25b],
+
+    [FUNCAP-27 as Standardized ePRO for Trials],
+    [OQ], [---],
+    [Standardize FUNCAP-27 as remote patient-reported outcome for ME/CFS trials, replacing heterogeneous fatigue scales. Brief (27 items), validated, PEM-specific, freely available. Enables cross-trial comparison and meta-analysis.],
+    [Adoption initiative (not research question). Barrier is adoption, not validity. Requires consensus among trialists.],
+    [Ch.21 / Ch.25b],
+
+    [FUNCAP Score as Observable of Ratchet Model B(t)],
+    [S], [0.35/0.20],
+    [Map FUNCAP total score onto ratchet model's baseline functional capacity B(t). B(t) ≈ FUNCAP_total(t) / 55 (linear) or IRT-calibrated function. (a) Recovery rate nonlinear across severity levels (piecewise model fits better than linear). (b) Same absolute change represents different biological recovery at different severity.],
+    [Longitudinal FUNCAP data + IRT calibration of Sommerfelt2024 data. Feasible but requires reanalysis of raw data. Novel mathematical bridge—untested.],
+    [Ch.31],
+
+    [Domain-Specific Differential Equations],
+    [S], [0.20],
+    [Extend ratchet model from scalar B(t) to vector B_domain(t) with 8 domain-specific damage/repair dynamics. dB_i/dt = r_i(B_i) · [ATP] - Σ_k d_ik · damage_k(t). (a) Domain scores show partially independent trajectories. (b) Physical crashes affect physical domains more than cognitive. (c) Cognitive crashes show reverse pattern.],
+    [Longitudinal weekly FUNCAP-27 data. Feasible but extensive. Mathematically straightforward—requires calibration data that doesn't exist.],
+    [Ch.31],
+
+    [Consequence-Damage Coupling Model],
+    [S], [0.25],
+    [Formalize relationship between FUNCAP consequence scores and damage accumulation rate. damage_rate(t) = α · activity(t) · consequence_score(t). Consequence_score may increase as damage accumulates (sensitization), creating feed-forward loop. (a) Higher consequence scores predict faster functional decline. (b) Requires controlling for activity level via actigraphy.],
+    [Longitudinal study with FUNCAP + actigraphy. Feasible. Sensitization component speculative—basic coupling consistent with observation.],
+    [Ch.31],
+
+    [FUNCAP in Long COVID Trials],
+    [S], [0.35],
+    [Long COVID trials using FUNCAP as primary outcome should show larger treatment effects than trials using generic measures—not because treatments work better, but because FUNCAP detects improvement generic measures miss. (a) Reanalysis of completed datasets shows larger effect sizes with FUNCAP. (b) Effect concentrated in PEM-related domains.],
+    [Retrospective analysis of completed trial datasets. Feasible if symptom data available. Untested prediction—requires trial to adopt FUNCAP prospectively.],
+    [Ch.13 / Ch.24],
+
+    [FUNCAP for Functional Neurological Disorder],
+    [S], [0.15],
+    [Consequence-based design applicable to FND, where activity consequences (symptom exacerbation, functional dissociation) are central. (a) FND patients show elevated scores in symptom-relevant domains with relative sparing of others. (b) FUNCAP discriminates FND subtypes.],
+    [FND cohort study. Highly speculative. FND has different pathophysiology (functional vs. organic). Consequence-based questioning may still be useful.],
+    [Ch.24],
+
+    [Post-Concussion Syndrome and FUNCAP],
+    [S], [0.20],
+    [Post-concussion syndrome shares PEM-like exercise intolerance and cognitive fatigue with ME/CFS. (a) ~40% head trauma/concussion history in POTS (Boris2026). (b) FUNCAP captures functional limitations standard assessments miss.],
+    [Post-concussion cohort study. Overlap documented—FUNCAP not tested in this population.]
+    [Ch.13],
+
+    [FUNCAP as Trans-Diagnostic Tool for Functional Somatic Syndromes],
+    [S], [0.20],
+    [Consequence gap (FUNCAP minus SF-36) may identify patients across functional somatic syndromes (ME/CFS, FM, IBS, TMJ) who share PEM-like mechanism. (a) Gap highest in ME/CFS, intermediate in FM, lowest in IBS/TMJ. (b) Gradient supports exertion-intolerance spectrum hypothesis.],
+    [Mixed cohort study (ME/CFS, FM, IBS, TMJ). Speculative. Requires large multi-condition dataset.],
+    [Ch.13 / Ch.14d],
+
+    [FUNCAP + Wearable Composite "Functional Fingerprint"],
+    [S], [0.30],
+    [Combine FUNCAP domain scores with 14-day wearable data (steps, HRV, sleep efficiency, activity regularity) for multi-dimensional classification. (a) ML classifier discriminates ME/CFS from depression, hypothyroidism, deconditioning with AUC >= 0.85. (b) Composite outperforms individual components.],
+    [ML classification study with FUNCAP + wearable data. Feasible. Composite approaches typically outperform single markers. Specific combination novel.],
+    [Ch.20 / Ch.33],
+
+    [FUNCAP Domain Trajectory as Treatment Response Predictor],
+    [S], [0.30],
+    [Pattern of domain score changes over first 4 weeks predicts long-term response. (a) Early improvement in any domain predicts 12-week total score response (PPV >= 0.70). (b) Flat trajectories across all domains at 4 weeks predict non-response. Placebo response diffuse; genuine response domain-specific.],
+    [Pooled analysis of ME/CFS treatment trials using FUNCAP-27 monthly. Feasible once trials adopt FUNCAP. Early-responder concept established in psychiatry—novel for ME/CFS.],
+    [Ch.21],
+
+    [FUNCAP-Based Severity Stratification for Trial Enrollment],
+    [OQ], [---],
+    [Use FUNCAP total score ranges to define trial enrollment strata: Mild (40-55), Moderate (25-39), Severe (10-24), Very Severe (0-9). Enables severity-stratified randomization and subgroup analysis calibrated to outcome measure itself.],
+    [Calibration required (FUNCAP scores across severity spectrum in single cohort). Concept straightforward—data doesn't exist yet.],
+    [Ch.21 / Ch.25b],
+
+    [The "Consequence Threshold" as PEM Diagnostic Criterion],
+    [S], [0.25],
+    [Specific FUNCAP pattern (high consequence scores, moderate-to-low capability scores) could serve as PEM diagnostic criterion. (a) Identifies PEM-positive patients with sensitivity >= 0.85, specificity >= 0.80 against clinical diagnosis. (b) More specific than current criteria (relying on patient history).],
+    [Cohort study with FUNCAP + clinical PEM diagnosis (2-day CPET or expert assessment). Concept appealing—requires empirical calibration. What specific score pattern constitutes positive screen?],
+    [Ch.4 / Ch.20],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from FUNCAP integration (2026-04-23). 30 ideas generated: 5 hypotheses, 5 research directions, 3 drug ideas, 3 supplement ideas, 3 non-pharmacological, 3 access, 3 model extensions, 4 cross-disease bridges, 4 diagnostic ideas. Top 10 by impact/feasibility: validation study (2.1), longitudinal sensitivity (2.2), head-to-head (2.3), consequence gap (1.1), FUNCAP-informed pacing (5.1), domain-guided pharmacotherapy (3.1), caregiver proxy (6.2), FUNCAP + wearable composite (9.1), digital adaptation (2.4), FUNCAP as B(t) observable (7.1).],
+) <tab:hypothesis-registry-2026-04-23>
+] // end landscape page
+
 === Entries Added 2026-03-23: Causal Hierarchy Extensions
 
 Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 formal modeling; 12-idea development from brainstorm-causal-hierarchy-extensions.md.
@@ -3908,5 +4124,97 @@ Motivated by: creative synthesis of piecewise biophysical recovery scaling impli
   caption: [Entries added 2026-04-21: Consequences of piecewise recovery scaling for clinical management, monitoring, and model extensions.],
   kind: table,
 ) <tab:hypothesis-registry-2026-04-21-scaling-consequences>
+] // end landscape page
+
+=== Entries Added 2026-04-25: Reproductive Health and Pregnancy Outcomes
+
+Motivated by: Schacterle & Komaroff 2004 @Schacterle2004pregnancy (retrospective ME/CFS pregnancy outcomes); Slack et al.\ 2023 systematic review @Slack2023pregnancyReview; Thomas et al.\ 2022 sex differences @Thomas2022sexDifferences; Compton et al.\ 2025 endometriosis meta-analysis @Compton2025endometriosis.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Postpartum Immune Reconstitution as ME/CFS Onset and Relapse Trigger],
+    [S], [0.30],
+    [Postpartum progesterone/estrogen collapse triggers maladaptive immune reconstitution in susceptible women, precipitating ME/CFS onset or relapse. Symptom improvement during pregnancy correlates with progesterone levels; relapse timing correlates with rate of hormonal withdrawal.],
+    [Longitudinal hormonal profiling (progesterone, estrogen) paired with symptom assessment in ME/CFS patients during and after pregnancy. Receptor polymorphism association study. Postpartum progesterone supplementation trial (safety permitting). No studies exist yet.],
+    [Ch.23 @spec:postpartum-immune-reconstitution],
+
+    [Does Maternal ME/CFS Causally Elevate Offspring Neurodevelopmental Risk?],
+    [OQ], [—],
+    [If Schacterle 2004 finding (offspring developmental delays 21% vs 8%) replicates, what is the causal mechanism? Three competing candidates: (1) maternal immune activation (cytokines crossing placenta), (2) reduced placental perfusion (autonomic cardiovascular dysfunction), (3) medication effects.],
+    [Prospective cohort ($n gt.eq 200$) ME/CFS mothers followed through 12 months postpartum with matched controls. Offspring neurodevelopmental follow-up at 2 and 5 years. No study exists; a critical research gap.],
+    [Ch.23 @oq:offspring-neurodevelopment],
+  ),
+  caption: [Entries added 2026-04-25: Reproductive health and pregnancy outcomes — postpartum immune reconstitution and offspring neurodevelopment.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-25-reproductive>
+] // end landscape page
+
+=== Entries Added 2026-04-25: Reproductive Health Mechanisms and Cycle-Based Pacing
+
+Motivated by: creative synthesis of pregnancy/reproductive health literature (@Schacterle2004pregnancy, @Slack2023pregnancyReview, @Thomas2022sexDifferences, @Compton2025endometriosis, @boneva2015menopause).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Pregnancy as a Natural ME/CFS Subtype Stratifier],
+    [S], [0.35],
+    [The 30/29/41 improve/worsen/unchanged split in ME/CFS pregnancy could reveal three subtypes: autoimmune-dominant (improvers, via Th2 shift), dysautonomia/POTS-dominant (improvers, via blood-volume expansion), metabolic/mitochondrial-dominant (worsen, demand exceeds reserves). Proportions are noise-consistent at $n = 86$; requires prospective pre-stratification. Pre-pregnancy stratification by autoantibody panel + tilt-table + CPET predicted to give concordance > 0.60.],
+    [Prospective cohort study pre-stratifying ME/CFS women before pregnancy. No such study exists. Requires registry infrastructure.],
+    [Ch.23 @spec:pregnancy-subtype-stratifier],
+
+    [PRIS: Postpartum Immune Reconstitution Inflammatory Syndrome],
+    [S], [0.35],
+    [Postpartum immune reconstitution against latent viral reservoirs (EBV, HHV-6) causes IRIS-like syndrome at 3--6 months postpartum. Women developing ME/CFS postpartum will show higher 1st-trimester viral loads and steeper Treg decline between 3rd trimester and 3 months postpartum than healthy controls.],
+    [Longitudinal viral load + Treg measurement in pregnant ME/CFS women. No studies exist. Biobanking of trimester samples required.],
+    [Ch.23 @spec:pris-postpartum],
+
+    [Allopregnanolone Withdrawal as Postpartum ME/CFS Crash Driver],
+    [S], [0.25],
+    [Precipitous postpartum drop in allopregnanolone (GABA-A modulator, 10--100$times$ elevated in pregnancy) amplifies ME/CFS autonomic and HPA dysregulation. Postpartum ME/CFS onset women show steeper allopregnanolone decline trajectory; gradual progesterone taper reduces ME/CFS onset in high-risk women.],
+    [Longitudinal allopregnanolone profiling in pregnancy through postpartum. Progesterone taper RCT (postpartum, n~150). Brexanolone-PPD literature provides mechanistic precedent.],
+    [Ch.23 @spec:allopregnanolone-postpartum],
+
+    [Endometriosis--ME/CFS Shared Mast Cell and Neuroinflammatory Axis],
+    [S], [0.35],
+    [OR 2.79 association reflects shared mast cell hyperactivation, peripheral nerve sensitization, and estrogen-driven inflammation. ME/CFS + endometriosis patients show higher tryptase, IL-1β, NGF than ME/CFS alone. Endometriosis excision reduces ME/CFS severity by > 20% in > 40% of dual-diagnosis patients.],
+    [Immune profiling: ME/CFS vs ME/CFS+endo cohorts. Endometriosis excision pragmatic RCT. No studies exist; requires gynecology--ME/CFS collaboration.],
+    [Ch.23 @spec:endometriosis-mast-cell],
+
+    [Iron--Hepcidin Axis: Functional Iron Deficiency in ME/CFS Women],
+    [S], [0.22],
+    [Chronic inflammation elevates hepcidin, blocking iron absorption and impairing mitochondrial enzymes (cytochrome c oxidase, aconitase). Elevated hepcidin/ferritin ratio predicts IV iron response. IV iron improves fatigue in hepcidin-elevated subgroup vs normal-hepcidin ME/CFS (effect size difference > 0.4 SD).],
+    [Hepcidin assay in ME/CFS women with menorrhagia history. IV iron RCT stratified by hepcidin level. No ME/CFS-specific hepcidin data exist.],
+    [Ch.23 @spec:iron-hepcidin-mecfs],
+
+    [Early Menopause as Marker of Accelerated Ovarian Aging in ME/CFS],
+    [S], [0.35],
+    [Chronic inflammation and HPG suppression accelerate follicular atresia: ME/CFS women aged 25--40 will have AMH > 1 SD below healthy controls; AMH negatively correlates with disease duration (r < -0.30). Parallels autoimmune POI.],
+    [AMH assay in ME/CFS cohort, age-stratified. Cross-correlation with disease duration and inflammatory markers. No AMH studies in ME/CFS exist.],
+    [Ch.23 @spec:early-menopause-amh],
+
+    [Cycle-Synchronized Pacing Reduces Premenstrual PEM],
+    [S], [0.20],
+    [Reducing activity quota 20--30% in the late luteal/menstrual phases, matched to the low-estrogen/low-progesterone window, reduces PEM episode frequency in women reporting cycle-phase symptom variation. Effect > 25% reduction vs flat pacing.],
+    [Crossover trial ($n gt.eq 40$) over 4 menstrual cycles: cycle-synchronized vs flat pacing. Patient diary + actigraphy. Zero cost intervention; feasible near-term.],
+    [Ch.17 @spec:cycle-synced-pacing],
+  ),
+  caption: [Entries added 2026-04-25: Reproductive health mechanisms (pregnancy subtypes, PRIS, allopregnanolone, endometriosis axis, iron-hepcidin, AMH) and cycle-synchronized pacing.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-25-reproductive-mechanisms>
 ] // end landscape page
 

@@ -115,6 +115,28 @@ Mental exertion triggers PEM as readily as physical activity:
     - *Communication management*: Batch messages; use voice-to-text; set boundaries
     - *Avoid cognitively demanding media*: Complex plots, dense reading may exceed budget
 
+#hypothesis(title: [FUNCAP-Informed Domain-Targeted Pacing])[
+Use serial FUNCAP-27 assessments (weekly) to identify which specific functional domains are deteriorating, enabling domain-targeted pacing adjustments. Rather than generic "reduce activity" advice, the clinician can say: "Your 'home activities' score dropped this week—which specific activity is causing PEM? Let's adjust that one activity." (Certainty: 0.45)
+
+*Conceptual Framework.*
+Standard pacing advice is undifferentiated—reduce overall activity. But ME/CFS patients have heterogeneous functional profiles. A patient whose "communication" domain is stable while "home activities" declines needs to adjust household tasks, not social contact. FUNCAP's 8-domain structure provides the granularity for targeted pacing.
+
+*Mechanistic Rationale.*
+The optimal control model (Section @sec:predictive-applications) implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
+
+*Clinical Implementation.*
+1. *Baseline assessment*: Complete FUNCAP-27 to establish domain profile
+2. *Weekly monitoring*: Repeat FUNCAP-27 to track domain-specific changes
+3. *Domain-specific intervention*: Identify the deteriorating domain and target pacing adjustments to that domain
+4. *Re-evaluation*: Monitor whether domain-targeted pacing produces better outcomes than generic pacing
+
+*Testable Prediction.*
+In a 12-week pacing intervention study, patients receiving FUNCAP-informed domain-targeted pacing should show greater improvement in total FUNCAP score than patients receiving generic pacing advice, with the same total activity restriction. The intervention targets *distribution* of activity, not total amount.
+
+*Limitations.*
+Weekly FUNCAP-27 may not have sufficient sensitivity to detect domain-specific changes within a week. The approach requires clinicians trained in FUNCAP interpretation and domain-specific pacing strategies. Patient burden of weekly assessments may limit adherence in severe patients.
+]
+
 ==== Social and Emotional Energy
 
 Social interaction, while psychologically beneficial, requires substantial energy:
@@ -167,6 +189,24 @@ Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that 
 *Certainty: 0.35.* An externally-enforced cognitive pacing protocol adapted for ADHD neurology — using timers, hard caps, and accountability partners instead of self-monitoring — should reduce cognitive PEM frequency in ADHD + ME/CFS patients compared to standard pacing advice alone. No evidence exists for this specific protocol. The rationale combines ADHD behavioural management literature with ME/CFS pacing literature and Architecture C metabolic reserve framing (@sec:architecture-c-metabolic-reserve). Zero cost, implementable immediately. Not yet replicated.
 
 ] <spec:adhd-cognitive-pacing>
+
+=== Cycle-Synchronized Pacing in Women
+<subsec:cycle-synced-pacing>
+
+Many women with ME/CFS report consistent cycle-phase variation in symptom burden @Pollack2023reproductiveHealth @Thomas2022sexDifferences. Premenstrual and menstrual phases (low estrogen, low progesterone) are most commonly reported as high-symptom periods, while the early-to-mid follicular phase (rising estrogen) is more often reported as higher-capacity. Standard pacing protocols that allocate a flat activity quota fail to account for this predictable variation.
+
+*Approach.* A cycle-synchronized pacing protocol allocates activity quotas dynamically across the cycle:
+
+    - *Menstrual phase (days 1–5)*: Minimum quota; prioritize rest; increase horizontal rest time; no new demanding commitments
+    - *Late follicular phase (days 6–13)*: Rising estrogen; moderate-to-higher activity quota; schedule demanding tasks and social commitments during this window
+    - *Ovulatory/early luteal phase (days 14–21)*: Maintain moderate quota; monitor for energy decline as progesterone rises then falls
+    - *Late luteal phase (days 22–28)*: Reduce activity quota by 20–30%; low-demand days; no new demanding commitments premenstrually
+
+*Supportive supplementation.* Magnesium glycinate (400 mg/day) and pyridoxine (vitamin B6, 50 mg/day), taken during the luteal phase only, are used in premenstrual syndrome management for their roles in GABA synthesis and progesterone metabolism; no trials have evaluated these specifically in ME/CFS, and use is extrapolated from the PMS literature. *Safety note:* Pyridoxine at doses above 50 mg/day with prolonged continuous use carries a risk of peripheral sensory neuropathy; restrict to luteal-phase use only (approximately 10–14 days per cycle, not daily year-round) and do not exceed 50 mg/day.
+
+#speculation(title: [Cycle-Synchronized Pacing Reduces Premenstrual PEM Frequency])[
+*Certainty: 0.20.* A cycle-synchronized pacing protocol that reduces activity quotas in the late luteal and menstrual phases should reduce PEM episode frequency compared to flat pacing, in women who report cycle-phase symptom variation. No controlled trial exists. The mechanism is consistent with estrogen-progestogen modulation of immune function and autonomic stability in ME/CFS @Thomas2022sexDifferences. Zero pharmacological cost; requires cycle tracking and planning capacity.
+] <spec:cycle-synced-pacing>
 
 == Sleep Optimization
 <sec:sleep-optimization>
@@ -954,6 +994,31 @@ The home environment should be configured to minimize physical demands and senso
     - *Lighting*: Adjustable lighting throughout the home. Dimmer switches or smart bulbs that allow intensity control. Many ME/CFS patients experience photosensitivity; overhead fluorescent lighting is particularly problematic. Warm-toned, indirect lighting at low intensity is generally best tolerated
     - *Noise reduction*: Soft furnishings (carpets, curtains, upholstered furniture) absorb sound. Double glazing reduces external noise. White noise machines provide consistent background sound that masks intermittent disturbances. Noise-cancelling headphones for use during sensory overload episodes
     - *Temperature control*: Programmable thermostat maintaining 20–22°C. Ceiling fans for air circulation without cold drafts. Heated mattress pad for patients with cold intolerance. Portable air conditioning unit for the primary living/resting space if central cooling is unavailable
+
+#hypothesis(title: [FUNCAP-Guided Environmental Modification for Sensory Hypersensitivity])[
+The "light/sound reactions" FUNCAP domain provides a quantifiable target for environmental modification interventions. Patients with high scores in this domain should benefit most from: dark/quiet room optimization, blue-light blocking glasses, noise-canceling headphones, low-stimulus environments. The domain score tracks intervention effectiveness. (Certainty: 0.50 for individual interventions; 0.35 for using FUNCAP domain scores as outcome tracking)
+
+*Mechanistic Rationale.*
+Sensory hypersensitivity in ME/CFS involves central sensitization of thalamic and brainstem sensory processing. Environmental modifications reduce sensory input to the sensitized system. FUNCAP is the only questionnaire that quantifies this domain as a functional capacity measure.
+
+*Evidence Link.*
+The paper's ch08 (neurological) documents central sensitization. The brainstorm-sleep-glymphatic-orexin-20260420 brainstorm explores glymphatic dysfunction. FUNCAP's unique "light/sound reactions" domain has no equivalent in generic questionnaires.
+
+*Clinical Implementation.*
+1. *Baseline assessment*: Complete FUNCAP-27 to establish "light/sound reactions" domain score
+2. *Severity stratification*: Patients in top quartile of this domain score are candidates for intensive environmental modification
+3. *Targeted interventions*:
+   - *Light optimization*: Blackout curtains, dimmable LED lighting, blue-light blocking glasses for evening screen use
+   - *Sound optimization*: Acoustic panels, white noise machines, noise-canceling headphones
+   - *Low-stimulation zones*: Designate a "sensory sanctuary" room with minimal stimulation
+4. *Outcome tracking*: Repeat FUNCAP-27 at 4-week intervals to track domain-specific improvement
+
+*Testable Prediction.*
+Patients in the top quartile of "light/sound reactions" domain score should show greater functional improvement from environmental modification (dark/quiet room protocol) than patients in the bottom quartile, as measured by total FUNCAP score change at 4 weeks.
+
+*Limitations.*
+The approach assumes that environmental modifications produce measurable functional improvement, which has not been rigorously tested. Individual variability in sensory hypersensitivity means that standardized interventions may not benefit all patients. The 4-week timeframe may be insufficient to detect domain-specific changes.
+]
 
 === Chemical and Environmental Sensitivities
 
