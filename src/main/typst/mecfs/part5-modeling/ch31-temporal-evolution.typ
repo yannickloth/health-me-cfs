@@ -314,6 +314,26 @@ _(Certainty: 0.45.)_ Treatment trials in extremely severe patients that use stan
 *Falsifiable prediction:* Within-person recovery time plotted against $B$ on a log-log scale should show two slope changes: a steepening in the cliff regime ($B approx 0.15$--$0.65$) and a flattening in the floor regime ($B lt.eq 0.10$). A pure power law ($tau prop 1\/B^n$ with constant $n$) at all severity levels is falsified by the piecewise biophysics.
 ] <hyp:recovery-horizon>
 
+#key-point(title: [Three Recovery Timescales: Demand Reduction, Damage Reduction, Ceiling Restoration])[
+The "years per band" recovery horizon (Table @tab:recovery-horizon) refers specifically to _ceiling_ recovery --- the slow rebuilding of $B_max(t)$ via mitochondrial biogenesis and structural repair. Patient-perceived improvement, however, has three distinct components operating on three distinct timescales (consistent with the parameter-recovery framework in Section @sec:improvement-timecourse):
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    align: (left, left, left, left),
+    [*Component*], [*What changes*], [*Timescale*], [*Example interventions*],
+    [Within-envelope ($B$ approaching $B_max$)], [Patient operates closer to current ceiling as ongoing demand drops], [Hours to weeks], [MCAS treatment (H1/H2 antihistamines, cromolyn), volume expansion (fludrocortisone, salt), pacing optimization, sensory protection],
+    [Damage-rate reduction ($k_upright("damage")$ falls)], [Net repair becomes positive; $B_max$ stops eroding and may slowly rise], [Weeks to months], [LDN, anti-inflammatories, antivirals (Lerner-style), immune-modulating combinations],
+    [Ceiling restoration ($B_max$ rises substantially)], [Structural mitochondrial / immune / autonomic repair; requires parameter modification (Section @sec:hysteresis-analysis), not endogenous repair alone], [Months to years], [Mitochondrial support (CoQ10, NR/NMN), structural rebuild, epigenetic reprogramming],
+  ),
+  caption: [Three recovery timescales from the integrated model. Treatments that act on demand or damage rate produce visible improvement on weeks-to-months timescales without the ceiling moving substantially. The "years per band" prediction applies only to the ceiling component.],
+) <tab:three-recovery-timescales>
+
+This decomposition resolves an apparent paradox: patients can experience meaningful symptomatic improvement within months on MCAS treatment or LDN (fast/medium timescales) even when the structural ceiling $B_max$ is in the floor regime where ceiling recovery is years-long. Conversely, treatments that fail to alter parameters --- pure rest, supportive care alone --- can leave a patient stable but unable to escape the disease attractor, even after years of relaxation to ceiling.
+
+Worked example: a patient at $B = 0.05$ with $B_max = 0.15$ has 10 percentage points of immediately reclaimable function via demand and damage-rate interventions, achievable in weeks to months without the ceiling moving. Climbing $B_max$ from 0.15 toward 0.40 is the slow component and requires sustained parameter modification.
+]
+
 #hypothesis-box(title: [Damage Prevention Dominance Below the Severe Threshold])[
 The ratchet asymmetry at the extremely severe end has a quantifiable consequence for therapeutic priorities. In the floor regime, recovery from any crash takes the same very long time $tau_upright("rec") approx K_upright("repair") \/ (r_min dot.op [upright("ATP")]_min)$ regardless of the patient's exact $B$ within that regime. But the crash itself is acute (hours to days). This asymmetry means that every single preventable damaging event saves months to years of recovery time. In the cliff regime (moderate through severe), the asymmetry is even steeper: a crash at $B = 0.25$ costs _disproportionately_ more than the same crash at $B = 0.50$ because the $Delta Psi$ threshold nonlinearity amplifies every $B$ drop. _(Certainty: 0.55.)_
 
