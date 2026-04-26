@@ -36,6 +36,44 @@ Objective validation studies demonstrate that self-reported severity classificat
 
 All differences between severity groups are statistically significant ($p < 0.0001$), confirming that patient-reported severity reflects genuine physiological impairment rather than subjective perception.
 
+=== Functional Capacity Assessment Tools
+
+Functional capacity assessment is critical for severity classification, disability evaluation, and clinical trial outcome measurement. Traditional generic questionnaires (SF-36, WHODAS 2.0) developed for other conditions have significant limitations when applied to ME/CFS: they fail to capture the activity-limiting nature of post-exertional malaise (PEM), exhibit ceiling effects for severe patients, and focus on "can you do X" rather than "what happens when you do X" @Goxhaj2026OutcomeMeasures.
+
+#achievement(title: [FUNCAP: Patient-Informed Functional Capacity Assessment])[
+The FUNCAP (Functional Capacity Assessment) questionnaire, developed by Sommerfelt et al.\ (2024), represents the first ME/CFS-specific tool designed explicitly for PEM-affected patients @Sommerfelt2024FUNCAP. (Certainty: 0.70)
+
+*Design Principles.* FUNCAP uses a novel "consequence-based" question design. Instead of asking patients whether they "can" perform an activity, it asks about the consequences of performing that activity on other activities. This approach directly captures the energy budgeting reality of ME/CFS: a patient may be physically capable of showering, but doing so may preclude preparing a meal or leaving the house for the remainder of the day.
+
+*Questionnaire Structure.* Two versions are available:
+- *FUNCAP-55*: 55 items across 8 domains (personal hygiene, walking/movement, being upright, home activities, communication, activities outside home, light/sound reactions, concentration). Designed for comprehensive assessment in diagnosis and disability evaluation.
+- *FUNCAP-27*: 27-item abbreviated version. Designed for follow-up monitoring and research settings where brevity is required.
+
+*Validation.* Developed through five rounds of web-based surveys with Norwegian patients ($n = 1{,}263$ ME/CFS, $178$ HC) and independently validated in an international English-speaking cohort ($n = 1{,}387$ ME/CFS). The questionnaire demonstrates:
+- Good test-retest reliability
+- Valid discrimination across severity levels (mild to very severe)
+- Negligible floor and ceiling effects—a critical advantage for severe and very severe patients who score at the floor of generic instruments
+- Availability in 8 languages (Dutch, English, French, German, Italian, Japanese, Norwegian, Swedish) under Creative Commons Attribution (CC BY) license, enabling free use for clinical and research purposes
+
+*Applications.* FUNCAP addresses multiple critical needs in ME/CFS care and research:
+- *Clinical*: Objective functional capacity documentation for diagnosis, severity classification, and treatment monitoring
+- *Disability evaluation*: Evidence-based functional impairment assessment for insurance and social security determinations
+- *Research*: Validated outcome measure for clinical trials; the LIFT (Life Improvement Trial) protocol (pyridostigmine + low-dose naltrexone for ME/CFS) uses FUNCAP-55 as its primary outcome @Meadows2025LIFTprotocol
+- *Cross-disease relevance*: A Lancet Infectious Diseases commentary highlighting poor outcome measure selection in Long COVID trials recommends FUNCAP as a functional capacity scale designed for PEM-affected patients, extending its relevance beyond ME/CFS to post-COVID condition @Goxhaj2026OutcomeMeasures
+
+*Limitations.* FUNCAP is a new tool (published June 2024) with a growing evidence base. Key limitations include:
+- No independent external validation by a different research group as of 2026-04-23
+- Cross-sectional validation only; longitudinal sensitivity-to-change data are not yet published
+- No direct comparison studies against other functional capacity tools (SF-36, WHODAS) in ME/CFS populations
+- The LIFT trial results are pending; interventional trial performance data are not yet available
+
+Despite these limitations, FUNCAP represents a significant advancement in ME/CFS assessment methodology. Its patient-informed design, PEM-specific focus, and avoidance of floor/ceiling effects address longstanding gaps in the field.
+]
+
+#limitation(title: [Functional Capacity Assessment: No Gold Standard])[
+No functional capacity assessment tool for ME/CFS has achieved universal acceptance as a gold standard. While FUNCAP is the most ME/CFS-specific instrument available, its newness and lack of independent validation mean that clinicians and researchers should interpret results cautiously. Cross-validation with objective measures (actigraphy, cardiopulmonary exercise testing) and complementary tools (PEM-specific measures like the brief PEM measure by Jason & Chee 2025 @JasonChee2025PEMmeasure) provides a more comprehensive assessment.
+]
+
 ==== Mild ME/CFS
 
 Mild ME/CFS represents approximately 50% reduction in pre-illness activity level @Carruthers2011ICC. Despite the designation “mild,” this category describes substantial disability that would be considered severe in most other medical contexts.
@@ -228,3 +266,25 @@ of standard clinical assessments will be fully completable in this population
 and that supine-position procedures will be substantially better tolerated than
 standing tests. If validated, this framework could serve as a template for
 inclusive clinical research that no longer excludes the most severely affected.
+
+#hypothesis(title: [The Severity-Specific Floor Effect Paradox])[
+FUNCAP's absence of floor effects at the severe end creates a paradox: as severely affected patients deteriorate further, their FUNCAP scores *continue declining*, which means the instrument detects worsening that other instruments miss—but this also means that FUNCAP-based severity classifications may disagree with established clinical classifications (Karnofsky, Bell scale) precisely in the range where clinical decisions are most critical (disability, care level, ventilation decisions). (Certainty: 0.55)
+
+*Mechanistic Rationale.*
+The ratchet model (Section @sec:ratchet-model) predicts that in the "floor regime" (B < 0.10), recovery time plateaus at a high constant. FUNCAP's sensitivity in this range means it can detect sub-Karnofsky-10 deterioration (e.g., ability to communicate, tolerate light, tolerate sound). But clinical systems calibrated to Karnofsky or SF-36 floors will classify all patients below Karnofsky-10 as equivalent, missing clinically meaningful distinctions that FUNCAP captures.
+
+*Evidence Link.*
+Jahanbani2024severity proposed 5 extremely severe sub-levels. Sommerfelt2023NorwaySevere documented 17% tube feeding, 43% swallowing difficulty, 60% sound intolerance in very severe Norwegian cohort. FUNCAP was explicitly designed to avoid floor effects in this range @Sommerfelt2024FUNCAP.
+
+*Clinical Implications.*
+This paradox has significant implications for:
+- *Disability determination*: Patients at different FUNCAP sub-levels may qualify for different levels of support despite identical Karnofsky scores
+- *Treatment monitoring*: FUNCAP can detect subclinical improvements in very severe patients that other instruments miss
+- *Clinical trial endpoints*: Trials enrolling severe patients may detect treatment effects with FUNCAP that would be invisible to SF-36
+
+*Testable Prediction.*
+In severely affected patients (Bell score < 10 or equivalent), FUNCAP total score should show statistically significant variance (SD/mean > 0.15) while SF-36 physical function should be at floor (variance near zero). Patients reclassified by FUNCAP sub-levels should differ in care requirements (tube feeding, communication ability, visitor tolerance) independently of their Karnofsky/Bell classification.
+
+*Limitations.*
+The paradox is logically inevitable given FUNCAP's design properties. The clinical impact is the speculative element—whether the additional granularity translates into different clinical decisions or outcomes has not been tested.
+]
