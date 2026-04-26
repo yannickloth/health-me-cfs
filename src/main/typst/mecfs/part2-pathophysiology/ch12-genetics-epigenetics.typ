@@ -303,6 +303,27 @@ Metabolic genes affecting mitochondrial function, glucose metabolism, and oxidat
 
 Neurological and neurotransmitter genes demonstrate methylation changes that may relate to cognitive dysfunction and autonomic symptoms. Genes affecting neurotransmitter synthesis, reuptake, or receptor expression show altered methylation in some studies, potentially contributing to the neurological manifestations described in Chapter @ch:neurological.
 
+==== PTPRN2 Hypomethylation and the Epigenetic–Cognitive Symptom Link
+<sec:ptprn2-hypomethylation>
+
+A 2026 epigenome-wide association study by Chalder, Moreau and colleagues represents the first ME/CFS EWAS to employ saliva-derived DNA on the Illumina EPIC (~850,000 CpG sites) platform @ChalderMoreau2026ptprn2. In 54 ME/CFS patients compared to 21 sedentary controls, a single hypomethylated CpG site within the _PTPRN2_ gene (protein tyrosine phosphatase receptor type N2, also known as IA-2beta/phogrin) survived rigorous multi-factor correction — a signal robust enough to distinguish patient epigenetic subgroups.
+
+PTPRN2 biology provides mechanistic plausibility for this finding. The protein is a neuroendocrine pseudophosphatase expressed in the hypothalamus, hippocampus, and pituitary, where it regulates secretory vesicle accumulation for norepinephrine, dopamine, and serotonin @StojilkovicSokanovic2025ptprn. Its deletion in animal models impairs monoaminergic vesicle biogenesis and, in females, disrupts kisspeptin neuron development and ovulation — illustrating sex-differential PTPRN2 biology @StojilkovicSokanovic2025ptprn. PTPRN2 epigenetic dysregulation is not unique to ME/CFS: independent analysis of postmortem Parkinson's disease brain identified 5mC/5hmC shifts at the _PTPRN2_ locus, supporting it as a neurological disease-relevant epigenetic target @ChozaVirani2024ptprn2PD.
+
+In the Chalder 2026 cohort, _PTPRN2_ hypomethylation associated with brain fog symptoms — specifically word-finding difficulties and impaired comprehension — and with respiratory symptoms in male patients only (the latter association exploratory given sex-stratified sample sizes) @ChalderMoreau2026ptprn2. The authors interpret this as consistent with altered _PTPRN2_ expression in neurons relevant to monoaminergic transmission and autonomic regulation, both implicated elsewhere in ME/CFS pathophysiology (Chapters @ch:neurological and @ch:endocrine).
+
+#speculation(title: [PTPRN2 Hypomethylation as Epigenetic Anchor of Cognitive Subtype])[
+  If _PTPRN2_ hypomethylation alters neuroendocrine vesicle biogenesis in hippocampal and hypothalamic neurons, it could produce a stable reduction in monoaminergic signalling capacity manifesting as the cognitive and autonomic phenotype observed in a subset of ME/CFS patients. This model predicts that _PTPRN2_ methylation status defines a biological subtype with preferentially cognitive and neuroendocrine features, distinct from subtypes where immune or metabolic mechanisms dominate.
+
+  Testable predictions: (1) ME/CFS patients with _PTPRN2_ hypomethylation should show measurably worse delayed recall and working memory compared to patients without the modification; (2) _PTPRN2_ mRNA or protein expression should differ between the two epigenetic subgroups; (3) pharmacological enhancement of monoaminergic signalling should preferentially benefit the hypomethylated subgroup. No longitudinal or interventional data yet test these predictions.
+
+  (Certainty: 0.28 — single cross-sectional study, n=54, saliva proxy not validated against brain methylation, no mRNA or protein data, no independent replication of the PTPRN2 finding in ME/CFS.)
+] <spec:ptprn2-cognitive-subtype>
+
+#limitation(title: [Saliva as Methylation Proxy for Brain Tissue])[
+  All methylation data in Chalder 2026 derive from saliva, which reflects primarily buccal epithelial cells rather than neurons or astrocytes. Whether _PTPRN2_ hypomethylation in saliva correlates with methylation status in hypothalamic or hippocampal neurons is unknown — tissue-specific methylation patterns can diverge substantially across cell types. The biological relevance of salivary _PTPRN2_ methylation for neuronal function remains an open assumption requiring validation in brain-accessible tissue (post-mortem samples, CSF-derived cells, or iPSC-derived neurons).
+]
+
 ==== Functional Consequences and Validation
 
 #limitation(title: [Methylation $eq.not$ Functional Consequence])[
@@ -411,6 +432,58 @@ An important question concerns the cellular source of differentially expressed m
 Cell-type-specific miRNA profiling (isolating specific cell populations before miRNA extraction) can determine whether miRNA changes occur broadly across blood cells or specifically in subsets such as natural killer cells, T cells, or monocytes. Tissue-specific miRNAs can be identified through expression databases showing which miRNAs are enriched in particular tissues; finding muscle-enriched miRNAs elevated in ME/CFS patients' plasma might indicate muscle pathology.
 
 Understanding miRNA cellular origin informs interpretation: immune cell-intrinsic miRNA changes suggest altered immune cell programming, while tissue-derived miRNAs suggest tissue damage or dysfunction with secondary release of cellular contents into circulation.
+
+==== miR-153-3p, PHB2, and a Multi-Level Epigenetic Axis in ME/CFS
+<sec:mir153-phb2-axis>
+
+The Moreau group's 2026 study extends prior miRNA work in ME/CFS @Nepotchatykh2020mirnaMECFS @Nepotchatykh2023mirnaMECFS to characterise a specific miRNA — miR-153-3p — in relation to epigenetic and mitochondrial regulators. Circulating miR-153-3p levels were reduced in ME/CFS patients' blood compared to sedentary controls, and lower miR-153-3p levels correlated with poorer delayed memory recognition scores @ChalderMoreau2026ptprn2. This association provides an initial, association-level link between a specific miRNA and a specific cognitive deficit domain.
+
+miR-153-3p has independent neurological relevance. In mouse hippocampus, intra-hippocampal miR-153-3p injection sufficient to elevate levels causes memory deficits, while its loss at normal levels (as in ME/CFS) is associated with reduced neuroprotection against amyloid-beta precursor protein (APP), alpha-synuclein, and NLRP3 inflammasome pathways @Stabile2024mir153memory @LahiriWang2025mir153AD @Li2022mir153stroke. The direction in ME/CFS — reduced circulating miR-153-3p correlating with worse memory — aligns with the loss-of-neuroprotection interpretation rather than the excess-causing-deficit interpretation, though the literature data are from heterogeneous model systems and caution is warranted in cross-study extrapolation.
+
+The Chalder 2026 study additionally implicates the mitochondrial protein PHB2 (prohibitin 2) as a potential upstream regulator of miR-153-3p maturation. PHB2 is pleiotropic — it functions at the inner mitochondrial membrane as a mitophagy receptor, in the nucleus as an HDAC recruiter for epigenetic silencing, and in the cytoplasm in contexts that may include post-transcriptional miRNA regulation @QiLamont2023phb2cancer. Prior work in cancer cells documents PHB2 participating in lncRNA-mediated epigenetic silencing of miR-34a; the proposed cytoplasmic post-transcriptional mechanism for miR-153-3p maturation is mechanistically adjacent but not yet directly demonstrated @QiLamont2023phb2cancer.
+
+#speculation(title: [PTPRN2–miR-153-3p–PHB2 as Multi-Level Epigenetic Axis])[
+  The authors propose a three-tier axis: (1) _PTPRN2_ CpG hypomethylation (epigenetic layer); (2) reduced circulating miR-153-3p (post-transcriptional layer), partially explained by PHB2-mediated impairment of miR-153-3p maturation; (3) cognitive and respiratory symptoms (clinical layer). This axis would represent an unusual multi-modal epigenetic mechanism linking a neuroendocrine gene, a regulatory microRNA, and a mitochondrial protein in a coherent disease-relevant pathway.
+
+  The axis predicts: (1) patients with lowest miR-153-3p levels should show the deepest delayed recall deficits; (2) PHB2 protein levels should be elevated or functionally altered in ME/CFS patients; (3) experimental restoration of miR-153-3p (via mimic transfection in cell models) should rescue APP, SNCA, and NLRP3 expression abnormalities. None of these predictions has been tested in ME/CFS to date.
+
+  (Certainty: 0.25 — the three-tier model integrates three individually uncertain findings; the PHB2 cytoplasmic maturation mechanism is proposed but not experimentally demonstrated in any published study; replication in independent ME/CFS cohorts is required before this axis can be considered established.)
+] <spec:ptprn2-mir153-phb2-axis>
+
+#limitation(title: [PHB2 Mechanism: No Direct Demonstration])[
+  The proposed mechanism whereby PHB2 impairs miR-153-3p maturation post-transcriptionally in the cytoplasm has no published experimental demonstration. The supporting precedent (Lnc34a-PHB2-miR-34a silencing) operates via a nuclear DNA methylation plus HDAC deacetylation mechanism in cancer cells, which is mechanistically distinct from cytoplasmic post-transcriptional miRNA processing. The PHB2–miR-153-3p link remains the weakest node in the proposed axis and should be treated as a hypothesis to test rather than an established mechanism.
+]
+
+The Moreau group has previously validated circulating miRNA profiling as capable of discriminating ME/CFS from fibromyalgia @Nepotchatykh2023mirnaMECFS and stratifying patients by symptom severity @Nepotchatykh2020mirnaMECFS. The identification of miR-153-3p in Chalder 2026 extends this work with a specific cognitive symptom correlation, though miR-153-3p was not prominent in earlier ME/CFS miRNA panels from other groups @CheemaOltra2020genderMiRNA, suggesting it may be specific to Moreau's cohort selection approach or reflect genuine subgroup-level variation rather than a universal ME/CFS miRNA signature.
+
+==== Mechanistic Extensions from the PTPRN2/miR-153-3p Axis
+<sec:ptprn2-mir153-extensions>
+
+Three additional speculative mechanisms arise from the Chalder-Moreau findings and connect to existing ME/CFS pathophysiology models.
+
+*PTPRN2 hypomethylation as compensatory catecholamine-vesicle response.* PTPRN2 is a transmembrane component of dense-core secretory vesicles required for monoamine packaging. Sustained sympathoadrenal activation — documented in ME/CFS via norepinephrine spillover, autonomic dysfunction, and POTS overlap — depletes vesicle pools. Promoter hypomethylation is a known compensatory mechanism under conditions of chronic transcriptional demand. This reframes _PTPRN2_ hypomethylation not as a primary pathological lesion but as a biomarker of chronic sympathoadrenal load, predicting that the most severe autonomic dysfunction should correlate with the most pronounced hypomethylation @StojilkovicSokanovic2025ptprn.
+
+#speculation(title: [PTPRN2 Hypomethylation as Autonomic Stress Biomarker])[
+  If _PTPRN2_ hypomethylation is a compensatory transcriptional response rather than a primary lesion, it predicts a correlation between epigenetic signal and autonomic burden: patients with the most severe orthostatic intolerance or highest 24-hour urinary catecholamine excretion should show the deepest hypomethylation. This reframes it from disease mechanism to cumulative-stress marker, analogous to HbA1c as marker of sustained glycemic exposure.
+
+  (Certainty: 0.35 — mechanistically coherent; but the specific PTPRN2 transcriptional demand-methylation relationship has not been tested in ME/CFS.)
+] <spec:ptprn2-autonomic-stress>
+
+*PHB2 estrogen-axis driving sex predominance.* PHB2 is an established estrogen receptor-alpha co-repressor. Estrogen withdrawal increases the free cytoplasmic PHB2 pool. If elevated cytoplasmic PHB2 impairs miR-153-3p maturation (as proposed by Chalder 2026), low-estrogen windows (luteal phase, perimenstrual, perimenopause) should produce maximum miR-153-3p depletion and worst cognitive symptoms — consistent with clinical observations of perimenstrual ME/CFS worsening and perimenopausal onset clusters @ChalderMoreau2026ptprn2 @CheemaOltra2020genderMiRNA.
+
+#speculation(title: [PHB2–Estrogen Axis as Driver of Female Predominance and Perimenstrual Flares])[
+  Within-subject longitudinal sampling across the menstrual cycle in female ME/CFS patients should show a miR-153-3p nadir during the late luteal/early follicular phase, correlating with peak cognitive symptom severity. Postmenopausal patients should show stable low miR-153-3p. Males should show no cyclical pattern. This represents a mechanistically grounded explanation for the 4:1 female predominance and perimenstrual symptom patterns.
+
+  (Certainty: 0.30 — PHB2–ER biology established in cancer cells but not in neurons or immune cells; cytoplasmic PHB2–miR-153-3p maturation undemonstrated; ME/CFS menstrual-cycle miRNA longitudinal data do not exist.)
+] <spec:phb2-estrogen-mecfs>
+
+*PHB2 mitophagy dysfunction as unifying energy-cognition lesion.* PHB2 operates not only in potential miRNA regulation but as the mitophagy receptor required for PINK1/Parkin-mediated elimination of damaged mitochondria. If a single PHB2 perturbation causes both miR-153-3p maturation failure (cognitive phenotype) and mitophagy impairment (energy phenotype), it represents a parsimonious upstream node connecting two major symptom domains @QiLamont2023phb2cancer.
+
+#speculation(title: [PHB2 as Shared Upstream Node for Cognitive and Energy Phenotypes])[
+  If PHB2 dysfunction explains both deficits, patients with the most pronounced miR-153-3p reduction should also show the greatest mitophagy impairment on functional assays (mt-Keima, LC3-II/p62 ratio). If the two deficits are uncorrelated within ME/CFS patients, PHB2 has mechanistically dissociated functions and the unification hypothesis fails. This is testable in a single blood-draw study: plasma miR-153-3p + PBMC mitophagy flux simultaneously.
+
+  (Certainty: 0.28 — PHB2 dual role established in cancer; extension to ME/CFS is speculative; no ME/CFS mitophagy-miRNA co-measurement study exists.)
+] <spec:phb2-mitophagy-cognition>
 
 == Gene Expression Patterns
 <sec:gene-expression>

@@ -1164,6 +1164,9 @@ Long COVID research benefits from: massive funding and research attention, large
 *Implications.*
 Long COVID validates ME/CFS patient experiences—similar symptoms arising from clear viral trigger. The pandemic created millions of Long COVID cases, increasing research funding and clinical awareness that may benefit all post-viral illness patients. However, some worry Long COVID will overshadow ME/CFS, diverting resources from a decades-neglected population.
 
+*Epigenetic Convergence Test.*
+The 2026 Chalder-Moreau EWAS identified _PTPRN2_ hypomethylation and miR-153-3p reduction as epigenetic signatures associated with cognitive symptoms in ME/CFS @ChalderMoreau2026ptprn2. Whether Long COVID patients with PEM and brain fog share these signatures is unknown but testable. If the two conditions show > 70% directional concordance on the same methylation and miRNA markers, the epigenetic axis is downstream of shared post-infectious pathophysiology — supporting unified mechanism models and strengthening the diagnostic utility of the markers. If the signatures are discordant, they may be ME/CFS-specific, representing a more specific diagnostic target but arguing against a fully shared mechanism. This cross-disease epigenetic comparison is currently the most informative single experiment to run for both conditions.
+
 ==== Cycle Dynamics Comparison: Long COVID as Early-Stage ME/CFS
 <subsubsec:long-covid-cycle-dynamics>
 
