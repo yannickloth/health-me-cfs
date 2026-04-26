@@ -11339,3 +11339,221 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Conclusion:*: Together with Gur 2004, provides consistent evidence across two independent cohorts that ME/CFS is not a progesterone-deficiency state. Importantly, normal luteal-phase progesterone (sampled in this study) confirms the baseline is intact --- any therapeutic effect of oral progesterone supplementation would be via supraphysiological immune/neurosteroid mechanisms.
     / *Limitations:*: Small sample; premenopausal only; single-centre; no correlation with ME/CFS severity sub-groups.
     / *Certainty:*: 0.52
+
+// =============================================================================
+
+== Epigenetics: PTPRN2 / miR-153-3p / PHB2 Axis
+
+=== Chalder et al.\ 2026 --- PTPRN2 Hypomethylation and PHB2-miR-153-3p Axis in ME/CFS
+
+    @ChalderMoreau2026ptprn2
+
+    / *Full Citation:*: Chalder L, Elremaly W, Li D, Fang Y, Caraus I, Leveau C, Elbakry M, Franco A, Godbout C, Di Tomasso G, Nepotchatykh E, Rostami-Afshari B, Gimenez M, Moreau A. "PTPRN2 hypomethylation and PHB2-associated miR-153-3p maturation define dual epigenetic features linked to symptom variability in myalgic encephalomyelitis." _Journal of Translational Medicine_. 2026.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-026-08162-6")[10.1186/s12967-026-08162-6]
+    / *PMID:*: not available at time of writing
+    / *Study Design:*: Cross-sectional EWAS; saliva DNA methylation (~850,000 CpG sites, Illumina EPIC array); n=54 ME/CFS vs 21 sedentary controls; University of Montreal group (Moreau).
+    / *Key Findings:*:
+        - PTPRN2 hypomethylation identified and survives multiple-testing correction; enables patient subgrouping by epigenetic profile
+        - PTPRN2 hypomethylation associated with brain fog and cognitive difficulties
+        - Respiratory symptoms association in males only (sex-stratified subanalysis, exploratory)
+        - Reduced circulating miR-153-3p in patient blood; lower levels correlate with poorer delayed memory recognition
+        - PHB2 proposed to impair miR-153-3p maturation post-transcriptionally (cytoplasmic mechanism)
+        - Multi-level axis proposed: PTPRN2 epigenetic modification → reduced miR-153-3p (modulated by PHB2) → cognitive/respiratory symptoms
+    / *Conclusion:*: First paper to link PTPRN2 hypomethylation to ME/CFS symptom variability, and to propose a PHB2-mediated post-transcriptional mechanism for reduced miR-153-3p as a secondary epigenetic feature. Provides a framework for patient subgrouping based on epigenetic profiles.
+    / *Limitations:*: Cross-sectional design (no causal proof); small n (54 vs 21); saliva proxy (not blood or brain tissue); sex-stratified subanalyses are exploratory; PHB2-miR-153-3p mechanism is a proposed model, not directly demonstrated in this study.
+    / *Certainty:*: 0.47
+
+=== Stabile et al.\ 2024 --- miR-153-3p Elevation Causes Short-Term Memory Deficits in Mice
+
+    @Stabile2024mir153memory
+
+    / *Full Citation:*: Stabile F, Torromino G, Rajendran S, Del Vecchio G, Presutti C, Mannironi C, De Leonibus E, Mele A, Rinaldi A. "Short-Term Memory Deficit Associates with miR-153-3p Upregulation in the Hippocampus of Middle-Aged Mice." _Molecular Neurobiology_. 2024;61(5):3031--3041.
+    / *DOI:*: #link("https://doi.org/10.1007/s12035-023-03770-5")[10.1007/s12035-023-03770-5]
+    / *PMID:*: 37964090
+    / *Study Design:*: Mouse model; 6-DOT behavioural task; n=29 middle-aged (12-month) CD1 male mice + 25 adult mice for intra-hippocampal mimic injection; microarray miRNA profiling + RT-qPCR.
+    / *Key Findings:*:
+        - miR-153-3p upregulated in hippocampus of cognitively impaired mice
+        - Intra-hippocampal injection of miR-153-3p mimic in adult mice sufficient to induce short-term memory deficit
+        - Proposed as biomarker for early cognitive decline linked to synaptic plasticity dysregulation
+    / *Conclusion:*: Causal evidence (in mice) that elevated miR-153-3p impairs short-term memory. Mechanistically relevant to ME/CFS brain fog: in ME/CFS the finding is reduced miR-153-3p (Chalder 2026), which is a different direction --- this study concerns overexpression, not reduction. The relationship between miR-153-3p levels and memory appears non-linear.
+    / *Limitations:*: Rodent model only; male mice only; functional targets not fully elucidated; direction of effect (over- vs under-expression) requires reconciliation with ME/CFS data.
+    / *Certainty:*: 0.48
+
+=== Lahiri et al.\ 2025 --- miR-153-3p as Protective Biomarker in Alzheimer's Disease
+
+    @LahiriWang2025mir153AD
+
+    / *Full Citation:*: Lahiri DK, Wang R, Maloney B, Ghetti B, Nho K, Farlow MR, Saykin AJ, White FA, Sambamurti K, Counts SE. "Evidence of miR-153-3p association with Alzheimer's disease (AD) and the mechanism of miR-153-3p on critical proteins suggest a therapeutic and biomarker potential of miR-153-3p in AD and related dementias." _Alzheimer's & Dementia_. 2025;21(Suppl 8):e110012.
+    / *DOI:*: #link("https://doi.org/10.1002/alz70862_110012")[10.1002/alz70862_110012]
+    / *Study Design:*: Human brain tissue qRT-PCR; SNP association with nine AD endophenotypes; RNA-seq pathway analysis.
+    / *Key Findings:*:
+        - Elevation of miR-153-3p associated with REDUCED probability of Alzheimer's disease (neuroprotective)
+        - miR-153-3p reduces expression of APP, SNCA (alpha-synuclein), and REST
+        - Axonal guidance pathway involvement
+    / *Conclusion:*: At normal/elevated levels miR-153-3p is neuroprotective --- reducing amyloidogenic (APP) and aggregation-prone (SNCA) proteins. This is consistent with reduced miR-153-3p in ME/CFS (Chalder 2026) contributing to cognitive dysfunction via loss of this neuroprotective activity.
+    / *Limitations:*: Conference abstract; limited methodological detail; post-hoc association study; directionality of effect in ME/CFS vs AD contexts differs.
+    / *Certainty:*: 0.40
+
+=== Li et al.\ 2022 --- miR-153-3p Neuroprotective in Ischemia/Reperfusion Stroke Model
+
+    @Li2022mir153stroke
+
+    / *Full Citation:*: Li Y, Peng B, Li Y, Huang A, Peng Y, Yu Q, Li Y. "MiR-203a-3p/153-3p improves cognitive impairments induced by ischemia/reperfusion via blockade of SRC-mediated MAPK signaling pathway in ischemic stroke." _Chemico-Biological Interactions_. 2022;358:109900.
+    / *DOI:*: #link("https://doi.org/10.1016/j.cbi.2022.109900")[10.1016/j.cbi.2022.109900]
+    / *PMID:*: 35305977
+    / *Study Design:*: In vitro / animal ischemia/reperfusion model.
+    / *Key Findings:*:
+        - miR-153-3p downregulated following ischemia/reperfusion injury
+        - Direct inhibitor of SRC protein; reduces neuronal apoptosis and NLRP3 inflammasome activity via MAPK pathway
+        - Restoration of miR-153-3p improves cognitive deficits
+    / *Conclusion:*: Confirms neuroprotective role of miR-153-3p when present at normal/elevated levels. Reduced miR-153-3p → cognitive impairment: consistent with Chalder 2026 (lower miR-153-3p correlates with worse delayed memory in ME/CFS).
+    / *Limitations:*: Animal/cell model; clinical translation unclear.
+    / *Certainty:*: 0.42
+
+=== Stojilkovic et al.\ 2025 --- PTPRN2 Biology Review: Neuroendocrine Roles
+
+    @StojilkovicSokanovic2025ptprn
+
+    / *Full Citation:*: Stojilkovic SS, Sokanovic SJ, Constantin S. "What is known and unknown about the role of neuroendocrine genes Ptprn and Ptprn2." _Frontiers in Endocrinology_. 2025;16:1531723.
+    / *DOI:*: #link("https://doi.org/10.3389/fendo.2025.1531723")[10.3389/fendo.2025.1531723]
+    / *PMID:*: 39926347
+    / *Study Design:*: Comprehensive narrative review.
+    / *Key Findings:*:
+        - PTPRN2 (IA-2beta/phogrin) is a pseudophosphatase expressed in hypothalamus, pituitary, hippocampus, pancreatic islets, and neurons broadly
+        - Required for normal accumulation of neurotransmitters norepinephrine, dopamine, and serotonin in the brain
+        - Required for normal secretory vesicle accumulation in hippocampus and pituitary
+        - Double KO: female-specific impaired ovulation (kisspeptin neuron development); PTPRN2 suppresses POMC/melanotroph proliferation
+        - Can dephosphorylate PI(3)P and PI(4,5)P2 (phospholipid phosphatase activity)
+    / *Conclusion:*: Establishes PTPRN2 as a broad neuroendocrine regulator. Hypomethylation of PTPRN2 in ME/CFS (Chalder 2026) would be expected to alter expression or activity in neurons relevant to cognition, monoamine signalling, and autonomic regulation.
+    / *Limitations:*: Review paper; direct evidence linking PTPRN2 function to ME/CFS not yet established.
+    / *Certainty:*: 0.62
+
+=== Choza et al.\ 2024 --- PTPRN2 Epigenetic Dysregulation in Parkinson's Disease Brain (Preprint)
+
+    @ChozaVirani2024ptprn2PD
+
+    / *Full Citation:*: Choza JI, Virani M, Kuhn NC, Adams M, Kochmanski J, Bernstein AI. "Parkinson's disease-associated shifts between DNA methylation and DNA hydroxymethylation in human brain in PD-related genes, including PARK19 (DNAJC6) and PTPRN2 (IA-2beta)." _Research Square (Preprint)_. 2024.
+    / *DOI:*: #link("https://doi.org/10.21203/rs.3.rs-4572401/v1")[10.21203/rs.3.rs-4572401/v1]
+    / *PMID:*: 39070644
+    / *Study Design:*: Postmortem brain tissue from PD patients vs matched controls; paired 5mC/5hmC analysis.
+    / *Key Findings:*:
+        - PTPRN2 (IA-2) showed disease-associated shifts between DNA methylation and hydroxymethylation in PD brain
+        - >1,000 sites with significant 5mC/5hmC shifts across 695 genes
+        - Findings link PTPRN2 epigenetic regulation to idiopathic PD pathogenesis
+    / *Conclusion:*: Independent evidence that PTPRN2 locus is subject to epigenetic dysregulation in neurological disease, beyond its established role as a diabetes autoantigen. Corroborates plausibility of Chalder 2026 ME/CFS finding.
+    / *Limitations:*: PREPRINT (not peer-reviewed at time of writing); PD context differs substantially from ME/CFS; causality not established.
+    / *Certainty:*: 0.35
+
+=== Qi et al.\ 2023 --- PHB2 Biology and miRNA-Regulatory Roles in Cancer
+
+    @QiLamont2023phb2cancer
+
+    / *Full Citation:*: Qi A, Lamont L, Liu E, Murray SD, Meng X, Yang S. "Essential Protein PHB2 and Its Regulatory Mechanisms in Cancer." _Cells_. 2023;12(8):1211.
+    / *DOI:*: #link("https://doi.org/10.3390/cells12081211")[10.3390/cells12081211]
+    / *PMID:*: 37190120
+    / *Study Design:*: Narrative review of PHB2 biology across cancer types.
+    / *Key Findings:*:
+        - PHB2 is pleiotropic: inner mitochondrial membrane mitophagy receptor, nuclear HDAC recruiter, plasma membrane signalling partner
+        - miRNA-relevant: Lnc34a recruits PHB2/DNMT3A/HDAC1 to silence miR-34a promoter via methylation and deacetylation (epigenetic miRNA silencing)
+        - PHB2 overexpressed in most human cancers but tumour-suppressive in select contexts
+    / *Conclusion:*: Establishes mechanistic precedent for PHB2 participating in epigenetic silencing of miRNAs. The Lnc34a-PHB2-miRNA pathway supports the plausibility of the Chalder 2026 hypothesis that PHB2 impairs miR-153-3p maturation. However, direct PHB2-miR-153-3p interaction has not been demonstrated.
+    / *Limitations:*: Review; data primarily from cancer contexts; no ME/CFS or neurological data; direct PHB2-miR-153-3p link not established.
+    / *Certainty:*: 0.58
+
+=== Helliwell et al.\ 2020 --- ME/CFS DNA Methylation Reflects Systemic Dysfunction (RRBS)
+
+    @Helliwell2020mecfsMethylation
+
+    / *Full Citation:*: Helliwell AM, Sweetman EC, Stockwell PA, Edgar CD, Chatterjee A, Tate WP. "Changes in DNA methylation profiles of myalgic encephalomyelitis/chronic fatigue syndrome patients reflect systemic dysfunctions." _Clinical Epigenetics_. 2020;12:167.
+    / *DOI:*: #link("https://doi.org/10.1186/s13148-020-00960-z")[10.1186/s13148-020-00960-z]
+    / *PMID:*: 33148325
+    / *Study Design:*: RRBS on PBMCs; n=10 ME/CFS, 10 age/sex-matched healthy controls.
+    / *Key Findings:*:
+        - 76 differentially methylated fragments; 394 individual differentially methylated cytosines
+        - Regulatory regions for 17 protein-encoding genes (metabolic/immune)
+        - 59% of identified genes overlap with prior ME/CFS methylation studies (cross-study convergence signal)
+        - Enriched pathways: immune, metabolic, and neurological functions
+    / *Conclusion:*: RRBS-based evidence for systematic DNA methylation dysregulation in ME/CFS PBMCs, with neurological pathway enrichment. Provides independent support for epigenetic involvement in ME/CFS distinct from the saliva-based Chalder 2026 approach.
+    / *Limitations:*: Very small n=10; RRBS covers ~1% of CpG sites; no sex stratification.
+    / *Certainty:*: 0.40
+
+=== Przybylowicz et al.\ 2023 --- DNA Methylation Re-Analysis in Fibromyalgia and CFS
+
+    @Przybylowicz2023fmCfsMethylation
+
+    / *Full Citation:*: Przybylowicz PK, Sokolowska KE, Rola H, Wojdacz TK. "DNA Methylation Changes in Blood Cells of Fibromyalgia and Chronic Fatigue Syndrome Patients." _Journal of Pain Research_. 2023;16:4025--4036.
+    / *DOI:*: #link("https://doi.org/10.2147/JPR.S439412")[10.2147/JPR.S439412]
+    / *PMID:*: 38054109
+    / *Study Design:*: Re-analysis of three prior CFS/FM methylation datasets (n=127 CFS, n=22 FM) with updated analytical methods.
+    / *Key Findings:*:
+        - Limited site-level overlap across studies but coherent gene-enrichment patterns
+        - Changes predominantly in regulatory regions (not promoters)
+        - Clear patient vs control separation across all cohorts
+    / *Conclusion:*: Methodological inconsistencies across prior studies reduce apparent cross-study reproducibility; with harmonised analysis, convergent pathway-level signals emerge. Suggests regulatory-region methylation is more informative than individual CpG sites.
+    / *Limitations:*: Heterogeneous source datasets; different diagnostic criteria; no sex stratification; re-analysis cannot correct original data quality limitations.
+    / *Certainty:*: 0.45
+
+=== Cheema et al.\ 2020 --- Gender-Specific miRNA Profiling in ME/CFS During Exercise
+
+    @CheemaOltra2020genderMiRNA
+
+    / *Full Citation:*: Cheema AK, Sarria L, Bekheit M, Collado F, Almenar-Perez E, Martin-Martinez E, Alegre J, Castro-Marrero J, Fletcher MA, Klimas NG, Oltra E, Nathanson L. "Unravelling myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): Gender-specific changes in the microRNA expression profiling in ME/CFS." _Journal of Cellular and Molecular Medicine_. 2020;24:5865--5877.
+    / *DOI:*: #link("https://doi.org/10.1111/jcmm.15260")[10.1111/jcmm.15260]
+    / *PMID:*: 32291908
+    / *Study Design:*: PBMCs; 2-day CPET exercise challenge; n=118 (63 ME/CFS, 55 controls); sex-stratified miRNA profiling.
+    / *Key Findings:*:
+        - Males showed significantly more pronounced miRNA alterations (36 DEGs at peak exercise, FDR<0.1) vs females (none reaching threshold)
+        - Consistent elevation of miR-150-5p and miR-423 in ME/CFS across all time-points
+        - Nutritional state substantially affected miRNA expression
+    / *Conclusion:*: Sex-differential miRNA response in ME/CFS directly contextualises Chalder 2026 finding of male-specific respiratory symptom association with PTPRN2 hypomethylation. Male-biased epigenetic/miRNA dysregulation in ME/CFS has independent supporting evidence.
+    / *Limitations:*: Exercise challenge context only; miR-153-3p not specifically examined; nutritional confounders present.
+    / *Certainty:*: 0.52
+
+=== Nepotchatykh et al.\ 2020 --- Circulating miRNA Profile in ME/CFS and Symptom Severity
+
+    @Nepotchatykh2020mirnaMECFS
+
+    / *Full Citation:*: Nepotchatykh E, Elremaly W, Caraus I, Godbout C, Leveau C, Chalder L, et al., Moreau A. "Profile of circulating microRNAs in myalgic encephalomyelitis and their relation to symptom severity, and disease pathophysiology." _Scientific Reports_. 2020;10(1):19620.
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-020-76438-y")[10.1038/s41598-020-76438-y]
+    / *PMID:*: 33184353
+    / *Study Design:*: Circulating miRNA profiling in severely ill ME/CFS patients before/after stress-induced PEM; machine learning clustering (same group as Chalder 2026).
+    / *Key Findings:*:
+        - 11 miRNAs differentially expressed in response to PEM stress challenge
+        - AUC=1.0 after stress challenge; four symptom-severity clusters identified
+        - Pathway analysis: immune dysfunction and metabolic dysregulation
+    / *Conclusion:*: Foundational work by the Moreau group establishing miRNA biomarker strategy and patient subgrouping in ME/CFS that Chalder 2026 extends to DNA methylation. Demonstrates that miRNA profiles correlate with symptom severity clusters.
+    / *Limitations:*: AUC=1.0 raises overfitting concern; sample size not fully reported; PEM-stress context (not resting state).
+    / *Certainty:*: 0.50
+
+=== Nepotchatykh et al.\ 2023 --- miRNA Signatures Discriminate ME/CFS from Fibromyalgia
+
+    @Nepotchatykh2023mirnaMECFS
+
+    / *Full Citation:*: Nepotchatykh E, Caraus I, Elremaly W, Leveau C, Elbakry M, Godbout C, Rostami-Afshari B, Petre D, Khatami N, Franco A, Moreau A. "Circulating microRNA expression signatures accurately discriminate myalgic encephalomyelitis from fibromyalgia and comorbid conditions." _Scientific Reports_. 2023;13(1):1896.
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-023-28955-9")[10.1038/s41598-023-28955-9]
+    / *PMID:*: 36732593
+    / *Study Design:*: Circulating miRNA expression + Random Forest classification; ME/CFS vs fibromyalgia vs comorbid conditions (Moreau group).
+    / *Key Findings:*:
+        - 11 miRNAs form expression signature distinguishing ME/CFS from fibromyalgia
+        - Machine learning model accurately classifies disease groups
+        - Confirms ME/CFS and fibromyalgia as biologically distinct despite symptom overlap
+    / *Conclusion:*: Demonstrates that the Moreau group's miRNA biomarker approach yields disease-specific signatures with diagnostic discriminatory power. Directly precedes Chalder 2026 and represents the miRNA pillar of the dual epigenetic strategy (miRNA expression + DNA methylation).
+    / *Limitations:*: No independent external validation cohort reported; sample size not fully detailed.
+    / *Certainty:*: 0.52
+
+=== Pshezhetskiy et al.\ 2025 --- EpiSwitch 3D Genomic Diagnostic Test for ME/CFS
+
+    @Pshezhetskiy2025episwitch
+
+    / *Full Citation:*: Pshezhetskiy D et al. "Development and validation of blood-based diagnostic biomarkers for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) using EpiSwitch 3-dimensional genomic regulatory immuno-genetic profiling." _Journal of Translational Medicine_. 2025;23(1):1048.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-025-07203-w")[10.1186/s12967-025-07203-w]
+    / *PMID:*: 41057909
+    / *Study Design:*: Blood-based epigenetic profiling (3D DNA folding/chromatin conformation); n=47 severe (housebound) ME/CFS + 61 age-matched healthy controls; UEA/Oxford Biodynamics.
+    / *Key Findings:*:
+        - 200 genomic biomarkers identified; 92% sensitivity, 98% specificity, 96% overall accuracy
+        - Top immune pathways: IL-2 hub, innate immune activation, JAK-STAT signalling
+        - Overlapping pathways found in multiple sclerosis and rheumatoid arthritis
+        - IL-2 may cross blood-brain barrier and contribute to neuroinflammation
+    / *Conclusion:*: Independent epigenetic approach (chromatin conformation, not CpG methylation) converging on the conclusion that epigenetic dysregulation is central to ME/CFS. Supports patient stratification potential. Provides convergent validation for the Chalder 2026 epigenetic axis from a distinct technological angle.
+    / *Limitations:*: Severe/housebound patients only (not generalisable to mild/moderate); commercial proprietary technology; no independent external replication cohort reported; full author list not in available excerpt.
+    / *Certainty:*: 0.50

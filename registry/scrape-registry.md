@@ -310,3 +310,16 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/19272715/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — AndreenBackstrom2009negMood — allopregnanolone biphasic GABA-A paradoxical anxiogenic low dose PMDD |
 | https://pubmed.ncbi.nlm.nih.gov/15142269/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Gur2004fibromyalgiaHormones — progesterone null result n=176 fibromyalgia CFS HPG axis normal |
 | https://pubmed.ncbi.nlm.nih.gov/15588275/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Cevik2004CFShormones — progesterone null result n=43 CFS both menstrual phases HPG normal |
+| https://doi.org/10.1186/s12967-026-08162-6 | springer | 2026-04-26 | 2026-04-26 | bib/appendix-h — ChalderMoreau2026ptprn2 — PTPRN2 hypomethylation PHB2 miR-153-3p ME/CFS n=54 |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11041712/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — Stabile2024mir153memory — miR-153-3p hippocampus memory mice Mol Neurobiol |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12725688/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — LahiriWang2025mir153AD — miR-153-3p Alzheimer's protective APP SNCA REST Alz Dement |
+| https://pubmed.ncbi.nlm.nih.gov/35305977/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Li2022mir153stroke — miR-153-3p ischemic stroke SRC MAPK neuroprotection |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11802530/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — StojilkovicSokanovic2025ptprn — PTPRN2 neuroendocrine review Front Endocrinol |
+| https://pubmed.ncbi.nlm.nih.gov/39070644/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — ChozaVirani2024ptprn2PD — PTPRN2 epigenetic shifts Parkinson's brain preprint |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10137143/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — QiLamont2023phb2cancer — PHB2 biology miRNA silencing cancer Cells review |
+| https://pubmed.ncbi.nlm.nih.gov/33148325/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Helliwell2020mecfsMethylation — ME/CFS RRBS methylation systemic dysfunction Clin Epigenetics |
+| https://pubmed.ncbi.nlm.nih.gov/38054109/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Przybylowicz2023fmCfsMethylation — FM/CFS methylation re-analysis J Pain Res |
+| https://pubmed.ncbi.nlm.nih.gov/32291908/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — CheemaOltra2020genderMiRNA — gender-specific miRNA ME/CFS exercise JCMM |
+| https://pubmed.ncbi.nlm.nih.gov/33184353/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Nepotchatykh2020mirnaMECFS — circulating miRNA ME/CFS PEM Sci Rep Moreau |
+| https://pubmed.ncbi.nlm.nih.gov/36732593/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Nepotchatykh2023mirnaMECFS — miRNA discriminates ME/CFS vs fibromyalgia Sci Rep |
+| https://pubmed.ncbi.nlm.nih.gov/41057909/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Pshezhetskiy2025episwitch — EpiSwitch 3D genomic ME/CFS diagnostic J Transl Med |
