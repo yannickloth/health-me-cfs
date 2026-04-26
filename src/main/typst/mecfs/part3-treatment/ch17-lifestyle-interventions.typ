@@ -1164,3 +1164,35 @@ This stack targets the substrate side (P5P increases GABA production) and the re
 
 *Limitations:* No ME/CFS-specific trial exists for either compound in this combination. Certainty reflects general nutrient physiology and GABA pharmacology, not ME/CFS trial data.
 ] <spec:gaba-supplement-stack>
+
+
+== Transcutaneous Auricular Vagus Nerve Stimulation (taVNS)
+<sec:tavns-lifestyle>
+
+Transcutaneous auricular vagus nerve stimulation (taVNS) delivers low-intensity electrical stimulation to the auricular branch of the vagus nerve via ear-clip electrodes, providing non-invasive parasympathetic activation without the surgical risks of implanted vagal nerve stimulators. Established clinical use includes drug-resistant epilepsy and major depression; emerging applications span chronic inflammation, migraine, and post-infectious autonomic dysfunction.
+
+=== Rationale for ME/CFS
+
+ME/CFS is characterised by sympathovagal imbalance — reduced heart rate variability, orthostatic tachycardia, and impaired vagal tone — alongside chronic low-grade neuroinflammation. taVNS addresses both pathways simultaneously: (1) direct parasympathetic augmentation improves HRV and may reduce sympathoadrenal load; (2) vagal afferent stimulation activates the cholinergic anti-inflammatory pathway, suppressing microglial activation and peripheral cytokine release.
+
+If the PTPRN2 hypomethylation finding of Chalder and Moreau reflects chronic sympathoadrenal overload as a compensatory epigenetic response @ChalderMoreau2026ptprn2, reducing sympathetic demand via taVNS represents a physiological upstream intervention. The hypothesis predicts that sustained taVNS reduces transcriptional demand at the _PTPRN2_ locus and permits partial methylation renormalization over weeks-to-months — a mechanism that would be testable via serial saliva methylation sampling.
+
+=== Accessibility for Severe Patients
+
+taVNS devices (NEMOS, Parasym, TENS-based auricular clips) can be self-applied by patients or caregivers while supine, requiring no physical exertion. Typical protocols use 30 minutes once or twice daily at intensity below sensory discomfort threshold (~0.5–1.5 mA, 25 Hz, 250 μs pulse width). This profile is potentially accessible to very-severe and bedbound patients who cannot tolerate any active rehabilitation.
+
+=== Emerging Evidence
+
+A 2024 randomized pilot in Long COVID (Verbanck et al.) documented HRV improvement after 8-week taVNS, supporting feasibility in a post-infectious autonomic syndrome with substantial ME/CFS overlap. No dedicated ME/CFS randomized trial has been completed as of 2026; the evidence base remains preliminary and extrapolated from adjacent conditions.
+
+#speculation(title: [taVNS as Autonomic Load Reducer and Epigenetic Modifier in ME/CFS])[
+  If _PTPRN2_ hypomethylation is a compensatory response to chronic sympathoadrenal demand, taVNS may act upstream of both the epigenetic axis and the autonomic symptoms by reducing the sustained transcriptional pressure driving the modification. This predicts a dual outcome: (a) improved autonomic measures (HRV, RMSSD, POTS symptom score) and (b) a trend toward PTPRN2 methylation normalization in serial saliva samples. If autonomic improvement is achieved but methylation is unchanged, the epigenetic compensatory model is incorrect; if methylation normalizes but symptoms do not improve, methylation is a bystander not a mechanism.
+
+  Testable design: 12-week taVNS (30 min/day) in ME/CFS (n ≥ 40, randomized vs sham), with saliva methylation at baseline, 6 weeks, and 12 weeks. Primary endpoints: HRV, FUNCAP, fatigue NRS. Secondary endpoint: PTPRN2 methylation ratio. This is the minimal mechanistic test of the autonomic-epigenetic hypothesis.
+
+  (Certainty: 0.30 — biologically motivated, operationally feasible, no ME/CFS-specific evidence; the mechanistic prediction is speculative. Suitable for mild-to-moderate patients; start with 15-minute sessions and monitor for post-stimulation fatigue before extending duration.)
+] <spec:tavns-epigenetic-modifier>
+
+#practical-warning(title: [taVNS: Pre-Trial Safety Screening Required])[
+  taVNS is contraindicated in patients with implanted cardiac devices (pacemaker, ICD) due to potential electromagnetic interference. Patients with active skin lesions or hypersensitivity of the auricular region should not use ear-clip devices. In ME/CFS, post-stimulation fatigue has been anecdotally reported at higher intensities or durations; begin at minimum effective intensity and no more than 15 minutes per session, with rest monitoring for 24 hours before extending. Do not increase duration during or following PEM.
+]

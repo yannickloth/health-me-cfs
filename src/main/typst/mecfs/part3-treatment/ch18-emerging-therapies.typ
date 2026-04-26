@@ -2072,6 +2072,49 @@ _Certainty: 0.25._ The Long COVID carotid body sensitisation data are from a sma
 
 *Evidence grade*: E (no ME/CFS data); D (Long COVID proof-of-concept study only). Research priority: replicate carotid body sensitivity measurement in ME/CFS cohorts.
 
+== Mitophagy-Targeting Interventions: Metformin and Urolithin A
+<sec:mitophagy-targeting-mecfs>
+
+PHB2 (prohibitin 2), a mitochondrial inner-membrane scaffold protein and mitophagy receptor, has been implicated in ME/CFS epigenetics through the Chalder-Moreau 2026 study, which identified sex-differential PHB2 regulation associated with impaired miR-153-3p maturation @ChalderMoreau2026ptprn2. PHB2's established role in PINK1/Parkin-mediated mitophagy @QiLamont2023phb2cancer — the primary quality-control mechanism eliminating damaged mitochondria — raises the possibility that PHB2 dysfunction simultaneously causes both the miRNA defect (cognitive phenotype) and mitochondrial quality-control failure (energy phenotype). This positions PHB2 as a potentially parsimonious upstream node in ME/CFS pathophysiology, linking the well-established mitochondrial dysfunction (Chapter @ch:energy-metabolism) to the emerging epigenetic evidence (Chapter @ch:genetics-epigenetics).
+
+Two agents can engage this pathway at different levels and with distinct safety profiles.
+
+=== Low-Dose Metformin as AMPK-Mediated Mitophagy Activator
+
+Metformin inhibits complex I of the mitochondrial electron transport chain, activating AMPK as a cellular energy sensor. AMPK phosphorylates ULK1, initiating the autophagy/mitophagy cascade. At standard diabetic doses (1500-2000 mg/day), this produces measurable metabolic effects; at low doses (250-500 mg/day), the mitophagy-stimulating effect may be accessible without glycemic side effects.
+
+Metformin has attracted attention in ME/CFS-adjacent conditions: a prospective COVID-19 trial (Bramante et al., 2023) found metformin reduced Long COVID incidence by approximately 41% when given during acute infection, suggesting mitophagy or mitochondrial protection as a preventative mechanism. Preclinical evidence also documents neuroprotection in Alzheimer's and Parkinson's disease models sharing miR-153-3p targets with ME/CFS (BDNF, APP, SNCA).
+
+#speculation(title: [Low-Dose Metformin as PHB2-Axis Mitophagy Activator in ME/CFS])[
+  If PHB2 dysfunction impairs mitophagy in ME/CFS, low-dose metformin (250-500 mg/day) could partially compensate by AMPK-mediated activation of the ULK1 mitophagy pathway, reducing the accumulation of damaged mitochondria that drives ROS, energy failure, and sensory neuron activation. The cognitive-specific benefit predicted from the miR-153-3p pathway would require additional mechanisms (possibly via improved mitochondrial quality in neurons).
+
+  Testable design: 12-week pilot, metformin 500 mg/day vs placebo in ME/CFS (n ≥ 40), primary endpoints: delayed recognition memory (Rey AVLT, Logical Memory II) and FUNCAP. Mechanistic secondaries: PBMC mitophagy flux (mt-Keima or LC3-II/p62 ratio), blood miR-153-3p. A negative trial would indicate metformin does not access the PHB2 axis at safe doses.
+
+  (Certainty: 0.28 — biologically motivated, single indirect connection through PHB2 mechanism; no ME/CFS trial data exist. Not a clinical recommendation; research-stage hypothesis.)
+] <spec:metformin-phb2-mecfs>
+
+#practical-warning(title: [Metformin: ME/CFS-Specific Considerations])[
+  Standard metformin contraindications apply: renal impairment (eGFR < 30 mL/min/1.73m²), hepatic failure, contrast imaging procedures, alcohol excess. In ME/CFS, additional considerations: (1) gastrointestinal intolerance (nausea, diarrhea) is dose-dependent — extended-release formulation at bedtime reduces GI burden; (2) metformin reduces B12 absorption over time — monitor B12 annually and supplement if needed; (3) metformin can reduce blood lactate clearance — theoretically relevant if ME/CFS involves lactate handling abnormalities post-exercise; monitor for exercise-related symptom change. Starting dose: 250 mg with evening meal for 2 weeks before any increase. No human dosing data for mitophagy endpoints in ME/CFS exist; flag as research-stage. Obtain prescriber supervision.
+]
+
+=== Urolithin A as Direct PHB2-Dependent Mitophagy Activator
+
+Urolithin A is a gut microbiome metabolite derived from ellagitannins (found in pomegranates, walnuts, red wine). It is the first natural compound shown in a randomized controlled trial to induce mitophagy in humans via a PHB2-dependent mechanism: Ryu et al.\ (2016) demonstrated in _C. elegans_ and mammalian cells that urolithin A induces mitophagy specifically through a PHB2-mediated pathway @QiLamont2023phb2cancer; Andreux et al.\ (2019) demonstrated in a Phase 1 human RCT (n=60, elderly) that urolithin A 500 mg/day for 4 weeks improved mitochondrial gene expression in skeletal muscle and was well-tolerated.
+
+Urolithin A is commercially available as a supplement (Mitopure®, Timeline Nutrition) and as a generic powder, circumventing the drug development timeline. The mitochondrial muscle endpoint studied in elderly humans (muscle endurance, mitochondrial gene expression) aligns with ME/CFS-relevant outcomes.
+
+#warning-env(title: [ME/CFS Gut Microbiome Caveat: Urolithin A Conversion])[
+  Urolithin A is produced from dietary ellagitannins by specific gut bacteria, primarily _Gordonibacter urolithinfaciens_ and _Ellagibacter isourolithinifaciens_. A substantial fraction of the general population — estimated at 30-40% — lack these bacteria and produce negligible urolithin A from dietary ellagitannins. In ME/CFS, where gut dysbiosis is common (Chapter @ch:gut-microbiome), the proportion of "non-converters" may be even higher. Supplement-form urolithin A (Mitopure®) bypasses this bottleneck by providing the active compound directly; dietary ellagitannin approaches (pomegranate juice) are unreliable without knowing conversion status.
+]
+
+#speculation(title: [Urolithin A as PHB2-Targeted Mitophagy Supplement in ME/CFS])[
+  If PHB2 dysfunction is upstream of ME/CFS mitochondrial quality control failure, supplemental urolithin A at 500 mg/day — a dose shown effective in the only published human mitophagy RCT — is the most direct available intervention for the proposed PHB2 mechanism. Unlike metformin, urolithin A acts via a pathway specifically established to require PHB2, making the mechanistic connection more specific.
+
+  Testable design: 16-week RCT, urolithin A 500 mg/day vs placebo in ME/CFS (n ≥ 50), primary endpoints: handgrip endurance, post-exertional recovery time (actigraphy-measured). Mechanistic secondary: PBMC mitophagy flux. Cognitive secondary: delayed recognition memory test. Starting dose: 250 mg/day for 2 weeks before advancing to 500 mg to assess tolerability.
+
+  (Certainty: 0.30 — urolithin A PHB2 pathway established in non-ME/CFS systems; ME/CFS application is extrapolated. Research-stage only; not a clinical recommendation.)
+] <spec:urolithin-a-phb2-mecfs>
+
 == Neurosteroid Axis Interventions
 <sec:neurosteroid-axis-mecfs>
 
