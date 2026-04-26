@@ -4382,3 +4382,29 @@ Motivated by: scientific-insight-generator brainstorm on oral micronized progest
   kind: table,
 ) <tab:hypothesis-registry-2026-04-25-neurosteroid>
 ] // end landscape page
+
+
+=== Entries Added 2026-04-26: Stratified Combination Therapy Hypothesis
+
+Motivated by: synthesis of network controllability prediction (@sec:network-controllability) and subtype-stratified sensitivity analysis (@sec:sensitivity-drug-targets); operationalization of the primary mechanism map (@sec:primary-mechanism-map) for clinical-translation use.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Combination Therapy Stratified by Dominant Loop],
+    [H], [0.55],
+    [The ME/CFS disease attractor is sustained by multiple feedback loops; recovery requires shrinking enough loops simultaneously. (a) Patient-tailored 4--6-mechanism combination therapy outperforms monotherapy by $> 2 times$ at 12 months. (b) Patients with $gt.eq 4$ engaged loops respond worse to monotherapy than patients with $lt.eq 2$ engaged loops. (c) Successful clinical responders typically use 4--6 concurrent interventions, while non-responders use 1--3.],
+    [Stratified RCT design comparing monotherapy vs. biomarker-tailored 4--6-mechanism combination at 12 months. Retrospective analysis of established ME/CFS specialist practices (Mestinon + LDN + fludrocortisone + antihistamine + supplement stack patterns) for combination-vs-monotherapy outcome differential.],
+    [Ch.19 @hyp:stratified-combination-therapy],
+  ),
+  caption: [Entries added 2026-04-26: Stratified combination therapy hypothesis built on the primary mechanism map and network controllability predictions.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-26-stratified-combination>
+] // end landscape page

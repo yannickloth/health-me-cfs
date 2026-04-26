@@ -743,6 +743,100 @@ A systematic approach to treatment selection based on phenotype, energy category
 *Step 4 — Monitor and adjust*: Track response per Section @subsec:tracking-progress. Apply stop criteria from Section @subsec:when-to-stop if crash occurs.
 
 *Certainty: 0.25* (integrates well-established pharmacological principles with ME/CFS-specific clinical observations; the specific severity gating thresholds are clinical judgment rather than evidence-based; no RCTs comparing phenotype-guided vs. empirical treatment selection)
+
+== Primary Mechanism Map: Causal Loops, Detection, and Targeted Interventions
+<sec:primary-mechanism-map>
+
+The integrated model (Chapter @ch:integrated-systems) and global sensitivity analysis (Section @sec:sensitivity-drug-targets) identify several distinct _causal primary mechanisms_ in ME/CFS, each sustained by its own positive feedback loop and accessible to a different intervention class. This section synthesizes these mechanisms into a single map: what each loop does, how to detect it, what targets it, and on which of the three recovery timescales (Table @tab:three-recovery-timescales) the intervention acts.
+
+Three principles frame the map:
+
+(1) *Mechanisms are loops, not deficits.* Every entry describes a self-sustaining feedback circuit rather than a static abnormality. The disease attractor (Section @sec:hysteresis-analysis) emerges from the simultaneous engagement of multiple loops; recovery requires shrinking or breaking enough of them that the attractor disappears.
+
+(2) *Evidence tiers vary widely.* Some interventions have RCT evidence (LDN, low-dose hydrocortisone, fludrocortisone); some have mechanistic rationale and case-series support (CoQ10, nattokinase, cromolyn); others are research-stage only (BC007, daratumumab, gene therapy). Each row of the table specifies tier explicitly. _Mechanistic rationale is not clinical recommendation_ --- the warnings in Chapters @ch:urgent-action-severe and @ch:medications-mechanisms apply.
+
+(3) *Patients differ in which loops dominate.* Sensitivity analysis predicts subtype-specific bottlenecks (Section @sec:treatment-optimization): the same parameter ($alpha_upright("CI")$) is the dominant target in metabolic-dominant patients ($S_T approx 0.35$) but nearly irrelevant in immune-dominant patients ($S_T approx 0.04$). The map informs _which loops to interrogate first_ for a given patient phenotype, not which interventions to apply universally.
+
+=== Master Map
+
+#figure(
+  table(
+    columns: (1.6fr, 1fr, 1.4fr, 1.6fr, 0.8fr),
+    align: (left, left, left, left, left),
+    stroke: 0.5pt,
+    table.header(
+      [*Mechanism*], [*Driver parameter*], [*Sustaining loop (one line)*], [*Targeting interventions (evidence tier)*], [*Timescale*]
+    ),
+    [Complex I deficit], [$alpha_upright("CI")$], [ETC failure $arrow.r$ ROS $arrow.r$ further ETC damage], [CoQ10/ubiquinol (M); methylene blue (R); NR/NMN (M); riboflavin (M)], [Medium--Slow],
+    [MCAS], [$K_upright("MC")$], [Mast cell mediator release $arrow.r$ tissue inflammation $arrow.r$ MC sensitization], [H1 + H2 antihistamines (E); cromolyn (E); LTRAs (E); ketotifen (M); xolair (R)], [Fast--Medium],
+    [GPCR autoantibodies], [Autoantibody titre], [Autoantibody $arrow.r$ receptor dysregulation $arrow.r$ vascular/autonomic failure $arrow.r$ ongoing immune activation], [Immunoadsorption (R, mixed RCTs); IVIG (M); efgartigimod, daratumumab, BC007 (R)], [Medium],
+    [Microclots / fibrinaloid amyloid], [$beta_upright("epoxy")$], [Fibrin amyloid $arrow.r$ microvascular blockage $arrow.r$ tissue hypoxia $arrow.r$ oxidative stress $arrow.r$ more clotting], [Triple anticoagulation (R); nattokinase (M); lumbrokinase (M)], [Medium],
+    [Autonomic / OI / POTS], [$G_upright("baro")$, $V_upright("blood")$], [Reduced blood volume $arrow.r$ cerebral hypoperfusion $arrow.r$ orthostatic stress $arrow.r$ sympathetic overdrive], [Fludrocortisone (E); midodrine (E); ivabradine (E); pyridostigmine (E); compression + salt (E)], [Fast],
+    [HPA / cortisol dysregulation], [$n_F$], [Low cortisol $arrow.r$ unrestrained inflammation $arrow.r$ energy drain $arrow.r$ further HPA suppression], [Low-dose hydrocortisone 5--15 mg (E); DHEA (M); circadian protocol (M)], [Medium],
+    [Immune exhaustion / chronic activation], [$k_upright("exh")$], [Persistent low-grade activation $arrow.r$ T cell exhaustion $arrow.r$ poor pathogen control $arrow.r$ sustained activation], [LDN (E); rintatolimod (R); mycophenolate (R); inebilizumab (R)], [Medium],
+    [BBB hyperpermeability], [$P_0$], [Peripheral inflammation $arrow.r$ BBB leak $arrow.r$ neuroinflammation $arrow.r$ autonomic dysreg $arrow.r$ more peripheral stress], [PEA (M); luteolin (M); low-dose aripiprazole (R); minocycline (R)], [Medium],
+    [Neuroinflammation / microglial priming], [$M_a$], [Microglial activation $arrow.r$ cytokine release $arrow.r$ behavioral/cognitive symptoms], [LDN (E); low-dose aripiprazole (R); intranasal insulin (R); dextromethorphan (R)], [Medium],
+    [BH4 depletion], [$["BH4"]$], [Inflammation $arrow.r$ BH4 oxidation $arrow.r$ catecholamine deficit + iNOS uncoupling $arrow.r$ more ROS], [Sapropterin (R); folinic acid (M); 5-MTHF (M)], [Medium],
+    [Viral persistence / EBV reactivation], [$V(t)$], [Viral replication $arrow.r$ chronic immune drain $arrow.r$ energy exhaustion], [Valacyclovir, valganciclovir (M, Lerner); EBV-targeted (R)], [Medium--Slow],
+    [Gut dysbiosis / SIBO / motility], [$cal(G)_upright("set")$, $B_upright("SI")$], [Vagal impairment $arrow.r$ SIBO $arrow.r$ endotoxin $arrow.r$ systemic inflammation $arrow.r$ more vagal impairment], [Rifaximin (E); prucalopride (E); low-FODMAP (M); butyrate, PHGG (M)], [Medium],
+    [TRP channelopathy], [TRPM3, TRPM7 activity], [Calcium dysregulation $arrow.r$ NK/immune dysfunction + smooth muscle issues], [LDN (TRPM3 partial, M); naltrexone (M); MDC002 (R); magnesium (M)], [Medium],
+    [Glymphatic / sleep failure], [Glymphatic flux], [Sleep disruption $arrow.r$ glymphatic failure $arrow.r$ protein accumulation $arrow.r$ neuroinflammation $arrow.r$ more sleep disruption], [Trazodone (M, glymphatic-friendly); glycine (M); avoid Z-drugs (M); orexin caution (M)], [Medium--Slow],
+    [hEDS connective tissue coupling], [$kappa$], [Vascular laxity $arrow.r$ venous pooling $arrow.r$ sympathetic compensation $arrow.r$ energy tax], [Compression garments (E); supine work (E); ivabradine, beta-blockers (E)], [Fast],
+    [NAD#super[+] / redox imbalance], [$gamma$], [NAD#super[+] depletion $arrow.r$ SIRT inactivation $arrow.r$ biogenesis block $arrow.r$ metabolic inflexibility], [NR, NMN (M); niacinamide (M); NAD#super[+] IV (R); NAD#super[+]-sparing lifestyle (M)], [Medium--Slow],
+  ),
+  caption: [Primary mechanism map for ME/CFS. Evidence tiers: *E* = Established (RCT or strong clinical evidence); *M* = Moderate (mechanistic rationale + case-series or observational support); *R* = Research-stage (preclinical, early-phase, or experimental). Timescales reference Table @tab:three-recovery-timescales: _Fast_ = hours to weeks (within-envelope), _Medium_ = weeks to months (damage-rate reduction), _Slow_ = months to years (ceiling restoration). Most interventions act on Medium timescale because they reduce ongoing damage or modulate immune set-points without immediately restoring structural deficits.],
+) <tab:primary-mechanism-map>
+
+=== Mechanisms with No Established Targeted Therapy
+
+The following primary mechanisms have model-derived rationale but no established targeted therapy --- they represent the highest-leverage research gaps:
+
+  - *Cell Danger Response (CDR) persistence.* Naviaux's CDR framework posits that ME/CFS represents a failure to complete the salugenesis (recovery) phase after danger response. No specific Tx; suramin trials in autism showed transient effects but ME/CFS RCT not done.
+
+  - *Itaconate / aconitase block.* TCA cycle interruption at step 2; metabolomic signatures consistent (Yamano 2016, Ciregia 2016) but no targeted intervention exists. Theoretical: itaconate antagonists (none developed for ME/CFS).
+
+  - *Sphingolipid / ceramide accumulation.* Multiple metabolomic studies report altered sphingolipid profiles. No targeted Tx; speculative interventions include myriocin (preclinical only) and dietary ceramide reduction (no evidence).
+
+  - *Lactate / GPR81 bistability.* Section @sec:lactate-kinetics predicts a metabolic bistable state below $alpha_upright("CI") < 0.65$ where the lactate $arrow.r$ GPR81 $arrow.r$ FFA suppression loop locks glycolytic dominance. Theoretical Tx: medium-chain triglycerides (CPT-I bypass) and GPR81 antagonists (none clinical-grade).
+
+  - *WASF3 supercomplex disruption.* Wang/Hwang 2023 identified WASF3 over-expression disrupting mitochondrial supercomplex assembly. No targeted Tx; potential CRISPR or small-molecule WASF3 modulators are research-stage only.
+
+These five mechanisms are flagged as *Research Priority* in Chapter @ch:proposed-studies and represent first-in-class therapeutic opportunities if targeted molecules can be developed and validated.
+
+=== Why Single-Target Trials Underperform: The Multi-Loop Attractor
+
+Network controllability analysis (Section @sec:network-controllability) predicts that the ME/CFS system requires _at least 4--6 independent driver nodes_ for full structural controllability. This is a property of the network topology --- independent of parameter values --- and provides a mathematical explanation for why monotherapy trials in ME/CFS have consistently shown small average effect sizes even for treatments that produce dramatic responses in individual patients.
+
+#hypothesis-box(title: [Combination Therapy Stratified by Dominant Loop])[
+The disease attractor is sustained by multiple loops simultaneously, with patient-specific variation in which loops dominate. The model predicts that biomarker-stratified combination therapy targeting the patient's 4--6 most-engaged loops will substantially outperform either monotherapy or unstratified combination therapy. _(Certainty: 0.55.)_
+
+Specifically:
+
+(1) *Single-loop interventions reduce attractor depth incrementally.* If only one loop is targeted, the attractor remains stable but the patient may relax to a higher $B$ within the same basin (within-envelope improvement, Table @tab:three-recovery-timescales). Symptoms improve; the disease state persists.
+
+(2) *Multi-loop interventions can collapse the attractor.* Targeting four or more dominant loops simultaneously can shrink the basin enough that noise-driven escape (stochastic resonance, Section @sec:stochastic-resonance) becomes feasible, or can reverse the saddle-node bifurcation entirely.
+
+(3) *Loop dominance is patient-specific.* Sensitivity analysis predicts that the relevant 4--6 loops differ between metabolic-dominant, immune-dominant, autonomic-dominant, and severe/locked subtypes (Section @sec:sensitivity-drug-targets).
+
+*Falsifiable predictions:*
+
+(a) In a stratified RCT comparing monotherapy vs. patient-tailored 4--6-mechanism combination therapy, the combination arm should show $> 2 times$ the effect size of monotherapy at 12 months.
+
+(b) Patients whose biomarker profile identifies $gt.eq 4$ engaged loops should respond worse to monotherapy than patients with $lt.eq 2$ engaged loops, because monotherapy in the multi-loop case leaves most of the attractor intact.
+
+(c) The minimum cocktail size (Section @sec:network-controllability) of 4--6 should match the empirical observation that successful clinical responders typically use 4--6 concurrent interventions, while non-responders or partial responders typically use 1--3.
+
+This hypothesis builds on the network controllability prediction (already in @sec:network-controllability) and the subtype-specific sensitivity prediction (@sec:sensitivity-drug-targets), unifying them with the practical observation that experienced ME/CFS clinicians (Mestinon + LDN + fludrocortisone + antihistamine + supplement stack patterns) achieve better results than single-agent trials.
+] <hyp:stratified-combination-therapy>
+
+The map in Table @tab:primary-mechanism-map enables operationalization of this hypothesis: for each patient, identify the dominant loops via biomarker panel (Chapter @ch:biomarker-research), select 4--6 targeted interventions spanning distinct rows of the map (avoiding redundancy within the same row), sequence by tier and energy cost (Section @subsec:energy-categories), and monitor by tracking biomarkers from each engaged loop rather than any single global symptom score.
+
+=== Limitations of the Map
+
+#limitation(title: [Map Is a Synthesis, Not a Validated Decision Tool])[
+Table @tab:primary-mechanism-map synthesizes published mechanistic literature, the integrated model's sensitivity analysis, and clinical observations from established ME/CFS practitioners. It has not been prospectively validated. The evidence tier assignments reflect current literature as of the document version date but should be re-evaluated as new RCTs report. The timescale assignments derive from the three-recovery-timescales framework (Table @tab:three-recovery-timescales) and are model-predicted, not measured. Loop-dominance assessment requires biomarker panels not yet standardized in clinical practice. Use this map as a structured framework for hypothesis-driven treatment planning under specialist supervision, not as a substitute for clinical judgment or as a one-size-fits-all protocol.
+]
+
 == Combination Therapies
 <sec:combination-therapies>
 

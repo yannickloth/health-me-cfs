@@ -284,7 +284,7 @@ The minimum-energy control is $bold(u)^*(t) = bold(B)^top e^(bold(J)^top (T-t)) 
 == Model-Predicted Treatment Candidates
 <sec:treatment-candidates>
 
-Combining sensitivity analysis (Section @sec:sensitivity-drug-targets), controllability analysis (Section @sec:network-controllability), and the pharmacodynamic models from earlier chapters, the integrated model generates specific treatment predictions. Table @tab:treatment-predictions summarizes candidates organized by target parameter and predicted mechanism.
+Combining sensitivity analysis (Section @sec:sensitivity-drug-targets), controllability analysis (Section @sec:network-controllability), and the pharmacodynamic models from earlier chapters, the integrated model generates specific treatment predictions. Table @tab:treatment-predictions summarizes candidates organized by target parameter and predicted mechanism. For a clinical-translation map that pairs each driver parameter with sustaining-loop description, evidence-tiered intervention list, and recovery-timescale classification, see Section @sec:primary-mechanism-map.
 
 #figure(
   table(
