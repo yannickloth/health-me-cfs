@@ -4408,3 +4408,78 @@ Motivated by: synthesis of network controllability prediction (@sec:network-cont
   kind: table,
 ) <tab:hypothesis-registry-2026-04-26-stratified-combination>
 ] // end landscape page
+
+
+=== Entries Added 2026-04-26: Epigenetics — PTPRN2 / miR-153-3p / PHB2 Axis
+
+Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 hypomethylation and PHB2-associated miR-153-3p maturation in ME/CFS saliva EWAS (n=54 vs 21); supported by prior miRNA work @Nepotchatykh2020mirnaMECFS @Nepotchatykh2023mirnaMECFS and PTPRN2 biology review @StojilkovicSokanovic2025ptprn.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [PTPRN2 Hypomethylation as Epigenetic Anchor of Cognitive Subtype],
+    [S], [0.28],
+    [ME/CFS patients with PTPRN2 hypomethylation show measurably worse delayed recall vs those without; PTPRN2 mRNA/protein differ between subgroups; monoaminergic treatments preferentially benefit hypomethylated subgroup.],
+    [No interventional data; requires saliva EWAS replication in n > 100 cohort + matched PTPRN2 mRNA data. Single unreplicated study (n=54).],
+    [Ch.12 @spec:ptprn2-cognitive-subtype],
+
+    [PTPRN2–miR-153-3p–PHB2 Multi-Level Epigenetic Axis],
+    [S], [0.25],
+    [Patients with lowest miR-153-3p show deepest delayed recall deficits; PHB2 protein altered in ME/CFS; miR-153-3p mimic transfection rescues APP/SNCA/NLRP3 expression.],
+    [No ME/CFS data; PHB2 cytoplasmic miRNA maturation mechanism undemonstrated in any published study. Cross-sectional, n=54.],
+    [Ch.12 @spec:ptprn2-mir153-phb2-axis],
+
+    [PTPRN2 Hypomethylation as Autonomic Stress Biomarker],
+    [S], [0.35],
+    [Methylation inversely correlates with 24h urinary catecholamines and tilt-table sympathetic indices. Severe OI patients show deepest hypomethylation.],
+    [Feasible via paired saliva methylation + tilt-table testing in ME/CFS cohort. Not yet tested.],
+    [Ch.12 @spec:ptprn2-autonomic-stress],
+
+    [PHB2–Estrogen Axis Drives Female Predominance and Perimenstrual Flares],
+    [S], [0.30],
+    [Longitudinal miR-153-3p nadir in late-luteal/early-follicular phase correlating with peak cognitive symptom severity in cycling females; postmenopausal: stable low miR-153-3p; males: no cyclical pattern.],
+    [Longitudinal within-subject design (daily sampling across 2+ cycles). Moreau group has infrastructure; no published design for this endpoint.],
+    [Ch.12 @spec:phb2-estrogen-mecfs],
+
+    [PHB2 as Shared Upstream Node for Cognitive and Energy Phenotypes],
+    [S], [0.28],
+    [Plasma miR-153-3p reduction should correlate with PBMC mitophagy flux impairment within patients. If uncorrelated, PHB2 functions are dissociated.],
+    [Single blood-draw study: plasma miR-153-3p + PBMC mitophagy flux (mt-Keima or LC3-II). Not yet done in ME/CFS.],
+    [Ch.12 @spec:phb2-mitophagy-cognition],
+
+    [Methylation-Based Subgrouping Predicts Differential Treatment Response],
+    [S], [0.30],
+    [PTPRN2-hypomethylated patients respond preferentially to autonomic interventions; methylation-normal patients respond preferentially to immune-targeted interventions.],
+    [Retrospective analysis of stratified treatment cohorts. Prospective stratified trial would be definitive. Entirely untested.],
+    [Ch.20 @spec:methylation-subgrouping-treatment],
+
+    [Low-Dose Metformin as PHB2-Axis Mitophagy Activator],
+    [S], [0.28],
+    [12-week metformin 500 mg/day produces $gt.eq 0.3$ SD improvement on delayed recognition memory + $gt.eq 5$-point FUNCAP vs placebo in ME/CFS.],
+    [Pilot RCT feasible; no ME/CFS metformin trial exists; Long COVID Bramante 2023 provides precedent for post-infectious syndrome benefit.],
+    [Ch.18 @spec:metformin-phb2-mecfs],
+
+    [Urolithin A as PHB2-Targeted Mitophagy Supplement],
+    [S], [0.30],
+    [16-week urolithin A 500 mg/day improves handgrip endurance + post-exertional recovery time vs placebo; PBMC mitophagy flux increases.],
+    [Andreux 2019 human RCT (elderly, muscle) provides dose/safety precedent. No ME/CFS trial. OTC availability enables rapid pilot.],
+    [Ch.18 @spec:urolithin-a-phb2-mecfs],
+
+    [taVNS as Autonomic Load Reducer and Epigenetic Modifier],
+    [S], [0.30],
+    [12-week taVNS improves HRV + FUNCAP + fatigue; trend toward PTPRN2 methylation normalization in serial saliva samples. If autonomic improves but methylation unchanged, causal link is wrong.],
+    [taVNS devices available; no ME/CFS taVNS RCT with methylation endpoint; Long COVID Verbanck 2024 provides autonomic precedent.],
+    [Ch.17 @spec:tavns-epigenetic-modifier],
+
+  ),
+  caption: [Entries added 2026-04-26: Epigenetics --- PTPRN2/miR-153-3p/PHB2 axis hypotheses and treatment speculations across ch12, ch17, ch18, ch20.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-26-epigenetics>
+] // end landscape page
