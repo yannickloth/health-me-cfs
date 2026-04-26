@@ -284,7 +284,7 @@ Survey data from Norway ($n = 586$) confirm the clinical heterogeneity that the 
 
 The steep $tau_upright("rec")$ increase through the cliff regime and the high constant in the floor regime have several implications for clinical management, monitoring, and model refinement.
 
-#hypothesis-box(title: [The Biological Shadow: Biomarkers Improve Before Function])[
+#hypothesis(title: [The Biological Shadow: Biomarkers Improve Before Function])[
 At extremely severe levels, the piecewise recovery scaling (Table @tab:recovery-regimes) predicts a temporal dissociation between biological and functional improvement. Blood biomarkers (8-OHdG, cell-free mitochondrial DNA, inflammatory cytokines, HRV metrics) should begin improving weeks to months before the patient or caregiver can detect any functional change. At moderate severity ($B approx 0.50$), the same biomarkers and functional capacity improve approximately in parallel. In the cliff regime, the lag grows steeply with decreasing $B$; in the floor regime, the lag plateaus at a high constant. _(Certainty: 0.50.)_ This is a direct consequence of the ATP synthase threshold nonlinearity and the collapsed biogenesis/mitophagy machinery at low $B$. The Jahanbani 2024 $n = 1$ trajectory is consistent with prolonged biological improvement preceding functional milestones @Jahanbani2024severity.
 
 *Clinical implication:* The absence of visible functional improvement in an extremely severe patient does not mean the treatment is failing. Clinicians and caregivers should monitor biological markers rather than functional milestones to assess treatment efficacy at this end of the spectrum.
@@ -292,7 +292,7 @@ At extremely severe levels, the piecewise recovery scaling (Table @tab:recovery-
 *Falsifiable prediction:* A longitudinal study of $gt.eq 20$ extremely severe patients with monthly paired biological and functional assessments over $gt.eq 12$ months should show statistically significant biomarker improvement preceding functional improvement by $gt.eq 2$ months at ES-D/E, versus $lt.eq 2$ weeks at moderate severity. Falsified if biomarker and functional trajectories are synchronous at all severity levels.
 ] <hyp:biological-shadow>
 
-#hypothesis-box(title: [Recovery Horizon: A Computable Patience Metric])[
+#hypothesis(title: [Recovery Horizon: A Computable Patience Metric])[
 The piecewise recovery scaling (Table @tab:recovery-regimes) enables computation of the expected time for a patient at a given $B$ to traverse one sub-level band. In the cliff regime, $tau_upright("rec")$ rises steeply; in the floor regime, it plateaus at a high constant. Both are dramatically longer than in the plateau regime where healthy and mild patients reside. The qualitative pattern:
 
 #figure(
@@ -334,7 +334,7 @@ This decomposition resolves an apparent paradox: patients can experience meaning
 Worked example: a patient at $B = 0.05$ with $B_max = 0.15$ has 10 percentage points of immediately reclaimable function via demand and damage-rate interventions, achievable in weeks to months without the ceiling moving. Climbing $B_max$ from 0.15 toward 0.40 is the slow component and requires sustained parameter modification.
 ]
 
-#hypothesis-box(title: [Damage Prevention Dominance Below the Severe Threshold])[
+#hypothesis(title: [Damage Prevention Dominance Below the Severe Threshold])[
 The ratchet asymmetry at the extremely severe end has a quantifiable consequence for therapeutic priorities. In the floor regime, recovery from any crash takes the same very long time $tau_upright("rec") approx K_upright("repair") \/ (r_min dot.op [upright("ATP")]_min)$ regardless of the patient's exact $B$ within that regime. But the crash itself is acute (hours to days). This asymmetry means that every single preventable damaging event saves months to years of recovery time. In the cliff regime (moderate through severe), the asymmetry is even steeper: a crash at $B = 0.25$ costs _disproportionately_ more than the same crash at $B = 0.50$ because the $Delta Psi$ threshold nonlinearity amplifies every $B$ drop. _(Certainty: 0.55.)_
 
 The model predicts that for patients in the cliff and floor regimes, the dominant therapeutic modality is not any drug or supplement but rather the prevention of the next damaging event: infection prevention (masking, antivirals), sensory environment control (darkness, silence), and strict elimination of all avoidable physiological stressors. This is consistent with existing clinical practice for this population but provides the biophysical justification.

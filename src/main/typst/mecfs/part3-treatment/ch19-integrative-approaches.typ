@@ -807,7 +807,7 @@ These five mechanisms are flagged as *Research Priority* in Chapter @ch:proposed
 
 Network controllability analysis (Section @sec:network-controllability) predicts that the ME/CFS system requires _at least 4--6 independent driver nodes_ for full structural controllability. This is a property of the network topology --- independent of parameter values --- and provides a mathematical explanation for why monotherapy trials in ME/CFS have consistently shown small average effect sizes even for treatments that produce dramatic responses in individual patients.
 
-#hypothesis-box(title: [Combination Therapy Stratified by Dominant Loop])[
+#hypothesis(title: [Combination Therapy Stratified by Dominant Loop])[
 The disease attractor is sustained by multiple loops simultaneously, with patient-specific variation in which loops dominate. The model predicts that biomarker-stratified combination therapy targeting the patient's 4--6 most-engaged loops will substantially outperform either monotherapy or unstratified combination therapy. _(Certainty: 0.55.)_
 
 Specifically:

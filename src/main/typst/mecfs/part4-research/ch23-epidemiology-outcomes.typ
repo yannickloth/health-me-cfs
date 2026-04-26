@@ -164,7 +164,7 @@ This composite package addresses all limitations of any single instrument:
 - Actigraphy provides objective evidence of daily activity patterns and energy expenditure
 
 *Evidence Link.*
-Each component is validated individually: FUNCAP @Sommerfelt2024FUNCAP, 2-day CPET @vanCampen2020severity, COMPASS-31 @Sheldon2013COMPASS, actigraphy @Jason2020economic. The combination is novel and requires standardization.
+Each component is validated individually: FUNCAP @Sommerfelt2024FUNCAP, 2-day CPET @vanCampen2020severity, COMPASS-31 (Sletten 2012), actigraphy @Jason2020economic. The combination is novel and requires standardization.
 
 *Practical Implementation.*
 The package can be administered over 2-3 weeks:

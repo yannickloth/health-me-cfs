@@ -10959,7 +10959,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *PMID:*: 40944028
     / *Study Design:*: Multi-site cross-sectional study; n=442 (301 ME/CFS, 141 healthy controls); 7 specialist ME/CFS clinics across the USA. Tools: COMPASS-31 (Composite Autonomic Symptom Scale 31), NASA lean test, medical history review.
     / *Key Findings:*:
-        - 97% of ME/CFS participants had at least one autonomic symptom (vs. controls, all p<0.0001)
+        - 97% of ME/CFS participants had at least one autonomic symptom (vs.\ controls, all $p$\<0.0001)
         - Higher burden across all three assessment tools: COMPASS-31, NASA lean test, medical history
         - Orthostatic intolerance, gastrointestinal, and pupillomotor domain symptoms correlated with heightened illness severity
         - Supports targeted dysautonomia assessment to guide symptom management
@@ -10976,10 +10976,10 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *PMID:*: 41598473
     / *Study Design:*: Quasi-experimental (pre-post) study; n=115 pediatric post-COVID patients; mean age 13.3 years; 66.1% female; 12-month multidisciplinary pulmonary rehabilitation program. Spain.
     / *Key Findings:*:
-        - 6-minute walk distance improved +37 m (509 to 546 m; p<0.001; Cohen's d=0.50)
+        - 6-minute walk distance improved +37 m (509 to 546 m; $p$\<0.001; Cohen's d=0.50)
         - Handgrip strength improved +2.4 kg; breathing muscle strength +15 cmH#sub[2]O
         - Fatigue scores improved by 9.3 points
-        - Psychiatric symptom scores decreased by 4.5 points (p<0.001)
+        - Psychiatric symptom scores decreased by 4.5 points ($p$\<0.001)
         - Overall well-being scores increased by 11 points
         - Muscle imaging showed increased thickness and improved composition
     / *Conclusion:*: Multidisciplinary pulmonary rehabilitation appears feasible and potentially effective for pediatric post-COVID patients. However, this is a quasi-experimental design without a control group, meaning improvements could reflect natural recovery, regression to the mean, or placebo effects in addition to any genuine rehabilitation benefit. The pediatric post-COVID population overlaps substantially with pediatric ME/CFS but is not identical.
@@ -11502,7 +11502,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *PMID:*: 32291908
     / *Study Design:*: PBMCs; 2-day CPET exercise challenge; n=118 (63 ME/CFS, 55 controls); sex-stratified miRNA profiling.
     / *Key Findings:*:
-        - Males showed significantly more pronounced miRNA alterations (36 DEGs at peak exercise, FDR<0.1) vs females (none reaching threshold)
+        - Males showed significantly more pronounced miRNA alterations (36 DEGs at peak exercise, FDR\<0.1) vs females (none reaching threshold)
         - Consistent elevation of miR-150-5p and miR-423 in ME/CFS across all time-points
         - Nutritional state substantially affected miRNA expression
     / *Conclusion:*: Sex-differential miRNA response in ME/CFS directly contextualises Chalder 2026 finding of male-specific respiratory symptom association with PTPRN2 hypomethylation. Male-biased epigenetic/miRNA dysregulation in ME/CFS has independent supporting evidence.

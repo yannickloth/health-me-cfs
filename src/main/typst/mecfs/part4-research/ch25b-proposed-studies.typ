@@ -2022,7 +2022,7 @@ We propose that a network of ME/CFS research centers could conduct aggregated N-
 == Metabolic Reserve Predisposition Studies (Architecture C)
 <sec:architecture-c-research-program>
 
-Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative-ch14d) predicts that pre-existing metabolic reserve determines post-infectious ME/CFS risk. A low reserve state — arising from neurodivergence, connective tissue disorder, nutritional deficits, or prior immune activation — may mean that a viral insult which would be metabolically manageable for most people instead tips the system into chronic energy deficit. Four study designs test this framework at increasing cost and specificity.
+Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative-hypotheses) predicts that pre-existing metabolic reserve determines post-infectious ME/CFS risk. A low reserve state — arising from neurodivergence, connective tissue disorder, nutritional deficits, or prior immune activation — may mean that a viral insult which would be metabolically manageable for most people instead tips the system into chronic energy deficit. Four study designs test this framework at increasing cost and specificity.
 
 === Prospective Post-Infection Metabolic Phenotyping
 <sec:prospective-metabolic-phenotyping>

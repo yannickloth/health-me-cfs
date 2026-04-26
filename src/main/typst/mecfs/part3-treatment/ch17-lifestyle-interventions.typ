@@ -122,7 +122,7 @@ Use serial FUNCAP-27 assessments (weekly) to identify which specific functional 
 Standard pacing advice is undifferentiated—reduce overall activity. But ME/CFS patients have heterogeneous functional profiles. A patient whose "communication" domain is stable while "home activities" declines needs to adjust household tasks, not social contact. FUNCAP's 8-domain structure provides the granularity for targeted pacing.
 
 *Mechanistic Rationale.*
-The optimal control model (Section @sec:predictive-applications) implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
+The optimal control model (Chapter @ch:predictive-applications) implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
 
 *Clinical Implementation.*
 1. *Baseline assessment*: Complete FUNCAP-27 to establish domain profile
@@ -838,8 +838,6 @@ Lying down without sleeping has independent physiological value for ME/CFS patie
     - *Not wasted time:* Patients who rest horizontally without falling asleep should not consider the time unproductive. The physiological benefits (reduced cardiac demand, improved cerebral perfusion, decreased sympathetic activation) accrue regardless of whether sleep occurs. This reframing is important: guilt about "not sleeping during rest" adds cognitive stress that undermines the rest itself
 
 #warning-env(title: [What NOT to Do: Meditation and Rest Pitfalls in ME/CFS])[
-<warn:ch17-meditation-pitfalls>
-
 *Standard MBSR programs:* The standard mindfulness-based stress reduction format requires 2.5 hours per week of group attendance plus 45 minutes per day of home practice. This represents a substantial cognitive and scheduling commitment that likely exceeds the energy envelope of moderate-to-severe ME/CFS patients. No study has tracked PEM exacerbation rates from standard MBSR in ME/CFS.
 
 *Concentration meditation:* Practices requiring sustained focused attention (mantra repetition, single-point focus, counting breaths with mental tracking) constitute cognitive exertion. Even 10--15 minutes of effortful concentration can trigger cognitive PEM in severely ill patients. Prefer _receptive_ practices (body scan, yoga nidra) over _concentrative_ practices.
@@ -853,7 +851,7 @@ Lying down without sleeping has independent physiological value for ME/CFS patie
 *Excessive horizontal rest without activity:* While horizontal rest has physiological value (see above), complete inactivity over weeks to months carries secondary risks: cardiovascular deconditioning (worsening orthostatic intolerance), muscle mass loss (accelerating functional decline), and reduced circadian entrainment (weakening the light-dark cycle that anchors sleep timing). The goal is structured rest integrated with minimal sustainable activity --- not perpetual bed rest. See Section @sec:klimas-program for the structured reconditioning approach that balances rest with brief activity bouts.
 
 *Hyperventilation-inducing practices:* Prolonged deep breathing exercises, extended breath-holds, or vigorous pranayama can trigger respiratory alkalosis and autonomic destabilisation. Brief, gentle diaphragmatic breathing (Section @sec:breathing-co2) is appropriate; extended breathwork protocols are not.
-]
+] <warn:ch17-meditation-pitfalls>
 
 === Biofeedback
 

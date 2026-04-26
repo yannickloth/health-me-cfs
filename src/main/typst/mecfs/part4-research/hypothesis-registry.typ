@@ -185,31 +185,31 @@ Motivated by: funcap.no website; Sommerfelt2024FUNCAP and related literature; sy
     [Definitive FUNCAP Validation Study],
     [OQ], [---],
     [Multi-center, multi-country study (n >= 500 ME/CFS, 200 HC, 100 Long COVID). Test convergent validity, known-groups validity, floor/ceiling effects, cross-cultural DIF, cross-disease validity. Primary: Does FUNCAP-55 discriminate severity better than SF-36? (ROC AUC comparison).],
-    [Feasible (CC BY license, 8 languages). Estimated cost: $300-500K. Highest priority study in field—not yet done.],
+    [Feasible (CC BY license, 8 languages). Estimated cost: \$300--500K. Highest priority study in field---not yet done.],
     [Ch.25b],
 
     [FUNCAP Longitudinal Sensitivity-to-Change],
     [OQ], [---],
     [Prospective cohort (n >= 300, severity-stratified). FUNCAP-27 monthly for 12 months + PEM event log. Determine MCID, responsiveness to deterioration/improvement, test-retest reliability. Key innovation: test whether FUNCAP detects delayed consequences of PEM crashes.],
-    [Feasible (remote administration). Estimated cost: $100-200K. No longitudinal data exist—critical gap before trial endpoint use.],
+    [Feasible (remote administration). Estimated cost: \$100--200K. No longitudinal data exist---critical gap before trial endpoint use.],
     [Ch.25b],
 
     [Head-to-Head: FUNCAP vs. SF-36 vs. WHODAS],
     [OQ], [---],
     [Cross-sectional n >= 400 ME/CFS (severity-stratified). All three instruments + 2-day CPET subset (n >= 80). Compare floor/ceiling effects, correlation with objective measures, patient preference, clinician usability. Direct evidence that FUNCAP outperforms generic tools would drive adoption.],
-    [Feasible (requires CPET for objective benchmark). Estimated cost: $200-400K. No direct comparison exists—advocacy gap.],
+    [Feasible (requires CPET for objective benchmark). Estimated cost: \$200--400K. No direct comparison exists---advocacy gap.],
     [Ch.25b],
 
     [FUNCAP Digital Adaptation for Real-Time PEM Monitoring],
     [OQ], [---],
     [Convert FUNCAP-27 to mobile app with daily micro-assessment (3-5 items/day rotating through all 27). Pair with wearable data (HRV, steps, sleep). Test whether daily FUNCAP domain scores predict PEM crashes 24-72h before onset. Consequence items may provide earlier warning than capability items.],
-    [App development + validation study. Estimated cost: $150-250K. Novel application—no existing digital adaptation.],
+    [App development + validation study. Estimated cost: \$150--250K. Novel application---no existing digital adaptation.],
     [Ch.25b / Ch.33],
 
     [Cross-Cultural FUNCAP Validation],
     [OQ], [---],
     [Administer FUNCAP-55 in all 8 language versions to ME/CFS patients in 8 countries (n >= 100 per language/country). Test differential item functioning (DIF) to determine whether items behave differently across cultures. Identify items needing cultural adaptation.],
-    [Feasible (requires international collaboration). CC BY license facilitates. Estimated cost: $200-300K. Essential for international trials—not yet done.],
+    [Feasible (requires international collaboration). CC BY license facilitates. Estimated cost: \$200--300K. Essential for international trials---not yet done.],
     [Ch.25b],
 
     [Domain-Guided Pharmacotherapy],
@@ -317,7 +317,7 @@ Motivated by: funcap.no website; Sommerfelt2024FUNCAP and related literature; sy
     [Post-Concussion Syndrome and FUNCAP],
     [S], [0.20],
     [Post-concussion syndrome shares PEM-like exercise intolerance and cognitive fatigue with ME/CFS. (a) ~40% head trauma/concussion history in POTS (Boris2026). (b) FUNCAP captures functional limitations standard assessments miss.],
-    [Post-concussion cohort study. Overlap documented—FUNCAP not tested in this population.]
+    [Post-concussion cohort study. Overlap documented---FUNCAP not tested in this population.],
     [Ch.13],
 
     [FUNCAP as Trans-Diagnostic Tool for Functional Somatic Syndromes],
