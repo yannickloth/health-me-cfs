@@ -310,6 +310,7 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/19272715/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — AndreenBackstrom2009negMood — allopregnanolone biphasic GABA-A paradoxical anxiogenic low dose PMDD |
 | https://pubmed.ncbi.nlm.nih.gov/15142269/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Gur2004fibromyalgiaHormones — progesterone null result n=176 fibromyalgia CFS HPG axis normal |
 | https://pubmed.ncbi.nlm.nih.gov/15588275/ | pubmed | 2026-04-25 | 2026-04-25 | bib/appendix-h — Cevik2004CFShormones — progesterone null result n=43 CFS both menstrual phases HPG normal |
+| https://www.sciencedaily.com/releases/2026/04/260426012303.htm | sciencedaily | 2026-04-30 | 2026-04-30 | ch04-07 — Karakaya2026EPAbrain — EPA TBI/CTE vascular repair; cited to clarify inapplicability to ME/CFS omega-3 recommendation |
 | https://doi.org/10.1186/s12967-026-08162-6 | springer | 2026-04-26 | 2026-04-26 | bib/appendix-h — ChalderMoreau2026ptprn2 — PTPRN2 hypomethylation PHB2 miR-153-3p ME/CFS n=54 |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11041712/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — Stabile2024mir153memory — miR-153-3p hippocampus memory mice Mol Neurobiol |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12725688/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — LahiriWang2025mir153AD — miR-153-3p Alzheimer's protective APP SNCA REST Alz Dement |

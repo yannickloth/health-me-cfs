@@ -359,7 +359,7 @@ Treatment targeting a single domain may fail because untreated domains maintain 
 *Treatment Implications (experimental):*
 
     - L-citrulline 3–6 g/day or L-arginine (for nitric oxide production)
-    - Omega-3 fatty acids (EPA/DHA 2–4 g/day)
+    - Omega-3 fatty acids (EPA/DHA 2–4 g/day) — rationale is mechanistic (anti-inflammatory resolvins, NO-mediated vasodilation); no ME/CFS RCT evidence. Note: a 2026 study found EPA accumulation impairs vascular repair after mechanical brain trauma (TBI/CTE context); this harm mechanism does not apply to ME/CFS endothelial dysfunction, which involves chronic inflammation and reduced nitric oxide ($"NO"$) bioavailability rather than post-traumatic angiogenic repair @Karakaya2026EPAbrain.
     - Low-dose aspirin 81 mg daily (if no contraindications)
     - Emerging research: anticoagulation trials, fibrinolytic protocols (investigational only)
 
