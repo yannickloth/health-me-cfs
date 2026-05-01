@@ -11927,3 +11927,962 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *ME/CFS Relevance:*: Chronic HSAT2 expression could underlie the widespread transcriptomic alterations in ME/CFS blood studies, independent of DNA-level changes.
     / *Limitations:*: Cancer cell lines; no immune cell or infection data.
     / *Certainty:*: 0.70
+
+// ============================================================
+// HSAT2 Derepression, Inflammaging, and Epigenetic Re-Silencing
+// Added 2026-05-01
+// ============================================================
+
+=== HSAT2 Derepression, Inflammaging, and Epigenetic Re-Silencing
+
+    This section covers the upstream triggers and epigenetic mechanisms that gate pericentromeric
+    satellite repeat (HSAT2/Sat II/Sat III) derepression in non-cancer, non-engineered contexts:
+    cellular senescence, viral infection, one-carbon metabolic depletion, and chronic oxidative
+    stress. Together these papers provide the mechanistic context for how ME/CFS-associated
+    stressors — chronic viral reactivation, redox imbalance, folate/B12 deficit — could
+    sustain HSAT2 expression and exosomal propagation (Evdokimova 2019) independent of
+    active cancer.
+
+=== De Cecco et al.\ 2019 --- LINE-1 Derepression in Senescence Drives Interferon and Inflammaging
+
+    @DeCecco2019LINE1
+
+    / *Full Citation:*: De Cecco M, Ito T, Petrashen AP, et al. "L1 drives IFN in senescent cells and promotes age-associated inflammation." _Nature_. 2019;566(7742):73--78.
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-018-0784-9")[10.1038/s41586-018-0784-9]
+    / *PMID:*: 30728521
+    / *Study Design:*: Multi-institutional; human fibroblast cell lines (LF1, IMR-90, WI-38); C57BL/6J aged mice; human skin biopsies from aged individuals; aged mouse tissues treated with lamivudine.
+    / *Key Findings:*:
+        - LINE-1 (L1) retrotransposons become transcriptionally derepressed in senescent cells
+        - Cytoplasmic L1 cDNA activates cGAS-STING, driving type-I interferon (IFN-I) response
+        - IFN-I is a novel late-senescence phenotype that amplifies SASP and promotes age-associated inflammation (inflammaging)
+        - Regulatory factors lost in senescence enabling L1 derepression: RB1, FOXA1, TREX1
+        - Lamivudine (NRTI) suppresses L1 reverse transcriptase, reducing IFN-I and inflammaging in aged mouse tissues
+        - Human skin biopsies from aged individuals confirm L1 derepression in vivo
+    / *Conclusion:*: LINE-1 derepression in senescent cells triggers cGAS-STING-mediated IFN-I, constituting a mechanistic bridge between transposon derepression and chronic low-grade inflammation (inflammaging). The pathway is pharmacologically targetable with NRTIs.
+    / *ME/CFS Relevance:*: Establishes L1/LINE-1 → cGAS-STING → IFN-I as a direct mechanistic driver of chronic interferon signaling and inflammaging. ME/CFS shows evidence of IFN-I activation and SASP-like inflammatory profiles. If ME/CFS triggers premature cellular senescence (via chronic viral reactivation, oxidative stress, mitochondrial dysfunction), L1/LINE-1 derepression would be mechanistically expected, parallel to the HSAT2 pathway. The NRTI lamivudine finding is directly relevant: AZT also partially reduces HSAT2 accumulation @Evdokimova2019HSAT2exosome, suggesting shared RT-dependent propagation.
+    / *Limitations:*: Aging/senescence model; no viral infection data; no ME/CFS patients; in vivo data from aged mice (not post-viral senescence model); LINE-1 is distinct from HSAT2 (different family), but both are pericentromeric/repeat elements with parallel RT-dependent mechanisms.
+    / *Certainty:*: 0.82 (Nature; multi-institutional; aged mouse + human skin biopsies; mechanistically well-characterized)
+
+=== Vourc'h et al.\ 2022 --- HSF1-Activated Satellite lncRNAs: A General Stress Response
+
+    @Vourc_h2022HSF1SatIII
+
+    / *Full Citation:*: Vourc'h C, Dufour S, Timcheva K, Seigneurin-Berny D, Verdel A. "HSF1-Activated Non-Coding Stress Response: Satellite lncRNAs and Beyond, an Emerging Story with a Complex Scenario." _Genes_. 2022;13(4):597.
+    / *DOI:*: #link("https://doi.org/10.3390/genes13040597")[10.3390/genes13040597]
+    / *PMID:*: 35456403
+    / *Study Design:*: Comprehensive narrative review. Synthesizes literature on HSF1-driven satellite lncRNA induction across stress modalities.
+    / *Key Findings:*:
+        - HSF1 (heat shock factor 1) forms nuclear stress bodies (nSBs) at pericentromeric Satellite III (9q12) and up to 14 secondary pericentromeric sites upon stress
+        - nSBs are active Pol II transcription sites for Satellite III lncRNAs; also targets Satellite II, subtelomeric TERRA, SINE repeats, enhancers, NEAT1
+        - Stress triggers include: heat shock, osmotic stress, *oxidative stress*, heavy metals, UV-C, proteotoxic stress — not limited to heat alone
+        - Sat III RNAs sequester splicing factors (mechanistically parallel to HSAT2 @Ninomiya2023HSATII) and chromatin regulators
+        - HSF1 condensate oxidation state modulates nSB formation: oxidative stress alters HSF1 condensate dynamics
+    / *Conclusion:*: HSF1-driven pericentromeric satellite transcription is a general cellular stress response, not a cancer-specific phenomenon, activated by oxidative stress, osmotic stress, and proteotoxic stress in non-transformed cells.
+    / *ME/CFS Relevance:*: ME/CFS is characterized by chronic oxidative stress (elevated isoprostanes, reduced glutathione, mitochondrial ROS) and proteotoxic stress (ISR activation). This review establishes that these conditions are sufficient to activate HSF1 → pericentromeric satellite RNA induction (Sat II/III, which overlap with HSAT2 loci) without any viral trigger. Provides the oxidative stress pathway for satellite derepression parallel to the viral pathway (Nogalski 2019). *FLAG:* Sat III (chromosome 9q12) is distinct from HSAT2 (pericentromeric Chr 1, 2, 10, 16) — mechanistically parallel but not identical.
+    / *Limitations:*: Review only (no original data); Genes (Basel) = modest impact factor; Sat III ≠ HSAT2 (different chromosomal loci, though both pericentromeric); long-term functional consequences of chronic Sat III expression in non-cancer cells not established.
+    / *Certainty:*: 0.62 (peer-reviewed review; INSERM group; stress-induction breadth well-documented; caution on HSAT2 specificity)
+
+=== Mendez-Bermudez et al.\ 2022 --- Pericentromeric Heterochromatin Selectively Dismantled by TP53 in Senescence
+
+    @MendezBermudez2022pericentromeric
+
+    / *Full Citation:*: Mendez-Bermudez A, Lototska L, Pousse M, et al. "Selective pericentromeric heterochromatin dismantling caused by TP53 activation during senescence." _Nucleic Acids Research_. 2022;50(13):7493--7510.
+    / *DOI:*: #link("https://doi.org/10.1093/nar/gkac603")[10.1093/nar/gkac603]
+    / *PMID:*: 35819196
+    / *Study Design:*: MRC-5, WI-38, IMR-90 human fibroblasts; inducible TERF2 knockdown (HeLa sh\_TERF2\_); mesenchymal stem cells; genotoxic stress (etoposide, replicative senescence, telomere shortening); RNA-seq, ChIP-seq, DNA FISH, cGAS reporter.
+    / *Key Findings:*:
+        - Senescence onset triggers selective dismantling specifically at pericentromeric heterochromatin (Satellite II/III) — NOT at rDNA, LINE-1, or alphoid centromere repeats
+        - Pathway: TP53 activation → TRF2 downregulation → ATM activation → KAP1 + Lamin B1 release → H3K9me3 loss → pericentromeric chromatin decondensation
+        - Consequences: DNA breakage at pericentromeric loci, illegitimate inter-chromatid recombination, satellite DNA loss, cytosolic pericentromeric DNA detected by cGAS-STING
+        - Cytosolic satellite DNA drives IFN-I response (parallel to De Cecco 2019 LINE-1 mechanism)
+        - Triggered by: telomere shortening, genotoxic stress, replicative senescence
+    / *Conclusion:*: Pericentromeric heterochromatin is the preferential site of genotoxic-stress-driven chromatin dismantling in senescent cells, producing satellite DNA derepression and cytosolic satellite DNA as a cGAS-STING ligand. The selectivity implies that repeat-specific mechanisms (not global heterochromatin loss) gate this response.
+    / *ME/CFS Relevance:*: Establishes a second non-methylation-dependent pathway for pericentromeric derepression: TP53 activation by viral replication stress or genotoxic stress (documented in herpesvirus infection) directly dismantles pericentromeric heterochromatin at Sat II/III loci. This is mechanistically upstream of HSAT2 derepression (HSAT2 is Sat II-family) and provides a cellular senescence / DNA-damage-response pathway distinct from the epigenetic-drift/methylation-loss model. Together: viral-induced TP53 activation → pericentromeric dismantling → HSAT2 derepression → exosomal packaging → immune suppression (Evdokimova 2019).
+    / *Limitations:*: Acute senescence models (inducible TRF2 KD); no viral infection model; Sat III/II ≠ HSAT2 loci precisely; no patient data; functional measurement of satellite RNA accumulation limited.
+    / *Certainty:*: 0.74 (Nucleic Acids Research; multi-institutional; mechanistically detailed; multiple cell systems)
+
+=== Apostolou et al.\ 2022 --- HERV-K and Latent Virus Reactivation in ME/CFS After COVID-19
+
+    @Apostolou2022HERVmecfs
+
+    / *Full Citation:*: Apostolou E, Rizwan M, Moustardas P, Sjögren P, Bertilson BC, Bragée B, Polo O, Rosén A. "Saliva antibody-fingerprint of reactivated latent viruses after mild/asymptomatic COVID-19 is unique in patients with myalgic-encephalomyelitis/chronic fatigue syndrome." _Frontiers in Immunology_. 2022;13:949787.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.949787")[10.3389/fimmu.2022.949787]
+    / *PMID:*: 36341457
+    / *Study Design:*: Cross-sectional; ME/CFS n=95, Healthy Donors (HDs) n=110; 3--6 months post mild/asymptomatic COVID-19; soluble multiplex immunoassay for IgG/IgA against HSV1, HSV2, VZV, EBV, CMV, HHV-6, and HERV-K in saliva and plasma.
+    / *Key Findings:*:
+        - SARS-CoV-2 infection (even mild/asymptomatic) induces reactivation of EBV, HHV-6, and HERV-K in both ME/CFS and HDs at 3--6 months
+        - In ME/CFS: EBNA1 IgG elevated vs HDs (not in HDs); HERV-K IgG uniformly elevated across all three ME/CFS subgroups vs respective HDs
+        - ME/CFS patients show a distinctly chronic aroused anti-viral antibody profile vs resolved pattern in HDs
+        - Authors interpret: SARS-CoV-2 acts as trigger for sustained latent virus + HERV reactivation in ME/CFS patients who cannot resolve it
+    / *Conclusion:*: ME/CFS patients show stronger and more persistent HERV-K and herpesvirus reactivation responses to COVID-19 than healthy controls. This is consistent with a model of sustained epigenetic derepression at HERV and repeat loci in ME/CFS.
+    / *ME/CFS Relevance:*: Direct patient evidence (n=95 ME/CFS) for HERV-K reactivation specifically in ME/CFS. If HERV-K reactivation accompanies HSAT2 derepression — as Evdokimova 2019 found both packaged together in exosomes — this antibody evidence supports ongoing epigenetic derepression in ME/CFS. Provides the clinical-data arm for the otherwise mechanistic HSAT2 hypothesis. *FLAG:* Antibody elevation is an indirect proxy for HERV-K expression; higher antibody may reflect prior expression or ongoing low-level expression; direct HERV-K RNA measurement in ME/CFS PBMCs not performed here.
+    / *Limitations:*: Cross-sectional; antibody = indirect proxy (not direct RNA measurement); COVID-19 timing confound (all groups post-COVID); Frontiers journal; n=95/110; no replication cohort; HERV-K antibody could reflect protein expression from prior reactivation (not necessarily ongoing).
+    / *Certainty:*: 0.58 (n=95 ME/CFS + 110 HDs, peer-reviewed; indirect antibody proxy; Frontiers; single study)
+
+=== Grandi et al.\ 2023 --- HERV Transcriptome Dynamically Modulated During SARS-CoV-2 Infection
+
+    @Grandi2023HERVcovid
+
+    / *Full Citation:*: Grandi N, Erbì MC, Scognamiglio S, Tramontano E. "Human Endogenous Retrovirus (HERV) Transcriptome Is Dynamically Modulated during SARS-CoV-2 Infection and Allows Discrimination of COVID-19 Clinical Stages." _Microbiology Spectrum_. 2023;11(1):e02516-22.
+    / *DOI:*: #link("https://doi.org/10.1128/spectrum.02516-22")[10.1128/spectrum.02516-22]
+    / *PMID:*: 36602345
+    / *Study Design:*: High-throughput RNA-seq; n=10 healthy controls + 16 COVID-19-exposed individuals (6 convalescent, 10 retest-positive after recovery); PBMCs; first analysis of ~3,300 HERV loci across COVID-19 clinical stages.
+    / *Key Findings:*:
+        - 282 differentially expressed HERV loci in COVID-19-exposed vs controls; loci span 36 HERV groups (all 3 classes)
+        - 278 DE HERV loci specific to convalescent patients; 60 in retest-positive patients (distinct profiles)
+        - HERV expression patterns are stage-specific and track immune state during/after COVID-19
+        - Severity-associated: HERVIP10B3-int and LTR14B upregulated in severe COVID-19
+        - Convalescent patients show a distinct HERV expression signature distinct from acute infection
+    / *Conclusion:*: HERV transcriptome is systematically remodelled during SARS-CoV-2 infection, with stage-specific patterns. Persistent HERV expression changes in convalescence may contribute to post-COVID immune dysregulation.
+    / *ME/CFS Relevance:*: Provides transcriptomic evidence that HERV reactivation is a feature of COVID-19 infection and persists into convalescence — the temporal window when Long COVID/ME/CFS emerges. Stage-specific modulation raises the hypothesis that non-resolving HERV expression in Long COVID patients (compared to fully convalescent) could contribute to ongoing immune dysregulation. *NULL/CAUTION:* This is a proof-of-concept study (small n); no Long COVID arm; no ME/CFS arm; functional consequences of HERV expression not measured.
+    / *Limitations:*: n=26 total (very small); single study; no Long COVID or ME/CFS arm; HERV expression not linked to functional immune endpoints; Microbiology Spectrum = good but not top-tier; no replication.
+    / *Certainty:*: 0.45 (small n; no ME/CFS/Long COVID arm; single study; proof-of-concept level)
+
+=== Pappalardo & Barra 2021 --- DNA Methylation Loss at Repetitive Elements: Disease Consequences
+
+    @Pappalardo2021methylationRepeats
+
+    / *Full Citation:*: Pappalardo XG, Barra V. "Losing DNA methylation at repetitive elements and breaking bad." _Epigenetics \& Chromatin_. 2021;14:25.
+    / *DOI:*: #link("https://doi.org/10.1186/s13072-021-00400-z")[10.1186/s13072-021-00400-z]
+    / *PMID:*: 34082816
+    / *Study Design:*: Comprehensive narrative review of DNA hypomethylation at repetitive elements across human diseases.
+    / *Key Findings:*:
+        - Repetitive elements constitute ~two-thirds of the human genome; methylation loss preferentially affects them over gene promoters
+        - Hypomethylation at satellite DNAs, LINE-1, SINEs, and HERVs permits chromatin relaxation, aberrant transcription, chromosome instability, and nuclear architecture disruption
+        - ICF syndrome (DNMT3B mutations): constitutive satellite DNA hypomethylation → satellite RNA expression + combined immune deficiency (Mendelian proof-of-concept)
+        - FSHD: D4Z4 pericentromeric satellite derepression → DUX4 expression
+        - Neuropsychiatric disorders (schizophrenia, autism spectrum): satellite/LINE-1 hypomethylation documented
+        - Methylation loss at repeats is universal across pathology categories, not cancer-specific
+    / *Conclusion:*: Given that 2/3 of the genome is repetitive, any global methylation loss (as occurs in aging, viral infection, nutritional deficiency) will disproportionately affect repeat elements rather than gene promoters, producing satellite RNA expression, LINE-1 activation, and HERV derepression as primary consequences.
+    / *ME/CFS Relevance:*: Provides the quantitative rationale for HSAT2 derepression being an expected consequence of ME/CFS-associated methylation changes. ME/CFS studies (de Vega 2014, Trivedi 2018, Helliwell 2020) document widespread differential methylation. Since 2/3 of the genome is repetitive, if these methylation changes include satellite loci, HSAT2 derepression is mechanistically expected. ICF syndrome is the strongest proof-of-concept: DNMT3B loss → satellite II/III hypomethylation → satellite RNA expression + immune deficiency — directly paralleling the hypothesized ME/CFS epigenetic phenotype.
+    / *Limitations:*: Review only; no ME/CFS data; ICF and FSHD are Mendelian conditions (extreme methylation loss), whereas ME/CFS shows partial changes; quantitative threshold for satellite derepression not established.
+    / *Certainty:*: 0.66 (peer-reviewed review; Epigenetics \& Chromatin = solid journal; well-synthesised; no original data; no ME/CFS data)
+
+=== Zhu et al.\ 2014 --- MTHFR Required for H3K9me3 and Centromeric Heterochromatin Maintenance
+
+    @Zhu2014MTHFR
+
+    / *Full Citation:*: Zhu B, Xiahou Z, Zhao H, Peng B, Zhao H, Xu X. "MTHFR promotes heterochromatin maintenance." _Biochemical and Biophysical Research Communications_. 2014;447(4):702--706.
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbrc.2014.04.082")[10.1016/j.bbrc.2014.04.082]
+    / *PMID:*: 24769206
+    / *Study Design:*: Human cell lines (HeLa, HEK293, HT29); MTHFR siRNA knockdown; H3K9me3 ChIP; satellite repeat RT-PCR; phospho-antibody characterization for CDK1/MTHFR-T34.
+    / *Key Findings:*:
+        - MTHFR knockdown in human cells reduces H3K9me3 levels at centromeric/pericentromeric heterochromatin
+        - Reduced MTHFR → increased transcription of centromeric satellite repeats
+        - CDK1/Cyclin B1 phosphorylates MTHFR at T34, linking cell cycle status to one-carbon/methylation flux
+        - Proposed mechanism: MTHFR depletion → reduced 5-methylTHF → reduced methionine → reduced SAMe → impaired SUV39H1 (histone methyltransferase) + DNMT activity → H3K9me3 loss + DNA hypomethylation → satellite derepression
+    / *Conclusion:*: The folate cycle enzyme MTHFR is required for maintenance of H3K9me3 at centromeric heterochromatin; folate-cycle impairment directly destabilizes pericentromeric heterochromatin and allows satellite repeat transcription.
+    / *ME/CFS Relevance:*: Provides experimental proof-of-concept for the methyl-donor → pericentromeric heterochromatin → satellite derepression pathway. ME/CFS patients frequently show elevated homocysteine, B12/folate abnormalities, and impaired one-carbon metabolism — conditions that would reduce SAMe availability via the MTHFR pathway demonstrated here. *FLAG:* MTHFR siRNA KD is an extreme perturbation; whether the partial metabolic impairment seen in ME/CFS is sufficient to reduce H3K9me3 at pericentromeric loci is untested. Direct connection requires intermediate evidence.
+    / *Limitations:*: Cell lines only (no patient data); MTHFR KD is severe (not partial depletion); centromeric vs pericentromeric distinction not fully resolved; modest journal (BBRC); no replication; 2014 study (pre-modern ChIP standards).
+    / *Certainty:*: 0.48 (proof-of-concept level; cell lines; extreme KD; modest journal; no ME/CFS data; but direct mechanistic test of folate→heterochromatin chain)
+
+// ============================================================
+// MDSC, NK Cytotoxicity, and T-Cell Exhaustion in ME/CFS
+// Added 2026-05-01
+// ============================================================
+
+=== MDSC, NK Cytotoxicity, and T-Cell Exhaustion in ME/CFS
+
+    This section covers the evidence base for myeloid-derived suppressor cell (MDSC) expansion
+    in post-viral and chronic disease contexts, the canonical mechanisms by which MDSCs suppress
+    NK cell cytotoxicity, and direct evidence for T-cell exhaustion in ME/CFS. Together these
+    papers support the hypothesis that MDSC expansion — triggered by viral onset — could sustain
+    NK cytotoxicity loss via arginase-1 / TGF-beta signaling and prime CD8+ T cells toward
+    exhaustion, creating self-perpetuating immune dysfunction long after viral clearance.
+
+=== Baraniuk, Eaton-Fitch & Marshall-Gradisnik 2024 --- NK Cell Cytotoxicity Meta-Analysis in ME/CFS
+
+    @Baraniuk2024NKMeta
+
+    / *Full Citation:*: Baraniuk JN, Eaton-Fitch N, Marshall-Gradisnik S. "Meta-analysis of natural killer cell cytotoxicity in myalgic encephalomyelitis/chronic fatigue syndrome." _Frontiers in Immunology_. 2024;15:1440643.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1440643")[10.3389/fimmu.2024.1440643]
+    / *PMID:*: 39483457
+    / *Study Design:*: Systematic meta-analysis; 28 publications; 55 effector:target ratio data points comparing ME/CFS patients to healthy controls.
+    / *Key Findings:*:
+        - NK cytotoxicity in ME/CFS significantly reduced to ~50% of healthy control levels
+        - Overall Hedges' g = 0.96 (95% CI: 0.75--1.18) — large effect size
+        - Finding replicated across 30+ years of independent studies
+        - Establishes NK cell dysfunction as the most reproducible immune abnormality in ME/CFS
+        - Authors excluded MCAM (Querec 2023) for methodological reasons (shipped samples, different assay)
+    / *Conclusion:*: NK cytotoxicity is robustly impaired in ME/CFS and represents a reliable cellular model for mechanistic investigation.
+    / *ME/CFS Relevance:*: Directly quantifies the NK dysfunction that MDSC-mediated suppression (via arginase-1, TGF-beta) could mechanistically explain. Sets the target phenotype that any upstream immunosuppressor hypothesis must account for.
+    / *Limitations:*: Does not identify cause of NK dysfunction; no MDSC measurement; heterogeneous methods across source studies.
+    / *Certainty:*: 0.90
+
+=== Iu, Hanson et al.\ 2024 --- CD8+ T Cell Transcriptional Reprogramming Toward Exhaustion in ME/CFS
+
+    @Iu2024CD8Exhaustion
+
+    / *Full Citation:*: Iu DS, Maya J, Vu LT, et al. "Transcriptional reprogramming primes CD8+ T cells toward exhaustion in Myalgic encephalomyelitis/chronic fatigue syndrome." _Proceedings of the National Academy of Sciences USA_. 2024;121(51):e2415119121.
+    / *DOI:*: #link("https://doi.org/10.1073/pnas.2415119121")[10.1073/pnas.2415119121]
+    / *PMID:*: 39621903
+    / *Study Design:*: scRNA-seq (n=28 ME/CFS, n=30 controls); ATAC-seq chromatin accessibility; flow cytometry validation (n=7 ME/CFS, n=7 healthy controls). Cornell Hanson lab.
+    / *Key Findings:*:
+        - CD8+ effector memory T cells show transcriptional upregulation of TBX21 (T-BET) and EOMES — late-exhaustion drivers
+        - Chromatin accessibility reduced at TCF7 and TCF4 loci — loss of early-exhaustion restraint signals
+        - Altered metabolic gene expression consistent with exhausted cell state
+        - PD-L1/2 and CD86-CTLA-4 pathways upregulated on ME/CFS monocytes, suppressing CD8+ cytotoxicity
+        - Epigenetic changes parallel chronic viral infection exhaustion programmes
+    / *Conclusion:*: ME/CFS CD8+ T cells are epigenetically and transcriptionally primed toward late-stage exhaustion, identifying immune exhaustion as a component of ME/CFS pathophysiology.
+    / *ME/CFS Relevance:*: Provides direct molecular evidence for T cell exhaustion in ME/CFS. The PD-L1 upregulation on monocytes is consistent with an immunosuppressive myeloid compartment (MDSC-like or MDSC-adjacent). Suggests future therapeutic avenues: checkpoint blockade, metabolic rescue, or anti-viral targeting.
+    / *Limitations:*: Small flow cytometry validation cohort (n=7); scRNA-seq sample size modest; no longitudinal data; no MDSC co-phenotyping.
+    / *Certainty:*: 0.72
+
+=== Eaton-Fitch, Marshall-Gradisnik et al.\ 2024 --- Immune Exhaustion in ME/CFS and Long COVID
+
+    @EatonFitch2024ImmuneExhaustion
+
+    / *Full Citation:*: Eaton-Fitch N, Rudd P, Er T, Hool L, Herrero L, Marshall-Gradisnik S. "Immune exhaustion in ME/CFS and long COVID." _JCI Insight_. 2024;9(20):e183810.
+    / *DOI:*: #link("https://doi.org/10.1172/jci.insight.183810")[10.1172/jci.insight.183810]
+    / *PMID:*: 39435656
+    / *Study Design:*: RNA-seq of PBMCs; n=14 ME/CFS, n=15 Long COVID, n=18 healthy controls. Griffith University.
+    / *Key Findings:*:
+        - ME/CFS: downregulated IFN signaling and immunoglobulin genes — consistent with immune suppression phenotype
+        - Long COVID: upregulated antigen presentation, cytokine signaling, immune activation
+        - 7 genes differentially expressed in both conditions — shared checkpoint involvement (CTLA-4/PD-1 pathways)
+        - Macrophage activation pathways dysregulated in both
+        - ME/CFS exhaustion more suppressed; Long COVID more activated — distinct states on shared spectrum
+    / *Conclusion:*: ME/CFS and Long COVID share T cell checkpoint gene dysregulation but differ in direction; immune exhaustion is a convergent feature.
+    / *ME/CFS Relevance:*: Bridges ME/CFS and post-COVID immune suppression via shared PD-1/CTLA-4 pathway involvement. Supports the concept that the myeloid compartment (which can upregulate PD-L1) contributes to immune exhaustion in both conditions. No direct MDSC phenotyping.
+    / *Limitations:*: Small n per group; PBMC bulk RNA-seq (no single-cell resolution); no NK assays; no MDSC quantification.
+    / *Certainty:*: 0.58
+
+=== Beliakova-Bethell et al.\ 2022 --- Persistent M-MDSC After SARS-CoV-2 Recovery Suppresses T Cells
+
+    @BeliakovanBethell2022MDSCPostCOVID
+
+    / *Full Citation:*: Beliakova-Bethell N, Maruthai K, Xu R, Salvador LCM, Garg A. "Monocytic-Myeloid Derived Suppressor Cells Suppress T-Cell Responses in Recovered SARS CoV2-Infected Individuals." _Frontiers in Immunology_. 2022;13:894543.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.894543")[10.3389/fimmu.2022.894543]
+    / *PMID:*: 35812392
+    / *Study Design:*: Cross-sectional; n=22 (13 CoV2+, 9 CoV2- controls) at ~5 months post-infection; flow cytometry + MDSC depletion assays + transcriptomics.
+    / *Key Findings:*:
+        - M-MDSC frequency significantly elevated at 5 months post-SARS-CoV-2 (0.9 ± 0.2% vs 0.2 ± 0.09%; p=0.03)
+        - Elevated M-MDSC correlates with persistent IL-6 elevation (Pearson r=0.62; p=0.02)
+        - MDSC depletion restores antigen-specific T-cell IFNg production (p=0.004--0.008)
+        - Suppression mechanism: arginase + ROS-dependent (NOT PD-1/PD-L1)
+        - IL-6--STAT3 axis sustains MDSC persistence post-clearance
+    / *Conclusion:*: M-MDSCs persist 5 months after SARS-CoV-2 recovery and functionally suppress T-cell responses through metabolic (arginase/ROS) rather than checkpoint mechanisms.
+    / *ME/CFS Relevance:*: Directly supports the post-viral MDSC hypothesis. Shows MDSCs persist into chronic post-viral phase, driven by IL-6 (itself elevated in ME/CFS). The arginase-based suppression of T cells is the same pathway Goh 2016 demonstrated for NK cells in HCV. Combined, these papers mechanistically link post-COVID MDSC persistence to ME/CFS immune dysfunction.
+    / *Limitations:*: Very small n; no Long COVID diagnostic criteria applied; no NK cytotoxicity assays; no ME/CFS patients studied.
+    / *Certainty:*: 0.42 (small n, absence of ME/CFS arm)
+
+=== Agrati et al.\ 2020 --- MDSC Expansion in Severe COVID-19
+
+    @Agrati2020MDSCCoVID19
+
+    / *Full Citation:*: Agrati C, Sacchi A, Bordoni V, et al. "Expansion of myeloid-derived suppressor cells in patients with severe coronavirus disease (COVID-19)." _Cell Death and Differentiation_. 2020;27(11):3196--3207.
+    / *DOI:*: #link("https://doi.org/10.1038/s41418-020-0572-6")[10.1038/s41418-020-0572-6]
+    / *PMID:*: 32514047
+    / *Study Design:*: Longitudinal; n=18 patients (9 severe, 9 mild) at admission; daily tracking of n=8 (4 severe, 4 mild) through recovery.
+    / *Key Findings:*:
+        - Massive MDSC expansion in severe COVID-19: up to 90% of total circulating mononuclear cells
+        - Mild disease: up to 25% MDSC of mononuclear cells
+        - MDSC suppress T-cell function; decline during recovery correlating with reduced TGF-beta
+        - MDSC frequency at admission is a potential severity biomarker
+    / *Conclusion:*: Acute COVID-19 induces massive, graded MDSC expansion proportional to disease severity; MDSC normalisation accompanies clinical recovery.
+    / *ME/CFS Relevance:*: Provides the acute-phase context: SARS-CoV-2 (and presumably other viral triggers) initially drives extreme MDSC expansion. The Beliakova-Bethell 2022 data showing 5-month persistence suggests incomplete resolution in Long COVID/ME/CFS cases. Together these papers outline a trigger--persist--suppress trajectory.
+    / *Limitations:*: Small n (18 total); acute infection only; no follow-up to post-acute or ME/CFS; TGF-beta measured but specific MDSC suppression mechanisms not characterized.
+    / *Certainty:*: 0.50 (small n; proof-of-concept level)
+
+=== Goh et al.\ 2016 --- HCV-Induced MDSC Suppress NK IFN-gamma via Arginase-1 [MECHANISM]
+
+    @Goh2016HCVMDSCArginase
+
+    / *Full Citation:*: Goh CC, Roggerson KM, Lee HC, Golden-Mason L, Rosen HR, Hahn YS. "Hepatitis C Virus-Induced Myeloid-Derived Suppressor Cells Suppress NK Cell IFN-gamma Production by Altering Cellular Metabolism via Arginase-1." _Journal of Immunology_. 2016;196(5):2283--2292.
+    / *DOI:*: #link("https://doi.org/10.4049/jimmunol.1501881")[10.4049/jimmunol.1501881]
+    / *PMID:*: 26826241
+    / *Study Design:*: Mechanistic; n=7 chronic HCV patients + n=7 healthy donors; 6--11 independent experiments; in vitro co-culture, arginase inhibition, L-arginine rescue.
+    / *Key Findings:*:
+        - HCV-induced MDSCs suppress NK cell IFN-gamma production
+        - Mechanism: arginase-1-dependent metabolic depletion of L-arginine (not ROS, not cell contact)
+        - Suppression reversed by L-arginine supplementation
+        - Arginase-1 reduces mTOR signaling in NK cells, impairing activation
+        - Distinct from T-cell suppression (which uses ROS in this context)
+    / *Conclusion:*: In chronic viral infection, MDSCs suppress NK IFN-gamma specifically via arginase-1/L-arginine depletion, operating through soluble metabolic suppression without cell contact.
+    / *ME/CFS Relevance:*: Establishes the mechanistic link between chronic-viral-infection MDSCs and NK cell dysfunction. Arginase-1 depletion of L-arginine is the most specific biochemical bridge between MDSC expansion and impaired NK cytotoxicity in ME/CFS. This is the mechanistic anchor for the MDSC--NK hypothesis: if post-viral MDSCs persist in ME/CFS (as shown by Beliakova-Bethell 2022 for COVID), they would suppress NK cells via arginase-1 by the mechanism quantified here.
+    / *Limitations:*: HCV context; human data n=7; no ME/CFS patients; NK IFN-gamma measured (not lytic cytotoxicity directly); arginase inhibition experiments mainly in vitro.
+    / *Certainty:*: 0.62 (peer-reviewed, mechanistic clarity; limited by small n and disease-specificity)
+
+=== Veglia, Sanseviero & Gabrilovich 2021 --- MDSC Biology Review [REVIEW]
+
+    @Veglia2021MDSCDiversity
+
+    / *Full Citation:*: Veglia F, Sanseviero E, Gabrilovich DI. "Myeloid-derived suppressor cells in the era of increasing myeloid cell diversity." _Nature Reviews Immunology_. 2021;21(8):485--498.
+    / *DOI:*: #link("https://doi.org/10.1038/s41577-020-00490-y")[10.1038/s41577-020-00490-y]
+    / *PMID:*: 33526920
+    / *Study Design:*: Comprehensive narrative review by Gabrilovich group (field founders). Covers cancer, autoimmune disease, COVID-19, pregnancy.
+    / *Key Findings:*:
+        - Canonical MDSC phenotype: CD33+HLA-DR- (human), with M-MDSC (CD14+) and PMN-MDSC (CD15+/CD66b+) subsets
+        - NK cell suppression: membrane-bound TGF-beta1 on MDSCs reduces NKG2D expression and lytic cytotoxicity; contact-dependent
+        - IL-10 suppresses antigen-presenting cells; arginase-1 depletes L-arginine for T and NK cells; iNOS produces NO
+        - IDO1 degrades tryptophan to kynurenine, suppressing effector cell function
+        - COVID-19: MDSC expansion documented; potential immunopathological role
+        - Key distinction: M-MDSCs are dominant in chronic viral infection; PMN-MDSCs dominate in cancer
+    / *Conclusion:*: MDSCs are pathologically activated myeloid cells with context-specific mechanisms; distinct from classical monocytes/neutrophils by functional immunosuppression; TGF-beta-mediated NK suppression is a key shared mechanism.
+    / *ME/CFS Relevance:*: Definitive reference for MDSC biology underpinning the ME/CFS MDSC--NK hypothesis. Establishes: (1) CD33+HLA-DR- phenotype to look for; (2) TGF-beta/NKG2D mechanism for NK cytotoxicity loss; (3) IL-10 and arginase-1 as additional suppressors; (4) M-MDSC predominance in viral contexts. No ME/CFS coverage — but provides the mechanistic framework the hypothesis imports from established immunology.
+    / *Limitations:*: Review only; no original data; ME/CFS not discussed; mechanisms inferred from cancer/acute infection contexts.
+    / *Certainty:*: 0.88 (Nature Reviews Immunology; Gabrilovich = field founder; well-established mechanisms)
+
+=== Mihatsch et al.\ 2026 --- MDSC Subpopulations in Pediatric Infectious Mononucleosis (EBV)
+
+    @Mihatsch2026MDSCMono
+
+    / *Full Citation:*: Mihatsch L, Bartl K, Lange de Luna J, et al. "The composition of MDSC-subpopulations PMN-like, M-like, and e-like MDSC is associated with the severity of infectious mononucleosis in pediatric patients." _Frontiers in Immunology_. 2026;17:1729699.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1729699")[10.3389/fimmu.2026.1729699]
+    / *PMID:*: Not yet indexed at time of integration
+    / *Study Design:*: Prospective observational; n=37 pediatric patients (19 children ages 2--11; 18 adolescents ages 12--17) with primary EBV-IM. First study to characterize MDSC subpopulations specifically in infectious mononucleosis.
+    / *Key Findings:*:
+        - PMN-like MDSC predominate early in EBV infection; decrease over time
+        - M-like and e-like MDSC frequencies increase during disease progression
+        - PMN-MDSC proportion positively correlates with IM severity laboratory score
+        - Three MDSC subpopulations (PMN-like, M-like, e-like) dynamically shift across disease course
+    / *Conclusion:*: EBV-driven infectious mononucleosis directly expands MDSC populations, with composition predicting severity. Establishes that the viral trigger most linked to post-IM ME/CFS onset directly activates MDSC expansion during acute infection.
+    / *ME/CFS Relevance:*: Critical link between EBV (the virus most commonly triggering ME/CFS via post-IM onset) and MDSC activation. Does not follow patients to ME/CFS outcome — but establishes that EBV infection induces MDSCs at the acute phase, providing the initiation step for a post-viral MDSC persistence model. Combined with Beliakova-Bethell 2022 (COVID MDSC persistence) and Goh 2016 (arginase-1 NK suppression), this paper completes the acute-trigger step.
+    / *Limitations:*: Pediatric only; no follow-up to ME/CFS outcome; small n; no NK cytotoxicity assays; no comparison to non-IM control infection.
+    / *Certainty:*: 0.45 (small n; no ME/CFS outcome; published 2026, minimal independent replication yet)
+
+=== HSF1 Binding to HSAT2/Satellite II at Pericentromeric Regions Under Heat Shock
+
+    @Eymery2010HSF1SatII
+
+    / *Full Citation:*: Eymery A, Souchier C, Vourc'h C, Jolly C. "Heat shock factor 1 binds to and transcribes satellite II and III sequences at several pericentromeric regions in heat-shocked cells." _Experimental Cell Research_. 2010;316(11):1845–55.
+    / *DOI:*: 10.1016/j.yexcr.2010.02.002
+    / *PMID:*: 20152833
+    / *Study Design:*: Mechanistic cell line study using chromatin immunoprecipitation (ChIP) and RNA FISH at 42°C in HeLa cells and hybrid cell lines.
+    / *Key Findings:*:
+        - HSF1 directly binds satellite II (HSAT2) and satellite III sequences at pericentromeric regions under 42°C heat shock
+        - Nuclear stress bodies (nSBs) form at chromosome 9q12 (primary site) and 14 secondary pericentromeric loci
+        - nSB formation depends on cellular HSF1 concentration and satellite repeat copy number at each locus
+        - Standard threshold for nSB induction: 42°C in most human cell lines; non-cancer primary cell data limited
+    / *Conclusion:*: HSF1 directly regulates HSAT2 transcription under heat shock via nuclear stress body formation. Establishes the molecular basis for spec:heat-hsat2-caution.
+    / *ME/CFS Relevance:*: Provides the mechanistic link between heat-stress interventions (sauna, hot bath) and HSAT2 transcription. If patients reach HSF1-activating temperatures in immune cells or stromal fibroblasts, pericentromeric HSAT2 transcription could increase. T lymphocytes activate HSF1 at 39°C (fever-range) per Murapa 2007, but nSB formation at this temperature is undocumented.
+    / *Limitations:*: Cancer cell lines primarily; 42°C exceeds normal therapeutic sauna temperatures (core temperature rise during 15-min sauna typically ~0.5–1.5°C); primary non-cancer immune cell data absent.
+    / *Certainty:*: 0.70 (mechanistic; direct evidence for HSF1-HSAT2 binding; generalization to physiological sauna conditions and ME/CFS immune cells is speculative)
+
+=== Heat Shock Pathway as Primary Regulator of Satellite 2 Transcription (Not DNA Methylation)
+
+    @Decottignies2012Sat2heatshock
+
+    / *Full Citation:*: Tilman A, Arnoult N, Lenglez S, Van Beneden A, Loriot A, De Smet C, Decottignies A. "Cancer-linked satellite 2 DNA hypomethylation does not regulate Sat2 non-coding RNA expression and is initiated by heat shock pathway activation." _Epigenetics_. 2012;7(8):903–13.
+    / *DOI:*: 10.4161/epi.21107
+    / *PMID:*: 22722874
+    / *Study Design:*: Cell line mechanistic study with correlation in melanoma patient tissue. Experiments used experimental hyperthermia and oncogenic RasV12 (heat-shock pathway activator) with bisulfite sequencing and Sat2 RNA quantification.
+    / *Key Findings:*:
+        - DNA hypomethylation of satellite 2 (HSAT2) does NOT by itself activate Sat2 RNA expression
+        - The heat shock response (HSF1 pathway) is the primary determinant of Sat2 RNA expression
+        - HSF1 binding sites present within the Sat2 sequence (direct confirmation)
+        - Both hyperthermia and RasV12 reduced Sat2 methylation by 13–27%; methylation loss follows pathway activation, not the reverse
+        - In melanoma patient tissue: Sat2 RNA expression correlates with HSP70 expression (R = 0.69, p = 0.01)
+    / *Conclusion:*: The heat shock pathway drives HSAT2 transcription and methylation changes. DNA methylation state is secondary, not the primary gate.
+    / *ME/CFS Relevance:*: Critically supports spec:heat-hsat2-caution and challenges spec:nac-hsat2. HSAT2 transcription is primarily regulated by HSF1 activity, not methylation state — this means methyl-donor supplementation alone may be insufficient to silence HSAT2 if HSF1-driven transcription is active. Also means heat-stress interventions can override methylation-based silencing.
+    / *Limitations:*: Cancer cell lines; melanoma tissue correlation; no normal human tissue or primary immune cell data; no ME/CFS context.
+    / *Certainty:*: 0.65 (mechanistic; HSF1-primary-driver claim consistent with Eymery 2010; not independently replicated for the specific Sat2-HSF1 claim)
+
+=== HSF1 and HSF2 Drive Distinct Gene Programs Under Oxidative Stress vs Heat Shock
+
+    @Himanen2022HSFoxidative
+
+    / *Full Citation:*: Himanen SV, Puustinen MC, Da Silva AJ, Vihervaara A, Sistonen L. "HSFs drive transcription of distinct genes and enhancers during oxidative stress and heat shock." _Nucleic Acids Research_. 2022;50(11):6102–15.
+    / *DOI:*: 10.1093/nar/gkac493
+    / *PMID:*: 35687139
+    / *Study Design:*: Genome-wide ChIP-seq and PRO-seq (nascent RNA sequencing) comparing HSF1/HSF2 binding and transcriptional output under heat shock (42°C) vs oxidative stress (H2O2) in human cell lines.
+    / *Key Findings:*:
+        - HSF1 and HSF2 bind many chaperone gene promoters under BOTH conditions
+        - Only heat shock triggers RNA Pol II pause-release and active transcription at heat-shock-specific targets
+        - Under oxidative stress, HSF1 localises to a distinct set of promoters and enhancers, activating a different transcriptional program
+        - The full heat-shock transcriptional program — including nuclear stress body formation — is NOT recapitulated by oxidative stress alone
+    / *Conclusion:*: Oxidative stress and heat shock produce distinct HSF1 transcriptional outputs. HSAT2 transcription (heat-shock-specific) would not be expected to increase substantially from oxidative stress alone.
+    / *ME/CFS Relevance:*: Directly weakens spec:nac-hsat2. If oxidative stress does not recapitulate the HSAT2-inducing transcriptional program, NAC-mediated ROS reduction would have limited impact on HSAT2 transcription. Also refines spec:heat-hsat2-caution: heat exposure is the operationally relevant HSAT2 trigger; oxidative stress (even if reduced by NAC) is a secondary pathway.
+    / *Limitations:*: Cell line study; specific effect on satellite II (HSAT2) versus satellite III not explicitly resolved.
+    / *Certainty:*: 0.70 (mechanistic; genome-wide resolution; directly relevant to spec:nac-hsat2 limitations)
+
+=== NAC Blocks ROS-p38MAPK-HSF1 Pathway in Fibroblasts (In Vitro)
+
+    @MustafiBanerjeee2009NAC
+
+    / *Full Citation:*: Mustafi SB, Chakraborty PK, Dey RS, Raha S. "Heat stress upregulates chaperone heat shock protein 70 and antioxidant manganese superoxide dismutase through reactive oxygen species (ROS), p38MAPK, and Akt." _Cell Stress and Chaperones_. 2009;14(6):579–89.
+    / *DOI:*: 10.1007/s12192-009-0109-x
+    / *PMID:*: 19291423
+    / *Study Design:*: Chinese hamster lung fibroblasts (V79 cells); NAC pretreatment followed by heat shock. Measured ROS, p38MAPK phosphorylation, HSP70 and MnSOD mRNA/protein by Western, ELISA, FACS.
+    / *Key Findings:*:
+        - 5 mM NAC pretreatment blocked heat-induced ROS generation
+        - p38MAPK phosphorylation reduced 99% by NAC
+        - HSP70 and MnSOD upregulation suppressed in NAC-pretreated cells
+        - NAC does not directly suppress HSF1; effect is upstream through ROS-p38MAPK
+    / *Conclusion:*: Best available mechanistic support for the ROS-p38MAPK-HSF1 arm of NAC suppression — in cell culture.
+    / *ME/CFS Relevance:*: Provides the core mechanistic support for spec:nac-hsat2. However, this is V79 hamster fibroblasts; contrast with Petersen 2012 (human exercise), which showed NAC infusion did not suppress HSP70 mRNA in humans, suggesting the protein-denaturation arm dominates over ROS in physiological stress.
+    / *Limitations:*: Non-human cell line (hamster fibroblast); in vitro heat shock; 5 mM NAC is a supraphysiological concentration; no direct HSAT2 measurement.
+    / *Certainty:*: 0.55 (in vitro mechanistic; not generalised to human in vivo; NAC concentration may exceed therapeutic levels)
+
+=== NAC Infusion Does Not Suppress HSP70 in Human Exercise (Disconfirmation)
+
+    @Petersen2012NACexercise
+
+    / *Full Citation:*: Petersen AC, McKenna MJ, Medved I, Murphy KT, Brown MJ, Della Gatta P, Cameron-Smith D. "Infusion with the antioxidant N-acetylcysteine attenuates early adaptive responses to exercise in human skeletal muscle." _Acta Physiologica_. 2012;204(3):382–92.
+    / *DOI:*: 10.1111/j.1748-1716.2011.02344.x
+    / *PMID:*: 21827635
+    / *Study Design:*: Randomised crossover in human subjects; intravenous NAC infusion during cycling exercise; vastus lateralis biopsies; mRNA quantification.
+    / *Key Findings:*:
+        - NAC infusion blocked JNK phosphorylation during exercise
+        - Exercise-induced HSP70 mRNA was NOT suppressed by NAC
+        - MnSOD mRNA was ROS-dependent (suppressed by NAC); HSP70 was not
+    / *Conclusion:*: In physiological human exercise, the protein-denaturation arm of HSF1 activation dominates over the ROS arm for HSP70 induction. NAC cannot suppress this arm.
+    / *ME/CFS Relevance:*: Critical disconfirmation for spec:nac-hsat2. If HSP70 (an HSF1 target) is not suppressed by NAC in human exercise, HSAT2 transcription (also an HSF1-driven program) may likewise be insensitive to NAC. The physiological relevance of the Mustafi 2009 fibroblast finding is therefore limited.
+    / *Limitations:*: Healthy exercising subjects; not ME/CFS; intravenous (not oral) NAC; HSP70 not HSAT2 directly measured.
+    / *Certainty:*: 0.65 (human RCT; directly relevant to spec:nac-hsat2; limitation is HSP70 measured not HSAT2)
+
+=== CTCF Disruption by Pericentromeric HSAT2 RNA in Senescence and Cancer
+
+    @Miyata2021HSAT2senescence
+
+    / *Full Citation:*: Miyata K, Imai Y, Hori S, Nishio M, Loo TM, Okada R, et al. "Pericentromeric noncoding RNA changes DNA binding of CTCF and inflammatory gene expression in senescence and cancer." _Proceedings of the National Academy of Sciences USA_. 2021;118(35):e2025647118.
+    / *DOI:*: 10.1073/pnas.2025647118
+    / *PMID:*: 34426493
+    / *Study Design:*: Primary human and mouse fibroblast senescence models, cancer cell lines, patient tumour RNA-seq data. Integrated ChIP-seq, ATAC-seq, Hi-C.
+    / *Key Findings:*:
+        - HSAT2 ncRNA accumulates in senescent fibroblasts and disrupts CTCF chromatin binding at topological domain boundaries near SASP genes
+        - CTCF displacement alters 3D chromatin topology, promoting SASP gene activation
+        - Oxidative stress reduces CTCF expression, opening a CTCF-loss route to HSAT2 locus derepression independently of HSF1
+        - HSAT2 RNA acts as a chromatin modifier, not merely a transcript — its downstream effects include topological disruption
+    / *Conclusion:*: HSAT2 has a CTCF-mediated chromatin regulatory function in senescence. Two independent routes to HSAT2 derepression exist: HSF1 (heat shock) and CTCF loss (oxidative stress/senescence).
+    / *ME/CFS Relevance:*: Adds mechanistic diversity to spec:heat-hsat2-caution (not only thermal stress triggers HSAT2) and provides a second route relevant to the inflammaging context of spec:hsat2-inflammaging. The SASP-promoting effect of HSAT2 ncRNA directly links pericentromeric derepression to chronic inflammatory signalling.
+    / *Limitations:*: Senescence/cancer context; no ME/CFS data; the CTCF-disruption function of HSAT2 RNA is mechanistically established but extrapolation to post-viral HSAT2 derepression in ME/CFS remains speculative.
+    / *Certainty:*: 0.70 (primary cell data; multiple methods; published PNAS; senescence context limits direct ME/CFS applicability)
+
+=== SUV39H1 Stabilized by SIRT1 as Oxidative Stress Protective Response
+
+    @BoschPresegue2011SIRT1SUV39H1
+
+    / *Full Citation:*: Bosch-Preseguè L, Raurell-Vila H, Marazuela-Duque A, Kane-Goldsmith N, Valle A, Oliver J, Serrano L, Vaquero A. "Stabilization of Suv39H1 by SirT1 is part of oxidative stress response and ensures genome protection." _Molecular Cell_. 2011;42(2):210–23.
+    / *DOI:*: 10.1016/j.molcel.2011.02.034
+    / *PMID:*: 21504832
+    / *Study Design:*: Biochemical and cell biology study in human and mouse cell lines; SIRT1/SUV39H1 interaction characterized by co-immunoprecipitation and ubiquitination assays; H3K9me3 ChIP after oxidative stress.
+    / *Key Findings:*:
+        - SIRT1 stabilizes SUV39H1 by blocking MDM2-mediated polyubiquitination and degradation
+        - This is activated during oxidative stress as part of the genome protection response
+        - SIRT1-stabilized SUV39H1 maintains H3K9me3 at pericentromeric heterochromatin under oxidative stress
+    / *Conclusion:*: Oxidative stress, by activating SIRT1, may paradoxically increase pericentromeric H3K9me3 silencing via SUV39H1 stabilization.
+    / *ME/CFS Relevance:*: Critical competing mechanism for spec:nac-hsat2. NAC reduces ROS → may reduce SIRT1 activation → potentially destabilizes SUV39H1 → could reduce H3K9me3 at HSAT2 loci, which is the *opposite* of the proposed spec:nac-hsat2 benefit. This competing direction must be acknowledged in any discussion of NAC for HSAT2 suppression.
+    / *Limitations:*: Cell line study; direct measurement of H3K9me3 at HSAT2 loci specifically after NAC treatment not performed.
+    / *Certainty:*: 0.65 (mechanistic; well-characterized pathway; competing direction for spec:nac-hsat2)
+
+=== Waon Thermal Therapy in Chronic Fatigue Syndrome — Pilot Study
+
+    @Soejima2015WaonCFS
+
+    / *Full Citation:*: Soejima Y, Munemoto T, Masuda A, Uwatoko Y, Miyata M, Tei C. "Effects of Waon therapy on chronic fatigue syndrome: a pilot study." _Internal Medicine_. 2015;54(3):333–38.
+    / *DOI:*: 10.2169/internalmedicine.54.3042
+    / *PMID:*: 25748743
+    / *Study Design:*: Uncontrolled prospective pilot (n=10 inpatient CFS cases); Waon therapy (60°C far-infrared sauna 15 min; post-sauna bedrest under blanket 30 min; 5×/week, 4 weeks). No HSF1 or HSAT2 measurement.
+    / *Key Findings:*:
+        - Perceived fatigue significantly decreased (Chalder Fatigue Scale)
+        - Mood (Profile of Mood States) and performance status improved
+        - Pain and vigor: no significant change
+        - No adverse effects reported
+    / *Conclusion:*: Waon therapy produced subjective fatigue improvement in a small inpatient CFS cohort; no objective molecular data collected.
+    / *ME/CFS Relevance:*: Only available ME/CFS sauna clinical data. Supports that thermal therapy at 60°C ambient was tolerated without adverse events in 10 CFS patients. Provides no data on HSAT2 EV changes post-sauna. Weak evidence of benefit; single centre; no controls. Does not resolve the spec:heat-hsat2-caution concern — whether sub-threshold thermal exposure activates HSAT2 in the subset of HSAT2-high patients remains untested.
+    / *Limitations:*: n=10; no control group; unblinded; inpatient setting; no HSAT2 or HSF1 measurement; selection bias (inpatient, likely severe cases).
+    / *Certainty:*: 0.30 (very small pilot; no control; for clinical guidance only)
+
+=== CENP-A Chromatin Disassembly in Stressed and Senescent Cells
+
+    @Zhu2017CENPAstress
+
+    / *Full Citation:*: Zhu Q, Pao GM, Huynh AM, Suh H, Tonnu N, Nederlof PM, Gage FH, Verma IM. "CENP-A chromatin disassembly in stressed and senescent murine cells." _Scientific Reports_. 2017;7:42520.
+    / *DOI:*: 10.1038/srep42520
+    / *PMID:*: 28186195
+    / *Study Design:*: Mouse NIH/3T3 and primary MEFs; genotoxic stress (etoposide, zeocin, mitomycin-C, hydroxyurea) and replicative/nutlin-3a-induced senescence; CENPA localisation by immunofluorescence.
+    / *Key Findings:*:
+        - Genotoxic stress → ATM activation → CENPA eviction from centromeres to nucleolar periphery within 8 h (>60% cells by 24 h)
+        - Centromeric satellite transcription increases up to 1000-fold and is required for CENPA displacement (not merely a consequence)
+        - FACT complex (SSRP1 subunit) mediates eviction; SSRP1 knockdown prevents 90% of delocalization
+        - p53-null cells unresponsive — p53 integrity required for this protective brake
+        - Identical CENPA delocalization in permanently senescent cells with sustained DDR activation
+    / *Conclusion:*: In non-cancer cells with intact p53, satellite DNA transcription drives protective CENPA centromere depletion as a senescence brake. This is the *endogenous* context (opposite direction from EV-delivered HSAT2).
+    / *ME/CFS Relevance:*: Establishes that satellite DNA transcription and CENPA mislocalization are mechanistically linked in non-cancer cells, supporting the general mechanistic logic of spec:hsat2-centromere-stress. Critical nuance: the direction is centromere DEPLETION (protective), not ectopic CENPA gain (pathological). The Evdokimova 2019 EV-delivered HSAT2 scenario is distinct — external HSAT2 RNA drives a transcriptional upregulation program in recipient cells, not the endogenous genotoxic-stress depletion pathway.
+    / *Limitations:*: Mouse cells only; human primary fibroblast data limited; no post-viral or ME/CFS context; p53 dependency means the ME/CFS downstream phenotype depends on patient p53 integrity.
+    / *Certainty:*: 0.65 (murine cells; mechanism well-characterized; human direct confirmation limited)
+
+=== CENP-A Overexpression Promotes p53-Dependent Senescence or EMT in Human Cells
+
+    @Jeffery2021CENPAp53
+
+    / *Full Citation:*: Jeffery D, Gatto A, Podsypanina K, Grison M, Tanger E, Gaiddon C, van Lohuizen M, Almouzni G. "CENP-A overexpression promotes distinct fates in human cells, depending on p53 status." _Communications Biology_. 2021;4:417.
+    / *DOI:*: 10.1038/s42003-021-01941-5
+    / *PMID:*: 33772115
+    / *Study Design:*: Inducible CENPA overexpression in human cancer cell lines (MCF10-2A, HCT116, HeLa, DLD1); immunofluorescence, Western blot, FISH; p53 manipulation with CRISPR.
+    / *Key Findings:*:
+        - CENPA overexpression → chromosome-arm mislocalization (p53-independent)
+        - Outer kinetochore proteins REDUCED: CENP-T, NUF2/HEC1 (NDC80 complex), Mis12 — stoichiometric redistribution, not upregulation
+        - p53-WT cells → senescence + radiosensitivity; p53-null cells → epithelial-mesenchymal transition
+        - Aneuploidy (numerical and structural) documented in both p53 states
+    / *Conclusion:*: CENPA overexpression causes kinetochore instability through outer kinetochore component reduction, with p53-dependent downstream fate.
+    / *ME/CFS Relevance:*: Provides mechanistic detail for spec:hsat2-centromere-stress. Key caveat: NDC80 complex is functionally REDUCED (not upregulated) when CENPA is overexpressed, contradicting a naive "NDC80 upregulation" reading of the Evdokimova mRNA data. In p53-competent ME/CFS patients, the predicted outcome of CENPA-overexpression in EV-exposed cells would be senescence (not malignant transformation). Partially replicated by Shrestha 2021.
+    / *Limitations:*: Cancer/transformed cell lines; no non-transformed or post-viral model; CENPA overexpression may be quantitatively different from EV-HSAT2-induced transcriptional response.
+    / *Certainty:*: 0.65 (human cells; partially replicated; cancer lines only)
+
+=== CENP-A Overexpression Promotes Aneuploidy with Karyotypic Heterogeneity
+
+    @Shrestha2021CENPAaneuploidy
+
+    / *Full Citation:*: Shrestha RL, Rossi A, Wangsa D, Hogan AK, Zaldana KS, Suva E, Chung YJ, et al. "CENP-A overexpression promotes aneuploidy with karyotypic heterogeneity." _Journal of Cell Biology_. 2021;220(4):e202007195.
+    / *DOI:*: 10.1083/jcb.202007195
+    / *PMID:*: 33620383
+    / *Study Design:*: Constitutive CENPA overexpression in DLD1 pseudodiploid colon cancer cells; multicolor FISH; mouse xenograft model.
+    / *Key Findings:*:
+        - Constitutive CENPA overexpression → chromosome-arm mislocalization → lagging chromosomes + micronuclei → aneuploidy with karyotypic heterogeneity
+        - Reduced kinetochore integrity is the proximal mechanism linking CENPA mislocalization to chromosomal instability
+        - Confirms Jeffery 2021 in independent group and independent cell line
+    / *Conclusion:*: CENPA overexpression → chromosomal instability is a partially-replicated causal chain across two independent groups.
+    / *ME/CFS Relevance:*: Independently confirms the mechanistic chain in spec:hsat2-centromere-stress. Both 2021 papers together establish that if HSAT2 EVs induce CENPA overexpression in ME/CFS stromal cells (as in Evdokimova 2019), chromosomal instability is a plausible downstream consequence. Extrapolation to non-dividing stromal cells or post-viral immune cells remains speculative.
+    / *Limitations:*: Cancer cell line; no non-transformed cells; no inflammatory or post-viral context; xenograft model not directly applicable.
+    / *Certainty:*: 0.65 (cancer lines; confirms Jeffery 2021; no ME/CFS data)
+
+=== Circulating HSATII RNA in Pancreatic Cancer — TRAP-ddPCR Method
+
+    @Kishikawa2016HSATIIserum
+
+    / *Full Citation:*: Kishikawa T, Otsuka M, Yoshikawa T, Ohno M, Yamamoto K, Yamamoto N, Kato N, Koike K. "Quantitation of circulating satellite RNAs in pancreatic cancer patients." _JCI Insight_. 2016;1(8):e86646.
+    / *DOI:*: 10.1172/jci.insight.86646
+    / *PMID:*: 27699270
+    / *Study Design:*: TRAP-ddPCR assay development and validation. Training: n=20 pancreatic cancer, n=20 controls. Validation: n=10 cancer, n=10 controls, n=10 IPMN (precancerous).
+    / *Key Findings:*:
+        - First quantification of circulating HSATII RNA in human serum
+        - TRAP-ddPCR overcomes the heterogeneous amplicon problem of repetitive sequence PCR: nuclease protection produces homogeneous core fragments, then ddPCR quantifies
+        - Training AUC: 0.91. Validation AUC: 0.90
+        - Detected 5/7 early-stage cases with normal CA19-9
+        - Median serum HSATII: 14.75 vs 3.17 copies/µL (cancer vs control)
+    / *Conclusion:*: Circulating HSATII RNA is detectable and diagnostically useful in pancreatic cancer. TRAP-ddPCR is currently the only published validated method.
+    / *ME/CFS Relevance:*: Provides the technical precedent for spec:hsat2-biomarker-panel. Any ME/CFS EV-HSAT2 study must adapt or validate TRAP-ddPCR from serum to plasma EV fractions. Expected concentrations in ME/CFS are far below the 14.75 copies/µL cancer signal; the method's sensitivity limit (~1 copy/µL) may be a constraint in non-cancer chronic disease settings.
+    / *Limitations:*: Serum not plasma; EV fraction not separately analysed; single group (University of Tokyo / Harvard); not independently replicated in pancreatic cancer or any other disease; small cohorts.
+    / *Certainty:*: 0.65 (cancer biomarker; reasonable n; AUC >0.9; single group; serum vs plasma distinction relevant to ME/CFS protocol)
+
+=== CD14+HLA-DR−/low M-MDSCs in Systemic Lupus Erythematosus
+
+    @Wang2019SLEMDSC
+
+    / *Full Citation:*: Wang L, Lukowski J, Ferrer L, Kaplan MJ, Bhargava P, Wu T, Zhang W, Tsokos GC. "Increased CD14+HLA-DR-/low Myeloid-Derived Suppressor Cells Correlate With Disease Severity in Systemic Lupus Erythematosus Patients in an iNOS-Dependent Manner." _Frontiers in Immunology_. 2019;10:1202.
+    / *DOI:*: 10.3389/fimmu.2019.01202
+    / *PMID:*: 31231374
+    / *Study Design:*: Observational cross-sectional. n=32 newly diagnosed SLE patients, n=30 age/sex-matched healthy controls. Flow cytometry for M-MDSC phenotyping; functional suppression assays with iNOS inhibitor (L-NMMA).
+    / *Key Findings:*:
+        - CD14+HLA-DR−/low M-MDSC frequency significantly elevated in SLE vs controls
+        - Correlates with SLEDAI disease activity score (r = 0.547, p < 0.01)
+        - Elevated particularly in lupus nephritis and female patients
+        - Decreases significantly after treatment
+        - Suppression is iNOS-dependent (L-NMMA restores CD4+ T cell proliferation and IFN-γ); distinct from arginase-1 mechanism in cancer/post-COVID
+    / *Conclusion:*: M-MDSCs are elevated in active SLE and correlate with disease activity; iNOS-dependent suppression.
+    / *ME/CFS Relevance:*: Best available chronic non-viral autoimmune reference for spec:mdsc-biomarker. Provides M-MDSC frequency benchmark in healthy adults (~0.2–0.5% PBMCs) and in a chronic immune dysregulation context. Note: no ME/CFS-specific MDSC data exists; SLE has distinct pathophysiology (active autoantibody-driven inflammation). The iNOS mechanism may differ from mechanisms relevant to ME/CFS. Used only as frequency benchmark and mechanistic example.
+    / *Limitations:*: SLE-specific; n=32; newly diagnosed patients (disease state different from chronic stable ME/CFS); iNOS mechanism may not apply to ME/CFS MDSCs; no NK cytotoxicity assay.
+    / *Certainty:*: 0.70 (peer-reviewed; controlled comparison; mechanism confirmed; cross-disease extrapolation limited)
+
+=== MCAS as Primary Driver: Mechanistic, Diagnostic, and Treatment Evidence
+
+=== Theoharides, Twahir & Kempuraj 2024 --- Mast Cells in the Autonomic Nervous System [REVIEW]
+
+    @Theoharides2024ANS
+
+    / *Full Citation:*: Theoharides TC, Twahir A, Kempuraj D. "Mast cells in the autonomic nervous system and potential role in disorders with dysautonomia and neuroinflammation." _Annals of Allergy, Asthma & Immunology_. 2024;132(4):440--454.
+    / *DOI:*: #link("https://doi.org/10.1016/j.anai.2023.10.032")[10.1016/j.anai.2023.10.032]
+    / *PMID:*: 37951572
+    / *Study Design:*: Mechanistic narrative review. Covers perivascular mast cell anatomy, CRH--mast cell--ANS axis, and clinical implications for POTS, ME/CFS, Long COVID, autism spectrum disorder.
+    / *Key Findings:*:
+        - Mast cells are located perivascularly near nerve endings in carotid bodies, heart, and hypothalamus — anatomically positioned to disrupt ANS homeostasis
+        - CRH activates hypothalamic mast cells via CRHR-1; released mediators include VEGF (BBB disruption), tryptase, neurotensin, CXCL8
+        - VEGF increases vascular permeability → blood--brain barrier disruption → further neuroinflammation
+        - Identifies POTS, ME/CFS, Long COVID, ASD as conditions where mast cell--ANS axis is implicated as upstream driver
+        - Mast cell degranulation in carotid bodies may impair baroreceptor reflex, contributing to orthostatic heart rate instability
+        - No effective mast-cell--targeted treatment yet available for these conditions
+    / *Conclusion:*: Mast cells can act as upstream initiators of dysautonomia and neuroinflammation through their perivascular anatomical position and CRH-triggered mediator release. This positions MCAS as a potential rate-limiting upstream cause of dysautonomia in ME/CFS subsets, not merely a comorbidity.
+    / *Limitations:*: Review only; no original clinical data; mechanisms largely inferred from animal models and non-ME/CFS contexts; direct proof of causal direction in ME/CFS patients lacking.
+    / *Certainty:*: 0.62 (peer-reviewed, AAAAI journal; mechanistic plausibility strong; causal evidence in ME/CFS indirect)
+
+=== Valent et al.\ 2021 --- Updated Diagnostic Criteria and Classification of Mast Cell Disorders [CONSENSUS]
+
+    @Valent2021criteria
+
+    / *Full Citation:*: Valent P, Akin C, Bonadonna P, et al. "Updated Diagnostic Criteria and Classification of Mast Cell Disorders: A Consensus Proposal." _HemaSphere_. 2021;5(11):e646.
+    / *DOI:*: #link("https://doi.org/10.1097/HS9.0000000000000646")[10.1097/HS9.0000000000000646]
+    / *PMID:*: 34901755
+    / *Study Design:*: International expert consensus; 2020 Working Conference (Europe + USA). Refinement of prior 2012 and 2016 criteria. Not a clinical study.
+    / *Key Findings:*:
+        - MCAS diagnostic triad: (1) episodic symptoms affecting $gt.eq$2 organ systems; (2) serum tryptase $gt.eq$20% above individual baseline + 2 ng/mL within 4-hour window post-reaction; (3) symptom response to mast-cell--directed treatment
+        - CD30 expression added as SM minor criterion
+        - Bone marrow mastocytosis (BMM) defined as distinct entity: SM criteria + no skin lesions + no B/C-findings
+        - Hereditary alpha-tryptasemia (HαT) recognized as cause of elevated baseline tryptase, confounding MCAS diagnosis
+        - Distinguishes primary MCAS (clonal), secondary MCAS (IgE-driven), and idiopathic MCAS
+    / *Conclusion:*: Provides the internationally endorsed diagnostic reference framework for distinguishing MCAS from systemic mastocytosis and secondary mast cell activation. The tryptase formula (baseline × 1.2 + 2 ng/mL) is the objective biomarker anchor for MCAS diagnosis.
+    / *Limitations:*: Consensus opinion not derived from original data; criteria remain contested (vs.\ Afrin/Molderings consensus-2 criteria); tryptase formula requires known individual baseline tryptase.
+    / *Certainty:*: 0.85 (major international consensus; published in peer-reviewed hematology journal; widely adopted)
+
+=== Conway et al.\ 2024 --- Beyond Confirmed MCAS: Approaching Dysautonomia Patients [REVIEW]
+
+    @Conway2024BeyondMCAS
+
+    / *Full Citation:*: Conway AE, Verdi M, Shaker MS, et al. "Beyond Confirmed Mast Cell Activation Syndrome: Approaching Patients With Dysautonomia and Related Conditions." _Journal of Allergy and Clinical Immunology: In Practice_. 2024;12(7):1738--1750.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jaip.2024.03.019")[10.1016/j.jaip.2024.03.019]
+    / *PMID:*: 38499084
+    / *Study Design:*: Practical clinical review for allergist-immunologists. Covers diagnostic and management approach for MCAS + dysautonomia overlap presentations.
+    / *Key Findings:*:
+        - Many patients with hEDS, POTS, fibromyalgia, IBS, migraines, and amplified pain syndrome present to allergists with suspected but unconfirmed MCAS
+        - Psychiatric comorbidities (anxiety, depression) worsen in parallel with physical symptom severity, suggesting shared biological driver
+        - Advocates multidisciplinary care approach; supports empirical mast-cell--directed therapy trial even when strict diagnostic criteria unmet
+        - Provides practical therapeutic guidance: H1/H2 antihistamines first line; cromolyn for GI-predominant; ketotifen for combined stabilization + antihistamine; omalizumab for refractory cases
+        - Recognizes that overly strict criteria create diagnostic gaps for patients who respond clinically to MCAS treatment
+    / *Conclusion:*: Clinical reality requires treating patients with probable MCAS even without confirmed laboratory criteria, particularly in the context of dysautonomia and connective tissue comorbidities. Empirical therapeutic trials are justified.
+    / *Limitations:*: Expert opinion only; no clinical trial data; potential for overdiagnosis if criteria too relaxed; does not address ME/CFS specifically.
+    / *Certainty:*: 0.58 (peer-reviewed JACI:IP; expert consensus without original data; clinically pragmatic)
+
+=== Lee & Picard 2025 --- MCAS Diagnosis and Management: Canada Practical Approach [GUIDELINE]
+
+    @Lee2025CanadaMCAS
+
+    / *Full Citation:*: Lee E, Picard M. "Diagnosis and management of mast cell activation syndrome (MCAS) in Canada: a practical approach." _Allergy, Asthma & Clinical Immunology_. 2025;21(1):49.
+    / *DOI:*: #link("https://doi.org/10.1186/s13223-025-00998-9")[10.1186/s13223-025-00998-9]
+    / *PMID:*: 41272881
+    / *Study Design:*: Endorsed practical guideline (ECNM--AIM consensus basis). University of Toronto / Hôpital Maisonneuve-Rosemont. Open access.
+    / *Key Findings:*:
+        - Stepwise framework: (1) episodic, severe, multi-system presentation; (2) exclude secondary causes (food allergy, NSAID hypersensitivity, cofactor-dependent reactions); (3) objective biomarkers (acute serum tryptase or urinary mediators: N-methylhistamine, LTE4, PGD2 metabolite); (4) evaluate for clonal disorder in idiopathic anaphylaxis
+        - Prototypical MCAS presentation = idiopathic anaphylaxis; sub-anaphylactic presentations require broader differential
+        - First-line management: epinephrine autoinjector for anaphylactic episodes; H1 antihistamine prophylaxis for recurrent cases
+        - Notes expanded access to urinary mediator panels (Mayo Clinic Labs) improves diagnosis in settings without easy acute tryptase measurement
+    / *Conclusion:*: Canadian-specific practical guideline aligned with ECNM--AIM criteria. Useful clinical reference for biomarker selection and diagnostic sequencing in suspected MCAS, including in ME/CFS patients where mast cell activation is clinically suspected.
+    / *Limitations:*: Guideline without new clinical data; Canadian healthcare context; urinary mediator interpretation requires normal baseline; acute tryptase timing stringent (4-hour window).
+    / *Certainty:*: 0.65 (endorsed guideline; ECNM--AIM basis; no original data)
+
+=== Yao et al.\ 2025 --- POTS/HSD/MCAS Triad: Prevalence and Therapy Response Depend on Diagnostic Criteria
+
+    @Yao2025MCASPOTStriad
+
+    / *Full Citation:*: Yao L, Subramaniam K, Raja KM, et al. "Association of postural orthostatic tachycardia syndrome, hypermobility spectrum disorders, and mast cell activation syndrome in young patients; prevalence, overlap and response to therapy depends on the definition." _Frontiers in Neurology_. 2025;16:1513199.
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2025.1513199")[10.3389/fneur.2025.1513199]
+    / *PMID:*: 40352770
+    / *Study Design:*: Prospective observational; n=100 young patients (mean age 17.2 years) meeting POTS diagnostic criteria. Compared MCAS and HSD/hEDS prevalence under different diagnostic criteria sets.
+    / *Key Findings:*:
+        - MCAS prevalence under strict criteria: 2% (consensus-1); 37% (conservative consensus-2); 87% (clinical criteria)
+        - Joint hypermobility disorder prevalence: 13% (strict hEDS) to 34% (HSD criteria)
+        - Positive therapy response to MCAS-targeted treatment: 75--91% across all diagnostic groups, including those without laboratory support
+        - Most commonly elevated biomarker: plasma histamine; followed by chromogranin A
+        - Overly restrictive criteria risk withholding effective treatment from patients who respond clinically
+        - Full triad (POTS + HSD + MCAS): 1 patient under strict criteria; 13 under conservative; 34 under loose criteria
+    / *Conclusion:*: In young POTS patients, MCAS prevalence and triad overlap vary enormously by criteria applied. High therapy response rates across all diagnostic categories suggest clinical response to mast-cell--directed treatment may be more actionable than strict laboratory confirmation.
+    / *Limitations:*: Young patients only (mean age 17.2); single-centre; no ME/CFS cohort; MCAS-targeted therapy definition variable; no placebo control.
+    / *Certainty:*: 0.52 (peer-reviewed Frontiers; prospective design; single-centre; no ME/CFS population; n=100)
+
+=== Eccles et al.\ 2021 --- Hypermobility Prevalence in Fibromyalgia and ME/CFS: 81% Brighton Criteria Positive
+
+    @Eccles2021hypermobility
+
+    / *Full Citation:*: Eccles JA, Thompson B, Themelis K, et al. "Beyond bones: The relevance of variants of connective tissue (hypermobility) to fibromyalgia, ME/CFS and controversies surrounding diagnostic classification: an observational study." _Clinical Medicine (London)_. 2021;21(1):e83--e88.
+    / *DOI:*: #link("https://doi.org/10.7861/clinmed.2020-0743")[10.7861/clinmed.2020-0743]
+    / *PMID:*: 33479068
+    / *Study Design:*: Observational study; n=63 patients (fibromyalgia and/or ME/CFS) + 24 healthy controls; Brighton criteria and 2017 hEDS classification applied.
+    / *Key Findings:*:
+        - 81% of patients met Brighton criteria for hypermobility syndrome (OR 7.08; p$<=$.001) vs 37% controls
+        - 18% of patients met 2017 hEDS classification criteria
+        - Only 23.5% had received a prior hypermobility diagnosis despite meeting criteria
+        - 85% met all three diagnostic criteria for fibromyalgia AND ME/CFS simultaneously
+        - Historical joint laxity significantly predicted pain and fatigue severity on multiple measures
+        - Underdiagnosis of hypermobility in FM/ME/CFS patients: prevalent but clinically invisible
+    / *Relevance to Septad Diagnostic Map:*: Establishes high-prevalence prior for hEDS/hypermobility entry point in Septad map. The 81% Brighton positivity rate (vs 15--18% hEDS by strict criteria) clarifies that hypermobility spectrum -- not just diagnosable hEDS -- should anchor the hEDS tier. Underdiagnosis data supports adding hypermobility as a screening question in Septad entry-point triage.
+    / *Limitations:*: Small control group (n=24); clinic-referred patients (selection bias); Brighton criteria less specific than 2017 hEDS classification; FM and ME/CFS not fully separated in analysis.
+    / *Certainty:*: 0.55 (peer-reviewed, Clin Med; direct measurement; n=63 patients; clinic sample)
+
+=== Steinsvik et al.\ 2023 --- Gastric Dysmotility in ME/CFS: Functional Dyspepsia Pattern
+
+    @Steinsvik2023GIdysmotility
+
+    / *Full Citation:*: Steinsvik EK, Hausken T, Fluge Ø, Mella O, Gilja OH. "Gastric dysmotility and gastrointestinal symptoms in myalgic encephalomyelitis/chronic fatigue syndrome." _Scandinavian Journal of Gastroenterology_. 2023;58(7):769--776.
+    / *DOI:*: #link("https://doi.org/10.1080/00365521.2023.2173533")[10.1080/00365521.2023.2173533]
+    / *PMID:*: 36728717
+    / *Study Design:*: Double-blind RCT (crossover); n=20 ME/CFS patients with abdominal complaints; ultrasound drink test + symptom questionnaires (Rome III, IBS-SSS); vs healthy controls.
+    / *Key Findings:*:
+        - GI symptom prevalence: fullness/bloating 75%, abdominal pain 45%, nausea 35%
+        - Ultrasound: lower proximal stomach measurements post-meal; larger fasting antral area vs controls
+        - Pattern resembles functional dyspepsia (impaired gastric accommodation), not IBS
+        - 90% had normal bowel movement frequencies despite high bowel habit dissatisfaction
+        - Symptom amplification for liquid meals: stronger epigastric pain, discomfort, nausea vs controls
+    / *Relevance to Septad Diagnostic Map:*: Provides objective GI dysmotility prevalence data for ME/CFS (75--35% symptom range), supporting GI dysmotility as a measurable Septad tier component. Functional dyspepsia pattern distinguishable from IBS, suggesting specific dysmotility phenotype. Limitation for base-rate prior: sample selected for abdominal symptoms, not representative of general ME/CFS prevalence.
+    / *Limitations:*: n=20 (very small); selected for GI symptoms (not general ME/CFS); ultrasound technique operator-dependent; no gastric scintigraphy confirmation; no MCAS/POTS co-assessment.
+    / *Certainty:*: 0.48 (peer-reviewed Scand J Gastroenterol; RCT design; very small n; selected sample)
+
+=== Vazquez et al.\ 2022 --- HaT (TPSAB1) Does Not Concentrate in hEDS; Modifies Phenotype When Present
+
+    @Vazquez2022TPSAB1
+
+    / *Full Citation:*: Vazquez M, Chovanec J, Kim J, et al. "Hereditary alpha-tryptasemia modifies clinical phenotypes among individuals with congenital hypermobility disorders." _Human Genetics and Genomics Advances_. 2022;3(2):100094.
+    / *DOI:*: #link("https://doi.org/10.1016/j.xhgg.2022.100094")[10.1016/j.xhgg.2022.100094]
+    / *PMID:*: 35287299
+    / *Study Design:*: Cross-sectional; three hypermobility cohorts: HSD (n=132), hEDS (n=78), axial skeletal hypermobility (n=56); droplet digital PCR for TPSAB1/TPSB2 genotyping; clinical data from chart review.
+    / *Key Findings:*:
+        - HaT prevalence in combined hypermobility cohorts: 4.9% -- matches general population rate (4.4--7.5%); no enrichment
+        - When HaT present in hypermobility patients: dysphagia OR 5.9--7.3 (p=0.007); retained primary dentition (p=0.0003)
+        - Anaphylaxis prevalence increased in HaT+ individuals with connective tissue disorders
+        - Gene dosage effect confirmed: higher TPSAB1 copy number → higher basal tryptase → more severe symptoms
+        - Key null result: HaT is NOT concentrated in hEDS/HSD relative to general population
+    / *Relevance to Septad Diagnostic Map -- Genetic Predisposition Layer:*: Critical for calibrating the genetics layer of the Septad map. HaT testing cannot be recommended as a universal screen for hEDS patients; it should be reserved for hEDS patients with concurrent MCAS-consistent symptoms or unexplained anaphylaxis. However, when HaT IS found in a hypermobility patient, it shifts the diagnosis toward an MCAS-primary phenotype with more severe mediator symptoms -- supporting MCAS-first sequencing in that subgroup.
+    / *Limitations:*: Retrospective chart review (documentation bias); limited n for anaphylaxis subgroup; only three hypermobility subtypes; no ME/CFS cohort included.
+    / *Certainty:*: 0.52 (peer-reviewed HGG Adv; genotyping precision high; chart review limitations; no ME/CFS data)
+
+=== Weinstock et al.\ 2021 --- MCA Symptoms in Long-COVID Mirror MCAS Profile: Causal Hypothesis Evidence
+
+    @Weinstock2021LongCOVIDmast
+
+    / *Full Citation:*: Weinstock LB, Brook JB, Walters AS, Goris A, Afrin LB, Molderings GJ. "Mast cell activation symptoms are prevalent in Long-COVID." _International Journal of Infectious Diseases_. 2021;112:217--226.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ijid.2021.09.043")[10.1016/j.ijid.2021.09.043]
+    / *PMID:*: 34563706
+    / *Study Design:*: Online survey; 136 Long-COVID subjects (89.7% female), 136 general population controls (65.4% female), 80 MCAS patients (85.0% female); symptom assessment before and after COVID-19 infection.
+    / *Key Findings:*:
+        - Post-COVID Long-COVID subjects and pre-treatment MCAS patients had virtually identical MCA symptom profiles and severity
+        - Pre-infection, Long-COVID and control groups were comparable (ruling out pre-existing selection)
+        - MCA symptoms increased significantly post-infection in Long-COVID group only
+        - Pattern supports the hypothesis that post-viral MCAS activation -- not pre-existing MCAS -- drives Long-COVID symptoms
+    / *Relevance to Septad Diagnostic Map -- MCAS-as-Primary-Driver Pathway:*: Provides indirect evidence for the MCAS-induced ME/CFS pathway currently absent from the Septad map. If post-viral MCAS activation can produce an MCAS-like symptom profile in previously unaffected individuals, MCAS can function as a primary driver of post-viral ME/CFS phenotype -- not merely a comorbidity. Supports adding a "MCAS as primary trigger" branch to the Septad diagnostic algorithm.
+    / *Limitations:*: Self-report survey only; no biochemical MCAS confirmation; selection bias toward symptomatic respondents; no clinical examination; female-skewed sample; temporal validity uncertain.
+    / *Certainty:*: 0.55 (IJID peer-reviewed; indirect evidence only; no biomarker confirmation; survey design)
+
+=== Afrin, Weinstock, Molderings 2020 --- MCAS as Root of COVID-19 Hyperinflammation and Post-COVID Illness
+
+    @AfrinMolderings2020postCOVID
+
+    / *Full Citation:*: Afrin LB, Weinstock LB, Molderings GJ. "Covid-19 hyperinflammation and post-Covid-19 illness may be rooted in mast cell activation syndrome." _International Journal of Infectious Diseases_. 2020;100:327--332.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ijid.2020.09.016")[10.1016/j.ijid.2020.09.016]
+    / *PMID:*: 32920235
+    / *Study Design:*: Perspective/hypothesis article; no original data; clinical observation synthesis.
+    / *Key Findings:*:
+        - Proposes that dysregulated MCAS -- not normal immune response -- drives severe COVID-19 hyperinflammation
+        - Mast cells express ACE2; SARS-CoV-2 triggers dysregulated degranulation in MCAS patients
+        - Post-COVID chronic illness proposed as sustained MCAS escalation through epigenetic-genetic mechanisms
+        - Same mechanism applied to post-viral ME/CFS: MCAS as primary initiator, not secondary comorbidity
+        - Authors estimate ~17% MCAS prevalence in general population may explain why only a subset develop chronic illness
+    / *Relevance to Septad Diagnostic Map -- MCAS-Induced ME/CFS Pathway:*: Provides the conceptual anchor for the missing MCAS-as-primary-driver branch. This paper explicitly frames MCAS as upstream cause of ME/CFS phenotype via post-viral trigger -- the pathway gap #4 in the Septad map. However: certainty is intentionally low (hypothesis without controlled data). Must be cited as "proposed mechanism" not established fact.
+    / *Contradicting evidence:*: Wirth and Löhn (2023) argue bidirectional causality, not unidirectional MCAS primacy. The Rohrhofer (2025) Austrian cohort found only 2.8% of ME/CFS patients had prior MCAS diagnosis, suggesting most MCAS in ME/CFS is concurrent or secondary.
+    / *Limitations:*: No original data; no controlled observations; MCAS prevalence estimate unvalidated; hypothesis only.
+    / *Certainty:*: 0.35 (hypothesis paper; no controlled evidence; foundational for concept but low evidentiary weight)
+
+=== Wirth and Löhn 2023 --- ME/CFS and Comorbidities: Bidirectional Vascular-Mediator Loop
+
+    @WirthLohn2023MECFSvascular
+
+    / *Full Citation:*: Wirth KJ, Löhn M. "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Comorbidities: Linked by Vascular Pathomechanisms and Vasoactive Mediators?" _Medicina (Kaunas)_. 2023;59(5):978.
+    / *DOI:*: #link("https://doi.org/10.3390/medicina59050978")[10.3390/medicina59050978]
+    / *PMID:*: 37241210
+    / *Study Design:*: Hypothesis review; no original data; literature synthesis.
+    / *Key Findings:*:
+        - ME/CFS and comorbidities (MCAS, POTS, fibromyalgia) linked through shared vascular pathomechanisms
+        - Dysfunctional beta2-adrenergic receptors destabilize mast cells, causing inappropriate degranulation
+        - Histamine excess disrupts vascular regulation, worsening ME/CFS symptoms
+        - Crucially: bidirectional causality -- ME/CFS can trigger MCA; MCA can worsen ME/CFS -- reinforcing cycle
+        - No causal primacy for MCAS; explicitly frames relationship as mutual amplification loop
+    / *Relevance to Septad Diagnostic Map:*: Critical counterweight to the MCAS-as-primary-driver hypothesis. Bidirectionality means the Septad map's MCAS-first sequencing cannot be justified by causal primacy alone -- it requires a different justification (e.g., treatability, symptom pattern specificity). Also provides mechanism for why MCAS treatment improves ME/CFS: not because MCAS caused ME/CFS, but because breaking the amplification loop reduces total symptom burden.
+    / *Limitations:*: No original data; hypothesis only; vascular mechanism proposed but not experimentally validated in ME/CFS.
+    / *Certainty:*: 0.42 (peer-reviewed Medicina MDPI; hypothesis review; no controlled data; consistent with known pathophysiology)
+
+// ============================================================
+// LICHEN SCLEROSUS — ME/CFS COMORBIDITY RESEARCH STREAM
+// Added: 2026-05-01
+// ============================================================
+
+=== Kassels et al.\ 2024 --- LS Autoimmune Comorbidities: Largest Population Study
+
+    @Kassels2024LSAutoimmune
+
+    / *Full Citation:*: Kassels A, Min MS, Kraus CN. "Population-level retrospective study associating lichen sclerosus with autoimmune dermatologic and rheumatologic conditions." _J Am Acad Dermatol_. 2024;91(3):588--589.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jaad.2024.05.073")[10.1016/j.jaad.2024.05.073]
+    / *PMID:*: 38848901
+    / *Study Design:*: Retrospective cohort; TriNetX database (60 US healthcare organizations, >104M patients); 83,103 LS patients vs. 83,103 matched controls (age/race); ICD-10 L90.0; female patients only.
+    / *Key Findings:*:
+        - 17 autoimmune conditions elevated in LS; confirms LS as a systemic autoimmune-predisposition marker
+        - Highest ORs: morphea (OR 395.988), systemic sclerosis (OR 10.371), lichen planus (OR 4.112), vitiligo (OR 3.391)
+        - Systemic conditions also elevated: PBC (OR 1.891), SLE (OR 1.628), Sjögren's, celiac disease, Crohn's, RA
+        - Null/protective: multiple sclerosis (OR 0.776), myasthenia gravis (OR 0.813) -- not all autoimmune phenotypes elevated
+        - ME/CFS and fibromyalgia NOT in the condition set examined -- this is a methodological gap, not a negative finding
+    / *Relevance to LS-ME/CFS Hypothesis:*: Confirms LS exists within the same broad autoimmune terrain as Hashimoto's, Sjögren's, and SLE -- conditions also found at elevated rates in ME/CFS populations. The overlap in shared autoimmune comorbidities supports indirect hypothesis of shared immune dysregulation risk, though direct LS-ME/CFS co-occurrence was not tested. The selective elevation pattern (skin/mucosal autoimmunity > neurological autoimmunity) may reflect compartment-specific immune dysregulation.
+    / *Null result note:*: ME/CFS absence from condition list is not evidence of no association; the study was designed to test specific autoimmune ICD-10 codes, not ME/CFS.
+    / *Limitations:*: Retrospective ICD-10 coding; misclassification risk; mixed anogenital/extragenital LS; female patients only; ME/CFS not examined.
+    / *Certainty:*: 0.75 (largest study; rigorous design; high certainty for documented conditions; ME/CFS inference indirect only)
+
+=== De Luca et al.\ 2023 --- Lichen Sclerosus: The 2023 Update (Pathophysiology Reference)
+
+    @DeLuca2023LS2023Update
+
+    / *Full Citation:*: De Luca DA, Papara C, Vorobyev A, Staiger H, Bieber K, Thaci D, Ludwig RJ. "Lichen sclerosus: The 2023 update." _Front Med (Lausanne)_. 2023;10:1106318.
+    / *DOI:*: #link("https://doi.org/10.3389/fmed.2023.1106318")[10.3389/fmed.2023.1106318]
+    / *PMID:*: 36873861
+    / *Study Design:*: Comprehensive narrative review; no original data.
+    / *Key Findings:*:
+        - LS is a Th1-specific IFNgamma-induced phenotype: CD8+ T cells and Tregs predominate in infiltrates
+        - Pro-inflammatory cytokines elevated: IL-1alpha, IL-7, IL-15, TNF-alpha; IL-10 downregulated
+        - miR-155 drives dual mechanism: enhances Th1 differentiation AND suppresses Treg-mediated immune tolerance
+        - ECM1 autoantibodies (IgG) present but pathogenic role uncertain (possibly epiphenomenon)
+        - Oxidative stress responsible for pathogenesis, maintenance, and progression via ROS-driven fibrosis (MMP9/TGF-beta)
+        - IL-4 elevated specifically in phimosis subgroup -- suggests immunological heterogeneity within LS
+    / *Relevance to LS-ME/CFS Hypothesis:*: IL-7 and IL-15 elevation directly overlaps with ME/CFS cytokine studies (CD8+ T cell survival signals). IFN-gamma dominance parallels ME/CFS interferon-signature research. miR-155/Foxp3 Treg suppression mechanism may be shared with ME/CFS autoimmune subgroup. Oxidative stress with impaired antioxidant capacity documented in both conditions. This review provides the most complete catalogue of mechanistic overlaps.
+    / *Limitations:*: Narrative review only; no original data; precise pathogenesis sequence remains unknown; IL-17 findings conflicting.
+    / *Certainty:*: 0.70 (Frontiers in Medicine; comprehensive authoritative review; synthesizes replicated findings; no original data)
+
+=== Paganelli et al.\ 2025 --- Cytokine Networks in Lichen Sclerosus
+
+    @Paganelli2025LSCytokines
+
+    / *Full Citation:*: Paganelli A, Didona D, Scala E. "Cytokine Networks in Lichen Sclerosus: A Roadmap for Diagnosis and Treatment?" _Int J Mol Sci_. 2025;26(9):4315.
+    / *DOI:*: #link("https://doi.org/10.3390/ijms26094315")[10.3390/ijms26094315]
+    / *PMID:*: 40362551
+    / *Study Design:*: Narrative review; no original data; synthesizes cytokine literature including comparative cohorts (up to 507 women).
+    / *Key Findings:*:
+        - Confirms Th1 cytokine signature: IL-1, IL-7, IL-15, IFN-gamma, TNF-alpha; reduced IL-10
+        - Anti-ECM1 IgG autoantibodies in ~75% of vulvar LS patients; 94% specificity vs. other autoimmune diseases
+        - miR-155 overexpression reduces Foxp3+ Tregs: molecular mechanism for immune tolerance failure
+        - IL-17 role conflicting across studies (no resolution) -- suggests heterogeneous LS subgroups
+        - No single definitive biomarker for LS established despite multiple candidates
+    / *Relevance to LS-ME/CFS Hypothesis:*: Most current cytokine review (2025). ECM1 94% specificity positions it as potential stratification biomarker for LS-predisposed individuals; its multi-immune-regulatory role (Th2, Treg, macrophage) means ECM1 dysfunction could amplify immune dysregulation in predisposed ME/CFS patients. miR-155/Foxp3 Treg axis provides molecular-level shared mechanism hypothesis between LS and ME/CFS immune tolerance failure.
+    / *Limitations:*: Narrative review; cited comparative studies as small as n=10 controls; IL-17 conflict unresolved; no diagnostic biomarker validated.
+    / *Certainty:*: 0.65 (IJMS peer-reviewed; 2025 current; review only; cited studies small)
+
+=== Oyama and Hasegawa 2022 --- LS Autoimmune and Genetic Landscape (ECM1 Reference)
+
+    @Oyama2022LSGeneticInterplay
+
+    / *Full Citation:*: Oyama N, Hasegawa M. "Lichen Sclerosus: A Current Landscape of Autoimmune and Genetic Interplay." _Diagnostics (Basel)_. 2022;12(12):3070.
+    / *DOI:*: #link("https://doi.org/10.3390/diagnostics12123070")[10.3390/diagnostics12123070]
+    / *PMID:*: 36553077
+    / *Study Design:*: Review synthesizing genetic, histopathological, and experimental data; passive-transfer mouse model; human fibroblast knockdown; data from cohorts up to n=1052.
+    / *Key Findings:*:
+        - ECM1 autoantibodies confirmed in 70-80% female genital LS; 94% specificity vs. other autoimmune diseases
+        - HLA class II associations: DQ7, DR12, DRB1*12, DRB1*13 -- same region as many autoimmune diseases
+        - ECM1 is a multi-functional immune regulator: controls Th2 trafficking, CD4+CD25+ Treg function, M1 macrophage polarization, B-cell activation
+        - ECM1 loss-of-function mutations cause lipoid proteinosis (shares LS histopathology)
+        - Mouse passive-transfer anti-ECM1 reproduced early LS features only -- species-specific ECM1 differences limit mouse modeling
+        - ECM1 knockdown in human fibroblasts: impaired growth, migration, collagen gel contraction
+    / *Relevance to LS-ME/CFS Hypothesis:*: ECM1 dysfunction disrupts Th2 and Treg counter-regulation, creating conditions for Th1 dominance -- potentially relevant to ME/CFS immune dysregulation if ECM1 autoimmunity is present as a subclinical process. The HLA-DQ7/DR12 associations are worth testing against ME/CFS HLA literature.
+    / *Limitations:*: Review; mouse model has species-specific ECM1 differences; ECM1 pathogenic role in LS itself still debated.
+    / *Certainty:*: 0.70 (Diagnostics peer-reviewed; comprehensive mechanistic review with experimental validation; ECM1 findings replicated)
+
+=== Wang et al.\ 2025 --- LS Epigenetic Immune Dysregulation (Th1 at Epigenomic Level)
+
+    @Wang2025LSEpigenetic
+
+    / *Full Citation:*: Wang J, Fan H, Bao Z, et al. "Immune Dysregulation and Cellular Composition in Lichen Sclerosus Revealed by Integrative Epigenetic Analysis with Cell Type Deconvolution." _J Inflamm Res_. 2025;18:283--299.
+    / *DOI:*: #link("https://doi.org/10.2147/JIR.S481324")[10.2147/JIR.S481324]
+    / *PMID:*: 39802516
+    / *Study Design:*: Case-control; 8 male LS patients vs. 22 normal skin controls; DNA methylation array (850K EPIC); scRNA-seq deconvolution (EpiSCORE, MethylCIBERSORT); IHC validation.
+    / *Key Findings:*:
+        - Epigenomic confirmation of Th1 activation: IFNG, CD28, TLA genes hypomethylated (transcriptionally active) in LS
+        - T cell proportions markedly increased; fibroblast proportions decreased (IHC confirmed)
+        - Both CD8+ T cells and Tregs elevated simultaneously
+        - First epigenomic study of LS -- provides orthogonal (epigenetic) evidence beyond protein/cytokine level
+    / *Relevance to LS-ME/CFS Hypothesis:*: Epigenetic confirmation of Th1 pathway activation adds a mechanistic layer beyond protein measurements. If similar epigenetic Th1 imprinting occurs in ME/CFS patients with LS, this could represent a persistent immunological signature.
+    / *Limitations:*: n=8 male LS patients only (critically small); male penile LS may differ from female genital LS (major site difference); not yet replicated; incomplete clinical data.
+    / *Certainty:*: 0.40 (peer-reviewed JIR; novel methodology; n=8 critically limits generalizability; not replicated)
+
+=== Paulis and Berardesca 2019 --- Oxidative Stress in Lichen Sclerosus
+
+    @Paulis2019LSOxidativeStress
+
+    / *Full Citation:*: Paulis G, Berardesca E. "Lichen sclerosus: the role of oxidative stress in the pathogenesis of the disease and its possible transformation into carcinoma." _Res Rep Urol_. 2019;11:223--232.
+    / *DOI:*: #link("https://doi.org/10.2147/RRU.S205184")[10.2147/RRU.S205184]
+    / *PMID:*: 31687365
+    / *Study Design:*: Narrative review; no original data; cited original studies: Nasca 1999 (n=86 LS), Barbagli 2006 (n=130 male LS).
+    / *Key Findings:*:
+        - Oxidative stress (ROS) is central to LS pathogenesis via lipid peroxidation (malondialdehyde) and oxidative DNA damage (8-OHdG)
+        - Reduced antioxidant enzyme SOD in LS tissue
+        - ROS-driven DNA damage creates new autoantigenic epitopes -- potential mechanism for ECM1 autoantibody initiation
+        - Oxidative stress downregulates tumor suppressors p16 (CDKN2A) and p27 (CDKN1B): 5-6% lifetime SCC risk
+        - Very few antioxidant RCTs in LS: major evidence gap for treatment
+    / *Relevance to LS-ME/CFS Hypothesis:*: Oxidative stress with reduced antioxidant capacity is well-documented in ME/CFS (mitochondrial ROS, impaired GSH, reduced SOD). Shared OS mechanism could drive tissue damage in skin (LS) and other compartments (ME/CFS: muscle, brain). OS-driven neo-antigen generation is relevant to ME/CFS autoantibody hypothesis. However, no study has measured OS biomarkers simultaneously in LS+ME/CFS patients.
+    / *Limitations:*: Review only; few antioxidant treatment studies in LS; causal hierarchy of OS not established; no ME/CFS comparison.
+    / *Certainty:*: 0.55 (RRU peer-reviewed; review; oxidative stress findings replicated; treatment evidence weak)
+
+=== Regauer 2005 --- Immune Dysregulation in Lichen Sclerosus (Foundational)
+
+    @Regauer2005LSImmuneDysregulation
+
+    / *Full Citation:*: Regauer S. "Immune dysregulation in lichen sclerosus." _Eur J Cell Biol_. 2005;84(2-3):273--277.
+    / *DOI:*: #link("https://doi.org/10.1016/j.ejcb.2004.12.003")[10.1016/j.ejcb.2004.12.003]
+    / *PMID:*: 15819407
+    / *Study Design:*: Review article; no original data; synthesis of available immunological studies.
+    / *Key Findings:*:
+        - LS established as chronic localized lymphocyte-mediated dermatosis with presumed autoimmune etiology
+        - Monoclonal TCR gamma-chain rearrangements in 1.4-21% of LS lymphocytic infiltrates (antigen-driven clonal selection)
+        - Dominant immunophenotype: B-cells, CD4+ T-cells, antigen-presenting dendritic cells
+        - Restricted TCR usage: evidence of prolonged antigen-driven immune response
+        - Subset shows serological T-cell immune deficiency markers
+    / *Relevance to LS-ME/CFS Hypothesis:*: Foundational framing of LS as antigen-driven chronic immune activation -- the same framing used for ME/CFS immune dysregulation hypotheses. Clonal T-cell selection suggests a specific (possibly self-) antigen driving sustained inflammation, mirroring ME/CFS theories involving viral persistence or molecular mimicry.
+    / *Limitations:*: 2005 vintage; superseded in cytokine detail by De Luca 2023 and Paganelli 2025; no original data; TCR rearrangement significance not followed longitudinally.
+    / *Certainty:*: 0.50 (EJCB peer-reviewed; historically important; mechanistic framework replicated in later work; outdated cytokine detail)
+
+=== Gulin et al.\ 2023 --- LS Comorbidity: Swedish Registry Cohort
+
+    @Gulin2023LSComorbiditySweden
+
+    / *Full Citation:*: Gulin SJ, Lundin F, Seifert O. "Comorbidity in patients with Lichen sclerosus: a retrospective cohort study." _Eur J Med Res_. 2023;28:338.
+    / *DOI:*: #link("https://doi.org/10.1186/s40001-023-01335-9")[10.1186/s40001-023-01335-9]
+    / *PMID:*: 37697418
+    / *Study Design:*: Retrospective cohort; Swedish National Patient Registry; 5,680 LS cases vs. 362,568 controls; 2001-2021; ICD-10 L90.0.
+    / *Key Findings:*:
+        - Cancer associations: vulvar (OR 17.4), penile (OR 9.1), prostate (OR 2.0), breast (OR 1.6)
+        - Autoimmune comorbidities: vitiligo (OR 2.8), alopecia areata (OR 2.2), Crohn's disease (OR 2.0), T1DM (OR 1.9)
+        - ME/CFS and fibromyalgia NOT examined -- null result by omission
+        - Consistent with Kassels 2024 for autoimmune comorbidity profile (cross-national replication)
+    / *Relevance to LS-ME/CFS Hypothesis:*: Swedish national data provides cross-national confirmation that LS clusters with Th1-associated autoimmune conditions (vitiligo, alopecia, inflammatory bowel disease). This clustering -- consistent across US and Swedish registries -- strengthens the systemic Th1 immune dysregulation model underlying the LS-ME/CFS overlap hypothesis.
+    / *Limitations:*: Registry-based; ICD-10 accuracy concerns; likely underdiagnosis of LS in primary care; ME/CFS not in condition set.
+    / *Certainty:*: 0.72 (EJMR peer-reviewed; large registry; cross-nationally consistent; ME/CFS inference indirect)
+
+=== Hu et al.\ 2021 --- LS Comorbidities Including Fibromyalgia (Michigan Single-Center)
+
+    @Hu2021LSComorbidityMichigan
+
+    / *Full Citation:*: Hu J, Hesson A, Haefner HK, Rominski S. "The prevalence of self-reported medical comorbidities in patients with vulvar lichen sclerosus: A single-center retrospective study." _Int J Gynaecol Obstet_. 2021;153(2):340--343.
+    / *DOI:*: #link("https://doi.org/10.1002/ijgo.13480")[10.1002/ijgo.13480]
+    / *PMID:*: 33184843
+    / *Study Design:*: Retrospective; University of Michigan Center for Vulvar Diseases (1996-2019); 865 VLS vs. 1,118 non-VLS women; self-reported questionnaire data.
+    / *Key Findings:*:
+        - Fibromyalgia: univariate association with VLS, but NOT significant in multiple regression (age/thyroid confounders)
+        - Strongest adjusted associations: age, thyroid disease, anorectal fissures (P < 0.01)
+        - Interstitial cystitis also elevated in VLS patients (pain syndrome overlap)
+        - ME/CFS not examined as a separate condition
+    / *Relevance to LS-ME/CFS Hypothesis:*: The fibromyalgia univariate signal disappearing in regression is inconclusive -- it indicates either confounding by age/thyroid or a real but weak signal masked by collinearity. Interstitial cystitis elevation (chronic pelvic pain syndrome) is more consistent with the LS symptom profile than fibromyalgia and does not directly support the ME/CFS overlap.
+    / *Null result note:*: Fibromyalgia association did not survive adjustment; this study does not support fibromyalgia as an LS comorbidity marker.
+    / *Limitations:*: Self-reported data only; single specialized referral center (selection bias: enriched for complex cases); ME/CFS not examined.
+    / *Certainty:*: 0.45 (IJGO peer-reviewed; self-report; single center; fibromyalgia finding inconclusive)
+
+=== Halonen et al.\ 2024 --- LS Risk Factors: Finnish Case-Control Study (n=43,000) -- KEY NULL RESULT
+
+    @Halonen2024LSRiskFactorsFinland
+
+    / *Full Citation:*: Halonen P, Heikinheimo O, Hadkhale K, Gissler M, Pukkala E, Jakobsson M. "Risk Factors for Lichen Sclerosus: A Case-Control Study of 43,000 Finnish Women." _J Low Genit Tract Dis_. 2024;28(2):164--168.
+    / *DOI:*: #link("https://doi.org/10.1097/LGT.0000000000000796")[10.1097/LGT.0000000000000796]
+    / *PMID:*: 38518214
+    / *Study Design:*: Case-control; Finnish HILMO national hospital registry; 10,692 LS women vs. 32,076 age-matched controls (3:1); 1998-2016; mean diagnosis age 60.8 years.
+    / *Key Findings:*:
+        - Strongest positive associations: morphea (OR 15.1), lichen planus (OR 10.3), alopecia (OR 6.86), vitiligo (OR 2.20)
+        - KEY NULL RESULT: fibromyalgia OR 0.85 (95% CI 0.61-1.18) -- NOT significantly associated with LS
+        - Interstitial cystitis elevated when diagnosed within 5 years of LS (OR 2.38, fewer than 5 years); becomes non-significant at longer intervals
+        - UNEXPECTED: T1DM (OR 0.43), RA (OR 0.38), CAD (OR 0.41) are all significantly PROTECTIVE against LS
+        - Socioeconomic status and urbanicity: no association
+        - ME/CFS not examined as a separate category
+    / *Relevance to LS-ME/CFS Hypothesis:*: The fibromyalgia null is the highest-powered available finding (n=10,692 cases). It is difficult to argue a fibromyalgia-LS comorbidity pathway given this result. The unexpected PROTECTIVE associations for T1DM and RA challenge simple "high autoimmune burden = LS risk" models -- LS appears to have a selective immune profile, not general autoimmune predisposition. This selective profile (cutaneous/mucosal > systemic autoimmunity) is relevant to framing the LS-ME/CFS hypothesis: the shared terrain is specifically Th1-driven mucosal/dermal autoimmunity, not all autoimmune disease.
+    / *Null result note:*: This is the best-powered fibromyalgia-LS null result available. The ME/CFS pathway via fibromyalgia overlap is not supported.
+    / *Limitations:*: Hospital registry only (mild primary-care cases missed); common conditions underrepresented; long LS diagnostic delay complicates temporal relationships.
+    / *Certainty:*: 0.78 (J Low Genit Tract Dis peer-reviewed; largest case-control; registry-based; fibromyalgia null high confidence)
+
+=== Batham et al.\ 2024 --- Autoimmunity in ME/CFS: Systematic Review
+
+    @Batham2024MECFSAutoimmunity
+
+    / *Full Citation:*: Batham J, Dwyer J, Eaton-Fitch N, Marshall-Gradisnik S. "Autoimmunity's enigmatic role: exploring the connection with myalgic encephalomyelitis/chronic fatigue syndrome." _BMC Immunol_. 2024;25:62.
+    / *DOI:*: #link("https://doi.org/10.1186/s12865-024-00657-5")[10.1186/s12865-024-00657-5]
+    / *PMID:*: 39354352
+    / *Study Design:*: Systematic review of 10 publications; no meta-analysis; qualitative synthesis.
+    / *Key Findings:*:
+        - Core finding: "inconsistent and insufficient evidence" to classify ME/CFS as a true autoimmune disease
+        - Multiple autoantibodies detected in subgroups but none validated as diagnostic markers
+        - Shared genetic risk loci with established autoimmune diseases: PTPN22, CTLA4 (T-cell checkpoint genes)
+        - HLA associations: HLA-C and HLA-DBQ1 (same genomic region as Hashimoto's, RA, T1DM)
+        - Phenotypic overlap: Hashimoto's thyroiditis, SLE, Sjögren's syndrome -- the same conditions elevated in LS comorbidity studies
+        - Treg dysfunction and B-cell abnormalities documented (reduced CD19+ in infection-triggered cases)
+        - ME/CFS lacks validated diagnostic autoantibodies and characteristic tissue damage
+    / *Relevance to LS-ME/CFS Hypothesis:*: Provides the ME/CFS side of the shared-terrain argument. Both LS and ME/CFS show: (1) evidence of immune dysregulation without fulfilling classical autoimmune disease criteria; (2) shared genetic predisposition genes (PTPN22, CTLA4); (3) phenotypic overlap with the same autoimmune diseases (Hashimoto's, Sjögren's, SLE); (4) Treg dysfunction. This triangulation supports a hypothesis of shared immune susceptibility rather than direct LS-ME/CFS causal relationship.
+    / *Contradicting evidence:*: Insufficient and inconsistent evidence means ME/CFS autoimmune hypothesis remains unproven. This paper ALSO constrains the hypothesis: cannot claim LS is an ME/CFS autoimmune marker if ME/CFS autoimmunity itself is not established.
+    / *Limitations:*: Only 10 publications reviewed; heterogeneous populations; different diagnostic criteria; no quantitative synthesis.
+    / *Certainty:*: 0.55 (BMC Immunology peer-reviewed; systematic review but very few included studies; inconsistent findings are the result)

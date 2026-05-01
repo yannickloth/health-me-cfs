@@ -601,6 +601,190 @@ No studies have directly measured connective tissue biomarkers (matrix metallopr
 
 These hypotheses are presented to stimulate research, not as established mechanisms. Validation would require: (1) prospective studies measuring Septad component prevalence with standardized criteria; (2) biomarker studies comparing autophagy markers and connective tissue markers between Septad-positive and Septad-negative ME/CFS; (3) treatment stratification trials testing whether Septad status predicts response to mTOR inhibitors or connective tissue-targeted interventions.
 
+==== Strengthened Septad Diagnostic Map
+<sec:septad-strengthened-map>
+
+The diagnostic hierarchy in Section @sec:septad-diagnostic-hierarchy has five structural weaknesses that limit its clinical precision: (1) no prevalence-weighted tiebreaker when multiple presentations are equally prominent; (2) MCAS-first treatment sequencing is asserted rather than derived from base rates; (3) "disproportionate upstream improvement" is not operationalized; (4) MCAS as a potential primary driver of the ME/CFS phenotype has no branch; and (5) a genetic predisposition layer above the Septad is absent. The following extends the existing map to address each gap. Evidence gathered for each extension is noted with explicit certainty levels.
+
+===== Gap 1: Prevalence-Weighted Triage Tier
+<sec:septad-prevalence-priors>
+
+When a patient presents with equal weight across multiple Septad features, the evaluator needs a prevalence-based tiebreaker. New data permit the following prior probability estimates for Septad components in ME/CFS:
+
+#figure(
+  table(
+    columns: (auto, auto, auto, auto),
+    [*Septad Component*], [*Prevalence in ME/CFS*], [*Method*], [*Source*],
+    [Hypermobility (any Brighton criterion)], [81%], [Clinical assessment, FM/ME/CFS clinic], [@Eccles2021hypermobility],
+    [hEDS (strict 2017 criteria)], [15.5--18%], [Registry + clinical], [@Mudie2024hypermobility @Eccles2021hypermobility],
+    [MCAS (clinical MCA)], [25.3%], [Austrian ME/CFS cohort, n=687], [@Rohrhofer2025mecfsmast],
+    [MCAS (formal diagnosis)], [16.7%], [Austrian ME/CFS cohort, n=687], [@Rohrhofer2025mecfsmast],
+    [POTS/orthostatic intolerance], [27%], [UK ME/CFS cohort], [@Hoad2008pots],
+    [GI dysmotility (symptomatic)], [75% (fullness), 45% (abdominal pain)], [Objective ultrasound, GI-symptomatic subset], [@Steinsvik2023GIdysmotility],
+  ),
+  kind: table, supplement: [Table],
+  caption: [Septad component prevalence in ME/CFS cohorts — basis for triage weighting],
+) <tab:septad-prevalence>
+
+*Triage implication:* Hypermobility spectrum is the most prevalent Septad component by clinical assessment even under conservative estimates (note prevalence data limitations below). When presentation is ambiguous, screen for hypermobility first — Beighton score and Brighton criteria take under five minutes and require no laboratory testing. This triage priority is justified by relative prevalence and zero-cost screening, not by the Eccles 81% figure in isolation (see limitations). MCAS formal diagnosis (16.7%) and POTS (27%) have similar base rates; the MCAS-first treatment priority in Section @sec:septad-diagnostic-hierarchy is justified by treatability and cascade amplification, not by prevalence.
+
+#limitation(title: [Prevalence Data Limitations])[
+The Eccles 2021 figure (81% Brighton positivity) comes from a specialist clinic sample of FM/ME/CFS patients — a selected population with known ascertainment bias. The Mudie 2024 registry figure (15.5%) is based on self-report, which underestimates hypermobility. True population prevalence in unselected ME/CFS likely lies between these estimates. The Steinsvik 2023 GI dysmotility data were collected in patients selected for GI symptoms; population-level GI dysmotility prevalence in unselected ME/CFS cohorts is unknown.
+]
+
+===== Gap 2: Explicit Justification for MCAS-First Treatment Sequencing
+<sec:septad-mcas-first-rationale>
+
+The current map sequences MCAS treatment first. Prevalence data do not justify this: hypermobility is more prevalent, and POTS/dysautonomia is nearly as common as formal MCAS. The MCAS-first priority rests on two defensible grounds that must be stated explicitly:
+
+    - *Treatability*: MCAS is the most pharmacologically addressable Septad component. H1/H2 antihistamines, mast cell stabilizers (cromolyn, ketotifen), and leukotriene antagonists are low-risk, widely available, and produce rapid response in responders. Response rates of 75--91% have been reported even without biochemical confirmation @Yao2025MCASPOTStriad.
+    - *Upstream amplification*: Mast cell mediators directly worsen every other Septad component — they damage the intestinal barrier (GI dysmotility), sensitize autonomic neurons (dysautonomia), sustain neuroinflammation (ME/CFS phenotype), and maintain chronic immune activation (autoimmunity) @WirthLohn2023MECFSvascular. Stabilizing MCAS reduces the amplification signal across the whole network simultaneously.
+
+Neither of these grounds depends on MCAS being the causal initiator — see Gap 4 for the causal question. MCAS-first means "treat this first because it amplifies everything else and responds to cheap, safe drugs," not "this caused everything else."
+
+===== Gap 3: Operationalized Cascade Confirmation Criterion
+<sec:septad-confirmation-criterion>
+
+The existing map states that "if upstream treatment produces disproportionate improvement in downstream conditions, this validates the cascade model for that patient." This requires operationalization to be clinically useful.
+
+#observation(title: [Cascade Confirmation Criterion — Expert Synthesis])[
+Upstream cascade treatment is provisionally confirmed when, within 4--8 weeks of initiating MCAS-targeted therapy (without concurrent treatment change for other Septad components), the patient demonstrates reduction in $gt.eq$2 of the following downstream domains:
+
+    - Orthostatic intolerance severity (COMPASS-31 score or standing heart rate)
+    - Pain burden (NRS or PEM frequency/severity)
+    - GI symptom burden (IBS-SSS or patient global assessment)
+    - Fatigue severity (any validated scale: MFI, FSS, or equivalent)
+
+Absent multi-domain downstream improvement, the conditions should be treated as independent comorbidities, not cascade consequences. This criterion adapts the ECNM-AIM treatment response framework @Gulen2024mcascriteria @Lee2025CanadaMCAS to the Septad cascade context. It is an expert synthesis without direct validation in ME/CFS cohorts (Certainty: 0.40).
+
+_Limitations of this criterion:_ The 2-of-4-domain threshold is permissive and could capture placebo effects, natural fluctuation, or regression to the mean over the 4--8 week period. Without a concurrent control period or crossover design, multi-domain improvement cannot be unambiguously attributed to MCAS treatment. This criterion should be treated as a clinical working rule for individual management decisions, not as evidence-grade cascade confirmation.
+] <obs:cascade-confirmation>
+
+*What counts as "independent":* If MCAS treatment produces only MCAS-specific improvement (reduced flushing, urticaria, anaphylactoid episodes) without downstream domain improvement, this is consistent with comorbid MCAS rather than cascade-driving MCAS. Independent comorbidities require independent treatment rather than the assumption that upstream treatment will relieve them.
+
+===== Gap 4: MCAS-Triggered ME/CFS Phenotype Pathway
+<sec:mcas-mecfs-pathway>
+
+The existing cascade model positions MCAS as a potential primary initiator of the Septad cascade, but does not distinguish this from a separate question: can MCAS itself cause the ME/CFS phenotype (PEM + energy failure) rather than merely co-occur with it?
+
+#hypothesis(title: [MCAS-Triggered ME/CFS Phenotype])[
+A subset of patients may develop ME/CFS through mast cell-primary pathophysiology, where sustained MCAS drives the biological cascades that produce PEM and energy failure as downstream consequences. Proposed distinguishing criteria for this pathway:
+
+    - MCAS onset preceded or coincided with ME/CFS onset (temporal sequence)
+    - PEM pattern correlates with mast cell mediator fluctuation (worse after MCAS triggers: heat, fragrance, food)
+    - MCAS treatment produces $gt.eq$50% improvement in ME/CFS core symptoms (PEM frequency, fatigue severity, cognitive function)
+    - Post-infectious MCAS context: viral trigger (EBV, HHV-6, SARS-CoV-2) activates ACE2-expressing mast cells, initiating sustained degranulation @AfrinMolderings2020postCOVID
+
+Mechanistic plausibility: Long-COVID symptom profiles are virtually identical to pre-treatment MCAS symptom profiles, suggesting shared mediator-driven pathophysiology @Weinstock2021LongCOVIDmast. Bidirectional amplification between MCAS and ME/CFS biology is proposed as a sustaining mechanism @WirthLohn2023MECFSvascular. (Certainty: 0.35 — mechanistic reasoning and analogy, no controlled causal data)
+] <hyp:mcas-mecfs-phenotype>
+
+#warning-env(title: [Contradicting Temporal Evidence])[
+Rohrhofer et al. @Rohrhofer2025mecfsmast found that in an Austrian ME/CFS cohort (n=687), only 2.8% of patients received an MCAS diagnosis *before* ME/CFS onset, while 16.7% received it *after*. This temporal sequence — MCAS following ME/CFS in 97.2% of cases — is the opposite of what a primary-driver hypothesis would predict. The most parsimonious interpretation is that MCAS is most often a consequence or co-evolving amplifier of ME/CFS, not its initiator. The MCAS-triggered phenotype hypothesis remains plausible for the minority with pre-onset MCAS but cannot be generalized to the majority.
+]
+
+*Clinical entry criteria for the MCAS-triggered pathway:* Suspect when (1) MCAS symptoms clearly pre-dated or exactly coincided with ME/CFS onset; (2) PEM triggers overlap substantially with MCAS triggers (heat, food, fragrances, stress); (3) standard MCAS treatment produces improvement in energy and PEM beyond the expected MCAS symptom reduction.
+
+===== Gap 5: Genetic Predisposition Layer
+<sec:septad-genetics>
+
+The existing map begins at the level of clinical conditions. A predisposition layer — identifying which patients are constitutionally vulnerable to Septad clustering — can guide conditional genetic testing when phenotype warrants it.
+
+#speculation(title: [Conditional Genetic Predisposition Layer for the Septad])[
+Three genetic markers have sufficient evidence to justify conditional testing in Septad-phenotype ME/CFS. None should be tested universally; each is indicated only when the clinical phenotype already suggests it. No genetic panel currently predicts Septad clustering in unselected ME/CFS.
+
+    - *TPSAB1 copy number (Hereditary Alpha Tryptasemia, HaT)*: HaT (extra TPSAB1 copies) affects ~5% of Western populations and amplifies mast cell activation phenotype. Importantly, HaT prevalence in hEDS/HSD patients (4.9%) equals the general population rate @Vazquez2022TPSAB1 — HaT does NOT concentrate in hypermobility disorders. When HaT IS present in a hypermobile patient, phenotype shifts toward severe MCAS (OR 5.9--7.3 for dysphagia, elevated anaphylaxis risk). *Indication:* hEDS + unexplained severe MCAS or anaphylaxis.
+
+    - *KIT D816V (somatic mutation)*: Indicates clonal/primary mastocytosis rather than idiopathic MCAS. A negative result does not exclude idiopathic MCAS. *Indication:* persistently elevated baseline tryptase ($gt.eq$20 ng/mL) + systemic symptoms suggesting systemic mastocytosis.
+
+    - *HNMT Thr105Ile polymorphism*: Reduces histamine-N-methyltransferase efficiency, prolonging histamine action. Population frequency ~15--20%. No peer-reviewed ME/CFS or Septad cohort data exist. May explain why some patients require higher antihistamine doses or show histamine-dominant MCAS symptom patterns. *Indication:* suspected only; mechanistic basis only; not established in ME/CFS.
+
+    - *hEDS genetic panel*: No causative gene has been identified for hEDS as of 2026. Diagnosis remains clinical (2017 criteria). This layer is a placeholder for future discovery.
+
+(Certainty: 0.40 for HaT/KIT conditional testing; 0.20 for HNMT; 0.05 for hEDS genetics)
+] <spec:septad-genetics>
+
+#limitation(title: [Genetic Layer Limitations])[
+The null result from Vazquez 2022 @Vazquez2022TPSAB1 is critical: universal HaT testing in hEDS patients is not justified because HaT prevalence in hEDS equals the general population. Testing should be conditional on phenotype (severe MCAS + hEDS), not on hEDS alone. HNMT testing has no validated clinical protocol in ME/CFS. The genetic predisposition layer describes *candidates for investigation*, not an established testing algorithm.
+]
+
+===== Integrated Strengthened Map: Decision Logic
+<sec:septad-integrated-map>
+
+Combining the five extensions above, the strengthened Septad diagnostic map adds the following decision logic to the existing hierarchy in Section @sec:septad-diagnostic-hierarchy:
+
+*Step 0 — Genetic predisposition screening (conditional, not universal):*
+Test TPSAB1 if: hEDS confirmed + severe unexplained MCAS or anaphylaxis.
+Test KIT D816V if: baseline tryptase persistently $gt.eq$20 ng/mL.
+Do not test HNMT or hEDS genetics outside research protocols.
+
+*Step 1 — Prevalence-weighted triage when presentation is ambiguous:*
+When multiple Septad features present equally, screen hypermobility first (Beighton score; highest clinical prevalence, zero cost, immediate result). Then POTS/dysautonomia (NASA Lean Test; 10 minutes). Then MCAS biomarkers (tryptase, urinary mediators). Prevalence priors for Septad components: see Table @tab:septad-prevalence.
+
+*Step 2 — Dominant-feature pathways (unchanged from Section @sec:septad-diagnostic-hierarchy):*
+Enter the appropriate pathway (MCAS/HIT, post-infectious, hEDS/hypermobility, autonomic, GI) based on the dominant presentation.
+
+*Step 3 — MCAS-first treatment sequencing (explicit rationale):*
+Initiate MCAS-targeted therapy first when MCAS is confirmed or clinically suspected — justified by treatability and cascade amplification, not prevalence. See Section @sec:septad-mcas-first-rationale.
+
+*Step 4 — Cascade confirmation at 4--8 weeks:*
+Apply the operationalized criterion in Section @sec:septad-confirmation-criterion. Multi-domain downstream improvement confirms cascade; MCAS-only improvement indicates independent comorbidity requiring independent treatment.
+
+*Step 5 — MCAS-triggered ME/CFS pathway (minority subset):*
+If MCAS onset demonstrably preceded ME/CFS onset AND PEM triggers overlap MCAS triggers: suspect MCAS-triggered ME/CFS phenotype (@hyp:mcas-mecfs-phenotype). Monitor for $gt.eq$50% core symptom improvement with MCAS treatment. Acknowledge the Rohrhofer 2025 temporal data: this pathway applies to at most ~3% of ME/CFS patients based on available evidence.
+
+==== Mechanistic Hypotheses Arising from the Strengthened Map
+<sec:septad-mechanistic-hypotheses>
+
+#hypothesis(title: [Hypermobility as Permissive Substrate, Not Primary Driver])[
+The 81% clinical hypermobility prevalence @Eccles2021hypermobility contrasted with strict hEDS criteria yielding only 15--18% suggests connective tissue laxity functions as a permissive substrate lowering the threshold for MCAS triggering — through repeated mechanical mast cell stimulation — rather than as a primary driver. Most hypermobile individuals never develop ME/CFS, arguing against laxity being sufficient. The null result that HaT does not concentrate in hEDS @Vazquez2022TPSAB1 reinforces that hypermobility and mast cell hyperactivation are partially independent variables that compound when co-present. (Certainty: 0.55)
+
+_Falsifiable prediction:_ Among hypermobile ME/CFS patients, joint instability scores predict MCAS mediator severity (r $gt.eq$ 0.30) but predict fatigue or PEM severity with r $lt.eq$ 0.10 — a dissociation confirming substrate vs. driver status.
+] <hyp:hypermobility-substrate>
+
+#hypothesis(title: [Mast Cell as Cascade Ignition Node])[
+The bidirectional MCA--ME/CFS amplification loop @WirthLohn2023MECFSvascular and the multi-system reach of mast cell mediators across endothelium, gut wall, connective tissue, and CNS are consistent with MCAS occupying an upstream ignition position in the Septad cascade. Mast cell mediators can act upstream of: (a) endothelial NO/permeability changes driving orthostatic intolerance; (b) interstitial cell of Cajal dysfunction driving GI dysmotility; (c) MMP-mediated collagen degradation worsening connective tissue laxity; (d) microglial priming sustaining central fatigue. This positions MCAS as a potentially high-leverage intervention point. The 75--91% MCAS therapy response rate @Yao2025MCASPOTStriad is consistent with this position but does not establish it: nonspecific antihistamine effects on symptoms shared with other conditions could produce comparable response rates without any cascade structure. (Certainty: 0.45)
+
+_Falsifiable prediction:_ In a sequential treatment trial (MCAS-first vs. POTS-first vs. pain-first), only the MCAS-first arm achieves $gt.eq$2-component Septad improvement in $gt.eq$60% of cascade-eligible patients at 8 weeks; alternative arms reach $lt.eq$30%.
+] <hyp:mcas-ignition-node>
+
+#hypothesis(title: [Septad as Single Neuroimmune Connective Syndrome])[
+The Septad may represent one underlying syndrome -- tentatively termed "neuroimmune connective syndrome" (NICS) -- with five symptomatic projections (mast, autonomic, GI, joint, fatigue/PEM). Current diagnostic fragmentation occurs because each specialty encounters only its own projection. Developmental co-vulnerability plausibility: neural crest cells give rise to autonomic ganglia, peripheral glia, and components of connective tissue; enteric nervous system neurons (governing GI motility) similarly arise from neural crest progenitors; mast cells are hematopoietic (bone marrow derived) but their tissue distribution and activation thresholds are shaped by the same local connective-tissue and autonomic environments -- providing a shared vulnerability to disruption even without shared embryological origin. (Certainty: 0.40)
+
+_Falsifiable prediction:_ Latent class analysis on a deeply phenotyped Septad cohort (n $gt.eq$ 500) yields a single dominant latent class explaining $gt.eq$ 40% of variance across all seven condition scores -- more than any 2-class or 3-class model.
+] <hyp:nics>
+
+#speculation(title: [The Amplification Ratchet -- Cascade Irreversibility Threshold])[
+Each iteration of the MCA $arrow.r$ autonomic dysregulation $arrow.r$ barrier breakdown $arrow.r$ mast reactivation loop may deposit long-lived priming signals: sensory neuron sprouting, mast cell hyperplasia in gut and skin, persistent FcεRI upregulation. Beyond a critical loop count the cascade becomes self-sustaining. This is consistent with — though not proven by — the finding that 97.2% of ME/CFS patients developed MCAS _after_ ME/CFS onset @Rohrhofer2025mecfsmast (temporal sequence supports MCAS being downstream, not necessarily that it later becomes self-sustaining). It would also explain why disease duration may negatively predict MCAS treatment response. (Certainty: 0.35)
+
+_Falsifiable prediction:_ Disease duration is a stronger negative predictor of multi-component cascade improvement from MCAS therapy than baseline tryptase or MCAS severity -- response rate drops by $gt.eq$ 15 percentage points per 5 years of illness duration.
+] <spec:amplification-ratchet>
+
+#speculation(title: [Third Trigger Required for ME/CFS Emergence from MCAS and Hypermobility])[
+MCAS and hypermobility co-occurring without ME/CFS may be a stable non-ME/CFS phenotype. ME/CFS may emerge only when a third event -- viral infection, severe stressor, surgery, or anesthesia -- resets vagal or HPA-axis setpoints into the persistent fatigue/PEM state. This accounts for the Rohrhofer 2025 temporal pattern: the triggering event initiates ME/CFS and simultaneously worsens MCAS, making both appear concurrent. (Certainty: 0.30)
+
+_Falsifiable prediction:_ In a prospective 5-year cohort of hypermobile-MCAS patients without ME/CFS, ME/CFS incidence concentrates in those experiencing a defined third trigger at HR $gt.eq$ 3 vs. untriggered patients.
+] <spec:third-trigger>
+
+#speculation(title: [MCAS Mediator Subtype Predicts Cascade Direction])[
+Three MCAS phenotypes -- (a) histamine-dominant, (b) tryptase/PGD2-dominant, (c) leukotriene-dominant -- may predict which Septad arm activates first. Differential tissue distribution of H1, H2, CysLT1, and DP2 receptors across autonomic ganglia, gut wall, and CNS provides the mechanistic basis. (Certainty: 0.40)
+
+_Falsifiable prediction:_ Pre-treatment 24-hour urinary mediator ratios (N-methylhistamine vs. PGD2-M vs. LTE4) predict which Septad component shows greatest improvement at 8 weeks, concordance $gt.eq$ 0.60 vs. chance 0.33.
+] <spec:mcas-mediator-subtype>
+
+#speculation(title: [HNMT-Mediated Histamine Clearance Failure Subtype])[
+The HNMT Thr105Ile polymorphism (~15--20% population frequency) reduces histamine-N-methyltransferase efficiency (in-vitro enzyme kinetics; exact magnitude varies by assay and substrate concentration — no clinical effect size established in ME/CFS or MCAS). In carriers, even normal mast cell baseline release could saturate histamine degradation, producing functional MCAS with negative standard biochemistry. This mechanistic argument may offer one explanation for why antihistamine therapy response rates in MCAS cohorts are high even without biochemical confirmation @Yao2025MCASPOTStriad, though nonspecific antihistamine effects are an equally plausible explanation. No ME/CFS or Septad cohort study has tested HNMT genotype. (Certainty: 0.35)
+
+_Falsifiable prediction:_ HNMT Thr105Ile homozygotes are enriched among MCAS-therapy responders with normal standard biochemistry vs. non-responders with the same biochemistry (OR $gt.eq$ 2.5).
+] <spec:hnmt-clearance>
+
+#open-question(title: [Does the Septad Have a Latent Class Structure?])[
+Latent class analysis on a deeply phenotyped Septad cohort could determine whether the seven co-occurring conditions form a single latent syndrome (@hyp:nics) or two to three distinct phenotypic clusters with different upstream drivers. Existing biobanks (UK ME/CFS Biobank, DecodeME, You+ME Registry) may have sufficient sample sizes if Septad-component data can be harmonized.
+] <oq:septad-lca>
+
+#open-question(title: [Does MCAS Treatment Response Decline with Disease Duration?])[
+The amplification ratchet hypothesis (@spec:amplification-ratchet) predicts that MCAS therapy response decreases as disease duration increases. This could be tested retrospectively on existing MCAS therapy trial data by stratifying response rates by disease duration. If confirmed, it would argue for earlier MCAS identification in ME/CFS and for including disease duration as an effect modifier in all future Septad intervention trials.
+] <oq:mcas-duration-response>
+
 === Emerging Treatment-Response Phenotypes
 <sec:treatment-phenotypes>
 
@@ -672,3 +856,48 @@ Validating this phenotype would require:
     - Replication across independent cohorts
 
 Until validated, this phenotype should be considered a _clinical hypothesis_ useful for generating treatment hypotheses in individual patients, not an established subgroup.
+
+== Lichen Sclerosus as a Potential Subgroup Marker
+<sec:lichen-sclerosus-subgroup>
+
+#hypothesis(title: [Lichen Sclerosus as a Pre-ME/CFS Trip-Switch: PTPN22 R620W Convergence])[
+
+*Certainty: 0.35.* Based on PTPN22 R620W shared risk in LS and post-viral autoimmunity, and the mechanistic concept of shared Treg/Th1 set-point perturbation. No prospective registry study has tested this; certainty reflects genetic mechanistic inference. Not yet replicated.
+
+Lichen sclerosus may not cause ME/CFS but could identify women whose Treg/Th1 immunological set-point is already perturbed such that a subsequent infectious trigger (EBV, SARS-CoV-2, enterovirus) tips the same dysregulated terrain into systemic ME/CFS. The molecular linchpin is PTPN22 R620W — a gain-of-function variant that lowers T-cell activation thresholds and is independently associated with both elevated LS risk and elevated post-viral autoimmunity risk @Oyama2022LSGeneticInterplay. HLA-DQ7/DR12 associations overlap between LS and several autoimmune post-infectious syndromes.
+
+In this framework, LS functions as a visible "trip-switch" — the immune terrain is already perturbed (demonstrated by cutaneous autoimmunity), and one environmental challenge suffices to trigger systemic immune dysregulation matching ME/CFS criteria. Women with biopsy-confirmed LS would therefore represent a higher-risk population for post-infectious ME/CFS development, worth identifying and monitoring before an infectious event rather than after.
+
+*Clinical implication (research-stage):* Adding LS diagnosis history to pre-infectious ME/CFS risk screening questionnaires (alongside neurodivergence, Beighton score, and prior autoimmune diagnoses) is low-cost and immediately actionable in a research context.
+
+*Falsifiable prediction:* In a registry-linkage study, women with biopsy-confirmed LS will show ≥1.5× incidence of ME/CFS following a documented EBV or COVID-19 episode, compared to age-matched non-LS controls over 5-year follow-up.
+
+*Limitations:* PTPN22 R620W frequency in LS populations varies by ancestry and study; the genetic overlap is suggestive, not confirmed. Registry-linkage studies require LS biopsy confirmation and ME/CFS clinical confirmation — both under-coded in most national databases. The fibromyalgia-LS null result (Halonen 2024) weakens but does not eliminate the hypothesis, since fibromyalgia and ME/CFS share phenotype but likely differ in mechanism.
+] <hyp:lichen-trip-switch>
+
+#speculation(title: [ME/CFS Patients with Lichen Sclerosus as a Heightened-Autoimmune-Terrain Subgroup])[
+
+*Certainty: 0.20.* Mechanistic inference from shared genetic risk architecture and overlapping comorbidity profiles; no cohort data exist on LS prevalence in ME/CFS. Not replicated.
+
+Lichen sclerosus (LS) is a Th1-dominant dermatosis associated with genetic risk loci (PTPN22, CTLA4, HLA-DQ7/DR12) that overlap with those implicated in ME/CFS autoimmune evidence @Oyama2022LSGeneticInterplay @Batham2024MECFSAutoimmunity. Both conditions cluster with the same autoimmune comorbidities (Hashimoto's, Sjögren's, SLE, vitiligo). A subset of ME/CFS patients with concurrent LS may represent a subgroup with heightened systemic autoimmune predisposition — distinguishable from patients whose ME/CFS appears primarily metabolic, neurological, or post-infectious in character.
+
+This subgroup, if validated, would have implications for treatment prioritization: immune-modulating interventions (low-dose IL-2 for Treg restoration, immunoadsorption) might be preferentially trialled in LS-positive ME/CFS patients as a proxy for the autoimmune subgroup identified through other means (positive anti-muscarinic receptor antibodies, anti-beta-adrenergic antibodies, or elevated inflammatory markers).
+
+*Limitation:* The speculation rests entirely on mechanistic and genetic inference. No cohort has assessed LS prevalence in ME/CFS. The best available proxy — fibromyalgia — showed no significant association with LS in the largest case-control study (Halonen 2024; n = 10,692; OR 0.85, 95% CI 0.61–1.18) @Halonen2024LSRiskFactorsFinland, warranting caution. LS is also strongly sex- and age-skewed (predominantly post-menopausal women), limiting applicability across the full ME/CFS population. See Section @sec:lichen-sclerosus-immune-terrain for the underlying mechanistic evidence.
+] <spec:lichen-sclerosus-subgroup>
+
+=== Estrogen Withdrawal as a Th1-Derepression Trigger: Peri/Post-Menopausal ME/CFS Worsening
+<sec:estrogen-th1-subgroup>
+
+#hypothesis(title: [Estrogen Withdrawal as a Shared Th1-Derepression Mechanism Linking LS Onset and Perimenopausal ME/CFS Worsening])[
+
+*Certainty: 0.35.* Based on estrogen's documented immunomodulatory role (IFN-γ and IL-15 suppression, Treg support), the post-menopausal timing of LS onset, and consistent clinical reports of ME/CFS worsening at perimenopause. No direct intervention trial testing estrogen supplementation for ME/CFS immune normalization exists. Not yet replicated.
+
+Lichen sclerosus peaks post-menopause: vulvar epithelium loses estradiol-mediated ERα trophic and immunomodulatory signaling, unmasking the underlying Th1 dominance that was held in check by estrogen during reproductive years @DeLuca2023LS2023Update. The mechanism is well-characterized: estrogen normally suppresses IFN-γ and IL-15 production, stabilizes Foxp3+ Treg function, and maintains IL-10 tone — exactly the axes dysregulated in both LS and ME/CFS. ME/CFS women frequently report perimenopausal worsening, an observation consistent with the same Th1-derepression dynamic: estradiol withdrawal removes an endogenous immunomodulatory brake, allowing pre-existing Th1 terrain dysregulation to become clinically expressed or to intensify.
+
+This creates a testable subgroup hypothesis: ME/CFS women with peri/post-menopausal onset or worsening, concurrent or subsequent LS diagnosis, and elevated Th1 markers (IL-15, IFN-γ, reduced Treg frequency) represent a hormonally-stratifiable subgroup whose immune dysregulation is partially estrogen-dependent. This subgroup would be predicted to show differential response to hormonal modulation compared to ME/CFS patients with pre-menopausal or male onset.
+
+*Falsifiable prediction:* (1) Topical estradiol responders in LS (those whose LS symptoms improve with topical E2) will show concurrent improvement in fatigue and PEM scores if comorbid ME/CFS is present, in a prospective cohort follow-up (n ≥ 30). (2) In ME/CFS women, perimenopausal onset or worsening will be associated with higher baseline IL-15, lower Foxp3+ Treg frequency, and higher LS co-prevalence than pre-menopausal ME/CFS women matched for disease duration.
+
+*Limitations:* ME/CFS worsening at perimenopause has multiple confounders (sleep disruption, HPA axis changes, social/occupational factors) that must be excluded before attributing worsening to Th1 derepression specifically. Topical estradiol in LS is standard care for symptom management; improvement in LS symptoms does not necessarily indicate systemic immune modulation sufficient to affect ME/CFS. Estrogen's immunological effects are dose-, tissue-, and timing-dependent; systemic vs. local effects differ substantially. See Section @sec:lichen-sclerosus-immune-terrain for the underlying mechanistic evidence.
+] <hyp:estrogen-th1-subgroup>

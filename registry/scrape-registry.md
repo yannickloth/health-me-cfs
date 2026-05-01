@@ -28,6 +28,17 @@ Prevents re-processing of already-integrated content.
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11952824/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Kassels2024LSAutoimmune — LS autoimmune population study |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC9978401/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — DeLuca2023LS2023Update — LS 2023 update review |
+| https://pubmed.ncbi.nlm.nih.gov/15819407/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Regauer2005LSImmuneDysregulation — LS immune dysregulation foundational |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12072692/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Paganelli2025LSCytokines — LS cytokine networks 2025 |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11724625/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Wang2025LSEpigenetic — LS epigenetic immune dysregulation |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC6709801/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Paulis2019LSOxidativeStress — LS oxidative stress |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC9777366/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Oyama2022LSGeneticInterplay — LS autoimmune genetic landscape |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10494448/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Gulin2023LSComorbiditySweden — LS comorbidity Swedish registry |
+| https://pubmed.ncbi.nlm.nih.gov/33184843/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Hu2021LSComorbidityMichigan — LS comorbidities Michigan single-center |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11520338/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Halonen2024LSRiskFactorsFinland — LS risk factors 43,000 Finnish |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11443722/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Batham2024MECFSAutoimmunity — ME/CFS autoimmunity systematic review |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.7554%2FeLife.07370 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/bib — Cahalan2015 — Piezo1 RBC volume KCa3.1 |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1126%2Fscitranslmed.aat9892 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch08/bib — Szczot2018 — Piezo2 allodynia proprioception |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.neubiorev.2023.105227 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Molot2023 — MCS TRP sensitization |
@@ -322,6 +333,13 @@ Prevents re-processing of already-integrated content.
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12725688/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — LahiriWang2025mir153AD — miR-153-3p Alzheimer's protective APP SNCA REST Alz Dement |
 | https://pubmed.ncbi.nlm.nih.gov/35305977/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Li2022mir153stroke — miR-153-3p ischemic stroke SRC MAPK neuroprotection |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11802530/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — StojilkovicSokanovic2025ptprn — PTPRN2 neuroendocrine review Front Endocrinol |
+| https://pubmed.ncbi.nlm.nih.gov/30728521/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — DeCecco2019LINE1 — LINE-1 derepression senescence IFN inflammaging Nature 2019 |
+| https://pubmed.ncbi.nlm.nih.gov/35456403/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — Vourc_h2022HSF1SatIII — HSF1 satellite lncRNA stress response review Genes 2022 |
+| https://pubmed.ncbi.nlm.nih.gov/35819196/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — MendezBermudez2022pericentromeric — TP53 pericentromeric heterochromatin dismantling senescence NAR 2022 |
+| https://pubmed.ncbi.nlm.nih.gov/36341457/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — Apostolou2022HERVmecfs — HERV-K EBV HHV6 reactivation ME/CFS post-COVID Frontiers Immunology 2022 |
+| https://pubmed.ncbi.nlm.nih.gov/36602345/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — Grandi2023HERVcovid — HERV transcriptome COVID-19 clinical stages Microbiology Spectrum 2023 |
+| https://pubmed.ncbi.nlm.nih.gov/34082816/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — Pappalardo2021methylationRepeats — DNA methylation loss repeat elements disease Epigenetics Chromatin 2021 |
+| https://pubmed.ncbi.nlm.nih.gov/24769206/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — Zhu2014MTHFR — MTHFR H3K9me3 centromeric heterochromatin maintenance BBRC 2014 |
 | https://pubmed.ncbi.nlm.nih.gov/39070644/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — ChozaVirani2024ptprn2PD — PTPRN2 epigenetic shifts Parkinson's brain preprint |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10137143/ | PMC | 2026-04-26 | 2026-04-26 | bib/appendix-h — QiLamont2023phb2cancer — PHB2 biology miRNA silencing cancer Cells review |
 | https://pubmed.ncbi.nlm.nih.gov/33148325/ | pubmed | 2026-04-26 | 2026-04-26 | bib/appendix-h — Helliwell2020mecfsMethylation — ME/CFS RRBS methylation systemic dysfunction Clin Epigenetics |
@@ -342,3 +360,16 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/39756584/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — Le2025ATF4Mitochondria — eIF2alpha-ATF4 axis protects mitochondria during ER stress; Mol Cells 2025 |
 | https://pubmed.ncbi.nlm.nih.gov/32327570/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h — CostaMattioli2020ISRReview — ISR mechanism to disease authoritative review; Science 2020; Costa-Mattioli & Walter |
 | https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2024.1447370/full | frontiersin | 2026-05-01 | 2026-05-01 | bib/appendix-h — Altintas2024GCN2Review — GCN2 as therapeutic target age-related diseases; context-dependent ISR modulation; Front Aging 2024 |
+| https://pubmed.ncbi.nlm.nih.gov/39483457/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Baraniuk2024NKMetaAnalysis — NK cytotoxicity meta-analysis ME/CFS 28 papers Hedges g=0.96 |
+| https://pubmed.ncbi.nlm.nih.gov/39621903/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Iu2024CD8Exhaustion — PNAS CD8+ T cell exhaustion scRNA-seq ATAC-seq ME/CFS n=28+30 |
+| https://pubmed.ncbi.nlm.nih.gov/39435656/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — EatonFitch2024ImmuneExhaustion — JCI Insight immune exhaustion ME/CFS Long COVID PD-1/CTLA-4 n=14+15+18 |
+| https://pubmed.ncbi.nlm.nih.gov/35812392/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — BeliakovanBethell2022MDSCPostCOVID — M-MDSC persist 5 months post-COVID arginase+ROS T-cell suppression n=22 |
+| https://pubmed.ncbi.nlm.nih.gov/32514047/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Agrati2020MDSCCoVID19 — MDSC expansion severe COVID-19 up to 90% mononuclear cells n=18 |
+| https://pubmed.ncbi.nlm.nih.gov/26826241/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Goh2016HCVMDSCArginase — HCV MDSC suppress NK IFN-gamma via arginase-1 L-arginine depletion mTOR |
+| https://pubmed.ncbi.nlm.nih.gov/33526920/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Veglia2021MDSCDiversity — Nature Reviews Immunology MDSC biology review TGF-beta NKG2D arginase-1 IDO1 |
+| https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1729699/full | frontiersin | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Mihatsch2026MDSCMono — MDSC subpopulations EBV infectious mononucleosis pediatric n=37 PMN-MDSC severity |
+| https://pubmed.ncbi.nlm.nih.gov/37951572/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Theoharides2024ANS — mast cells autonomic nervous system dysautonomia neuroinflammation POTS ME/CFS CRH |
+| https://pubmed.ncbi.nlm.nih.gov/38499084/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Conway2024BeyondMCAS — beyond confirmed MCAS approaching dysautonomia patients hEDS POTS fibromyalgia |
+| https://pubmed.ncbi.nlm.nih.gov/34901755/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Valent2021criteria — updated diagnostic criteria classification mast cell disorders consensus HemaSphere |
+| https://pubmed.ncbi.nlm.nih.gov/41272881/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Lee2025CanadaMCAS — MCAS Canada practical diagnosis management ECNM-AIM guideline |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12063504/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Yao2025MCASPOTStriad — POTS HSD MCAS triad young patients n=100 prevalence definition-dependent therapy response |

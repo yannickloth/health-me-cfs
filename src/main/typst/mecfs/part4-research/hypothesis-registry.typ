@@ -4728,8 +4728,411 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [GrimAge clock from blood DNA. Plasma HSAT2 EV ddPCR. Correlation analysis. Fisetin pilot (n=20, age > 50).],
     [Ch.13 @spec:hsat2-inflammaging],
 
+    [Arginine Depletion as Nutritional Choke-Point Linking MDSC to NK Metabolic Failure],
+    [H], [0.45],
+    [Plasma L-arginine ≥ 15% lower in ME/CFS vs controls; inversely correlates with arginase-1 activity (ρ < −0.3). L-citrulline 6 g/day × 8 weeks raises arginine ≥ 30% and increases NK IFN-γ ≥ 20%.],
+    [Plasma amino acid profile (arginine, citrulline). Arginase-1 ELISA. NK IFN-γ ex vivo flow. Crossover n=20.],
+    [Ch.7 @hyp:arginine-mdsc-nk],
+
+    [PD-L1-High Monocytes in ME/CFS as the M-MDSC Compartment],
+    [S], [0.40],
+    [Re-staining Iu 2024 cohort with EuroFlow MDSC panel shows ≥ 60% overlap between PD-L1-high monocyte gate and CD33+HLA-DR−/lo M-MDSC gate.],
+    [Retrospective re-staining of stored PBMCs from Iu 2024. EuroFlow MDSC panel. Phenotypic overlap quantification.],
+    [Ch.7 @spec:pd-l1-mdsc-overlap],
+
+    [SIRT1/NAD+ Depletion as Upstream Trigger for HSAT2 Derepression],
+    [S], [0.35],
+    [Plasma NAD+/NADH ratio inversely correlates with EV HSAT2 load (ρ < −0.4) in n ≥ 50. NR 1 g/day × 12 weeks raises NAD+ ≥ 50% and reduces EV HSAT2 ≥ 20%.],
+    [Plasma NAD+/NADH (enzymatic or LC-MS). EV HSAT2 ddPCR. Correlation study + 12-week NR open pilot.],
+    [Ch.13 @spec:sirt1-hsat2-upstream],
+
+    [CTCF Insulator Loss as Second Route to HSAT2 Derepression, Amplifiable by HSF1],
+    [S], [0.30],
+    [CTCF ChIP-seq at 48 h post-CPET shows ≥ 30% CTCF occupancy loss at HSAT2-flanking insulator sites; precedes HSAT2 RNA accumulation.],
+    [PBMC CTCF ChIP-seq (baseline vs 48h post-CPET). HSAT2 RNA quantification at same timepoints. n=10 ME/CFS.],
+    [Ch.13 @spec:ctcf-hsat2-route],
+
+    [EV-Delivered HSAT2 as TLR3/RIG-I Ligand Triggering IFN-β in Stromal Fibroblasts],
+    [S], [0.30],
+    [ME/CFS patient plasma EVs produce ≥ 3× more IFN-β in primary dermal fibroblasts than healthy control EVs; TLR3 siRNA knockdown abolishes IFN-β production.],
+    [Primary fibroblast culture. ME/CFS vs control plasma EVs. IFN-β ELISA. TLR3 siRNA knockdown. RIG-I knockout CRISPR control.],
+    [Ch.13 @spec:hsat2-tlr3-rig-i],
+
+    [CENPA Overexpression in EV-Exposed Fibroblasts Leading to p53-Dependent Senescence],
+    [S], [0.32],
+    [ME/CFS skin biopsies show ≥ 2-fold elevation in p16+ SA-β-gal+ fibroblasts; HSAT2 RNA-positive fibroblasts correlate with p16+ burden (ρ > 0.5).],
+    [4 mm skin biopsy punch. p16 immunohistochemistry + SA-β-gal histochemistry + HSAT2 RNA-FISH. n=20 ME/CFS + 20 age-matched controls.],
+    [Ch.13 @spec:cenpa-senescence-stromal],
+
+    [Fibromyalgia: Partial HSAT2 Overlap via HSF1 Arm Without MDSC Arm],
+    [S], [0.20],
+    [Fibromyalgia plasma EV HSAT2 elevated vs controls (AUC > 0.65) but MDSC frequency normal. ME/CFS shows both elevated EV HSAT2 and elevated MDSCs.],
+    [Head-to-head comparison: ME/CFS vs fibromyalgia vs controls. Plasma EV HSAT2 + EuroFlow MDSC + NK cytotoxicity. n=30 per group.],
+    [Ch.14d @spec:fibromyalgia-hsat2-partial],
+
+    [Accelerated Biological Aging in ME/CFS as Measurable Proxy for HSAT2 Inflammaging],
+    [S], [0.35],
+    [ME/CFS patients (mean age 35–45) show GrimAge/DunedinPACE 3–8 years above matched controls; acceleration correlates with EV HSAT2 (ρ > 0.4).],
+    [Blood DNA methylation → GrimAge clock. Plasma EV HSAT2 ddPCR. n ≥ 50 ME/CFS + matched controls. Correlation analysis.],
+    [Ch.14d @spec:mecfs-biological-aging-hsat2],
+
+    [NR/NMN as SIRT1/SUV39H1-Mediated HSAT2 Silencing Support],
+    [S], [0.25],
+    [NR 1 g/day × 12 weeks raises whole-blood NAD+ ≥ 50% and reduces EV HSAT2 ≥ 20%. NAD+ rise without HSAT2 fall falsifies the SIRT1-HSAT2 chain.],
+    [Whole-blood NAD+ enzymatic assay. EV HSAT2 ddPCR. 12-week open pilot (n=20). Parallel arginase-1 measurement.],
+    [Ch.16 @spec:nr-nmn-hsat2],
+
+    [L-Citrulline to Restore NK Cytotoxicity via Arginine Repletion in MDSC Microenvironment],
+    [S], [0.40],
+    [L-citrulline 6 g/day × 8 weeks raises plasma L-arginine ≥ 30% and increases NK IFN-γ ≥ 20%. MDSC frequency unchanged.],
+    [Amino acid profile. NK IFN-γ ex vivo. EuroFlow MDSC panel. n=20 crossover.],
+    [Ch.16 @spec:citrulline-nk-mdsc],
+
+    [Tadalafil (PDE5i) as MDSC Arginase-1 Depleter to Rescue NK Cytotoxicity],
+    [S], [0.25],
+    [Tadalafil 5 mg/day × 8 weeks reduces plasma arginase-1 ≥ 25% and increases NK cytotoxicity (CD107a) ≥ 20%.],
+    [Plasma arginase-1 ELISA. NK flow cytometry (CD107a). EuroFlow MDSC panel. n=20 pilot.],
+    [Ch.18 @spec:tadalafil-mdsc-nk],
+
+    [Could Checkpoint Blockade (Anti-PD-L1) Reverse ME/CFS T-Cell Exhaustion?],
+    [OQ], [---],
+    [PD-1 blockade restores CD8+ and NK function ex vivo in ME/CFS PBMCs without inflammatory overshoot; safety data required before any clinical consideration.],
+    [Ex vivo PBMC incubation with anti-PD-L1 antibody. CD8+ cytotoxicity + NK degranulation assay. Inflammatory marker panel.],
+    [Ch.18 @oq:checkpoint-blockade-mecfs],
+
+    [Sleep Optimisation as SIRT1/NAD+-Mediated HSAT2 Silencing Support],
+    [S], [0.25],
+    [Actigraphy-measured total sleep time inversely correlates with EV HSAT2 (ρ < −0.3). 4-night sleep restriction raises EV HSAT2 ≥ 30% more in ME/CFS than controls.],
+    [Actigraphy + plasma EV HSAT2. Sleep restriction protocol (controlled, ethical). Parallel NAD+ measurement.],
+    [Ch.17 @spec:sleep-sirt1-hsat2],
+
+    [Could Brief Cold Exposure Provide Hormetic Stress Without HSAT2 Risk?],
+    [OQ], [---],
+    [Facial immersion 10°C × 60 s will NOT increase EV HSAT2 at 24h in HSAT2-high ME/CFS patients (unlike predicted heat exposure response).],
+    [Standardised cold stimulus. Pre/post EV HSAT2 ddPCR at 0/6/24h. OI exclusion screening. n=20 HSAT2-high patients.],
+    [Ch.17 @oq:cold-exposure-hsat2],
+
+    [EV HSAT2 + Arginase-1 Combined Plasma Panel],
+    [S], [0.35],
+    [Combined panel AUC ≥ 0.85 (single markers ≤ 0.75) for ME/CFS vs controls. Markers correlated (ρ > 0.4) within patients, not controls.],
+    [Plasma EV HSAT2 TRAP-ddPCR + arginase-1 colorimetric assay. n ≥ 50. Combined AUC vs single marker AUC analysis.],
+    [Ch.20 @spec:hsat2-arginase-panel],
+
+    [Post-PEM EV HSAT2 Fold-Change as Superior Diagnostic vs Baseline Absolute Level],
+    [S], [0.30],
+    [Fold-change ratio (24h post-CPET / pre-CPET) AUC ≥ 0.80 vs baseline absolute EV HSAT2 AUC ≤ 0.70 in same cohort.],
+    [CPET or modified step-test protocol. Serial EV HSAT2 TRAP-ddPCR (pre, 6h, 24h). PEM severity diary correlation.],
+    [Ch.20 @spec:hsat2-cpet-fold-change],
+
+    [ME/CFS Skin Biopsy Senescence Score as Tissue-Level HSAT2 Stromal Validation],
+    [OQ], [---],
+    [p16+ SA-β-gal+ fibroblast burden AUC ≥ 0.70 for ME/CFS vs age-matched controls; HSAT2-positive and p16+ cells co-localise in same biopsy.],
+    [4 mm skin punch biopsy. p16 IHC + SA-β-gal + HSAT2 RNA-FISH. n=20+20. Co-localisation analysis.],
+    [Ch.20 @oq:skin-senescence-biopsy],
+
   ),
-  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression Phase 4 integrations --- 11 speculations, 2 open questions across ch07, ch13, ch14a, ch14d, ch16, ch17, ch18, ch20. Motivated by @Evdokimova2019HSAT2exosome, @Nogalski2019HSATII, @Shadle2019HSATII, @Ninomiya2023HSATII.],
+  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression Phase 4 integrations --- 12 speculations, 2 open questions across ch07, ch13, ch14a, ch14d, ch16, ch17, ch18, ch20. Phase 5 additions (2026-05-01): 17 new environments from Clusters C+D expansion and brainstorm integration --- 1 hypothesis, 13 speculations, 3 open questions across ch07, ch13, ch14d, ch16, ch17, ch18, ch20. Motivated by @Evdokimova2019HSAT2exosome, @Nogalski2019HSATII, @Shadle2019HSATII, @Ninomiya2023HSATII, @Eymery2010HSF1SatII, @Decottignies2012Sat2heatshock, @Kishikawa2016HSATIIserum, @Jeffery2021CENPAp53, @BoschPresegue2011SIRT1SUV39H1.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-hsat2-phase4>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [MCAS-Triggered ME/CFS Phenotype],
+    [H], [0.35],
+    [In the subset with MCAS onset before ME/CFS onset: MCAS treatment produces ≥50% improvement in PEM frequency and fatigue severity, AND PEM triggers overlap ≥2 MCAS triggers (heat, food, fragrance). In the majority (MCAS onset after ME/CFS): no such improvement pattern.],
+    [Retrospective temporal mapping of MCAS vs ME/CFS onset in n ≥ 200. Treatment response stratified by onset sequence. Overlap scoring of PEM vs. MCAS trigger profiles.],
+    [Ch.5 @hyp:mcas-mecfs-phenotype],
+
+    [Conditional Genetic Predisposition Layer for Septad (TPSAB1 / KIT / HNMT)],
+    [S], [0.40 / 0.20 / 0.05],
+    [HaT (extra TPSAB1 copies) in hEDS+MCAS patients predicts severe MCAS phenotype (anaphylaxis, dysphagia) with OR > 4 (certainty 0.40, per Vazquez 2022). HNMT Thr105Ile in MCAS-positive ME/CFS predicts higher antihistamine dose requirement (certainty 0.20, no ME/CFS cohort data). KIT D816V distinguishes clonal from idiopathic mast cell disease (certainty 0.40 for KIT testing; 0.05 for hEDS genetics — no gene identified).],
+    [Conditional genotyping: TPSAB1 copy number in hEDS+severe MCAS subset; HNMT rs11558538 in MCAS-positive ME/CFS cohort; KIT D816V in tryptase-elevated patients. Phenotype-genotype association analysis.],
+    [Ch.5 @spec:septad-genetics],
+
+  ),
+  caption: [Entries added 2026-05-01: Strengthened Septad diagnostic map --- 1 hypothesis (MCAS-triggered ME/CFS pathway), 1 speculation (conditional genetic predisposition layer). Motivated by @Rohrhofer2025mecfsmast, @Vazquez2022TPSAB1, @AfrinMolderings2020postCOVID, @Weinstock2021LongCOVIDmast.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-septad-map>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [Domain 6 (Mast Cell / Histaminergic Dysregulation) as Rate-Limiting Upstream Driver in ME/CFS Subset],
+    [H], [0.38],
+    [(a) In patients with Domain 6 positive + Domain 4 positive (dysautonomia): combined H1/H2 antihistamine + dysautonomia treatment produces greater COMPASS-31 improvement than dysautonomia treatment alone. (b) Urinary NMH/LTE4 elevation correlates with POTS severity within ME/CFS patients. (c) Subset with episodic MCAS flares predating ME/CFS onset responds to mast cell stabilization with ≥30% PEM frequency reduction.],
+    [Cross-over trial: dysautonomia treatment ± H1/H2 antihistamines in Domain 4+6 dual-positive ME/CFS patients. Correlational study: urinary mast cell mediators vs. NASA Lean Test heart rate rise. Treatment-response registry stratified by onset sequence (MCAS before vs. after ME/CFS).],
+    [Ch.4 @sec:domain6-mast-cell],
+
+    [Six-Domain Co-Occurrence Model (extension of Multi-Domain Hypothesis to include Domain 6)],
+    [H], [0.45],
+    [ME/CFS patients with Domain 6 positive will have higher rates of Domain 3 (neuroinflammation) and Domain 4 (dysautonomia) positivity than Domain 6 negative patients, consistent with mast cell mediators as upstream driver of these two domains. Domain 6 positivity increases total domain count and predicts worse outcomes.],
+    [Cross-sectional study: assess all 6 domains in n ≥ 150 ME/CFS patients. Logistic regression: Domain 6 positivity predicting Domain 3+4 positivity, controlling for illness duration and severity. Correlation with SF-36 Physical Function and Bell Disability Scale.],
+    [Ch.4 @hyp:multi-domain],
+
+  ),
+  caption: [Entries added 2026-05-01: Domain 6 (Mast Cell / Histaminergic Dysregulation) framework entries. Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Valent2021criteria @Yao2025MCASPOTStriad.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-domain6>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [Hypermobility as Permissive Substrate, Not Primary Septad Driver],
+    [H], [0.55],
+    [Joint instability scores predict MCAS mediator severity (r ≥ 0.30) but predict fatigue/PEM severity (r ≤ 0.10) in hypermobile ME/CFS.],
+    [Cross-sectional: Beighton dynamic score + 24h urinary mediator composite + MFI/DSQ-PEM in hypermobile ME/CFS (n ≥ 100). Partial correlation analysis.],
+    [Ch.5 @hyp:hypermobility-substrate],
+
+    [Mast Cell as Cascade Ignition Node in the Septad],
+    [H], [0.45],
+    [3-arm sequential RCT: only MCAS-first arm achieves ≥2-component Septad improvement in ≥60% at 8 weeks; POTS-first and pain-first arms ≤30%.],
+    [Multi-site RCT n=180. Arms: MCAS-first, POTS-first, pain-first 8-wk monotherapy then crossover.],
+    [Ch.5 @hyp:mcas-ignition-node],
+
+    [Septad as Single Neuroimmune Connective Syndrome (NICS)],
+    [H], [0.40],
+    [LCA on n ≥ 500 Septad patients yields one dominant latent class explaining ≥40% of variance across all 7 condition scores.],
+    [Deep phenotyping. LCA + BIC model comparison. Variables: all 7 Septad severity scores, mediator panel, HRV, Beighton.],
+    [Ch.5 @hyp:nics],
+
+    [Amplification Ratchet — Cascade Irreversibility Threshold],
+    [S], [0.35],
+    [Disease duration negatively predicts MCAS-therapy multi-component response — ≥15 pp drop per 5 years, stronger than tryptase or MCAS severity.],
+    [Retrospective stratification of MCAS trial data by illness duration. Mixed-model regression.],
+    [Ch.5 @spec:amplification-ratchet],
+
+    [Third Trigger Required for ME/CFS Emergence from MCAS and Hypermobility],
+    [S], [0.30],
+    [In hypermobile-MCAS patients without ME/CFS, ME/CFS incidence concentrates in those with a viral/surgical/trauma trigger at HR ≥ 3 vs. untriggered.],
+    [Prospective 5-year cohort, n ≥ 300 hypermobile-MCAS without ME/CFS.],
+    [Ch.5 @spec:third-trigger],
+
+    [MCAS Mediator Subtype Predicts Septad Cascade Direction],
+    [S], [0.40],
+    [Pre-treatment 24h mediator ratios (NMH vs PGD2-M vs LTE4) predict which Septad component improves most at 8 weeks, concordance ≥ 0.60 vs. chance 0.33.],
+    [Pre-treatment mediator panel + 8-wk response across 4 Septad domains. Concordance analysis.],
+    [Ch.5 @spec:mcas-mediator-subtype],
+
+    [HNMT-Mediated Histamine Clearance Failure Subtype],
+    [S], [0.35],
+    [HNMT Thr105Ile homozygotes enriched among MCAS-therapy responders with normal biochemistry vs. non-responders with same biochemistry (OR ≥ 2.5).],
+    [Genotype-stratified MCAS trial analysis. HNMT rs11558538 pre-stratification. n ≥ 600.],
+    [Ch.5 @spec:hnmt-clearance],
+
+    [Does the Septad Have a Latent Class Structure?],
+    [OQ], [---],
+    [LCA reveals either a single dominant class (NICS hypothesis @hyp:nics) or 2--3 distinct clusters with differential drivers and treatment implications.],
+    [LCA in existing biobanks (UK ME/CFS Biobank, DecodeME, You+ME Registry).],
+    [Ch.5 @oq:septad-lca],
+
+    [Does MCAS Treatment Response Decline with Disease Duration?],
+    [OQ], [---],
+    [MCAS therapy response declines with illness duration; duration should be a pre-specified stratification variable in all future Septad intervention trials.],
+    [Retrospective stratification of MCAS therapy data by duration at treatment initiation.],
+    [Ch.5 @oq:mcas-duration-response],
+
+  ),
+  caption: [Entries added 2026-05-01: Mechanistic hypotheses from strengthened Septad map --- 3 hypotheses, 4 speculations, 2 open questions. Motivated by @Eccles2021hypermobility, @Rohrhofer2025mecfsmast, @Yao2025MCASPOTStriad, @WirthLohn2023MECFSvascular, @Vazquez2022TPSAB1.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-septad-mechanistic>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [Carotid Body Mast Cell Sensitization as Upstream Driver of Orthostatic Intolerance in MCAS+ME/CFS],
+    [H], [0.55],
+    [MCAS+ME/CFS patients show exaggerated ventilatory/sympathetic responses to hypercapnia vs MCAS-negative controls; 4-week cromolyn pretreatment normalizes response and reduces OI scores.],
+    [Hypercapnia challenge (3-5% CO2) with heart rate + minute ventilation monitoring in MCAS+/- ME/CFS groups. Pre/post cromolyn crossover.],
+    [Ch.7 @hyp:carotid-mast-oi],
+
+    [Hypothalamic Mast Cells as the Master Switch for Sickness-Behavior Persistence in ME/CFS],
+    [S], [0.50],
+    [CSF tryptase and tele-methylhistamine elevated in ME/CFS vs healthy controls even when serum tryptase normal. Intranasal cromolyn reduces sickness-behavior scores within 4 weeks.],
+    [Lumbar puncture CSF mediator panel in consenting ME/CFS patients. Intranasal cromolyn RCT with sickness-behavior primary endpoint.],
+    [Ch.7 @spec:hypothalamic-mast-switch],
+
+    [Spike Protein-Imprinted Mast Cell Memory via MRGPRX2 as Long COVID-ME/CFS Divergence Mechanism],
+    [S], [0.35],
+    [Long COVID-MCAS mast cells show elevated MRGPRX2 mRNA vs pre-pandemic ME/CFS-MCAS controls. Substance P-stimulated degranulation greater in Long COVID-MCAS.],
+    [Primary mast cell culture (skin biopsy or CD34+ differentiation). MRGPRX2 expression by qPCR. Degranulation assay with dose-response substance P.],
+    [Ch.7 @spec:mrgprx2-long-covid-mast],
+
+    [Connective Tissue Matrix Permissivity as Unifying Mechanism of hEDS-POTS-MCAS-ME/CFS Cluster],
+    [S], [0.50],
+    [ME/CFS patients with Beighton >= 5 will show higher skin biopsy mast cell density (>20/HPF) than Beighton <= 2 patients, even when matched for serum tryptase.],
+    [Skin punch biopsy: mast cell immunohistochemistry (tryptase staining) in ME/CFS patients stratified by Beighton score.],
+    [Ch.14d @spec:permissive-matrix-mcas],
+
+    [Domain 6 as a Bistable Switch Layer in the ME/CFS Causal Network],
+    [S], [0.40],
+    [Time-series urinary N-methylhistamine and LTE4 in MCAS-positive ME/CFS will show bimodal distribution (quiescent vs activated) with sharp transitions, not unimodal/Gaussian.],
+    [Weekly urinary mediator sampling in n >= 30 MCAS+ ME/CFS for 12 weeks. Statistical test: Hartigan's dip test for bimodality; autocorrelation analysis.],
+    [Ch.13 @spec:domain6-bistable-switch],
+
+    [Mast Cell Mitochondrial Transfer as Bidirectional Domain 2-Domain 6 Bridge],
+    [S], [0.25],
+    [Serum ccf-mtDNA correlates with urinary N-methylhistamine in ME/CFS, particularly post-exercise. Co-culture of post-exercise PBMC mitochondria with mast cells produces greater degranulation than pre-exercise.],
+    [Simultaneous ccf-mtDNA (qPCR) and urinary N-methylhistamine in ME/CFS exercise challenge study. In vitro mast cell degranulation assay.],
+    [Ch.7 @spec:mast-mito-transfer],
+
+    [DAO Replacement with P5P + Copper Cofactor Optimization for Histamine Intolerance Subset],
+    [S], [0.35],
+    [ME/CFS patients with low pyridoxal-5-phosphate at baseline show greater response to DAO + P5P + copper than DAO alone, measured by post-meal symptom scores.],
+    [Crossover trial: DAO alone vs DAO+P5P+copper in HIT-positive ME/CFS patients stratified by baseline P5P.],
+    [Ch.16 @spec:dao-cofactor-hit],
+
+    [Ketotifen + Famotidine as First-Line Domain 6 Combination in ME/CFS],
+    [S], [0.55],
+    [A 12-week RCT of ketotifen 1 mg BID + famotidine 40 mg BID in MCAS-positive ME/CFS will produce > 30% improvement in DSQ-PEM score vs placebo, with effect size correlating with baseline urinary N-methylhistamine.],
+    [Double-blind RCT in Domain 6-positive ME/CFS (n >= 60). Primary endpoint: DSQ-PEM score. Secondary: COMPASS-31, urinary N-methylhistamine.],
+    [Ch.18 @spec:ketotifen-famotidine-first-line],
+
+  ),
+  caption: [Entries added 2026-05-01: Domain 6 Phase 4 brainstorm integrations — 1 hypothesis (carotid body mast cell OI), 6 speculations (hypothalamic master switch, MRGPRX2, permissive matrix, bistable switch, mito transfer, DAO cofactor, ketotifen+famotidine), 0 open questions (added inline). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Valent2021criteria @Yao2025MCASPOTStriad @Weinstock2024Ketotifen.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-domain6-phase4>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Claim*], [*Type*], [*Cert.*], [*Testable Prediction*], [*Proposed Test*], [*Location*],
+    ),
+
+    [Lichen Sclerosus as Cutaneous Signal of ME/CFS Immune Predisposition Terrain],
+    [S], [0.25],
+    [ME/CFS cohorts prospectively screened for LS will show LS prevalence exceeding age/sex-matched population controls; LS cohorts screened for ME/CFS criteria will show ME/CFS prevalence exceeding controls.],
+    [Prevalence study: systematic LS screening in ME/CFS registry cohort (n >= 200) with dermatologist confirmation. Converse arm: ME/CFS criteria + PEM assessment in established LS clinic cohort.],
+    [Ch.7 @spec:lichen-sclerosus-immune-terrain],
+
+    [ME/CFS Patients with LS as a Heightened-Autoimmune-Terrain Subgroup],
+    [S], [0.20],
+    [LS-positive ME/CFS patients will show higher rates of anti-muscarinic and anti-beta-adrenergic autoantibodies, lower NK cytotoxicity, and elevated Th1 cytokines compared to LS-negative ME/CFS patients.],
+    [Biomarker comparison within ME/CFS registry: LS-positive vs LS-negative subgroups on immune panel (autoantibodies, NK cytotoxicity, cytokine panel).],
+    [Ch.5 @spec:lichen-sclerosus-subgroup],
+
+    [Does LS Precede ME/CFS Onset (Prodromal Signal)?],
+    [OQ], [—],
+    [Retrospective registry questionnaire: LS diagnosis date relative to ME/CFS onset date. Hypothesis: LS onset precedes ME/CFS criteria in > 50% of patients with both conditions.],
+    [Targeted questionnaire addition to You+ME or UK ME/CFS Biobank registry; minimal cost.],
+    [Ch.7 @oq:lichen-sclerosus-temporal],
+
+    [ECM1 Autoantibodies as ME/CFS Autoimmune Subgroup Stratification Marker],
+    [OQ], [—],
+    [ECM1-Ab prevalence in ME/CFS exceeds population background (approx. 2–5%); ECM1-Ab positivity correlates with ME/CFS Th1 cytokine profile and NK cytotoxicity deficit.],
+    [ELISA-based ECM1-Ab measurement in existing ME/CFS biobanked serum. No new patient recruitment required.],
+    [Ch.20 @oq:ecm1-autoantibody-mecfs],
+
+    [IL-15 Trans-Presentation as Shared Cytokine Mechanism (LS + ME/CFS)],
+    [H], [0.45],
+    [Soluble IL-15Rα in ME/CFS plasma will correlate inversely with NK cytotoxicity (r > 0.4) and be elevated in high-PEM-frequency patients; LS+fatigue patients will show higher sIL-15Rα than LS-only controls.],
+    [Plasma sIL-15Rα assay in ME/CFS cohort (n≥100) + NK cytotoxicity measurement + PEM frequency correlation.],
+    [Ch.7 @hyp:il15-trans-presentation],
+
+    [miR-155/Foxp3 as Shared Epigenetic Switch in LS and ME/CFS],
+    [H], [0.30],
+    [Plasma EV miR-155 >1.5× elevated in ME/CFS vs controls; inverse correlation with circulating Foxp3+ Treg frequency; highest in LS+ME/CFS subgroup.],
+    [EV miRNA profiling (ddPCR) + Treg flow cytometry in ME/CFS cohort, stratified by autoimmune comorbidity.],
+    [Ch.7 @hyp:mir155-foxp3-mecfs],
+
+    [ME/CFS as Multi-Organ TRM Persistence Syndrome],
+    [H], [0.30],
+    [Muscle biopsy post-PEM will show CD103+CD69+ TRM density >2× pre-PEM baseline; blocking IL-15 will reduce PEM frequency in a controlled trial.],
+    [Paired muscle biopsy (pre/post PEM provocation) + TRM immunofluorescence; anti-IL-15 pilot trial (n≥20).],
+    [Ch.7 @hyp:trm-mecfs, Ch.14d @hyp:ssc-ifn-fatigue-model],
+
+    [Lichen Sclerosus as Pre-ME/CFS Trip-Switch (PTPN22 R620W)],
+    [H], [0.35],
+    [Women with biopsy-confirmed LS will show ≥1.5× incidence of ME/CFS following EBV/COVID compared to age-matched non-LS controls over 5-year follow-up.],
+    [Registry-linkage study: LS biopsy records linked to ME/CFS diagnosis + infection history in national health databases.],
+    [Ch.5 @hyp:lichen-trip-switch],
+
+    [Sub-Clinical Fibrosis as ME/CFS Chronicity/Irreversibility Mechanism],
+    [H], [0.40],
+    [Thoracolumbar fascia shear-wave elastography stiffness higher in ME/CFS duration >5y vs less than 2y; stiffness correlates with serum TGF-β1 and PIIINP; LS+ME/CFS higher fascial stiffness than ME/CFS-only matched for duration.],
+    [Cross-sectional shear-wave elastography study in ME/CFS cohort stratified by duration; serum TGF-β1 and PIIINP assay; LS subgroup comparison.],
+    [Ch.13 @hyp:subclinical-fibrosis-mecfs],
+
+    [SSc High IFN Signature as ME/CFS Fatigue Model],
+    [H], [0.30],
+    [SSc patients with high IFN-stimulated gene panel scores will show higher ME/CFS-criteria fatigue (with PEM) than low-IFN-signature SSc, independent of SSc severity.],
+    [IFN signature scoring + PEM questionnaire in SSc clinic cohort (n≥100).],
+    [Ch.14d @hyp:ssc-ifn-fatigue-model],
+
+    [Vitiligo as Non-Fibrotic TRM Control for ME/CFS TRM Hypothesis],
+    [H], [0.25],
+    [Vitiligo prevalence elevated above population baseline in ME/CFS; ME/CFS+vitiligo patients show higher EV miR-155 and lower NK cytotoxicity than ME/CFS without skin autoimmunity.],
+    [Registry prevalence survey + biomarker comparison in ME/CFS subgroups stratified by skin autoimmune comorbidity.],
+    [Ch.14d @hyp:vitiligo-trm-control],
+
+    [LDN Response Enrichment in ME/CFS Autoimmune-Terrain Subgroup],
+    [S], [0.25],
+    [ME/CFS patients with ≥1 autoimmune comorbidity will show ≥1.5× responder rate to LDN at 12 weeks vs ME/CFS without autoimmune comorbidities in a stratified trial.],
+    [LDN crossover trial with pre-specified autoimmune-comorbidity stratification; responder defined as ≥30% PEM reduction.],
+    [Ch.18 @spec:ldn-autoimmune-terrain],
+
+    [Methylprednisolone Pulse at PEM Onset to Interrupt TRM Reactivation],
+    [S], [0.15],
+    [Methylprednisolone 16 mg ×3 days initiated at PEM onset will reduce median PEM duration by ≥30% vs placebo in a within-patient crossover (n=40 PEM events per arm).],
+    [Crossover trial: methylprednisolone 16 mg ×3d vs placebo at standardized PEM onset; washout between events; PEM duration as primary endpoint.],
+    [Ch.18 @spec:steroid-pulse-pem],
+
+    [Quercetin + NAC Stack for Oxidative–Th1 Terrain in ME/CFS],
+    [S], [0.20],
+    [Quercetin 500 mg + NAC 1200 mg/day ×12 weeks will reduce serum 8-OHdG by ≥25% in ME/CFS with baseline oxidative stress elevation; reduction correlates with PEM frequency improvement (ρ > 0.4).],
+    [Open-label trial (n≥30) with oxidative stress biomarker stratification at baseline. Primary endpoint: 8-OHdG reduction.],
+    [Ch.16 @spec:quercetin-nac-th1],
+
+    [ECM1 Hypofunction as Connective-Tissue-Immune Bridge in ME/CFS],
+    [H], [0.40],
+    [Anti-ECM1 antibodies >2× population baseline in ME/CFS cohort (n≥200); seropositive patients show elevated zonulin and higher S100B variability vs seronegative controls.],
+    [Anti-ECM1 ELISA + zonulin + S100B in ME/CFS biobanked serum; no new recruitment required.],
+    [Ch.7 @hyp:ecm1-axis-mecfs],
+
+    [Estrogen Withdrawal as Shared Th1-Derepression Trigger (LS + ME/CFS Worsening)],
+    [H], [0.35],
+    [Topical E2 responders in LS with comorbid ME/CFS show concurrent PEM improvement; perimenopausal ME/CFS women show higher IL-15, lower Treg frequency, and higher LS co-prevalence than pre-menopausal controls.],
+    [Prospective LS+ME/CFS cohort follow-up (n≥30) tracking PEM scores alongside LS response to topical E2. Cross-sectional biomarker comparison in ME/CFS stratified by menopausal status.],
+    [Ch.5 @hyp:estrogen-th1-subgroup],
+
+  ),
+  caption: [Entries added 2026-05-01: Lichen sclerosus–ME/CFS integration (Phase 2+4) — 9 hypotheses (terrain marker, trip-switch, IL-15, miR-155, TRM, fibrosis, ECM1, estrogen-Th1, SSc/vitiligo comparators), 5 speculations (subgroup ch05, LDN, steroid pulse, quercetin+NAC, LS terrain), 2 open questions (temporal prodrome, ECM1 biomarker). Motivated by @DeLuca2023LS2023Update @Paganelli2025LSCytokines @Oyama2022LSGeneticInterplay @Kassels2024LSAutoimmune @Halonen2024LSRiskFactorsFinland @Batham2024MECFSAutoimmunity @Paulis2019LSOxidativeStress.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-lichen-sclerosus>
 ] // end landscape page
