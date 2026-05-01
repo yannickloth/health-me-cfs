@@ -4538,3 +4538,70 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
   kind: table,
 ) <tab:hypothesis-registry-2026-04-30-passive-transfer>
 ] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.5fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Prediction / Open Question*],
+      [*Type*], [*Cert.*],
+      [*Testable Prediction*],
+      [*Available Test Methods*],
+      [*Source*],
+    ),
+
+    [PEM as Biphasic ISR Cycle: Adaptive Initiation, Maladaptive Persistence],
+    [H], [0.45],
+    [Time-course muscle biopsy (CPET protocol: pre/+6h/+24h/+48h/+7d) shows distinct waves: phospho-eIF2α peaking early, ATF4 targets (ASNS, GDF15 mRNA, FGF21 mRNA) peaking 24--48 h. ME/CFS patients show persistence vs 72 h resolution in controls.],
+    [Standardised CPET + serial biopsy protocol. ELISA/WB phospho-eIF2α Ser51. qPCR ATF4 targets. GDF15/FGF21 plasma time-course. Feasible in existing ME/CFS biobank cohorts.],
+    [Ch.6 @hyp:pem-biphasic-isr],
+
+    [Bidirectional ISR Dysregulation: Opposite States in ME/CFS Subgroups],
+    [H], [0.40],
+    [Pathogen-stratified muscle biopsy (HHV-6 dUTPase IgG+ vs post-COVID onset) shows opposite phospho-eIF2α/ATF4 direction. ISRIB improves HHV-6+ subgroup, worsens or has no effect on post-COVID subgroup.],
+    [HHV-6 dUTPase ELISA (serology); muscle biopsy phospho-eIF2α/ATF4 IHC stratified by trigger. ISRIB human-use pending regulatory approval; crossover design in biobanked samples.],
+    [Ch.7 @hyp:isr-bidirectional],
+
+    [Tissue Compartmentalisation Explains ISR Biomarker Failure],
+    [H], [0.55],
+    [Paired sampling (PBMC + muscle biopsy + skin biopsy) in same ME/CFS patients: ISR markers elevated in muscle/skin, not PBMC. Tissue effect sizes substantially exceed blood. Omdal 2026 null result reproduced in PBMC compartment only.],
+    [Multi-tissue biopsy protocol (1 clinic visit). PBMC isolation + muscle punch + 3mm skin punch. Phospho-eIF2α, ATF4 WB/IHC per compartment. Feasible add-on to existing biopsy studies.],
+    [Ch.7 @hyp:isr-compartmentalisation],
+
+    [Chronic ISR Activation in ME/CFS: Adaptive Initiation, Maladaptive Persistence],
+    [S], [0.35],
+    [ME/CFS muscle shows elevated baseline phospho-eIF2α AND blunted delta-ISR response to ex vivo stressor (tonic saturation). ISRIB worsens mitochondrial fragmentation markers despite reducing phospho-eIF2α.],
+    [Ex vivo acute stressor (thapsigargin) + ISRIB in patient-derived myoblasts/fibroblasts. Mitochondrial morphology by confocal. DRP1 phosphorylation (Ser616) as fragmentation marker.],
+    [Ch.6 @spec:isr-chronic],
+
+    [Chronic ATF4 as Metabolic Ceiling in ME/CFS],
+    [S], [0.40],
+    [ATF4 ChIP-seq in ME/CFS muscle shows enrichment at mitochondrial gene promoters (suppressive). Serum GDF15, FGF21, asparagine/serine/glycine ratios elevated vs controls. Correlates with exercise intolerance severity.],
+    [ChIP-seq (requires ~50mg muscle biopsy). Serum metabolomics panel (feasible). GDF15/FGF21 ELISA in large ME/CFS cohort (high feasibility, high impact).],
+    [Ch.6 @spec:isr-atf4-ceiling],
+
+    [WASF3--DRP1 Convergence: Two Routes to the Same Mitochondrial Failure],
+    [S], [0.30],
+    [WASF3 knockdown in HHV-6 miR-aU14-expressing cells partially rescues mitochondrial morphology. DRP1 inhibitor rescues miR-aU14 but not WASF3 phenotype. Combined inhibition additive if independent.],
+    [Patient-derived myoblasts with WASF3 siRNA + miR-aU14 expression vectors. Mdivi-1/Drpitor1a treatment. Mitochondrial aspect ratio + supercomplex BN-PAGE.],
+    [Ch.6 @spec:wasf3-drp1-convergence],
+
+    [ISR Activation in DRG as a Mechanism for Small Fibre Neuropathy],
+    [S], [0.30],
+    [ME/CFS patients with SFN show higher HHV-6 dUTPase IgG and plasma miR-aU14 than ME/CFS without SFN. Skin biopsy from SFN+ patients shows ATF4 immunoreactivity in surviving DRG-derived fibres.],
+    [IENFD skin biopsy + HHV-6 serology (feasible, clinically available). ATF4 IHC on skin biopsy (research protocol). Plasma miR-aU14 exosome assay (research-stage).],
+    [Ch.8 @spec:isr-drg-sfn],
+
+    [ISR in Brainstem Nuclei: Autonomic Dysregulation Without Peripheral Nerve Damage],
+    [OQ], [---],
+    [Does ME/CFS post-mortem brainstem tissue show HHV-6 miR-aU14, phospho-eIF2α, or mitochondrial fragmentation in autonomic nuclei (NTS, dorsal vagal motor nucleus)? Do HRV abnormalities correlate with brainstem vs peripheral markers?],
+    [Post-mortem brainstem tissue ISH/IHC (requires donated specimens). PET imaging with emerging ISR-sensitive tracers (research-stage). Functional MRI brainstem connectivity + HRV correlation.],
+    [Ch.8 @oq:isr-brainstem-autonomic],
+
+  ),
+  caption: [Entries added 2026-05-01: ISR/GCN2--ATF4 pathway integration --- 3 hypotheses, 4 speculations, 1 open question across ch06, ch07, ch08. Motivated by @wang2023wasf3, @Hennig2022HHV6miRNA, @Baron2025ISRMitochondria, @Gotz2025ISRLifespan, @CostaMattioli2020ISRReview, @Aloise2023CoVPKR, @Kasimir2022HHV6Tissue, @Omdal2026LCFatigueStress.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-isr>
+] // end landscape page
