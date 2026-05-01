@@ -11557,3 +11557,300 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Conclusion:*: Independent epigenetic approach (chromatin conformation, not CpG methylation) converging on the conclusion that epigenetic dysregulation is central to ME/CFS. Supports patient stratification potential. Provides convergent validation for the Chalder 2026 epigenetic axis from a distinct technological angle.
     / *Limitations:*: Severe/housebound patients only (not generalisable to mild/moderate); commercial proprietary technology; no independent external replication cohort reported; full author list not in available excerpt.
     / *Certainty:*: 0.50
+
+=== Mignolet et al.\ 2026 --- Pathogenic IgG from Long COVID Triggers Pain but Not Cognitive Impairment in Mice
+
+    @Mignolet2026passiveTransferLC
+
+    / *Full Citation:*: Mignolet M, Deroux C, Florkin T, Bielarz V, De Swert K, Halloin N, Sprimont L, Ladang A, George F, Gilloteaux J, Abeloos L, Garin P, Van Weyenbergh J, Jamoulle M, Diederich C, Gillet NA, Bulpa P, Nicaise C. "Pathogenic IgG from long COVID patients with neurological sequelae triggers sensitive but not cognitive impairments upon transfer into mice." _Acta Neuropathologica_. 2026. doi:10.1007/s00401-026-03019-0.
+    / *DOI:*: #link("https://doi.org/10.1007/s00401-026-03019-0")[10.1007/s00401-026-03019-0]
+    / *Study Design:*: Passive transfer; IgG purified (protein G) from n=13 long COVID patients and n=10 COVID-recovered controls; injected intraperitoneally into mice (n=10 per donor) for 4 consecutive days; behavioral and histological follow-up over 2 weeks.
+    / *Key Findings:*:
+        - LC patient IgG caused transient mechanical hypersensitivity and thermal sensitivity in week 1; effect abolished by IgG depletion or papain digestion (Fc-fragment required)
+        - No differences in anxiety, depression, or short/long-term spatial memory tests
+        - No neuroinflammation or astrogliosis detected centrally
+        - LC IgG accumulated in lumbar dorsal root ganglia, colocalizing with nociceptive and proprioceptive sensory neurons
+        - LC IgG also bound human post-mortem DRG tissue (ex vivo validation)
+    / *Conclusion:*: IgG from long COVID patients with neurological sequelae (chronic fatigue, brain fog, pain) is pathogenic via peripheral DRG targeting. Dissociates peripheral pain sensitization from central cognitive mechanisms. Suggests brain fog may not be directly IgG-mediated in the same fashion as pain, or may require longer observation.
+    / *Limitations:*: Small cohort (n=13 LC); transient effect (week 1 only); cognitive tests may have lacked sensitivity or duration; IgG antigens not characterized; IgG subclass data not provided.
+    / *Certainty:*: 0.55
+
+=== Goebel et al.\ 2021 --- Passive Transfer of Fibromyalgia Symptoms from Patients to Mice
+
+    @Goebel2021passiveTransferFM
+
+    / *Full Citation:*: Goebel A, Krock E, Gentry C, Israel MR, Jurczak A, Morado Urbina C, Sandor K, Vastani N, Maurer M, Cuhadar U, Sensi S, Nomura Y, Menezes J, Baharpoor A, Brieskorn L, Sandström A, Tour J, Kadetoff D, Haglund L, Kosek E, Bevan S, Svensson CI, Andersson DA. "Passive transfer of fibromyalgia symptoms from patients to mice." _Journal of Clinical Investigation_. 2021;131(13):e144201.
+    / *DOI:*: #link("https://doi.org/10.1172/JCI144201")[10.1172/JCI144201]
+    / *PMID:*: 34196305
+    / *Study Design:*: Passive transfer; IgG from n=8 fibromyalgia patients and n=6--12 healthy controls injected into mice; behavioral, electrophysiological, and histological assessment.
+    / *Key Findings:*:
+        - FM IgG-receiving mice showed mechanical and cold hypersensitivity, reduced locomotor activity, reduced grip strength, and loss of intraepidermal innervation
+        - IgG-depleted serum and healthy control IgG had no effect
+        - FM IgG accumulated in DRG, labeling satellite glial cells and neurons; activated SGC markers (GFAP, s100b)
+        - Electrophysiology: reduced activation thresholds for Aδ and C-mechanonociceptors
+    / *Conclusion:*: Foundational proof-of-concept that FM IgG transfers pain via peripheral nociceptor sensitization, with satellite glial cells as key intermediate. Establishes the passive transfer paradigm directly replicated in long COVID (Mignolet 2026, Chen 2026).
+    / *Limitations:*: Small patient number (n=8); FM antigens not characterized; no cognitive/fatigue outcomes measured in mice; FM and ME/CFS are related but distinct conditions.
+    / *Certainty:*: 0.65
+
+=== Chen et al.\ 2026 --- Transfer of IgG from Long COVID Patients Induces Symptomology in Mice
+
+    @Chen2026igGLongCOVID
+
+    / *Full Citation:*: Chen H-J et al. "Transfer of IgG from long COVID patients induces symptomology in mice." _Cell Reports Medicine_. 2026;102693. (UMC Utrecht / Amsterdam UMC; Eijkelkamp and den Dunnen groups)
+    / *DOI:*: #link("https://doi.org/10.1016/j.xcrm.2026.102693")[10.1016/j.xcrm.2026.102693]
+    / *Study Design:*: Passive transfer with pooled total IgG from long COVID patients; longitudinal assessment (IgG at baseline and 2-year follow-up from same patients); patient subgrouping by GFAP, NFL, and interferon-$beta$ biomarkers; plasma proteomics.
+    / *Key Findings:*:
+        - Pooled LC IgG induces pronounced, persistent mechanical hypersensitivity in mice
+        - IgG from same patients 2 years later (still symptomatic) reproduces allodynia, demonstrating persistence of pathogenic autoantibodies
+        - Three patient subgroups identified by GFAP/NFL/IFN-$beta$; subgroup-specific proteomic pathways
+        - Suggests patient heterogeneity is relevant for targeted treatment selection
+    / *Conclusion:*: Converges with Mignolet 2026 and Goebel 2021 establishing IgG-mediated peripheral pain as a robust cross-condition finding. Long-term persistence of pathogenic IgG has implications for treatment duration and relapse after single-course apheresis.
+    / *Limitations:*: Full author list and full methodological details not available from search; patient sample sizes not confirmed; IgG antigens not characterized in summary available.
+    / *Certainty:*: 0.60
+
+=== Santos Guedes de Sa et al.\ 2024 --- Causal Link Between Autoantibodies and Neurological Symptoms in Long COVID (Preprint)
+
+    @SantosGuedes2024autoantibodiesLC
+
+    / *Full Citation:*: Santos Guedes de Sa K, Silva J, Bayarri-Olmos R, Brinda R, Constable RAR, Colom Diaz PA, Kwon D, Rodrigues G, Wenxue L, Baker C, Bhattacharjee B, Wood J, Tabacof L, Liu Y, Putrino D, Horvath TL, Iwasaki A. "A causal link between autoantibodies and neurological symptoms in long COVID." _medRxiv_. 2024. doi:10.1101/2024.06.18.24309100.
+    / *DOI:*: #link("https://doi.org/10.1101/2024.06.18.24309100")[10.1101/2024.06.18.24309100]
+    / *PMID:*: 38947091
+    / *Study Design:*: Preprint (not peer-reviewed). Cross-sectional autoantibody profiling + passive transfer. n=55 LC (high neurological symptom burden) + n=42 convalescent + n=39 healthy controls; MY-LC cohort (Mount Sinai--Yale). 21,000-protein array; mass spectrometry confirmation; passive transfer into mice.
+    / *Key Findings:*:
+        - LC IgG reactive against nervous system proteins; cross-reacts with sciatic nerve, spinal cord, meninges
+        - Proteomics confirmed MED20 and USP5 as top autoantigen targets
+        - Passive transfer: pain (thermal), balance/coordination loss, muscle weakness mirroring donor symptoms
+        - 85% of pain-phenotype mice received IgG from pain-reporting LC patients (symptom-symptom correlation)
+        - IgG crossed blood-brain barrier (5% at day 5 post-injection)
+        - Reduced intraepidermal nerve fibers consistent with small fiber neuropathy
+    / *Conclusion:*: Broad nervous system autoantibody profile in LC correlates with neurological symptom heterogeneity. IgG pathogenicity established by passive transfer. Complement to Mignolet 2026 (which focused on DRG/pain) by adding CNS reactivity and balance/coordination phenotypes.
+    / *Limitations:*: Preprint: not peer-reviewed. Patient cohort predominantly female. IgG-BBB crossing at only 5% may be insufficient to explain CNS symptoms. MED20/USP5 targets require independent validation. Cognitive outcomes not assessed separately from motor coordination.
+    / *Certainty:*: 0.50
+
+=== McAlpine et al.\ 2024 --- Case-Control Study of Small Fiber Neuropathy After COVID-19
+
+    @McAlpine2024sfnCOVID
+
+    / *Full Citation:*: McAlpine L, Zubair AS, Joseph P, Spudich S. "Case-Control Study of Individuals With Small Fiber Neuropathy After COVID-19." _Neurology: Neuroimmunology & Neuroinflammation_. 2024;11(3):e200244.
+    / *DOI:*: #link("https://doi.org/10.1212/NXI.0000000000200244")[10.1212/NXI.0000000000200244]
+    / *PMID:*: 38630952
+    / *Study Design:*: Retrospective case-control (Class III evidence); n=16 new-onset SFN post-COVID (75% female, median age 47); Yale NeuroCOVID Clinic.
+    / *Key Findings:*:
+        - 92% of post-COVID SFN patients reported post-exertional malaise (ME/CFS criterion met)
+        - 7/16 underwent invasive cardiopulmonary exercise testing: neurovascular dysregulation and dysautonomia confirmed
+        - IVIG response: 9/9 treated improved vs 3/7 untreated (p=0.02)
+        - Non-length-dependent SFN pattern consistent with DRG-level pathology
+    / *Conclusion:*: Post-COVID SFN is likely autoimmune; IVIG response supports immune mechanism. 92% PEM overlap bridges SFN, dysautonomia, and ME/CFS. Supports DRG targeting as shared mechanism between post-COVID pain, autonomic dysfunction, and ME/CFS.
+    / *Limitations:*: Retrospective; small n=16; Class III evidence; no formal autoantibody panel for TS-HDS/FGFR3 reported in detail; selection bias for Yale referral population.
+    / *Certainty:*: 0.52
+
+// ============================================================
+// ISR / GCN2-ATF4 PATHWAY — ME/CFS RESEARCH STREAM
+// Added: 2026-05-01
+// ============================================================
+
+=== Götz et al.\ 2025 --- Suppression of GCN2--ATF4 ISR Extends Lifespan in Drosophila
+
+    @Gotz2025ISRLifespan
+
+    / *Full Citation:*: Götz MS, Hayman DJ, Adams G, Obata F, Simons MJP. "Suppression rather than activation of the integrated-stress-response (GCN2-ATF4) pathway extends lifespan in the fly." _bioRxiv_ preprint. 2025. DOI: 10.1101/2025.07.14.664701. (Note: user-supplied PNAS DOI 10.1073/pnas.2518812123 not verified as published as of 2026-05-01.)
+    / *DOI:*: #link("https://doi.org/10.1101/2025.07.14.664701")[10.1101/2025.07.14.664701] (preprint)
+    / *Study Design:*: *Drosophila melanogaster* genetic manipulation; lifespan assays with dGCN2/dATF4 overexpression and RNAi knockdown; proteostasis and DNA repair pathway analysis. PREPRINT — not peer-reviewed.
+    / *Key Findings:*:
+        - dGCN2 and dATF4 overexpression significantly reduces fly lifespan
+        - RNAi knockdown of dATF4 extends lifespan (first Drosophila ISR suppression data)
+        - Contradicts yeast/C. elegans pro-longevity ISR activation finding
+        - dATF4 suppression upregulates proteostasis and DNA repair pathways
+        - ATF4 role in aging is dose- and context-dependent: chronic activation detrimental
+    / *Conclusion:*: In flies, GCN2--ATF4 pathway suppression, not activation, is pro-longevity. Challenges "ISR activation = adaptive/beneficial" framing for chronic conditions. Supports the hypothesis that chronic ISR activation (as in ME/CFS) is pathological rather than protective.
+    / *Limitations:*: Preprint (not peer-reviewed). *Drosophila* model; requires vertebrate/mammalian replication. Directly contradicts yeast and C. elegans data, suggesting species-specific effects. Claimed PNAS DOI not verified as published.
+    / *Certainty:*: 0.30
+
+=== Hennig, Prusty et al.\ 2022 --- HHV-6 miR-aU14 Triggers Mitochondrial Fragmentation via miR-30/p53/DRP1
+
+    @Hennig2022HHV6miRNA
+
+    / *Full Citation:*: Hennig T, Prusty AB, Kaufer BB, Whisnant AW, Lodha M, Enders A, Thomas J, Kasimir F, Grothey A, Klein T, Herb S, Jürges C, Sauer M, Fischer U, Rudel T, Meister G, Erhard F, Dölken L, Prusty BK. "Selective inhibition of miRNA processing by a herpesvirus-encoded miRNA." _Nature_. 2022;605(7910):539--544.
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-022-04667-4")[10.1038/s41586-022-04667-4]
+    / *PMID:*: 35508655
+    / *Study Design:*: Molecular virology; HHV-6A cell infection models; miRNA processing and biogenesis analysis; latency/reactivation assays; mitochondrial morphology assessment.
+    / *Key Findings:*:
+        - HHV-6A miR-aU14 selectively inhibits host miR-30 family processing via pri-miRNA hairpin binding
+        - miR-30 loss activates miR-30--p53--DRP1 axis causing profound mitochondrial architectural disruption
+        - Impaired type I interferon response enables productive HHV-6A infection and reactivation
+        - miR-aU14 identified as "readily druggable master regulator of herpesvirus lytic--latent switch"
+        - DRP1-mediated fission is the same downstream effector activated by ISR kinases (mechanistic overlap with Baron 2025)
+    / *Conclusion:*: HHV-6 encodes a viral miRNA that hijacks host miRNA processing to trigger mitochondrial fragmentation and enable reactivation from latency. Core Prusty lab ME/CFS mechanism paper connecting herpesvirus reactivation to mitochondrial dysfunction via DRP1 pathway shared with ISR.
+    / *Limitations:*: Cell/viral model systems; direct ISR (eIF2alpha phosphorylation) not measured; extrapolation to ME/CFS patient tissue requires separate evidence. ISR–DRP1 overlap is mechanistically plausible but indirect.
+    / *Certainty:*: 0.68
+
+=== Kasimir, Prusty et al.\ 2022 --- Tissue-Specific HHV-6 Signature in ME/CFS Brain
+
+    @Kasimir2022HHV6Tissue
+
+    / *Full Citation:*: Kasimir F, Toomey D, Liu Z, Kaiping AC, Ariza ME, Prusty BK. "Tissue specific signature of HHV-6 infection in ME/CFS." _Frontiers in Molecular Biosciences_. 2022;9:1044964.
+    / *DOI:*: #link("https://doi.org/10.3389/fmolb.2022.1044964")[10.3389/fmolb.2022.1044964]
+    / *PMID:*: 36589231
+    / *PMCID:*: PMC9795011
+    / *Study Design:*: Post-mortem brain tissue; ME/CFS n=3 vs controls n=24; immunohistochemistry and viral RNA detection.
+    / *Key Findings:*:
+        - HHV-6 viral miRNA (miR-aU14) detected in choroid plexus, hippocampus, amygdala, and nerve roots exclusively in ME/CFS patients
+        - EBV dUTPase found in brain tissue of all 3 ME/CFS patients; absent in controls
+        - Active HHV-6 in ME/CFS CNS confirms viral reactivation and neuroinvasion hypothesis
+    / *Conclusion:*: HHV-6 reactivation with neuroinvasion confirmed in ME/CFS post-mortem CNS tissue. Supports viral trigger for ISR activation hypothesis in brain and nerve tissue.
+    / *Limitations:*: Extremely small n=3 ME/CFS; post-mortem tissue; no ISR/eIF2alpha measurements; pilot study requiring replication with larger cohort.
+    / *Certainty:*: 0.25
+
+=== Wang, Hwang et al.\ 2023 --- WASF3 Disrupts Mitochondrial Respiration via ER Stress/PERK in ME/CFS
+
+    / *Full Citation:*: Wang P-Y, Ma J, Kim Y-C, Son AY, Syed AM, Liu C, Mori MP, Huffstutler RD, Stolinski JL, Talagala SL, Kang J-G, Walitt BT, Nath A, Hwang PM. "WASF3 disrupts mitochondrial respiration and may mediate exercise intolerance in myalgic encephalomyelitis/chronic fatigue syndrome." _Proc Natl Acad Sci USA_. 2023;120(34):e2302738120.
+    / *DOI:*: #link("https://doi.org/10.1073/pnas.2302738120")[10.1073/pnas.2302738120]
+    / *PMID:*: 37579159
+    / *PMCID:*: PMC10450651
+    / *Study Design:*: Translational; skeletal muscle biopsies ME/CFS n=14 vs controls n=10--14; patient fibroblasts; transgenic mice (treadmill assay); proteomics.
+    / *Key Findings:*:
+        - WASF3 overexpressed in ME/CFS skeletal muscle, regulated by ER-resident BiP/GRP78
+        - PERK (ISR kinase — ER stress arm of eIF2alpha kinases) markers elevated in ME/CFS muscle: direct evidence of ISR activation in ME/CFS
+        - WASF3 disrupts Complex IV in mitochondrial respiratory supercomplexes, causing exercise intolerance
+        - WASF3 transgenic mice: markedly decreased treadmill running capacity
+        - Pharmacologic ER stress reduction partially restored mitochondrial function in patient cells
+    / *Conclusion:*: PERK-mediated ISR activation (ER stress branch) demonstrated in ME/CFS skeletal muscle. WASF3 links ER stress to mitochondrial respiratory failure and post-exertional malaise. Best current direct evidence of ISR activation in ME/CFS patients.
+    / *Limitations:*: Small n=14; single study; NIH inpatient cohort (may not represent broader ME/CFS population); PERK/ISR evidence is secondary to WASF3 focus; muscle biopsy only.
+    / *Certainty:*: 0.58
+
+=== Aloise, van Kuppeveld et al.\ 2023 --- SARS-CoV-2 Nucleocapsid N2b Suppresses PKR-ISR
+
+    @Aloise2023CoVPKR
+
+    / *Full Citation:*: Aloise C, Schipper JG, van Vliet A, Oymans J, Donselaar T, Hurdiss DL, de Groot RJ, van Kuppeveld FJM. "SARS-CoV-2 nucleocapsid protein inhibits the PKR-mediated integrated stress response through RNA-binding domain N2b." _PLoS Pathogens_. 2023;19(8):e1011582.
+    / *DOI:*: #link("https://doi.org/10.1371/journal.ppat.1011582")[10.1371/journal.ppat.1011582]
+    / *PMID:*: 37607209
+    / *PMCID:*: PMC10473545
+    / *Study Design:*: Molecular virology; cell-based ISR reporter assays; N protein domain dissection; dsRNA binding mutants.
+    / *Key Findings:*:
+        - SARS-CoV-2 N protein domain N2b blocks PKR-mediated ISR activation
+        - Mechanism: N2b sequesters dsRNA, preventing PKR and RIG-I-like receptor activation
+        - Abolishes stress granule formation and ISR-induced translational arrest
+        - Conserved across coronavirus species: fundamental viral immune evasion
+    / *Conclusion:*: SARS-CoV-2 actively suppresses the PKR-ISR antiviral stress response. If virus persists in long COVID tissues, ongoing N-protein-mediated ISR suppression may impair cellular homeostasis and alter antiviral defense capacity.
+    / *Limitations:*: Active infection model; long COVID viral persistence mechanism requires separate study; cell-based only; no clinical long COVID data.
+    / *Certainty:*: 0.62
+
+=== Christ, Klingström, Tynell 2023 --- SARS-CoV-2 Variant-Specific PKR-ISR Differences
+
+    @Christ2023CoVISRVariants
+
+    / *Full Citation:*: Christ W, Klingström J, Tynell J. "SARS-CoV-2 variant-specific differences in inhibiting the effects of the PKR-activated integrated stress response." _Virus Research_. 2023;339:199271.
+    / *DOI:*: #link("https://doi.org/10.1016/j.virusres.2023.199271")[10.1016/j.virusres.2023.199271]
+    / *PMID:*: 37979658
+    / *PMCID:*: PMC10716588
+    / *Study Design:*: Comparative infection study; ancestral, Delta, Omicron SARS-CoV-2; ISR reporter assays; stress granule quantification; eIF2alpha phosphorylation measurement.
+    / *Key Findings:*:
+        - All SARS-CoV-2 variants activate PKR-mediated eIF2alpha phosphorylation
+        - Delta: weaker PKR activation and eIF2alpha phosphorylation than ancestral
+        - Omicron: ~60% of infected cells form stress granules vs ~5% for ancestral/Delta
+        - Omicron nucleocapsid less efficient at suppressing ISR than earlier variants
+    / *Conclusion:*: Variant-specific ISR manipulation differences may contribute to different clinical and long COVID profiles across pandemic waves. Omicron's reduced ISR suppression correlates with different acute severity and possibly different long COVID patterns.
+    / *Limitations:*: Cell-based only; no direct long COVID patient data; mechanism-to-symptom extrapolation requires clinical studies.
+    / *Certainty:*: 0.55
+
+=== Baron, Wiseman et al.\ 2025 --- ISR Kinase Activation Prevents Mitochondrial Fragmentation
+
+    @Baron2025ISRMitochondria
+
+    / *Full Citation:*: Baron KR, Oviedo S, Krasny S, Zaman M, Aldakhlallah R, Bora P, Mathur P, Pfeffer G, Bollong MJ, Shutt TE, Grotjahn DA, Wiseman RL. "Pharmacologic activation of integrated stress response kinases inhibits pathologic mitochondrial fragmentation." _eLife_. 2025;13:RP100541.
+    / *DOI:*: #link("https://doi.org/10.7554/eLife.100541")[10.7554/eLife.100541]
+    / *PMID:*: 39937095
+    / *PMCID:*: PMC11820110
+    / *Study Design:*: Small-molecule screen; cell-based ISR kinase activation assays (HRI, GCN2); mitochondrial morphology quantification by electron microscopy; MFN2-D414V patient fibroblasts.
+    / *Key Findings:*:
+        - HRI and GCN2 activation promotes adaptive mitochondrial elongation; prevents DRP1-mediated fragmentation
+        - Effects blocked by ISRIB (confirming ISR pathway specificity)
+        - Rescues mitochondrial morphology in MFN2-D414V patient fibroblasts (CMT2A/ataxia)
+        - ISR kinase activation is *protective* against mitochondrial fragmentation in disease context
+    / *Conclusion:*: Selective pharmacologic ISR kinase activation (HRI/GCN2) prevents mitochondrial fragmentation. Directly relevant to ME/CFS: DRP1-mediated fragmentation is the same mechanism as Prusty/HHV-6 model. ISR kinase activation might counteract ME/CFS mitochondrial pathology. Caution: ISRIB (ISR suppressor) would oppose this protective axis.
+    / *Limitations:*: No ME/CFS experiments; cell lines and single disease fibroblast model; unclear which ISR branch is most relevant to ME/CFS mitochondrial pathology.
+    / *Certainty:*: 0.65
+
+=== Cuoco, Wiseman et al.\ 2025 --- Pharmacological RIG-I Targeting Selectively Activates ISR via HRI
+
+    @Cuoco2025RIGISR
+
+    / *Full Citation:*: Cuoco CA, Ren W, Baron KR, et al. "Pharmacological targeting of RIG-I can selectively activate the integrated stress response." _Science Advances_. 2025;11(44):eadt3014.
+    / *DOI:*: #link("https://doi.org/10.1126/sciadv.adt3014")[10.1126/sciadv.adt3014]
+    / *PMID:*: 41160678
+    / *PMCID:*: PMC12571054
+    / *Study Design:*: Chemical biology; compound A8 characterization; RIG-I binding assays; ISR reporter with HRI-depleted cell controls.
+    / *Key Findings:*:
+        - Compound A8 binds RIG-I → activates ISR through HRI kinase, independent of interferon response
+        - Active metabolite CC81 achieves selective ISR activation without lipid-metabolism off-targets
+        - Establishes RIG-I--HRI--eIF2alpha as a new, pharmacologically accessible ISR activation route
+    / *Conclusion:*: Cytosolic innate immune receptor RIG-I can route to ISR activation via HRI, independent of interferon. In post-viral conditions with dsRNA persistence (long COVID, ME/CFS viral reactivation), RIG-I--HRI chronically activated ISR is plausible. Provides pharmacological tool for selective ISR induction.
+    / *Limitations:*: No ME/CFS or long COVID data; cell-based mechanistic; clinical relevance to post-viral fatigue requires future investigation.
+    / *Certainty:*: 0.60
+
+=== Omdal et al.\ 2026 --- Long COVID Fatigue NOT Associated with Peripheral Cellular Stress Biomarkers [NULL RESULT]
+
+    @Omdal2026LCFatigueStress
+
+    / *Full Citation:*: Omdal R, et al. "Persistent fatigue in long-COVID is not associated with peripheral inflammatory or cellular stress biomarkers: a cross-sectional controlled study." _Brain, Behavior, & Immunity -- Health_. 2026.
+    / *DOI:*: #link("https://www.sciencedirect.com/science/article/pii/S2666354626000591")[S2666354626000591] (full DOI not verified; 403 error on direct fetch)
+    / *Study Design:*: Cross-sectional controlled study; n=48 long COVID, n=48 age/sex-matched recovered controls (Stavanger University Hospital).
+    / *Key Findings:*:
+        - No significant differences in HSP90alpha, Serpin F1/PEDF, Hemopexin, APOA4 between groups
+        - No significant differences in CRP, TNF-alpha, IL-6, IL-1beta
+        - Multivariable regression: no biomarker associated with fatigue severity
+        - Note: eIF2alpha, ATF4, and ISR-specific markers were NOT measured in this study
+    / *Conclusion:*: Peripheral blood heat shock protein and inflammatory markers do not track fatigue severity in long COVID. ISR/cellular stress signatures, if present, are likely tissue-specific (CNS, muscle) rather than circulating. Important negative control for peripheral ISR biomarker approaches.
+    / *Limitations:*: Heat shock proteins measured, not direct ISR markers (eIF2alpha/ATF4 not measured); n=48; single center; full author list not available from source; full DOI not confirmed.
+    / *Certainty:*: 0.55
+
+=== Le, Back et al.\ 2025 --- eIF2alpha--ATF4 Axis Protects Mitochondria During ER Stress
+
+    @Le2025ATF4Mitochondria
+
+    / *Full Citation:*: Le HT, Yu J, Ahn HS, Kim M-J, Chae IG, Cho H-N, Kim J, Park H-K, Kwon HN, Chae H-J, Kang BH, Seo JK, Kim K, Back SH. "eIF2alpha phosphorylation-ATF4 axis-mediated transcriptional reprogramming mitigates mitochondrial impairment during ER stress." _Molecules and Cells_. 2025;100176.
+    / *DOI:*: #link("https://doi.org/10.1016/j.mocell.2024.100176")[10.1016/j.mocell.2024.100176]
+    / *PMID:*: 39756584
+    / *Study Design:*: Cell-based; eIF2alpha phosphorylation-null mutants; ATF4 overexpression rescue; mitochondrial dynamics, bioenergetics, and mtDNA replication assays.
+    / *Key Findings:*:
+        - eIF2alpha phosphorylation--ATF4 axis required for transcription factors maintaining mitochondrial health under ER stress
+        - Cells without eIF2alpha phosphorylation: dysregulated mitochondrial dynamics, reduced energy, impaired mtDNA replication
+        - ATF4 overexpression rescues all mitochondrial defects
+    / *Conclusion:*: The eIF2alpha--ATF4 axis is protective for mitochondria during acute ER stress. In ME/CFS with persistent ER stress (Wang 2023: WASF3/PERK elevated), this axis may be chronically engaged as a protective mechanism that eventually becomes maladaptive (cf. Götz 2025: chronic ATF4 activation reduces lifespan).
+    / *Limitations:*: Cell-based only; no clinical data; no ME/CFS experiments; mechanism extrapolation required.
+    / *Certainty:*: 0.53
+
+=== Costa-Mattioli & Walter 2020 --- The Integrated Stress Response: From Mechanism to Disease [REVIEW]
+
+    @CostaMattioli2020ISRReview
+
+    / *Full Citation:*: Costa-Mattioli M, Walter P. "The integrated stress response: From mechanism to disease." _Science_. 2020;368(6489):eaat5314.
+    / *DOI:*: #link("https://doi.org/10.1126/science.aat5314")[10.1126/science.aat5314]
+    / *PMID:*: 32327570
+    / *Study Design:*: Authoritative comprehensive review.
+    / *Key Findings:*:
+        - Four eIF2alpha kinases: PERK (ER stress), GCN2 (amino acid starvation), PKR (viral dsRNA), HRI (heme deficiency/mitochondrial stress)
+        - ATF4: master transcription factor induced by eIF2alpha phosphorylation via upstream open reading frames
+        - ISRIB: stabilizes eIF2B decamer, enhances GEF activity, suppresses ISR below threshold phosphorylation
+        - eIF2B activators (2BAct, DNL343): clinical-stage ISR suppressors for neurological disease
+        - Context-dependent: ISR inhibition beneficial in some neurodegeneration; activation beneficial in others
+    / *Conclusion:*: Essential background reference for ISR pathway. Establishes mechanistic framework for understanding ISR activation in ME/CFS (via PERK/WASF3 data) and ISR modulation as therapeutic strategy.
+    / *Limitations:*: Review; no primary ME/CFS data; some aspects (esp. ISRIB clinical translation) have evolved since 2020.
+    / *Certainty:*: 0.90
+
+=== Altintas & MacArthur 2024 --- GCN2 as Therapeutic Target in Age-Related Diseases [REVIEW]
+
+    @Altintas2024GCN2Review
+
+    / *Full Citation:*: Altintas O, MacArthur MR. "General control nonderepressible 2 (GCN2) as a therapeutic target in age-related diseases." _Frontiers in Aging_. 2024;5:1447370.
+    / *DOI:*: #link("https://doi.org/10.3389/fragi.2024.1447370")[10.3389/fragi.2024.1447370]
+    / *Study Design:*: Review.
+    / *Key Findings:*:
+        - GCN2 is an amino acid starvation sensor (deacylated tRNA activation) with roles in neurodegeneration, inflammation, and cancer
+        - Both GCN2 activation and inhibition are pursued therapeutically in different disease contexts
+        - "A properly functioning ISR maintains a delicate balance between health and disease"
+        - Context-dependent: GCN2 activation protective in some models, harmful in others
+    / *Conclusion:*: GCN2 therapeutic targeting requires disease-specific assessment. Simple "suppress GCN2 = beneficial" or "activate GCN2 = beneficial" framing is inadequate for complex chronic conditions including post-viral states. Background for ME/CFS ISR modulation discussion.
+    / *Limitations:*: Review; no ME/CFS data; Frontiers journal (lower impact than Science/Nature).
+    / *Certainty:*: 0.60
