@@ -1194,3 +1194,25 @@ A 2024 randomized pilot in Long COVID (Verbanck et al.) documented HRV improveme
 #practical-warning(title: [taVNS: Pre-Trial Safety Screening Required])[
   taVNS is contraindicated in patients with implanted cardiac devices (pacemaker, ICD) due to potential electromagnetic interference. Patients with active skin lesions or hypersensitivity of the auricular region should not use ear-clip devices. In ME/CFS, post-stimulation fatigue has been anecdotally reported at higher intensities or durations; begin at minimum effective intensity and no more than 15 minutes per session, with rest monitoring for 24 hours before extending. Do not increase duration during or following PEM.
 ]
+
+== Thermal Interventions and the HSAT2 Caution
+
+Some ME/CFS patients report subjective benefit from gentle heat exposure (warm baths, low-temperature infrared sauna). However, a mechanistic concern arises from the proposed exosomal HSAT2 hypothesis @spec:hsat2-pem-amplification: heat-shock factor 1 (HSF1) — the master stress-response transcription factor activated by thermal stress — is a known inducer of HSAT2 pericentromeric repeat transcription. If HSAT2 exosomal release contributes to ME/CFS immunosuppression and PEM amplification, then heat-stress interventions could plausibly worsen the underlying loop in HSAT2-high patients.
+
+This concern is speculative — no ME/CFS heat-exposure data exists for exosomal HSAT2 — but it illustrates a broader principle: interventions that activate cellular stress responses may have unintended downstream effects on the epigenetic and exosomal axis.
+
+#speculation(title: [Thermal Stress May Amplify Exosomal HSAT2 in Susceptible ME/CFS Patients])[
+
+
+*(Certainty: 0.25 — mechanistic inference from HSF1-HSAT2 biology; no direct ME/CFS heat exposure data.)*
+
+HSAT2 pericentromeric repeat transcription is Pol II-dependent and strongly upregulated by HSF1, the heat-shock transcription factor activated by thermal and oxidative stress @Evdokimova2019HSAT2exosome. In the proposed exosomal loop model, any trigger that activates HSF1 could transiently increase HSAT2 EV release and re-inoculate circulating myeloid cells with immunosuppressive cargo.
+
+Popular thermal interventions in chronic fatigue and post-viral illness (infrared sauna, hot baths, thermotherapy) produce documented elevations in HSF1 activity and heat-shock protein expression. If a patient is in the "HSAT2-high" subgroup — with an active exosomal loop — thermal stress could amplify the loop rather than provide the perceived benefits (muscle relaxation, vasodilation).
+
+*Falsifiable prediction:* In HSAT2-high patients (upper tercile by plasma EV assay), a standardised infrared sauna session (15 min, 55°C) will produce a measurable rise in plasma exosomal HSAT2 at 6–24 h post-exposure. In HSAT2-low patients, no rise will occur. Adverse symptomatic response (next-day fatigue increase) will correlate with the HSAT2 rise.
+
+*Clinical implication:* Until HSAT2 stratification testing is available, thermal interventions should be used cautiously and below temperatures that produce clinically apparent heat-shock responses (skin flushing, marked sweating). Any patient who consistently reports next-day fatigue after sauna or hot-bath use should be considered a potential HSAT2-responder and may benefit from avoidance.
+
+*Limitations:* Entirely speculative; no ME/CFS data for HSAT2 EV changes after heat exposure. Many patients benefit from warm (not hot) baths without apparent adverse effect; the threshold temperature and duration for HSF1 induction may be well above what most patients use. Not replicated.
+] <spec:heat-hsat2-caution>

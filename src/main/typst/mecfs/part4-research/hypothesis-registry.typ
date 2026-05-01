@@ -4605,3 +4605,131 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-isr>
 ] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [Exosomal HSAT2/HERV-K RNA as a Self-Perpetuating MDSC Expansion Mechanism],
+    [S], [0.25],
+    [HSAT2 and HERV-K RNA detectable in ME/CFS plasma EVs at higher levels than healthy controls; correlate inversely with NK cytotoxicity and directly with MDSC frequency (CD33+HLA-DR− cells).],
+    [Plasma EV RNA-seq or ddPCR for HSAT2/HERV-Kenv in ME/CFS cohort vs controls. Flow cytometry: CD33+HLA-DR− MDSCs, CD8+PD-1+ exhausted T-cells. NK cytotoxicity assay (K562 targets) in same donors.],
+    [Ch.7 @spec:hsat2-exosome-mdsc],
+
+    [Exosomal Pericentromeric RNA as a Self-Perpetuating Immune Suppression Loop in ME/CFS],
+    [S], [0.25],
+    [EV depletion (plasmapheresis or EV capture) transiently reduces MDSC expansion and T-cell exhaustion signals. EV HSAT2 levels correlate with NK cytotoxicity deficits across patients.],
+    [In vitro: healthy donor PBMCs + ME/CFS plasma EVs vs control EVs; MDSC and T-cell exhaustion phenotyping. Clinical: plasmapheresis pilot (n=5--10) with pre/post NK cytotoxicity + MDSC flow cytometry.],
+    [Ch.14a @sec:herv-exosome-loop],
+
+  ),
+  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression --- 2 speculations across ch07, ch14a. Motivated by @Evdokimova2019HSAT2exosome, @Nogalski2019HSATII, @Shadle2019HSATII.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-hsat2>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [HSAT2 Exosomal Loop as Molecular Substrate of Post-Viral Immune Memory in ME/CFS],
+    [S], [0.45],
+    [Plasma EVs from post-infectious ME/CFS (within 2 yrs onset) contain HSAT2/HERV-K at ≥ 2× control levels AND induce CD33+HLA-DR− phenotype in healthy donor PBMCs ex vivo.],
+    [Plasma EV RNA-seq or ddPCR (HSAT2, HERV-K env). Functional PBMC induction assay using patient EVs. Stratify by onset trigger and disease duration.],
+    [Ch.14a @spec:hsat2-postviral-memory],
+
+    [PEM as Transient Amplification of Exosomal HSAT2 Release via Exertional Stress],
+    [S], [0.30],
+    [Plasma exosomal HSAT2 rises significantly at 12–48 h post-CPET in ME/CFS but not controls; AUC correlates with PEM severity rating.],
+    [Serial plasma sampling at 0/12/24/48/72 h post-CPET. EV isolation + HSAT2 ddPCR. Within-subject paired test. PEM diary.],
+    [Ch.14a @spec:hsat2-pem-amplification],
+
+    [Exosomal HSAT2 as Non-Cell-Autonomous Centromere-Stress Signal in ME/CFS Stromal Tissues],
+    [S], [0.30],
+    [Primary skin/muscle fibroblasts from ME/CFS patients (passage 3) show elevated CENPA and NDC80 transcripts; elevation partially reverses with AZT 1 µM × 72 h.],
+    [Primary fibroblast culture from biopsies. qRT-PCR for CENPA, NDC80, PLK1. AZT treatment arm. Compare passage-3 patient vs. control.],
+    [Ch.14a @spec:hsat2-centromere-stress],
+
+    [MDSC Expansion via Exosomal HSAT2 as Upstream Cause of NK Cytotoxicity Loss],
+    [S], [0.50],
+    [MDSC frequency (CD33+HLA-DR−) correlates inversely with NK cytotoxicity (Spearman ρ < −0.4). CD33+ depletion of patient PBMCs restores NK killing ≥ 20%.],
+    [Multi-parameter flow cytometry. NK K562 cytotoxicity assay ± anti-CD33 microbead depletion. Cross-sectional ME/CFS cohort (n ≥ 50).],
+    [Ch.7 @spec:mdsc-nk-bridge],
+
+    [CD8+ T-cell Exhaustion as Downstream Consequence of EV Cargo Rather than Antigen-Driven],
+    [S], [0.40],
+    [EV depletion from patient plasma abolishes or reduces PD-1 induction in healthy CD8+ T-cells vs. unfiltered plasma. Plasma EV HSAT2 correlates with CD8+ PD-1 expression longitudinally.],
+    [EV depletion by SEC filtration. Incubate healthy CD8+ T-cells with filtered vs. unfiltered patient plasma. PD-1 flow cytometry. Longitudinal sampling (≥ 6 timepoints).],
+    [Ch.7 @spec:tcell-exhaust-ev-downstream],
+
+    [Thermal Stress May Amplify Exosomal HSAT2 in Susceptible ME/CFS Patients],
+    [S], [0.25],
+    [HSAT2-high patients show measurable plasma exosomal HSAT2 rise at 6–24 h post-sauna session (15 min, 55°C); HSAT2-low patients do not.],
+    [Standardised sauna exposure. Pre/post plasma EV HSAT2 ddPCR. Symptom diary (next-day fatigue). Stratified by HSAT2 baseline tercile.],
+    [Ch.17 @spec:heat-hsat2-caution],
+
+    [NRTI Repurposing for HSAT2 Loop Interruption in ME/CFS],
+    [OQ], [---],
+    [TDF 245 mg/day × 12 weeks reduces plasma exosomal HSAT2 and HERV-K env RNA ≥ 50% in ≥ 60% of HSAT2-high patients; clinical fatigue improvement correlates with HERV-K reduction.],
+    [Open-label pilot (n=20, HSAT2-high stratified). Plasma EV HSAT2/HERV-K ddPCR. NK cytotoxicity. FUNCAP. Renal monitoring. HBV pre-screening required.],
+    [Ch.18 @oq:nrti-hsat2],
+
+    [Methyl-Donor Support as Epigenetic Re-Silencing of HSAT2 in ME/CFS],
+    [S], [0.40],
+    [ME/CFS patients with low SAMe/SAH ratio show higher exosomal HSAT2. 12 weeks methylcobalamin + methylfolate + SAMe reduces both HSAT2 and SAMe/SAH with correlated effect sizes.],
+    [SAMe/SAH plasma ratio. HSAT2 EV ddPCR at baseline and 12 weeks. Randomised vs. placebo in patients with documented methyl-donor depletion.],
+    [Ch.16 @spec:methyl-donor-hsat2],
+
+    [NAC as Indirect Suppressor of Exosomal HSAT2 via Oxidative-Stress Reduction],
+    [S], [0.25],
+    [NAC 1.8 g/day × 12 weeks reduces plasma 8-OHdG AND exosomal HSAT2 with correlated effect sizes.],
+    [Plasma 8-OHdG ELISA + EV HSAT2 ddPCR. Pre/post design or RCT. Correlation analysis.],
+    [Ch.16 @spec:nac-hsat2],
+
+    [Plasma Exosomal HSAT2 + HERV-K Panel as a Patient Stratification Biomarker],
+    [S], [0.40],
+    [Two-marker panel (HSAT2 + HERV-K env) distinguishes a ME/CFS subgroup from healthy controls with AUROC > 0.75 in n ≥ 100 cohort.],
+    [Plasma EV isolation by SEC. qRT-PCR or ddPCR for HSAT2 and HERV-K env. HERV-W as negative control. Large cohort validation.],
+    [Ch.20 @spec:hsat2-biomarker-panel],
+
+    [CD33+HLA-DR− MDSC Frequency as Functional Readout of the HSAT2 Loop],
+    [S], [0.50],
+    [MDSC frequency elevated > 1.5× in ≥ 30% of ME/CFS patients vs. controls; correlates inversely with NK cytotoxicity (ρ < −0.4).],
+    [Flow cytometry: CD33+HLA-DR− gating. NK K562 cytotoxicity. Cross-sectional cohort (n ≥ 80). Assess HSAT2 RNA in CD33+ cells by PrimeFlow assay.],
+    [Ch.20 @spec:mdsc-biomarker],
+
+    [Does Plasma Exosomal HSAT2 Track Clinical State Longitudinally?],
+    [OQ], [---],
+    [Exosomal HSAT2 rises at 24–48 h post-CPET in ME/CFS (state marker) OR remains chronically elevated regardless of symptom fluctuation (trait marker). Distinguishing these informs study design.],
+    [Serial CPET sampling (0/24/48/72 h) + resting monthly sampling × 6 months. Compare within-subject variability (state) vs. between-visit stability (trait).],
+    [Ch.20 @oq:hsat2-longitudinal],
+
+    [Shared Exosomal HSAT2/HERV-K Signature in Long COVID and ME/CFS],
+    [S], [0.30],
+    [Long COVID patients with persistent fatigue at ≥ 6 months show higher exosomal HSAT2 than recovered post-COVID controls; 3-month HSAT2 predicts 12-month persistence vs. recovery (AUROC > 0.70).],
+    [Prospective Long COVID cohort. Plasma EV HSAT2/HERV-K at 3, 6, 12 months. Recovery vs. persistence classification. Parallel ME/CFS arm.],
+    [Ch.14d @spec:hsat2-long-covid-bridge],
+
+    [HSAT2 Exosomal Loop as Accelerated Inflammaging in ME/CFS],
+    [S], [0.30],
+    [ME/CFS patients show GrimAge acceleration correlating with plasma HSAT2 EV content. Fisetin 100 mg × 2 days/week × 12 weeks reduces plasma HSAT2 and improves NK cytotoxicity in patients aged > 50.],
+    [GrimAge clock from blood DNA. Plasma HSAT2 EV ddPCR. Correlation analysis. Fisetin pilot (n=20, age > 50).],
+    [Ch.13 @spec:hsat2-inflammaging],
+
+  ),
+  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression Phase 4 integrations --- 11 speculations, 2 open questions across ch07, ch13, ch14a, ch14d, ch16, ch17, ch18, ch20. Motivated by @Evdokimova2019HSAT2exosome, @Nogalski2019HSATII, @Shadle2019HSATII, @Ninomiya2023HSATII.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-01-hsat2-phase4>
+] // end landscape page

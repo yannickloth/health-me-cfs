@@ -518,6 +518,19 @@ NAC is one of the most versatile and evidence-supported supplements relevant to 
 *Energy Profile.*
 Category A–B (provider to neutral). Glutathione precursor that reduces oxidative stress, indirectly conserving cellular energy otherwise spent on damage repair. The conversion of NAC to glutathione requires minimal ATP (two enzymatic steps). By reducing oxidative damage to mitochondrial membranes and enzymes, NAC helps preserve energy production efficiency.
 
+*Additional mechanistic rationale — HSAT2 pathway.* Oxidative stress activates HSF1, the heat-shock transcription factor that drives pericentromeric HSAT2 repeat RNA transcription @Evdokimova2019HSAT2exosome. HSAT2 packaged into exosomes is a candidate driver of MDSC expansion and NK cytotoxicity suppression in ME/CFS @spec:hsat2-exosome-mdsc. By reducing ROS-mediated HSF1 induction, NAC may limit HSAT2 transcriptional induction and reduce the EV immunosuppressive cargo burden. This mechanistic link is speculative and untested in ME/CFS; it provides additional biological rationale for NAC beyond direct glutathione repletion.
+
+#speculation(title: [NAC as an Indirect Suppressor of Exosomal HSAT2 via Oxidative-Stress Reduction])[
+
+
+*(Certainty: 0.25 — two-step mechanistic inference: NAC → ROS reduction → HSF1 suppression → reduced HSAT2 transcription; no direct evidence.)*
+
+NAC reduces cellular reactive oxygen species through glutathione repletion. Oxidative stress activates HSF1, which in turn induces HSAT2 pericentromeric repeat transcription in stressed cells. If ME/CFS patients have chronic low-level oxidative stress — a well-documented feature @maes2012oxidative — NAC could attenuate the oxidative trigger for HSAT2 transcription.
+
+*Falsifiable prediction:* In ME/CFS patients on NAC 1.8 g/day for 12 weeks, plasma 8-OHdG (oxidative stress marker) and exosomal HSAT2 content should both decrease, with correlated effect sizes. If 8-OHdG falls but HSAT2 does not, the NAC-HSAT2 pathway is not operative.
+
+*Limitations:* Indirect chain of inference; each link is individually plausible but the combined pathway is unvalidated. HSF1 has many activators beyond ROS; NAC suppression may be insufficient to meaningfully reduce HSAT2 transcription. Not replicated.
+] <spec:nac-hsat2>
 === Alpha-Lipoic Acid (ALA)
 
 *Rationale.* ALA is both water- and fat-soluble, allowing it to work in all cellular compartments. Regenerates other antioxidants (vitamins C and E, glutathione). Supports mitochondrial function.
@@ -707,6 +720,23 @@ suggesting that subgroup stratification (e.g., by MTHFR genotype, baseline CSF h
 is needed before this approach can be recommended broadly.
 ] <warn:b12-evidence-quality>
 
+#speculation(title: [Methyl-Donor Support as Epigenetic Re-Silencing of HSAT2 in ME/CFS])[
+
+
+*(Certainty: 0.40 — two independently supported steps: methylation depletion → HSAT2 derepression, and HSAT2 → immune suppression; no direct ME/CFS HSAT2 methylation data.)*
+
+Pericentromeric satellite repeats including HSAT2 are epigenetically silenced in healthy somatic cells primarily through CpG methylation @Shadle2019HSATII. Hypomethylation — caused by methyl-donor depletion (low SAMe/SAH ratio, B12 deficiency, MTHFR variants), viral epigenetic disruption, or inflammatory methylation erosion — permits HSAT2 derepression. ME/CFS shows widespread DNA methylation alterations in peripheral blood (multiple cohort studies), including hypomethylation of repeat-proximal loci. If pericentromeric loci are among the hypomethylated regions, HSAT2 could be chronically derepressed without active viral infection.
+
+Methyl-donor supplementation (methylcobalamin, methylfolate, SAMe, choline, betaine) restores the SAM pool required for DNMT-mediated re-methylation of CpG islands. In patients with documented methyl-donor depletion (low SAMe/SAH, elevated homocysteine, MTHFR variants), targeted supplementation could in principle re-silence HSAT2 loci and reduce the exosomal immunosuppressive burden.
+
+This provides a second, epigenetically-grounded rationale for B12/folate supplementation in ME/CFS beyond the neurological and metabolic justifications already described.
+
+*Falsifiable prediction:* ME/CFS patients with low SAMe/SAH ratio will show higher exosomal HSAT2 than patients with normal methylation status. Twelve weeks of combined methylcobalamin (1 mg/day sublingual) + methylfolate (1 mg/day) + SAMe (400 mg/day) will reduce exosomal HSAT2 content and improve SAMe/SAH ratio with correlated effect sizes. If HSAT2 is unchanged despite SAMe/SAH normalization, methylation-dependent re-silencing is not operative for these loci.
+
+*Limitations:* HSAT2 methylation at pericentromeric loci has not been measured in ME/CFS. DNA methyltransferase access to condensed pericentromeric heterochromatin may differ from euchromatic loci. SAMe supplementation has a complex pharmacology (oral bioavailability ~5%; form stability varies). Not replicated. This rationale is complementary to — not a replacement for — the neurological/metabolic rationale for B12/folate, which has independent evidence.
+
+*Mechanistic caveat:* Pericentromeric heterochromatin silencing is primarily mediated by histone H3K9 trimethylation (via SUV39H1/2 and SETDB1), not solely by DNA CpG methylation. DNA methylation is a secondary stabiliser of silencing that acts downstream of H3K9me3 establishment. Methyl-donor supplementation increases SAM availability for DNMT enzymes but does not directly restore H3K9me3 marks at pericentromeric loci. Re-silencing of de-repressed HSAT2 via the methyl-donor pathway is therefore mechanistically indirect, requiring H3K9me3 to be re-established before DNA methylation can lock in the silenced state. Targeted H3K9me3 restoration (via SUV39H1/SETDB1 modulators) would be a more mechanistically aligned strategy, but no clinical-stage candidates exist.
+] <spec:methyl-donor-hsat2>
 == Vitamin D
 <sec:vitamin-d>
 

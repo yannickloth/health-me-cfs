@@ -55,6 +55,26 @@ Impaired NK cell function may contribute to ME/CFS through several mechanisms:
 
 These mechanisms may form a self-reinforcing cycle rather than a simple linear causal chain. In particular, the relationship between NK cell dysfunction and viral reactivation is bidirectional: impaired NK function permits viral reactivation, but chronic viral reactivation itself may further exhaust and dysregulate NK cells. Section @sec:herpesviruses examines three competing hypotheses for this relationship with their testable predictions. This bidirectional cycle represents one of several vicious cycles maintaining ME/CFS pathophysiology, discussed comprehensively in Section @sec:unifying-mechanisms of Chapter @ch:integrative-models.
 
+#speculation(title: [MDSC Expansion via Exosomal HSAT2 as the Upstream Cause of NK Cytotoxicity Loss])[
+
+
+*(Certainty: 0.50 — mechanistic fit to the most-replicated ME/CFS finding; all supporting evidence is from non-ME/CFS contexts.)*
+
+The NK cytotoxicity deficit (Hedges' g = 0.96; @Baraniuk2024NKmeta) is the most robustly replicated immunological abnormality in ME/CFS, yet its upstream cause remains unresolved. The deficit involves reduced perforin content @Maher2005, impaired degranulation despite intact target recognition, and dysregulated activating receptor expression @Brenu2011 @EatonFitch2019. No single upstream driver has been established.
+
+Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that exosomal HSAT2/HERV-K transmission to CD33+ myeloid cells induces the full MDSC programme — including arginase-1, IDO1, IL-10, IL-35, and TGFβ. MDSCs suppress NK cells through mechanisms that directly match the ME/CFS NK phenotype:
+
+    - Arginase-1 depletes arginine required for NK perforin synthesis (explaining the Maher 2005 perforin deficit @Maher2005)
+    - IDO1-driven tryptophan catabolism impairs NKG2D signalling (consistent with Brenu 2011 receptor abnormalities @Brenu2011)
+    - TGFβ directly suppresses NK degranulation and cytotoxic function
+    - IL-10 and IL-35 impair NK activation in a paracrine fashion
+
+This positions exosomal HSAT2-driven MDSC expansion as a candidate upstream explanation for the most replicated finding in ME/CFS — a single node reconciling perforin depletion, receptor dysregulation, and metabolic impairment. The chronicity follows from the self-perpetuating exosomal loop @spec:hsat2-exosome-mdsc: as long as HSAT2 EVs circulate, MDSC-mediated NK suppression is continuous.
+
+*Falsifiable prediction:* ME/CFS patients with the lowest NK cytotoxicity will have the highest peripheral CD33+HLA-DR− MDSC frequency (Spearman ρ < −0.4). Selective CD33+ depletion from patient PBMCs ex vivo will partially restore NK killing (≥ 20% recovery, K562 assay). If MDSC frequency does not correlate with NK cytotoxicity, the MDSC-bridge model is not supported.
+
+*Limitations:* No ME/CFS data on MDSC frequency. MDSC suppression of NK cells is established in cancer; characterisation in post-viral chronic disease is limited. The upstream exosomal HSAT2 mechanism is speculative in ME/CFS. Not replicated.
+] <spec:mdsc-nk-bridge>
 ==== TRPM3 Ion Channel Dysfunction
 <sec:trpm3-dysfunction>
 
@@ -262,6 +282,19 @@ Figures @fig:immune-normal and @fig:immune-mecfs illustrate the paradoxical im
 T cell exhaustion markers (PD-1, Tim-3, CTLA-4) in ME/CFS resemble those seen in chronic viral infections and cancer. However, the antigenic source driving this exhaustion has not been identified. The exhaustion profile is _consistent with_ chronic antigenic stimulation but does not establish what the antigen is (persistent virus, autoantigen, or metabolic danger signal). Without identifying the driver, the therapeutic implication that checkpoint inhibitors might help remains speculative and carries substantial autoimmune risk.
 ]
 
+#speculation(title: [CD8+ T-cell Exhaustion as a Downstream Consequence of Exosomal EV Cargo Rather than Antigen-Driven])[
+
+
+*(Certainty: 0.40 — alternative framing of well-established finding; mechanistic evidence from Ewing sarcoma, not ME/CFS.)*
+
+Standard accounts of T-cell exhaustion assume chronic antigenic stimulation as the upstream driver, but no consistent antigen has been identified in ME/CFS. An alternative mechanism emerges from Evdokimova et al.\ @Evdokimova2019HSAT2exosome: exosomal uptake of HSAT2/HERV-K RNA by CD8+ T-cells directly induces the exhaustion phenotype (CD8+CD25+PD-1+) independently of antigen presentation. This would reframe PD-1 upregulation and exhaustion in ME/CFS as a consequence of exosomal cargo programming rather than a marker of chronic antigen exposure.
+
+This matters therapeutically: if exhaustion is antigen-driven, the antigen must be eliminated to reverse it. If exhaustion is EV-cargo-driven, removing or blocking the offending EVs could restore T-cell function without requiring pathogen identification. Checkpoint inhibitors (anti-PD-1) would be expected to provide temporary symptomatic relief at best, with exhaustion returning as long as the exosomal loop persists.
+
+*Falsifiable prediction:* Plasma EV HSAT2 levels will correlate with CD8+ T-cell PD-1 expression longitudinally within individuals (within-subject r > 0.5 across ≥ 6 timepoints). EV depletion from patient plasma (size-exclusion filtration) before incubation with healthy CD8+ T-cells will abolish or reduce the PD-1 induction compared to unfiltered plasma. If PD-1 induction requires antigen-presenting cells rather than direct EV uptake, antigen-driven exhaustion remains more likely.
+
+*Limitations:* Evdokimova finding 4 was demonstrated in vitro with high EV concentrations from cancer cells; whether chronic low-level ME/CFS EVs produce the same phenotype is unknown. The antigen-driven and EV-cargo-driven models are not mutually exclusive — both could contribute. Not replicated in any chronic disease context.
+] <spec:tcell-exhaust-ev-downstream>
 Two recent single-cell transcriptomic studies strengthen the T cell exhaustion
 finding.  Mayer et al.\ (2025) constructed a scRNA-seq atlas of 336,269
 T lymphoid cells from 28 ME/CFS patients and 30 controls, demonstrating
@@ -2348,6 +2381,26 @@ Seifert et al.\ (2026) found altered extracellular vesicle (EV) cargo in post-CO
     + Hemoglobin contamination markers should be assessed; if the hemoglobin signal persists after contamination correction, it may reflect genuine erythrocyte or endothelial pathology
 ] <spec:ev-signaling-mecfs>
 
+#speculation(title: [Exosomal HSAT2/HERV-K RNA as a Self-Perpetuating MDSC Expansion Mechanism])[
+
+
+*(Certainty: 0.25 — mechanistic inference from Ewing sarcoma biology; no direct ME/CFS data.)*
+
+Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that exosomes from Ewing sarcoma cells enriched with HSAT2 and HERV-K RNA are taken up by CD33+ myeloid cells and CD8+ T-cells, inducing MDSC-like phenotypes (CD33+HLA-DR−, CD33+PD-1+, CD33+CD25+) and T-cell exhaustion (CD8+CD25+PD-1+) respectively. Critically, recipient cells become secondary transmitters — releasing their own HSAT2-containing EVs and propagating the immunosuppressive signal through at least three serial passages without ongoing tumour input.
+
+This mechanism is candidate-relevant to ME/CFS because:
+
+    + Herpesviruses (HSV-1, HCMV) induce HSAT2 expression via viral microRNAs @Nogalski2019HSATII; EBV and HHV-6 — the primary ME/CFS viral triggers — have not been tested but the pathway is plausible
+    + ME/CFS shows widespread DNA methylation alterations; if pericentromeric loci (chr2p11.2, 4p11) are hypomethylated, HSAT2 could be chronically expressed without active viral replication @Shadle2019HSATII
+    + The NK cell and T-cell exhaustion pattern in ME/CFS — reduced NK cytotoxicity @EatonFitch2019, elevated PD-1 on T-cells @iu2024tcell_exhaustion, impaired CD8 responses — is phenotypically consistent with exosomal MDSC-mediated suppression
+    + The paradox of simultaneous immune activation (interferon signatures, cytokines) and immune suppression (impaired NK killing, T-cell exhaustion) mirrors the Ewing sarcoma phenotype characterised in Evdokimova 2019
+
+The exosomal propagation loop would be self-sustaining: once established post-infection, it does not require continued viral presence. This provides a concrete mechanism for the loss of viral control in ME/CFS without identifying a single persisting pathogen.
+
+*Falsifiable prediction:* HSAT2 and HERV-K RNA should be detectable in plasma EVs from ME/CFS patients at higher levels than healthy controls; these levels should correlate inversely with NK cytotoxicity and directly with MDSC frequency. If EV HSAT2 levels are comparable to healthy controls, this mechanism is not operative.
+
+*Limitations:* All supporting evidence is from Ewing sarcoma (aggressive paediatric cancer), a context with far higher transcript levels than chronic infection. Whether the exosomal HSAT2 concentration in post-viral settings is sufficient to drive phenotypic changes comparable to the cancer data is unknown. Not yet replicated in any chronic disease or infection context. No ME/CFS data exist for HSAT2 EV content.
+] <spec:hsat2-exosome-mdsc>
 == Summary: Integrated Model of Immune Dysfunction
 <sec:immune-summary>
 

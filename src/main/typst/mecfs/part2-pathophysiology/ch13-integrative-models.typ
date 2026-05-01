@@ -1800,3 +1800,24 @@ If DecodeME PRS can stratify patients into mechanistically coherent subgroups, t
 The field stands at an inflection point. Decades of patient advocacy and recent high-profile cases (Long COVID) have increased research funding and clinical awareness. The biological basis of ME/CFS is now strongly supported by multiple independent lines of evidence @walitt2024deep @heng2025mecfs @Fluge2025daratumumab. The challenge is translating mechanistic insights into effective treatments accessible to all patients who need them.
 
  Chapter @ch:speculative-hypotheses extends this analysis to more speculative mechanisms that, while lacking direct evidence in ME/CFS, may provide insights into disease pathophysiology and suggest novel therapeutic approaches. Where this chapter focused on evidence-based integration, the next explores creative hypotheses that may inspire future research.
+
+#speculation(title: [HSAT2 Exosomal Loop as an Accelerated Inflammaging Process in ME/CFS])[
+
+
+*(Certainty: 0.30 — heterochromatin loss → repeat de-silencing is well-established in aging; application to ME/CFS is indirect.)*
+
+Heterochromatin loss with aging de-silences satellite repeats and HERVs — a process best documented for LINE-1 elements in senescent cells, but plausibly extending to pericentromeric repeats including HSAT2. The inflammatory consequences of repeat de-silencing in aging ("repeat-driven inflammaging") provide a conceptual framework for ME/CFS: viral infection could trigger an acute, high-velocity version of the same slow process that underlies age-associated immune dysfunction.
+
+Supporting features of the analogy:
+
+    - Aged individuals show increased HERV transcription in blood and brain tissue
+    - Senescent cells accumulate LINE-1 and HERV-K RNA via DNMT3B downregulation
+    - Senolytic drugs (dasatinib + quercetin, fisetin) that clear senescent cells also reduce repeat expression and inflammaging markers
+    - ME/CFS shows features of accelerated biological aging (epigenetic clock studies, shortened telomeres in some cohorts)
+
+If ME/CFS represents a "viral short-circuit" of inflammaging — triggering in days what normally takes decades — then senolytics (dasatinib + quercetin, fisetin) and methyl-donor support for pericentromeric re-silencing @spec:methyl-donor-hsat2 could have dual relevance for both ME/CFS and aging-associated immune dysfunction.
+
+*Falsifiable prediction:* ME/CFS patients will show biological age acceleration (GrimAge epigenetic clock divergence from chronological age) that correlates with plasma HSAT2 exosomal content. Patients who recover will show clock renormalization. Fisetin 100 mg/day × 2 days/week × 12 weeks in ME/CFS patients aged > 50 will reduce plasma HSAT2 and improve NK cytotoxicity markers.
+
+*Limitations:* Analogy between aging and acute post-viral ME/CFS is biologically imprecise. Senolytics are not established ME/CFS treatments. The inflammaging framework does not explain onset specificity (why viral trigger specifically) or post-infectious latency. Not replicated.
+] <spec:hsat2-inflammaging>

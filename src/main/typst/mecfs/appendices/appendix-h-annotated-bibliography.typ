@@ -11854,3 +11854,76 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Conclusion:*: GCN2 therapeutic targeting requires disease-specific assessment. Simple "suppress GCN2 = beneficial" or "activate GCN2 = beneficial" framing is inadequate for complex chronic conditions including post-viral states. Background for ME/CFS ISR modulation discussion.
     / *Limitations:*: Review; no ME/CFS data; Frontiers journal (lower impact than Science/Nature).
     / *Certainty:*: 0.60
+
+== HSAT2 / Pericentromeric Repeat RNA and Immune Dysregulation
+
+=== Evdokimova et al.\ 2019 --- Exosomal HSAT2/HERV-K RNAs Drive Immunosuppression [PREPRINT]
+
+    @Evdokimova2019HSAT2exosome
+
+    / *Full Citation:*: Evdokimova V, Ruzanov P, Gassmann H, et al. "Exosomes transmit retroelement RNAs to drive inflammation and immunosuppression in Ewing sarcoma." _bioRxiv_. 2019. doi:10.1101/806851.
+    / *DOI:*: #link("https://doi.org/10.1101/806851")[10.1101/806851]
+    / *Study Design:*: Plasma EV profiling (RNAseq + ddPCR) in 30 Ewing sarcoma patients (2 cohorts: TUM, EW) vs 38–49 age-matched healthy donors; in vitro EV transfer experiments with PBMCs, fibroblasts, myeloid progenitors; xenograft in vivo validation.
+    / *Key Findings:*:
+        - HSAT2 and HERV-K RNAs are selectively enriched in plasma EVs and elevated in patients with metastatic disease
+        - EVs taken up primarily by CD33+ myeloid cells (>10-fold enrichment vs healthy donors; p $<$ 0.0005)
+        - Recipient myeloid cells acquire MDSC-like phenotypes: CD33+HLA-DR−, CD33+PD-1+, CD33+CD25+
+        - CD8+ T-cells acquire exhaustion phenotype: CD8+CD25+PD-1+; expanded 1.3–1.5-fold
+        - Immunosuppressive mediators induced: IL-10, IL-35, IDO1, TGFβ
+        - Recipient fibroblasts (MRC5) upregulate centromere/kinetochore genes (CENPA/NDC80, PLK1/NEK2 modules) by up to 10-fold
+        - "Infected" fibroblasts become secondary transmitters, packaging and releasing HSAT2 in their own EVs; transmitted through ≥3 serial passages
+        - RT inhibitor AZT reduces HSAT2 accumulation ~1.6-fold, suggesting partial RT-dependent propagation
+        - Pol II inhibitor DRB strongly blocks HSAT2 accumulation
+    / *Conclusion:*: Pericentromeric (HSAT2) and retroelement (HERV-K, LINE-1) RNAs are selectively packaged into exosomes and transmitted cell-to-cell, inducing sustained immunosuppressive phenotypes that propagate autonomously. This represents a novel paracrine immune suppression mechanism with viral-infection-like spread properties.
+    / *ME/CFS Relevance:*: If viral triggers (EBV, HHV-6, SARS-CoV-2) induce HSAT2 expression — as demonstrated for HSV-1 @Nogalski2019HSATII and plausible via DNA methylation disruption @Shadle2019HSATII — the exosomal propagation mechanism could sustain MDSC expansion and T-cell exhaustion long after viral clearance. Provides a concrete mechanism for chronic self-perpetuating immune suppression without persistent viral replication.
+    / *Limitations:*: Preprint; not peer-reviewed; Ewing sarcoma cancer context; no infection model; no chronic disease data; small patient cohorts; exosomal HSAT2 not yet measured in ME/CFS blood.
+    / *Certainty:*: 0.55
+
+=== Nogalski & Shenk 2019 --- HSV-1 microRNAs Required for HSAT2 Induction
+
+    @Nogalski2019HSATII
+
+    / *Full Citation:*: Nogalski MT, Shenk T. "Herpes simplex virus 1-encoded microRNAs are not essential for viral replication in cultured cells and do not attenuate viral growth in vivo but are critical for HSATII transcript accumulation in infected cells." _Nature Communications_. 2019;10:205.
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-018-08028-2")[10.1038/s41467-018-08028-2]
+    / *PMID:*: 30626867
+    / *Study Design:*: HSV-1 microRNA deletion mutants in human fibroblasts; RNA-seq + Northern blot; HCMV comparison.
+    / *Key Findings:*:
+        - HSV-1 infection induces HSAT2 satellite repeat RNA expression in infected human fibroblasts
+        - Viral miRNAs miR-H3 and miR-H6 are required; their deletion abolishes HSAT2 accumulation
+        - HCMV also induces HSAT2; EBV and HHV-6 not tested
+    / *Conclusion:*: Herpesvirus-to-HSAT2 induction is mechanistically conserved across alpha- and betaherpesvirus subfamilies, mediated by viral microRNAs.
+    / *ME/CFS Relevance:*: Establishes the causal chain EBV/HHV-6 → HSAT2 induction (if conserved). Combined with Evdokimova 2019, this constitutes a complete trigger→propagation→immunosuppression pathway relevant to ME/CFS post-viral onset.
+    / *Limitations:*: Cell culture only (fibroblasts); EBV/HHV-6 not tested; no in vivo data.
+    / *Certainty:*: 0.78
+
+=== Shadle et al.\ 2019 --- HSAT2 Silenced by DNA Methylation; Derepressed in Disease
+
+    @Shadle2019HSATII
+
+    / *Full Citation:*: Shadle SC, et al. "HSATII satellite DNA expression is suppressed by DNA methylation in healthy tissues and activated in disease states." _Human Molecular Genetics_. 2019;28(20):3401–3416.
+    / *DOI:*: #link("https://doi.org/10.1093/hmg/ddz180")[10.1093/hmg/ddz180]
+    / *PMID:*: 31251301
+    / *Study Design:*: Bisulfite sequencing + RNA-seq across healthy vs disease tissues.
+    / *Key Findings:*:
+        - HSAT2 is epigenetically silenced by CpG methylation in healthy somatic cells
+        - Hypomethylation leads to HSAT2 derepression; expression correlates inversely with pericentromeric methylation
+    / *Conclusion:*: CpG methylation is a key epigenetic gate for HSAT2 as measured by bisulfite sequencing; hypomethylation at pericentromeric loci is sufficient for derepression. Note: H3K9 trimethylation (H3K9me3) is also a primary silencing mechanism for pericentromeric heterochromatin and acts upstream of DNA methylation — the two mechanisms are interdependent, with DNA methylation serving as a downstream stabiliser.
+    / *ME/CFS Relevance:*: ME/CFS shows widespread DNA methylation alterations. If pericentromeric loci are hypomethylated, HSAT2 could be chronically derepressed even without active viral infection.
+    / *Limitations:*: Healthy vs cancer comparison; no infection or chronic disease context.
+    / *Certainty:*: 0.75
+
+=== Ninomiya et al.\ 2023 --- HSAT2 Sequesters Splicing Factors into Nuclear Condensates
+
+    @Ninomiya2023HSATII
+
+    / *Full Citation:*: Ninomiya K, et al. "HSATII repeat RNA impairs splicing by sequestering splicing factors into nuclear condensates." _EMBO Journal_. 2023;42(15):e112026.
+    / *DOI:*: #link("https://doi.org/10.15252/embj.2022112026")[10.15252/embj.2022112026]
+    / *PMID:*: 37198823
+    / *Study Design:*: Cancer cell lines; RNA-seq; splicing factor localisation assays.
+    / *Key Findings:*:
+        - HSAT2 sequesters SRSF1, SRSF2, hnRNPs into nuclear condensates, impairing pre-mRNA splicing
+        - Widespread splicing errors result; nuclear condensate formation is RNA-dependent
+    / *Conclusion:*: HSAT2 expression produces a global splicing phenotype through molecular sequestration.
+    / *ME/CFS Relevance:*: Chronic HSAT2 expression could underlie the widespread transcriptomic alterations in ME/CFS blood studies, independent of DNA-level changes.
+    / *Limitations:*: Cancer cell lines; no immune cell or infection data.
+    / *Certainty:*: 0.70

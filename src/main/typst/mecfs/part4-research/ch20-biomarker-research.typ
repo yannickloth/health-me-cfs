@@ -876,3 +876,54 @@ _Interpretation:_ Ferritin $< 100$ ng/mL → consider iron repletion per @subsec
 #speculation(title: [Tiered Pre-Infection Screening for ME/CFS Risk in Neurodivergent Patients])[
   *Certainty: 0.30.* A tiered screening approach could identify neurodivergent patients at highest metabolic reserve risk before viral illness, enabling preventive intervention (iron repletion, BH4 support, perfusion optimization). Tier 1 is available and cheap; Tier 2 requires specialist access; Tier 3 is research-only. Individual tests are validated; the composite screening approach and the prediction that it would reduce post-infectious ME/CFS incidence is unvalidated. Not yet replicated.
 ] <spec:pre-infection-screening>
+
+== HSAT2 and HERV-K Exosomal Biomarkers
+<sec:hsat2-biomarker>
+
+The HSAT2/HERV-K exosomal hypothesis @spec:hsat2-exosome-mdsc @spec:hsat2-postviral-memory proposes a molecular mechanism for chronic ME/CFS immune suppression. If confirmed, it generates a specific set of measurable biomarkers that could stratify patients, guide treatment selection, and serve as pharmacodynamic endpoints in trials.
+
+#speculation(title: [Plasma Exosomal HSAT2 + HERV-K Panel as a Patient Stratification Biomarker])[
+
+
+*(Certainty: 0.65 for technical feasibility; 0.40 for clinical utility — the measurement is straightforward, the clinical relevance remains to be established.)*
+
+HSAT2 and HERV-K envelope RNA can be measured in plasma extracellular vesicles by qRT-PCR or ddPCR following size-exclusion chromatography EV isolation. Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated this in Ewing sarcoma plasma at cohort scale (n=49). The protocol is transferable to ME/CFS research cohorts using existing biobanked plasma.
+
+A two-marker panel (HSAT2 + HERV-K) with HERV-W as a negative-specificity control could:
+
+    - Identify a "HSAT2-high" subgroup (~hypothetical 30% of patients) with an active exosomal immunosuppressive loop
+    - Distinguish this subgroup from HSAT2-low patients who may have alternative immunopathology
+    - Correlate with MDSC frequency and NK cytotoxicity as functional validation
+    - Serve as a pharmacodynamic endpoint for NRTI @oq:nrti-hsat2 or methyl-donor @spec:methyl-donor-hsat2 interventions
+
+*Falsifiable prediction:* A two-marker panel (HSAT2 + HERV-K env) will distinguish a subgroup of ME/CFS patients from matched healthy controls with AUROC > 0.75 in n ≥ 100 cohort. If no subgroup is detectable above control levels, the exosomal loop mechanism is not operative in ME/CFS at clinically relevant concentrations.
+
+*Limitations:* All prediction values are extrapolated from cancer; the effect sizes in chronic post-viral settings may be far smaller. Standardisation of EV isolation and RNA quantification varies across laboratories; multi-site studies require harmonised protocols. Not replicated in any chronic disease context.
+] <spec:hsat2-biomarker-panel>
+#speculation(title: [CD33+HLA-DR− MDSC Frequency as a Functional Readout of the HSAT2 Loop])[
+
+
+*(Certainty: 0.50 — MDSC flow cytometry is established in oncology; the question is whether the HSAT2-loop mechanism is operative in ME/CFS.)*
+
+If the exosomal HSAT2 loop drives MDSC expansion in ME/CFS @spec:mdsc-nk-bridge, then CD33+HLA-DR− cell frequency in peripheral blood is a direct readout of the loop's activity. This cell population:
+
+    - Is routinely measurable by flow cytometry with standard panels
+    - Is already used as a biomarker in oncology immunotherapy monitoring
+    - Would be expected to correlate inversely with NK cytotoxicity — the most replicated ME/CFS finding
+    - Could serve as an eligibility criterion and pharmacodynamic endpoint for HSAT2-targeted interventions
+
+*Falsifiable prediction:* CD33+HLA-DR− MDSC frequency will be elevated > 1.5× in ≥ 30% of ME/CFS patients versus matched controls; MDSC frequency will correlate inversely with NK cytotoxicity in the same sample (Spearman ρ < −0.4). If MDSC frequency is normal in ME/CFS blood, the MDSC-bridge model is not operative.
+
+*Limitations:* MDSC quantification is technically sensitive to sample handling and gating strategy; pre-analytical standardisation is critical. Whether ME/CFS MDSCs carry HSAT2 RNA (as in Evdokimova's EwS) would need to be confirmed with PrimeFlow RNA assay.
+] <spec:mdsc-biomarker>
+#open-question(title: [Does Plasma Exosomal HSAT2 Level Track Clinical State Longitudinally?])[
+
+
+Is exosomal HSAT2 a *state* marker (rises with PEM, crashes; falls during stable periods) or a *trait* marker (chronically elevated regardless of symptom fluctuation)? The answer would determine whether HSAT2 measurement should be used at a fixed timepoint or longitudinally.
+
+If state marker: HSAT2 could serve as an objective PEM biomarker, complementing exercise proteomics @Germain2025plasma-proteome-exertion. Serial sampling around CPET (0 h, 24 h, 48 h, 72 h) would test the PEM amplification hypothesis @spec:hsat2-pem-amplification.
+
+If trait marker: HSAT2 would be most useful for patient stratification and subgrouping, not as a dynamic readout.
+
+Both scenarios are compatible with the exosomal loop model; the distinction has different implications for study design and clinical utility.
+] <oq:hsat2-longitudinal>

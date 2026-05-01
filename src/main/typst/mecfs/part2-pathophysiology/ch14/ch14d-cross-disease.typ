@@ -41,6 +41,26 @@ The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted ca
 *Clinical note:* ccf-mtDNA measurement is a research-only assay. Until head-to-head studies exist, clinicians should distinguish Long COVID from ME/CFS using established clinical criteria (symptom duration, PEM pattern, exclusion criteria); ccf-mtDNA adds nothing to current diagnostic practice.
 ] <spec:cfmtdna-distinguish>
 
+#speculation(title: [Shared Exosomal HSAT2/HERV-K Signature as a Convergent Mechanism in Long COVID and ME/CFS])[
+
+
+*(Certainty: 0.30 — both conditions are post-viral and share NK/T-cell phenotypes, but these are consistent with many post-infectious mechanisms, not uniquely predicted by HSAT2; HERV-K reactivation reports in Long COVID involve general transcriptional activation rather than the specific exosomal propagation loop; this is a downstream inference whose certainty cannot exceed the parent loop hypothesis at 0.25–0.45. Note: all mechanistic anchors ultimately trace to a single 2019 bioRxiv preprint in Ewing sarcoma cancer biology.)*
+
+Long COVID and ME/CFS share post-infectious onset, persistent immune activation despite viral clearance, NK cell dysfunction, and T-cell exhaustion — the same phenotypic triad predicted by the HSAT2 exosomal loop model @spec:hsat2-exosome-mdsc. Importantly, HERV-K reactivation has been partially reported in Long COVID (Giménez-Orenga et al., Balestrieri et al.), suggesting that SARS-CoV-2 infection triggers de-silencing of pericentromeric heterochromatin and HERVs, as proposed for other viral triggers in ME/CFS @Evdokimova2019HSAT2exosome @Nogalski2019HSATII.
+
+If the exosomal HSAT2/HERV-K propagation loop operates in both conditions:
+
+    - Long COVID and post-infectious ME/CFS should share an elevated plasma exosomal HSAT2/HERV-K signature, distinguishing them from recovered post-COVID controls
+    - The subgroup of Long COVID patients who progress to ME/CFS may be those whose exosomal loop failed to self-terminate
+    - Treatments targeting the loop (NRTIs, methyl-donor support, EV depletion) could have cross-condition efficacy
+    - Conversely, patients with recovered Long COVID may show spontaneous exosomal HSAT2 normalisation, providing a natural experiment
+
+This is the strongest cross-disease prediction of the HSAT2 hypothesis, because Long COVID provides a well-characterised post-infectious cohort where recovery vs. persistence can be studied prospectively.
+
+*Falsifiable prediction:* Long COVID patients with persistent fatigue and PEM at ≥ 6 months post-infection will show higher exosomal HSAT2 than matched recovered post-COVID individuals. Exosomal HSAT2 at the 3-month timepoint will predict persistence vs. recovery at 12 months (AUROC > 0.70). If recovered and persistent Long COVID show equivalent HSAT2, the loop does not explain the bifurcation.
+
+*Limitations:* HERV-K reactivation in Long COVID studies is based on limited data (small cohorts, heterogeneous methods). The progression from Long COVID to ME/CFS is not mechanistically characterised. Cross-condition inference assumes equivalent viral de-silencing mechanisms for SARS-CoV-2 and ME/CFS-triggering viruses. Not replicated.
+] <spec:hsat2-long-covid-bridge>
 *Post-Treatment Lyme Disease Syndrome.* Chronic symptoms after Lyme treatment:
 
     - Fatigue, cognitive dysfunction, pain

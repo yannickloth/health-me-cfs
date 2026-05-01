@@ -457,6 +457,38 @@ To validate and refine these protocols:
 
 The two-day CPET provides the objective outcome measure that has long been lacking in ME/CFS research, making these trials feasible and interpretable.
 
+== Antiretroviral Repurposing: Targeting HSAT2/HERV-K Reverse Transcriptase
+<sec:antiretroviral-hsat2>
+
+#open-question(title: [NRTI Repurposing for HSAT2 Loop Interruption in ME/CFS])[
+
+
+Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that AZT (zidovudine, an NRTI) reduces HSAT2 *accumulation* in EV-recipient fibroblasts by approximately 1.6-fold. This effect is attributed to inhibition of HERV-K reverse transcriptase activity (HERV-K elements co-packaged in EVs encode functional RT), which may facilitate HERV-K cDNA production or HSAT2 amplification in recipient cells via RT-dependent mechanisms. *Importantly, HSAT2 itself is transcribed by RNA polymerase II, not by reverse transcriptase — AZT cannot directly inhibit HSAT2 transcription.* The AZT effect on HSAT2 accumulation is therefore indirect, operating through HERV-K RT inhibition, with the mechanistic link between HERV-K RT activity and HSAT2 RNA levels uncharacterised.
+
+If the HSAT2 exosomal loop is operative in ME/CFS @spec:hsat2-exosome-mdsc, then NRTIs that inhibit HERV-K RT activity — tenofovir disoproxil fumarate (TDF), lamivudine, or newer agents (bictegravir) — could theoretically reduce the loop amplitude. AZT has a poor tolerability profile (haematological toxicity, mitochondrial off-target effects); TDF is better-tolerated and widely used in HIV PrEP populations. Small open-label NRTI trials in ME/CFS have been conducted (Lerner 2004, Montoya 2013 valganciclovir), but none have used biomarker-stratified designs targeting HSAT2/HERV-K.
+
+This is a *research-stage question*, not a treatment recommendation. Several obstacles make direct translation premature:
+    - AZT reduces HSAT2 by only 1.6×; TDF efficacy against HSAT2 is not yet tested
+    - HSAT2 in ME/CFS plasma EVs has not been measured — the target mechanism may not exist at relevant concentrations
+    - Mitochondrial off-target toxicity of NRTIs (particularly AZT and d4T) is relevant in ME/CFS given documented mitochondrial dysfunction
+    - No ME/CFS-specific NRTI trial has reported HERV-K or HSAT2 biomarker outcomes
+
+*Testable design:* Open-label pilot (n = 20, HSAT2-high by plasma EV assay), TDF 245 mg/day × 12 weeks. Primary endpoints: plasma exosomal HSAT2 content and HERV-K env RNA. Secondary: NK cytotoxicity, MDSC frequency, FUNCAP, fatigue NRS. Safety monitoring (detailed below).
+
+*Before any clinical use:* Measurement of HSAT2 in ME/CFS plasma EVs to confirm the target is present; mitochondrial toxicity profiling in ME/CFS cell lines; HBV status (see warnings below).
+
+#practical-warning(title: [TDF Safety --- Research Protocol Requirements])[
+*HBV reactivation on discontinuation:* TDF is virologically active against HBV. If a participant is HBsAg-positive or has occult HBV (anti-HBc positive / HBsAg negative), stopping TDF without continuation of an HBV-active regimen can trigger HBV reactivation leading to acute-on-chronic liver failure, occurring weeks to months post-discontinuation. HBsAg and anti-HBc must be tested pre-enrolment; HBsAg-positive patients require hepatology co-management throughout and after trial completion.
+
+*Renal tubular toxicity:* TDF causes proximal tubular dysfunction (Fanconi syndrome) that manifests as normoglycaemic glycosuria, hypophosphataemia, hypokalaemia, and aminoaciduria *before* serum creatinine rises. Monitoring serum creatinine alone is insufficient; require urine glucose, serum phosphate, and potassium monthly. In ME/CFS patients with possible baseline mitochondrial dysfunction, tubular sensitivity to TDF may be amplified. Patients with eGFR < 60 mL/min/1.73 m² should be excluded.
+
+*Bone mineral density:* TDF causes measurable BMD loss (~1–2% per year); DEXA at baseline and 12 weeks is required given that severe ME/CFS patients may already have inactivity-related bone loss.
+
+*NRTI class mitochondrial toxicity:* All NRTIs inhibit mitochondrial DNA polymerase γ (pol-γ) to varying degrees. TDF is lower-risk than AZT/d4T but carries residual risk. In a population with proposed mitochondrial dysfunction, elevated serum lactate before and during treatment should be monitored. Lactic acidosis is a rare but potentially fatal NRTI class effect.
+
+*Drug interactions relevant to ME/CFS protocols:* NSAIDs (used in Emergency PEM Protocol, see ch18) compete with TDF at renal OAT1/OAT3 transporters, raising TDF plasma levels and nephrotoxicity risk. Concomitant NSAID use requires closer renal monitoring. Fludrocortisone (used in POTS management) already alters renal tubular handling; concurrent TDF amplifies tubular stress.
+]
+] <oq:nrti-hsat2>
 == Evaluating Emerging Therapies
 <sec:evaluating-therapies>
 
