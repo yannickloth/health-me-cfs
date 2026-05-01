@@ -114,6 +114,72 @@
 
 #pagebreak()
 
+// ── Acronym glossary ──────────────────────────────────────────────────────────
+
+#heading(level: 1, numbering: none)[Abbreviations]
+
+#table(
+  columns: (0.8fr, 3fr),
+  align: (left, left),
+  stroke: none,
+  [*ALS*], [Amyotrophic lateral sclerosis],
+  [*ATF4*], [Activating transcription factor 4 — transcription factor induced by phospho-eIF2α; suppresses OXPHOS subunit synthesis when chronically active],
+  [*CNS*], [Central nervous system],
+  [*DELE1*], [DAP3-binding cell death enhancer 1 — mitochondrial stress sensor; released into cytosol on OMA1 cleavage, activates HRI],
+  [*DHA*], [Docosahexaenoic acid — omega-3 fatty acid; incorporates into cardiolipin],
+  [*DNA*], [Deoxyribonucleic acid],
+  [*DRG*], [Dorsal root ganglion — sensory neuron clusters; target of pathological IgG autoantibodies in some ME/CFS patients],
+  [*DRP1*], [Dynamin-related protein 1 — GTPase mediating mitochondrial fission; pathologically activated by HHV-6 miR-aU14 and suppressed by ISR kinase activation],
+  [*EBV*], [Epstein-Barr virus — herpesvirus; reactivation implicated in ME/CFS and Long COVID],
+  [*eIF2α*], [Eukaryotic initiation factor 2 alpha — translation initiation factor; phosphorylation by ISR kinases halts global protein synthesis and induces ATF4],
+  [*EPA*], [Eicosapentaenoic acid — omega-3 fatty acid; anti-inflammatory prostaglandin precursor],
+  [*ER*], [Endoplasmic reticulum — organelle responsible for protein folding; ER stress occurs when misfolded proteins accumulate],
+  [*ETC*], [Electron transport chain — mitochondrial inner membrane complexes (I--V) that generate the proton gradient for ATP synthesis],
+  [*GCN2*], [General control non-derepressible 2 — eIF2α kinase activated by amino acid starvation and ribosome stalling],
+  [*GI*], [Gastrointestinal],
+  [*GlyNAC*], [Glycine + N-acetylcysteine — combined supplement replenishing glutathione precursors],
+  [*GP*], [General practitioner],
+  [*GSH*], [Glutathione — primary intracellular antioxidant; depleted in ME/CFS and Long COVID],
+  [*HHV-6*], [Human herpesvirus 6 — neurotropic herpesvirus; encodes miR-aU14, which drives DRP1-mediated mitochondrial fragmentation],
+  [*HRI*], [Heme-regulated inhibitor kinase — eIF2α kinase activated by mitochondrial stress, oxidative stress, and heme deprivation; part of the OMA1/DELE1/HRI cascade],
+  [*INR*], [International normalized ratio — measure of blood coagulation time; used to monitor warfarin therapy],
+  [*ISR*], [Integrated stress response — conserved cellular program: four eIF2α kinases (PERK, GCN2, HRI, PKR) converge on eIF2α phosphorylation → ATF4 induction],
+  [*ISRIB*], [Integrated stress response inhibitor — small molecule that stabilizes eIF2B and suppresses ISR signaling; not recommended in this context],
+  [*IVIG*], [Intravenous immunoglobulin — pooled IgG preparation used to dilute pathological autoantibodies],
+  [*LDN*], [Low-dose naltrexone — off-label use of naltrexone at 1.5--4.5 mg/day for anti-inflammatory effect via TLR4 antagonism],
+  [*ME/CFS*], [Myalgic encephalomyelitis / chronic fatigue syndrome — complex multisystem illness characterized by post-exertional malaise, cognitive dysfunction, and autonomic dysregulation],
+  [*miR-aU14*], [HHV-6-encoded microRNA; inhibits host miR-30 → activates p53/DRP1 axis → mitochondrial fragmentation],
+  [*miRNA*], [MicroRNA — short non-coding RNA that post-transcriptionally regulates gene expression],
+  [*MitoQ*], [Mitoquinone — mitochondria-targeted CoQ10 analog; accumulates ~1000× in the mitochondrial matrix],
+  [*NAC*], [N-acetylcysteine — cysteine prodrug; rate-limiting precursor for glutathione synthesis],
+  [*NADH*], [Nicotinamide adenine dinucleotide (reduced) — electron carrier; feeds Complex I of the ETC],
+  [*NASH*], [Non-alcoholic steatohepatitis — inflammatory liver disease with ER stress component],
+  [*OMA1*], [OMA1 zinc metalloprotease — mitochondrial stress sensor; cleaves DELE1 upon inner membrane depolarization],
+  [*OTC*], [Over the counter — available without prescription],
+  [*OXPHOS*], [Oxidative phosphorylation — mitochondrial ATP synthesis via the ETC and ATP synthase],
+  [*PCR*], [Polymerase chain reaction — laboratory method for detecting and amplifying DNA/RNA; used here for HHV-6 viral load testing],
+  [*PEM*], [Post-exertional malaise — hallmark symptom of ME/CFS; delayed worsening of symptoms following physical or cognitive exertion],
+  [*PERK*], [Protein kinase R-like ER kinase — eIF2α kinase activated by ER stress / unfolded protein accumulation; directly measured as elevated in ME/CFS muscle biopsies],
+  [*PKR*], [Protein kinase R — eIF2α kinase activated by double-stranded RNA (viral dsRNA); suppressed by SARS-CoV-2 N2b domain],
+  [*POTS*], [Postural orthostatic tachycardia syndrome — autonomic disorder; overlaps with ME/CFS autoantibody profiles],
+  [*RCT*], [Randomized controlled trial],
+  [*ROS*], [Reactive oxygen species — chemically reactive molecules containing oxygen; produced by ETC electron leak; drive cardiolipin peroxidation and HRI activation],
+  [*SARS-CoV-2*], [Severe acute respiratory syndrome coronavirus 2 — causative agent of COVID-19 and Long COVID],
+  [*TLR4*], [Toll-like receptor 4 — innate immune pattern recognition receptor; antagonized by low-dose naltrexone],
+  [*TUDCA*], [Tauroursodeoxycholic acid — bile acid derivative acting as a chemical chaperone; reduces ER protein misfolding load and suppresses PERK/UPR],
+  [*UDCA*], [Ursodeoxycholic acid — deconjugated form of TUDCA; used therapeutically in cholestatic liver disease and intrahepatic cholestasis of pregnancy],
+  [*UPR*], [Unfolded protein response — ER stress response program; encompasses three branches (PERK, IRE1, ATF6); TUDCA suppresses primarily the PERK branch],
+  [*WASF3*], [WAS protein family member 3 — protein that accumulates under chronic ER stress and disrupts mitochondrial respiratory supercomplex assembly; elevated in ME/CFS skeletal muscle],
+  [*β2AR*], [Beta-2 adrenergic receptor — G-protein coupled receptor targeted by pathological autoantibodies in a subgroup of ME/CFS patients],
+  [*FGF21*], [Fibroblast growth factor 21 — circulating stress hormone; secreted by liver and muscle under metabolic stress; proposed peripheral ISR surrogate biomarker],
+  [*GDF15*], [Growth differentiation factor 15 — circulating cytokine secreted under mitochondrial stress and ISR activation; proposed peripheral ISR surrogate biomarker; limited diagnostic utility in ME/CFS (tissue compartmentalization)],
+  [*IgG*], [Immunoglobulin G — major antibody class; includes both protective antibodies and pathological autoantibodies],
+  [*IgM*], [Immunoglobulin M — first antibody class produced in acute infection; rising IgM titers indicate active or reactivating infection],
+  [*p53*], [Tumor protein p53 — transcription factor and tumor suppressor; activated by cellular stress; mediates DRP1-driven mitochondrial fission in the HHV-6 miR-aU14 pathway],
+)
+
+#pagebreak()
+
 // =============================================================================
 = Chronic Stress Responses and Healthspan
 // =============================================================================
@@ -173,7 +239,7 @@ Endoplasmic reticulum stress — accumulation of misfolded proteins — activate
 PERK, which phosphorylates eIF2α and drives ATF4 transcription. WASF3 protein
 accumulates under chronic ER stress and disrupts mitochondrial respiratory
 supercomplexes; this mechanism has been identified in ME/CFS skeletal muscle
-biopsies [Gorman et al. 2023, _PNAS_ 120(34):e2302738120, n=14] and is
+biopsies [Wang et al. 2023, _PNAS_ 120(34):e2302738120, n=14] and is
 consistent with ER stress pathology observed in ALS, Parkinson's disease,
 and NASH.
 
@@ -186,7 +252,7 @@ reduce ER protein misfolding load and thereby attenuate PERK activation.
   Bile acid derivative that acts as a chemical chaperone in the ER lumen,
   reducing unfolded protein accumulation and suppressing the unfolded protein
   response (UPR) / PERK arm of the ISR. In ME/CFS cell cultures, chemical
-  chaperone treatment partially restored mitochondrial function [Gorman et al.
+  chaperone treatment partially restored mitochondrial function [Wang et al.
   2023]; TUDCA is the clinical-grade ER chaperone used in neurological and
   metabolic trials.
 ]
@@ -198,7 +264,7 @@ reduce ER protein misfolding load and thereby attenuate PERK activation.
     progression combined with riluzole
   - NASH: multiple positive trials
   - Parkinson's: ER stress protection in patient-derived neurons
-  - ME/CFS: mechanistic inference from Gorman 2023; no RCT
+  - ME/CFS: mechanistic inference from Wang et al. 2023; no RCT
 - *Availability*: OTC supplement (iHerb, Amazon, health stores)
 - *Safety*: Well-tolerated bile acid derivative; mild GI effects at higher
   doses; caution with pre-existing biliary disease
@@ -317,23 +383,23 @@ neuropathies.
   [DRG neurons (IgG passive transfer)], [Nociceptive sensitization; small fiber neuropathy phenotype], [Giannoccaro et al. 2023; Üçeyler et al. 2023],
 )
 
-== OTC Options (Limited)
+== OTC and Low-Intervention Options (Limited)
 
-Direct autoantibody removal requires medical intervention (see below). OTC
-options address downstream inflammation:
+Direct autoantibody removal requires medical intervention (see below). Lower-
+barrier options address downstream inflammation only:
 
-- *Low-dose naltrexone (LDN)* (1.5--4.5 mg/day, off-label, requires Rx):
-  transient μ-opioid receptor blockade → TLR4 antagonism → microglial
-  activation reduction. Addresses downstream neuroinflammation, not the
-  autoantibody source. Evidence: Younger et al. 2013 (_Arthritis Rheumatol_,
-  fibromyalgia RCT n=30); Younger & Mackey 2014 (_Pain Med_, ME/CFS
-  open-label n=10).
-
-- *Omega-3 DHA/EPA* (see Axis 2): anti-inflammatory; modestly reduces
+- *Omega-3 DHA/EPA* (OTC; see Axis 2): anti-inflammatory; modestly reduces
   autoantibody-driven neuroinflammation. Not specific to autoantibody removal.
 
-- *Vitamin D* (maintain 50--80 nmol/L): immunomodulatory; observational
+- *Vitamin D* (OTC; maintain 50--80 nmol/L): immunomodulatory; observational
   association with autoimmune regulation. Evidence is indirect.
+
+- *Low-dose naltrexone (LDN)* (1.5--4.5 mg/day, *requires prescription*,
+  off-label): transient μ-opioid receptor blockade → TLR4 antagonism →
+  microglial activation reduction. Addresses downstream neuroinflammation, not
+  the autoantibody source. Evidence: Younger et al. 2013 (_Arthritis Rheumatol_,
+  fibromyalgia RCT n=30); Younger et al. 2014 (_Clin Rheumatol_, ME/CFS
+  open-label n=10).
 
 #rx-box(title: "Prescription-only options (mechanistically specific)")[
   - *IVIG*: dilutes pathological IgG; modest positive signals in ME/CFS
@@ -389,14 +455,15 @@ independent of ROS and is not attenuated by antioxidant supplementation.
   table.header(
     [*Rank*], [*Agent*], [*Stress axis*], [*Closest human evidence*], [*Rx?*], [*Priority*]
   ),
-  [1], [TUDCA 500--750 mg/day], [ER stress (PERK)], [ALS RCT (Paganoni 2022); ME/CFS mechanism (Gorman 2023)], [No], [★★★],
+  [1], [TUDCA 500--750 mg/day], [ER stress (PERK)], [ALS RCT (Paganoni 2022); ME/CFS mechanism (Wang 2023)], [No], [★★★],
   [2], [GlyNAC (Gly 3 g + NAC 3 g)], [Mito ROS (HRI)], [Long COVID pilot (Sekhar 2022); aging cohort], [No], [★★★],
   [3], [MitoQ 10--20 mg/day], [Mito ROS (HRI)], [Long COVID pilot (Campagnolo 2023)], [No], [★★],
   [4], [CoQ10 ubiquinol 200--400 mg], [Mito ROS (ETC)], [ME/CFS trials (Maes 2009; Castro-Marrero 2015)], [No], [★★],
   [5], [Omega-3 DHA ≥1 g/day], [Cardiolipin (HRI)], [Mechanistic inference; general mitochondrial biology], [No], [★],
   [6], [LDN 1.5--4.5 mg/day], [Neuroinflammation], [Fibromyalgia RCT (Younger 2013); ME/CFS open-label], [Yes], [★★],
-  [7], [Valacyclovir / valganciclovir], [Herpesvirus reactivation], [Montoya 2013 (select patients)], [Yes], [★★],
-  [8], [IVIG / immunoadsorption], [Autoantibody removal], [ME/CFS: Rowe 1997; Scheibenbogen 2018], [Yes], [★★],
+  [7], [Vitamin D (50--80 nmol/L)], [Immune modulation], [Observational; indirect], [No], [★],
+  [8], [Valacyclovir / valganciclovir], [Herpesvirus reactivation], [Montoya 2013 (select patients)], [Yes], [★★],
+  [9], [IVIG / immunoadsorption], [Autoantibody removal], [ME/CFS: Rowe 1997; Scheibenbogen 2018], [Yes], [★★],
 )
 
 // =============================================================================
@@ -509,7 +576,7 @@ interactions by population group.
   [Adults (18--65)], [≥1 g EPA+DHA/day], [2--3 g/day for anti-inflammatory effects; higher DHA:EPA ratio preferred for cardiolipin incorporation; take with fatty meal],
   [Older adults (65+)], [2--3 g EPA+DHA/day], [Cardiovascular benefit evidence strongest in this group; higher dose for anti-inflammatory effect],
   [Children (4--17)], [0.5--1 g EPA+DHA/day], [Well-established pediatric safety; important for neurodevelopment; DHA particularly important],
-  [Children (1--3)], [100--150 mg DHA/day], [Pediatric AI (Adequate Intake) reference; supplement if diet low in oily fish],
+  [Children (1--3)], [100--150 mg DHA/day], [Adequate Intake (AI) reference level; supplement if diet low in oily fish],
   [Infants (under 1 year)], [Via breast milk or formula], [DHA supplementation via maternal diet or DHA-enriched formula; do not give separate fish oil supplements to infants],
   [Pregnancy], [200--300 mg DHA/day minimum; higher supported], [DHA supplementation in pregnancy is recommended and well-evidenced for fetal brain development; EPA+DHA 1--2 g/day is safe; fish oil preferred over single-compound supplements; avoid high-dose cod liver oil (vitamin A toxicity risk)],
   [Breastfeeding], [200--300 mg DHA/day], [DHA concentrates in breast milk; supplementation benefits infant neurodevelopment; well-established safety],
@@ -529,8 +596,10 @@ interactions by population group.
 // =============================================================================
 
 Add agents sequentially — one new agent every 4 weeks — so any adverse effect
-or benefit can be attributed. Allow *6--8 weeks total* before assessing whether
-the stack is producing a measurable effect.
+or benefit can be attributed. Allow *at least 12 weeks* on the minimal stack
+before assessing whether the protocol is producing a measurable effect; the full
+extended stack takes longer to reach maximum benefit (cardiolipin remodeling
+requires 12--16 weeks).
 
 == Healthy adults (18--65, not pregnant)
 
@@ -824,8 +893,8 @@ elongation." _eLife_. 2025.
 
 *ER stress interventions*
 
-Gorman GS et al. [Wang P-Y et al.] "WASF3 disrupts mitochondrial respiration and
-may mediate exercise intolerance in ME/CFS." _PNAS_. 2023;120(34):e2302738120.
+Wang P-Y, Gorman GS et al. "WASF3 disrupts mitochondrial respiration and may
+mediate exercise intolerance in ME/CFS." _PNAS_. 2023;120(34):e2302738120.
 
 Paganoni S et al. "Trial of sodium phenylbutyrate--taurursodiol for ALS." _New
 Engl J Med_. 2022;387:1113--1123.
@@ -870,8 +939,12 @@ activation." _PLOS Pathog_. 2023.
 Scheibenbogen C et al. "Immunoadsorption to remove β2-adrenergic receptor
 antibodies in CFS/ME." _PLOS ONE_. 2018;13(3):e0193672.
 
-Loebel M et al. "Deficient EBV-specific B- and T-cell response in patients with
-CFS/ME." _PLOS ONE_. 2014.
+Loebel M et al. "Antibodies to β-adrenergic and muscarinic cholinergic receptors
+in patients with Chronic Fatigue Syndrome." _Brain Behav Immun_. 2016;52:32--39.
+
+Üçeyler N et al. "Skin immune mediators and small fiber neuropathy in patients
+with ME/CFS." _Front Immunol_. 2023. [IgG passive transfer; nociceptive
+sensitization phenotype]
 
 Giannoccaro MP et al. "Patients with ME/CFS have IgG antibodies against neuronal
 targets." _Brain_. 2023.
@@ -884,9 +957,16 @@ Fluge Ø et al. "B-lymphocyte depletion in patients with ME/CFS." _PLOS ONE_.
 Younger J, Parkitny L, McLain D. "The use of low-dose naltrexone (LDN) as a
 novel anti-inflammatory treatment for chronic pain." _Clin Rheumatol_. 2014.
 
+Younger J, Parkitny L, McLain D. "Low-dose naltrexone for the treatment of
+fibromyalgia: findings of a small, randomized, double-blind, placebo-controlled,
+counterbalanced, crossover trial." _Arthritis Rheumatol_. 2013.
+
 *IVIG*
 
 Rowe PC et al. "Intravenous immunoglobulin for ME/CFS." _Ann Intern Med_. 1997.
+
+Straus SE et al. "Intravenous immunoglobulin treatment for the chronic fatigue
+syndrome." _Ann Intern Med_. 1990;113(7):484--490.
 
 *ISR null result (peripheral blood)*
 
