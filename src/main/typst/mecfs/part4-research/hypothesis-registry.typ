@@ -4483,3 +4483,58 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
   kind: table,
 ) <tab:hypothesis-registry-2026-04-26-epigenetics>
 ] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.5fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Prediction / Open Question*],
+      [*Type*], [*Cert.*],
+      [*Testable Prediction*],
+      [*Available Test Methods*],
+      [*Source*],
+    ),
+
+    [Peripheral IgG--DRG Axis: Pain Without Neuroinflammation],
+    [H], [0.45],
+    [ME/CFS patients with pain/allodynia phenotype show higher DRG-binding IgG (ex vivo) and lower IENFD (skin biopsy) than fatigue-predominant patients. DRG-binding IgG correlates with IENFD reduction.],
+    [Post-mortem DRG IgG staining; skin punch biopsy IENFD; stratify by pain vs cognitive phenotype. Goebel 2021 and Mignolet 2026 passive transfer protocols already validated.],
+    [Ch.7 @hyp:drg-igg-pain-axis],
+
+    [IgG-Mediated Non-Length-Dependent SFN: DRG-Level Autoimmune Mechanism],
+    [H], [0.40],
+    [Post-COVID ME/CFS patients with non-length-dependent SFN show higher DRG-binding IgG titres vs length-dependent SFN; IVIG response is greater in non-length-dependent subtype.],
+    [Stratified skin biopsy (length-dependent vs non-length-dependent) + IVIG RCT with SFN subtype as stratification variable. McAlpine 2024 IVIG pilot provides precedent.],
+    [Ch.8 @hyp:drg-sfn-igg-mecfs],
+
+    [DRG-IgG as Afferent-Gain Amplifier in PEM],
+    [H], [0.45],
+    [QST thresholds drop further post-exertion in IgG-DRG-positive vs IgG-DRG-negative ME/CFS patients. Microneurography C-fibre discharge correlates with PEM severity.],
+    [QST at baseline + post-exertion challenge; C-fibre microneurography. Passive transfer behavioural assays (running-wheel post-exertion).],
+    [Ch.7 @hyp:drg-igg-pem-amplifier],
+
+    [Two-Compartment ME/CFS: Peripheral IgG--DRG vs Central Brain-Fog],
+    [H], [0.50],
+    [IVIG/efgartigimod in sensory-autonomic patients: $gt.eq 30%$ improvement pain/autonomic, $lt 10%$ cognitive. Cognitive-dominant patients show reverse. Phenotype-stratified trial needed.],
+    [Stratified RCT: sensory-autonomic arm (IVIG/FcRn antagonist) vs cognitive arm (anti-neuroinflammatory). McAlpine 2024 IVIG hints at dissociation.],
+    [Ch.7 @hyp:two-compartment-mecfs],
+
+    [Nodose Ganglion IgG: Peripheral Mechanism for Autonomic and GI Symptoms],
+    [H], [0.45],
+    [Nodose ganglia in passive-transfer mice show IgG accumulation comparable to DRG. Vagal-afferent recordings hyperexcitable. Post-mortem nodose IgG staining positive in autonomic-phenotype ME/CFS patients.],
+    [Histology of nodose ganglion in existing passive-transfer mouse models; vagal electrophysiology. Requires cadaveric ME/CFS nodose tissue.],
+    [Ch.7 @hyp:nodose-igg-autonomic],
+
+    [Fc-Glycosylation Profile Gates IgG Pathogenicity at DRG],
+    [S], [0.35],
+    [Pro-inflammatory G0F glycoforms enriched in IgG fractions that transfer pain in mice vs non-transferring fractions from healthy controls. ME/CFS patients show lower sialylation index.],
+    [Fc N-glycan mass spectrometry of IgG fractions from passive-transfer studies; comparison to healthy controls. Feasible add-on to existing biobanked samples.],
+    [Ch.7 @spec:fc-glycoprofile-pathogenicity],
+
+  ),
+  caption: [Entries added 2026-04-30: IgG passive transfer and DRG-mediated pain sensitisation --- Mignolet 2026, Goebel 2021, Chen 2026, McAlpine 2024.],
+  kind: table,
+) <tab:hypothesis-registry-2026-04-30-passive-transfer>
+] // end landscape page
