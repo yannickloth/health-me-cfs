@@ -150,7 +150,7 @@ Read Phase 3 output. Per idea, map certainty → environment:
 **Certainty anchoring rule:** Use Phase 3 brainstorm certainty value as the starting point. Adjust down if the idea was uprated in Phase 3 without direct evidence. State the reason for the certainty level in one sentence (e.g., "TRPM3 assay validated; combination untested").
 
 1. **Research** (optional for Tier 1–2) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates `references.bib` + annotated bib. For Tier 3 ideas with no direct evidence, skip the research step and integrate directly as `#speculation` or `#open-question`.
-2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 2 rules (bypasses `chapter-integrator` — ideas already scoped by Phase 3)
+2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 2 rules
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
 **Integration threshold:** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. No idea is "too speculative to integrate" — speculative ideas belong in `#speculation` environments with low certainty ratings.

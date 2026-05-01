@@ -222,15 +222,6 @@
         }
       }
     },
-    "chapter-integrator": {
-      "model": "zai-coding-plan/glm-4.7",
-      "options": {
-        "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
-      }
-    },
     "scientific-insight-generator": {
       "model": "zai-coding-plan/glm-4.7",
       "options": {

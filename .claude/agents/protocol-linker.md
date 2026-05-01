@@ -58,13 +58,13 @@ grep -n "\\label{" src/main/typst/mecfs/part1-clinical/ch04-diagnostic-criteria.
 **Model**: sonnet
 **Tools**: Read, Edit, Grep, Glob
 
-**Description**: Links newly integrated literature to existing document content, creates bidirectional cross-references between pathophysiology and treatment chapters, and updates urgent protocols (Ch14a/14b) based on new evidence. Final integration step after chapter-integrator.
+**Description**: Links newly integrated literature to existing document content, creates bidirectional cross-references between pathophysiology and treatment chapters, and updates urgent protocols (Ch14a/14b) based on new evidence. Final integration step after main session writes chapter content.
 
 ---
 
 ## Purpose
 
-After papers are integrated into chapters by `chapter-integrator`, this agent:
+After papers are integrated into chapters by the main session, this agent:
 1. Finds ALL related existing content across the document
 2. Creates bidirectional cross-references (pathophysiology ↔ treatments)
 3. Updates urgent action protocols (severe/moderate) based on clinical relevance
@@ -72,10 +72,10 @@ After papers are integrated into chapters by `chapter-integrator`, this agent:
 
 ## When to Invoke
 
-**Invoked by:** `literature-integration-coordinator` workflow (as new Phase 4.5)
+**Invoked by:** main session (as a step after chapter content is written)
 
 **After:**
-- Paper integrated into primary chapter(s) by `chapter-integrator`
+- Paper integrated into primary chapter(s) by main session
 - Citation verified to exist in document
 
 **Input required:**
@@ -474,14 +474,14 @@ You have NOT completed this task until:
 
 ---
 
-## Integration with Literature Coordinator
+## Integration with Literature Pipeline
 
-This agent is invoked as **Phase 4.5** in the literature-integration-coordinator workflow:
+This agent is invoked as a follow-up step after the main session writes chapter content:
 
 ```
-Phase 4: chapter-integrator (primary integration)
+Phase 4: main session (primary integration)
          ↓
-Phase 4.5: protocol-linker (cross-references + protocol updates) ⭐ NEW
+Phase 4.5: protocol-linker (cross-references + protocol updates)
          ↓
 Phase 5: syntax-fixer (build verification)
 ```

@@ -52,7 +52,6 @@ Builds formal causal and quantitative models of ME/CFS pathophysiology with expl
 | Agent | Role |
 |-------|------|
 | `literature-integrator` | Search + download |
-| `chapter-integrator` | Insert into chapters |
 | `scientific-insight-generator` | Extract insights |
 | `meta-analysis-coordinator` | Synthesize across papers |
 | `evidence-mapper` | Citation↔model index |

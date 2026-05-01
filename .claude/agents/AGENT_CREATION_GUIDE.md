@@ -117,9 +117,8 @@ Multi-agent workflow file: documents agent sequence + verification criteria. Eac
 ```markdown
 # Literature Integration Coordinator
 ## Phases
-1. Search → `literature-researcher`
-2. Download → `literature-manager`
-3. Integrate → `chapter-integrator`
+1. Search + download → `literature-integrator`
+2. Integrate → main session (reads integration guide, writes to chapters)
 4. Analyze → `scientific-insight-generator`
 5. Verify → `syntax-fixer`
 See individual agent files for full specifications.

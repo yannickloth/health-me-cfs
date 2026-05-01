@@ -1,6 +1,6 @@
 ---
 name: literature-integrator
-description: Search for, download, organize, and integrate research papers into the ME/CFS documentation. Full pipeline from discovery to bibliography. Does NOT edit main chapter files - creates integration guides for chapter-integrator.
+description: Search for, download, organize, and integrate research papers into the ME/CFS documentation. Full pipeline from discovery to bibliography. Does NOT edit main chapter files - creates integration guides in content-staging/ for the main session to act on.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch, WebFetch
 ---
@@ -26,7 +26,7 @@ grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
 
 Pipeline: Search → Evaluate → Download → Organize → Bibliography → Appendix → Integration guide
 
-**Does NOT edit** `src/main/typst/mecfs/part*/*.typ` — creates integration guides for `chapter-integrator`.
+**Does NOT edit** `src/main/typst/mecfs/part*/*.typ` — creates integration guides in `content-staging/` for the main session to act on.
 
 ## Phase 1: Literature Search
 
@@ -174,7 +174,7 @@ curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=[PM
 
 ## Phase 5: Integration Guide
 
-Create `integration-guide.md` for `chapter-integrator`:
+Create `integration-guide.md` for the main session:
 
 ```markdown
 # Integration Guide: [Author] [Year]
@@ -239,7 +239,7 @@ SAVED TO: Literature/[category]/[Author]_[Year]_[ShortTitle]/
 
 REFERENCES.BIB: ✓ Added @[citekey]
 APPENDIX: ✓ Updated appendix-h-annotated-bibliography.typ
-INTEGRATION GUIDE: ✓ Created for chapter-integrator
+INTEGRATION GUIDE: ✓ Created in content-staging/
    Recommended chapters: [list] | Environment types: [types]
 
 CERTAINTY: [High/Medium/Low]
@@ -248,7 +248,7 @@ KEY FINDINGS:
    - [Finding 2]
 
 ✓ ALL VERIFICATIONS PASSED
-Next: chapter-integrator uses integration-guide.md
+Next: main session reads integration-guide.md and writes to chapter files
 ```
 
 ## Certainty Assessment

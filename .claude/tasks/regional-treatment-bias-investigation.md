@@ -315,7 +315,7 @@ Patient reports from [region] suggest benefit, but controlled trials are lacking
    - Map to existing pathophysiology (Ch6-13)
    - Prioritize by patient impact
 
-3. **chapter-integrator** (update treatment chapters)
+3. **main session** (update treatment chapters)
    - Add regional availability annotations
    - Integrate new therapies into existing sections
    - Create cross-references

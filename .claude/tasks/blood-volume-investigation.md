@@ -95,7 +95,7 @@ The document **does not establish the causal chain** from:
 ### Phase 1: Literature Search and Evidence Gathering
 
 #### 1.1 RAAS Dysfunction Mechanisms
-**Use literature-researcher agent to find:**
+**Use literature-integrator agent to find:**
 - Papers investigating renin-angiotensin-aldosterone system function in ME/CFS
 - Studies measuring aldosterone, renin, angiotensin II in ME/CFS patients
 - Research on RAAS regulation by autonomic nervous system
@@ -108,7 +108,7 @@ The document **does not establish the causal chain** from:
 - Do inflammatory cytokines suppress aldosterone production?
 
 #### 1.2 Natriuretic Peptide Dysregulation
-**Use literature-researcher agent to find:**
+**Use literature-integrator agent to find:**
 - Papers on ANP/BNP levels in ME/CFS and POTS
 - Research on what triggers inappropriate natriuretic peptide release
 - Studies on cardiac filling pressures in ME/CFS
@@ -119,7 +119,7 @@ The document **does not establish the causal chain** from:
 - What is the mechanism of cardiac filling abnormalities?
 
 #### 1.3 Capillary Permeability and Endothelial Dysfunction
-**Use literature-researcher agent to find:**
+**Use literature-integrator agent to find:**
 - Papers on vascular permeability in ME/CFS
 - Studies measuring inflammatory markers that increase capillary leak (VEGF, bradykinin, histamine, TNF-α, IL-1β)
 - Research on endothelial glycocalyx damage in ME/CFS
@@ -132,7 +132,7 @@ The document **does not establish the causal chain** from:
 - Can we link documented endothelial dysfunction (Ch10) to fluid shift?
 
 #### 1.4 Erythropoietin and Red Cell Mass
-**Use literature-researcher agent to find:**
+**Use literature-integrator agent to find:**
 - Papers on erythropoietin levels in ME/CFS
 - Studies on bone marrow function in ME/CFS
 - Research on inflammatory suppression of erythropoiesis
@@ -250,7 +250,7 @@ For major gaps, propose specific studies that could resolve them:
 Run `nix build` to ensure no LaTeX errors
 
 #### 5.2 Citation Verification
-Use `literature-researcher` to verify all cited papers actually support the claims made
+Verify all cited papers actually support the claims made
 
 #### 5.3 Consistency Check
 Use `content-reviewer` agent to check:
@@ -330,43 +330,40 @@ Use `logic-auditor` agent to:
 
 ### Recommended Agent Sequence
 
-1. **literature-researcher** (parallel searches for 4 mechanism categories)
+1. **literature-integrator** (search, download, and organize papers for all 4 mechanism categories)
    - RAAS dysfunction
    - Natriuretic peptides
    - Capillary permeability
    - Erythropoietin
+   - Creates Literature/pathophysiology/blood-volume/ structure
+   - Adds to references.bib and appendix bibliography
 
-2. **literature-manager** (download and organize all found papers)
-   - Create Literature/pathophysiology/blood-volume/ structure
-   - Add to references.bib
-   - Update appendix bibliography
-
-3. **chapter-integrator** (edit chapter files)
+2. **main session** (edit chapter files)
    - Expand ch10-cardiovascular.tex section on blood volume
    - Update ch08-neurological.tex cross-references
    - Add forward references in ch07 (immune) and ch12 (mast cell)
 
-4. **tikz-illustrator** (create causal pathway figure)
+3. **tikz-illustrator** (create causal pathway figure)
    - Multi-pathway diagram showing RAAS, capillary leak, natriuretic peptides
    - Color-coded by certainty
    - Include feedback loops
 
-5. **logic-auditor** (verify reasoning)
+4. **logic-auditor** (verify reasoning)
    - Check causal chains for circularity
    - Verify no unsupported leaps
    - Confirm appropriate certainty language
 
-6. **content-reviewer** (final consistency check)
+5. **content-reviewer** (final consistency check)
    - Cross-chapter consistency
    - Completeness
    - Coherence
 
-7. **syntax-fixer** (verify build)
+6. **syntax-fixer** (verify build)
    - Ensure LaTeX compiles
    - Fix any errors
 
 ### Session Management
-- Use `literature-integration-coordinator` workflow for structured paper integration
+
 - Execute searches in parallel to minimize time
 - Verify each phase before proceeding to next
 
@@ -410,7 +407,6 @@ Use `logic-auditor` agent to:
 Before starting, load these reference files:
 - `.claude/template-environments.md` - for choosing appropriate LaTeX environments
 - `.claude/writing-style.md` - for medical writing conventions
-- `.claude/workflows/literature-integration-coordinator.md` - for structured paper integration
 - `contents/part2-pathophysiology/ch07-immune.tex` - to understand documented immune abnormalities
 - `contents/part2-pathophysiology/ch08-neurological.tex` - to understand autonomic dysfunction
 - `contents/part2-pathophysiology/ch10-cardiovascular.tex` - to understand existing cardiovascular content

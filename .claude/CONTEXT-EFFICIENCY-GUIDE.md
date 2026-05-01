@@ -115,7 +115,7 @@ Directory trees using `├──` are **acceptable** because they're compact and
 **Good:**
 ```
 User → router → agent
-literature-integrator → chapter-integrator → test-runner
+literature-integrator → main session (chapter edits) → test-runner
 ```
 
 Single-line arrow notation is **optimal** for showing flow.

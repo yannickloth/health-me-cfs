@@ -12,7 +12,7 @@ Incrementally update `src/main/typst/mecfs/part4-research/hypothesis-registry.ty
 ## Triggers
 
 - After add/modify/remove of `hypothesis`, `speculation`, `prediction`, or `open_question` in any `.typ` file
-- Proactively when `chapter-integrator` or main session modifies hypothesis content
+- Proactively when main session modifies hypothesis content
 
 ## Capabilities
 

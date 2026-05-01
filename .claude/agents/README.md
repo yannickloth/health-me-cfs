@@ -88,7 +88,6 @@ System prompt / instructions for the agent...
 | `misconception-auditor` | Common misconceptions anticipated and inoculated (e.g. psychosomatic framing, GET safety) |
 | `index-auditor` | Index coverage: key terms, definitions, named concepts all indexed |
 | `literature-integrator` | Full pipeline: finding, downloading, organizing papers, updating .bib |
-| `chapter-integrator` | Integrating literature into text with proper citations |
 | `scientific-insight-generator` | Generating insights from research, synthesizing evidence |
 | `template-advisor` | Choosing LaTeX environments, theorem vs definition |
 | `protocol-linker` | Linking protocols to underlying mechanisms |
@@ -199,7 +198,7 @@ Each agent has limited tools to enforce focus:
 
 **Example 7: Workflow coordination**
 - User: "Find papers on mitochondrial dysfunction"
-- Route to: `literature-integrator` (handles full pipeline), then `chapter-integrator` for text edits
+- Route to: `literature-integrator` (handles full pipeline); main session writes to chapter files
 
 ## Anti-Patterns (NEVER DO THIS)
 
