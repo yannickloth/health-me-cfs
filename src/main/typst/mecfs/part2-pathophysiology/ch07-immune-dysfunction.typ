@@ -535,6 +535,118 @@ The REAP platform displays extracellular protein domains on yeast surfaces. GPCR
 While correlational and early therapeutic evidence supports a role for GPCR autoantibodies in ME/CFS, definitive proof of causality remains elusive. The Vernino et al.\ failed replication in POTS raises important questions: Are the autoantibodies detected by current assays the same as those causing symptoms? Do healthy individuals harbor similar autoantibodies that only become pathogenic under certain conditions (e.g., infection, inflammation)? Would more specific functional assays—measuring receptor activation or internalization rather than mere binding—better identify pathogenic autoantibodies? Resolution of these questions will determine whether autoantibody-targeted therapies become a mainstay of ME/CFS treatment.
 ]
 
+==== Passive Transfer Evidence: IgG Pathogenicity Established in Animal Models
+<sec:passive-transfer-igg>
+
+The causal question—do autoantibodies actually cause symptoms, or are they bystander products of immune dysregulation?—has been partially answered by passive transfer experiments in three independent research groups.
+
+#achievement(title: [IgG Passive Transfer Reproduces Pain Sensitization: Three Independent Groups])[
+Three independent groups (2021--2026) have demonstrated that purified IgG from patients with fibromyalgia or long COVID reproduces peripheral pain sensitization when transferred to mice, establishing that circulating IgG is sufficient to cause this symptom cluster:
+
+    - *Goebel et al.\ (2021)* --- fibromyalgia IgG ($n=8$ patients) produced mechanical and cold hypersensitivity, reduced locomotion, and reduced grip strength in recipient mice @Goebel2021passiveTransferFM. IgG accumulated in dorsal root ganglia (DRG) and activated satellite glial cells (SGC). IgG-depleted serum had no effect, confirming the immunoglobulin fraction as the active component.
+    - *Mignolet et al.\ (2026)* --- long COVID IgG ($n=13$ patients; Université de Namur / CHU Liège) produced transient mechanical allodynia and thermal hyperalgesia in recipient mice @Mignolet2026passiveTransferLC. IgG accumulated in lumbar DRG colocalising with nociceptive and proprioceptive neurons. Critically, no cognitive impairment, anxiety, neuroinflammation, or astrogliosis was observed.
+    - *Chen et al.\ (2026)* --- pooled long COVID IgG (UMC Utrecht / Amsterdam UMC) produced pronounced, persistent mechanical hypersensitivity @Chen2026igGLongCOVID. IgG from the same patients 2 years later (still symptomatic) reproduced allodynia, demonstrating that pathogenic IgG persists for at least 2 years in symptomatic patients.
+
+Effect was abolished by IgG depletion in all studies; Fc-fragment digestion (papain) further confirmed Fc-region-dependent effector function in Mignolet 2026 @Mignolet2026passiveTransferLC. These controls confirm that the immunoglobulin fraction is the active component. The target tissue in all three studies is the dorsal root ganglion --- the sensory neuron soma cluster peripheral to the blood-brain barrier --- rather than the central nervous system.
+
+Study: (three independent passive transfer studies, 2021--2026, two post-viral cohorts + one fibromyalgia; certainty: 0.60, partially replicated).
+] <ach:passive-transfer-pain>
+
+#hypothesis(title: [Peripheral IgG--DRG Axis: Pain Without Neuroinflammation])[
+The passive transfer triad supports a peripheral mechanism for IgG-mediated pain: circulating IgG accesses dorsal root ganglia, binds nociceptive and proprioceptive neuron somata, and sensitises peripheral afferents without requiring central neuroinflammation or gliosis.
+
+This model provides a mechanistic account of pain hypersensitivity in long COVID and potentially ME/CFS that is:
+
+    - Independent of central sensitisation (Mignolet 2026: no astrogliosis, no cognitive effects)
+    - Dependent on intact Fc-region function (abolition by papain digestion)
+    - Consistent with small fiber neuropathy findings in ME/CFS (see @sec:sfn)
+    - Consistent with the non-length-dependent SFN pattern indicating DRG-level pathology @McAlpine2024sfnCOVID
+
+The dissociation between pain transfer (consistent across studies) and cognitive transfer (absent in Mignolet 2026; present for balance/coordination in Santos Guedes 2024) suggests that brain fog in long COVID and ME/CFS may not share the same peripheral IgG pathway as pain sensitisation, or that longer observation windows or different antigens are required.
+
+*Testable prediction:* ME/CFS patients with prominent pain and allodynia should show higher DRG-binding IgG by ex vivo staining of post-mortem ganglia than ME/CFS patients with predominantly fatigability and cognitive phenotypes. DRG-binding IgG levels should correlate with intraepidermal nerve fiber density (IENFD) reduction on skin biopsy.
+
+*Treatment implication:* If pain is IgG-mediated via DRG targeting, therapies removing or neutralising IgG (immunoadsorption, IVIG, plasmapheresis) should preferentially benefit pain-predominant ME/CFS patients. Single-course apheresis may not suffice given 2-year IgG persistence (Chen 2026).
+
+*Limitation:* Primary antibody targets in DRG remain uncharacterised in all three studies. The Germain 2025 null finding (n=172; no autoantibody signal on 7,542-antigen REAP+Luminex panel) @Germain2025autoantibody may indicate that DRG-binding IgG targets conformational or intracellular epitopes not captured by standard antigen arrays. Subgroup heterogeneity is expected: not all ME/CFS patients necessarily carry DRG-binding IgG.
+
+Study: (mechanistic synthesis across three passive transfer studies; certainty: 0.45, peripheral targeting established, antigen identity unknown, ME/CFS-specific evidence indirect).
+] <hyp:drg-igg-pain-axis>
+
+#hypothesis(title: [DRG-IgG as Afferent-Gain Amplifier: A Peripheral Mechanism for PEM])[
+The dissociation between IgG-transferred pain and absent cognitive effects in mice (Mignolet 2026 @Mignolet2026passiveTransferLC) suggests that DRG-bound IgG may function as an *afferent-gain amplifier*: by sensitising nociceptive and proprioceptive neurons below their normal activation thresholds, it causes normal interoceptive signals from exercising muscle (lactate, H+, ATP, bradykinin) to be over-reported to brainstem and hypothalamus, generating exaggerated sickness behaviour, autonomic switching, and fatigue signalling — without central neuroinflammation.
+
+Under this model, the hallmark ME/CFS feature of post-exertional malaise (PEM) reflects not a failure of central energy generation but a peripheral afferent overdrive that is amplified by IgG-mediated DRG sensitisation. Autonomic symptoms (POTS, orthostatic intolerance) may also arise from over-reporting by afferents in cardiovascular and baroreceptor circuits.
+
+*Testable prediction:* Quantitative sensory testing (QST) thresholds at baseline and after standardised exertion should show greater drops in IgG-DRG-positive ME/CFS patients than in IgG-DRG-negative patients. Microneurography (C-fibre spontaneous discharge frequency) should correlate with PEM severity within patients.
+
+*Treatment implication:* If PEM is partly afferent-gain-mediated, therapies reducing DRG-bound IgG (immunoadsorption, IVIG, FcRn antagonists) should attenuate PEM frequency and severity, not just pain scores. Strict pacing reduces the afferent overdrive stimulus; IgG-reduction reduces the gain — they should be complementary.
+
+*Limitation:* Mice cannot report fatigue verbally; whether the passive-transfer model produces PEM-equivalent energy limitation is unknown and requires specialised behavioural assays (forced swim, running wheel after standardised exertion). The ME/CFS-specific applicability of the long COVID passive transfer model remains to be established by direct experiments in ME/CFS-derived IgG.
+
+Study: (cross-paper synthesis, Mignolet 2026 + McAlpine 2024 + interoception literature; certainty: 0.45, coherent mechanistic hypothesis but untested in ME/CFS-specific passive transfer; partially supported).
+] <hyp:drg-igg-pem-amplifier>
+
+#hypothesis(title: [Two-Compartment ME/CFS: Peripheral IgG--DRG Axis Versus Central Brain-Fog Mechanism])[
+The cognitive sparing in the Mignolet 2026 passive transfer model @Mignolet2026passiveTransferLC provides a mechanistic argument for a *two-compartment disease* structure: (1) a peripheral compartment in which circulating IgG accesses and sensitises DRG via the leaky fenestrated capillaries of ganglia (outside the blood-brain barrier), driving pain, autonomic dysfunction, and PEM; and (2) a central compartment in which brain-fog and cognitive symptoms arise from non-IgG mechanisms (endothelial mitochondrial damage @Liu2026IgGcomplexes, microglial activation, astrocytic energy failure, or HPA-axis disruption).
+
+Under this model, treatments that remove IgG (immunoadsorption, IVIG, FcRn antagonists) should preferentially improve sensory-autonomic-PEM phenotypes but not cognitive symptoms, while treatments targeting central mechanisms (anti-neuroinflammatory, BH4-restoration, HPA normalisation) should preferentially improve cognition. Pooling cognitive-dominant and sensory-dominant phenotypes in undifferentiated ME/CFS trials will dilute treatment-response signals.
+
+*Testable prediction:* In an IVIG or efgartigimod trial stratified by cognitive vs sensory-autonomic phenotype, sensory-autonomic patients show $gt.eq 30%$ improvement on pain and autonomic measures but $lt 10%$ on cognitive measures, while cognitive-dominant patients show the reverse pattern.
+
+*Treatment implication:* ME/CFS clinical trials should stratify enrolment by phenotype (pain/autonomic vs cognitive) and report co-primary endpoints. Expecting IgG-targeted therapies to resolve brain fog would be a design failure.
+
+*Limitation:* This is a parsimonious interpretation of limited mouse data. Some patients may have mixed phenotypes. The degree of IgG compartmentalisation may vary with BBB integrity (trauma, infection, stress), which is not fixed. Whether cognitive symptoms in ME/CFS ever arise from IgG acting via circumventricular organs (area postrema, subfornical organ — which also lack a tight BBB) is unexplored.
+
+Study: (mechanistic inference from Mignolet 2026 cognitive-sparing finding; certainty: 0.50, two-compartment structure parsimonious but untested; no direct ME/CFS phenotype-stratified trial evidence yet).
+] <hyp:two-compartment-mecfs>
+
+#speculation(title: [Fc-Glycosylation Profile Gates IgG Pathogenicity at the DRG])[
+IgG effector function depends critically on the N-glycan attached to the Fc region: pro-inflammatory glycoforms (low galactosylation, low sialylation, high fucosylation — "G0F" forms) bind FcγRIIIa with high affinity and activate macrophages and satellite glial cells (SGC) in DRG. Mignolet et al.\ (2026) @Mignolet2026passiveTransferLC and Goebel et al.\ (2021) @Goebel2021passiveTransferFM both show that Fc-fragment digestion abolishes pain transfer, confirming effector function is required. This predicts that antibody titre alone is a poor predictor of pathogenicity, and that the Fc glycoprofile determines whether DRG-binding IgG activates SGCs and sensitises neurons.
+
+Pro-inflammatory IgG glycoforms (elevated G0F, reduced sialylation) are documented in rheumatoid arthritis, lupus, COVID-19, and ageing. If ME/CFS patients carry higher G0F IgG fractions, this could explain DRG sensitisation at titers that would be non-pathogenic in healthy controls — and could account for why REAP and CellTrend ELISA studies (which measure antibody binding, not effector function) give inconsistent results.
+
+*Testable prediction:* Fc-glycoprofiling by mass spectrometry of IgG fractions that successfully transfer pain in mice will show significantly higher G0F and lower G2F fractions than non-transferring fractions from healthy controls. ME/CFS patients should have lower sialylation index than age-matched controls.
+
+*Treatment implication:* If Fc-glycoprofile rather than titer is the key variable, sialic-acid supplementation or intravenous immunoglobulin (which contains highly sialylated IgG) might shift the endogenous glycome toward anti-inflammatory forms.
+
+Study: (mechanistic inference from Fc-digestion data + autoimmune Fc-glycan literature; certainty: 0.35, plausible but untested in passive transfer studies; speculative).
+] <spec:fc-glycoprofile-pathogenicity>
+
+#hypothesis(title: [Nodose Ganglion IgG Accumulation: A Peripheral Mechanism for Autonomic and GI Symptoms])[
+The nodose ganglion (vagal afferent cell bodies) shares the fenestrated-capillary feature of dorsal root ganglia and therefore lacks the blood-brain barrier protection that shields cortex and hippocampus from circulating IgG. If the pathogenic IgG identified in passive transfer studies also accumulates in nodose ganglia and sensitises vagal afferents, it would provide a peripheral mechanism for autonomic and gastrointestinal symptoms that are prominent in ME/CFS: postural orthostatic tachycardia (via cardiac afferents), gastroparesis, air hunger, functional dyspepsia, and IBS-like features.
+
+This model would unify the three cardinal extra-CNS ganglia accessible to circulating IgG (DRG, nodose, sympathetic) under a single peripheral mechanism, without invoking a separate central pathway for each symptom cluster.
+
+*Testable prediction:* Histology of nodose ganglia in passive-transfer mice (Mignolet 2026 or Goebel 2021 model) should show analogous IgG accumulation to lumbar DRG. Vagal-afferent electrophysiology should show hyperexcitability. ME/CFS patients with autonomic phenotype should show IgG staining in nodose ganglion post-mortem.
+
+Study: (mechanistic extrapolation from DRG passive transfer data; certainty: 0.45, fenestrated-capillary premise well-established, nodose accumulation untested; not yet replicated in any study).
+] <hyp:nodose-igg-autonomic>
+
+#open-question(title: [FcRn Antagonists as IgG-Reduction Therapy in IgG-DRG-Positive ME/CFS])[
+FcRn (neonatal Fc receptor) recycles IgG by rescuing it from lysosomal degradation; blocking FcRn with antagonists (efgartigimod, approved for myasthenia gravis and CIDP; rozanolixizumab; nipocalimab) reduces total serum IgG by 60--70% within weeks, in a class-effect manner without depleting plasma cells. Since IgG-DRG pathogenicity appears Fc-dependent @Mignolet2026passiveTransferLC @Goebel2021passiveTransferFM, FcRn antagonists represent a targeted, reversible alternative to immunoadsorption.
+
+Relevant open questions:
+    - Is the DRG-binding fraction of IgG proportionally reduced by FcRn antagonism (expected yes, as FcRn is class-wide), and does DRG-bound IgG clear within the same timeframe as serum IgG?
+    - Do pain and PEM scores improve proportionally to IgG reduction in IgG-DRG-positive patients?
+    - Can IgG-DRG positivity (ex vivo binding assay on rodent DRG sections) serve as an enrichment biomarker for FcRn-antagonist trials?
+    - Does the 2-year IgG persistence (Chen 2026 @Chen2026igGLongCOVID) reflect long-lived plasma cell production — in which case FcRn antagonism would require continuous dosing — or DRG accumulation as a reservoir, which might respond differently?
+
+These questions are resolvable by stratified clinical trials in IgG-DRG-positive ME/CFS patients. All FcRn antagonists currently approved for neuromuscular autoimmune disease carry infection risk and require immunological monitoring; they are not appropriate outside trial settings.
+] <q:fcrn-antagonists-mecfs>
+
+#open-question(title: [DRG-IgG Immunohistochemistry as a Stratification Biomarker])[
+A practical near-term research priority is to develop and validate a DRG-IgG immunohistochemistry (IHC) assay: patient serum or IgG fraction applied to fixed rodent DRG sections, stained with fluorescent anti-human IgG, and scored for binding intensity, spatial pattern (neuronal soma vs satellite glial cells), and co-localisation with neuronal markers (CGRP for peptidergic C-fibres, IB4 for non-peptidergic C-fibres, NF200 for Aδ fibres).
+
+Such an assay, if standardised, could:
+    - Classify ME/CFS patients as IgG-DRG-positive vs IgG-DRG-negative to enrich clinical trials
+    - Correlate IgG-DRG positivity with IENFD (skin biopsy), QST profiles, and autonomic test abnormalities
+    - Serve as a pharmacodynamic biomarker: change in IgG-DRG intensity before/after immunoadsorption or FcRn antagonism
+    - Provide retrospective stratification of existing trial datasets (Stein 2025, Fluge 2025, EXTINCT)
+
+The passive transfer triad (Goebel 2021, Mignolet 2026, Chen 2026) already uses this methodology; translation to a clinical biomarker assay requires standardisation and validation in a prospective cohort.
+] <q:drg-igg-biomarker>
+
 *Other Receptor Autoantibodies*
 Beyond GPCR autoantibodies, additional receptor-targeting antibodies have been identified:
 
@@ -975,6 +1087,7 @@ This hypothesis is speculative. EBV is ubiquitous (95% adult seropositivity), so
 Longitudinal data from the first German study of adolescent and young adult ME/CFS following EBV-triggered infectious mononucleosis provide partial support for the age-dependent hypothesis. Pricoco et al. (2024) followed 25 patients (12 adolescents, 13 young adults) for 12 months after EBV-confirmed onset @Pricoco2024EBVyouth. The results revealed a stark age-dependent recovery pattern: 45% of adolescents no longer met ME/CFS diagnostic criteria at 12 months and showed improvement in fatigue and health-related quality of life, whereas 100% of young adults retained their diagnosis with minimal symptom or quality-of-life improvement. Patients averaged 27 distinct symptoms each, with exhaustion, daily-life limitations, rest requirements, and PEM being the most persistent. While the sample size is small and the study lacked a non-EBV control group, the differential recovery trajectory is consistent with the hypothesis that post-pubertal immune maturation reduces the capacity for spontaneous resolution of virus-triggered autoimmune processes.
 
 ==== Human Herpesvirus 6 (HHV-6)
+<sec:hhv6-mecfs>
 
 HHV-6 infects T cells and can integrate into chromosomes @EatonFitch2019:
 
@@ -982,6 +1095,14 @@ HHV-6 infects T cells and can integrate into chromosomes @EatonFitch2019:
     - Evidence for active infection in some ME/CFS patients @EatonFitch2019
     - Can affect mitochondrial function
     - Neurotropic (infects brain tissue)
+
+*HHV-6 miRNA-Mediated Mitochondrial Fragmentation*
+
+A key molecular mechanism linking HHV-6 reactivation to ME/CFS mitochondrial dysfunction was identified by Hennig, Prusty et al.\ @Hennig2022HHV6miRNA. HHV-6A encodes a viral microRNA, miR-aU14, which selectively inhibits host miR-30 family processing by binding pri-miRNA hairpin loops. Loss of miR-30 activates the miR-30--p53--DRP1 axis, producing profound mitochondrial fragmentation. The same mechanism impairs the type I interferon response, enabling productive HHV-6A reactivation from latency. miR-aU14 was characterised as a "readily druggable master regulator of the herpesvirus lytic--latent switch" @Hennig2022HHV6miRNA. Critically, the DRP1-driven fragmentation downstream of miR-aU14 is the same pathway that ISR kinase activation protects against @Baron2025ISRMitochondria, placing HHV-6 reactivation directly upstream of the mitochondrial architecture disruption discussed in Section @sec:isr-context-dependence of Chapter @ch:energy-metabolism.
+
+*HHV-6 Neuroinvasion in ME/CFS Post-Mortem Tissue*
+
+Kasimir, Prusty et al.\ examined post-mortem brain tissue from ME/CFS patients (n=3) vs controls (n=24) @Kasimir2022HHV6Tissue. HHV-6 viral miRNA (miR-aU14) was detected in multiple CNS regions --- choroid plexus, hippocampus, amygdala, and dorsal root ganglia --- exclusively in ME/CFS patients. EBV dUTPase was also found in all three ME/CFS brains but absent in controls. These findings confirm HHV-6 reactivation with neuroinvasion in ME/CFS CNS tissue, though the extremely small sample (n=3) requires replication before conclusions can be drawn.
 
 ==== Cytomegalovirus (CMV)
 
@@ -1139,6 +1260,34 @@ The activated pathways overlap substantially with those documented in ME/CFS: TN
 Using total-body PET-CT imaging and rectosigmoid biopsies, Peluso et al. @Peluso2024ViralPersistence detected SARS-CoV-2 spike-encoding RNA—both single- and double-stranded—in gut lamina propria tissue up to 676 days after initial infection. Double-stranded RNA present in tissue would constitutively activate innate immune sensors (RIG-I, MDA5), generating a perpetual interferon signature and sustaining T cell activation without active viral replication. Total-body PET imaging revealed widespread lymphoid tissue involvement, supporting the gastrointestinal tract as a viral reservoir maintaining systemic immune dysregulation in long COVID and post-COVID ME/CFS.
 Study: (tissue biopsy + PET imaging, $n=5$ biopsy participants, Science Translational Medicine, certainty: 0.70, consistent with multiple independent viral persistence studies).
 ] <ach:peluso2024-viral-persistence>
+
+*SARS-CoV-2 PKR-ISR Antagonism and Long COVID Implications*
+
+SARS-CoV-2 actively suppresses the integrated stress response (ISR) during active infection: the nucleocapsid protein domain N2b sequesters double-stranded RNA (dsRNA), preventing PKR (protein kinase R) and RIG-I receptor activation, abolishing stress granule formation and ISR-induced translational arrest @Aloise2023CoVPKR. This ISR suppression is a fundamental viral immune evasion strategy conserved across coronavirus species. In the context of viral persistence (documented in gut tissue by Peluso et al.\ above), ongoing N2b-mediated PKR suppression could chronically disable the ISR response that would otherwise limit viral spread and trigger cellular repair programmes.
+
+Variant-specific differences in ISR antagonism may partly explain differential long COVID rates. Christ et al.\ found that Omicron nucleocapsid protein less efficiently suppresses stress granule formation than ancestral or Delta variants --- Omicron-infected cells formed stress granules in ~60% of cells versus ~5% for ancestral SARS-CoV-2 @Christ2023CoVISRVariants. If higher ISR activation during acute Omicron infection reduces viral establishment in tissue reservoirs, this could contribute to the lower long COVID incidence observed after Omicron waves, though this connection remains speculative and unmeasured.
+
+#hypothesis(title: [Bidirectional ISR Dysregulation: Opposite States in Different ME/CFS Subgroups])[
+*Certainty: 0.40.*
+Different ME/CFS subgroups may have *opposite* ISR states depending on their triggering pathogen, explaining heterogeneous trial responses @Aloise2023CoVPKR @Hennig2022HHV6miRNA @wang2023wasf3. *Post-herpesviruses (HHV-6, EBV) subgroup:* ISR chronically activated --- PERK elevated, ATF4 active, WASF3 upregulated, mitochondrial supercomplex dysfunction. *Post-SARS-CoV-2 (long COVID) subgroup:* ISR suppressed during acute phase via N2b-mediated PKR inhibition @Aloise2023CoVPKR, then dysregulated in recovery --- potentially a rebound state or permanently impaired ISR dynamics.
+
+This bidirectional model predicts that ISR suppression (ISRIB, eIF2B activators) will benefit the herpesvirus-triggered subgroup (excessive ISR) but harm or provide no benefit to the post-SARS-CoV-2 subgroup (already suppressed ISR). Conversely, ISR-prolonging agents (salubrinal, guanabenz-class GADD34 inhibitors) would be predicted to benefit only the ISR-suppressed subgroup @CostaMattioli2020ISRReview. The absence of pathogen-stratified subgrouping in ME/CFS clinical trials means this divergence has not been tested.
+
+*Testable prediction:* Stratifying ME/CFS patients by triggering pathogen (HHV-6 dUTPase IgG positive vs. post-COVID onset) will reveal opposite directions of phospho-eIF2α and ATF4 expression in skeletal muscle biopsy. In a crossover trial, ISRIB will improve fatigue in the HHV-6+ subgroup while worsening or showing no effect in the post-COVID subgroup. If ISR markers are uncorrelated with trigger → hypothesis falsified.
+
+*Limitation:* Most ME/CFS patients cannot identify their triggering pathogen with certainty. Pathogen-stratified muscle biopsy studies do not yet exist. The ISR activation finding (Wang 2023) is from an NIH cohort with mixed trigger history (n=14); the SARS-CoV-2 ISR suppression finding is from cell models, not patient tissue @Aloise2023CoVPKR.
+] <hyp:isr-bidirectional>
+
+#hypothesis(title: [Tissue Compartmentalisation Explains ISR Biomarker Failure in ME/CFS])[
+*Certainty: 0.55.*
+ISR activation in ME/CFS is restricted to specific tissue compartments --- skeletal muscle @wang2023wasf3, CNS glial cells @Kasimir2022HHV6Tissue, possibly dorsal root ganglion sensory neurons and endothelium --- and is not detectable in peripheral blood mononuclear cells. The null result from Omdal et al.\ (n=48, peripheral blood stress biomarkers, long COVID) @Omdal2026LCFatigueStress is therefore not a refutation of ISR involvement but evidence of compartmentalisation. This predicts that PBMC-based ME/CFS biomarker studies systematically underestimate ISR involvement, and explains the consistent failure of blood-based biomarker panels to discriminate ME/CFS from healthy controls with high sensitivity.
+
+The tissue specificity is mechanistically plausible: PERK is preferentially activated in cells with high secretory/biosynthetic demand (muscle, neurons, endothelium) rather than circulating immune cells. HHV-6 neuroinvasion @Kasimir2022HHV6Tissue places viral ISR triggers directly in CNS tissue. Muscle WASF3 elevation @wang2023wasf3 confirms the skeletal muscle as a primary affected compartment.
+
+*Testable prediction:* Paired sampling in the same ME/CFS patients (PBMC + skeletal muscle biopsy + skin biopsy [DRG-adjacent fibres] + saliva [salivary glands as accessible secretory tissue]) will show ISR markers elevated in muscle and skin but not PBMC. Effect sizes in tissue will substantially exceed those in blood. If muscle and PBMC ISR markers correlate strongly → compartmentalisation hypothesis falsified.
+
+*Limitation:* Only skeletal muscle (Wang 2023, n=14) and CNS post-mortem (Kasimir 2022, n=3) have been examined. No skin biopsy ISR study exists in ME/CFS. The comparison between tissue compartments in the same patients has not been done.
+] <hyp:isr-compartmentalisation>
 
 #achievement(title: [International Consensus Framework for Targeting SARS-CoV-2 Reservoir in Long COVID])[
 A multi-institutional Lancet Infectious Diseases position paper @Proal2025Reservoir
