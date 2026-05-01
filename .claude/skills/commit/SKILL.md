@@ -25,7 +25,7 @@ Mark as **excluded** (do not stage):
 - `**/__pycache__/**`, `**/*.pyc` — Python cache
 - Files already in `.gitignore`
 
-**PDF exception:** Legitimate to commit if published artifact / release trace — lives under `releases/`, `published/`, `dist/`, or explicitly versioned (e.g., `volume-1-v1.0.pdf`). When in doubt, **ask**.
+**PDF exception:** Legitimate to commit if: published artifact/release trace (`releases/`, `published/`, `dist/`, explicitly versioned), OR literature artifact (`Literature/**`). When in doubt, **ask**.
 
 ## Step 3 — Group Into Logical Commits
 
