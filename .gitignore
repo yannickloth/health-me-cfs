@@ -374,3 +374,5 @@ patients/*/generated/*.log
 patients/*/generated/**/*.log
 Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/
 Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher.htmlzcontent-staging/
+target/**/*.pdf
+src/main/typst/stress-reduction/**/*.pdf
