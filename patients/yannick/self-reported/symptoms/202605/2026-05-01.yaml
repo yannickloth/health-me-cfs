@@ -1,0 +1,38 @@
+date: 2026-05-01
+
+medications_supplements:
+  # medications (taken as prescribed)
+  ldn:               { taken: true, dose: "4.5 mg" }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true, doses: { morning: true, daytime: true, evening: true } }
+  famotidine:        { taken: true }
+  pyridostigmine:    { taken: true, doses: { morning: true, midday: true, evening: true }, dose_each: "10 mg" }
+  rilatine_mr_30:    { taken: true, dose: "30 mg" }
+  # supplements (taken as prescribed; B2/riboflavin, D-ribose, MCT oil excluded)
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  pea:               { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: false, notes: "not recorded" }
+
+symptoms:
+  fatigue:
+    severity: moderate
+    notes: "Nap necessary; feeling tired"
+  brain_fog:
+    severity: none
+  headache:
+    severity: none
+  pain:
+    severity: none
+  lumbago:
+    severity: present
+    notes: "Back pain remains (ongoing from 2026-04-23 episode)"
+
+overall_wellbeing: good
+
+activity:
+  notes: "Feeling well overall — no headache, no pain. Back pain still present. Took Rilatine MR 30 mg."
