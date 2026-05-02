@@ -301,6 +301,25 @@ Several dietary patterns have theoretical relevance to ME/CFS, though none has b
 
     - *Mediterranean diet*: Rich in anti-inflammatory compounds (olive oil polyphenols, omega-3 fatty acids, flavonoids), with demonstrated benefits for systemic inflammation, cardiovascular health, and cognitive function in other populations. Often considered by clinicians as a reasonable starting point for ME/CFS patients seeking an anti-inflammatory dietary pattern, though no ME/CFS-specific trial data exist
     - *Low-histamine diet*: Relevant for the subgroup with mast cell activation syndrome (MCAS) or histamine intolerance (Section @sec:food-sensitivities-wheat). Restricts aged, fermented, and high-histamine foods (aged cheese, wine, fermented meats, canned fish). Response within 2–4 weeks suggests histamine involvement
+
+#speculation(title: [Histamine-Smart Nutritional Timing: A Chronobiological Alternative to Eliminationist Diets])[
+*(Certainty: 0.40 -- based on circadian mast cell biology and known DAO enzyme activity variation; no controlled trial in ME/CFS. Not yet replicated.)*
+
+Chronic low-histamine restriction eliminates nutritionally valuable foods (aged cheeses, fermented foods, certain proteins) and can produce food fear without necessarily reducing overall mast cell mediator burden -- because histamine load from foods is only one input to a mast cell system also driven by stress, heat, exercise, and immune signals. A chronobiological approach may achieve comparable symptom control with less dietary restriction.
+
+Mast cell degranulation and diamine oxidase (DAO) enzyme activity follow circadian patterns. DAO activity in intestinal mucosa is estimated to be highest in the first part of the day and lower in the evening, reducing histamine-degrading capacity at dinner when many patients consume histamine-rich foods (fermented vegetables, cured meats, wine). Rather than eliminating such foods entirely, MCAS-positive ME/CFS patients may achieve better tolerability by timing histamine-rich foods to a midday window (estimated 10am--2pm) when DAO capacity is higher, and restricting them from the evening meal.
+
+*Practical guidance:*
+- *Morning*: Fresh proteins, cooked vegetables, fruits; avoid fermented and aged products
+- *Midday (10am--2pm)*: Histamine-rich foods allowed if desired (aged cheese, smoked fish, fermented vegetables)
+- *Evening*: Return to low-histamine foods; avoid alcohol (direct DAO inhibitor)
+- *Monitoring*: Symptom diary tracking flushing, headache, GI symptoms correlated with food timing
+
+*Testable prediction:* Patients on time-restricted histamine eating (histamine-rich foods only 10am--2pm) will experience fewer symptom flare days per month than continuous low-histamine restriction at equivalent total histamine load, assessed by daily symptom diary at 4 weeks.
+
+*Limitations:* Human chronobiology of histamine and DAO has been studied in only a handful of small experiments; the optimal timing window is uncertain and likely varies individually. Circadian rhythms in ME/CFS patients may themselves be dysregulated (Chapter @ch:endocrine), making standard timing recommendations unreliable. Total histamine load is difficult to equate across dietary patterns given variability in food preparation and storage. No ME/CFS study has tested this design.
+] <spec:histamine-timing-chrono>
+
     - *Low-FODMAP diet*: May benefit the 50–60% of ME/CFS patients with concurrent IBS symptoms. Reduces fermentable carbohydrates that cause gas, bloating, and diarrhea. Should be implemented with dietitian guidance through elimination and structured reintroduction phases
     - *Elimination diets*: Systematic removal and reintroduction of suspected trigger foods (dairy, gluten, soy, eggs) can identify individual sensitivities. Requires careful nutritional planning to avoid deficiencies during elimination phases
     - *Ketogenic or low-carbohydrate diets*: Theoretical interest based on the metabolic shift away from glycolysis observed in ME/CFS. Some patients report improved cognitive function and energy stability. However, the ketogenic adaptation period ("keto flu") can trigger PEM, and long-term safety in ME/CFS has not been studied. Not recommended without medical supervision
@@ -1270,3 +1289,57 @@ However, caution applies: (a) orthostatic intolerance, highly prevalent in ME/CF
 
 *What would establish this:* Plasma EV HSAT2 measurement at 0 h and 24 h after a standardized brief cold stimulus (facial immersion in 10°C water for 60 seconds) in HSAT2-high ME/CFS patients. If HSAT2 does not rise (unlike the prediction for heat exposure), cold therapy could be explored as an HSAT2-safe alternative. Any study would need stringent orthostatic intolerance exclusion criteria.
 ] <oq:cold-exposure-hsat2>
+
+== Pacing as Integrated Stress Response State Management
+<sec:pacing-isr-frame>
+
+Pacing is the central non-pharmacological intervention in ME/CFS, grounded in decades of clinical experience and supported by the post-exertional malaise (PEM) evidence base. The Integrated Stress Response provides a mechanistic frame that reconceptualises pacing not merely as energy budgeting but as prevention of an ISR cycle that, once entered, may be difficult to exit.
+
+#hypothesis(title: [Pacing as ISR Cycle Prevention: Keeping Activity Below the eIF2α Phosphorylation Threshold])[
+*Certainty: 0.50.*
+The PEM biphasic ISR cycle hypothesis (@hyp:pem-biphasic-isr) predicts that each PEM episode is an ISR cycle entry: exertion above a threshold triggers acute eIF2α phosphorylation (Phase 1, protective), followed by ATF4-driven transcriptional reprogramming (Phase 2, maladaptive when sustained), followed by --- in ME/CFS --- incomplete resolution due to impaired GADD34/PP1 dephosphorylation (Phase 3 failure). Under this model, each PEM episode leaves a residual ISR state slightly above pre-episode baseline, progressively raising the tonic ISR level over months to years.
+
+Pacing --- staying below the exertional threshold that triggers Phase 1 eIF2α phosphorylation --- prevents ISR cycle entry. This is mechanistically distinct from the conventional energy-envelope framing: the target is not a vague "energy envelope" but the specific exertional intensity that activates PERK (and other ISR kinases) in skeletal muscle and neuronal tissue. Heart rate variability (HRV) and heart rate at ventilatory threshold (HRat-VT from CPET data) may be practical proxies for this threshold in clinical pacing guidance.
+
+*Predicted consequence of threshold violation:* Exertion above threshold initiates Phase 1 → 2 ISR transition. The 24--48 hour PEM delay reflects ATF4 transcriptional kinetics (Phase 2 peak). The severity of Phase 2 depends on baseline ATF4 level (chronically elevated in ME/CFS), predicting that the same exertion dose produces more severe and longer PEM in patients with higher baseline tonic ISR.
+
+*Therapeutic implication:* Wearable physiological monitoring calibrated to individual ISR-trigger heart rate thresholds (derived from CPET ventilatory threshold data) may enable more precise pacing than activity/symptom diary-based approaches. Adherence to threshold-based pacing should reduce plasma GDF15 and FGF21 over weeks (as tonic ATF4 activity decreases), providing a measurable pacing adherence biomarker.
+
+*Limitation:* No study has directly measured eIF2α phosphorylation in ME/CFS patients following sub-threshold versus supra-threshold exertion. The ISR-pacing threshold is inferred from general ISR kinetics and animal models; the specific threshold in ME/CFS patients is unknown. Heart rate at ventilatory threshold from CPET data provides one proxy, but patient-specific ISR kinetics may differ substantially. Pacing itself is validated by clinical evidence independent of the ISR model; this section adds mechanistic rationale, not clinical justification.
+
+*Replication status:* Pacing evidence base is well-established @jason2012energy @NICE2021mecfs. ISR-pacing mechanistic link is novel, not yet replicated.
+] <hyp:pacing-isr-threshold>
+
+=== Heat Therapy, Time-Restricted Eating, and Vagal Stimulation: ISR Frame <sec:isr-lifestyle-misc>
+
+The ISR mechanistic frame generates testable predictions for several other lifestyle interventions.
+
+*Heat therapy (mild repeated sauna / Waon therapy):* HSP70 induction by mild heat provides molecular chaperone support that reduces ER protein misfolding — a primary PERK activator. Paradoxically, this could attenuate the ER-stress arm of chronic ISR. Two small uncontrolled studies of Waon therapy (far-infrared, 60°C) in CFS patients showed symptom improvement @Soejima2015WaonCFS; the HSP70/PERK hypothesis offers a mechanistic rationale. However, the HSAT2 caution (Section @spec:heat-hsat2-caution) applies: heat-shock factor 1 (HSF1) also drives HSAT2 repeat transcription. Until HSAT2 stratification is available, heat therapy should be used below temperatures producing overt heat-shock responses.
+
+#open-question(title: [Does Mild Repeated Heat Exposure Reduce Chronic PERK Activation in ME/CFS Muscle?])[
+  HSP70 and GRP78/BiP are ER chaperones that resolve misfolded protein burden — the trigger for PERK auto-phosphorylation. If ME/CFS muscle PERK activation is driven by a sustained protein-folding deficit @wang2023wasf3, gradual induction of ER chaperone capacity via mild, below-crash-threshold heat exposure could attenuate PERK signalling over weeks. This is mechanistically distinct from the ISR suppressor drugs (Section @sec:isr-modulating-interventions): rather than blocking ISR kinases directly, it reduces the upstream stimulus.
+
+  *Testable prediction:* Mild repeated heat exposure (5×/week × 4 weeks, 55–60°C ambient, ≤15 min) will reduce muscle PERK phosphorylation and WASF3 expression at biopsy, and reduce plasma GDF15, compared to a temperature-matched control (neutral-temperature rest). Benefit should be larger in patients with documented ISR-high signature.
+
+  *Limitation:* No ISR-endpoint heat-therapy data in ME/CFS exist. HSAT2 risk in susceptible patients is uncharacterized (Section @spec:heat-hsat2-caution). Not a clinical recommendation.
+] <oq:heat-isr-perk>
+
+*Cold exposure (N3):* Cold tolerance is frequently impaired in ME/CFS; cold-induced sympathetic surge can exacerbate orthostatic intolerance. Cold activates HRI (heme-regulated inhibitor kinase), an ISR arm relevant to haemoglobin and iron status — a connection untested in ME/CFS. Cold exposure is not recommended without orthostatic intolerance exclusion (Section @oq:cold-exposure-hsat2).
+
+*Time-restricted eating (TRE):*
+
+#open-question(title: [Time-Restricted Eating as ISR Dynamic-Range Restoration via Pulsatile GCN2 Activation])[
+  GCN2 (the amino-acid-sensing ISR kinase) requires uncharged tRNAs for activation. Prolonged caloric availability may flatten the normal pulsatile GCN2 activation pattern, contributing to steady-state low-grade ISR. Time-restricted eating — specifically 14:10 (14-hour overnight fast) — imposes brief daily GCN2 activation during the early fasting window, potentially resetting ISR dynamic range, analogous to how intermittent exercise conditioning maintains cardiac reserve.
+
+  *Predicted biomarker response:* 14:10 TRE for 4 weeks should restore pulsatile FGF21 dynamics (morning FGF21 peak with afternoon nadir) currently flattened in ME/CFS patients. GDF15 should decrease from tonic baseline over 4–8 weeks if tonic ATF4 activity is reduced.
+
+  *Caution:* Prolonged fasting worsens orthostatic intolerance and risks hypoglycaemia in patients already operating at metabolic limits. A 14:10 window (no food after 8 pm, first meal at 10 am) is the mildest evidence-supported form; 16:8 or longer protocols are contraindicated for severe ME/CFS. Certainty: 0.20 — mechanistic rationale from GCN2 biology; no ME/CFS data.
+] <oq:tre-isr-gcn2>
+
+*Hyperbaric oxygen (HBO):*
+
+#open-question(title: [Hyperbaric Oxygen as HIF-1α Suppressor and ER Stress Reducer in ME/CFS])[
+  HBO reduces HIF-1α — the master hypoxia-inducible transcription factor — and attenuates ER stress in tissues with ischaemic hypoperfusion. Some Long COVID trials have reported HBO benefit; ME/CFS shares documented tissue hypoperfusion patterns. If ER stress in ME/CFS is partly sustained by local tissue hypoxia activating the HIF-1α/PERK axis (hypoxia is an independent PERK activator), then HBO-mediated HIF-1α suppression could reduce PERK input and attenuate chronic ISR. Certainty: 0.25 — mechanistic chain plausible; no ISR-endpoint HBO data in ME/CFS. HBO trials require clinical facility access; not self-administrable.
+] <oq:hbo-isr>
+
+*Transcutaneous auricular vagus nerve stimulation (taVNS):* The existing taVNS rationale (Section @sec:tavns-lifestyle) covers cholinergic anti-inflammatory pathway and autonomic rebalancing. The ISR frame adds a mechanistic specification: vagal efferent activation suppresses microglial NF-κB, reducing neuroinflammatory ISR kinase activation in brainstem nuclei (locus coeruleus, NTS) where HHV-6 reactivation has been postulated @Kasimir2022HHV6Tissue. taVNS ISR effect is indirect via neuroinflammation reduction, not direct ISR kinase modulation. Certainty: 0.20 — indirect mechanistic chain; no ISR-biomarker taVNS data in ME/CFS.

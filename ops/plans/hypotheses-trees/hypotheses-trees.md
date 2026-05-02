@@ -111,11 +111,11 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | hsat2-hypotheses      | [subtrees/hsat2-hypotheses.md](subtrees/hsat2-hypotheses.md)          | 2026-05-01      | 42         | 42         | ✅ complete    |
 | igg-drg               | [subtrees/igg-drg.md](subtrees/igg-drg.md)                            | 2026-04-30      | 39         | 0          | ⬜ stub        |
 | immunoadsorption      | [subtrees/immunoadsorption.md](subtrees/immunoadsorption.md)          | 2026-04-20      | 40         | 0          | ⬜ stub        |
-| isr                   | [subtrees/isr.md](subtrees/isr.md)                                    | 2026-05-01      | 52         | 0          | ⬜ stub        |
+| isr                   | [subtrees/isr.md](subtrees/isr.md)                                    | 2026-05-01      | 48         | 47         | ✅ done (H9 queued → mcas-isr) |
 | lichen-sclerosus      | [subtrees/lichen-sclerosus.md](subtrees/lichen-sclerosus.md)          | 2026-05-01      | 24         | 0          | ⬜ stub        |
 | li-mg-analogs         | [subtrees/li-mg-analogs.md](subtrees/li-mg-analogs.md)                | 2026-04-17      | 12         | 0          | ⬜ stub        |
 | lithium-ip3           | [subtrees/lithium-ip3.md](subtrees/lithium-ip3.md)                    | 2026-04-17      | 21         | 0          | ⬜ stub        |
-| mcas-domain6          | [subtrees/mcas-domain6.md](subtrees/mcas-domain6.md)                  | 2026-05-01      | 23         | 0          | ⬜ stub        |
+| mcas-domain6          | [subtrees/mcas-domain6.md](subtrees/mcas-domain6.md)                  | 2026-05-01      | 23         | 23         | ✅ complete    |
 | metabolic-reserve     | [subtrees/metabolic-reserve.md](subtrees/metabolic-reserve.md)        | 2026-04-20      | 34         | 0          | ⬜ stub        |
 | neuroplasticity       | [subtrees/neuroplasticity.md](subtrees/neuroplasticity.md)            | 2026-03-27      | 16         | 0          | ⬜ stub        |
 | pregnancy-repro       | [subtrees/pregnancy-repro.md](subtrees/pregnancy-repro.md)            | 2026-04-25      | 35         | 0          | ⬜ stub        |

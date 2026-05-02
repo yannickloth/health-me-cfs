@@ -9,8 +9,8 @@ This chapter explores therapies at the frontier of ME/CFS treatment---approaches
 *Available now (off-label, with supportive evidence):*
 - CoQ10 200~mg + NADH 20~mg daily: Highest-quality current evidence (RCT n=207 @CastroMarrero2021CoQ10); appropriate for discussion with all patients
 - Pyridostigmine 30--60~mg: Two positive controlled hemodynamic studies @Joseph2022pyridostigmine @Squires2023pyridostigmine; appropriate for patients with documented orthostatic intolerance or preload failure
-- Low-dose naltrexone 1.5--4.5~mg: Convergent evidence across fibromyalgia and ME/CFS case series; reasonable to offer patients unresponsive to first-line symptomatic management (see Chapter @sec:sigma1-fluvoxamine)
-- Fluvoxamine 25~mg: Sigma-1 receptor agonism with small ME/CFS trial support (see Chapter @sec:sigma1-fluvoxamine)
+- Low-dose naltrexone 1.5--4.5~mg: Convergent evidence across fibromyalgia and ME/CFS case series; reasonable to offer patients unresponsive to first-line symptomatic management (see Section @sec:sigma1-fluvoxamine)
+- Fluvoxamine 25~mg: Sigma-1 receptor agonism with small ME/CFS trial support (see Section @sec:sigma1-fluvoxamine)
 
 *Active clinical trials (consider referring eligible patients):*
 - Vericiguat (NCT05697640, Charité Berlin): Ion homeostasis via sGC stimulation
@@ -36,7 +36,7 @@ This chapter explores therapies at the frontier of ME/CFS treatment---approaches
 
 Before examining specific interventions, several overarching conceptual frameworks offer novel approaches to treatment design.
 
-#hypothesis(title: [Metabolic State Transition])[
+#speculation(title: [Metabolic State Transition])[
 *Certainty: 0.25.* ME/CFS may represent a stable but maladaptive metabolic state---analogous to cellular "hibernation" or the evolutionarily conserved sickness behavior response that became pathologically persistent. The body entered a low-energy conservation mode in response to an initial trigger (infection, trauma, severe stress) but failed to receive or respond to the "all clear" signal to return to normal metabolism. If true, effective treatment may require interventions that trigger metabolic state transitions rather than symptom suppression. Candidate approaches include:
 
 - Controlled metabolic stressors (fasting, hypoxia, temperature extremes) that force cellular adaptation
@@ -46,7 +46,7 @@ Before examining specific interventions, several overarching conceptual framewor
 This framework suggests that gradual, gentle interventions may perpetuate the maladaptive state, while carefully designed acute challenges might catalyze transition---though the risks of such approaches in a population with impaired stress tolerance are substantial. *Falsifiable prediction*: Protocols that include a controlled metabolic stressor (e.g., a single 24-hour fast or brief hypoxic exposure) will outperform matched controls receiving pacing alone on 6-month SF-36 PF score in a prospective trial.
 ]
 
-#hypothesis(title: [Cellular Danger Response Persistence])[
+#speculation(title: [Cellular Danger Response Persistence])[
 *Certainty: 0.25.* Robert Naviaux's cell danger response (CDR) hypothesis @Naviaux2014cdr proposes that cells remain stuck in a defensive metabolic mode characterized by reduced mitochondrial function, altered purinergic signaling, and maintained inflammatory readiness. The CDR evolved as a protective response to threats, but in ME/CFS, the "threat resolved" signal may never arrive or may not be recognized. Therapeutic implications include:
 
 - Antipurinergic therapy (suramin showed promise in an autism pilot trial @Naviaux2018suraminpilot; ME/CFS trials have not been conducted)
@@ -57,7 +57,7 @@ This framework suggests that gradual, gentle interventions may perpetuate the ma
 *Falsifiable prediction*: A sham-controlled trial of antipurinergic therapy in ME/CFS will show significant reduction in post-exertional symptom severity relative to sham, with effect size SMD #sym.gt 0.4.
 ]
 
-#hypothesis(title: [Glymphatic Dysfunction and Neuroinflammatory Persistence])[
+#speculation(title: [Glymphatic Dysfunction and Neuroinflammatory Persistence])[
 *Certainty: 0.20.* Sleep in ME/CFS is characteristically non-restorative despite adequate duration. The glymphatic system---the brain's waste clearance mechanism---operates primarily during deep sleep @Xie2013glymphatic. If glymphatic function is impaired, neuroinflammatory debris may accumulate, perpetuating microglial activation and cognitive dysfunction. Testable interventions include:
 
 - Sleep architecture optimization targeting slow-wave sleep (when glymphatic clearance peaks)
@@ -154,14 +154,14 @@ The delay mechanisms most amenable to intervention include:
 
 - *Delayed-type immune activation*: Exercise releases damage-associated molecular patterns (DAMPs) triggering cytokine production that peaks 24--48h post-stimulus in classical DTH patterns. _Intervention target_: Modulate immune activation in the 12--24h window.
 
-#hypothesis(title: [Dual Pathway Requirement for PEM Prevention])[
+#speculation(title: [Dual Pathway Requirement for PEM Prevention])[
 *Certainty: 0.20.* Anti-inflammatory interventions alone are insufficient for PEM prevention because the core dysfunction is ATP production failure---this follows logically from the mechanism. *Whether energy restoration alone is sufficient, or whether cascade interruption is also required, remains untested.* The hypothesis that both pathways must be addressed rests on two theoretical considerations:
 
 + *Energy restoration (ATP/NAD#super[+] support)*: Required because ATP depletion is the initiating driver (mechanistically established)
 + *Cascade interruption (anti-inflammatory/antioxidant)*: Hypothetically required because unchecked inflammatory cascades might (a) cause secondary ATP depletion through cytokine-mediated mitochondrial dysfunction, or (b) create symptoms independent of energy status through direct tissue damage
 
 *Falsifiable prediction*: In a factorial trial, the ATP/NAD#super[+] support arm alone will achieve #sym.lt 30% PEM severity reduction, while the combined arm will achieve #sym.gt 50% reduction, demonstrating necessity of cascade interruption in addition to energy substrate provision. *Empirical question:* Could ATP/NAD#super[+] support alone achieve 60--80% severity reduction, or is anti-inflammatory intervention necessary? This requires comparative trials. Until then, addressing both pathways simultaneously represents the most mechanistically complete approach.
-] <hyp:pem-dual-pathway>
+] <spec:pem-dual-pathway>
 
 === Emergency PEM Protocol
 <subsubsec:emergency-pem-protocol>
@@ -1451,6 +1451,8 @@ Anti-PD-1 therapies carry a well-characterized risk of immune-related adverse ev
 == Psychedelic and Neuromodulatory Approaches
 <sec:psychedelic-neuromodulatory>
 
+Several substances that alter neuromodulatory signaling have attracted research interest in ME/CFS, primarily for their potential to address neuroinflammation, serotonergic dysregulation, and altered default-mode-network activity. All approaches in this section are experimental; none has been tested in a controlled ME/CFS trial.
+
 == Psilocybin
 <subsec:psilocybin>
 
@@ -1762,7 +1764,7 @@ For ME/CFS patients with confirmed Domain 6 positivity (mast cell / histaminergi
 
 *Monitoring:* Baseline and 4-week COMPASS-31 score (autonomic symptom severity). Urinary N-methylhistamine at baseline and 8 weeks (confirm mast cell mediator reduction). If significant sedation from ketotifen limits daytime function, switch to loratadine 10 mg (less sedating, less mast-cell-stabilizing) as H1 component.
 
-*Interactions:* Ketotifen may enhance sedation from CNS depressants, antiemetics (particularly metoclopramide), and other antihistamines. Famotidine has minimal drug interactions at standard doses but may affect atazanavir absorption if relevant. Both are generally well-tolerated in ME/CFS populations.
+*Interactions:* Ketotifen may enhance sedation from CNS depressants, antiemetics (particularly metoclopramide), and other antihistamines. *QTc risk:* Ketotifen and ondansetron (commonly used for ME/CFS nausea/gastroparesis) both prolong the QTc interval; the combination should be avoided or used only with baseline and follow-up ECG. Famotidine has minimal drug interactions at standard doses but may affect atazanavir absorption if relevant. Both are generally well-tolerated in ME/CFS populations.
 
 #warning-env(title: [No ME/CFS RCT for this Combination Exists])[
 No randomized controlled trial has evaluated ketotifen + famotidine in ME/CFS. The 77--95% PEM reduction rates reported by @Weinstock2024Ketotifen come from an uncontrolled retrospective analysis; placebo response, natural fluctuation, and selection bias cannot be excluded. The Steinberg 1996 terfenadine (H1 monotherapy) RCT was negative @Steinberg1996 -- H1 alone is insufficient. H1+H2 combination is the minimum effective approach based on mechanistic reasoning and available case evidence. Physician supervision is required.
@@ -1772,6 +1774,50 @@ No randomized controlled trial has evaluated ketotifen + famotidine in ME/CFS. T
 
 *Evidence grade:* D+ (clinical convention + retrospective case data + mechanistic rationale; no prospective controlled ME/CFS trial).
 ] <hyp:ketotifen-famotidine-first-line>
+
+== Low-Dose Imatinib for KIT-Driven Mast Cell Hyperplasia Subset
+<sec:imatinib-kit-mast>
+
+#speculation(title: [Low-Dose Imatinib as a Precision Approach for KIT-Driven Mast Cell Hyperplasia in ME/CFS])[
+*(Certainty: 0.25 -- based on KIT pathway biology in non-clonal MCAS case series and indirect evidence from mastocytosis treatment; no ME/CFS-specific trial. Not yet replicated.)*
+
+A subset of MCAS patients have somatic or germline KIT pathway alterations -- including the D816V KIT mutation or gene expression-level KIT upregulation -- that drive mast cell hyperplasia and hyperreactivity without meeting full systemic mastocytosis criteria. Imatinib (a tyrosine kinase inhibitor targeting BCR-ABL, KIT, and PDGFR) has shown benefit in small case series of non-clonal MCAS with KIT pathway involvement @Lee2025CanadaMCAS. At low doses (100 mg daily rather than oncology doses of 400--800 mg), imatinib is generally well-tolerated.
+
+In ME/CFS-MCAS patients with persistently elevated baseline tryptase (>11 ng/mL, the threshold above which clonal mast cell disease should be excluded per @Valent2021criteria) or positive KIT D816V testing in peripheral blood or skin biopsy, low-dose imatinib represents a precision subset approach: narrowly targeted to patients with biochemical evidence of KIT pathway involvement, avoiding non-specific immunosuppression.
+
+*Who might benefit:* ME/CFS-MCAS patients who (a) meet MCAS diagnostic criteria, (b) have persistent tryptase >11 ng/mL on at least two separate measurements, (c) have failed H1+H2 antihistamine + mast cell stabilizer combination (Sections @sec:ketotifen-famotidine-domain6 and @sec:cromolyn-ldn-mcas), and (d) have had systemic mastocytosis excluded by bone marrow biopsy or tryptase trend.
+
+*Starting dose for ME/CFS sensitivity:* 100 mg daily with food. Titrate only under specialist supervision (haematology or allergy/immunology with mastocytosis experience).
+
+*Monitoring:* CBC with differential monthly (cytopenias), LFTs monthly, serum tryptase at baseline and 12 weeks. Discontinue if grade 2 or above cytopenias or hepatotoxicity.
+
+*Stopping criteria:* No tryptase reduction (>20% from baseline) at 12 weeks, or no clinical response on validated symptom scale at 16 weeks. Imatinib must not be stopped abruptly if extended use; taper per specialist guidance.
+
+*Drug interactions:* Imatinib is metabolized by CYP3A4 and inhibits CYP2D6 and CYP3A4. Check interactions with all current medications. Notable interactions in ME/CFS polypharmacy: midodrine (CYP3A4 substrate), some antihistamines, warfarin (CYP2C9 probe).
+
+*Evidence grade:* E (case series from non-ME/CFS populations; no controlled trial; mechanism supports trial in tryptase-elevated subset).
+] <spec:imatinib-kit-mast-subset>
+
+== Auricular tVNS as a Mast Cell Brake
+<sec:tvns-mast-cell-brake>
+
+#speculation(title: [Transcutaneous Auricular Vagus Nerve Stimulation as a Non-Invasive Mast Cell Suppressor])[
+*(Certainty: 0.30 -- based on established cholinergic anti-inflammatory pathway and tVNS RCTs in inflammatory conditions; the mast cell-specific mechanism has not been tested in ME/CFS. Not yet replicated.)*
+
+The cholinergic anti-inflammatory pathway (CAP) suppresses mast cell degranulation via alpha-7 nicotinic acetylcholine receptors (alpha7 nAChR) expressed on mast cells. Vagal efferent activity releases acetylcholine at peripheral ganglia, which inhibits downstream mast cell activation through alpha7 nAChR-mediated suppression of calcium influx and NF-kB signaling. In ME/CFS-MCAS patients, reduced vagal tone (documented in autonomic studies) removes this cholinergic brake, potentially permitting greater mast cell reactivity.
+
+Transcutaneous auricular vagus nerve stimulation (tVNS) activates the auricular branch of the vagus nerve non-invasively, driving cholinergic efferent output. In ME/CFS, tVNS has documented effects on heart rate variability and orthostatic tolerance (Section @sec:tvns-pots). The hypothesis is that in MCAS-positive ME/CFS patients specifically, tVNS may additionally reduce mast cell reactivity by restoring cholinergic mast cell inhibition.
+
+This mechanistic rationale is supported by two lines of evidence: (a) mast cell degranulation in vitro is suppressed by nicotine and acetylcholine receptor agonists via alpha7 nAChR; (b) in rodent models, vagal stimulation reduces peritoneal mast cell degranulation. Neither has been demonstrated in human ME/CFS patients.
+
+*Practical protocol for MCAS-positive ME/CFS patients:* Start with 5--10 minutes daily tVNS (auricular branch targeting cymba concha), building slowly to 30 minutes over 4--6 weeks per the standard ME/CFS tVNS titration protocol (Section @sec:tvns-pots, Chapter @ch:action-mild-moderate). Monitor for PEM aggravation; reduce session duration immediately if symptoms worsen.
+
+*Monitoring for MCAS-specific response:* Track urinary N-methylhistamine at baseline and 8 weeks. Track MCAS flare frequency (daily diary). An MCAS-specific response to tVNS (reduced mediator levels, reduced flare frequency) would provide evidence for the cholinergic mechanism, distinguishing it from ANS or mood effects.
+
+*Testable prediction:* 30 minutes daily auricular tVNS for 8 weeks in MCAS-positive ME/CFS patients will reduce urinary N-methylhistamine by >=20% versus sham stimulation (sub-threshold, ineffective position), with a concurrent increase in HRV (vagal tone restoration as mechanism marker).
+
+*Limitations:* No trial has measured mast cell mediators as an outcome in tVNS studies. Sham tVNS design is technically demanding (placebo response to device use is substantial). The CAP mast cell suppression pathway is established in preclinical models but its magnitude in vivo in human MCAS patients is unknown -- the clinical effect size may be too small to detect with routine mediator assays.
+] <spec:tvns-mast-brake>
 
 == Post-Parasitic MCAS Phenotype
 <sec:post-parasitic-mcas>
@@ -2484,3 +2530,111 @@ Proposed mechanistic matching: *Haplogroup H* (tight coupling, exercise-crash ph
 
 *Falsifiable prediction:* In a 16-week pilot (n = 60, stratified by haplogroup H vs. non-H), haplogroup-matched vs. cross-matched supplement assignment will produce a statistically distinguishable difference in exercise-crash frequency (for H) and bloating (for U/J) at p < 0.05. Note: consumer haplogroup tests carry ~3% major-haplogroup misclassification rate; research applications require validation sequencing. Not yet replicated.
 ] <spec:haplogroup-supplement-personalization>
+
+== ISR-Modulating Interventions: Research-Stage Concepts
+<sec:isr-modulating-interventions>
+
+#warning-env(title: [Research-Stage: ISR-Targeting Drugs Not Approved for ME/CFS])[
+The compounds below target the Integrated Stress Response pathway. None has been tested in a controlled ME/CFS trial. ISRIB, salubrinal, and GCN2/PERK inhibitors are research reagents, not approved therapeutics. Antiviral approaches (Section @sec:antiviral-hhv6-isr) have the strongest existing evidence. Critically, ISR modulation carries *opposite* risk depending on patient subtype (@hyp:isr-bidirectional): an intervention appropriate for the HHV-6-triggered subgroup may be harmful for the post-SARS-CoV-2 subgroup. Patient subtyping is mandatory before any ISR-modulating intervention.
+]
+
+=== ISRIB: Context-Dependent ISR Inhibitor
+<sec:isrib-isr>
+
+#open-question(title: [ISRIB as ISR Suppressor: Potential Benefit in ISR-High Subgroup, Risk in ISR-Low Subgroup])[
+*Certainty (benefit): 0.30.*
+ISRIB stabilises the eIF2B decamer, restoring eIF2 function and global protein synthesis even when eIF2α is phosphorylated @CostaMattioli2020ISRReview. If chronic ATF4-driven OXPHOS suppression constitutes the metabolic ceiling in ME/CFS (@spec:isr-atf4-ceiling), ISRIB would theoretically lift that ceiling. In animal models, ISRIB reverses cognitive deficits associated with chronic ISR activation.
+
+*Critical caveat:* Baron et al.\ demonstrated that ISRIB blocks ISR kinase-mediated mitochondrial elongation --- a *protective* response preventing DRP1 fragmentation @Baron2025ISRMitochondria. In ME/CFS patients with active HHV-6 miR-aU14-driven DRP1 fragmentation @Hennig2022HHV6miRNA, ISRIB could worsen mitochondrial architecture. The bidirectional ISR hypothesis (@hyp:isr-bidirectional) predicts that post-SARS-CoV-2 patients already have ISR suppression; ISRIB would compound this suppression.
+
+*Predicted stratified response:* Benefit expected only in long-duration, HHV-6-seronegative, non-COVID-triggered patients with documented ISR-high muscle signature. Harm or no benefit expected in HHV-6-seropositive or post-COVID subgroup.
+
+*Status:* Research compound; not approved for human use. No ME/CFS or long COVID trial initiated. Not yet replicated in post-viral fatigue.
+] <oq:isrib-mecfs>
+
+=== Salubrinal / Guanabenz (GADD34 Inhibitors): ISR Prolongation
+<sec:salubrinal-mecfs>
+
+#open-question(title: [GADD34 Inhibitors as ISR Prolongers in Post-COVID ISR-Suppressed Subgroup])[
+*Certainty: 0.20.*
+Salubrinal and Sephin1 inhibit GADD34/PP1 dephosphorylation of eIF2α, prolonging the ISR. If the post-SARS-CoV-2 subgroup has chronically suppressed ISR via N2b-mediated PKR inhibition @Aloise2023CoVPKR, GADD34 inhibitors could restore ISR tone. Guanabenz (FDA-approved antihypertensive with GADD34-inhibitory activity, 8--32 mg/day) is the most accessible repurposing candidate given its existing human safety profile.
+
+*Predicted stratified response:* Benefit in long COVID patients with documented low PERK activity; harm in HHV-6-positive ME/CFS with already-elevated ISR.
+
+*Caveat:* Guanabenz's α2-adrenergic agonism (antihypertensive mechanism) may confound autonomic endpoints and worsen orthostatic intolerance in ME/CFS patients --- orthostatic intolerance assessment is mandatory before consideration. Not tested in ME/CFS or long COVID. Not yet replicated.
+] <oq:salubrinal-mecfs>
+
+=== Mdivi-1 and DRP1 Inhibitors: Blocking HHV-6-Driven Mitochondrial Fragmentation
+<sec:mdivi1-mecfs>
+
+#open-question(title: [DRP1 Inhibition to Counter HHV-6 miR-aU14-Driven Mitochondrial Fragmentation])[
+*Certainty: 0.35.*
+Mdivi-1 blocks DRP1-mediated mitochondrial fission. If the HHV-6 miR-aU14--miR-30--p53--DRP1 axis is active in ME/CFS tissue @Hennig2022HHV6miRNA, DRP1 inhibition would address the downstream fragmentation directly. Newer selective DRP1 inhibitors (Drpitor1a) with reduced complex I off-target effects are in preclinical development.
+
+*Limitation:* Mdivi-1 has complex I inhibitory activity; mitochondria already functionally impaired in ME/CFS may be further depressed. May rescue the DRP1 arm but not the WASF3 supercomplex disruption arm (@spec:wasf3-drp1-convergence). Animal-stage only; no human trials. Not yet replicated.
+] <oq:mdivi1-mecfs>
+
+=== Antivirals for HHV-6 ME/CFS: Molecular Rationale Update via miR-aU14
+<sec:antiviral-hhv6-isr>
+
+The antiviral rationale for HHV-6-positive ME/CFS is substantially strengthened by Prusty group mechanistic data @Hennig2022HHV6miRNA @Kasimir2022HHV6Tissue. Earlier rationale rested on serological associations (Lerner, Montoya subset analyses); the miR-aU14 mechanism now provides molecular grounding: HHV-6 reactivation releases miR-aU14 into tissues, driving DRP1-mediated mitochondrial fragmentation and chronic ISR activation.
+
+#speculation(title: [Antivirals in HHV-6-Triggered ME/CFS: miR-aU14/DRP1 Mechanistic Basis for Patient Selection])[
+*Certainty: 0.45.*
+Suppressing HHV-6 replication (valganciclovir 900 mg twice daily, or valacyclovir 1g four times daily for EBV overlap) would reduce miR-aU14 production, attenuating DRP1 activation and downstream mitochondrial fragmentation. This connects antiviral therapy directly to the mitochondrial dysfunction endpoint and provides mechanistic basis for patient selection: HHV-6 dUTPase IgG seropositive AND detectable plasma miR-aU14.
+
+Starting dose for severe/very-severe patients: valganciclovir 450 mg once daily (renal function-adjusted), escalating to standard dose if tolerated. Monitoring: CBC, creatinine, LFTs at 2-weekly intervals in first 3 months (bone marrow suppression risk). Stopping criteria: ANC $<$ 500/µL, creatinine increase $>$ 50% baseline. Interactions: nephrotoxic drug caution; no known interaction with LDN, fludrocortisone, midodrine, or pyridostigmine.
+
+*Predicted stratified response:* Benefit concentrated in HHV-6 dUTPase IgG seropositive patients with detectable miR-aU14 in plasma exosomes. Seronegative patients: no predicted benefit; treatment not justified given toxicity.
+
+*Limitation:* No RCT has used miR-aU14 as a stratification biomarker. Existing trials (Montoya valganciclovir n=30, partially positive; Lerner valacyclovir subset analyses) were not stratified by miR-aU14. (Partially replicated --- antiviral benefit shown in seropositive subsets; miR-aU14 mechanism not yet tested in clinical trials.)
+] <spec:antiviral-hhv6-isr>
+
+=== GCN2 and PERK Inhibitors: Direct ISR Kinase Suppression (Early Preclinical)
+<sec:gcn2-perk-inhibitors>
+
+#open-question(title: [GCN2 and PERK Inhibitors as Research-Stage ISR Normalisation Targets])[
+*Certainty: 0.25 (GCN2 inhibitors); 0.30 (PERK inhibitors).*
+GCN2 inhibitors (GCN2iB) block the amino acid deprivation arm of ISR. Götz et al.\ showed GCN2 suppression extends Drosophila lifespan @Gotz2025ISRLifespan, establishing biological plausibility. PERK inhibitors (GSK2606414) block the ER stress arm most directly implicated in ME/CFS by Wang et al.\ @wang2023wasf3. Pancreatic beta-cell toxicity limits systemic PERK inhibition (PERK is required for insulin secretion); selective tissue-targeted delivery remains an unresolved challenge.
+
+Both classes are in early research or cancer-stage development; neither has been tested in post-infectious fatigue. Not yet replicated in ME/CFS.
+] <oq:gcn2-perk-inhibitors>
+
+=== ISR-Relevant Angles in Established Therapeutics <sec:isr-relevant-established>
+
+Several agents discussed elsewhere in this chapter have mechanistic interactions with the ISR worth noting for completeness.
+
+*Low-dose naltrexone (LDN):* Beyond its established TLR4/microglial mechanism (Chapter @ch:medications-mechanisms), LDN may reduce chronic neuroinflammatory ISR in brainstem nuclei. Microglia are major CNS ISR responders; LDN-mediated microglial de-activation could attenuate local eIF2α kinase activation in NTS and locus coeruleus, potentially contributing to autonomic improvements. This mechanistic frame has not been directly tested; LDN responders should ideally be tracked for reduction in CSF GFAP and ATF4-target signatures (Certainty: 0.30 — indirect inference; no direct LDN-ISR data).
+
+*Low-dose metformin:* Recent data show metformin modulates ATF4 activity downstream of AMPK activation (Section @sec:mitophagy-targeting-mecfs). In the chronic-ATF4 ME/CFS subgroup (patients with documented ISR-high muscle signature), low-dose metformin could attenuate the ATF4-mediated metabolic ceiling via two pathways: (a) AMPK-mediated mitophagy reducing dysfunctional mitochondria that sustain ER stress and ISR activation; (b) mild complex I inhibition triggering mitochondrial dynamics that promote bioenergetic remodelling. A 12-week metformin trial in ME/CFS patients stratified by ISR biomarkers (GDF15, FGF21, muscle ATF4 expression) would test both the PHB2 and ATF4 hypotheses simultaneously. (Certainty: 0.25 — indirect; no ISR-stratified trial data.)
+
+*Rapamycin — mTOR/ISR crosstalk:* mTORC1 and the ISR operate in reciprocal regulation. mTOR inhibition by rapamycin can paradoxically activate ATF4 via 4E-BP1 dephosphorylation, releasing ATF4 mRNA translation from cap-dependent suppression @subsec:rapamycin-updated. This creates a theoretical risk in ISR-high ME/CFS patients: rapamycin may worsen chronic ATF4 activity in the same patients most affected by ATF4-driven OXPHOS suppression. Conversely, in ISR-suppressed (post-COVID) patients, rapamycin-induced mild ATF4 activation could theoretically be beneficial. This interaction has not been studied in ME/CFS. Patient subtyping by ISR state before rapamycin trial is mechanistically motivated (Certainty: 0.15 — complex bidirectional crosstalk; no direct data).
+
+=== ISR-Adjacent Nutritional Interventions: Research-Stage Candidates <sec:isr-nutritional>
+
+The following nutritional and supplement concepts have mechanistic rationale connecting to the ISR pathway. All are research-stage; none has been tested in ISR-stratified ME/CFS cohorts.
+
+#open-question(title: [ISR-Adjacent Supplements: Mechanistic Candidates Lacking ME/CFS Trial Data])[
+
+*Certainty range: 0.15–0.35 across candidates. None is a clinical recommendation.*
+
+The following agents target upstream or downstream nodes of the ISR pathway. Each represents a testable hypothesis, not established therapy.
+
+- *GlyNAC (glycine + N-acetylcysteine):* Restores glutathione and reduces oxidative ER stress, a primary PERK activator @CostaMattioli2020ISRReview. Glycine also feeds the one-carbon pathway downstream of ATF4's serine biosynthesis program. RCT evidence exists in aging contexts; ME/CFS data absent. Certainty: 0.35.
+
+- *Urolithin A (Mitopure):* Induces mitophagy via PHB2, clearing DRP1-fragmented dysfunctional mitochondria — the end-product of HHV-6 miR-aU14-driven fragmentation @Hennig2022HHV6miRNA. Mechanistically complementary to ISR normalisation. Already discussed in Section @sec:mitophagy-targeting-mecfs. Certainty: 0.30.
+
+- *Spermidine:* Polyamine inducing autophagy via eIF5A hypusination modulation; may reduce translational stress that sustains chronic ISR. Available as supplement. No ME/CFS data. Certainty: 0.20.
+
+- *Methylene blue:* Alternative electron carrier bypassing Complex I/III defects from respiratory supercomplex disruption @wang2023wasf3. Addresses the downstream energy deficit. ⚠️ SSRI interaction (serotonin syndrome risk) — contraindicated with fluvoxamine and other serotonergic agents. Certainty: 0.25.
+
+- *BCAA restriction / methionine restriction:* GCN2 is activated by uncharged tRNAs; paradoxically, selective methionine restriction may suppress chronic ATF4 activity by resetting amino acid sensing homeostasis. Methionine-restricted diets are established in aging/longevity contexts (Longo, Fontana). Certainty: 0.15. *Caution: any significant dietary restriction risks worsening malnutrition in severe ME/CFS patients; requires nutritional supervision.*
+
+- *NAD+ precursors (NR, NMN):* Sirtuin activation and PGC-1α induction induce mitochondrial biogenesis, counteracting ATF4-driven OXPHOS suppression at the transcriptional level. Mixed ME/CFS trial data; mechanistic ISR rationale adds a new testable endpoint (ATF4 targets). Certainty: 0.30.
+
+- *Coenzyme Q10 + alpha-lipoic acid:* Supports Complex I/III function; partially compensates for supercomplex disruption. Existing ME/CFS empirical use; ISR frame adds predictive power — response should correlate with baseline WASF3 expression. Certainty: 0.30.
+
+- *Lithium (microdose, 1–5 mg lithium orotate):* GSK3 inhibition and autophagy induction modulate ISR via ATF4. Already discussed for IP3R/MAM axis in Section @spec:fluvoxamine-lithium-ip3r. ⚠️ Renal and thyroid monitoring required even at low doses. Certainty: 0.15.
+
+*Shared falsifiable prediction:* ISR-stratified supplementation trials measuring GDF15, FGF21, and ATF4 target metabolite panels as biomarker endpoints would simultaneously test these hypotheses and generate actionable stratification data.
+] <oq:isr-nutritional-candidates>

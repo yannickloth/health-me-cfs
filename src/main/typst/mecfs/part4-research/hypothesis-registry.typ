@@ -5,8 +5,7 @@
 // Hypothesis, Speculation, Prediction, and Open Question Registry
 // Generated 2026-03-04 by systematic harvest of all 305 environments.
 //
-// INSERTION: Add as new 
-==  in ch25b or as standalone appendix section.
+// INSERTION: Add as new section in ch25b or as standalone appendix section.
 // Ensure longtable package is loaded. Build with: nix build
 // DO NOT auto-insert without reviewer sign-off.
 // ============================================================================
@@ -32,6 +31,8 @@ ordered within domains from highest to lowest certainty.
   / *P*: Prediction — specific, directional; directly falsifiable.
   / *OQ*: Open Question — framed as unresolved; testability implied.
   / *Obs*: Observation — documented empirical finding; certainty reflects confidence in the measurement, not mechanistic interpretation.
+
+_Dual certainty notation_ (e.g., 0.50/0.35): first value is certainty in the claim itself; second value is certainty that the proposed test design is adequate to falsify it. Used only where test feasibility is itself uncertain.
 
 // TODO: Full table conversion from LaTeX format pending.
 // The commented-out block below (lines 42–1239) contains all entries in broken mixed format.
@@ -2520,7 +2521,7 @@ requiring expertise outside ME/CFS scope.
     [H], [0.20],
     [In a factorial trial: ATP/NAD#super[+] support arm alone achieves #sym.lt 30% PEM severity reduction; combined arm achieves #sym.gt 50% reduction, demonstrating necessity of cascade interruption in addition to energy substrate provision.],
     [Factorial RCT: (1) energy arm (D-ribose, NR/NMN, creatine), (2) anti-inflammatory arm (NAC, omega-3, curcumin), (3) combined, (4) placebo. Primary outcome: PEM AUC severity days 1--7. No ME/CFS trial of this design exists (2026).],
-    [Ch.18 @hyp:pem-dual-pathway],
+    [Ch.18 @spec:pem-dual-pathway],
 
     [AIMM Cascade Node: Which is Rate-Limiting for Clinical Improvement?],
     [OQ], [---],
@@ -4600,8 +4601,116 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Post-mortem brainstem tissue ISH/IHC (requires donated specimens). PET imaging with emerging ISR-sensitive tracers (research-stage). Functional MRI brainstem connectivity + HRV correlation.],
     [Ch.8 @oq:isr-brainstem-autonomic],
 
+    [GDF15 as Peripheral Readout of Tissue-Specific ISR in ME/CFS],
+    [H], [0.55],
+    [Serum GDF15 elevated in ME/CFS vs matched controls (effect size 0.4--0.7). GDF15 rises post-CPET in ME/CFS but not healthy controls, tracking ATF4-induction kinetics. GDF15 correlates with PEM frequency/severity.],
+    [GDF15 ELISA (clinically available). Post-CPET time-course (0, 6, 24, 48 h). Age- and BMI-matched cohort (n ≥ 60 per group). Cross-reference existing ME/CFS plasma biobanks for secondary analysis.],
+    [Ch.20 @hyp:gdf15-isr-readout],
+
+    [Sex-Specific ISR Thresholds as a Partial Explanation for Female Predominance in ME/CFS],
+    [S], [0.25],
+    [Sex-stratified phospho-eIF2α/ATF4 levels in ME/CFS muscle greater in females than severity-matched males. Premenstrual symptom worsening correlates with cycle-phase ATF4-target metabolites (GDF15, FGF21).],
+    [Sex-stratified muscle biopsy ISR study (requires existing NIH cohort data). Menstrual cycle phase log correlated with ATF4 metabolite serial blood draws. Feasible add-on to existing biopsy studies.],
+    [Ch.7 @spec:isr-sex-threshold],
+
+    [ME/CFS as Prodromal Proteinopathy: Long-Term Neurodegenerative Risk via Chronic ISR],
+    [S], [0.15],
+    [Long-term cohort follow-up (20--30y) shows elevated AD/ALS/PD incidence in ME/CFS vs matched controls. CSF p-tau/Aβ42 in long-duration ME/CFS trends toward AD-risk direction.],
+    [Long-term cohort linkage (registry-based, requires large biobank). CSF biomarkers in long-duration ME/CFS (feasible single-site study, n ≥ 30). Not testable within short research horizons.],
+    [Ch.13 @spec:isr-prodromal-proteinopathy],
+
+    [Shared ISR Tissue Signature Across Post-Acute Infection Syndromes],
+    [S], [0.35],
+    [Muscle biopsy ATF4/PERK IHC elevated across ME/CFS, fibromyalgia, long COVID, and Gulf War illness vs depression/deconditioning controls at similar magnitude. ISR direction differs systematically by trigger type.],
+    [Cross-condition biopsy study (requires multicentre coordination). Existing ME/CFS muscle biopsy data can be extended to adjacent cohorts. ISR direction (HHV-6 vs post-COVID) testable within existing ME/CFS data.],
+    [Ch.13 @spec:isr-shared-signature],
+
+    [Pacing as ISR Cycle Prevention: Staying Below the eIF2α Phosphorylation Threshold],
+    [H], [0.50],
+    [Wearable HR threshold pacing calibrated to CPET ventilatory threshold reduces plasma GDF15/FGF21 over 12 weeks (tonic ATF4 decrease). Adherence correlates inversely with PEM frequency and GDF15 level.],
+    [12-week pacing RCT with continuous HRV monitoring (heart rate at VT threshold) vs standard activity diary. GDF15/FGF21 as pharmacodynamic endpoint. Feasible in existing pacing RCT infrastructure.],
+    [Ch.17 @hyp:pacing-isr-threshold],
+
+    [GDF15/FGF21 Ratio as Scalable ISR Activity Index for ME/CFS Trials],
+    [S], [0.45],
+    [GDF15/FGF21 ratio elevated in ME/CFS vs sedentary controls (fasting-controlled). Ratio persists at 48h post-CPET in ME/CFS; returns to baseline in controls within 24h.],
+    [Post-CPET GDF15/FGF21 ELISA time-course (0, 24, 48 h). Fasting-state standardisation essential. Ratio as pharmacodynamic endpoint in ISR-modulating drug trials.],
+    [Ch.20 @spec:gdf15-fgf21-ratio],
+
+    [miR-aU14 in Plasma Exosomes as HHV-6-Triggered ME/CFS Stratification Biomarker],
+    [OQ], [---],
+    [Is HHV-6 miR-aU14 measurable in plasma EVs of HHV-6-seropositive ME/CFS patients at levels distinguishing active reactivation from latency? Does miR-aU14 level predict antiviral treatment response?],
+    [EV isolation (SEC) + Prusty-group miRNA-seq adapted for plasma. Technical challenge: virion vs EV-packaged miR-aU14 distinction. Feasible add-on to existing HHV-6 serology studies.],
+    [Ch.20 @oq:mir-au14-exosome],
+
+    [tRNA Charging Assay for Subclinical GCN2-Arm Amino Acid Stress],
+    [OQ], [---],
+    [Do ME/CFS patients show partially uncharged tRNA profiles sufficient to activate GCN2 without detectable plasma amino acid abnormalities? Which aminoacyl-tRNA synthetase specificities are involved?],
+    [Acylation-sensitive tRNA microarray or ribosome-profiling-based stalling detection in ME/CFS PBMCs. Research-stage; no clinical assay available. Certainty of positive result: 0.20.],
+    [Ch.20 @oq:trna-charging-isr],
+
+    [PET ISR Tracers for Non-Invasive CNS ISR Detection],
+    [OQ], [---],
+    [Can [^18F]-labelled ATF4-target tracers visualise brainstem ISR activation in ME/CFS without tissue biopsy? Would this confirm the HHV-6 brainstem ISR hypothesis?],
+    [Tracer development for ASNS/SLC7A11 PET is in early cancer contexts. Translation to ME/CFS neuroimaging would require 5--10 years development; high mechanistic impact. Certainty: 0.30 (contingent on tracer development).],
+    [Ch.20 @oq:pet-isr-tracers],
+
+    [Skin Biopsy Three-Marker ISR Panel: IENFD + ATF4 + Tryptase],
+    [OQ], [---],
+    [Does adding ATF4 IHC and mast cell tryptase to the existing SFN skin biopsy workflow produce a multi-mechanism tissue readout accessible without muscle biopsy? Does ATF4 in dermal fibroblasts correlate with muscle ISR?],
+    [3mm punch biopsy protocol extension. ATF4 IHC requires antibody validation in normal human skin. Correlation study with muscle biopsy required to establish skin as ISR surrogate. Certainty: 0.40.],
+    [Ch.20 @oq:skin-isr-biopsy],
+
+    [ISR ODE State Variables I(t) and A(t) Extending the PEM Energy Model],
+    [OQ], [---],
+    [Does adding eIF2α phosphorylation I(t) and ATF4 activity A(t) as ISR state variables to the existing PEM ODE system improve model fit to time-resolved biopsy data? Does α > 0 (ATF4 lowering energy ceiling)?],
+    [Fit model to CPET-protocol time-resolved muscle biopsy (pre/+6h/+24h/+48h/+7d). Parameters unconstrained without biopsy data. Certainty of positive result: 0.45.],
+    [Ch.25b @oq:isr-ode-state-variables],
+
+    [ISR Parameter Bifurcation Predicts Healthy vs ME/CFS Attractor Switch],
+    [OQ], [---],
+    [In the (k_dephos, S0) parameter plane, does a fold bifurcation exist separating monostable healthy (I_ss ≈ 0) from bistable ME/CFS (high-I and low-I attractors) regimes? Does this predict treatment hysteresis?],
+    [Bifurcation analysis of expanded PEM ODE; bistability predicts why single-mechanism interventions fail. Certainty: 0.35.],
+    [Ch.25b @oq:isr-bifurcation-analysis],
+
+    [ISR Kinase Quadruplex DAG Extension with Viral Modulation Edges],
+    [OQ], [---],
+    [Does formalising PERK/GCN2/HRI/PKR as four parallel causal nodes in the ME/CFS DAG, with HHV-6-miR-aU14→DRP1 and SARS-CoV-2-N→PKR (inhibitory) edges, identify high-priority intervention targets via causal ancestor analysis?],
+    [DAG extension; no new experiments required — formalism exercise using existing DAG infrastructure. High model-enrichment value if ancestor analysis identifies novel targets.],
+    [Ch.25b @oq:isr-dag-extension],
+
+    [Two-Subpopulation Stochastic Model for ISR Trial Response Heterogeneity],
+    [OQ], [---],
+    [Can a two-subpopulation model (ISR-high vs ISR-suppressed, proportions p_A and 1−p_A) predict that mixed-subgroup ISR trials will produce null results, motivating stratification design?],
+    [Fit p_A from HHV-6 epidemiology. Quantitative prediction: mixed trial expected effect ≈ 0. Falsifiable if ISR-stratified trial produces non-zero effect in either stratum. Certainty: 0.40.],
+    [Ch.25b @oq:isr-two-population-model],
+
+    [Mild Repeated Heat Exposure Reduces Chronic PERK Activation via HSP70/GRP78 Induction],
+    [OQ], [---],
+    [Does mild repeated heat exposure (5×/week × 4 weeks, 55–60°C, ≤15 min) reduce muscle PERK phosphorylation and WASF3 expression, and decrease plasma GDF15 compared to temperature-matched control? Benefit larger in ISR-high patients?],
+    [Randomised cross-over with muscle biopsy (pre/post: PERK-P, WASF3 IHC) + plasma GDF15 ELISA. HSAT2 caution: below overt heat-shock threshold only. Certainty: 0.25.],
+    [Ch.17 @oq:heat-isr-perk],
+
+    [Time-Restricted Eating as ISR Dynamic-Range Restoration via Pulsatile GCN2 Activation],
+    [OQ], [---],
+    [Does 14:10 TRE (4 weeks) restore pulsatile FGF21 dynamics (morning peak / afternoon nadir) and reduce tonic GDF15 in ME/CFS patients? Contraindicated for severe patients with orthostatic intolerance risk.],
+    [Morning/afternoon FGF21 and GDF15 ELISA before and after 14:10 TRE vs isocaloric control. Certainty: 0.20 — GCN2 pulsatile rationale from amino acid biology; no ME/CFS data.],
+    [Ch.17 @oq:tre-isr-gcn2],
+
+    [Hyperbaric Oxygen as HIF-1α Suppressor Reducing ER Stress via PERK Input Reduction],
+    [OQ], [---],
+    [Does HBO reduce HIF-1α-driven PERK activation in ME/CFS tissue hypoperfusion contexts, measurable as reduction in plasma PERK-activity surrogates (GDF15, ATF4 targets) after 20-session HBO protocol?],
+    [Pre/post HBO plasma GDF15, FGF21, ASNS (ATF4 target) in ME/CFS cohort. Certainty: 0.25 — HIF/PERK axis plausible; no ISR-endpoint HBO ME/CFS data.],
+    [Ch.17 @oq:hbo-isr],
+
+    [ISR-Adjacent Nutritional Candidates: GlyNAC, Urolithin A, Spermidine, NAD+, CoQ10, Lithium Microdose],
+    [OQ], [---],
+    [Do ISR-stratified supplementation trials (GlyNAC, urolithin A, spermidine, NR/NMN, CoQ10+ALA, lithium microdose) produce measurable reductions in GDF15/FGF21 and ATF4 target metabolites compared to placebo? Certainty range: 0.15–0.35 across candidates.],
+    [ISR-biomarker-stratified cross-over or RCT per candidate. Shared endpoint: GDF15, FGF21, ATF4-target metabolomics panel. Methylene blue: serotonin syndrome risk with SSRIs (contraindication). Lithium: renal/thyroid monitoring.],
+    [Ch.18 @oq:isr-nutritional-candidates],
+
   ),
-  caption: [Entries added 2026-05-01: ISR/GCN2--ATF4 pathway integration --- 3 hypotheses, 4 speculations, 1 open question across ch06, ch07, ch08. Motivated by @wang2023wasf3, @Hennig2022HHV6miRNA, @Baron2025ISRMitochondria, @Gotz2025ISRLifespan, @CostaMattioli2020ISRReview, @Aloise2023CoVPKR, @Kasimir2022HHV6Tissue, @Omdal2026LCFatigueStress.],
+  caption: [Entries added 2026-05-01 (first batch): ISR/GCN2--ATF4 pathway integration --- 3 hypotheses, 4 speculations, 1 open question across ch06, ch07, ch08. Entries added 2026-05-02 (second batch): 2 hypotheses (GDF15, pacing-ISR), 4 speculations (sex-ISR, prodromal-proteinopathy, shared-ISR, GDF15/FGF21 ratio), 1 open question (miR-aU14) across ch07, ch13, ch17, ch20. Entries added 2026-05-02 (third batch, Phase 4 completion): 11 open questions (tRNA-charging, PET-tracers, skin-biopsy, ODE-ISR, bifurcation, DAG-extension, two-population-model, heat-PERK, TRE, HBO-ISR, ISR-nutritional-candidates) integrated across ch17, ch18, ch20, ch25b. Motivated by @wang2023wasf3, @Hennig2022HHV6miRNA, @Baron2025ISRMitochondria, @Gotz2025ISRLifespan, @CostaMattioli2020ISRReview, @Aloise2023CoVPKR, @Kasimir2022HHV6Tissue, @Omdal2026LCFatigueStress, @Le2025ATF4Mitochondria.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-isr>
 ] // end landscape page
@@ -5461,4 +5570,61 @@ Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability
   caption: [Entries added 2026-05-02 (Phase 4): mtDNA predisposition brainstorm integration — 17 new environments across ch13, ch14d, ch18, ch20. Includes 13 speculations, 4 open questions. Motivated by @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Naviaux2014cdr.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-mtdna-phase4>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Claim*], [*Type*], [*Cert.*], [*Testable Prediction*], [*Proposed Test*], [*Location*],
+    ),
+
+    [Mast Cell--pDC Type-I IFN Echo Loop],
+    [S], [0.15],
+    [(a) MCAS+ME/CFS patients co-elevate serum CXCL8 and IFN-α2. (b) Baricitinib reduces both IFN-α and urinary N-methylhistamine in IFN-signature+MCAS subgroup. (c) pDC depletion in PBMC co-cultures reduces mast cell tryptase release on stimulation.],
+    [Serum CXCL8 + IFN-α2 co-elevation study in MCAS+ME/CFS vs MCAS-negative ME/CFS. PBMC co-culture pDC depletion assay. Baricitinib as research-stage probe (not clinical recommendation).],
+    [Ch.7 @spec:mast-pdc-ifn-loop],
+
+    [Mast Cell Gene Expression Convergence Across ME/CFS, Chronic Lyme, and Bartonellosis],
+    [S], [0.20],
+    [(a) scRNA-seq identifies shared "chronic-pathogen-primed" mast cell cluster in ME/CFS, PTLDS, and bartonellosis absent in atopic controls. (b) MRGPRX2 expression elevated in Borrelia/Bartonella-seropositive ME/CFS. (c) MRGPRX2-modulating treatment pattern preferentially benefits stealth-pathogen-onset ME/CFS.],
+    [scRNA-seq skin punch biopsy mast cells across three disease groups + atopic controls. Serology-stratified MCAS screening in ME/CFS cohort.],
+    [Ch.14d @spec:mast-stealth-pathogen-convergence],
+
+    [Low-Dose Imatinib for KIT-Driven Mast Cell Hyperplasia Subset],
+    [S], [0.25],
+    [ME/CFS-MCAS patients with tryptase >11 ng/mL + KIT pathway expression will show >40% symptom reduction on imatinib 100 mg/day at 6 months.],
+    [Open-label pilot n=20 in tryptase-elevated, mast-cell-stabilizer-refractory ME/CFS-MCAS patients. Requires haematology specialist co-investigator. KIT D816V testing via peripheral blood.],
+    [Ch.18 @spec:imatinib-kit-mast-subset],
+
+    [tVNS as Non-Invasive Mast Cell Suppressor in MCAS+ME/CFS],
+    [S], [0.30],
+    [30 min daily auricular tVNS for 8 weeks in MCAS+ME/CFS will reduce urinary N-methylhistamine by >=20% versus sham; concurrent HRV increase will confirm vagal tone as mechanism marker.],
+    [Sham-controlled tVNS RCT in MCAS-positive ME/CFS (n=40). Primary: urinary N-methylhistamine at 8 weeks. Secondary: COMPASS-31, MCAS flare frequency. Available devices: Parasym, NEMOS.],
+    [Ch.18 @spec:tvns-mast-brake],
+
+    [Mast Cell-Driven Lymphatic Stasis Contributing to Unrefreshing Sleep and Brain Fog],
+    [S], [0.20],
+    [(a) DTI-ALPS index is lower in MCAS-positive vs MCAS-negative ME/CFS. (b) DTI-ALPS improves after 12 weeks mast cell stabilization in MCAS+ but not MCAS- patients. (c) Morning cognitive performance correlates inversely with prior-night urinary N-methylhistamine.],
+    [DTI-ALPS MRI in MCAS-stratified ME/CFS cohort. Pre/post mast cell stabilization MRI sub-study. Morning cognitive battery + urinary mediator diary design.],
+    [Ch.15 @spec:mast-lymphatic-stasis-fog],
+
+    [Procyanidin + Resveratrol as Natural Cromolyn-Mimetic Stack],
+    [S], [0.15],
+    [(a) Bliss synergy score >0.2 for procyanidin+resveratrol in RBL-2H3 mast cell degranulation assay. (b) Grape seed OPC 300 mg + resveratrol 250 mg daily reduces urinary N-methylhistamine by >=15% in baseline-elevated MCAS+ME/CFS at 8 weeks.],
+    [In vitro degranulation synergy assay. Open-label pilot n=20 in MCAS+ME/CFS with elevated baseline mediators. Monitor CYP3A4 interactions.],
+    [Ch.16 @spec:procyanidin-resveratrol-mcas],
+
+    [Histamine-Smart Nutritional Timing (Chronobiological Rather Than Eliminationist)],
+    [S], [0.40],
+    [Patients on time-restricted histamine eating (10am--2pm window) will experience fewer symptom flare days per month than continuous low-histamine restriction at equivalent total histamine load, by daily symptom diary at 4 weeks.],
+    [Randomized crossover: time-restricted histamine window (10am--2pm) vs continuous low-histamine restriction, 4 weeks each, daily diary, urinary mediators at baseline and end of each arm.],
+    [Ch.17 @spec:histamine-timing-chrono],
+
+  ),
+  caption: [Entries added 2026-05-02: MCAS Domain 6 Phase 4 completion — 7 new environments: 6 speculations (pDC IFN loop, Lyme/Bartonella mast cell convergence, imatinib KIT subset, tVNS mast brake, lymphatic stasis brain fog, procyanidin+resveratrol) + 1 speculation (histamine-smart timing). Open-question environments added inline in ch25b (N-of-1 cromolyn causality, PBR28 PET-MRI disambiguation, topical cromolyn hemibody trial, Petri net domain 6 model). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Conway2024BeyondMCAS @Lee2025CanadaMCAS @Valent2021criteria.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-02-domain6-completion>
 ] // end landscape page

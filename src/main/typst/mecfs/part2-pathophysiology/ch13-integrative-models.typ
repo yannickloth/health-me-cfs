@@ -45,7 +45,7 @@ Much of what follows involves substantial uncertainty. The ME/CFS field has been
 == Comprehensive Hypothesis Ranking
 <sec:hypothesis-ranking>
 
-Table @sec:hypothesis-ranking presents the major hypotheses about ME/CFS pathophysiology, ranked by our assessment of their likelihood of being substantially correct. This ranking is inherently subjective and will change as new evidence emerges. We weight: (1) quality and quantity of direct evidence, (2) explanatory power for core symptoms, (3) consistency with treatment responses, and (4) biological plausibility.
+The following table presents the major hypotheses about ME/CFS pathophysiology, ranked by our assessment of their likelihood of being substantially correct. This ranking is inherently subjective and will change as new evidence emerges. We weight: (1) quality and quantity of direct evidence, (2) explanatory power for core symptoms, (3) consistency with treatment responses, and (4) biological plausibility.
 
 // TODO: landscape
 #table(
@@ -604,8 +604,8 @@ The multisystem failure cascade above describes discrete phases, but understandi
 
 ==== Proposed Recruitment Sequence
 
-#hypothesis(title: [Sequential Cycle Recruitment Model])[
-ME/CFS typically begins with one primary vicious cycle (usually mitochondrial) and progressively recruits additional cycles over time:
+#speculation(title: [Sequential Cycle Recruitment Model])[
+*Certainty: 0.25 — Evidence Grade D (not empirically validated; temporal staging is theoretical reconstruction from cross-sectional natural history data).* ME/CFS typically begins with one primary vicious cycle (usually mitochondrial) and progressively recruits additional cycles over time:
 
 *Stage 1* (0–6 months): Mitochondrial cycle only
 
@@ -980,7 +980,7 @@ Chronic inflammatory signaling (especially IFN-$gamma$ and TNF-$alpha$, both ele
 == Hypothesis-Specific Treatment Implications
 <sec:treatment-implications>
 
-Table @tab:treatment-by-hypothesis maps selected hypotheses to their logical treatment implications, with honest assessment of evidence and accessibility. This table focuses on hypotheses with actionable treatment options; speculative hypotheses without current interventions are omitted but appear in Table @sec:hypothesis-ranking.
+Table @tab:treatment-by-hypothesis maps selected hypotheses to their logical treatment implications, with honest assessment of evidence and accessibility. This table focuses on hypotheses with actionable treatment options; speculative hypotheses without current interventions are omitted but appear in the hypothesis ranking table (Section @sec:hypothesis-ranking).
 
 // Placeholder for commented-out table:
 #figure([], kind: table, supplement: [Table], caption: [Treatment Implications by Hypothesis — table conversion pending]) <tab:treatment-by-hypothesis>
@@ -1119,7 +1119,7 @@ The hypothesis predicts a developmental sequence: low-reserve individuals may ex
 
 The Cell Danger Response @Naviaux2014cdr describes the transition from acute CDR activation to chronic disease as a state change, but the existing framework is qualitative. A formal ODE extension would add a state variable $R(t)$ representing mitochondrial reserve capacity, governed by:
 
-$dR\/dt = k_"bio" dot.op I(t) - k_"dam" dot.op S(t) - k_"age" dot.op R(t)$
+$"dR"\/"dt" = k_"bio" dot.op I(t) - k_"dam" dot.op S(t) - k_"age" dot.op R(t)$
 
 where $k_"bio"$ is biogenesis rate (induced by hormesis signals), $k_"dam"$ is damage rate (function of stressor intensity $S$), and $k_"age"$ is age-related quality-control decline. Disease onset occurs when $R(t) < R_"crit"$, a critical threshold. Inherited haplogroup sets the initial condition $R(0)$ and modulates $k_"dam"$ (tighter-coupling haplogroups have smaller damage resistance). This model could be parameterized to reproduce the bimodal ME/CFS onset age distribution (adolescent peak + ~37-year peak); however, with four or more free parameters this constitutes curve-fitting rather than prediction unless parameters are independently constrained from non-ME/CFS data.
 
@@ -2039,3 +2039,59 @@ In this model, LS in a patient with ME/CFS is not merely a comorbidity but a vis
 
 *Limitations:* Shear-wave elastography of fascial tissue has not been standardized in ME/CFS research; confounders include deconditioning, BMI, and age. TGF-β1 elevation in long-duration ME/CFS has not been consistently replicated across cohorts. The LS-fascia prediction is multiply inferential — each inferential step (LS predicts fibrotic terrain → systemic fibrotic risk) dilutes certainty proportionally.
 ] <spec:subclinical-fibrosis-mecfs>
+
+=== Integrated Stress Response as a Cross-Condition Final Common Pathway
+<sec:isr-cross-condition>
+
+The ISR/GCN2--ATF4 pathway, characterised in ME/CFS muscle @wang2023wasf3 and implicated in both herpesvirus and SARS-CoV-2 pathobiology @Hennig2022HHV6miRNA @Aloise2023CoVPKR, overlaps with pathological ISR activation in several neurological and multi-system diseases. This convergence raises the possibility that ME/CFS belongs to a family of ISR-dysregulation disorders rather than constituting a unique pathophysiology.
+
+#speculation(title: [ME/CFS as Prodromal Proteinopathy: Long-Term Neurodegenerative Risk via Chronic ISR])[
+*Certainty: 0.15.*
+Chronic ISR activation is a feature of early-stage Alzheimer's disease (PERK↑, phospho-eIF2α↑ in hippocampus before amyloid plaques), ALS (persistent ISR in motor neurons; sephin1 — a GADD34 inhibitor — has been trialled), Parkinson's disease (PERK in dopaminergic neurons), and prion disease (salubrinal protective in mouse models) @CostaMattioli2020ISRReview. In each condition, chronic ISR eventually impairs proteostasis and DNA repair capacity, facilitating the accumulation of misfolded proteins @Gotz2025ISRLifespan.
+
+ME/CFS may represent a *reversible, early-stage ISR dysregulation* that, in some patients, progresses toward neurodegeneration over decades --- not because ME/CFS is a neurodegenerative disease, but because chronic tissue-specific ISR activation is the shared upstream node. If ISR normalisation occurs (spontaneous recovery, treatment), the downstream proteinopathy risk should not materialise. If ISR remains chronically elevated for decades, cumulative proteostasis failure could elevate late-life risk.
+
+*Testable prediction:* Long-term cohort follow-up (20--30 years) of ME/CFS patients versus matched controls will show elevated age-specific incidence of AD, ALS, or Parkinson's disease. CSF p-tau/Aβ42 ratios in long-duration ME/CFS patients ($>$10 years) will trend toward the AD-risk direction compared with age-matched controls. If long-duration ME/CFS shows no CSF proteinopathy markers → hypothesis falsified.
+
+*Limitation:* No long-term ME/CFS cohort study has followed patients to neurodegenerative endpoints. CSF biomarker studies in ME/CFS are rare and small. This is a population-level statistical prediction, not a claim that ME/CFS causes neurodegeneration in any given patient. The Götz lifespan data are Drosophila-only and unreviewed @Gotz2025ISRLifespan. (Not yet replicated.)
+] <spec:isr-prodromal-proteinopathy>
+
+#speculation(title: [Shared ISR Tissue Signature Across Post-Acute Infection Syndromes])[
+*Certainty: 0.35.*
+ME/CFS, fibromyalgia, long COVID, and Gulf War illness share post-exertional symptom worsening, autonomic dysfunction, and cognitive symptoms despite different triggering exposures (herpesviruses, acute pain sensitisation, SARS-CoV-2, organophosphates). A parsimonious unifying hypothesis: all four conditions involve tissue-specific, non-PBMC ISR dysregulation following diverse triggers, with the ISR abnormality persisting in skeletal muscle and peripheral nervous system tissue regardless of the initiating exposure.
+
+Under this model, the triggering event differs (infection type, chemical exposure, trauma) but the final common cellular pathway is chronic ISR dysregulation with ATF4-mediated OXPHOS suppression, DRG-level energy failure, and autonomic circuit dysregulation. This would predict that multi-tissue ISR biomarker panels (phospho-eIF2α, ATF4 occupancy, GDF15/FGF21 serum) would be abnormal across all four conditions at similar magnitude and direction.
+
+The key distinguishing feature: *ISR direction may differ by trigger* (see @hyp:isr-bidirectional). Post-herpesviruses: ISR overactivated (chronic PERK/ATF4). Post-SARS-CoV-2: ISR partially suppressed then dysregulated. Post-organophosphate (Gulf War): possibly ISR activated via oxidative-stress arm (HRI kinase). This predicts that ISR-modulating treatments would need stratification even within the "shared-ISR" disease family.
+
+*Testable prediction:* Muscle biopsy ATF4/PERK immunohistochemistry will be elevated across ME/CFS, fibromyalgia, long COVID, and Gulf War illness versus depression and deconditioning controls at statistically similar magnitude. ISR direction (phospho-eIF2α absolute level vs. ATF4 activity discordance) will differ systematically across trigger types. If ISR biomarkers are condition-specific or random → shared-pathway hypothesis falsified.
+
+*Limitation:* No cross-condition muscle biopsy study exists. Fibromyalgia and Gulf War illness ISR data are absent; long COVID ISR data exist only in cell models @Aloise2023CoVPKR. The Omdal peripheral blood null result @Omdal2026LCFatigueStress reminds that tissue compartmentalisation complicates any blood-based cross-condition comparison. (Not yet replicated.)
+] <spec:isr-shared-signature>
+
+#open-question(title: [Vanishing White Matter Disease as a Natural Experiment for ISR-Mediated Fatigue])[
+Vanishing White Matter disease (VWM) is caused by loss-of-function mutations in eIF2B subunits --- the GTP exchange factor that reactivates eIF2α after phosphorylation. VWM is thus a direct genetic disease of ISR dysregulation: cells cannot adequately resolve eIF2α phosphorylation after stress, producing chronic or exaggerated ISR activation. The clinical phenotype is strikingly relevant: VWM patients experience fatigue, cognitive decline, ataxia, and --- crucially --- episodic deterioration triggered by febrile illness and physical exertion that is strikingly analogous to PEM @CostaMattioli2020ISRReview.
+
+If ME/CFS reflects acquired (post-viral) ISR dysregulation with reduced eIF2B decamer stability, VWM represents the genetic "extreme" of the same functional deficit. This makes VWM the most mechanistically direct disease comparator for ME/CFS among all neurological conditions. Key open questions: (1) Do milder, heterozygous eIF2B variants associate with ME/CFS susceptibility in GWAS data? (2) Do VWM patients who survive to adulthood develop ME/CFS-like post-exertional syndromes? (3) Would ISRIB (which stabilises eIF2B decamer and partially bypasses eIF2α phosphorylation) benefit VWM patients with mild-to-moderate mutations at the same doses that might benefit ME/CFS?
+] <oq:vwm-mecfs-natural-experiment>
+
+#figure(
+  table(
+    columns: (1.5fr, 2fr, 2fr),
+    align: (left, left, left),
+    table.header(
+      [*Disease*], [*ISR finding*], [*Bridge to ME/CFS*],
+    ),
+    [Alzheimer's disease], [PERK↑, phospho-eIF2α↑ in hippocampus; early pre-plaque activation], [Chronic ISR → proteostasis failure; cognitive symptom overlap; AD risk in long-duration ME/CFS?],
+    [ALS], [Persistent ISR in motor neurons; sephin1 (GADD34 inhibitor) trialled], [Muscle/motor unit ISR overlap; shared therapeutic axis (ISR normalisation)],
+    [Parkinson's disease], [PERK activation in dopaminergic neurons], [Brainstem/autonomic overlap; dopaminergic fatigue mechanisms],
+    [Prion disease], [Chronic ISR in neurons; salubrinal protective in mouse models], [Proof-of-concept: ISR modulation is pharmacologically tractable in vivo],
+    [Long COVID], [SARS-CoV-2 N protein suppresses PKR-ISR; Omicron less suppressive], [Direct mechanistic continuity with post-COVID ME/CFS onset; subgroup-specific ISR direction],
+    [Fibromyalgia], [Small-fibre neuropathy overlap; shared autonomic and pain phenotype], [DRG-ISR hypothesis (@spec:isr-drg-sfn); ISR-SFN bridge applies to both conditions],
+    [Gulf War illness], [Chemical-triggered chronic multi-system illness; HRI kinase candidate], [Same final common pathway hypothesis; different ISR kinase arm],
+    [Mitochondrial disease], [GDF15 and FGF21 elevated as canonical ATF4 targets; validated biomarkers], [GDF15/FGF21 as translatable ISR biomarkers for ME/CFS (see @hyp:gdf15-isr-readout)],
+    [Vanishing White Matter], [eIF2B subunit mutations — ISR cannot resolve; PEM-like exertion-triggered deterioration], [Genetic proof-of-concept that chronic ISR dysregulation produces fatigue and exertion-triggered crashes],
+  ),
+  caption: [Cross-disease ISR connections. Each disease provides a distinct mechanistic or translational bridge to ME/CFS ISR biology. Evidence quality varies: Long COVID and mitochondrial disease connections are directly supported; Gulf War illness and fibromyalgia connections are mechanistic inference. Certainty of individual connections ranges from 0.15 (Alzheimer's neurodegenerative risk) to 0.55 (mitochondrial disease biomarker translation).],
+  kind: table,
+) <tab:isr-cross-disease>

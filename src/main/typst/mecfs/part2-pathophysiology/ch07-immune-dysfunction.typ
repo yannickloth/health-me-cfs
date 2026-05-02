@@ -344,7 +344,7 @@ method @Gardella2025cfRNA
 
 Comparative virology provides indirect support for the viral persistence hypothesis. Kol et al.\ (2026) demonstrated that feline infectious peritonitis virus (FIPV), a naturally occurring coronavirus in cats, replicates not only in macrophages but also in B and T lymphocytes within mesenteric lymph nodes @Kol2026fipv. Critically, rare FIPV RNA-positive lymphocytes persisted after antiviral treatment and full clinical recovery, suggesting that long-lived immune cells serve as viral reservoirs. Because lymphocytes can survive for years, this reservoir may explain relapse and chronic immune dysregulation. FIPV offers a unique comparative model: unlike human studies, where accessing infected lymphoid tissue is ethically and practically difficult, feline FIP permits direct examination of coronavirus–immune cell interactions in naturally infected tissue. While FIPV is not SARS-CoV-2, the shared coronavirus biology—tropism for immune cells, persistence despite apparent clearance, and post-treatment relapse—strengthens the plausibility that analogous mechanisms operate in post-COVID ME/CFS.
 
-#hypothesis(title: [Lymphocyte Reservoir Ratchet])[
+#speculation(title: [Lymphocyte Reservoir Ratchet])[
 
 *Certainty: 0.35.* Mechanistically plausible and supported by comparative virology (FIP model), but no direct human data yet demonstrates SARS-CoV-2 or other ME/CFS-triggering virus persistence specifically within lymphocytes. The hypothesis extends the Ratchet Model (Speculation @spec:infection-damage-ratchet) with a specific reservoir mechanism.
 
@@ -1352,6 +1352,17 @@ The tissue specificity is mechanistically plausible: PERK is preferentially acti
 *Limitation:* Only skeletal muscle (Wang 2023, n=14) and CNS post-mortem (Kasimir 2022, n=3) have been examined. No skin biopsy ISR study exists in ME/CFS. The comparison between tissue compartments in the same patients has not been done.
 ] <hyp:isr-compartmentalisation>
 
+#speculation(title: [Sex-Specific ISR Thresholds: Why ME/CFS Is 4× More Common in Females])[
+*Certainty: 0.25.*
+ME/CFS affects females at approximately four times the rate of males. Estrogen modulates the unfolded protein response and ER stress pathways: 17β-estradiol influences PERK sensitivity through estrogen receptor interactions at the ER membrane and XBP1 splicing efficiency via ERα-mediated co-regulation @CostaMattioli2020ISRReview. Female cells may therefore have a lower threshold for ISR activation following viral insult, predisposing to chronic ATF4 persistence after the same viral trigger that would produce only a transient ISR response in male cells.
+
+This estrogen-modulated ISR threshold model predicts: (a) in premenopausal females, symptom severity fluctuates with oestradiol levels --- phases of lower oestradiol (follicular nadir, premenstrual) may shift the ISR threshold lower, triggering episodes of enhanced ATF4 activity and worsened PEM; (b) postmenopausal women initiating hormone replacement therapy may show altered ISR dynamics in muscle; (c) males who develop ME/CFS may show a distinct ISR signature (shifted toward the GCN2 arm rather than the PERK arm) compared with females with equivalent disease severity.
+
+*Testable prediction:* Sex-stratified phospho-eIF2α and ATF4 levels in ME/CFS skeletal muscle will show greater elevation in females than in age- and severity-matched males. In premenopausal females, serial measurement will show cycle-phase correlation with ATF4-target metabolites (GDF15, FGF21) in plasma. If ISR markers show no sex difference at matched severity → hypothesis falsified.
+
+*Limitation:* No sex-stratified ISR study exists in ME/CFS muscle. The oestradiol–PERK interaction is established in vitro and in animal models; its operation in human skeletal muscle under chronic viral stress has not been tested. Sex-ratio differences in ME/CFS may arise from multiple non-ISR mechanisms (immune susceptibility, health-seeking behaviour, diagnostic criteria sensitivity). (Not yet replicated.)
+] <spec:isr-sex-threshold>
+
 #achievement(title: [International Consensus Framework for Targeting SARS-CoV-2 Reservoir in Long COVID])[
 A multi-institutional Lancet Infectious Diseases position paper @Proal2025Reservoir
 by leading long COVID and ME/CFS researchers established the conceptual and trial-design
@@ -2032,6 +2043,8 @@ Many ME/CFS patients report increased sensitivity to foods, medications, and env
 === Mast Cell Activation Syndrome (MCAS)
 <sec:mcas>
 
+MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section @sec:domain6-mast-cell). Not all patients with histaminergic symptoms meet formal MCAS criteria.
+
 ==== Overlap with ME/CFS
 
 MCAS involves inappropriate mast cell degranulation:
@@ -2325,6 +2338,21 @@ Dermatographism (wheal formation from minor skin pressure) is a classic MCAS sig
 
 *What needs to be established:* sensitivity and specificity of specific force thresholds against Valent 2021 MCAS criteria in an ME/CFS population; test-retest reliability; correlation with urinary N-methylhistamine and LTE#sub[4].
 ] <oq:dermatographism-screen>
+
+#speculation(title: [Mast Cell–Plasmacytoid Dendritic Cell Type-I Interferon Echo Loop])[
+*(Certainty: 0.15 — mechanistic inference from two separate literatures; the loop has not been demonstrated in ME/CFS tissue or any chronic fatigue model. Not yet replicated.)*
+
+Activated mast cells release CXCL8 and IL-4, which recruit plasmacytoid dendritic cells (pDCs) to sites of mast cell degranulation. pDCs are the principal producers of type-I interferons (IFN-α, IFN-β); mast cell-derived CXCL8 is a potent pDC chemokine. pDCs that arrive at mast cell-rich sites may misread the sterile inflammatory environment as viral and produce IFN-α. IFN-α in turn primes mast cells for further activation via IFN-α receptor signaling, creating a positive feedback loop: mast cell degranulation → pDC recruitment → IFN-α production → mast cell sensitization → lower degranulation threshold → more mast cell activity.
+
+If sustained, this loop would produce a chronic, low-grade type-I interferonopathy that clinically mimics persistent viral illness without detectable active virus — consistent with the interferon gene expression signature observed in a subset of ME/CFS patients. This is mechanistically distinct from the post-viral interferon hypothesis (Section @sec:viral): this loop is mast-cell-initiated, not virus-initiated, and would persist even after complete viral clearance.
+
+*Testable predictions:*
+- (a) MCAS+ME/CFS patients will show co-elevation of serum CXCL8 and IFN-α2 simultaneously, more frequently than ME/CFS-MCAS-negative patients
+- (b) JAK1/2 inhibition (baricitinib, which blocks IFN-α receptor signaling) will reduce both IFN-α levels and urinary N-methylhistamine in the MCAS+IFN-signature subgroup, with proportional symptom benefit
+- (c) pDC depletion assays in PBMC cultures from MCAS+ME/CFS patients will reduce tryptase release upon mast cell stimulation, compared to pDC-replete cultures
+
+*Limitations:* The IFN signature in ME/CFS is present in some but not all patients and its cellular source has not been localized to pDCs in any ME/CFS study. Mast cell–pDC spatial proximity in ME/CFS tissue has not been examined. Baricitinib, while used in COVID-19 and rheumatoid arthritis, carries immunosuppression risks in ME/CFS patients who already have NK cell and T-cell dysfunction. The loop could equally be an epiphenomenon of upstream immune dysregulation rather than a self-sustaining driver.
+] <spec:mast-pdc-ifn-loop>
 
 === Allergic Responses
 <sec:allergic-responses>

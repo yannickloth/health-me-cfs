@@ -2019,6 +2019,23 @@ ME/CFS is particularly suited to aggregated N-of-1 methodology for several reaso
 
 We propose that a network of ME/CFS research centers could conduct aggregated N-of-1 trials systematically, building both individual treatment response profiles and population-level evidence for responder biomarkers. This approach would be low-cost compared to large RCTs, would provide immediate individualized clinical utility, and would generate biomarker hypotheses to inform future basket, umbrella, and adaptive trials.
 
+=== Proposed Application: Cromolyn N-of-1 Trial Network for MCAS Causal Hierarchy
+<sec:cromolyn-nof1-causality>
+
+#open-question(title: [Does Mast Cell Stabilization Precede or Parallel Autonomic and Cognitive Improvement in MCAS+ME/CFS? A Causal Sequencing Question])[
+A persistent ambiguity in the MCAS-ME/CFS literature is whether MCAS is an *upstream cause* of autonomic dysfunction and neuroinflammation in a subset, or a *co-occurring comorbidity* sharing the same upstream triggers (autonomic dysregulation, neuroinflammation, oxidative stress). If MCAS is upstream, mast cell stabilization should produce a specific *temporal ordering* of improvement: orthostatic symptoms should improve first (peripheral mast cell effects), followed by cognitive symptoms (central effects via nose-to-brain or vascular routes), followed potentially by PEM frequency. If MCAS is a comorbidity or downstream consequence, the temporal ordering will be absent or random.
+
+Cromolyn sodium is the optimal agent for this test because: (a) it has extremely low systemic bioavailability from the oral route (GI-predominant effects only); (b) it does not cross the blood-brain barrier, eliminating CNS-direct confounding; (c) it has minimal systemic pharmacological activity other than mast cell stabilization. Improvement in OI/PEM/cognition on oral cromolyn would argue specifically for gut and peripheral mast cell upstream causality (not a central drug effect).
+
+*Proposed design:* A network of >=50 N-of-1 crossover trials in MCAS-positive ME/CFS patients (Valent 2021 criteria @Valent2021criteria), each consisting of: 4-week cromolyn sodium (100 mg QID before meals) followed by 2-week washout followed by 4-week placebo, with structured symptom diary (daily OI, cognitive, and PEM symptom ratings). Primary outcome: *proportion of responders showing OI improvement in the first 2 weeks preceding cognitive improvement (within-patient temporal ordering)*. A proportion exceeding 60% would support upstream causality; a proportion near 50% (random ordering) would support comorbidity model.
+
+Secondary outcomes: urinary N-methylhistamine as mast cell activity marker; COMPASS-31 score for OI; 10-item DSQ for PEM frequency. Aggregated N-of-1 data will also be analyzed for baseline biomarker predictors of response (urinary mediator levels, tryptase, Valent criteria count).
+
+*Why N-of-1 rather than RCT:* Standard RCT of cromolyn in ME/CFS would be underpowered due to expected responder rate of 20--30% (MCAS prevalence in ME/CFS) and high heterogeneity. N-of-1 aggregation (>= 50 patients) provides both individual utility and population-level signal.
+
+*Feasibility:* Oral cromolyn is inexpensive, widely available, and has an established safety profile. Patient recruitment via existing MCAS+ME/CFS support networks. The design is implementable without dedicated clinic visits using telemedicine and home sample collection (urinary mediator panels via Mayo Clinic Labs home kits, Section @sec:domain6-mast-cell).
+]
+
 == Metabolic Reserve Predisposition Studies (Architecture C)
 <sec:architecture-c-research-program>
 
@@ -2236,6 +2253,125 @@ If lower SRC at baseline predicts ME/CFS conversion after infection, this would 
 
 *Immediate feasibility:* Existing infectious mononucleosis cohorts (e.g. those used to identify the 13% ME/CFS conversion rate after EBV @Katz2009IMadolescentCFS) could be retrospectively analyzed for stored baseline biospecimens — if PBMCs were cryopreserved, Seahorse analysis may still be possible. This would provide observational (not prospective) data with shorter timeline.
 ] <oq:baseline-reserve-prospective>
+
+== MCAS-Focused Imaging and Trial Research Proposals
+<sec:mcas-research-proposals>
+
+=== 18F-PBR28 PET-MRI for Distinguishing Mast Cell from Microglial Neuroinflammation
+<sec:pbr28-pet-mast-microglia>
+
+#open-question(title: [Can 18F-PBR28 PET-MRI Disambiguate Mast Cell from Microglial Contributions to ME/CFS Neuroinflammation?])[
+Existing PET neuroimaging in ME/CFS uses TSPO (translocator protein 18 kDa) ligands including #super[18]F-PBR28 and #super[11]C-PK11195 to image neuroinflammation. Published results have identified elevated TSPO binding in brainstem, thalamus, and prefrontal cortex in ME/CFS patients versus controls. However, these studies uniformly attribute the signal to microglial activation -- an assumption that merits interrogation.
+
+TSPO is upregulated in both activated microglia *and* activated mast cells in the CNS. Brain-resident mast cells are concentrated in the choroid plexus, thalamus, hypothalamus, and brainstem -- the same regions showing elevated PBR28 binding in ME/CFS. The hypothesis that the PBR28 signal is partly mast cell-derived rather than exclusively microglial is therefore anatomically plausible.
+
+*Proposed disambiguation protocol:* Image ME/CFS patients with documented MCAS (Domain 6 positive, Section @sec:domain6-mast-cell) and without MCAS (Domain 6 negative), using #super[18]F-PBR28 PET-MRI at baseline. Then treat MCAS-positive patients with cromolyn sodium for 4 weeks (mast cell stabilizer, minimal CNS penetration) and repeat imaging. Reduce MCAS-negative patients with a non-mast-cell anti-inflammatory (e.g., low-dose naltrexone) and repeat.
+
+If PBR28 binding decreases specifically in MCAS-positive patients after cromolyn (which does not enter the CNS), this would provide evidence that a component of the TSPO signal is mast cell-derived and peripherally accessible. If binding is unchanged, the signal is more likely microglial.
+
+*Predicted outcome:* Hypothalamic and brainstem PBR28 binding will decrease after 4-week cromolyn in MCAS-positive ME/CFS, but not in MCAS-negative patients. An alternative outcome -- equivalent reduction in both groups after their respective interventions -- would support parallel (rather than mast cell-specific) TSPO regulation.
+
+*Feasibility:* PBR28 PET is available at academic ME/CFS imaging centers (Montoya lab has used it in ME/CFS). Cromolyn is low-cost and available. The main barrier is cost of PET scanning and the need for baseline-matched MCAS-positive vs MCAS-negative cohorts. A study of n=20 (10 MCAS+, 10 MCAS-) would be sufficient for initial signal detection with adequate power for the primary endpoint.
+]
+
+=== Topical Cromolyn Hemibody Trial for Skin-Centric MCAS Phenotyping
+<sec:topical-cromolyn-hemibody>
+
+#open-question(title: [Does Skin Mast Cell Activation Drive Systemic Effects in a Cutaneous-Predominant ME/CFS Subset?])[
+Some MCAS-positive ME/CFS patients have dermal mast cell activation as the most prominent manifestation: dermatographism, urticaria, cutaneous flushing, and chemical sensitivities triggered by skin contact. This phenotype may reflect a skin-centered mast cell pathology where dermal afferent nerve activation drives systemic autonomic and inflammatory effects.
+
+A hemibody topical cromolyn design provides a within-subject control: topical cromolyn sodium 4% cream applied to one arm and torso (treatment side) versus vehicle on the contralateral side for 2 weeks. If cutaneous mast cell activation drives systemic effects through dermal afferents:
+- (a) The treatment side will show reduced mechanical-stimulus wheal formation (>50% reduction at 5g stylus, testing the @oq:dermatographism-screen threshold)
+- (b) If systemic effects are mediated through dermal afferents, bilateral improvement of systemic symptoms (OI, brain fog, flushing) would be expected despite hemibody application -- because the CNS processes afferent signals from both sides
+- (c) If cutaneous MCAS is systemic (driven by circulating mediators), hemibody topical application would produce only local benefit (wheal reduction on treated side only)
+
+This design elegantly distinguishes between skin-driven (neural afferent) and blood-borne (mediator-driven) pathways for MCAS systemic effects, using each patient as their own control.
+
+*Feasibility:* Low-cost, low-risk (topical cromolyn has an established safety profile in ophthalmic and nasal use). Does not require specialized equipment. Dermatographism wheal measurement via standardized stylus pressure is feasible in any clinic setting. Patient recruitment from the dermatographism-positive MCAS subgroup.
+]
+
+== Formal Mathematical Modeling of Domain 6: Multi-Scale Stochastic Petri Nets
+<sec:domain6-petri-net>
+
+#open-question(title: [Is Stochastic Petri Net Formalism Better Suited Than ODEs for Modeling Multi-Scale Domain 6 Dynamics?])[
+Domain 6 (mast cell / histaminergic dysregulation) spans at least four biological scales simultaneously: (1) *molecular* -- mediator release kinetics, receptor binding, calcium flux; (2) *cellular* -- mast cell state transitions (quiescent, primed, degranulated, recovering); (3) *tissue* -- perivascular mediator diffusion, nerve fiber sensitization; (4) *systemic* -- orthostatic intolerance, PEM, cognitive dysfunction. The bistable switch model integrated into Chapter @ch:integrative-models captures one aspect (the quiescent-to-activated transition). But the full domain includes stochastic, discrete-event, multi-scale dynamics that ODEs model poorly.
+
+Stochastic Petri nets (SPNs) offer an alternative formalism specifically designed for this structure: *tokens* represent activation events (mast cell degranulation episodes, mediator pulses); *transitions* encode degranulation probability, recovery dynamics, and inter-domain coupling (e.g., sympathetic nerve firing triggering mast cell activation, mast cell histamine affecting cardiac output). SPNs naturally represent:
+- Stochastic firing (degranulation is probabilistic, not deterministic)
+- Discrete events (a single large degranulation episode vs background trickle)
+- Multiple time scales (fast mediator release in seconds vs slow mast cell recovery in hours)
+- Partial observability (urinary mediators are system outputs; internal mast cell state is hidden)
+
+*Proposed research question:* Fit a stochastic Petri net model of Domain 6 to urinary N-methylhistamine time-series data from a cohort of MCAS+ME/CFS patients. Test whether the SPN model (capturing bimodal state dynamics) out-predicts a linear ODE model for flare frequency distribution in a held-out cohort. Primary success criterion: the SPN model achieves lower AIC than the linear ODE model on held-out data AND improves RMSE for weekly flare count prediction by a pre-specified minimum effect (≥15% relative reduction); a KS-test on residual distributions may be used as a secondary diagnostic, but non-rejection alone (p > 0.05) is not a sufficient validation criterion.
+
+*Feasibility:* SPN software is freely available (SHARPE, SNAKES, Stochastic Pi Calculus simulators). Parameter estimation from urinary mediator time-series requires longitudinal data (weekly urinary panels for 12 weeks per patient) -- a study design that does not currently exist for ME/CFS but is feasible with home collection kits. This is a computational modeling proposal that requires experimental data as input.
+
+*Connection to Part V modeling:* If validated, the SPN model for Domain 6 would provide the formal foundation for a multi-scale integration layer in the Part V model framework (Chapter @ch:modeling-foundations), connecting the ODE-based core model to the discrete-event tissue dynamics of MCAS.
+]
+
+== Formal ISR State Variables in the PEM/Energy ODE Model <sec:isr-ode-extension>
+
+The existing energy-exhaustion ODE model for PEM lacks variables representing the Integrated Stress Response state. The following extensions are proposed to enable formal modelling of the PEM biphasic ISR cycle hypothesis (@hyp:pem-biphasic-isr).
+
+#open-question(title: [Extending the PEM ODE Model with ISR State Variables I(t) and A(t)])[
+*Proposed additions to the existing energy-depletion differential equation system:*
+
+Let $I(t)$ = phospho-eIF2α level (normalised, 0–1; compartment: skeletal muscle) and $A(t)$ = ATF4 transcriptional activity (normalised, 0–1; lagged response to $I$).
+
+Proposed dynamics:
+- $"dI"/"dt" = k_"kin" dot.op S(t) - k_"dephos" dot.op G(t) dot.op I$ where $S(t)$ is exertional stress signal and $G(t)$ is GADD34 activity
+- $"dA"/"dt" = k_"atf4" dot.op I - k_"decay" dot.op A$
+- Energy ceiling: $E_"max"(t) = E_"baseline" dot.op (1 - alpha dot.op A(t))$ — chronic ATF4 suppresses maximal attainable ATP production
+
+*Predicted behaviour:* Exertion above threshold → $I(t)$ peak at 0–24 h (Phase 1, protective); $A(t)$ peak at 24–72 h (Phase 2, maladaptive if $A$ is already elevated). Resolution: $G(t)$ dephosphorylation — if GADD34 is impaired, $I$ returns to elevated baseline rather than zero.
+
+*Falsifiable prediction:* Fit model to time-resolved muscle biopsy data (CPET protocol: pre/+6h/+24h/+48h/+7d). Expect parameter $alpha > 0$ and lagged $A$ response matching PEM temporal kinetics. In healthy controls: $G(t) dot.op I arrow.r 0$ by 72 h; in ME/CFS: $I_"baseline" > 0$ persistent.
+
+*Certainty that the ISR state variable extension improves model fit:* 0.45 — the PEM temporal pattern is the primary supporting evidence; model parameters are unconstrained without biopsy data.
+] <oq:isr-ode-state-variables>
+
+#open-question(title: [Bifurcation Analysis of ISR Parameters: Predicting the Healthy vs ME/CFS Attractor Switch])[
+With ISR state variables $I(t)$ and GADD34 dephosphorylation rate $k_"dephos"$, the PEM ODE system admits bifurcation analysis. Key parameters: $k_"dephos"$ (dephosphorylation rate, reduced in ME/CFS) and $S_0$ (baseline stress influx, increased in ME/CFS).
+
+*Predicted bifurcation structure:* In the $(k_"dephos", S_0)$ parameter plane, a fold bifurcation exists separating:
+- *Monostable healthy attractor:* $I_"ss" approx 0$, $E_"max" approx E_"baseline"$
+- *Bistable ME/CFS region:* stable high-$I$ and low-$I$ attractors; hysteresis in PEM recovery
+- *Monostable ME/CFS attractor:* $I_"ss" >> 0$, chronically reduced $E_"max"$
+
+*Therapeutic prediction:* Interventions that increase $k_"dephos"$ (GADD34 support) or decrease $S_0$ (reduce chronic stress influx) collapse the high-$I$ attractor and enable transition to the low-$I$ regime. The bifurcation diagram predicts why ME/CFS is difficult to reverse by single interventions: only moving across the fold bifurcation boundary produces lasting recovery.
+
+*Certainty:* 0.35 — bistability has been proposed in chronic disease ODE models; specific ISR parameters require empirical constraint. Qualitatively motivated by clinical observation of hysteresis in ME/CFS severity trajectories.
+] <oq:isr-bifurcation-analysis>
+
+#open-question(title: [DAG Extension: ISR Kinase Quadruplex and Bidirectional Viral Modulation Nodes])[
+The existing ME/CFS causal DAG should be extended with the following ISR-related nodes to formally represent the bidirectional dysregulation model (@hyp:isr-bidirectional):
+
+*Proposed new nodes:*
+- PERK (ER-stress arm), GCN2 (amino-acid-deprivation arm), HRI (haem/iron arm), PKR (dsRNA/viral arm) — four parallel eIF2α kinases, each with distinct upstream inputs
+- eIF2α-P → ATF4 → {OXPHOS↓, amino-acid-metabolism↑, FGF21↑, GDF15↑} — downstream transcriptional effects
+- GADD34 → eIF2α dephosphorylation (inhibitory edge, impaired in ME/CFS)
+
+*Proposed new edges:*
+- HHV-6-miR-aU14 → DRP1 → mitochondrial fragmentation (parallel to ISR-protective elongation)
+- SARS-CoV-2-N2b → PKR (inhibitory edge — viral ISR suppression) @Aloise2023CoVPKR
+- ISR-kinases → mitochondrial elongation (protective, blocked by viral fragmentation signals)
+
+*This extension formalises H1–H5 as graph structure*, enabling causal inference analysis of intervention targets: nodes that are causal ancestors of both OXPHOS↓ and DRP1-fragmentation are high-priority therapeutic targets.
+] <oq:isr-dag-extension>
+
+#open-question(title: [Two-Subpopulation Stochastic Model for ISR Trial Response Heterogeneity])[
+ME/CFS clinical trials for ISR-modulating interventions will inevitably show heterogeneous response, obscuring treatment effects if subgroups are not pre-specified. A two-subpopulation stochastic model can quantify this heterogeneity and predict required sample sizes.
+
+*Model structure:*
+- Subgroup A (ISR-high, proportion $p_A$): HHV-6-triggered, chronic PERK/GCN2 elevation. $I_"ss" >> 0$. Response to ISRIB: negative (worsening). Response to antivirals: positive.
+- Subgroup B (ISR-suppressed, proportion $1 - p_A$): post-SARS-CoV-2 PKR suppression. $I_"ss" < I_"normal"$. Response to salubrinal/GADD34 inhibitors: positive. Response to ISRIB: potentially positive.
+
+*Predicted consequence for trial design:* A mixed-subgroup trial of any ISR-modulating agent will have expected effect $approx p_A dot.op "harm"(A) + (1 - p_A) dot.op "benefit"(B) approx 0$ for most agents, mimicking a null result. Stratification by ISR subtype (HHV-6 serology + PERK muscle signature + SARS-CoV-2 trigger) is mandatory for trial success.
+
+*Falsifiable:* Fit $p_A$ from epidemiological data (HHV-6 seroprevalence × reactivation fraction × ME/CFS post-HHV6 fraction). If model-predicted mixed-trial null result is confirmed in historical data, this supports subpopulation stratification as the primary design requirement.
+
+*Certainty:* 0.40 — the qualitative heterogeneity argument is well-supported; quantitative parameter estimation requires ISR-subtype prevalence data not yet available.
+] <oq:isr-two-population-model>
 
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"

@@ -1096,3 +1096,79 @@ Lactate-to-pyruvate ratio at 24 hours post-exertion is a plasma-accessible proxy
 *Relevance:* If confirmed, post-exertional L/P ratio stratified by haplogroup would provide a low-cost, clinically accessible biomarker component for trial enrollment criteria and pacing guidance, requiring no specialized equipment beyond a standard biochemistry panel.
 
 ] <oq:lactate-pyruvate-haplogroup>
+
+== ISR Biomarker Panel: Tissue-Specific Integrated Stress Response Readouts
+<sec:isr-biomarker-panel>
+
+The ISR/GCN2--ATF4 pathway is mechanistically implicated in ME/CFS pathophysiology (Chapter @ch:energy-metabolism, Section @sec:isr-context-dependence), but the tissue compartmentalisation hypothesis (@hyp:isr-compartmentalisation) predicts that blood-based ISR markers will be uninformative. This section describes ISR biomarkers ranging from clinically accessible serum analytes to research-stage tissue assays.
+
+#hypothesis(title: [GDF15 as a Peripheral Readout of Tissue-Specific ISR Activation in ME/CFS])[
+*Certainty: 0.55.*
+GDF15 (growth differentiation factor 15) is a canonical ATF4 transcriptional target, synthesised primarily in metabolically stressed tissues (skeletal muscle, liver, brain) in response to ISR activation. Critically, GDF15 is a secreted protein that crosses tissue compartments into serum, making it a *peripheral readout of tissue-level ISR* --- directly addressing the biomarker failure predicted by compartmentalisation (@hyp:isr-compartmentalisation). GDF15 is robustly elevated in mitochondrial diseases, where ATF4 is constitutively active, and serves as the primary clinical biomarker for mitochondrial myopathy severity @CostaMattioli2020ISRReview.
+
+Beyond its role as a biomarker, GDF15 is pharmacologically active: it signals through GFRAL receptors in the area postrema and nucleus tractus solitarius, producing nausea, anorexia, reduced activity, and fatigue --- symptoms that overlap extensively with ME/CFS. If GDF15 is chronically elevated in ME/CFS due to persistent ATF4 activity, it may directly contribute to symptoms rather than merely reflecting the underlying pathology.
+
+*Testable prediction:* Serum GDF15 will be elevated in ME/CFS versus matched controls with effect size 0.4--0.7. GDF15 will rise post-CPET in ME/CFS but not in healthy controls, tracking ATF4-induction temporal kinetics. GDF15 will correlate with PEM frequency and severity scores. If GDF15 is not elevated at baseline or does not rise post-exertion → tissue ISR hypothesis weakened.
+
+*Limitation:* GDF15 is non-specific: it rises with ageing, BMI, cardiovascular disease, and exercise generally. Absolute levels require age- and BMI-matching. The prediction is not diagnostic specificity but quantitative correlation with ISR activity in ME/CFS tissue. (Not yet replicated specifically for this ISR hypothesis.)
+] <hyp:gdf15-isr-readout>
+
+#speculation(title: [Serum GDF15/FGF21 Ratio as a Scalable ISR Activity Index for ME/CFS Trials])[
+*Certainty: 0.45.*
+FGF21 (fibroblast growth factor 21) is a second canonical ATF4 target secreted by liver and muscle, also responsive to ISR activation @Le2025ATF4Mitochondria. GDF15/FGF21 ratio may offer greater ISR-specificity than either alone: FGF21 also responds to ketogenic state, prolonged exercise, and fasting independently of ISR, while GDF15 is more specifically driven by mitochondrial stress. A GDF15/FGF21 ratio elevated above fasting-exercise baseline would implicate ISR specifically.
+
+*Testable prediction:* GDF15/FGF21 ratio is elevated in ME/CFS patients versus sedentary controls after controlling for BMI, age, fasting state, and activity. The ratio rises and returns to (elevated) baseline in healthy controls within 24 hours post-CPET; ME/CFS patients show persistent ratio elevation at 48 hours. This ratio constitutes a pharmacodynamic endpoint for ISR-modulating interventions.
+
+*Limitation:* GDF15/FGF21 ratio has not been validated as an ISR index in any human study. Ratio variability depends on metabolic state; standardised fasting conditions are required. (Not yet replicated.)
+] <spec:gdf15-fgf21-ratio>
+
+=== Tissue ISR Panel (Muscle Biopsy)
+<sec:tissue-isr-panel>
+
+#open-question(title: [Tissue ISR Panel as a Gold-Standard ME/CFS Biomarker])[
+A panel of ISR activation markers in skeletal muscle biopsy constitutes the highest-confidence readout of ME/CFS ISR pathophysiology but is not scalable to clinical use. The panel includes: phospho-eIF2α (Ser51), ATF4 immunohistochemistry, WASF3 protein (validated in ME/CFS n=14 @wang2023wasf3), CHOP (DDIT3) mRNA, GADD34 (PPP1R15A) mRNA, ASNS mRNA, and FGF21/GDF15 mRNA. This panel would define an "ISR-positive" tissue signature distinguishing ME/CFS from deconditioning and depression.
+
+*What this would establish:* Tissue ISR panel sensitivity/specificity; correlation between tissue signature and symptom severity; whether tissue signature predicts response to ISR-modulating interventions.
+
+*Feasibility:* Muscle biopsy is invasive but clinically routine. Existing ME/CFS biopsy programs (NIH cohort, Davis/Stanford, UK Biobank) could add this panel. ChIP-seq requires ~50 mg tissue; IHC/Western are straightforward. (Certainty of diagnostic utility: 0.50.)
+] <oq:tissue-isr-panel>
+
+=== HHV-6 miR-aU14 Plasma Exosome Assay
+<sec:mir-au14-exosome>
+
+#open-question(title: [miR-aU14 in Plasma Exosomes as a Herpesvirus-Triggered ME/CFS Stratification Biomarker])[
+HHV-6 miR-aU14 drives mitochondrial fragmentation via the miR-30--p53--DRP1 axis @Hennig2022HHV6miRNA and has been detected in ME/CFS post-mortem CNS tissue including dorsal root ganglia @Kasimir2022HHV6Tissue. If measurable in plasma extracellular vesicles, miR-aU14 would stratify patients into HHV-6-reactivating versus non-reactivating subgroups, predicting response to ISR-modulating interventions (@hyp:isr-bidirectional) and antiviral treatment (Chapter @ch:emerging-therapies).
+
+*Technical approach:* EV isolation from plasma (size exclusion chromatography) followed by miRNA sequencing adapted from @Hennig2022HHV6miRNA. Key challenge: distinguishing virion-packaged from exosome-packaged miR-aU14 (latent vs active reactivation). (Certainty: 0.50 for technical feasibility; 0.35 for clinical utility.)
+] <oq:mir-au14-exosome>
+
+=== Functional PBMC ISR Challenge Assay
+<sec:pbmc-isr-challenge>
+
+#open-question(title: [PBMC Ex Vivo ISR Challenge for ISR Resolution Capacity Assessment])[
+The Omdal null result @Omdal2026LCFatigueStress establishes that baseline PBMC ISR markers are uninformative. However, the *dynamics* of ISR resolution may still differ. A functional assay would expose PBMCs to acute ER stressor (thapsigargin 200 nM, 30 min, then washout) and measure phospho-eIF2α kinetics over 0--6 hours.
+
+If GADD34/PP1 dephosphorylation is impaired in ME/CFS (@hyp:pem-biphasic-isr), PBMCs may show delayed resolution even with identical baselines --- converting a null static biomarker into a positive functional biomarker. Most valuable as a pharmacodynamic surrogate endpoint in ISR-modulating drug trials rather than as a diagnostic test. (Certainty of positive result: 0.40.)
+] <oq:pbmc-isr-challenge>
+
+=== Additional ISR Biomarker Candidates <sec:isr-additional-biomarkers>
+
+#open-question(title: [tRNA Charging Assay for Subclinical Amino Acid Stress Detection])[
+GCN2 activation requires uncharged (deacylated) tRNAs rather than direct amino acid sensing. A tRNA microarray-based charging assay could detect subclinical amino acid stress insufficiently severe to alter plasma amino acid levels but sufficient to activate GCN2-ISR. If ME/CFS patients have a subset-specific pattern of partially uncharged tRNAs (particularly isoleucyl-, leucyl-, or methionyl-tRNA) this would provide direct mechanistic evidence for GCN2-arm ISR activation independent of PERK.
+
+*Feasibility:* Acylation-sensitive microarray platforms (using oxidation-dependent differential hybridization) have been developed for bacteria and yeast; mammalian adaptations exist in research contexts. Bulk tRNA charging state can be estimated from ribosome profiling (elongation stalling patterns) as an indirect approach. Neither has been applied to ME/CFS PBMCs or muscle. Certainty: 0.20 — technically feasible but requires significant adaptation for clinical use.
+] <oq:trna-charging-isr>
+
+#open-question(title: [PET Imaging with ISR-Specific Tracers for Non-Invasive CNS ISR Detection])[
+All current ISR measurements in ME/CFS require tissue biopsy — muscle, skin, or CSF. CNS ISR is currently unmeasurable non-invasively. [^18^F]-labelled tracers targeting ATF4 transcriptional targets (ASNS, SLC7A11) or eIF2B activity are in early development in cancer imaging contexts. If validated for CNS use, these tracers would transform ME/CFS neuroimaging: brainstem ISR activation in NTS/locus coeruleus (postulated from HHV-6 tissue data @Kasimir2022HHV6Tissue) would be directly visualizable without biopsy.
+
+*Research priority:* High mechanistic impact if tracer development succeeds; currently pre-clinical. PET-based measurement would also test the H10 hypothesis (@oq:isr-brainstem-autonomic) that brainstem ISR explains autonomic dysfunction. Certainty: 0.30 (dependent on tracer development; 5–10 year horizon).
+] <oq:pet-isr-tracers>
+
+#open-question(title: [Skin Biopsy Combined Panel: IENFD + ATF4 IHC + Mast Cell Tryptase])[
+Skin biopsy for intraepidermal nerve fibre density (IENFD) is already in clinical use for small-fibre neuropathy (SFN) diagnosis in ME/CFS. DRG sensory neurons projecting to skin are a likely ISR-affected compartment (@spec:isr-drg-sfn if validated). A combined three-marker skin biopsy — (a) IENFD (SFN quantification), (b) ATF4 immunohistochemistry in dermal fibroblasts and perivascular cells, (c) mast cell tryptase density — would provide a multi-mechanism tissue readout from a single 3mm punch biopsy.
+
+*Advantages:* Minimally invasive; skin is accessible; existing SFN biopsy infrastructure can be extended. ATF4 IHC protocols are established in cancer pathology. Mast cell quantification provides the MCAS overlap readout simultaneously.
+
+*What would be needed:* ATF4 antibody validation in normal human skin fibroblasts; reference range development in healthy controls; correlation study with muscle biopsy ISR panel to establish skin as a surrogate tissue. Certainty: 0.40 — technically feasible extension of existing protocols; correlation with muscle ISR unknown.
+] <oq:skin-isr-biopsy>
