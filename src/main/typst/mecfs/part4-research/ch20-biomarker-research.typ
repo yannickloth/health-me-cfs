@@ -76,7 +76,7 @@ Despite the challenges listed above, emerging evidence suggests that heterogeneo
   // TODO: needs #table() wrapper
 [- *Genetic convergence*: Birch], [Younger 2025 in _J Transl Med_ @Birch2025precision identified gene-level heterogeneity but convergence on impaired energy production, reduced stress resilience, and vulnerability to post-exertional metabolic failure.],
 
-    - *Emerging large-scale validation panels*: The EpiSwitch CFS test (Myhill et al.\ 2025, _J Transl Med_) @Hunter2025 achieved 92% sensitivity and 98% specificity using a 200-marker 3D genomic profiling model in severe ME/CFS, and the BioQuest project (OMF, launched 2024) @BioQuest2024 aims to analyze approximately 1,000 samples across metabolomics, proteomics, and cytokines with subgrouping as a primary aim.
+    - *Emerging large-scale validation panels*: The EpiSwitch CFS test (Myhill et al.\ 2025, _J Transl Med_) @Hunter2025 achieved 92% sensitivity and 98% specificity using a 200-marker 3D genomic profiling model in severe ME/CFS (discovery cohort performance, $n=54$; commercial platform, Oxford BioDynamics; no independent external validation published as of 2026 --- standard discovery-cohort overfitting caveats apply), and the BioQuest project (OMF, launched 2024) @BioQuest2024 aims to analyze approximately 1,000 samples across metabolomics, proteomics, and cytokines with subgrouping as a primary aim.
 
   // TODO: needs #table() wrapper
 [The practical implication of these convergence patterns is that biomarker strategies should target convergent downstream pathways (energy metabolism, vascular function, immune dysregulation) rather than seeking a single upstream marker. As argued by Birch], [Younger @Birch2025precision, multi-marker panels stratifying patients by endotype are more likely to succeed than individual biomarkers applied to the entire population.],
@@ -933,9 +933,9 @@ If the exosomal HSAT2 loop drives MDSC expansion in ME/CFS @spec:mdsc-nk-bridge,
 *Limitations:* No ME/CFS MDSC data exists; the hypothesis is entirely proxy-based. MDSC quantification is technically sensitive to sample handling, processing time, and gating strategy — the 4-hour processing window must be maintained and FMO controls included in every run. Whether ME/CFS MDSCs carry HSAT2 RNA (as in Evdokimova's Ewing sarcoma EVs) would need to be confirmed with PrimeFlow RNA assay or equivalent in-situ method. The iNOS-dependent suppression mechanism documented in SLE @Wang2019SLEMDSC may differ from the arginase/ROS mechanism reported in post-COVID contexts @BeliakovanBethell2022MDSCPostCOVID — ME/CFS suppression mechanism is entirely unknown. Replication status: not replicated (no ME/CFS data).
 ] <spec:mdsc-biomarker>
 
-#hypothesis(title: [EuroFlow-Standardised CD33+HLA-DR− MDSC Panel as a Clinical-Grade ME/CFS Biomarker])[
+#speculation(title: [EuroFlow-Standardised CD33+HLA-DR− MDSC Panel as a Clinical-Grade ME/CFS Biomarker])[
 
-*(Certainty: 0.55 — EuroFlow standardisation well-validated in oncology/haematology; ME/CFS-specific MDSC data absent; biomarker readiness contingent on first-in-ME/CFS measurement.)*
+*(Certainty: 0.30 — EuroFlow standardisation validated in oncology/haematology; zero ME/CFS MDSC data exist; transferred by analogy to post-COVID MDSC precedent; readiness contingent on first-in-ME/CFS measurement.)*
 
 The EuroFlow Consortium published a validated 11-color and 14-color innate myeloid cell panel (Salminen et al., Frontiers in Immunology 2022) with established inter-centre coefficients of variation $lt.eq 15%$, age- and sex-stratified reference ranges from 116 healthy donors, a 4-hour processing window from venipuncture, and compatibility with both EDTA and heparin. The CD33+HLA-DR^− MDSC gate within this panel is the same gate documented to be elevated in post-COVID patients at 5 months @BeliakovanBethell2022MDSCPostCOVID and in cancer @Veglia2021MDSCDiversity. The standardisation represents a solved technical problem — the remaining gap is the ME/CFS-specific measurement.
 
@@ -947,7 +947,7 @@ The EuroFlow panel would serve three purposes: (1) establish whether MDSC elevat
 
 *Limitations:* No ME/CFS MDSC data exists; this is the foundational measurement. PBMC density gradient preparation loses PMN-MDSCs; whole-blood processing is preferred for completeness. ME/CFS patients have variable blood draw tolerance; the 4-hour processing window may require bedside phlebotomy at specialist centres. Not replicated in ME/CFS (no data).
 
-] <hyp:euroflow-mdsc-mecfs>
+] <spec:euroflow-mdsc-mecfs>
 
 #open-question(title: [Does Plasma Exosomal HSAT2 Level Track Clinical State Longitudinally?])[
 
@@ -963,7 +963,7 @@ Both scenarios are compatible with the exosomal loop model; the distinction has 
 
 #open-question(title: [EuroFlow MDSC + EV HSAT2 Dual-Readout Cross-Sectional Study: Proposed Design])[
 
-The single highest-yield study to simultaneously validate the MDSC-bridge hypothesis and the EV HSAT2 biomarker is a dual-readout cross-sectional design. Proposed design: 100 ME/CFS (Canadian Consensus Criteria), 50 Long COVID (WHO 4-week definition with persistent fatigue and PEM), and 50 healthy matched controls. Primary measurements at a single blood draw: (1) EuroFlow-standardised CD33+HLA-DR^− MDSC frequency (EuroFlow Salminen 2022 protocol; see @hyp:euroflow-mdsc-mecfs); (2) plasma EV HSAT2 load by TRAP-ddPCR adapted from @Kishikawa2016HSATIIserum; (3) NK cytotoxicity (K562 target, CD107a degranulation assay, 4 h turnaround); (4) plasma arginase-1 activity (colorimetric assay). Secondary: HERV-K env RNA in plasma EVs (confirmatory); EuroFlow Treg frequency (to assess Treg:MDSC ratio).
+The single highest-yield study to simultaneously validate the MDSC-bridge hypothesis and the EV HSAT2 biomarker is a dual-readout cross-sectional design. Proposed design: 100 ME/CFS (Canadian Consensus Criteria), 50 Long COVID (WHO 4-week definition with persistent fatigue and PEM), and 50 healthy matched controls. Primary measurements at a single blood draw: (1) EuroFlow-standardised CD33+HLA-DR^− MDSC frequency (EuroFlow Salminen 2022 protocol; see @spec:euroflow-mdsc-mecfs); (2) plasma EV HSAT2 load by TRAP-ddPCR adapted from @Kishikawa2016HSATIIserum; (3) NK cytotoxicity (K562 target, CD107a degranulation assay, 4 h turnaround); (4) plasma arginase-1 activity (colorimetric assay). Secondary: HERV-K env RNA in plasma EVs (confirmatory); EuroFlow Treg frequency (to assess Treg:MDSC ratio).
 
 *What this study would establish:* (a) Whether MDSC elevation exists in ME/CFS (resolves the primary gap); (b) whether EV HSAT2 and MDSC co-cluster in a defined subgroup (proposed "HSAT2-high" subgroup, approximately 30% predicted); (c) how ME/CFS and Long COVID MDSC profiles compare (cross-condition prediction); (d) whether the four-marker panel (MDSC frequency, EV HSAT2, arginase-1, NK cytotoxicity) is clinically discriminatory. The study is achievable in a single-site haematology/immunology setting with a ME/CFS clinical cohort — no animal models, no CPET required.
 

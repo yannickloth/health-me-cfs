@@ -243,7 +243,8 @@ The daratumumab pilot trial (60% response) @Fluge2025daratumumab provides the s
     - Biomarkers for patient selection are urgently needed
     - The ResetME RCT ($n=66$, placebo-controlled) is now recruiting to test these findings (Appendix @app:research-registry, Section @sec:registry-resetme)
 
-The daratumumab finding @Fluge2025daratumumab may explain one of ME/CFS research's biggest disappointments. Rituximab showed promise in early trials but failed in the large Norwegian RCT @Fluge2019. If the critical autoantibodies come from long-lived plasma cells (CD38#super[+], CD20#super[-]), rituximab would deplete the wrong cells. Existing plasma cells would continue producing autoantibodies for months, and by the time B cells returned, no improvement would be evident. The trial “failed” not because autoimmunity isn't involved, but because the wrong cells were targeted.
+The daratumumab finding @Fluge2025daratumumab may explain one of ME/CFS research's biggest disappointments. Rituximab showed promise in early trials but failed in the large Norwegian RCT @Fluge2019. If the critical autoantibodies come from long-lived plasma cells (CD38#super[+], CD20#super[-]), rituximab would deplete the wrong cells. Existing plasma cells would continue producing autoantibodies for months, and by the time B cells returned, no improvement would be evident. The trial “failed” not because autoimmunity isn't involved, but because the wrong cells were targeted. _Open-label pilot; the same interpretive pattern (mechanistically motivated pilot result) preceded the rituximab RCT failure. Confirmation requires the ResetME blinded RCT currently recruiting._
+
 === The Vascular Dimension
 
 Elevated VWF, fibronectin, and thrombospondin @heng2025mecfs point to *endothelial activation*—the blood vessel lining is chronically stressed. This connects to:
@@ -259,7 +260,7 @@ If ME/CFS is partly an *endotheliopathy*, vascular-targeted treatments (anticoag
 
 === The Central Nervous System
 
-The Walitt 2024 finding @walitt2024deep of altered *effort preference* (not physical fatigue) localizes part of the problem to the brain. Combined with:
+The Walitt 2024 finding @walitt2024deep of altered *effort preference* (not physical fatigue) localizes part of the problem to the brain (_n_=17; all findings from this single NIH post-infectious ME/CFS cohort require replication in independent cohorts before treatment implications are drawn). Combined with:
 
     - CSF catecholamine deficiency @walitt2024deep
     - Neuroinflammation on PET imaging @Nakatomi2014neuroinflammation
@@ -287,6 +288,10 @@ This “multi-lock” concept (detailed in Chapter @ch:speculative-hypotheses) 
     - Treatment may need to target multiple locks simultaneously
 
 <obs:multi-lock-treatment>
+#limitation(title: [Multi-Lock Framework: Falsifiability Criterion])[
+Falsifiability criterion for the multi-lock framework: if a well-powered single-target RCT ($n gt.eq 100$, 12 months) in a biomarker-defined subgroup produces durable full recovery in $gt.eq 15%$ of patients, this would argue against multi-lock necessity and support a single-dominant-driver architecture for that subgroup.
+]
+
 If ME/CFS involves multiple self-reinforcing abnormalities, this has profound implications for clinical trials. A treatment targeting one mechanism (e.g., immunoadsorption removing autoantibodies) might show modest benefit if other locks (epigenetic, metabolic, autonomic) maintain dysfunction. This could explain the disappointing results of many single-mechanism trials. Future research should explore: (1) sequential combination therapies (break locks one at a time), (2) simultaneous multi-targeted protocols (address all locks together), or (3) biomarker-guided sequencing (identify which lock predominates in each patient). The daratumumab 60% response rate @Fluge2025daratumumab may reflect successful targeting in patients where autoimmunity is the primary lock, while non-responders have different dominant mechanisms.
 #speculation(title: [Sickness Behavior “Stuck On” Hypothesis])[
 
@@ -691,7 +696,7 @@ Such a study would provide the first empirical test of whether crash prevention 
 
 #key-point(title: [OI as Mechanistic Lynchpin in Early ME/CFS])[
 
-*Certainty: 0.55.* Orthostatic intolerance may function as an upstream mechanistic driver in early ME/CFS, triggering a cascade of secondary dysfunction across immune, metabolic, and neuroimmune systems. This model is grounded in pediatric clinical observations and splanchnic perfusion physiology, though high-quality trials testing the causal direction remain limited.
+*Certainty: 0.55.* Orthostatic intolerance may function as an upstream mechanistic driver in early ME/CFS, triggering a cascade of secondary dysfunction across immune, metabolic, and neuroimmune systems. This model is grounded in pediatric clinical observations and splanchnic perfusion physiology, though high-quality trials testing the causal direction remain limited. The lynchpin framing applies to the OI-positive subgroup (~60–70% of patients); approximately 30–40% of ME/CFS patients lack significant OI, indicating alternative primary drivers for OI-negative subgroups — OI is not a universal ME/CFS mechanism.
 
 *Clinical Foundation: Pediatric Treatment Response*
 Pediatric ME/CFS specialists consistently report that aggressive orthostatic intolerance (OI) treatment produces improvements extending far beyond cardiovascular symptoms—including fatigue duration and severity, cognitive function, post-exertional malaise patterns, and general wellbeing @Rowe2017pediatric. Rowe and colleagues document recovery or substantial improvement in 40–70% of pediatric ME/CFS patients with aggressive tilt table-guided fludrocortisone, midodrine, and compression therapy, even in patients with severe initial disability. Critically, symptom improvements precede increases in exercise tolerance by weeks to months, suggesting causality rather than simple symptom clustering.
@@ -1916,7 +1921,7 @@ This model makes a qualitative prediction distinguishing it from a continuous wo
 
 *Falsifiable prediction:* Longitudinal cohort data will show a bimodal distribution of ME/CFS onset trajectories — abrupt-onset (bistability crossing) versus slow-onset (drift into supercritical regime) — with abrupt-onset patients showing higher baseline EV HSAT2 and MDSC frequency at first clinical assessment. Continuous severity models predict unimodal onset distributions; the bistability prediction is falsified by a unimodal onset distribution in a cohort of $n gt.eq 200$.
 
-*Limitations:* Parameters $alpha$, $beta$, $gamma$, $delta$ are entirely unmeasured in ME/CFS. The model ignores immune heterogeneity, cell-type specificity, and spatial compartmentalisation. Formal ODE fitting requires longitudinal MDSC + EV HSAT2 data; none exists. The model structure is a first-order linear approximation; nonlinear saturation terms will be needed for quantitative predictions. This description is a conceptual framing; the formal Part V ODE system is the appropriate location for parameter estimation and uncertainty quantification. Not replicated in any disease context.
+*Limitations:* Parameters $alpha$, $beta$, $gamma$, $delta$ are entirely unmeasured in ME/CFS. The model ignores immune heterogeneity, cell-type specificity, and spatial compartmentalisation. Formal ODE fitting requires longitudinal MDSC + EV HSAT2 data; none exists. The model structure is a first-order linear approximation; nonlinear saturation terms will be needed for quantitative predictions. This description is a conceptual framing; the formal Part V ODE system is the appropriate location for parameter estimation and uncertainty quantification. Not replicated in any disease context. (Certainty 0.20 reflects the compound probability of an 8-link inference chain — each step plausible individually, uncertain in aggregate.)
 
 ] <spec:hsat2-mdsc-ode-model>
 

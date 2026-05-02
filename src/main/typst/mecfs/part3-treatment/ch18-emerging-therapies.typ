@@ -170,6 +170,10 @@ The delay mechanisms most amenable to intervention include:
 The following protocol has *never been tested* in a clinical trial. No randomized controlled trial, observational study, or even systematic case series has evaluated this combination of interventions for PEM prevention in ME/CFS. The protocol is a mechanistically-reasoned research proposal, assembled from individual components with safety data in other contexts. It should not be adopted as standard clinical practice. Patients should discuss any supplement or medication use with their physician before implementing any component. The specific doses, timing windows, and phase structure are illustrative of the mechanistic rationale, not validated prescriptions.
 ]
 
+#practical-warning(title: [Prerequisites Before Using This Protocol])[
+This protocol involves 8--14 supplements/medications across 3 phases with meal-timing constraints. Patients experiencing active cognitive PEM or who cannot independently prepare medications should NOT attempt this protocol without caregiver support. For patients who cannot reliably prepare doses: rest and hydration alone (Phase 1 only) are the appropriate minimum. Phase stopping criteria: if no symptom improvement compared to typical crash pattern by Day 4, the protocol has not worked --- do not increase doses; continue standard pacing.
+]
+
 *Clinical context:* For patients who must undergo unavoidable exertion (medical procedures, essential activities, emergency situations), can targeted interventions immediately post-exertion reduce PEM severity or prevent onset?
 
 *Evidence tier:* _Hypothesis-driven, mechanistically justified, pending RCT validation._ Individual components have safety data from other contexts. The integrated protocol represents rational polypharmacy targeting identified mechanisms but lacks direct testing in ME/CFS PEM.
@@ -251,6 +255,11 @@ _Goal_: Modulate immune activation; support mitochondrial biogenesis; maintain e
   - *Omega-3 fatty acids* 2--4~g EPA+DHA daily: Reduces pro-inflammatory cytokine production
   - *Curcumin* 500--1000~mg twice daily: NF-κB inhibition; reduces inflammatory signaling
   - *Optional: Low-dose ibuprofen or naproxen* (if no contraindications): 200--400~mg ibuprofen twice daily or 220~mg naproxen twice daily for 2--3 days
+
+#practical-warning(title: [NSAIDs and Fludrocortisone: Do Not Combine Without Physician Oversight])[
+NSAIDs and fludrocortisone: Combining NSAIDs with fludrocortisone significantly increases the risk of fluid retention, hypertension, and GI bleeding. Do not use Phase 3 NSAIDs if the patient is on fludrocortisone — contact a physician first.
+]
+
   - Rationale: Immune cascade peaks at 24--48h; anti-inflammatory support during this window may reduce symptom severity
   - CAUTION: NSAIDs alone are insufficient; must be combined with energy support
 
@@ -528,6 +537,10 @@ If M-MDSCs are expanded in ME/CFS and suppress NK function via arginase-1, tadal
 *Limitations:* PDE5 inhibitor MDSC data are from cancer contexts; mechanism may differ in chronic post-viral settings. Hypotension risk at 5 mg/day is low but relevant in ME/CFS patients with POTS/OI. Belgian/EU access requires specialist off-label prescription; INAMI/RIZIV will not reimburse for ME/CFS. No ME/CFS clinical data. Not replicated.
 ] <spec:tadalafil-mdsc-nk>
 
+#practical-warning(title: [Anti-PD-L1 / Checkpoint Blockade: Strictly Research-Stage — Not a Clinical Direction])[
+PD-1/PD-L1 checkpoint inhibitors (atezolizumab, durvalumab, pembrolizumab) cause severe or life-threatening immune-related adverse events (irAEs) in 20–60% of cancer patients (grade 3–4 in 20–35%). Documented irAEs include autoimmune pneumonitis, colitis, hepatitis, myocarditis, and severe endocrinopathies. In ME/CFS, where immune checkpoint signalling is already dysregulated @Iu2024CD8Exhaustion @EatonFitch2024ImmuneExhaustion and where MCAS, mast cell activation, and autoimmune comorbidities are common, the irAE risk profile is unpredictable and potentially worse than in cancer. No ME/CFS clinical trial of any checkpoint inhibitor is ongoing or planned as of 2026. These agents must not be used outside a prospective clinical trial with a full institutional review process and safety monitoring board. Certainty that benefit would outweigh harm: 0.10 — listed for mechanistic completeness only.
+]
+
 #open-question(title: [Could Checkpoint Blockade (Anti-PD-L1) Reverse ME/CFS T-Cell and NK Exhaustion?])[
 
 
@@ -537,10 +550,6 @@ The question of whether checkpoint blockade could be repurposed in ME/CFS is a l
 
 *What would be needed:* Pre-clinical ME/CFS patient PBMC data showing PD-1 checkpoint blockade restores CD8+ and NK function ex vivo without producing inflammatory overshoot. Safety data from checkpoint blockade in any chronic non-malignant fatigue condition would be required before any clinical consideration.
 ] <oq:checkpoint-blockade-mecfs>
-
-#practical-warning(title: [Anti-PD-L1 / Checkpoint Blockade: Strictly Research-Stage — Not a Clinical Direction])[
-PD-1/PD-L1 checkpoint inhibitors (atezolizumab, durvalumab, pembrolizumab) cause severe or life-threatening immune-related adverse events (irAEs) in 20–60% of cancer patients (grade 3–4 in 20–35%). Documented irAEs include autoimmune pneumonitis, colitis, hepatitis, myocarditis, and severe endocrinopathies. In ME/CFS, where immune checkpoint signalling is already dysregulated @Iu2024CD8Exhaustion @EatonFitch2024ImmuneExhaustion and where MCAS, mast cell activation, and autoimmune comorbidities are common, the irAE risk profile is unpredictable and potentially worse than in cancer. No ME/CFS clinical trial of any checkpoint inhibitor is ongoing or planned as of 2026. These agents must not be used outside a prospective clinical trial with a full institutional review process and safety monitoring board. Certainty that benefit would outweigh harm: 0.10 — listed for mechanistic completeness only.
-]
 
 #speculation(title: [Low-Dose Interleukin-2 to Rebalance Treg/MDSC Suppressive Pressure in ME/CFS])[
 

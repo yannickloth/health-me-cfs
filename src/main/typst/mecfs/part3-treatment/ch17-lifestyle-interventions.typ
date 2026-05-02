@@ -485,6 +485,8 @@ The 2011 PACE trial initially claimed benefits from GET and cognitive behavioral
 
 Major health authorities have since revised guidelines to *recommend against GET* for ME/CFS, including NICE (UK, 2021), CDC (USA, 2022), and others @NICE2021mecfs.
 
+The strongest defense of the PACE/GET evidence remains case-definition stratification: GET proponents argue that trials using Oxford criteria enrolled heterogeneous patients, many without PEM, and that modest subjective improvements in that broader population are not contradicted by the evidence of harm in ICC/CCC-defined patients with obligate PEM. This is a methodologically legitimate distinction — the evidence against GET applies specifically to PEM-positive patients, not necessarily to all chronic fatigue presentations.
+
 Not all national bodies have followed suit. In Australia, the Royal Australian College of General Practitioners (RACGP) maintained a HANDI recommendation for "incremental physical activity" in ME/CFS until it was formally challenged in 2026. Stallard et al.\ demonstrated that the guideline scored only 2% on the AGREE II rigor domain, relied on the methodologically contested PACE trial and an outdated Cochrane review, and ignored patient surveys reporting 54–74% harm rates @Stallard2026handi. The authors called for immediate withdrawal and contraindication of GET pending the NHMRC's review of ME/CFS guidelines, recommending that Australian general practitioners refer to NICE and BMJ Best Practice guidelines in the interim.
 
 *Two-Day CPET Evidence Against GET*
@@ -1195,7 +1197,7 @@ A 2024 randomized pilot in Long COVID (Verbanck et al.) documented HRV improveme
   taVNS is contraindicated in patients with implanted cardiac devices (pacemaker, ICD) due to potential electromagnetic interference. Patients with active skin lesions or hypersensitivity of the auricular region should not use ear-clip devices. In ME/CFS, post-stimulation fatigue has been anecdotally reported at higher intensities or durations; begin at minimum effective intensity and no more than 15 minutes per session, with rest monitoring for 24 hours before extending. Do not increase duration during or following PEM.
 ]
 
-== Pacing as Epigenetic Prophylaxis: The HSAT2-Amplification Prevention Frame
+== Pacing and HSAT2 Amplification: A Speculative Epigenetic Frame
 
 The clinical rationale for strict pacing in ME/CFS is well-established: staying within the anaerobic threshold prevents post-exertional malaise and reduces symptom exacerbation. The HSAT2 exosomal loop hypothesis adds a deeper mechanistic frame: each exertional event that activates HSF1 at pericentromeric loci transiently amplifies HSAT2 EV release, re-inoculating circulating myeloid cells and widening the MDSC pool @spec:hsat2-pem-amplification. If this mechanism is operative, strict pacing is not merely symptom management — it is *epigenetic prophylaxis*, reducing the rate of cumulative pericentromeric derepression events.
 
@@ -1208,6 +1210,8 @@ The established clinical rationale for pacing is avoidance of physiological over
 This framing has a practical implication beyond symptom management: the harm from exceeding the energy envelope is not only the immediate PEM episode but the long-term epigenetic trajectory. A patient who paces perfectly for 6 months is predicted to have a meaningfully lower EV HSAT2 trajectory than one who has repeated PEM events, even if both report the same symptom severity at any single timepoint. This would show up as lower EV HSAT2 and MDSC frequency in adherent-pacers versus non-adherent patients matched for baseline severity.
 
 *Pacing tools:* heart-rate-capped activity monitoring (wristwatch HR monitor, ~€60–150; Garmin, Polar, Fitbit); symptom-paced rest protocols (rest before HR threshold; rest immediately at symptom onset). Software tools: Garmin Connect, Apple Health, Visible app (ME/CFS-specific pacing app with HR overlay). The monitoring infrastructure is already recommended for PEM prevention in standard ME/CFS care guidelines; this speculation adds a molecular rationale for its importance.
+
+Importantly, this framing should not be communicated to patients in a way that implies accidental envelope breaches cause irreversible harm — the mechanism is speculative and nocebo framing of exertion overshoots would be counterproductive.
 
 *Falsifiable prediction:* ME/CFS patients adherent to heart-rate-capped pacing × 6 months (verified by HR monitor data: $< 5%$ time above anaerobic threshold) will show a lower rate of EV HSAT2 increase over time compared to non-adherent controls matched for baseline severity and HSAT2 level. If EV HSAT2 trajectories are identical between adherent and non-adherent groups, the pacing-HSAT2 link is not supported.
 

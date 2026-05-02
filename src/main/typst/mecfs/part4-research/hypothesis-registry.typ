@@ -5244,10 +5244,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.18 @oq:hsat2-inflammaging-package],
 
     [EuroFlow CD33+HLA-DR− MDSC Panel as Clinical-Grade ME/CFS Biomarker],
-    [H], [0.55],
+    [S], [0.30],
     [EuroFlow inter-lab CV ≤ 15% in ≥ 2 ME/CFS sites; MDSC > 1.5× healthy reference in ≥ 30% ME/CFS patients; MDSC inversely correlates with NK cytotoxicity (ρ < −0.4).],
     [Multi-site EuroFlow MDSC panel (Salminen 2022 protocol). n ≥ 50 ME/CFS + healthy reference comparison.],
-    [Ch.20 @hyp:euroflow-mdsc-mecfs],
+    [Ch.20 @spec:euroflow-mdsc-mecfs],
 
     [EuroFlow + EV HSAT2 Dual-Readout Cross-Sectional Study],
     [OQ], [---],

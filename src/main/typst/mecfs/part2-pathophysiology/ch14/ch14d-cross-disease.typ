@@ -41,6 +41,10 @@ The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted ca
 *Clinical note:* ccf-mtDNA measurement is a research-only assay. Until head-to-head studies exist, clinicians should distinguish Long COVID from ME/CFS using established clinical criteria (symptom duration, PEM pattern, exclusion criteria); ccf-mtDNA adds nothing to current diagnostic practice.
 ] <spec:cfmtdna-distinguish>
 
+#limitation(title: [HSAT2 Cluster: Single-Anchor Architecture Risk])[
+All environments in the HSAT2 hypothesis cluster — across Chapters 14a, 14d, 16, 17, 18, and 20 — share a single foundational mechanistic anchor: Evdokimova et al.\ 2019 (bioRxiv, Ewing sarcoma, unpublished). If this anchor fails to replicate in non-cancer biology, the downstream speculations (exosomal propagation, MDSC expansion, NK suppression, epigenetic combination strategies) are individually unmotivated. The certainty values assigned to each environment are conditional on the anchor's plausibility; readers should weight them accordingly.
+]
+
 #speculation(title: [Shared Exosomal HSAT2/HERV-K Signature as a Convergent Mechanism in Long COVID and ME/CFS])[
 
 
@@ -107,6 +111,8 @@ This analogy has a testable molecular prediction: if ME/CFS MDSCs are transcript
 *Falsifiable prediction:* ME/CFS PBMC bulk RNA-seq or single-cell RNA-seq (MDSC gate) will show a transcriptomic profile clustering with chronic-viral MDSCs (HCV, post-COVID) rather than tumour-associated MDSCs in a multi-disease reference atlas. If ME/CFS MDSCs cluster with tumour-associated MDSCs, the "cancer-analogue signal" hypothesis is strengthened.
 
 *Limitations:* No ME/CFS MDSC data exists; the cross-disease analogy is entirely proxy-based. MDSC transcriptomics vary substantially by tumour type and chronic virus species; the reference atlas itself may not contain an appropriate post-viral chronic disease comparator. Analogy is not equivalence — even if the transcriptomics cluster, downstream treatment implications require prospective testing. Not replicated in ME/CFS or any post-viral chronic fatigue condition.
+
+Simpler competing explanation: chronic antigen stimulation (persistent viral epitopes, autoantigen presentation) drives MDSC expansion in ME/CFS without requiring EV-HSAT2 as a tumour-analogue signal. This simpler mechanism is well-supported in HCV, HIV, and post-COVID contexts @Goh2016HCVMDSCArginase @BeliakovanBethell2022MDSCPostCOVID and would produce the same MDSC-NK phenotype without invoking the cancer-mirror analogy. The EV-HSAT2 cargo signal is an additional layer, not a required one.
 
 ] <spec:mecfs-cancer-immune-mirror>
 
@@ -1121,7 +1127,7 @@ Migraine fits the metabolic reserve model through a different mechanism: cumulat
 The most direct test of the metabolic reserve hypothesis comes from post-COVID studies. In a cross-sectional study of 267 healthcare workers, higher autistic trait scores — specifically the sensory reactivity subscale — predicted COVID-19 symptoms lasting longer than 12 weeks, independent of formal autism diagnosis @Raw2025neurodivergencePostCOVID. This is consistent with central sensitization (a form of neural hyperexcitability that consumes extra metabolic resources) leaving less buffer for post-viral recovery. The dimensional finding (autistic _traits_, not just diagnosis) is important because it suggests the predisposition operates on a spectrum: any degree of neurodivergent biology that increases baseline neural energy consumption narrows the margin for absorbing an immune insult.
 
 #hypothesis(title: [Metabolic Reserve Depletion as ME/CFS Predisposition (Architecture C)])[
-*Certainty: 0.50.* Pre-existing conditions that chronically reduce brain metabolic reserve — through mitochondrial dysfunction (ASD), catecholamine inefficiency (ADHD), cerebral hypoperfusion (hEDS/POTS), cumulative energy depletion (migraine), or shared BH4 cofactor deficiency (GCH1 variants) — create a lower baseline from which immune-triggered energy demands cannot be met, precipitating sustained decompensation into ME/CFS. The hypothesis makes several testable predictions:
+*Certainty: 0.50.* Pre-existing conditions that chronically reduce brain metabolic reserve — through mitochondrial dysfunction (ASD), catecholamine inefficiency (ADHD), cerebral hypoperfusion (hEDS/POTS), cumulative energy depletion (migraine), or shared BH4 cofactor deficiency (GCH1 variants) — create a lower baseline from which immune-triggered energy demands cannot be met, precipitating sustained decompensation into ME/CFS. The 0.50 certainty is justified over the alternative 0.35 specifically by the mechanistic specificity of Architecture C relative to Architecture A: while both predict the same epidemiological pattern (elevated neurodivergent comorbidity), Architecture C additionally predicts a dose-response (more reducers → higher risk), a biomarker signature (pre-illness metabolic markers predict risk), and a modifiable target — three predictions Architecture A does not make and that provide falsifiable traction beyond simple comorbidity. If these mechanistic predictions fail, the certainty should be reduced accordingly. The hypothesis makes several testable predictions:
 
 + *Epidemiological:* ADHD and ASD patients should show higher ME/CFS incidence after documented EBV or COVID-19 infection than non-neurodivergent controls, after controlling for sex, age, socioeconomic status, and pre-existing autoimmune conditions. This is testable now using ADHD diagnosis registries cross-referenced with post-COVID ME/CFS diagnoses.
 
