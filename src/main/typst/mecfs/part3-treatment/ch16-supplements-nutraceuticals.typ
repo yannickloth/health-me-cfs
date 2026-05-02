@@ -311,6 +311,10 @@ Category A (net energy provider). Replenish cellular NAD#super[+] pools required
 
 *Evidence.* Low. A pilot open-label study (n=41) @Teitelbaum2006ribose and a larger multicenter replication (n=257; $p \< 0.0001$ within-group for energy, sleep, and well-being) @Teitelbaum2012ribose in ME/CFS and fibromyalgia showed improvements with 5 g three times daily; no placebo comparison in either study, so results cannot be distinguished from placebo effect.
 
+#limitation(title: [D-Ribose Evidence Quality])[
+Teitelbaum 2006/2012: within-group only, no placebo arm, supplement industry co-authorship; the _p_-value reflects pre/post change without controlling for regression-to-mean or expectation effects. Treat as hypothesis-generating only.
+]
+
 *Dosing.* 5 g three times daily (15 g/day total); can be reduced to 5–10 g daily for maintenance.
 
 *Emergency Use.* For emergency post-exertion PEM prevention, higher acute doses (10–15 g immediately post-exertion, then 5 g every 4–6 hours for 24–48h) may be used as part of comprehensive crash prevention protocol. See Chapter @ch:emerging-therapies, @subsec:pem-prevention for complete emergency protocol.
