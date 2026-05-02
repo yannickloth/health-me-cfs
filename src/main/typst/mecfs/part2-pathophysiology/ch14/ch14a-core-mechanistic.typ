@@ -212,8 +212,8 @@ ME/CFS could be conceptualized as "micro-NPH"—CSF dynamics impairment below th
 #limitation(title: [Speculative Mechanistic Hypotheses: Plausibility Is Not Evidence])[
 The hypotheses in this chapter—metabolic "safe mode," glymphatic impairment, synergistic CSF drainage, sequential therapy, overnight ONSD monitoring, and micro-NPH—share a common epistemic limitation: each is internally consistent and mechanistically plausible, but none has been directly tested in ME/CFS patients. Key boundaries:
 
-    - No prospective study has demonstrated that any of these mechanisms _precedes_ or _causes_ ME/CFS; all are inferred from cross-sectional data, analogy to other diseases, or theoretical modelling.
-    - The "safe mode" / "locked sickness behaviour" framing is a narrative organising device, not an empirically validated construct; identical language could be applied post hoc to any chronic illness with inflammatory features.
+    - No prospective study has demonstrated that any of these mechanisms _precedes_ or _causes_ ME/CFS; all are inferred from cross-sectional data, analogy to other diseases, or theoretical modeling.
+    - The "safe mode" / "locked sickness behavior" framing is a narrative organizing device, not an empirically validated construct; identical language could be applied post hoc to any chronic illness with inflammatory features.
     - Testable predictions listed for each hypothesis are necessary but not sufficient: confirmation of individual predictions would support but not prove the overarching model, as alternative mechanisms could generate the same observations.
     - Several hypotheses (HERV reactivation, purinergic quorum sensing, MCT dysfunction) rest on phenomena demonstrated in cell lines or animal models that have not been measured in ME/CFS cohorts at all.
 ]
@@ -224,13 +224,13 @@ The hypotheses in this chapter—metabolic "safe mode," glymphatic impairment, s
 The hypothesis that HSAT2 pericentromeric repeat RNA and the exosomal propagation mechanism described in this section are involved in the early stages of ME/CFS was proposed by Geneviève Fourel (personal communication, 2026). The mechanistic extrapolation from Evdokimova et al.\ (2019) @Evdokimova2019HSAT2exosome to ME/CFS, and the identification of the exosomal loop as a candidate driver of chronic immune suppression in post-viral disease, originate from her research intuition.
 
 #limitation(title: [Evidence Base: Preprint + Cancer Biology Extrapolation])[
-The mechanistic hypotheses in this section derive principally from a single bioRxiv preprint (Evdokimova et al.\ 2019 @Evdokimova2019HSAT2exosome) that has not been peer-reviewed and has remained unpublished for seven years. All experimental data originate from Ewing sarcoma — a high-mitotic-index malignancy with EWS-FLI1 fusion-driven constitutive HSAT2 transcription. Every extrapolation to ME/CFS (a non-malignant chronic disease) involves unknown scaling of exosomal HSAT2 concentrations, loop kinetics, and phenotype-induction thresholds from a tumour-microenvironment context to a systemic chronic-disease context. No HSAT2 measurement in ME/CFS plasma has been published. These speculations are included as research directions; they are not candidate treatments.
+The mechanistic hypotheses in this section derive principally from a single bioRxiv preprint (Evdokimova et al.\ 2019 @Evdokimova2019HSAT2exosome) that has not been peer-reviewed and has remained unpublished for seven years. All experimental data originate from Ewing sarcoma — a high-mitotic-index malignancy with EWS-FLI1 fusion-driven constitutive HSAT2 transcription. Every extrapolation to ME/CFS (a non-malignant chronic disease) involves unknown scaling of exosomal HSAT2 concentrations, loop kinetics, and phenotype-induction thresholds from a tumor-microenvironment context to a systemic chronic-disease context. No HSAT2 measurement in ME/CFS plasma has been published. These speculations are included as research directions; they are not candidate treatments.
 ]
 
 #open-question(title: [HERV and Pericentromeric Repeat De-Silencing])[
 Human genomes contain approximately 8% endogenous retroviruses (HERVs)—ancient viral sequences integrated into our DNA over millions of years—plus satellite repeat families including HSAT2, located at pericentromeric regions. Both classes are normally epigenetically silenced by DNA methylation, but stress, infection, or inflammation can trigger their de-silencing and transcription @Shadle2019HSATII.
 
-Reactivated HERVs produce immunogenic proteins the immune system may recognise as foreign. The chronic immune activation in ME/CFS—without a detectable exogenous pathogen—could reflect ongoing response to HERV-derived antigens. Beyond protein-mediated effects, the resulting HSAT2 and HERV-K RNAs can be packaged into exosomes and transmitted cell-to-cell, inducing sustained immunosuppressive phenotypes in recipient myeloid cells and T-cells @Evdokimova2019HSAT2exosome.
+Reactivated HERVs produce immunogenic proteins the immune system may recognize as foreign. The chronic immune activation in ME/CFS—without a detectable exogenous pathogen—could reflect ongoing response to HERV-derived antigens. Beyond protein-mediated effects, the resulting HSAT2 and HERV-K RNAs can be packaged into exosomes and transmitted cell-to-cell, inducing sustained immunosuppressive phenotypes in recipient myeloid cells and T-cells @Evdokimova2019HSAT2exosome.
 
 This would explain why ME/CFS often follows viral infection (the infection triggers de-silencing), why immune suppression persists without detectable pathogen, and why standard immune activation markers can co-exist paradoxically with impaired antimicrobial responses. It also provides a mechanism for the female predominance, as sex hormones influence epigenetic regulation and HERV expression.
 ]
@@ -240,7 +240,7 @@ This would explain why ME/CFS often follows viral infection (the infection trigg
 HERVs represent the remnants of ancient retroviral infections that integrated into the germline and were passed to subsequent generations. Pericentromeric satellite repeats such as HSAT2 are distinct loci at chromosome 2p11.2, 4p11, 10q11.21, and 21p11.2 @Evdokimova2019HSAT2exosome. Both classes share key regulatory features:
 
     - HERVs comprise $tilde$8% of the human genome (more than protein-coding genes)
-    - HSAT2 and HERVs are epigenetically silenced by DNA methylation in healthy somatic cells @Shadle2019HSATII
+    - HSAT2 and HERVs are epigenetically silenced primarily by H3K9 trimethylation (SUV39H1/2, SETDB1) with CpG methylation as a downstream stabiliser @Shadle2019HSATII @Zhu2014MTHFR
     - Viral infection (HSV-1, HCMV) induces HSAT2 expression via viral microRNAs @Nogalski2019HSATII
     - Oxidative stress, inflammation, and DNA damage disrupt pericentromeric methylation patterns
     - HERV proteins can be immunogenic; HSAT2 RNA is immunosuppressive via exosomal delivery
@@ -279,7 +279,7 @@ HERVs represent the remnants of ancient retroviral infections that integrated in
     - ME/CFS patients should show elevated HSAT2 and HERV-K RNA in plasma extracellular vesicles versus healthy controls
     - EV HSAT2 levels should correlate with MDSC frequency and CD8+ T-cell exhaustion markers in the same patients
     - Pericentromeric methylation should be reduced at chr2p11.2, 4p11, 10q11.21 loci in ME/CFS PBMCs
-    - RT inhibitors (AZT, nucleoside analogues) should reduce HERV-K reverse transcription in recipient cells, potentially reducing the RT-dependent amplification of HERV-K but *not* HSAT2 directly (HSAT2 is Pol II-transcribed; AZT would only affect HSAT2 indirectly via reduced HERV-K-mediated stress signalling)
+    - RT inhibitors (AZT, nucleoside analogues) should reduce HERV-K reverse transcription in recipient cells, potentially reducing the RT-dependent amplification of HERV-K but *not* HSAT2 directly (HSAT2 is Pol II-transcribed; AZT would only affect HSAT2 indirectly via reduced HERV-K-mediated stress signaling)
     - Antibodies against HERV-K envelope protein should be detectable in patient sera at higher levels than controls
 
 #speculation(title: [Exosomal Pericentromeric RNA as a Self-Perpetuating Immune Suppression Loop in ME/CFS])[
@@ -305,29 +305,36 @@ This loop would produce the characteristic ME/CFS paradox: evidence of immune ac
 #speculation(title: [HSAT2 Exosomal Loop as Molecular Substrate of Post-Viral Immune Memory in ME/CFS])[
 
 
-*(Certainty: 0.45 — biologically plausible; post-infectious epidemiology and molecular mechanism align; no direct ME/CFS HSAT2 data.)*
+*(Certainty: 0.45 — biologically plausible; post-infectious epidemiology and molecular mechanism align; HERV-K reactivation directly documented in ME/CFS; no direct ME/CFS HSAT2 RNA data.)*
 
-ME/CFS is overwhelmingly post-infectious in onset (EBV, SARS-CoV-2, enteroviruses, Q fever). Acute viral infections de-silence pericentromeric heterochromatin and HERVs via innate-stress pathways, including direct viral microRNA-mediated induction of HSAT2 (demonstrated for HSV-1 @Nogalski2019HSATII). In most individuals, chromatin is re-silenced after infection resolves. This speculation proposes that a subset of patients fail to re-silence — and instead enter the Evdokimova-type self-propagating exosomal loop @Evdokimova2019HSAT2exosome — with the disease becoming "infection-shaped" without ongoing viral replication.
+ME/CFS is overwhelmingly post-infectious in onset (EBV, SARS-CoV-2, enteroviruses, Q fever). Multiple pathways can de-silence pericentromeric heterochromatin during acute viral infection:
 
-This mechanism reconciles several apparent contradictions in ME/CFS:
+    - Direct viral microRNA-mediated HSAT2 induction (demonstrated for HSV-1 @Nogalski2019HSATII)
+    - Viral DNA replication stress → TP53 activation → TRF2 downregulation → KAP1/Lamin B1 release → pericentromeric H3K9me3 loss → satellite DNA derepression @MendezBermudez2022pericentromeric
+    - Global DNA methylation erosion under viral-induced inflammatory stress, disproportionately de-silencing satellite repeats @Pappalardo2021methylationRepeats
+
+HERV-K reactivation following COVID-19 is directly documented in ME/CFS patients: Apostolou et al.\ @Apostolou2022HERVmecfs detected stronger and more persistent HERV-K IgG responses in ME/CFS patients (n = 95) versus healthy donors (n = 110) at 3–6 months after mild/asymptomatic COVID-19. This is an indirect antibody proxy but provides the first ME/CFS-specific evidence consistent with ongoing HERV derepression. More broadly, 282 HERV loci are differentially expressed in COVID-19 PBMCs @Grandi2023HERVcovid, establishing that SARS-CoV-2 triggers HERV reactivation at scale.
+
+In most individuals, chromatin is re-silenced after infection resolves. This speculation proposes that a subset of patients fail to re-silence — and instead enter the Evdokimova-type self-propagating exosomal loop @Evdokimova2019HSAT2exosome — with the disease becoming "infection-shaped" without ongoing viral replication. This mechanism reconciles several apparent contradictions in ME/CFS:
 
     - Negative HHV-6/EBV PCR in established cases (no active replication required — only the loop)
     - Consistent post-infectious onset pattern (infection provides the de-silencing trigger)
     - Failure of antiviral monotherapy (treating the trigger, not the loop)
     - Chronic immune activation without an identifiable ongoing pathogen (loop sustains inflammation)
+    - HERV-K antibody persistence beyond infection clearance @Apostolou2022HERVmecfs
 
-The re-silencing failure could be conditioned by: pre-existing pericentromeric hypomethylation (due to MTHFR variants, methyl-donor depletion, prior epigenetic hits), severity of the initial infection (larger initial HSAT2 burst exceeding re-silencing capacity), or specific HERVs/HSAT2 loci affected.
+The re-silencing failure could be conditioned by: pre-existing pericentromeric hypomethylation (due to MTHFR variants, folate-cycle impairment causing H3K9me3 loss @Zhu2014MTHFR, prior epigenetic hits), severity of the initial infection (larger initial HSAT2 burst exceeding re-silencing capacity), or specific HERVs/HSAT2 loci affected.
 
-*Falsifiable prediction:* Plasma exosomes from ME/CFS cases within 2 years of post-infectious onset will contain HSAT2 and HERV-K RNA at ≥ 2-fold higher levels than matched post-infectious recovered individuals, AND will induce CD33+HLA-DR− phenotypes when added to healthy donor PBMCs ex vivo. If HSAT2 levels are comparable between recovered and ME/CFS groups, the loop-failure hypothesis is not supported.
+*Falsifiable prediction:* Plasma exosomes from ME/CFS cases within 2 years of post-infectious onset will contain HSAT2 and HERV-K RNA at ≥ 2-fold higher levels than matched post-infectious recovered individuals, AND will induce CD33+HLA-DR− phenotypes when added to healthy donor PBMCs ex vivo. HERV-K IgG should be persistently elevated versus recovered controls (testable with existing samples per Apostolou 2022 protocol). If HSAT2 levels are comparable between recovered and ME/CFS groups, the loop-failure hypothesis is not supported.
 
-*Limitations:* Entirely indirect; all evidence extrapolated from Ewing sarcoma and HSV-1 cell culture. Whether viral de-silencing of HSAT2 at the concentrations reached in non-cancer acute infection is comparable to the Ewing sarcoma context is unknown. Not yet replicated in any post-viral chronic disease. No individual risk-factor data for re-silencing failure.
+*Limitations:* The Apostolou 2022 HERV-K antibody finding is indirect — antibody elevation could reflect prior reactivation rather than ongoing expression. All evidence for the propagating exosomal loop extrapolated from Ewing sarcoma and HSV-1 cell culture. Whether viral de-silencing of HSAT2 at concentrations reached in non-cancer acute infection is comparable to the Ewing sarcoma context is unknown. Not yet replicated in any post-viral chronic disease.
 ] <spec:hsat2-postviral-memory>
 #speculation(title: [PEM as Transient Amplification of Exosomal HSAT2 Release via Exertional Stress])[
 
 
-*(Certainty: 0.30 — mechanistic plausibility from HSAT2 transcription biology; no direct ME/CFS PEM data.)*
+*(Certainty: 0.30 — mechanistic plausibility from HSAT2 transcription biology; HSF1-pericentromeric axis now independently supported; no direct ME/CFS PEM data.)*
 
-Evdokimova et al.\ found that Pol II inhibition strongly blocks HSAT2 accumulation, pointing to stress-inducible Pol II-dependent transcription as the primary driver @Evdokimova2019HSAT2exosome. HSAT2 transcription is known to be induced by HSF1, the master heat-shock and oxidative-stress transcription factor. Physical exertion produces documented heat-shock and oxidative-stress responses in ME/CFS patients. The delayed onset of PEM (24–72 h) matches the timescale of EV biogenesis, cellular uptake, and phenotype acquisition by recipient myeloid cells.
+Evdokimova et al.\ found that Pol II inhibition strongly blocks HSAT2 accumulation, pointing to stress-inducible Pol II-dependent transcription as the primary driver @Evdokimova2019HSAT2exosome. Vourc'h et al.\ @Vourc_h2022HSF1SatIII demonstrated independently that HSF1 forms nuclear stress bodies at pericentromeric satellite loci upon oxidative, osmotic, and proteotoxic stress — not merely thermal stress — driving their transcription in non-cancer cells. Physical exertion produces documented heat-shock and oxidative-stress responses in ME/CFS patients, including elevated lipid peroxidation and protein carbonyls. The delayed onset of PEM (24–72 h) matches the timescale of EV biogenesis, cellular uptake, and phenotype acquisition by recipient myeloid cells.
 
 This proposes that each exertional event transiently amplifies the exosomal HSAT2 burden, re-inoculating circulating myeloid cells with immunosuppressive cargo and widening the MDSC pool. This would explain:
 
@@ -353,9 +360,15 @@ This would manifest as:
     - Chromosomal instability in rapidly dividing immune cells during clonal expansion responses
     - Fibroblast dysfunction contributing to connective tissue features (hypermobility overlap, skin manifestations)
 
-*Falsifiable prediction:* Primary skin or muscle fibroblasts from ME/CFS patients (passage 3 cultures, minimising cell culture artifact) will show elevated CENPA and NDC80 transcripts versus matched controls; the elevation will partially reverse with HSAT2 dsRNA knockdown or RT inhibitor (AZT 1 µM, 72 h) in patient-derived cells.
+*Falsifiable prediction:* Primary skin or muscle fibroblasts from ME/CFS patients (passage 3 cultures, minimizing cell culture artifact) will show elevated CENPA and NDC80 transcripts versus matched controls; the elevation will partially reverse with HSAT2 dsRNA knockdown or RT inhibitor (AZT 1 µM, 72 h) in patient-derived cells.
 
-*Limitations:* Highly indirect; requires both circulating HSAT2 EVs (unconfirmed in ME/CFS) and efficient fibroblast EV uptake. Centromere gene upregulation in fibroblasts has not been linked to the ME/CFS phenotype independently. Replication status: not replicated.
+*Mechanistic nuance:* The Evdokimova finding of CENPA/NDC80 mRNA upregulation in EV-exposed fibroblasts is a specific transcriptional response to exogenously delivered HSAT2 RNA. This is mechanistically distinct from the endogenous genotoxic-stress response documented by Zhu et al., in which genotoxic stress (etoposide, zeocin) causes ATM-dependent CENPA *eviction* from centromeres (delocalization, not upregulation) as a protective senescence brake @Zhu2017CENPAstress. Both phenomena are real but at different timescales and in different cell-state contexts: EV-delivered HSAT2 drives a transcriptional induction program in recipient cells; endogenous satellite RNA transcription under genotoxic stress drives CENPA removal as a checkpoint mechanism. If ME/CFS circulating EVs deliver HSAT2 to stromal cells, the Evdokimova transcriptional-induction pathway is the relevant one.
+
+When CENPA does become overexpressed (through any route), two independent 2021 studies confirm that CENPA mislocalization to chromosome arms reduces outer kinetochore proteins (NUF2, HEC1/NDC80, CENP-T, Mis12) through stoichiometric redistribution, not through upregulation @Jeffery2021CENPAp53 @Shrestha2021CENPAaneuploidy. The downstream consequence — unstable kinetochore-microtubule attachments, lagging chromosomes, and micronuclei — is consistent across two independent groups. In p53-competent cells, CENPA overexpression drives cells into senescence rather than malignant transformation @Jeffery2021CENPAp53. This p53-dependent gating means the downstream phenotype in ME/CFS cells would depend on the patient's p53 integrity.
+
+*Evidence gap:* No published study has measured CENPA or NDC80 levels in ME/CFS, Long COVID, or fibromyalgia patient samples. No chromosomal instability (micronuclei, lagging chromosomes, aneuploidy) has been reported in ME/CFS peripheral blood or tissue cells. All CENPA mislocalization data come from cancer cell lines or transformed epithelial cells; extrapolation to primary stromal cells in a chronic post-viral setting is speculative.
+
+*Limitations:* Highly indirect; requires both circulating HSAT2 EVs (unconfirmed in ME/CFS) and efficient fibroblast EV uptake. Centromere gene upregulation in fibroblasts has not been linked to the ME/CFS phenotype independently. The Evdokimova preprint remains unpublished in a peer-reviewed journal; all mechanistic support derives from a single cancer-biology preprint plus cancer cell line studies (Jeffery 2021, Shrestha 2021). NDC80 complex is functionally reduced (not elevated) when CENPA is overexpressed per protein-level assays, suggesting the mRNA upregulation seen in the Evdokimova preprint may reflect an early compensatory transcriptional response preceding the protein-level stoichiometric loss. Replication status: not replicated; Jeffery 2021 and Shrestha 2021 partially replicate the CENPA overexpression → instability chain in cancer lines only.
 ] <spec:hsat2-centromere-stress>
 == Lactate Compartmentalization Disorder
 <sec:lactate-compartment>

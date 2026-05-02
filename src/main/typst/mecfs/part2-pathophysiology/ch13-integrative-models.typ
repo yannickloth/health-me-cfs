@@ -1118,6 +1118,18 @@ The hEDS-POTS-MCAS triad suggests shared pathophysiology. Proposed mechanisms in
 
 See Chapter @ch:translational-findings for MCAS-dysautonomia-vascular mechanisms and treatment chapters for screening and management protocols.
 
+#speculation(title: [Domain 6 as a Bistable Switch Layer in the ME/CFS Causal Network])[
+*(Certainty: 0.40 -- mechanistically grounded; bistability in mast cell systems is established; ME/CFS-specific application is novel.)*
+
+The existing multi-domain causal model treats each biological domain as a continuously-graded node with roughly linear or weakly-coupled feedback. Mast cells, however, are characterized by *bistability*: below their activation threshold they remain quiescent; above threshold they enter a self-sustaining autocrine loop (CRH $arrow.r$ SCF $arrow.r$ IL-6 $arrow.r$ CRH, plus calcium-driven degranulation) that maintains activation indefinitely. This bistable behavior -- described mathematically as a Hill-function switch with cooperativity coefficient $n gt.eq 4$ -- produces hysteresis: the system does not return to quiescence by merely removing the activating stimulus; it requires active suppression.
+
+*Modeling implication:* Incorporating Domain 6 as a bistable switch (rather than a linear node) predicts the observed clinical pattern of sudden MCAS flares and prolonged inter-flare quiescence that a linear model cannot reproduce. Once triggered into the activated state, mast cell domain positivity will persist even if other domains are treated -- providing a mechanism for treatment-refractory ME/CFS in the MCAS-dominant subset.
+
+*Testable prediction:* Time-series measurements of urinary mast cell mediators (N-methylhistamine, LTE#sub[4]) in MCAS-positive ME/CFS patients will show a bimodal distribution (quiescent vs.\ activated states with sharp transitions), not a unimodal/Gaussian distribution. This is falsified if mediator levels vary continuously and randomly.
+
+*Limitations:* Mast cell bistability is established in vitro and in murine models; translating this to in vivo human tissue dynamics requires longitudinal sampling with high temporal resolution (weekly or more frequent urinary mediators). No ME/CFS study has collected the time-series data needed to test this prediction.
+] <spec:domain6-bistable-switch>
+
 === Autoimmune Conditions
 
 ME/CFS shares immunological features with established autoimmune diseases and may represent an autoimmune condition in a subset of patients. The daratumumab trial @Fluge2025daratumumab and GPCR autoantibody findings provide the strongest evidence for autoimmune mechanisms.
@@ -1321,7 +1333,7 @@ This reframing makes specific predictions that differ from the immune-causal mod
     - *If immune-causal:* Immunomodulatory treatments (daratumumab, immunoadsorption) should produce sustained improvement, and non-immune cells (fibroblasts, epithelial cells) should be metabolically normal
     - *If immune-consequential:* Immunomodulatory treatments may produce temporary improvement (removing a downstream amplifier) but not sustained remission; non-immune cells should show the _same_ metabolic dysfunction as immune cells; and metabolic interventions (targeting mitochondria directly) should improve both immune function and clinical symptoms simultaneously
 
-The Heng 2025 systems-level data @heng2025mecfs may help resolve this: if immune markers and metabolic markers are _independently_ abnormal (after controlling for each other), the immune contribution is likely causal. If immune abnormalities are fully explained by metabolic dysfunction, the canary interpretation gains ground. Similarly, the ongoing RESETME daratumumab trial will be informative: sustained remission after plasma cell depletion would strongly favour immune causality, while transient benefit followed by relapse would be consistent with removing a downstream amplifier while the upstream metabolic driver persists.
+The Heng 2025 systems-level data @heng2025mecfs may help resolve this: if immune markers and metabolic markers are _independently_ abnormal (after controlling for each other), the immune contribution is likely causal. If immune abnormalities are fully explained by metabolic dysfunction, the canary interpretation gains ground. Similarly, the ongoing RESETME daratumumab trial will be informative: sustained remission after plasma cell depletion would strongly favor immune causality, while transient benefit followed by relapse would be consistent with removing a downstream amplifier while the upstream metabolic driver persists.
 ] <oq:immune-canary>
 
 == Systems Biology Approaches
@@ -1739,7 +1751,7 @@ Integration of critical evidence analyses with the existing pathophysiology fram
 
 *Certainty: 0.30.* The DecodeME GWAS identified glutamatergic synapse genes (_SHISA6_, _UNC13C_) alongside genes governing neuronal development and axon guidance (_CA10_, _SOX6_, _LRRC7_, _DCC_)---all converging on neuronal communication in brain regions (Section @sec:decodeme-genes of Chapter @ch:genetics-epigenetics). The genetic correlation pattern ($r_g = 0.75$ with IBS, $r_g = 0.60$ with depression, absent for autoimmune diseases) places ME/CFS squarely in the neurological--functional disorder spectrum rather than the autoimmune spectrum @DecodeME2025.
 
-We propose that these genetic variants create a constitutional vulnerability in the brain's autonomic regulatory circuits. Glutamatergic signalling in autonomic regulatory brain regions governs sympathetic and parasympathetic outflow; developmental variants affecting synapse formation or transmission efficiency in these circuits could produce a system that functions normally under basal conditions but fails under stress. (The specific brain regions involved remain to be determined; brainstem, hypothalamus, and insular cortex are candidates based on known autonomic circuitry, but the DecodeME data do not localise the effect.) An acute infection then imposes a metabolic and inflammatory insult on already-vulnerable circuits, tipping them past a threshold into sustained dysfunction.
+We propose that these genetic variants create a constitutional vulnerability in the brain's autonomic regulatory circuits. Glutamatergic signaling in autonomic regulatory brain regions governs sympathetic and parasympathetic outflow; developmental variants affecting synapse formation or transmission efficiency in these circuits could produce a system that functions normally under basal conditions but fails under stress. (The specific brain regions involved remain to be determined; brainstem, hypothalamus, and insular cortex are candidates based on known autonomic circuitry, but the DecodeME data do not localize the effect.) An acute infection then imposes a metabolic and inflammatory insult on already-vulnerable circuits, tipping them past a threshold into sustained dysfunction.
 
 This model predicts: (1) ME/CFS patients carrying more DecodeME neuronal risk alleles should show more severe autonomic dysfunction (HRV, tilt table, baroreflex sensitivity); (2) brainstem and insula glutamate/glutamine ratios (MR spectroscopy) should correlate with autonomic symptom severity; (3) the IBS genetic correlation ($r_g = 0.75$) should be mediated by shared autonomic regulatory genes (testable via Mendelian randomisation); (4) glutamatergic modulators (memantine, riluzole) may improve autonomic symptoms in patients with high neuronal-gene PRS.
 
@@ -1780,7 +1792,7 @@ Predictions: (1) low-dose amitriptyline should improve ME/CFS symptoms beyond sl
 
 Candidates for this molecular switch:
 
-    - *TRPM3 ion channel dysfunction* (Section @sec:trpm3-dysfunction, Chapter @ch:immune-dysfunction): A single molecular target affecting calcium signalling across immune, neuronal, and metabolic cells. If TRPM3 is the "stuck door" that, once jammed, maintains multi-system dysfunction independently of the trigger, then TRPM3-restoring drugs would be the "antibiotic" of ME/CFS.
+    - *TRPM3 ion channel dysfunction* (Section @sec:trpm3-dysfunction, Chapter @ch:immune-dysfunction): A single molecular target affecting calcium signaling across immune, neuronal, and metabolic cells. If TRPM3 is the "stuck door" that, once jammed, maintains multi-system dysfunction independently of the trigger, then TRPM3-restoring drugs would be the "antibiotic" of ME/CFS.
     - *Epigenetic methylation lock* at autonomic regulatory genes: The "hit-and-run" model proposes transient viral products cause persistent epigenetic changes. If a specific methylation signature can be identified and reversed (DNMT inhibitors, targeted demethylation), this would be molecular "eradication."
     - *DecodeME autophagy genes*: If _FBXL4_/_CCPG1_ variants create a genetic bottleneck in mitochondrial quality control (Hypothesis @hyp:mitophagy-vulnerability, Chapter @ch:genetics-epigenetics), mitophagy-enhancing drugs would be curative in the genetically vulnerable subset---precision medicine analogous to _H. pylori_ eradication for infected ulcer patients.
 
@@ -1804,20 +1816,89 @@ The field stands at an inflection point. Decades of patient advocacy and recent 
 #speculation(title: [HSAT2 Exosomal Loop as an Accelerated Inflammaging Process in ME/CFS])[
 
 
-*(Certainty: 0.30 — heterochromatin loss → repeat de-silencing is well-established in aging; application to ME/CFS is indirect.)*
+*(Certainty: 0.35 — LINE-1/cGAS-STING inflammaging pathway now mechanistically established in Nature (De Cecco 2019); application to ME/CFS via HSAT2 remains indirect.)*
 
-Heterochromatin loss with aging de-silences satellite repeats and HERVs — a process best documented for LINE-1 elements in senescent cells, but plausibly extending to pericentromeric repeats including HSAT2. The inflammatory consequences of repeat de-silencing in aging ("repeat-driven inflammaging") provide a conceptual framework for ME/CFS: viral infection could trigger an acute, high-velocity version of the same slow process that underlies age-associated immune dysfunction.
+Heterochromatin loss with aging de-silences transposable elements and satellite repeats — a process now mechanistically established for LINE-1 retrotransposons: De Cecco et al.\ @DeCecco2019LINE1 demonstrated in aged mouse tissues and human skin biopsies that LINE-1 derepression in senescent cells produces cytoplasmic cDNA that activates cGAS-STING → type-I interferon, promoting the senescence-associated secretory phenotype (SASP) and amplifying age-associated inflammation. Lamivudine (NRTI) suppresses this pathway, providing pharmacological proof. The same pericentromeric dismantling mechanism has been demonstrated for satellite II/III in replication-stressed cells: TP53 activation → TRF2 downregulation → KAP1/Lamin B1 release → H3K9me3 loss → satellite DNA derepression → cytosolic cGAS ligand @MendezBermudez2022pericentromeric. Viral infection could trigger this same pathway acutely.
 
-Supporting features of the analogy:
+The inflammatory consequences of repeat de-silencing in aging ("repeat-driven inflammaging") provide a direct mechanistic framework for ME/CFS: viral infection could trigger an acute, high-velocity version of the same slow process that underlies age-associated immune dysfunction. Supporting convergences:
 
-    - Aged individuals show increased HERV transcription in blood and brain tissue
-    - Senescent cells accumulate LINE-1 and HERV-K RNA via DNMT3B downregulation
-    - Senolytic drugs (dasatinib + quercetin, fisetin) that clear senescent cells also reduce repeat expression and inflammaging markers
-    - ME/CFS shows features of accelerated biological aging (epigenetic clock studies, shortened telomeres in some cohorts)
+    - Senescent cells accumulate LINE-1 and HERV-K RNA via DNMT3B downregulation @DeCecco2019LINE1; ME/CFS shows features of accelerated biological aging (epigenetic clock studies, shortened telomeres in some cohorts)
+    - HSF1, the master stress transcription factor, forms nuclear stress bodies at pericentromeric satellite loci under oxidative, osmotic, and proteotoxic stress — all documented in ME/CFS @Vourc_h2022HSF1SatIII
+    - HERV-K antibodies are persistently elevated in ME/CFS patients post-COVID-19 @Apostolou2022HERVmecfs, consistent with ongoing epigenetic derepression
+    - Senolytic drugs (dasatinib + quercetin, fisetin) reduce LINE-1 expression and SASP by eliminating senescent cells @DeCecco2019LINE1 — the same drugs have mechanistic rationale in ME/CFS via the accelerated-inflammaging model
 
-If ME/CFS represents a "viral short-circuit" of inflammaging — triggering in days what normally takes decades — then senolytics (dasatinib + quercetin, fisetin) and methyl-donor support for pericentromeric re-silencing @spec:methyl-donor-hsat2 could have dual relevance for both ME/CFS and aging-associated immune dysfunction.
+If ME/CFS represents a "viral short-circuit" of inflammaging — triggering in days what normally takes decades — then senolytics (dasatinib + quercetin, fisetin) and methyl-donor support for pericentromeric re-silencing @spec:methyl-donor-hsat2 could have dual relevance for both ME/CFS and aging-associated immune dysfunction. Lamivudine suppressing the LINE-1/cGAS-STING pathway @DeCecco2019LINE1 provides a novel rationale complementary to the HERV-K RT inhibition rationale for NRTIs in ME/CFS @oq:nrti-hsat2.
 
-*Falsifiable prediction:* ME/CFS patients will show biological age acceleration (GrimAge epigenetic clock divergence from chronological age) that correlates with plasma HSAT2 exosomal content. Patients who recover will show clock renormalization. Fisetin 100 mg/day × 2 days/week × 12 weeks in ME/CFS patients aged > 50 will reduce plasma HSAT2 and improve NK cytotoxicity markers.
+*Falsifiable prediction:* ME/CFS patients will show biological age acceleration (GrimAge epigenetic clock divergence from chronological age) that correlates with plasma HSAT2 exosomal content. Patients who recover will show clock renormalization. Fisetin 100 mg/day × 2 days/week × 12 weeks in ME/CFS patients aged > 50 will reduce plasma HSAT2, LINE-1 expression in PBMCs, and improve NK cytotoxicity markers. Lamivudine 150 mg/day × 8 weeks will reduce LINE-1-mediated cGAS-STING activation (measurable by plasma cGAMP or IFN-β).
 
-*Limitations:* Analogy between aging and acute post-viral ME/CFS is biologically imprecise. Senolytics are not established ME/CFS treatments. The inflammaging framework does not explain onset specificity (why viral trigger specifically) or post-infectious latency. Not replicated.
+*Limitations:* The De Cecco 2019 LINE-1 mechanism is well-established but operates via retrotransposition and cDNA (not exosomal RNA propagation) — it is a parallel inflammaging pathway, not an exact analogue of the HSAT2 exosomal loop. Analogy between aging-driven and acute post-viral ME/CFS is biologically imprecise. Senolytics carry significant side-effect profiles and are not established ME/CFS treatments. The inflammaging framework does not explain onset specificity or post-infectious latency. Not replicated in ME/CFS.
 ] <spec:hsat2-inflammaging>
+
+#speculation(title: [SIRT1/NAD+ Depletion as the Upstream Trigger for HSAT2 Derepression in ME/CFS])[
+
+
+*(Certainty: 0.35 — SIRT1-SUV39H1 axis mechanistically established; NAD+ depletion in ME/CFS documented; direct SIRT1-HSAT2 link in ME/CFS absent.)*
+
+SIRT1 stabilizes SUV39H1 — the primary writer of H3K9me3 at pericentromeric heterochromatin — by blocking MDM2-mediated ubiquitination @BoschPresegue2011SIRT1SUV39H1. SUV39H1 activity is required to maintain the H3K9me3 mark that keeps HSAT2 loci silenced. SIRT1 is an NAD+-dependent deacetylase; its activity is directly proportional to the cellular NAD+/NADH ratio. ME/CFS is characterized by documented metabolic dysfunction that includes reduced NAD+ availability in multiple cohorts. The proposed chain is: ME/CFS metabolic impairment → NAD+ depletion → SIRT1 inactivation → SUV39H1 hyperacetylation and turnover → H3K9me3 loss at pericentromeric loci → HSAT2 derepression. This positions SIRT1/NAD+ as a master upstream switch sitting above both the HSF1 (heat/oxidative stress) and CTCF-loss derepression routes documented in Clusters C and D.
+
+The clinical corollary is that NAD+ precursor supplementation (nicotinamide riboside or nicotinamide mononucleotide) could address HSAT2 derepression upstream by restoring SIRT1 activity and SUV39H1 stability. This is distinct from direct H3K9me3 restoration (the methyl-donor approach @spec:methyl-donor-hsat2), which targets the mark itself rather than the enzyme that writes it.
+
+*Falsifiable prediction:* Plasma NAD+/NADH ratio in ME/CFS will inversely correlate with EV-packaged HSAT2 RNA load (Spearman ρ < −0.4) in a cohort of n ≥ 50. NR 1 g/day × 12 weeks will raise whole-blood NAD+ by ≥ 50% and reduce EV HSAT2 by ≥ 20%; if NAD+ rises without HSAT2 falling, the SIRT1-SUV39H1-HSAT2 chain is not the dominant pathway in ME/CFS.
+
+*Limitations:* Direct measurement of SIRT1 activity or SUV39H1 ubiquitination in ME/CFS blood cells has not been reported. NAD+ depletion in ME/CFS is documented but the effect size and cell-type specificity vary across studies. The SIRT1-SUV39H1 study (Bosch-Preseguè 2011) was conducted in cell lines; in vivo applicability is uncertain. Oxidative stress paradoxically activates SIRT1 via this same pathway — SIRT1 depletion as the driver of HSAT2 requires that chronic, sustained oxidative stress eventually exhausts the SIRT1/NAD+ buffer. Replication: mechanism well-replicated at individual steps; chain not demonstrated end-to-end in any disease context.
+] <spec:sirt1-hsat2-upstream>
+
+#speculation(title: [CTCF Chromatin Insulator Loss as a Second Route to HSAT2 Derepression, Amplifiable by HSF1])[
+
+
+*(Certainty: 0.30 — both CTCF-loss route and HSF1 nSB route individually documented; their interaction at HSAT2 loci unstudied.)*
+
+Two independent routes to HSAT2 derepression have been established: (1) HSF1 nuclear stress body formation at pericentromeric satellite sequences under heat or proteotoxic stress @Eymery2010HSF1SatII @Decottignies2012Sat2heatshock; (2) CTCF chromatin insulator loss, as demonstrated by Miyata et al.\ @Miyata2021HSAT2senescence, where HSAT2 ncRNA accumulates in senescent cells and displaces CTCF from insulator sites flanking HSAT2 loci, permitting satellite read-through and SASP gene activation. Oxidative stress reduces CTCF expression, opening this second route independently of HSF1.
+
+A plausible interaction: HSF1 nuclear stress bodies may locally evict CTCF from insulator sites within pericentromeric chromatin domains as they form, removing boundary constraints on satellite transcription and allowing HSAT2 expression to spread into flanking regulatory regions. This would mean that each PEM-associated stress event (activating HSF1) also degrades the CTCF insulator boundary, progressively lowering the threshold for HSAT2 derepression in subsequent events. This could explain the "lowered PEM threshold" observed in progressive ME/CFS without requiring additional triggering viruses.
+
+*Falsifiable prediction:* CTCF ChIP-seq in peripheral blood mononuclear cells at baseline and 48 h post-exertional challenge (CPET) will show ≥ 30% CTCF occupancy loss at HSAT2-flanking insulator sites, preceding measurable HSAT2 RNA accumulation. In patients with the highest CPET-triggered HSAT2 rise, CTCF loss will be greatest.
+
+*Limitations:* HSF1 nSB-induced CTCF eviction at HSAT2 loci has not been directly demonstrated in any cell type. The CTCF-loss mechanism was characterized in senescent fibroblasts, not immune cells or during acute stress. CTCF has thousands of binding sites genome-wide; the pericentromeric sites represent a small fraction. Replication: each route individually documented; their interaction at HSAT2 in any cell type is speculative.
+] <spec:ctcf-hsat2-route>
+
+#speculation(title: [EV-Delivered HSAT2 as a TLR3/RIG-I Ligand Triggering Type-I IFN in Recipient Stromal Fibroblasts])[
+
+
+*(Certainty: 0.30 — dsRNA sensing by TLR3/RIG-I in fibroblasts is established; HSAT2 RNA dsRNA character and EV delivery to stromal cells inferred from Evdokimova 2019.)*
+
+HSAT2 repeat RNA forms self-complementary stem-loop structures with double-stranded character — a canonical pattern recognized by innate immune RNA sensors TLR3 (endosomal dsRNA) and RIG-I/MDA5 (cytosolic dsRNA). Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated transfer of HSAT2 RNA from cancer EVs to recipient MRC5 fibroblasts, driving the full CENPA/kinetochore stress program. In recipient stromal fibroblasts with intact innate immune sensing (unlike the cancer cells from which the EVs originate), EV-delivered dsRNA cargo should engage TLR3 and/or RIG-I, triggering IFN-β production and a type-I interferon response. This would convert the existing centromere-stress hypothesis into a unified IFN-driven stromal SASP loop.
+
+This parallels the cGAS-STING mechanism demonstrated for cytoplasmic repeat DNA in senescent cells @DeCecco2019LINE1, but applies to EV-delivered RNA. The implication: the HSAT2 loop may produce two distinct inflammatory outputs — MDSC-mediated immune suppression (via myeloid cell programming) and IFN-driven stromal inflammation (via fibroblast TLR3/RIG-I). Both are self-reinforcing.
+
+*Falsifiable prediction:* Primary dermal fibroblasts from healthy donors incubated with ME/CFS patient plasma EVs will produce IFN-β within 24 h (ELISA); this production will be abolished by TLR3 knockdown (siRNA) or RIG-I knockout (CRISPR). ME/CFS patient EVs will produce ≥ 3× more IFN-β than matched healthy control EVs.
+
+*Limitations:* HSAT2 RNA dsRNA character under physiological conditions is inferred from repeat structure, not directly demonstrated. Whether ME/CFS EVs carry sufficient HSAT2 cargo to trigger TLR3/RIG-I in fibroblasts at physiological concentrations is unknown. Fibroblasts in vivo have blunted innate sensing compared to immune cells; IFN-β output may be below threshold. Not replicated in any disease context.
+] <spec:hsat2-tlr3-rig-i>
+
+#speculation(title: [CENPA Overexpression in EV-Exposed Stromal Fibroblasts Leading to p53-Dependent Senescence in ME/CFS])[
+
+
+*(Certainty: 0.32 — CENPA overexpression → senescence confirmed in p53-WT cells by Jeffery 2021; EV-HSAT2 → CENPA induction in fibroblasts documented in Evdokimova 2019 preprint only.)*
+
+Two 2021 studies converge on the cellular fate of CENPA overexpression: Jeffery et al.\ @Jeffery2021CENPAp53 showed that in human p53-WT cells, CENPA mislocalization to chromosome arms triggers senescence (p16 induction, SA-β-gal positivity, radiosensitivity) rather than malignant transformation; Shrestha et al.\ @Shrestha2021CENPAaneuploidy confirmed kinetochore instability as the upstream event. Evdokimova et al.\ @Evdokimova2019HSAT2exosome showed EV-delivered HSAT2 induces CENPA transcription up to 10-fold in recipient MRC5 fibroblasts. Chain inference: ME/CFS circulating EVs → CENPA upregulation in stromal fibroblasts → CENPA mislocalization → (p53 intact) → cellular senescence → SASP production → local and systemic inflammation.
+
+This predicts that ME/CFS connective tissue (skin, muscle, fascia) harbours an elevated burden of senescent fibroblasts, producing a chronic low-grade SASP. This would manifest as: connective tissue features (hypermobility, skin extensibility, poor wound healing); post-exertional muscle repair failure (senescent satellite cells cannot regenerate); and a local inflammatory milieu maintaining mast cell activation and nociceptor sensitization. The prediction is histologically testable with standard senescence assays.
+
+*Falsifiable prediction:* ME/CFS skin punch biopsies (4 mm) will show ≥ 2-fold elevation in p16^INK4a+ and SA-β-gal+ fibroblasts versus age- and sex-matched controls; HSAT2 RNA-positive fibroblasts (RNA-FISH) will correlate with p16+ burden (Spearman ρ > 0.5 within the ME/CFS group).
+
+*Limitations:* The Evdokimova preprint is unpublished in a peer-reviewed journal. Whether ME/CFS circulating EVs carry sufficient HSAT2 to drive CENPA to the 10-fold induction threshold is untested. Senescent fibroblasts accumulate with age independently of ME/CFS; age-matched controls are essential. Fibromyalgia and hEDS may show similar senescent fibroblast accumulation without the HSAT2 mechanism; specificity requires careful controls. Replication: Jeffery 2021 and Shrestha 2021 partially replicated in cancer lines only; Evdokimova single preprint.
+] <spec:cenpa-senescence-stromal>
+
+#hypothesis(title: [Sub-Clinical Fibrosis as a Chronicity and Irreversibility Mechanism in Long-Duration ME/CFS])[
+
+*Certainty: 0.40.* Supported by TGF-β1 elevation in long-duration ME/CFS cohorts, LS fibrosis biology providing a mechanistic template, and fascia/connective tissue reports in fibromyalgia-adjacent conditions. Direct histological evidence in ME/CFS connective tissue is absent. Not yet replicated.
+
+Lichen sclerosus demonstrates that chronic Th1/IFN-γ activation → TGF-β → fibroblast activation can become self-sustaining and structurally irreversible once collagen remodeling is established. ME/CFS chronicity (>5 years) is poorly accounted for by current models that emphasize cytokine dysregulation, NK dysfunction, or metabolic reprogramming — all of which are in principle reversible. Sub-clinical fibrotic remodeling in fascia, perivascular space, autonomic ganglia, or enteric nervous tissue — driven by the same TGF-β cascade — could provide a structural irreversibility mechanism that explains why the therapeutic window closes as disease duration extends @Batham2024MECFSAutoimmunity @DeLuca2023LS2023Update.
+
+In this model, LS in a patient with ME/CFS is not merely a comorbidity but a visible indicator that the patient's immune terrain has already progressed from cytokine-mediated inflammation toward fibrotic remodeling. The presence of LS-associated fibrosis in accessible tissue (skin, mucosa) would serve as a proxy for systemic fibrotic risk.
+
+*Falsifiable prediction:* (1) Shear-wave elastography of thoracolumbar fascia will show significantly higher stiffness in ME/CFS patients with illness duration >5y compared to $<$2y, independent of deconditioning. (2) Stiffness will correlate with serum TGF-β1 and procollagen III N-terminal peptide (PIIINP). (3) ME/CFS patients with concurrent LS will show higher fascial stiffness than ME/CFS patients without LS, matched for illness duration.
+
+*Limitations:* Shear-wave elastography of fascial tissue has not been standardized in ME/CFS research; confounders include deconditioning, BMI, and age. TGF-β1 elevation in long-duration ME/CFS has not been consistently replicated across cohorts. The LS-fascia prediction is multiply inferential — each inferential step (LS predicts fibrotic terrain → systemic fibrotic risk) dilutes certainty proportionally.
+] <hyp:subclinical-fibrosis-mecfs>

@@ -416,7 +416,7 @@ Extends previous cytokine findings to reveal sex- and age-specific patterns. The
 @Giloteaux2023
 
 *Key Findings:*
-Novel study examining cytokine content in extracellular vesicles (EVs) rather than free plasma. IL-2 was significantly elevated in ME/CFS patient EVs. Proinflammatory cytokines CSF2 and TNF$alpha$ correlated with physical and fatigue symptom severity. EVs represent cell-to-cell signalling mechanism and may better reflect active immune communication.
+Novel study examining cytokine content in extracellular vesicles (EVs) rather than free plasma. IL-2 was significantly elevated in ME/CFS patient EVs. Proinflammatory cytokines CSF2 and TNF$alpha$ correlated with physical and fatigue symptom severity. EVs represent cell-to-cell signaling mechanism and may better reflect active immune communication.
 
 *Relevance:*
 Identifies IL-2 as potentially important cytokine in ME/CFS pathophysiology. Notably, Hunter 2025 independently identified IL-2 pathway using epigenetic methods, providing convergent evidence from different methodologies. EV-based analysis may reveal immune signals missed by conventional plasma assays.
@@ -524,7 +524,7 @@ Bridges immune dysfunction and bioenergetic impairment chapters, demonstrating t
 @Kennedy2004
 
 *Key Findings:*
-CFS patients (n=47) demonstrated increased neutrophil apoptosis compared to controls (n=34): 37.4% vs 22.8% annexin V binding ($p = 0.001$), elevated TNFRI death receptor expression ($p = 0.004$), and raised active TGF-$beta$1 concentrations ($p < 0.005$). Higher apoptosis resulted in lower numbers of viable neutrophils. Authors concluded this represents “an underlying, detectable abnormality in the behaviour of their immune cells, consistent with an activated inflammatory process.”
+CFS patients (n=47) demonstrated increased neutrophil apoptosis compared to controls (n=34): 37.4% vs 22.8% annexin V binding ($p = 0.001$), elevated TNFRI death receptor expression ($p = 0.004$), and raised active TGF-$beta$1 concentrations ($p < 0.005$). Higher apoptosis resulted in lower numbers of viable neutrophils. Authors concluded this represents “an underlying, detectable abnormality in the behavior of their immune cells, consistent with an activated inflammatory process.”
 
 *Relevance:*
 Demonstrates that immune dysfunction in CFS extends beyond lymphocytes to innate immune cells (neutrophils). Increased apoptosis suggests accelerated neutrophil turnover and may impair antimicrobial defense. Links neutrophil dysfunction to elevated TNF-$alpha$ found in cytokine studies, providing mechanistic connection. Supports concept of “activated but exhausted” immune phenotype.
@@ -829,7 +829,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     / *PMID:*: 35816681
     / *PMCID:*: PMC9369615
     / *Study Design:*: Registry protocol paper describing design, data collection, and governance
-    / *Key Findings:*: Patient-powered registry with 4,200+ participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021). Mobile app captures longitudinal symptom tracking on 0--4 severity scale including pain. Designed to harmonise with other ME/CFS registries. Growing at ~72 registrants/week. Governance includes patient advisory board.
+    / *Key Findings:*: Patient-powered registry with 4,200+ participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021). Mobile app captures longitudinal symptom tracking on 0--4 severity scale including pain. Designed to harmonize with other ME/CFS registries. Growing at ~72 registrants/week. Governance includes patient advisory board.
     / *Relevance:*: The largest patient-powered ME/CFS research platform. Longitudinal pain tracking enables time-series analysis of pain patterns, PEM-pain relationships, and treatment response monitoring at scale. Harmonisation design facilitates cross-registry analyses.
     / *Certainty:*: High for protocol design and enrolment data; data quality depends on patient self-report adherence.
 
@@ -1217,7 +1217,7 @@ Provides theoretical framework for understanding chronic ME/CFS and suggests tes
     / *DOI:*: #link("https://doi.org/10.1023/b:ddas.0000011605.43979.e1")[10.1023/b:ddas.0000011605.43979.e1]
     / *PMID:*: 14992438
     / *Study Design:*: Prospective intervention study (n=93, IBS with abnormal lactulose breath test)
-    / *Key Findings:*: Exclusive elemental diet (Vivonex Plus) normalised lactulose breath test in 80% of subjects at day 15 and 85% including those extended to day 21. Successful normalisers had 66% bowel symptom improvement vs 12% in those who failed to normalise.
+    / *Key Findings:*: Exclusive elemental diet (Vivonex Plus) normalized lactulose breath test in 80% of subjects at day 15 and 85% including those extended to day 21. Successful normalisers had 66% bowel symptom improvement vs 12% in those who failed to normalize.
     / *Relevance:*: Landmark demonstration that elemental diet can eradicate SIBO by starving bacteria of fermentable substrates; basis for current clinical practice recommendations of 14–21 day elemental diet protocols.
     / *Limitations:*: IBS population only (not ME/CFS-specific); lactulose breath test used (lower specificity than glucose breath test or jejunal culture); no control arm; symptom improvement self-reported.
 
@@ -3495,7 +3495,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
 
 === Kindlon 2011 — Reporting of Harms from GET and CBT in ME/CFS
 
-    / *Full Citation:*: Kindlon T\@. Reporting of harms associated with graded exercise therapy and cognitive behavioural therapy in myalgic encephalomyelitis/chronic fatigue syndrome. _Bulletin of the IACFS/ME_. 2011;19(2):59–111.
+    / *Full Citation:*: Kindlon T\@. Reporting of harms associated with graded exercise therapy and cognitive behavioral therapy in myalgic encephalomyelitis/chronic fatigue syndrome. _Bulletin of the IACFS/ME_. 2011;19(2):59–111.
     / *Key Findings:*:
     
         - Systematic review of 10 patient surveys from four countries
@@ -3677,7 +3677,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     
         - ME/CFS patients lack the midday temperature increase seen in healthy controls and show a distinct evening temperature drop, indicating multi-system circadian decoupling beyond melatonin timing alone
         - DLMO timing is dissociated from body temperature rhythm in ME/CFS (both rhythms correlate in controls; correlation absent in patients)
-        - TGFB (transforming growth factor beta) dysregulation proposed as mechanistic driver of peripheral clock disruption via SMAD protein signalling
+        - TGFB (transforming growth factor beta) dysregulation proposed as mechanistic driver of peripheral clock disruption via SMAD protein signaling
         - Melatonin treatment shows preferential benefit only in the phase-delayed subset of ME/CFS patients
         - ME/CFS findings may illuminate long COVID (PASC) pathophysiology given shared circadian disruption
     
@@ -3697,7 +3697,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     
         - 29 CFS patients with DLMO $>$21:30h treated with 5mg melatonin orally 5h before DLMO for 3 months
         - CIS total score and sub-scores (fatigue, concentration, motivation, activity) all improved significantly post-treatment
-        - Fatigue normalised in 8/27 patients during treatment vs.\ 2/29 pre-treatment ($p < 0.05$)
+        - Fatigue normalized in 8/27 patients during treatment vs.\ 2/29 pre-treatment ($p < 0.05$)
         - Patients with DLMO $>$22:00h ($n=21$) showed significantly greater benefit than those with DLMO 21:30–22:00h ($n=8$)
         - Supports DLMO-guided timing as a clinically meaningful stratification variable
     
@@ -3757,7 +3757,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
 
     / *Key Findings:*:
 
-        - N=118 CFS patients (Fukuda criteria), 14-day sleep diary with standardised neuropsychological testing
+        - N=118 CFS patients (Fukuda criteria), 14-day sleep diary with standardized neuropsychological testing
         - Afternoon napping predicted worse objective cognitive dysfunction, explaining 25.6% of variance (p<.001)
         - Morning napping predicted worse subjective cognitive dysfunction, explaining 32.2% of variance
         - Longer nap duration and afternoon nap timing both associated with greater daytime sleepiness
@@ -4000,7 +4000,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Quality:* High (J Clin Endocrinol Metab, double-blind placebo-controlled trial in healthy adults)
         - *Sample:* n=34 healthy adults
         - *Replication:* Foundational PRC study; findings consistent with prior melatonin PRC literature
-        - *Limitation:* Healthy adults only; ME/CFS-specific PRC not characterised; extrapolation required
+        - *Limitation:* Healthy adults only; ME/CFS-specific PRC not characterized; extrapolation required
     
 
 ==== Swanson et al.\ 2024 — Low-Dose Melatonin + Dim Light for DSWPD
@@ -4049,10 +4049,10 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Key Findings:*:
     
         - Melatonin significantly increased NK cell number, proliferation, degranulation, and IFN-$gamma$ secretion in aged mice
-        - Mechanism: JAK3/STAT5 signalling pathway $arrow.r$ increased T-bet expression $arrow.r$ NK cell maturation and activation
+        - Mechanism: JAK3/STAT5 signaling pathway $arrow.r$ increased T-bet expression $arrow.r$ NK cell maturation and activation
         - Provides molecular mechanism linking melatonin to NK cell function, relevant to ME/CFS NK hypofunctionality
     
-    / *Relevance:*: NK cell cytotoxicity is consistently reduced in ME/CFS. This paper provides a mechanistic explanation for how circadian disruption and melatonin deficiency could contribute to NK dysfunction: loss of melatonin-driven JAK3/STAT5/T-bet signalling. Directly supports the melatonin–immune axis discussion in Section 15.6.
+    / *Relevance:*: NK cell cytotoxicity is consistently reduced in ME/CFS. This paper provides a mechanistic explanation for how circadian disruption and melatonin deficiency could contribute to NK dysfunction: loss of melatonin-driven JAK3/STAT5/T-bet signaling. Directly supports the melatonin–immune axis discussion in Section 15.6.
     / *Certainty Assessment:*:
     
   // TODO: needs #table() wrapper
@@ -4168,7 +4168,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Quality:* Low-Medium (Internal Medicine; open-label single-arm)
         - *Sample:* n=100
         - *Study type:* Open-label prospective; no control group; no blinding; Japanese single-centre
-        - *Limitation:* No randomisation; significant dropout (38%); Japanese cohort may not generalise; response rate (27%) modest; performance status is a subjective endpoint
+        - *Limitation:* No randomisation; significant dropout (38%); Japanese cohort may not generalize; response rate (27%) modest; performance status is a subjective endpoint
         - *Replication:* Partially replicated in Miwa 2024 pilot (PMID 39720104) with higher response rate in early-stage Long COVID-ME
     
 
@@ -4287,7 +4287,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Certainty Assessment:*:
     
         - *Quality:* Medium-High (Frontiers in Immunology; Zúñiga-Pflücker is a leading T cell development researcher)
-        - *Study type:* Mechanistic review; thymic involution is a well-characterised phenomenon
+        - *Study type:* Mechanistic review; thymic involution is a well-characterized phenomenon
         - *Limitations:* Thymic output is relevant primarily for T cell tolerance; application to B cell-mediated GPCR autoantibody clearance requires additional inferential steps
   // TODO: needs #table() wrapper
 [- *Convergence:* Consistent with Meffre], [O'Connor 2024; together describe a developmental quality-control system that operates more actively in youth],
@@ -4328,7 +4328,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - Proposes systematic imbalance between excitatory and inhibitory neurotransmitter pathways in ME/CFS and Long COVID
         - Examines dysregulation across acetylcholine, serotonin, GABA, and glutamate systems
         - Autonomic dysfunction may result from cholinergic-adrenergic imbalance secondary to autoantibodies targeting muscarinic and adrenergic receptors
-        - Central sensitisation and cognitive symptoms may reflect disturbed glutamate/GABA equilibrium
+        - Central sensitization and cognitive symptoms may reflect disturbed glutamate/GABA equilibrium
     
     / *Relevance to ME/CFS:*: Provides a mechanistic bridge between documented autoantibodies against adrenergic and muscarinic receptors and the full ME/CFS symptom spectrum. Relevant to the immune memory pruning hypothesis: autoantibody-mediated receptor dysfunction may persist even after viral clearance, causing ongoing neurotransmitter dysregulation.
     / *Certainty Assessment:*:
@@ -4354,12 +4354,12 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Study Design:*: Mechanistic experimental study (murine)
     / *Key Findings:*:
     
-        - Identified a direct monosynaptic connection between intestinal enteroendocrine cells (neuropod cells) and vagal sensory neurons, operating within milliseconds rather than the minutes-scale of hormonal signalling
+        - Identified a direct monosynaptic connection between intestinal enteroendocrine cells (neuropod cells) and vagal sensory neurons, operating within milliseconds rather than the minutes-scale of hormonal signaling
         - Neuropod cells release glutamate as a fast neurotransmitter to activate vagal afferents, bypassing the conventional hormonal route
-        - This neural circuit transduces gut luminal information directly and rapidly to the brain via electrochemical signalling — a paradigm shift in gut-brain axis biology
+        - This neural circuit transduces gut luminal information directly and rapidly to the brain via electrochemical signaling — a paradigm shift in gut-brain axis biology
         - Established that enteroendocrine cells are genuine sensory neurons capable of fast electrochemical communication with the nervous system
     
-    / *Relevance to ME/CFS:*: Establishes the anatomical and physiological basis for rapid gut-to-brain signalling. If gut dysbiosis or altered luminal contents alter neuropod cell signalling, this could rapidly affect autonomic regulation, pain modulation, and fatigue pathways. Provides mechanistic support for gut-brain interactions in ME/CFS beyond the traditional slow hormonal pathway.
+    / *Relevance to ME/CFS:*: Establishes the anatomical and physiological basis for rapid gut-to-brain signaling. If gut dysbiosis or altered luminal contents alter neuropod cell signaling, this could rapidly affect autonomic regulation, pain modulation, and fatigue pathways. Provides mechanistic support for gut-brain interactions in ME/CFS beyond the traditional slow hormonal pathway.
     / *Certainty Assessment:*:
     
         - *Quality:* High (_Science_; landmark mechanistic study; established the neuropod cell concept)
@@ -4378,12 +4378,12 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Study Design:*: Review article
     / *Key Findings:*:
     
-        - Enteroendocrine cells (EECs) constitute a chemosensory system communicating gut luminal content to the brain via both hormonal signalling and direct synaptic routes (neuropod cells)
-        - Enterochromaffin cells produce approximately 90–95% of the body's total serotonin; this peripheral serotonin modulates gut motility, pain sensation, and vagal signalling
+        - Enteroendocrine cells (EECs) constitute a chemosensory system communicating gut luminal content to the brain via both hormonal signaling and direct synaptic routes (neuropod cells)
+        - Enterochromaffin cells produce approximately 90–95% of the body's total serotonin; this peripheral serotonin modulates gut motility, pain sensation, and vagal signaling
         - EEC-released hormones (GLP-1, GLP-2, CCK, PYY) bind to receptors on vagal afferents, modulating autonomic tone and inflammatory responses
-        - Dysregulated EEC signalling could alter gut-brain communication in ways producing chronic fatigue, pain, and autonomic dysfunction
+        - Dysregulated EEC signaling could alter gut-brain communication in ways producing chronic fatigue, pain, and autonomic dysfunction
     
-    / *Relevance to ME/CFS:*: Provides mechanistic context for gut-brain axis involvement in ME/CFS. Disrupted EEC function following gut dysbiosis could impair serotonin signalling, alter vagal tone, and dysregulate autonomic function — all documented features of ME/CFS.
+    / *Relevance to ME/CFS:*: Provides mechanistic context for gut-brain axis involvement in ME/CFS. Disrupted EEC function following gut dysbiosis could impair serotonin signaling, alter vagal tone, and dysregulate autonomic function — all documented features of ME/CFS.
     / *Certainty Assessment:*:
     
         - *Quality:* Medium (Frontiers in Neuroscience; peer-reviewed narrative review)
@@ -4402,10 +4402,10 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     
         - Peripheral serotonin synthesised by enterochromaffin cells activates 5-HT#sub[3] receptors on vagal afferent neurons to modulate gut-brain communication
         - Short-chain fatty acids (SCFAs), particularly butyrate produced by commensal gut bacteria, enhance serotonin synthesis in enterochromaffin cells and increase vagal afferent activity
-        - Gut microbiome composition directly regulates peripheral serotonin levels; dysbiosis-induced SCFA reduction impairs serotonergic vagal signalling
+        - Gut microbiome composition directly regulates peripheral serotonin levels; dysbiosis-induced SCFA reduction impairs serotonergic vagal signaling
         - Disruption of this axis by infection or dietary change produces symptoms overlapping with ME/CFS features including fatigue, cognitive difficulties, and altered pain sensitivity
     
-    / *Relevance to ME/CFS:*: Provides mechanistic pathway by which reduced gut microbiome diversity in ME/CFS (Giloteaux 2016) could produce systemic symptoms via impaired butyrate-serotonin-vagus signalling. Also relevant to orthostatic intolerance: vagal dysfunction from reduced serotonergic input could impair autonomic cardiovascular regulation.
+    / *Relevance to ME/CFS:*: Provides mechanistic pathway by which reduced gut microbiome diversity in ME/CFS (Giloteaux 2016) could produce systemic symptoms via impaired butyrate-serotonin-vagus signaling. Also relevant to orthostatic intolerance: vagal dysfunction from reduced serotonergic input could impair autonomic cardiovascular regulation.
     / *Certainty Assessment:*:
     
         - *Quality:* Medium (IJMS/MDPI; peer-reviewed; broad-scope journal)
@@ -4421,10 +4421,10 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Study Design:*: Systematic review
     / *Key Findings:*:
     
-        - Systematic synthesis of evidence for gut microbiome alterations in ME/CFS; conducted within the NIH ME/CFS research programme (overlapping authorship with Walitt et al.\ 2024)
+        - Systematic synthesis of evidence for gut microbiome alterations in ME/CFS; conducted within the NIH ME/CFS research program (overlapping authorship with Walitt et al.\ 2024)
         - Reviews evidence for dysbiosis, altered microbial diversity, and gut-brain axis disruption across ME/CFS cohorts
     
-    / *Relevance to ME/CFS:*: Updates and extends the foundational Giloteaux 2016 findings using systematic methodology. Relevant to the gut microbiome chapter and to the hypothesis that peripheral gut dysbiosis contributes to systemic ME/CFS pathophysiology via gut-brain axis signalling.
+    / *Relevance to ME/CFS:*: Updates and extends the foundational Giloteaux 2016 findings using systematic methodology. Relevant to the gut microbiome chapter and to the hypothesis that peripheral gut dysbiosis contributes to systemic ME/CFS pathophysiology via gut-brain axis signaling.
     / *Certainty Assessment:*:
     
         - *Quality:* High (Nature Communications; systematic review; NIH-affiliated authorship)
@@ -4454,12 +4454,12 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - Adolescence represents a third sensitive period during which microglia actively prune synapses and can be locked into pathological activation states by immune challenge, with consequences persisting into adulthood
         - Perturbations at different developmental windows produce qualitatively different long-term functional outcomes
     
-    / *Relevance to ME/CFS:*: Foundational reference for the glial maturation window hypothesis (Speculation @hyp:glial-maturation-window). Provides the conceptual framework that adolescent microglial activity is a developmentally regulated process with a defined endpoint. Once the adolescent remodelling window closes, the same capacity for state-resetting is no longer available, explaining why ME/CFS onset during adolescence might permit microglial recovery unavailable to adults.
+    / *Relevance to ME/CFS:*: Foundational reference for the glial maturation window hypothesis (Speculation @hyp:glial-maturation-window). Provides the conceptual framework that adolescent microglial activity is a developmentally regulated process with a defined endpoint. Once the adolescent remodeling window closes, the same capacity for state-resetting is no longer available, explaining why ME/CFS onset during adolescence might permit microglial recovery unavailable to adults.
     / *Certainty Assessment:*:
     
         - *Quality:* High (Springer Current Topics series; Bilbo is a leading microglial biologist)
         - *Study type:* Book chapter review synthesising experimental literature
-        - *Limitations:* Most mechanistic data from rodent models; direct evidence in ME/CFS absent; human adolescent microglial remodelling is confirmed in principle but less well characterised
+        - *Limitations:* Most mechanistic data from rodent models; direct evidence in ME/CFS absent; human adolescent microglial remodeling is confirmed in principle but less well characterized
     
 
 === Chung et al.\ 2022 — Adolescence as a Sensitive Period for Prefrontal Microglia
@@ -4475,9 +4475,9 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - Adolescence represents a specific sensitive period during which microglial activity in the prefrontal cortex shapes cognitive development
         - Selective microglial depletion during adolescence (but not adulthood) produces persistent cognitive deficits that are not reversed by microglial repopulation after the window has closed
         - Adolescent microglia are transcriptomically distinct from adult microglia, with elevated expression of synaptic pruning and surveillance genes
-        - Cognitive outcomes depend critically on whether microglial disruption occurs before or after completion of the adolescent remodelling window
+        - Cognitive outcomes depend critically on whether microglial disruption occurs before or after completion of the adolescent remodeling window
     
-    / *Relevance to ME/CFS:*: Provides experimental evidence that the adolescent microglial sensitive period has measurable cognitive consequences. Directly supports the biological plausibility of the glial maturation window hypothesis: if ME/CFS neuroinflammation disrupts this window, cognitive impairment could result; if recovery occurs before the window closes, normalisation may accompany clinical recovery.
+    / *Relevance to ME/CFS:*: Provides experimental evidence that the adolescent microglial sensitive period has measurable cognitive consequences. Directly supports the biological plausibility of the glial maturation window hypothesis: if ME/CFS neuroinflammation disrupts this window, cognitive impairment could result; if recovery occurs before the window closes, normalization may accompany clinical recovery.
     / *Certainty Assessment:*:
     
         - *Quality:* High (Science Advances; AAAS journal; Stevens is a leading authority on synaptic pruning and microglial biology)
@@ -4495,17 +4495,17 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Study Design:*: Experimental study (murine)
     / *Key Findings:*:
     
-        - Microglial-mediated synaptic pruning in the nucleus accumbens during adolescence shapes adult social behaviour in both males and females
-        - Pruning operates through complement-mediated C3–CR3 signalling (complement deposition tagging synapses for microglial engulfment)
+        - Microglial-mediated synaptic pruning in the nucleus accumbens during adolescence shapes adult social behavior in both males and females
+        - Pruning operates through complement-mediated C3–CR3 signaling (complement deposition tagging synapses for microglial engulfment)
         - Sex-specific differences exist in timing and extent of pruning, providing a mechanistic basis for sex differences in neurodevelopmental outcomes
-        - Disruption of adolescent pruning produces lasting behavioural deficits that cannot be fully corrected in adulthood
+        - Disruption of adolescent pruning produces lasting behavioral deficits that cannot be fully corrected in adulthood
     
     / *Relevance to ME/CFS:*: Demonstrates that adolescent synaptic pruning is an active, complement-dependent process with lasting functional consequences. The complement-mediated mechanism (C3–CR3) is directly targetable. Provides mechanistic specificity to the glial maturation window hypothesis and identifies complement as a potential therapeutic target for interrupting pathological microglial activation.
     / *Certainty Assessment:*:
     
         - *Quality:* High (Cell Reports; Elsevier; rigorous experimental study)
         - *Study type:* Experimental murine study
-        - *Limitations:* Murine; social behaviour outcomes differ from ME/CFS fatigue and cognitive symptoms; nucleus accumbens focus may not generalise to prefrontal circuits most relevant to ME/CFS
+        - *Limitations:* Murine; social behavior outcomes differ from ME/CFS fatigue and cognitive symptoms; nucleus accumbens focus may not generalize to prefrontal circuits most relevant to ME/CFS
     
 
 === Rahimian et al.\ 2020 — Microglial Depletion and Repopulation
@@ -4592,7 +4592,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Study Design:*: Mini-review
     / *Key Findings:*:
     
-        - Ageing exerts profound impact on the haematopoietic system, leading to increased susceptibility to infections, autoimmune diseases, chronic inflammation, anaemia, and haematologic malignancies
+        - Ageing exerts profound impact on the haematopoietic system, leading to increased susceptibility to infections, autoimmune diseases, chronic inflammation, anemia, and haematologic malignancies
         - Functional decline of HSCs is a primary driver of age-related haematologic conditions, operating through both HSC-intrinsic changes and bone marrow niche deterioration
         - Adipogenic conversion of the marrow (red marrow replaced by yellow marrow) reduces HSC support and regenerative capacity
         - Paediatric bone marrow is predominantly haematopoietically active; conversion to yellow marrow accelerates through adolescence and young adulthood
@@ -4614,7 +4614,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     / *Key Findings:*:
     
         - Comprehensive review establishing HSC ageing as a systemic driver of organismal ageing, with particular emphasis on inflammaging and immunosenescence
-        - HSC ageing characterised by phenotypic and functional impairments from intrinsic HSC changes and niche deterioration
+        - HSC ageing characterized by phenotypic and functional impairments from intrinsic HSC changes and niche deterioration
         - Ageing HSCs show myeloid skewing — increased myeloid and reduced lymphoid output — producing innate immune hyperactivation at the expense of adaptive immune diversity
         - HSC-derived chronic low-grade inflammation (inflammaging) contributes to age-related diseases beyond the haematopoietic system
     
@@ -4677,7 +4677,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     
         - *Quality:* Medium (Frontiers in Pediatrics; Rowe KS is a leading authority in paediatric ME/CFS)
         - *Study type:* Retrospective cohort; single centre (Melbourne, Australia)
-        - *Limitations:* Single-centre; selection bias toward specialist-referred patients; recovery defined by clinical assessment without standardised objective instruments; some patients lost to follow-up
+        - *Limitations:* Single-centre; selection bias toward specialist-referred patients; recovery defined by clinical assessment without standardized objective instruments; some patients lost to follow-up
     
 
 === van Campen et al.\ 2020 — Severity Validation by Objective Measures
@@ -4738,7 +4738,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
 
         - ME/CFS subjects required mean $12.7 plus.minus 1.2$ days to recover post-CPET versus $2.1 plus.minus 0.2$ days for controls ($p < 0.0001$)
         - Recovery range in ME/CFS: 1--64 days; approximately 7--8% required 1--2 months; one subject did not recover after one year
-        - Pharmacokinetic modelling confirmed extremely prolonged decay of PEM response
+        - Pharmacokinetic modeling confirmed extremely prolonged decay of PEM response
         - *Critical null result:* no significant difference in recovery time across ME/CFS baseline symptom severity levels ($F = 1.12$, $p = 0.33$)
 
     / *Relevance to ME/CFS:*: The null severity--recovery-time result constrains interpretation of the piecewise recovery scaling prediction (Equation @eq:recovery-scaling, Table @tab:recovery-regimes). The prediction applies to _within-person_ dynamics (how recovery time changes as a single patient's $B$ evolves), not _between-person_ cross-sectional comparisons where inter-individual parameter variation dominates. Additionally, CPET exclusion of the most severe patients truncates the severity range over which the scaling would be most pronounced.
@@ -4964,7 +4964,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Different criteria select different patient populations with varying symptom profiles
         - Highlights heterogeneity introduced by case definition choice in research
     
-    / *Relevance to Part V:*: Essential for modelling chapters that must specify which diagnostic criteria define the modelled population; criterion choice affects parameter estimation.
+    / *Relevance to Part V:*: Essential for modeling chapters that must specify which diagnostic criteria define the modelled population; criterion choice affects parameter estimation.
 
 === Carruthers et al.\ 2011 — International Consensus Criteria
 
@@ -4976,7 +4976,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Requires neurological, immune/GI/GU, and energy production impairments
         - Proposes “myalgic encephalomyelitis” as more accurate than “chronic fatigue syndrome”
     
-    / *Relevance to Part V:*: Defines patient inclusion criteria for formal models; energy production impairment emphasis aligns with metabolic modelling framework.
+    / *Relevance to Part V:*: Defines patient inclusion criteria for formal models; energy production impairment emphasis aligns with metabolic modeling framework.
 
 === NICE 2021 — ME/CFS Diagnosis and Management Guideline (NG206)
 
@@ -5036,9 +5036,9 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
     
         - Retrospective cohort demonstrating excess mortality in CFS patients
-        - Elevated standardised mortality ratios for suicide
+        - Elevated standardized mortality ratios for suicide
     
-    / *Relevance to Part V:*: Provides empirical mortality data for long-term trajectory modelling and temporal evolution models.
+    / *Relevance to Part V:*: Provides empirical mortality data for long-term trajectory modeling and temporal evolution models.
 
 === Kingdon et al.\ 2018 — Functional Status Comparison with MS
 
@@ -5047,7 +5047,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
     
         - ME/CFS patients showed comparable or worse functional impairment than MS patients
-        - Demonstrates severity of ME/CFS disability relative to a well-characterised neurological condition
+        - Demonstrates severity of ME/CFS disability relative to a well-characterized neurological condition
     
     / *Relevance to Part V:*: Cross-disease comparison data for model calibration and disability burden quantification.
 
@@ -5089,7 +5089,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Largest ME/CFS GWAS to date ($n$=21,620)
         - Preprint; identifies genetic risk loci for ME/CFS
     
-    / *Relevance to Part V:*: Genetic architecture data for modelling genetic susceptibility and gene–environment interactions.
+    / *Relevance to Part V:*: Genetic architecture data for modeling genetic susceptibility and gene–environment interactions.
 
 // =============================================================================
 
@@ -5103,7 +5103,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *DOI:*: #link("https://doi.org/10.1016/j.mito.2013.08.006")[10.1016/j.mito.2013.08.006]
     / *Key Findings:*:
     
-        - Foundational paper on cell danger response (CDR) via purinergic signalling
+        - Foundational paper on cell danger response (CDR) via purinergic signaling
         - ME/CFS hypothesised as persistent CDR state
         - Links mitochondrial metabolic shifts to immune activation and chronic illness
     
@@ -5120,6 +5120,67 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Abnormalities in sphingolipid, phospholipid, and purine metabolism
     
     / *Relevance to Part V:*: Empirical metabolomic data for parameterising energy metabolism models and CDR state transitions.
+
+=== Dibble et al.\ 2020 — Genetic Risk Factors of ME/CFS: Critical Review
+
+    / *Full Citation:*: Dibble JJ, McGrath SJ, Ponting CP. Genetic risk factors of ME/CFS: a critical review. _Human Molecular Genetics_. 2020;29(R1):R117–R124. @Dibble2020genetics
+    / *DOI:*: #link("https://doi.org/10.1093/hmg/ddaa169")[10.1093/hmg/ddaa169]
+    / *Key Findings:*:
+
+        - Heritability evidence mixed: UK Biobank SNP-based h² = 0.08 (low confidence); one study claimed high narrow-sense heritability; twin study inconclusive
+        - Clinically proven mtDNA variants do not commonly explain ME/CFS
+        - Intriguing observation: ME/CFS patients more likely to carry mtDNA lacking mildly deleterious variants (corroborated by Venter 2019)
+        - Most candidate gene associations lack replication; larger GWAS studies urgently needed
+
+    / *Conclusion:*: No single genetic locus explains ME/CFS; polygenetic or gene-environment interaction model most consistent with evidence. mtDNA predisposition hypothesis not supported by pathogenic mutations but an anomalous variant distribution pattern warrants further investigation.
+    / *Limitations:*: Review covers literature to 2020; DecodeME GWAS results (2025) now available but post-date this review.
+    / *Certainty:*: 0.62 — high-quality critical review in Oxford journal; conclusions conservative and well-supported.
+
+=== Albright et al.\ 2011 — Heritable Predisposition to CFS
+
+    / *Full Citation:*: Albright F, Light K, Light A, Bateman L, Cannon-Albright LA. Evidence for a heritable predisposition to Chronic Fatigue Syndrome. _BMC Neurology_. 2011;11:62. @Albright2011heritability
+    / *DOI:*: #link("https://doi.org/10.1186/1471-2377-11-62")[10.1186/1471-2377-11-62]
+    / *Key Findings:*:
+
+        - Utah Population Database study, n = 811 CFS cases
+        - First-degree relatives: RR = 2.70 (95% CI 1.56–4.66, p = 0.001)
+        - Second-degree relatives: RR = 2.34 (p = 0.008); third-degree: RR = 1.93 (p = 0.009)
+        - Excess relatedness persisted when excluding close relatives, arguing against purely shared-environment explanation
+        - Does not distinguish maternal vs paternal inheritance; mitochondrial contribution indeterminate
+
+    / *Conclusion:*: Strong population-level evidence for a heritable component to CFS predisposition. Molecular substrate unknown; provides the epidemiological foundation for exploring mitochondrial or nuclear genetic predisposition mechanisms.
+    / *Limitations:*: ICD-9 ascertainment only; Utah-specific cohort; cannot attribute heritability to maternal vs paternal lineage.
+    / *Certainty:*: 0.62 — robust methodology using validated genealogical tools; findings replicated in direction by other heritability studies.
+
+=== Billing-Ross et al.\ 2016 — mtDNA Variants and ME/CFS Symptoms
+
+    / *Full Citation:*: Billing-Ross P, Germain A, Ye K, Keinan A, Gu Z, Hanson MR. Mitochondrial DNA variants correlate with symptoms in myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Translational Medicine_. 2016;14:19. @BillingRoss2016mtDNA
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-016-0771-6")[10.1186/s12967-016-0771-6]
+    / *Key Findings:*:
+
+        - Complete mitochondrial genome sequencing; n = 193 ME/CFS, 196 controls
+        - Null susceptibility finding: no association between mtDNA variants and ME/CFS onset
+        - Haplogroups J, U, H and 8 SNPs significantly associated with symptom severity (joint pain, bloating, post-exertional "feeling dead")
+        - Heteroplasmy levels low and comparable between cases and controls
+
+    / *Conclusion:*: Inherited mtDNA variants do not predispose to ME/CFS onset, but modulate symptom expression once disease is established. Distinction between susceptibility and symptom-modifying effects is critical for predisposition model framing.
+    / *Limitations:*: Predominantly European descent cohort; replication in independent cohort required; multiple testing correction applied but symptom associations should be treated cautiously.
+    / *Certainty:*: 0.55 — adequate sample size, rigorous sequencing, but symptom associations unreplicated.
+
+=== Venter et al.\ 2019 — MtDNA Population Variation in ME/CFS: Two Cohorts
+
+    / *Full Citation:*: Venter M, Tomas C, Pienaar IS, et al.\ MtDNA population variation in Myalgic encephalomyelitis/Chronic fatigue syndrome in two populations: a study of mildly deleterious variants. _Scientific Reports_. 2019;9:2914. @Venter2019mtDNA
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-019-39060-1")[10.1038/s41598-019-39060-1]
+    / *Key Findings:*:
+
+        - Two independent cohorts: UK (n = 118 patients, 64 controls), South Africa (n = 143 patients, 98 controls)
+        - No clinically proven pathogenic mtDNA mutations in either cohort
+        - ME/CFS patients had significantly fewer mildly deleterious variants than controls (UK: 55% vs 27%, p = 0.0008; SA: 56% vs 41%, p = 0.03)
+        - Unexpected cross-cohort replication of the "fewer deleterious variants" pattern
+
+    / *Conclusion:*: ME/CFS patients carry mitochondrial genomes that are — paradoxically — less burdened with mildly deleterious variants than controls. Mechanism unclear; could reflect altered selection pressures or immune-mitochondrial interaction thresholds. Does not support a simple "damaged mtDNA = predisposition" model.
+    / *Limitations:*: Computational MutPred scoring (threshold > 0.5) for variant deleteriousness; biological significance of "mildly deleterious" classification uncertain; larger cohorts needed.
+    / *Certainty:*: 0.52 — cross-cohort replication is a strength; interpretive uncertainty is high.
 
 === Germain et al.\ 2020 — Circulatory Metabolomics in ME/CFS
 
@@ -5141,7 +5202,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - RCT of CoQ10 + NADH supplementation in CFS
         - Improved maximum heart rate after exercise testing
     
-    / *Relevance to Part V:*: Treatment parameter data for mitochondrial supplement models and exercise response modelling.
+    / *Relevance to Part V:*: Treatment parameter data for mitochondrial supplement models and exercise response modeling.
 
 === Newton et al.\ 2007 — Fatigue Comparison with Sj\"{ogren's}
 
@@ -5152,7 +5213,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - CFS and primary Sj\"{o}gren's show overlapping fatigue profiles
         - Suggests shared pathophysiological mechanisms for fatigue across autoimmune conditions
     
-    / *Relevance to Part V:*: Cross-disease comparison for model generalisation and shared fatigue pathway identification.
+    / *Relevance to Part V:*: Cross-disease comparison for model generalization and shared fatigue pathway identification.
 
 // =============================================================================
 
@@ -5191,7 +5252,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Energy modulation (staying within the “energy envelope”) improves physical functioning
         - Patients who exceeded their energy envelope experienced worse fatigue
     
-    / *Relevance to Part V:*: Foundational data for energy envelope theory formalisation in modelling chapters.
+    / *Relevance to Part V:*: Foundational data for energy envelope theory formalisation in modeling chapters.
 
 === Jason et al.\ 2012 — Energy Envelope Theory Interventions
 
@@ -5203,7 +5264,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Energy envelope theory provides a framework for pacing interventions
         - Staying within available energy reduces symptom severity
     
-    / *Relevance to Part V:*: Theoretical basis for energy management models and pacing optimisation algorithms.
+    / *Relevance to Part V:*: Theoretical basis for energy management models and pacing optimization algorithms.
 
 // =============================================================================
 
@@ -5218,9 +5279,9 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
     
         - Elevated autoantibodies against GPCR (beta-adrenergic and muscarinic receptors) in CFS
-        - Suggests autoimmune mechanism targeting autonomic signalling
+        - Suggests autoimmune mechanism targeting autonomic signaling
     
-    / *Relevance to Part V:*: Key evidence for autoimmune sub-models within the immune system modelling chapter.
+    / *Relevance to Part V:*: Key evidence for autoimmune sub-models within the immune system modeling chapter.
 
 === Bynke et al.\ 2020 — GPCR Autoantibodies: Swedish Validation
 
@@ -5265,7 +5326,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Maintenance rituximab protocol; continued B-cell depletion
         - Response patterns consistent with autoimmune pathogenesis hypothesis
     
-    / *Relevance to Part V:*: Extended treatment kinetics data for modelling sustained immune modulation.
+    / *Relevance to Part V:*: Extended treatment kinetics data for modeling sustained immune modulation.
 
 === Fluge et al.\ 2019 — RituxME: Definitive Negative Trial
 
@@ -5298,7 +5359,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Systematic review of MCAS diagnosis, pathophysiology, and management
         - Provides diagnostic framework for MCAS as comorbidity
     
-    / *Relevance to Part V:*: MCAS diagnostic criteria inform mast cell activation modelling in immune system and integrated models.
+    / *Relevance to Part V:*: MCAS diagnostic criteria inform mast cell activation modeling in immune system and integrated models.
 
 === Folkerts et al.\ 2020 — Butyrate Inhibits Mast Cell Activation
 
@@ -5324,7 +5385,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2007.07.014")[10.1016/j.neubiorev.2007.07.014]
     / *Key Findings:*:
     
-        - Reviews two decades of research on how peripheral cytokines induce CNS sickness behaviour
+        - Reviews two decades of research on how peripheral cytokines induce CNS sickness behavior
         - Establishes the neuroimmune basis for fatigue, anhedonia, and social withdrawal
     
     / *Relevance to Part V:*: Foundational framework for neuroendocrine models linking peripheral inflammation to central symptoms.
@@ -5336,9 +5397,9 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
     
         - Reviews microglial activation and neuroinflammatory pathways in chronic pain
-        - Links peripheral immune signals to central sensitisation
+        - Links peripheral immune signals to central sensitization
     
-    / *Relevance to Part V:*: Microglial activation dynamics for neuroinflammation sub-models in neuroendocrine modelling.
+    / *Relevance to Part V:*: Microglial activation dynamics for neuroinflammation sub-models in neuroendocrine modeling.
 
 === Novak et al.\ 2022 — Cerebral Blood Flow Regulation Review
 
@@ -5358,17 +5419,17 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
     
         - NTS as central hub for visceral afferent integration and energy status monitoring
-        - Links autonomic, endocrine, and metabolic signalling pathways
+        - Links autonomic, endocrine, and metabolic signaling pathways
     
     / *Relevance to Part V:*: Neuroanatomical basis for neuroendocrine integration models connecting autonomic dysfunction to energy sensing.
 
 === Cleare et al.\ 1999 — Low-Dose Hydrocortisone RCT
 
-    / *Full Citation:*: Cleare AJ, Heap E, Malhi GS, Wessely S, O'Keane V, Miell J. Low-dose hydrocortisone in chronic fatigue syndrome: a randomised crossover trial. _The Lancet_. 1999;353:455–458. @Cleare1999
+    / *Full Citation:*: Cleare AJ, Heap E, Malhi GS, Wessely S, O'Keane V, Miell J. Low-dose hydrocortisone in chronic fatigue syndrome: a randomized crossover trial. _The Lancet_. 1999;353:455–458. @Cleare1999
     / *DOI:*: #link("https://doi.org/10.1016/S0140-6736(98)04074-4")[10.1016/S0140-6736(98)04074-4]
     / *Key Findings:*:
     
-        - Crossover RCT ($n$=32): 28% vs 9% fatigue normalisation
+        - Crossover RCT ($n$=32): 28% vs 9% fatigue normalization
         - Adrenal suppression occurred even at low doses, limiting clinical utility
     
     / *Relevance to Part V:*: HPA axis intervention data for neuroendocrine model calibration; demonstrates safety constraints on cortisol modulation.
@@ -5394,7 +5455,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Reviews vagal nerve stimulation as potential therapeutic approach in CFS
         - Discusses anti-inflammatory and autonomic modulation mechanisms
     
-    / *Relevance to Part V:*: Vagal tone modelling and autonomic intervention parameters for neuroendocrine models.
+    / *Relevance to Part V:*: Vagal tone modeling and autonomic intervention parameters for neuroendocrine models.
 
 // =============================================================================
 
@@ -5667,7 +5728,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Galactose oxidation, fatty acid oxidation, and glycolytic function were all _normal_
         - Authors conclude: "the cellular bioenergetic dysfunction in CFS lies upstream of the TCA cycle" — at the pyruvate→acetyl-CoA link step
         - PDK explicitly named as a candidate mechanism alongside PDC defects and mitochondrial pyruvate carriers
-        - Direct PDC activity was NOT measured; localisation inferred from substrate switching
+        - Direct PDC activity was NOT measured; localization inferred from substrate switching
         - *Certainty: 0.45* — peer-reviewed, well-designed bioenergetics; small $n = 9$; not independently replicated; does not prove PDK involvement
 
     / *Relevance:*: The closest available tissue-level evidence supporting the Fluge 2016 PBMC finding. By using cultured muscle cells from actual ME/CFS biopsies (not PBMCs), this study bridges the tissue gap that makes G7 critical. The selective glucose oxidation failure with preserved fatty acid and galactose oxidation is precisely the pattern expected from PDK overactivation (which blocks pyruvate→acetyl-CoA but not other TCA entry points). Falls short of G7 closure because PDK expression was not directly measured.
@@ -5715,7 +5776,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Mechanism: LPS → JNK phosphorylation → PDK4 transcription → PDC inhibition → glycolytic shift
         - *Certainty: 0.50* — in vitro only; mechanism is consistent with broader HIF-1α/inflammatory literature
 
-    / *Relevance:*: Provides a direct mechanistic bridge from immune dysfunction (chronic inflammation with elevated TNF-α, IL-6, IL-1β) to muscle-specific PDK4 overactivation, without requiring the PBMC-to-muscle generalisation that limits the Fluge 2016 finding. If chronic low-grade inflammation in ME/CFS activates JNK in skeletal muscle, PDK4 would be upregulated specifically in the tissue where the metabolic bottleneck matters — explaining exercise intolerance at the pyruvate→acetyl-CoA gate.
+    / *Relevance:*: Provides a direct mechanistic bridge from immune dysfunction (chronic inflammation with elevated TNF-α, IL-6, IL-1β) to muscle-specific PDK4 overactivation, without requiring the PBMC-to-muscle generalization that limits the Fluge 2016 finding. If chronic low-grade inflammation in ME/CFS activates JNK in skeletal muscle, PDK4 would be upregulated specifically in the tissue where the metabolic bottleneck matters — explaining exercise intolerance at the pyruvate→acetyl-CoA gate.
 
 // =============================================================================
 
@@ -5732,7 +5793,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Documented circadian rhythm disruption in ME/CFS patients
         - Linked circadian abnormalities to autonomic dysfunction
     
-    / *Relevance to Part V:*: Circadian parameters for temporal evolution models and sleep–wake cycle modelling.
+    / *Relevance to Part V:*: Circadian parameters for temporal evolution models and sleep–wake cycle modeling.
 
 === Castro-Marrero et al.\ 2021 — Melatonin + Zinc RCT
 
@@ -5743,7 +5804,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - RCT showing melatonin + zinc improved health status in ME/CFS
         - Supports circadian and antioxidant intervention approaches
     
-    / *Relevance to Part V:*: Treatment response data for circadian intervention modelling and supplement efficacy prediction.
+    / *Relevance to Part V:*: Treatment response data for circadian intervention modeling and supplement efficacy prediction.
 
 === Xie et al.\ 2013 — Sleep Drives Glymphatic Clearance
 
@@ -5781,9 +5842,9 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
     
         - $n$=228; multi-omics integration achieved AUC=0.90 for ME/CFS classification
-        - Short-term patients showed microbial dysbiosis; long-term showed metabolic aberrations despite microbiome normalisation
+        - Short-term patients showed microbial dysbiosis; long-term showed metabolic aberrations despite microbiome normalization
     
-    / *Relevance to Part V:*: Multi-omics integration methodology for integrated systems models; temporal trajectory data for disease evolution modelling.
+    / *Relevance to Part V:*: Multi-omics integration methodology for integrated systems models; temporal trajectory data for disease evolution modeling.
 
 === Hsu et al.\ 2025 — Gut Microbiome in ME/CFS: Systematic Review
 
@@ -5794,7 +5855,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Systematic review of gut microbiome alterations in ME/CFS
         - Synthesises evidence across multiple cohort studies
     
-    / *Relevance to Part V:*: Consolidated microbiome evidence base for gut–immune axis modelling parameters.
+    / *Relevance to Part V:*: Consolidated microbiome evidence base for gut–immune axis modeling parameters.
 
 // =============================================================================
 
@@ -5811,7 +5872,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Meta-analysis of DNA methylation changes in ME/CFS
         - Identified epigenetic alterations affecting immune and metabolic gene networks
     
-    / *Relevance to Part V:*: Epigenetic data for modelling gene regulation layers in integrated systems models.
+    / *Relevance to Part V:*: Epigenetic data for modeling gene regulation layers in integrated systems models.
 
 // =============================================================================
 
@@ -5845,7 +5906,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - RCT of pyridostigmine (acetylcholinesterase inhibitor) for CFS
         - Tested autonomic modulation as therapeutic approach
     
-    / *Relevance to Part V:*: Autonomic intervention data for cardiovascular model calibration and cholinergic pathway modelling.
+    / *Relevance to Part V:*: Autonomic intervention data for cardiovascular model calibration and cholinergic pathway modeling.
 
 // =============================================================================
 
@@ -5863,11 +5924,11 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Crossover RCT of low-dose naltrexone (LDN) in fibromyalgia
         - Assessed daily pain levels as primary outcome
     
-    / *Relevance to Part V:*: LDN efficacy data for neuroinflammation treatment modelling; relevant to ME/CFS–fibromyalgia overlap models.
+    / *Relevance to Part V:*: LDN efficacy data for neuroinflammation treatment modeling; relevant to ME/CFS–fibromyalgia overlap models.
 
 === White et al.\ 2011 — PACE Trial
 
-    / *Full Citation:*: White PD, Goldsmith KA, Johnson AL, et al.\ Comparison of adaptive pacing therapy, cognitive behaviour therapy, graded exercise therapy, and specialist medical care for chronic fatigue syndrome (PACE): a randomised trial. _The Lancet_. 2011;377(9768):823–836. @White2011pace
+    / *Full Citation:*: White PD, Goldsmith KA, Johnson AL, et al.\ Comparison of adaptive pacing therapy, cognitive behavior therapy, graded exercise therapy, and specialist medical care for chronic fatigue syndrome (PACE): a randomized trial. _The Lancet_. 2011;377(9768):823–836. @White2011pace
     / *DOI:*: #link("https://doi.org/10.1016/S0140-6736(11)60096-2")[10.1016/S0140-6736(11)60096-2]
     / *Key Findings:*:
     
@@ -5940,7 +6001,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Study Design:*: Narrative review
     / *Key Findings:*:
     
-        - Viruses trigger NETosis via both direct PAMP recognition and indirect cytokine signalling (IFN, TNF)
+        - Viruses trigger NETosis via both direct PAMP recognition and indirect cytokine signaling (IFN, TNF)
         - NETs immobilize virions and amplify innate immune recruitment
         - Herpesviruses (EBV, CMV, HSV) are established viral NETosis inducers
         - Some viruses suppress NETosis as an immune evasion mechanism
@@ -6085,7 +6146,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Breathlessness subtype: distinct plasma signature of CCL3, CD40, IKBKG, IL-18, and IRAK1 — pointing to apoptotic-inflammatory and platelet activation pathways
         - Multi-cohort validated; confirms immunological heterogeneity of Long COVID manifestations
     
-    / *Relevance:*: High-quality multi-cohort evidence that Long COVID (and by extension post-COVID ME/CFS) comprises immunologically distinct endotypes. The IRAK1/IL-18/platelet signature for breathlessness links innate TLR signalling and the NLRP3 inflammasome to organ-specific symptoms. Directly applicable to ME/CFS subtyping strategy.
+    / *Relevance:*: High-quality multi-cohort evidence that Long COVID (and by extension post-COVID ME/CFS) comprises immunologically distinct endotypes. The IRAK1/IL-18/platelet signature for breathlessness links innate TLR signaling and the NLRP3 inflammasome to organ-specific symptoms. Directly applicable to ME/CFS subtyping strategy.
     / *Certainty Assessment:*:
     
         - *Quality:* High (Nature Immunology, multi-cohort validated)
@@ -6196,7 +6257,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Prior S1 exposure potentiates subsequent neuroinflammatory, physiological, and behavioral responses to LPS challenge
         - S1 reduces baseline brain corticosteroid levels, disinhibiting innate immune activation
         - Neuroinflammatory priming genes (MhcII$alpha$, Nlrp3, Tlr4) remain upregulated in brain regions 7 days after S1 treatment
-        - S1 activates TLR2 and TLR4 — spike protein structural components function as PAMPs driving pattern-recognition signalling
+        - S1 activates TLR2 and TLR4 — spike protein structural components function as PAMPs driving pattern-recognition signaling
         - Provides mechanistic basis for why neuroinflammatory responses persist long after acute SARS-CoV-2 exposure
     
     / *Relevance:*: Directly relevant to ME/CFS and Long COVID neuroinflammation hypothesis. If S1 spike protein can prime brain innate immunity in a sustained manner via corticosteroid reduction and TLR4 upregulation, this could explain why patients report worsening neurological symptoms following any subsequent immune challenge (even minor infections), and why neuroinflammation persists in Long COVID without requiring ongoing viral replication.
@@ -6219,7 +6280,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     
         - No significant differences in neurofilament light (NfL) or GFAP between long-COVID and recovered controls
         - Absence of neuroinflammation markers suggests ongoing neuronal injury is _not_ required to maintain persistent long-COVID symptoms
-        - Standard circulating neuroinflammation biomarkers may be insufficient to detect the localised or tissue-based neuroinflammation seen in PET studies
+        - Standard circulating neuroinflammation biomarkers may be insufficient to detect the localized or tissue-based neuroinflammation seen in PET studies
     
     / *Relevance:*: Important negative result that constrains the neuroinflammation hypothesis. The absence of circulating NfL/GFAP elevation in long COVID at median 69 weeks does not rule out neuroinflammation, but indicates it is not accompanied by neuronal injury detectable in blood. This is consistent with the glial activation hypothesis (microglia/astrocyte activity without overt neurodegeneration) and underscores that PET imaging, not blood biomarkers, is the appropriate tool for detecting neuroinflammation in this context.
     / *Certainty Assessment:*:
@@ -6248,7 +6309,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - No approved treatments exist for long COVID; viral persistence is a leading mechanistic candidate
         - SARS-CoV-2 can persist for months to years in subsets of patients, potentially driving ongoing symptoms
         - Existing antivirals (nirmatrelvir/ritonavir) target active replication and may not affect stable reservoirs
-        - Critical trial design considerations identified: mechanism of action, participant selection, treatment duration, reservoir biomarker standardisation, and combination approaches
+        - Critical trial design considerations identified: mechanism of action, participant selection, treatment duration, reservoir biomarker standardization, and combination approaches
         - Draws lessons from HIV long-term non-progressors and hepatitis C cure models for reservoir-clearing strategies
     
     / *Relevance:*: Highly relevant to post-COVID ME/CFS. Establishes the scientific and clinical framework for treating Long COVID as a viral reservoir disease. Authors include leading ME/CFS researchers (VanElzakker, Proal, Iwasaki, Putrino). The design considerations apply directly to proposed ME/CFS antiviral trials. Complements Peluso et al.\ 2024 gut tissue biopsy evidence with actionable trial design principles.
@@ -6491,7 +6552,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Quality:* High (controlled exercise challenge, rigorous design)
         - *Sample:* $n=61$ total
         - *Replication:* Replicated across three independent groups (Nijs, Polli, Glass/Hanson)
-        - *Certainty:* 0.75 (robust replication; specific mechanism well-characterised)
+        - *Certainty:* 0.75 (robust replication; specific mechanism well-characterized)
     
 
 === Iu et al.\ 2024 — CD8#super[+] T Cell Exhaustion in ME/CFS
@@ -6574,7 +6635,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     
         - *Quality:* Very high (entire national population; registry-based)
         - *Sample:* Millions of person-years
-        - *Certainty:* 0.85 (population-level data; definitive for influenza/Pandemrix; generalisation to other vaccines is reasonable but not directly tested)
+        - *Certainty:* 0.85 (population-level data; definitive for influenza/Pandemrix; generalization to other vaccines is reasonable but not directly tested)
 
 
 // =============================================================================
@@ -6723,7 +6784,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Loss of normal correlation between serum selenium and GPx3 activity in SELENOP-aAb--positive patients
 
     / *Conclusion:*: A subset of ME/CFS patients has autoantibodies that impair selenium transport, producing acquired thyroid hormone resistance through reduced tissue deiodinase activity.
-    / *Limitations:*: In-house ELISA; no commercial standardised assay. Tissue selenium not directly measured. Two cohorts from same research group.
+    / *Limitations:*: In-house ELISA; no commercial standardized assay. Tissue selenium not directly measured. Two cohorts from same research group.
     / *Relevance:*: Provides the strongest mechanistic link between autoimmunity and the Low T3 Syndrome in ME/CFS. Explains why standard thyroid tests (TSH, FT4) can appear normal while tissues are functionally hypothyroid. Directly supports @ach:selenop-autoantibodies and the tissue T3 amplification hypothesis @hyp:t3-mito-amplifier.
     / *Certainty Assessment:*:
 
@@ -6764,7 +6825,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
         - Cardiolipin content directly tracks thyroid status; hypothyroidism depletes cardiolipin
         - ~4 shared cardiolipins per Complex III/IV interface in supercomplexes
-        - T3 regulates phospholipid remodelling and membrane unsaturation
+        - T3 regulates phospholipid remodeling and membrane unsaturation
         - Clinical disease states with mitochondrial dysfunction show consistent thyroid hormone abnormalities
 
     / *Conclusion:*: Thyroid hormone-mitochondrial interactions are clinically significant in multiple disease states and represent therapeutic targets.
@@ -6789,7 +6850,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - p43 promotes transcription of all 13 mtDNA-encoded OXPHOS subunits
         - p28 (~28 kDa) localises to the inner mitochondrial membrane; function unknown
 
-    / *Conclusion:*: Mitochondria have their own thyroid hormone receptor system that directly regulates mtDNA gene expression, independent of nuclear thyroid hormone signalling.
+    / *Conclusion:*: Mitochondria have their own thyroid hormone receptor system that directly regulates mtDNA gene expression, independent of nuclear thyroid hormone signaling.
     / *Relevance:*: Explains how T3 deficiency can impair mitochondrial function through a direct pathway that bypasses nuclear gene regulation entirely---tissue T3 deficit reduces both nuclear and mitochondrial OXPHOS gene expression simultaneously.
     / *Certainty Assessment:*:
 
@@ -6849,10 +6910,10 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
 
         - Comprehensive synthesis of mitochondrial dysfunction evidence across OXPHOS, substrate oxidation, and morphology in ME/CFS
-        - Identifies thyroid hormone signalling as an under-investigated regulatory axis
+        - Identifies thyroid hormone signaling as an under-investigated regulatory axis
         - Highlights the gap between documented mitochondrial abnormalities and their upstream drivers
 
-    / *Conclusion:*: Mitochondrial dysfunction is a consistent feature of ME/CFS, but upstream regulatory mechanisms (including thyroid hormone signalling) remain insufficiently characterised.
+    / *Conclusion:*: Mitochondrial dysfunction is a consistent feature of ME/CFS, but upstream regulatory mechanisms (including thyroid hormone signaling) remain insufficiently characterized.
     / *Relevance:*: Current authoritative review confirming the mitochondrial dysfunction evidence base that the thyroid-mitochondrial hypothesis seeks to explain.
     / *Certainty Assessment:*:
 
@@ -6890,7 +6951,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
 
         - Euthyroid individuals with impaired peripheral sensitivity to thyroid hormones show elevated mtDNA copy number
-        - Interpreted as compensatory response to reduced T3 signalling at tissue level
+        - Interpreted as compensatory response to reduced T3 signaling at tissue level
         - Supports the concept that tissue-level thyroid resistance produces measurable mitochondrial adaptations even when serum thyroid tests are normal
 
     / *Conclusion:*: Peripheral thyroid hormone resistance produces compensatory mitochondrial adaptations detectable by mtDNA copy number.
@@ -6949,7 +7010,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Reduced circulating cell-free mitochondrial DNA (ccf-mtDNA) in Long COVID patients — first study to report this finding in PASC
         - Mitochondrial ultrastructural abnormalities: significant swelling, disrupted cristae, irregular morphology
         - Elevated superoxide dismutase 1 (SOD1) and autophagy-related 4B cysteine peptidase (ATG4B)
-        - Five mitochondrial genes analysed: MTATP6, MTCYTB, MTND1, MTND4, MTND5
+        - Five mitochondrial genes analyzed: MTATP6, MTCYTB, MTND1, MTND4, MTND5
 
     / *Conclusion:*: Mitochondrial structural and functional abnormalities persist in Long COVID, with ccf-mtDNA serving as a candidate biomarker. Elevated ATG4B may indicate autophagy dysregulation.
     / *Relevance:*: First study to demonstrate reduced ccf-mtDNA in PASC; replicated directionally by Matits et al.~@Matits2026cfmtDNA in a much larger cohort. Provides ultrastructural evidence supporting mitochondrial pathology in Long COVID.
@@ -7038,7 +7099,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
 
 === Nunes et al.\ 2023 — Cardiovascular and Haematological Pathology Review
 
-    / *Full Citation:*: Nunes JM, Kell DB, Pretorius E. Cardiovascular and haematological pathology in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A role for viruses. _Blood Reviews_. 2023;60:101075.
+    / *Full Citation:*: Nunes JM, Kell DB, Pretorius E. Cardiovascular and hematological pathology in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A role for viruses. _Blood Reviews_. 2023;60:101075.
     / *DOI:*: #link("https://doi.org/10.1016/j.blre.2023.101075")[10.1016/j.blre.2023.101075]
     / *Key Finding:*: Review documenting 26% mean CBF reduction, orthostatic intolerance >95% in some cohorts, reduced stroke volume (10.2% in severe ME/CFS), fibrinaloid microclots and platelet hyperactivation below Long COVID levels but above healthy controls. Herpesviruses proposed as maintenance factors.
     / *Certainty:*: 0.50 (review of mostly replicated findings)
@@ -7074,7 +7135,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Full Citation:*: Grau M, Presche A, Krüger AL, Bloch W, Haiduk B. Red Blood Cell Morphology Is Associated with Altered Hemorheological Properties and Fatigue in Patients with Long COVID. _Biology (Basel)_. 2024;13(11):948.
     / *DOI:*: #link("https://doi.org/10.3390/biology13110948")[10.3390/biology13110948]
     / *Key Finding:*: 20.8 ± 10.7% morphologically abnormal RBCs (echinocytes, acanthocytes) vs 2.9 ± 1.5% in controls, at mean 42 weeks post-infection (beyond RBC lifespan — ongoing production of abnormal RBCs). Fatigue correlation r = −0.51 (p = 0.006).
-    / *Certainty:*: 0.55 — quantified haematological-symptom link; Long COVID cohort, ME/CFS-specific replication needed
+    / *Certainty:*: 0.55 — quantified hematological-symptom link; Long COVID cohort, ME/CFS-specific replication needed
     / *Integrated into:*: Chapter 10 (@sec:rbc-deformability)
 
 === Rogers et al.\ 2024 — Modelling COVID-19 Oxygen Delivery Deficit
@@ -7082,7 +7143,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Full Citation:*: Rogers SC, Brummet M, Safari Z, Wang Q, Rowden T, Boyer T, Doctor A. COVID-19 impairs oxygen delivery by altering red blood cell hematological, hemorheological, and oxygen transport properties. _Frontiers in Physiology_. 2024;15:1320697.
     / *DOI:*: #link("https://doi.org/10.3389/fphys.2023.1320697")[10.3389/fphys.2023.1320697]
     / *Key Finding:*: Three concurrent RBC defects in COVID-19. Maintaining equivalent oxygen delivery would require ~135% increase in cardiac output — physiologically impossible. Blood type O shows greater deformability impairment than blood type A.
-    / *Certainty:*: 0.55 — quantitative modelling validates clinical severity; COVID-19 acute phase, not ME/CFS
+    / *Certainty:*: 0.55 — quantitative modeling validates clinical severity; COVID-19 acute phase, not ME/CFS
     / *Integrated into:*: Chapter 10 (@sec:fibrin, @sec:rbc-deformability)
 
 === Scheibenbogen & Wirth 2024 — Temporal Model: Vascular to Mitochondrial
@@ -7191,7 +7252,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Key Findings:*:
 
         - 332 high-confidence protein–protein interactions between SARS-CoV-2 and human proteins
-        - Nsp6 and Nsp8 (ER-localised replication proteins) directly bind sigma-1 receptor (SIGMAR1)
+        - Nsp6 and Nsp8 (ER-localized replication proteins) directly bind sigma-1 receptor (SIGMAR1)
         - This interaction provides molecular basis for SARS-CoV-2 co-opting ER proteostasis machinery
         - 69 existing FDA-approved drugs and investigational compounds target the identified interactions
         - Sigma-1 ligands identified as drug repurposing candidates from the interactome data
@@ -7255,7 +7316,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - Proposes antibody-mediated reduction of cardiac function via energy imbalance between ATP delivery and demand
         - Framework linking post-viral autoimmune response to chronic cardiac dysfunction
 
-    / *Conclusion:*: Synthesises the Schultheiss programme of research; establishes conceptual framework for ANT autoimmunity as a pathogenic mechanism in post-viral cardiomyopathy.
+    / *Conclusion:*: Synthesises the Schultheiss program of research; establishes conceptual framework for ANT autoimmunity as a pathogenic mechanism in post-viral cardiomyopathy.
     / *Limitations:*: Review without new primary data; abstract not available in PubMed; quantitative details not confirmable from available metadata.
     / *Certainty:*: 0.50 (review paper; historically important; details not independently verifiable from abstract)
     / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
@@ -7292,9 +7353,9 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - No statistically significant correlation between anti-ANT titre and cardiac parameters (LVEF, LVDd, CTR)
         - Prevalence much lower than the 94% reported by Schultheiss & Bolte 1985, suggesting methodological and selection differences
 
-    / *Conclusion:*: Confirms anti-ANT antibodies are specific to cardiac autoimmune disease but prevalence is substantially lower in an independent cohort. The lack of haemodynamic correlation raises questions about pathogenic relevance in all anti-ANT-positive patients.
+    / *Conclusion:*: Confirms anti-ANT antibodies are specific to cardiac autoimmune disease but prevalence is substantially lower in an independent cohort. The lack of hemodynamic correlation raises questions about pathogenic relevance in all anti-ANT-positive patients.
     / *Limitations:*: Cross-sectional; Japanese cohort; different methodology from Schultheiss 1985 (explains prevalence discrepancy); LVEF may be insensitive to subtle ATP-export defects.
-    / *Certainty:*: 0.55 (peer-reviewed; larger DCM sample than 1985 paper; non-significant haemodynamic correlation weakens pathogenic claim)
+    / *Certainty:*: 0.55 (peer-reviewed; larger DCM sample than 1985 paper; non-significant hemodynamic correlation weakens pathogenic claim)
     / *Integrated into:*: G28 integration guide (ANT autoantibodies research stream)
 
 === Manchado et al.\ 2002 --- ANT1 Epitope Mapping in Idiopathic DCM
@@ -7457,7 +7518,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Key Findings:*:
 
         - Mild ROS elevation serves as an essential hormetic signal for PINK1/Parkin-mediated mitophagy, antioxidant gene induction (via Nrf2), and mitochondrial biogenesis
-        - High-dose antioxidant supplementation during exercise abolishes ROS signalling and can blunt adaptive responses
+        - High-dose antioxidant supplementation during exercise abolishes ROS signaling and can blunt adaptive responses
         - This creates a trade-off: antioxidants reduce oxidative damage but may impair mitochondrial quality control
 
     / *Conclusion:*: Mitohormesis provides mechanistic basis for the counter-intuitive finding that exercise-induced ROS is beneficial; complete ROS scavenging is not the goal of antioxidant therapy.
@@ -7490,7 +7551,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
 
 === Sobecki et al.\ 2021 --- NK Cells Mediate a Trade-Off Between Wound Healing and Antibacterial Defence
 
-    / *Full Citation:*: Sobecki M, Krzywinska E, Nagarajan S, et al. NK cells in hypoxic skin mediate a trade-off between wound healing and antibacterial defence. _Nature Communications_. 2021;12:4700.
+    / *Full Citation:*: Sobecki M, Krzywinska E, Nagarajan S, et al. NK cells in hypoxic skin mediate a trade-off between wound healing and antibacterial defense. _Nature Communications_. 2021;12:4700.
     / *DOI:*: #link("https://doi.org/10.1038/s41467-021-25065-w")[10.1038/s41467-021-25065-w]
     / *PMID:*: 34349124
     / *Study Design:*: Mechanistic mouse study; NK cell conditional knockouts and HIF-1alpha pathway manipulation
@@ -7501,7 +7562,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - NK-cell-derived IFN-γ and GM-CSF impair tissue closure; their absence accelerates healing but impairs bacterial control
         - Wound healing is thus directly regulated by NK cell functional state
 
-    / *Conclusion:*: NK cells are not "downstream" of wound healing; they are upstream regulators. Reducing NK cell output (as in ME/CFS) would shift the balance toward faster initial closure but impaired coordination with immune defence --- a plausible mechanism for atypical wound healing in ME/CFS.
+    / *Conclusion:*: NK cells are not "downstream" of wound healing; they are upstream regulators. Reducing NK cell output (as in ME/CFS) would shift the balance toward faster initial closure but impaired coordination with immune defense --- a plausible mechanism for atypical wound healing in ME/CFS.
     / *Limitations:*: Mouse model (corneal skin); HIF-1alpha biology in human NK cells may differ; no ME/CFS data.
     / *Certainty:*: 0.75 (high-quality mechanistic study; _Nature Communications_; mouse model --- human translation indirect)
     / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
@@ -7519,8 +7580,8 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - Two functionally distinct macrophage subsets identified: β2-AR+ (SNS-responsive, pro-inflammatory) and α7-nAChR+ (PNS-responsive, pro-healing)
         - ANS manipulation proposed as therapeutic approach for impaired wound healing
 
-    / *Conclusion:*: ME/CFS is characterised by sympathetic overactivation and parasympathetic withdrawal (documented in POTS, HRV studies). By this mechanism, the autonomic dysfunction of ME/CFS would directly bias wound healing toward the inflammatory/delayed-repair phenotype.
-    / *Limitations:*: Mouse corneal model; epithelial tissue specific; broader wound healing generalisation requires caution.
+    / *Conclusion:*: ME/CFS is characterized by sympathetic overactivation and parasympathetic withdrawal (documented in POTS, HRV studies). By this mechanism, the autonomic dysfunction of ME/CFS would directly bias wound healing toward the inflammatory/delayed-repair phenotype.
+    / *Limitations:*: Mouse corneal model; epithelial tissue specific; broader wound healing generalization requires caution.
     / *Certainty:*: 0.70 (strong mechanistic evidence; _Mucosal Immunology_; mouse model with pharmacological validation)
     / *Integrated into:*: Wound healing integration guide for ch06-energy-metabolism
 
@@ -7552,7 +7613,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
 
         - Immune exhaustion phenotype in elderly patients produces blunted early inflammatory response followed by hyperinflammation
         - Outcomes: significantly elevated sepsis rates and mortality despite smaller burn sizes
-        - Pattern characterised as NK cell exhaustion, dysregulated cytokine profiles, impaired early wound immune response
+        - Pattern characterized as NK cell exhaustion, dysregulated cytokine profiles, impaired early wound immune response
         - Authors conclude immune exhaustion is a primary mediator of poor wound repair and mortality
 
     / *Conclusion:*: The immune exhaustion phenotype (which ME/CFS shares: halved NK cytotoxicity, TGF-β elevation, persistent immune activation) produces clinically documented impairment of wound healing responses. This is the closest clinical analog to predict wound healing impairment in ME/CFS.
@@ -7617,10 +7678,10 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - First RCT testing lithium at sub-psychiatric doses in a post-infectious condition with substantial ME/CFS overlap
 
     / *Relevance:*: Only existing RCT testing low-dose lithium in a condition closely overlapping ME/CFS (many Long COVID patients meet IOM ME/CFS criteria). Establishes a clear dose--response threshold (~40 mg/day). Provides proof-of-concept for a ME/CFS-specific trial. Mechanistically interpretable: partial GSK-3$beta$ inhibition and BDNF upregulation occur at sub-therapeutic serum concentrations, consistent with Dwivedi 2016 preclinical data.
-    / *Limitations:*: Not ME/CFS-specific; no mechanistic biomarker measurements (BDNF, GSK-3$beta$ phosphorylation); serum concentration data only from the non-randomised dose-escalation substudy; sample size insufficient for subgroup analyses.
+    / *Limitations:*: Not ME/CFS-specific; no mechanistic biomarker measurements (BDNF, GSK-3$beta$ phosphorylation); serum concentration data only from the non-randomized dose-escalation substudy; sample size insufficient for subgroup analyses.
     / *Certainty Assessment:*:
 
-        - *Quality:* Moderate --- RCT but dose-escalation substudy not randomised
+        - *Quality:* Moderate --- RCT but dose-escalation substudy not randomized
         - *Currency:* Very current (2024)
         - *Evidence base:* Proof-of-concept; requires replication in ME/CFS
 
@@ -7632,7 +7693,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Study Design:*: Post-mortem metallomics of human brain tissue
     / *Key Findings:*:
 
-        - Across all metals analysed, lithium was the only metal significantly reduced in MCI brains versus controls
+        - Across all metals analyzed, lithium was the only metal significantly reduced in MCI brains versus controls
         - Distinguishes lithium from other metals (zinc, copper, iron) associated with neurodegeneration
         - Suggests lithium may function as an essential neuroprotective micronutrient
 
@@ -7694,7 +7755,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Study Design:*: Narrative review
     / *Key Findings:*:
 
-        - Lithium suppresses TLR4/NF-$kappa$B signalling via GSK-3$beta$ inhibition
+        - Lithium suppresses TLR4/NF-$kappa$B signaling via GSK-3$beta$ inhibition
         - Reduces microglial pro-inflammatory (M1) activation
         - Modulates NLRP3 inflammasome → reduced IL-1$beta$ and IL-18 production
         - Effects documented at both therapeutic and sub-therapeutic doses
@@ -7723,7 +7784,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - Only mood stabiliser demonstrating structural neuroprotective effect
 
     / *Relevance:*: Grey matter loss is documented in ME/CFS (prefrontal cortex and other regions). Therapeutic-dose lithium (as in Théralite) produces active structural neuroprotection --- at concentrations greater than the sub-therapeutic range in Guttuso 2024, with correspondingly stronger effects. Relevant to patient registry studies: bipolar patients on lithium would be expected to show reduced neurological decline, potentially extending to ME/CFS/Long COVID outcomes.
-    / *Limitations:*: Bipolar disorder population; ME/CFS extrapolation mechanistically justified but indirect; mood stabilisation confounding cannot be excluded.
+    / *Limitations:*: Bipolar disorder population; ME/CFS extrapolation mechanistically justified but indirect; mood stabilization confounding cannot be excluded.
     / *Certainty Assessment:*:
 
         - *Quality:* High (longitudinal; quantitative MRI)
@@ -7748,7 +7809,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - TRPM3 is a calcium-permeable cation channel expressed on NK cells, sensory neurons, pancreatic $beta$-cells, vascular smooth muscle, and brain
         - Dysfunction impairs calcium influx required for NK cell degranulation and cytotoxic function
 
-    / *Relevance:*: Establishes the mechanistic link TRPM3 dysfunction → impaired NK cell calcium signalling → ME/CFS pathophysiology, and identifies LDN as a therapeutic agent acting via this mechanism. Directly supports the TRPM3-calcium-mitochondria cascade hypothesis: impaired calcium influx through dysfunctional TRPM3 reduces mitochondrial calcium signalling, impairing ATP production under demand. Provides the first actionable therapeutic target from ion channel research in ME/CFS.
+    / *Relevance:*: Establishes the mechanistic link TRPM3 dysfunction → impaired NK cell calcium signaling → ME/CFS pathophysiology, and identifies LDN as a therapeutic agent acting via this mechanism. Directly supports the TRPM3-calcium-mitochondria cascade hypothesis: impaired calcium influx through dysfunctional TRPM3 reduces mitochondrial calcium signaling, impairing ATP production under demand. Provides the first actionable therapeutic target from ion channel research in ME/CFS.
     / *Limitations:*: In vitro study on isolated NK cells; mechanism by which LDN restores TRPM3 function not fully elucidated; clinical outcome data needed.
     / *Certainty Assessment:*:
 
@@ -7901,7 +7962,7 @@ This section covers the foundational mechanosensation and nociception literature
 
 === Li et al.\ 2021 --- TRPV1 Feed-Forward Sensitization via COX2 Upregulation
 
-    / *Full Citation:*: Li T, Wang G, Hui VCC, Saad D, de Sousa Valente J, La Montanara P, Nagy I. TRPV1 feed-forward sensitisation depends on COX2 upregulation in primary sensory neurons. _Scientific Reports_. 2021;11(1):3514.
+    / *Full Citation:*: Li T, Wang G, Hui VCC, Saad D, de Sousa Valente J, La Montanara P, Nagy I. TRPV1 feed-forward sensitization depends on COX2 upregulation in primary sensory neurons. _Scientific Reports_. 2021;11(1):3514.
     / *DOI:*: #link("https://doi.org/10.1038/s41598-021-82829-6")[10.1038/s41598-021-82829-6]
     / *Published:*: February 2021
     / *Study Design:*: In vitro primary sensory neuron cultures; COX2 inhibitors; RT-PCR and calcium imaging
@@ -8114,7 +8175,7 @@ This section covers the foundational mechanosensation and nociception literature
 
 === Riste et al.\ 2025 --- Self-Help Perrin Technique RCT for Long COVID
 
-    / *Full Citation:*: Riste L, Perrin R, Mulholland T, Hann M, McDonald O, Heald A. A feasibility randomised controlled trial of a self-help Perrin Technique intervention for Long COVID. _Infect Dis Ther_. 2026;15(2):577--589.
+    / *Full Citation:*: Riste L, Perrin R, Mulholland T, Hann M, McDonald O, Heald A. A feasibility randomized controlled trial of a self-help Perrin Technique intervention for Long COVID. _Infect Dis Ther_. 2026;15(2):577--589.
     / *DOI:*: #link("https://doi.org/10.1007/s40121-025-01287-z")[10.1007/s40121-025-01287-z]
     / *PMID:*: 41442105
     / *Published:*: 2026
@@ -8314,7 +8375,7 @@ This section covers the foundational mechanosensation and nociception literature
     / *Study Design:*: Case-control advanced diffusion MRI with neuroinflammation imaging (NII) model
     / *Sample Size:*: n=67 ME/CFS vs 67 matched HC (54F/13M per group)
     / *Key Findings:*:
-        - Widespread white matter abnormalities: lower NII-HR (cerebral edema), lower NII-RF (cellular infiltration), higher NII-FF (axonal reorganisation)
+        - Widespread white matter abnormalities: lower NII-HR (cerebral edema), lower NII-RF (cellular infiltration), higher NII-FF (axonal reorganization)
         - Conventional DTI showed minimal differences --- NII far more sensitive
         - NII metrics correlated with mental health, disability, disease severity
     / *Conclusion:*: First in vivo evidence of white matter neuroinflammation in ME/CFS using advanced NII model; NII metrics substantially more sensitive than conventional DTI
@@ -8421,7 +8482,7 @@ This section covers the foundational mechanosensation and nociception literature
 
 === Eaton-Fitch et al.\ 2021 --- TRPM3/PIP2 Co-Localization and NK Degranulation
 
-    / *Full Citation:*: Eaton-Fitch N, Cabanas H, du Preez S, Staines D, Marshall-Gradisnik S. The effect of IL-2 stimulation and treatment of TRPM3 on channel co-localisation with PIP2 and NK cell function in myalgic encephalomyelitis/chronic fatigue syndrome patients. _J Transl Med_. 2021;19:306.
+    / *Full Citation:*: Eaton-Fitch N, Cabanas H, du Preez S, Staines D, Marshall-Gradisnik S. The effect of IL-2 stimulation and treatment of TRPM3 on channel co-localization with PIP2 and NK cell function in myalgic encephalomyelitis/chronic fatigue syndrome patients. _J Transl Med_. 2021;19:306.
     / *DOI:*: #link("https://doi.org/10.1186/s12967-021-02974-4")[10.1186/s12967-021-02974-4]
     / *PMID:*: 34266470
     / *Study Design:*: Case-control; confocal microscopy, flow cytometry, cytotoxicity assay
@@ -8890,7 +8951,7 @@ This section covers the foundational mechanosensation and nociception literature
 
 === Saha, Krishnan & Raghu 2023 --- IMPA1-Dependent PIP2 and Ca2+ Signalling by Lithium
 
-    / *Full Citation:*: Saha S, Krishnan H, Raghu P. IMPA1 dependent regulation of phosphatidylinositol 4,5-bisphosphate and calcium signalling by lithium. _Life Sci Alliance_. 2023;7(2):e202302425. @saha2023impa1
+    / *Full Citation:*: Saha S, Krishnan H, Raghu P. IMPA1 dependent regulation of phosphatidylinositol 4,5-bisphosphate and calcium signaling by lithium. _Life Sci Alliance_. 2023;7(2):e202302425. @saha2023impa1
     / *DOI:*: #link("https://doi.org/10.26508/lsa.202302425")[10.26508/lsa.202302425]
     / *PMID:*: 38056909
     / *Study Design:*: Mechanistic; HEK293T WT + CRISPR IMPA1 KO; human iPSC-derived forebrain cortical neurons (DIV45)
@@ -9128,13 +9189,13 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Full Citation:*: Phan TX, Ton HT, Gulyás H, Pórszász R, Tóth A, Russo R, Kay MW, Sahibzada N, Ahern GP. TRPV1 in arteries enables a rapid myogenic tone. _J Physiol_. 2022;600(7):1651--1666. @Phan2022trpv1myogenic
     / *DOI:*: #link("https://doi.org/10.1113/JP281873")[10.1113/JP281873]
     / *PMID:*: 35020949
-    / *Study Design:*: TRPV1 KO mice + pharmacological antagonism; pressure myography; in vivo skeletal muscle and coronary flow; pharmacological dissection of PLC/PKC signalling
+    / *Study Design:*: TRPV1 KO mice + pharmacological antagonism; pressure myography; in vivo skeletal muscle and coronary flow; pharmacological dissection of PLC/PKC signaling
     / *Key Findings:*:
         - TRPV1 antagonists dilate skeletal muscle arterioles in vitro and in vivo, increase coronary perfusion, transiently decrease blood pressure
-        - Stretch-induced activation requires phospholipase C/PKC signalling combined with temperature
+        - Stretch-induced activation requires phospholipase C/PKC signaling combined with temperature
         - TRPV1 drives the rapid component of myogenic tone in heart and skeletal muscle arteries; TRPM4 contributes remaining tone
         - TRPV1 disruption slows tone development and impairs vasodilation following brief arterial constriction
-    / *Conclusion:*: TRPV1 is the primary stretch sensor for rapid myogenic tone in cardiac and skeletal muscle arterioles; its activation is temperature- and signalling-pathway-dependent.
+    / *Conclusion:*: TRPV1 is the primary stretch sensor for rapid myogenic tone in cardiac and skeletal muscle arterioles; its activation is temperature- and signaling-pathway-dependent.
     / *Limitations:*: Rodent; does not address ME/CFS; temperature dependence means findings are context-sensitive.
     / *ME/CFS relevance:*: If TRPV1 is sensitized (as in inflamed or pro-nociceptive states documented in ME/CFS), myogenic tone would be elevated at rest and exaggerated during exercise, impairing normal exercise-induced vasodilation and contributing to post-exertional muscle ischaemia.
     / *Certainty Assessment:*:
@@ -9216,7 +9277,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - NE released from locus coeruleus (LC) drives slow rhythmic constriction and dilation of cerebral arteries (vasomotion); because CBV and CSF share the confined intracranial space, arterial contraction displaces CSF inward --- a hydraulic pump
         - Optogenetic stimulation of LC induced anti-correlated changes in vasomotion and CSF signal; artificial arterial oscillations enhanced CSF inflow into brain parenchyma
         - Zolpidem (common sleep aid) suppressed NE oscillations by ~50% and proportionally reduced glymphatic flow, despite maintaining sleep --- dissociating sleep duration from clearance efficacy
-        - Adrenergic receptor blockade (pan-adrenergic) eliminated LC-induced vascular effects, confirming NE-adrenergic signalling as the mechanistic driver
+        - Adrenergic receptor blockade (pan-adrenergic) eliminated LC-induced vascular effects, confirming NE-adrenergic signaling as the mechanistic driver
     / *Conclusion:*: The LC-NE axis is a master regulator of glymphatic clearance during sleep. Chronic autonomic dysfunction (including ME/CFS dysautonomia) and medications that suppress NE oscillations may directly impair brain waste clearance regardless of total sleep time.
     / *Limitations:*: Mouse model; human validation pending; multiple experiments use small n; zolpidem effects in humans require dedicated study.
     / *ME/CFS Relevance:*: ME/CFS involves documented LC/NE dysfunction (DHPG deficits in NIH deep phenotyping), autonomic dysregulation, and unrefreshing sleep. This paper provides the mechanistic chain: LC-NE dysfunction #sym.arrow impaired vasomotion #sym.arrow reduced glymphatic clearance #sym.arrow brain waste accumulation #sym.arrow cognitive symptoms and PEM amplification.
@@ -9295,7 +9356,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Full Citation:*: Lee H, Xie L, Yu M, et al.\ The effect of body posture on brain glymphatic transport. _Journal of Neuroscience_. 2015;35(31):11034--11044. @Lee2015sleepPosition
     / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.1625-15.2015")[10.1523/JNEUROSCI.1625-15.2015]
     / *PMID:*: 26245965
-    / *Study Design:*: Dynamic contrast-enhanced MRI with kinetic modelling in anesthetized rodents (supine/prone/lateral positions); validated with fluorescence microscopy and radioactive tracers
+    / *Study Design:*: Dynamic contrast-enhanced MRI with kinetic modeling in anesthetized rodents (supine/prone/lateral positions); validated with fluorescence microscopy and radioactive tracers
     / *Sample Size:*: MRI arm: 24 rats; fluorescence/tracer arms: mice n=6--8 per group
     / *Key Findings:*:
         - Lateral position produced most efficient glymphatic transport --- best CSF-ISF exchange, fastest amyloid-#sym.beta clearance
@@ -9321,7 +9382,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - Describes structural basis: perivascular channels around arteries (CSF influx) and veins (ISF efflux), facilitated by AQP4 water channels on astrocytic endfeet
         - Astrocyte and blood vessel geometry determines perivascular space shape and fluid transport rate; AQP4 deletion reduces clearance by ~70%
         - Acute hypertension stiffens arterial walls, reduces pulsatility, and reduces perivascular fluid flow by up to 50%
-        - Cross-talk documented between glymphatic, cardiovascular, gastrointestinal, and lymphatic systems; positions glymphatic/lymphatic axis as a "cornerstone in signalling between the brain and body"
+        - Cross-talk documented between glymphatic, cardiovascular, gastrointestinal, and lymphatic systems; positions glymphatic/lymphatic axis as a "cornerstone in signaling between the brain and body"
     / *Conclusion:*: Authoritative review establishing the biological foundation for glymphatic-ME/CFS hypotheses. The cardiovascular cross-talk is directly relevant: ME/CFS cardiovascular dysfunction (reduced cardiac output, OI, POTS) reduces the arterial pulsatility driving glymphatic flow.
     / *Limitations:*: Review article; primarily Nedergaard lab perspective; some aspects debated (magnitude of AQP4 contribution; bulk flow vs.\ diffusion controversy).
     / *ME/CFS Relevance:*: Mechanistic foundation paper. Cardiovascular-glymphatic cross-talk explains why OI/POTS contributes to glymphatic failure via reduced cerebral perfusion and pulsatility.
@@ -9802,7 +9863,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Key Findings:*:
         - GCH1 rs841 AA (~4% population): reduced BH4 → impaired dopamine/NE/serotonin/NO synthesis
         - Associated with ADHD, ASD, depression, PMDD, insomnia
-        - n=5 case reports: BH4 supplementation improved ADHD behaviour
+        - n=5 case reports: BH4 supplementation improved ADHD behavior
     / *Conclusion:*: GCH1 rs841 as a high-frequency shared genetic vulnerability across neurodevelopmental conditions and ME/CFS.
     / *Limitations:*: Case series n=5 only; potential COI; genetic association weak.
     / *ME/CFS Relevance:*: BH4 bottleneck connects ADHD, ASD, and ME/CFS through same enzymatic deficit.
@@ -9848,6 +9909,88 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - *Sample:* Review
         - *Replication:* Convergent
         - *Score:* 0.35
+
+=== Chang et al.\ 2020 --- MtDNA Haplogroups and ADHD Risk in European Americans
+
+    / *Full Citation:*: Chang X, Liu Y, Mentch F, et al. Mitochondrial DNA haplogroups and risk of attention deficit and hyperactivity disorder in European Americans. _Translational Psychiatry_. 2020;10:370. @Chang2020haploADHD
+    / *DOI:*: #link("https://doi.org/10.1038/s41398-020-01064-1")[10.1038/s41398-020-01064-1]
+    / *PMC:*: PMC7608630
+    / *Article Type:*: Case-control genetic association study
+    / *Key Findings:*:
+        - n = 2,076 ADHD cases and 5,078 controls across three independent European cohorts; meta-analysis
+        - Haplogroups K and U: protective against ADHD (reduced risk)
+        - Haplogroup HHV**: increased ADHD risk
+        - Haplogroup U also associated with less severe ME/CFS symptoms (Billing-Ross 2016) — cross-disease overlap
+    / *Conclusion:*: mtDNA haplogroup variation influences ADHD risk in European populations. Haplogroup U emerges as a shared modifier across ADHD and ME/CFS symptom severity, suggesting a common mitochondrial energy background.
+    / *Limitations:*: Haplogroups inferred from SNP arrays (not whole-genome sequencing); all three cohorts from single institution; maternal inheritance confounding possible.
+    / *ME/CFS Relevance:*: Directly relevant to mtDNA predisposition model: haplogroup U crosses from ADHD protection to ME/CFS symptom modulation — implies shared mitochondrial substrate.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (large n, three cohorts, meta-analysis)
+        - *Sample:* n = 7,154
+        - *Replication:* Three cohorts (same institution)
+        - *Score:* 0.65
+
+=== Giannoulis et al.\ 2024 --- Systematic Review of Mitochondrial Genetic Variation in ADHD
+
+    / *Full Citation:*: Giannoulis SV, Müller D, Kennedy JL, Gonçalves V. Systematic review of mitochondrial genetic variation in attention-deficit/hyperactivity disorder. _European Child \& Adolescent Psychiatry_. 2024;33(6):1675–1685. @Giannoulis2024sysrevmtADHD
+    / *DOI:*: #link("https://doi.org/10.1007/s00787-022-02030-6")[10.1007/s00787-022-02030-6]
+    / *PMID:*: 35796884
+    / *Article Type:*: Systematic review (10 primary studies from 507 screened)
+    / *Key Findings:*:
+        - Increased mtDNA copy number documented in ADHD across multiple studies
+        - Specific SNP associations and haplogroup effects confirmed
+        - Both mtDNA and nuclear-encoded mitochondrial genes implicated
+        - Field underdeveloped relative to autism and schizophrenia
+    / *Conclusion:*: Mitochondrial genetic variation contributes to ADHD pathophysiology. Evidence base is limited but directionally consistent. Methodology heterogeneity across primary studies limits firm conclusions.
+    / *Limitations:*: Only 10 studies met inclusion criteria; diverse populations and methods; most samples small; publication bias likely.
+    / *ME/CFS Relevance:*: Systematic evidence that ADHD carries mitochondrial genetic vulnerability — necessary foundation for shared-substrate hypothesis with ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (systematic review of mostly small studies)
+        - *Sample:* n = 10 studies
+        - *Replication:* Consistent direction; variable effect sizes
+        - *Score:* 0.58
+
+=== Verma et al.\ 2016 --- ADHD Suffers from Mitochondrial Dysfunction (Cybrid Study)
+
+    / *Full Citation:*: Verma P, Singh A, Nthenge-Ngumbau DN, et al. Attention deficit-hyperactivity disorder suffers from mitochondrial dysfunction. _BBA Clinical_. 2016;6:153–158. @Verma2016ADHDcybrid
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbacli.2016.10.003")[10.1016/j.bbacli.2016.10.003]
+    / *PMC:*: PMC5121149
+    / *Article Type:*: Experimental study (cybrid cell lines)
+    / *Key Findings:*:
+        - Cybrid cells from ADHD patient platelets (n = 3 ADHD, 4 controls, ages 5–13)
+        - Significantly lower cellular and mitochondrial respiration in ADHD cybrids
+        - Reduced ATPase6/8 transcripts; decreased Complex V activity
+        - Loss of mitochondrial membrane potential; elevated oxidative stress
+        - Mitochondrial defects transferable via patient mitochondria (cybrid proof of concept)
+    / *Conclusion:*: Bioenergetic crisis in patient mitochondria is a contributory factor for ADHD. The cybrid model demonstrates the dysfunction is intrinsic to mitochondria, not solely secondary to nuclear environment.
+    / *Limitations:*: Very small sample (n = 3); cybrid model introduces nuclear-cytoplasmic mismatch artifacts; patient age range broad; results need larger replication.
+    / *ME/CFS Relevance:*: Mechanistically parallel to ME/CFS muscle bioenergetics findings. ADHD and ME/CFS may share a mitochondrial floor-level energy deficit.
+    / *Certainty Assessment:*:
+        - *Quality:* Low (n = 3; experimental model)
+        - *Sample:* n = 3 ADHD, n = 4 controls
+        - *Replication:* Not replicated
+        - *Score:* 0.30
+
+=== Öğütlü et al.\ 2022 --- Mitochondrial Dysfunction in ADHD (Narrative Review)
+
+    / *Full Citation:*: Öğütlü H, Kaşak M, Tabur ST. Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder. _Eurasian Journal of Medicine_. 2022;54(Suppl 1):S187–S195. @Ogutlu2022ADHDmito
+    / *DOI:*: #link("https://doi.org/10.5152/eurasianjmed.2022.22187")[10.5152/eurasianjmed.2022.22187]
+    / *PMC:*: PMC11163340
+    / *Article Type:*: Narrative review
+    / *Key Findings:*:
+        - mtDNA copy number ~1.3x higher in ADHD vs controls (multiple studies)
+        - Haplogroup B4 increases ADHD risk; K and U reduce risk in European populations
+        - 10398 A/G polymorphism significantly associated with ADHD in Korean cohort
+        - Mitochondrial apoptotic signaling: second strongest mechanism in ADHD cases (GWAS data)
+        - Both ADHD and ME/CFS share reduced spare respiratory capacity and elevated oxidative stress
+    / *Conclusion:*: Convergent evidence positions mitochondrial dysfunction as central to ADHD, with overlapping haplogroup effects compared to ME/CFS. Haplogroup U protective in ADHD (Chang 2020) and symptom-modifying in ME/CFS (Billing-Ross 2016) — strongest cross-disease haplogroup overlap point.
+    / *Limitations:*: Narrative review; variable study quality in sources; blood-based biomarkers less specific than tissue; translation to brain pathophysiology uncertain.
+    / *ME/CFS Relevance:*: Synthesises the entire ADHD mitochondrial literature with relevance to ME/CFS predisposition model.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (narrative review)
+        - *Sample:* Review
+        - *Replication:* Convergent
+        - *Score:* 0.45
 
 === Fanet et al.\ 2021 --- BH4 Pathway: From Metabolism to Neuropsychiatry
 
@@ -10087,7 +10230,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Key Findings:*:
         - n=31 CFS patients; 77% SIBO-positive by lactulose hydrogen breath test
         - Neomycin vs placebo: no statistically significant difference between arms (underpowered)
-        - Breath test normalisation correlated with symptom improvement in responders
+        - Breath test normalization correlated with symptom improvement in responders
         - First controlled study demonstrating high SIBO prevalence in CFS and testing eradication
     / *Conclusion:*: Supports the biological plausibility of SIBO as a comorbid contributor to CFS symptoms, but the RCT was insufficiently powered to demonstrate treatment efficacy.
     / *Limitations:*: Conference abstract only; never published as full peer-reviewed paper. n=31 is severely underpowered. Lactulose breath test validity is contested (see Kashyap 2024). Study is 25+ years old; replication urgently needed. Conflict of interest not assessable (abstract).
@@ -10175,7 +10318,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - Colonocytes normally metabolise H2S as a barrier, preventing systemic absorption; intestinal sulfide overproduction (ISO) overwhelms this protection
         - SQR-mediated H2S oxidation integrates H2S into the ETC as an electron donor — dual substrate and inhibitor depending on concentration
     / *Conclusion:*: H2S-dominant SIBO (ISO) creates a local gut environment of chronically elevated H2S that, when systemic exposure occurs, directly inhibits mitochondrial Complex IV with consequences for ATP generation — a plausible mechanism connecting gut dysbiosis to ME/CFS-pattern energy failure.
-    / *Limitations:*: Biochemical review; direct demonstration of SIBO-derived H2S inhibiting patient mitochondria has not been performed in ME/CFS cohorts. The concentration thresholds for stimulation vs inhibition are not fully characterised in vivo.
+    / *Limitations:*: Biochemical review; direct demonstration of SIBO-derived H2S inhibiting patient mitochondria has not been performed in ME/CFS cohorts. The concentration thresholds for stimulation vs inhibition are not fully characterized in vivo.
     / *ME/CFS Relevance:*: Provides the mechanistic bridge for the SIBO-derived H2S → Complex IV inhibition → reduced aerobic ATP → fatigue pathway. Directly connects the gut-microbiome chapter to the energy-metabolism and mitochondrial dysfunction chapters. H2S-dominant SIBO subtype (ISO) warrants specific identification and treatment in ME/CFS patients with fatigue disproportionate to other findings.
     / *Certainty Assessment:*:
         - *Quality:* High (British Journal of Pharmacology, mechanistic review with experimental grounding)
@@ -10243,7 +10386,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - Over 70% of M+ and H+/M+ groups consumed excessive dietary fat
         - Conclusion: SIBO subtype determines specific nutritional deficiency profile; subtype-guided supplementation required
     / *Conclusion:*: SIBO subtype is clinically meaningful for nutritional assessment. Mixed H+/M+ patients carry the greatest deficiency burden, particularly for vitamin D and iron — nutrients already commonly deficient in ME/CFS.
-    / *Limitations:*: Small n (67), single-centre (Warsaw, Poland), observational design with no control group. Not ME/CFS-specific. Polish cohort dietary patterns may not generalise. Serum vitamin D reflects sun exposure and supplementation as well as gut absorption.
+    / *Limitations:*: Small n (67), single-centre (Warsaw, Poland), observational design with no control group. Not ME/CFS-specific. Polish cohort dietary patterns may not generalize. Serum vitamin D reflects sun exposure and supplementation as well as gut absorption.
     / *ME/CFS Relevance:*: Quantifies subtype-specific deficiency profiles directly relevant to ME/CFS patients with SIBO comorbidity. Low ferritin and vitamin D in the mixed subtype compound the energy-metabolism and immune-dysfunction burden in ME/CFS. Supports routine subtype testing and targeted repletion rather than empirical supplementation alone.
     / *Certainty Assessment:*:
         - *Quality:* Medium (observational, single-centre, small n)
@@ -10262,7 +10405,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - Primary methodological flaw: lactulose H2 breath test (LHBT) measures oro-cecal transit, not small intestinal bacterial counts; normal transit range (25--200 min) generates widespread false positives
         - Three independent research teams found no time point discriminates IBS patients from healthy controls on LHBT
         - Diagnostic cut-off criteria (20 ppm, 90 min; later 180 min; adding methane, H2S) changed repeatedly without prospective validation
-        - Breath test normalisation does not reliably predict clinical improvement — the claimed mechanistic link is unconfirmed
+        - Breath test normalization does not reliably predict clinical improvement — the claimed mechanistic link is unconfirmed
         - Injudicious antibiotic prescribing driven by unvalidated testing raises antimicrobial resistance concerns
     / *Conclusion:*: The SIBO-as-cause-of-IBS hypothesis and the diagnostic value of standard breath testing for IBS are not supported by evidence. Recommends rejecting the hypothesis and curtailing breath-test-driven antibiotic prescribing.
     / *Limitations:*: Critique focuses on IBS; does not address ME/CFS-specific data. Does not negate the existence of SIBO as a pathological condition or its prevalence in other populations. Some panelists may have publication bias against the SIBO hypothesis. The Karhu 2023 ME/CFS data (referral-based cohort with confirmed breath test) is not directly addressed.
@@ -10543,7 +10686,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
 === Yokoi and Konomi 2017 — Meta-Analysis of IDWA and Fatigue
 
-    / *Full Citation:*: Yokoi K, Konomi A. Iron deficiency without anaemia is a potential cause of fatigue: meta-analyses of randomised controlled trials and cross-sectional studies. _British Journal of Nutrition_. 2017;117(10):1422--31.
+    / *Full Citation:*: Yokoi K, Konomi A. Iron deficiency without anemia is a potential cause of fatigue: meta-analyses of randomized controlled trials and cross-sectional studies. _British Journal of Nutrition_. 2017;117(10):1422--31.
     / *DOI:*: #link("https://doi.org/10.1017/S0007114517001349")[10.1017/S0007114517001349]
     / *PMID:*: 28625177
     / *Study Design:*: Systematic review + two meta-analyses (6 RCTs, 6 cross-sectional studies)
@@ -10563,7 +10706,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
 === Al-Naseem et al.\ 2021 — Iron Deficiency Without Anaemia: A Diagnosis That Matters
 
-    / *Full Citation:*: Al-Naseem A, Sallam A, Choudhury S, Thachil J. Iron deficiency without anaemia: a diagnosis that matters. _Clinical Medicine (London)_. 2021;21(2):107--113.
+    / *Full Citation:*: Al-Naseem A, Sallam A, Choudhury S, Thachil J. Iron deficiency without anemia: a diagnosis that matters. _Clinical Medicine (London)_. 2021;21(2):107--113.
     / *DOI:*: #link("https://doi.org/10.7861/clinmed.2020-0582")[10.7861/clinmed.2020-0582]
     / *PMID:*: 33762368
     / *Study Design:*: Narrative review
@@ -10768,7 +10911,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Bias driven entirely by trials with subjective outcomes; negligible in objective/mortality outcome trials
         - Subjective-outcome trials without blinding: ~23% exaggeration (ROR ~0.77)
 
-    / *Relevance:*: Primary BRANDO project publication. Establishes the quantitative basis for critiquing all unblinded ME/CFS behavioural intervention trials. Directly applicable to the 2025--2026 exercise meta-analysis cluster.
+    / *Relevance:*: Primary BRANDO project publication. Establishes the quantitative basis for critiquing all unblinded ME/CFS behavioral intervention trials. Directly applicable to the 2025--2026 exercise meta-analysis cluster.
     / *Certainty Assessment:*:
 
         - *Quality:* High — _Annals of Internal Medicine_; 7-dataset combined synthesis
@@ -11083,7 +11226,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Spontaneous abortion signal from Schacterle 2004 (30% vs 8%) has not been independently replicated
         - Difficulty making parenthood decisions is a significant reported burden for people with ME/CFS
     / *Conclusion:*: The most comprehensive synthesis of ME/CFS and pregnancy evidence to date. Confirms the extreme evidence gap: only 5 of 16 included studies are peer-reviewed, most have no control groups, and none are prospective with adequate power. Calls urgently for high-quality prospective controlled studies.
-    / *Limitations:*: Very limited primary evidence base to synthesise; no studies adjusted for maternal age confound; lack of standardised ME/CFS diagnostic criteria across studies; severely affected individuals under-represented in all studies.
+    / *Limitations:*: Very limited primary evidence base to synthesise; no studies adjusted for maternal age confound; lack of standardized ME/CFS diagnostic criteria across studies; severely affected individuals under-represented in all studies.
     / *Certainty:*: 0.52
 
 === Thomas et al.\ 2022 — Sex Differences and Neuroendocrinology in ME/CFS
@@ -11115,7 +11258,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Key Findings:*:
         - Approximately 4 million people in the US have CFS; women predominantly affected
         - Notes severe scarcity of scientific literature on the reproductive experience of women with CFS at time of publication
-        - Provides guidance for pregnancy, labour and birth, lactation, and postpartum care in the context of CFS
+        - Provides guidance for pregnancy, labor and birth, lactation, and postpartum care in the context of CFS
         - Identifies that misperceptions among healthcare providers create significant burden for patients
     / *Conclusion:*: Clinically useful framework for midwifery and obstetric providers caring for women with CFS during childbearing. The evidence gap it identifies in 2008 has only been partially addressed by the 2023 Slack systematic review.
     / *Limitations:*: Narrative review; no systematic search; guidance not evidence-based in the strict sense; pre-2011 diagnostic criteria; not updated since publication.
@@ -11136,7 +11279,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Endometriosis prevalence in ME/CFS patient populations: 13% (95% CI: 5--31%)
         - Minimal heterogeneity for association studies (I#super[2] = 0.0%); extreme heterogeneity for prevalence estimates (I#super[2] >98%)
     / *Conclusion:*: First meta-analysis to quantify the ME/CFS--endometriosis comorbidity association. The 2.79-fold odds ratio is clinically meaningful and aligns with the broader pattern of ME/CFS co-occurring with conditions driven by immune dysregulation and chronic inflammation. Shared mechanisms may include neuroinflammation, HPA axis dysregulation, and altered immune tolerance. Relevant to gynecological assessment in ME/CFS patients.
-    / *Limitations:*: Predominantly cross-sectional designs preclude causal inference; 54% of studies used self-reported endometriosis diagnosis (not laparoscopic confirmation); extreme prevalence heterogeneity (I#super[2] >98%) cautions against pooled prevalence estimates; US-centric sample (11/13 studies); only 23% of studies used standardised ME/CFS diagnostic criteria.
+    / *Limitations:*: Predominantly cross-sectional designs preclude causal inference; 54% of studies used self-reported endometriosis diagnosis (not laparoscopic confirmation); extreme prevalence heterogeneity (I#super[2] >98%) cautions against pooled prevalence estimates; US-centric sample (11/13 studies); only 23% of studies used standardized ME/CFS diagnostic criteria.
     / *Certainty:*: 0.58
 
 === Pollack et al.\ 2023 — Female Reproductive Health in Long COVID and ME/CFS
@@ -11164,15 +11307,15 @@ therapeutic agent in ME/CFS, motivated by the Schacterle & Komaroff (2004) findi
 approximately 30% of ME/CFS patients improve during pregnancy. The proposed mechanisms
 are: (1) Th2 immunoshift and Treg elevation via progesterone-induced blocking factor
 (PIBF); (2) allopregnanolone production (GABA-A potentiation, HPA calming, sleep
-improvement); (3) progesterone receptor-mediated anti-inflammatory signalling. Two null
-results from CFS hormone studies confirm that ME/CFS is not characterised by progesterone
+improvement); (3) progesterone receptor-mediated anti-inflammatory signaling. Two null
+results from CFS hormone studies confirm that ME/CFS is not characterized by progesterone
 deficiency, supporting a pharmacological rather than replacement rationale.
 
 === Meltzer-Brody et al.\ 2018 --- Brexanolone for Postpartum Depression (Phase 3 RCTs)
 
     @MeltzerBrody2018brexanolone
 
-    / *Full Citation:*: Meltzer-Brody S, Colquhoun H, Riesenberg R, et al. "Brexanolone injection in post-partum depression: two multicentre, double-blind, randomised, placebo-controlled, phase 3 trials." _Lancet_. 2018;392(10152):1058--1070.
+    / *Full Citation:*: Meltzer-Brody S, Colquhoun H, Riesenberg R, et al. "Brexanolone injection in post-partum depression: two multicentre, double-blind, randomized, placebo-controlled, phase 3 trials." _Lancet_. 2018;392(10152):1058--1070.
     / *DOI:*: #link("https://doi.org/10.1016/S0140-6736(18)31551-4")[10.1016/S0140-6736(18)31551-4]
     / *PMID:*: 30177236
     / *Study Design:*: Two phase 3 double-blind RCTs at 30 US sites; Study 1 n=138 (BRX60, BRX90, placebo); Study 2 n=108 (BRX90, placebo). 60-hour IV infusion.
@@ -11197,11 +11340,11 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Key Findings:*:
         - Allopregnanolone is a GABA-A receptor positive allosteric modulator; pregnancy levels are 10--100-fold above non-pregnant baseline
         - Postpartum allopregnanolone withdrawal is proposed to precipitate PPD in sensitive individuals
-        - Brexanolone inhibits inflammatory signalling post-infusion, suggesting an anti-inflammatory effect secondary to GABA modulation
+        - Brexanolone inhibits inflammatory signaling post-infusion, suggesting an anti-inflammatory effect secondary to GABA modulation
         - Future oral neurosteroids (zuranolone, ganaxolone) may replicate IV brexanolone via oral route
-        - HPA axis dysregulation (elevated CRH, altered cortisol feedback) is partially normalised by allopregnanolone
+        - HPA axis dysregulation (elevated CRH, altered cortisol feedback) is partially normalized by allopregnanolone
     / *Conclusion:*: Provides mechanistic framework connecting allopregnanolone deficiency, GABA-A dysfunction, HPA dysregulation, and inflammation --- all of which overlap with ME/CFS pathophysiology. Supports the hypothesis that oral progesterone-derived allopregnanolone could address multiple ME/CFS disease mechanisms simultaneously.
-    / *Limitations:*: Narrative review; PPD-focused; ME/CFS is a different condition with different aetiology; direct evidence in ME/CFS absent.
+    / *Limitations:*: Narrative review; PPD-focused; ME/CFS is a different condition with different etiology; direct evidence in ME/CFS absent.
     / *Certainty:*: 0.52
 
 === Szekeres-Bartho & Schindler 2019 --- Progestogens and Immunology
@@ -11319,7 +11462,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - NULL RESULT: no significant differences in FSH, LH, estradiol, or progesterone between fibromyalgia/CFS patients and healthy controls
         - Cortisol significantly lower in patient groups (consistent with HPA hypocortisolism pattern in ME/CFS)
         - Depressive symptoms correlated with lower cortisol but not with HPG hormone levels
-    / *Conclusion:*: Confirms that ME/CFS and fibromyalgia are not characterised by progesterone deficiency. The oral progesterone hypothesis for ME/CFS is therefore a pharmacological intervention (raising progesterone above normal levels to exploit immune and neurosteroid effects) rather than hormone replacement. This is an important interpretive distinction.
+    / *Conclusion:*: Confirms that ME/CFS and fibromyalgia are not characterized by progesterone deficiency. The oral progesterone hypothesis for ME/CFS is therefore a pharmacological intervention (raising progesterone above normal levels to exploit immune and neurosteroid effects) rather than hormone replacement. This is an important interpretive distinction.
     / *Limitations:*: Follicular phase only (progesterone naturally low; luteal phase not assessed); cross-sectional design; no correlation with symptom severity; early 2003 CFS diagnostic criteria.
     / *Certainty:*: 0.55
 
@@ -11370,7 +11513,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Full Citation:*: Stabile F, Torromino G, Rajendran S, Del Vecchio G, Presutti C, Mannironi C, De Leonibus E, Mele A, Rinaldi A. "Short-Term Memory Deficit Associates with miR-153-3p Upregulation in the Hippocampus of Middle-Aged Mice." _Molecular Neurobiology_. 2024;61(5):3031--3041.
     / *DOI:*: #link("https://doi.org/10.1007/s12035-023-03770-5")[10.1007/s12035-023-03770-5]
     / *PMID:*: 37964090
-    / *Study Design:*: Mouse model; 6-DOT behavioural task; n=29 middle-aged (12-month) CD1 male mice + 25 adult mice for intra-hippocampal mimic injection; microarray miRNA profiling + RT-qPCR.
+    / *Study Design:*: Mouse model; 6-DOT behavioral task; n=29 middle-aged (12-month) CD1 male mice + 25 adult mice for intra-hippocampal mimic injection; microarray miRNA profiling + RT-qPCR.
     / *Key Findings:*:
         - miR-153-3p upregulated in hippocampus of cognitively impaired mice
         - Intra-hippocampal injection of miR-153-3p mimic in adult mice sufficient to induce short-term memory deficit
@@ -11424,7 +11567,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Required for normal secretory vesicle accumulation in hippocampus and pituitary
         - Double KO: female-specific impaired ovulation (kisspeptin neuron development); PTPRN2 suppresses POMC/melanotroph proliferation
         - Can dephosphorylate PI(3)P and PI(4,5)P2 (phospholipid phosphatase activity)
-    / *Conclusion:*: Establishes PTPRN2 as a broad neuroendocrine regulator. Hypomethylation of PTPRN2 in ME/CFS (Chalder 2026) would be expected to alter expression or activity in neurons relevant to cognition, monoamine signalling, and autonomic regulation.
+    / *Conclusion:*: Establishes PTPRN2 as a broad neuroendocrine regulator. Hypomethylation of PTPRN2 in ME/CFS (Chalder 2026) would be expected to alter expression or activity in neurons relevant to cognition, monoamine signaling, and autonomic regulation.
     / *Limitations:*: Review paper; direct evidence linking PTPRN2 function to ME/CFS not yet established.
     / *Certainty:*: 0.62
 
@@ -11453,9 +11596,9 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *PMID:*: 37190120
     / *Study Design:*: Narrative review of PHB2 biology across cancer types.
     / *Key Findings:*:
-        - PHB2 is pleiotropic: inner mitochondrial membrane mitophagy receptor, nuclear HDAC recruiter, plasma membrane signalling partner
+        - PHB2 is pleiotropic: inner mitochondrial membrane mitophagy receptor, nuclear HDAC recruiter, plasma membrane signaling partner
         - miRNA-relevant: Lnc34a recruits PHB2/DNMT3A/HDAC1 to silence miR-34a promoter via methylation and deacetylation (epigenetic miRNA silencing)
-        - PHB2 overexpressed in most human cancers but tumour-suppressive in select contexts
+        - PHB2 overexpressed in most human cancers but tumor-suppressive in select contexts
     / *Conclusion:*: Establishes mechanistic precedent for PHB2 participating in epigenetic silencing of miRNAs. The Lnc34a-PHB2-miRNA pathway supports the plausibility of the Chalder 2026 hypothesis that PHB2 impairs miR-153-3p maturation. However, direct PHB2-miR-153-3p interaction has not been demonstrated.
     / *Limitations:*: Review; data primarily from cancer contexts; no ME/CFS or neurological data; direct PHB2-miR-153-3p link not established.
     / *Certainty:*: 0.58
@@ -11489,7 +11632,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Limited site-level overlap across studies but coherent gene-enrichment patterns
         - Changes predominantly in regulatory regions (not promoters)
         - Clear patient vs control separation across all cohorts
-    / *Conclusion:*: Methodological inconsistencies across prior studies reduce apparent cross-study reproducibility; with harmonised analysis, convergent pathway-level signals emerge. Suggests regulatory-region methylation is more informative than individual CpG sites.
+    / *Conclusion:*: Methodological inconsistencies across prior studies reduce apparent cross-study reproducibility; with harmonized analysis, convergent pathway-level signals emerge. Suggests regulatory-region methylation is more informative than individual CpG sites.
     / *Limitations:*: Heterogeneous source datasets; different diagnostic criteria; no sex stratification; re-analysis cannot correct original data quality limitations.
     / *Certainty:*: 0.45
 
@@ -11551,7 +11694,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Study Design:*: Blood-based epigenetic profiling (3D DNA folding/chromatin conformation); n=47 severe (housebound) ME/CFS + 61 age-matched healthy controls; UEA/Oxford Biodynamics.
     / *Key Findings:*:
         - 200 genomic biomarkers identified; 92% sensitivity, 98% specificity, 96% overall accuracy
-        - Top immune pathways: IL-2 hub, innate immune activation, JAK-STAT signalling
+        - Top immune pathways: IL-2 hub, innate immune activation, JAK-STAT signaling
         - Overlapping pathways found in multiple sclerosis and rheumatoid arthritis
         - IL-2 may cross blood-brain barrier and contribute to neuroinflammation
     / *Conclusion:*: Independent epigenetic approach (chromatin conformation, not CpG methylation) converging on the conclusion that epigenetic dysregulation is central to ME/CFS. Supports patient stratification potential. Provides convergent validation for the Chalder 2026 epigenetic axis from a distinct technological angle.
@@ -11919,7 +12062,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Full Citation:*: Ninomiya K, et al. "HSATII repeat RNA impairs splicing by sequestering splicing factors into nuclear condensates." _EMBO Journal_. 2023;42(15):e112026.
     / *DOI:*: #link("https://doi.org/10.15252/embj.2022112026")[10.15252/embj.2022112026]
     / *PMID:*: 37198823
-    / *Study Design:*: Cancer cell lines; RNA-seq; splicing factor localisation assays.
+    / *Study Design:*: Cancer cell lines; RNA-seq; splicing factor localization assays.
     / *Key Findings:*:
         - HSAT2 sequesters SRSF1, SRSF2, hnRNPs into nuclear condensates, impairing pre-mRNA splicing
         - Widespread splicing errors result; nuclear condensate formation is RNA-dependent
@@ -12122,7 +12265,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Chromatin accessibility reduced at TCF7 and TCF4 loci — loss of early-exhaustion restraint signals
         - Altered metabolic gene expression consistent with exhausted cell state
         - PD-L1/2 and CD86-CTLA-4 pathways upregulated on ME/CFS monocytes, suppressing CD8+ cytotoxicity
-        - Epigenetic changes parallel chronic viral infection exhaustion programmes
+        - Epigenetic changes parallel chronic viral infection exhaustion programs
     / *Conclusion:*: ME/CFS CD8+ T cells are epigenetically and transcriptionally primed toward late-stage exhaustion, identifying immune exhaustion as a component of ME/CFS pathophysiology.
     / *ME/CFS Relevance:*: Provides direct molecular evidence for T cell exhaustion in ME/CFS. The PD-L1 upregulation on monocytes is consistent with an immunosuppressive myeloid compartment (MDSC-like or MDSC-adjacent). Suggests future therapeutic avenues: checkpoint blockade, metabolic rescue, or anti-viral targeting.
     / *Limitations:*: Small flow cytometry validation cohort (n=7); scRNA-seq sample size modest; no longitudinal data; no MDSC co-phenotyping.
@@ -12179,7 +12322,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Mild disease: up to 25% MDSC of mononuclear cells
         - MDSC suppress T-cell function; decline during recovery correlating with reduced TGF-beta
         - MDSC frequency at admission is a potential severity biomarker
-    / *Conclusion:*: Acute COVID-19 induces massive, graded MDSC expansion proportional to disease severity; MDSC normalisation accompanies clinical recovery.
+    / *Conclusion:*: Acute COVID-19 induces massive, graded MDSC expansion proportional to disease severity; MDSC normalization accompanies clinical recovery.
     / *ME/CFS Relevance:*: Provides the acute-phase context: SARS-CoV-2 (and presumably other viral triggers) initially drives extreme MDSC expansion. The Beliakova-Bethell 2022 data showing 5-month persistence suggests incomplete resolution in Long COVID/ME/CFS cases. Together these papers outline a trigger--persist--suppress trajectory.
     / *Limitations:*: Small n (18 total); acute infection only; no follow-up to post-acute or ME/CFS; TGF-beta measured but specific MDSC suppression mechanisms not characterized.
     / *Certainty:*: 0.50 (small n; proof-of-concept level)
@@ -12312,7 +12455,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Conclusion:*: Best available mechanistic support for the ROS-p38MAPK-HSF1 arm of NAC suppression — in cell culture.
     / *ME/CFS Relevance:*: Provides the core mechanistic support for spec:nac-hsat2. However, this is V79 hamster fibroblasts; contrast with Petersen 2012 (human exercise), which showed NAC infusion did not suppress HSP70 mRNA in humans, suggesting the protein-denaturation arm dominates over ROS in physiological stress.
     / *Limitations:*: Non-human cell line (hamster fibroblast); in vitro heat shock; 5 mM NAC is a supraphysiological concentration; no direct HSAT2 measurement.
-    / *Certainty:*: 0.55 (in vitro mechanistic; not generalised to human in vivo; NAC concentration may exceed therapeutic levels)
+    / *Certainty:*: 0.55 (in vitro mechanistic; not generalized to human in vivo; NAC concentration may exceed therapeutic levels)
 
 === NAC Infusion Does Not Suppress HSP70 in Human Exercise (Disconfirmation)
 
@@ -12338,14 +12481,14 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Full Citation:*: Miyata K, Imai Y, Hori S, Nishio M, Loo TM, Okada R, et al. "Pericentromeric noncoding RNA changes DNA binding of CTCF and inflammatory gene expression in senescence and cancer." _Proceedings of the National Academy of Sciences USA_. 2021;118(35):e2025647118.
     / *DOI:*: 10.1073/pnas.2025647118
     / *PMID:*: 34426493
-    / *Study Design:*: Primary human and mouse fibroblast senescence models, cancer cell lines, patient tumour RNA-seq data. Integrated ChIP-seq, ATAC-seq, Hi-C.
+    / *Study Design:*: Primary human and mouse fibroblast senescence models, cancer cell lines, patient tumor RNA-seq data. Integrated ChIP-seq, ATAC-seq, Hi-C.
     / *Key Findings:*:
         - HSAT2 ncRNA accumulates in senescent fibroblasts and disrupts CTCF chromatin binding at topological domain boundaries near SASP genes
         - CTCF displacement alters 3D chromatin topology, promoting SASP gene activation
         - Oxidative stress reduces CTCF expression, opening a CTCF-loss route to HSAT2 locus derepression independently of HSF1
         - HSAT2 RNA acts as a chromatin modifier, not merely a transcript — its downstream effects include topological disruption
     / *Conclusion:*: HSAT2 has a CTCF-mediated chromatin regulatory function in senescence. Two independent routes to HSAT2 derepression exist: HSF1 (heat shock) and CTCF loss (oxidative stress/senescence).
-    / *ME/CFS Relevance:*: Adds mechanistic diversity to spec:heat-hsat2-caution (not only thermal stress triggers HSAT2) and provides a second route relevant to the inflammaging context of spec:hsat2-inflammaging. The SASP-promoting effect of HSAT2 ncRNA directly links pericentromeric derepression to chronic inflammatory signalling.
+    / *ME/CFS Relevance:*: Adds mechanistic diversity to spec:heat-hsat2-caution (not only thermal stress triggers HSAT2) and provides a second route relevant to the inflammaging context of spec:hsat2-inflammaging. The SASP-promoting effect of HSAT2 ncRNA directly links pericentromeric derepression to chronic inflammatory signaling.
     / *Limitations:*: Senescence/cancer context; no ME/CFS data; the CTCF-disruption function of HSAT2 RNA is mechanistically established but extrapolation to post-viral HSAT2 derepression in ME/CFS remains speculative.
     / *Certainty:*: 0.70 (primary cell data; multiple methods; published PNAS; senescence context limits direct ME/CFS applicability)
 
@@ -12391,7 +12534,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Full Citation:*: Zhu Q, Pao GM, Huynh AM, Suh H, Tonnu N, Nederlof PM, Gage FH, Verma IM. "CENP-A chromatin disassembly in stressed and senescent murine cells." _Scientific Reports_. 2017;7:42520.
     / *DOI:*: 10.1038/srep42520
     / *PMID:*: 28186195
-    / *Study Design:*: Mouse NIH/3T3 and primary MEFs; genotoxic stress (etoposide, zeocin, mitomycin-C, hydroxyurea) and replicative/nutlin-3a-induced senescence; CENPA localisation by immunofluorescence.
+    / *Study Design:*: Mouse NIH/3T3 and primary MEFs; genotoxic stress (etoposide, zeocin, mitomycin-C, hydroxyurea) and replicative/nutlin-3a-induced senescence; CENPA localization by immunofluorescence.
     / *Key Findings:*:
         - Genotoxic stress → ATM activation → CENPA eviction from centromeres to nucleolar periphery within 8 h (>60% cells by 24 h)
         - Centromeric satellite transcription increases up to 1000-fold and is required for CENPA displacement (not merely a consequence)
@@ -12454,7 +12597,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - Median serum HSATII: 14.75 vs 3.17 copies/µL (cancer vs control)
     / *Conclusion:*: Circulating HSATII RNA is detectable and diagnostically useful in pancreatic cancer. TRAP-ddPCR is currently the only published validated method.
     / *ME/CFS Relevance:*: Provides the technical precedent for spec:hsat2-biomarker-panel. Any ME/CFS EV-HSAT2 study must adapt or validate TRAP-ddPCR from serum to plasma EV fractions. Expected concentrations in ME/CFS are far below the 14.75 copies/µL cancer signal; the method's sensitivity limit (~1 copy/µL) may be a constraint in non-cancer chronic disease settings.
-    / *Limitations:*: Serum not plasma; EV fraction not separately analysed; single group (University of Tokyo / Harvard); not independently replicated in pancreatic cancer or any other disease; small cohorts.
+    / *Limitations:*: Serum not plasma; EV fraction not separately analyzed; single group (University of Tokyo / Harvard); not independently replicated in pancreatic cancer or any other disease; small cohorts.
     / *Certainty:*: 0.65 (cancer biomarker; reasonable n; AUC >0.9; single group; serum vs plasma distinction relevant to ME/CFS protocol)
 
 === CD14+HLA-DR−/low M-MDSCs in Systemic Lupus Erythematosus

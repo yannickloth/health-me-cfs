@@ -19,7 +19,7 @@ Natural killer cell abnormalities represent one of the most replicated findings 
 
 ==== Reduced NK Cell Cytotoxicity
 
-NK cells eliminate virus-infected and malignant cells through direct cytotoxic mechanisms. ME/CFS patients consistently demonstrate decreased cytotoxic activity, with reduced ability to kill target cells (typically K562 erythroleukemia cells in standard assays). The magnitude of this impairment is substantial, with studies reporting statistically significant reductions across multiple cohorts @EatonFitch2019. Lower NK cell function correlates with greater symptom severity in some studies. These abnormalities remain stable over time, suggesting a chronic rather than transient dysfunction. A 2024 meta-analysis of 28 studies encompassing approximately 2,982 subjects quantified this deficit as a large effect (Hedges' g = 0.96, 95% CI: 0.75--1.18), with ME/CFS NK cytotoxicity approximately half that of healthy controls @Baraniuk2024NKmeta.
+NK cells eliminate virus-infected and malignant cells through direct cytotoxic mechanisms. ME/CFS patients consistently demonstrate decreased cytotoxic activity, with reduced ability to kill target cells (typically K562 erythroleukemia cells in standard assays). The magnitude of this impairment is substantial, with studies reporting statistically significant reductions across multiple cohorts @EatonFitch2019. Lower NK cell function correlates with greater symptom severity in some studies. These abnormalities remain stable over time, suggesting a chronic rather than transient dysfunction. A 2024 meta-analysis of 28 studies encompassing approximately 2,982 subjects quantified this deficit as a large effect (Hedges' g = 0.96, 95% CI: 0.75--1.18), with ME/CFS NK cytotoxicity approximately half that of healthy controls @Baraniuk2024NKMeta.
 
 However, the largest multi-site study to date produced a null result. The MCAM (Multi-site Clinical Assessment of ME/CFS) sub-study tested 174 ME/CFS patients and 86 healthy controls from five US specialty clinics using a flow cytometry-based killing assay on overnight-shipped PBMCs @Querec2023MCAM. Mean cytotoxicity was virtually identical: 34.1% in ME/CFS versus 33.6% in controls ($p = 0.79$). No associations with disease severity, illness duration, or onset type were found. Notably, Nancy Klimas---whose foundational 1990 study first documented large NK deficits---is a co-author on this null study, lending it credibility.
 
@@ -60,21 +60,35 @@ These mechanisms may form a self-reinforcing cycle rather than a simple linear c
 
 *(Certainty: 0.50 — mechanistic fit to the most-replicated ME/CFS finding; all supporting evidence is from non-ME/CFS contexts.)*
 
-The NK cytotoxicity deficit (Hedges' g = 0.96; @Baraniuk2024NKmeta) is the most robustly replicated immunological abnormality in ME/CFS, yet its upstream cause remains unresolved. The deficit involves reduced perforin content @Maher2005, impaired degranulation despite intact target recognition, and dysregulated activating receptor expression @Brenu2011 @EatonFitch2019. No single upstream driver has been established.
+The NK cytotoxicity deficit (Hedges' g = 0.96, 95% CI 0.75–1.18, 28 papers, 55 data points @Baraniuk2024NKMeta) is the most robustly replicated immunological abnormality in ME/CFS across 30+ years of research. The deficit involves reduced perforin content @Maher2005, impaired degranulation despite intact target recognition, and dysregulated activating receptor expression @Brenu2011 @EatonFitch2019. No single upstream driver has been established.
 
-Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that exosomal HSAT2/HERV-K transmission to CD33+ myeloid cells induces the full MDSC programme — including arginase-1, IDO1, IL-10, IL-35, and TGFβ. MDSCs suppress NK cells through mechanisms that directly match the ME/CFS NK phenotype:
+Myeloid-derived suppressor cells (MDSCs; CD33+HLA-DR−) are an immunosuppressive myeloid population expanded by viral infection @Agrati2020MDSCCoVID19 and shown to persist at 5 months post-SARS-CoV-2 infection in a human cohort @BeliakovanBethell2022MDSCPostCOVID. In the context of EBV — the most common ME/CFS trigger following infectious mononucleosis — MDSC expansion during acute primary infection has also been documented @Mihatsch2026MDSCMono. MDSCs suppress NK cells through mechanisms that directly match the ME/CFS NK phenotype, with the arginase-1 pathway established in HCV-infected patients @Goh2016HCVMDSCArginase —
 
-    - Arginase-1 depletes arginine required for NK perforin synthesis (explaining the Maher 2005 perforin deficit @Maher2005)
-    - IDO1-driven tryptophan catabolism impairs NKG2D signalling (consistent with Brenu 2011 receptor abnormalities @Brenu2011)
-    - TGFβ directly suppresses NK degranulation and cytotoxic function
-    - IL-10 and IL-35 impair NK activation in a paracrine fashion
+    - Arginase-1 depletes L-arginine required for NK perforin synthesis (explaining the Maher 2005 perforin deficit @Maher2005); Goh et al.\ demonstrated this suppression is cell-contact-independent and reversed by L-arginine supplementation @Goh2016HCVMDSCArginase
+    - Membrane-bound TGFβ1 on M-MDSCs downregulates NKG2D on NK cells, abolishing activation receptor signaling (consistent with Brenu 2011 receptor abnormalities @Brenu2011) @Veglia2021MDSCDiversity
+    - IDO1-driven tryptophan catabolism impairs NK activation in a paracrine fashion
+    - IL-10 and IL-35 further suppress NK cytotoxicity
 
-This positions exosomal HSAT2-driven MDSC expansion as a candidate upstream explanation for the most replicated finding in ME/CFS — a single node reconciling perforin depletion, receptor dysregulation, and metabolic impairment. The chronicity follows from the self-perpetuating exosomal loop @spec:hsat2-exosome-mdsc: as long as HSAT2 EVs circulate, MDSC-mediated NK suppression is continuous.
+Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that exosomal HSAT2/HERV-K transmission to CD33+ myeloid cells induces the full MDSC program — including arginase-1, IDO1, IL-10, IL-35, and TGFβ — proposing a candidate upstream driver for MDSC expansion in post-viral ME/CFS. This positions exosomal HSAT2-driven MDSC expansion as a candidate explanation for the most replicated ME/CFS finding — a single node reconciling perforin depletion, receptor dysregulation, and metabolic impairment. The chronicity follows from the self-perpetuating exosomal loop @spec:hsat2-exosome-mdsc: as long as HSAT2 EVs circulate, MDSC-mediated NK suppression is continuous.
 
 *Falsifiable prediction:* ME/CFS patients with the lowest NK cytotoxicity will have the highest peripheral CD33+HLA-DR− MDSC frequency (Spearman ρ < −0.4). Selective CD33+ depletion from patient PBMCs ex vivo will partially restore NK killing (≥ 20% recovery, K562 assay). If MDSC frequency does not correlate with NK cytotoxicity, the MDSC-bridge model is not supported.
 
-*Limitations:* No ME/CFS data on MDSC frequency. MDSC suppression of NK cells is established in cancer; characterisation in post-viral chronic disease is limited. The upstream exosomal HSAT2 mechanism is speculative in ME/CFS. Not replicated.
+*Limitations:* No ME/CFS-specific data on MDSC frequency exist — the mechanistic chain is imported from HCV @Goh2016HCVMDSCArginase, COVID-19 @BeliakovanBethell2022MDSCPostCOVID @Agrati2020MDSCCoVID19, and cancer contexts. The Beliakova-Bethell 2022 study measured arginase-dependent T-cell suppression; NK cell assays were not performed. EBV-IM MDSC data (Mihatsch 2026) show no ME/CFS follow-up. The upstream exosomal HSAT2 mechanism is speculative in ME/CFS. Not replicated.
 ] <spec:mdsc-nk-bridge>
+
+#hypothesis(title: [Arginine Depletion as the Nutritional Choke-Point Linking MDSC Expansion to NK Metabolic Failure])[
+
+
+*(Certainty: 0.45 — mechanism established by Goh 2016 in chronic viral disease; ME/CFS-specific arginine data absent.)*
+
+Monocytic MDSCs express high arginase-1, which depletes extracellular L-arginine in the tissue microenvironment @Goh2016HCVMDSCArginase. L-arginine is required for NK cell mTOR complex 1 activation; mTOR is required for perforin synthesis, granule polarization, and cytotoxic effector function. In chronic HCV infection, MDSC-driven arginase-1 activity depletes L-arginine and suppresses NK IFN-γ production by approximately 60% — fully reversible by L-arginine supplementation in vitro @Goh2016HCVMDSCArginase. ME/CFS NK cytotoxicity is reduced to approximately 50% of controls in meta-analysis @Baraniuk2024NKMeta.
+
+The arginase-1 mechanism provides a biochemical bridge between MDSC expansion and NK metabolic failure: not direct contact-dependent killing, but enzymatic substrate deprivation. This is clinically significant because: (a) it is theoretically reversible with arginine precursors (L-citrulline, which bypasses intestinal arginine catabolism); (b) plasma arginase-1 activity is measurable as a pharmacodynamic biomarker; (c) the same mechanism operates in iNOS-dependent MDSC suppression documented in SLE @Wang2019SLEMDSC (different enzyme, same substrate), suggesting the L-arginine axis is a shared pathway across multiple MDSC-driven immune dysfunctions.
+
+*Falsifiable prediction:* Plasma L-arginine concentration in ME/CFS will be at least 15% lower than in matched controls and will inversely correlate (Spearman ρ < −0.3) with plasma arginase-1 activity. L-citrulline 6 g/day × 8 weeks will raise plasma L-arginine by ≥ 30% and increase NK IFN-γ ex vivo by ≥ 20% in a n = 20 crossover study. If plasma L-arginine is normal in ME/CFS, the arginase-depletion mechanism is not operative.
+
+*Limitations:* Plasma L-arginine data in ME/CFS have not been systematically reported. Arginase-1 can be elevated by multiple causes beyond MDSC expansion. L-citrulline has a good safety profile but no ME/CFS trial data exist. The iNOS route (SLE context) and arginase-1 route (HCV/post-COVID context) are distinct — the dominant suppression mechanism in ME/CFS is unknown. Replication status: mechanism well-replicated in cancer/HCV; ME/CFS application not replicated.
+] <hyp:arginine-mdsc-nk>
 ==== TRPM3 Ion Channel Dysfunction
 <sec:trpm3-dysfunction>
 
@@ -285,16 +299,32 @@ T cell exhaustion markers (PD-1, Tim-3, CTLA-4) in ME/CFS resemble those seen in
 #speculation(title: [CD8+ T-cell Exhaustion as a Downstream Consequence of Exosomal EV Cargo Rather than Antigen-Driven])[
 
 
-*(Certainty: 0.40 — alternative framing of well-established finding; mechanistic evidence from Ewing sarcoma, not ME/CFS.)*
+*(Certainty: 0.45 — T-cell exhaustion now directly confirmed in ME/CFS at epigenetic level; EV-cargo mechanism remains mechanistic inference from Ewing sarcoma.)*
 
-Standard accounts of T-cell exhaustion assume chronic antigenic stimulation as the upstream driver, but no consistent antigen has been identified in ME/CFS. An alternative mechanism emerges from Evdokimova et al.\ @Evdokimova2019HSAT2exosome: exosomal uptake of HSAT2/HERV-K RNA by CD8+ T-cells directly induces the exhaustion phenotype (CD8+CD25+PD-1+) independently of antigen presentation. This would reframe PD-1 upregulation and exhaustion in ME/CFS as a consequence of exosomal cargo programming rather than a marker of chronic antigen exposure.
+CD8+ T-cell exhaustion in ME/CFS is now directly demonstrated. Iu et al.\ @Iu2024CD8Exhaustion showed by scRNA-seq and ATAC-seq (n = 28 ME/CFS, 30 controls) that CD8+ effector memory T cells carry epigenetically locked exhaustion programs: TBX21/EOMES transcription factor upregulation, TCF7 chromatin closure (the hallmark of terminal exhaustion), and reduced cytotoxic gene expression. Critically, PD-L1/2 and CD86 were upregulated on ME/CFS monocytes — pointing to an immunosuppressive myeloid cell as the immediate suppressor, consistent with the MDSC hypothesis @spec:mdsc-nk-bridge. Eaton-Fitch et al.\ @EatonFitch2024ImmuneExhaustion confirmed shared PD-1/CTLA-4 checkpoint gene dysregulation in both ME/CFS and Long COVID (n = 14/15/18), with ME/CFS showing the more suppressed and Long COVID the more activated exhaustion phenotype.
 
-This matters therapeutically: if exhaustion is antigen-driven, the antigen must be eliminated to reverse it. If exhaustion is EV-cargo-driven, removing or blocking the offending EVs could restore T-cell function without requiring pathogen identification. Checkpoint inhibitors (anti-PD-1) would be expected to provide temporary symptomatic relief at best, with exhaustion returning as long as the exosomal loop persists.
+Standard accounts assume chronic antigenic stimulation as the upstream driver, but no consistent antigen has been identified in ME/CFS. An alternative mechanism emerges from Evdokimova et al.\ @Evdokimova2019HSAT2exosome: exosomal uptake of HSAT2/HERV-K RNA by CD8+ T-cells directly induces the exhaustion phenotype (CD8+CD25+PD-1+) independently of antigen presentation. The PD-L1 upregulation on monocytes observed by Iu et al.\ is mechanistically consistent with an MDSC-like myeloid cell driving checkpoint-mediated T-cell suppression. This would reframe PD-1 upregulation and exhaustion in ME/CFS as a consequence of exosomal cargo programming rather than a marker of chronic antigen exposure.
 
-*Falsifiable prediction:* Plasma EV HSAT2 levels will correlate with CD8+ T-cell PD-1 expression longitudinally within individuals (within-subject r > 0.5 across ≥ 6 timepoints). EV depletion from patient plasma (size-exclusion filtration) before incubation with healthy CD8+ T-cells will abolish or reduce the PD-1 induction compared to unfiltered plasma. If PD-1 induction requires antigen-presenting cells rather than direct EV uptake, antigen-driven exhaustion remains more likely.
+This matters therapeutically: if exhaustion is antigen-driven, the antigen must be eliminated to reverse it. If exhaustion is EV-cargo-driven, removing or blocking the offending EVs could restore T-cell function without requiring pathogen identification. Checkpoint inhibitors (anti-PD-1) would provide temporary symptomatic relief at best, with exhaustion returning as long as the exosomal loop persists.
 
-*Limitations:* Evdokimova finding 4 was demonstrated in vitro with high EV concentrations from cancer cells; whether chronic low-level ME/CFS EVs produce the same phenotype is unknown. The antigen-driven and EV-cargo-driven models are not mutually exclusive — both could contribute. Not replicated in any chronic disease context.
+*Falsifiable prediction:* Plasma EV HSAT2 levels will correlate with CD8+ T-cell PD-1 expression longitudinally within individuals (within-subject r > 0.5 across ≥ 6 timepoints). EV depletion from patient plasma (size-exclusion filtration) before incubation with healthy CD8+ T-cells will abolish or reduce the PD-1 induction compared to unfiltered plasma. If PD-1 induction requires antigen-presenting cells rather than direct EV uptake, antigen-driven exhaustion remains more likely. The epigenetic TCF7 closure (Iu 2024) could be tested for reversibility by EV removal.
+
+*Limitations:* The EV-cargo mechanism was demonstrated in vitro with high EV concentrations from Ewing sarcoma cells; whether chronic low-level ME/CFS EVs produce the same phenotype is unknown. The Iu 2024 PD-L1 finding is on monocytes, not specifically CD33+HLA-DR− MDSCs. The antigen-driven and EV-cargo-driven models are not mutually exclusive — both could contribute. Replication: exhaustion confirmed (Iu 2024, Eaton-Fitch 2024); EV mechanism not replicated in any chronic disease context.
 ] <spec:tcell-exhaust-ev-downstream>
+
+#speculation(title: [PD-L1-High Monocytes in ME/CFS as the M-MDSC Compartment Under a Different Gate])[
+
+
+*(Certainty: 0.40 — phenotypic overlap is mechanistically plausible; direct MDSC gating of the Iu 2024 cohort not yet performed.)*
+
+Iu et al.\ @Iu2024CD8Exhaustion identified PD-L1/2-upregulated monocytes as the proximate suppressor of CD8+ T-cell cytotoxicity in ME/CFS. Monocytic MDSCs (M-MDSCs) are defined as CD33+HLA-DR−/lo CD14+ monocytes @Veglia2021MDSCDiversity — a phenotypically suppressive myeloid population that constitutively upregulates PD-L1 as part of their exhaustion-inducing program. The Iu 2024 "PD-L1-high monocyte" gate and the canonical "CD33+HLA-DR−/lo" M-MDSC gate may describe the same or substantially overlapping cell population using different flow cytometry panels.
+
+If so, the M-MDSC compartment has already been implicitly identified in ME/CFS by Iu et al.\ — simply without MDSC nomenclature. This would: (a) provide the first indirect evidence for M-MDSC expansion in ME/CFS; (b) connect the checkpoint-mediated CD8 exhaustion finding to the HSAT2-exosome-MDSC mechanistic framework @spec:hsat2-exosome-mdsc; and (c) explain why PD-L1 expression on monocytes tracks with ME/CFS severity — it is not an independent suppressive mechanism but a phenotypic readout of MDSC-like monocyte activation.
+
+*Falsifiable prediction:* Re-staining the Iu 2024 cohort PBMC samples with the EuroFlow MDSC panel (CD33, HLA-DR, CD14, CD15) will show ≥ 60% phenotypic overlap between the PD-L1-high monocyte gate and the CD33+HLA-DR−/lo M-MDSC gate. If the two populations are phenotypically distinct (< 30% overlap), they represent separate suppressive mechanisms.
+
+*Limitations:* The Iu 2024 panel did not include HLA-DR or CD33 specifically for MDSC gating; retrospective analysis would require stored samples. PD-L1 upregulation on monocytes occurs in many contexts (LPS, IFN-γ, complement activation) independent of MDSC biology; the overlap is phenotypic rather than functional. Not replicated; this is a testable retroactive hypothesis.
+] <spec:pd-l1-mdsc-overlap>
 Two recent single-cell transcriptomic studies strengthen the T cell exhaustion
 finding.  Mayer et al.\ (2025) constructed a scRNA-seq atlas of 336,269
 T lymphoid cells from 28 ME/CFS patients and 30 controls, demonstrating
@@ -303,7 +333,7 @@ amplified by exercise provocation @Mayer2025Tcellexhaustion
 (Appendix @app:research-registry,
 Section @sec:registry-tcell-exhaustion).  Elahi et al.\ (2026) applied
 scRNA-seq to long COVID–ME/CFS patients 12 months post-infection, finding
-persistent immune remodelling—monocyte polarisation, NK cell dysfunction,
+persistent immune remodeling—monocyte polarisation, NK cell dysfunction,
 and T cell exhaustion—absent in recovered
 individuals @Elahi2026singlecell
 (Section @sec:registry-elahi-singlecell).  Cell-free RNA profiling
@@ -407,7 +437,7 @@ The NIH study concluded that this B cell pattern “suggested chronic antigenic 
     - Potential for developing autoantibodies through aberrant B cell selection
 
 #achievement(title: [Distinct Proteomic Signatures Identify Long COVID Subtypes])[
-Gao et al. @Gao2025LongCovidBiomarkers identified heterogeneous immune and proteomic signatures across Long COVID manifestations in validated Swedish and UK multi-cohort data. Compared to fully recovered individuals, long COVID patients showed impaired SARS-CoV-2 neutralising antibody responses and subtle CD8#super[+] T cell exhaustion (elevated PD-1 and TIM-3 co-inhibitory receptors on virus-specific cells). A distinct plasma proteomic signature—CCL3, CD40, IKBKG, IL-18, and IRAK1—characterised the breathlessness subtype, pointing to apoptotic-inflammatory pathways and platelet activation dysregulation as organ-specific mechanisms. These findings support stratification of Long COVID (and by extension, post-COVID ME/CFS) into immunologically distinct endotypes with different therapeutic requirements.
+Gao et al. @Gao2025LongCovidBiomarkers identified heterogeneous immune and proteomic signatures across Long COVID manifestations in validated Swedish and UK multi-cohort data. Compared to fully recovered individuals, long COVID patients showed impaired SARS-CoV-2 neutralising antibody responses and subtle CD8#super[+] T cell exhaustion (elevated PD-1 and TIM-3 co-inhibitory receptors on virus-specific cells). A distinct plasma proteomic signature—CCL3, CD40, IKBKG, IL-18, and IRAK1—characterized the breathlessness subtype, pointing to apoptotic-inflammatory pathways and platelet activation dysregulation as organ-specific mechanisms. These findings support stratification of Long COVID (and by extension, post-COVID ME/CFS) into immunologically distinct endotypes with different therapeutic requirements.
 Study: (multi-cohort, Nature Immunology, multi-cohort validated, certainty: 0.80).
 ] <ach:gao2025-long-covid-biomarkers>
 
@@ -430,7 +460,7 @@ In classical immunology, repertoire skewing toward a specific IGHV gene indicate
 Several explanations merit investigation:
 
     - *Preferential survival:* Cytokine signals (e.g., BAFF) in the ME/CFS milieu may preferentially support survival of naïve B cells bearing IGHV3-30 BCRs without triggering activation.
-    - *Tonic BCR signalling:* IGHV3-30-expressing B cells may receive constitutive low-level signalling through polyreactivity with self-antigens or microbiome-derived molecules, keeping them alive longer without initiating a germinal centre response.
+    - *Tonic BCR signaling:* IGHV3-30-expressing B cells may receive constitutive low-level signaling through polyreactivity with self-antigens or microbiome-derived molecules, keeping them alive longer without initiating a germinal centre response.
     - *Abortive immune activation:* B cells receive activation signals but lack the metabolic resources to complete germinal centre entry---connecting to the immune cell energy starvation hypothesis (Hypothesis @hyp:immune-energy-starvation-niche). This would explain both the repertoire bias and the IgM predominance (no energy for class switching).
     - *Severity-dependent loss:* The absence of IGHV3-30 skewing in severe patients may indicate that the skewed B cell population is eventually depleted by sustained immune exhaustion, mirroring the progression from B cell subset abnormalities (Walitt 2024) to severe B cell depletion (Section @sec:exhausted-surveillance).
 
@@ -443,7 +473,7 @@ The IGHV3-30 finding is notable because it is one of very few immune findings re
 
 The IGHV3-30 skewing without clonal expansion, somatic hypermutation, or class switching (Section @sec:ighv3-30) may represent B cells that receive an activation signal but cannot _complete_ the response. B cell activation requires massive metabolic upregulation: glycolysis must increase several-fold to fuel proliferation, and germinal centre transit demands sustained ATP production for iterative rounds of mutation and selection.
 
-If ME/CFS immune cells have impaired bioenergetics---as documented for T cells by the Hanson group @Mandarano2020 and consistent with TRPM3-mediated calcium signalling defects @Sasso2026trpm3\---B cells may lack the metabolic resources to complete activation. The result:
+If ME/CFS immune cells have impaired bioenergetics---as documented for T cells by the Hanson group @Mandarano2020 and consistent with TRPM3-mediated calcium signaling defects @Sasso2026trpm3\---B cells may lack the metabolic resources to complete activation. The result:
 
     - Antigen engages IGHV3-30-bearing naïve B cells (repertoire skewing occurs)
     - B cells initiate activation but cannot sustain the metabolic demands of germinal centre entry
@@ -590,32 +620,32 @@ The passive transfer triad supports a peripheral mechanism for IgG-mediated pain
 
 This model provides a mechanistic account of pain hypersensitivity in long COVID and potentially ME/CFS that is:
 
-    - Independent of central sensitisation (Mignolet 2026: no astrogliosis, no cognitive effects)
+    - Independent of central sensitization (Mignolet 2026: no astrogliosis, no cognitive effects)
     - Dependent on intact Fc-region function (abolition by papain digestion)
     - Consistent with small fiber neuropathy findings in ME/CFS (see @sec:sfn)
     - Consistent with the non-length-dependent SFN pattern indicating DRG-level pathology @McAlpine2024sfnCOVID
 
-The dissociation between pain transfer (consistent across studies) and cognitive transfer (absent in Mignolet 2026; present for balance/coordination in Santos Guedes 2024) suggests that brain fog in long COVID and ME/CFS may not share the same peripheral IgG pathway as pain sensitisation, or that longer observation windows or different antigens are required.
+The dissociation between pain transfer (consistent across studies) and cognitive transfer (absent in Mignolet 2026; present for balance/coordination in Santos Guedes 2024) suggests that brain fog in long COVID and ME/CFS may not share the same peripheral IgG pathway as pain sensitization, or that longer observation windows or different antigens are required.
 
 *Testable prediction:* ME/CFS patients with prominent pain and allodynia should show higher DRG-binding IgG by ex vivo staining of post-mortem ganglia than ME/CFS patients with predominantly fatigability and cognitive phenotypes. DRG-binding IgG levels should correlate with intraepidermal nerve fiber density (IENFD) reduction on skin biopsy.
 
 *Treatment implication:* If pain is IgG-mediated via DRG targeting, therapies removing or neutralising IgG (immunoadsorption, IVIG, plasmapheresis) should preferentially benefit pain-predominant ME/CFS patients. Single-course apheresis may not suffice given 2-year IgG persistence (Chen 2026).
 
-*Limitation:* Primary antibody targets in DRG remain uncharacterised in all three studies. The Germain 2025 null finding (n=172; no autoantibody signal on 7,542-antigen REAP+Luminex panel) @Germain2025autoantibody may indicate that DRG-binding IgG targets conformational or intracellular epitopes not captured by standard antigen arrays. Subgroup heterogeneity is expected: not all ME/CFS patients necessarily carry DRG-binding IgG.
+*Limitation:* Primary antibody targets in DRG remain uncharacterized in all three studies. The Germain 2025 null finding (n=172; no autoantibody signal on 7,542-antigen REAP+Luminex panel) @Germain2025autoantibody may indicate that DRG-binding IgG targets conformational or intracellular epitopes not captured by standard antigen arrays. Subgroup heterogeneity is expected: not all ME/CFS patients necessarily carry DRG-binding IgG.
 
 Study: (mechanistic synthesis across three passive transfer studies; certainty: 0.45, peripheral targeting established, antigen identity unknown, ME/CFS-specific evidence indirect).
 ] <hyp:drg-igg-pain-axis>
 
 #hypothesis(title: [DRG-IgG as Afferent-Gain Amplifier: A Peripheral Mechanism for PEM])[
-The dissociation between IgG-transferred pain and absent cognitive effects in mice (Mignolet 2026 @Mignolet2026passiveTransferLC) suggests that DRG-bound IgG may function as an *afferent-gain amplifier*: by sensitising nociceptive and proprioceptive neurons below their normal activation thresholds, it causes normal interoceptive signals from exercising muscle (lactate, H+, ATP, bradykinin) to be over-reported to brainstem and hypothalamus, generating exaggerated sickness behaviour, autonomic switching, and fatigue signalling — without central neuroinflammation.
+The dissociation between IgG-transferred pain and absent cognitive effects in mice (Mignolet 2026 @Mignolet2026passiveTransferLC) suggests that DRG-bound IgG may function as an *afferent-gain amplifier*: by sensitising nociceptive and proprioceptive neurons below their normal activation thresholds, it causes normal interoceptive signals from exercising muscle (lactate, H+, ATP, bradykinin) to be over-reported to brainstem and hypothalamus, generating exaggerated sickness behavior, autonomic switching, and fatigue signaling — without central neuroinflammation.
 
-Under this model, the hallmark ME/CFS feature of post-exertional malaise (PEM) reflects not a failure of central energy generation but a peripheral afferent overdrive that is amplified by IgG-mediated DRG sensitisation. Autonomic symptoms (POTS, orthostatic intolerance) may also arise from over-reporting by afferents in cardiovascular and baroreceptor circuits.
+Under this model, the hallmark ME/CFS feature of post-exertional malaise (PEM) reflects not a failure of central energy generation but a peripheral afferent overdrive that is amplified by IgG-mediated DRG sensitization. Autonomic symptoms (POTS, orthostatic intolerance) may also arise from over-reporting by afferents in cardiovascular and baroreceptor circuits.
 
-*Testable prediction:* Quantitative sensory testing (QST) thresholds at baseline and after standardised exertion should show greater drops in IgG-DRG-positive ME/CFS patients than in IgG-DRG-negative patients. Microneurography (C-fibre spontaneous discharge frequency) should correlate with PEM severity within patients.
+*Testable prediction:* Quantitative sensory testing (QST) thresholds at baseline and after standardized exertion should show greater drops in IgG-DRG-positive ME/CFS patients than in IgG-DRG-negative patients. Microneurography (C-fibre spontaneous discharge frequency) should correlate with PEM severity within patients.
 
 *Treatment implication:* If PEM is partly afferent-gain-mediated, therapies reducing DRG-bound IgG (immunoadsorption, IVIG, FcRn antagonists) should attenuate PEM frequency and severity, not just pain scores. Strict pacing reduces the afferent overdrive stimulus; IgG-reduction reduces the gain — they should be complementary.
 
-*Limitation:* Mice cannot report fatigue verbally; whether the passive-transfer model produces PEM-equivalent energy limitation is unknown and requires specialised behavioural assays (forced swim, running wheel after standardised exertion). The ME/CFS-specific applicability of the long COVID passive transfer model remains to be established by direct experiments in ME/CFS-derived IgG.
+*Limitation:* Mice cannot report fatigue verbally; whether the passive-transfer model produces PEM-equivalent energy limitation is unknown and requires specialised behavioral assays (forced swim, running wheel after standardized exertion). The ME/CFS-specific applicability of the long COVID passive transfer model remains to be established by direct experiments in ME/CFS-derived IgG.
 
 Study: (cross-paper synthesis, Mignolet 2026 + McAlpine 2024 + interoception literature; certainty: 0.45, coherent mechanistic hypothesis but untested in ME/CFS-specific passive transfer; partially supported).
 ] <hyp:drg-igg-pem-amplifier>
@@ -623,7 +653,7 @@ Study: (cross-paper synthesis, Mignolet 2026 + McAlpine 2024 + interoception lit
 #hypothesis(title: [Two-Compartment ME/CFS: Peripheral IgG--DRG Axis Versus Central Brain-Fog Mechanism])[
 The cognitive sparing in the Mignolet 2026 passive transfer model @Mignolet2026passiveTransferLC provides a mechanistic argument for a *two-compartment disease* structure: (1) a peripheral compartment in which circulating IgG accesses and sensitises DRG via the leaky fenestrated capillaries of ganglia (outside the blood-brain barrier), driving pain, autonomic dysfunction, and PEM; and (2) a central compartment in which brain-fog and cognitive symptoms arise from non-IgG mechanisms (endothelial mitochondrial damage @Liu2026IgGcomplexes, microglial activation, astrocytic energy failure, or HPA-axis disruption).
 
-Under this model, treatments that remove IgG (immunoadsorption, IVIG, FcRn antagonists) should preferentially improve sensory-autonomic-PEM phenotypes but not cognitive symptoms, while treatments targeting central mechanisms (anti-neuroinflammatory, BH4-restoration, HPA normalisation) should preferentially improve cognition. Pooling cognitive-dominant and sensory-dominant phenotypes in undifferentiated ME/CFS trials will dilute treatment-response signals.
+Under this model, treatments that remove IgG (immunoadsorption, IVIG, FcRn antagonists) should preferentially improve sensory-autonomic-PEM phenotypes but not cognitive symptoms, while treatments targeting central mechanisms (anti-neuroinflammatory, BH4-restoration, HPA normalization) should preferentially improve cognition. Pooling cognitive-dominant and sensory-dominant phenotypes in undifferentiated ME/CFS trials will dilute treatment-response signals.
 
 *Testable prediction:* In an IVIG or efgartigimod trial stratified by cognitive vs sensory-autonomic phenotype, sensory-autonomic patients show $gt.eq 30%$ improvement on pain and autonomic measures but $lt 10%$ on cognitive measures, while cognitive-dominant patients show the reverse pattern.
 
@@ -637,7 +667,7 @@ Study: (mechanistic inference from Mignolet 2026 cognitive-sparing finding; cert
 #speculation(title: [Fc-Glycosylation Profile Gates IgG Pathogenicity at the DRG])[
 IgG effector function depends critically on the N-glycan attached to the Fc region: pro-inflammatory glycoforms (low galactosylation, low sialylation, high fucosylation — "G0F" forms) bind FcγRIIIa with high affinity and activate macrophages and satellite glial cells (SGC) in DRG. Mignolet et al.\ (2026) @Mignolet2026passiveTransferLC and Goebel et al.\ (2021) @Goebel2021passiveTransferFM both show that Fc-fragment digestion abolishes pain transfer, confirming effector function is required. This predicts that antibody titre alone is a poor predictor of pathogenicity, and that the Fc glycoprofile determines whether DRG-binding IgG activates SGCs and sensitises neurons.
 
-Pro-inflammatory IgG glycoforms (elevated G0F, reduced sialylation) are documented in rheumatoid arthritis, lupus, COVID-19, and ageing. If ME/CFS patients carry higher G0F IgG fractions, this could explain DRG sensitisation at titers that would be non-pathogenic in healthy controls — and could account for why REAP and CellTrend ELISA studies (which measure antibody binding, not effector function) give inconsistent results.
+Pro-inflammatory IgG glycoforms (elevated G0F, reduced sialylation) are documented in rheumatoid arthritis, lupus, COVID-19, and ageing. If ME/CFS patients carry higher G0F IgG fractions, this could explain DRG sensitization at titers that would be non-pathogenic in healthy controls — and could account for why REAP and CellTrend ELISA studies (which measure antibody binding, not effector function) give inconsistent results.
 
 *Testable prediction:* Fc-glycoprofiling by mass spectrometry of IgG fractions that successfully transfer pain in mice will show significantly higher G0F and lower G2F fractions than non-transferring fractions from healthy controls. ME/CFS patients should have lower sialylation index than age-matched controls.
 
@@ -669,15 +699,15 @@ These questions are resolvable by stratified clinical trials in IgG-DRG-positive
 ] <q:fcrn-antagonists-mecfs>
 
 #open-question(title: [DRG-IgG Immunohistochemistry as a Stratification Biomarker])[
-A practical near-term research priority is to develop and validate a DRG-IgG immunohistochemistry (IHC) assay: patient serum or IgG fraction applied to fixed rodent DRG sections, stained with fluorescent anti-human IgG, and scored for binding intensity, spatial pattern (neuronal soma vs satellite glial cells), and co-localisation with neuronal markers (CGRP for peptidergic C-fibres, IB4 for non-peptidergic C-fibres, NF200 for Aδ fibres).
+A practical near-term research priority is to develop and validate a DRG-IgG immunohistochemistry (IHC) assay: patient serum or IgG fraction applied to fixed rodent DRG sections, stained with fluorescent anti-human IgG, and scored for binding intensity, spatial pattern (neuronal soma vs satellite glial cells), and co-localization with neuronal markers (CGRP for peptidergic C-fibres, IB4 for non-peptidergic C-fibres, NF200 for Aδ fibres).
 
-Such an assay, if standardised, could:
+Such an assay, if standardized, could:
     - Classify ME/CFS patients as IgG-DRG-positive vs IgG-DRG-negative to enrich clinical trials
     - Correlate IgG-DRG positivity with IENFD (skin biopsy), QST profiles, and autonomic test abnormalities
     - Serve as a pharmacodynamic biomarker: change in IgG-DRG intensity before/after immunoadsorption or FcRn antagonism
     - Provide retrospective stratification of existing trial datasets (Stein 2025, Fluge 2025, EXTINCT)
 
-The passive transfer triad (Goebel 2021, Mignolet 2026, Chen 2026) already uses this methodology; translation to a clinical biomarker assay requires standardisation and validation in a prospective cohort.
+The passive transfer triad (Goebel 2021, Mignolet 2026, Chen 2026) already uses this methodology; translation to a clinical biomarker assay requires standardization and validation in a prospective cohort.
 ] <q:drg-igg-biomarker>
 
 *Other Receptor Autoantibodies*
@@ -734,9 +764,9 @@ The immune abnormalities documented in the preceding sections---NK cell dysfunct
 
 Rajeevan et al.\ (2018) measured leukocyte telomere length in 639 CFS patients (Wichita and Georgia cohorts, Fukuda criteria) and found telomeres 957 bp shorter than age-matched controls---equivalent to 10.1--20.5 years of additional biological aging ($p = 0.0017$) @Rajeevan2018telomere. The effect was largest in females under 45, the demographic with highest ME/CFS prevalence. Telomere shortening was independent of depression, BMI, and other confounders. This remains the largest study of biological aging markers in ME/CFS.
 
-Luo et al.\ (2025) provide a framework connecting immunosenescence to ME/CFS physical fatigue through chronic inflammation $arrow.r$ mitochondrial ATP failure $arrow.r$ muscle catabolism @Luo2025MECFSimmunophysiology. They propose that $beta_2$-adrenergic receptor dysfunction amplifies this cascade: sympathetic signalling normally modulates immune cell activation, but desensitised $beta_2$-AR allows unchecked immune activation and SASP cytokine production (IL-6, TNF-$alpha$, MCP-1). The senescence-associated secretory phenotype (SASP) sustains fatigue through direct metabolic effects on skeletal muscle.
+Luo et al.\ (2025) provide a framework connecting immunosenescence to ME/CFS physical fatigue through chronic inflammation $arrow.r$ mitochondrial ATP failure $arrow.r$ muscle catabolism @Luo2025MECFSimmunophysiology. They propose that $beta_2$-adrenergic receptor dysfunction amplifies this cascade: sympathetic signaling normally modulates immune cell activation, but desensitized $beta_2$-AR allows unchecked immune activation and SASP cytokine production (IL-6, TNF-$alpha$, MCP-1). The senescence-associated secretory phenotype (SASP) sustains fatigue through direct metabolic effects on skeletal muscle.
 
-Xu et al.\ (2026) extend this framework to cognitive dysfunction via an immune-vascular-cognitive axis: immunosenescence impairs endothelial NO synthesis and cerebral blood flow regulation, producing brain hypoperfusion and blood-brain barrier compromise @Xu2026immunosenescenceCognitive. This mechanism may explain why brain fog severity in ME/CFS correlates poorly with peripheral inflammatory markers (Chapter @ch:neurological) but strongly with central metabolic dysfunction---the immunosenescence effect operates through vascular intermediaries rather than direct cytokine signalling.
+Xu et al.\ (2026) extend this framework to cognitive dysfunction via an immune-vascular-cognitive axis: immunosenescence impairs endothelial NO synthesis and cerebral blood flow regulation, producing brain hypoperfusion and blood-brain barrier compromise @Xu2026immunosenescenceCognitive. This mechanism may explain why brain fog severity in ME/CFS correlates poorly with peripheral inflammatory markers (Chapter @ch:neurological) but strongly with central metabolic dysfunction---the immunosenescence effect operates through vascular intermediaries rather than direct cytokine signaling.
 
 #limitation(title: [Immunosenescence Evidence Remains Indirect])[
 Telomere shortening @Rajeevan2018telomere is a cross-sectional finding using Fukuda criteria (less specific than ICC/CCC). Newer epigenetic aging clocks have not been applied to large ME/CFS cohorts (see Chapter @ch:genetics-epigenetics Section @sec:epigenetics). Immunosenescence as a framework @Luo2025MECFSimmunophysiology @Xu2026immunosenescenceCognitive is review-level synthesis, not original experimental data. The temporal relationship is unknown: immune aging could be cause, consequence, or parallel effect of ME/CFS pathophysiology.
@@ -745,7 +775,7 @@ Telomere shortening @Rajeevan2018telomere is a cross-sectional finding using Fuk
 === The mtDNA--cGAS-STING Inflammaging Pathway
 <sec:mtdna-cgas-sting>
 
-A critical molecular bridge between the mitochondrial dysfunction documented in Chapter @ch:energy-metabolism and the immune activation described above is the cGAS-STING pathway. Kim et al.\ (2023) review the mechanisms by which damaged mitochondrial DNA escapes into the cytosol and activates innate immune signalling @Kim2023cGASSTING.
+A critical molecular bridge between the mitochondrial dysfunction documented in Chapter @ch:energy-metabolism and the immune activation described above is the cGAS-STING pathway. Kim et al.\ (2023) review the mechanisms by which damaged mitochondrial DNA escapes into the cytosol and activates innate immune signaling @Kim2023cGASSTING.
 
 The pathway operates through VDAC oligomerisation: when mitochondria are stressed (by ROS, calcium overload, or membrane potential loss), voltage-dependent anion channels (VDAC1) oligomerise to form pores in the outer mitochondrial membrane large enough for mtDNA fragments to escape. Once in the cytosol, mtDNA binds cyclic GMP-AMP synthase (cGAS), which produces the second messenger 2'3'-cGAMP. cGAMP activates stimulator of interferon genes (STING), triggering type I interferon production and NF-$kappa$B-dependent pro-inflammatory gene expression @Kim2023cGASSTING.
 
@@ -756,14 +786,14 @@ In the ME/CFS context, this pathway provides a mechanistic link from sympathetic
 + Chronic sympathetic tone $arrow.r$ NADPH oxidase activation $arrow.r$ elevated mitochondrial ROS @Errico2025ANSaging.
 + ROS damage $arrow.r$ mtDNA mutations and strand breaks $arrow.r$ VDAC oligomerisation $arrow.r$ mtDNA escape.
 + Cytosolic mtDNA $arrow.r$ cGAS-STING $arrow.r$ type I IFN + NF-$kappa$B $arrow.r$ sustained inflammaging.
-+ Oxidised mtDNA $arrow.r$ NLRP3 $arrow.r$ IL-1$beta$ $arrow.r$ sickness behaviour, fatigue.
++ Oxidised mtDNA $arrow.r$ NLRP3 $arrow.r$ IL-1$beta$ $arrow.r$ sickness behavior, fatigue.
 
 This chain connects the autonomic aging phenotype (Section @sec:ans-aging-phenotype of Chapter @ch:cardiovascular) to the innate immune findings documented earlier in this chapter.
 
 #speculation(title: [The mtDNA--cGAS-STING Loop as a Chronicity Mechanism in ME/CFS])[
 *Certainty: 0.40.* If mitochondrial damage in ME/CFS continuously releases mtDNA fragments that activate cGAS-STING, this creates a self-reinforcing loop: inflammation $arrow.r$ mitochondrial damage $arrow.r$ mtDNA release $arrow.r$ more inflammation. The loop would maintain chronic immune activation even after the initial trigger (viral infection, autonomic crisis) resolves. Circulating cell-free mtDNA has been measured in Long COVID (Matits et al.\ 2026, Section @sec:cfmtdna-mitophagy of Chapter @ch:energy-metabolism) but not alongside cGAS-STING activation markers in the same ME/CFS cohort.
 
-*Testable predictions:* (a) Circulating mtDNA levels should correlate with STING phosphorylation and IRF3 activation in ME/CFS PBMCs. (b) Improvements in mitochondrial quality control (via mitophagy enhancement or reduced ROS) should decrease interferon-stimulated gene (ISG) expression. (c) STING inhibitors (H-151, currently preclinical) should reduce both inflammatory markers and fatigue severity in ME/CFS patients with elevated cGAS-STING signalling.
+*Testable predictions:* (a) Circulating mtDNA levels should correlate with STING phosphorylation and IRF3 activation in ME/CFS PBMCs. (b) Improvements in mitochondrial quality control (via mitophagy enhancement or reduced ROS) should decrease interferon-stimulated gene (ISG) expression. (c) STING inhibitors (H-151, currently preclinical) should reduce both inflammatory markers and fatigue severity in ME/CFS patients with elevated cGAS-STING signaling.
 
 *Limitation:* The cGAS-STING pathway is well-established in preclinical models @Kim2023cGASSTING but has not been directly measured in ME/CFS patients. The connection from sympathetic overdrive to mtDNA release is mechanistically plausible but builds on the theoretical ANS-aging framework @Errico2025ANSaging rather than direct experimental data. Not yet replicated in ME/CFS.
 ] <spec:mtdna-cgas-sting-loop>
@@ -901,10 +931,10 @@ IL-10 is a potent immunosuppressive cytokine with variable findings in ME/CFS. L
 
 TGF-$beta$ is the most consistently elevated cytokine in ME/CFS. A systematic review of 38 papers and 77 cytokines found TGF-$beta$ elevated in 5 of 8 studies that measured it (63%)---the highest consistency of any cytokine @Blundell2015cytokines. The Montoya et al.\ Stanford study (192 patients, 392 controls, 51 cytokines) confirmed this elevation ($p = 0.0052$), with TGF-$beta$ and resistin being the only two analytes consistently different at the population level @Montoya2017.
 
-TGF-$beta$ has immunosuppressive and tissue remodeling functions. This elevation may represent an attempt to control inflammation, though chronic elevation can promote fibrosis. TGF-$beta$ is also important for regulatory T cell development. Critically, TGF-$beta$ is a potent suppressor of NK cell cytotoxicity through multiple established mechanisms: direct transcriptional repression of perforin (approximately 57% reduction) and granzyme B (approximately 38% reduction) via Smad pathway signalling, inhibition of mTOR (reducing NK cell metabolic capacity), and downregulation of activating receptors NKG2D and NKp30.
+TGF-$beta$ has immunosuppressive and tissue remodeling functions. This elevation may represent an attempt to control inflammation, though chronic elevation can promote fibrosis. TGF-$beta$ is also important for regulatory T cell development. Critically, TGF-$beta$ is a potent suppressor of NK cell cytotoxicity through multiple established mechanisms: direct transcriptional repression of perforin (approximately 57% reduction) and granzyme B (approximately 38% reduction) via Smad pathway signaling, inhibition of mTOR (reducing NK cell metabolic capacity), and downregulation of activating receptors NKG2D and NKp30.
 
 #limitation(title: [TGF-$beta$ Elevation: Centrifugation Artifact Concern])[
-Roerink et al.\ (2018) raised a serious methodological challenge: TGF-$beta$1 measurements in ME/CFS may be confounded by platelet contamination during sample processing @Roerink2018TGFartifact. Platelets contain 40--100 times more TGF-$beta$1 than other cell types. Lower centrifuge g-force produces higher platelet activation (p-selectin correlated $r = 0.79$ with TGF-$beta$1), which artificially inflates measured concentrations. After controlling for platelet contamination in their cohort, no authentic TGF-$beta$1 elevation distinguished ME/CFS patients from controls. This methodological concern applies to all prior studies that did not standardise centrifugation protocols or measure platelet activation markers. The Montoya 2017 study used standardised multiplex plasma assays and remains the strongest evidence that TGF-$beta$ elevation is real, but even this single-site study cannot fully exclude centrifugation effects.
+Roerink et al.\ (2018) raised a serious methodological challenge: TGF-$beta$1 measurements in ME/CFS may be confounded by platelet contamination during sample processing @Roerink2018TGFartifact. Platelets contain 40--100 times more TGF-$beta$1 than other cell types. Lower centrifuge g-force produces higher platelet activation (p-selectin correlated $r = 0.79$ with TGF-$beta$1), which artificially inflates measured concentrations. After controlling for platelet contamination in their cohort, no authentic TGF-$beta$1 elevation distinguished ME/CFS patients from controls. This methodological concern applies to all prior studies that did not standardize centrifugation protocols or measure platelet activation markers. The Montoya 2017 study used standardized multiplex plasma assays and remains the strongest evidence that TGF-$beta$ elevation is real, but even this single-site study cannot fully exclude centrifugation effects.
 ]
 
 #hypothesis(title: [TGF-$beta$ as Unifying Explanation for the Two Most Replicated Immune Findings])[
@@ -1050,7 +1080,7 @@ If MAIT cells have been displaced from mucosal tissues into the blood, other tis
 
 This framework provides an alternative explanation for the Paradox of Invisible Immunity (Section @oq:invisible-immunity): blood looks "normal" because the cells in blood _are_ normal---they are simply not the ones doing the work. The pathology is in the tissues, where immune niches have been disrupted and resident cells are absent.
 
-*Testable predictions:* (a) Tissue biopsies (gut mucosa, muscle) from ME/CFS patients should show _depleted_ tissue-resident immune populations corresponding to the cell types found elevated in blood; (b) MAIT cell tissue frequency should inversely correlate with blood MAIT frequency within individual patients; (c) interventions that restore mucosal integrity (e.g., gut barrier repair) should normalise MAIT cell distribution.
+*Testable predictions:* (a) Tissue biopsies (gut mucosa, muscle) from ME/CFS patients should show _depleted_ tissue-resident immune populations corresponding to the cell types found elevated in blood; (b) MAIT cell tissue frequency should inversely correlate with blood MAIT frequency within individual patients; (c) interventions that restore mucosal integrity (e.g., gut barrier repair) should normalize MAIT cell distribution.
 
 *Falsification:* MAIT cell elevation is not replicated, or tissue biopsies show normal resident immune populations despite elevated blood MAIT cells.
 ] <spec:immune-diaspora>
@@ -1296,7 +1326,7 @@ Study: (tissue biopsy + PET imaging, $n=5$ biopsy participants, Science Translat
 
 *SARS-CoV-2 PKR-ISR Antagonism and Long COVID Implications*
 
-SARS-CoV-2 actively suppresses the integrated stress response (ISR) during active infection: the nucleocapsid protein domain N2b sequesters double-stranded RNA (dsRNA), preventing PKR (protein kinase R) and RIG-I receptor activation, abolishing stress granule formation and ISR-induced translational arrest @Aloise2023CoVPKR. This ISR suppression is a fundamental viral immune evasion strategy conserved across coronavirus species. In the context of viral persistence (documented in gut tissue by Peluso et al.\ above), ongoing N2b-mediated PKR suppression could chronically disable the ISR response that would otherwise limit viral spread and trigger cellular repair programmes.
+SARS-CoV-2 actively suppresses the integrated stress response (ISR) during active infection: the nucleocapsid protein domain N2b sequesters double-stranded RNA (dsRNA), preventing PKR (protein kinase R) and RIG-I receptor activation, abolishing stress granule formation and ISR-induced translational arrest @Aloise2023CoVPKR. This ISR suppression is a fundamental viral immune evasion strategy conserved across coronavirus species. In the context of viral persistence (documented in gut tissue by Peluso et al.\ above), ongoing N2b-mediated PKR suppression could chronically disable the ISR response that would otherwise limit viral spread and trigger cellular repair programs.
 
 Variant-specific differences in ISR antagonism may partly explain differential long COVID rates. Christ et al.\ found that Omicron nucleocapsid protein less efficiently suppresses stress granule formation than ancestral or Delta variants --- Omicron-infected cells formed stress granules in ~60% of cells versus ~5% for ancestral SARS-CoV-2 @Christ2023CoVISRVariants. If higher ISR activation during acute Omicron infection reduces viral establishment in tissue reservoirs, this could contribute to the lower long COVID incidence observed after Omicron waves, though this connection remains speculative and unmeasured.
 
@@ -1330,7 +1360,7 @@ evidence that SARS-CoV-2 persists for months to years in tissue reservoirs in af
 individuals, propose that this persistence drives ongoing immune activation and symptoms,
 and identify critical design considerations for reservoir-targeting trials: mechanism of
 action of candidate therapeutics, participant selection by reservoir biomarker burden,
-treatment duration, standardised measurables, and potential combination approaches.
+treatment duration, standardized measurables, and potential combination approaches.
 The failure of a 15-day nirmatrelvir/ritonavir RCT to improve symptoms is reinterpreted
 as evidence that active replication is not the primary target—stable viral reservoirs
 require a different therapeutic strategy, drawing lessons from HIV and hepatitis C
@@ -1579,7 +1609,7 @@ _Giardia_ colonises the duodenum and proximal jejunum — the anatomical site of
 #speculation(title: [Post-Parasitic Mast Cell Priming as MCAS–ME/CFS Overlap Driver])[
 *Certainty: 0.20.* Based on known Giardia–mast cell biology and the documented MCAS–ME/CFS comorbidity, but no study has examined mast cell phenotype or tryptase levels in the Bergen cohort or any post-parasitic ME/CFS population.
 
-Acute _Giardia_ infection induces significant intestinal mast cell degranulation as part of the innate immune response to luminal parasites. We speculate that in a subset of susceptible individuals, this acute mast cell activation permanently primes intestinal mast cell populations toward hyper-reactivity: a lowered degranulation threshold and elevated baseline tryptase. This post-parasitic mast cell sensitisation would clinically manifest as Mast Cell Activation Syndrome (MCAS, @sec:allergies-mast-cells), which carries substantial phenotypic overlap with ME/CFS (fatigue, cognitive dysfunction, orthostatic intolerance, chemical sensitivities). Under this model, a proportion of post-Giardia ME/CFS patients may be post-parasitic MCAS cases in which mast cell mediators — histamine, prostaglandins, PAF — drive autonomic dysfunction, neuroinflammation, and immune dysregulation. The treatment implication is testable: mast cell stabilisers (cromolyn sodium, ketotifen) and combined H1/H2 antihistamine blockade represent low-risk interventions that could be trialled in post-parasitic ME/CFS patients with clinical MCAS features.
+Acute _Giardia_ infection induces significant intestinal mast cell degranulation as part of the innate immune response to luminal parasites. We speculate that in a subset of susceptible individuals, this acute mast cell activation permanently primes intestinal mast cell populations toward hyper-reactivity: a lowered degranulation threshold and elevated baseline tryptase. This post-parasitic mast cell sensitization would clinically manifest as Mast Cell Activation Syndrome (MCAS, @sec:allergies-mast-cells), which carries substantial phenotypic overlap with ME/CFS (fatigue, cognitive dysfunction, orthostatic intolerance, chemical sensitivities). Under this model, a proportion of post-Giardia ME/CFS patients may be post-parasitic MCAS cases in which mast cell mediators — histamine, prostaglandins, PAF — drive autonomic dysfunction, neuroinflammation, and immune dysregulation. The treatment implication is testable: mast cell stabilisers (cromolyn sodium, ketotifen) and combined H1/H2 antihistamine blockade represent low-risk interventions that could be trialled in post-parasitic ME/CFS patients with clinical MCAS features.
 
 *Testable predictions:* (1) Serum tryptase and urinary prostaglandin D₂ metabolites are elevated in post-Giardia ME/CFS patients vs post-Giardia non-CFS and unexposed controls. (2) The proportion of ME/CFS patients meeting MCAS criteria (AAAAI 2020 consensus) is higher among those with post-parasitic onset than among those with post-viral onset. (3) H1/H2 antihistamine + cromolyn sodium trial produces symptom improvement specifically in post-parasitic ME/CFS patients with elevated baseline tryptase.
 ] <spec:parasite-mcas-priming>
@@ -1591,12 +1621,12 @@ _Giardia_ selectively colonises the proximal small intestine — a region with n
 
 
 #open-question(title: [Bergen Biobank Recontact: Maximising the Natural Experiment])[
-The Bergen Giardia cohort represents one of the highest-value underutilised research resources in ME/CFS science: a cohort with a known exposure date, laboratory-confirmed pathogen, longitudinal clinical follow-up to 10 years, and a well-characterised PI-CFS subgroup. Existing studies have measured cytokine profiles, NK counts, sCD40L, and cellular immune responses — but the cohort has not been systematically interrogated for: (1) GPCR autoantibody panels (anti-muscarinic, anti-β2-adrenergic) as in @spec:galt-checkpoint-failure; (2) duodenal biopsy for epigenetic profiling (H3K4me3 at IDO1, IL-6, and TNFα promoters); (3) small intestinal microbiome composition by shotgun metagenomic sequencing; (4) serum tryptase and urinary mast cell mediators; (5) secretory IgA levels. Recontacting surviving PI-CFS patients and matched non-CFS exposed controls for a cross-sectional biomarker panel study would simultaneously test multiple mechanistic hypotheses at low marginal cost, given that the cohort is already characterised. This is likely the highest return-on-investment study available in post-parasitic ME/CFS research.
+The Bergen Giardia cohort represents one of the highest-value underutilised research resources in ME/CFS science: a cohort with a known exposure date, laboratory-confirmed pathogen, longitudinal clinical follow-up to 10 years, and a well-characterized PI-CFS subgroup. Existing studies have measured cytokine profiles, NK counts, sCD40L, and cellular immune responses — but the cohort has not been systematically interrogated for: (1) GPCR autoantibody panels (anti-muscarinic, anti-β2-adrenergic) as in @spec:galt-checkpoint-failure; (2) duodenal biopsy for epigenetic profiling (H3K4me3 at IDO1, IL-6, and TNFα promoters); (3) small intestinal microbiome composition by shotgun metagenomic sequencing; (4) serum tryptase and urinary mast cell mediators; (5) secretory IgA levels. Recontacting surviving PI-CFS patients and matched non-CFS exposed controls for a cross-sectional biomarker panel study would simultaneously test multiple mechanistic hypotheses at low marginal cost, given that the cohort is already characterized. This is likely the highest return-on-investment study available in post-parasitic ME/CFS research.
 ] <oq:bergen-biobank-recontact>
 
 
 #open-question(title: [Cryptosporidium Long-Term Cohort Study: Generalising Beyond Giardia])[
-The Stiff 2017 data establish that 22% of Cryptosporidium parvum outbreak survivors report persistent fatigue at 12 months @Stiff2017cryptosporidium, but follow-up was insufficient and formal ME/CFS criteria were not applied. A Bergen-style prospective controlled cohort study following a documented Cryptosporidium outbreak for 3–10 years with formal ME/CFS diagnostic ascertainment would determine: (1) whether the Giardia findings generalise to a second apicomplexan protozoan; (2) whether the ME/CFS conversion rate differs between parasite species; (3) whether the immunological profile (NK cells, sCD40L, antigen-specific responses) recapitulates the Bergen findings or differs systematically. Given that Cryptosporidium outbreaks occur recurrently in Europe and North America, an opportunistic prospective cohort design is feasible. No such study has been initiated.
+The Stiff 2017 data establish that 22% of Cryptosporidium parvum outbreak survivors report persistent fatigue at 12 months @Stiff2017cryptosporidium, but follow-up was insufficient and formal ME/CFS criteria were not applied. A Bergen-style prospective controlled cohort study following a documented Cryptosporidium outbreak for 3–10 years with formal ME/CFS diagnostic ascertainment would determine: (1) whether the Giardia findings generalize to a second apicomplexan protozoan; (2) whether the ME/CFS conversion rate differs between parasite species; (3) whether the immunological profile (NK cells, sCD40L, antigen-specific responses) recapitulates the Bergen findings or differs systematically. Given that Cryptosporidium outbreaks occur recurrently in Europe and North America, an opportunistic prospective cohort design is feasible. No such study has been initiated.
 ] <oq:cryptosporidium-longitudinal>
 
 
@@ -1735,7 +1765,7 @@ Whether elevated ANA titres in ME/CFS patients represent a pathogenic autoimmune
 #open-question(title: [Can Calprotectin Serve as an Objective PEM Biomarker?])[
 Given the strong correlation between calprotectin and NET burden @Hetland2022
 and the role of NETosis in post-viral thrombo-inflammation @Krinsky2023,
-serial calprotectin measurement before and after standardised exertion protocols
+serial calprotectin measurement before and after standardized exertion protocols
 (e.g., 2-day CPET) could test whether NET release mediates post-exertional malaise.
 If calprotectin rises predictably 6–24 hours post-exertion and correlates with
 subsequent symptom severity, it would provide an inexpensive, objective, real-time
@@ -1780,12 +1810,12 @@ Epitope spreading occurs when tissue damage exposes new antigens to the immune s
 Loss of self-tolerance occurs when regulatory mechanisms fail. Treg dysfunction permits autoreactive cells to escape suppression, while B cell tolerance checkpoints fail to eliminate autoreactive B cells. Chronic inflammation further promotes autoimmunity by creating a permissive environment for autoimmune responses.
 
 #limitation(title: [Autoimmune Mechanisms: Extrapolated from Other Diseases])[
-Molecular mimicry, epitope spreading, and loss of self-tolerance are well-characterised mechanisms in established autoimmune diseases (SLE, rheumatoid arthritis, type 1 diabetes). Their role in ME/CFS is inferred by analogy, not demonstrated:
+Molecular mimicry, epitope spreading, and loss of self-tolerance are well-characterized mechanisms in established autoimmune diseases (SLE, rheumatoid arthritis, type 1 diabetes). Their role in ME/CFS is inferred by analogy, not demonstrated:
 
     - No specific molecular mimicry target (pathogen epitope $\to$ self-antigen cross-reaction) has been identified in ME/CFS.
     - Epitope spreading has not been documented longitudinally in ME/CFS cohorts.
     - Treg dysfunction is reported in ME/CFS but has not been causally linked to loss of tolerance versus being a downstream consequence of chronic immune activation.
-    - The proportion of ME/CFS patients with a genuinely autoimmune aetiology (as opposed to immune dysregulation without autoimmunity) remains unknown.
+    - The proportion of ME/CFS patients with a genuinely autoimmune etiology (as opposed to immune dysregulation without autoimmunity) remains unknown.
 
 ]
 
@@ -2225,6 +2255,76 @@ The substantial symptom overlap and estimated 25–50% co-occurrence rate betwee
 
 ]
 
+#hypothesis(title: [Carotid Body Mast Cell Sensitization as the Upstream Driver of Orthostatic Intolerance in MCAS+ME/CFS])[
+*(Certainty: 0.55 — not yet replicated; mechanistic inference from Theoharides 2024 carotid body anatomy + Rohrhofer 2025 OI prevalence data.)*
+
+Mast cells cluster at the carotid body glomus and release histamine, tryptase, and VEGF in response to CRH (stress) and local hypoxia. Carotid body chemoreceptors are exquisitely sensitive to local mediators; mast cell degranulation lowers the chemoreceptor activation threshold, producing inappropriate sympathetic outflow during orthostatic challenge. Under this model, the 89% orthostatic intolerance rate in MCAS+ME/CFS patients versus 72% in MCAS-negative patients @Rohrhofer2025mecfsmast is explained not by autonomic neuropathy or volume depletion alone, but by peripheral chemoreceptor sensitization driven by mast cell mediator load at the carotid body @Theoharides2024ANS.
+
+This mechanism is distinct from POTS caused by cardiac innervation damage or volume deficiency. Testable predictions:
+
+    - MCAS+ME/CFS patients will show exaggerated ventilatory and sympathetic responses to mild hypercapnia/hypoxia versus MCAS-negative ME/CFS and OI-only controls
+    - 4-week cromolyn or ketotifen pretreatment will normalize carotid body sensitivity and reduce OI symptom scores
+    - The effect will be dose-dependent on mast cell mediator load (urinary N-methylhistamine as proxy)
+
+*Treatment implication:* In patients with OI (Domain 4) and MCAS features (Domain 6), concurrent mast cell stabilization alongside standard dysautonomia management may produce additive benefit not achievable by either approach alone.
+
+*Not yet replicated. Requires dedicated carotid body imaging and controlled mast cell stabilization trials.*
+] <hyp:carotid-mast-oi>
+
+#speculation(title: [Hypothalamic Mast Cells as the Master Switch for Sickness-Behavior Persistence in ME/CFS])[
+*(Certainty: 0.50 — mechanistic reasoning from neuroanatomy; no direct ME/CFS human evidence.)*
+
+The median eminence and paraventricular nucleus of the hypothalamus contain dense mast cell populations outside the blood-brain barrier, in direct contact with the portal circulation and CSF. CRH-driven activation at these sites produces local IL-6, TNF, and histamine that disrupt HPA axis rhythm, leptin signaling, and TRH release -- generating the fatigue, thermal dysregulation, weight changes, and anhedonia characteristic of ME/CFS sickness behavior @Theoharides2024ANS. This model may explain why peripheral immune markers in ME/CFS are inconsistently elevated and normalize over time while symptoms persist: if the critical mast cell activation is hypothalamic, standard blood draws underestimate actual immune activation.
+
+*Testable predictions:*
+
+    - CSF tryptase and tele-methylhistamine will be elevated in ME/CFS compared to healthy controls even when serum tryptase is normal
+    - Intranasal cromolyn sodium (reaching the median eminence via nose-to-brain mucosal transport) will reduce sickness-behavior scores and HPA dysregulation markers within 4 weeks
+
+*Limitations:* No CSF mast cell mediator data exist for ME/CFS. Intranasal cromolyn delivery to the median eminence is pharmacokinetically plausible but unconfirmed in humans. Hypothalamic mast cell data come from animal models and the Theoharides 2024 review.
+] <spec:hypothalamic-mast-switch>
+
+#speculation(title: [Spike Protein-Imprinted Mast Cell Memory via MRGPRX2 as a Long COVID-ME/CFS Divergence Mechanism])[
+*(Certainty: 0.35 -- in vitro mechanistic evidence only; no ME/CFS patient cohort data.)*
+
+SARS-CoV-2 spike protein can directly activate mast cells via MRGPRX2, a G-protein-coupled receptor mediating IgE-independent pseudoallergic degranulation. Repeated antigenic exposure during COVID-19 may produce epigenetically imprinted mast cells with chronically elevated MRGPRX2 expression, responding more aggressively to substance P, neuropeptides, and other non-IgE stimuli for months to years after viral clearance. This is distinct from general "post-viral MCAS" and specifically predicts that Long COVID MCAS involves substance-P-pathway hypersensitivity rather than IgE-mediated allergy -- and therefore responds poorly to H1/H2 antihistamines (which do not block MRGPRX2) while potentially responding to MRGPRX2-modulating compounds.
+
+*Testable predictions:*
+
+    - Long COVID-MCAS mast cells will show elevated MRGPRX2 mRNA expression versus pre-pandemic ME/CFS-MCAS controls
+    - Substance P-stimulated degranulation will be significantly greater in Long COVID-MCAS versus pre-pandemic MCAS mast cells at equivalent receptor density
+    - Bromelain (MRGPRX2-modulating compound) will preferentially benefit Long COVID MCAS subgroup versus pre-pandemic ME/CFS MCAS subgroup
+
+*Limitations:* Primary mast cell MRGPRX2 quantification is technically demanding. Accessible skin biopsy mast cells may not reflect CNS or GI populations. No clinical data for MRGPRX2-targeted therapy in ME/CFS or Long COVID exist.
+
+#speculation(title: [Mast Cell Mitochondrial Transfer as a Bidirectional Domain 2-Domain 6 Bridge])[
+*(Certainty: 0.25 -- mechanistically novel; no ME/CFS-specific evidence; mast cell mitochondrial biology is an emerging field.)*
+
+Recent work demonstrates that mast cells can transfer mitochondria to neighboring cells via tunneling nanotubes, and conversely accept dysfunctional mitochondria from stressed cells. In ME/CFS, dysfunctional mitochondria from skeletal muscle and neurons may trigger mast cell activation upon transfer -- creating a bidirectional coupling between Domain 2 (mitochondrial dysfunction) and Domain 6 (mast cell activation). Exhausted mitochondria from PEM-affected tissues could prime adjacent tissue mast cells, amplifying their reactivity and contributing to the post-exertional mediator storm.
+
+*Testable prediction:* Serum cell-free mitochondrial DNA levels will positively correlate with urinary N-methylhistamine (a mast cell activation marker) in ME/CFS patients, particularly after exercise challenge. Co-culture of ME/CFS PBMCs with mitochondria isolated from post-exercise ME/CFS blood will produce greater mast cell degranulation than culture with pre-exercise mitochondria.
+
+*Limitations:* Mast cell mitochondrial transfer biology is from 2022-2024 in vitro literature; not demonstrated in vivo or in ME/CFS. The correlation prediction could be confounded by shared upstream inflammation.
+] <spec:mast-mito-transfer>
+
+#speculation(title: [Mast Cell-Derived Heparin as a Contributor to Coagulation Anomalies in ME/CFS])[
+*(Certainty: 0.30 -- mast cell granule composition is established; clinical extrapolation to ME/CFS coagulation is speculative.)*
+
+Mast cell granules contain heparin -- the biological prototype of anticoagulant therapy. Sustained low-grade degranulation over months to years could produce a chronic, low-level anticoagulant effect. This may explain why some ME/CFS patients (particularly those with MCAS comorbidity) report easy bruising, prolonged menses, and post-procedure bleeding while having normal standard coagulation panels. Anti-Xa activity or thrombin time measurements may detect subtle heparin effect missed by standard PT/INR.
+
+*Testable prediction:* Anti-Xa activity will be detectable above baseline in MCAS-positive ME/CFS patients reporting bleeding symptoms, correlating with urinary N-methylhistamine. An 8-week cromolyn trial will normalize anti-Xa in responders.
+
+*Limitations:* Mast cell heparin release in chronic low-grade activation is not characterized in humans. This idea has not been explored in any ME/CFS or MCAS cohort.
+] <spec:mast-heparin-coag>
+
+#open-question(title: [Can Standardized Dermatographism Threshold Testing Serve as a Bedside Domain 6 Screen?])[
+Dermatographism (wheal formation from minor skin pressure) is a classic MCAS sign but is rarely quantified in clinical practice. A standardized stylus delivering graded mechanical force (5 g, 10 g, 20 g, 40 g) could measure the *threshold* for wheal formation as a reproducible, instrument-free bedside assessment. If the 5 g threshold has high sensitivity for biochemically confirmed MCAS in ME/CFS, it could serve as a low-cost screening tool before ordering urinary mediator panels.
+
+*What needs to be established:* sensitivity and specificity of specific force thresholds against Valent 2021 MCAS criteria in an ME/CFS population; test-retest reliability; correlation with urinary N-methylhistamine and LTE#sub[4].
+] <oq:dermatographism-screen>
+
+] <spec:mrgprx2-long-covid-mast>
+
 === Allergic Responses
 <sec:allergic-responses>
 
@@ -2274,7 +2374,7 @@ Acute viral infection — including SARS-CoV-2, EBV, and HHV-6, all documented t
 
 In healthy subjects, senescent cells are recognised and cleared by NK cells and cytotoxic T cells. In ME/CFS, this clearance mechanism is specifically impaired at both effector arms:
 
-    - *NK cell dysfunction*: The well-documented reduction in NK cell cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKmeta; Section @sec:nk-cells) prevents efficient recognition and elimination of SASP-producing endothelial cells
+    - *NK cell dysfunction*: The well-documented reduction in NK cell cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKMeta; Section @sec:nk-cells) prevents efficient recognition and elimination of SASP-producing endothelial cells
     - *T cell exhaustion*: Chronic stimulation exhausts cytotoxic T cell responses (Section @sec:t-cells), further reducing senescent cell clearance capacity
 
 The result is a bidirectional amplifying loop: SASP from senescent endothelial cells drives cytokine-mediated suppression of NK and T cell function, which in turn prevents clearance of senescent cells, which continue to produce SASP. Once established, this loop is self-sustaining regardless of whether the initial viral trigger is still present.
@@ -2316,14 +2416,14 @@ _Certainty: 0.40._ The mechanistic logic is compelling and each component (NK dy
 == Immune Remodeling: Beyond Activation
 <sec:immune-remodeling>
 
-Multiple 2025--2026 studies report that the immune disturbance in ME/CFS involves a complex reorganisation---some arms upregulated, others downregulated, with altered inter-cellular communication networks---rather than uniform activation @Hoel2026proteome @Shahbaz2026single-cell-immune @Germain2025plasma-proteome-exertion @Che2025. Whether this pattern reflects a coordinated "remodeling program" or simply the heterogeneous response expected of any multi-component immune system under chronic stress remains debated.
+Multiple 2025--2026 studies report that the immune disturbance in ME/CFS involves a complex reorganization---some arms upregulated, others downregulated, with altered inter-cellular communication networks---rather than uniform activation @Hoel2026proteome @Shahbaz2026single-cell-immune @Germain2025plasma-proteome-exertion @Che2025. Whether this pattern reflects a coordinated "remodeling program" or simply the heterogeneous response expected of any multi-component immune system under chronic stress remains debated.
 
 #observation(title: [Heterogeneous Immune Findings Across Platforms: Activation, Exhaustion, and Collapse])[
 *Certainty: 0.30.* Based on four independent studies using different methodologies (serum proteomics, scRNA-seq, longitudinal exercise proteomics, multi-omics immune stimulation), all finding heterogeneous immune changes rather than uniform activation. However, the studies use different cohorts, different disease definitions (some LC-ME/CFS only), and different platforms; true convergence requires independent groups finding the _same_ molecular abnormalities, which has not occurred. @Hoel2026proteome @Shahbaz2026single-cell-immune @Germain2025plasma-proteome-exertion @Che2025
 
 Hoel et al.\ (2026) charted the circulating proteome using SomaScan 7K (n=50 ME/CFS vs 29 HC) and found immune _reprogramming_: a broad increase in secreted proteins with distinct reduction in activated-neutrophil secreted proteins, and intensified regulatory interactions across immune, inflammatory, vasculature, and metabolic pathways @Hoel2026proteome.
 
-Germain, Hanson, and colleagues (2025) conducted the largest longitudinal exercise proteomics study in ME/CFS to date (n=79 ME/CFS vs 53 sedentary controls; SomaScan 7K) and found that post-exertional malaise is characterised by suppression of T and B cell signaling, downregulation of IL-17 and cell-cell communication, and upregulation of glycolysis/gluconeogenesis---a pattern of immune _collapse_ under stress rather than immune activation @Germain2025plasma-proteome-exertion. Sex-stratified analyses revealed distinct molecular responses between females and males.
+Germain, Hanson, and colleagues (2025) conducted the largest longitudinal exercise proteomics study in ME/CFS to date (n=79 ME/CFS vs 53 sedentary controls; SomaScan 7K) and found that post-exertional malaise is characterized by suppression of T and B cell signaling, downregulation of IL-17 and cell-cell communication, and upregulation of glycolysis/gluconeogenesis---a pattern of immune _collapse_ under stress rather than immune activation @Germain2025plasma-proteome-exertion. Sex-stratified analyses revealed distinct molecular responses between females and males.
 
 Shahbaz et al.\ (2026) provided single-cell resolution in Long COVID with ME/CFS features: marked reduction in naive CD4+/CD8+ T cells, Tregs, MAIT cells, and gamma-delta T cells; expansion of effector T cells; NK cells reduced with altered activation; monocytes showing reduced phagocytosis genes alongside increased pro-inflammatory cytokine genes @Shahbaz2026single-cell-immune. _Critically_, idiopathic ME/CFS showed less pronounced changes---T cell activation without MAIT/NK cell reduction or T cell exhaustion---suggesting LC-ME/CFS and idiopathic ME/CFS may be immunologically distinct entities rather than points on a single remodeling spectrum. This distinction partially undermines the unified "remodeling" narrative: the two conditions share a broad rejection of simple activation models but may arrive at their respective immune states through different mechanisms.
 
@@ -2333,7 +2433,7 @@ This observation coexists with the chapter's "Paradox of Invisible Immunity" (Se
 ] <obs:immune-remodeling-convergence>
 
 #speculation(title: [Exercise-Induced Immune Activation as Occult Long-Term Harm])[
-*Certainty: 0.35.* Post-exercise ME/CFS patients show upregulation of metabolite-detecting receptors (ASIC3, P2X4, P2X5) and TLR4 persisting 48 hours (Light et al.\ 2012), while Germain et al.\ (2025) found suppression of T and B cell signalling during PEM---immune _collapse_ under stress @Germain2025plasma-proteome-exertion. Even when exercise trials report subjective improvement on questionnaires, they may simultaneously cause immune activation and NK cell metabolic depletion that worsens the underlying disease process. The subjective improvement masks immune deterioration that manifests as disease progression months to years later. No exercise trial has measured immune biomarkers at outcome assessment timepoints. Not yet replicated---long-term immune consequences of structured exercise in ME/CFS are unmeasured.
+*Certainty: 0.35.* Post-exercise ME/CFS patients show upregulation of metabolite-detecting receptors (ASIC3, P2X4, P2X5) and TLR4 persisting 48 hours (Light et al.\ 2012), while Germain et al.\ (2025) found suppression of T and B cell signaling during PEM---immune _collapse_ under stress @Germain2025plasma-proteome-exertion. Even when exercise trials report subjective improvement on questionnaires, they may simultaneously cause immune activation and NK cell metabolic depletion that worsens the underlying disease process. The subjective improvement masks immune deterioration that manifests as disease progression months to years later. No exercise trial has measured immune biomarkers at outcome assessment timepoints. Not yet replicated---long-term immune consequences of structured exercise in ME/CFS are unmeasured.
 
 *Testable prediction.* Exercise trials including immune biomarkers (NK cell cytotoxicity, ASIC3/TLR4 expression, cytokine panels) at questionnaire timepoints should show immune deterioration in the subgroup reporting subjective improvement.
 ] <spec:exercise-immune-harm>
@@ -2384,22 +2484,23 @@ Seifert et al.\ (2026) found altered extracellular vesicle (EV) cargo in post-CO
 #speculation(title: [Exosomal HSAT2/HERV-K RNA as a Self-Perpetuating MDSC Expansion Mechanism])[
 
 
-*(Certainty: 0.25 — mechanistic inference from Ewing sarcoma biology; no direct ME/CFS data.)*
+*(Certainty: 0.30 — mechanistic inference from Ewing sarcoma biology upgraded by post-viral MDSC persistence evidence; no direct ME/CFS HSAT2 data.)*
 
-Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that exosomes from Ewing sarcoma cells enriched with HSAT2 and HERV-K RNA are taken up by CD33+ myeloid cells and CD8+ T-cells, inducing MDSC-like phenotypes (CD33+HLA-DR−, CD33+PD-1+, CD33+CD25+) and T-cell exhaustion (CD8+CD25+PD-1+) respectively. Critically, recipient cells become secondary transmitters — releasing their own HSAT2-containing EVs and propagating the immunosuppressive signal through at least three serial passages without ongoing tumour input.
+Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated that exosomes from Ewing sarcoma cells enriched with HSAT2 and HERV-K RNA are taken up by CD33+ myeloid cells and CD8+ T-cells, inducing MDSC-like phenotypes (CD33+HLA-DR−, CD33+PD-1+, CD33+CD25+) and T-cell exhaustion (CD8+CD25+PD-1+) respectively. Critically, recipient cells become secondary transmitters — releasing their own HSAT2-containing EVs and propagating the immunosuppressive signal through at least three serial passages without ongoing tumor input.
 
 This mechanism is candidate-relevant to ME/CFS because:
 
-    + Herpesviruses (HSV-1, HCMV) induce HSAT2 expression via viral microRNAs @Nogalski2019HSATII; EBV and HHV-6 — the primary ME/CFS viral triggers — have not been tested but the pathway is plausible
-    + ME/CFS shows widespread DNA methylation alterations; if pericentromeric loci (chr2p11.2, 4p11) are hypomethylated, HSAT2 could be chronically expressed without active viral replication @Shadle2019HSATII
-    + The NK cell and T-cell exhaustion pattern in ME/CFS — reduced NK cytotoxicity @EatonFitch2019, elevated PD-1 on T-cells @iu2024tcell_exhaustion, impaired CD8 responses — is phenotypically consistent with exosomal MDSC-mediated suppression
-    + The paradox of simultaneous immune activation (interferon signatures, cytokines) and immune suppression (impaired NK killing, T-cell exhaustion) mirrors the Ewing sarcoma phenotype characterised in Evdokimova 2019
+    + Herpesviruses (HSV-1, HCMV) induce HSAT2 expression via viral microRNAs @Nogalski2019HSATII; EBV and HHV-6 — the primary ME/CFS viral triggers — have not been tested but the pathway is plausible; EBV specifically expands PMN-MDSCs during acute infectious mononucleosis @Mihatsch2026MDSCMono
+    + Post-viral MDSC persistence is directly demonstrated: M-MDSCs remain elevated at 5 months post-SARS-CoV-2 infection, correlating with IL-6 (r = 0.62) and suppressing T-cell IFNγ by arginase+ROS mechanisms @BeliakovanBethell2022MDSCPostCOVID; MDSC expansion during acute COVID-19 reaches 90% of mononuclear cells in severe cases @Agrati2020MDSCCoVID19
+    + ME/CFS shows widespread DNA methylation alterations; if pericentromeric loci (chr2p11.2, 4p11) are hypomethylated, HSAT2 could be chronically expressed without active viral replication @Shadle2019HSATII; folate-cycle impairment reduces H3K9me3 at pericentromeric loci, permitting satellite repeat transcription @Zhu2014MTHFR
+    + The NK cell and T-cell exhaustion pattern in ME/CFS — reduced NK cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKMeta), epigenetically locked CD8+ T-cell exhaustion (TBX21/EOMES up, TCF7 closed @Iu2024CD8Exhaustion), and PD-1/CTLA-4 checkpoint dysregulation @EatonFitch2024ImmuneExhaustion — is phenotypically consistent with exosomal MDSC-mediated suppression
+    + The paradox of simultaneous immune activation (interferon signatures, cytokines) and immune suppression (impaired NK killing, T-cell exhaustion) mirrors the Ewing sarcoma phenotype characterized in Evdokimova 2019
 
 The exosomal propagation loop would be self-sustaining: once established post-infection, it does not require continued viral presence. This provides a concrete mechanism for the loss of viral control in ME/CFS without identifying a single persisting pathogen.
 
 *Falsifiable prediction:* HSAT2 and HERV-K RNA should be detectable in plasma EVs from ME/CFS patients at higher levels than healthy controls; these levels should correlate inversely with NK cytotoxicity and directly with MDSC frequency. If EV HSAT2 levels are comparable to healthy controls, this mechanism is not operative.
 
-*Limitations:* All supporting evidence is from Ewing sarcoma (aggressive paediatric cancer), a context with far higher transcript levels than chronic infection. Whether the exosomal HSAT2 concentration in post-viral settings is sufficient to drive phenotypic changes comparable to the cancer data is unknown. Not yet replicated in any chronic disease or infection context. No ME/CFS data exist for HSAT2 EV content.
+*Limitations:* All supporting evidence for the HSAT2 exosomal mechanism is from Ewing sarcoma (aggressive paediatric cancer), a context with far higher transcript levels than chronic infection. Post-viral MDSC persistence (Beliakova-Bethell 2022) was demonstrated for T-cell suppression; NK assays were not performed. The folate-MTHFR-H3K9me3 link (Zhu 2014) used extreme siRNA knockdown in cell lines — partial dietary/genetic depletion may not reach the same threshold. Not yet replicated in ME/CFS or any post-viral chronic disease context.
 ] <spec:hsat2-exosome-mdsc>
 == Summary: Integrated Model of Immune Dysfunction
 <sec:immune-summary>
@@ -2438,7 +2539,7 @@ Three frameworks can account for this paradox:
 
     - *Compartmentalised immunity:* The pathology resides in tissues that blood sampling cannot access---gut mucosa, dorsal root ganglia, brain parenchyma, lymph node microenvironments. Peluso et al.\ (2024) demonstrated SARS-CoV-2 viral persistence in gut tissue biopsies of Long COVID patients with no detectable virus in blood, proving this is biologically possible. Blood-based studies may be systematically missing the relevant compartment.
 
-    - *The exhaustion interpretation:* Hornig et al.\ documented that cytokine elevations occur in early ME/CFS ($<$3 years) but normalise in chronic disease @Hornig2015. By the time patients enter research studies (often after years of illness), the inflammatory fire has burned out. The null results in chronic cohorts may accurately reflect late-stage immunology while missing the critical early window.
+    - *The exhaustion interpretation:* Hornig et al.\ documented that cytokine elevations occur in early ME/CFS ($<$3 years) but normalize in chronic disease @Hornig2015. By the time patients enter research studies (often after years of illness), the inflammatory fire has burned out. The null results in chronic cohorts may accurately reflect late-stage immunology while missing the critical early window.
 
     - *Post-immune damage:* The immune trigger was transient but caused permanent downstream damage---metabolic reprogramming, epigenetic changes, structural neurological alterations---that persists independently of ongoing immune activity. In this framework, the immune system is now _genuinely normal_, and the null results are correct; the damage is done and self-sustaining through non-immune mechanisms.
 
@@ -2451,17 +2552,17 @@ These frameworks make different predictions. Compartmentalised immunity predicts
 
 The pattern of immune findings in ME/CFS is not one of immune activation or immune suppression---it is one of immune cell _incompetence_. Individual immune cells are structurally present in normal numbers and proportions but functionally impaired at the level of intracellular machinery:
 
-    - *NK cells*: Normal counts, impaired cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKmeta)
+    - *NK cells*: Normal counts, impaired cytotoxicity (Hedges' g = 0.96 @Baraniuk2024NKMeta)
     - *T cells*: Normal proportions, reduced glycolysis and metabolic dysfunction @Mandarano2020
     - *B cells*: Normal counts, skewed repertoire without adaptive signatures @Ryback2025BCR
     - *Cytokines*: Normal circulating levels, but individual cells may fail to produce appropriate bursts upon stimulation
     - *Autoantibodies*: Not detectable by broad screening @Germain2025autoantibody, yet functional assays and treatment responses suggest pathology
 
-This framework---"normal army, broken soldiers"---predicts that _functional_ assays (cytotoxicity, proliferation upon stimulation, class switching capacity, metabolic flux) will consistently show abnormalities even when _phenotypic_ assays (cell counts, surface markers, resting cytokine levels) are normal. The TRPM3 calcium channel dysfunction (Section @sec:trpm3-dysfunction) provides a concrete molecular mechanism: if calcium signalling is globally impaired in immune cells, every downstream function---degranulation, proliferation, cytokine burst, metabolic activation---is compromised. The cell is present but cannot execute its programs.
+This framework---"normal army, broken soldiers"---predicts that _functional_ assays (cytotoxicity, proliferation upon stimulation, class switching capacity, metabolic flux) will consistently show abnormalities even when _phenotypic_ assays (cell counts, surface markers, resting cytokine levels) are normal. The TRPM3 calcium channel dysfunction (Section @sec:trpm3-dysfunction) provides a concrete molecular mechanism: if calcium signaling is globally impaired in immune cells, every downstream function---degranulation, proliferation, cytokine burst, metabolic activation---is compromised. The cell is present but cannot execute its programs.
 
-*Therapeutic implication:* If verified, this framework redirects therapeutic strategy from immunosuppression (which has consistently failed: anakinra, rituximab in the RCT) toward _immune cell repair_---restoring intracellular signalling capacity (TRPM3 modulators), metabolic rescue (CoQ10, NAD+ precursors), and mitochondrial support rather than dampening immune output that is already inadequate.
+*Therapeutic implication:* If verified, this framework redirects therapeutic strategy from immunosuppression (which has consistently failed: anakinra, rituximab in the RCT) toward _immune cell repair_---restoring intracellular signaling capacity (TRPM3 modulators), metabolic rescue (CoQ10, NAD+ precursors), and mitochondrial support rather than dampening immune output that is already inadequate.
 
-*Falsification:* The framework would be falsified if large studies using standardised _functional_ assays (not just phenotypic counts) consistently find normal immune cell function in ME/CFS, or if a systemic circulating signal (cytokine, autoantibody, pathogen) is identified that fully explains the disability.
+*Falsification:* The framework would be falsified if large studies using standardized _functional_ assays (not just phenotypic counts) consistently find normal immune cell function in ME/CFS, or if a systemic circulating signal (cytokine, autoantibody, pathogen) is identified that fully explains the disability.
 ] <spec:cellular-fog>
 
 == Emerging Research Directions in Immune Dysregulation
@@ -2968,7 +3069,7 @@ Trained immunity refers to the long-term functional reprogramming of innate immu
 This epigenetic lock-in mechanism explains the chronic nature of immune dysfunction in ME/CFS and represents a potential therapeutic target.
 
 #limitation(title: [Trained Immunity in ME/CFS: No Disease-Specific Data])[
-Trained immunity (epigenetic reprogramming of innate immune cells) is well-characterised in general immunology and has been demonstrated in atherosclerosis, sepsis, and BCG vaccination responses. Its application to ME/CFS is entirely extrapolated — no study has measured H3K4me3 marks at inflammatory gene promoters, metabolic rewiring from OXPHOS to glycolysis in monocytes, or trained immunity reversal in ME/CFS patients. Whether ME/CFS monocytes exhibit a trained phenotype, and whether this is cause or consequence of chronic immune activation, is unknown.
+Trained immunity (epigenetic reprogramming of innate immune cells) is well-characterized in general immunology and has been demonstrated in atherosclerosis, sepsis, and BCG vaccination responses. Its application to ME/CFS is entirely extrapolated — no study has measured H3K4me3 marks at inflammatory gene promoters, metabolic rewiring from OXPHOS to glycolysis in monocytes, or trained immunity reversal in ME/CFS patients. Whether ME/CFS monocytes exhibit a trained phenotype, and whether this is cause or consequence of chronic immune activation, is unknown.
 ]
 
 === Zonulin-Mediated Gut Permeability
@@ -3038,3 +3139,96 @@ This would imply a narrow *therapeutic window* following acute immune triggers w
 
 *Limitation:* This hypothesis lacks any direct supporting evidence — it is a mechanistic extrapolation. The PIBF assay itself does not exist in standardized form. Certainty is intentionally low (0.15).
 ] <spec:postviral-pibf-window>
+
+== Lichen Sclerosus as a Shared Immune Terrain Marker
+<sec:lichen-sclerosus-immune-terrain>
+
+
+Lichen sclerosus (LS) is a chronic inflammatory dermatosis classified as a Th1-dominant auto­immune condition. Its cytokine signature — elevated IL-7, IL-15, IFN-γ, and TNF-α, with reduced IL-10 — overlaps substantially with the immune profile documented in active-phase ME/CFS @DeLuca2023LS2023Update @Paganelli2025LSCytokines. Both conditions also show regulatory T cell dysfunction via the miR-155/Foxp3 axis and share genetic risk loci (PTPN22, CTLA4) associated with classical autoimmune diseases @Oyama2022LSGeneticInterplay @Batham2024MECFSAutoimmunity. Oxidative stress markers (elevated malondialdehyde and 8-hydroxydeoxyguanosine, reduced superoxide dismutase) are independently documented in both @Paulis2019LSOxidativeStress.
+
+Large population studies confirm that LS clusters with other autoimmune conditions: thyroiditis, alopecia areata, vitiligo, Sjögren syndrome, and systemic lupus erythematosus are among the most elevated comorbidities @Kassels2024LSAutoimmune @Gulin2023LSComorbiditySweden. ME/CFS shows a similar comorbidity phenotype — its autoimmune overlap includes Hashimoto thyroiditis, Sjögren syndrome, and SLE @Batham2024MECFSAutoimmunity. This shared comorbidity landscape suggests a common immune predisposition terrain rather than coincidental co-occurrence.
+
+Critically, no published study has directly measured LS prevalence in ME/CFS populations or vice versa. The question of whether LS co-occurs in ME/CFS at rates exceeding population background is entirely open. The null result from the closest available proxy — fibromyalgia — is informative but not decisive: Halonen et al.\ (n = 10,692) found no significant association between fibromyalgia and LS (OR 0.85, 95% CI 0.61–1.18) @Halonen2024LSRiskFactorsFinland. Since fibromyalgia and ME/CFS overlap substantially but are not equivalent, this result constrains but does not close the question.
+
+#speculation(title: [Lichen Sclerosus as a Cutaneous Signal of ME/CFS Immune Predisposition Terrain])[
+
+*Certainty: 0.25.* Based on shared Th1 cytokine profiles, overlapping Treg dysfunction, shared genetic risk loci, and a parallel autoimmune comorbidity landscape between LS and ME/CFS. No direct epidemiological evidence exists; certainty reflects mechanistic inference only. Not replicated.
+
+Both lichen sclerosus and ME/CFS fail to fulfil classical autoimmune disease criteria despite clear immune dysregulation signatures. Both are associated with the same cluster of autoimmune conditions (Hashimoto's, Sjögren's, SLE, vitiligo), suggesting they may arise from a shared underlying immune predisposition — a terrain of chronic Th1 over-activation and Treg insufficiency that can manifest in different target organs depending on genetic, hormonal, and local tissue factors. In this model, LS is not a consequence of ME/CFS but a parallel manifestation of the same dysregulated immune terrain: the skin and mucosa expressing what ME/CFS expresses systemically.
+
+*Mechanistic pathway:* Persistent Th1 overactivation → clonal antigen-driven T cell selection in tissue → local cytokine loop (IL-7/IL-15 sustain effector T cells; IFN-γ drives stromal fibrosis via TGF-β) → irreversible fibrosis once established. ECM1 dysfunction (extracellular matrix protein 1, autoantibodies present in 75% of vulvar LS cases) amplifies the loop by impairing basement membrane integrity and releasing neoantigens @Oyama2022LSGeneticInterplay @Paganelli2025LSCytokines.
+
+*Implication for ME/CFS patients:* LS presenting in a patient with unexplained fatigue and post-exertional malaise may represent a diagnostic signal for underlying systemic immune dysregulation rather than an isolated dermatological condition. This does not establish ME/CFS as a cause of LS; it suggests both may reflect a shared immune predisposition that warrants systematic evaluation.
+
+*Falsifiable prediction:* ME/CFS cohorts prospectively screened for LS will show LS prevalence exceeding age- and sex-matched population controls (expected LS population prevalence: 0.1–3%); conversely, LS cohorts screened for ME/CFS criteria (with PEM assessment) will show ME/CFS prevalence exceeding controls.
+
+*Limitations:* Entirely speculative; no cohort data. The fibromyalgia-LS null result (Halonen 2024) suggests caution. LS associates selectively with cutaneous/mucosal autoimmunity — RA, T1DM, and MS are null or protective in LS studies, indicating that not all autoimmune terrain produces LS risk @Halonen2024LSRiskFactorsFinland. Sex and hormonal factors (LS is far more common in post-menopausal women) may confound any ME/CFS-LS prevalence comparison without careful stratification.
+] <spec:lichen-sclerosus-immune-terrain>
+
+#open-question(title: [Does LS Precede ME/CFS Onset, and Could It Represent a Prodromal Immune Signal?])[
+
+If LS and ME/CFS share immune predisposition terrain, the temporal question becomes clinically relevant: does LS onset typically precede, follow, or coincide with ME/CFS onset? A prodromal pattern — LS appearing months to years before ME/CFS criteria are met — would support a shared terrain model where cutaneous immune dysregulation is an early systemic signal. A concurrent pattern would suggest parallel manifestations. A post-ME/CFS pattern could indicate ME/CFS-driven systemic immune dysfunction enabling secondary mucosal autoimmunity.
+
+Retrospective patient registries (You+ME, UK ME/CFS Biobank) could resolve this with a targeted questionnaire addition (LS diagnosis date relative to ME/CFS onset), at negligible cost.
+] <oq:lichen-sclerosus-temporal>
+=== IL-15/IL-7 Trans-Presentation: The Shared Cytokine Fingerprint
+<sec:il15-il7-shared-fingerprint>
+
+#hypothesis(title: [IL-15 Trans-Presentation as a Shared Mechanism Sustaining Chronic Immune Activation in LS and ME/CFS])[
+
+*Certainty: 0.45.* Based on convergent evidence from independent LS and ME/CFS cytokine studies; direct comparative measurement in patients with both conditions is absent. Partially replicated.
+
+Both LS lesions and ME/CFS plasma show independently elevated IL-15 and IL-7 — homeostatic γc-chain cytokines that maintain memory CD8+ T-cell and NK cell survival while driving chronic low-grade activation @Paganelli2025LSCytokines @DeLuca2023LS2023Update. In LS, IL-15 trans-presentation by tissue-resident dendritic cells sustains dermal effector T cells despite absent systemic inflammatory signals. An analogous mechanism in ME/CFS — trans-presentation in muscle, gut mucosa, or gut-associated lymphoid tissue — could sustain tissue-localized exhausted-effector states without producing overt systemic cytokine elevations, directly explaining the "inflamed but not inflammatory" paradox documented by Corbitt 2019 (64 cytokines: none differ consistently in bulk plasma; see Section @oq:invisible-immunity).
+
+*Implication:* If IL-15 trans-presentation is operative in ME/CFS, therapeutic blockade of soluble IL-15Rα — not IL-15 itself, which is pleiotropic and essential — could specifically interrupt the local amplification loop without broad immunosuppression.
+
+*Falsifiable prediction:* Soluble IL-15Rα in ME/CFS plasma will correlate inversely with NK cytotoxicity (r > 0.4) and will be elevated in patients with higher PEM frequency. LS patients with co-existing fatigue will show higher sIL-15Rα than LS-only age-matched controls.
+
+*Limitations:* Soluble IL-15Rα is not yet a standardized ME/CFS research assay. The trans-presentation mechanism in ME/CFS tissues is entirely inferred; tissue biopsy data are absent. Not yet replicated in ME/CFS context.
+] <hyp:il15-trans-presentation>
+
+=== miR-155/Foxp3 Axis as a Shared Epigenetic Switch
+<sec:mir155-foxp3-axis>
+
+#hypothesis(title: [miR-155 Upregulation as a Convergent Epigenetic Driver of Treg Dysfunction in LS and ME/CFS])[
+
+*Certainty: 0.30.* Based on LS miR-155 mechanistic evidence and ME/CFS miRNA EV cargo data from independent studies; direct comparative measurement is absent. Not yet replicated in the ME/CFS context.
+
+LS lesions show consistently elevated miR-155 driving Foxp3 transcript destabilization and regulatory T cell dysfunction @Paganelli2025LSCytokines. Foxp3 instability removes the brake on Th1 effector responses, perpetuating the IL-7/IL-15/IFN-γ cytokine loop. In ME/CFS, extracellular vesicle miRNA profiling has identified miR-155 family changes in independent cohorts @Wang2025LSEpigenetic, suggesting a shared epigenetic switch at the Treg/Th1 balance point. If validated, the miR-155/Foxp3 axis would explain the convergence of both conditions on the same autoimmune comorbidity cluster (Hashimoto's, Sjögren's, SLE, vitiligo) while predicting that epigenetic Treg restoration strategies — rather than cytokine-level blockade — would be the durable therapeutic approach.
+
+*Falsifiable prediction:* Plasma EV miR-155 will be elevated >1.5× in ME/CFS vs healthy controls; elevation will correlate inversely with circulating Foxp3+ Treg frequency (r < −0.35). In an LS+ME/CFS subgroup, miR-155 will be highest.
+
+*Limitations:* ME/CFS miRNA studies are small and use heterogeneous methods. EV miR-155 elevation is not specific to ME/CFS — it is elevated in many inflammatory states. The causal chain (miR-155 → Foxp3 instability → ME/CFS phenotype) is inferred; direct Treg manipulation experiments in ME/CFS cells are absent.
+] <hyp:mir155-foxp3-mecfs>
+
+=== Tissue-Resident Memory T Cells: ME/CFS as Multi-Organ TRM Hyperinflammation
+<sec:trm-mecfs-hypothesis>
+
+#hypothesis(title: [ME/CFS as a Multi-Organ Tissue-Resident Memory T-Cell Persistence Syndrome])[
+
+*Certainty: 0.30.* Supported by LS TRM biology, ME/CFS muscle CD8+ infiltrate data, and the IL-15 trans-presentation convergence; no dedicated TRM density study in ME/CFS tissues exists. Not yet replicated.
+
+LS lesions are dominated by CD8+ tissue-resident memory T cells (TRM; CD103+CD69+) that persist locally through IL-15 trans-presentation and re-activate upon epithelial stress @Oyama2022LSGeneticInterplay @Paganelli2025LSCytokines. The same TRM biology has emerged in post-viral syndromes generally. A unifying hypothesis for ME/CFS: the initial infectious trigger seeds multi-organ TRM deposits (gut mucosa, skeletal muscle, dorsal root ganglia, brain parenchyma) that persist indefinitely via IL-15; each subsequent metabolic demand — physical exertion, cognitive load, immune challenge — triggers local TRM reactivation with focal IFN-γ/TNF-α release, producing PEM without detectable systemic inflammation in bulk blood. This framework directly resolves the compartmentalized immunity paradox (Section @oq:invisible-immunity): the pathology is in tissue, blood-based studies miss it.
+
+*Implication for PEM:* PEM onset delay (symptoms peak 12–24h post-exertion) would correspond to TRM reactivation kinetics — slower than immediate cytokine responses, matching clinical observation. Recovery time (days to weeks) reflects the contraction phase of locally reactivated TRM.
+
+*Falsifiable prediction:* (1) Muscle biopsy after a standardized PEM provocation will show CD103+CD69+ TRM density >2× pre-PEM baseline. (2) Blocking IL-15 will reduce PEM frequency in a small controlled trial. (3) CD8+ TRM density in gut biopsy will correlate with PEM severity score.
+
+*Limitations:* Muscle and gut biopsies post-PEM are ethically demanding and rarely performed; the evidence base rests on Light et al. (2009) CD8+ infiltrate data (limited methodology) and cross-disease inference. TRM persistence without ongoing antigen is possible but less stable than antigen-supported TRM; if antigen is absent, TRM would be expected to contract over years — inconsistent with decades-long ME/CFS in some patients unless sustained IL-15 replaces antigenic stimulus. Not yet directly tested in ME/CFS.
+] <hyp:trm-mecfs>
+
+=== ECM1-Axis Dysfunction as a Connective-Tissue-Immune Bridge
+<sec:ecm1-axis-mecfs>
+
+#hypothesis(title: [ECM1 Hypofunction as a Unifying Connective-Tissue-Immune Bridge in ME/CFS])[
+
+*Certainty: 0.40.* Based on ECM1's documented role in LS pathogenesis, its expression in multiple ME/CFS-relevant tissues (gut basement membrane, vascular endothelium, CNS pericytes), and convergent ME/CFS evidence for gut barrier disruption and BBB fragility. No direct ECM1 measurement in ME/CFS exists. Not yet replicated.
+
+ECM1 (extracellular matrix protein 1) regulates basement membrane integrity by binding perlecan and laminin, and modulates angiogenesis and immune cell trafficking across tissue barriers. In LS, anti-ECM1 autoantibodies (present in ~75% of vulvar cases) unmask neoantigens at the dermoepithelial junction and sustain a self-amplifying inflammatory loop @Oyama2022LSGeneticInterplay @Paganelli2025LSCytokines. ECM1 is also expressed in vascular endothelium, gut basement membrane, and CNS pericytes (Human Protein Atlas). If a subset of ME/CFS patients develops anti-ECM1 antibodies or functional ECM1 deficiency — either through autoimmune generation or secondary to chronic Th1-driven basement membrane stress — the consequences would span multiple ME/CFS-relevant compartments simultaneously: increased gut permeability (facilitating LPS translocation and systemic immune activation), impaired BBB integrity (enabling neuroinflammation), and abnormal vascular wall compliance (contributing to orthostatic intolerance).
+
+This would make ECM1 dysfunction a unifying connective-tissue-immune bridge, potentially explaining why ME/CFS patients with LS (or with ECM1 autoantibodies without overt LS) show clustering of gut, neurological, and autonomic symptoms — not as independent comorbidities but as manifestations of a single barrier-integrity deficit.
+
+*Falsifiable prediction:* Anti-ECM1 antibodies will be detectable at >2× population baseline prevalence (expected ~2–5%) in an unselected ME/CFS cohort (n ≥ 200). Seropositive patients will show elevated zonulin (gut permeability marker) and higher S100B variability (BBB stress marker) compared to seronegative ME/CFS controls, independent of disease duration or severity.
+
+*Limitations:* ECM1 autoantibody ELISA is standardized for LS diagnosis but has not been applied to ME/CFS cohorts. Whether ECM1 dysfunction in ME/CFS would produce overt LS phenotype or a subclinical barrier-fragility syndrome is unknown. The multicompartment prediction (gut + BBB + vascular simultaneously) is mechanistically plausible but would require highly specific ECM1 loss to produce; local ECM1 isoform variation may limit systemic effects. ECM1 knockout mice (Hamada 2003 — lipoid proteinosis phenotype) suggest severe loss produces dramatic phenotype, but partial loss/autoantibody-mediated dysfunction may have subtler effects.
+] <hyp:ecm1-axis-mecfs>

@@ -101,7 +101,7 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
     [The Immune System as Canary: Is Immunity Cause or Consequence?],
     [OQ], [---],
     [Alternative: immune findings are downstream of metabolic/neurological disease. Immune cells impaired because _all_ cells impaired. (a) Non-immune cells (fibroblasts) show same metabolic dysfunction. (b) Metabolic interventions improve both immune function and symptoms simultaneously.],
-    [Fibroblast/epithelial cell metabolic profiling. RESETME trial: sustained remission favours immune causality; transient benefit favours canary model.],
+    [Fibroblast/epithelial cell metabolic profiling. RESETME trial: sustained remission favors immune causality; transient benefit favors canary model.],
     [Ch.13],
 
     [Genetic Mitophagy Vulnerability: The Accumulation Threshold Model],
@@ -502,14 +502,14 @@ Motivated by: Reis et al.\ 2026 REVIVE-TOGETHER RCT (fluvoxamine in Long COVID f
 
     [DHEA--S1R Agonism: Mechanism Behind a Common Empirical Report],
     [H], [0.20],
-    [DHEA/DHEA-S have documented S1R agonist activity; reported ME/CFS benefit may reflect S1R pathway rather than androgen receptor signalling. (a) DHEA-S levels inversely correlate with UPR markers in ME/CFS. (b) Ex vivo DHEA reduces ER stress markers in ME/CFS PBMCs at equimolar S1R occupancy vs. fluvoxamine. (c) S1R-selective agonist (pridopidine) produces comparable benefit to high-dose DHEA in crossover pilot.],
+    [DHEA/DHEA-S have documented S1R agonist activity; reported ME/CFS benefit may reflect S1R pathway rather than androgen receptor signaling. (a) DHEA-S levels inversely correlate with UPR markers in ME/CFS. (b) Ex vivo DHEA reduces ER stress markers in ME/CFS PBMCs at equimolar S1R occupancy vs. fluvoxamine. (c) S1R-selective agonist (pridopidine) produces comparable benefit to high-dose DHEA in crossover pilot.],
     [DHEA-S quantification in ME/CFS biobanks --- feasible and some data exist (often reduced). UPR marker co-measurement --- not done. Pridopidine is in Phase 2/3 for Huntington's disease; off-label ME/CFS pilot feasible.],
     [Ch.18 @hyp:dhea-s1r],
 
     [Fluvoxamine in ME/CFS: Does the Long COVID Signal Translate?],
     [OQ], [---],
     [REVIVE-TOGETHER shows FSS benefit (−0.43, 99% PP) in Long COVID fatigue. PEM, cognitive outcomes, and POTS were not measured. Whether benefit extends to formal ME/CFS patients and affects PEM specifically is the critical unknown.],
-    [12-week RDBPC crossover in ICC/CCC-diagnosed ME/CFS measuring FSS, DSQ-PEM, cognitive battery, and WASF3 in PBMCs. CYP1A2/caffeine confound must be prospectively controlled (randomise caffeine abstinence). No such trial registered as of 2026-04.],
+    [12-week RDBPC crossover in ICC/CCC-diagnosed ME/CFS measuring FSS, DSQ-PEM, cognitive battery, and WASF3 in PBMCs. CYP1A2/caffeine confound must be prospectively controlled (randomize caffeine abstinence). No such trial registered as of 2026-04.],
     [Ch.18 @oq:fluvoxamine-mecfs],
 
     [S1R Agonist Class Effects: Does S1R Affinity Rank Predict Efficacy?],
@@ -530,7 +530,7 @@ Motivated by: Reis et al.\ 2026 REVIVE-TOGETHER RCT (fluvoxamine in Long COVID f
 
 === Entries Added 2026-04-10: Vascular Pathology, Endothelial Senescence, and Carotid Body Sensitisation
 
-Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wirth 2024 vascular-primary temporal model; Guo 2025 microfluidic RBC biomechanics; Flaskamp 2022 endothelial progenitor failure; El-Medany 2024 carotid body sensitisation; Edgell 2025 IMT pilot RCT; van Campen 2023 orthostatic hypocapnia quantification.
+Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wirth 2024 vascular-primary temporal model; Guo 2025 microfluidic RBC biomechanics; Flaskamp 2022 endothelial progenitor failure; El-Medany 2024 carotid body sensitization; Edgell 2025 IMT pilot RCT; van Campen 2023 orthostatic hypocapnia quantification.
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -596,7 +596,7 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
     [Edgell 2025 pilot ($n=16$, unblinded) shows promising signals: +1.4 mL/kg/min VO#sub[2], HRV improvement, SF-36 physical function +5.6. Sham-controlled RCT feasible ($n approx 60$). PEM monitoring by DSQ-2 at 24h and 72h post-session — not done in pilot.],
     [Ch.18 @sec:imt-mecfs],
   ),
-  kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular pathology integration (2026-04-10). Covers endothelial senescence, vascular-primary causal model, failed angiogenic compensation, glycocalyx mechanosensing, orthostatic hypocapnia--microclot loop, SA-EV propagation, RBC phosphatidylserine externalisation, carotid body sensitisation, and IMT as autonomic intervention.],
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular pathology integration (2026-04-10). Covers endothelial senescence, vascular-primary causal model, failed angiogenic compensation, glycocalyx mechanosensing, orthostatic hypocapnia--microclot loop, SA-EV propagation, RBC phosphatidylserine externalisation, carotid body sensitization, and IMT as autonomic intervention.],
 ) <tab:hypothesis-registry-2026-04-10>
 ] // end landscape page
 
@@ -820,7 +820,7 @@ NETosis as Metabolic Sink Contributing to Energy Depletion
 [S], [0.30],
 &
 (a) Ongoing NETosis creates energy drain competing with normal cellular demands
-via NADPH oxidase, chromatin decondensation, membrane remodelling.
+via NADPH oxidase, chromatin decondensation, membrane remodeling.
 (b) Energy depletion impairs NET clearance; accumulated NETs drive further
 inflammation; vicious cycle: energy $\to$ NETosis $\to$ inflammation $\to$ energy depletion.
 (c) Dual treatment (NET clearance + mitochondrial support) breaks cycle
@@ -915,7 +915,7 @@ viral load.
 Prospective longitudinal sampling of dUTPase IgG (EBV, HHV-6, VZV) with
 symptom correlation; combination antiviral trial; dUTPase inhibitor
 development.  Anti-dUTPase ELISA exists but is not yet commercially
-standardised.
+standardized.
 &
 Ch.7 @sec:poly-herpesvirus \
 
@@ -941,7 +941,7 @@ IL-2 Pathway Dysregulation
 [H], [0.45],
 &
 (a) IL-2 receptor expression (CD25, CD122, CD132) abnormal.
-(b) JAK/STAT5 downstream signalling dysregulated.
+(b) JAK/STAT5 downstream signaling dysregulated.
 (c) Functional T-cell responses to exogenous IL-2 differ from controls.
 (d) EV IL-2 elevation and epigenetic signature reflect same upstream process.
 &
@@ -961,7 +961,7 @@ Do healthy individuals harbour similar antibodies that only become pathogenic
 under inflammation?
 Would functional receptor-activation assays better identify pathogenic antibodies?
 &
-Cell-based functional assays (receptor internalisation, cAMP);
+Cell-based functional assays (receptor internalization, cAMP);
 head-to-head CellTrend ELISA vs.\ functional assay in same cohort;
 longitudinal pre/post immunoadsorption functional measurement.
 &
@@ -1064,8 +1064,8 @@ Maladaptive Sickness Behavior Program
 [H], [0.50],
 &
 (a) Fatigue correlates with inflammatory markers but not deconditioning metrics.
-(b) Sickness behaviour scale exceeds equally deconditioned non-ME/CFS controls.
-(c) Anti-inflammatory interventions reduce sickness behaviour and cytokines in
+(b) Sickness behavior scale exceeds equally deconditioned non-ME/CFS controls.
+(c) Anti-inflammatory interventions reduce sickness behavior and cytokines in
 parallel.
 (d) TPJ activation (fMRI) during effort-allocation tasks abnormal in ME/CFS.
 &
@@ -1083,7 +1083,7 @@ Glial Maturation Window and Pediatric Recovery
 (a) TSPO-PET shows declining microglial activation in recovering adolescents
 but persistence in duration-matched adults.
 (b) Recovery rates decline sharply at age 22–25, not gradually.
-(c) CSF sCD14 and chitotriosidase normalise in recovering adolescents.
+(c) CSF sCD14 and chitotriosidase normalize in recovering adolescents.
 (d) CSF-1R expression elevated in adolescents vs.\ adults with same duration.
 &
 Age-stratified TSPO-PET; CSF inflammatory markers; CSF-1R ELISA;
@@ -1109,7 +1109,7 @@ Rodent S1 priming model with LPS challenge (foundational);
 CSF neuroinflammation markers (IL-1$beta$, IL-6, TNF-$alpha$) after experimental
 respiratory challenge or natural intercurrent infection;
 longitudinal symptom diary + CSF sampling post-infection;
-TLR4 antagonist proof-of-concept trial (modelling TLR4 blockade).
+TLR4 antagonist proof-of-concept trial (modeling TLR4 blockade).
 &
 Ch.8 @sec:bbb \
 
@@ -1918,7 +1918,7 @@ Exercise Adaptation for ME/CFS Comorbidities
 [], [OQ], [—],
 (a) Does CPET-guided sub-anaerobic exercise improve glycaemic control in
 ME/CFS patients with type 2 diabetes without triggering PEM?
-(b) Can isometric resistance protocols stabilise hEDS joints without worsening
+(b) Can isometric resistance protocols stabilize hEDS joints without worsening
 ME/CFS severity?
 (c) Do non-exercise interventions for depression (ACT, pharmacotherapy) achieve
 equivalent outcomes to exercise-based approaches in PEM-positive patients?
@@ -2196,7 +2196,7 @@ Motivated by: systematic research on lithium, valproate, anticonvulsants, and th
 
     [Can Modifiable Reserve Reducers Be Corrected to Prevent or Treat ME/CFS?],
     [OQ], [—],
-    [Iron repletion (ferritin $> 100$ ng/mL), BH4 cofactor support (folinic acid + vitamin C + iron for recycling; direct BH4 for GCH1 carriers), and cerebral perfusion optimisation (POTS management) are clinically actionable today. Does pre-emptive correction in neurodivergent patients reduce ME/CFS incidence after infection or improve outcomes in established ME/CFS?],
+    [Iron repletion (ferritin $> 100$ ng/mL), BH4 cofactor support (folinic acid + vitamin C + iron for recycling; direct BH4 for GCH1 carriers), and cerebral perfusion optimization (POTS management) are clinically actionable today. Does pre-emptive correction in neurodivergent patients reduce ME/CFS incidence after infection or improve outcomes in established ME/CFS?],
     [No study. All individual interventions are standard care for their respective conditions; the combination framed as metabolic reserve building is novel. Retrospective analysis possible in hEDS clinics with ME/CFS outcome tracking.],
     [Ch.14d @oq:modifiable-reserve-correction],
   ),
@@ -2259,7 +2259,7 @@ Motivated by: systematic research on lithium, valproate, anticonvulsants, and th
     [Impaired mitophagy traps damaged mitochondria in Long COVID],
     [H],
     [0.35],
-    [Muscle biopsy from Long COVID patients with low ccf-mtDNA shows increased PINK1/Parkin co-localisation (stalled mitophagy); falsified if mitophagy markers normal despite low ccf-mtDNA],
+    [Muscle biopsy from Long COVID patients with low ccf-mtDNA shows increased PINK1/Parkin co-localization (stalled mitophagy); falsified if mitophagy markers normal despite low ccf-mtDNA],
     [Muscle biopsy immunofluorescence for PINK1/Parkin + ccf-mtDNA measurement],
     [Ch.6 `hyp:impaired-mitophagy-longcovid`],
   ),
@@ -2307,9 +2307,9 @@ Motivated by: comprehensive pain research synthesis including MCAM study (Fall 2
 
     [Registry Harmonisation for Pain Subtyping],
     [OQ], [---],
-    [MCAM + You+ME + UK ME/CFS Biobank + UK Biobank pain data can be harmonised for phenotype clustering; different registries should identify same cluster structure if pain subtypes are real.],
+    [MCAM + You+ME + UK ME/CFS Biobank + UK Biobank pain data can be harmonized for phenotype clustering; different registries should identify same cluster structure if pain subtypes are real.],
     [Cross-registry analysis with common pain variables. Requires ontology mapping across instruments (BPI, PROMIS, MPQ, custom scales). Feasibility demonstrated in other chronic pain conditions.],
-    [Ch.20 @oq:registry-harmonisation-pain],
+    [Ch.20 @oq:registry-harmonization-pain],
   ),
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from pain mechanisms and assessment research synthesis (2026-03-29). Includes PEM-pain amplification, nociplastic-neuropathic hybrid model, pain phenotype stratification, and assessment instrument gaps.],
 ) <tab:hypothesis-registry-2026-03-29>
@@ -2386,7 +2386,7 @@ Motivated by: integration of Bergen Giardia outbreak evidence (Wensaas 2012, 201
 
     [Cryptosporidium Long-Term Cohort: Generalising Beyond Giardia],
     [OQ], [---],
-    [ME/CFS conversion rate after Cryptosporidium parvum outbreak measurable via Bergen-style design; immunological profile (NK cells, sCD40L) recapitulates or differs from post-Giardia; findings generalise mechanistic hypotheses across two apicomplexan species.],
+    [ME/CFS conversion rate after Cryptosporidium parvum outbreak measurable via Bergen-style design; immunological profile (NK cells, sCD40L) recapitulates or differs from post-Giardia; findings generalize mechanistic hypotheses across two apicomplexan species.],
     [Prospective cohort following documented Cryptosporidium outbreak for 3–10 years with formal ME/CFS ascertainment and immunophenotyping. Outbreaks recurrent in Europe/North America; opportunistic prospective design feasible. No study initiated.],
     [Ch.7 @oq:cryptosporidium-longitudinal],
   ),
@@ -2585,19 +2585,19 @@ requiring expertise outside ME/CFS scope.
 
     [Is Wound Healing Actually Impaired in ME/CFS?],
     [OQ], [---],
-    [No study has directly measured wound healing in ME/CFS. Mechanistic evidence from three independent pathways — NK cell dysfunction (cytotoxicity reduced, Hedges' $g = 0.96$ @Baraniuk2024NKMeta; NK cells regulate wound healing via IFN-γ/GM-CSF @Sobecki2021NKWoundHypoxia; TGF-β disrupts NK-MSC temporal cycling @Petri2017MSCNKTGFb), sympathetic overactivation impairing reepithelialization @Xue2018ANSWoundHealing, and immune exhaustion phenotype @Stanojcic2016ImmuneExhaustionBurns — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. However, wound healing is not a prominent clinical complaint in ME/CFS. Possible explanations: subclinical impairment masked by low wound burden in sedentary patients; compensatory fibrosis; or genuinely preserved healing through uncharacterised mechanisms.],
-    [Three-arm standardised suction blister wound healing assay: ME/CFS patients ($n = 40$) vs sedentary healthy controls ($n = 20$) vs disease controls (FM/MS, $n = 20$), measuring reepithelialization time, histological scar quality, and blister fluid cytokine profiles. Would directly test whether the selective energy dysfunction hypothesis (@hyp:selective-energy) correctly excludes wound healing from spared functions. Never studied (2026).],
+    [No study has directly measured wound healing in ME/CFS. Mechanistic evidence from three independent pathways — NK cell dysfunction (cytotoxicity reduced, Hedges' $g = 0.96$ @Baraniuk2024NKMeta; NK cells regulate wound healing via IFN-γ/GM-CSF @Sobecki2021NKWoundHypoxia; TGF-β disrupts NK-MSC temporal cycling @Petri2017MSCNKTGFb), sympathetic overactivation impairing reepithelialization @Xue2018ANSWoundHealing, and immune exhaustion phenotype @Stanojcic2016ImmuneExhaustionBurns — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. However, wound healing is not a prominent clinical complaint in ME/CFS. Possible explanations: subclinical impairment masked by low wound burden in sedentary patients; compensatory fibrosis; or genuinely preserved healing through uncharacterized mechanisms.],
+    [Three-arm standardized suction blister wound healing assay: ME/CFS patients ($n = 40$) vs sedentary healthy controls ($n = 20$) vs disease controls (FM/MS, $n = 20$), measuring reepithelialization time, histological scar quality, and blister fluid cytokine profiles. Would directly test whether the selective energy dysfunction hypothesis (@hyp:selective-energy) correctly excludes wound healing from spared functions. Never studied (2026).],
     [Ch.6 @oq:wound-healing-mecfs],
 
     [Systemic Tissue Repair Deficit: NK Cells as Repair Coordinators Beyond Skin],
     [Spec], [0.40],
     [If NK cells are upstream regulators of wound healing (@Sobecki2021NKWoundHypoxia) and ME/CFS NK cytotoxicity is halved (@Baraniuk2024NKMeta), the repair deficit should extend to all NK-dependent tissue maintenance: mucosal barrier repair (gut permeability), muscle damage repair (PEM duration), and endothelial repair. Unifies multiple separate pathophysiological findings under a single upstream cause.],
-    [Gut mucosal repair rate (serial lactulose-mannitol permeability after standardised challenge) should correlate with NK cytokine secretion capacity (stimulated IFN-γ/GM-CSF, $r > 0.4$) — not NK cytotoxicity, which is a related but distinct function. Never tested in ME/CFS (2026).],
+    [Gut mucosal repair rate (serial lactulose-mannitol permeability after standardized challenge) should correlate with NK cytokine secretion capacity (stimulated IFN-γ/GM-CSF, $r > 0.4$) — not NK cytotoxicity, which is a related but distinct function. Never tested in ME/CFS (2026).],
     [Ch.6 @spec:systemic-repair-deficit],
 
     [Autonomic Macrophage Polarisation as Unifying Tissue Repair Mechanism],
     [Spec], [0.45],
-    [Sympathetic overactivation favours CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favours CD64+CCR2- pro-repair macrophages (@Xue2018ANSWoundHealing). ME/CFS autonomic imbalance would bias macrophage polarisation toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
+    [Sympathetic overactivation favors CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favors CD64+CCR2- pro-repair macrophages (@Xue2018ANSWoundHealing). ME/CFS autonomic imbalance would bias macrophage polarisation toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
     [ME/CFS patients with higher sympathetic tone (lower HF-HRV) should show slower wound healing, more neuroinflammation (PET), and worse gut permeability, all correlating with the same ANS measure. Not yet tested (2026).],
     [Ch.6 @spec:autonomic-macrophage-repair],
 
@@ -2616,7 +2616,7 @@ requiring expertise outside ME/CFS scope.
     [Riboflavin FAD as Multi-Step Master Rate-Limiter],
     [Spec], [0.42],
     [EGRAC ≥1.3 in ≥30% ME/CFS vs \<10% controls; elevated C4--C18 acylcarnitines in EGRAC-high patients; riboflavin 400 mg/day normalises EGRAC and reduces lactate/pyruvate in responders.],
-    [EGRAC functional assay (cheap, standardised). Riboflavin 400 mg open-label pilot with EGRAC stratification. Never done in ME/CFS. MADD provides disease precedent @Maksoud2021nutraceuticals.],
+    [EGRAC functional assay (cheap, standardized). Riboflavin 400 mg open-label pilot with EGRAC stratification. Never done in ME/CFS. MADD provides disease precedent @Maksoud2021nutraceuticals.],
     [Ch.6 @spec:riboflavin-master],
 
     [Cardiolipin Peroxidation as ROS Damage Convergence Point],
@@ -2634,12 +2634,12 @@ requiring expertise outside ME/CFS scope.
     [CPT1/Malonyl-CoA Switch Is Dysregulated in ME/CFS],
     [OQ], [---],
     [Is the malonyl-CoA-mediated CPT1 inhibition signal abnormal in ME/CFS, altering the carbohydrate-to-fat fuel switching that normally occurs during exercise recovery? Could abnormal CPT1 gating explain the characteristic post-exertional shift toward incomplete fatty acid oxidation?],
-    [Malonyl-CoA measurement in plasma or PBMCs during and after standardised exercise; CPT1 activity assay. Neither measured in ME/CFS (2026). See @sec:cartography-gaps.],
+    [Malonyl-CoA measurement in plasma or PBMCs during and after standardized exercise; CPT1 activity assay. Neither measured in ME/CFS (2026). See @sec:cartography-gaps.],
     [Ch.6 @sec:cartography-gaps],
 
     [NRF2 Pathway Suppression as Unifying Antioxidant Failure],
     [OQ], [---],
-    [Is NRF2 — the master antioxidant transcription factor upstream of MnSOD, GPX1, catalase, and thioredoxin — suppressed in ME/CFS, producing a coordinated failure of the entire antioxidant defence system? Would NRF2 activators (sulforaphane, dimethyl fumarate) normalise downstream antioxidant enzyme levels?],
+    [Is NRF2 — the master antioxidant transcription factor upstream of MnSOD, GPX1, catalase, and thioredoxin — suppressed in ME/CFS, producing a coordinated failure of the entire antioxidant defense system? Would NRF2 activators (sulforaphane, dimethyl fumarate) normalize downstream antioxidant enzyme levels?],
     [NRF2 nuclear translocation assay in PBMCs; ARE-luciferase reporter in patient-derived cells; downstream target mRNAs (NQO1, HO-1, GCLC). NRF2 not measured in ME/CFS (2026). Sulforaphane open-label pilot feasible. See @sec:cartography-gaps.],
     [Ch.6 @sec:cartography-gaps],
 
@@ -2699,7 +2699,7 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
     [KGDHC as the Primary TCA Bottleneck],
     [S], [0.35],
     [KGDHC is more ROS-sensitive than PDC (40--50% inhibition at oxidative-stress-range H#sub[2]O#sub[2]; multiple redox-sensitive cysteine residues). SIRT4 dual-targets both PDC and KGDHC E2. Mid-cycle trap: no overflow valve (unlike PDC→lactate). Paired PDC + KGDHC measurement should show KGDHC reduction exceeding PDC.],
-    [PBMC KGDHC activity assay (NADH production at 340 nm) — standardised protocol available. Muscle biopsy for definitive tissue measurement. Neither measured in ME/CFS (2026).],
+    [PBMC KGDHC activity assay (NADH production at 340 nm) — standardized protocol available. Muscle biopsy for definitive tissue measurement. Neither measured in ME/CFS (2026).],
     [Ch.6 Step 5 @spec:kgdhc-primary-bottleneck],
 
     [Glutathionylation Depletion Spiral],
@@ -2729,7 +2729,7 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
     [Cofactor Recycling Network Failure: FAD as Master Rate-Limiter],
     [S], [0.35],
     [Cofactors form an interdependent recycling network. FAD gates E3 (which recycles lipoic acid AND NAD+), Complex I, Complex II, and glutathione reductase — highest outdegree in the dependency graph. FAD deficiency causes cascading co-deficiency.],
-    [Simultaneous cofactor panel: FAD deficiency (EGRAC ≥ 1.3) should predict highest co-deficiency count. Riboflavin supplementation should partially normalise lipoic acid function and NAD+ status without direct supplementation.],
+    [Simultaneous cofactor panel: FAD deficiency (EGRAC ≥ 1.3) should predict highest co-deficiency count. Riboflavin supplementation should partially normalize lipoic acid function and NAD+ status without direct supplementation.],
     [Ch.6 Step 6 @spec:cofactor-recycling-fad-hub],
 
     [Anti-ANT Complement Fixation on Mitochondrial Membranes],
@@ -2753,13 +2753,13 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
     [Cognitive PEM as Brain PCr Depletion--Repletion Failure],
     [S], [0.30],
     [Mental exertion depletes brain PCr in a pool already running near-empty; impaired mitochondrial function prevents rapid regeneration. The delay in cognitive PEM reflects PCr recovery failure kinetics. Analogous to delayed muscle PCr recovery in Long COVID.],
-    [Brain 31P-MRS after standardised cognitive task (30-min Stroop): greater PCr depletion + slower recovery in ME/CFS vs controls. Technically feasible at 7T but challenging (low SNR, motion).],
+    [Brain 31P-MRS after standardized cognitive task (30-min Stroop): greater PCr depletion + slower recovery in ME/CFS vs controls. Technically feasible at 7T but challenging (low SNR, motion).],
     [Ch.6 Step 8 @spec:cognitive-pem-pcr],
 
     [The Biogenesis Trap: Metabolic Sisyphus],
     [S], [0.25],
     [PGC-1α drives production of new mitochondria that are immediately dysfunctional (WASF3 disrupts supercomplex assembly). Cell wastes ATP on biogenesis with no functional return. If functional yield is sufficiently low, could be worse than no biogenesis: new dysfunctional organelles amplify ROS. WASF3/ER stress should be addressed before stimulating biogenesis.],
-    [ME/CFS muscle: elevated biogenesis markers (import machinery, cardiolipin synthesis) alongside decreased functional respiratory capacity per mitochondrion (CS-normalised Complex IV). WASF3 + PGC-1α acetylation + supercomplex assembly in same biopsies.],
+    [ME/CFS muscle: elevated biogenesis markers (import machinery, cardiolipin synthesis) alongside decreased functional respiratory capacity per mitochondrion (CS-normalized Complex IV). WASF3 + PGC-1α acetylation + supercomplex assembly in same biopsies.],
     [Ch.6 Step 10 @spec:biogenesis-trap],
   ),
   kind: table, supplement: [Table], caption: [Chapter 6 gap brainstorm integration entries (2026-04-12, Session 12): twelve speculations (PDK tissue divergence, glutathionylation spiral, itaconate--aconitase double block, dual-compartment NAD+ paradox, CD38--senescence cycle, ANT complement fixation, astrocyte creatine sink, cognitive PEM via PCr, biogenesis trap) — twelve entries total. Motivated by brainstorm files for G7, G9, G16, G17, G22, G28, G32, G39.],
@@ -2777,7 +2777,7 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
 
     [Vagal C-Fibre Afferent Deafferentation Maintains the Neuroinflammatory Set-Point],
     [S], [0.40],
-    [SFN (reduced IENFD) in ME/CFS damages vagal C-fibre afferents, preventing the brainstem from receiving "periphery is inflamed" signals. The efferent anti-inflammatory reflex is inadequately triggered, and sickness behaviour persists. Vicious cycle: inflammation $arrow.r$ C-fibre damage $arrow.r$ reduced afferent signalling $arrow.r$ impaired reflex $arrow.r$ more inflammation.],
+    [SFN (reduced IENFD) in ME/CFS damages vagal C-fibre afferents, preventing the brainstem from receiving "periphery is inflamed" signals. The efferent anti-inflammatory reflex is inadequately triggered, and sickness behavior persists. Vicious cycle: inflammation $arrow.r$ C-fibre damage $arrow.r$ reduced afferent signaling $arrow.r$ impaired reflex $arrow.r$ more inflammation.],
     [SFN-positive ME/CFS patients should show lower vagal C-fibre conduction (late VEP components >50~ms), higher inflammatory markers, and poorer VNS response than SFN-negative patients. VNS response in SFN-positive limited to autonomic (B-fibre) endpoints. No SFN-stratified VNS trial exists (2026).],
     [Ch.18 @spec:cfibre-deafferentation],
 
@@ -2916,7 +2916,7 @@ Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) @McGrath2026bimodalO
     [DecodeME dataset (n > 17,000 with genetic data) can be stratified by onset age — not yet done. HLA fine-mapping feasible. Twin heritability analysis by onset age requires new cohort.],
     [Ch.5 @oq:bimodal-genetic-architecture; Ch.14d @spec:bimodal-genetic-subtype],
 
-    [Pubertal Immune Remodelling Drives Early-Onset Peak],
+    [Pubertal Immune Remodeling Drives Early-Onset Peak],
     [S], [0.30],
     [Age ~16 coincides with pubertal thymic involution, EBV primary infection timing, and hormonal changes. (a) Early-onset ME/CFS patients have distinct immune profiles vs late onset (T cell subset differences, EBV-specific). (b) Onset-age-specific immune vulnerability window exists around puberty. (c) Sex hormones modulate susceptibility (but McGrath found no gender difference between peaks).],
     [Immune profiling stratified by onset age — not done. EBV-specific T cell assays feasible. Longitudinal adolescent cohort would be ideal but expensive.],
@@ -3483,7 +3483,7 @@ Motivated by: Errico et al.\ 2025 (npj Aging) ANS-aging perspective; supporting 
 
     [ANS Imbalance as Unifying Driver of Accelerated Aging in ME/CFS],
     [H], [0.45],
-    [Chronic sympathetic dominance drives mitochondrial damage (ROS $arrow.r$ mtDNA $arrow.r$ cGAS-STING), immune aging ($beta$-AR desensitisation $arrow.r$ NF-$kappa$B), and metabolic decline (PKA $arrow.r$ AMPK suppression), while reduced vagal tone removes anti-inflammatory brake. (a) HRV correlates with biological aging markers (telomere, epigenetic clock, ccf-mtDNA) within ME/CFS, independent of age. (b) taVNS improves both autonomic metrics and inflammaging markers. (c) $beta$-AR desensitisation correlates with NF-$kappa$B activation in PBMCs.],
+    [Chronic sympathetic dominance drives mitochondrial damage (ROS $arrow.r$ mtDNA $arrow.r$ cGAS-STING), immune aging ($beta$-AR desensitization $arrow.r$ NF-$kappa$B), and metabolic decline (PKA $arrow.r$ AMPK suppression), while reduced vagal tone removes anti-inflammatory brake. (a) HRV correlates with biological aging markers (telomere, epigenetic clock, ccf-mtDNA) within ME/CFS, independent of age. (b) taVNS improves both autonomic metrics and inflammaging markers. (c) $beta$-AR desensitization correlates with NF-$kappa$B activation in PBMCs.],
     [HRV + telomere/methylation clock co-measurement --- feasible in biobanks. taVNS RCT ($n = 40$, sham-controlled) completed data collection 2026 --- results pending. $beta$-AR dose-response assay in PBMCs --- feasible. No published VNS RCT in ME/CFS with results as of 2026-04-20.],
     [Ch.10 @hyp:ans-aging-unifying],
 
@@ -3495,7 +3495,7 @@ Motivated by: Errico et al.\ 2025 (npj Aging) ANS-aging perspective; supporting 
 
     [Brainstem Glial Senescence as Primary Autonomic Dysfunction Driver],
     [S], [0.30],
-    [Senescent brainstem glia (p16#super[INK4a]+) produce SASP cytokines impairing catecholamine signalling in LC/dmVN. Self-reinforcing: sympathetic overdrive $arrow.r$ systemic inflammation $arrow.r$ more glial senescence. (a) PET-TSPO higher in brainstem in ME/CFS with severe autonomic dysfunction. (b) CSF p16 correlates inversely with HRV. (c) Senolytics improve autonomic metrics and CSF catecholamines.],
+    [Senescent brainstem glia (p16#super[INK4a]+) produce SASP cytokines impairing catecholamine signaling in LC/dmVN. Self-reinforcing: sympathetic overdrive $arrow.r$ systemic inflammation $arrow.r$ more glial senescence. (a) PET-TSPO higher in brainstem in ME/CFS with severe autonomic dysfunction. (b) CSF p16 correlates inversely with HRV. (c) Senolytics improve autonomic metrics and CSF catecholamines.],
     [PET-TSPO brainstem ROI analysis --- feasible as re-analysis of existing data. CSF p16 ELISA --- feasible. Senolytic trial (fisetin/dasatinib+quercetin) --- ongoing in aging research; none in ME/CFS.],
     [Ch.8 @spec:brainstem-glial-senescence],
 
@@ -3871,7 +3871,7 @@ Motivated by: Wirth 2026 (N=36,332 ICD pre-diagnostic data), Collin 2018 (ALSPAC
 
     [Adaptation Debt — Failed Mitochondrial Biogenesis Despite Training],
     [S], [0.40],
-    [PGC-1$alpha$ signalling impaired → training stress accumulates without supercompensation. Pre-illness biopsies should show reduced biogenesis response to exercise.],
+    [PGC-1$alpha$ signaling impaired → training stress accumulates without supercompensation. Pre-illness biopsies should show reduced biogenesis response to exercise.],
     [Muscle biopsy + exercise challenge protocol in at-risk athletes. Rutherford 2016 consistent but post-diagnosis.],
     [Ch.5 @spec:adaptation-debt],
 
@@ -4044,7 +4044,7 @@ Motivated by: Jahanbani et al.\ 2024 @Jahanbani2024severity — extended extreme
 
     [Piecewise Recovery Scaling: Cliff and Floor Regimes at Severe/Extremely Severe Levels],
     [P], [0.45],
-    [Recovery time $tau_"rec"(B)$ follows three biophysically distinct regimes: plateau ($B > 0.65$), cliff ($0.10 < B lt.eq 0.65$, steep rise from ATP synthase threshold), floor ($B lt.eq 0.10$, constant-high from collapsed repair). (a) Log-log plot of recovery time vs $B$ shows two slope changes (cliff steepening, floor flattening). (b) In floor regime, ES-C/D/E show similarly slow improvement per band. (c) Patients at ES-D/E show biological improvement (cytokine normalisation, HRV recovery) weeks before perceptible functional gain.],
+    [Recovery time $tau_"rec"(B)$ follows three biophysically distinct regimes: plateau ($B > 0.65$), cliff ($0.10 < B lt.eq 0.65$, steep rise from ATP synthase threshold), floor ($B lt.eq 0.10$, constant-high from collapsed repair). (a) Log-log plot of recovery time vs $B$ shows two slope changes (cliff steepening, floor flattening). (b) In floor regime, ES-C/D/E show similarly slow improvement per band. (c) Patients at ES-D/E show biological improvement (cytokine normalization, HRV recovery) weeks before perceptible functional gain.],
     [Longitudinal functional capacity monitoring with wearables in extremely severe patients (Bell score $lt.eq$ 10) over $gt.eq 12$ months. Paired biological markers + functional assessment at monthly intervals. Jahanbani 2024 $n = 1$ trajectory consistent; cohort validation needed. ACHTSAM pilot @Fricke2026achtsam may provide severity-tolerant protocol.],
     [Ch.31 @eq:recovery-scaling],
 
@@ -4112,7 +4112,7 @@ Motivated by: creative synthesis of piecewise biophysical recovery scaling impli
     [ICU-Acquired Weakness: Energy-Limited Repair Scaling Parallel],
     [S], [0.35],
     [ICUAW, severe TBI, advanced sarcopenia share $1\/B^n$ scaling ($n in [1.5, 2.5]$). Unifying "energy-limited repair" framework.],
-    [Cross-condition normalised recovery trajectory comparison. FSS-ICU log-spacing is indirect evidence. Formal $n$ estimation needed.],
+    [Cross-condition normalized recovery trajectory comparison. FSS-ICU log-spacing is indirect evidence. Formal $n$ estimation needed.],
     [Ch.32 @spec:icuaw-parallel],
 
     [Repair Multiplier Priority at Extremely Severe End],
@@ -4512,7 +4512,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [DRG-IgG as Afferent-Gain Amplifier in PEM],
     [H], [0.45],
     [QST thresholds drop further post-exertion in IgG-DRG-positive vs IgG-DRG-negative ME/CFS patients. Microneurography C-fibre discharge correlates with PEM severity.],
-    [QST at baseline + post-exertion challenge; C-fibre microneurography. Passive transfer behavioural assays (running-wheel post-exertion).],
+    [QST at baseline + post-exertion challenge; C-fibre microneurography. Passive transfer behavioral assays (running-wheel post-exertion).],
     [Ch.7 @hyp:drg-igg-pem-amplifier],
 
     [Two-Compartment ME/CFS: Peripheral IgG--DRG vs Central Brain-Fog],
@@ -4534,7 +4534,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.7 @spec:fc-glycoprofile-pathogenicity],
 
   ),
-  caption: [Entries added 2026-04-30: IgG passive transfer and DRG-mediated pain sensitisation --- Mignolet 2026, Goebel 2021, Chen 2026, McAlpine 2024.],
+  caption: [Entries added 2026-04-30: IgG passive transfer and DRG-mediated pain sensitization --- Mignolet 2026, Goebel 2021, Chen 2026, McAlpine 2024.],
   kind: table,
 ) <tab:hypothesis-registry-2026-04-30-passive-transfer>
 ] // end landscape page
@@ -4826,8 +4826,8 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
 
     [ME/CFS Skin Biopsy Senescence Score as Tissue-Level HSAT2 Stromal Validation],
     [OQ], [---],
-    [p16+ SA-β-gal+ fibroblast burden AUC ≥ 0.70 for ME/CFS vs age-matched controls; HSAT2-positive and p16+ cells co-localise in same biopsy.],
-    [4 mm skin punch biopsy. p16 IHC + SA-β-gal + HSAT2 RNA-FISH. n=20+20. Co-localisation analysis.],
+    [p16+ SA-β-gal+ fibroblast burden AUC ≥ 0.70 for ME/CFS vs age-matched controls; HSAT2-positive and p16+ cells co-localize in same biopsy.],
+    [4 mm skin punch biopsy. p16 IHC + SA-β-gal + HSAT2 RNA-FISH. n=20+20. Co-localization analysis.],
     [Ch.20 @oq:skin-senescence-biopsy],
 
   ),

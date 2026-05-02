@@ -175,7 +175,7 @@ Individual responses vary widely; objective symptom tracking (postprandial fatig
 === Cognitive Energy Envelope for ADHD + ME/CFS
 <subsec:cognitive-pacing-adhd>
 
-Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that the patient can prospectively monitor their energy state and voluntarily limit activity. ADHD fundamentally compromises both abilities: poor prospective self-monitoring, hyperfocus episodes where time awareness vanishes, and dopamine-seeking behaviour that overrides energy conservation. A modified protocol addresses these ADHD-specific barriers.
+Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that the patient can prospectively monitor their energy state and voluntarily limit activity. ADHD fundamentally compromises both abilities: poor prospective self-monitoring, hyperfocus episodes where time awareness vanishes, and dopamine-seeking behavior that overrides energy conservation. A modified protocol addresses these ADHD-specific barriers.
 
 + *External timers, not internal awareness.* Set physical timers for 25-minute cognitive blocks (modified Pomodoro). ADHD patients cannot reliably sense energy depletion until crash.
 + *Mandatory 10-minute rest between blocks.* Non-negotiable, even if "feeling fine." The micro-PEM hypothesis (@spec:focal-pem-threshold) predicts damage accumulates before symptoms appear.
@@ -186,7 +186,7 @@ Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that 
 
 #speculation(title: [ADHD-Adapted Cognitive Pacing Protocol])[
 
-*Certainty: 0.35.* An externally-enforced cognitive pacing protocol adapted for ADHD neurology — using timers, hard caps, and accountability partners instead of self-monitoring — should reduce cognitive PEM frequency in ADHD + ME/CFS patients compared to standard pacing advice alone. No evidence exists for this specific protocol. The rationale combines ADHD behavioural management literature with ME/CFS pacing literature and Architecture C metabolic reserve framing (@sec:architecture-c-metabolic-reserve). Zero cost, implementable immediately. Not yet replicated.
+*Certainty: 0.35.* An externally-enforced cognitive pacing protocol adapted for ADHD neurology — using timers, hard caps, and accountability partners instead of self-monitoring — should reduce cognitive PEM frequency in ADHD + ME/CFS patients compared to standard pacing advice alone. No evidence exists for this specific protocol. The rationale combines ADHD behavioral management literature with ME/CFS pacing literature and Architecture C metabolic reserve framing (@sec:architecture-c-metabolic-reserve). Zero cost, implementable immediately. Not yet replicated.
 
 ] <spec:adhd-cognitive-pacing>
 
@@ -289,7 +289,7 @@ Nutritional status influences immune function, mitochondrial efficiency, gut bar
 
 The following principles apply broadly to ME/CFS patients regardless of specific dietary pattern:
 
-    - *Nutrient density*: Prioritise whole, minimally processed foods that deliver maximum micronutrients per calorie. ME/CFS patients with reduced appetite or energy for food preparation are at particular risk of micronutrient deficiency
+    - *Nutrient density*: Prioritize whole, minimally processed foods that deliver maximum micronutrients per calorie. ME/CFS patients with reduced appetite or energy for food preparation are at particular risk of micronutrient deficiency
     - *Anti-inflammatory emphasis*: Emphasize omega-3 fatty acids (fatty fish, walnuts, flaxseed), colorful fruits and vegetables (polyphenols, flavonoids), and herbs and spices (turmeric, ginger) with documented anti-inflammatory properties. Minimize pro-inflammatory foods: refined sugars, trans fats, processed meats, and excessive omega-6 fatty acids
     - *Adequate protein*: 1.0–1.2 g/kg/day to prevent muscle wasting in patients with limited activity. Distribute protein across meals to maximize muscle protein synthesis
     - *Hydration*: 2–3 liters of fluid daily, critical for blood volume maintenance in patients with orthostatic intolerance. Electrolyte-supplemented fluids (oral rehydration salts or electrolyte powders) are more effective than water alone
@@ -605,7 +605,7 @@ The following comorbidities illustrate the tension:
 *The CPET-Based Activity Prescription Framework*
 
 The resolution of the comorbidity exercise conflict lies in
-_individualised, physiology-guided activity prescription_ rather than
+_individualized, physiology-guided activity prescription_ rather than
 population-based exercise guidelines. The Workwell Foundation's two-day
 cardiopulmonary exercise test (CPET) protocol provides the scientific basis
 for this approach @Stevens2018CPETmethod @Davenport2010PTmodel.
@@ -647,8 +647,8 @@ comorbidity management @Gloeckl2024LCexercise.
       heart rate sets the intensity ceiling. Short sessions (5–15min),
       sub-anaerobic intensity, with 48–72h monitoring for delayed PEM.
     - *Severe PEM:* Pacing strategies only. No structured exercise
-      programme. Comorbidity management must rely on pharmacological and
-      non-exercise interventions (e.g., insulin sensitisers for diabetes,
+      program. Comorbidity management must rely on pharmacological and
+      non-exercise interventions (e.g., insulin sensitizers for diabetes,
       bisphosphonates for osteoporosis, psychotherapy for depression).
 
 A systematic review of physiotherapy evidence in ME/CFS reinforces this
@@ -666,7 +666,7 @@ falls into the mild-to-moderate PEM tier, the following adaptations apply:
 
     - *For diabetes/metabolic syndrome:* Substitute prolonged
       aerobic sessions with multiple daily micro-sessions (3–5min walking
-      or recumbent cycling) below VAT heart rate. Prioritise dietary
+      or recumbent cycling) below VAT heart rate. Prioritize dietary
       management and pharmacotherapy (metformin, GLP-1 agonists) as primary
       interventions, using activity as an adjunct only when tolerated.
 
@@ -680,7 +680,7 @@ falls into the mild-to-moderate PEM tier, the following adaptations apply:
       holds at 30–50% maximal effort) and low-load resistance band work,
       which have lower cardiovascular demand than dynamic
       exercise @Zabriskie2022hEDSresistance. Perform in supine or
-      seated position. Target specific joint stabilisation rather than
+      seated position. Target specific joint stabilization rather than
       general fitness.
 
     - *For osteoporosis:* When weight-bearing exercise is
@@ -803,7 +803,7 @@ The central principle for meditation and rest practices in ME/CFS is that _cogni
 
 ==== Evidence: Mind-Body Interventions in ME/CFS
 
-A systematic review of 12 studies (7 RCTs) evaluating mind-body interventions in ME/CFS --- including MBSR, MBCT, relaxation training, Qigong, and isometric yoga --- found that 9 of 12 reported fatigue improvement and 8 of 12 showed anxiety/depression reduction @KhanpourArdestani2021mindBody. Meta-analysis of mindfulness-based therapies across somatisation disorders (including CFS) showed a small-to-moderate effect on symptom severity (SMD $= -0.40$) and quality of life (SMD $= 0.39$) @Lakhan2013MBT. A controlled study of a 10-week MBSR program in women with CFS, fibromyalgia, and multiple chemical sensitivity ($n = 76$; 50 intervention, 26 waitlist control) found statistically significant improvements maintained at 3-month follow-up @Sampalli2009MBSR.
+A systematic review of 12 studies (7 RCTs) evaluating mind-body interventions in ME/CFS --- including MBSR, MBCT, relaxation training, Qigong, and isometric yoga --- found that 9 of 12 reported fatigue improvement and 8 of 12 showed anxiety/depression reduction @KhanpourArdestani2021mindBody. Meta-analysis of mindfulness-based therapies across somatization disorders (including CFS) showed a small-to-moderate effect on symptom severity (SMD $= -0.40$) and quality of life (SMD $= 0.39$) @Lakhan2013MBT. A controlled study of a 10-week MBSR program in women with CFS, fibromyalgia, and multiple chemical sensitivity ($n = 76$; 50 intervention, 26 waitlist control) found statistically significant improvements maintained at 3-month follow-up @Sampalli2009MBSR.
 
 #limitation(title: [Mind-Body Evidence Limitations])[
 All studies suffer from heterogeneous diagnostic criteria, small samples, and high risk of bias @KhanpourArdestani2021mindBody @Merkes2010MBSR. No study distinguished whether benefit derives from the _rest component_ (lying during body scan, reduced activity), the _cognitive mindfulness component_, or _social contact_ in group formats. Adverse event tracking is absent in most studies, meaning PEM exacerbation from cognitive demands may be underreported.
@@ -850,7 +850,7 @@ Lying down without sleeping has independent physiological value for ME/CFS patie
 
 *Excessive horizontal rest without activity:* While horizontal rest has physiological value (see above), complete inactivity over weeks to months carries secondary risks: cardiovascular deconditioning (worsening orthostatic intolerance), muscle mass loss (accelerating functional decline), and reduced circadian entrainment (weakening the light-dark cycle that anchors sleep timing). The goal is structured rest integrated with minimal sustainable activity --- not perpetual bed rest. See Section @sec:klimas-program for the structured reconditioning approach that balances rest with brief activity bouts.
 
-*Hyperventilation-inducing practices:* Prolonged deep breathing exercises, extended breath-holds, or vigorous pranayama can trigger respiratory alkalosis and autonomic destabilisation. Brief, gentle diaphragmatic breathing (Section @sec:breathing-co2) is appropriate; extended breathwork protocols are not.
+*Hyperventilation-inducing practices:* Prolonged deep breathing exercises, extended breath-holds, or vigorous pranayama can trigger respiratory alkalosis and autonomic destabilization. Brief, gentle diaphragmatic breathing (Section @sec:breathing-co2) is appropriate; extended breathwork protocols are not.
 ] <warn:ch17-meditation-pitfalls>
 
 === Biofeedback
@@ -861,12 +861,12 @@ Biofeedback provides real-time physiological feedback that patients can use to l
     - *Temperature biofeedback*: Learning to increase peripheral hand temperature through relaxation. Useful for patients with Raynaud's phenomenon or cold extremities from autonomic dysfunction
     - *Electrodermal activity*: Monitoring skin conductance as a proxy for sympathetic activation. Can help patients identify and reduce stress responses they may not consciously recognize
 
-== Breathing Interventions and CO#sub[2] Optimisation
+== Breathing Interventions and CO#sub[2] Optimization
 <sec:breathing-co2>
 
 === Carbon Dioxide as Vasodilator and Oxygen Facilitator
 
-CO#sub[2] serves two critical physiological roles often overlooked in ME/CFS: it is a potent vasodilator (opening blood vessels to increase tissue perfusion) and it facilitates oxygen release from haemoglobin via the Bohr Effect. Low CO#sub[2] levels therefore impair both blood delivery and cellular oxygenation simultaneously, compounding the hypoperfusion discussed in Chapter @ch:cardiovascular.
+CO#sub[2] serves two critical physiological roles often overlooked in ME/CFS: it is a potent vasodilator (opening blood vessels to increase tissue perfusion) and it facilitates oxygen release from hemoglobin via the Bohr Effect. Low CO#sub[2] levels therefore impair both blood delivery and cellular oxygenation simultaneously, compounding the hypoperfusion discussed in Chapter @ch:cardiovascular.
 
 #fhypothesis(title: [Low CO#sub[2] in ME/CFS Is a Consequence of Impaired Muscular Respiration], falsifiability: [weakly], justification: [Falsified if ME/CFS patients with normal muscular O#sub[2] extraction (by invasive CPET) still show low ETCO#sub[2], or if respiratory rate is elevated rather than respiratory depth])[
 ME/CFS patients exhibit low end-tidal CO#sub[2] (ETCO#sub[2]), but this appears to result from impaired cellular respiration rather than primary hyperventilation. Wood et al. (2022) found that 74% of Long~COVID patients had ETCO#sub[2] below 35~mmHg _despite normal respiratory rate_ @Wood2022etco2. Natelson identified "hyperpnea" (deeper breathing) rather than tachypnea (faster breathing) in ME/CFS---a compensatory response to poor muscular O#sub[2] extraction. Rossman and Van der Togt (2023) proposed that intramuscular acidosis from anaerobic metabolism drives respiratory compensation @VanDerTogt2023acidbase.
@@ -887,7 +887,7 @@ Even if low CO#sub[2] in ME/CFS is confirmed as a consequence of impaired muscul
 
 === Buteyko Breathing Method
 
-The Buteyko Method, developed by Ukrainian physician Konstantin Buteyko (1923--2003), aims to normalise breathing patterns by reducing breathing depth to build CO#sub[2] levels. The core measurement is the "Control Pause": the time one can comfortably hold the nose after a normal exhalation before the first distinct urge to breathe. A longer Control Pause reflects higher baseline CO#sub[2] and better CO#sub[2] tolerance.
+The Buteyko Method, developed by Ukrainian physician Konstantin Buteyko (1923--2003), aims to normalize breathing patterns by reducing breathing depth to build CO#sub[2] levels. The core measurement is the "Control Pause": the time one can comfortably hold the nose after a normal exhalation before the first distinct urge to breathe. A longer Control Pause reflects higher baseline CO#sub[2] and better CO#sub[2] tolerance.
 
 === ME/CFS Adaptation
 
@@ -895,7 +895,7 @@ The Buteyko Method, developed by Ukrainian physician Konstantin Buteyko (1923--2
 Some Buteyko practitioners claim chronic hyperventilation _causes_ ME/CFS. The evidence discussed above suggests the reverse: ME/CFS causes low CO#sub[2]. Standard Buteyko targets (40+ second Control Pause, 3--4 hours daily practice) are unrealistic and potentially harmful for ME/CFS patients. The adapted approach below uses gentle techniques with realistic goals.
 ]
 
-Rosalba Courtney (Australian PhD specialising in dysfunctional breathing in ME/CFS) advises that ME/CFS hyperventilation is driven by mitochondrial and pulmonary limitations, requiring a gentle rather than aggressive approach:
+Rosalba Courtney (Australian PhD specializing in dysfunctional breathing in ME/CFS) advises that ME/CFS hyperventilation is driven by mitochondrial and pulmonary limitations, requiring a gentle rather than aggressive approach:
 
     - *Realistic targets:* Starting Control Pause typically 5--15 seconds; achievable target 20 seconds (a meaningful physiological improvement); 40+ seconds unrealistic while ill
     - *Daily habits:* Nasal breathing during the day (mouth breathing loses CO#sub[2]); mouth taping at night with hypoallergenic tape; walking at a pace that does not deepen breathing
@@ -934,7 +934,7 @@ This protocol is based on clinical observation (reported by Ussher 2025 @Ussher2
 <sec:compression-stockings>
 
 #clinical-finding(title: [Compression Stockings Halve Cerebral Blood Flow Decline During Orthostatic Stress])[
-Visser, Van Campen, and Rowe (2022) conducted a randomised crossover trial in 16 ME/CFS patients using knee-high 20--30~mmHg medical-grade compression stockings during tilt-table testing @VisserVanCampenRowe2022compression.
+Visser, Van Campen, and Rowe (2022) conducted a randomized crossover trial in 16 ME/CFS patients using knee-high 20--30~mmHg medical-grade compression stockings during tilt-table testing @VisserVanCampenRowe2022compression.
 
     - _Without stockings:_ Cerebral blood flow reduced approximately 30% when upright
     - _With stockings:_ Cerebral blood flow reduced approximately 14% when upright
@@ -950,7 +950,7 @@ In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/PO
 
     + *Head-of-bed elevation (10–15 degrees).* Improves cerebral venous drainage during sleep, enhancing glymphatic clearance and reducing morning brain fog.
     + *Graduated compression (abdominal binder + thigh-high stockings, 30–40 mmHg).* Reduces venous pooling, improves venous return and cardiac output, increases cerebral blood flow. Abdominal binder particularly relevant for reclined/bedbound patients.
-    + *Fluid and salt loading (2–3 L fluid + 5–10 g NaCl daily).* Expands plasma volume. Contraindicated in hypertension. Monitor for oedema. Also use caution in MCAS (GI intolerance, mast cell instability with fluid shifts) and renal impairment. Patients already on fludrocortisone or midodrine should coordinate salt loading with their prescriber — the combination risks volume overload and supine hypertension.
+    + *Fluid and salt loading (2–3 L fluid + 5–10 g NaCl daily).* Expands plasma volume. Contraindicated in hypertension. Monitor for edema. Also use caution in MCAS (GI intolerance, mast cell instability with fluid shifts) and renal impairment. Patients already on fludrocortisone or midodrine should coordinate salt loading with their prescriber — the combination risks volume overload and supine hypertension.
     + *Postural optimization for cognitive work.* Reclined desk position (30–45 degree recline) for all cognitive tasks. Removes the orthostatic component of cerebral hypoperfusion during the activity most likely to cause cognitive PEM.
     + *Counterpressure manoeuvres before and during cognitive effort.* Not just for presyncope — proactive use during any sustained cognitive work to maintain cerebral perfusion.
 
@@ -974,7 +974,7 @@ The Perrin Technique, developed by British osteopath Dr. Raymond Perrin from 198
 *Craniocervical considerations:* Bragée et al. (2020) performed MRI on 229 ME/CFS patients and found craniocervical obstructions in approximately 80% @Bragee2020. This suggests structural spinal issues may be more prevalent in severe disease, though the direction of causality remains unclear.
 
 #limitation(title: [Evidence Base for Perrin Technique])[
-No randomised controlled trial of the Perrin Technique exists for ME/CFS specifically. The Long~COVID study was uncontrolled ($n = 20$). The diagnostic study is promising but requires independent replication. Cost and treatment duration (weekly sessions for 3 months, then tapering over ~1 year) present accessibility barriers.
+No randomized controlled trial of the Perrin Technique exists for ME/CFS specifically. The Long~COVID study was uncontrolled ($n = 20$). The diagnostic study is promising but requires independent replication. Cost and treatment duration (weekly sessions for 3 months, then tapering over ~1 year) present accessibility barriers.
 ]
 
 *Combination hypothesis:* See Section @sec:csf-drainage-synergy for a proposed synergistic combination with carbonic anhydrase inhibitors targeting glymphatic clearance failure from both sides (reduce CSF input + improve drainage output).
@@ -1171,7 +1171,7 @@ Transcutaneous auricular vagus nerve stimulation (taVNS) delivers low-intensity 
 
 === Rationale for ME/CFS
 
-ME/CFS is characterised by sympathovagal imbalance — reduced heart rate variability, orthostatic tachycardia, and impaired vagal tone — alongside chronic low-grade neuroinflammation. taVNS addresses both pathways simultaneously: (1) direct parasympathetic augmentation improves HRV and may reduce sympathoadrenal load; (2) vagal afferent stimulation activates the cholinergic anti-inflammatory pathway, suppressing microglial activation and peripheral cytokine release.
+ME/CFS is characterized by sympathovagal imbalance — reduced heart rate variability, orthostatic tachycardia, and impaired vagal tone — alongside chronic low-grade neuroinflammation. taVNS addresses both pathways simultaneously: (1) direct parasympathetic augmentation improves HRV and may reduce sympathoadrenal load; (2) vagal afferent stimulation activates the cholinergic anti-inflammatory pathway, suppressing microglial activation and peripheral cytokine release.
 
 If the PTPRN2 hypomethylation finding of Chalder and Moreau reflects chronic sympathoadrenal overload as a compensatory epigenetic response @ChalderMoreau2026ptprn2, reducing sympathetic demand via taVNS represents a physiological upstream intervention. The hypothesis predicts that sustained taVNS reduces transcriptional demand at the _PTPRN2_ locus and permits partial methylation renormalization over weeks-to-months — a mechanism that would be testable via serial saliva methylation sampling.
 
@@ -1206,13 +1206,43 @@ This concern is speculative — no ME/CFS heat-exposure data exists for exosomal
 
 *(Certainty: 0.25 — mechanistic inference from HSF1-HSAT2 biology; no direct ME/CFS heat exposure data.)*
 
-HSAT2 pericentromeric repeat transcription is Pol II-dependent and strongly upregulated by HSF1, the heat-shock transcription factor activated by thermal and oxidative stress @Evdokimova2019HSAT2exosome. In the proposed exosomal loop model, any trigger that activates HSF1 could transiently increase HSAT2 EV release and re-inoculate circulating myeloid cells with immunosuppressive cargo.
+HSAT2 pericentromeric repeat transcription is Pol II-dependent and strongly upregulated by HSF1, the heat-shock transcription factor. Eymery et al.\ demonstrated directly that HSF1 binds satellite II (HSAT2) and satellite III sequences at pericentromeric regions and drives their transcription under heat shock at 42°C @Eymery2010HSF1SatII. Decottignies et al.\ confirmed that the heat-shock pathway (not DNA methylation state) is the primary determinant of satellite 2 RNA expression in vivo; HSF1 binding sites are present within the Sat2 sequence, and Sat2 expression correlates strongly with HSP70 levels in melanoma tissue (R = 0.69, p = 0.01) @Decottignies2012Sat2heatshock. In the proposed exosomal loop model, any trigger that activates HSF1 at HSAT2 loci could transiently increase HSAT2 EV release and re-inoculate circulating myeloid cells with immunosuppressive cargo @Evdokimova2019HSAT2exosome.
 
-Popular thermal interventions in chronic fatigue and post-viral illness (infrared sauna, hot baths, thermotherapy) produce documented elevations in HSF1 activity and heat-shock protein expression. If a patient is in the "HSAT2-high" subgroup — with an active exosomal loop — thermal stress could amplify the loop rather than provide the perceived benefits (muscle relaxation, vasodilation).
+*HSF1 threshold context:* The standard HSF1 activation threshold for nuclear stress body (nSB) formation in most human cell lines is 42°C @Eymery2010HSF1SatII. T lymphocytes are an exception: physiological fever-range temperature (39°C) activates HSF1 in primary T cells and induces HSP70 @Murapa2007HSF1fever, though nSB formation at this lower temperature has not been documented in T cells. Exercise alone (40 min cycling at 20°C ambient, muscle temperature ~38.9°C) increased HSF1 DNA binding by ~29% in human vastus lateralis. Standard infrared sauna (55–60°C ambient) and hot baths reach body surface temperatures well below 42°C for most individuals; core temperature during a 15-min sauna typically rises by only 0.5–1.5°C. Whether physiological sauna conditions activate HSF1 at HSAT2 loci in immune cells or stromal fibroblasts is untested.
 
-*Falsifiable prediction:* In HSAT2-high patients (upper tercile by plasma EV assay), a standardised infrared sauna session (15 min, 55°C) will produce a measurable rise in plasma exosomal HSAT2 at 6–24 h post-exposure. In HSAT2-low patients, no rise will occur. Adverse symptomatic response (next-day fatigue increase) will correlate with the HSAT2 rise.
+*Important mechanistic complexity:* Oxidative stress alone does not fully recapitulate the heat-shock transcriptional program. Himanen et al.\ demonstrated that under oxidative stress, HSF1 binds a distinct set of promoters and enhancers without triggering RNA Pol II pause-release at heat-shock-specific targets @Himanen2022HSFoxidative. After H2O2 (200 µM), fewer than 5% of cells form only 1–2 tiny nSBs, orders of magnitude below heat-shock @Valgardsdottir2008SatIIIstress. A second derepression route exists via CTCF: HSAT2 RNA in senescent cells disrupts CTCF chromatin binding and promotes inflammatory gene expression; oxidative stress can reduce CTCF expression, opening this chromatin topology route independently of HSF1 @Miyata2021HSAT2senescence. This means both heat and oxidative stress are candidate HSAT2 triggers, but through distinct mechanisms.
 
-*Clinical implication:* Until HSAT2 stratification testing is available, thermal interventions should be used cautiously and below temperatures that produce clinically apparent heat-shock responses (skin flushing, marked sweating). Any patient who consistently reports next-day fatigue after sauna or hot-bath use should be considered a potential HSAT2-responder and may benefit from avoidance.
+*Clinical data in ME/CFS:* Two small studies examined Waon thermal therapy (far-infrared sauna 60°C, 15 min) in CFS patients. Soejima et al.\ (n=10, no control, 5×/week × 4 weeks) reported significant improvements in fatigue, mood, and performance status with no adverse events @Soejima2015WaonCFS. A prior case report (Masuda & Tei 2005, n=2) described dramatic improvement in fatigue, pain, and sleep. Neither study measured HSF1 activity or HSAT2 levels. Evidence for sauna benefit is therefore weak-positive but from very small uncontrolled studies; evidence for HSAT2-mediated harm is currently zero (mechanistic hypothesis only).
 
-*Limitations:* Entirely speculative; no ME/CFS data for HSAT2 EV changes after heat exposure. Many patients benefit from warm (not hot) baths without apparent adverse effect; the threshold temperature and duration for HSF1 induction may be well above what most patients use. Not replicated.
+*Antioxidant pre-treatment as partial mitigation (speculative):* If HSF1 activation is the key HSAT2 trigger, antioxidant pre-treatment (NAC, vitamin C) might attenuate the heat-induced ROS-p38MAPK arm of HSF1 activation. NAC pretreatment blocked 99% of p38MAPK phosphorylation after heat shock in fibroblasts @MustafiBanerjeee2009NAC. However, in human exercise, NAC infusion did NOT suppress HSP70 mRNA, suggesting the protein-denaturation arm of HSF1 activation dominates over the ROS arm under physiological stress @Petersen2012NACexercise. Antioxidant pre-treatment may thus provide only partial HSAT2 risk mitigation during sauna sessions.
+
+*Falsifiable prediction:* In HSAT2-high patients (upper tercile by plasma EV assay), a standardized infrared sauna session (15 min, 55°C) will produce a measurable rise in plasma exosomal HSAT2 at 6–24 h post-exposure. In HSAT2-low patients, no rise will occur. Adverse symptomatic response (next-day fatigue increase) will correlate with the HSAT2 rise. If HSAT2 does not rise after any thermal exposure, the HSF1-HSAT2 pathway is not operative at physiological sauna temperatures.
+
+*Clinical implication:* Until HSAT2 stratification testing is available, thermal interventions should be used cautiously and below temperatures that produce clinically apparent heat-shock responses (skin flushing, marked sweating). Any patient who consistently reports next-day fatigue after sauna or hot-bath use should be considered a potential HSAT2-responder and may benefit from avoidance or dose-reduction. Warm (not hot) bathing is unlikely to reach the HSAT2-inducing threshold in most patients.
+
+*Limitations:* Entirely speculative; no ME/CFS data for HSAT2 EV changes after heat exposure. All HSAT2/Sat2 heat-shock data come from cancer cell lines (HeLa, melanoma); whether normal immune cells or non-transformed fibroblasts respond identically to the 42°C threshold is untested. The sauna temperatures used in the Soejima 2015 ME/CFS study (60°C ambient, core temperature rise ~1°C) may not activate HSF1 at HSAT2 loci in most patients. Many patients report benefit from warm baths without apparent adverse effect. Not replicated.
 ] <spec:heat-hsat2-caution>
+
+#speculation(title: [Sleep Optimization as SIRT1/NAD+-Mediated HSAT2 Silencing Support])[
+
+
+*(Certainty: 0.25 — NAD+ circadian regulation and SIRT1 activity documented; direct sleep-HSAT2 link absent.)*
+
+NAD+ availability has robust circadian regulation, with synthesis peaking during the active phase and declining with sleep restriction. SIRT1 activity depends directly on the NAD+/NADH ratio; sleep loss reduces SIRT1 activity via NAD+ depletion @BoschPresegue2011SIRT1SUV39H1. The proposed SIRT1-SUV39H1-HSAT2 chain @spec:sirt1-hsat2-upstream predicts that any intervention that restores NAD+ — including adequate sleep — would support pericentromeric H3K9me3 maintenance and reduce HSAT2 derepression.
+
+ME/CFS patients consistently show disrupted sleep architecture (reduced slow-wave sleep, non-restorative sleep, circadian phase shifts). If this sleep disruption chronically depresses NAD+ and SIRT1 activity in immune cells, it could contribute to the epigenetic maintenance failure at HSAT2 loci independently of any acute stressor. Sleep optimization — through sleep hygiene, low-dose melatonin, or in select cases LDN-mediated sleep improvement — may therefore have an indirect epigenetic protective effect on pericentromeric silencing, in addition to its established energy conservation benefits.
+
+*Falsifiable prediction:* In ME/CFS patients, actigraphy-measured total sleep time will inversely correlate (ρ < −0.3) with plasma EV HSAT2 load. Three nights of enforced 4-hour sleep restriction will increase EV HSAT2 by ≥ 30% more in ME/CFS patients than in healthy controls.
+
+*Limitations:* Entirely indirect inference chain. Sleep disruption in ME/CFS is partly driven by the same pathophysiology (neuroinflammation, autonomic dysregulation) as HSAT2 derepression itself — making causal direction ambiguous. No direct sleep-HSAT2 data exist in any population. Not replicated.
+] <spec:sleep-sirt1-hsat2>
+
+#open-question(title: [Could Brief Cold Exposure Provide Hormetic Stress Without HSAT2 Risk?])[
+
+
+HSF1 nuclear stress body formation is heat-specific — oxidative and osmotic stress produce far weaker or absent nSB responses @Valgardsdottir2008SatIIIstress @Himanen2022HSFoxidative. Cold exposure activates a distinct stress-response program (norepinephrine-driven thermogenesis, brown adipose activation, cold-shock protein induction) without HSF1 nSB formation. For ME/CFS patients in the HSAT2-high subgroup who are advised to avoid heat exposure @spec:heat-hsat2-caution, cold exposure represents a theoretically lower-HSAT2-risk alternative hormetic stressor.
+
+However, caution applies: (a) orthostatic intolerance, highly prevalent in ME/CFS, is exacerbated by acute cold-induced vasoconstriction followed by vasodilation; (b) cold immersion activates the sympathetic nervous system and can produce acute dysautonomia in susceptible individuals; (c) the evidence for brief cold exposure benefit in ME/CFS is absent. This is not a clinical recommendation — it is a mechanistic question. Controlled cold exposure studies with EV HSAT2 measurement would determine whether cold therapy is HSAT2-safe.
+
+*What would establish this:* Plasma EV HSAT2 measurement at 0 h and 24 h after a standardized brief cold stimulus (facial immersion in 10°C water for 60 seconds) in HSAT2-high ME/CFS patients. If HSAT2 does not rise (unlike the prediction for heat exposure), cold therapy could be explored as an HSAT2-safe alternative. Any study would need stringent orthostatic intolerance exclusion criteria.
+] <oq:cold-exposure-hsat2>

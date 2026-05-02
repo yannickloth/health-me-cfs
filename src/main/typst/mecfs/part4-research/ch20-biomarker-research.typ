@@ -97,7 +97,7 @@ Despite decades of research and multiple candidate markers, no biomarker or biom
 
 Fonseca et al. (2024) applied a Super Learner ensemble algorithm to IgG antibody responses against 3,054 EBV peptide variants, identifying a 26-antibody classifier that distinguished infection-triggered ME/CFS patients from healthy controls with 100% accuracy in the training dataset and 90% in the test dataset @Fonseca2024EBVclassifier. However, the classifier failed to reach target accuracy (85%) when applied to all ME/CFS patients or to those with non-infectious or unknown disease triggers. Despite some EBV peptides showing sequence homology with human proteins (potential molecular mimicry), no significant correlation emerged between antibody importance in the classifier and cross-reactivity potential with host proteins.
 
-The trigger-specificity of this classifier has two implications: diagnostically, it may prove useful as a confirmatory tool specifically for patients reporting infection-linked onset, supporting the clinical assessment of post-infectious ME/CFS. Mechanistically, it reinforces the subtyping paradigm---infection-triggered and non-infection-triggered ME/CFS appear immunologically distinct, and biomarker panels developed in one subgroup should not be assumed to generalise to the other.
+The trigger-specificity of this classifier has two implications: diagnostically, it may prove useful as a confirmatory tool specifically for patients reporting infection-linked onset, supporting the clinical assessment of post-infectious ME/CFS. Mechanistically, it reinforces the subtyping paradigm---infection-triggered and non-infection-triggered ME/CFS appear immunologically distinct, and biomarker panels developed in one subgroup should not be assumed to generalize to the other.
 
 #limitation(title: [Small Sample; No Independent Validation])[
 The Fonseca study used a single cohort without external validation. The 26-antibody panel has not been tested in an independent population, and the high training accuracy (100%) raises concern about overfitting despite the ensemble approach. EBV seropositivity is nearly universal in adults (>95%), so the classifier must distinguish _patterns_ of anti-EBV antibodies rather than simple presence/absence---a more nuanced signal that may not replicate across laboratories using different peptide arrays.
@@ -610,7 +610,7 @@ Standardized neuropsychological assessment:
 
 Mobile health (mHealth) technologies enable continuous or daily physiological monitoring outside clinical settings, offering an alternative biomarker approach: tracking within-person temporal dynamics rather than relying solely on single-timepoint between-group differences.
 
-A large intensive longitudinal study using this approach (Aitken et al.\ 2026, n=4244 Visible app users with Long COVID, ME/CFS, or other energy-limiting conditions) found that 60-second morning PPG assessments of HR, HRV (RMSSD scaled 0–100), and respiratory rate predicted same-day evening symptom reports @Aitken2026digitalHRV. Multilevel models incorporating both within-person biometric fluctuations and prior-day symptom history achieved AUC values of 0.82 for crash, 0.74 for fatigue, and 0.85 for brain fog using walk-forward cross-validation—higher than models using symptom history alone (AUC 0.78, 0.73, 0.83 respectively). Within-person predictors (daily deviations from individual baselines) were substantially stronger than between-person averages, underscoring the importance of personalized monitoring over population-level thresholds. The study was retrospective in design, analysing data already collected through a commercial app from self-identified participants; the proportion with clinician-confirmed ME/CFS is not reported.
+A large intensive longitudinal study using this approach (Aitken et al.\ 2026, n=4244 Visible app users with Long COVID, ME/CFS, or other energy-limiting conditions) found that 60-second morning PPG assessments of HR, HRV (RMSSD scaled 0–100), and respiratory rate predicted same-day evening symptom reports @Aitken2026digitalHRV. Multilevel models incorporating both within-person biometric fluctuations and prior-day symptom history achieved AUC values of 0.82 for crash, 0.74 for fatigue, and 0.85 for brain fog using walk-forward cross-validation—higher than models using symptom history alone (AUC 0.78, 0.73, 0.83 respectively). Within-person predictors (daily deviations from individual baselines) were substantially stronger than between-person averages, underscoring the importance of personalized monitoring over population-level thresholds. The study was retrospective in design, analyzing data already collected through a commercial app from self-identified participants; the proportion with clinician-confirmed ME/CFS is not reported.
 
 Potential implications for biomarker strategy (pending prospective validation) include:
 
@@ -696,7 +696,7 @@ Blood-based ccf-mtDNA measurements inevitably capture mtDNA released from circul
 ]
 
 *ccf-mtDNA as a candidate treatment response biomarker.*
-If ccf-mtDNA reflects mitochondrial quality control status, treatment-induced changes in mitophagy should be traceable. Specific predictions: (a) mitophagy-inducing agents (urolithin A) should produce a transient ccf-mtDNA rise as accumulated damaged mitochondria are cleared, followed by normalisation; (b) T3 supplementation in the Low T3 subgroup should gradually raise ccf-mtDNA by restoring ERR$alpha$-mediated mitophagy coordination (Chapter @ch:energy-metabolism, Section @sec:thyroid-mito-regulation); (c) immunoadsorption or plasmapheresis removing pathogenic IgG should raise ccf-mtDNA if IgG-mediated mitochondrial fragmentation was driving the mitophagy block. These predictions are testable in small open-label trials using serial ccf-mtDNA measurement as a secondary endpoint. A well-designed definitive study would use a four-arm design (ME/CFS vs.\ Long COVID vs.\ anxiety disorder vs.\ healthy controls---the anxiety arm is essential because anxiety shows similarly low ccf-mtDNA, testing diagnostic specificity) and measure _both_ free ccf-mtDNA and exosome-associated mtDNA at rest and serially post-exercise to capture compartment-specific dynamics.
+If ccf-mtDNA reflects mitochondrial quality control status, treatment-induced changes in mitophagy should be traceable. Specific predictions: (a) mitophagy-inducing agents (urolithin A) should produce a transient ccf-mtDNA rise as accumulated damaged mitochondria are cleared, followed by normalization; (b) T3 supplementation in the Low T3 subgroup should gradually raise ccf-mtDNA by restoring ERR$alpha$-mediated mitophagy coordination (Chapter @ch:energy-metabolism, Section @sec:thyroid-mito-regulation); (c) immunoadsorption or plasmapheresis removing pathogenic IgG should raise ccf-mtDNA if IgG-mediated mitochondrial fragmentation was driving the mitophagy block. These predictions are testable in small open-label trials using serial ccf-mtDNA measurement as a secondary endpoint. A well-designed definitive study would use a four-arm design (ME/CFS vs.\ Long COVID vs.\ anxiety disorder vs.\ healthy controls---the anxiety arm is essential because anxiety shows similarly low ccf-mtDNA, testing diagnostic specificity) and measure _both_ free ccf-mtDNA and exosome-associated mtDNA at rest and serially post-exercise to capture compartment-specific dynamics.
 
 == Pain Registries and Databases as Biomarker Data Sources
 <sec:pain-registries>
@@ -709,7 +709,7 @@ The MCAM study, coordinated by the CDC, enrolled 595 ME/CFS patients and 328 hea
 
 === You + ME Registry
 
-The Solve ME/CFS Initiative's You + ME Registry is a patient-powered research platform with over 4,200 participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021), growing at approximately 72 new registrants per week @Ramiller2022YouMERegistry. The mobile app captures longitudinal symptom tracking on a 0--4 severity scale, including pain. The registry is designed to harmonise with other ME/CFS data collection efforts and enables researchers to access de-identified data for analysis.
+The Solve ME/CFS Initiative's You + ME Registry is a patient-powered research platform with over 4,200 participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021), growing at approximately 72 new registrants per week @Ramiller2022YouMERegistry. The mobile app captures longitudinal symptom tracking on a 0--4 severity scale, including pain. The registry is designed to harmonize with other ME/CFS data collection efforts and enables researchers to access de-identified data for analysis.
 
 === UK ME/CFS Biobank
 
@@ -719,18 +719,18 @@ The UK ME/CFS Biobank at UCL/Royal Free Hospital holds over 600 donors (ME/CFS, 
 
 The UK Biobank contains population-level data from which researchers have defined high-quality ME/CFS cohorts. Linked pain questionnaire data and health records enable large-scale epidemiological analysis of pain patterns in ME/CFS at a scale impossible with dedicated research cohorts.
 
-#open-question(title: [Can Existing Registries Be Harmonised for Pain Phenotype Subtyping?])[
-The MCAM, You + ME Registry, UK ME/CFS Biobank, and UK Biobank all collect pain-related data, but using different instruments, severity scales, and time windows. A key research question is whether these datasets can be harmonised to create a pain phenotype dataset large enough for reliable subgroup identification. Minimum requirements would include: (1) mapping pain variables across registries to a common ontology; (2) testing whether independent registries identify the same cluster structure; and (3) sufficient sample size for interaction analyses (pain phenotype $times$ biomarker $times$ treatment response). Cross-registry harmonisation studies in other chronic pain conditions have demonstrated feasibility but required substantial methodological investment.
-] <oq:registry-harmonisation-pain>
+#open-question(title: [Can Existing Registries Be Harmonized for Pain Phenotype Subtyping?])[
+The MCAM, You + ME Registry, UK ME/CFS Biobank, and UK Biobank all collect pain-related data, but using different instruments, severity scales, and time windows. A key research question is whether these datasets can be harmonized to create a pain phenotype dataset large enough for reliable subgroup identification. Minimum requirements would include: (1) mapping pain variables across registries to a common ontology; (2) testing whether independent registries identify the same cluster structure; and (3) sufficient sample size for interaction analyses (pain phenotype $times$ biomarker $times$ treatment response). Cross-registry harmonization studies in other chronic pain conditions have demonstrated feasibility but required substantial methodological investment.
+] <oq:registry-harmonization-pain>
 
 == Emerging Biomarker Candidates from Parallel Multi-Modal Studies (2025--2026)
 <sec:emerging-biomarkers-convergence>
 
-Multiple 2025--2026 studies have produced parallel evidence for biomarker candidates across immune, neurological, and vascular compartments. While none have yet achieved clinical validation, the methodological diversity of these studies is encouraging. It should be noted that these studies identify _different_ biological signals in _different_ cohorts using _different_ platforms---this is complementary multi-modal evidence, not convergence on a single mechanism. True convergence would require independent groups identifying the same biomarker abnormality with different methods. The historical failure rate of ME/CFS biomarkers (NK cytotoxicity, cytokine panels, various autoantibody signatures---all initially promising, none clinically validated) should temper expectations.
+Multiple 2025--2026 studies have produced parallel evidence for biomarker candidates across immune, neurological, and vascular compartments. While none have yet achieved clinical validation, the methodological diversity of these studies is encouraging. These studies identify _different_ biological signals in _different_ cohorts using _different_ platforms---this is complementary multi-modal evidence, not convergence on a single mechanism. True convergence would require independent groups identifying the same biomarker abnormality with different methods. The historical failure rate of ME/CFS biomarkers (NK cytotoxicity, cytokine panels, various autoantibody signatures---all initially promising, none clinically validated) should temper expectations.
 
 === Neuroinflammation Imaging Biomarkers
 
-Yu et al.\ (2026) demonstrated that the neuroinflammation imaging (NII) model applied to diffusion MRI can detect widespread white matter abnormalities in ME/CFS that conventional DTI misses @Yu2026diffusion-neuroinflammation. NII-HR (cerebral edema), NII-RF (cellular infiltration), and NII-FF (axonal reorganisation) metrics correlated with mental health, disability, and disease severity in 67 ME/CFS patients vs.\ 67 matched controls. The NII model requires only standard diffusion MRI sequences (no contrast agent, no special hardware), making it potentially translatable to clinical settings if validated in larger cohorts.
+Yu et al.\ (2026) demonstrated that the neuroinflammation imaging (NII) model applied to diffusion MRI can detect widespread white matter abnormalities in ME/CFS that conventional DTI misses @Yu2026diffusion-neuroinflammation. NII-HR (cerebral edema), NII-RF (cellular infiltration), and NII-FF (axonal reorganization) metrics correlated with mental health, disability, and disease severity in 67 ME/CFS patients vs.\ 67 matched controls. The NII model requires only standard diffusion MRI sequences (no contrast agent, no special hardware), making it potentially translatable to clinical settings if validated in larger cohorts.
 
 === Complement-Based Subgroup Stratification
 
@@ -745,7 +745,7 @@ Seifert et al.\ (2026) identified hsa-let-7b-5p downregulation in EVs from post-
 Germain, Hanson, and colleagues (2025) demonstrated that the _pattern_ of proteomic response to exercise---particularly persistent immune/metabolic/neuromuscular dysregulation during the recovery phase---distinguishes ME/CFS from sedentary controls @Germain2025plasma-proteome-exertion. The proteomic signature of PEM (suppressed T/B cell signaling, upregulated glycolysis, disrupted IL-17) captured at 24h post-exercise may serve as an objective PEM biomarker, which is critically needed for clinical trials.
 
 #limitation(title: [Emerging Biomarkers Require Validation])[
-None of the biomarker candidates above have been independently validated in external cohorts. The NII model, complement pQTL approach, and longitudinal exercise proteomics design are the most promising due to their methodological rigour and larger sample sizes, but all require replication before clinical application. The EV miRNA findings are discovery-phase only (certainty 0.30) and should be considered hypothesis-generating rather than diagnostic.
+None of the biomarker candidates above have been independently validated in external cohorts. The NII model, complement pQTL approach, and longitudinal exercise proteomics design are the most promising due to their methodological rigor and larger sample sizes, but all require replication before clinical application. The EV miRNA findings are discovery-phase only (certainty 0.30) and should be considered hypothesis-generating rather than diagnostic.
 ] <lim:emerging-biomarkers-validation>
 
 === Epigenetic and miRNA Biomarker Candidates from the PTPRN2/miR-153-3p Axis
@@ -887,7 +887,15 @@ The HSAT2/HERV-K exosomal hypothesis @spec:hsat2-exosome-mdsc @spec:hsat2-postvi
 
 *(Certainty: 0.65 for technical feasibility; 0.40 for clinical utility — the measurement is straightforward, the clinical relevance remains to be established.)*
 
-HSAT2 and HERV-K envelope RNA can be measured in plasma extracellular vesicles by qRT-PCR or ddPCR following size-exclusion chromatography EV isolation. Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated this in Ewing sarcoma plasma at cohort scale (n=49). The protocol is transferable to ME/CFS research cohorts using existing biobanked plasma.
+HSAT2 and HERV-K envelope RNA can be measured in plasma extracellular vesicles by qRT-PCR or ddPCR following size-exclusion chromatography EV isolation. Evdokimova et al.\ @Evdokimova2019HSAT2exosome demonstrated this in Ewing sarcoma plasma at cohort scale (n=49). The protocol is transferable to ME/CFS research cohorts using existing biobanked plasma in principle, but adaptation requires several critical steps not yet published.
+
+*Technical precedent — TRAP-ddPCR:* Kishikawa et al.\ established that circulating HSATII RNA is measurable in human serum using TRAP-ddPCR (Tandem Repeat Amplification by nuclease Protection followed by droplet digital PCR) @Kishikawa2016HSATIIserum. This method overcomes the heterogeneous amplicon problem inherent to repetitive sequence PCR by collecting homogeneous protected core fragments before quantification. In pancreatic cancer (n=20+20 training, n=10+10+10 validation), AUC was 0.91 (training) and 0.90 (validation); 5/7 early-stage cases were detected with normal CA19-9. Median HSATII in serum: 14.75 versus 3.17 copies/µL (cancer vs control). This is currently the only published validated method for circulating HSATII RNA quantification. The Evdokimova preprint extends this to plasma EV fractions in a cancer context; the TRAP-ddPCR method in ME/CFS plasma remains to be adapted.
+
+*ddPCR vs qRT-PCR for low-abundance targets:* For EV-packaged satellite RNA at non-cancer concentrations (expected far below the 14.75 copies/µL seen in pancreatic cancer), ddPCR is the necessary platform: it provides absolute quantification without standard curves, has lower coefficient of variation than qRT-PCR, and can detect targets at fewer than 1 copy/µL where qRT-PCR gives variable signal. TRAP-ddPCR is thus the starting platform for any ME/CFS HSAT2 biomarker study.
+
+*EV isolation approach:* Size exclusion chromatography (CL-6B Sepharose, 20 mL bed volume) outperforms differential ultracentrifugation for EV purity. For HSAT2 RNA (a long repeat transcript, not a small ncRNA), large EV fractions (greater than 200 nm microvesicles) may be more relevant than small EVs (smaller than 200 nm exosomes), but this size-dependence has not been characterized for HSAT2 cargo.
+
+*Pre-analytical variables (critical for multi-site standardization):* Hemolysis is the dominant confounder for EV RNA — erythrocyte miRNAs contaminate the EV fraction and hemolysis degrades EV integrity; hemolysis must be assessed quantitatively (not visually) as an exclusion criterion. Two-step centrifugation (300×g then 2500×g) before snap-freezing is standard to remove platelet-derived EVs. Up to three freeze-thaw cycles have negligible impact; more than three compromise RNA yield; single-use aliquots at −80°C are the standard. Samples must be processed within 2–4 h of collection for EV-RNA integrity.
 
 A two-marker panel (HSAT2 + HERV-K) with HERV-W as a negative-specificity control could:
 
@@ -896,9 +904,9 @@ A two-marker panel (HSAT2 + HERV-K) with HERV-W as a negative-specificity contro
     - Correlate with MDSC frequency and NK cytotoxicity as functional validation
     - Serve as a pharmacodynamic endpoint for NRTI @oq:nrti-hsat2 or methyl-donor @spec:methyl-donor-hsat2 interventions
 
-*Falsifiable prediction:* A two-marker panel (HSAT2 + HERV-K env) will distinguish a subgroup of ME/CFS patients from matched healthy controls with AUROC > 0.75 in n ≥ 100 cohort. If no subgroup is detectable above control levels, the exosomal loop mechanism is not operative in ME/CFS at clinically relevant concentrations.
+*Falsifiable prediction:* A two-marker panel (HSAT2 + HERV-K env) measured by TRAP-ddPCR in plasma EV fractions will distinguish a subgroup of ME/CFS patients from matched healthy controls with AUROC > 0.75 in n ≥ 100 cohort. If no subgroup is detectable above control levels, the exosomal loop mechanism is not operative in ME/CFS at clinically relevant concentrations.
 
-*Limitations:* All prediction values are extrapolated from cancer; the effect sizes in chronic post-viral settings may be far smaller. Standardisation of EV isolation and RNA quantification varies across laboratories; multi-site studies require harmonised protocols. Not replicated in any chronic disease context.
+*Limitations:* No published protocol exists for EV-packaged HSAT2 RNA from human plasma in any non-cancer clinical population; adaptation from the Kishikawa serum method is required. All prediction values (AUC estimates, effect sizes, subgroup prevalences) are extrapolated from cancer; effect sizes in chronic post-viral settings may be far smaller — potentially below the detection limit of current methods. Standardization of EV isolation and RNA quantification varies across laboratories; multi-site studies require harmonized protocols including hemolysis grading, two-step centrifugation, aliquoting schema, and TRAP-ddPCR primer sets. Not replicated in any chronic disease context. The Evdokimova preprint EV-HSAT2 finding in Ewing sarcoma plasma remains unpublished in a peer-reviewed journal.
 ] <spec:hsat2-biomarker-panel>
 #speculation(title: [CD33+HLA-DR− MDSC Frequency as a Functional Readout of the HSAT2 Loop])[
 
@@ -912,9 +920,17 @@ If the exosomal HSAT2 loop drives MDSC expansion in ME/CFS @spec:mdsc-nk-bridge,
     - Would be expected to correlate inversely with NK cytotoxicity — the most replicated ME/CFS finding
     - Could serve as an eligibility criterion and pharmacodynamic endpoint for HSAT2-targeted interventions
 
-*Falsifiable prediction:* CD33+HLA-DR− MDSC frequency will be elevated > 1.5× in ≥ 30% of ME/CFS patients versus matched controls; MDSC frequency will correlate inversely with NK cytotoxicity in the same sample (Spearman ρ < −0.4). If MDSC frequency is normal in ME/CFS blood, the MDSC-bridge model is not operative.
+*Evidence gap — no ME/CFS MDSC data:* No published immunophenotyping study in ME/CFS has measured MDSCs. The 2024 NIH deep-phenotyping study (Walitt et al., Nature Communications), the 2024 Frontiers in Immunology ME/CFS biology review, and all other ME/CFS immune studies found through systematic search do not report MDSC quantification. Whether MDSC frequencies are elevated, normal, or reduced in ME/CFS is currently unknown. This is the most critical gap for this hypothesis.
 
-*Limitations:* MDSC quantification is technically sensitive to sample handling and gating strategy; pre-analytical standardisation is critical. Whether ME/CFS MDSCs carry HSAT2 RNA (as in Evdokimova's EwS) would need to be confirmed with PrimeFlow RNA assay.
+*Proxy populations in order of relevance:* Post-COVID at 5 months (BeliakovanBethell 2022, already in bib): M-MDSC 0.9 ± 0.2% vs 0.2 ± 0.09% in uninfected controls — the most temporally analogous proxy, indicating persistent immunosuppression after viral resolution. Chronic HCV MDSC expansion (Goh 2016, already in bib): establishes the pattern in a chronic viral disease without spontaneous resolution. SLE patients: CD14+HLA-DR−/low M-MDSC significantly elevated versus controls, correlating with disease activity score SLEDAI (r = 0.547, p < 0.01) and iNOS-dependent suppression mechanism @Wang2019SLEMDSC. These proxies support the plausibility of persistent MDSC elevation in chronic post-viral immune states, but cross-disease extrapolation is uncertain.
+
+*Healthy adult reference range:* M-MDSC (CD14+HLA-DR−/lo): approximately 0.2–0.5% of PBMCs in healthy adults. Reference ranges are sex- and age-stratified; younger and female individuals have slightly higher frequencies @Wang2019SLEMDSC.
+
+*Standardization requirements for multi-site studies:* The current best standardization framework is the EuroFlow 2022 Salminen et al.\ protocol (Frontiers in Immunology 2022): a validated 11-color and 14-color panel for innate myeloid cells with a 4-hour processing window, EDTA and heparin both acceptable, inter-center CV ~5%, and age/sex-stratified reference ranges from 116 healthy donors. CD33 gating is the primary source of inter-lab variability; fluorescence-minus-one (FMO) controls or an internal monocyte-negative gate are required for HLA-DR threshold setting @Veglia2021MDSCDiversity. PBMC preparation by density gradient loses PMN-MDSCs (co-separated with red blood cells); whole blood assays are preferred when PMN-MDSC quantification is needed. Four-hour processing window from venipuncture is the standard.
+
+*Falsifiable prediction:* CD33+HLA-DR− MDSC frequency will be elevated > 1.5× in ≥ 30% of ME/CFS patients versus matched healthy controls; MDSC frequency will correlate inversely with NK cytotoxicity in the same sample (Spearman ρ < −0.4). If MDSC frequency is normal in ME/CFS blood, the MDSC-bridge model is not operative.
+
+*Limitations:* No ME/CFS MDSC data exists; the hypothesis is entirely proxy-based. MDSC quantification is technically sensitive to sample handling, processing time, and gating strategy — the 4-hour processing window must be maintained and FMO controls included in every run. Whether ME/CFS MDSCs carry HSAT2 RNA (as in Evdokimova's Ewing sarcoma EVs) would need to be confirmed with PrimeFlow RNA assay or equivalent in-situ method. The iNOS-dependent suppression mechanism documented in SLE @Wang2019SLEMDSC may differ from the arginase/ROS mechanism reported in post-COVID contexts @BeliakovanBethell2022MDSCPostCOVID — ME/CFS suppression mechanism is entirely unknown. Replication status: not replicated (no ME/CFS data).
 ] <spec:mdsc-biomarker>
 #open-question(title: [Does Plasma Exosomal HSAT2 Level Track Clinical State Longitudinally?])[
 
@@ -927,3 +943,48 @@ If trait marker: HSAT2 would be most useful for patient stratification and subgr
 
 Both scenarios are compatible with the exosomal loop model; the distinction has different implications for study design and clinical utility.
 ] <oq:hsat2-longitudinal>
+
+#speculation(title: [Two-Marker Plasma Panel: EV HSAT2 + Arginase-1 Activity as Combined Diagnostic and Mechanistic Readout])[
+
+
+*(Certainty: 0.35 — both markers individually supported; combined AUC advantage untested.)*
+
+The HSAT2 exosomal loop proposes two measurable outputs: (1) EV-packaged HSAT2 RNA (the causal signal, upstream) and (2) MDSC arginase-1 activity (the functional effector, downstream). Measuring both simultaneously in the same plasma sample provides: an RNA-cargo signal (detectable by TRAP-ddPCR @Kishikawa2016HSATIIserum, adapted to ME/CFS plasma) and an enzyme-activity signal (arginase-1 ELISA or colorimetric assay, readily available). The two markers are mechanistically non-redundant — HSAT2 identifies the loop driver; arginase-1 confirms its immunosuppressive output.
+
+A combined panel (EV HSAT2 + plasma arginase-1) would be: (a) more specific than either marker alone — patients with elevated HSAT2 but normal arginase-1 would not have functional MDSC activation; (b) useful as a pharmacodynamic readout for any intervention targeting the MDSC arm (PDE5 inhibitors, arginase inhibitors, citrulline) versus the epigenetic arm (NR, methyl donors); (c) potentially cheaper than HERV-K serology or comprehensive immune panel.
+
+*Falsifiable prediction:* Combined panel AUC (EV HSAT2 + arginase-1) ≥ 0.85 for ME/CFS versus controls in n ≥ 50; each single marker AUC ≤ 0.75. The markers will be correlated (ρ > 0.4) within patients but not in controls.
+
+*Limitations:* Plasma arginase-1 has multiple sources beyond MDSCs (liver, granulocytes, haemolysis); specificity for MDSC-derived arginase requires cell-type confirmation. TRAP-ddPCR for plasma EV HSAT2 requires method development beyond the serum protocol. Combined panel has not been tested in any chronic disease. Not replicated.
+] <spec:hsat2-arginase-panel>
+
+#speculation(title: [Post-PEM EV HSAT2 Fold-Change as a Superior Diagnostic vs Baseline Absolute Level])[
+
+
+*(Certainty: 0.30 — fold-change diagnostic superiority is established for other dynamic biomarkers; HSAT2-specific data absent.)*
+
+Baseline EV HSAT2 may be insufficient to discriminate ME/CFS from controls if the HSAT2 loop is only intermittently active. An exertional challenge (standardized CPET or step test) followed by serial EV HSAT2 measurement would test the PEM amplification hypothesis @spec:hsat2-pem-amplification and simultaneously generate a fold-change biomarker. The fold-change (24 h post-CPET / pre-CPET) would capture the dynamic responsiveness of the HSAT2 loop to physiological stress — expected elevated in ME/CFS and normal in healthy controls.
+
+This parallels the 2-day CPET paradigm already used for ME/CFS diagnosis (second-day VO2 decline), extending it to a molecular readout. The fold-change approach also addresses inter-individual baseline variability in absolute HSAT2 levels.
+
+*Falsifiable prediction:* The fold-change ratio (24 h post-CPET EV HSAT2 / pre-CPET EV HSAT2) will discriminate ME/CFS from controls with AUC ≥ 0.80; baseline absolute EV HSAT2 alone will produce AUC ≤ 0.70 in the same cohort. The fold-change will correlate with self-reported PEM severity at 48 h (ρ > 0.5).
+
+*Limitations:* CPET is contraindicated in severe ME/CFS; a modified step-test protocol would be needed for broader applicability. Serial EV HSAT2 measurement adds protocol complexity and cost. Pre-analytical variable standardization (processing within 2–4 h of venipuncture) must be maintained across all timepoints. Not replicated.
+] <spec:hsat2-cpet-fold-change>
+
+#open-question(title: [ECM1 Autoantibodies as an ME/CFS Autoimmune Subgroup Stratification Marker?])[
+
+ECM1 (extracellular matrix protein 1) autoantibodies are present in approximately 75% of vulvar lichen sclerosus cases and function as near-pathognomonic markers for LS @Oyama2022LSGeneticInterplay @Paganelli2025LSCytokines. ECM1 regulates basement membrane integrity, angiogenesis, and immune cell trafficking; its disruption sustains local Th1 inflammation through neoantigenic exposure. If lichen sclerosus co-occurs in ME/CFS patients at elevated frequency (see Section @sec:lichen-sclerosus-immune-terrain), ECM1 autoantibody status could serve as a stratification biomarker for the autoimmune-terrain subgroup in ME/CFS research cohorts.
+
+*What would establish this:* A targeted add-on to any ME/CFS biobank study — ELISA-based ECM1 autoantibody measurement in existing serum — to assess: (a) whether ECM1-Ab prevalence in ME/CFS exceeds population background (approximately 2–5% in unselected adults); (b) whether ECM1-Ab positivity correlates with ME/CFS immune markers (anti-muscarinic antibodies, elevated Th1 cytokines, low NK cytotoxicity); (c) whether ECM1-Ab-positive ME/CFS patients show higher rates of co-diagnosed LS, Sjögren's, or SLE. This is minimal-cost translational research: no new patient recruitment required if biobanked serum exists.
+] <oq:ecm1-autoantibody-mecfs>
+
+#open-question(title: [Could ME/CFS Skin Biopsy Senescence Score Serve as a Tissue-Level Validation Biomarker for the HSAT2 Stromal Hypothesis?])[
+
+
+If EV-delivered HSAT2 drives CENPA mislocalization → senescence in p53-intact fibroblasts @Jeffery2021CENPAp53 @spec:cenpa-senescence-stromal, then ME/CFS skin biopsies should show an elevated burden of senescent fibroblasts (p16^INK4a+, SA-β-gal+) compared to age-matched controls. A histological "senescence score" from a 4 mm punch biopsy would be: (a) measurable with standard laboratory staining; (b) independent of blood-based EV HSAT2 assays; (c) a tissue-level validation of the blood-based EV hypothesis.
+
+Senescent fibroblast burden also correlates with the SASP — the downstream inflammatory output predicted by the CENPA-senescence chain. This links the skin biopsy readout to systemic inflammatory markers (IL-6, IL-8, MMP-3) that are elevated in ME/CFS.
+
+*What would establish this:* A 4 mm skin biopsy study (20 ME/CFS, 20 age-matched controls) with p16^INK4a immunohistochemistry + SA-β-gal histochemistry + intracellular HSAT2 RNA-FISH. AUC ≥ 0.70 for p16+SA-β-gal+ fibroblast burden would support the stromal hypothesis. Co-localization of HSAT2-positive and p16+ cells in the same biopsy would provide the strongest evidence.
+] <oq:skin-senescence-biopsy>
