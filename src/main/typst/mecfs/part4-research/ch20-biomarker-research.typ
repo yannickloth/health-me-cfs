@@ -843,6 +843,27 @@ The $"ND"_"burden"$ term directly reduces the composite score for neurodivergent
   *Certainty: 0.20.* A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study (@sec:prospective-metabolic-phenotyping). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
 ] <spec:metabolic-reserve-score>
 
+=== MtDNA Haplogroup as a Reserve Stratifier
+<subsec:haplogroup-reserve-stratifier>
+
+The composite Metabolic Reserve Score above could be extended by incorporating mtDNA haplogroup as a biological anchor for the reserve estimate. Billing-Ross et al. @BillingRoss2016mtDNA demonstrated that haplogroups J, U, and H associate with distinct symptom severity profiles in established ME/CFS (certainty 0.45; see Section @spec:mtdna-haplogroup-symptoms in Chapter @ch:cross-disease). Haplogroup determination is a one-time, low-cost test (targeted mtDNA sequencing or consumer genomics panels such as 23andMe). Adding haplogroup as a reserve-modifier node — haplogroup H as lower reserve ceiling, haplogroup U as higher reserve floor — could improve individual-level risk stratification within the MRS framework.
+
+#speculation(title: [Composite Reserve Index Including Haplogroup as a Trial Stratifier])[
+*(Certainty: 0.40 — haplogroup effect on symptom severity documented in one cohort; use as trial stratifier is untested but operationally feasible.)*
+
+Current ME/CFS trials suffer from phenotypic heterogeneity that reduces statistical power. A Composite Reserve Index combining: (a) Seahorse PBMC spare respiratory capacity (SRC, Watt/10#super[6] cells); (b) mtDNA haplogroup classification (H vs. U/J categorical); (c) post-exertional plasma lactate:pyruvate ratio at 24h post 6-minute walk test; and (d) mtDNA copy number per cell — could serve as a stratification variable in trial arms. Participants with Reserve Index below median could be assigned to reserve-enhancing interventions; those above median could be assigned to other mechanistic targets.
+
+*Falsifiable prediction:* A Composite Reserve Index will explain ≥15% of variance in 2-day CPET day-2 VO#sub[2]max decrement in ME/CFS cohorts (n ≥ 100), exceeding the variance explained by any single component alone. *Limitations:* No study has assembled this composite; haplogroup H's reserve-ceiling effect is inferred from symptom associations, not directly from CPET data. The L/P ratio measure requires calibration across labs. Not yet replicated.
+] <spec:composite-reserve-index>
+
+#open-question(title: [Post-Exertional Lactate:Pyruvate Ratio as a Haplogroup-Sensitive Coupling Proxy])[
+The plasma lactate:pyruvate (L/P) ratio reflects the cytosolic NADH:NAD#super[+] ratio and rises when OXPHOS is bottlenecked upstream of Complex I/III. In ME/CFS, where pyruvate dehydrogenase suppression and elevated post-exertional lactate are documented, the delta-L/P ratio (measured before and 24h after submaximal exertion) may serve as a cheap, repeatable proxy for coupling efficiency.
+
+If haplogroup H's tighter coupling produces less reserve against exertional ATP demand spikes, haplogroup H ME/CFS patients should show a greater post-exertional Δ(L/P) than haplogroup U/J patients at matched baseline severity. This would make Δ(L/P) both a coupling biomarker and a haplogroup-sensitive stratification tool.
+
+*Testable prediction:* Δ(L/P ratio) at 24h post 6-minute walk test will be ≥ 2× higher in haplogroup H ME/CFS patients than haplogroup U/J patients at matched PEM severity scores. Failure to observe a haplogroup-stratified difference would suggest that coupling efficiency, even if haplogroup-influenced, does not translate into measurable plasma L/P differences at the whole-body level.
+] <oq:lactate-pyruvate-haplogroup>
+
 === Urinary Neopterin:Biopterin Ratio as Non-Invasive BH4 Screen
 <subsec:neopterin-biopterin-screen>
 
@@ -1047,3 +1068,31 @@ The `spec:cenpa-senescence-stromal` hypothesis predicts that ME/CFS skin fibrobl
 *Limitations:* Skin biopsy may not reflect the tissue where the HSAT2 mechanism is most active (immune cells, muscle fibroblasts, or perivascular tissue). Senescent fibroblast accumulation increases with age independently of ME/CFS — age-matched controls are essential and a narrow age range ($plus.minus 5$ years) is preferred. CENPA FISH protocol for paraffin-embedded tissue requires optimization. Not yet attempted in ME/CFS.
 
 ] <oq:hsat2-skin-biopsy-protocol>
+
+=== MtDNA Haplogroup as a Reserve Stratifier <subsec:haplogroup-reserve-stratifier>
+
+#speculation(title: [Composite Reserve Index Including Haplogroup as Trial Stratifier])[
+
+A single biomarker of mitochondrial reserve capacity captures only one dimension of a multi-component threshold. A composite reserve index — combining Seahorse spare respiratory capacity (SRC) from PBMCs, haplogroup assignment, post-exertional lactate-to-pyruvate (L/P) ratio, and mtDNA copy number — could explain substantially more variance in post-exertional functional decrement than any individual component alone @BillingRoss2016mtDNA @Venter2019mtDNA @Naviaux2014cdr.
+
+*Mechanistic rationale:* SRC reflects functional reserve at the cellular level; haplogroup modifies reserve set-point via ETC coupling efficiency; post-exertional L/P ratio captures the metabolic shift under real-world demand; mtDNA copy number reflects compensatory biogenesis. Together these dimensions index different layers of the reserve hierarchy @Naviaux2016metabolomics.
+
+*Falsifiable prediction:* A composite reserve index explains ≥15% of variance in 2-day CPET decrement (day-2 VO2max reduction), exceeding the predictive power of any single component in multivariate regression on n ≥ 100 ME/CFS patients with full battery available.
+
+*Current status:* Components have been individually associated with ME/CFS severity but no composite index has been assembled or tested. Feasibility requires coordinated biospecimen collection with concurrent CPET. (Certainty: 0.25 — individual components have indirect support but have never been combined; correlated components could produce less predictive power than any individual component, not more. Composite index untested.)
+
+*Limitations:* No existing ME/CFS dataset contains all four components simultaneously. Assembly requires prospective coordination; post-hoc retrospective combination of components measured in different studies is methodologically problematic. Haplogroup effect sizes are small in existing data.
+
+] <spec:composite-reserve-index>
+
+#open-question(title: [Post-Exertional L/P Ratio as Haplogroup-Sensitive Coupling Proxy])[
+
+Lactate-to-pyruvate ratio at 24 hours post-exertion is a plasma-accessible proxy for mitochondrial coupling efficiency, reflecting the balance between glycolytic flux and oxidative phosphorylation under demand. If haplogroup modifies ETC coupling efficiency as proposed, haplogroups with tighter coupling (H) versus looser coupling (U, J, T) should show differentially elevated Δ(L/P) after standardized submaximal exertion @BillingRoss2016mtDNA.
+
+*Proposed study:* Paired plasma L/P measurement before and 24 hours after 6-minute walk test (6MWT) in ME/CFS patients stratified by haplogroup (H vs U/J). Haplogroup H patients are predicted to show ≥2× greater Δ(L/P ratio) at matched disease severity and matched exertion dose.
+
+*Feasibility:* 6MWT is standardized and low-risk compared to CPET; L/P ratio requires only plasma lactate and pyruvate (standard assays available at most hospital biochemistry laboratories). Haplogroup determination from a saliva sample or existing PBMC DNA. Not yet attempted in ME/CFS.
+
+*Relevance:* If confirmed, post-exertional L/P ratio stratified by haplogroup would provide a low-cost, clinically accessible biomarker component for trial enrollment criteria and pacing guidance, requiring no specialized equipment beyond a standard biochemistry panel.
+
+] <oq:lactate-pyruvate-haplogroup>

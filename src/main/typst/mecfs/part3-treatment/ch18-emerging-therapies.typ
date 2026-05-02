@@ -2437,3 +2437,50 @@ Ultra-potent topical steroids (clobetasol propionate) halt LS progression by int
 
 *Limitations:* PEM events are stochastic and difficult to time interventions against. Glucocorticoid receptor downregulation with repeated exposure may reduce efficacy over time. HPA axis dysregulation in ME/CFS (documented in a subset) makes adrenal suppression risk non-negligible even with short pulses. TRM reactivation as the mechanism of PEM is unproven — if PEM is metabolic rather than immunological, this intervention would have no effect. The McKenzie 1998 hydrocortisone trial in ME/CFS produced marginal mixed results, suggesting corticosteroid benefit in unselected ME/CFS is not assured.
 ] <spec:steroid-pulse-pem>
+
+== Mitochondrial Reserve Enhancement: Research-Stage Concepts
+<sec:mitochondrial-reserve-enhancement>
+
+#warning-env(title: [Research-Stage Section: No Validated Treatment Protocols])[
+The concepts in this section derive from the mitochondrial reserve threshold model (Section @spec:mtdna-reserve-threshold in Chapter @ch:integrative-models). None of the interventions below has been tested in a controlled ME/CFS trial targeting reserve enhancement. This is a research-stage synthesis of mechanistic rationale and small-scale or off-condition evidence. Do not interpret as clinical guidance. All interventions require physician discussion before implementation.
+]
+
+The mitochondrial reserve threshold hypothesis (Section @spec:mtdna-reserve-threshold) predicts that pre-existing low reserve capacity facilitates ME/CFS onset after a viral trigger, and that reserve expansion could constitute both a preventive and therapeutic strategy. The following speculative treatment concepts share the goal of expanding spare respiratory capacity (SRC).
+
+#speculation(title: [Bezafibrate for PPAR-Mediated Reserve Expansion])[
+*(Certainty: 0.30 — proven PGC-1$alpha$ induction in primary mitochondrial disease models; ME/CFS-specific evidence absent.)*
+
+Bezafibrate (pan-PPAR-$alpha$/$gamma$/$delta$ agonist) increases mitochondrial biogenesis via PGC-1$alpha$ and improves OXPHOS spare capacity in primary mitochondrial disease cell models. If ME/CFS reserve deficit is rate-limiting, bezafibrate could raise the functional ceiling. Dose: 400–600 mg/day (established fibrate dose for dyslipidemia). Monitoring: liver enzymes, CK, myopathy symptoms; creatinine in patients with renal impairment (fibrate-class contraindication in CKD); interactions with statins (myopathy risk) and anticoagulants (INR increase). Starting dose for severe/very-severe patients: 200 mg/day with stepwise titration over 4 weeks.
+
+*Falsifiable prediction:* 12-week bezafibrate in moderate ME/CFS (n = 60, RCT) will improve day-2 CPET VO#sub[2]max decrement by ≥10% vs. placebo, with greatest effect in haplogroup H subgroup. No ME/CFS trial of bezafibrate has been conducted. Not yet replicated.
+] <spec:bezafibrate-reserve>
+
+#speculation(title: [Riboflavin as a Dual PEM--Migraine Target via Complex II and ETF Flux])[
+*(Certainty: 0.30 — established Complex II cofactor; high-dose riboflavin for migraine prevention is evidence-based (Class B, European Headache Federation); ME/CFS application is mechanistic inference.)*
+
+Riboflavin (vitamin B2) is the precursor for FAD, the essential cofactor for Complex II and the electron-transferring flavoprotein (ETF) dehydrogenase system. ME/CFS patients have elevated migraine comorbidity. Migraine responds robustly to high-dose riboflavin (400 mg/day) via a mitochondrial mechanism. If ME/CFS involves Complex II/ETF flux reduction, riboflavin supplementation could improve electron flux without targeting specific haplogroup-defined complexes. Safety profile is excellent (non-toxic at 400 mg; riboflavinuria is the only expected adverse effect).
+
+Dose: 400 mg/day with food. Expected time-to-effect: 3–4 months (consistent with migraine prophylaxis timelines). Monitoring: none required at this dose. Interactions: none with common ME/CFS co-prescriptions (fludrocortisone, midodrine, LDN, pyridostigmine). Contraindications: none in ME/CFS population.
+
+*Falsifiable prediction:* 16-week riboflavin 400 mg/day (n = 80, RCT) will reduce monthly PEM event frequency AND migraine days by ≥30% vs. placebo in ME/CFS patients with comorbid migraine. Not yet replicated in ME/CFS.
+] <spec:riboflavin-dual-target>
+
+#speculation(title: [Atomoxetine or Modafinil Stratified by ADHD Comorbidity Status])[
+*(Certainty: 0.30 — mechanistically motivated by shared dopaminergic-PFC substrate; no ADHD-stratified stimulant trial in ME/CFS exists.)*
+
+The Dopaminergic Demand Crossover hypothesis (Section @spec:dopaminergic-crossover in Chapter @ch:integrative-models) predicts that ME/CFS patients with comorbid ADHD share a PFC dopaminergic bottleneck as part of their reserve deficit phenotype. Non-stimulant ADHD medications — atomoxetine (norepinephrine reuptake inhibitor) and modafinil (wakefulness-promoting) — address the PFC energy deficit without the sympathetic activation risk of stimulants that could trigger PEM. In unselected ME/CFS cohorts, cognitive-symptom response may be diluted by patients without ADHD comorbidity; the reserve-crossover model predicts response will concentrate in ADHD-comorbid patients.
+
+Dose (modafinil): 50–100 mg morning (severe patients: 50 mg; avoid afternoon dosing to prevent sleep disruption). Monitoring: blood pressure, sleep onset latency, appetite. Interactions: no known interaction with LDN, fludrocortisone, midodrine, or pyridostigmine. Contraindications: cardiac arrhythmia history; severe sleep-onset insomnia.
+
+*Falsifiable prediction:* ME/CFS patients with childhood ADHD history (WURS-25 >36) will report ≥30% greater cognitive symptom improvement on modafinil than ME/CFS patients without ADHD history, in a parallel-group trial (n = 100) with ADHD comorbidity as pre-specified stratification variable. Not yet replicated.
+] <spec:stimulant-adhd-stratification>
+
+#speculation(title: [Haplogroup-Guided Supplement Personalization])[
+*(Certainty: 0.25 — haplogroup-symptom associations from a single unreplicated study; haplogroup-guided supplementation untested.)*
+
+If mtDNA haplogroup modulates symptom cluster expression @BillingRoss2016mtDNA, haplogroup-tailored supplementation targeting the bioenergetic vulnerabilities associated with each haplogroup represents a personalizable research approach. Consumer genetic tests provide haplogroup classification at minimal cost.
+
+Proposed mechanistic matching: *Haplogroup H* (tight coupling, exercise-crash phenotype per @BillingRoss2016mtDNA) → MitoQ 10 mg/day (mitochondrially-targeted antioxidant to address ROS from tight coupling under demand) + conservative pacing thresholds. *Haplogroup U* (anti-inflammatory coupling, milder PEM per @BillingRoss2016mtDNA) → focus on other deficit domains rather than antioxidant-loading. *Haplogroup J* (joint pain protection per @BillingRoss2016mtDNA) → investigate whether joint-targeted physiotherapy has differential benefit in this subgroup.
+
+*Falsifiable prediction:* In a 16-week pilot (n = 60, stratified by haplogroup H vs. non-H), haplogroup-matched vs. cross-matched supplement assignment will produce a statistically distinguishable difference in exercise-crash frequency (for H) and bloating (for U/J) at p < 0.05. Note: consumer haplogroup tests carry ~3% major-haplogroup misclassification rate; research applications require validation sequencing. Not yet replicated.
+] <spec:haplogroup-supplement-personalization>

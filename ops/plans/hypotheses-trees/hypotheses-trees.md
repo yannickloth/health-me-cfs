@@ -129,6 +129,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | universal-mechs       | [subtrees/universal-mechs.md](subtrees/universal-mechs.md)            | 2026-04-17      | 25         | 0          | ⬜ stub        |
 | vns-fibre             | [subtrees/vns-fibre.md](subtrees/vns-fibre.md)                        | 2026-04-10      | 28         | 0          | ⬜ stub        |
 | wound-healing         | [subtrees/wound-healing.md](subtrees/wound-healing.md)                | 2026-04-12      | 40         | 0          | ⬜ stub        |
+| mtdna-predisposition  | [subtrees/mtdna-predisposition.md](subtrees/mtdna-predisposition.md)  | 2026-05-02      | 32         | 6          | 🔵 in progress |
 
 ---
 

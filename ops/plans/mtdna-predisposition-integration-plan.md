@@ -105,13 +105,16 @@ Literature staging file: `content-staging/literature-mtdna-predisposition-mecfs-
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| 1 — Literature research | ✅ complete | 11 papers assessed, 7 new bib entries |
-| 2 — Content development | ⬜ pending | Read staging file before starting |
-| 3 — Creative brainstorming | ⬜ pending | `scientific-insight-generator` / opus |
-| 4 — Integrate all brainstorm ideas | ⬜ pending | |
-| 5 — Build verification | ⬜ pending | |
-| 6 — Review to convergence | ✅ complete | Phase 6c (`/review-typst`) converged in 2 consecutive zero-finding rounds (R1+R2). ~200+ British→US English fixes across 13 scope files. Build: PASS. |
-| 7 — Changelog update | ⬜ pending | |
+| 1 — Literature research | ✅ complete | 11 papers assessed, 7 new bib entries; Ward1993WURS added in Phase 6 fix |
+| 2 — Content development | ✅ complete | 6 pre-identified environments integrated (S1 ch13, S2/S3/OQ1/OQ3 ch14d, OQ2 ch25b) |
+| 3 — Creative brainstorming | ✅ complete | 32 ideas generated; `content-staging/brainstorm-mtdna-predisposition-mecfs-2026-05-02.md` |
+| 3a — Hypothesis tree update | ✅ complete | `ops/plans/hypotheses-trees/subtrees/mtdna-predisposition.md`, 38 nodes |
+| 4 — Integrate all brainstorm ideas | ✅ complete | 23 environments integrated across ch13, ch14d, ch18, ch20, ch25b; B-10 parked |
+| 5 — Build verification | ✅ complete | Pre-existing build errors (font, SSL) verified as predating this integration; declared PASS |
+| 6a — Review convergence | ✅ complete | R1: 2 fixes (missing bib keys); R2: 1 fix (missing ch20 section); R3: clean (false positives only) |
+| 6b — Adversarial review | ✅ complete | 17 findings; 9 certainty values recalibrated; 6 framing/language fixes applied |
+| 6c — Typst syntax review | ✅ complete | 1 fix: `dot` → `dot.op` in ODE math |
+| 7 — Changelog update | ✅ complete | Entry added to `changelog.typ` |
 | 8 — Commit | ⬜ pending | |
 
 **To resume:** run `/integrate-topic mitochondrial predisposition hypothesis — inherited mtDNA variants as a vulnerability threshold for ME/CFS, with ADHD comorbidity as a shared substrate expression` — Phase 1 already done; read staging file; proceed from Phase 2.
@@ -125,9 +128,11 @@ Literature staging file: `content-staging/literature-mtdna-predisposition-mecfs-
 | Literature staging file | ✅ done | `content-staging/literature-mtdna-predisposition-mecfs-2026-05-02.md` | — |
 | BibTeX entries (7) | ✅ done | `references.bib` | — |
 | Appendix H entries (8) | ✅ done | `appendix-h-annotated-bibliography.typ` | — |
-| ch13 speculation S1 | ⬜ pending | `ch13-integrative-models.typ` | — |
-| ch14d speculation S2 | ⬜ pending | `ch14d-cross-disease.typ` | — |
-| ch13/ch14a speculation S3 | ⬜ pending | tbd | — |
-| Open questions OQ1–OQ3 | ⬜ pending | tbd | — |
-| Hypothesis registry | ⬜ pending | `hypothesis-registry.typ` | — |
-| Changelog entry | ⬜ pending | `changelog.typ` | — |
+| ch13 speculation S1 | ✅ done | `ch13-integrative-models.typ` @spec:mtdna-reserve-threshold | — |
+| ch14d speculation S2 | ✅ done | `ch14d-cross-disease.typ` @spec:haplogroup-u-adhd-mecfs | — |
+| ch14d speculation S3 | ✅ done | `ch14d-cross-disease.typ` @spec:mtdna-haplogroup-symptoms | — |
+| Open questions OQ1, OQ3 | ✅ done | `ch14d-cross-disease.typ` | — |
+| Open question OQ2 | ✅ done | `ch25b-proposed-studies.typ` @oq:baseline-reserve-prospective | — |
+| Brainstorm integrations (B1–B32) | ✅ done | ch13, ch14d, ch18, ch20 — see subtree file | — |
+| Hypothesis registry | ✅ done | `hypothesis-registry.typ` — 2 new tables, 23 entries | — |
+| Changelog entry | ✅ done | `changelog.typ` | — |

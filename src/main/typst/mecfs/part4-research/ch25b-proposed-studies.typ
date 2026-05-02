@@ -2218,5 +2218,24 @@ A weighted clinical checklist for identifying at-risk individuals, pending valid
 The prodromal composite score above is a research proposal, not a validated screening tool. Individual items are evidence-backed (@cf:prodromal-window) but the composite has not been tested for sensitivity, specificity, or predictive value. Prospective validation in a large at-risk cohort is required before clinical use. There is significant risk of both false positives (many healthy tired children) and false negatives (prodromal individuals who present atypically). The score should not be used to diagnose or label children without specialist evaluation.
 ] <lim:prodromal-score>
 
+== Mitochondrial Reserve Capacity in At-Risk Populations: Untested Prospective Study
+<sec:mtdna-reserve-prospective>
+
+=== Background
+
+The mitochondrial reserve threshold model (Section @spec:mtdna-reserve-threshold in Chapter @ch:integrative-models) proposes that inherited mtDNA haplogroup background reduces mitochondrial reserve capacity below a threshold at which an acute stressor can trigger a persistent hypometabolic state. ME/CFS has a documented heritable component (first-degree relative risk 2.70 @Albright2011heritability), but the mechanistic substrate is unknown. Crucially, to our knowledge no published study has measured mitochondrial reserve capacity *before* ME/CFS onset in any population.
+
+#open-question(title: [Prospective Baseline Mitochondrial Reserve in At-Risk Populations])[
+The core mechanistic prediction of the mtDNA reserve threshold model is that individuals who subsequently develop ME/CFS after a viral trigger will show lower mitochondrial reserve capacity at baseline — before illness — compared to individuals who recover normally. This has never been tested. The gap is not merely methodological: no longitudinal study has enrolled at-risk individuals (e.g. close relatives of ME/CFS patients, individuals with documented EBV primary infection), measured baseline bioenergetics, and followed them prospectively through a viral trigger.
+
+Available tools make this feasible: Seahorse XF analysis of peripheral blood mononuclear cells (PBMCs) quantifies spare respiratory capacity (SRC) — the difference between maximal and basal oxygen consumption, a direct measure of mitochondrial reserve — in small blood volumes under standard clinical conditions @Heng2025mecfs. Haplogroup determination adds minimal cost via targeted mtDNA sequencing.
+
+A prospective design would require: (a) enrollment of first-degree relatives of ME/CFS patients and age/sex-matched controls; (b) baseline PBMC bioenergetics (SRC by Seahorse), haplogroup determination, and nuclear mitochondrial gene variants (NDUFAF2, UCP2, FBXL4); (c) follow-up to capture any acute infection episode and post-infection status at 6 and 12 months; (d) ME/CFS diagnosis assessment at 12 months using Canadian Consensus Criteria or ICC.
+
+If lower SRC at baseline predicts ME/CFS conversion after infection, this would constitute the first mechanistic link between inherited mitochondrial characteristics and ME/CFS predisposition. If SRC is equivalent between converters and non-converters, the reserve threshold model would require revision toward nuclear genetic or epigenetic mechanisms. Either outcome would substantially advance the field.
+
+*Immediate feasibility:* Existing infectious mononucleosis cohorts (e.g. those used to identify the 13% ME/CFS conversion rate after EBV @Katz2009IMadolescentCFS) could be retrospectively analyzed for stored baseline biospecimens — if PBMCs were cryopreserved, Seahorse analysis may still be possible. This would provide observational (not prospective) data with shorter timeline.
+] <oq:baseline-reserve-prospective>
+
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"

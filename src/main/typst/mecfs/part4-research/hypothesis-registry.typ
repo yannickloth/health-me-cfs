@@ -5272,3 +5272,193 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-hsat2-phase4-completion>
 ] // end landscape page
+
+=== Entries Added 2026-05-02: MtDNA Predisposition and ADHD Shared Substrate
+
+Motivated by: @BillingRoss2016mtDNA (haplogroup symptom modulation), @Venter2019mtDNA (anomalous variant distribution, two cohorts), @Albright2011heritability (family relative risk), @Chang2020haploADHD (haplogroup U protective in ADHD, n > 7,000), @Giannoulis2024sysrevmtADHD (systematic review), @Verma2016ADHDcybrid (cybrid functional impairment), @Dibble2020genetics (null onset predisposition review), @Naviaux2014cdr (CDR reserve capacity framing).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Mitochondrial Reserve Threshold as ME/CFS Predisposition],
+    [S], [0.25],
+    [Inherited haplogroup reduces reserve capacity; viral trigger cannot be resolved below threshold → persistent hypometabolic state. (a) At-risk relatives show lower SRC by Seahorse at baseline. (b) Higher ME/CFS conversion rate in low-SRC individuals after infection. (c) Reserve-enhancing interventions during acute infection reduce conversion.],
+    [Prospective cohort (ME/CFS first-degree relatives + IM cohort). Baseline Seahorse PBMC SRC + haplogroup + NDUFAF2/UCP2. 12-month follow-up. Feasible with existing IM cohorts if PBMCs cryopreserved. No study done.],
+    [Ch.13 @spec:mtdna-reserve-threshold; Ch.25b @oq:baseline-reserve-prospective],
+
+    [MtDNA Haplogroup Symptom Modulation Without Onset Predisposition],
+    [S], [0.45],
+    [Haplogroups J/U/H modulate symptom cluster expression in established ME/CFS without affecting onset susceptibility. Haplogroup H will correlate with higher DSQ-PEM subscale scores vs J/U patients matched for duration and severity in independent cohort (n ≥ 300).],
+    [Independent ME/CFS cohort with whole-mtDNA sequencing + DSQ-PEM symptom subscale. Billing-Ross 2016 (n=193) replicated in direction but not individual markers. Replication needed.],
+    [Ch.14d @spec:mtdna-haplogroup-symptoms],
+
+    [Haplogroup U as Shared ADHD--ME/CFS Mitochondrial Modifier],
+    [S], [0.20],
+    [Haplogroup U protective in ADHD (Chang 2020, n > 7,000) and symptom-modifying in ME/CFS (Billing-Ross 2016) — same haplogroup, cross-disease modifier. (a) ADHD-comorbid ME/CFS patients will show different haplogroup distribution vs non-ADHD ME/CFS patients, with haplogroup U depleted in non-ADHD group.],
+    [Single cohort study: ME/CFS + ADHD comorbidity status + whole-mtDNA sequencing. No such study exists. Haplogroup U overlap is single cross-study data point.],
+    [Ch.14d @spec:haplogroup-u-adhd-mecfs],
+
+    [Maternal Inheritance Clustering in ME/CFS: Untested],
+    [OQ], [---],
+    [If maternal clustering exceeds paternal in ME/CFS families, mtDNA-mediated predisposition gains mechanistic support. If equivalent, nuclear or epigenetic transmission is comparatively more plausible. Reportable from existing pedigree databases (Utah Population Database, UK Biobank).],
+    [Pedigree analysis of ME/CFS family registries. Albright 2011 (n=811) did not separate maternal/paternal. Feasible with existing data. Not done.],
+    [Ch.14d @oq:maternal-inheritance-clustering],
+
+    [Why Do ME/CFS Patients Carry Fewer Deleterious mtDNA Variants?],
+    [OQ], [---],
+    [Venter 2019 (two cohorts, n=261+241): ME/CFS patients carry fewer mildly deleterious variants than controls — reverse of "damaged mtDNA" prediction. Mechanism unknown. Three candidate interpretations: selection pressure, threshold inversion, nuclear-mitochondrial mismatch. Each predicts different pattern in nuclear mitochondrial gene variants.],
+    [Targeted nuclear mitochondrial gene sequencing (NDUFAF2, UCP2, FBXL4, CCPG1) in Venter 2019 cohorts. Compare nuclear variant burden in high-vs-low-mtDNA-variant-burden ME/CFS subgroups. Not done.],
+    [Ch.14d @oq:mtdna-variant-distribution],
+
+    [Prospective Baseline Mitochondrial Reserve in At-Risk Populations],
+    [OQ], [---],
+    [Individuals who convert to ME/CFS after infection will show lower Seahorse PBMC spare respiratory capacity at baseline vs non-converters. Feasibility shortcut: retrospective Seahorse on cryopreserved PBMCs from IM cohorts (Katz 2009 type) if specimens available.],
+    [Prospective cohort: ME/CFS first-degree relatives + acute IM patients. Baseline Seahorse SRC + haplogroup. 12-month ME/CFS diagnosis follow-up. No study done. Retrospective IM biobank analysis is faster.],
+    [Ch.25b @oq:baseline-reserve-prospective],
+
+  ),
+  caption: [Entries added 2026-05-02: mtDNA predisposition and ADHD shared substrate integration — 6 new environments across ch13, ch14d, ch25b. Includes 3 speculations and 3 open questions. Motivated by @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Dibble2020genetics, @Naviaux2014cdr.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-02-mtdna>
+] // end landscape page
+
+=== Entries Added 2026-05-02 (Phase 4): MtDNA Predisposition Brainstorm Integration
+
+Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Naviaux2014cdr.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Haplogroup H Tight Coupling as PEM Substrate],
+    [S], [0.20],
+    [Haplogroup H ME/CFS patients show ≥15% greater day-2 VO2max decrement than haplogroup U/J patients matched for severity in 2-day CPET.],
+    [2-day CPET with haplogroup stratification (n ≥ 80). Feasible; haplogroup from saliva DNA. Not yet done.],
+    [Ch.13 @spec:haplogroup-h-pem],
+
+    [Survivorship Bias Explains Fewer-Deleterious-Variants Anomaly],
+    [S], [0.20],
+    [Pediatric ME/CFS cohort (not yet filtered by survivorship) will NOT show "fewer deleterious mtDNA variants" pattern. If pediatric distribution matches controls, survivorship interpretation supported.],
+    [Pediatric ME/CFS whole-mtDNA sequencing (n ≥ 100). No pediatric mtDNA study in ME/CFS exists.],
+    [Ch.13 @spec:survivorship-bias-variants],
+
+    [Dopaminergic Demand Crossover: ADHD and ME/CFS as Reserve-Ceiling Expressions],
+    [S], [0.20],
+    [ME/CFS cohorts show higher childhood ADHD rates than controls, concentrated in non-U/K haplogroups. WURS-25 >36 in pre-illness adults predicts ME/CFS development (OR ≥ 2.0) after viral trigger.],
+    [ADHD history survey in ME/CFS cohort + haplogroup. WURS-25 in prospective post-viral cohort. Neither done.],
+    [Ch.13 @spec:dopaminergic-crossover; Ch.14d @oq:wurs-risk-flag],
+
+    [Reserve-Threshold ODE Variable (R(t))],
+    [S], [0.15],
+    [Fitted ODE with R(t) will reproduce bimodal ME/CFS onset age distribution (adolescent + 37-year peaks) using haplogroup-stratified R(0) and population stressor frequency, without additional parameters.],
+    [Parameter calibration to published mitochondrial aging data + ME/CFS onset epidemiology. No ODE model of CDR predisposition published.],
+    [Ch.13 @spec:reserve-threshold-ode],
+
+    [Two-Hit DAG Extension: Haplogroup as Upstream Modifier Node],
+    [S], [0.20],
+    [Path analysis in cohort (n > 500) with haplogroup + ADHD + ME/CFS phenotype data will show non-zero indirect path: haplogroup → ADHD probability → ME/CFS cognitive-symptom severity.],
+    [Requires cohort with all 4 variables co-measured. No such dataset exists. Feasible with future biobank design.],
+    [Ch.13 @spec:two-hit-dag-haplogroup],
+
+    [Migraine as Third Reserve-Ceiling Expression],
+    [S], [0.15],
+    [Migraine prevalence in ME/CFS elevated specifically in haplogroup H and reduced in haplogroup U, controlling for sex and duration.],
+    [ME/CFS registry with haplogroup + migraine comorbidity data. Not yet done.],
+    [Ch.13 @spec:migraine-reserve-bridge],
+
+    [Long COVID ME/CFS Subset Haplogroup Prediction],
+    [S], [0.20],
+    [Long COVID patients meeting ICC ME/CFS criteria show haplogroup H enrichment vs non-ME/CFS Long COVID patients. Testable in RECOVER/PHOSP-COVID biobanks with stored DNA.],
+    [Haplogroup determination from existing Long COVID biobank DNA + retrospective ICC ME/CFS phenotyping. Feasible with existing biobanks. Not done.],
+    [Ch.13 @spec:long-covid-haplogroup],
+
+    [Heteroplasmy Sex Asymmetry as Female-Predominance Contributor],
+    [S], [0.30],
+    [Female ME/CFS patients show higher heteroplasmy variance at OXPHOS-relevant mtDNA sites than male patients matched for severity, in deep-coverage (>1000×) mtDNA sequencing.],
+    [Deep-coverage mtDNA sequencing with sex-stratified analysis. Existing studies (BR16, V19) used standard depth; sex-stratified heteroplasmy not reported. Feasible.],
+    [Ch.14d @spec:heteroplasmy-sex-asymmetry],
+
+    [Nuclear-Mitochondrial Mismatch as Predisposition Substrate],
+    [S], [0.30],
+    [ME/CFS prevalence elevated in populations with high recent maternal-paternal continental admixture vs populations with stable haplogroup-nuclear pairing.],
+    [Epidemiological analysis linking admixture estimates (autosomal vs mitochondrial continental origin) to ME/CFS prevalence. Requires large multi-ethnic cohort. Not done.],
+    [Ch.14d @spec:nuclear-mito-mismatch],
+
+    [Trio Sequencing in ME/CFS Families: Maternal vs. Paternal Test],
+    [OQ], [---],
+    [100 affected proband + mother + father trios: if maternal-side relatives show significantly higher ME/CFS prevalence than paternal-side (p < 0.05), mtDNA predisposition hypothesis strengthened.],
+    [Family trio recruitment via ME/CFS registries + saliva sequencing. Feasible within 12–24 months. Not done.],
+    [Ch.14d @oq:trio-mtdna-sequencing],
+
+    [Long-Read mtDNA Sequencing Retest],
+    [OQ], [---],
+    [Long-read duplex sequencing (heteroplasmy detection ≥0.1%) in n ≥ 200 ME/CFS will identify at least one structural variant or low-heteroplasmy site enriched in cases (p < 0.05 corrected). Null would confirm existing null finding with higher sensitivity.],
+    [Nanopore/PacBio duplex sequencing. Existing short-read studies are the benchmark. Technically feasible; cost is decreasing.],
+    [Ch.14d @oq:long-read-mtdna-retest],
+
+    [Pathogenic mtDNA Carrier Relatives as Natural Experiment],
+    [S], [0.35],
+    [Asymptomatic carriers of pathogenic mtDNA mutations (low heteroplasmy) in mitochondrial disease registries show post-viral ME/CFS-like illness ≥3× general population rate.],
+    [Mitochondrial disease registry survey (MitoCohort, UMDF). Retrospective; ascertainment bias risk. Not done.],
+    [Ch.14d @spec:pathogenic-carrier-experiment],
+
+    [WURS Score as Zero-Cost ME/CFS Risk Stratifier],
+    [OQ], [---],
+    [WURS-25 >36 predicts ME/CFS development after acute viral illness with OR ≥ 2.0 in prospective post-viral cohort (n ≥ 300, 12-month follow-up).],
+    [WURS-25 at enrollment in IM/COVID prospective cohort with ME/CFS ascertainment at 12 months. Feasible; no cost beyond questionnaire administration. Not done.],
+    [Ch.14d @oq:wurs-risk-flag],
+
+    [Composite Reserve Index Including Haplogroup as Trial Stratifier],
+    [S], [0.25],
+    [Reserve Index (Seahorse SRC + haplogroup + post-exertional L/P ratio + mtDNA copy number) explains ≥15% of variance in 2-day CPET decrement, exceeding any single component.],
+    [Assembly of composite in n ≥ 100 ME/CFS with full battery. No such dataset exists; components individually validated. Feasible with coordination.],
+    [Ch.20 @spec:composite-reserve-index],
+
+    [Post-Exertional L/P Ratio as Haplogroup-Sensitive Coupling Proxy],
+    [OQ], [---],
+    [Δ(L/P ratio) at 24h post 6MWT ≥2× higher in haplogroup H than U/J ME/CFS patients at matched severity.],
+    [Paired plasma L/P before and 24h after 6MWT + haplogroup. Feasible with existing CPET infrastructure. Not done.],
+    [Ch.20 @oq:lactate-pyruvate-haplogroup],
+
+    [Bezafibrate for PPAR-Mediated Reserve Expansion],
+    [S], [0.30],
+    [12-week bezafibrate RCT: ≥10% improvement in day-2 CPET VO2max decrement vs placebo; greatest effect in haplogroup H subgroup.],
+    [RCT n=60 with haplogroup stratification. Safety monitoring for myopathy and renal function. No ME/CFS trial done.],
+    [Ch.18 @spec:bezafibrate-reserve],
+
+    [Riboflavin 400 mg Dual PEM--Migraine Target],
+    [S], [0.30],
+    [16-week riboflavin RCT: ≥30% reduction in PEM event frequency AND migraine days vs placebo in ME/CFS with comorbid migraine. Safe; low cost; no drug interactions.],
+    [RCT n=80 in ME/CFS+migraine subgroup. Feasible; riboflavin is OTC. Not done in ME/CFS.],
+    [Ch.18 @spec:riboflavin-dual-target],
+
+    [Atomoxetine/Modafinil Stratified by ADHD Comorbidity],
+    [S], [0.30],
+    [ADHD-comorbid ME/CFS patients (WURS-25 >36) report ≥30% greater cognitive improvement on modafinil than non-ADHD ME/CFS patients in parallel-group trial (n=100).],
+    [Parallel-group trial with ADHD comorbidity as pre-specified stratification. Feasible; modafinil is available. Not done in ME/CFS with ADHD stratification.],
+    [Ch.18 @spec:stimulant-adhd-stratification],
+
+    [Haplogroup-Guided Supplement Personalization],
+    [S], [0.25],
+    [Haplogroup-matched vs cross-matched supplement assignment produces distinguishable difference in exercise-crash frequency (H) and bloating (U/J) at p < 0.05 in 16-week pilot.],
+    [Open-label pilot n=60 stratified by haplogroup H vs non-H. Consumer haplogroup tests sufficient for pilot; research requires validation sequencing. Not done.],
+    [Ch.18 @spec:haplogroup-supplement-personalization],
+
+  ),
+  caption: [Entries added 2026-05-02 (Phase 4): mtDNA predisposition brainstorm integration — 17 new environments across ch13, ch14d, ch18, ch20. Includes 13 speculations, 4 open questions. Motivated by @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Naviaux2014cdr.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-02-mtdna-phase4>
+] // end landscape page

@@ -764,6 +764,94 @@ What if ME/CFS represents an “acquired mitochondrial disease” where the gene
 This would explain the mitochondrial dysfunction without genetic mutations.
 ]
 
+#speculation(title: [MtDNA Haplogroup Symptom Modulation Without Onset Predisposition])[
+*(Certainty: 0.45 — directly evidenced by two-cohort mtDNA sequencing study; symptom associations replicated in direction but not in individual markers.)*
+
+Three independent whole-genome mitochondrial sequencing studies consistently find *no association* between inherited mtDNA variants and ME/CFS onset @BillingRoss2016mtDNA @Venter2019mtDNA @Dibble2020genetics. The null finding for onset predisposition is robust. What the evidence does support is a distinct claim: haplogroup background modulates symptom cluster expression *after* ME/CFS is established. Billing-Ross et al. @BillingRoss2016mtDNA found that haplogroups J, U, and H each associated with distinct symptom profiles in 193 ME/CFS cases — haplogroup J correlating with protection against joint pain metrics, haplogroup U with less severe bloating, and haplogroup H with increased “feeling dead after exercise.” This effect operates on symptom expression rather than susceptibility, and has not been independently replicated.
+
+This distinction matters clinically: mtDNA haplogroup testing could theoretically help predict symptom severity profiles in established ME/CFS patients — which symptom clusters are most likely to be prominent — without offering any information about onset risk. If replicated, haplogroup-based symptom profiling would provide a genetic framework for personalizing symptom management (e.g., predicting which patients are at higher risk for severe post-exertional crashes based on haplogroup H status).
+
+*Falsifiable prediction:* In an independent ME/CFS cohort of #sym.gt.eq 300 patients, haplogroup H will correlate with higher post-exertional malaise scores (DSQ-PEM subscale) relative to haplogroup J and U patients matched for disease duration and baseline severity. If no haplogroup-symptom association is found, the symptom-modulation claim does not extend beyond the single Billing-Ross cohort.
+
+*Limitations:* The symptom associations in @BillingRoss2016mtDNA are unreplicated; the study was predominantly European-descent, limiting generalizability; haplogroup effects on phenotype could be confounded by nuclear genetic background linked to haplogroup; no causal mechanism linking haplogroup to specific symptom pathways has been proposed. Not yet replicated independently.
+] <spec:mtdna-haplogroup-symptoms>
+
+#speculation(title: [Haplogroup U as Shared ADHD--ME/CFS Mitochondrial Modifier])[
+*(Certainty: 0.20 — rests on a single cross-study haplogroup U overlap; no direct combined-cohort study exists.)*
+
+Haplogroup U appears as a modifier in both ME/CFS and ADHD independently. In a meta-analysis of 2,076 ADHD cases across three European-American cohorts, haplogroup U (and K) was protective against ADHD diagnosis @Chang2020haploADHD. In the Billing-Ross ME/CFS cohort, haplogroup U was associated with attenuated bloating symptoms @BillingRoss2016mtDNA. These findings emerge from different populations, different study designs, and different endpoints — one measuring disease risk, the other symptom severity — yet they converge on the same haplogroup as a protective modifier across both conditions.
+
+This single overlap point raises a speculative but testable hypothesis: haplogroup U confers a mitochondrial bioenergetic configuration that is protective or moderating across neurodevelopmental and post-infectious fatigue conditions, with the specific phenotypic expression depending on which system is most stressed. Under this shared-substrate model, low mitochondrial reserve (non-U haplogroup background) might manifest as dopaminergic prefrontal dysfunction (ADHD phenotype) when the energetically expensive prefrontal cortex is the primary bottleneck, and as post-exertional metabolic collapse (ME/CFS phenotype) when whole-body energy metabolism is overwhelmed by a trigger.
+
+ADHD itself shows direct evidence of mitochondrial bioenergetic impairment: cybrid cell lines derived from ADHD patient platelets demonstrate lower cellular respiration, reduced Complex V (ATPase) activity, diminished mitochondrial membrane potential, and elevated oxidative stress compared to controls — and these defects are transferable via the patient's own mitochondria, not just their nuclear environment @Verma2016ADHDcybrid. Multiple additional studies document elevated mtDNA copy number (#sym.approx 1.3$times$ controls), SNP associations, and haplogroup effects across ADHD populations, though sample sizes and methodology are heterogeneous @Giannoulis2024sysrevmtADHD.
+
+*Falsifiable prediction:* In a cohort of ME/CFS patients with ADHD comorbidity (estimated 20–40% based on general prevalence), haplogroup distribution will differ significantly from ME/CFS patients without ADHD comorbidity, with haplogroup U depleted in the non-ADHD ME/CFS group relative to the ADHD-comorbid group. This is falsified if haplogroup distribution is identical across the two ME/CFS subgroups.
+
+*Limitations:* The cross-study haplogroup U overlap is a single data point and could reflect chance, population stratification, or study-specific confounders. No study has measured mtDNA haplogroup, ADHD comorbidity, and ME/CFS diagnosis in a single cohort. The cybrid evidence for ADHD mitochondrial dysfunction uses n=3 ADHD patients — mechanistically informative but statistically fragile @Verma2016ADHDcybrid. The causal direction between ADHD dopamine dysregulation and mitochondrial dysfunction is unresolved: mitochondrial dysfunction could drive dopamine deficiency, or chronic dopaminergic dysregulation could secondarily stress mitochondria. Not yet replicated.
+] <spec:haplogroup-u-adhd-mecfs>
+
+#open-question(title: [Maternal Inheritance Clustering in ME/CFS: Untested])[
+The largest family study of ME/CFS heritability @Albright2011heritability demonstrated first-degree relative risk of 2.70 and a signal persisting to third-degree relatives — arguing against shared-environment explanations and supporting a heritable component. However, the study does not separate maternal from paternal inheritance. This distinction is diagnostically critical for the mitochondrial predisposition hypothesis: mitochondrial DNA is maternally inherited almost exclusively, so purely maternal clustering (mother→child) would constitute evidence for mtDNA-mediated predisposition, while paternal clustering would rule it out.
+
+No published ME/CFS family study has reported the maternal-to-paternal inheritance ratio. The practical barriers are modest: pedigree analysis of ME/CFS family registries (e.g., the Utah Population Database used in @Albright2011heritability, or the UK Biobank data with ME/CFS self-report) could determine whether affected relatives cluster disproportionately on the maternal lineage. This analysis is feasible with existing data.
+
+If maternal clustering exceeds chance (expected ratio \~50% maternal in simple autosomal predisposition), this would motivate whole-mitochondrial-genome sequencing studies powered for onset rather than severity. If maternal and paternal clustering are equivalent, the mitochondrial predisposition hypothesis loses its primary mechanistic rationale, and nuclear genetic or epigenetic transmission models become comparatively more plausible.
+] <oq:maternal-inheritance-clustering>
+
+#open-question(title: [Why Do ME/CFS Patients Carry Fewer Deleterious mtDNA Variants?])[
+Venter et al. @Venter2019mtDNA found an unexpected pattern in two independent ME/CFS cohorts (UK and South Africa): patients carry *fewer* mildly deleterious mtDNA variants than healthy controls (UK: 55% vs 27% without such variants, p = 0.0008; SA: 56% vs 41%, p = 0.03). This is the reverse of what a “damaged mitochondria = predisposition” model would predict. The replicated finding has no accepted explanation.
+
+Three non-exclusive interpretations warrant investigation: (a) *Selection pressure* — individuals with more deleterious mtDNA variants may respond to the same trigger by developing a different (perhaps more acute and resolved) illness rather than ME/CFS; (b) *Threshold inversion* — it is not the presence of deleterious variants but the absence of protective rare variants that matters; the “fewer deleterious” group may lack specific haplogroup-associated protective SNPs; (c) *Nuclear-mitochondrial mismatch* — the relevant predisposition variable may be nuclear-encoded mitochondrial gene variants (NDUFAF2, UCP2, FBXL4, CCPG1) that interact with mtDNA background, making the mtDNA-only sequencing approach incomplete.
+
+This finding challenges simple “damaged mtDNA” framing and may point toward a more complex haplogroup-by-nuclear-gene interaction as the true predisposition substrate.
+] <oq:mtdna-variant-distribution>
+
+#speculation(title: [Heteroplasmy Sex Asymmetry as Contributor to Female Predominance])[
+*(Certainty: 0.30 — mechanistically plausible; female sex predominance in ME/CFS is well-established; direct heteroplasmy measurement by sex has not been done in ME/CFS.)*
+
+ME/CFS affects women at 3–4 times the rate of men. Mitochondrial bottleneck during oogenesis fixes heteroplasmy ratios in offspring. Female-biased X-linked nuclear-encoded mitochondrial proteins (e.g., NDUFA1, NDUFB11) interact with mtDNA-encoded OXPHOS subunits. A heteroplasmy burden tolerated in males — where hemizygosity at X-linked mitochondrial assembly factors is the baseline — may exceed the symptom-modulation threshold in females, where X-inactivation mosaicism creates cell-by-cell variability in mitochondrial assembly efficiency. This could amplify the impact of even modest mtDNA heteroplasmy on whole-tissue energy output.
+
+*Falsifiable prediction:* In a mixed-sex ME/CFS cohort with deep-coverage mtDNA sequencing (>1000× depth, enabling detection of heteroplasmy at 0.5% allele frequency), female patients will show higher heteroplasmy variance at OXPHOS-relevant sites (Complex I/IV subunit genes) than male patients matched for disease severity. *Limitations:* Existing ME/CFS mtDNA studies (Billing-Ross 2016, Venter 2019) found overall heteroplasmy levels low and comparable between cases and controls; sex-stratified analysis has not been reported. The X-linked nuclear-mitochondrial interaction mechanism is established in principle but not measured in ME/CFS tissue. Not yet replicated.
+] <spec:heteroplasmy-sex-asymmetry>
+
+#speculation(title: [Nuclear-Mitochondrial Mismatch as Predisposition Substrate])[
+*(Certainty: 0.30 — mechanistically plausible; onset-null mtDNA results from all published studies may obscure a real mismatch signal; direct haplogroup × nuclear-genome interaction in ME/CFS untested.)*
+
+The consistent null finding for mtDNA onset-predisposition (@BillingRoss2016mtDNA @Venter2019mtDNA @Dibble2020genetics) analyzes mtDNA alone. Yet OXPHOS function depends on the coordinated expression of ~90 nuclear-encoded genes and 13 mtDNA-encoded proteins; evolutionary co-adaptation between haplogroup and nuclear background optimizes this coordination. Recent maternal-lineage admixture — an individual carrying a non-European haplogroup alongside a European nuclear-encoded mitochondrial proteome, or vice versa — may produce reduced OXPHOS efficiency without any individual variant being deleterious. The predisposition signal could be an *interaction term* not captured by mtDNA-only sequencing.
+
+*Falsifiable prediction:* ME/CFS prevalence will be elevated in populations with measurably high recent maternal-paternal continental admixture (quantifiable by comparing mitochondrial haplogroup continental origin with autosomal ancestry estimates), compared to populations with stable haplogroup-nuclear pairing, after adjusting for socioeconomic and healthcare access confounders. *Limitations:* This prediction requires whole-genome data linked to ME/CFS diagnosis in admixed populations — a dataset not currently available. The population genetics methodology is established; its application to ME/CFS is novel and untested. Not yet replicated.
+] <spec:nuclear-mito-mismatch>
+
+#open-question(title: [Trio Sequencing in ME/CFS Families: The Definitive Maternal-Paternal Test])[
+The strongest direct test of mitochondrial predisposition in ME/CFS is trio sequencing: sequencing the affected proband plus both parents in 100 families, allowing formal partition of heritability between mtDNA (mother-only transmission) and nuclear (biparental) contributions. The Albright 2011 pedigree study @Albright2011heritability establishes the overall family relative risk (2.70 first-degree) but does not report the maternal vs. paternal breakdown. Trio sequencing in 100 families would generate both haplogroup determination (from proband + mother) and maternal-vs-paternal clustering data simultaneously.
+
+This is feasible with existing research infrastructure: GWAS study protocols and saliva-based DNA collection kits require no clinic visit. Family-based recruitment through established ME/CFS patient registries (ME/CFS Biobank UK, Solve ME) could yield sufficient family trios within 12–24 months.
+
+If maternal-side relatives of probands show significantly higher ME/CFS prevalence than paternal-side relatives at p < 0.05, this would constitute the first positive evidence for maternal transmission as a meaningful component of ME/CFS predisposition. If maternal and paternal clustering are equivalent, the mtDNA predisposition hypothesis requires reassessment in favor of nuclear genetic or epigenetic transmission.
+] <oq:trio-mtdna-sequencing>
+
+#open-question(title: [Long-Read mtDNA Sequencing to Retest the Onset-Null Finding])[
+All three ME/CFS mtDNA studies finding null onset-predisposition (Billing-Ross 2016 @BillingRoss2016mtDNA, Venter 2019 @Venter2019mtDNA, and the review by Dibble 2020 @Dibble2020genetics) relied on short-read next-generation sequencing. Short-read approaches underresolve low-frequency heteroplasmy (typically insensitive below 5% allele frequency) and may miss structural variants (large deletions, rearrangements) that accumulate in aged tissues. Nanopore and PacBio duplex sequencing now achieve heteroplasmy detection down to ~0.1% allele frequency with strand-discrimination error correction.
+
+Replication of the Billing-Ross or Venter study design with long-read mtDNA sequencing in n ≥ 200 ME/CFS patients would definitively test whether the null finding reflects genuine absence of mtDNA predisposition or a technical limitation of short-read sensitivity. If long-read sequencing identifies at least one structural variant or low-heteroplasmy site (≥1% allele frequency) enriched in cases vs. controls at p < 0.05 (corrected for multiple testing), the null finding would require revision.
+] <oq:long-read-mtdna-retest>
+
+#speculation(title: [Pathogenic mtDNA Carrier Relatives as a Natural Experiment])[
+*(Certainty: 0.35 — mechanistically coherent; natural experiment avoids many confounds; requires accessing mitochondrial disease registries and ME/CFS diagnosis data jointly.)*
+
+Asymptomatic carriers of pathogenic mtDNA mutations — relatives of individuals with MELAS, MERRF, or Leigh syndrome who carry the mutation at low heteroplasmy and remain clinically unaffected — live with measurably reduced mitochondrial reserve throughout their lives. Under the reserve-threshold model (Section @spec:mtdna-reserve-threshold in Chapter @ch:integrative-models), these carriers should show elevated ME/CFS rates after viral triggers compared to their non-carrier siblings, because their reserve floor is already lowered by the pathogenic variant before any stressor is applied.
+
+*Falsifiable prediction:* Surveying maternal relatives in mitochondrial disease registries (MitoCohort, MITOMAP-linked registries, UMDF data) will reveal post-viral ME/CFS-like illness incidence ≥3× the age/sex-adjusted general population rate in individuals confirmed as low-heteroplasmy pathogenic variant carriers. If carrier relatives show ME/CFS rates indistinguishable from the general population, the reserve-threshold model cannot explain predisposition via germline mitochondrial vulnerability. *Limitations:* Mitochondrial disease registries are not designed for ME/CFS outcome ascertainment; retrospective survey methodology has ascertainment bias; "ME/CFS-like illness" without formal diagnostic validation is a weak endpoint. Not yet replicated.
+] <spec:pathogenic-carrier-experiment>
+
+#open-question(title: [WURS Score as a Zero-Cost ME/CFS Risk Stratifier])[
+The Dopaminergic Demand Crossover hypothesis (Section @spec:dopaminergic-crossover in Chapter @ch:integrative-models) predicts that childhood ADHD history reflects the same low mitochondrial reserve substrate that confers ME/CFS susceptibility. If correct, adult ADHD or subclinical childhood attention symptoms — retrospectively quantifiable by the Wender Utah Rating Scale (WURS-25, a validated retrospective childhood ADHD symptom scale) — could serve as a clinical marker enriching at-risk cohorts for baseline studies or prevention trials without requiring any genetic testing.
+
+The WURS-25 is a self-administered, 25-item questionnaire with established psychometric properties and a validated threshold of score >36 for probable childhood ADHD @Ward1993WURS. It is zero-cost, zero-blood-draw, and can be administered remotely. In a prospective post-viral cohort, WURS score at enrollment could be tested as a predictor of ME/CFS conversion at 6 and 12 months.
+
+*Testable prediction:* WURS-25 score >36 in pre-illness adults will predict ME/CFS development after acute viral illness with OR ≥ 2.0, in a prospective post-viral cohort of ≥ 300 participants with 12-month follow-up. If the OR is not distinguishable from 1.0, childhood ADHD history does not serve as a risk enrichment tool, and the crossover hypothesis loses its clinical utility even if mechanistically valid.
+] <oq:wurs-risk-flag>
+
 === The Psychiatric Overlap—Reframed
 
 ME/CFS has historically been conflated with depression and anxiety. A mechanistic reframing:
