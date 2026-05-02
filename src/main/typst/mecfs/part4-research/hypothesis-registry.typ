@@ -376,19 +376,19 @@ Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 for
     [Ch.33 @spec:epigenetic-clock],
 
     [Reverse Cascade Recovery Sequence],
-    [H], [0.35],
+    [S], [0.35],
     [Recovery follows reverse timescale order: Ca#super[2+] $arrow.r$ ATP $arrow.r$ safe mode $arrow.r$ immune $arrow.r$ autoantibodies $arrow.r$ epigenetics. (a) Stalls indicate unaddressed load-bearing lock. (b) Order deviation indicates non-primary treatment target.],
     [Longitudinal multi-biomarker monitoring during treatment --- not yet done with adequate temporal resolution. Daratumumab trial follow-up most promising data source.],
     [Ch.33 @hyp:reverse-cascade],
 
     [Treatment Order Dependence: Energy Before Epigenetics],
-    [H], [0.40],
+    [S], [0.40],
     [Epigenetic modifiers alone show transient benefit then relapse (re-consolidation). Energy restoration must precede epigenetic intervention. (a) Reverse order fails. (b) Concurrent equivalent to energy-first. (c) Re-consolidation timescale matches $tau_"epi"$.],
     [No ME/CFS epigenetic modifier trials exist. Analogous sequential therapy evidence from oncology (azacitidine). Conceptually testable with combination trial design.],
     [Ch.33 @hyp:lock-sequence],
 
     [Separatrix Nudging: Sub-Threshold Stacking],
-    [H], [0.35],
+    [S], [0.35],
     [5--6 sub-threshold interventions with positive synergies exceed escape threshold. (a) 6-intervention protocol $>$ any 3-subset. (b) $k$th intervention benefit is non-linear near separatrix. (c) Partial individual responders are best stacking candidates.],
     [Combination supplement pilot data (Castro 2017) suggestive. Factorial trial design prohibitive; adaptive Bayesian design needed. Synergy coefficients unmeasured.],
     [Ch.33 @hyp:separatrix-nudging],
@@ -400,13 +400,13 @@ Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 for
     [Ch.33 @oq:csd-monitoring],
 
     [Directional Attractor Migration],
-    [H], [0.40],
+    [S], [0.40],
     [Patients migrate between attractor basins over time: immune $arrow.r$ metabolic $arrow.r$ severe. (a) Longitudinal subtyping shows shifts. (b) Migration predominantly unidirectional. (c) Migration predicts lock acquisition. (d) Treatment response depends on current attractor, not original.],
     [Longitudinal multi-omics with $>= 12$-month repeat sampling. Cross-sectional data insufficient. Chu 2019 onset patterns consistent but not longitudinal.],
     [Ch.33 @hyp:attractor-migration],
 
     [Antiviral Response Depends on Viral Fraction of Threat Signal],
-    [H], [0.40],
+    [S], [0.40],
     [Antiviral effectiveness = $w_V dot V slash cal(T)$. (a) Response inversely correlates with disease duration. (b) Response correlates with viral/inflammatory marker ratio. (c) Antiviral + anti-inflammatory synergistic. (d) Active replication $>$ serological evidence.],
     [Retrospective analysis of Lerner/Montoya data stratified by duration --- feasible. Combination antiviral + anti-inflammatory trial needed. Viral PCR vs serology stratification feasible.],
     [Ch.33 @hyp:antiviral-threat],
@@ -442,7 +442,7 @@ Motivated by: systematic creative analysis of ch16 causal hierarchy and ch33 for
     [Ch.16 @oq:gut-trigger],
 
     [Threat-Composition-Guided Combination Therapy],
-    [H], [0.30],
+    [S], [0.30],
     [Measuring individual $cal(T)$ component ratios (viral/inflammatory/oxidative/gut) enables personalized intervention stack selection. (a) Guided combination $>$ fixed combination at same intervention count.],
     [Requires biomarker panel for $cal(T)$ components (IL-6, CRP, viral PCR, LPS, ROS markers). Randomized guided vs fixed combination trial needed.],
     [Ch.33 @hyp:threat-guided-therapy],
@@ -1702,7 +1702,7 @@ Seahorse analysis, accelerometry, scRNA-seq all applicable.
 Ch.22 @sec:animal-models \
 
 Neutrophil Functional Exhaustion
-(@hyp:neutrophil-exhaustion)
+(@spec:neutrophil-exhaustion)
 [], [H], [0.40],
 (a) Ex vivo PMA/fMLP stimulation of ME/CFS neutrophils shows attenuated degranulation and ROS vs.\ controls despite normal counts.
 (b) Intracellular flow cytometry reveals depleted granule protein content.
@@ -1714,7 +1714,7 @@ intracellular flow cytometry for granule content;
 paired sampling pre/post treatment in daratumumab or IA trials.
 $n approx 30$ pairs minimum.
 &
-Ch.13 (@hyp:neutrophil-exhaustion) \
+Ch.13 (@spec:neutrophil-exhaustion) \
 
 Chronic Exerkine Signaling
 (@hyp:chronic-exerkine)
@@ -1932,8 +1932,8 @@ Ch.@ch:lifestyle
 @sec:comorbidity-exercise-conflict \
 
 Food-Triggered Non-IgE Mast Cell Activation in ME/CFS
-(@hyp:food-mast-cell-mecfs)
-[], [H], [0.40],
+(@spec:food-mast-cell-mecfs)
+[], [S], [0.40],
 In ME/CFS patients with comorbid MCAS ($tilde$17–25%), food triggers mast cell
 degranulation through non-IgE pathways (MRGPRX2, complement C3a/C5a, lectin–IgE
 glycan cross-linking) undetected by standard allergy testing. Resulting mediator
@@ -5670,7 +5670,7 @@ Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability
     [Ch.17 @spec:histamine-timing-chrono],
 
   ),
-  caption: [Entries added 2026-05-02: MCAS Domain 6 Phase 4 completion — 7 new environments: 6 speculations (pDC IFN loop, Lyme/Bartonella mast cell convergence, imatinib KIT subset, tVNS mast brake, lymphatic stasis brain fog, procyanidin+resveratrol) + 1 speculation (histamine-smart timing). Open-question environments added inline in ch25b (N-of-1 cromolyn causality, PBR28 PET-MRI disambiguation, topical cromolyn hemibody trial, Petri net domain 6 model). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Conway2024BeyondMCAS @Lee2025CanadaMCAS @Valent2021criteria.],
+  caption: [Entries added 2026-05-02: MCAS Domain 6 Phase 4 completion — 8 new environments: 7 speculations (pDC IFN loop, Lyme/Bartonella mast cell convergence, luteolin-quercetin-PEA, imatinib KIT subset, tVNS mast brake, lymphatic stasis brain fog, procyanidin+resveratrol) + 1 speculation (histamine-smart timing). Open-question environments added inline in ch25b (N-of-1 cromolyn causality, PBR28 PET-MRI disambiguation, topical cromolyn hemibody trial, Petri net domain 6 model). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Conway2024BeyondMCAS @Lee2025CanadaMCAS @Valent2021criteria.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-domain6-completion>
 ] // end landscape page

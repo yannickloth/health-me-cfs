@@ -942,7 +942,7 @@ The DecodeME GWAS identification of glutamatergic synapse genes (_SHISA6_, _UNC1
 === Memantine (NMDA Receptor Antagonist)
 <subsubsec:memantine>
 
-Memantine is an uncompetitive NMDA receptor antagonist approved for moderate-to-severe Alzheimer's disease. Its mechanism---blocking excessive glutamatergic excitation while preserving physiological signaling---is potentially relevant to the excitatory/inhibitory imbalance hypothesized in ME/CFS autonomic circuits (Hypothesis @hyp:glutamatergic-autonomic-bridge, Chapter @ch:integrative-models).
+Memantine is an uncompetitive NMDA receptor antagonist approved for moderate-to-severe Alzheimer's disease. Its mechanism---blocking excessive glutamatergic excitation while preserving physiological signaling---is potentially relevant to the excitatory/inhibitory imbalance hypothesized in ME/CFS autonomic circuits (Speculation @spec:glutamatergic-autonomic-bridge, Chapter @ch:integrative-models).
 
 *Rationale:*
 
@@ -1749,7 +1749,7 @@ This combination has not been evaluated in any clinical trial for MCAS-ME/CFS ov
 <sec:ketotifen-famotidine-domain6>
 
 #hypothesis(title: [Ketotifen + Famotidine as a Targeted First-Line Combination for Domain 6-Positive ME/CFS])[
-*(Certainty: 0.55 -- supported by high POTS/MCAS triad therapy response data; no ME/CFS-specific RCT for this combination.)*
+*(Certainty: 0.45 -- supported by POTS/MCAS triad therapy response data including retrospective analyses; no ME/CFS-specific RCT for this combination. Note: uncontrolled retrospective response rates (77--95% PEM reduction in Weinstock 2024) are subject to substantial selection bias and typically attenuate by 50% or more in controlled trials; certainty is calibrated to evidence grade D, not to the effect-size magnitude.)*
 
 For ME/CFS patients with confirmed Domain 6 positivity (mast cell / histaminergic dysregulation, Section @sec:domain6-mast-cell), a low-cost oral combination of ketotifen and famotidine addresses complementary receptor targets with distinct pharmacological profiles and low interaction risk.
 
@@ -1764,7 +1764,7 @@ For ME/CFS patients with confirmed Domain 6 positivity (mast cell / histaminergi
 
 *Monitoring:* Baseline and 4-week COMPASS-31 score (autonomic symptom severity). Urinary N-methylhistamine at baseline and 8 weeks (confirm mast cell mediator reduction). If significant sedation from ketotifen limits daytime function, switch to loratadine 10 mg (less sedating, less mast-cell-stabilizing) as H1 component.
 
-*Interactions:* Ketotifen may enhance sedation from CNS depressants, antiemetics (particularly metoclopramide), and other antihistamines. *QTc risk:* Ketotifen and ondansetron (commonly used for ME/CFS nausea/gastroparesis) both prolong the QTc interval; the combination should be avoided or used only with baseline and follow-up ECG. Famotidine has minimal drug interactions at standard doses but may affect atazanavir absorption if relevant. Both are generally well-tolerated in ME/CFS populations.
+*Interactions:* Ketotifen may enhance sedation from CNS depressants, antiemetics (particularly metoclopramide), and other antihistamines. *QTc risk:* Ketotifen and ondansetron (commonly used for ME/CFS nausea/gastroparesis) both prolong the QTc interval; the combination should be avoided or used only with baseline and follow-up ECG. If the patient is already on ondansetron, metoclopramide, or another QTc-prolonging agent, a baseline ECG is mandatory before initiating ketotifen; do not initiate if baseline QTc exceeds 450 ms in women or 440 ms in men (relative contraindication); discontinue immediately if QTc exceeds 500 ms or increases >60 ms from baseline. Famotidine has minimal drug interactions at standard doses but may affect atazanavir absorption if relevant. Both are generally well-tolerated in ME/CFS populations.
 
 #warning-env(title: [No ME/CFS RCT for this Combination Exists])[
 No randomized controlled trial has evaluated ketotifen + famotidine in ME/CFS. The 77--95% PEM reduction rates reported by @Weinstock2024Ketotifen come from an uncontrolled retrospective analysis; placebo response, natural fluctuation, and selection bias cannot be excluded. The Steinberg 1996 terfenadine (H1 monotherapy) RCT was negative @Steinberg1996 -- H1 alone is insufficient. H1+H2 combination is the minimum effective approach based on mechanistic reasoning and available case evidence. Physician supervision is required.
@@ -1787,13 +1787,15 @@ In ME/CFS-MCAS patients with persistently elevated baseline tryptase (>11 ng/mL,
 
 *Who might benefit:* ME/CFS-MCAS patients who (a) meet MCAS diagnostic criteria, (b) have persistent tryptase >11 ng/mL on at least two separate measurements, (c) have failed H1+H2 antihistamine + mast cell stabilizer combination (Sections @sec:ketotifen-famotidine-domain6 and @sec:cromolyn-ldn-mcas), and (d) have had systemic mastocytosis excluded by bone marrow biopsy or tryptase trend.
 
+*Referral required before any further evaluation:* Any patient potentially meeting criteria (a)–(d) above must be referred to haematology or allergy/immunology with mastocytosis experience. Bone marrow biopsy and KIT mutation testing require specialist coordination. A GP should not initiate this evaluation or the drug without an active specialist relationship.
+
 *Starting dose for ME/CFS sensitivity:* 100 mg daily with food. Titrate only under specialist supervision (haematology or allergy/immunology with mastocytosis experience).
 
 *Monitoring:* CBC with differential monthly (cytopenias), LFTs monthly, serum tryptase at baseline and 12 weeks. Discontinue if grade 2 or above cytopenias or hepatotoxicity.
 
 *Stopping criteria:* No tryptase reduction (>20% from baseline) at 12 weeks, or no clinical response on validated symptom scale at 16 weeks. Imatinib must not be stopped abruptly if extended use; taper per specialist guidance.
 
-*Drug interactions:* Imatinib is metabolized by CYP3A4 and inhibits CYP2D6 and CYP3A4. Check interactions with all current medications. Notable interactions in ME/CFS polypharmacy: midodrine (CYP3A4 substrate), some antihistamines, warfarin (CYP2C9 probe).
+*Drug interactions:* Imatinib is metabolized by CYP3A4 and inhibits CYP2D6 and CYP3A4. Check interactions with all current medications. Notable interactions in ME/CFS polypharmacy: midodrine (CYP3A4 substrate), fludrocortisone (CYP3A4 substrate — imatinib's CYP3A4 inhibition can raise fludrocortisone exposure, risking fluid retention, hypertension, and hypokalemia; monitor closely in POTS patients), some antihistamines, warfarin (CYP2C9 probe).
 
 *Evidence grade:* E (case series from non-ME/CFS populations; no controlled trial; mechanism supports trial in tryptase-elevated subset).
 ] <spec:imatinib-kit-mast-subset>

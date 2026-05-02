@@ -48,7 +48,7 @@ All environments in the HSAT2 hypothesis cluster — across Chapters 14a, 14d, 1
 #speculation(title: [Shared Exosomal HSAT2/HERV-K Signature as a Convergent Mechanism in Long COVID and ME/CFS])[
 
 
-*(Certainty: 0.30 — both conditions share NK/T-cell exhaustion phenotypes; HERV transcriptional activation after SARS-CoV-2 is directly documented; checkpoint gene dysregulation overlap confirmed; the specific exosomal propagation loop remains a cross-disease inference. Certainty is capped by the parent loop hypothesis at 0.25–0.45. All mechanistic anchors ultimately trace to a single 2019 bioRxiv preprint in Ewing sarcoma cancer biology.)*
+*(Certainty: 0.30 — both conditions share NK/T-cell exhaustion phenotypes; HERV transcriptional activation after SARS-CoV-2 is directly documented; checkpoint gene dysregulation overlap confirmed; the specific exosomal propagation loop remains a cross-disease inference. Certainty assigned: 0.30. The parent loop hypothesis (spec:hsat2-exosome-mdsc) constrains the permissible range to 0.25–0.45; any revision to the parent's certainty should be propagated here. All mechanistic anchors ultimately trace to a single 2019 bioRxiv preprint in Ewing sarcoma cancer biology.)*
 
 Long COVID and ME/CFS share post-infectious onset, persistent immune activation despite viral clearance, NK cell dysfunction, and T-cell exhaustion. Several lines of new evidence strengthen the convergence:
 
@@ -254,6 +254,8 @@ Mast cell activation appears connected to ME/CFS:
 
 *Mast Cell Activation Syndrome (MCAS).*
 
+MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section @sec:domain6-mast-cell); histamine intolerance (HIT) due to DAO deficiency is a distinct, overlapping but mechanistically separate condition.
+
     - High comorbidity with ME/CFS
     - Explains chemical sensitivities, food reactions, flushing
     - Mast cells release histamine, prostaglandins, cytokines
@@ -415,7 +417,7 @@ The mediators released during mast cell degranulation map directly onto core ME/
 
 At the CNS level, mast cells in the median eminence and hypothalamus are positioned adjacent to CRH neurons. Mast cell-released tryptase, neurotensin, and CXCL8 activate microglia, propagating neuroinflammation to prefrontal and hippocampal circuits @Hatziagelaki2018hypothalamus. Tsilioni et al. @Tsilioni2022exosome provided mechanistic support: exosome-associated mitochondrial DNA is elevated in ME/CFS patient serum after exercise and stimulates cultured human microglia to release IL-1$beta$—connecting exertion-triggered immune activation to central neuroinflammation. Weinstock et al. @Weinstock2023MCASneuro documented resolution of neuropsychiatric symptoms including cognitive dysfunction in all eight MCAS patients treated with mast cell-directed therapy, though the case series design limits generalizability.
 
-#hypothesis(title: [Food-Triggered Non-IgE Mast Cell Activation as Contributor to ME/CFS Symptom Burden])[
+#speculation(title: [Food-Triggered Non-IgE Mast Cell Activation as Contributor to ME/CFS Symptom Burden])[
 In the subset of ME/CFS patients with comorbid MCAS (estimated 17–25% @Rohrhofer2025mecfsmast), food ingestion triggers mast cell degranulation through non-IgE pathways (MRGPRX2 via gut neuropeptides, complement C3a/C5a via lectins, lectin–IgE glycan cross-linking) that are invisible to standard allergy testing. The resulting mediator release—histamine, prostaglandins, cytokines—contributes to post-meal fatigue flares, brain fog, tachycardia, and gastrointestinal distress. This mechanism is amplified in ME/CFS by intestinal barrier dysfunction @Rohrhofer2024stratification and reduced SCFA-mediated mast cell inhibition @Folkerts2018fiber, creating a self-reinforcing cycle where food-triggered activation worsens gut barrier integrity, further lowering activation thresholds (certainty: 0.40; multiple plausible mechanisms with indirect clinical support, but no prospective mediator study during food challenges in ME/CFS patients).
 
 *Testable predictions:*
@@ -426,7 +428,7 @@ In the subset of ME/CFS patients with comorbid MCAS (estimated 17–25% @Rohrho
     - Gut permeability markers (LBP, zonulin) should correlate with food-triggered mediator elevations
 
 *Limitations:* No prospective study has measured mast cell mediators before and after controlled food challenges in ME/CFS patients. The prevalence figures for MCAS in ME/CFS (Rohrhofer et al.\ 2025) are based primarily on symptom pattern and treatment response rather than laboratory mediator confirmation—mediator testing was performed in only 3.1% of the cohort. The non-IgE activation pathways are established in vitro but their contribution to clinical food reactions in MCAS remains unquantified.
-] <hyp:food-mast-cell-mecfs>
+] <spec:food-mast-cell-mecfs>
 
 #speculation(title: [Post-Exertional Malaise Partially Mediated by Food–Exercise Mast Cell Co-Triggering])[
 Exercise releases substance P and neuropeptides from sensory fibers, activating mast cells via MRGPRX2 @Roy2021mrgprx2 @Thapaliya2022mrgprx2neuro. In ME/CFS, the threshold for this cascade may be lowered by prior food-triggered mast cell priming—analogous to food-dependent exercise-induced anaphylaxis (FDEIA), where food antigens alone do not trigger reactions but the combination of food ingestion and exercise does, because exercise increases intestinal permeability and transglutaminase-mediated antigen cross-linking. A similar co-trigger mechanism might operate at subthreshold levels: meals consumed close to physical activity could lower the exertion threshold for PEM in patients with concurrent MCAS (certainty: 0.25; coherent mechanistic hypothesis built from adjacent evidence in FDEIA, MRGPRX2 biology, and ME/CFS exercise physiology, but no direct experimental evidence).
@@ -1430,6 +1432,23 @@ The hEDS-POTS-MCAS triad plus ME/CFS may share an underlying structural defect: 
 
 *Limitations:* No published ME/CFS study has measured mast cell density versus Beighton score. Tenascin-X and collagen VI variants in hEDS are incompletely characterized; the ECM defect is not definitively established in most hEDS cases. This hypothesis conflates the diverse molecular basis of hEDS (multiple gene variants, undefined pathways) with a single mast cell mechanism -- an oversimplification that requires tissue-level validation.
 ] <hyp:permissive-matrix-mcas>
+
+#speculation(title: [Mast Cell Gene Expression Convergence Across ME/CFS, Chronic Lyme, and Bartonellosis])[
+*(Certainty: 0.20 — mechanistic inference from mast cell biology with stealth pathogens; no transcriptomic comparison in these three conditions has been performed. Not yet replicated.)*
+
+Persistent stealth pathogens — _Borrelia burgdorferi_ (chronic Lyme disease) and _Bartonella henselae_ (bartonellosis) — chronically activate mast cells via TLR2 and TLR9 ligands (lipoproteins, unmethylated CpG DNA). Bartonella has been proposed to exhibit mast cell tropism, with some evidence suggesting intracellular invasion of mast cell cytoplasm and direct phenotypic modulation, though this has not been systematically characterized in human mast cell lines. Post-treatment Lyme disease syndrome (PTLDS) and post-bartonellosis syndrome share with ME/CFS the triad of fatigue, cognitive dysfunction, and orthostatic intolerance — and all three overlap substantially with MCAS in clinical presentation.
+
+We speculate that single-cell RNA sequencing of mast cells from skin biopsies of ME/CFS, PTLDS, and bartonellosis patients would reveal a shared "chronic-pathogen-primed" mast cell transcriptomic state — distinct from the atopic mast cell state seen in allergic disease — characterized by: upregulated TLR signaling, elevated MRGPRX2 expression, suppressed FcεRI-mediated degranulation (atopy-like activation is reduced while IgE-independent activation is enhanced), and elevated CXCL8/CXCL10 production.
+
+This shared mast cell state would provide a common mechanistic substrate for the MCAS overlap observed across post-infectious syndromes and would suggest that mast cell stabilization strategies developed for one condition could be cross-applicable to others.
+
+*Testable predictions:*
+- (a) scRNA-seq of skin punch biopsy mast cells will identify a transcriptomic cluster present in ME/CFS, PTLDS, and bartonellosis but absent in atopic dermatitis controls, with MRGPRX2 and TLR2/TLR9 upregulation as defining markers
+- (b) ME/CFS patients with positive Bartonella or Borrelia serology will show higher rates of biochemically confirmed MCAS (Valent 2021 criteria) than seronegative ME/CFS patients
+- (c) The MRGPRX2-modulating treatment response pattern (poor H1/H2 response, possible bromelain response) will be more prevalent in PTLDS and bartonellosis-associated ME/CFS than in post-viral-onset ME/CFS
+
+*Limitations:* scRNA-seq of mast cells from skin biopsies is technically demanding — mast cells are rare in dermis, requiring enzymatic dissociation protocols. Seronegative Lyme and Bartonella are poorly standardized. Chronic Lyme disease itself remains diagnostically controversial. Distinguishing pathogen-induced from coincidental MCAS in these patients is challenging without controlled cohorts.
+] <spec:mast-stealth-pathogen-convergence>
 
 === Th1-Fibrotic Disease Comparators: Lichen Sclerosus, Morphea, and Vitiligo
 <sec:th1-fibrotic-comparators>

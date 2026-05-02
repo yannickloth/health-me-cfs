@@ -712,8 +712,8 @@ Category B (energy-neutral). Flavonoid with mast cell-stabilizing properties pro
 
 === Luteolin-Quercetin-PEA Combination for Domain 6 (Mast Cell) ME/CFS Subset
 
-#hypothesis(title: [Luteolin-Quercetin-PEA Stack with Enhanced Delivery for Domain 6-Positive ME/CFS])[
-*(Certainty: 0.45 -- supported by component-level mast cell stabilization evidence; combination and delivery-form effects untested in ME/CFS.)*
+#speculation(title: [Luteolin-Quercetin-PEA Stack with Enhanced Delivery for Domain 6-Positive ME/CFS])[
+*(Certainty: 0.35 -- supported by component-level mast cell stabilization evidence in vitro and animal models; no combination data exist; phytosome bioavailability improvement is primarily manufacturer-derived and not independently replicated; the "additive mechanism" claim is theoretical. Downgraded from initial 0.45 on adversarial review.)*
 
 For ME/CFS patients with confirmed Domain 6 (mast cell / histaminergic dysregulation), a three-component natural mast cell stabilization stack may address the bioavailability limitations that have historically limited quercetin monotherapy ($lt$2% oral bioavailability in standard form).
 
@@ -736,7 +736,7 @@ The three components target overlapping but distinct mast cell stabilization pat
 *Replication status:* Not yet replicated -- no ME/CFS trial data for any component of this combination.
 
 *Caution:* This supplement stack is proposed for research investigation, not clinical recommendation. No ME/CFS-specific trial data exist. Start date and monitoring protocols should be established with a clinician familiar with MCAS and ME/CFS.
-]
+] <spec:luteolin-quercetin-pea>
 
 === Diamine Oxidase (DAO) Enzyme Replacement with Cofactor Optimization
 
@@ -760,6 +760,23 @@ A subset of ME/CFS patients with histamine intolerance (HIT) rather than full MC
 
 *Replication status:* Not yet replicated -- cofactor optimization framing is novel; no controlled trial exists.
 ] <spec:dao-cofactor-hit>
+
+#speculation(title: [Grape Seed Procyanidins + Resveratrol as a Natural Cromolyn-Mimetic Stack])[
+*(Certainty: 0.15 — based on in vitro polyphenol mast cell stabilization and structural analogy to cromolyn's S100A4 binding site; no clinical trial in ME/CFS or MCAS. Not yet replicated.)*
+
+Cromolyn sodium exerts its mast cell-stabilizing effect partly via binding to S100A4 calcium-binding protein on the mast cell surface, inhibiting IgE-independent degranulation. Several plant polyphenols share conformational features of the cromolyn-S100A4 binding pocket: grape seed oligomeric procyanidins (OPCs) and resveratrol have both demonstrated mast cell stabilization in RBL-2H3 and LAD2 in vitro assays, and resveratrol has additional PPAR-γ agonist activity that suppresses mast cell transcriptional programs.
+
+The potential advantage over quercetin and luteolin (Section @spec:luteolin-quercetin-pea) is mechanistic diversity — procyanidins and resveratrol act via a partially distinct pathway (S100A4/cromolyn-mimetic) rather than the flavonoid receptor-blocking pathway. A procyanidin+resveratrol combination with quercetin+luteolin would theoretically cover three distinct mast cell stabilization mechanisms simultaneously.
+
+*Practical note for ME/CFS patients:* Grape seed extract (standardized to ≥90% OPCs) 200–400 mg daily + trans-resveratrol 250 mg daily is low-risk and widely available. However, resveratrol inhibits CYP3A4 and can affect levels of medications metabolized by this enzyme (including many antihistamines and beta-blockers). Interaction check required before use.
+
+*Testable predictions:*
+- (a) RBL-2H3 mast cell degranulation assay will show Bliss synergy score > 0.2 for procyanidin + resveratrol combinations at concentrations achievable with standard supplementation doses
+- (b) In MCAS+ME/CFS patients, grape seed OPC 300 mg + resveratrol 250 mg daily for 8 weeks will reduce urinary N-methylhistamine by ≥15% versus baseline in patients with elevated baseline levels
+- (c) The combination will show additive, not antagonistic, effects with the luteolin-quercetin-PEA stack on mast cell mediator suppression
+
+*Limitations:* In vitro mast cell lines (RBL-2H3) do not fully recapitulate human tissue mast cell biology. Oral bioavailability of procyanidins and resveratrol varies substantially with food matrix and gut microbiome composition. CYP3A4 inhibition by resveratrol is a meaningful clinical concern in polypharmacy patients. S100A4-specific activity has not been confirmed in human primary mast cells. The cromolyn-binding-pocket similarity is a structural inference, not a confirmed co-crystal structure.
+] <spec:procyanidin-resveratrol-mcas>
 
 == B Vitamins
 <sec:vitamins>
