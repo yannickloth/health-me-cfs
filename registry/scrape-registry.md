@@ -39,6 +39,13 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/33184843/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Hu2021LSComorbidityMichigan — LS comorbidities Michigan single-center |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11520338/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Halonen2024LSRiskFactorsFinland — LS risk factors 43,000 Finnish |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11443722/ | pubmed/pmc | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Batham2024MECFSAutoimmunity — ME/CFS autoimmunity systematic review |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC4719218/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — BillingRoss2016mtDNA — mtDNA variants correlate with ME/CFS symptoms |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC6393470/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Venter2019mtDNA — MtDNA mildly deleterious variants two cohorts |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC3128000/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Albright2011heritability — heritable predisposition to CFS |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC7608630/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Chang2020haploADHD — mtDNA haplogroups ADHD European |
+| https://pubmed.ncbi.nlm.nih.gov/35796884/ | pubmed | 2026-05-02 | 2026-05-02 | bib/appendix-h — Giannoulis2024sysrevmtADHD — systematic review mtDNA variation ADHD |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC5121149/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Verma2016ADHDcybrid — ADHD cybrid mitochondrial dysfunction |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11163340/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Ogutlu2022ADHDmito — mitochondrial dysfunction ADHD narrative review |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.7554%2FeLife.07370 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/bib — Cahalan2015 — Piezo1 RBC volume KCa3.1 |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1126%2Fscitranslmed.aat9892 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch08/bib — Szczot2018 — Piezo2 allodynia proprioception |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.neubiorev.2023.105227 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Molot2023 — MCS TRP sensitization |
