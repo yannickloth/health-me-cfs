@@ -54,7 +54,7 @@ Long COVID and ME/CFS share post-infectious onset, persistent immune activation 
 
     - *HERV reactivation confirmed in COVID-19:* Grandi et al.\ @Grandi2023HERVcovid found 282 HERV loci differentially expressed in COVID-19 PBMCs (n = 26), with convalescent patients showing a distinct persistent HERV transcriptional signature — confirming that SARS-CoV-2 infection triggers broad HERV de-silencing, consistent with the pericentromeric dismantling pathway @MendezBermudez2022pericentromeric
     - *HERV-K antibody persistence in ME/CFS post-COVID:* ME/CFS patients showed stronger and more persistent HERV-K IgG responses after mild/asymptomatic COVID-19 than healthy donors @Apostolou2022HERVmecfs, consistent with ongoing epigenetic derepression in ME/CFS rather than recovered individuals
-    - *Shared PD-1/CTLA-4 checkpoint dysregulation:* Eaton-Fitch et al.\ @EatonFitch2024ImmuneExhaustion demonstrated that ME/CFS and Long COVID share 7 overlapping checkpoint dysregulation genes — ME/CFS more immunosuppressed, Long COVID more immune-activated — with the ME/CFS phenotype consistent with established MDSC-mediated suppression @spec:mdsc-nk-bridge
+    - *Shared PD-1/CTLA-4 checkpoint dysregulation:* Eaton-Fitch et al.\ @EatonFitch2024ImmuneExhaustion demonstrated that ME/CFS and Long COVID share 7 overlapping checkpoint dysregulation genes — ME/CFS more immunosuppressed, Long COVID more immune-activated — with the ME/CFS phenotype consistent with established MDSC-mediated suppression @hyp:mdsc-nk-bridge
 
 If the exosomal HSAT2/HERV-K propagation loop operates in both conditions:
 
@@ -86,11 +86,11 @@ This predicts a partial HSAT2-overlapping profile: fibromyalgia would show eleva
 
 #open-question(title: [Does the CENPA/Senescence Stromal Arm of the HSAT2 Loop Partially Operate in hEDS and Dysautonomia?])[
 
-Hypermobile Ehlers-Danlos syndrome is characterised by connective-tissue stromal involvement — fibroblasts and extracellular matrix remodelling are central to its phenotype. The proposed HSAT2→CENPA mislocalization→p53-dependent senescence chain in stromal fibroblasts @spec:cenpa-senescence-stromal predicts an elevated burden of senescent fibroblasts in any tissue where EV-delivered HSAT2 acts. If hEDS fibroblasts are constitutively abnormal (altered ECM gene expression, increased mechanical sensitivity), they may be more susceptible to EV-HSAT2-triggered CENPA induction and subsequent senescence.
+Hypermobile Ehlers-Danlos syndrome is characterized by connective-tissue stromal involvement — fibroblasts and extracellular matrix remodeling are central to its phenotype. The proposed HSAT2→CENPA mislocalization→p53-dependent senescence chain in stromal fibroblasts @spec:cenpa-senescence-stromal predicts an elevated burden of senescent fibroblasts in any tissue where EV-delivered HSAT2 acts. If hEDS fibroblasts are constitutively abnormal (altered ECM gene expression, increased mechanical sensitivity), they may be more susceptible to EV-HSAT2-triggered CENPA induction and subsequent senescence.
 
 This does not make hEDS an HSAT2-driven disease; the primary connective tissue pathology in hEDS is independent of the HSAT2 loop. The question is whether the downstream stromal senescence arm partially co-activates in hEDS patients with comorbid ME/CFS — contributing to the connective tissue features seen in that overlap group — rather than being driven by the HSAT2 mechanism de novo.
 
-The distinction between a primary HSAT2-high ME/CFS patient and an hEDS patient who coincidentally experiences stromal senescence would be testable: ME/CFS patients should show elevated NK cytotoxicity deficits and MDSC expansion alongside the senescence score @spec:mdsc-biomarker, while hEDS patients without ME/CFS would show normal NK cytotoxicity and normal MDSC frequency despite any elevated senescent fibroblast burden.
+The distinction between a primary HSAT2-high ME/CFS patient and an hEDS patient who coincidentally experiences stromal senescence would be testable: ME/CFS patients should show elevated NK cytotoxicity deficits and MDSC expansion alongside the senescence score @hyp:mdsc-biomarker, while hEDS patients without ME/CFS would show normal NK cytotoxicity and normal MDSC frequency despite any elevated senescent fibroblast burden.
 
 *What would establish this:* Skin biopsy senescence score (p16^INK4a+ fibroblast burden, SA-β-gal) in four groups: ME/CFS only, hEDS only, ME/CFS+hEDS, healthy controls — with concurrent NK cytotoxicity and MDSC quantification from blood. The ME/CFS-specific prediction is elevated senescence score AND elevated MDSCs AND depressed NK function; hEDS-only prediction is mildly elevated senescence score but normal NK and MDSC.
 
@@ -274,7 +274,7 @@ Mast cell activation appears connected to ME/CFS:
 #speculation(title: [Na#super[+]/K#super[+]-ATPase Failure as Common Mechanism for PEM and MCAS Flares])[
 Mast cell degranulation requires intracellular calcium elevation. The NCX reversal mechanism described in Chapter @ch:energy-metabolism — Na#super[+]/K#super[+]-ATPase failure $arrow.r$ intracellular sodium rise $arrow.r$ NCX reverse mode $arrow.r$ calcium influx---operates in all cell types, not only skeletal muscle. If $beta_2$-adrenergic receptor dysfunction impairs pump function globally, then mast cells would experience the same calcium flooding that causes muscle necrosis during PEM. This would mean the same upstream mechanism simultaneously triggers PEM (via muscle calcium toxicity) and MCAS flares (via mast cell calcium-induced degranulation), explaining their frequent co-occurrence without requiring mast cells to be independently dysfunctional.
 
-The prediction is clean: MDC002 (Na#super[+]/K#super[+]-ATPase stimulator, Chapter @ch:emerging-therapies) should reduce both PEM severity _and_ MCAS flare frequency if the shared calcium source is confirmed. Conversely, mast cell stabilisers (cromolyn, ketotifen) that partially regulate calcium channels may provide modest PEM benefit as a secondary effect.
+The prediction is clean: MDC002 (Na#super[+]/K#super[+]-ATPase stimulator, Chapter @ch:emerging-therapies) should reduce both PEM severity _and_ MCAS flare frequency if the shared calcium source is confirmed. Conversely, mast cell stabilizers (cromolyn, ketotifen) that partially regulate calcium channels may provide modest PEM benefit as a secondary effect.
 
 *Certainty: 0.30*---mechanistically coherent but entirely untested; requires demonstration of elevated intracellular sodium and calcium in mast cells (not just muscle) of ME/CFS patients.
 ] <spec:pump-mcas>
@@ -947,7 +947,7 @@ In animal models and computational accounts, dopamine encodes not only reward pr
 
 In ME/CFS, preliminary evidence for dopaminergic deficiency exists but remains limited. The NIH deep phenotyping study found significantly reduced homovanillic acid (HVA, the primary dopamine metabolite) in cerebrospinal fluid, alongside reduced putamen activity correlating with poor reward sensitivity @walitt2024deep. ADHD stimulants improve brain fog in 77.1% and fatigue perception in 71.7% of ME/CFS patients surveyed @Vernon2025PNAS—a pharmacological response pattern consistent with dopaminergic insufficiency rather than primary ADHD.
 
-The _effort-cost computation_ depends on a circuit involving the dorsal anterior cingulate cortex (dACC), ventromedial prefrontal cortex (VMPFC), and striatum @Treadway2012effortbaseddecisionmaking. In the neuroeconomic framework, action value is modelled as:
+The _effort-cost computation_ depends on a circuit involving the dorsal anterior cingulate cortex (dACC), ventromedial prefrontal cortex (VMPFC), and striatum @Treadway2012effortbaseddecisionmaking. In the neuroeconomic framework, action value is modeled as:
 
 $ A = bb(E)[R] - k dot C_("effort") $
 
@@ -1209,7 +1209,7 @@ The volume of downstream elaboration from Architecture C — mathematical formal
 #open-question(title: [ADHD Hyperfocus Crash as Micro-PEM: Same Mechanism at Different Severity?])[
 ADHD communities describe "crashing after hyperfocus" — exhaustion, brain fog, irritability, and hours needed to recover from sustained cognitive effort. If ADHD represents a brain energy deficit, hyperfocus depletes a limited cognitive energy budget just as physical exertion depletes the limited energy budget in ME/CFS. The phenomenological parallel is striking: both involve an activity that feels sustainable in the moment, followed by disproportionate recovery cost. If this analogy holds, ADHD patients are already experiencing _micro-PEM_ — energy envelope depletion at a subclinical scale. This reframes ME/CFS not as a categorically distinct condition but as the severe end of a spectrum that begins with the energy management challenges already familiar to ADHD patients.
 
-Architecture C provides quantitative grounding: ADHD is associated with 8.1% lower global cerebral glucose metabolism @Zametkin1990 and frontal hypoperfusion @Berthier2025cbfadhd. If healthy $R_"headroom" tilde 0.3$–$0.5$, then constitutive ADHD metabolic deficits compress prefrontal $R_"headroom"$ to $tilde 0.15$–$0.25$ at baseline — already within the range Architecture C identifies as fragile. Hyperfocus represents maximal sustained prefrontal demand: when $J_"demand,peak"$ approaches $J_"production,max"$ in prefrontal circuits, the same ROS-mediated damage cascade hypothesised for systemic PEM may trigger focally. The post-hyperfocus crash is then the recovery phase from exceeding local $R_"crit"$ — a prefrontally distributed, cognitively triggered micro-PEM rather than a systemic, exertion-triggered one.
+Architecture C provides quantitative grounding: ADHD is associated with 8.1% lower global cerebral glucose metabolism @Zametkin1990 and frontal hypoperfusion @Berthier2025cbfadhd. If healthy $R_"headroom" tilde 0.3$–$0.5$, then constitutive ADHD metabolic deficits compress prefrontal $R_"headroom"$ to $tilde 0.15$–$0.25$ at baseline — already within the range Architecture C identifies as fragile. Hyperfocus represents maximal sustained prefrontal demand: when $J_"demand,peak"$ approaches $J_"production,max"$ in prefrontal circuits, the same ROS-mediated damage cascade hypothesized for systemic PEM may trigger focally. The post-hyperfocus crash is then the recovery phase from exceeding local $R_"crit"$ — a prefrontally distributed, cognitively triggered micro-PEM rather than a systemic, exertion-triggered one.
 
 *Testable predictions:* (1) Actigraphy and continuous glucose monitoring during ADHD hyperfocus should show disproportionate cognitive fatigue scaling nonlinearly with session duration. (2) Sustained cognitive effort should produce elevated blood lactate in ADHD subjects relative to neurotypical controls matched for effort intensity. (3) Both signatures should be dramatically more pronounced in ADHD patients who subsequently develop ME/CFS. (4) Do ADHD patients' post-hyperfocus recovery times correlate with metabolic reserve markers? Does the crash pattern worsen after infection (partial decompensation)?
 ] <oq:adhd-hyperfocus-micro-pem>
@@ -1331,7 +1331,7 @@ Architecture C identifies several modifiable components of the metabolic reserve
 
 
 
-#speculation(title: [Connective Tissue Matrix Permissivity as the Unifying Mechanism of the hEDS-POTS-MCAS-ME/CFS Cluster])[
+#hypothesis(title: [Connective Tissue Matrix Permissivity as the Unifying Mechanism of the hEDS-POTS-MCAS-ME/CFS Cluster])[
 *(Certainty: 0.50 -- mechanistically plausible; no controlled tissue-level data in ME/CFS.)*
 
 The hEDS-POTS-MCAS triad plus ME/CFS may share an underlying structural defect: extracellular matrix (ECM) abnormalities (tenascin-X, collagen VI variants) reduce the physical barriers that normally constrain mast cell migration into perivascular and perineural niches. The same matrix laxity that causes joint hypermobility also permits mast cell tissue infiltration in the vasa nervorum, brainstem, and gut submucosa -- enabling the aberrant mast cell-nerve crosstalk documented via CADM1 adhesion structures @Magadmi2019. Under this "permissive matrix" model, ME/CFS patients with hEDS features do not simply have four comorbid diseases; they have a single ECM vulnerability that expresses differently depending on which tissue is most affected.
@@ -1341,14 +1341,14 @@ The hEDS-POTS-MCAS triad plus ME/CFS may share an underlying structural defect: 
 *Testable prediction:* ME/CFS patients with Beighton score $gt.eq$5 will show higher skin biopsy mast cell density ($gt$20 cells/HPF) than Beighton $lt.eq$2 ME/CFS patients, even when matched for serum tryptase. Skin punch biopsy is the minimal feasible test. A stronger prediction: dermal mast cells in the high-Beighton group will localize closer to nerve fibers ($lt$20 nm proximity) than in the low-Beighton group.
 
 *Limitations:* No published ME/CFS study has measured mast cell density versus Beighton score. Tenascin-X and collagen VI variants in hEDS are incompletely characterized; the ECM defect is not definitively established in most hEDS cases. This hypothesis conflates the diverse molecular basis of hEDS (multiple gene variants, undefined pathways) with a single mast cell mechanism -- an oversimplification that requires tissue-level validation.
-] <spec:permissive-matrix-mcas>
+] <hyp:permissive-matrix-mcas>
 
 === Th1-Fibrotic Disease Comparators: Lichen Sclerosus, Morphea, and Vitiligo
 <sec:th1-fibrotic-comparators>
 
 ME/CFS and lichen sclerosus share a Th1-dominant cytokine signature (IL-7, IL-15, IFN-γ, TNF-α elevated; IL-10 reduced) and tissue-resident memory T-cell dominance without meeting classical autoimmune criteria. Two related Th1-mediated skin conditions provide mechanistic comparators that may generate testable ME/CFS predictions.
 
-#hypothesis(title: [Systemic Sclerosis with High IFN Signature as a Closer ME/CFS Fatigue Model])[
+#speculation(title: [Systemic Sclerosis with High IFN Signature as a Closer ME/CFS Fatigue Model])[
 
 *Certainty: 0.30.* Based on shared IFN-γ/TGF-β pathway, documented fatigue in SSc, and the LS-ME/CFS mechanistic overlap. No direct comparative study; hypothesis is cross-disease inference. Not yet replicated.
 
@@ -1357,15 +1357,15 @@ Morphea (localized scleroderma) and systemic sclerosis (SSc) share LS's core IFN
 *Falsifiable prediction:* SSc patients with high type-I IFN signature scores (using validated IFN-stimulated gene panels) will show higher rates of ME/CFS-criteria-meeting fatigue (assessed by PEM questionnaire) than low-IFN-signature SSc patients, independent of overall SSc severity.
 
 *Limitations:* SSc fatigue has multiple drivers (pulmonary involvement, pain, sleep disruption) that confound any IFN-fatigue correlation. The prediction requires SSc patients to be phenotyped for PEM specifically — not just generic fatigue — which is not standard in rheumatology settings.
-] <hyp:ssc-ifn-fatigue-model>
+] <spec:ssc-ifn-fatigue-model>
 
-#hypothesis(title: [Vitiligo as a Non-Fibrotic Control for the ME/CFS TRM-IL-15 Hypothesis])[
+#speculation(title: [Vitiligo as a Non-Fibrotic Control for the ME/CFS TRM-IL-15 Hypothesis])[
 
 *Certainty: 0.25.* Based on shared CD8+ TRM + IFN-γ + IL-15 biology in vitiligo and theoretical ME/CFS TRM model; no direct vitiligo-ME/CFS comparison data exists. Not yet replicated.
 
-Vitiligo shares with LS the CD8+ TRM dominance and IL-15 trans-presentation mechanism but does NOT produce fibrosis — melanocytes are destroyed (not replaced by collagen). If ME/CFS involves TRM-driven pathology at multiple sites (Section @hyp:trm-mecfs), the vitiligo comparator tests a specific component: the TRM/IL-15 axis. ME/CFS patients with vitiligo (TRM-positive, fibrosis-negative) compared to those with LS (TRM-positive, fibrosis-positive) could distinguish whether ME/CFS chronicity/irreversibility correlates with fibrotic terrain, separating the TRM hypothesis from the fibrotic terrain hypothesis. Vitiligo prevalence is elevated in the same autoimmune comorbidity cluster as LS and ME/CFS @Kassels2024LSAutoimmune.
+Vitiligo shares with LS the CD8+ TRM dominance and IL-15 trans-presentation mechanism but does NOT produce fibrosis — melanocytes are destroyed (not replaced by collagen). If ME/CFS involves TRM-driven pathology at multiple sites (Section @spec:trm-mecfs), the vitiligo comparator tests a specific component: the TRM/IL-15 axis. ME/CFS patients with vitiligo (TRM-positive, fibrosis-negative) compared to those with LS (TRM-positive, fibrosis-positive) could distinguish whether ME/CFS chronicity/irreversibility correlates with fibrotic terrain, separating the TRM hypothesis from the fibrotic terrain hypothesis. Vitiligo prevalence is elevated in the same autoimmune comorbidity cluster as LS and ME/CFS @Kassels2024LSAutoimmune.
 
 *Falsifiable prediction:* In a ME/CFS registry, vitiligo prevalence will be elevated above population baseline (expected ~1–2%) at a rate comparable to or greater than other autoimmune comorbidities. ME/CFS patients with vitiligo will show higher EV miR-155 and lower NK cytotoxicity than ME/CFS patients without any skin autoimmune comorbidity.
 
 *Limitations:* Vitiligo is often cosmetically minimized and under-reported in registry questionnaires. The TRM comparison requires matched biopsy data from ME/CFS patients with each condition, which is not feasible at scale.
-] <hyp:vitiligo-trm-control>
+] <spec:vitiligo-trm-control>

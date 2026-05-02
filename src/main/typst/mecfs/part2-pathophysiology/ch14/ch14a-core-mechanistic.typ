@@ -107,7 +107,7 @@ If ME/CFS involves glymphatic clearance failure (Section @sec:glymphatic), two i
 
 This hypothesis is motivated by the observation that the glymphatic hypothesis identifies impaired clearance but offers no pharmacological strategy to reduce the volume of fluid requiring clearance. CA inhibitors provide precisely this pharmacological lever. The combination has never been proposed or tested.
 
-*Subgroup specificity.* This approach targets a recognisable clinical phenotype: ME/CFS with comorbid connective tissue disorder (hEDS/HSD), craniocervical instability, intracranial hypertension signs, and POTS. Midtlien et al. (2024) described this conserved cluster (CTD + CVD + IIH + CCI + POTS + MCAS) in the largest series to date (n = 86) @Midtlien2024CVDphenotype. Bragee et al. (2020) found intracranial hypertension signs in 78% of 229 ME/CFS patients @Bragee2020. Henderson et al. (2017) established the EDS—IIH comorbidity @Henderson2017EDS. These patients have a structural basis for CSF flow impairment that CA inhibitors + manual drainage could address.
+*Subgroup specificity.* This approach targets a recognizable clinical phenotype: ME/CFS with comorbid connective tissue disorder (hEDS/HSD), craniocervical instability, intracranial hypertension signs, and POTS. Midtlien et al. (2024) described this conserved cluster (CTD + CVD + IIH + CCI + POTS + MCAS) in the largest series to date (n = 86) @Midtlien2024CVDphenotype. Bragee et al. (2020) found intracranial hypertension signs in 78% of 229 ME/CFS patients @Bragee2020. Henderson et al. (2017) established the EDS—IIH comorbidity @Henderson2017EDS. These patients have a structural basis for CSF flow impairment that CA inhibitors + manual drainage could address.
 
 *Mechanistic rationale.*
 
@@ -240,7 +240,7 @@ This would explain why ME/CFS often follows viral infection (the infection trigg
 HERVs represent the remnants of ancient retroviral infections that integrated into the germline and were passed to subsequent generations. Pericentromeric satellite repeats such as HSAT2 are distinct loci at chromosome 2p11.2, 4p11, 10q11.21, and 21p11.2 @Evdokimova2019HSAT2exosome. Both classes share key regulatory features:
 
     - HERVs comprise $tilde$8% of the human genome (more than protein-coding genes)
-    - HSAT2 and HERVs are epigenetically silenced primarily by H3K9 trimethylation (SUV39H1/2, SETDB1) with CpG methylation as a downstream stabiliser @Shadle2019HSATII @Zhu2014MTHFR
+    - HSAT2 and HERVs are epigenetically silenced primarily by H3K9 trimethylation (SUV39H1/2, SETDB1) with CpG methylation as a downstream stabilizer @Shadle2019HSATII @Zhu2014MTHFR
     - Viral infection (HSV-1, HCMV) induces HSAT2 expression via viral microRNAs @Nogalski2019HSATII
     - Oxidative stress, inflammation, and DNA damage disrupt pericentromeric methylation patterns
     - HERV proteins can be immunogenic; HSAT2 RNA is immunosuppressive via exosomal delivery
@@ -341,7 +341,7 @@ This proposes that each exertional event transiently amplifies the exosomal HSAT
     - Why PEM severity correlates with exertion magnitude (more stress = more HSAT2 transcription = more EV release)
     - Why the threshold for triggering PEM is lowered as disease progresses (larger baseline MDSC pool amplifies the effect)
     - Why cognitive exertion also triggers PEM (neuroinflammatory stress activates HSF1 in brain cells)
-    - Why pacing reduces crash frequency (minimises HSF1-HSAT2 induction events)
+    - Why pacing reduces crash frequency (minimizes HSF1-HSAT2 induction events)
 
 *Falsifiable prediction:* Plasma exosomal HSAT2 content will rise significantly (paired test) at 12–48 h post-CPET in ME/CFS patients but not controls, with AUC post-CPET correlating with self-reported PEM severity. If HSAT2 does not rise post-exertion, HSF1-mediated transcription is not the driver.
 

@@ -830,7 +830,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     / *PMCID:*: PMC9369615
     / *Study Design:*: Registry protocol paper describing design, data collection, and governance
     / *Key Findings:*: Patient-powered registry with 4,200+ participants (3,033 ME/CFS, 833 long COVID, 473 controls as of 2021). Mobile app captures longitudinal symptom tracking on 0--4 severity scale including pain. Designed to harmonize with other ME/CFS registries. Growing at ~72 registrants/week. Governance includes patient advisory board.
-    / *Relevance:*: The largest patient-powered ME/CFS research platform. Longitudinal pain tracking enables time-series analysis of pain patterns, PEM-pain relationships, and treatment response monitoring at scale. Harmonisation design facilitates cross-registry analyses.
+    / *Relevance:*: The largest patient-powered ME/CFS research platform. Longitudinal pain tracking enables time-series analysis of pain patterns, PEM-pain relationships, and treatment response monitoring at scale. Harmonization design facilitates cross-registry analyses.
     / *Certainty:*: High for protocol design and enrolment data; data quality depends on patient self-report adherence.
 
 // =============================================================================
@@ -2081,7 +2081,7 @@ Provides Fos evidence for context-dependent orexin suppression during peripheral
 
     - *Quality:* High (BBI, well-controlled histochemistry)
     - *Certainty:* 0.60
-    - *Limitations:* Acute LPS model; chronic immune activation not modelled
+    - *Limitations:* Acute LPS model; chronic immune activation not modeled
 
 === Weymann et al.\ 2014 --- Orexin in Chemotherapy-Induced Fatigue
 
@@ -2692,7 +2692,7 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     / *Key Findings:*: First-hand accounts confirm organic infectious disease, not hysteria.
 
   // TODO: needs #table() wrapper
-[/ *Full Citation:*: Jason LA, Lapp CW, Engel S, et al.\ Myalgic Encephalomyelitis (ME) outbreaks can be modelled as an infectious disease: a mathematical reconsideration of the Royal Free Epidemic of 1955. _Fatigue: Biomedicine, Health & Behavior_. 2020;8(2):99–109.],
+[/ *Full Citation:*: Jason LA, Lapp CW, Engel S, et al.\ Myalgic Encephalomyelitis (ME) outbreaks can be modeled as an infectious disease: a mathematical reconsideration of the Royal Free Epidemic of 1955. _Fatigue: Biomedicine, Health & Behavior_. 2020;8(2):99–109.],
     / *DOI:*: #link("https://doi.org/10.1080/21641846.2020.1793058")[10.1080/21641846.2020.1793058]
 
 // =============================================================================
@@ -4670,7 +4670,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - Long-term follow-up of a paediatric ME/CFS cohort from a specialist outpatient service confirms substantial proportions of paediatric patients achieve functional recovery
         - Recovery was genuine and sustained, not merely symptomatic accommodation; patients returned to schooling, employment, and social function
         - Duration to recovery varied widely; recovery continued to occur years after onset in some patients
-        - Severity at presentation and presence of comorbidities influenced prognosis; OI identification and treatment associated with more favourable trajectories
+        - Severity at presentation and presence of comorbidities influenced prognosis; OI identification and treatment associated with more favorable trajectories
     
     / *Relevance to ME/CFS:*: Provides longitudinal clinical evidence for the paediatric recovery advantage underpinning multiple developmental hypotheses in the document. Establishes that the 54–94% recovery rates cited in the 2017 primer reflect genuine functional recovery. Confirms that management approach modulates outcome.
     / *Certainty Assessment:*:
@@ -4986,7 +4986,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     
         - All four core symptoms required: debilitating fatiguability, PEM, unrefreshing sleep, cognitive difficulties
         - GET no longer recommended; CBT not considered a treatment for ME/CFS itself
-        - PEM recognised as the cardinal symptom
+        - PEM recognized as the cardinal symptom
     
     / *Relevance to Part V:*: Guideline constraints inform model validation targets and treatment-model boundary conditions.
 
@@ -5724,7 +5724,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     / *Key Findings:*:
 
         - Extracellular flux analysis (Seahorse XFe96) of primary skeletal muscle cells from vastus lateralis biopsies; $n = 9$ CFS vs 11 controls
-        - CFS muscle cells cannot utilise glucose normally
+        - CFS muscle cells cannot utilize glucose normally
         - Galactose oxidation, fatty acid oxidation, and glycolytic function were all _normal_
         - Authors conclude: "the cellular bioenergetic dysfunction in CFS lies upstream of the TCA cycle" — at the pyruvate→acetyl-CoA link step
         - PDK explicitly named as a candidate mechanism alongside PDC defects and mitochondrial pyruvate carriers
@@ -6610,7 +6610,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - Mice lacking dural mast cells had impaired immune responses and higher brain bacterial loads
         - Histamine release induces vasodilation of bridging veins, reducing perivascular spaces for CSF drainage
     
-    / *Relevance:*: Landmark Cell paper creating a previously unrecognised mechanistic bridge between mast cell activation and glymphatic/CSF flow regulation. If chronic mast cell dysfunction (MCAS) disrupts CSF flow at ACE points, this connects the ME/CFS-associated MCAS phenotype to glymphatic waste clearance impairment via a non-inflammatory mechanism. This is the strongest mechanistic link between mast cell pathology and the cognitive symptoms of ME/CFS that does not invoke systemic inflammation.
+    / *Relevance:*: Landmark Cell paper creating a previously unrecognized mechanistic bridge between mast cell activation and glymphatic/CSF flow regulation. If chronic mast cell dysfunction (MCAS) disrupts CSF flow at ACE points, this connects the ME/CFS-associated MCAS phenotype to glymphatic waste clearance impairment via a non-inflammatory mechanism. This is the strongest mechanistic link between mast cell pathology and the cognitive symptoms of ME/CFS that does not invoke systemic inflammation.
     / *Certainty Assessment:*:
     
         - *Quality:* Very high (Cell; rigorous multi-model approach)
@@ -7781,7 +7781,7 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
         - Regional increases up to 10--15% in cingulate gyrus
         - Volume increase correlates with therapeutic response
         - Mechanism: neurogenesis via GSK-3$beta$ inhibition and Wnt/$beta$-catenin activation
-        - Only mood stabiliser demonstrating structural neuroprotective effect
+        - Only mood stabilizer demonstrating structural neuroprotective effect
 
     / *Relevance:*: Grey matter loss is documented in ME/CFS (prefrontal cortex and other regions). Therapeutic-dose lithium (as in Théralite) produces active structural neuroprotection --- at concentrations greater than the sub-therapeutic range in Guttuso 2024, with correspondingly stronger effects. Relevant to patient registry studies: bipolar patients on lithium would be expected to show reduced neurological decline, potentially extending to ME/CFS/Long COVID outcomes.
     / *Limitations:*: Bipolar disorder population; ME/CFS extrapolation mechanistically justified but indirect; mood stabilization confounding cannot be excluded.
@@ -12050,7 +12050,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Key Findings:*:
         - HSAT2 is epigenetically silenced by CpG methylation in healthy somatic cells
         - Hypomethylation leads to HSAT2 derepression; expression correlates inversely with pericentromeric methylation
-    / *Conclusion:*: CpG methylation is a key epigenetic gate for HSAT2 as measured by bisulfite sequencing; hypomethylation at pericentromeric loci is sufficient for derepression. Note: H3K9 trimethylation (H3K9me3) is also a primary silencing mechanism for pericentromeric heterochromatin and acts upstream of DNA methylation — the two mechanisms are interdependent, with DNA methylation serving as a downstream stabiliser.
+    / *Conclusion:*: CpG methylation is a key epigenetic gate for HSAT2 as measured by bisulfite sequencing; hypomethylation at pericentromeric loci is sufficient for derepression. Note: H3K9 trimethylation (H3K9me3) is also a primary silencing mechanism for pericentromeric heterochromatin and acts upstream of DNA methylation — the two mechanisms are interdependent, with DNA methylation serving as a downstream stabilizer.
     / *ME/CFS Relevance:*: ME/CFS shows widespread DNA methylation alterations. If pericentromeric loci are hypomethylated, HSAT2 could be chronically derepressed even without active viral infection.
     / *Limitations:*: Healthy vs cancer comparison; no infection or chronic disease context.
     / *Certainty:*: 0.75
@@ -12176,7 +12176,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
         - HERV expression patterns are stage-specific and track immune state during/after COVID-19
         - Severity-associated: HERVIP10B3-int and LTR14B upregulated in severe COVID-19
         - Convalescent patients show a distinct HERV expression signature distinct from acute infection
-    / *Conclusion:*: HERV transcriptome is systematically remodelled during SARS-CoV-2 infection, with stage-specific patterns. Persistent HERV expression changes in convalescence may contribute to post-COVID immune dysregulation.
+    / *Conclusion:*: HERV transcriptome is systematically remodeled during SARS-CoV-2 infection, with stage-specific patterns. Persistent HERV expression changes in convalescence may contribute to post-COVID immune dysregulation.
     / *ME/CFS Relevance:*: Provides transcriptomic evidence that HERV reactivation is a feature of COVID-19 infection and persists into convalescence — the temporal window when Long COVID/ME/CFS emerges. Stage-specific modulation raises the hypothesis that non-resolving HERV expression in Long COVID patients (compared to fully convalescent) could contribute to ongoing immune dysregulation. *NULL/CAUTION:* This is a proof-of-concept study (small n); no Long COVID arm; no ME/CFS arm; functional consequences of HERV expression not measured.
     / *Limitations:*: n=26 total (very small); single study; no Long COVID or ME/CFS arm; HERV expression not linked to functional immune endpoints; Microbiology Spectrum = good but not top-tier; no replication.
     / *Certainty:*: 0.45 (small n; no ME/CFS/Long COVID arm; single study; proof-of-concept level)

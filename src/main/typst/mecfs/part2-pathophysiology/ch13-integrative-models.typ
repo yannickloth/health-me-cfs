@@ -1911,7 +1911,7 @@ This predicts that ME/CFS connective tissue (skin, muscle, fascia) harbours an e
 
 *(Certainty: 0.30 — model structure plausible from documented causal links; parameter values unmeasured; bistability prediction untested.)*
 
-The relationship between HSAT2-laden EVs and MDSC expansion can be formalised as a two-compartment dynamical system. Let $M(t)$ denote MDSC pool size and $E(t)$ the plasma EV HSAT2 cargo load. The proposed causal links @spec:hsat2-exosome-mdsc @spec:hsat2-pem-amplification @spec:mdsc-nk-bridge suggest:
+The relationship between HSAT2-laden EVs and MDSC expansion can be formalized as a two-compartment dynamical system. Let $M(t)$ denote MDSC pool size and $E(t)$ the plasma EV HSAT2 cargo load. The proposed causal links @spec:hsat2-exosome-mdsc @spec:hsat2-pem-amplification @hyp:mdsc-nk-bridge suggest:
 
 $dot(M) = alpha dot.op E - beta dot.op M$ — MDSCs are produced at rate $alpha$ proportional to EV HSAT2 load and decay at rate $beta$; $dot(E) = gamma dot.op M dot.op S(t) - delta dot.op E$ — EVs are produced at rate $gamma$ by MDSCs under exertional stressor $S(t)$ and cleared at rate $delta$. Here $S(t)$ represents the pulse-train of exertional stress events.
 
@@ -1951,7 +1951,7 @@ The clinical implication is that acute NAD+ restoration (single high dose) would
 
 ] <spec:hsat2-bistability-hysteresis>
 
-#hypothesis(title: [Sub-Clinical Fibrosis as a Chronicity and Irreversibility Mechanism in Long-Duration ME/CFS])[
+#speculation(title: [Sub-Clinical Fibrosis as a Chronicity and Irreversibility Mechanism in Long-Duration ME/CFS])[
 
 *Certainty: 0.40.* Supported by TGF-β1 elevation in long-duration ME/CFS cohorts, LS fibrosis biology providing a mechanistic template, and fascia/connective tissue reports in fibromyalgia-adjacent conditions. Direct histological evidence in ME/CFS connective tissue is absent. Not yet replicated.
 
@@ -1962,4 +1962,4 @@ In this model, LS in a patient with ME/CFS is not merely a comorbidity but a vis
 *Falsifiable prediction:* (1) Shear-wave elastography of thoracolumbar fascia will show significantly higher stiffness in ME/CFS patients with illness duration >5y compared to $<$2y, independent of deconditioning. (2) Stiffness will correlate with serum TGF-β1 and procollagen III N-terminal peptide (PIIINP). (3) ME/CFS patients with concurrent LS will show higher fascial stiffness than ME/CFS patients without LS, matched for illness duration.
 
 *Limitations:* Shear-wave elastography of fascial tissue has not been standardized in ME/CFS research; confounders include deconditioning, BMI, and age. TGF-β1 elevation in long-duration ME/CFS has not been consistently replicated across cohorts. The LS-fascia prediction is multiply inferential — each inferential step (LS predicts fibrotic terrain → systemic fibrotic risk) dilutes certainty proportionally.
-] <hyp:subclinical-fibrosis-mecfs>
+] <spec:subclinical-fibrosis-mecfs>

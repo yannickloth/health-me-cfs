@@ -720,7 +720,7 @@ For ME/CFS patients with confirmed Domain 6 (mast cell / histaminergic dysregula
 The three components target overlapping but distinct mast cell stabilization pathways:
 
     - *Quercetin (phytosome form, 500 mg twice daily)*: Inhibits Fc$epsilon.alt$RI-mediated mast cell degranulation via HDAC inhibition, downregulating BTK, SYK, and LAT kinases @Folkerts2020butyrate; liposomal/phytosome formulations achieve 5-fold higher bioavailability than standard quercetin
-    - *Luteolin (100 mg twice daily)*: Flavone that stabilizes both mast cells and microglia; crosses the blood-brain barrier and may address hypothalamic mast cell activation (Section @spec:hypothalamic-mast-switch); particularly relevant for neurological symptoms (brain fog, headache)
+    - *Luteolin (100 mg twice daily)*: Flavone that stabilizes both mast cells and microglia; crosses the blood-brain barrier and may address hypothalamic mast cell activation (Section @hyp:hypothalamic-mast-switch); particularly relevant for neurological symptoms (brain fog, headache)
     - *Palmitoylethanolamide (PEA, 600 mg twice daily)*: Endocannabinoid-like compound activating PPAR-$alpha$, downregulating mast cell activation without affecting TRPM3 calcium channels relevant to NK cell function in ME/CFS; established mast cell modulator with fibromyalgia RCT evidence
 
 *Rationale for combination:* Quercetin addresses IgE-dependent degranulation; luteolin addresses CRH-driven and microglial activation; PEA addresses PPAR-mediated downregulation. The three mechanisms are additive rather than overlapping.

@@ -613,7 +613,7 @@ cardiopulmonary exercise test (CPET) protocol provides the scientific basis
 for this approach @Stevens2018CPETmethod @Davenport2010PTmodel.
 
 Davenport et al.\ (2010) proposed that all physical therapy for ME/CFS must
-centre on the ventilatory anaerobic threshold (VAT) determined by individual
+center on the ventilatory anaerobic threshold (VAT) determined by individual
 CPET @Davenport2010PTmodel. Activity must stay below the patient's VAT
 heart rate at all times. This model applies equally when the goal is
 comorbidity management: the _type_ of exercise may be dictated by the
@@ -819,7 +819,7 @@ Isometric yoga --- static muscle contractions _without joint movement_, performe
     - *Recumbent format for severe ME/CFS:* A pilot study ($n = 12$) adapted isometric yoga to a fully recumbent (lying down) format for patients too ill to sit, showing significant fatigue reduction with no PEM exacerbation --- critical safety data for the most vulnerable patients @Oka2017recumbentYoga
     - *Mechanistic profile:* Single-session measurements in 15 CFS patients showed that isometric yoga produces the _opposite_ physiological signature from exercise-induced PEM: decreased cortisol, decreased TNF-$alpha$, increased DHEA-S, enhanced vagal tone (HF-HRV increase), and reduced heart rate @Oka2018yogaMechanisms. This parasympathetic-shift and anti-inflammatory profile distinguishes isometric yoga from aerobic exertion at the biomarker level
 
-(Replication status: Partially replicated --- three studies from the same research group in Japan, using different designs but consistent methodology. Independent replication by other centres needed.)
+(Replication status: Partially replicated --- three studies from the same research group in Japan, using different designs but consistent methodology. Independent replication by other centers needed.)
 
 ==== Passive and Low-Effort Practices
 
@@ -835,7 +835,7 @@ The following practices require minimal cognitive effort and can be performed ly
 
 Lying down without sleeping has independent physiological value for ME/CFS patients that is distinct from napping:
 
-    - *Cardiovascular unloading:* Supine position eliminates the gravitational challenge to venous return that orthostatic intolerance makes so costly. Cardiac preload normalises, cerebral perfusion improves, and the sympathetic compensatory drive that consumes metabolic resources during upright posture is reduced
+    - *Cardiovascular unloading:* Supine position eliminates the gravitational challenge to venous return that orthostatic intolerance makes so costly. Cardiac preload normalizes, cerebral perfusion improves, and the sympathetic compensatory drive that consumes metabolic resources during upright posture is reduced
     - *Skeletal muscle rest:* Even quiet sitting requires continuous postural muscle activation. Lying down eliminates this ongoing energy expenditure --- a meaningful savings in patients operating at the margins of their energy envelope
     - *Not wasted time:* Patients who rest horizontally without falling asleep should not consider the time unproductive. The physiological benefits (reduced cardiac demand, improved cerebral perfusion, decreased sympathetic activation) accrue regardless of whether sleep occurs. This reframing is important: guilt about "not sleeping during rest" adds cognitive stress that undermines the rest itself
 
@@ -910,7 +910,7 @@ Rosalba Courtney (Australian PhD specializing in dysfunctional breathing in ME/C
 
 Prof. Nancy Klimas observed a clinically suggestive pattern: a patient who crashed after a continuous 12-minute walk did _not_ crash when the same total walking time was divided into three 4-minute walks separated by 4-minute supine rests. This observation led to a structured reconditioning protocol distinct from graded exercise therapy (GET).
 
-*Physiological rationale:* Supine rest between activity bouts maximises blood return to the peripheries and muscles, temporarily ameliorating the global hypoperfusion that drives exercise intolerance (see Chapter @ch:cardiovascular). The body can recover from brief exertion bursts in ways it cannot from sustained continuous effort.
+*Physiological rationale:* Supine rest between activity bouts maximizes blood return to the peripheries and muscles, temporarily ameliorating the global hypoperfusion that drives exercise intolerance (see Chapter @ch:cardiovascular). The body can recover from brief exertion bursts in ways it cannot from sustained continuous effort.
 
 *Protocol structure (example progression over 6 months):*
 

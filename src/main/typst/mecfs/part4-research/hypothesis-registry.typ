@@ -489,10 +489,10 @@ Motivated by: Reis et al.\ 2026 REVIVE-TOGETHER RCT (fluvoxamine in Long COVID f
     [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
 
     [Sigma-1 Agonism as Upstream Brake on the WASF3--ER Stress Loop],
-    [H], [0.25],
+    [S], [0.25],
     [S1R agonism suppresses IRE1$alpha$-mediated UPR, reducing ER stress signal amplitude and downstream WASF3 upregulation. (a) S1R agonist treatment reduces WASF3 expression in ME/CFS PBMCs or muscle. (b) S1R agonism improves mitochondrial supercomplex assembly ex vivo. (c) Highest-WASF3 patients show greatest fatigue benefit from fluvoxamine. (d) S1R agonist + mitochondrial antioxidant (MitoQ) shows synergy.],
     [WASF3 protein quantification in ME/CFS PBMCs vs healthy controls --- feasible. Fluvoxamine + WASF3 co-measurement trial in Long COVID/ME/CFS --- not yet done. Ex vivo S1R agonist + supercomplex assay (Wang 2023 protocol) --- feasible.],
-    [Ch.18 @hyp:sigma1-wasf3-brake],
+    [Ch.18 @spec:sigma1-wasf3-brake],
 
     [S1R--MAM Axis as Shared Vulnerability in Post-Infectious ME/CFS],
     [S], [0.20],
@@ -501,10 +501,10 @@ Motivated by: Reis et al.\ 2026 REVIVE-TOGETHER RCT (fluvoxamine in Long COVID f
     [Ch.18 @spec:s1r-mam-vulnerability],
 
     [DHEA--S1R Agonism: Mechanism Behind a Common Empirical Report],
-    [H], [0.20],
+    [S], [0.20],
     [DHEA/DHEA-S have documented S1R agonist activity; reported ME/CFS benefit may reflect S1R pathway rather than androgen receptor signaling. (a) DHEA-S levels inversely correlate with UPR markers in ME/CFS. (b) Ex vivo DHEA reduces ER stress markers in ME/CFS PBMCs at equimolar S1R occupancy vs. fluvoxamine. (c) S1R-selective agonist (pridopidine) produces comparable benefit to high-dose DHEA in crossover pilot.],
     [DHEA-S quantification in ME/CFS biobanks --- feasible and some data exist (often reduced). UPR marker co-measurement --- not done. Pridopidine is in Phase 2/3 for Huntington's disease; off-label ME/CFS pilot feasible.],
-    [Ch.18 @hyp:dhea-s1r],
+    [Ch.18 @spec:dhea-s1r],
 
     [Fluvoxamine in ME/CFS: Does the Long COVID Signal Translate?],
     [OQ], [---],
@@ -578,13 +578,13 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
     [SA-EV characterisation in ME/CFS plasma — not done. In vitro senescence induction assay — feasible. SA-EV biology established in aging literature; ME/CFS application entirely speculative.],
     [Ch.14k @spec:saev-propagation],
 
-    [RBC Phosphatidylserine Externalisation as a Microclot Nucleation Signal],
+    [RBC Phosphatidylserine Externalization as a Microclot Nucleation Signal],
     [H], [0.30],
-    [Annexin-V binding to ME/CFS RBCs elevated vs healthy controls. PS externalisation correlates with microclot area in fluorescence microscopy of same patient sample. Anti-PS treatment reduces microclot burden in vitro.],
-    [Annexin-V flow cytometry on ME/CFS RBCs — not done; 2-hour assay from standard blood draw. PS + microclot co-measurement — feasible. RBC PS externalisation not directly measured in ME/CFS despite ROS and morphology data.],
+    [Annexin-V binding to ME/CFS RBCs elevated vs healthy controls. PS externalization correlates with microclot area in fluorescence microscopy of same patient sample. Anti-PS treatment reduces microclot burden in vitro.],
+    [Annexin-V flow cytometry on ME/CFS RBCs — not done; 2-hour assay from standard blood draw. PS + microclot co-measurement — feasible. RBC PS externalization not directly measured in ME/CFS despite ROS and morphology data.],
     [Ch.14k @hyp:rbc-ps-microclot-nucleation],
 
-    [Carotid Body Sensitisation as a Reversible Amplifier of Orthostatic Symptoms in ME/CFS],
+    [Carotid Body Sensitization as a Reversible Amplifier of Orthostatic Symptoms in ME/CFS],
     [S], [0.25],
     [(a) HVR (hypoxic ventilatory response) to 15% O#sub[2] is elevated in ME/CFS vs healthy controls. (b) Gefapixant (P2X3 antagonist) reduces HVR in ME/CFS within 2 weeks. (c) Reduced HVR correlates with improvement in orthostatic symptom scores and PETCO#sub[2] trajectories during tilt.],
     [HVR measurement with El-Medany carotid body protocol in ME/CFS — not done; 30-min test per patient. Gefapixant has established safety record (chronic cough trials). P2X3 antagonism + tilt PETCO#sub[2] measurement — feasible. Long COVID carotid body data @ElMedany2024carotid requires replication in formal ME/CFS.],
@@ -596,7 +596,7 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
     [Edgell 2025 pilot ($n=16$, unblinded) shows promising signals: +1.4 mL/kg/min VO#sub[2], HRV improvement, SF-36 physical function +5.6. Sham-controlled RCT feasible ($n approx 60$). PEM monitoring by DSQ-2 at 24h and 72h post-session — not done in pilot.],
     [Ch.18 @sec:imt-mecfs],
   ),
-  kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular pathology integration (2026-04-10). Covers endothelial senescence, vascular-primary causal model, failed angiogenic compensation, glycocalyx mechanosensing, orthostatic hypocapnia--microclot loop, SA-EV propagation, RBC phosphatidylserine externalisation, carotid body sensitization, and IMT as autonomic intervention.],
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular pathology integration (2026-04-10). Covers endothelial senescence, vascular-primary causal model, failed angiogenic compensation, glycocalyx mechanosensing, orthostatic hypocapnia--microclot loop, SA-EV propagation, RBC phosphatidylserine externalization, carotid body sensitization, and IMT as autonomic intervention.],
 ) <tab:hypothesis-registry-2026-04-10>
 ] // end landscape page
 
@@ -1175,11 +1175,11 @@ MCAS-Mediated Glymphatic Impairment via Dural Mast Cell Dysfunction
 MRI compared to non-MCAS controls.
 (b) Dural mast cell density or degranulation markers correlate with CSF
 flow rates at ACE points in post-mortem studies.
-(c) Mast cell stabilisers improve cognitive symptoms via glymphatic
+(c) Mast cell stabilizers improve cognitive symptoms via glymphatic
 rather than anti-inflammatory mechanisms.
 &
 Diffusion-tensor MRI glymphatic imaging in MCAS vs.\ non-MCAS ME/CFS;
-post-mortem dural mast cell histology; mast cell stabiliser trials
+post-mortem dural mast cell histology; mast cell stabilizer trials
 with CSF biomarkers. Novel imaging techniques required; post-mortem
 studies feasible.
 &
@@ -1276,7 +1276,7 @@ Gut Serotonin–Vagal–Cardiovascular Link
 (c) 5-HT4 agonist (prucalopride) improves autonomic function in ME/CFS patients
 with documented gut dysbiosis.
 &
-16S rRNA gut profiling + faecal SCFA + plasma serotonin + 24-hour HRV
+16S rRNA gut profiling + fecal SCFA + plasma serotonin + 24-hour HRV
 in cross-sectional cohort; probiotic RCT with HRV primary endpoint.
 Methods available; careful timing required for serotonin assay.
 &
@@ -1535,7 +1535,7 @@ Na#super[+]/K#super[+]-ATPase Failure Links PEM and MCAS Flares
 &
 (a) Mast cells from ME/CFS patients show elevated intracellular sodium (fluorescent dyes).
 (b) MDC002 reduces both PEM severity and MCAS flare frequency.
-(c) Mast cell stabilisers (cromolyn) provide modest PEM benefit.
+(c) Mast cell stabilizers (cromolyn) provide modest PEM benefit.
 &
 Isolated mast cells + sodium-sensitive dyes; MDC002 trial with MCAS symptom tracking; cromolyn crossover with PEM diary.
 &
@@ -1666,7 +1666,7 @@ Ch.22 @sec:animal-models \
 Temporal Mapping: Deconditioning to Pathology Transition
 (@oq:deconditioning-pathology-transition)
 [], [OQ], [—],
-(a) Serial biopsy: when do reversible fibre shifts become irreversible?
+(a) Serial biopsy: when do reversible fiber shifts become irreversible?
 (b) CPET trajectory over 24 months distinguishes deconditioning from pathology?
 (c) Long-duration patients show qualitatively different tissue changes?
 &
@@ -2331,16 +2331,16 @@ Motivated by: integration of Bergen Giardia outbreak evidence (Wensaas 2012, 201
     [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
 
     [Molecular Mimicry: Giardia VSPs and Autonomic Receptor Autoimmunity],
-    [H], [0.30],
+    [S], [0.30],
     [Anti-M2R and anti-β2-adrenergic receptor autoantibodies elevated in Bergen cohort ME/CFS patients vs non-ME/CFS exposed; VSP epitope homology to human GPCRs detectable computationally; immunoadsorption produces improvement in post-Giardia ME/CFS.],
     [Bergen cohort accessible for serological study; Scheibenbogen group autoantibody assays already validated for GPCR panels. VSP proteomics feasible. No direct test has been done.],
-    [Ch.7 @hyp:giardia-molecular-mimicry],
+    [Ch.7 @spec:giardia-molecular-mimicry],
 
     [Post-Parasitic IDO1 Upregulation → Chronic Kynurenine Shunt → Neuroinflammation],
-    [H], [0.35],
+    [S], [0.35],
     [Kynurenine/tryptophan ratio elevated in Bergen ME/CFS patients vs non-ME/CFS exposed at 5–10 years; H3K4me3 enrichment at IDO1 promoter in intestinal macrophage biopsies; IDO1 inhibitors reduce kyn/trp ratio and cognitive symptoms.],
     [Bergen cohort accessible; serum kyn/trp easily measurable. Intestinal biopsy epigenomics technically feasible. IDO1 inhibitors available (epacadostat). No ME/CFS post-parasitic study done.],
-    [Ch.7 @hyp:parasite-ido1-kynurenine],
+    [Ch.7 @spec:parasite-ido1-kynurenine],
 
     [Secretory IgA Deficiency as Parasite-Triggered ME/CFS Conversion Risk Factor],
     [OQ], [---],
@@ -2473,19 +2473,19 @@ requiring expertise outside ME/CFS scope.
 
     [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
 
-    [The "Wrong Fibres" Hypothesis: VNS Non-Response in ME/CFS as a Fibre-Selectivity Artifact],
+    [The "Wrong Fibers" Hypothesis: VNS Non-Response in ME/CFS as a Fiber-Selectivity Artifact],
     [Spec], [0.30],
-    [C-fibre-confirmed VNS engagement will predict anti-inflammatory response (IL-6, TNF-alpha reduction) while A/B-only engagement predicts autonomic but not inflammatory improvement. Autonomic-dominant ME/CFS patients respond to B-fibre-range tVNS; immune/inflammatory-dominant patients require C-fibre parameters or alpha-7 nAChR agonist co-administration.],
+    [C-fiber-confirmed VNS engagement will predict anti-inflammatory response (IL-6, TNF-alpha reduction) while A/B-only engagement predicts autonomic but not inflammatory improvement. Autonomic-dominant ME/CFS patients respond to B-fiber-range tVNS; immune/inflammatory-dominant patients require C-fiber parameters or alpha-7 nAChR agonist co-administration.],
     [tVNS trial with concurrent CNAP monitoring stratified by ME/CFS phenotype (autonomic vs.\ inflammatory dominant). No such trial exists (2026).],
     [Ch.18 @spec:vns-wrong-fibres],
 
-    [Gut Microbiome Restoration as Indirect Vagal C-Fibre Therapy],
+    [Gut Microbiome Restoration as Indirect Vagal C-Fiber Therapy],
     [Spec], [0.40],
-    [Successful microbiome restoration (increased faecal butyrate) will increase vagal afferent tone (HRV HF power or vagal evoked potential amplitude) in addition to GI and inflammatory improvements. Patients who restore butyrate but NOT vagal tone will not show systemic anti-inflammatory benefit, implicating the C-fibre afferent pathway as the mediating mechanism.],
-    [Microbiome intervention trial with concurrent vagal tone monitoring (HRV) and inflammatory markers. Requires validated faecal butyrate measurement at baseline and follow-up. No ME/CFS study with this combined endpoint design exists (2026).],
+    [Successful microbiome restoration (increased fecal butyrate) will increase vagal afferent tone (HRV HF power or vagal evoked potential amplitude) in addition to GI and inflammatory improvements. Patients who restore butyrate but NOT vagal tone will not show systemic anti-inflammatory benefit, implicating the C-fiber afferent pathway as the mediating mechanism.],
+    [Microbiome intervention trial with concurrent vagal tone monitoring (HRV) and inflammatory markers. Requires validated fecal butyrate measurement at baseline and follow-up. No ME/CFS study with this combined endpoint design exists (2026).],
     [Ch.18 @spec:gut-vagal-cfibre],
   ),
-  kind: table, supplement: [Table], caption: [VNS fibre-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive anatomical characterisation of vagal fibre-class recruitment thresholds and implications for neuromodulation specificity.],
+  kind: table, supplement: [Table], caption: [VNS fiber-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive anatomical characterization of vagal fiber-class recruitment thresholds and implications for neuromodulation specificity.],
 ) <tab:hypothesis-registry-vns-fibre-2026-04-10>
 
 === Ch18 Therapeutic Framework Hypotheses Registry Entries (2026-04-11)
@@ -2597,7 +2597,7 @@ requiring expertise outside ME/CFS scope.
 
     [Autonomic Macrophage Polarisation as Unifying Tissue Repair Mechanism],
     [Spec], [0.45],
-    [Sympathetic overactivation favors CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favors CD64+CCR2- pro-repair macrophages (@Xue2018ANSWoundHealing). ME/CFS autonomic imbalance would bias macrophage polarisation toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
+    [Sympathetic overactivation favors CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favors CD64+CCR2- pro-repair macrophages (@Xue2018ANSWoundHealing). ME/CFS autonomic imbalance would bias macrophage polarization toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
     [ME/CFS patients with higher sympathetic tone (lower HF-HRV) should show slower wound healing, more neuroinflammation (PET), and worse gut permeability, all correlating with the same ANS measure. Not yet tested (2026).],
     [Ch.6 @spec:autonomic-macrophage-repair],
 
@@ -2777,13 +2777,13 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
 
     [Vagal C-Fibre Afferent Deafferentation Maintains the Neuroinflammatory Set-Point],
     [S], [0.40],
-    [SFN (reduced IENFD) in ME/CFS damages vagal C-fibre afferents, preventing the brainstem from receiving "periphery is inflamed" signals. The efferent anti-inflammatory reflex is inadequately triggered, and sickness behavior persists. Vicious cycle: inflammation $arrow.r$ C-fibre damage $arrow.r$ reduced afferent signaling $arrow.r$ impaired reflex $arrow.r$ more inflammation.],
-    [SFN-positive ME/CFS patients should show lower vagal C-fibre conduction (late VEP components >50~ms), higher inflammatory markers, and poorer VNS response than SFN-negative patients. VNS response in SFN-positive limited to autonomic (B-fibre) endpoints. No SFN-stratified VNS trial exists (2026).],
+    [SFN (reduced IENFD) in ME/CFS damages vagal C-fiber afferents, preventing the brainstem from receiving "periphery is inflamed" signals. The efferent anti-inflammatory reflex is inadequately triggered, and sickness behavior persists. Vicious cycle: inflammation $arrow.r$ C-fiber damage $arrow.r$ reduced afferent signaling $arrow.r$ impaired reflex $arrow.r$ more inflammation.],
+    [SFN-positive ME/CFS patients should show lower vagal C-fiber conduction (late VEP components >50~ms), higher inflammatory markers, and poorer VNS response than SFN-negative patients. VNS response in SFN-positive limited to autonomic (B-fiber) endpoints. No SFN-stratified VNS trial exists (2026).],
     [Ch.18 @spec:cfibre-deafferentation],
 
     [Alpha-7 nAChR Agonists as Pharmacological VNS Bypass],
     [H], [0.45],
-    [Selective alpha-7 nAChR agonists (GTS-21, galantamine) directly activate the downstream effector of the cholinergic anti-inflammatory pathway on macrophages, bypassing fibre-selectivity and C-fibre deafferentation problems entirely. Anti-inflammatory effect independent of SFN status.],
+    [Selective alpha-7 nAChR agonists (GTS-21, galantamine) directly activate the downstream effector of the cholinergic anti-inflammatory pathway on macrophages, bypassing fiber-selectivity and C-fiber deafferentation problems entirely. Anti-inflammatory effect independent of SFN status.],
     [Alpha-7 agonist (GTS-21 or galantamine) will reduce TNF-$alpha$/IL-6 in ME/CFS patients with elevated baseline inflammation, effect size $gt.eq$ standard tVNS, without hoarseness/bradycardia. Independent of SFN status (unlike VNS). No ME/CFS trial for either agent (2026).],
     [Ch.18 @hyp:alpha7-pharmacological-vns],
 
@@ -2793,7 +2793,7 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
     [ME/CFS patients with enteroviral onset (Coxsackie B3 serology) should have higher anti-ANT1 titres than EBV-onset or non-infectious-onset patients. In silico homology analysis of Coxsackie B3 proteome vs ANT1 epitopes (Manchado 2002) can rapidly support/refute mimicry mechanism.],
     [Ch.6 @spec:coxsackie-ant-mimicry],
   ),
-  kind: table, supplement: [Table], caption: [VNS fibre-selectivity extensions and ANT molecular mimicry brainstorm integration (2026-04-12). Two VNS-related entries (C-fibre deafferentation, alpha-7 nAChR pharmacological bypass) extend the fibre-selectivity framework; one ANT entry proposes the first specific molecular mimicry target for ME/CFS. Motivated by brainstorm files for VNS fibre selectivity and ANT autoantibodies.],
+  kind: table, supplement: [Table], caption: [VNS fiber-selectivity extensions and ANT molecular mimicry brainstorm integration (2026-04-12). Two VNS-related entries (C-fiber deafferentation, alpha-7 nAChR pharmacological bypass) extend the fiber-selectivity framework; one ANT entry proposes the first specific molecular mimicry target for ME/CFS. Motivated by brainstorm files for VNS fiber selectivity and ANT autoantibodies.],
 ) <tab:hypothesis-registry-brainstorm-remaining-2026-04-12>
 ] // end landscape page for brainstorm integration
 
@@ -3544,7 +3544,7 @@ Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipel
 
     [Gut-Vagal-Aging Triad: Butyrate Deficiency as Parasympathetic Aging Accelerant],
     [S], [0.40],
-    [Butyrate deficiency $arrow.r$ reduced vagal afferent C-fibre input $arrow.r$ CAP failure $arrow.r$ inflammaging. Self-reinforcing: dysbiosis $arrow.r$ butyrate loss $arrow.r$ vagal deafferentation $arrow.r$ sympathetic dominance $arrow.r$ barrier dysfunction $arrow.r$ more dysbiosis. (a) Faecal butyrate inversely correlates with epigenetic clock. (b) Butyrate supplementation improves HF-HRV. (c) Preserved butyrate producers = less telomere shortening.],
+    [Butyrate deficiency $arrow.r$ reduced vagal afferent C-fiber input $arrow.r$ CAP failure $arrow.r$ inflammaging. Self-reinforcing: dysbiosis $arrow.r$ butyrate loss $arrow.r$ vagal deafferentation $arrow.r$ sympathetic dominance $arrow.r$ barrier dysfunction $arrow.r$ more dysbiosis. (a) Fecal butyrate inversely correlates with epigenetic clock. (b) Butyrate supplementation improves HF-HRV. (c) Preserved butyrate producers = less telomere shortening.],
     [Faecal SCFA + HRV + methylation clock co-measurement --- feasible. Butyrate supplementation trial --- feasible (sodium butyrate OTC). No simultaneous measurement in ME/CFS.],
     [Ch.11 @spec:gut-vagal-aging-triad],
 
@@ -4511,8 +4511,8 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
 
     [DRG-IgG as Afferent-Gain Amplifier in PEM],
     [H], [0.45],
-    [QST thresholds drop further post-exertion in IgG-DRG-positive vs IgG-DRG-negative ME/CFS patients. Microneurography C-fibre discharge correlates with PEM severity.],
-    [QST at baseline + post-exertion challenge; C-fibre microneurography. Passive transfer behavioral assays (running-wheel post-exertion).],
+    [QST thresholds drop further post-exertion in IgG-DRG-positive vs IgG-DRG-negative ME/CFS patients. Microneurography C-fiber discharge correlates with PEM severity.],
+    [QST at baseline + post-exertion challenge; C-fiber microneurography. Passive transfer behavioral assays (running-wheel post-exertion).],
     [Ch.7 @hyp:drg-igg-pem-amplifier],
 
     [Two-Compartment ME/CFS: Peripheral IgG--DRG vs Central Brain-Fog],
@@ -4590,7 +4590,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
 
     [ISR Activation in DRG as a Mechanism for Small Fibre Neuropathy],
     [S], [0.30],
-    [ME/CFS patients with SFN show higher HHV-6 dUTPase IgG and plasma miR-aU14 than ME/CFS without SFN. Skin biopsy from SFN+ patients shows ATF4 immunoreactivity in surviving DRG-derived fibres.],
+    [ME/CFS patients with SFN show higher HHV-6 dUTPase IgG and plasma miR-aU14 than ME/CFS without SFN. Skin biopsy from SFN+ patients shows ATF4 immunoreactivity in surviving DRG-derived fibers.],
     [IENFD skin biopsy + HHV-6 serology (feasible, clinically available). ATF4 IHC on skin biopsy (research protocol). Plasma miR-aU14 exosome assay (research-stage).],
     [Ch.8 @spec:isr-drg-sfn],
 
@@ -4663,16 +4663,16 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.14a @spec:hsat2-centromere-stress],
 
     [MDSC Expansion via Exosomal HSAT2 as Upstream Cause of NK Cytotoxicity Loss],
-    [S], [0.50],
+    [H], [0.50],
     [MDSC frequency (CD33+HLA-DR−) correlates inversely with NK cytotoxicity (Spearman ρ < −0.4). CD33+ depletion of patient PBMCs restores NK killing ≥ 20%.],
     [Multi-parameter flow cytometry. NK K562 cytotoxicity assay ± anti-CD33 microbead depletion. Cross-sectional ME/CFS cohort (n ≥ 50).],
-    [Ch.7 @spec:mdsc-nk-bridge],
+    [Ch.7 @hyp:mdsc-nk-bridge],
 
     [CD8+ T-cell Exhaustion as Downstream Consequence of EV Cargo Rather than Antigen-Driven],
-    [S], [0.40],
+    [H], [0.45],
     [EV depletion from patient plasma abolishes or reduces PD-1 induction in healthy CD8+ T-cells vs. unfiltered plasma. Plasma EV HSAT2 correlates with CD8+ PD-1 expression longitudinally.],
     [EV depletion by SEC filtration. Incubate healthy CD8+ T-cells with filtered vs. unfiltered patient plasma. PD-1 flow cytometry. Longitudinal sampling (≥ 6 timepoints).],
-    [Ch.7 @spec:tcell-exhaust-ev-downstream],
+    [Ch.7 @hyp:tcell-exhaust-ev-downstream],
 
     [Thermal Stress May Amplify Exosomal HSAT2 in Susceptible ME/CFS Patients],
     [S], [0.25],
@@ -4705,10 +4705,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.20 @spec:hsat2-biomarker-panel],
 
     [CD33+HLA-DR− MDSC Frequency as Functional Readout of the HSAT2 Loop],
-    [S], [0.50],
+    [H], [0.50],
     [MDSC frequency elevated > 1.5× in ≥ 30% of ME/CFS patients vs. controls; correlates inversely with NK cytotoxicity (ρ < −0.4).],
     [Flow cytometry: CD33+HLA-DR− gating. NK K562 cytotoxicity. Cross-sectional cohort (n ≥ 80). Assess HSAT2 RNA in CD33+ cells by PrimeFlow assay.],
-    [Ch.20 @spec:mdsc-biomarker],
+    [Ch.20 @hyp:mdsc-biomarker],
 
     [Does Plasma Exosomal HSAT2 Track Clinical State Longitudinally?],
     [OQ], [---],
@@ -4847,10 +4847,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     ),
 
     [MCAS-Triggered ME/CFS Phenotype],
-    [H], [0.35],
+    [S], [0.35],
     [In the subset with MCAS onset before ME/CFS onset: MCAS treatment produces ≥50% improvement in PEM frequency and fatigue severity, AND PEM triggers overlap ≥2 MCAS triggers (heat, food, fragrance). In the majority (MCAS onset after ME/CFS): no such improvement pattern.],
     [Retrospective temporal mapping of MCAS vs ME/CFS onset in n ≥ 200. Treatment response stratified by onset sequence. Overlap scoring of PEM vs. MCAS trigger profiles.],
-    [Ch.5 @hyp:mcas-mecfs-phenotype],
+    [Ch.5 @spec:mcas-mecfs-phenotype],
 
     [Conditional Genetic Predisposition Layer for Septad (TPSAB1 / KIT / HNMT)],
     [S], [0.40 / 0.20 / 0.05],
@@ -4875,7 +4875,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     ),
 
     [Domain 6 (Mast Cell / Histaminergic Dysregulation) as Rate-Limiting Upstream Driver in ME/CFS Subset],
-    [H], [0.38],
+    [S], [0.38],
     [(a) In patients with Domain 6 positive + Domain 4 positive (dysautonomia): combined H1/H2 antihistamine + dysautonomia treatment produces greater COMPASS-31 improvement than dysautonomia treatment alone. (b) Urinary NMH/LTE4 elevation correlates with POTS severity within ME/CFS patients. (c) Subset with episodic MCAS flares predating ME/CFS onset responds to mast cell stabilization with ≥30% PEM frequency reduction.],
     [Cross-over trial: dysautonomia treatment ± H1/H2 antihistamines in Domain 4+6 dual-positive ME/CFS patients. Correlational study: urinary mast cell mediators vs. NASA Lean Test heart rate rise. Treatment-response registry stratified by onset sequence (MCAS before vs. after ME/CFS).],
     [Ch.4 @sec:domain6-mast-cell],
@@ -4915,10 +4915,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.5 @hyp:mcas-ignition-node],
 
     [Septad as Single Neuroimmune Connective Syndrome (NICS)],
-    [H], [0.40],
+    [S], [0.40],
     [LCA on n ≥ 500 Septad patients yields one dominant latent class explaining ≥40% of variance across all 7 condition scores.],
     [Deep phenotyping. LCA + BIC model comparison. Variables: all 7 Septad severity scores, mediator panel, HRV, Beighton.],
-    [Ch.5 @hyp:nics],
+    [Ch.5 @spec:nics],
 
     [Amplification Ratchet — Cascade Irreversibility Threshold],
     [S], [0.35],
@@ -4946,7 +4946,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
 
     [Does the Septad Have a Latent Class Structure?],
     [OQ], [---],
-    [LCA reveals either a single dominant class (NICS hypothesis @hyp:nics) or 2--3 distinct clusters with differential drivers and treatment implications.],
+    [LCA reveals either a single dominant class (NICS hypothesis @spec:nics) or 2--3 distinct clusters with differential drivers and treatment implications.],
     [LCA in existing biobanks (UK ME/CFS Biobank, DecodeME, You+ME Registry).],
     [Ch.5 @oq:septad-lca],
 
@@ -4979,10 +4979,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.7 @hyp:carotid-mast-oi],
 
     [Hypothalamic Mast Cells as the Master Switch for Sickness-Behavior Persistence in ME/CFS],
-    [S], [0.50],
+    [H], [0.50],
     [CSF tryptase and tele-methylhistamine elevated in ME/CFS vs healthy controls even when serum tryptase normal. Intranasal cromolyn reduces sickness-behavior scores within 4 weeks.],
     [Lumbar puncture CSF mediator panel in consenting ME/CFS patients. Intranasal cromolyn RCT with sickness-behavior primary endpoint.],
-    [Ch.7 @spec:hypothalamic-mast-switch],
+    [Ch.7 @hyp:hypothalamic-mast-switch],
 
     [Spike Protein-Imprinted Mast Cell Memory via MRGPRX2 as Long COVID-ME/CFS Divergence Mechanism],
     [S], [0.35],
@@ -4991,10 +4991,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.7 @spec:mrgprx2-long-covid-mast],
 
     [Connective Tissue Matrix Permissivity as Unifying Mechanism of hEDS-POTS-MCAS-ME/CFS Cluster],
-    [S], [0.50],
+    [H], [0.50],
     [ME/CFS patients with Beighton >= 5 will show higher skin biopsy mast cell density (>20/HPF) than Beighton <= 2 patients, even when matched for serum tryptase.],
     [Skin punch biopsy: mast cell immunohistochemistry (tryptase staining) in ME/CFS patients stratified by Beighton score.],
-    [Ch.14d @spec:permissive-matrix-mcas],
+    [Ch.14d @hyp:permissive-matrix-mcas],
 
     [Domain 6 as a Bistable Switch Layer in the ME/CFS Causal Network],
     [S], [0.40],
@@ -5015,10 +5015,10 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.16 @spec:dao-cofactor-hit],
 
     [Ketotifen + Famotidine as First-Line Domain 6 Combination in ME/CFS],
-    [S], [0.55],
+    [H], [0.55],
     [A 12-week RCT of ketotifen 1 mg BID + famotidine 40 mg BID in MCAS-positive ME/CFS will produce > 30% improvement in DSQ-PEM score vs placebo, with effect size correlating with baseline urinary N-methylhistamine.],
     [Double-blind RCT in Domain 6-positive ME/CFS (n >= 60). Primary endpoint: DSQ-PEM score. Secondary: COMPASS-31, urinary N-methylhistamine.],
-    [Ch.18 @spec:ketotifen-famotidine-first-line],
+    [Ch.18 @hyp:ketotifen-famotidine-first-line],
 
   ),
   caption: [Entries added 2026-05-01: Domain 6 Phase 4 brainstorm integrations — 1 hypothesis (carotid body mast cell OI), 6 speculations (hypothalamic master switch, MRGPRX2, permissive matrix, bistable switch, mito transfer, DAO cofactor, ketotifen+famotidine), 0 open questions (added inline). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Valent2021criteria @Yao2025MCASPOTStriad @Weinstock2024Ketotifen.],
@@ -5066,40 +5066,40 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.7 @hyp:il15-trans-presentation],
 
     [miR-155/Foxp3 as Shared Epigenetic Switch in LS and ME/CFS],
-    [H], [0.30],
+    [S], [0.30],
     [Plasma EV miR-155 >1.5× elevated in ME/CFS vs controls; inverse correlation with circulating Foxp3+ Treg frequency; highest in LS+ME/CFS subgroup.],
     [EV miRNA profiling (ddPCR) + Treg flow cytometry in ME/CFS cohort, stratified by autoimmune comorbidity.],
-    [Ch.7 @hyp:mir155-foxp3-mecfs],
+    [Ch.7 @spec:mir155-foxp3-mecfs],
 
     [ME/CFS as Multi-Organ TRM Persistence Syndrome],
-    [H], [0.30],
+    [S], [0.30],
     [Muscle biopsy post-PEM will show CD103+CD69+ TRM density >2× pre-PEM baseline; blocking IL-15 will reduce PEM frequency in a controlled trial.],
     [Paired muscle biopsy (pre/post PEM provocation) + TRM immunofluorescence; anti-IL-15 pilot trial (n≥20).],
-    [Ch.7 @hyp:trm-mecfs, Ch.14d @hyp:ssc-ifn-fatigue-model],
+    [Ch.7 @spec:trm-mecfs, Ch.14d @spec:ssc-ifn-fatigue-model],
 
     [Lichen Sclerosus as Pre-ME/CFS Trip-Switch (PTPN22 R620W)],
-    [H], [0.35],
+    [S], [0.35],
     [Women with biopsy-confirmed LS will show ≥1.5× incidence of ME/CFS following EBV/COVID compared to age-matched non-LS controls over 5-year follow-up.],
     [Registry-linkage study: LS biopsy records linked to ME/CFS diagnosis + infection history in national health databases.],
-    [Ch.5 @hyp:lichen-trip-switch],
+    [Ch.5 @spec:lichen-trip-switch],
 
     [Sub-Clinical Fibrosis as ME/CFS Chronicity/Irreversibility Mechanism],
-    [H], [0.40],
+    [S], [0.40],
     [Thoracolumbar fascia shear-wave elastography stiffness higher in ME/CFS duration >5y vs less than 2y; stiffness correlates with serum TGF-β1 and PIIINP; LS+ME/CFS higher fascial stiffness than ME/CFS-only matched for duration.],
     [Cross-sectional shear-wave elastography study in ME/CFS cohort stratified by duration; serum TGF-β1 and PIIINP assay; LS subgroup comparison.],
-    [Ch.13 @hyp:subclinical-fibrosis-mecfs],
+    [Ch.13 @spec:subclinical-fibrosis-mecfs],
 
     [SSc High IFN Signature as ME/CFS Fatigue Model],
-    [H], [0.30],
+    [S], [0.30],
     [SSc patients with high IFN-stimulated gene panel scores will show higher ME/CFS-criteria fatigue (with PEM) than low-IFN-signature SSc, independent of SSc severity.],
     [IFN signature scoring + PEM questionnaire in SSc clinic cohort (n≥100).],
-    [Ch.14d @hyp:ssc-ifn-fatigue-model],
+    [Ch.14d @spec:ssc-ifn-fatigue-model],
 
     [Vitiligo as Non-Fibrotic TRM Control for ME/CFS TRM Hypothesis],
-    [H], [0.25],
+    [S], [0.25],
     [Vitiligo prevalence elevated above population baseline in ME/CFS; ME/CFS+vitiligo patients show higher EV miR-155 and lower NK cytotoxicity than ME/CFS without skin autoimmunity.],
     [Registry prevalence survey + biomarker comparison in ME/CFS subgroups stratified by skin autoimmune comorbidity.],
-    [Ch.14d @hyp:vitiligo-trm-control],
+    [Ch.14d @spec:vitiligo-trm-control],
 
     [LDN Response Enrichment in ME/CFS Autoimmune-Terrain Subgroup],
     [S], [0.25],
@@ -5120,16 +5120,16 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.16 @spec:quercetin-nac-th1],
 
     [ECM1 Hypofunction as Connective-Tissue-Immune Bridge in ME/CFS],
-    [H], [0.40],
+    [S], [0.40],
     [Anti-ECM1 antibodies >2× population baseline in ME/CFS cohort (n≥200); seropositive patients show elevated zonulin and higher S100B variability vs seronegative controls.],
     [Anti-ECM1 ELISA + zonulin + S100B in ME/CFS biobanked serum; no new recruitment required.],
-    [Ch.7 @hyp:ecm1-axis-mecfs],
+    [Ch.7 @spec:ecm1-axis-mecfs],
 
     [Estrogen Withdrawal as Shared Th1-Derepression Trigger (LS + ME/CFS Worsening)],
-    [H], [0.35],
+    [S], [0.35],
     [Topical E2 responders in LS with comorbid ME/CFS show concurrent PEM improvement; perimenopausal ME/CFS women show higher IL-15, lower Treg frequency, and higher LS co-prevalence than pre-menopausal controls.],
     [Prospective LS+ME/CFS cohort follow-up (n≥30) tracking PEM scores alongside LS response to topical E2. Cross-sectional biomarker comparison in ME/CFS stratified by menopausal status.],
-    [Ch.5 @hyp:estrogen-th1-subgroup],
+    [Ch.5 @spec:estrogen-th1-subgroup],
 
   ),
   caption: [Entries added 2026-05-01: Lichen sclerosus–ME/CFS integration (Phase 2+4) — 9 hypotheses (terrain marker, trip-switch, IL-15, miR-155, TRM, fibrosis, ECM1, estrogen-Th1, SSc/vitiligo comparators), 5 speculations (subgroup ch05, LDN, steroid pulse, quercetin+NAC, LS terrain), 2 open questions (temporal prodrome, ECM1 biomarker). Motivated by @DeLuca2023LS2023Update @Paganelli2025LSCytokines @Oyama2022LSGeneticInterplay @Kassels2024LSAutoimmune @Halonen2024LSRiskFactorsFinland @Batham2024MECFSAutoimmunity @Paulis2019LSOxidativeStress.],
