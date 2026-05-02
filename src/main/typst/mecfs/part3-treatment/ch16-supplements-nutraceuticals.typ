@@ -277,7 +277,7 @@ Category A (net energy provider). Direct electron donor to Complex I; each NADH
 
 *Rationale.* NAD#super[+] is essential for mitochondrial function, DNA repair, and cellular signaling. The Heng 2025 study @heng2025mecfs documented NAD#super[+] metabolism abnormalities in ME/CFS. While direct oral NAD#super[+] supplementation has poor bioavailability (gastric degradation), sublingual NAD#super[+] (100–300 mg/day) offers a direct route, and precursors efficiently raise intracellular levels. NAD#super[+] precursors replenish the cellular NAD#super[+] pool for sirtuins and PARP-mediated DNA repair—a complementary mechanism to the direct electron donation provided by NADH (Section @subsec:nadh-supplement). For combination guidance, see Section @subsec:mito-combination-guide.
 
-*Evidence.* Preliminary. A 2025 RCT in Long COVID (n=58; 20-week intervention) showed NR 2000 mg/day increased whole-blood NAD#super[+] levels 2.6–3.1 fold (measured at interim timepoints of 5 and 10 weeks); cognitive benefits were variable, with overall group effects limited but some individuals showing improvement after $gt.eq$10 weeks @Wu2025NRLongCOVID.
+*Evidence.* Preliminary. A 2025 RCT in Long COVID (n=58; 20-week intervention) showed NR 2000 mg/day increased whole-blood NAD#super[+] levels 2.6–3.1 fold (measured at interim timepoints of 5 and 10 weeks); cognitive benefits were variable, with overall group effects limited but some individuals showing improvement after $gt.eq$10 weeks @Wu2025NRLongCOVID. *Important caveat:* The Wu 2025 trial is cited here for whole-blood NAD#super[+] elevation (a robust surrogate); its null primary cognitive endpoint means it does not support efficacy claims. Whole-blood NAD#super[+] does not equal tissue-level NAD#super[+]: human RCTs show NR robustly elevates blood NAD#super[+] but produces small or undetectable NAD#super[+] rises in muscle tissue (unreplicated in brain). In inflammatory states, CD38 (NADase) is upregulated and may consume NR-derived NAD#super[+] before SIRT1 can access it. Nicotinamide (a metabolic byproduct of NR/NMN) inhibits sirtuins at high intracellular concentrations @Bitterman2002Nicotinamide, potentially limiting the SIRT1 restoration mechanism. These barriers are relevant to interpreting the NR/NMN-HSAT2 speculation below and to setting realistic expectations for clinical response.
 
 *Forms.*
 
@@ -553,7 +553,7 @@ This provides a distinct rationale for NR/NMN in ME/CFS complementary to the est
 
 *Falsifiable prediction:* NR 1 g/day × 12 weeks will raise whole-blood NAD+ by ≥ 50% and reduce plasma EV HSAT2 by ≥ 20%. If NAD+ rises without HSAT2 falling, the SIRT1-SUV39H1-HSAT2 chain is not operative in ME/CFS. Parallel measurement of blood arginase-1 activity (MDSC functional readout) will distinguish epigenetic from immunosuppressive effects.
 
-*Limitations:* No direct evidence links NR or NMN to HSAT2 levels in any disease context. NAD+ depletion in ME/CFS is documented but effect sizes and immune-cell-specificity vary. The SIRT1-SUV39H1 stabilization mechanism may be overwhelmed by the strength of heat/oxidative stress-driven HSF1 activation if that is the dominant HSAT2 derepression route. NR is available OTC in Belgium and EU (approximately €60–80/month); NMN is higher cost. Not replicated.
+*Limitations:* No direct evidence links NR or NMN to HSAT2 levels in any disease context. NAD+ depletion in ME/CFS is documented but effect sizes and immune-cell-specificity vary. The SIRT1-SUV39H1 stabilization mechanism may be overwhelmed by the strength of heat/oxidative stress-driven HSF1 activation if that is the dominant HSAT2 derepression route. Additionally: whole-blood NAD+ rises do not reliably predict tissue-level NAD+ in immune or stromal cells; inflammatory CD38 upregulation may consume NR-derived NAD+ before SIRT1 accesses it; nicotinamide (a metabolic byproduct) inhibits sirtuins at high concentrations. Together these barriers mean the blood-NAD+-to-SIRT1-activity-to-HSAT2-silencing chain may fail at multiple points. NR is available OTC in Belgium and EU (approximately €60–80/month); NMN is higher cost. Not replicated.
 ] <spec:nr-nmn-hsat2>
 
 #speculation(title: [L-Citrulline Supplementation to Restore NK Cytotoxicity via Arginine Repletion in the MDSC Microenvironment])[
@@ -667,6 +667,10 @@ The three components target overlapping but distinct mast cell stabilization pat
 
 *Drug interactions:* Quercetin inhibits CYP3A4 at high doses -- monitor warfarin, cyclosporine, tacrolimus. PEA has minimal known interactions. Luteolin may have mild MAO-inhibitory activity at high doses -- avoid with MAOIs.
 
+*Falsifiable prediction:* A prospective crossover trial in Domain 6-positive ME/CFS patients will show that quercetin phytosome 500 mg BID + luteolin 100 mg BID + PEA 600 mg BID reduces validated mast cell symptom scores (e.g., MC-QAF or domain-specific COMPASS-31 autonomic sub-scores) by ≥30% versus placebo at 12 weeks; if the combination arm shows no significant advantage over quercetin monotherapy at equivalent dose, the luteolin and PEA additions do not provide additive benefit.
+
+*Replication status:* Not yet replicated -- no ME/CFS trial data for any component of this combination.
+
 *Caution:* This supplement stack is proposed for research investigation, not clinical recommendation. No ME/CFS-specific trial data exist. Start date and monitoring protocols should be established with a clinician familiar with MCAS and ME/CFS.
 ]
 
@@ -687,6 +691,10 @@ A subset of ME/CFS patients with histamine intolerance (HIT) rather than full MC
 *Distinguishing HIT from MCAS:* HIT is dose-dependent (symptoms correlate with histamine load); MCAS is episodic and independent of diet. The two can coexist. DAO supplementation benefits HIT but not pure MCAS; mast cell stabilizers benefit MCAS but not pure HIT. The Domain 6 workup (Section @sec:domain6-mast-cell) includes both pathways.
 
 *Evidence base:* DAO supplementation has reasonable evidence for histamine intolerance. The P5P + copper cofactor optimization is theoretical; no trial has specifically tested this combination in ME/CFS or histamine intolerance populations. Evidence grade: D (clinical convention, no controlled trial in ME/CFS).
+
+*Falsifiable prediction:* An 8-week randomized crossover trial comparing DAO alone versus DAO + P5P 50 mg + copper bisglycinate 2 mg in confirmed HIT-positive ME/CFS patients will show ≥30% greater reduction in HISQ-12 histamine symptom scores in the cofactor-optimization arm; if no significant between-arm difference is observed, cofactor deficiency is not the rate-limiting factor in DAO efficacy in this population.
+
+*Replication status:* Not yet replicated -- cofactor optimization framing is novel; no controlled trial exists.
 ] <spec:dao-cofactor-hit>
 
 == B Vitamins
@@ -987,7 +995,7 @@ Category A–B (provider to neutral). Primary fuel for enterocytes (intestinal c
 
 *Cautions.*
 
-    - *Serotonin syndrome*: Contraindicated with SSRIs, SNRIs, MAOIs, tramadol, or other serotonergic drugs. This is a serious risk—medical supervision required if on any of these medications.
+    - *Serotonin syndrome*: Contraindicated with SSRIs, SNRIs, MAOIs, tramadol, triptans (sumatriptan, rizatriptan, and other 5-HT1 agonists used for migraine — a common ME/CFS comorbidity), or other serotonergic drugs. This is a serious risk—medical supervision required if on any of these medications.
     - Peripheral decarboxylation can cause systemic serotonin effects (GI cramping, nausea, diarrhea) before central effects appear.
     - Avoid in pregnancy.
     - Start very low if histamine-sensitive (serotonin can release histamine).

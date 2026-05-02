@@ -477,7 +477,7 @@ If the HSAT2 exosomal loop is operative in ME/CFS @spec:hsat2-exosome-mdsc, NRTI
     - Mitochondrial off-target toxicity of NRTIs (particularly AZT and d4T) is relevant in ME/CFS given documented mitochondrial dysfunction; lamivudine and TDF have lower pol-γ affinity
     - No ME/CFS-specific NRTI trial has reported HERV-K or HSAT2 biomarker outcomes
 
-*Testable design:* Open-label pilot (n = 20, HSAT2-high by plasma EV assay), lamivudine 150 mg/day × 12 weeks (chosen for both HERV-K and LINE-1 rationale and superior tolerability). Primary endpoints: plasma exosomal HSAT2, HERV-K env RNA, and plasma cGAMP/IFN-β (cGAS-STING activation). Secondary: NK cytotoxicity, MDSC frequency, FUNCAP, fatigue NRS. Safety monitoring (detailed below).
+*Testable design:* Open-label pilot (n = 20, HSAT2-high by plasma EV assay [note: no CLIA-certified or commercial HSAT2 EV assay exists as of 2026; patient selection requires a research collaborating laboratory using RT-qPCR on isolated EVs, adapted from @Evdokimova2019HSAT2exosome methods]), lamivudine 150 mg/day × 12 weeks (chosen for both HERV-K and LINE-1 rationale and superior tolerability). Primary endpoints: plasma exosomal HSAT2, HERV-K env RNA, and plasma cGAMP/IFN-β (cGAS-STING activation). Secondary: NK cytotoxicity, MDSC frequency, FUNCAP, fatigue NRS. Safety monitoring (detailed below).
 
 *Before any clinical use:* Measurement of HSAT2 in ME/CFS plasma EVs to confirm the target is present; mitochondrial toxicity profiling in ME/CFS cell lines; HBV status (see warnings below).
 

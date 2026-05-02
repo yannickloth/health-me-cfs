@@ -148,7 +148,7 @@ The combined CA inhibitor + Perrin Technique proposal (@sec:csf-drainage-synergy
 
 *Built-in outcome measurement.* Sequential therapy allows clear attribution of improvement to each component. Cognitive effects can be directly assessed after Perrin initiation; subsequent CA inhibitor addition can be evaluated for net benefit or harm. This addresses a key gap identified in Section @sec:csf-drainage-synergy: no study has measured CSF flow before/after Perrin Technique.
 
-*Alignment with ME/CFS community preference.* The ME/CFS patient community strongly prefers "least harm first" approaches. Sequential therapy respects this principle while still offering the full combination for patients who need it.
+*Practical advantage for shared decision-making.* Sequential therapy makes the reasoning visible to the patient: Perrin first, add pharmacology only if needed. This is a practical communication benefit, not an evidence argument — the certainty estimate above rests entirely on the Riste 2025 data and the harm-differentiation logic.
 
 *Testable predictions.*
 
@@ -305,7 +305,7 @@ This loop would produce the characteristic ME/CFS paradox: evidence of immune ac
 #speculation(title: [HSAT2 Exosomal Loop as Molecular Substrate of Post-Viral Immune Memory in ME/CFS])[
 
 
-*(Certainty: 0.45 — biologically plausible; post-infectious epidemiology and molecular mechanism align; HERV-K reactivation directly documented in ME/CFS; no direct ME/CFS HSAT2 RNA data.)*
+*(Certainty: 0.35 — biologically plausible; post-infectious epidemiology and molecular mechanism align; HERV-K antibody persistence in ME/CFS is indirect evidence of prior reactivation, not confirmed ongoing expression; no direct ME/CFS HSAT2 RNA data. Certainty capped below the parent loop hypothesis at 0.25 by HERV-K indirect evidence, not direct HSAT2 measurement.)*
 
 ME/CFS is overwhelmingly post-infectious in onset (EBV, SARS-CoV-2, enteroviruses, Q fever). Multiple pathways can de-silence pericentromeric heterochromatin during acute viral infection:
 
@@ -313,7 +313,7 @@ ME/CFS is overwhelmingly post-infectious in onset (EBV, SARS-CoV-2, enteroviruse
     - Viral DNA replication stress → TP53 activation → TRF2 downregulation → KAP1/Lamin B1 release → pericentromeric H3K9me3 loss → satellite DNA derepression @MendezBermudez2022pericentromeric
     - Global DNA methylation erosion under viral-induced inflammatory stress, disproportionately de-silencing satellite repeats @Pappalardo2021methylationRepeats
 
-HERV-K reactivation following COVID-19 is directly documented in ME/CFS patients: Apostolou et al.\ @Apostolou2022HERVmecfs detected stronger and more persistent HERV-K IgG responses in ME/CFS patients (n = 95) versus healthy donors (n = 110) at 3–6 months after mild/asymptomatic COVID-19. This is an indirect antibody proxy but provides the first ME/CFS-specific evidence consistent with ongoing HERV derepression. More broadly, 282 HERV loci are differentially expressed in COVID-19 PBMCs @Grandi2023HERVcovid, establishing that SARS-CoV-2 triggers HERV reactivation at scale.
+HERV-K serology in ME/CFS provides an indirect signal: Apostolou et al.\ @Apostolou2022HERVmecfs detected stronger and more persistent HERV-K IgG responses in ME/CFS patients (n = 95) versus healthy donors (n = 110) at 3–6 months after mild/asymptomatic COVID-19. Antibody persistence is an indirect proxy — it reflects prior exposure and possible reactivation, not confirmed ongoing HERV expression — and provides the first ME/CFS-specific signal consistent with the hypothesis of HERV derepression. More broadly, 282 HERV loci are differentially expressed in COVID-19 PBMCs @Grandi2023HERVcovid, establishing that SARS-CoV-2 triggers HERV reactivation at scale.
 
 In most individuals, chromatin is re-silenced after infection resolves. This speculation proposes that a subset of patients fail to re-silence — and instead enter the Evdokimova-type self-propagating exosomal loop @Evdokimova2019HSAT2exosome — with the disease becoming "infection-shaped" without ongoing viral replication. This mechanism reconciles several apparent contradictions in ME/CFS:
 

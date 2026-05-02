@@ -4645,7 +4645,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     ),
 
     [HSAT2 Exosomal Loop as Molecular Substrate of Post-Viral Immune Memory in ME/CFS],
-    [S], [0.45],
+    [S], [0.35],
     [Plasma EVs from post-infectious ME/CFS (within 2 yrs onset) contain HSAT2/HERV-K at ≥ 2× control levels AND induce CD33+HLA-DR− phenotype in healthy donor PBMCs ex vivo.],
     [Plasma EV RNA-seq or ddPCR (HSAT2, HERV-K env). Functional PBMC induction assay using patient EVs. Stratify by onset trigger and disease duration.],
     [Ch.14a @spec:hsat2-postviral-memory],
