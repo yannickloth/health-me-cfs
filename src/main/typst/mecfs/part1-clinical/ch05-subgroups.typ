@@ -606,6 +606,10 @@ These hypotheses are presented to stimulate research, not as established mechani
 
 The diagnostic hierarchy in Section @sec:septad-diagnostic-hierarchy has five structural weaknesses that limit its clinical precision: (1) no prevalence-weighted tiebreaker when multiple presentations are equally prominent; (2) MCAS-first treatment sequencing is asserted rather than derived from base rates; (3) "disproportionate upstream improvement" is not operationalized; (4) MCAS as a potential primary driver of the ME/CFS phenotype has no branch; and (5) a genetic predisposition layer above the Septad is absent. The following extends the existing map to address each gap. Evidence gathered for each extension is noted with explicit certainty levels.
 
+#limitation(title: [Septad Framework Evidence Base])[
+The Septad co-occurrence framework was described by Kaufman and Maxwell from clinical practice observation, not from population-based epidemiological data. The best available population-level evidence is the Rohrhofer 2025 Austrian ME/CFS registry (n=687) @Rohrhofer2025mecfsmast, which is a single-centre retrospective registry, not a representative cohort. The co-occurrence clustering evidence is largely clinic-based, with ascertainment biases that favour patients severe enough to reach specialist care. The strengthened map presented here is hypothesis-grade: it provides a structured framework for clinical reasoning, not an externally validated diagnostic algorithm. No study has prospectively validated the cascade confirmation criterion or the MCAS-first sequencing advantage in a ME/CFS-specific population.
+]
+
 ===== Gap 1: Prevalence-Weighted Triage Tier
 <sec:septad-prevalence-priors>
 
@@ -642,6 +646,8 @@ The current map sequences MCAS treatment first. Prevalence data do not justify t
 
 Neither of these grounds depends on MCAS being the causal initiator — see Gap 4 for the causal question. MCAS-first means "treat this first because it amplifies everything else and responds to cheap, safe drugs," not "this caused everything else."
 
+_Cascade vs.\ common cause:_ The amplification-loop rationale for MCAS-first priority assumes a cascade structure (MCAS upstream → downstream components). However, a common-cause model — where a single upstream factor drives all Septad components simultaneously, without MCAS acting through the others — would produce observational patterns largely identical to a cascade at baseline. The two models are distinguished only by the sequential treatment trial design described in @hyp:mcas-ignition-node: if MCAS-first produces multi-component improvement while POTS-first and pain-first do not, the cascade structure is confirmed. Absent such data, MCAS-first is the defensible practical choice, but the cascade claim itself remains hypothesis-grade.
+
 ===== Gap 3: Operationalized Cascade Confirmation Criterion
 <sec:septad-confirmation-criterion>
 
@@ -650,10 +656,10 @@ The existing map states that "if upstream treatment produces disproportionate im
 #observation(title: [Cascade Confirmation Criterion — Expert Synthesis])[
 Upstream cascade treatment is provisionally confirmed when, within 4--8 weeks of initiating MCAS-targeted therapy (without concurrent treatment change for other Septad components), the patient demonstrates reduction in $gt.eq$2 of the following downstream domains:
 
-    - Orthostatic intolerance severity (COMPASS-31 score or standing heart rate)
-    - Pain burden (NRS or PEM frequency/severity)
-    - GI symptom burden (IBS-SSS or patient global assessment)
-    - Fatigue severity (any validated scale: MFI, FSS, or equivalent)
+    - Orthostatic intolerance severity (COMPASS-31 @Sletten2012compass31, a 31-item validated composite autonomic symptom score; or standing heart rate increment from NASA Lean Test)
+    - Pain burden (NRS 0--10 or PEM frequency/severity diary)
+    - GI symptom burden (IBS-SSS @Francis1997ibssss, validated 5-item severity scale; or patient global assessment)
+    - Fatigue severity (MFI-20 @Smets1995mfi20, FSS @Krupp1989fss, or equivalent validated scale)
 
 Absent multi-domain downstream improvement, the conditions should be treated as independent comorbidities, not cascade consequences. This criterion adapts the ECNM-AIM treatment response framework @Gulen2024mcascriteria @Lee2025CanadaMCAS to the Septad cascade context. It is an expert synthesis without direct validation in ME/CFS cohorts (Certainty: 0.40).
 
@@ -731,6 +737,43 @@ Apply the operationalized criterion in Section @sec:septad-confirmation-criterio
 
 *Step 5 — MCAS-triggered ME/CFS pathway (minority subset):*
 If MCAS onset demonstrably preceded ME/CFS onset AND PEM triggers overlap MCAS triggers: suspect MCAS-triggered ME/CFS phenotype (@hyp:mcas-mecfs-phenotype). Monitor for $gt.eq$50% core symptom improvement with MCAS treatment. Acknowledge the Rohrhofer 2025 temporal data: this pathway applies to at most ~3% of ME/CFS patients based on available evidence.
+
+#observation(title: [Quick-Reference: Strengthened Septad Assessment Checklist])[
+Condensed decision aid for clinical use. Full rationale in the sections above.
+
+#figure(
+  table(
+    columns: (auto, 2fr, 1.5fr, 1fr),
+    align: (left, left, left, left),
+    [*Step*], [*Action*], [*Tool / Test*], [*Time*],
+    [0 — Genetics (conditional)],
+      [TPSAB1 if: hEDS + severe MCAS/anaphylaxis \ KIT D816V if: tryptase $gt.eq$20 ng/mL baseline],
+      [Lab send-out], [As needed],
+    [1 — Triage],
+      [Ambiguous presentation? Screen hypermobility first, then POTS, then MCAS labs],
+      [Beighton score, NASA Lean Test, tryptase],
+      [$lt.eq$15 min],
+    [2 — Dominant pathway],
+      [Enter MCAS/HIT, hEDS, autonomic, post-infectious, or GI branch per Section @sec:septad-diagnostic-hierarchy],
+      [Clinical history],
+      [Consult],
+    [3 — MCAS treatment],
+      [Start H1+H2 antihistamines ± mast cell stabiliser; document baseline COMPASS-31 @Sletten2012compass31, IBS-SSS @Francis1997ibssss, fatigue scale @Smets1995mfi20],
+      [Standard MCAS protocol],
+      [Visit 1],
+    [4 — Cascade check (4--8 wk)],
+      [Repeat same scores. $gt.eq$2-of-4 domains improved? → cascade confirmed. Only MCAS symptoms improved? → treat remaining conditions independently],
+      [COMPASS-31, IBS-SSS, NRS/PEM diary, MFI-20 @Smets1995mfi20],
+      [4--8 wk],
+    [5 — MCAS-primary check],
+      [MCAS onset before ME/CFS onset + PEM triggers = MCAS triggers? → MCAS-triggered pathway. Otherwise: standard cascade model],
+      [Onset history timeline],
+      [$lt$3% of ME/CFS],
+  ),
+  kind: table, supplement: [Table],
+  caption: [Strengthened Septad diagnostic map — condensed clinical checklist. Not a validated algorithm; expert synthesis only (Certainty: 0.40). Full evidence in Sections @sec:septad-prevalence-priors through @sec:septad-genetics.],
+) <tab:septad-checklist>
+] <obs:septad-checklist>
 
 ==== Mechanistic Hypotheses Arising from the Strengthened Map
 <sec:septad-mechanistic-hypotheses>
