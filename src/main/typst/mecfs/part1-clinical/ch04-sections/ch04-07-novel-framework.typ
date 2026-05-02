@@ -34,10 +34,10 @@ The failure of single-target treatments in randomized controlled trials does not
 The Heng 2025 study @heng2025mecfs demonstrated that a 7-biomarker panel spanning three systems (energy, immune, vascular) achieved 91% diagnostic accuracy. This implies:
 
     - All three systems are coordinately dysfunctional (not independent)
-    - ME/CFS is not five separate diseases but one syndrome with five co-occurring mechanisms
+    - ME/CFS is not six separate diseases but one syndrome with six co-occurring mechanisms
     - Treatment must address multiple domains simultaneously
 
-*Logical consequence*: Tier 2 must assess all relevant biological domains and document which are present, rather than forcing patients into exclusive categories. The question is not “Is this autoimmune OR metabolic ME/CFS?” but “Which of the five domains show dysfunction in this patient?”
+*Logical consequence*: Tier 2 must assess all relevant biological domains and document which are present, rather than forcing patients into exclusive categories. The question is not “Is this autoimmune OR metabolic ME/CFS?” but “Which of the six domains show dysfunction in this patient?”
 
 *Observation 3: Treatment Response Depends on Rate-Limiting Steps, Not Just Presence of Pathology*
 
@@ -82,7 +82,7 @@ The progression from mild to severe appears *preventable in many cases* through 
 The three-tiered structure reflects three distinct clinical questions:
 
     - *Tier 1 (Syndrome)*: Does this patient have ME/CFS? (Yes/No based on universal clinical features)
-    - *Tier 2 (Biology)*: Which pathophysiological mechanisms are driving this patient's disease? (Multi-label classification across 5 domains)
+    - *Tier 2 (Biology)*: Which pathophysiological mechanisms are driving this patient's disease? (Multi-label classification across 6 domains)
     - *Tier 3 (Trajectory)*: How severe is the disease currently, and what is the risk of irreversible progression? (Severity + prospective risk)
 
 These cannot be collapsed:
@@ -228,13 +228,14 @@ Once Tier 1 criteria are met, patients should undergo comprehensive biological p
 Critical insight: ME/CFS patients typically have dysfunction in _multiple_ biological domains simultaneously. The Heng 2025 study demonstrated that a 7-biomarker panel spanning energy metabolism, immune function, and vascular endothelium achieved 91% diagnostic accuracy precisely because _all three systems show coordinated dysfunction_ @heng2025mecfs. This finding validates the multi-lock model (Chapter @ch:speculative-hypotheses): ME/CFS persists because multiple self-reinforcing pathophysiological processes operate concurrently.
 
 #hypothesis(title: [Multi-Domain Co-Occurrence Model])[
-ME/CFS should be understood as a syndrome with five co-occurring, mutually reinforcing biological domains. Most patients have abnormalities in $gt.eq$3 domains:
+ME/CFS should be understood as a syndrome with six co-occurring, mutually reinforcing biological domains. Most patients have abnormalities in $gt.eq$3 domains:
 
     - Autoimmune features: 30–60% (GPCR autoantibodies @Loebel2016 @Bynke2020)
     - Mitochondrial/metabolic dysfunction: 70–95% (ATP abnormalities @heng2025mecfs, lactate elevation @Lien2019lactate)
     - Neuroinflammation/central sensitization: 70–90% (central sensitization 84% @Nijs2021sensitization, sensory sensitivities 70–90% @Jason2013sensory)
     - Dysautonomia: 70–90% (POTS 25–50%, broader orthostatic intolerance 70–90% @Newton2007autonomicDysfunction)
     - Endothelial dysfunction: Prevalence unknown (Heng 2025 documented elevation in ME/CFS cohort @heng2025mecfs)
+    - Mast cell / histaminergic dysregulation: 16–25% meet MCAS features @Rohrhofer2025mecfsmast; associated with significantly higher orthostatic intolerance rates (89% vs.\ 72%, $p < 0.0001$)
 
 These domains are interdependent:
 
@@ -242,6 +243,7 @@ These domains are interdependent:
     - Mitochondrial dysfunction (ATP depletion) $arrow.r$ Neuroinflammation (danger signal release, ionic gradient failure)
     - Endotheliopathy (impaired vasodilation) $arrow.r$ Dysautonomia (orthostatic intolerance, cerebral hypoperfusion)
     - Neuroinflammation (cytokine production) $arrow.r$ Autoimmunity (B cell activation)
+    - Mast cell activation (histamine, VEGF, PGD#sub[2]) $arrow.r$ Dysautonomia (baroreceptor impairment at carotid bodies, preload failure via histamine-mediated vasodilation) and Neuroinflammation (VEGF-driven blood–brain barrier disruption) @Theoharides2024ANS
 
 Treatment targeting a single domain may fail because untreated domains maintain dysfunction. The multi-domain model predicts that:
 
@@ -365,6 +367,57 @@ Treatment targeting a single domain may fail because untreated domains maintain 
 
 *Prevalence:* Unknown (Heng 2025 documented elevation in ME/CFS cohort; prevalence in broader ME/CFS population requires validation)
 
+
+==== Domain 6: Mast Cell / Histaminergic Dysregulation
+<sec:domain6-mast-cell>
+
+*Assessment:*
+
+Mast cell activation syndrome (MCAS) is present in approximately 16–25% of ME/CFS patients @Rohrhofer2025mecfsmast and is strongly associated with orthostatic intolerance (89% vs.\ 72% without MCAS, $p < 0.0001$). Perivascular mast cells at carotid bodies, hypothalamic nuclei, and cardiac ganglia are anatomically positioned to act as upstream triggers for dysautonomia: corticotropin-releasing hormone (CRH) activates hypothalamic mast cells, triggering release of VEGF, tryptase, and neurotensin that disrupt the blood–brain barrier and impair baroreceptor reflex function @Theoharides2024ANS.
+
+Domain 6 requires $gt.eq$2 of the following:
+
+    - *Episodic multi-system symptoms*: Recurring episodes involving $gt.eq$2 organ systems (skin flushing/urticaria, gastrointestinal cramping/diarrhea, neurological brain fog/headache, cardiovascular palpitations/hypotension)
+    - *Elevated urinary mast cell mediators*: 24-hour urine N-methylhistamine $gt$1.29$times$ upper normal limit, or LTE#sub[4] $gt$1.36$times$ upper normal limit, or prostaglandin D#sub[2] metabolite elevated; collected during a symptomatic period @Lee2025CanadaMCAS
+    - *Reactive serum tryptase*: Acute draw within 4 hours of symptomatic episode showing $gt.eq$20% above individual baseline + 2 ng/mL per Valent 2021 criteria @Valent2021criteria (note: tryptase alone is insensitive — positive in only $tilde$9% of POTS-MCAS overlap patients @Kohno2021potsmast; urinary mediators preferred)
+    - *Clinical response to mast cell–directed therapy*: $gt.eq$30% improvement in validated symptom score (e.g., COMPASS-31) after 4-week empirical H1/H2 antihistamine trial @Conway2024BeyondMCAS
+
+*Exclusion (secondary MCAS):* Active IgE-mediated allergy with known allergen; systemic mastocytosis (if baseline tryptase persistently $gt$20 ng/mL, refer for bone marrow biopsy); hereditary alpha-tryptasemia (genetic test if baseline tryptase $gt$8 ng/mL).
+
+*If Present → Diagnosis:* "ME/CFS with Mast Cell / Histaminergic Dysregulation"
+
+#warning-env(title: [Domain 6 Evidence Limitations — No ME/CFS RCT Exists])[
+No randomised controlled trial of mast cell stabilisation has been conducted in ME/CFS. The Steinberg 1996 terfenadine RCT in CFS was negative @Steinberg1996. Treatment recommendations below are extrapolated from MCAS, POTS-MCAS, and hEDS-MCAS populations and should be considered empirical. The evidence base for Tiers 2–3 is very low quality (expert consensus and case series only). A Mayo Clinic retrospective study (JACI 2026) found that none of 110 adults with hEDS/POTS and suspected MCAS met established diagnostic criteria, with 95% having unconfirmed MCAS labels — cautioning against overdiagnosis.
+]
+
+*Treatment Implications:*
+
+    - *Tier 1 — First line (weeks 1–4)*:
+    
+        - Cetirizine 10 mg daily (H1 antihistamine; non-sedating)
+        - Famotidine 20 mg twice daily (H2 antihistamine)
+        - Low-histamine diet trial (4 weeks; eliminate fermented foods, aged cheeses, alcohol, long-cooked tomatoes)
+        - Trigger avoidance: heat, vigorous exercise, emotional stress, NSAIDs, opioids, specific foods
+    
+    - *Tier 2 — Mast cell stabilizers (weeks 4–8 if partial response)*:
+    
+        - Ketotifen 1–2 mg at bedtime (H1 antihistamine + mast cell stabilizer; first choice when sedation tolerable)
+        - Cromolyn sodium oral 100–200 mg four times daily before meals (GI-predominant symptoms; poorly absorbed, acts luminally)
+        - Quercetin 500 mg twice daily (natural mast cell stabilizer via HDAC inhibition of Fc$epsilon.alt$RI signaling) @Folkerts2020butyrate
+    
+    - *Tier 3 — Specialist referral (weeks 8+)*:
+    
+        - Omalizumab (anti-IgE monoclonal antibody): for IgE-driven component or refractory urticaria; specialist prescribing required
+        - Rule out systemic mastocytosis if tryptase persistently $gt$20 ng/mL
+        - Small fiber neuropathy workup if autonomic symptoms predominate (MCAS-SFN overlap documented in 80% of mast cell disorder patients @Novak2022)
+    
+
+*Drug interactions:* Ketotifen may increase the sedating effect of antihistamines, CNS depressants, and some antiemetics. Cromolyn has minimal systemic absorption and few interactions. Famotidine is generally well-tolerated but may interact with atazanavir and some antifungals.
+
+*ME/CFS-specific note:* Mast cell mediators exacerbate preload failure via histamine-mediated vasodilation @Wirth2023. Domain 6 patients with co-occurring dysautonomia (Domain 4) should receive both treatments concurrently — treating only one domain leaves the other as a perpetuating factor. Start dose titration from lowest effective dose given common sensitivity in ME/CFS patients (starting dose: cetirizine 5 mg; famotidine 20 mg once daily rather than twice).
+
+*Prevalence:* 16–25% of ME/CFS patients by two-cohort study @Rohrhofer2025mecfsmast (estimates range 10–50% depending on diagnostic criteria applied); significantly higher rates when POTS is comorbid @Yao2025MCASPOTStriad.
+
 ==== Hypothetical Phenotype Under Investigation: Viral-Immune-Metabolic Type
 <sec:vim-phenotype>
 
@@ -464,6 +517,7 @@ This phenotype cluster is based on clinical observation and mechanistic reasonin
     / *$checkmark$*: Neuroinflammatory component: Pressure pain thresholds 1.8 kg (ref $>$4.0); photophobia requiring indoor sunglasses; phonophobia limiting social interaction
     / *$checkmark$*: Dysautonomia: POTS confirmed on tilt table (supine HR 65 bpm $arrow.r$ standing HR 102 bpm at 8 minutes); HRV SDNN 18 ms (ref $>$50)
     / *$times$*: Endothelial dysfunction: Not assessed (markers unavailable)
+    / *$times$*: Mast cell / histaminergic dysregulation (Domain 6): Not assessed (episodic multi-system symptoms absent by history; empirical H1/H2 trial not yet performed)
 
 *Severity (Tier 3)*: Moderate (housebound 40% of time; can perform remote work 20 hours/week with careful pacing)
 
@@ -664,9 +718,17 @@ Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic
         - QSART or thermoregulatory sweat test (if available)
     
 
+    - *Mast Cell / Histaminergic Domain (Domain 6)*:
+    
+        - Clinical history: episodic multi-system symptoms ($gt.eq$2 organ systems)
+        - 24-hour urine N-methylhistamine + LTE#sub[4] + prostaglandin D#sub[2] metabolite (collect during symptomatic period; Mayo Clinic Labs) @Lee2025CanadaMCAS
+        - 4-week H1/H2 antihistamine empirical trial with validated symptom scoring (COMPASS-31) @Conway2024BeyondMCAS
+        - Serum tryptase (acute, within 4 hours of flare) only if above urinary panel negative
+    
+
     - *Comorbidity Screening* (Septad components):
     
-        - MCAS workup: serum tryptase, 24-hour urine methylhistamine, prostaglandin D#sub[2]
+        - MCAS workup (Domain 6): serum tryptase, 24-hour urine N-methylhistamine + LTE#sub[4] + prostaglandin D#sub[2] metabolite; urinary panel preferred over tryptase alone (higher sensitivity) @Lee2025CanadaMCAS — see Section @sec:domain6-mast-cell for full criteria
         - Hypermobility assessment: Beighton score
         - If hEDS + progressive neurological symptoms: upright MRI for craniocervical instability screening
         - Gastrointestinal: gastric emptying study, SIBO breath test (if prominent GI symptoms)
@@ -678,8 +740,7 @@ Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{2cm}p{2cm}p{2cm}}
+    columns: (auto, auto, auto, auto, auto),
   
   [*Domain*], [*Treatment Options*], [*Risk Level*], [*Access*], [*Priority*],
   
@@ -699,6 +760,9 @@ Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic
   
   
   [*Endothelial*], [L-citrulline, omega-3, aspirin], [Low], [High], [*THIRD* (experimental)],
+
+
+  [*Mast Cell*], [H1/H2 antihistamines, low-histamine diet, ketotifen, cromolyn], [Low], [High], [*SECOND* (if Domain 6 positive)],
   
   ),
   kind: table, supplement: [Table], caption: [Treatment prioritization by biological domain],
@@ -715,7 +779,7 @@ Around 2 years post-onset, ME/CFS transitions from early disease (hypermetabolic
 #limitation(title: [Novel Diagnostic Framework: Entirely Unvalidated])[
 This three-tiered diagnostic framework is a proposal, not an established or validated diagnostic system. Critical epistemic boundaries:
 
-    - No prospective study has tested whether the five biological domains (neuroinflammation, autoimmune, mitochondrial, dysautonomia, vascular-endothelial) are clinically separable, whether their presence predicts treatment response, or whether multi-domain assessment improves outcomes over existing diagnostic criteria.
+    - No prospective study has tested whether the six biological domains (neuroinflammation, autoimmune, mitochondrial, dysautonomia, vascular-endothelial, mast cell/histaminergic) are clinically separable, whether their presence predicts treatment response, or whether multi-domain assessment improves outcomes over existing diagnostic criteria.
     - The “rate-limiting domain” concept—that treatment response depends on which domain is the primary bottleneck—is a theoretical construct not yet supported by clinical data. The daratumumab responder/non-responder distinction is cited as supporting evidence, but the study was not designed to test this framework.
     - Biomarker thresholds for domain positivity have not been established, validated, or replicated. Existing studies use different assays, populations, and cut-points, making standardisation premature.
     - The framework's reliance on the Heng 2025 7-biomarker panel @heng2025mecfs as validation of multi-system coordination rests on a single study that has not been independently replicated.
@@ -744,7 +808,7 @@ This novel diagnostic framework generates testable predictions that should be va
 
     - *Hypothesis*: Treatment response to domain-specific interventions requires both (a) presence of dysfunction in that domain AND (b) that domain being rate-limiting (the bottleneck)
     
-        - *Test*: Measure all 5 domains → administer domain-specific treatment → identify responders vs. non-responders → retrospectively determine which baseline features predicted response
+        - *Test*: Measure all 6 domains → administer domain-specific treatment → identify responders vs. non-responders → retrospectively determine which baseline features predicted response
         - Example: Daratumumab trial measuring GPCR autoantibodies, lactate, HRV, QST, VWF at baseline, then analyzing which baseline profile predicts 60% responder group vs. 40% non-responder group
     
 
@@ -779,7 +843,7 @@ Table @tab:framework-comparison compares the novel biology-informed framework t
   [Duration], [6 months], [6 months], [6 months], [6 months (establishment threshold)],
   
   
-  [Biological phenotyping], [No], [No], [No], [Yes (5 domains)],
+  [Biological phenotyping], [No], [No], [No], [Yes (6 domains)],
   
   
   [Progression risk assessment], [No], [No], [No], [Yes (RED FLAGS)],

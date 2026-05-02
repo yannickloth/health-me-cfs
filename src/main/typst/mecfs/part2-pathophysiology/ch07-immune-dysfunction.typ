@@ -2271,7 +2271,7 @@ This mechanism is distinct from POTS caused by cardiac innervation damage or vol
 *Not yet replicated. Requires dedicated carotid body imaging and controlled mast cell stabilization trials.*
 ] <hyp:carotid-mast-oi>
 
-#speculation(title: [Hypothalamic Mast Cells as the Master Switch for Sickness-Behavior Persistence in ME/CFS])[
+#hypothesis(title: [Hypothalamic Mast Cells as the Master Switch for Sickness-Behavior Persistence in ME/CFS])[
 *(Certainty: 0.50 — mechanistic reasoning from neuroanatomy; no direct ME/CFS human evidence.)*
 
 The median eminence and paraventricular nucleus of the hypothalamus contain dense mast cell populations outside the blood-brain barrier, in direct contact with the portal circulation and CSF. CRH-driven activation at these sites produces local IL-6, TNF, and histamine that disrupt HPA axis rhythm, leptin signaling, and TRH release -- generating the fatigue, thermal dysregulation, weight changes, and anhedonia characteristic of ME/CFS sickness behavior @Theoharides2024ANS. This model may explain why peripheral immune markers in ME/CFS are inconsistently elevated and normalize over time while symptoms persist: if the critical mast cell activation is hypothalamic, standard blood draws underestimate actual immune activation.
@@ -2280,6 +2280,8 @@ The median eminence and paraventricular nucleus of the hypothalamus contain dens
 
     - CSF tryptase and tele-methylhistamine will be elevated in ME/CFS compared to healthy controls even when serum tryptase is normal
     - Intranasal cromolyn sodium (reaching the median eminence via nose-to-brain mucosal transport) will reduce sickness-behavior scores and HPA dysregulation markers within 4 weeks
+
+*Replication status:* Not yet replicated. Mechanism extrapolated from animal models and the Theoharides 2024 mechanistic review; no ME/CFS-specific human data.
 
 *Limitations:* No CSF mast cell mediator data exist for ME/CFS. Intranasal cromolyn delivery to the median eminence is pharmacokinetically plausible but unconfirmed in humans. Hypothalamic mast cell data come from animal models and the Theoharides 2024 review.
 ] <spec:hypothalamic-mast-switch>
@@ -2296,6 +2298,7 @@ SARS-CoV-2 spike protein can directly activate mast cells via MRGPRX2, a G-prote
     - Bromelain (MRGPRX2-modulating compound) will preferentially benefit Long COVID MCAS subgroup versus pre-pandemic ME/CFS MCAS subgroup
 
 *Limitations:* Primary mast cell MRGPRX2 quantification is technically demanding. Accessible skin biopsy mast cells may not reflect CNS or GI populations. No clinical data for MRGPRX2-targeted therapy in ME/CFS or Long COVID exist.
+] <spec:mrgprx2-long-covid-mast>
 
 #speculation(title: [Mast Cell Mitochondrial Transfer as a Bidirectional Domain 2-Domain 6 Bridge])[
 *(Certainty: 0.25 -- mechanistically novel; no ME/CFS-specific evidence; mast cell mitochondrial biology is an emerging field.)*
@@ -2322,8 +2325,6 @@ Dermatographism (wheal formation from minor skin pressure) is a classic MCAS sig
 
 *What needs to be established:* sensitivity and specificity of specific force thresholds against Valent 2021 MCAS criteria in an ME/CFS population; test-retest reliability; correlation with urinary N-methylhistamine and LTE#sub[4].
 ] <oq:dermatographism-screen>
-
-] <spec:mrgprx2-long-covid-mast>
 
 === Allergic Responses
 <sec:allergic-responses>
