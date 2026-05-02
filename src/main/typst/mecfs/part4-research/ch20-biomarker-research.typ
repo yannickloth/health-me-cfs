@@ -932,6 +932,23 @@ If the exosomal HSAT2 loop drives MDSC expansion in ME/CFS @spec:mdsc-nk-bridge,
 
 *Limitations:* No ME/CFS MDSC data exists; the hypothesis is entirely proxy-based. MDSC quantification is technically sensitive to sample handling, processing time, and gating strategy — the 4-hour processing window must be maintained and FMO controls included in every run. Whether ME/CFS MDSCs carry HSAT2 RNA (as in Evdokimova's Ewing sarcoma EVs) would need to be confirmed with PrimeFlow RNA assay or equivalent in-situ method. The iNOS-dependent suppression mechanism documented in SLE @Wang2019SLEMDSC may differ from the arginase/ROS mechanism reported in post-COVID contexts @BeliakovanBethell2022MDSCPostCOVID — ME/CFS suppression mechanism is entirely unknown. Replication status: not replicated (no ME/CFS data).
 ] <spec:mdsc-biomarker>
+
+#hypothesis(title: [EuroFlow-Standardised CD33+HLA-DR− MDSC Panel as a Clinical-Grade ME/CFS Biomarker])[
+
+*(Certainty: 0.55 — EuroFlow standardisation well-validated in oncology/haematology; ME/CFS-specific MDSC data absent; biomarker readiness contingent on first-in-ME/CFS measurement.)*
+
+The EuroFlow Consortium published a validated 11-color and 14-color innate myeloid cell panel (Salminen et al., Frontiers in Immunology 2022) with established inter-centre coefficients of variation $lt.eq 15%$, age- and sex-stratified reference ranges from 116 healthy donors, a 4-hour processing window from venipuncture, and compatibility with both EDTA and heparin. The CD33+HLA-DR^− MDSC gate within this panel is the same gate documented to be elevated in post-COVID patients at 5 months @BeliakovanBethell2022MDSCPostCOVID and in cancer @Veglia2021MDSCDiversity. The standardisation represents a solved technical problem — the remaining gap is the ME/CFS-specific measurement.
+
+Once MDSC frequency is measured in a first ME/CFS cohort using the EuroFlow protocol, it can immediately be compared against: (a) the healthy donor reference ranges from the EuroFlow study itself; (b) the post-COVID MDSC data @BeliakovanBethell2022MDSCPostCOVID; (c) any concurrently measured NK cytotoxicity and plasma arginase-1 (functional validation). This makes the EuroFlow panel the highest-priority single-experiment gap closure in the HSAT2 biomarker pipeline — low additional methodological development required because the protocol is already validated.
+
+The EuroFlow panel would serve three purposes: (1) establish whether MDSC elevation exists in ME/CFS; (2) stratify patients into MDSC-high and MDSC-low subgroups for targeted therapy trials; (3) serve as a pharmacodynamic endpoint for any MDSC-targeting intervention (tadalafil, citrulline, LDIL2).
+
+*Falsifiable prediction:* EuroFlow-standardised MDSC frequency in a ME/CFS cohort ($n gt.eq 50$) will show inter-lab coefficient of variation $lt.eq 15%$ across $gt.eq 2$ sites (clinical-grade precision confirmed). MDSC frequency will be elevated > 1.5× above the EuroFlow healthy donor reference range in $gt.eq 30%$ of ME/CFS patients; this subgroup will show inverse correlation with NK cytotoxicity (Spearman $rho < -0.4$). If MDSC frequency falls within the healthy reference range in ME/CFS, the MDSC-bridge model is not operative.
+
+*Limitations:* No ME/CFS MDSC data exists; this is the foundational measurement. PBMC density gradient preparation loses PMN-MDSCs; whole-blood processing is preferred for completeness. ME/CFS patients have variable blood draw tolerance; the 4-hour processing window may require bedside phlebotomy at specialist centres. Not replicated in ME/CFS (no data).
+
+] <hyp:euroflow-mdsc-mecfs>
+
 #open-question(title: [Does Plasma Exosomal HSAT2 Level Track Clinical State Longitudinally?])[
 
 
@@ -943,6 +960,32 @@ If trait marker: HSAT2 would be most useful for patient stratification and subgr
 
 Both scenarios are compatible with the exosomal loop model; the distinction has different implications for study design and clinical utility.
 ] <oq:hsat2-longitudinal>
+
+#open-question(title: [EuroFlow MDSC + EV HSAT2 Dual-Readout Cross-Sectional Study: Proposed Design])[
+
+The single highest-yield study to simultaneously validate the MDSC-bridge hypothesis and the EV HSAT2 biomarker is a dual-readout cross-sectional design. Proposed design: 100 ME/CFS (Canadian Consensus Criteria), 50 Long COVID (WHO 4-week definition with persistent fatigue and PEM), and 50 healthy matched controls. Primary measurements at a single blood draw: (1) EuroFlow-standardised CD33+HLA-DR^− MDSC frequency (EuroFlow Salminen 2022 protocol; see @hyp:euroflow-mdsc-mecfs); (2) plasma EV HSAT2 load by TRAP-ddPCR adapted from @Kishikawa2016HSATIIserum; (3) NK cytotoxicity (K562 target, CD107a degranulation assay, 4 h turnaround); (4) plasma arginase-1 activity (colorimetric assay). Secondary: HERV-K env RNA in plasma EVs (confirmatory); EuroFlow Treg frequency (to assess Treg:MDSC ratio).
+
+*What this study would establish:* (a) Whether MDSC elevation exists in ME/CFS (resolves the primary gap); (b) whether EV HSAT2 and MDSC co-cluster in a defined subgroup (proposed "HSAT2-high" subgroup, approximately 30% predicted); (c) how ME/CFS and Long COVID MDSC profiles compare (cross-condition prediction); (d) whether the four-marker panel (MDSC frequency, EV HSAT2, arginase-1, NK cytotoxicity) is clinically discriminatory. The study is achievable in a single-site haematology/immunology setting with a ME/CFS clinical cohort — no animal models, no CPET required.
+
+*Falsifiable prediction:* MDSC frequency and EV HSAT2 load will co-cluster in $gt.eq 30%$ of ME/CFS patients but $< 5%$ of healthy controls (defining the "HSAT2-high" subgroup). MDSC frequency in Long COVID with PEM phenotype will not differ significantly from ME/CFS (within $plus.minus 20%$), but both will exceed Long COVID without PEM.
+
+*Limitations:* EV HSAT2 TRAP-ddPCR from plasma is not commercially available; a research laboratory adapted from the Kishikawa serum cancer protocol is required. 200 participants is achievable for a well-networked ME/CFS research centre but requires a biobank or active recruitment with 4-hour sample processing. Long COVID case definition heterogeneity (WHO vs. NICE vs. national criteria) requires pre-specification. Not yet attempted.
+
+] <oq:hsat2-mdsc-cross-sectional>
+
+#open-question(title: [Within-Patient PEM Challenge with Serial EV HSAT2 Timecourse: Proposed Design])[
+
+The `spec:hsat2-pem-amplification` hypothesis predicts that plasma EV HSAT2 rises after exertion in ME/CFS and tracks PEM severity. A within-patient challenge design would directly test this. Proposed design: 20 mild-to-moderate ME/CFS patients (not severe or very severe — CPET is contraindicated in the latter); 2-day CPET (Day 1 and Day 2; the standard ME/CFS CPET paradigm); serial blood draws at 0 h (pre-CPET), 2 h (immediate post-CPET), 4 h, 24 h, 48 h, and 72 h. Each timepoint: TRAP-ddPCR for plasma EV HSAT2; EuroFlow MDSC frequency; NK cytotoxicity (if logistics permit). PEM symptom diary (DePaul Symptom Questionnaire) completed at each timepoint. Wearable HR monitor to document exertion intensity.
+
+This study resolves the state-vs-trait question @oq:hsat2-longitudinal and tests the PEM amplification hypothesis @spec:hsat2-pem-amplification with the direct molecular readout. It also provides the temporal pattern needed to optimise the fold-change diagnostic @spec:hsat2-cpet-fold-change (which timepoint is most discriminatory?).
+
+*Feasibility constraints:* CPET is contraindicated in severe/very-severe ME/CFS; recruitment must use validated severity stratification (FUNCAP or equivalent). The 6-return-visit protocol (0 h baseline + 5 post-CPET draws) requires patient transport management and possible home phlebotomy. A modified step-test (3-minute step-test at fixed HR percentage) could replace CPET for accessibility; however, the established 2-day CPET paradigm is more rigorous for standardisation.
+
+*Falsifiable prediction:* EV HSAT2 will rise $gt.eq 2$-fold above baseline at 24–48 h, peaking at or near the subjective PEM nadir (established at 24–48 h in most ME/CFS patients). MDSC frequency will rise at 48–72 h (downstream of the EV HSAT2 peak). If HSAT2 does not rise above baseline at any timepoint, the PEM-amplification model is not supported.
+
+*Limitations:* CPET causes harm in some ME/CFS patients even at sub-maximal intensity; stringent inclusion/exclusion criteria and post-CPET monitoring protocols are mandatory. Serial blood draws add logistical burden; EV HSAT2 TRAP-ddPCR requires immediate processing or validated freezing protocols (pre-analytical variable control). 20 patients provides limited statistical power; a 40-patient design would be preferred if feasibility permits. Not yet attempted.
+
+] <oq:hsat2-pem-challenge>
 
 #speculation(title: [Two-Marker Plasma Panel: EV HSAT2 + Arginase-1 Activity as Combined Diagnostic and Mechanistic Readout])[
 
@@ -988,3 +1031,19 @@ Senescent fibroblast burden also correlates with the SASP — the downstream inf
 
 *What would establish this:* A 4 mm skin biopsy study (20 ME/CFS, 20 age-matched controls) with p16^INK4a immunohistochemistry + SA-β-gal histochemistry + intracellular HSAT2 RNA-FISH. AUC ≥ 0.70 for p16+SA-β-gal+ fibroblast burden would support the stromal hypothesis. Co-localization of HSAT2-positive and p16+ cells in the same biopsy would provide the strongest evidence.
 ] <oq:skin-senescence-biopsy>
+
+#open-question(title: [Skin Biopsy CENPA/p53/Senescence Study: Proposed Protocol for Tissue-Level HSAT2 Validation])[
+
+The `spec:cenpa-senescence-stromal` hypothesis predicts that ME/CFS skin fibroblasts accumulate above a stochastic threshold of HSAT2 exposure and enter p53-dependent senescence @Jeffery2021CENPAp53. A formal 4 mm punch biopsy study would provide: (a) tissue-level confirmation of the blood-based EV HSAT2 hypothesis without requiring plasma HSAT2 measurement; (b) a histological endpoint measurable with standard laboratory staining available in any pathology department; (c) a readout distinct from blood-based immunophenotyping (MDSC flow, NK assay), enabling triangulation from a different compartment.
+
+*Proposed study design:* 20 ME/CFS patients (CCC 2003 criteria; mild-to-moderate severity) and 20 age-and-sex-matched healthy controls; single 4 mm punch biopsy from non-sun-exposed skin (inner upper arm); primary endpoints: (1) p16^INK4a immunohistochemistry (senescent fibroblast fraction); (2) SA-β-galactosidase histochemistry (confirmatory senescence marker); (3) RNA-FISH for intracellular HSAT2 (presence and per-cell burden). Secondary: CENPA immunofluorescence (localisation at centromeres vs. mis-localised foci); correlation of biopsy senescence score with concurrent plasma EV HSAT2 (if available from same visit).
+
+*The three-way co-localisation test:* the strongest evidence for the hypothesis would be fibroblasts that are (a) HSAT2 RNA-positive, (b) CENPA-mis-localised (non-centromeric foci), and (c) p16^INK4a-positive — all in the same cell. Single-cell co-localisation would provide the most direct support for the causal chain.
+
+*Feasibility:* 4 mm punch biopsy is a routine dermatological procedure (local anaesthetic; minimal scarring). p16 IHC and SA-β-gal are standard pathology assays. RNA-FISH for HSAT2 requires a research laboratory (not standard clinical pathology), but protocols exist adapted from cancer tissue studies. CENPA immunofluorescence on paraffin-fixed tissue requires validated antibodies (anti-CENPA rabbit monoclonal, e.g., Abcam ab13939). Total biopsy processing per participant: approximately 2–3 pathology working days.
+
+*Falsifiable prediction:* ME/CFS skin biopsies will show $gt.eq 2$-fold elevation in p16+SA-β-gal+ fibroblasts versus age-matched controls; HSAT2 RNA-positive fibroblasts will correlate with p16+ burden within the ME/CFS group (Spearman $rho > 0.5$). If senescence score is normal in ME/CFS fibroblasts, the CENPA→senescence stromal pathway is not operative in accessible tissue.
+
+*Limitations:* Skin biopsy may not reflect the tissue where the HSAT2 mechanism is most active (immune cells, muscle fibroblasts, or perivascular tissue). Senescent fibroblast accumulation increases with age independently of ME/CFS — age-matched controls are essential and a narrow age range ($plus.minus 5$ years) is preferred. CENPA FISH protocol for paraffin-embedded tissue requires optimisation. Not yet attempted in ME/CFS.
+
+] <oq:hsat2-skin-biopsy-protocol>

@@ -542,6 +542,18 @@ NAC reduces cellular reactive oxygen species through glutathione repletion. Oxid
 *Limitations:* No direct evidence linking NAC administration to reduced HSAT2 transcription exists anywhere in the literature. The proposed multi-step chain (NAC → glutathione → ROS reduction → p38MAPK → HSF1 suppression → reduced Sat2 binding → reduced HSAT2 transcription) is disconfirmed at the human exercise step. The SIRT1-SUV39H1 competing mechanism runs in the opposite direction. Oxidative stress alone is an insufficient HSAT2 inducer; heat-denaturation is the dominant arm. All HSF1-HSAT2 data are from cancer cell lines. Not replicated.
 ] <spec:nac-hsat2>
 
+#open-question(title: [Does NAC Reduce Exosomal HSAT2 in ME/CFS? A Direct Test of the Disconfirmed Human Exercise Chain])[
+
+Cluster C surfaces a critical disconfirmation: in a human crossover study, NAC infusion during cycling exercise blocked JNK phosphorylation but did *not* suppress HSP70 mRNA expression @Petersen2012NACexercise, indicating protein-denaturation rather than ROS dominates exercise-induced HSF1 activation. The current `spec:nac-hsat2` reflects this ambiguity. However, the disconfirmation used HSP70 as the readout — not HSAT2 specifically. HSP70 and HSAT2 are driven by overlapping but distinct HSF1 target programs; it remains possible that the ROS-p38MAPK-HSF1 arm is sufficient for HSAT2 induction even if insufficient for HSP70.
+
+A direct test would re-run the disconfirmation with the HSAT2-specific readout: NAC supplementation (1.8 g/day × 4 weeks) in ME/CFS patients, with plasma EV HSAT2 by TRAP-ddPCR as the primary endpoint rather than HSP70 mRNA. If NAC does not reduce EV HSAT2, the disconfirmation holds and NAC should not be framed as an HSAT2-targeted intervention. If NAC reduces EV HSAT2 despite the HSP70 disconfirmation, the ROS arm may specifically feed HSAT2 but not HSP70. If HSAT2 rises after NAC (SIRT1-SUV39H1 competing direction), NAC would be contraindicated for HSAT2-high patients.
+
+*What would establish this:* Open-label crossover (NAC × 4 weeks, washout, placebo × 4 weeks) in 20 ME/CFS patients with baseline HSAT2-high status; primary endpoint EV HSAT2 by TRAP-ddPCR; secondary endpoints plasma 8-OHdG, NK cytotoxicity. The HSAT2-specific readout resolves the ambiguity left by the HSP70-based disconfirmation.
+
+*Limitations:* No published protocol uses HSAT2 as a NAC outcome. TRAP-ddPCR for plasma EV HSAT2 requires a research laboratory adapted from the Kishikawa serum method. The test would settle whether `spec:nac-hsat2` should be upgraded or downgraded; current certainty (0.25) is near floor.
+
+] <oq:nac-hsat2-direct-test>
+
 #speculation(title: [Nicotinamide Riboside (NR) or NMN as SIRT1/SUV39H1-Mediated HSAT2 Silencing Support])[
 
 
@@ -569,6 +581,54 @@ If MDSC-driven arginase-1 depletes L-arginine in ME/CFS, citrulline supplementat
 
 *Limitations:* No plasma arginine or arginase-1 data in ME/CFS. L-citrulline has a good safety profile (OTC in Belgium/EU, approximately €15–25/month); no ME/CFS trial data exist. The iNOS route of MDSC suppression (documented in SLE @Wang2019SLEMDSC) depletes arginine via a different enzyme; the dominant pathway in ME/CFS is unknown. Not replicated.
 ] <spec:citrulline-nk-mdsc>
+
+#speculation(title: [Sulforaphane as Nrf2/KDM6A Modulator — Upstream Oxidative-Stress Mitigation for the HSAT2 Loop])[
+
+#practical-warning(title: [Research-Stage Only])[No ME/CFS clinical data. Mechanism is indirect and multi-step. Do not present as treatment guidance.]
+
+*(Certainty: 0.20 — Nrf2 activation by sulforaphane is well-established; its effect on HSAT2 specifically is indirect and untested.)*
+
+Sulforaphane, an isothiocyanate abundant in broccoli sprouts, activates the Nrf2 transcription factor (by alkylating KEAP1 cysteine residues), upregulating a battery of antioxidant response element (ARE)-driven genes including glutathione synthesis, thioredoxin reductase, and heme oxygenase-1. The rationale for HSAT2 relevance is indirect: if oxidative stress contributes to the ROS-p38MAPK-HSF1 arm of HSAT2 derepression @Vourc_h2022HSF1SatIII, then Nrf2-mediated oxidative stress reduction could partially attenuate HSF1-driven HSAT2 transcription. Additionally, sulforaphane has been reported to modulate histone demethylases including KDM6A (UTX), which removes H3K27me3 — a mark that interacts with the H3K9me3 pericentromeric silencing program, though this link to HSAT2 specifically is speculative.
+
+The critical caveat from the NAC disconfirmation applies here: if HSAT2 transcription during ME/CFS exertional stress is driven primarily by protein-denaturation (HSF1 activation by unfolded proteins, not ROS), then sulforaphane's Nrf2-ROS axis would address the wrong arm @spec:nac-hsat2. Sulforaphane would be predicted to reduce 8-OHdG (oxidative stress marker) but show only modest effects on EV HSAT2.
+
+#practical-warning(title: [Safety Note])[Sulforaphane (from broccoli sprouts or supplements) is generally well-tolerated at food amounts. Supplemental sulforaphane standardisation varies; high-dose or concentrated extracts have not been studied for safety in ME/CFS. This intervention is not recommended without clinician oversight.]
+
+*Falsifiable prediction:* Sulforaphane 30 mg/day × 8 weeks will reduce plasma 8-OHdG by $gt.eq 25%$ but produce only a modest ($< 15%$) reduction in EV HSAT2, consistent with Nrf2 acting on the ROS arm only. Absence of any HSAT2 change would confirm ROS is not a significant HSAT2 driver in ME/CFS. A larger-than-expected HSAT2 reduction would support the KDM6A-H3K27me3 route.
+
+*Limitations:* All sulforaphane-histone demethylase data are from cancer cell lines; no primary human immune-cell data. Nrf2 activation upregulates HO-1, which can modulate immune suppression by independent mechanisms — any NK or MDSC changes attributed to sulforaphane would require careful attribution. Sulforaphane bioavailability from broccoli sprout preparations varies ~10-fold. Not replicated in ME/CFS or any chronic viral setting.
+
+] <spec:sulforaphane-hsat2>
+
+#open-question(title: [Does Spermidine Potentiate NAD+-Axis Support for Pericentromeric Silencing?])[
+
+Spermidine, a natural polyamine found in aged cheese, wheat germ, and mushrooms (also available as OTC supplement ~1 mg/day), induces autophagy via TFEB and mTOR-independent pathways and has been associated with heterochromatin maintenance in aging model organisms. In the context of the HSAT2 silencing axis: spermidine-induced autophagy could clear aberrant protein aggregates that might otherwise activate the unfolded-protein arm of HSF1; additionally, polyamine synthesis consumes SAMe (the methyl donor), potentially reducing the methyl-donor pool available for pericentromeric CpG methylation — the opposite of the intended effect @spec:methyl-donor-hsat2.
+
+The net effect of spermidine on HSAT2 silencing in ME/CFS is therefore ambiguous as a stand-alone intervention. The question is whether spermidine's autophagy-mediated heterochromatin maintenance complements NR/NAD+-axis support (idea 6.1) without competing with the methyl-donor pathway.
+
+*Falsifiable prediction:* Spermidine 1 mg/day × 12 weeks will not measurably change EV HSAT2 as a stand-alone intervention. In combination with NR 1 g/day, the combined EV HSAT2 reduction will exceed the NR-alone effect (synergy test in a 2×2 factorial design).
+
+*Limitations:* No spermidine-HSAT2 or spermidine-heterochromatin data in human immune cells. The SAMe-consumption concern is theoretical; at 1 mg/day supplemental spermidine, the drain on methyl donors is likely negligible. OTC cost in Belgium: approximately €15–30/month; readily available. Not replicated. Certainty: 0.18.
+
+] <oq:spermidine-hsat2>
+
+#speculation(title: [Zinc and Vitamin D as an NK-Supportive Nutrient Floor in MDSC-Suppressed ME/CFS])[
+
+#practical-warning(title: [Deficiency Correction Only])[This rationale applies specifically to patients with documented zinc deficiency or 25-OH-D < 30 ng/mL. Supplementation beyond correction of confirmed deficiency has no specific HSAT2 rationale and may cause harm (zinc toxicity at > 40 mg/day; vitamin D toxicity at chronic > 10,000 IU/day).]
+
+*(Certainty: 0.25 — deficiency-correction rationale; no ME/CFS-specific NK floor data.)*
+
+Both zinc and vitamin D are required for functional NK cytotoxic granule formation and degranulation. Zinc is an essential cofactor for multiple metalloproteases in the cytotoxic machinery; zinc deficiency impairs perforin/granzyme B secretion. Vitamin D (as 1,25-dihydroxycholecalciferol) directly regulates NK cell differentiation, maturation, and cytotoxic gene expression via the vitamin D receptor (VDR). In ME/CFS patients with documented NK cytotoxicity deficits @Baraniuk2024NKMeta, co-existing zinc deficiency or vitamin D insufficiency would compound the MDSC-mediated arginine depletion mechanism @spec:citrulline-nk-mdsc — two independent suppressors acting on the same NK function.
+
+The rationale is strictly a "substrate floor" argument: zinc and vitamin D do not address the MDSC-arginine mechanism or the upstream HSAT2 loop, but their deficiency would guarantee NK under-performance regardless of any other intervention. Ensuring adequate status is a necessary precondition for any NK-targeted treatment trial.
+
+Screening is straightforward: serum zinc (reference: $gt.eq 70 mu g "/" d L$), plasma 25-OH-D (target 40–60 ng/mL for immune function; higher targets are contested). Housebound ME/CFS patients have limited sun exposure and high risk of vitamin D insufficiency; zinc deficiency is common with reduced dietary variety. Supplementation to correct confirmed deficiency is low-risk and low-cost (zinc gluconate 15–30 mg/day; vitamin D3 1,000–5,000 IU/day depending on baseline).
+
+*Falsifiable prediction:* In ME/CFS patients with 25-OH-D < 30 ng/mL, normalising to 40–60 ng/mL over 12 weeks will increase NK CD107a degranulation (ex vivo K562 assay) by $gt.eq 10%$. Patients with baseline 25-OH-D > 40 ng/mL will show no NK response to further supplementation.
+
+*Limitations:* Deficiency correction and targeted supplementation have different evidence bases. Vitamin D RCT evidence for ME/CFS is absent. The NK cytotoxicity benefit of vitamin D in non-deficient individuals is not established. Zinc correction is more commonly studied in elderly populations; ME/CFS-specific data are absent. This is a precautionary baseline intervention, not a disease-modifying strategy. Not replicated.
+
+] <spec:zinc-vitd-nk-floor>
 
 === Alpha-Lipoic Acid (ALA)
 
@@ -648,7 +708,7 @@ Category B (energy-neutral). Flavonoid with mast cell-stabilizing properties pro
 
 === Luteolin-Quercetin-PEA Combination for Domain 6 (Mast Cell) ME/CFS Subset
 
-#speculation(title: [Luteolin-Quercetin-PEA Stack with Enhanced Delivery for Domain 6-Positive ME/CFS])[
+#hypothesis(title: [Luteolin-Quercetin-PEA Stack with Enhanced Delivery for Domain 6-Positive ME/CFS])[
 *(Certainty: 0.45 -- supported by component-level mast cell stabilization evidence; combination and delivery-form effects untested in ME/CFS.)*
 
 For ME/CFS patients with confirmed Domain 6 (mast cell / histaminergic dysregulation), a three-component natural mast cell stabilization stack may address the bioavailability limitations that have historically limited quercetin monotherapy ($lt$2% oral bioavailability in standard form).
@@ -834,6 +894,59 @@ This provides a second, epigenetically-grounded rationale for B12/folate supplem
 
 *Mechanistic caveat:* Pericentromeric heterochromatin silencing is primarily mediated by histone H3K9 trimethylation (via SUV39H1/2 and SETDB1), not solely by DNA CpG methylation. DNA methylation is a secondary stabilizer of silencing that acts downstream of H3K9me3 establishment. Targeted H3K9me3 restoration (via SUV39H1/SETDB1 modulators) would be a more mechanistically aligned strategy, but no clinical-stage candidates exist.
 ] <spec:methyl-donor-hsat2>
+
+=== HSAT2-Axis Combination Hypotheses
+
+#practical-warning(title: [Research-Stage: Combination Hypotheses Only])[No clinical trial data exist for any of these combinations in ME/CFS. Do not present these as treatment protocols. Each component's individual safety profile must be assessed before any combination trial.]
+
+#speculation(title: [SIRT1-Axis Combination: NR + Spermidine + Pacing as Multi-Modal Upstream HSAT2 Silencing Support])[
+
+*(Certainty: 0.22 — individual components have partial mechanistic support @spec:nr-nmn-hsat2 @oq:spermidine-hsat2 @spec:hsat2-pem-amplification; combination synergy untested.)*
+
+The SIRT1/NAD+-axis hypothesis @spec:sirt1-hsat2-upstream proposes that NAD+ depletion leads to SIRT1 inactivation → SUV39H1 instability → H3K9me3 loss → HSAT2 derepression. Three interventions address distinct nodes of this axis: (1) NR/NMN restores the NAD+ substrate for SIRT1 @spec:nr-nmn-hsat2; (2) spermidine supports autophagy and heterochromatin maintenance @oq:spermidine-hsat2; (3) strict pacing prevents the exertional HSF1-HSAT2 induction events that would overwhelm any epigenetic silencing support @spec:hsat2-pem-amplification. Each alone is predicted to produce modest effects; together they address different points of failure in the silencing maintenance chain.
+
+The combination is mechanistically non-redundant: NR addresses substrate supply; spermidine addresses proteostasis and chromatin maintenance capacity; pacing addresses the epigenetic insult rate. Synergy between NR and spermidine for heterochromatin maintenance has been proposed (but not demonstrated) in aging biology. Pacing provides the "reduction in demand" that makes any restoration effort more effective.
+
+*Access (Belgium/EU):* NR (Niagen, Tru Niagen): OTC supplement, approximately €60–80/month. Spermidine: OTC supplement, approximately €15–30/month. Pacing: requires only a heart-rate monitor (~€60 one-time) and patient education. Total running cost approximately €75–110/month. No INAMI/RIZIV reimbursement for any component.
+
+*Falsifiable prediction:* NR + spermidine + pacing × 12 weeks will reduce plasma EV HSAT2 by $gt.eq 30%$; either NR alone or spermidine alone will reduce EV HSAT2 by $lt.eq 15%$ (synergy test). Pacing alone will reduce the rate of EV HSAT2 fluctuation but not the baseline level.
+
+*Limitations:* No combination trial data. The synergy assumption is biological plausibility only. Spermidine-SAMe competition could blunt methyl-donor support if co-administered with `spec:methyl-donor-hsat2`. The combination addresses epigenetic silencing upstream but does not directly target MDSC expansion or NK cytotoxicity. Not replicated.
+
+] <spec:hsat2-sirt1-combo>
+
+#speculation(title: [Arginase-Targeting Combination: Tadalafil + L-Citrulline as a Bidirectional NK-Restoration Strategy])[
+
+*(Certainty: 0.28 — each component has separate mechanistic support @spec:tadalafil-mdsc-nk @spec:citrulline-nk-mdsc; bidirectional combination untested in any context.)*
+
+The MDSC→NK suppression arm of the HSAT2 loop operates through arginase-1-mediated L-arginine depletion @Goh2016HCVMDSCArginase. Two interventions address this at different points: tadalafil (PDE5 inhibitor) depletes MDSC arginase-1 expression and promotes MDSC differentiation into mature myeloid cells @spec:tadalafil-mdsc-nk; L-citrulline replenishes the substrate arginine pool that MDSC arginase-1 has depleted @spec:citrulline-nk-mdsc. The combination targets both the enzyme and the substrate simultaneously — a mechanistically complementary pairing.
+
+Neither intervention alone is predicted to produce $> 15%$ NK cytotoxicity improvement (one addresses supply, the other demand); together they should produce $gt.eq 30%$ improvement (the combination prediction is based on independence of mechanisms, not synergy in the strict pharmacological sense).
+
+*Access (Belgium/EU):* Tadalafil 5 mg generic: approximately €20–40/month off-label (not reimbursed by INAMI/RIZIV for ME/CFS; requires GP/specialist willing to prescribe off-label — confirm this is acceptable and document informed consent). L-citrulline: OTC supplement, approximately €15–25/month. Total approximately €35–65/month.
+
+*Falsifiable prediction:* Tadalafil 5 mg/day + L-citrulline 6 g/day × 8 weeks will increase NK cytotoxicity (CD107a flow, K562 target) by $gt.eq 30%$ and reduce plasma arginase-1 activity by $gt.eq 25%$; either alone will produce $lt.eq 15%$ NK improvement.
+
+*Limitations:* Tadalafil is off-label in ME/CFS. Hypotension risk is relevant in POTS/OI patients; blood pressure monitoring required. MDSC data in ME/CFS are absent — the combination assumes the arginase-1 mechanism is operative. L-citrulline alone at 6 g/day may cause mild GI symptoms (dose-titration recommended). Not replicated in ME/CFS or any chronic post-viral setting.
+
+] <spec:hsat2-arginase-combo>
+
+#speculation(title: [MTHFR-Stratified Methyl-Donor Combination: SAMe + Folate in C677T-TT Genotype Only])[
+
+*(Certainty: 0.30 within the TT stratum — MTHFR C677T homozygous genotype is well-established as a risk factor for reduced H3K9me3 at pericentromeric loci @Zhu2014MTHFR; response stratification by genotype is biologically motivated but not yet demonstrated.)*
+
+The methyl-donor hypothesis @spec:methyl-donor-hsat2 is heterogeneous: patients with the MTHFR C677T homozygous TT genotype (approximately 10–15% of European populations, including Belgian) have approximately 30–70% reduced MTHFR enzyme activity, reduced plasma folate, and reduced SAMe/SAH ratio — the exact methylation-deficient state that @Zhu2014MTHFR showed leads to H3K9me3 loss at pericentromeric loci. For TT patients, targeted methyl-donor supplementation addresses a documented biochemical deficit that is directly in the predicted HSAT2 derepression pathway.
+
+CC and CT genotype patients do not have the same MTHFR-driven methylation deficit; methyl-donor supplementation in these patients would be addressing a non-existent gap and is not predicted to reduce EV HSAT2. Combining genotype stratification with the methyl-donor intervention therefore both improves the predicted effect size in responders and avoids unnecessary supplementation in non-responders.
+
+*The combination:* SAMe 400 mg/day (morning, fasted) + methylfolate 1 mg/day + methylcobalamin 1 mg/day (sublingual). MTHFR C677T genotyping is available commercially (approximately €80–150 private; not reimbursed by mutualité for ME/CFS indication in Belgium). SAMe and folate are OTC; B12 hydroxocobalamin is available IM via GP. Total running cost approximately €30–50/month after genotyping.
+
+*Falsifiable prediction:* In a MTHFR-stratified trial, TT-genotype ME/CFS patients will show $gt.eq 20%$ EV HSAT2 reduction at 12 weeks; CC-genotype patients will show $< 10%$ change. If TT patients do not respond, the MTHFR→methylation→H3K9me3→HSAT2 chain is not operative despite the genetic risk factor.
+
+*Limitations:* MTHFR genotyping is a practical barrier. SAMe oral bioavailability is approximately 5%; enteric-coated preparations improve this but quality varies. The Zhu 2014 data used extreme siRNA knockdown of MTHFR — partial genetic depletion (TT genotype) may not reach the threshold for H3K9me3 loss at pericentromeric loci. This rationale is additive to — not a replacement for — the neurological B12/folate rationale in ME/CFS. Not replicated.
+
+] <spec:hsat2-mthfr-combo>
+
 == Vitamin D
 <sec:vitamin-d>
 

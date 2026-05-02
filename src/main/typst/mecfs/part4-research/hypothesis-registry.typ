@@ -5136,3 +5136,139 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-lichen-sclerosus>
 ] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
+    [Two-Compartment MDSC×HSAT2-EV Bistable Model],
+    [S], [0.30],
+    [Bimodal onset trajectories in ME/CFS (abrupt vs slow); abrupt-onset patients show higher baseline EV HSAT2 and MDSC at first assessment vs unimodal continuous model.],
+    [Longitudinal cohort (n≥200); onset trajectory classification + baseline EV HSAT2 + EuroFlow MDSC at enrolment.],
+    [Ch.13 @spec:hsat2-mdsc-ode-model],
+
+    [Stochastic CENPA Mislocalization → Senescence Threshold in ME/CFS Fibroblasts],
+    [OQ], [---],
+    [RNA-FISH HSAT2 per-cell distribution is super-Poisson (over-dispersed); p16+ fibroblasts cluster in upper HSAT2 quintile.],
+    [Single-cell RNA-FISH for HSAT2 in ME/CFS skin biopsies + p16 IHC co-stain. n=20+20. Variance-to-mean ratio test.],
+    [Ch.13 @oq:hsat2-stochastic-cenpa],
+
+    [Hysteresis in HSAT2 Epigenetic State: Asymmetric NAD+ Dose-Response],
+    [S], [0.22],
+    [Single high-dose NR bolus will NOT reduce EV HSAT2 at 72h; same total dose as daily NR × 12 weeks WILL reduce EV HSAT2 ≥ 20% (asymmetric dose-response).],
+    [Crossover: acute NR bolus vs daily NR × 12 weeks in confirmed EV HSAT2-high ME/CFS. TRAP-ddPCR endpoints.],
+    [Ch.13 @spec:hsat2-bistability-hysteresis],
+
+    [CTCF ChIP-seq Across PEM: Testing CTCF-Insulator-Loss Route],
+    [OQ], [---],
+    [CTCF occupancy at HSAT2-flanking insulator sites drops ≥ 30% at 48h post-CPET vs baseline in PBMC.],
+    [PBMC CTCF ChIP-seq: baseline + 48h post-CPET in 10 ME/CFS patients. Pericentromeric target loci: Chr1q12 and Chr16q11.],
+    [Ch.13 @oq:ctcf-chipseq-pem],
+
+    [hEDS Stromal CENPA/Senescence Arm — Partial Overlap Question],
+    [OQ], [---],
+    [hEDS skin fibroblasts show elevated p16+ burden but NORMAL NK cytotoxicity and MDSC frequency (distinguishing from ME/CFS).],
+    [4-group biopsy study: ME/CFS, hEDS, ME/CFS+hEDS, controls. Senescence score + NK + MDSC from concurrent blood.],
+    [Ch.14d @oq:heds-stromal-hsat2],
+
+    [ME/CFS as Cancer Immune-Evasion Environment Without the Cancer],
+    [S], [0.30],
+    [ME/CFS MDSC transcriptomics cluster with chronic-viral MDSCs (HCV, post-COVID), not tumour-associated MDSCs.],
+    [ME/CFS PBMC bulk or scRNA-seq (MDSC gate); comparison to multi-disease MDSC reference atlas.],
+    [Ch.14d @spec:mecfs-cancer-immune-mirror],
+
+    [NAC + Exercise Study: Direct HSAT2 Readout],
+    [OQ], [---],
+    [NAC 1.8 g/day × 4 weeks will NOT change EV HSAT2 (consistent with human exercise disconfirmation), or will INCREASE it (SIRT1-SUV39H1 competing direction). EV HSAT2 is the specific readout missing from prior disconfirmation.],
+    [Crossover (NAC vs placebo × 4 weeks). TRAP-ddPCR EV HSAT2 + 8-OHdG + NK cytotoxicity. n=20 HSAT2-high ME/CFS.],
+    [Ch.16 @oq:nac-hsat2-direct-test],
+
+    [Sulforaphane: Nrf2/KDM6A HSAT2 Mitigation],
+    [S], [0.20],
+    [Sulforaphane 30 mg/day × 8 weeks reduces 8-OHdG ≥ 25% but EV HSAT2 < 15% (upstream Nrf2 alone insufficient).],
+    [OL pilot (n=20). Plasma 8-OHdG + EV HSAT2 TRAP-ddPCR at 0 and 8 weeks.],
+    [Ch.16 @spec:sulforaphane-hsat2],
+
+    [Spermidine + NR Synergy for Pericentromeric Silencing],
+    [OQ], [---],
+    [Spermidine alone will not change EV HSAT2; combination with NR 1 g/day will exceed NR-alone effect (synergy test in 2×2 factorial).],
+    [2×2 factorial: spermidine ± NR × 12 weeks. EV HSAT2 TRAP-ddPCR primary endpoint.],
+    [Ch.16 @oq:spermidine-hsat2],
+
+    [Zinc + Vitamin D as NK-Supportive Nutrient Floor (Deficiency Correction Only)],
+    [S], [0.25],
+    [In ME/CFS patients with 25-OH-D < 30 ng/mL, normalizing to 40–60 ng/mL raises NK CD107a degranulation ≥ 10%. No NK improvement in patients with baseline D > 40 ng/mL.],
+    [Stratified OL: deficient vs replete at baseline. NK CD107a flow before and after 12-week D3 correction.],
+    [Ch.16 @spec:zinc-vitd-nk-floor],
+
+    [SIRT1-Axis Combination: NR + Spermidine + Pacing],
+    [S], [0.22],
+    [NR + spermidine + pacing × 12 weeks reduces EV HSAT2 ≥ 30%; either alone ≤ 15%.],
+    [3-arm OL pilot + pacing-only arm (n=20/arm). EV HSAT2 TRAP-ddPCR at 0/12 weeks.],
+    [Ch.16 @spec:hsat2-sirt1-combo],
+
+    [Arginase-Targeting Combination: Tadalafil + L-Citrulline],
+    [S], [0.28],
+    [Tadalafil 5 mg + citrulline 6 g × 8 weeks raises NK cytotoxicity ≥ 30%; either alone ≤ 15%.],
+    [3-arm OL pilot (n=20/arm). NK CD107a + arginase-1 activity at 0/8 weeks.],
+    [Ch.16 @spec:hsat2-arginase-combo],
+
+    [MTHFR-Stratified SAMe + Folate Combination],
+    [S], [0.30],
+    [TT genotype: ≥ 20% EV HSAT2 reduction at 12 weeks; CC genotype: < 10% change.],
+    [Stratified OL: MTHFR C677T genotype-first enrolment. EV HSAT2 + SAMe/SAH ratio at 0/12 weeks.],
+    [Ch.16 @spec:hsat2-mthfr-combo],
+
+    [Strict Pacing as HSAT2 Amplification Prevention (Epigenetic Prophylaxis)],
+    [S], [0.35],
+    [HR-capped pacers (< 5% time above anaerobic threshold × 6 months) show lower rate of EV HSAT2 increase vs non-adherent controls matched for baseline severity.],
+    [Prospective 6-month cohort with wearable HR data + serial EV HSAT2 TRAP-ddPCR every 8 weeks.],
+    [Ch.17 @spec:pacing-hsat2-prophylaxis],
+
+    [Low-Dose IL-2 to Rebalance Treg/MDSC Suppressive Pressure],
+    [S], [0.20],
+    [LDIL2 1 MIU sc × 8 weeks raises Treg:M-MDSC ratio ≥ 50%, reduces arginase-1 ≥ 15%, increases NK cytotoxicity ≥ 15%.],
+    [Open-label IL-2 trial (specialist centre). EuroFlow MDSC + Treg + arginase-1 + NK at 0/8 weeks. Safety monitoring board required.],
+    [Ch.18 @spec:ldil2-treg-mdsc],
+
+    [Lamivudine + NR + Pacing Inflammaging Package],
+    [OQ], [0.20],
+    [24-week pilot reduces plasma IFN-α2 ≥ 30% AND EV HSAT2 ≥ 25% AND NK cytotoxicity + 15%.],
+    [Open-label pilot (n=20 HSAT2-high, lamivudine 150 mg + NR 1 g + pacing). Primary composite: IFN-α2 + EV HSAT2 + NK.],
+    [Ch.18 @oq:hsat2-inflammaging-package],
+
+    [EuroFlow CD33+HLA-DR− MDSC Panel as Clinical-Grade ME/CFS Biomarker],
+    [H], [0.55],
+    [EuroFlow inter-lab CV ≤ 15% in ≥ 2 ME/CFS sites; MDSC > 1.5× healthy reference in ≥ 30% ME/CFS patients; MDSC inversely correlates with NK cytotoxicity (ρ < −0.4).],
+    [Multi-site EuroFlow MDSC panel (Salminen 2022 protocol). n ≥ 50 ME/CFS + healthy reference comparison.],
+    [Ch.20 @hyp:euroflow-mdsc-mecfs],
+
+    [EuroFlow + EV HSAT2 Dual-Readout Cross-Sectional Study],
+    [OQ], [---],
+    [MDSC frequency and EV HSAT2 co-cluster in ≥ 30% of ME/CFS but < 5% of controls ("HSAT2-high" subgroup); Long COVID with PEM MDSC does not differ from ME/CFS (within ±20%).],
+    [100 ME/CFS + 50 Long COVID + 50 controls. Single blood draw: EuroFlow MDSC + TRAP-ddPCR EV HSAT2 + NK + arginase-1.],
+    [Ch.20 @oq:hsat2-mdsc-cross-sectional],
+
+    [Within-Patient PEM Challenge with Serial EV HSAT2 Timecourse],
+    [OQ], [---],
+    [EV HSAT2 rises ≥ 2-fold at 24–48h post-CPET; MDSC frequency rises at 48–72h.],
+    [2-day CPET in 20 mild-moderate ME/CFS. Serial blood at 0/2/4/24/48/72h. TRAP-ddPCR + EuroFlow MDSC + NK.],
+    [Ch.20 @oq:hsat2-pem-challenge],
+
+    [Skin Biopsy CENPA/p53/Senescence Study Protocol],
+    [OQ], [---],
+    [ME/CFS skin biopsies: ≥ 2-fold p16+SA-β-gal+ fibroblast burden vs age-matched controls; HSAT2 RNA-positive fibroblasts correlate with p16+ burden (ρ > 0.5).],
+    [4 mm punch biopsy (n=20+20). p16 IHC + SA-β-gal + HSAT2 RNA-FISH + CENPA IF. Three-way co-localization analysis.],
+    [Ch.20 @oq:hsat2-skin-biopsy-protocol],
+
+  ),
+  caption: [Entries added 2026-05-02: HSAT2 brainstorm Phase 4 completion — 20 new environments across ch13, ch14d, ch16, ch17, ch18, ch20. Includes 2 mathematical model speculations, 1 hypothesis (EuroFlow), 7 speculations, 10 open questions. Motivated by @DeCecco2019LINE1, @Vourc_h2022HSF1SatIII, @Jeffery2021CENPAp53, @BoschPresegue2011SIRT1SUV39H1, @Goh2016HCVMDSCArginase, @Veglia2021MDSCDiversity, @BeliakovanBethell2022MDSCPostCOVID, @EatonFitch2024ImmuneExhaustion, @Kishikawa2016HSATIIserum, @Zhu2014MTHFR.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-02-hsat2-phase4-completion>
+] // end landscape page

@@ -1862,6 +1862,18 @@ A plausible interaction: HSF1 nuclear stress bodies may locally evict CTCF from 
 *Limitations:* HSF1 nSB-induced CTCF eviction at HSAT2 loci has not been directly demonstrated in any cell type. The CTCF-loss mechanism was characterized in senescent fibroblasts, not immune cells or during acute stress. CTCF has thousands of binding sites genome-wide; the pericentromeric sites represent a small fraction. Replication: each route individually documented; their interaction at HSAT2 in any cell type is speculative.
 ] <spec:ctcf-hsat2-route>
 
+#open-question(title: [Can CTCF ChIP-seq Across PEM Directly Test the CTCF-Insulator-Loss Route to HSAT2 Derepression?])[
+
+The CTCF-loss route to HSAT2 derepression @spec:ctcf-hsat2-route predicts that, during post-exertional malaise, CTCF occupancy at HSAT2-flanking insulator sites in PBMCs is dynamically reduced. This prediction can be tested directly with a straightforward paired PBMC CTCF ChIP-seq design: collect blood from 10 ME/CFS patients at baseline and at 48 h post-CPET peak (when HSAT2 is predicted to be at its highest by @spec:hsat2-pem-amplification); perform CTCF ChIP-seq; compare occupancy specifically at Chr1q12 and Chr16q11 HSAT2-flanking insulator loci.
+
+*What would establish this:* CTCF occupancy loss of $gt.eq 30%$ at HSAT2-flanking sites at 48 h versus baseline, preceding measurable HSAT2 RNA accumulation at the same timepoint, would provide direct evidence for the CTCF-insulator route. Recovery of CTCF binding at 96 h (post-PEM resolution) would strengthen the dynamic causal inference. If CTCF occupancy is stable at all timepoints, the CTCF-loss route is not operative during PEM and the HSF1-nSB route @spec:ctcf-hsat2-route is more plausible as the primary trigger.
+
+*Feasibility note:* PBMC CTCF ChIP-seq is technically achievable from standard venipuncture volumes (5×10^6 cells per ChIP condition). The CPET protocol is already used in ME/CFS research with established safety monitoring. The primary challenge is patient recruitment (mild-to-moderate ME/CFS with capacity for sub-maximal CPET) and the 48 h return visit. This study would also test the PEM-timing prediction directly, making it dual-purpose.
+
+*Limitations:* CTCF has ~55,000 binding sites genome-wide; pericentromeric sites represent a small fraction; site-specific signal may be below ChIP sensitivity in primary immune cells. CTCF loss may be a consequence (not cause) of HSAT2 transcription in immune cells; directionality requires careful timing. Not yet attempted in any PEM context.
+
+] <oq:ctcf-chipseq-pem>
+
 #speculation(title: [EV-Delivered HSAT2 as a TLR3/RIG-I Ligand Triggering Type-I IFN in Recipient Stromal Fibroblasts])[
 
 
@@ -1889,6 +1901,50 @@ This predicts that ME/CFS connective tissue (skin, muscle, fascia) harbours an e
 
 *Limitations:* The Evdokimova preprint is unpublished in a peer-reviewed journal. Whether ME/CFS circulating EVs carry sufficient HSAT2 to drive CENPA to the 10-fold induction threshold is untested. Senescent fibroblasts accumulate with age independently of ME/CFS; age-matched controls are essential. Fibromyalgia and hEDS may show similar senescent fibroblast accumulation without the HSAT2 mechanism; specificity requires careful controls. Replication: Jeffery 2021 and Shrestha 2021 partially replicated in cancer lines only; Evdokimova single preprint.
 ] <spec:cenpa-senescence-stromal>
+
+#speculation(title: [Two-Compartment MDSC×HSAT2-EV Model: A Bistable Feedback Loop in ME/CFS])[
+
+*(Certainty: 0.30 — model structure plausible from documented causal links; parameter values unmeasured; bistability prediction untested.)*
+
+The relationship between HSAT2-laden EVs and MDSC expansion can be formalised as a two-compartment dynamical system. Let $M(t)$ denote MDSC pool size and $E(t)$ the plasma EV HSAT2 cargo load. The proposed causal links @spec:hsat2-exosome-mdsc @spec:hsat2-pem-amplification @spec:mdsc-nk-bridge suggest:
+
+$dot(M) = alpha dot.op E - beta dot.op M$ — MDSCs are produced at rate $alpha$ proportional to EV HSAT2 load and decay at rate $beta$; $dot(E) = gamma dot.op M dot.op S(t) - delta dot.op E$ — EVs are produced at rate $gamma$ by MDSCs under exertional stressor $S(t)$ and cleared at rate $delta$. Here $S(t)$ represents the pulse-train of exertional stress events.
+
+The product $alpha gamma$ governs positive-feedback gain. When $alpha gamma > beta delta$ (supercritical regime), the system has a positive steady state: the MDSC pool and EV cargo co-sustain each other independently of ongoing stressor input. This predicts bistability — a "locked-in" high-MDSC/high-EV state reachable by a sufficiently large stressor pulse, distinct from the healthy low-MDSC/low-EV equilibrium. In ME/CFS terms: a severe initial infection (large $S(t)$ impulse) could push the system across the separatrix into the supercritical basin, where it self-perpetuates. Smaller subsequent exertional events then re-amplify the EV pool within that basin @spec:hsat2-pem-amplification.
+
+This model makes a qualitative prediction distinguishing it from a continuous worsening model: severity should show a *threshold-like jump* at illness onset rather than a gradual slide, and recovery should require reducing the effective gain product $alpha gamma$ below $beta delta$ — not merely reducing acute stressor frequency. Interventions targeting MDSC clearance (tadalafil @spec:tadalafil-mdsc-nk) or EV biogenesis reduction (NR/SIRT1 axis @spec:nr-nmn-hsat2) would shift the system back toward the subcritical regime.
+
+*Falsifiable prediction:* Longitudinal cohort data will show a bimodal distribution of ME/CFS onset trajectories — abrupt-onset (bistability crossing) versus slow-onset (drift into supercritical regime) — with abrupt-onset patients showing higher baseline EV HSAT2 and MDSC frequency at first clinical assessment. Continuous severity models predict unimodal onset distributions; the bistability prediction is falsified by a unimodal onset distribution in a cohort of $n gt.eq 200$.
+
+*Limitations:* Parameters $alpha$, $beta$, $gamma$, $delta$ are entirely unmeasured in ME/CFS. The model ignores immune heterogeneity, cell-type specificity, and spatial compartmentalisation. Formal ODE fitting requires longitudinal MDSC + EV HSAT2 data; none exists. The model structure is a first-order linear approximation; nonlinear saturation terms will be needed for quantitative predictions. This description is a conceptual framing; the formal Part V ODE system is the appropriate location for parameter estimation and uncertainty quantification. Not replicated in any disease context.
+
+] <spec:hsat2-mdsc-ode-model>
+
+#open-question(title: [Does Stochastic CENPA Mislocalization Create a Threshold-Governed Senescence Transition in ME/CFS Fibroblasts?])[
+
+The CENPA → p53-dependent senescence chain @Jeffery2021CENPAp53 @spec:cenpa-senescence-stromal predicts that individual fibroblasts exposed to EV-delivered HSAT2 do not all senesce simultaneously. HSAT2 RNA burden per cell likely follows an over-dispersed distribution (super-Poisson), because EV uptake is stochastic: cells near capillaries take up more EVs; cells already partially senescent may have lower endocytic capacity. If CENPA mislocalization probability rises with per-cell HSAT2 burden, then p53-dependent senescence is triggered only above some threshold $tau$. The population-level senescent fibroblast fraction would then be $integral P(text("burden") > tau)$, rising non-linearly with mean EV exposure.
+
+This stochastic framing predicts: (a) high cell-to-cell variability in HSAT2 burden (over-dispersion), detectable by RNA-FISH; (b) senescent (p16+) cells clustering in the right tail of the HSAT2-per-cell distribution; (c) a non-linear dose-response between mean plasma EV HSAT2 and tissue senescence score.
+
+*What would establish this:* RNA-FISH for intracellular HSAT2 in ME/CFS skin biopsies with single-cell quantification, co-stained for p16^INK4a. If the HSAT2 distribution is super-Poisson (variance-to-mean ratio > 1) and p16+ cells are enriched in the upper HSAT2 quintile ($chi^2$ test), the stochastic threshold model is supported. A Poisson distribution would argue against stochastic EV uptake as the mechanism.
+
+*Limitations:* Single-cell RNA-FISH on skin biopsies is technically demanding and not yet standardised for HSAT2 in ME/CFS tissue. The threshold $tau$ is cell-type-specific and likely depends on p53 genotype, passage number, and local inflammatory milieu. Not explored in any chronic disease context.
+
+] <oq:hsat2-stochastic-cenpa>
+
+#speculation(title: [Hysteresis in the HSAT2 Epigenetic State: Why Restoring NAD+ May Not Re-Silence Immediately])[
+
+*(Certainty: 0.22 — bistability of chromatin states established in model systems; HSAT2 hysteresis in ME/CFS untested.)*
+
+Chromatin silencing at pericentromeric loci is not a simple on/off switch — it is maintained by a multi-layer epigenetic code (H3K9me3, DNA methylation, HP1$alpha$ binding, SUV39H1 activity) that exhibits hysteresis in bistable switching models. The SIRT1/NAD+-dependent SUV39H1 stabilisation chain @spec:sirt1-hsat2-upstream @BoschPresegue2011SIRT1SUV39H1 implies that SIRT1 must be continuously active to maintain SUV39H1 stability and thus H3K9me3 at HSAT2 loci. Once H3K9me3 is lost, re-establishing it requires not only active SUV39H1 but also a permissive chromatin context (absence of competing acetyl marks, intact HP1$alpha$ recruitment). Re-silencing may therefore require substantially more NAD+ than was lost — a hysteresis loop.
+
+The clinical implication is that acute NAD+ restoration (single high dose) would be insufficient to re-silence HSAT2; sustained NAD+ elevation over weeks would be needed to cross the re-silencing threshold. This predicts an asymmetric dose-response: loss of silencing occurs over days (during NAD+ depletion/stress), while restoration requires sustained intervention over weeks to months.
+
+*Falsifiable prediction:* In an ME/CFS cohort with confirmed elevated EV HSAT2, a single high-dose NR infusion (equivalent to acute bolus) will not reduce EV HSAT2 at 72 h; the same total dose given as daily oral NR × 12 weeks will reduce EV HSAT2 by $gt.eq 20%$. The absence of an acute response despite equivalent total NAD+ dose is the hysteresis signature. If the acute dose is equally effective, simple dose-dependence (not hysteresis) is the mechanism.
+
+*Limitations:* Chromatin bistability models are established in yeast and Drosophila; human pericentromeric loci may not follow the same bistable switching dynamics. The predicted asymmetry has not been tested for any satellite repeat in any chronic disease. Confounders in NAD+ bolus experiments (pharmacokinetics, tissue distribution, CD38-mediated consumption) would need careful control. Not replicated.
+
+] <spec:hsat2-bistability-hysteresis>
 
 #hypothesis(title: [Sub-Clinical Fibrosis as a Chronicity and Irreversibility Mechanism in Long-Duration ME/CFS])[
 

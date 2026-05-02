@@ -498,6 +498,22 @@ If the HSAT2 exosomal loop is operative in ME/CFS @spec:hsat2-exosome-mdsc, NRTI
 ]
 ] <oq:nrti-hsat2>
 
+#open-question(title: [Could a Lamivudine + NR + Pacing "Inflammaging Package" Simultaneously Target HERV-K/LINE-1, NAD+ Depletion, and Epigenetic Amplification?])[
+
+#practical-warning(title: [Research-Stage Only — Access Barriers])[Lamivudine is licensed for HIV and chronic hepatitis B in Belgium/EU; off-label use for ME/CFS is not reimbursed and requires a physician willing to prescribe it. Access is practically unavailable to most patients (~€30/month generic; INAMI/RIZIV reimburses only for licensed indications). NR is OTC (~€60–80/month). This combination has not been tested in ME/CFS or any chronic fatigue condition.]
+
+The three core targets of the HSAT2 inflammaging model — HERV-K/LINE-1 retrotransposon activation, NAD+/SIRT1-axis failure, and cumulative PEM-driven HSAT2 amplification — map onto three available interventions: lamivudine (NRTI, suppresses HERV-K RT activity and LINE-1/cGAS-STING @oq:nrti-hsat2 @DeCecco2019LINE1); NR (NAD+ precursor, restores SIRT1/SUV39H1-mediated H3K9me3 maintenance @spec:nr-nmn-hsat2); and strict pacing (prevents HSF1-mediated HSAT2 amplification per exertional event @spec:pacing-hsat2-prophylaxis). Each addresses a different failure mode; the combination is mechanistically non-redundant and collectively covers the three principal entry points for HSAT2 derepression.
+
+The combination is referred to as an "inflammaging package" because its three targets map onto the three features of the DeCecco 2019 inflammaging model applied to ME/CFS: retrotransposon derepression (lamivudine target), NAD+ depletion (NR target), and epigenetic insult accumulation (pacing target).
+
+*Mechanistic non-redundancy check:* Lamivudine acts on RT-dependent amplification (HERV-K, LINE-1 cDNA); NR acts on the SIRT1 deacetylase that maintains H3K9me3; pacing reduces the frequency of HSF1-triggering events. If any single mechanism dominates, single-agent intervention should be equally effective; if the gain product $alpha gamma$ in the MDSC×EV model requires all three failure modes simultaneously, the combination is superior @spec:hsat2-mdsc-ode-model.
+
+*Falsifiable prediction:* A 24-week open-label pilot (lamivudine 150 mg/day + NR 1 g/day + pacing protocol, n = 20, HSAT2-high by plasma EV assay) will reduce plasma IFN-α2 by $gt.eq 30%$ AND EV HSAT2 by $gt.eq 25%$ AND improve NK cytotoxicity by $gt.eq 15%$. Single-agent arms in a concurrent cohort will each achieve $< 15%$ improvement on the composite endpoint.
+
+*Limitations:* Lamivudine access in Belgium/EU for ME/CFS requires an off-label prescriber and patient self-funding — a practical barrier that limits generalizability. Combination pharmacodynamic interactions are unknown; concurrent NR and lamivudine metabolic interactions have not been studied. Pacing adherence measurement requires wearable data; poor adherence would confound the intervention arm. Not replicated in any disease context.
+
+] <oq:hsat2-inflammaging-package>
+
 #speculation(title: [Tadalafil (PDE5 Inhibitor) as MDSC Arginase-1 Depleter to Rescue NK Cytotoxicity])[
 
 
@@ -521,6 +537,28 @@ The question of whether checkpoint blockade could be repurposed in ME/CFS is a l
 
 *What would be needed:* Pre-clinical ME/CFS patient PBMC data showing PD-1 checkpoint blockade restores CD8+ and NK function ex vivo without producing inflammatory overshoot. Safety data from checkpoint blockade in any chronic non-malignant fatigue condition would be required before any clinical consideration.
 ] <oq:checkpoint-blockade-mecfs>
+
+#practical-warning(title: [Anti-PD-L1 / Checkpoint Blockade: Strictly Research-Stage — Not a Clinical Direction])[
+PD-1/PD-L1 checkpoint inhibitors (atezolizumab, durvalumab, pembrolizumab) cause severe or life-threatening immune-related adverse events (irAEs) in 20–60% of cancer patients (grade 3–4 in 20–35%). Documented irAEs include autoimmune pneumonitis, colitis, hepatitis, myocarditis, and severe endocrinopathies. In ME/CFS, where immune checkpoint signalling is already dysregulated @Iu2024CD8Exhaustion @EatonFitch2024ImmuneExhaustion and where MCAS, mast cell activation, and autoimmune comorbidities are common, the irAE risk profile is unpredictable and potentially worse than in cancer. No ME/CFS clinical trial of any checkpoint inhibitor is ongoing or planned as of 2026. These agents must not be used outside a prospective clinical trial with a full institutional review process and safety monitoring board. Certainty that benefit would outweigh harm: 0.10 — listed for mechanistic completeness only.
+]
+
+#speculation(title: [Low-Dose Interleukin-2 to Rebalance Treg/MDSC Suppressive Pressure in ME/CFS])[
+
+#practical-warning(title: [Specialist Supervision Mandatory])[IL-2 at any dose requires an immunologist or oncologist experienced with IL-2 administration. This is not a self-manageable or GP-prescribable intervention. The evidence base is from autoimmune diseases (TICO, TRANSREG, REMPLIC trials); no ME/CFS data exist.]
+
+*(Certainty: 0.20 — low-dose IL-2 Treg expansion well-documented in autoimmune trials; ME/CFS-specific application speculative; mechanism requires MDSC data that does not yet exist.)*
+
+In ME/CFS, the immunosuppressive milieu is proposed to involve two converging pressures: M-MDSC expansion suppressing NK and CD8+ T-cell function via arginase-1 and TGF-β @spec:hsat2-exosome-mdsc @BeliakovanBethell2022MDSCPostCOVID, and T-cell checkpoint upregulation limiting anti-viral and anti-tumour immunity @EatonFitch2024ImmuneExhaustion. Low-dose interleukin-2 (LDIL2) — at 1–3 MIU subcutaneous, far below the supra-pharmacological doses used in cancer — selectively expands Tregs without significant effector T-cell activation, as demonstrated across several autoimmune disease trials (type 1 diabetes, SLE, ANCA vasculitis). The hypothesis here is mechanistically different from its autoimmune rationale: in ME/CFS, the intent would not be to suppress autoreactive effector cells but to rebalance the Treg:MDSC ratio — shifting the suppressive tone from non-specific MDSC-driven suppression (which suppresses NK and CD8+ indiscriminately) toward Treg-mediated regulatory suppression (which is more targeted).
+
+Whether LDIL2 would increase or decrease MDSC activity in ME/CFS is the key uncertainty: in some autoimmune contexts LDIL2 reduces MDSC frequency (by improving the cytokine environment for MDSC differentiation), but in others it may not affect MDSCs. If MDSCs are the primary suppressive population in ME/CFS and Tregs are secondarily reduced, LDIL2 could improve immune regulation while simultaneously reducing non-specific suppression. If Tregs are already adequate, LDIL2 provides no benefit and carries regulatory cytokine risk.
+
+*Access (Belgium/EU):* LDIL2 (Proleukin, aldesleukin) is licensed for renal cell carcinoma and melanoma at high doses; low-dose off-label use has been used in autoimmune trials but is not commercially available in a low-dose formulation. Access in Belgium would require a hospital pharmacy preparation or compassionate use protocol — practically unavailable to most patients without an academic immunology centre willing to provide it.
+
+*Falsifiable prediction:* LDIL2 1 MIU sc on days 1–5 then weekly × 8 weeks in ME/CFS will increase the Treg:M-MDSC ratio by $gt.eq 50%$ (flow cytometry), reduce arginase-1 plasma activity by $gt.eq 15%$, and increase NK cytotoxicity by $gt.eq 15%$. If MDSCs are unchanged or increase, LDIL2 is not indicated in this context.
+
+*Limitations:* No ME/CFS LDIL2 data exist. The Treg:MDSC rebalancing hypothesis requires ME/CFS MDSC data that are currently absent. Regulatory IL-2 programs (TICA, TRANSREG trials) showed inconsistent Treg expansion across autoimmune conditions; ME/CFS is a different immune context. Risk of flu-like symptoms, injection site reactions, and potential PEM exacerbation from systemic cytokine administration must be included in any trial protocol. Not replicated.
+
+] <spec:ldil2-treg-mdsc>
 
 == Evaluating Emerging Therapies
 <sec:evaluating-therapies>
@@ -1699,7 +1737,7 @@ This combination has not been evaluated in any clinical trial for MCAS-ME/CFS ov
 == Ketotifen + Famotidine: First-Line Domain 6 Oral Combination
 <sec:ketotifen-famotidine-domain6>
 
-#speculation(title: [Ketotifen + Famotidine as a Targeted First-Line Combination for Domain 6-Positive ME/CFS])[
+#hypothesis(title: [Ketotifen + Famotidine as a Targeted First-Line Combination for Domain 6-Positive ME/CFS])[
 *(Certainty: 0.55 -- supported by high POTS/MCAS triad therapy response data; no ME/CFS-specific RCT for this combination.)*
 
 For ME/CFS patients with confirmed Domain 6 positivity (mast cell / histaminergic dysregulation, Section @sec:domain6-mast-cell), a low-cost oral combination of ketotifen and famotidine addresses complementary receptor targets with distinct pharmacological profiles and low interaction risk.
@@ -1720,6 +1758,8 @@ For ME/CFS patients with confirmed Domain 6 positivity (mast cell / histaminergi
 #warning-env(title: [No ME/CFS RCT for this Combination Exists])[
 No randomized controlled trial has evaluated ketotifen + famotidine in ME/CFS. The 77--95% PEM reduction rates reported by @Weinstock2024Ketotifen come from an uncontrolled retrospective analysis; placebo response, natural fluctuation, and selection bias cannot be excluded. The Steinberg 1996 terfenadine (H1 monotherapy) RCT was negative @Steinberg1996 -- H1 alone is insufficient. H1+H2 combination is the minimum effective approach based on mechanistic reasoning and available case evidence. Physician supervision is required.
 ]
+
+*Stopping criteria:* Discontinue ketotifen if sedation remains functionally impairing after 4 weeks despite dose reduction to 0.5 mg. Discontinue the combination if no symptom improvement (COMPASS-31 reduction < 15%) after 12 weeks at full dose. Discontinue immediately if paradoxical agitation, QTc-prolonging arrhythmia, or hypersensitivity reaction occurs. Do not discontinue abruptly in patients with suspected mast cell-dependent stability; taper ketotifen over 2 weeks if discontinuing after prolonged use.
 
 *Evidence grade:* D+ (clinical convention + retrospective case data + mechanistic rationale; no prospective controlled ME/CFS trial).
 ] <spec:ketotifen-famotidine-first-line>

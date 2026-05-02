@@ -80,6 +80,36 @@ This predicts a partial HSAT2-overlapping profile: fibromyalgia would show eleva
 *Limitations:* Zero HSAT2 or MDSC data in fibromyalgia. NK cytotoxicity in fibromyalgia is not consistently measured. Mechanistic reasoning is cross-condition extrapolation. Not replicated.
 ] <spec:fibromyalgia-hsat2-partial>
 
+#open-question(title: [Does the CENPA/Senescence Stromal Arm of the HSAT2 Loop Partially Operate in hEDS and Dysautonomia?])[
+
+Hypermobile Ehlers-Danlos syndrome is characterised by connective-tissue stromal involvement — fibroblasts and extracellular matrix remodelling are central to its phenotype. The proposed HSAT2→CENPA mislocalization→p53-dependent senescence chain in stromal fibroblasts @spec:cenpa-senescence-stromal predicts an elevated burden of senescent fibroblasts in any tissue where EV-delivered HSAT2 acts. If hEDS fibroblasts are constitutively abnormal (altered ECM gene expression, increased mechanical sensitivity), they may be more susceptible to EV-HSAT2-triggered CENPA induction and subsequent senescence.
+
+This does not make hEDS an HSAT2-driven disease; the primary connective tissue pathology in hEDS is independent of the HSAT2 loop. The question is whether the downstream stromal senescence arm partially co-activates in hEDS patients with comorbid ME/CFS — contributing to the connective tissue features seen in that overlap group — rather than being driven by the HSAT2 mechanism de novo.
+
+The distinction between a primary HSAT2-high ME/CFS patient and an hEDS patient who coincidentally experiences stromal senescence would be testable: ME/CFS patients should show elevated NK cytotoxicity deficits and MDSC expansion alongside the senescence score @spec:mdsc-biomarker, while hEDS patients without ME/CFS would show normal NK cytotoxicity and normal MDSC frequency despite any elevated senescent fibroblast burden.
+
+*What would establish this:* Skin biopsy senescence score (p16^INK4a+ fibroblast burden, SA-β-gal) in four groups: ME/CFS only, hEDS only, ME/CFS+hEDS, healthy controls — with concurrent NK cytotoxicity and MDSC quantification from blood. The ME/CFS-specific prediction is elevated senescence score AND elevated MDSCs AND depressed NK function; hEDS-only prediction is mildly elevated senescence score but normal NK and MDSC.
+
+*Limitations:* Zero skin biopsy or NK/MDSC data in hEDS without comorbid ME/CFS. hEDS fibroblast gene expression is abnormal at baseline; CENPA/senescence assays may need fibroblast-passage-standardised protocols. hEDS diagnostic criteria remain controversial regarding specificity @MECFSScience2024heds. Not explored in any hEDS or dysautonomia context. Certainty: 0.15.
+
+] <oq:heds-stromal-hsat2>
+
+#speculation(title: [ME/CFS as a "Cancer Immune-Evasion Environment Without the Cancer": MDSC-NK Suppression as a Shared Mechanism])[
+
+*(Certainty: 0.30 — MDSC-NK suppression mechanism cross-validated across cancer, chronic HCV, and post-COVID; ME/CFS MDSC data absent.)*
+
+The MDSC-mediated NK suppression machinery that enables cancer immune evasion is well-established @Veglia2021MDSCDiversity @Goh2016HCVMDSCArginase. In solid tumours, MDSCs expand from myeloid precursors in response to tumour-derived signals, create an immunosuppressive microenvironment, suppress NK and CD8+ cytotoxicity, and facilitate escape from immune surveillance. The entire suppressive apparatus — arginase-1 depletion of L-arginine, iNOS-derived reactive nitrogen, TGF-β, and IL-10 — is the same pathway proposed to operate in ME/CFS via EV-HSAT2-driven MDSC expansion @spec:hsat2-exosome-mdsc.
+
+The "inverse mirror" framing: in cancer, MDSCs protect a malignant population from immune clearance; in ME/CFS, MDSCs may be expanded by the same general myeloid-programming mechanism (EV-delivered danger signals) but in the absence of a tumour. The immunosuppressive milieu is reproduced by the HSAT2-EV cargo acting as a tumour-analogue signal rather than by the tumour itself. ME/CFS would represent a pathological state where the immune-evasion infrastructure is activated chronically without a survival benefit for any specific cell population — a self-sustaining immune suppression loop without an object.
+
+This analogy has a testable molecular prediction: if ME/CFS MDSCs are transcriptomically equivalent to cancer-associated MDSCs (tumour microenvironment-type), tadalafil and other MDSC-differentiating agents from oncology would be predicted to work @spec:tadalafil-mdsc-nk. If ME/CFS MDSCs cluster more closely with chronic-viral MDSCs (HCV, post-COVID type), the molecular targets may differ subtly. If they cluster with tumour-associated MDSCs despite post-viral context, EV-HSAT2 as a tumour-analogue signal is supported.
+
+*Falsifiable prediction:* ME/CFS PBMC bulk RNA-seq or single-cell RNA-seq (MDSC gate) will show a transcriptomic profile clustering with chronic-viral MDSCs (HCV, post-COVID) rather than tumour-associated MDSCs in a multi-disease reference atlas. If ME/CFS MDSCs cluster with tumour-associated MDSCs, the "cancer-analogue signal" hypothesis is strengthened.
+
+*Limitations:* No ME/CFS MDSC data exists; the cross-disease analogy is entirely proxy-based. MDSC transcriptomics vary substantially by tumour type and chronic virus species; the reference atlas itself may not contain an appropriate post-viral chronic disease comparator. Analogy is not equivalence — even if the transcriptomics cluster, downstream treatment implications require prospective testing. Not replicated in ME/CFS or any post-viral chronic fatigue condition.
+
+] <spec:mecfs-cancer-immune-mirror>
+
 #speculation(title: [Accelerated Biological Aging in ME/CFS as a Measurable Proxy for HSAT2 Inflammaging Burden])[
 
 
