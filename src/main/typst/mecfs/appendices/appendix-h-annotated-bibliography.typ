@@ -13029,3 +13029,120 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     / *Contradicting evidence:*: Insufficient and inconsistent evidence means ME/CFS autoimmune hypothesis remains unproven. This paper ALSO constrains the hypothesis: cannot claim LS is an ME/CFS autoimmune marker if ME/CFS autoimmunity itself is not established.
     / *Limitations:*: Only 10 publications reviewed; heterogeneous populations; different diagnostic criteria; no quantitative synthesis.
     / *Certainty:*: 0.55 (BMC Immunology peer-reviewed; systematic review but very few included studies; inconsistent findings are the result)
+
+// =============================================================================
+
+== MCAS--ISR Bidirectional Crosstalk
+<sec:bib-mcas-isr>
+// =============================================================================
+
+This section covers mechanistic and clinical literature on the intersection of mast cell biology (ER stress, UPR, degranulation) and the integrated stress response (ISR/eIF2alpha pathway). No direct MCAS--ISR crosstalk study exists as of 2026-05-02; the evidence base is composed of adjacent mechanistic studies. See integration guide: `content-staging/integration-guide-mcas-isr-2026-05-02.md`.
+
+=== Fan et al.\ 2024 --- ER Stress Drives Mast Cell Degranulation via XBP1--Syk; eIF2alpha Suppresses XBP1
+
+    @Fan2024ERStressMastCell
+
+    / *Full Citation:*: Fan J, Ma L, Xie B, Qiu S, Song S, Tang Z, Wu Y, Huangfu H, Feng Y, Luo X, Yang P. "Modulating endoplasmic reticulum stress attenuates mast cell degranulation." _International Immunopharmacology_. 2024;126:111336.
+    / *DOI:*: #link("https://doi.org/10.1016/j.intimp.2023.111336")[10.1016/j.intimp.2023.111336]
+    / *PMID:*: 38056196
+    / *Study Design:*: In vitro (bone marrow-derived mast cells, RBL-2H3 cell line) + murine allergic rhinitis model.
+    / *Key Findings:*:
+        - Sensitization increases ER stress in mast cells
+        - XBP1 (IRE1 UPR arm) promotes mast cell mediator release by activating Syk kinase
+        - Inhibiting XBP1 suppresses mast cell degranulation and alleviates experimental allergic rhinitis
+        - Critical ISR cross-link: activation of eIF2alpha inhibited XBP1 in mast cells -- the PERK/ISR arm can suppress the IRE1/XBP1 pro-degranulation arm
+        - Semaphorin 3A suppressed ER stress and degranulation in vivo
+    / *Relevance to MCAS--ISR Hypothesis:*: Provides the mechanistic bridge. Elevated eIF2alpha phosphorylation (as in chronic ISR) would suppress XBP1-driven degranulation; conversely, in low-ISR states (e.g., ISRIB treatment, ISR suppression), XBP1 would be disinhibited, potentially amplifying mast cell activation. Bidirectional: ER stress drives mast cell degranulation; ISR (eIF2alpha-p) can dampen this. Chronic ISR may thus represent an attempted compensatory brake on mast cell hyperactivation.
+    / *Limitations:*: Cell lines and murine model; no human MCAS tissue; no quantification of ISR-level eIF2alpha phosphorylation; XBP1 inhibition may have pleotropic effects beyond mast cell degranulation.
+    / *Certainty:*: 0.60 (peer-reviewed; mechanistic; cell/mouse model; human MCAS extrapolation unverified)
+
+=== Wang et al.\ 2017 --- PERK--eIF2alpha--ATF4 Axis Is Functional in Mast Cells Under Oxidative/Toxicant Stress
+
+    @Wang2017SHP2MastCellPERK
+
+    / *Full Citation:*: Wang H-C, Zhou Y, Huang S-K. "SHP-2 phosphatase controls aryl hydrocarbon receptor-mediated ER stress response in mast cells." _Archives of Toxicology_. 2017;91(4):1739--1748.
+    / *DOI:*: #link("https://doi.org/10.1007/s00204-016-1861-1")[10.1007/s00204-016-1861-1]
+    / *PMID:*: 27709270
+    / *Study Design:*: In vitro mast cell study; AhR ligand (FICZ) exposure; SHP-2 knockdown.
+    / *Key Findings:*:
+        - AhR ligand FICZ triggers ROS-dependent ER stress in mast cells
+        - SHP-2 phosphatase promotes the PERK signaling pathway in this context
+        - Downstream: ATF4 activation and eIF2alpha phosphorylation confirmed in mast cells
+        - Effect abolished by antioxidant NAC or SHP-2 knockdown
+        - First direct demonstration that the PERK--eIF2alpha--ATF4 ISR arm is engaged in mast cells
+    / *Relevance to MCAS--ISR Hypothesis:*: Establishes that mast cells possess a functional PERK--eIF2alpha--ATF4 axis. While the activating stimulus (AhR ligand/ROS) is not physiological MCAS, the pathway's presence means that other ISR-activating stimuli (mitochondrial stress, unfolded protein load, dsRNA) could activate it in activated mast cells. Supports the feasibility of ISR engagement during pathological mast cell states.
+    / *Limitations:*: Environmental toxicant model (not IgE/MRGPRX2/complement-mediated activation); no degranulation measured in PERK-activation context; ROS may be an intermediate not present in all MCAS subtypes.
+    / *Certainty:*: 0.55 (peer-reviewed; in vitro only; non-physiological MCAS stimulus; PERK/ATF4 presence confirmed but relevance to MCAS requires extrapolation)
+
+=== Wilhelm et al.\ 2017 --- Mast Cell Lineage Depends on UPR for Secretory Function; IRE1--XBP1 Constitutively Active
+
+    @Wilhelm2017MCLUPRProteotoxic
+
+    / *Full Citation:*: Wilhelm T, Bick F, Peters K, Mohta V, Tirosh B, Patterson JB, Kharabi-Masouleh B, Huber M. "Infliction of proteotoxic stresses by impairment of the unfolded protein response or proteasomal inhibition as a therapeutic strategy for mast cell leukemia." _Oncotarget_. 2017;9(3):2984--3000.
+    / *DOI:*: #link("https://doi.org/10.18632/oncotarget.23354")[10.18632/oncotarget.23354]
+    / *PMID:*: 29423023
+    / *Study Design:*: KIT-mutated mast cell leukemia cell line (HMC-1.2); UPR inhibition and proteasome inhibition pharmacology.
+    / *Key Findings:*:
+        - KIT-mutated mast cell leukemia cells show tonic constitutive IRE1alpha/XBP1 activation as a survival mechanism
+        - Mast cell leukemia cells depend on functional UPR to handle secretory protein load
+        - IRE1alpha inhibition (KIRA6, MKC-8866, STF-083010) suppresses proliferation
+        - Terminal UPR (CHOP via PERK--eIF2alpha--ATF4) promotes apoptosis when adaptive UPR is overwhelmed
+        - Proteasome inhibitors (bortezomib, carfilzomib) synergize with UPR impairment
+    / *Relevance to MCAS--ISR Hypothesis:*: Demonstrates that mast cell lineage cells, by virtue of their secretory burden, are constitutively dependent on UPR including the PERK arm. In pathological mast cell hyperactivation (MCAS), amplified secretory demands would escalate this UPR dependence. Chronic escalation = chronic ISR engagement. Provides rationale for why MCAS might chronically elevate eIF2alpha phosphorylation in the mast cell compartment.
+    / *Limitations:*: Neoplastic cell line model (HMC-1.2 is leukemic); findings may not translate to normal mast cells or MCAS. KIT D816V mutation may alter UPR dependence compared to wild-type mast cells.
+    / *Certainty:*: 0.55 (Oncotarget peer-reviewed; leukemic cell model; significant extrapolation to MCAS required)
+
+=== Soboloff and Berger 2002 --- ER Ca2+ Depletion Suppresses Protein Synthesis in Mast Cells; Partial eIF2alpha Involvement
+
+    @Soboloff2002ERCalciumMastCell
+
+    / *Full Citation:*: Soboloff J, Berger SA. "Sustained ER Ca2+ depletion suppresses protein synthesis and induces activation-enhanced cell death in mast cells." _Journal of Biological Chemistry_. 2002;277(16):13812--13820.
+    / *DOI:*: #link("https://doi.org/10.1074/jbc.M112925200")[10.1074/jbc.M112925200]
+    / *PMID:*: 11836247
+    / *Study Design:*: Bone marrow-derived mast cells; thapsigargin (SERCA inhibitor) and econazole; protein synthesis and eIF2alpha phosphorylation measured.
+    / *Key Findings:*:
+        - ER Ca2+ depletion suppresses protein synthesis in mast cells
+        - Protein synthesis suppression is largely eIF2alpha-independent under moderate depletion conditions
+        - Only very high econazole levels or combined SLF+thapsigargin significantly stimulated eIF2alpha phosphorylation
+        - Suggests parallel ISR-independent mechanisms of protein synthesis suppression in mast cells
+        - Mast cell degranulation releases ER Ca2+ stores; sustained depletion engages protein synthesis suppression
+    / *Relevance to MCAS--ISR Hypothesis:*: Provides important nuance and a partial null result. The link between ER Ca2+ depletion (a consequence of mast cell degranulation) and ISR (eIF2alpha phosphorylation) is not automatic -- eIF2alpha phosphorylation requires more severe or sustained depletion. In chronic MCAS with repeated degranulation, cumulative ER Ca2+ depletion could cumulatively engage PERK. The null result at moderate depletion constrains the "single degranulation event triggers ISR" model.
+    / *Limitations:*: Published 2002; pre-modern ISR pharmacology (salubrinal, ISRIB, specific PERK inhibitors not available); PERK not separately examined; eIF2alpha kinase identity not determined. Results may need re-examination with current tools.
+    / *Certainty:*: 0.50 (J Biol Chem peer-reviewed; foundational; 2002 methodology; requires replication with modern ISR tools)
+
+=== Iskarpatyoti et al.\ 2022 --- mTORC1 Drives Mast Cell Regranulation via Translational Upregulation
+
+    @Iskarpatyoti2022MastCellRegranulation
+
+    / *Full Citation:*: Iskarpatyoti JA, Shi J, Abraham MA, Rathore APS, Miao Y, Abraham SN. "Mast cell regranulation requires a metabolic switch involving mTORC1 and a glucose-6-phosphate transporter." _Cell Reports_. 2022;40(13):111346.
+    / *DOI:*: #link("https://doi.org/10.1016/j.celrep.2022.111346")[10.1016/j.celrep.2022.111346]
+    / *PMID:*: 36170813
+    / *Study Design:*: Mouse in vivo anaphylaxis models; bone marrow-derived mast cells; mTORC1 pharmacology (rapamycin); Slc37a2 knockout mice.
+    / *Key Findings:*:
+        - mTORC1 is necessary for mast cell regranulation after degranulation
+        - Slc37a2 glucose-6-phosphate transporter provides metabolic signals upstream of mTORC1
+        - mTORC1 activates 4E-BP/S6K to drive protein and lipid synthesis for granule reconstitution
+        - In vivo: mice can undergo multiple anaphylaxis-regranulation cycles
+        - Regranulation requires significant protein synthesis -- making the mast cell compartment translation-intensive
+    / *Relevance to MCAS--ISR Hypothesis:*: mTORC1 (promotes translation) and ISR/eIF2alpha phosphorylation (suppresses translation initiation) are functionally antagonistic. Chronic ISR in ME/CFS/MCAS could impair mTORC1-driven regranulation, altering the kinetics of the degranulation-regranulation cycle. Dysregulated regranulation could: (1) sustain mediator release patterns; (2) alter granule content (proteases, histamine, tryptase); (3) create translational stress as mast cells attempt regranulation against ISR-imposed suppression.
+    / *Limitations:*: No eIF2alpha or ISR measurements; mouse model; no human MCAS context; ISR--mTORC1 antagonism in mast cells not directly tested.
+    / *Certainty:*: 0.65 (Cell Reports peer-reviewed; in vivo; mechanistic; no ISR data -- ISR relevance requires extrapolation)
+
+=== Rohrhofer et al.\ 2025 --- Mast Cell Activation Is Clinically Relevant and Therapeutically Targetable in ME/CFS
+
+    @Rohrhofer2025mecfsmast
+
+    / *Full Citation:*: Rohrhofer J, Ebner L, Schweighardt J, Stingl M, Untersmayr E. "The Clinical Relevance of Mast Cell Activation in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome." _Diagnostics_. 2025;15(22):2828.
+    / *DOI:*: #link("https://doi.org/10.3390/diagnostics15222828")[10.3390/diagnostics15222828]
+    / *PMID:*: 41300853
+    / *Study Design:*: Retrospective cohort; two Austrian cohorts: CCCFS (n=687 ME/CFS, 115 with MCAS) and ME/CFS-MCA (n=383).
+    / *Key Findings:*:
+        - Up to 25.3% of ME/CFS patients have clinically relevant mast cell activation
+        - POTS and orthostatic intolerance significantly more common in ME/CFS+MCAS subgroup
+        - Mast cell-targeted treatment (antihistamines, mast cell stabilizers) yielded significantly more symptom alleviation in MCAS-positive ME/CFS vs MCAS-negative (p < 0.0001)
+        - If-channel inhibitors showed non-significant trend toward better response in MCAS group (p = 0.076)
+        - Supports MCAS as a clinically relevant and therapeutically distinct ME/CFS subgroup
+    / *Relevance to MCAS--ISR Hypothesis:*: Provides clinical grounding for the mechanistic hypothesis. If ~25% of ME/CFS patients have active mast cell involvement, the MCAS--ISR crosstalk hypothesis could explain a substantial subgroup's pathophysiology: mast cell-driven ISR activation contributing to the translational suppression and energy-metabolism dysfunction central to ME/CFS. Stratification by MCAS status should be a design requirement for any ME/CFS--ISR biomarker study.
+    / *Null result note:*: No ISR or ER stress biomarkers measured; clinical study only. This paper motivates but does not evidence the MCAS--ISR mechanism.
+    / *Limitations:*: Retrospective cohort; MCAS criteria varied across cohorts; no mechanistic biomarkers; treatment response is self-reported symptom alleviation, not objective outcome.
+    / *Certainty:*: 0.62 (Diagnostics peer-reviewed; reasonable sample sizes; retrospective; no mechanistic data)
