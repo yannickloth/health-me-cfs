@@ -110,7 +110,7 @@ Literature staging file: `content-staging/literature-mtdna-predisposition-mecfs-
 | 3 — Creative brainstorming | ⬜ pending | `scientific-insight-generator` / opus |
 | 4 — Integrate all brainstorm ideas | ⬜ pending | |
 | 5 — Build verification | ⬜ pending | |
-| 6 — Review to convergence | ⬜ pending | |
+| 6 — Review to convergence | ✅ complete | Phase 6c (`/review-typst`) converged in 2 consecutive zero-finding rounds (R1+R2). ~200+ British→US English fixes across 13 scope files. Build: PASS. |
 | 7 — Changelog update | ⬜ pending | |
 | 8 — Commit | ⬜ pending | |
 
