@@ -58,7 +58,7 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
     [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
 
     [TGF-$beta$ as Unifying Explanation for Two Most Replicated Immune Findings],
-    [H], [0.40],
+    [S], [0.40],
     [TGF-$beta$ elevation suppresses NK cytotoxicity via Smad/perforin-granzyme repression, mTOR inhibition, and receptor downregulation. (a) TGF-$beta$ and NK cytotoxicity correlate within ME/CFS cohorts. (b) In vitro TGF-$beta$ neutralisation rescues NK function. (c) TGF-$beta$ elevation is not entirely centrifugation artifact.],
     [Co-measurement study (TGF-$beta$ + NK cytotoxicity in same cohort) — never done. In vitro neutralisation assay feasible. Roerink 2018 artifact concern unresolved.],
     [Ch.7 @sec:tgf-beta],
@@ -106,16 +106,16 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
     [Ch.13],
 
     [Genetic Mitophagy Vulnerability: The Accumulation Threshold Model],
-    [H], [0.35],
+    [S], [0.35],
     [DecodeME mitophagy (_FBXL4_) and ER-phagy (_CCPG1_) genes suggest constitutional impairment in organelle quality control. Acute metabolic stress overwhelms reduced clearance capacity; damaged mitochondria accumulate past self-reinforcing threshold. (a) ME/CFS patients show impaired PINK1/Parkin activity. (b) Severity correlates with _FBXL4_/_CCPG1_ genotype dose-dependently. (c) Mitophagy-enhancing compounds (urolithin A, NAD+ precursors) preferentially benefit autophagy risk-variant carriers.],
     [Mitophagy capacity assays in ME/CFS PBMCs — feasible but not yet done. _FBXL4_ genotype stratification in existing biobanks. Urolithin A trial with pharmacogenomic stratification. No study has directly measured mitophagy in ME/CFS.],
     [Ch.12 @hyp:mitophagy-vulnerability],
 
     [Glutamatergic--Autonomic Bridge: DecodeME Genes as Synaptic Vulnerability Factors],
-    [H], [0.30],
+    [S], [0.30],
     [DecodeME glutamatergic synapse genes (_SHISA6_, _UNC13C_) + neuronal development genes (_CA10_, _SOX6_, _LRRC7_, _DCC_) create constitutional vulnerability in brainstem/hypothalamic autonomic circuits. Infection tips vulnerable circuits past threshold. (a) Neuronal PRS correlates with autonomic dysfunction severity. (b) Brainstem glutamate/glutamine ratios (MRS) correlate with autonomic symptoms. (c) IBS $r_g$ mediated by autonomic genes (Mendelian randomisation). (d) Memantine/riluzole improve autonomic symptoms in high-PRS patients.],
     [PRS construction from DecodeME — feasible once full data available. MR spectroscopy of brainstem glutamate — technically challenging but feasible. Mendelian randomisation for IBS correlation — feasible with existing GWAS data. Memantine trial with genotype stratification — feasible.],
-    [Ch.13 @hyp:glutamatergic-autonomic-bridge],
+    [Ch.13 @spec:glutamatergic-autonomic-bridge],
 
     [The Diagnostic Mirage: hEDS/POTS/MCAS as Single Autonomic Syndrome],
     [S], [0.25],
@@ -124,10 +124,10 @@ Motivated by: mecfsscience.org comprehensive immune review; six independent lite
     [Ch.13 @spec:diagnostic-mirage],
 
     [The Amitriptyline Signal: Genetic Evidence for Tricyclic Mechanism],
-    [H], [0.40],
+    [S], [0.40],
     [DecodeME $r_g = 0.61$ with amitriptyline use may reflect shared neural circuits, not just confounding. Low-dose amitriptyline's NMDA antagonism matches glutamatergic synapse genes. (a) ME/CFS benefit exceeds sleep/pain effects alone. (b) Greater benefit with higher neuronal-gene PRS. (c) Genetic correlation survives conditioning on depression and pain. (d) Mendelian randomisation supports causal efficacy.],
     [Mendelian randomisation with DecodeME data — feasible. Pharmacogenomics trial: amitriptyline stratified by DecodeME PRS — feasible but requires DecodeME data access. Retrospective analysis of amitriptyline responders vs non-responders by genotype.],
-    [Ch.13 @hyp:amitriptyline-signal],
+    [Ch.13 @spec:amitriptyline-signal],
 
     [Peptic Ulcer Parallel: What Would an _H. pylori_ Moment Look Like?],
     [S], [0.20],
@@ -1569,8 +1569,8 @@ Ch.13 @subsubsec:long-covid-cycle-dynamics \
 _— V6 additions (March 2026) —_\
 
 Lymphocyte Reservoir Ratchet
-(@hyp:lymphocyte-reservoir-ratchet)
-[], [H], [0.35],
+(@spec:lymphocyte-reservoir-ratchet)
+[], [S], [0.35],
 (a) scRNA-seq of ME/CFS PBMCs detects viral transcripts in $<$1% lymphocytes.
 (b) Virus-positive fraction correlates with severity.
 (c) In vitro lymphocyte activation releases viral antigen.
@@ -2518,7 +2518,7 @@ requiring expertise outside ME/CFS scope.
     [Ch.18 @sec:novel-frameworks],
 
     [Dual Pathway Requirement for PEM Prevention],
-    [H], [0.20],
+    [S], [0.20],
     [In a factorial trial: ATP/NAD#super[+] support arm alone achieves #sym.lt 30% PEM severity reduction; combined arm achieves #sym.gt 50% reduction, demonstrating necessity of cascade interruption in addition to energy substrate provision.],
     [Factorial RCT: (1) energy arm (D-ribose, NR/NMN, creatine), (2) anti-inflammatory arm (NAC, omega-3, curcumin), (3) combined, (4) placebo. Primary outcome: PEM AUC severity days 1--7. No ME/CFS trial of this design exists (2026).],
     [Ch.18 @spec:pem-dual-pathway],
@@ -4955,6 +4955,46 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
       [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
     ),
 
+    [MCAS--ISR Bidirectional Crosstalk: Mast Cell ER Stress as ISR Amplifier in MCAS Subgroup],
+    [S], [0.20],
+    [ME/CFS+MCAS patients show higher ATF4-target gene expression in skin mast cells than ME/CFS-only controls. eIF2α-P elevated in in vitro mast cell differentiation from ME/CFS+MCAS donors. MCAS treatment reduces GDF15/FGF21 as secondary endpoint.],
+    [Skin biopsy tryptase+/ATF4 co-IHC in ME/CFS±MCAS cohort. In vitro mast cell differentiation ISR panel. GDF15/FGF21 as pharmacodynamic endpoint in MCAS trial add-on. Certainty: 0.20.],
+    [Ch.7 @spec:mcas-isr-crosstalk],
+
+    [MCAS--ISR Self-Reinforcing Loop as Domain 6 Amplifier in Multi-System Model],
+    [S], [0.20],
+    [MCAS treatment (mast cell stabilizers) produces secondary GDF15/FGF21 reduction as ISR pharmacodynamic endpoint. ISR-modulating agents alter mast cell tryptase/histamine dynamics in MCAS+ME/CFS subgroup.],
+    [Add ISR biomarker panel to existing MCAS trial in ME/CFS. Cross-correlate MCAS treatment response with ISR biomarker change. Certainty: 0.20.],
+    [Ch.13 @spec:mcas-isr-loop],
+
+    [ATF4 Expression in Skin Mast Cells as MCAS-Subgroup ISR Biomarker],
+    [OQ], [---],
+    [In ME/CFS+MCAS patients, tryptase+ dermal mast cells show higher ATF4 nuclear localisation than ME/CFS-only controls and healthy controls. ATF4 level correlates with MCAS severity (mediator load).],
+    [Extend skin biopsy three-marker protocol (@oq:skin-isr-biopsy) with tryptase/ATF4 co-IHC. ATF4 antibody validation in normal dermal mast cells required. Certainty: 0.20.],
+    [Ch.20 @oq:mast-cell-atf4-biopsy],
+
+    [ISR Modulator Pharmacodynamics in MCAS-Subgroup: Do ISR Drugs Affect Tryptase/Histamine Dynamics?],
+    [OQ], [---],
+    [ISR suppressors (ISRIB) may transiently increase mast cell reactivity via XBP1 de-suppression. MCAS stabilizers reduce GDF15/FGF21 as ISR secondary endpoint. Cross-prediction: MCAS treatment response correlates with ISR biomarker reduction.],
+    [Add GDF15/FGF21/ATF4-target metabolomics as secondary endpoints in any planned ME/CFS MCAS trial. Minimal additional cost (~5 draws/patient). Certainty: 0.15 — speculative but low-cost falsifiable.],
+    [Ch.25b @oq:isr-mcas-pharmacodynamics],
+
+  ),
+  caption: [Entries added 2026-05-02: MCAS--ISR bidirectional crosstalk (child cycle of ISR H9) --- 2 speculations, 2 open questions across ch07, ch13, ch20, ch25b. Motivated by @Fan2024ERStressMastCell --- ER stress drives mast cell degranulation via IRE1--XBP1--Syk; eIF2α-P suppresses XBP1; @Wang2017SHP2MastCellPERK --- PERK--eIF2α--ATF4 axis functional in mast cells; @Wilhelm2017MCLUPRProteotoxic --- mast cell lineage constitutively UPR-dependent; @Soboloff2002ERCalciumMastCell --- ER Ca2+ depletion suppresses protein synthesis; severe sustained depletion required for eIF2α-P; @Iskarpatyoti2022MastCellRegranulation --- mTORC1 drives translational-intensive granule reconstitution; @Rohrhofer2025mecfsmast --- MCAS in ~25% ME/CFS.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-02-mcas-isr>
+] // end landscape page
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Hypothesis / Speculation / Question*], [*Type*], [*Certainty*],
+      [*Key Testable Prediction*], [*Proposed Method*], [*Location*]
+    ),
+
     [MCAS-Triggered ME/CFS Phenotype],
     [S], [0.35],
     [In the subset with MCAS onset before ME/CFS onset: MCAS treatment produces ≥50% improvement in PEM frequency and fatigue severity, AND PEM triggers overlap ≥2 MCAS triggers (heat, food, fragrance). In the majority (MCAS onset after ME/CFS): no such improvement pattern.],
@@ -5124,7 +5164,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.16 @spec:dao-cofactor-hit],
 
     [Ketotifen + Famotidine as First-Line Domain 6 Combination in ME/CFS],
-    [H], [0.55],
+    [H], [0.45],
     [A 12-week RCT of ketotifen 1 mg BID + famotidine 40 mg BID in MCAS-positive ME/CFS will produce > 30% improvement in DSQ-PEM score vs placebo, with effect size correlating with baseline urinary N-methylhistamine.],
     [Double-blind RCT in Domain 6-positive ME/CFS (n >= 60). Primary endpoint: DSQ-PEM score. Secondary: COMPASS-31, urinary N-methylhistamine.],
     [Ch.18 @hyp:ketotifen-famotidine-first-line],
@@ -5610,6 +5650,12 @@ Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability
     [(a) DTI-ALPS index is lower in MCAS-positive vs MCAS-negative ME/CFS. (b) DTI-ALPS improves after 12 weeks mast cell stabilization in MCAS+ but not MCAS- patients. (c) Morning cognitive performance correlates inversely with prior-night urinary N-methylhistamine.],
     [DTI-ALPS MRI in MCAS-stratified ME/CFS cohort. Pre/post mast cell stabilization MRI sub-study. Morning cognitive battery + urinary mediator diary design.],
     [Ch.15 @spec:mast-lymphatic-stasis-fog],
+
+    [Luteolin-Quercetin-PEA Stack with Enhanced Delivery for Domain 6],
+    [S], [0.35],
+    [A prospective crossover trial in Domain 6-positive ME/CFS patients will show that quercetin phytosome 500 mg BID + luteolin 100 mg BID + PEA 600 mg BID reduces validated mast cell symptom scores by ≥30% vs placebo at 12 weeks; combination arm shows significant advantage over quercetin monotherapy.],
+    [Randomized crossover trial: 3-component stack vs quercetin monotherapy vs placebo, 12 weeks each phase. Primary: COMPASS-31 autonomic sub-score. Secondary: urinary N-methylhistamine, symptom diary. CYP3A4 interaction monitoring.],
+    [Ch.16 @spec:luteolin-quercetin-pea],
 
     [Procyanidin + Resveratrol as Natural Cromolyn-Mimetic Stack],
     [S], [0.15],

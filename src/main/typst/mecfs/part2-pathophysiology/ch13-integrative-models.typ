@@ -626,7 +626,7 @@ $arrow.b$
 *Stage 5* ($>$5 years): Full cycle engagement with epigenetic lock-in
 
 *Evidence Grade*: D (hypothesized based on clinical progression patterns and mechanistic logic; not empirically validated as universal sequence)
-]
+] <spec:sequential-cycle-recruitment-model>
 
 ==== Recruitment Triggers
 
@@ -1265,7 +1265,9 @@ The 2026 Chalder-Moreau EWAS identified _PTPRN2_ hypomethylation and miR-153-3p 
 
 The vicious cycle framework (Chapter @ch:core-symptoms, @sec:pem) provides a mechanistic lens for understanding the Long COVID–ME/CFS relationship: Long COVID may represent ME/CFS at an earlier stage of cycle recruitment.
 
-#hypothesis(title: [Long COVID as Stage 1–2 ME/CFS])[
+#speculation(title: [Long COVID as Stage 1–2 ME/CFS])[
+*Certainty: 0.35 — Evidence Grade C (mechanistically plausible; requires prospective validation; dependent on the Sequential Cycle Recruitment Model which is itself unvalidated).*
+
 Long COVID at 6–18 months post-infection represents early-stage ME/CFS (Stage 1–2: mitochondrial $plus.minus$ immune cycles active), while established ME/CFS represents late-stage disease (Stage 3–5: multiple cycles engaged with potential epigenetic lock-in).
 
 *Testable predictions*:
@@ -1274,7 +1276,7 @@ Long COVID at 6–18 months post-infection represents early-stage ME/CFS (Stage 
     - Long COVID patients meeting ME/CFS criteria at 24+ months become clinically and biologically indistinguishable from ME/CFS patients of similar duration
     - Early aggressive intervention in Long COVID (first 12 months) prevents progression to severe ME/CFS
 
-*Evidence Grade*: C (mechanistically plausible; requires prospective validation)
+*Limitations*: This speculation inherits the uncertainty of the parent Sequential Cycle Recruitment Model (Speculation @spec:sequential-cycle-recruitment-model, certainty 0.25). Long COVID and ME/CFS have been diagnosed by overlapping criteria in most cohorts, making clinical indistinguishability a potentially tautological prediction. The staging model does not account for patients who resolve Long COVID spontaneously, which would require explanation within the cycle-recruitment framework.
 ]
 
 
@@ -1828,7 +1830,7 @@ Based on this synthesis, the following research directions appear most critical:
 
 Integration of critical evidence analyses with the existing pathophysiology framework reveals several novel cross-system connections that deserve further investigation.
 
-#hypothesis(title: [The Glutamatergic--Autonomic Bridge: DecodeME Genes as Synaptic Vulnerability Factors])[
+#speculation(title: [The Glutamatergic--Autonomic Bridge: DecodeME Genes as Synaptic Vulnerability Factors])[
 
 *Certainty: 0.30.* The DecodeME GWAS identified glutamatergic synapse genes (_SHISA6_, _UNC13C_) alongside genes governing neuronal development and axon guidance (_CA10_, _SOX6_, _LRRC7_, _DCC_)---all converging on neuronal communication in brain regions (Section @sec:decodeme-genes of Chapter @ch:genetics-epigenetics). The genetic correlation pattern ($r_g = 0.75$ with IBS, $r_g = 0.60$ with depression, absent for autoimmune diseases) places ME/CFS squarely in the neurological--functional disorder spectrum rather than the autoimmune spectrum @DecodeME2025.
 
@@ -1839,7 +1841,7 @@ This model predicts: (1) ME/CFS patients carrying more DecodeME neuronal risk al
 *Treatment implications:* Memantine (NMDA antagonist, approved for neurological use) could be trialled with genotype stratification. The IBS genetic overlap suggests that treatments effective for IBS autonomic symptoms---low-dose tricyclics, which modulate glutamate at low doses, consistent with the amitriptyline $r_g = 0.61$---may work through the same neural circuits in ME/CFS.
 
 *Limitations:* DecodeME loci await independent replication. Brainstem MR spectroscopy is technically challenging. The glutamatergic--autonomic link is mechanistically plausible but untested in ME/CFS. Sub-threshold genes may not survive replication.
-] <hyp:glutamatergic-autonomic-bridge>
+] <spec:glutamatergic-autonomic-bridge>
 
 #speculation(title: [The Diagnostic Mirage: hEDS, POTS, and MCAS as Phenotypic Fragments of a Single Autonomic Disease])[
 
@@ -1854,7 +1856,7 @@ If correct: (1) treating the underlying autonomic dysfunction should improve all
 *Limitations:* Lumping hypothesis that risks overlooking genuine heterogeneity. Some patients may have true independent connective tissue or mast cell pathology. The simpler explanation, that these conditions share risk factors and genuinely co-occur without forming a single entity, must be given equal consideration. A Bayesian framework comparing the "single entity" model against the "shared risk factors, independent pathologies" model would be needed to distinguish them. Makes specific testable predictions about genetic architecture and treatment response.
 ] <spec:diagnostic-mirage>
 
-#hypothesis(title: [The Amitriptyline Signal: Genetic Evidence for Tricyclic Mechanism in ME/CFS])[
+#speculation(title: [The Amitriptyline Signal: Genetic Evidence for Tricyclic Mechanism in ME/CFS])[
 
 *Certainty: 0.40.* Among DecodeME genetic correlations, amitriptyline use shows $r_g = 0.61$ ($p < 0.00001$)---comparable to depression ($r_g = 0.60$) @MECFSScience2025decodeme. The standard interpretation is confounding (patients take amitriptyline for pain/sleep). An alternative: genetic variants predisposing to ME/CFS also predispose to conditions that respond to amitriptyline, because amitriptyline acts on the same neural circuits affected by ME/CFS risk genes.
 
@@ -1865,7 +1867,7 @@ Predictions: (1) low-dose amitriptyline should improve ME/CFS symptoms beyond sl
 *Treatment implications:* Reframes low-dose amitriptyline from "palliative sleep aid" to "mechanistically targeted intervention acting on genetically-identified circuits." A pharmacogenomics trial stratifying by DecodeME PRS could test this directly.
 
 *Limitations:* The genetic correlation almost certainly includes a substantial confounding component: patients with ME/CFS-like symptoms are prescribed amitriptyline for pain and sleep, creating a direct ascertainment pathway that does not require shared mechanism. Disentangling confounding from shared mechanism requires Mendelian randomisation or genotype-stratified RCTs, neither of which has been performed. No trial has tested amitriptyline against DecodeME genetic predictors.
-] <hyp:amitriptyline-signal>
+] <spec:amitriptyline-signal>
 
 #speculation(title: [The Peptic Ulcer Parallel: What Would an _H. pylori_ Moment Look Like for ME/CFS?])[
 
@@ -2069,6 +2071,18 @@ The key distinguishing feature: *ISR direction may differ by trigger* (see @hyp:
 *Limitation:* No cross-condition muscle biopsy study exists. Fibromyalgia and Gulf War illness ISR data are absent; long COVID ISR data exist only in cell models @Aloise2023CoVPKR. The Omdal peripheral blood null result @Omdal2026LCFatigueStress reminds that tissue compartmentalisation complicates any blood-based cross-condition comparison. (Not yet replicated.)
 ] <spec:isr-shared-signature>
 
+#speculation(title: [MCAS--ISR Self-Reinforcing Loop as a Domain 6 Amplifier in the Multi-System Model])[
+*Certainty: 0.20 — indirect mechanistic inference; no direct ISR measurement in MCAS patient samples.*
+
+In the ~25% of ME/CFS patients with concurrent MCAS @Rohrhofer2025mecfsmast, mast cell activation may participate in a self-reinforcing loop with the ISR. Chronic ISR activation (eIF2α-P elevated in muscle and CNS, @hyp:isr-compartmentalisation) would reach mast cells via paracrine signals and systemic ATF4-target metabolites (GDF15, FGF21) that alter mast cell translational programming @Fan2024ERStressMastCell @Iskarpatyoti2022MastCellRegranulation. Simultaneously, repeated mast cell degranulation (MCAS pattern) produces sustained ER calcium depletion that could cumulatively engage PERK @Soboloff2002ERCalciumMastCell @Wang2017SHP2MastCellPERK, feeding back into the ISR cycle.
+
+In the integrative model framework: MCAS (Domain 6) and ISR dysregulation (embedded within Domain 1–3) are not independent pathological axes but share a mechanistic interface. The MCAS subgroup may therefore have a distinct ISR trajectory — with the mast cell ER stress load adding to the PERK input from mitochondrial dysfunction and viral triggers already present. This domain-crossing loop is discussed further at the mast cell level in Chapter @ch:immune-dysfunction (Section @spec:mcas-isr-crosstalk).
+
+*Therapeutic implication:* If the MCAS–ISR loop is active, Domain 6 treatment (mast cell stabilizers reducing degranulation frequency) may produce secondary ISR improvement, and ISR-modulating agents may reduce mast cell hyperreactivity — creating additive benefit from combined Domain 1+6 targeting. This is an untested but falsifiable prediction: MCAS treatment should reduce GDF15/FGF21 as a secondary biomarker endpoint.
+
+*Limitation:* No study has measured ISR markers in MCAS patient samples. The loop is constructed from separate mechanistic findings in different cell systems. Domain 6 is present in only ~25% of ME/CFS patients; this loop would not apply to the majority. (Not yet replicated.)
+] <spec:mcas-isr-loop>
+
 #open-question(title: [Vanishing White Matter Disease as a Natural Experiment for ISR-Mediated Fatigue])[
 Vanishing White Matter disease (VWM) is caused by loss-of-function mutations in eIF2B subunits --- the GTP exchange factor that reactivates eIF2α after phosphorylation. VWM is thus a direct genetic disease of ISR dysregulation: cells cannot adequately resolve eIF2α phosphorylation after stress, producing chronic or exaggerated ISR activation. The clinical phenotype is strikingly relevant: VWM patients experience fatigue, cognitive decline, ataxia, and --- crucially --- episodic deterioration triggered by febrile illness and physical exertion that is strikingly analogous to PEM @CostaMattioli2020ISRReview.
 
@@ -2091,7 +2105,8 @@ If ME/CFS reflects acquired (post-viral) ISR dysregulation with reduced eIF2B de
     [Gulf War illness], [Chemical-triggered chronic multi-system illness; HRI kinase candidate], [Same final common pathway hypothesis; different ISR kinase arm],
     [Mitochondrial disease], [GDF15 and FGF21 elevated as canonical ATF4 targets; validated biomarkers], [GDF15/FGF21 as translatable ISR biomarkers for ME/CFS (see @hyp:gdf15-isr-readout)],
     [Vanishing White Matter], [eIF2B subunit mutations — ISR cannot resolve; PEM-like exertion-triggered deterioration], [Genetic proof-of-concept that chronic ISR dysregulation produces fatigue and exertion-triggered crashes],
+    [MCAS (~25% of ME/CFS)], [Mast cell UPR constitutively active; PERK--eIF2α--ATF4 functional in mast cells; ER calcium depletion from degranulation], [Bidirectional MCAS--ISR loop: ISR alters mast cell granule maturation; MCAS amplifies PERK input (see @spec:mcas-isr-loop)],
   ),
-  caption: [Cross-disease ISR connections. Each disease provides a distinct mechanistic or translational bridge to ME/CFS ISR biology. Evidence quality varies: Long COVID and mitochondrial disease connections are directly supported; Gulf War illness and fibromyalgia connections are mechanistic inference. Certainty of individual connections ranges from 0.15 (Alzheimer's neurodegenerative risk) to 0.55 (mitochondrial disease biomarker translation).],
+  caption: [Cross-disease and co-condition ISR connections. Each condition provides a distinct mechanistic or translational bridge to ME/CFS ISR biology. Evidence quality varies: Long COVID and mitochondrial disease connections are directly supported; Gulf War illness, fibromyalgia, and MCAS connections are mechanistic inference. Certainty of individual connections ranges from 0.15 (Alzheimer's neurodegenerative risk) to 0.55 (mitochondrial disease biomarker translation).],
   kind: table,
 ) <tab:isr-cross-disease>

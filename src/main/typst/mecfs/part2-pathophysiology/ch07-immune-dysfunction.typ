@@ -135,7 +135,11 @@ Recent evidence from COVID-19 and long COVID research reveals a specific dysregu
 
 The thrombo-inflammatory consequences are substantial: NET-elevated patients showed elevated D-dimer (coagulation activation marker; mean 503 ng/mL in severe cases) and lactate dehydrogenase, indicating tissue damage and microthrombi formation @Romano2022. This NET-driven coagulation dysregulation may explain ME/CFS features such as orthostatic intolerance (if microthrombi reduce cerebral perfusion), post-exertional malaise (reduced microvascular oxygen delivery), and cognitive dysfunction. Furthermore, NETosis-mediated mechanisms persist in long COVID, where substantial organ damage occurs in over 70% of infected individuals, with lasting structural remodeling (e.g., pulmonary scarring, fibrosis) rather than reversible functional impairment @Ewing2024.
 
-Given the suppressed neutrophil activation signature observed in ME/CFS (discussed above), the dysregulation may be more nuanced: ME/CFS neutrophils may have impaired NETosis formation at baseline (contributing to immune suppression), yet still experience dysregulated NET _degradation_, allowing accumulated NETs to drive chronic thrombo-inflammation. This hypothesis—defective NET clearance despite diminished NET production—remains to be directly tested in ME/CFS but is biologically plausible given the innate immune suppression and persistent inflammatory markers characteristic of the disease.
+#speculation(title: [Defective NET Clearance Despite Diminished NET Production])[
+*Certainty: 0.25.* Given the suppressed neutrophil activation signature observed in ME/CFS (discussed above), the dysregulation may be more nuanced: ME/CFS neutrophils may have impaired NETosis formation at baseline (contributing to immune suppression), yet still experience dysregulated NET _degradation_, allowing accumulated NETs to drive chronic thrombo-inflammation. This speculation—defective NET clearance despite diminished NET production—remains to be directly tested in ME/CFS but is biologically plausible given the innate immune suppression and persistent inflammatory markers characteristic of the disease.
+
+*Testable predictions:* (a) ME/CFS patients show elevated circulating NET remnants (MPO-DNA complexes, citrullinated histone H3) despite reduced ex vivo NETosis induction; (b) serum DNase1L3 activity is reduced in ME/CFS patients relative to healthy controls; (c) NET remnant levels correlate with thrombo-inflammatory markers (D-dimer, fibrinogen) and orthostatic intolerance severity.
+] <spec:net-clearance-deficit>
 
 #achievement(title: [Persistent NETosis Induction in Long COVID as Potential Pathogenic Driver])[
 Krinsky et al. @Krinsky2023 measured NETosis induction capacity across 177 COVID-19 patients at two Israeli centres spanning acute and convalescent timepoints. NETosis induction correlated strongly with disease severity, platelet activation, and coagulation factor elevation, and remained significantly elevated in long COVID patients months after acute resolution. Critically, NETosis induction was more sensitive than MPO-DNA for stratifying disease severity, and dexamethasone treatment reduced induction. Persistent NETosis capacity in long COVID suggests ongoing neutrophil priming as a mechanistic contributor to post-acute pathology rather than a transient inflammatory response.
@@ -371,7 +375,7 @@ If confirmed, treatment would require either (a) antiviral therapy sustained lon
 
 *Limitations.*
 Cross-species extrapolation from FIP to human disease requires caution: FIPV and SARS-CoV-2 differ in receptor usage, tropism breadth, and host immune biology. The “below PCR threshold” claim is currently unfalsifiable with standard methods—only emerging single-cell technologies can test it. The model does not explain non-viral-onset ME/CFS.
-] <hyp:lymphocyte-reservoir-ratchet>
+] <spec:lymphocyte-reservoir-ratchet>
 
 ==== T Cell Metabolic Dysfunction
 
@@ -937,7 +941,7 @@ TGF-$beta$ has immunosuppressive and tissue remodeling functions. This elevation
 Roerink et al.\ (2018) raised a serious methodological challenge: TGF-$beta$1 measurements in ME/CFS may be confounded by platelet contamination during sample processing @Roerink2018TGFartifact. Platelets contain 40--100 times more TGF-$beta$1 than other cell types. Lower centrifuge g-force produces higher platelet activation (p-selectin correlated $r = 0.79$ with TGF-$beta$1), which artificially inflates measured concentrations. After controlling for platelet contamination in their cohort, no authentic TGF-$beta$1 elevation distinguished ME/CFS patients from controls. This methodological concern applies to all prior studies that did not standardize centrifugation protocols or measure platelet activation markers. The Montoya 2017 study used standardized multiplex plasma assays and remains the strongest evidence that TGF-$beta$ elevation is real, but even this single-site study cannot fully exclude centrifugation effects.
 ]
 
-#hypothesis(title: [TGF-$beta$ as Unifying Explanation for the Two Most Replicated Immune Findings])[
+#speculation(title: [TGF-$beta$ as Unifying Explanation for the Two Most Replicated Immune Findings])[
 
 *Certainty: 0.40.* Mechanistically well-supported by cancer immunology literature; not yet tested in ME/CFS.
 
@@ -961,13 +965,13 @@ The two most consistently replicated immune findings in ME/CFS are (1) elevated 
     - If TGF-$beta$ levels do not correlate with NK cytotoxicity within ME/CFS patients in a properly controlled co-measurement study
     - If in vitro TGF-$beta$ neutralisation does not rescue NK cytotoxicity in ME/CFS patient samples
     - If the TGF-$beta$ elevation is entirely explained by centrifugation artifact (Roerink concern), eliminating the upstream driver
-] <hyp:tgf-beta-rosetta>
+] <spec:tgf-beta-rosetta>
 
 #speculation(title: [The TGF-$beta$ Lock: Epigenetic Hit-and-Run])[
 
 *Certainty: 0.30.* Extends the TGF-$beta$ unifying hypothesis with emerging epigenetic evidence. The epigenetic locking mechanism is from a single 2026 preprint (not yet peer-reviewed); application to ME/CFS is entirely speculative.
 
-The TGF-$beta$ Rosetta Stone hypothesis (Hypothesis @hyp:tgf-beta-rosetta) assumes _ongoing_ TGF-$beta$ elevation suppresses NK cells. But the Roerink artifact concern and Hornig duration-dependent findings raise the possibility that TGF-$beta$ elevation is _transient_---present during early disease and normalising in chronic ME/CFS. If so, how does NK dysfunction persist?
+The TGF-$beta$ Rosetta Stone speculation (Speculation @spec:tgf-beta-rosetta) assumes _ongoing_ TGF-$beta$ elevation suppresses NK cells. But the Roerink artifact concern and Hornig duration-dependent findings raise the possibility that TGF-$beta$ elevation is _transient_---present during early disease and normalising in chronic ME/CFS. If so, how does NK dysfunction persist?
 
 A 2026 preprint demonstrated that prolonged TGF-$beta$ exposure causes persistent epigenetic remodeling of IRF, T-bet, and EOMES binding sites in NK cells---and critically, the dysfunction persists _even after TGF-$beta$ is withdrawn_. We propose a "hit-and-run" mechanism:
 
@@ -1330,7 +1334,7 @@ SARS-CoV-2 actively suppresses the integrated stress response (ISR) during activ
 
 Variant-specific differences in ISR antagonism may partly explain differential long COVID rates. Christ et al.\ found that Omicron nucleocapsid protein less efficiently suppresses stress granule formation than ancestral or Delta variants --- Omicron-infected cells formed stress granules in ~60% of cells versus ~5% for ancestral SARS-CoV-2 @Christ2023CoVISRVariants. If higher ISR activation during acute Omicron infection reduces viral establishment in tissue reservoirs, this could contribute to the lower long COVID incidence observed after Omicron waves, though this connection remains speculative and unmeasured.
 
-#hypothesis(title: [Bidirectional ISR Dysregulation: Opposite States in Different ME/CFS Subgroups])[
+#speculation(title: [Bidirectional ISR Dysregulation: Opposite States in Different ME/CFS Subgroups])[
 *Certainty: 0.40.*
 Different ME/CFS subgroups may have *opposite* ISR states depending on their triggering pathogen, explaining heterogeneous trial responses @Aloise2023CoVPKR @Hennig2022HHV6miRNA @wang2023wasf3. *Post-herpesviruses (HHV-6, EBV) subgroup:* ISR chronically activated --- PERK elevated, ATF4 active, WASF3 upregulated, mitochondrial supercomplex dysfunction. *Post-SARS-CoV-2 (long COVID) subgroup:* ISR suppressed during acute phase via N2b-mediated PKR inhibition @Aloise2023CoVPKR, then dysregulated in recovery --- potentially a rebound state or permanently impaired ISR dynamics.
 
@@ -1362,6 +1366,22 @@ This estrogen-modulated ISR threshold model predicts: (a) in premenopausal femal
 
 *Limitation:* No sex-stratified ISR study exists in ME/CFS muscle. The oestradiol–PERK interaction is established in vitro and in animal models; its operation in human skeletal muscle under chronic viral stress has not been tested. Sex-ratio differences in ME/CFS may arise from multiple non-ISR mechanisms (immune susceptibility, health-seeking behaviour, diagnostic criteria sensitivity). (Not yet replicated.)
 ] <spec:isr-sex-threshold>
+
+#speculation(title: [MCAS--ISR Bidirectional Crosstalk: Mast Cell ER Stress as a Sustaining Amplifier in the MCAS Subgroup])[
+*Certainty: 0.20 — mechanistic inference from non-MCAS mast cell literature; no direct ISR measurement in MCAS patient samples.*
+
+Approximately 25% of ME/CFS patients have concurrent MCAS @Rohrhofer2025mecfsmast. The mechanistic relationship between MCAS and the ISR pathway is bidirectional and mutually reinforcing in theory, though not yet directly tested.
+
+*ISR acting on mast cells:* Mast cells are secretorily demanding cells whose function depends on intact unfolded protein response (UPR) machinery @Wilhelm2017MCLUPRProteotoxic. In mast cells, the eIF2α-phosphorylation arm of ISR suppresses XBP1 (a key UPR effector) @Fan2024ERStressMastCell, which would reduce IgE-mediated degranulation efficiency. Simultaneously, chronic eIF2α-P would suppress the mTORC1-driven protein synthesis required for granule reconstitution after degranulation @Iskarpatyoti2022MastCellRegranulation. The expected consequence: granule compositional changes over time and altered degranulation dynamics — potentially explaining why MCAS in ME/CFS can present differently from classical allergic MCAS.
+
+*Mast cells acting on ISR:* Mast cell degranulation requires ER calcium mobilisation (STIM1/ORAI1 SOCE). Chronic repeated degranulation, as in MCAS, produces sustained low-level ER calcium depletion. PERK is the canonical ER stress/calcium sensor; the PERK–eIF2α–ATF4 axis is functional in mast cells @Wang2017SHP2MastCellPERK. However, a key constraint from Soboloff and Berger (2002) @Soboloff2002ERCalciumMastCell: eIF2α phosphorylation in mast cells requires *severe* sustained ER calcium depletion, not moderate single-event depletion. Single degranulation events are unlikely to trigger significant ISR; only the cumulative chronic pattern of MCAS-pattern degranulation is a plausible trigger.
+
+*Therapeutic implication (speculative):* In the MCAS subgroup, mast cell stabilizers (ketotifen, cromolyn, Section @sec:domain6-mast-cell) that reduce degranulation frequency could secondarily reduce ER calcium stress, attenuating PERK input and potentially easing the ISR burden. This would predict that MCAS-targeted treatment in the ME/CFS MCAS subgroup produces ISR biomarker improvement (GDF15 reduction, ATF4 target metabolite normalisation) in addition to symptom improvement — a testable pharmacodynamic endpoint.
+
+*Falsifiable prediction:* ME/CFS patients with MCAS overlap (≥2 MCAS criteria) will show higher ATF4-target gene expression (ASNS, CHOP, SLC7A11) in skin mast cells at 3mm punch biopsy compared to ME/CFS patients without MCAS. eIF2α-P will be elevated in PBMC-derived in vitro mast cell differentiation assays from ME/CFS+MCAS patients compared to ME/CFS-only controls. If ISR markers show no MCAS-dependent difference → bidirectional crosstalk hypothesis not supported.
+
+*Limitation:* No study has measured ISR markers in MCAS patient samples of any kind. The mechanistic chain is assembled from non-MCAS mast cell models and non-mast cell ISR studies. HRI kinase data in mast cells are absent. The IgE-suppression finding from Fan 2024 may not generalise to non-IgE MCAS triggers (MRGPRX2, complement, substance P). The gain-of-function direction (MCAS → ISR) requires repeated/chronic mast cell activation, not single acute events. (Not yet replicated in ME/CFS or MCAS.)
+] <spec:mcas-isr-crosstalk>
 
 #achievement(title: [International Consensus Framework for Targeting SARS-CoV-2 Reservoir in Long COVID])[
 A multi-institutional Lancet Infectious Diseases position paper @Proal2025Reservoir
@@ -1653,7 +1673,7 @@ We propose that each infection in ME/CFS patients produces cumulative, irreversi
 
 *Cumulative damage mechanisms*
 
-_Viral reactivation and persistent viral load:_ ME/CFS patients frequently experience reactivation of latent viruses (EBV, HHV-6, CMV) or recurrent infections with new pathogens. Each reactivation adds to the total viral antigenic load. Unlike an immunocompetent host who clears viruses completely, ME/CFS patients with impaired immune function may never fully clear these reactivations. The viral genome and viral proteins (which are inherently immunogenic and inflammatory) persist or accumulate. This creates a ratchet effect—viral burden goes up with each reactivation and rarely returns to baseline. A specific cellular mechanism for this persistence—virus residing within long-lived lymphocytes themselves, below conventional detection thresholds—is proposed in Hypothesis @hyp:lymphocyte-reservoir-ratchet, supported by comparative virology evidence from feline coronavirus @Kol2026fipv.
+_Viral reactivation and persistent viral load:_ ME/CFS patients frequently experience reactivation of latent viruses (EBV, HHV-6, CMV) or recurrent infections with new pathogens. Each reactivation adds to the total viral antigenic load. Unlike an immunocompetent host who clears viruses completely, ME/CFS patients with impaired immune function may never fully clear these reactivations. The viral genome and viral proteins (which are inherently immunogenic and inflammatory) persist or accumulate. This creates a ratchet effect—viral burden goes up with each reactivation and rarely returns to baseline. A specific cellular mechanism for this persistence—virus residing within long-lived lymphocytes themselves, below conventional detection thresholds—is proposed in Speculation @spec:lymphocyte-reservoir-ratchet, supported by comparative virology evidence from feline coronavirus @Kol2026fipv.
 
 _Additional microglial priming events:_ As described in the neuroinflammatory cascade model (Hypothesis @hyp:cascade-neuroinflammatory), each infection represents a major microglial priming event. Acute infections trigger intense microglial activation, and subsequent viral reactivations produce additional priming. Since primed microglia show exaggerated responses to subsequent stimuli (as discussed in the PEM kindling hypothesis, Hypothesis @hyp:pem-kindling-sensitization), each infectious episode not only causes direct damage but increases the microglial response to future infections. This creates a positive feedback: infection → microglial priming → exaggerated response to next infection → more priming.
 
@@ -2428,7 +2448,7 @@ The mechanistic prediction is that reducing the senescent cell burden would:
 
 This framework also explains why previous immunomodulatory trials targeting cytokines (anakinra) or B cells (rituximab) produced limited benefit: they addressed downstream SASP products without eliminating the senescent cell source.
 
-#hypothesis(title: [Senescent Endothelial Cell Burden as a Central Maintaining Mechanism])[
+#speculation(title: [Senescent Endothelial Cell Burden as a Central Maintaining Mechanism])[
 Virus-induced endothelial senescence and the consequent SASP create a self-perpetuating pathological state that maintains ME/CFS independently of the initial viral trigger. NK cell and T cell dysfunction in ME/CFS prevent senescent cell clearance, establishing a bidirectional amplifying loop between immune dysfunction and endothelial SASP @Nunes2026endothelialSenescence.
 
 _Certainty: 0.40._ The mechanistic logic is compelling and each component (NK dysfunction, T cell exhaustion, endothelial SASP biology) is individually well-supported. The central limitation is that endothelial senescence has not yet been directly measured in ME/CFS patient tissue (biopsy or imaging). The framework is currently theory-level, not yet empirically established in this specific disease context.

@@ -21,7 +21,7 @@ Usefulness legend: mech/tx/expl/math/dx = 0–5 (5 = highest). n/a = not applica
 | H6 | GDF15 as peripheral ISR readout | hypothesis | 0.55 | 3 | 2 | 3 | 1 | 5 | ✅ | — |
 | H7 | Sex-specific ISR thresholds | speculation | 0.25 | 3 | 2 | 3 | 1 | 2 | ✅ | — |
 | H8 | ISR and OI via DRG / SFN | speculation | 0.30 | 3 | 2 | 3 | 1 | 3 | ✅ | — |
-| H9 | Mast cell activation as ISR amplifier | speculation | 0.20 | 3 | 2 | 2 | 1 | 2 | ⏭️ | subtrees/mcas-isr.md |
+| H9 | Mast cell activation as ISR amplifier | speculation | 0.20 | 3 | 2 | 2 | 1 | 2 | ✅ | subtrees/mcas-isr.md |
 | H10 | ISR–autonomic loop (brainstem NTS/LC) | speculation | 0.25 | 3 | 2 | 3 | 1 | 1 | ✅ | — |
 | H11 | ME/CFS as prodromal proteinopathy | speculation | 0.15 | 2 | 1 | 2 | 1 | 2 | ✅ | — |
 | H12 | Shared ISR signature (ME/CFS, fibro, LC, GWI) | speculation | 0.35 | 3 | 2 | 4 | 2 | 2 | ✅ | — |
