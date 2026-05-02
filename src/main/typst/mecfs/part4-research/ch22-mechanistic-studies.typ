@@ -278,7 +278,7 @@ The Kol et al.\ (2026) discovery that feline infectious peritonitis virus (FIPV)
 
     - *Natural coronavirus infection:* FIPV is a feline coronavirus that produces systemic immune dysfunction without artificial induction.
     - *Immune cell tropism:* FIPV replicates in macrophages, B cells, and T cells—paralleling the suspected SARS-CoV-2 tropism for immune cells in long COVID.
-    - *Post-treatment viral persistence:* Viral RNA persists in lymphocytes after antiviral treatment (GS-441524) and resolution of clinical signs, modeling the hypothesized viral reservoir in human ME/CFS (Hypothesis @hyp:lymphocyte-reservoir-ratchet).
+    - *Post-treatment viral persistence:* Viral RNA persists in lymphocytes after antiviral treatment (GS-441524) and resolution of clinical signs, modeling the hypothesized viral reservoir in human ME/CFS (Speculation @spec:lymphocyte-reservoir-ratchet).
     - *Accessible lymphoid tissue:* Unlike human studies, feline lymph node tissue can be directly examined, enabling mechanistic studies of viral–immune cell interactions impossible in human subjects.
     - *Treatment response monitoring:* Cats treated with GS-441524 (a nucleoside analog related to remdesivir) can be monitored longitudinally for immune recovery, relapse, and persistent dysfunction.
 
@@ -290,7 +290,7 @@ The Kol et al.\ (2026) discovery that feline infectious peritonitis virus (FIPV)
     - *Intervention testing:* Use the FIP model to test combined antiviral + metabolic support strategies before human trials, determining whether metabolic supplementation enhances viral clearance from lymphocytes.
 
 #open-question(title: [Viral RNA in Circulating Lymphocytes as Diagnostic Biomarker])[
-If the lymphocyte reservoir hypothesis (Hypothesis @hyp:lymphocyte-reservoir-ratchet) is correct, ultra-sensitive single-cell methods (10x Genomics single-cell RNA-seq, MERFISH spatial transcriptomics) applied to peripheral blood mononuclear cells from ME/CFS patients should detect low-level viral transcripts in a small fraction of lymphocytes—below the sensitivity of bulk PCR but detectable at single-cell resolution.
+If the lymphocyte reservoir hypothesis (Speculation @spec:lymphocyte-reservoir-ratchet) is correct, ultra-sensitive single-cell methods (10x Genomics single-cell RNA-seq, MERFISH spatial transcriptomics) applied to peripheral blood mononuclear cells from ME/CFS patients should detect low-level viral transcripts in a small fraction of lymphocytes—below the sensitivity of bulk PCR but detectable at single-cell resolution.
 
 Key unknowns:
 

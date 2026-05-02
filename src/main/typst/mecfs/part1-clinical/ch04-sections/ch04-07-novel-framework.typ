@@ -228,7 +228,7 @@ Once Tier 1 criteria are met, patients should undergo comprehensive biological p
 Critical insight: ME/CFS patients typically have dysfunction in _multiple_ biological domains simultaneously. The Heng 2025 study demonstrated that a 7-biomarker panel spanning energy metabolism, immune function, and vascular endothelium achieved 91% diagnostic accuracy precisely because _all three systems show coordinated dysfunction_ @heng2025mecfs. This finding validates the multi-lock model (Chapter @ch:speculative-hypotheses): ME/CFS persists because multiple self-reinforcing pathophysiological processes operate concurrently.
 
 #hypothesis(title: [Multi-Domain Co-Occurrence Model])[
-ME/CFS should be understood as a syndrome with six co-occurring, mutually reinforcing biological domains. Most patients have abnormalities in $gt.eq$3 domains:
+*Certainty: 0.50.* This certainty reflects convergent observational evidence that most ME/CFS patients show abnormalities across multiple biological systems; it does not imply that causal interdependence between domains has been established. ME/CFS should be understood as a syndrome with six co-occurring, mutually reinforcing biological domains. Most patients have abnormalities in $gt.eq$3 domains:
 
     - Autoimmune features: 30–60% (GPCR autoantibodies @Loebel2016 @Bynke2020)
     - Mitochondrial/metabolic dysfunction: 70–95% (ATP abnormalities @heng2025mecfs, lactate elevation @Lien2019lactate)
@@ -260,7 +260,7 @@ Treatment targeting a single domain may fail because untreated domains maintain 
     - GPCR autoantibodies ($beta_2$-adrenergic, M3 muscarinic, M4 muscarinic) above age/sex-matched reference ranges @Loebel2016 @Bynke2020
     - ANA (any titer; present in 20–30% ME/CFS vs. 5–10% healthy controls)
     - Plasma cell expansion on flow cytometry (CD38#super[+]CD138#super[+] if available)
-    - Low NK cell count (\<5th percentile) with normal total lymphocytes
+    - Low NK cell cytotoxicity (impaired killing assay) and/or low NK cell count (\<5th percentile) with normal total lymphocytes — note that count and cytotoxic function are distinct measurements that can be impaired independently
 
 *If Present → Diagnosis:* “ME/CFS with Autoimmune Component”
 
@@ -486,7 +486,7 @@ If this phenotype is suspected:
 #warning-env(title: [Medical Supervision Required])[
 This treatment protocol requires physician supervision and cannot be safely self-implemented:
 
-    - *Drug interaction monitoring*: Cimetidine is a CYP450 inhibitor affecting metabolism of many medications (warfarin, phenytoin, theophylline, benzodiazepines, beta-blockers, calcium channel blockers)
+    - *Drug interaction monitoring*: Cimetidine is a CYP3A4/CYP450 inhibitor affecting metabolism of many medications (warfarin, phenytoin, theophylline, benzodiazepines, beta-blockers, calcium channel blockers). *Important:* Ivabradine (used for POTS in Domain 4 co-management) is a CYP3A4 substrate — co-prescription with cimetidine markedly increases ivabradine plasma levels and bradycardia risk; avoid the combination or use with cardiology monitoring.
     - *Renal function assessment*: Valacyclovir requires dose adjustment in renal impairment; accumulation can cause neurotoxicity
     - *Adverse effect monitoring*: CNS effects (cimetidine), nephrotoxicity (antivirals), hypotension (histamine blockade)
     - *Laboratory monitoring*: Renal function (creatinine, eGFR) before and during antiviral therapy; liver function tests; complete blood count
@@ -791,33 +791,33 @@ This three-tiered diagnostic framework is a proposal, not an established or vali
 
 This novel diagnostic framework generates testable predictions that should be validated in prospective studies:
 
-    - *Hypothesis*: Patients with $gt.eq$4 domains positive will have worse functional outcomes, longer illness duration, and lower treatment response rates than patients with 1–2 domains
+    - *Prediction*: Patients with $gt.eq$4 domains positive will have worse functional outcomes, longer illness duration, and lower treatment response rates than patients with 1–2 domains
     
         - *Test*: Correlate number of positive domains with SF-36 Physical Function, Bell Disability Scale, work/school capacity, and hospitalization rates
     
 
-    - *Hypothesis*: Multi-target interventions (treating all present domains) will produce superior outcomes compared to single-target interventions
+    - *Prediction*: Multi-target interventions (treating all present domains) will produce superior outcomes compared to single-target interventions
     
         - *Test*: Randomized controlled trial comparing CoQ10 monotherapy vs. CoQ10 + Low-Dose Naltrexone (LDN) + fludrocortisone (in patients with mitochondrial + neuroinflammatory + dysautonomia domains positive)
     
 
-    - *Hypothesis*: The RED FLAG progression risk criteria (Tier 3) prospectively identify patients who will develop severe ME/CFS
+    - *Prediction*: The RED FLAG progression risk criteria (Tier 3) prospectively identify patients who will develop severe ME/CFS
     
         - *Test*: Cohort study assessing RED FLAG status at enrollment, then tracking functional severity at 1 year and 2 years; calculate sensitivity/specificity of RED FLAG criteria for predicting progression to severe disease
     
 
-    - *Hypothesis*: Treatment response to domain-specific interventions requires both (a) presence of dysfunction in that domain AND (b) that domain being rate-limiting (the bottleneck)
+    - *Prediction*: Treatment response to domain-specific interventions requires both (a) presence of dysfunction in that domain AND (b) that domain being rate-limiting (the bottleneck)
     
         - *Test*: Measure all 6 domains → administer domain-specific treatment → identify responders vs. non-responders → retrospectively determine which baseline features predicted response
         - Example: Daratumumab trial measuring GPCR autoantibodies, lactate, HRV, QST, VWF at baseline, then analyzing which baseline profile predicts 60% responder group vs. 40% non-responder group
     
 
-    - *Hypothesis*: The Heng 7-marker panel achieves high diagnostic accuracy because it captures coordinated dysfunction across three systems (energy, immune, vascular), and symptom severity correlates with multi-system burden rather than single-marker elevation
+    - *Prediction*: The Heng 7-marker panel achieves high diagnostic accuracy because it captures coordinated dysfunction across three systems (energy, immune, vascular), and symptom severity correlates with multi-system burden rather than single-marker elevation
     
         - *Test*: Network analysis or partial least squares regression to determine if symptoms correlate with individual markers or require multi-marker patterns
     
 
-    - *Hypothesis*: Early intervention (within the first 2 years) prevents establishment of refractory disease
+    - *Prediction*: Early intervention (within the first 2 years) prevents establishment of refractory disease
     
         - *Test*: Compare outcomes of patients receiving comprehensive Tier 2 phenotyping + multi-target treatment within 1 year of onset vs. those diagnosed/treated after 2+ years
         - Ethical note: This should be observational (registry-based) rather than randomized, as withholding early treatment would be unethical if the hypothesis is correct

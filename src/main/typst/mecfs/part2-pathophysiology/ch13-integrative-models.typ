@@ -896,7 +896,7 @@ All supporting evidence is cross-sectional or retrospective; no longitudinal stu
 *Certainty:* 0.45 (diagnostic delay/prognosis data supportive; staged progression pattern plausible but unvalidated longitudinally)
 ] <hyp:disease-stage-progression>
 
-#hypothesis(title: [Neutrophil Functional Exhaustion Hypothesis])[
+#speculation(title: [Neutrophil Functional Exhaustion Hypothesis])[
 
 Hoel et al.\ (2026) @Hoel2026proteome documented a paradox: ME/CFS patients have normal peripheral neutrophil counts but profoundly suppressed circulating neutrophil-derived proteins—hallmark granule components (BPI, PADI4, MMP9, ELANE, AZU1, LTF) are all significantly reduced. We propose that ME/CFS neutrophils exist in a state of *functional exhaustion*: they are present in normal numbers but hypoactivated, failing to degranulate or mount appropriate antimicrobial responses.
 
@@ -917,7 +917,7 @@ Functionally exhausted neutrophils would impair: (1) pathogen clearance, permitt
 If neutrophils are functionally exhausted rather than absent, therapeutic strategies might include: low-dose G-CSF to prime neutrophil activation (used cautiously given the inflammatory milieu), resolution-phase lipid mediators (resolvins, protectins) to reprogram rather than stimulate neutrophils, or addressing the upstream drivers of chronic activation (autoantibodies, persistent antigens) to allow neutrophil recovery.
 
 *Certainty: 0.40.* Strong proteomic evidence for suppressed neutrophil signature (Hoel 2026, n=50+29, validated platform), complemented by functional neutrophil studies (Kennedy 2004). However, the exhaustion mechanism is inferred, not directly demonstrated; alternative explanations (e.g., altered neutrophil lifespan, bone marrow output changes) have not been excluded.
-] <hyp:neutrophil-exhaustion>
+] <spec:neutrophil-exhaustion>
 
 #hypothesis(title: [Chronic Exerkine Signaling Hypothesis])[
 
@@ -1043,7 +1043,7 @@ Table @tab:treatment-by-hypothesis maps selected hypotheses to their logical tr
 
 
 
-[Neutrophil functional exhaustion (@hyp:neutrophil-exhaustion)], [Address upstream drivers (autoantibodies, chronic antigens); resolution mediators (resolvins); cautious G-CSF priming], [Theoretical], [Variable], [Neutrophil functional assays needed first],
+[Neutrophil functional exhaustion (@spec:neutrophil-exhaustion)], [Address upstream drivers (autoantibodies, chronic antigens); resolution mediators (resolvins); cautious G-CSF priming], [Theoretical], [Variable], [Neutrophil functional assays needed first],
 
 
 
