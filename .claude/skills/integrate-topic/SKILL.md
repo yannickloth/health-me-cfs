@@ -35,13 +35,14 @@ Before starting any other phase:
    - Phase 1 → papers found, bib entries added
    - Phase 2 → environments added, chapters touched
    - Phase 3 → brainstorm file path, idea count (handled in Phase 3 plan update above)
+   - Phase 3a → subtree file path, N nodes written, root index updated
    - Phase 4 → ideas integrated; queued topics from Gates A/B with one-line rationale
    - Phase 5 → build status
    - Phase 6 → review convergence status per pass
    - Phase 7 → changelog entry summary
    - Phase 8 → row status `✅ done`; Notes: integration guide path, chapters updated, commit hash
 
-**Recursive application:** When a queued topic from Gates A/B/C starts its own `/integrate-topic` cycle, it must execute its own Phase 0 in full — write its own plan (or locate an existing one), run `/review-convergence` on it to convergence, then proceed. This applies at every depth of recursion.
+**Recursive application:** When a queued topic from Gates A/B/C starts its own `/integrate-topic` cycle, it must execute its own Phase 0 in full — write its own plan (or locate an existing one), run `/review-convergence` on it to convergence, then proceed. This applies at every depth of recursion. Also check `ops/plans/hypotheses-trees/hypotheses-trees.md`: if the parent topic's subtree file already has a row for this topic as a child node, read that node's usefulness scores and pre-identified certainty as starting context for Phase 1.
 
 **Report:** "Phase 0: plan located at `ops/plans/<file>` / created at `ops/plans/<file>` and reviewed to convergence."
 
@@ -166,6 +167,72 @@ Per idea: mechanistic rationale + evidence link + preliminary certainty (0.0–1
 
 ---
 
+## Phase 3a — Hypothesis Tree Update
+
+**Agent:** main session | **Model:** current (mechanical write)
+
+After Phase 3 brainstorm file is written and the Phase 0 plan table is populated, update the hypothesis tree:
+
+1. **Locate subtree file:** `ops/plans/hypotheses-trees/subtrees/<topic-slug>.md`
+   - If the file does not exist: create it (see format below).
+   - If it exists: append new rows; do not overwrite existing rows.
+
+2. **Update root index:** add or update a row in the `Subtree index` table of `ops/plans/hypotheses-trees/hypotheses-trees.md`:
+   ```
+   | <topic-slug> | subtrees/<topic-slug>.md | <YYYY-MM-DD> | <N ideas> | 0 | ⬜ pending |
+   ```
+
+3. **Assign usefulness scores** for every idea row using the legend below. Scores are 0–5 integers; assign before integration work starts; revise in Phase 4 if integration reveals a different impact.
+
+**Usefulness scoring heuristics:**
+
+| Dimension | Score 5 | Score 3 | Score 1 |
+|-----------|---------|---------|---------|
+| `mech` | Core causal pathway, directly advances pathophysiology model | Adds supporting mechanism | Tangential connection |
+| `tx` | High-confidence actionable therapeutic target | Plausible target, needs trials | Speculative, no direct route |
+| `expl` | Explains ≥3 unexplained ME/CFS features | Explains one major feature | Minor explanatory addition |
+| `math` | New ODE variable / DAG node / parameter with quantifiable value | Qualitative model extension | Loose analogy to model |
+| `dx` | Validated or near-validated biomarker | Measurable but unvalidated | Theoretical only |
+
+**Subtree file format:**
+
+```markdown
+# Hypothesis Subtree: <Topic Name>
+
+**Origin:** `/integrate-topic <topic description>`
+**Brainstorm file:** `content-staging/brainstorm-<topic-slug>-<date>.md`
+**Plan file:** `ops/plans/<topic-slug>-integration-plan.md`
+**Date:** <YYYY-MM-DD>
+**Parent topic:** <parent slug or "root">
+**Child subtrees:** (none yet)
+
+## Nodes
+
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|
+| (rows added here) |
+```
+
+**Per-row fields:**
+- `ID` — brainstorm ID (e.g. `1.1`)
+- `Title` — ≤8 words
+- `Env` — `hypothesis` / `speculation` / `open-question` / `proposal`
+- `Cert` — 0.00–1.00 or `n/a`
+- `mech` / `tx` / `expl` / `math` / `dx` — 0–5 usefulness scores
+- `Status` — `⬜` / `🔵` / `✅` / `⏭️` / `🚫` / `↩️`
+- `Children` — slug of child subtree file if this node spawns its own `/integrate-topic`, else `—`
+
+**When a node spawns a child `/integrate-topic` cycle:**
+- Set the node's `Children` field to `subtrees/<child-slug>.md`
+- Set node `Status` to `⏭️` (queued) until child cycle completes, then `✅`
+- Add `<child-slug>` to the `Child subtrees:` header of the parent subtree file
+
+**After Phase 4**, update node statuses in the subtree file to reflect integrated / skipped / parked outcomes.
+
+**Report:** "Phase 3a complete: subtree `subtrees/<topic-slug>.md` written/updated with N nodes; root index updated."
+
+---
+
 ## Phase 4 — Develop and Integrate ALL Remotely-Relevant Ideas
 
 **Agent:** main session | **Model:** current
@@ -200,6 +267,13 @@ Read Phase 3 output. Per idea, map certainty → environment:
 **Integration threshold:** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. No idea is "too speculative to integrate" — speculative ideas belong in `#speculation` environments with low certainty ratings.
 
 **Report:** "Phase 4 complete: N ideas integrated (M hypotheses, K speculations, J open questions), P skipped (reason: [explicit irrelevance only])."
+
+After reporting, update node statuses in `ops/plans/hypotheses-trees/subtrees/<topic-slug>.md`:
+- Integrated → `✅`
+- Skipped (no relevance) → `🚫` with reason in `Children` column
+- Parked as open-question only (no literature) → `↩️`
+- Queued for child `/integrate-topic` → `⏭️`; set `Children` = `subtrees/<child-slug>.md`
+Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 ---
 
@@ -285,6 +359,7 @@ Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit
 | 1 | `literature-integrator` | sonnet | Research synthesis needs judgment |
 | 2 | main session | current | Composition at zero marginal cost |
 | 3 | `scientific-insight-generator` | opus | Creative cross-domain synthesis |
+| 3a | main session | current | Mechanical tree write |
 | 4 | `literature-integrator` (sub) | sonnet | Per-idea research |
 | 4 | main session | current | Development + integration |
 | 5 | `test-runner` | haiku | Mechanical build check |
