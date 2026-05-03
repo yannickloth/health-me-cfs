@@ -44,6 +44,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
 | ans-aging             | [subtrees/ans-aging.md](subtrees/ans-aging.md)                        | 2026-04-20      | 25         | 0          | ⬜ stub        |
+| ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |
 | autoimmune-diseases   | [subtrees/autoimmune-diseases.md](subtrees/autoimmune-diseases.md)    | 2026-05-02      | 0          | 0          | ⬜ group-root  |
 | autoimmune-sle        | [subtrees/autoimmune-sle.md](subtrees/autoimmune-sle.md)              | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-sjogren    | [subtrees/autoimmune-sjogren.md](subtrees/autoimmune-sjogren.md)      | 2026-05-02      | 0          | 0          | ⬜ stub        |
@@ -116,6 +117,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | li-mg-analogs         | [subtrees/li-mg-analogs.md](subtrees/li-mg-analogs.md)                | 2026-04-17      | 12         | 0          | ⬜ stub        |
 | lithium-ip3           | [subtrees/lithium-ip3.md](subtrees/lithium-ip3.md)                    | 2026-04-17      | 21         | 0          | ⬜ stub        |
 | mcas-domain6          | [subtrees/mcas-domain6.md](subtrees/mcas-domain6.md)                  | 2026-05-01      | 26         | 26         | ✅ complete (12-round review-fix converged 2026-05-03) |
+| mecfsmed-de           | [subtrees/mecfsmed-de.md](subtrees/mecfsmed-de.md)                    | 2026-03-28      | 0          | 0          | ⬜ stub        |
 | metabolic-reserve     | [subtrees/metabolic-reserve.md](subtrees/metabolic-reserve.md)        | 2026-04-20      | 34         | 0          | ⬜ stub        |
 | neuroplasticity       | [subtrees/neuroplasticity.md](subtrees/neuroplasticity.md)            | 2026-03-27      | 16         | 0          | ⬜ stub        |
 | pregnancy-repro       | [subtrees/pregnancy-repro.md](subtrees/pregnancy-repro.md)            | 2026-04-25      | 35         | 0          | ⬜ stub        |
@@ -130,6 +132,47 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | vns-fibre             | [subtrees/vns-fibre.md](subtrees/vns-fibre.md)                        | 2026-04-10      | 28         | 0          | ⬜ stub        |
 | wound-healing         | [subtrees/wound-healing.md](subtrees/wound-healing.md)                | 2026-04-12      | 40         | 0          | ⬜ stub        |
 | mtdna-predisposition  | [subtrees/mtdna-predisposition.md](subtrees/mtdna-predisposition.md)  | 2026-05-02      | 32         | 32         | ✅ complete (plan deleted)     |
+| new-contents          | [subtrees/new-contents.md](subtrees/new-contents.md)                  | 2026-05-03      | 0          | 0          | ⬜ group-root  |
+| new-contents-sfn      | [subtrees/new-contents-sfn.md](subtrees/new-contents-sfn.md)          | 2026-05-03      | 0          | 0          | ⬜ stub        |
+| new-contents-microclots | [subtrees/new-contents-microclots.md](subtrees/new-contents-microclots.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-enterovirus | [subtrees/new-contents-enterovirus.md](subtrees/new-contents-enterovirus.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-molecular-mimicry | [subtrees/new-contents-molecular-mimicry.md](subtrees/new-contents-molecular-mimicry.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-actin-wasf3 | [subtrees/new-contents-actin-wasf3.md](subtrees/new-contents-actin-wasf3.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-viral-mito | [subtrees/new-contents-viral-mito.md](subtrees/new-contents-viral-mito.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-fmt      | [subtrees/new-contents-fmt.md](subtrees/new-contents-fmt.md)          | 2026-05-03      | 0          | 0          | ⬜ stub        |
+| new-contents-immunosenescence | [subtrees/new-contents-immunosenescence.md](subtrees/new-contents-immunosenescence.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-sex-specific | [subtrees/new-contents-sex-specific.md](subtrees/new-contents-sex-specific.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-anti-m3  | [subtrees/new-contents-anti-m3.md](subtrees/new-contents-anti-m3.md)  | 2026-05-03      | 0          | 0          | ⬜ stub        |
+| new-contents-viral-reservoir | [subtrees/new-contents-viral-reservoir.md](subtrees/new-contents-viral-reservoir.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-ebv-serology | [subtrees/new-contents-ebv-serology.md](subtrees/new-contents-ebv-serology.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-immune-checkpoint | [subtrees/new-contents-immune-checkpoint.md](subtrees/new-contents-immune-checkpoint.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-episwitch | [subtrees/new-contents-episwitch.md](subtrees/new-contents-episwitch.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-gut-brain | [subtrees/new-contents-gut-brain.md](subtrees/new-contents-gut-brain.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-economic-burden | [subtrees/new-contents-economic-burden.md](subtrees/new-contents-economic-burden.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-endometriosis | [subtrees/new-contents-endometriosis.md](subtrees/new-contents-endometriosis.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-connective-tissue | [subtrees/new-contents-connective-tissue.md](subtrees/new-contents-connective-tissue.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-sars-persistence | [subtrees/new-contents-sars-persistence.md](subtrees/new-contents-sars-persistence.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-cfrna    | [subtrees/new-contents-cfrna.md](subtrees/new-contents-cfrna.md)      | 2026-05-03      | 0          | 0          | ⬜ stub        |
+| new-contents-trp-kyn-gut | [subtrees/new-contents-trp-kyn-gut.md](subtrees/new-contents-trp-kyn-gut.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-sgb      | [subtrees/new-contents-sgb.md](subtrees/new-contents-sgb.md)          | 2026-05-03      | 0          | 0          | ⬜ stub        |
+| new-contents-cci      | [subtrees/new-contents-cci.md](subtrees/new-contents-cci.md)          | 2026-05-03      | 0          | 0          | ⬜ stub        |
+| new-contents-parvovirus | [subtrees/new-contents-parvovirus.md](subtrees/new-contents-parvovirus.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-oxaloacetate | [subtrees/new-contents-oxaloacetate.md](subtrees/new-contents-oxaloacetate.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-bacterial-taxa | [subtrees/new-contents-bacterial-taxa.md](subtrees/new-contents-bacterial-taxa.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-virus-microbiome | [subtrees/new-contents-virus-microbiome.md](subtrees/new-contents-virus-microbiome.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-post-ibs | [subtrees/new-contents-post-ibs.md](subtrees/new-contents-post-ibs.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-bile-acids | [subtrees/new-contents-bile-acids.md](subtrees/new-contents-bile-acids.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-gut-viral | [subtrees/new-contents-gut-viral.md](subtrees/new-contents-gut-viral.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-gut-immune-training | [subtrees/new-contents-gut-immune-training.md](subtrees/new-contents-gut-immune-training.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-gut-virome | [subtrees/new-contents-gut-virome.md](subtrees/new-contents-gut-virome.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-gut-mycobiome | [subtrees/new-contents-gut-mycobiome.md](subtrees/new-contents-gut-mycobiome.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| severe-patients-biomarkers | [subtrees/severe-patients-biomarkers.md](subtrees/severe-patients-biomarkers.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| marie-hypotheses | [subtrees/marie-hypotheses.md](subtrees/marie-hypotheses.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| medication-effects | [subtrees/medication-effects.md](subtrees/medication-effects.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| research-gaps | [subtrees/research-gaps.md](subtrees/research-gaps.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| cross-viral-comparison | [subtrees/cross-viral-comparison.md](subtrees/cross-viral-comparison.md) | (no date)   | 0          | 0          | ⬜ stub        |
+| iron-dysregulation    | [subtrees/iron-dysregulation.md](subtrees/iron-dysregulation.md)          | (no date)   | 0          | 0          | ⬜ stub        |
+| ussher-book           | [subtrees/ussher-book.md](subtrees/ussher-book.md)                        | (no date)       | 0          | 0          | ⬜ stub        |
 
 ---
 
