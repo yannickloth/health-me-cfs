@@ -7,6 +7,15 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-blood-immune-2026-04-16.md |
+| integration-guide | content-staging/integration-guide-blood-immune.md |
+| bib | content-staging/bibtex-blood-immune.bib |
+| annotated-bib | content-staging/annotated-bib-blood-immune.typ |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic blood-immune` to populate this table.

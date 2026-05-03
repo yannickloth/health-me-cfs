@@ -175,6 +175,20 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | ussher-book           | [subtrees/ussher-book.md](subtrees/ussher-book.md)                        | (no date)       | 0          | 0          | ⬜ stub        |
 | linkedin-energy-articles | [subtrees/linkedin-energy-articles.md](subtrees/linkedin-energy-articles.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
 | energy-failure-differential | [subtrees/energy-failure-differential.md](subtrees/energy-failure-differential.md) | 2026-04-20 | 0 | 0 | ⬜ group-root |
+| adhd-energy-predisposition | [subtrees/adhd-energy-predisposition.md](subtrees/adhd-energy-predisposition.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
+| h2s-mitochondria | [subtrees/h2s-mitochondria.md](subtrees/h2s-mitochondria.md) | 2026-04-21 | 0 | 0 | ⬜ stub |
+| lower-baseline-conditions | [subtrees/lower-baseline-conditions.md](subtrees/lower-baseline-conditions.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
+| reference-range-problem | [subtrees/reference-range-problem.md](subtrees/reference-range-problem.md) | 2026-04-21 | 0 | 0 | ⬜ stub |
+| sibo-mecfs | [subtrees/sibo-mecfs.md](subtrees/sibo-mecfs.md) | 2026-04-21 | 0 | 0 | ⬜ stub |
+| endothelial-senescence | [subtrees/endothelial-senescence.md](subtrees/endothelial-senescence.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| ambroxol-trpv1 | [subtrees/ambroxol-trpv1.md](subtrees/ambroxol-trpv1.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| mcas-primary-driver | [subtrees/mcas-primary-driver.md](subtrees/mcas-primary-driver.md) | 2026-05-01 | 0 | 0 | ⬜ stub |
+| parasites-mecfs | [subtrees/parasites-mecfs.md](subtrees/parasites-mecfs.md) | 2026-04-06 | 0 | 0 | ⬜ stub |
+| covid-immune-reset | [subtrees/covid-immune-reset.md](subtrees/covid-immune-reset.md) | 2026-03-18 | 0 | 0 | ⬜ stub |
+| neuropsychiatric-secondary | [subtrees/neuropsychiatric-secondary.md](subtrees/neuropsychiatric-secondary.md) | 2026-03-27 | 0 | 0 | ⬜ stub |
+| pending-hypotheses    | [subtrees/pending-hypotheses.md](subtrees/pending-hypotheses.md)        | (various)       | 0          | 0          | ⬜ stub        |
+| clinical-case-integration | [subtrees/clinical-case-integration.md](subtrees/clinical-case-integration.md) | 2026-04 | 0 | 0 | ⬜ stub |
+| megc-integration      | [subtrees/megc-integration.md](subtrees/megc-integration.md)            | (no date)       | 0          | 0          | ⬜ stub        |
 
 ---
 

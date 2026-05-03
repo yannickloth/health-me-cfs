@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-prodromal-signs-children-2026-04-20.md |
+
 ## Integration Context
 
 **Priority:** 🔴  

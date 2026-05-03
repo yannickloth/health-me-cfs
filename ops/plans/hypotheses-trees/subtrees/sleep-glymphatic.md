@@ -7,6 +7,16 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-glymphatic-neurodegeneration.md |
+| literature | content-staging/literature-orexin-mecfs.md |
+| literature | content-staging/literature-tired-but-wired-mechanism-2026-04-19.md |
+| literature | content-staging/literature-nap-pathophysiology-mecfs-2026-04-19.md |
+| literature | content-staging/literature-meditation-rest-mecfs-2026-04-20.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic sleep-glymphatic` to populate this table.

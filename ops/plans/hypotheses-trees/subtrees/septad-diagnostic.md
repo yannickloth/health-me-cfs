@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| integration-guide | content-staging/integration-guide-septad-diagnostic-map-2026-05-01.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic septad-diagnostic` to populate this table.

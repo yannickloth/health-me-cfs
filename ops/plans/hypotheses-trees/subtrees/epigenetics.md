@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-epigenetics-2026-04-26.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic epigenetics` to populate this table.

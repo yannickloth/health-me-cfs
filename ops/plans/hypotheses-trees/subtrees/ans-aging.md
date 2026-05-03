@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-ans-aging-2026-04-20.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic ans-aging` to populate this table.

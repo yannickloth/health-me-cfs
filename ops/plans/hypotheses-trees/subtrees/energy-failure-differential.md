@@ -71,6 +71,40 @@ Direction B (ME/CFS → exacerbation of pre-existing vulnerability):
 | 14. Channelopathies / Ion | 5 | 1 (TRPM3) | Periodic paralysis, acidosis |
 | X. Cross-Cutting | 5 | 5 | All are P1 synthesis topics |
 
+## Execution History
+
+> Migrated from `content-staging/continuation-prompt-energy-failure-integration.md`.
+
+### Articles written (10/34 complete)
+
+1. `20260612_linkedin-four-flavors-of-fatigue` (.article.md + .article.post.md)
+2. `20260615_linkedin-normal-blood-tests` (.article.md + .article.post.md)
+3. `20260618_linkedin-cell-power-plant` (.article.md + .article.post.md)
+4. `20260621_linkedin-depression-mecfs-burnout` (.article.md + .article.post.md)
+5. `20260624_linkedin-cross-pathogen-convergence` (.article.md + .article.post.md)
+6. `20260627_linkedin-sibo-bacteria-stealing-breakfast` (.article.md + .article.post.md)
+7. `20260630_linkedin-thyroid-tsh-lies` (.article.md + .article.post.md)
+8. `20260703_linkedin-hypermobility-energy-cost` (.article.md + .article.post.md)
+9. `20260706_linkedin-hydrogen-sulfide-gut-poison` (.article.md + .article.post.md)
+10. `20260709_linkedin-energy-failure-convergence` (.article.md + .article.post.md)
+
+### Paper integration completed
+
+- `references.bib` — ~45 new entries added (12 manual + ~33 from research agents)
+- `ch11-gut-microbiome.typ` — New H₂S-mitochondria hypothesis section (`@sec:h2s-mitochondrial-toxin`) with 8 citations, hypothesis-box, warning-box
+- `ch06-energy-metabolism.typ` — Cross-reference to H₂S section at Complex IV discussion
+- `hypothesis-registry.typ` — 2 new entries (H₂S hypothesis + SQOR-CoQ10 speculation)
+
+### Literature research completed
+
+- `literature-sibo-mecfs-2026-04-21.md` + `bib-entries-sibo.bib` + `annotated-bib-sibo.typ` (9 papers)
+- `literature-h2s-mitochondria-2026-04-21.md` + `bib-entries-h2s.bib` + `annotated-bib-h2s.typ` (11 papers)
+- `literature-reference-range-problem-2026-04-21.md` + `bib-entries-reference-range.bib` + `annotated-bib-reference-range.typ` (9 papers)
+
+### Build status
+
+- `nix build` failed due to network error (OpenSSL/cetz package download failure in Nix sandbox) — NOT a code error. Retry should work.
+
 ## Full Item List
 
 > Complete item list migrated from `content-staging/20260420 plan-energy-failure-differential-integration.md`. All items ⬜ pending.

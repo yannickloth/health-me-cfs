@@ -6,6 +6,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| integration-guide | content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md |
+
 ## Integration Context
 
 **Priority:** 🔴  

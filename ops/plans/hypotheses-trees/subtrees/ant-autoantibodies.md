@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| integration-guide | content-staging/INTEGRATION_GUIDE_ant_autoantibodies_2025.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic ant-autoantibodies` to populate this table.

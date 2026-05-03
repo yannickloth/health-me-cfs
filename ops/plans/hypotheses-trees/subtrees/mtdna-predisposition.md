@@ -7,6 +7,14 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-mtdna-predisposition-mecfs-2026-05-02.md |
+| integration-guide | content-staging/INTEGRATION_GUIDE_matits-2026-cfmtdna-longcovid.md |
+| scientific-insights | content-staging/scientific-insights-cfmtdna-2026-03-28.md |
+
 ## Phase Status
 
 - Phase 1 (literature): ✅ complete — 7 bib entries added; staging file at `content-staging/literature-mtdna-predisposition-mecfs-2026-05-02.md`

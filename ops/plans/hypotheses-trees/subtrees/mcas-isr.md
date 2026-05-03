@@ -7,6 +7,12 @@
 **Parent topic:** isr (H9)
 **Child subtrees:** (none)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| integration-guide | content-staging/integration-guide-mcas-isr-2026-05-02.md |
+
 ## Nodes
 
 Usefulness legend: mech/tx/expl/math/dx = 0–5 (5 = highest).

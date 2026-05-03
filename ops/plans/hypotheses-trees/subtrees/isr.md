@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** mcas-isr (H9, queued)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| literature | content-staging/literature-isr-mecfs-2026-05-01.md |
+
 ## Nodes
 
 Usefulness legend: mech/tx/expl/math/dx = 0–5 (5 = highest). n/a = not applicable for model/cross-disease items.

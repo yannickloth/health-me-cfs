@@ -7,6 +7,12 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| integration-guide | content-staging/integration-guide-lichen-sclerosus-mecfs-2026-05-01.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic lichen-sclerosus` to populate this table.

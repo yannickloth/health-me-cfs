@@ -7,6 +7,14 @@
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
+## Source Files
+
+| Type | File |
+|------|------|
+| integration-guide | content-staging/integration-guide-trp-piezo-ch08.md |
+| integration-guide | content-staging/integration-guide-trp-piezo-ch14h.md |
+| integration-guide | content-staging/integration-guide-trp-piezo-ch15.md |
+
 ## Nodes
 
 > **Status: stub** — nodes not yet populated. Run Phase 3a of `/integrate-topic trp-piezo` to populate this table.
