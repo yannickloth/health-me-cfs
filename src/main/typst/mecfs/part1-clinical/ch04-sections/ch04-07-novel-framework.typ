@@ -14,7 +14,7 @@ The three-tiered diagnostic framework follows logically from four fundamental ob
 
 *Observation 1: ME/CFS is a Clinical Syndrome with a Core Pathognomonic Feature*
 
-Post-exertional malaise (PEM) with delayed onset, disproportionate severity, and prolonged recovery distinguishes ME/CFS from all other fatiguing conditions. This symptom:
+Post-exertional malaise (PEM) with delayed onset, disproportionate severity, and prolonged recovery distinguishes ME/CFS from other major fatiguing conditions, including depression and deconditioning. This symptom:
 
     - Cannot be explained by deconditioning (which improves with gradual activity)
     - Cannot be explained by depression (which may improve somewhat with activity)
@@ -110,7 +110,7 @@ The proposed three-tiered framework would not have been possible a decade ago. R
     - *Objective biomarkers*: GPCR autoantibodies @Loebel2016 @Bynke2020, Heng 7-marker panel @heng2025mecfs, 2-day CPET @Lim2020 @keller2024cpet provide biological stratification
     - *Mechanistic understanding*: Autoimmunity @Fluge2025daratumumab, mitochondrial dysfunction @wang2023wasf3 @Syed2025, neuroinflammation @Nakatomi2014neuroinflammation explain heterogeneity
     - *Treatment stratification proof-of-concept*: Daratumumab 60% response in autoimmune subset @Fluge2025daratumumab, immunoadsorption for GPCR autoantibodies @Stein2024immunoadsorption demonstrate that biomarker-guided treatment works
-    - *Natural history data*: Critical intervention windows @Maksoud2020natural, progression patterns @Chu2019, cumulative damage model validated
+    - *Natural history data*: Critical intervention windows @Maksoud2020natural, progression patterns @Chu2019, cumulative damage model supported by natural history data
 
 The proposed framework integrates these advances into clinically actionable diagnostic tiers.
 
@@ -128,7 +128,7 @@ $=>$ *Tier 2*: Multi-domain biological phenotyping to enable multi-target treatm
 
 $=>$ *Tier 3*: Severity classification + prospective risk assessment with emergency protocols
 
-The three-tiered structure is not arbitrary—it reflects the logical necessity of answering three distinct clinical questions (diagnosis, mechanism, trajectory) that cannot be collapsed without losing critical information.
+The three-tiered structure is not arbitrary—it reflects the clinical necessity of answering three distinct clinical questions (diagnosis, mechanism, trajectory) that cannot be collapsed without losing critical information.
 === Tier 1: Clinical Syndrome Criteria
 <subsec:tier1>
 
