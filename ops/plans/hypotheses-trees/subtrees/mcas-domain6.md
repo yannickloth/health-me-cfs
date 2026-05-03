@@ -1,11 +1,23 @@
 # Hypothesis Subtree: MCAS Domain 6
 
-**Origin:** `/integrate-topic` brainstorm (2026-05-01 session) + Phase 4 completion (2026-05-02 session)
+**Origin:** `/integrate-topic` brainstorm (2026-05-01 session) + Phase 4 completion (2026-05-02 session) + 12-round convergence review-fix (2026-05-02/03)
 **Brainstorm file:** `content-staging/brainstorm-mcas-domain6-2026-05-01.md`
-**Plan file:** `ops/plans/mcas-domain6-integration-plan.md`
-**Date:** 2026-05-01
+**Plan file:** deleted (complete)
+**Date:** 2026-05-01 — converged 2026-05-03
 **Parent topic:** root
-**Child subtrees:** (none)
+**Child subtrees:** mcas-isr (H9 → 5 nodes ✅)
+
+## Review-fix convergence summary (2026-05-02/03)
+
+12-round adversarial + scientific-rigor review-fix loop on the 7 integration-scope files. Fixes:
+- 16 `#hypothesis` → `#speculation` conversions (certainty < 0.45 violations)
+- 8 label prefix fixes (`hyp:` → `spec:` for speculation environments)
+- 14 registry `[H]` → `[S]` type corrections
+- 1 new `#speculation` environment added (NET clearance deficit, ch07)
+- 1 missing label added (`spec:sequential-cycle-recruitment-model`, ch13)
+- 6 informal `*Hypothesis*:` bullets renamed to `*Prediction*:` in ch04-07
+- Drug interaction warnings added (QTc ketotifen+ondansetron, CYP3A4 cimetidine+ivabradine)
+- MCAS/Domain 6 terminology clarifications in ch07 and ch14d
 
 ## Nodes
 

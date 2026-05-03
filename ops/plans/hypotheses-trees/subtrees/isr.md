@@ -2,7 +2,7 @@
 
 **Origin:** `/integrate-topic brainstorm-isr-mecfs-2026-05-01.md`
 **Brainstorm file:** `content-staging/brainstorm-isr-mecfs-2026-05-01.md`
-**Plan file:** `ops/plans/isr-integration-plan.md`
+**Plan file:** deleted (complete)
 **Date:** 2026-05-01
 **Parent topic:** root
 **Child subtrees:** mcas-isr (H9, queued)

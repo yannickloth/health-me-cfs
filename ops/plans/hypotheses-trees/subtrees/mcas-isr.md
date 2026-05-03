@@ -2,7 +2,7 @@
 
 **Origin:** `/integrate-topic mcas-isr` (child of ISR H9)
 **Brainstorm file:** `content-staging/brainstorm-isr-mecfs-2026-05-01.md` (H9 section)
-**Plan file:** `ops/plans/mcas-isr-integration-plan.md`
+**Plan file:** deleted (complete)
 **Date:** 2026-05-02
 **Parent topic:** isr (H9)
 **Child subtrees:** (none)

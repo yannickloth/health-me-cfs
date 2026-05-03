@@ -2,7 +2,7 @@
 
 **Origin:** `/integrate-topic mitochondrial predisposition hypothesis — inherited mtDNA variants as a vulnerability threshold for ME/CFS, with ADHD comorbidity as a shared substrate expression`
 **Brainstorm file:** `content-staging/brainstorm-mtdna-predisposition-mecfs-2026-05-02.md`
-**Plan file:** `ops/plans/mtdna-predisposition-integration-plan.md`
+**Plan file:** deleted (complete)
 **Date:** 2026-05-02
 **Parent topic:** root
 **Child subtrees:** (none yet)
