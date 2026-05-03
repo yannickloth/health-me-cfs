@@ -381,3 +381,10 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/41272881/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Lee2025CanadaMCAS — MCAS Canada practical diagnosis management ECNM-AIM guideline |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12063504/ | pubmed | 2026-05-01 | 2026-05-01 | bib/appendix-h/integration-guide — Yao2025MCASPOTStriad — POTS HSD MCAS triad young patients n=100 prevalence definition-dependent therapy response |
 | https://www.nature.com/articles/s43856-025-01300-z | nature | 2026-05-02 | ⬜ pending | subtrees/beyond-long-covid.md — Faghy2025LongCOVIDReview — comprehensive mechanistic review Long COVID; immune dysregulation, viral persistence, autonomic dysfunction, microvascular pathology, PEM/fatigue overlap with ME/CFS; Comms Med 2025; integrate in /integrate-topic long-covid-mecfs Phase 1 |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10418481/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — vanEeden2023SScMECFS — mitochondrial signature SSc patients with ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/36045606/ | pubmed | 2026-05-03 | 2026-05-03 | bib/appendix-h — vanEeden2022fatigue — fatigue AAV/SSc similarities ME/CFS critical review |
+| https://pubmed.ncbi.nlm.nih.gov/39447026/ | pubmed | 2026-05-03 | 2026-05-03 | bib/appendix-h — Kwakkenbos2025SScFatigue — fatigue SSc 2385 SPIN cohort participants |
+| https://pubmed.ncbi.nlm.nih.gov/29303706/ | pubmed | 2026-05-03 | 2026-05-03 | bib/appendix-h — Basta2018SScFatigueSysRev — fatigue in SSc systematic review |
+| https://pubmed.ncbi.nlm.nih.gov/37828025/ | pubmed | 2026-05-03 | 2026-05-03 | bib/appendix-h — Hartmann2023ADRA2A — ADRA2A IRX1 putative risk genes Raynaud's GWAS Nat Commun |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11480858/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — Tervi2024RaynaudGWAS — Raynaud's GWAS 8 loci vasculature immunity Cell Genomics |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC8922659/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — Masini2021SScAutonomic — autonomic dysfunction microvascular damage SSc pilot n=26 |

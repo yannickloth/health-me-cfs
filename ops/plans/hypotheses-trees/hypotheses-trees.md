@@ -66,7 +66,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | autoimmune-itp        | [subtrees/autoimmune-itp.md](subtrees/autoimmune-itp.md)              | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-dermatomyositis | [subtrees/autoimmune-dermatomyositis.md](subtrees/autoimmune-dermatomyositis.md) | 2026-05-02 | 0 | 0       | ⬜ stub        |
 | autoimmune-psoriasis  | [subtrees/autoimmune-psoriasis.md](subtrees/autoimmune-psoriasis.md)  | 2026-05-02      | 0          | 0          | ⬜ stub        |
-| autoimmune-ssc        | [subtrees/autoimmune-ssc.md](subtrees/autoimmune-ssc.md)              | 2026-05-02      | 0          | 0          | 🟡 partial     |
+| autoimmune-ssc        | [subtrees/autoimmune-ssc.md](subtrees/autoimmune-ssc.md)              | 2026-05-03      | 42         | 7          | ✅ done        |
 | autoimmune-urticaria  | [subtrees/autoimmune-urticaria.md](subtrees/autoimmune-urticaria.md)  | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-hlh        | [subtrees/autoimmune-hlh.md](subtrees/autoimmune-hlh.md)              | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-igg4rd     | [subtrees/autoimmune-igg4rd.md](subtrees/autoimmune-igg4rd.md)        | 2026-05-02      | 0          | 0          | ⬜ stub        |
