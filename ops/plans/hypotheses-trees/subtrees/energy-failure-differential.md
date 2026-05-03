@@ -1,48 +1,83 @@
-# Plan: Systematic Integration of Energy-Failure Differential Conditions
+# Hypothesis Group-Root: Energy Failure Differential Integration
 
-**Created:** 2026-04-20
-**Method:** `/integrate-topic` for each condition or condition cluster
-**Prioritization:** Patient impact + ME/CFS mechanistic insight potential
-**Triage:** Inline — each entry includes priority, chapter fit, and integration depth
+**Origin:** Plan migration from `content-staging/20260420 plan-energy-failure-differential-integration.md`
+**Brainstorm file:** (not generated — plan used directly)
+**Date:** 2026-04-20
+**Parent topic:** root
+**Child subtrees:** (see category stubs listed below)
 
----
+## Group Context
 
-## How to Use This Plan
+**Purpose:** Systematically integrate all conditions that cause or mimic energy failure, positioning each as either a causal upstream factor, differential diagnosis, or mechanistic comparator for ME/CFS.
 
-**Execution method: `/integrate-topic` skill for every item.**
+**Central thesis:** Energy failure is the common final pathway. Different entry points (mitochondrial, oxygen delivery, endocrine, immune, neurological, psychiatric, metabolic, organ failure, toxic, infectious, connective tissue, sleep, vascular, channelopathy) converge on the same endpoint: cellular ATP insufficiency. ME/CFS is NOT one disease — it is the common endpoint of many roads to cellular energy failure.
 
-Each entry in this plan is executed by invoking the `/integrate-topic` skill. The topic name from the table's "Topic" column is passed as the argument. The skill handles the full pipeline automatically: research → development → creative brainstorming → paper integration → review-to-convergence → changelog → commit.
-
-**Invocation pattern:**
+**Causal model (both directions):**
 ```
-/integrate-topic <topic name from table>
+Direction A (upstream condition → energy failure → ME/CFS phenotype):
+  Specific condition (mito disease, iron deficiency, SIBO, CCI, etc.)
+    → energy pathway impaired
+      → cellular ATP crisis
+        → ME/CFS-like phenotype
+
+Direction B (ME/CFS → exacerbation of pre-existing vulnerability):
+  Subclinical vulnerability (low metabolic reserve, connective tissue laxity)
+    → ME/CFS trigger activates vulnerability
+      → overt disease expression
 ```
 
-Example:
-```
-/integrate-topic Pyruvate dehydrogenase complex dysfunction in ME/CFS
-```
+**Scientific constraint:** For each condition, the integration must find what the literature actually says — not assume ME/CFS relevance. Mechanism claims require citations. Plausible ≠ documented.
 
-Work through sessions top-to-bottom within each priority tier. Check off items as completed.
+**Cross-cutting synthesis topics (highest priority):**
+- X.1: "Normal test, broken patient" — the resolution problem across diagnoses
+- X.2: Fatigue vs fatigability vs sleepiness vs amotivation — four distinct phenomena  
+- X.3: The comorbidity cluster: ME/CFS + hEDS + MCAS + POTS + ADHD
+- X.4: Metabolic inflexibility — inability to switch fuel sources
+- X.5: Energy failure as common final pathway (synthesis)
+
+**Execution method:** `/integrate-topic` for each item. ~90 distinct invocations after merges.
 
 **Priority tiers:**
-- **P1 (Critical):** Direct ME/CFS overlap, high patient impact, generates novel insight. Do first.
-- **P2 (High):** Important differential, shared mechanisms, or commonly co-occurring. Do second.
-- **P3 (Moderate):** Relevant differential or mechanistic parallel. Adds completeness.
-- **P4 (Context):** Low ME/CFS overlap but important for completeness of the energy-failure landscape. Brief treatment sufficient.
+- P1 (Critical): ~20 topics — direct ME/CFS overlap, high patient impact, novel insight
+- P2 (High): ~25 topics — important differential, shared mechanisms
+- P3 (Moderate): ~25 topics — adds completeness
+- P4 (Context): ~15 topics — brief differential entries, batch by chapter
 
-**Integration depth guidance:**
-- **Deep:** Dedicated subsection with mechanism, ME/CFS relevance, differential features, citations
-- **Moderate:** Paragraph+ within existing section, with citations
-- **Brief:** Sentence-to-paragraph in differential or context section
+**Recommended chapter batching:**
+- ch04-08 differential: many P3/P4 items
+- ch06 energy metabolism: items 1.3–1.8, 7.1, 7.9, 14.3, X.4
+- ch11 gut: items 1.8, 8.4, 8.5, 7.7
+- ch14d cross-disease: items 4.2–4.5, 6.1, 6.3, 9.4, X.3
+- ch03 sleep: items 12.1–12.5, 5.2
+- ch09 endocrine: items 3.1–3.8
 
-**Estimated total:** ~95 `/integrate-topic` invocations (many conditions cluster naturally)
+## Category Index
 
----
+| Category | Items | P1 count | Notes |
+|----------|-------|----------|-------|
+| 1. Mitochondrial / Cellular Energy Production | 8 | 1 (PDH) | Fe-S, B vitamins, H₂S, carnitine |
+| 2. Oxygen Delivery Failures | 9 | 2 (iron, cerebral hypoperfusion) | POTS, sleep apnea, cardiac |
+| 3. Endocrine / Hormonal | 9 | 0 | Thyroid, adrenal, GH, diabetes |
+| 4. Immune-Mediated / Inflammatory | 9 | 2 (post-infectious convergence, CCI) | SLE, Sjögren, MS, CIRS |
+| 5. Neurological / Central Fatigue | 9 | 1 (CCI/AAI) | MG, narcolepsy, concussion |
+| 6. Psychiatric / Neurotransmitter | 8 | 4 (ADHD, depression, autistic burnout, BH4) | PTSD, burnout |
+| 7. Metabolic / Nutritional | 14 | 1 (BH4) | B12, folate, magnesium, celiac |
+| 8. Organ System Failure | 7 | 2 (SIBO, dysbiosis) | Kidney, liver, SIBO |
+| 9. Toxic / Environmental | 7 | 1 (drug-induced fatigue) | Mold, metals, statins |
+| 10. Infections (Active/Chronic) | 11 | 2 (post-infectious convergence, EBV) | Lyme, Q fever, HHV-6 |
+| 11. Connective Tissue / Structural | 5 | 1 (CCI/AAI) | Tethered cord, myopathies |
+| 12. Sleep-Specific | 5 | 2 (alpha-delta, UARS) | PLMD, DSPD |
+| 13. Vascular / Perfusion | 5 | 1 (microclots) | Raynaud's |
+| 14. Channelopathies / Ion | 5 | 1 (TRPM3) | Periodic paralysis, acidosis |
+| X. Cross-Cutting | 5 | 5 | All are P1 synthesis topics |
 
-## Category 1: Mitochondrial / Cellular Energy Production
+## Full Item List
 
-### Already well-covered in ch06 (energy metabolism):
+> Complete item list migrated from `content-staging/20260420 plan-energy-failure-differential-integration.md`. All items ⬜ pending.
+
+### Category 1: Mitochondrial / Cellular Energy Production
+
+#### Already well-covered in ch06 (energy metabolism):
 General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle impairment, fatty acid oxidation. These need enrichment, not fresh integration.
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
@@ -58,9 +93,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 2: Oxygen Delivery Failures
+### Category 2: Oxygen Delivery Failures
 
-### Already well-covered: POTS/OI (ch10), microclots (ch10/ch14e), small fiber neuropathy (ch08/ch10)
+#### Already well-covered: POTS/OI (ch10), microclots (ch10/ch14e), small fiber neuropathy (ch08/ch10)
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -76,9 +111,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 3: Endocrine / Hormonal
+### Category 3: Endocrine / Hormonal
 
-### Already well-covered: HPA axis (ch09), thyroid basics
+#### Already well-covered: HPA axis (ch09), thyroid basics
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -94,9 +129,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 4: Immune-Mediated / Inflammatory
+### Category 4: Immune-Mediated / Inflammatory
 
-### Already well-covered: Long COVID (ch14d), MCAS (ch14d), basic immune dysfunction (ch07)
+#### Already well-covered: Long COVID (ch14d), MCAS (ch14d), basic immune dysfunction (ch07)
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -112,9 +147,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 5: Neurological / Central Fatigue
+### Category 5: Neurological / Central Fatigue
 
-### Already partially covered: neuroinflammation (ch08), autonomic (ch10)
+#### Already partially covered: neuroinflammation (ch08), autonomic (ch10)
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -130,9 +165,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 6: Psychiatric / Neurotransmitter
+### Category 6: Psychiatric / Neurotransmitter
 
-### Partially covered: depression differential (ch04), ADHD overlap (ch14d)
+#### Partially covered: depression differential (ch04), ADHD overlap (ch14d)
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -147,9 +182,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 7: Metabolic / Nutritional
+### Category 7: Metabolic / Nutritional
 
-### Partially covered: various supplements in ch16, BH4 in ch06/ch14
+#### Partially covered: various supplements in ch16, BH4 in ch06/ch14
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -170,9 +205,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 8: Organ System Failure
+### Category 8: Organ System Failure
 
-### Partially covered: cardiac (ch10), gut (ch11)
+#### Partially covered: cardiac (ch10), gut (ch11)
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -186,9 +221,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 9: Toxic / Environmental
+### Category 9: Toxic / Environmental
 
-### Minimally covered
+#### Minimally covered
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -202,9 +237,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 10: Infections (Active / Chronic)
+### Category 10: Infections (Active / Chronic)
 
-### Well-covered: EBV (ch05, ch07), viral triggers. Enrich specific pathogens.
+#### Well-covered: EBV (ch05, ch07), viral triggers. Enrich specific pathogens.
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -222,9 +257,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 11: Connective Tissue / Structural
+### Category 11: Connective Tissue / Structural
 
-### Well-covered: hEDS (ch14d), fibromyalgia (ch14d). Enrich structural.
+#### Well-covered: hEDS (ch14d), fibromyalgia (ch14d). Enrich structural.
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -236,9 +271,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 12: Sleep-Specific
+### Category 12: Sleep-Specific
 
-### Partially covered: sleep disruption (ch03), alpha-delta intrusion
+#### Partially covered: sleep disruption (ch03), alpha-delta intrusion
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -250,9 +285,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 13: Vascular / Perfusion
+### Category 13: Vascular / Perfusion
 
-### Partially covered: endotheliopathy (ch10), cerebral hypoperfusion
+#### Partially covered: endotheliopathy (ch10), cerebral hypoperfusion
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -264,9 +299,9 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Category 14: Channelopathies / Ion
+### Category 14: Channelopathies / Ion
 
-### Partially covered: TRPM3 (ch14h), calcium (recent brainstorm)
+#### Partially covered: TRPM3 (ch14h), calcium (recent brainstorm)
 
 | # | Topic | Priority | Chapter Target | Depth | Notes |
 |---|-------|----------|---------------|-------|-------|
@@ -278,7 +313,7 @@ General mitochondrial dysfunction, CoQ10, oxidative phosphorylation, Krebs cycle
 
 ---
 
-## Cross-Cutting Integration Topics
+### Cross-Cutting Integration Topics
 
 These span multiple categories and deserve their own `/integrate-topic` invocations:
 
@@ -292,9 +327,9 @@ These span multiple categories and deserve their own `/integrate-topic` invocati
 
 ---
 
-## Execution Strategy
+### Execution Strategy
 
-### Session Planning
+#### Session Planning
 
 **Estimated sessions needed:** 15-20 (at ~8-10 `/integrate-topic` per session)
 
@@ -305,7 +340,7 @@ These span multiple categories and deserve their own `/integrate-topic` invocati
 4. **Sessions 14-15:** All P4 items (context) — many can batch as brief differential entries. ~15 topics.
 5. **Sessions 16-17:** Cross-cutting themes (X.1-X.5). These are synthesis and may need the individual topics integrated first.
 
-### Batching by Chapter Target
+#### Batching by Chapter Target
 
 Within each session, batch topics that target the same chapter file to minimize reads:
 
@@ -316,7 +351,7 @@ Within each session, batch topics that target the same chapter file to minimize 
 - **ch03 sleep batch:** Items 12.1-12.5, 5.2 — all sleep.
 - **ch09 endocrine batch:** Items 3.1-3.8 — all endocrine.
 
-### Merge Notes
+#### Merge Notes
 
 The following items should be merged into single `/integrate-topic` invocations:
 - 4.1 + 10.1 → "Post-infectious fatigue convergence across pathogens"
@@ -328,7 +363,7 @@ The following items should be merged into single `/integrate-topic` invocations:
 
 After merges: **~90 distinct `/integrate-topic` invocations.**
 
-### Quality Gates
+#### Quality Gates
 
 - After every 10 integrations: `nix build` to verify compilation
 - After each session: `/commit` with descriptive scope
@@ -336,15 +371,9 @@ After merges: **~90 distinct `/integrate-topic` invocations.**
 
 ---
 
-## Progress Tracking
+## Nodes
 
-Mark items as they're completed:
+> **Status: group-root** — individual topic nodes live in child `/integrate-topic` subtrees. This file tracks group-level context only.
 
-```
-[ ] = pending
-[~] = in progress
-[x] = completed
-[S] = skipped (already sufficiently covered after investigation)
-```
-
-All items start `[ ]`. Update this file as work proceeds across sessions.
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|

@@ -1,17 +1,50 @@
-# Execution Plan: Ussher Book Integration
+# Hypothesis Subtree: Ussher Book Integration
 
-**Source:** Patrick Ussher, *Understanding ME/CFS & Strategies for Healing* (2025-02-12)
-**Prerequisite:** [INTEGRATION_GUIDE_ussher-understanding-mecfs.md](INTEGRATION_GUIDE_ussher-understanding-mecfs.md) (triage, all extracted content, full bibliography)
-**Source HTML:** `Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/index.html`
+**Origin:** Plan migration from `content-staging/plan-ussher-book-integration.md`
+**Brainstorm file:** (not yet generated)
+**Date:** (not dated)
+**Parent topic:** root
+**Child subtrees:** (none yet)
+
+## Integration Context
+
+**Priority:** 🔴  
+**ME/CFS links:**
+- Bradykinin spillover model: β2-adrenergic dysfunction → vasodilatory substance spillover → renal KKS-RAAS opposition → explains "RAAS paradox" (low RAAS despite low blood volume)
+- Na⁺/K⁺-ATPase → calcium toxicity as primary PEM mechanism: high intracellular Na⁺ → NCX reversal → Ca²⁺ overload → muscle necrosis (Appelman 2024, Nature Communications)
+- Structural adrenal atrophy: Scott & Dinan 1999 CT study — adrenal glands ~50% smaller in ME/CFS vs controls; depression shows opposite (enlargement) → structural argument against psychogenic model
+- CO₂ as vasodilator and oxygen facilitator: 74% Long COVID patients ETCO2 <35 mmHg despite normal respiratory rate; Buteyko adaptation for ME/CFS
+- Klimas exercise program: 12-min continuous walk → crash; 3×4-min walks + supine rests → no crash (same total time)  
+**Target chapters:** ch10-cardiovascular (bradykinin, hypovolemia), ch06-energy-metabolism (calcium toxicity), ch09-endocrine (adrenal atrophy, DHEA, hydrocortisone), ch17-lifestyle-interventions (Buteyko, Klimas, compression stockings, Perrin), ch18-emerging-therapies (HELP apheresis, triple anticoagulant), ch16-supplements-nutraceuticals (ORS clinical data)  
+**Pre-identified hypotheses:** Bradykinin spillover as RAAS-paradox explanation (~0.55); calcium toxicity as primary PEM mechanism (~0.50); CO₂ reduction as consequence not cause of ME/CFS (~0.50)  
+**Research questions:**
+1. Is calcium toxicity (via NCX reversal) the unified mechanistic explanation for both acute PEM symptoms and post-exertional muscle necrosis?
+2. Does adrenal atrophy (chronic low ACTH → reduced trophic stimulus) reverse with sustained PEM avoidance, as Selye's rat data suggest?
+
+**Source:** Patrick Ussher, *Understanding ME/CFS & Strategies for Healing* (2025-02-12). HTML: `Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/index.html`
+**Integration guide:** `content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md`
+
+**Execution sessions:**
+- Session A (Part 2 pathophysiology): ch10 bradykinin, ch06 calcium PEM, ch09 adrenal
+- Session B (Part 3 treatments): ch17 Buteyko/Klimas/compression/Perrin, ch18 HELP apheresis/triple anticoagulant, ch16 ORS
+- Session C (bibliography + verification): ~25 new citations, hypothesis registry, nix build
+
+## Execution Detail
+
+> Full plan migrated from `content-staging/plan-ussher-book-integration.md`. Status: ⬜ all tasks pending.
+
+**Source:** Patrick Ussher, *Understanding ME/CFS & Strategies for Healing* (2025-02-12)  
+**Prerequisite:** `content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md` (triage, all extracted content, full bibliography)  
+**Source HTML:** `Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/index.html`  
 **Estimated sessions:** 2-3 (one for Part 2 pathophysiology, one for Part 3 treatments, one for bibliography + verification)
 
 ---
 
-## Phase 1: Part 2 Pathophysiology (HIGH priority)
+### Phase 1: Part 2 Pathophysiology (HIGH priority)
 
-### Task 1.1: Bradykinin Spillover Model --- ch10-cardiovascular.typ
+#### Task 1.1: Bradykinin Spillover Model — ch10-cardiovascular.typ
 
-**Target file:** `src/main/typst/mecfs/part2-pathophysiology/ch10-cardiovascular.typ`
+**Target file:** `src/main/typst/mecfs/part2-pathophysiology/ch10-cardiovascular.typ`  
 **Insertion point:** Section `=== Blood Volume Abnormalities` (line 290), subsection `==== Mechanisms of Volume Depletion` (line 303). This section already covers RAAS dysfunction briefly; expand it.
 
 **Content to add:**
@@ -40,9 +73,9 @@
 
 ---
 
-### Task 1.2: Na+/K+-ATPase -> Calcium Toxicity as PEM Mechanism --- ch06-energy-metabolism.typ
+#### Task 1.2: Na+/K+-ATPase → Calcium Toxicity as PEM Mechanism — ch06-energy-metabolism.typ
 
-**Target file:** `src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ`
+**Target file:** `src/main/typst/mecfs/part2-pathophysiology/ch06-energy-metabolism.typ`  
 **Insertion point:** Section `==== Calcium Dysregulation` (line 183). Currently brief (~9 lines on mitochondrial calcium buffering). Expand significantly.
 
 **Content to add:**
@@ -70,9 +103,9 @@
 
 ---
 
-### Task 1.3: Adrenal Gland Shrinkage --- ch09-endocrine.typ
+#### Task 1.3: Adrenal Gland Shrinkage — ch09-endocrine.typ
 
-**Target file:** `src/main/typst/mecfs/part2-pathophysiology/ch09-endocrine.typ`
+**Target file:** `src/main/typst/mecfs/part2-pathophysiology/ch09-endocrine.typ`  
 **Insertion point:** Section `=== Mechanisms of HPA Dysfunction` (line 51). Add new subsection after existing mechanistic subsections.
 
 **Content to add:**
@@ -103,11 +136,11 @@
 
 ---
 
-## Phase 2: Part 3 Treatments (HIGH + MEDIUM priority)
+### Phase 2: Part 3 Treatments (HIGH + MEDIUM priority)
 
-### Task 2.1: Buteyko Breathing / CO2 Mechanism --- ch17-lifestyle-interventions.typ
+#### Task 2.1: Buteyko Breathing / CO2 Mechanism — ch17-lifestyle-interventions.typ
 
-**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`
+**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`  
 **Insertion point:** New subsection under `== Stress Management` (line 684) OR as new `== Breathing and CO2 Optimization` section after Stress Management. Given the scope, a new `==` section is more appropriate---this is not just stress management but a distinct physiological intervention.
 
 **Content to add:**
@@ -147,9 +180,9 @@
 
 ---
 
-### Task 2.2: Klimas Exercise Program --- ch17-lifestyle-interventions.typ
+#### Task 2.2: Klimas Exercise Program — ch17-lifestyle-interventions.typ
 
-**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`
+**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`  
 **Insertion point:** Section `== Exercise and Movement` (line 356), specifically within `=== Safe Movement Approaches` (line 620). Currently lists gentle stretching, isometric exercises, recumbent activities. Add a dedicated subsection for structured reconditioning.
 
 **Content to add:**
@@ -178,9 +211,9 @@
 
 ---
 
-### Task 2.3: Compression Stockings --- ch17-lifestyle-interventions.typ
+#### Task 2.3: Compression Stockings — ch17-lifestyle-interventions.typ
 
-**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`
+**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`  
 **Insertion point:** Near exercise section or as subsection of pacing. Could also go under `==== Adaptive Progression`.
 
 **Content to add (brief subsection `==== Compression Stockings for Orthostatic Support`):**
@@ -197,9 +230,9 @@
 
 ---
 
-### Task 2.4: Perrin Technique --- ch17-lifestyle-interventions.typ
+#### Task 2.4: Perrin Technique — ch17-lifestyle-interventions.typ
 
-**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`
+**Target file:** `src/main/typst/mecfs/part3-treatment/ch17-lifestyle-interventions.typ`  
 **Insertion point:** New subsection under a new `== Manual and Physical Therapies` section, or within `== Stress Management` if keeping sections minimal.
 
 **Content to add (new subsection `=== Osteopathic and Lymphatic Drainage: The Perrin Technique`):**
@@ -217,9 +250,9 @@
 
 ---
 
-### Task 2.5: HELP Apheresis + Triple Anticoagulant --- ch18-emerging-therapies.typ
+#### Task 2.5: HELP Apheresis + Triple Anticoagulant — ch18-emerging-therapies.typ
 
-**Target file:** `src/main/typst/mecfs/part3-treatment/ch18-emerging-therapies.typ`
+**Target file:** `src/main/typst/mecfs/part3-treatment/ch18-emerging-therapies.typ`  
 **Insertion point:** Section `= Plasma Exchange (Therapeutic Plasma Exchange)` (line 471). Add HELP apheresis as a related but distinct approach. Triple anticoagulant as pharmaceutical alternative.
 
 **Content to add:**
@@ -248,9 +281,9 @@
 
 ---
 
-### Task 2.6: ORS Clinical Data --- ch16-supplements-nutraceuticals.typ
+#### Task 2.6: ORS Clinical Data — ch16-supplements-nutraceuticals.typ
 
-**Target file:** `src/main/typst/mecfs/part3-treatment/ch16-supplements-nutraceuticals.typ`
+**Target file:** `src/main/typst/mecfs/part3-treatment/ch16-supplements-nutraceuticals.typ`  
 **Insertion point:** Section `== Foundational Supplements: Electrolytes and Hydration` (line 20). The ORS/electrolyte section exists but lacks clinical trial data.
 
 **Content to add (expand existing electrolyte section):**
@@ -268,9 +301,9 @@
 
 ---
 
-## Phase 3: Bibliography, Verification, Registry
+### Phase 3: Bibliography, Verification, Registry
 
-### Task 3.1: Add Bibliography Entries --- references.bib
+#### Task 3.1: Add Bibliography Entries — references.bib
 
 **Target file:** `src/main/typst/mecfs/references.bib`
 
@@ -288,7 +321,7 @@ Only add entries not already present.
 
 ---
 
-### Task 3.2: Hypothesis Registry Updates
+#### Task 3.2: Hypothesis Registry Updates
 
 **Target file:** `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
 
@@ -299,7 +332,7 @@ Add entries for any new `hypothesis` or `speculation` environments created:
 
 ---
 
-### Task 3.3: Build Verification
+#### Task 3.3: Build Verification
 
 Run `nix build` once at end of full integration session.
 
@@ -310,7 +343,7 @@ Run `nix build` once at end of full integration session.
 
 ---
 
-### Task 3.4: Update Global Plan
+#### Task 3.4: Update Global Plan
 
 **Target file:** `plans-new-contents/00-global-plan.md`
 
@@ -320,7 +353,7 @@ Update the "Pending: Source Acquisition & Analysis" section:
 
 ---
 
-## Execution Order and Batching
+### Execution Order and Batching
 
 ```
 Session A (Part 2 pathophysiology):
@@ -347,3 +380,12 @@ Session C (bibliography + verification):
 ```
 
 **Total estimated new content:** ~3,000-4,000 words across 6 target files + ~25 bibliography entries.
+
+---
+
+## Nodes
+
+> **Status: stub** — nodes not yet populated. Run Phase 3 of `/integrate-topic ussher-book` to populate this table.
+
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|

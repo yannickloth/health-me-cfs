@@ -1,25 +1,53 @@
-# Plan: LinkedIn Article Series — The Energy Failure Landscape
+# Hypothesis Subtree: LinkedIn Energy Failure Article Series
 
-**Created:** 2026-04-20
-**Series title:** "Why Are You So Tired?" — A mechanistic tour of everything that steals energy
-**Format:** Each article = standalone LinkedIn article (~1500-2500 words), detailed, referenced
-**Voice:** Same as existing series — patient-facing, scientifically rigorous, no hedging on biology, clear clinical relevance
-**Audience:** ME/CFS patients, clinicians, researchers, adjacent-condition communities
+**Origin:** Plan migration from `content-staging/plan-linkedin-energy-failure-articles.md`
+**Brainstorm file:** (content-staging/plan-linkedin-energy-failure-articles.md is itself the plan)
+**Date:** 2026-04-20
+**Parent topic:** root
+**Child subtrees:** (none yet)
 
----
+## Integration Context
 
-## Deliverables Per Article
+**Priority:** 🟠  
+**Tier:** Patient-facing output (not paper integration — LinkedIn articles for patients/clinicians/researchers)  
+**ME/CFS links:**
+- Series title: "Why Are You So Tired?" — 34 articles across 10 arcs; patient-facing ME/CFS mechanistic education
+- Parallel to paper chapters: each article = distillation of one or more `/integrate-topic` brainstorm topics
+- Covers: reference range problem, mitochondrial dysfunction, differential diagnosis, infections, endocrine, sleep/brain, gut-energy axis, connective tissue, metabolic inflexibility, synthesis
+- Articles are peer to paper chapters, not derived from them — developed in parallel  
+**Target output:** `YYYYMMDD_linkedin-<slug>.article.md` + `.article.post.md` per article  
+**Pre-identified hypotheses:** Each arc contains falsifiable claims (H₂S-Complex IV poisoning, glymphatic failure model, four-flavors-of-fatigue taxonomy, metabolic inflexibility as glycogen-without-fat-backup)  
+**Research questions:** N/A — this is an output plan, not a research integration plan
 
-Each article entry in this plan produces **two files** and undergoes **three review passes**:
+**Series structure (10 arcs, 34 articles):**
+- Arc 1: "The Normal Test" Problem (3 articles): blood tests, tilt table, resolution problem
+- Arc 2: Mitochondrial Story (4): ATP production failure, cofactor famine, H₂S, fuel delivery
+- Arc 3: Differential Diagnosis (5): MCAS, autoimmune mimics, structural diseases, depression vs ME/CFS, iatrogenic fatigue
+- Arc 4: Infections That Never Left (4): EBV reactivation, cross-pathogen convergence, post-Lyme, hidden infections
+- Arc 5: Endocrine Web (3): thyroid, cortisol curve, insulin/glucose
+- Arc 6: Brain That Can't Rest (4): orexin, glymphatic failure, four flavors of fatigue, ADHD/autism predisposition
+- Arc 7: Gut-Energy Axis (3): SIBO, microbiome/butyrate, celiac
+- Arc 8: Connective Tissue Connection (3): hypermobility, fibromyalgia/ME/CFS distinction, myasthenia gravis
+- Arc 9: Metabolism That Can't Flex (3): metabolic inflexibility, lactic acidosis, Krebs/CDR hypothesis
+- Arc 10: Synthesis (2): energy failure convergence, proposed diagnostic system
 
-### Files
+**Review pipeline (mandatory per article):** /review-convergence → /review-adversarial → style-naturalization until zero findings
+
+**Publication cadence:** ~11 weeks at 3/week; ~17 weeks at 2/week
+
+## Execution Detail
+
+> Full plan migrated from `content-staging/plan-linkedin-energy-failure-articles.md`. Status: ⬜ all 34 articles pending.
+
+### Deliverables Per Article
+
+Each article entry produces **two files** and undergoes **three review passes**:
+
+**Files:**
 1. **`.article.md`** — The full LinkedIn article (~1500-2500 words)
 2. **`.article.post.md`** — The companion LinkedIn post (~200-400 words, standalone, links to article)
 
-### Review Pipeline (mandatory, in order)
-
-After drafting both files:
-
+**Review Pipeline (mandatory, in order):**
 1. **`/review-convergence`** on both files — iterative fix rounds until zero findings
 2. **`/review-adversarial`** on both files — hostile persona attacks (cynic, sophist, strawman, devil's advocate, reductionist) until zero critical vulnerabilities
 3. **Style naturalization** — review-fix rounds for human voice:
@@ -29,33 +57,15 @@ After drafting both files:
    - Voice must match existing published articles (direct, assertive, patient-respecting, occasionally angry)
    - Multiple rounds until convergence to natural human prose
 
-Only after all three passes converge to zero findings is the article considered complete.
-
-### Naming Convention
+**Naming Convention:**
 ```
 YYYYMMDD_linkedin-<slug>.article.md
 YYYYMMDD_linkedin-<slug>.article.post.md
 ```
 
-### Post Format
-The `.article.post.md` follows existing convention (see `20260420_linkedin-post-sleep-inflammation-cleanup.post.md`):
-- Standalone hook that works without reading the article
-- Key insight in 3-5 short paragraphs
-- Sources with DOIs
-- Reference to the paper DOI
-- Hashtags
-
----
-
-## Series Architecture
-
-The series is organized into **thematic arcs** of 3-6 articles each. Each arc explores one dimension of energy failure. Articles within an arc build on each other but remain independently readable.
-
 ---
 
 ## Arc 1: "The Normal Test" Problem (3 articles)
-
-The thread connecting diagnostic failure across conditions. Starts from the sleep study post (already published) and generalizes.
 
 ### 1.1 — Your Blood Tests Were Normal: What Standard Labs Can't See
 
@@ -111,8 +121,6 @@ The thread connecting diagnostic failure across conditions. Starts from the slee
 ---
 
 ## Arc 2: The Mitochondrial Story (4 articles)
-
-From ATP to the patient's experience. Why "mitochondrial dysfunction" is both true and insufficient.
 
 ### 2.1 — Your Cells Run a Power Plant. Here's How It Breaks.
 
@@ -187,8 +195,6 @@ From ATP to the patient's experience. Why "mitochondrial dysfunction" is both tr
 ---
 
 ## Arc 3: The Differential Diagnosis Nobody Does Properly (5 articles)
-
-Conditions that mimic or co-occur with ME/CFS — and why distinguishing matters for treatment.
 
 ### 3.1 — Mast Cells, Histamine, and the Fatigue Nobody Connects to Allergies
 
@@ -735,8 +741,9 @@ The arcs don't need to be published sequentially. Interleave for audience variet
 **Week 5-6:** Arc 5.1 (Thyroid) → Arc 8.1 (Hypermobility) → Arc 2.3 (H₂S)
 ...and so on, alternating between mechanistic deep-dives and clinically actionable pieces.
 
----
+## Nodes
 
-## Relationship to Integration Plan
+> **Status: stub** — this is an output-production plan, not a brainstorm-hypothesis subtree. No node table populated.
 
-Each article corresponds loosely to one or more `/integrate-topic` invocations from `plan-energy-failure-differential-integration.md`. The articles are the patient-facing distillation; the paper chapters are the scholarly version. They can be developed in parallel or sequentially.
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|

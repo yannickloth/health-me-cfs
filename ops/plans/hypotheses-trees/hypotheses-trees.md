@@ -173,6 +173,8 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | cross-viral-comparison | [subtrees/cross-viral-comparison.md](subtrees/cross-viral-comparison.md) | (no date)   | 0          | 0          | ⬜ stub        |
 | iron-dysregulation    | [subtrees/iron-dysregulation.md](subtrees/iron-dysregulation.md)          | (no date)   | 0          | 0          | ⬜ stub        |
 | ussher-book           | [subtrees/ussher-book.md](subtrees/ussher-book.md)                        | (no date)       | 0          | 0          | ⬜ stub        |
+| linkedin-energy-articles | [subtrees/linkedin-energy-articles.md](subtrees/linkedin-energy-articles.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
+| energy-failure-differential | [subtrees/energy-failure-differential.md](subtrees/energy-failure-differential.md) | 2026-04-20 | 0 | 0 | ⬜ group-root |
 
 ---
 

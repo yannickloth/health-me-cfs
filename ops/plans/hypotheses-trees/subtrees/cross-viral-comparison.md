@@ -1,6 +1,35 @@
-# Plan: Cross-Viral Family Comparison in ME/CFS Triggering
+# Hypothesis Subtree: Cross-Viral Family Comparison
 
-## Motivation
+**Origin:** Plan migration from `content-staging/plan-cross-viral-family-comparison.md`
+**Brainstorm file:** (not yet generated — awaiting Phase 3)
+**Date:** (not dated)
+**Parent topic:** root
+**Child subtrees:** (none yet)
+
+## Integration Context
+
+**Priority:** 🟠  
+**ME/CFS links:**
+- Convergent IFN suppression across 3 viral families (Herpesviridae via viral IRFs, Picornaviridae via protease cleavage of RIG-I/MDA5, Coronaviridae via NSP1/ORF6 STAT1 interference) — independent evolutionary solutions to the same obstacle
+- Three strategies for "persistence without productive infection": ALR (herpes), tissue reservoirs (entero), antigen persistence (corona) — all produce ongoing immune activation without a clearable target
+- COVID → herpesvirus reactivation cascade: compound viral insult may explain higher Long COVID→ME/CFS conversion
+- Pathogen-specific entry door hypothesis: virus family predicts which ME/CFS entry pathway was used → treatment implications
+- Host response (not viral strategy) is the primary ME/CFS determinant — supported by comparable progression rates across DNA and RNA virus families  
+**Target chapters:** ch07-immune-dysfunction (new subsection §7.7 "Cross-Family Comparison"), ch05-onset-patterns, ch14d-cross-disease, ch16-causal-hierarchy  
+**Pre-identified hypotheses:** H-pathogen-entry-door (certainty 0.35–0.40); open-question: does genome type predict mechanism?; speculation: treatment by virus family (certainty 0.25–0.30)  
+**Research questions:**
+1. Direction A (virus family → entry door → ME/CFS subtype): Can the triggering virus family predict which pathophysiology cluster (autonomic, metabolic, neuroinflammatory) predominates?
+2. Direction B (host response convergence): Are there host-response biomarkers that are shared regardless of triggering pathogen, validating the pathogen-agnostic model?
+
+**Placement:** New subsection in ch07 after "Reactivation Patterns" (line ~911), before "Other Implicated Viruses" (line ~945). Title: "Cross-Family Comparison: Convergent Pathogenesis from Divergent Strategies"
+
+**Scope:** ~400–600 words prose + 1 comparison table + 1 hypothesis env + 1 open_question env + 1 speculation env
+
+## Execution Detail
+
+> Full plan migrated from `content-staging/plan-cross-viral-family-comparison.md`. Status: ⬜ pending.
+
+### Motivation
 
 The document extensively covers individual viral triggers (EBV, HHV-6, enteroviruses, SARS-CoV-2, etc.) across ch05, ch07, ch14d, and ch16, but lacks a systematic comparative analysis across virus families. The convergence argument — that different pathogens produce the same disease — is central to the document's thesis (ch16 §Entry Points) yet is never formalized with a structured comparison.
 
@@ -10,13 +39,7 @@ A cross-viral family comparison would:
 3. Support the pathogen-specific entry point hypothesis (ch16 line 550) with organized evidence
 4. Inform subtyping and treatment selection (if virus family predicts which "entry door" was used)
 
----
-
-## Scope
-
-### What to compare
-
-Three virus families are primary ME/CFS triggers with distinct biology:
+### Comparison Table: Primary ME/CFS-Associated Virus Families
 
 | Property | Herpesviridae (dsDNA) | Picornaviridae (ssRNA+) | Coronaviridae (ssRNA+) |
 |---|---|---|---|
@@ -29,13 +52,14 @@ Three virus families are primary ME/CFS triggers with distinct biology:
 | Proposed ME/CFS entry pathway | Autoimmune (molecular mimicry via LMP1, dUTPase immunomodulation) | Metabolic safe mode (mitochondrial effects, tissue damage) | Neuroinflammation + endothelial (microclots, glial activation) |
 | Reactivation trigger | Immune suppression, stress, co-infection | N/A (persistent, not latent) | N/A (persistence without classical reactivation) |
 
-Secondary families worth mentioning (briefer treatment):
+### Secondary Virus Families (Briefer Treatment)
+
 - **Parvoviridae**: Parvovirus B19 — bone marrow/synovium persistence, autoimmune arthropathy
 - **Bornaviridae**: Borna disease virus — highest OR (≥3.47) in meta-analysis, neurotropic, controversial
 - **Togaviridae**: Ross River virus — arthralgia-dominant post-viral syndrome, complement-mediated
 - **Flaviviridae**: Dengue — post-dengue fatigue, immune evasion via NS proteins
 
-### Comparison dimensions
+### Comparison Dimensions
 
 1. **Viral biology**: genome type, size, persistence mechanism, tropism
 2. **Immune evasion strategies**: which host defense pathways are targeted, and are there convergent strategies across families?
@@ -45,11 +69,7 @@ Secondary families worth mentioning (briefer treatment):
 6. **Shared downstream consequences**: what converges regardless of trigger
 7. **Treatment implications**: does knowing the triggering virus family inform therapeutic approach?
 
----
-
-## Key analytical themes
-
-### Theme 1: Convergent immune evasion despite divergent strategies
+### Theme 1: Convergent Immune Evasion Despite Divergent Strategies
 
 All three primary families disable interferon signaling, but through entirely different molecular mechanisms:
 - Herpesviruses: encode dedicated IFN-antagonist proteins (viral IRFs in EBV, IE1 in CMV)
@@ -58,7 +78,7 @@ All three primary families disable interferon signaling, but through entirely di
 
 The convergence on IFN suppression from three independent evolutionary lineages suggests this is a necessary (not incidental) precondition for post-viral ME/CFS. Testable prediction: viruses that do NOT suppress IFN signaling should have lower ME/CFS progression rates.
 
-### Theme 2: Persistence without productive infection — three solutions to one problem
+### Theme 2: Persistence Without Productive Infection — Three Solutions to One Problem
 
 The document already identifies ALR (abortive lytic replication) as a key herpesvirus mechanism (ch07 line 866). The comparative insight is that all three families achieve "persistence without productive infection" through different strategies:
 - Herpesviruses: ALR — early gene expression without virion assembly
@@ -67,7 +87,7 @@ The document already identifies ALR (abortive lytic replication) as a key herpes
 
 All three produce ongoing immune activation without a clearable target — the immune system fights a ghost. This shared downstream state may be more important than the specific persistence mechanism.
 
-### Theme 3: DNA vs. RNA — does genome type predict mechanism?
+### Theme 3: DNA vs. RNA — Does Genome Type Predict Mechanism?
 
 Herpesviruses (DNA) have evolved sophisticated latency programs over millions of years of co-evolution with the host. RNA viruses lack these programs but achieve functional persistence through other means. The DNA/RNA distinction correlates with:
 - Latency sophistication (DNA >> RNA)
@@ -77,14 +97,14 @@ Herpesviruses (DNA) have evolved sophisticated latency programs over millions of
 
 Yet both produce ME/CFS at comparable rates. This suggests the disease mechanism lies in the host response, not the viral strategy — supporting the pathogen-agnostic host-response model (ch14d open question).
 
-### Theme 4: Cross-family interactions
+### Theme 4: Cross-Family Interactions
 
 COVID triggering herpesvirus reactivation is documented and clinically significant. This creates a compounding effect:
 - Initial SARS-CoV-2 infection → immune dysregulation → EBV/HHV-6 reactivation → additional immune burden
 - The triggering virus and the reactivated virus may contribute through different entry doors simultaneously
 - This may explain why Long COVID has a higher apparent ME/CFS conversion rate than would be predicted from SARS-CoV-2 alone
 
-### Theme 5: Treatment implications of virus-specific entry doors
+### Theme 5: Treatment Implications of Virus-Specific Entry Doors
 
 If virus family predicts entry pathway, it may predict treatment response:
 - Herpesvirus-triggered → antivirals (valacyclovir, valganciclovir), immune modulation targeting B cells
@@ -94,11 +114,9 @@ If virus family predicts entry pathway, it may predict treatment response:
 
 This is highly speculative (certainty ~0.30) but worth flagging as a research direction.
 
----
+### Placement in Document
 
-## Placement in document
-
-### Recommended: New subsection in Ch07 (§7.7)
+**Recommended: New subsection in Ch07 (§7.7)**
 
 **Location**: After the current "Reactivation Patterns and Causal Relationships" (line 911) and before "Other Implicated Viruses" (line 945).
 
@@ -109,9 +127,9 @@ This is highly speculative (certainty ~0.30) but worth flagging as a research di
 
 **Proposed subsection title**: "Cross-Family Comparison: Convergent Pathogenesis from Divergent Strategies"
 
-### Structure of new subsection
+### LaTeX Skeleton and Subsection Structure
 
-```
+```latex
 \subsection{Cross-Family Comparison: Convergent Pathogenesis from Divergent Strategies}
 \label{sec:cross-family-comparison}
 
@@ -150,16 +168,14 @@ Brief intro: why comparing across families matters (2-3 paragraphs)
 \end{open_question}
 ```
 
-### Cross-references to add
+### Cross-References to Add
 
 - **ch16 §Entry Points** (line 541): Add forward reference to new comparison section for mechanistic backing
 - **ch05 trigger-mechanisms**: Add brief mention + cross-reference to comparison table for patients wanting detail
 - **ch14d cross-disease**: The open question on "Common Post-Infectious Pathway" should reference this comparison
 - **Hypothesis registry**: New hypothesis and open_question must be registered
 
----
-
-## Evidence to gather
+### Evidence to Gather
 
 Before writing, a literature search should target:
 
@@ -170,9 +186,7 @@ Before writing, a literature search should target:
 5. **Treatment response by triggering pathogen** — any evidence that antiviral response correlates with herpesvirus markers vs. enterovirus markers
 6. **Borna disease virus association** — high OR (≥3.47) but controversial; needs careful treatment
 
----
-
-## Environments and certainty
+### Environments and Certainty
 
 | Content element | Environment | Estimated certainty |
 |---|---|---|
@@ -184,20 +198,23 @@ Before writing, a literature search should target:
 | Genome type predicting mechanism | `open_question` | N/A |
 | Treatment implications by virus family | `speculation` | 0.25-0.30 |
 
----
-
-## Estimated scope
+### Estimated Scope
 
 - **New content**: ~400-600 words of prose + 1 comparison table + 1 hypothesis + 1 open_question + 1 speculation
 - **Cross-reference updates**: 3-4 minor edits to existing chapters
 - **Literature search**: 5-10 papers to review for supporting citations
 - **Hypothesis registry**: 2-3 new entries
 
----
-
-## Dependencies and prerequisites
+### Dependencies and Prerequisites
 
 1. Literature search on comparative viral immunology (literature-integrator)
 2. Review of Hwang 2023 meta-analysis data already cited in document
 3. Template-advisor consultation for table format choice
 4. Build verification after integration
+
+## Nodes
+
+> **Status: stub** — nodes not yet populated. Run Phase 3 of `/integrate-topic cross-viral-family-comparison` to populate this table.
+
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|
