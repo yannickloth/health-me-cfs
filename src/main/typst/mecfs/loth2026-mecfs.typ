@@ -131,9 +131,9 @@
 
 // ── Part I: Clinical Overview ─────────────────────────────────────────────────
 #include "part1-clinical/part1-intro.typ"
-#include "part1-clinical/ch01-introduction.typ"
-#include "part1-clinical/ch02-core-symptoms.typ"
-#include "part1-clinical/ch03-additional-symptoms.typ"
+#include "part1-clinical/ch01-introduction/ch01-introduction.typ"
+#include "part1-clinical/ch02-core-symptoms/ch02-core-symptoms.typ"
+#include "part1-clinical/ch03-additional-symptoms/ch03-additional-symptoms.typ"
 #include "part1-clinical/ch04-diagnostic-criteria.typ"
 #include "part1-clinical/ch05-disease-course.typ"
 

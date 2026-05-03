@@ -1,0 +1,7 @@
+#import "../../../../../shared/environments.typ": *
+
+#limitation(title: [Risk of Premature Mechanistic Naming])[
+The strongest objection to dysergopoiesis is that it may repeat the problem it aims to solve. "Myalgic encephalomyelitis" asserted a specific pathology (brain and spinal cord inflammation) that was never consistently demonstrated — and the name has been misleading ever since. If future research reveals that impaired energy production is not the universal convergent endpoint of ME/CFS — for instance, if some subtypes are primarily characterised by autonomic signalling failure or immune dysregulation without measurable energy deficits — then "dysergopoiesis" would be similarly misleading. The 2015 IOM committee chose a symptom-based name (SEID) precisely to avoid this risk of premature mechanistic commitment @IOM2015. This caution has legitimate epistemological merit: symptom-based names are humble about what is not yet known.
+
+The counter-argument is that the cost of a vague name has been demonstrated over three decades: "chronic fatigue syndrome" trivialised the disease, delayed research funding, and enabled psychogenic dismissal. A mechanistically informed name, even if partially wrong, orients clinical and research attention toward biological investigation. The relevant question may not be whether dysergopoiesis is perfectly accurate, but whether it is _less wrong_ than the alternatives — and whether the benefits of mechanistic framing outweigh the risk of future revision.
+] <lim:premature-naming-risk>
