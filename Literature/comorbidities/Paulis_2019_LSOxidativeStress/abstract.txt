@@ -1,0 +1,4 @@
+Paulis G, Berardesca E. Lichen sclerosus: the role of oxidative stress in the pathogenesis of the disease and its possible transformation into carcinoma. Research and Reports in Urology. 2019;11:223-232. doi: 10.2147/RRU.S205184. PMID: 31687365. PMC: PMC6709801.
+
+ABSTRACT:
+Review article on oxidative stress (OS) in LS pathogenesis. OS generates reactive oxygen species (ROS) causing DNA damage (8-OHdG biomarker) and lipid peroxidation (malondialdehyde biomarker). Reduced antioxidant enzymes (superoxide dismutase). Oxidative DNA damage creates new autoantigenic epitopes, potentially driving ECM1 autoantibody formation. OS downregulates tumor suppressors p16 (CDKN2A) and p27 (CDKN1B), contributing to malignant transformation (5-6% lifetime risk). Nasca et al. (1999): 86 LS cases. Barbagli et al. (2006): 130 male LS patients. Very few RCTs of antioxidant treatment in LS. Review article only; no original data.

@@ -1,0 +1,25 @@
+Wirth KJ, Löhn M. Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and
+Comorbidities: Linked by Vascular Pathomechanisms and Vasoactive Mediators? Medicina (Kaunas).
+2023;59(5):978.
+DOI: 10.3390/medicina59050978 | PMID: 37241210 | PMCID: PMC10224216
+
+ABSTRACT:
+This hypothesis review proposes that ME/CFS and its common comorbidities (including MCAS,
+POTS, and fibromyalgia) are linked through shared vascular pathomechanisms and vasoactive
+mediator release.
+
+Key proposals:
+- Mast cell activation (MCA) and ME/CFS may mutually trigger each other through bidirectional
+  pathomechanisms involving excessive inflammatory mediators
+- Dysfunctional beta2-adrenergic receptors destabilize mast cells, causing inappropriate
+  degranulation that worsens ME/CFS symptomatology
+- Histamine excess from mast cells disrupts vascular regulation and increases microvascular
+  leakage, potentially initiating or exacerbating ME/CFS symptoms
+- Chronic ME/CFS stress can itself trigger mast cell degranulation, creating a reinforcing cycle
+
+Important for Septad diagnostic map: Wirth and Löhn explicitly acknowledge bidirectional
+causality rather than establishing MCAS as unidirectional driver of ME/CFS. The causal
+arrow runs both ways, complicating sequencing logic.
+
+Limitations: No original data; hypothesis synthesis only; causal claims unconfirmed; no
+clinical cohort data on prevalence or temporal sequence.

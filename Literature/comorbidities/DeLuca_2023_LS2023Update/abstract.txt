@@ -1,0 +1,4 @@
+De Luca DA, Papara C, Vorobyev A, Staiger H, Bieber K, Thaci D, Ludwig RJ. Lichen sclerosus: The 2023 update. Frontiers in Medicine. 2023;10:1106318. doi: 10.3389/fmed.2023.1106318. PMID: 36873861. PMC: PMC9978401.
+
+ABSTRACT:
+Comprehensive narrative review of lichen sclerosus (LS) covering epidemiology, pathogenesis, clinical presentations, diagnostics, and treatment. Characterizes LS as a Th1-specific IFNgamma-induced phenotype with T-cell infiltration (predominantly CD8+ and regulatory T cells). Documents upregulation of pro-inflammatory cytokines IL-1alpha, IL-7, IL-15, TNF-alpha and downregulation of IL-10. miR-155 enhances Th1 differentiation and reduces Treg-mediated immune suppression. ECM1 autoantibodies (IgG against extracellular matrix protein 1) detected but pathogenic role uncertain. Oxidative stress described as responsible for pathogenesis, maintenance, and progression. Narrative review — no original data.

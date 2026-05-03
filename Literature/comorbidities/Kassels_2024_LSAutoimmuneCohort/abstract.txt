@@ -1,0 +1,4 @@
+Kassels A, Min MS, Kraus CN. Population-level retrospective study associating lichen sclerosus with autoimmune dermatologic and rheumatologic conditions. J Am Acad Dermatol. 2024;91(3):588-589. doi: 10.1016/j.jaad.2024.05.073. PMID: 38848901.
+
+ABSTRACT (from PMC11952824):
+Retrospective cohort study using TriNetX health research network (>104 million patients, 60 US healthcare organizations). 83,103 lichen sclerosus (LS) patients matched 1:1 with postmenopausal atrophic vaginitis controls by age and race/ethnicity. LS was identified via ICD-10 code L90.0. Identified 17 autoimmune conditions with significantly elevated odds in LS patients, including morphea (OR 395.988), systemic sclerosis (OR 10.371), lichen planus (OR 4.112), vitiligo (OR 3.391), primary biliary cirrhosis (OR 1.891), and SLE (OR 1.628). Multiple sclerosis (OR 0.776) and myasthenia gravis (OR 0.813) showed reduced odds. Female patients only.

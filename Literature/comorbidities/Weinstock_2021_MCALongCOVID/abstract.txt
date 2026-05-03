@@ -1,0 +1,25 @@
+Weinstock LB, Brook JB, Walters AS, Goris A, Afrin LB, Molderings GJ. Mast cell activation
+symptoms are prevalent in Long-COVID. International Journal of Infectious Diseases.
+2021;112:217-226.
+DOI: 10.1016/j.ijid.2021.09.043 | PMID: 34563706 | PMCID: PMC8459548
+
+ABSTRACT:
+Background: COVID-19 hyperinflammation and post-COVID-19 illness (Long-COVID, LC) have been
+hypothesized to be mediated by mast cell activation (MCA). We tested this hypothesis by
+determining prevalence and severity of MCA symptoms in Long-COVID.
+
+Methods: Online survey. Participants: 136 Long-COVID subjects (89.7% female, mean age 46.9),
+136 general population controls (65.4% female, mean age 49.2), 80 MCAS patients (85.0%
+female, mean age 47.7). Symptom assessment before and after COVID-19 infection.
+
+Results: Post-COVID LC subjects and pre-treatment MCAS patients had virtually identical MCA
+symptom profiles and severity scores. Pre-infection, LC and control groups were comparable.
+MCA symptoms significantly increased post-infection in LC group, mirroring established MCAS
+patient baseline.
+
+Conclusion: MCA symptoms are prevalent in Long-COVID and resemble those of MCAS. Findings
+support the hypothesis that MCA may be a primary driver of post-viral chronic illness in
+susceptible individuals, with therapeutic implications for MCAS-targeted treatment.
+
+Limitations: Self-report survey; no biochemical MCAS confirmation; likely selection bias
+toward symptomatic individuals; no clinical examination.

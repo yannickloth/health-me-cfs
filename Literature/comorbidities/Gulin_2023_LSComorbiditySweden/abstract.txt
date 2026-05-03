@@ -1,0 +1,4 @@
+Gulin SJ, Lundin F, Seifert O. Comorbidity in patients with Lichen sclerosus: a retrospective cohort study. European Journal of Medical Research. 2023;28:338. doi: 10.1186/s40001-023-01335-9. PMID: 37697418. PMC: PMC10494448.
+
+ABSTRACT:
+Retrospective cohort study of Swedish registry data (2001-2021). 5,680 LS patients (ICD-10 L90.0) vs. 362,568 controls. Cancer associations: vulvar cancer OR=17.4, penile cancer OR=9.1, prostate cancer OR=2.0, breast cancer OR=1.6. Autoimmune comorbidities: Crohn's disease OR=2.0, Type 1 diabetes OR=1.9, vitiligo OR=2.8, alopecia areata OR=2.2. Chronic pain/fatigue conditions: NOT reported in this study. Limitations: likely underdiagnosis of LS in registry; ICD-10 coding accuracy; potential mild cases missed.

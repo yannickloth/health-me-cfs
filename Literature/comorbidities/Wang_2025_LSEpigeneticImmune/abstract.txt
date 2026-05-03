@@ -1,0 +1,4 @@
+Wang J, Fan H, Bao Z, et al. Immune Dysregulation and Cellular Composition in Lichen Sclerosus Revealed by Integrative Epigenetic Analysis with Cell Type Deconvolution. Journal of Inflammation Research. 2025;18:283-299. doi: 10.2147/JIR.S481324. PMID: 39802516. PMC: PMC11724625.
+
+ABSTRACT:
+DNA methylation analysis (Infinium MethylationEPIC BeadChip 850K) of 8 male LS patients vs. 16+6 normal skin controls. Cell type deconvolution using scRNA sequencing (EpiSCORE, MethylCIBERSORT). Immunohistochemistry validation. Findings: T cells significantly increased and fibroblasts decreased in LS. CD4+ and CD8+ T cell infiltration confirmed by IHC. Treg proportions elevated. CD4+ effector cells reduced in some comparisons. Th1-mediated immunity pathway activated: IFNG, CD28, TLA hypomethylated. Limitations: n=8 male patients; small sample; incomplete clinical data; no spatial multi-omics.

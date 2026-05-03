@@ -1,0 +1,22 @@
+Afrin LB, Weinstock LB, Molderings GJ. Covid-19 hyperinflammation and post-Covid-19 illness
+may be rooted in mast cell activation syndrome. International Journal of Infectious Diseases.
+2020;100:327-332.
+DOI: 10.1016/j.ijid.2020.09.016 | PMID: 32920235 | PMCID: PMC7529115
+
+ABSTRACT:
+This perspective article proposes that severe COVID-19 hyperinflammation and post-COVID-19
+chronic illness are driven by uncontrolled mast cell activation syndrome (MCAS) in susceptible
+individuals, rather than by normal immune responses to SARS-CoV-2.
+
+Proposed mechanism: Mast cells express ACE2 receptors and recognize SARS-CoV-2 through
+multiple pathways. In individuals with underlying MCAS, viral exposure triggers dysregulated
+mast cell degranulation releasing >1000 mediators (histamine, proteases, cytokines,
+eicosanoids), driving cytokine storms, hyperinflammation, and post-infectious symptom
+persistence. Major stressors can escalate MCAS through epigenetic mechanisms.
+
+Key claims: (1) MCAS estimated prevalence ~17% may explain why only a subset develop severe
+or chronic COVID-19. (2) Same mechanism proposed for post-viral ME/CFS phenotype. (3)
+MCAS treatment (antihistamines, mast cell stabilizers) may modify post-COVID trajectory.
+
+Limitations: Hypothesis only; no original data; no controlled observations; authors
+acknowledge "solid data are not yet available." Estimated MCAS prevalence figure uncertain.

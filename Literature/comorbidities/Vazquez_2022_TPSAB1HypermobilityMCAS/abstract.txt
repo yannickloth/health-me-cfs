@@ -1,0 +1,26 @@
+Vazquez M, Chovanec J, Kim J, DiMaggio T, Milner JD, Francomano CA, Gurnett CA, Ritelli M,
+Colombi M, Lyons JJ. Hereditary alpha-tryptasemia modifies clinical phenotypes among
+individuals with congenital hypermobility disorders. Human Genetics and Genomics Advances.
+2022;3(2):100094.
+DOI: 10.1016/j.xhgg.2022.100094 | PMID: 35287299 | PMCID: PMC8917312
+
+ABSTRACT:
+Background: Hereditary alpha-tryptasemia (HaT), caused by increased germline TPSAB1 copy
+number encoding alpha-tryptase, is present in ~5% of Western populations and associated with
+mast cell activation symptoms and autonomic dysfunction. We examined whether HaT prevalence
+is elevated in hypermobility disorders and whether HaT modifies clinical phenotype.
+
+Methods: Cross-sectional analysis of three hypermobility cohorts: hypermobility spectrum
+disorder (HSD, n=132), hypermobile Ehlers-Danlos syndrome (hEDS, n=78), axial skeletal
+abnormalities with hypermobility (n=56). TPSAB1/TPSB2 genotyped by droplet digital PCR.
+Clinical manifestations compared between HaT+ and HaT- individuals.
+
+Results: HaT prevalence: 4.9% (combined cohorts) vs 4.4-7.5% general population — no
+significant enrichment. However, HaT significantly associated with dysphagia (OR 5.9-7.3,
+p=0.007) and retained primary dentition (p=0.0003). Anaphylaxis prevalence increased in
+HaT+ individuals with connective tissue disorders.
+
+Conclusion: HaT does not occur at elevated frequency in hypermobility disorders, but when
+present, it modifies clinical phenotype toward more severe mediator-release and GI symptoms.
+Null result for HaT-hEDS association: genetics predisposition layer cannot assume automatic
+HaT enrichment in hEDS; testing should be reserved for symptomatic individuals.
