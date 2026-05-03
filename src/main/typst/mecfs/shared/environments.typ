@@ -39,6 +39,8 @@
   "calculation",
 )
 
+#let _target = sys.inputs.at("target", default: "pdf")
+
 #let _callout(
   frame-color,
   bg-color,
@@ -56,6 +58,29 @@
                    else              { label }
   let full-title = if title != none { icon + "\u{00A0}" + full-label + ": " + title }
                    else             { icon + "\u{00A0}" + full-label }
+
+  // HTML output: wrap html.elem in figure() so @label references resolve.
+  // The figure provides the anchor (id="loc-N"); the <article> carries semantics.
+  // figcaption is hidden via CSS; the env-header inside carries the visible title.
+  if _target == "html" {
+    let css-kind = fig-kind.replace(" ", "-")
+    return figure(
+      html.elem("article", attrs: (
+        class: "env env-" + css-kind,
+        "data-kind": fig-kind,
+        "data-style": style,
+      ))[
+        #html.elem("header", attrs: (class: "env-header"))[#full-title]
+        #html.elem("div", attrs: (class: "env-body"))[#body]
+      ],
+      kind: fig-kind,
+      supplement: fig-supplement,
+      numbering: "1",
+      outlined: false,
+      gap: 0pt,
+      caption: html.elem("span", attrs: (style: "display:none"))[],
+    )
+  }
 
   let body-size = if small { 9pt } else { auto }
 
@@ -127,46 +152,48 @@
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets(body) = {
-  // Unwrap environment figures into breakable blocks.
-  // figure(kind: ...) is used only for label/reference mechanics;
-  // the show rule strips the figure wrapper so the inner block can
-  // break across pages.
-  show figure.where(kind: "achievement"): it => align(start, it.body)
-  show figure.where(kind: "prediction"): it => align(start, it.body)
-  show figure.where(kind: "postdiction"): it => align(start, it.body)
-  show figure.where(kind: "warning-env"): it => align(start, it.body)
-  show figure.where(kind: "open-question"): it => align(start, it.body)
-  show figure.where(kind: "requirement"): it => align(start, it.body)
-  show figure.where(kind: "hypothesis"): it => align(start, it.body)
-  show figure.where(kind: "axiom"): it => align(start, it.body)
-  show figure.where(kind: "assumption"): it => align(start, it.body)
-  show figure.where(kind: "consistency"): it => align(start, it.body)
-  show figure.where(kind: "recommendation"): it => align(start, it.body)
-  show figure.where(kind: "limitation"): it => align(start, it.body)
-  show figure.where(kind: "model-insight"): it => align(start, it.body)
-  show figure.where(kind: "protocol"): it => align(start, it.body)
-  show figure.where(kind: "clinical-finding"): it => align(start, it.body)
-  show figure.where(kind: "key-point"): it => align(start, it.body)
-  show figure.where(kind: "practical-warning"): it => align(start, it.body)
-  show figure.where(kind: "continuation"): it => align(start, it.body)
-  show figure.where(kind: "speculation"): it => align(start, it.body)
-  show figure.where(kind: "observation"): it => align(start, it.body)
-  show figure.where(kind: "direction"): it => align(start, it.body)
-  show figure.where(kind: "roadmap"): it => align(start, it.body)
-  show figure.where(kind: "theorem"): it => align(start, it.body)
-  show figure.where(kind: "lemma"): it => align(start, it.body)
-  show figure.where(kind: "corollary"): it => align(start, it.body)
-  show figure.where(kind: "proposition"): it => align(start, it.body)
-  show figure.where(kind: "definition"): it => align(start, it.body)
-  show figure.where(kind: "example"): it => align(start, it.body)
-  show figure.where(kind: "remark"): it => align(start, it.body)
-  show figure.where(kind: "conclusion"): it => align(start, it.body)
-  show figure.where(kind: "principle"): it => align(start, it.body)
-  show figure.where(kind: "derivation"): it => align(start, it.body)
-  show figure.where(kind: "calculation"): it => align(start, it.body)
-
-  // Allow tables wrapped in figure() to break across pages
-  show figure.where(kind: table): set block(breakable: true)
+  // PDF only: unwrap environment figures into breakable blocks.
+  // figure(kind: ...) is used only for label/reference mechanics in PDF;
+  // the show rule strips the figure wrapper so the inner block can break
+  // across pages. In HTML mode the figure provides the anchor id and must
+  // NOT be stripped.
+  if _target != "html" {
+    show figure.where(kind: "achievement"):      it => align(start, it.body)
+    show figure.where(kind: "prediction"):       it => align(start, it.body)
+    show figure.where(kind: "postdiction"):      it => align(start, it.body)
+    show figure.where(kind: "warning-env"):      it => align(start, it.body)
+    show figure.where(kind: "open-question"):    it => align(start, it.body)
+    show figure.where(kind: "requirement"):      it => align(start, it.body)
+    show figure.where(kind: "hypothesis"):       it => align(start, it.body)
+    show figure.where(kind: "axiom"):            it => align(start, it.body)
+    show figure.where(kind: "assumption"):       it => align(start, it.body)
+    show figure.where(kind: "consistency"):      it => align(start, it.body)
+    show figure.where(kind: "recommendation"):   it => align(start, it.body)
+    show figure.where(kind: "limitation"):       it => align(start, it.body)
+    show figure.where(kind: "model-insight"):    it => align(start, it.body)
+    show figure.where(kind: "protocol"):         it => align(start, it.body)
+    show figure.where(kind: "clinical-finding"): it => align(start, it.body)
+    show figure.where(kind: "key-point"):        it => align(start, it.body)
+    show figure.where(kind: "practical-warning"):it => align(start, it.body)
+    show figure.where(kind: "continuation"):     it => align(start, it.body)
+    show figure.where(kind: "speculation"):      it => align(start, it.body)
+    show figure.where(kind: "observation"):      it => align(start, it.body)
+    show figure.where(kind: "direction"):        it => align(start, it.body)
+    show figure.where(kind: "roadmap"):          it => align(start, it.body)
+    show figure.where(kind: "theorem"):          it => align(start, it.body)
+    show figure.where(kind: "lemma"):            it => align(start, it.body)
+    show figure.where(kind: "corollary"):        it => align(start, it.body)
+    show figure.where(kind: "proposition"):      it => align(start, it.body)
+    show figure.where(kind: "definition"):       it => align(start, it.body)
+    show figure.where(kind: "example"):          it => align(start, it.body)
+    show figure.where(kind: "remark"):           it => align(start, it.body)
+    show figure.where(kind: "conclusion"):       it => align(start, it.body)
+    show figure.where(kind: "principle"):        it => align(start, it.body)
+    show figure.where(kind: "derivation"):       it => align(start, it.body)
+    show figure.where(kind: "calculation"):      it => align(start, it.body)
+    // Allow tables wrapped in figure() to break across pages
+    show figure.where(kind: table): set block(breakable: true)
+  }
 
   // Per-chapter counter resets
   show heading.where(level: 1): it => {

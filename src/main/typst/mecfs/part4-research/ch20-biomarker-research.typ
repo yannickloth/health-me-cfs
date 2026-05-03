@@ -844,9 +844,8 @@ The $"ND"_"burden"$ term directly reduces the composite score for neurodivergent
 ] <spec:metabolic-reserve-score>
 
 === MtDNA Haplogroup as a Reserve Stratifier
-<subsec:haplogroup-reserve-stratifier>
 
-The composite Metabolic Reserve Score above could be extended by incorporating mtDNA haplogroup as a biological anchor for the reserve estimate. Billing-Ross et al. @BillingRoss2016mtDNA demonstrated that haplogroups J, U, and H associate with distinct symptom severity profiles in established ME/CFS (certainty 0.45; see Section @spec:mtdna-haplogroup-symptoms in Chapter @ch:cross-disease). Haplogroup determination is a one-time, low-cost test (targeted mtDNA sequencing or consumer genomics panels such as 23andMe). Adding haplogroup as a reserve-modifier node — haplogroup H as lower reserve ceiling, haplogroup U as higher reserve floor — could improve individual-level risk stratification within the MRS framework.
+The composite Metabolic Reserve Score above could be extended by incorporating mtDNA haplogroup as a biological anchor for the reserve estimate. Billing-Ross et al. @BillingRoss2016mtDNA demonstrated that haplogroups J, U, and H associate with distinct symptom severity profiles in established ME/CFS (certainty 0.45; see Section @spec:mtdna-haplogroup-symptoms in Chapter @sec:cross-disease). Haplogroup determination is a one-time, low-cost test (targeted mtDNA sequencing or consumer genomics panels such as 23andMe). Adding haplogroup as a reserve-modifier node — haplogroup H as lower reserve ceiling, haplogroup U as higher reserve floor — could improve individual-level risk stratification within the MRS framework.
 
 #speculation(title: [Composite Reserve Index Including Haplogroup as a Trial Stratifier])[
 *(Certainty: 0.40 — haplogroup effect on symptom severity documented in one cohort; use as trial stratifier is untested but operationally feasible.)*
@@ -854,7 +853,7 @@ The composite Metabolic Reserve Score above could be extended by incorporating m
 Current ME/CFS trials suffer from phenotypic heterogeneity that reduces statistical power. A Composite Reserve Index combining: (a) Seahorse PBMC spare respiratory capacity (SRC, Watt/10#super[6] cells); (b) mtDNA haplogroup classification (H vs. U/J categorical); (c) post-exertional plasma lactate:pyruvate ratio at 24h post 6-minute walk test; and (d) mtDNA copy number per cell — could serve as a stratification variable in trial arms. Participants with Reserve Index below median could be assigned to reserve-enhancing interventions; those above median could be assigned to other mechanistic targets.
 
 *Falsifiable prediction:* A Composite Reserve Index will explain ≥15% of variance in 2-day CPET day-2 VO#sub[2]max decrement in ME/CFS cohorts (n ≥ 100), exceeding the variance explained by any single component alone. *Limitations:* No study has assembled this composite; haplogroup H's reserve-ceiling effect is inferred from symptom associations, not directly from CPET data. The L/P ratio measure requires calibration across labs. Not yet replicated.
-] <spec:composite-reserve-index>
+]
 
 #open-question(title: [Post-Exertional Lactate:Pyruvate Ratio as a Haplogroup-Sensitive Coupling Proxy])[
 The plasma lactate:pyruvate (L/P) ratio reflects the cytosolic NADH:NAD#super[+] ratio and rises when OXPHOS is bottlenecked upstream of Complex I/III. In ME/CFS, where pyruvate dehydrogenase suppression and elevated post-exertional lactate are documented, the delta-L/P ratio (measured before and 24h after submaximal exertion) may serve as a cheap, repeatable proxy for coupling efficiency.
@@ -862,7 +861,7 @@ The plasma lactate:pyruvate (L/P) ratio reflects the cytosolic NADH:NAD#super[+]
 If haplogroup H's tighter coupling produces less reserve against exertional ATP demand spikes, haplogroup H ME/CFS patients should show a greater post-exertional Δ(L/P) than haplogroup U/J patients at matched baseline severity. This would make Δ(L/P) both a coupling biomarker and a haplogroup-sensitive stratification tool.
 
 *Testable prediction:* Δ(L/P ratio) at 24h post 6-minute walk test will be ≥ 2× higher in haplogroup H ME/CFS patients than haplogroup U/J patients at matched PEM severity scores. Failure to observe a haplogroup-stratified difference would suggest that coupling efficiency, even if haplogroup-influenced, does not translate into measurable plasma L/P differences at the whole-body level.
-] <oq:lactate-pyruvate-haplogroup>
+]
 
 === Urinary Neopterin:Biopterin Ratio as Non-Invasive BH4 Screen
 <subsec:neopterin-biopterin-screen>

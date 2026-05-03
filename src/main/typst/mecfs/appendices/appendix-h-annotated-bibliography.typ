@@ -13149,7 +13149,6 @@ This section covers mechanistic and clinical literature on the intersection of m
 
 
 == Blood and Immune System Convergence in ME/CFS
-<sec:bib-blood-immune-convergence>
 
 
 === Seifert2026 — Extracellular Vesicle Signatures
@@ -13804,10 +13803,10 @@ This section covers mechanistic and clinical literature on the intersection of m
     / *PMID:*: 41749537
     / *Key Findings:*:
         - Neuroimaging consistently shows reduced brain iron in dopaminergic regions in ADHD; peripheral markers less reliable
-        - ASD: ferritin <50 ng/mL linked to sleep-related motor symptoms (restless legs, periodic limb movements)
+        - ASD: ferritin \<50 ng/mL linked to sleep-related motor symptoms (restless legs, periodic limb movements)
         - Iron is cofactor for dopamine/serotonin/NE synthesis AND mitochondrial complex I/II — dual role in energy and neurotransmission
         - Iron supplementation benefited ADHD children with sleep disturbances and suboptimal stimulant response
-        - Recommended ferritin thresholds: <30 ng/mL for ADHD, <50 ng/mL for ASD sleep phenotypes
+        - Recommended ferritin thresholds: \<30 ng/mL for ADHD, \<50 ng/mL for ASD sleep phenotypes
     / *Conclusion:*: Iron deficiency is a modifiable metabolic baseline reducer in neurodivergent populations. Low ferritin impairs both dopaminergic signalling (attention, motivation) and mitochondrial energy production — creating a double deficit. In ME/CFS-adjacent presentations, screening and correcting iron deficiency in neurodivergent patients represents a tractable intervention to improve metabolic reserve.
     / *Limitations:*: Narrative review; heterogeneous primary studies; peripheral iron markers unreliable proxies for brain iron; no direct ME/CFS data; optimal thresholds debated.
     / *Certainty:*: Medium (0.60) — robust mechanistic rationale; clinical threshold recommendations are expert consensus, not RCT-derived.
@@ -13841,14 +13840,14 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *PMID:*: 22777991
     / *Study Design:*: Multicentre parallel RCT, 44 primary care practices, France; observer-blinded
     / *Sample Size:*: n=198 (102 iron, 96 placebo), ages 18--53
-    / *Ferritin Cutoff:*: <50 µg/L with normal hemoglobin (>12.0 g/dL)
+    / *Ferritin Cutoff:*: \<50 µg/L with normal hemoglobin (>12.0 g/dL)
     / *Key Findings:*:
 
         - Ferrous sulfate 80 mg elemental iron daily × 12 weeks reduced fatigue score 47.7% vs 28.8% placebo (p=0.02)
         - No significant improvement in quality of life, depression, or anxiety
         - Iron therapy raised hemoglobin, raised ferritin, reduced soluble transferrin receptor
 
-    / *Reference Range Problem:*: WHO iron deficiency threshold is <15 µg/L; most clinical labs flag deficiency only below 12--15 µg/L. This RCT demonstrates fatigue benefit at ferritin levels up to 50 µg/L — more than 3× the WHO cutoff. Patients with ferritin 16--49 µg/L would typically be told their iron is "normal."
+    / *Reference Range Problem:*: WHO iron deficiency threshold is \<15 µg/L; most clinical labs flag deficiency only below 12--15 µg/L. This RCT demonstrates fatigue benefit at ferritin levels up to 50 µg/L — more than 3× the WHO cutoff. Patients with ferritin 16--49 µg/L would typically be told their iron is "normal."
     / *Certainty Assessment:*:
 
         - *Quality:* High — CMAJ, peer-reviewed RCT, independent
@@ -13890,11 +13889,11 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Study Design:*: Systematic review + two meta-analyses (6 RCTs, 6 cross-sectional studies)
     / *Key Findings:*:
 
-        - RCT pool: iron supplementation significantly reduced fatigue in IDWA (effect size 0.33, p<0.0001)
+        - RCT pool: iron supplementation significantly reduced fatigue in IDWA (effect size 0.33, p\<0.0001)
         - Cross-sectional pool: IDWA status did not significantly predict fatigue (effect size 0.10, p=0.362)
         - Interpretation: supplementation improves fatigue; cross-sectional IDWA status alone does not reliably stratify fatigued from non-fatigued individuals
 
-    / *Reference Range Problem:*: Ferritin thresholds defining IDWA in included studies ranged from <12 to <50 µg/L across different research teams, confirming there is no consensus on where "normal" iron stores end and functional deficiency begins.
+    / *Reference Range Problem:*: Ferritin thresholds defining IDWA in included studies ranged from \<12 to \<50 µg/L across different research teams, confirming there is no consensus on where "normal" iron stores end and functional deficiency begins.
     / *Certainty Assessment:*:
 
         - *Quality:* Medium-high — _British Journal of Nutrition_, systematic methods
@@ -13913,8 +13912,8 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Key Findings:*:
 
         - IDWA is at least twice as common as iron deficiency anemia, yet remains clinically underrecognized
-        - WHO cutoff (<15 µg/L) misses many clinically significant cases; <30 µg/L has high specificity and sensitivity for absent bone marrow iron stores
-        - In inflammatory conditions (relevant to ME/CFS): threshold rises to 100 µg/L (with TSAT <20% as confirmatory marker)
+        - WHO cutoff (\<15 µg/L) misses many clinically significant cases; \<30 µg/L has high specificity and sensitivity for absent bone marrow iron stores
+        - In inflammatory conditions (relevant to ME/CFS): threshold rises to 100 µg/L (with TSAT \<20% as confirmatory marker)
         - Calls for IDWA to be recognized as a standalone clinical diagnosis
 
     / *Certainty Assessment:*:
@@ -14002,7 +14001,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Study Design:*: Evidence-based clinical practice guideline (Endocrine Society)
     / *Key Findings:*:
 
-        - Deficiency defined as <20 ng/mL; insufficiency 21--29 ng/mL; sufficiency ≥30 ng/mL
+        - Deficiency defined as \<20 ng/mL; insufficiency 21--29 ng/mL; sufficiency ≥30 ng/mL
         - Recommends targeting 40--60 ng/mL for maximum extraskeletal (immune, cancer, cardiovascular) benefit
         - Adults at risk may require 1500--2000 IU/day to achieve >30 ng/mL
         - The guideline itself makes explicit that bone-health cutoffs and extraskeletal-benefit thresholds are different
@@ -14074,7 +14073,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Key Findings:*:
 
         - Anti-TPO cutoff for true thyroid inflammation calculated at 121.0 IU/mL
-        - Women above cutoff had significantly higher symptom counts (6.7±2.5 vs 4.1±2.8, p<0.001)
+        - Women above cutoff had significantly higher symptom counts (6.7±2.5 vs 4.1±2.8, p\<0.001)
         - Chronic fatigue was significantly more prevalent in the Hashimoto's group
         - TSH levels were statistically identical between groups (1.7±1.3 vs 1.5±1.4 µU/mL)
         - Autoimmune inflammation itself — not hypothyroidism — drives fatigue and other symptoms
@@ -14139,7 +14138,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Article Type:*: Phase 3 double-blind RCT (two identically designed trials)
     / *Key Findings:*:
         - Rifaximin 550 mg three times daily × 14 days vs placebo in IBS without constipation (IBS-D)
-        - Adequate relief of global IBS symptoms: 40.7% rifaximin vs 31.7% placebo (combined; p<0.001)
+        - Adequate relief of global IBS symptoms: 40.7% rifaximin vs 31.7% placebo (combined; p\<0.001)
         - Significant relief of bloating, abdominal pain, loose/watery stools
         - Effect maintained up to 10 weeks after treatment completion
         - Rifaximin is minimally absorbed, acting locally in the gut lumen — low systemic adverse effects
@@ -14161,7 +14160,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Key Findings:*:
         - 64 IBS-SIBO patients with confirmed clinical and breath test resolution post-antibiotic treatment
         - Symptom-free days before relapse: no prevention 59.7 days; low-dose nocturnal erythromycin 138.5 days; low-dose nocturnal tegaserod 241.6 days
-        - Tegaserod significantly superior to erythromycin (p<0.05) and to no prevention
+        - Tegaserod significantly superior to erythromycin (p\<0.05) and to no prevention
         - Mechanism: prokinetics stimulate MMC phase III contractions, maintaining fasting clearance of small intestinal contents
         - Note: tegaserod withdrawn from US market (cardiac risk); prucalopride is the current functional replacement
     / *Conclusion:*: Post-eradication prokinetics meaningfully extend relapse-free intervals in IBS-SIBO, supporting their routine use to address the underlying motility deficit.
@@ -14284,24 +14283,157 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Replication:* Not independently replicated
         - *Score:* 0.45
 
-=== Kashyap et al.\ 2024 --- Critical Appraisal of SIBO Hypothesis (ESNM/ANMS)
+// =============================================================================
 
-    / *Full Citation:*: Kashyap P, Moayyedi P, Quigley EMM, Simren M, Vanner S. Critical appraisal of the SIBO hypothesis and breath testing: a clinical practice update endorsed by the European Society of Neurogastroenterology and Motility (ESNM) and the American Neurogastroenterology and Motility Society (ANMS). _Neurogastroenterol Motil_. 2024;36(6):e14817. @Kashyap2024SIBOcritique
-    / *DOI:*: #link("https://doi.org/10.1111/nmo.14817")[10.1111/nmo.14817]
-    / *PMID:*: 38798120 | *PMC:* PMC11268457
-    / *Article Type:*: Clinical practice update / critical appraisal (endorsed by two major societies)
+== Systemic Sclerosis and ME/CFS: Cross-Disease Mechanisms
+<sec:bib-autoimmune-ssc>
+// =============================================================================
+
+=== van Eeden et al.\ 2023 --- Mitochondrial Signature in SSc Patients with ME/CFS
+
+    / *Full Citation:*: van Eeden C, Redmond D, Mohazab N, Larché MJ, Mason AL, Cohen Tervaert JW, Osman MS. Evidence of a Novel Mitochondrial Signature in Systemic Sclerosis Patients with Chronic Fatigue Syndrome. _Int J Mol Sci_. 2023;24(15):12057. @vanEeden2023SScMECFS
+    / *DOI:*: #link("https://doi.org/10.3390/ijms241512057")[10.3390/ijms241512057]
+    / *PMID:*: 37569433 | *PMC:* PMC10418481
+    / *Article Type:*: Cross-sectional exploratory study
+    / *Sample Size:*: 12 SSc-CFS, 12 SSc-NCFS, 10 healthy controls (early SSc, disease duration \<5 years)
     / *Key Findings:*:
-        - Core conclusion: "after two decades, this hypothesis remains unproven"
-        - Primary methodological flaw: lactulose H2 breath test (LHBT) measures oro-cecal transit, not small intestinal bacterial counts; normal transit range (25--200 min) generates widespread false positives
-        - Three independent research teams found no time point discriminates IBS patients from healthy controls on LHBT
-        - Diagnostic cut-off criteria (20 ppm, 90 min; later 180 min; adding methane, H2S) changed repeatedly without prospective validation
-        - Breath test normalisation does not reliably predict clinical improvement — the claimed mechanistic link is unconfirmed
-        - Injudicious antibiotic prescribing driven by unvalidated testing raises antimicrobial resistance concerns
-    / *Conclusion:*: The SIBO-as-cause-of-IBS hypothesis and the diagnostic value of standard breath testing for IBS are not supported by evidence. Recommends rejecting the hypothesis and curtailing breath-test-driven antibiotic prescribing.
-    / *Limitations:*: Critique focuses on IBS; does not address ME/CFS-specific data. Does not negate the existence of SIBO as a pathological condition or its prevalence in other populations. Some panelists may have publication bias against the SIBO hypothesis. The Karhu 2023 ME/CFS data (referral-based cohort with confirmed breath test) is not directly addressed.
-    / *ME/CFS Relevance:*: Essential counter-evidence. Mandates that breath-test-based SIBO prevalence data in ME/CFS (Karhu 2023; Pimentel 2000) be interpreted cautiously given unresolved test validity concerns. Supports use of breath testing only as an adjunct, not a standalone diagnostic tool, and prevents overclaiming SIBO as a core ME/CFS mechanism without stronger evidence.
+        - SSc patients formally meeting ME/CFS criteria (SSc-CFS) showed reduced CyB (Complex III) vs. SSc-NCFS (p=0.044) and healthy controls (p=0.030)
+        - Cox7C (Complex IV) elevated in SSc-CFS (p=0.031); ND4 (Complex I) reduced trend (p=0.051)
+        - No difference in SSc disease markers (mRSS skin score, digital ulcers, autoantibody type, lung DLCO) between SSc-CFS and SSc-NCFS groups
+        - Mitochondrial ETC signature is independent of organ-damage burden
+        - 50% of SSc-CFS patients also met fibromyalgia criteria
+    / *Conclusion:*: ME/CFS-phenotype in early SSc is associated with a distinct mitochondrial electron transport chain gene expression profile not explained by fibrotic disease activity. Hypothesis-generating; requires functional replication.
+    / *Limitations:*: n=12 per group; single-centre (Edmonton, Canada); gene expression not validated by functional mitochondrial assays; cross-sectional; limited ethnic diversity; not replicated.
+    / *ME/CFS Relevance:*: Strongest available evidence that ME/CFS as a formal complication of SSc produces a mitochondrial signature separable from SSc organ damage. Supports use of SSc as a model disease for studying ME/CFS metabolic mechanisms. Aligns with broader ME/CFS mitochondrial dysfunction literature but is the first to show the signature within a rheumatic disease context. Use with caution: n=12 is severely underpowered.
     / *Certainty Assessment:*:
-        - *Quality:* High (endorsed by ESNM and ANMS, rigorous methodology critique)
-        - *Sample:* Appraisal of multiple studies
-        - *Replication:*: Consistent with independent critiques of breath test validity
+        - *Quality:* Low (exploratory, n=12/group, gene expression not functionally validated)
+        - *Sample:* n=34 total
+        - *Replication:* Not replicated
+        - *Score:* 0.30
+
+=== van Eeden, Osman & Cohen Tervaert 2022 --- Fatigue in AAV/SSc and ME/CFS Similarities
+
+    / *Full Citation:*: van Eeden C, Osman MS, Cohen Tervaert JW. Fatigue in ANCA-associated vasculitis (AAV) and systemic sclerosis (SSc): similarities with Myalgic encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). A critical review of the literature. _Expert Rev Clin Immunol_. 2022;18(10):1049--1070. @vanEeden2022fatigue
+    / *DOI:*: #link("https://doi.org/10.1080/1744666X.2022.2116002")[10.1080/1744666X.2022.2116002]
+    / *PMID:*: 36045606
+    / *Article Type:*: Critical narrative review
+    / *Key Findings:*:
+        - "Immune and metabolic commonalities exist between ME/CFS, SSc, and PSVs" --- shared pathophysiological pathways proposed
+        - Persistent fatigue in SSc and AAV often persists after clinical remission, independent of standard disease activity markers
+        - Sleep disturbance, cognitive impairment, and functional disability shared across ME/CFS, SSc, and AAV
+        - Recommends physicians identify patients with SARD meeting ME/CFS criteria as requiring different management
+        - Does not provide new primary data; synthesises existing literature across conditions
+    / *Conclusion:*: Fatigue in SSc and AAV shares mechanistic features with ME/CFS; the overlap is not merely symptomatic but reflects common immune-metabolic pathways. Formal ME/CFS assessment in rheumatic disease patients is warranted.
+    / *Limitations:*: Narrative review (not systematic); heterogeneous underlying studies; most SSc/AAV fatigue studies did not apply formal ME/CFS diagnostic criteria; post-exertional malaise not assessed in reviewed studies; publication bias possible.
+    / *ME/CFS Relevance:*: Directly supports the ch14d cross-disease framing: SSc as a mechanistic model for ME/CFS-type fatigue. Provides the conceptual framework for the other SSc papers in this section.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (narrative review; not systematic/meta-analytic)
+        - *Sample:* Review of existing literature
+        - *Replication:* Consistent with other reviews of SARD fatigue
+        - *Score:* 0.50
+
+=== Kwakkenbos et al.\ 2025 --- Fatigue in SSc: 2385 SPIN Cohort Participants
+
+    / *Full Citation:*: Kwakkenbos L, Levis B, Henry RS, et al. Fatigue levels and associated factors in systemic sclerosis: a cross-sectional study of 2385 SPIN Cohort participants. _Rheumatology (Oxford)_. 2025;64(5):2810--2820. @Kwakkenbos2025SScFatigue
+    / *DOI:*: #link("https://doi.org/10.1093/rheumatology/keae570")[10.1093/rheumatology/keae570]
+    / *PMID:*: 39447026 | *PMC:* PMC12048050
+    / *Article Type:*: Cross-sectional multicenter cohort study
+    / *Sample Size:*: n=2,385 (mean age 54.9; 87% female; 38% diffuse cutaneous SSc)
+    / *Key Findings:*:
+        - Mean PROMIS fatigue T-score 54.6 (general population mean 50) --- substantially elevated
+        - 53% reported clinically meaningful fatigue (mild to severe)
+        - Strongest disease predictor: GI involvement (+4.21 points)
+        - Pain (+2.19 per unit), smoking, higher BMI, non-married status independently elevated fatigue
+        - Fatigue does NOT primarily track skin fibrosis (mRSS)
+    / *Conclusion:*: SSc fatigue is driven by functional, GI, and pain-related factors rather than skin fibrosis extent. The decoupling of fatigue from fibrotic burden parallels ME/CFS, where structural damage does not predict symptom severity.
+    / *Limitations:*: Cross-sectional; patient-reported outcomes only; participation bias possible; causal mechanisms not assessable; no post-exertional malaise assessment.
+    / *ME/CFS Relevance:*: Large-sample evidence that SSc fatigue is not simply a fibrosis by-product --- supports the SSc-as-model argument for ME/CFS. The GI-fatigue link echoes gut-microbiome/dysautonomia pathways in ME/CFS. Null result for skin fibrosis as a fatigue driver is important context for ch14d.
+    / *Certainty Assessment:*:
+        - *Quality:* High (large multicenter cohort, validated PROMIS tool)
+        - *Sample:* n=2,385
+        - *Replication:* Consistent with Basta 2018 systematic review findings
+        - *Score:* 0.72
+
+=== Basta, Afeltra & Margiotta 2018 --- SSc Fatigue: Systematic Review
+
+    / *Full Citation:*: Basta F, Afeltra A, Margiotta DPE. Fatigue in systemic sclerosis: a systematic review. _Clin Exp Rheumatol_. 2018;36(4 Suppl 113):150--160. @Basta2018SScFatigueSysRev
+    / *PMID:*: 29303706
+    / *Article Type:*: Systematic review
+    / *Key Findings:*:
+        - Fatigue is "one of the most prevalent and debilitating symptoms experienced by SSc patients"
+        - Correlates: psychosocial factors (depression, pain, sleep disturbance), pulmonary and GI manifestations
+        - "Relationship with scores of disease activity is uncertain" --- fatigue does not reliably track SSc severity
+        - Pharmacological interventions largely unsuccessful; physical activity showed more promise
+    / *Conclusion:*: SSc fatigue is multifactorial, partially independent of fibrotic/immune disease activity, and resistant to standard pharmacological management. This profile parallels ME/CFS fatigue.
+    / *Limitations:*: English-language studies only; heterogeneous measurement tools; no ME/CFS diagnostic criteria applied; no PEM assessment; pre-2018 studies only.
+    / *ME/CFS Relevance:*: Historical baseline establishing SSc fatigue independence from disease activity. Supports the framing that SSc fatigue requires different management beyond immunosuppression --- same argument applied in ME/CFS context.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (systematic review; older literature base; no meta-analysis)
+        - *Sample:* Systematic review of available studies
+        - *Replication:* Confirmed by Kwakkenbos 2025 SPIN cohort
+        - *Score:* 0.55
+
+=== Hartmann et al.\ 2023 --- ADRA2A and IRX1: Putative Risk Genes for Raynaud's Phenomenon
+
+    / *Full Citation:*: Hartmann S, Yasmeen S, Jacobs BM, et al. ADRA2A and IRX1 are putative risk genes for Raynaud's phenomenon. _Nat Commun_. 2023;14(1):6156. @Hartmann2023ADRA2A
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-023-41876-5")[10.1038/s41467-023-41876-5]
+    / *PMID:*: 37828025
+    / *Article Type:*: GWAS using electronic health records
+    / *Sample Size:*: 5,147 Raynaud's cases; 439,294 controls
+    / *Key Findings:*:
+        - ADRA2A (alpha-2A adrenoreceptor) identified as top candidate causal gene: rs7090046, OR=1.26/allele, p\<9.6×10⁻²⁷
+        - Functional validation: ADRA2A-deficient smooth muscle cells --- reduced cold contraction; ADRA2A-overexpressing --- increased contraction
+        - IRX1 (microvascular transcription factor) is second locus
+        - Alpha-2A (not alpha-2C) adrenoreceptor is the genetic risk signal for Raynaud's
+    / *Conclusion:*: ADRA2A is the primary genetic risk locus for Raynaud's phenotype, implicating catecholamine-induced vasoconstriction via alpha-2A adrenoreceptors.
+    / *Limitations:*: European ancestry only; EHR diagnosis codes may miss mild cases; does not include ME/CFS subjects; alpha-2C role in SSc-associated Raynaud's not directly tested.
+    / *ME/CFS Relevance:*: The ME/CFS vasospasm hypothesis invokes alpha-2C adrenoreceptor upregulation. This study maps genetic risk to alpha-2A. These are different subtypes --- overlap exists (both mediate vasoconstriction in small vessels; co-expressed in vascular smooth muscle) but the receptor subtype distinction matters for therapeutic targeting. The Raynaud's prevalence in ME/CFS (~20--28%) remains unexplained by this GWAS but the shared adrenergic pathway is relevant context.
+    / *Certainty Assessment:*:
+        - *Quality:* High (GWAS; large sample; functional validation)
+        - *Sample:* n=444,441 total
+        - *Replication:* Confirmed by Tervi 2024 meta-analysis
         - *Score:* 0.80
+
+=== Tervi et al.\ 2024 --- Raynaud's Genetics: Vasculature and Immunity Loci
+
+    / *Full Citation:*: Tervi A, Ramste M, Abner E, et al. Genetic and functional analysis of Raynaud's syndrome implicates loci in vasculature and immunity. _Cell Genomics_. 2024;4(9):100630. @Tervi2024RaynaudGWAS
+    / *DOI:*: #link("https://doi.org/10.1016/j.xgen.2024.100630")[10.1016/j.xgen.2024.100630]
+    / *PMID:*: 39142284 | *PMC:* PMC11480858
+    / *Article Type:*: GWAS meta-analysis + functional genomics
+    / *Sample Size:*: 11,358 cases; 1,106,871 controls (4 biobanks: FinnGen, UK Biobank, Estonian Biobank, MGB)
+    / *Key Findings:*:
+        - Eight loci: ADRA2A, IRX1, NOS3, HLA, ACVR2A, TMEM51, PCDH10-DT, RAB6C
+        - ADRA2A: temperature-dependent adrenergic signalling (confirmed from Hartmann 2023)
+        - NOS3: endothelial eNOS pathway --- CRISPRi of rs3918226 significantly decreased NOS3 expression (functional confirmation)
+        - HLA class I: immune/autoimmune mechanism especially in secondary Raynaud's
+        - IRX1: microvascular effects
+        - Paper explicitly identifies Raynaud's as ME/CFS and long-COVID comorbidity
+    / *Conclusion:*: Raynaud's genetic architecture spans adrenergic signalling, endothelial function, microvasculature, and immune pathways --- multi-mechanism disorder. NOS3/eNOS pathway is functionally confirmed.
+    / *Limitations:*: European ancestry only; EHR-based; primary vs. secondary Raynaud's not fully distinguished in all cohorts; functional studies focused on cold-triggered mechanisms.
+    / *ME/CFS Relevance:*: NOS3/eNOS endothelial dysfunction independently documented in ME/CFS vascular pathology (Scherbakov 2020). Shared genetic architecture between Raynaud's and ME/CFS vascular features (eNOS, adrenergic, HLA immune signals) supports a common endothelial-adrenergic vulnerability model. The ~20--28% Raynaud's prevalence in ME/CFS may reflect this shared genetic background rather than secondary SSc-type structural disease.
+    / *Certainty Assessment:*:
+        - *Quality:* High (GWAS meta-analysis, 4 independent biobanks, functional CRISPRi validation)
+        - *Sample:* n=1,118,229 total across 4 cohorts
+        - *Replication:* Consistent and extended Hartmann 2023
+        - *Score:* 0.82
+
+=== Masini et al.\ 2021 --- Autonomic Dysfunction Correlates with Microvascular Damage in SSc
+
+    / *Full Citation:*: Masini F, Galiero R, Pafundi PC, et al. Autonomic nervous system dysfunction correlates with microvascular damage in systemic sclerosis patients. _J Scleroderma Relat Disord_. 2021;6(3):256--263. @Masini2021SScAutonomic
+    / *DOI:*: #link("https://doi.org/10.1177/23971983211020617")[10.1177/23971983211020617]
+    / *PMID:*: 35387218 | *PMC:* PMC8922659
+    / *Article Type:*: Cross-sectional pilot study
+    / *Sample Size:*: n=26 SSc patients; 26 healthy controls
+    / *Key Findings:*:
+        - 50% of SSc patients met cardiac autonomic neuropathy (CAN) criteria
+        - CAN significantly associated with active nailfold videocapillaroscopy pattern (p=0.032) --- autonomic dysfunction tracks microvascular injury, not skin fibrosis
+        - Anti-Scl-70 (anti-topoisomerase I) positivity independently associated with autonomic dysfunction
+        - Autonomic dysfunction described as common and early feature, potentially predating fibrosis
+    / *Conclusion:*: Autonomic dysfunction in SSc is tightly coupled to microvascular damage and may precede fibrosis, suggesting a vascular-first sequence. Anti-topoisomerase I antibodies associate independently with autonomic impairment.
+    / *Limitations:*: Small n=26; single-centre pilot; cross-sectional; no ME/CFS comparison; HRV-based autonomic assessment only (no tilt table); no causal inference; underpowered for subgroup analyses.
+    / *ME/CFS Relevance:*: Autonomic dysfunction (orthostatic intolerance) is a core ME/CFS diagnostic criterion (IOM 2015). SSc autonomic dysfunction follows the same vascular-damage pathway, supporting the hypothesis that vascular endothelial injury is upstream of dysautonomia in both conditions. The anti-Scl-70 association provides a differential diagnostic marker: anti-topoisomerase I positive points toward SSc, not ME/CFS. Note: no study has detected anti-Scl-70 or anti-centromere antibodies in ME/CFS cohorts --- this is an untested gap, not a confirmed negative.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (pilot; n=26; single-centre; cross-sectional)
+        - *Sample:* n=26
+        - *Replication:* Not replicated in ME/CFS context; SSc autonomic dysfunction replicated elsewhere
+        - *Score:* 0.40

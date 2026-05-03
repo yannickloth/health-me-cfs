@@ -34,8 +34,8 @@ ordered within domains from highest to lowest certainty.
 
 _Dual certainty notation_ (e.g., 0.50/0.35): first value is certainty in the claim itself; second value is certainty that the proposed test design is adequate to falsify it. Used only where test feasibility is itself uncertain.
 
-// Legacy LaTeX block removed 2026-05-03. 21 entries referenced from chapter files require
-// migration to working Typst registry tables (see git history for original content).
+// Legacy LaTeX block removed 2026-05-03. Migration complete 2026-05-03:
+// 21 entries referenced from chapter files migrated to Typst registry tables below.
 // 38 unreferenced legacy entries deleted.
 
 
@@ -4427,4 +4427,239 @@ Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability
   caption: [Entries added 2026-05-03: MCAS Domain 6 review-fix convergence — 3 speculations: TGF-$beta$ Rosetta Stone (Ch.7), defective NET clearance (Ch.7), food-triggered non-IgE mast cell activation (Ch.14d). These environments were added during the 12-round convergence review but had no corresponding registry entries.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-03-domain6-review>
+] // end landscape page
+
+=== Entries Added 2026-05-03: Legacy Migration — Cardiovascular, Endocrine, Neurological
+
+Motivated by: LaTeX→Typst registry migration; these environments existed in chapter files but had no working registry table entries after the legacy block was removed (commit 837ad98).
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Claim*], [*Type*], [*Cert.*], [*Testable Prediction*], [*Proposed Test*], [*Location*],
+    ),
+
+    [Bradykinin Spillover as the Mechanism of RAAS Suppression],
+    [H], [0.50],
+    [(a) Systemic bradykinin or kallikrein levels elevated at rest and rise disproportionately after exertion vs controls. (b) KKS blockade (icatibant) restores RAAS upregulation on orthostatic challenge. (c) RAAS suppression magnitude correlates with muscular hypoperfusion by NIRS/invasive CPET.],
+    [Systemic bradykinin measurement at rest and post-exertion — never done in ME/CFS. Icatibant crossover challenge study. NIRS + RAAS co-measurement during CPET.],
+    [Ch.10 @hyp:bradykinin-raas],
+
+    [Calcium Toxicity as Primary Mechanism of Post-Exertional Malaise],
+    [H], [0.50],
+    [(a) Intracellular calcium elevated in ME/CFS muscle during PEM (³¹P-MRS or fluorescent probes). (b) Post-exercise sodium accumulation (²³Na-MRI) predicts PEM severity/duration dose-dependently. (c) Pharmacological Na#super[+]/K#super[+]-ATPase stimulation (MDC002) reduces/eliminates PEM.],
+    [²³Na-MRI Wirth-Scheibenbogen protocol. Calcium-sensitive fluorescent probes in muscle biopsy during PEM. MDC002 trial with PEM endpoints.],
+    [Ch.6 @hyp:calcium-pem],
+
+    [Cytokine-Mediated Deiodinase Suppression],
+    [H], [0.50],
+    [(a) Deiodinase enzyme activity is reduced in ME/CFS patients with elevated IL-6/TNF-α, directly measured — not inferred from T3/rT3 ratios. (b) Patients with documented deiodinase suppression show low free T3 and elevated reverse T3. Falsified if DIO activity is normal despite cytokine elevation.],
+    [SPINA-GD deiodinase activity index measured in ME/CFS cohorts alongside IL-6/TNF-α. Correlation analysis. Selenoprotein P autoantibody stratification (Sun 2023 assay).],
+    [Ch.9 @hyp:deiodinase-suppression],
+
+    [Post-Viral Pituitary Injury as a Structurally Distinct ME/CFS Trigger],
+    [H], [0.50],
+    [(a) Subgroup of post-viral ME/CFS patients shows impaired cortisol on ACTH stimulation test (secondary AI). (b) Pituitary MRI reveals structural abnormalities in this subgroup. (c) Subgroup responds to physiological hydrocortisone ≤10 mg/day. (d) Prevalence of secondary AI higher after SARS-CoV-1/2 than EBV/enterovirus.],
+    [ACTH stimulation testing in post-COVID ME/CFS cohort within 12 months of onset. Pituitary MRI with gadolinium. Randomized hydrocortisone replacement trial in confirmed secondary AI subgroup.],
+    [Ch.9 @hyp:postviral-pituitary],
+
+    [Maladaptive Sickness Behavior Program],
+    [H], [0.50],
+    [TPJ misinterprets chronic low-grade inflammation as ongoing acute illness, chronically suppressing activity. Prediction: neuroinflammatory signal intensity (PET/MRS) correlates with TPJ underactivation amplitude within ME/CFS patients across activity challenges. Anti-neuroinflammatory interventions should partially restore TPJ activation patterns.],
+    [Simultaneous TSPO-PET + fMRI effort-allocation task in same ME/CFS patients. Neuroinflammation-targeted treatment trial with fMRI endpoints.],
+    [Ch.8 @hyp:maladaptive-sickness-behavior],
+
+    [Glial Maturation Window and Pediatric Recovery],
+    [H], [0.45],
+    [(a) Longitudinal PET shows declining microglial activation in recovering adolescents but persistent activation in non-recovering adults with equal disease duration. (b) Recovery rates decline sharply near age 22–25, not gradually. (c) CSF sCD14/chitotriosidase normalize in recovering adolescents. (d) CSF-1R inhibition in adults mimics adolescent reset.],
+    [Age-stratified longitudinal TSPO-PET in adolescent vs adult ME/CFS. CSF biomarker trajectories. Preclinical post-viral fatigue models in adolescent vs adult mice.],
+    [Ch.8 @hyp:glial-maturation-window],
+
+    [EBV-Adolescence Autoimmune Window],
+    [H], [0.50],
+    [(a) GPCR autoantibody titers higher in EBV-triggered adolescent-onset vs non-EBV or adult-onset ME/CFS. (b) Autoantibody trajectories differ by age at onset: adolescents show spontaneous decline, adults show persistence. (c) B cell depletion (rituximab) produces greater/longer remission in adolescents with recent EBV trigger.],
+    [Comparative GPCR autoantibody panels by age at onset and EBV status. Longitudinal autoantibody tracking in Pricoco 2024-type cohorts. Early rituximab pilot in EBV-triggered adolescent ME/CFS.],
+    [Ch.7 @hyp:ebv-adolescence],
+
+  ),
+  caption: [Entries added 2026-05-03: Legacy migration batch 1 — cardiovascular, endocrine, neurological. Includes bradykinin RAAS suppression (Ch.10), calcium-PEM cascade (Ch.6), deiodinase suppression (Ch.9), post-viral pituitary injury (Ch.9), maladaptive sickness behavior (Ch.8), glial maturation window (Ch.8), EBV-adolescence autoimmune window (Ch.7). Migrated from legacy LaTeX block (commit 837ad98).],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-03-legacy-batch1>
+] // end landscape page
+
+=== Entries Added 2026-05-03: Legacy Migration — Immune, Metabolic, Integrative
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Claim*], [*Type*], [*Cert.*], [*Testable Prediction*], [*Proposed Test*], [*Location*],
+    ),
+
+    [IL-2 Pathway in ME/CFS Pathophysiology],
+    [H], [0.45],
+    [(a) IL-2 levels in extracellular vesicles correlate with epigenetic IL-2 pathway dysregulation score in the same patients. (b) IL-2 receptor expression and JAK/STAT downstream signaling are abnormal in ME/CFS T cells. (c) Whether IL-2 dysfunction is cause or epiphenomenon of chronic immune activation.],
+    [Co-measurement study: EV proteomics + EpiSwitch epigenetic profiling + IL-2R/JAK-STAT panel in same cohort. In vitro IL-2 stimulation assays on ME/CFS T cells.],
+    [Ch.7 @hyp:il2-pathway],
+
+    [Immune Cell Energy Starvation Creates a Viral Persistence Niche],
+    [H], [0.40],
+    [(a) Metabolic supplementation (D-ribose, CoQ10, MitoQ) restores ME/CFS NK and CD8+ T cell cytotoxic function in vitro. (b) Combined antiviral + metabolic support achieves greater viral clearance than antiviral alone. (c) T cell metabolic impairment (Seahorse) inversely correlates with viral clearance efficiency longitudinally.],
+    [In vitro metabolic rescue killing assays (patient-derived NK/CD8 vs virus-infected targets). Combined antiviral + metabolic support RCT with pathogen-specific PCR endpoints. Seahorse metabolic flux analysis longitudinal study.],
+    [Ch.6 @hyp:immune-energy-starvation-niche],
+
+    [Homocysteine-Mediated ETC Disruption as a Contributing Mechanism],
+    [H], [0.30],
+    [(1) ME/CFS patients with MTHFR TT genotype show higher CSF homocysteine than CT/CC genotype. (2) CSF homocysteine levels correlate with ETC complex activity in PBMCs in the same patients. (3) MTHFR-guided B12/folate supplementation preferentially reduces fatigue in confirmed elevated CSF homocysteine patients.],
+    [CSF homocysteine in MTHFR-genotyped ME/CFS cohort. Same-patient CSF homocysteine + PBMC ETC activity. Genotype-stratified B12/methylfolate supplementation trial.],
+    [Ch.6 @hyp:homocysteine-etc-disruption],
+
+    [The Multi-Level Energy Crisis and Vicious Cycle in ME/CFS],
+    [H], [0.55],
+    [(1) Combination interventions targeting ≥2 cycle levels produce greater sustained benefit than mono-target approaches in RCT comparison. (2) Patients with elevated intracellular muscle sodium (²³Na-MRI) show greater response to ion-homeostasis-correcting therapies. (3) Correcting sodium overload alone attenuates but does not fully resolve the cycle.],
+    [Head-to-head RCT: mono-target vs multi-target intervention. ²³Na-MRI patient stratification in treatment trials. MDC002 + vascular intervention combined vs monotherapy arm.],
+    [Ch.6 @hyp:vicious-cycle-integrated],
+
+    [Chronic Exerkine Signaling Hypothesis],
+    [H], [0.45],
+    [(a) FGF-21 and GDF-15 levels correlate with disease severity (functional capacity, PEM threshold). (b) Successful treatment normalizes exerkine levels. (c) ME/CFS patients show blunted additional exerkine response to exercise (ceiling effect) vs healthy controls. (d) Metabotype 2 patients (highest FGF-21) have most severe metabolic symptoms.],
+    [Exerkine panel (FGF-21, GDF-15, leptin, resistin) stratified by functional capacity. Exercise provocation with pre/post exerkine measurement. Longitudinal treatment-response tracking using FGF-21 as biomarker.],
+    [Ch.13 @hyp:chronic-exerkine],
+
+    [The Deconditioning Narrative as Iatrogenic Harm Multiplier],
+    [H], [0.50],
+    [(a) ME/CFS patients with documented deconditioning-based advice in records show greater 5-year functional decline than PEM-aware–managed patients, controlling for baseline severity. (b) Time-to-diagnosis longer under deconditioning paradigm. (c) Progression mild→severe higher in GET-managed vs pacing-from-onset cohorts. (d) Regional GET prescription rates pre-2021 correlate with regional severe ME/CFS rates.],
+    [Retrospective cohort with medical record audit for deconditioning belief documentation. Natural experiment: UK vs Scandinavian pre/post-NICE 2021 guideline adoption. Time-to-diagnosis analysis by index clinical narrative.],
+    [Ch.24 @hyp:deconditioning-iatrogenic],
+
+    [Activity-Adjusted Meal Timing for Dysautonomic ME/CFS],
+    [H], [0.50],
+    [In a 12-week pacing intervention, patients receiving FUNCAP-informed post-prandial rest protocols should show greater reduction in post-prandial symptom severity than patients receiving generic pacing advice. Post-prandial orthostatic tolerance improves with supine/semi-recumbent positioning during meals in POTS-confirmed ME/CFS patients.],
+    [Prospective pacing RCT with post-prandial symptom diary endpoints. Tilt-table test pre/post meal with posture variation. Continuous CGM + symptom tracking correlating glycemic response with dysautonomic symptoms.],
+    [Ch.17 @hyp:postprandial-pacing],
+
+  ),
+  caption: [Entries added 2026-05-03: Legacy migration batch 2 — immune, metabolic, integrative. Includes IL-2 pathway (Ch.7), immune energy starvation niche (Ch.6), homocysteine-ETC disruption (Ch.6), multi-level vicious cycle (Ch.6), chronic exerkine signaling (Ch.13), deconditioning iatrogenic harm (Ch.24), activity-adjusted meal timing (Ch.17). Migrated from legacy LaTeX block (commit 837ad98).],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-03-legacy-batch2>
+] // end landscape page
+
+=== Entries Added 2026-05-03: Legacy Migration — Speculations, Open Questions
+
+#landscape[
+#figure(
+  table(
+    columns: (2fr, 0.4fr, 0.4fr, 3fr, 2fr, 1.5fr),
+    align: (left, center, center, left, left, left),
+    table.header(
+      [*Claim*], [*Type*], [*Cert.*], [*Testable Prediction*], [*Proposed Test*], [*Location*],
+    ),
+
+    [Exhausted Immune Surveillance Phenotype],
+    [S], [0.35],
+    [(a) Longitudinal B cell count tracking in long-duration ME/CFS shows progressive CD19+ depletion correlating with disease duration and viral titers. (b) CD19+ depletion severity predicts response to cellular immunity enhancers (cimetidine). (c) Immunomodulatory (vs immunosuppressive) interventions reverse phenotype while immunosuppression worsens it.],
+    [Prospective B cell count tracking with viral titer co-measurement. Cimetidine trial with stratification by B cell count. Paired immunophenotyping (CD19+, CD3+, NK) with EBV-IgG titers.],
+    [Ch.7 @spec:exhausted-surveillance],
+
+    [Lymphocyte Reservoir Ratchet],
+    [S], [0.35],
+    [(a) Single-cell RNA sequencing of PBMCs from post-COVID ME/CFS detects viral transcripts in \<1% of lymphocytes. (b) Virus-positive lymphocyte fraction correlates with disease severity and duration. (c) In vitro lymphocyte activation produces detectable viral antigen release; resting cells do not. (d) Recovered ME/CFS patients show clearance of lymphocyte-associated viral RNA.],
+    [10x Genomics scRNA-seq on PBMCs from post-COVID ME/CFS patients. Longitudinal viral RNA fraction tracking. B cell-depleted vs non-depleted patient viral antigen comparison.],
+    [Ch.7 @spec:lymphocyte-reservoir-ratchet],
+
+    [Meningitis as Disproportionate Neurological Threat in ME/CFS: Double Vulnerability],
+    [S], [0.35],
+    [(a) ME/CFS patients contracting meningitis show worse Glasgow Outcome Scale scores at 6 months vs age-matched non-ME/CFS meningitis patients. (b) Post-meningitis ME/CFS patients show greater PET microglial activation than either condition alone. (c) CSF IL-1β/TNF-α/quinolinic acid disproportionately elevated in ME/CFS during acute meningitis.],
+    [Retrospective meningitis outcome registry with ME/CFS comorbidity flag. Post-meningitis TSPO-PET in ME/CFS survivors. Prospective CSF profiling during hospitalization for meningitis in known ME/CFS patients.],
+    [Ch.8 @spec:meningitis-double-vulnerability],
+
+    [Neutrophil Functional Exhaustion Hypothesis],
+    [S], [0.40],
+    [(a) Ex vivo stimulation with PMA/fMLP produces attenuated degranulation and ROS vs healthy controls despite normal counts. (b) Neutrophil granule protein content (intracellular flow cytometry) reduced in ME/CFS. (c) Daratumumab responders show normalization of circulating neutrophil granule proteins.],
+    [Ex vivo neutrophil stimulation assay (PMA/fMLP + degranulation markers). Intracellular granule protein flow cytometry. Longitudinal profiling in daratumumab-treated patients.],
+    [Ch.13 @spec:neutrophil-exhaustion],
+
+    [Is the Oral Microbiome an Overlooked Inflammatory Reservoir in ME/CFS?],
+    [OQ], [---],
+    [Is periodontal disease prevalence elevated in ME/CFS? Does oral microbiome composition differ and correlate with systemic inflammatory markers? Does periodontal treatment reduce systemic IL-6/CRP or improve symptoms? Is there a severity gradient with worse periodontal status in more disabled patients?],
+    [Case-control periodontal examination + oral microbiome 16S/shotgun in ME/CFS vs healthy controls. Scaling and root planing RCT with systemic CRP/IL-6 + symptom endpoints. Severity-stratified cross-sectional study.],
+    [Ch.11 @oq:oral-microbiome],
+
+    [Periodontal _P. gingivalis_ as a Contributor to ME/CFS Autoimmunity],
+    [S], [0.20],
+    [(a) ME/CFS patients with GPCR autoantibodies show higher _P. gingivalis_ colonisation prevalence than autoantibody-negative patients. (b) _P. gingivalis_ DNA/gingipains detectable in CSF of ME/CFS patients with neuroinflammatory features at rates exceeding healthy controls. (c) Periodontal treatment in _P. gingivalis_-positive patients reduces GPCR autoantibody titres over 6–12 months.],
+    [GPCR autoantibody panel + subgingival _P. gingivalis_ PCR in ME/CFS cohort. CSF gingipain ELISA in neuroinflammatory ME/CFS. Pre/post periodontal treatment autoantibody titres.],
+    [Ch.14i @spec:oral-autoimmunity],
+
+    [The Oral Dysbiosis–Disability Vicious Cycle],
+    [S], [0.30],
+    [(a) ME/CFS symptom severity correlates with periodontal markers (pocket depth, attachment loss, bleeding on probing), controlling for age/smoking/diabetes. (b) Assisted oral hygiene protocols in severe ME/CFS reduce systemic CRP/IL-6 within 3–6 months. (c) Periodontal treatment in ME/CFS+periodontitis patients produces greater symptom improvement than in ME/CFS patients without periodontitis.],
+    [Periodontal examination + CRP/IL-6 in severe ME/CFS. Randomized assisted oral hygiene intervention. Periodontal treatment RCT stratified by baseline periodontitis status.],
+    [Ch.11 @spec:oral-dysbiosis-cycle],
+
+  ),
+  caption: [Entries added 2026-05-03: Legacy migration batch 3 — speculations and open question. Includes exhausted immune surveillance (Ch.7), lymphocyte reservoir ratchet (Ch.7), meningitis double vulnerability (Ch.8), neutrophil exhaustion (Ch.13), oral microbiome open question (Ch.11), oral autoimmunity (Ch.14i), oral dysbiosis cycle (Ch.11). Migrated from legacy LaTeX block (commit 837ad98).],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-03-legacy-batch3>
+] // end landscape page
+
+=== Entries Added 2026-05-03: Systemic Sclerosis (SSc) and ME/CFS Integration
+
+Motivated by: @vanEeden2023SScMECFS (Complex III/CyB deficit in SSc-ME/CFS subgroup, n=12), @vanEeden2022fatigue (SSc/AAV--ME/CFS immune-metabolic overlap review), @Kwakkenbos2025SScFatigue (SPIN cohort n=2,385; fatigue decoupled from fibrosis), @Basta2018SScFatigueSysRev (SSc fatigue systematic review), @Hartmann2023ADRA2A (ADRA2A as primary Raynaud's risk gene), @Tervi2024RaynaudGWAS (NOS3 + ADRA2A + HLA GWAS loci for Raynaud's), @Masini2021SScAutonomic (50% cardiac autonomic neuropathy in SSc; anti-Scl-70 predicts autonomic involvement).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Complex III as Convergent ETC Bottleneck Across ME/CFS Triggers],
+    [S], [0.35],
+    [Post-viral ME/CFS, SSc-ME/CFS, and Long-COVID-ME/CFS all show reduced CyB (Complex III) expression and antimycin-sensitive respiration fraction; absent in fatigued-SSc-not-ME/CFS controls.],
+    [Head-to-head Seahorse + RNA-seq of PBMCs in 4 groups. n≥30/group. Van Eeden 2023 is n=12 single-centre --- replication required.],
+    [Ch.14d @spec:complex-iii-convergent-bottleneck],
+
+    [eNOS/NOS3 Hypofunction as Shared Endothelial Substrate],
+    [S], [0.40],
+    [ME/CFS patients show elevated ADMA/SDMA and reduced post-occlusive reactive hyperaemia vs controls; deficit correlates with DSQ-PEM severity. L-citrulline (6 g/day, 8 weeks) improves FMD ≥1.5% absolute in the low-FMD subgroup.],
+    [ADMA LC-MS assay + EndoPAT reactive hyperaemia (n≥80). Crossover citrulline trial (n≥30) in FMD-impaired subgroup. No ME/CFS NOS3 genotyping or ADMA data currently available.],
+    [Ch.14d @spec:nos3-shared-endothelial-substrate],
+
+    [Cardiac Autonomic Neuropathy as Hidden ME/CFS Phenotype],
+    [S], [0.45],
+    [Ewing 5-test battery in 100 ME/CFS patients will identify ≥30% with definite CAN (≥2 abnormal tests); CAN status predicts 2-day CPET VO2 decrement magnitude.],
+    [Ewing battery in ME/CFS clinic cohort. Comparison to CAN in SSc (Masini 2021: 50%). No formal CAN prevalence study in ME/CFS exists.],
+    [Ch.14d @spec:can-hidden-mecfs-phenotype],
+
+    [ADRA2A Vasospasm in ME/CFS Raynaud-OI Subgroup],
+    [S], [0.30],
+    [ADRA2A Raynaud GWAS lead variants enriched (OR≥1.5) in ME/CFS patients with Raynaud-positive history AND OI-positive tilt test, vs ME/CFS with neither.],
+    [ME/CFS GWAS data (DecodeME) + Raynaud/OI phenotype data. Two-sample MR: Raynaud genetic liability → ME/CFS risk. No ME/CFS-specific ADRA2A data currently.],
+    [Ch.14d @spec:adra2a-mecfs-raynaud-oi],
+
+    [SSc: Does PEM Occur Independent of Fibrosis?],
+    [OQ], [---],
+    [What fraction of SPIN/EUSTAR SSc patients meet DSQ-PEM criteria? Do PEM-positive SSc patients show the same immunometabolic signature as the van Eeden 2023 SSc-ME/CFS subgroup?],
+    [DSQ-PEM or 2-day CPET in SPIN sub-cohort (n≥500). Compare CyB, IFN-I score, CAN status in PEM-positive vs PEM-negative SSc.],
+    [Ch.14d @oq:pem-in-ssc],
+
+    [IFN-I Score + CyB Two-Axis ME/CFS Stratifier],
+    [OQ], [---],
+    [Cluster analysis of IFN-I score + CyB expression (n≥150) yields ≥3 reproducible ME/CFS subtypes with distinct symptom profiles, validated in an independent cohort.],
+    [Whole-blood ISG score + PBMC CyB qPCR in cohort study. No ME/CFS study has combined these axes.],
+    [Ch.14d @oq:ifn-cyb-two-axis-stratifier],
+
+  ),
+  caption: [Entries added 2026-05-03: Systemic Sclerosis (SSc)--ME/CFS integration --- 4 speculations (Complex III convergent bottleneck, NOS3 endothelial substrate, cardiac autonomic neuropathy, ADRA2A vasospasm subgroup) and 2 open questions (PEM in SSc, IFN-I+CyB stratifier). Motivated by @vanEeden2023SScMECFS @vanEeden2022fatigue @Kwakkenbos2025SScFatigue @Hartmann2023ADRA2A @Tervi2024RaynaudGWAS @Masini2021SScAutonomic.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-03-ssc>
 ] // end landscape page
