@@ -437,7 +437,7 @@ A self-sustaining pathophysiological cycle may become entrenched in severe ME/CF
 #hypothesis(title: [Breaking the Inflammation-Barrier Cycle in Severe Patients])[
 Ceasing the perpetuation of this cycle may require simultaneous multi-target interventions rather than single-pathway strategies. Possible approaches include: (1) *Barrier restoration* via glutamine supplementation, collagen peptides, or other enterocyte-supportive nutrients; (2) *Wheat elimination* to remove zonulin-mediated barrier stress; (3) *Anti-inflammatory support* via omega-3 fatty acids, curcumin, or other dietary polyphenols; (4) *Mast cell stabilization* with quercetin or ketotifen to reduce histamine-mediated inflammatory mediator release; and (5) *Cortisol optimization* to support endogenous barrier repair. Addressing only one mechanism (e.g., wheat elimination without anti-inflammatory support or barrier repair substrates) may prove insufficient if the cycle has become deeply entrenched, requiring comprehensive multi-pathway interventions for clinical efficacy in severe patients.
 
-*Certainty: 0.75* (mechanistic logic strong; direct evidence for this integrated multi-target approach lacking in ME/CFS).
+*Certainty: 0.75* (the mechanistic rationale for cycle interdependence is well-supported across individual pathways; the specific claim that simultaneous multi-target intervention is necessary—rather than sequential single-pathway intervention—has not been tested in any ME/CFS clinical trial or controlled study).
 ] <hyp:multi-target-intervention>
 
 #key-point(title: [Orthostatic Intolerance as Potential Upstream Driver])[
@@ -483,6 +483,10 @@ preservation) and early intervention (maximizing capital before depletion)
 are particularly critical in pediatric patients, and why aggressive early
 treatment in adult patients may preserve recovery potential that would
 otherwise be lost.
+
+*Testable prediction:* Patients with ME/CFS onset before age 18 who receive aggressive pacing and treatment within 6 months of onset will show higher rates of partial or full recovery at 5 years compared to patients with equivalent baseline severity whose treatment is delayed beyond 2 years, after adjusting for initial severity and comorbidities. In adult-onset patients, crash frequency in the first year should predict long-term severity independently of initial severity, reflecting cumulative capital depletion.
+
+*Certainty: 0.35* (mechanistic plausibility from developmental biology and epigenetic research; no prospective ME/CFS cohort has directly tested the capital-depletion model; the framework is currently unfalsified rather than confirmed).
 ] <spec:recovery-capital>
 
 #speculation(title: [Hematopoietic Stem Cell Exhaustion Model])[
@@ -846,7 +850,7 @@ Williams et al.\ found that neither melatonin nor bright-light phototherapy show
   - Unclear whether SCN dysfunction is primary or secondary consequence
   - Individual variability high—not all patients report “second wind”
 
-*Certainty:* 0.50 (cortisol rhythm abnormalities documented; circadian disruption well-established; SCN-level mechanism requires validation)
+*Certainty:* 0.50 (evidence balanced — for: cortisol rhythm abnormalities and circadian disruption well-documented in ME/CFS cohorts, "second wind" symptom pattern consistent with SCN-mediated energy gating; against: SCN-level mechanism unvalidated by direct imaging, light therapy and melatonin trials negative, circadian disruption may be secondary to immune or metabolic drivers — evidence approximately evenly supports and challenges the hypothesis)
 ] <hyp:circadian-energy-distribution>
 
 === Disease Subtype Progression
