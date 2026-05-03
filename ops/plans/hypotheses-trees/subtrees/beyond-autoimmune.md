@@ -1,8 +1,7 @@
 # Hypothesis Subtree: Beyond Autoimmune — ME/CFS Integration
 
-**Origin:** `/integrate-topic` — `ops/plans/beyond-autoimmune-integration-plan.md`
+**Origin:** `/integrate-topic` — beyond-autoimmune plan (migrated 2026-05-03)
 **Brainstorm file:** (not applicable — this is a group root, not a single brainstorm topic)
-**Plan file:** `ops/plans/beyond-autoimmune-integration-plan.md`
 **Date:** 2026-05-02
 **Parent topic:** root
 **Child subtrees:**
@@ -27,7 +26,35 @@
 
 > "What does this system, disease, or mechanism contribute to ME/CFS pathophysiology — as a causal upstream context, a shared mechanism, a differential diagnosis, or a novel treatment target — and what does the literature actually say vs. what is merely plausible?"
 
-See `ops/plans/beyond-autoimmune-integration-plan.md` for full category breakdown, execution phases, and pre-identified hypotheses.
+**Scientific constraint (same as autoimmune plan):** Find what the literature says — do not confirm priors. If literature is silent, report that. Plausible ≠ documented.
+
+### Pre-identified hypotheses
+
+| ID | Hypothesis | Categories |
+|----|-----------|------------|
+| H1 | Gulf War Illness and ME/CFS share a mitochondrial + neuroinflammatory pathology despite different triggers (chemical vs. viral) — same downstream mechanism | Cat 7 |
+| H2 | Glymphatic failure during non-restorative sleep in ME/CFS → accumulation of metabolic waste → morning symptoms and cognitive impairment | Cat 2, Cat 9 |
+| H3 | Gut virome dysregulation amplifies bacterial dysbiosis through bacteriophage-mediated bacterial lysis → endotoxin release → immune activation | Cat 5 |
+| H4 | hEDS connective tissue laxity → chronic low-grade mechanoreceptor activation → sympathetic overdrive → POTS → ME/CFS; all one causal chain | Cat 6 |
+| H5 | Cancer-related fatigue and ME/CFS share the same cytokine-sickness behaviour pathway; CRF treatments (IL-6 blockade) as ME/CFS treatment models | Cat 3 |
+| H6 | McArdle disease as "perfect model" for ME/CFS energy failure: same second-wind phenomenon absent in ME/CFS suggests glycogenolysis failure is not the primary block | Cat 10 |
+| H7 | ACE-programmed HPA hyporesponsiveness creates the immune tolerance deficit that, upon viral trigger, fails to resolve → ME/CFS onset | Cat 11 |
+| H8 | Post-sepsis mitochondrial danger signalling (mtDNA → cGAS-STING) is identical to ME/CFS immunosenescence pathway — post-sepsis as compressed ME/CFS model | Cat 1 |
+
+### Execution phases
+
+- **Phase A — Critical:** Long COVID, Post-Lyme, FND, Central Sensitization, Mitochondrial Disease, Cancer-Related Fatigue, POTS subtypes, Skeletal Muscle Pathology, hEDS, Gulf War Illness, Dysautonomia spectrum, Stiff Person Syndrome
+- **Phase B — High priority:** Glymphatic dysfunction, Gut virome, Gut mycobiome, Oral microbiome, SIBO-H2S, OSA, ADHD/ASD shared biology, TBI/concussion, Alzheimer's/Parkinson's upstream drivers, MCS, Mould/CIRS, ACEs/HPA programming, Mastocytosis, McArdle disease
+- **Phase C — Mechanistic enrichment:** Remaining medium-priority topics grouped by system
+
+### Integration notes
+
+- Gut virome + mycobiome → ch11 (gut microbiome); likely new subsections
+- Skeletal muscle pathology → ch06 (energy metabolism) + new subsection in pathophysiology
+- Gulf War Illness → ch05-subgroups (non-infectious trigger subtype) + ch14d
+- FND → ch04-08 (differential diagnosis) + ch24 (controversies) — politically sensitive, handle with precision
+- ACEs → ch09 (endocrine/HPA) + ch05-subgroups (developmental susceptibility subtype)
+- Cancer-related fatigue → ch13 (integrative models) + ch18 (emerging therapies)
 
 ## Child Subtree Index
 

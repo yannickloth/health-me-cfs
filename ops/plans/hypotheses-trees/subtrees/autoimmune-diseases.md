@@ -1,8 +1,7 @@
 # Hypothesis Subtree: Autoimmune Diseases — ME/CFS Integration
 
-**Origin:** `/integrate-topic` — `ops/plans/autoimmune-diseases-integration-plan.md`
+**Origin:** `/integrate-topic` — autoimmune diseases plan (migrated 2026-05-03)
 **Brainstorm file:** (not applicable — this is a group root, not a single brainstorm topic)
-**Plan file:** `ops/plans/autoimmune-diseases-integration-plan.md`
 **Date:** 2026-05-02
 **Parent topic:** root
 **Child subtrees:**
@@ -36,7 +35,79 @@
 
 ME/CFS as post-autoimmune sequela: in a significant subset of patients, ME/CFS is not a disease parallel to autoimmune disease — it is caused by it. The autoimmune process damages or dysregulates the structures that produce the ME/CFS phenotype: autonomic ganglia, small fibre neurons, mitochondrial function, GPCR signalling, neuroinflammatory tone, energy metabolism.
 
-See `ops/plans/autoimmune-diseases-integration-plan.md` for full thesis, causal model, execution phases, and per-disease research questions.
+### Causal model (asymmetric)
+
+```
+Direction A (more probable):
+  Autoimmune trigger (infection, vaccine, stress)
+    → autoimmune dysregulation (autoantibodies, T-reg failure, cytokine storm)
+      → structural/functional damage (autonomic, neurological, metabolic)
+        → ME/CFS phenotype (PEM, fatigue, brain fog, dysautonomia)
+
+Direction B (less probable, not excluded):
+  ME/CFS chronic immune activation (NK dysfunction, elevated cytokines, viral reactivation)
+    → sustained loss of self-tolerance
+      → overt autoimmune disease (de novo or accelerated)
+```
+
+**Asymmetry rationale:** Direction A supported by treatment evidence (autoantibody removal reverses ME/CFS symptoms). Direction B mechanistically plausible but lacks longitudinal evidence. Present both, weight honestly, flag absence of prospective cohort data as critical gap.
+
+**Clinical implications:**
+- Differential diagnosis flips: not "ME/CFS *or* autoimmune?" but "which autoimmune disease *produced* this ME/CFS?"
+- Treatment: remission induction of underlying autoimmune disease may reverse ME/CFS — symptom management alone insufficient
+- Subtype: "post-autoimmune ME/CFS" is a distinct, mechanistically grounded subgroup (ch05)
+
+**Existing paper evidence:**
+- Immunoadsorption/daratumumab: removing autoantibodies reverses ME/CFS symptoms (ch14b)
+- GPCR autoantibodies → autonomic dysfunction → ME/CFS symptom cluster (ch14b)
+- PBC anti-mitochondrial antibodies → mitochondrial dysfunction → fatigue phenotype indistinguishable from ME/CFS (ch14d)
+
+**Open question (flag as `open-question` environment):** Is ME/CFS in autoimmune-comorbid patients a *complication*, a *prodrome* of worsening autoimmunity, or a *distinct sequela*? Longitudinal data absent. Priority research gap.
+
+### Scientific constraint (mandatory for every integration)
+
+- Direction A (more probable) is a working hypothesis, not established fact
+- Every `/integrate-topic` run must find what the literature actually says — not confirm the hypothesis
+- If literature supports Direction B, neither direction, or is silent — report faithfully
+- Mechanism claims require citations; absence = flag as speculation
+- Plausible ≠ documented; mechanistically coherent ≠ empirically established
+
+### Per-disease research questions (template)
+
+```
+Direction A (autoimmune → ME/CFS):
+  1. Does this disease produce ME/CFS as a documented complication or sequela?
+  2. Which structures does it damage that generate the ME/CFS phenotype?
+  3. Which autoantibodies/cytokines/mechanisms are the likely effectors?
+  4. Does treating this disease remit ME/CFS symptoms?
+Direction B (ME/CFS → autoimmune risk):
+  5. Is there longitudinal evidence of elevated autoimmune disease incidence in ME/CFS cohorts?
+  6. Does ME/CFS immune activation create conditions for autoimmune onset?
+Both:
+  7. What distinguishes ME/CFS from this disease clinically and biologically?
+  8. What novel hypotheses does the relationship suggest?
+  9. What is currently unknown — what prospective cohort data is missing?
+```
+
+### Pre-identified hypotheses
+
+| ID | Hypothesis | Relevant diseases |
+|----|-----------|-------------------|
+| H1 | ME/CFS as forme fruste of SLE without renal/skin manifestations | SLE, MCTD |
+| H2 | GPCR autoantibodies in ME/CFS overlap with those in autoimmune dysautonomia (POTS, AAG) | Sjögren, AAG, myasthenia |
+| H3 | APS microcoagulation as shared mechanism between Long COVID, ME/CFS, and APS | APS, ITP |
+| H4 | PBC fatigue phenotype = ME/CFS fatigue phenotype (anti-mitochondrial → mitochondrial dysfunction) | PBC, autoimmune hepatitis |
+| H5 | Molecular mimicry (EBV/streptococcal/enteroviral) as common autoimmune trigger across MS, narcolepsy, PANDAS, ME/CFS | MS, narcolepsy, PANDAS |
+| H6 | NK cell dysfunction as shared effector in ME/CFS, HLH, and viral-triggered autoimmunity | HLH, SLE, dermatomyositis |
+| H7 | Anti-NMDAR encephalitis sub-threshold → brain fog without frank encephalitis | Autoimmune encephalitis |
+| H8 | IgG4-related disease as steroid-responsive ME/CFS subtype | IgG4-RD |
+| H9 | Mast cell-IgE-FcεRI axis links MCAS, autoimmune urticaria, and ME/CFS autonomic dysfunction | Autoimmune urticaria, MCAS |
+
+### Execution phases
+
+- **Phase A — Critical tier (items 1–20 + 35):** SLE → Sjögren → MS → APS → Myasthenia → PBC → Autoimmune Encephalitis → RA → Hashimoto → Graves → PANDAS → Narcolepsy → T1D → Celiac → IBD → Dermatomyositis → ITP → NMOSD → Hepatitis → Autoimmune Urticaria
+- **Phase B — Mechanism-specific tier (items 21–40):** only integrate if Phase A surfaces a direct ME/CFS link not already documented
+- **Phase C — Completeness tier (items 41–65):** ~10 condensed runs grouped by system; brief cross-reference entries in ch14d, no full sections
 
 ## Child Subtree Index
 
