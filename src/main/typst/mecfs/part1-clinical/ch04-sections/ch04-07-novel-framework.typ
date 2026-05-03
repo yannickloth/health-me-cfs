@@ -30,6 +30,7 @@ The failure of single-target treatments in randomized controlled trials does not
     - Rituximab (anti-CD20 B cell depletion) failed in large trials @Fluge2015rituximab_rct despite initial promise
     - Daratumumab (anti-CD38 plasma cell depletion) succeeded in 60% of patients in pilot study @Fluge2025daratumumab
     - *Interpretation*: Not “autoimmunity isn't involved,” but rather “wrong cell type targeted” (short-lived B cells vs. long-lived plasma cells) AND “only a subset has autoimmune-driven disease”
+    - *Evidential asymmetry*: The negative rituximab RCT @Fluge2015rituximab_rct provides stronger disconfirmation of B-cell depletion as a general ME/CFS strategy than the daratumumab pilot provides confirmation of plasma-cell targeting; daratumumab findings require replication in controlled trials before clinical inference is warranted.
 
 The Heng 2025 study @heng2025mecfs demonstrated that a 7-biomarker panel spanning three systems (energy, immune, vascular) achieved 91% diagnostic accuracy. This implies:
 
