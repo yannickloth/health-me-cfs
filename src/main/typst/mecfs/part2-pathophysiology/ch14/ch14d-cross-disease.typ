@@ -130,6 +130,127 @@ Early epigenetic clock studies in ME/CFS are consistent with this picture (preli
 *Limitations:* Epigenetic clock estimates in ME/CFS are inconsistent across published studies; methodology (clock type, blood cell composition correction) varies. HSAT2 specifically is not the causal driver of epigenetic clock acceleration in De Cecco 2019 (LINE-1 is); HSAT2 is proposed as a parallel locus with analogous mechanism. Not replicated.
 ] <spec:mecfs-biological-aging-hsat2>
 
+*Cross-disease retrotransposon activation: Evidence summary table.*
+
+Table @tab:hsat2-cross-disease-summary summarizes the current state of HSAT2 and retrotransposon research across ME/CFS and related conditions. This comparative framework is essential for diagnostic specificity assessment.
+
+#table(
+  columns: 2,
+  stroke: 0pt,
+  fill: (left, right),
+)[
+  [*Disease*, *Evidence for HSAT2/Retrotransposon Activation*, *Certainty*, *Mechanistic Link to ME/CFS*],
+  [
+    [Cancer (pancreatic, colon), \ HSAT2 validated as biomarker; TRAP-ddPCR and hybridization capture methods established @Seimiya2023HSATII @Yoruker2026HSAT2cfDNA, \ 0.60–0.65, \ HSAT2 exosome transfer drives MDSC expansion and NK suppression in cancer @Evdokimova2019HSAT2exosome; same pathway proposed in ME/CFS @spec:hsat2-exosome-mdsc],
+    [Long COVID, \ HERV activation documented (HERV-W ENV correlates with severity) @Grandi2023HERVcovid @Charvet2023HERV; HERV transcriptome tracks clinical stages, \ 0.45, \ Direct HSAT2 measurements absent; EV-mediated retrotransposon transfer proposed as shared mechanism @spec:hsat2-long-covid-bridge],
+    [Fibrotic diseases (IPF, liver, cardiac), \ No HSAT2 or retrotransposon literature found, \ 0.00, \ None established; hypothetical link via HSF1-oxidative stress axis in fibromyalgia @spec:fibromyalgia-hsat2-partial],
+    [Post-viral conditions (EBV, CMV, other herpesviruses), \ No HSAT2 literature found; HERV data suggests class-wide activation, \ 0.30, \ Proposed as trigger for sustained HSAT2 activation analogous to COVID-19 HERV findings],
+    [ME/CFS, \ Exosomal HSAT2/HERV-K hypothesis; MDSC expansion and NK suppression documented, \ 0.30–0.45, \ Proposed as “cancer immune-evasion environment without cancer” @spec:mecfs-cancer-immune-mirror],
+  ]
+] <tab:hsat2-cross-disease-summary>
+
+#hypothesis-box(title: [HSAT2 as a Pan-Retrotransposon Stress Response vs Disease-Specific Signature])[
+
+*(Certainty: 0.45 — supported by HERV COVID-19 data @Grandi2023HERVcovid @Charvet2023HERV and HSAT2 cancer progression data @Seimiya2023HSATII @Yoruker2026HSAT2cfDNA; ME/CFS-specific pattern not yet measured)*
+
+Retrotransposon activation (HSAT2 in humans, HERV class-wide) may represent a conserved cellular stress response to viral infection or inflammatory insult, with disease-specific patterns emerging from tissue context and chronicity. In acute viral infection (COVID-19), HERV activation is transient and stage-specific @Grandi2023HERVcovid. In cancer, HSAT2 is progressively elevated and correlates with tumor stage (early vs late-stage discrimination) @Seimiya2023HSATII. ME/CFS may represent an intermediate state: elevated but stable rather than progressive.
+
+This pan-retrotransposon stress response framework predicts measurable differences in kinetics across diseases:
+
+- *Acute viral infection*: Retrotransposon activation transient, tracks clinical stage (HERV in COVID-19)
+- *Cancer*: Retrotransposon elevation progressive, correlates with disease stage (HSAT2 in pancreatic/colon cancer)
+- *Post-viral syndromes (ME/CFS, Long COVID)*: Retrotransposon elevation at acute trigger, then plateau at persistent intermediate level
+
+*Falsifiable predictions:*
+
+1. Long COVID patients with persistent fatigue at ≥6 months post-infection will show elevated HSAT2 that remains stable over time (unlike cancer progression), distinguishing ME/CFS-like Long COVID from recovered Long COVID. The Eaton-Fitch 2024 immune checkpoint divergence between ME/CFS and Long COVID @EatonFitch2024checkpoint should track with exosomal HSAT2 levels if the MDSC-driven suppression model @spec:hsat2-exosome-mdsc is correct.
+
+2. ME/CFS patients will show elevated HSAT2 that correlates with symptom severity but not with disease duration. Longitudinal tracking over 12–24 months will show plateaued elevation (trend slope not different from zero, p>0.05) despite symptom fluctuation, distinguishing ME/CFS from cancer.
+
+3. Post-infectious ME/CFS onset subgroups (EBV, CMV, other herpesviruses vs idiopathic) will differ in HSAT2 levels. Herpesvirus-onset ME/CFS patients will show higher HSAT2 than idiopathic-onset ME/CFS (effect size d≥1.0, p<0.05), supporting viral trigger hypothesis for retrotransposon activation.
+
+*Limitations:* Direct HSAT2 measurements in Long COVID are absent; this framework relies on HERV data as proxy. HSAT2-specific kinetics in ME/CFS are entirely untested. Cancer HSAT2 progression data comes from tumor burden correlation; chronic post-viral persistence may show different regulatory dynamics. Not replicated.
+
+*Clinical implications:* If validated, this framework would provide (a) a diagnostic rule-out for malignancy (progressive HSAT2 elevation → investigate cancer), (b) a prognostic biomarker (stable vs progressive kinetics), and (c) treatment stratification (viral-onset ME/CFS may respond differently to antiretroviral or epigenetic therapies than idiopathic ME/CFS).
+] <hyp:hsat2-pan-retrotransposon-response>
+
+#speculation(title: [EBV/CMV HSAT2 Activation as a Persistent Post-Viral ME/CFS Subset Driver])[
+
+*(Certainty: 0.30 — viral trigger established; retrotransposon-specific mechanism inferred from COVID-19 HERV data @Grandi2023HERVcovid @Charvet2023HERV)*
+
+EBV and CMV are well-documented ME/CFS triggers with established latency-reactivation cycles. If these herpesviruses trigger sustained HSAT2 activation analogous to SARS-CoV-2→HERV activation, then ME/CFS patients with EBV/CMV onset should show higher HSAT2 levels than non-post-viral ME/CFS. This would explain heterogeneity within ME/CFS and identify a biological subtype amenable to antiretroviral strategies.
+
+*Falsifiable predictions:*
+
+1. ME/CFS patients with documented EBV or CMV onset (serology positive, latency transcripts detectable) will show elevated plasma HSAT2 (TRAP-ddPCR) compared to ME/CFS patients with idiopathic or non-infectious onset (effect size d≥1.0, p<0.05).
+
+2. Antiviral therapy (valganciclovir, ganciclovir) responders among EBV/CMV-onset ME/CFS patients will show HSAT2 reduction correlated with symptom improvement (Spearman ρ>0.4). Non-responders will maintain elevated HSAT2 despite viral load suppression, suggesting epigenetic locking.
+
+*Limitations:* No direct EBV/CMV→HSAT2 data exists; inference is based on COVID-19 HERV activation pattern @Grandi2023HERVcovid, which may not generalize across herpesviruses. Antiviral trials in ME/CFS have shown mixed results; confounding factors (viral suppression vs immune modulation) are unresolved. Not replicated.
+] <spec:ebv-cmv-hsat2-subset>
+
+#hypothesis-box(title: [Post-Acute HSAT2 Persistence vs Cancer Progression: Kinetic Distinction])[
+
+*(Certainty: 0.40 — HSAT2 kinetics established in cancer @Seimiya2023HSATII @Yoruker2026HSAT2cfDNA; inferred for post-viral syndromes)*
+
+HSAT2 kinetics may distinguish disease categories. In cancer, HSAT2 levels progressively rise with tumor stage @Seimiya2023HSATII. In post-viral syndromes (Long COVID, ME/CFS), HSAT2 may elevate acutely then plateau at a persistent intermediate level. This kinetic distinction could serve as a diagnostic rule-out: progressive HSAT2 elevation → suspect malignancy; plateaued elevation → suspect post-viral syndrome.
+
+*Falsifiable prediction:* Longitudinal tracking of HSAT2 in two cohorts: (a) cancer patients (n=50, serial measurements over treatment) will show monotonic increase or decrease correlating with tumor burden; (b) ME/CFS/Long COVID patients (n=50, 12-month follow-up) will show stable or fluctuating levels without monotonic trend (trend slope not different from zero, p>0.05). Kinetic modeling will achieve >80% classification accuracy.
+
+*Limitations:* No longitudinal HSAT2 data in ME/CFS or Long COVID exists; this is a proposed diagnostic framework requiring validation. Cancer kinetics data come from cross-sectional staging rather than true longitudinal. Confounding factors (treatment effects on HSAT2) unknown in cancer. Not replicated.
+] <hyp:hsat2-kinetic-distinction>
+
+#speculation(title: [Fibrotic Disease HSAT2 Gap: HSF1-Mediated Derepression Hypothesis])[
+
+*(Certainty: 0.25 — HSF1-HSAT2 pathway established @Genes2003HSF1Sat2; fibrotic HSAT2 data absent)*
+
+Fibrotic diseases (IPF, liver fibrosis, cardiac fibrosis) share HSF1 activation and oxidative stress pathways with ME/CFS @Genes2003HSF1Sat2. HSAT2 is HSF1-regulated; if HSF1 drives HSAT2 derepression in fibrosis as in ME/CFS, then (a) fibrotic disease patients should show elevated HSAT2, and (b) HSAT2 levels should correlate with fibrosis severity scores. The absence of HSAT2 literature in fibrosis may reflect measurement gaps rather than true absence.
+
+*Falsifiable prediction:* IPF patients (n=30) will show elevated serum HSAT2 RNA compared to matched COPD controls (non-fibrotic lung disease). HSAT2 levels will correlate with GAP scores (ρ>0.35). If HSAT2 is absent in IPF despite HSF1 activation, disease-specific co-factors (tissue-specific epigenetic context) are dominant over HSF1-HSAT2 axis.
+
+*Limitations:* Zero HSAT2 or retrotransposon literature in fibrotic diseases; hypothesis is entirely extrapolative. HSF1 activation in fibrosis is well-documented, but tissue-specific epigenetic context may prevent HSAT2 derepression. Not replicated.
+] <spec:fibrotic-hsat2-gap>
+
+#open-question(title: [Exosomal HSAT2 Tissue Origin: Stromal vs Immune Cell Source])[
+
+Evdokimova et al. @Evdokimova2019HSAT2exosome shows exosomal HSAT2/HERV-K in cancer is packaged by tumor cells. In ME/CFS, the tissue origin is unknown: are EVs from immune cells, stromal fibroblasts, endothelial cells, or neuronal tissue? Tissue origin affects pathogenic potential (immune-modulating vs tissue-damaging) and informs treatment targeting.
+
+*Research approach:* Flow cytometry with cell-type-specific surface markers (CD45 for immune, CD90 for fibroblast, CD31 for endothelial) on EV preparations from ME/CFS plasma, followed by single-cell RNA-seq on sorted EVs to identify HSAT2 expression concentration by cell type.
+
+*Potential impact:* If EV-HSAT2 is primarily immune cell-derived, therapies targeting immune suppression (MDSC depletion, T-cell exhaustion reversal) are most rational. If EV-HSAT2 is stromal-derived, antifibrotic or connective-tissue-targeted approaches may be relevant. Not yet tested.
+] <oq:exosomal-hsat2-origin>
+
+#speculation(title: [HSAT2 Methylation as a Reversible ME/CFS Epigenetic Lock])[
+
+*(Certainty: 0.20 — HSAT2 methylation patterns established @Epigenetics2012Sat2; DNMT3A overexpression shown to silence repetitive elements)*
+
+If HSAT2 activation in ME/CFS is maintained by DNA hypomethylation, then targeted remethylation (DNMT3A activators, SAMe supplementation) could reverse HSAT2 expression and potentially improve symptoms. This is distinct from cancer where hypomethylation is more extensive and less reversible.
+
+*Falsifiable prediction:* In vitro treatment of HSAT2-expressing cells (primary fibroblasts or immune cells from ME/CFS patients) with DNMT3A activator (RG-108) will increase HSAT2 promoter methylation (>2-fold) and reduce HSAT2 RNA (>50%) within 72 hours. In a small clinical trial (n=15), oral SAMe (1600 mg/day, 8 weeks) will reduce plasma HSAT2 and correlate with symptom improvement (effect size d≥0.8).
+
+*Limitations:* DNMT3A activators are oncogenic risks; clinical use in ME/CFS would require careful monitoring. SAMe supplementation trials in ME/CFS have shown mixed results. HSAT2-specific methylation in patient cells not tested. Not replicated.
+] <spec:hsat2-methylation-lock>
+
+#proposal(title: [Cross-Disease HSAT2 Network Analysis: Identifying Shared vs Unique Pathways])[
+
+Bioinformatic analysis of HSAT2-interacting proteins and regulatory networks across disease transcriptomes could reveal (a) shared retrotransposon response pathways (HSF1, CTCF, DNMTs), and (b) disease-specific co-factors (tissue-specific TFs, viral-specific integration sites). This network approach would guide targeted interventions.
+
+*Research design:* Compare transcriptomes from ME/CFS, Long COVID, pancreatic cancer, and IPF. Identify (a) core HSAT2 co-expression module (10–15 genes) conserved across ≥3 diseases, and (b) disease-specific modules unique to each condition. Core module should be enriched for HSF1 targets (FDR < 0.01). Disease-specific modules would reveal tissue or virus-specific co-factors.
+
+*Potential outcomes:* Shared pathway validation strengthens pan-retrotransposon stress response hypothesis. Disease-specific modules identify novel therapeutic targets (e.g., fibrotic-specific co-factors). Network-based drug repurposing candidates for core pathway modulation.
+] <pr:cross-disease-hsat2-network>
+
+#speculation(title: [Retrotransposon-Induced Autoimmunity as ME/CFS-Specific Mechanism])[
+
+*(Certainty: 0.15 — autoimmunity is established ME/CFS feature; retrotransposon immunogenicity plausible but untested)*
+
+If HSAT2/HERV-K expression in ME/CFS (but not cancer) triggers autoantibody production via molecular mimicry or nucleic acid immune complex formation, this could explain ME/CFS-specific features (autoimmunity, post-exertional malaise) absent from cancer. Retrotransposon-derived RNA/protein could act as neoantigens.
+
+*Falsifiable prediction:* ME/CFS serum will show higher anti-HSAT2 protein or anti-HSAT2 RNA antibody titers compared to healthy controls and cancer patients (effect size d≥1.2). Antibody levels will correlate with symptom severity (ρ>0.3) but not with disease duration. Long COVID patients will show intermediate titers, suggesting partial overlap.
+
+*Limitations:* Autoimmunity in ME/CFS has multiple plausible explanations beyond retrotransposon trigger. No direct HSAT2-autoimmunity link exists. Retrotransposon protein immunogenicity is theoretical. Not replicated.
+] <spec:retrotransposon-autoimmunity>
+
 *Post-Treatment Lyme Disease Syndrome.* Chronic symptoms after Lyme treatment:
 
     - Fatigue, cognitive dysfunction, pain

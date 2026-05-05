@@ -789,6 +789,16 @@ Two robust methods for HSAT2 quantification in biofluids have been published:
 
 HSAT2 detection has been validated in cancer cohorts (pancreatic cancer @Seimiya2023HSATII, colon cancer @Yoruker2026HSAT2cfDNA) but **not yet tested in ME/CFS or any fatigue-related condition**. The methods are transferable: TRAP-ddPCR requires standard qPCR equipment plus droplet generation system; hybridization capture requires standard next-generation sequencing library prep.
 
+*Cross-disease retrotransposon activation patterns.*
+
+Retrotransposon activation provides a comparative framework across disease categories. In cancer, HSAT2 serves as a validated biomarker with established detection methods. In post-viral syndromes, endogenous retrovirus (HERV) activation has been documented during and after SARS-CoV-2 infection @Grandi2023HERVcovid @Charvet2023HERV, with HERV-W ENV protein expression correlating with disease severity @Charvet2023HERV. However, **direct HSAT2 measurements in Long COVID, fibrotic diseases, or other post-viral conditions represent a critical research gap** (certainty: 0.45 — established for HERV, absent for HSAT2).
+
+The pattern suggests retrotransposon activation may be a pan-viral or pan-inflammatory response rather than disease-specific. If HSAT2 in ME/CFS mirrors the HSAT2 patterns seen in cancer (high levels correlating with disease stage), this would support a generalized retrotransposon activation mechanism. If HSAT2 patterns in ME/CFS differ (e.g., elevated but stable rather than progressive), this would suggest disease-specific regulatory dynamics.
+
+*Exosome-mediated retrotransposon transfer.*
+
+Evdokimova et al. @Evdokimova2019HSAT2exosome demonstrated that HSAT2 and HERV-K RNAs are selectively packaged into extracellular vesicles and can be transferred to immune cells, inducing immunosuppression. Retroviral transcriptome dynamics in COVID-19 show similar stage-specific HERV activation patterns @Grandi2023HERVcovid, suggesting that EV-mediated retrotransposon transfer may be a shared pathogenic mechanism across viral and fatigue syndromes. The ME/CFS-specific question is whether HSAT2-containing EVs drive the documented immune exhaustion (MDSC expansion, T-cell dysfunction) in the same way they do in cancer.
+
 #clinical-finding(title: [HSAT2 Detection Methods Established for ME/CFS Translation])[
 HSAT2 satellite repeat RNA is detectable in serum and plasma using validated methods: (1) TRAP-ddPCR for serum HSATII RNA @Seimiya2023HSATII; (2) biotinylated probe hybridization capture for plasma cfDNA HSAT2 @Yoruker2026HSAT2cfDNA. These methods achieve high sensitivity in cancer discrimination (AUC ≥0.90) and are immediately applicable to ME/CFS cohort studies using standard laboratory equipment.
 
@@ -811,6 +821,31 @@ If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic me
 #open-question(title: [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?])[
   Given the heterogeneous ME/CFS population, HSAT2 elevation may be restricted to (1) post-viral onset patients with documented HSF1 activation, (2) patients with accelerated senescence signatures (epigenetic clock acceleration, telomere shortening, immunosenescence), or (3) patients with specific immune exhaustion phenotypes (MDSC expansion, T-cell exhaustion). If HSAT2 is elevated only in a subset, unstratified case-control studies may miss the signal entirely. Biomarker validation should therefore pre-stratify by onset type, senescence markers, and immune exhaustion status.
 ] <oq:hsat2-subtype-restriction>
+
+#proposal(title: [Cross-Disease Diagnostic Specificity Framework: Multi-Modal Retrotransposon Panel])[
+
+If HSAT2 is ME/CFS-specific, a multi-modal panel combining (a) HSAT2 RNA (serum), (b) HSAT2 cfDNA (plasma), (c) exosomal HSAT2/HERV-K, and (d) MDSC frequency would achieve higher diagnostic specificity than any single marker. If HSAT2 is pan-retrotransposon, the panel would need additional disease-specific modifiers (e.g., tissue-specific methylation signatures) to distinguish ME/CFS from cancer/Long COVID.
+
+*Proposed panel components:*
+
+- *Serum HSAT2 RNA*: TRAP-ddPCR quantification @Seimiya2023HSATII
+- *Plasma cfDNA HSAT2*: Hybridization capture assay @Yoruker2026HSAT2cfDNA
+- *Exosomal HSAT2/HERV-K*: EV isolation + ddPCR or RNA-seq
+- *MDSC frequency*: CD33+HLA-DR−/lo immunophenotyping @Veglia2021MDSCDiversity
+- *Optional modifiers*: Tissue-specific methylation markers, viral load quantification
+
+*Falsifiable predictions:*
+
+1. A four-marker panel (HSAT2 RNA, HSAT2 cfDNA, EV-HSAT2, MDSC frequency) will achieve AUC ≥0.85 for distinguishing ME/CFS from healthy controls, and AUC ≥0.75 for distinguishing ME/CFS from Long COVID. Individual markers will show lower AUC (HSAT2 RNA alone: 0.65–0.70).
+
+2. The panel will correctly classify ≥90% of cancer patients as non-ME/CFS (HSAT2 progressive kinetics vs ME/CFS plateau pattern), providing a rule-out for malignancy.
+
+3. EBV/CMV-onset ME/CFS patients will show higher combined panel scores than idiopathic-onset ME/CFS, supporting viral trigger hypothesis.
+
+*Research design:* Cross-sectional study with n=200 (100 ME/CFS, 50 Long COVID, 50 cancer controls). Validate analytically, then test in independent replication cohort.
+
+*Limitations:* Panel not yet validated; requires multiple assay platforms. Cross-disease specificity predictions based on kinetics data from cancer only (not ME/CFS/Long COVID). MDSC biomarker in ME/CFS not yet established. Not replicated.
+] <pr:multi-modal-retrotransposon-panel>
 
 == Summary: Current State and Future Directions
 <sec:biomarker-summary>

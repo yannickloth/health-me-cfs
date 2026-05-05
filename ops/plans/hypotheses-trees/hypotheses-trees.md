@@ -109,6 +109,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | G39-biogenesis-trap   | [subtrees/G39-biogenesis-trap.md](subtrees/G39-biogenesis-trap.md)    | 2026-04-12      | 31         | 0          | ⬜ stub        |
 | hsat2-exosome         | [subtrees/hsat2-exosome.md](subtrees/hsat2-exosome.md)                | 2026-05-05      | 42         | 4          | ✅ done |
 | hsat2-hypotheses      | [subtrees/hsat2-hypotheses.md](subtrees/hsat2-hypotheses.md)          | 2026-05-01      | 42         | 42         | ✅ complete    |
+| hsat2-cross-disease   | [subtrees/hsat2-cross-disease.md](subtrees/hsat2-cross-disease.md)      | 2026-05-05      | 9          | 9          | ✅ complete    |
 | igg-drg               | [subtrees/igg-drg.md](subtrees/igg-drg.md)                            | 2026-04-30      | 39         | 0          | ⬜ stub        |
 | immunoadsorption      | [subtrees/immunoadsorption.md](subtrees/immunoadsorption.md)          | 2026-04-20      | 40         | 0          | ⬜ stub        |
 | isr                   | [subtrees/isr.md](subtrees/isr.md)                                    | 2026-05-01      | 48         | 48         | ✅ done (H9 child → mcas-isr ✅) |
