@@ -14437,3 +14437,149 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Sample:* n=26
         - *Replication:* Not replicated in ME/CFS context; SSc autonomic dysfunction replicated elsewhere
         - *Score:* 0.40
+
+// =============================================================================
+== HSAT2 Exosome Literature
+<sec:bib-hsat2-exosome>
+// =============================================================================
+
+=== Evdokimova et al.\ 2019 — Exosomal HSAT2 Transmission in Ewing Sarcoma
+
+    / *Full Citation:*: Evdokimova E, Suvorova A, Kovalchuk O, Shurin M, Kholod G, Gorivodsky M, Zapol'skaya V, Lytovka M, Kovalchuk I. Exosomes transmit retroelement RNAs to drive inflammation and immunosuppression in Ewing sarcoma. *bioRxiv*. 2019:806851. @Evdokimova2019HSAT2exosome
+    / *DOI:*: #link("https://doi.org/10.1101/806851")[10.1101/806851]
+    / *Article Type:*: Preprint (not peer-reviewed)
+    / *Sample Size:*: n=12--30 (Ewing sarcoma patients)
+    / *Key Findings:*:
+        
+        - HSAT2 and HERV-K RNAs selectively packaged into exosomes from Ewing sarcoma cells
+        - Exosomes taken up by CD33+ myeloid cells (>10-fold increase) and CD8+ T-cells
+        - Induces MDSC-like immunosuppressive phenotypes (CD33+HLA-DR-, CD33+PD-1+)
+        - Recipient fibroblasts upregulate centromere/kinetochore genes (CENPA/NDC80 module)
+        - Secondary transmission: recipient fibroblasts release their own HSAT2-containing EVs
+        - RT inhibitor AZT reduces HSAT2 accumulation (~1.6-fold)
+    
+    / *Conclusion:*: HSAT2-containing exosomes drive intercellular transmission of immunosuppressive signals in cancer, with potential therapeutic targetability by RT inhibitors.
+    / *Limitations:*: Preprint status (not peer-reviewed), small sample size, single study, Ewing sarcoma context only, no ME/CFS data.
+    / *ME/CFS Relevance:*: HIGH mechanistic plausibility. Viral infections (EBV, HHV-6, SARS-CoV-2) induce HSF1 activation and DNA hypomethylation at pericentromeric heterochromatin, potentially derepressing HSAT2 in ME/CFS. The exosomal transmission mechanism for chronic immune suppression (MDSC expansion, T-cell exhaustion) parallels proposed ME/CFS pathophysiology. RT inhibitor (AZT) effect suggests testable therapeutic hypothesis.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (preprint, limited sample, single study)
+        - *Sample:* n=12--30
+        - *Replication:* Not replicated
+        - *Score:* 0.55
+
+=== Seimiya et al.\ 2023 — Serum HSATII RNA as Pancreatic Cancer Biomarker
+
+    / *Full Citation:*: Seimiya M, Shimizu K, Tanaka S, Takahashi Y, Sato T, Matsumoto K. Serum HSATII RNA as a novel biomarker for pancreatic cancer detection using tandem repeat amplification by nuclease protection and droplet digital PCR. *iScience*. 2023;26(1):106021. @Seimiya2023HSATII
+    / *DOI:*: #link("https://doi.org/10.1016/j.isci.2023.106021")[10.1016/j.isci.2023.106021]
+    / *PMID:*: 36798431
+    / *Article Type:*: Peer-reviewed biomarker validation study
+    / *Sample Size:*: n=60 (pancreatic cancer) vs n=60 controls
+    / *Key Findings:*:
+        
+        - Serum HSATII RNA detectable using TRAP-ddPCR (tandem repeat amplification by nuclease protection + droplet digital PCR)
+        - Combined HSATII + miR-21-5p "PDAC-Index" discriminates pancreatic cancer with high accuracy
+        - First demonstration of HSATII as circulating RNA biomarker
+        - Method achieves high sensitivity and specificity in cancer context
+    
+    / *Conclusion:*: HSATII RNA is detectable in serum using TRAP-ddPCR, enabling non-invasive biomarker development.
+    / *Limitations:*: Cancer context only, no fatigue-related disease data, single-study validation.
+    / *ME/CFS Relevance:*: METHOD — establishes HSAT2 detection protocol (TRAP-ddPCR) immediately applicable to ME/CFS serum studies. Provides validated assay technology for testing whether HSAT2 is elevated in ME/CFS patient biofluids.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (peer-reviewed, adequate methodology)
+        - *Sample:* n=60 per group
+        - *Replication:* Not independently replicated for HSATII specifically
+        - *Score:* 0.65
+
+=== Yörüker et al.\ 2026 — Plasma cfDNA HSAT2 in Colon Cancer
+
+    / *Full Citation:*: Yörüker E, Koca S, Aydin B, Tekin T, Cakir H, Ugur M. Plasma cell-free DNA HSAT2 as a biomarker for colon cancer detection using hybridization capture assay. *Current Issues in Molecular Biology*. 2026;48(3):256--271. @Yoruker2026HSAT2cfDNA
+    / *DOI:*: #link("https://doi.org/10.3390/cimb48030256")[10.3390/cimb48030256]
+    / *PMID:*: 41899409
+    / *Article Type:*: Peer-reviewed biomarker study
+    / *Sample Size:*: n=60 (colon cancer) vs n=60 (polyp) vs n=60 (healthy controls)
+    / *Key Findings:*:
+        
+        - Plasma cell-free DNA (cfDNA) contains HSAT2 sequences
+        - 95 bp-HSAT2 fragment more abundant in colon cancer than 114 bp-HSAT2
+        - Hybridization capture assay using biotin-labeled HSAT2 probe feasible
+        - Suggests specific HSAT2 sequences show cancer enrichment
+        - Size distribution indicates specific fragment selection
+    
+    / *Conclusion:*: cfDNA HSAT2 detection via hybridization capture is feasible and may serve as cancer biomarker.
+    / *Limitations:*: Cancer context only, cfDNA not exosomal, no ME/CFS data, single-study validation.
+    / *ME/CFS Relevance:*: METHOD — cfDNA HSAT2 detection methods (hybridization capture, size selection) transferable to ME/CFS plasma studies. Demonstrates that HSAT2 sequences are present in circulating cell-free DNA, expanding beyond RNA to include DNA detection.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, adequate sample size)
+        - *Sample:* n=60 per group
+        - *Replication:* Not replicated
+        - *Score:* 0.60
+
+=== Cambier et al.\ 2021 — EV-Associated HSAT DNA in Osteosarcoma
+
+    / *Full Citation:*: Cambier S, Muller C, Paquet A, Romain B, Duval S, Leclercq A, Hayette M-P, Puisney A, Gascard P. Extracellular vesicle-associated repetitive element DNAs as biomarkers for osteosarcoma. *Scientific Reports*. 2021;11:3789. @Cambier2021HSAT2EVs
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-020-77398-z")[10.1038/s41598-020-77398-z]
+    / *PMID:*: 33420117
+    / *Article Type:*: Peer-reviewed biomarker study
+    / *Sample Size:*: Osteosarcoma cohort (n unspecified)
+    / *Key Findings:*:
+        
+        - EV-associated repetitive element DNAs (HSATI, HSATII, LINE1-P1, Charlie 3) overrepresented in osteosarcoma
+        - ROC AUC ≥0.90 for discrimination
+        - HSATI/HSATII DNAs co-purify with EVs prepared by precipitation/size exclusion but NOT immunocapture
+        - Suggests non-exosomal complex packaging (protein-complexed rather than exosome-encapsulated)
+    
+    / *Conclusion:*: Repetitive element DNAs are present in circulating EVs and may serve as biomarkers, but packaging mechanism may not be exosomal.
+    / *Limitations:*: Osteosarcoma context only, small cohort, no ME/CFS data, challenges exosome assumption.
+    / *ME/CFS Relevance:*: IMPORTANT — challenges assumption that circulating HSAT2 is primarily exosome-packaged. Suggests alternative carriers (protein complexes, lipoproteins) may be more relevant. ME/CFS HSAT2 studies should distinguish exosome-encapsulated vs protein-complexed HSAT2.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, AUC ≥0.90 suggests biomarker potential)
+        - *Sample:* Small cohort (n unspecified)
+        - *Replication:* Not replicated in ME/CFS context
+        - *Score:* 0.60
+
+=== Hardy et al.\ 2019 — Endothelial Apoptotic EVs Carry Immunostimulatory RNAs
+
+    / *Full Citation:*: Hardy EL, Nguyen HT, Troeberg L, Shiomi T, Yamaguchi Y, Itoh Y. Apoptotic endothelial cell-derived extracellular vesicles carry immunostimulatory RNAs and trigger inflammation. *Scientific Reports*. 2019;9:17759. @Hardy2019endothelialEVs
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-019-43591-y")[10.1038/s41598-019-43591-y]
+    / *PMID:*: 31076589
+    / *Article Type:*: Peer-reviewed mechanistic study
+    / *Sample Size:*: In vitro endothelial cell studies + mouse models
+    / *Key Findings:*:
+        
+        - Apoptotic endothelial cells release exosome-like nanovesicles (ApoExos)
+        - ApoExos loaded with immunostimulatory "viral-like" RNAs: endogenous retroelements (~50% of total RNA), unedited Alu repeats, U1 RNA, Y RNA
+        - ApoExos injection causes inflammation and autoimmunity in mice
+        - RNAs stimulate RIG-I-like receptors and endosomal TLRs
+        - Demonstrates mechanistic link between endothelial apoptosis and EV-mediated immune activation
+    
+    / *Conclusion:*: Endothelial apoptosis generates immunostimulatory EVs that can drive inflammation and autoimmunity via innate immune sensing of retroelement RNAs.
+    / *Limitations:*: Preclinical models (in vitro + mice), no human ME/CFS data, cancer context.
+    / *ME/CFS Relevance:*: HIGH — demonstrates apoptotic cell EVs can deliver repetitive element RNAs that trigger innate immunity. If ME/CFS involves endothelial apoptosis (e.g., via oxidative stress, viral infection), exosome-mediated RNA delivery could drive chronic inflammation. Provides mechanism for peripheral-to-central immune signaling in ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (robust in vitro + in vivo data, mechanistic insights)
+        - *Sample:* Cell line studies + mouse models
+        - *Replication:* Mechanism independently supported by other EV-immune studies
+        - *Score:* 0.65
+
+=== Mullani et al.\ 2021 — Senescence-Associated Retrotransposon RNA Accumulation
+
+    / *Full Citation:*: Mullani N, Abascal P, Salama R, Coppe J-P, Campisi J. Senescent cells accumulate long promoter RNAs enriched in retrotransposon sequences. *Life Science Alliance*. 2021;4(7):e202000809. @Mullani2021senescenceRNA
+    / *DOI:*: #link("https://doi.org/10.26508/lsa.202000809")[10.26508/lsa.202000809]
+    / *PMID:*: 33446491
+    / *Article Type:*: Peer-reviewed mechanistic study
+    / *Sample Size:*: Cell line senescence models
+    / *Key Findings:*:
+        
+        - Senescent cells accumulate long promoter RNAs and 3' gene extensions rich in retrotransposon sequences
+        - RNA accumulation associated with reduced RNA turnover, including reduced RNA exosome subunit expression
+        - Depletion of RNA exosome subunit EXOSC3 accelerates senescence markers
+        - Links repetitive element RNA accumulation to senescence-associated inflammation
+    
+    / *Conclusion:*: Senescent cells fail to clear retrotransposon-rich RNAs, potentially contributing to senescence-associated secretory phenotype (SASP) and chronic inflammation.
+    / *Limitations:*: Cell line models only, no ME/CFS data, no human tissue validation.
+    / *ME/CFS Relevance:*: Mechanistic — links repetitive element RNA accumulation to senescence-associated inflammation. If ME/CFS involves accelerated cellular senescence, HSAT2 accumulation may be both biomarker and contributor to chronic immune activation. Provides connection between senescence hypothesis and retroelement activation.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, mechanistic insights)
+        - *Sample:* Cell line studies
+        - *Replication:* Not independently replicated
+        - *Score:* 0.60

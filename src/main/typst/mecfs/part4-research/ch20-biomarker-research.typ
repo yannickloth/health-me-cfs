@@ -773,6 +773,45 @@ A 2026 study by Chalder and Moreau introduces a multi-layer epigenetic biomarker
   None of the epigenetic biomarker candidates described here (PTPRN2 methylation, miR-153-3p, EpiSwitch panel) have been independently replicated in external ME/CFS cohorts. The Chalder 2026 primary finding derives from n=54 patients using a cross-sectional design with saliva proxy. Reference ranges for clinical use do not exist. Pre-analytical variables (time of collection, saliva contamination, medication effects on methylation) are not established for this specific assay. These findings are research tools only — not diagnostic or prognostic biomarkers for clinical practice.
 ]
 
+=== Repetitive Element RNA Biomarkers: HSAT2 Detection in Biofluids
+<sec:hsat2-biomarkers>
+
+Satellite 2 (HSAT2) RNA represents an emerging class of biomarkers based on repetitive element detection in serum and plasma, with validated methods from cancer research immediately applicable to ME/CFS.
+
+*Validated detection methods.*
+
+Two robust methods for HSAT2 quantification in biofluids have been published:
+
+    - *TRAP-ddPCR*: Tandem repeat amplification by nuclease protection combined with droplet digital PCR achieves high-sensitivity detection of serum HSATII RNA @Seimiya2023HSATII. This method uses nuclease protection to preserve repetitive sequences followed by ddPCR quantification, achieving high sensitivity and specificity in cancer discrimination (AUC ≥0.90)
+    - *Hybridization capture*: Biotinylated probe hybridization capture for plasma cfDNA HSAT2 @Yoruker2026HSAT2cfDNA enables size-selective detection of specific HSAT2 fragments (95 bp vs 114 bp), with fragment size distribution providing additional discrimination power
+
+*Clinical validation status.*
+
+HSAT2 detection has been validated in cancer cohorts (pancreatic cancer @Seimiya2023HSATII, colon cancer @Yoruker2026HSAT2cfDNA) but **not yet tested in ME/CFS or any fatigue-related condition**. The methods are transferable: TRAP-ddPCR requires standard qPCR equipment plus droplet generation system; hybridization capture requires standard next-generation sequencing library prep.
+
+#clinical-finding(title: [HSAT2 Detection Methods Established for ME/CFS Translation])[
+HSAT2 satellite repeat RNA is detectable in serum and plasma using validated methods: (1) TRAP-ddPCR for serum HSATII RNA @Seimiya2023HSATII; (2) biotinylated probe hybridization capture for plasma cfDNA HSAT2 @Yoruker2026HSAT2cfDNA. These methods achieve high sensitivity in cancer discrimination (AUC ≥0.90) and are immediately applicable to ME/CFS cohort studies using standard laboratory equipment.
+
+*Caveat:* Cambier et al. @Cambier2021HSAT2EVs found HSAT2 DNA in EV preparations but not in exosome-enriched immunocapture fractions, suggesting circulating HSAT2 may be protein-complexed rather than exosome-packaged. ME/CFS biomarker studies should distinguish exosome-encapsulated vs protein-complexed HSAT2 fractions.
+
+(Certainty: 0.60 for detection method validation; 0.00 for ME/CFS application — entirely untested.)
+] <cf:hsat2-detection-methods>
+
+*Proposed ME/CFS biomarker validation study.*
+
+    - *Phase 1 (Analytical validation)*: Establish reference ranges for serum HSAT2 RNA (TRAP-ddPCR) and plasma cfDNA HSAT2 (hybridization capture) in 100 healthy controls
+    - *Phase 2 (Case-control)*: Measure HSAT2 levels in 200 ME/CFS patients (100 post-viral, 100 non-post-viral) vs 100 matched controls; assess diagnostic accuracy (sensitivity, specificity, AUC)
+    - *Phase 3 (Subtype stratification)*: Correlate HSAT2 levels with (a) disease duration, (b) severity, (c) immune exhaustion biomarkers (MDSC, T-cell exhaustion), (d) viral serologies (EBV, HHV-6, SARS-CoV-2)
+    - *Phase 4 (Longitudinal)*: Track HSAT2 levels over 12 months in 50 patients to assess stability and correlation with symptom fluctuation
+
+*Connection to pathogenic mechanisms.*
+
+If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic mediator. Chapter @ch:immune-dysfunction (Section @sec:tier2-research) describes the hypothesis that exosomal HSAT2 drives myeloid-derived suppressor cell expansion and T-cell exhaustion @Evdokimova2019HSAT2exosome. Chapter @ch:genetics-epigenetics (Section @sec:repetitive-element-derepression) describes epigenetic HSAT2 activation pathways via HSF1, CTCF loss, and DNA hypomethylation. Biomarker validation studies should therefore include mechanistic readouts (immune phenotyping, exosome HSAT2 cargo) to distinguish whether HSAT2 is merely elevated or actively driving pathology.
+
+#open-question(title: [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?])[
+  Given the heterogeneous ME/CFS population, HSAT2 elevation may be restricted to (1) post-viral onset patients with documented HSF1 activation, (2) patients with accelerated senescence signatures (epigenetic clock acceleration, telomere shortening, immunosenescence), or (3) patients with specific immune exhaustion phenotypes (MDSC expansion, T-cell exhaustion). If HSAT2 is elevated only in a subset, unstratified case-control studies may miss the signal entirely. Biomarker validation should therefore pre-stratify by onset type, senescence markers, and immune exhaustion status.
+] <oq:hsat2-subtype-restriction>
+
 == Summary: Current State and Future Directions
 <sec:biomarker-summary>
 

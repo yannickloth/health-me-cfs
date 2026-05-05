@@ -2884,6 +2884,64 @@ This precision-medicine approach could achieve higher response rates (50–60%) 
 *Timeline*
 Protocol development and regulatory approval: 12–18 months; enrollment and treatment: 36 months; analysis and publication: 48 months.
 
+==== Exosomal HSAT2 RNA as Biomarker and Pathogenic Mediator
+
+*Rationale*
+Human-specific satellite 2 (HSAT2) RNA is a pericentromeric repeat sequence activated by viral infection, heat shock, and cellular senescence. In cancer models, HSAT2-containing exosomes drive immunosuppressive myeloid cell expansion and T-cell exhaustion @Evdokimova2019HSAT2exosome. A parallel mechanism may operate in ME/CFS, particularly in post-viral subsets.
+
+*Evidence Base*
+
+    - *HSAT2 activation triggers*: Heat shock factor 1 (HSF1) activation, CTCF loss, DNA hypomethylation at pericentromeric heterochromatin—all documented in viral infection and ME/CFS
+    - *Exosomal packaging*: HSAT2 and HERV-K RNAs selectively packaged into exosomes from stressed cells (Ewing sarcoma model) @Evdokimova2019HSAT2exosome
+    - *Immune effects*: HSAT2+ exosomes taken up by CD33+ myeloid cells, driving MDSC-like phenotypes (CD33+HLA-DR–, CD33+PD-1+) and CD8+ T-cell exhaustion via IL-10, IL-35, IDO1, and TGF-$beta$
+    - *Detection methods*: Serum HSATII RNA detectable using TRAP-ddPCR (tandem repeat amplification + droplet digital PCR) with high sensitivity in cancer discrimination @Seimiya2023HSATII
+    - *Therapeutic target*: Reverse transcriptase inhibitor AZT reduced HSAT2 accumulation in cancer models @Evdokimova2019HSAT2exosome
+
+*Hypothesis: Exosomal HSAT2 Transmission in ME/CFS*
+#hypothesis[Exosomal HSAT2 transmission in ME/CFS]<hyp:exosomal-hsat2-transmission>
+Viral infections (EBV, HHV-6, SARS-CoV-2) induce HSF1 activation and DNA hypomethylation at pericentromeric heterochromatin, potentially derepressing HSAT2 satellite repeat RNA in ME/CFS patients. Analogous to Ewing sarcoma exosomes @Evdokimova2019HSAT2exosome, HSAT2-containing extracellular vesicles may be selectively packaged and taken up by CD33+ myeloid cells, driving MDSC expansion and CD8+ T-cell exhaustion via IL-10, IL-35, IDO1, and TGF-$beta$ production. RT inhibitor AZT reduced HSAT2 accumulation in cancer models @Evdokimova2019HSAT2exosome, suggesting a testable therapeutic hypothesis for ME/CFS.
+
+*Certainty assessment:* Preprint data only (n=12--30, Ewing sarcoma context), no direct ME/CFS evidence.
+
+*Testable predictions:*
+
+    1. HSAT2 RNA elevated in ME/CFS serum exosomes vs healthy controls (TRAP-ddPCR @Seimiya2023HSATII)
+    2. CD33+HLA-DR– MDSC frequency correlates with exosomal HSAT2 levels
+    3. AZT or reverse transcriptase inhibitors reduce exosomal HSAT2 and improve fatigue scores in RCT
+
+*Proposed Study Design*
+
+    - *Phase 1 (Biomarker validation)*:
+        - Population: 100 ME/CFS patients (50 post-viral, 50 non-post-viral) vs 50 healthy controls
+        - Primary aim: Detect HSAT2 RNA in serum exosomes using TRAP-ddPCR @Seimiya2023HSATII
+        - Secondary aims: Correlate HSAT2 levels with (a) MDSC frequency (CD33+HLA-DR–), (b) T-cell exhaustion markers (PD-1+, Tim-3+, LAG-3+), (c) disease duration and severity
+        - Stratification: Compare post-viral vs non-post-viral, early (less than 3 years) vs late (more than 3 years)
+
+    - *Phase 2 (Mechanistic validation)*:
+        - Isolate exosomes from ME/CFS patient plasma
+        - Test uptake by healthy donor CD33+ myeloid cells in vitro
+        - Measure induction of MDSC markers (HLA-DR–, PD-1+, IL-10 production)
+        - Test whether AZT pre-treatment of patient cells reduces HSAT2 cargo and MDSC induction
+
+    - *Phase 3 (Therapeutic pilot)*:
+        - Population: Severe ME/CFS patients with elevated exosomal HSAT2 (top 25% from Phase 1)
+        - Intervention: AZT 300 mg BID vs placebo for 12 weeks
+        - Primary outcomes: Exosomal HSAT2 levels, MDSC frequency, fatigue severity
+        - Safety monitoring: CBC, liver enzymes, mitochondrial toxicity (lactate, ATP levels)
+
+*Expected Benefit for Severe Cases*
+If HSAT2 exosomal transmission contributes to immune exhaustion in a subset of ME/CFS patients (particularly post-viral), then (1) biomarker-guided patient stratification could identify responders, and (2) AZT or other RT inhibitors could provide rapid therapeutic benefit. Severe patients with prominent post-viral onset and immune exhaustion biomarkers may benefit most.
+
+*Caveats and Limitations*
+
+    - *No direct ME/CFS evidence*: All data from cancer models; HSAT2 may not be elevated in ME/CFS
+    - *Exosome packaging uncertain*: Cambier et al. @Cambier2021HSAT2EVs found HSAT2 DNA in EV preparations but not in exosome-enriched fractions, suggesting alternative carriers (protein complexes, lipoproteins)
+    - *AZT toxicity*: Reverse transcriptase inhibitors have significant side effects (mitochondrial toxicity, bone marrow suppression); risk-benefit must be carefully evaluated
+    - *Heterogeneity*: HSAT2 elevation may be restricted to specific ME/CFS subtypes (post-viral, HSF1-activated, senescent)
+
+*Timeline*
+Phase 1 (biomarker): 12 months; Phase 2 (mechanistic): 18 months; Phase 3 (therapeutic): 24 months. Total: 4–5 years to completed RCT.
+
 === Tier 3: Long-Term Mechanistic Research (Foundational Understanding)
 <sec:tier3-research>
 

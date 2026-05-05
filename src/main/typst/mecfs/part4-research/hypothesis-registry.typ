@@ -4663,3 +4663,44 @@ Motivated by: @vanEeden2023SScMECFS (Complex III/CyB deficit in SSc-ME/CFS subgr
   kind: table,
 ) <tab:hypothesis-registry-2026-05-03-ssc>
 ] // end landscape page
+
+=== Entries Added 2026-05-05: HSAT2 Exosome Research Integration
+
+Motivated by: @Evdokimova2019HSAT2exosome (Exosomal HSAT2 transmission in Ewing sarcoma), @Seimiya2023HSATII (Serum HSATII RNA detection via TRAP-ddPCR), @Yoruker2026HSAT2cfDNA (Plasma cfDNA HSAT2 detection), @Cambier2021HSAT2EVs (EV-associated HSAT2 DNA, not exosomal), @Hardy2019endothelialEVs (Endothelial apoptotic EVs carry immunostimulatory RNAs), @Mullani2021senescenceRNA (Senescence-associated retrotransposon accumulation).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    table.header([*Title*], [*Type*], [*Cert.*], [*Testable Predictions*], [*Methods*], [*Source*]),
+    
+    [Exosomal HSAT2 Transmission in ME/CFS],
+    [H], [0.45],
+    [(a) HSAT2 RNA elevated in ME/CFS serum exosomes vs healthy controls (TRAP-ddPCR). (b) CD33+HLA-DR-- MDSC frequency correlates with exosomal HSAT2 levels. (c) AZT or reverse transcriptase inhibitors reduce exosomal HSAT2 and improve fatigue scores in RCT.],
+    [Exosome isolation from ME/CFS plasma. TRAP-ddPCR HSAT2 quantification. Flow cytometry for MDSC (CD33+HLA-DR--). AZT RCT with exosomal HSAT2 endpoint.],
+    [Ch.7 @hyp:exosomal-hsat2-transmission],
+
+    [Endothelial Apoptosis-Derived EVs as Peripheral-to-Central Immune Signal Transducers],
+    [S], [0.35],
+    [(a) ME/CFS patients show elevated endothelial apoptosis markers (circulating endothelial microparticles, soluble E-selectin) vs controls. (b) ME/CFS plasma EVs contain higher retroelement RNA cargo (HSAT2, HERV-K, Alu, LINE-1) than control EVs. (c) ME/CFS patient EVs induce stronger TLR7/8 and RIG-I activation in reporter cell lines. (d) EV RNA content correlates with neuroinflammatory biomarkers and cognitive symptoms.],
+    [Endothelial microparticle flow cytometry. EV RNA-seq for retroelement quantification. TLR7/8 and RIG-I reporter cell assays. CSF cytokine profiling. TSPO-PET for neuroinflammation.],
+    [Ch.8 @spec:endothelial-apoexos-neuroinflammation],
+
+    [HSAT2 Activation Pathways in ME/CFS],
+    [H], [0.40],
+    [(a) ME/CFS patient cells show elevated HSAT2 RNA levels vs healthy controls (qPCR, RNA-seq). (b) ME/CFS patients demonstrate HSF1 activation and pericentromeric hypomethylation vs controls (ChIP-seq, bisulfite sequencing). (c) ME/CFS patients show CTCF loss at pericentromeric regions vs controls (ChIP-seq). (d) HSAT2 RNA levels correlate with senescence markers (p16, p21, β-galactosidase). (e) Post-viral ME/CFS patients show higher HSAT2 levels than non-post-viral patients.],
+    [HSAT2 qPCR in patient PBMCs. HSF1 and CTCF ChIP-seq. Pericentromeric bisulfite sequencing. Senescence marker flow cytometry. Viral serology stratification.],
+    [Ch.12 @hyp:hsat2-activation-mecfs],
+
+    [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?],
+    [OQ], [---],
+    [Is HSAT2 elevation restricted to (1) post-viral onset patients with HSF1 activation, (2) patients with accelerated senescence signatures, or (3) patients with specific immune exhaustion phenotypes? Do unstratified case-control studies miss the signal entirely?],
+    [HSAT2 measurement in pre-stratified ME/CFS cohort: post-viral vs non-post-viral, senescence-positive vs senescence-negative, immune exhaustion-positive vs exhaustion-negative. Subtype-specific reference ranges.],
+    [Ch.20 @oq:hsat2-subtype-restriction],
+
+  ),
+  caption: [Entries added 2026-05-05: HSAT2 exosome research integration --- 2 hypotheses (exosomal HSAT2 transmission, HSAT2 activation pathways), 1 speculation (endothelial ApoExos), 1 open question (HSAT2 subtype restriction). No direct ME/CFS evidence; all mechanisms inferred from cancer literature.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-05-hsat2>
+] // end landscape page

@@ -358,6 +358,45 @@ The Rajeevan study uses Fukuda criteria (less specific than ICC/CCC), and the cr
 
 The convergence of epigenetic clock acceleration (methylation-based), telomere shortening (replication-based), and immunosenescence markers (Section @sec:immunosenescence-aging of Chapter @ch:immune-dysfunction) in ME/CFS suggests that accelerated biological aging is a real phenomenon rather than an artifact of any single measurement modality. However, no study has simultaneously measured all three aging modalities in the same ME/CFS cohort. This represents a critical research gap: multi-modal biological aging assessment in a well-characterised cohort (ICC criteria, $n > 100$) using Horvath/Hannum clocks, telomere length, and immunosenescence markers (p16#super[INK4a], SASP cytokine panel) would determine whether these aging signatures are correlated within patients or reflect independent processes.
 
+==== Repetitive Element Derepression and HSAT2 Activation
+<sec:repetitive-element-derepression>
+
+Pericentromeric satellite repeats, particularly human-specific satellite 2 (HSAT2), represent a distinct class of genomic elements normally silenced by heterochromatin formation but susceptible to derepression under stress conditions including viral infection, heat shock, and cellular senescence.
+
+*HSAT2 biology and silencing mechanisms.*
+HSAT2 is a pericentromeric satellite repeat comprising ~1.5% of the human genome, organized in large tandem arrays on chromosome 1 and other acrocentric chromosomes. In healthy cells, HSAT2 is transcriptionally silenced by CTCF-mediated chromatin looping, DNA methylation, and H3K9me3 repressive histone marks. This silencing is essential for maintaining centromeric heterochromatin structure and preventing genomic instability.
+
+*HSAT2 activation triggers.*
+Multiple ME/CFS-relevant stressors can derepress HSAT2:
+
+    - *Viral infection*: EBV, HHV-6, and SARS-CoV-2 induce heat shock factor 1 (HSF1) activation, which binds pericentromeric satellite repeats and promotes HSAT2 transcription @Vourc_h2022HSF1SatIII
+    - *CTCF loss*: Senescence and oxidative stress reduce CTCF expression or alter its binding, de-repressing pericentromeric repeats
+    - *DNA hypomethylation*: Global hypomethylation documented in ME/CFS @deVega2018 may extend to pericentromeric regions, activating silenced repeats
+    - *Cellular senescence*: Senescent cells accumulate retrotransposon-rich RNAs due to reduced RNA turnover @Mullani2021senescenceRNA
+
+#hypothesis(title: [HSAT2 Activation Pathways in ME/CFS])[
+*Certainty: 0.40.*
+
+ME/CFS may feature HSAT2 activation via multiple converging pathways: (1) viral infection → HSF1 activation → pericentromeric HSAT2 transcription; (2) oxidative stress/senescence → CTCF loss → loss of pericentromeric silencing; (3) global DNA hypomethylation → HSAT2 promoter demethylation. Once activated, HSAT2 RNA may be packaged into extracellular vesicles and taken up by myeloid cells, driving immune exhaustion @Evdokimova2019HSAT2exosome. This mechanism links viral triggers, epigenetic dysregulation, and chronic immune dysfunction in a unified pathway.
+
+*Testable predictions:*
+
+    - ME/CFS patient cells should show elevated HSAT2 RNA levels vs healthy controls (qPCR, RNA-seq)
+    - ME/CFS patients should demonstrate HSF1 activation and pericentromeric hypomethylation vs controls (ChIP-seq, bisulfite sequencing)
+    - ME/CFS patients should show CTCF loss at pericentromeric regions vs controls (ChIP-seq)
+    - HSAT2 RNA levels should correlate with senescence markers (p16, p21, β-galactosidase) in ME/CFS cells
+    - Post-viral ME/CFS patients should show higher HSAT2 levels than non-post-viral patients
+
+*Limitations.*
+This hypothesis has certainty 0.40. No direct ME/CFS evidence exists for HSAT2 activation; the mechanism is inferred from cancer studies @Evdokimova2019HSAT2exosome, senescence models @Mullani2021senescenceRNA, and viral HSF1 activation @Vourc_h2022HSF1SatIII. HSAT2 may not be elevated in ME/CFS, or elevation may be restricted to specific subtypes. The exosomal transmission mechanism remains speculative in ME/CFS context.
+
+*Treatment implications.*
+If HSAT2 activation contributes to ME/CFS pathology, therapeutic strategies could include: (1) reverse transcriptase inhibitors (AZT, lamivudine) to reduce HSAT2 accumulation @Evdokimova2019HSAT2exosome; (2) HSF1 inhibitors to block viral-induced HSAT2 activation; (3) epigenetic therapies to restore pericentromeric silencing (DNA methyltransferase activators, histone methyltransferase enhancers).
+] <hyp:hsat2-activation-mecfs>
+
+*Connection to senescence and exosome transmission.*
+Mullani et al. @Mullani2021senescenceRNA demonstrated that senescent cells accumulate long promoter RNAs and 3' gene extensions rich in retrotransposon sequences, associated with reduced RNA exosome subunit expression and impaired RNA turnover. This senescence-associated retroelement accumulation may feed into the exosomal transmission pathway described in Chapter @ch:immune-dysfunction (Section @sec:tier2-research), where senescent cell-derived EVs deliver HSAT2 and other retroelement RNAs to immune cells, driving chronic immune activation. This creates a feedforward loop: senescence → retroelement accumulation → exosomal transmission → immune activation → further senescence.
+
 === Histone Modifications
 <sec:histone-modifications>
 

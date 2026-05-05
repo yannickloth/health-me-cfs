@@ -1382,6 +1382,39 @@ If this hypothesis is correct, therapeutic strategies should prioritize: (1) BB
 This hypothesis has certainty 0.35. It synthesizes mechanisms documented in neurodegenerative diseases and applies them to ME/CFS by analogy—no study has directly measured cGAS-STING activation, CSF mtDNA levels, or mitochondrial turnover rates in ME/CFS patients. BBB permeability is heterogeneous across ME/CFS patients @Natelson_BBB_MECFS_2001, and if some patients have highly permeable BBB, the trapping mechanism may not apply universally. Genetic polymorphisms in BBB transporters may create substantial patient-to-patient variability. Despite these limitations, the hypothesis is testable and generates specific predictions evaluable in cohorts with CSF access.
 ] <spec:bbb-vulnerability>
 
+#speculation(title: [Endothelial Apoptosis-Derived Extracellular Vesicles as Peripheral-to-Central Immune Signal Transducers])[
+*Certainty: 0.35.*
+
+If ME/CFS involves endothelial apoptosis (e.g., via oxidative stress, viral infection, microvascular injury), then apoptotic endothelial cell-derived extracellular vesicles (ApoExos) may serve as vehicles for delivering immunostimulatory RNAs to the CNS, bridging peripheral vascular pathology and central neuroinflammation.
+
+*Evidence from endothelial apoptosis models.*
+Hardy et al. @Hardy2019endothelialEVs demonstrated that apoptotic endothelial cells release exosome-like nanovesicles (ApoExos) loaded with immunostimulatory "viral-like" RNAs: endogenous retroelements (~50% of total RNA), unedited Alu repeats, U1 RNA, and Y RNA. When injected into mice, these ApoExos caused systemic inflammation and autoimmunity. The RNAs stimulated RIG-I-like receptors and endosomal TLRs, triggering innate immune activation.
+
+*Mechanistic bridge to ME/CFS neuroinflammation.*
+Three converging lines of evidence suggest this mechanism may operate in ME/CFS:
+
+    1. *Endothelial activation in ME/CFS*: Elevated endothelial microparticles, reduced flow-mediated dilation, and impaired microvascular function documented in multiple ME/CFS cohorts @Newton2017endothelial; these findings may reflect ongoing endothelial stress or apoptosis
+    2. *Extracellular vesicle RNA alterations*: ME/CFS patient EVs show altered small RNA cargo @Giloteaux2023, and retroelement RNAs (HSAT2, HERV-K) are elevated in other post-viral conditions @Evdokimova2019HSAT2exosome
+    3. *Neuroinflammatory priming*: Frank et al. @Frank2024S1Priming demonstrated that prior immune exposure sensitises brain innate immunity, lowering the threshold for subsequent neuroinflammatory cascades—ApoExos could provide repeated peripheral immune stimuli that cross the BBB or signal via vagal afferents
+
+*Proposed pathway.*
+Endothelial apoptosis in ME/CFS (triggered by viral infection, oxidative stress, or hypoperfusion) → ApoExo release loaded with retroelement RNAs → ApoExos cross compromised BBB or signal via vagus nerve → Retroelement RNAs activate CNS innate immunity (RIG-I, TLR7/8) → Microglial priming and neuroinflammation → Cognitive dysfunction, headache, sensory sensitivity
+
+*Testable predictions.*
+
+    - ME/CFS patients should show elevated endothelial apoptosis markers (circulating endothelial microparticles, soluble E-selectin, von Willebrand factor) compared to healthy controls
+    - ME/CFS plasma EVs should contain higher retroelement RNA cargo (HSAT2, HERV-K, Alu, LINE-1) than control EVs, quantified by RNA-seq or qPCR
+    - ME/CFS patient EVs should induce stronger TLR7/8 and RIG-I activation in reporter cell lines than control EVs
+    - EV RNA content should correlate with neuroinflammatory biomarkers (CSF cytokines, PET microglial activation) and cognitive symptom severity
+    - Patients with prominent microvascular symptoms (orthostatic intolerance, Raynaud's) should show highest ApoExo levels
+
+*Limitations.*
+This speculation has certainty 0.35. No studies have directly measured endothelial ApoExos or their RNA cargo in ME/CFS. The evidence comes from endothelial apoptosis models @Hardy2019endothelialEVs, cancer exosome studies @Evdokimova2019HSAT2exosome, and ME/CFS EV small RNA profiles @Giloteaux2023—none of which directly demonstrate the proposed pathway in ME/CFS patients. BBB permeability is heterogeneous; some patients may have intact barriers that limit CNS EV entry. Vagal signaling mechanisms remain speculative.
+
+*Treatment implications.*
+If validated, therapeutic strategies could include: (1) reducing endothelial apoptosis (antioxidants, vasodilators, viral suppression); (2) blocking EV uptake (heparin derivatives, anti-integrin antibodies); (3) inhibiting retroelement RNA sensing (TLR7/8 antagonists, RIG-I inhibitors); (4) removing circulating EVs (apheresis, immunoadsorption).
+] <spec:endothelial-apoexos-neuroinflammation>
+
 === Meningitis as a Model for Acute BBB-Neuroinflammatory Injury in ME/CFS
 <sec:meningitis-bbb>
 
