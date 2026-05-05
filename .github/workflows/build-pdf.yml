@@ -1,0 +1,77 @@
+name: Build PDF
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60  # Sufficient for typical builds; increase if adding heavy deps
+    permissions:
+      contents: write
+      releases: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v25
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable  # Accepts upstream breakage for latest deps
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+
+      - name: Setup Cachix (optional - speeds up builds)
+        # Enable by setting CACHIX_ENABLED=true in repository variables
+        # Tradeoff: Faster builds vs dependency on external Cachix service
+        # Falls back to local Nix build if disabled
+        # See: https://cachix.org
+        if: vars.CACHIX_ENABLED == 'true'
+        uses: cachix/cachix-action@v14
+        with:
+          name: me-cfs-docs
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+
+      - name: Build PDF with Nix
+        run: nix build --print-build-logs
+
+      - name: Rename PDF with date and commit
+        run: |
+          if [ ! -f "result/loth2026-mecfs.pdf" ]; then
+            echo "ERROR: PDF file not found after build"
+            exit 1
+          fi
+          DATETIME=$(date +%Y%m%d-%H%M%S)
+          SHORT_SHA=${{ github.sha }}
+          PDF_NAME="loth2026-mecfs.${DATETIME}-${SHORT_SHA}.pdf"
+          cp result/loth2026-mecfs.pdf "$PDF_NAME"
+          echo "PDF_NAME=$PDF_NAME" >> $GITHUB_ENV
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: me-cfs-paper
+          path: ${{ env.PDF_NAME }}
+          retention-days: 30
+
+      - name: Create Release (on main push or manual dispatch)
+        if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest-build  # Overwrites to always point to latest build only (not versioned release)
+          name: Latest Build
+          prerelease: true  # Auto-generated artifact, not versioned release
+          update_existing: true
+          body: |
+            Latest automatically built PDF from commit ${{ github.sha }}
+
+            Built on: ${{ github.event.head_commit.timestamp || github.event.repository.updated_at }}
+          files: ${{ env.PDF_NAME }}
+          fail_on_unmatched_files: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
