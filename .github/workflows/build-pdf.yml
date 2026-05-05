@@ -65,7 +65,6 @@ jobs:
           tag_name: latest-build  # Overwrites to always point to latest build only (not versioned release)
           name: Latest Build
           prerelease: true  # Auto-generated artifact, not versioned release
-          update_existing: true
           body: |
             Latest automatically built PDF from commit ${{ github.sha }}
 
