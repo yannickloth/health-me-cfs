@@ -5,13 +5,13 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
-  
-    with flake-utils.lib; eachSystem allSystems (system):
-    let
-      pkgs = nixpkgs.legacyPackages.${system};
-      in rec {
-        packages = rec {
-          default = overridable pkgs.typst;
-        };
+
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+      in {
+        packages.default = pkgs.typst;
       }
+    );
 }
