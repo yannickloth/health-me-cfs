@@ -822,7 +822,7 @@ If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic me
   Given the heterogeneous ME/CFS population, HSAT2 elevation may be restricted to (1) post-viral onset patients with documented HSF1 activation, (2) patients with accelerated senescence signatures (epigenetic clock acceleration, telomere shortening, immunosenescence), or (3) patients with specific immune exhaustion phenotypes (MDSC expansion, T-cell exhaustion). If HSAT2 is elevated only in a subset, unstratified case-control studies may miss the signal entirely. Biomarker validation should therefore pre-stratify by onset type, senescence markers, and immune exhaustion status.
 ] <oq:hsat2-subtype-restriction>
 
-#proposal(title: [Cross-Disease Diagnostic Specificity Framework: Multi-Modal Retrotransposon Panel])[
+#recommendation(title: [Cross-Disease Diagnostic Specificity Framework: Multi-Modal Retrotransposon Panel])[
 
 If HSAT2 is ME/CFS-specific, a multi-modal panel combining (a) HSAT2 RNA (serum), (b) HSAT2 cfDNA (plasma), (c) exosomal HSAT2/HERV-K, and (d) MDSC frequency would achieve higher diagnostic specificity than any single marker. If HSAT2 is pan-retrotransposon, the panel would need additional disease-specific modifiers (e.g., tissue-specific methylation signatures) to distinguish ME/CFS from cancer/Long COVID.
 

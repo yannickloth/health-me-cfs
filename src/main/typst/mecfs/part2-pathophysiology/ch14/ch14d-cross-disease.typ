@@ -148,7 +148,7 @@ Table @tab:hsat2-cross-disease-summary summarizes the current state of HSAT2 and
   ]
 ] <tab:hsat2-cross-disease-summary>
 
-#hypothesis-box(title: [HSAT2 as a Pan-Retrotransposon Stress Response vs Disease-Specific Signature])[
+#hypothesis(title: [HSAT2 as a Pan-Retrotransposon Stress Response vs Disease-Specific Signature])[
 
 *(Certainty: 0.45 — supported by HERV COVID-19 data @Grandi2023HERVcovid @Charvet2023HERV and HSAT2 cancer progression data @Seimiya2023HSATII @Yoruker2026HSAT2cfDNA; ME/CFS-specific pattern not yet measured)*
 
@@ -172,7 +172,7 @@ This pan-retrotransposon stress response framework predicts measurable differenc
 *Limitations:* No direct EBV/CMV→HSAT2 data exists; inference is based on COVID-19 HERV activation pattern @Grandi2023HERVcovid, which may not generalize across herpesviruses. Antiviral trials in ME/CFS have shown mixed results; confounding factors (viral suppression vs immune modulation) are unresolved. Not replicated.
 ] <spec:ebv-cmv-hsat2-subset>
 
-#hypothesis-box(title: [Post-Acute HSAT2 Persistence vs Cancer Progression: Kinetic Distinction])[
+#hypothesis(title: [Post-Acute HSAT2 Persistence vs Cancer Progression: Kinetic Distinction])[
 
 *(Certainty: 0.40 — HSAT2 kinetics established in cancer @Seimiya2023HSATII @Yoruker2026HSAT2cfDNA; inferred for post-viral syndromes)*
 
@@ -214,7 +214,7 @@ If HSAT2 activation in ME/CFS is maintained by DNA hypomethylation, then targete
 *Limitations:* DNMT3A activators are oncogenic risks; clinical use in ME/CFS would require careful monitoring. SAMe supplementation trials in ME/CFS have shown mixed results. HSAT2-specific methylation in patient cells not tested. Not replicated.
 ] <spec:hsat2-methylation-lock>
 
-#proposal(title: [Cross-Disease HSAT2 Network Analysis: Identifying Shared vs Unique Pathways])[
+#recommendation(title: [Cross-Disease HSAT2 Network Analysis: Identifying Shared vs Unique Pathways])[
 
 Bioinformatic analysis of HSAT2-interacting proteins and regulatory networks across disease transcriptomes could reveal (a) shared retrotransposon response pathways (HSF1, CTCF, DNMTs), and (b) disease-specific co-factors (tissue-specific TFs, viral-specific integration sites). This network approach would guide targeted interventions.
 
