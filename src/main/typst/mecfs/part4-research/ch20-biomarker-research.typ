@@ -787,11 +787,11 @@ Two robust methods for HSAT2 quantification in biofluids have been published:
 
 *Clinical validation status.*
 
-HSAT2 detection has been validated in cancer cohorts (pancreatic cancer @Seimiya2023HSATII, colon cancer @Yoruker2026HSAT2cfDNA) but **not yet tested in ME/CFS or any fatigue-related condition**. The methods are transferable: TRAP-ddPCR requires standard qPCR equipment plus droplet generation system; hybridization capture requires standard next-generation sequencing library prep.
+HSAT2 detection has been validated in cancer cohorts (pancreatic cancer @Seimiya2023HSATII, colon cancer @Yoruker2026HSAT2cfDNA) but *not yet tested in ME/CFS or any fatigue-related condition*. The methods are transferable: TRAP-ddPCR requires standard qPCR equipment plus droplet generation system; hybridization capture requires standard next-generation sequencing library prep.
 
 *Cross-disease retrotransposon activation patterns.*
 
-Retrotransposon activation provides a comparative framework across disease categories. In cancer, HSAT2 serves as a validated biomarker with established detection methods. In post-viral syndromes, endogenous retrovirus (HERV) activation has been documented during and after SARS-CoV-2 infection @Grandi2023HERVcovid @Charvet2023HERV, with HERV-W ENV protein expression correlating with disease severity @Charvet2023HERV. However, **direct HSAT2 measurements in Long COVID, fibrotic diseases, or other post-viral conditions represent a critical research gap** (certainty: 0.45 — established for HERV, absent for HSAT2).
+Retrotransposon activation provides a comparative framework across disease categories. In cancer, HSAT2 serves as a validated biomarker with established detection methods. In post-viral syndromes, endogenous retrovirus (HERV) activation has been documented during and after SARS-CoV-2 infection @Grandi2023HERVcovid @Charvet2023HERV, with HERV-W ENV protein expression correlating with disease severity @Charvet2023HERV. However, *direct HSAT2 measurements in Long COVID, fibrotic diseases, or other post-viral conditions represent a critical research gap* (certainty: 0.45 — established for HERV, absent for HSAT2).
 
 The pattern suggests retrotransposon activation may be a pan-viral or pan-inflammatory response rather than disease-specific. If HSAT2 in ME/CFS mirrors the HSAT2 patterns seen in cancer (high levels correlating with disease stage), this would support a generalized retrotransposon activation mechanism. If HSAT2 patterns in ME/CFS differ (e.g., elevated but stable rather than progressive), this would suggest disease-specific regulatory dynamics.
 
