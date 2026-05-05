@@ -137,7 +137,6 @@ Table @tab:hsat2-cross-disease-summary summarizes the current state of HSAT2 and
 #table(
   columns: 2,
   stroke: 0pt,
-  fill: (left, right),
 )[
   [*Disease*, *Evidence for HSAT2/Retrotransposon Activation*, *Certainty*, *Mechanistic Link to ME/CFS*],
   [
@@ -163,26 +162,10 @@ This pan-retrotransposon stress response framework predicts measurable differenc
 
 *Falsifiable predictions:*
 
-1. Long COVID patients with persistent fatigue at ≥6 months post-infection will show elevated HSAT2 that remains stable over time (unlike cancer progression), distinguishing ME/CFS-like Long COVID from recovered Long COVID. The Eaton-Fitch 2024 immune checkpoint divergence between ME/CFS and Long COVID @EatonFitch2024checkpoint should track with exosomal HSAT2 levels if the MDSC-driven suppression model @spec:hsat2-exosome-mdsc is correct.
+1. Long COVID patients with persistent fatigue at ≥6 months post-infection will show elevated HSAT2 that remains stable over time (unlike cancer progression), distinguishing ME/CFS-like Long COVID from recovered Long COVID. The Eaton-Fitch 2024 immune checkpoint divergence between ME/CFS and Long COVID @EatonFitch2024ImmuneExhaustion should track with exosomal HSAT2 levels if the MDSC-driven suppression model @spec:hsat2-exosome-mdsc is correct,
 
 2. ME/CFS patients will show elevated HSAT2 that correlates with symptom severity but not with disease duration. Longitudinal tracking over 12–24 months will show plateaued elevation (trend slope not different from zero, p>0.05) despite symptom fluctuation, distinguishing ME/CFS from cancer.
 
-3. Post-infectious ME/CFS onset subgroups (EBV, CMV, other herpesviruses vs idiopathic) will differ in HSAT2 levels. Herpesvirus-onset ME/CFS patients will show higher HSAT2 than idiopathic-onset ME/CFS (effect size d≥1.0, p<0.05), supporting viral trigger hypothesis for retrotransposon activation.
-
-*Limitations:* Direct HSAT2 measurements in Long COVID are absent; this framework relies on HERV data as proxy. HSAT2-specific kinetics in ME/CFS are entirely untested. Cancer HSAT2 progression data comes from tumor burden correlation; chronic post-viral persistence may show different regulatory dynamics. Not replicated.
-
-*Clinical implications:* If validated, this framework would provide (a) a diagnostic rule-out for malignancy (progressive HSAT2 elevation → investigate cancer), (b) a prognostic biomarker (stable vs progressive kinetics), and (c) treatment stratification (viral-onset ME/CFS may respond differently to antiretroviral or epigenetic therapies than idiopathic ME/CFS).
-] <hyp:hsat2-pan-retrotransposon-response>
-
-#speculation(title: [EBV/CMV HSAT2 Activation as a Persistent Post-Viral ME/CFS Subset Driver])[
-
-*(Certainty: 0.30 — viral trigger established; retrotransposon-specific mechanism inferred from COVID-19 HERV data @Grandi2023HERVcovid @Charvet2023HERV)*
-
-EBV and CMV are well-documented ME/CFS triggers with established latency-reactivation cycles. If these herpesviruses trigger sustained HSAT2 activation analogous to SARS-CoV-2→HERV activation, then ME/CFS patients with EBV/CMV onset should show higher HSAT2 levels than non-post-viral ME/CFS. This would explain heterogeneity within ME/CFS and identify a biological subtype amenable to antiretroviral strategies.
-
-*Falsifiable predictions:*
-
-1. ME/CFS patients with documented EBV or CMV onset (serology positive, latency transcripts detectable) will show elevated plasma HSAT2 (TRAP-ddPCR) compared to ME/CFS patients with idiopathic or non-infectious onset (effect size d≥1.0, p<0.05).
 
 2. Antiviral therapy (valganciclovir, ganciclovir) responders among EBV/CMV-onset ME/CFS patients will show HSAT2 reduction correlated with symptom improvement (Spearman ρ>0.4). Non-responders will maintain elevated HSAT2 despite viral load suppression, suggesting epigenetic locking.
 
