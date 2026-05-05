@@ -1,0 +1,26 @@
+date: 2026-05-02
+
+medications_supplements:
+  # medications (taken as prescribed)
+  ldn:               { taken: true, dose: "4.5 mg" }
+  montelukast:       { taken: true }
+  rupatadine:        { taken: true, doses: { morning: true, daytime: true, evening: true } }
+  famotidine:        { taken: true }
+  pyridostigmine:    { taken: true, doses: { morning: true, midday: true, evening: true }, dose_each: "10 mg" }
+  rilatine_mr_30:    { taken: false, notes: "no stimulants today" }
+  # supplements (taken as prescribed; B2/riboflavin, D-ribose, MCT oil, PEA excluded)
+  magnesium:         { taken: true }
+  b_forte:           { taken: true }
+  nad_resveratrol:   { taken: true }
+  urolithin_a:       { taken: true }
+  coq10:             { taken: true }
+  bactecal:          { taken: true }
+  iron:              { taken: false, notes: "not recorded" }
+  # excluded: riboflavin (B2), d_ribose, mct_oil, pea
+
+symptoms: {}
+
+overall_wellbeing: ~
+
+activity:
+  notes: "No stimulants taken."

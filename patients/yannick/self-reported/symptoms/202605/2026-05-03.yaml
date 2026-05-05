@@ -1,0 +1,27 @@
+date: 2026-05-03
+
+sleep:
+  duration_hours: 8.92          # 8h55 per Garmin Vivoactive 6
+  quality: poor                  # Garmin assessment
+  source: garmin_vivoactive_6
+
+medications_supplements: {}      # not yet recorded
+
+symptoms:
+  fatigue:
+    severity: moderate
+    notes: "Generally tired despite long sleep (8h55, poor quality per Garmin). Hypothesis: rebound fatigue from 2 days of Rilatine MR 30 mg."
+  lumbago:
+    severity: present
+    notes: "Back pain ongoing (from 2026-04-23 episode)."
+
+overall_wellbeing: ~
+
+activity: {}
+
+hypotheses:
+  - id: tiredness_post_rilatine_rebound
+    text: "Fatigue today caused by 2 days of Rilatine MR 30 mg (2026-04-30, 2026-05-01) followed by stimulant-free day (2026-05-02); possible rebound/withdrawal effect."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If fatigue resolves on stimulant-free days without prior Rilatine use, rebound hypothesis supported; if fatigue persists equally, hypothesis refuted."
