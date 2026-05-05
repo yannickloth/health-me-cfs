@@ -9919,7 +9919,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     / *Key Findings:*:
         - n = 2,076 ADHD cases and 5,078 controls across three independent European cohorts; meta-analysis
         - Haplogroups K and U: protective against ADHD (reduced risk)
-        - Haplogroup HHV**: increased ADHD risk
+        - Haplogroup H\*: increased ADHD risk
         - Haplogroup U also associated with less severe ME/CFS symptoms (Billing-Ross 2016) — cross-disease overlap
     / *Conclusion:*: mtDNA haplogroup variation influences ADHD risk in European populations. Haplogroup U emerges as a shared modifier across ADHD and ME/CFS symptom severity, suggesting a common mitochondrial energy background.
     / *Limitations:*: Haplogroups inferred from SNP arrays (not whole-genome sequencing); all three cohorts from single institution; maternal inheritance confounding possible.
@@ -10621,7 +10621,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
 
         - H2S exhibits beneficial mitochondrial effects at low concentrations: cytoprotective, anti-apoptotic, anti-inflammatory via S-sulfhydration
         - At high concentrations: cytotoxic via Complex IV inhibition and ATP collapse
-        - **Caution against oversimplification:** context (hypoxia, acidosis, cell type) shifts the beneficial/toxic boundary — the same concentration may be protective in one cell type and toxic in another
+        - *Caution against oversimplification:* context (hypoxia, acidosis, cell type) shifts the beneficial/toxic boundary — the same concentration may be protective in one cell type and toxic in another
         - Endogenous H2S overproduction (CBS/3-MST overexpression in Down syndrome) impairs mitochondria — demonstrating that even endogenous H2S excess is pathological
         - "A complete picture of the impact of H2S on bioenergetics is lacking" — authors explicitly caution
 
@@ -13664,7 +13664,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 
         - H2S exhibits beneficial mitochondrial effects at low concentrations: cytoprotective, anti-apoptotic, anti-inflammatory via S-sulfhydration
         - At high concentrations: cytotoxic via Complex IV inhibition and ATP collapse
-        - **Caution against oversimplification:** context (hypoxia, acidosis, cell type) shifts the beneficial/toxic boundary — the same concentration may be protective in one cell type and toxic in another
+        - *Caution against oversimplification:* context (hypoxia, acidosis, cell type) shifts the beneficial/toxic boundary — the same concentration may be protective in one cell type and toxic in another
         - Endogenous H2S overproduction (CBS/3-MST overexpression in Down syndrome) impairs mitochondria — demonstrating that even endogenous H2S excess is pathological
         - "A complete picture of the impact of H2S on bioenergetics is lacking" — authors explicitly caution
 
