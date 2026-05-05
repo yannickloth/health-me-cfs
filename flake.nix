@@ -20,3 +20,8 @@
   packages = rec {
     default = pkgs.typst;
   };
+
+  packages = rec {
+    default = pkgs.typst;
+    buildInputs = [ pkgs.typst ];
+  };
