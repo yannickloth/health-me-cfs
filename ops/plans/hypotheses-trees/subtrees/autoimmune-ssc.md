@@ -42,7 +42,7 @@
 | Phase 5 | ✅ | Build: pre-existing SSL/network infrastructure failure (not caused by SSc changes; confirmed via git stash test) |
 | Phase 6 | ✅ | 6a CONVERGED (review-convergence); 6b CONVERGED (adversarial, 5 rounds); 6c CONVERGED (review-typst, 3 rounds) |
 | Phase 7 | ✅ | Changelog entry added to shared/changelog.typ |
-| Phase 8 | ⬜ | Commit pending |
+| Phase 8 | ✅ | Commit 0ef80e5 |
 
 ## Nodes
 
