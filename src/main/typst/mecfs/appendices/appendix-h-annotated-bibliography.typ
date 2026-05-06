@@ -7081,6 +7081,30 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     / *Integrated into:*: Chapter 7 (@sec:endothelial-senescence), Chapter 10 (@sec:endothelial-senescence-cv)
     / *Key Implication:*: Senolytics (dasatinib + quercetin) as rational therapeutic target; explains why cytokine/B-cell therapies have had limited benefit
 
+=== McAlpine et al.\ 2026 — Vascular Biomarkers Correlate with Cognition in Neuropsychiatric Long COVID
+
+    / *Full Citation:*: McAlpine LS, Shorer EF, Chiarella J, Nelson A, Veenhuis R, Azola A, Lee A, Pierce R, Farhadian S, Rubin LH, Spudich SS, for the Yale COVID Mind 2 and IMPACT Study Groups. Vascular inflammation in neuropsychiatric long COVID and its association with cognitive and psychiatric symptoms. _Brain, Behavior, and Immunity_. 2026;117:101247.
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbih.2026.101247")[10.1016/j.bbih.2026.101247]
+    / *PMID:*: 42056279
+    / *Article Type:*: Cross-sectional case-control study
+    / *Sample Size:*: n=50 (neuropsychiatric Long COVID), n=28 (acute COVID-19), n=29 (recovered controls); plus validation cohort: n=114 (late Long COVID), n=31 (recovered)
+    / *Key Findings:*
+
+        - Long COVID showed elevated endothelial adhesion markers (sL-selectin, ADAMTS13, sP-selectin, sICAM-1) compared to recovered controls
+        - Coagulation markers (D-dimer, fibrinogen) did NOT differ from controls — critical distinction: endothelial dysfunction without coagulopathy
+        - Vascular biomarkers correlated with cognitive performance: higher sP-selectin associated with lower fluency and verbal learning; lower α1-acid glycoprotein associated with poorer verbal memory, verbal learning, fluency, depression, and anxiety
+        - Some biomarkers (fetuin, sL-selectin, α-2 macroglobulin) were higher in Long COVID than acute COVID-19 — persistent dysregulation pattern
+        - Late Long COVID cohort (>3 years) showed no biomarker differences from controls — normalization over time
+
+    / *Conclusion:*: Persistent dysregulation at intersection of inflammation, platelet adhesion, and endothelial dysfunction is strongly linked to neuropsychiatric Long COVID symptoms. Elevated endothelial adhesion markers suggest distinct pathophysiology from acute COVID-19 and correlate with impaired brain function.
+    / *Limitations:*: Cross-sectional design (cannot establish causality); cognitive testing limited to 4 subtests; psychiatric measures self-reported; normalization in late cohort suggests temporal evolution not captured in primary analysis.
+    / *ME/CFS Relevance:*: HIGH — demonstrates vascular biomarker pattern (endothelial dysfunction WITHOUT coagulopathy) that aligns with Heng 2025 ME/CFS findings. Shows direct correlation between vascular biomarkers and cognitive performance, providing testable prediction for ME/CFS. Supports Nunes 2026 endothelial senescence hypothesis. Temporal normalization in late Long COVID suggests vascular mechanisms may be stage-dependent in chronic post-infectious syndromes.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (multicenter validation cohort, rigorous statistical adjustment for age/BMI/diabetes, standardized neuropsychological testing)
+        - *Sample:* Adequate (n=50 primary LC group, n=114 validation cohort)
+        - *Replication:* Not yet independently replicated for Long COVID cognitive correlations
+        - *Score:* 0.75
+
 === Flaskamp et al.\ 2022 — Failed Angiogenic Compensation in ME/CFS
 
     / *Full Citation:*: Flaskamp L, Roubal C, Uddin S, Sotzny F, Kedor C, Bauer S, Scheibenbogen C, Seifert M. Serum of Post-COVID-19 Syndrome Patients with or without ME/CFS Differentially Affects Endothelial Cell Function In Vitro. _Cells_. 2022;11(15):2376.
@@ -14583,3 +14607,342 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Sample:* Cell line studies
         - *Replication:* Not independently replicated
         - *Score:* 0.60
+// =============================================================================
+
+== Exercise Recovery and Post-Exertional Malaise (PEM)
+<sec:bib-exercise-recovery-pem>
+// =============================================================================
+
+=== Keller et al.\ 2024 — Largest 2-Day CPET Study in ME/CFS
+
+    / *Full Citation:*: Keller B, Receno CN, Franconi CJ, et al.\ Cardiopulmonary and metabolic responses during a 2-day CPET in myalgic encephalomyelitis/chronic fatigue syndrome: translating reduced oxygen consumption to impairment status to treatment considerations. _J Transl Med_. 2024;22(1):627.
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-024-05410-5")[10.1186/s12967-024-05410-5]
+    / *PMID:*: 38965566
+    / *PMCID:*: PMC11229500
+    / *Published:*: July 5, 2024
+    / *Study Design:*: Case-control, 2-day CPET with matched pairs
+    / *Sample Size:*: 84 ME/CFS (Canadian Criteria), 71 sedentary controls; 55 matched pairs analyzed
+    / *Key Findings:*:
+
+        - ME/CFS failed to reproduce CPET-1 measures during CPET-2 (p<0.05 for all)
+        - Significant CPET-2 declines at peak: work, exercise time, V#dot(e), V#dot(O2), V#dot(CO2), V#dot(T), HR, O#sub[2]pulse, DBP, RPP
+        - Significant CPET-2 declines at VAT: V#dot(e)/V#dot(CO2), PetCO#sub[2], O#sub[2]pulse, work, V#dot(O2), SBP
+        - Intraclass correlations: greater stability in controls vs ME/CFS
+        - CPET-2 signaled more severe impairment status than CPET-1
+        - Findings persisted in matched pairs (aerobic capacity, age, sex)
+
+    / *Conclusion:*: Largest 2-day CPET study to date confirms impaired recovery in ME/CFS; autonomic nervous system dysregulation of blood flow and oxygen delivery implicated; CPET-2 data should inform treatment and impairment status.
+    / *Limitations:*: Single-center study (Ithaca College/Workwell Foundation); excludes patients unable to complete maximal effort or 2-day protocol; potential selection bias for less severe ME/CFS.
+    / *Certainty Assessment:*:
+        - #text(high)[Quality]: High — large sample (n=155 total), peer-reviewed, rigorous methodology
+        - #text(high)[Sample]: n=84 ME/CFS, n=71 controls (largest 2-day CPET study)
+        - #text(high)[Replication]: Replicated across multiple vanCampen studies (2020-2021)
+        - #text(medium)[Limitations]: Single center, excludes severe patients unable to complete protocol
+
+=== Tomaskovic et al.\ 2026 — CPET in Post-COVID-19 ME/CFS
+
+    / *Full Citation:*: Tomaskovic A, Weber V, Ochmann DT, et al.\ Cardiopulmonary Exercise Testing Reveals Functional Limitations and Work Disability in Severe Post-COVID-19 and ME/CFS Patients. _Sports Med Open_. 2026;12(1):50.
+    / *DOI:*: #link("https://doi.org/10.1186/s40798-026-00995-1")[10.1186/s40798-026-00995-1]
+    / *PMID:*: 42043742
+    / *PMCID:*: PMC13121684
+    / *Published:*: April 27, 2026
+    / *Study Design:*: Cross-sectional CPET with occupational assessment
+    / *Sample Size:*: 92 PCC patients (45 ME/CFS, 47 non-ME/CFS)
+    / *Key Findings:*:
+
+        - 49% of PCC patients met ME/CFS criteria (Canadian Consensus Criteria)
+        - 79% screened positive on DSQ-PEM
+        - ME/CFS vs non-ME/CFS: lower VO#sub[2]peak (13.0 vs 15.4 mL/min/kg, p=0.012)
+        - ME/CFS vs non-ME/CFS: lower PPO (0.9 vs 1.1 W/kg, p=0.014)
+        - ME/CFS vs non-ME/CFS: lower O#sub[2]pulse (7.7 vs 8.5 mL/bpm, p=0.047)
+        - 66% met objective work disability criteria (VO#sub[2]peak<15 or PPO<1)
+        - VO#sub[2]peak/PPC correlated with Bell-Score (r=0.3, p<0.01)
+        - Lowest VO#sub[2]peak/PPC in patients on medical sick leave vs working
+
+    / *Conclusion:*: Severely affected PCC patients exhibit objective work disability, particularly those with ME/CFS; early CPET integration can inform therapy and return-to-work decisions.
+    / *Limitations:*: Single-center (Mainz, Germany); cross-sectional design; no healthy control group; ME/CFS diagnosis based on CCC (not all criteria systems).
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — moderate sample, peer-reviewed, single center
+        - #text(medium)[Sample]: n=92 PCC (45 ME/CFS)
+        - #text(medium)[Replication]: First study linking CPET to work disability in PCC-ME/CFS
+        - #text(medium)[Limitations]: No healthy controls, cross-sectional, single center
+
+=== van Campen et al.\ 2020 — Severity and 2-Day CPET Response
+
+    / *Full Citation:*: van Campen CLM, Rowe PC, Visser FC. Two-Day Cardiopulmonary Exercise Testing in Females with a Severe Grade of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Comparison with Patients with Mild and Moderate Disease. _Healthcare (Basel)_. 2020;8(3):192.
+    / *DOI:*: #link("https://doi.org/10.3390/healthcare8030192")[10.3390/healthcare8030192]
+    / *PMID:*: 32629923
+    / *PMCID:*: PMC7551790
+    / *Published:*: June 30, 2020
+    / *Study Design:*: Cross-sectional 2-day CPET by severity
+    / *Sample Size:*: 82 female ME/CFS (31 mild, 31 moderate, 20 severe)
+    / *Key Findings:*:
+
+        - All severity groups showed significant CPET-2 declines (p<0.003 to <0.0001)
+        - Peak VO#sub[2] decrease: all groups significant
+        - VO#sub[2] at VT decrease: all groups significant
+        - Peak workload decrease: all groups significant
+        - Workload at VT decrease: all groups significant
+        - Peak workload decrease magnitude: severe (-19±11%) > moderate > mild (p=0.019 mild vs severe)
+        - No baseline differences between severity groups
+
+    / *Conclusion:*: First study to demonstrate disease severity negatively influences exercise capacity in female ME/CFS; deterioration in peak workload largest in severe group; but all severity groups show CPET-2 impairment pattern.
+    / *Limitations:*: Female only; single-center (Cardiozorg, Netherlands); severity grading based on International Consensus Criteria (subjective); small severe group (n=20).
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — good sample, peer-reviewed, severity stratification
+        - #text(medium)[Sample]: n=82 female ME/CFS
+        - #text(medium)[Replication]: Consistent with Keller2024, vanCampen2021 male/female studies
+        - #text(medium)[Limitations]: Female only, single center, subjective severity grading
+
+=== Lim et al.\ 2020 — Meta-Analysis of 2-Day CPET
+
+    / *Full Citation:*: Lim EJ, Kang EB, Jang ES, Son CG. The Prospects of the Two-Day Cardiopulmonary Exercise Test (CPET) in ME/CFS Patients: A Meta-Analysis. _J Clin Med_. 2020;9(12):4040.
+    / *DOI:*: #link("https://doi.org/10.3390/jcm9124040")[10.3390/jcm9124040]
+    / *PMID:*: 33327624
+    / *PMCID:*: PMC7765094
+    / *Published:*: December 14, 2020
+    / *Study Design:*: Meta-analysis of 2-day CPET studies
+    / *Sample Size:*: Pooled data from multiple primary studies
+    / *Key Findings:*:
+
+        - All CPET parameters lower on day 2 in ME/CFS vs controls
+        - Workload at VT: ME/CFS decreased (-10.8 to -33.0, p<0.05)
+        - Controls showed improvement or stability on day 2
+        - VO#sub[2]peak, VO#sub[2]@VT, Workload@VT: all significantly different between groups
+        - Day 2 differences more pronounced than day 1
+        - Suggests 2-day CPET can objectively assess PEM
+
+    / *Conclusion:*: 2-day CPET shows potential as objective PEM assessment; workload at VT most sensitive parameter; further large-scale validation needed.
+    / *Limitations:*: Meta-analysis of small primary studies; heterogeneity in methods; limited number of studies; no individual patient data.
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — meta-analysis, but limited primary studies
+        - #text(medium)[Sample]: Pooled from multiple small studies
+        - #text(medium)[Replication]: Synthesizes existing evidence
+        - #text(medium)[Limitations]: Small primary studies, methodological heterogeneity
+
+=== Jin et al.\ 2026 — PEM Pathophysiology: Metabolism-Immune-Neuro Model
+
+    / *Full Citation:*: Jin H, An Y, Huang J, Luo T, Wu X. Pathophysiological mechanisms of post-exertional malaise: an integrative analysis based on the metabolism-immune-neuro interaction model. _Front Immunol_. 2026;17:1774310.
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1774310")[10.3389/fimmu.2026.1774310]
+    / *PMID:*: 42051540
+    / *PMCID:*: PMC13110949
+    / *Published:*: April 13, 2026
+    / *Study Design:*: Integrative review / hypothesis paper
+    / *Sample Size:*: N/A (review)
+    / *Key Findings:*:
+
+        - Proposed "metabolism-immune-neuro" interaction model for PEM
+        - Mitochondrial dysfunction: impaired ATP synthesis, ROS overproduction, metabolic byproduct accumulation
+        - Exercise has "toxic excitatory effect" in PEM (vs adaptive in healthy)
+        - ROS/mtDNA as DAMPs activate NLRP3 inflammasome → IL-1β, IL-6, TNF-α
+        - Peripheral inflammation → BBB disruption + vagal transmission → neuroinflammation
+        - Glial activation → interoceptive network dysfunction (insula cortex)
+        - Neuronal mitochondrial dysfunction → central energy depletion
+        - Self-perpetuating loop: "energy exhaustion - inflammation amplification"
+
+    / *Conclusion:*: PEM arises from complex interplay of mitochondrial dysfunction, immune activation, and neuroinflammation; model provides framework for multi-target interventions.
+    / *Limitations:*: Review/hypothesis paper, not primary data; model requires experimental validation; does not quantify recovery time.
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — comprehensive review, synthesis of evidence
+        - #text(low)[Sample]: N/A (review)
+        - #text(medium)[Replication]: Model consistent with multiple mechanistic studies
+        - #text(medium)[Limitations]: Hypothetical, requires validation
+
+=== Cotler et al.\ 2020 — PEM Predicts Rapid Respiratory Rates
+
+    / *Full Citation:*: Cotler J, Katz BZ, Reurts-Post C, Vermeulen R, Jason LA. A hierarchical logistic regression predicting rapid respiratory rates from post-exertional malaise. _Fatigue_. 2020;8(4):205–213.
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2020.1845287")[10.1080/21641846.2020.1845287]
+    / *PMID:*: 36313239
+    / *PMCID:*: PMC9610439
+    / *Published:*: November 16, 2020
+    / *Study Design:*: Cross-sectional with hierarchical logistic regression
+    / *Sample Size:*: 216 ME/CFS patients
+    / *Key Findings:*:
+
+        - PEM (measured by DSQ-PEM) significantly predicted tachypnea (rapid respiratory rates)
+        - Psychological/somatic assessments NOT predictive of tachypnea
+        - Sedentary behaviors NOT predictive of tachypnea
+        - Respiratory rate may be objective clinical metric of PEM
+        - Suggests autonomic dysfunction (hyperventilation) in PEM
+
+    / *Conclusion:*: Respiratory rate may be useful as objective clinical metric of PEM; supports biological (not psychological) basis of PEM.
+    / *Limitations:*: Cross-sectional; single-center (CVS/ME Medisch Centrum, Netherlands); no healthy controls; DSQ-PEM subjectively reported.
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — good sample, peer-reviewed, objective outcome
+        - #text(medium)[Sample]: n=216 ME/CFS
+        - #text(medium)[Replication]: First study linking PEM to objective respiratory measure
+        - #text(medium)[Limitations]: Single center, no controls, cross-sectional
+
+=== Gattoni et al.\ 2025 — Long COVID Does NOT Show 2-Day CPET Impairment (Null Result)
+
+    / *Full Citation:*: Gattoni C, Abbasi A, Ferguson C, Lanks CW, Decato TW, Rossiter HB, Casaburi R, Stringer WW. Two-day cardiopulmonary exercise testing in long COVID post-exertional malaise diagnosis. _Respir Physiol Neurobiol_. 2025;331:104362.
+    / *DOI:*: #link("https://doi.org/10.1016/j.resp.2024.104362")[10.1016/j.resp.2024.104362]
+    / *PMID:*: 39490617
+    / *Published:*: January 2025 (online October 2024)
+    / *Study Design:*: Case series, 2-day CPET
+    / *Sample Size:*: 15 Long COVID patients (7 female, mean age 53±11, BMI 32.2±8.5)
+    / *Key Findings:*:
+
+        - 80% of patients had PEM symptoms (mDSQ assessment)
+        - Lung function normal
+        - NO differences between day 1 and day 2 CPET responses (all p>0.05)
+        - 40% showed aerobic deconditioning on day 1 (VO#sub[2]peak<80% predicted)
+        - PEM symptoms in Long COVID NOT due to impaired recovery of exercise capacity
+
+    / *Conclusion:*: Long COVID patients with PEM do NOT show same 2-day CPET pattern as ME/CFS; suggests different pathophysiology; PEM in Long COVID may not involve same recovery impairment mechanism.
+    / *Limitations:*: Small sample (n=15); no ME/CFS comparison group; no healthy controls; single-center (Harbor-UCLA); 24h interval may not capture longer recovery.
+    / *Certainty Assessment:*:
+        - #text(medium-low)[Quality]: Medium-low — small sample, but important null result
+        - #text(low)[Sample]: n=15 Long COVID
+        - #text(medium)[Replication]: First study to directly compare Long COVID vs ME/CFS 2-day CPET
+        - #text(medium)[Limitations]: Small sample, no comparison groups, single center
+
+=== Iversen et al.\ 2020 — Cardiac Function Normal in ME/CFS (Null Result)
+
+    / *Full Citation:*: Iversen PO, von Lueder TG, Kardel KR, Lien K. Cardiac Dimensions and Function Are Not Altered among Females with the Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Healthcare (Basel)_. 2020;8(4):406.
+    / *DOI:*: #link("https://doi.org/10.3390/healthcare8040406")[10.3390/healthcare8040406]
+    / *PMID:*: 33081294
+    / *PMCID:*: PMC7712104
+    / *Published:*: October 16, 2020
+    / *Study Design:*: Case-control echocardiography study
+    / *Sample Size:*: 16 ME/CFS females, 10 healthy controls
+    / *Key Findings:*:
+
+        - NO significant differences in echocardiographic variables
+        - Conventional echocardiography: normal
+        - Doppler analysis: normal
+        - Tissue Doppler: normal
+        - Strain variables: normal
+        - Challenges cardiac dysfunction hypothesis for exercise intolerance
+
+    / *Conclusion:*: Cardiac dimensions and function NOT altered in ME/CFS; exercise intolerance not due to cardiac abnormalities; supports metabolic/autonomic hypotheses.
+    / *Limitations:*: Small sample (n=16 ME/CFS); female only; resting echocardiography (no exercise stress); single-center (Oslo, Norway).
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — rigorous echocardiography, but small sample
+        - #text(low)[Sample]: n=16 ME/CFS, n=10 controls
+        - #text(medium)[Replication]: Null result important, but needs replication in larger samples
+        - #text(medium)[Limitations]: Small sample, female only, resting (not exercise) assessment
+
+=== Zhao et al.\ 2026 — Exercise Efficacy Meta-Analysis (17 RCTs, n=1944)
+
+    / *Full Citation:*: Zhao L, Gou B, Zhang M. The efficacy of exercise in patients with myalgic encephalomyelitis/chronic fatigue syndrome: A systematic review and meta-analysis. _J Psychosom Res_. 2026;207:112677.
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2026.112677")[10.1016/j.jpsychores.2026.112677]
+    / *PMID:*: 42000527
+    / *Published:*: April 15, 2026
+    / *Study Design:*: Systematic review and meta-analysis of RCTs
+    / *Sample Size:*: 17 RCTs, n=1944 participants
+    / *Key Findings:*:
+
+        - Exercise significantly improved: fatigue (SMD=0.85, 95% CI 0.65-1.06, I²=85.3%)
+        - Exercise significantly improved: sleep (SMD=0.42, 95% CI 0.31-0.53, I²=41.2%)
+        - Exercise significantly improved: QoL (SMD=0.99, 95% CI 0.73-1.26, I²=89.7%)
+        - Exercise significantly improved: depression (SMD=0.56, 95% CI 0.43-0.69, I²=45.8%)
+        - Exercise significantly improved: anxiety (SMD=0.14, 95% CI 0.04-0.24, I²=21.2%)
+        - NO significant improvement in: cardiopulmonary function (SMD=0.13, 95% CI -0.11 to 0.43, I²=0.0%)
+        - NO significant improvement in: functional capacity (SMD=0.09, 95% CI -0.21 to 0.38, I²=47.4%)
+        - NO difference in acceptability or adverse events between groups
+        - Authors conclude: "Exercise is an effective strategy for symptom management, provided that individual energy limits are strictly respected to prevent harm"
+
+    / *Conclusion:*: Exercise improves subjective symptoms (fatigue, sleep, QoL, depression) but does NOT restore objective cardiopulmonary function or functional capacity.
+    / *Limitations:*:
+        - All outcomes patient-reported (subjective)
+        - No objective measures (CPET, actigraphy, biomarkers)
+        - High heterogeneity (I²=85.3% for fatigue)
+        - #text(high)[CRITICAL]: Blinding bias — subjective outcomes susceptible to 13% exaggeration in unblinded trials (Savovic2012, Hrobjartsson2014)
+        - Exercise interventions cannot be blinded — structural flaw in all exercise RCTs
+        - Does not address PEM exacerbation risk
+
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — large meta-analysis, but structural flaw (no blinding)
+        - #text(high)[Sample]: n=1944 across 17 RCTs (large)
+        - #text(medium)[Replication]: Synthesizes existing RCT evidence
+        - #text(high)[Limitations]: Subjective outcomes only, blinding bias, no objective measures, high heterogeneity
+
+=== Sharma et al.\ 2025 — Epigenetic Changes During PEM (0h, 24h, 48h)
+
+    / *Full Citation:*: Sharma S, Hodges LD, Peppercorn K, Davis J, Edgar CD, Rodger EJ, Chatterjee A, Tate WP. Precision Medicine Study of Post-Exertional Malaise Epigenetic Changes in Myalgic Encephalomyelitis/Chronic Fatigue Patients During Exercise. _Int J Mol Sci_. 2025;26(17):8563.
+    / *DOI:*: #link("https://doi.org/10.3390/ijms26178563")[10.3390/ijms26178563]
+    / *PMID:*: 40943482
+    / *PMCID:*: PMC12429597
+    / *Published:*: September 3, 2025
+    / *Study Design:*: Longitudinal epigenetic study (2-day CPET with 3 timepoints)
+    / *Sample Size:*: 5 ME/CFS patients, 2 healthy controls
+    / *Key Findings:*:
+
+        - Temporal-longitudinal DNA methylation changes during PEM
+        - 2-day maximal CPET with blood sampling at 0h, 24h, 48h
+        - Complex heterogeneous CPET profiles vs typical healthy controls
+        - All ME/CFS patients had poor normative fitness (low VO#sub[2]peak)
+        - Switch to anaerobic metabolism at lower workload on day 2 (some patients)
+        - 98% of differentially methylated fragments (DMFs) were ME/CFS-specific
+        - Three distinct methylation clusters at 0h, 24h, 48h (PCA)
+        - Heterogeneity among patients within clusters
+        - Early DMFs (0-24h) and late DMFs (24-48h)
+        - 24 ME/CFS-specific DMFs at gene promoter fragments
+        - Pathways: endothelial function, morphogenesis, inflammation, immune regulation
+
+    / *Conclusion:*: Uncovered temporally dynamic epigenetic changes in stress/immune functions during PEM; suggests molecular signatures for diagnosis and mechanistic significance; ongoing molecular recovery beyond 24h (evidence at 48h).
+    / *Limitations:* Very small sample (n=5 ME/CFS, n=2 controls); single-center (New Zealand); heterogeneity limits generalizability; no clinical correlation with recovery time.
+    / *Certainty Assessment:*:
+        - #text(medium-low)[Quality]: Medium-low — novel longitudinal design, but very small sample
+        - #text(low)[Sample]: n=5 ME/CFS, n=2 controls
+        - #text(medium)[Replication]: First longitudinal epigenetic study of PEM
+        - #text(high)[Limitations]: Very small sample, heterogeneity, no clinical correlation
+
+=== Giloteaux et al.\ 2024 — Extracellular Vesicle Dysregulation After Exercise
+
+    / *Full Citation:*: Giloteaux L, Glass KA, Germain A, Franconi CJ, Zhang S, Hanson MR. Dysregulation of extracellular vesicle protein cargo in female myalgic encephalomyelitis/chronic fatigue syndrome cases and sedentary controls in response to maximal exercise. _J Extracell Vesicles_. 2024;13(1):e12403.
+    / *DOI:*: #link("https://doi.org/10.1002/jev2.12403")[10.1002/jev2.12403]
+    / *PMID:*: 38173127
+    / *PMCID:*: PMC10764978
+    / *Published:*: January 8, 2024
+    / *Study Design:*: Case-control, CPET with EV proteomics at 3 timepoints
+    / *Sample Size:*: 18 ME/CFS females, 17 age- and BMI-matched sedentary controls
+    / *Key Findings:*:
+
+        - Blood sampling at: before, 15 min, 24h after maximal CPET
+        - EV isolation by size exclusion chromatography
+        - EV protein cargo quantified by TMT proteomics
+        - Exercise affects EV proteome differently in ME/CFS vs controls
+        - EV protein changes strongly correlated with symptom severity in ME/CFS
+        - Differentially abundant proteins involved in: coagulation processes, muscle contraction (smooth and skeletal), cytoskeletal proteins, immune system, brain signaling
+        - Suggests altered EV signaling contributes to prolonged negative response to exertion
+
+    / *Conclusion:*: Exercise-induced EV proteome changes differ in ME/CFS; correlates with symptom severity; EV signaling may contribute to PEM pathophysiology.
+    / *Limitations:*: Female only; moderate sample; single-center (Cornell); sedentary controls (not necessarily healthy); no measurement beyond 24h.
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — novel biomarker study, moderate sample
+        - #text(medium)[Sample]: n=18 ME/CFS, n=17 controls
+        - #text(medium)[Replication]: First EV proteomics study in ME/CFS
+        - #text(medium)[Limitations]: Female only, single center, no measurement >24h
+
+=== Baraniuk et al.\ 2022 — fMRI Exercise Effects in ME/CFS vs GWI
+
+    / *Full Citation:*: Baraniuk JN, Amar A, Pepermitwala H, Washington SD. Differential Effects of Exercise on fMRI of the Midbrain Ascending Arousal Network Nuclei in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Gulf War Illness (GWI) in a Model of Postexertional Malaise (PEM). _Brain Sci_. 2022;12(1):78.
+    / *DOI:*: #link("https://doi.org/10.3390/brainsci12010078")[10.3390/brainsci12010078]
+    / *PMID:*: 35053821
+    / *PMCID:*: PMC8774249
+    / *Published:*: January 5, 2022
+    / *Study Design:*: Case-control fMRI study with exercise provocation
+    / *Sample Size:*: 36 ME/CFS, 78 GWI, 31 healthy controls
+    / *Key Findings:*:
+
+        - fMRI during difficult cognitive tests before and after submaximal exercise
+        - ME/CFS: INCREASED activation post-exercise vs pre-exercise
+        - GWI: DECREASED activation post-exercise vs pre-exercise
+        - Controls: NO change
+        - Opposite patterns in ME/CFS vs GWI for: midline periaqueductal gray, dorsal/median raphe, right midbrain reticular formation, parabrachial complex, locus coeruleus
+        - Midbrain nuclei involved in: threat assessment, attention, cognition, mood, pain, sleep, autonomic dysfunction
+        - Delta (change between days) positive for ME/CFS, negative for GWI
+
+    / *Conclusion:*: Exercise causes opposite effects in ME/CFS vs GWI; increased ME/CFS activation vs decreased GWI activation in ascending arousal network nuclei; suggests different pathophysiology and mechanisms of disease.
+    / *Limitations:*: Cross-sectional; no measurement of recovery time; submaximal exercise protocol (not CPET); single-center (Georgetown).
+    / *Certainty Assessment:*:
+        - #text(medium)[Quality]: Medium — novel imaging, good sample, peer-reviewed
+        - #text(medium)[Sample]: n=36 ME/CFS, n=78 GWI, n=31 controls
+        - #text(medium)[Replication]: First fMRI study comparing ME/CFS vs GWI exercise response
+        - #text(medium)[Limitations]: Cross-sectional, no recovery time measurement, single center
+
+// =============================================================================
+
+// Note: Additional papers (vanCampen2021FemaleCPET, vanCampen2021MaleCPET, Snell2013CPET, Twomey2020PEMCancer, FanoIllic2026SkeletalMuscle, Wu2026ThalamusFatigue, Giloteaux2016Twins) are available in full BibTeX format but not annotated in this appendix due to length constraints. Full citations available in references.bib.

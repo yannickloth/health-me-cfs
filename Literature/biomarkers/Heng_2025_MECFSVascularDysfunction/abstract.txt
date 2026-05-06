@@ -1,0 +1,12 @@
+Mapping of complexity of ME/CFS: Evidence for abnormal energy metabolism, altered immune profile, and vascular dysfunction.
+
+Authors: Heng B, Gunasegaran B, Krishnamurthy S, Bustamante S, Pires AS, Chow S, Ahn SB, Paul-Heng M, Maciver Y, Smith K, Tran DP, Howley PP, Bilgin AA, Sharland A, Schloeffel R, Guillemin GJ.
+Journal: Cell Reports Medicine, 2025 Dec 16;6(12):102514. doi: 10.1016/j.xcrm.2025.102514.
+PMCID: PMC12765951
+PMID: 41406947
+
+ABSTRACT
+
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex disorder with undefined mechanisms, no diagnostic tools and treatments. To investigate concurrent system dysfunctions, we recruited age- and sex-matched ME/CFS patients and healthy controls for a multimodal analysis of energy metabolism, immune profiles, and plasma proteomics. Immune cells from ME/CFS patients show elevated adenosine monophosphate (AMP) and adenosine diphosphate (ADP) with a reduced ATP/ADP ratio, indicating decreased ATP generation and cellular energy stress. Immune profiling reveals skewing toward less mature effector subsets of CD4+, CD8+, and γδ T cells, with reduced CD1c+CD141- conventional DC type 2 and CD56lowCD16+ terminal natural killer cells. Elevated levels of plasma proteins associated with thrombus formation and vascular reactivity may contribute to endothelial dysfunction observed in ME/CFS patients. Classification and regression tree modeling identifies variables with strong predictive potential for ME/CFS. Together, this study provides insights into somatic symptoms and underlying biology of ME/CFS.
+
+Note: Abstract does not specify sample size. Additional details from full paper needed.

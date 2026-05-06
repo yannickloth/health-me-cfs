@@ -627,6 +627,53 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
 ) <tab:hypothesis-registry-2026-04-16-taurine>
 ] // end landscape page
 
+=== Entries Added 2026-05-07: Vascular Biomarker-Cognition Correlations and Therapeutic Implications
+
+Motivated by: McAlpine et al. 2026 vascular biomarker-cognition study; extension of Long COVID findings to ME/CFS context; Phase 3 brainstorming on vascular mechanisms.
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left, left),
+    stroke: 0.5pt,
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [Endothelial Adhesion Markers as Cognitive Performance Modulators in ME/CFS],
+    [H], [0.40],
+    [(a) ME/CFS patients show the same inverse correlation between sP-selectin/sICAM-1 levels and cognitive test performance (fluency, memory) as observed in Long COVID. (b) Vascular biomarker levels correlate with functional MRI measures of cerebral blood flow velocity. (c) Anti-adhesion therapy (targeting P-selectin or ICAM-1) improves cognitive processing speed before improving subjective fatigue.],
+    [Cross-sectional ME/CFS cohort: endothelial adhesion markers vs comprehensive cognitive battery. fMRI cerebral blood flow measurement. Anti-adhesion therapy pilot trial.],
+    [Ch.14 @hyp:endothelial-adhesion-cognition],
+
+    [α1-Acid Glycoprotein as Protective Cognitive Biomarker],
+    [S], [0.25],
+    [(a) ME/CFS patients show the same inverse AGP-cognition relationship as Long COVID (higher AGP = better cognitive performance). (b) In vitro AGP treatment improves neuronal survival or endothelial permeability. (c) AGP supplementation or upregulation strategies improve cognitive symptoms in ME/CFS.],
+    [AGP measurement in ME/CFS cohort + cognitive battery. In vitro AGP neuroprotective mechanism studies. AGP supplementation RCT design.],
+    [Ch.14 @spec:agp-cognitive-protection],
+
+    [Temporal Evolution of Vascular Biomarkers Predicts ME/CFS Recovery Trajectory],
+    [H], [0.35],
+    [(a) Longitudinal ME/CFS cohorts show declining endothelial biomarker levels over time despite persistent symptoms in chronic cases. (b) Early-stage ME/CFS patients (<12 months) respond better to anti-endothelial therapies than chronic-stage patients (>3 years). (c) Vascular biomarker levels predict treatment response to senolytics or glycocalyx restoration therapies.],
+    [Longitudinal ME/CFS cohort: serial vascular biomarker measurement at 6, 12, 24, 36 months post-onset. Early vs late-stage therapeutic response comparison. Biomarker-stratified clinical trial design.],
+    [Ch.14 @hyp:vascular-biomarker-temporal],
+
+    [Biomarker-Guided ME/CFS Subtype Stratification for Targeted Therapy],
+    [OQ], [N/A],
+    [(a) Multi-biomarker panel identifies distinct ME/CFS vascular subtypes: endothelial adhesion-dominant, angiogenic failure-dominant, glycocalyx damage-dominant, senescence-dominant. (b) Each subtype shows preferential response to targeted therapy (anti-adhesion, pro-angiogenic, glycocalyx restoration, senolytics). (c) Biomarker-guided stratification improves clinical trial efficacy and reduces unstratified patient enrollment.],
+    [Multi-biomarker panel validation: endothelial adhesion, angiogenic, glycocalyx, senescence markers in n=200+ ME/CFS cohort. Cluster analysis for subtype identification. Subtype-stratified randomized therapeutic trials.],
+    [Ch.14 @oq:biomarker-guided-subtyping],
+
+    [Anti-Adhesion Therapy for Cognitive Symptoms in ME/CFS],
+    [OQ], [N/A],
+    [(a) Crizanlizumab (anti-P-selectin) improves cognitive performance in ME/CFS patients with elevated endothelial adhesion markers. (b) P-selectin blockade improves cognitive metrics independent of fatigue improvement. (c) Establishes mechanistic link between endothelial adhesion and cognitive dysfunction.],
+    [ME/CFS pilot: crizanlizumab 5 mg/kg IV (weeks 0, 2, 4, then monthly 6 months total). Primary: cognitive battery (fluency, memory, processing speed). Secondary: vascular biomarkers, brain fog VAS, fatigue scales. Safety: infusion reactions, thrombocytopenia monitoring.],
+    [Ch.14 @oq:anti-adhesion-therapy-cognitive],
+  ),
+  kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular biomarker integration (2026-05-07). Covers cognitive correlations, biomarker temporal evolution, therapeutic implications, and precision stratification approaches.],
+) <tab:hypothesis-registry-2026-05-07-vascular-biomarkers>
+
 === Entries Added 2026-04-17: Universal Mechanism Families Survey (ch17)
 
 Motivated by: systematic survey of 19 universal disease mechanism families applied to ME/CFS; bottom-up taxonomy synthesis; Phase 3 brainstorming on ch17 content.
@@ -4702,6 +4749,33 @@ Motivated by: @Evdokimova2019HSAT2exosome (Exosomal HSAT2 transmission in Ewing 
     [HSAT2 qPCR in patient PBMCs. HSF1 and CTCF ChIP-seq. Pericentromeric bisulfite sequencing. Senescence marker flow cytometry. Viral serology stratification.],
     [Ch.12 @hyp:hsat2-activation-mecfs],
 
+    [Endothelial Senescence as Unifying Mechanism in Long COVID and ME/CFS],
+    [H], [0.30],
+    [Nunes et al.~\cite{Nunes2026endothelialsenescence} propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle.
+The endothelial senescence-associated secretory phenotype (SASP) is characterized by proinflammatory, prooxidative, procoagulant, and vasoconstriction-prone properties.
+Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder~\cite{McAlpine2026,Nunes2026}.
+Study: (hypothesis framework, no primary data, certainty: Low).
+Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.
+] <hyp:nunes2026endothelialsenescence>,
+
+    [Vascular Dysfunction Biomarkers in ME/CFS (First Direct Evidence)],
+    [H], [0.30],
+    [Nunes et al.~\cite{Nunes2026endothelialsenescence} propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle.
+The endothelial senescence-associated secretory phenotype (SASP) is characterized by proinflammatory, prooxidative, procoagulant, and vasoconstriction-prone properties.
+Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder~\cite{McAlpine2026,Nunes2026}.
+Study: (hypothesis framework, no primary data, certainty: Low).
+Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.
+] <hyp:nunes2026endothelialsenescence>,
+
+    [Long COVID: Vascular Biomarkers Correlate with Cognitive and Psychiatric Symptoms],
+    [Clinical Finding], [0.75],
+    [McAlpine et al.~\cite{McAlpine2026vascular} found that vascular biomarkers in neuropsychiatric Long COVID differ from recovered controls and acute COVID-19.
+Elevated endothelial adhesion markers (sL-selectin, ADAMTS13, sP-selectin, sICAM-1) and vascular reactivity proteins (fetuin, α-2 macroglobulin) characterize Long COVID vascular pathology.
+Importantly, coagulation markers (D-dimer, fibrinogen) did not differ from recovered controls, supporting endothelial dysfunction WITHOUT overt coagulopathy.
+These vascular biomarkers correlated with cognitive measures (fluency, verbal learning, memory) and psychiatric symptoms (depression, anxiety), linking endothelial dysfunction to "brain fog."
+Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty: Medium-High).
+] <clinical-findings:mcAlpine2026-cognitive-correlations>,
+
     [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?],
     [OQ], [---],
     [Is HSAT2 elevation restricted to (1) post-viral onset patients with HSF1 activation, (2) patients with accelerated senescence signatures, or (3) patients with specific immune exhaustion phenotypes? Do unstratified case-control studies miss the signal entirely?],
@@ -4712,4 +4786,54 @@ Motivated by: @Evdokimova2019HSAT2exosome (Exosomal HSAT2 transmission in Ewing 
   caption: [Entries added 2026-05-05: HSAT2 exosome research integration --- 2 hypotheses (exosomal HSAT2 transmission, HSAT2 activation pathways), 1 speculation (endothelial ApoExos), 1 open question (HSAT2 subtype restriction). No direct ME/CFS evidence; all mechanisms inferred from cancer literature.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-05-hsat2>
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    stroke: 0.5pt + gray,
+
+    [*Entry*], [*Type*], [*Certainty*], [*Testable Predictions*], [*Test Methods*], [*Source*],
+
+    [Severity-Independent PEM Mechanism],
+    [S], [0.45],
+    [(a) CPET-2 impairment occurs across all severity levels with only magnitude differences. (b) Even mild ME/CFS patients show CPET-2 deterioration. (c) Severity reflects chronicity or cumulative damage rather than PEM mechanism per se.],
+    [Longitudinal 2-day CPET tracking individual patients across severity transitions. Cross-sectional severity-stratified CPET studies.],
+    [Ch.5 @spec:severity-independent-pem],
+
+    [CPET-2 Deterioration as ME/CFS-Specific Signature],
+    [H], [0.60],
+    [(a) ME/CFS patients show CPET-2 deterioration regardless of onset trigger. (b) Long COVID patients meeting ME/CFS criteria show CPET-2 deterioration; those not meeting criteria do not. (c) CPET-2 deterioration magnitude correlates with ME/CFS-specific biomarkers but not fatigue severity in ICF or Long COVID.],
+    [Head-to-head 2-day CPET comparison: ME/CFS vs ICF vs Long COVID. Correlation of CPET-2 decline with immune/metabolic biomarkers.],
+    [Ch.14f @hyp:cpet-2-deterioration-signature],
+
+    [Distinct PEM Pathophysiology in Long COVID vs ME/CFS],
+    [H], [0.50],
+    [(a) Long COVID patients with self-reported PEM show NO CPET-2 deterioration. (b) Long COVID patients meeting full ME/CFS criteria will show CPET-2 deterioration. (c) Longitudinal follow-up: Long COVID patients who develop CPET-2 impairment more likely to meet ME/CFS criteria over time.],
+    [Longitudinal 2-day CPET in Long COVID cohort. Molecular profiling of exercise responses in Long COVID vs ME/CFS.],
+    [Ch.14d @hyp:distinct-pem-pathophysiology-long-covid],
+
+    [Prolonged Epigenetic Recovery in PEM],
+    [H], [0.50],
+    [(a) Healthy controls show fewer/no DNA methylation changes at 48h post-exercise vs ME/CFS. (b) DNA methylation changes at 48h correlate with symptom severity more strongly than at 24h. (c) Extending CPET intervals to 48h shows greater recovery in ME/CFS (less CPET-2 deterioration) vs 24h intervals.],
+    [Multi-timepoint epigenetic profiling (0h, 24h, 48h, 72h) post-CPET. Comparison of 24h vs 48h CPET intervals in ME/CFS.],
+    [Ch.14a @hyp:prolonged-epigenetic-recovery-pem],
+
+    [EV-Mediated Intercellular Signaling in PEM],
+    [S], [0.45],
+    [(a) ME/CFS patient EVs collected post-exercise induce fatigue/metabolic dysfunction in healthy animal models. (b) EV protein cargo differs between ME/CFS and other fatigue conditions even at rest. (c) Symptom severity correlates with specific EV protein concentrations rather than total EV number.],
+    [EV proteomics at rest and post-exercise. Administration of patient EVs to animal models. Comparative EV studies across fatigue conditions.],
+    [Ch.14a @spec:ev-mediated-intercellular-signaling-pem],
+
+    [PEM Recovery Exceeds 24 Hours],
+    [H], [0.55],
+    [(a) ME/CFS patients show incomplete recovery at 24h post-CPET, incremental improvement at 48h/72h, full recovery by 7 days. (b) Healthy controls show full recovery by 24h. (c) Recovery duration correlates with baseline severity. (d) Specific molecular signatures predict time to recovery.],
+    [Multi-timepoint CPET and molecular profiling (24h, 48h, 72h, 7 days). Severity-stratified cohort including bedbound patients.],
+    [Ch.25b @hyp:pem-recovery-exceeds-24h],
+
+  ),
+  caption: [Entries added 2026-05-07: Exercise recovery and PEM duration integration --- 3 hypotheses (CPET-2 signature, distinct Long COVID pathophysiology, prolonged epigenetic recovery, PEM recovery >24h), 2 speculations (severity-independent PEM, EV-mediated signaling). Based on 20-paper literature review including Keller2024CPET, vanCampen2020SeverityCPET, Sharma2025EpigeneticPEM, Giloteaux2024EVExercise, Gattoni2025LongCOVIDCPET.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-07-exercise-recovery>
 ] // end landscape page
