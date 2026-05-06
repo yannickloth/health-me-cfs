@@ -2384,5 +2384,148 @@ The MCAS--ISR bidirectional crosstalk hypothesis (@spec:mcas-isr-crosstalk) gene
 *Certainty that ISR–MCAS pharmacodynamic coupling is real:* 0.15 — entirely speculative at present; no study has measured ISR markers in any MCAS trial. The value is in the low-cost falsifiability of this prediction as an add-on to planned trials.
 ] <oq:isr-mcas-pharmacodynamics>
 
+// ============================================================================
+// SECTION: PEM Recovery Duration Quantification Study
+// ============================================================================
+
+== Multi-Timepoint PEM Recovery Duration Quantification
+<sec:pem-recovery-duration-study>
+
+=== Background and Rationale
+
+A critical gap in ME/CFS research is the absence of systematic data on post-exertional malaise (PEM) recovery duration. All existing 2-day cardiopulmonary exercise testing (CPET) studies use a 24-hour interval between tests without validating that this represents full recovery time @Keller2024CPET @vanCampen2020SeverityCPET @Lim2020CPETMeta. Recent epigenetic evidence suggests molecular recovery processes may continue beyond 24 hours @Sharma2025EpigeneticPEM, raising the possibility that current CPET protocols underestimate true PEM duration.
+
+Clinically, patients report PEM episodes lasting from days to weeks, but no objective studies have quantified time to baseline recovery following a standardized exertional stressor. This gap has important implications for: (1) understanding PEM pathophysiology, (2) developing evidence-based pacing guidance, (3) designing clinical trials with appropriate washout periods, and (4) validating recovery biomarkers.
+
+=== Study Innovation
+
+This is the first study to systematically map PEM recovery kinetics using multiple timepoints and multi-modal assessments:
+
+    - *Extended time course*: CPET and symptom assessments at 24h, 48h, 72h, and 7 days post-exertion
+    - *Molecular recovery tracking*: Epigenetic profiling, metabolomics, and extracellular vesicle analysis at each timepoint
+    - *Severity spectrum*: Inclusion of mild, moderate, and severe patients using home-visit protocols for bedbound participants
+    - *Recovery biomarker identification*: Correlation of molecular markers with functional and symptomatic recovery
+
+=== Hypothesis
+
+#hypothesis(title: [PEM Recovery Exceeds 24 Hours])[
+PEM recovery requires >24 hours for complete functional and molecular restoration in ME/CFS patients, with recovery duration correlating with baseline severity and molecular biomarker trajectories. (Certainty: 0.55)
+
+*Primary Hypothesis.* ME/CFS patients will show incomplete recovery at 24 hours post-CPET, with incremental improvement at 48h and 72h, and full recovery only by 7 days. Healthy controls will show full recovery by 24 hours.
+
+*Secondary Hypotheses.*
+- Epigenetic changes (DNA methylation) will normalize by 48h in healthy controls but remain abnormal at 72h in ME/CFS patients
+- Recovery duration will correlate with baseline severity (mild < moderate < severe)
+- Specific molecular signatures (e.g., DNA methylation patterns, EV protein cargo) will predict time to recovery
+- Bedbound patients will show the most prolonged recovery, possibly exceeding 7 days
+]
+
+=== Study Design
+
+*Design:* Prospective longitudinal cohort study with repeated measures
+
+*Participants:*
+- ME/CFS group: n=60 (20 mild, 20 moderate, 20 severe) meeting ICC criteria
+- Control group: n=20 age-, sex-, and activity-matched healthy sedentary controls
+- Severe patients recruited via home-visit protocols; CPET performed using portable equipment or submaximal protocols
+
+*Inclusion Criteria (ME/CFS):*
+- Age 18-65 years
+- Meet ICC 2011 criteria
+- Stable symptoms for ≥3 months
+- Able to provide informed consent
+
+*Exclusion Criteria:*
+- Other medical conditions explaining fatigue (cardiac, pulmonary, untreated thyroid, anemia)
+- Pregnancy
+- Recent infection (<4 weeks)
+- Medications that significantly affect exercise response (beta-blockers, etc.)
+
+*Intervention:*
+- Standardized CPET protocol on Day 0 (modified for severe patients as needed)
+- Follow-up assessments at 24h, 48h, 72h, and 7 days
+
+*Assessments at Each Timepoint:*
+- Functional: Submaximal CPET (workload at ventilatory threshold, VO2, heart rate, O2 pulse)
+- Symptomatic: DSQ-PEM score, visual analog scales for fatigue, pain, cognitive symptoms
+- Molecular: Blood draw for DNA methylation profiling, plasma metabolomics, extracellular vesicle isolation
+- Autonomic: Heart rate variability, resting heart rate, blood pressure
+
+=== Primary Outcomes
+
+1. *Functional recovery time:* Time to return to within 10% of Day 1 CPET performance (workload at VT, VO2peak)
+2. *Symptom recovery time:* Time to return to within 10% of baseline DSQ-PEM score
+3. *Molecular recovery time:* Time to normalization of DNA methylation patterns (compared to healthy control 24h recovery)
+
+=== Secondary Outcomes
+
+1. Correlation between functional, symptomatic, and molecular recovery times
+2. Relationship between baseline severity and recovery duration
+3. Identification of molecular biomarkers predictive of recovery time
+4. Comparison of recovery patterns between ME/CFS severity subgroups
+5. Validation of EV protein cargo as recovery biomarker
+
+=== Sample Size Justification
+
+Based on pilot data from Sharma et al.\ @Sharma2025EpigeneticPEM showing epigenetic changes persisting to 48h in ME/CFS patients, and assuming a large effect size (d=0.8) for difference in recovery time between ME/CFS and controls, n=60 ME/CFS patients provides 80% power at alpha=0.05. Severity subgroup analysis (n=20 per group) provides 70% power to detect moderate effect sizes (d=0.65) between severity levels.
+
+=== Statistical Analysis
+
+*Primary analysis:* Reasures ANOVA with time as within-subjects factor and group as between-subjects factor. Post-hoc comparisons to identify timepoints at which ME/CFS patients no longer differ from controls.
+
+*Recovery time definition:* Timepoint at which 95% confidence interval for difference from control includes zero (functional recovery) or from baseline includes zero (symptom recovery).
+
+*Correlation analysis:* Pearson correlation between recovery times and baseline severity, molecular biomarker levels.
+
+*Biomarker identification:* Machine learning (random forest) to identify molecular signatures predicting recovery time; cross-validation to prevent overfitting.
+
+=== Ethical Considerations
+
+*Informed consent:* Special procedures for severe patients (home visit consent, caregiver involvement as needed)
+
+*Risk minimization:* CPET protocol modified for severe patients; immediate medical supervision available; early termination criteria
+
+*Compensation:* Participants compensated for time and travel; home visits provided at no cost
+
+*Data safety:* De-identified data storage; limited access to identifiable information
+
+=== Limitations
+
+*Generalizability:* Findings may not apply to pediatric ME/CFS or patients with atypical presentations
+
+*CPET limitation:* Severe patients may not be able to complete maximal CPET; submaximal protocols have different normative data
+
+*Single exertion type:* CPET represents one type of exertion; recovery from cognitive or orthostatic stress may differ
+
+*Observer effects:* Participants aware of being studied may alter activity patterns between assessments
+
+=== Expected Outcomes and Impact
+
+*If hypothesis confirmed:*
+- Establish 24h as insufficient recovery interval for ME/CFS patients
+- Provide evidence-based guidance for extended recovery periods (48-72h minimum)
+- Identify molecular biomarkers for individual recovery time estimation
+- Justify longer washout periods in clinical trials
+
+*If hypothesis falsified (ME/CFS patients recover by 24h):*
+- Challenge patient reports of prolonged PEM
+- Suggest current 24h CPET interval is adequate
+- Indicate that prolonged PEM reflects different mechanisms than CPET-measured recovery
+
+*Either outcome:*
+- Fill critical gap in PEM recovery literature
+- Provide methodological template for future recovery studies
+- Generate valuable dataset on PEM kinetics
+
+=== Timeline and Feasibility
+
+*Duration:* 3 years (1 year recruitment, 1.5 years data collection, 0.5 years analysis)
+
+*Challenges:* Recruitment of severe patients, high participant burden (multiple timepoints), cost of molecular profiling
+
+*Mitigation:* Home-visit protocols, compensation for participant time, phased molecular analysis ( prioritize epigenetics based on pilot data)
+
+*Budget considerations:* Major costs include CPET equipment time, molecular assays (methylation arrays, metabolomics, EV isolation), personnel for home visits and data coordination
+
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"

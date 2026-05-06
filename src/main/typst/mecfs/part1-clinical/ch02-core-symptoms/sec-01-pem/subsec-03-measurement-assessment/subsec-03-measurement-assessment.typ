@@ -5,14 +5,19 @@
 ==== Objective Measurement via Two-Day Cardiopulmonary Exercise Testing
 
 <obs:2day-cpet>
-Two-day cardiopulmonary exercise testing (CPET) provides objective evidence for post-exertional malaise through repeated maximal exercise tests separated by 24 hours @Lim2020. Meta-analysis of five studies (n=98 ME/CFS patients, n=51 controls) demonstrated that ME/CFS patients fail to reproduce Day 1 performance on Day 2, whereas healthy sedentary controls maintain or improve performance. The most sensitive metric, workload at ventilatory threshold (VT), showed significant deterioration in ME/CFS patients (mean change from baseline: -33.0W on Day 2 vs. -10.8W on Day 1, p\<0.05) while controls demonstrated improvement. This pattern has been independently replicated in subsequent larger cohorts exceeding 150 patients @keller2024cpet, establishing 2-day CPET as the gold standard for objective PEM documentation.
+Two-day cardiopulmonary exercise testing (CPET) provides objective evidence for post-exertional malaise through repeated maximal exercise tests separated by 24 hours @Lim2020. Meta-analysis of five studies (n=98 ME/CFS patients, n=51 controls) demonstrated that ME/CFS patients fail to reproduce Day 1 performance on Day 2, whereas healthy sedentary controls maintain or improve performance. The most sensitive metric, workload at ventilatory threshold (VT), showed significant deterioration in ME/CFS patients (mean change from baseline: -33.0W on Day 2 vs. -10.8W on Day 1, p\<0.05) while controls demonstrated improvement. This pattern has been independently replicated in subsequent larger cohorts exceeding 150 patients @Keller2024CPET, establishing 2-day CPET as the gold standard for objective PEM documentation.
+
+The largest 2-day CPET study to date (n=84 ME/CFS, n=71 controls) confirmed that ME/CFS patients show significant declines in work, VO_2, heart rate, and O_2 pulse at peak exertion on Day 2, with intraclass correlations showing greater stability in controls versus ME/CFS patients @Keller2024CPET. Worsening impairment status on CPET-2 translates to tangible reductions in physiological function. Importantly, the 2-day CPET protocol discriminates ME/CFS from idiopathic chronic fatigue (ICF): ICF patients show CPET-2 improvement similar to healthy controls, while ME/CFS patients show deterioration @vanCampen2021FemaleCPET @vanCampen2021MaleCPET. This pattern holds across both sexes, with identical CPET-2 impairment patterns observed in male and female ME/CFS patients @vanCampen2021MaleCPET.
+
 The physiological mechanisms underlying the Day 2 deterioration include:
 
     - *ATP depletion*: Mitochondrial dysfunction prevents normal energy regeneration within 24 hours @Syed2025 @wang2023wasf3
     - *Immune activation*: Exercise triggers pro-inflammatory cytokine release that persists beyond the immediate post-exercise period
     - *Oxidative stress*: Reactive oxygen species accumulate faster than antioxidant systems can neutralize them
     - *Anaerobic threshold shift*: Early shift to anaerobic metabolism indicates impaired mitochondrial oxidative capacity
-    - *Prolonged recovery*: Unlike healthy controls who recover within 48 hours, ME/CFS patients may require 13+ days to return to baseline @keller2024cpet
+    - *Prolonged recovery*: Unlike healthy controls who recover within 48 hours, ME/CFS patients may require 13+ days to return to baseline @Keller2024CPET
+
+A critical limitation of 2-day CPET is the assumption that 24 hours represents full recovery time. No studies have systematically validated this interval, and epigenetic evidence suggests molecular recovery processes may continue beyond 24 hours @Sharma2025EpigeneticPEM. This may underestimate true PEM duration if recovery requires longer than 24 hours. Additionally, all CPET studies exclude patients unable to complete maximal effort or the 2-day protocol, likely underestimating impairment in severe ME/CFS @Snell2013CPET.
 
 #include "hypotheses/hyp-2day-cpet-diagnostic-tool.typ"
 

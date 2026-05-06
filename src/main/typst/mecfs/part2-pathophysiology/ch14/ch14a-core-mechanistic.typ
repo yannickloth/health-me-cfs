@@ -44,6 +44,52 @@ Several mechanisms could prevent normal disengagement:
     - Interventions that “reset” the hypothalamic setpoint might provide benefit
     - The pattern should differ from simple deconditioning in specific, identifiable ways
 
+=== Epigenetic Dynamics and PEM Recovery
+
+Recent evidence suggests that PEM involves temporally dynamic epigenetic changes that may extend well beyond the 24-hour interval used in standard 2-day CPET protocols.
+
+#hypothesis(title: [Prolonged Epigenetic Recovery in PEM])[
+PEM involves ongoing epigenetic remodeling that continues for 48+ hours after exertion, potentially explaining why the standard 24-hour CPET interval may underestimate true recovery time in ME/CFS. (Certainty: 0.50)
+
+*Evidence Base.* In a study of 5 ME/CFS patients, temporally dynamic DNA methylation changes were observed at 0h, 24h, and 48h after CPET @Sharma2025EpigeneticPEM. Ninety-eight percent of differentially methylated fragments were ME/CFS-specific. Early differentially methylated fragments (0-24h) and late differentially methylated fragments (24-48h) suggest ongoing molecular recovery processes beyond 24 hours.
+
+*Mechanistic Implications.* If epigenetic recovery requires 48+ hours, then: (1) the 24-hour CPET interval measures incomplete recovery, (2) symptom duration may track epigenetic rather than metabolic recovery, (3) repeated exertion before epigenetic normalization could cause cumulative dysregulation.
+
+*Clinical Implications.* Current pacing guidance based on 24-hour recovery windows may be insufficient. Patients may need 48+ hour recovery periods between significant exertional events, though individual variation likely exists.
+
+*Research Implications.* Future CPET studies should include 48-hour and 72-hour timepoints to map full recovery kinetics. Epigenetic profiling could serve as a molecular recovery biomarker.
+
+*Limitations.* Very small sample size (n=5). No healthy control group for comparison. Methylation changes may be epiphenomena rather than causative. Does not establish whether epigenetic changes cause symptoms or correlate with them.
+
+*Falsifiable Predictions.*
+- Healthy controls will show fewer or no DNA methylation changes at 48h post-exercise compared to ME/CFS patients
+- DNA methylation changes at 48h will correlate with symptom severity more strongly than changes at 24h
+- Extending CPET intervals to 48h will show greater recovery in ME/CFS patients (less CPET-2 deterioration) compared to standard 24h intervals
+]
+
+=== Extracellular Vesicle Dysregulation in PEM
+
+Exercise affects extracellular vesicle (EV) proteomes differently in ME/CFS compared to healthy controls, suggesting EVs may mediate inter-tissue communication during PEM.
+
+#speculation(title: [EV-Mediated Intercellular Signaling in PEM])[
+Exercise-induced changes in extracellular vesicle protein cargo may contribute to systemic PEM symptoms through dysregulated inter-tissue communication. (Certainty: 0.45)
+
+*Evidence Base.* In a study of 18 ME/CFS vs 17 controls, exercise affected EV proteomes differently in ME/CFS, with changes correlated with symptom severity @Giloteaux2024EVExercise. Involved pathways include coagulation, muscle contraction, immune system, and brain signaling.
+
+*Mechanistic Hypothesis.* ME/CFS patients release EVs with altered protein cargo after exercise that: (1) transmit pro-inflammatory signals to distant tissues, (2) impair muscle function and recovery, (3) affect CNS signaling contributing to neuroinflammation and cognitive symptoms, (4) activate coagulation pathways contributing to microclot formation.
+
+*Clinical Implications.* EV profiling could serve as a minimally invasive PEM biomarker. EV-targeted interventions (e.g., removal via apheresis, modulation of release) might theoretically attenuate PEM severity, though this remains highly speculative.
+
+*Research Implications.* Longitudinal EV profiling throughout PEM episodes could identify temporal patterns. Comparative EV studies across fatigue conditions (ME/CFS, Long COVID, ICF) could identify ME/CFS-specific signatures.
+
+*Limitations.* Small sample size. Does not establish causality—EV changes could be consequence rather than cause of PEM. No functional validation that identified EV proteins actually produce the hypothesized effects.
+
+*Falsifiable Predictions.*
+- ME/CFS patient EVs collected post-exercise will induce fatigue or metabolic dysfunction when administered to healthy animal models
+- EV protein cargo will differ between ME/CFS and other fatigue conditions even at rest
+- Symptom severity will correlate with specific EV protein concentrations rather than total EV number
+]
+
 == Glymphatic/CSF Clearance Failure
 <sec:glymphatic>
 

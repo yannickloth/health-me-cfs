@@ -24,6 +24,27 @@ Large-scale post-COVID data provide indirect quantification relevant to ME/CFS. 
 
 These findings strengthen the case that Long COVID and ME/CFS involve convergent neurocognitive pathology rather than merely coincidental symptom overlap. The ME/CFS cognitive profile—established by meta-analysis (effect sizes $g = -0.55$ to $-0.82$ across domains @Sebaiti2022cognitive) and multi-site objective testing @Lange2024cognitive—is quantitatively comparable to or more severe than post-COVID cognitive impairment, consistent with ME/CFS representing a more established or severe form of the same underlying process (see Chapter @ch:neurological, Section @subsec:cognitive-quantification for detailed analysis).
 
+*PEM and exercise response: a critical divergence.*
+
+Despite overlapping symptom profiles, Long COVID and ME/CFS may differ fundamentally in their response to physical exertion. A 2-day CPET study of 15 Long COVID patients (80% reporting PEM symptoms) found NO differences between Day 1 and Day 2 CPET performance @Gattoni2025LongCOVIDCPET. This null result stands in sharp contrast to the consistent CPET-2 deterioration observed across multiple ME/CFS cohorts @Keller2024CPET @vanCampen2020SeverityCPET @Lim2020CPETMeta.
+
+#hypothesis(title: [Distinct PEM Pathophysiology in Long COVID vs ME/CFS])[
+The absence of 2-day CPET impairment in Long COVID patients reporting PEM symptoms suggests that PEM in Long COVID may have a different pathophysiological basis than PEM in ME/CFS. (Certainty: 0.50)
+
+*Evidence Base.* Long COVID patients with self-reported PEM symptoms show NO Day 2 CPET deterioration @Gattoni2025LongCOVIDCPET, whereas ME/CFS patients consistently show significant CPET-2 declines across multiple studies @Keller2024CPET @vanCampen2020SeverityCPET @Lim2020CPETMeta. Both conditions report subjective PEM symptoms, but only ME/CFS shows the objective CPET-2 signature.
+
+*Alternative Interpretations.* The Long COVID finding could reflect: (1) insufficient sample size (n=15), (2) different disease duration (Long COVID patients earlier in disease course), (3) selection bias (Long COVID patients able to complete CPET may represent a milder subset), or (4) genuine pathophysiological difference.
+
+*Clinical Implications.* If PEM mechanisms differ between Long COVID and ME/CFS, treatment approaches may need to be condition-specific. Exercise-based rehabilitation that might be tolerable for some Long COVID patients could be harmful for ME/CFS patients if the underlying pathophysiology differs.
+
+*Research Implications.* Direct head-to-head comparison studies using identical 2-day CPET protocols are needed. Longitudinal studies tracking Long COVID patients over time could determine whether CPET-2 impairment emerges later in the disease course, suggesting progression toward an ME/CFS-like state.
+
+*Falsifiable Predictions.*
+- Long COVID patients meeting full ME/CFS criteria will show CPET-2 deterioration, while Long COVID patients not meeting ME/CFS criteria will not
+- Longitudinal follow-up of Long COVID patients will show that those who develop CPET-2 impairment are more likely to meet ME/CFS criteria over time
+- Molecular profiling of exercise responses in Long COVID vs ME/CFS will show distinct patterns (e.g., immune activation, metabolic signatures)
+]
+
 *Circulating cell-free mitochondrial DNA: a potential divergence point.*
 Despite clinical overlap, Long COVID and ME/CFS may differ in circulating cell-free mitochondrial DNA (ccf-mtDNA) dynamics. In the EPILOC population-based cohort ($n = 228$), Matits et al.\ @Matits2026cfmtDNA found _reduced_ relative ccf-mtDNA in Long COVID patients ($n = 128$) compared to recovered controls ($n = 100$; partial $eta^2 = 0.01$--$0.02$; $p = 0.089$ with full covariate adjustment, i.e.\ non-significant in the primary analysis; $p = 0.038$ only after excluding high-CRP outliers in a sensitivity analysis). Lower ccf-mtDNA correlated with worse general cognition, while CRP showed no independent association with cognitive function after controlling for ccf-mtDNA. Total cell-free DNA was not elevated, consistent with the reduction being mitochondria-specific rather than reflecting generalized cell death (though alternative explanations such as differential DNA stability or assay-specific effects cannot be excluded). The authors interpret this as impaired mitophagy: damaged mitochondria accumulate intracellularly instead of being released and cleared. A prior case series (Szögi et al.\ @Szogi2024cfmtDNA; $n = 5$ Long COVID, $n = 5$ ciliary dyskinesia controls) also reported reduced ccf-mtDNA alongside mitochondrial ultrastructural abnormalities in Long COVID tissue biopsies; however, this was an extremely small sample with non-standard controls and should be considered preliminary rather than confirmatory.
 

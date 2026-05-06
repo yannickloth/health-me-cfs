@@ -3,7 +3,28 @@
 == Novel Hypotheses from Two-Day CPET Findings
 <sec:cpet-hypotheses>
 
-The objective demonstration of Day 2 metabolic failure in two-day cardiopulmonary exercise testing @keller2024cpet provides unprecedented functional data that suggests several novel therapeutic approaches and previously undocumented biological phenomena. This section explores speculative hypotheses arising directly from these findings.
+The objective demonstration of Day 2 metabolic failure in two-day cardiopulmonary exercise testing @Keller2024CPET provides unprecedented functional data that suggests several novel therapeutic approaches and previously undocumented biological phenomena. This section explores speculative hypotheses arising directly from these findings.
+
+=== CPET as a Disease-Specific Biomarker
+
+Two-day CPET not only documents PEM objectively but also discriminates ME/CFS from other fatigue conditions. In studies comparing ME/CFS patients to idiopathic chronic fatigue (ICF) patients, ME/CFS patients show deterioration on CPET-2 whereas ICF patients show improvement similar to healthy controls @vanCampen2021FemaleCPET @vanCampen2021MaleCPET. This pattern holds across both sexes, with identical CPET-2 impairment patterns observed in male and female ME/CFS patients @vanCampen2021MaleCPET.
+
+#hypothesis(title: [CPET-2 Deterioration as ME/CFS-Specific Signature])[
+The characteristic failure to reproduce CPET-1 performance on CPET-2 represents a disease-specific signature that distinguishes ME/CFS from other fatigue conditions and potentially from post-COVID conditions with overlapping symptomatology. (Certainty: 0.60)
+
+*Evidence Base.* ME/CFS patients show CPET-2 deterioration across multiple studies @Keller2024CPET @vanCampen2021FemaleCPET @vanCampen2021MaleCPET, whereas ICF patients show CPET-2 improvement similar to healthy controls @vanCampen2021FemaleCPET @vanCampen2021MaleCPET. Long COVID patients with PEM symptoms do NOT show the same 2-day CPET pattern @Gattoni2025LongCOVIDCPET.
+
+*Clinical Implications.* CPET-2 could serve as an objective diagnostic biomarker to distinguish ME/CFS from: (1) idiopathic chronic fatigue, (2) deconditioning, (3) psychiatric fatigue, (4) Long COVID fatigue. This addresses a critical diagnostic gap where current criteria rely on subjective symptom reports.
+
+*Research Implications.* The pathophysiological basis for CPET-2 deterioration in ME/CFS but not in ICF or Long COVID represents a key differentiating mechanism. Comparative studies of the molecular and physiological responses to Day 1 exercise in these three groups could identify the unique ME/CFS pathway.
+
+*Limitations.* CPET-2 is not clinically accessible for most patients due to cost, equipment requirements, and the exertional challenge it poses. The protocol excludes the most severely affected patients who cannot complete maximal exercise @Snell2013CPET. Cross-sectional studies cannot establish whether CPET-2 deterioration is a stable trait or varies with disease course.
+
+*Falsifiable Predictions.*
+- Patients meeting ME/CFS criteria will show CPET-2 deterioration regardless of onset trigger (infectious vs. non-infectious)
+- Patients with Long COVID meeting ME/CFS criteria will show CPET-2 deterioration, while Long COVID patients not meeting ME/CFS criteria will not
+- CPET-2 deterioration magnitude will correlate with other objective ME/CFS biomarkers (e.g., immune signatures, metabolic profiles) but not with fatigue severity in ICF or Long COVID
+]
 
 === The Autonomic-Mitochondrial Feedback Loop
 <subsec:autonomic-mito-loop>

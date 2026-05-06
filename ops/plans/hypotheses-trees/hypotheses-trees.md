@@ -95,6 +95,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | csf-drainage          | [subtrees/csf-drainage.md](subtrees/csf-drainage.md)                  | 2026-04-14      | 27         | 0          | ⬜ stub        |
 | energy-cartography    | [subtrees/energy-cartography.md](subtrees/energy-cartography.md)      | 2026-04-11      | 20         | 0          | ⬜ stub        |
 | epigenetics           | [subtrees/epigenetics.md](subtrees/epigenetics.md)                    | 2026-04-26      | 27         | 0          | ⬜ stub        |
+| exercise-recovery-pem  | [subtrees/exercise-recovery-pem.md](subtrees/exercise-recovery-pem.md)  | 2026-05-07      | 21         | 21         | ✅ done        |
 | exercise-blinding     | [subtrees/exercise-blinding.md](subtrees/exercise-blinding.md)        | 2026-04-21      | 20         | 0          | ⬜ stub        |
 | funcap                | [subtrees/funcap.md](subtrees/funcap.md)                              | 2026-04-23      | 36         | 0          | ⬜ stub        |
 | G7-mito-pdh           | [subtrees/G7-mito-pdh.md](subtrees/G7-mito-pdh.md)                   | 2026-04-12      | 30         | 0          | ⬜ stub        |
