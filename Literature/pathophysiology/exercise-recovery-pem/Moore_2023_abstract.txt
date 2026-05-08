@@ -1,0 +1,53 @@
+1. Medicina (Kaunas). 2023 Mar 15;59(3):571. doi: 10.3390/medicina59030571.
+
+Recovery from Exercise in Persons with Myalgic Encephalomyelitis/Chronic Fatigue 
+Syndrome (ME/CFS).
+
+Moore GE(1), Keller BA(1)(2), Stevens J(3), Mao X(4), Stevens SR(3), Chia JK(5), 
+Levine SM(6), Franconi CJ(1), Hanson MR(1).
+
+Author information:
+(1)Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY 
+14853, USA.
+(2)Department of Exercise Science & Athletic Training, Ithaca College, Ithaca, 
+NY 14850, USA.
+(3)Workwell Foundation, Ripon, CA 95366, USA.
+(4)Department of Radiology, Weill Cornell Medical College, New York, NY 10021, 
+USA.
+(5)EVMED Research, Torrance, CA 90505, USA.
+(6)Medical Office of Susan Levine, Manhattan, NY 10021, USA.
+
+Background and Objectives: Post-exertional malaise (PEM) is the hallmark of 
+myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), but there has been 
+little effort to quantitate the duration of PEM symptoms following a known 
+exertional stressor. Using a Symptom Severity Scale (SSS) that includes nine 
+common symptoms of ME/CFS, we sought to characterize the duration and severity 
+of PEM symptoms following two cardiopulmonary exercise tests separated by 24 h 
+(2-day CPET). Materials and Methods: Eighty persons with ME/CFS and 64 controls 
+(CTL) underwent a 2-day CPET. ME/CFS subjects met the Canadian Clinical Criteria 
+for diagnosis of ME/CFS; controls were healthy but not participating in regular 
+physical activity. All subjects who met maximal effort criteria on both CPETs 
+were included. SSS scores were obtained at baseline, immediately prior to both 
+CPETs, the day after the second CPET, and every two days after the CPET-1 for 10 
+days. Results: There was a highly significant difference in judged recovery time 
+(ME/CFS = 12.7 ± 1.2 d; CTL = 2.1 ± 0.2 d, mean ± s.e.m., Chi2 = 90.1, p < 
+0.0001). The range of ME/CFS patient recovery was 1-64 days, while the range in 
+CTL was 1-10 days; one subject with ME/CFS had not recovered after one year and 
+was not included in the analysis. Less than 10% of subjects with ME/CFS took 
+more than three weeks to recover. There was no difference in recovery time based 
+on the level of pre-test symptoms prior to CPET-1 (F = 1.12, p = 0.33). Mean SSS 
+scores at baseline were significantly higher than at pre-CPET-1 (5.70 ± 0.16 vs. 
+4.02 ± 0.18, p < 0.0001). Pharmacokinetic models showed an extremely prolonged 
+decay of the PEM response (Chi2 > 22, p < 0.0001) to the 2-day CPET. 
+Conclusions: ME/CFS subjects took an average of about two weeks to recover from 
+a 2-day CPET, whereas sedentary controls needed only two days. These data 
+quantitate the prolonged recovery time in ME/CFS and improve the ability to 
+obtain well-informed consent prior to doing exercise testing in persons with 
+ME/CFS. Quantitative monitoring of PEM symptoms may provide a method to help 
+manage PEM.
+
+DOI: 10.3390/medicina59030571
+PMCID: PMC10059925
+PMID: 36984572 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
