@@ -191,6 +191,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | pending-hypotheses    | [subtrees/pending-hypotheses.md](subtrees/pending-hypotheses.md)        | (various)       | 0          | 0          | ⬜ stub        |
 | clinical-case-integration | [subtrees/clinical-case-integration.md](subtrees/clinical-case-integration.md) | 2026-04 | 0 | 0 | ⬜ stub |
 | megc-integration      | [subtrees/megc-integration.md](subtrees/megc-integration.md)            | (no date)       | 0          | 0          | ⬜ stub        |
+| tspe-pet-imaging    | [subtrees/tspo-pet-imaging.md](subtrees/tspo-pet-imaging.md)        | 2026-05-07      | 35         | 3          | ✅ integrated|
 
 ---
 

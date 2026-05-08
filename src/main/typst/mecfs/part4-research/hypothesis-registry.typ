@@ -22,7 +22,6 @@ is intended as a navigational aid for researchers designing studies and as a
 completeness check ensuring that every major mechanistic claim in the document
 has a corresponding proposed test.  Entries are grouped by mechanism domain and
 ordered within domains from highest to lowest certainty.
-]
 
 === Notation
 
@@ -37,7 +36,7 @@ _Dual certainty notation_ (e.g., 0.50/0.35): first value is certainty in the cla
 // Legacy LaTeX block removed 2026-05-03. Migration complete 2026-05-03:
 // 21 entries referenced from chapter files migrated to Typst registry tables below.
 // 38 unreferenced legacy entries deleted.
-
+]
 
 === Entries Added 2026-03-21: Immune Null Findings and Creative Hypotheses
 
@@ -584,7 +583,7 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
     [Carotid Body Sensitization as a Reversible Amplifier of Orthostatic Symptoms in ME/CFS],
     [S], [0.25],
     [(a) HVR (hypoxic ventilatory response) to 15% O#sub[2] is elevated in ME/CFS vs healthy controls. (b) Gefapixant (P2X3 antagonist) reduces HVR in ME/CFS within 2 weeks. (c) Reduced HVR correlates with improvement in orthostatic symptom scores and PETCO#sub[2] trajectories during tilt.],
-    [HVR measurement with El-Medany carotid body protocol in ME/CFS — not done; 30-min test per patient. Gefapixant has established safety record (chronic cough trials). P2X3 antagonism + tilt PETCO#sub[2] measurement — feasible. Long COVID carotid body data @ElMedany2024carotid requires replication in formal ME/CFS.],
+    [HVR measurement with El-Medany carotid body protocol in ME/CFS — not done; 30-min test per patient. Gefapixant has established safety record (chronic cough trials). P2X3 antagonism + tilt PETCO#sub[2] measurement — feasible. Long COVID carotid body data  requires replication in formal ME/CFS.],
     [Ch.18 @spec:carotid-body-mecfs],
 
     [Inspiratory Muscle Training (IMT) as a PEM-Safe Autonomic Intervention in ME/CFS],
@@ -608,19 +607,19 @@ Motivated by: Nunes et al.\ 2026 endothelial senescence paper; Scheibenbogen-Wir
     [Taurine as Downstream Support in the AIMM Cascade],
     [S], [0.30],
     [(a) Taurine supplementation (1--2 g/day, 12 weeks) reduces post-exertional sodium accumulation measured by sodium MRI in patients with documented intracellular sodium overload. (b) Null result expected in patients without intracellular sodium overload (AIMM-negative phenotype). (c) Serum taurine levels do not predict mitochondrial outcomes (consistent with Marcangeli 2025 null result; compartment-specific depletion may be at issue).],
-    [Sodium MRI protocol @Petter2022sodium as endpoint---feasible but specialist equipment required. PEM diary + DSQ-2 as clinical endpoint. No ME/CFS taurine supplementation RCT exists. Cardiac analog (heart failure, 11 studies) non-significant @McGurk2022taurineHFreview. ME/CFS metabolomics show disturbed taurine pathway @Germain2017taurineME but not measured depletion.],
+    [Sodium MRI protocol  as endpoint---feasible but specialist equipment required. PEM diary + DSQ-2 as clinical endpoint. No ME/CFS taurine supplementation RCT exists. Cardiac analog (heart failure, 11 studies) non-significant . ME/CFS metabolomics show disturbed taurine pathway  but not measured depletion.],
     [Ch.16 @spec:taurine-aimm; Ch.6 @sec:calcium-dysregulation],
 
     [Taurine Status as Determinant of AIMM Severity Heterogeneity],
     [S], [0.30],
     [(a) Intracellular taurine (RBC lysate or muscle biopsy) inversely correlates with post-exercise sodium accumulation on sodium MRI in ME/CFS patients. (b) Taurine supplementation (2 g/day, 8 weeks) reduces intracellular sodium rise in patients with documented sodium overload.],
-    [No study has simultaneously measured intracellular taurine and sodium accumulation in ME/CFS. Sodium MRI protocol established @Petter2022sodium. RBC taurine assay feasible with standard amino acid analysis.],
+    [No study has simultaneously measured intracellular taurine and sodium accumulation in ME/CFS. Sodium MRI protocol established . RBC taurine assay feasible with standard amino acid analysis.],
     [Ch.6 @spec:taurine-aimm-heterogeneity; Ch.16 @sec:taurine],
 
     [Bile Acid Conjugation Competition Diverts Taurine from Cytoprotective Roles],
     [S], [0.20],
     [(a) ME/CFS patients have higher taurine-conjugated to glycine-conjugated bile acid ratio than controls. (b) Glycine co-supplementation raises free plasma taurine more than equivalent taurine supplementation alone.],
-    [Germain 2017 found both taurine and bile acid pathways disturbed @Germain2017taurineME ---independent signals or coupled? Direction of bile acid pathway disturbance unspecified. Bile acid profile + free taurine + microbiome assay is feasible and low cost.],
+    [Germain 2017 found both taurine and bile acid pathways disturbed  ---independent signals or coupled? Direction of bile acid pathway disturbance unspecified. Bile acid profile + free taurine + microbiome assay is feasible and low cost.],
     [Ch.16 @spec:taurine-bile-competition],
   ),
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from taurine integration (2026-04-16). Covers AIMM-cascade support, heterogeneity mechanism, and bile acid competition hypothesis.],
@@ -655,7 +654,7 @@ Motivated by: McAlpine et al. 2026 vascular biomarker-cognition study; extension
 
     [Temporal Evolution of Vascular Biomarkers Predicts ME/CFS Recovery Trajectory],
     [H], [0.35],
-    [(a) Longitudinal ME/CFS cohorts show declining endothelial biomarker levels over time despite persistent symptoms in chronic cases. (b) Early-stage ME/CFS patients (<12 months) respond better to anti-endothelial therapies than chronic-stage patients (>3 years). (c) Vascular biomarker levels predict treatment response to senolytics or glycocalyx restoration therapies.],
+    [(a) Longitudinal ME/CFS cohorts show declining endothelial biomarker levels over time despite persistent symptoms in chronic cases. (b) Early-stage ME/CFS patients (less than 12 months) respond better to anti-endothelial therapies than chronic-stage patients (greater than 3 years). (c) Vascular biomarker levels predict treatment response to senolytics or glycocalyx restoration therapies.],
     [Longitudinal ME/CFS cohort: serial vascular biomarker measurement at 6, 12, 24, 36 months post-onset. Early vs late-stage therapeutic response comparison. Biomarker-stratified clinical trial design.],
     [Ch.14 @hyp:vascular-biomarker-temporal],
 
@@ -673,6 +672,7 @@ Motivated by: McAlpine et al. 2026 vascular biomarker-cognition study; extension
   ),
   kind: table, supplement: [Table], caption: [Hypothesis registry entries from vascular biomarker integration (2026-05-07). Covers cognitive correlations, biomarker temporal evolution, therapeutic implications, and precision stratification approaches.],
 ) <tab:hypothesis-registry-2026-05-07-vascular-biomarkers>
+]
 
 === Entries Added 2026-04-17: Universal Mechanism Families Survey (ch17)
 
@@ -842,7 +842,7 @@ Motivated by: systematic research on lithium, valproate, anticonvulsants, and th
     [Pyridostigmine + T3 + Lithium Triple-Target for Autonomic-Primary ME/CFS],
     [S], [0.30],
     [Three agents at three anatomical levels: peripheral effector (pyridostigmine), axonal myelination (T3), central neuroprotection (lithium). (a) Combination > monotherapy for orthostatic tolerance improvement.],
-    [Framing oversimplified (see limitations). Never tested in any condition. Pyridostigmine RCT exists for ME/CFS @Joseph2022pyridostigmine; T3 and lithium unvalidated in ME/CFS.],
+    [Framing oversimplified (see limitations). Never tested in any condition. Pyridostigmine RCT exists for ME/CFS ; T3 and lithium unvalidated in ME/CFS.],
     [Ch.14i @spec:triple-autonomic],
 
     [Pyridostigmine as Anti-Kindling Agent by Proxy],
@@ -1252,7 +1252,7 @@ requiring expertise outside ME/CFS scope.
     [Microbiome intervention trial with concurrent vagal tone monitoring (HRV) and inflammatory markers. Requires validated fecal butyrate measurement at baseline and follow-up. No ME/CFS study with this combined endpoint design exists (2026).],
     [Ch.18 @spec:gut-vagal-cfibre],
   ),
-  kind: table, supplement: [Table], caption: [VNS fiber-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026 @Bu2026VNSReview — first comprehensive anatomical characterization of vagal fiber-class recruitment thresholds and implications for neuromodulation specificity.],
+  kind: table, supplement: [Table], caption: [VNS fiber-selectivity speculations added 2026-04-10, motivated by Bu et al.\ 2026  — first comprehensive anatomical characterization of vagal fiber-class recruitment thresholds and implications for neuromodulation specificity.],
 ) <tab:hypothesis-registry-vns-fibre-2026-04-10>
 
 === Ch18 Therapeutic Framework Hypotheses Registry Entries (2026-04-11)
@@ -1274,7 +1274,7 @@ requiring expertise outside ME/CFS scope.
     [Cellular Danger Response Persistence],
     [H], [0.25],
     [A sham-controlled trial of antipurinergic therapy in ME/CFS will show significant reduction in post-exertional symptom severity relative to sham, SMD #sym.gt 0.4.],
-    [Sham-controlled trial of suramin or P2X/P2Y antagonist. Relevant: autism suramin pilot @Naviaux2018suraminpilot; ME/CFS trial not conducted (2026).],
+    [Sham-controlled trial of suramin or P2X/P2Y antagonist. Relevant: autism suramin pilot ; ME/CFS trial not conducted (2026).],
     [Ch.18 @sec:novel-frameworks],
 
     [Glymphatic Dysfunction and Neuroinflammatory Persistence],
@@ -1311,13 +1311,13 @@ requiring expertise outside ME/CFS scope.
     [PDC Cofactor Depletion as Untested Therapeutic Target],
     [Spec], [0.35],
     [Individual cofactor tests (erythrocyte transketolase for thiamine; EGRAC for riboflavin; alpha-lipoic acid plasma) will each identify a distinct ME/CFS subgroup with abnormal status; combined deficiency will be more prevalent than any single deficiency alone. Supplementation targeting the identified cofactor(s) will normalize lactate/pyruvate ratio and acylcarnitine profiles.],
-    [Functional cofactor assays (erythrocyte transketolase, EGRAC, plasma lipoic acid) assessed individually per patient in a ME/CFS cohort; open-label supplementation pilot stratified by deficiency type. No formal trial exists (2026) @Maksoud2021nutraceuticals.],
+    [Functional cofactor assays (erythrocyte transketolase, EGRAC, plasma lipoic acid) assessed individually per patient in a ME/CFS cohort; open-label supplementation pilot stratified by deficiency type. No formal trial exists (2026) .],
     [Ch.6 @spec:pdc-cofactors],
 
     [PGC-1α Suppression Blocks Mitochondrial Biogenesis Recovery],
     [H], [0.40],
     [PGC-1α protein and mRNA will be lower in ME/CFS skeletal muscle biopsies than in matched controls, correlating with disease severity and MnSOD level. Sub-exercise-dose PGC-1α agonists will partially restore MnSOD expression and mitochondrial density.],
-    [Skeletal muscle biopsy with PGC-1α quantification (IHC or qPCR); correlation with Shankar 2025 MnSOD data @Shankar2025oxidativestress. No measurement in ME/CFS tissue exists (2026).],
+    [Skeletal muscle biopsy with PGC-1α quantification (IHC or qPCR); correlation with Shankar 2025 MnSOD data . No measurement in ME/CFS tissue exists (2026).],
     [Ch.6 @hyp:pgc1alpha-suppression],
 
     [NAD#super[+]--Sirtuin--Acetylation Hub: Unified Upstream Regulator of G22, G34, and G39],
@@ -1328,50 +1328,50 @@ requiring expertise outside ME/CFS scope.
 
     [Brain PCr Depletion as Molecular Mechanism for Selective Energy Dysfunction],
     [Spec], [0.30],
-    [Brain-specific creatine depletion (Godlewska 2025, 7T MRS @Godlewska2025MRS) with normal muscle creatine loading (@Ostojic2016GAA) maps onto the selective energy dysfunction pattern (@hyp:selective-energy). The PCr shuttle is the sole millisecond-timescale ATP delivery system; its depletion in brain but not muscle predicts CNS-dependent demand-responsive failures (cognition, autonomic coordination) alongside preserved autonomous peripheral functions.],
+    [Brain-specific creatine depletion (Godlewska 2025, 7T MRS ) with normal muscle creatine loading () maps onto the selective energy dysfunction pattern (@hyp:selective-energy). The PCr shuttle is the sole millisecond-timescale ATP delivery system; its depletion in brain but not muscle predicts CNS-dependent demand-responsive failures (cognition, autonomic coordination) alongside preserved autonomous peripheral functions.],
     [Brain-creatine-to-muscle-creatine ratio (brain 1H-MRS + muscle 31P-MRS in the same participants) will be lower in ME/CFS than controls. Patients with the lowest brain/muscle creatine ratio should show the greatest cognitive impairment relative to physical capacity. Never measured within one ME/CFS cohort (2026).],
     [Ch.6 @spec:brain-pcr-selective-energy],
 
     [The "Invisible Bottleneck": ANT Blockade Explains Normal Respirometry with Abnormal Energy],
     [H], [0.45],
-    [If ANT is blocked (autoantibody, nitrosylation, or structural damage), ATP accumulates in the matrix while ETC continues consuming oxygen normally. Patient can have *normal OCR* but *abnormal cytosolic ATP*. Schulze 1999: anti-ANT raised mitochondrial ATP/ADP 4× while cytosolic fell 56% @SchulzeEtAl1999. Several studies show relatively preserved respirometry, yet patients have a functional energy deficit; this resolves that paradox.],
+    [If ANT is blocked (autoantibody, nitrosylation, or structural damage), ATP accumulates in the matrix while ETC continues consuming oxygen normally. Patient can have *normal OCR* but *abnormal cytosolic ATP*. Schulze 1999: anti-ANT raised mitochondrial ATP/ADP 4× while cytosolic fell 56% . Several studies show relatively preserved respirometry, yet patients have a functional energy deficit; this resolves that paradox.],
     [Compartment-specific ATP sensors (ATeam or iATPSnFR) in ME/CFS cells: mitochondrial-to-cytosolic ATP ratio >2 SD above controls in ≥20% of cases, even when Seahorse OCR is within normal range. Not yet tested in ME/CFS (2026).],
     [Ch.6 @hyp:invisible-bottleneck],
 
     [ANT Autoantibody-Mediated ATP Trapping as a Unifying ME/CFS Energy Lesion],
     [Spec], [0.30],
-    [≥10% of ME/CFS patients (ICC criteria) will test positive for anti-ANT1 antibodies using human cardiac ANT1-specific ELISA, vs $<$2% of matched controls. Animal-model precedent: anti-ANT antibodies reduce cytosolic ATP/ADP by 56% and elevate mitochondrial ATP/ADP fourfold in Coxsackie B3 myocarditis @SchulzeEtAl1999. Note: anti-ANT is *not* AMA-M4 (which targets sulfite oxidase); requires dedicated ANT1-protein ELISA with C-terminal/M2-M3 loop epitopes @ManchadoEtAl2002. General AMA @NilssonEtAl2020 and REAP @GermainEtAl2025 negative results do not close G28.],
-    [Human cardiac ANT1-specific ELISA in ME/CFS cohort (n≥50); antigen must include C-terminal + M2/M3 loop regions. Assay established in DCM context @SchultheissBolte1985 @TakemotoEtAl1993. Never applied to ME/CFS (2026). If confirmed, immunoadsorption already piloted for GPCR antibodies in ME/CFS @WohlrabEtAl2025.],
+    [≥10% of ME/CFS patients (ICC criteria) will test positive for anti-ANT1 antibodies using human cardiac ANT1-specific ELISA, vs $<$2% of matched controls. Animal-model precedent: anti-ANT antibodies reduce cytosolic ATP/ADP by 56% and elevate mitochondrial ATP/ADP fourfold in Coxsackie B3 myocarditis . Note: anti-ANT is *not* AMA-M4 (which targets sulfite oxidase); requires dedicated ANT1-protein ELISA with C-terminal/M2-M3 loop epitopes . General AMA  and REAP  negative results do not close G28.],
+    [Human cardiac ANT1-specific ELISA in ME/CFS cohort (n≥50); antigen must include C-terminal + M2/M3 loop regions. Assay established in DCM context  . Never applied to ME/CFS (2026). If confirmed, immunoadsorption already piloted for GPCR antibodies in ME/CFS .],
     [Ch.6 @spec:ant-autoantibody-atp-trapping],
 
     [ISCU Dysfunction as Multi-Enzyme Iron-Sulfur Failure],
     [OQ], [---],
     [Is iron-sulfur cluster assembly (ISCU) impaired in ME/CFS, producing simultaneous failure of aconitase, Complex I, Complex II, and ETF-QO --- amplifying any primary ETC dysfunction?],
-    [ISCU protein measurement (WB/IHC) in ME/CFS muscle biopsy; ISCU mutation screening; aconitase activity assay. Clinical features of ISCU myopathy (exercise intolerance, lactic acidosis, myoglobinuria) overlap with ME/CFS. ISCU has never been studied in ME/CFS (2026); general mitochondrial dysfunction evidence: @MorrisMaes2014mitochondria.],
+    [ISCU protein measurement (WB/IHC) in ME/CFS muscle biopsy; ISCU mutation screening; aconitase activity assay. Clinical features of ISCU myopathy (exercise intolerance, lactic acidosis, myoglobinuria) overlap with ME/CFS. ISCU has never been studied in ME/CFS (2026); general mitochondrial dysfunction evidence: .],
     [Ch.6 @sec:step5-krebs],
 
     [Is Wound Healing Actually Impaired in ME/CFS?],
     [OQ], [---],
-    [No study has directly measured wound healing in ME/CFS. Mechanistic evidence from three independent pathways — NK cell dysfunction (cytotoxicity reduced, Hedges' $g = 0.96$ @Baraniuk2024NKMeta; NK cells regulate wound healing via IFN-γ/GM-CSF @Sobecki2021NKWoundHypoxia; TGF-β disrupts NK-MSC temporal cycling @Petri2017MSCNKTGFb), sympathetic overactivation impairing reepithelialization @Xue2018ANSWoundHealing, and immune exhaustion phenotype @Stanojcic2016ImmuneExhaustionBurns — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. However, wound healing is not a prominent clinical complaint in ME/CFS. Possible explanations: subclinical impairment masked by low wound burden in sedentary patients; compensatory fibrosis; or genuinely preserved healing through uncharacterized mechanisms.],
+    [No study has directly measured wound healing in ME/CFS. Mechanistic evidence from three independent pathways — NK cell dysfunction (cytotoxicity reduced, Hedges' $g = 0.96$ ; NK cells regulate wound healing via IFN-γ/GM-CSF ; TGF-β disrupts NK-MSC temporal cycling ), sympathetic overactivation impairing reepithelialization , and immune exhaustion phenotype  — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. However, wound healing is not a prominent clinical complaint in ME/CFS. Possible explanations: subclinical impairment masked by low wound burden in sedentary patients; compensatory fibrosis; or genuinely preserved healing through uncharacterized mechanisms.],
     [Three-arm standardized suction blister wound healing assay: ME/CFS patients ($n = 40$) vs sedentary healthy controls ($n = 20$) vs disease controls (FM/MS, $n = 20$), measuring reepithelialization time, histological scar quality, and blister fluid cytokine profiles. Would directly test whether the selective energy dysfunction hypothesis (@hyp:selective-energy) correctly excludes wound healing from spared functions. Never studied (2026).],
     [Ch.6 @oq:wound-healing-mecfs],
 
     [Systemic Tissue Repair Deficit: NK Cells as Repair Coordinators Beyond Skin],
     [Spec], [0.40],
-    [If NK cells are upstream regulators of wound healing (@Sobecki2021NKWoundHypoxia) and ME/CFS NK cytotoxicity is halved (@Baraniuk2024NKMeta), the repair deficit should extend to all NK-dependent tissue maintenance: mucosal barrier repair (gut permeability), muscle damage repair (PEM duration), and endothelial repair. Unifies multiple separate pathophysiological findings under a single upstream cause.],
+    [If NK cells are upstream regulators of wound healing () and ME/CFS NK cytotoxicity is halved (), the repair deficit should extend to all NK-dependent tissue maintenance: mucosal barrier repair (gut permeability), muscle damage repair (PEM duration), and endothelial repair. Unifies multiple separate pathophysiological findings under a single upstream cause.],
     [Gut mucosal repair rate (serial lactulose-mannitol permeability after standardized challenge) should correlate with NK cytokine secretion capacity (stimulated IFN-γ/GM-CSF, $r > 0.4$) — not NK cytotoxicity, which is a related but distinct function. Never tested in ME/CFS (2026).],
     [Ch.6 @spec:systemic-repair-deficit],
 
     [Autonomic Macrophage Polarisation as Unifying Tissue Repair Mechanism],
     [Spec], [0.45],
-    [Sympathetic overactivation favors CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favors CD64+CCR2- pro-repair macrophages (@Xue2018ANSWoundHealing). ME/CFS autonomic imbalance would bias macrophage polarization toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
+    [Sympathetic overactivation favors CD64+CCR2+ pro-inflammatory anti-repair macrophages; parasympathetic activation favors CD64+CCR2- pro-repair macrophages (). ME/CFS autonomic imbalance would bias macrophage polarization toward anti-repair across ALL tissues — brain (M1 microglia), gut, muscle, skin. VNS and beta-blockers may improve tissue repair via this mechanism.],
     [ME/CFS patients with higher sympathetic tone (lower HF-HRV) should show slower wound healing, more neuroinflammation (PET), and worse gut permeability, all correlating with the same ANS measure. Not yet tested (2026).],
     [Ch.6 @spec:autonomic-macrophage-repair],
 
     [PDK Upregulation as Protective Response to ROS],
     [Spec], [0.45],
     [In a stratified DCA trial: patients with low MnSOD/GPX4 will worsen (higher F2-isoprostanes, worse PEM); patients with normal antioxidant status will improve. DCA + NAC + CoQ10 + riboflavin will outperform DCA monotherapy.],
-    [Stratified DCA pilot (n=40), stratified by MnSOD + GPX4 + F2-isoprostanes at baseline. No ME/CFS DCA trial has been stratified by antioxidant status. Motivated by @Shankar2025oxidativestress and @Comhaire2018DCA.],
+    [Stratified DCA pilot (n=40), stratified by MnSOD + GPX4 + F2-isoprostanes at baseline. No ME/CFS DCA trial has been stratified by antioxidant status..],
     [Ch.6 @spec:pdk-protective],
 
     [PEM Timing Reflects ISR/mtUPR Kinetics],
@@ -1383,13 +1383,13 @@ requiring expertise outside ME/CFS scope.
     [Riboflavin FAD as Multi-Step Master Rate-Limiter],
     [Spec], [0.42],
     [EGRAC ≥1.3 in ≥30% ME/CFS vs \<10% controls; elevated C4--C18 acylcarnitines in EGRAC-high patients; riboflavin 400 mg/day normalises EGRAC and reduces lactate/pyruvate in responders.],
-    [EGRAC functional assay (cheap, standardized). Riboflavin 400 mg open-label pilot with EGRAC stratification. Never done in ME/CFS. MADD provides disease precedent @Maksoud2021nutraceuticals.],
+    [EGRAC functional assay (cheap, standardized). Riboflavin 400 mg open-label pilot with EGRAC stratification. Never done in ME/CFS. MADD provides disease precedent .],
     [Ch.6 @spec:riboflavin-master],
 
     [Cardiolipin Peroxidation as ROS Damage Convergence Point],
     [Spec], [0.30],
     [Plasma CLox >2× control in moderate-severe ME/CFS; elamipretide 12-week trial reduces F2-isoprostanes and CLox and improves 6MWT in CLox-high responders.],
-    [Plasma oxidized cardiolipin LC-MS (not routine; requires specialist lab). Elamipretide trial feasibility. Motivated by Molnar et al. @Molnar2024LCmitochondria and @Shankar2025oxidativestress.],
+    [Plasma oxidized cardiolipin LC-MS (not routine; requires specialist lab). Elamipretide trial feasibility. Motivated by Molnar et al.  and .],
     [Ch.6 @spec:cardiolipin-peroxidation],
 
     [KGDHC Cofactor Failure Compounds PDC Dysfunction],
@@ -1440,7 +1440,7 @@ requiring expertise outside ME/CFS scope.
     [EGRAC measured alongside F2-isoprostanes and GSSG/GSH ratio; riboflavin dose-response with and without NAC co-administration. EGRAC not yet measured in ME/CFS (2026). See @oq:riboflavin-consumption-vs-supply.],
     [Ch.6 Step 6],
   ),
-  kind: table, supplement: [Table], caption: [Chapter 6 energy-metabolism failure-cartography entries (added 2026-04-11; updated 2026-04-12 with three Phase 3 brainstorm-derived entries): one hypothesis (PGC-1α suppression, H, certainty 0.40); seven speculations (PDC cofactor depletion, PDK upregulation as protective, PEM timing as ISR kinetics, riboflavin FAD master rate-limiter, cardiolipin peroxidation convergence, aconitase--ferroptosis iron bridge, itaconate--NRF2 paradox); eight open questions (ANT autoantibodies, ISCU dysfunction, KGDHC cofactor failure, CPT1/malonyl-CoA regulation, NRF2 pathway suppression, PRDX3/thioredoxin system, UCP2/UCP3 upregulation, riboflavin consumption vs supply) — sixteen entries total. Motivated by @Fluge2016, @Shankar2025oxidativestress, @Maksoud2021nutraceuticals, @MorrisMaes2014mitochondria, @Molnar2024LCmitochondria, @Kennedy2005isoprostanes, @Robinson2010isoprostanes.],
+  kind: table, supplement: [Table], caption: [Chapter 6 energy-metabolism failure-cartography entries (added 2026-04-11; updated 2026-04-12 with three Phase 3 brainstorm-derived entries): one hypothesis (PGC-1α suppression, H, certainty 0.40); seven speculations (PDC cofactor depletion, PDK upregulation as protective, PEM timing as ISR kinetics, riboflavin FAD master rate-limiter, cardiolipin peroxidation convergence, aconitase--ferroptosis iron bridge, itaconate--NRF2 paradox); eight open questions (ANT autoantibodies, ISCU dysfunction, KGDHC cofactor failure, CPT1/malonyl-CoA regulation, NRF2 pathway suppression, PRDX3/thioredoxin system, UCP2/UCP3 upregulation, riboflavin consumption vs supply) — sixteen entries total..],
 ) <tab:hypothesis-registry-ch06-cartography-2026-04-11>
 
 === Entries Added 2026-04-12: Ch06 Gap Brainstorm Integration (Session 12)
@@ -1576,29 +1576,29 @@ Motivated by: systematic brainstorming across 10 gap-specific analyses (G7, G9, 
 
     [Beyond TRPM3: A Broader TRP Channelopathy in ME/CFS],
     [S], [0.40],
-    [In ME/CFS, elevated ROS and prostaglandins sensitize TRPV1 and TRPA1 on sensory neurons and mast cells, creating self-sustaining feed-forward loops (TRPV1→COX2→PGE2→TRPV1 @Li2021 @Moriyama2005; TRPA1 cysteine-ROS @Macpherson2007). Co-sensitization across multiple TRP channels may explain why ME/CFS symptoms span pain, chemical sensitivity, and temperature dysregulation simultaneously.],
+    [In ME/CFS, elevated ROS and prostaglandins sensitize TRPV1 and TRPA1 on sensory neurons and mast cells, creating self-sustaining feed-forward loops (TRPV1→COX2→PGE2→TRPV1  ; TRPA1 cysteine-ROS ). Co-sensitization across multiple TRP channels may explain why ME/CFS symptoms span pain, chemical sensitivity, and temperature dysregulation simultaneously.],
     [Capsaicin-induced flare thresholds in ME/CFS-MCS vs ME/CFS-no-MCS patients; TRPA1 activation threshold (mustard challenge); NK cell TRPV1/TRPA1 gating in ME/CFS (can exploit existing blood draw protocols). No ME/CFS-specific TRP sensitization study published (2026).],
     [Ch.14h @spec:ch14h-trp-expanded],
 
     [Piezo1 Dysregulation as a Mechanism for RBC Stiffness in ME/CFS],
     [S], [0.35],
-    [Chronic oxidative stress and cytokines in ME/CFS may dysregulate Piezo1-KCa3.1 coupling in RBCs, producing dehydrated/stiff cells that impair capillary transit. RBC deformability is documented reduced in ME/CFS @Saha2019; Piezo1 mechanism proposed by Cahalan2015 for RBC volume homeostasis @Cahalan2015.],
+    [Chronic oxidative stress and cytokines in ME/CFS may dysregulate Piezo1-KCa3.1 coupling in RBCs, producing dehydrated/stiff cells that impair capillary transit. RBC deformability is documented reduced in ME/CFS ; Piezo1 mechanism proposed by Cahalan2015 for RBC volume homeostasis .],
     [Patch-clamp Piezo1 gating in ME/CFS RBCs vs controls; KCa3.1 (Gardos) activity assay; RBC deformability vs 2-day CPET VO₂max correlation. No ME/CFS Piezo1 study exists (2026).],
     [Ch.14h @spec:ch14h-piezo1-rbc],
 
     [Piezo2 Gain-of-Function and Mechanical Allodynia in ME/CFS],
     [S], [0.35],
-    [Piezo2 mediates light-touch allodynia and proprioceptive encoding @Szczot2018. Gain-of-function Piezo2 variants (CRAMPED syndrome: hypermobility, allodynia, scoliosis) overlap with hEDS features overrepresented in ME/CFS. Chronic neuroinflammation may lower Piezo2 activation thresholds, contributing to mechanical allodynia.],
+    [Piezo2 mediates light-touch allodynia and proprioceptive encoding . Gain-of-function Piezo2 variants (CRAMPED syndrome: hypermobility, allodynia, scoliosis) overlap with hEDS features overrepresented in ME/CFS. Chronic neuroinflammation may lower Piezo2 activation thresholds, contributing to mechanical allodynia.],
     [Piezo2-dependent sensory modality thresholds (von Frey filaments, vibration) vs pain thresholds in ME/CFS; joint position sense testing in ME/CFS-hEDS vs ME/CFS-no-hEDS; skin biopsy DRG culture for Piezo2 electrophysiology. Not yet studied (2026).],
     [Ch.14h @spec:ch14h-piezo2-allodynia],
 
     [Ambroxol as Repurposed TRP Channel Modulator in ME/CFS],
     [S], [0.35],
-    [Ambroxol (OTC mucolytic) blocks Nav1.8 in nociceptors @Gaida2005Ambroxol and antagonizes human TRPV1 by electrophysiology @Hefner2025AmbroxolTRPV1. If TRPV1 sensitization drives ME/CFS pain and chemical hypersensitivity, ambroxol could reduce sensitization-driven nociceptor activation. Also modulates TRPA1 at higher concentrations.],
+    [Ambroxol (OTC mucolytic) blocks Nav1.8 in nociceptors  and antagonizes human TRPV1 by electrophysiology . If TRPV1 sensitization drives ME/CFS pain and chemical hypersensitivity, ambroxol could reduce sensitization-driven nociceptor activation. Also modulates TRPA1 at higher concentrations.],
     [ME/CFS patients with pain/MCS features should show pain reduction with ambroxol 75--150 mg/day correlating with capsaicin flare-threshold improvement. No ME/CFS trial exists (2026). Note: species-specific Nav1.8 data (rat IC50 18 µM vs human 279 µM) limits translation.],
     [Ch.14h @spec:ch14h-ambroxol-trp],
   ),
-  kind: table, supplement: [Table], caption: [TRP/Piezo channel integration (2026-04-13): three open-questions generated from Julius 2021 Nobel context applied to ME/CFS, plus ambroxol speculation from Phase 4. Motivated by @Macpherson2007, @Li2021, @Moriyama2005, @Saha2019, @Cahalan2015, @Szczot2018, @Molot2023, @Gaida2005Ambroxol, @Hefner2025AmbroxolTRPV1, @Russo2023Ambroxol],
+  kind: table, supplement: [Table], caption: [TRP/Piezo channel integration (2026-04-13): three open-questions generated from Julius 2021 Nobel context applied to ME/CFS, plus ambroxol speculation from Phase 4. Motivated by , , , , , , , , , ],
 ) <tab:hypothesis-registry-trp-piezo-2026-04-13>
 
 === Entries Added 2026-04-14: CSF Drainage Synergy
@@ -1665,7 +1665,7 @@ Motivated by: Riste 2025 Perrin RCT; Mitchell 2025 cognitive safety; Xie 2013 gl
 
 === Entries Added 2026-04-16: Bimodal Onset Age Peaks
 
-Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) @McGrath2026bimodalOnset; Bakken et al.\ 2014 (BMC Medicine) @Bakken2014bimodalOnset; Jin et al.\ 2019 (Nature Communications) @Jin2019vitiligoBimodal.
+Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) ; Bakken et al.\ 2014 (BMC Medicine) ; Jin et al.\ 2019 (Nature Communications) .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -1679,7 +1679,7 @@ Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) @McGrath2026bimodalO
 
     [Early-Onset ME/CFS Has a Distinct Genetic Architecture],
     [S], [0.40],
-    [Vitiligo precedent: bimodal onset revealed MHC class II haplotype OR > 8 in early onset @Jin2019vitiligoBimodal. ME/CFS early onset shows stronger familial clustering (OR 1.43) and IM trigger enrichment (OR 2.32). (a) GWAS stratified by onset age shows at least one locus with differential allele frequency. (b) HLA region most likely candidate. (c) Early-onset heritability exceeds late-onset heritability.],
+    [Vitiligo precedent: bimodal onset revealed MHC class II haplotype OR > 8 in early onset . ME/CFS early onset shows stronger familial clustering (OR 1.43) and IM trigger enrichment (OR 2.32). (a) GWAS stratified by onset age shows at least one locus with differential allele frequency. (b) HLA region most likely candidate. (c) Early-onset heritability exceeds late-onset heritability.],
     [DecodeME dataset (n > 17,000 with genetic data) can be stratified by onset age — not yet done. HLA fine-mapping feasible. Twin heritability analysis by onset age requires new cohort.],
     [Ch.5 @oq:bimodal-genetic-architecture; Ch.14d @spec:bimodal-genetic-subtype],
 
@@ -1691,7 +1691,7 @@ Motivated by: McGrath et al.\ 2026 (Oxford Open Immunology) @McGrath2026bimodalO
 
     [Early-Onset Severity Reflects Disease Mechanism, Not Duration],
     [S], [0.35],
-    [Early-onset cases more severe (OR 2.15) independent of duration @McGrath2026bimodalOnset. Suggests early-onset ME/CFS involves more aggressive pathophysiology rather than longer disease course. (a) Biomarker severity correlates with onset age after controlling for duration. (b) Early-onset has distinct metabolic or immune signatures predicting severity. (c) Pediatric immune response to triggers is qualitatively different.],
+    [Early-onset cases more severe (OR 2.15) independent of duration . Suggests early-onset ME/CFS involves more aggressive pathophysiology rather than longer disease course. (a) Biomarker severity correlates with onset age after controlling for duration. (b) Early-onset has distinct metabolic or immune signatures predicting severity. (c) Pediatric immune response to triggers is qualitatively different.],
     [DecodeME and EMEA datasets have both severity and onset-age data — stratified analysis feasible. Muscle biopsy studies by onset age not available.],
     [Ch.5 @cf:bimodal-clinical-differences],
 
@@ -1797,7 +1797,7 @@ Motivated by: Health Rising synthesis of 11 recent ME/CFS pathophysiology studie
 
 === Entries Added 2026-04-18: Calcium Channelopathy Integration
 
-Motivated by: Nguyen 2017 @Nguyen2017trpm3; Cabanas 2019 electrophysiology @Cabanas2019trpm3val; Eaton-Fitch 2021 PIP2 @EatonFitch2021trpm3pip2; Eaton-Fitch 2022 NTX @EatonFitch2022trpm3ntx; du Preez 2023 TRPM7 @DuPreez2023trpm7; Vijayan 2015 alpha-delta model @Vijayan2015alphaDelta; Crunelli 2006 CaV3.1 @Crunelli2006thalamicTtype.
+Motivated by: Nguyen 2017 ; Cabanas 2019 electrophysiology ; Eaton-Fitch 2021 PIP2 ; Eaton-Fitch 2022 NTX ; du Preez 2023 TRPM7 ; Vijayan 2015 alpha-delta model ; Crunelli 2006 CaV3.1 .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -1809,17 +1809,17 @@ Motivated by: Nguyen 2017 @Nguyen2017trpm3; Cabanas 2019 electrophysiology @Caba
 
     [Subtype A vs Subtype B: Two Distinct Calcium Mechanisms in ME/CFS],
     [S], [0.35],
-    [Calcium dysregulation in ME/CFS falls into two mechanistically distinct subtypes: Subtype A (energy failure → secondary Ca#super[2+] via NCX reversal; downstream, correctable via Na#super[+]/K#super[+]-ATPase restoration) and Subtype B (primary TRPM3 channelopathy → Ca#super[2+] dysfunction → multi-system failure; upstream, requiring TRPM3 restoration). Subtypes may co-exist or interact in a self-amplifying cascade. Framework motivated by @Wirth2024keyRole, @Nguyen2017trpm3, @Sasso2026trpm3.],
+    [Calcium dysregulation in ME/CFS falls into two mechanistically distinct subtypes: Subtype A (energy failure → secondary Ca#super[2+] via NCX reversal; downstream, correctable via Na#super[+]/K#super[+]-ATPase restoration) and Subtype B (primary TRPM3 channelopathy → Ca#super[2+] dysfunction → multi-system failure; upstream, requiring TRPM3 restoration). Subtypes may co-exist or interact in a self-amplifying cascade. Framework motivated by , , .],
     [(a) TRPM3 dysfunction should be measurable before PEM-triggering exertion in Subtype B patients but not Subtype A. (b) MDC002 (Na#super[+]/K#super[+]-ATPase restoration) prevents NCX reversal but does not normalize TRPM3 current. (c) Mixed-subtype patients require both MDC002 and TRPM3 restoration for symptom improvement. No subtyping study exists (2026). Cross-sectional TRPM3 assays cannot distinguish subtypes --- prospective longitudinal design required.],
     [Ch.14h @spec:ch14h-calcium-subtypes],
 
     [Thalamic T-Type Calcium Channel Disruption as Mechanism of Alpha-Delta Sleep in ME/CFS],
     [H], [0.35],
-    [CaV3.1 T-type Ca#super[2+] channels in thalamic relay neurons generate delta oscillations; CaV3.1 KO mice show reduced NREM sleep @Crunelli2006thalamicTtype. Vijayan 2015 computational model shows altered I#sub[h]/GABA#sub[B]/K#super[+]-leak balance transforms delta into alpha-delta @Vijayan2015alphaDelta. Neuroinflammation, oxidative stress, or systemic channelopathy in ME/CFS may disrupt CaV3.1 gating, producing alpha-delta intrusion and non-restorative sleep. No direct ME/CFS study exists; extrapolated from fibromyalgia models.],
+    [CaV3.1 T-type Ca#super[2+] channels in thalamic relay neurons generate delta oscillations; CaV3.1 KO mice show reduced NREM sleep . Vijayan 2015 computational model shows altered I#sub[h]/GABA#sub[B]/K#super[+]-leak balance transforms delta into alpha-delta . Neuroinflammation, oxidative stress, or systemic channelopathy in ME/CFS may disrupt CaV3.1 gating, producing alpha-delta intrusion and non-restorative sleep. No direct ME/CFS study exists; extrapolated from fibromyalgia models.],
     [(a) ME/CFS patients with alpha-delta EEG pattern show more severe non-restorative sleep than those without. (b) T-type Ca#super[2+] channel blockers (ethosuximide, zonisamide) convert alpha-delta to delta sleep and improve PSG delta power. (c) TRPM3 dysfunction severity (NK cell assay) correlates with alpha-delta sleep severity. Feasible: PSG + TRPM3 assay in same cohort; ethosuximide N-of-1 trials with PSG pre/post.],
     [Ch.8 @hyp:thalamic-calcium-sleep],
   ),
-  caption: [Calcium channelopathy integration (2026-04-18): Subtype A/B framework formalizing two mechanistically distinct calcium pathways, and thalamic CaV3.1 hypothesis linking sleep calcium channels to alpha-delta sleep in ME/CFS. Motivated by @Nguyen2017trpm3, @Cabanas2019trpm3val, @EatonFitch2021trpm3pip2, @EatonFitch2022trpm3ntx, @DuPreez2023trpm7, @Vijayan2015alphaDelta, @Crunelli2006thalamicTtype.],
+  caption: [Calcium channelopathy integration (2026-04-18): Subtype A/B framework formalizing two mechanistically distinct calcium pathways, and thalamic CaV3.1 hypothesis linking sleep calcium channels to alpha-delta sleep in ME/CFS..],
   kind: table,
 ) <tab:registry-calcium-channelopathy-2026-04-18>
 ] // end landscape page
@@ -1942,7 +1942,7 @@ Motivated by: Nguyen 2017 @Nguyen2017trpm3; Cabanas 2019 electrophysiology @Caba
     [Reporter cell line engineering; compound library screen; hits tested on patient-derived NK cells.],
     [Ch.20 @oq:ch20-crispr-trpm3-reporter],
   ),
-  caption: [Calcium brainstorm Phase 4 integration (2026-04-18): 17 new entries from systematic brainstorm of all calcium mechanisms in ME/CFS. Includes hypotheses, speculations, and open questions across channels (TRPM3/7, Piezo, CaV3.1), treatments (LDN+MDC002, thermal, vibration, cromolyn+LDN), diagnostics (panel, subtype protocol, sleep EEG proxy), and cross-disease parallels (HypoPP, Timothy syndrome, Brugada). Motivated by @EatonFitch2021trpm3pip2, @DuPreez2023trpm7, @Sasso2026trpm3, @Vijayan2015alphaDelta, @Crunelli2006thalamicTtype, @Wirth2024keyRole.],
+  caption: [Calcium brainstorm Phase 4 integration (2026-04-18): 17 new entries from systematic brainstorm of all calcium mechanisms in ME/CFS. Includes hypotheses, speculations, and open questions across channels (TRPM3/7, Piezo, CaV3.1), treatments (LDN+MDC002, thermal, vibration, cromolyn+LDN), diagnostics (panel, subtype protocol, sleep EEG proxy), and cross-disease parallels (HypoPP, Timothy syndrome, Brugada)..],
   kind: table,
 ) <tab:registry-calcium-brainstorm-2026-04-18>
 ] // end landscape page
@@ -2006,7 +2006,7 @@ Motivated by: integration of the Li#super[+] → IMPase → PIP#sub[2] depletion
     [iPSC neurons + muscarinic agonist: cytosolic Ca#super[2+] (Fura-2) + mitochondrial Ca#super[2+] (Rhod-2). Li#super[+] alone reduces both; Li#super[+] + fluvoxamine reduces cytosolic, preserves mitochondrial.],
     [Ch.18 @spec:fluvoxamine-lithium-ip3r],
   ),
-  caption: [Li#super[+]/IMPase/IP3/PIP#sub[2] axis integration (2026-04-17): 6 new entries. Extends @hyp:ch14h-pip2-convergence and @spec:low-dose-lithium. Motivated by @saha2023impa1 @schlecker2006ncs1 @harwood2005inositol @belmaker1998inositol @sade2016ip3.],
+  caption: [Li#super[+]/IMPase/IP3/PIP#sub[2] axis integration (2026-04-17): 6 new entries. Extends @hyp:ch14h-pip2-convergence and @spec:low-dose-lithium..],
   kind: table,
 ) <tab:registry-lithium-ip3-pip2-2026-04-17>
 ] // end landscape page
@@ -2100,14 +2100,14 @@ Motivated by: LinkedIn comment on v7 calcium post (Lansky 2023/2025 TRPV3 pentam
     [Elevated LPA + elevated Na = A+LPA+ (metabolic + vascular). Normal LPA + elevated Na = A+LPA− (metabolic only). Stratifies intervention trials.],
     [Ch.14h @oq:lpa-biomarker-panel],
   ),
-  caption: [TRP pentamerization and vascular TRPV1 integration (2026-04-19): 11 entries (1 hypothesis, 9 speculations, 1 open question). Extends @spec:ch14h-trp-expanded. Motivated by @Lansky2023trpv3pentamer @Lansky2025trpv3dynamics @Cavanaugh2011trpv1vascular @Phan2020trpv1arterial @Phan2022trpv1myogenic @RiveraMancilla2024trpDermal.],
+  caption: [TRP pentamerization and vascular TRPV1 integration (2026-04-19): 11 entries (1 hypothesis, 9 speculations, 1 open question). Extends @spec:ch14h-trp-expanded..],
   kind: table,
 ) <tab:registry-trp-pentamer-vascular-2026-04-19>
 ] // end landscape page
 
 === Entries Added 2026-04-20: Orexin/Hypocretin Suppression in ME/CFS
 
-Motivated by: López-Amador 2025 (integrative review, 27 studies) @LopezAmador2025orexin; Grossberg et al.\ 2011 @Grossberg2011orexinLethargy; Gaykema \& Goehler 2009 @Gaykema2009orexinSickness; Weymann et al.\ 2014 @Weymann2014orexinChemoFatigue; Ito et al.\ 2023 @Ito2023orexinREM; Rauf et al.\ 2025 @Rauf2025narcolepsyOrexin; Ruhrländer et al.\ 2025 @Ruhrländer2025orexinPASC; Heinicke et al.\ 2025 @Heinicke2025orexinCOVID.
+Motivated by: López-Amador 2025 (integrative review, 27 studies) ; Grossberg et al.\ 2011 ; Gaykema \& Goehler 2009 ; Weymann et al.\ 2014 ; Ito et al.\ 2023 ; Rauf et al.\ 2025 ; Ruhrländer et al.\ 2025 änder2025orexinPASC; Heinicke et al.\ 2025 .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2144,7 +2144,7 @@ Motivated by: López-Amador 2025 (integrative review, 27 studies) @LopezAmador20
 
 === Entries Added 2026-04-20: Glymphatic NE-Vasomotion and Neurodegeneration Risk
 
-Motivated by: Hauglund et al.\ 2025 (Cell) @Hauglund2025neVasomotion; Fultz et al.\ 2019 (Science) @Fultz2019csfOscillations; Holth et al.\ 2019 (Science) @Holth2019tauSleep; Ju et al.\ 2017 (Brain) @Ju2017slowWaveAmyloid; Chaganti et al.\ 2025 (BMC Neurology) @Chaganti2025longCovidGlymphatic; Tang et al.\ 2025 (Nat Sci Sleep) @Tang2025covidSleepDTIALPS; Zhu et al.\ 2025 (Mol Psychiatry) @Zhu2025noradrenergicGlymphatic.
+Motivated by: Hauglund et al.\ 2025 (Cell) ; Fultz et al.\ 2019 (Science) ; Holth et al.\ 2019 (Science) ; Ju et al.\ 2017 (Brain) ; Chaganti et al.\ 2025 (BMC Neurology) ; Tang et al.\ 2025 (Nat Sci Sleep) ; Zhu et al.\ 2025 (Mol Psychiatry) .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2278,7 +2278,7 @@ Motivated by: Errico et al.\ 2025 (npj Aging) ANS-aging perspective; supporting 
     [Horvath/Hannum clock + telomere qPCR + p16/SASP panel in same cohort ($n > 100$, ICC criteria) --- feasible but expensive. de Vega 2018 methylation data exists but not integrated with telomere/senescence data.],
     [Ch.12 @sec:aging-integration],
   ),
-  caption: [ANS-aging integration hypothesis registry entries (2026-04-20): one core hypothesis (ANS $arrow.r$ aging hallmarks), three supporting speculations (cGAS-STING loop, brainstem senescence, PKA $arrow.r$ AMPK), and one open question (multi-modal aging assessment). All motivated by Errico et al.\ 2025 @Errico2025ANSaging and supporting literature.],
+  caption: [ANS-aging integration hypothesis registry entries (2026-04-20): one core hypothesis (ANS $arrow.r$ aging hallmarks), three supporting speculations (cGAS-STING loop, brainstem senescence, PKA $arrow.r$ AMPK), and one open question (multi-modal aging assessment). All motivated by Errico et al.\ 2025  and supporting literature.],
   kind: table,
 ) <tab:registry-ans-aging>
 ] // end landscape page
@@ -2366,20 +2366,20 @@ Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipel
 
     [Immunoadsorption Efficacy: Awaiting Sham-Controlled Confirmation],
     [OQ], [---],
-    [Two sham-controlled RCTs of immunoadsorption in ME/CFS have completed enrolment—IA-PACS-CFS (n=66, Charité @Pressler2024IAPACSCFSprotocol) and EXTINCT (n=63, Hannover @EXTINCTtrial2023)—but results are unpublished as of April 2026. All prior positive results (70% response rate @Stein2024immunoadsorption @Scheibenbogen2018immunoadsorption) are from open-label studies at a single centre. Does immunoadsorption for ME/CFS exceed sham?],
+    [Two sham-controlled RCTs of immunoadsorption in ME/CFS have completed enrolment—IA-PACS-CFS (n=66, Charité ) and EXTINCT (n=63, Hannover )—but results are unpublished as of April 2026. All prior positive results (70% response rate  ) are from open-label studies at a single centre. Does immunoadsorption for ME/CFS exceed sham?],
     [Await publication of IA-PACS-CFS and EXTINCT RCT results. If both positive: strong confirmation. If discordant: analyse differences in patient selection, IA protocol, and endpoints. If both negative: reassess autoantibody hypothesis and consider non-autoantibody mechanisms of IA benefit.],
     [Ch.14b @sec:gpcr-autoantibodies],
 
     [Autoantibody Removal Without Clinical Improvement: Anft Discordance],
     [OQ], [---],
-    [Anft et al.\ 2025 @Anft2025immunoadsorption (independent centre, n=12) showed successful autoantibody elimination and cytokine reduction but *no significant ME/CFS symptom improvement* with rebound within one month. Three competing explanations: (a) insufficient power (n=12); (b) autoantibody removal is necessary but not sufficient—downstream damage persists; (c) autoantibodies are not the primary pathogenic driver, and open-label Charité results reflect non-specific effects. Which is correct?],
-    [IMPACT trial (NCT07529197 @IMPACTtrial2026) will measure memory B-cell dynamics and may explain rebound. Comparison of Charité vs Anft protocols (duration, depth of IgG depletion) needed. If sham-controlled RCTs positive but Anft negative: likely power issue. If sham RCTs also negative: autoantibody hypothesis substantially weakened.],
+    [Anft et al.\ 2025  (independent centre, n=12) showed successful autoantibody elimination and cytokine reduction but *no significant ME/CFS symptom improvement* with rebound within one month. Three competing explanations: (a) insufficient power (n=12); (b) autoantibody removal is necessary but not sufficient—downstream damage persists; (c) autoantibodies are not the primary pathogenic driver, and open-label Charité results reflect non-specific effects. Which is correct?],
+    [IMPACT trial (NCT07529197 ) will measure memory B-cell dynamics and may explain rebound. Comparison of Charité vs Anft protocols (duration, depth of IgG depletion) needed. If sham-controlled RCTs positive but Anft negative: likely power issue. If sham RCTs also negative: autoantibody hypothesis substantially weakened.],
     [Ch.14b @sec:gpcr-autoantibodies],
 
     [Memory B-Cell Repopulation as Relapse Mechanism After Immunoadsorption],
     [H], [0.45],
-    [If autoantibody relapse after IA is driven by memory B-cell repopulation and re-differentiation into autoantibody-secreting plasma cells, then IA alone is a temporary measure. Combining IA with anti-CD20 (rituximab—memory B-cells) or anti-CD38 (daratumumab—plasma cells) should produce more durable responses than IA alone. The Tölle 2020 retreatment data (4/5 responded to repeat IA @Tolle2020immunoadsorption) supports that relapse is the rule, not the exception.],
-    [IMPACT trial (NCT07529197 @IMPACTtrial2026) measures memory B-cell dynamics pre/post IA. Prediction: patients with faster memory B-cell reconstitution relapse sooner. If confirmed: sequential IA + daratumumab trial warranted.],
+    [If autoantibody relapse after IA is driven by memory B-cell repopulation and re-differentiation into autoantibody-secreting plasma cells, then IA alone is a temporary measure. Combining IA with anti-CD20 (rituximab—memory B-cells) or anti-CD38 (daratumumab—plasma cells) should produce more durable responses than IA alone. The Tölle 2020 retreatment data (4/5 responded to repeat IA ) supports that relapse is the rule, not the exception.],
+    [IMPACT trial (NCT07529197 ) measures memory B-cell dynamics pre/post IA. Prediction: patients with faster memory B-cell reconstitution relapse sooner. If confirmed: sequential IA + daratumumab trial warranted.],
     [Ch.14b @hyp:plasma-cell-sanctuary],
 
     [Bystander Clearance: IA Works by Removing Non-Autoantibody IgG],
@@ -2409,7 +2409,7 @@ Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipel
     [Post-IA Autoantibody Decay Curve as Diagnostic Stratification],
     [OQ], [---],
     [The rate of autoantibody rebound after IA reveals plasma cell pool size/activity: fast rebound ($lt$2 weeks) = large pool → daratumumab needed; slow rebound ($gt$8 weeks) = small pool → retreatment sufficient; no rebound = non-autoantibody mechanism. The decay curve is itself diagnostic.],
-    [Weekly autoantibody measurements for 8 weeks post-IA. IMPACT trial @IMPACTtrial2026 will measure some dynamics via memory B-cell tracking. Never formally proposed as diagnostic tool (2026).],
+    [Weekly autoantibody measurements for 8 weeks post-IA. IMPACT trial  will measure some dynamics via memory B-cell tracking. Never formally proposed as diagnostic tool (2026).],
     [Ch.25b @oq:post-ia-decay-curve],
   ),
   caption: [Immunoadsorption trial landscape registry entries (2026-04-20): two open questions on pending RCT results and Anft discordance, one hypothesis on memory B-cell relapse, three speculations on alternative IA mechanisms (bystander clearance, threshold duration, immune reset), and two research proposals (IgG glycoform profiling, post-IA decay curve).],
@@ -2419,7 +2419,7 @@ Motivated by: creative brainstorming from Phase 3 of ANS-aging integration pipel
 
 === Entries Added 2026-04-20: Architecture C Reserve Builder Stack
 
-Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d); BH4 recycling support section (Ch.16); @DelRosso2026ironNeurodevelopmental.
+Motivated by: Architecture C metabolic reserve predisposition framework (Ch.14d); BH4 recycling support section (Ch.16); .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2727,7 +2727,7 @@ Motivated by: Wirth 2026 (N=36,332 ICD pre-diagnostic data), Collin 2018 (ALSPAC
 
 === Entries Added 2026-04-21: Exercise Blinding Bias and Cross-Disease Exercise Response
 
-Motivated by: Zhao et al.\ 2026 exercise meta-analysis @Zhao2026exercise; BRANDO collaboration @Savovic2012blinding; Hróbjartsson et al.\ 2014 @Hrobjartsson2014blinding.
+Motivated by: Zhao et al.\ 2026 exercise meta-analysis ; BRANDO collaboration ; Hróbjartsson et al.\ 2014 .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2797,7 +2797,7 @@ Motivated by: Zhao et al.\ 2026 exercise meta-analysis @Zhao2026exercise; BRANDO
 
 === Entries Added 2026-04-21: Piecewise Recovery Scaling and Extended Severity Classification
 
-Motivated by: Jahanbani et al.\ 2024 @Jahanbani2024severity — extended extremely severe A--E classification; analysis of emergent piecewise biophysical recovery dynamics (Equations @eq:atp-piecewise, @eq:repair-piecewise) from coupled ODE system.
+Motivated by: Jahanbani et al.\ 2024  — extended extremely severe A--E classification; analysis of emergent piecewise biophysical recovery dynamics (Equations @eq:atp-piecewise, @eq:repair-piecewise) from coupled ODE system.
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2812,7 +2812,7 @@ Motivated by: Jahanbani et al.\ 2024 @Jahanbani2024severity — extended extreme
     [Piecewise Recovery Scaling: Cliff and Floor Regimes at Severe/Extremely Severe Levels],
     [P], [0.45],
     [Recovery time $tau_"rec"(B)$ follows three biophysically distinct regimes: plateau ($B > 0.65$), cliff ($0.10 < B lt.eq 0.65$, steep rise from ATP synthase threshold), floor ($B lt.eq 0.10$, constant-high from collapsed repair). (a) Log-log plot of recovery time vs $B$ shows two slope changes (cliff steepening, floor flattening). (b) In floor regime, ES-C/D/E show similarly slow improvement per band. (c) Patients at ES-D/E show biological improvement (cytokine normalization, HRV recovery) weeks before perceptible functional gain.],
-    [Longitudinal functional capacity monitoring with wearables in extremely severe patients (Bell score $lt.eq$ 10) over $gt.eq 12$ months. Paired biological markers + functional assessment at monthly intervals. Jahanbani 2024 $n = 1$ trajectory consistent; cohort validation needed. ACHTSAM pilot @Fricke2026achtsam may provide severity-tolerant protocol.],
+    [Longitudinal functional capacity monitoring with wearables in extremely severe patients (Bell score $lt.eq$ 10) over $gt.eq 12$ months. Paired biological markers + functional assessment at monthly intervals. Jahanbani 2024 $n = 1$ trajectory consistent; cohort validation needed. ACHTSAM pilot  may provide severity-tolerant protocol.],
     [Ch.31 @eq:recovery-scaling],
 
     [Extended Severity Classification: Clinically Distinct Sub-Levels Within Very Severe ME/CFS],
@@ -2828,7 +2828,7 @@ Motivated by: Jahanbani et al.\ 2024 @Jahanbani2024severity — extended extreme
 
 === Entries Added 2026-04-21: Consequences of Piecewise Recovery Scaling
 
-Motivated by: creative synthesis of piecewise biophysical recovery scaling implications (Equations @eq:atp-piecewise, @eq:repair-piecewise, Table @tab:recovery-regimes); integration with Jahanbani A--E classification @Jahanbani2024severity and ratchet model dynamics (Ch.31).
+Motivated by: creative synthesis of piecewise biophysical recovery scaling implications (Equations @eq:atp-piecewise, @eq:repair-piecewise, Table @tab:recovery-regimes); integration with Jahanbani A--E classification  and ratchet model dynamics (Ch.31).
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2843,7 +2843,7 @@ Motivated by: creative synthesis of piecewise biophysical recovery scaling impli
     [Biological Shadow: Biomarkers Improve Before Function],
     [H], [0.50],
     [At ES-D/E, blood biomarkers (8-OHdG, cfmtDNA, cytokines, HRV) improve weeks to months before detectable functional gain. In the piecewise model, the lag grows steeply through the cliff regime and plateaus at a high constant in the floor regime. At moderate severity, biomarkers and function improve approximately in parallel.],
-    [Longitudinal paired biomarker + functional assessment in $gt.eq 20$ extremely severe patients over $gt.eq 12$ months. ACHTSAM protocol @Fricke2026achtsam + FUNCAP @Sommerfelt2024FUNCAP. Jahanbani 2024 $n=1$ consistent.],
+    [Longitudinal paired biomarker + functional assessment in $gt.eq 20$ extremely severe patients over $gt.eq 12$ months. ACHTSAM protocol  + FUNCAP . Jahanbani 2024 $n=1$ consistent.],
     [Ch.31 @hyp:biological-shadow],
 
     [Recovery Horizon: Computable Patience Metric],
@@ -2895,7 +2895,7 @@ Motivated by: creative synthesis of piecewise biophysical recovery scaling impli
 
 === Entries Added 2026-04-25: Reproductive Health and Pregnancy Outcomes
 
-Motivated by: Schacterle & Komaroff 2004 @Schacterle2004pregnancy (retrospective ME/CFS pregnancy outcomes); Slack et al.\ 2023 systematic review @Slack2023pregnancyReview; Thomas et al.\ 2022 sex differences @Thomas2022sexDifferences; Compton et al.\ 2025 endometriosis meta-analysis @Compton2025endometriosis.
+Motivated by: Schacterle & Komaroff 2004  (retrospective ME/CFS pregnancy outcomes); Slack et al.\ 2023 systematic review ; Thomas et al.\ 2022 sex differences ; Compton et al.\ 2025 endometriosis meta-analysis .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2926,7 +2926,7 @@ Motivated by: Schacterle & Komaroff 2004 @Schacterle2004pregnancy (retrospective
 
 === Entries Added 2026-04-25: Reproductive Health Mechanisms and Cycle-Based Pacing
 
-Motivated by: creative synthesis of pregnancy/reproductive health literature (@Schacterle2004pregnancy, @Slack2023pregnancyReview, @Thomas2022sexDifferences, @Compton2025endometriosis, @boneva2015menopause).
+Motivated by: creative synthesis of pregnancy/reproductive health literature (, , , , @boneva2015menopause).
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -2994,7 +2994,7 @@ Motivated by: creative synthesis of pregnancy/reproductive health literature (@S
 
 === Entries Added 2026-04-25: Progesterone/Neurosteroid Axis Hypotheses (Phase 4 Brainstorm Integration)
 
-Motivated by: scientific-insight-generator brainstorm on oral micronized progesterone as ME/CFS therapeutic bridge, building on @Schacterle2004pregnancy, @AndreenBackstrom2006pharmacokinetics, @MeltzerBrody2018brexanolone, @Raghupathy2009PIBF, @SzekeresBartho2019progestogens, @AndreenBackstrom2009negMood.
+Motivated by: scientific-insight-generator brainstorm on oral micronized progesterone as ME/CFS therapeutic bridge, building on , , , , , .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -3063,7 +3063,7 @@ Motivated by: scientific-insight-generator brainstorm on oral micronized progest
     [Postpartum-Onset ME/CFS as a Neurosteroid Withdrawal Subtype Amenable to PPD Trial Design],
     [S], [0.30],
     [A 14-day oral neurosteroid pulse in postpartum-onset ME/CFS (within 12 months of delivery) produces ≥ 30% DSQ-PEM reduction at day 28, exceeding non-postpartum-onset ME/CFS controls.],
-    [14-day oral neurosteroid trial in postpartum-onset ME/CFS subgroup. Brexanolone @MeltzerBrody2018brexanolone and oral analog PPD trials provide design template. No ME/CFS trial exists.],
+    [14-day oral neurosteroid trial in postpartum-onset ME/CFS subgroup. Brexanolone  and oral analog PPD trials provide design template. No ME/CFS trial exists.],
     [Ch.18 @spec:ppd-methodology-transfer],
 
     [Pregnenolone as Substrate-Level Neurosteroid Enhancement in ME/CFS],
@@ -3093,7 +3093,7 @@ Motivated by: scientific-insight-generator brainstorm on oral micronized progest
     [Zuranolone Pulse Therapy in Postpartum-Onset ME/CFS],
     [S], [0.25],
     [14-day zuranolone (50 mg/day) in postpartum-onset ME/CFS within 12 months of delivery produces > 30% DSQ-PEM reduction at day 28, sustained at day 90.],
-    [14-day zuranolone trial in postpartum-onset subgroup. Zuranolone approved for PPD @MeltzerBrody2018brexanolone; design transfer to ME/CFS requires outcome adaptation.],
+    [14-day zuranolone trial in postpartum-onset subgroup. Zuranolone approved for PPD ; design transfer to ME/CFS requires outcome adaptation.],
     [Ch.18 @spec:zuranolone-mecfs],
 
     [LDN + Cyclic Micronized Progesterone as a Non-Overlapping Combination],
@@ -3117,7 +3117,7 @@ Motivated by: scientific-insight-generator brainstorm on oral micronized progest
     [Pregnancy Response History as Clinical Subtype Stratifier],
     [S], [0.45],
     [Historical improvers show higher immune-driven subtype markers and greater response to progesterone-related interventions vs historical worseners; effect size difference > 0.4 SD in any trial stratified by pregnancy history.],
-    [Add pregnancy response history question to clinical ME/CFS assessment. Stratify in any progesterone trial. Based entirely on Schacterle 2004 @Schacterle2004pregnancy.],
+    [Add pregnancy response history question to clinical ME/CFS assessment. Stratify in any progesterone trial. Based entirely on Schacterle 2004 .],
     [Ch.23 @spec:pregnancy-history-stratifier],
 
     [Multiple Sclerosis Pregnancy Effect as Cross-Disease Template for ME/CFS Research],
@@ -3179,7 +3179,7 @@ Motivated by: synthesis of network controllability prediction (@sec:network-cont
 
 === Entries Added 2026-04-26: Epigenetics — PTPRN2 / miR-153-3p / PHB2 Axis
 
-Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 hypomethylation and PHB2-associated miR-153-3p maturation in ME/CFS saliva EWAS (n=54 vs 21); supported by prior miRNA work @Nepotchatykh2020mirnaMECFS @Nepotchatykh2023mirnaMECFS and PTPRN2 biology review @StojilkovicSokanovic2025ptprn.
+Motivated by: Chalder, Moreau et al. 2026 () — PTPRN2 hypomethylation and PHB2-associated miR-153-3p maturation in ME/CFS saliva EWAS (n=54 vs 21); supported by prior miRNA work   and PTPRN2 biology review .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -3476,7 +3476,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.18 @oq:isr-nutritional-candidates],
 
   ),
-  caption: [Entries added 2026-05-01 (first batch): ISR/GCN2--ATF4 pathway integration --- 3 hypotheses, 4 speculations, 1 open question across ch06, ch07, ch08. Entries added 2026-05-02 (second batch): 2 hypotheses (GDF15, pacing-ISR), 4 speculations (sex-ISR, prodromal-proteinopathy, shared-ISR, GDF15/FGF21 ratio), 1 open question (miR-aU14) across ch07, ch13, ch17, ch20. Entries added 2026-05-02 (third batch, Phase 4 completion): 11 open questions (tRNA-charging, PET-tracers, skin-biopsy, ODE-ISR, bifurcation, DAG-extension, two-population-model, heat-PERK, TRE, HBO-ISR, ISR-nutritional-candidates) integrated across ch17, ch18, ch20, ch25b. Motivated by @wang2023wasf3, @Hennig2022HHV6miRNA, @Baron2025ISRMitochondria, @Gotz2025ISRLifespan, @CostaMattioli2020ISRReview, @Aloise2023CoVPKR, @Kasimir2022HHV6Tissue, @Omdal2026LCFatigueStress, @Le2025ATF4Mitochondria.],
+  caption: [Entries added 2026-05-01 (first batch): ISR/GCN2--ATF4 pathway integration --- 3 hypotheses, 4 speculations, 1 open question across ch06, ch07, ch08. Entries added 2026-05-02 (second batch): 2 hypotheses (GDF15, pacing-ISR), 4 speculations (sex-ISR, prodromal-proteinopathy, shared-ISR, GDF15/FGF21 ratio), 1 open question (miR-aU14) across ch07, ch13, ch17, ch20. Entries added 2026-05-02 (third batch, Phase 4 completion): 11 open questions (tRNA-charging, PET-tracers, skin-biopsy, ODE-ISR, bifurcation, DAG-extension, two-population-model, heat-PERK, TRE, HBO-ISR, ISR-nutritional-candidates) integrated across ch17, ch18, ch20, ch25b..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-isr>
 ] // end landscape page
@@ -3502,7 +3502,6 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [EV depletion (plasmapheresis or EV capture) transiently reduces MDSC expansion and T-cell exhaustion signals. EV HSAT2 levels correlate with NK cytotoxicity deficits across patients.],
     [In vitro: healthy donor PBMCs + ME/CFS plasma EVs vs control EVs; MDSC and T-cell exhaustion phenotyping. Clinical: plasmapheresis pilot (n=5--10) with pre/post NK cytotoxicity + MDSC flow cytometry.],
     [Ch.14a @sec:herv-exosome-loop],
-    [Ch.14a @hyp:hsat2-pan-retrotransposon-response],
     [Ch.14d @spec:ebv-cmv-hsat2-subset],
     [Ch.14d @hyp:hsat2-kinetic-distinction],
     [Ch.14d @spec:fibrotic-hsat2-gap],
@@ -3513,7 +3512,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.20 @pr:multi-modal-retrotransposon-panel],
 
   ),
-  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression --- 2 speculations across ch07, ch14a. Motivated by @Evdokimova2019HSAT2exosome, @Nogalski2019HSATII, @Shadle2019HSATII.],
+  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression --- 2 speculations across ch07, ch14a..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-hsat2>
 ] // end landscape page
@@ -3715,7 +3714,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.20 @oq:skin-senescence-biopsy],
 
   ),
-  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression Phase 4 integrations --- 12 speculations, 2 open questions across ch07, ch13, ch14a, ch14d, ch16, ch17, ch18, ch20. Phase 5 additions (2026-05-01): 17 new environments from Clusters C+D expansion and brainstorm integration --- 1 hypothesis, 13 speculations, 3 open questions across ch07, ch13, ch14d, ch16, ch17, ch18, ch20. Motivated by @Evdokimova2019HSAT2exosome, @Nogalski2019HSATII, @Shadle2019HSATII, @Ninomiya2023HSATII, @Eymery2010HSF1SatII, @Decottignies2012Sat2heatshock, @Kishikawa2016HSATIIserum, @Jeffery2021CENPAp53, @BoschPresegue2011SIRT1SUV39H1.],
+  caption: [Entries added 2026-05-01: HSAT2/HERV exosomal immune suppression Phase 4 integrations --- 12 speculations, 2 open questions across ch07, ch13, ch14a, ch14d, ch16, ch17, ch18, ch20. Phase 5 additions (2026-05-01): 17 new environments from Clusters C+D expansion and brainstorm integration --- 1 hypothesis, 13 speculations, 3 open questions across ch07, ch13, ch14d, ch16, ch17, ch18, ch20..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-hsat2-phase4>
 ] // end landscape page
@@ -3755,7 +3754,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.25b @oq:isr-mcas-pharmacodynamics],
 
   ),
-  caption: [Entries added 2026-05-02: MCAS--ISR bidirectional crosstalk (child cycle of ISR H9) --- 2 speculations, 2 open questions across ch07, ch13, ch20, ch25b. Motivated by @Fan2024ERStressMastCell --- ER stress drives mast cell degranulation via IRE1--XBP1--Syk; eIF2α-P suppresses XBP1; @Wang2017SHP2MastCellPERK --- PERK--eIF2α--ATF4 axis functional in mast cells; @Wilhelm2017MCLUPRProteotoxic --- mast cell lineage constitutively UPR-dependent; @Soboloff2002ERCalciumMastCell --- ER Ca2+ depletion suppresses protein synthesis; severe sustained depletion required for eIF2α-P; @Iskarpatyoti2022MastCellRegranulation --- mTORC1 drives translational-intensive granule reconstitution; @Rohrhofer2025mecfsmast --- MCAS in ~25% ME/CFS.],
+  caption: [Entries added 2026-05-02: MCAS--ISR bidirectional crosstalk (child cycle of ISR H9) --- 2 speculations, 2 open questions across ch07, ch13, ch20, ch25b..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-mcas-isr>
 ] // end landscape page
@@ -3783,7 +3782,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.5 @spec:septad-genetics],
 
   ),
-  caption: [Entries added 2026-05-01: Strengthened Septad diagnostic map --- 1 hypothesis (MCAS-triggered ME/CFS pathway), 1 speculation (conditional genetic predisposition layer). Motivated by @Rohrhofer2025mecfsmast, @Vazquez2022TPSAB1, @AfrinMolderings2020postCOVID, @Weinstock2021LongCOVIDmast.],
+  caption: [Entries added 2026-05-01: Strengthened Septad diagnostic map --- 1 hypothesis (MCAS-triggered ME/CFS pathway), 1 speculation (conditional genetic predisposition layer)..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-septad-map>
 ] // end landscape page
@@ -3811,7 +3810,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.4 @hyp:multi-domain],
 
   ),
-  caption: [Entries added 2026-05-01: Domain 6 (Mast Cell / Histaminergic Dysregulation) framework entries. Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Valent2021criteria @Yao2025MCASPOTStriad.],
+  caption: [Entries added 2026-05-01: Domain 6 (Mast Cell / Histaminergic Dysregulation) framework entries..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-domain6>
 ] // end landscape page
@@ -3881,7 +3880,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.5 @oq:mcas-duration-response],
 
   ),
-  caption: [Entries added 2026-05-01: Mechanistic hypotheses from strengthened Septad map --- 3 hypotheses, 4 speculations, 2 open questions. Motivated by @Eccles2021hypermobility, @Rohrhofer2025mecfsmast, @Yao2025MCASPOTStriad, @WirthLohn2023MECFSvascular, @Vazquez2022TPSAB1.],
+  caption: [Entries added 2026-05-01: Mechanistic hypotheses from strengthened Septad map --- 3 hypotheses, 4 speculations, 2 open questions..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-septad-mechanistic>
 ] // end landscape page
@@ -3945,7 +3944,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.18 @hyp:ketotifen-famotidine-first-line],
 
   ),
-  caption: [Entries added 2026-05-01: Domain 6 Phase 4 brainstorm integrations — 1 hypothesis (carotid body mast cell OI), 6 speculations (hypothalamic master switch, MRGPRX2, permissive matrix, bistable switch, mito transfer, DAO cofactor, ketotifen+famotidine), 0 open questions (added inline). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Valent2021criteria @Yao2025MCASPOTStriad @Weinstock2024Ketotifen.],
+  caption: [Entries added 2026-05-01: Domain 6 Phase 4 brainstorm integrations — 1 hypothesis (carotid body mast cell OI), 6 speculations (hypothalamic master switch, MRGPRX2, permissive matrix, bistable switch, mito transfer, DAO cofactor, ketotifen+famotidine), 0 open questions (added inline)..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-domain6-phase4>
 ] // end landscape page
@@ -4056,7 +4055,7 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.5 @spec:estrogen-th1-subgroup],
 
   ),
-  caption: [Entries added 2026-05-01: Lichen sclerosus–ME/CFS integration (Phase 2+4) — 9 hypotheses (terrain marker, trip-switch, IL-15, miR-155, TRM, fibrosis, ECM1, estrogen-Th1, SSc/vitiligo comparators), 5 speculations (subgroup ch05, LDN, steroid pulse, quercetin+NAC, LS terrain), 2 open questions (temporal prodrome, ECM1 biomarker). Motivated by @DeLuca2023LS2023Update @Paganelli2025LSCytokines @Oyama2022LSGeneticInterplay @Kassels2024LSAutoimmune @Halonen2024LSRiskFactorsFinland @Batham2024MECFSAutoimmunity @Paulis2019LSOxidativeStress.],
+  caption: [Entries added 2026-05-01: Lichen sclerosus–ME/CFS integration (Phase 2+4) — 9 hypotheses (terrain marker, trip-switch, IL-15, miR-155, TRM, fibrosis, ECM1, estrogen-Th1, SSc/vitiligo comparators), 5 speculations (subgroup ch05, LDN, steroid pulse, quercetin+NAC, LS terrain), 2 open questions (temporal prodrome, ECM1 biomarker)..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-01-lichen-sclerosus>
 ] // end landscape page
@@ -4192,14 +4191,14 @@ Motivated by: Chalder, Moreau et al. 2026 (@ChalderMoreau2026ptprn2) — PTPRN2 
     [Ch.20 @oq:hsat2-skin-biopsy-protocol],
 
   ),
-  caption: [Entries added 2026-05-02: HSAT2 brainstorm Phase 4 completion — 20 new environments across ch13, ch14d, ch16, ch17, ch18, ch20. Includes 2 mathematical model speculations, 1 hypothesis (EuroFlow), 7 speculations, 10 open questions. Motivated by @DeCecco2019LINE1, @Vourc_h2022HSF1SatIII, @Jeffery2021CENPAp53, @BoschPresegue2011SIRT1SUV39H1, @Goh2016HCVMDSCArginase, @Veglia2021MDSCDiversity, @BeliakovanBethell2022MDSCPostCOVID, @EatonFitch2024ImmuneExhaustion, @Kishikawa2016HSATIIserum, @Zhu2014MTHFR.],
+  caption: [Entries added 2026-05-02: HSAT2 brainstorm Phase 4 completion — 20 new environments across ch13, ch14d, ch16, ch17, ch18, ch20. Includes 2 mathematical model speculations, 1 hypothesis (EuroFlow), 7 speculations, 10 open questions. Motivated by HSAT2 research.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-hsat2-phase4-completion>
 ] // end landscape page
 
 === Entries Added 2026-05-02: MtDNA Predisposition and ADHD Shared Substrate
 
-Motivated by: @BillingRoss2016mtDNA (haplogroup symptom modulation), @Venter2019mtDNA (anomalous variant distribution, two cohorts), @Albright2011heritability (family relative risk), @Chang2020haploADHD (haplogroup U protective in ADHD, n > 7,000), @Giannoulis2024sysrevmtADHD (systematic review), @Verma2016ADHDcybrid (cybrid functional impairment), @Dibble2020genetics (null onset predisposition review), @Naviaux2014cdr (CDR reserve capacity framing).
+Motivated by:  (haplogroup symptom modulation),  (anomalous variant distribution, two cohorts),  (family relative risk),  (haplogroup U protective in ADHD, n > 7,000),  (systematic review),  (cybrid functional impairment),  (null onset predisposition review),  (CDR reserve capacity framing).
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -4248,14 +4247,14 @@ Motivated by: @BillingRoss2016mtDNA (haplogroup symptom modulation), @Venter2019
     [Ch.25b @oq:baseline-reserve-prospective],
 
   ),
-  caption: [Entries added 2026-05-02: mtDNA predisposition and ADHD shared substrate integration — 6 new environments across ch13, ch14d, ch25b. Includes 3 speculations and 3 open questions. Motivated by @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Dibble2020genetics, @Naviaux2014cdr.],
+  caption: [Entries added 2026-05-02: mtDNA predisposition and ADHD shared substrate integration — 6 new environments across ch13, ch14d, ch25b. Includes 3 speculations and 3 open questions..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-mtdna>
 ] // end landscape page
 
 === Entries Added 2026-05-02 (Phase 4): MtDNA Predisposition Brainstorm Integration
 
-Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Naviaux2014cdr.
+Motivated by: , , , , , , .
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -4382,7 +4381,7 @@ Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability
     [Ch.18 @spec:haplogroup-supplement-personalization],
 
   ),
-  caption: [Entries added 2026-05-02 (Phase 4): mtDNA predisposition brainstorm integration — 17 new environments across ch13, ch14d, ch18, ch20. Includes 13 speculations, 4 open questions. Motivated by @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability, @Chang2020haploADHD, @Giannoulis2024sysrevmtADHD, @Verma2016ADHDcybrid, @Naviaux2014cdr.],
+  caption: [Entries added 2026-05-02 (Phase 4): mtDNA predisposition brainstorm integration — 17 new environments across ch13, ch14d, ch18, ch20. Includes 13 speculations, 4 open questions..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-mtdna-phase4>
 ] // end landscape page
@@ -4445,7 +4444,7 @@ Motivated by: @BillingRoss2016mtDNA, @Venter2019mtDNA, @Albright2011heritability
     [Ch.17 @spec:histamine-timing-chrono],
 
   ),
-  caption: [Entries added 2026-05-02: MCAS Domain 6 Phase 4 completion — 8 new environments: 7 speculations (pDC IFN loop, Lyme/Bartonella mast cell convergence, luteolin-quercetin-PEA, imatinib KIT subset, tVNS mast brake, lymphatic stasis brain fog, procyanidin+resveratrol) + 1 speculation (histamine-smart timing). Open-question environments added inline in ch25b (N-of-1 cromolyn causality, PBR28 PET-MRI disambiguation, topical cromolyn hemibody trial, Petri net domain 6 model). Motivated by @Rohrhofer2025mecfsmast @Theoharides2024ANS @Conway2024BeyondMCAS @Lee2025CanadaMCAS @Valent2021criteria.],
+  caption: [Entries added 2026-05-02: MCAS Domain 6 Phase 4 completion — 8 new environments: 7 speculations (pDC IFN loop, Lyme/Bartonella mast cell convergence, luteolin-quercetin-PEA, imatinib KIT subset, tVNS mast brake, lymphatic stasis brain fog, procyanidin+resveratrol) + 1 speculation (histamine-smart timing). Open-question environments added inline in ch25b (N-of-1 cromolyn causality, PBR28 PET-MRI disambiguation, topical cromolyn hemibody trial, Petri net domain 6 model)..],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-02-domain6-completion>
 ] // end landscape page
@@ -4666,7 +4665,7 @@ Motivated by: LaTeX→Typst registry migration; these environments existed in ch
 
 === Entries Added 2026-05-03: Systemic Sclerosis (SSc) and ME/CFS Integration
 
-Motivated by: @vanEeden2023SScMECFS (Complex III/CyB deficit in SSc-ME/CFS subgroup, n=12), @vanEeden2022fatigue (SSc/AAV--ME/CFS immune-metabolic overlap review), @Kwakkenbos2025SScFatigue (SPIN cohort n=2,385; fatigue decoupled from fibrosis), @Basta2018SScFatigueSysRev (SSc fatigue systematic review), @Hartmann2023ADRA2A (ADRA2A as primary Raynaud's risk gene), @Tervi2024RaynaudGWAS (NOS3 + ADRA2A + HLA GWAS loci for Raynaud's), @Masini2021SScAutonomic (50% cardiac autonomic neuropathy in SSc; anti-Scl-70 predicts autonomic involvement).
+Motivated by: Systemic Sclerosis (SSc) and ME/CFS integration.
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -4715,14 +4714,14 @@ Motivated by: @vanEeden2023SScMECFS (Complex III/CyB deficit in SSc-ME/CFS subgr
     [Ch.14d @oq:ifn-cyb-two-axis-stratifier],
 
   ),
-  caption: [Entries added 2026-05-03: Systemic Sclerosis (SSc)--ME/CFS integration --- 4 speculations (Complex III convergent bottleneck, NOS3 endothelial substrate, cardiac autonomic neuropathy, ADRA2A vasospasm subgroup) and 2 open questions (PEM in SSc, IFN-I+CyB stratifier). Motivated by @vanEeden2023SScMECFS @vanEeden2022fatigue @Kwakkenbos2025SScFatigue @Hartmann2023ADRA2A @Tervi2024RaynaudGWAS @Masini2021SScAutonomic.],
+  caption: [Entries added 2026-05-03: Systemic Sclerosis (SSc)--ME/CFS integration --- 4 speculations (Complex III convergent bottleneck, NOS3 endothelial substrate, cardiac autonomic neuropathy, ADRA2A vasospasm subgroup) and 2 open questions (PEM in SSc, IFN-I+CyB stratifier).],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-03-ssc>
 ] // end landscape page
 
 === Entries Added 2026-05-05: HSAT2 Exosome Research Integration
 
-Motivated by: @Evdokimova2019HSAT2exosome (Exosomal HSAT2 transmission in Ewing sarcoma), @Seimiya2023HSATII (Serum HSATII RNA detection via TRAP-ddPCR), @Yoruker2026HSAT2cfDNA (Plasma cfDNA HSAT2 detection), @Cambier2021HSAT2EVs (EV-associated HSAT2 DNA, not exosomal), @Hardy2019endothelialEVs (Endothelial apoptotic EVs carry immunostimulatory RNAs), @Mullani2021senescenceRNA (Senescence-associated retrotransposon accumulation).
+Motivated by:  (Exosomal HSAT2 transmission in Ewing sarcoma),  (Serum HSATII RNA detection via TRAP-ddPCR),  (Plasma cfDNA HSAT2 detection),  (EV-associated HSAT2 DNA, not exosomal),  (Endothelial apoptotic EVs carry immunostimulatory RNAs),  (Senescence-associated retrotransposon accumulation).
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -4749,32 +4748,15 @@ Motivated by: @Evdokimova2019HSAT2exosome (Exosomal HSAT2 transmission in Ewing 
     [HSAT2 qPCR in patient PBMCs. HSF1 and CTCF ChIP-seq. Pericentromeric bisulfite sequencing. Senescence marker flow cytometry. Viral serology stratification.],
     [Ch.12 @hyp:hsat2-activation-mecfs],
 
-    [Endothelial Senescence as Unifying Mechanism in Long COVID and ME/CFS],
-    [H], [0.30],
-    [Nunes et al.~\cite{Nunes2026endothelialsenescence} propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle.
-The endothelial senescence-associated secretory phenotype (SASP) is characterized by proinflammatory, prooxidative, procoagulant, and vasoconstriction-prone properties.
-Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder~\cite{McAlpine2026,Nunes2026}.
-Study: (hypothesis framework, no primary data, certainty: Low).
-Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.
-] <hyp:nunes2026endothelialsenescence>,
-
     [Vascular Dysfunction Biomarkers in ME/CFS (First Direct Evidence)],
     [H], [0.30],
-    [Nunes et al.~\cite{Nunes2026endothelialsenescence} propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle.
-The endothelial senescence-associated secretory phenotype (SASP) is characterized by proinflammatory, prooxidative, procoagulant, and vasoconstriction-prone properties.
-Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder~\cite{McAlpine2026,Nunes2026}.
-Study: (hypothesis framework, no primary data, certainty: Low).
-Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.
-] <hyp:nunes2026endothelialsenescence>,
+    [Nunes et al.~\cite{Nunes2026endothelialsenescence} propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle. The endothelial senescence-associated secretory phenotype (SASP) is characterized by proinflammatory, prooxidative, procoagulant, and vasoconstriction-prone properties. Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder~\cite{McAlpine2026,Nunes2026}. Study: (hypothesis framework, no primary data, certainty: Low). Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.],
+    [Ch.14d @hyp:nunes2026endothelialsenescence],
 
     [Long COVID: Vascular Biomarkers Correlate with Cognitive and Psychiatric Symptoms],
     [Clinical Finding], [0.75],
-    [McAlpine et al.~\cite{McAlpine2026vascular} found that vascular biomarkers in neuropsychiatric Long COVID differ from recovered controls and acute COVID-19.
-Elevated endothelial adhesion markers (sL-selectin, ADAMTS13, sP-selectin, sICAM-1) and vascular reactivity proteins (fetuin, α-2 macroglobulin) characterize Long COVID vascular pathology.
-Importantly, coagulation markers (D-dimer, fibrinogen) did not differ from recovered controls, supporting endothelial dysfunction WITHOUT overt coagulopathy.
-These vascular biomarkers correlated with cognitive measures (fluency, verbal learning, memory) and psychiatric symptoms (depression, anxiety), linking endothelial dysfunction to "brain fog."
-Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty: Medium-High).
-] <clinical-findings:mcAlpine2026-cognitive-correlations>,
+    [McAlpine et al.~\cite{McAlpine2026vascular} found that vascular biomarkers in neuropsychiatric Long COVID differ from recovered controls and acute COVID-19. Elevated endothelial adhesion markers (sL-selectin, ADAMTS13, sP-selectin, sICAM-1) and vascular reactivity proteins (fetuin, α-2 macroglobulin) characterize Long COVID vascular pathology. Importantly, coagulation markers (D-dimer, fibrinogen) did not differ from recovered controls, supporting endothelial dysfunction WITHOUT overt coagulopathy. These vascular biomarkers correlated with cognitive measures (fluency, verbal learning, memory) and psychiatric symptoms (depression, anxiety), linking endothelial dysfunction to "brain fog." Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty: Medium-High).],
+    [Ch.14d @clinical-findings:mcAlpine2026-cognitive-correlations],
 
     [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?],
     [OQ], [---],
@@ -4786,6 +4768,7 @@ Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty
   caption: [Entries added 2026-05-05: HSAT2 exosome research integration --- 2 hypotheses (exosomal HSAT2 transmission, HSAT2 activation pathways), 1 speculation (endothelial ApoExos), 1 open question (HSAT2 subtype restriction). No direct ME/CFS evidence; all mechanisms inferred from cancer literature.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-05-hsat2>
+]
 
 #page(flipped: true, margin: 1.5cm)[
 #show figure.where(kind: table): set block(breakable: true)
@@ -4793,8 +4776,7 @@ Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty
   table(
     columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
     stroke: 0.5pt + gray,
-
-    [*Entry*], [*Type*], [*Certainty*], [*Testable Predictions*], [*Test Methods*], [*Source*],
+    table.header([*Entry*], [*Type*], [*Certainty*], [*Testable Predictions*], [*Test Methods*], [*Source*]),
 
     [Severity-Independent PEM Mechanism],
     [S], [0.45],
@@ -4836,4 +4818,35 @@ Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty
   caption: [Entries added 2026-05-07: Exercise recovery and PEM duration integration --- 3 hypotheses (CPET-2 signature, distinct Long COVID pathophysiology, prolonged epigenetic recovery, PEM recovery >24h), 2 speculations (severity-independent PEM, EV-mediated signaling). Based on 20-paper literature review including Keller2024CPET, vanCampen2020SeverityCPET, Sharma2025EpigeneticPEM, Giloteaux2024EVExercise, Gattoni2025LongCOVIDCPET.],
   kind: table,
 ) <tab:hypothesis-registry-2026-05-07-exercise-recovery>
+] // end landscape page
+
+=== Entries Added 2026-05-07: TSPO PET Imaging in ME/CFS
+
+Motivated by: LinkedIn post summarizing Michelle James (Stanford) presentation at Berlin conference on whole-body [11C]DPA-713-PET/MR imaging; 8-paper literature review including Raijmakers2021TSPOCFS (single published ME/CFS TSPO PET study, null finding), Barzon2026TSPOBBB (BBB transport confounding), VanElzakker2019TSPOReview (comprehensive review), and related studies in GWI, AD, MS, PD. Critical gap: Michelle James ME/CFS study not found in PubMed as of 2026-05-07 (conference-only or preprint).
+
+#page(flipped: true, margin: 1.5cm)[
+#show figure.where(kind: table): set block(breakable: true)
+#figure(
+  table(
+    columns: (3.2fr, 0.5fr, 0.6fr, 4fr, 4fr, 1.8fr),
+    align: (left, center, center, left, left),
+
+    [*Hypothesis Title*], [*Type*], [*Cert.*], [*Testable Predictions (condensed)*], [*Available Tests / Status*], [*Location*],
+
+    [TSPO Dual Role: Inflammation or Mitochondrial Dysfunction?],
+    [S], [0.40],
+    [(a) Peripheral TSPO signal (muscle, bone marrow) correlates more strongly with mitochondrial function assays than immune markers. (b) Brain TSPO signal in ME/CFS is not elevated even when peripheral TSPO is elevated. (c) Whole-body TSPO PET studies can discriminate between inflammation and mitochondrial dysfunction.],
+    [Whole-body TSPO PET imaging in ME/CFS. Comparative assays: phosphocreatine recovery, ATP production vs CRP, cytokines, flow cytometry. Multi-tracer approach (TSPO, TREM1, FDG-PET for metabolism).],
+    [Ch.06 @spec:tspo-dual-role],
+
+    [BBB Transport Confounding of TSPO PET Findings],
+    [H], [0.35],
+    [(a) TSPO tracer brain influx rate (K1) is lower in ME/CFS vs healthy controls. (b) K1 inversely correlates with CRP/plasma cytokine levels in ME/CFS. (c) Patients with highest peripheral inflammation show lowest brain TSPO K1 values. (d) No correlation between K1-corrected brain TSPO and symptom severity.],
+    [TSPO PET with K1 influx rate measurement in ME/CFS. Correlation of K1 with peripheral inflammatory markers (CRP, cytokines). Comparison of K1-corrected vs uncorrected TSPO signal. PEM flare-up longitudinal K1 measurement.],
+    [Ch.14k @hyp:bbb-tspo-confounding],
+
+  ),
+  caption: [Entries added 2026-05-07: TSPO PET imaging integration --- 1 speculation (TSPO dual role), 1 hypothesis (BBB transport confounding). Based on 8-paper literature review including Raijmakers2021TSPOCFS, Barzon2026TSPOBBB, VanElzakker2019TSPOReview, Alshelh2020GWITSPO, Khaing2026LW223, Yasuno2025DPA713AD, Chaney2023TREM1MS, Lucot2022TREM1PD. Critical gap: no published whole-body TSPO PET study in ME/CFS exists in PubMed; Michelle James conference data remains unpublished.],
+  kind: table,
+) <tab:hypothesis-registry-2026-05-07-tspo-pet>
 ] // end landscape page
