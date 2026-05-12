@@ -1,0 +1,32 @@
+date: 2026-05-10
+
+sleep: ~                     # not recorded
+
+medications_supplements: {}   # not yet recorded
+
+symptoms:
+  fatigue:
+    severity: moderate
+    notes: "Generally tired despite long sleep. Whole week tired. Tuesday-Thursday had headache. No energy for concentration. Not done too much, no energy for concentration."
+  lumbago:
+    severity: present
+    notes: "Back pain ongoing (from 2026-04-23 episode). Still painful."
+  headache:
+    severity: absent
+    notes: "Headache resolved. Lumbago still painful until Saturday 11th, seems better since Sunday 20260510."
+
+overall_wellbeing: ~
+
+activity: {}
+
+hypotheses:
+  - id: fatigue_persistent_week
+    text: "Whole week tired despite adequate sleep. Headache pattern Tuesday-Thursday suggests immune/inflammatory component. No energy for concentration."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If fatigue/headaches improve with anti-inflammatory treatment, inflammatory hypothesis supported."
+  - id: lumbago_improvement
+    text: "Lumbago still painful until Saturday 11th, seems better since Sunday 20260510."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If back pain continues improving, healing/recovery hypothesis supported. If pain returns, alternative pathology likely."

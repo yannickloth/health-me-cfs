@@ -1,0 +1,42 @@
+date: 2026-05-11
+
+sleep:
+  duration_hours: 9.5         # 2030-0600 = 9.5 hours
+  quality: unknown              # not recorded
+  source: patient_report
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements:
+    - "All supplements taken except MCT"
+  notes: "D-Ribose mixed in water with sodium salt and potassium salt (against hypovolemia and POTS)"
+
+symptoms:
+  fatigue:
+    severity: moderate
+    notes: "Tired despite long night (2030-0600 = 9.5 hours). Short nap in afternoon. Muscle pain - feels rigid, like after big effort. Lack of mental energy/motivation."
+  lumbago:
+    severity: improving
+    notes: "Lumbago still painful until Saturday 11th, seems better since Sunday 20260510."
+  muscle_pain:
+    severity: present
+    notes: "Muscle pain - feels rigid, like after big effort"
+
+overall_wellbeing: ~
+
+activity:
+  nap:
+    description: "Short nap in afternoon"
+
+hypotheses:
+  - id: fatigue_long_sleep_poor_quality
+    text: "Tired despite 9.5 hours sleep (2030-0600). Muscle rigidity suggests post-exertional malaise from Saturday physical activity despite fatigue."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If fatigue resolves within 2-3 days after restricting activity, PEM hypothesis supported. If fatigue persists despite rest, alternative cause likely."
+  - id: lumbago_improvement_confirmed
+    text: "Lumbago improvement confirmed - still painful until Saturday 11th, better since Sunday 20260510."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If improvement continues, healing confirmed. If pain returns, consider alternative pathology."

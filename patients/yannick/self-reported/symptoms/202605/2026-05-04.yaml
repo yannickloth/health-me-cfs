@@ -1,0 +1,27 @@
+date: 2026-05-04
+
+sleep: ~                     # not recorded
+
+medications_supplements: {}   # not yet recorded
+
+symptoms:
+  fatigue:
+    severity: moderate
+    notes: "Generally tired despite long sleep. Whole week tired. Tuesday-Thursday had headache."
+  lumbago:
+    severity: present
+    notes: "Back pain ongoing (from 2026-04-23 episode). Still painful."
+  headache:
+    severity: present
+    notes: "Part of Tuesday-Thursday headache pattern."
+
+overall_wellbeing: ~
+
+activity: {}
+
+hypotheses:
+  - id: fatigue_persistent_week
+    text: "Whole week tired despite adequate sleep. Headache pattern Tuesday-Thursday suggests immune/inflammatory component."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If fatigue/headaches improve with anti-inflammatory treatment, inflammatory hypothesis supported."
