@@ -45,3 +45,22 @@ Across all these triggers, a shared final pathway emerges: the acute infection i
 
 This explains a feature of ME/CFS that patients and their families often find bewildering: why does the illness persist when the infection is “gone”? The answer is that the pathological state has become self-sustaining. The trigger initiated the disease, but the trigger no longer _drives_ it. The integrated pathophysiological model — showing how immune dysfunction, metabolic failure, autonomic dysregulation, and potential autoimmunity lock together — is developed in detail in Section @sec:post-infectious-pathogenesis and in the multi-lock trap hypothesis (Section @sec:multi-lock-trap).
 
+=== Biological Convergence Across Triggers
+
+ME/CFS, whether triggered by EBV, enteroviruses, SARS-CoV-2, or other pathogens, follows a "terrain + trigger" model @Honore2026sharedMechanisms. Pre-existing vulnerability factors create a susceptible biological substrate:
+
+- *Genetic predisposition*: Including HLA associations and other immune-related genetic variants
+- *Hypermobility/EDS*: Connective tissue disorder may predispose to autonomic and immune dysregulation
+- *Pre-existing dysbiosis*: Gut microbiome disruption may prime immune system for exaggerated responses
+- *Chronic stress/trauma*: Psychological or physical trauma may alter HPA axis function
+- *Latent MCAS*: Mast cell activation syndrome in subclinical state may lower threshold for symptom activation
+
+An acute trigger—viral infection, surgery, physical trauma, or psychological trauma—then precipitates transition from vulnerability to chronic illness. The specific clinical expression—fibromyalgia, ME/CFS, or Long COVID—depends on the combination of pre-existing vulnerabilities and the nature of the trigger @Wong2021LongCOVIDMECFS.
+
+*Neuroimaging Evidence: Limbic Hypoperfusion*
+
+Li et al. (2021) used arterial spin labeling (ASL) MRI to demonstrate significantly reduced cerebral blood flow in limbic regions—anterior cingulate cortex, putamen, pallidum—in 31 ME/CFS patients compared to 48 healthy controls @Li2021limbicHypoperfusionMECFS. Hypoperfusion of the anterior cingulate cortex correlated with overall symptom severity scores. This finding provides a potential biomarker and reinforces the hypothesis of shared vascular mechanisms between post-infectious ME/CFS and Long COVID.
+
+#hypothesis(title: [Terrain + Trigger Model for Post-Infectious ME/CFS])[
+ME/CFS follows a "terrain + trigger" model where pre-existing vulnerability factors (genetic predisposition including HLA associations, hypermobility/EDS, pre-existing dysbiosis, chronic stress/trauma, latent MCAS) create a susceptible biological substrate. An acute trigger (viral infection, surgery, physical trauma, or psychological trauma) then precipitates transition from vulnerability to chronic illness. The specific clinical expression—fibromyalgia, ME/CFS, or Long COVID—depends on the combination of pre-existing vulnerabilities and the nature of the trigger. (Certainty: 0.60)
+] <sec:terrain-trigger-model>

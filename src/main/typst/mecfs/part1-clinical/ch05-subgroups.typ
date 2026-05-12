@@ -222,7 +222,13 @@ ME/CFS subgroups are not yet validated as clinical standard, but are increasingl
     - Subgroups identified in research have not been replicated consistently
     - Clinical management largely remains the same regardless of potential subgroup
 
-However, the absence of formal validation does not mean phenotyping lacks clinical utility. Two independent lines of evidence suggest that unguided empirical treatment carries disproportionate risk: (1) two-day CPET studies demonstrate that ME/CFS patients have severely impaired energy production that worsens after exertion @keller2024cpet @VanCampen2020SeverityCPET, and (2) pharmacological processing of any exogenous substance imposes metabolic demands on this already-depleted system. The _cost of not phenotyping_—irreversible deterioration from empirical treatment trials—may therefore exceed the cost of imperfect phenotype-guided treatment selection (see Chapter @ch:integrative-treatment for a treatment safety framework built on this reasoning).
+However, the absence of formal validation does not mean phenotyping lacks clinical utility. Two independent lines of evidence suggest that unguided empirical treatment carries disproportionate risk: (1) two-day CPET studies demonstrate that ME/CFS patients have severely impaired energy production that worsens after exertion @keller2024cpet @VanCampen2020SeverityCPET, and (2) pharmacological processing of any exogenous substance imposes metabolic demands on this already-depleted system.
+
+#warning-env(title: [Irreversible Deterioration Hypothesis])[
+The claim that empirical treatment trials cause "irreversible deterioration" is speculative and not established by controlled studies. While some patients report lasting functional decline after treatment-induced crashes, evidence for permanent function loss ranges (5-15% from severe crashes) remains anecdotal and not validated in prospective research. Discouraging evidence-based treatment due to crash fears may itself be harmful. Patients should not avoid potentially beneficial treatments solely because of speculative risk of permanent function loss.
+] <warn:irreversible-speculation>
+
+The _cost of not phenotyping_—potential long-term functional decline from empirical treatment trials—may therefore exceed the cost of imperfect phenotype-guided treatment selection (see Chapter @ch:integrative-treatment for a treatment safety framework built on this reasoning).
 
 *Future Directions.*
 Subgrouping holds promise for:
@@ -337,9 +343,9 @@ This classification is provisional and based on emerging evidence. No endotype h
 <sec:phenotyping-imperative>
 
 *The Cost of Not Phenotyping.*
-The traditional treatment approach in ME/CFS—empirical trial-and-error—assumes that failed trials carry manageable costs. In practice, this assumption fails catastrophically for severe patients. Each treatment trial imposes metabolic processing demands on an energy-depleted system (see Treatment Energy Categories, Section @subsec:energy-categories). When a trial triggers post-exertional malaise, the resulting crash can cause lasting functional decline—the crash severity dose-response hypothesis estimates 5–15% permanent function loss from severe crashes and potentially greater loss from catastrophic ones (Section @subsubsec:crash-dose-response, Table @tab:crash-severity-tiers).
+The traditional treatment approach in ME/CFS—empirical trial-and-error—assumes that failed trials carry manageable costs. In practice, this assumption fails catastrophically for severe patients. Each treatment trial imposes metabolic processing demands on an energy-depleted system (see Treatment Energy Categories, Section @subsec:energy-categories). When a trial triggers post-exertional malaise, the resulting crash may cause lasting functional decline—the crash severity dose-response hypothesis suggests potential function loss from severe crashes, though evidence for specific percentage estimates (5–15%) remains anecdotal and not established by controlled studies (Section @subsubsec:crash-dose-response, Table @tab:crash-severity-tiers).
 
-For a very severe patient operating at the lowest functional levels, there may be only one or two tolerable failed trials before irreversible deterioration. In this context, empirical treatment selection is not “trial-and-error”—it is gambling with irreplaceable biological reserves.
+For a very severe patient operating at the lowest functional levels, there may be only one or two tolerable failed trials before potentially irreversible deterioration. In this context, empirical treatment selection is not “trial-and-error”—it is gambling with irreplaceable biological reserves.
 
 #hypothesis(title: [Prospective Phenotyping as Harm Reduction])[
 Even imperfect phenotype-guided treatment selection is likely safer than unguided empirical trials for severe ME/CFS patients. The reasoning:
@@ -907,7 +913,7 @@ Until validated, this phenotype should be considered a _clinical hypothesis_ use
 
 *Certainty: 0.35.* Based on PTPN22 R620W shared risk in LS and post-viral autoimmunity, and the mechanistic concept of shared Treg/Th1 set-point perturbation. No prospective registry study has tested this; certainty reflects genetic mechanistic inference. Not yet replicated.
 
-Lichen sclerosus may not cause ME/CFS but could identify women whose Treg/Th1 immunological set-point is already perturbed such that a subsequent infectious trigger (EBV, SARS-CoV-2, enterovirus) tips the same dysregulated terrain into systemic ME/CFS. The molecular linchpin is PTPN22 R620W — a gain-of-function variant that lowers T-cell activation thresholds and is independently associated with both elevated LS risk and elevated post-viral autoimmunity risk @Oyama2022LSGeneticInterplay. HLA-DQ7/DR12 associations overlap between LS and several autoimmune post-infectious syndromes.
+Lichen sclerosus may not cause ME/CFS but could identify women whose Treg/Th1 immunological set-point is already perturbed such that a subsequent infectious trigger (EBV, SARS-CoV-2, enterovirus) tips the same dysregulated terrain into systemic ME/CFS. The molecular linchpin is PTPN22 R620W — a gain-of-function variant that lowers T-cell activation thresholds and is independently associated with both elevated LS risk and elevated post-viral autoimmunity risk. HLA-DQ7/DR12 associations overlap between LS and several autoimmune post-infectious syndromes.
 
 In this framework, LS functions as a visible "trip-switch" — the immune terrain is already perturbed (demonstrated by cutaneous autoimmunity), and one environmental challenge suffices to trigger systemic immune dysregulation matching ME/CFS criteria. Women with biopsy-confirmed LS would therefore represent a higher-risk population for post-infectious ME/CFS development, worth identifying and monitoring before an infectious event rather than after.
 
@@ -922,7 +928,7 @@ In this framework, LS functions as a visible "trip-switch" — the immune terrai
 
 *Certainty: 0.20.* Mechanistic inference from shared genetic risk architecture and overlapping comorbidity profiles; no cohort data exist on LS prevalence in ME/CFS. Not replicated.
 
-Lichen sclerosus (LS) is a Th1-dominant dermatosis associated with genetic risk loci (PTPN22, CTLA4, HLA-DQ7/DR12) that overlap with those implicated in ME/CFS autoimmune evidence @Oyama2022LSGeneticInterplay @Batham2024MECFSAutoimmunity. Both conditions cluster with the same autoimmune comorbidities (Hashimoto's, Sjögren's, SLE, vitiligo). A subset of ME/CFS patients with concurrent LS may represent a subgroup with heightened systemic autoimmune predisposition — distinguishable from patients whose ME/CFS appears primarily metabolic, neurological, or post-infectious in character.
+Lichen sclerosus (LS) is a Th1-dominant dermatosis associated with genetic risk loci (PTPN22, CTLA4, HLA-DQ7/DR12) that overlap with those implicated in ME/CFS autoimmune evidence @Batham2024MECFSAutoimmunity. Both conditions cluster with the same autoimmune comorbidities (Hashimoto's, Sjögren's, SLE, vitiligo). A subset of ME/CFS patients with concurrent LS may represent a subgroup with heightened systemic autoimmune predisposition — distinguishable from patients whose ME/CFS appears primarily metabolic, neurological, or post-infectious in character.
 
 This subgroup, if validated, would have implications for treatment prioritization: immune-modulating interventions (low-dose IL-2 for Treg restoration, immunoadsorption) might be preferentially trialled in LS-positive ME/CFS patients as a proxy for the autoimmune subgroup identified through other means (positive anti-muscarinic receptor antibodies, anti-beta-adrenergic antibodies, or elevated inflammatory markers).
 
@@ -936,7 +942,7 @@ This subgroup, if validated, would have implications for treatment prioritizatio
 
 *Certainty: 0.35.* Based on estrogen's documented immunomodulatory role (IFN-γ and IL-15 suppression, Treg support), the post-menopausal timing of LS onset, and consistent clinical reports of ME/CFS worsening at perimenopause. No direct intervention trial testing estrogen supplementation for ME/CFS immune normalization exists. Not yet replicated.
 
-Lichen sclerosus peaks post-menopause: vulvar epithelium loses estradiol-mediated ERα trophic and immunomodulatory signaling, unmasking the underlying Th1 dominance that was held in check by estrogen during reproductive years @DeLuca2023LS2023Update. The mechanism is well-characterized: estrogen normally suppresses IFN-γ and IL-15 production, stabilizes Foxp3+ Treg function, and maintains IL-10 tone — exactly the axes dysregulated in both LS and ME/CFS. ME/CFS women frequently report perimenopausal worsening, an observation consistent with the same Th1-derepression dynamic: estradiol withdrawal removes an endogenous immunomodulatory brake, allowing pre-existing Th1 terrain dysregulation to become clinically expressed or to intensify.
+Lichen sclerosus peaks post-menopause: vulvar epithelium loses estradiol-mediated ERα trophic and immunomodulatory signaling, unmasking the underlying Th1 dominance that was held in check by estrogen during reproductive years. The mechanism is well-characterized: estrogen normally suppresses IFN-γ and IL-15 production, stabilizes Foxp3+ Treg function, and maintains IL-10 tone — exactly the axes dysregulated in both LS and ME/CFS. ME/CFS women frequently report perimenopausal worsening, an observation consistent with the same Th1-derepression dynamic: estradiol withdrawal removes an endogenous immunomodulatory brake, allowing pre-existing Th1 terrain dysregulation to become clinically expressed or to intensify.
 
 This creates a testable subgroup hypothesis: ME/CFS women with peri/post-menopausal onset or worsening, concurrent or subsequent LS diagnosis, and elevated Th1 markers (IL-15, IFN-γ, reduced Treg frequency) represent a hormonally-stratifiable subgroup whose immune dysregulation is partially estrogen-dependent. This subgroup would be predicted to show differential response to hormonal modulation compared to ME/CFS patients with pre-menopausal or male onset.
 
@@ -944,3 +950,26 @@ This creates a testable subgroup hypothesis: ME/CFS women with peri/post-menopau
 
 *Limitations:* ME/CFS worsening at perimenopause has multiple confounders (sleep disruption, HPA axis changes, social/occupational factors) that must be excluded before attributing worsening to Th1 derepression specifically. Topical estradiol in LS is standard care for symptom management; improvement in LS symptoms does not necessarily indicate systemic immune modulation sufficient to affect ME/CFS. Estrogen's immunological effects are dose-, tissue-, and timing-dependent; systemic vs. local effects differ substantially. See Section @sec:lichen-sclerosus-immune-terrain for the underlying mechanistic evidence.
 ] <spec:estrogen-th1-subgroup>
+=== Overlap-Based Subgroups: Fibromyalgia, ME/CFS, and Long COVID
+<sec:overlap-based-subgroups>
+
+Research reveals that ME/CFS exists on a biological spectrum with fibromyalgia and Long COVID. The overlap between these conditions is substantial:
+
+- 30-50% of Long COVID patients meet ME/CFS diagnostic criteria
+- 20-70% of fibromyalgia patients present an ME/CFS-compatible clinical picture
+- A significant proportion of Long COVID patients develop widespread pain indistinguishable from fibromyalgia
+
+These overlaps are not coincidental; they reflect shared biological mechanisms @Honore2026sharedMechanisms.
+
+#warning-env(title: [Diagnostic Challenge])[
+The high overlap between ME/CFS, fibromyalgia, and Long COVID creates diagnostic uncertainty. Patients frequently carry one diagnosis while meeting criteria for one or both of the other conditions. This contributes to diagnostic delays averaging 5 years for fibromyalgia and 7 years for ME/CFS.
+]
+
+The shared biological framework includes:
+
+- *Neuroinflammation*: Activated microglia (primed state) leading to chronic CNS inflammation
+- *Central sensitization*: Amplified pain/sensory processing with failed descending inhibition
+- *Dysautonomia*: SNS/PNS imbalance with POTS prevalence of 20-50% across conditions
+- *Post-infectious trigger*: SARS-CoV-2 joins EBV and enteroviruses as ME/CFS triggers
+
+Recognition of this spectrum is essential for accurate diagnosis and appropriate management strategies.
