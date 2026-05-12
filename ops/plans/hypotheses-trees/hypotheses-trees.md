@@ -192,6 +192,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | clinical-case-integration | [subtrees/clinical-case-integration.md](subtrees/clinical-case-integration.md) | 2026-04 | 0 | 0 | ⬜ stub |
 | megc-integration      | [subtrees/megc-integration.md](subtrees/megc-integration.md)            | (no date)       | 0          | 0          | ⬜ stub        |
 | tspe-pet-imaging    | [subtrees/tspo-pet-imaging.md](subtrees/tspo-pet-imaging.md)        | 2026-05-07      | 35         | 3          | ✅ integrated|
+| methylprednisolone-long-covid | [subtrees/methylprednisolone-long-covid.md](subtrees/methylprednisolone-long-covid.md) | 2026-05-09 | 30 | 8 | 🔵 in progress |
 
 ---
 
@@ -201,3 +202,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 - Subtree files may themselves reference further subtrees, enabling arbitrary depth.
 - The usefulness scores are assigned by the main session immediately after Phase 3, before integration work begins.
 - Scores are revised after Phase 4 if integration reveals a higher or lower impact than anticipated.
+| shared-mechanisms-fibromyalgia-mecfs-longcovid | [subtrees/shared-mechanisms-fibromyalgia-mecfs-longcovid.md](subtrees/shared-mechanisms-fibromyalgia-mecfs-longcovid.md) | 2026-05-12 | 4 | 0 | ⬜ stub | —
