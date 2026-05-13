@@ -416,6 +416,47 @@ When CENPA does become overexpressed (through any route), evidence from 2021 stu
 
 *Limitations:* Highly indirect; requires both circulating HSAT2 EVs (unconfirmed in ME/CFS) and efficient fibroblast EV uptake. Centromere gene upregulation in fibroblasts has not been linked to the ME/CFS phenotype independently. The Evdokimova preprint remains unpublished in a peer-reviewed journal; all mechanistic support derives from a single cancer-biology preprint plus cancer cell line studies (Jeffery 2021, Shrestha 2021). NDC80 complex is functionally reduced (not elevated) when CENPA is overexpressed per protein-level assays, suggesting the mRNA upregulation seen in the Evdokimova preprint may reflect an early compensatory transcriptional response preceding the protein-level stoichiometric loss. Replication status: not replicated; Jeffery 2021 and Shrestha 2021 partially replicate the CENPA overexpression → instability chain in cancer lines only.
 ] <spec:hsat2-centromere-stress>
+
+#hypothesis(title: [Chronobiological Prolyl Hydroxylase Optimization])[
+*Certainty: 0.40.* Prolyl hydroxylases (P4H, P3H) exhibit circadian rhythms essential for collagen crosslinking. ROS-mediated inhibition of these enzymes in ME/CFS impairs ligament stability, particularly in hypermobile patients. Timed cofactor supplementation (ascorbic acid, alpha-ketoglutarate) at circadian peak times may maximize enzymatic activity and improve collagen crosslinking efficiency. (Mechanistically sound based on basic collagen biology; circadian regulation of prolyl hydroxylases documented; ascorbic acid deficiency causes scurvy via collagen crosslinking failure; no direct ME/CFS data.)
+
+*Mechanistic Rationale.* Prolyl hydroxylases hydroxylate proline residues in collagen chains, creating sites for stable crosslinking. ROS accumulation in ME/CFS inhibits these enzymes, while their natural circadian regulation peaks during collagen synthesis windows (typically during sleep). Ascorbic acid serves as a cofactor for hydroxylation, and alpha-ketoglutarate is the essential substrate for the hydroxylation reaction. The ROS-prolyl hydroxylase-HIF-1alpha connection established in connective tissue research~\cite{Wirth2026CTDMECFS} suggests this pathway is dysregulated in ME/CFS.
+
+*Testable Predictions.*
+- ME/CFS patients with hypermobility will show circadian variation in collagen crosslinking markers (hydroxyproline levels, serum procollagen type I C-terminal peptide)
+- Timed cofactor supplementation will improve these markers more than equivalent uncontrolled supplementation
+- Circadian timing of collagen synthesis markers will normalize with timed intervention
+- Hypermobile subset will show greater response to timed vs. uncontrolled supplementation
+
+*Clinical Implications.* If validated, this suggests simple, low-risk nutritional timing interventions to improve connective tissue health. Cofactor dosing must account for circadian rhythms: ascorbic acid and alpha-ketoglutarate administration timed to match peak enzymatic activity windows.
+
+*Safety Considerations.* Low-dose cofactors are generally safe. High-dose ascorbic acid can cause gastrointestinal upset; alpha-ketoglutarate is well-tolerated at typical supplement doses. Monitor for potential interactions with medications affecting collagen metabolism.
+
+*Limitations.* Assumes that timing optimization can overcome baseline ROS inhibition; no ME/CFS trials exist; timing protocols not established; individual circadian variation may affect response; ascorbic acid may have other effects beyond cofactor function.
+
+*Treatment Implications.* A trial of timed ascorbic acid (1000mg during sleep onset window) + alpha-ketoglutarate (200mg at same time) in hypermobile ME/CFS patients, comparing to equivalent total daily dose taken at fixed times. If effective, this could reduce hypermobility symptoms without pharmaceutical interventions.
+]
+
+#hypothesis(title: [VEGF-HIF-1α Disconnection Therapy])[
+*Certainty: 0.45.* Moschini 2026 demonstrated that HIF-1alpha drives connective tissue pathology independently of VEGF (VEGF deletion failed to rescue ECM abnormalities). This suggests that HIF-1alpha inhibitors might improve connective tissue pathology without affecting vascular function. Dimethyl fumarate (DMF) inhibits HIF-1alpha via NRF2 activation and is FDA-approved for multiple sclerosis. (Strong mechanistic link from tendinopathy research; cross-disease evidence; DMF safety profile known; may be beneficial for subset of ME/CFS patients.)
+
+*Mechanistic Rationale.* Traditional approaches target VEGF-mediated angiogenesis in ME/CFS, but VEGF deletion studies failed to rescue ECM abnormalities. HIF-1alpha directly drives pathological ECM remodeling independently of VEGF: it promotes basement membrane thickening in capillaries, upregulates MMP-3 for collagen degradation, and alters collagen matrix organization. DMF inhibits HIF-1alpha through NRF2 activation and is known to cross the blood-brain barrier, potentially addressing both peripheral and central manifestations of connective tissue pathology.
+
+*Testable Predictions.*
+- ME/CFS patients with basement membrane thickening or hypermobility will show reduced serum HIF-1alpha target gene expression after 12 weeks of DMF
+- Treatment will correlate with improved capillary perfusion metrics (skin capillary microscopy) and reduced symptom severity
+- DMF will normalize ECM biomarkers without affecting VEGF-driven angiogenesis
+- Patients with hypermobile phenotype will show greater improvement than non-hypermobile subset
+
+*Clinical Implications.* If validated, this represents a mechanistically targeted approach to connective tissue pathology using an existing safe medication. DMF's BBB penetration could address both peripheral connective tissue and central nervous system manifestations.
+
+*Safety Considerations.* DMF can cause lymphopenia, liver enzyme elevation, and gastrointestinal symptoms. Requires baseline CBC, LFTs, and regular monitoring. Contraindicated in pregnancy, severe hepatic impairment, or progressive multifocal leukoencephalopathy. Risk-benefit ratio must be carefully considered for chronic ME/CFS management.
+
+*Limitations.* DMF side effect profile may limit tolerability; no data on HIF-1alpha inhibition in ME/CFS; may benefit only specific subset; potential immunosuppressive effects could be problematic in ME/CFS immune dysregulation context.
+
+*Treatment Implications.* A trial of low-dose DMF (starting 120mg BID, titrated to 240mg BID) in ME/CFS patients with objective evidence of connective tissue pathology (hypermobility, capillary basement membrane thickening), monitoring for symptom improvement and known adverse effects.
+]
+
 == Lactate Compartmentalization Disorder
 <sec:lactate-compartment>
 

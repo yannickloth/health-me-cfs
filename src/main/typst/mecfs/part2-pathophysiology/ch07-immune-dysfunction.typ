@@ -697,6 +697,26 @@ Relevant open questions:
     - Is the DRG-binding fraction of IgG proportionally reduced by FcRn antagonism (expected yes, as FcRn is class-wide), and does DRG-bound IgG clear within the same timeframe as serum IgG?
     - Do pain and PEM scores improve proportionally to IgG reduction in IgG-DRG-positive patients?
     - Can IgG-DRG positivity (ex vivo binding assay on rodent DRG sections) serve as an enrichment biomarker for FcRn-antagonist trials?
+
+#hypothesis(title: [Mast Cell-Targeted MMP Inhibition Protocol])[
+*Certainty: 0.50.* Mast cells activate collagen-degrading MMPs via tryptase and chymase, while simultaneous mast cell stabilization and selective MMP inhibition could break the degradation cycle. ME/CFS patients with mast cell activation may benefit from low-dose doxycycline (subantimicrobial doses) combined with mast cell stabilizers (cromolyn, ketotifen). (Mechanistically sound pathway supported by cross-disease evidence from tendinopathy and connective tissue disorders; clinical precedent in rosacea and periodontal disease; mast cell activation prevalent in ME/CFS.)
+
+*Mechanistic Rationale.* Mast cells release tryptase and chymase that activate collagen-degrading matrix metalloproteinases (MMPs), particularly MMP-3 and MMP-9. In ME/CFS, chronic mast cell activation may drive progressive connective tissue weakness through this pathway. The proposed combination therapy addresses both the cellular source (mast cell stabilization) and the enzymatic effect (MMP inhibition). Doxycycline at 20mg BID inhibits MMP-9 without significant antimicrobial effects, making it suitable for long-term use. Cromolyn (10mg TID) stabilizes mast cells by inhibiting calcium influx and degranulation.
+
+*Testable Predictions.*
+- ME/CFS patients with elevated mast cell markers (tryptase, histamine) will show reduced serum MMP-3/MMP-9 levels after 8 weeks of combination therapy
+- Improvement will correlate with joint stability measures (Beighton score, joint hypermobility index) and reduced POTS severity
+- Combination therapy will show synergistic reduction in connective tissue symptoms compared to monotherapies
+- Serum collagen degradation markers (CTX, NTx) will decrease with treatment in responsive patients
+
+*Clinical Implications.* If validated, this represents a targeted approach to connective tissue pathology in mast cell-activated ME/CFS. The combination addresses both upstream mast cell activation and downstream MMP-mediated collagen degradation.
+
+*Safety Considerations.* Doxycycline at subantimicrobial doses (20mg BID) has minimal antibiotic effects but still requires monitoring for photosensitivity and GI upset. Cromolyn is generally well-tolerated but can cause local irritation. Baseline liver function tests and periodic monitoring recommended.
+
+*Limitations.* May only benefit mast cell-activated subset; optimal dosing and timing not established; long-term safety of chronic combination therapy unknown; may require careful titration to avoid PEM triggers; individual variation in mast cell phenotype may affect response.
+
+*Treatment Implications.* Trial protocol: cromolyn 10mg TID for 2 weeks (mast cell stabilization) then add doxycycline 20mg BID with food. Monitor mast cell markers (tryptase, histamine), MMP levels, joint stability, and symptom diaries. Discontinue if no response at 8 weeks or if adverse effects develop.
+]
     - Does the 2-year IgG persistence (Chen 2026 @Chen2026igGLongCOVID) reflect long-lived plasma cell production — in which case FcRn antagonism would require continuous dosing — or DRG accumulation as a reservoir, which might respond differently?
 
 These questions are resolvable by stratified clinical trials in IgG-DRG-positive ME/CFS patients. All FcRn antagonists currently approved for neuromuscular autoimmune disease carry infection risk and require immunological monitoring; they are not appropriate outside trial settings.
