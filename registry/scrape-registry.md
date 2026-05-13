@@ -16,7 +16,7 @@ Prevents re-processing of already-integrated content.
 ## Sources
 
 | Source | Last Scraped | Notes |
-|--------|-------------|-------|
+|--------|--------------|-------|
 | mecfsscience.org | 2026-03-21 | Critical ME/CFS research analysis blog by two long-term patients |
 | thespooniverse.org | 2026-03-26 | Patient-focused educational platform; treatment DB (75 entries), biomarker explorer (91), resource directory (1,000+) |
 | omfcanada.ngo | 2026-03-27 | Open Medicine Foundation Canada; research project pages for OMF-funded studies |
@@ -387,4 +387,29 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/29303706/ | pubmed | 2026-05-03 | 2026-05-03 | bib/appendix-h — Basta2018SScFatigueSysRev — fatigue in SSc systematic review |
 | https://pubmed.ncbi.nlm.nih.gov/37828025/ | pubmed | 2026-05-03 | 2026-05-03 | bib/appendix-h — Hartmann2023ADRA2A — ADRA2A IRX1 putative risk genes Raynaud's GWAS Nat Commun |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11480858/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — Tervi2024RaynaudGWAS — Raynaud's GWAS 8 loci vasculature immunity Cell Genomics |
-| https://pmc.ncbi.nlm.nih.gov/articles/PMC8922659/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — Masini2021SScAutonomic — autonomic dysfunction microvascular damage SSc pilot n=26 |
+| https://www.preprints.org/manuscript/202605.0876 | preprints.org | 2026-05-13 | SKIP | content-staging/INTEGRATION_GUIDE_connective-tissue-2026-05-13.md — Wirth2026CTDMECFS preprint (URL blocked, abstract only)
+| https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2024.1455498/full | frontiersin | 2026-05-13 | bib/appendix-h/integration-guide — Ganesh2024LongCOVIDHSD — Long COVID-HSD shared pathophysiology
+| https://www.frontiersin.org/rehabilitation-sciences/articles/10.3389/fresc.2023.1122673/full | frontiersin | 2026-05-13 | bib/appendix-h/integration-guide — Pollack2023FemaleRepro — female reproductive health LC/ME/CFS/POTS/EDS
+| https://www.frontiersin.org/neurology/articles/10.3389/fneur.2024.1455498 | frontiersin | 2026-05-13 | bib/appendix-h/integration-guide — Ganesh2024LongCOVIDHSD — shared pathophysiology ME/CFS/FM/POTS
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC11410636/ | pubmed/pmc | 2026-05-13 | bib/appendix-h/integration-guide — Ganesh2024LongCOVIDHSD — HSD/LC shared pathophysiology
+| https://onlinelibrary.wiley.com/doi/10.1002/pmrj.13120 | wiley | 2026-05-13 | bib/appendix-h/integration-guide — Logarbo2024LongCOVIDEDS — Long COVID EDS diagnosis case report
+| https://orphanet-journal-of-rare-diseases.biomedcentral.com/articles/10.1186/s13023-023-02829-9 | biomedcentral | 2026-05-13 | bib/appendix-h/integration-guide — Ramirez-Paesano2023CCI — craniocervical instability in EDS
+| https://www.science.org/doi/10.1126/scitranslmed.adt1228 | science.org | 2026-05-13 | bib/appendix-h/integration-guide — Moschini2026HIFTendinopathy — HIF-1α drives tendinopathy
+| https://onlinelibrary.wiley.com/doi/10.1002/jor.22147 | wiley | 2026-05-13 | bib/appendix-h/integration-guide — Sahin2012HIFTendon — HIF-1/VEGF in tendinopathy
+| https://academic.oup.com/rap/advance-article/doi/10.1093/rap/rkag034 | oxford-academic | 2026-05-13 | bib/appendix-h/integration-guide — Almutairi2026DysautonomiaMSD — dysautonomia meta-analysis N=1420
+| https://onlinelibrary.wiley.com/doi/10.1111/nmo.70305 | wiley | 2026-05-13 | bib/appendix-h/integration-guide — Kulin2026POTSGI — POTS GI symptoms meta-analysis N=8268
+| https://www.tandfonline.com/doi/10.1080/09638288.2026.2646723 | tandfonline | 2026-05-13 | bib/appendix-h/integration-guide — Berg2026HSDSurvey — hEDS/HSD lived experience N=2002
+| https://www.medrxiv.org/content/10.1101/2026.04.01.26349981v1 | medrxiv | 2026-05-13 | bib/appendix-h/integration-guide — Wilson2026hEDSWearable — hEDS wearable monitoring N=58
+| https://www.jmresearchprotocols.org/15/e80394 | jmresearchprotocols | 2026-05-13 | bib/appendix-h/integration-guide — Golden2026HSDPA — HSD/hEDS physical activity scoping review protocol
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10208411/ | pubmed/pmc | 2026-05-13 | bib/appendix-h/integration-guide — Pollack2023FemaleRepro — female reproductive health LC/ME/CFS/POTS/EDS
+| https://www.science.org/doi/10.1126/scitranslmed.adt1228 | science.org | 2026-05-13 | bib/appendix-h/integration-guide — Moschini2026HIFTendinopathy — HIF-1α tendinopathy driver
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC12733406/ | pubmed/pmc | 2026-05-13 | bib/appendix-h/integration-guide — Moschini2026HIFTendinopathy — PMC copy
+| https://www.onlinelibrary.wiley.com/doi/10.1002/jor.22147 | wiley | 2026-05-13 | bib/appendix-h/integration-guide — Sahin2012HIFTendon — HIF-1/VEGF MMP-3 tendon biomechanics
+| https://www.oup.com/rap/advance-article/doi/10.1093/rap/rkag034 | oxford-academic | 2026-05-13 | bib/appendix-h/integration-guide — Almutairi2026DysautonomiaMSD — dysautonomia prevalence meta-analysis
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC13070644/ | pubmed/pmc | 2026-05-13 | bib/appendix-h/integration-guide — Almutairi2026DysautonomiaMSD — PMC copy
+| https://www.wiley.com/doi/10.1111/nmo.70305 | wiley | 2026-05-13 | bib/appendix-h/integration-guide — Kulin2026POTSGI — POTS comorbidities meta-analysis
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC13062037/ | pubmed/pmc | 2026-05-13 | bib/appendix-h/integration-guide — Kulin2026POTSGI — PMC copy
+| https://www.tandfonline.com/doi/10.1080/09638288.2026.2646723 | tandfonline | 2026-05-13 | bib/appendix-h/integration-guide — Berg2026HSDSurvey — hEDS/HSD survey N=2002
+| https://www.medrxiv.org/content/10.1101/2026.04.01.26349981v1 | medrxiv | 2026-05-13 | bib/appendix-h/integration-guide — Wilson2026hEDSWearable — wearable monitoring preprint
+| https://www.jmresearchprotocols.org/15/e80394 | jmresearchprotocols | 2026-05-13 | bib/appendix-h/integration-guide — Golden2026HSDPA — scoping review protocol
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC8922659/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — Masini2021SScAutonomic — autonomic dysfunction microvascular damage SSc pilot n=26

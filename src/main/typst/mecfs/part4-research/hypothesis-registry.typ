@@ -19,3 +19,17 @@
     [Honore 2026 synthesis of terrain + trigger model; Wong 2021 systematic review of post-infectious ME/CFS triggers.],
     [Pre-existing vulnerability (genetic, hypermobility, dysbiosis, stress, MCAS) combines with acute trigger to produce chronic illness. Clinical expression depends on vulnerability + trigger combination.],
     [@sec:terrain-trigger-model],
+
+    [HIF-1alpha-Mediated Connective Tissue Remodeling],
+    [H], [0.55],
+    [(a) Chronic HIF-1alpha elevation in ME/CFS may drive pathological connective tissue remodeling through ROS-mediated inhibition of prolyl hydroxylases, impairing collagen crosslinking. (b) HIF-1alpha directly alters extracellular matrix composition in tendinopathy, causing collagen matrix disorganization and altered biomechanical properties. (c) HIF-1alpha-driven VEGF expression upregulates MMP-3, reducing tendon biomechanical stability. (d) In skeletal muscle capillaries, elevated HIF-1alpha may promote basement membrane thickening and extracellular matrix overproduction, impairing capillary perfusion and diffusion.],
+    [Wirth 2026 CTD-MECFS study; Moschini 2026 HIF-tendinopathy study; Sahin 2012 HIF-tendon study.],
+    [ROS-HIF-1alpha connection impairs collagen crosslinking; direct ECM alteration independent of angiogenesis; MMP-3-mediated degradation; basement membrane thickening in capillaries.],
+    [Ch.14a:hif1alpha-connective-tissue],
+
+    [Bidirectional Connective Tissue-ME/CFS Relationship],
+    [H], [0.45],
+    [(a) Connective tissue disorders (CTDs), particularly hypermobile Ehlers-Danlos syndrome (hEDS) and hypermobility spectrum disorders (HSD), show a bidirectional relationship with ME/CFS. (b) CTD → ME/CFS predisposition: Pre-existing connective tissue disorders may predispose to ME/CFS through: ligament laxity and craniocervical instability → mechanical strain on nervous system; autonomic dysfunction → orthostatic intolerance and fatigue; mast cell hyperactivity → inflammatory milieu; hypermobility prevalence: 30-57% in ME/CFS vs 10-15% general population. (c) ME/CFS → CTD exacerbation: ME/CFS pathophysiology may worsen connective tissue through: ROS-mediated inhibition of prolyl hydroxylases → impaired collagen crosslinking; chronic HIF-1alpha elevation → altered extracellular matrix composition; mast cell activation → MMP-mediated collagen degradation; basement membrane thickening in capillaries → impaired perfusion.],
+    [Ganesh 2024 Long COVID-HSD study; Logarbo 2024 Long COVID EDS case report; Ramirez-Paesano 2023 CCI review; Berg 2026 HSD survey; Wilson 2026 hEDS wearable study; Wirth 2026 CTD-MECFS preprint.],
+    [Bidirectional relationship: CTD may predispose to ME/CFS; ME/CFS may exacerbate underlying CTD pathology. Hypermobility 30-57% prevalence in ME/CFS vs 10-15% general population. Clinical screening and management implications.],
+    [Ch.13:hyp:ct-mecfs-bidirectional],

@@ -14998,3 +14998,252 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *high* Sample: Synthesizes multiple studies
         - *medium* Replication: First systematic comparison of Long COVID and ME/CFS
         - *medium* Limitations: Early literature, no meta-analysis, field evolving rapidly
+=== Wirth et al.\ 2026 — Connective Tissue Disorders and ME/CFS (0.35)
+
+    *Full Citation:*: Wirth KJ. Connective Tissue Disorders and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Preprints_. 2026;202605:0876.
+    *DOI:*: #link("https://doi.org/10.20944/preprints202605.0876")[10.20944/preprints202605.0876]
+    *PMID:*: N/A (preprint)
+    *Published:*: 2026 (preprint)
+    *Study Design:*: Narrative review/hypothesis paper
+    *Sample Size:*: N/A (review)
+    *Key Findings:*
+
+        - ME/CFS patients show manifestations of disturbed connective tissue
+        - Ligament laxity, hypermobility, craniocervical instability (CCI)
+        - Orthostatic intolerance due to connective tissue weakness of large vessels
+        - Skeletal muscle capillaries: basement membrane thickening
+        - Mast cell overactivity destabilizes connective tissue through chymase and tryptase
+        - Mast cell proteases activate collagen-degrading metalloproteinases (MMPs)
+        - Cytokines enhance MMP expression
+        - Hypoxia and ROS inhibit prolyl hydroxylases → impaired collagen crosslinking
+        - Hypoxia/ROS reduce HIF-1alpha degradation → chronic HIF-1alpha elevation
+        - Chronic HIF-1alpha elevation alters ECM composition (shown in tendinopathies)
+        - ME/CFS skeletal muscle dysfunction cannot compensate for ligament laxity → cervical spine instability
+        - In skeletal muscle capillaries, HIF-1alpha promotes ECM overproduction → basement membrane thickening
+        - Basement membrane thickening impairs capillary perfusion and diffusion → glycolytic metabolism
+        - HIF-2alpha sensitivity to ROS-mediated degradation impairs angiogenic maturation
+        - HIF-2alpha/HIF-1alpha imbalance permits sustained ECM production → reduced capillary density
+        - *Bidirectional relationship:* CTD may predispose to ME/CFS; ME/CFS may exacerbate CTD
+
+    *Conclusion:* Connective tissue disorders and ME/CFS have a bidirectional relationship. Pre-existing CTD may predispose to ME/CFS, while ME/CFS pathophysiology (ROS, HIF-1alpha, mast cell activation) may worsen connective tissue pathology.
+    *Limitations:* Preprint — URL blocked, only abstract available. No direct ME/CFS basement membrane data. HIF-1alpha/CTD data extrapolated from tendinopathy literature. Bidirectional relationship is theoretical, not directly tested.
+    *Certainty Assessment:*:
+        - *low* Quality: Low — preprint, inaccessible URL
+        - *high* Sample: Synthesizes multiple research areas
+        - *low* Replication: Preprint — no replication
+        - *low* Limitations: Inaccessible source, cross-disease extrapolation, no direct ME/CFS basement membrane studies
+
+=== Ganesh & Munipalli 2024 — Long COVID and HSD Shared Pathophysiology (0.50)
+
+    *Full Citation:*: Ganesh R, Munipalli B. Long COVID and hypermobility spectrum disorders have shared pathophysiology. _Front Neurol_. 2024;15:1455498.
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2024.1455498")[10.3389/fneur.2024.1455498]
+    *PMID:*: 39301475
+    *PMCID:*: PMC11410636
+    *Published:*: 2024
+    *Study Design:*: Narrative review
+    *Sample Size:*: N/A (review)
+    *Key Findings:*
+
+        - Hypermobility 30-57% in ME/CFS/FM/POTS/LC vs general population
+        - Mast cell activation/degranulation in Long COVID and ME/CFS causes hyperinflammation
+        - Mast cell-induced hyperinflammation and connective tissue damage induce hypermobility
+        - Persistent inflammation may cause or worsen hypermobility spectrum disorders (HSD)
+        - Screening recommendation: screen Long COVID patients for hypermobility, fibromyalgia, POTS, ME/CFS
+
+    *Conclusion:* Long COVID and ME/CFS share connective tissue pathophysiology via mast cell activation. Persistent inflammation in post-viral states may induce hypermobility. Screening for connective tissue disorders in Long COVID patients is recommended.
+    *Limitations:* Narrative review — no systematic methodology. No primary data. Cross-condition extrapolation. Hypermobility prevalence ranges from multiple studies with different methodologies.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — narrative review in peer-reviewed journal
+        - *high* Sample: Synthesizes prevalence data from multiple studies
+        - *medium* Replication: Review article — no new data to replicate
+        - *medium* Limitations: Narrative format, no systematic review methodology, cross-condition extrapolation
+
+=== Logarbo et al.\ 2024 — Long COVID Reveals EDS (0.45)
+
+    *Full Citation:*: Logarbo R, et al. Revealing an Underlying Ehlers-Danlos Syndrome Diagnoses After Long COVID: A Case Report. _PM&R_. 2024.
+    *PMID:*: 38116712
+    *Published:*: 2024
+    *Study Design:*: Case report
+    *Sample Size:*: n=1 (case report)
+    *Key Findings:*
+
+        - Long COVID patient diagnosed with underlying hEDS/HSD
+        - Clinical observation of delayed connective tissue disorder diagnosis in post-viral context
+        - Suggests Long COVID may reveal pre-existing but undiagnosed CTD
+
+    *Conclusion:* Post-viral states (Long COVID) can reveal underlying connective tissue disorders that were previously undiagnosed. Delayed CTD diagnosis may contribute to symptom burden.
+    *Limitations:* Case report (n=1) — single observation cannot be generalized. No systematic investigation of Long COVID → CTD detection rates.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed case report
+        - *low* Sample: n=1 case report
+        - *low* Replication: Single case report — requires independent observation
+        - *medium* Limitations: Small sample (n=1), case report format
+
+=== Ramirez-Paesano et al.\ 2023 — Craniocervical Instability in EDS (0.55)
+
+    *Full Citation:*: Ramirez-Paesano M, et al. Craniocervical Instability in Ehlers-Danlos Syndrome: A Narrative Review of Clinical Management. _Orphanet J Rare Dis_. 2023;18:18.
+    *DOI:*: #link("https://doi.org/10.1186/s13023-023-01974")[10.1186/s13023-023-01974]
+    *PMID:*: 37491286
+    *PMCID:*: PMC10369693
+    *Published:*: 2023
+    *Study Design:*: Narrative review
+    *Sample Size:*: N/A (review)
+    *Key Findings:*
+
+        - CCI produces ME/CFS-like symptoms in EDS/hEDS patients
+        - Symptoms: fatigue, pain, depression
+        - Mechanisms: neuroinflammation, opioid-induced hyperalgesia, central sensitization
+        - Perioperative opioid-minimization strategies recommended
+        - Recommended agents: ketamine, dexmedetomidine, lidocaine
+        - Surgical consultation requires EDS/CTD expertise
+
+    *Conclusion:* Craniocervical instability in EDS/hEDS produces symptom overlap with ME/CFS. Surgical management requires specialized expertise and opioid-minimization protocols.
+    *Limitations:* Narrative review — no systematic methodology. Clinical practice focus with limited primary research data. No direct ME/CFS-CCI studies (extrapolation from EDS).
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — clinical review in peer-reviewed journal
+        - *medium* Sample: Synthesizes clinical practice literature
+        - *medium* Replication: Review article — no new data to replicate
+        - *medium* Limitations: Narrative format, extrapolation from EDS to ME/CFS
+
+=== Moschini et al.\ 2026 — HIF-1alpha Drives Tendinopathy (0.70)
+
+    *Full Citation:*: Moschini G, Mohanan AG, et al. HIF1alpha gates tendon response to overload and drives tendinopathy independently of vascular recruitment. _Sci Transl Med_. 2026;18:eadt1228.
+    *DOI:*: #link("https://doi.org/10.1126/scitranslmed.adt1228")[10.1126/scitranslmed.adt1228]
+    *PMID:*: 41499520
+    *Published:*: 2026
+    *Study Design:*: Human + mouse mechanistic study
+    *Sample Size:* Human tendinopathy samples + mouse models
+    *Key Findings:*
+
+        - HIF-1alpha is a driver (not just marker) of tendinopathy
+        - Direct ECM alterations: collagen matrix disorganization, cross-linking, altered mechanics
+        - VEGF deletion failed to rescue ECM → direct HIF-1alpha role
+        - HIF-1alpha-driven pathology independent of angiogenesis
+        - Strain-dependent HIF-1alpha activation in tendon overload
+
+    *Conclusion:* HIF-1alpha directly drives connective tissue pathology through ECM remodeling, independent of vascular recruitment. This establishes HIF-1alpha as a mechanistic driver, not just a marker.
+    *Limitations:* Tendinopathy focus — direct extrapolation to ME/CFS connective tissue requires validation. No ME/CFS tendon data.
+    *Certainty Assessment:*:
+        - *high* Quality: High — rigorous mechanistic study in top journal
+        - *medium* Sample: Human samples + animal models
+        - *low* Replication: 2026 study — early for replication
+        - *medium* Limitations: Tendinopathy-specific, extrapolation to ME/CFS connective tissue
+
+=== Sahin et al.\ 2012 — HIF-1alpha/VEGF in Tendinopathy (0.55)
+
+    *Full Citation:*: Sahin E, et al. HIF-1alpha and VEGF in tendon degeneration: a possible link between hypoxia and tendinopathy. _J Orthop Res_. 2012;30(10):1753--1760.
+    *DOI:*: #link("https://doi.org/10.1002/jor.2012.269")[10.1002/jor.2012.269]
+    *PMID:*: 22615070
+    *Published:*: 2012
+    *Study Design:*: Animal model
+    *Sample Size:* Animal model (species not specified in abstract)
+    *Key Findings:*
+
+        - HIF-1alpha/VEGF/MMP-3 cascade reduces biomechanical tendon stability
+        - VEGF-mediated MMP-3 upregulation in hypoxic conditions
+        - Hypoxia-driven connective tissue degradation pathway
+        - Mechanical properties of tendons impaired
+
+    *Conclusion:* Hypoxia-induced HIF-1alpha elevation drives MMP-3 upregulation via VEGF, reducing tendon biomechanical stability. Establishes hypoxia-HIF-1alpha-MMP-3 mechanistic link.
+    *Limitations:* Animal model — extrapolation to humans and ME/CFS. Single study. Older study (2012). No ME/CFS-specific data.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — animal model in peer-reviewed journal
+        - *low* Sample: Animal model — limited generalizability
+        - *low* Replication: Single animal study — requires independent validation
+        - *low* Limitations: Animal model, cross-species extrapolation to ME/CFS
+
+=== Almutairi et al.\ 2026 — Dysautonomia Prevalence Meta-Analysis (0.65)
+
+    *Full Citation:*: Almutairi NA, Greenwood DC, Sivan M. The prevalence of dysautonomia in chronic musculoskeletal pain: a systematic review and meta-analysis. _Rheumatol Adv Pract_. 2026;10:rkag034.
+    *DOI:*: #link("https://doi.org/10.1093/rap/rkag034")[10.1093/rap/rkag034]
+    *PMID:*: 41978692
+    *PMCID:*: PMC13070644
+    *Published:*: 2026
+    *Study Design:*: Systematic review + meta-analysis
+    *Sample Size:* N=1420 patients, 417 controls (17 studies)
+    *Key Findings:*
+
+        - Pooled dysautonomia prevalence: 64% (95% CI 51-76)
+        - More than twice as likely as healthy controls (RR=2.28, 95% CI 1.51-3.45)
+        - Includes EDS subset (3 studies)
+        - 13 fibromyalgia studies, 3 EDS studies, 1 RA study
+        - Establishes dysautonomia as highly prevalent in connective tissue disorders
+
+    *Conclusion:* Dysautonomia is highly prevalent in chronic musculoskeletal pain conditions, including connective tissue disorders. Risk is >2x higher than healthy population.
+    *Limitations:* Heterogeneity across studies. Dysautonomia definition varied. EDS subset small (3 studies).
+    *Certainty Assessment:*:
+        - *high* Quality: High — meta-analysis with rigorous methodology
+        - *high* Sample: Large N=1420 patients, 417 controls
+        - *medium* Replication: Meta-analysis — syntheses of existing data, no new replication
+        - *medium* Limitations: Heterogeneity, small EDS subset, variable dysautonomia definitions
+
+=== Kulin et al.\ 2026 — POTS Comorbidities Meta-Analysis (0.70)
+
+    *Full Citation:*: Kulin D, Shah A, Fairlie T, et al. Gastrointestinal Symptoms and Systemic Comorbidities in Patients With POTS: A Systematic Review and Meta-Analysis. _Neurogastroenterol Motil_. 2026;38:e70305.
+    *DOI:*: #link("https://doi.org/10.1111/nmo.70305")[10.1111/nmo.70305]
+    *PMID:*: 41952073
+    *PMCID:*: PMC13062037
+    *Published:*: 2026
+    *Study Design:*: Systematic review + meta-analysis
+    *Sample Size:* 19 studies, 8268 POTS patients
+    *Key Findings:*
+
+        - Nausea 70.1%, bloating 64.9%, abdominal pain 60.4%
+        - MCAS 36.3% (95% CI 17.8-60.0)
+        - Joint hypermobility 31% (95% CI 24.4-38.5)
+        - Chronic fatigue 40.9%
+        - Establishes high comorbidity prevalence: MCAS, hypermobility, chronic fatigue in POTS
+
+    *Conclusion:* POTS has high prevalence of MCAS, hypermobility, and chronic fatigue. These comorbidities occur in ~30-40% of POTS patients.
+    *Limitations:* GI symptoms focus — comorbidity data may be incomplete. Wide confidence intervals (e.g., MCAS 17.8-60.0%).
+    *Certainty Assessment:*:
+        - *high* Quality: High — meta-analysis with rigorous methodology
+        - *high* Sample: Large N=8268 POTS patients
+        - *medium* Replication: Meta-analysis — syntheses of existing data, no new replication
+        - *medium* Limitations: GI focus, wide CIs, heterogeneous studies
+
+=== Berg et al.\ 2026 — hEDS/HSD Lived Experience (0.60)
+
+    *Full Citation:*: Berg L, et al. Hypermobility Spectrum Disorders: The Lived Experience of Diagnosis and Management. _Disabil Rehabil_. 2026.
+    *Published:*: 2026
+    *Study Design:* Large patient survey
+    *Sample Size:* N=2002
+    *Key Findings:*
+
+        - Diagnostic delay: 19-21 years
+        - 45.6% unemployment
+        - 83.9% chronic pain
+        - 84% female
+        - Comprehensive patient experience data on diagnostic journeys and management
+
+    *Conclusion:* hEDS/HSD patients experience long diagnostic delays and substantial functional impairment (unemployment, chronic pain). Female predominance (84%).
+    *Limitations:* Survey data — self-report bias. No clinical confirmation of diagnoses.
+    *Certainty Assessment:*:
+        - *medium-high* Quality: Medium-High — large survey with validated tools, peer-reviewed
+        - *high* Sample: Large N=2002
+        - *low* Replication: Single survey — requires independent validation
+        - *medium* Limitations: Self-report bias, no clinical diagnosis confirmation
+
+=== Wilson et al.\ 2026 — hEDS Wearable Autonomic Monitoring (0.60)
+
+    *Full Citation:*: Wilson E, et al. Objective assessment of autonomic dysfunction in hypermobile Ehlers-Danlos syndrome using wearable monitoring. _medRxiv_. 2026.
+    *PMID:*: 41959756
+    *PMCID:*: PMC13060409
+    *Published:*: 2026 (preprint)
+    *Study Design:* Prospective observational
+    *Sample Size:* N=58 (30-day monitoring)
+    *Key Findings:*
+
+        - BP instability in hEDS patients
+        - HRV disturbances
+        - Autonomic dysfunction objectively documented via wearable monitoring
+        - Objective physiologic data on CTD autonomic involvement
+
+    *Conclusion:* hEDS patients show objective evidence of autonomic dysfunction (BP instability, HRV disturbances) via wearable monitoring.
+    *Limitations:* Preprint (medRxiv). Moderate sample size (N=58). Single study.
+    *Certainty Assessment:*:
+        - *medium-high* Quality: Medium-High — prospective study with objective measures, preprint status
+        - *medium* Sample: N=58 (moderate)
+        - *low* Replication: Preprint — no replication
+        - *medium* Limitations: Preprint, moderate sample, single study
+

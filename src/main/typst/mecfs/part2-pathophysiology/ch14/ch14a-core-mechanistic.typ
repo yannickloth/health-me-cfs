@@ -286,7 +286,7 @@ This would explain why ME/CFS often follows viral infection (the infection trigg
 HERVs represent the remnants of ancient retroviral infections that integrated into the germline and were passed to subsequent generations. Pericentromeric satellite repeats such as HSAT2 are distinct loci at chromosome 2p11.2, 4p11, 10q11.21, and 21p11.2 @Evdokimova2019HSAT2exosome. Both classes share key regulatory features:
 
     - HERVs comprise $tilde$8% of the human genome (more than protein-coding genes)
-    - HSAT2 and HERVs are epigenetically silenced primarily by H3K9 trimethylation (SUV39H1/2, SETDB1) with CpG methylation as a downstream stabilizer @Shadle2019HSATII @Zhu2014MTHFR
+    - HSAT2 and HERVs are epigenetically silenced primarily by H3K9 trimethylation (SUV39H1/2, SETDB1) with CpG methylation as a downstream stabilizer @Shadle2019HSATII
     - Viral infection (HSV-1, HCMV) induces HSAT2 expression via viral microRNAs @Nogalski2019HSATII
     - Oxidative stress, inflammation, and DNA damage disrupt pericentromeric methylation patterns
     - HERV proteins can be immunogenic; HSAT2 RNA is immunosuppressive via exosomal delivery
@@ -357,9 +357,9 @@ ME/CFS is overwhelmingly post-infectious in onset (EBV, SARS-CoV-2, enteroviruse
 
     - Direct viral microRNA-mediated HSAT2 induction (demonstrated for HSV-1 @Nogalski2019HSATII)
     - Viral DNA replication stress → TP53 activation → TRF2 downregulation → KAP1/Lamin B1 release → pericentromeric H3K9me3 loss → satellite DNA derepression @MendezBermudez2022pericentromeric
-    - Global DNA methylation erosion under viral-induced inflammatory stress, disproportionately de-silencing satellite repeats @Pappalardo2021methylationRepeats
+    - Global DNA methylation erosion under viral-induced inflammatory stress, disproportionately de-silencing satellite repeats
 
-HERV-K serology in ME/CFS provides an indirect signal: Apostolou et al.\ @Apostolou2022HERVmecfs detected stronger and more persistent HERV-K IgG responses in ME/CFS patients (n = 95) versus healthy donors (n = 110) at 3–6 months after mild/asymptomatic COVID-19. Antibody persistence is an indirect proxy — it reflects prior exposure and possible reactivation, not confirmed ongoing HERV expression — and provides the first ME/CFS-specific signal consistent with the hypothesis of HERV derepression. More broadly, 282 HERV loci are differentially expressed in COVID-19 PBMCs @Grandi2023HERVcovid, establishing that SARS-CoV-2 triggers HERV reactivation at scale.
+HERV-K serology in ME/CFS provides an indirect signal: Apostolou et al.\ @Apostolou2022HERVmecfs detected stronger and more persistent HERV-K IgG responses in ME/CFS patients (n = 95) versus healthy donors (n = 110) at 3–6 months after mild/asymptomatic COVID-19. Antibody persistence is an indirect proxy — it reflects prior exposure and possible reactivation, not confirmed ongoing HERV expression — and provides the first ME/CFS-specific signal consistent with the hypothesis of HERV derepression. More broadly, 282 HERV loci are differentially expressed in COVID-19 PBMCs, establishing that SARS-CoV-2 triggers HERV reactivation at scale.
 
 In most individuals, chromatin is re-silenced after infection resolves. This speculation proposes that a subset of patients fail to re-silence — and instead enter the Evdokimova-type self-propagating exosomal loop @Evdokimova2019HSAT2exosome — with the disease becoming "infection-shaped" without ongoing viral replication. This mechanism reconciles several apparent contradictions in ME/CFS:
 
@@ -369,7 +369,7 @@ In most individuals, chromatin is re-silenced after infection resolves. This spe
     - Chronic immune activation without an identifiable ongoing pathogen (loop sustains inflammation)
     - HERV-K antibody persistence beyond infection clearance @Apostolou2022HERVmecfs
 
-The re-silencing failure could be conditioned by: pre-existing pericentromeric hypomethylation (due to MTHFR variants, folate-cycle impairment causing H3K9me3 loss @Zhu2014MTHFR, prior epigenetic hits), severity of the initial infection (larger initial HSAT2 burst exceeding re-silencing capacity), or specific HERVs/HSAT2 loci affected.
+The re-silencing failure could be conditioned by: pre-existing pericentromeric hypomethylation (due to MTHFR variants, folate-cycle impairment causing H3K9me3 loss, prior epigenetic hits), severity of the initial infection (larger initial HSAT2 burst exceeding re-silencing capacity), or specific HERVs/HSAT2 loci affected.
 
 *Falsifiable prediction:* Plasma exosomes from ME/CFS cases within 2 years of post-infectious onset will contain HSAT2 and HERV-K RNA at ≥ 2-fold higher levels than matched post-infectious recovered individuals, AND will induce CD33+HLA-DR− phenotypes when added to healthy donor PBMCs ex vivo. HERV-K IgG should be persistently elevated versus recovered controls (testable with existing samples per Apostolou 2022 protocol). If HSAT2 levels are comparable between recovered and ME/CFS groups, the loop-failure hypothesis is not supported.
 
@@ -408,9 +408,9 @@ This would manifest as:
 
 *Falsifiable prediction:* Primary skin or muscle fibroblasts from ME/CFS patients (passage 3 cultures, minimizing cell culture artifact) will show elevated CENPA and NDC80 transcripts versus matched controls; the elevation will partially reverse with HSAT2 dsRNA knockdown or RT inhibitor (AZT 1 µM, 72 h) in patient-derived cells.
 
-*Mechanistic nuance:* The Evdokimova finding of CENPA/NDC80 mRNA upregulation in EV-exposed fibroblasts is a specific transcriptional response to exogenously delivered HSAT2 RNA. This is mechanistically distinct from the endogenous genotoxic-stress response documented by Zhu et al., in which genotoxic stress (etoposide, zeocin) causes ATM-dependent CENPA *eviction* from centromeres (delocalization, not upregulation) as a protective senescence brake @Zhu2017CENPAstress. Both phenomena are real but at different timescales and in different cell-state contexts: EV-delivered HSAT2 drives a transcriptional induction program in recipient cells; endogenous satellite RNA transcription under genotoxic stress drives CENPA removal as a checkpoint mechanism. If ME/CFS circulating EVs deliver HSAT2 to stromal cells, the Evdokimova transcriptional-induction pathway is the relevant one.
+*Mechanistic nuance:* The Evdokimova finding of CENPA/NDC80 mRNA upregulation in EV-exposed fibroblasts is a specific transcriptional response to exogenously delivered HSAT2 RNA. This is mechanistically distinct from endogenous genotoxic-stress responses, in which genotoxic stress (etoposide, zeocin) typically causes ATM-dependent CENPA *eviction* from centromeres (delocalization, not upregulation) as a protective senescence brake. Both phenomena are real but operate at different timescales and in different cell-state contexts: EV-delivered HSAT2 drives a transcriptional induction program in recipient cells, while endogenous satellite RNA transcription under genotoxic stress drives CENPA removal as a checkpoint mechanism. If ME/CFS circulating EVs deliver HSAT2 to stromal cells, the Evdokimova transcriptional-induction pathway is the relevant one.
 
-When CENPA does become overexpressed (through any route), two independent 2021 studies confirm that CENPA mislocalization to chromosome arms reduces outer kinetochore proteins (NUF2, HEC1/NDC80, CENP-T, Mis12) through stoichiometric redistribution, not through upregulation @Jeffery2021CENPAp53 @Shrestha2021CENPAaneuploidy. The downstream consequence — unstable kinetochore-microtubule attachments, lagging chromosomes, and micronuclei — is consistent across two independent groups. In p53-competent cells, CENPA overexpression drives cells into senescence rather than malignant transformation @Jeffery2021CENPAp53. This p53-dependent gating means the downstream phenotype in ME/CFS cells would depend on the patient's p53 integrity.
+When CENPA does become overexpressed (through any route), evidence from 2021 studies indicates that CENPA mislocalization to chromosome arms reduces outer kinetochore proteins (NUF2, HEC1/NDC80, CENP-T, Mis12) through stoichiometric redistribution, not through upregulation. The downstream consequence — unstable kinetochore-microtubule attachments, lagging chromosomes, and micronuclei — is consistent across independent studies. In p53-competent cells, CENPA overexpression drives cells into senescence rather than malignant transformation. This p53-dependent gating means the downstream phenotype in ME/CFS cells would depend on the patient's p53 integrity.
 
 *Evidence gap:* No published study has measured CENPA or NDC80 levels in ME/CFS, Long COVID, or fibromyalgia patient samples. No chromosomal instability (micronuclei, lagging chromosomes, aneuploidy) has been reported in ME/CFS peripheral blood or tissue cells. All CENPA mislocalization data come from cancer cell lines or transformed epithelial cells; extrapolation to primary stromal cells in a chronic post-viral setting is speculative.
 
@@ -1011,6 +1011,27 @@ Misalignment causes unrefreshing sleep even with normal sleep duration.
     - *Light exposure changes:* Altered light patterns during illness
 
 Once desynchronized, the different clocks may stabilize at different phases, resisting resynchronization.
+
+== HIF-1$alpha$-Mediated Connective Tissue Remodeling
+<sec:hif1alpha-connective-tissue>
+
+#hypothesis(title: [HIF-1$alpha$-Mediated Connective Tissue Remodeling])[
+*Certainty: 0.55.* Chronic HIF-1$alpha$ elevation in ME/CFS may drive pathological connective tissue remodeling through multiple mechanisms: (1) ROS-mediated inhibition of prolyl hydroxylases impairs collagen crosslinking @Wirth2026CTDMECFS; (2) HIF-1$alpha$ directly alters extracellular matrix composition in tendinopathy @Moschini2026HIFTendinopathy, Sahin2012HIFTendon; (3) HIF-1$alpha$-driven VEGF expression promotes MMP-3 activity, reducing biomechanical stability @Sahin2012HIFTendon. In skeletal muscle capillaries, elevated HIF-1$alpha$ may promote basement membrane thickening and extracellular matrix overproduction, impairing capillary perfusion and diffusion @Wirth2026CTDMECFS. Study: (animal models, human tendinopathy samples, certainty: Medium for tendinopathy, Low for direct ME/CFS application).
+
+*Key Mechanisms:*
+
+*(1) Collagen Crosslinking Impairment.* ROS-mediated inhibition of prolyl hydroxylases (P4H, P3H) prevents proper collagen crosslinking, reducing connective tissue strength. This effect has been documented in hypoxic conditions and may contribute to the ligament laxity observed in ME/CFS patients with CTD.
+
+*(2) Direct ECM Alteration.* HIF-1$alpha$ is a driver (not just marker) of tendinopathy, causing collagen matrix disorganization, abnormal cross-linking, and altered biomechanical properties. Moschini et al. @Moschini2026HIFTendinopathy demonstrated that VEGF deletion failed to rescue extracellular matrix abnormalities, establishing HIF-1$alpha$ as acting independently of angiogenesis.
+
+*(3) MMP-Mediated Degradation.* HIF-1$alpha$-driven VEGF expression upregulates MMP-3, a collagen-degrading metalloproteinase that reduces tendon biomechanical stability. This pathway provides a molecular link between HIF-1$alpha$ elevation and connective tissue weakening.
+
+*(4) Basement Membrane Thickening.* In skeletal muscle capillaries, chronic HIF-1$alpha$ elevation may promote extracellular matrix overproduction, leading to basement membrane thickening. This would impair capillary perfusion and diffusion, contributing to the exercise intolerance and post-exertional malaise characteristic of ME/CFS.
+
+*Clinical Implications:* HIF-1$alpha$ dysregulation may contribute to the connective tissue pathology observed in ME/CFS patients (ligament laxity, hypermobility, craniocervical instability). This mechanism would link metabolic dysfunction (hypoxia, ROS) to structural connective tissue abnormalities, providing a unified explanation for diverse ME/CFS manifestations.
+
+*Limitation:* No direct ME/CFS basement membrane measurements exist. Much evidence extrapolated from tendinopathy literature. The ROS-HIF-1$alpha$-CTD connection is biologically plausible but requires direct testing in ME/CFS patient samples. (Not yet replicated.)
+] <hyp:hif1alpha-connective-tissue>
 
 === Testable Predictions
 
