@@ -6,7 +6,7 @@
 == Pacing and Energy Management
 <sec:pacing>
 
-Pacing is the most evidence-based and universally recommended non-pharmacological intervention for ME/CFS @jason2012energy @NICE2021mecfs. Unlike graded exercise therapy (which can be harmful), pacing recognizes the physiological limitations imposed by metabolic dysfunction and aims to prevent post-exertional malaise while maintaining the highest sustainable level of activity.
+Pacing is the most evidence-based and universally recommended non-pharmacological intervention for ME/CFS @jason2012energy Unlike graded exercise therapy (which can be harmful), pacing recognizes the physiological limitations imposed by metabolic dysfunction and aims to prevent post-exertional malaise while maintaining the highest sustainable level of activity.
 
 === Energy Envelope Theory
 
@@ -122,7 +122,7 @@ Use serial FUNCAP-27 assessments (weekly) to identify which specific functional 
 Standard pacing advice is undifferentiated—reduce overall activity. But ME/CFS patients have heterogeneous functional profiles. A patient whose "communication" domain is stable while "home activities" declines needs to adjust household tasks, not social contact. FUNCAP's 8-domain structure provides the granularity for targeted pacing.
 
 *Mechanistic Rationale.*
-The optimal control model (Chapter @ch:predictive-applications) implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
+The optimal control model (Chapter:predictive-applications) implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
 
 *Clinical Implementation.*
 1. *Baseline assessment*: Complete FUNCAP-27 to establish domain profile
@@ -193,7 +193,7 @@ Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that 
 === Cycle-Synchronized Pacing in Women
 <subsec:cycle-synced-pacing>
 
-Many women with ME/CFS report consistent cycle-phase variation in symptom burden @Pollack2023reproductiveHealth @Thomas2022sexDifferences. Premenstrual and menstrual phases (low estrogen, low progesterone) are most commonly reported as high-symptom periods, while the early-to-mid follicular phase (rising estrogen) is more often reported as higher-capacity. Standard pacing protocols that allocate a flat activity quota fail to account for this predictable variation.
+Many women with ME/CFS report consistent cycle-phase variation in symptom burden Premenstrual and menstrual phases (low estrogen, low progesterone) are most commonly reported as high-symptom periods, while the early-to-mid follicular phase (rising estrogen) is more often reported as higher-capacity. Standard pacing protocols that allocate a flat activity quota fail to account for this predictable variation.
 
 *Approach.* A cycle-synchronized pacing protocol allocates activity quotas dynamically across the cycle:
 
@@ -205,7 +205,7 @@ Many women with ME/CFS report consistent cycle-phase variation in symptom burden
 *Supportive supplementation.* Magnesium glycinate (400 mg/day) and pyridoxine (vitamin B6, 50 mg/day), taken during the luteal phase only, are used in premenstrual syndrome management for their roles in GABA synthesis and progesterone metabolism; no trials have evaluated these specifically in ME/CFS, and use is extrapolated from the PMS literature. *Safety note:* Pyridoxine at doses above 50 mg/day with prolonged continuous use carries a risk of peripheral sensory neuropathy; restrict to luteal-phase use only (approximately 10–14 days per cycle, not daily year-round) and do not exceed 50 mg/day.
 
 #speculation(title: [Cycle-Synchronized Pacing Reduces Premenstrual PEM Frequency])[
-*Certainty: 0.20.* A cycle-synchronized pacing protocol that reduces activity quotas in the late luteal and menstrual phases should reduce PEM episode frequency compared to flat pacing, in women who report cycle-phase symptom variation. No controlled trial exists. The mechanism is consistent with estrogen-progestogen modulation of immune function and autonomic stability in ME/CFS @Thomas2022sexDifferences. Zero pharmacological cost; requires cycle tracking and planning capacity.
+*Certainty: 0.20.* A cycle-synchronized pacing protocol that reduces activity quotas in the late luteal and menstrual phases should reduce PEM episode frequency compared to flat pacing, in women who report cycle-phase symptom variation. No controlled trial exists. The mechanism is consistent with estrogen-progestogen modulation of immune function and autonomic stability in ME/CFS Zero pharmacological cost; requires cycle tracking and planning capacity.
 ] <spec:cycle-synced-pacing>
 
 == Sleep Optimization
@@ -235,16 +235,16 @@ Circadian rhythm disruption is common in ME/CFS and contributes to the delayed s
 ==== Nap Management in ME/CFS
 <sec:nap-management>
 
-Naps in ME/CFS do not function like naps in healthy fatigue. The mechanisms that make healthy naps restorative --- adenosine clearance, brief entry into light sleep stages, rapid return to alertness --- are all impaired in ME/CFS (Section @sec:nap-paradox). Nap guidance must therefore aim at harm reduction rather than restoration:
+Naps in ME/CFS do not function like naps in healthy fatigue. The mechanisms that make healthy naps restorative --- adenosine clearance, brief entry into light sleep stages, rapid return to alertness --- are all impaired in ME/CFS (Section:nap-paradox). Nap guidance must therefore aim at harm reduction rather than restoration:
 
-    - *Timing*: Early afternoon (13:00--15:00), aligned with the natural post-prandial circadian dip in alertness. Late naps (after 16:00) risk shifting the already-fragile circadian phase, delaying nighttime sleep onset, and reducing overnight slow-wave sleep @Tassi2000sleepInertia
-    - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section @sec:ch15-adenosine)
+    - *Timing*: Early afternoon (13:00--15:00), aligned with the natural post-prandial circadian dip in alertness. Late naps (after 16:00) risk shifting the already-fragile circadian phase, delaying nighttime sleep onset, and reducing overnight slow-wave sleep
+    - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section:ch15-adenosine)
     - *Horizontal rest without sleep has independent value*: Lying down reduces cardiac preload demands (critical for patients with orthostatic intolerance), decreases skeletal muscle energy expenditure, and may improve cerebral perfusion. Patients who "nap without sleeping" should not consider the time wasted
     - *Avoid fighting the nap*: Pushing through exhaustion to "save sleep for tonight" often costs more metabolically than a brief timed rest. The energy expenditure of forcing a depleted system to remain upright and active typically exceeds the circadian cost of a short early-afternoon rest
     - *Set an alarm*: Uncontrolled nap duration is the primary risk. A 20-minute alarm prevents entry into slow-wave sleep and the associated amplified sleep inertia
     - *Monitor for PEM-masking*: Afternoon sleepiness that follows unusual exertion may be the prodrome of post-exertional malaise rather than ordinary fatigue. If the nap is driven by activity from the previous 24--72 hours, pacing assessment is more appropriate than sleep
 
-Observational evidence suggests that afternoon napping in CFS is associated with worse objective cognitive performance @Gotts2015napCFS, though the causal direction is uncertain (napping may reflect severity rather than cause impairment).
+Observational evidence suggests that afternoon napping in CFS is associated with worse objective cognitive performance, though the causal direction is uncertain (napping may reflect severity rather than cause impairment).
 
 === Light Exposure Management
 
@@ -277,7 +277,7 @@ Protocol targeting Architecture C sleep barriers:
 + *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients. Photosensitivity is common in severe ME/CFS — start at 2,500 lux for 5 minutes and titrate upward only if tolerated. Discontinue if it triggers headache, eye pain, or sensory overload.
 
 #hypothesis(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
-If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by @spec:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
+If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
 ] <hyp:sleep-reserve-recovery>
 
 == Dietary Approaches
@@ -317,7 +317,7 @@ Mast cell degranulation and diamine oxidase (DAO) enzyme activity follow circadi
 
 *Testable prediction:* Patients on time-restricted histamine eating (histamine-rich foods only 10am--2pm) will experience fewer symptom flare days per month than continuous low-histamine restriction at equivalent total histamine load, assessed by daily symptom diary at 4 weeks.
 
-*Limitations:* Human chronobiology of histamine and DAO has been studied in only a handful of small experiments; the optimal timing window is uncertain and likely varies individually. Circadian rhythms in ME/CFS patients may themselves be dysregulated (Chapter @ch:endocrine), making standard timing recommendations unreliable. Total histamine load is difficult to equate across dietary patterns given variability in food preparation and storage. No ME/CFS study has tested this design.
+*Limitations:* Human chronobiology of histamine and DAO has been studied in only a handful of small experiments; the optimal timing window is uncertain and likely varies individually. Circadian rhythms in ME/CFS patients may themselves be dysregulated (Chapter:endocrine), making standard timing recommendations unreliable. Total histamine load is difficult to equate across dietary patterns given variability in food preparation and storage. No ME/CFS study has tested this design.
 ] <spec:histamine-timing-chrono>
 
     - *Low-FODMAP diet*: May benefit the 50–60% of ME/CFS patients with concurrent IBS symptoms. Reduces fermentable carbohydrates that cause gas, bloating, and diarrhea. Should be implemented with dietitian guidance through elimination and structured reintroduction phases
@@ -459,7 +459,7 @@ Wheat-free alternatives (assuming low-FODMAP compliance):
     - Nutritional deficiency risk: Wheat provides fiber, B vitamins, minerals. Ensure adequate replacements (brown rice, quinoa, vegetables).
     - Nocebo effect: Expectation of benefit may bias subjective symptom reporting. Objective tracking (steps, PEM severity scale) essential.
 
-See @ch:gut-microbiome for mechanistic details on gut permeability and zonulin pathways. See @sec:pem for PEM trigger mechanisms and the role of endotoxemia in post-exertional inflammation.
+See:gut-microbiome for mechanistic details on gut permeability and zonulin pathways. See:pem for PEM trigger mechanisms and the role of endotoxemia in post-exertional inflammation.
 
 == Exercise and Movement
 <sec:exercise>
@@ -496,7 +496,7 @@ Graded exercise therapy—progressive incremental increases in physical activity
 
 *The PACE Trial and Subsequent Reanalysis*
 
-The 2011 PACE trial initially claimed benefits from GET and cognitive behavioral therapy (CBT). However, subsequent reanalysis using objective outcomes (rather than subjective questionnaires) found @Wilshire2018 @geraghty2019cognitive.
+The 2011 PACE trial initially claimed benefits from GET and cognitive behavioral therapy (CBT). However, subsequent reanalysis using objective outcomes (rather than subjective questionnaires) found @Wilshire2018
 
     - No significant improvement in objective measures (6-minute walk distance, step counts, employment, benefits claims)
     - High rates of patient-reported harm in long-term follow-up
@@ -544,7 +544,7 @@ Large patient surveys consistently report high rates of harm from GET. A systema
 
 *Recent Meta-Analyses Do Not Rehabilitate GET*
 
-A cluster of systematic reviews and meta-analyses published in 2025--2026 @Zhao2026exercise @Wei2025exerciseMECFS @Liao2025exerciseNetwork claim that exercise improves fatigue in ME/CFS. However, all three share the same structural limitations: they pool unblinded trials using subjective outcomes, include studies with broad diagnostic criteria that do not require PEM, and mix mechanistically different interventions. Zhao et al.\ (2026, 17 RCTs, n=1,944) is representative: exercise improved subjective fatigue (SMD = 0.85) but produced no improvement in objective cardiopulmonary function or functional capacity---the predicted signature of blinding bias, not genuine therapeutic effect (see Section @sec:exercise-meta-cluster for detailed analysis). The BRANDO meta-epidemiological synthesis demonstrates that unblinding alone inflates patient-reported outcomes by SMD 0.56 on average @Hrobjartsson2014blinding, sufficient to explain most of the reported effect. These meta-analyses do not provide grounds for reconsidering the consensus against GET in PEM-positive ME/CFS patients.
+A cluster of systematic reviews and meta-analyses published in 2025--2026 claim that exercise improves fatigue in ME/CFS. However, all three share the same structural limitations: they pool unblinded trials using subjective outcomes, include studies with broad diagnostic criteria that do not require PEM, and mix mechanistically different interventions. Zhao et al.\ (2026, 17 RCTs, n=1,944) is representative: exercise improved subjective fatigue (SMD = 0.85) but produced no improvement in objective cardiopulmonary function or functional capacity---the predicted signature of blinding bias, not genuine therapeutic effect (see Section:exercise-meta-cluster for detailed analysis). The BRANDO meta-epidemiological synthesis demonstrates that unblinding alone inflates patient-reported outcomes by SMD 0.56 on average, sufficient to explain most of the reported effect. These meta-analyses do not provide grounds for reconsidering the consensus against GET in PEM-positive ME/CFS patients.
 
 #limitation(title: [Fairness Note: The BPS/GET Position Is More Nuanced Than Presented Here])[
 The biopsychosocial model's strongest form does not claim ME/CFS is purely deconditioning or psychological --- it proposes that perpetuating factors including deconditioning and activity avoidance interact with biological abnormalities. The original PACE protocol included therapist-guided, patient-negotiated activity targets with explicit instructions not to push beyond tolerated limits, which is more nuanced than the "progressive incremental increases" summary above. Pre-PACE trials (Fulcher and White 1997; Powell et al.\ 2001) showed benefit on subjective outcomes and some objective measures, and these findings deserve engagement rather than omission. The evidentiary standard applied here to PACE --- demanding objective primary outcomes from a trial powered and designed for subjective ones --- is stricter than the standard applied to many speculative frameworks elsewhere in this document, including Architecture C (certainty 0.50, with a key component resting on n=5 case data). This asymmetry should be acknowledged: describing PACE's findings as "decisively refuted" while presenting Architecture C with careful hedging reflects the author's biomedical perspective rather than a balanced evidence assessment, and readers should weigh both sides accordingly.
@@ -552,7 +552,7 @@ The biopsychosocial model's strongest form does not claim ME/CFS is purely decon
 
 *Recent Meta-Analyses Do Not Rehabilitate GET*
 
-A cluster of systematic reviews and meta-analyses published in 2025--2026 @Zhao2026exercise @Wei2025exerciseMECFS @Liao2025exerciseNetwork claim that exercise improves fatigue in ME/CFS. However, all three share the same structural limitations: they pool unblinded trials using subjective outcomes, include studies with broad diagnostic criteria that do not require PEM, and mix mechanistically different interventions (aerobic exercise, yoga, qigong, tai chi). Zhao et al.\ (2026, 17 RCTs, n=1,944) is representative: exercise improved subjective fatigue (SMD = 0.85) but produced no improvement in objective cardiopulmonary function or functional capacity---the predicted signature of blinding bias, not genuine therapeutic effect (see Section @sec:exercise-meta-cluster for detailed analysis). The BRANDO meta-epidemiological synthesis demonstrates that unblinding alone inflates patient-reported outcomes by SMD 0.56 on average @Hrobjartsson2014blinding, sufficient to explain most of the effect Zhao et al.\ report. These meta-analyses do not provide grounds for reconsidering the consensus against GET in PEM-positive ME/CFS patients.
+A cluster of systematic reviews and meta-analyses published in 2025--2026 claim that exercise improves fatigue in ME/CFS. However, all three share the same structural limitations: they pool unblinded trials using subjective outcomes, include studies with broad diagnostic criteria that do not require PEM, and mix mechanistically different interventions (aerobic exercise, yoga, qigong, tai chi). Zhao et al.\ (2026, 17 RCTs, n=1,944) is representative: exercise improved subjective fatigue (SMD = 0.85) but produced no improvement in objective cardiopulmonary function or functional capacity---the predicted signature of blinding bias, not genuine therapeutic effect (see Section:exercise-meta-cluster for detailed analysis). The BRANDO meta-epidemiological synthesis demonstrates that unblinding alone inflates patient-reported outcomes by SMD 0.56 on average, sufficient to explain most of the effect Zhao et al.\ report. These meta-analyses do not provide grounds for reconsidering the consensus against GET in PEM-positive ME/CFS patients.
 
 ==== The Comorbidity Exercise Conflict
 <sec:comorbidity-exercise-conflict>
@@ -571,7 +571,7 @@ behind international consensus, patients continue to receive exercise-based
 rehabilitation prescriptions from physicians treating their
 comorbidities—unaware that the standard protocol may trigger
 post-exertional malaise, functional decline, and disease
-progression @Kindlon2011GET @NICE2021mecfs @Twisk2009CBTGETharm @Stallard2026handi.
+progression @Kindlon2011GET
 
 *Scope of the Conflict*
 
@@ -629,7 +629,7 @@ The resolution of the comorbidity exercise conflict lies in
 _individualized, physiology-guided activity prescription_ rather than
 population-based exercise guidelines. The Workwell Foundation's two-day
 cardiopulmonary exercise test (CPET) protocol provides the scientific basis
-for this approach @Stevens2018CPETmethod @Davenport2010PTmodel.
+for this approach @Stevens2018CPETmethod
 
 Davenport et al.\ (2010) proposed that all physical therapy for ME/CFS must
 center on the ventilatory anaerobic threshold (VAT) determined by individual
@@ -820,23 +820,23 @@ Structured relaxation practices reduce sympathetic activation and may improve au
 === Meditation, Mindfulness, and Sensory Rest
 <sec:meditation-rest>
 
-The central principle for meditation and rest practices in ME/CFS is that _cognitive effort draws from the same limited energy reserve as physical effort_ @OConnor2019energyEnvelope. Practices must therefore be evaluated not by their label (meditation, yoga, mindfulness) but by their metabolic cost: passive, receptive practices that reduce CNS activation load are potentially beneficial; effortful practices requiring sustained concentration constitute cognitive exertion and can trigger PEM with 24--72 hour delay.
+The central principle for meditation and rest practices in ME/CFS is that _cognitive effort draws from the same limited energy reserve as physical effort_ Practices must therefore be evaluated not by their label (meditation, yoga, mindfulness) but by their metabolic cost: passive, receptive practices that reduce CNS activation load are potentially beneficial; effortful practices requiring sustained concentration constitute cognitive exertion and can trigger PEM with 24--72 hour delay.
 
 ==== Evidence: Mind-Body Interventions in ME/CFS
 
-A systematic review of 12 studies (7 RCTs) evaluating mind-body interventions in ME/CFS --- including MBSR, MBCT, relaxation training, Qigong, and isometric yoga --- found that 9 of 12 reported fatigue improvement and 8 of 12 showed anxiety/depression reduction @KhanpourArdestani2021mindBody. Meta-analysis of mindfulness-based therapies across somatization disorders (including CFS) showed a small-to-moderate effect on symptom severity (SMD $= -0.40$) and quality of life (SMD $= 0.39$) @Lakhan2013MBT. A controlled study of a 10-week MBSR program in women with CFS, fibromyalgia, and multiple chemical sensitivity ($n = 76$; 50 intervention, 26 waitlist control) found statistically significant improvements maintained at 3-month follow-up @Sampalli2009MBSR.
+A systematic review of 12 studies (7 RCTs) evaluating mind-body interventions in ME/CFS --- including MBSR, MBCT, relaxation training, Qigong, and isometric yoga --- found that 9 of 12 reported fatigue improvement and 8 of 12 showed anxiety/depression reduction Meta-analysis of mindfulness-based therapies across somatization disorders (including CFS) showed a small-to-moderate effect on symptom severity (SMD $= -0.40$) and quality of life (SMD $= 0.39$) A controlled study of a 10-week MBSR program in women with CFS, fibromyalgia, and multiple chemical sensitivity ($n = 76$; 50 intervention, 26 waitlist control) found statistically significant improvements maintained at 3-month follow-up
 
 #limitation(title: [Mind-Body Evidence Limitations])[
-All studies suffer from heterogeneous diagnostic criteria, small samples, and high risk of bias @KhanpourArdestani2021mindBody @Merkes2010MBSR. No study distinguished whether benefit derives from the _rest component_ (lying during body scan, reduced activity), the _cognitive mindfulness component_, or _social contact_ in group formats. Adverse event tracking is absent in most studies, meaning PEM exacerbation from cognitive demands may be underreported.
+All studies suffer from heterogeneous diagnostic criteria, small samples, and high risk of bias No study distinguished whether benefit derives from the _rest component_ (lying during body scan, reduced activity), the _cognitive mindfulness component_, or _social contact_ in group formats. Adverse event tracking is absent in most studies, meaning PEM exacerbation from cognitive demands may be underreported.
 ]
 
 ==== Isometric Yoga: The Best-Evidenced Adapted Form
 
 Isometric yoga --- static muscle contractions _without joint movement_, performed seated or lying down --- avoids the aerobic demand, balance challenge, and orthostatic stress of conventional yoga. Three studies from Oka and colleagues provide the most rigorous evidence for a mind-body practice adapted to ME/CFS:
 
-    - *Seated isometric yoga (RCT):* In 30 therapy-resistant CFS patients (Fukuda criteria), biweekly supervised sessions plus daily home practice over 2 months reduced Chalder Fatigue Scale scores from 25.9 $plus.minus$ 6.1 to 19.2 $plus.minus$ 7.5 ($p = 0.002$) in the yoga group versus no change in controls @Oka2014isometricYoga
-    - *Recumbent format for severe ME/CFS:* A pilot study ($n = 12$) adapted isometric yoga to a fully recumbent (lying down) format for patients too ill to sit, showing significant fatigue reduction with no PEM exacerbation --- critical safety data for the most vulnerable patients @Oka2017recumbentYoga
-    - *Mechanistic profile:* Single-session measurements in 15 CFS patients showed that isometric yoga produces the _opposite_ physiological signature from exercise-induced PEM: decreased cortisol, decreased TNF-$alpha$, increased DHEA-S, enhanced vagal tone (HF-HRV increase), and reduced heart rate @Oka2018yogaMechanisms. This parasympathetic-shift and anti-inflammatory profile distinguishes isometric yoga from aerobic exertion at the biomarker level
+    - *Seated isometric yoga (RCT):* In 30 therapy-resistant CFS patients (Fukuda criteria), biweekly supervised sessions plus daily home practice over 2 months reduced Chalder Fatigue Scale scores from 25.9 $plus.minus$ 6.1 to 19.2 $plus.minus$ 7.5 ($p = 0.002$) in the yoga group versus no change in controls
+    - *Recumbent format for severe ME/CFS:* A pilot study ($n = 12$) adapted isometric yoga to a fully recumbent (lying down) format for patients too ill to sit, showing significant fatigue reduction with no PEM exacerbation --- critical safety data for the most vulnerable patients
+    - *Mechanistic profile:* Single-session measurements in 15 CFS patients showed that isometric yoga produces the _opposite_ physiological signature from exercise-induced PEM: decreased cortisol, decreased TNF-$alpha$, increased DHEA-S, enhanced vagal tone (HF-HRV increase), and reduced heart rate This parasympathetic-shift and anti-inflammatory profile distinguishes isometric yoga from aerobic exertion at the biomarker level
 
 (Replication status: Partially replicated --- three studies from the same research group in Japan, using different designs but consistent methodology. Independent replication by other centers needed.)
 
@@ -867,18 +867,18 @@ Lying down without sleeping has independent physiological value for ME/CFS patie
 
 *Movement-combined practices:* Standard yoga, Tai Chi, Qigong, and walking meditation combine physical exertion with cognitive engagement --- a dual metabolic demand. While adapted seated/recumbent forms may be appropriate (see isometric yoga above), standard group classes with standing poses, balance challenges, and instructor-paced sequences should be treated as exercise, not rest.
 
-*Long naps ($>$ 60 minutes):* Extended daytime sleep risks entry into slow-wave sleep, producing prolonged sleep inertia that can persist 2--4 hours in ME/CFS (Section @sec:sleep) versus 15--30 minutes in healthy populations @Tassi2000sleepInertia. Late-afternoon naps (after 16:00) additionally shift the circadian phase, delay nighttime sleep onset, and reduce overnight slow-wave sleep --- the very sleep stage most critical for glymphatic clearance (Section @sec:ch15-glymphatic). See Section @sec:nap-management for safe nap parameters.
+*Long naps ($>$ 60 minutes):* Extended daytime sleep risks entry into slow-wave sleep, producing prolonged sleep inertia that can persist 2--4 hours in ME/CFS (Section:sleep) versus 15--30 minutes in healthy populations Late-afternoon naps (after 16:00) additionally shift the circadian phase, delay nighttime sleep onset, and reduce overnight slow-wave sleep --- the very sleep stage most critical for glymphatic clearance (Section:ch15-glymphatic). See Section:nap-management for safe nap parameters.
 
-*Excessive horizontal rest without activity:* While horizontal rest has physiological value (see above), complete inactivity over weeks to months carries secondary risks: cardiovascular deconditioning (worsening orthostatic intolerance), muscle mass loss (accelerating functional decline), and reduced circadian entrainment (weakening the light-dark cycle that anchors sleep timing). The goal is structured rest integrated with minimal sustainable activity --- not perpetual bed rest. See Section @sec:klimas-program for the structured reconditioning approach that balances rest with brief activity bouts.
+*Excessive horizontal rest without activity:* While horizontal rest has physiological value (see above), complete inactivity over weeks to months carries secondary risks: cardiovascular deconditioning (worsening orthostatic intolerance), muscle mass loss (accelerating functional decline), and reduced circadian entrainment (weakening the light-dark cycle that anchors sleep timing). The goal is structured rest integrated with minimal sustainable activity --- not perpetual bed rest. See Section:klimas-program for the structured reconditioning approach that balances rest with brief activity bouts.
 
-*Hyperventilation-inducing practices:* Prolonged deep breathing exercises, extended breath-holds, or vigorous pranayama can trigger respiratory alkalosis and autonomic destabilization. Brief, gentle diaphragmatic breathing (Section @sec:breathing-co2) is appropriate; extended breathwork protocols are not.
+*Hyperventilation-inducing practices:* Prolonged deep breathing exercises, extended breath-holds, or vigorous pranayama can trigger respiratory alkalosis and autonomic destabilization. Brief, gentle diaphragmatic breathing (Section:breathing-co2) is appropriate; extended breathwork protocols are not.
 ] <warn:ch17-meditation-pitfalls>
 
 === Biofeedback
 
 Biofeedback provides real-time physiological feedback that patients can use to learn autonomic regulation:
 
-    - *Heart rate variability (HRV) biofeedback*: Patients learn to increase HRV through resonance frequency breathing (typically 5–7 breaths per minute). Reduced HRV is a consistent finding in ME/CFS and correlates with symptom severity. HRV biofeedback has shown benefit in fibromyalgia and warrants investigation in ME/CFS. Home-based devices make this accessible for housebound patients. Beyond symptom management, the ANS-aging framework (Chapter @ch:cardiovascular Section @sec:ans-aging-phenotype) suggests that restoring vagal tone may activate the cholinergic anti-inflammatory pathway ($alpha$7-nAChR $arrow.r$ NF-$kappa$B suppression) and promote PGC-1$alpha$-mediated mitochondrial recovery @Errico2025ANSaging @Giunta2023ANSinflamaging --- positioning HRV biofeedback as potentially anti-aging, not merely palliative
+    - *Heart rate variability (HRV) biofeedback*: Patients learn to increase HRV through resonance frequency breathing (typically 5–7 breaths per minute). Reduced HRV is a consistent finding in ME/CFS and correlates with symptom severity. HRV biofeedback has shown benefit in fibromyalgia and warrants investigation in ME/CFS. Home-based devices make this accessible for housebound patients. Beyond symptom management, the ANS-aging framework (Chapter:cardiovascular Section:ans-aging-phenotype) suggests that restoring vagal tone may activate the cholinergic anti-inflammatory pathway ($alpha$7-nAChR $arrow.r$ NF-$kappa$B suppression) and promote PGC-1$alpha$-mediated mitochondrial recovery --- positioning HRV biofeedback as potentially anti-aging, not merely palliative
     - *Temperature biofeedback*: Learning to increase peripheral hand temperature through relaxation. Useful for patients with Raynaud's phenomenon or cold extremities from autonomic dysfunction
     - *Electrodermal activity*: Monitoring skin conductance as a proxy for sympathetic activation. Can help patients identify and reduce stress responses they may not consciously recognize
 
@@ -887,12 +887,12 @@ Biofeedback provides real-time physiological feedback that patients can use to l
 
 === Carbon Dioxide as Vasodilator and Oxygen Facilitator
 
-CO#sub[2] serves two critical physiological roles often overlooked in ME/CFS: it is a potent vasodilator (opening blood vessels to increase tissue perfusion) and it facilitates oxygen release from hemoglobin via the Bohr Effect. Low CO#sub[2] levels therefore impair both blood delivery and cellular oxygenation simultaneously, compounding the hypoperfusion discussed in Chapter @ch:cardiovascular.
+CO#sub[2] serves two critical physiological roles often overlooked in ME/CFS: it is a potent vasodilator (opening blood vessels to increase tissue perfusion) and it facilitates oxygen release from hemoglobin via the Bohr Effect. Low CO#sub[2] levels therefore impair both blood delivery and cellular oxygenation simultaneously, compounding the hypoperfusion discussed in Chapter:cardiovascular.
 
 #fhypothesis(title: [Low CO#sub[2] in ME/CFS Is a Consequence of Impaired Muscular Respiration], falsifiability: [weakly], justification: [Falsified if ME/CFS patients with normal muscular O#sub[2] extraction (by invasive CPET) still show low ETCO#sub[2], or if respiratory rate is elevated rather than respiratory depth])[
-ME/CFS patients exhibit low end-tidal CO#sub[2] (ETCO#sub[2]), but this appears to result from impaired cellular respiration rather than primary hyperventilation. Wood et al. (2022) found that 74% of Long~COVID patients had ETCO#sub[2] below 35~mmHg _despite normal respiratory rate_ @Wood2022etco2. Natelson identified "hyperpnea" (deeper breathing) rather than tachypnea (faster breathing) in ME/CFS---a compensatory response to poor muscular O#sub[2] extraction. Rossman and Van der Togt (2023) proposed that intramuscular acidosis from anaerobic metabolism drives respiratory compensation @VanDerTogt2023acidbase.
+ME/CFS patients exhibit low end-tidal CO#sub[2] (ETCO#sub[2]), but this appears to result from impaired cellular respiration rather than primary hyperventilation. Wood et al. (2022) found that 74% of Long~COVID patients had ETCO#sub[2] below 35~mmHg _despite normal respiratory rate_ Natelson identified "hyperpnea" (deeper breathing) rather than tachypnea (faster breathing) in ME/CFS---a compensatory response to poor muscular O#sub[2] extraction. Rossman and Van der Togt (2023) proposed that intramuscular acidosis from anaerobic metabolism drives respiratory compensation
 
-Orthostatic stress dramatically worsens CO#sub[2] loss. Visser et al. (2023) measured ETCO#sub[2] during tilt-table testing @VisserVanCampen2023co2.
+Orthostatic stress dramatically worsens CO#sub[2] loss. Visser et al. (2023) measured ETCO#sub[2] during tilt-table testing
 
     - ME/CFS without POTS: 37 $arrow.r$ 30~mmHg (7~mmHg drop)
     - ME/CFS with POTS: 36 $arrow.r$ 26~mmHg (10~mmHg drop)
@@ -903,7 +903,7 @@ Orthostatic stress dramatically worsens CO#sub[2] loss. Visser et al. (2023) mea
 ] <hyp:co2-consequence>
 
 #limitation(title: [From Mechanism to Treatment])[
-Even if low CO#sub[2] in ME/CFS is confirmed as a consequence of impaired muscular respiration, it does not automatically follow that breathing techniques to raise CO#sub[2] will alleviate symptoms. No clinical trial of adapted Buteyko breathing in ME/CFS has been published. The practitioner recommendations in this section (Courtney, McKeown) derive from clinical experience reported in Ussher (2025) @Ussher2025, not from peer-reviewed research.
+Even if low CO#sub[2] in ME/CFS is confirmed as a consequence of impaired muscular respiration, it does not automatically follow that breathing techniques to raise CO#sub[2] will alleviate symptoms. No clinical trial of adapted Buteyko breathing in ME/CFS has been published. The practitioner recommendations in this section (Courtney, McKeown) derive from clinical experience reported in Ussher (2025), not from peer-reviewed research.
 ]
 
 === Buteyko Breathing Method
@@ -929,7 +929,7 @@ Rosalba Courtney (Australian PhD specializing in dysfunctional breathing in ME/C
 
 Prof. Nancy Klimas observed a clinically suggestive pattern: a patient who crashed after a continuous 12-minute walk did _not_ crash when the same total walking time was divided into three 4-minute walks separated by 4-minute supine rests. This observation led to a structured reconditioning protocol distinct from graded exercise therapy (GET).
 
-*Physiological rationale:* Supine rest between activity bouts maximizes blood return to the peripheries and muscles, temporarily ameliorating the global hypoperfusion that drives exercise intolerance (see Chapter @ch:cardiovascular). The body can recover from brief exertion bursts in ways it cannot from sustained continuous effort.
+*Physiological rationale:* Supine rest between activity bouts maximizes blood return to the peripheries and muscles, temporarily ameliorating the global hypoperfusion that drives exercise intolerance (see Chapter:cardiovascular). The body can recover from brief exertion bursts in ways it cannot from sustained continuous effort.
 
 *Protocol structure (example progression over 6 months):*
 
@@ -948,14 +948,14 @@ Prof. Nancy Klimas observed a clinically suggestive pattern: a patient who crash
 *Very slow walking:* Walking pace should match actual O#sub[2] extraction capacity. Breathing should remain identical before and after climbing stairs---if it deepens, the pace is too fast. Stairs and inclines require dramatic pace reduction; resting 5 seconds per step if needed.
 
 #limitation(title: [Evidence Base for Klimas Reconditioning Program])[
-This protocol is based on clinical observation (reported by Ussher 2025 @Ussher2025, attributed to Prof.\ Nancy Klimas). No published protocol paper, controlled trial, or peer-reviewed outcome data exist for this specific approach. The week-by-week progression parameters are clinical heuristics, not empirically calibrated values. The physiological rationale (supine rest for blood redistribution) is consistent with established cardiovascular physiology but has not been tested as a structured intervention in ME/CFS.
+This protocol is based on clinical observation (reported by Ussher 2025, attributed to Prof.\ Nancy Klimas). No published protocol paper, controlled trial, or peer-reviewed outcome data exist for this specific approach. The week-by-week progression parameters are clinical heuristics, not empirically calibrated values. The physiological rationale (supine rest for blood redistribution) is consistent with established cardiovascular physiology but has not been tested as a structured intervention in ME/CFS.
 ]
 
 === Compression Stockings for Orthostatic Support
 <sec:compression-stockings>
 
 #clinical-finding(title: [Compression Stockings Halve Cerebral Blood Flow Decline During Orthostatic Stress])[
-Visser, Van Campen, and Rowe (2022) conducted a randomized crossover trial in 16 ME/CFS patients using knee-high 20--30~mmHg medical-grade compression stockings during tilt-table testing @VisserVanCampenRowe2022compression.
+Visser, Van Campen, and Rowe (2022) conducted a randomized crossover trial in 16 ME/CFS patients using knee-high 20--30~mmHg medical-grade compression stockings during tilt-table testing
 
     - _Without stockings:_ Cerebral blood flow reduced approximately 30% when upright
     - _With stockings:_ Cerebral blood flow reduced approximately 14% when upright
@@ -988,17 +988,17 @@ The Perrin Technique, developed by British osteopath Dr. Raymond Perrin from 198
 
 *Theoretical basis:* Thoracic spine rigidity impairs lymphatic drainage from the brain (the brain's glymphatic/lymphatic system was only recently confirmed, though no study has directly demonstrated that Perrin's technique affects glymphatic clearance). Stagnant lymphatic fluid allows toxin and metabolic waste accumulation in the central nervous system, potentially contributing to autonomic dysregulation. A sympathetic-dominant nervous system further slows lymphatic flow, creating a vicious cycle.
 
-*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls) @Perrin2017diagnosis. The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple ("Perrin's point"), tender solar plexus, and reduced cranio-sacral rhythm.
+*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls) The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple ("Perrin's point"), tender solar plexus, and reduced cranio-sacral rhythm.
 
-*Efficacy evidence:* Perrin et al. (2022) treated 20 Long~COVID patients with an average of 9 weekly sessions and measured improvement on a 54-item fatigue scale: 41.8% improvement in men, 60.5% improvement in women, with most scale items improving approximately 50% @Perrin2022longcovid.
+*Efficacy evidence:* Perrin et al. (2022) treated 20 Long~COVID patients with an average of 9 weekly sessions and measured improvement on a 54-item fatigue scale: 41.8% improvement in men, 60.5% improvement in women, with most scale items improving approximately 50%
 
-*Craniocervical considerations:* Bragée et al. (2020) performed MRI on 229 ME/CFS patients and found craniocervical obstructions in approximately 80% @Bragee2020. This suggests structural spinal issues may be more prevalent in severe disease, though the direction of causality remains unclear.
+*Craniocervical considerations:* Bragée et al. (2020) performed MRI on 229 ME/CFS patients and found craniocervical obstructions in approximately 80% This suggests structural spinal issues may be more prevalent in severe disease, though the direction of causality remains unclear.
 
 #limitation(title: [Evidence Base for Perrin Technique])[
 No randomized controlled trial of the Perrin Technique exists for ME/CFS specifically. The Long~COVID study was uncontrolled ($n = 20$). The diagnostic study is promising but requires independent replication. Cost and treatment duration (weekly sessions for 3 months, then tapering over ~1 year) present accessibility barriers.
 ]
 
-*Combination hypothesis:* See Section @sec:csf-drainage-synergy for a proposed synergistic combination with carbonic anhydrase inhibitors targeting glymphatic clearance failure from both sides (reduce CSF input + improve drainage output).
+*Combination hypothesis:* See Section:csf-drainage-synergy for a proposed synergistic combination with carbonic anhydrase inhibitors targeting glymphatic clearance failure from both sides (reduce CSF input + improve drainage output).
 
 == Environmental Modifications
 <sec:environmental>
@@ -1097,7 +1097,7 @@ The following approaches are _research hypotheses_, not established intervention
 <sec:thermal-trpm3>
 
 #speculation(title: [Graded Warm Thermal Stimulation as Non-Pharmacological TRPM3 Agonism])[
-TRPM3 is a thermosensor channel activated in the warm/noxious heat range ($>$40°C). If TRPM3 channels in ME/CFS patients are hypoactive but not completely non-functional (consistent with Cabanas et al.\ showing reduced rather than absent Ca#super[2+] current @Cabanas2019trpm3val), controlled warm stimulation at temperatures approaching the TRPM3 activation range might provide calcium entry that is insufficient at baseline thermoneutral conditions.
+TRPM3 is a thermosensor channel activated in the warm/noxious heat range ($>$40°C). If TRPM3 channels in ME/CFS patients are hypoactive but not completely non-functional (consistent with Cabanas et al.\ showing reduced rather than absent Ca#super[2+] current), controlled warm stimulation at temperatures approaching the TRPM3 activation range might provide calcium entry that is insufficient at baseline thermoneutral conditions.
 
 *Proposed protocol concept:* Brief warm water immersion (5--10 minutes, 38--39°C) activates remaining functional TRPM3 channels in peripheral sensory neurons without generating the full thermal pain response (threshold $>$40°C). The mechanistic prediction: measurable acute increase in NK cell Ca#super[2+] flux sampled within 30 minutes post-immersion, reflecting TRPM3-mediated calcium entry.
 
@@ -1114,9 +1114,9 @@ TRPM3 is a thermosensor channel activated in the warm/noxious heat range ($>$40�
 #speculation(title: [Low-Magnitude Vibration as a Piezo1 Activator Without Metabolic Exercise Demand])[
 Piezo1 is the mechanically-activated cation channel governing RBC volume homeostasis and endothelial mechanosensing. In bone physiology, low-magnitude high-frequency vibration (0.3g at 30 Hz) selectively activates Piezo1 in osteocytes, promoting bone formation without the metabolic cost of load-bearing exercise.
 
-*Proposed ME/CFS rationale:* If Piezo1 dysregulation contributes to RBC stiffness and microcirculatory failure in ME/CFS (Section @spec:ch14h-piezo1-rbc), whole-body vibration (WBV) at bone-physiology parameters (0.3g, 30 Hz, 10 minutes) could activate Piezo1 in RBCs and endothelial cells, potentially improving microcirculation without the exercise-induced metabolic demand that triggers PEM. The mechanical stimulus replaces the cardiovascular exercise that ME/CFS patients cannot tolerate.
+*Proposed ME/CFS rationale:* If Piezo1 dysregulation contributes to RBC stiffness and microcirculatory failure in ME/CFS (Section:ch14h-piezo1-rbc), whole-body vibration (WBV) at bone-physiology parameters (0.3g, 30 Hz, 10 minutes) could activate Piezo1 in RBCs and endothelial cells, potentially improving microcirculation without the exercise-induced metabolic demand that triggers PEM. The mechanical stimulus replaces the cardiovascular exercise that ME/CFS patients cannot tolerate.
 
-Additionally, Piezo2 --- expressed in proprioceptive sensory neurons --- may be stimulated by specific vibration frequencies, potentially recalibrating mechanical pain thresholds in patients with allodynia and proprioceptive disruption (Section @spec:ch14h-piezo2-allodynia).
+Additionally, Piezo2 --- expressed in proprioceptive sensory neurons --- may be stimulated by specific vibration frequencies, potentially recalibrating mechanical pain thresholds in patients with allodynia and proprioceptive disruption (Section:ch14h-piezo2-allodynia).
 
 *Access consideration:* WBV platforms are available for home use. Protocols for bedbound or housebound patients could begin with handheld vibrating devices on extremities before progressing to platform standing, allowing Piezo activation without orthostatic stress.
 
@@ -1137,7 +1137,7 @@ TRPM8 is a cold-activated TRP channel (activation threshold $<$25°C, enhanced b
 
 *Speculative rationale:* If ME/CFS patients have dysfunctional TRPM3 but intact TRPM8, cold exposure could provide calcium signaling through an intact alternative TRP channel, partially compensating for TRPM3 deficit. This is essentially a pathway compensation strategy. The norepinephrine release from cold-activated brown adipose thermogenesis might additionally improve orthostatic tolerance short-term.
 
-*Critical limitations:* The hypothesis assumes TRPM8 is spared while TRPM3 is dysfunctional, which has never been tested. Many ME/CFS patients report cold intolerance (consistent with the TRPM3 thermoregulation hypothesis in Section @sec:trpm3-hypotheses), which could indicate that cold stimulation would worsen symptoms. Cold exposure is energetically costly through thermogenesis. This is the most speculative of the thermal protocols.
+*Critical limitations:* The hypothesis assumes TRPM8 is spared while TRPM3 is dysfunctional, which has never been tested. Many ME/CFS patients report cold intolerance (consistent with the TRPM3 thermoregulation hypothesis in Section:trpm3-hypotheses), which could indicate that cold stimulation would worsen symptoms. Cold exposure is energetically costly through thermogenesis. This is the most speculative of the thermal protocols.
 
 *Falsifiable prediction:* Brief cold water hand immersion (10°C, 2 minutes) in ME/CFS patients with documented TRPM3 dysfunction should produce measurable serum norepinephrine increase (cold-TRPM8-mediated) of similar magnitude to healthy controls, confirming that TRPM8 is functionally intact. If TRPM8 is also dysfunctional, the norepinephrine response would be blunted.
 
@@ -1152,7 +1152,7 @@ TRPM8 is a cold-activated TRP channel (activation threshold $<$25°C, enhanced b
 #speculation(title: [Mild Repeated Heat Exposure as a Non-Hormonal Route to HPA Calming in ME/CFS])[
 *Certainty: 0.15.* Mild repeated heat exposure (warm baths, sauna at low temperatures) increases endogenous neurosteroid synthesis in preclinical models and transiently modulates HPA axis response. For ME/CFS patients unable to tolerate hormonal intervention, mild heat protocols may achieve modest GABA tone enhancement through neurosteroid upregulation rather than exogenous supplementation.
 
-*Proposed protocol concept:* Tepid bath (15 minutes, 38°C, 3× per week), deliberately below the noxious heat threshold to avoid activating the TRPM3-mediated stress response. Pre-screening required for heat tolerance (see @spec:ch17-thermal-trpm3).
+*Proposed protocol concept:* Tepid bath (15 minutes, 38°C, 3× per week), deliberately below the noxious heat threshold to avoid activating the TRPM3-mediated stress response. Pre-screening required for heat tolerance (see:ch17-thermal-trpm3).
 
 *Falsifiable prediction:* A tolerated tepid bath protocol (15 min, 38°C, 3×/week for 8 weeks) will improve PSQI sleep scores in heat-tolerant mild-to-moderate ME/CFS without triggering PEM by actigraphy within 48 hours of sessions.
 
@@ -1177,7 +1177,7 @@ This stack targets the substrate side (P5P increases GABA production) and the re
 
 *Falsifiable prediction:* Magnesium-L-threonate 2 g + P5P 50 mg nightly for 8 weeks will improve PSQI sleep scores in ME/CFS without affecting PEM frequency (negative result on PEM expected; positive on sleep would be consistent with GABA-A mechanism but also explainable by nutrient repletion).
 
-*How this extends existing cycle-pacing supplementation:* Section @subsec:cycle-synced-pacing recommends magnesium glycinate + pyridoxine during the luteal phase for cycle-synced support. The present stack uses the threonate form of magnesium (better CNS penetration) and the activated P5P form of B6 (no hepatic conversion step), and is intended for year-round nightly use rather than luteal-phase-only targeting.
+*How this extends existing cycle-pacing supplementation:* Section:cycle-synced-pacing recommends magnesium glycinate + pyridoxine during the luteal phase for cycle-synced support. The present stack uses the threonate form of magnesium (better CNS penetration) and the activated P5P form of B6 (no hepatic conversion step), and is intended for year-round nightly use rather than luteal-phase-only targeting.
 
 *Safety note:* P5P at 50 mg/day is within the safe range; do not exceed 100 mg/day to avoid sensory neuropathy. Magnesium-L-threonate is well-tolerated; common adverse effects are loose stools (dose-dependent) and initial headache. Discontinue if headache persists beyond 2 weeks.
 
@@ -1194,7 +1194,7 @@ Transcutaneous auricular vagus nerve stimulation (taVNS) delivers low-intensity 
 
 ME/CFS is characterized by sympathovagal imbalance — reduced heart rate variability, orthostatic tachycardia, and impaired vagal tone — alongside chronic low-grade neuroinflammation. taVNS addresses both pathways simultaneously: (1) direct parasympathetic augmentation improves HRV and may reduce sympathoadrenal load; (2) vagal afferent stimulation activates the cholinergic anti-inflammatory pathway, suppressing microglial activation and peripheral cytokine release.
 
-If the PTPRN2 hypomethylation finding of Chalder and Moreau reflects chronic sympathoadrenal overload as a compensatory epigenetic response @ChalderMoreau2026ptprn2, reducing sympathetic demand via taVNS represents a physiological upstream intervention. The hypothesis predicts that sustained taVNS reduces transcriptional demand at the _PTPRN2_ locus and permits partial methylation renormalization over weeks-to-months — a mechanism that would be testable via serial saliva methylation sampling.
+If the PTPRN2 hypomethylation finding of Chalder and Moreau reflects chronic sympathoadrenal overload as a compensatory epigenetic response, reducing sympathetic demand via taVNS represents a physiological upstream intervention. The hypothesis predicts that sustained taVNS reduces transcriptional demand at the _PTPRN2_ locus and permits partial methylation renormalization over weeks-to-months — a mechanism that would be testable via serial saliva methylation sampling.
 
 === Accessibility for Severe Patients
 
@@ -1218,13 +1218,13 @@ A 2024 randomized pilot in Long COVID (Verbanck et al.) documented HRV improveme
 
 == Pacing and HSAT2 Amplification: A Speculative Epigenetic Frame
 
-The clinical rationale for strict pacing in ME/CFS is well-established: staying within the anaerobic threshold prevents post-exertional malaise and reduces symptom exacerbation. The HSAT2 exosomal loop hypothesis adds a deeper mechanistic frame: each exertional event that activates HSF1 at pericentromeric loci transiently amplifies HSAT2 EV release, re-inoculating circulating myeloid cells and widening the MDSC pool @spec:hsat2-pem-amplification. If this mechanism is operative, strict pacing is not merely symptom management — it is *epigenetic prophylaxis*, reducing the rate of cumulative pericentromeric derepression events.
+The clinical rationale for strict pacing in ME/CFS is well-established: staying within the anaerobic threshold prevents post-exertional malaise and reduces symptom exacerbation. The HSAT2 exosomal loop hypothesis adds a deeper mechanistic frame: each exertional event that activates HSF1 at pericentromeric loci transiently amplifies HSAT2 EV release, re-inoculating circulating myeloid cells and widening the MDSC pool:hsat2-pem-amplification. If this mechanism is operative, strict pacing is not merely symptom management — it is *epigenetic prophylaxis*, reducing the rate of cumulative pericentromeric derepression events.
 
 #speculation(title: [Strict Pacing as Prevention of Cumulative HSAT2 Epigenetic Amplification — Beyond Symptom Management])[
 
 *(Certainty: 0.35 — pacing clinical benefit established; HSAT2 amplification prevention mechanism speculative; the mechanism upgrades rather than replaces the established clinical rationale.)*
 
-The established clinical rationale for pacing is avoidance of physiological overshoot and symptom prevention. The proposed mechanistic extension: if each PEM event involves HSF1-mediated HSAT2 transcription (via heat-shock and oxidative stress) @spec:hsat2-pem-amplification @Vourc_h2022HSF1SatIII, then *each PEM event is also an epigenetic insult* — a pulse of HSAT2 EV release that widens the MDSC pool, deepens NK suppression, and lowers the threshold for the next PEM episode. The cumulative effect over months to years of repeated PEM events would be a progressively worsening HSAT2/MDSC burden. Strict pacing prevents these insults from accumulating.
+The established clinical rationale for pacing is avoidance of physiological overshoot and symptom prevention. The proposed mechanistic extension: if each PEM event involves HSF1-mediated HSAT2 transcription (via heat-shock and oxidative stress):hsat2-pem-amplification, then *each PEM event is also an epigenetic insult* — a pulse of HSAT2 EV release that widens the MDSC pool, deepens NK suppression, and lowers the threshold for the next PEM episode. The cumulative effect over months to years of repeated PEM events would be a progressively worsening HSAT2/MDSC burden. Strict pacing prevents these insults from accumulating.
 
 This framing has a practical implication beyond symptom management: the harm from exceeding the energy envelope is not only the immediate PEM episode but the long-term epigenetic trajectory. A patient who paces perfectly for 6 months is predicted to have a meaningfully lower EV HSAT2 trajectory than one who has repeated PEM events, even if both report the same symptom severity at any single timepoint. This would show up as lower EV HSAT2 and MDSC frequency in adherent-pacers versus non-adherent patients matched for baseline severity.
 
@@ -1240,7 +1240,7 @@ Importantly, this framing should not be communicated to patients in a way that i
 
 == Thermal Interventions and the HSAT2 Caution
 
-Some ME/CFS patients report subjective benefit from gentle heat exposure (warm baths, low-temperature infrared sauna). However, a mechanistic concern arises from the proposed exosomal HSAT2 hypothesis @spec:hsat2-pem-amplification: heat-shock factor 1 (HSF1) — the master stress-response transcription factor activated by thermal stress — is a known inducer of HSAT2 pericentromeric repeat transcription. If HSAT2 exosomal release contributes to ME/CFS immunosuppression and PEM amplification, then heat-stress interventions could plausibly worsen the underlying loop in HSAT2-high patients.
+Some ME/CFS patients report subjective benefit from gentle heat exposure (warm baths, low-temperature infrared sauna). However, a mechanistic concern arises from the proposed exosomal HSAT2 hypothesis:hsat2-pem-amplification: heat-shock factor 1 (HSF1) — the master stress-response transcription factor activated by thermal stress — is a known inducer of HSAT2 pericentromeric repeat transcription. If HSAT2 exosomal release contributes to ME/CFS immunosuppression and PEM amplification, then heat-stress interventions could plausibly worsen the underlying loop in HSAT2-high patients.
 
 This concern is speculative — no ME/CFS heat-exposure data exists for exosomal HSAT2 — but it illustrates a broader principle: interventions that activate cellular stress responses may have unintended downstream effects on the epigenetic and exosomal axis.
 
@@ -1249,15 +1249,15 @@ This concern is speculative — no ME/CFS heat-exposure data exists for exosomal
 
 *(Certainty: 0.25 — mechanistic inference from HSF1-HSAT2 biology; no direct ME/CFS heat exposure data.)*
 
-HSAT2 pericentromeric repeat transcription is Pol II-dependent and strongly upregulated by HSF1, the heat-shock transcription factor. Eymery et al.\ demonstrated directly that HSF1 binds satellite II (HSAT2) and satellite III sequences at pericentromeric regions and drives their transcription under heat shock at 42°C @Eymery2010HSF1SatII. Decottignies et al.\ confirmed that the heat-shock pathway (not DNA methylation state) is the primary determinant of satellite 2 RNA expression in vivo; HSF1 binding sites are present within the Sat2 sequence, and Sat2 expression correlates strongly with HSP70 levels in melanoma tissue (R = 0.69, p = 0.01) @Decottignies2012Sat2heatshock. In the proposed exosomal loop model, any trigger that activates HSF1 at HSAT2 loci could transiently increase HSAT2 EV release and re-inoculate circulating myeloid cells with immunosuppressive cargo @Evdokimova2019HSAT2exosome.
+HSAT2 pericentromeric repeat transcription is Pol II-dependent and strongly upregulated by HSF1, the heat-shock transcription factor. Eymery et al.\ demonstrated directly that HSF1 binds satellite II (HSAT2) and satellite III sequences at pericentromeric regions and drives their transcription under heat shock at 42°C Decottignies et al.\ confirmed that the heat-shock pathway (not DNA methylation state) is the primary determinant of satellite 2 RNA expression in vivo; HSF1 binding sites are present within the Sat2 sequence, and Sat2 expression correlates strongly with HSP70 levels in melanoma tissue (R = 0.69, p = 0.01) In the proposed exosomal loop model, any trigger that activates HSF1 at HSAT2 loci could transiently increase HSAT2 EV release and re-inoculate circulating myeloid cells with immunosuppressive cargo
 
-*HSF1 threshold context:* The standard HSF1 activation threshold for nuclear stress body (nSB) formation in most human cell lines is 42°C @Eymery2010HSF1SatII. T lymphocytes are an exception: physiological fever-range temperature (39°C) activates HSF1 in primary T cells and induces HSP70 @Murapa2007HSF1fever, though nSB formation at this lower temperature has not been documented in T cells. Exercise alone (40 min cycling at 20°C ambient, muscle temperature ~38.9°C) increased HSF1 DNA binding by ~29% in human vastus lateralis. Standard infrared sauna (55–60°C ambient) and hot baths reach body surface temperatures well below 42°C for most individuals; core temperature during a 15-min sauna typically rises by only 0.5–1.5°C. Whether physiological sauna conditions activate HSF1 at HSAT2 loci in immune cells or stromal fibroblasts is untested.
+*HSF1 threshold context:* The standard HSF1 activation threshold for nuclear stress body (nSB) formation in most human cell lines is 42°C T lymphocytes are an exception: physiological fever-range temperature (39°C) activates HSF1 in primary T cells and induces HSP70, though nSB formation at this lower temperature has not been documented in T cells. Exercise alone (40 min cycling at 20°C ambient, muscle temperature ~38.9°C) increased HSF1 DNA binding by ~29% in human vastus lateralis. Standard infrared sauna (55–60°C ambient) and hot baths reach body surface temperatures well below 42°C for most individuals; core temperature during a 15-min sauna typically rises by only 0.5–1.5°C. Whether physiological sauna conditions activate HSF1 at HSAT2 loci in immune cells or stromal fibroblasts is untested.
 
-*Important mechanistic complexity:* Oxidative stress alone does not fully recapitulate the heat-shock transcriptional program. Himanen et al.\ demonstrated that under oxidative stress, HSF1 binds a distinct set of promoters and enhancers without triggering RNA Pol II pause-release at heat-shock-specific targets @Himanen2022HSFoxidative. After H2O2 (200 µM), fewer than 5% of cells form only 1–2 tiny nSBs, orders of magnitude below heat-shock @Valgardsdottir2008SatIIIstress. A second derepression route exists via CTCF: HSAT2 RNA in senescent cells disrupts CTCF chromatin binding and promotes inflammatory gene expression; oxidative stress can reduce CTCF expression, opening this chromatin topology route independently of HSF1 @Miyata2021HSAT2senescence. This means both heat and oxidative stress are candidate HSAT2 triggers, but through distinct mechanisms.
+*Important mechanistic complexity:* Oxidative stress alone does not fully recapitulate the heat-shock transcriptional program. Himanen et al.\ demonstrated that under oxidative stress, HSF1 binds a distinct set of promoters and enhancers without triggering RNA Pol II pause-release at heat-shock-specific targets After H2O2 (200 µM), fewer than 5% of cells form only 1–2 tiny nSBs, orders of magnitude below heat-shock A second derepression route exists via CTCF: HSAT2 RNA in senescent cells disrupts CTCF chromatin binding and promotes inflammatory gene expression; oxidative stress can reduce CTCF expression, opening this chromatin topology route independently of HSF1 This means both heat and oxidative stress are candidate HSAT2 triggers, but through distinct mechanisms.
 
-*Clinical data in ME/CFS:* Two small studies examined Waon thermal therapy (far-infrared sauna 60°C, 15 min) in CFS patients. Soejima et al.\ (n=10, no control, 5×/week × 4 weeks) reported significant improvements in fatigue, mood, and performance status with no adverse events @Soejima2015WaonCFS. A prior case report (Masuda & Tei 2005, n=2) described dramatic improvement in fatigue, pain, and sleep. Neither study measured HSF1 activity or HSAT2 levels. Evidence for sauna benefit is therefore weak-positive but from very small uncontrolled studies; evidence for HSAT2-mediated harm is currently zero (mechanistic hypothesis only).
+*Clinical data in ME/CFS:* Two small studies examined Waon thermal therapy (far-infrared sauna 60°C, 15 min) in CFS patients. Soejima et al.\ (n=10, no control, 5×/week × 4 weeks) reported significant improvements in fatigue, mood, and performance status with no adverse events A prior case report (Masuda & Tei 2005, n=2) described dramatic improvement in fatigue, pain, and sleep. Neither study measured HSF1 activity or HSAT2 levels. Evidence for sauna benefit is therefore weak-positive but from very small uncontrolled studies; evidence for HSAT2-mediated harm is currently zero (mechanistic hypothesis only).
 
-*Antioxidant pre-treatment as partial mitigation (speculative):* If HSF1 activation is the key HSAT2 trigger, antioxidant pre-treatment (NAC, vitamin C) might attenuate the heat-induced ROS-p38MAPK arm of HSF1 activation. NAC pretreatment blocked 99% of p38MAPK phosphorylation after heat shock in fibroblasts @MustafiBanerjeee2009NAC. However, in human exercise, NAC infusion did NOT suppress HSP70 mRNA, suggesting the protein-denaturation arm of HSF1 activation dominates over the ROS arm under physiological stress @Petersen2012NACexercise. Antioxidant pre-treatment may thus provide only partial HSAT2 risk mitigation during sauna sessions.
+*Antioxidant pre-treatment as partial mitigation (speculative):* If HSF1 activation is the key HSAT2 trigger, antioxidant pre-treatment (NAC, vitamin C) might attenuate the heat-induced ROS-p38MAPK arm of HSF1 activation. NAC pretreatment blocked 99% of p38MAPK phosphorylation after heat shock in fibroblasts However, in human exercise, NAC infusion did NOT suppress HSP70 mRNA, suggesting the protein-denaturation arm of HSF1 activation dominates over the ROS arm under physiological stress Antioxidant pre-treatment may thus provide only partial HSAT2 risk mitigation during sauna sessions.
 
 *Falsifiable prediction:* In HSAT2-high patients (upper tercile by plasma EV assay), a standardized infrared sauna session (15 min, 55°C) will produce a measurable rise in plasma exosomal HSAT2 at 6–24 h post-exposure. In HSAT2-low patients, no rise will occur. Adverse symptomatic response (next-day fatigue increase) will correlate with the HSAT2 rise. If HSAT2 does not rise after any thermal exposure, the HSF1-HSAT2 pathway is not operative at physiological sauna temperatures.
 
@@ -1271,7 +1271,7 @@ HSAT2 pericentromeric repeat transcription is Pol II-dependent and strongly upre
 
 *(Certainty: 0.25 — NAD+ circadian regulation and SIRT1 activity documented; direct sleep-HSAT2 link absent.)*
 
-NAD+ availability has robust circadian regulation, with synthesis peaking during the active phase and declining with sleep restriction. SIRT1 activity depends directly on the NAD+/NADH ratio; sleep loss reduces SIRT1 activity via NAD+ depletion @BoschPresegue2011SIRT1SUV39H1. The proposed SIRT1-SUV39H1-HSAT2 chain @spec:sirt1-hsat2-upstream predicts that any intervention that restores NAD+ — including adequate sleep — would support pericentromeric H3K9me3 maintenance and reduce HSAT2 derepression.
+NAD+ availability has robust circadian regulation, with synthesis peaking during the active phase and declining with sleep restriction. SIRT1 activity depends directly on the NAD+/NADH ratio; sleep loss reduces SIRT1 activity via NAD+ depletion The proposed SIRT1-SUV39H1-HSAT2 chain:sirt1-hsat2-upstream predicts that any intervention that restores NAD+ — including adequate sleep — would support pericentromeric H3K9me3 maintenance and reduce HSAT2 derepression.
 
 ME/CFS patients consistently show disrupted sleep architecture (reduced slow-wave sleep, non-restorative sleep, circadian phase shifts). If this sleep disruption chronically depresses NAD+ and SIRT1 activity in immune cells, it could contribute to the epigenetic maintenance failure at HSAT2 loci independently of any acute stressor. Sleep optimization — through sleep hygiene, low-dose melatonin, or in select cases LDN-mediated sleep improvement — may therefore have an indirect epigenetic protective effect on pericentromeric silencing, in addition to its established energy conservation benefits.
 
@@ -1283,7 +1283,7 @@ ME/CFS patients consistently show disrupted sleep architecture (reduced slow-wav
 #open-question(title: [Could Brief Cold Exposure Provide Hormetic Stress Without HSAT2 Risk?])[
 
 
-HSF1 nuclear stress body formation is heat-specific — oxidative and osmotic stress produce far weaker or absent nSB responses @Valgardsdottir2008SatIIIstress @Himanen2022HSFoxidative. Cold exposure activates a distinct stress-response program (norepinephrine-driven thermogenesis, brown adipose activation, cold-shock protein induction) without HSF1 nSB formation. For ME/CFS patients in the HSAT2-high subgroup who are advised to avoid heat exposure @spec:heat-hsat2-caution, cold exposure represents a theoretically lower-HSAT2-risk alternative hormetic stressor.
+HSF1 nuclear stress body formation is heat-specific — oxidative and osmotic stress produce far weaker or absent nSB responses Cold exposure activates a distinct stress-response program (norepinephrine-driven thermogenesis, brown adipose activation, cold-shock protein induction) without HSF1 nSB formation. For ME/CFS patients in the HSAT2-high subgroup who are advised to avoid heat exposure:heat-hsat2-caution, cold exposure represents a theoretically lower-HSAT2-risk alternative hormetic stressor.
 
 However, caution applies: (a) orthostatic intolerance, highly prevalent in ME/CFS, is exacerbated by acute cold-induced vasoconstriction followed by vasodilation; (b) cold immersion activates the sympathetic nervous system and can produce acute dysautonomia in susceptible individuals; (c) the evidence for brief cold exposure benefit in ME/CFS is absent. This is not a clinical recommendation — it is a mechanistic question. Controlled cold exposure studies with EV HSAT2 measurement would determine whether cold therapy is HSAT2-safe.
 
@@ -1307,24 +1307,24 @@ Pacing --- staying below the exertional threshold that triggers Phase 1 eIF2α p
 
 *Limitation:* No study has directly measured eIF2α phosphorylation in ME/CFS patients following sub-threshold versus supra-threshold exertion. The ISR-pacing threshold is inferred from general ISR kinetics and animal models; the specific threshold in ME/CFS patients is unknown. Heart rate at ventilatory threshold from CPET data provides one proxy, but patient-specific ISR kinetics may differ substantially. Pacing itself is validated by clinical evidence independent of the ISR model; this section adds mechanistic rationale, not clinical justification.
 
-*Replication status:* Pacing evidence base is well-established @jason2012energy @NICE2021mecfs. ISR-pacing mechanistic link is novel, not yet replicated.
+*Replication status:* Pacing evidence base is well-established ISR-pacing mechanistic link is novel, not yet replicated.
 ] <hyp:pacing-isr-threshold>
 
 === Heat Therapy, Time-Restricted Eating, and Vagal Stimulation: ISR Frame <sec:isr-lifestyle-misc>
 
 The ISR mechanistic frame generates testable predictions for several other lifestyle interventions.
 
-*Heat therapy (mild repeated sauna / Waon therapy):* HSP70 induction by mild heat provides molecular chaperone support that reduces ER protein misfolding — a primary PERK activator. Paradoxically, this could attenuate the ER-stress arm of chronic ISR. Two small uncontrolled studies of Waon therapy (far-infrared, 60°C) in CFS patients showed symptom improvement @Soejima2015WaonCFS; the HSP70/PERK hypothesis offers a mechanistic rationale. However, the HSAT2 caution (Section @spec:heat-hsat2-caution) applies: heat-shock factor 1 (HSF1) also drives HSAT2 repeat transcription. Until HSAT2 stratification is available, heat therapy should be used below temperatures producing overt heat-shock responses.
+*Heat therapy (mild repeated sauna / Waon therapy):* HSP70 induction by mild heat provides molecular chaperone support that reduces ER protein misfolding — a primary PERK activator. Paradoxically, this could attenuate the ER-stress arm of chronic ISR. Two small uncontrolled studies of Waon therapy (far-infrared, 60°C) in CFS patients showed symptom improvement; the HSP70/PERK hypothesis offers a mechanistic rationale. However, the HSAT2 caution (Section:heat-hsat2-caution) applies: heat-shock factor 1 (HSF1) also drives HSAT2 repeat transcription. Until HSAT2 stratification is available, heat therapy should be used below temperatures producing overt heat-shock responses.
 
 #open-question(title: [Does Mild Repeated Heat Exposure Reduce Chronic PERK Activation in ME/CFS Muscle?])[
-  HSP70 and GRP78/BiP are ER chaperones that resolve misfolded protein burden — the trigger for PERK auto-phosphorylation. If ME/CFS muscle PERK activation is driven by a sustained protein-folding deficit @wang2023wasf3, gradual induction of ER chaperone capacity via mild, below-crash-threshold heat exposure could attenuate PERK signalling over weeks. This is mechanistically distinct from the ISR suppressor drugs (Section @sec:isr-modulating-interventions): rather than blocking ISR kinases directly, it reduces the upstream stimulus.
+  HSP70 and GRP78/BiP are ER chaperones that resolve misfolded protein burden — the trigger for PERK auto-phosphorylation. If ME/CFS muscle PERK activation is driven by a sustained protein-folding deficit, gradual induction of ER chaperone capacity via mild, below-crash-threshold heat exposure could attenuate PERK signalling over weeks. This is mechanistically distinct from the ISR suppressor drugs (Section:isr-modulating-interventions): rather than blocking ISR kinases directly, it reduces the upstream stimulus.
 
   *Testable prediction:* Mild repeated heat exposure (5×/week × 4 weeks, 55–60°C ambient, ≤15 min) will reduce muscle PERK phosphorylation and WASF3 expression at biopsy, and reduce plasma GDF15, compared to a temperature-matched control (neutral-temperature rest). Benefit should be larger in patients with documented ISR-high signature.
 
-  *Limitation:* No ISR-endpoint heat-therapy data in ME/CFS exist. HSAT2 risk in susceptible patients is uncharacterized (Section @spec:heat-hsat2-caution). Not a clinical recommendation.
+  *Limitation:* No ISR-endpoint heat-therapy data in ME/CFS exist. HSAT2 risk in susceptible patients is uncharacterized (Section:heat-hsat2-caution). Not a clinical recommendation.
 ] <oq:heat-isr-perk>
 
-*Cold exposure (N3):* Cold tolerance is frequently impaired in ME/CFS; cold-induced sympathetic surge can exacerbate orthostatic intolerance. Cold activates HRI (heme-regulated inhibitor kinase), an ISR arm relevant to haemoglobin and iron status — a connection untested in ME/CFS. Cold exposure is not recommended without orthostatic intolerance exclusion (Section @oq:cold-exposure-hsat2).
+*Cold exposure (N3):* Cold tolerance is frequently impaired in ME/CFS; cold-induced sympathetic surge can exacerbate orthostatic intolerance. Cold activates HRI (heme-regulated inhibitor kinase), an ISR arm relevant to haemoglobin and iron status — a connection untested in ME/CFS. Cold exposure is not recommended without orthostatic intolerance exclusion (Section:cold-exposure-hsat2).
 
 *Time-restricted eating (TRE):*
 
@@ -1342,4 +1342,4 @@ The ISR mechanistic frame generates testable predictions for several other lifes
   HBO reduces HIF-1α — the master hypoxia-inducible transcription factor — and attenuates ER stress in tissues with ischaemic hypoperfusion. Some Long COVID trials have reported HBO benefit; ME/CFS shares documented tissue hypoperfusion patterns. If ER stress in ME/CFS is partly sustained by local tissue hypoxia activating the HIF-1α/PERK axis (hypoxia is an independent PERK activator), then HBO-mediated HIF-1α suppression could reduce PERK input and attenuate chronic ISR. Certainty: 0.25 — mechanistic chain plausible; no ISR-endpoint HBO data in ME/CFS. HBO trials require clinical facility access; not self-administrable.
 ] <oq:hbo-isr>
 
-*Transcutaneous auricular vagus nerve stimulation (taVNS):* The existing taVNS rationale (Section @sec:tavns-lifestyle) covers cholinergic anti-inflammatory pathway and autonomic rebalancing. The ISR frame adds a mechanistic specification: vagal efferent activation suppresses microglial NF-κB, reducing neuroinflammatory ISR kinase activation in brainstem nuclei (locus coeruleus, NTS) where HHV-6 reactivation has been postulated @Kasimir2022HHV6Tissue. taVNS ISR effect is indirect via neuroinflammation reduction, not direct ISR kinase modulation. Certainty: 0.20 — indirect mechanistic chain; no ISR-biomarker taVNS data in ME/CFS.
+*Transcutaneous auricular vagus nerve stimulation (taVNS):* The existing taVNS rationale (Section:tavns-lifestyle) covers cholinergic anti-inflammatory pathway and autonomic rebalancing. The ISR frame adds a mechanistic specification: vagal efferent activation suppresses microglial NF-κB, reducing neuroinflammatory ISR kinase activation in brainstem nuclei (locus coeruleus, NTS) where HHV-6 reactivation has been postulated taVNS ISR effect is indirect via neuroinflammation reduction, not direct ISR kinase modulation. Certainty: 0.20 — indirect mechanistic chain; no ISR-biomarker taVNS data in ME/CFS.

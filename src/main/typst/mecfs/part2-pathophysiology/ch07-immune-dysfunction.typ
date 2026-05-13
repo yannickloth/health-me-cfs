@@ -1072,7 +1072,7 @@ However, this null finding may be confounded by multiple methodological limitati
 - First-generation tracer [11C]-PK11195 has poor signal-to-noise compared to modern second- and third-generation tracers (PBR28, DPA-714, LW223)
 - Small sample size (n=9) provides limited statistical power
 - Brain-only imaging cannot assess peripheral inflammation contribution
-- **BBB transport confounding**: Peripheral inflammation (common in ME/CFS) reduces TSPO tracer brain influx rate \cite{Barzon2026TSPOBBB}, potentially masking central microglial activation
+- *BBB transport confounding*: Peripheral inflammation (common in ME/CFS) reduces TSPO tracer brain influx rate \cite{Barzon2026TSPOBBB}, potentially masking central microglial activation
 
 The BBB transport limitation is particularly relevant for ME/CFS interpretation:
 Barzon et al.\ (2026) analyzed 358 TSPO PET scans across multiple tracers and demonstrated that peripheral inflammation (elevated CRP) correlates with reduced tracer brain influx (K1).

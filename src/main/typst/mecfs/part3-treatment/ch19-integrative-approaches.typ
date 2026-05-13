@@ -630,6 +630,45 @@ Patient communities have reported several interventions not yet validated in ran
 Despite promising early case series showing 67% improvement rates, the definitive Phase III RituxME trial (n=152) demonstrated that rituximab B-cell depletion is not associated with clinical improvement in ME/CFS @Fluge2019. The placebo response rate (35%) exceeded the rituximab response rate (26%). Six-year follow-up confirmed lack of long-term benefit @Rekeland2024. This represents an important negative result preventing patients from pursuing ineffective immunotherapy. The initial positive case series likely reflected placebo effects, spontaneous remission, or subset-specific responses not replicable in the broader ME/CFS population.
 ] <warn:rituximab-failure>
 
+#warning-env(title: [Methylprednisolone Failed in Long COVID])[
+The PoCoVIT randomized controlled trial of methylprednisolone in Long COVID was terminated early due to safety concerns, with 5 serious adverse events among only 96 enrolled patients (target N=418) @Adam2024PoCoVIT. Analysis showed no significant difference between methylprednisolone and placebo on any measured outcome. This negative result has important implications for ME/CFS: (1) despite chronic inflammation markers in post-viral syndromes, broad immune suppression via corticosteroids may not provide clinical benefit; (2) the risk-benefit ratio may be unfavorable, with high adverse event rates in a population already vulnerable to treatment-induced deterioration; (3) mechanistic rationale (corticosteroids suppress inflammation) does not guarantee therapeutic efficacy in complex post-viral pathophysiology. The trial's early termination and small sample size limit definitive conclusions, but the safety signal and lack of efficacy warrant caution against corticosteroid trials in ME/CFS without stronger mechanistic justification.
+] <warn:methylprednisolone-failure>
+
+#speculation(title: [Corticosteroids May Worsen Post-Viral Outcomes])[
+
+One mechanistic hypothesis for the PoCoVIT failure is that corticosteroid-mediated immune suppression may interfere with viral clearance or dysregulated immune recovery in post-viral syndromes. By suppressing inflammatory pathways that, while maladaptive in chronic phase, may still serve protective functions (e.g., persistent viral containment, immune surveillance), corticosteroids could prolong or exacerbate underlying pathology. This would be consistent with the broader pattern in ME/CFS where interventions that target single pathways often fail—suggesting that the dysregulated immune response is a network property that cannot be corrected by broad suppression.
+
+*Certainty: 0.40.* This inference is mechanistic and requires validation. Alternative explanations include: (1) wrong dosing regimen; (2) treatment too late in disease course; (3) patient heterogeneity masking subset-specific benefit; (4) adverse events unrelated to mechanism. The hypothesis is testable: if corticosteroid failure is due to impaired viral containment, then corticosteroid-treated Long COVID patients should show higher viral reservoir burden or delayed viral clearance compared to placebo.
+] <spec:corticosteroid-mechanism>
+
+#hypothesis(title: [Corticosteroid-Induced HPA "Trust-Breaking"])[
+
+Exogenous corticosteroids may disrupt HPA axis recovery in ME/CFS through negative feedback suppression. ME/CFS already demonstrates hypocortisolism and flattened diurnal rhythm, suggesting HPA dysfunction is part of the disease phenotype rather than a deficiency to be corrected. Exogenous steroids suppress endogenous cortisol production, potentially prolonging recovery time through a "trust-breaking" mechanism where the HPA axis adapts to unreliable external input. This hypothesis is supported by failed hydrocortisone trials showing adrenal suppression despite modest transient benefit, and extends to methylprednisolone's more potent HPA effects.
+
+*Certainty: 0.55.* This hypothesis has strong mechanistic grounding in known HPA feedback physiology and documented ME/CFS hypocortisolism. Falsifiable predictions: (a) corticosteroid-treated patients show prolonged suppression of cortisol awakening response (>4 weeks post-discontinuation); (b) degree of CAR suppression correlates with symptom worsening; (c) slower HPA recovery to baseline variability compared to untreated controls.
+] <hyp:steroid-hpa-trust-breaking>
+
+#hypothesis(title: [Viral Reactivation via Steroid-Induced NK Suppression])[
+
+Methylprednisolone suppression of natural killer cell function may trigger herpesvirus reactivation (EBV, HHV-6) in ME/CFS/Long COVID patients. NK dysfunction is a core ME/CFS feature, and elevated herpesvirus antibody titers are documented in patient subsets. Exacerbating NK dysfunction through corticosteroid exposure could trigger viral reactivation, worsening symptoms and explaining both the lack of efficacy and potential harm observed in the PoCoVIT trial. This mechanism would be consistent with the broader pattern where immune suppression may interfere with viral containment rather than resolve pathology.
+
+*Certainty: 0.50.* This hypothesis is grounded in documented ME/CFS NK dysfunction, known herpesvirus reactivation in subsets, and methylprednisolone's mechanism of NK suppression. Falsifiable predictions: (a) corticosteroid-treated patients show increased EBV/HHV-6 viral load or early antigen antibodies during treatment; (b) NK cytotoxicity suppression correlates with symptom worsening; (c) delayed symptom recovery even after steroids discontinued.
+] <hyp:steroid-nk-viral-reactivation>
+
+#hypothesis(title: [Corticosteroid-Induced Transcriptional Reprogramming Trap])[
+
+High-dose corticosteroids trigger massive glucocorticoid receptor (GR)-mediated transcriptional reprogramming. In ME/CFS/Long COVID, where epigenetic dysregulation is already documented (altered DNA methylation at NR3C1, miRNA changes), exogenous steroids may lock cells into a maladaptive transcriptional state that is difficult to reverse. GR resistance documented in ME/CFS suggests partial signaling, which could produce unpredictable mixed agonist/antagonist effects. This "transcriptional lock" hypothesis explains why transient steroid exposure could produce prolonged dysfunction even after drug discontinuation.
+
+*Certainty: 0.45.* This hypothesis is supported by documented ME/CFS epigenetic dysregulation, GR resistance evidence, and known steroid effects on transcription. Falsifiable predictions: (a) corticosteroid-treated patients show increased expression of GR-target genes associated with muscle atrophy (atrogin-1, MuRF1); (b) persistent epigenetic changes at GR binding sites detectable for >30 days after discontinuation; (c) worse recovery trajectories compared to untreated controls with similar baseline severity.
+] <hyp:steroid-transcriptional-lock>
+
+#hypothesis(title: [Glucocorticoid Receptor Isoform Imbalance])[
+
+ME/CFS patients may have altered GR-alpha/GR-beta expression ratios, explaining corticosteroid resistance. GR-beta acts as a dominant negative inhibitor of GR-alpha signaling. Methylprednisolone cannot overcome this signaling defect, producing no benefit while still causing side effects. This hypothesis is supported by altered methylation at NR3C1 (GR gene) documented in ME/CFS and steroid resistance patterns observed in other inflammatory conditions where GR-beta dominance occurs.
+
+*Certainty: 0.40.* This hypothesis is grounded in known GR isoform biology and documented ME/CFS epigenetic changes at the GR gene locus. Falsifiable predictions: (a) ME/CFS/Long COVID patients show altered GR-alpha/GR-beta expression ratios in peripheral blood mononuclear cells; (b) GR-beta dominance correlates with treatment non-response; (c) in vitro assays show blunted transcriptional response to dexamethasone compared to healthy controls.
+] <hyp:gr-isoform-imbalance>
+
 === Pharmacogenomics
 <sec:pharmacogenomics>
 
@@ -1653,6 +1692,34 @@ The failure of B-cell depletion (rituximab) @Fluge2019 suggests B-cells are not
 #warning-env(title: [Checkpoint Inhibitors Carry High Risk])[
 Immune checkpoint inhibitors are powerful immunotherapies with serious potential side effects including autoimmune colitis, pneumonitis, hepatitis, and endocrinopathies. They should only be considered in severe, refractory ME/CFS under research protocols with extensive safety monitoring. This speculation is hypothesis-generating for research, not clinical recommendation.
 ] <warn:checkpoint-risk>
+
+=== Steroid-Avoidant Anti-Inflammatory Strategies
+<subsec:steroid-avoidant-strategies>
+
+#key-point(title: [Methylprednisolone Failure: Steroid Avoidance Preferred])[
+The PoCoVIT trial demonstrated that broad immune suppression via corticosteroids is both ineffective and potentially harmful in post-viral syndromes. This negative result, combined with failed hydrocortisone trials in ME/CFS, suggests that steroid-avoidant anti-inflammatory approaches should be prioritized. Several strategies provide anti-inflammatory effects without the HPA suppression, NK cell inhibition, and transcriptional reprogramming risks associated with corticosteroids.
+]
+
+#speculation(title: [Steroid-Sparing Anti-Inflammatory Protocol])[
+
+Combine multiple low-toxicity anti-inflammatory agents to achieve steroid-like anti-inflammatory effect without steroid toxicity. Core components: low-dose naltrexone (LDN) for microglial modulation; palmitoylethanolamide (PEA) for endocannabinoid support; Devil's claw (Harpagophytum procumbens) for NF-kB inhibition; and H1/H2 antihistamines for mast cell stabilization. This combination targets multiple inflammatory pathways (microglial, endocannabinoid, NF-kB, mast cell) without the broad immunosuppression that may trigger viral reactivation. The protocol is severity-level scalable and implementable at home for severe patients.
+
+*Certainty: 0.50.* This protocol combines agents with individual ME/CFS evidence but has not been tested as a combined steroid-sparing strategy. Falsifiable predictions: (a) combination produces comparable cytokine reduction to low-dose steroids; (b) avoids HPA suppression; (c) shows better symptom outcomes than methylprednisolone; (d) is implementable at home for severe patients.
+] <spec:steroid-sparing-protocol>
+
+#speculation(title: [Post-Steroid Recovery Protocol])[
+
+If corticosteroids are unavoidable (e.g., for acute conditions, asthma exacerbation, or autoimmune flares), a structured recovery protocol may minimize ME/CFS/Long COVID risk or worsening. Protocol phases: (1) During steroid course: adrenal support stack (pantothenic acid 500 mg BID + rhodiola/ashwagandha adaptogens) to maintain endogenous production capacity; NK support stack (AHCC 3 g daily + vitamin D 5000 IU + zinc 30 mg + selenium 200 mcg) to prevent viral reactivation; (2) During taper: phosphatidylserine 300 mg BID to accelerate HPA axis recovery; (3) Post-taper: vagus nerve stimulation (tVNS) for inflammation control via cholinergic pathway, continuing for 4-6 weeks to allow HPA normalization.
+
+*Certainty: 0.40.* This protocol combines components with individual mechanistic rationale but has not been tested as a structured recovery intervention. Falsifiable predictions: (a) protocol accelerates HPA axis normalization vs historical controls; (b) lower incidence of new ME/CFS/Long COVID diagnosis in post-steroid patients; (c) better symptom recovery than untreated historical controls.
+] <spec:post-steroid-recovery>
+
+#speculation(title: [Vagus Nerve Stimulation as Steroid Alternative])[
+
+Transcutaneous vagus nerve stimulation (tVNS) provides anti-inflammatory effects via the cholinergic anti-inflammatory pathway, which operates through different mechanisms than corticosteroids. tVNS activates the vagus nerve, which releases acetylcholine that binds to alpha-7 nicotinic receptors on macrophages, suppressing pro-inflammatory cytokine production without HPA suppression or NK cell inhibition. This makes tVNS a potential alternative for patients with inflammatory symptoms who should avoid corticosteroids.
+
+*Certainty: 0.45.* tVNS has shown promise in Long COVID and ME/CFS pilot studies, and the cholinergic anti-inflammatory pathway is well-characterized. However, large-scale RCTs in ME/CFS are lacking. Falsifiable predictions: (a) tVNS reduces pro-inflammatory cytokines via cholinergic pathway; (b) does not suppress HPA axis; (c) shows efficacy where steroids failed, particularly in patients with vagal dysfunction baseline.
+] <spec:vns-steroid-alternative>
 
 === Central Governor Theory Link
 <subsec:central-governor>

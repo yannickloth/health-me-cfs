@@ -590,7 +590,7 @@ Several animal models have been developed to study post-infectious fatigue state
 
 Rodent models of immune activation using Toll-like receptor agonists have demonstrated persistent microglial activation, altered tryptophan metabolism, and disrupted hypothalamic–pituitary–adrenal (HPA) axis signaling weeks after the initial immune challenge. Such models are particularly valuable for studying neuroinflammatory mechanisms (Chapter @ch:neurological) and testing candidate interventions targeting neuroglial pathways.
 
-#limitation[
+#limitation(title: [])[
 Animal models cannot fully replicate the subjective experience of fatigue or post-exertional malaise, and species differences in immune regulation, autonomic function, and metabolism limit direct translation to human ME/CFS. Results from animal studies should be interpreted as hypothesis-generating rather than confirmatory.
 ]
 
@@ -610,7 +610,7 @@ Multi-organ-on-a-chip platforms, which connect microfluidic compartments represe
 
 === Towards an Integrated Model Panel
 
-#open-question[
+#open-question(title: [])[
 What is the minimal panel of model systems needed to capture the core pathophysiology of ME/CFS? A proposed minimum panel includes: (1) a post-viral murine model for systemic and neuroinflammatory mechanisms, (2) patient-derived PBMCs for bioenergetic profiling, (3) gut organoids for barrier and microbiome studies, and (4) iPSC-derived neurons for central sensitization research. Validation across this panel would strengthen confidence in candidate mechanisms and therapeutic targets.
 ]
 

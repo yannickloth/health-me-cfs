@@ -90,9 +90,9 @@ Category A (net energy provider). Essential cofactor for Na#super[+]/K#super[+]-
     - Modulates NMDA receptors (relevant to central sensitization)
     - Supports autonomic function
     - Promotes sleep (GABA-A receptor modulation)
-    - *Calcium overload cascade --- calcium-specific rationale:* Mg-ATP is the true substrate of Na#super[+]/K#super[+]-ATPase (not ATP alone); Mg#super[2+] deficiency impairs pump function, raising intracellular Na#super[+] and driving NCX1 reversal toward Ca#super[2+] overload (the AIMM cascade, Section @sec:sodium-calcium-cascade). Mg#super[2+] also acts as a physiological Ca#super[2+] antagonist at NMDA receptors. If TRPM7 (the primary cellular Mg#super[2+] entry channel) is dysfunctional in ME/CFS @DuPreez2023trpm7, intracellular Mg#super[2+] depletion is an expected downstream consequence, amplifying the calcium overload cascade.
+    - *Calcium overload cascade --- calcium-specific rationale:* Mg-ATP is the true substrate of Na#super[+]/K#super[+]-ATPase (not ATP alone); Mg#super[2+] deficiency impairs pump function, raising intracellular Na#super[+] and driving NCX1 reversal toward Ca#super[2+] overload (the AIMM cascade, Section:sodium-calcium-cascade). Mg#super[2+] also acts as a physiological Ca#super[2+] antagonist at NMDA receptors. If TRPM7 (the primary cellular Mg#super[2+] entry channel) is dysfunctional in ME/CFS, intracellular Mg#super[2+] depletion is an expected downstream consequence, amplifying the calcium overload cascade.
 
-*Evidence.* Low–Moderate for ME/CFS; one small trial showed benefit with IM magnesium sulfate @Cox1991magnesium.
+*Evidence.* Low–Moderate for ME/CFS; one small trial showed benefit with IM magnesium sulfate
 
 *Forms.*
 
@@ -127,7 +127,7 @@ Cost: pennies per liter versus \$1–3 for commercial products.
 
 *Clinical evidence for ORS efficacy.*
 <sec:ors>
-Medow et al. (2019) compared ORS (1~litre over 30~minutes, orally) with intravenous saline (1~litre) in children with POTS and found similar improvement in cerebral blood flow and similar reduction in orthostatic intolerance in both groups @Medow2019ors. This establishes ORS as a practical, non-invasive alternative to IV saline for blood volume expansion in dysautonomia. The mechanism exploits the intestinal sodium-glucose cotransporter (SGLT1): glucose in the ORS enables active sodium absorption in the small intestine, carrying water along osmotically. This pathway operates independently of renal sodium retention, which is impaired in ME/CFS due to RAAS suppression (see Section @sec:blood-volume in Chapter @ch:cardiovascular). For patients with severe hypovolemic thirst (Section @sec:hypovolemic-thirst in Chapter @ch:cardiovascular), consuming 70--80% of daily fluids as ORS rather than plain water can substantially reduce fluid intake while improving blood volume. Commercial products formulated for ME/CFS and POTS include Normalyte (dextrose-based, minimal additives) and Trioral Salts (lowest cost).
+Medow et al. (2019) compared ORS (1~litre over 30~minutes, orally) with intravenous saline (1~litre) in children with POTS and found similar improvement in cerebral blood flow and similar reduction in orthostatic intolerance in both groups This establishes ORS as a practical, non-invasive alternative to IV saline for blood volume expansion in dysautonomia. The mechanism exploits the intestinal sodium-glucose cotransporter (SGLT1): glucose in the ORS enables active sodium absorption in the small intestine, carrying water along osmotically. This pathway operates independently of renal sodium retention, which is impaired in ME/CFS due to RAAS suppression (see Section:blood-volume in Chapter:cardiovascular). For patients with severe hypovolemic thirst (Section:hypovolemic-thirst in Chapter:cardiovascular), consuming 70--80% of daily fluids as ORS rather than plain water can substantially reduce fluid intake while improving blood volume. Commercial products formulated for ME/CFS and POTS include Normalyte (dextrose-based, minimal additives) and Trioral Salts (lowest cost).
 
 #warning-env(title: [ORS Long-Term Safety])[
 Long-term safety of high daily ORS consumption has not been formally studied. Some clinicians report electrolyte formulations being hard on the kidneys. ORS may further suppress RAAS activity (the body receives easy electrolyte supply, reducing endogenous retention stimulus). Tapering is recommended when discontinuing regular ORS. Do not combine high ORS intake with aggressive salt loading.
@@ -163,7 +163,7 @@ Omit citrus entirely. Maple syrup provides glucose for sodium-glucose co-transpo
 <subsec:electrolyte-initiation-caution>
 
 #warning-env(title: [Intracellular vs.\ Extracellular Sodium: A Critical Distinction])[
-Standard POTS/dysautonomia guidelines recommend high sodium intake (10–12 g/day) to expand _blood volume_—addressing _extracellular_ sodium. However, emerging evidence suggests ME/CFS patients may already have _intracellular_ sodium overload in muscle tissue, creating a potential paradox where aggressive sodium supplementation could worsen underlying pathophysiology even while improving some orthostatic symptoms @Wirth2021muscle @Petter2022sodium @Scheibenbogen2025muscle.
+Standard POTS/dysautonomia guidelines recommend high sodium intake (10–12 g/day) to expand _blood volume_—addressing _extracellular_ sodium. However, emerging evidence suggests ME/CFS patients may already have _intracellular_ sodium overload in muscle tissue, creating a potential paradox where aggressive sodium supplementation could worsen underlying pathophysiology even while improving some orthostatic symptoms @Wirth2021muscle
 ]
 
 *The Evidence.*
@@ -172,7 +172,7 @@ Standard POTS/dysautonomia guidelines recommend high sodium intake (10–12 g/d
     - *Functional correlation:* Elevated muscle sodium correlated inversely with hand grip strength ($p=0.03$, $R^2=0.38$), suggesting functional consequences @Petter2022sodium.
 
 #speculation(title: [The NCX Reversal Mechanism])[
-*Certainty: 0.25.* Mechanistic hypothesis based on indirect evidence (elevated intracellular sodium on MRI @Petter2022sodium, known NCX biophysics); not directly tested in ME/CFS. Wirth and Scheibenbogen propose that $beta_2$-adrenergic receptor dysfunction impairs Na#super[+]/K#super[+]-ATPase activity, allowing intracellular sodium accumulation @Wirth2021muscle @Scheibenbogen2025muscle. When intracellular sodium exceeds a threshold, the sodium-calcium exchanger (NCX) reverses direction—importing calcium instead of exporting it—causing calcium overload and mitochondrial dysfunction. This model suggests ME/CFS patients operate near the NCX reversal threshold, explaining why even minor exertion triggers post-exertional malaise.
+*Certainty: 0.25.* Mechanistic hypothesis based on indirect evidence (elevated intracellular sodium on MRI @Petter2022sodium, known NCX biophysics); not directly tested in ME/CFS. Wirth and Scheibenbogen propose that $beta_2$-adrenergic receptor dysfunction impairs Na#super[+]/K#super[+]-ATPase activity, allowing intracellular sodium accumulation @Wirth2021muscle When intracellular sodium exceeds a threshold, the sodium-calcium exchanger (NCX) reverses direction—importing calcium instead of exporting it—causing calcium overload and mitochondrial dysfunction. This model suggests ME/CFS patients operate near the NCX reversal threshold, explaining why even minor exertion triggers post-exertional malaise.
 ] <spec:ncx-reversal>
 
 *Clinical Implications.*
@@ -217,7 +217,7 @@ Given the evidence for energy metabolism dysfunction in ME/CFS (Chapter @ch:ene
 
 *Rationale.* CoQ10 is a mobile electron carrier in the electron transport chain, shuttling electrons from Complex I and Complex II to Complex III, and is a potent lipid-soluble antioxidant.
 
-*Evidence.* Moderate. Multiple small studies show benefit in ME/CFS @Maes2009CoQ10 @CastroMarrero2015 (Castro-Marrero 2015: n=73, CoQ10+NADH combination) and fibromyalgia @Cordero2013. A 2022 systematic review and meta-analysis of 13 RCTs (n=1,126) found CoQ10 significantly reduced fatigue across several chronic conditions (cancer fatigue, MS, fibromyalgia, cardiovascular disease; not ME/CFS-specific) @Tsai2022CoQ10fatigue.
+*Evidence.* Moderate. Multiple small studies show benefit in ME/CFS @Maes2009CoQ10 (Castro-Marrero 2015: n=73, CoQ10+NADH combination) and fibromyalgia @Cordero2013. A 2022 systematic review and meta-analysis of 13 RCTs (n=1,126) found CoQ10 significantly reduced fatigue across several chronic conditions (cancer fatigue, MS, fibromyalgia, cardiovascular disease; not ME/CFS-specific) @Tsai2022CoQ10fatigue.
 
 *Forms.*
 
@@ -277,7 +277,7 @@ Category A (net energy provider). Direct electron donor to Complex I; each NADH
 
 *Rationale.* NAD#super[+] is essential for mitochondrial function, DNA repair, and cellular signaling. The Heng 2025 study @heng2025mecfs documented NAD#super[+] metabolism abnormalities in ME/CFS. While direct oral NAD#super[+] supplementation has poor bioavailability (gastric degradation), sublingual NAD#super[+] (100–300 mg/day) offers a direct route, and precursors efficiently raise intracellular levels. NAD#super[+] precursors replenish the cellular NAD#super[+] pool for sirtuins and PARP-mediated DNA repair—a complementary mechanism to the direct electron donation provided by NADH (Section @subsec:nadh-supplement). For combination guidance, see Section @subsec:mito-combination-guide.
 
-*Evidence.* Preliminary. A 2025 RCT in Long COVID (n=58; 20-week intervention) showed NR 2000 mg/day increased whole-blood NAD#super[+] levels 2.6–3.1 fold (measured at interim timepoints of 5 and 10 weeks); cognitive benefits were variable, with overall group effects limited but some individuals showing improvement after $gt.eq$10 weeks @Wu2025NRLongCOVID. *Important caveat:* The Wu 2025 trial is cited here for whole-blood NAD#super[+] elevation (a robust surrogate); its null primary cognitive endpoint means it does not support efficacy claims. Whole-blood NAD#super[+] does not equal tissue-level NAD#super[+]: human RCTs show NR robustly elevates blood NAD#super[+] but produces small or undetectable NAD#super[+] rises in muscle tissue (unreplicated in brain). In inflammatory states, CD38 (NADase) is upregulated and may consume NR-derived NAD#super[+] before SIRT1 can access it. Nicotinamide (a metabolic byproduct of NR/NMN) inhibits sirtuins at high intracellular concentrations @Bitterman2002Nicotinamide, potentially limiting the SIRT1 restoration mechanism. These barriers are relevant to interpreting the NR/NMN-HSAT2 speculation below and to setting realistic expectations for clinical response.
+*Evidence.* Preliminary. A 2025 RCT in Long COVID (n=58; 20-week intervention) showed NR 2000 mg/day increased whole-blood NAD#super[+] levels 2.6–3.1 fold (measured at interim timepoints of 5 and 10 weeks); cognitive benefits were variable, with overall group effects limited but some individuals showing improvement after $gt.eq$10 weeks @Wu2025NRLongCOVID. *Important caveat:* The Wu 2025 trial is cited here for whole-blood NAD#super[+] elevation (a robust surrogate); its null primary cognitive endpoint means it does not support efficacy claims. Whole-blood NAD#super[+] does not equal tissue-level NAD#super[+]: human RCTs show NR robustly elevates blood NAD#super[+] but produces small or undetectable NAD#super[+] rises in muscle tissue (unreplicated in brain). In inflammatory states, CD38 (NADase) is upregulated and may consume NR-derived NAD#super[+] before SIRT1 can access it. Nicotinamide (a metabolic byproduct of NR/NMN) inhibits sirtuins at high intracellular concentrations, potentially limiting the SIRT1 restoration mechanism. These barriers are relevant to interpreting the NR/NMN-HSAT2 speculation below and to setting realistic expectations for clinical response.
 
 *Forms.*
 
@@ -294,7 +294,7 @@ Category A (net energy provider). Direct electron donor to Complex I; each NADH
     - NAD#super[+] sublingual: 100–300 mg daily
     - Niacin: 500–1500 mg daily (with caution)
 
-*Emergency Use (Speculative).* For emergency post-exertion PEM prevention, high-dose loading (1000–2000 mg NR or NMN immediately post-exertion, then 500 mg twice daily for 3–5 days) may prevent NAD#super[+] depletion hypothetically attributable to PARP activation during DNA repair—this mechanism is plausible but unconfirmed in ME/CFS specifically @Dehhaghi2022AD. *Caution:* This protocol has not been tested in any clinical trial. High-dose NR/NMN may cause gastrointestinal side effects and has not been safety-tested at these doses in ME/CFS patients. Discuss with physician before attempting. See Chapter @ch:emerging-therapies, @subsec:pem-prevention for complete emergency protocol.
+*Emergency Use (Speculative).* For emergency post-exertion PEM prevention, high-dose loading (1000–2000 mg NR or NMN immediately post-exertion, then 500 mg twice daily for 3–5 days) may prevent NAD#super[+] depletion hypothetically attributable to PARP activation during DNA repair—this mechanism is plausible but unconfirmed in ME/CFS specifically @Dehhaghi2022AD. *Caution:* This protocol has not been tested in any clinical trial. High-dose NR/NMN may cause gastrointestinal side effects and has not been safety-tested at these doses in ME/CFS patients. Discuss with physician before attempting. See Chapter @ch:emerging-therapies,:pem-prevention for complete emergency protocol.
 
 *Response Timeline.* May require 10+ weeks for noticeable benefit.
 
@@ -317,7 +317,7 @@ Teitelbaum 2006/2012: within-group only, no placebo arm, supplement industry co-
 
 *Dosing.* 5 g three times daily (15 g/day total); can be reduced to 5–10 g daily for maintenance.
 
-*Emergency Use.* For emergency post-exertion PEM prevention, higher acute doses (10–15 g immediately post-exertion, then 5 g every 4–6 hours for 24–48h) may be used as part of comprehensive crash prevention protocol. See Chapter @ch:emerging-therapies, @subsec:pem-prevention for complete emergency protocol.
+*Emergency Use.* For emergency post-exertion PEM prevention, higher acute doses (10–15 g immediately post-exertion, then 5 g every 4–6 hours for 24–48h) may be used as part of comprehensive crash prevention protocol. See Chapter @ch:emerging-therapies,:pem-prevention for complete emergency protocol.
 
 *Practical Tips.*
 
@@ -373,7 +373,7 @@ Category A (net energy provider). Directly buffers ATP via the phosphocreatine s
 
 *Rationale.* PQQ stimulates mitochondrial biogenesis (creation of new mitochondria) and has antioxidant properties.
 
-*Evidence.* Preliminary. Small RCTs in healthy adults show cognitive benefits: improved attention and working memory with 20 mg/day over 12 weeks @Tamakoshi2023PQQbrain @Shiojima2022PQQcognitive; no ME/CFS-specific trials.
+*Evidence.* Preliminary. Small RCTs in healthy adults show cognitive benefits: improved attention and working memory with 20 mg/day over 12 weeks @Tamakoshi2023PQQbrain; no ME/CFS-specific trials.
 
 *Dosing.* 10–20 mg daily.
 
@@ -522,22 +522,22 @@ NAC is one of the most versatile and evidence-supported supplements relevant to 
 *Energy Profile.*
 Category A–B (provider to neutral). Glutathione precursor that reduces oxidative stress, indirectly conserving cellular energy otherwise spent on damage repair. The conversion of NAC to glutathione requires minimal ATP (two enzymatic steps). By reducing oxidative damage to mitochondrial membranes and enzymes, NAC helps preserve energy production efficiency.
 
-*Additional mechanistic rationale — HSAT2 pathway.* Oxidative stress activates HSF1, the heat-shock transcription factor that drives pericentromeric HSAT2 repeat RNA transcription @Evdokimova2019HSAT2exosome. HSAT2 packaged into exosomes is a candidate driver of MDSC expansion and NK cytotoxicity suppression in ME/CFS @spec:hsat2-exosome-mdsc. By reducing ROS-mediated HSF1 induction, NAC may limit HSAT2 transcriptional induction and reduce the EV immunosuppressive cargo burden. This mechanistic link is speculative and untested in ME/CFS; it provides additional biological rationale for NAC beyond direct glutathione repletion.
+*Additional mechanistic rationale — HSAT2 pathway.* Oxidative stress activates HSF1, the heat-shock transcription factor that drives pericentromeric HSAT2 repeat RNA transcription HSAT2 packaged into exosomes is a candidate driver of MDSC expansion and NK cytotoxicity suppression in ME/CFS:hsat2-exosome-mdsc. By reducing ROS-mediated HSF1 induction, NAC may limit HSAT2 transcriptional induction and reduce the EV immunosuppressive cargo burden. This mechanistic link is speculative and untested in ME/CFS; it provides additional biological rationale for NAC beyond direct glutathione repletion.
 
 #speculation(title: [NAC as an Indirect Suppressor of Exosomal HSAT2 via Oxidative-Stress Reduction])[
 
 
 *(Certainty: 0.25 — two-step mechanistic inference: NAC → ROS reduction → HSF1 suppression → reduced HSAT2 transcription; no direct evidence.)*
 
-NAC reduces cellular reactive oxygen species through glutathione repletion. Oxidative stress activates HSF1 through a redox-sensing mechanism involving cysteines C35 and C105 in HSF1's DNA-binding domain, which form redox-sensitive disulfide bonds under H2O2 exposure @AhnThiele2003HSF1redox. HSF1 in turn can induce HSAT2 pericentromeric repeat transcription — HSF1 binding sites are present within the Sat2 sequence and HSF1 binding to satellite II sequences at pericentromeric regions is documented at 42°C @Eymery2010HSF1SatII @Decottignies2012Sat2heatshock. If ME/CFS patients have chronic low-level oxidative stress — a well-documented feature @maes2012oxidative — NAC could attenuate the oxidative trigger for HSAT2 transcription via the ROS-p38MAPK-HSF1 arm.
+NAC reduces cellular reactive oxygen species through glutathione repletion. Oxidative stress activates HSF1 through a redox-sensing mechanism involving cysteines C35 and C105 in HSF1's DNA-binding domain, which form redox-sensitive disulfide bonds under H2O2 exposure HSF1 in turn can induce HSAT2 pericentromeric repeat transcription — HSF1 binding sites are present within the Sat2 sequence and HSF1 binding to satellite II sequences at pericentromeric regions is documented at 42°C If ME/CFS patients have chronic low-level oxidative stress — a well-documented feature — NAC could attenuate the oxidative trigger for HSAT2 transcription via the ROS-p38MAPK-HSF1 arm.
 
-*Evidence for the NAC-HSF1 link:* In Chinese hamster lung fibroblasts (V79 cells), 5 mM NAC pretreatment blocked heat-induced ROS generation, prevented p38MAPK phosphorylation by 99%, and suppressed downstream HSP70 and MnSOD upregulation @MustafiBanerjeee2009NAC. NAC does not directly suppress HSF1 — the effect is upstream through ROS-p38MAPK.
+*Evidence for the NAC-HSF1 link:* In Chinese hamster lung fibroblasts (V79 cells), 5 mM NAC pretreatment blocked heat-induced ROS generation, prevented p38MAPK phosphorylation by 99%, and suppressed downstream HSP70 and MnSOD upregulation NAC does not directly suppress HSF1 — the effect is upstream through ROS-p38MAPK.
 
-*Critical disconfirmation — human exercise:* In a human crossover study, NAC infusion during cycling exercise blocked JNK phosphorylation but did NOT suppress exercise-induced HSP70 mRNA expression @Petersen2012NACexercise. MnSOD mRNA was ROS-dependent; HSP70 was not. This indicates that in physiological human exercise stress, the protein-denaturation arm of HSF1 activation — not the ROS arm — dominates. If HSAT2 transcription during ME/CFS exertional stress is driven primarily by protein-denaturation (not ROS), NAC would not meaningfully attenuate it. This is the most important caveat for this hypothesis.
+*Critical disconfirmation — human exercise:* In a human crossover study, NAC infusion during cycling exercise blocked JNK phosphorylation but did NOT suppress exercise-induced HSP70 mRNA expression MnSOD mRNA was ROS-dependent; HSP70 was not. This indicates that in physiological human exercise stress, the protein-denaturation arm of HSF1 activation — not the ROS arm — dominates. If HSAT2 transcription during ME/CFS exertional stress is driven primarily by protein-denaturation (not ROS), NAC would not meaningfully attenuate it. This is the most important caveat for this hypothesis.
 
-*Mechanistic complexity — the SIRT1-SUV39H1 competing direction:* A second complication exists: oxidative stress activates SIRT1, which stabilizes SUV39H1 (the primary pericentromeric H3K9me3 writer) by blocking MDM2-mediated ubiquitination @BoschPresegue2011SIRT1SUV39H1. SUV39H1 stability maintains H3K9me3 at HSAT2 loci, promoting silencing. NAC-mediated ROS reduction could theoretically reduce SIRT1 activation, thereby *destabilizing* SUV39H1 and *reducing* H3K9me3 at HSAT2 loci — the opposite direction from what this hypothesis proposes. The net effect of NAC on pericentromeric silencing is therefore ambiguous: the ROS-p38MAPK-HSF1 arm predicts reduced HSAT2 transcription; the SIRT1-SUV39H1 arm predicts the competing direction.
+*Mechanistic complexity — the SIRT1-SUV39H1 competing direction:* A second complication exists: oxidative stress activates SIRT1, which stabilizes SUV39H1 (the primary pericentromeric H3K9me3 writer) by blocking MDM2-mediated ubiquitination SUV39H1 stability maintains H3K9me3 at HSAT2 loci, promoting silencing. NAC-mediated ROS reduction could theoretically reduce SIRT1 activation, thereby *destabilizing* SUV39H1 and *reducing* H3K9me3 at HSAT2 loci — the opposite direction from what this hypothesis proposes. The net effect of NAC on pericentromeric silencing is therefore ambiguous: the ROS-p38MAPK-HSF1 arm predicts reduced HSAT2 transcription; the SIRT1-SUV39H1 arm predicts the competing direction.
 
-*Distinguishing the pathway — a second evidence gap:* The heat-shock transcriptional program (which includes HSAT2 transcription and nSB formation) is not fully recapitulated by oxidative stress alone. Himanen et al.\ showed that HSF1 binds different genomic targets under oxidative stress versus heat shock and does not trigger RNA Pol II pause-release at heat-shock-specific loci under purely oxidative conditions @Himanen2022HSFoxidative. Oxidative stress alone produces only minimal satellite III nSB formation (fewer than 5% of cells) versus the robust induction by heat @Valgardsdottir2008SatIIIstress. This weakens the entire oxidative-stress → HSAT2 inference chain — and thus weakens the mechanistic rationale for NAC targeting this axis.
+*Distinguishing the pathway — a second evidence gap:* The heat-shock transcriptional program (which includes HSAT2 transcription and nSB formation) is not fully recapitulated by oxidative stress alone. Himanen et al.\ showed that HSF1 binds different genomic targets under oxidative stress versus heat shock and does not trigger RNA Pol II pause-release at heat-shock-specific loci under purely oxidative conditions Oxidative stress alone produces only minimal satellite III nSB formation (fewer than 5% of cells) versus the robust induction by heat This weakens the entire oxidative-stress → HSAT2 inference chain — and thus weakens the mechanistic rationale for NAC targeting this axis.
 
 *Net certainty assessment:* The existing certainty (0.25) should be considered close to its floor given the competing evidence. The ROS-p38MAPK-HSF1 arm has mechanistic support in fibroblast in vitro data but is disconfirmed in human physiological exercise; the SIRT1-SUV39H1 competing direction runs opposite to the hypothesis; and the oxidative-stress → HSAT2 link is mechanistically weaker than the heat-shock → HSAT2 link. No direct NAC-HSAT2 evidence exists.
 
@@ -548,7 +548,7 @@ NAC reduces cellular reactive oxygen species through glutathione repletion. Oxid
 
 #open-question(title: [Does NAC Reduce Exosomal HSAT2 in ME/CFS? A Direct Test of the Disconfirmed Human Exercise Chain])[
 
-Cluster C surfaces a critical disconfirmation: in a human crossover study, NAC infusion during cycling exercise blocked JNK phosphorylation but did *not* suppress HSP70 mRNA expression @Petersen2012NACexercise, indicating protein-denaturation rather than ROS dominates exercise-induced HSF1 activation. The current `spec:nac-hsat2` reflects this ambiguity. However, the disconfirmation used HSP70 as the readout — not HSAT2 specifically. HSP70 and HSAT2 are driven by overlapping but distinct HSF1 target programs; it remains possible that the ROS-p38MAPK-HSF1 arm is sufficient for HSAT2 induction even if insufficient for HSP70.
+Cluster C surfaces a critical disconfirmation: in a human crossover study, NAC infusion during cycling exercise blocked JNK phosphorylation but did *not* suppress HSP70 mRNA expression, indicating protein-denaturation rather than ROS dominates exercise-induced HSF1 activation. The current `spec:nac-hsat2` reflects this ambiguity. However, the disconfirmation used HSP70 as the readout — not HSAT2 specifically. HSP70 and HSAT2 are driven by overlapping but distinct HSF1 target programs; it remains possible that the ROS-p38MAPK-HSF1 arm is sufficient for HSAT2 induction even if insufficient for HSP70.
 
 A direct test would re-run the disconfirmation with the HSAT2-specific readout: NAC supplementation (1.8 g/day × 4 weeks) in ME/CFS patients, with plasma EV HSAT2 by TRAP-ddPCR as the primary endpoint rather than HSP70 mRNA. If NAC does not reduce EV HSAT2, the disconfirmation holds and NAC should not be framed as an HSAT2-targeted intervention. If NAC reduces EV HSAT2 despite the HSP70 disconfirmation, the ROS arm may specifically feed HSAT2 but not HSP70. If HSAT2 rises after NAC (SIRT1-SUV39H1 competing direction), NAC would be contraindicated for HSAT2-high patients.
 
@@ -563,7 +563,7 @@ A direct test would re-run the disconfirmation with the HSAT2-specific readout: 
 
 *(Certainty: 0.25 — SIRT1-SUV39H1 axis mechanistically established; NAD+ depletion in ME/CFS documented; direct NR-HSAT2 link absent.)*
 
-SIRT1 requires NAD+ as a co-substrate to deacetylate and stabilize SUV39H1 — the primary H3K9me3 writer at pericentromeric heterochromatin @BoschPresegue2011SIRT1SUV39H1. If ME/CFS involves chronic NAD+ depletion (consistent with documented metabolic impairment in multiple cohorts), then SIRT1 activity may be insufficient to maintain SUV39H1 stability, leading to H3K9me3 loss and HSAT2 derepression @spec:sirt1-hsat2-upstream. NAD+ precursors — nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) — raise intracellular NAD+ reliably within 4–8 weeks at 500–1000 mg/day.
+SIRT1 requires NAD+ as a co-substrate to deacetylate and stabilize SUV39H1 — the primary H3K9me3 writer at pericentromeric heterochromatin If ME/CFS involves chronic NAD+ depletion (consistent with documented metabolic impairment in multiple cohorts), then SIRT1 activity may be insufficient to maintain SUV39H1 stability, leading to H3K9me3 loss and HSAT2 derepression:sirt1-hsat2-upstream. NAD+ precursors — nicotinamide riboside (NR) and nicotinamide mononucleotide (NMN) — raise intracellular NAD+ reliably within 4–8 weeks at 500–1000 mg/day.
 
 This provides a distinct rationale for NR/NMN in ME/CFS complementary to the established mitochondrial energy production rationale: rather than (or in addition to) supporting complex I function, NAD+ restoration could restore SIRT1-mediated pericentromeric silencing. The two rationales are mechanistically non-overlapping and additive.
 
@@ -577,13 +577,13 @@ This provides a distinct rationale for NR/NMN in ME/CFS complementary to the est
 
 *(Certainty: 0.40 — arginase-1/L-arginine mechanism confirmed in chronic viral MDSC model; L-citrulline raises plasma arginine reliably; ME/CFS-specific data absent.)*
 
-M-MDSCs express high arginase-1, depleting extracellular L-arginine and suppressing NK IFN-γ production by approximately 60% via mTOR inhibition in the chronic HCV model @Goh2016HCVMDSCArginase. L-arginine supplementation reverses this suppression in vitro. Oral L-citrulline is preferred over direct L-arginine supplementation because citrulline bypasses intestinal first-pass arginase catabolism and raises plasma arginine more reliably (approximately 40–60% rise with 6 g/day in healthy adults).
+M-MDSCs express high arginase-1, depleting extracellular L-arginine and suppressing NK IFN-γ production by approximately 60% via mTOR inhibition in the chronic HCV model L-arginine supplementation reverses this suppression in vitro. Oral L-citrulline is preferred over direct L-arginine supplementation because citrulline bypasses intestinal first-pass arginase catabolism and raises plasma arginine more reliably (approximately 40–60% rise with 6 g/day in healthy adults).
 
 If MDSC-driven arginase-1 depletes L-arginine in ME/CFS, citrulline supplementation could partially restore the substrate floor for NK mTOR activation without addressing the upstream MDSC expansion. This would not be curative (MDSCs remain elevated) but could provide symptomatic immune support while more definitive interventions are developed.
 
 *Falsifiable prediction:* L-citrulline 6 g/day × 8 weeks in ME/CFS will raise plasma L-arginine by ≥ 30% (verified by amino acid profile) and increase NK IFN-γ production ex vivo (K562 target assay) by ≥ 20%. MDSC frequency will not change. If NK cytotoxicity does not improve despite arginine repletion, the arginase-depletion mechanism is not the dominant NK suppressor.
 
-*Limitations:* No plasma arginine or arginase-1 data in ME/CFS. L-citrulline has a good safety profile (OTC in Belgium/EU, approximately €15–25/month); no ME/CFS trial data exist. The iNOS route of MDSC suppression (documented in SLE @Wang2019SLEMDSC) depletes arginine via a different enzyme; the dominant pathway in ME/CFS is unknown. Not replicated.
+*Limitations:* No plasma arginine or arginase-1 data in ME/CFS. L-citrulline has a good safety profile (OTC in Belgium/EU, approximately €15–25/month); no ME/CFS trial data exist. The iNOS route of MDSC suppression (documented in SLE) depletes arginine via a different enzyme; the dominant pathway in ME/CFS is unknown. Not replicated.
 ] <spec:citrulline-nk-mdsc>
 
 #speculation(title: [Sulforaphane as Nrf2/KDM6A Modulator — Upstream Oxidative-Stress Mitigation for the HSAT2 Loop])[
@@ -592,9 +592,9 @@ If MDSC-driven arginase-1 depletes L-arginine in ME/CFS, citrulline supplementat
 
 *(Certainty: 0.20 — Nrf2 activation by sulforaphane is well-established; its effect on HSAT2 specifically is indirect and untested.)*
 
-Sulforaphane, an isothiocyanate abundant in broccoli sprouts, activates the Nrf2 transcription factor (by alkylating KEAP1 cysteine residues), upregulating a battery of antioxidant response element (ARE)-driven genes including glutathione synthesis, thioredoxin reductase, and heme oxygenase-1. The rationale for HSAT2 relevance is indirect: if oxidative stress contributes to the ROS-p38MAPK-HSF1 arm of HSAT2 derepression @Vourc_h2022HSF1SatIII, then Nrf2-mediated oxidative stress reduction could partially attenuate HSF1-driven HSAT2 transcription. Additionally, sulforaphane has been reported to modulate histone demethylases including KDM6A (UTX), which removes H3K27me3 — a mark that interacts with the H3K9me3 pericentromeric silencing program, though this link to HSAT2 specifically is speculative.
+Sulforaphane, an isothiocyanate abundant in broccoli sprouts, activates the Nrf2 transcription factor (by alkylating KEAP1 cysteine residues), upregulating a battery of antioxidant response element (ARE)-driven genes including glutathione synthesis, thioredoxin reductase, and heme oxygenase-1. The rationale for HSAT2 relevance is indirect: if oxidative stress contributes to the ROS-p38MAPK-HSF1 arm of HSAT2 derepression, then Nrf2-mediated oxidative stress reduction could partially attenuate HSF1-driven HSAT2 transcription. Additionally, sulforaphane has been reported to modulate histone demethylases including KDM6A (UTX), which removes H3K27me3 — a mark that interacts with the H3K9me3 pericentromeric silencing program, though this link to HSAT2 specifically is speculative.
 
-The critical caveat from the NAC disconfirmation applies here: if HSAT2 transcription during ME/CFS exertional stress is driven primarily by protein-denaturation (HSF1 activation by unfolded proteins, not ROS), then sulforaphane's Nrf2-ROS axis would address the wrong arm @spec:nac-hsat2. Sulforaphane would be predicted to reduce 8-OHdG (oxidative stress marker) but show only modest effects on EV HSAT2.
+The critical caveat from the NAC disconfirmation applies here: if HSAT2 transcription during ME/CFS exertional stress is driven primarily by protein-denaturation (HSF1 activation by unfolded proteins, not ROS), then sulforaphane's Nrf2-ROS axis would address the wrong arm:nac-hsat2. Sulforaphane would be predicted to reduce 8-OHdG (oxidative stress marker) but show only modest effects on EV HSAT2.
 
 #practical-warning(title: [Safety Note])[Sulforaphane (from broccoli sprouts or supplements) is generally well-tolerated at food amounts. Supplemental sulforaphane standardisation varies; high-dose or concentrated extracts have not been studied for safety in ME/CFS. This intervention is not recommended without clinician oversight.]
 
@@ -606,7 +606,7 @@ The critical caveat from the NAC disconfirmation applies here: if HSAT2 transcri
 
 #open-question(title: [Does Spermidine Potentiate NAD+-Axis Support for Pericentromeric Silencing?])[
 
-Spermidine, a natural polyamine found in aged cheese, wheat germ, and mushrooms (also available as OTC supplement ~1 mg/day), induces autophagy via TFEB and mTOR-independent pathways and has been associated with heterochromatin maintenance in aging model organisms. In the context of the HSAT2 silencing axis: spermidine-induced autophagy could clear aberrant protein aggregates that might otherwise activate the unfolded-protein arm of HSF1; additionally, polyamine synthesis consumes SAMe (the methyl donor), potentially reducing the methyl-donor pool available for pericentromeric CpG methylation — the opposite of the intended effect @spec:methyl-donor-hsat2.
+Spermidine, a natural polyamine found in aged cheese, wheat germ, and mushrooms (also available as OTC supplement ~1 mg/day), induces autophagy via TFEB and mTOR-independent pathways and has been associated with heterochromatin maintenance in aging model organisms. In the context of the HSAT2 silencing axis: spermidine-induced autophagy could clear aberrant protein aggregates that might otherwise activate the unfolded-protein arm of HSF1; additionally, polyamine synthesis consumes SAMe (the methyl donor), potentially reducing the methyl-donor pool available for pericentromeric CpG methylation — the opposite of the intended effect:methyl-donor-hsat2.
 
 The net effect of spermidine on HSAT2 silencing in ME/CFS is therefore ambiguous as a stand-alone intervention. The question is whether spermidine's autophagy-mediated heterochromatin maintenance complements NR/NAD+-axis support (idea 6.1) without competing with the methyl-donor pathway.
 
@@ -622,7 +622,7 @@ The net effect of spermidine on HSAT2 silencing in ME/CFS is therefore ambiguous
 
 *(Certainty: 0.25 — deficiency-correction rationale; no ME/CFS-specific NK floor data.)*
 
-Both zinc and vitamin D are required for functional NK cytotoxic granule formation and degranulation. Zinc is an essential cofactor for multiple metalloproteases in the cytotoxic machinery; zinc deficiency impairs perforin/granzyme B secretion. Vitamin D (as 1,25-dihydroxycholecalciferol) directly regulates NK cell differentiation, maturation, and cytotoxic gene expression via the vitamin D receptor (VDR). In ME/CFS patients with documented NK cytotoxicity deficits @Baraniuk2024NKMeta, co-existing zinc deficiency or vitamin D insufficiency would compound the MDSC-mediated arginine depletion mechanism @spec:citrulline-nk-mdsc — two independent suppressors acting on the same NK function.
+Both zinc and vitamin D are required for functional NK cytotoxic granule formation and degranulation. Zinc is an essential cofactor for multiple metalloproteases in the cytotoxic machinery; zinc deficiency impairs perforin/granzyme B secretion. Vitamin D (as 1,25-dihydroxycholecalciferol) directly regulates NK cell differentiation, maturation, and cytotoxic gene expression via the vitamin D receptor (VDR). In ME/CFS patients with documented NK cytotoxicity deficits, co-existing zinc deficiency or vitamin D insufficiency would compound the MDSC-mediated arginine depletion mechanism:citrulline-nk-mdsc — two independent suppressors acting on the same NK function.
 
 The rationale is strictly a "substrate floor" argument: zinc and vitamin D do not address the MDSC-arginine mechanism or the upstream HSAT2 loop, but their deficiency would guarantee NK under-performance regardless of any other intervention. Ensuring adequate status is a necessary precondition for any NK-targeted treatment trial.
 
@@ -719,8 +719,8 @@ For ME/CFS patients with confirmed Domain 6 (mast cell / histaminergic dysregula
 
 The three components target overlapping but distinct mast cell stabilization pathways:
 
-    - *Quercetin (phytosome form, 500 mg twice daily)*: Inhibits Fc$epsilon.alt$RI-mediated mast cell degranulation via HDAC inhibition, downregulating BTK, SYK, and LAT kinases @Folkerts2020butyrate; liposomal/phytosome formulations achieve 5-fold higher bioavailability than standard quercetin
-    - *Luteolin (100 mg twice daily)*: Flavone that stabilizes both mast cells and microglia; crosses the blood-brain barrier and may address hypothalamic mast cell activation (Section @hyp:hypothalamic-mast-switch); particularly relevant for neurological symptoms (brain fog, headache)
+    - *Quercetin (phytosome form, 500 mg twice daily)*: Inhibits Fc$epsilon.alt$RI-mediated mast cell degranulation via HDAC inhibition, downregulating BTK, SYK, and LAT kinases; liposomal/phytosome formulations achieve 5-fold higher bioavailability than standard quercetin
+    - *Luteolin (100 mg twice daily)*: Flavone that stabilizes both mast cells and microglia; crosses the blood-brain barrier and may address hypothalamic mast cell activation (Section:hypothalamic-mast-switch); particularly relevant for neurological symptoms (brain fog, headache)
     - *Palmitoylethanolamide (PEA, 600 mg twice daily)*: Endocannabinoid-like compound activating PPAR-$alpha$, downregulating mast cell activation without affecting TRPM3 calcium channels relevant to NK cell function in ME/CFS; established mast cell modulator with fibromyalgia RCT evidence
 
 *Rationale for combination:* Quercetin addresses IgE-dependent degranulation; luteolin addresses CRH-driven and microglial activation; PEA addresses PPAR-mediated downregulation. The three mechanisms are additive rather than overlapping.
@@ -748,11 +748,11 @@ A subset of ME/CFS patients with histamine intolerance (HIT) rather than full MC
 *Combined protocol:*
 
     - Exogenous DAO (porcine kidney-derived) 1--3 capsules with each histamine-rich meal
-    - Pyridoxal-5-phosphate (P5P) 50 mg daily (active form of B6, bypasses conversion deficit) -- see Section @sec:vitamins
+    - Pyridoxal-5-phosphate (P5P) 50 mg daily (active form of B6, bypasses conversion deficit) -- see Section:vitamins
     - Copper bisglycinate 2 mg daily (if zinc:copper ratio $gt$10:1 confirmed)
     - Vitamin C 500 mg daily (DAO cofactor support)
 
-*Distinguishing HIT from MCAS:* HIT is dose-dependent (symptoms correlate with histamine load); MCAS is episodic and independent of diet. The two can coexist. DAO supplementation benefits HIT but not pure MCAS; mast cell stabilizers benefit MCAS but not pure HIT. The Domain 6 workup (Section @sec:domain6-mast-cell) includes both pathways.
+*Distinguishing HIT from MCAS:* HIT is dose-dependent (symptoms correlate with histamine load); MCAS is episodic and independent of diet. The two can coexist. DAO supplementation benefits HIT but not pure MCAS; mast cell stabilizers benefit MCAS but not pure HIT. The Domain 6 workup (Section:domain6-mast-cell) includes both pathways.
 
 *Evidence base:* DAO supplementation has reasonable evidence for histamine intolerance. The P5P + copper cofactor optimization is theoretical; no trial has specifically tested this combination in ME/CFS or histamine intolerance populations. Evidence grade: D (clinical convention, no controlled trial in ME/CFS).
 
@@ -766,7 +766,7 @@ A subset of ME/CFS patients with histamine intolerance (HIT) rather than full MC
 
 Cromolyn sodium exerts its mast cell-stabilizing effect partly via binding to S100A4 calcium-binding protein on the mast cell surface, inhibiting IgE-independent degranulation. Several plant polyphenols share conformational features of the cromolyn-S100A4 binding pocket: grape seed oligomeric procyanidins (OPCs) and resveratrol have both demonstrated mast cell stabilization in RBL-2H3 and LAD2 in vitro assays, and resveratrol has additional PPAR-γ agonist activity that suppresses mast cell transcriptional programs.
 
-The potential advantage over quercetin and luteolin (Section @spec:luteolin-quercetin-pea) is mechanistic diversity — procyanidins and resveratrol act via a partially distinct pathway (S100A4/cromolyn-mimetic) rather than the flavonoid receptor-blocking pathway. A procyanidin+resveratrol combination with quercetin+luteolin would theoretically cover three distinct mast cell stabilization mechanisms simultaneously.
+The potential advantage over quercetin and luteolin (Section:luteolin-quercetin-pea) is mechanistic diversity — procyanidins and resveratrol act via a partially distinct pathway (S100A4/cromolyn-mimetic) rather than the flavonoid receptor-blocking pathway. A procyanidin+resveratrol combination with quercetin+luteolin would theoretically cover three distinct mast cell stabilization mechanisms simultaneously.
 
 *Practical note for ME/CFS patients:* Grape seed extract (standardized to ≥90% OPCs) 200–400 mg daily + trans-resveratrol 250 mg daily is low-risk and widely available. However, resveratrol inhibits CYP3A4 and can affect levels of medications metabolized by this enzyme (including many antihistamines and beta-blockers). Interaction check required before use.
 
@@ -790,7 +790,7 @@ Category A (net energy provider). B vitamins are essential cofactors for virtual
 
 *Rationale.* Essential for pyruvate dehydrogenase (PDH)—the enzyme that feeds pyruvate into the TCA cycle. PDH dysfunction is documented in ME/CFS.
 
-*Evidence.* Preliminary. Case reports and small studies suggest high-dose thiamine may help a subset of ME/CFS patients. One Italian study used 600–1800 mg daily with significant benefit in chronic fatigue @Costantini2013thiamine.
+*Evidence.* Preliminary. Case reports and small studies suggest high-dose thiamine may help a subset of ME/CFS patients. One Italian study used 600–1800 mg daily with significant benefit in chronic fatigue
 
 *Forms.*
 
@@ -814,7 +814,7 @@ See NAD#super[+] precursors above.
 
 === Pyridoxine/P5P (B6)
 
-*Rationale.* Cofactor for neurotransmitter synthesis (serotonin, dopamine, GABA). The active form pyridoxal-5-phosphate (P5P) is the essential cofactor for aromatic L-amino acid decarboxylase, the enzyme that converts 5-HTP to serotonin. In the enterochromaffin-vagal pathway @WirthScheibenbogen2025Neurotransmitter @Barton2025, adequate P5P is therefore required for the final step of gut serotonin synthesis and downstream vagal activation. B6 is water-soluble and may be depleted by chronic inflammation and GI malabsorption—conditions common in ME/CFS; B6 status has not been systematically studied in ME/CFS cohorts.
+*Rationale.* Cofactor for neurotransmitter synthesis (serotonin, dopamine, GABA). The active form pyridoxal-5-phosphate (P5P) is the essential cofactor for aromatic L-amino acid decarboxylase, the enzyme that converts 5-HTP to serotonin. In the enterochromaffin-vagal pathway @WirthScheibenbogen2025Neurotransmitter, adequate P5P is therefore required for the final step of gut serotonin synthesis and downstream vagal activation. B6 is water-soluble and may be depleted by chronic inflammation and GI malabsorption—conditions common in ME/CFS; B6 status has not been systematically studied in ME/CFS cohorts.
 
 *Dosing.* 25–100 mg daily. P5P (pyridoxal-5-phosphate) is the active form and may be better for those with conversion issues. When supporting gut serotonin synthesis (see Section @sec:5-htp), pair with 5-HTP or tryptophan supplementation.
 
@@ -897,12 +897,12 @@ is needed before this approach can be recommended broadly.
 
 *(Certainty: 0.40 — three independently supported mechanistic steps: MTHFR impairment → H3K9me3 loss → pericentromeric derepression; methylation loss → repeat expression (ICF syndrome Mendelian proof); HSAT2 → immune suppression; no direct ME/CFS HSAT2 methylation data.)*
 
-Pericentromeric satellite repeats including HSAT2 are epigenetically silenced in healthy somatic cells primarily through H3K9 trimethylation (via SUV39H1/2, SETDB1), with CpG methylation acting as a secondary downstream stabilizer @Shadle2019HSATII. Hypomethylation — caused by methyl-donor depletion (low SAMe/SAH ratio, B12 deficiency, MTHFR variants), viral epigenetic disruption, or inflammatory methylation erosion — permits HSAT2 derepression. ME/CFS shows widespread DNA methylation alterations in peripheral blood (multiple cohort studies), including hypomethylation of repeat-proximal loci. If pericentromeric loci are among the hypomethylated regions, HSAT2 could be chronically derepressed without active viral infection.
+Pericentromeric satellite repeats including HSAT2 are epigenetically silenced in healthy somatic cells primarily through H3K9 trimethylation (via SUV39H1/2, SETDB1), with CpG methylation acting as a secondary downstream stabilizer Hypomethylation — caused by methyl-donor depletion (low SAMe/SAH ratio, B12 deficiency, MTHFR variants), viral epigenetic disruption, or inflammatory methylation erosion — permits HSAT2 derepression. ME/CFS shows widespread DNA methylation alterations in peripheral blood (multiple cohort studies), including hypomethylation of repeat-proximal loci. If pericentromeric loci are among the hypomethylated regions, HSAT2 could be chronically derepressed without active viral infection.
 
 Three independent mechanistic pillars now support this pathway:
 
-    1. *MTHFR impairment → pericentromeric derepression:* Zhu et al.\ @Zhu2014MTHFR demonstrated in human cells that MTHFR knockdown reduces H3K9me3 marks at centromeric and pericentromeric loci, permitting satellite repeat transcription. MTHFR variants (C677T) are prevalent in the general population and reduce folate-cycle efficiency.
-    2. *Methylation loss → satellite expression (Mendelian proof):* ICF syndrome (DNMT3B mutations, an immune deficiency) is caused by satellite II/III hypomethylation and is characterized by satellite repeat expression plus immune deficiency @Pappalardo2021methylationRepeats. This establishes the causal link between CpG methylation loss at pericentromeric loci and immune pathology.
+    1. *MTHFR impairment → pericentromeric derepression:* Zhu et al.\ demonstrated in human cells that MTHFR knockdown reduces H3K9me3 marks at centromeric and pericentromeric loci, permitting satellite repeat transcription. MTHFR variants (C677T) are prevalent in the general population and reduce folate-cycle efficiency.
+    2. *Methylation loss → satellite expression (Mendelian proof):* ICF syndrome (DNMT3B mutations, an immune deficiency) is caused by satellite II/III hypomethylation and is characterized by satellite repeat expression plus immune deficiency This establishes the causal link between CpG methylation loss at pericentromeric loci and immune pathology.
     3. *Folate-cycle biology in ME/CFS:* ME/CFS patients commonly show elevated homocysteine, reduced methyl-donor levels, and sometimes MTHFR variants, consistent with impaired SAM/SAH ratio and reduced DNMT substrate availability.
 
 Methyl-donor supplementation (methylcobalamin, methylfolate, SAMe, choline, betaine) restores the SAM pool required for DNMT-mediated re-methylation. In patients with documented methyl-donor depletion (low SAMe/SAH, elevated homocysteine, MTHFR variants), targeted supplementation could in principle re-silence HSAT2 loci and reduce the exosomal immunosuppressive burden.
@@ -922,9 +922,9 @@ This provides a second, epigenetically-grounded rationale for B12/folate supplem
 
 #speculation(title: [SIRT1-Axis Combination: NR + Spermidine + Pacing as Multi-Modal Upstream HSAT2 Silencing Support])[
 
-*(Certainty: 0.22 — individual components have partial mechanistic support @spec:nr-nmn-hsat2 @oq:spermidine-hsat2 @spec:hsat2-pem-amplification; combination synergy untested.)*
+*(Certainty: 0.22 — individual components have partial mechanistic support:nr-nmn-hsat2:spermidine-hsat2:hsat2-pem-amplification; combination synergy untested.)*
 
-The SIRT1/NAD+-axis hypothesis @spec:sirt1-hsat2-upstream proposes that NAD+ depletion leads to SIRT1 inactivation → SUV39H1 instability → H3K9me3 loss → HSAT2 derepression. Three interventions address distinct nodes of this axis: (1) NR/NMN restores the NAD+ substrate for SIRT1 @spec:nr-nmn-hsat2; (2) spermidine supports autophagy and heterochromatin maintenance @oq:spermidine-hsat2; (3) strict pacing prevents the exertional HSF1-HSAT2 induction events that would overwhelm any epigenetic silencing support @spec:hsat2-pem-amplification. Each alone is predicted to produce modest effects; together they address different points of failure in the silencing maintenance chain.
+The SIRT1/NAD+-axis hypothesis:sirt1-hsat2-upstream proposes that NAD+ depletion leads to SIRT1 inactivation → SUV39H1 instability → H3K9me3 loss → HSAT2 derepression. Three interventions address distinct nodes of this axis: (1) NR/NMN restores the NAD+ substrate for SIRT1:nr-nmn-hsat2; (2) spermidine supports autophagy and heterochromatin maintenance:spermidine-hsat2; (3) strict pacing prevents the exertional HSF1-HSAT2 induction events that would overwhelm any epigenetic silencing support:hsat2-pem-amplification. Each alone is predicted to produce modest effects; together they address different points of failure in the silencing maintenance chain.
 
 The combination is mechanistically non-redundant: NR addresses substrate supply; spermidine addresses proteostasis and chromatin maintenance capacity; pacing addresses the epigenetic insult rate. Synergy between NR and spermidine for heterochromatin maintenance has been proposed (but not demonstrated) in aging biology. Pacing provides the "reduction in demand" that makes any restoration effort more effective.
 
@@ -938,9 +938,9 @@ The combination is mechanistically non-redundant: NR addresses substrate supply;
 
 #speculation(title: [Arginase-Targeting Combination: Tadalafil + L-Citrulline as a Bidirectional NK-Restoration Strategy])[
 
-*(Certainty: 0.28 — each component has separate mechanistic support @spec:tadalafil-mdsc-nk @spec:citrulline-nk-mdsc; bidirectional combination untested in any context.)*
+*(Certainty: 0.28 — each component has separate mechanistic support:tadalafil-mdsc-nk:citrulline-nk-mdsc; bidirectional combination untested in any context.)*
 
-The MDSC→NK suppression arm of the HSAT2 loop operates through arginase-1-mediated L-arginine depletion @Goh2016HCVMDSCArginase. Two interventions address this at different points: tadalafil (PDE5 inhibitor) depletes MDSC arginase-1 expression and promotes MDSC differentiation into mature myeloid cells @spec:tadalafil-mdsc-nk; L-citrulline replenishes the substrate arginine pool that MDSC arginase-1 has depleted @spec:citrulline-nk-mdsc. The combination targets both the enzyme and the substrate simultaneously — a mechanistically complementary pairing.
+The MDSC→NK suppression arm of the HSAT2 loop operates through arginase-1-mediated L-arginine depletion Two interventions address this at different points: tadalafil (PDE5 inhibitor) depletes MDSC arginase-1 expression and promotes MDSC differentiation into mature myeloid cells:tadalafil-mdsc-nk; L-citrulline replenishes the substrate arginine pool that MDSC arginase-1 has depleted:citrulline-nk-mdsc. The combination targets both the enzyme and the substrate simultaneously — a mechanistically complementary pairing.
 
 Neither intervention alone is predicted to produce $> 15%$ NK cytotoxicity improvement (one addresses supply, the other demand); together they should produce $gt.eq 30%$ improvement (the combination prediction is based on independence of mechanisms, not synergy in the strict pharmacological sense).
 
@@ -954,9 +954,9 @@ Neither intervention alone is predicted to produce $> 15%$ NK cytotoxicity impro
 
 #speculation(title: [MTHFR-Stratified Methyl-Donor Combination: SAMe + Folate in C677T-TT Genotype Only])[
 
-*(Certainty: 0.30 within the TT stratum — MTHFR C677T homozygous genotype is well-established as a risk factor for reduced H3K9me3 at pericentromeric loci @Zhu2014MTHFR; response stratification by genotype is biologically motivated but not yet demonstrated.)*
+*(Certainty: 0.30 within the TT stratum — MTHFR C677T homozygous genotype is well-established as a risk factor for reduced H3K9me3 at pericentromeric loci; response stratification by genotype is biologically motivated but not yet demonstrated.)*
 
-The methyl-donor hypothesis @spec:methyl-donor-hsat2 is heterogeneous: patients with the MTHFR C677T homozygous TT genotype (approximately 10–15% of European populations, including Belgian) have approximately 30–70% reduced MTHFR enzyme activity, reduced plasma folate, and reduced SAMe/SAH ratio — the exact methylation-deficient state that @Zhu2014MTHFR showed leads to H3K9me3 loss at pericentromeric loci. For TT patients, targeted methyl-donor supplementation addresses a documented biochemical deficit that is directly in the predicted HSAT2 derepression pathway.
+The methyl-donor hypothesis:methyl-donor-hsat2 is heterogeneous: patients with the MTHFR C677T homozygous TT genotype (approximately 10–15% of European populations, including Belgian) have approximately 30–70% reduced MTHFR enzyme activity, reduced plasma folate, and reduced SAMe/SAH ratio — the exact methylation-deficient state that showed leads to H3K9me3 loss at pericentromeric loci. For TT patients, targeted methyl-donor supplementation addresses a documented biochemical deficit that is directly in the predicted HSAT2 derepression pathway.
 
 CC and CT genotype patients do not have the same MTHFR-driven methylation deficit; methyl-donor supplementation in these patients would be addressing a non-existent gap and is not predicted to reduce EV HSAT2. Combining genotype stratification with the methyl-donor intervention therefore both improves the predicted effect size in responders and avoids unnecessary supplementation in non-responders.
 
@@ -1012,45 +1012,45 @@ Category B (energy-neutral). Immune regulatory and gene expression effects opera
 
 *Rationale.* Taurine is a conditionally essential amino acid found in high concentrations in skeletal muscle, heart, and the nervous system. It has multiple roles relevant to ME/CFS pathophysiology:
 
-    - *Na#super[+]/K#super[+]-ATPase support:* Taurine depletion impairs Na#super[+]/K#super[+]-ATPase function; conversely, supplemental taurine may help maintain pump activity---potentially intersecting the AIMM cascade at the step immediately upstream of sodium-calcium exchanger (NCX) reversal via an analogous mechanism (demonstrated in macrophages, not yet in skeletal muscle) (see Section @sec:calcium-dysregulation in Chapter @ch:energy-metabolism) @RossiSmith2025taurineNKA @Suleiman1994taurineCardiac
-    - *Mitochondrial membrane stabilization and calcium buffering:* Taurine reduces pathological calcium accumulation, blocks endoplasmic reticulum stress, reduces mitochondrial permeability transition pore (mPTP) opening probability, and helps preserve mitochondrial membrane integrity during calcium overload @Prentice2015taurineNeuro
+    - *Na#super[+]/K#super[+]-ATPase support:* Taurine depletion impairs Na#super[+]/K#super[+]-ATPase function; conversely, supplemental taurine may help maintain pump activity---potentially intersecting the AIMM cascade at the step immediately upstream of sodium-calcium exchanger (NCX) reversal via an analogous mechanism (demonstrated in macrophages, not yet in skeletal muscle) (see Section:calcium-dysregulation in Chapter:energy-metabolism)
+    - *Mitochondrial membrane stabilization and calcium buffering:* Taurine reduces pathological calcium accumulation, blocks endoplasmic reticulum stress, reduces mitochondrial permeability transition pore (mPTP) opening probability, and helps preserve mitochondrial membrane integrity during calcium overload
     - *NCX cascade position:* In the AIMM model, the sequence is: hypoperfusion → acidosis → NHE1 imports Na#super[+] → Na#super[+]/K#super[+]-ATPase overloaded → NCX reversal → Ca#super[2+] overload → mitochondrial damage → PEM. Taurine acts at two nodes: upstream (pump support) and downstream (calcium buffering)
-    - *Disturbed pathway in ME/CFS:* Taurine metabolism has been identified as a top-ranked disturbed metabolic pathway in ME/CFS plasma metabolomics in one exploratory study (n=17) @Germain2017taurineME; pathway rankings from untargeted metabolomics in small cohorts are exploratory and database-dependent. Impaired taurine pathway recovery has also been observed during the post-exertional window @Glass2023urineMetabolomics. These findings identify taurine as a mechanistically plausible target but do not establish plasma depletion or clinical benefit from supplementation
-    - *Antioxidant and osmolyte functions:* Taurine acts as an osmolyte supporting cell volume regulation and has antioxidant properties relevant to oxidative stress documented in ME/CFS @Prentice2015taurineNeuro @Syed2025
+    - *Disturbed pathway in ME/CFS:* Taurine metabolism has been identified as a top-ranked disturbed metabolic pathway in ME/CFS plasma metabolomics in one exploratory study (n=17); pathway rankings from untargeted metabolomics in small cohorts are exploratory and database-dependent. Impaired taurine pathway recovery has also been observed during the post-exertional window These findings identify taurine as a mechanistically plausible target but do not establish plasma depletion or clinical benefit from supplementation
+    - *Antioxidant and osmolyte functions:* Taurine acts as an osmolyte supporting cell volume regulation and has antioxidant properties relevant to oxidative stress documented in ME/CFS
 
 *Evidence.*
 #clinical-finding(title: [Taurine Metabolism Disturbed in ME/CFS Plasma])[
-Germain et al.\ (2017) profiled plasma metabolomics in 17 ME/CFS patients versus 15 controls and identified taurine and taurine-conjugate metabolism as the top-ranked disturbed metabolic pathway, ahead of glycerophospholipid metabolism and bile acid biosynthesis @Germain2017taurineME. Glass et al.\ (2023) found impaired taurine pathway recovery during the post-exertional window in a small pilot (n=10 ME/CFS, n=8 controls) using urine metabolomics @Glass2023urineMetabolomics.
+Germain et al.\ (2017) profiled plasma metabolomics in 17 ME/CFS patients versus 15 controls and identified taurine and taurine-conjugate metabolism as the top-ranked disturbed metabolic pathway, ahead of glycerophospholipid metabolism and bile acid biosynthesis Glass et al.\ (2023) found impaired taurine pathway recovery during the post-exertional window in a small pilot (n=10 ME/CFS, n=8 controls) using urine metabolomics
 
 *Limitations:* Both studies are small (n ≤ 17), limited to metabolomics pathway analysis, and do not measure plasma taurine concentrations directly. Neither establishes whether supplementation would correct the disturbed pathway or produce clinical benefit. These findings support mechanistic plausibility, not clinical efficacy. Replication status: not yet replicated (single study each).
 ]
 
 #speculation(title: [Taurine as Downstream Support in the AIMM Cascade])[
-*Certainty: 0.30.* No direct taurine supplementation trial in ME/CFS exists. Rationale extrapolated from mechanistic analogs (cardiac, neurological), one recent Na#super[+]/K#super[+]-ATPase study @RossiSmith2025taurineNKA, and classic cardiology framework @Suleiman1994taurineCardiac.
+*Certainty: 0.30.* No direct taurine supplementation trial in ME/CFS exists. Rationale extrapolated from mechanistic analogs (cardiac, neurological), one recent Na#super[+]/K#super[+]-ATPase study, and classic cardiology framework
 
-In cardiac and neurological contexts, taurine depletion impairs Na#super[+]/K#super[+]-ATPase function and allows NCX reversal-driven calcium overload @Suleiman1994taurineCardiac. Rossi-Smith et al.\ (2025) demonstrated this pathway in macrophages: intracellular taurine depletion via VRAC efflux → Na#super[+]/K#super[+]-ATPase failure → ionic dysregulation → NLRP3 inflammasome activation @RossiSmith2025taurineNKA. This molecular mechanism maps directly onto the AIMM Na#super[+]/K#super[+]-ATPase node.
+In cardiac and neurological contexts, taurine depletion impairs Na#super[+]/K#super[+]-ATPase function and allows NCX reversal-driven calcium overload Rossi-Smith et al.\ (2025) demonstrated this pathway in macrophages: intracellular taurine depletion via VRAC efflux → Na#super[+]/K#super[+]-ATPase failure → ionic dysregulation → NLRP3 inflammasome activation This molecular mechanism maps directly onto the AIMM Na#super[+]/K#super[+]-ATPase node.
 
-*Null result caveat:* Marcangeli et al.\ (2025) found no association between serum taurine levels and age, muscle mass, mitochondrial respiration, or calcium handling in 137 men aged 20--93 @Marcangeli2025taurineNull ---directly challenging the hypothesis that serum taurine reflects intracellular taurine status or predicts mitochondrial outcomes. An important limitation: the study measured serum taurine, not intracellular or tissue taurine; compartment-specific depletion could be present despite normal serum levels. Crucially, the compartment argument cuts both ways: if serum does not reflect intracellular taurine, then the Germain 2017 plasma metabolomics finding @Germain2017taurineME also cannot establish intracellular taurine depletion---both lines of evidence are limited to the same plasma compartment.
+*Null result caveat:* Marcangeli et al.\ (2025) found no association between serum taurine levels and age, muscle mass, mitochondrial respiration, or calcium handling in 137 men aged 20--93 ---directly challenging the hypothesis that serum taurine reflects intracellular taurine status or predicts mitochondrial outcomes. An important limitation: the study measured serum taurine, not intracellular or tissue taurine; compartment-specific depletion could be present despite normal serum levels. Crucially, the compartment argument cuts both ways: if serum does not reflect intracellular taurine, then the Germain 2017 plasma metabolomics finding also cannot establish intracellular taurine depletion---both lines of evidence are limited to the same plasma compartment.
 
-*Critical counter-evidence:* The strongest clinical analog---a systematic review of 11 taurine RCTs in heart failure (the condition sharing exercise intolerance and the proposed NCX/calcium overload cascade in cardiomyocytes)---showed non-significant effects on ejection fraction and stroke volume @McGurk2022taurineHFreview. This null result should be the primary anchor for evaluating the ME/CFS hypothesis, not a cautionary note isolated elsewhere.
+*Critical counter-evidence:* The strongest clinical analog---a systematic review of 11 taurine RCTs in heart failure (the condition sharing exercise intolerance and the proposed NCX/calcium overload cascade in cardiomyocytes)---showed non-significant effects on ejection fraction and stroke volume This null result should be the primary anchor for evaluating the ME/CFS hypothesis, not a cautionary note isolated elsewhere.
 
-*Falsifiable prediction:* Taurine supplementation (1--2 g/day for 12 weeks) would improve post-exertional sodium accumulation measured by sodium MRI @Petter2022sodium or reduce PEM severity in patients with documented intracellular sodium overload. Null result in patients without intracellular sodium overload would be consistent with the absence of mechanism.
+*Falsifiable prediction:* Taurine supplementation (1--2 g/day for 12 weeks) would improve post-exertional sodium accumulation measured by sodium MRI or reduce PEM severity in patients with documented intracellular sodium overload. Null result in patients without intracellular sodium overload would be consistent with the absence of mechanism.
 ] <spec:taurine-aimm>
 
 #warning-env(title: [Taurine: No ME/CFS Supplementation Trial Exists])[
-Despite strong mechanistic rationale and disturbed metabolomic signals, no randomized controlled trial of taurine supplementation in ME/CFS has been published. The strongest analog evidence---a 2022 systematic review of taurine in heart failure (11 studies)---found non-significant effects on ejection fraction and stroke volume @McGurk2022taurineHFreview. One small RCT in exercise-intolerant heart failure patients (n ≈ 30, 1,500 mg/day for 2 weeks) showed significant reductions in inflammatory markers @Ahmadian2017taurineHF but did not measure functional capacity or fatigue. Strong mechanistic rationale does not guarantee clinical benefit.
+Despite strong mechanistic rationale and disturbed metabolomic signals, no randomized controlled trial of taurine supplementation in ME/CFS has been published. The strongest analog evidence---a 2022 systematic review of taurine in heart failure (11 studies)---found non-significant effects on ejection fraction and stroke volume One small RCT in exercise-intolerant heart failure patients (n ≈ 30, 1,500 mg/day for 2 weeks) showed significant reductions in inflammatory markers but did not measure functional capacity or fatigue. Strong mechanistic rationale does not guarantee clinical benefit.
 ]
 
 *Forms.*
 
     - *Pure L-taurine powder:* Pharmaceutical or food grade; no bioactive isomers. Reputable brands (NOW Foods, Jarrow, Thorne, bulk suppliers) are equivalent; no evidence any proprietary form outperforms
-    - *Magnesium taurate:* Taurine chelated with magnesium; may benefit patients needing both (see Section @sec:electrolytes); lower elemental taurine per dose than pure taurine
+    - *Magnesium taurate:* Taurine chelated with magnesium; may benefit patients needing both (see Section:electrolytes); lower elemental taurine per dose than pure taurine
     - *Avoid combined formulas with stimulants:* Energy drink and pre-workout formulations conflict with ME/CFS pacing requirements
 
 *Dosing.*
 
     - Research-analog doses: 1,000--3,000 mg daily, typically split (500 mg--1,000 mg twice daily)
-    - ME/CFS starting dose: 500 mg/day for 1--2 weeks; titrate slowly---taurine shifts osmolyte balance and may transiently alter electrolyte handling @Prentice2015taurineNeuro
+    - ME/CFS starting dose: 500 mg/day for 1--2 weeks; titrate slowly---taurine shifts osmolyte balance and may transiently alter electrolyte handling
     - Maintenance: 1,000--2,000 mg daily if tolerated
     - Take with meals to reduce gastrointestinal side effects
 
@@ -1064,10 +1064,10 @@ Despite strong mechanistic rationale and disturbed metabolomic signals, no rando
     - Muscle pain or weakness changes
     - Any symptom shift in first 2--3 weeks at each dose step; keep a symptom diary
 
-*Cautions.* Generally well-tolerated. Mild gastrointestinal discomfort possible; start low. May transiently shift electrolyte balance in patients with marginal Na#super[+]/K#super[+]-ATPase function (see @spec:taurine-aimm for mechanistic basis; extrapolation from preclinical evidence).
+*Cautions.* Generally well-tolerated. Mild gastrointestinal discomfort possible; start low. May transiently shift electrolyte balance in patients with marginal Na#super[+]/K#super[+]-ATPase function (see:taurine-aimm for mechanistic basis; extrapolation from preclinical evidence).
 
 #warning-env(title: [Taurine + LDN: Speculative Complementarity, Not Established Guidance])[
-Both taurine (targeting the AIMM/NCX cascade via Na#super[+]/K#super[+]-ATPase support) and low-dose naltrexone (targeting TRPM3 channelopathy, Section @sec:trpm3-hypotheses) address calcium dysregulation in ME/CFS. However, both pathway attributions are at speculation level (certainty ≤ 0.30). Whether either pathway is active in a given patient is unconfirmed. The claim that they are "mechanistically complementary" rests on two separate unvalidated hypotheses. No clinical evidence for this combination exists. No pharmacological interaction between taurine and LDN is expected, but combined use should be discussed with a physician.
+Both taurine (targeting the AIMM/NCX cascade via Na#super[+]/K#super[+]-ATPase support) and low-dose naltrexone (targeting TRPM3 channelopathy, Section:trpm3-hypotheses) address calcium dysregulation in ME/CFS. However, both pathway attributions are at speculation level (certainty ≤ 0.30). Whether either pathway is active in a given patient is unconfirmed. The claim that they are "mechanistically complementary" rests on two separate unvalidated hypotheses. No clinical evidence for this combination exists. No pharmacological interaction between taurine and LDN is expected, but combined use should be discussed with a physician.
 ]
 
 *Energy Profile.*
@@ -1076,18 +1076,18 @@ Category A--B (provider to neutral). Acts at two nodes of the AIMM cascade: upst
 #speculation(title: [Bile Acid Conjugation Competition Diverts Taurine from Cytoprotective Roles])[
 *Certainty: 0.20.* Speculative. No ME/CFS study has directly measured taurine partitioning between bile acid conjugation and intracellular pools. Taurine direction in the disturbed Germain 2017 pathway is not specified.
 
-Taurine is consumed by two major competing pathways: (1) hepatic bile acid conjugation (taurocholate, taurodeoxycholate) and (2) intracellular cytoprotective roles (osmolyte, calcium buffer, Na#super[+]/K#super[+]-ATPase support). Germain et al.\ (2017) found both taurine metabolism and bile acid biosynthesis ranked among the top disturbed metabolic pathways in ME/CFS plasma @Germain2017taurineME. These are not independent signals: taurine IS a bile acid conjugation substrate. If ME/CFS gut dysbiosis (see Chapter @ch:gut-microbiome) drives increased enterohepatic cycling or impaired bile acid reabsorption, hepatic taurine demand rises, diverting taurine away from muscle and immune cell cytoprotection --- including the Na#super[+]/K#super[+]-ATPase support role at the AIMM cascade node. Co-supplementing glycine (2--3 g/day), which is an alternative bile acid conjugation substrate, may spare taurine for intracellular functions by competing for the hepatic conjugation pathway.
+Taurine is consumed by two major competing pathways: (1) hepatic bile acid conjugation (taurocholate, taurodeoxycholate) and (2) intracellular cytoprotective roles (osmolyte, calcium buffer, Na#super[+]/K#super[+]-ATPase support). Germain et al.\ (2017) found both taurine metabolism and bile acid biosynthesis ranked among the top disturbed metabolic pathways in ME/CFS plasma These are not independent signals: taurine IS a bile acid conjugation substrate. If ME/CFS gut dysbiosis (see Chapter:gut-microbiome) drives increased enterohepatic cycling or impaired bile acid reabsorption, hepatic taurine demand rises, diverting taurine away from muscle and immune cell cytoprotection --- including the Na#super[+]/K#super[+]-ATPase support role at the AIMM cascade node. Co-supplementing glycine (2--3 g/day), which is an alternative bile acid conjugation substrate, may spare taurine for intracellular functions by competing for the hepatic conjugation pathway.
 
 *Falsifiable prediction:* (a) ME/CFS patients show a higher taurine-conjugated to glycine-conjugated bile acid ratio than controls. (b) Glycine co-supplementation raises free plasma taurine more than equivalent taurine supplementation alone.
 ] <spec:taurine-bile-competition>
 
 #open-question(title: [Is Taurine Intracellularly Depleted in ME/CFS? The Compartment Question])[
-The Marcangeli et al.\ (2025) null result---no association between serum taurine and muscle mass, mitochondrial respiration, or calcium handling in 137 humans @Marcangeli2025taurineNull ---challenges assuming that serum taurine reflects intracellular taurine status. Red blood cell (RBC) taurine concentration provides a more direct intracellular proxy: RBCs have Na#super[+]/K#super[+]-ATPase and taurine transport, making them an accessible cellular model for the ionic mechanism. Whether ME/CFS patients have lower RBC taurine despite normal serum taurine has not been measured.
+The Marcangeli et al.\ (2025) null result---no association between serum taurine and muscle mass, mitochondrial respiration, or calcium handling in 137 humans ---challenges assuming that serum taurine reflects intracellular taurine status. Red blood cell (RBC) taurine concentration provides a more direct intracellular proxy: RBCs have Na#super[+]/K#super[+]-ATPase and taurine transport, making them an accessible cellular model for the ionic mechanism. Whether ME/CFS patients have lower RBC taurine despite normal serum taurine has not been measured.
 
 A second open question: does baseline taurine status predict the magnitude of post-exertional physiological dysfunction? Adding pre-CPET plasma or RBC taurine measurement to the standard two-day CPET protocol would allow stratification of the Day 2 decrement by taurine status. If taurine-depleted patients show a larger Day 2 decrement, this would identify a treatment-responsive AIMM subgroup.
 ] <open:taurine-compartment>
 
-*Combination note: taurine in the ionic resilience stack.* For patients in whom the AIMM cascade is suspected (significant exertion-triggered PEM, documented orthostatic intolerance, intracellular sodium accumulation if tested by sodium MRI), taurine combines rationally with its ionic support partners: magnesium (cofactor for Mg-ATP, the true Na#super[+]/K#super[+]-ATPase substrate), and potassium (the pump's import substrate). All three support Na#super[+]/K#super[+]-ATPase function at different molecular points. For practical dosing of this combination, see Section @sec:electrolytes (magnesium, potassium) and this section.
+*Combination note: taurine in the ionic resilience stack.* For patients in whom the AIMM cascade is suspected (significant exertion-triggered PEM, documented orthostatic intolerance, intracellular sodium accumulation if tested by sodium MRI), taurine combines rationally with its ionic support partners: magnesium (cofactor for Mg-ATP, the true Na#super[+]/K#super[+]-ATPase substrate), and potassium (the pump's import substrate). All three support Na#super[+]/K#super[+]-ATPase function at different molecular points. For practical dosing of this combination, see Section:electrolytes (magnesium, potassium) and this section.
 
 === Glycine
 
@@ -1179,7 +1179,7 @@ For mild-to-moderate patients who can afford broader support. *Severity note*: F
 
     - Electrolytes (priority)
     - Magnesium
-    - Taurine (mechanistic rationale only; no ME/CFS trial evidence; see Section @sec:taurine)
+    - Taurine (mechanistic rationale only; no ME/CFS trial evidence; see Section:taurine)
     - Licorice root (caution: raises BP)
 
 *Predominant Cognitive Symptoms.*
@@ -1230,7 +1230,7 @@ Standard ME/CFS mitochondrial supplement protocols (CoQ10 + NADH + D-ribose) tar
   table(
     columns: 4,
     [*Component*], [*Target*], [*Dose*], [*Rationale*],
-    [Iron bisglycinate], [Complex I/II + dopamine synthesis], [Titrate to ferritin $> 100$ ng/mL], [Dual bottleneck @DelRosso2026ironNeurodevelopmental],
+    [Iron bisglycinate], [Complex I/II + dopamine synthesis], [Titrate to ferritin $> 100$ ng/mL], [Dual bottleneck],
     [Folinic acid (5-MTHF)], [BH4 recycling support], [400--800 mcg], [Supports DHFR-mediated BH4 regeneration],
     [Vitamin C], [BH4 oxidation protection + dopamine beta-hydroxylase cofactor], [500--1000 mg], [Prevents BH4 → BH2 oxidation],
     [Zinc], [Dopamine receptor function + SOD cofactor], [15--30 mg], [Documented deficiency in ADHD],
@@ -1275,7 +1275,7 @@ Category A (net energy provider). Converts directly to ketone bodies in the live
 This is a research-stage speculation. Neither quercetin nor NAC has completed an RCT specifically in ME/CFS for this indication. This entry does NOT constitute a clinical recommendation. Both are generally considered low-risk supplements, but quercetin has CYP3A4 inhibition potential (see drug interaction note below) and NAC may cause nausea or sulfur sensitivity in some ME/CFS patients.
 ]
 
-Both lichen sclerosus and ME/CFS independently show elevated oxidative stress markers (8-hydroxydeoxyguanosine, malondialdehyde, reduced superoxide dismutase and glutathione) @Paulis2019LSOxidativeStress @Batham2024MECFSAutoimmunity. The shared oxidative terrain provides mechanistic rationale for targeting both simultaneously. Quercetin (a flavonoid bioflavonoid) attenuates IFN-γ-driven Th1 polarization in vitro and reduces IL-15 and TNF-α production; NAC restores glutathione and reduces TLR4-mediated NF-κB signaling — the same TLR4 axis implicated in LS and ME/CFS chronic inflammation. The combination targets both arms of the shared Th1/oxidative loop: quercetin suppresses the cytokine output; NAC depletes the oxidative amplification substrate.
+Both lichen sclerosus and ME/CFS independently show elevated oxidative stress markers (8-hydroxydeoxyguanosine, malondialdehyde, reduced superoxide dismutase and glutathione) The shared oxidative terrain provides mechanistic rationale for targeting both simultaneously. Quercetin (a flavonoid bioflavonoid) attenuates IFN-γ-driven Th1 polarization in vitro and reduces IL-15 and TNF-α production; NAC restores glutathione and reduces TLR4-mediated NF-κB signaling — the same TLR4 axis implicated in LS and ME/CFS chronic inflammation. The combination targets both arms of the shared Th1/oxidative loop: quercetin suppresses the cytokine output; NAC depletes the oxidative amplification substrate.
 
 *Proposed research protocol:* Quercetin 500 mg/day + NAC 1200 mg/day for 12 weeks in ME/CFS patients with documented oxidative stress markers at baseline (8-OHdG >8 ng/mg creatinine or MDA >2 µmol/L). Primary endpoint: reduction in 8-OHdG by ≥25%. Secondary endpoints: PEM frequency score, IL-15, NK cytotoxicity. If concurrent LS is present, LS symptom severity as an additional secondary endpoint.
 
@@ -1373,15 +1373,15 @@ Myo-inositol is the head-group precursor for phosphatidylinositol (PI) synthesis
 
 *Rationale.*
 
-    - *PIP#sub[2] precursor*: If chronic GPCR autoantibody activity depletes PIP#sub[2] pools in ME/CFS immune cells (Section @sec:pip2-depletion-convergence), myo-inositol supplementation theoretically supports PIP#sub[2] resynthesis by providing the rate-limiting substrate
-    - *TRPM3 environment*: Eaton-Fitch et al.\ (2021) demonstrated reduced TRPM3/PIP#sub[2] co-localization in ME/CFS NK cells @EatonFitch2021trpm3pip2; restoring membrane PIP#sub[2] levels could improve the channel gating environment independently of direct channel modulation
+    - *PIP#sub[2] precursor*: If chronic GPCR autoantibody activity depletes PIP#sub[2] pools in ME/CFS immune cells (Section:pip2-depletion-convergence), myo-inositol supplementation theoretically supports PIP#sub[2] resynthesis by providing the rate-limiting substrate
+    - *TRPM3 environment*: Eaton-Fitch et al.\ (2021) demonstrated reduced TRPM3/PIP#sub[2] co-localization in ME/CFS NK cells; restoring membrane PIP#sub[2] levels could improve the channel gating environment independently of direct channel modulation
     - *Brain relevance*: MRS studies have found altered cerebral myo-inositol levels in ME/CFS and fibromyalgia patients, suggesting disrupted phosphoinositide metabolism in the central nervous system
     - *Safety profile*: Myo-inositol at 2–4 g/day is well-tolerated with established use in PCOS and depression research; no serious adverse effects at these doses
 
 *Evidence.*
 
     - No direct ME/CFS trials of myo-inositol for ion channel function
-    - Documented PIP#sub[2]/TRPM3 co-localization deficit in ME/CFS NK cells @EatonFitch2021trpm3pip2
+    - Documented PIP#sub[2]/TRPM3 co-localization deficit in ME/CFS NK cells
     - PIP#sub[2] requirement for TRPM3 gating: established biochemistry
     - Brain inositol alterations in ME/CFS: indirect evidence of phosphoinositide disruption
 
@@ -1410,7 +1410,7 @@ Not all commercially available inositol forms are interchangeable for PIP#sub[2]
 ] <spec:inositol-ldn-synergy>
 
 #speculation(title: [Myo-Inositol as Lithium Co-Therapy: Decoupling Beneficial and Harmful Arms])[
-*Certainty: 0.30.* Low-dose lithium inhibits IMPase/IMPA1, depleting free inositol and slowing PIP#sub[2] resynthesis @harwood2005inositol @saha2023impa1 — a potentially harmful effect in ME/CFS, where PIP#sub[2] is already depleted by GPCR autoantibody-driven PLC activity (@sec:pip2-depletion-convergence). However, lithium's inositol depletion simultaneously drives mTOR-independent autophagy via IP3 accumulation (Sade et al., 2016 @sade2016ip3) and dampens NCS-1-amplified IP3R activity @schlecker2006ncs1 — effects that may be beneficial. Co-administration of myo-inositol could selectively restore the PIP#sub[2] pool via mass action (providing substrate downstream of the blocked IMPase) while preserving the IP3-driven autophagy benefit, because IP3 accumulation persists regardless of inositol levels when IMPase remains inhibited.
+*Certainty: 0.30.* Low-dose lithium inhibits IMPase/IMPA1, depleting free inositol and slowing PIP#sub[2] resynthesis — a potentially harmful effect in ME/CFS, where PIP#sub[2] is already depleted by GPCR autoantibody-driven PLC activity (@sec:pip2-depletion-convergence). However, lithium's inositol depletion simultaneously drives mTOR-independent autophagy via IP3 accumulation (Sade et al., 2016) and dampens NCS-1-amplified IP3R activity — effects that may be beneficial. Co-administration of myo-inositol could selectively restore the PIP#sub[2] pool via mass action (providing substrate downstream of the blocked IMPase) while preserving the IP3-driven autophagy benefit, because IP3 accumulation persists regardless of inositol levels when IMPase remains inhibited.
 
 This pharmacological separation is non-obvious and mechanistically specific: inositol rescues the PIP#sub[2] arm without fully reversing lithium's IP3/autophagy arm. It is directly testable: in ME/CFS PBMCs or iPSC-derived neurons treated with Li#super[+] (0.5 mM) ± myo-inositol (10 mM), preserved autophagy flux (LC3-II/I ratio) with restored membrane PIP#sub[2] levels would confirm the separation. If inositol also abolishes the IP3/autophagy signal, the separation fails.
 
@@ -1448,13 +1448,13 @@ Category B (energy-neutral). Essential trace mineral and enzymatic cofactor abso
 == Probiotics and Gut Health
 <sec:probiotics>
 
-Given the documented gut microbiome abnormalities in ME/CFS @Giloteaux2016 @ButyrateDeficiency2023, gut-targeted interventions may help.
+Given the documented gut microbiome abnormalities in ME/CFS @Giloteaux2016, gut-targeted interventions may help.
 
 === Probiotics
 
 *Rationale.* May restore beneficial bacteria, reduce gut permeability, modulate immune function, and reduce systemic inflammation.
 
-*Evidence.* Low–Moderate. Two small RCTs in ME/CFS showed modest benefit @Rao2009probiotic @Sullivan2009probiotic.
+*Evidence.* Low–Moderate. Two small RCTs in ME/CFS showed modest benefit
 
 *Strain Selection.*
 
@@ -1491,7 +1491,7 @@ Prebiotics feed beneficial bacteria. Options include:
 === Butyrate and Tributyrin
 <subsec:butyrate>
 
-*Rationale.* Butyrate is the primary short-chain fatty acid (SCFA) fuel for colonocytes and a key upstream signal in the enterochromaffin-vagal pathway @Barton2025 @WirthScheibenbogen2025Neurotransmitter. Gut microbiome studies show ME/CFS patients have significantly reduced butyrate-producing bacterial capacity @ButyrateDeficiency2023, correlating with fatigue severity. Butyrate supplementation aims to compensate for this deficit, enhancing enterochromaffin serotonin synthesis and downstream vagal afferent signaling. Butyrate also directly activates SCFA receptors (GPR41/43) on vagal neurons, providing a parallel pathway independent of serotonin.
+*Rationale.* Butyrate is the primary short-chain fatty acid (SCFA) fuel for colonocytes and a key upstream signal in the enterochromaffin-vagal pathway @Barton2025 Gut microbiome studies show ME/CFS patients have significantly reduced butyrate-producing bacterial capacity @ButyrateDeficiency2023, correlating with fatigue severity. Butyrate supplementation aims to compensate for this deficit, enhancing enterochromaffin serotonin synthesis and downstream vagal afferent signaling. Butyrate also directly activates SCFA receptors (GPR41/43) on vagal neurons, providing a parallel pathway independent of serotonin.
 
 *Forms.*
 

@@ -194,7 +194,7 @@ Implementation requires identification of a principal investigator and instituti
 
 === Background and Rationale
 
-The selective energy dysfunction hypothesis (Chapter @ch:energy-metabolism, Section @sec:selective-energy-dysfunction) previously listed wound healing among preserved autonomous functions. Literature integration (Chapter @ch:energy-metabolism, Section @oq:wound-healing-mecfs) revealed this assumption is unsupported: no study has measured wound healing in ME/CFS, and mechanistic evidence from three independent pathways — NK cell dysfunction (cytotoxicity reduced @Baraniuk2024NKMeta; NK cells regulate wound healing via IFN-γ/GM-CSF @Sobecki2021NKWoundHypoxia; chronic TGF-β disrupts NK-MSC temporal cycling @Petri2017MSCNKTGFb), sympathetic overactivation @Xue2018ANSWoundHealing, and immune exhaustion @Stanojcic2016ImmuneExhaustionBurns — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. This creates a testable question with implications for both the selective dysfunction framework and clinical biomarker development.
+The selective energy dysfunction hypothesis (Chapter:energy-metabolism, Section:selective-energy-dysfunction) previously listed wound healing among preserved autonomous functions. Literature integration (Chapter:energy-metabolism, Section:wound-healing-mecfs) revealed this assumption is unsupported: no study has measured wound healing in ME/CFS, and mechanistic evidence from three independent pathways — NK cell dysfunction (cytotoxicity reduced; NK cells regulate wound healing via IFN-γ/GM-CSF; chronic TGF-β disrupts NK-MSC temporal cycling), sympathetic overactivation, and immune exhaustion — each based on single studies with substantial caveats, suggests abnormal healing dynamics rather than normal preservation. This creates a testable question with implications for both the selective dysfunction framework and clinical biomarker development.
 
 === Study Design
 
@@ -204,7 +204,7 @@ The selective energy dysfunction hypothesis (Chapter @ch:energy-metabolism, Sect
 
 *Secondary outcomes:*
     - Histological scar quality at day 14 and day 28 (collagen organisation, inflammatory infiltrate, vascularity)
-    - Blister fluid cytokine panel: IFN-γ, GM-CSF (NK cytokine output — note: distinct from NK cytotoxicity measured by Baraniuk @Baraniuk2024NKMeta), TGF-β (MSC-NK regulatory circuit @Petri2017MSCNKTGFb), catecholamines (local sympathetic drive — note: blister fluid catecholamines reflect local wound-site trauma response and may not directly index systemic sympathetic tone @Xue2018ANSWoundHealing; concurrent medications including beta-blockers must be recorded and analysed as covariates)
+    - Blister fluid cytokine panel: IFN-γ, GM-CSF (NK cytokine output — note: distinct from NK cytotoxicity measured by Baraniuk), TGF-β (MSC-NK regulatory circuit), catecholamines (local sympathetic drive — note: blister fluid catecholamines reflect local wound-site trauma response and may not directly index systemic sympathetic tone; concurrent medications including beta-blockers must be recorded and analysed as covariates)
     - Correlation with NK cell cytotoxicity _and_ NK cytokine secretion (IFN-γ, GM-CSF from stimulated PBMCs — both measures needed to test whether cytotoxicity reduction predicts cytokine secretion reduction), HRV (sympathovagal balance), Bell disability score
 
 *Stratification:* Disease severity (mild/moderate/severe), disease duration ($<$3yr, 3–7yr, $>$7yr), POTS comorbidity (yes/no), beta-blocker use (yes/no).
@@ -218,10 +218,10 @@ Because wound healing requires NK cells, autonomic balance, macrophage polarisat
 === Mechanistic Subtyping Potential
 
 Blister fluid cytokine profiles could distinguish ME/CFS subtypes by dominant repair mechanism:
-    - *Pattern A* (high IFN-γ, low GM-CSF): NK cells shifted to defence mode — HIF-1α pathway active @Sobecki2021NKWoundHypoxia
+    - *Pattern A* (high IFN-γ, low GM-CSF): NK cells shifted to defence mode — HIF-1α pathway active
     - *Pattern B* (low IFN-γ, low GM-CSF): NK cells globally non-functional — general exhaustion
-    - *Pattern C* (high TGF-β): MSC-NK regulatory circuit constitutively activated @Petri2017MSCNKTGFb
-    - *Pattern D* (high catecholamines): Sympathetic drive to wound macrophages dominates @Xue2018ANSWoundHealing
+    - *Pattern C* (high TGF-β): MSC-NK regulatory circuit constitutively activated
+    - *Pattern D* (high catecholamines): Sympathetic drive to wound macrophages dominates
 
 If validated in a prospective cohort, different patterns would suggest different treatment targets to explore in subsequent trials — e.g., NK-supportive interventions for Patterns A/B, autonomic modulation for Pattern D, anti-fibrotic approaches for Pattern C. Pattern classification criteria must be pre-registered before unblinding cytokine data to avoid post-hoc subtyping.
 
@@ -320,7 +320,7 @@ NIH data-sharing mechanisms (e.g., dbGaP).
 *Published Two-Day CPET Meta-Analysis*
 Multiple research groups have published studies demonstrating significant Day 2
 functional decline in ME/CFS using standardized 2-day CPET
-protocols @keller2024cpet @VanCampen2020SeverityCPET. A systematic
+protocols @keller2024cpet A systematic
 meta-analysis of published summary statistics would directly test the demand-response
 failure prediction: quantifying Day 2 decline magnitude, assessing heterogeneity by
 symptom domain (cognitive-predominant versus physical-predominant), and characterizing
@@ -332,7 +332,7 @@ no data-sharing agreements and can be initiated immediately using published data
 *Van Campen Autonomic Studies*
 A series of studies by van Campen and colleagues characterizes cerebral blood flow via
 transcranial Doppler during orthostatic challenge in cohorts of 100–400 ME/CFS
-patients @VanCampenEtAl2020 @VanCampenEtAl2023 @VanCampenEtAl2024. Published
+patients @VanCampenEtAl2020 Published
 findings show that 91% of patients with a normal heart rate and blood pressure response
 exhibit abnormal cardiac output and cerebral blood flow patterns during
 tilt @VanCampenEtAl2024, with 82% showing CBF abnormalities even when heart
@@ -1872,7 +1872,7 @@ If metabolic intervention does not enhance LDN efficacy:
 
 === Background and Rationale
 
-Wirth and Scheibenbogen @WirthScheibenbogen2025Neurotransmitter proposed that gut dysbiosis impairs enterochromaffin cell serotonin synthesis, reducing vagal afferent signalling and contributing to the autonomic dysfunction characteristic of ME/CFS\@. This model is supported by documented butyrate-producer deficiency in ME/CFS microbiome studies @ButyrateDeficiency2023 @Giloteaux2016 and established mechanisms linking butyrate, enterochromaffin serotonin, and vagal activation @Barton2025 @Kaelberer2018. The following research priorities would test this model and identify a “gut-vagal” ME/CFS subtype for targeted intervention.
+Wirth and Scheibenbogen @WirthScheibenbogen2025Neurotransmitter proposed that gut dysbiosis impairs enterochromaffin cell serotonin synthesis, reducing vagal afferent signalling and contributing to the autonomic dysfunction characteristic of ME/CFS\@. This model is supported by documented butyrate-producer deficiency in ME/CFS microbiome studies @ButyrateDeficiency2023 and established mechanisms linking butyrate, enterochromaffin serotonin, and vagal activation @Barton2025 The following research priorities would test this model and identify a “gut-vagal” ME/CFS subtype for targeted intervention.
 
 === Priority Study 1: Cross-Sectional Gut-Vagal Phenotyping
 
@@ -1980,11 +1980,11 @@ For ME/CFS specifically, we propose that an umbrella trial design should stratif
     - *Autonomic profile*: Heart rate variability, cardiac output decline on tilt, and orthostatic intolerance severity to assign autonomic-targeted therapies
 
 #open-question(title: [IgG Glycoform Profiling as an Alternative Explanation for Immunoadsorption Efficacy])[
-The Anft 2025 @Anft2025immunoadsorption discordance (autoantibodies eliminated, symptoms unchanged) and the BC007 Phase II failure raise the possibility that immunoadsorption works through non-autoantibody IgG mechanisms. Agalactosylated IgG is pro-inflammatory (drives complement activation and Fc$gamma$R signalling in RA); if ME/CFS patients have a skewed IgG glycoform profile, IA's benefit may come from removing pro-inflammatory IgG fractions, with reconstituted IgG having a temporarily improved glycoform profile. *Proposed study:* (1) Profile IgG glycoforms (galactosylation, sialylation, fucosylation, bisecting GlcNAc) in ME/CFS vs controls (n=100 each); (2) in IA trial patients, correlate pre-treatment glycoform profile with response; (3) compare post-IA reconstituted IgG glycoforms vs pre-treatment. If responders have more agalactosylated IgG pre-treatment, selective lectin affinity column removal could replicate IA's effect without removing GPCR autoantibodies. Never tested in ME/CFS (2026).
+The Anft 2025 discordance (autoantibodies eliminated, symptoms unchanged) and the BC007 Phase II failure raise the possibility that immunoadsorption works through non-autoantibody IgG mechanisms. Agalactosylated IgG is pro-inflammatory (drives complement activation and Fc$gamma$R signalling in RA); if ME/CFS patients have a skewed IgG glycoform profile, IA's benefit may come from removing pro-inflammatory IgG fractions, with reconstituted IgG having a temporarily improved glycoform profile. *Proposed study:* (1) Profile IgG glycoforms (galactosylation, sialylation, fucosylation, bisecting GlcNAc) in ME/CFS vs controls (n=100 each); (2) in IA trial patients, correlate pre-treatment glycoform profile with response; (3) compare post-IA reconstituted IgG glycoforms vs pre-treatment. If responders have more agalactosylated IgG pre-treatment, selective lectin affinity column removal could replicate IA's effect without removing GPCR autoantibodies. Never tested in ME/CFS (2026).
 ] <oq:igg-glycoform-ia>
 
 #open-question(title: [Post-IA Autoantibody Decay Curve as Diagnostic Stratification Tool])[
-After immunoadsorption, the rate of autoantibody rebound reveals the size and activity of the autoantibody-producing cell pool: fast rebound ($<$2 weeks to baseline) indicates a large, active plasma cell pool requiring daratumumab; slow rebound ($>$8 weeks) suggests a small pool where retreatment alone may suffice; no rebound suggests symptoms are not autoantibody-mediated. Weekly autoantibody measurements for 8 weeks post-IA would itself be diagnostic—the decay/rebound curve stratifies patients for subsequent therapy (daratumumab vs retreatment vs alternative mechanism). The IMPACT trial @IMPACTtrial2026 will measure some of these dynamics through memory B-cell tracking. Never formally proposed (2026).
+After immunoadsorption, the rate of autoantibody rebound reveals the size and activity of the autoantibody-producing cell pool: fast rebound ($<$2 weeks to baseline) indicates a large, active plasma cell pool requiring daratumumab; slow rebound ($>$8 weeks) suggests a small pool where retreatment alone may suffice; no rebound suggests symptoms are not autoantibody-mediated. Weekly autoantibody measurements for 8 weeks post-IA would itself be diagnostic—the decay/rebound curve stratifies patients for subsequent therapy (daratumumab vs retreatment vs alternative mechanism). The IMPACT trial will measure some of these dynamics through memory B-cell tracking. Never formally proposed (2026).
 ] <oq:post-ia-decay-curve>
 
 === Adaptive Enrichment and Biomarker-Guided Designs
@@ -2027,19 +2027,19 @@ A persistent ambiguity in the MCAS-ME/CFS literature is whether MCAS is an *upst
 
 Cromolyn sodium is the optimal agent for this test because: (a) it has extremely low systemic bioavailability from the oral route (GI-predominant effects only); (b) it does not cross the blood-brain barrier, eliminating CNS-direct confounding; (c) it has minimal systemic pharmacological activity other than mast cell stabilization. Improvement in OI/PEM/cognition on oral cromolyn would argue specifically for gut and peripheral mast cell upstream causality (not a central drug effect).
 
-*Proposed design:* A network of >=50 N-of-1 crossover trials in MCAS-positive ME/CFS patients (Valent 2021 criteria @Valent2021criteria), each consisting of: 4-week cromolyn sodium (100 mg QID before meals) followed by 2-week washout followed by 4-week placebo, with structured symptom diary (daily OI, cognitive, and PEM symptom ratings). Primary outcome: *proportion of responders showing OI improvement in the first 2 weeks preceding cognitive improvement (within-patient temporal ordering)*. A proportion exceeding 60% would support upstream causality; a proportion near 50% (random ordering) would support comorbidity model.
+*Proposed design:* A network of >=50 N-of-1 crossover trials in MCAS-positive ME/CFS patients (Valent 2021 criteria), each consisting of: 4-week cromolyn sodium (100 mg QID before meals) followed by 2-week washout followed by 4-week placebo, with structured symptom diary (daily OI, cognitive, and PEM symptom ratings). Primary outcome: *proportion of responders showing OI improvement in the first 2 weeks preceding cognitive improvement (within-patient temporal ordering)*. A proportion exceeding 60% would support upstream causality; a proportion near 50% (random ordering) would support comorbidity model.
 
 Secondary outcomes: urinary N-methylhistamine as mast cell activity marker; COMPASS-31 score for OI; 10-item DSQ for PEM frequency. Aggregated N-of-1 data will also be analyzed for baseline biomarker predictors of response (urinary mediator levels, tryptase, Valent criteria count).
 
 *Why N-of-1 rather than RCT:* Standard RCT of cromolyn in ME/CFS would be underpowered due to expected responder rate of 20--30% (MCAS prevalence in ME/CFS) and high heterogeneity. N-of-1 aggregation (>= 50 patients) provides both individual utility and population-level signal.
 
-*Feasibility:* Oral cromolyn is inexpensive, widely available, and has an established safety profile. Patient recruitment via existing MCAS+ME/CFS support networks. The design is implementable without dedicated clinic visits using telemedicine and home sample collection (urinary mediator panels via Mayo Clinic Labs home kits, Section @sec:domain6-mast-cell).
+*Feasibility:* Oral cromolyn is inexpensive, widely available, and has an established safety profile. Patient recruitment via existing MCAS+ME/CFS support networks. The design is implementable without dedicated clinic visits using telemedicine and home sample collection (urinary mediator panels via Mayo Clinic Labs home kits, Section:domain6-mast-cell).
 ]
 
 == Metabolic Reserve Predisposition Studies (Architecture C)
 <sec:architecture-c-research-program>
 
-Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative-hypotheses) predicts that pre-existing metabolic reserve determines post-infectious ME/CFS risk. A low reserve state — arising from neurodivergence, connective tissue disorder, nutritional deficits, or prior immune activation — may mean that a viral insult which would be metabolically manageable for most people instead tips the system into chronic energy deficit. Four study designs test this framework at increasing cost and specificity.
+Architecture C (@sec:architecture-c-metabolic-reserve in Chapter:speculative-hypotheses) predicts that pre-existing metabolic reserve determines post-infectious ME/CFS risk. A low reserve state — arising from neurodivergence, connective tissue disorder, nutritional deficits, or prior immune activation — may mean that a viral insult which would be metabolically manageable for most people instead tips the system into chronic energy deficit. Four study designs test this framework at increasing cost and specificity.
 
 === Prospective Post-Infection Metabolic Phenotyping
 <sec:prospective-metabolic-phenotyping>
@@ -2056,7 +2056,7 @@ Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative
 
 *Impact:* Highest among Architecture C studies. A positive result would transform ME/CFS prevention strategy; a negative result would redirect research away from predisposition models.
 
-#limitation[
+#limitation(title: [])[
   Recruitment bias — neurodivergent adults willing to undergo extensive baseline testing may not represent the full neurodivergent population. Infection timing is unpredictable; 5-year follow-up may miss the critical window. Cost makes this study unlikely without dedicated NIH/Wellcome funding streams.
 ]
 
@@ -2067,7 +2067,7 @@ Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative
 
 *Datasets:*
 
-- *ALSPAC (Avon Longitudinal Study of Parents and Children):* Already has ADHD/ASD trait measures at age 7/9, IL-6 at age 9, chronic fatigue at age 18 (the Quadt 2024 analysis used this cohort @Quadt2024neurodivergentfatigue). Request access to hEDS/hypermobility data, iron/ferritin measures, migraine history, and infection records to test the compound-risk model.
+- *ALSPAC (Avon Longitudinal Study of Parents and Children):* Already has ADHD/ASD trait measures at age 7/9, IL-6 at age 9, chronic fatigue at age 18 (the Quadt 2024 analysis used this cohort). Request access to hEDS/hypermobility data, iron/ferritin measures, migraine history, and infection records to test the compound-risk model.
 
 - *UK Biobank:* Contains neurodivergent diagnoses (ICD codes), baseline metabolic markers, COVID infection records, and Long COVID self-report. Can test whether pre-existing ADHD/ASD diagnosis predicts Long COVID to ME/CFS transition.
 
@@ -2101,7 +2101,7 @@ Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative
 === ADHD Hyperfocus Metabolic Profiling Study
 <sec:adhd-hyperfocus-metabolic-profiling>
 
-*Background:* The micro-PEM hypothesis (@oq:adhd-hyperfocus-micro-pem, @spec:focal-pem-threshold) predicts that ADHD hyperfocus episodes produce metabolic signatures paralleling ME/CFS post-exertional malaise --- specifically, delayed cognitive fatigue scaling nonlinearly with session duration, elevated peripheral lactate, and immune activation markers at 24 hours. No study has measured these parameters during or after sustained cognitive effort in ADHD adults.
+*Background:* The micro-PEM hypothesis (@oq:adhd-hyperfocus-micro-pem,:focal-pem-threshold) predicts that ADHD hyperfocus episodes produce metabolic signatures paralleling ME/CFS post-exertional malaise --- specifically, delayed cognitive fatigue scaling nonlinearly with session duration, elevated peripheral lactate, and immune activation markers at 24 hours. No study has measured these parameters during or after sustained cognitive effort in ADHD adults.
 
 *Design:* $n = 20$ ADHD adults and $n = 20$ controls. Sustained cognitive task (3-hour programming session or equivalent high-engagement task). Measure before, during (hourly), and after (2h, 6h, 24h, 48h): blood lactate, cortisol, catecholamine metabolites, inflammatory markers (IL-6, TNF-alpha), cognitive performance (reaction time, working memory). Wearables: heart rate variability, continuous glucose monitoring throughout.
 
@@ -2116,7 +2116,7 @@ Architecture C (@sec:architecture-c-metabolic-reserve in Chapter @ch:speculative
 
 === Background and Rationale
 
-The DecodeME GWAS identified three convergent biological themes---neuronal/synaptic, immune-ambiguous, and autophagy/mitophagy---at genome-wide significant loci (Section @sec:decodeme-genes, Chapter @ch:genetics-epigenetics). If these genetic themes define biologically distinct patient subgroups, treatment response should vary by genetic architecture. This proposed trial platform tests whether polygenic risk scores (PRS) constructed from DecodeME loci can predict treatment response, enabling a pharmacogenomic approach to ME/CFS.
+The DecodeME GWAS identified three convergent biological themes---neuronal/synaptic, immune-ambiguous, and autophagy/mitophagy---at genome-wide significant loci (Section:decodeme-genes, Chapter:genetics-epigenetics). If these genetic themes define biologically distinct patient subgroups, treatment response should vary by genetic architecture. This proposed trial platform tests whether polygenic risk scores (PRS) constructed from DecodeME loci can predict treatment response, enabling a pharmacogenomic approach to ME/CFS.
 
 === Study Design
 
@@ -2126,9 +2126,9 @@ The DecodeME GWAS identified three convergent biological themes---neuronal/synap
 
 *Arms:*
 
-    - *Arm A (Glutamatergic modulation):* Low-dose memantine (5--20 mg) for 12 weeks. Primary hypothesis: benefit concentrated in patients with high neuronal-synapse PRS (Speculation @spec:glutamatergic-autonomic-bridge, Chapter @ch:integrative-models).
-    - *Arm B (Mitophagy enhancement):* Urolithin A (500--1000 mg) for 12 weeks. Primary hypothesis: benefit concentrated in patients with high autophagy-mitophagy PRS (Hypothesis @hyp:mitophagy-vulnerability, Chapter @ch:genetics-epigenetics).
-    - *Arm C (Low-dose amitriptyline):* 10--25 mg for 12 weeks. Primary hypothesis: benefit correlates with neuronal-synapse PRS (Speculation @spec:amitriptyline-signal, Chapter @ch:integrative-models).
+    - *Arm A (Glutamatergic modulation):* Low-dose memantine (5--20 mg) for 12 weeks. Primary hypothesis: benefit concentrated in patients with high neuronal-synapse PRS (Speculation:glutamatergic-autonomic-bridge, Chapter:integrative-models).
+    - *Arm B (Mitophagy enhancement):* Urolithin A (500--1000 mg) for 12 weeks. Primary hypothesis: benefit concentrated in patients with high autophagy-mitophagy PRS (Hypothesis:mitophagy-vulnerability, Chapter:genetics-epigenetics).
+    - *Arm C (Low-dose amitriptyline):* 10--25 mg for 12 weeks. Primary hypothesis: benefit correlates with neuronal-synapse PRS (Speculation:amitriptyline-signal, Chapter:integrative-models).
     - *Arm D (Placebo):* Matched placebo for each arm.
 
 *Primary outcome:* Composite ME/CFS severity score (fatigue, PEM frequency, cognitive function, autonomic symptoms).
@@ -2148,7 +2148,7 @@ Requires access to DecodeME genotype data (planned for sharing), collaboration w
 == Prodromal Detection and Prevention Research Program
 <sec:prodromal-research-program>
 
-The retrospective prodromal signs described in @sec:prodromal-recognition generate a research programme aimed at prospective validation, early detection, and preventive intervention.
+The retrospective prodromal signs described in:prodromal-recognition generate a research programme aimed at prospective validation, early detection, and preventive intervention.
 
 === Study 1: The Sibling Stress Test — Prospective Metabolic Phenotyping in First-Degree Relatives
 
@@ -2174,7 +2174,7 @@ The retrospective prodromal signs described in @sec:prodromal-recognition genera
 
 *Features extracted:* Resting HR trend, HRV trajectory (RMSSD), sleep duration and efficiency, step count variability, recovery time from exercise, respiratory rate during sleep.
 
-*Primary question:* Is the prodromal-to-disease transition abrupt (supporting phase-transition model, @spec:cognitive-cliff) or gradual (supporting linear decline model)? Can machine learning identify the inflection point?
+*Primary question:* Is the prodromal-to-disease transition abrupt (supporting phase-transition model,:cognitive-cliff) or gradual (supporting linear decline model)? Can machine learning identify the inflection point?
 
 *Falsification:* If no detectable signal precedes diagnosis by >3 months, the prodromal decompensation model has no wearable signature. If the transition is abrupt (within 2 weeks), this supports the hysteretic phase-transition model; if gradual (>6 months decline), this supports linear reserve erosion.
 
@@ -2192,7 +2192,7 @@ The retrospective prodromal signs described in @sec:prodromal-recognition genera
 
 *Key advantage:* Measurable with consumer wearables at population scale, enabling screening without clinical visits.
 
-*Validation:* In a cohort wearing HRV-capable devices for >12 months, test whether progressive lengthening of HRV recovery time in the 6--12 months preceding ME/CFS diagnosis is detectable. Critical discriminator: recovery ratio should distinguish pre-ME/CFS from simple deconditioning (deconditioned individuals improve recovery time with training; pre-ME/CFS individuals do not) @Wyller2007thermoregCFS.
+*Validation:* In a cohort wearing HRV-capable devices for >12 months, test whether progressive lengthening of HRV recovery time in the 6--12 months preceding ME/CFS diagnosis is detectable. Critical discriminator: recovery ratio should distinguish pre-ME/CFS from simple deconditioning (deconditioned individuals improve recovery time with training; pre-ME/CFS individuals do not)
 
 === Study 5: Exercise Non-Responder Genomics
 
@@ -2227,7 +2227,7 @@ A weighted clinical checklist for identifying at-risk individuals, pending valid
   [Neurodivergence (ADHD/ASD)], [1], [Architecture C risk factor],
   [Hypermobility (Beighton ≥5)], [1], [Architecture C risk factor],
   [Frequent minor infections (>6/year)], [1], [Immune surveillance deficit],
-  [Unrefreshing sleep (validated scale)], [1], [Prospectively validated @Collin2018sleepCFS],
+  [Unrefreshing sleep (validated scale)], [1], [Prospectively validated],
 )
 ] <tab:prodromal-composite-score>
 
@@ -2240,18 +2240,18 @@ The prodromal composite score above is a research proposal, not a validated scre
 
 === Background
 
-The mitochondrial reserve threshold model (Section @spec:mtdna-reserve-threshold in Chapter @ch:integrative-models) proposes that inherited mtDNA haplogroup background reduces mitochondrial reserve capacity below a threshold at which an acute stressor can trigger a persistent hypometabolic state. ME/CFS has a documented heritable component (first-degree relative risk 2.70 @Albright2011heritability), but the mechanistic substrate is unknown. Crucially, to our knowledge no published study has measured mitochondrial reserve capacity *before* ME/CFS onset in any population.
+The mitochondrial reserve threshold model (Section:mtdna-reserve-threshold in Chapter:integrative-models) proposes that inherited mtDNA haplogroup background reduces mitochondrial reserve capacity below a threshold at which an acute stressor can trigger a persistent hypometabolic state. ME/CFS has a documented heritable component (first-degree relative risk 2.70), but the mechanistic substrate is unknown. Crucially, to our knowledge no published study has measured mitochondrial reserve capacity *before* ME/CFS onset in any population.
 
 #open-question(title: [Prospective Baseline Mitochondrial Reserve in At-Risk Populations])[
 The core mechanistic prediction of the mtDNA reserve threshold model is that individuals who subsequently develop ME/CFS after a viral trigger will show lower mitochondrial reserve capacity at baseline — before illness — compared to individuals who recover normally. This has never been tested. The gap is not merely methodological: no longitudinal study has enrolled at-risk individuals (e.g. close relatives of ME/CFS patients, individuals with documented EBV primary infection), measured baseline bioenergetics, and followed them prospectively through a viral trigger.
 
-Available tools make this feasible: Seahorse XF analysis of peripheral blood mononuclear cells (PBMCs) quantifies spare respiratory capacity (SRC) — the difference between maximal and basal oxygen consumption, a direct measure of mitochondrial reserve — in small blood volumes under standard clinical conditions @heng2025mecfs. Haplogroup determination adds minimal cost via targeted mtDNA sequencing.
+Available tools make this feasible: Seahorse XF analysis of peripheral blood mononuclear cells (PBMCs) quantifies spare respiratory capacity (SRC) — the difference between maximal and basal oxygen consumption, a direct measure of mitochondrial reserve — in small blood volumes under standard clinical conditions Haplogroup determination adds minimal cost via targeted mtDNA sequencing.
 
 A prospective design would require: (a) enrollment of first-degree relatives of ME/CFS patients and age/sex-matched controls; (b) baseline PBMC bioenergetics (SRC by Seahorse), haplogroup determination, and nuclear mitochondrial gene variants (NDUFAF2, UCP2, FBXL4); (c) follow-up to capture any acute infection episode and post-infection status at 6 and 12 months; (d) ME/CFS diagnosis assessment at 12 months using Canadian Consensus Criteria or ICC.
 
 If lower SRC at baseline predicts ME/CFS conversion after infection, this would constitute the first mechanistic link between inherited mitochondrial characteristics and ME/CFS predisposition. If SRC is equivalent between converters and non-converters, the reserve threshold model would require revision toward nuclear genetic or epigenetic mechanisms. Either outcome would substantially advance the field.
 
-*Immediate feasibility:* Existing infectious mononucleosis cohorts (e.g. those used to identify the 13% ME/CFS conversion rate after EBV @Katz2009IMadolescentCFS) could be retrospectively analyzed for stored baseline biospecimens — if PBMCs were cryopreserved, Seahorse analysis may still be possible. This would provide observational (not prospective) data with shorter timeline.
+*Immediate feasibility:* Existing infectious mononucleosis cohorts (e.g. those used to identify the 13% ME/CFS conversion rate after EBV) could be retrospectively analyzed for stored baseline biospecimens — if PBMCs were cryopreserved, Seahorse analysis may still be possible. This would provide observational (not prospective) data with shorter timeline.
 ] <oq:baseline-reserve-prospective>
 
 == MCAS-Focused Imaging and Trial Research Proposals
@@ -2265,7 +2265,7 @@ Existing PET neuroimaging in ME/CFS uses TSPO (translocator protein 18 kDa) liga
 
 TSPO is upregulated in both activated microglia *and* activated mast cells in the CNS. Brain-resident mast cells are concentrated in the choroid plexus, thalamus, hypothalamus, and brainstem -- the same regions showing elevated PBR28 binding in ME/CFS. The hypothesis that the PBR28 signal is partly mast cell-derived rather than exclusively microglial is therefore anatomically plausible.
 
-*Proposed disambiguation protocol:* Image ME/CFS patients with documented MCAS (Domain 6 positive, Section @sec:domain6-mast-cell) and without MCAS (Domain 6 negative), using #super[18]F-PBR28 PET-MRI at baseline. Then treat MCAS-positive patients with cromolyn sodium for 4 weeks (mast cell stabilizer, minimal CNS penetration) and repeat imaging. Reduce MCAS-negative patients with a non-mast-cell anti-inflammatory (e.g., low-dose naltrexone) and repeat.
+*Proposed disambiguation protocol:* Image ME/CFS patients with documented MCAS (Domain 6 positive, Section:domain6-mast-cell) and without MCAS (Domain 6 negative), using #super[18]F-PBR28 PET-MRI at baseline. Then treat MCAS-positive patients with cromolyn sodium for 4 weeks (mast cell stabilizer, minimal CNS penetration) and repeat imaging. Reduce MCAS-negative patients with a non-mast-cell anti-inflammatory (e.g., low-dose naltrexone) and repeat.
 
 If PBR28 binding decreases specifically in MCAS-positive patients after cromolyn (which does not enter the CNS), this would provide evidence that a component of the TSPO signal is driven by peripheral mast cell mediator load — via systemic mediators crossing the choroid plexus or activating CNS TSPO through vagal afferent signaling — rather than being exclusively generated by intracerebral microglial activation. Note: the design does not test direct CNS mast cell inhibition (cromolyn does not reach brain mast cells); it tests whether peripheral mast cell stabilization reduces the CNS inflammatory signal indirectly. If binding is unchanged despite peripheral mast cell mediator reduction, the signal is intrinsic to CNS cells (microglia, astrocytes).
 
@@ -2281,7 +2281,7 @@ If PBR28 binding decreases specifically in MCAS-positive patients after cromolyn
 Some MCAS-positive ME/CFS patients have dermal mast cell activation as the most prominent manifestation: dermatographism, urticaria, cutaneous flushing, and chemical sensitivities triggered by skin contact. This phenotype may reflect a skin-centered mast cell pathology where dermal afferent nerve activation drives systemic autonomic and inflammatory effects.
 
 A hemibody topical cromolyn design provides a within-subject control: topical cromolyn sodium 4% cream applied to one arm and torso (treatment side) versus vehicle on the contralateral side for 2 weeks. If cutaneous mast cell activation drives systemic effects through dermal afferents:
-- (a) The treatment side will show reduced mechanical-stimulus wheal formation (>50% reduction at 5g stylus, testing the @oq:dermatographism-screen threshold)
+- (a) The treatment side will show reduced mechanical-stimulus wheal formation (>50% reduction at 5g stylus, testing the:dermatographism-screen threshold)
 - (b) If systemic effects are mediated through dermal afferents, bilateral improvement of systemic symptoms (OI, brain fog, flushing) would be expected despite hemibody application -- because the CNS processes afferent signals from both sides
 - (c) If cutaneous MCAS is systemic (driven by circulating mediators), hemibody topical application would produce only local benefit (wheal reduction on treated side only)
 
@@ -2294,7 +2294,7 @@ This design elegantly distinguishes between skin-driven (neural afferent) and bl
 <sec:domain6-petri-net>
 
 #open-question(title: [Is Stochastic Petri Net Formalism Better Suited Than ODEs for Modeling Multi-Scale Domain 6 Dynamics?])[
-Domain 6 (mast cell / histaminergic dysregulation) spans at least four biological scales simultaneously: (1) *molecular* -- mediator release kinetics, receptor binding, calcium flux; (2) *cellular* -- mast cell state transitions (quiescent, primed, degranulated, recovering); (3) *tissue* -- perivascular mediator diffusion, nerve fiber sensitization; (4) *systemic* -- orthostatic intolerance, PEM, cognitive dysfunction. The bistable switch model integrated into Chapter @ch:integrative-models captures one aspect (the quiescent-to-activated transition). But the full domain includes stochastic, discrete-event, multi-scale dynamics that ODEs model poorly.
+Domain 6 (mast cell / histaminergic dysregulation) spans at least four biological scales simultaneously: (1) *molecular* -- mediator release kinetics, receptor binding, calcium flux; (2) *cellular* -- mast cell state transitions (quiescent, primed, degranulated, recovering); (3) *tissue* -- perivascular mediator diffusion, nerve fiber sensitization; (4) *systemic* -- orthostatic intolerance, PEM, cognitive dysfunction. The bistable switch model integrated into Chapter:integrative-models captures one aspect (the quiescent-to-activated transition). But the full domain includes stochastic, discrete-event, multi-scale dynamics that ODEs model poorly.
 
 Stochastic Petri nets (SPNs) offer an alternative formalism specifically designed for this structure: *tokens* represent activation events (mast cell degranulation episodes, mediator pulses); *transitions* encode degranulation probability, recovery dynamics, and inter-domain coupling (e.g., sympathetic nerve firing triggering mast cell activation, mast cell histamine affecting cardiac output). SPNs naturally represent:
 - Stochastic firing (degranulation is probabilistic, not deterministic)
@@ -2306,7 +2306,7 @@ Stochastic Petri nets (SPNs) offer an alternative formalism specifically designe
 
 *Feasibility:* SPN software is freely available (SHARPE, SNAKES, Stochastic Pi Calculus simulators). Parameter estimation from urinary mediator time-series requires longitudinal data (weekly urinary panels for 12 weeks per patient) -- a study design that does not currently exist for ME/CFS but is feasible with home collection kits. This is a computational modeling proposal that requires experimental data as input.
 
-*Connection to Part V modeling:* If validated, the SPN model for Domain 6 would provide the formal foundation for a multi-scale integration layer in the Part V model framework (Chapter @ch:modeling-foundations), connecting the ODE-based core model to the discrete-event tissue dynamics of MCAS.
+*Connection to Part V modeling:* If validated, the SPN model for Domain 6 would provide the formal foundation for a multi-scale integration layer in the Part V model framework (Chapter:modeling-foundations), connecting the ODE-based core model to the discrete-event tissue dynamics of MCAS.
 ]
 
 == Formal ISR State Variables in the PEM/Energy ODE Model <sec:isr-ode-extension>
@@ -2353,7 +2353,7 @@ The existing ME/CFS causal DAG should be extended with the following ISR-related
 
 *Proposed new edges:*
 - HHV-6-miR-aU14 → DRP1 → mitochondrial fragmentation (parallel to ISR-protective elongation)
-- SARS-CoV-2-N2b → PKR (inhibitory edge — viral ISR suppression) @Aloise2023CoVPKR
+- SARS-CoV-2-N2b → PKR (inhibitory edge — viral ISR suppression)
 - ISR-kinases → mitochondrial elongation (protective, blocked by viral fragmentation signals)
 
 *This extension formalises H1–H5 as graph structure*, enabling causal inference analysis of intervention targets: nodes that are causal ancestors of both OXPHOS↓ and DRP1-fragmentation are high-priority therapeutic targets.
@@ -2376,8 +2376,8 @@ ME/CFS clinical trials for ISR-modulating interventions will inevitably show het
 #open-question(title: [ISR Modulator Pharmacodynamics in MCAS-Subgroup ME/CFS: Do ISR Drugs Affect Mast Cell Tryptase/Histamine Dynamics?])[
 The MCAS--ISR bidirectional crosstalk hypothesis (@spec:mcas-isr-crosstalk) generates a specific pharmacodynamic prediction: ISR-modulating agents should produce secondary effects on mast cell secretory output in ME/CFS patients with MCAS overlap. Two directional predictions arise:
 
-- *ISR suppressors* (ISRIB, eIF2B activators): reducing chronic eIF2α-P could relieve the ISR-mediated XBP1 suppression that currently dampens IgE-mediated mast cell degranulation @Fan2024ERStressMastCell. A paradoxical acute increase in mast cell reactivity is possible before the system re-equilibrates.
-- *MCAS stabilizers* (ketotifen, cromolyn) as ISR-modifiers: by reducing degranulation frequency and ER calcium depletion episodes, mast cell stabilizers may reduce PERK input @Soboloff2002ERCalciumMastCell, with measurable ISR biomarker changes (GDF15/FGF21 reduction) as secondary endpoints in existing MCAS treatment trials.
+- *ISR suppressors* (ISRIB, eIF2B activators): reducing chronic eIF2α-P could relieve the ISR-mediated XBP1 suppression that currently dampens IgE-mediated mast cell degranulation A paradoxical acute increase in mast cell reactivity is possible before the system re-equilibrates.
+- *MCAS stabilizers* (ketotifen, cromolyn) as ISR-modifiers: by reducing degranulation frequency and ER calcium depletion episodes, mast cell stabilizers may reduce PERK input, with measurable ISR biomarker changes (GDF15/FGF21 reduction) as secondary endpoints in existing MCAS treatment trials.
 
 *Proposed study design:* Add plasma GDF15, FGF21, and ATF4-target metabolomics to an existing MCAS treatment trial in ME/CFS. Secondary analysis: does MCAS treatment response (symptom improvement) correlate with ISR biomarker reduction? Does ISR-biomarker non-response predict MCAS treatment non-response? This can be embedded in a planned MCAS trial at minimal additional cost (~5 plasma draws per patient).
 
@@ -2393,7 +2393,7 @@ The MCAS--ISR bidirectional crosstalk hypothesis (@spec:mcas-isr-crosstalk) gene
 
 === Background and Rationale
 
-A critical gap in ME/CFS research is the absence of systematic data on post-exertional malaise (PEM) recovery duration. All existing 2-day cardiopulmonary exercise testing (CPET) studies use a 24-hour interval between tests without validating that this represents full recovery time @Keller2024CPET @vanCampen2020SeverityCPET @Lim2020CPETMeta. Recent epigenetic evidence suggests molecular recovery processes may continue beyond 24 hours @Sharma2025EpigeneticPEM, raising the possibility that current CPET protocols underestimate true PEM duration.
+A critical gap in ME/CFS research is the absence of systematic data on post-exertional malaise (PEM) recovery duration. All existing 2-day cardiopulmonary exercise testing (CPET) studies use a 24-hour interval between tests without validating that this represents full recovery time Recent epigenetic evidence suggests molecular recovery processes may continue beyond 24 hours, raising the possibility that current CPET protocols underestimate true PEM duration.
 
 Clinically, patients report PEM episodes lasting from days to weeks, but no objective studies have quantified time to baseline recovery following a standardized exertional stressor. This gap has important implications for: (1) understanding PEM pathophysiology, (2) developing evidence-based pacing guidance, (3) designing clinical trials with appropriate washout periods, and (4) validating recovery biomarkers.
 
@@ -2438,7 +2438,7 @@ PEM recovery requires >24 hours for complete functional and molecular restoratio
 *Exclusion Criteria:*
 - Other medical conditions explaining fatigue (cardiac, pulmonary, untreated thyroid, anemia)
 - Pregnancy
-- Recent infection (<4 weeks)
+- Recent infection (\lt 4 weeks)
 - Medications that significantly affect exercise response (beta-blockers, etc.)
 
 *Intervention:*
@@ -2467,7 +2467,7 @@ PEM recovery requires >24 hours for complete functional and molecular restoratio
 
 === Sample Size Justification
 
-Based on pilot data from Sharma et al.\ @Sharma2025EpigeneticPEM showing epigenetic changes persisting to 48h in ME/CFS patients, and assuming a large effect size (d=0.8) for difference in recovery time between ME/CFS and controls, n=60 ME/CFS patients provides 80% power at alpha=0.05. Severity subgroup analysis (n=20 per group) provides 70% power to detect moderate effect sizes (d=0.65) between severity levels.
+Based on pilot data from Sharma et al.\ showing epigenetic changes persisting to 48h in ME/CFS patients, and assuming a large effect size (d=0.8) for difference in recovery time between ME/CFS and controls, n=60 ME/CFS patients provides 80% power at alpha=0.05. Severity subgroup analysis (n=20 per group) provides 70% power to detect moderate effect sizes (d=0.65) between severity levels.
 
 === Statistical Analysis
 
