@@ -48,6 +48,19 @@ Prevents re-processing of already-integrated content.
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11163340/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Ogutlu2022ADHDmito — mitochondrial dysfunction ADHD narrative review |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.7554%2FeLife.07370 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/bib — Cahalan2015 — Piezo1 RBC volume KCa3.1 |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1126%2Fscitranslmed.aat9892 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch08/bib — Szczot2018 — Piezo2 allodynia proprioception |
+| https://onlinelibrary.wiley.com/doi/10.1080/17461391.2018.1551937 | wiley | 2026-05-13 | — | bib/appendix-h/integration-guide — Douzi2018SleepCryotherapy — WBC sleep quality healthy men |
+| https://pubmed.ncbi.nlm.nih.gov/37230457/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Kujawski2023CBSCFS — WBC in CFS patients |
+| https://pubmed.ncbi.nlm.nih.gov/32361157/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Li2021ThermoregulationCFS — Thermoregulation dysfunction CFS |
+| https://pubmed.ncbi.nlm.nih.gov/29874259/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Cambras2018CircadianCFS — Circadian rhythms CFS |
+| https://pubmed.ncbi.nlm.nih.gov/35203896/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Baraniuk2022ThermoregulationMECFS — Thermoregulation PEM ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/35695028/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Costa2022HRVCryotherapy — WBC HRV meta-analysis |
+| https://pubmed.ncbi.nlm.nih.gov/16988370/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Westerlund2006SleepCold — Cold water immersion sleep |
+| https://pubmed.ncbi.nlm.nih.gov/25491572/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Levy2015CryotherapyPain — Cryotherapy pain management review |
+| https://pubmed.ncbi.nlm.nih.gov/31727630/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Zaproudil2020ColdVagal — Cold face immersion vagal |
+| https://pubmed.ncbi.nlm.nih.gov/20637358/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Banfi2010CryotherapyInflammation — WBC inflammatory markers |
+| https://pubmed.ncbi.nlm.nih.gov/28279480/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Tipton2017ColdWaterSafety — Cold water safety contraindications |
+| https://pubmed.ncbi.nlm.nih.gov/39789666/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Raccuglia2017ColdIntolerance — Cold intolerance chronic illness |
+| https://pubmed.ncbi.nlm.nih.gov/32187501/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Blecharz2020SleepArchitectureCryo — WBC sleep architecture athletes |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1016%2Fj.neubiorev.2023.105227 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Molot2023 — MCS TRP sensitization |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1186%2F1744-8069-1-3 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Moriyama2005 — PGE2 sensitizes TRPV1 |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1038%2Fs41598-021-82829-6 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch15/ch08/bib — Li2021 — TRPV1 COX2 feed-forward |

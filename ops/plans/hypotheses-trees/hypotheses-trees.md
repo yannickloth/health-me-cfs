@@ -203,3 +203,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 - The usefulness scores are assigned by the main session immediately after Phase 3, before integration work begins.
 - Scores are revised after Phase 4 if integration reveals a higher or lower impact than anticipated.
 | shared-mechanisms-fibromyalgia-mecfs-longcovid | [subtrees/shared-mechanisms-fibromyalgia-mecfs-longcovid.md](subtrees/shared-mechanisms-fibromyalgia-mecfs-longcovid.md) | 2026-05-12 | 4 | 0 | ⬜ stub | —
+| cryotherapy-sleep | [subtrees/cryotherapy-sleep.md](subtrees/cryotherapy-sleep.md) | 2026-05-13 | 2 | 2 | ✅ integrated | —

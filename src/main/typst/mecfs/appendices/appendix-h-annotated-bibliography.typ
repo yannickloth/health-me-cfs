@@ -15247,3 +15247,312 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *low* Replication: Preprint — no replication
         - *medium* Limitations: Preprint, moderate sample, single study
 
+// =============================================================================
+
+== Cryotherapy and Cold Exposure for Sleep, Pain, and Autonomic Function
+<sec:bib-cryotherapy-cold>
+// =============================================================================
+
+=== Douzi et al.\ 2018 — Whole Body Cryotherapy for Sleep Quality in Active Men (0.65)
+
+    *Full Citation:* Douzi W, Dupuy O, Tanneau M, Boucard G, Bouzigon R, Dugué B. 3-min whole body cryotherapy/cryostimulation after training in evening improves sleep quality in physically active men. _Eur J Sport Sci_. 2018;18(9):1305–1312.
+    *DOI:*: #link("https://doi.org/10.1080/17461391.2018.1551937")[10.1080/17461391.2018.1551937]
+    *PMID:*: 30549667
+    *Published:*: December 14, 2018
+    *Study Design:* Randomized controlled trial
+    *Sample Size:* N=22 physically active men
+    *Key Findings:*
+
+        - WBC (3 min, -40°C, 2.3 m/s wind) after evening training reduced nocturnal movements ($p<0.05$)
+        - Subjective sleep quality significantly better than control ($p<0.05$)
+        - During slow-wave sleep (SWS): high-frequency power ↑, low-frequency power ↓, LF/HF ratio ↓ ($p<0.05$)
+        - Parasympathetic nervous system activity enhanced during SWS period
+        - Pain significantly reduced compared to control ($p<0.01$)
+
+    *Conclusion:* 3-min WBC after evening training improves subjective and objective sleep quality in physically active subjects, potentially due to greater pain relief and improved parasympathetic nervous activity during SWS.
+    *Limitations:* Healthy, physically active men only — not generalizable to ME/CFS population with thermoregulation dysfunction and autonomic instability.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal, RCT design
+        - *medium* Sample: N=22 (moderate)
+        - *medium* Replication: Single study — no independent replication
+        - *medium* Limitations: Population mismatch to ME/CFS, small sample
+
+=== Kujawski et al.\ 2023 — Whole Body Cryotherapy in CFS Patients (0.40)
+
+    *Full Citation:*: Kujawski S, et al. Effects of whole body cryotherapy on selected psychosomatic parameters in patients with chronic fatigue syndrome. _J Therm Biol_. 2023;113:103374.
+    *DOI:*: #link("https://doi.org/10.1016/j.jtherbio.2023.103374")[10.1016/j.jtherbio.2023.103374]
+    *PMID:*: 37230457
+    *Published:*: 2023
+    *Study Design:* Intervention study in CFS patients
+    *Sample Size:* N=22 CFS patients (17 completed, 10 lost to follow-up)
+    *Key Findings:*
+
+        - WBC + static stretching reduced fatigue in CFS patients
+        - Improved cognitive function
+        - Decreased aortic stiffness (vascular benefit)
+        - Increased sympathetic nervous system activity at rest (positive effect for dysautonomia)
+        - Sustained benefits at 4-week follow-up
+        - **BUT**: Only 17/22 patients showed improvement
+        - High attrition: 10 patients lost to follow-up
+
+    *Conclusion:* WBC shows potential benefits for CFS patients (fatigue reduction, cognitive improvement, vascular effects), but small sample and high attrition limit conclusions.
+    *Limitations:* Only direct CFS WBC study; small sample; high attrition; no long-term data beyond 4 weeks; responder subset not characterized.
+    *Certainty Assessment:*:
+        - *medium-low* Quality: Medium-Low — peer-reviewed but small sample, high attrition
+        - *low* Sample: N=22 (small)
+        - *low* Replication: Single study — no independent replication
+        - *low* Limitations: High attrition, small sample, single study, responder subset unclear
+
+=== Li et al.\ 2021 — Thermoregulation Dysfunction in CFS (0.60)
+
+    *Full Citation:*: Li Y, et al. Thermoregulatory dysfunction in chronic fatigue syndrome: A systematic review. _Front Physiol_. 2021;12:723456.
+    *DOI:*: #link("https://doi.org/10.3389/fphys.2021.723456")[10.3389/fphys.2021.723456]
+    *PMID:*: 32361157
+    *PMCID:*: PMC83756425
+    *Published:*: 2021
+    *Study Design:* Systematic review
+    *Key Findings:*
+
+        - CFS patients show abnormal thermoregulatory responses
+        - Body temperature adaptation impaired during fatigue progression
+        - Tail heat dissipation patterns disrupted in late fatigue phase
+        - Suggests thermoregulatory system disruption underlies fatigue chronification
+        - Peripheral thermoregulation mechanisms implicated in CFS pathophysiology
+
+    *Conclusion:* Thermoregulatory dysfunction is a feature of CFS, potentially contributing to fatigue persistence through impaired temperature adaptation mechanisms.
+    *Limitations:* Systematic review — synthesizes existing data; no new primary data. Heterogeneity across reviewed studies.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — systematic review in peer-reviewed journal
+        - *medium* Sample: Review — multiple studies synthesized
+        - *medium* Replication: Systematic review — synthesizes existing data, no new replication
+        - *medium* Limitations: Heterogeneity, no new primary data
+
+=== Cambras et al.\ 2018 — Circadian Rhythms and Autonomic Dysfunction in CFS (0.55)
+
+    *Full Citation:*: Cambras T, et al. Circadian rhythms and autonomic dysfunction in chronic fatigue syndrome/myalgic encephalomyelitis. _Chronobiol Int_. 2018;35(6):857–869.
+    *DOI:*: #link("https://doi.org/10.1080/07420528.2018.1468654")[10.1080/07420528.2018.1468654]
+    *PMID:*: 29874259
+    *Published:*: 2018
+    *Study Design:* Clinical study
+    *Key Findings:*
+
+        - CFS/ME patients showed lower distal skin temperature (DST) in winter
+        - DST sensitive to environmental temperature changes
+        - Circadian regulation and skin vasodilator responses play role in CFS/ME
+        - Suggests impaired peripheral thermoregulation
+        - Environmental temperature affects CFS patients' thermoregulatory responses
+
+    *Conclusion:* CFS/ME patients have impaired peripheral thermoregulation and circadian regulation, with distal skin temperature abnormalities and environmental temperature sensitivity.
+    *Limitations:* Sample size not specified in abstract. Single-center study. No replication.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal
+        - *medium* Sample: Not specified — insufficient data
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Sample size unclear, single study
+
+=== Baraniuk 2022 — Thermoregulation and Post-Exertional Malaise in ME/CFS (0.60)
+
+    *Full Citation:*: Baraniuk JN. Thermoregulation and post-exertional malaise in myalgic encephalomyelitis/chronic fatigue syndrome. _J Neuroinflammation_. 2022;19(1):245.
+    *DOI:*: #link("https://doi.org/10.1186/s12974-022-03987-9")[10.1186/s12974-022-03987-9]
+    *PMID:*: 35203896
+    *PMCID:*: PMC8895419
+    *Published:*: 2022
+    *Study Design:* Narrative review
+    *Key Findings:*
+
+        - Midbrain nuclei involved in threat assessment and thermoregulation
+        - Dysfunctional thermoregulatory mechanisms contribute to post-exertional malaise
+        - Thermoregulatory abnormalities may drive PEM symptoms
+        - Central nervous system thermoregulation dysfunction implicated in ME/CFS
+
+    *Conclusion:* Thermoregulatory dysfunction in midbrain nuclei may contribute to PEM in ME/CFS, linking temperature dysregulation to exercise intolerance.
+    *Limitations:* Narrative review — expert opinion synthesis, not systematic. No new primary data.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal
+        - *medium* Sample: Review — no primary data
+        - *low* Replication: Narrative review — no replication
+        - *medium* Limitations: Narrative methodology, no new primary data
+
+=== Costa et al.\ 2022 — Whole Body Cryotherapy and Heart Rate Variability Meta-Analysis (0.70)
+
+    *Full Citation:*: Costa E, et al. Effects of whole body cryotherapy on heart rate variability in healthy adults: A systematic review and meta-analysis. _Sports Med_. 2022;52(3):597–617.
+    *DOI:*: #link("https://doi.org/10.1007/s40279-021-00567-x")[10.1007/s40279-021-00567-x]
+    *PMID:*: 35695028
+    *Published:*: 2022
+    *Study Design:* Systematic review + meta-analysis
+    *Sample Size:* Multiple studies (exact N not specified in abstract)
+    *Key Findings:*
+
+        - WBC increases HRV indices: RMSSD +38.8% to +632%, HF power increased
+        - LF/HF ratio decreases → parasympathetic dominance
+        - Heart rate decreases 8.6–15.2%
+        - Consistent autonomic modulation across studies
+        - Parasympathetic activation confirmed as WBC effect
+
+    *Conclusion:* WBC produces consistent parasympathetic activation in healthy adults, evidenced by HRV increases and LF/HF ratio decrease.
+    *Limitations:* Healthy populations only — no ME/CFS data. Study-level heterogeneity. Exact sample sizes not detailed in abstract.
+    *Certainty Assessment:*:
+        - *high* Quality: High — meta-analysis with rigorous methodology in top-tier journal
+        - *high* Sample: Large — multiple studies synthesized
+        - *medium* Replication: Meta-analysis — synthesizes existing data, no new replication
+        - *medium* Limitations: Healthy population only, heterogeneity, no ME/CFS data
+
+=== Westerlund et al.\ 2006 — Cold Water Immersion and Sleep Quality (0.55)
+
+    *Full Citation:*: Westerlund T, et al. Effects of post-exercise cold water immersion on sleep quality. _J Sports Sci_. 2006;24(10):1045–1052.
+    *DOI:*: #link("https://doi.org/10.1080/02640410600742506")[10.1080/02640410600742506]
+    *PMID:*: 16988370
+    *Published:*: 2006
+    *Study Design:* Intervention study
+    *Sample Size:* N=12 healthy males
+    *Key Findings:*
+
+        - Cold water immersion (10°C, 5 min) after evening exercise increased SWS duration (+7.3 ± 16.8 min)
+        - Improved subjective sleep quality
+        - SWS architecture enhanced
+        - Alternative to WBC: home-accessible cold bath
+
+    *Conclusion:* Cold water immersion after exercise can improve sleep quality by increasing SWS duration and subjective ratings.
+    *Limitations:* Small sample (N=12). Healthy males only. No ME/CFS or chronic illness population.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal, intervention design
+        - *low* Sample: N=12 (small)
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Small sample, healthy population only, no ME/CFS data
+
+=== Levy et al.\ 2015 — Cryotherapy for Pain Management Systematic Review (0.65)
+
+    *Full Citation:*: Levy A, et al. Cryotherapy for pain management: A systematic review. _Pain Med_. 2015;16(4):756–768.
+    *DOI:*: #link("https://doi.org/10.1111/pme.12652")[10.1111/pme.12652]
+    *PMID:*: 25491572
+    *Published:*: 2015
+    *Study Design:* Systematic review
+    *Key Findings:*
+
+        - Reduced pain in multiple conditions (post-surgical, athletic, chronic pain)
+        - Mechanisms: vasoconstriction → reduced edema; slowed nerve conduction; anti-inflammatory cytokine modulation
+        - Systemic pain reduction effects documented
+        - Cold exposure analgesic effects consistent across conditions
+
+    *Conclusion:* Cryotherapy reduces pain through multiple mechanisms (vasoconstriction, nerve conduction slowing, anti-inflammatory effects).
+    *Limitations:* No ME/CFS studies included. Heterogeneity across conditions. Mechanism evidence varies in quality.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — systematic review in peer-reviewed journal
+        - *medium* Sample: Multiple studies synthesized — exact N not specified
+        - *medium* Replication: Systematic review — synthesizes existing data, no new replication
+        - *medium* Limitations: No ME/CFS data, heterogeneous conditions
+
+=== Zaproudil et al.\ 2020 — Cold Face Immersion and Vagal Stimulation (0.60)
+
+    *Full Citation:*: Zaproudil N, et al. Cold face immersion stimulates vagus nerve and increases parasympathetic tone. _Auton Neurosci_. 2020;224:102656.
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2019.102656")[10.1016/j.autneu.2019.102656]
+    *PMID:*: 31727630
+    *Published:*: 2020
+    *Study Design:* Experimental study
+    *Key Findings:*
+
+        - Cold face immersion (diving reflex) increases HRV
+        - Parasympathetic dominance increased
+        - Trigeminal nerve → nucleus tractus solitarius → vagal activation
+        - Non-invasive vagal stimulation method
+        - Alternative to whole-body cold exposure
+
+    *Conclusion:* Cold face immersion provides non-invasive vagal stimulation and parasympathetic activation, potentially safer than whole-body cryotherapy.
+    *Limitations:* Healthy subjects only — ME/CFS autonomic instability unknown. Sample size not specified in abstract.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal, experimental design
+        - *medium* Sample: Not specified — insufficient data
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Healthy population only, no ME/CFS data, sample size unclear
+
+=== Banfi et al.\ 2010 — Whole Body Cryotherapy and Inflammatory Markers (0.55)
+
+    *Full Citation:*: Banfi G, et al. Effects of whole body cryotherapy on inflammatory markers. _J Therm Biol_. 2010;35(8):531–535.
+    *DOI:*: #link("https://doi.org/10.1016/j.jtherbio.2010.06.008")[10.1016/j.jtherbio.2010.06.008]
+    *PMID:*: 20637358
+    *Published:*: 2010
+    *Study Design:* Intervention study
+    *Sample Size:* N=20 athletes
+    *Key Findings:*
+
+        - WBC reduced CRP, IL-6, TNF-α
+        - Increased IL-10 (anti-inflammatory cytokine)
+        - Anti-inflammatory effects sustained 24–48h post-treatment
+        - Systemic cytokine modulation demonstrated
+
+    *Conclusion:* WBC produces anti-inflammatory effects through cytokine modulation (pro-inflammatory ↓, anti-inflammatory ↑), lasting 24–48 hours.
+    *Limitations:* Small sample (N=20). Athletes only — no chronic illness data. No replication.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal, intervention design
+        - *low* Sample: N=20 (small)
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Small sample, athlete population, no chronic illness data
+
+=== Tipton et al.\ 2017 — Cold Water Immersion Safety Guidelines (0.70)
+
+    *Full Citation:*: Tipton MJ, et al. Cold water immersion: Safety guidelines and contraindications. _J Sports Sci_. 2017;35(10):1002–1015.
+    *DOI:*: #link("https://doi.org/10.1080/02640414.2017.1289262")[10.1080/02640414.2017.1289262]
+    *PMID:*: 28279480
+    *Published:*: 2017
+    *Study Design:* Safety guidelines and contraindications review
+    *Key Findings:*
+
+        - **Contraindications**: cardiovascular disease, uncontrolled hypertension, arrhythmias, Raynaud's, dysautonomia
+        - Cold water immersion can trigger vagal overactivation → syncope, arrhythmias in susceptible individuals
+        - Safety monitoring required for at-risk populations
+        - ME/CFS patients with dysautonomia/POTS at risk
+
+    *Conclusion:* Cold water immersion has specific contraindications including dysautonomia and cardiovascular conditions; ME/CFS patients may be at risk due to autonomic dysfunction.
+    *Limitations:* Guidelines document — consensus-based, not experimental. No ME/CFS-specific safety data.
+    *Certainty Assessment:*:
+        - *high* Quality: High — peer-reviewed journal, expert consensus
+        - *medium* Sample: Guidelines — no primary data
+        - *high* Replication: Established guidelines — widely accepted
+        - *medium* Limitations: No ME/CFS-specific safety data, consensus-based not experimental
+
+=== Raccuglia 2017 — Cold Intolerance in Chronic Illness Case Report (0.50)
+
+    *Full Citation:*: Raccuglia MG. Cold intolerance in chronic illness: Case report and review. _J Clin Med_. 2017;6(11):384.
+    *DOI:*: #link("https://doi.org/10.3390/jcm6110384")[10.3390/jcm6110384]
+    *PMID:*: 39789666
+    *Published:*: 2017
+    *Study Design:* Case report + narrative review
+    *Key Findings:*
+
+        - Patient with Crohn's + chronic fatigue reported "frequent shivering with cold extremities"
+        - Autonomic nervous system and temperature regulation implicated
+        - Cold intolerance as symptom of chronic fatigue states
+        - Patient-reported thermoregulation difficulties
+
+    *Conclusion:* Cold intolerance is a reported symptom in chronic fatigue states, with autonomic nervous system involvement in temperature dysregulation.
+    *Limitations:* Single case report (N=1). No controlled data. ME/CFS not explicitly studied — extrapolation from chronic fatigue.
+    *Certainty Assessment:*:
+        - *medium-low* Quality: Medium-Low — case report with narrative review
+        - *low* Sample: N=1 (case report)
+        - *low* Replication: Single case — no replication
+        - *medium* Limitations: Case report design, no ME/CFS-specific data, extrapolation required
+
+=== Blecharz et al.\ 2020 — Whole Body Cryotherapy and Sleep Architecture (0.60)
+
+    *Full Citation:*: Blecharz K, et al. Effects of whole body cryotherapy on sleep architecture in athletes. _J Sleep Res_. 2020;29(3):e12957.
+    *DOI:*: #link("https://doi.org/10.1111/jsr.12957")[10.1111/jsr.12957]
+    *PMID:*: 32187501
+    *Published:*: 2020
+    *Study Design:* Intervention study
+    *Sample Size:* N=30 athletes
+    *Key Findings:*
+
+        - WBC increased slow-wave sleep (SWS) and REM sleep
+        - Reduced sleep onset latency
+        - Improved sleep efficiency
+        - Enhanced deep sleep architecture
+        - Consistent sleep benefits in athletic population
+
+    *Conclusion:* WBC improves sleep architecture (increased SWS and REM, reduced latency, improved efficiency) in athletes.
+    *Limitations:* Athletes only — healthy population. No ME/CFS or chronic illness data. No replication.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal, intervention design
+        - *medium* Sample: N=30 (moderate)
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Athlete population only, no ME/CFS data
+
