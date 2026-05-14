@@ -377,6 +377,34 @@ If confirmed, treatment would require either (a) antiviral therapy sustained lon
 Cross-species extrapolation from FIP to human disease requires caution: FIPV and SARS-CoV-2 differ in receptor usage, tropism breadth, and host immune biology. The “below PCR threshold” claim is currently unfalsifiable with standard methods—only emerging single-cell technologies can test it. The model does not explain non-viral-onset ME/CFS.
 ] <spec:lymphocyte-reservoir-ratchet>
 
+#hypothesis(title: [Corticosteroids May Exacerbate T Cell Exhaustion in Post-Viral Fatigue])[
+*(Certainty: 0.45 — Mechanistic inference from glucocorticoid receptor (GR) biology and documented T cell exhaustion in ME/CFS; no direct evidence in ME/CFS/Long COVID yet.)*
+
+Glucocorticoids modulate T cell function through multiple pathways that may worsen rather than improve T cell exhaustion in ME/CFS and Long COVID. While corticosteroids are immunosuppressive, their effects on exhausted T cells are complex and potentially counterproductive in post-viral syndromes.
+
+*Mechanisms of Corticosteroid-Induced Exacerbation:*
+1. *GR-mediated transcriptional reprogramming*: Glucocorticoids activate GR, which binds to glucocorticoid response elements (GREs) and induces widespread transcriptional changes. In ME/CFS, where CD8+ T cells already show epigenetic locking of exhaustion programs (TCF7 chromatin closure) @iu2024tcell_exhaustion, additional GR-driven transcriptional reprogramming may lock cells deeper into exhausted states rather than restoring function.
+
+2. *PD-1 pathway modulation*: Corticosteroids can upregulate PD-1 expression on T cells in certain contexts, potentially increasing checkpoint-mediated inhibition. This would exacerbate the already-elevated PD-1 levels documented in ME/CFS @iu2024tcell_exhaustion @walitt2024deep.
+
+3. *Metabolic suppression*: Glucocorticoids inhibit glycolysis and reduce mitochondrial function in T cells. Given that ME/CFS CD8+ T cells already demonstrate failed metabolic reprogramming (impaired Warburg effect) @Mandarano2020, corticosteroids may further cripple the metabolic capacity required for T cell activation and viral clearance.
+
+4. *Subset-specific effects*: Corticosteroids preferentially suppress cytotoxic CD8+ T cells over helper CD4+ T cells. In ME/CFS, where CD8+ dysfunction is more severe @Mandarano2020, this selective suppression may worsen the imbalance and impair viral control.
+
+5. *Timing-dependent paradox*: In acute viral infection, early corticosteroids may impair T cell priming and memory formation, while in chronic infection, they may suppress already-exhausted cells further without addressing the underlying antigenic drive.
+
+*Connection to Corticosteroid Trial Failures:*
+The PoCoVIT methylprednisolone trial in Long COVID showed no benefit and high adverse event rates @Adam2024PoCoVIT. While the trial's primary outcome was fatigue, one mechanistic explanation is that methylprednisolone worsened T cell exhaustion—particularly CD8+ cytotoxic T cells—impairing viral clearance and immune surveillance. This would be consistent with the broader ME/CFS pattern where interventions targeting single immune pathways (rituximab, hydrocortisone, methylprednisolone) fail to improve outcomes.
+
+*Falsifiable predictions:*
+- ME/CFS/Long COVID patients receiving corticosteroids will show increased PD-1, Tim-3, and CTLA-4 expression on CD8+ T cells compared to baseline and untreated controls.
+- Single-cell RNA-seq of CD8+ T cells post-corticosteroid will reveal transcriptional shifts deeper into exhaustion programs (increased TBX21/EOMES, further TCF7 closure).
+- Corticosteroid-treated patients will show reduced viral clearance (higher EBV/HHV-6 viral load, delayed SARS-CoV-2 RNA clearance) correlating with T cell exhaustion markers.
+- In vitro dexamethasone treatment of ME/CFS CD8+ T cells will increase checkpoint expression and reduce cytotoxic function more than in healthy controls (GR hypersensitivity/resistance phenotype).
+
+*Limitations:* Direct evidence for corticosteroid effects on ME/CFS T cell exhaustion is lacking; this is mechanistic inference from GR biology and the negative methylprednisolone trial. The hypothesis assumes T cell exhaustion is central to ME/CFS pathology, which may not be true for all patients. Replication: Not tested; requires prospective studies with pre/post corticosteroid T cell profiling.
+] <hyp:steroid-tcell-exhaustion>
+
 ==== T Cell Metabolic Dysfunction
 
 As discussed in Chapter @ch:energy-metabolism, mitochondrial dysfunction in ME/CFS is not limited to muscle and nervous system—it extends to immune cells themselves. Mandarano et al.\ (2020) provided the first comprehensive metabolic analysis of T cells in ME/CFS (n=53 patients, n=45 controls), demonstrating that immune dysfunction has a fundamental bioenergetic basis .

@@ -193,6 +193,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | megc-integration      | [subtrees/megc-integration.md](subtrees/megc-integration.md)            | (no date)       | 0          | 0          | ⬜ stub        |
 | tspe-pet-imaging    | [subtrees/tspo-pet-imaging.md](subtrees/tspo-pet-imaging.md)        | 2026-05-07      | 35         | 3          | ✅ integrated|
 | methylprednisolone-long-covid | [subtrees/methylprednisolone-long-covid.md](subtrees/methylprednisolone-long-covid.md) | 2026-05-09 | 30 | 8 | 🔵 in progress |
+| corticosteroid-mechanisms-postviral | [subtrees/corticosteroid-mechanisms-postviral.md](subtrees/corticosteroid-mechanisms-postviral.md) | 2026-05-14 | 36 | 9 | 🔵 in progress |
 
 ---
 
