@@ -207,7 +207,7 @@ The selective energy dysfunction hypothesis (Chapter:energy-metabolism, Section:
     - Blister fluid cytokine panel: IFN-γ, GM-CSF (NK cytokine output — note: distinct from NK cytotoxicity measured by Baraniuk), TGF-β (MSC-NK regulatory circuit), catecholamines (local sympathetic drive — note: blister fluid catecholamines reflect local wound-site trauma response and may not directly index systemic sympathetic tone; concurrent medications including beta-blockers must be recorded and analysed as covariates)
     - Correlation with NK cell cytotoxicity _and_ NK cytokine secretion (IFN-γ, GM-CSF from stimulated PBMCs — both measures needed to test whether cytotoxicity reduction predicts cytokine secretion reduction), HRV (sympathovagal balance), Bell disability score
 
-*Stratification:* Disease severity (mild/moderate/severe), disease duration ($<$3yr, 3–7yr, $>$7yr), POTS comorbidity (yes/no), beta-blocker use (yes/no).
+*Stratification:* Disease severity (mild/moderate/severe), disease duration (less than 3yr, 3–7yr, greater than 7yr), POTS comorbidity (yes/no), beta-blocker use (yes/no).
 
 === Why This Study Is Uniquely Informative
 
@@ -2415,7 +2415,7 @@ PEM recovery requires >24 hours for complete functional and molecular restoratio
 
 *Secondary Hypotheses.*
 - Epigenetic changes (DNA methylation) will normalize by 48h in healthy controls but remain abnormal at 72h in ME/CFS patients
-- Recovery duration will correlate with baseline severity (mild < moderate < severe)
+- Recovery duration will correlate with baseline severity (mild less than moderate less than severe)
 - Specific molecular signatures (e.g., DNA methylation patterns, EV protein cargo) will predict time to recovery
 - Bedbound patients will show the most prolonged recovery, possibly exceeding 7 days
 ]
@@ -2526,6 +2526,190 @@ Based on pilot data from Sharma et al.\ showing epigenetic changes persisting to
 *Mitigation:* Home-visit protocols, compensation for participant time, phased molecular analysis ( prioritize epigenetics based on pilot data)
 
 *Budget considerations:* Major costs include CPET equipment time, molecular assays (methylation arrays, metabolomics, EV isolation), personnel for home visits and data coordination
+
+// ============================================================================
+// SECTION: Longitudinal Viral Clearance Study
+// ============================================================================
+
+== Longitudinal Study of Viral Clearance and Post-Viral Outcomes
+<sec:viral-clearance-longitudinal>
+
+=== Background and Rationale
+
+The critical question in post-viral fatigue syndromes is why some patients recover fully while others develop chronic conditions like ME/CFS. This study proposes a comprehensive longitudinal investigation of viral clearance dynamics to identify factors that determine recovery vs chronicity.
+
+=== Study Design
+
+==== Design Type
+Prospective longitudinal cohort study with nested case-control analysis.
+
+==== Sample Size
+- *Total enrollment*: n=500 patients with acute viral infection (SARS-CoV-2, EBV, influenza)
+- *Follow-up duration*: 24 months
+- *Expected ME/CFS development*: ~50-60 patients (10-12% based on Dubbo cohort)
+
+==== Participant Groups
+
+*Primary cohort:* 500 patients with confirmed acute viral infection
+- *Inclusion criteria*: Laboratory-confirmed acute infection, symptom onset less than 7 days, age 18-65
+- *Exclusion criteria*: Pre-existing ME/CFS, immunosuppression, pregnancy
+
+*Comparison groups:*
+- *Recovered controls*: Patients who return to baseline function by 6 months
+- *Chronic fatigue cases*: Patients meeting ME/CFS criteria at 12 months
+- *Longitudinal comparators*: Healthy controls (n=100) matched for age/sex
+
+=== Assessment Schedule
+
+*Baseline (within 7 days of infection onset):*
+- Viral load quantification (PCR, viral culture)
+- Comprehensive immune profiling
+- Metabolic assessment
+- Neurological and cognitive testing
+- Autonomic function testing
+- Symptom severity assessment
+
+*Follow-up assessments:* Weeks 2, 4, 8, 12, 24, 52
+- Repeat all baseline measures
+- Additional: Viral reservoir testing (tissue biopsies in subset)
+- Quality of life and functional capacity measures
+
+=== Primary Hypotheses
+
+#hypothesis(title: [Early Immune Profiles Predict Chronic Outcome])[
+Immune profiles at 4 weeks post-infection will predict 12-month ME/CFS status with >80% accuracy. Specific predictors will include:
+
+- *Impaired viral clearance*: Persistent viral RNA/protein detection
+- *Immune dysregulation*: Abnormal cytokine profiles, immune cell subset changes
+- *Early exhaustion markers*: Elevated PD-1, CTLA-4 on T cells
+- *Metabolic dysfunction*: Abnormal mitochondrial function, energy metabolites
+- *Autonomic dysfunction*: Early signs of dysautonomia
+
+A composite biomarker panel combining these measures will achieve higher predictive accuracy than any single marker.
+] <hyp:early-prediction>
+
+=== Secondary Hypotheses
+
+#hypothesis(title: [Viral Reservoir Persistence Predicts Chronicity])[
+Patients who develop ME/CFS will show evidence of viral reservoir persistence (viral RNA/protein in gut tissue, immune cells, or other compartments) at 6 and 12 months, while recovered patients will show complete clearance. Reservoir presence will correlate with symptom severity and immune activation markers.
+] <hyp:reservoir-prediction>
+
+#hypothesis(title: [Immune Activation-to-Exhaustion Transition])[
+Patients who progress to ME/CFS will show a temporal transition from immune activation (early timepoints) to immune exhaustion (later timepoints), while recovered patients will show resolution of activation without exhaustion. The timing and rate of this transition will predict outcome.
+] <hyp:activation-exhaustion-transition>
+
+=== Key Measures
+
+==== Viral Clearance Assessment
+- *Blood*: Quantitative PCR for viral RNA, viral protein detection (ELISA, mass spectrometry)
+- *Stool*: Viral RNA and protein detection (gut reservoir assessment)
+- *Tissue biopsies* (subset n=100): Gut, lymph node, adipose tissue viral detection
+- *Immune cells*: Single-cell RNA-seq for viral transcripts in lymphocytes
+- *Serum*: Anti-viral antibody kinetics and avidity
+
+==== Immune Profiling
+- *Cellular immunity*: Flow cytometry for T, B, NK, dendritic cell subsets
+- *Functional assays*: NK cytotoxicity, T cell proliferation, cytokine production
+- *Exhaustion markers*: PD-1, CTLA-4, Tim-3, LAG-3 expression
+- *Cytokine profiling*: 30+ cytokine panel, interferon-stimulated genes
+- *Autoantibodies*: GPCR autoantibodies, anti-nuclear antibodies, anti-neuronal antibodies
+
+==== Metabolic Assessment
+- *Mitochondrial function*: PBMC respirometry (Seahorse XF), mtDNA copy number
+- *Energy metabolites*: Lactate, pyruvate, acylcarnitines, CoQ10
+- *Hormonal assessment*: Cortisol, DHEA, thyroid function
+- *Autonomic testing*: Heart rate variability, tilt table testing
+
+==== Clinical Outcomes
+- *Symptom assessment*: Standardized fatigue, pain, cognitive symptom scales
+- *Functional capacity*: 6-minute walk test, actigraphy
+- *Quality of life*: SF-36, disease-specific measures
+- *ME/CFS criteria*: Systematic application of IOM 2015 and ICC criteria
+
+=== Expected Outcomes and Implications
+
+*If Early Prediction Hypothesis Is Validated:*
+- Enable risk stratification early in post-viral course
+- Guide targeted early intervention for high-risk patients
+- Inform understanding of ME/CFS pathophysiology
+- Provide biomarkers for clinical trials
+
+*If Viral Reservoir Hypothesis Is Validated:*
+- Establish viral persistence as key mechanism in ME/CFS
+- Guide development of reservoir-targeted therapies
+- Explain chronic immune activation
+- Support antiviral treatment strategies
+
+*If Activation-Exhaustion Transition Is Validated:*
+- Provide mechanistic explanation for disease progression
+- Identify optimal timing for different interventions
+- Explain treatment response differences between early and late disease
+- Support immune phenotype-based treatment approaches
+
+=== Budget and Timeline
+
+*Total Budget:* $3.2M (3-year duration)
+- Personnel: $1.2M (PI, Co-Is, coordinators, lab staff, statistician)
+- Laboratory assays: $1.0M (immune profiling, virology, metabolomics)
+- Participant compensation: $400K
+- Data management and analysis: $300K
+- Overhead and indirect costs: $300K
+
+*Timeline:*
+- *Year 1*: Study setup, IRB approval, begin enrollment (target n=200)
+- *Year 2*: Complete enrollment (total n=500), continue follow-up
+- *Year 3*: Complete follow-up, data analysis, manuscript preparation
+
+=== Funding and Implementation
+
+*Target Funding Sources:*
+- NIH R01 grant mechanism
+- Private foundations (Solve ME, Open Medicine Foundation)
+- Long COVID research initiatives
+- International collaborations
+
+*Implementation Requirements:*
+- Multi-site collaboration for adequate enrollment
+- Standardized protocols across sites
+- Centralized biorepository and data management
+- Expertise in virology, immunology, and ME/CFS
+
+=== Ethical Considerations
+
+*Informed consent:* Special procedures for acutely ill patients; clear communication of study burden and timeline
+
+*Risk minimization:* Invasive procedures (biopsies) limited to subset; compensation for time and travel
+
+*Data safety:* De-identified viral and immune data; secure storage given sensitive health information
+
+*Return of results:* Participants receive clinically actionable findings; research findings shared through participant portal
+
+=== Limitations
+
+*Generalizability:* Findings may not apply to non-viral triggers or pediatric ME/CFS
+
+*Pathogen specificity:* Focused on SARS-CoV-2, EBV, influenza; may not generalize to other triggers
+
+*Observer effects:* Intensive monitoring may influence health behaviors and outcomes
+
+*Reservoir detection:* Current methods may miss low-level or compartmentalized viral persistence
+
+=== Expected Impact
+
+*Scientific Impact:*
+- First comprehensive longitudinal study of viral clearance dynamics in post-viral fatigue
+- Identification of predictive biomarkers for ME/CFS development
+- Mechanistic understanding of transition from acute infection to chronic syndrome
+
+*Clinical Impact:*
+- Enable early identification of high-risk patients
+- Guide development of prevention strategies
+- Inform treatment timing and approach
+
+*Patient Community Impact:*
+- Provide evidence for early intervention advocacy
+- Reduce diagnostic uncertainty through biomarker development
+- Support disability claims through objective markers of dysfunction
 
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"

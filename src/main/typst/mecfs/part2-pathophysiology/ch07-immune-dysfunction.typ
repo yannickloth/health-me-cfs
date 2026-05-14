@@ -53,7 +53,94 @@ Impaired NK cell function may contribute to ME/CFS through several mechanisms:
     - *Immune regulation*: NK cells modulate other immune cells; dysfunction may permit chronic inflammation
     - *Infection susceptibility*: Reduced defense against new infections
 
-These mechanisms may form a self-reinforcing cycle rather than a simple linear causal chain. In particular, the relationship between NK cell dysfunction and viral reactivation is bidirectional: impaired NK function permits viral reactivation, but chronic viral reactivation itself may further exhaust and dysregulate NK cells. Section @sec:herpesviruses examines three competing hypotheses for this relationship with their testable predictions. This bidirectional cycle represents one of several vicious cycles maintaining ME/CFS pathophysiology, discussed comprehensively in Section @sec:unifying-mechanisms of Chapter @ch:integrative-models.
+These mechanisms may form a self-reinforcing cycle rather than a simple linear causal chain. In particular, the relationship between NK cell dysfunction and viral reactivation is bidirectional: impaired NK function permits viral reactivation, but chronic viral reactivation itself may further exhaust and dysregulate NK cells. The following section examines viral persistence and clearance failure mechanisms that may drive this cycle, with testable predictions for distinguishing recovery from chronicity. This bidirectional cycle represents one of several vicious cycles maintaining ME/CFS pathophysiology, discussed comprehensively in Section @sec:unifying-mechanisms of Chapter @ch:integrative-models.
+
+=== Viral Persistence and Clearance Failure
+<sec:viral-persistence>
+
+ME/CFS is predominantly a post-infectious syndrome, with 60-80% of cases reporting onset following an acute infection. The critical question is not just which pathogens trigger ME/CFS, but why some patients successfully clear post-viral pathology while others develop chronic fatigue syndromes. The divergence between recovery and chronicity may depend on viral clearance dynamics during a critical window following acute infection.
+
+==== The Critical Clearance Window Hypothesis
+
+#hypothesis(title: [Critical Clearance Window Determining Chronic Outcomes])[
+*Certainty: 0.40.* There exists a time-limited window (approximately 2-8 weeks post-infection) during which effective viral clearance determines long-term outcome. Patients who fail to clear viral antigens and resolve immune activation within this window are at high risk of developing ME/CFS, while those who achieve complete clearance recover fully.
+
+*Evidence Base.* Longitudinal studies of infectious mononucleosis show that approximately 10-12% of patients develop CFS-like symptoms at 6 months post-infection (the Dubbo cohort finding), with the failure rate being remarkably pathogen-agnostic (similar rates for EBV, Coxiella burnetii, and Ross River virus). This suggests that the pathogen matters less than the host response pattern. In Long COVID, similar proportions develop persistent symptoms, with immune signatures at 3 months predicting 12-month outcomes. The time course suggests a critical period where the immune system either successfully resolves the post-infectious state or becomes locked in a pathological configuration.
+
+*Mechanistic Rationale.* During the clearance window, several interconnected processes must occur successfully:
+
+1. *Viral eradication or containment*: Complete elimination of replicating virus or establishment of effective latency control
+2. *Immune resolution*: Transition from acute inflammatory response to homeostatic baseline
+3. *Tissue repair*: Clearance of damaged cells and restoration of normal tissue function
+4. *Immune reprogramming*: Re-establishment of normal immune surveillance and tolerance mechanisms
+
+Failure at any of these steps during the critical window may initiate self-sustaining pathological loops that persist indefinitely.
+
+*Clinical Implications.* This hypothesis has profound implications for early intervention:
+
+- *Treatment timing*: Antiviral or immunomodulatory interventions may only be effective if administered during the clearance window
+- *Biomarker development*: Immune profiles during the acute phase could predict who will develop ME/CFS
+- *Prevention strategies*: Early aggressive treatment of high-risk patients might prevent chronicity
+
+*Testable Predictions.*
+- Immune profiles at 4 weeks post-infection will predict 6-month ME/CFS status with >80% accuracy
+- Patients who receive antiviral treatment within 2 weeks of infection will have lower ME/CFS incidence than untreated controls
+- The duration of elevated inflammatory markers (IL-6, CRP) beyond 8 weeks will correlate with ME/CFS severity
+- Early intervention (within 4 weeks) with immunomodulators will prevent the establishment of chronic immune signatures
+
+*Limitations.* The specific timing of the clearance window may vary by pathogen and individual factors. The hypothesis assumes that viral clearance is the primary determinant, whereas host factors (genetics, prior immune history) may be equally important. No prospective trial has tested early intervention strategies.
+] <hyp:critical-clearance-window>
+
+==== Viral Reservoir Mechanisms
+
+Multiple mechanisms may enable viral persistence despite apparent clinical recovery:
+
+*Active Low-Level Replication.*
+Some evidence suggests that ME/CFS patients may harbor ongoing low-level viral replication that evades standard detection. Sensitive PCR techniques have detected viral RNA in tissues (gut, nervous system) months after apparent recovery. However, the significance of these findings remains controversial, as low-level viral detection does not establish causality.
+
+*Viral Latency and Reactivation.*
+Herpesviruses (EBV, HHV-6, CMV) establish lifelong latency following primary infection and can reactivate under conditions of immune stress. ME/CFS patients show elevated antibody titers to these viruses, suggesting frequent reactivation. However, antibody elevation alone cannot distinguish between active replication and immune memory.
+
+#hypothesis(title: [Compartmentalized Viral Reservoirs in ME/CFS])[
+*Certainty: 0.35.* ME/CFS patients may harbor viral reservoirs in immune-privileged or poorly accessible compartments (gut-associated lymphoid tissue, central nervous system, bone marrow) that drive chronic immune activation through intermittent viral antigen release. These reservoirs evade standard blood-based detection but maintain continuous immune stimulation.
+
+*Evidence Base.* Comparative virology provides a compelling model: Kol et al. (2026) demonstrated that feline infectious peritonitis virus (FIPV), a coronavirus, persists in B and T lymphocytes within mesenteric lymph nodes after antiviral treatment and clinical recovery. Because memory lymphocytes survive for years, even a small fraction of virus-harbouring cells constitutes a persistent antigenic reservoir that can explain relapse and chronic immune dysregulation. While FIPV is not SARS-CoV-2, the shared coronavirus biology—tropism for immune cells, persistence despite apparent clearance, and post-treatment relapse—strengthens the plausibility that analogous mechanisms operate in post-COVID ME/CFS.
+
+*Mechanistic Implications.* If lymphocyte reservoirs exist in ME/CFS:
+
+- Viral antigen is continuously presented during any immune activation (infection, vaccination, exercise-induced immune mobilization)
+- This would explain why diverse immune stimuli can trigger symptom exacerbation
+- The reservoir maintains chronic antigenic stimulation without requiring active viral replication
+- Standard antiviral therapies may fail because they cannot access or eliminate the reservoir
+
+*Testable Predictions.*
+- Single-cell RNA sequencing of ME/CFS patient lymphocytes will detect viral transcripts in a small percentage (less than 1%) of cells
+- The fraction of virus-positive lymphocytes will correlate with disease severity and duration
+- In vitro activation of ME/CFS patient lymphocytes will increase detectable viral antigen
+- Patients who recover from ME/CFS will show clearance of lymphocyte-associated viral RNA
+
+*Limitations.* Cross-species extrapolation from felines to humans requires caution. No study has directly demonstrated SARS-CoV-2 or ME/CFS-triggering virus persistence in human lymphocytes. The "below PCR threshold" claim is currently untestable with standard methods.
+] <hyp:lymphocyte-reservoir>
+
+*Viral Protein Persistence.*
+Even without intact virus, viral proteins (particularly SARS-CoV-2 spike protein) can persist in tissues for months. Spike protein has been detected in gut epithelium and immune cells of Long COVID patients up to 12 months post-infection. These persistent proteins may:
+
+- Serve as continuous antigenic stimuli driving immune activation
+- Directly activate immune cells through pattern recognition receptors
+- Induce autoimmunity through molecular mimicry
+- Cause endothelial dysfunction and microvascular damage
+
+*Impaired Viral Clearance Mechanisms.*
+
+Multiple mechanisms may contribute to failed viral clearance in ME/CFS:
+
+1. *NK Cell Dysfunction*: Impaired cytotoxicity reduces elimination of virally-infected cells
+2. *T Cell Exhaustion*: Exhausted CD8+ T cells cannot effectively clear virus-infected cells
+3. *Dendritic Cell Dysfunction*: Impaired antigen presentation limits adaptive immune response initiation
+4. *Complement Consumption*: Reduced opsonization impairs clearance of virus-antibody complexes
+5. *MDSC Expansion*: Immunosuppressive myeloid cells inhibit effective antiviral immunity
+
+These mechanisms create a self-reinforcing cycle: impaired viral clearance maintains antigenic stimulation, which drives immune exhaustion and further impairs clearance capacity.
 
 #hypothesis(title: [MDSC Expansion via Exosomal HSAT2 as the Upstream Cause of NK Cytotoxicity Loss])[
 

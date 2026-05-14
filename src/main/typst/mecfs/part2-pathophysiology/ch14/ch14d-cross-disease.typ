@@ -258,6 +258,104 @@ If HSAT2/HERV-K expression in ME/CFS (but not cancer) triggers autoantibody prod
 *Limitations:* Autoimmunity in ME/CFS has multiple plausible explanations beyond retrotransposon trigger. No direct HSAT2-autoimmunity link exists. Retrotransposon protein immunogenicity is theoretical. Not replicated.
 ] <spec:retrotransposon-autoimmunity>
 
+=== Viral Clearance Dynamics: Long COVID vs ME/CFS
+<sec:viral-clearance-comparison>
+
+Building on the clinical similarities and differences outlined above, a detailed comparison of viral clearance mechanisms reveals important distinctions between Long COVID and ME/CFS that may explain divergent natural histories and treatment responses.
+
+*Viral Detection and Persistence Patterns.*
+
+| Aspect | Long COVID | ME/CFS |
+|--------|-----------|---------|
+| *Primary trigger* | SARS-CoV-2 (single pathogen) | Multiple pathogens (EBV, HHV-6, enteroviruses, etc.) |
+| *Viral detection* | Spike protein and RNA detectable in gut tissue up to 12 months | No consistent viral detection in blood/tissue |
+| *Antibody patterns* | Variable: some show waning, others persistent | Elevated herpesvirus antibodies common |
+| *Time since onset* | Typically months to 1-2 years | Often years to decades |
+| *Viral clearance evidence* | Mixed: some show clearance, others persistence | No evidence of active replication |
+
+*Immune Response Differences.*
+
+*Long COVID Immune Profile:*
+- More activated immune phenotype
+- Elevated but not exhausted T cells
+- Persistent inflammatory signatures
+- Evidence of ongoing immune response to residual antigen
+
+*ME/CFS Immune Profile:*
+- More exhausted/suppressed phenotype
+- Marked T cell and NK cell exhaustion
+- Mixed inflammation (some markers elevated, others suppressed)
+- Evidence of failed immune surveillance
+
+*Potential Explanations for Divergence.*
+
+1. *Time Course Hypothesis*: Long COVID represents an earlier stage of post-viral pathology that may progress to ME/CFS-like exhaustion over time
+2. *Pathogen-Specific Effects*: SARS-CoV-2 may trigger different immune responses than herpesviruses or other ME/CFS triggers
+3. *Host Susceptibility*: Different genetic or epigenetic susceptibility factors may determine outcome
+4. *Treatment Effects*: Early COVID treatments (antivirals, immunomodulators) may alter disease course
+5. *Heterogeneity*: Both conditions likely encompass multiple subtypes with different mechanisms
+
+#hypothesis(title: [Long COVID to ME/CFS Progression Model])[
+*Certainty: 0.35.* A subset of Long COVID patients will progress to a ME/CFS-like state characterized by immune exhaustion, persistent energy limitation, and established metabolic dysfunction. The rate and predictors of this progression can identify high-risk patients for early intervention.
+
+*Evidence Base.* The Eaton-Fitch 2024 finding that ME/CFS shows more immunosuppressed and Long COVID more immune-activated phenotypes suggests a potential progression: activated → exhausted. Longitudinal data from other post-viral conditions show similar progression patterns over years.
+
+*Progression Markers.*
+Potential predictors of progression from Long COVID to ME/CFS:
+
+- *Immune exhaustion markers*: Increasing PD-1, CTLA-4, Tim-3 expression over time
+- *Metabolic deterioration*: Worsening mitochondrial function, energy crisis
+- *Autonomic dysfunction*: Development or worsening of POTS, orthostatic intolerance
+- *Neurological symptoms*: Progression from mild cognitive symptoms to significant dysfunction
+- *PEM development*: Emergence of classic post-exertional malaise pattern
+
+*Clinical Implications.*
+If progression occurs, early identification of high-risk Long COVID patients could:
+
+- Enable targeted interventions to prevent progression
+- Inform prognosis and treatment planning
+- Guide research on progression mechanisms
+- Support disability claims and workplace accommodations
+
+*Testable Predictions.*
+- Long COVID patients with high exhaustion marker levels at 6 months will meet ME/CFS criteria at 24 months
+- Immune activation-to-exhaustion transition will correlate with functional decline
+- Early intervention (within 6 months) will prevent progression in high-risk patients
+- Biomarker panels will predict progression with >75% accuracy
+
+*Limitations.* Not all Long COVID patients may progress; some may recover or remain stable. The progression timeline and predictors are unknown. ME/CFS and Long COVID may be distinct conditions rather than progression stages.
+] <hyp:long-covid-progression>
+
+*Treatment Response Implications.*
+
+The different immune phenotypes suggest different therapeutic approaches:
+
+*Long COVID (More Activated):*
+- May benefit from anti-inflammatory agents
+- Immunomodulation to reduce overactive responses
+- Antiviral therapy if viral persistence present
+- Targeted symptom management
+
+*ME/CFS (More Exhausted):*
+- May require immune enhancement rather than suppression
+- Metabolic support and energy optimization
+- Neuromodulation and CNS-targeted approaches
+- Pacing and energy management
+
+*Research Priorities.*
+
+Key questions for distinguishing these conditions:
+
+1. What biomarkers reliably differentiate Long COVID from ME/CFS?
+2. What factors determine which Long COVID patients recover vs progress?
+3. Can early intervention prevent progression to ME/CFS?
+4. Are there distinct subtypes within each condition?
+5. How should treatment be tailored to immune phenotype?
+
+#open-question(title: [Continuum or Distinct Entities?])[
+Are Long COVID and ME/CFS points on a continuum of post-viral pathology, or are they distinct entities with overlapping symptoms? If they represent a continuum, what factors determine progression from early Long COVID to established ME/CFS? If they are distinct, what are the distinguishing biological features? Answering this question requires longitudinal studies tracking Long COVID patients over years with comprehensive immune and metabolic profiling.
+]
+
 *Post-Treatment Lyme Disease Syndrome.* Chronic symptoms after Lyme treatment:
 
     - Fatigue, cognitive dysfunction, pain
