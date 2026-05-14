@@ -15292,7 +15292,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Decreased aortic stiffness (vascular benefit)
         - Increased sympathetic nervous system activity at rest (positive effect for dysautonomia)
         - Sustained benefits at 4-week follow-up
-        - **BUT**: Only 17/22 patients showed improvement
+        - *BUT*: Only 17/22 patients showed improvement
         - High attrition: 10 patients lost to follow-up
 
     *Conclusion:* WBC shows potential benefits for CFS patients (fatigue reduction, cognitive improvement, vascular effects), but small sample and high attrition limit conclusions.
@@ -15497,7 +15497,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Study Design:* Safety guidelines and contraindications review
     *Key Findings:*
 
-        - **Contraindications**: cardiovascular disease, uncontrolled hypertension, arrhythmias, Raynaud's, dysautonomia
+        - *Contraindications*: cardiovascular disease, uncontrolled hypertension, arrhythmias, Raynaud's, dysautonomia
         - Cold water immersion can trigger vagal overactivation → syncope, arrhythmias in susceptible individuals
         - Safety monitoring required for at-risk populations
         - ME/CFS patients with dysautonomia/POTS at risk
