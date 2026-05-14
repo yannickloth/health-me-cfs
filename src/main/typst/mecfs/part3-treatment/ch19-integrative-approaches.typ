@@ -896,6 +896,7 @@ Several treatment combinations show evidence of synergistic benefit:
     - *CYP450 stacking*: Cimetidine (CYP inhibitor) + multiple CYP-metabolized drugs (aripiprazole, SSRIs, beta-blockers)—inhibited clearance leads to drug accumulation. Review all drug interactions when cimetidine is part of the regimen
     - *Bleeding risk*: Omega-3 + Ginkgo + CoQ10 + anticoagulants—cumulative antiplatelet effects. Monitor INR if combining multiple agents with anticoagulant properties
     - *Hypoglycemia*: D-ribose + alpha-lipoic acid + fasting—both lower blood glucose. Take with food; monitor blood glucose in diabetic patients
+] <warn:dangerous-combinations>
 
 #hypothesis(title: [Periostin-Targeted ECM Restoration])[
 *Certainty: 0.35.* Periostin (POSTN) is a matricellular protein critical for collagen crosslinking and tissue remodeling. It is upregulated by mechanical stress and downregulated by chronic inflammation. ME/CFS may involve periostin deficiency or dysregulation, impairing connective tissue repair. Recombinant periostin or periostin-inducing therapies (TGF-beta modulators) could restore ECM integrity. (Novel connection supported by basic science; periostin mutations cause connective tissue disorders; periostin deficiency causes ligament laxity; no direct ME/CFS data.)
@@ -915,10 +916,7 @@ Several treatment combinations show evidence of synergistic benefit:
 *Limitations.* High certainty ceiling due to lack of direct ME/CFS data; periostin may have complex roles beyond simple collagen support; recombinant protein therapies are expensive; individual variation in periostin metabolism may affect response; timing and dosing protocols not established.
 
 *Treatment Implications.* Pilot trial of recombinant periostin in ME/CFS hypermobile patients with documented periostin deficiency. Alternative approach using TGF-beta modulators like low-dose losartan (ARB that reduces pathological TGF-beta signaling while potentially improving physiological ECM production) in periostin-deficient patients.
-]
-
-
-] <warn:dangerous-combinations>
+] <hyp:periostin-ecm-restoration>
 
 === Sequencing Considerations
 
