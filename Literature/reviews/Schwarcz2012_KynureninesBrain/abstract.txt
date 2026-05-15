@@ -1,0 +1,24 @@
+1. Nat Rev Neurosci. 2012 Jul;13(7):465-77. doi: 10.1038/nrn3257.
+
+Kynurenines in the mammalian brain: when physiology meets pathology.
+
+Schwarcz R(1), Bruno JP, Muchowski PJ, Wu HQ.
+
+Author information:
+(1)University of Maryland School of Medicine, Baltimore, Maryland 21228, USA. 
+rschwarc@mprc. umaryland.edu
+
+The essential amino acid tryptophan is not only a precursor of serotonin but is 
+also degraded to several other neuroactive compounds, including kynurenic acid, 
+3-hydroxykynurenine and quinolinic acid. The synthesis of these metabolites is 
+regulated by an enzymatic cascade, known as the kynurenine pathway, that is 
+tightly controlled by the immune system. Dysregulation of this pathway, 
+resulting in hyper-or hypofunction of active metabolites, is associated with 
+neurodegenerative and other neurological disorders, as well as with psychiatric 
+diseases such as depression and schizophrenia. With recently developed 
+pharmacological agents, it is now possible to restore metabolic equilibrium and 
+envisage novel therapeutic interventions.
+
+DOI: 10.1038/nrn3257
+PMCID: PMC3681811
+PMID: 22678511 [Indexed for MEDLINE]

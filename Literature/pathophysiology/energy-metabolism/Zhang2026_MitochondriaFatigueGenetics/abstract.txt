@@ -1,0 +1,58 @@
+1. Mol Neurobiol. 2026 Apr 29;63(1):596. doi: 10.1007/s12035-026-05896-8.
+
+Mitochondria-Related Genome-Wide Mendelian Randomization Identifies Putatively 
+Genes for Chronic Fatigue.
+
+Zhang Z(1), Xiao Z(1), Mei H(2), Qi J(3), Gao Y(3), Zhang Y(4), Li F(5).
+
+Author information:
+(1)School of Traditional Chinese Medicine, Beijing University of Chinese 
+Medicine, Fangshan District, Beijing, China.
+(2)Graduate School, Beijing University of Chinese Medicine, Fangshan District, 
+Beijing, China.
+(3)School of Acupuncture-Moxibustion and Tuina, Beijing University of Chinese 
+Medicine, Fangshan District, Beijing, China.
+(4)School of Traditional Chinese Medicine, Beijing University of Chinese 
+Medicine, Fangshan District, Beijing, China. jinqian0326@163.com.
+(5)School of Traditional Chinese Medicine, Beijing University of Chinese 
+Medicine, Fangshan District, Beijing, China. lifeng_bucm0610@126.com.
+
+Chronic fatigue is a debilitating symptom linked to mitochondrial dysfunction 
+which lacks comprehensive genetic insights. This study aims to investigate 
+mitochondrial-related genes associated with chronic fatigue and explores 
+therapeutic targets. We conducted summary-data-based Mendelian randomization 
+(SMR) and Bayesian colocalization analyses using blood eQTL data (n = 31,684) 
+and fatigue GWAS data (n = 449,019). Mitochondrial-related genes were sourced 
+from MitoCarta3.0. Two-sample Mendelian randomization (TSMR) analysis and gene 
+expression detection in rat models of fatigue were employed to enhance the 
+robustness of our findings. Drug-gene interactions were screened via Drug 
+SIGnatures (DSigDB) database and DrugBank database, followed by molecular 
+docking and phenome-wide association study (PheWAS) for safety and pleiotropic 
+effects evaluation. SMR identified nine mitochondrial-related genes, with AKAP10 
+(OR = 1.012) and MTHFD1L (OR = 1.027) showing robust colocalization and causal 
+links to chronic fatigue. TSMR analysis also indicated significant causal 
+relationships of AKAP10 (OR = 1.017, 95% CI = 1.011-1.023, p = 8.15e-08) and 
+MTHFD1L (OR = 1.046, 95% CI = 1.002-1.091, p = 0.041) with chronic fatigue. 
+Consistently, in fatigue model rats, the expression levels of Akap10 and Mthfd1l 
+were significantly upregulated in both hippocampal and quadriceps tissues 
+(p = 0.021, p = 0.003, p = 0.027, p = 0.001, respectively). Molecular docking 
+revealed strong binding affinities (below -7.0 kcal/mol) between AKAP10, MTHFD1L 
+and repurposed drugs (e.g., irinotecan, digoxin). PheWAS indicated that both 
+AKAP10 and MTHFD1L exhibit no significant associations with other traits at the 
+gene level. Mitochondria-related genes AKAP10 and MTHFD1L are promising targets 
+for the treatment of chronic fatigue. Structural modification of existing drugs 
+targeting these genes may lead to novel therapeutic approaches, which warrants 
+further molecular and pharmacological validation to confirm their potential 
+application in fatigue treatment.
+
+© 2026. The Author(s), under exclusive licence to Springer Science+Business 
+Media, LLC, part of Springer Nature.
+
+DOI: 10.1007/s12035-026-05896-8
+PMID: 42053855 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics Approval and Consent to 
+Participate : All summary statistics used in the MR analysis were obtained from 
+previous studies, which had received ethical approval and individual consent for 
+all the original research included. Competing interests: The authors declare no 
+competing interests.

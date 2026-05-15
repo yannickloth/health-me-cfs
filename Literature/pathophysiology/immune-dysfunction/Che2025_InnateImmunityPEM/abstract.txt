@@ -1,0 +1,76 @@
+1. NPJ Metab Health Dis. 2025 Sep 3;3(1):34. doi: 10.1038/s44324-025-00079-w.
+
+Heightened innate immunity may trigger chronic inflammation, fatigue and 
+post-exertional malaise in ME/CFS.
+
+Che X(#)(1)(2), Ranjan A(#)(3), Guo C(3), Zhang K(3), Goldsmith R(4), Levine 
+S(5), Moneghetti KJ(6), Zhai Y(3), Ge L(7), Mishra N(3)(8), Hornig M(9), Bateman 
+L(10), Klimas NG(11), Montoya JG(12), Peterson DL(13), Klein SL(14), Fiehn 
+O(15), Komaroff AL(16), Lipkin WI(17)(18)(19).
+
+Author information:
+(1)Center for Infection and Immunity, Mailman School of Public Health, Columbia 
+University, New York, NY, USA. xc2273@cumc.columbia.edu.
+(2)Department of Biostatistics, Mailman School of Public Health, Columbia 
+University, New York, NY, USA. xc2273@cumc.columbia.edu.
+(3)Center for Infection and Immunity, Mailman School of Public Health, Columbia 
+University, New York, NY, USA.
+(4)Department of Medicine, Columbia University Irving Medical Center/New 
+York-Presbyterian Hospital, New York, NY, USA.
+(5)Levine Clinic, New York, NY, USA.
+(6)Baker Department of Cardiometabolic Health, University of Melbourne, 
+Parkville, Australia.
+(7)Department of Biostatistics, Mailman School of Public Health, Columbia 
+University, New York, NY, USA.
+(8)Department of Epidemiology, Mailman School of Public Health, Columbia 
+University, New York, NY, USA.
+(9)The Feinstein Institutes for Medical Research, Northwell Health, New York, 
+USA.
+(10)The Bateman Horne Center, Salt Lake City, UT, USA.
+(11)Institute for Neuro-Immune Medicine, College of Osteopathic Medicine, Nova 
+Southeastern University, Fort Lauderdale, FL, USA.
+(12)Palo Alto Medical Foundation, Jack S. Remington Laboratory for Specialty 
+Diagnostics of Toxoplasmosis, Palo Alto, CA, USA.
+(13)Sierra Internal Medicine at Incline Village, Incline Village, NV, USA.
+(14)Johns Hopkins Center for Women's Health, Sex, and Gender Research, 
+Baltimore, MD, USA.
+(15)UC Davis Genome Center-Metabolomics, University of California, Davis, CA, 
+USA.
+(16)Department of Medicine, Brigham and Women's Hospital, Harvard Medical 
+School, Boston, MA, USA.
+(17)Center for Infection and Immunity, Mailman School of Public Health, Columbia 
+University, New York, NY, USA. wil2001@cumc.columbia.edu.
+(18)Department of Epidemiology, Mailman School of Public Health, Columbia 
+University, New York, NY, USA. wil2001@cumc.columbia.edu.
+(19)Department of Pathology and Cell Biology, College of Physicians and 
+Surgeons, Columbia University, New York, NY, USA. wil2001@cumc.columbia.edu.
+(#)Contributed equally
+
+Update of
+    medRxiv. 2025 Jul 24:2025.07.23.25332049. doi: 10.1101/2025.07.23.25332049.
+
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is characterized by 
+unexplained fatigue, post-exertional malaise (PEM), and cognitive dysfunction. 
+ME/CFS patients often report a prodrome consistent with infection. We present a 
+multi-omics analysis based on plasma metabolomic and proteomic profiling, and 
+immune responses to microbial stimulation, before and after exercise. We report 
+evidence of an exaggerated innate immune response after exposure to microbial 
+antigens; impaired energy production involving the citric acid cycle, 
+beta-oxidation of fatty acids, and urea cycle energy production from amino 
+acids; systemic inflammation linked to lipid abnormalities; disrupted 
+extracellular matrix homeostasis with release of endogenous ligands that promote 
+inflammation; reduced cell-cell adhesion and associated gut dysbiosis; 
+complement activation; redox imbalance reflected by disturbances in 
+copper-dependent antioxidant pathways; and dysregulation of 
+tryptophan-serotonin-kynurenine pathways. Many abnormalities were worse 
+following exercise and correlated with the intensity of symptoms. Our findings 
+may inform development of targeted therapeutic interventions for ME/CFS and PEM.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s44324-025-00079-w
+PMCID: PMC12408823
+PMID: 40903540
+
+Conflict of interest statement: Competing interests: The authors declare no 
+competing interests.

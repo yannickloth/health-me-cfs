@@ -1,0 +1,70 @@
+1. J Ethnopharmacol. 2026 Jun 28;365:121527. doi: 10.1016/j.jep.2026.121527. Epub
+ 2026 Mar 18.
+
+Effects of Dendrobium officinale on chronic fatigue in rats: Modulation of 
+tryptophan metabolism.
+
+Yan M(1), Shi M(1), Li C(1), Yu B(1), Zhou H(1), Su J(1), Yu J(2), Lv G(3), Chen 
+S(4).
+
+Author information:
+(1)School of Pharmaceutical Sciences, Zhejiang Chinese Medical University. 
+Hangzhou, 310053, China.
+(2)School of Pharmaceutical Sciences, Zhejiang Chinese Medical University. 
+Hangzhou, 310053, China. Electronic address: yujinging8223@163.com.
+(3)School of Pharmaceutical Sciences, Zhejiang Chinese Medical University. 
+Hangzhou, 310053, China. Electronic address: 19781032@zcmu.edu.cn.
+(4)School of Pharmaceutical Sciences, Zhejiang Chinese Medical University. 
+Hangzhou, 310053, China. Electronic address: 20241157@zcmu.edu.cn.
+
+ETHNOPHARMACOLOGICAL RELEVANCE: Chronic fatigue is a prolonged and persistent 
+state of mental and physical exhaustion that is not readily relieved by rest. 
+Dendrobium officinale Kimura & Migo (D. officinale), a traditional tonic 
+medicinal and edible herb, which have been reported to possess diverse 
+pharmacological activities, including anti-fatigue, immunomodulatory, and gut 
+microbiota-modulating effects. Nevertheless, the effects and underlying 
+mechanisms on chronic fatigue remain largely unexplored.
+AIM OF THE STUDY: This study aimed to evaluate the effects of D. officinale in a 
+rat model of chronic fatigue induced by complex poor lifestyles, and to 
+elucidate the underlying mechanisms via tryptophan (TRP) metabolic modulation.
+MATERIALS AND METHODS: A rat model of chronic fatigue was established through 
+complex poor lifestyles, including over stress, inadequate sleep, irregular 
+diet, and over work. The animals were then randomly allocated into five groups: 
+a normal control group (NC), a model control group (MC), and three groups 
+treated with D. officinale water extract (DOW) at doses of 0.1, 0.2, and 
+0.4 g/kg via oral gavage. After a 4-week intervention, the effects of DOW were 
+subjected by general sign observation, swimming test, elevated plus maze (EPM) 
+and open field tests (OFT). Furthermore, 16S rRNA gene sequencing, LC-MS 
+analysis, Western blotting (WB), and quantitative real-time PCR (qRT-PCR) were 
+performed to assess gut microbiota composition, TRP metabolites, and key 
+metabolic enzymes, thereby elucidating the potential mechanisms by which DOW 
+ameliorates chronic fatigue.
+RESULTS: DOW markedly improved exercise endurance, alleviated depression-like 
+behaviour as well as attenuated dysregulation of the neuroendocrine-immune (NEI) 
+system. In addition, DOW modulated gut microbiota disturbances and substantially 
+increased the levels of TRP-derived indole metabolites, including indole (IDN), 
+indole-3-acetic acid (IAA), indole-3-propionic acid (IPA), and indole-3-aldehyde 
+(IAld). Meanwhile, it restored the inhibited kynurenine (KYN) metabolic pathway 
+and promoted hepatic expression of key KYN-pathway enzymes, including tryptophan 
+2,3-dioxygenase 2 (TDO2), kynurenine 3-monooxygenase (KMO), and kynurenine 
+aminotransferase 1 (KAT1), thereby enhancing the production of downstream KYN 
+metabolite, including 3-Hydroxyanthranilic acid (3-HAA), Quinolinic acid (QA), 
+Picolinic acid (PA), and Xanthurenic acid (XA). Correlation analysis further 
+demonstrated that the alleviation of chronic-fatigue-related symptoms and 
+behavioral abnormalities by DOW was strongly associated with its regulation of 
+TRP metabolism.
+CONCLUSION: DOW effectively alleviated chronic fatigue induced by complex poor 
+lifestyles in rats, and its underlying mechanism may involve modulating the gut 
+microbiota to enhance the synthesis of indole-derived metabolites, and 
+upregulating the expression of key enzymes in the KYN pathway to promote the 
+generation of KYN-derived metabolites, thereby restoring TRP metabolic 
+homeostasis.
+
+Copyright © 2026 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.jep.2026.121527
+PMID: 41861923 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest There is no 
+conflict of interest to disclose and the manuscript is approved by all the 
+authors. This study already obtained ethical approval.

@@ -1,0 +1,52 @@
+1. Chem Biol Drug Des. 2026 Jan;107(1):e70232. doi: 10.1111/cbdd.70232.
+
+Computational Based Identified EAAT2 Transporter Activator Attenuates Amyloid-β 
+Induced Excitotoxicity in Primary Neuronal-Astroglial Mixed Culture by 
+Ameliorating Glutamate Clearance.
+
+Manisha C(1), Ganguly A(2), Palathoti N(3), Selvaraj J(3), Kumar BRP(4), Clement 
+JP(2), Bharathi Jeyabalan J(1), Justin A(1).
+
+Author information:
+(1)Department of Pharmacology, JSS College of Pharmacy, JSS Academy of Higher 
+Education & Research, Ooty, Tamil Nadu, India.
+(2)Neuroscience Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, 
+Bengaluru, Karnataka, India.
+(3)Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy 
+of Higher Education & Research, Ooty, Tamil Nadu, India.
+(4)Department of Pharmaceutical Chemistry, JSS College of Pharmacy, JSS Academy 
+of Higher Education & Research, Mysuru, Karnataka, India.
+
+Astrocytes play a central role in maintaining synaptic homeostasis, regulating 
+neurotransmitter clearance, and supporting neuronal function, all of which are 
+integral to cognition. In Alzheimer's brain, astrocytic dysfunction contributes 
+significantly to the rapid progression of the disease pathology. Aβ deposition 
+induces oxidative alterations in the astrocytic glutamate transporter EAAT2, 
+leading to impaired glutamate uptake and elevated extracellular glutamate 
+levels, which drive excitotoxicity. This disruption adversely impacts synaptic 
+plasticity, neuronal survival, and cognitive integrity, highlighting the pivotal 
+role of astrocytes in the early phases of AD. Restoration of EAAT2 function is 
+critical to mitigating disease progression and preserving cognitive function. 
+Through in silico analyses, three potential allosteric modulators of EAAT2 were 
+identified. These compounds were further tested on Aβ-intoxicated primary 
+neuronal-astrocyte mixed cultures, with their efficacy evaluated via 
+immunoblotting for EAAT2 expression, in vitro glutamate assays for functional 
+assessment, and morphological analyses of astrocytes and neurons using GFAP and 
+β-III tubulin markers. Notably, PTID and NDHP significantly enhanced EAAT2 
+expression and function, reducing extracellular glutamate levels and 
+ameliorating excitotoxic damage. Moreover, these compounds demonstrated 
+neuroprotective effects by promoting dendritic growth and branching in β-III 
+tubulin-positive neurons. Immunocytochemical analyses further revealed an 
+increased number of β-III tubulin and GFAP-positive cells, suggesting that PTID 
+and NDHP not only improved neuronal integrity but also supported astrocytic 
+resilience and functionality. The findings of the current study underscore the 
+critical role of astrocytes in glutamate homeostasis and cognition, showcasing 
+the therapeutic potential of EAAT2 allosteric modulators, particularly PTID and 
+NDHP, in alleviating Aβ-induced neurotoxicity. By enhancing EAAT2 function, 
+these modulators restore astrocytic support for synaptic health, offering a 
+promising avenue for addressing cognitive decline in AD.
+
+© 2026 John Wiley & Sons Ltd.
+
+DOI: 10.1111/cbdd.70232
+PMID: 41482937 [Indexed for MEDLINE]

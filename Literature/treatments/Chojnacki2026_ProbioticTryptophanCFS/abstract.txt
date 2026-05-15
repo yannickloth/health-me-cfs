@@ -1,0 +1,56 @@
+1. Nutrients. 2026 Jan 5;18(1):174. doi: 10.3390/nu18010174.
+
+Multi-Strain Probiotic Improves Tryptophan Metabolism and Symptoms in Chronic 
+Fatigue Syndrome Patients with Co-Occurring Irritable Bowel Syndrome: An 
+Open-Label Pilot Study.
+
+Chojnacki C(1), Mędrek-Socha M(1), Chojnacki J(1), Gąsiorowska A(2), 
+Walecka-Kapica E(2), Bijak M(3), Przybylowska-Sygut K(4), Poplawski T(4).
+
+Author information:
+(1)Department of Clinical Nutrition and Gastroenterological Diagnostics, Medical 
+University of Lodz, 90-647 Lodz, Poland.
+(2)Department of Gastroenterology, Medical University of Lodz, 92-213 Lodz, 
+Poland.
+(3)Biohazard Prevention Centre, Faculty of Biology and Environmental Protection, 
+University of Lodz, Pomorska 141/143, 90-236 Lodz, Poland.
+(4)Department of Pharmaceutical Microbiology and Biochemistry, Medical 
+University of Lodz, 92-215 Lodz, Poland.
+
+Background/Objectives: Gut dysbiosis in Chronic Fatigue Syndrome (CFS) drives 
+low-grade inflammation and shifts tryptophan metabolism toward neurotoxic 
+pathways. The causal link between bacterial translocation, kynurenine pathway 
+dysregulation, and symptom severity remains under-defined. We evaluated the 
+impact of a high-concentration multi-strain probiotic on the "gut-kynurenine 
+axis" and clinical status in CFS patients with co-morbid IBS-U and confirmed 
+dysbiosis. Methods: Forty female patients with confirmed dysbiosis (GA-map™ 
+Dysbiosis Index > 2) received the CDS22 formula (450 billion CFU/day) for 12 
+weeks. We compared urinary tryptophan metabolite profiles (LC-MS/MS), gut 
+dysbiosis markers (3-indoxyl sulfate), and fatigue severity (FSS) against 40 
+age-matched healthy controls. Results: Baseline analysis revealed profound 
+metabolic perturbations: elevated bacterial proteolytic markers (3-IS), 
+substrate depletion (low tryptophan), and a neurotoxic signature (high 
+quinolinic acid [QA], low kynurenic acid [KYNA]). Following the intervention, 
+fatigue scores declined by 40.3%, with 97.5% of patients reaching the remission 
+threshold (FSS < 36). Biochemically, 3-IS levels decreased to the range observed 
+in healthy controls and attenuated xanthurenic acid levels. Although absolute QA 
+concentrations remained elevated compared to controls, the neuroprotective 
+KYNA/QA ratio increased significantly (+45%). Increased systemic tryptophan 
+availability correlated directly with clinical symptom reduction (Spearman's rho 
+= -0.36, p = 0.024). Conclusions: The CDS22 formulation was associated with a 
+restoration of intestinal eubiosis and functional tryptophan partitioning. 
+Clinical remission coincides with a metabolic shift favoring neuroprotection 
+(increased KYNA/QA ratio), validating the gut-kynurenine axis as a modifiable 
+therapeutic target. Peripheral metabolic improvement relative to the healthy 
+baseline appeared sufficient for symptom relief in this specific phenotype, 
+despite incomplete clearance of neurotoxic metabolites.
+
+DOI: 10.3390/nu18010174
+PMCID: PMC12787903
+PMID: 41515290 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflicts of interest. 
+The authors declare that this study received funding from Medical University of 
+Lodz and ALAB. The funder was not involved in the study design, collection, 
+analysis, interpretation of data, the writing of this article or the decision to 
+submit it for publication.

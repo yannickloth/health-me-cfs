@@ -1,0 +1,49 @@
+1. Glia. 2026 Feb;74(2):e70130. doi: 10.1002/glia.70130.
+
+Suppression of Astrocytic PirB Alleviates Aβ-Induced Excitotoxicity and 
+Cognitive Deficits via EAAT Expression.
+
+Zhang X(1)(2), Zhao Y(3), Chen X(4), Shen W(1), Huang L(1), Tan T(1).
+
+Author information:
+(1)Oujiang Laboratory (Zhejiang Lab for Regenerative Medicine, Vision and Brain 
+Health), Institute of Aging, Key Laboratory of Alzheimer's Disease of Zhejiang 
+Province, Zhejiang Provincial Clinical Research Center for Mental Disorders, the 
+Affiliated Wenzhou Kangning Hospital, Wenzhou Medical University, Wenzhou, 
+Zhejiang, P. R. China.
+(2)Shaanxi Key Laboratory of Brain Disorders & Institute of Basic and 
+Translational Medicine, Xi'an Medical University, Xi'an, P. R. China.
+(3)Department of Preventive Medicine, Xi'an Medical University, Xi'an, P. R. 
+China.
+(4)Department of Neurobiology, School of Basic Medicine, Xi'an Jiaotong 
+University Health Science Center, Xi'an, P. R. China.
+
+Glutamate-mediated neurotoxicity is a key factor in the pathogenesis of 
+Alzheimer's disease, yet its regulatory mechanism and connection to the amyloid 
+β (Aβ) cascade remain unclear. This study examined the role of the astrocytic Aβ 
+receptor, PirB, on glutamate reuptake, excitotoxic neuronal death, and 
+cognition. In vitro, primary astrocytes were treated with soluble PirB 
+extracellular peptide (PEP), the PirB inhibitor Fluspirilene, or lentiviral 
+vectors encoding PirB or shPirB. We measured excitatory amino acid transporter 
+(EAAT) expression, intracellular glutamate levels, and calcium influx in 
+astrocytes. We also evaluated neuronal apoptosis in neuron-astrocyte 
+co-cultures. PirB inhibition (via PEP or Fluspirilene) significantly increased 
+EAAT1 and EAAT2 expression and activated the mTOR signaling. This was 
+accompanied by elevated astrocytic glutamate levels, decreased intracellular 
+calcium, as well as reduced neuronal apoptosis, whereas PirB overexpression had 
+the opposite effects. In vivo, mice with astrocyte-specific PirB conditional 
+knockout (cKO) were injected with Aβ oligomers into the hippocampus and 
+subjected to cognitive behavioral assays. Hippocampal neuronal loss and 
+apoptosis were evaluated through Nissl and TUNEL staining. PirB cKO mice showed 
+enhanced exploratory behavior, improved working memory, and higher EAAT 
+expression, along with higher Bcl-2/Bax ratios, mTOR activation, and reduced 
+neuronal apoptosis compared with Aβ-injected PirBflox/flox mice. Overall, our 
+findings identify astrocytic PirB as a key driver of Aβ-triggered 
+glutamate-mediated neurotoxicity and suggest that suppressing the PirB-mTOR-EAAT 
+pathway could be a promising therapeutic strategy for mitigating Aβ-related 
+cognitive impairment.
+
+© 2025 Wiley Periodicals LLC.
+
+DOI: 10.1002/glia.70130
+PMID: 41427574 [Indexed for MEDLINE]

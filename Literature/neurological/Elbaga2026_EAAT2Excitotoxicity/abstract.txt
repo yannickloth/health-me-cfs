@@ -1,0 +1,48 @@
+1. Neurochem Res. 2026 Mar 5;51(2):100. doi: 10.1007/s11064-026-04692-z.
+
+Crocin Mitigates Glutamate Excitotoxicity and Tau Hyperphosphorylation by 
+Modulating EAAT2 and Akt/Tau Pathway in a Scopolamine-induced Rat Model of 
+Alzheimer's Disease.
+
+El-Baga SE(1), Hassan MH(2), Awadalla EA(3), Abd El-Kader AEM(3).
+
+Author information:
+(1)Department of Zoology, Faculty of Science, Aswan University, Aswan, 81528, 
+Egypt. Safinaz_emad@aswu.edu.eg.
+(2)Department of Medical Biochemistry and Molecular Biology, Faculty of 
+Medicine, Qena University, 83523, Qena, Egypt.
+(3)Department of Zoology, Faculty of Science, Aswan University, Aswan, 81528, 
+Egypt.
+
+Alzheimer's disease (AD) is characterized by glutamatergic dysregulation and 
+excitotoxicity, largely associated with impaired activity of the excitatory 
+amino acid transporter 2 (EAAT2). Downregulation of EAAT2 results in glutamate 
+accumulation, N-Methyl-D-Aspartate (NMDA) receptor overactivation, and neuronal 
+injury. Crocin (Cr), a carotenoid compound extracted from saffron (Crocus 
+sativus), exhibits potent antioxidant and neuroprotective properties, 
+particularly in experimental models of neurodegeneration. Forty-eight adult male 
+rats were divided into six groups: control (saline), crocin (50 mg/kg), 
+scopolamine (3 mg/kg for 7 days), scopolamine followed by memantine (M) 
+(20 mg/kg), scopolamine followed by crocin, and scopolamine followed by both 
+memantine and crocin. This study aimed to evaluate the therapeutic potential of 
+crocin, alone and in combination with memantine, in a scopolamine-induced rat 
+model of Alzheimer's disease, with a focus on EAAT2 modulation. Scopolamine 
+administration significantly elevated glutamate, NMDAR and p-tau levels while 
+reducing p-Akt, GABA and EAAT2 levels, accompanied by marked hippocampal 
+neurodegeneration. In contrast, crocin treatment, either alone or in combination 
+with memantine, restored neurotransmitter balance, downregulated NMDAR, 
+upregulated EAAT2, increased p-Akt expression level and reduced tau 
+phosphorylation. Histological analysis further confirmed notable structural 
+recovery of hippocampal neurons.
+
+© 2026. The Author(s).
+
+DOI: 10.1007/s11064-026-04692-z
+PMCID: PMC12963091
+PMID: 41784832 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Competing Interests: The authors 
+declare no competing interests. Ethical Approval: All experimental procedures 
+were approved by the Animal Ethical Committee of Aswan University, Aswan, Egypt, 
+and conducted in accordance with regional institutional guidelines. The ethical 
+approval code is ASWU/05/SC/ZO/24 − 01/08.

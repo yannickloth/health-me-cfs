@@ -1,0 +1,66 @@
+1. Front Immunol. 2026 Apr 13;17:1774310. doi: 10.3389/fimmu.2026.1774310. 
+eCollection 2026.
+
+Pathophysiological mechanisms of post-exertional malaise: an integrative 
+analysis based on the metabolism-immune-neuro interaction model.
+
+Jin H(1)(2), An Y(1), Huang J(1), Luo T(1), Wu X(1).
+
+Author information:
+(1)Acupuncture and Tuina School, Chengdu University of Traditional Chinese 
+Medicine, Chengdu, Sichuan, China.
+(2)Department of Child Rehabilitation, The First People's Hospital of Zunyi (The 
+Third Affiliated Hospital of Zunyi Medical University), Zunyi, Guizhou, China.
+
+Post-exertional malaise (PEM) is a common core symptom in various chronic 
+debilitating conditions, such as Post COVID-19 Condition (PCC, also known as 
+Long COVID) and Chronic Fatigue Syndrome (CFS). It is characterized by the 
+delayed and persistent exacerbation of symptoms following even mild physical or 
+cognitive activities. This review presents a systematic review of the 
+pathophysiological mechanisms involved in PEM, proposing a dynamic framework of 
+multi-system interactions that may lead to homeostatic imbalance. The etiology 
+of PEM is multifactorial, potentially involving factors such as the persistent 
+presence of pathogens, exposure to environmental toxins, and genetic 
+predisposition. Collectively, these factors may establish a vulnerable baseline 
+that heightens the body's physiological response to stressors, such as exercise, 
+potentially triggering a pathological reaction. First, mitochondrial dysfunction 
+and metabolic abnormalities may act as potential initiating factors in PEM, 
+manifesting as impaired ATP synthesis, overproduction of reactive oxygen species 
+(ROS), and the accumulation of metabolic byproducts. It is crucial to emphasize 
+that exercise itself induces a 'toxic excitatory effect,' whereby healthy 
+individuals enhance mitochondrial function and antioxidant defenses through 
+physical activity. However, in individuals predisposed to PEM, due to underlying 
+pathological conditions (e.g., sequelae of viral infections), this adaptive 
+process is disrupted, preventing effective restoration of mitochondrial 
+homeostasis and may initiate a potential vicious cycle of dysfunction. Second, 
+ROS and mitochondrial DNA (mtDNA), as damage-associated molecular patterns 
+(DAMPs), along with pathogen-associated molecular patterns (PAMPs), may activate 
+the NLRP3 inflammasome and induce the release of pro-inflammatory cytokines such 
+as IL-1β, IL-6, and TNF-α, potentially transforming localized metabolic stress 
+into a systemic inflammatory response. Subsequently, peripheral inflammation may 
+be transmitted to the central nervous system through disruption of the 
+blood-brain barrier and vagal nerve pathways, activating glial cells and 
+initiating neuroinflammation. This process may ultimately affect the brain's 
+interoceptive network, particularly the insular cortex, resulting in altered 
+perception and processing of signals related to fatigue and pain. Furthermore, 
+mitochondrial dysfunction in neurons may contribute to central energy depletion, 
+which may impair synaptic plasticity and induce cognitive deficits and brain 
+fatigue. Ultimately, this review proposes that PEM may arise from a complex 
+interplay among mitochondrial dysfunction, immune activation, and 
+neuroinflammation, which together form a self-perpetuating loop of "energy 
+exhaustion - inflammation amplification," potentially contributing to the 
+chronic and multi-system nature of PEM symptoms. The integrated 
+"metabolism-immune-neuro" interaction model presented in this article may 
+provide a potential comprehensive framework for understanding PEM and highlights 
+the need for a multi-target, collaborative intervention approach that may help 
+disrupt the pathological cycle.
+
+Copyright © 2026 Jin, An, Huang, Luo and Wu.
+
+DOI: 10.3389/fimmu.2026.1774310
+PMCID: PMC13110949
+PMID: 42051540 [Indexed for MEDLINE]
+
+Conflict of interest statement: The author(s) declared that this work was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

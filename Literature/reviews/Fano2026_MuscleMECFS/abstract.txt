@@ -1,0 +1,51 @@
+1. Diagnostics (Basel). 2026 Mar 28;16(7):1019. doi: 10.3390/diagnostics16071019.
+
+Pathophysiological, Translational, and Diagnostic Aspects of ME/CFS: A Focus on 
+Skeletal Muscle Involvement.
+
+Fanò-Illic G(1)(2)(3)(4), Coscia F(3)(5), Gigliotti PV(3)(5), Checcaglini F(3), 
+Carraro U(4)(6), Fulle S(1)(2), Mancinelli R(1)(2).
+
+Author information:
+(1)Department of Neuroscience, Imaging and Clinical Sciences, University "G. 
+d'Annunzio" of Chieti-Pescara, 66100 Chieti, Italy.
+(2)IIM-Interuniversity Institute of Myology, University "G. d'Annunzio" of 
+Chieti-Pescara, 66100 Chieti, Italy.
+(3)Campus of Free University of Alcatraz, Free University of Alcatraz, Santa 
+Cristina di Gubbio, 06024 Gubbio, Italy.
+(4)A&C M-C Foundation for Translational Myology, 35100 Padova, Italy.
+(5)Sports Medicine Service of the San Candido, Innichen and Brunico-Bruneck 
+Hospitals, Bolzano-Bozen, 39038 San Candido, Italy.
+(6)Department of Biomedical Sciences, University of Padova, 35131 Padua, Italy.
+
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a chronic, 
+multisystemic disorder characterized by severe, persistent fatigue not 
+alleviated by rest and worsened by minimal exertion, often accompanied by 
+post-exertional malaise (PEM), unrefreshing sleep, cognitive dysfunction, and 
+autonomic disturbances. Despite decades of research, its pathophysiology remains 
+incompletely understood, and skeletal muscle involvement has only recently 
+gained attention. This review aims to provide a historical and 
+pathophysiological synthesis of ME/CFS, emphasizing the pivotal role of skeletal 
+muscle in the onset and persistence of symptoms, and to integrate molecular, 
+cellular, and pathophysiological evidence into a coherent explanatory framework. 
+This is a narrative review of published literature (1990-2025) with critical 
+integration of clinical, biochemical, and experimental data on oxidative stress, 
+mitochondrial dysfunction, Excitation-Contraction (E-C coupling) dysregulation, 
+and muscle secretome alterations in ME/CFS also in relation to post-viral 
+syndromes (e.g., Long COVID). Evidence consistently points to mitochondrial 
+oxidative stress, redox imbalance, impaired Ca2+ handling, and altered signaling 
+pathways in skeletal muscle of patients with ME/CFS. Historical milestones show 
+an evolution from psychogenic interpretations toward recognition of ME/CFS as a 
+biological disorder with neuromuscular and metabolic underpinnings. ME/CFS can 
+be interpreted as a skeletal muscle-metabolic disorder characterized by 
+oxidative distress, mitochondrial dysfunction, and impaired energy regulation, 
+leading to the clinical picture of exercise intolerance and post-exertional 
+malaise. Integrating basic and clinical research through a translational 
+approach provides the foundation for new diagnostic tools, targeted therapies, 
+and biomarkers.
+
+DOI: 10.3390/diagnostics16071019
+PMCID: PMC13072767
+PMID: 41975732
+
+Conflict of interest statement: The authors declare no conflicts of interest.

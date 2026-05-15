@@ -15556,3 +15556,188 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *low* Replication: Single study — no independent replication
         - *medium* Limitations: Athlete population only, no ME/CFS data
 
+
+=== Cervenka et al.\ 2017 — Kynurenines in Exercise, Inflammation, and Mental Health (0.95)
+
+    *Full Citation:*: Cervenka I, Agudelo LZ, Ruas JL. Kynurenines: Tryptophan's metabolites in exercise, inflammation, and mental health. _Science_. 2017;357(6349):eaaf9794.
+    *DOI:*: #link("https://doi.org/10.1126/science.aaf9794")[10.1126/science.aaf9794]
+    *PMID:*: 28751584
+    *Published:*: August 3, 2017
+    *Study Design:*: Review article
+    *Key Findings:*:
+    
+        - Kynurenine pathway integrates immune, metabolic, and neurological signaling across organs
+        - Peripheral inflammation drives kynurenine accumulation in brain
+        - Exercise activates kynurenine clearance in skeletal muscle
+        - Different metabolites have opposing effects: KYNA (neuroprotective, NMDA antagonist), QA (neurotoxic, NMDA agonist)
+        - Interorgan cross-talk via kynurenine metabolites connects exercise to mental health
+    
+    *Conclusion:*: Kynurenine pathway serves as critical communication axis between periphery and CNS, mediating effects of inflammation and exercise on brain function.
+    *Limitations:*: Review article; limited primary data on ME/CFS specifically.
+
+=== Schwarcz et al.\ 2012 — Kynurenines in Brain Physiology and Pathology (0.95)
+
+    *Full Citation:*: Schwarcz R, Bruno JP, Muchowski PJ, Wu HQ. Kynurenines in the mammalian brain: when physiology meets pathology. _Nat Rev Neurosci_. 2012 Jul;13(7):465-477.
+    *DOI:*: #link("https://doi.org/10.1038/nrn3257")[10.1038/nrn3257]
+    *PMID:*: 22678511
+    *Published:*: July 2012
+    *Study Design:*: Review article
+    *Key Findings:*:
+    
+        - Tryptophan degraded to neuroactive compounds via kynurenine pathway (KYNA, 3-HK, QA)
+        - Pathway tightly controlled by immune system via IDO activation
+        - Dysregulation causes hyper/hypofunction of active metabolites
+        - Associated with neurodegenerative and psychiatric disorders
+        - QA is NMDA receptor agonist causing excitotoxicity; KYNA is NMDA antagonist
+    
+    *Conclusion:*: Kynurenine pathway dysregulation underlies multiple neurological disorders; therapeutic targeting of specific metabolites may restore balance.
+    *Limitations:*: Review article; limited primary data on ME/CFS specifically.
+
+=== Che et al.\ 2025 — Innate Immunity and Kynurenine Pathway in ME/CFS (0.65)
+
+    *Full Citation:*: Che X, Ranjan A, Guo C, Zhang K, Goldsmith R, Levine S, Moneghetti KJ, Zhai Y, Ge L, Mishra N, Hornig M, Bateman L, Klimas NG, Montoya JG, Peterson DL, Klein SL, Fiehn O, Komaroff AL, Lipkin WI. Heightened innate immunity may trigger chronic inflammation, fatigue and post-exertional malaise in ME/CFS. _NPJ Metabolic Health and Disease_. 2025 Sep 3;3(1):34.
+    *DOI:*: #link("https://doi.org/10.1038/s44324-025-00079-w")[10.1038/s44324-025-00079-w]
+    *PMID:*: 40903540
+    *Published:*: September 3, 2025
+    *Study Design:*: Multi-omics case-control study
+    *Sample Size:*: Not specified in abstract
+    *Key Findings:*:
+    
+        - Multi-omics analysis of ME/CFS patients before/after exercise
+        - Exaggerated innate immune response after microbial antigen exposure
+        - Impaired energy production (citric acid cycle, β-oxidation, urea cycle)
+        - Dysregulation of tryptophan-serotonin-kynurenine pathways
+        - Abnormalities worsened after exercise, correlated with symptom intensity
+    
+    *Conclusion:*: Heightened innate immunity triggers metabolic abnormalities that may underlie ME/CFS symptoms, particularly PEM.
+    *Limitations:*: Abstract-only access; sample size not specified; single-cohort study.
+
+=== Chojnacki et al.\ 2026 — Probiotic Modulates Kynurenine Pathway in CFS (0.60)
+
+    *Full Citation:*: Chojnacki C, Mȩdrek-Socha M, Chojnacki J, Gąsiorowska A, Walecka-Kapica E, Bijak M, Przybylowska-Sygut K, Poplawski T. Multi-Strain Probiotic Improves Tryptophan Metabolism and Symptoms in Chronic Fatigue Syndrome Patients with Co-Occurring Irritable Bowel Syndrome: An Open-Label Pilot Study. _Nutrients_. 2026 Jan 5;18(1):174.
+    *DOI:*: #link("https://doi.org/10.3390/nu18010174")[10.3390/nu18010174]
+    *PMID:*: 41515290
+    *Published:*: January 5, 2026
+    *Study Design:*: Open-label pilot study
+    *Sample Size:*: 40 female CFS+IBS patients
+    *Key Findings:*:
+    
+        - 40 female CFS+IBS patients with dysbiosis treated with CDS22 probiotic (450B CFU/day, 12 weeks)
+        - Baseline: elevated bacterial proteolytic markers (3-IS), low tryptophan, high QA, low KYNA
+        - Post-treatment: fatigue scores declined 40.3%, 97.5% reached remission threshold
+        - 3-IS decreased to healthy levels, KYNA/QA ratio increased 45%
+        - Increased tryptophan availability correlated with symptom reduction
+    
+    *Conclusion:*: Probiotic modulates gut-kynurenine axis, reduces neurotoxic QA, increases neuroprotective KYNA, improving CFS symptoms.
+    *Limitations:*: Open-label design (no placebo control); female-only cohort; single-center study.
+
+=== Yan et al.\ 2026 — Dendrobium officinale Modulates Tryptophan Metabolism in Fatigue (0.45)
+
+    *Full Citation:*: Yan M, Shi M, Li C, Yu B, Zhou H, Su J, Yu J, Lv G, Chen S. Effects of Dendrobium officinale on chronic fatigue in rats: Modulation of tryptophan metabolism. _J Ethnopharmacol_. 2026 Jun 28;365:121527.
+    *DOI:*: #link("https://doi.org/10.1016/j.jep.2026.121527")[10.1016/j.jep.2026.121527]
+    *PMID:*: 41861923
+    *Published:*: June 28, 2026
+    *Study Design:*: Animal study (rat model)
+    *Sample Size:*: Not specified in abstract
+    *Key Findings:*:
+    
+        - Chronic fatigue rat model via complex lifestyle stressors
+        - Dendrobium officinale improved endurance and reduced depression-like behavior
+        - Fatigue model showed inhibited kynurenine pathway
+        - Treatment restored kynurenine pathway, upregulated TDO2, KMO, KAT1
+        - Increased both gut-derived indole metabolites and kynurenine metabolites (3-HAA, QA, PA, XA)
+    
+    *Conclusion:*: Dendrobium officinale ameliorates chronic fatigue by modulating tryptophan-kynurenine metabolism via gut microbiota.
+    *Limitations:*: Animal model; traditional medicine focus; single study; mechanism extrapolation to humans.
+
+=== Zhang et al.\ 2026 — Mitochondrial Genetics in Chronic Fatigue (0.50)
+
+    *Full Citation:*: Zhang Z, Xiao Z, Mei H, Qi J, Gao Y, Zhang Y, Li F. Mitochondria-Related Genome-Wide Mendelian Randomization Identifies Putatively Genes for Chronic Fatigue. _Mol Neurobiol_. 2026 Apr 29;63(1):596.
+    *DOI:*: #link("https://doi.org/10.1007/s12035-026-05896-8")[10.1007/s12035-026-05896-8]
+    *PMID:*: 42053855
+    *Published:*: April 29, 2026
+    *Study Design:*: Mendelian randomization + animal validation
+    *Sample Size:*: Blood eQTL (n=31,684), fatigue GWAS (n=449,019)
+    *Key Findings:*:
+    
+        - Mendelian randomization using blood eQTL and fatigue GWAS
+        - Identified mitochondrial-related genes AKAP10 and MTHFD1L with causal links to chronic fatigue
+        - TSMR confirmed causal relationships
+        - Fatigue model rats showed upregulated Akap10 and Mthfd1l in hippocampus and quadriceps
+        - Molecular docking revealed strong binding with repurposed drugs (irinotecan, digoxin)
+    
+    *Conclusion:*: Mitochondrial genes AKAP10 and MTHFD1L are causally linked to chronic fatigue; potential therapeutic targets.
+    *Limitations:*: General chronic fatigue, not ME/CFS-specific; animal validation limited.
+
+=== El-Baga et al.\ 2026 — EAAT2 and Glutamate Excitotoxicity (0.40)
+
+    *Full Citation:*: El-Baga SE, Hassan MH, Awadalla EA, Abd El-Kader AEM. Crocin Mitigates Glutamate Excitotoxicity and Tau Hyperphosphorylation by Modulating EAAT2 and Akt/Tau Pathway in a Scopolamine-induced Rat Model of Alzheimer's Disease. _Neurochem Res_. 2026 Mar 5;51(2):100.
+    *DOI:*: #link("https://doi.org/10.1007/s11064-026-04692-z")[10.1007/s11064-026-04692-z]
+    *PMID:*: 41784832
+    *Published:*: March 5, 2026
+    *Study Design:*: Animal study (rat model)
+    *Sample Size:*: Not specified in abstract
+    *Key Findings:*:
+    
+        - Alzheimer's rat model: scopolamine elevated glutamate, NMDAR, p-tau; reduced EAAT2
+        - Crocin treatment restored neurotransmitter balance, downregulated NMDAR, upregulated EAAT2
+        - Increased p-Akt expression, reduced tau phosphorylation
+        - Histological analysis confirmed hippocampal neuron recovery
+    
+    *Conclusion:*: EAAT2 downregulation causes glutamate accumulation and excitotoxicity; crocin restores EAAT2 function and mitigates damage.
+    *Limitations:*: Alzheimer's model, not ME/CFS; animal study; extrapolation to ME/CFS required.
+
+=== Manisha et al.\ 2026 — EAAT2 Activator Attenuates Excitotoxicity (0.40)
+
+    *Full Citation:*: Manisha C, Ganguly A, Palathoti N, Selvaraj J, Kumar BRP, Clement JP, Jeyabalan JB, Justin A. Computational Based Identified EAAT2 Transporter Activator Attenuates Amyloid-β Induced Excitotoxicity in Primary Neuronal-Astroglial Mixed Culture. _Chem Biol Drug Des_. 2026 Jan;107(1):e70232.
+    *DOI:*: #link("https://doi.org/10.1111/cbdd.70232")[10.1111/cbdd.70232]
+    *PMID:*: 41482937
+    *Published:*: January 2026
+    *Study Design:*: In vitro study (neuronal-astroglial mixed culture)
+    *Sample Size:*: Cell culture model
+    *Key Findings:*:
+    
+        - Aβ deposition induces oxidative alterations in astrocytic EAAT2
+        - Impaired EAAT2 causes elevated extracellular glutamate and excitotoxicity
+        - Identified allosteric EAAT2 modulators (PTID, NDHP)
+        - Compounds enhanced EAAT2 expression/function, reduced glutamate, improved neuron survival
+    
+    *Conclusion:*: EAAT2 impairment underlies Aβ-induced excitotoxicity; allosteric EAAT2 activators are promising therapeutic candidates.
+    *Limitations:*: In vitro study; Alzheimer's focus; extrapolation to ME/CFS required.
+
+=== Zhang et al.\ 2026 — PirB-EAAT Pathway in Excitotoxicity (0.40)
+
+    *Full Citation:*: Zhang X, Zhao Y, Chen X, Shen W, Huang L, Tan T. Suppression of Astrocytic PirB Alleviates Aβ-Induced Excitotoxicity and Cognitive Deficits via EAAT Expression. _Glia_. 2026 Feb;74(2):e70130.
+    *DOI:*: #link("https://doi.org/10.1002/glia.70130")[10.1002/glia.70130]
+    *PMID:*: 41427574
+    *Published:*: February 2026
+    *Study Design:*: Animal study (mouse model)
+    *Sample Size:*: Not specified in abstract
+    *Key Findings:*:
+    
+        - PirB inhibition increased EAAT1 and EAAT2 expression, activated mTOR signaling
+        - Elevated astrocytic glutamate levels, decreased intracellular calcium, reduced neuronal apoptosis
+        - PirB cKO mice showed improved cognition, higher EAAT expression, reduced apoptosis
+        - PirB-mTOR-EAAT pathway identified as therapeutic target
+    
+    *Conclusion:*: PirB regulates EAAT expression and glutamate homeostasis; PirB inhibition alleviates excitotoxicity via EAAT upregulation.
+    *Limitations:*: Alzheimer's model, not ME/CFS; animal study; extrapolation to ME/CFS required.
+
+=== Rothstein et al.\ 1996 — EAAT2 Knockout Reveals Astroglial Transport in Excitotoxicity (0.95)
+
+    *Full Citation:*: Rothstein JD, Dykes-Hoberg M, Pardo CA, Bristol LA, Jin L, Kuncl RW, Kanai Y, Hediger MA, Wang Y, Schieke JP, Welty DF. Knockout of glutamate transporters reveals a major role for astroglial transport in excitotoxicity and clearance of glutamate. _Neuron_. 1996 Oct;16(3):675-686.
+    *DOI:*: #link("https://doi.org/10.1016/s0896-6273(00)80096-9")[10.1016/s0896-6273(00)80096-9]
+    *PMID:*: 8915429
+    *Published:*: October 1996
+    *Study Design:*: Animal study (knockout mice)
+    *Sample Size:*: Not specified in abstract
+    *Key Findings:*:
+    
+        - GLT-1 (EAAT2) knockout mice developed lethal neurodegeneration
+        - Absence of GLT-1 caused elevated extracellular glutamate, excitotoxic neuronal death
+        - Astrocytic glutamate transport is primary mechanism for clearing glutamate from synaptic cleft
+        - Na+/K+ gradient essential for EAAT2 function; ATP depletion impairs glutamate clearance
+    
+    *Conclusion:*: EAAT2 is critical for glutamate homeostasis; its impairment causes excitotoxicity independent of increased glutamate release.
+    *Limitations:*: Animal model; findings extrapolated to human neurological disorders including ME/CFS.
+
