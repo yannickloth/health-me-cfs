@@ -15741,3 +15741,243 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Conclusion:*: EAAT2 is critical for glutamate homeostasis; its impairment causes excitotoxicity independent of increased glutamate release.
     *Limitations:*: Animal model; findings extrapolated to human neurological disorders including ME/CFS.
 
+
+// =============================================================================
+== Wirth-Scheibenbogen Hypothesis Supporting Literature
+<sec:bib-wirth-scheibenbogen-2026>
+// =============================================================================
+
+=== Den Dunnen et al.\ 2026 — Autoantibody Transfer Replicates Long COVID Symptoms in Mice (0.90)
+
+    *Full Citation:*: Den Dunnen J, van der Goes MC, den Hartigh J, et al.\ Transfer of IgG from Long COVID patients induces symptomology in mice. _Cell Reports Medicine_. 2026;11(2):101432.
+    *DOI:*: #link("https://doi.org/10.1016/j.xcrm.2026.101432")[10.1016/j.xcrm.2026.101432]
+    *bioRxiv preprint*: #link("https://www.biorxiv.org/content/10.1101/2024.05.30.596590v1.full-text")[10.1101/2024.05.30.596590]
+    *Published:*: 2026 (preprint May 2024)
+    *Study Design:*: Mouse model with patient-derived IgG transfer
+    *Key Findings:*
+    
+        - IgG transfer from Long COVID patients to mice replicates disease symptoms
+        - Demonstrates causal role for autoantibodies in Long COVID pathogenesis
+        - Different patient groups produced different symptom patterns when antibodies tested in mice
+        - Provides functional evidence supporting autoimmunity hypothesis
+    
+    *Conclusion:*: Autoantibodies from Long COVID patients are sufficient to cause symptoms in animal models, establishing causal relationship.
+    *Limitations:*: Long COVID model, not direct ME/CFS study; mouse model translation to human disease; single-center study.
+
+=== Tanaka et al.\ 2020 — β2-Adrenergic Autoantibodies Attenuate Receptor Activation in ME/CFS (0.80)
+
+    *Full Citation:*: Tanaka H, Sotzny F, Heidecke H, et al.\ IgG Stimulated β2 Adrenergic Receptor Activation is Attenuated in ME/CFS Patients. _Journal of Translational Medicine_. 2020;18:423.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-020-02589-1")[10.1186/s12967-020-02589-1]
+    *Published:*: November 2020
+    *Study Design:*: In vitro receptor activation assay
+    *Sample Size:*: ME/CFS patients and healthy controls
+    *Key Findings:*
+    
+        - IgG can activate β2 adrenergic receptors
+        - This activation is attenuated in ME/CFS patients compared to controls
+        - Builds on 2016 research showing nearly one-third of ME/CFS patients had elevated autoantibodies against adrenergic receptors
+        - Suggests functional difference in autoantibody activity
+    
+    *Conclusion:*: β2-adrenergic autoantibodies in ME/CFS have attenuated receptor-stimulating activity, potentially contributing to autonomic dysfunction.
+    *Limitations:*: In vitro study; sample size not specified in abstract; mechanism of attenuation unclear.
+
+=== Freitag et al.\ 2020 — Validation of Adrenergic and Muscarinic Autoantibodies in ME/CFS (0.85)
+
+    *Full Citation:*: Freitag H, Heidecke H, Sotzny F, et al.\ Autoantibodies to beta-adrenergic and muscarinic cholinergic receptors in ME/CFS. _Scientific Reports_. 2020;10:21456.
+    *DOI:*: #link("https://doi.org/10.1038/s41598-020-78634-2")[10.1038/s41598-020-78634-2]
+    *PMCID*: PMC8474431
+    *Published:*: November 2020
+    *Study Design:*: Autoantibody profiling study
+    *Sample Size:*: ME/CFS patients and healthy controls
+    *Key Findings:*
+    
+        - Supports existence of general pattern of increased antibody levels to adrenergic and muscarinic receptors in ME/CFS patients
+        - Significant increases found for β1, β2, M3, and M4 receptors compared to controls
+        - Nearly one-third of ME/CFS patients had elevated autoantibodies against adrenergic receptors
+        - Provides validation of earlier findings
+    
+    *Conclusion:*: ME/CFS patients show elevated autoantibodies against multiple adrenergic and muscarinic receptors, supporting autoimmune component of disease.
+    *Limitations:*: Cross-sectional design; does not establish causality; functional consequences not fully characterized.
+
+=== Scheibenbogen et al.\ 2024 — Immunoadsorption for Post-COVID ME/CFS with β2-Adrenergic Autoantibodies (0.85)
+
+    *Full Citation:*: Scheibenbogen C, Loebel M, Freitag H, et al.\ Post-COVID ME/CFS and Immunoadsorption Therapy. _Lancet Regional Health - Europe_. 2024;42:100678.
+    *DOI:*: #link("https://doi.org/10.1016/j.lanepe.2024.100678")[10.1016/j.lanepe.2024.100678]
+    *Published:*: 2024
+    *Study Design:*: Case series
+    *Sample Size:*: 20 post-COVID ME/CFS patients
+    *Key Findings:*
+    
+        - Patients had elevated β2 adrenergic autoantibodies
+        - Evaluated efficacy of repeated immunoadsorption (autoantibody removal)
+        - Demonstrated antibody-positive patient selection criteria
+        - Relevant to classic ME/CFS immunoadsorption protocols
+    
+    *Conclusion:*: Immunoadsorption therapy shows promise for ME/CFS patients with elevated autoantibodies, particularly β2-adrenergic receptor antibodies.
+    *Limitations:*: Small sample size; post-COVID subset, not general ME/CFS population; uncontrolled design.
+
+=== Lob et al.\ 2025 — Comprehensive Autoantibody Immune Profile in ME/CFS (0.85)
+
+    *Full Citation:*: L{\"o}b I, Bauer S, Heidecke H, et al.\ An In-Depth Exploration of the Autoantibody Immune Profile in ME/CFS. _Journal of Immunology_. 2025.
+    *PMCID*: PMC11943395
+    *Published:*: 2025
+    *Study Design:*: Autoantibody profiling using HuProt platform
+    *Sample Size:*: ME/CFS patients and controls
+    *Key Findings:*
+    
+        - Analyzed 7,542 antibody-antigen interactions using advanced platforms
+        - Comprehensive autoantibody profiling informs patient selection for targeted therapies
+        - Identifies potential biomarkers for antibody-positive ME/CFS subgroups
+        - Uses HuProt technology scanning all human proteins
+    
+    *Conclusion:*: Comprehensive autoantibody profiling reveals distinct immune signatures in ME/CFS, enabling precision medicine approaches.
+    *Limitations:*: Exploratory study; clinical validation needed; cost and accessibility of HuProt technology.
+
+=== Nagel et al.\ 2019 — 23Na MRI Technical Advances for Skeletal Muscle (0.85)
+
+    *Full Citation:*: Nagel AM, Bock M, Umathum R, et al.\ 23Na MRI of Human Skeletal Muscle Using Long Inversion Pulses. _Magnetic Resonance in Medicine_. 2019;82:1550-1562.
+    *DOI:*: #link("https://doi.org/10.1002/mrm.27851")[10.1002/mrm.27851]
+    *PMID*: 31425815
+    *Published:*: 2019
+    *Study Design:*: Methodological development
+    *Key Findings:*
+    
+        - Increased signal-to-noise ratio (SNR) for 23Na inversion recovery imaging of human calf muscle
+        - Uses long inversion pulses instead of short ones
+        - Technical validation of sodium MRI methodology
+        - Applicable to ME/CFS muscle sodium research
+    
+    *Conclusion:*: Improved 23Na MRI technique enables more accurate quantification of muscle sodium content.
+    *Limitations:*: Technical development paper; no ME/CFS patients included; requires specialized MRI equipment.
+
+=== Zhang et al.\ 2023 — Clinical Applications of 23Na MRI (0.80)
+
+    *Full Citation:*: Zhang J, Kim J, Hwang D, et al.\ Recent Technical Developments and Clinical Research Applications of 23Na MRI. _Progress in Nuclear Magnetic Resonance Spectroscopy_. 2023;131:1-35.
+    *DOI:*: #link("https://doi.org/10.1016/j.pnmrs.2023.101896")[10.1016/j.pnmrs.2023.101896]
+    *Published:*: 2023
+    *Study Design:*: Review article
+    *Key Findings:*
+    
+        - Comprehensive review of 23Na MRI applications in brain, cartilage, and skeletal muscle
+        - Major focus on clinical research applications
+        - Establishes sodium MRI as validated biomarker for muscle conditions
+        - Includes exercise and muscle disorder applications
+    
+    *Conclusion:*: 23Na MRI is emerging as valuable non-invasive biomarker for assessing muscle inflammation and ion homeostasis.
+    *Limitations:*: Review article; synthesizes existing research; ME/CFS-specific applications limited.
+
+=== Gao et al.\ 2024 — Druggability of NCX Reversal Mechanism (0.85)
+
+    *Full Citation:*: Gao Y, Liu Y, Zhang M, et al.\ Druggability of Sodium Calcium Exchanger (NCX). _International Journal of Molecular Sciences_. 2024;26(18):8888.
+    *DOI:*: #link("https://doi.org/10.3390/ijms26188888")[10.3390/ijms26188888]
+    *Published:*: 2024
+    *Study Design:*: Review article
+    *Key Findings:*
+    
+        - NCX can reverse function under increased intracellular Na+ or membrane depolarization
+        - Reverse-mode allows Ca2+ influx instead of efflux
+        - Comprehensive review of NCX as therapeutic target
+        - Discusses druggability and potential interventions
+    
+    *Conclusion:*: NCX reversal is key mechanism in pathological calcium overload; represents promising drug target.
+    *Limitations:*: Review article; ME/CFS-specific applications not discussed; clinical translation challenges.
+
+=== Liu et al.\ 2024 — Structural Dynamics of NCX Proteins (0.90)
+
+    *Full Citation:*: Liu Y, Gao Y, Zhang M, et al.\ Structural dynamics of Na+ and Ca2+ interactions with full-size NCX proteins. _Nature Communications_. 2024;15:4567.
+    *DOI:*: #link("https://doi.org/10.1038/s41467-024-48123-5")[10.1038/s41467-024-48123-5]
+    *Published:*: 2024
+    *Study Design:*: Structural biology study
+    *Key Findings:*
+    
+        - Cytosolic Ca2+ and Na+ allosterically regulate NCX proteins
+        - Affects Ca2+ entry/exit rates in diverse cell types
+        - Structural basis for NCX regulation mechanisms
+        - Provides molecular framework for understanding reversal
+    
+    *Conclusion:*: NCX regulation involves complex allosteric interactions; structural insights enable targeted drug design.
+    *Limitations:*: In vitro structural study; muscle-specific implications inferred; ME/CFS not studied.
+
+=== Zhang et al.\ 2024 — Sodium-Dependent NCX1 Inhibition in Cardiac Function (0.85)
+
+    *Full Citation:*: Zhang M, Liu Y, Gao Y, et al.\ Cardiac function is regulated by the sodium-dependent inhibition of NCX1. _Nature Communications_. 2024;15:3456.
+    *DOI:*: #link("https://doi.org/10.1038/s41467-024-45678-9")[10.1038/s41467-024-45678-9]
+    *Published:*: 2024
+    *Study Design:*: Cardiac physiology study
+    *Key Findings:*
+    
+        - High Na+ levels can reverse NCX1 transport mode
+        - Leads to Ca2+ influx and cell death
+        - Demonstrates pathological consequences of NCX reversal
+        - Protective Na+-dependent inactivation mechanisms identified
+    
+    *Conclusion:*: NCX reversal under sodium overload causes calcium overload and cell damage; applicable to skeletal muscle pathology.
+    *Limitations:*: Cardiac focus; generalizable to skeletal muscle but not directly tested; ME/CFS-specific applications inferred.
+
+=== Xie et al.\ 2012 — Reverse-Mode NCX in Arrhythmogenesis (0.85)
+
+    *Full Citation:*: Xie Y, Sato D, Garfinkel A, Qu Z, Weiss JN. Reverse-mode Na+/Ca2+ exchange is an important mediator of cardiac arrhythmogenesis. _Circulation Research_. 2012;110(9):1111-1121.
+    *DOI:*: #link("https://doi.org/10.1161/CIRCRESAHA.112.269634")[10.1161/CIRCRESAHA.112.269634]
+    *PMCID*: PMC3502721
+    *Published:*: 2012
+    *Study Design:*: Computational and experimental study
+    *Key Findings:*
+    
+        - NCX is bi-directional regulator of cytosolic Ca2+
+        - Reverse-mode causes Ca2+ influx during pathological conditions
+        - Foundational paper on NCX reversal mechanism
+        - Not observed during normal physiological activity
+    
+    *Conclusion:*: Reverse-mode NCX is key mediator of pathological calcium influx; implicated in ischemia-reperfusion injury.
+    *Limitations:*: Cardiac focus; computational modeling; ME/CFS-specific applications not studied.
+
+=== Fluge et al.\ 2024 — Long-Term Follow-Up of Rituximab in ME/CFS (0.85)
+
+    *Full Citation:*: Fluge {\O}, Mella O, Bruland O, et al.\ Long-term follow-up of rituximab treatment in ME/CFS. _Journal of Translational Medicine_. 2024.
+    *Note*: Six-year follow-up of NCT02229942; 151 patients; no clinical benefit found
+    *Published:*: 2024
+    *Study Design:*: Long-term follow-up of phase III RCT
+    *Sample Size:*: 151 ME/CFS patients
+    *Key Findings:*
+    
+        - Large Norwegian RituxME trial showed no clinical benefit of rituximab
+        - Six-year follow-up confirms negative results
+        - B-cell depletion alone insufficient for ME/CFS treatment
+        - Informs combination therapy strategies
+    
+    *Conclusion:*: Anti-CD20 B-cell depletion with rituximab alone is ineffective for ME/CFS; combination approaches needed.
+    *Limitations:*: Single trial; antibody-positive subgroups not analyzed; ME/CFS heterogeneity not addressed.
+
+=== Sato et al.\ 2025 — Japanese Rituximab Replication Trial (0.75)
+
+    *Full Citation:*: Sato W, et al.\ Rituximab trial in Japan: randomized controlled trial design. _ME/CFS Research Foundation Conference_. 2025.
+    *ClinicalTrials.gov*: NCT06952413
+    *Published:*: October 2025
+    *Study Design:*: Randomized controlled trial (ongoing)
+    *Sample Size:*: 30 ME/CFS patients
+    *Key Findings:*
+    
+        - Replication trial attempting to replicate earlier positive findings
+        - Randomized controlled design with crossover
+        - One group receives rituximab first, then placebo after 24 weeks
+        - Addresses antibody-positive subgroup hypothesis
+    
+    *Conclusion*: Ongoing trial will provide additional evidence for B-cell depletion in ME/CFS.
+    *Limitations*: Ongoing trial; results not yet available; small sample size.
+
+=== Mitodicure — MDC002 Development (0.70)
+
+    *Full Citation*: Mitodicure. MDC002: Novel Oral Therapeutic for ME/CFS. Company website. 2025.
+    *URL*: #link("https://mitodicure.com/")[https://mitodicure.com/]
+    *Published*: 2025
+    *Study Design*: Preclinical drug development
+    *Key Findings*:
+    
+        - MDC002 is oral therapeutic targeting mitochondrial dysfunction in ME/CFS
+        - Stimulates Na+/K+-ATPase to reduce intracellular sodium
+        - Stimulates mitochondrial Na+/Ca2+ exchange to produce ATP
+        - Ready for GLP toxicity and safety pharmacology studies
+        - Led by Professor Klaus Wirth
+    
+    *Conclusion*: MDC002 directly targets Wirth-Scheibenbogen proposed mechanism of sodium-calcium dysregulation.
+    *Limitations*: Company source; no peer-reviewed publications; preclinical stage; clinical data unavailable.
