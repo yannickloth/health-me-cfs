@@ -24,13 +24,23 @@ The Charité Berlin group established GPCR autoantibodies as a significant findi
     - *Daratumumab pilot (Fluge et al.\ 2025)* @Fluge2025daratumumab: Anti-CD38 therapy targeting plasma cells (the antibody factories). 10 female ME/CFS patients; *60% showed marked improvement*. SF-36 PF increased from 25.9 to 55.0 ($p$=0.002). Responders achieved near-normal function (SF-36 scores 80–95). Low baseline NK-cell count predicted non-response.
     - *BC007 case report (Hohberger 2021)* @Hohberger2021bc007: DNA aptamer neutralizing GPCR autoantibodies produced dramatic improvement in a Long COVID patient: fatigue normalized, brain fog resolved, retinal microcirculation improved within hours. However, the subsequent Phase II trial failed to show superiority over placebo at the population level.
 
-    The following sham-controlled RCTs and mechanistic studies are pending or recruiting as of April 2026:
+    The following sham-controlled RCTs and mechanistic studies have reported preliminary results or are recruiting as of May 2026:
 
-    - *IA-PACS-CFS (Charité Berlin)* @Pressler2024IAPACSCFSprotocol: NCT05710770. Double-blind, sham-controlled RCT; 2:1 allocation; n=66. Patients hospitalised 9–12 days receiving 5 IA sessions every other day. Primary endpoint: Chalder Fatigue Scale at 3 months. Completed October 2025; results pending. First sham-controlled test of IA in ME/CFS.
-    - *EXTINCT (Hannover Medical School)* @EXTINCTtrial2023: NCT05954325. Double-blind, sham-controlled RCT; n=63. Five IA sessions within 14 days. Primary endpoint: Chalder Fatigue Scale at 12 weeks. Completed September 2025; results pending. First independent-institution (non-Charité) sham-controlled IA RCT.
+    - *IA-PACS-CFS (Charité Berlin)* @Pressler2024IAPACSCFSprotocol: NCT05710770. Double-blind, sham-controlled RCT; 2:1 allocation; n=65 (45 IA, 20 sham). Patients hospitalised 9–12 days receiving 5 IA sessions every other day. Primary endpoint: Chalder Fatigue Scale at 60 days. *Preliminary results presented at Berlin ME/CFS conference (May 2026)*: *No statistically significant difference between treatment and placebo groups* on Chalder Fatigue Scale. Criticism emerged during conference: the trial did not specifically recruit subjects with confirmed autoantibodies, potentially diluting treatment effect. Some participants showed substantial benefit in preliminary data, prompting calls for subgroup analysis focusing on antibody-positive patients @Rucker2026WirthScheibenbogen. This subgroup analysis has not yet been conducted.
+
+    - *Charité antibody-positive case series (May 2026)*: Presented at Berlin conference as contrast to IA-PACS-CFS. 15 ME/CFS patients with detectable autoantibodies underwent immunoadsorption. *7 of 15 showed marked improvement* in overall condition. However, the study lacked a control group, preventing definitive conclusions about efficacy vs. placebo @Rucker2026WirthScheibenbogen.
+
+    - *EXTINCT (Hannover Medical School)* @EXTINCTtrial2023: NCT05954325. Double-blind, sham-controlled RCT; n=63. Five IA sessions within 14 days. Primary endpoint: Chalder Fatigue Scale at 12 weeks. Completed September 2025; **results not yet released** as of May 2026 @Rucker2026WirthScheibenbogen. First independent-institution (non-Charité) sham-controlled IA RCT.
+
+    - *University Medical Center Mainz trial*: N=40 Long COVID patients receiving immunoadsorption. **Results not yet released** as of May 2026 @Rucker2026WirthScheibenbogen.
+
+    - *Hannover COVID-associated ME trial*: N=60 patients with COVID-associated ME. **Results not yet released** as of May 2026 @Rucker2026WirthScheibenbogen.
+
+    - *University of Amsterdam trial*: **Still recruiting** as of May 2026 @Rucker2026WirthScheibenbogen.
+
     - *IMPACT (Charité Berlin)* @IMPACTtrial2026: NCT07529197. Prospective observational; n=50. Five outpatient IA sessions on days 1, 2, 4, 6, and 8. Primary endpoint: SF-36 Physical Function at 8 weeks; novel secondary endpoint: memory B-cell dynamics. Recruiting since March 2026. First study to systematically measure memory B-cell changes after IA—addressing the mechanistic question of why some patients relapse (memory B-cell repopulation and re-synthesis of autoantibodies).
 
-    Together, IA-PACS-CFS and EXTINCT will be the first placebo-controlled tests of immunoadsorption in ME/CFS and are expected to resolve whether the 70% open-label response rate reflects genuine efficacy or non-specific effects of an invasive procedure.
+    Together, the completed sham-controlled trials present a mixed picture: the negative IA-PACS-CFS result challenges the autoantibody hypothesis at the population level, but the methodological criticism (lack of antibody-positive preselection) and the positive antibody-positive case series suggest a *subgroup-specific effect* may exist. The pending results from EXTINCT, Mainz, and Hannover trials will provide critical additional data. If all sham-controlled trials are negative, the autoantibody hypothesis faces a serious challenge comparable to the rituximab-to-RituxME collapse. If positive in antibody-positive subgroups, they would validate precision-medicine approaches targeting this mechanism.
 
 ==== Methodological Controversy
 
