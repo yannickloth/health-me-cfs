@@ -206,3 +206,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | shared-mechanisms-fibromyalgia-mecfs-longcovid | [subtrees/shared-mechanisms-fibromyalgia-mecfs-longcovid.md](subtrees/shared-mechanisms-fibromyalgia-mecfs-longcovid.md) | 2026-05-12 | 4 | 0 | ⬜ stub | —
 | cryotherapy-sleep | [subtrees/cryotherapy-sleep.md](subtrees/cryotherapy-sleep.md) | 2026-05-13 | 2 | 2 | ✅ integrated | —
 | kynurenine-excitotoxicity | [subtrees/kynurenine-excitotoxicity.md](subtrees/kynurenine-excitotoxicity.md) | 2026-05-14 | 70 | 0 | ⬜ pending | —
+| q10-ubiquinol | [subtrees/q10-ubiquinol.md](subtrees/q10-ubiquinol.md) | 2026-05-17 | 72 | 5 | ⬜ pending | —

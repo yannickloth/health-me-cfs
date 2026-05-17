@@ -219,9 +219,11 @@ Given the evidence for energy metabolism dysfunction in ME/CFS (Chapter @ch:ene
 
 *Evidence.* Moderate. Multiple small studies show benefit in ME/CFS @Maes2009CoQ10 (Castro-Marrero 2015: n=73, CoQ10+NADH combination) and fibromyalgia @Cordero2013. A 2022 systematic review and meta-analysis of 13 RCTs (n=1,126) found CoQ10 significantly reduced fatigue across several chronic conditions (cancer fatigue, MS, fibromyalgia, cardiovascular disease; not ME/CFS-specific) @Tsai2022CoQ10fatigue.
 
-*Forms.*
+#achievement(title: [Strong Meta-Analysis Evidence Base])[
+The Tsai 2022 meta-analysis provides high-quality evidence that CoQ10 reduces fatigue across multiple chronic conditions. The dose-response relationship (coefficient = -0.0017 per mg, p < 0.001) and duration-response relationship (coefficient = -0.0042 per day, p = 0.007) enable evidence-based dosing decisions. CoQ10-only formulations were more effective than CoQ10 compounds in the analysis.
+]
 
-    - *Ubiquinone:* Oxidized form; must be converted to ubiquinol
+
     - *Ubiquinol:* Reduced (active) form; better absorbed, especially over age 40; more expensive
 
 *Dosing.*
