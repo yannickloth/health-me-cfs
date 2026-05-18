@@ -207,3 +207,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | cryotherapy-sleep | [subtrees/cryotherapy-sleep.md](subtrees/cryotherapy-sleep.md) | 2026-05-13 | 2 | 2 | ✅ integrated | —
 | kynurenine-excitotoxicity | [subtrees/kynurenine-excitotoxicity.md](subtrees/kynurenine-excitotoxicity.md) | 2026-05-14 | 70 | 0 | ⬜ pending | —
 | q10-ubiquinol | [subtrees/q10-ubiquinol.md](subtrees/q10-ubiquinol.md) | 2026-05-17 | 72 | 5 | ⬜ pending | —
+| cd4-tcell-innate | [subtrees/cd4-tcell-innate.md](subtrees/cd4-tcell-innate.md) | 2026-05-18 | 5 | 5 | ✅ integrated | —
