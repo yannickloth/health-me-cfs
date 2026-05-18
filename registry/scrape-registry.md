@@ -48,6 +48,7 @@ Prevents re-processing of already-integrated content.
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11163340/ | pubmed/pmc | 2026-05-02 | 2026-05-02 | bib/appendix-h — Ogutlu2022ADHDmito — mitochondrial dysfunction ADHD narrative review |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.7554%2FeLife.07370 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/bib — Cahalan2015 — Piezo1 RBC volume KCa3.1 |
 | https://pubmed.ncbi.nlm.nih.gov/?term=10.1126%2Fscitranslmed.aat9892 | pubmed | 2026-04-13 | 2026-04-13 | ch14h/ch08/bib — Szczot2018 — Piezo2 allodynia proprioception |
+| https://www.science.org/doi/full/10.1126/sciadv.aed0028 | science.org | 2026-05-18 | — | bib/appendix-h/integration-guide — Hackstein2024 — CD161+ CD56+ CD4 T cells innate-like immunity gut/liver CMV |
 | https://onlinelibrary.wiley.com/doi/10.1080/17461391.2018.1551937 | wiley | 2026-05-13 | — | bib/appendix-h/integration-guide — Douzi2018SleepCryotherapy — WBC sleep quality healthy men |
 | https://pubmed.ncbi.nlm.nih.gov/37230457/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Kujawski2023CBSCFS — WBC in CFS patients |
 | https://pubmed.ncbi.nlm.nih.gov/32361157/ | pubmed | 2026-05-13 | — | bib/appendix-h/integration-guide — Li2021ThermoregulationCFS — Thermoregulation dysfunction CFS |
