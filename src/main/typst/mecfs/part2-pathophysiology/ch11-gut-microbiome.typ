@@ -150,7 +150,7 @@ Does gut dysbiosis-mediated reduction in enterochromaffin serotonin release impa
 ] <oq:gut-serotonin-vagal>
 
 #speculation(title: [The Gut-Vagal-Aging Triad: Butyrate Deficiency as Parasympathetic Aging Accelerant])[
-*Certainty: 0.40.* Three independently documented ME/CFS findings converge: (1) butyrate-producing bacteria are deficient (Achievement @ach:butyrate-deficiency); (2) vagal tone is reduced (multiple HRV studies, Chapter @ch:cardiovascular); (3) biological aging is accelerated (Rajeevan et al.\ 2018, telomeres 10--20 years shorter @Rajeevan2018telomere). The ANS-aging framework @Errico2025ANSaging @Giunta2023ANSinflamaging provides the mechanistic link: butyrate activates vagal afferent C-fibres via the enterochromaffin cell--serotonin--5-HT#sub[3]R pathway (described above). Butyrate deficiency therefore directly reduces vagal afferent input, which means reduced cholinergic anti-inflammatory pathway (CAP) activation, less $alpha$7-nAChR-mediated NF-$kappa$B suppression, and acceleration of downstream aging hallmarks.
+*Certainty: 0.40.* Three independently documented ME/CFS findings converge: (1) butyrate-producing bacteria are deficient (Achievement @ach:butyrate-deficiency); (2) vagal tone is reduced (multiple HRV studies, Chapter @ch:cardiovascular); (3) biological aging is accelerated (Rajeevan et al.\ 2018, telomeres 10--20 years shorter @Rajeevan2018telomere). The ANS-aging framework @Errico2025ANSaging @Giunta2023ANSinflamaging provides the mechanistic link: butyrate activates vagal afferent C-fibres via the enterochromaffin cell--serotonin--5-HT#sub[3]R pathway @Barton2025 (described above). Butyrate deficiency therefore directly reduces vagal afferent input, which means reduced cholinergic anti-inflammatory pathway (CAP) activation, less $alpha$7-nAChR-mediated NF-$kappa$B suppression, and acceleration of downstream aging hallmarks.
 
 Simultaneously, butyrate is an HDAC inhibitor---its deficiency removes epigenetic brakes on senescence-associated gene expression (connecting to Chapter @ch:genetics-epigenetics Section @sec:epigenetics). The triad forms a self-reinforcing loop: gut dysbiosis $arrow.r$ butyrate loss $arrow.r$ vagal deafferentation $arrow.r$ sympathetic dominance $arrow.r$ intestinal barrier dysfunction (via cortisol elevation, reduced motility) $arrow.r$ more dysbiosis. Each node independently accelerates aging; together they compound.
 
@@ -189,6 +189,19 @@ This provides direct evidence of intestinal barrier dysfunction and bacterial pr
 The bacterial translocation finding (2023 study) is consistent with earlier publications by Maes and colleagues showing elevated LPS and immune activation markers. However, the research groups overlap substantially, limiting the independence of replication. Additionally, the study measured zonulin using a commercial ELISA kit; recent methodological reviews have raised concerns about zonulin assay specificity, as some kits may cross-react with complement C3 @GutPermeability2023. Independent replication with validated permeability assays (e.g., lactulose/mannitol ratio) would strengthen these findings.
 ]
 
+#warning-env(title: [Limited Data on Tissue-Resident Lymphocytes in ME/CFS Gut])[
+Multiple studies document intestinal dysbiosis, increased permeability ("leaky gut"), and compromised GI-barrier integrity in ME/CFS, including elevated zonulin, LPS, and sCD14 @GutPermeability2023. This gut-immune axis disruption suggests immune dysregulation and chronic inflammation. However, limited data exist on tissue-resident lymphocyte phenotypes in ME/CFS gut.
+
+The depletion of CD161+ CD56+ CD4 T cells observed in inflammatory bowel disease (78% reduction in colon tissue) @Hackstein2024 suggests a similar pattern may occur in ME/CFS, but this remains untested. CD161+ CD56+ CD4 T cells are tissue-resident effector-memory cells enriched in the ileum and liver that produce IL-17A and IL-22—critical for mucosal barrier integrity @Hackstein2024—and exhibit innate-like effector features including NK receptors (NKp80, NKG2D, NKG7) and granzymes @Hackstein2024. Their depletion could contribute to impaired barrier maintenance and persistent inflammation.
+
+*Clinical Implications.* Understanding tissue-resident lymphocyte phenotypes in ME/CFS gut could:
+- Reveal whether barrier dysfunction is driven by cellular depletion (similar to IBD) or other mechanisms
+- Provide biomarker potential: peripheral blood CD161+ CD56+ CD4 T cell frequency correlates with ileal levels in healthy donors
+- Guide therapeutic strategies targeting mucosal immunity restoration
+
+*Research Gaps.* No direct studies of CD161+ CD56+ CD4 T cells in ME/CFS patients exist. Limited data on intestinal immune cell phenotyping in ME/CFS gut. Gut-immune axis studies focus on microbiome composition, not tissue-resident lymphocyte populations.
+] <warn:gut-lymphocyte-gap>
+
 *Severity Stratification: Critical Knowledge Gap.*
 
 While baseline gut barrier dysfunction has been established in ME/CFS populations @GutPermeability2023, a critical question remains unanswered: *Do severe/bedbound patients exhibit higher baseline permeability markers than mild/moderate patients?*
@@ -196,7 +209,7 @@ While baseline gut barrier dysfunction has been established in ME/CFS population
 The Maes et al.\ study @GutPermeability2023 did not stratify participants by disease severity, leaving uncertainty about whether zonulin, LPS, and sCD14 elevations correlate with functional impairment. This gap is significant because severity-dependent gut barrier dysfunction would suggest distinct pathophysiological mechanisms and treatment priorities for different patient subgroups.
 
 #hypothesis(title: [Severity-Dependent Baseline Gut Permeability])[
-*Certainty: 0.50.* The individual supporting observations (CBF reduction by severity, cytokine-severity correlations, reduced cortisol in severe patients, POTS comorbidity) are moderately well-established, but their _integration_ into a unified severity-stratified permeability model has not been directly tested. Certainty is set at 0.50 rather than the originally proposed 0.65 to reflect this untested integration.
+*Certainty: 0.50.* The individual supporting observations (CBF reduction by severity @VanCampen2020SeverityCPET, cytokine-severity correlations @Montoya2017, reduced cortisol in severe patients @Komaroff2021severe, POTS comorbidity @Komaroff2021severe) are moderately well-established, but their _integration_ into a unified severity-stratified permeability model has not been directly tested. Certainty is set at 0.50 rather than the originally proposed 0.65 to reflect this untested integration.
 
 Severe ME/CFS patients likely exhibit _higher_ baseline permeability markers than mild/moderate patients, mediated by four convergent mechanisms:
 
@@ -251,6 +264,46 @@ To illustrate the distinction between episodic and chronic barrier dysfunction p
 *Patient B (Bedbound, Severe):* A 42-year-old man with severe ME/CFS is bedbound 22+ hours daily. He experiences continuous baseline symptoms (severe fatigue, cognitive impairment, nausea) with micro-exacerbations triggered by minimal activities such as 10 minutes of reading, sitting upright for meals, or brief conversations. No intentional exercise is possible. After wheat elimination, he reports a gradual reduction in symptom “noise floor” over 12–16 weeks—baseline nausea decreases, cognitive fog lightens slightly—but he remains functionally bedbound, consistent with chronic baseline permeability reduction rather than prevention of discrete exercise-induced LPS spikes.
 
 These vignettes align with the Severity-Dependent Barrier Dysfunction Model: Patient A exhibits episodic barrier stress with recovery capacity, while Patient B demonstrates chronic sustained barrier compromise from minimal daily activities combined with impaired repair mechanisms.
+
+#hypothesis(title: [Tissue-Resident T Cell Dysfunction Links Gut and Systemic Immunity in ME/CFS])[
+*(Certainty: 0.50 — Supported by IBD depletion pattern, gut-immune axis dysfunction in ME/CFS, and CD161+ CD56+ CD4 T cell biology; no direct ME/CFS studies yet.)*
+
+CD161+ CD56+ CD4 T cells, enriched in the ileum and liver with tissue-resident properties (CD103+, CD69+, high CXCR6), may represent a critical population linking gut integrity to systemic immunity in ME/CFS. Depletion of these cells could contribute to: (1) impaired mucosal barrier maintenance (IL-17A/IL-22 production), (2) reduced antiviral surveillance at barrier sites (CMV specificity), and (3) systemic immune dysregulation via altered cytokine production.
+
+*Mechanistic Framework.*
+
+CD161+ CD56+ CD4 T cells integrate three critical functions in mucosal immunity:
+
+1. *Barrier maintenance*: Produce IL-17A and IL-22, essential for epithelial tight junction integrity and antimicrobial peptide production
+2. *Antiviral surveillance*: Enriched in CMV-specific TCRs and responses, providing localized viral defense at barrier sites
+3. *Innate-like responsiveness*: High IL-18 receptor expression enables rapid response to inflammatory cytokines without requiring classical antigen presentation
+
+In ME/CFS, depletion of this population could create a bidirectional gut-systemic dysfunction loop:
+
+- *Gut side*: Reduced IL-17A/IL-22 → impaired barrier integrity → increased permeability → LPS translocation → systemic inflammation
+- *Systemic side*: Exhausted innate-like T cells → impaired antiviral surveillance → herpesvirus reactivation (CMV, EBV) → chronic immune activation → gut epithelial stress
+
+*Blood-Ileum Correlation as Biomarker.*
+
+Peripheral blood CD161+ CD56+ CD4 T cell frequency correlates with ileal levels in healthy donors, offering a less invasive biomarker for intestinal tissue-resident immunity. If this correlation holds in ME/CFS, blood measurements could guide therapeutic interventions targeting gut-immune restoration.
+
+*Testable Predictions.*
+
+- ME/CFS patients show reduced ileal CD161+ CD56+ CD4 T cell frequency compared to healthy controls (flow cytometry on biopsies)
+- Blood CD161+ CD56+ CD4 T cell frequency correlates with ileal levels in ME/CFS, providing less invasive biomarker
+- Reduced IL-17A/IL-22 production upon IL-12/IL-18 stimulation in ME/CFS CD161+ CD56+ CD4 T cells
+- Depletion severity correlates with intestinal permeability markers (zonulin, LPS) and systemic inflammation (IL-6, TNF)
+- ME/CFS patients with CMV seropositivity show altered CMV-specific TCR enrichment within CD161+ CD56+ CD4 T cell population
+
+*Relationship to Existing Hypotheses.*
+
+This hypothesis bridges three existing ME/CFS frameworks:
+- *Severity-Dependent Barrier Dysfunction Model* (Hypothesis @hyp:severity-gut-permeability): Tissue-resident T cell depletion could be the cellular mechanism driving impaired barrier repair in severe patients
+- *T Cell Exhaustion* (Chapter @ch:immune-dysfunction Section @sec:t-cells): Innate-like T cells may exhibit exhaustion markers (PD-1, TIM-3, TOX) similar to CD8+ T cells
+- *Viral Persistence* (Chapter @ch:immune-dysfunction): CMV-specific innate-like CD4 T cell expansion may be dysregulated in ME/CFS, contributing to chronic immune activation
+
+*Limitations.* No direct studies of CD161+ CD56+ CD4 T cells in ME/CFS patients. Limited data on intestinal immune cell phenotyping in ME/CFS gut. The blood-ileum correlation demonstrated in healthy donors requires validation in ME/CFS.
+] <hyp:tissue-resident-systemic-link>
 
 *Mechanism of Barrier Dysfunction.*
 

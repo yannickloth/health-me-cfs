@@ -15981,3 +15981,153 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     
     *Conclusion*: MDC002 directly targets Wirth-Scheibenbogen proposed mechanism of sodium-calcium dysregulation.
     *Limitations*: Company source; no peer-reviewed publications; preclinical stage; clinical data unavailable.
+
+// =============================================================================
+// CD4 T Cell Innate-Like Immunity
+// =============================================================================
+
+=== Hackstein et al.\ 2024 — Innate-Like CD4 T Cells in Gut and Liver (0.75)
+
+    *Full Citation*: Hackstein T, Karlsson C, Bi M, et al.\ Intestinal resident effector–memory CD4 T cells on the adaptive-innate spectrum comprise IL-18 reactivity and adaptive CMV specificity. _Science Advances_. 2024;10(48):ead0028.
+    *DOI*: #link("https://doi.org/10.1126/sciadv.aed0028")[10.1126/sciadv.aed0028]
+    *PMID*: 38554919
+    *Published*: 2024
+    *Study Design*: Multi-omics tissue analysis (flow cytometry + scCITE-seq + scTCR-seq)
+    *Sample Size*: n=23 organ donors + n=14 colonoscopy patients
+    *Key Findings*:
+
+        - CD161+ CD56+ CD4 T cells enriched in ileum/liver (3±3% of non-MAIT T cells in ileum)
+        - Highly polyfunctional TH1/TH17/22 cells producing TNF, IFN-γ, IL-17A, IL-22
+        - Innate-like effector features: NKp80, NKG2D, NKG7, granzyme K, granzyme A
+        - Tissue-resident phenotype: CD103+, CD69+, high CXCR6, high CCR6, CCR5, CCR9
+        - Transcriptional program: high IL7RA, CXCR3, TBX21, EOMES, GZMK, GZMA, LYAR
+        - Low proliferation markers: low TSHZ2, TIAM1
+        - Expanded in CMV-seropositive individuals; enriched in CMV-specific TCRs
+        - Peripheral blood frequency correlates with ileal levels (biomarker potential)
+        - Depleted 78% in IBD colon tissue
+        - Two hepatic subsets: T_mic1 (TH1-like) and T_mic17 (TH17-like)
+
+    *Conclusion*: CD161+ CD56+ CD4 T cells are tissue-resident effector-memory cells with innate-like properties, enriched in gut/liver, expanded by CMV, and critical for barrier maintenance.
+    *Limitations*: Healthy donor cohort; no ME/CFS patients; gut samples limited to IBD; single study; blood-ileum correlation needs ME/CFS validation.
+    *ME/CFS Relevance*: Provides mechanism linking persistent viral infection (CMV/EBV) to tissue-resident innate-like T cell expansion; suggests potential depletion in ME/CFS gut (untested).
+
+=== Iu et al.\ 2024 — T Cell Exhaustion in ME/CFS (0.70)
+
+    *Full Citation*: Iu DS, Maya J, Vu LT, Fogarty EA, McNairn AJ, Ahmed F, Franconi CJ, Munn PR, Grenier JK, Hanson MR, Grimson A. Transcriptional reprogramming primes CD8+ T cells toward exhaustion in Myalgic encephalomyelitis/chronic fatigue syndrome. _Proceedings of the National Academy of Sciences_. 2024;121(50):e2415119121.
+    *DOI*: #link("https://doi.org/10.1073/pnas.2415119121")[10.1073/pnas.2415119121]
+    *PMID*: 39621903
+    *PMCID*: PMC11648872
+    *Published*: 2024
+    *Study Design*: Multi-omics (scRNA-seq + RNA-seq + ATAC-seq) + flow cytometry validation
+    *Sample Size*: ME/CFS n=[unspecified] + controls
+    *Key Findings*:
+
+        - Upregulation of exhaustion-associated transcription factors (TOX, EOMES)
+        - Altered chromatin landscape in ME/CFS T cells
+        - Metabolic reprogramming consistent with exhausted immune cell state
+        - Higher frequency of exhaustion markers by flow cytometry
+        - CD8+ T cell effector memory subsets most affected
+        - Certain innate T cells displayed pronounced dysregulation
+        - T cells epigenetically predisposed toward terminal exhaustion
+        - Exhaustion markers upregulated following exercise (symptom provocation)
+
+    *Conclusion*: T cell exhaustion is a component of ME/CFS pathophysiology; suggests therapeutic potential for checkpoint blockade, metabolic interventions, or chronic viral infection drugs.
+    *Limitations*: CD8+ focus; limited CD4+ analysis; unspecified ME/CFS sample size; single study; cross-sectional design.
+    *ME/CFS Relevance*: Direct evidence of T cell exhaustion; parallels Hackstein findings (innate-like T cell involvement); suggests CD161+ CD56+ CD4 T cells may be exhausted in ME/CFS.
+
+=== Mandarano et al.\ 2019 — Altered T Cell Metabolism in ME/CFS (0.60)
+
+    *Full Citation*: Mandarano AH, Maya J, Giloteaux L, Peterson DL, Maynard M, Gottschalk CG, Hanson MR. Myalgic encephalomyelitis/chronic fatigue syndrome patients exhibit altered T cell metabolism and cytokine associations. _PLOS ONE_. 2019;14(11):e0215282.
+    *DOI*: #link("https://doi.org/10.1371/journal.pone.0215282")[10.1371/journal.pone.0215282]
+    *PMID*: 31830003
+    *PMCID*: PMC6852877
+    *Published*: 2019
+    *Study Design*: Metabolic analysis of T cells
+    *Sample Size*: n=53 ME/CFS, n=45 controls
+    *Key Findings*:
+
+        - Altered T cell metabolism in ME/CFS (CD4+ and CD8+ subsets)
+        - Significant differences in metabolic profiles between patients and controls
+        - Correlations between T cell metabolism and plasma cytokine abundance
+        - Immunometabolic dysfunction in ME/CFS
+
+    *Conclusion*: ME/CFS involves metabolic reprogramming of T cells, potentially contributing to immune dysfunction.
+    *Limitations*: Cross-sectional design; metabolic analysis only; limited subset resolution; single study.
+    *ME/CFS Relevance*: Parallels Hackstein findings (metabolic alterations in innate-like T cells: LYAR, selenoamino acid metabolism); supports immunometabolic dysfunction hypothesis.
+
+=== Maya et al.\ 2023 — Fatty Acid Oxidation in Lymphocytes (0.60)
+
+    *Full Citation*: Maya J, Leddy SM, Gottschalk CG, Peterson DL, Hanson MR. Altered Fatty Acid Oxidation in Lymphocyte Populations of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Journal of Translational Medicine_. 2023;21:642.
+    *DOI*: #link("https://doi.org/10.1186/s12967-023-04458-5")[10.1186/s12967-023-04458-5]
+    *PMID*: 37569313
+    *PMCID*: PMC10399642
+    *Published*: 2023
+    *Study Design*: Metabolic analysis of lymphocyte populations
+    *Sample Size*: [unspecified]
+    *Key Findings*:
+
+        - Altered fatty acid oxidation in lymphocyte populations of ME/CFS
+        - Metabolic dysfunction in immune cells
+        - Consistent with immunometabolic impairment
+
+    *Conclusion*: ME/CFS involves metabolic dysfunction in lymphocyte populations, including altered fatty acid oxidation.
+    *Limitations*: Limited lymphocyte subset resolution; unspecified sample size; single study.
+    *ME/CFS Relevance*: Supports metabolic reprogramming in ME/CFS immune cells; parallels Hackstein findings (selenoamino acid metabolism alterations).
+
+=== Lerner et al.\ 2020 — EBV Pathogenesis in ME/CFS (0.65)
+
+    *Full Citation*: Lerner AM and others. Epstein-Barr Virus and the Origin of Myalgic Encephalomyelitis or Chronic Fatigue Syndrome. _Frontiers in Immunology_. 2020;11:828.
+    *DOI*: #link("https://doi.org/10.3389/fimmu.2020.00828")[10.3389/fimmu.2020.00828]
+    *PMID*: 32292323
+    *PMCID*: PMC7109618
+    *Published*: 2020
+    *Study Design*: Comprehensive review
+    *Key Findings*:
+
+        - EBV infections considered triggering factors for ME/CFS
+        - Comprehensive review of EBV's role in ME/CFS pathogenesis
+        - Immunopathobiology of EBV infection in ME disease
+        - EBV-specific B- and T-cell responses deficient in ME/CFS
+
+    *Conclusion*: EBV is a major triggering factor for ME/CFS; viral persistence contributes to chronic immune dysfunction.
+    *Limitations*: Review article; not primary data; heterogeneous study quality; limited mechanistic evidence.
+    *ME/CFS Relevance*: Provides viral trigger context for Hackstein findings (CMV-specific TCR enrichment in innate-like CD4 T cells); supports persistent viral infection hypothesis.
+
+=== Multiple Sources — Herpesvirus Triggers in ME/CFS (0.55)
+
+    *Full Citation*: Multiple sources (2020-2026). Cytomegalovirus, Epstein–Barr virus, and human herpesvirus–6 associations with myalgic encephalomyelitis/chronic fatigue syndrome: a review. _Virology Journal_. 2020;17:61.
+    *DOI*: #link("https://doi.org/10.1186/s12985-020-01349-w")[10.1186/s12985-020-01349-w]
+    *PMID*: 32692674
+    *PMCID*: PMC7687071
+    *Published*: 2020
+    *Study Design*: Review of observational studies
+    *Key Findings*:
+
+        - EBV, HHV-6, and CMV infections considered ME/CFS triggering factors
+        - Active EBV infections found in ME/CFS patients
+        - Deficient EBV-specific B- and T-cell responses in ME/CFS
+        - ME/CFS patients respond normally to other viruses/bacteria (specific EBV deficiency)
+        - Many cases begin after acute viral infections (infectious mononucleosis)
+
+    *Conclusion*: Multiple herpesviruses (EBV, CMV, HHV-6) are implicated as ME/CFS triggers; specific viral memory T cell dysfunction may contribute to pathophysiology.
+    *Limitations*: Heterogeneous observational studies; small sample sizes; inconsistent methodology; limited replication.
+    *ME/CFS Relevance*: Reinforces viral persistence hypothesis; parallels Hackstein findings (CMV-specific innate-like T cell expansion); suggests specific viral memory dysfunction in ME/CFS.
+
+=== Multiple Sources — Gut-Immune Axis in ME/CFS (0.60)
+
+    *Full Citation*: Multiple sources (2020-2026). Gut Microbiome and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Current Evidence and Therapeutic Implications.
+    *Published*: 2020-2026
+    *Study Design*: Multiple observational studies and reviews
+    *Key Findings*:
+
+        - Intestinal dysbiosis triggers increased intestinal permeability and immune dysregulation in ME/CFS
+        - Reduced microbial diversity in ME/CFS patients
+        - "Leaky gut" and barrier dysfunction consistent findings
+        - Heightened innate immunity and chronic inflammation
+        - Aberrant cytokine production and signaling
+        - Compromised GI-barrier consistent with dysbiosis in ME/CFS
+        - Gut-brain-immune axis hypothesis: microbiome, barrier dysfunction, immune response interactions
+
+    *Conclusion*: Gut-immune axis disruption is a component of ME/CFS pathophysiology, involving dysbiosis, barrier dysfunction, and chronic inflammation.
+    *Limitations*: Heterogeneous studies; limited tissue-resident lymphocyte data; causality not established; treatment evidence limited.
+    *ME/CFS Relevance*: Provides gut-immune axis context for Hackstein tissue-resident CD4 T cell findings; suggests CD161+ CD56+ CD4 T cells may be depleted in ME/CFS gut (similar to IBD pattern).

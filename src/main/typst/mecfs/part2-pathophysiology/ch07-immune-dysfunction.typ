@@ -101,6 +101,20 @@ Some evidence suggests that ME/CFS patients may harbor ongoing low-level viral r
 *Viral Latency and Reactivation.*
 Herpesviruses (EBV, HHV-6, CMV) establish lifelong latency following primary infection and can reactivate under conditions of immune stress. ME/CFS patients show elevated antibody titers to these viruses, suggesting frequent reactivation. However, antibody elevation alone cannot distinguish between active replication and immune memory.
 
+#observation(title: [Herpesvirus Triggers in ME/CFS])[
+*Certainty: 0.65.* Multiple herpesviruses (EBV, CMV, HHV-6) are implicated as triggering factors for ME/CFS based on observational evidence and comprehensive immunopathobiology reviews. EBV-specific B- and T-cell responses are deficient in ME/CFS, while responses to other pathogens remain normal, suggesting specific viral memory dysfunction. CMV-seropositive individuals show expansion of CMV-specific innate-like CD4 T cells (CD161+ CD56+), providing a mechanistic link between persistent viral infection and tissue-resident T cell expansion. Review articles synthesize evidence from multiple cohorts, though primary data remain heterogeneous and not all findings are replicated.
+
+*Key findings:*
+- EBV, HHV-6, and CMV infections are consistently reported as ME/CFS triggering factors across studies
+- Deficient EBV-specific B- and T-cell responses in ME/CFS patients, with normal responses to other viruses and bacteria
+- CMV-seropositive individuals exhibit expansion of CD161+ CD56+ CD4 T cells enriched in CMV-specific TCRs
+- This expansion provides a mechanistic link between persistent viral infection and tissue-resident innate-like T cell population changes
+
+*Implications.* These findings support the viral persistence hypothesis and suggest that specific herpesvirus memory dysfunction may contribute to ME/CFS pathophysiology. The CMV-specific innate-like T cell expansion observed in healthy donors may be dysregulated in ME/CFS, contributing to both local (intestinal) and systemic immune dysfunction.
+
+*Limitations.* The evidence is primarily from review articles and observational studies. No direct studies have examined CMV-specific tissue-resident T cells in ME/CFS patients. Heterogeneity across studies limits definitive conclusions about causal relationships.
+] <obs:herpesvirus-triggers-Lerner2020>
+
 #hypothesis(title: [Compartmentalized Viral Reservoirs in ME/CFS])[
 *Certainty: 0.35.* ME/CFS patients may harbor viral reservoirs in immune-privileged or poorly accessible compartments (gut-associated lymphoid tissue, central nervous system, bone marrow) that drive chronic immune activation through intermittent viral antigen release. These reservoirs evade standard blood-based detection but maintain continuous immune stimulation.
 
@@ -501,6 +515,36 @@ CD8+ cytotoxic T cells showed the most severe impairment: reduced mitochondrial 
 
 *CD4+ T Cell Abnormalities*
 CD4+ helper T cells also demonstrated reduced glycolysis at rest, though their activation response was less severely impaired than CD8+ cells. This suggests a hierarchy of metabolic dysfunction, with cytotoxic cells more vulnerable than helper cells .
+
+#hypothesis(title: [CD161+ CD56+ CD4 T Cell Depletion in ME/CFS Gut])[
+*(Certainty: 0.55 — Parallel to IBD findings (78% depletion) and gut-immune axis dysfunction in ME/CFS; no direct ME/CFS studies yet.)*
+
+ME/CFS patients may exhibit reduced CD161+ CD56+ CD4 T cell frequency in intestinal tissue, paralleling the 78% depletion observed in inflammatory bowel disease (IBD). CD161+ CD56+ CD4 T cells are tissue-resident effector-memory cells enriched in the ileum and liver, exhibiting innate-like effector features including NK receptors (NKp80, NKG2D, NKG7) and granzymes, with high IL-18 receptor expression making them responsive to inflammatory cytokines.
+
+*Mechanistic Rationale.*
+CD161+ CD56+ CD4 T cells play several critical roles in mucosal immunity:
+- *Barrier maintenance*: Produce IL-17A and IL-22, essential for epithelial integrity
+- *Antiviral surveillance*: Enriched in CMV-specific TCRs, providing local viral defense
+- *Cytokine sensing*: High IL-18R expression enables rapid innate-like responses to inflammation
+- *Tissue persistence*: Express CD103 and CD69, indicating long-term tissue residency
+
+Depletion of these cells could contribute to:
+1. Impaired mucosal barrier maintenance (reduced IL-17A/IL-22)
+2. Reduced antiviral surveillance at barrier sites (CMV specificity)
+3. Systemic immune dysregulation via altered cytokine production
+4. Increased intestinal permeability ("leaky gut") documented in ME/CFS
+
+*ME/CFS Context.*
+Gut-immune axis dysfunction is well-documented in ME/CFS: intestinal dysbiosis, increased permeability, and compromised GI-barrier integrity are consistent findings. The IBD parallel is compelling: CD161+ CD56+ CD4 T cells are depleted 78% in IBD colon tissue, suggesting a similar pattern may occur in ME/CFS given shared barrier dysfunction.
+
+*Testable Predictions.*
+- Flow cytometry on ileal biopsies from ME/CFS patients shows reduced CD161+ CD56+ CD4 T cells compared to healthy controls
+- Peripheral blood CD161+ CD56+ CD4 T cell frequency correlates with ileal levels in ME/CFS (providing less invasive biomarker)
+- Reduced IL-17A/IL-22 production upon stimulation in ME/CFS CD161+ CD56+ CD4 T cells
+- Depletion severity correlates with intestinal permeability markers (zonulin, LPS)
+
+*Limitations.* No direct studies of CD161+ CD56+ CD4 T cells in ME/CFS patients exist. Limited data on intestinal immune cell phenotyping in ME/CFS gut. The IBD parallel is mechanistically plausible but not yet demonstrated in ME/CFS.
+] <hyp:cd4-depletion-gut>
 
 *Clinical Implications*
 T cell metabolic dysfunction may provide a mechanistic explanation for several observations: reduced CD8+ cytotoxic function (Brenu et al.\ 2011 @Brenu2011) could result from insufficient ATP to sustain degranulation and target killing, though direct causation has not been experimentally demonstrated; impaired proliferation following stimulation may reflect inability to meet the energetic demands of cell division; and post-exertional malaise may be exacerbated by immune activation, as metabolically compromised immune cells compete with other tissues for limited ATP. This finding bridges the energy metabolism (Chapter @ch:energy-metabolism) and immune dysfunction chapters, demonstrating that ME/CFS is characterized by systemic bioenergetic failure affecting all cellular systems.
