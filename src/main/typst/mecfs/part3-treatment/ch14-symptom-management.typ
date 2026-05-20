@@ -243,15 +243,130 @@ Sleep hygiene improves sleep conditions but rarely resolves ME/CFS sleep dysfunc
 
 Pharmacological sleep management in ME/CFS often requires a trial-and-error approach, as individual responses vary substantially. Medications should be started at the lowest effective dose.
 
-    - *Melatonin*: 0.5–5 mg, 30–60 minutes before bedtime. Extended-release formulations may help with sleep maintenance. Well-tolerated with minimal side effects. Some evidence of immunomodulatory benefit in ME/CFS
-    - *Trazodone*: 25–100 mg at bedtime. A sedating antidepressant frequently used off-label for insomnia. Improves sleep maintenance and may increase slow-wave sleep. Low risk of dependence
-    - *Low-dose amitriptyline*: 5–25 mg at bedtime. Improves sleep quality and may reduce pain and headaches. Anticholinergic side effects (dry mouth, constipation) limit dose
-    - *Low-dose doxepin*: 3–6 mg (Silenor). Selectively blocks histamine H1 receptors at low doses, promoting sleep without significant anticholinergic effects. FDA-approved for insomnia
-    - *Gabapentin*: 100–600 mg at bedtime. Particularly useful when pain and sleep disturbance co-occur. Increases slow-wave sleep. Dizziness and cognitive effects may limit use
+#note-env(title: [Clinical Decision Algorithm: Sleep Medication Selection])[
+When selecting sleep medications for ME/CFS patients, consider the following clinical algorithm:
+
+*OSA risk assessment*: If STOP-Bang questionnaire score ≥3 or caregiver witnesses apneas, avoid gabapentin and consider trazodone or melatonin first-line.
+
+*Pain-sleep co-occurrence*: If pain and sleep disturbance co-occur, gabapentin or pregabalin provide dual benefit, but screen for OSA first using STOP-Bang.
+
+*Dysautonomia considerations*: POTS/NMH patients may have heightened OSA risk due to autonomic instability; prioritize non-sedating options (melatonin) when possible.
+
+*Severity adaptation*: Severe/bedbound patients may not tolerate sleep studies due to travel constraints and symptom flares; use conservative medication selection and monitor for breathing symptoms through caregiver reports.
+]
+
+    - *Melatonin*: 0.5–5 mg, 30–60 minutes before bedtime. Extended-release formulations may help with sleep maintenance. Well-tolerated with minimal side effects. Some evidence of immunomodulatory benefit in ME/CFS. No respiratory depression; first-line alternative for patients with OSA risk.
+    - *Trazodone*: 25–100 mg at bedtime. A sedating antidepressant frequently used off-label for insomnia. Improves sleep maintenance and may increase slow-wave sleep. Low risk of dependence. No respiratory depression; first-line alternative for patients with OSA risk.
+    - *Low-dose amitriptyline*: 5–25 mg at bedtime. Improves sleep quality and may reduce pain and headaches. Anticholinergic side effects (dry mouth, constipation) limit dose. Alternative for OSA risk but requires careful dose titration due to cardiac effects.
+    - *Low-dose doxepin*: 3–6 mg (Silenor). Selectively blocks histamine H1 receptors at low doses, promoting sleep without significant anticholinergic effects. FDA-approved for insomnia. No respiratory depression; first-line alternative for patients with OSA risk.
+    - *Gabapentin*: 100–600 mg at bedtime. Particularly useful when pain and sleep disturbance co-occur. Increases slow-wave sleep and total sleep time while reducing wake after sleep onset @Rosenberg2014gabapentinInsomnia @Furey2014gabapentinChronic.
+
+#warning-env(title: [Gabapentin Sleep Breathing Warning])[
+Gabapentin may worsen obstructive sleep apnea (OSA). In a randomized crossover study, a single 300 mg dose increased the apnea-hypopnea index from 12.2 to 22.4 events/hour in older men without baseline OSA @Piovezan2017gabapentinOSA. Number needed to harm: 4 for developing moderate OSA (AHI ≥20). The effect occurs during non-REM sleep, especially in supine position, through GABAergic-mediated skeletal muscle relaxation increasing upper airway collapsibility. Screen for OSA before prescribing gabapentin for sleep using STOP-Bang questionnaire (score ≥3 indicates elevated risk). Screening should particularly focus on patients with dysautonomia (50-70% of ME/CFS patients), caregiver-reported snoring, or excessive daytime sleepiness distinct from ME/CFS fatigue (note: ME/CFS fatigue is energy depletion; OSA sleepiness is drowsiness with relief from rest—clinicians should distinguish these phenotypes when screening). Consider alternative sleep aids in patients with diagnosed OSA or AHI ≥15.
+
+#note-env(title: [Gabapentin Breathing Monitoring])[
+Monitoring parameters during gabapentin use for sleep:
+
+*Pre-treatment*: STOP-Bang questionnaire, caregiver inquiry about snoring/apneas. For isolated patients without caregivers, note that some STOP-Bang items (snoring, witnessed apneas) cannot be self-assessed; smartphone apps for snoring recording may provide interim data. High-risk patients without caregivers may require empirical avoidance of gabapentin pending sleep study.
+
+*During treatment*: Assess for new or worsened snoring at each visit; ask caregivers about witnessed breathing pauses. For bedbound/severe patients unable to tolerate polysomnography, overnight pulse oximetry may provide alternative screening. Some sleep clinics offer home sleep studies for severe patients.
+
+*Red flags requiring evaluation*: New snoring, morning headache, unexplained daytime sleepiness, caregiver reports apneas.
+
+*Discontinuation criteria*: If AHI ≥15 on polysomnography or patient reports breathing symptoms, consider tapering gabapentin and switching to alternative (trazodone 25-100 mg, melatonin 0.5-5 mg, low-dose doxepin 3-6 mg). For patients lacking access to sleep medicine specialists, tapering can occur in primary care based on symptom monitoring.
+]
+]
+
+#limitation(title: [Gabapentin Sleep Architecture Uncertainties])[
+Gabapentin increases slow-wave sleep quantitatively, but the physiological quality of gabapentin-induced N3 compared to natural N3 has not been characterized by EEG spectral analysis. Microarousal patterns and glymphatic clearance implications during gabapentin-altered sleep are unknown. No long-term cognitive outcome studies exist to verify or refute dementia signals; existing data show no next-day psychomotor impairment at doses of 250-500 mg over 28 days @Rosenberg2014gabapentinInsomnia @Furey2014gabapentinChronic.
+
+*Population limitation:* The OSA risk was demonstrated in older men (mean age 68) without baseline OSA @Piovezan2017gabapentinOSA. ME/CFS patients are predominantly female (70-80%) with mean age 45-50, and many have comorbidities not studied. Whether the risk generalizes to the ME/CFS population is uncertain; conservative screening using STOP-Bang is advisable pending ME/CFS-specific data.
+]
     - *Pregabalin*: 25–150 mg at bedtime. Similar profile to gabapentin. FDA-approved for fibromyalgia, which frequently co-occurs with ME/CFS
     - *Suvorexant/lemborexant*: Orexin receptor antagonists that may be particularly relevant given hypothesized orexin pathway dysfunction in ME/CFS. Clinical experience in ME/CFS is limited
     - *Z-drugs* (zolpidem, eszopiclone): Effective for sleep initiation but do not improve the unrefreshing quality of ME/CFS sleep. Risk of dependence with long-term use; best reserved for intermittent use
     - *Benzodiazepines*: Generally avoided due to dependence risk, cognitive impairment, and potential to worsen daytime fatigue. May be appropriate short-term during severe exacerbations
+
+=== Sleep Discipline for Alpha Wave Reduction
+<sec:sleep-discipline-alpha-waves>
+
+Alpha-delta sleep—alpha wave intrusions into slow-wave sleep—is a core feature of ME/CFS sleep dysfunction that produces non-restorative sleep regardless of total sleep duration. While gabapentinoids can pharmacologically increase slow-wave sleep (see Section @sec:sleep-management), these medications carry risks including OSA exacerbation and uncertain physiological quality of drug-induced N3. For patients preferring non-pharmacological approaches or contraindicated to gabapentinoids, behavioral sleep discipline offers a risk-free alternative that works by strengthening natural sleep pressure mechanisms.
+
+#warning-env(title: [No Shortcuts to Healthy Sleep Architecture])[
+Sleep architecture quality cannot be pharmacologically restored without trade-offs. Gabapentin increases N3 duration but may produce physiologically abnormal deep sleep (see Section @sec:sleep-management). Truly restorative sleep requires intact sleep pressure mechanisms—adenosine accumulation, circadian alignment, and behavioral sleep discipline—that pharmaceuticals can only partially mimic. The evidence below supports sleep discipline as the foundational approach to reducing alpha-delta sleep, with medications as adjuncts when behavioral approaches are insufficient.
+]
+
+==== Sleep Pressure and Adenosine
+
+Adenosine levels rise progressively during wakefulness and promote slow-wave sleep through A1 and A2A receptor stimulation @Reichert2022adenosine. This sleep pressure mechanism is fundamental to N3 generation and alpha wave suppression. ME/CFS patients show impaired sleep homeostasis with reduced SWA response to sleep delay @Jackson2012sleepAbnormalities, suggesting weakened sleep pressure contributes to alpha-delta sleep patterns.
+
+**Caffeine avoidance** is critical for ME/CFS patients. As a potent adenosine antagonist, caffeine reduces slow-wave sleep and may worsen alpha-delta sleep by interfering with sleep pressure buildup @Reichert2022adenosine. Complete caffeine avoidance (including decaf beverages, which contain small amounts) for 4-6 weeks may improve N3 quality and reduce alpha intrusions. If currently consuming caffeine daily: taper gradually over 1-2 weeks rather than abrupt cessation to minimize withdrawal symptoms that could exacerbate ME/CFS.
+
+==== Sleep Timing Consistency
+
+Sleep regularity improves alignment between sleep and circadian rhythms, which may strengthen sleep pressure mechanisms. Later sleep timing and greater sleep variability are associated with adverse health outcomes @Zuraikat2021sleepRegularity. For ME/CFS patients with disrupted circadian rhythms (common in 70-80% of patients), consistent sleep-wake timing—particularly a fixed wake time even if bedtime varies—helps stabilize the sleep-wake cycle and may improve sleep architecture quality.
+
+**Implementation**:
+- Set a wake time target, but allow flexibility for severe exacerbations. For patients with severe ME/CFS, symptom stability takes priority over consistency
+- If bedtime varies due to symptoms, maintain wake time when possible to preserve circadian alignment
+- Gradual bedtime shifts (15 minutes per week) if schedule adjustment needed; avoid abrupt changes
+- Morning bright light (10,000 lux light box or natural daylight within 30 minutes of waking) reinforces circadian timing. For bedbound/severe patients: open curtains or position near windows if possible; do not force mobility for light therapy
+
+==== Adapted Sleep Pressure Enhancement
+
+Sleep restriction therapy, a component of Cognitive Behavioral Therapy for Insomnia (CBT-I), increases slow-wave sleep and improves next-day functioning by strengthening sleep pressure @Walsh2009SWSenhancement. Standard sleep restriction may be too aggressive for ME/CFS patients due to energy envelope limitations, but adapted approaches may help.
+
+**Adapted sleep pressure enhancement protocol**:
+
+*Step 1: Establish baseline* - Track actual sleep time (not time in bed) for 1-2 weeks using sleep diary or actigraphy.
+
+*Step 2: Calculate target* - Set initial time in bed 30-45 minutes above average actual sleep time (NOT below, as in standard CBT-I).
+
+*Step 3: Monitor and adjust* - If sleep efficiency ≥ 85% (time asleep / time in bed), reduce time in bed by 15 minutes weekly. If sleep efficiency ≤ 80% or PEM triggered, increase time in bed by 15 minutes weekly.
+
+*Step 4: Maintain* - Once stable at target sleep efficiency (80-85%), maintain time in bed for 2-4 weeks before considering further reduction.
+
+#note-env(title: [ME/CFS-Specific Adaptation])[
+Standard sleep restriction therapy reduces time in bed below baseline actual sleep time to increase sleep pressure. For ME/CFS patients, this approach may trigger PEM by exceeding energy limits. The adapted protocol maintains time in bed 30-45 minutes above actual sleep time, avoiding energy debt accumulation while still strengthening sleep pressure through consistency. Target sleep efficiency (80-85%) is lower than standard CBT-I targets (85-90%) to account for ME/CFS sleep fragmentation and alpha-delta sleep baseline.
+
+*Severity considerations*: This protocol is appropriate for ambulatory ME/CFS patients with mild-to-moderate severity. For severe/bedbound patients, sleep efficiency monitoring may not be feasible; focus on symptom-based adjustment (increase time in bed if PEM triggered). For very severe patients, sleep protocols may not be implementable; focus on comfort care and symptom minimization rather than sleep pressure enhancement.
+]
+
+==== Nap Management
+
+Napping in ME/CFS is complex: rest is essential for energy management, but naps may disrupt night-time sleep architecture. The nap paradox in ME/CFS—napping predicts worse cognitive outcomes rather than restoration—occurs because alpha-delta intrusion operates during daytime naps as well as overnight sleep, preventing even brief naps from entering restorative sleep stages (see Section @sec:nap-paradox in Chapter @ch:symptom-producing-mechanisms).
+
+**Nap discipline principles**:
+
+*Severity adaptation*: For mild/moderate patients, limit naps to ≤ 20 minutes to avoid entering deep sleep stages where alpha-delta intrusion occurs. For severe patients, rest as needed; longer naps may be unavoidable. Monitor impact on night-time sleep, but do not enforce strict limits if symptom management requires longer rest.
+
+*Timing considerations*: Naps before 2 PM may reduce sleep pressure for night-time sleep. Afternoon naps (3-5 PM) may be less disruptive to night-time sleep architecture. Severe patients may need to rest whenever exhaustion occurs, regardless of time of day; symptom stability takes priority over timing constraints.
+
+*Pre-nap preparation*: Dark room, cool temperature (18-20°C), and noise reduction help nap quality even within short duration windows. If unable to control environment (shared space, no temperature control), implement what is feasible; do not induce guilt for uncontrollable factors.
+
+*Post-nap monitoring*: Track whether naps improve or worsen night-time sleep quality. If night-time sleep worsens after napping, consider shifting to rest breaks instead of sleep.
+
+==== Anxiety and Hyperarousal
+
+Alpha-delta sleep in ME/CFS correlates with anxiety levels rather than immunologic parameters @Buysse2015alphaDeltaCFS. Psychological factors, particularly anxiety and hyperarousal, may contribute to alpha wave intrusions by maintaining wake-like cortical activity during sleep.
+
+*Hyperarousal reduction techniques*:
+
+*Pre-sleep wind-down*: 30-60 minutes of low-stimulation activities before bedtime. Avoid screens, work, emotionally engaging content, or problem-solving discussions.
+
+*Progressive muscle relaxation*: Sequential muscle tension and release (5 seconds tension, 10 seconds relaxation) reduces somatic hyperarousal that may persist during sleep. For patients with severe myalgia or physical deconditioning, modify tension intensity or skip this technique.
+
+*Thought recording*: Keep a "worry journal" outside the bedroom—write down racing thoughts, tomorrow's tasks, or concerns to prevent mental rehearsal during sleep onset. For patients with severe cognitive PEM, simplify to brief mental noting if writing is too demanding.
+
+#note-env(title: [Exercise and SWS: PEM Risk vs Benefit])[
+Exercise increases slow-wave sleep in healthy populations, with one hour of vigorous exercise enhancing SWS activity @Kredlow2015exerciseSleep. However, ME/CFS patients have post-exertional malaise—exertion beyond the energy envelope causes symptom exacerbation lasting days to weeks. For ME/CFS patients, exercise-induced SWS benefits must be balanced against PEM risk. If tolerated, low-intensity recumbent exercise (recumbent cycling, gentle stretching) performed at least 4 hours before bedtime may improve sleep architecture without triggering PEM. Patients should not pursue exercise for sleep benefits if it worsens baseline function or increases PEM frequency.
+]
+
+#limitation(title: [Evidence Hierarchy])[
+This section synthesizes high-certainty sleep medicine evidence (adenosine mechanisms, sleep consistency benefits) with moderate-certainty ME/CFS-specific findings (alpha-delta sleep correlates with anxiety) and adapted protocols (sleep pressure enhancement). The evidence hierarchy prioritizes: (1) established sleep medicine principles, (2) ME/CFS pathophysiology understanding, (3) clinical adaptation for energy limitations. Randomized controlled trials of behavioral interventions for ME/CFS alpha-delta sleep are lacking.
+
+*Severity resource considerations*: Sleep discipline protocols require cognitive and physical energy to implement. Patients already operating at energy envelope limits may not have capacity for tracking, monitoring, and consistency required. For very severe patients, these protocols may not be feasible; focus on comfort care and symptom minimization rather than strict sleep architecture optimization. Light boxes (approx. USD 50--300) and actigraphy devices (approx. USD 100--400) may not be accessible to all patients due to cost or physical limitations.
+]
 
 == Pain Management
 <sec:pain-management>

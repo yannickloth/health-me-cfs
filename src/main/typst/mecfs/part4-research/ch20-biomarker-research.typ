@@ -538,6 +538,256 @@ EBV and HHV-6 serology has poor specificity for active reactivation: the vast ma
 == Composite Biomarker Panels
 <sec:composite-biomarkers>
 
+=== B1: Fecal Butyrate-Zonulin Composite Permeability Index (0.65)
+<sec:butyrate-zonulin-composite-index>
+
+#proposal(title: [B1: Fecal Butyrate-Zonulin Composite Permeability Index (0.65)])[
+Mechanism and Rationale.
+
+Combining fecal butyrate quantification with serum zonulin measurement creates a composite index more predictive of gut barrier function than either marker alone. The index captures both the mucosal integrity component (butyrate, the preferred fuel for colonocytes) and the permeability component (zonulin, the tight junction regulator).
+
+Formula:
+
+#align(center, [
+  #block(
+    width: 90%,
+    align(center, [
+      **Butyrate-Zonulin Index** #super[(BZI)]
+      $ B Z I = (f b  "/" b r) "/" (z "/" z r) $
+    ])
+  )
+])
+
+*Interpretation:*
+- BZI < 0.5: Gut barrier impaired (low butyrate relative to zonulin)
+- BZI 0.5–1.5: Gut barrier intact
+- BZI > 1.5: Low permeability relative to butyrate status
+
+Clinical utility.
+
+The composite index addresses two limitations of individual markers:
+- **Fecal butyrate alone**: Affected by dietary intake, microbiome variability, transit time. Does not distinguish barrier permeability from production capacity.
+- **Zonulin alone**: Elevated in many conditions (inflammatory bowel disease, diabetes) with different underlying pathophysiology. Does not distinguish low butyrate (impaired repair capacity) from normal butyrate production.
+
+The BZI formula ratios butyrate against zonulin, providing a normalized assessment of barrier status. Patients with similar butyrate levels but different zonulin values will be distinguished, enabling targeted interventions (e.g., butyrate supplementation vs. tight junction support).
+
+Stratification applications.
+
+The BZI could stratify ME/CFS severity and predict treatment response:
+- **Severe barrier dysfunction**: Low BZI (BUTYRATE_LOW / ZONULIN_HIGH) may identify patients with compromised gut barrier contributing to systemic inflammation and PEM severity.
+- **Treatment responders**: Improvement in BZI following butyrate supplementation (combined with lifestyle interventions) could predict overall clinical improvement.
+- **Subtype identification**: Patients with low BZI may form a distinct ME/CFS subgroup requiring gut-focused interventions, separate from patients with normal BZI but other primary pathophysiology.
+
+Evidence and certainty.
+
+Certainty: 0.65. Mechanistically grounded in butyrate colonocyte metabolism, zonulin tight junction regulation, and composite biomarker principles (well-established in other conditions). Direct clinical evidence in ME/CFS populations is lacking; the proposed index extends from established component mechanisms to a composite framework. The formula is simple and theoretically sound, but validation requires large-scale validation studies in ME/CFS cohorts.
+
+Testable predictions.
+
+1. BZI will correlate with gut barrier biomarkers (zonulin, LPS, I-FABP) more strongly than either marker alone.
+2. Low BZI (BUTYRATE_LOW / ZONULIN_HIGH) will distinguish ME/CFS patients with elevated gut permeability from controls with normal permeability.
+3. BZI improvement following butyrate supplementation will predict symptom improvement (fatigue, GI symptoms, PEM severity).
+4. BZI-based stratification will identify patients most likely to respond to gut-focused interventions.
+
+Limitations.
+
+- No clinical validation in ME/CFS populations.
+- Requires standardized reference ranges for fecal butyrate and serum zonulin.
+- Zonulin elevation is not specific to gut barrier dysfunction; BZI interpretation requires clinical context.
+- Fecal butyrate measurement variability (collection, storage, assay differences).
+- Individual variability in butyrate utilization by colonocytes not captured by index.
+
+Clinical recommendation.
+
+Consider BZI as a research biomarker for ME/CFS patients with prominent gastrointestinal symptoms, unexplained PEM, or poor response to conventional interventions. The composite approach may identify barrier-focused subgroups and treatment-responsive phenotypes.
+
+(Certainty: 0.65)
+
+]
+
+=== B2: Colonocyte Energy Status Biomarker Panel (0.50)
+<sec:colonocyte-energy-biomarker-panel>
+
+#proposal(title: [B2: Colonocyte Energy Status Biomarker Panel (0.50)])[
+Mechanism and Rationale.
+
+Colonocyte energy status reflects the metabolic capacity of intestinal epithelial cells to maintain barrier function, regenerate damaged tissue, and respond to luminal signals. In ME/CFS, colonocyte energy deficits may underlie gut barrier dysfunction, reduced butyrate production, and increased intestinal permeability.
+
+Target biomarkers.
+
+A minimally invasive panel measures colonocyte energy status via peripheral blood:
+
+- **ATP/ADP ratio**: Primary indicator of cellular energy charge. Reduced ATP/ADP suggests impaired oxidative phosphorylation or reduced substrate availability.
+- **Lactate/Pyruvate ratio**: Elevated ratio indicates shift to glycolytic metabolism, reflecting mitochondrial dysfunction or hypoxia. Colonocytes normally use butyrate for oxidative metabolism; glycolytic shift suggests energy crisis.
+- **Ketone bodies (β-hydroxybutyrate, acetoacetate)**: Alternative fuel when glycolysis impaired. Reduced ketone availability may indicate poor fatty acid oxidation capacity.
+
+Clinical interpretation.
+
+Colonocyte energy crisis may be detected before systemic symptoms manifest:
+- **Energy collapse**: Low ATP/ADP + high lactate/pyruvate = colonocytes diverting to glycolysis due to mitochondrial dysfunction.
+- **Substrate limitation**: Low ketone bodies = impaired fatty acid oxidation or mitochondrial beta-oxidation.
+- **Combined deficiency**: Low ATP/ADP + low ketone bodies = both oxidative and substrate limitations.
+
+Predictive applications.
+
+The panel could detect energy crisis before systemic symptoms:
+- **PEM prediction**: Elevated lactate/pyruvate ratio 12–48 hours post-exertion may predict delayed PEM onset in patients with colonocyte energy deficits.
+- **Subtype identification**: Colonocyte energy dysfunction may characterize a distinct ME/CFS subgroup with predominant GI symptoms, butyrate deficiency, and PEM susceptibility.
+- **Treatment monitoring**: Improvement in panel following mitochondrial support (CoQ10, D-ribose, carnitine) would suggest gut-specific mitochondrial recovery.
+
+Evidence and certainty.
+
+Certainty: 0.50. Mechanistically grounded in colonocyte bioenergetics and butyrate metabolism (well-established in physiology). Direct clinical evidence in ME/CFS populations is lacking; the proposed panel extends from normal physiology to the specific context of ME/CFS-associated mitochondrial dysfunction. The panel requires validation against gut barrier markers (zonulin, LPS, I-FABP) and clinical outcomes.
+
+Testable predictions.
+
+1. ME/CFS patients with elevated lactate/pyruvate ratio will show greater post-exertional symptom exacerbation compared to patients with normal ratio.
+2. Colonocyte energy panel will correlate with gut barrier markers (zonulin, LPS, I-FABP) more strongly than general metabolic markers (CRP, hemoglobin).
+3. Mitochondrial support supplementation will improve ATP/ADP ratio and reduce lactate/pyruvate ratio in patients with colonocyte energy deficits.
+4. Colonocyte energy dysfunction will characterize a distinct ME/CFS subgroup with elevated butyrate deficiency, gut barrier permeability, and PEM susceptibility.
+
+Limitations.
+
+- Peripheral blood markers may not reflect colonocyte-specific metabolism.
+- Assay standardization and reference ranges not established.
+- Individual variability in baseline colonocyte energy status.
+- Limited sensitivity for detecting mild energy deficits.
+- No longitudinal validation in ME/CFS cohorts.
+
+Clinical recommendation.
+
+Consider colonocyte energy panel as a research tool for patients with prominent GI symptoms, unexplained butyrate deficiency, or poor response to standard gut barrier interventions. May identify patients with colonocyte energy deficits requiring targeted mitochondrial support.
+
+(Certainty: 0.50)
+
+]
+
+=== B6: Systemic Butyrate-Bioavailability Monitoring (0.40)
+<sec:systemic-butyrate-bioavailability>
+
+#speculation(title: [B6: Systemic Butyrate-Bioavailability Monitoring (0.40)])[
+Mechanism and Rationale.
+
+Systemic butyrate levels (measured via breath analysis or LC-MS) distinguish between dietary butyrate intake and endogenous production, providing insight into microbiome function and gut barrier status. Low systemic butyrate may indicate either insufficient dietary intake, poor absorption (barrier dysfunction), or reduced microbial production.
+
+Measurement approaches.
+
+- **Breath butyrate analysis**: Non-invasive measurement of exhaled volatile organic compounds. Dietary butyrate (from fermented foods, dairy) appears in breath within 1–2 hours; endogenous production has distinct temporal patterns.
+- **Serum/plasma butyrate (LC-MS)**: Direct quantification; requires blood draw and laboratory processing. Distinguishes bound (protein-bound) from free butyrate.
+- **Stool butyrate (quantitative)**: Gold standard for microbial production; measurement variability limited by collection and storage conditions.
+
+Interpretation patterns.
+
+- **Dietary butyrate pattern**: High postprandial breath butyrate peaks following butyrate-containing meals (yogurt, butter, fermented foods). Low baseline butyrate may indicate poor absorption or microbial deficiency.
+- **Endogenous production pattern**: Baseline breath butyrate elevated throughout day, minimal postprandial spikes. Reflects robust colonic fermentation.
+- **Absorption dysfunction pattern**: Low stool butyrate + low serum butyrate despite normal oral intake. Indicates barrier permeability or rapid systemic elimination.
+- **Production deficiency pattern**: Low stool butyrate + low breath butyrate (postprandial or baseline). Indicates microbial deficiency.
+
+Clinical applications.
+
+Systemic butyrate monitoring could:
+- **Validate supplementation protocols**: Confirm butyrate bioavailability after supplementation.
+- **Identify absorption dysfunction**: Low serum butyrate with normal stool butyrate suggests barrier impairment.
+- **Stratify by gut barrier function**: Patients with both low stool and serum butyrate may require combined supplementation + barrier repair strategies.
+- **Monitor treatment response**: Serial monitoring tracks improvement in microbial production or absorption.
+
+Evidence and certainty.
+
+Certainty: 0.40. Mechanistically grounded in butyrate absorption, metabolism, and breath biomarker principles (established in nutrition science). Direct clinical evidence in ME/CFS populations is lacking; the proposed monitoring framework extends from established physiology to ME/CFS context. Breath butyrate measurement is non-invasive but validation against gut barrier markers and clinical outcomes is needed.
+
+Testable predictions.
+
+1. ME/CFS patients will show lower breath butyrate postprandial peaks compared to healthy controls after butyrate-containing meals.
+2. Patients with elevated gut permeability (zonulin, LPS) will have lower serum butyrate despite normal oral intake.
+3. Butyrate supplementation will increase breath butyrate in patients with absorption dysfunction, confirming bioavailability.
+4. Systemic butyrate levels will correlate with symptom severity (fatigue, GI symptoms, PEM frequency).
+
+Limitations.
+
+- Breath butyrate measurement requires specialized equipment or validation against serum levels.
+- Inter-individual variability in breath butyrate kinetics not well characterized.
+- Distinguishing dietary vs. endogenous production requires standardized meal challenges.
+- No ME/CFS-specific reference ranges established.
+- Limited validation against clinical outcomes.
+
+Clinical recommendation.
+
+Consider systemic butyrate monitoring as a research tool for patients with unexplained butyrate deficiency or poor response to supplementation. Breath analysis may provide a practical, non-invasive approach to assessing bioavailability.
+
+(Certainty: 0.40)
+
+]
+
+=== B7: HIF-1α Target Gene Expression Panel (0.50)
+<sec:hif1a-target-gene-panel>
+
+#proposal(title: [B7: HIF-1α Target Gene Expression Panel (0.50)])[
+Mechanism and Rationale.
+
+HIF-1α (hypoxia-inducible factor 1-alpha) is a transcription factor that stabilizes under low oxygen conditions, activating genes involved in glycolysis, angiogenesis, and erythropoiesis. In ME/CFS, butyrate deficiency may impair HIF-1α signaling, contributing to metabolic dysfunction.
+
+Butyrate-HIF-1α relationship.
+
+- **Butyrate inhibits HDACs, including HDAC3 which normally promotes HIF-1α degradation** @Papandreou2013butyrate
+- **Butyrate-deficient state → HDAC3 activity ↑ → HIF-1α degradation ↑ → impaired glycolytic adaptation and mitochondrial biogenesis**
+- **HIF-1α stabilization under butyrate deficiency may promote glycolytic shift, reducing oxidative metabolism capacity**
+
+Hypothesis testing.
+
+The panel tests whether ME/CFS patients show aberrant HIF-1α target gene expression, providing evidence for butyrate-HIF-1α interaction as a contributor to metabolic dysfunction.
+
+Panel composition.
+
+qPCR panel for HIF-1α target genes:
+
+- **VEGF**: Angiogenesis marker; elevated in hypoxic conditions.
+- **GLUT1**: Glucose transporter; increased under hypoxia.
+- **LDHA**: Lactate dehydrogenase A; promotes glycolysis-to-lactate conversion.
+- **PDK1**: Pyruvate dehydrogenase kinase 1; inhibits pyruvate oxidation, reducing oxidative metabolism.
+- **BNIP3**: Bcl-2-like protein 3; mitophagy marker under hypoxia.
+- **CA9**: Carbonic anhydrase 9; pH regulation under hypoxia.
+
+Composite HIF-1α Score (HFS).
+
+Composite score combining relative expression of target genes:
+- **HFS calculation**: Mean z-score normalized expression of VEGF, GLUT1, LDHA, PDK1, BNIP3, CA9
+- **High HFS**: HIF-1α target activation (potentially butyrate-deficient state)
+- **Low HFS**: Reduced HIF-1α target expression (potential butyrate sufficiency)
+
+Clinical applications.
+
+HFS could:
+- **Test Hypothesis 2**: Elevated HFS in ME/CFS would support butyrate-HIF-1α pathway involvement.
+- **Predict butyrate response**: Patients with high HFS may respond preferentially to butyrate supplementation.
+- **Stratify metabolic subtypes**: High HFS may characterize a glycolytic-dominant ME/CFS subgroup.
+
+Evidence and certainty.
+
+Certainty: 0.50. Mechanistically grounded in butyrate-HIF-1α biology, hypoxia signaling, and qPCR gene expression analysis (well-established in physiology). Direct clinical evidence in ME/CFS populations is lacking; the proposed panel extends from established mechanisms to ME/CFS context. Gene expression panel validation requires RNA quality control, normalization methods, and comparison to functional outcomes.
+
+Testable predictions.
+
+1. ME/CFS patients will show elevated HFS (HIF-1α target gene activation) compared to healthy controls.
+2. High HFS will correlate with lower fecal butyrate levels and elevated zonulin (gut barrier permeability).
+3. HFS will predict improved symptoms following butyrate supplementation (patients with high HFS show greater response).
+4. High HFS will characterize a glycolytic-dominant ME/CFS subgroup with elevated lactate/pyruvate ratio.
+
+Limitations.
+
+- Requires peripheral blood mononuclear cells (PBMCs) or other tissue source; colonocyte-specific expression not captured.
+- Gene expression analysis is technically complex and requires RNA quality control.
+- Inter-individual variability in baseline HFS not well characterized.
+- No established cutoff values for high vs. low HFS.
+- Tissue-specific HIF-1α target expression may differ between colonocytes, immune cells, and muscle.
+
+Clinical recommendation.
+
+Consider HIF-1α target gene panel as a research tool for testing butyrate-HIF-1α pathway involvement in ME/CFS. High HFS may identify patients who benefit from butyrate supplementation.
+
+(Certainty: 0.50)
+
+]
+
 === Multi-Omics Approaches
 
 Integrating multiple biomarker types:

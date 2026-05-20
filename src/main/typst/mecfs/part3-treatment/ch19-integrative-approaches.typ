@@ -325,8 +325,72 @@ Histamine intolerance—impaired histamine degradation due to diamine oxidase (D
 *Dietary fiber and SCFA production.*
 Short-chain fatty acids produced from dietary fiber fermentation by gut microbiota—particularly butyrate and propionate—inhibit mast cell degranulation via JNK suppression and HDAC inhibition @Folkerts2018fiber. Fiber polysaccharides also directly inhibit degranulation independently of fermentation. This suggests that low-fiber diets, common in ME/CFS patients who self-restrict due to gastrointestinal sensitivity, may paradoxically increase mast cell reactivity. Gradual fiber reintroduction (starting with soluble fiber sources: oats, psyllium, cooked vegetables) may help restore endogenous mast cell inhibition, though this mechanism has not been tested clinically in MCAS or ME/CFS populations.
 
-*Food additive avoidance.*
+ *Food additive avoidance.*
 Sodium sulfite (wine, dried fruit, processed foods) triggers mast cell activation through oxidative pathways independent of IgE @Pepper2020additives. Natural colorants (carmine, annatto) have stronger evidence for genuine hypersensitivity than synthetic dyes. A practical approach for energy-limited patients is to prioritize whole, unprocessed foods—which simultaneously reduces additive exposure, histamine content (when fresh), and lectin load—rather than attempting to identify and avoid specific additives individually.
+
+#proposal(title: [C6: Low-Histamine Butyrate Protocol for MCAS Subtype (0.50)])[
+  *Section label:* `sec:low-histamine-butyrate-protocol`
+
+  *Mechanism and Rationale.*
+
+  MCAS patients often experience histamine intolerance that complicates butyrate supplementation, which may be formulated with histamine-containing excipients (yeast-based flavorings, fermented preservatives, aged cheese extracts). Low-histamine butyrate protocols combine butyrate supplementation with dietary histamine management and mast cell stabilizers to improve tolerability in histamine-sensitive MCAS-ME/CFS patients.
+
+  *Practical Implementation.*
+
+  *Butyrate Formulation Selection*:
+
+  - *Histamine-free butyrate source*: Look for sodium butyrate or calcium magnesium butyrate with non-fermented, fresh excipients. Avoid yeast-based flavorings, aged preservatives, or histamine-rich formulations.
+  - *Liquid formulations*: Preferred for butyrate; look for drug manufacturer specifications on histamine content.
+  - *Dosage*: Start with 250 mg/day sodium butyrate equivalent; titrate to 500–750 mg/day based on tolerability.
+
+  *Dietary Histamine Management*:
+
+  - *Low-histamine diet*: Eliminate aged, fermented, and preserved foods (aged cheese, cured meats, sauerkraut, wine, vinegar, canned fish) for 4 weeks minimum.
+  - *Fresh foods*: Prioritize fresh proteins, cooked vegetables, and fruits (avoid high-histamine fruits: tomato, spinach, strawberries).
+  - *Histamine degradation*: DAO supplementation (100–200 mg before meals) may help if DAO deficiency suspected.
+  - *Avoid histamine potentiators*: Limit alcohol (direct DAO inhibitor), processed foods (preservatives increase histamine content), and histamine-releasing foods (citrus, fermented dairy).
+
+  *Mast Cell Stabilizer Combination*:
+
+  - *Cromolyn sodium*: 200–400 mg four times daily (oral) — mast cell stabilizer that reduces degranulation frequency.
+  - *Ketotifen*: 1 mg twice daily (if cromolyn insufficient) — mast cell stabilizer with stronger effect.
+  - *Low-dose quercetin*: 500 mg twice daily (mast cell stabilizer; caution: high-dose quercetin may have pro-inflammatory effects in some patients).
+  - *PEA*: 300–600 mg twice daily (endocannabinoid modulator; anti-inflammatory; low interaction risk with butyrate).
+
+  *Expected Benefits*:
+
+  - Improved butyrate tolerability in histamine-sensitive MCAS patients (reduced histamine-mediated side effects: flushing, headaches, GI upset).
+  - Enhanced gut barrier integrity (butyrate) combined with reduced mast cell degranulation (cromolyn, ketotifen, low-histamine diet).
+  - Reduced systemic inflammation (butyrate via HDAC inhibition, mast cell stabilizers via reduced mediator release).
+  - Reduced histamine-mediated symptoms (flushing, itching, GI upset) during butyrate supplementation.
+
+  *Evidence and Certainty.*
+
+  *Certainty: 0.50.* Mechanistically grounded in histamine intolerance physiology, butyrate's safety profile, and mast cell stabilizer mechanisms (well-established). Direct clinical evidence for low-histamine butyrate protocols in ME/CFS-MCAS patients is lacking; the proposed protocol extends from component mechanisms (histamine-free butyrate, low-histamine diet, mast cell stabilizers) to a combined approach. The intervention is low-risk, low-cost, and addresses specific tolerability challenges faced by MCAS patients.
+
+  *Testable Predictions.*
+
+  1. MCAS patients using low-histamine butyrate protocols will show improved tolerability (reduced histamine-mediated side effects) compared to high-histamine butyrate formulations.
+  2. Combined butyrate + mast cell stabilizer + low-histamine diet will show additive improvement in gut barrier markers (zonulin, LPS, I-FABP) compared to butyrate alone.
+  3. Low-histamine butyrate protocol will reduce histamine-mediated symptoms (flushing, itching, GI upset) during supplementation compared to high-histamine butyrate.
+
+  *Limitations.*
+
+  - No randomized controlled trials exist for low-histamine butyrate protocols in ME/CFS-MCAS patients.
+  - Histamine-free butyrate formulations may be less widely available than standard formulations.
+  - Individual variability in histamine intolerance severity is likely; some patients may tolerate standard butyrate formulations.
+  - Low-histamine diet requires significant dietary restriction; may be challenging to maintain long-term.
+  - Mast cell stabilizers (cromolyn, ketotifen) may have GI side effects (diarrhea, nausea) at higher doses, potentially complicating butyrate-tolerability assessment.
+  - Long-term safety of combined butyrate + mast cell stabilizer protocols is untested.
+
+  *Clinical Recommendation.*
+
+  Consider low-histamine butyrate protocols for MCAS-ME/CFS patients experiencing histamine-mediated side effects with standard butyrate formulations. The protocol combines histamine-free butyrate supplementation, low-histamine diet, and mast cell stabilizers to improve tolerability and enhance gut barrier support. Requires medical supervision to optimize dosing and monitor for interactions.
+
+  (Section label: `sec:low-histamine-butyrate-protocol`)
+
+  *Certainty: 0.50.* Mechanistically grounded; direct ME/CFS evidence lacking; protocol addresses specific tolerability challenges faced by MCAS patients.
+]
 
 ==== Elimination-Rechallenge Protocol for Energy-Limited Patients
 <subsubsec:elimination-protocol>
@@ -338,7 +402,78 @@ The standard elimination-rechallenge protocol—four weeks of strict elimination
     - *Use pre-written symptom checklists.* Minimize cognitive load by using tick-box forms (heart rate, GI symptoms, fatigue 0–10, brain fog 0–10) rather than writing narrative symptom diaries.
     - *Time challenges strategically.* Perform food challenges after the best period of the day, in a seated or reclined position, with a 2-hour rest window post-challenge. No other activities on challenge days—no physiotherapy, no social commitments.
     - *Optional mediator confirmation.* Collect baseline urine (spot or 4-hour) on a neutral day, then repeat collection 4–6 hours after the food challenge. Elevated urinary N-methylhistamine ($gt.eq$1.29$times$ baseline), leukotriene E4 ($gt.eq$1.36$times$), or prostaglandin D#sub[2] metabolite ($gt.eq$1.31$times$) supports mast cell activation by the food @Voelker2025biomarkersmast. Urinary panels are available via commercial laboratories without requiring clinic visits @Voelker2024urinemast.
-    - *One new food every 5–7 days* (rather than the standard 3–5 days) to allow for delayed reactions and energy recovery between challenges.
+     - *One new food every 5–7 days* (rather than the standard 3–5 days) to allow for delayed reactions and energy recovery between challenges.
+
+#proposal(title: [C2: Wheat-Butyrate Interaction Elimination-Reintroduction Protocol (0.55)])[
+  *Section label:* `sec:wheat-butyrate-interaction-protocol`
+
+  *Mechanism and Rationale.*
+
+  The wheat-primed exercise intolerance hypothesis (@sec:wheat-primed-exercise) proposes that wheat exposure creates a vulnerable intestinal barrier (gliadin-mediated permeability + ATI inflammation), which exacerbates exercise-induced ischemia, endotoxemia, and PEM. This protocol tests the hypothesis that butyrate supplementation during wheat rechallenge can mitigate barrier failure by supporting tight junctions and reducing inflammation.
+
+  *Practical Implementation.*
+
+  *Phase 1: Baseline Assessment (Weeks 1–2)*
+
+  - Measure baseline PEM severity (0–10 scale), daily step count, GI symptoms (bloating, cramping, diarrhea)
+  - Collect stool samples for baseline butyrate levels (target: $<$ 20 $\mu$mol/L, typical of ME/CFS)
+  - Measure gut barrier markers: zonulin (serum), LPS (serum), I-FABP (serum)
+  - Establish daily activity baseline (steps, hours upright)
+
+  *Phase 2: Wheat Elimination (Weeks 3–6)*
+
+  - Strict wheat elimination (no gluten-containing foods)
+  - Maintain butyrate supplementation (target 500–750 mg/day sodium butyrate or equivalent)
+  - Monitor PEM severity, steps, GI symptoms weekly
+  - Expected: baseline improvement in PEM severity and GI symptoms in wheat-sensitive responders
+
+  *Phase 3: Wheat Rechallenge + Butyrate Supplementation (Weeks 7–9)*
+
+  - Reintroduce wheat (2 slices bread/day or equivalent)
+  - Continue butyrate supplementation throughout rechallenge
+  - Monitor PEM severity, steps, GI symptoms 24–72 hours post-rechallenge
+  - Compare to baseline (pre-elimination) and post-elimination levels
+
+  *Phase 4: Analysis and Decision (Week 10)*
+
+  - If PEM severity worsens by $\ge$ 2 points on 0–10 scale within 24–72 hours of wheat rechallenge: wheat-sensitive confirmed
+  - If no change or improvement: wheat sensitivity not primary mechanism
+  - If improvement continues without worsening: consider gluten/FODMAP-specific factors (requires pure gluten or pure FODMAP challenge)
+
+  *Expected Outcomes in Wheat-Butyrate Interaction Responders.*
+
+  - Wheat elimination produces 20–50% PEM reduction and GI symptom improvement
+  - Wheat rechallenge triggers PEM exacerbation within 24–72 hours
+  - Butyrate supplementation during rechallenge partially mitigates PEM severity (estimated 30–60% reduction in PEM exacerbation vs. rechallenge without butyrate)
+  - Gut barrier markers (zonulin, LPS, I-FABP) show improvement during elimination, partial worsening during rechallenge
+
+  *Evidence and Certainty.*
+
+  *Certainty: 0.55.* Mechanistically grounded in wheat-induced barrier dysfunction, butyrate's tight junction support, and the wheat-primed exercise intolerance hypothesis (well-established). Direct clinical evidence for the butyrate-wheat interaction in ME/CFS is lacking; the proposed protocol extends from component mechanisms to a specific testing framework. The intervention is low-risk, low-cost, and provides a clear decision tree for wheat sensitivity testing.
+
+  *Testable Predictions.*
+
+  1. Responders to wheat elimination will show measurable improvement in baseline PEM severity and GI symptoms.
+  2. Wheat rechallenge will trigger PEM exacerbation in responders (within 24–72 hours).
+  3. Butyrate supplementation during wheat rechallenge will reduce PEM exacerbation severity compared to rechallenge without butyrate (measured via PEM severity scale, steps, gut barrier markers).
+  4. Gut barrier markers (zonulin, LPS, I-FABP) will show improvement during wheat elimination and partial worsening during rechallenge, with butyrate attenuating the rechallenge worsening.
+
+  *Limitations.*
+
+  - No randomized controlled trials exist for this specific wheat-butyrater interaction protocol.
+  - Requires 10-week protocol; adherence challenges in severely fatigued patients.
+  - Placebo/nocebo effects are significant in dietary interventions; objective measures (steps, biomarkers) essential.
+  - Fructan/FODMAP confounding may obscure gluten-specific effects; requires careful dietary control or pure gluten challenge if gluten sensitivity suspected.
+  - Individual variability in wheat sensitivity prevalence (estimated 15% of ME/CFS cohorts) limits generalizability.
+
+  *Clinical Recommendation.*
+
+  Consider this protocol for patients reporting wheat-exacerbated PEM and GI symptoms, particularly those interested in testing the butyrate-wheat interaction hypothesis. The protocol provides a clear decision tree for wheat sensitivity testing while optimizing gut barrier function through butyrate supplementation.
+
+  (Section label: `sec:wheat-butyrate-interaction-protocol`)
+
+  *Certainty: 0.55.* Mechanistically grounded; direct ME/CFS evidence lacking; protocol is low-risk, well-structured, and provides clear decision criteria for wheat sensitivity testing.
+]
 
 #limitation(title: [No RCT of Elimination Diet in MCAS-ME/CFS])[
 No randomized controlled trial has tested dietary elimination in ME/CFS patients with confirmed MCAS as a comorbidity. The evidence supporting this approach comes from MCAS clinical practice guidelines, patient survey data showing $tilde$51% response rates, and the mechanistic rationale that reducing mast cell activation burden should reduce mediator-driven symptom load. Individual dietary response varies substantially, and the protocol itself carries an energy cost (cognitive effort, meal planning, social restriction) that must be weighed against potential benefit. Patients who do not improve after 6 weeks of strict elimination should discontinue the protocol rather than pursuing increasingly restrictive diets.
@@ -1676,6 +1811,70 @@ Multiple viral triggers identified in meta-analysis (EBV, HHV-7, enterovirus, co
 Chemical chaperones that reduce ER stress (TUDCA 500–1000mg/day, 4-phenylbutyrate 500mg/day) are FDA-approved for other conditions and well-tolerated. Early administration during acute EBV, enterovirus, or SARS-CoV-2 infection might prevent ER stress-mediated WASF3 upregulation and subsequent mitochondrial dysfunction. This represents a testable prophylactic intervention for at-risk individuals (family history of ME/CFS, severe viral prodrome).
 ] <spec:er-stress-prevention>
 
+=== B3: Vagal Afferent Function Test Battery (0.55)
+<sec:vagal-afferent-test-battery>
+
+#proposal(title: [B3: Vagal Afferent Function Test Battery (0.55)])[
+Mechanism and Rationale.
+
+Vagal afferent dysfunction may contribute to ME/CFS pathophysiology through impaired gut-brain signaling, dysregulated immune responses, and abnormal stress perception. The vagus nerve carries sensory signals from the gut to the brain, including visceral afferents that modulate inflammation (gut-brain-immune axis) and mediate parasympathetic tone.
+
+Test battery components.
+
+A comprehensive vagal afferent assessment includes:
+
+1. **Heart Rate Variability (HRV) Analysis**:
+   - High-frequency power (HF) reflects parasympathetic activity
+   - LF/HF ratio indicates sympathovagal balance
+   - RMSSD (root mean square of successive differences) measures vagal modulation
+
+2. **Baroreflex Sensitivity (BRS)**:
+   - Measure of vagal-mediated heart rate response to blood pressure changes
+   - Reduced BRS indicates impaired vagal buffering of cardiovascular fluctuations
+
+3. **Gastrocolic Reflex**:
+   - Measure of gastric emptying response to food intake
+   - Reduced or absent response suggests vagal afferent dysfunction
+
+4. **Vagal Tone During Orthostatic Stress**:
+   - Assess parasympathetic recovery after orthostatic challenge
+   - Prolonged HR recovery after standing indicates delayed vagal reactivation
+
+Clinical applications.
+
+Vagal afferent testing could:
+- **Detect vagal dysfunction**: Identify patients with impaired vagal signaling contributing to symptoms.
+- **Predict taVNS response**: Vagal afferent function may predict response to transcutaneous vagus nerve stimulation (taVNS), which targets efferent pathways but may benefit from intact afferent signaling.
+- **Predict butyrate-GPR41/43 response**: Vagal afferents express GPR41/43 and mediate butyrate signaling to the brain. Impaired vagal signaling may blunt butyrate's central effects.
+- **Stratify parasympathetic-deficient subtypes**: Patients with low vagal tone may form a distinct subgroup requiring parasympathetic support.
+
+Evidence and certainty.
+
+Certainty: 0.55. Mechanistically grounded in vagal anatomy, HRV physiology, and gut-brain signaling (well-established). Direct clinical evidence in ME/CFS populations linking vagal afferent dysfunction to symptoms or treatment response is lacking; the proposed test battery extends from established physiology to ME/CFS context. HRV and BRS are clinically validated measures; gut-brain interaction testing requires further validation in ME/CFS.
+
+Testable predictions.
+
+1. ME/CFS patients will show reduced HRV (lower HF power) compared to healthy controls.
+2. Vagal afferent dysfunction will correlate with elevated inflammatory markers (CRP, IL-6) and increased PEM frequency.
+3. Patients with preserved vagal afferent function will show greater improvement following butyrate supplementation.
+4. Vagal afferent function will predict response to taVNS treatment.
+
+Limitations.
+
+- HRV interpretation influenced by medications, activity, and breathing patterns.
+- BRS requires specialized equipment and technique; not universally available.
+- Gastrocolic reflex assessment is technically challenging; requires repeated measurements.
+- Vagal afferent dysfunction may be secondary to systemic dysautonomia rather than primary defect.
+- Limited validation against functional outcomes (fatigue, PEM, cognitive function).
+
+Clinical recommendation.
+
+Consider vagal afferent function testing as a research tool for identifying patients with vagal dysfunction who may benefit from parasympathetic support (taVNS, vagal nerve stimulation, HRV biofeedback) or may show differential response to butyrate (via GPR41/43 signaling).
+
+(Certainty: 0.55)
+
+]
+
 === Pyruvate Supplementation Hypothesis
 <subsec:pyruvate-supplementation>
 
@@ -1756,7 +1955,439 @@ The 2-day CPET demonstrates impaired recovery, not just impaired peak performanc
 
 #speculation(title: [NAD+ Precursors for Lactate Clearance])[
 NAD#super[+] is required for lactate-to-pyruvate conversion via lactate dehydrogenase. NAD#super[+] levels decline with age and chronic illness. Supplementation with NAD#super[+] precursors (nicotinamide riboside 300–1000mg/day, nicotinamide mononucleotide 250–500mg/day) is well-tolerated and raises cellular NAD#super[+] levels. If lactate clearance is impaired in ME/CFS, NAD#super[+] boosting might accelerate post-exertional recovery. This is testable with lactate measurements before and after NAD#super[+] supplementation during controlled exercise challenge.
-] <spec:nad-lactate>
+ ] <spec:nad-lactate>
+
+#proposal(title: [D4: HIF-1α Stabilizer/Inhibitor (0.40)])[
+*Section label:* `sec:hif1a-stabilizer`
+
+**Rationale and Mechanism:**
+
+HIF-1α (hypoxia-inducible factor 1-alpha) is a transcription factor that stabilises under low oxygen conditions, activating genes involved in glycolysis, angiogenesis, and erythropoiesis. In ME/CFS, butyrate deficiency may impair HIF-1α signalling, contributing to metabolic dysfunction. Butyrate inhibits HDACs, including HDAC3 which normally promotes HIF-1α degradation. Under butyrate-deficient conditions, HDAC3 may be more active, destabilising HIF-1α and blunting its protective metabolic adaptations.
+
+*Proposed mechanism:*
+
+    - Butyrate-deficient state → HDAC3 activity ↑ → HIF-1α degradation ↑ → impaired glycolytic adaptation and mitochondrial biogenesis
+    - Restoring HIF-1α activity may correct butyrate-deficient hypoxia signalling, improving cellular energy metabolism
+    - Could particularly benefit patients with documented HIF-1α signalling defects (if measurable)
+
+**Candidate compounds:**
+
+*HIF-1α stabilisers (currently preclinical):*
+
+    - *Dinaciclib:* HDAC inhibitor; may restore HIF-1α stability in butyrate-deficient states
+    - *GSK2118436 (PT2385):* HIF-2α selective agonist; being investigated for myelofibrosis
+    - *Molidustat:* Prolyl hydroxylase inhibitor; stabilises HIF-1α by blocking oxygen-sensing degradation pathway
+
+*HIF-1α inhibitors (potential for overactive signalling):*
+
+    *PX-478:* Small molecule inhibitor that induces HIF-1α degradation; used in oncology trials
+    - May be relevant if HIF-1α is overactive due to chronic hypoxia
+    - Needs careful patient selection to avoid exacerbating hypoxia
+
+**Evidence and Rationale:**
+
+Direct ME/CFS evidence is absent. Supporting data includes:
+
+    - Butyrate inhibits HDACs, including HDAC3 which promotes HIF-1α degradation @Papandreou2013butyrate
+    - HDAC inhibition stabilises HIF-1α and enhances glycolytic metabolism @Cunningham2012
+    - HIF-1α activation improves mitochondrial biogenesis and cellular resilience @Koh2010
+    - ME/CFS patients have impaired glycolytic metabolism and mitochondrial dysfunction @Lim2020
+
+However, no studies have measured HIF-1α signalling or HIF-1α-targeted interventions in ME/CFS. The hypothesis is mechanistic and extrapolated from butyrate-HIF-1α biology.
+
+**Clinical application:**
+
+*If butyrate deficiency impairs HIF-1α signalling:*
+
+    - HDAC3-selective inhibitors (e.g., selective HDAC3 inhibitors being developed) could restore HIF-1α stability
+    - Prolyl hydroxylase inhibitors (Molidustat, Roxadustat) may stabilise HIF-1α through alternative pathway
+
+*If HIF-1α is overactive:*
+
+    - HIF-1α inhibitors (PX-478, YC-1) could potentially reduce hypoxia-driven inflammation
+
+**Safety considerations:**
+
+*HIF-1α stabilisers:*
+
+    - May promote tumorigenesis if used long-term (HIF-1α activates genes involved in angiogenesis and cell survival)
+    - May increase erythropoiesis (dangerous if patients already have high hematocrit)
+    - Generally preclinical; not approved for chronic use
+
+*HIF-1α inhibitors:*
+
+    - May impair adaptation to hypoxia
+    - May reduce angiogenesis (potentially problematic for patients with cardiovascular dysfunction)
+
+**Patient selection:**
+
+Most appropriate for:
+
+    - ME/CFS patients with documented HIF-1α signalling defects (if measurable)
+    - Patients with severe glycolytic impairment
+    - Patients for whom butyrate supplementation is contraindicated or ineffective
+    - Patients without active cancer (long-term HIF-1α activation risk)
+
+**Clinical uncertainty:**
+
+Direct ME/CFS evidence is absent. HIF-1α targeting is preclinical for metabolic disorders. No trials have evaluated HIF-1α modulation in ME/CFS. Safety concerns are significant, particularly regarding tumour promotion and erythrocytosis.
+
+*Certainty:* 0.40. Mechanistically plausible with evidence from other conditions; direct ME/CFS data absent; safety and efficacy unknown.
+
+] <prop:hif1a-stabilizer>
+
+#proposal(title: [D2: GPR41/43 Agonist Development (0.45)])[
+*Section label:* `sec:gpr4143-agonist`
+
+**Rationale and Mechanism:**
+
+GPR41 (FFAR3) and GPR43 (FFAR4) are free fatty acid receptors expressed on vagal afferent neurons and immune cells. They mediate butyrate's effects on serotonin release, vagal stimulation, and anti-inflammatory signalling. Developing small molecule agonists for these receptors could mimic butyrate's vagal effects without requiring bacterial production.
+
+*Mechanistic pathway:*
+
+    - GPR41/43 agonism → vagal afferent activation → parasympathetic outflow → hepatic insulin sensitisation + anti-inflammatory tone
+    - GPR41/43 activation on immune cells → inhibition of NF-κB and pro-inflammatory cytokine production
+    - GPR41/43 activation on EC cells → enhanced serotonin synthesis and release
+
+**Advantages over butyrate:**
+
+    - Oral bioavailability (not dependent on bacterial fermentation)
+    - Selective targeting of GPR41/43 without affecting other butyrate pathways (HDAC inhibition, ketogenesis)
+    - Consistent dosing without microbiome variability
+    - Reduced side effects (no odour, no bloating)
+    - Potential for brain penetrance (small molecules may cross BBB)
+
+**Current status:**
+
+    - GPR41/43 agonists are primarily investigated for diabetes (glucose regulation, weight loss) and obesity
+    - Existing agonists (e.g., TAK-875, fasiglifam) were withdrawn due to liver toxicity
+    - New generations of GPR41/43 agonists are being developed with improved safety profiles
+    - Some preclinical evidence suggests GPR41/43 activation improves gut barrier function and reduces inflammation @Mitsui2016gpr41
+
+**Evidence and Rationale:**
+
+Direct ME/CFS evidence is absent. Supporting data includes:
+
+    - GPR41/43 mediate butyrate's anti-inflammatory and vagal effects @Barton2025
+    - GPR41/43 agonists improve glucose metabolism and reduce inflammation in animal models
+    - Butyrate-deficient ME/CFS patients may benefit from direct GPR41/43 activation
+    - Vagal stimulation via GPR41/43 may improve hepatic insulin sensitisation and reduce systemic inflammation
+
+However, no trials have evaluated GPR41/43 agonists in ME/CFS. The hypothesis is mechanistic and extrapolated from butyrate biology and GPR41/43 pharmacology.
+
+**Clinical application:**
+
+If GPR41/43 agonists become available:
+
+    - Potential first-line therapy for ME/CFS patients with butyrate-deficient dysbiosis
+    - Particularly valuable for patients with SIBO where oral butyrate supplementation is contraindicated
+    - Could be combined with butyrate for synergistic effects (direct receptor activation + HDAC inhibition)
+
+**Safety considerations:**
+
+*GPR41/43 agonists:*
+
+    - Some previous agonists (TAK-875) caused liver toxicity; new generations may be safer
+    - May cause gastrointestinal upset, nausea, or pruritus
+    - May interact with other glucose-regulating medications
+    - Long-term safety in chronic conditions is unknown
+
+**Drug interactions:**
+
+    - Diabetes medications (insulin, metformin): may enhance glucose-lowering effects
+    - Antihistamines: unknown interactions
+    - Anticholinergics: may compete for vagal pathways
+
+**Patient selection:**
+
+Most appropriate for:
+
+    - ME/CFS patients with butyrate-deficient dysbiosis
+    - Patients with SIBO where oral butyrate supplementation is contraindicated
+    - Patients intolerant to butyrate (odour, bloating)
+    - Patients seeking more consistent dosing than probiotic-based approaches
+
+**Clinical uncertainty:**
+
+Direct ME/CFS evidence is absent. GPR41/43 agonists are primarily diabetes drugs; long-term safety and efficacy in chronic metabolic disorders are unknown. ME/CFS-specific dosing, response predictors, and biomarkers are undefined.
+
+*Certainty:* 0.45. Mechanistically plausible with preclinical support; direct ME/CFS data absent; clinical development timeline uncertain.
+
+] <prop:gpr4143-agonist>
+
+=== C3: Caregiver-Implemented Severe Patient Protocol (0.50)
+<sec:caregiver-severe-protocol>
+
+#proposal(title: [C3: Caregiver-Implemented Severe Patient Protocol (0.50)])[
+Mechanism and Rationale.
+
+Severe ME/CFS patients—particularly those bedridden or severely debilitated—often require caregiver assistance for nutrition, hygiene, movement, and medication administration. A comprehensive protocol addresses the access gap: severe patients cannot independently implement the lifestyle and nutritional strategies outlined elsewhere in this document due to cognitive, physical, and energy constraints.
+
+The caregiver-implemented protocol provides a systematic approach for:
+
+- **Dietary management** (nutrient density, meal timing, small frequent meals)
+- **Supplement administration** (butyrate, CoQ10, electrolytes, B vitamins)
+- **Movement and activity** (bed-based micro-movement, gentle range-of-motion)
+- **Sleep optimization** (environment, temperature control, relaxation)
+- **PEM monitoring** (symptom tracking, energy envelope calibration)
+- **Medical coordination** (lab monitoring, medication management)
+
+Practical implementation framework.
+
+**1. Diet and Nutrition Management**
+
+*Dietary principles (adapted for severe patients):*
+
+- **Small, frequent meals**: 5–6 small meals per day to reduce post-prandial splanchnic demand
+- **Nutrient density**: Prioritize whole foods; consider blended nutrition shakes if chewing/swallowing difficult
+- **Hydration support**: Fluid monitoring; encourage 2–3 liters daily
+- **Supplement timing**: Administer supplements with meals to improve absorption
+- **Temperature-optimized meals**: Serve warm (37–40°C) to improve digestion and reduce gastrointestinal symptoms
+
+*Caregiver responsibilities:*
+
+- Meal preparation and timing
+- Supplement administration (track doses, timing)
+- Fluid intake monitoring
+- Symptom observation post-meals (bloating, nausea, fatigue)
+
+**2. Supplement Administration Protocol**
+
+*Sequenced introduction:*
+
+**Phase 1 (Weeks 1–4): Foundation**
+
+- Electrolytes: Sodium chloride, potassium chloride (monitored)
+- Magnesium: 100–200 mg/day (titrate based on tolerability)
+- CoQ10: 50–100 mg/day ubiquinol
+- D-ribose: 2.5 g/day (start low, increase if tolerated)
+- Sleep optimization: Melatonin 0.3–0.5 mg fixed-time
+
+**Phase 2 (Weeks 5–8): Energy substrates**
+
+- Continue Phase 1 supplements
+- Add L-carnitine: 500 mg/day
+- Add NR/NMN: 100–150 mg/day
+- Consider NAC: 300–600 mg/day (monitoring GI tolerance)
+
+**Phase 3 (Weeks 9–12): Symptom management**
+
+- Continue Phase 2 supplements
+- Add PEA: 300–600 mg/day (pain)
+- Add melatonin variation if needed (sleep optimization)
+- Consider adjuncts based on phenotyping (see Section:phenotyping-imperative)
+
+*Caregiver responsibilities:*
+
+- Track each supplement (name, dose, timing)
+- Monitor for adverse effects (nausea, fatigue exacerbation, PEM triggers)
+- Document response (improvement, no change, worsening)
+- Adjust dose weekly based on tolerability
+
+**3. Movement and Activity Management**
+
+*Bed-based micro-movement protocol (daily):*
+
+- **Torso rotations**: 10–20° left/right, supine
+- **Abdominal massage**: 2–3 minutes clockwise, gentle pressure
+- **Hip/knee rotations**: Gentle flexion/extension
+- **Arm range-of-motion**: Clockwise/counterclockwise circles
+
+*Activity planning:*
+
+- **Energy envelope tracking**: Log hours upright, steps (if possible), activities performed
+- **PEM monitoring**: Track symptoms 12–72 hours after activity
+- **Activity restriction**: Adjust based on observed PEM patterns
+
+*Caregiver responsibilities:*
+
+- Perform micro-movement protocol
+- Assist with any permitted activity (short walks, seated range-of-motion)
+- Monitor and document PEM onset
+- Adjust activity levels based on patient tolerance
+
+**4. Sleep Optimization (caregiver-assisted)**
+
+*Environment setup:*
+
+- **Bedroom environment**: Darkness, temperature 18–20°C, minimal noise
+- **Sleep schedule**: Consistent wake time (within 30 minutes), fixed bedtime
+- **Light management**: Morning light exposure (10,000 lux, 20 minutes) within 30 minutes of waking
+
+*Bedtime routine:*
+
+- **Relaxation practice**: 15–30 minutes diaphragmatic breathing, guided imagery
+- **Temperature optimization**: Warm bath or shower 1–2 hours before bed
+- **Dietary timing**: No large meals within 2 hours of bedtime; small protein snack acceptable
+
+*Caregiver responsibilities:*
+
+- Setup and maintain sleep environment
+- Assist with morning light exposure
+- Perform relaxation practices with patient
+- Monitor sleep quality and duration
+- Adjust schedule based on response
+
+**5. PEM Monitoring and Response Tracking**
+
+*Daily tracking:*
+
+- **Symptom severity**: Fatigue (0–10), pain (0–10), brain fog (0–10), GI symptoms (0–10)
+- **Activity level**: Hours upright, steps (if wearable available), activities performed
+- **PEM assessment**: Note post-exertional symptoms (12–72 hours after activities)
+- **Supplement response**: Document improvements, side effects, PEM triggers
+
+*Weekly review:*
+
+- **Trend analysis**: Identify patterns (which activities trigger PEM, which supplements improve symptoms)
+- **Dose adjustment**: Titrate supplements based on tolerability and response
+- **Energy envelope calibration**: Adjust activity limits based on observed patterns
+
+*Caregiver responsibilities:*
+
+- Complete daily tracking forms with patient
+- Review weekly trends with patient
+- Adjust supplement doses and activity levels based on review
+- Communicate changes to medical team
+
+**6. Medical Coordination**
+
+*Baseline assessment (Week 1):*
+
+- **Functional status**: Bell Disability Scale score
+- **Labs**: CBC, comprehensive metabolic panel, vitamin D, B12, iron studies, thyroid panel
+- **Gut barrier assessment**: Fecal butyrate (optional), serum zonulin (optional)
+- **Phenotyping**: Baseline for future subtype identification
+
+*Ongoing monitoring:*
+
+- **Monthly labs**: CBC, electrolytes (especially if on diuretics or significant supplementation)
+- **Supplement tracking**: Review medication/supplement list weekly
+- **Symptom review**: Discuss improvements, concerns, and side effects
+
+*Caregiver responsibilities:*
+
+- Assist with lab draws and scheduling
+- Maintain medication/supplement inventory
+- Document side effects and adverse reactions
+- Communicate concerns to healthcare provider
+
+*Stopping rules:*
+
+- **PEM exacerbation**: Any new supplement or activity causing significant PEM worsening → stop
+- **Functional decline**: Bell DS score worsening >1 tier after treatment trial → reassess
+- **Side effects**: Severe adverse reactions → discontinue
+- **No improvement after 8–12 weeks**: Consider alternative approach
+
+Evidence and certainty.
+
+Certainty: 0.50. Caregiver-assisted protocols for severe patients are established in critical care and palliative medicine contexts. The proposed protocol extends from established deconditioning prevention, nutritional support, and caregiver coordination principles to the specific context of ME/CFS. Direct clinical evidence for caregiver-implemented butyrate protocols in ME/CFS severe populations is lacking; the framework is based on extrapolation from general severe illness protocols and ME/CFS care principles.
+
+Testable predictions.
+
+1. Caregiver-implemented protocols will show higher adherence than patient self-administered protocols in severe ME/CFS patients.
+2. Caregiver-coordinated supplement titration will improve tolerability and reduce PEM-triggering side effects.
+3. Caregiver-assisted PEM monitoring will improve detection of delayed reactions compared to patient self-monitoring.
+4. Caregiver-implemented protocols will result in greater functional improvement (Bell DS score) compared to no intervention or basic support.
+
+Limitations.
+
+- No ME/CFS-specific clinical trials exist for caregiver-implemented comprehensive protocols.
+- Requires caregiver availability and training; not feasible for patients without caregivers.
+- Caregiver burnout risk: significant time commitment and emotional labor.
+- Individual variability in protocol responsiveness.
+- Limited evidence for gut-specific benefits (butyrate production, barrier function) in severe populations.
+- PEM risk monitoring requires caregiver vigilance, which may not be available.
+
+Clinical recommendation.
+
+Consider caregiver-implemented protocols for severe ME/CFS patients requiring assistance with nutrition, movement, and monitoring. The systematic approach provides structure, improves adherence, and enables personalized titration based on observed responses. Caregiver training and support are essential for successful implementation.
+
+(Certainty: 0.50)
+
+]
+
+#proposal(title: [D5: DPP-4 Inhibitor Repurping (0.35)])[
+*Section label:* `sec:dpp4-inhibitor`
+
+**Rationale and Mechanism:**
+
+DPP-4 (dipeptidyl peptidase-4) inhibitors (sitagliptin, linagliptin, saxagliptin, alogliptin) are approved diabetes medications that inhibit the enzyme that degrades GLP-1 (glucagon-like peptide-1) and GIP (glucose-dependent insulinotropic polypeptide). GLP-1 enhances gut barrier function, reduces inflammation, and promotes insulin sensitisation. Some evidence suggests GLP-1 may also stimulate butyrate production.
+
+*Mechanistic pathway:*
+
+    - GLP-1 (released from L-cells in response to nutrients) → GPR-40/1 activation on gut microbiota → increased butyrate production
+    - DPP-4 inhibition → GLP-1 and GIP half-life extension → enhanced GLP-1 signalling
+    - Enhanced GLP-1 signalling → improved gut barrier function, reduced inflammation, insulin sensitisation
+
+**Evidence and Rationale:**
+
+Direct ME/CFS evidence is absent. Supporting data includes:
+
+    - GLP-1 improves gut barrier function and reduces intestinal permeability in animal models @Xie2018glp-1
+    - GLP-1 has anti-inflammatory effects via vagal pathways @Yadav2016vagal
+    - DPP-4 inhibitors improve gut barrier function in diabetic patients @Baggerly2015dpp4
+    - Butyrate production may be stimulated by GLP-1-mediated changes in gut microbiota composition @Liu2016glp-1
+
+However, no studies have evaluated DPP-4 inhibitors in ME/CFS. The hypothesis is mechanistic and extrapolated from diabetes and gut barrier literature.
+
+**Clinical application:**
+
+If DPP-4 inhibitors improve gut barrier function and butyrate production:
+
+    - Potential adjunctive therapy for ME/CFS patients with gut barrier dysfunction
+    - Particularly valuable for patients with SIBO where butyrate supplementation is contraindicated
+    - May be combined with butyrate for synergistic effects (direct GLP-1 enhancement + butyrate production)
+
+**Drug choice:**
+
+*Sitagliptin:*
+
+    - Most selective DPP-4 inhibitor
+    - Oral, once-daily dosing
+    - Well-tolerated, liver safety established
+
+*Linagliptin:*
+
+    - Eliminated via bile (not renal excretion)
+    - Suitable for patients with renal impairment (common in ME/CFS)
+    - Once-daily dosing
+
+*Other options:*
+
+    - Alogliptin, saxagliptin: less selective, more adverse effects
+
+**Safety considerations:**
+
+*DPP-4 inhibitors:*
+
+    - Generally well-tolerated; most common side effects are mild GI upset
+    - Rare risk of pancreatitis
+    - Rare risk of heart failure exacerbation (contraindicated in recent decompensated heart failure)
+    - May cause hypoglycaemia when combined with insulin or sulfonylureas
+
+**Drug interactions:**
+
+    - Insulin, sulfonylureas: may enhance glucose-lowering → hypoglycaemia risk
+    - Rifampin: may increase sitagliptin exposure
+    - Unknown interactions with other ME/CFS medications
+
+**Patient selection:**
+
+Most appropriate for:
+
+    - ME/CFS patients with documented gut barrier dysfunction (elevated lactulose/mannitol ratio)
+    - Patients with SIBO where butyrate supplementation is contraindicated
+    - Patients without contraindications to DPP-4 inhibitors (recent heart failure, pancreatitis risk)
+    - Patients with glucose intolerance (may benefit from dual diabetes/gut barrier benefits)
+
+**Clinical uncertainty:**
+
+Direct ME/CFS evidence is absent. DPP-4 inhibitors improve gut barrier function in diabetic patients but not proven in ME/CFS. ME/CFS-specific dosing, response predictors, and biomarkers are undefined. Long-term safety in chronic conditions is unknown.
+
+*Certainty:* 0.35. Mechanistically plausible with evidence from diabetes and gut barrier literature; direct ME/CFS data absent; clinical application speculative.
+
+] <prop:dpp4-inhibitor>
 
 === Mast Cell-Mitochondrial Crosstalk
 <subsec:mcas-mito>
@@ -1929,3 +2560,426 @@ This severity-stratified protocol is derived from Architecture C logic, not from
 
 A systematically escalated reserve-building protocol, stratified by severity and combining iron repletion, BH4 recycling support, phosphocreatine buffering, perfusion optimization, and ADHD-adapted pacing, should reduce PEM frequency and improve functional capacity in neurodivergent ME/CFS patients compared to standard care alone. The certainty is low because the protocol is entirely theoretical — individual components have moderate evidence but the combination is untested. A pragmatic trial ($n = 60$, 3 severity arms, 6-month follow-up) measuring PEM frequency, cognitive function, and PBMC spare respiratory capacity would test the integrated approach. Not yet replicated.
 ] <spec:severity-stratified-reserve-protocol>
+
+#proposal(title: [C1: Severity-Stratified Butyrate Protocol (0.65)])[
+*Section label:* `sec:severity-stratified-butyrate`
+
+**Protocol structure by severity and clinical presentation:**
+
+=== Mild-Moderate ME/CFS (Ambulatory, Good Oral Tolerance)
+
+**RS2-First Approach (Microbiome-Targeted):**
+
+1. **RS2 microencapsulation:** 0.5–1 g BID (1–2 g/day total)
+   - Start low (0.5 g BID) to assess tolerability
+   - Titrate upward weekly by 0.5 g if no GI intolerance
+   - Target: 2 g/day total after 4–6 weeks
+
+2. **RS3 addition (if tolerating RS2 well):** 0.5 g/day after 6 weeks
+   - Provides distal colon butyrate coverage
+   - Combination: RS2 (proximal) + RS3 (distal) for full-colon butyrate production
+
+3. **Butyrate backup (if RS response inadequate):** 1–2 g/day tributyrin
+   - Can be started alone if RS not well-tolerated
+   - Use during 2–3 week RS titration pause if intolerance occurs
+
+**Rationale:** Mild-moderate patients typically have intact GI function and can tolerate oral supplementation. RS2-first approach addresses microbiome restoration while minimizing upfront energy cost.
+
+**Monitoring:**
+- Baseline SIBO test (lactulose/mannitol breath test)
+- Symptom diary: GI discomfort, bloating, stool frequency
+- PEM threshold monitoring (activity tracking, symptom logs)
+- Repeat SIBO test after 12 weeks if initial was negative
+
+**Stopping criteria:**
+- Worsening GI symptoms despite slow titration
+- PEM exacerbation (>20% increase in frequency/severity)
+- No fecal butyrate improvement after 12 weeks
+- New or worsening orthostatic symptoms (possible electrolyte imbalance)
+
+=== Severe ME/CFS (Housebound, Limited Oral Intake)
+
+**Tributyrin-First Approach (Direct Delivery):**
+
+1. **Tributyrin oral (if swallowing feasible):** 500 mg BID (2 g/day total)
+   - Enteric-coated capsules to minimize gastric effects
+   - Prefer formulations with microencapsulation (if available)
+   - Administer with small amount of liquid to assist swallowing
+
+2. **Sublingual butyrate (if oral swallowing difficult):** 200 mg 4× daily (800 mg/day)
+   - Sublingual spray or dissolving tablet formulation
+   - Avoids upper GI transit and potential nausea
+   - Requires ability to hold in mouth and swallow after absorption
+
+3. **Tributyrin rectal suppository (if neither oral route feasible):** 500 mg BID
+   - Bypasses upper GI motility and absorption
+   - Requires caregiver administration or specialized delivery device
+   - Well-established safety for other rectal medications
+
+**Dose adjustment by severity tier:**
+
+*Severe (Bell DS 6–7):* Start with 500 mg BID (1 g/day total), titrate to 2 g/day over 4 weeks
+*Very Severe (Bell DS 7–8, minimal oral intake):* 500 mg BID (1 g/day total) as maintenance; avoid rapid titration
+*Bedbound with caregiver support:* Can titrate to 2 g/day if tolerating well
+
+**Interaction and safety checks:**
+
+1. **SIBO contraindication:** Absolute contraindication for all butyrate routes. Test before starting; if SIBO positive, do not start butyrate supplementation.
+
+2. **GI function assessment:** Evaluate baseline constipation/diarrhea pattern. Butyrate can cause loose stool if dose escalated too quickly—start low and increase gradually.
+
+3. **Electrolyte monitoring:** Butyrate metabolism produces bicarbonate—monitor electrolytes if on diuretics or have renal impairment. Rare but possible.
+
+4. **PEM monitoring:** Daily symptom tracking to detect any exertion-triggered worsening.
+
+5. **Drug interactions:** No significant interactions, but document all medications and supplements for comprehensive safety review.
+
+**Severe patient-specific considerations:**
+
+*Absorption challenges:* Severely disabled patients may have reduced GI motility, malabsorption, or dependence on tube feeding. Tributyrin rectal administration bypasses upper GI transit and is the most reliable route for severe patients.
+
+*Tolerability constraints:* GI side effects (bloating, urgency, discomfort) are poorly tolerated in energy-depleted patients. Start with lowest effective dose and increase slowly (every 2–4 weeks). Use microencapsulated formulations if available.
+
+*PEM risk:* Any metabolic intervention may trigger post-exertional malaise. Daily symptom diaries are essential. Stopping rules include PEM worsening as primary safety concern.
+
+*Caregiver involvement:* Severe patients often require caregiver assistance for oral/sublingual administration. Caregiver training on proper administration technique is critical.
+
+**Pediatric ME/CFS (if applicable):**
+
+*General considerations:* Pediatric dosing based on body weight (5–10 mg/kg/day). Use pediatric formulations if available. Consider oral liquids or chewable tablets for younger children.
+
+*Dose adjustment:*
+- Children 6–12 years: 2–4 g RS/day or 1–2 g tributyrin/day (body-weight adjusted)
+- Adolescents 13–18 years: Similar to adult dosing (3–5 g RS/day or 2–4 g tributyrin/day)
+- Safety monitoring: Growth parameters, nutrient status, behavioral changes
+
+**MCAS-subtype specific considerations:**
+
+*Low-histamine butyrate protocol:*
+
+For patients with MCAS who are histamine-intolerant:
+
+1. **Encapsulated forms only:** Avoid liquid butyrate formulations (may contain histamine)
+2. **Microencapsulation preferred:** Prevents histamine exposure during upper GI transit
+3. **Trial schedule:** Start with single dose (500 mg BID) on low-histamine diet, monitor for histamine-related symptoms (flushing, GI upset, palpitations)
+4. **Interaction with MCAS medications:** Document antihistamine use; butyrate is generally safe but document for comprehensive safety review
+5. **Dairy-derived butyrate (butter ghee):** Avoid due to histamine content in aged/fermented dairy
+
+*Rationale:* Butyrate is not inherently histamine-producing, but fermentation-related histamine and histamine-producing bacteria may worsen MCAS symptoms in sensitive patients. Encapsulation minimizes GI histamine exposure.
+
+**Severity stratification summary:**
+
+|Mild-Moderate|Severe (Caregiver)|Severe (No Caregiver)|
+|---|---|---|
+|Primary: RS2 microencapsulation|Primary: Tributyrin oral|Primary: Tributyrin rectal|
+|Backup: RS3 microencapsulation|Backup: Sublingual butyrate|Backup: Sublingual butyrate (if feasible)|
+|Alternative: Tributyrin|Alternative: Sublingual butyrate|Not feasible without caregiver|
+
+**Expected timeline:**
+
+- **Weeks 1–2:** Start with lowest effective dose; assess tolerability
+- **Weeks 3–4:** Titrate upward if well-tolerated
+- **Weeks 5–8:** Stabilize on target dose
+- **Weeks 9–12:** Assess response (fecal butyrate, symptom diary, PEM monitoring)
+- **Weeks 13–24:** Long-term evaluation; consider adding or adjusting based on response
+
+**Clinical uncertainty and limitations:**
+
+- Direct ME/CFS evidence for severity-stratified approach is preliminary
+- Microencapsulation technology for RS may not be clinically established
+- Tributyrin formulations vary in quality and stability
+- Rectal administration may have acceptability issues in severely disabled patients
+- Individual response variability is high—personalized dosing required
+
+**Implementation guidance:**
+
+1. **Baseline assessment:** SIBO test, baseline fecal butyrate, GI function assessment
+2. **Start low:** Begin with half of target dose if severe or if prior GI intolerance
+3. **Slow titration:** Increase every 2–4 weeks, not more frequently
+4. **Monitor daily:** Symptom diary, PEM threshold, GI comfort
+5. **Document response:** Fecal butyrate recheck at 12 weeks if initial was abnormal
+6. **Involve caregivers:** For severe patients, caregiver training is essential for proper administration
+
+**Medical supervision required:**
+
+- Baseline SIBO test before starting butyrate supplementation
+- Careful titration under physician guidance
+- Regular monitoring for GI side effects and PEM
+- Fecal butyrate testing at 12 weeks (optional but informative)
+- Document all supplements and medications for comprehensive safety review
+
+] <prop:severity-stratified-butyrate>
+
+#proposal(title: [C4: Prebiotic-SIBO Test-and-Treat Algorithm (0.60)])[
+*Section label:* `sec:prebiotic-sibo-algorithm`
+
+**Rationale and objectives:**
+
+Prebiotic resistant starch supplementation is contraindicated in SIBO (small intestinal bacterial overgrowth), yet many ME/CFS patients have undiagnosed SIBO or breath test false negatives. This algorithm provides a systematic approach to testing and managing SIBO risk when considering prebiotic-based butyrate restoration (RS2/RS3 supplementation).
+
+**Sequential algorithm (4-step process):**
+
+=== Step 1: Baseline SIBO Testing
+
+**Breath test selection:**
+
+1. **Lactulose breath test (LBT):**
+   - Pros: Detects SIBO throughout small intestine (proximal to distal)
+   - Cons: Higher false-negative rate due to rapid transit in fast transit patients; requires fasting
+   - Best for: Patients with suspected SIBO who have normal bowel habits
+
+2. **Mannitol breath test (MBT):**
+   - Pros: Higher sensitivity than lactulose; detects SIBO regardless of transit time
+   - Cons: Less specific (detects bacterial overgrowth, not necessarily pathogenic overgrowth)
+   - Best for: Patients with rapid transit, suspected pancreatic insufficiency, or prior LBT false negatives
+
+3. **Combination approach (recommended):**
+   - Perform both LBT and MBT on the same day (separate breath collections)
+   - Compare results: Concordant positive results increase diagnostic confidence
+   - Discordant results (LBT negative, MBT positive) suggest rapid transit—consider MBT as primary indicator
+
+**Testing protocol:**
+
+- Fasting overnight (8–12 hours)
+- Baseline breath sample (pre-test)
+- Oral glucose or lactulose/mannitol challenge
+- Serial breath samples: every 15–20 minutes for 3–5 hours (or until pattern emerges)
+- Measure hydrogen (H2) and methane (CH4) concentrations
+
+**Interpretation criteria:**
+
+*Hydrogen-positive SIBO (H2):*
+- Rise in H2 > 20 ppm above baseline
+- Peak > 20 ppm above baseline at 60+ minutes post-challenge
+
+*Methane-positive SIBO (CH4):*
+- Rise in CH4 > 10 ppm above baseline
+- Peak > 10 ppm above baseline at 60+ minutes post-challenge
+
+*Hydrogen/methane double-positive:*
+- Both H2 and CH4 elevations meeting criteria
+- Associated with slower transit time and more severe symptom burden
+
+**Step 2: Test Results and Immediate Management**
+
+**Scenario A: SIBO-positive (LBT or MBT)**
+
+*If H2-positive:*
+- **Contraindication:** Resistant starch supplementation is contraindicated (fermentable substrate feeds small intestinal overgrowth)
+- **Immediate action:** Do NOT start RS supplementation
+- **Treatment options:** Rifaximin-based SIBO treatment protocol (see Step 3)
+- **Alternative:** Consider direct butyrate (tributyrin) supplementation if RS contraindication cannot be avoided
+
+*If CH4-positive:*
+- **Contraindication:** Resistant starch contraindicated (methane-producing bacteria consume substrate)
+- **Immediate action:** Do NOT start RS supplementation
+- **Treatment options:** Rifaximin + neomycin or metronidazole combination for methane-positive SIBO
+- **Alternative:** Consider tributyrin or other non-prebiotic butyrate delivery
+
+*If H2/CH4 double-positive:*
+- **Contraindication:** Resistant starch contraindicated for both pathways
+- **Immediate action:** Do NOT start RS supplementation
+- **Treatment options:** Rifaximin-based quadruple therapy (rifaximin + neomycin + metronidazole + rifaximin)
+- **Alternative:** Consider tributyrin or enteric-coated butyrate formulations
+
+**Scenario B: SIBO-negative (both LBT and MBT)**
+
+*Option 1: Start RS supplementation (low-risk):*
+- **RS2 microencapsulation:** 0.5 g BID start, titrate upward
+- **Monitoring:** Daily symptom diary, repeat breath test at 12 weeks
+- **Stopping criteria:** Worsening GI symptoms, new or worsening SIBO symptoms, PEM exacerbation
+
+*Option 2: RS supplementation with close monitoring (moderate risk):*
+- **RS2 microencapsulation:** 0.5 g BID start, increase every 2 weeks
+- **Breath test monitoring:** Repeat LBT or MBT at weeks 4, 8, 12
+- **Stopping criteria:** Positive breath test re-emergence, worsening symptoms
+
+*Recommended approach:* Option 1 (start RS, monitor closely). SIBO-negative patients have a high probability of tolerating RS supplementation if started cautiously.
+
+=== Step 3: SIBO Treatment (If Positive)
+
+**First-line: Rifaximin-based approach**
+
+*Rifaximin protocol:*
+- **Dose:** 550 mg BID (11 55 mg tablets daily)
+- **Duration:** 14 days
+- **Adjunct therapies:**
+  - Peppermint oil (capsule form, 0.2 mL 3× daily) to reduce SIBO recurrence
+  - Low-FODMAP diet for 4–6 weeks to reduce fermentable substrate
+  - Probiotic supplementation (Lactobacillus/Bifidobacterium strains) to restore microbiome balance
+
+*Post-treatment monitoring:*
+- Repeat breath test 4 weeks after completing rifaximin
+- If SIBO-positive: consider second round of rifaximin or alternative treatment approaches
+- If SIBO-negative: proceed with RS supplementation
+
+**Alternative approaches (if rifaximin not tolerated or ineffective):**
+
+*Elemental diet lead-in:*
+- **Protocol:** 14-day elemental diet (3,000–3,500 kcal/day, fully digestible macronutrients)
+- **Mechanism:** Starves SIBO bacteria of fermentable substrate, reduces overgrowth
+- **Post-diet:** Resume RS supplementation if tolerating well
+- **Evidence:** Limited ME/CFS data; established in small bowel bacterial overgrowth treatment
+
+*Probiotic-based reduction:*
+- **Strains:** Saccharomyces boulardii, Lactobacillus plantarum, Bifidobacterium adolescentis
+- **Dose:** 10–50 billion CFU daily, divided doses
+- **Mechanism:** Competitive exclusion, production of anti-microbial compounds
+- **Evidence:** Moderate for general SIBO reduction; ME/CFS-specific evidence limited
+
+*Combination approach (most effective):*
+- Rifaximin 14 days + elemental diet 14 days + probiotics 8 weeks + RS supplementation 12 weeks
+- Addresses active SIBO, reduces substrate, restores microbiome balance
+
+=== Step 4: Post-Intervention RS Supplementation
+
+**SIBO-negative patients (starting RS):**
+
+*RS2 microencapsulation protocol:*
+1. **Week 0:** Baseline breath test (confirm negative)
+2. **Week 1:** Start RS2 microencapsulation 0.5 g BID
+3. **Week 2:** Monitor symptoms; titrate to 1 g BID if well-tolerated
+4. **Week 4:** Titrate to 1.5 g BID if still tolerating well
+5. **Week 6:** Consider adding RS3 microencapsulation (0.5 g/day) if tolerating RS2 well
+6. **Week 8:** Target dose 2 g/day (RS2 + RS3) if no GI intolerance
+
+*Monitoring:*
+- Daily symptom diary (GI symptoms, bloating, stool frequency)
+- PEM threshold monitoring
+- Repeat breath test at week 12 (optional, if symptoms change)
+
+**SIBO-positive patients (after treatment):**
+
+*RS2 microencapsulation protocol (post-treatment):*
+1. **Week 4:** Repeat breath test (confirm SIBO resolution)
+2. **Week 5:** If negative, start RS2 microencapsulation 0.5 g BID
+3. **Week 6–8:** Titrate upward as tolerated
+4. **Week 12:** Target dose 2 g/day (RS2 + RS3 if tolerating well)
+
+*Alternative (if breath test remains positive):*
+- Continue non-prebiotic butyrate approach (tributyrin)
+- Consider repeat SIBO treatment protocol
+- Address underlying causes (motility dysfunction, anatomical abnormalities)
+
+**Post-treatment maintenance:**
+
+*Long-term monitoring frequency:*
+- Repeat breath test every 6–12 months if RS supplementation is maintained
+- Watch for symptom recurrence (bloating, diarrhea, abdominal discomfort)
+- SIBO recurrence rates after treatment vary widely (30–60% at 12 months)
+- Early intervention (repeat breath test + preemptive treatment) improves outcomes
+
+**Special considerations:**
+
+*Recurrent SIBO:*
+- Repeat breath test if symptoms return after initial treatment
+- Consider extended rifaximin course (28 days) for persistent SIBO
+- Evaluate underlying causes: pancreatic insufficiency, hypothyroidism, motility disorders, anatomical abnormalities
+
+*Pregnancy and lactation:*
+- Rifaximin safety not fully established during pregnancy/lactation
+- Element diet contraindicated during pregnancy (caloric restriction)
+- Probiotic supplementation generally considered safe, but individual evaluation required
+
+*Concomitant medications:*
+- Rifaximin can interact with certain medications (e.g., warfarin, certain anticoagulants)
+- Document all medications before starting SIBO treatment
+
+**Algorithm summary:**
+
+1. **Test:** LBT + MBT breath test (baseline)
+2. **Interpret:** H2/CH4 elevations indicate SIBO
+3. **Treat (if positive):** Rifaximin-based protocol + probiotics + low-FODMAP diet
+4. **Re-test (4 weeks):** Confirm SIBO resolution
+5. **Start RS (if negative):** RS2 microencapsulation, titrate upward
+6. **Monitor:** Daily symptoms + periodic breath tests
+7. **Maintain:** Repeat breath tests 6–12 months if ongoing RS supplementation
+
+**Clinical uncertainty and limitations:**
+
+- SIBO testing accuracy: Breath tests have false-negative and false-positive rates
+- Rifaximin efficacy in ME/CFS: Limited data; most evidence from functional bowel disorders
+- SIBO recurrence: High recurrence rates despite treatment
+- RS tolerance variability: Individual response to prebiotic supplementation varies widely
+- Optimal timing: Unclear whether pre-treatment SIBO testing changes RS supplementation outcomes
+
+**Evidence tier:**
+
+- **SIBO testing:** High evidence quality (validated breath test protocols)
+- **Rifaximin treatment:** Moderate evidence in general SIBO; limited ME/CFS-specific data
+- **RS supplementation:** Strong mechanistic rationale; limited ME/CFS clinical evidence
+- **Algorithm integration:** Theoretical combination of established components; not empirically validated in ME/CFS
+
+**Implementation recommendation:**
+
+*Low-risk patients:* Start RS2 microencapsulation directly with close monitoring (step 2, Option 1).
+*Moderate risk:* Perform breath test first, then proceed with RS if negative (step 2, Option 2).
+*High risk:* Treat SIBO first, then proceed with RS after treatment (steps 1–3).
+*Severe patients:* Consider direct butyrate (tributyrin) as alternative to RS to avoid SIBO testing complexity.
+
+**Reference to ch16:** Prebiotic supplementation details (RS2/RS3 types, dosing, microencapsulation) covered in Section @prop:microencapsulated-rs of Chapter @ch:supplements.
+
+**Reference to ch14:** SIBO testing protocols detailed in ch14-microbiome-subsections; butyrate and prebiotic interactions with gut microbiome covered in ch14 microbiome sections.
+
+] <prop:prebiotic-sibo-algorithm>
+#proposal(title: [HDAC Inhibitor Repurposing for Butyrate-Mimetic Effect])[
+*Certainty: 0.60.* Butyrate's primary anti-inflammatory mechanism is HDAC inhibition. Pharmaceutical HDAC inhibitors (e.g., valproic acid, vorinostat) could mimic butyrate's epigenetic effects without requiring gut fermentation. This bypasses butyrate-producer deficiency entirely, offering a pharmacological approach to achieve butyrate-mimetic anti-inflammatory effects.
+
+*Mechanistic rationale:* HDAC inhibitors restore acetylation of histones and non-histone proteins, downregulating pro-inflammatory gene expression and upregulating barrier-protective genes. This matches the core butyrate mechanism documented in Hodgkinson 2023 review (@Hodgkinson2023mechanisms).
+
+*Drug candidates:*
+- **Valproic acid (VPA):** FDA-approved, well-characterized HDAC inhibitor, crosses blood-brain barrier
+- **Vorinostat (SAHA):** Potent pan-HDAC inhibitor, FDA-approved for cutaneous T-cell lymphoma
+- **Entinostat (MS-275):** Selective HDAC1/3 inhibitor, better safety profile than pan-inhibitors
+
+*Dosing rationale:* Start at 10 percent of standard psychiatric dose (VPA 50mg daily), titrate based on tolerability. Chronic low-dose may achieve sufficient HDAC inhibition for anti-inflammatory effects without toxicity.
+
+*Falsifiable predictions:*
+- Low-dose VPA should reduce NF-kappaB activation (measured by p65 nuclear translocation in PBMCs) and increase tight junction protein expression (occludin, claudin-1) within 4 weeks, without requiring butyrate-producing bacteria
+- HDAC inhibition should normalize histone acetylation patterns in intestinal biopsies, reducing pro-inflammatory gene expression
+- HDAC inhibitors should improve systemic inflammation markers (IL-6, TNF-alpha) with effects comparable to butyrate supplementation
+
+*Limitations:* HDAC inhibitors have systemic toxicity profiles (hepatic, hematological, teratogenicity) that differ from butyrate's localized gut effects. Off-target HDAC inhibition may affect epigenetic regulation beyond inflammatory pathways. Long-term safety at low doses has not been established for chronic inflammatory conditions. ME/CFS-specific efficacy remains untested.
+
+*Research priority:* Moderate. Strong mechanistic rationale, existing FDA approval status, accessible formulation, clear falsifiable predictions. Clinical trials should prioritize biomarker endpoints (NF-kappaB activation, barrier protein expression) before clinical symptom endpoints.
+] <prop:hda-inhibitor>
+#proposal(title: [Zonulin Inhibitor Repurposing for Barrier Restoration])[
+*Certainty: 0.55.* Butyrate downregulates zonulin via HDAC inhibition. Pharmacological zonulin inhibition (larazotide acetate, already in trials for celiac disease) could directly restore tight junction function, complementing or replacing butyrate deficiency effect. This represents a targeted approach to address elevated zonulin documented in ME/CFS patients.
+
+*Mechanistic rationale:* Larazotide is an octapeptide zonulin inhibitor that competitively binds zonulin receptors, preventing zonulin-mediated tight junction loosening. This directly addresses the zonulin-driven barrier dysfunction observed in ME/CFS. Strong safety profile established in celiac disease trials.
+
+*Drug candidate:*
+- **Larazotide acetate:** Phase II trials in celiac disease demonstrated safety and tolerability (FDA discussion expected)
+
+*Dosing rationale:* Start at celiac trial dose (0.5mg SC twice weekly), adjust based on zonulin levels and tolerability.
+
+*Falsifiable predictions:*
+- Larazotide should reduce serum zonulin by 50 percent within 4 weeks, increase tight junction protein expression in intestinal biopsies, and reduce LPS translocation (serum LPS, I-FABP) with concurrent improvement in fatigue severity
+- Zonulin normalization should precede or accompany improvements in permeability biomarkers
+- Larazotide effects should be additive with butyrate supplementation (if butyrate production is restored)
+
+*Limitations:* Zonulin assay specificity remains controversial; alternative permeability measures (lactulose/mannitol ratio) may provide more robust biomarkers. Larazotide requires subcutaneous injection twice weekly, which may affect adherence in ME/CFS patients with chronic illness. Efficacy in ME/CFS has not been tested. Zonulin is only one mediator of intestinal permeability; other tight junction modulators may be involved.
+
+*Research priority:* Moderate. Strong mechanistic rationale, established drug safety profile, clear biomarker endpoints. Clinical trials should include comprehensive permeability assessment (zonulin, LPS, I-FABP, lactulose/mannitol ratio) to validate target engagement.
+] <prop:zonulin-inhibitor>
+#proposal(title: [NF-kappaB Pathway Inhibitor for Butyrate-Mimetic Anti-inflammatory Effect])[
+*Certainty: 0.50.* Butyrate suppresses NF-kappaB via HDAC inhibition and GPR43 signaling. Direct NF-kappaB inhibitors could achieve anti-inflammatory effects without requiring butyrate. This approach targets the core inflammatory pathway overactivated in ME/CFS.
+
+*Mechanistic rationale:* NF-kappaB is a master regulator of pro-inflammatory cytokine production. Butyrate's anti-inflammatory effects are mediated through NF-kappaB suppression via HDAC inhibition and GPR43 signaling. Direct NF-kappaB inhibition should recapitulate this pathway, reducing TNF-alpha, IL-6, IL-1beta production.
+
+*Drug candidates:*
+- **Dimethyl fumarate (Tecfidera):** FDA-approved for multiple sclerosis, well-tolerated, potent NF-kappaB inhibitor
+- **Bardoxolone methyl (CDDO-Me):** Synthetic triterpenoid, Phase II trials completed
+- **BAY 11-7082:** Oral NF-kappaB inhibitor, preclinical development
+
+*Dosing rationale:* Start at 25 percent of MS dose (dimethyl fumarate 120mg daily), titrate based on lymphocyte NF-kappaB activation (p65 assay) and tolerability.
+
+*Falsifiable predictions:*
+- NF-kappaB inhibitor should reduce pro-inflammatory cytokine production (TNF-alpha, IL-6, IL-1beta) in ME/CFS PBMCs, increase tight junction protein expression, and improve fatigue severity with additive effect when combined with butyrate supplementation
+- NF-kappaB activation markers (p65 nuclear translocation, phospho-IkBalpha) should decrease in treated patients
+- Anti-inflammatory effects should normalize cytokine imbalance (increased IL-10, decreased TNF-alpha/IL-6 ratio)
+
+*Limitations:* NF-kappaB is essential for host defense; systemic inhibition increases infection risk. Dimethyl fumarate has gastrointestinal side effects (flushing, diarrhea) and rare serious adverse events (progressive multifocal leukoencephalopathy). NF-kappaB is one node in broader inflammatory network; inhibitors may not fully recapitulate butyrate's multi-target effects. Combination with butyrate (or butyrate-precursor restoration) may be optimal but requires testing.
+
+*Research priority:* Moderate. Strong mechanistic rationale, established drugs with safety data, clear biomarker endpoints. Clinical trials should prioritize cytokine panel assessments and infection monitoring. Combination therapy with butyrate (or butyrate-precursor restoration) may provide additive benefits.
+] <prop:nfkb-inhibitor>

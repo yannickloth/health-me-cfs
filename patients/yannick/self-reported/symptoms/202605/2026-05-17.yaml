@@ -1,0 +1,57 @@
+date: 2026-05-17
+
+sleep:
+  duration_hours: unknown  # includes morning sleep + 3h afternoon nap
+  quality: unknown
+  source: patient_report
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  fatigue:
+    severity: severe
+    notes: "Whole day extremely tired. Slept the whole morning."
+  headache:
+    severity: present
+    notes: "Headache in evening"
+  brain_fog:
+    severity: present
+    notes: "Mental fog in evening"
+  overall:
+    severity: severe
+    notes: "Extreme fatigue, morning sleep, 3h afternoon nap, evening headache + mental fog"
+
+overall_wellbeing: very_low
+
+activity:
+  sleep:
+    - description: "Slept whole morning (excessive sleep duration)"
+    - description: "3h nap in afternoon"
+  activity_level:
+    - description: "Very low activity day due to extreme fatigue"
+
+hypotheses:
+  - id: pem_from_20260516_high_activity_day
+    text: "Severe fatigue on 2026-05-17 likely represents PEM from high-activity day 2026-05-16 (funeral + communion). Morning sleep + 3h afternoon nap indicates significant energy depletion."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If fatigue resolves within 2-4 days with strict rest, PEM hypothesis supported. If severe fatigue continues beyond 5 days, consider alternative triggers (infection, MCAS flare, etc.)"
+  - id: extra_rilatine_compensatory_crash
+    text: "Extra Rilatine MR 30mg on 2026-05-16 may have masked true fatigue during event, leading to compensatory crash on 2026-05-17 (borrowed energy effect)."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If stimulant cessation reduces crash severity over subsequent similar events, supports borrowing hypothesis. If crash occurs regardless of stimulant use, suggests activity load alone sufficient for PEM."
+  - id: evening_headache_mental_fog_pattern
+    text: "Headache and mental fog appearing together in evening suggests shared mechanism - possibly neuroinflammation, cerebral hypoperfusion, or electrolyte dysregulation accumulating over day."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If electrolyte supplementation or anti-inflammatory (LDN/famotidine) taken prevent evening symptoms, supports mechanism. If symptoms persist despite interventions, consider other pathways."
+  - id: grief_emotional_aftereffects
+    text: "Previous day's funeral for Christelle may have emotional/metabolic cost contributing to today's extreme fatigue beyond physical activity load."
+    status: patient_hypothesis
+    falsifiable: false
+    test: "Cannot falsify - emotional processing effects are highly individual and lack clear counterfactual."

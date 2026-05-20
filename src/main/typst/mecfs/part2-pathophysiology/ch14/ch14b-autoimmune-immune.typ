@@ -30,13 +30,13 @@ The Charité Berlin group established GPCR autoantibodies as a significant findi
 
     - *Charité antibody-positive case series (May 2026)*: Presented at Berlin conference as contrast to IA-PACS-CFS. 15 ME/CFS patients with detectable autoantibodies underwent immunoadsorption. *7 of 15 showed marked improvement* in overall condition. However, the study lacked a control group, and 47% response in fatigue trials is indistinguishable from placebo effect (typical placebo response in ME/CFS trials: 40--60%). This finding should be treated as exploratory rather than evidence of efficacy @Rucker2026WirthScheibenbogen.
 
-    - *EXTINCT (Hannover Medical School)* @EXTINCTtrial2023: NCT05954325. Double-blind, sham-controlled RCT; n=63. Five IA sessions within 14 days. Primary endpoint: Chalder Fatigue Scale at 12 weeks. Completed September 2025; **results not yet released** as of May 2026 @Rucker2026WirthScheibenbogen. First independent-institution (non-Charité) sham-controlled IA RCT.
+    - *EXTINCT (Hannover Medical School)* @EXTINCTtrial2023: NCT05954325. Double-blind, sham-controlled RCT; n=63. Five IA sessions within 14 days. Primary endpoint: Chalder Fatigue Scale at 12 weeks. Completed September 2025; *results not yet released* as of May 2026 @Rucker2026WirthScheibenbogen. First independent-institution (non-Charité) sham-controlled IA RCT.
 
-    - *University Medical Center Mainz trial*: N=40 Long COVID patients receiving immunoadsorption. **Results not yet released** as of May 2026 @Rucker2026WirthScheibenbogen.
+    - *University Medical Center Mainz trial*: N=40 Long COVID patients receiving immunoadsorption. *Results not yet released* as of May 2026 @Rucker2026WirthScheibenbogen.
 
-    - *Hannover COVID-associated ME trial*: N=60 patients with COVID-associated ME. **Results not yet released** as of May 2026 @Rucker2026WirthScheibenbogen.
+    - *Hannover COVID-associated ME trial*: N=60 patients with COVID-associated ME. *Results not yet released* as of May 2026 @Rucker2026WirthScheibenbogen.
 
-    - *University of Amsterdam trial*: **Still recruiting** as of May 2026 @Rucker2026WirthScheibenbogen.
+    - *University of Amsterdam trial*: Still recruiting as of May 2026 @Rucker2026WirthScheibenbogen.
 
     - *IMPACT (Charité Berlin)* @IMPACTtrial2026: NCT07529197. Prospective observational; n=50. Five outpatient IA sessions on days 1, 2, 4, 6, and 8. Primary endpoint: SF-36 Physical Function at 8 weeks; novel secondary endpoint: memory B-cell dynamics. Recruiting since March 2026. First study to systematically measure memory B-cell changes after IA—addressing the mechanistic question of why some patients relapse (memory B-cell repopulation and re-synthesis of autoantibodies).
 

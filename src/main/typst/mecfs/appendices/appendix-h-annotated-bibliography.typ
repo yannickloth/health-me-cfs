@@ -13147,6 +13147,22 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Conclusion:* TRPM3 confirmed as consistent potential biomarker; multi-site replication
 + *Limitations:* Same research group; no independent external replication; NK cells only
 
+=== Petrov2026 — Monocyte/DC Immunophenotyping: ME/CFS vs Long COVID
+
++ *Full Citation:* Petrov S, Bozhkova M, Ivanovska M, Kalfova T, Dudova D, Todorova Y, Dimitrova R, Murdjeva M, Taskov H, Nikolova M, Maes M. Comprehensive Immunophenotyping of Monocytes and Dendritic Cells Suggests Distinct Pathophysiology in Chronic Fatigue Syndrome and Long COVID. _Int J Mol Sci_. 2026;27(10):4488.
++ *DOI:* `10.3390/ijms27104488`
++ *Status:* NEW — added 2026-05-20
++ *Study Design:* Cross-sectional; multiparameter flow cytometry (12-parameter)
++ *Sample Size:* n=207 (103 ME/CFS, 63 long COVID, 41 HC) — largest comparative monocyte/DC study
++ *Key Findings:*
+        - Long COVID: ↑ M2-like monocyte polarization (CD206-high), ↑ CD80 across monocyte subsets, ↑ DC frequency, ↓ HLA-DR on DCs → persistent immune activation + exhaustion
+        - ME/CFS: ↓ CD80 on M1-like monocytes, ↓ CCR7 on monocytes and DCs, ↓ DC frequency → immune suppression with impaired trafficking
+        - Inverse correlation: higher monocyte HLA-DR → lower depression/anxiety scores in ME/CFS (protective association)
+        - PCA/PLS-DA: moderate discrimination between ME/CFS and long COVID using composite immune markers
+        - VIP discriminators: CD80 on monocytes, CCR7 on DCs, M2-like polarization
++ *Conclusion:* ME/CFS and long COVID exhibit divergent immune architecture despite clinical overlap — immune suppression (ME/CFS) vs activation + exhaustion (long COVID). Supports distinct therapeutic approaches.
++ *Limitations:* Cross-sectional; no functional assays; vaccination status not analyzed; single-center; no replication cohort; excluded common ME/CFS medications (LDN, antihistamines, beta-blockers); healthy controls significantly younger than patient groups (age-adjusted ANCOVA applied).
++ *Certainty:* 0.70 — Largest comparative immunophenotyping study to date; well-validated methodology; FDR correction; post-hoc power ≥0.80; but cross-sectional and unreplicated.
 
 == ADHD as Brain Energy Failure and ME/CFS Predisposition
 <sec:bib-adhd-energy-mecfs>
@@ -16131,3 +16147,243 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Conclusion*: Gut-immune axis disruption is a component of ME/CFS pathophysiology, involving dysbiosis, barrier dysfunction, and chronic inflammation.
     *Limitations*: Heterogeneous studies; limited tissue-resident lymphocyte data; causality not established; treatment evidence limited.
     *ME/CFS Relevance*: Provides gut-immune axis context for Hackstein tissue-resident CD4 T cell findings; suggests CD161+ CD56+ CD4 T cells may be depleted in ME/CFS gut (similar to IBD pattern).
+
+// =============================================================================
+== Butyrate and Intestinal Permeability in ME/CFS
+<sec:bib-butyrate-intestinal-permeability>
+// =============================================================================
+
+=== Guo et al.\ 2023 — Deficient Butyrate-Producing Capacity in ME/CFS
+
+    *Full Citation*: Guo C, Che X, Briese T, Ranjan A, Allicock O, Yates RA, Cheng A, March D, Hornig M, Komaroff AL, Levine S, Bateman L, Vernon SD, Klimas NG, Montoya JG, Peterson DL, Lipkin WI, Williams BL.\ Deficient butyrate-producing capacity in gut microbiome is associated with bacterial network disturbances and fatigue symptoms in ME/CFS.\ _Cell Host & Microbe_.\ 2023;31(2):245-259.e8.
+    *DOI*: #link("https://doi.org/10.1016/j.chom.2023.01.004")[10.1016/j.chom.2023.01.004]
+    *PMID*: 36758522
+    *Published*: February 8, 2023
+    *Study Design*: Multi-omic analysis (shotgun metagenomics, qPCR, metabolomics) with machine learning classifier
+    *Sample Size*: 106 ME/CFS cases, 91 healthy controls (geographically diverse cohort)
+    *Journal Impact*: Cell Host & Microbe (top-tier, high-impact journal)
+    *Key Findings*:
+
+        - Faecalibacterium prausnitzii and Eubacterium rectale (both abundant butyrate producers) significantly reduced in ME/CFS ($p$ < 0.01)
+        - Functional metagenomics and qPCR confirmed deficient microbial capacity for butyrate synthesis
+        - Fecal metabolomics showed significantly lower levels of butyrate and other short-chain fatty acids
+        - Abundance of Faecalibacterium prausnitzii inversely correlated with fatigue severity ($r$ = -0.35, $p$ < 0.001)
+        - Microbiome-based machine learning classifier achieved 83% accuracy for ME/CFS vs controls, robust to geographic variation
+        - Gut microbiome diversity significantly altered in ME/CFS
+        - Microbial co-abundance network disturbances identified in ME/CFS
+
+    *Conclusion*: ME/CFS is characterized by functional gut dysbiosis with deficient butyrate-producing capacity; butyrate deficiency may contribute to fatigue symptoms and gut barrier dysfunction; machine learning classifiers show promise for disease classification.
+    *Limitations*: Cross-sectional design (cannot establish causality); sample size moderate but adequate for multi-omic analysis; stool samples only (no mucosal or tissue data); diet not controlled; geographic diversity may introduce confounding variables.
+    *ME/CFS Relevance*: Primary evidence linking butyrate deficiency to ME/CFS pathophysiology; provides mechanistic basis for gut barrier dysfunction; suggests potential therapeutic targets (butyrate-producing bacteria, prebiotics, butyrate supplementation).
+
+=== Xiong et al.\ 2023 — Multi-Omics of Gut Microbiome-Host Interactions in ME/CFS
+
+    *Full Citation*: Xiong R, Gunter C, Fleming E, Vernon SD, Bateman L, Unutmaz D, Oh J.\ Multi-omics of gut microbiome-host interactions in short- and long-term myalgic encephalomyelitis/chronic fatigue syndrome patients.\ _Cell Host & Microbe_.\ 2023;31(2):260-276.e6.
+    *DOI*: #link("https://doi.org/10.1016/j.chom.2023.01.003")[10.1016/j.chom.2023.01.003]
+    *PMID*: 36758521
+    *Published*: February 8, 2023
+    *Study Design*: Multi-omic analysis (metagenomics, metabolomics, proteomics) stratified by disease duration
+    *Sample Size*: 82 ME/CFS patients (40 short-term, 42 long-term), 51 healthy controls
+    *Journal Impact*: Cell Host & Microbe (top-tier, high-impact journal)
+    *Key Findings*:
+
+        - Distinct gut microbiome profiles in short-term vs long-term ME/CFS
+        - Altered fecal metabolites in ME/CFS, including changes in short-chain fatty acid pathways
+        - Gut microbiome functional pathway alterations identified (energy metabolism, amino acid metabolism)
+        - Host-microbiome interactions show disease-duration-specific patterns
+        - Microbial diversity reduced in both short-term and long-term ME/CFS
+        - Intestinal barrier function markers altered in long-term ME/CFS
+
+    *Conclusion*: ME/CFS is characterized by gut microbiome dysbiosis that evolves over disease duration; distinct metabolic and functional pathway alterations support role of gut-host interactions in pathophysiology.
+    *Limitations*: Cross-sectional design (cannot infer causality or progression); modest sample size after stratification; blood and stool only (no tissue samples); dietary data not collected.
+    *ME/CFS Relevance*: Provides evidence that gut dysbiosis is a dynamic feature of ME/CFS; supports hypothesis that gut-microbiome-host interactions contribute to disease progression; suggests need for longitudinal studies.
+
+=== Martín et al.\ 2023 — Gut Permeability and Bacterial Translocation in FM and ME/CFS
+
+    *Full Citation*: Martín F, Blanco-Suárez M, Zambrano P, Cáceres O, Almirall M, Alegre-Martín J, Lobo B, González-Castro AM, Santos J, Domingo JC, Jurek J, Castro-Marrero J.\ Increased gut permeability and bacterial translocation are associated with fibromyalgia and myalgic encephalomyelitis/chronic fatigue syndrome: implications for disease-related biomarker discovery.\ _Frontiers in Immunology_.\ 2023;14:1249304.
+    *DOI*: #link("https://doi.org/10.3389/fimmu.2023.1249304")[10.3389/fimmu.2023.1249304]
+    *PMID*: 37744357
+    *Published*: September 7, 2023
+    *Study Design*: Multi-center cross-sectional cohort study
+    *Sample Size*: 22 fibromyalgia (FM) patients, 30 ME/CFS patients, 26 matched healthy controls
+    *Journal Impact*: Frontiers in Immunology (mid-tier peer-reviewed journal)
+    *Key Findings*:
+
+        - FM patients had significantly higher levels of anti-$beta$-lactoglobulin (IgG anti-$beta$-LGB), zonulin-1 (ZO-1), lipopolysaccharides (LPS), and soluble CD14 (sCD14) than controls (all $p$ < 0.0001)
+        - ME/CFS patients had significantly higher levels of anti-$beta$-LGB, ZO-1, LPS, and sCD14 than controls, but lower than FM (all $p$ < 0.01)
+        - No significant difference in IL-1$beta$ between ME/CFS and controls
+        - In both FM and ME/CFS cohorts, anti-$beta$-LGB and ZO-1 correlated significantly with LPS and sCD14 ($p$ < 0.001)
+        - In ME/CFS cohort, ZO-1 positively correlated with COMPASS-31 dysautonomia score ($p$ < 0.05)
+        - ROC curve analysis showed strong discriminatory power of anti-$beta$-LGB, ZO-1, LPS, and sCD14 for distinguishing FM and ME/CFS from healthy controls ($p$ < 0.0001)
+
+    *Conclusion*: ME/CFS is characterized by increased intestinal permeability and bacterial translocation, though less severely than fibromyalgia; biomarkers of gut barrier dysfunction (ZO-1, LPS, sCD14) show promise for disease detection.
+    *Limitations*: Small sample size (pilot study); cross-sectional design (no causal inference); blood markers only (no direct intestinal permeability testing); diet and medication not controlled; ME/CFS diagnostic criteria not specified.
+    *ME/CFS Relevance*: Provides direct evidence for intestinal permeability ("leaky gut") in ME/CFS; suggests bacterial translocation may contribute to systemic inflammation and dysautonomia; supports potential utility of gut barrier biomarkers.
+
+=== Maes et al.\ 2015 — No Association with Leaky Gut Biomarkers in ME/CFS (Null Result)
+
+    *Full Citation*: Maes M, Bosmans E, Kubera M.\ Increased expression of activation antigens on CD8+ T lymphocytes in Myalgic Encephalomyelitis/chronic fatigue syndrome: inverse associations with lowered CD19+ expression and CD4+/CD8+ ratio, but no associations with (auto)immune, leaky gut, oxidative and nitrosative stress biomarkers.\ _Neuro Endocrinology Letters_.\ 2015;36(8):613-621.
+    *DOI*: Not available
+    *PMID*: 26707044
+    *Published*: 2015
+    *Study Design*: Cross-sectional case-control study
+    *Sample Size*: 139 ME/CFS patients, 65 chronic fatigue (CF) patients, 40 healthy controls
+    *Journal Impact*: Neuro Endocrinology Letters (lower-tier journal)
+    *Key Findings*:
+
+        - Proportions of CD3+, CD8+, CD8+CD38+, and CD8+HLA-DR+ significantly higher in ME/CFS than controls
+        - CD19+ cells and CD4+/CD8+ ratio significantly lower in ME/CFS and CF than controls
+        - *No significant associations* between flow cytometric results and peripheral blood biomarkers of: (1) leaky gut (IgM or IgA responses to LPS of gut commensal bacteria), (2) cytokines (IL-1, TNF-$alpha$), (3) oxidative and nitrosative stress biomarkers, (4) autoimmune responses to serotonin
+        - Highly significant inverse correlations between increased CD8+ activation and lowered CD4+/CD8+ ratio and CD19+ expression
+
+    *Conclusion*: ME/CFS is characterized by CD8+ T cell activation and immune dysregulation, but no association with leaky gut biomarkers (LPS antibodies); suggests heterogeneous immune subgroups in ME/CFS.
+    *Limitations*: Lower-tier journal; methodology for leaky gut assessment (antibody responses to LPS) indirect and may not reflect actual intestinal permeability; cross-sectional design; results contradict more recent studies (may reflect methodological differences or cohort heterogeneity).
+    *ME/CFS Relevance*: Important null finding that contradicts later studies; suggests leaky gut may not be universal in ME/CFS; highlights need for direct intestinal permeability testing (e.g., lactulose-mannitol test) rather than antibody markers alone.
+
+=== König et al.\ 2022 — The Gut Microbiome in ME/CFS (Review)
+
+    *Full Citation*: König RS, Albrich WC, Kahlert CR, Bahr LS, Löber U, Vernazza P, Scheibenbogen C, Forslund SK.\ The Gut Microbiome in Myalgic Encephalomyelitis (ME)/Chronic Fatigue Syndrome (CFS).\ _Frontiers in Immunology_.\ 2022;13:768126.
+    *DOI*: #link("https://doi.org/10.3389/fimmu.2022.768126")[10.3389/fimmu.2022.768126]
+    *PMID*: 35046929
+    *Published*: January 3, 2022
+    *Study Design*: Systematic review of observational studies
+    *Journal Impact*: Frontiers in Immunology (mid-tier peer-reviewed journal)
+    *Key Findings*:
+
+        - ME/CFS associated with altered gut microbiome composition (reduced diversity, dysbiosis)
+        - Decreased abundance of butyrate-producing bacteria (Faecalibacterium, Eubacterium) consistently reported
+        - Altered short-chain fatty acid (SCFA) profiles, particularly decreased butyrate
+        - Potential mechanisms linking gut dysbiosis to ME/CFS: (1) increased intestinal permeability, (2) bacterial translocation, (3) immune activation, (4) altered gut-brain axis signaling, (5) mitochondrial dysfunction via reduced SCFAs
+        - Evidence for microbiome alterations in both ME and CFS diagnostic criteria
+        - Antagonistic antibiotic use hypothesized as risk factor for ME/CFS development
+
+    *Conclusion*: Gut microbiome dysbiosis, particularly butyrate deficiency, is consistently associated with ME/CFS; potential therapeutic approaches include probiotics, prebiotics, fecal microbiota transplantation, and dietary interventions.
+    *Limitations*: Review article (synthesizes existing literature); heterogeneous studies with small sample sizes; no new primary data; causality not established; limited longitudinal studies.
+    *ME/CFS Relevance*: Comprehensive synthesis of gut microbiome evidence in ME/CFS; highlights butyrate deficiency as consistent finding; provides mechanistic framework for gut-brain axis contributions; identifies research gaps and therapeutic opportunities.
+
+=== Varesi et al.\ 2021 — The Emerging Role of Gut Microbiota in ME/CFS (Review)
+
+    *Full Citation*: Varesi A, Deumer US, Ananth S, Ricevuti G.\ The Emerging Role of Gut Microbiota in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): Current Evidence and Potential Therapeutic Applications.\ _Journal of Clinical Medicine_.\ 2021;10(21):5077.
+    *DOI*: #link("https://doi.org/10.3390/jcm10215077")[10.3390/jcm10215077]
+    *PMID*: 34768601
+    *Published*: October 29, 2021
+    *Study Design*: Narrative review
+    *Journal Impact*: Journal of Clinical Medicine (mid-tier peer-reviewed journal)
+    *Key Findings*:
+
+        - ME/CFS associated with gut dysbiosis, reduced microbial diversity, and altered gut-brain axis
+        - Proposed pathomechanisms: (1) gut dysbiosis, (2) altered gut-brain axis activity, (3) increased intestinal permeability with bacterial translocation, (4) reduced short-chain fatty acid (SCFA) levels, (5) D-lactic acidosis, (6) abnormal tryptophan metabolism and low kynurenine pathway activity
+        - Hypothesis: lifetime antibiotic use favors intestinal microbiota composition that may be ME/CFS risk factor
+        - Reduced SCFAs (particularly butyrate) may affect peripheral mitochondria via energy substrate deprivation
+        - Gut-brain axis interactions likely contribute to neurocognitive impairments in ME/CFS
+
+    *Conclusion*: Association between gut microbiome and ME/CFS is plausible; microbiome manipulation (probiotics, dietary interventions, fecal microbiota transplantation) shows therapeutic potential.
+    *Limitations*: Narrative review (systematic methodology not used); limited primary data; causality not established; D-lactic acidosis and antibiotic exposure hypotheses not well-supported by direct evidence.
+    *ME/CFS Relevance*: Provides comprehensive theoretical framework for gut microbiome contributions to ME/CFS; introduces novel hypotheses (D-lactic acidosis, kynurenine pathway); identifies promising therapeutic directions.
+
+=== Venturini et al.\ 2019 — Probiotic Intake Pilot Study in CFS
+
+    *Full Citation*: Venturini L, Bacchi S, Capelli E, Lorusso L, Ricevuti G, Cusa C.\ Modification of Immunological Parameters, Oxidative Stress Markers, Mood Symptoms, and Well-Being Status in CFS Patients after Probiotic Intake: Observations from a Pilot Study.\ _Oxidative Medicine and Cellular Longevity_.\ 2019;2019:5920406.
+    *DOI*: #link("https://doi.org/10.1155/2019/5920406")[10.1155/2019/5920406]
+    *PMID*: 31871540
+    *Published*: November 23, 2019
+    *Study Design*: Open-label pilot study (no control group)
+    *Sample Size*: 15 CFS patients
+    *Journal Impact*: Oxidative Medicine and Cellular Longevity (mid-tier peer-reviewed journal)
+    *Intervention*: Lactobacillus rhamnosus GG (1 × 10^9 CFU/day) for 90 days
+    *Key Findings*:
+
+        - Significant improvement in psychological well-being scores after probiotic intervention ($p$ < 0.05)
+        - Modulation of immunological parameters (CD4+ T cells increased, $p$ < 0.05)
+        - Reduction in oxidative stress markers (nitrotyrosine decreased, $p$ < 0.05)
+        - Improvement in mood symptoms (depression and anxiety scores improved)
+        - No significant changes in fatigue severity scores
+        - Well-being status improved subjectively
+
+    *Conclusion*: Probiotic supplementation with L. rhamnosus GG may modulate immune function and reduce oxidative stress in CFS, with improvements in mood and well-being; effects on fatigue were not significant in this small pilot.
+    *Limitations*: Very small sample size (n=15); open-label design (no placebo control, potential bias); short duration (90 days); no assessment of gut microbiome composition or SCFA levels; no butyrate-producing strain tested; subjective outcome measures.
+    *ME/CFS Relevance*: Provides preliminary evidence for probiotic benefits in CFS; suggests immune modulation and oxidative stress reduction mechanisms; highlights need for larger RCTs with butyrate-producing strains.
+
+=== Hodgkinson et al.\ 2023 — Butyrate Mechanisms and Clinical Applications (Review)
+
+    *Full Citation*: Hodgkinson K, El Abbar F, Dobranowski K, Manoogian J, Butcher J, Figeys D, Mack D, Stintzi A.\ Butyrate's role in human health and the current progress towards its clinical application to treat gastrointestinal disease.\ _Clinical Nutrition (Edinburgh, Scotland)_.\ 2023;42(2):416-431.
+    *DOI*: #link("https://doi.org/10.1016/j.clnu.2022.11.009")[10.1016/j.clnu.2022.11.009]
+    *PMID*: 36502573
+    *Published*: February 2023
+    *Study Design*: Comprehensive review of butyrate mechanisms and clinical evidence
+    *Journal Impact*: Clinical Nutrition (top-tier nutrition journal)
+    *Key Findings*:
+
+        - Butyrate is key energy source for colonocytes (produced by gut microbiota via dietary fiber fermentation)
+        - Butyrate mechanisms: (1) histone deacetylase (HDAC) inhibition, (2) signaling through G-protein coupled receptors (GPR41, GPR43, GPR109A), (3) anti-inflammatory effects via NF-$kappa$B suppression, (4) enhancement of tight junction proteins (occludin, claudins), (5) stimulation of MUC2 mucus production
+        - Maintaining optimal butyrate levels improves gastrointestinal health by: supporting colonocyte function, decreasing inflammation, maintaining gut barrier, promoting healthy microbiome
+        - Lower butyrate levels and/or reduced butyrate-producing microbes associated with disease (inflammatory bowel disease, colon cancer, graft-versus-host disease)
+        - Clinical efforts to increase butyrate levels have generated mixed results
+        - Dietary interventions (resistant starch, fiber) show promise but individual variability high
+
+    *Conclusion*: Butyrate has well-established molecular mechanisms supporting gut health; mixed clinical trial results suggest need for personalized approaches; current applications limited but promising.
+    *Limitations*: Review article (synthesizes existing evidence); human clinical trial data limited and heterogeneous; optimal dosing and delivery methods unclear; inter-individual variability in response high.
+    *ME/CFS Relevance*: Provides mechanistic foundation for butyrate deficiency hypothesis in ME/CFS; explains how reduced butyrate could contribute to gut barrier dysfunction, inflammation, and dysautonomia; suggests potential therapeutic strategies (prebiotics, butyrate supplementation) while highlighting implementation challenges.
+
+=== Watai et al.\ 2025 — Gut-Brain-Immune Axis in Environmental Sensitivity Illnesses (Review)
+
+    *Full Citation*: Watai K, Taniguchi M, Azuma K.\ The Gut-Brain-Immune Axis in Environmental Sensitivity Illnesses: Microbiome-Centered Narrative Review of Fibromyalgia Syndrome, Myalgic Encephalomyelitis/Chronic Fatigue Syndrome, and Multiple Chemical Sensitivity.\ _International Journal of Molecular Sciences_.\ 2025;26(20):2365.
+    *DOI*: #link("https://doi.org/10.3390/ijms26202365")[10.3390/ijms26202365]
+    *PMID*: 41155291
+    *Published*: October 14, 2025
+    *Study Design*: Narrative review focusing on gut-brain-immune axis
+    *Journal Impact*: International Journal of Molecular Sciences (mid-tier peer-reviewed journal)
+    *Key Findings*:
+
+        - ME/CFS, fibromyalgia, and multiple chemical sensitivity (MCS) share gut microbiome alterations
+        - Reduced microbial diversity and butyrate-producing bacteria reported across all three conditions
+        - Gut-brain-immune axis disruptions proposed as common pathophysiological mechanism
+        - Short-chain fatty acids (particularly butyrate) modulate immune function and neuroinflammation
+        - Bacterial translocation and systemic inflammation implicated in symptom generation
+        - Microbiome-based interventions (probiotics, prebiotics, dietary modifications, fecal microbiota transplantation) show therapeutic potential
+
+    *Conclusion*: Environmental sensitivity illnesses (ME/CFS, FM, MCS) characterized by gut microbiome dysbiosis and gut-brain-immune axis disruption; microbiome-targeted interventions warrant further study.
+    *Limitations*: Narrative review (systematic methodology not used); cross-condition comparisons limited by heterogeneity; causality not established; limited primary data on MCS.
+    *ME/CFS Relevance*: Positions ME/CFS within broader category of environmental sensitivity illnesses with shared gut dysbiosis; supports cross-disease therapeutic approaches; emphasizes butyrate deficiency as common feature.
+
+=== Kim et al.\ 2026 — Brain-Gut Axis Treatments in Long COVID and ME/CFS (Review)
+
+    *Full Citation*: Kim DY, Youn J, Kang N, Cho SI, Ha IH.\ Potential application of brain-gut axis-based treatments in Long COVID and ME/CFS: a case-based systematic review.\ _Journal of Translational Medicine_.\ 2026;24(1):78.
+    *DOI*: #link("https://doi.org/10.1186/s12967-026-06589-x")[10.1186/s12967-026-06589-x]
+    *PMID*: 41668172
+    *Published*: February 10, 2026
+    *Study Design*: Case-based systematic review
+    *Journal Impact*: Journal of Translational Medicine (mid-tier peer-reviewed journal)
+    *Key Findings*:
+
+        - Long COVID and ME/CFS share gut microbiome dysbiosis patterns
+        - Reduced butyrate-producing bacteria and altered SCFA profiles common to both conditions
+        - Brain-gut axis dysfunction contributes to fatigue, cognitive impairment, and dysautonomia
+        - Therapeutic interventions targeting brain-gut axis: (1) probiotics (especially butyrate-producing strains), (2) prebiotics (resistant starch, inulin), (3) dietary modifications (high-fiber, low-FODMAP for comorbid IBS), (4) fecal microbiota transplantation, (5) gut-directed medications (butyrate supplements, gut motility agents)
+        - Case reports suggest microbiome-based interventions may improve fatigue and cognitive symptoms in both conditions
+
+    *Conclusion*: Brain-gut axis dysfunction is a shared pathophysiological feature of Long COVID and ME/CFS; microbiome-targeted interventions show therapeutic promise and warrant systematic clinical trials.
+    *Limitations*: Case-based review (limited by small number of cases); heterogeneous interventions; no controlled trial data; publication bias likely; optimal intervention strategies unclear.
+    *ME/CFS Relevance*: Identifies ME/CFS and Long COVID as related post-infectious fatigue syndromes with shared gut dysbiosis; supports testing of butyrate-based interventions in both conditions; provides framework for cross-condition clinical trials.
+
+=== Wang et al.\ 2024 — Clinical Evidence Linking Gut Microbiome to ME/CFS (Review)
+
+    *Full Citation*: Wang JH, Choi Y, Lee JS, Hwang SJ, Gu J, Son CG.\ Clinical evidence of the link between gut microbiome and myalgic encephalomyelitis/chronic fatigue syndrome: a retrospective review.\ _European Journal of Medical Research_.\ 2024;29(1):82.
+    *DOI*: #link("https://doi.org/10.1186/s40001-024-02350-2")[10.1186/s40001-024-02350-2]
+    *PMID*: 38429822
+    *Published*: March 1, 2024
+    *Study Design*: Retrospective review of clinical studies
+    *Journal Impact*: European Journal of Medical Research (mid-tier peer-reviewed journal)
+    *Key Findings*:
+
+        - Consistent evidence for gut microbiome alterations in ME/CFS across multiple studies
+        - Reduced butyrate-producing bacteria (Faecalibacterium, Eubacterium) frequently reported
+        - Altered short-chain fatty acid (SCFA) profiles in ME/CFS patients
+        - Intestinal permeability (leaky gut) and bacterial translocation implicated
+        - Probiotic interventions show mixed results: some studies report improved symptoms, others show no effect
+        - Fecal microbiota transplantation (FMT) data limited but promising in case reports
+        - Dietary interventions (fiber, prebiotics) under-studied in ME/CFS populations
+
+    *Conclusion*: Gut microbiome dysbiosis is consistently associated with ME/CFS; therapeutic potential of microbiome-modulating interventions exists but requires rigorous clinical trials.
+    *Limitations*: Retrospective review (not systematic); heterogeneous study quality; limited clinical trial data; no meta-analysis; publication bias possible.
+    *ME/CFS Relevance*: Confirms consistency of gut dysbiosis findings in ME/CFS; highlights need for better-designed clinical trials of microbiome-based interventions; identifies research gaps (dietary interventions, FMT).

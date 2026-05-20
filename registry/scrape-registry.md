@@ -427,3 +427,18 @@ Prevents re-processing of already-integrated content.
 | https://www.medrxiv.org/content/10.1101/2026.04.01.26349981v1 | medrxiv | 2026-05-13 | bib/appendix-h/integration-guide — Wilson2026hEDSWearable — wearable monitoring preprint
 | https://www.jmresearchprotocols.org/15/e80394 | jmresearchprotocols | 2026-05-13 | bib/appendix-h/integration-guide — Golden2026HSDPA — scoping review protocol
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8922659/ | pubmed/pmc | 2026-05-03 | 2026-05-03 | bib/appendix-h — Masini2021SScAutonomic — autonomic dysfunction microvascular damage SSc pilot n=26
+
+| https://pubmed.ncbi.nlm.nih.gov/36758522/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Guo2023butyrate — Deficient butyrate-producing capacity in ME/CFS (n=106) |
+| https://pubmed.ncbi.nlm.nih.gov/36758521/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Xiong2023multiomics — Multi-omics gut microbiome ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/37744357/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Martin2023permeability — Gut permeability bacterial translocation ME/CFS (n=30) |
+| https://pubmed.ncbi.nlm.nih.gov/35046929/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Konig2022microbiome — Gut microbiome ME/CFS review |
+| https://pubmed.ncbi.nlm.nih.gov/34768601/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Varesi2021microbiota — Gut microbiota ME/CFS review |
+| https://pubmed.ncbi.nlm.nih.gov/26707044/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Maes2015leakyGutNull — Null result leaky gut biomarkers ME/CFS (n=139) |
+| https://pubmed.ncbi.nlm.nih.gov/31871540/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Venturini2019probiotics — Probiotic pilot study CFS (n=15) |
+| https://pubmed.ncbi.nlm.nih.gov/41155291/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Watai2025gutBrainImmune — Gut-brain-immune axis review FM/ME/CFS/MCS |
+| https://pubmed.ncbi.nlm.nih.gov/41668172/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Kim2026brainGutAxis — Brain-gut axis treatments Long COVID ME/CFS review |
+| https://pubmed.ncbi.nlm.nih.gov/38429822/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Wang2024microbiomeEvidence — Clinical evidence gut microbiome ME/CFS review |
+| https://pubmed.ncbi.nlm.nih.gov/36502573/ | pubmed | 2026-05-20 | 2026-05-20 | bib/appendix-h — Hodgkinson2023butyrateMechanisms — Butyrate mechanisms HDAC NF-κB review |
+| https://www.mdpi.com/2077-0383/10/21/5077 | mdpi | 2026-05-20 | 2026-05-20 | bib/appendix-h — Varesi2021microbiota — Gut microbiota ME/CFS review |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10512706/ | pubmed/pmc | 2026-05-20 | 2026-05-20 | bib/appendix-h — Martin2023permeability — Gut permeability bacterial translocation |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC10183837/ | pubmed/pmc | 2026-05-20 | 2026-05-20 | bib/appendix-h — Guo2023butyrate — Deficient butyrate-producing capacity |

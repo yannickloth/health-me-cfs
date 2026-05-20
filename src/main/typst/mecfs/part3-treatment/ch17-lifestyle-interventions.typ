@@ -133,8 +133,62 @@ The optimal control model (Chapter:predictive-applications) implies targeted res
 *Testable Prediction.*
 In a 12-week pacing intervention study, patients receiving FUNCAP-informed domain-targeted pacing should show greater improvement in total FUNCAP score than patients receiving generic pacing advice, with the same total activity restriction. The intervention targets *distribution* of activity, not total amount.
 
-*Limitations.*
+ *Limitations.*
 Weekly FUNCAP-27 may not have sufficient sensitivity to detect domain-specific changes within a week. The approach requires clinicians trained in FUNCAP interpretation and domain-specific pacing strategies. Patient burden of weekly assessments may limit adherence in severe patients.
+]
+
+== Diaphragmatic Breathing and Splanchnic Perfusion Enhancement
+<sec:diaphragmatic-breathing-splanchnic>
+
+#proposal(title: [N1: Diaphragmatic Breathing Enhances Splanchnic Perfusion (0.55)])[
+  *Section label:* `sec:diaphragmatic-breathing-splanchnic`
+
+  *Mechanism and Rationale.*
+
+  Slow, diaphragmatic breathing reduces intrathoracic pressure and improves venous return, enhancing splanchnic perfusion through two complementary pathways:
+
+  1. *Reduced intrathoracic pressure*: Diaphragmatic breathing creates negative intrathoracic pressure during inspiration, which pulls blood from the systemic venous reservoir into the thoracic cavity, increasing preload and cardiac output. This elevated venous return subsequently drives splanchnic blood flow toward visceral organs.
+  2. *Improved venous return*: Enhanced venous return augments cardiac stroke volume, which increases downstream arterial pressure and splanchnic perfusion pressure. The result is better oxygen delivery to intestinal epithelium and improved barrier repair capacity.
+
+  *Practical Implementation.*
+
+  *Protocol*: 5–10 minutes daily practice using slow, diaphragmatic breathing (6–8 breaths/minute, 4–6 second inhale, 4–6 second exhale). Position supine or seated with spine aligned; place one hand on abdomen, one on chest to ensure diaphragmatic movement. No equipment needed; wearable biofeedback devices available but not required.
+
+  *Expected Benefits.*
+
+  - Improved splanchnic blood flow during and after exercise (reduces intestinal ischemia-induced barrier stress)
+  - Enhanced gut barrier repair capacity through better oxygen and nutrient delivery to intestinal epithelium
+  - Potential reduction in post-exertional GI symptoms (bloating, cramping, diarrhea)
+  - May complement butyrate supplementation by optimizing the environment for gut barrier repair
+
+  *Evidence and Certainty.*
+
+  *Certainty: 0.55.* Mechanistically grounded in established physiology of diaphragmatic breathing and splanchnic blood flow regulation (well-established). Direct clinical evidence in ME/CFS populations is lacking; the proposed mechanism extends from normal physiology to the specific context of ME/CFS-associated splanchnic hypoperfusion and gut barrier dysfunction. The intervention is low-cost, low-risk, and non-invasive, making it an attractive adjunct to butyrate-based gut optimization strategies.
+
+  *Testable Predictions.*
+
+  1. ME/CFS patients practicing diaphragmatic breathing will show improved splanchnic perfusion parameters (e.g., gut oxygenation via near-infrared spectroscopy, I-FABP levels post-exertion) compared to controls.
+  2. Diaphragmatic breathing will reduce baseline post-prandial GI symptom severity and intensity of post-exertional gut symptoms.
+  3. Combined butyrate supplementation + diaphragmatic breathing will show additive or synergistic improvement in gut barrier function markers (zonulin, LPS, I-FABP) compared to butyrate alone.
+
+  *Limitations.*
+
+  - No randomized controlled trials in ME/CFS populations exist.
+  - Requires consistent daily practice for therapeutic effect; adherence may be challenging in severely fatigued patients.
+  - Splanchnic perfusion assessment requires specialized equipment (NIRS, Doppler ultrasound) not universally available.
+  - Individual variability in response to diaphragmatic breathing is likely (similar to other breathing interventions).
+
+  *Clinical Recommendation.*
+
+  Consider adding diaphragmatic breathing (5–10 minutes daily) to gut optimization protocols, particularly in patients with documented splanchnic hypoperfusion (e.g., POTS comorbidity, post-prandial symptom exacerbation). The intervention is low-risk, low-cost, and may synergize with butyrate-based strategies for gut barrier repair.
+
+  *Integrative Note.*
+
+  Diaphragmatic breathing addresses the upstream hemodynamic component of gut barrier dysfunction (splanchnic perfusion), while butyrate addresses the mucosal integrity component (tight junction support, epithelial repair). Combined, they provide complementary mechanisms for gut barrier optimization.
+
+  (Section label: `sec:diaphragmatic-breathing-splanchnic`)
+
+  *Certainty: 0.55.* Mechanistically grounded; direct ME/CFS evidence lacking; intervention is low-risk and potentially synergistic with butyrate-based gut optimization.
 ]
 
 ==== Social and Emotional Energy
@@ -230,7 +284,70 @@ Circadian rhythm disruption is common in ME/CFS and contributes to the delayed s
     - *Fixed wake time*: A consistent morning wake time (within 30 minutes) is the single most powerful circadian anchor, more important than a fixed bedtime
     - *Gradual schedule shifting*: Patients with severely delayed sleep phase should advance their schedule by 15 minutes every 3–5 days rather than attempting abrupt changes
     - *Avoid compensatory sleeping*: Sleeping late after a bad night perpetuates the cycle. Brief daytime rest (20–30 minutes, before 14:00) is preferable to extended morning sleep
-    - *Napping guidelines*: See nap management below
+     - *Napping guidelines*: See nap management below
+
+== Sleep Architecture Enhancement and Gut-Barrier Repair
+<sec:sleep-gut-barrier-repair>
+
+#proposal(title: [N6: Sleep Architecture Optimization Enhances Gut-Barrier Repair (0.55)])[
+  *Section label:* `sec:sleep-gut-barrier-repair`
+
+  *Mechanism and Rationale.*
+
+  Sleep architecture, particularly deep slow-wave sleep (SWS), maximizes overnight gut-barrier repair through several coordinated mechanisms:
+
+  1. *Restorative gut blood flow*: During SWS, blood flow redistributes from sympathetic-dominated waking state to parasympathetically-driven restorative states, improving splanchnic perfusion and providing oxygen and nutrients for epithelial repair.
+  2. *Circadian butyrate production*: Gut microbiota exhibit circadian rhythmicity in short-chain fatty acid (SCFA) production, with peak butyrate and propionate synthesis occurring during sleep. Deep SWS aligns with peak butyrate production windows.
+  3. *Anti-inflammatory milieu*: Sleep promotes anti-inflammatory cytokine profiles (increased IL-10, decreased IL-6, TNF-$alpha$), reducing systemic inflammation that drives gut barrier dysfunction.
+  4. *Enhanced epithelial proliferation*: During SWS, intestinal crypt cell turnover accelerates, supporting tight junction protein synthesis and mucin production (particularly MUC2).
+
+  *Practical Implementation.*
+
+  *Protocol*: Optimize sleep duration (7–9 hours) and architecture (maximize SWS duration) through the following strategies:
+
+  1. *Sleep hygiene*: Maintain consistent sleep-wake schedule, cool bedroom (18–20°C), darkness, and minimal light exposure before bed.
+  2. *Consistent sleep timing*: Align wake time and bedtime with circadian preferences to maximize SWS in the second half of the sleep period (typically 3–5 AM for most adults).
+  3. *Melatonin timing*: 0.3–0.5 mg fixed-time administration 2 hours before target sleep to enhance sleep onset and SWS quality (low-dose, not sedative).
+  4. *Morning light exposure*: 10,000 lux for 20 minutes within 30 minutes of waking to reinforce circadian entrainment and optimize next-day butyrate production.
+  5. *Avoid sleep fragmentation*: Minimize alcohol, caffeine, and disruptive stimuli to preserve SWS continuity.
+
+  *Expected Benefits.*
+
+  - Increased overnight SWS duration (estimated 10–15% increase vs. fragmented sleep)
+  - Enhanced gut barrier repair capacity through improved splanchnic perfusion and oxygenation during sleep
+  - Sustained butyrate production during SWS, supporting tight junction maintenance and mucin synthesis
+  - Reduced baseline gut barrier permeability (lower zonulin, LPS, I-FABP levels)
+  - Reduced post-exertional gut symptom severity (less intestinal ischemia-induced barrier stress)
+
+  *Evidence and Certainty.*
+
+  *Certainty: 0.55.* Mechanistically grounded in established sleep physiology, circadian gut microbiome biology, and gut barrier repair processes (well-established). Direct clinical evidence in ME/CFS populations is limited; the proposed mechanism extends from normal sleep-gut physiology to the specific context of ME/CFS-associated gut barrier dysfunction and sleep fragmentation. The intervention is low-risk, low-cost, and complements butyrate-based gut optimization strategies.
+
+  *Testable Predictions.*
+
+  1. ME/CFS patients with optimized sleep architecture (increased SWS duration, consistent timing) will show improved gut barrier function markers (zonulin, LPS, I-FABP) compared to patients with fragmented sleep.
+  2. Sleep architecture optimization will increase overnight butyrate and propionate production (measured via stool samples) compared to controls.
+  3. Combined sleep architecture optimization + butyrate supplementation will show additive or synergistic improvement in gut barrier function markers compared to butyrate alone.
+
+  *Limitations.*
+
+  - No randomized controlled trials in ME/CFS populations exist specifically testing sleep architecture for gut barrier repair.
+  - SWS enhancement may be limited by underlying sleep pathology (e.g., neuroinflammation, comorbid insomnia) that cannot be fully corrected by behavioral interventions.
+  - Individual variability in sleep architecture and circadian biology is likely.
+  - Sleep optimization requires consistent adherence over weeks to months; may be challenging for severely fatigued patients.
+
+  *Clinical Recommendation.*
+
+  Consider adding sleep architecture optimization (SWS maximization, consistent sleep timing, light exposure management) to gut optimization protocols, particularly for patients with documented sleep fragmentation or reduced SWS duration (e.g., insomnia, REM sleep behavior disorder, comorbid sleep apnea). The intervention is low-risk, low-cost, and may synergize with butyrate-based strategies for gut barrier repair.
+
+  *Integrative Note.*
+
+  Sleep architecture optimization addresses the circadian butyrate production and restorative gut perfusion components of gut barrier dysfunction, while butyrate addresses the mucosal integrity component (tight junction support, epithelial repair). Combined, they provide complementary mechanisms for gut barrier optimization.
+
+  (Section label: `sec:sleep-gut-barrier-repair`)
+
+  *Certainty: 0.55.* Mechanistically grounded; direct ME/CFS evidence lacking; intervention is low-risk and potentially synergistic with butyrate-based gut optimization.
+]
 
 ==== Nap Management in ME/CFS
 <sec:nap-management>
@@ -680,10 +797,58 @@ applied @Wormgoor2021physio. This confirms that exercise interventions
 validated in broader "chronic fatigue" populations cannot be extrapolated to
 patients meeting full ME/CFS criteria with documented PEM.
 
-*Practical Adaptations by Comorbidity*
+ *Practical Adaptations by Comorbidity*
 
 When a comorbidity requires some form of physical activity and the patient
 falls into the mild-to-moderate PEM tier, the following adaptations apply:
+
+#proposal(title: [N5: Postural Optimization During Cognitive Work (0.50)])[
+  *Section label:* `sec:postural-splanchnic-optimization`
+
+  *Mechanism and Rationale.*
+
+  Recumbent positioning during and after cognitive work reduces splanchnic blood pooling by eliminating orthostatic gravitational forces on abdominal and pelvic venous reservoirs. In severe ME/CFS patients with POTS or severe dysautonomia, this reduces competing demands on venous return during periods when cognitive exertion already increases cardiac output requirements.
+
+  *Practical Implementation.*
+
+  *Protocol*: During any cognitively demanding work period (reading, writing, studying, professional work), maintain recumbent positioning (lying flat with knees elevated) for at least 10–15 minutes afterward. For severe patients, maintain recumbent position during the entire cognitive work session if possible.
+
+  *Expected Benefits.*
+
+  - Reduced splanchnic blood pooling, freeing venous return for cerebral perfusion during cognitive work
+  - Minimized post-cognitive-exertion splanchnic hypoperfusion, reducing GI symptoms (bloating, cramping) after mental tasks
+  - Improved cerebral perfusion during extended cognitive sessions (reduced brain fog, improved focus)
+  - Potentially lower PEM risk from cognitive overexertion by optimizing hemodynamic allocation
+
+  *Evidence and Certainty.*
+
+  *Certainty: 0.50.* Mechanistically grounded in orthostatic physiology and venous return regulation (well-established). Direct clinical evidence in ME/CFS populations is lacking; the proposed mechanism extends from normal POTS physiology to the specific context of ME/CFS-associated splanchnic hypoperfusion during cognitive exertion. The intervention is low-risk, low-cost, and easily implementable, making it an attractive adjunct for severe patients with dysautonomia.
+
+  *Testable Predictions.*
+
+  1. ME/CFS patients practicing post-cognitive-work recumbent positioning will show reduced post-exertional GI symptoms (bloating, cramping, diarrhea) compared to patients maintaining upright posture.
+  2. Recumbent positioning during cognitive work will improve objective measures of cerebral perfusion (e.g., transcranial Doppler velocity, cerebral oxygenation via NIRS) compared to upright positioning.
+  3. Combined postural optimization + butyrate supplementation will show additive improvement in gut barrier function markers (zonulin, LPS, I-FABP) compared to butyrate alone.
+
+  *Limitations.*
+
+  - No randomized controlled trials in ME/CFS populations exist.
+  - Requires ergonomic adaptation for severe patients (workspace modifications, ergonomically designed beds with accessible workspace).
+  - May not be feasible for ambulatory patients in professional settings requiring upright posture.
+  - Individual variability in splanchnic blood pooling magnitude is likely (patients with more severe POTS comorbidity will derive greater benefit).
+
+  *Clinical Recommendation.*
+
+  Consider adding postural optimization (recumbent positioning during and after cognitive work) to activity modification strategies, particularly for severe patients with POTS comorbidity or documented post-cognitive-exertion GI symptom exacerbation. The intervention is low-risk, low-cost, and may synergize with butyrate-based gut optimization strategies.
+
+  *Integrative Note.*
+
+  Postural optimization addresses the hemodynamic component of gut barrier dysfunction (splanchnic blood pooling during exertion), while butyrate addresses the mucosal integrity component (tight junction support, epithelial repair). Combined, they provide complementary mechanisms for gut barrier optimization.
+
+  (Section label: `sec:postural-splanchnic-optimization`)
+
+  *Certainty: 0.50.* Mechanistically grounded; direct ME/CFS evidence lacking; intervention is low-risk and potentially synergistic with butyrate-based gut optimization for severe patients with dysautonomia.
+]
 
     - *For diabetes/metabolic syndrome:* Substitute prolonged
       aerobic sessions with multiple daily micro-sessions (3–5min walking
@@ -1182,8 +1347,186 @@ This stack targets the substrate side (P5P increases GABA production) and the re
 *Safety note:* P5P at 50 mg/day is within the safe range; do not exceed 100 mg/day to avoid sensory neuropathy. Magnesium-L-threonate is well-tolerated; common adverse effects are loose stools (dose-dependent) and initial headache. Discontinue if headache persists beyond 2 weeks.
 
 *Limitations:* No ME/CFS-specific trial exists for either compound in this combination. Certainty reflects general nutrient physiology and GABA pharmacology, not ME/CFS trial data.
+
 ] <spec:gaba-supplement-stack>
 
+=== N3: Severe Patient Bed-Based Micro-Movement (0.50)
+<sec:bed-micro-movement-severe>
+
+#proposal(title: [N3: Severe Patient Bed-Based Micro-Movement (0.50)])[
+Mechanism and Rationale.
+
+Severe ME/CFS patients—particularly those bedridden or severely debilitated—require gentle movement strategies to maintain gut motility and prevent deconditioning complications. Complete immobility contributes to:
+- Reduced gastrointestinal motility
+- Intestinal atrophy and mucosal thinning
+- Reduced butyrate production (colonocyte atrophy)
+- Increased constipation and dysmotility
+- Worsening orthostatic intolerance (reduced venous return capacity)
+
+Bed-based micro-movement protocol provides gentle stimulation to the gastrointestinal tract without triggering PEM.
+
+Practical implementation.
+
+**Protocol components:**
+
+1. **Torso rotations** (10–20° left/right):
+   - Performed while supine, limited by mobility
+   - Maintains lumbar spine mobility
+   - Stimulates visceral mobility through gentle rocking
+
+2. **Abdominal massage**:
+   - Gentle circular pressure (3–5 psi) with fingertips
+   - Clockwise motion (peristalsis-encouraging direction)
+   - Duration: 2–3 minutes per session
+   - Frequency: Daily or every other day (patient tolerance-dependent)
+
+3. **Hip and knee rotations**:
+   - Gentle flexion/extension within pain-free range
+   - Maintains joint mobility
+   - Supports circulation to lower extremities
+
+4. **Bedside table activity**:
+   - Passive range-of-motion for shoulders and arms
+   - Gentle arm circles (clockwise/counterclockwise)
+   - Reduces arm atrophy
+
+**Implementation considerations:**
+
+- **Temperature control**: Perform during warm periods (18–22°C ambient) to reduce muscle tension
+- **Breathing coordination**: Gentle diaphragmatic breathing during massage (co-activates vagus nerve)
+- **Caregiver involvement**: Severe patients require caregiver assistance for effective abdominal massage
+- **Symptom monitoring**: Stop immediately if patient reports discomfort or unusual fatigue
+- **PEM risk assessment**: Limit to gentle movements; avoid abdominal straining or high-effort postures
+
+Expected benefits.
+
+- **Improved gut motility**: Gentle stimulation maintains peristaltic activity
+- **Reduced constipation**: Abdominal massage promotes bowel regularity
+- **Maintained muscle mass**: Micro-movement prevents atrophy
+- **Supports butyrate production**: Colonocyte activity maintained through gentle contraction
+- **Improves circulation**: Reduced venous stasis, supporting orthostatic tolerance
+
+Evidence and certainty.
+
+Certainty: 0.50. Mechanistically grounded in gut motility physiology, abdominal massage benefits (established in general medicine), and deconditioning prevention (established in critical care). Direct clinical evidence in ME/CFS severe populations is lacking; the proposed protocol extends from established physiology to the specific context of severe ME/CFS. Bed-based movement for deconditioning is established in critical illness rehabilitation; gut-specific micro-movement for butyrate support is novel.
+
+Testable predictions.
+
+1. Severe ME/CFS patients performing bed-based micro-movement will show improved bowel regularity compared to immobilized controls.
+2. Abdominal massage frequency will correlate with fecal butyrate levels (maintenance of colonocyte activity).
+3. Bed-based micro-movement will reduce constipation frequency without triggering PEM.
+4. Caregiver-assisted protocol will show greater adherence than patient self-administered protocols.
+
+Limitations.
+
+- No ME/CFS-specific clinical trials exist.
+- Requires caregiver assistance; not feasible for very severe patients without caregivers.
+- Individual variability in tolerance; some patients may experience discomfort.
+- Gentle movements may not provide sufficient stimulation for significant butyrate production increases.
+- PEM risk, though low, must be monitored carefully.
+- Evidence for gut motility improvement is indirect; requires validation against objective measures (motility studies).
+
+Clinical recommendation.
+
+Consider bed-based micro-movement as a supportive strategy for severe ME/CFS patients, particularly those with constipation, reduced gut motility, or caregiver support available. Abdominal massage combined with gentle torso rotations may maintain colonocyte activity and support butyrate production without requiring exertion.
+
+(Certainty: 0.50)
+
+]
+
+=== N4: Temperature-Modulated Therapy (0.45)
+<sec:temperature-modulated-gut-therapy>
+
+#proposal(title: [N4: Temperature-Modulated Therapy (0.45)])[
+Mechanism and Rationale.
+
+Local temperature modulation of the abdomen may improve splanchnic perfusion, gut barrier repair, and butyrate production through circulatory and metabolic effects. Temperature has dual roles: heat improves blood flow and tissue repair, while cold may reduce inflammation and pain sensitivity.
+
+Heat therapy (40–42°C).
+
+**Thermodynamic effects:**
+
+- **Vasodilation**: Heat increases skin and splanchnic blood flow by ~30–50% at 40–42°C
+- **Enhanced oxygen delivery**: Improved perfusion supports epithelial proliferation and tight junction synthesis
+- **Reduced muscle tension**: Heat promotes muscle relaxation, reducing splanchnic compression
+- **Metabolic acceleration**: Elevated temperature increases enzyme activity, supporting butyrate production by colonocytes
+
+**Protocol:**
+
+- **Application**: Abdominal heat pack (gel pad, microwaveable heating pad, or hot water bottle)
+- **Temperature**: 40–42°C (do not exceed 42°C to avoid thermal injury)
+- **Duration**: 15–20 minutes, 1–2 times daily
+- **Timing**: 30 minutes before meals (improves pre-prandial perfusion) or 30 minutes before bedtime (enhances overnight gut repair)
+- **Positioning**: Supine or semi-reclined; heat pack placed on abdomen with gentle pressure
+
+**Benefits:**
+
+- Improved splanchnic blood flow during digestion
+- Enhanced gut barrier repair capacity
+- Reduced post-prandial symptom severity (bloating, cramping)
+- Support for overnight butyrate production (through circadian alignment)
+
+Cold therapy (20–25°C).
+
+**Thermodynamic effects:**
+
+- **Vasoconstriction**: Cold reduces peripheral blood flow, potentially diverting splanchnic blood to essential organs
+- **Anti-inflammatory**: Cold reduces inflammatory mediator release (TNF-alpha, IL-6)
+- **Pain reduction**: Cold numbs visceral pain signals
+- **Metabolic conservation**: Cold reduces overall metabolic rate, conserving energy
+
+**Protocol:**
+
+- **Application**: Abdominal cold pack (gel pad refrigerated to 4–8°C)
+- **Temperature**: 20–25°C (cool but not freezing)
+- **Duration**: 10–15 minutes, 1–2 times daily
+- **Timing**: Evening (to promote sleep), or during symptom flares (bloating, pain)
+- **Positioning**: Supine or semi-reclined
+
+**Benefits:**
+
+- Reduced inflammation during flare periods
+- Decreased visceral pain sensitivity
+- Energy conservation (cold-induced metabolic reduction)
+- May improve sleep quality by reducing discomfort
+
+Alternating approach.
+
+**Seasonal/phase-based modulation:**
+
+- **Summer/Autumn**: Heat therapy (40–42°C, 15 minutes, morning)
+- **Winter/Spring**: Cold therapy (20–25°C, 10 minutes, evening)
+- **Activity flares**: Heat therapy during periods of increased activity
+- **Rest periods**: Cold therapy during periods of reduced activity
+
+Rationale: Temperature modulation aligns with seasonal metabolic patterns and activity demands, potentially optimizing gut function while conserving energy.
+
+Evidence and certainty.
+
+Certainty: 0.45. Mechanistically grounded in thermal physiology, circulatory effects, and metabolic responses (well-established). Direct clinical evidence in ME/CFS populations is limited; the proposed temperature modulation protocol extends from general thermoregulation principles to gut-specific applications. Heat therapy is established for gut motility improvement; cold therapy for inflammation reduction; ME/CFS-specific protocols require validation.
+
+Testable predictions.
+
+1. Abdominal heat therapy (40–42°C) will improve splanchnic perfusion (measured via near-infrared spectroscopy) compared to ambient temperature.
+2. Heat therapy will reduce post-prandial symptom severity (bloating, cramping) compared to cold therapy in ME/CFS patients.
+3. Cold therapy will reduce inflammatory markers (CRP, IL-6) during symptom flares compared to ambient temperature.
+4. Temperature modulation (alternating heat/cold) will align with activity demands and improve patient energy balance.
+
+Limitations.
+
+- No ME/CFS-specific clinical trials exist.
+- Individual variability in thermal tolerance (some patients prefer heat, others cold).
+- Risk of thermal injury if temperature exceeds recommended range.
+- PEM risk from thermal stress requires monitoring, particularly with heat therapy.
+- Evidence for butyrate production improvement is indirect; requires validation against fecal butyrate measurements.
+- Limited data on optimal temperature, duration, and frequency.
+
+Clinical recommendation.
+
+Consider temperature-modulated abdominal therapy as an adjunct to gut optimization protocols, particularly for patients with documented splanchnic hypoperfusion, constipation, or post-prandial symptom exacerbation. Heat therapy (40–42°C, 15 minutes) may improve gut perfusion and butyrate production; cold therapy (20–25°C, 10 minutes) may reduce inflammation during flares. Monitor PEM risk and individual thermal tolerance carefully.
+
+(Certainty: 0.45)
+]
 
 == Transcutaneous Auricular Vagus Nerve Stimulation (taVNS)
 <sec:tavns-lifestyle>

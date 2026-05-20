@@ -44,6 +44,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
 | ans-aging             | [subtrees/ans-aging.md](subtrees/ans-aging.md)                        | 2026-04-20      | 25         | 0          | ⬜ stub        |
+| butyrate-intestinal-permeability | [subtrees/butyrate-intestinal-permeability.md](subtrees/butyrate-intestinal-permeability.md) | 2026-05-20      | 7          | 0          | ⬜ pending     |
 | ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |
 | autoimmune-diseases   | [subtrees/autoimmune-diseases.md](subtrees/autoimmune-diseases.md)    | 2026-05-02      | 0          | 0          | ⬜ group-root  |
 | autoimmune-sle        | [subtrees/autoimmune-sle.md](subtrees/autoimmune-sle.md)              | 2026-05-02      | 0          | 0          | ⬜ stub        |
@@ -208,3 +209,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | kynurenine-excitotoxicity | [subtrees/kynurenine-excitotoxicity.md](subtrees/kynurenine-excitotoxicity.md) | 2026-05-14 | 70 | 0 | ⬜ pending | —
 | q10-ubiquinol | [subtrees/q10-ubiquinol.md](subtrees/q10-ubiquinol.md) | 2026-05-17 | 72 | 5 | ⬜ pending | —
 | cd4-tcell-innate | [subtrees/cd4-tcell-innate.md](subtrees/cd4-tcell-innate.md) | 2026-05-18 | 5 | 5 | ✅ integrated | —
+| monocyte-dc-immunophenotyping | [subtrees/monocyte-dc-immunophenotyping.md](subtrees/monocyte-dc-immunophenotyping.md) | 2026-05-20 | 38 | 0 | 🔵 in progress | —

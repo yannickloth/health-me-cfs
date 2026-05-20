@@ -433,6 +433,234 @@ Age ~16 coincides with three simultaneous biological events: (1) accelerating th
 *Certainty: 0.45* (mechanistically coherent; consistent with McGrath IM enrichment OR 2.32, Katz 2009 ~13% CFS after IM, and Pricoco 2024  differential adolescent recovery; no direct measurement of thymic output in ME/CFS by onset age).
 ] <hyp:thymic-ebv-synchrony>
 
+=== Butyrate Across ME/CFS and Related Conditions
+<sec:butyrate-cross-disease>
+
+Butyrate deficiency has been observed across multiple chronic conditions with shared pathophysiological features. This cross-disease pattern suggests common mechanisms—possibly involving gut microbiome dysfunction, barrier breakdown, and immune dysregulation.
+
+#speculation(title: [X1: Butyrate-IBS-ME/CFS Continuum])[
+Butyrate deficiency observed across IBS, ME/CFS, and fibromyalgia suggests a shared microbiome dysfunction spectrum. The severity of butyrate deficiency may help distinguish conditions and inform treatment targets.
+
+**Evidence:**
+- IBS: Reduced butyrate producers (Faecalibacterium prausnitzii, Roseburia) in IBS-D and IBS-C, correlating with symptom severity (@Guo2023)
+- ME/CFS: Reduced butyrate producers in gut microbiome dysbiosis (@ButyrateDeficiency2023)
+- Fibromyalgia: Preliminary evidence of reduced butyrate-producing bacteria, but less consistent than IBS/ME/CFS
+
+**Cross-condition analysis:**
+- IBS and ME/CFS share GI symptoms, barrier dysfunction, and butyrate deficiency patterns
+- Fibromyalgia overlaps with ME/CFS in fatigue and central sensitization, but lacks consistent IBS-like GI dysfunction
+- Butyrate deficiency severity may distinguish IBS (moderate, GI-focused) from ME/CFS (severe, multi-system)
+
+**Mechanistic link:**
+Butyrate deficiency reduces:
+- Tight junction maintenance (increased intestinal permeability)
+- Treg differentiation (immune dysregulation)
+- Vagal afferent activation (autonomic dysfunction)
+- HIF-1α stabilization (metabolic reprogramming)
+
+**Clinical implications:**
+- ME/CFS patients with severe butyrate deficiency may benefit from targeted microbiome interventions (butyrate-producing probiotics, high-fiber diets)
+- Butyrate supplementation trials in ME/CFS may show differential response based on butyrate deficiency severity
+- Cross-disease butyrate deficiency panel could guide treatment selection across conditions
+
+**Cross-references:** See Section @sec:gut-microbiome for ME/CFS butyrate deficiency, Section @sec:intestinal-barrier for barrier mechanisms, and Section @sec:butyrate-vagal-ode for vagal coupling.
+
+**Certainty:** 0.60 (butyrate deficiency documented in IBS and ME/CFS; fibromyalgia evidence preliminary; mechanistic overlap across conditions is plausible but not proven)
+
+] <sec:butyrate-ibs-mecfs-continuum> <spec:butyrate-ibs-mecfs-continuum>
+
+#speculation(title: [X2: Butyrate-Long COVID Fatigue Parallel])[
+Long COVID post-viral fatigue shows butyrate deficiency patterns similar to ME/CFS, supporting cross-disease mechanistic hypotheses and potential for shared treatment protocols.
+
+**Evidence:**
+- Long COVID: Gut microbiome dysbiosis with reduced butyrate producers (Kim et al.  @Kim2026gutBrain)
+- Long COVID fatigue: Similar to ME/CFS post-exertional fatigue (certainty: 0.50 from distinct PEM pathophysiology analysis @hyp:distinct-pem-pathophysiology-long-covid)
+- Butyrate mechanisms: Similar in both conditions (HDAC inhibition, Treg upregulation, barrier maintenance)
+
+**Cross-condition comparison:**
+- Fatigue patterns: ME/CFS PEM (2-day CPET deterioration) distinct from Long COVID (some patients report PEM but no CPET deterioration)
+- Butyrate deficiency: Documented in both, but severity may differ
+- Immune phenotype: ME/CFS more suppressed, Long COVID more activated (Eaton-Fitch 2024 @Eaton-Fitch2024)
+- Viral persistence: SARS-CoV-2 RNA detectable in some Long COVID patients, not in ME/CFS
+
+**Mechanistic link:**
+Butyrate deficiency in Long COVID may contribute to:
+- Persistent fatigue via vagal dysfunction (similar to ME/CFS)
+- Immune dysregulation through reduced Tregs and HDAC inhibition
+- Barrier dysfunction contributing to viral antigen persistence
+
+**Treatment implications:**
+- Butyrate supplementation may benefit Long COVID patients with severe butyrate deficiency
+- Combined butyrate + antiviral protocols could address both microbiome dysfunction and viral persistence
+- Cross-condition butyrate-targeted trials could inform both ME/CFS and Long COVID treatment protocols
+
+**Cross-references:** See Section @sec:viral-clearance-comparison for Long COVID vs ME/CFS comparison, Section @sec:butyrate-vagal-ode for butyrate-vagal coupling, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+
+**Certainty:** 0.55 (butyrate deficiency documented in Long COVID and ME/CFS; mechanistic parallels plausible; clinical trials needed to test shared treatment protocols)
+
+] <sec:butyrate-longcovid-parallel> <spec:butyrate-longcovid-parallel>
+
+#speculation(title: [X3: Butyrate-IBD Barrier Comparison])[
+Butyrate mechanisms (HDAC inhibition, tight junction maintenance) are central to IBD pathophysiology. Comparing barrier repair dynamics may reveal ME/CFS-specific dysfunction patterns.
+
+**IBD-butyrat mechanisms:**
+- HDAC inhibition stabilizes tight junction proteins (claudin-1, occludin, ZO-1)
+- Butyrate reduces intestinal inflammation via Treg differentiation
+- Butyrate promotes colonocyte energy production and proliferation
+- Butyrate deficiency contributes to barrier breakdown in IBD
+
+**ME/CFS-butyrat mechanisms:**
+- Butyrate deficiency documented in ME/CFS microbiome dysbiosis (@ButyrateDeficiency2023)
+- Barrier dysfunction observed in ME/CFS (Section @sec:intestinal-barrier)
+- Immune dysregulation via reduced Tregs and HDAC inhibition
+- Vagal coupling through serotonin-vagal pathway (Section @sec:gut-brain)
+
+**Cross-condition analysis:**
+- IBD: Active inflammation with barrier breakdown, butyrate supplementation shows efficacy in clinical trials
+- ME/CFS: Chronic low-grade inflammation with barrier dysfunction, butyrate supplementation not yet tested in controlled trials
+- Severity: IBD butyrate deficiency correlates with active inflammation; ME/CFS butyrate deficiency may correlate with systemic symptoms
+
+**Distinguishing patterns:**
+- IBD butyrate deficiency is primarily gut-localized with prominent GI symptoms
+- ME/CFS butyrate deficiency is systemic, with multi-organ dysfunction despite gut-localized deficiency
+- IBD responds well to butyrate supplementation; ME/CFS response not yet established
+
+**Mechanistic insight:**
+Comparing barrier repair kinetics after butyrate challenge may reveal:
+- Whether ME/CFS barrier repair is fundamentally impaired (similar to IBD)
+- Whether ME/CFS requires higher butyrate doses due to impaired utilization
+- Whether ME/CFS-specific factors (immune dysregulation, autonomic dysfunction) limit butyrate efficacy
+
+**Cross-references:** See Section @sec:intestinal-barrier for ME/CFS barrier dysfunction, IBD butyrate supplementation evidence, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+
+**Certainty:** 0.50 (butyrate mechanisms well-established in IBD; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; barrier comparison is hypothesis-generating)
+
+] <sec:butyrate-ibd-barrier-comparison> <spec:butyrate-ibd-barrier-comparison>
+
+#speculation(title: [X4: Butyrate-Autonomic Neuropathy Diabetic Parallels])[
+Diabetic autonomic neuropathy shows vagal dysfunction; butyrate deficiency may contribute to similar dysautonomia in ME/CFS. Comparing mechanisms may reveal treatment targets.
+
+**Diabetic autonomic neuropathy (DAN):**
+- Vagal dysfunction observed in 30–50% of diabetic patients
+- Reduced HRV, impaired baroreflex sensitivity
+- Mechanisms: hyperglycemia-induced oxidative stress, advanced glycation end-products (AGEs), inflammation
+- Evidence-based treatments: tight glycemic control, lifestyle modifications, possible butyrate supplementation
+
+**ME/CFS dysautonomia:**
+- Vagal dysfunction observed in 30–40% of ME/CFS patients (POTS prevalence >30%)
+- Reduced HRV, impaired baroreflex sensitivity
+- Mechanisms: uncertain, but includes immune dysregulation, inflammation, neurotransmitter abnormalities (Wirth & Scheibenbogen 2025 @WirthScheibenbogen2025Neurotransmitter)
+- Current treatments: salt/fluids, compression, ivabradine, fludrocortisone
+
+**Cross-condition mechanisms:**
+- Both conditions show reduced HRV and vagal efferent output
+- Both conditions involve low-grade inflammation contributing to vagal dysfunction
+- BUTYRATE DEFICIENCY MAY CONTRIBUTE TO DYSAUTONIA IN BOTH CONDITIONS via vagal afferent sensitization
+
+**Butyrate-DAN connection:**
+- Butyrate enhances vagal afferent firing rate (ODE model in Section @sec:butyrate-vagal-ode)
+- Butyrate deficiency reduces vagal afferent input → impaired vagal efferent output
+- Butyrate improves mitochondrial function → supports neuronal energy metabolism
+
+**Butyrate-ME/CFS connection:**
+- ME/CFS butyrate deficiency documented in gut microbiome dysbiosis (@ButyrateDeficiency2023)
+- Butyrate deficiency may contribute to reduced vagal tone via vagal afferent sensitization
+- Combined butyrate + dysautonomia treatments may have synergistic effects
+
+**Mechanistic insight:**
+Comparing butyrate dynamics in DAN vs ME/CFS may reveal:
+- Whether butyrate deficiency is common in dysautonomia across conditions
+- Whether butyrate supplementation can improve HRV in both DAN and ME/CFS
+- Which butyrate parameters (absorption, utilization, distribution) are impaired in dysautonomia
+
+**Cross-references:** See Section @sec:butyrate-vagal-ode for ODE model, Section @sec:autonomic for ME/CFS dysautonomia mechanisms, DAN pathophysiology and treatment evidence, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+
+**Certainty:** 0.45 (butyrate-vagal coupling documented in animal studies; diabetic autonomic neuropathy mechanisms well-established; butyrate deficiency in ME/CFS not linked to dysautonomia; mechanistic comparison is hypothesis-generating)
+
+] <sec:butyrate-diabetic-autonomic-parallels> <spec:butyrate-diabetic-autonomic-parallels>
+
+#speculation(title: [X5: Butyrate-Parkinson's Constipation-Fatigue Bridge])[
+Parkinson's patients have constipation and fatigue; butyrate deficiency may contribute via similar gut-brain axis disruption. Exploratory cross-disease bridge.
+
+**Parkinson's pathophysiology:**
+- Constipation affects 70–90% of Parkinson's patients, occurring years before motor symptoms
+- Gut microbiome dysbiosis: reduced butyrate producers (F. prausnitzii, R. hominis)
+- Fatigue common in Parkinson's (fatigue prevalence 20–30%)
+- Gut-brain axis involvement: microbiota influence neuroinflammation and alpha-synuclein pathology
+
+**ME/CFS pathophysiology:**
+- Constipation/GI dysfunction common (20–40% of ME/CFS patients)
+- Gut microbiome dysbiosis: reduced butyrate producers (@ButyrateDeficiency2023)
+- Fatigue is cardinal feature of ME/CFS
+- Gut-brain axis involvement: serotonin-vagal pathways, inflammation
+
+**Cross-condition comparison:**
+- Parkinson's: Constipation precedes fatigue by years; fatigue is secondary to neurological progression
+- ME/CFS: Fatigue is primary; GI dysfunction and fatigue co-occur; unclear whether GI dysfunction precedes fatigue
+
+**Butyrate-ME/CFS link:**
+- Butyrate deficiency reduces gut motility (butyrate stimulates intestinal peristalsis)
+- Butyrate deficiency reduces Treg differentiation → immune dysregulation
+- Butyrate deficiency contributes to fatigue via vagal dysfunction (similar to X4)
+
+**Butyrate-Parkinson's link:**
+- Butyrate deficiency may contribute to constipation via reduced gut motility
+- Butyrate deficiency may contribute to fatigue via gut-brain axis disruption and immune dysregulation
+- Cross-condition butyrate-targeted treatments could benefit both conditions
+
+**Mechanistic insight:**
+Comparing butyrate dynamics in Parkinson's vs ME/CFS may reveal:
+- Whether butyrate deficiency is common in Parkinson's constipation
+- Whether butyrate deficiency contributes to fatigue in both conditions
+- Which butyrate parameters are impaired (absorption, utilization, distribution)
+
+**Cross-references:** See Section @sec:gut-microbiome for butyrate deficiency in ME/CFS, Parkinson's gut-brain axis mechanisms, gut motility regulation, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+
+**Certainty:** 0.40 (butyrate deficiency in Parkinson's constipation documented; fatigue mechanisms in Parkinson's not butyrate-linked; ME/CFS butyrate deficiency not linked to Parkinson's; cross-condition bridge is exploratory)
+
+] <sec:butyrate-parkinsons-bridge> <spec:butyrate-parkinsons-bridge>
+
+#speculation(title: [X6: Butyrate-MS Fatigue Overlap])[
+Multiple sclerosis fatigue shows gut dysbiosis patterns; butyrate deficiency may contribute to fatigue via immune and metabolic mechanisms. Cross-disease exploration.
+
+**MS fatigue:**
+- Fatigue prevalence 70–80% in MS (higher than ME/CFS fatigue prevalence of ~70% overall)
+- Fatigue worsens with disease progression, physical activity, heat
+- Gut microbiome dysbiosis in MS: reduced butyrate producers (F. prausnitzii, R. hominis)
+- Butyrate supplementation improves MS-related fatigue in pilot studies
+
+**ME/CFS fatigue:**
+- Fatigue is cardinal feature, with PEM (24–72h delayed)
+- Gut microbiome dysbiosis: reduced butyrate producers (@ButyrateDeficiency2023)
+- Fatigue mechanisms: uncertain, but includes immune dysregulation, metabolic dysfunction, CNS effort computation changes
+
+**Cross-condition comparison:**
+- Fatigue severity: MS fatigue 70–80% prevalence; ME/CFS fatigue 70% prevalence (broad estimate)
+- Fatigue triggers: MS fatigue triggered by disease progression, activity, heat; ME/CFS fatigue triggered by exertion (PEM)
+- Gut microbiome: Both conditions show reduced butyrate producers; butyrate supplementation shows some benefit in MS fatigue
+
+**Butyrate-MS link:**
+- Butyrate reduces neuroinflammation via HDAC inhibition and Treg differentiation
+- Butyrate improves mitochondrial function in immune cells
+- Butyrate deficiency contributes to fatigue via immune dysregulation and metabolic dysfunction
+
+**Butyrate-ME/CFS link:**
+- ME/CFS butyrate deficiency documented in gut microbiome dysbiosis (@ButyrateDeficiency2023)
+- Butyrate deficiency contributes to immune dysregulation via reduced Tregs and HDAC inhibition
+- Butyrate deficiency contributes to fatigue via vagal dysfunction and metabolic dysfunction
+
+**Mechanistic insight:**
+Comparing butyrate dynamics in MS vs ME/CFS may reveal:
+- Whether butyrate deficiency is common in MS fatigue
+- Whether butyrate supplementation can improve ME/CFS fatigue
+- Which butyrate parameters are impaired (absorption, utilization, distribution)
+
+**Cross-references:** See Section @sec:gut-microbiome for butyrate deficiency in ME/CFS, MS gut microbiome dysbiosis, butyrate supplementation evidence in MS, and Section @sec:butyrate-immune-network for immune modulation mechanisms.
+
+**Certainty:** 0.45 (butyrate deficiency in MS gut dysbiosis documented; butyrate supplementation shows benefit in MS fatigue; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; cross-condition exploration is hypothesis-generating)
+
+] <sec:butyrate-ms-fatigue-overlap> <spec:butyrate-ms-fatigue-overlap>
+
 #speculation(title: [Early-Onset Severity Reflects Developmental Neurovulnerability, Not Disease Duration])[
 Early-onset ME/CFS is more severe (OR 2.15) independent of illness duration . Brain myelination and synaptic pruning continue into the mid-20s. Immune-mediated neuroinflammation during this developmental window may produce permanent structural changes (reduced prefrontal white matter integrity, altered default mode network connectivity) that are irreversible even if the immune trigger resolves. Late onset, hitting a mature brain, produces functional but not structural disruption. This predicts: (a) early-onset patients will show reduced fractional anisotropy on DTI in prefrontal regions compared to late-onset patients matched for duration and severity; (b) the severity difference will be mediated by white matter integrity metrics; (c) early-onset patients will show altered functional connectivity in networks still maturing at age 16 (default mode, salience network).
 *Certainty: 0.30* (developmental neurobiology well-established; no ME/CFS neuroimaging data stratified by onset age; mediation analysis not performed).
@@ -1767,3 +1995,22 @@ Vitiligo shares with LS the CD8+ TRM dominance and IL-15 trans-presentation mech
 
 *Limitations:* Vitiligo is often cosmetically minimized and under-reported in registry questionnaires. The TRM comparison requires matched biopsy data from ME/CFS patients with each condition, which is not feasible at scale.
 ] <spec:vitiligo-trm-control>
+
+=== Direct Immunophenotyping Comparison: Monocyte and Dendritic Cell Signatures
+
+#achievement(title: [Divergent Monocyte and Dendritic Cell Profiles in ME/CFS vs Long COVID])[
+
+*Certainty: 0.70.* The largest comparative immunophenotyping study to date (n=207; 103 ME/CFS, 63 long COVID, 41 healthy controls) by Petrov et al.\ used 12-parameter flow cytometry to directly compare monocyte, dendritic cell, and T cell subsets between ME/CFS and long COVID @Petrov2026monocyteDC. Key findings:
+
+- *Long COVID:* Increased M2-like (CD206-high) monocyte polarization, elevated CD80 expression across all monocyte subsets, dendritic cell expansion, and reduced HLA-DR on dendritic cells — consistent with persistent immune activation with features of immune exhaustion
+- *ME/CFS:* Reduced CD80 on M1-like (CD206-low) monocytes, impaired CCR7 expression on both monocytes and dendritic cells, reduced dendritic cell frequency — consistent with immune suppression and defective immune trafficking
+- *T cells:* Long COVID showed increased CD8+ central memory and CD4+CD95+ cells; ME/CFS showed increased CD8+ effector memory/terminal differentiation (CD45RA+CD62L-) with CD4+CD95+ elevation
+- *Correlation networks:* Long COVID had more extensive and integrated immune interactions; ME/CFS showed less coordinated activation patterns
+- *Clinical correlation:* Inverse relationship between monocyte HLA-DR expression and psychiatric symptom severity in ME/CFS — higher HLA-DR associated with lower depression/anxiety scores (protective association)
+
+The study achieved moderate discrimination between conditions using PCA and PLS-DA (VIP discriminators: CD80 on monocytes, CCR7 on dendritic cells, M2-like polarization).
+
+*Limitations:* Cross-sectional design; no functional assays; vaccination status not analyzed; single-center; excluded common ME/CFS medications (LDN, antihistamines, beta-blockers); healthy controls significantly younger than patient groups (age-adjusted ANCOVA applied); not yet replicated in an independent cohort.
+
+*Implications:* These findings suggest that ME/CFS and long COVID, despite overlapping clinical features, involve divergent immune architectures with different therapeutic implications. Immune-restorative approaches may be more appropriate for ME/CFS, while immune-resolution strategies may be needed for long COVID (see also Section @sec:cross-disease and the immune suppression/activation divergence discussed in Chapter @ch:immune-dysfunction).
+] <ach:petrov-2026-monocyte-dc-divergence>

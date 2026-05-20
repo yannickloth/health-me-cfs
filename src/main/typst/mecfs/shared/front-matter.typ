@@ -98,7 +98,7 @@
     #text(font: font-heading, size: size-body, weight: "regular",
       context [Part #_part-counter.display("I")])
     #v(0.8em)
-    #text(font: font-heading, size: 22pt, weight: "bold", title)
+    #text(font: font-heading, size: 22pt, weight: "bold")[title]
   ]
   v(1.5em)
   body

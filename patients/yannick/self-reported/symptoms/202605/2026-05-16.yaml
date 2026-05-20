@@ -1,0 +1,42 @@
+date: 2026-05-16
+
+sleep:
+  duration_hours: unknown
+  quality: unknown
+  source: patient_report
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+    - "Rilatine MR 30mg: 1 extra dose taken"
+  supplements: ~
+  notes: "Extra Rilatine MR 30mg taken - likely needed for increased activity demands"
+
+symptoms:
+  fatigue:
+    severity: unknown
+    notes: "Not specifically recorded - busy day with two significant events"
+  overall:
+    severity: unknown
+    notes: "Busy day with funeral (Christelle) in morning and communion (Jayden) in afternoon"
+
+overall_wellbeing: ~
+
+activity:
+  events:
+    - description: "Funeral (enterrement de Christelle) - morning"
+    - description: "Communion (Jayden) - afternoon"
+  medications:
+    - description: "Extra Rilatine MR 30mg dose taken"
+
+hypotheses:
+  - id: extra_stimulant_high_activity_day
+    text: "Extra Rilatine MR 30mg dose taken on high-activity day (funeral + communion). Suggests increased cognitive/physical demands required additional support."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If similar high-activity days without extra stimulant result in PEM/fatigue, confirms need. If function maintained without, habituation possible."
+  - id: grief_emotional_load
+    text: "Funeral day for Christelle - emotional load likely significant. May contribute to subsequent-day fatigue (2026-05-17)."
+    status: patient_hypothesis
+    falsifiable: false
+    test: "Cannot falsify - grief response expected and highly individual."

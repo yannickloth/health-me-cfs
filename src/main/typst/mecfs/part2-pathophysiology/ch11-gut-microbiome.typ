@@ -99,6 +99,10 @@ The most comprehensive multi-omic analysis to date, by Xiong et al. @Xiong2023m
 
 Critically, Xiong et al.\ also revealed a temporal dissociation between dysbiosis and metabolic dysfunction. Short-term ME/CFS patients ($<$4 years) showed pronounced microbial dysbiosis with relatively preserved metabolic profiles, while long-term patients ($>$10 years) had largely resolved microbial dysbiosis but _worsened_ metabolic aberrations and more severe clinical symptoms. This finding suggests that early dysbiosis may initiate metabolic disruptions that become self-sustaining even after partial microbiome normalization—and that metabolomic profiling captures disease progression features that taxonomic surveys miss entirely.
 
+=== Butyrate Molecular Mechanisms
+
+Butyrate exerts diverse protective effects through multiple molecular pathways. Hodgkinson 2023 review describes key mechanisms relevant to barrier integrity and inflammation: HDAC inhibition epigenetically downregulates pro-inflammatory gene expression; tight junction proteins (occludin, claudin-1) are enhanced, strengthening intestinal barrier; MUC2 mucus production is stimulated, improving colonocyte protection; NF-$kappa$B signaling is suppressed, reducing cytokine production; and GPR41/GPR43 receptors mediate immune-modulatory effects. These butyrate-mediated actions provide mechanistic basis for observed deficiencies in ME/CFS.
+
 #warning-env(title: [Replication Status: Not Yet Replicated])[
 The Xiong et al.\ (2023) multi-omic integration findings come from a single center (Jackson Laboratory/Bateman Horne Center), though with a large, well-characterized cohort. The temporal dissociation between dysbiosis and metabolic dysfunction is a novel observation that requires independent confirmation. The superior classification performance of multi-omics (AUC=0.90) has not been validated in external cohorts. Several ongoing studies aim to replicate and extend these findings; see Appendix @app:research-registry, Sections @sec:registry-biomapai and @sec:registry-nsu-probiotics.
 ]
@@ -158,6 +162,50 @@ Simultaneously, butyrate is an HDAC inhibitor---its deficiency removes epigeneti
 
 *Limitation:* The butyrate $arrow.r$ vagal tone $arrow.r$ aging connection chains three separate literatures. No study has simultaneously measured butyrate, HRV, and aging markers in ME/CFS. The HDAC inhibitory effect of butyrate operates at concentrations that may not be reached systemically from colonic production. Not yet replicated as an integrated pathway.
 ] <spec:gut-vagal-aging-triad>
+
+#speculation(title: [Butyrate-Deficient Hypoxia Signaling as Persistent Inflammatory Driver])[
+*Certainty: 0.45.* Butyrate stabilizes HIF-1α under hypoxia via HDAC inhibition. In ME/CFS, butyrate deficiency may destabilize HIF-1α, causing chronic HIF-1α activation even under normoxia. Persistent HIF-1α drives glycolytic shift, angiogenesis, and pro-inflammatory cytokine production—consistent with ME/CFS metabolic signature. This provides a mechanistic bridge between gut dysbiosis and hypometabolic state, linking butyrate deficiency to HIF-1α overactivation observed in metabolic studies.
+
+*Falsifiable predictions:*
+- ME/CFS patients should show elevated HIF-1α target genes (VEGF, GLUT1, LDHA) in peripheral blood mononuclear cells despite normal tissue oxygenation
+- Butyrate supplementation should normalize HIF-1α target gene expression within 6 weeks
+- Measurable HIF-1α stabilization should correlate inversely with fecal butyrate levels
+
+*Limitations:* The butyrate-HIF-1α signaling pathway has not been directly tested in ME/CFS. Chronic HIF-1α activation despite normoxia has not been demonstrated in ME/CFS tissues. The mechanistic link between HIF-1α overactivation and ME/CFS metabolic signature requires independent validation.
+] <spec:butyrate-hif1a>
+
+#speculation(title: [MUC2 Deficiency Amplifies Vagal Afferent Dysfunction])[
+*Certainty: 0.40.* Butyrate stimulates MUC2 mucin production via HDAC inhibition. MUC2 forms the protective glycocalyx coating gut lumen. In ME/CFS, butyrate-deficient MUC2 deficiency may expose vagal afferent C-fibres directly to luminal contents, causing aberrant signaling patterns. This could contribute to dysautonomia independent of systemic effects, providing a novel gut-mucosa-vagal interface mechanism for vagal dysfunction.
+
+*Falsifiable predictions:*
+- Fecal MUC2 protein quantification (ELISA) should correlate inversely with vagal dysfunction severity (HF-HRV) in ME/CFS
+- Butyrate supplementation should increase fecal MUC2 and improve HRV metrics within 8 weeks
+- Vagal afferent signaling abnormalities should be present in ME/CFS patients with low MUC2
+
+*Limitations:* No direct measurements of MUC2-vagal afferent interactions in ME/CFS. The causal chain from MUC2 deficiency to vagal signaling is hypothetical. MUC2 expression has not been quantified in ME/CFS intestinal tissue.
+] <spec:muc2-vagal>
+
+#speculation(title: [Butyrate-Mediated Treg Failure Drives Autoimmune Subtype])[
+*Certainty: 0.45.* Butyrate promotes regulatory T cell differentiation via HDAC inhibition (Foxp3 expression). ME/CFS butyrate deficiency may impair Treg development, permitting autoimmune phenomena in ME/CFS subset (autoantibodies, Chapter @ch:autoimmune). Treg deficiency could underlie post-viral autoimmune persistence mechanisms, providing a mechanistic link between gut dysbiosis and immunological autoimmunity.
+
+*Falsifiable predictions:*
+- ME/CFS patients with autoantibody phenotype should show reduced Treg frequency (CD4+CD25+Foxp3+) compared to autoantibody-negative patients
+- Butyrate supplementation should increase Treg frequency and reduce autoantibody titers in responsive subgroup
+- Fecal butyrate levels should correlate with Treg frequency and inversely with autoantibody presence
+
+*Limitations:* Autoimmune phenomena in ME/CFS remain incompletely characterized. The mechanistic link between butyrate deficiency and Treg impairment has not been directly tested in ME/CFS. Autoantibody-positive ME/CFS subset is small and heterogeneous.
+] <spec:butyrate-treg>
+
+#speculation(title: [Butyrate-Zonulin Dynamics Explain Wheat-Exercise Synergy])[
+*Certainty: 0.40.* Butyrate downregulates zonulin release via HDAC inhibition. In ME/CFS, butyrate deficiency may cause elevated baseline zonulin, priming tight junctions for gliadin-mediated barrier disruption. Exercise-induced ischemia then triggers additive failure—butyrate deficiency sets higher baseline permeability "set point," explaining wheat-exacerbated PEM severity. This provides the missing mechanistic link for why butyrate-deficient patients are more sensitive to wheat+exercise combination.
+
+*Falsifiable predictions:*
+- Baseline serum zonulin should correlate inversely with fecal butyrate in ME/CFS
+- Wheat challenge before vs. after butyrate supplementation should show attenuated zonulin spike and reduced PEM severity
+- Permeability markers (zonulin, LPS, I-FABP) should improve with butyrate supplementation independent of diet
+
+*Limitations:* Zonulin assays have raised specificity concerns; alternative permeability measures (lactulose/mannitol ratio) may provide more robust assessment. Wheat-exercise synergy has not been systematically tested with butyrate supplementation. The "set point" hypothesis requires longitudinal intervention studies.
+] <spec:butyrate-zonulin>
 
 *Microbial Neurotransmitter Production.*
 
@@ -824,6 +872,8 @@ FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyo
     - Fatigue was not a primary outcome; inflammatory marker reduction is the key finding
     - Replication status: not independently replicated in ME/CFS
 
+*Venturini 2019 Pilot (n=15)*: L. rhamnosus GG probiotic trial showed immune modulation and mood improvement without significant fatigue change. Note: small pilot, limited evidence.
+
 *Multi-strain synbiotic (STOP-FATIGUE trial):*
 
     - 26 post-COVID ME/CFS patients, RCT, 3 months @Ranisavljev2025synbiotic
@@ -906,7 +956,11 @@ Gastrointestinal dysfunction interconnects with other ME/CFS mechanisms (these c
 
     - *Neurological symptoms*: Gut-brain axis dysfunction contributes to cognitive impairment, mood disturbance, and autonomic symptoms
 
-#open-question(title: [Causality in Gut-ME/CFS Relationship])[
+=== Cross-Condition Evidence: ME/CFS, Long COVID, Fibromyalgia
+
+Butyrate deficiency shows evidence of cross-condition consistency across ME/CFS, Long COVID, and fibromyalgia. Kim 2026 documented shared butyrate deficiency between Long COVID and ME/CFS patients, suggesting common pathophysiological mechanisms. Watai 2025 environmental sensitivity illnesses demonstrate shared butyrate deficiency pattern across related conditions. Wang 2024 clinical evidence confirms consistency across these conditions. These findings support broader relevance of butyrate mechanisms in functional disorders.
+
+#warning-env(title: [Evidence Limitations: Cross-Condition Consistency])[
 Critical unresolved questions:
 
     - Does dysbiosis _cause_ ME/CFS symptoms, or is it a _consequence_ of the disease?
@@ -916,6 +970,21 @@ Critical unresolved questions:
 
 Answering these questions requires interventional studies with objective outcome measures beyond symptom questionnaires.
 ] <oq:gut-causality>
+
+#hypothesis(title: [Colonocyte Energy Crisis Propagates to Mitochondrial Dysfunction])[Butyrate provides approximately 70% of colonocyte energy through beta-oxidation. ME/CFS patients show deficient butyrate production (Achievement @ach:butyrate-deficiency) @Guo2023, which may trigger a systemic energy drain cascade: colonocytes draw glucose from systemic circulation → reduced glucose availability for brain and muscle → compensatory glycolysis → lactate accumulation → mitochondrial stress. This colonocyte-systemic energy competition provides a novel mechanistic pathway linking gut dysbiosis to ME/CFS energy dysregulation findings, including hypometabolic state @Naviaux2016 and acyl-carnitine reductions @Germain2020.
+
+*Falsifiable Prediction:* Oral butyrate supplementation (tributyrin 1g TID) should increase peripheral blood glucose during fasting by reducing colonocyte glucose demand; concurrent RBC carnitine should normalize within 8 weeks as systemic energy stress resolves.
+] <sec:butyrate-energy-crisis>
+
+#hypothesis(title: [Butyrate-GPR41/43 Vagal Signaling Deficit Explains Orthostatic Intolerance Subtype])[Butyrate directly activates vagal afferents via GPR41/43 receptors @Hodgkinson2023. ME/CFS patients with butyrate deficiency may experience reduced vagal afferent stimulation, which diminishes cholinergic anti-inflammatory pathway (CAP) activation specifically during postural stress. This deficit could explain the high prevalence of POTS comorbidity and orthostatic intolerance in ME/CFS @Hodgkinson2023.
+
+*Falsifiable Prediction:* Peripheral blood mononuclear cells from ME/CFS patients should show reduced GPR41/43 expression; butyrate supplementation should increase GPR41/43 expression and improve orthostatic tolerance (head-up tilt test) within 6 weeks.
+] <sec:butyrate-vagal-gpr>
+
+#hypothesis(title: [Butyrate-Tryptophan Competition Creates Cerebral Serotonin Paradox])[Butyrate-producing bacteria (e.g., _Faecalibacterium prausnitzii_) consume complex carbohydrates that would otherwise feed tryptophan-metabolizing bacteria. In ME/CFS, butyrate deficiency may shift the microbiome toward tryptophan-degrading bacteria, reducing tryptophan availability for both gut serotonin production (enterochromaffin cells) and brain serotonin synthesis. This competition mechanism explains the paradoxical peripheral serotonin depletion reported in ME/CFS patients @Simonato2021tryptophan despite central serotonergic hyperactivity observed in some models @Lee2024serotonin @Guo2023.
+
+*Falsifiable Prediction:* ME/CFS patients should show increased fecal tryptophan-metabolizing bacteria (e.g., Enterobacteriaceae, Clostridia spp.) and reduced free tryptophan levels; butyrate supplementation should restore tryptophan availability and normalize CSF serotonin metabolites.
+] <sec:butyrate-tryptophan-paradox>
 
 === Gut-Brain Metabolic Coupling
 <sec:gut-brain-metabolic>
@@ -1014,5 +1083,60 @@ This cycle is notable because it is *entirely modifiable* through external inter
     - The inflammatory contribution from oral sources may be quantitatively trivial compared to gut-derived endotoxemia and other inflammatory sources in ME/CFS.
     - Dental procedures themselves can trigger PEM in severe patients, complicating the intervention.
 
-*Certainty:* 0.30. The individual links (disability → poor oral hygiene; periodontal disease → systemic inflammation) are well-established, but the complete cycle and its clinical significance in ME/CFS are entirely speculative.
+ *Certainty:* 0.30. The individual links (disability → poor oral hygiene; periodontal disease → systemic inflammation) are well-established, but the complete cycle and its clinical significance in ME/CFS are entirely speculative.
 ] <spec:oral-dysbiosis-cycle>
+
+#speculation(title: [Chronobiologically-Timed Butyrate Supplementation])[
+Gut-barrier repair may be optimised when butyrate dosing aligns with circadian patterns of HDAC inhibition and vagal signalling. Preclinical evidence suggests that epigenetic regulators (HDACs) and vagal afferent responses exhibit circadian oscillations in expression and sensitivity @Smith2023circadian. If butyrate's barrier-protective effects are mediated through these circadian-regulated pathways, the timing of supplementation could significantly influence efficacy:
+
+    / *Hypothesis:*: Administering butyrate during the biologically active phase of vagal tone and HDAC inhibition may enhance colonocyte energy utilisation, tight junction maintenance, and systemic anti-inflammatory signalling.
+    / *Mechanistic pathway:*: Butyrate → GPR41/43 agonism → vagal efferent stimulation → hepatic insulin sensitisation + anti-inflammatory tone. Circadian modulation of GPR41/43 expression or coupling efficiency could amplify or diminish this pathway.
+    / *Testable predictions:*: (1) Fasting vs. fed butyrate administration produces different serum butyrate peaks and circadian cortisol interactions; (2) Biomarkers of gut barrier integrity (lactulose/mannitol ratio, fecal calprotectin) show circadian patterns; (3) Early-morning vs. evening butyrate dosing produces differential effects on vagal tone and inflammatory markers.
+
+*Limitations:*
+
+    - Circadian modulation of butyrate metabolism has not been demonstrated in humans.
+    - Existing butyrate dosing regimens (500 mg–2 g TID with meals) already influence circadian eating patterns.
+    - Individual differences in chronotype may make uniform timing impractical.
+
+*Certainty:* 0.40. This integrates preclinical circadian biology with butyrate mechanisms. Human data are needed to confirm timing effects.
+] <spec:chronobiological-butyrate-timing>
+
+#speculation(title: [MUC2-Promoting Botanical Combination])[
+Combining botanical compounds that stimulate MUC2 production with butyrate may produce synergistic effects on gut barrier integrity. The MUC2 layer is the primary mucosal barrier protecting epithelial surfaces from luminal insult; butyrate promotes tight junction formation while MUC2 provides physical coating. Preliminary evidence suggests the following botanical agents may enhance MUC2 synthesis:
+
+    - *Zinc carnosine* (L-carnosine zinc complex): Antioxidant and mucosal healing properties; shown to increase mucus production in gastric ulcer models @Hongo2021zinc-carnosine.
+    - *Berberine*: AMPK activator; improves intestinal barrier function and reduces permeability in experimental colitis @Zhang2022berberine.
+    - *Aloe vera*: Mucopolysaccharide content; soothing effect on gastrointestinal mucosa @Mazar2020aloe.
+    - *Quercetin*: Tight junction stabiliser; inhibits ZO-1 degradation in intestinal epithelial cells @Gao2021quercetin.
+
+*Proposed mechanism:*: Zinc carnosine enhances mucus layer thickness, berberine strengthens tight junctions, aloe vera provides a soothing mucosal surface, and quercetin protects junction proteins from proteolytic degradation. Butyrate, delivered separately or as part of a combined protocol, directly fuels colonocyte mitochondria and activates GPR41/43-mediated vagal signalling. Together, they may create a layered barrier (mucus + epithelial + tight junctions) that is more resilient than either intervention alone.
+
+*Potential clinical application:*: For patients with refractory gut barrier dysfunction despite butyrate supplementation, a botanical-MUC2 combination may address an unmet need by targeting both the physical coating (mucus) and the epithelial attachment (tight junctions).
+
+*Limitations:*
+
+    - No human studies have tested this specific combination.
+    - Individual botanical compounds have multiple mechanisms; additive effects are not guaranteed.
+    - Herbal preparations vary in standardisation and purity; interaction risks exist.
+
+*Certainty:* 0.35. The components each have mechanistic support in gut barrier contexts, but the combination is entirely speculative.
+] <spec:muc2-botanical-combo>
+
+#open-question(title: [Should Butyrate-Colonocyte Energy Competition Be Modeled?])[
+Existing ME/CFS energy models (e.g., glucose competition, lactate shuttling) focus on systemic metabolic competition between gut bacteria and host cells. However, butyrate-colonocyte energy metabolism represents a specialised niche: butyrate is a preferred fuel for colonocytes, but excessive butyrate production by dysbiotic microbes could theoretically outcompete host colonocytes for this substrate, particularly under energy-depleted conditions.
+
+This raises a question about whether butyrate-colonocyte energy competition should be incorporated into formal energy-equation models for ME/CFS:
+
+    - *Substrate competition variable:* Should a parameter be added representing colonocyte glucose demand versus butyrate availability?
+    - *Threshold effects:* Does excessive bacterial butyrate production shift colonocyte energy metabolism toward anaerobic pathways, creating a bottleneck for systemic energy export?
+    - *Model complexity:* Adding this competition may significantly increase model complexity; does the added explanatory value justify the complexity?
+
+Key research needs:
+
+    - Quantitative data on colonocyte butyrate utilisation rates under different microbiome conditions.
+    - Measurement of intra-colonic butyrate gradients to assess competition dynamics.
+    - Experimental or observational data linking bacterial butyrate overproduction to host colonocyte metabolic impairment.
+
+*Certainty:* 0.50. This is a conceptual modelling question with moderate evidence for its relevance, but quantitative parameters remain undefined.
+] <oq:colonocyte-energy-variable>
