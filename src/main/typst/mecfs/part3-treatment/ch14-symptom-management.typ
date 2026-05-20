@@ -300,13 +300,13 @@ Sleep architecture quality cannot be pharmacologically restored without trade-of
 
 Adenosine levels rise progressively during wakefulness and promote slow-wave sleep through A1 and A2A receptor stimulation @Reichert2022adenosine. This sleep pressure mechanism is fundamental to N3 generation and alpha wave suppression. ME/CFS patients show impaired sleep homeostasis with reduced SWA response to sleep delay @Jackson2012sleepAbnormalities, suggesting weakened sleep pressure contributes to alpha-delta sleep patterns.
 
-**Caffeine avoidance** is critical for ME/CFS patients. As a potent adenosine antagonist, caffeine reduces slow-wave sleep and may worsen alpha-delta sleep by interfering with sleep pressure buildup @Reichert2022adenosine. Complete caffeine avoidance (including decaf beverages, which contain small amounts) for 4-6 weeks may improve N3 quality and reduce alpha intrusions. If currently consuming caffeine daily: taper gradually over 1-2 weeks rather than abrupt cessation to minimize withdrawal symptoms that could exacerbate ME/CFS.
+*Caffeine avoidance* is critical for ME/CFS patients. As a potent adenosine antagonist, caffeine reduces slow-wave sleep and may worsen alpha-delta sleep by interfering with sleep pressure buildup @Reichert2022adenosine. Complete caffeine avoidance (including decaf beverages, which contain small amounts) for 4-6 weeks may improve N3 quality and reduce alpha intrusions. If currently consuming caffeine daily: taper gradually over 1-2 weeks rather than abrupt cessation to minimize withdrawal symptoms that could exacerbate ME/CFS.
 
 ==== Sleep Timing Consistency
 
 Sleep regularity improves alignment between sleep and circadian rhythms, which may strengthen sleep pressure mechanisms. Later sleep timing and greater sleep variability are associated with adverse health outcomes @Zuraikat2021sleepRegularity. For ME/CFS patients with disrupted circadian rhythms (common in 70-80% of patients), consistent sleep-wake timing—particularly a fixed wake time even if bedtime varies—helps stabilize the sleep-wake cycle and may improve sleep architecture quality.
 
-**Implementation**:
+*Implementation*:
 - Set a wake time target, but allow flexibility for severe exacerbations. For patients with severe ME/CFS, symptom stability takes priority over consistency
 - If bedtime varies due to symptoms, maintain wake time when possible to preserve circadian alignment
 - Gradual bedtime shifts (15 minutes per week) if schedule adjustment needed; avoid abrupt changes
@@ -316,7 +316,7 @@ Sleep regularity improves alignment between sleep and circadian rhythms, which m
 
 Sleep restriction therapy, a component of Cognitive Behavioral Therapy for Insomnia (CBT-I), increases slow-wave sleep and improves next-day functioning by strengthening sleep pressure @Walsh2009SWSenhancement. Standard sleep restriction may be too aggressive for ME/CFS patients due to energy envelope limitations, but adapted approaches may help.
 
-**Adapted sleep pressure enhancement protocol**:
+*Adapted sleep pressure enhancement protocol*:
 
 *Step 1: Establish baseline* - Track actual sleep time (not time in bed) for 1-2 weeks using sleep diary or actigraphy.
 
@@ -336,7 +336,7 @@ Standard sleep restriction therapy reduces time in bed below baseline actual sle
 
 Napping in ME/CFS is complex: rest is essential for energy management, but naps may disrupt night-time sleep architecture. The nap paradox in ME/CFS—napping predicts worse cognitive outcomes rather than restoration—occurs because alpha-delta intrusion operates during daytime naps as well as overnight sleep, preventing even brief naps from entering restorative sleep stages (see Section @sec:nap-paradox in Chapter @ch:symptom-producing-mechanisms).
 
-**Nap discipline principles**:
+*Nap discipline principles*:
 
 *Severity adaptation*: For mild/moderate patients, limit naps to ≤ 20 minutes to avoid entering deep sleep stages where alpha-delta intrusion occurs. For severe patients, rest as needed; longer naps may be unavoidable. Monitor impact on night-time sleep, but do not enforce strict limits if symptom management requires longer rest.
 

@@ -341,7 +341,7 @@ The urinary collection window extends to 5 hours post-symptom onset (versus 1–
 
 ==== Application to Food-Triggered Mast Cell Activation
 
-For ME/CFS patients with suspected food-triggered mast cell activation (see Section @subsec:food-mast-cell), paired urinary mediator testing during elimination-rechallenge protocols represents a potential diagnostic approach: collect baseline urine on a neutral day, then repeat collection 4–6 hours after a controlled food challenge. Elevated ratios in one or more mediators would support mast cell activation by the specific food. This protocol has not been prospectively validated in ME/CFS or MCAS populations, but the underlying mediator assays are clinically validated and the paired design controls for inter-individual variability @Voelker2025biomarkersmast.
+For ME/CFS patients with suspected food-triggered mast cell activation (see Section [NO SUBSECTION]), paired urinary mediator testing during elimination-rechallenge protocols represents a potential diagnostic approach: collect baseline urine on a neutral day, then repeat collection 4–6 hours after a controlled food challenge. Elevated ratios in one or more mediators would support mast cell activation by the specific food. This protocol has not been prospectively validated in ME/CFS or MCAS populations, but the underlying mediator assays are clinically validated and the paired design controls for inter-individual variability @Voelker2025biomarkersmast.
 
 #limitation(title: [Mast Cell Mediator Biomarkers: Current Limitations])[
 Urinary mast cell mediators (NMH, LTE4, PGD#sub[2] metabolite) are not diagnostic of MCAS in isolation—they require concurrent clinical symptoms across $gt.eq$2 organ systems and treatment response for a complete MCAS diagnosis @Gulen2024mcascriteria LTE4 and PGD#sub[2] metabolites are produced by multiple immune cell types, limiting mast-cell specificity. Normal reference ranges have not been independently validated in ME/CFS populations. The paired food challenge mediator protocol described above is a proposed diagnostic approach based on established mediator assays; it has not been validated as a standalone diagnostic test for food-triggered MCAS.
@@ -552,8 +552,8 @@ Formula:
   #block(
     width: 90%,
     align(center, [
-      **Butyrate-Zonulin Index** #super[(BZI)]
-      $ B Z I = (f b  "/" b r) "/" (z "/" z r) $
+      *Butyrate-Zonulin Index* #super[(BZI)]
+      $ "BZI" = (F_b / B_r) "/" (Z / Z_r) $
     ])
   )
 ])
@@ -566,17 +566,17 @@ Formula:
 Clinical utility.
 
 The composite index addresses two limitations of individual markers:
-- **Fecal butyrate alone**: Affected by dietary intake, microbiome variability, transit time. Does not distinguish barrier permeability from production capacity.
-- **Zonulin alone**: Elevated in many conditions (inflammatory bowel disease, diabetes) with different underlying pathophysiology. Does not distinguish low butyrate (impaired repair capacity) from normal butyrate production.
+- *Fecal butyrate alone*: Affected by dietary intake, microbiome variability, transit time. Does not distinguish barrier permeability from production capacity.
+- *Zonulin alone*: Elevated in many conditions (inflammatory bowel disease, diabetes) with different underlying pathophysiology. Does not distinguish low butyrate (impaired repair capacity) from normal butyrate production.
 
 The BZI formula ratios butyrate against zonulin, providing a normalized assessment of barrier status. Patients with similar butyrate levels but different zonulin values will be distinguished, enabling targeted interventions (e.g., butyrate supplementation vs. tight junction support).
 
 Stratification applications.
 
 The BZI could stratify ME/CFS severity and predict treatment response:
-- **Severe barrier dysfunction**: Low BZI (BUTYRATE_LOW / ZONULIN_HIGH) may identify patients with compromised gut barrier contributing to systemic inflammation and PEM severity.
-- **Treatment responders**: Improvement in BZI following butyrate supplementation (combined with lifestyle interventions) could predict overall clinical improvement.
-- **Subtype identification**: Patients with low BZI may form a distinct ME/CFS subgroup requiring gut-focused interventions, separate from patients with normal BZI but other primary pathophysiology.
+- *Severe barrier dysfunction*: Low BZI (BUTYRATE_LOW / ZONULIN_HIGH) may identify patients with compromised gut barrier contributing to systemic inflammation and PEM severity.
+- *Treatment responders*: Improvement in BZI following butyrate supplementation (combined with lifestyle interventions) could predict overall clinical improvement.
+- *Subtype identification*: Patients with low BZI may form a distinct ME/CFS subgroup requiring gut-focused interventions, separate from patients with normal BZI but other primary pathophysiology.
 
 Evidence and certainty.
 
@@ -617,23 +617,23 @@ Target biomarkers.
 
 A minimally invasive panel measures colonocyte energy status via peripheral blood:
 
-- **ATP/ADP ratio**: Primary indicator of cellular energy charge. Reduced ATP/ADP suggests impaired oxidative phosphorylation or reduced substrate availability.
-- **Lactate/Pyruvate ratio**: Elevated ratio indicates shift to glycolytic metabolism, reflecting mitochondrial dysfunction or hypoxia. Colonocytes normally use butyrate for oxidative metabolism; glycolytic shift suggests energy crisis.
-- **Ketone bodies (β-hydroxybutyrate, acetoacetate)**: Alternative fuel when glycolysis impaired. Reduced ketone availability may indicate poor fatty acid oxidation capacity.
+- *ATP/ADP ratio*: Primary indicator of cellular energy charge. Reduced ATP/ADP suggests impaired oxidative phosphorylation or reduced substrate availability.
+- *Lactate/Pyruvate ratio*: Elevated ratio indicates shift to glycolytic metabolism, reflecting mitochondrial dysfunction or hypoxia. Colonocytes normally use butyrate for oxidative metabolism; glycolytic shift suggests energy crisis.
+- *Ketone bodies (β-hydroxybutyrate, acetoacetate)*: Alternative fuel when glycolysis impaired. Reduced ketone availability may indicate poor fatty acid oxidation capacity.
 
 Clinical interpretation.
 
 Colonocyte energy crisis may be detected before systemic symptoms manifest:
-- **Energy collapse**: Low ATP/ADP + high lactate/pyruvate = colonocytes diverting to glycolysis due to mitochondrial dysfunction.
-- **Substrate limitation**: Low ketone bodies = impaired fatty acid oxidation or mitochondrial beta-oxidation.
-- **Combined deficiency**: Low ATP/ADP + low ketone bodies = both oxidative and substrate limitations.
+- *Energy collapse*: Low ATP/ADP + high lactate/pyruvate = colonocytes diverting to glycolysis due to mitochondrial dysfunction.
+- *Substrate limitation*: Low ketone bodies = impaired fatty acid oxidation or mitochondrial beta-oxidation.
+- *Combined deficiency*: Low ATP/ADP + low ketone bodies = both oxidative and substrate limitations.
 
 Predictive applications.
 
 The panel could detect energy crisis before systemic symptoms:
-- **PEM prediction**: Elevated lactate/pyruvate ratio 12–48 hours post-exertion may predict delayed PEM onset in patients with colonocyte energy deficits.
-- **Subtype identification**: Colonocyte energy dysfunction may characterize a distinct ME/CFS subgroup with predominant GI symptoms, butyrate deficiency, and PEM susceptibility.
-- **Treatment monitoring**: Improvement in panel following mitochondrial support (CoQ10, D-ribose, carnitine) would suggest gut-specific mitochondrial recovery.
+- *PEM prediction*: Elevated lactate/pyruvate ratio 12–48 hours post-exertion may predict delayed PEM onset in patients with colonocyte energy deficits.
+- *Subtype identification*: Colonocyte energy dysfunction may characterize a distinct ME/CFS subgroup with predominant GI symptoms, butyrate deficiency, and PEM susceptibility.
+- *Treatment monitoring*: Improvement in panel following mitochondrial support (CoQ10, D-ribose, carnitine) would suggest gut-specific mitochondrial recovery.
 
 Evidence and certainty.
 
@@ -672,24 +672,24 @@ Systemic butyrate levels (measured via breath analysis or LC-MS) distinguish bet
 
 Measurement approaches.
 
-- **Breath butyrate analysis**: Non-invasive measurement of exhaled volatile organic compounds. Dietary butyrate (from fermented foods, dairy) appears in breath within 1–2 hours; endogenous production has distinct temporal patterns.
-- **Serum/plasma butyrate (LC-MS)**: Direct quantification; requires blood draw and laboratory processing. Distinguishes bound (protein-bound) from free butyrate.
-- **Stool butyrate (quantitative)**: Gold standard for microbial production; measurement variability limited by collection and storage conditions.
+- *Breath butyrate analysis*: Non-invasive measurement of exhaled volatile organic compounds. Dietary butyrate (from fermented foods, dairy) appears in breath within 1–2 hours; endogenous production has distinct temporal patterns.
+- *Serum/plasma butyrate (LC-MS)*: Direct quantification; requires blood draw and laboratory processing. Distinguishes bound (protein-bound) from free butyrate.
+- *Stool butyrate (quantitative)*: Gold standard for microbial production; measurement variability limited by collection and storage conditions.
 
 Interpretation patterns.
 
-- **Dietary butyrate pattern**: High postprandial breath butyrate peaks following butyrate-containing meals (yogurt, butter, fermented foods). Low baseline butyrate may indicate poor absorption or microbial deficiency.
-- **Endogenous production pattern**: Baseline breath butyrate elevated throughout day, minimal postprandial spikes. Reflects robust colonic fermentation.
-- **Absorption dysfunction pattern**: Low stool butyrate + low serum butyrate despite normal oral intake. Indicates barrier permeability or rapid systemic elimination.
-- **Production deficiency pattern**: Low stool butyrate + low breath butyrate (postprandial or baseline). Indicates microbial deficiency.
+- *Dietary butyrate pattern*: High postprandial breath butyrate peaks following butyrate-containing meals (yogurt, butter, fermented foods). Low baseline butyrate may indicate poor absorption or microbial deficiency.
+- *Endogenous production pattern*: Baseline breath butyrate elevated throughout day, minimal postprandial spikes. Reflects robust colonic fermentation.
+- *Absorption dysfunction pattern*: Low stool butyrate + low serum butyrate despite normal oral intake. Indicates barrier permeability or rapid systemic elimination.
+- *Production deficiency pattern*: Low stool butyrate + low breath butyrate (postprandial or baseline). Indicates microbial deficiency.
 
 Clinical applications.
 
 Systemic butyrate monitoring could:
-- **Validate supplementation protocols**: Confirm butyrate bioavailability after supplementation.
-- **Identify absorption dysfunction**: Low serum butyrate with normal stool butyrate suggests barrier impairment.
-- **Stratify by gut barrier function**: Patients with both low stool and serum butyrate may require combined supplementation + barrier repair strategies.
-- **Monitor treatment response**: Serial monitoring tracks improvement in microbial production or absorption.
+- *Validate supplementation protocols*: Confirm butyrate bioavailability after supplementation.
+- *Identify absorption dysfunction*: Low serum butyrate with normal stool butyrate suggests barrier impairment.
+- *Stratify by gut barrier function*: Patients with both low stool and serum butyrate may require combined supplementation + barrier repair strategies.
+- *Monitor treatment response*: Serial monitoring tracks improvement in microbial production or absorption.
 
 Evidence and certainty.
 
@@ -728,9 +728,9 @@ HIF-1α (hypoxia-inducible factor 1-alpha) is a transcription factor that stabil
 
 Butyrate-HIF-1α relationship.
 
-- **Butyrate inhibits HDACs, including HDAC3 which normally promotes HIF-1α degradation** @Papandreou2013butyrate
-- **Butyrate-deficient state → HDAC3 activity ↑ → HIF-1α degradation ↑ → impaired glycolytic adaptation and mitochondrial biogenesis**
-- **HIF-1α stabilization under butyrate deficiency may promote glycolytic shift, reducing oxidative metabolism capacity**
+- *Butyrate inhibits HDACs, including HDAC3 which normally promotes HIF-1α degradation* @Papandreou2013butyrate
+- *Butyrate-deficient state → HDAC3 activity ↑ → HIF-1α degradation ↑ → impaired glycolytic adaptation and mitochondrial biogenesis*
+- *HIF-1α stabilization under butyrate deficiency may promote glycolytic shift, reducing oxidative metabolism capacity*
 
 Hypothesis testing.
 
@@ -740,26 +740,26 @@ Panel composition.
 
 qPCR panel for HIF-1α target genes:
 
-- **VEGF**: Angiogenesis marker; elevated in hypoxic conditions.
-- **GLUT1**: Glucose transporter; increased under hypoxia.
-- **LDHA**: Lactate dehydrogenase A; promotes glycolysis-to-lactate conversion.
-- **PDK1**: Pyruvate dehydrogenase kinase 1; inhibits pyruvate oxidation, reducing oxidative metabolism.
-- **BNIP3**: Bcl-2-like protein 3; mitophagy marker under hypoxia.
-- **CA9**: Carbonic anhydrase 9; pH regulation under hypoxia.
+- *VEGF*: Angiogenesis marker; elevated in hypoxic conditions.
+- *GLUT1*: Glucose transporter; increased under hypoxia.
+- *LDHA*: Lactate dehydrogenase A; promotes glycolysis-to-lactate conversion.
+- *PDK1*: Pyruvate dehydrogenase kinase 1; inhibits pyruvate oxidation, reducing oxidative metabolism.
+- *BNIP3*: Bcl-2-like protein 3; mitophagy marker under hypoxia.
+- *CA9*: Carbonic anhydrase 9; pH regulation under hypoxia.
 
 Composite HIF-1α Score (HFS).
 
 Composite score combining relative expression of target genes:
-- **HFS calculation**: Mean z-score normalized expression of VEGF, GLUT1, LDHA, PDK1, BNIP3, CA9
-- **High HFS**: HIF-1α target activation (potentially butyrate-deficient state)
-- **Low HFS**: Reduced HIF-1α target expression (potential butyrate sufficiency)
+- *HFS calculation*: Mean z-score normalized expression of VEGF, GLUT1, LDHA, PDK1, BNIP3, CA9
+- *High HFS*: HIF-1α target activation (potentially butyrate-deficient state)
+- *Low HFS*: Reduced HIF-1α target expression (potential butyrate sufficiency)
 
 Clinical applications.
 
 HFS could:
-- **Test Hypothesis 2**: Elevated HFS in ME/CFS would support butyrate-HIF-1α pathway involvement.
-- **Predict butyrate response**: Patients with high HFS may respond preferentially to butyrate supplementation.
-- **Stratify metabolic subtypes**: High HFS may characterize a glycolytic-dominant ME/CFS subgroup.
+- *Test Hypothesis 2*: Elevated HFS in ME/CFS would support butyrate-HIF-1α pathway involvement.
+- *Predict butyrate response*: Patients with high HFS may respond preferentially to butyrate supplementation.
+- *Stratify metabolic subtypes*: High HFS may characterize a glycolytic-dominant ME/CFS subgroup.
 
 Evidence and certainty.
 
@@ -1066,7 +1066,7 @@ HSAT2 satellite repeat RNA is detectable in serum and plasma using validated met
 
 *Connection to pathogenic mechanisms.*
 
-If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic mediator. Chapter @ch:immune-dysfunction (Section @sec:tier2-research) describes the hypothesis that exosomal HSAT2 drives myeloid-derived suppressor cell expansion and T-cell exhaustion @Evdokimova2019HSAT2exosome. Chapter @ch:genetics-epigenetics (Section @sec:repetitive-element-derepression) describes epigenetic HSAT2 activation pathways via HSF1, CTCF loss, and DNA hypomethylation. Biomarker validation studies should therefore include mechanistic readouts (immune phenotyping, exosome HSAT2 cargo) to distinguish whether HSAT2 is merely elevated or actively driving pathology.
+If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic mediator. Chapter [NO CHAPTER] (Section [NO SECTION]) describes the hypothesis that exosomal HSAT2 drives myeloid-derived suppressor cell expansion and T-cell exhaustion @Evdokimova2019HSAT2exosome. Chapter [NO CHAPTER] (Section [NO SECTION]) describes epigenetic HSAT2 activation pathways via HSF1, CTCF loss, and DNA hypomethylation. Biomarker validation studies should therefore include mechanistic readouts (immune phenotyping, exosome HSAT2 cargo) to distinguish whether HSAT2 is merely elevated or actively driving pathology.
 
 #open-question(title: [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?])[
   Given the heterogeneous ME/CFS population, HSAT2 elevation may be restricted to (1) post-viral onset patients with documented HSF1 activation, (2) patients with accelerated senescence signatures (epigenetic clock acceleration, telomere shortening, immunosenescence), or (3) patients with specific immune exhaustion phenotypes (MDSC expansion, T-cell exhaustion). If HSAT2 is elevated only in a subset, unstratified case-control studies may miss the signal entirely. Biomarker validation should therefore pre-stratify by onset type, senescence markers, and immune exhaustion status.
@@ -1144,7 +1144,7 @@ _Research priority:_ Medium-high. This is not a near-term clinical biomarker, bu
 == Architecture C Diagnostic Concepts
 <sec:architecture-c-diagnostics>
 
-The metabolic reserve hypothesis (@sec:architecture-c-metabolic-reserve) suggests several diagnostic approaches targeting reserve measurement and risk stratification. These range from immediately implementable screening panels to research-stage cellular assays.
+The metabolic reserve hypothesis ([NO SECTION]) suggests several diagnostic approaches targeting reserve measurement and risk stratification. These range from immediately implementable screening panels to research-stage cellular assays.
 
 === Composite Metabolic Reserve Score (MRS)
 <subsec:metabolic-reserve-score>
@@ -1164,7 +1164,7 @@ The $"ND"_"burden"$ term directly reduces the composite score for neurodivergent
 ]
 
 #speculation(title: [Composite Metabolic Reserve Score for Risk Stratification])[
-  *Certainty: 0.20.* A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study (@sec:prospective-metabolic-phenotyping). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
+  *Certainty: 0.20.* A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study ([NO SECTION]). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
 ] <spec:metabolic-reserve-score>
 
 === MtDNA Haplogroup as a Reserve Stratifier
@@ -1196,10 +1196,10 @@ Neopterin is produced when GTP cyclohydrolase I activity is diverted toward immu
 
 *Current limitations:* No validated clinical reference range exists for ME/CFS populations; HPLC pteridine measurement has no CPT/INAMI billing code in most countries; and elevated neopterin also occurs in renal failure, HIV, and active malignancy, creating false-positive risk in patients with these comorbidities.
 
-*Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support (@subsec:sapropterin-bh4,:bh4-recycling-support).
+*Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support ([NO SUBSECTION],:bh4-recycling-support).
 
 #speculation(title: [Neopterin:Biopterin Ratio as Architecture C Screening Biomarker])[
-  *Certainty: 0.40.* If the BH4 convergent bottleneck hypothesis is correct (@spec:bh4-convergent-bottleneck), the urinary neopterin:biopterin ratio should be elevated across ALL predisposing conditions (ADHD, ASD, hEDS, migraine), not just post-infection. This would make it a universal Architecture C screening biomarker available at ~\$30--50 per test. Biochemistry well-established; whether this ratio predicts ME/CFS risk or treatment response is untested. Not yet replicated.
+  *Certainty: 0.40.* If the BH4 convergent bottleneck hypothesis is correct ([NO SPECULATION]), the urinary neopterin:biopterin ratio should be elevated across ALL predisposing conditions (ADHD, ASD, hEDS, migraine), not just post-infection. This would make it a universal Architecture C screening biomarker available at ~\$30--50 per test. Biochemistry well-established; whether this ratio predicts ME/CFS risk or treatment response is untested. Not yet replicated.
 ] <spec:neopterin-biopterin-screen>
 
 === Pre-Infection Risk Screening Protocol for Neurodivergent Patients
@@ -1485,11 +1485,11 @@ GCN2 activation requires uncharged (deacylated) tRNAs rather than direct amino a
 #open-question(title: [PET Imaging with ISR-Specific Tracers for Non-Invasive CNS ISR Detection])[
 All current ISR measurements in ME/CFS require tissue biopsy — muscle, skin, or CSF. CNS ISR is currently unmeasurable non-invasively. [^18^F]-labelled tracers targeting ATF4 transcriptional targets (ASNS, SLC7A11) or eIF2B activity are in early development in cancer imaging contexts. If validated for CNS use, these tracers would transform ME/CFS neuroimaging: brainstem ISR activation in NTS/locus coeruleus (postulated from HHV-6 tissue data) would be directly visualizable without biopsy.
 
-*Research priority:* High mechanistic impact if tracer development succeeds; currently pre-clinical. PET-based measurement would also test the H10 hypothesis (@oq:isr-brainstem-autonomic) that brainstem ISR explains autonomic dysfunction. Certainty: 0.30 (dependent on tracer development; 5–10 year horizon).
+*Research priority:* High mechanistic impact if tracer development succeeds; currently pre-clinical. PET-based measurement would also test the H10 hypothesis ([NO OPEN QUESTION]) that brainstem ISR explains autonomic dysfunction. Certainty: 0.30 (dependent on tracer development; 5–10 year horizon).
 ] <oq:pet-isr-tracers>
 
 #open-question(title: [Skin Biopsy Combined Panel: IENFD + ATF4 IHC + Mast Cell Tryptase])[
-Skin biopsy for intraepidermal nerve fibre density (IENFD) is already in clinical use for small-fibre neuropathy (SFN) diagnosis in ME/CFS. DRG sensory neurons projecting to skin are a likely ISR-affected compartment (@spec:isr-drg-sfn if validated). A combined three-marker skin biopsy — (a) IENFD (SFN quantification), (b) ATF4 immunohistochemistry in dermal fibroblasts and perivascular cells, (c) mast cell tryptase density — would provide a multi-mechanism tissue readout from a single 3mm punch biopsy.
+Skin biopsy for intraepidermal nerve fibre density (IENFD) is already in clinical use for small-fibre neuropathy (SFN) diagnosis in ME/CFS. DRG sensory neurons projecting to skin are a likely ISR-affected compartment ([NO SPECULATION] if validated). A combined three-marker skin biopsy — (a) IENFD (SFN quantification), (b) ATF4 immunohistochemistry in dermal fibroblasts and perivascular cells, (c) mast cell tryptase density — would provide a multi-mechanism tissue readout from a single 3mm punch biopsy.
 
 *Advantages:* Minimally invasive; skin is accessible; existing SFN biopsy infrastructure can be extended. ATF4 IHC protocols are established in cancer pathology. Mast cell quantification provides the MCAS overlap readout simultaneously.
 
@@ -1497,9 +1497,9 @@ Skin biopsy for intraepidermal nerve fibre density (IENFD) is already in clinica
 ] <oq:skin-isr-biopsy>
 
 #open-question(title: [ATF4 Expression in Skin Mast Cells as an MCAS-Subgroup ISR Biomarker])[
-In ME/CFS patients with concurrent MCAS (~25% of the population), skin mast cells represent an accessible tissue compartment for measuring ISR activity at the immune--stromal interface. The PERK--eIF2α--ATF4 axis is functional in mast cells, and mast cell UPR is constitutively active due to the secretory burden of granule-rich mast cell biology If MCAS-pattern chronic degranulation amplifies PERK activation (via cumulative ER calcium depletion), ATF4 should be elevated in mast cells in ME/CFS+MCAS patients compared to ME/CFS-only controls, providing a tissue-level readout of the MCAS--ISR loop (@spec:mcas-isr-crosstalk).
+In ME/CFS patients with concurrent MCAS (~25% of the population), skin mast cells represent an accessible tissue compartment for measuring ISR activity at the immune--stromal interface. The PERK--eIF2α--ATF4 axis is functional in mast cells, and mast cell UPR is constitutively active due to the secretory burden of granule-rich mast cell biology If MCAS-pattern chronic degranulation amplifies PERK activation (via cumulative ER calcium depletion), ATF4 should be elevated in mast cells in ME/CFS+MCAS patients compared to ME/CFS-only controls, providing a tissue-level readout of the MCAS--ISR loop ([NO SPECULATION]).
 
-*What this would test:* The skin biopsy three-marker panel already proposed (@oq:skin-isr-biopsy) includes mast cell tryptase density. Extending it with mast cell-specific ATF4 IHC (co-staining tryptase+ cells for ATF4) would add the ISR readout within the same biopsy at minimal additional cost.
+*What this would test:* The skin biopsy three-marker panel already proposed ([NO OPEN QUESTION]) includes mast cell tryptase density. Extending it with mast cell-specific ATF4 IHC (co-staining tryptase+ cells for ATF4) would add the ISR readout within the same biopsy at minimal additional cost.
 
 *Predicted result:* In ME/CFS+MCAS patients, tryptase+ mast cells will show higher ATF4 nuclear localisation compared to ME/CFS-only patients and healthy controls. If no MCAS-dependent ATF4 difference is observed → MCAS--ISR crosstalk hypothesis not supported.
 

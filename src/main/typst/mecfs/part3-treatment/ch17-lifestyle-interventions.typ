@@ -1367,44 +1367,44 @@ Bed-based micro-movement protocol provides gentle stimulation to the gastrointes
 
 Practical implementation.
 
-**Protocol components:**
+*Protocol components:*
 
-1. **Torso rotations** (10–20° left/right):
+1. *Torso rotations* (10–20° left/right):
    - Performed while supine, limited by mobility
    - Maintains lumbar spine mobility
    - Stimulates visceral mobility through gentle rocking
 
-2. **Abdominal massage**:
+2. *Abdominal massage*:
    - Gentle circular pressure (3–5 psi) with fingertips
    - Clockwise motion (peristalsis-encouraging direction)
    - Duration: 2–3 minutes per session
    - Frequency: Daily or every other day (patient tolerance-dependent)
 
-3. **Hip and knee rotations**:
+3. *Hip and knee rotations*:
    - Gentle flexion/extension within pain-free range
    - Maintains joint mobility
    - Supports circulation to lower extremities
 
-4. **Bedside table activity**:
+4. *Bedside table activity*:
    - Passive range-of-motion for shoulders and arms
    - Gentle arm circles (clockwise/counterclockwise)
    - Reduces arm atrophy
 
-**Implementation considerations:**
+*Implementation considerations:*
 
-- **Temperature control**: Perform during warm periods (18–22°C ambient) to reduce muscle tension
-- **Breathing coordination**: Gentle diaphragmatic breathing during massage (co-activates vagus nerve)
-- **Caregiver involvement**: Severe patients require caregiver assistance for effective abdominal massage
-- **Symptom monitoring**: Stop immediately if patient reports discomfort or unusual fatigue
-- **PEM risk assessment**: Limit to gentle movements; avoid abdominal straining or high-effort postures
+- *Temperature control*: Perform during warm periods (18–22°C ambient) to reduce muscle tension
+- *Breathing coordination*: Gentle diaphragmatic breathing during massage (co-activates vagus nerve)
+- *Caregiver involvement*: Severe patients require caregiver assistance for effective abdominal massage
+- *Symptom monitoring*: Stop immediately if patient reports discomfort or unusual fatigue
+- *PEM risk assessment*: Limit to gentle movements; avoid abdominal straining or high-effort postures
 
 Expected benefits.
 
-- **Improved gut motility**: Gentle stimulation maintains peristaltic activity
-- **Reduced constipation**: Abdominal massage promotes bowel regularity
-- **Maintained muscle mass**: Micro-movement prevents atrophy
-- **Supports butyrate production**: Colonocyte activity maintained through gentle contraction
-- **Improves circulation**: Reduced venous stasis, supporting orthostatic tolerance
+- *Improved gut motility*: Gentle stimulation maintains peristaltic activity
+- *Reduced constipation*: Abdominal massage promotes bowel regularity
+- *Maintained muscle mass*: Micro-movement prevents atrophy
+- *Supports butyrate production*: Colonocyte activity maintained through gentle contraction
+- *Improves circulation*: Reduced venous stasis, supporting orthostatic tolerance
 
 Evidence and certainty.
 
@@ -1444,22 +1444,22 @@ Local temperature modulation of the abdomen may improve splanchnic perfusion, gu
 
 Heat therapy (40–42°C).
 
-**Thermodynamic effects:**
+*Thermodynamic effects:*
 
-- **Vasodilation**: Heat increases skin and splanchnic blood flow by ~30–50% at 40–42°C
-- **Enhanced oxygen delivery**: Improved perfusion supports epithelial proliferation and tight junction synthesis
-- **Reduced muscle tension**: Heat promotes muscle relaxation, reducing splanchnic compression
-- **Metabolic acceleration**: Elevated temperature increases enzyme activity, supporting butyrate production by colonocytes
+- *Vasodilation*: Heat increases skin and splanchnic blood flow by ~30–50% at 40–42°C
+- *Enhanced oxygen delivery*: Improved perfusion supports epithelial proliferation and tight junction synthesis
+- *Reduced muscle tension*: Heat promotes muscle relaxation, reducing splanchnic compression
+- *Metabolic acceleration*: Elevated temperature increases enzyme activity, supporting butyrate production by colonocytes
 
-**Protocol:**
+*Protocol:*
 
-- **Application**: Abdominal heat pack (gel pad, microwaveable heating pad, or hot water bottle)
-- **Temperature**: 40–42°C (do not exceed 42°C to avoid thermal injury)
-- **Duration**: 15–20 minutes, 1–2 times daily
-- **Timing**: 30 minutes before meals (improves pre-prandial perfusion) or 30 minutes before bedtime (enhances overnight gut repair)
-- **Positioning**: Supine or semi-reclined; heat pack placed on abdomen with gentle pressure
+- *Application*: Abdominal heat pack (gel pad, microwaveable heating pad, or hot water bottle)
+- *Temperature*: 40–42°C (do not exceed 42°C to avoid thermal injury)
+- *Duration*: 15–20 minutes, 1–2 times daily
+- *Timing*: 30 minutes before meals (improves pre-prandial perfusion) or 30 minutes before bedtime (enhances overnight gut repair)
+- *Positioning*: Supine or semi-reclined; heat pack placed on abdomen with gentle pressure
 
-**Benefits:**
+*Benefits:*
 
 - Improved splanchnic blood flow during digestion
 - Enhanced gut barrier repair capacity
@@ -1468,22 +1468,22 @@ Heat therapy (40–42°C).
 
 Cold therapy (20–25°C).
 
-**Thermodynamic effects:**
+*Thermodynamic effects:*
 
-- **Vasoconstriction**: Cold reduces peripheral blood flow, potentially diverting splanchnic blood to essential organs
-- **Anti-inflammatory**: Cold reduces inflammatory mediator release (TNF-alpha, IL-6)
-- **Pain reduction**: Cold numbs visceral pain signals
-- **Metabolic conservation**: Cold reduces overall metabolic rate, conserving energy
+- *Vasoconstriction*: Cold reduces peripheral blood flow, potentially diverting splanchnic blood to essential organs
+- *Anti-inflammatory*: Cold reduces inflammatory mediator release (TNF-alpha, IL-6)
+- *Pain reduction*: Cold numbs visceral pain signals
+- *Metabolic conservation*: Cold reduces overall metabolic rate, conserving energy
 
-**Protocol:**
+*Protocol:*
 
-- **Application**: Abdominal cold pack (gel pad refrigerated to 4–8°C)
-- **Temperature**: 20–25°C (cool but not freezing)
-- **Duration**: 10–15 minutes, 1–2 times daily
-- **Timing**: Evening (to promote sleep), or during symptom flares (bloating, pain)
-- **Positioning**: Supine or semi-reclined
+- *Application*: Abdominal cold pack (gel pad refrigerated to 4–8°C)
+- *Temperature*: 20–25°C (cool but not freezing)
+- *Duration*: 10–15 minutes, 1–2 times daily
+- *Timing*: Evening (to promote sleep), or during symptom flares (bloating, pain)
+- *Positioning*: Supine or semi-reclined
 
-**Benefits:**
+*Benefits:*
 
 - Reduced inflammation during flare periods
 - Decreased visceral pain sensitivity
@@ -1492,12 +1492,12 @@ Cold therapy (20–25°C).
 
 Alternating approach.
 
-**Seasonal/phase-based modulation:**
+*Seasonal/phase-based modulation:*
 
-- **Summer/Autumn**: Heat therapy (40–42°C, 15 minutes, morning)
-- **Winter/Spring**: Cold therapy (20–25°C, 10 minutes, evening)
-- **Activity flares**: Heat therapy during periods of increased activity
-- **Rest periods**: Cold therapy during periods of reduced activity
+- *Summer/Autumn*: Heat therapy (40–42°C, 15 minutes, morning)
+- *Winter/Spring*: Cold therapy (20–25°C, 10 minutes, evening)
+- *Activity flares*: Heat therapy during periods of increased activity
+- *Rest periods*: Cold therapy during periods of reduced activity
 
 Rationale: Temperature modulation aligns with seasonal metabolic patterns and activity demands, potentially optimizing gut function while conserving energy.
 
