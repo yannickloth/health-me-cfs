@@ -22,7 +22,7 @@ The cognitive profiles of ME/CFS and Long COVID show striking similarity. In a d
 
 Large-scale post-COVID data provide indirect quantification relevant to ME/CFS. Hampshire et al.  ($n = 112{,}964$) documented cognitive deficits equivalent to $tilde$6 IQ points ($-0.4$ SD) in patients with persistent symptoms ($gt.eq$12 weeks), with memory and reasoning most affected. Post-COVID patients also show reaction times $tilde$3 SD slower than controls, with 53.5% exceeding 2 SD below normal —a degree of slowing not explained by fatigue or depression alone. Structural neuroimaging reveals grey matter loss in orbitofrontal and parahippocampal regions even after mild COVID , potentially providing the anatomical substrate for the shared cognitive impairment.
 
-These findings strengthen the case that Long COVID and ME/CFS involve convergent neurocognitive pathology rather than merely coincidental symptom overlap. The ME/CFS cognitive profile—established by meta-analysis (effect sizes $g = -0.55$ to $-0.82$ across domains ) and multi-site objective testing —is quantitatively comparable to or more severe than post-COVID cognitive impairment, consistent with ME/CFS representing a more established or severe form of the same underlying process (see Chapter @ch:neurological, Section @subsec:cognitive-quantification for detailed analysis).
+These findings strengthen the case that Long COVID and ME/CFS involve convergent neurocognitive pathology rather than merely coincidental symptom overlap. The ME/CFS cognitive profile—established by meta-analysis (effect sizes $g = -0.55$ to $-0.82$ across domains ) and multi-site objective testing —is quantitatively comparable to or more severe than post-COVID cognitive impairment, consistent with ME/CFS representing a more established or severe form of the same underlying process (see Chapter [NO CHAPTER], Section [NO SUBSECTION] for detailed analysis).
 
 *PEM and exercise response: a critical divergence.*
 
@@ -48,7 +48,7 @@ The absence of 2-day CPET impairment in Long COVID patients reporting PEM sympto
 *Circulating cell-free mitochondrial DNA: a potential divergence point.*
 Despite clinical overlap, Long COVID and ME/CFS may differ in circulating cell-free mitochondrial DNA (ccf-mtDNA) dynamics. In the EPILOC population-based cohort ($n = 228$), Matits et al.\  found _reduced_ relative ccf-mtDNA in Long COVID patients ($n = 128$) compared to recovered controls ($n = 100$; partial $eta^2 = 0.01$--$0.02$; $p = 0.089$ with full covariate adjustment, i.e.\ non-significant in the primary analysis; $p = 0.038$ only after excluding high-CRP outliers in a sensitivity analysis). Lower ccf-mtDNA correlated with worse general cognition, while CRP showed no independent association with cognitive function after controlling for ccf-mtDNA. Total cell-free DNA was not elevated, consistent with the reduction being mitochondria-specific rather than reflecting generalized cell death (though alternative explanations such as differential DNA stability or assay-specific effects cannot be excluded). The authors interpret this as impaired mitophagy: damaged mitochondria accumulate intracellularly instead of being released and cleared. A prior case series (Szögi et al.\ ; $n = 5$ Long COVID, $n = 5$ ciliary dyskinesia controls) also reported reduced ccf-mtDNA alongside mitochondrial ultrastructural abnormalities in Long COVID tissue biopsies; however, this was an extremely small sample with non-standard controls and should be considered preliminary rather than confirmatory.
 
-By contrast, in ME/CFS, Tsilioni et al.\  found exosome-associated mtDNA _elevated_ in serum after exercise challenge---not at rest (sample size, effect size, and p-values not reported in the abstract; the study has not been independently replicated). If confirmed by head-to-head studies using identical methodology, this divergence could point to fundamentally different mitochondrial dynamics: Long COVID involving impaired mitophagy (damaged mitochondria trapped intracellularly) versus ME/CFS involving exercise-triggered mitochondrial content release via exosomes (see Section @sec:thyroid-mito-regulation in Chapter @ch:energy-metabolism for the broader mitophagy context).
+By contrast, in ME/CFS, Tsilioni et al.\  found exosome-associated mtDNA _elevated_ in serum after exercise challenge---not at rest (sample size, effect size, and p-values not reported in the abstract; the study has not been independently replicated). If confirmed by head-to-head studies using identical methodology, this divergence could point to fundamentally different mitochondrial dynamics: Long COVID involving impaired mitophagy (damaged mitochondria trapped intracellularly) versus ME/CFS involving exercise-triggered mitochondrial content release via exosomes (see Section [NO SECTION] in Chapter [NO CHAPTER] for the broader mitophagy context).
 
 #limitation(title: [ccf-mtDNA Comparison: Different Methods Preclude Direct Conclusions])[
 The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted cautiously: the studies use different compartments (free plasma vs.\ exosome-associated), different timing (resting vs.\ post-exercise), and different quantification methods (qPCR $Delta$CT vs.\ exosome isolation). No study has measured free ccf-mtDNA at rest in a well-characterized ME/CFS cohort using the Matits et al.\ protocol. Additionally, the Matits effect size is very small (partial $eta^2 lt.eq 0.02$) and loses statistical significance after full covariate adjustment. Physical activity itself increases ccf-mtDNA release; deconditioning in both patient populations may confound resting-state measurements independently of primary mitochondrial pathology.
@@ -107,7 +107,7 @@ This predicts a partial HSAT2-overlapping profile: fibromyalgia would show eleva
 
 #open-question(title: [Does the CENPA/Senescence Stromal Arm of the HSAT2 Loop Partially Operate in hEDS and Dysautonomia?])[
 
-Hypermobile Ehlers-Danlos syndrome is characterized by connective-tissue stromal involvement — fibroblasts and extracellular matrix remodeling are central to its phenotype. The proposed HSAT2→CENPA mislocalization→p53-dependent senescence chain in stromal fibroblasts @spec:cenpa-senescence-stromal predicts an elevated burden of senescent fibroblasts in any tissue where EV-delivered HSAT2 acts. If hEDS fibroblasts are constitutively abnormal (altered ECM gene expression, increased mechanical sensitivity), they may be more susceptible to EV-HSAT2-triggered CENPA induction and subsequent senescence.
+Hypermobile Ehlers-Danlos syndrome is characterized by connective-tissue stromal involvement — fibroblasts and extracellular matrix remodeling are central to its phenotype. The proposed HSAT2→CENPA mislocalization→p53-dependent senescence chain in stromal fibroblasts [NO SPECULATION] predicts an elevated burden of senescent fibroblasts in any tissue where EV-delivered HSAT2 acts. If hEDS fibroblasts are constitutively abnormal (altered ECM gene expression, increased mechanical sensitivity), they may be more susceptible to EV-HSAT2-triggered CENPA induction and subsequent senescence.
 
 This does not make hEDS an HSAT2-driven disease; the primary connective tissue pathology in hEDS is independent of the HSAT2 loop. The question is whether the downstream stromal senescence arm partially co-activates in hEDS patients with comorbid ME/CFS — contributing to the connective tissue features seen in that overlap group — rather than being driven by the HSAT2 mechanism de novo.
 
@@ -123,11 +123,11 @@ The distinction between a primary HSAT2-high ME/CFS patient and an hEDS patient 
 
 *(Certainty: 0.30 — MDSC-NK suppression mechanism cross-validated across cancer, chronic HCV, and post-COVID; ME/CFS MDSC data absent.)*
 
-The MDSC-mediated NK suppression machinery that enables cancer immune evasion is well-established  . In solid tumours, MDSCs expand from myeloid precursors in response to tumour-derived signals, create an immunosuppressive microenvironment, suppress NK and CD8+ cytotoxicity, and facilitate escape from immune surveillance. The entire suppressive apparatus — arginase-1 depletion of L-arginine, iNOS-derived reactive nitrogen, TGF-β, and IL-10 — is the same pathway proposed to operate in ME/CFS via EV-HSAT2-driven MDSC expansion @spec:hsat2-exosome-mdsc.
+The MDSC-mediated NK suppression machinery that enables cancer immune evasion is well-established  . In solid tumours, MDSCs expand from myeloid precursors in response to tumour-derived signals, create an immunosuppressive microenvironment, suppress NK and CD8+ cytotoxicity, and facilitate escape from immune surveillance. The entire suppressive apparatus — arginase-1 depletion of L-arginine, iNOS-derived reactive nitrogen, TGF-β, and IL-10 — is the same pathway proposed to operate in ME/CFS via EV-HSAT2-driven MDSC expansion [NO SPECULATION].
 
 The "inverse mirror" framing: in cancer, MDSCs protect a malignant population from immune clearance; in ME/CFS, MDSCs may be expanded by the same general myeloid-programming mechanism (EV-delivered danger signals) but in the absence of a tumour. The immunosuppressive milieu is reproduced by the HSAT2-EV cargo acting as a tumour-analogue signal rather than by the tumour itself. ME/CFS would represent a pathological state where the immune-evasion infrastructure is activated chronically without a survival benefit for any specific cell population — a self-sustaining immune suppression loop without an object.
 
-This analogy has a testable molecular prediction: if ME/CFS MDSCs are transcriptomically equivalent to cancer-associated MDSCs (tumour microenvironment-type), tadalafil and other MDSC-differentiating agents from oncology would be predicted to work @spec:tadalafil-mdsc-nk. If ME/CFS MDSCs cluster more closely with chronic-viral MDSCs (HCV, post-COVID type), the molecular targets may differ subtly. If they cluster with tumour-associated MDSCs despite post-viral context, EV-HSAT2 as a tumour-analogue signal is supported.
+This analogy has a testable molecular prediction: if ME/CFS MDSCs are transcriptomically equivalent to cancer-associated MDSCs (tumour microenvironment-type), tadalafil and other MDSC-differentiating agents from oncology would be predicted to work [NO SPECULATION]. If ME/CFS MDSCs cluster more closely with chronic-viral MDSCs (HCV, post-COVID type), the molecular targets may differ subtly. If they cluster with tumour-associated MDSCs despite post-viral context, EV-HSAT2 as a tumour-analogue signal is supported.
 
 *Falsifiable prediction:* ME/CFS PBMC bulk RNA-seq or single-cell RNA-seq (MDSC gate) will show a transcriptomic profile clustering with chronic-viral MDSCs (HCV, post-COVID) rather than tumour-associated MDSCs in a multi-disease reference atlas. If ME/CFS MDSCs cluster with tumour-associated MDSCs, the "cancer-analogue signal" hypothesis is strengthened.
 
@@ -142,7 +142,7 @@ Simpler competing explanation: chronic antigen stimulation (persistent viral epi
 
 *(Certainty: 0.35 — epigenetic aging acceleration in ME/CFS has preliminary support; HSAT2 as mechanistic driver of acceleration is indirect inference.)*
 
-De Cecco et al.\  established in healthy aging that LINE-1 derepression tracks with epigenetic clock acceleration (GrimAge); repeat de-silencing and biological aging advance together. The HSAT2 inflammaging model @spec:hsat2-inflammaging proposes that ME/CFS represents an acute post-viral short-circuit of the same process. This predicts measurable biological age acceleration in ME/CFS, with the acceleration correlating with HSAT2 expression levels.
+De Cecco et al.\  established in healthy aging that LINE-1 derepression tracks with epigenetic clock acceleration (GrimAge); repeat de-silencing and biological aging advance together. The HSAT2 inflammaging model [NO SPECULATION] proposes that ME/CFS represents an acute post-viral short-circuit of the same process. This predicts measurable biological age acceleration in ME/CFS, with the acceleration correlating with HSAT2 expression levels.
 
 Early epigenetic clock studies in ME/CFS are consistent with this picture (preliminary data suggest 3–8 year GrimAge acceleration), though sample sizes are small and methodology varies. The prediction is testable with existing methods: GrimAge or DunedinPACE measurements in a cohort where EV HSAT2 is simultaneously quantified would directly test the HSAT2-inflammaging chain.
 
@@ -153,7 +153,7 @@ Early epigenetic clock studies in ME/CFS are consistent with this picture (preli
 
 *Cross-disease retrotransposon activation: Evidence summary table.*
 
-Table @tab:hsat2-cross-disease-summary summarizes the current state of HSAT2 and retrotransposon research across ME/CFS and related conditions. This comparative framework is essential for diagnostic specificity assessment.
+Table [NO TABLE] summarizes the current state of HSAT2 and retrotransposon research across ME/CFS and related conditions. This comparative framework is essential for diagnostic specificity assessment.
 
 #figure(
   caption: [Cross-disease evidence summary for HSAT2 and retrotransposon activation],
@@ -163,11 +163,11 @@ Table @tab:hsat2-cross-disease-summary summarizes the current state of HSAT2 and
   )[
     [*Disease*, *Evidence for HSAT2/Retrotransposon Activation*, *Certainty*, *Mechanistic Link to ME/CFS*],
     [
-      [Cancer (pancreatic, colon), \ HSAT2 validated as biomarker; TRAP-ddPCR and hybridization capture methods established  , \ 0.60–0.65, \ HSAT2 exosome transfer drives MDSC expansion and NK suppression in cancer ; same pathway proposed in ME/CFS @spec:hsat2-exosome-mdsc],
-      [Long COVID, \ HERV activation documented (HERV-W ENV correlates with severity)  ; HERV transcriptome tracks clinical stages, \ 0.45, \ Direct HSAT2 measurements absent; EV-mediated retrotransposon transfer proposed as shared mechanism @spec:hsat2-long-covid-bridge],
-      [Fibrotic diseases (IPF, liver, cardiac), \ No HSAT2 or retrotransposon literature found, \ 0.00, \ None established; hypothetical link via HSF1-oxidative stress axis in fibromyalgia @spec:fibromyalgia-hsat2-partial],
+      [Cancer (pancreatic, colon), \ HSAT2 validated as biomarker; TRAP-ddPCR and hybridization capture methods established  , \ 0.60–0.65, \ HSAT2 exosome transfer drives MDSC expansion and NK suppression in cancer ; same pathway proposed in ME/CFS [NO SPECULATION]],
+      [Long COVID, \ HERV activation documented (HERV-W ENV correlates with severity)  ; HERV transcriptome tracks clinical stages, \ 0.45, \ Direct HSAT2 measurements absent; EV-mediated retrotransposon transfer proposed as shared mechanism [NO SPECULATION]],
+      [Fibrotic diseases (IPF, liver, cardiac), \ No HSAT2 or retrotransposon literature found, \ 0.00, \ None established; hypothetical link via HSF1-oxidative stress axis in fibromyalgia [NO SPECULATION]],
       [Post-viral conditions (EBV, CMV, other herpesviruses), \ No HSAT2 literature found; HERV data suggests class-wide activation, \ 0.30, \ Proposed as trigger for sustained HSAT2 activation analogous to COVID-19 HERV findings],
-      [ME/CFS, \ Exosomal HSAT2/HERV-K hypothesis; MDSC expansion and NK suppression documented, \ 0.30–0.45, \ Proposed as “cancer immune-evasion environment without cancer” @spec:mecfs-cancer-immune-mirror],
+      [ME/CFS, \ Exosomal HSAT2/HERV-K hypothesis; MDSC expansion and NK suppression documented, \ 0.30–0.45, \ Proposed as “cancer immune-evasion environment without cancer” [NO SPECULATION]],
     ]
   ]
 ) <tab:hsat2-cross-disease-summary>
@@ -186,7 +186,7 @@ This pan-retrotransposon stress response framework predicts measurable differenc
 
 *Falsifiable predictions:*
 
-1. Long COVID patients with persistent fatigue at ≥6 months post-infection will show elevated HSAT2 that remains stable over time (unlike cancer progression), distinguishing ME/CFS-like Long COVID from recovered Long COVID. The Eaton-Fitch 2024 immune checkpoint divergence between ME/CFS and Long COVID  should track with exosomal HSAT2 levels if the MDSC-driven suppression model @spec:hsat2-exosome-mdsc is correct,
+1. Long COVID patients with persistent fatigue at ≥6 months post-infection will show elevated HSAT2 that remains stable over time (unlike cancer progression), distinguishing ME/CFS-like Long COVID from recovered Long COVID. The Eaton-Fitch 2024 immune checkpoint divergence between ME/CFS and Long COVID  should track with exosomal HSAT2 levels if the MDSC-driven suppression model [NO SPECULATION] is correct,
 
 2. ME/CFS patients will show elevated HSAT2 that correlates with symptom severity but not with disease duration. Longitudinal tracking over 12–24 months will show plateaued elevation (trend slope not different from zero, p>0.05) despite symptom fluctuation, distinguishing ME/CFS from cancer.
 
@@ -380,7 +380,7 @@ Are Long COVID and ME/CFS points on a continuum of post-viral pathology, or are 
     - 53% report rapid exhaustion after cognitive effort—consistent with post-exertional cognitive malaise as described in ME/CFS, though ME/CFS diagnostic criteria were not applied 
     - CFS prevalence of 12.6% after viral meningitis in a small controlled study ($n = 83$), though non-significant after adjustment (OR 1.4, CI 0.5–3.6) 
     - Consistent with the Dubbo cohort finding that post-infectious CFS develops at $tilde$11% regardless of pathogen identity (EBV, _Coxiella_, Ross River virus—meningitis pathogens were not studied but the rate is comparable) 
-    - _Speculative link:_ Meningitis causes direct neuroinflammation, blood-brain barrier disruption, and glymphatic system dysfunction ; these overlap with documented features of ME/CFS (see Chapter @ch:neurological, Sections @sec:bbb and @sec:glial). Unlike peripheral infections, meningitis delivers the inflammatory insult directly to the CNS, potentially explaining the high rates of persistent cognitive symptoms. The implications of microglial priming for meningitis in existing ME/CFS patients are explored in Speculation @spec:meningitis-double-vulnerability
+    - _Speculative link:_ Meningitis causes direct neuroinflammation, blood-brain barrier disruption, and glymphatic system dysfunction ; these overlap with documented features of ME/CFS (see Chapter [NO CHAPTER], Sections [NO SECTION] and [NO SECTION]). Unlike peripheral infections, meningitis delivers the inflammatory insult directly to the CNS, potentially explaining the high rates of persistent cognitive symptoms. The implications of microglial priming for meningitis in existing ME/CFS patients are explored in Speculation [NO SPECULATION]
 
 *Bacterial infections as ME/CFS triggers: the Q fever paradigm.*
 The post-infectious trigger literature is dominated by viral pathogens, but the Q Fever Fatigue Syndrome (QFS) literature provides strong evidence that bacterial infections can trigger persistent post-infectious illness. In a 10-year follow-up of 368 QFS patients, 98.9% experienced PEM, with a median of 12 chronic complaints and severely compromised quality of life (EQ-5D-5L: 0.63) . QFS is caused by _Coxiella burnetii_, an intracellular bacterium—demonstrating that neither viral persistence nor viral immune evasion is necessary for chronic post-infectious sequelae. This broadens the post-infectious trigger framework beyond viruses and supports the pathogen-agnostic host-response model from the Dubbo cohort .
@@ -441,223 +441,223 @@ Butyrate deficiency has been observed across multiple chronic conditions with sh
 #speculation(title: [X1: Butyrate-IBS-ME/CFS Continuum])[
 Butyrate deficiency observed across IBS, ME/CFS, and fibromyalgia suggests a shared microbiome dysfunction spectrum. The severity of butyrate deficiency may help distinguish conditions and inform treatment targets.
 
-**Evidence:**
-- IBS: Reduced butyrate producers (Faecalibacterium prausnitzii, Roseburia) in IBS-D and IBS-C, correlating with symptom severity (@Guo2023)
+*Evidence:*
+- IBS: Reduced butyrate producers (Faecalibacterium prausnitzii, Roseburia) in IBS-D and IBS-C, correlating with symptom severity (@ButyrateDeficiency2023)
 - ME/CFS: Reduced butyrate producers in gut microbiome dysbiosis (@ButyrateDeficiency2023)
 - Fibromyalgia: Preliminary evidence of reduced butyrate-producing bacteria, but less consistent than IBS/ME/CFS
 
-**Cross-condition analysis:**
+*Cross-condition analysis:*
 - IBS and ME/CFS share GI symptoms, barrier dysfunction, and butyrate deficiency patterns
 - Fibromyalgia overlaps with ME/CFS in fatigue and central sensitization, but lacks consistent IBS-like GI dysfunction
 - Butyrate deficiency severity may distinguish IBS (moderate, GI-focused) from ME/CFS (severe, multi-system)
 
-**Mechanistic link:**
+*Mechanistic link:*
 Butyrate deficiency reduces:
 - Tight junction maintenance (increased intestinal permeability)
 - Treg differentiation (immune dysregulation)
 - Vagal afferent activation (autonomic dysfunction)
 - HIF-1α stabilization (metabolic reprogramming)
 
-**Clinical implications:**
+*Clinical implications:*
 - ME/CFS patients with severe butyrate deficiency may benefit from targeted microbiome interventions (butyrate-producing probiotics, high-fiber diets)
 - Butyrate supplementation trials in ME/CFS may show differential response based on butyrate deficiency severity
 - Cross-disease butyrate deficiency panel could guide treatment selection across conditions
 
-**Cross-references:** See Section @sec:gut-microbiome for ME/CFS butyrate deficiency, Section @sec:intestinal-barrier for barrier mechanisms, and Section @sec:butyrate-vagal-ode for vagal coupling.
+*Cross-references:* See Section [NO SECTION] for ME/CFS butyrate deficiency, Section [NO SECTION] for barrier mechanisms, and Section [NO SECTION] for vagal coupling.
 
-**Certainty:** 0.60 (butyrate deficiency documented in IBS and ME/CFS; fibromyalgia evidence preliminary; mechanistic overlap across conditions is plausible but not proven)
+*Certainty:* 0.60 (butyrate deficiency documented in IBS and ME/CFS; fibromyalgia evidence preliminary; mechanistic overlap across conditions is plausible but not proven)
 
 ] <sec:butyrate-ibs-mecfs-continuum> <spec:butyrate-ibs-mecfs-continuum>
 
 #speculation(title: [X2: Butyrate-Long COVID Fatigue Parallel])[
 Long COVID post-viral fatigue shows butyrate deficiency patterns similar to ME/CFS, supporting cross-disease mechanistic hypotheses and potential for shared treatment protocols.
 
-**Evidence:**
-- Long COVID: Gut microbiome dysbiosis with reduced butyrate producers (Kim et al.  @Kim2026gutBrain)
+*Evidence:*
+- Long COVID: Gut microbiome dysbiosis with reduced butyrate producers (Kim et al.  @Kim2026brainGutAxis)
 - Long COVID fatigue: Similar to ME/CFS post-exertional fatigue (certainty: 0.50 from distinct PEM pathophysiology analysis @hyp:distinct-pem-pathophysiology-long-covid)
 - Butyrate mechanisms: Similar in both conditions (HDAC inhibition, Treg upregulation, barrier maintenance)
 
-**Cross-condition comparison:**
+*Cross-condition comparison:*
 - Fatigue patterns: ME/CFS PEM (2-day CPET deterioration) distinct from Long COVID (some patients report PEM but no CPET deterioration)
 - Butyrate deficiency: Documented in both, but severity may differ
 - Immune phenotype: ME/CFS more suppressed, Long COVID more activated (Eaton-Fitch 2024 @Eaton-Fitch2024)
 - Viral persistence: SARS-CoV-2 RNA detectable in some Long COVID patients, not in ME/CFS
 
-**Mechanistic link:**
+*Mechanistic link:*
 Butyrate deficiency in Long COVID may contribute to:
 - Persistent fatigue via vagal dysfunction (similar to ME/CFS)
 - Immune dysregulation through reduced Tregs and HDAC inhibition
 - Barrier dysfunction contributing to viral antigen persistence
 
-**Treatment implications:**
+*Treatment implications:*
 - Butyrate supplementation may benefit Long COVID patients with severe butyrate deficiency
 - Combined butyrate + antiviral protocols could address both microbiome dysfunction and viral persistence
 - Cross-condition butyrate-targeted trials could inform both ME/CFS and Long COVID treatment protocols
 
-**Cross-references:** See Section @sec:viral-clearance-comparison for Long COVID vs ME/CFS comparison, Section @sec:butyrate-vagal-ode for butyrate-vagal coupling, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+*Cross-references:* See Section [NO SECTION] for Long COVID vs ME/CFS comparison, Section [NO SECTION] for butyrate-vagal coupling, and Section [NO SECTION] for butyrate distribution.
 
-**Certainty:** 0.55 (butyrate deficiency documented in Long COVID and ME/CFS; mechanistic parallels plausible; clinical trials needed to test shared treatment protocols)
+*Certainty:* 0.55 (butyrate deficiency documented in Long COVID and ME/CFS; mechanistic parallels plausible; clinical trials needed to test shared treatment protocols)
 
 ] <sec:butyrate-longcovid-parallel> <spec:butyrate-longcovid-parallel>
 
 #speculation(title: [X3: Butyrate-IBD Barrier Comparison])[
 Butyrate mechanisms (HDAC inhibition, tight junction maintenance) are central to IBD pathophysiology. Comparing barrier repair dynamics may reveal ME/CFS-specific dysfunction patterns.
 
-**IBD-butyrat mechanisms:**
+*IBD-butyrat mechanisms:*
 - HDAC inhibition stabilizes tight junction proteins (claudin-1, occludin, ZO-1)
 - Butyrate reduces intestinal inflammation via Treg differentiation
 - Butyrate promotes colonocyte energy production and proliferation
 - Butyrate deficiency contributes to barrier breakdown in IBD
 
-**ME/CFS-butyrat mechanisms:**
+*ME/CFS-butyrat mechanisms:*
 - Butyrate deficiency documented in ME/CFS microbiome dysbiosis (@ButyrateDeficiency2023)
-- Barrier dysfunction observed in ME/CFS (Section @sec:intestinal-barrier)
+- Barrier dysfunction observed in ME/CFS (Section [NO SECTION])
 - Immune dysregulation via reduced Tregs and HDAC inhibition
-- Vagal coupling through serotonin-vagal pathway (Section @sec:gut-brain)
+- Vagal coupling through serotonin-vagal pathway (Section [NO SECTION])
 
-**Cross-condition analysis:**
+*Cross-condition analysis:*
 - IBD: Active inflammation with barrier breakdown, butyrate supplementation shows efficacy in clinical trials
 - ME/CFS: Chronic low-grade inflammation with barrier dysfunction, butyrate supplementation not yet tested in controlled trials
 - Severity: IBD butyrate deficiency correlates with active inflammation; ME/CFS butyrate deficiency may correlate with systemic symptoms
 
-**Distinguishing patterns:**
+*Distinguishing patterns:*
 - IBD butyrate deficiency is primarily gut-localized with prominent GI symptoms
 - ME/CFS butyrate deficiency is systemic, with multi-organ dysfunction despite gut-localized deficiency
 - IBD responds well to butyrate supplementation; ME/CFS response not yet established
 
-**Mechanistic insight:**
+*Mechanistic insight:*
 Comparing barrier repair kinetics after butyrate challenge may reveal:
 - Whether ME/CFS barrier repair is fundamentally impaired (similar to IBD)
 - Whether ME/CFS requires higher butyrate doses due to impaired utilization
 - Whether ME/CFS-specific factors (immune dysregulation, autonomic dysfunction) limit butyrate efficacy
 
-**Cross-references:** See Section @sec:intestinal-barrier for ME/CFS barrier dysfunction, IBD butyrate supplementation evidence, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+*Cross-references:* See Section [NO SECTION] for ME/CFS barrier dysfunction, IBD butyrate supplementation evidence, and Section [NO SECTION] for butyrate distribution.
 
-**Certainty:** 0.50 (butyrate mechanisms well-established in IBD; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; barrier comparison is hypothesis-generating)
+*Certainty:* 0.50 (butyrate mechanisms well-established in IBD; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; barrier comparison is hypothesis-generating)
 
 ] <sec:butyrate-ibd-barrier-comparison> <spec:butyrate-ibd-barrier-comparison>
 
 #speculation(title: [X4: Butyrate-Autonomic Neuropathy Diabetic Parallels])[
 Diabetic autonomic neuropathy shows vagal dysfunction; butyrate deficiency may contribute to similar dysautonomia in ME/CFS. Comparing mechanisms may reveal treatment targets.
 
-**Diabetic autonomic neuropathy (DAN):**
+*Diabetic autonomic neuropathy (DAN):*
 - Vagal dysfunction observed in 30–50% of diabetic patients
 - Reduced HRV, impaired baroreflex sensitivity
 - Mechanisms: hyperglycemia-induced oxidative stress, advanced glycation end-products (AGEs), inflammation
 - Evidence-based treatments: tight glycemic control, lifestyle modifications, possible butyrate supplementation
 
-**ME/CFS dysautonomia:**
+*ME/CFS dysautonomia:*
 - Vagal dysfunction observed in 30–40% of ME/CFS patients (POTS prevalence >30%)
 - Reduced HRV, impaired baroreflex sensitivity
 - Mechanisms: uncertain, but includes immune dysregulation, inflammation, neurotransmitter abnormalities (Wirth & Scheibenbogen 2025 @WirthScheibenbogen2025Neurotransmitter)
 - Current treatments: salt/fluids, compression, ivabradine, fludrocortisone
 
-**Cross-condition mechanisms:**
+*Cross-condition mechanisms:*
 - Both conditions show reduced HRV and vagal efferent output
 - Both conditions involve low-grade inflammation contributing to vagal dysfunction
 - BUTYRATE DEFICIENCY MAY CONTRIBUTE TO DYSAUTONIA IN BOTH CONDITIONS via vagal afferent sensitization
 
-**Butyrate-DAN connection:**
-- Butyrate enhances vagal afferent firing rate (ODE model in Section @sec:butyrate-vagal-ode)
+*Butyrate-DAN connection:*
+- Butyrate enhances vagal afferent firing rate (ODE model in Section [NO SECTION])
 - Butyrate deficiency reduces vagal afferent input → impaired vagal efferent output
 - Butyrate improves mitochondrial function → supports neuronal energy metabolism
 
-**Butyrate-ME/CFS connection:**
+*Butyrate-ME/CFS connection:*
 - ME/CFS butyrate deficiency documented in gut microbiome dysbiosis (@ButyrateDeficiency2023)
 - Butyrate deficiency may contribute to reduced vagal tone via vagal afferent sensitization
 - Combined butyrate + dysautonomia treatments may have synergistic effects
 
-**Mechanistic insight:**
+*Mechanistic insight:*
 Comparing butyrate dynamics in DAN vs ME/CFS may reveal:
 - Whether butyrate deficiency is common in dysautonomia across conditions
 - Whether butyrate supplementation can improve HRV in both DAN and ME/CFS
 - Which butyrate parameters (absorption, utilization, distribution) are impaired in dysautonomia
 
-**Cross-references:** See Section @sec:butyrate-vagal-ode for ODE model, Section @sec:autonomic for ME/CFS dysautonomia mechanisms, DAN pathophysiology and treatment evidence, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+*Cross-references:* See Section [NO SECTION] for ODE model, Section [NO SECTION] for ME/CFS dysautonomia mechanisms, DAN pathophysiology and treatment evidence, and Section [NO SECTION] for butyrate distribution.
 
-**Certainty:** 0.45 (butyrate-vagal coupling documented in animal studies; diabetic autonomic neuropathy mechanisms well-established; butyrate deficiency in ME/CFS not linked to dysautonomia; mechanistic comparison is hypothesis-generating)
+*Certainty:* 0.45 (butyrate-vagal coupling documented in animal studies; diabetic autonomic neuropathy mechanisms well-established; butyrate deficiency in ME/CFS not linked to dysautonomia; mechanistic comparison is hypothesis-generating)
 
 ] <sec:butyrate-diabetic-autonomic-parallels> <spec:butyrate-diabetic-autonomic-parallels>
 
 #speculation(title: [X5: Butyrate-Parkinson's Constipation-Fatigue Bridge])[
 Parkinson's patients have constipation and fatigue; butyrate deficiency may contribute via similar gut-brain axis disruption. Exploratory cross-disease bridge.
 
-**Parkinson's pathophysiology:**
+*Parkinson's pathophysiology:*
 - Constipation affects 70–90% of Parkinson's patients, occurring years before motor symptoms
 - Gut microbiome dysbiosis: reduced butyrate producers (F. prausnitzii, R. hominis)
 - Fatigue common in Parkinson's (fatigue prevalence 20–30%)
 - Gut-brain axis involvement: microbiota influence neuroinflammation and alpha-synuclein pathology
 
-**ME/CFS pathophysiology:**
+*ME/CFS pathophysiology:*
 - Constipation/GI dysfunction common (20–40% of ME/CFS patients)
 - Gut microbiome dysbiosis: reduced butyrate producers (@ButyrateDeficiency2023)
 - Fatigue is cardinal feature of ME/CFS
 - Gut-brain axis involvement: serotonin-vagal pathways, inflammation
 
-**Cross-condition comparison:**
+*Cross-condition comparison:*
 - Parkinson's: Constipation precedes fatigue by years; fatigue is secondary to neurological progression
 - ME/CFS: Fatigue is primary; GI dysfunction and fatigue co-occur; unclear whether GI dysfunction precedes fatigue
 
-**Butyrate-ME/CFS link:**
+*Butyrate-ME/CFS link:*
 - Butyrate deficiency reduces gut motility (butyrate stimulates intestinal peristalsis)
 - Butyrate deficiency reduces Treg differentiation → immune dysregulation
 - Butyrate deficiency contributes to fatigue via vagal dysfunction (similar to X4)
 
-**Butyrate-Parkinson's link:**
+*Butyrate-Parkinson's link:*
 - Butyrate deficiency may contribute to constipation via reduced gut motility
 - Butyrate deficiency may contribute to fatigue via gut-brain axis disruption and immune dysregulation
 - Cross-condition butyrate-targeted treatments could benefit both conditions
 
-**Mechanistic insight:**
+*Mechanistic insight:*
 Comparing butyrate dynamics in Parkinson's vs ME/CFS may reveal:
 - Whether butyrate deficiency is common in Parkinson's constipation
 - Whether butyrate deficiency contributes to fatigue in both conditions
 - Which butyrate parameters are impaired (absorption, utilization, distribution)
 
-**Cross-references:** See Section @sec:gut-microbiome for butyrate deficiency in ME/CFS, Parkinson's gut-brain axis mechanisms, gut motility regulation, and Section @sec:butyrate-multicompartment-model for butyrate distribution.
+*Cross-references:* See Section [NO SECTION] for butyrate deficiency in ME/CFS, Parkinson's gut-brain axis mechanisms, gut motility regulation, and Section [NO SECTION] for butyrate distribution.
 
-**Certainty:** 0.40 (butyrate deficiency in Parkinson's constipation documented; fatigue mechanisms in Parkinson's not butyrate-linked; ME/CFS butyrate deficiency not linked to Parkinson's; cross-condition bridge is exploratory)
+*Certainty:* 0.40 (butyrate deficiency in Parkinson's constipation documented; fatigue mechanisms in Parkinson's not butyrate-linked; ME/CFS butyrate deficiency not linked to Parkinson's; cross-condition bridge is exploratory)
 
 ] <sec:butyrate-parkinsons-bridge> <spec:butyrate-parkinsons-bridge>
 
 #speculation(title: [X6: Butyrate-MS Fatigue Overlap])[
 Multiple sclerosis fatigue shows gut dysbiosis patterns; butyrate deficiency may contribute to fatigue via immune and metabolic mechanisms. Cross-disease exploration.
 
-**MS fatigue:**
+*MS fatigue:*
 - Fatigue prevalence 70–80% in MS (higher than ME/CFS fatigue prevalence of ~70% overall)
 - Fatigue worsens with disease progression, physical activity, heat
 - Gut microbiome dysbiosis in MS: reduced butyrate producers (F. prausnitzii, R. hominis)
 - Butyrate supplementation improves MS-related fatigue in pilot studies
 
-**ME/CFS fatigue:**
+*ME/CFS fatigue:*
 - Fatigue is cardinal feature, with PEM (24–72h delayed)
 - Gut microbiome dysbiosis: reduced butyrate producers (@ButyrateDeficiency2023)
 - Fatigue mechanisms: uncertain, but includes immune dysregulation, metabolic dysfunction, CNS effort computation changes
 
-**Cross-condition comparison:**
+*Cross-condition comparison:*
 - Fatigue severity: MS fatigue 70–80% prevalence; ME/CFS fatigue 70% prevalence (broad estimate)
 - Fatigue triggers: MS fatigue triggered by disease progression, activity, heat; ME/CFS fatigue triggered by exertion (PEM)
 - Gut microbiome: Both conditions show reduced butyrate producers; butyrate supplementation shows some benefit in MS fatigue
 
-**Butyrate-MS link:**
+*Butyrate-MS link:*
 - Butyrate reduces neuroinflammation via HDAC inhibition and Treg differentiation
 - Butyrate improves mitochondrial function in immune cells
 - Butyrate deficiency contributes to fatigue via immune dysregulation and metabolic dysfunction
 
-**Butyrate-ME/CFS link:**
+*Butyrate-ME/CFS link:*
 - ME/CFS butyrate deficiency documented in gut microbiome dysbiosis (@ButyrateDeficiency2023)
 - Butyrate deficiency contributes to immune dysregulation via reduced Tregs and HDAC inhibition
 - Butyrate deficiency contributes to fatigue via vagal dysfunction and metabolic dysfunction
 
-**Mechanistic insight:**
+*Mechanistic insight:*
 Comparing butyrate dynamics in MS vs ME/CFS may reveal:
 - Whether butyrate deficiency is common in MS fatigue
 - Whether butyrate supplementation can improve ME/CFS fatigue
 - Which butyrate parameters are impaired (absorption, utilization, distribution)
 
-**Cross-references:** See Section @sec:gut-microbiome for butyrate deficiency in ME/CFS, MS gut microbiome dysbiosis, butyrate supplementation evidence in MS, and Section @sec:butyrate-immune-network for immune modulation mechanisms.
+*Cross-references:* See Section [NO SECTION] for butyrate deficiency in ME/CFS, MS gut microbiome dysbiosis, butyrate supplementation evidence in MS, and Section [NO SECTION] for immune modulation mechanisms.
 
-**Certainty:** 0.45 (butyrate deficiency in MS gut dysbiosis documented; butyrate supplementation shows benefit in MS fatigue; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; cross-condition exploration is hypothesis-generating)
+*Certainty:* 0.45 (butyrate deficiency in MS gut dysbiosis documented; butyrate supplementation shows benefit in MS fatigue; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; cross-condition exploration is hypothesis-generating)
 
 ] <sec:butyrate-ms-fatigue-overlap> <spec:butyrate-ms-fatigue-overlap>
 
@@ -708,7 +708,7 @@ Mast cell activation appears connected to ME/CFS:
 
 *Mast Cell Activation Syndrome (MCAS).*
 
-MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section @sec:domain6-mast-cell); histamine intolerance (HIT) due to DAO deficiency is a distinct, overlapping but mechanistically separate condition.
+MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section [NO SECTION]); histamine intolerance (HIT) due to DAO deficiency is a distinct, overlapping but mechanistically separate condition.
 
     - High comorbidity with ME/CFS
     - Explains chemical sensitivities, food reactions, flushing
@@ -728,9 +728,9 @@ MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregu
     - _Speculative link:_ Both conditions might involve mast cell progenitor dysregulation; ME/CFS could involve functional mastocytosis without clonal proliferation
 
 #speculation(title: [Na#super[+]/K#super[+]-ATPase Failure as Common Mechanism for PEM and MCAS Flares])[
-Mast cell degranulation requires intracellular calcium elevation. The NCX reversal mechanism described in Chapter @ch:energy-metabolism — Na#super[+]/K#super[+]-ATPase failure $arrow.r$ intracellular sodium rise $arrow.r$ NCX reverse mode $arrow.r$ calcium influx---operates in all cell types, not only skeletal muscle. If $beta_2$-adrenergic receptor dysfunction impairs pump function globally, then mast cells would experience the same calcium flooding that causes muscle necrosis during PEM. This would mean the same upstream mechanism simultaneously triggers PEM (via muscle calcium toxicity) and MCAS flares (via mast cell calcium-induced degranulation), explaining their frequent co-occurrence without requiring mast cells to be independently dysfunctional.
+Mast cell degranulation requires intracellular calcium elevation. The NCX reversal mechanism described in Chapter [NO CHAPTER] — Na#super[+]/K#super[+]-ATPase failure $arrow.r$ intracellular sodium rise $arrow.r$ NCX reverse mode $arrow.r$ calcium influx---operates in all cell types, not only skeletal muscle. If $beta_2$-adrenergic receptor dysfunction impairs pump function globally, then mast cells would experience the same calcium flooding that causes muscle necrosis during PEM. This would mean the same upstream mechanism simultaneously triggers PEM (via muscle calcium toxicity) and MCAS flares (via mast cell calcium-induced degranulation), explaining their frequent co-occurrence without requiring mast cells to be independently dysfunctional.
 
-The prediction is clean: MDC002 (Na#super[+]/K#super[+]-ATPase stimulator, Chapter @ch:emerging-therapies) should reduce both PEM severity _and_ MCAS flare frequency if the shared calcium source is confirmed. Conversely, mast cell stabilizers (cromolyn, ketotifen) that partially regulate calcium channels may provide modest PEM benefit as a secondary effect.
+The prediction is clean: MDC002 (Na#super[+]/K#super[+]-ATPase stimulator, Chapter [NO CHAPTER]) should reduce both PEM severity _and_ MCAS flare frequency if the shared calcium source is confirmed. Conversely, mast cell stabilizers (cromolyn, ketotifen) that partially regulate calcium channels may provide modest PEM benefit as a secondary effect.
 
 *Certainty: 0.30*---mechanistically coherent but entirely untested; requires demonstration of elevated intracellular sodium and calcium in mast cells (not just muscle) of ME/CFS patients.
 ] <spec:pump-mcas>
@@ -1123,11 +1123,11 @@ The CSF proteome data  and shared microglial activation patterns  support this
 ]
 
 #hypothesis(title: [PEM Status as the Cross-Disease Determinant of Exercise Response])[
-*Certainty: 0.50.* The exercise response spectrum across ME/CFS, fibromyalgia, Gulf War illness, and Long COVID may be predicted by a single variable: PEM status. Depression represents one pole---exercise has established biological mechanisms (BDNF upregulation, neuroplasticity) and genuine benefit survives blinding correction . Fibromyalgia occupies an intermediate position: graded aerobic exercise can improve pain in PEM-negative FM patients, while PEM-positive FM patients deteriorate. ME/CFS and PEM-positive Long COVID represent the other pole---exercise causes harm (Section @sec:exercise-debates of Chapter @ch:controversies). Gulf War illness shares the exercise intolerance profile with contested psychosomatic framing and identical blinding vulnerabilities. Not yet replicated---the PEM-stratified analysis across conditions has not been performed.
+*Certainty: 0.50.* The exercise response spectrum across ME/CFS, fibromyalgia, Gulf War illness, and Long COVID may be predicted by a single variable: PEM status. Depression represents one pole---exercise has established biological mechanisms (BDNF upregulation, neuroplasticity) and genuine benefit survives blinding correction . Fibromyalgia occupies an intermediate position: graded aerobic exercise can improve pain in PEM-negative FM patients, while PEM-positive FM patients deteriorate. ME/CFS and PEM-positive Long COVID represent the other pole---exercise causes harm (Section [NO SECTION] of Chapter [NO CHAPTER]). Gulf War illness shares the exercise intolerance profile with contested psychosomatic framing and identical blinding vulnerabilities. Not yet replicated---the PEM-stratified analysis across conditions has not been performed.
 
 The clinical implication is that PEM status, not the disease label, should determine exercise recommendations. A fibromyalgia patient with PEM should receive the same exercise cautions as an ME/CFS patient.
 
-*Testable predictions.* (1) FM exercise meta-analyses stratified by PEM status should show: PEM-negative FM retains robust exercise benefit; PEM-positive FM shows null benefit identical to the ME/CFS pattern. (2) Gulf War illness exercise meta-analyses should show the same subjective-only improvement pattern, predicted by the BRANDO framework (Section @sec:brando-evidence of Chapter @ch:controversies). (3) Cross-condition meta-regression with PEM status as moderator should show PEM as the strongest predictor of exercise harm, stronger than the condition label.
+*Testable predictions.* (1) FM exercise meta-analyses stratified by PEM status should show: PEM-negative FM retains robust exercise benefit; PEM-positive FM shows null benefit identical to the ME/CFS pattern. (2) Gulf War illness exercise meta-analyses should show the same subjective-only improvement pattern, predicted by the BRANDO framework (Section [NO SECTION] of Chapter [NO CHAPTER]). (3) Cross-condition meta-regression with PEM status as moderator should show PEM as the strongest predictor of exercise harm, stronger than the condition label.
 ] <hyp:pem-exercise-determinant>
 
 === The Autoimmune Disease Spectrum
@@ -1179,7 +1179,7 @@ Type 1 narcolepsy is now confirmed as autoimmune: CD4+ T-cells selectively destr
 
 The ME/CFS parallels are notable:
 
-    - *Orexin system involvement:* Reduced orexin-A levels have been reported in ME/CFS across multiple studies , and cytokine-driven PGE#sub[2] suppression of orexin neurons is proposed as a mechanism for inflammation-induced fatigue and sleep pressure (see Hypothesis @hyp:maladaptive-sickness-behavior, Chapter @ch:immune-dysfunction)
+    - *Orexin system involvement:* Reduced orexin-A levels have been reported in ME/CFS across multiple studies , and cytokine-driven PGE#sub[2] suppression of orexin neurons is proposed as a mechanism for inflammation-induced fatigue and sleep pressure (see Hypothesis @hyp:maladaptive-sickness-behavior, Chapter [NO CHAPTER])
     - *Post-infectious autoimmune trigger:* Both conditions arise after infection via autoimmune attack on CNS targets—orexin neurons in narcolepsy, potentially broader neural and autonomic targets in ME/CFS
     - *Comorbid presentation:* A case of ME/CFS + POTS + narcolepsy with compound heterozygous MTHFR mutations  suggests shared vulnerability in some patients
     - _Speculative link:_ If ME/CFS involves autoimmune suppression of orexin neuron _function_ (via receptor autoantibodies or cytokine-mediated inhibition) rather than outright neuronal destruction, this would explain the overlapping sleep-wake dysregulation without the complete hypocretin deficiency seen in narcolepsy. The narcolepsy finding also raises the question of whether early immunotherapy could prevent orexin system damage in ME/CFS patients showing narcolepsy-pattern polysomnography
@@ -1295,13 +1295,13 @@ Replication of the Billing-Ross or Venter study design with long-read mtDNA sequ
 #speculation(title: [Pathogenic mtDNA Carrier Relatives as a Natural Experiment])[
 *(Certainty: 0.35 — mechanistically coherent; natural experiment avoids many confounds; requires accessing mitochondrial disease registries and ME/CFS diagnosis data jointly.)*
 
-Asymptomatic carriers of pathogenic mtDNA mutations — relatives of individuals with MELAS, MERRF, or Leigh syndrome who carry the mutation at low heteroplasmy and remain clinically unaffected — live with measurably reduced mitochondrial reserve throughout their lives. Under the reserve-threshold model (Section @spec:mtdna-reserve-threshold in Chapter @ch:integrative-models), these carriers should show elevated ME/CFS rates after viral triggers compared to their non-carrier siblings, because their reserve floor is already lowered by the pathogenic variant before any stressor is applied.
+Asymptomatic carriers of pathogenic mtDNA mutations — relatives of individuals with MELAS, MERRF, or Leigh syndrome who carry the mutation at low heteroplasmy and remain clinically unaffected — live with measurably reduced mitochondrial reserve throughout their lives. Under the reserve-threshold model (Section [NO SPECULATION] in Chapter [NO CHAPTER]), these carriers should show elevated ME/CFS rates after viral triggers compared to their non-carrier siblings, because their reserve floor is already lowered by the pathogenic variant before any stressor is applied.
 
 *Falsifiable prediction:* Surveying maternal relatives in mitochondrial disease registries (MitoCohort, MITOMAP-linked registries, UMDF data) will reveal post-viral ME/CFS-like illness incidence ≥3× the age/sex-adjusted general population rate in individuals confirmed as low-heteroplasmy pathogenic variant carriers. If carrier relatives show ME/CFS rates indistinguishable from the general population, the reserve-threshold model cannot explain predisposition via germline mitochondrial vulnerability. *Limitations:* Mitochondrial disease registries are not designed for ME/CFS outcome ascertainment; retrospective survey methodology has ascertainment bias; "ME/CFS-like illness" without formal diagnostic validation is a weak endpoint. Not yet replicated.
 ] <spec:pathogenic-carrier-experiment>
 
 #open-question(title: [WURS Score as a Zero-Cost ME/CFS Risk Stratifier])[
-The Dopaminergic Demand Crossover hypothesis (Section @spec:dopaminergic-crossover in Chapter @ch:integrative-models) predicts that childhood ADHD history reflects the same low mitochondrial reserve substrate that confers ME/CFS susceptibility. If correct, adult ADHD or subclinical childhood attention symptoms — retrospectively quantifiable by the Wender Utah Rating Scale (WURS-25, a validated retrospective childhood ADHD symptom scale) — could serve as a clinical marker enriching at-risk cohorts for baseline studies or prevention trials without requiring any genetic testing.
+The Dopaminergic Demand Crossover hypothesis (Section [NO SPECULATION] in Chapter [NO CHAPTER]) predicts that childhood ADHD history reflects the same low mitochondrial reserve substrate that confers ME/CFS susceptibility. If correct, adult ADHD or subclinical childhood attention symptoms — retrospectively quantifiable by the Wender Utah Rating Scale (WURS-25, a validated retrospective childhood ADHD symptom scale) — could serve as a clinical marker enriching at-risk cohorts for baseline studies or prevention trials without requiring any genetic testing.
 
 The WURS-25 is a self-administered, 25-item questionnaire with established psychometric properties and a validated threshold of score >36 for probable childhood ADHD . It is zero-cost, zero-blood-draw, and can be administered remotely. In a prospective post-viral cohort, WURS score at enrollment could be tested as a predictor of ME/CFS conversion at 6 and 12 months.
 
@@ -1354,11 +1354,11 @@ The metabolic reserve framework generates predictions about ME/CFS connections t
 ] <spec:bipolar-reserve-oscillation>
 
 #speculation(title: [Fibromyalgia Central Sensitization as Self-Amplifying Metabolic Cost])[
-*Certainty: 0.35.* Central sensitization in fibromyalgia (amplified pain signaling) is metabolically expensive — maintaining heightened neural excitability requires more ATP via Na#super[+]/K#super[+]-ATPase demand. In Architecture C, fibromyalgia is both a consequence of reduced metabolic reserve AND a cause of further reduction: the sensitization itself consumes energy. This creates a self-amplifying loop distinct from but synergistic with the PEM damage cycle. The memantine rationale (@spec:memantine-demand-reduction) targets this demand-side amplification. Individual links documented; self-amplifying loop framing novel. Not yet replicated.
+*Certainty: 0.35.* Central sensitization in fibromyalgia (amplified pain signaling) is metabolically expensive — maintaining heightened neural excitability requires more ATP via Na#super[+]/K#super[+]-ATPase demand. In Architecture C, fibromyalgia is both a consequence of reduced metabolic reserve AND a cause of further reduction: the sensitization itself consumes energy. This creates a self-amplifying loop distinct from but synergistic with the PEM damage cycle. The memantine rationale ([NO SPECULATION]) targets this demand-side amplification. Individual links documented; self-amplifying loop framing novel. Not yet replicated.
 ] <spec:fibromyalgia-metabolic-amplification>
 
 #speculation(title: [Depression as BH4-Mediated Reserve Reduction and Consequence])[
-*Certainty: 0.25.* If BH4 is the convergent bottleneck (@spec:bh4-convergent-bottleneck), depression (serotonin depletion) could be both cause and consequence of reserve reduction. BH4 depletion reduces serotonin, causing depression; depression disrupts sleep, impairing mitochondrial repair; further reserve reduction worsens BH4 depletion. This bidirectional loop explains why depressed ME/CFS patients respond poorly to SSRIs alone — SSRIs address serotonin reuptake without fixing the upstream BH4 deficit. Prediction: depressed ME/CFS patients with low BH4 should respond better to BH4 supplementation + SSRI than SSRI alone. BH4 levels should predict SSRI response magnitude. Mechanistically logical; no clinical data. Not yet replicated.
+*Certainty: 0.25.* If BH4 is the convergent bottleneck ([NO SPECULATION]), depression (serotonin depletion) could be both cause and consequence of reserve reduction. BH4 depletion reduces serotonin, causing depression; depression disrupts sleep, impairing mitochondrial repair; further reserve reduction worsens BH4 depletion. This bidirectional loop explains why depressed ME/CFS patients respond poorly to SSRIs alone — SSRIs address serotonin reuptake without fixing the upstream BH4 deficit. Prediction: depressed ME/CFS patients with low BH4 should respond better to BH4 supplementation + SSRI than SSRI alone. BH4 levels should predict SSRI response magnitude. Mechanistically logical; no clinical data. Not yet replicated.
 ] <spec:depression-bh4-bidirectional>
 
 === The Cancer Cachexia Connection
@@ -1686,7 +1686,7 @@ The most direct test of the metabolic reserve hypothesis comes from post-COVID s
 *Not yet replicated.* No study has directly tested this hypothesis by prospectively measuring metabolic reserve before infection and tracking ME/CFS outcomes.
 ] <hyp:metabolic-reserve-predisposition>
 
-The clinical manifestation of reduced metabolic reserve _before_ formal ME/CFS diagnosis is described in @sec:prodromal-recognition. Retrospective prodromal signs --- the overtrained-but-unfit athlete, the late-game cognitive fader, the always-tired high performer, unexplained fine tremor, cold extremities, and unrefreshing sleep --- represent the observable face of the lower $R_"headroom"$ predicted by Architecture C. German claims data confirm elevated medical utilisation (fatigue, pain, somatoform, cognitive codes) up to five years before pediatric ME/CFS diagnosis , and prospective birth cohort data show sleep disruption 4--7 years before onset . These findings are consistent with a population operating near its metabolic ceiling for years before an immune trigger pushes production below the minimum needed for daily function.
+The clinical manifestation of reduced metabolic reserve _before_ formal ME/CFS diagnosis is described in [NO SECTION]. Retrospective prodromal signs --- the overtrained-but-unfit athlete, the late-game cognitive fader, the always-tired high performer, unexplained fine tremor, cold extremities, and unrefreshing sleep --- represent the observable face of the lower $R_"headroom"$ predicted by Architecture C. German claims data confirm elevated medical utilisation (fatigue, pain, somatoform, cognitive codes) up to five years before pediatric ME/CFS diagnosis , and prospective birth cohort data show sleep disruption 4--7 years before onset . These findings are consistent with a population operating near its metabolic ceiling for years before an immune trigger pushes production below the minimum needed for daily function.
 
 ===== The Unifying Energy Thread
 
@@ -1837,7 +1837,7 @@ where $delta_i$ represents the fractional reserve reduction from each predisposi
 The multiplicative model predicts compound conditions produce MORE than additive reserve reduction. Example: a patient with ASD ($delta = 0.12$) + hEDS ($delta = 0.08$) + iron deficiency ($delta = 0.10$) would have $J_"production,max" = J_"base" dot 0.88 dot 0.92 dot 0.90 = J_"base" dot 0.729$ — a 27% reduction before any infection.
 
 #limitation(title: [Delta Values Are Rough Estimates Requiring Calibration])[
-The specific $delta_i$ values are derived from population-level studies and represent rough estimates. Individual variation is likely enormous. Calibration requires the PBMC respirometry study (@sec:pbmc-respirometry-comparative). The multiplicative assumption (independence of reserve reducers) may not hold if conditions share downstream mechanisms.
+The specific $delta_i$ values are derived from population-level studies and represent rough estimates. Individual variation is likely enormous. Calibration requires the PBMC respirometry study ([NO SECTION]). The multiplicative assumption (independence of reserve reducers) may not hold if conditions share downstream mechanisms.
 ]
 
 ===== Vulnerability Score and Phase Transition
@@ -1982,14 +1982,14 @@ Post-exertional malaise (PEM) has not been systematically assessed in SSc cohort
 
 #open-question(title: [IFN-I Score plus CyB Expression as Two-Axis ME/CFS Subtype Stratifier])[
 
-Two orthogonal axes — immune activation (IFN-I stimulated gene panel score) and mitochondrial deficit (CyB / Complex III expression) — define a candidate 2×2 stratification of ME/CFS: high-IFN/low-CyB (autoimmune-metabolic), high-IFN/normal-CyB (immune-dominant), low-IFN/low-CyB (post-viral metabolic), low-IFN/normal-CyB (other/unexplained). The SSc-ME/CFS data from van Eeden 2023  and the IFN signature model @spec:ssc-ifn-fatigue-model together suggest these two axes are biologically independent and reflect distinct upstream drivers. No ME/CFS cohort study has simultaneously measured both IFN-I score and CyB expression in the same patients. A cluster analysis combining these axes could yield reproducible subtypes with distinct mechanistic targets — IFN-high patients as candidates for immune-modulating strategies, CyB-low patients as candidates for mitochondrial-support approaches — though neither has been tested in subgroup-stratified trials.
+Two orthogonal axes — immune activation (IFN-I stimulated gene panel score) and mitochondrial deficit (CyB / Complex III expression) — define a candidate 2×2 stratification of ME/CFS: high-IFN/low-CyB (autoimmune-metabolic), high-IFN/normal-CyB (immune-dominant), low-IFN/low-CyB (post-viral metabolic), low-IFN/normal-CyB (other/unexplained). The SSc-ME/CFS data from van Eeden 2023  and the IFN signature model [NO SPECULATION] together suggest these two axes are biologically independent and reflect distinct upstream drivers. No ME/CFS cohort study has simultaneously measured both IFN-I score and CyB expression in the same patients. A cluster analysis combining these axes could yield reproducible subtypes with distinct mechanistic targets — IFN-high patients as candidates for immune-modulating strategies, CyB-low patients as candidates for mitochondrial-support approaches — though neither has been tested in subgroup-stratified trials.
 ] <oq:ifn-cyb-two-axis-stratifier>
 
 #speculation(title: [Vitiligo as a Non-Fibrotic Control for the ME/CFS TRM-IL-15 Hypothesis])[
 
 *Certainty: 0.25.* Based on shared CD8+ TRM + IFN-γ + IL-15 biology in vitiligo and theoretical ME/CFS TRM model; no direct vitiligo-ME/CFS comparison data exists. Not yet replicated.
 
-Vitiligo shares with LS the CD8+ TRM dominance and IL-15 trans-presentation mechanism but does NOT produce fibrosis — melanocytes are destroyed (not replaced by collagen). If ME/CFS involves TRM-driven pathology at multiple sites (Section @spec:trm-mecfs), the vitiligo comparator tests a specific component: the TRM/IL-15 axis. ME/CFS patients with vitiligo (TRM-positive, fibrosis-negative) compared to those with LS (TRM-positive, fibrosis-positive) could distinguish whether ME/CFS chronicity/irreversibility correlates with fibrotic terrain, separating the TRM hypothesis from the fibrotic terrain hypothesis. Vitiligo prevalence is elevated in the same autoimmune comorbidity cluster as LS and ME/CFS .
+Vitiligo shares with LS the CD8+ TRM dominance and IL-15 trans-presentation mechanism but does NOT produce fibrosis — melanocytes are destroyed (not replaced by collagen). If ME/CFS involves TRM-driven pathology at multiple sites (Section [NO SPECULATION]), the vitiligo comparator tests a specific component: the TRM/IL-15 axis. ME/CFS patients with vitiligo (TRM-positive, fibrosis-negative) compared to those with LS (TRM-positive, fibrosis-positive) could distinguish whether ME/CFS chronicity/irreversibility correlates with fibrotic terrain, separating the TRM hypothesis from the fibrotic terrain hypothesis. Vitiligo prevalence is elevated in the same autoimmune comorbidity cluster as LS and ME/CFS .
 
 *Falsifiable prediction:* In a ME/CFS registry, vitiligo prevalence will be elevated above population baseline (expected ~1–2%) at a rate comparable to or greater than other autoimmune comorbidities. ME/CFS patients with vitiligo will show higher EV miR-155 and lower NK cytotoxicity than ME/CFS patients without any skin autoimmune comorbidity.
 
@@ -2012,5 +2012,5 @@ The study achieved moderate discrimination between conditions using PCA and PLS-
 
 *Limitations:* Cross-sectional design; no functional assays; vaccination status not analyzed; single-center; excluded common ME/CFS medications (LDN, antihistamines, beta-blockers); healthy controls significantly younger than patient groups (age-adjusted ANCOVA applied); not yet replicated in an independent cohort.
 
-*Implications:* These findings suggest that ME/CFS and long COVID, despite overlapping clinical features, involve divergent immune architectures with different therapeutic implications. Immune-restorative approaches may be more appropriate for ME/CFS, while immune-resolution strategies may be needed for long COVID (see also Section @sec:cross-disease and the immune suppression/activation divergence discussed in Chapter @ch:immune-dysfunction).
+*Implications:* These findings suggest that ME/CFS and long COVID, despite overlapping clinical features, involve divergent immune architectures with different therapeutic implications. Immune-restorative approaches may be more appropriate for ME/CFS, while immune-resolution strategies may be needed for long COVID (see also Section [NO SECTION] and the immune suppression/activation divergence discussed in Chapter [NO CHAPTER]).
 ] <ach:petrov-2026-monocyte-dc-divergence>

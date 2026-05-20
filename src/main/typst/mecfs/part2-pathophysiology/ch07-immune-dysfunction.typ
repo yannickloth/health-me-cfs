@@ -283,6 +283,8 @@ Monocytes and their tissue-resident derivatives (macrophages) bridge innate and 
 *Monocyte Subset Alterations*
 Human monocytes are classified into three functionally distinct subsets: classical (CD14#super[++]CD16#super[-]) monocytes perform phagocytic and antimicrobial functions; intermediate (CD14#super[++]CD16#super[+]) monocytes handle antigen presentation and cytokine production; and non-classical (CD14#super[+]CD16#super[++]) monocytes conduct patrolling and vascular surveillance. ME/CFS studies have found increased intermediate monocytes (associated with inflammation), altered cytokine production profiles, abnormal responses to stimulation, and changed expression of activation markers.
 
+The largest comparative immunophenotyping study to date (n=207; 103 ME/CFS, 63 long COVID, 41 healthy controls) provides a refined picture of monocyte dysfunction in ME/CFS @Petrov2026monocyteDC. Using 12-parameter flow cytometry, Petrov et al.\ demonstrated that ME/CFS monocytes exhibit reduced expression of the costimulatory molecule CD80 on M1-like (CD206#super[low]) monocytes, along with impaired C-C chemokine receptor type 7 (CCR7) expression — a receptor essential for lymph node homing and immune cell trafficking. This pattern, combined with reduced dendritic cell frequency and less coordinated immune activation, suggests a state of *immune suppression* in ME/CFS, in contrast to the persistent *immune activation with exhaustion* observed in the long COVID comparison group (M2-like monocyte polarization, elevated CD80, dendritic cell expansion). The study achieved moderate discrimination between ME/CFS and long COVID using composite immune markers (VIP scores: CD80 on monocytes, CCR7 on dendritic cells, M2-like polarization), with post-hoc power ≥ 0.80 for all evaluated parameters. Certainty: 0.70.
+
 *Macrophage Polarization*
 <obs:macrophage-polarization>
 Tissue macrophages can adopt pro-inflammatory (M1) or anti-inflammatory (M2) phenotypes. Evidence suggests M1 polarization in ME/CFS, with impaired transition to the resolving M2 phenotype, resulting in chronic inflammatory macrophage activation @heng2025mecfs.
@@ -336,6 +338,8 @@ The Brag{\'e}e et al.\ CSF finding of complement cascade enrichment in severe ME
 <sec:dendritic-cells>
 
 Dendritic cells (DCs) are professional antigen-presenting cells that initiate adaptive immune responses. ME/CFS patients show altered DC maturation with abnormal expression of co-stimulatory molecules . Changed cytokine production skews toward pro-inflammatory profiles, while impaired antigen presentation may contribute to inadequate pathogen clearance. Plasmacytoid DCs display abnormalities in type I interferon production .
+
+Petrov et al.\ found that ME/CFS patients show reduced dendritic cell frequency and impaired CCR7 expression on dendritic cells compared to healthy controls, in contrast to long COVID patients who showed dendritic cell expansion with reduced HLA-DR expression (consistent with immune exhaustion) @Petrov2026monocyteDC. This divergence — DC contraction in ME/CFS, DC expansion with exhaustion in long COVID — supports distinct pathophysiological mechanisms: immune suppression with impaired trafficking in ME/CFS versus persistent activation with failed resolution in long COVID. Certainty: 0.70.
 
 == Adaptive Immunity
 <sec:adaptive-immunity>

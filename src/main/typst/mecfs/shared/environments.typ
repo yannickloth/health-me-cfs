@@ -149,6 +149,7 @@
 #let _cnt-limitation    = counter("limitation")
 #let _cnt-modelinsight  = counter("model_insight")
 #let _cnt-observation   = counter("observation")
+#let _cnt-proposal      = counter("proposal")
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets(body) = {
@@ -213,6 +214,7 @@
     _cnt-limitation.update(0)
     _cnt-modelinsight.update(0)
     _cnt-observation.update(0)
+    _cnt-proposal.update(0)
     it
   }
   body
@@ -395,6 +397,29 @@
     fig-kind: "assumption",
     fig-supplement: [Assumption],
     "[ ]", "Assumption", body, title: title, style: "left-right-bar")
+}
+
+// --- Proposal (⊢, solid, slate-blue) -----------------------------------------
+#let proposal(title: none, body) = {
+  let n = _num(_cnt-proposal)
+  _callout(color.proposal-frame, color.proposal-bg,
+    fig-kind: "proposal",
+    fig-supplement: [Proposal],
+    "⊢", "Proposal", body, title: title, style: "solid", number: n)
+}
+#let proposal-unnumbered(title: none, body) = {
+  _callout(color.proposal-frame, color.proposal-bg,
+    fig-kind: "proposal",
+    fig-supplement: [Proposal],
+    "⊢", "Proposal", body, title: title, style: "solid")
+}
+
+// --- Note (i, solid, slate) --------------------------------------------------
+#let note-env(title: none, body) = {
+  _callout(color.note-frame, color.note-bg,
+    fig-kind: "note",
+    fig-supplement: [Note],
+    "i", "Note", body, title: title, style: "solid")
 }
 
 // --- Consistency Check (≡, solid, teal) --------------------------------------

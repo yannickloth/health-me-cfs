@@ -56,6 +56,10 @@
   axiom-bg:          rgb("#FAF6FF"),
   assumption-frame:  rgb("#5D6D7E"),
   assumption-bg:     rgb("#F8F9FA"),
+  proposal-frame:    rgb("#4A6FA5"),
+  proposal-bg:       rgb("#EDF2FA"),
+  note-frame:        rgb("#78909C"),
+  note-bg:           rgb("#ECEFF1"),
   consistency-frame: rgb("#1E847F"),
   consistency-bg:    rgb("#F2F9F9"),
 
