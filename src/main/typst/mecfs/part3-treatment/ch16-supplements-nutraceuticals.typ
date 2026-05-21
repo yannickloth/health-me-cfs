@@ -2130,6 +2130,26 @@ Many ME/CFS patients accumulate large, expensive supplement regimens over time w
 *Treatment Implications.* Trial protocol: trans-resveratrol 10mg daily + alpha-lipoic acid 100mg daily for 6 months. Monitor LOX activity, collagen crosslinking markers, skin biopsy findings, and joint stability measures. Consider copper status testing and consider adding copper bisglycinate if deficient.
 ]
 
+=== Iron Repletion for Neurodivergent Patients
+<subsec:iron-repletion-neurodivergent>
+
+Iron bisglycinate serves as cofactor for dihydropteridine reductase (DHPR), the enzyme that recycles BH4 (tetrahydrobiopterin), a critical cofactor for neurotransmitter synthesis. The Architecture C rationale identifies ferritin < 100 ng/mL as indication for iron repletion consideration.
+
+*Clinical application:* Iron bisglycinate dosing titrated to achieve ferritin > 100 ng/mL, with monitoring for iron overload.
+
+*ME/CFS context:* Some ME/CFS patients, particularly neurodivergent individuals, may have iron deficiency contributing to neurotransmitter synthesis impairment and fatigue. Iron status optimization should be considered in comprehensive metabolic support protocols.
+
+=== Sapropterin (BH4) Supplementation
+<subsec:sapropterin-bh4>
+
+The BH4 convergent bottleneck hypothesis identifies tetrahydrobiopterin depletion as a potential convergence point for multiple ME/CFS predisposing conditions. BH4 is essential cofactor for neurotransmitter synthesis (dopamine, serotonin, norepinephrine) and nitric oxide production.
+
+*Mechanistic basis:* BH4 deficiency impairs monoamine synthesis and endothelial function. Genetic variations in GCH1 or DHPR enzymes may reduce BH4 recycling efficiency. Direct BH4 supplementation (sapropterin) is expensive and requires prescription.
+
+*Cost-effective alternative:* A combination of cofactors supporting endogenous BH4 recycling (iron, vitamin C, riboflavin) may achieve partial benefit at much lower cost than pharmaceutical BH4.
+
+*Clinical consideration:* If GCH1 rs841 homozygous, discuss sapropterin with physician for potentially addressing underlying cofactor deficiency.
+
 == Conclusion
 
 Supplements can play a supportive role in ME/CFS management, but expectations should be realistic:

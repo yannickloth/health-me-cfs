@@ -213,6 +213,56 @@ See Section @sec:protocols in Chapter @ch:supplements for cost-stratified supp
 === When to Stop Trying
 <subsec:when-to-stop>
 
+=== Time-Dependent Reversibility Windows
+<subsec:reversibility-windows>
+
+*Certainty: 0.30.* The time-dependent reversibility model ($R(t) = R_0 e^(-lambda t)$) hypothesizes that intervention efficacy decays exponentially with disease duration. If validated, this would explain why early pediatric intervention preserves recovery potential that closes in chronic adult disease.
+
+*Mechanistic basis:* Each crash and month of illness depletes finite biological reserves (Recovery Capital). As illness duration increases, both the capacity for improvement (R_0) and the rate of reversibility loss ($lambda$) may change. Early intervention catches reserves at higher levels, while later intervention faces progressively depleted recovery potential.
+
+*Clinical implication:* Explains dramatic pediatric outcomes compared to adult outcomes. Suggests that ME/CFS may have critical windows where treatment can reverse pathology, but these windows close over time.
+
+*Testable predictions:*
+1. Treatment response magnitude will correlate negatively with disease duration (shorter duration = larger response).
+2. Biomarker evidence of reversible pathology (e.g., neuroinflammation on TSPO PET) will be more common in early disease.
+3. Pediatric patients treated within first 2 years will show better long-term outcomes than those treated later.
+
+=== Methylphenidate Pacing Protocol
+<subsec:methylphenidate-pacing>
+
+For ME/CFS patients with comorbid ADHD, methylphenidate requires special pacing considerations due to its stimulant properties and metabolic effects.
+
+*Energy category:* Methylphenidate is Category B–C (energy-demanding due to dopaminergic activation and hepatic metabolism). Not energy-neutral despite cognitive benefits.
+
+*Pacing modifications:*
+- Start at ultra-low doses (1–2.5 mg vs. standard 10–20 mg for ADHD)
+- Use medication only during planned activity windows, never as "energy bridge" to push through fatigue
+- Strict post-dose rest protocols (horizontal positioning, reduced sensory input)
+- Monitor daily for delayed crashes (dopamine surge may mask fatigue, leading to overexertion)
+
+*Risk considerations:*
+- Methylphenidate may worsen orthostatic symptoms (POTS) in susceptible patients
+- Stimulant properties may disrupt sleep architecture at therapeutic ADHD doses
+- Risk of treatment-induced manic/hypomanic episodes in bipolar predisposition
+
+*Alternative approaches:*
+- Non-stimulant ADHD medications (atomoxetine) have lower metabolic burden
+- Behavioral strategies modified for ME/CFS energy constraints
+- Consider whether ADHD symptoms are primary ME/CFS manifestations rather than separate comorbidity
+
+=== Iron Repletion for Neurodivergent Comorbidity
+<subsec:iron-repletion-neurodivergent>
+
+See Chapter @ch:supplements, Section @subsec:iron-repletion-neurodivergent for complete protocol on iron bisglycinate supplementation, dosing, and monitoring protocols. This subsection notes the specific application for patients with comorbid neurodivergent conditions.
+
+*Rationale:* Neurodivergent ME/CFS patients (ADHD, autism) may have iron deficiency contributing to both ME/CFS fatigue and neurodivergent symptoms. Iron status optimization addresses neurotransmitter synthesis deficits while supporting mitochondrial function.
+
+*Clinical approach:*
+- Screen for iron deficiency (ferritin < 100 ng/mL, transferrin saturation < 20%)
+- Consider iron bisglycinate (better tolerability than ferrous sulfate)
+- Monitor for iron overload with regular ferritin checks
+- Combine with BH4 cofactors (riboflavin, vitamin C) when indicated
+
 
 *Certainty: 0.30* (clinical reasoning based on crash dose-response data and paradoxical reactor observations; no RCTs on optimal trial limits)
 
