@@ -23,14 +23,14 @@ Recent immunophenotyping evidence demonstrates impaired CCR7-mediated immune cel
 
 === TRPM3-Calcium-CCR7 Axis
 
-#speculation(title: [TRPM3 Agonists to Restore Calcium-Dependent Immune Trafficking])[
-*Certainty: 0.40.* TRPM3 is a calcium-permeable ion channel documented to be dysfunctional in ME/CFS NK cells @Sasso2026trpm3. Calcium signalling is required for CCR7-mediated chemotaxis: calcium influx drives actin polymerisation, cytoskeletal rearrangement, and cell migration. If TRPM3 dysfunction extends to monocytes (untested), impaired calcium signalling could underlie the CCR7 trafficking defect observed by Petrov et al. @Petrov2026monocyteDC. TRPM3 agonists (pregnenolone sulfate, CIM0216) could restore calcium influx in monocytes, enabling CCR7 trafficking machinery.
+#speculation(title: [TRPM3 Agonists to Restore Calcium-Dependent Immune Trafficking (Untested in Monocytes)])[
+*Certainty: 0.35.* TRPM3 is a calcium-permeable ion channel documented to be dysfunctional in ME/CFS NK cells @Sasso2026trpm3. Calcium signalling is required for CCR7-mediated chemotaxis: calcium influx drives actin polymerisation, cytoskeletal rearrangement, and cell migration. CRITICAL CAVEAT: TRPM3 dysfunction has been demonstrated ONLY in NK cells, not in monocytes. Whether TRPM3 is expressed and dysfunctional in ME/CFS monocytes is entirely untested. IF TRPM3 dysfunction extends to monocytes, impaired calcium signalling could underlie the CCR7 trafficking defect observed by Petrov et al. @Petrov2026monocyteDC. This hypothesis bridges two independent findings — TRPM3 channelopathy and monocyte trafficking failure — but the bridge is currently a speculation with no direct monocyte calcium data. TRPM3 agonists (pregnenolone sulfate, CIM0216) are research tools only; none have entered clinical trials for any indication.
 
-*Mechanistic rationale.* Two independent ME/CFS findings — TRPM3 channelopathy and monocyte trafficking failure — may converge on a single mechanism: defective calcium signalling impairing chemotaxis. Testing this connection would unify two otherwise separate lines of evidence and provide a tractable therapeutic target.
+*Mechanistic rationale.* Two independent ME/CFS findings — TRPM3 channelopathy in NK cells and monocyte trafficking failure — MAY converge on a single mechanism (defective calcium signalling impairing chemotaxis), but this remains a speculative bridge until TRPM3 expression and function are directly confirmed in ME/CFS monocytes. Testing this connection would unify two otherwise separate lines of evidence.
 
-*Safety.* TRPM3 agonists affect many tissues; selective agonists and patient selection (confirmed TRPM3 defect) would be essential. None have entered clinical trials for ME/CFS.
+*Safety.* TRPM3 agonists affect many tissues; selective agonists and patient selection (confirmed TRPM3 defect in monocytes) would be essential. None have entered clinical trials for ME/CFS.
 
-*Testable prediction.* ME/CFS monocytes will show reduced calcium flux in response to CCL19 stimulation compared to controls; TRPM3 agonist will partially restore chemotaxis in vitro; TRPM3 expression on NK cells will correlate with CCR7 expression on monocytes across patients.
+*Testable prediction.* ME/CFS monocytes will show reduced calcium flux in response to CCL19 stimulation compared to controls (this has not been tested); if confirmed, TRPM3 agonist will partially restore chemotaxis in vitro in monocytes expressing functional TRPM3; TRPM3 expression on NK cells will correlate with CCR7 expression on monocytes across patients only if the defect is systemic rather than NK-specific.
 ]
 
 == Costimulatory and Checkpoint Modulation
@@ -40,15 +40,26 @@ Petrov et al.\ demonstrated reduced CD80 expression on M1-like monocytes in ME/C
 #speculation(title: [CD80 Costimulatory Agonists to Restore T Cell Priming])[
 *Certainty: 0.30.* CD80 provides the essential second signal for T cell activation via CD28. Without adequate costimulation, T cells encountering antigen become anergic or tolerised rather than activated. CD28 superagonists (modified from the TGN1412 antibody family, with safety modifications following the 2006 cytokine storm event) could bypass deficient CD80 on monocytes and directly activate CD28 on T cells.
 
-*Safety.* Critical: TGN1412 caused life-threatening cytokine release syndrome in healthy volunteers in 2006. Modified versions (dose titration, partial agonism, Fc-silent antibodies) are under investigation but not approved. This approach would require extreme caution, confirmed CD80 deficiency, and intensive cytokine monitoring.
+*Safety.* CRITICAL: TGN1412 caused life-threatening cytokine release syndrome in 6 healthy volunteers in a 2006 Phase I trial — a seminal drug safety disaster. All 6 volunteers developed multi-organ failure within hours of infusion from a massive cytokine storm (IL-6, TNF-α, IFN-γ). Modified versions (dose titration starting 1--2 orders of magnitude below the expected pharmacologically active dose, partial agonism, Fc-silent antibodies) are under investigation but NONE are approved for clinical use. This approach would require:
+    + Confirmed CD80 deficiency on M1-like monocytes by flow cytometry before consideration
+    + Intensive inpatient cytokine monitoring (IL-6, TNF-α, IFN-γ every 2--4 hours for 24 hours post-dose)
+    + Prophylactic corticosteroid and anti-IL-6 receptor antibody availability
+    + Exclusion of patients with any history of autoimmunity, elevated baseline cytokines, or POTS with tachycardia episodes (autonomic instability may compound hemodynamic risk)
+Given the catastrophic precedent of TGN1412, this approach is among the highest-risk interventions discussed in this chapter and is currently suitable only as a research direction in in vitro models.
 
-*Testable prediction.* In ex vivo co-culture, low-dose CD28 superagonist will restore ME/CFS monocyte-driven T cell proliferation without triggering supraphysiological cytokine release above 2× baseline.
+*Testable prediction.* In ex vivo co-culture, low-dose CD28 superagonist will restore ME/CFS monocyte-driven T cell proliferation without triggering supraphysiological cytokine release above 2× baseline; dose-response curves will identify a therapeutic window below the cytokine storm threshold.
 ]
 
 #speculation(title: [PD-1/PD-L1 Checkpoint Inhibition in CD80-Low ME/CFS])[
 *Certainty: 0.30.* Existing evidence shows PD-1/PD-L1 exhaustion in ME/CFS T cells, and Iu et al.\ documented PD-L1 upregulation on ME/CFS monocytes @iu2024tcell_exhaustion. CD80 suppression may represent an adaptive tolerance mechanism co-occurring with checkpoint-mediated exhaustion — together creating a profound T cell activation deficit. PD-1/PD-L1 inhibitors (nivolumab, pembrolizumab) could reverse exhaustion, but carry autoimmune adverse event risk that may be elevated in ME/CFS given documented autoantibody prevalence.
 
-*Safety.* Checkpoint inhibitors cause immune-related adverse events (colitis, pneumonitis, endocrinopathies) in 15--40% of cancer patients. ME/CFS patients may have additional susceptibility due to pre-existing immune dysregulation. Low-dose protocols, patient selection (confirmed exhaustion markers), and close monitoring would be essential.
+*Safety.* Checkpoint inhibitors cause immune-related adverse events (irAEs) in 15--40% of cancer patients, including potentially fatal colitis (10--15%), pneumonitis (3--5%), endocrinopathies (hypophysitis 5--10%, thyroiditis 10--20%), hepatitis (5--10%), and myocarditis (1--2%). ME/CFS patients may have ADDITIONAL susceptibility due to pre-existing immune dysregulation, autoantibody prevalence, and documented autoimmune comorbidity clustering. This approach should be considered only in the context of a formal clinical trial with:
+    + Confirmed PD-1+ CD8+ T cell exhaustion by flow cytometry and PD-L1+ monocytes
+    + Exclusion of patients with pre-existing autoimmune antibodies (ANA, RF, anti-thyroid, anti-GPCR)
+    + Low-dose induction (e.g., nivolumab 20--40 mg flat dose vs standard 240 mg) with biomarker monitoring
+    + Weekly monitoring for colitis (diarrhoea, abdominal pain), pneumonitis (dyspnoea, cough), and endocrinopathy (fatigue, hypotension, electrolyte abnormalities)
+    + Pre-specified stopping criteria: any Grade ≥ 2 irAE or new autoantibody seroconversion
+Current risk profile in ME/CFS is entirely unknown; no patient with ME/CFS has received checkpoint inhibitor therapy in a published study.
 
 *Testable prediction.* Ex vivo PD-1 blockade will restore ME/CFS T cell proliferation to viral antigens only when combined with CD80 costimulation; checkpoint blockade alone will produce incomplete restoration, suggesting combined CD80 + PD-1 targeting is required.
 ]
@@ -56,7 +67,7 @@ Petrov et al.\ demonstrated reduced CD80 expression on M1-like monocytes in ME/C
 == Nutritional Approaches to Monocyte Polarisation
 
 #speculation(title: [Vitamin D for CCR7 Upregulation in ME/CFS])[
-*Certainty: 0.50.* Vitamin D receptor (VDR) signalling upregulates CCR7 transcription in dendritic cells. Vitamin D deficiency is prevalent in ME/CFS, and impaired CCR7 on monocytes and dendritic cells is documented @Petrov2026monocyteDC. Vitamin D3 (cholecalciferol 2,000--5,000 IU/day) or calcitriol could increase CCR7 expression, improving immune trafficking.
+*Certainty: 0.40.* Vitamin D receptor (VDR) signalling upregulates CCR7 transcription in dendritic cells. Vitamin D deficiency is prevalent in ME/CFS, and impaired CCR7 on monocytes and dendritic cells is documented @Petrov2026monocyteDC. Vitamin D3 (cholecalciferol 2,000--5,000 IU/day) or calcitriol could increase CCR7 expression, improving immune trafficking.
 
 *Safety.* Generally well-tolerated; monitor serum calcium and 25(OH)D to avoid hypercalcemia. Target 25(OH)D 50--80 ng/mL.
 
@@ -64,7 +75,7 @@ Petrov et al.\ demonstrated reduced CD80 expression on M1-like monocytes in ME/C
 ]
 
 #speculation(title: [Quercetin for CD80 Restoration via PI3K Inhibition])[
-*Certainty: 0.45.* Quercetin inhibits PI3K/Akt signalling, which promotes M2 polarisation and suppresses CD80. By shifting monocyte polarisation toward M1, quercetin could increase CD80 expression, improving costimulatory capacity and T cell priming @Petrov2026monocyteDC.
+*Certainty: 0.35.* Quercetin inhibits PI3K/Akt signalling, which promotes M2 polarisation and suppresses CD80. By shifting monocyte polarisation toward M1, quercetin could increase CD80 expression, improving costimulatory capacity and T cell priming @Petrov2026monocyteDC. No ME/CFS monocyte polarisation data exist; mechanism is inferred from cancer and metabolic disease literature.
 
 *Safety.* Generally safe at 500--1,000 mg/day; widely available. Bioavailability varies by formulation. No ME/CFS polarisation data.
 

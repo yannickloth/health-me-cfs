@@ -296,7 +296,7 @@
     [CTI is a composite of research-grade assays not validated as clinical test; chemotaxis assay not standardized; no reference range established; single-center derivation without validation cohort],
 
     [CD80 Restoration via Quercetin PI3K Inhibition],
-    [S], [0.45],
+    [S], [0.35],
     [(a) Petrov et al. found reduced CD80 on M1-like monocytes in ME/CFS. (b) Quercetin inhibits PI3K/Akt signaling, which promotes M2 polarization and suppresses CD80. (c) By shifting monocyte polarization toward M1, quercetin could increase CD80 expression, improving costimulatory capacity and T cell priming. (d) Quercetin is generally safe (500-1000mg/day), widely available, with additional anti-inflammatory (NF-κB inhibition) and antiviral properties. (e) No ME/CFS trials of quercetin for monocyte polarization exist; indirect evidence from cancer and metabolic disease. (f) Certainty: 0.45 — plausible mechanism, safe agent, no direct ME/CFS polarization data.],
     [@Petrov2026monocyteDC],
     [Quercetin → PI3K/Akt inhibition → reduced M2 signaling → increased CD80 on monocytes → improved costimulation → enhanced T cell priming],
@@ -306,7 +306,7 @@
     [No direct ME/CFS polarization data; quercetin bioavailability varies by formulation; PI3K inhibition may affect multiple pathways beyond monocytes; long-term safety >6 months not established in ME/CFS],
 
     [Vitamin D for CCR7 Upregulation in ME/CFS],
-    [S], [0.50],
+    [S], [0.40],
     [(a) VDR signaling upregulates CCR7 transcription in dendritic cells. (b) Petrov et al. found impaired CCR7 on ME/CFS monocytes and DCs. (c) Vitamin D deficiency is prevalent in ME/CFS, and VDR polymorphisms may modulate immune function. (d) Vitamin D3 (cholecalciferol 2000-5000 IU/day) or calcitriol could increase CCR7 expression, restoring immune trafficking. (e) Safety: generally well-tolerated; monitor serum calcium and 25(OH)D to avoid hypercalcemia. (f) No ME/CFS trials measuring CCR7 response to vitamin D exist.],
     [@Petrov2026monocyteDC],
     [Vitamin D → VDR activation → CCR7 gene transcription ↑ → increased CCR7 surface expression → improved monocyte/DC trafficking to lymph nodes → enhanced immune coordination],
