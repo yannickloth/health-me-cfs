@@ -243,7 +243,7 @@ Sleep hygiene improves sleep conditions but rarely resolves ME/CFS sleep dysfunc
 
 Pharmacological sleep management in ME/CFS often requires a trial-and-error approach, as individual responses vary substantially. Medications should be started at the lowest effective dose.
 
-#note-env(title: [Clinical Decision Algorithm: Sleep Medication Selection])[
+#protocol(title: [Clinical Decision Algorithm: Sleep Medication Selection])[
 When selecting sleep medications for ME/CFS patients, consider the following clinical algorithm:
 
 *OSA risk assessment*: If STOP-Bang questionnaire score ≥3 or caregiver witnesses apneas, avoid gabapentin and consider trazodone or melatonin first-line.
@@ -264,7 +264,7 @@ When selecting sleep medications for ME/CFS patients, consider the following cli
 #warning-env(title: [Gabapentin Sleep Breathing Warning])[
 Gabapentin may worsen obstructive sleep apnea (OSA). In a randomized crossover study, a single 300 mg dose increased the apnea-hypopnea index from 12.2 to 22.4 events/hour in older men without baseline OSA @Piovezan2017gabapentinOSA. Number needed to harm: 4 for developing moderate OSA (AHI ≥20). The effect occurs during non-REM sleep, especially in supine position, through GABAergic-mediated skeletal muscle relaxation increasing upper airway collapsibility. Screen for OSA before prescribing gabapentin for sleep using STOP-Bang questionnaire (score ≥3 indicates elevated risk). Screening should particularly focus on patients with dysautonomia (50-70% of ME/CFS patients), caregiver-reported snoring, or excessive daytime sleepiness distinct from ME/CFS fatigue (note: ME/CFS fatigue is energy depletion; OSA sleepiness is drowsiness with relief from rest—clinicians should distinguish these phenotypes when screening). Consider alternative sleep aids in patients with diagnosed OSA or AHI ≥15.
 
-#note-env(title: [Gabapentin Breathing Monitoring])[
+#protocol(title: [Gabapentin Breathing Monitoring])[
 Monitoring parameters during gabapentin use for sleep:
 
 *Pre-treatment*: STOP-Bang questionnaire, caregiver inquiry about snoring/apneas. For isolated patients without caregivers, note that some STOP-Bang items (snoring, witnessed apneas) cannot be self-assessed; smartphone apps for snoring recording may provide interim data. High-risk patients without caregivers may require empirical avoidance of gabapentin pending sleep study.
@@ -326,7 +326,7 @@ Sleep restriction therapy, a component of Cognitive Behavioral Therapy for Insom
 
 *Step 4: Maintain* - Once stable at target sleep efficiency (80-85%), maintain time in bed for 2-4 weeks before considering further reduction.
 
-#note-env(title: [ME/CFS-Specific Adaptation])[
+#protocol(title: [ME/CFS-Specific Adaptation])[
 Standard sleep restriction therapy reduces time in bed below baseline actual sleep time to increase sleep pressure. For ME/CFS patients, this approach may trigger PEM by exceeding energy limits. The adapted protocol maintains time in bed 30-45 minutes above actual sleep time, avoiding energy debt accumulation while still strengthening sleep pressure through consistency. Target sleep efficiency (80-85%) is lower than standard CBT-I targets (85-90%) to account for ME/CFS sleep fragmentation and alpha-delta sleep baseline.
 
 *Severity considerations*: This protocol is appropriate for ambulatory ME/CFS patients with mild-to-moderate severity. For severe/bedbound patients, sleep efficiency monitoring may not be feasible; focus on symptom-based adjustment (increase time in bed if PEM triggered). For very severe patients, sleep protocols may not be implementable; focus on comfort care and symptom minimization rather than sleep pressure enhancement.
@@ -334,7 +334,7 @@ Standard sleep restriction therapy reduces time in bed below baseline actual sle
 
 ==== Nap Management
 
-Napping in ME/CFS is complex: rest is essential for energy management, but naps may disrupt night-time sleep architecture. The nap paradox in ME/CFS—napping predicts worse cognitive outcomes rather than restoration—occurs because alpha-delta intrusion operates during daytime naps as well as overnight sleep, preventing even brief naps from entering restorative sleep stages (see Section @sec:nap-paradox in Chapter @ch:symptom-producing-mechanisms).
+Napping in ME/CFS is complex: rest is essential for energy management, but naps may disrupt night-time sleep architecture. The nap paradox in ME/CFS—napping predicts worse cognitive outcomes rather than restoration—occurs because alpha-delta intrusion operates during daytime naps as well as overnight sleep, preventing even brief naps from entering restorative sleep stages (see Section @sec:nap-paradox in Chapter @ch:symptom-mechanisms).
 
 *Nap discipline principles*:
 
@@ -358,7 +358,7 @@ Alpha-delta sleep in ME/CFS correlates with anxiety levels rather than immunolog
 
 *Thought recording*: Keep a "worry journal" outside the bedroom—write down racing thoughts, tomorrow's tasks, or concerns to prevent mental rehearsal during sleep onset. For patients with severe cognitive PEM, simplify to brief mental noting if writing is too demanding.
 
-#note-env(title: [Exercise and SWS: PEM Risk vs Benefit])[
+#protocol(title: [Exercise and SWS: PEM Risk vs Benefit])[
 Exercise increases slow-wave sleep in healthy populations, with one hour of vigorous exercise enhancing SWS activity @Kredlow2015exerciseSleep. However, ME/CFS patients have post-exertional malaise—exertion beyond the energy envelope causes symptom exacerbation lasting days to weeks. For ME/CFS patients, exercise-induced SWS benefits must be balanced against PEM risk. If tolerated, low-intensity recumbent exercise (recumbent cycling, gentle stretching) performed at least 4 hours before bedtime may improve sleep architecture without triggering PEM. Patients should not pursue exercise for sleep benefits if it worsens baseline function or increases PEM frequency.
 ]
 
