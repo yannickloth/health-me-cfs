@@ -1514,7 +1514,7 @@ Category A–B (provider). Short-chain fatty acid that serves as primary energy 
 #proposal(title: [S1: Microencapsulated Resistant Starch (0.65)])[
 *Section label:* `sec:microencapsulated-rs`
 
-**Rationale and Mechanism:**
+*Rationale and Mechanism:*
 
 Microencapsulated resistant starch (RS2/RS3) offers targeted release profiles for optimal butyrate production throughout the colon. Conventional RS dosing delivers rapidly fermenting substrate to the proximal colon, where butyrate is quickly consumed by bacteria, limiting distal colonic exposure. Microencapsulation technologies can modulate fermentation rate and site of release:
 
@@ -1529,7 +1529,7 @@ Microencapsulated resistant starch (RS2/RS3) offers targeted release profiles fo
 - Targets butyrate production where colonocytes have higher energy demands
 - Complements RS2 encapsulation for full-colon butyrate coverage
 
-**Evidence and Rationale:**
+*Evidence and Rationale:*
 
 ME/CFS patients show significant butyrate-producing bacterial capacity reduction correlated with fatigue severity @ButyrateDeficiency2023. However, conventional RS supplementation may not achieve optimal distribution:
 
@@ -1545,7 +1545,7 @@ ME/CFS patients show significant butyrate-producing bacterial capacity reduction
 
 *Dose considerations:* Starting with 0.5–1 g encapsulated RS (divided into 2–3 doses), gradually titrating to 3–5 g daily. Formulations with established microencapsulation (food-grade, pharmaceutical-grade) preferred over experimental encapsulation technologies.
 
-**Cautions and Safety:**
+*Cautions and Safety:*
 
 *SIBO contraindication:* Prebiotic RS is contraindicated in active SIBO. Test with lactulose/mannitol breath test before starting RS2 microencapsulation. Consider RS3-only or low-dose approach if SIBO borderline.
 
@@ -1553,7 +1553,7 @@ ME/CFS patients show significant butyrate-producing bacterial capacity reduction
 
 *Mechanism-specific:* RS2/RS3 targeting vs. direct butyrate: RS provides fermentable substrate for endogenous butyrate production, which may be preferable to exogenous butyrate supplementation in patients with residual butyrate-producer capacity. Direct butyrate bypasses the need for bacterial fermentation but may lack the nuanced metabolic signaling of microbial-mediated SCFA production.
 
-**Implementation:**
+*Implementation:*
 
 1. Baseline microbiome assessment (optional but informative): fecal SCFA profiling, butyrate-producer quantification
 2. SIBO test if not previously conducted
@@ -1562,14 +1562,14 @@ ME/CFS patients show significant butyrate-producing bacterial capacity reduction
 5. After 4–6 weeks, consider adding RS3 microencapsulation if tolerating RS2 well
 6. Continue 3–6 months before reassessing response
 
-**Clinical uncertainty:** Microencapsulation technology is not well-established for RS in ME/CFS context. Available products may not meet pharmaceutical-grade standards. Dosing, release kinetics, and optimal formulation remain to be optimized through clinical experience.
+*Clinical uncertainty:* Microencapsulation technology is not well-established for RS in ME/CFS context. Available products may not meet pharmaceutical-grade standards. Dosing, release kinetics, and optimal formulation remain to be optimized through clinical experience.
 
 ] <prop:microencapsulated-rs>
 
 #proposal(title: [S2: Tributyrin-Biome Combination (0.60)])[
 *Section label:* `sec:tributyrin-biome-combo`
 
-**Rationale and Mechanism:**
+*Rationale and Mechanism:*
 
 Combining tributyrin (direct butyrate delivery) with butyrate-producing probiotic strains offers synergistic barrier protection through complementary mechanisms:
 
@@ -1585,29 +1585,29 @@ Combining tributyrin (direct butyrate delivery) with butyrate-producing probioti
 - May restore colonization resistance against pathobionts
 - Support gut barrier function through microbiome modulation
 
-**Synergistic Mechanisms:**
+*Synergistic Mechanisms:*
 
-1. **Complementary butyrate delivery:**
+1. *Complementary butyrate delivery:*
    - Tributyrin provides immediate, distal colonocyte butyrate
    - Probiotic strains maintain butyrate production throughout the colon
    - Reduces dependence on any single delivery mechanism
 
-2. **Barrier enhancement:**
+2. *Barrier enhancement:*
    - Tributyrate butyrate directly fuels colonocyte mitochondria
    - Probiotic-produced butyrate supports microbiome-host signaling
    - Combined effect on tight junction proteins (occludin, claudin-1)
 
-3. **Microbiome restoration:**
+3. *Microbiome restoration:*
    - F. prausnitzii and E. rectale are depleted in ME/CFS @ButyrateDeficiency2023
    - Restoring these species may reverse dysbiosis and improve overall microbiome health
    - May reduce pathobiont overgrowth and inflammation
 
-4. **Enterochromaffin-vagal pathway:**
+4. *Enterochromaffin-vagal pathway:*
    - Butyrate enhances EC-cell serotonin production
    - Vagally mediated serotonin release activates parasympathetic outflow
    - Combined butyrate delivery + microbiome restoration maximizes EC-cell signaling
 
-**Evidence and Rationale:**
+*Evidence and Rationale:*
 
 Direct ME/CFS evidence is limited, but supporting data exists:
 
@@ -1619,7 +1619,7 @@ Direct ME/CFS evidence is limited, but supporting data exists:
 
 *ME/CFS gut-brain axis:* The enterochromaffin-vagal pathway is central to gut-brain signaling in ME/CFS. Maximizing butyrate-mediated EC-cell signaling may improve vagal tone and reduce inflammatory load.
 
-**Dosing Strategy:**
+*Dosing Strategy:*
 
 *Tributyrin:*
 - Starting dose: 1 g BID (2 g daily total) with meals
@@ -1638,9 +1638,9 @@ Direct ME/CFS evidence is limited, but supporting data exists:
 - Week 5–6: Titrate tributyrin to 2 g BID if tolerating combination
 - Continue minimum 12 weeks before assessing response
 
-**Evidence tier:** Direct ME/CFS evidence is preliminary. Mechanistic rationale is strong based on butyrate-deficiency studies, tributyrin tolerability data, and probiotic-butyrate synergy in other conditions. Individual components have more evidence than the combination.
+*Evidence tier:* Direct ME/CFS evidence is preliminary. Mechanistic rationale is strong based on butyrate-deficiency studies, tributyrin tolerability data, and probiotic-butyrate synergy in other conditions. Individual components have more evidence than the combination.
 
-**Cautions and Contraindications:**
+*Cautions and Contraindications:*
 
 *SIBO contraindication:* Both components are contraindicated in active SIBO. Test before starting.
 
@@ -1650,7 +1650,7 @@ Direct ME/CFS evidence is limited, but supporting data exists:
 
 *Independence check:* Tributyrin alone provides direct butyrate to colonocytes. Probiotic supplementation addresses microbiome restoration. The combination may be redundant if the patient already has robust butyrate-producer colonization. Individual response variability is high.
 
-**Clinical implementation challenges:**
+*Clinical implementation challenges:*
 
 - High-quality F. prausnitzii probiotic formulations are expensive and not widely available
 - Probiotic strains with documented butyrate production vary by manufacturer
@@ -1658,7 +1658,7 @@ Direct ME/CFS evidence is limited, but supporting data exists:
 - Long-term colonization success with probiotics is uncertain
 - Need for microbiome testing to assess baseline butyrate-producer status
 
-**Patient selection:**
+*Patient selection:*
 
 This combination is most appropriate for:
 - ME/CFS patients with documented butyrate deficiency and low butyrate-producer abundance
@@ -1666,16 +1666,16 @@ This combination is most appropriate for:
 - Patients interested in synergistic approaches rather than single-agent supplementation
 - Patients without SIBO or significant histamine sensitivity
 
-**Expected timeline:** Minimum 12 weeks for microbiome adaptation. Probiotic colonization and butyrate-production optimization may require 3–6 months. Individual response timing varies.
+*Expected timeline:* Minimum 12 weeks for microbiome adaptation. Probiotic colonization and butyrate-production optimization may require 3–6 months. Individual response timing varies.
 
  ] <prop:tributyrin-biome-combo>
 
 #proposal(title: [S3: Butyrate-Zinc Carnosine Synergy (0.55)])[
 *Section label:* `sec:butyrate-zinc-carnosine`
 
-**Rationale and Mechanism:**
+*Rationale and Mechanism:*
 
-Zinc carnosine (L-carnosine zinc complex) may enhance butyrate's barrier-protective effects by addressing oxidative stress and mucosal integrity. Zinc carnosine has demonstrated antioxidant, mucosal healing, and anti-inflammatory properties in gastric and intestinal contexts @Hongo2021zinc-carnosine. When combined with butyrate, it may provide complementary protection during gut barrier repair:
+Zinc carnosine (L-carnosine zinc complex) may enhance butyrate's barrier-protective effects by addressing oxidative stress and mucosal integrity. Zinc carnosine has demonstrated antioxidant, mucosal healing, and anti-inflammatory properties in gastric and intestinal contexts (Hongo 2021). When combined with butyrate, it may provide complementary protection during gut barrier repair:
 
 *Zinc carnosine mechanisms:*
 
@@ -1691,16 +1691,16 @@ Zinc carnosine (L-carnosine zinc complex) may enhance butyrate's barrier-protect
     - Combined effect: sustained barrier integrity during butyrate-mediated repair
     - Zinc carnosine stabilises mucosal integrity, reducing leakage during butyrate titration
 
-**Evidence and Rationale:**
+*Evidence and Rationale:*
 
 Direct ME/CFS evidence for this combination is lacking. Supporting data comes from:
 
-    - Gastric ulcer models: zinc carnosine increases mucus thickness and promotes ulcer healing @Hongo2021zinc-carnosine
+    - Gastric ulcer models: zinc carnosine increases mucus thickness and promotes ulcer healing (Hongo 2021)
     - Inflammatory bowel disease research: zinc supplementation improves barrier function and reduces inflammation
     - Oxidative stress models: butyrate has antioxidant properties, but synergistic formulations are not established
     - General gut barrier physiology: zinc is essential for tight junction protein (occludin, claudin-1) synthesis and function
 
-**Dosing Strategy:**
+*Dosing Strategy:*
 
 *Zinc carnosine:*
 
@@ -1720,7 +1720,7 @@ Direct ME/CFS evidence for this combination is lacking. Supporting data comes fr
     - Week 5–8: Titrate zinc carnosine to 500 mg BID if tolerating
     - Continue minimum 12 weeks before assessing response
 
-**Safety and Contraindications:**
+*Safety and Contraindications:*
 
 *Zinc carnosine:*
 
@@ -1738,7 +1738,7 @@ Direct ME/CFS evidence for this combination is lacking. Supporting data comes fr
     - Bisphosphonates: Take zinc carnosine 2 hours after bisphosphonates
     - Thiazide diuretics: Zinc may increase risk of copper deficiency with long-term use
 
-**Patient selection:**
+*Patient selection:*
 
 Most appropriate for:
 
@@ -1747,7 +1747,7 @@ Most appropriate for:
     - Patients with history of gut barrier dysfunction (IBS, IBD, SIBO)
     - Patients without zinc allergy or excessive copper depletion risk
 
-**Clinical uncertainty:**
+*Clinical uncertainty:*
 
 Direct ME/CFS evidence is absent. Zinc carnosine mechanisms are established in gastric ulcer models; applicability to colonocyte barrier repair is inferred. The combination represents a mechanistically plausible strategy to stabilise mucosa during butyrate-mediated barrier repair.
 
@@ -1758,7 +1758,7 @@ Direct ME/CFS evidence is absent. Zinc carnosine mechanisms are established in g
 #proposal(title: [S4: Severe-Patient Butyrate Enema Protocol (0.45)])[
 *Section label:* `sec:severe-butyrate-enema`
 
-**Rationale and Mechanism:**
+*Rationale and Mechanism:*
 
 Rectal butyrate enema provides direct colonocyte delivery of butyrate for severe patients who cannot tolerate oral forms. Severe ME/CFS patients often have:
 
@@ -1773,14 +1773,14 @@ Enema administration delivers butyrate directly to the colon, bypassing gastric 
     - Patients who develop severe GI upset from oral butyrate titration
     - Patients with SIBO where upper GI delivery of butyrate could worsen fermentation
 
-**Mechanistic advantages:**
+*Mechanistic advantages:*
 
     - Direct colonocyte exposure without gut transit delays
     - Lower risk of systemic absorption-related side effects (bloating, gas)
     - Controlled dosing via enema volume and concentration
     - Potential for higher distal colonic concentration compared to oral forms
 
-**Dosing Strategy:**
+*Dosing Strategy:*
 
 *Starting protocol (Weeks 1–2):*
 
@@ -1801,7 +1801,7 @@ Enema administration delivers butyrate directly to the colon, bypassing gastric 
     - Or 200 mL enema once daily (1000 mg sodium butyrate daily)
     - Adjust based on tolerance and clinical response
 
-**Enema preparation and administration:**
+*Enema preparation and administration:*
 
 *Preparation:*
 
@@ -1820,7 +1820,7 @@ Enema administration delivers butyrate directly to the colon, bypassing gastric 
     - Hold for 10–15 minutes before toileting (maximise absorption)
     - Practice proper hygiene to prevent infection
 
-**Safety and monitoring:**
+*Safety and monitoring:*
 
 *Contraindications:*
 
@@ -1842,13 +1842,13 @@ Enema administration delivers butyrate directly to the colon, bypassing gastric 
     - Systemic symptoms (fatigue, PEM) to assess clinical response
     - Electrolyte panel if long-term (>8 weeks) use is considered
 
-**Expected timeline:**
+*Expected timeline:*
 
     - 2–4 weeks for titration and tolerance assessment
     - 8–12 weeks for clinical response evaluation
     - Response may be more rapid than oral titration due to direct delivery
 
-**Clinical uncertainty:**
+*Clinical uncertainty:*
 
 Direct ME/CFS evidence for enema protocols is limited. Enema administration requires specialised training and may be impractical for bedbound patients. Response expectations are based on analogy from ulcerative colitis butyrate enema protocols, which have established efficacy. The protocol must be adapted to individual patient capacity and comfort.
 
@@ -1859,7 +1859,7 @@ Direct ME/CFS evidence for enema protocols is limited. Enema administration requ
 #proposal(title: [S5: Butyrate-Tryptophan-Serotonin Combination (0.40)])[
 *Section label:* `sec:butyrate-tryptophan-serotonin`
 
-**Rationale and Mechanism:**
+*Rationale and Mechanism:*
 
 Combining butyrate with 5-HTP and P5P addresses both upstream substrate and downstream serotonin synthesis, providing mechanistic synergy for the enterochromaffin-vagal pathway. Butyrate enhances EC-cell serotonin production; 5-HTP provides the direct precursor; P5P (pyridoxal-5'-phosphate, the active form of B6) converts 5-HTP to serotonin. This three-pronged approach may produce greater vagal stimulation than butyrate alone.
 
@@ -1870,14 +1870,14 @@ Combining butyrate with 5-HTP and P5P addresses both upstream substrate and down
     - P5P → B6 coenzyme for 5-HTP decarboxylation → ensures adequate conversion capacity
     - Serotonin → activates vagal afferents → parasympathetic outflow → hepatic insulin sensitisation + anti-inflammatory tone
 
-**Synergistic advantages:**
+*Synergistic advantages:*
 
     - *Substrate loading:* Butyrate enhances EC-cell capacity; 5-HTP provides the substrate
     - *Conversion optimisation:* P5P ensures efficient serotonin synthesis
     - *Compensation:* If butyrate absorption is suboptimal, 5-HTP can still deliver substrate
     - *Redundancy:* Multiple pathways converge on serotonin synthesis, increasing resilience
 
-**Evidence and Rationale:**
+*Evidence and Rationale:*
 
 Direct ME/CFS evidence is limited. Supporting data includes:
 
@@ -1888,7 +1888,7 @@ Direct ME/CFS evidence is limited. Supporting data includes:
 
 However, no trials have tested this specific combination in ME/CFS. The rationale is mechanistic and analogous to other gut-brain pathway combinations (e.g., butyrate + 5-HTP + P5P for serotonin support in IBS).
 
-**Dosing Strategy:**
+*Dosing Strategy:*
 
 *Butyrate:*
 
@@ -1916,7 +1916,7 @@ However, no trials have tested this specific combination in ME/CFS. The rational
     - Phase 3 (Weeks 9+): If inadequate response, titrate 5-HTP to 50 mg BID and/or P5P to 25 mg daily
     - Continue minimum 12 weeks before assessing response
 
-**Safety and monitoring:**
+*Safety and monitoring:*
 
 *Butyrate:*
 
@@ -1941,7 +1941,7 @@ However, no trials have tested this specific combination in ME/CFS. The rational
     - Levodopa: 5-HTP may compete for absorption
     - Blood thinners (warfarin): B6 may affect INR
 
-**Patient selection:**
+*Patient selection:*
 
 Most appropriate for:
 
@@ -1950,7 +1950,7 @@ Most appropriate for:
     - Patients who respond partially to butyrate alone but want enhanced vagal stimulation
     - Patients without contraindications to serotonin-modulating agents
 
-**Clinical uncertainty:**
+*Clinical uncertainty:*
 
 Direct ME/CFS evidence is absent. 5-HTP has known risks (serotonin syndrome, eosinophilia-myalgia syndrome). The combination may be redundant if butyrate absorption and EC-cell conversion are adequate. Individual response variability is expected.
 
@@ -1961,18 +1961,18 @@ Direct ME/CFS evidence is absent. 5-HTP has known risks (serotonin syndrome, eos
 #proposal(title: [S7: Severe Patient Low-Dose Butyrate Titration Protocol (0.50)])[
 *Section label:* `sec:severe-low-dose-titration`
 
-**Rationale and Mechanism:**
+*Rationale and Mechanism:*
 
 Severe ME/CFS patients often require much lower starting doses of butyrate than standard protocols due to reduced metabolic capacity and increased PEM vulnerability. This protocol adapts standard dosing to severe patients through aggressive micro-dosing and extended titration.
 
-**Why severe patients need lower doses:**
+*Why severe patients need lower doses:*
 
     - Reduced hepatic processing capacity → higher metabolic cost per dose
     - Increased gastrointestinal sensitivity → more frequent PEM from GI upset
     - Limited ability to recover from adverse reactions → smaller safety margin
     - Chronic fatigue reduces energy for digestion → slower absorption and utilization
 
-**Titration protocol (for severe patients):**
+*Titration protocol (for severe patients):*
 
 *Starting dose (Weeks 1–2):*
 
@@ -1999,7 +1999,7 @@ Severe ME/CFS patients often require much lower starting doses of butyrate than 
     - This may still be below standard dosing (typically 1.5–6 g daily)
     - Focus on finding the highest tolerated dose rather than standard dose
 
-**Monitoring parameters (severe patients):**
+*Monitoring parameters (severe patients):*
 
 *Daily monitoring (Weeks 1–8):*
 
@@ -2021,7 +2021,7 @@ Severe ME/CFS patients often require much lower starting doses of butyrate than 
     - Wait 3–5 days before attempting gradual re-titration
     - If repeated adverse reactions, consider alternate formulation (tributyrin may be better tolerated)
 
-**Formulation considerations for severe patients:**
+*Formulation considerations for severe patients:*
 
 *Tributyrin:*
 
@@ -2042,14 +2042,14 @@ Severe ME/CFS patients often require much lower starting doses of butyrate than 
     - Combined mineral content may be beneficial (if not contraindicated)
     - Slightly lower butyrate bioavailability
 
-**Expected timeline and response assessment:**
+*Expected timeline and response assessment:*
 
     - Minimum 8 weeks of titration before assessing clinical response
     - Response may be slower in severe patients due to reduced metabolic capacity
     - If no improvement after 12 weeks, consider discontinuation or trial of alternative approaches (SIBO treatment, prebiotics)
     - Some benefit may be observed during titration (reduced GI inflammation, improved sleep) even if fatigue does not improve
 
-**Safety considerations for severe patients:**
+*Safety considerations for severe patients:*
 
 *PEM risk:*
 
@@ -2070,7 +2070,7 @@ Severe ME/CFS patients often require much lower starting doses of butyrate than 
     - Avoid multiple daily doses if causing excessive digestive burden
     - Individualised timing based on patient's chronotype and energy patterns
 
-**Clinical uncertainty:**
+*Clinical uncertainty:*
 
 Direct ME/CFS evidence for micro-dosed butyrate protocols is limited. The protocol is adapted from standard dosing based on clinical experience and safety principles. No trials have validated this specific titration schedule for severe patients. Individual response variability is expected.
 

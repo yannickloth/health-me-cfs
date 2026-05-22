@@ -2023,10 +2023,12 @@ Three converging lines of evidence support time-sensitive intervention in newly 
     
 
     - *Orthostatic intolerance screening and treatment*:
-    
+
         - NASA Lean Test (Requirement @req:orthostatic-testing) within first week
         - If positive: Initiate aggressive OI treatment immediately (fluids, salt, compression, consider fludrocortisone/midodrine without waiting for behavioral measures to “fail”)
-        - Rationale: OI may be upstream driver (Keypoint @key:oi-lynchpin); early correction prevents cumulative orthostatic stress
+        #key-point(title: [Orthostatic Intolerance as Upstream Driver])[
+OI may be an upstream driver of ME/CFS pathophysiology, with early intervention potentially preventing cumulative multi-system stress.
+] <key:oi-lynchpin>
     
 
     - *Crash prevention education*:

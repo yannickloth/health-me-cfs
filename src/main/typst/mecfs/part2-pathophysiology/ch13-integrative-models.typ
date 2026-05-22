@@ -3,6 +3,24 @@
 = Integrative Models and Multi-System Pathophysiology
 <ch:integrative-models>
 
+== Evidence Level Classification
+<tab:evidence-levels>
+
+#table(
+  columns: (4fr, 3fr, 3fr, 2fr),
+  align: (center, left, left, left),
+  stroke: (x: 0.5pt, y: 0.5pt),
+  inset: 8pt,
+)[
+  *Evidence Level*, *Description*, *ME/CFS Status*, *Reliability*
+  === === === ===
+  #text(weight: "bold")[Established], Replicated across multiple independent cohorts with consistent methodology, Documented in ME/CFS (multiple studies, consistent findings), Highest confidence
+  #text(weight: "bold")[Probable], Replicated in at least two cohorts with some methodological differences, Strong suggestive evidence in ME/CFS but requires replication, Moderate-high confidence
+  #text(weight: "bold")[Preliminary], Single study or limited replication with consistent findings, Emerging evidence in ME/CFS, requires validation, Moderate confidence
+  #text(weight: "bold")[Theoretical], Based on mechanistic inference from related conditions, Hypothesized but not yet tested in ME/CFS, Low confidence
+  #text(weight: "bold")[Speculative], Limited mechanistic basis, no direct testing in ME/CFS, Highly uncertain, Lowest confidence
+]
+
 This chapter synthesizes multi-system pathophysiology documented in Chapters 6–12 into comprehensive models of ME/CFS. The core challenge in understanding ME/CFS is that individual system abnormalities—mitochondrial dysfunction, immune dysregulation, neurological impairment, cardiovascular deficits, endocrine disruption, gut dysbiosis—co-occur in patterns that suggest coordinated, self-reinforcing mechanisms rather than independent parallel pathology.
 
 == Multi-System Integration and Synthesis
@@ -204,3 +222,7 @@ The Sigma-1 fluvoxamine approach has additional theoretical benefits:
 1. Patients meeting multiple criteria (POTS + hEDS + MCAS) will share underlying genetic variants.
 2. Autonomic function tests will show correlated abnormalities across conditions.
 3. Targeted autonomic therapy will improve symptoms across all three conditions simultaneously.
+
+#open-question(title: [Genetic Subtypes in ME/CFS])[
+Do ME/CFS patients cluster into genetically coherent subgroups with distinct pathophysiological mechanisms? The DecodeME genome-wide association study has identified several genetic risk pathways including brain-expressed genes (glutamatergic synapse), autophagy/mitophagy genes, and immune-ambiguous loci. If patients with high neuronal-gene polygenic risk scores differ clinically from those with high autophagy-gene or immune-gene scores, this would enable biologically coherent subtyping that could transform clinical trial design from "one size fits all" to pharmacogenomic stratification. Key questions include: Do genetic subtypes predict differential treatment responses? Do they represent distinct disease mechanisms or stages? Can genetic subtyping enable personalized treatment selection? The clinical utility depends on effect size distribution and the risk gradient between high and low genetic risk groups.
+] <oq:genetic-subtypes>
