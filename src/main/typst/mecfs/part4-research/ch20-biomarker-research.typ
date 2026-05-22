@@ -728,7 +728,7 @@ HIF-1α (hypoxia-inducible factor 1-alpha) is a transcription factor that stabil
 
 Butyrate-HIF-1α relationship.
 
-- *Butyrate inhibits HDACs, including HDAC3 which normally promotes HIF-1α degradation* @Papandreou2013butyrate
+- *Butyrate inhibits HDACs, including HDAC3 which normally promotes HIF-1α degradation* (Papandreou 2013)
 - *Butyrate-deficient state → HDAC3 activity ↑ → HIF-1α degradation ↑ → impaired glycolytic adaptation and mitochondrial biogenesis*
 - *HIF-1α stabilization under butyrate deficiency may promote glycolytic shift, reducing oxidative metabolism capacity*
 

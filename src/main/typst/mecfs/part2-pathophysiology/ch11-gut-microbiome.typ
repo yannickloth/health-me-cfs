@@ -186,7 +186,7 @@ Simultaneously, butyrate is an HDAC inhibitor---its deficiency removes epigeneti
 ] <spec:muc2-vagal>
 
 #speculation(title: [Butyrate-Mediated Treg Failure Drives Autoimmune Subtype])[
-*Certainty: 0.45.* Butyrate promotes regulatory T cell differentiation via HDAC inhibition (Foxp3 expression). ME/CFS butyrate deficiency may impair Treg development, permitting autoimmune phenomena in ME/CFS subset (autoantibodies, Chapter @ch:autoimmune). Treg deficiency could underlie post-viral autoimmune persistence mechanisms, providing a mechanistic link between gut dysbiosis and immunological autoimmunity.
+*Certainty: 0.45.* Butyrate promotes regulatory T cell differentiation via HDAC inhibition (Foxp3 expression). ME/CFS butyrate deficiency may impair Treg development, permitting autoimmune phenomena in ME/CFS subset (autoantibodies, see Section @sec:gpcr-autoantibodies and Section @sec:2026-autoimmune-hypotheses). Treg deficiency could underlie post-viral autoimmune persistence mechanisms, providing a mechanistic link between gut dysbiosis and immunological autoimmunity.
 
 *Falsifiable predictions:*
 - ME/CFS patients with autoantibody phenotype should show reduced Treg frequency (CD4+CD25+Foxp3+) compared to autoantibody-negative patients
@@ -971,17 +971,17 @@ Critical unresolved questions:
 Answering these questions requires interventional studies with objective outcome measures beyond symptom questionnaires.
 ] <oq:gut-causality>
 
-#hypothesis(title: [Colonocyte Energy Crisis Propagates to Mitochondrial Dysfunction])[Butyrate provides approximately 70% of colonocyte energy through beta-oxidation. ME/CFS patients show deficient butyrate production (Achievement @ach:butyrate-deficiency) @Guo2023, which may trigger a systemic energy drain cascade: colonocytes draw glucose from systemic circulation → reduced glucose availability for brain and muscle → compensatory glycolysis → lactate accumulation → mitochondrial stress. This colonocyte-systemic energy competition provides a novel mechanistic pathway linking gut dysbiosis to ME/CFS energy dysregulation findings, including hypometabolic state @Naviaux2016 and acyl-carnitine reductions @Germain2020.
+#hypothesis(title: [Colonocyte Energy Crisis Propagates to Mitochondrial Dysfunction])[Butyrate provides approximately 70% of colonocyte energy through beta-oxidation. ME/CFS patients show deficient butyrate production (Achievement @ach:butyrate-deficiency) @Guo2023butyrate, which may trigger a systemic energy drain cascade: colonocytes draw glucose from systemic circulation → reduced glucose availability for brain and muscle → compensatory glycolysis → lactate accumulation → mitochondrial stress. This colonocyte-systemic energy competition provides a novel mechanistic pathway linking gut dysbiosis to ME/CFS energy dysregulation findings, including hypometabolic state @Naviaux2016metabolic and acyl-carnitine reductions @Germain2020metabolic.
 
 *Falsifiable Prediction:* Oral butyrate supplementation (tributyrin 1g TID) should increase peripheral blood glucose during fasting by reducing colonocyte glucose demand; concurrent RBC carnitine should normalize within 8 weeks as systemic energy stress resolves.
 ] <sec:butyrate-energy-crisis>
 
-#hypothesis(title: [Butyrate-GPR41/43 Vagal Signaling Deficit Explains Orthostatic Intolerance Subtype])[Butyrate directly activates vagal afferents via GPR41/43 receptors @Hodgkinson2023. ME/CFS patients with butyrate deficiency may experience reduced vagal afferent stimulation, which diminishes cholinergic anti-inflammatory pathway (CAP) activation specifically during postural stress. This deficit could explain the high prevalence of POTS comorbidity and orthostatic intolerance in ME/CFS @Hodgkinson2023.
+#hypothesis(title: [Butyrate-GPR41/43 Vagal Signaling Deficit Explains Orthostatic Intolerance Subtype])[Butyrate directly activates vagal afferents via GPR41/43 receptors @Hodgkinson2023butyrateMechanisms. ME/CFS patients with butyrate deficiency may experience reduced vagal afferent stimulation, which diminishes cholinergic anti-inflammatory pathway (CAP) activation specifically during postural stress. This deficit could explain the high prevalence of POTS comorbidity and orthostatic intolerance in ME/CFS @Hodgkinson2023butyrateMechanisms.
 
 *Falsifiable Prediction:* Peripheral blood mononuclear cells from ME/CFS patients should show reduced GPR41/43 expression; butyrate supplementation should increase GPR41/43 expression and improve orthostatic tolerance (head-up tilt test) within 6 weeks.
 ] <sec:butyrate-vagal-gpr>
 
-#hypothesis(title: [Butyrate-Tryptophan Competition Creates Cerebral Serotonin Paradox])[Butyrate-producing bacteria (e.g., _Faecalibacterium prausnitzii_) consume complex carbohydrates that would otherwise feed tryptophan-metabolizing bacteria. In ME/CFS, butyrate deficiency may shift the microbiome toward tryptophan-degrading bacteria, reducing tryptophan availability for both gut serotonin production (enterochromaffin cells) and brain serotonin synthesis. This competition mechanism explains the paradoxical peripheral serotonin depletion reported in ME/CFS patients @Simonato2021tryptophan despite central serotonergic hyperactivity observed in some models @Lee2024serotonin @Guo2023.
+#hypothesis(title: [Butyrate-Tryptophan Competition Creates Cerebral Serotonin Paradox])[Butyrate-producing bacteria (e.g., _Faecalibacterium prausnitzii_) consume complex carbohydrates that would otherwise feed tryptophan-metabolizing bacteria. In ME/CFS, butyrate deficiency may shift the microbiome toward tryptophan-degrading bacteria, reducing tryptophan availability for both gut serotonin production (enterochromaffin cells) and brain serotonin synthesis. This competition mechanism explains the paradoxical peripheral serotonin depletion reported in ME/CFS patients @Simonato2021tryptophan despite central serotonergic hyperactivity observed in some models @Lee2024serotonin @Guo2023butyrate.
 
 *Falsifiable Prediction:* ME/CFS patients should show increased fecal tryptophan-metabolizing bacteria (e.g., Enterobacteriaceae, Clostridia spp.) and reduced free tryptophan levels; butyrate supplementation should restore tryptophan availability and normalize CSF serotonin metabolites.
 ] <sec:butyrate-tryptophan-paradox>
@@ -1087,7 +1087,7 @@ This cycle is notable because it is *entirely modifiable* through external inter
 ] <spec:oral-dysbiosis-cycle>
 
 #speculation(title: [Chronobiologically-Timed Butyrate Supplementation])[
-Gut-barrier repair may be optimised when butyrate dosing aligns with circadian patterns of HDAC inhibition and vagal signalling. Preclinical evidence suggests that epigenetic regulators (HDACs) and vagal afferent responses exhibit circadian oscillations in expression and sensitivity @Smith2023circadian. If butyrate's barrier-protective effects are mediated through these circadian-regulated pathways, the timing of supplementation could significantly influence efficacy:
+Gut-barrier repair may be optimised when butyrate dosing aligns with circadian patterns of HDAC inhibition and vagal signalling. Preclinical evidence suggests that epigenetic regulators (HDACs) and vagal afferent responses exhibit circadian oscillations in expression and sensitivity (Smith 2023). If butyrate's barrier-protective effects are mediated through these circadian-regulated pathways, the timing of supplementation could significantly influence efficacy:
 
     / *Hypothesis:*: Administering butyrate during the biologically active phase of vagal tone and HDAC inhibition may enhance colonocyte energy utilisation, tight junction maintenance, and systemic anti-inflammatory signalling.
     / *Mechanistic pathway:*: Butyrate → GPR41/43 agonism → vagal efferent stimulation → hepatic insulin sensitisation + anti-inflammatory tone. Circadian modulation of GPR41/43 expression or coupling efficiency could amplify or diminish this pathway.
@@ -1105,10 +1105,10 @@ Gut-barrier repair may be optimised when butyrate dosing aligns with circadian p
 #speculation(title: [MUC2-Promoting Botanical Combination])[
 Combining botanical compounds that stimulate MUC2 production with butyrate may produce synergistic effects on gut barrier integrity. The MUC2 layer is the primary mucosal barrier protecting epithelial surfaces from luminal insult; butyrate promotes tight junction formation while MUC2 provides physical coating. Preliminary evidence suggests the following botanical agents may enhance MUC2 synthesis:
 
-    - *Zinc carnosine* (L-carnosine zinc complex): Antioxidant and mucosal healing properties; shown to increase mucus production in gastric ulcer models @Hongo2021zinc-carnosine.
-    - *Berberine*: AMPK activator; improves intestinal barrier function and reduces permeability in experimental colitis @Zhang2022berberine.
-    - *Aloe vera*: Mucopolysaccharide content; soothing effect on gastrointestinal mucosa @Mazar2020aloe.
-    - *Quercetin*: Tight junction stabiliser; inhibits ZO-1 degradation in intestinal epithelial cells @Gao2021quercetin.
+    - *Zinc carnosine* (L-carnosine zinc complex): Antioxidant and mucosal healing properties; shown to increase mucus production in gastric ulcer models (Hongo 2021).
+    - *Berberine*: AMPK activator; improves intestinal barrier function and reduces permeability in experimental colitis (Zhang 2022).
+    - *Aloe vera*: Mucopolysaccharide content; soothing effect on gastrointestinal mucosa (Mazar 2020).
+    - *Quercetin*: Tight junction stabiliser; inhibits ZO-1 degradation in intestinal epithelial cells (Gao 2021).
 
 *Proposed mechanism:*: Zinc carnosine enhances mucus layer thickness, berberine strengthens tight junctions, aloe vera provides a soothing mucosal surface, and quercetin protects junction proteins from proteolytic degradation. Butyrate, delivered separately or as part of a combined protocol, directly fuels colonocyte mitochondria and activates GPR41/43-mediated vagal signalling. Together, they may create a layered barrier (mucus + epithelial + tight junctions) that is more resilient than either intervention alone.
 
