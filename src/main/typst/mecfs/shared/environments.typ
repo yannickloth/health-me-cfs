@@ -75,7 +75,6 @@
       ],
       kind: fig-kind,
       supplement: fig-supplement,
-      numbering: "1",
       outlined: false,
       gap: 0pt,
       caption: html.elem("span", attrs: (style: "display:none"))[],
@@ -125,7 +124,7 @@
     ],
     kind: fig-kind,
     supplement: fig-supplement,
-    numbering: "1",
+    caption: none,
     outlined: false,
     gap: 0pt,
   )
@@ -249,7 +248,7 @@
 }
 #let achievement-unnumbered(title: none, body) = {
   _callout(color.achievement-frame, color.achievement-bg,
-    fig-kind: "achievement",
+    fig-kind: "achievement-unnumbered",
     fig-supplement: [Achievement],
     "★", "Achievement", body, title: title, style: "double")
 }
@@ -264,7 +263,7 @@
 }
 #let prediction-unnumbered(title: none, body) = {
   _callout(color.prediction-frame, color.prediction-bg,
-    fig-kind: "prediction",
+    fig-kind: "prediction-unnumbered",
     fig-supplement: [Prediction],
     "→", "Prediction", body, title: title, style: "dashed")
 }
@@ -288,7 +287,7 @@
 }
 #let warning-unnumbered(title: none, body) = {
   _callout(color.warning-frame, color.warning-bg,
-    fig-kind: "warning-env",
+    fig-kind: "warning-env-unnumbered",
     fig-supplement: [Warning],
     "△", "Warning", body, title: title, style: "left-bar")
 }
@@ -303,7 +302,7 @@
 }
 #let open-question-unnumbered(title: none, body) = {
   _callout(color.openq-frame, color.openq-bg,
-    fig-kind: "open-question",
+    fig-kind: "open-question-unnumbered",
     fig-supplement: [Open Question],
     "?", "Open Question", body, title: title, style: "dotted")
 }
@@ -327,7 +326,7 @@
 }
 #let hypothesis-unnumbered(title: none, body) = {
   _callout(color.hypothesis-frame, color.hypothesis-bg,
-    fig-kind: "hypothesis",
+    fig-kind: "hypothesis-unnumbered",
     fig-supplement: [Hypothesis],
     "~", "Hypothesis", body, title: title, style: "dash-dot")
 }
@@ -354,7 +353,7 @@
   }
   _callout(color.hypothesis-frame, color.hypothesis-bg,
     "~", "Hypothesis", [#body #v(4pt) #text(size: 9pt, footer)],
-    fig-kind: "hypothesis",
+    fig-kind: "fhypothesis",
     fig-supplement: [Hypothesis],
     title: title, style: "dash-dot")
 }
@@ -379,7 +378,7 @@
 }
 #let axiom-unnumbered(title: none, body) = {
   _callout(color.axiom-frame, color.axiom-bg,
-    fig-kind: "axiom",
+    fig-kind: "axiom-unnumbered",
     fig-supplement: [Axiom],
     "■", "Axiom", body, title: title, style: "double")
 }
@@ -394,7 +393,7 @@
 }
 #let assumption-unnumbered(title: none, body) = {
   _callout(color.assumption-frame, color.assumption-bg,
-    fig-kind: "assumption",
+    fig-kind: "assumption-unnumbered",
     fig-supplement: [Assumption],
     "[ ]", "Assumption", body, title: title, style: "left-right-bar")
 }
@@ -409,7 +408,7 @@
 }
 #let proposal-unnumbered(title: none, body) = {
   _callout(color.proposal-frame, color.proposal-bg,
-    fig-kind: "proposal",
+    fig-kind: "proposal-unnumbered",
     fig-supplement: [Proposal],
     "⊢", "Proposal", body, title: title, style: "solid")
 }
@@ -454,7 +453,7 @@
 }
 #let limitation-unnumbered(title: none, body) = {
   _callout(color.limitation-frame, color.limitation-bg,
-    fig-kind: "limitation",
+    fig-kind: "limitation-unnumbered",
     fig-supplement: [Limitation],
     "∄", "Limitation", body, title: title, style: "left-bar-dashed-bottom")
 }
@@ -469,7 +468,7 @@
 }
 #let observation-unnumbered(title: none, body) = {
   _callout(color.observation-frame, color.observation-bg,
-    fig-kind: "observation",
+    fig-kind: "observation-unnumbered",
     fig-supplement: [Observation],
     "○", "Observation", body, title: title, style: "left-bar")
 }
@@ -512,7 +511,7 @@
 }
 #let clinical-finding-unnumbered(title: none, body) = {
   _callout(color.clinfind-frame, color.clinfind-bg,
-    fig-kind: "clinical-finding",
+    fig-kind: "clinical-finding-unnumbered",
     fig-supplement: [Clinical Finding],
     "♦", "Clinical Finding", body, title: title, style: "solid")
 }
