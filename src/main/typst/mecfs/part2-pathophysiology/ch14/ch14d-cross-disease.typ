@@ -480,7 +480,7 @@ Long COVID post-viral fatigue shows butyrate deficiency patterns similar to ME/C
 *Cross-condition comparison:*
 - Fatigue patterns: ME/CFS PEM (2-day CPET deterioration) distinct from Long COVID (some patients report PEM but no CPET deterioration)
 - Butyrate deficiency: Documented in both, but severity may differ
-- Immune phenotype: ME/CFS more suppressed, Long COVID more activated (Eaton-Fitch 2024 @Eaton-Fitch2024)
+- Immune phenotype: ME/CFS more suppressed, Long COVID more activated (Eaton-Fitch 2024)
 - Viral persistence: SARS-CoV-2 RNA detectable in some Long COVID patients, not in ME/CFS
 
 *Mechanistic link:*
