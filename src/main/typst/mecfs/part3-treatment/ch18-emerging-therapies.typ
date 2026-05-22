@@ -129,6 +129,66 @@ Post-exertional malaise (PEM) represents a metabolic crisis in ME/CFS. The emerg
 
  *Certainty:* 0.40 (moderate mechanistic plausibility with limited clinical validation)
 
+=== Sodium-Calcium Cycle Correction for AIMM
+<sec:mdc002>
+
+#proposal(title: [Pharmacological Correction of Sodium-Calcium Overload in AIMM])[
+*Section label:* `sec:mdc002`
+
+*Rationale and Mechanism:*
+
+The acquired ischemic mitochondrial myopathy (AIMM) model identifies sodium-calcium overload as the core pathogenic mechanism in ME/CFS. This creates a self-reinforcing cycle: hypoperfusion → anaerobic metabolism → proton accumulation → NHE1 activation → sodium overload → NCX1 reversal → NCLX inhibition → mitochondrial calcium overload → mitochondrial damage → further ATP depletion → impaired Na+/K+-ATPase function → persistent sodium overload.
+
+*Intervention strategies:*
+
+1. *NHE1 inhibition:* Blocking the sodium-hydrogen exchanger to prevent sodium influx
+   - Amiloride and analogues (e.g., eniporide) directly target NHE1
+   - Clinical evidence: Amiloride reduced sodium accumulation in heart failure models
+   - ME/CFS rationale: Breaks the initial sodium influx step
+
+2. *NCX1 modulators:* Normalizing sodium-calcium exchange direction
+   - Low-dose ranolazine inhibits late sodium current, reducing reverse-mode NCX1 activity
+   - Clinical evidence: Ranolazine improves calcium handling in cardiac ischemia
+   - ME/CFS rationale: Prevents pathological calcium overload through reversed NCX1
+
+3. *NCLX enhancement:* Restoring mitochondrial calcium efflux
+   - NCLX activators (experimental compounds)
+   - Clinical evidence: Limited, but NCLX overexpression improves mitochondrial calcium handling
+   - ME/CFS rationale: Addresses the mitochondrial calcium trapping mechanism
+
+4. *Na+/K+-ATPase enhancement:* Improving sodium clearance capacity
+   - Cardiotonic steroids (e.g., ouabain) at sub-toxic doses (experimental)
+   - Magnesium supplementation (supports Na+/K+-ATPase function)
+   - ME/CFS rationale: Addresses the downstream consequence of impaired sodium clearance
+
+*Evidence and Rationale:*
+
+Direct ME/CFS evidence is preliminary. However, the model is built on:
+- Petter et al.'s #super[23]Na-MRI showing elevated intracellular sodium in ME/CFS muscle
+- Wirth et al.'s electron microscopy showing mitochondrial damage at calcium influx sites
+- Proteomic confirmation of Na+/K+-ATPase subunit downregulation
+- The mechanistic coherence of the sodium-calcium overload cycle
+
+*Safety and Clinical Considerations:*
+
+- NHE1 inhibitors: Monitor for hyperkalemia (risk with amiloride)
+- NCX1 modulators: Avoid in patients with long QT syndrome
+- NCLX enhancers: Experimental, no clinical safety data available
+- Na+/K+-ATPase modulation: Narrow therapeutic window, requires careful dosing
+
+*Expected outcomes:*
+
+- Reduced intracellular sodium levels (measured by #super[23]Na-MRI)
+- Improved mitochondrial calcium handling (indirect markers)
+- Potential reduction in exercise-induced symptoms
+- Requires 3-6 months for full mitochondrial recovery
+
+*Clinical uncertainty:*
+
+The intervention targets the proposed AIMM mechanism, but direct validation in ME/CFS is lacking. Sodium-calcium dysregulation may be one of multiple pathways. Treatment response may vary based on disease stage and individual sodium handling capacity.
+
+] <prop:mdc002>
+
  == Open Questions
 
 #open-question(title: [Does Immune-Targeted Therapy Require Endotype Stratification?])[
