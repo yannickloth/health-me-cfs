@@ -1,0 +1,103 @@
+date: 2026-05-22
+day: Thursday
+
+medications_taken:
+  - name: Low-Dose Naltrexone (LDN)
+    dose: 4mg
+    taken: true
+    time: morning
+    notes: New dose - increased from 3.5mg to 4mg today
+
+  - name: Pyridostigmine (Mestinon)
+    dose: 3×1 pill per day
+    taken: true
+    time: morning, midday, evening
+    notes: New dose - significantly reduced from 3×3 pills per day to 3×1 pill per day today
+    missed_doses:
+      - dose: noon
+        reason: not taken
+
+  - name: Ritalin MR (methylphenidate)
+    dose: MR 30mg
+    taken: true
+    time: morning
+    notes: Previous dose - changed to MR 10mg later in the day due to PEM induction
+
+  - name: Ritalin MR (methylphenidate)
+    dose: MR 10mg
+    taken: true
+    time: evening (immediately after decision)
+    notes: New dose - reduced from MR 30mg to MR 10mg today; testing lower dose to obtain benefits without PEM induction
+
+activity:
+  lawn_mowing:
+    - session: 1
+      duration: 20min
+      time: morning
+    - session: 2
+      duration: 20min
+      time: afternoon
+    total_duration: 40min
+    exertion_level: high (for ME/CFS baseline)
+
+symptoms:
+  energy: severe depletion (post-exertional)
+  muscle_pain:
+    severity: severe
+    description: "as if ran a marathon"
+    pattern: classic PEM (Post-Exertional Malaise)
+    onset: 2-3 hours after second lawn mowing session
+  cognitive_function: likely impaired (PEM-associated)
+  orthostatic_intolerance: likely present (PEM-associated trigger)
+  tinnitus:
+    severity: present
+    pattern: post-exertional symptom
+    onset: evening after lawn mowing
+    duration: whole evening
+  headache:
+    severity: mild
+    pattern: post-exertional symptom
+    onset: evening after lawn mowing
+    duration: whole evening
+  pem_active: true
+  pem_severity: 9/10 (severe)
+  pem_trigger: "lawn mowing activity: 2×20min sessions on 2026-05-22"
+  pem_day: 1
+
+notes: |
+  ACTIVITY: Lawn mowing completed in two 20-minute sessions (total 40min)
+
+  SYMPTOMS: Severe muscle pain manifesting as "if ran a marathon" - classic severe PEM pattern
+  from overexertion relative to ME/CFS energy envelope. This exceeds pacing limits.
+
+  MEDICATION CHANGES:
+  - LDN: Dose increased from 3.5mg to 4mg today
+  - Mestinon: Significant reduction from 3×3 pills/day to 3×1 pill/day today
+  - Ritalin MR: Dose reduced from MR 30mg to MR 10mg today (MR 30mg too strong, induced PEM; testing MR 10mg for benefits without PEM)
+  - Mestinon noon dose: missed (not taken)
+  - Evening medications: taken early (immediately) to avoid forgetting
+
+  PEM SEVERITY: 9/10 - severe crash expected. Recovery timeline: 5-7 days minimum,
+  potentially longer depending on cumulative fatigue factors.
+
+  PACING IMPACT: This activity level (2×20min lawn mowing) is beyond sustainable
+  pacing limits and requires significant recovery period.
+
+interpretation: |
+  Lawn mowing activity (total 40min in two sessions) triggered severe PEM with muscle
+  pain comparable to running a marathon. This is a classic overexertion pattern in
+  ME/CFS, indicating the activity far exceeded the energy envelope.
+
+  The medication changes today (LDN increase, Mestinon reduction, Ritalin MR dose reduction)
+  may influence recovery patterns, but the dominant factor is the physical exertion
+  exceeding sustainable limits.
+
+  Expected recovery: 5-7 days minimum, with PEM day 1 being the most severe.
+  Return to baseline energy levels unlikely before day 5-7 of recovery.
+
+recovery_prediction:
+  pem_day: 1
+  severity: 9/10
+  expected_recovery_days: 5-7
+  baseline_return: expected around 2026-05-27 to 2026-05-29
+  caution: "Extended rest required; no activity beyond basic ADLs"

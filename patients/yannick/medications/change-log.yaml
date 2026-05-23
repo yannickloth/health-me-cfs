@@ -1,0 +1,26 @@
+# Medication Change Log
+
+changes:
+  - date: 2026-05-22
+    medication: "Low-Dose Naltrexone (LDN)"
+    action: dose increase
+    previous_dose: 3.5mg
+    new_dose: 4mg
+    rationale: clinical decision (per patient/provider discussion)
+    notes: dose titration ongoing
+
+  - date: 2026-05-22
+    medication: "Pyridostigmine (Mestinon)"
+    action: dose reduction
+    previous_dose: "3×3 pills per day"
+    new_dose: "3×1 pill per day"
+    rationale: clinical decision (per patient/provider discussion)
+    notes: significant dose reduction; monitor for autonomic symptom changes
+
+  - date: 2026-05-22
+    medication: "Ritalin MR (methylphenidate)"
+    action: dose reduction
+    previous_dose: MR 30mg
+    new_dose: MR 10mg
+    rationale: MR 30mg too strong, induced PEM; testing lower dose to obtain benefits without PEM induction
+    notes: dose titration; monitoring for benefits vs. PEM risk

@@ -1,0 +1,45 @@
+# Current Medication Regimen
+
+regimen_date: 2026-05-22
+last_updated: 2026-05-22
+
+medications:
+  - name: Low-Dose Naltrexone (LDN)
+    current_dose: 4mg
+    frequency: once daily
+    timing: morning
+    recent_change: increased from 3.5mg to 4mg
+    change_date: 2026-05-22
+
+  - name: Pyridostigmine (Mestinon)
+    current_dose: 3×1 pill per day
+    frequency: three times daily
+    timing: morning, midday, evening
+    recent_change: reduced from 3×3 pills per day to 3×1 pill per day
+    change_date: 2026-05-22
+    notes: Significant dose reduction
+
+  - name: Ritalin MR (methylphenidate)
+    current_dose: MR 10mg
+    frequency: as prescribed
+    status: intermittent use
+    recent_change: reduced from MR 30mg to MR 10mg
+    change_date: 2026-05-22
+    notes: MR 30mg was too strong and induced PEM; testing MR 10mg to obtain benefits without PEM induction
+
+  - name: Modafinil (Provigil)
+    current_dose: as needed
+    frequency: as prescribed
+    status: intermittent use
+    notes: stimulant medication used situationally
+
+supplements:
+  - name: Electrolyte mix
+    timing: added to water throughout day
+    notes: unmeasured amounts, patient adds to each water bottle
+
+notes: |
+  - LDN dose increased from 3.5mg to 4mg on 2026-05-22
+  - Mestinon significantly reduced from 3×3 pills/day to 3×1 pill/day on 2026-05-22
+  - Ritalin MR dose reduced from MR 30mg to MR 10mg on 2026-05-22 (MR 30mg too strong, induced PEM)
+  - Stimulants (Ritalin MR, Modafinil) used intermittently based on symptom need

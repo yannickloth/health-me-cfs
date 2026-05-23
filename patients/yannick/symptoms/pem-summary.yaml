@@ -1,0 +1,28 @@
+# PEM Episode Summary
+
+pem_episodes:
+  - episode_date: 2026-05-22
+    trigger: "lawn mowing activity: 2×20min sessions"
+    severity: 9/10
+    trigger_activity_duration: 40min total (2×20min)
+    trigger_exertion_level: high (for ME/CFS baseline)
+    symptoms:
+      - severe muscle pain "as if ran a marathon"
+      - severe energy depletion
+    expected_recovery_days: 5-7
+    baseline_return_expected: 2026-05-27 to 2026-05-29
+    notes: classic severe PEM pattern from overexertion beyond energy envelope
+
+recovery_patterns_observed:
+  - pattern: high_exertion_triggers_severe_pem
+    observed_dates: [2026-05-22]
+    typical_recovery_time: 5-7 days
+    severity_range: 8-10/10
+
+pacing_lessons:
+  - lesson: lawn_mowing_exceeds_energy_envelope
+    learned_from: 2026-05-22
+    activity: lawn mowing
+    sustainable_duration: likely <10min in single session (needs verification)
+    consequences: 9/10 PEM severity, 5-7 day recovery
+    recommendation: avoid lawn mowing or break into 5-min sessions with extended rest
