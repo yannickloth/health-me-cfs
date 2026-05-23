@@ -3033,3 +3033,21 @@ Prebiotic resistant starch supplementation is contraindicated in SIBO (small int
 
 *Research priority:* Moderate. Strong mechanistic rationale, established drugs with safety data, clear biomarker endpoints. Clinical trials should prioritize cytokine panel assessments and infection monitoring. Combination therapy with butyrate (or butyrate-precursor restoration) may provide additive benefits.
 ] <prop:nfkb-inhibitor>
+
+=== Speculative Combination and Access Proposals from the Unified Model
+
+#speculation(title: [Integrated Autophagy-Mitophagy Enhancement Protocol])[
+*Certainty: 0.48. Probability of clinically meaningful synergy: 0.04.* Bergemann showed autophagy modulation improves mitochondrial function. Combining autophagy inducers (spermidine, intermittent fasting) with mitophagy enhancers (urolithin A, NAD$+$ precursors) could synergistically shift cells from stalled CDR to adaptive metabolic state, addressing both mitochondrial quality control (mitophagy) and bulk protein/organelle turnover (autophagy). The combination has plausible synergy but zero ME/CFS data for any component individually, let alone combined. Falsifiable: combined protocol will produce greater improvement in OCR and ATP production than either alone, and reduce inflammatory markers more effectively. @Watton2026unified
+] <spec:autophagy-mitophagy-synergy>
+
+#open-question(title: [Severity-Stratified Tiered Access to Low-Burden Home Monitoring])[
+Continuous physiological monitoring (HRV, activity, sleep) is expensive and burdensome. Could a severity-stratified tiered system — basic tier (smartphone HRV, sleep tracking) for mild/moderate, intermediate (wearable + limited lab testing) for moderate/severe, comprehensive (clinical-grade) for severe/homebound — make evidence-based pacing accessible across socioeconomic strata while maintaining clinical utility? Falsifiable: tiered access will increase monitoring adherence across groups and produce similar PEM reduction outcomes when adjusted for severity. Probability of superiority over unmonitored care: 0.30. @Watton2026unified
+] <oq:tiered-access-monitoring>
+
+#open-question(title: [Telehealth-Integrated Pacing Coach with Real-Time Physiological Feedback])[
+Pacing requires real-time feedback and expert guidance. Could a telehealth platform integrating wearable data (HRV, activity, sleep) with AI-driven pacing recommendations and asynchronous clinician review make evidence-based pacing globally accessible? The technology components exist; integration plus ME/CFS-specific algorithms is the gap. Falsifiable: integrated platform will improve adherence to personalised pacing thresholds, reduce PEM frequency/severity, and increase patient self-efficacy. Probability of meaningful benefit: 0.20. @Watton2026unified
+] <oq:telehealth-pacing>
+
+#open-question(title: [Community-Based Support with Biological Monitoring Integration])[
+Community-based support groups provide psychosocial benefits but lack biological rigour. Integrating symptom tracking and basic physiological monitoring into community protocols could identify effective pacing strategies while preserving peer support — generating real-world evidence in parallel. Falsifiable: integrated community protocols will improve pacing adherence compared to unmonitored support and produce reproducible pacing templates that generalise across individuals. Probability of generating useful real-world data: 0.25. @Watton2026unified
+] <oq:community-biological-integration>

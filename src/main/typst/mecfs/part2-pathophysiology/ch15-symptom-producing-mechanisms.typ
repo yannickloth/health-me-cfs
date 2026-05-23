@@ -1032,3 +1032,21 @@ Develop mechanistic computational models integrating cytokine dynamics, neuroche
 
 All these directions are designed to be complementary, iterative, and hypothesis-driven. Early results from mechanistic studies (Priorities 1–4) would inform trial design for Priority 5. Together, they would generate the mechanistic understanding and clinical evidence needed to move ME/CFS treatment from trial-and-error to precision medicine approaches.
 
+=== PEM Prediction Biomarkers from the Unified Model
+
+#open-question(title: [ATG13 Kinetics as PEM Onset and Severity Predictor])[
+If ATG13 is a circulating DAMP amplifying CDR, serial measurement during controlled exercise challenge (2-day CPET) could reveal whether ATG13 elevation precedes, coincides with, or follows inflammatory markers and symptom onset. Establishing temporal causality would determine whether ATG13 is a driver (predictive biomarker) or a consequence (response biomarker) of PEM. Falsifiable: ATG13 levels will rise 4--6h post-exercise (preceding IL-6, TNF-$alpha$ peaks), peak at 24--48h (coinciding with symptom severity), and decline slower than inflammatory markers, suggesting sustained DAMP signalling even after acute cytokine resolution. Probability of predictive clinical utility: 0.10. @Watton2026unified
+] <oq:atg13-pem-kinetics>
+
+#open-question(title: [Haptoglobin Proteoform Tracking During PEM])[
+Moreau's group identified haptoglobin proteoform relevance to PEM and cognitive dysfunction. Serial Hp proteoform profiling during controlled PEM (exercise challenge) would determine whether specific proteoforms predict (1) PEM severity, (2) cognitive symptom trajectories (processing speed, working memory), and (3) recovery time — providing mechanistic insight and stratification biomarkers. Falsifiable: specific Hp proteoforms will correlate with cognitive test scores and endothelial function markers (VCAM-1, E-selectin) during PEM, independent of total Hp concentration. Probability of yielding useful stratification biomarkers: 0.15. @Watton2026unified
+] <oq:haptoglobin-pem-tracking>
+
+#open-question(title: [EV Signature Panels for PEM Disease Activity Monitoring])[
+EV cargo changes with PEM severity. Multi-analyte EV panels (miRNA, protein, mtDNA) could provide dynamic disease activity monitoring, distinguishing between quiescent phase, active PEM, and impending exacerbation. Could EV signatures predict PEM 24--48h before symptom onset? Falsifiable: EV signature panels will distinguish quiescent vs active PEM with $≥$85% accuracy and predict impending exacerbation before subjective symptom awareness. Probability of clinical monitoring utility: 0.08. @Watton2026unified
+] <oq:ev-pem-monitoring>
+
+#open-question(title: [SMPDL3B as Mechanistic Subtype Stratification Biomarker])[
+If SMPDL3B coordinates lipid raft-mitochondria crosstalk, variation in SMPDL3B expression may define ME/CFS subtypes: low-SMPDL3B patients may have dominant lipid raft dysfunction (TRPM3/GPCR autoantibody profiles), while high-SMPDL3B patients may have dominant mitochondrial/mitophagy pathology. Falsifiable: stratifying by SMPDL3B expression will reveal differential correlations with TRPM3 autoantibodies, mitochondrial morphology, and response to membrane-stabilising vs mitophagy-enhancing interventions. Probability of yielding clinically useful subtypes: 0.06. @Watton2026unified
+] <oq:smpdl3b-stratification>
+

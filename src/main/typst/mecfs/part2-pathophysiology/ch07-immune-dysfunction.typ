@@ -3569,3 +3569,30 @@ This model resolves longstanding inconsistencies between strong epidemiological 
 #open-question(title: [Abortive Reactivation Across Viral Families])[
 While herpesviruses have provided the most experimentally tractable model for abortive reactivation (HHV-6 miR-aU14; EBV dUTPase), the conceptual implications extend beyond a single viral family. Does abortive reactivation also occur with enteroviruses, SARS-CoV-2, or other persistent viruses implicated in ME/CFS? Identifying shared molecular signatures of abortive reactivation — such as restricted viral protein expression patterns, specific innate immune sensor engagement, or EV cargo signatures — could provide diagnostic markers and therapeutic targets applicable across post-infectious conditions regardless of the initial trigger. @Watton2026unified
 ] <oq:abortive-reactivation-cross-viral>
+
+=== Speculative Immune-Targeted Interventions
+<sec:speculative-immune-interventions>
+
+#speculation(title: [ATG13 Neutralisation via Monoclonal Antibodies])[
+*Certainty: 0.35. Probability of clinically meaningful efficacy in ME/CFS: 0.05.* If ATG13 is a circulating DAMP amplifying CDR downstream of abortive viral reactivation, neutralising monoclonal antibodies could reduce inflammatory signalling. This is analogous to anti-cytokine biologics but targets a novel DAMP pathway. ATG13 mAbs would require development from scratch (no existing therapeutic pipeline). The therapeutic concept is mechanistically coherent but requires ATG13 to be a causal driver rather than an epiphenomenon. Falsifiable: anti-ATG13 mAb treatment in ex vivo ME/CFS PBMC cultures will reduce IL-1$beta$, TNF-$alpha$, IL-6 and shift mitochondrial morphology toward interconnected networks.
+] <spec:atg13-mab>
+
+#speculation(title: [TRPM3 Agonists for Calcium Homeostasis Restoration])[
+*Certainty: 0.45. Probability of clinically meaningful efficacy in ME/CFS: 0.10.* TRPM3 calcium channel dysfunction in NK cells is a reproducible ME/CFS finding. TRPM3 agonists (pregnanolone sulfate, CIM0216) could restore calcium flux, normalising mitochondrial function, redox regulation, and endothelial responsiveness — all calcium-dependent processes. Pregnanolone sulfate is an endogenous neurosteroid with established safety profile; CIM0216 is a research tool. No ME/CFS TRPM3 agonist trial exists. Falsifiable: TRPM3 agonist treatment will restore calcium influx kinetics, improve mitochondrial membrane potential, increase NK cytotoxicity, and reduce ROS in ME/CFS cells.
+] <spec:trpm3-agonists>
+
+#speculation(title: [Sphingolipid Modulators to Restore Lipid Raft Function])[
+*Certainty: 0.42. Probability of clinically meaningful efficacy in ME/CFS: 0.06.* SMPDL3B-mediated lipid raft disorganisation may underlie receptor mis-localisation (TRPM3, $beta$-adrenergic). Sphingolipid modulators (myriocin, FTY720/fingolimod, sphingosine kinase inhibitors) could normalise raft fluidity and restore signal transduction. FTY720 is FDA-approved for multiple sclerosis — a cross-disease precedent for sphingolipid modulation. However, FTY720 induces lymphopenia (lymphocyte sequestration), which could be counterproductive in an already immune-compromised condition. Falsifiable: sphingolipid modulator treatment will normalise lipid raft fluidity (Laurdan staining), restore TRPM3/$beta$-adrenergic receptor surface localisation, and improve cAMP/calcium signalling.
+] <spec:sphingolipid-modulators>
+
+#speculation(title: [ASM Modulators for SMPDL3B Pathway Correction])[
+*Certainty: 0.38. Probability of clinically meaningful efficacy in ME/CFS: 0.04.* SMPDL3B is an acid sphingomyelinase (ASM)-like protein. ASM inhibitors (amitriptyline, desipramine — functional inhibitors of ASM) are already prescribed to ME/CFS patients for pain/sleep, providing a serendipitous existing-use cohort. If amitriptyline's benefit in ME/CFS is partly mediated through ASM inhibition and lipid raft normalisation rather than NMDA antagonism alone, this would explain the efficacy at low doses where antidepressant effects are absent. Falsifiable: ASM modulators will normalise SMPDL3B activity in ME/CFS immune cells, restore lipid raft fluidity, and improve TRPM3 function.
+] <spec:asm-modulators-smpdl3b>
+
+#speculation(title: [Fibronectin-IgG Complexes as Immunological Memory Impairment])[
+*Certainty: 0.35. Probability of clinical diagnostic utility: 0.05.* Directionally discordant Fn1 biology may reflect broader immunological memory dysfunction. IgG-mediated pathogen clearance and cellular debris scavenging are compromised, creating feedback where new triggers exacerbate unresolved debris accumulation. Reduced natural IgM anti-fibronectin antibodies (documented after COVID) represent loss of homeostatic protection. Falsifiable: ME/CFS patients will show impaired clearance of labelled immune complexes in vitro, reduced IgM repertoire diversity (NGS), and exaggerated inflammatory responses to immune complex rechallenge.
+] <spec:fibronectin-immunological-memory>
+
+#speculation(title: [SMPDL3B as Sex-Stratified Mechanistic Substrate])[
+*Certainty: 0.30. Probability of clinical relevance: 0.02.* ME/CFS shows ~3:1 female predominance. SMPDL3B regulation may be oestrogen-responsive, providing a mechanistic substrate for sex differences in lipid raft organisation and clinical presentation. This is entirely speculative — SMPDL3B sex-specificity has not been studied in any condition. Falsifiable: SMPDL3B expression will correlate with oestrogen levels across menstrual cycle phases and differ between males and females with matched ME/CFS severity.
+] <spec:smpdl3b-sex-stratification>

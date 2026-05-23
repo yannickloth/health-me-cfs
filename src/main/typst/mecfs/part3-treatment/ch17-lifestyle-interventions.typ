@@ -1686,3 +1686,21 @@ The ISR mechanistic frame generates testable predictions for several other lifes
 ] <oq:hbo-isr>
 
 *Transcutaneous auricular vagus nerve stimulation (taVNS):* The existing taVNS rationale (Section:tavns-lifestyle) covers cholinergic anti-inflammatory pathway and autonomic rebalancing. The ISR frame adds a mechanistic specification: vagal efferent activation suppresses microglial NF-κB, reducing neuroinflammatory ISR kinase activation in brainstem nuclei (locus coeruleus, NTS) where HHV-6 reactivation has been postulated taVNS ISR effect is indirect via neuroinflammation reduction, not direct ISR kinase modulation. Certainty: 0.20 — indirect mechanistic chain; no ISR-biomarker taVNS data in ME/CFS.
+
+=== Speculative Lifestyle and Pacing Interventions from the Unified Model
+
+#speculation(title: [Hyperthermia Protocol Optimisation for CDR Reset])[
+*Certainty: 0.52. Probability of clinically meaningful efficacy: 0.05.* Bergemann demonstrated that whole-body hyperthermia reduces autophagy markers and improves mitochondrial respiratory capacity in ME/CFS PBMCs, suggesting at least some stress signatures are dynamically modifiable — plausibly through transient improvement in tissue perfusion and oxygen availability. Protocol optimisation (temperature, duration, frequency, timing relative to symptom cycles) could maximise CDR reset effects while minimising exacerbation risk. The single positive study (small n, mechanistically informative but not a clinical trial) is the only evidence. Falsifiable: optimised hyperthermia protocols will consistently reduce autophagy markers, increase mitochondrial respiration, and produce sustained ($≥$72h) metabolic improvement. @Watton2026unified
+] <spec:hyperthermia-protocol>
+
+#open-question(title: [Personalised Physiological Threshold Pacing via Continuous Monitoring])[
+Watton's central thesis — impaired physiological resilience revealed under stress — implies that precise individual stress threshold identification (HRV, VO#sub[2] kinetics, lactate threshold via wearables) could guide pacing to stay below CDR reactivation thresholds. Would physiologically-guided pacing (staying below objectively measured thresholds) produce fewer PEM episodes and better outcomes than symptom-based pacing alone? Falsifiable: threshold-guided patients will experience fewer PEM episodes over 6 months and improved 2-day CPET performance compared to symptom-guided pacing controls. Probability of superiority over symptom-based pacing: 0.25. @Watton2026unified
+] <oq:physiological-threshold-pacing>
+
+#open-question(title: [Progressive Cognitive Load Titration for Neuro-Immune Threshold Identification])[
+Cognitive exertion triggers PEM in many patients, but cognitive thresholds are poorly quantified. Progressive cognitive load protocols (working memory, processing speed, attention tasks) with continuous HRV/EEG monitoring could identify individual cognitive endurance thresholds, providing objective cognitive pacing guidance. Falsifiable: cognitive load protocols will reveal individual cognitive endurance limits with physiological signatures (HRV depression, EEG slowing) that precede subjective symptom awareness, enabling preventive pacing. Probability of clinical utility: 0.12. @Watton2026unified
+] <oq:cognitive-load-titration>
+
+#open-question(title: [Caregiver-Implemented Post-Exertion Recovery Protocol])[
+PEM management requires immediate, consistent response within the critical 24--48h window after exertion. Can training caregivers to implement standardised post-exertion recovery protocols (temperature control, hydration, rest positioning, symptom monitoring) reduce PEM severity and duration? The intervention is low-risk, low-cost, and caregiver-implemented protocols are established in stroke and TBI rehabilitation. Falsifiable: caregiver-implemented protocols will reduce PEM severity by $≥$30% and shorten PEM duration by $≥$24h compared to standard self-management. Probability of efficacy: 0.18. @Watton2026unified
+] <oq:caregiver-pem-protocol>

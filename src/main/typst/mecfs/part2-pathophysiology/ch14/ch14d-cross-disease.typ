@@ -2042,3 +2042,29 @@ In parallel, Kumar et al. demonstrated persistent alterations in T-cell activati
 #open-question(title: [Immune Reprogramming Durability and Reversibility])[
 How stable is the reprogrammed immune state in post-infectious conditions? Is selective immune cell reprogramming an actively maintained process (requiring ongoing antigenic or inflammatory drive) or an epigenetically self-sustaining state that persists after the initial trigger resolves? The Bergemann hyperthermia study's finding that some stress signatures are dynamically modifiable suggests at least partial reversibility, but the durability and scope of immune reprogramming remain unknown. Longitudinal studies tracking immune cell states from acute infection through chronicity, combined with perturbation-based assays (heat, exercise, pharmacological challenge), are needed. @Watton2026unified
 ] <oq:immune-reprogramming-durability>
+
+=== Cross-Disease Research Directions
+
+#open-question(title: [Long-COVID ATG13 Signature Comparison])[
+Does Long-COVID share the ATG13 circulating DAMP signature identified in ME/CFS (Gottschalk et al.), or are ATG13 elevations specific to idiopathic ME/CFS? Comparing ATG13 levels across Long-COVID patients with and without ME/CFS criteria will clarify whether abortive reactivation DAMP signalling is a shared post-infectious mechanism or specific to ME/CFS pathophysiology. Probability of clinical utility: 0.15. @Watton2026unified
+] <oq:long-covid-atg13>
+
+#open-question(title: [Fibromyalgia TRPM3 Autoantibody Overlap])[
+Fibromyalgia shares central sensitisation and autonomic dysfunction with ME/CFS (~30--50% overlap). If TRPM3 autoantibodies are present in fibromyalgia patients, this would implicate a shared ion-channel-autoantibody mechanism explaining hyperalgesia and dysautonomia across both conditions. Probability that TRPM3 autoantibodies explain fibromyalgia: 0.05. Falsifiable: fibromyalgia patients will show elevated TRPM3 autoantibodies correlating with pain sensitivity (QST thresholds). @Watton2026unified
+] <oq:fibromyalgia-trpm3>
+
+#open-question(title: [POTS Endothelial Stress Response vs ME/CFS Endothelial Dysfunction])[
+POTS is highly comorbid with ME/CFS and involves endothelial dysfunction. Are endothelial stress responses (provocative oxidation/immune challenge assays) abnormal in both POTS and ME/CFS, or is endothelial adaptive capacity specifically impaired in ME/CFS? Answering this would clarify whether endothelial dysfunction is a shared vascular substrate or a defining feature of ME/CFS pathophysiology distinct from dysautonomia alone. Probability that endothelial provocative testing distinguishes POTS from ME/CFS-POTS: 0.20. @Watton2026unified
+] <oq:pots-endothelial-stress>
+
+#open-question(title: [Autoimmune Dysautonomia GPCR Autoantibody Overlap])[
+Autoimmune autonomic ganglionopathy (AAG) involves GPCR autoantibodies ($beta$-adrenergic, muscarinic) similar to those found in ME/CFS. Does ME/CFS represent a mild or early form of AAG, or a distinct dysautonomia with unique autoantibody targets (TRPM3, other ion channels)? Autoantibody repertoire comparison (protein microarray, cell-based assays) between AAG and ME/CFS cohorts would clarify whether a spectrum disorder exists. Probability that ME/CFS is an AAG-spectrum condition: 0.08. @Watton2026unified
+] <oq:aag-autoantibody-overlap>
+
+#speculation(title: [Multiple Sclerosis Sphingolipid Mechanistic Bridge])[
+*Certainty: 0.45. Probability of therapeutic cross-application: 0.03.* Multiple sclerosis involves sphingolipid metabolism abnormalities — FTY720 (fingolimod) is FDA-approved for MS precisely because it modulates sphingosine-1-phosphate receptors. ME/CFS SMPDL3B and lipid raft dysfunction may share sphingolipid pathology with MS, suggesting FTY720 or related modulators could address ME/CFS lipid raft dysfunction. However, FTY720's lymphocyte-sequestering mechanism (inducing lymphopenia) may be contraindicated in ME/CFS where immune dysfunction is already present. The cross-disease bridge is mechanistically interesting but the therapeutic translation is obstructed by the divergent immune requirements of MS (overactive autoimmunity) vs ME/CFS (impaired immune clearance). Falsifiable: ME/CFS patients will show altered sphingolipid profiles overlapping with MS-specific species, and SMPDL3B expression will correlate with sphingolipid imbalance.
+] <spec:ms-sphingolipid-bridge>
+
+#speculation(title: [Mast Cell Activation Syndrome SMPDL3B-Lipid Overlap])[
+*Certainty: 0.40. Probability of shared mechanism: 0.04.* MCAS shares autonomic, inflammatory, and endothelial features with ME/CFS. SMPDL3B-mediated lipid raft dysfunction could underlie mast cell dysregulation in both conditions — lipid raft organisation governs IgE receptor (Fc$epsilon$RI) clustering and activation thresholds, directly controlling mast cell degranulation. If SMPDL3B dysregulation is present in MCAS patients, lipid-targeted interventions (sphingolipid modulators, membrane stabilisers) could address both conditions simultaneously. However, MCAS SMPDL3B has never been measured. Falsifiable: MCAS patients will show altered SMPDL3B expression and exaggerated mast cell degranulation in response to lipid raft stressors.
+] <spec:mcas-smpdl3b>

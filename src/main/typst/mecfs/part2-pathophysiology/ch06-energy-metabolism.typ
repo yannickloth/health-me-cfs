@@ -2748,3 +2748,42 @@ Taken together, ATG13/autophagy perturbation, SMPDL3B/lipid raft regulation, and
 
 *Falsifiable prediction.* Specific Hp proteoforms will correlate with cognitive test scores (processing speed, working memory) during PEM, endothelial function markers (VCAM-1, E-selectin), and time to symptom resolution, independent of total Hp concentration.
 ] <spec:haptoglobin-pem>
+
+=== Speculative Metabolic Interventions
+<sec:speculative-metabolic-interventions>
+
+#speculation(title: [Mitophagy Enhancement via PINK1/Parkin Activation])[
+*Certainty: 0.48. Probability of clinically meaningful efficacy in ME/CFS: 0.08.* PINK1/Parkin pathway activators (urolithin A, nicotinamide riboside) could enhance damaged mitochondria clearance, reduce oxidative burden, and allow metabolic recovery from the CDR state. Impaired mitophagy sustains redox stress and inflammation per the unified model. @Watton2026unified PINK1/Parkin activators are in preclinical/early clinical development for other conditions; no ME/CFS data exists. Urolithin A has human safety data from muscle aging trials. Falsifiable: mitophagy enhancer treatment of ME/CFS cells will increase LC3-II accumulation and PINK1/Parkin recruitment to mitochondria, reduce ROS, and improve OCR.
+] <spec:mitophagy-enhancers>
+
+#speculation(title: [Spermidine for Autophagy Enhancement and CDR Reset])[
+*Certainty: 0.52. Probability of clinically meaningful efficacy in ME/CFS: 0.04.* Spermidine, a well-established dietary autophagy inducer, could pharmacologically recapitulate the hyperthermia effect demonstrated by Bergemann (autophagy markers (decreased), mitochondrial respiration (increased)), potentially shifting cells from stalled CDR to adaptive metabolic state. Spermidine-induced autophagy is well-established in aging biology; no ME/CFS data exists. Falsifiable: spermidine supplementation in ME/CFS PBMCs will increase autophagic flux (LC3-II ratio, p62 degradation) and improve mitochondrial respiration.
+] <spec:spermidine-autophagy>
+
+#speculation(title: [Butyrate for Mitochondrial-Nuclear Crosstalk Restoration])[
+*Certainty: 0.48. Probability of clinically meaningful efficacy in ME/CFS: 0.06.* Butyrate is an HDAC inhibitor that can epigenetically reprogramme mitochondrial gene expression. SCFA deficits (Chapter @ch:gut-microbiome) plus CDR-induced epigenetic silencing may be counteracted by butyrate supplementation, restoring PGC-1$alpha$ and NRF1-dependent mitochondrial biogenesis. Butyrate HDAC inhibition and mitochondrial biogenesis upregulation are established in vitro; no ME/CFS-specific data. Falsifiable: butyrate treatment of ME/CFS immune cells will increase histone acetylation at PGC-1$alpha$ promoters and upregulate TFAM/mtDNA copy number.
+] <spec:butyrate-mitochondrial-reprogramming>
+
+#speculation(title: [Taurine for Calcium Homeostasis and Mitochondrial Protection])[
+*Certainty: 0.45. Probability of clinically meaningful efficacy in ME/CFS: 0.03.* Taurine modulates calcium signalling, stabilises mitochondrial membranes, and reduces oxidative stress. Given TRPM3 dysfunction and calcium-mitochondria crosstalk deficits, taurine supplementation could support both calcium homeostasis and mitochondrial resilience. Taurine's calcium-modulating and mitochondrial-protective effects are well-characterised; no ME/CFS data. Falsifiable: taurine treatment of ME/CFS cells will normalise calcium influx kinetics, stabilise mitochondrial membrane potential, and reduce mPTP opening.
+] <spec:taurine-calcium-mito>
+
+#speculation(title: [N-Acetylcysteine for Thiol Redox Buffering and CDR Reset])[
+*Certainty: 0.52. Probability of clinically meaningful efficacy in ME/CFS: 0.08.* CDR involves redox dysregulation. NAC replenishes glutathione, modulates redox-sensitive signalling (NF-$kappa$B, Nrf2), and may facilitate CDR resolution by restoring thiol redox balance. NAC's glutathione-replenishing effects are well-established clinically; no ME/CFS-specific trial data. The probability is higher than most nutraceuticals because NAC has demonstrated objective efficacy in related conditions (COPD, psychiatric disorders) via glutathione restoration. Falsifiable: NAC treatment will increase GSH/GSSG ratio in ME/CFS PBMCs, shift Nrf2-dependent gene expression, and reduce inflammatory cytokine production.
+] <spec:nac-cdr-redox>
+
+#speculation(title: [Controlled Cold Exposure for Mitochondrial Biogenesis Induction])[
+*Certainty: 0.45. Probability of clinically meaningful efficacy in ME/CFS: 0.01. ⚠ THERMOREGULATORY SAFETY CAVEAT.* Cold exposure activates brown adipose tissue, increases mitochondrial biogenesis via PGC-1$alpha$, and modulates inflammatory signalling. However, ME/CFS patients have documented thermoregulatory dysfunction, autonomic instability, and cold hypersensitivity that contraindicate standard protocols. The existing cryotherapy literature shows 45% attrition in the only CFS whole-body cryotherapy study (Kujawski 2023), suggesting poor tolerability. Any protocol would require extremely gradual titration under clinical supervision. Falsifiable: gradual cold exposure will increase PGC-1$alpha$ and NRF1 expression in PBMCs and be tolerated without PEM at slow titration rates.
+] <spec:cold-exposure-mitochondrial>
+
+#speculation(title: [Normobaric Hypoxia Preconditioning for Mitochondrial Resilience])[
+*Certainty: 0.45. Probability of clinically meaningful efficacy in ME/CFS: 0.01.* Hypoxia preconditioning upregulates HIFs, enhances mitochondrial efficiency, and improves stress tolerance. The concept is mechanistically coherent with the state-dependent dysfunction model — pre-conditioning the system to tolerate stress. However, there is zero ME/CFS data, and hypoxia carries theoretical risks of triggering PEM or symptom exacerbation in already metabolically fragile patients. The only relevant data point is Bergemann's hyperthermia study showing dynamic modifiability. Falsifiable: normobaric hypoxia preconditioning will increase HIF-1$alpha$ and PGC-1$alpha$ in PBMCs and delay PEM onset during exercise challenge.
+] <spec:hypoxia-preconditioning>
+
+#open-question(title: [PBMC Mitochondrial Morphology as Quantitative Disease Activity Biomarker])[
+Mitochondrial fragmentation is central to ME/CFS (Section @sec:mito-evidence). High-content imaging of PBMC mitochondria — morphology, membrane potential, respiration — could provide quantifiable biomarkers of CDR state, track disease activity during PEM cycles, and assess treatment response objectively. Existing mitochondrial fragmentation assays (MitoTracker, Seahorse) are mature technologies; the open question is whether PBMC mitochondrial morphology produces clinically useful disease-activity metrics. Falsifiable: PBMC mitochondrial fragmentation indices will correlate with disease severity and change detectably during PEM cycles before symptom-scale changes. Probability of diagnostic utility: 0.15.
+] <oq:pbmt-mitochondrial-morphology>
+
+#open-question(title: [ATG13 Interaction with Conventional DAMPs])[
+Does ATG13 utilise distinct receptors from HMGB1/mtDNA, or does it synergise with conventional DAMPs to amplify inflammatory signalling? Characterising ATG13 receptor usage (TLRs, RAGE, STING) and downstream pathway convergence (NF-$kappa$B, cGAS-STING) will clarify its unique contribution to CDR amplification and whether ATG13 neutralisation would produce effects additive to or redundant with standard anti-inflammatory approaches. Falsifiable: ATG13 will utilise distinct receptors from HMGB1/mtDNA and synergise with conventional DAMPs to amplify cytokine production via converging on NF-$kappa$B and STING pathways. Probability of novel therapeutic target: 0.10.
+] <oq:atg13-damp-interactions>

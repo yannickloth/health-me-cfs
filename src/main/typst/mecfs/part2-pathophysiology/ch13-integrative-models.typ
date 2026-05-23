@@ -277,3 +277,33 @@ The Sigma-1 fluvoxamine approach has additional theoretical benefits:
 #open-question(title: [Genetic Subtypes in ME/CFS])[
 Do ME/CFS patients cluster into genetically coherent subgroups with distinct pathophysiological mechanisms? The DecodeME genome-wide association study has identified several genetic risk pathways including brain-expressed genes (glutamatergic synapse), autophagy/mitophagy genes, and immune-ambiguous loci. If patients with high neuronal-gene polygenic risk scores differ clinically from those with high autophagy-gene or immune-gene scores, this would enable biologically coherent subtyping that could transform clinical trial design from "one size fits all" to pharmacogenomic stratification. Key questions include: Do genetic subtypes predict differential treatment responses? Do they represent distinct disease mechanisms or stages? Can genetic subtyping enable personalized treatment selection? The clinical utility depends on effect size distribution and the risk gradient between high and low genetic risk groups.
 ] <oq:genetic-subtypes>
+
+=== Speculative Model Extensions and Diagnostic Integration
+
+#speculation(title: [Extracellular Vesicle-Mediated CDR Propagation Across Cell Types])[
+*Certainty: 0.36. Probability that EV propagation is a clinically significant driver: 0.08.* EVs carrying altered proteomic signatures and mitochondrial DNA may serve as intercellular vectors for CDR propagation. mtDNA in EVs can activate cGAS-STING in na"ive recipient cells, potentially seeding CDR activation remotely. If verified, this would explain how local cellular dysfunction (immune, metabolic, endothelial) propagates systemic effects without tissue damage — a long-standing puzzle in ME/CFS. Falsifiable: isolating EVs from ME/CFS patients post-exercise and treating healthy donor cells will induce CDR transcriptional signature, mitochondrial fragmentation, and impaired OCR proportional to exercise severity. @Watton2026unified
+] <spec:ev-cdr-propagation>
+
+#speculation(title: [EV-Mediated Intercellular Communication Network Model])[
+*Certainty: 0.38. Probability of yielding actionable intervention targets: 0.04.* If EVs propagate CDR state, multi-compartment network models with EV-mediated coupling between immune cells, endothelial cells, neurons, and muscle tissue would reveal how local dysfunction propagates systemically. Network topology analysis could identify critical propagation hubs (e.g., activated monocytes as dominant EV producers). Falsifiable: EV network models will reproduce temporal symptom spread patterns and predict which cell types serve as dominant propagation hubs. @Watton2026unified
+] <spec:ev-network-model>
+
+#open-question(title: [State-Dependent CDR Dynamics with Stress Threshold Variables])[
+Watton's central thesis requires mathematical models incorporating stress threshold variables. CDR dynamics should be modelled as state-dependent with (1) resting state (sub-threshold CDR), (2) stress-exposed state (threshold-crossing CDR amplification), and (3) recovery trajectory (hysteresis loop). Can such models accurately predict PEM onset timing and individual hysteresis magnitude (lag between stress removal and CDR resolution)? Falsifiable: state-dependent CDR models will predict PEM onset in longitudinal data and guide pacing that minimises threshold crossing. Probability of yielding clinically useful pacing algorithms: 0.12. @Watton2026unified
+] <oq:state-dependent-cdr-model>
+
+#open-question(title: [PEM Hysteresis Loop Quantification])[
+PEM exhibits hysteresis — delayed recovery after stress removal. Mathematical hysteresis models incorporating stress intensity, stress duration, individual resilience, and recovery trajectory parameters could quantify individual hysteresis magnitude and predict PEM trajectories. Can hysteresis modelling optimise pacing to keep trajectories below the hysteresis threshold? Falsifiable: hysteresis models will accurately predict PEM duration as a function of stress intensity/duration, with individual hysteresis magnitude correlating with disease severity. Probability of clinical pacing utility: 0.15. @Watton2026unified
+] <oq:pem-hysteresis-model>
+
+#speculation(title: [Stochastic CDR State Transitions with Individual Resilience Parameters])[
+*Certainty: 0.42. Probability of explaining individual variability: 0.08.* CDR state transitions may be stochastic rather than deterministic. Individual resilience parameters (genetic, epigenetic, microbiome) could modulate transition probabilities, explaining why identical triggers (same infection, same exercise dose) produce different outcomes in different patients. Stochastic models incorporating resilience distributions would explain observed PEM variability. Falsifiable: stochastic CDR models will reproduce observed variability in PEM onset/duration and identify resilience parameters most predictive of individual outcomes. @Watton2026unified
+] <spec:stochastic-cdr-transitions>
+
+#open-question(title: [Multi-Modal Biomarker Panel for Post-Infectious Disease Activity])[
+The unified model identifies multiple converging abnormalities — ATG13, haptoglobin proteoforms, SMPDL3B, EV signatures, endothelial stress markers, mitochondrial morphology — that are individually measurable. Could a multi-modal stress response panel measured at rest and after standardised challenge (exercise, cognitive, thermal) capture disease activity invisible in resting assays, predict individual stress tolerance thresholds, and stratify patients by mechanistic profile for targeted clinical trials? Falsifiable: multi-modal stress panel will capture disease activity not visible at rest, predict individual VO#sub[2]/cognitive stress thresholds, and identify >3 stable subtypes with distinct treatment response patterns. Probability of diagnostic utility: 0.18. @Watton2026unified
+] <oq:multimodal-stress-panel>
+
+#speculation(title: [Lipid Raft Dynamics Coupled to Mitochondrial Quality Control — Bistability Model])[
+*Certainty: 0.33. Probability of yielding testable predictions: 0.05.* SMPDL3B-mediated lipid raft coordination with mitophagy could form a coupled system where lipid raft fluidity (R), sphingolipid balance (S), mitophagy flux (M), and mitochondrial fragmentation (F) create feedback loops stabilising the CDR state (bistability). Coupled differential equations could identify parameter regimes for state transitions and predict which intervention type (R-modulation, S-modulation, M-enhancement) most efficiently resets to the normal state. Falsifiable: coupled R-S-M-F models will reproduce bistability (normal vs CDR) and predict state-transition intervention targets. @Watton2026unified
+] <spec:lipid-raft-mito-coupled-model>
