@@ -210,3 +210,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | q10-ubiquinol | [subtrees/q10-ubiquinol.md](subtrees/q10-ubiquinol.md) | 2026-05-17 | 72 | 5 | ⬜ pending | —
 | cd4-tcell-innate | [subtrees/cd4-tcell-innate.md](subtrees/cd4-tcell-innate.md) | 2026-05-18 | 5 | 5 | ✅ integrated | —
 | monocyte-dc-immunophenotyping | [subtrees/monocyte-dc-immunophenotyping.md](subtrees/monocyte-dc-immunophenotyping.md) | 2026-05-20 | 38 | 12 | 🔵 in progress | —
+| watton2026-unified-mechanistic-model | [subtrees/watton2026-unified-mechanistic-model.md](subtrees/watton2026-unified-mechanistic-model.md) | 2026-05-23 | 52 | 0 | 🔵 in progress | —

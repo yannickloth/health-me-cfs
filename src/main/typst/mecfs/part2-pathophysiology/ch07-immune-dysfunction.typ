@@ -3538,3 +3538,34 @@ This would make ECM1 dysfunction a unifying connective-tissue-immune bridge, pot
 
 *Limitations:* ECM1 autoantibody ELISA is standardized for LS diagnosis but has not been applied to ME/CFS cohorts. Whether ECM1 dysfunction in ME/CFS would produce overt LS phenotype or a subclinical barrier-fragility syndrome is unknown. The multicompartment prediction (gut + BBB + vascular simultaneously) is mechanistically plausible but would require highly specific ECM1 loss to produce; local ECM1 isoform variation may limit systemic effects. ECM1 knockout mice (Hamada 2003 — lipoid proteinosis phenotype) suggest severe loss produces dramatic phenotype, but partial loss/autoantibody-mediated dysfunction may have subtler effects.
 ] <spec:ecm1-axis-mecfs>
+
+=== Fibronectin--IgG Immune Complexes and Homeostatic Antibody Depletion
+<sec:fibronectin-igg-mecfs>
+
+#hypothesis(title: [Fibronectin--IgG Circulating Immune Complex Dysregulation in ME/CFS])[
+*Certainty: 0.38.* Prusty et al. identified directionally discordant fibronectin (Fn1) biology in ME/CFS — increased circulating Fn1 in serum yet depletion of Fn1 in IgG-bound circulating immune complexes (CICs). @Watton2026unified
+
+This pattern argues against a simple "more fibronectin everywhere" phenomenon and instead supports selective alteration in immune-complex composition and handling. Fibronectin is not merely a structural extracellular matrix protein; it participates in innate immune signalling and opsonisation-like functions through binding to complement components (C1q, C3) and can modulate inflammatory responses through TLR4 engagement and mast cell/platelet activation. The depletion of Fn1 from CICs could plausibly imply impaired pathogen clearance and impaired scavenging of cellular debris, which would increase downstream immune activation pressure and diversify autoreactivity over time. @Watton2026unified
+
+*Homeostatic antibody loss.* Complementing the Fn1-IgG findings, natural IgM antibodies against fibronectin — which have homeostatic scavenger/protector/regulator roles — were observed to be depleted after COVID infection. This strengthens the argument that immune perturbation in post-infectious syndromes involves not only pathogenic antibodies but also the loss of protective, homeostatic antibody functions that normally constrain inflammation and facilitate immune-complex processing. @Watton2026unified
+
+*Functional significance.* Patient-derived IgG enters endothelial cells (HUVECs) and, in a subset of patients with a sex-stratified signal, drives mitochondrial network fragmentation and measurable changes in mitochondrial proteins and energetics. Passive transfer of ME/CFS IgG to healthy PBMCs induced secretion of specific inflammatory cytokines (with IL-1$beta$ reaching statistical significance across the cohort), demonstrating that circulating immunoglobulin fractions can act as functional effectors rather than simply passive biomarkers. @Watton2026unified
+
+Taken together, these findings support a model in which ME/CFS and post-acute infectious syndromes involve: (a) altered immune-complex composition and homeostatic antibody depletion, plus (b) immunoglobulin-mediated perturbation of endothelial mitochondrial resilience. This mechanistic bridge directly connects systemic immune dysregulation to the endothelial and mitochondrial vulnerability described in Chapters @ch:energy-metabolism and @ch:cardiovascular. (Certainty: 0.38)
+
+*Falsifiable predictions:*
+- Restoring Fn1 content in IgG-bound CICs (via exogenous Fn1 supplementation or blocking IgG-Fn1 binding) will normalise endothelial cell responses to oxidative stress (improved barrier integrity, preserved mitochondrial respiration)
+- ME/CFS patients with the most severe Fn1 depletion in CICs will show correspondingly greater endothelial dysfunction on provocative testing
+- Natural IgM anti-fibronectin levels will correlate inversely with disease severity in post-infectious ME/CFS
+] <hyp:fibronectin-igg-cic>
+
+=== Abortive Viral Reactivation as a Common Post-Infectious Mechanism
+<sec:abortive-reactivation-framework>
+
+A pivotal conceptual advance has been the recognition that abortive or incomplete viral reactivation — characterised by restricted expression of immunostimulatory viral proteins without production of infectious virions — may represent a common mechanism across multiple persistent or latent viruses @Watton2026unified. In such states, viral genomes are transcriptionally active enough to generate proteins (e.g., herpesvirus dUTPases @Hennig2022HHV6miRNA) capable of engaging innate immune sensors, yet insufficiently active to trigger classical cytopathic effects or detectable viraemia.
+
+This model resolves longstanding inconsistencies between strong epidemiological links to herpesviruses and repeated failure to demonstrate active replication. It represents a departure from traditional infection models rooted in Koch's postulates, which assume that pathogenicity requires replicating organisms and tissue invasion. In post-infectious syndromes such as ME/CFS, pathophysiology may involve persistent or intermittently renewed immune engagement with viral-derived products, generated episodically or at low levels, sufficient to maintain danger signalling but insufficient to provoke sterilising immunity or straightforward diagnostic detection. @Watton2026unified (Certainty: 0.55)
+
+#open-question(title: [Abortive Reactivation Across Viral Families])[
+While herpesviruses have provided the most experimentally tractable model for abortive reactivation (HHV-6 miR-aU14; EBV dUTPase), the conceptual implications extend beyond a single viral family. Does abortive reactivation also occur with enteroviruses, SARS-CoV-2, or other persistent viruses implicated in ME/CFS? Identifying shared molecular signatures of abortive reactivation — such as restricted viral protein expression patterns, specific innate immune sensor engagement, or EV cargo signatures — could provide diagnostic markers and therapeutic targets applicable across post-infectious conditions regardless of the initial trigger. @Watton2026unified
+] <oq:abortive-reactivation-cross-viral>

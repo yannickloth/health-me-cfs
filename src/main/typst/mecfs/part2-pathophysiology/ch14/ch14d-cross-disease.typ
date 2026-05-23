@@ -467,7 +467,7 @@ Butyrate deficiency reduces:
 
 *Certainty:* 0.60 (butyrate deficiency documented in IBS and ME/CFS; fibromyalgia evidence preliminary; mechanistic overlap across conditions is plausible but not proven)
 
-] <sec:butyrate-ibs-mecfs-continuum> <spec:butyrate-ibs-mecfs-continuum>
+] <spec:butyrate-ibs-mecfs-continuum>
 
 #speculation(title: [X2: Butyrate-Long COVID Fatigue Parallel])[
 Long COVID post-viral fatigue shows butyrate deficiency patterns similar to ME/CFS, supporting cross-disease mechanistic hypotheses and potential for shared treatment protocols.
@@ -498,7 +498,7 @@ Butyrate deficiency in Long COVID may contribute to:
 
 *Certainty:* 0.55 (butyrate deficiency documented in Long COVID and ME/CFS; mechanistic parallels plausible; clinical trials needed to test shared treatment protocols)
 
-] <sec:butyrate-longcovid-parallel> <spec:butyrate-longcovid-parallel>
+] <spec:butyrate-longcovid-parallel>
 
 #speculation(title: [X3: Butyrate-IBD Barrier Comparison])[
 Butyrate mechanisms (HDAC inhibition, tight junction maintenance) are central to IBD pathophysiology. Comparing barrier repair dynamics may reveal ME/CFS-specific dysfunction patterns.
@@ -535,7 +535,7 @@ Comparing barrier repair kinetics after butyrate challenge may reveal:
 
 *Certainty:* 0.50 (butyrate mechanisms well-established in IBD; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; barrier comparison is hypothesis-generating)
 
-] <sec:butyrate-ibd-barrier-comparison> <spec:butyrate-ibd-barrier-comparison>
+] <spec:butyrate-ibd-barrier-comparison>
 
 #speculation(title: [X4: Butyrate-Autonomic Neuropathy Diabetic Parallels])[
 Diabetic autonomic neuropathy shows vagal dysfunction; butyrate deficiency may contribute to similar dysautonomia in ME/CFS. Comparing mechanisms may reveal treatment targets.
@@ -577,7 +577,7 @@ Comparing butyrate dynamics in DAN vs ME/CFS may reveal:
 
 *Certainty:* 0.45 (butyrate-vagal coupling documented in animal studies; diabetic autonomic neuropathy mechanisms well-established; butyrate deficiency in ME/CFS not linked to dysautonomia; mechanistic comparison is hypothesis-generating)
 
-] <sec:butyrate-diabetic-autonomic-parallels> <spec:butyrate-diabetic-autonomic-parallels>
+] <spec:butyrate-diabetic-autonomic-parallels>
 
 #speculation(title: [X5: Butyrate-Parkinson's Constipation-Fatigue Bridge])[
 Parkinson's patients have constipation and fatigue; butyrate deficiency may contribute via similar gut-brain axis disruption. Exploratory cross-disease bridge.
@@ -618,7 +618,7 @@ Comparing butyrate dynamics in Parkinson's vs ME/CFS may reveal:
 
 *Certainty:* 0.40 (butyrate deficiency in Parkinson's constipation documented; fatigue mechanisms in Parkinson's not butyrate-linked; ME/CFS butyrate deficiency not linked to Parkinson's; cross-condition bridge is exploratory)
 
-] <sec:butyrate-parkinsons-bridge> <spec:butyrate-parkinsons-bridge>
+] <spec:butyrate-parkinsons-bridge>
 
 #speculation(title: [X6: Butyrate-MS Fatigue Overlap])[
 Multiple sclerosis fatigue shows gut dysbiosis patterns; butyrate deficiency may contribute to fatigue via immune and metabolic mechanisms. Cross-disease exploration.
@@ -659,7 +659,7 @@ Comparing butyrate dynamics in MS vs ME/CFS may reveal:
 
 *Certainty:* 0.45 (butyrate deficiency in MS gut dysbiosis documented; butyrate supplementation shows benefit in MS fatigue; ME/CFS butyrate deficiency documented; butyrate efficacy in ME/CFS not tested; cross-condition exploration is hypothesis-generating)
 
-] <sec:butyrate-ms-fatigue-overlap> <spec:butyrate-ms-fatigue-overlap>
+] <spec:butyrate-ms-fatigue-overlap>
 
 #speculation(title: [Early-Onset Severity Reflects Developmental Neurovulnerability, Not Disease Duration])[
 Early-onset ME/CFS is more severe (OR 2.15) independent of illness duration . Brain myelination and synaptic pruning continue into the mid-20s. Immune-mediated neuroinflammation during this developmental window may produce permanent structural changes (reduced prefrontal white matter integrity, altered default mode network connectivity) that are irreversible even if the immune trigger resolves. Late onset, hitting a mature brain, produces functional but not structural disruption. This predicts: (a) early-onset patients will show reduced fractional anisotropy on DTI in prefrontal regions compared to late-onset patients matched for duration and severity; (b) the severity difference will be mediated by white matter integrity metrics; (c) early-onset patients will show altered functional connectivity in networks still maturing at age 16 (default mode, salience network).
@@ -2014,3 +2014,31 @@ The study achieved moderate discrimination between conditions using PCA and PLS-
 
 *Implications:* These findings suggest that ME/CFS and long COVID, despite overlapping clinical features, show divergent monocyte/DC phenotypes that, if replicated, *might* inform different therapeutic approaches. The direction of any therapeutic implication (restorative vs resolutive) remains speculative from cross-sectional immunophenotyping alone and requires longitudinal and interventional data. Proposals for immune-restorative approaches (for ME/CFS) and immune-resolution strategies (for long COVID) are tentative and must be conditioned on replication, functional validation, and resolution of the fundamental question whether the CD80/CCR7 reductions in ME/CFS represent maladaptive suppression or adaptive tolerance (see Chapter 18 and hypothesis registry).
 ] <ach:petrov-2026-monocyte-dc-divergence>
+
+=== Long-COVID as Counterfactual Validation of ME/CFS Biology
+
+The Watton--Prusty review @Watton2026unified provides a systematic analysis of how Long-COVID research has functioned as a "decisive counterfactual" for ME/CFS. (Certainty: 0.55)
+
+*Convergent findings across post-infectious conditions.* Across multiple large-scale Long-COVID cohorts, investigators have independently identified abnormalities that map directly onto pre-existing strands of ME/CFS research: persistent innate and adaptive immune dysregulation, endothelial dysfunction and impaired microvascular regulation, aberrant coagulation and fibrinolysis-resistant fibrin(ogen) aggregates, metabolic reprogramming and mitochondrial stress signatures, circulating pathogenic factors capable of inducing cellular dysfunction in vitro, and evidence of viral persistence or abortive reactivation without productive infection. Each of these domains has been investigated in ME/CFS for decades, but Long-COVID studies provided statistical power, temporal anchoring (known infection date), and institutional legitimacy that ME/CFS research historically lacked. @Watton2026unified
+
+*Shared but not identical.* The Shahbaz et al. comparison of Long-COVID patients meeting ME/CFS criteria vs. idiopathic ME/CFS found both overlap and divergence: shared immune activation was evident, but Long-COVID-associated cases showed more pronounced T-cell exhaustion, NK-cell alteration, MAIT/$gamma delta$ T-cell depletion, and inflammatory monocyte skewing. Concurrently, Petrov et al. identified divergent monocyte/DC profiles (Section @ach:petrov-2026-monocyte-dc-divergence). These findings support placement of ME/CFS and Long-COVID within a broader post-infectious disease framework while arguing against unqualified mechanistic equivalence. The specific clinical expression — ME/CFS, Long-COVID, or post-infectious fatigue — may depend on the combination of pre-existing vulnerabilities and the nature of the trigger, consistent with the terrain-plus-trigger model. @Watton2026unified
+
+*Research governance implications.* The pace of progress on Long-COVID demonstrates what is achievable when disease burden, funding, and methodological ambition align. For ME/CFS, this convergence validates long-reported patient experiences and provides an emerging basis for translation of mechanistic insights into targeted therapeutic approaches — while also underscoring the consequences of decades of underinvestment. @Watton2026unified
+
+#hypothesis(title: [Post-Infectious Disease Spectrum Model])[
+ME/CFS, Long-COVID, and related post-infectious syndromes represent points on a disease spectrum sharing core mechanisms of impaired physiological resilience, with individual clinical expression determined by trigger-specific factors, pre-existing vulnerability, and disease duration. (Certainty: 0.45)
+
+*Evidence:* Convergent findings across multiple biological domains (immune, vascular, metabolic, virological) in both conditions; divergent features in immune cell phenotypes suggesting trigger-specific or duration-specific effects. The Shahbaz and Petrov studies support both overlap and divergence simultaneously.
+] <hyp:post-infectious-spectrum>
+
+=== Selective Immune Cell Reprogramming as Shared Post-Infectious Mechanism
+
+Recent single-cell and functional immunology studies @Watton2026unified have sharpened the understanding of how specific immune cell populations can exert disproportionate effects on whole-organism physiology in post-infectious disease. Rather than reflecting uniform immune activation, ME/CFS and Long-COVID increasingly appear to involve selective, stable reprogramming of particular immune subsets — most notably monocytes and T cells. Studies have identified distinct monocyte transcriptional and metabolic states in Long-COVID, characterised by altered interferon signalling, inflammatory tone, and metabolic gene expression. Such monocytes influence vascular function, coagulation, and tissue oxygenation through cytokine release, endothelial interaction, and modulation of redox balance.
+
+In parallel, Kumar et al. demonstrated persistent alterations in T-cell activation and exhaustion profiles following viral infection, with consequences for immune regulation, mitochondrial signalling, and systemic energy balance. Complementing these findings, studies report functional impairment of antiviral T-cell responses in both ME/CFS and Long-COVID, including CD8+ T-cell dysfunction with exhaustion-like features, alongside expansion of atypical CD4+CD8+ "double-positive" T-cell populations. @Watton2026unified
+
+*Conceptual advance.* These observations support a model in which post-infectious disease is maintained by maladaptively reprogrammed immune populations. In this framework, immune cells function not merely as effectors of inflammation, but as mobile regulators of metabolic and vascular physiology, capable of shaping organism-level responses to stress. This conceptual shift integrates observations of monocyte alterations, T-cell exhaustion, endothelial vulnerability, and mitochondrial dysfunction into a single immunological framework. (Certainty: 0.50)
+
+#open-question(title: [Immune Reprogramming Durability and Reversibility])[
+How stable is the reprogrammed immune state in post-infectious conditions? Is selective immune cell reprogramming an actively maintained process (requiring ongoing antigenic or inflammatory drive) or an epigenetically self-sustaining state that persists after the initial trigger resolves? The Bergemann hyperthermia study's finding that some stress signatures are dynamically modifiable suggests at least partial reversibility, but the durability and scope of immune reprogramming remain unknown. Longitudinal studies tracking immune cell states from acute infection through chronicity, combined with perturbation-based assays (heat, exercise, pharmacological challenge), are needed. @Watton2026unified
+] <oq:immune-reprogramming-durability>

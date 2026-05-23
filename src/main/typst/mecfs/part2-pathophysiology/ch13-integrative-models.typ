@@ -50,6 +50,57 @@ Several mechanisms operate across multiple systems to maintain chronic illness:
 
 *Research questions:* Distinguishing which mechanisms are primary drivers vs. secondary consequences remains challenging. Longitudinal studies tracking biomarker trajectories from acute onset are needed.
 
+=== The Unified Post-Infectious Model: Impaired Physiological Resilience
+<sec:unified-post-infectious-model>
+
+Watton and Prusty @Watton2026unified have proposed a comprehensive reframing of ME/CFS as a disorder of impaired physiological resilience within post-infectious disease biology. This unified model integrates findings across immunological, vascular, metabolic, and virological domains into a single overarching framework centred on loss of adaptive capacity.
+
+#achievement(title: [Unified Mechanistic Model of ME/CFS])[
+ME/CFS is best understood as a disorder of impaired physiological adaptability and resilience. The contemporary literature converges on a biologically coherent model in which immune disturbance, metabolic reprogramming, endothelial dysfunction, and impaired physiological adaptability interact across systems, positioning ME/CFS within a broader class of post-infectious, immune-mediated chronic diseases characterised by dynamic, stress-revealed pathology rather than fixed structural lesions. @Watton2026unified (Certainty: 0.55)
+
+*Key insight — state-dependent pathology.* A central conceptual advance is the recognition that key abnormalities are state-dependent rather than constitutive. Cellular and vascular systems may appear functionally intact under resting conditions yet fail when exposed to physiological, metabolic, or emotional stress. In this context, normal findings at rest do not signify normal function; they merely indicate that the system has not yet been sufficiently challenged. This principle applies across multiple domains:
+
+- *Endothelial cells* exposed to ME/CFS plasma appear normal at rest but show impaired adaptive capacity under metabolic, oxidative, or immune challenge — unable to up-regulate energy production, maintain redox balance, or preserve barrier integrity @Watton2026unified
+- *Mitochondrial function* may appear adequate at rest but fails to adapt to increased energy demand, consistent with a hypometabolic state maintained by the Cell Danger Response (see Chapter @ch:universal-mechanisms)
+- *Cerebrospinal fluid proteomics* reveal dynamic post-exertional alterations in neuroimmune and metabolic signalling pathways that are not evident at rest @Watton2026unified
+- *Functional MR spectroscopy* during visual stimulation reveals impaired metabolic adaptability that compensatory mechanisms mask at rest @Watton2026unified
+
+This reframing carries profound implications for experimental design and clinical interpretation. If pathology is dynamic rather than structural, it must be studied in motion, not at rest. Provocative or stress-based assays — metabolic, inflammatory, mechanical, or cognitive — are necessary to meaningfully assess function in ME/CFS. Resting biomarkers and static imaging will systematically underestimate disease burden.
+
+*Mechanistic convergence across domains.* The unified model identifies convergent abnormalities spanning:
+
+- *Immune dysregulation:* Persistent innate and adaptive immune activation, selective monocyte/T-cell reprogramming, abortive viral reactivation (herpesvirus dUTPases driving chronic innate immune activation without productive infection), fibronectin--IgG circulating immune complex alterations with homeostatic antibody depletion, and autoantibodies against $beta$-adrenergic and muscarinic receptors
+- *Metabolic reprogramming:* Hypometabolic signatures, mitochondrial fragmentation induced by circulating factors (IgG fractions), impaired oxidative phosphorylation, and dysregulated autophagy/mitophagy (elevated ATG13)
+- *Endothelial and microvascular dysfunction:* Stress-revealed impairment of endothelial metabolic responsiveness, coagulation abnormalities, fibrinolysis-resistant fibrin(ogen) aggregates, haptoglobin proteoform insufficiency exacerbating haem-mediated oxidative stress
+- *Lipid and membrane biology:* SMPDL3B-mediated sphingolipid imbalance altering lipid raft fluidity and immune receptor organisation, linking omics-level lipid abnormalities to cellular immunophenotypes
+- *Extracellular vesicle communication:* EVs carrying altered proteomic signatures, severity-associated immune markers, and mitochondrial DNA capable of activating innate immune pathways, providing a mechanism for local cellular dysfunction to propagate systemic effects
+
+*Replicability at pathway vs. gene level.* A systematic reanalysis by Keele et al. found that only 2 genes were consistently replicated across ME/CFS transcriptomic studies, with proteomic convergence largely absent. However, convergence emerged at the pathway level, with mitochondrial dysregulation as a recurrent feature across multiple data modalities. This pattern — limited reproducibility at individual molecular signals but consistency at the systems level — supports the unified model's emphasis on coordinated multi-system dysfunction rather than single-gene defects.
+
+*Long-COVID as validation.* The emergence of Long-COVID provided a decisive counterfactual. With adequate funding and interdisciplinary methodology, large-scale cohorts rapidly identified: (a) persistent innate and adaptive immune dysregulation, (b) endothelial dysfunction and microvascular impairment, (c) aberrant coagulation, (d) metabolic reprogramming and mitochondrial stress, (e) circulating pathogenic factors inducing cellular dysfunction in vitro, and (f) evidence of viral persistence or abortive reactivation. Each of these domains maps onto pre-existing strands of ME/CFS research. What Long-COVID provided was not conceptual novelty but statistical power, temporal anchoring, and institutional legitimacy — demonstrating that prior ME/CFS mechanistic uncertainty reflected insufficient investigative capacity, not the absence of biology.
+
+*Key uncertainties.* The Watton--Prusty model identifies critical unresolved questions: what upstream events stabilise persistent immune-metabolic dysregulation? Why do only a subset of individuals exposed to the same trigger develop chronic illness? What mechanism governs the transition from acute trigger to sustained dysregulation? Are the identified abnormalities primary drivers or secondary adaptations? Resolving these questions requires large deeply-phenotyped cohorts incorporating physiological challenge paradigms together with integrated multi-omic and functional approaches, including time-resolved single-cell transcriptomics (scSLAM-seq), exercise-challenged CSF proteomics, and plasma-mediated pathophysiology studies. @Watton2026unified (Certainty: 0.55)
+]
+
+#open-question(title: [Mechanistic Convergence vs. Divergence Across Post-Infectious Conditions])[
+Do ME/CFS, Long COVID, and other post-infectious syndromes share a common core mechanism (impaired physiological resilience) despite differing initial triggers, or do they represent mechanistically distinct entities with superficial symptom overlap? The Shahbaz et al. comparison of Long-COVID-associated ME/CFS vs. idiopathic ME/CFS found both overlap and divergence: shared immune activation was evident, but Long-COVID-associated cases showed more pronounced T-cell exhaustion, NK-cell alteration, MAIT/$gamma delta$ T-cell depletion, and inflammatory monocyte skewing. These findings support placement within a broader post-infectious framework while arguing against unqualified mechanistic equivalence. Longitudinal studies tracking the emergence and evolution of these signatures from acute infection through chronicity are needed to resolve this question. @Watton2026unified
+] <oq:post-infectious-convergence-divergence>
+
+=== The Historical Arc: From Psychosocial Dominance to Biological Re-Framing
+<sec:historical-arc>
+
+The Watton--Prusty review @Watton2026unified provides a comprehensive historical analysis that contextualises current biological models within the broader evolution of ME/CFS understanding. (Certainty: 0.55)
+
+*Early post-infectious framing.* Descriptions of illness consistent with ME date to mid-20th-century epidemic outbreaks (Royal Free Hospital, London, 1955). These accounts documented prolonged post-infectious disability with neurological and autonomic features, establishing an initial biomedical framing. However, the absence of definitive laboratory abnormalities and the episodic nature of outbreaks allowed alternative interpretations to gain traction — notably, the reclassification of the Royal Free outbreak as "mass psychogenic illness" in 1970, which introduced an enduring scepticism that shaped subsequent research priorities and funding. @Watton2026unified
+
+*The PACE trial and its methodological legacy.* The PACE trial (2011) tested CBT and graded exercise therapy (GET) for CFS/ME, reporting recovery in 22% of participants. Subsequent methodological critiques by patients, independent researchers, and investigative journalists identified outcome switching (post-hoc relaxation of recovery criteria), reliance on subjective outcomes in unblinded settings, and claims of recovery that were contradicted by objective measures. Freedom of Information tribunal rulings, reanalyses of trial data, and peer-reviewed reassessments progressively undermined the claims of robust efficacy — culminating in the 2021 revision of UK NICE guidance, which removed GET as a recommended treatment and reframed CBT as supportive rather than curative. @Watton2026unified
+
+*The broader lesson.* ME/CFS thus became a rare example of post-hoc guideline reversal driven by evidential reassessment rather than therapeutic innovation. The episode reinforces a fundamental principle: in conditions characterised by uncertainty and unmet need, the availability of an explanation should not be conflated with its validity. The absence of immediate biomedical answers should not be resolved by prematurely settling on explanatory models that are convenient, scalable, or professionally reassuring. @Watton2026unified
+
+*From chronic underfunding to mechanistic convergence.* The longstanding absence of definitive biomarkers or targeted therapies reflects a persistent mismatch between disease burden and biomedical investment. For decades, ME/CFS research lacked the funding to support large, well-phenotyped cohorts or to test systems-level hypotheses. The emergence of Long-COVID changed this: within months, unprecedented funding, infrastructure, and interdisciplinary efforts were mobilised. This investment did not merely generate SARS-CoV-2-specific insights — it enabled more detailed investigation of biological processes relevant to ME/CFS that had previously been limited by smaller study sizes and methodological constraints. The implication is direct: prior mechanistic uncertainty reflected insufficient investigative capacity, not the absence of biology. @Watton2026unified
+
+*Remaining uncertainties in historical interpretation.* This historical analysis is itself a review synthesis, not original historical research. The PACE trial's original investigators maintain that methodological criticisms are overstated. Readers should weigh the full record of methodological critique, data reanalysis, and the 2021 NICE reversal against the original claims when forming conclusions about this period of ME/CFS history.
+
 == Research Questions and Future Directions
 <sec:questions>
 

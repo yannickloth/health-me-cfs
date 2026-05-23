@@ -2718,6 +2718,27 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     *DOI:*: #link("https://doi.org/10.3390/diagnostics9030091")[10.3390/diagnostics9030091]
     *PMCID:*: PMC6787585
 
+=== Watton \& Prusty 2026 --- Reframing ME/CFS: Unified Mechanistic Model of Chronic Post-Infectious Diseases
+
+    *Full Citation:*: Watton P, Prusty BK. Reframing ME/CFS: Toward a Unified Mechanistic Model of Chronic Post-Infectious Diseases. _Journal of Translational Medicine_. 2026. Article in Press.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-026-08319-3")[10.1186/s12967-026-08319-3]
+    *Received:*: 27 February 2026. *Accepted:*: 15 May 2026.
+    *Study Design:*: Narrative review with structured literature synthesis (PubMed, January 2000--April 2026)
+    *Key Findings:*:
+
+        - Traces historical evolution from early post-infectious observations through psychosocial model dominance (PACE trial, CBT/GET) to contemporary biological frameworks, documenting the 2021 NICE guideline reversal as a rare example of post-hoc evidence-driven correction
+        - Proposes impaired physiological resilience (adaptive capacity) as the central unifying concept in ME/CFS: pathology is state-dependent, revealed under physiological stress rather than at rest
+        - Articulates a unified systems-level model integrating: immune dysregulation with abortive viral reactivation (herpesvirus dUTPases driving chronic innate immune activation without productive infection), mitochondrial/metabolic reprogramming (Cell Danger Response, hypometabolic signatures), endothelial dysfunction as stress-revealed (not constitutive), fibronectin--IgG immune complex alterations with homeostatic antibody depletion, lipid raft disorganization (SMPDL3B), autophagy/mitophagy dysregulation (ATG13), extracellular vesicle-mediated propagation, selective monocyte/T-cell reprogramming, autoantibodies (β-adrenergic, muscarinic), and ion channel dysfunction (TRPM3, calcium signalling)
+        - Long-COVID research provided decisive counterfactual: with adequate funding and systems-level methodology, coherent biological signals rapidly emerged, validating that prior ME/CFS mechanistic uncertainty reflected insufficient investigative capacity rather than absence of biology
+        - Keele et al.\ (2025) systematic reanalysis: only 2 genes consistently replicated across ME/CFS transcriptomic studies, but convergence at pathway level (mitochondrial dysregulation) across multiple data modalities
+        - Bergemann hyperthermia study: whole-body heat challenge transiently reduced autophagy markers and improved mitochondrial respiration in ME/CFS PBMCs, supporting dynamic modifiability of stress signatures
+        - Emerging perturbation-based methods (scSLAM-seq, exercise-challenged CSF proteomics, functional MR spectroscopy during visual stimulation) demonstrate that compensatory mechanisms mask abnormalities at rest
+        - Haptoglobin proteoform variation linked to PEM: reduced functional Hp capacity permits exaggerated oxidative/vascular stress during exertion
+        - Identifies key uncertainties: upstream events that stabilise persistent immune-metabolic dysregulation, role of viral persistence vs abortive reactivation, why only a subset of infected individuals develop chronic illness, transition mechanism from acute trigger to sustained dysregulation
+
+    *Conclusion:*: ME/CFS is best understood as a disorder of impaired physiological resilience within post-infectious disease biology. Convergence across immunological, vascular, metabolic, and virological domains supports a unified systems-level interpretation. Future progress depends on large deeply-phenotyped cohorts incorporating physiological challenge paradigms together with integrated multi-omic and functional approaches.
+    *Limitations:*: Narrative review (not systematic); Article in Press (unedited version, subject to further revision); no original data generated; AI-assisted writing disclosed.
+
 // =============================================================================
 // =============================================================================
 
