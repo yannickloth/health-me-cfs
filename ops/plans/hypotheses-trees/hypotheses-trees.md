@@ -211,5 +211,5 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | cd4-tcell-innate | [subtrees/cd4-tcell-innate.md](subtrees/cd4-tcell-innate.md) | 2026-05-18 | 5 | 5 | ✅ integrated | —
 | monocyte-dc-immunophenotyping | [subtrees/monocyte-dc-immunophenotyping.md](subtrees/monocyte-dc-immunophenotyping.md) | 2026-05-20 | 38 | 12 | 🔵 in progress | —
 | watton2026-unified-mechanistic-model | [subtrees/watton2026-unified-mechanistic-model.md](subtrees/watton2026-unified-mechanistic-model.md) | 2026-05-23 | 52 | 0 | 🔵 in progress | —
-| sleepfm-ai-sleep-prediction | [subtrees/sleepfm-ai-sleep-prediction.md](subtrees/sleepfm-ai-sleep-prediction.md) | 2026-05-24 | 31 | 4 | 🔵 in progress | —
+| sleepfm-ai-sleep-prediction | [subtrees/sleepfm-ai-sleep-prediction.md](subtrees/sleepfm-ai-sleep-prediction.md) | 2026-05-24 | 31 | 31 | ✅ done | —
 | tissue-specific-autoantibodies-long-covid | [subtrees/tissue-specific-autoantibodies-long-covid.md](subtrees/tissue-specific-autoantibodies-long-covid.md) | 2026-05-24 | 36 | 0 | 🔵 in progress | —
