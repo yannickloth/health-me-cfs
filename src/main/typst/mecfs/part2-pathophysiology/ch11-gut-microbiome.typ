@@ -401,6 +401,39 @@ The butyrate–mast cell inhibition data (Folkerts et al.\ 2020) derive from _in
 Certainty: Low–Moderate. Individual mechanistic components are well-established; their integration into a self-reinforcing cycle in ME/CFS is plausible but unvalidated.
 ]
 
+*Microbiome–ECM Interactions.*
+
+#speculation(title: [Gut Microbiome-ECM Degradation-Immune Activation Triad])[
+*Certainty: 0.40.* Bacterial proteases from dysbiosis degrade intestinal and systemic ECM. Certain pathobionts express proteases (gingipains, collagenases) that directly degrade collagen, elastin, and other structural ECM components. Bacterial translocation exposes ECM proteins to the immune system, potentially generating autoantibodies against collagen and elastin. This gut-ECM-immune triad provides a mechanistic link between intestinal dysbiosis and connective tissue manifestations observed in ME/CFS (joint hypermobility, easy bruising, poor wound healing).
+
+*Mechanistic components:*
+- Bacterial proteases degrade tight junction proteins and ECM directly
+- LPS translocation exposes ECM proteins, generating autoantibodies
+- Systemic circulation of bacterial proteases affects distant tissue beds
+
+*Testable predictions:*
+- ME/CFS patients will show elevated bacterial protease activity in stool and serum
+- Autoantibodies against collagen and elastin will correlate with dysbiosis severity
+- Antibiotic treatment reducing bacterial load will decrease ECM degradation markers
+
+*Limitations:* Bacterial proteases have not been measured in ME/CFS. Autoantibodies against ECM components have not been systematically assessed. The extent to which gut-derived proteases affect systemic tissues is unknown.
+] <spec:microbiome-ecm-triad>
+
+#speculation(title: [ECM Fragment-Microbiome Bidirectional Metabolic Interaction])[
+*Certainty: 0.30.* ECM fragments from tissue degradation (e.g., due to CCI, joint hypermobility, or basement membrane pathology) serve as bacterial substrates influencing microbiome composition. Bacteria capable of metabolizing ECM components (collagen-degrading species) may expand in ME/CFS, creating a feedback loop. Simultaneously, microbiome metabolites (SCFAs, TMAO) affect ECM remodeling enzymes (MMPs, LOX). This bidirectional interaction, when disrupted in ME/CFS, creates a vicious cycle of ECM degradation and dysbiosis.
+
+*Mechanistic components:*
+- ECM fragments → selective growth advantage for collagen-degrading bacteria → dysbiosis
+- Dysbiosis → altered metabolite profile → MMP/LOX dysregulation → ECM degradation
+
+*Testable predictions:*
+- ME/CFS stool metagenomics will show enrichment of collagen-degrading bacterial species
+- ECM degradation markers in serum will correlate with abundance of collagen-degrading bacteria
+- Modulating microbiome (probiotics, antibiotics) will affect ECM turnover markers
+
+*Limitations:* Collagen-degrading bacteria have not been profiled in ME/CFS microbiomes. ECM metabolite-bacterial interactions are complex and incompletely characterized. Causality direction is difficult to establish.
+] <spec:ecm-microbiome-bidirectional>
+
 #hypothesis(title: [MCAS/HIT $arrow.r$ Barrier Dysfunction $arrow.r$ Mitochondrial Failure Cascade])[
 In patients with mast cell activation syndrome (MCAS) or histamine intolerance (HIT), a pathophysiological cascade may contribute to ME/CFS symptoms:
 

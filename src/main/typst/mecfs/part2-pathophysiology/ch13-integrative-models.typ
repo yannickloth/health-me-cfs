@@ -316,3 +316,140 @@ The unified model identifies multiple converging abnormalities — ATG13, haptog
 #speculation(title: [Lipid Raft Dynamics Coupled to Mitochondrial Quality Control — Bistability Model])[
 *Certainty: 0.20. Probability of yielding testable predictions: 0.05.* SMPDL3B-mediated lipid raft coordination with mitophagy could form a coupled system where lipid raft fluidity (R), sphingolipid balance (S), mitophagy flux (M), and mitochondrial fragmentation (F) create feedback loops stabilising the CDR state (bistability). Coupled differential equations could identify parameter regimes for state transitions and predict which intervention type (R-modulation, S-modulation, M-enhancement) most efficiently resets to the normal state. Falsifiable: coupled R-S-M-F models will reproduce bistability (normal vs CDR) and predict state-transition intervention targets. @Watton2026unified
 ] <spec:lipid-raft-mito-coupled-model>
+
+=== Connective Tissue Disorder Parallels and ECM Pathology
+
+The high comorbidity between ME/CFS and hypermobile Ehlers-Danlos syndrome (hEDS) suggests shared pathophysiology involving extracellular matrix (ECM) regulation, hypoxia signaling, and connective tissue mechanics. The following hypotheses explore cross-disease parallels that may inform ME/CFS mechanisms and treatment approaches.
+
+#hypothesis(title: [HIF-1alpha-Mitochondrial-ECM Self-Reinforcing Pathogenic Triad])[
+*Certainty: 0.55.* Three-way positive feedback mechanism: HIF-1alpha suppresses mitochondrial function and drives ECM pathology; mitochondrial dysfunction increases ROS stabilizing HIF-1alpha; ECM degradation generates DAMPs activating innate immunity. This self-reinforcing loop explains the refractory nature of ME/CFS by creating multi-system entrapment. The triad integrates findings across mitochondrial dysfunction (Chapter @ch:energy-metabolism), immune activation (Chapter @ch:immune-dysfunction), and cardiovascular abnormalities including capillary basement membrane thickening (Chapter @ch:cardiovascular). @Moschini2026HIFTendinopathy @Wirth2026CTDMECFS
+
+*Mechanistic components:*
+- HIF-1alpha suppression of mitochondrial biogenesis (via PGC-1alpha inhibition) and shift to glycolytic metabolism
+- Mitochondrial ROS production stabilizing HIF-1alpha under normoxic conditions
+- ECM degradation releasing matrix fragments (e.g., hyaluronan) acting as DAMPs
+- DAMP-mediated TLR2/4 activation sustaining chronic inflammation
+
+*Therapeutic implications:* Targeting any node in this triad (HIF-1alpha stabilization, mitochondrial support, ECM remodeling) may disrupt the self-reinforcing loop. Anti-VEGF agents, mitochondrial antioxidants (MitoQ), or MMP inhibitors could be tested in ME/CFS patients with confirmed HIF-1alpha activation or ECM pathology.
+
+*Testable predictions:*
+- ME/CFS patients will show elevated HIF-1alpha target genes (VEGF, GLUT1, LDHA) correlating with mitochondrial dysfunction markers
+- Circulating ECM degradation products (MMP-generated fragments) will correlate with both HIF-1alpha activity and inflammatory markers
+- Interventions targeting mitochondrial ROS (CoQ10, alpha-lipoic acid) will reduce HIF-1alpha stabilization and ECM degradation markers
+
+*Limitations:* HIF-1alpha activation has not been comprehensively profiled across ME/CFS tissues. ECM degradation markers have not been systematically measured. Causality within the triad remains inferential.
+] <hyp:hif1a-mito-ecm-triad>
+
+#speculation(title: [Systemic Tendinopathy as Distinct ME/CFS Endotype])[
+*Certainty: 0.40.* A subset of ME/CFS patients with comorbid hEDS or generalized joint hypermobility may represent a distinct endotype characterized by systemic tendinopathy rather than central fatigue mechanisms. This endotype shows disproportionate tendon pain, easy dislocation, and poor wound healing, with tendon pathology serving as a peripheral manifestation of the broader connective tissue pathology. @Ramirez-Paesano2023CCI
+
+*Distinguishing features:*
+- Prominent musculoskeletal pain focused on tendons and ligaments
+- Objective evidence of tendon degeneration on imaging (hypoechogenicity, neovascularization)
+- Poor response to standard fatigue treatments but better response to connective tissue support (collagen, vitamin C, copper)
+- High prevalence of hEDS diagnostic criteria or Beighton scores ≥ 5
+
+*Testable predictions:*
+- ME/CFS patients with hEDS comorbidity will show different cytokine profiles (lower central inflammation markers, higher tissue remodeling markers)
+- Tendon ultrasound will reveal pathology in a majority of hEDS+ ME/CFS patients versus < 20% of hEDS- patients
+- Collagen crosslinking biomarkers (pyridinoline, deoxypyridinoline) will correlate with symptom severity in this endotype
+
+*Limitations:* No validated criteria for "systemic tendinopathy" endotype. Tendon imaging has not been systematically performed in ME/CFS cohorts. Overlap with fibromyalgia complicates phenotyping.
+] <spec:systemic-tendinopathy-endotype>
+
+#speculation(title: [Tendinopathy as ME/CFS Model: HIF-1alpha-VEGF-MMP-3 Cascade])[
+*Certainty: 0.50.* Chronic tendinopathy and ME/CFS share HIF-1alpha-mediated pathology: both show persistent HIF-1alpha activation, VEGF-driven neovascularization, and MMP-3-mediated ECM degradation. In tendinopathy, this cascade produces failed tendon healing and chronic pain; in ME/CFS, systemic manifestations may arise through similar mechanisms affecting multiple tissue beds. Moschini et al. demonstrate that tendinopathy involves HIF-1alpha stabilization driving VEGF and MMP-3, producing pathological matrix remodeling that fails to resolve. @Moschini2026HIFTendinopathy
+
+*Parallel pathways:*
+- Tendinopathy: HIF-1alpha → VEGF → neovascularization + MMP-3 → collagen degradation → failed healing
+- ME/CFS: HIF-1alpha → VEGF → microvascular abnormalities + MMP-3 → basement membrane thickening/ECM degradation → chronic symptoms
+
+*Testable predictions:*
+- ME/CFS patients will show elevated VEGF and MMP-3 levels correlating with symptom severity
+- VEGF and MMP-3 elevation will be greater in ME/CFS patients with comorbid tendinopathy or hEDS
+- MMP-3 inhibition (doxycycline) will improve symptoms in ME/CFS patients with elevated MMP-3
+
+*Limitations:* VEGF and MMP-3 have not been systematically measured in ME/CFS. The extent to which local tendinopathy mechanisms generalize systemically is unknown. MMP-3 inhibition carries side-effect risks requiring careful risk-benefit assessment.
+] <spec:tendinopathy-hif1a-parallel>
+
+#speculation(title: [Diabetic Microangiopathy and ME/CFS Basement Membrane Thickening: Shared Pathways])[
+*Certainty: 0.55.* Diabetes causes capillary basement membrane thickening via AGEs and TGF-beta. ME/CFS shows similar basement membrane thickening (Wust et al. 2024) without diabetes. Comparing these pathways could reveal ME/CFS-specific mechanisms and suggest repurposing of anti-AGE/anti-TGF-beta treatments from diabetes to ME/CFS. @Wust2024capillary
+
+*Shared pathology:*
+- Diabetes: hyperglycemia → AGE accumulation → TGF-beta activation → basement membrane thickening (collagen IV overproduction)
+- ME/CFS: unknown trigger → basement membrane thickening (collagen IV deposition) → capillary rarefaction → impaired tissue perfusion
+
+*Potential ME/CFS-specific mechanisms:*
+- Chronic hypoxia (via HIF-1alpha) driving TGF-beta expression independent of hyperglycemia
+- Autoantibodies against ECM components inducing pathological remodeling
+- Impaired matrix metalloproteinase regulation reducing normal turnover
+
+*Therapeutic implications:* Anti-AGE agents (alagebrium), TGF-beta inhibitors, or collagen crosslink breakers could be tested in ME/CFS patients with confirmed basement membrane thickening. These agents have established safety profiles from diabetes trials.
+
+*Testable predictions:*
+- ME/CFS patients will show elevated AGEs and TGF-beta compared to controls
+- Basement membrane thickness on capillary imaging will correlate with AGE and TGF-beta levels
+- Anti-AGE therapy will reduce basement membrane thickness and improve microvascular perfusion
+
+*Limitations:* AGE and TGF-beta have not been measured in ME/CFS cohorts. Basement membrane imaging is not clinically available. The extent to which diabetic mechanisms generalize to ME/CFS is unknown.
+] <spec:diabetic-bm-thickening>
+
+#speculation(title: [Marfan Syndrome-Mechanical Failure Model for CCI])[
+*Certainty: 0.40.* Marfan syndrome shows fibrillin-1 deficiency → aortic dilation under normal stress due to reduced tensile strength of connective tissue. CCI (craniocervical instability) involves ligament weakness → instability under normal loading. The Marfan model predicts that beta-blockers reduce aortic dilation by reducing mechanical stress on weakened tissue; analogous approaches might slow CCI progression in ME/CFS patients with connective tissue vulnerability. @Bragee2020
+
+*Parallel mechanisms:*
+- Marfan: fibrillin-1 deficiency → reduced connective tissue tensile strength → aortic wall stress → dilation under normal pressure
+- CCI: ligament laxity (genetic or acquired) → reduced tensile strength → craniocervical joint stress → instability under normal load
+
+*Therapeutic parallels:*
+- Marfan: beta-blockers reduce hemodynamic stress, slowing aortic dilation
+- CCI: beta-blockers or other autonomic stabilizers could reduce mechanical stress on lax ligaments, slowing instability progression
+
+*Testable predictions:*
+- ME/CFS patients with CCI will show abnormal fibrillin-1 or other connective tissue protein levels
+- Beta-blocker therapy will slow CCI progression (measured by serial imaging) in responsive patients
+- Autonomic dysfunction severity will correlate with CCI progression rate
+
+*Limitations:* CCI diagnosis and measurement are controversial. Beta-blocker effects on connective tissue mechanics are extrapolated from cardiovascular effects. No ME/CFS-specific CCI natural history data exist.
+] <spec:marfan-cci-parallel>
+
+#speculation(title: [Scleroderma-ME/CFS Tissue-Specific ECM Dysregulation Parallel])[
+*Certainty: 0.35.* Scleroderma shows ECM overproduction (fibrosis) leading to tissue stiffening and organ dysfunction. ME/CFS shows mixed ECM pathology: degradation in some areas (tendons, ligaments), overproduction/basement membrane thickening in others (capillaries). TGF-beta emerges as a common pathway, but with tissue-specific regulation producing divergent outcomes. @Wirth2026CTDMECFS
+
+*Divergent ECM responses:*
+- Scleroderma: TGF-beta → fibroblast activation → collagen overproduction → fibrosis
+- ME/CFS tendons: TGF-beta imbalance → inadequate repair → collagen degradation → tendinopathy
+- ME/CFS capillaries: TGF-beta activation → basement membrane thickening → impaired perfusion
+
+*Tissue-specific factors:*
+- Mechanical loading patterns (tendons under high tension vs. capillaries under low tension)
+- Local inflammatory milieu (immune cell infiltration differences)
+- Matrix composition variation (different collagen types, proteoglycans)
+
+*Testable predictions:*
+- TGF-beta levels will be elevated in ME/CFS but with different downstream effectors in different tissues
+- Fibroblasts from different ME/CFS tissue beds will show different ECM production profiles under TGF-beta stimulation
+- Tissue-specific TGF-beta modulation will be required for therapeutic benefit
+
+*Limitations:* TGF-beta has not been systematically measured across ME/CFS tissues. Fibroblast phenotyping is not clinically available. Tissue-specific TGF-beta effects in ME/CFS are untested.
+] <spec:scleroderma-ecm-parallel>
+
+#speculation(title: [Alzheimer Disease MMP-Mediated ECM Degradation and ME/CFS Cognitive Symptoms Parallel])[
+*Certainty: 0.40.* Alzheimer's disease involves MMP-mediated degradation of neural ECM (perineuronal nets) → synaptic loss and cognitive decline. ME/CFS cognitive symptoms ("brain fog") may involve similar mechanisms via systemic inflammation affecting neural ECM. MMP inhibitors under study for Alzheimer's could have therapeutic relevance for ME/CFS cognitive dysfunction.
+
+*Parallel pathways:*
+- Alzheimer: neuroinflammation → MMP activation → perineuronal net degradation → synaptic loss → cognitive decline
+- ME/CFS: systemic inflammation → MMP activation → neural ECM degradation → synaptic disruption → "brain fog"
+
+*Supporting evidence:*
+- ME/CFS shows elevated inflammatory markers (Chapter @ch:immune-dysfunction) known to activate MMPs
+- ECM pathology is documented in ME/CFS peripheral tissues; neural ECM may be similarly affected
+- Cognitive symptoms in ME/CFS share features with early Alzheimer's (attention, processing speed, working memory)
+
+*Testable predictions:*
+- ME/CFS patients will show elevated MMP levels in CSF correlating with cognitive symptom severity
+- MMP inhibitors (doxycycline, minocycline) will improve cognitive symptoms in ME/CFS patients with elevated CSF MMPs
+- Neural ECM biomarkers (chondroitin sulfate proteoglycan fragments) will be elevated in ME/CFS CSF
+
+*Limitations:* CSF MMPs have not been measured in ME/CFS. Neural ECM has not been directly assessed. MMP inhibitors have significant side effects requiring careful patient selection.
+] <spec:alzheimer-mmp-parallel>

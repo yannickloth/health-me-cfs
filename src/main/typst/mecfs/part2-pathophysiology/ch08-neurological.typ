@@ -2114,4 +2114,90 @@ This model explains why ME/CFS patients experience fatigue fundamentally differe
 Stimulants (amphetamines, methylphenidate, modafinil) are generally *contraindicated* in ME/CFS despite their effectiveness in other fatigue conditions. While they may temporarily mask fatigue by artificially boosting alertness and motivation, they do not address the underlying energy deficit and may enable activity levels that exceed the patient's true physiological capacity. This can precipitate post-exertional malaise (PEM) and potentially cause permanent deterioration. The neurological model presented here explains why: stimulants affect perceived effort and motivation (downstream of the TPJ dysfunction) without correcting the fundamental mismatch between the brain's effort calculations and actual metabolic capacity. Patients may feel capable of activity that their bodies cannot sustain, leading to crashes. This differs fundamentally from stimulant use in conditions like ADHD or narcolepsy, where the underlying metabolic machinery is intact.
 
 A further concern specific to ME/CFS is a _metabolic paradox_ created by stimulant-induced appetite suppression. Catecholaminergic stimulants (including methylphenidate and amphetamines) suppress hunger signals through dopamine and norepinephrine pathways @Volkow2012brain. In a patient with already-impaired energy metabolism, this suppression of compensatory hunger—the body's attempt to increase substrate availability in the face of cellular energy deficit—removes a critical homeostatic signal. The patient feels less hungry not because their energy needs are met, but because the medication has silenced the hunger circuit. The result is that patients may further reduce caloric intake at precisely the time when metabolic support is most needed. Clinicians using stimulants in selected ME/CFS patients (see Chapter @ch:symptom-management) should actively monitor body weight and encourage structured meal schedules independent of appetite perception.
-]
+] <warn:ch08-stimulant-paradox>
+
+#hypothesis(title: [Glymphatic-Capillary Clearance Enhancement via Slow-Paced Breathing])[
+*Certainty: 0.55.* Basement membrane thickening in ME/CFS capillaries (Wüst et al. 2024 @Wust2024capillary) impairs both vascular perfusion AND glymphatic clearance—the brain's waste removal system that operates during sleep through perivascular spaces surrounded by basement membranes. Slow breathing at 6 breaths/min enhances arterial pulsation, which is a key driver of glymphatic flow (Section @sec:ch15-ne-vasomotion). Combined with elevated head sleeping position (15–30°), this intervention may enhance both cerebral perfusion and glymphatic clearance simultaneously.
+
+*Evidence base:*
+Bragee et al. (2020) documented that 78% of ME/CFS patients meet IIH (idiopathic intracranial hypertension) criteria, suggesting elevated intracranial pressure that may impair glymphatic drainage @Bragee2020. Capillary basement membrane thickening (Wüst et al. 2024 @Wust2024capillary) physically restricts glymphatic flow through perivascular spaces. Slow breathing improves POTS symptoms (Ryabkova et al. 2024 @Ryabkova2024dysautonomia) via enhanced vagal tone, suggesting central autonomic benefits.
+
+*Proposed mechanism:*
+Slow breathing (6 breaths/min, ~10-second cycle: 4-second inhale, 6-second exhale) increases respiratory sinus arrhythmia and arterial pulsatility amplitude. This enhanced pulsation drives CSF flow through perivascular spaces, mechanically overcoming basement membrane restriction. Elevated head position uses gravity to assist venous drainage, reducing intracranial pressure and facilitating glymphatic efflux.
+
+*Testable predictions:*
+- ME/CFS patients practicing 6 breaths/min breathing for 15 minutes before sleep will show improved next-morning cognitive performance (processing speed, working memory) compared to normal breathing
+- DTI-ALPS glymphatic index will improve after 4 weeks of nightly slow-breathing + elevated-head protocol
+- Patients with confirmed capillary basement membrane thickening (via muscle biopsy) will show greater response than those without structural BM changes
+
+*Treatment implications:* Slow-paced breathing is zero-cost, low-risk, and addresses both perfusion and clearance simultaneously. Elevated head sleeping (wedge pillow or bed elevation 15–30°) requires no equipment beyond pillows or adjustable bed. This protocol may serve as an adjunct to sleep hygiene and other interventions for unrefreshing sleep and brain fog.
+] <hyp:ch08-glymphatic-capillary-clearance>
+
+#speculation(title: [Post-Infectious Acquired Chiari via Dural Inflammation])[
+*Certainty: 0.35.* Bragee et al. (2020) documented that 45% of ME/CFS patients have Chiari malformation type I versus 0.5–1% in the general population @Bragee2020—a 45- to 90-fold increase that cannot be explained by congenital prevalence alone. This suggests acquired tonsillar descent: post-infectious dural inflammation and thickening increase intracranial pressure and reduce CSF compliance, pushing cerebellar tonsils inferiorly without requiring structural skull abnormality.
+
+*Supporting evidence:*
+Ramirez-Paesano et al. (2023) described CCI (craniocervical instability) as a common finding in ME/CFS, with dural thickening contributing to mechanical compression of neural structures @Ramirez-Paesano2023CCI. The Chiari prevalence in ME/CFS exceeds congenital prevalence by orders of magnitude, strongly favoring acquired over congenital etiology.
+
+*Proposed mechanism:*
+Post-infectious inflammation triggers dural mast cell activation and fibroblast proliferation, producing dural thickening and reduced compliance. CSF pressure transmission is impaired, creating pressure gradients that drive tonsillar descent. Unlike congenital Chiari, this acquired form may be reversible with anti-inflammatory treatment or dural decongestion.
+
+*Falsifiable predictions:*
+- ME/CFS patients with acquired Chiari will show dural thickening on cervical MRI (dural diameter >3 mm) compared to congenital Chiari controls
+- Anti-inflammatory treatment (e.g., LDN, mast cell stabilizers) will reduce dural thickness measured by serial MRI and improve CSF flow metrics
+- Cervical decompression surgery will show differential response: acquired Chiari patients will improve more than congenital controls, suggesting reversibility
+
+*Treatment implications:* Unlike congenital Chiari which primarily requires surgical decompression, acquired Chiari may respond to anti-inflammatory approaches targeting dural inflammation (mast cell stabilizers, LDN) and reducing intracranial pressure (slow breathing, elevated head sleep position). Surgical intervention should be considered only after inflammatory optimization fails.
+] <spec:ch08-acquired-chiari>
+
+#hypothesis(title: [Basement Membrane-Glymphatic Bidirectional Impairment])[
+*Certainty: 0.55.* Glymphatic flow occurs through perivascular spaces surrounded by capillary basement membranes (BM). Wüst et al. (2024) documented BM thickening and collagen IV deposition in ME/CFS skeletal muscle capillaries @Wust2024capillary. If this extends to cerebral capillaries, BM hypertrophy physically restricts glymphatic flow, producing waste accumulation. Impaired clearance of inflammatory mediators (IL-1$beta$, TNF-$alpha$) from perivascular spaces then sustains local inflammation that promotes further BM thickening—a bidirectional impairment loop.
+
+*Evidence chain:*
+Glymphatic dysfunction is documented in ME/CFS via reduced DTI-ALPS index (Chaganti 2025 in Long COVID, relevant to ME/CFS overlap) @Chaganti2025longCovidGlymphatic. Capillary BM thickening is documented in muscle (Wüst 2024 @Wust2024capillary) and likely extends systemically. BM-Glymphatic structural coupling is established in neuroanatomy: perivascular spaces are bounded by basement membranes; BM integrity determines glymphatic hydraulic conductivity.
+
+*Proposed mechanism:*
+Step 1: Post-infectious inflammation triggers BM thickening via fibroblast collagen IV deposition
+Step 2: Thickened BM reduces hydraulic conductivity of perivascular spaces, impairing glymphatic clearance
+Step 3: Reduced clearance allows inflammatory mediators and metabolic waste to accumulate
+Step 4: Local inflammation sustains fibroblast activation and collagen IV production, further thickening BM
+Step 5: Loop reinforces unless interrupted at either structural (BM) or clearance (glymphatic) node
+
+*Testable predictions:*
+- Cerebral capillary basement membrane thickness (measurable via post-mortem tissue or advanced imaging) will correlate inversely with DTI-ALPS glymphatic index
+- Patients with more severe BM thickening will show greater symptom burden (brain fog, unrefreshing sleep) independent of other variables
+- Interventions that reduce glymphatic load (slow breathing, sleep optimization) will slow BM thickening progression in longitudinal studies
+
+*Treatment implications:* Interventions should target both arms: (1) reduce BM thickening via anti-inflammatory and antifibrotic approaches, (2) enhance glymphatic clearance despite BM restriction via arterial pulsation enhancement (slow breathing), sleep optimization, and CSF pressure management.
+] <hyp:ch08-bm-glymphatic-bidirectional>
+
+#speculation(title: [Proprioceptive Fatigue-Induced Functional Cervical Instability])[
+*Certainty: 0.40.* Cervical instability contributes to ME/CFS symptoms in some patients (Bragee 2020 @Bragee2020, Ramirez-Paesano 2023 @Ramirez-Paesano2023CCI). Beyond structural CCI from ligamentous laxity, muscle fatigue may produce functional instability: sustained neck muscle exhaustion reduces tone, impairing proprioceptive input from cervical mechanoreceptors, which creates cervicothoracic instability mimicking CCI without structural laxity.
+
+*Proposed mechanism:*
+Neck muscles (deep cervical flexors, multifidi) provide proprioceptive feedback about head position and cervical stability. When these muscles fatigue—which occurs rapidly in ME/CFS due to mitochondrial dysfunction and impaired ATP synthesis—proprioceptive signal quality degrades. The brain receives ambiguous information about cervical stability, reduces confidence in head movements, and may compensate with pathological muscle tension patterns. This functional instability produces symptoms indistinguishable from structural CCI (headache, dizziness, nausea, brain fog) despite normal structural imaging.
+
+*Falsifiable predictions:*
+- ME/CFS patients without structural CCI (normal cervical MRI) will show proprioceptive deficits on cervical joint position sense testing correlating with muscle fatigue scores
+- Cervical proprioceptive training (targeted exercises for deep cervical flexors) will improve symptoms even in patients without structural instability
+- EMG-measured cervical muscle endurance time will predict symptom severity during head-dependent activities (reading, computer use) independently of structural findings
+
+*Clinical implications:* Differentiating functional from structural CCI guides treatment: structural CCI requires orthopedic stabilization (collar, PT, potentially surgery), while functional instability responds to proprioceptive training and graded neck muscle endurance exercise without requiring invasive intervention.
+] <spec:ch08-proprioceptive-fatigue-instability>
+
+#speculation(title: [Cervical Sympathetic Ganglion Compression in CCI])[
+*Certainty: 0.40.* CCI may compress superior cervical ganglion (SCG) and stellate ganglion (cervicothoracic ganglion), producing sympathetic overactivity that mimics or exacerbates POTS. The SCG provides sympathetic innervation to the head (pupil dilation, sweating), while the stellate ganglion innervates the upper extremities and thoracic viscera. Compression at the craniocervical junction could produce dysautonomia that responds to ganglion-specific interventions.
+
+*Evidence base:*
+Bragee et al. (2020) documented 45% Chiari prevalence in ME/CFS @Bragee2020, with high overlap between CCI symptoms and autonomic dysfunction. Ramirez-Paesano et al. (2023) described CCI as a treatable cause of ME/CFS symptoms @Ramirez-Paesano2023CCI. Anatomical studies confirm that SCG and stellate ganglion lie in close proximity to the craniocervical junction; tonsillar descent in CCI could mechanically compress these structures.
+
+*Proposed mechanism:*
+Tonsillar descent and dural thickening in CCI reduce space in the craniocervical junction. The SCG and stellate ganglion, positioned laterally to the vertebral column at C2–C3 and C7–T1 respectively, may experience intermittent compression during head movements or sustained poor posture. Compression produces aberrant sympathetic signaling: intermittent compression may cause irritative firing (excessive sympathetic output), while chronic compression may cause conduction block followed by compensatory hypersensitivity.
+
+*Testable predictions:*
+- ME/CFS patients with CCI+ symptoms will show abnormal sympathetic testing (excessive standing norepinephrine, inappropriate heart rate response) disproportionate to other autonomic measures
+- Stellate ganglion block (diagnostic/therapeutic injection) will transiently improve POTS symptoms in CCI+ patients
+- Upright cervical MRI will show reduced ganglion space correlating with sympathetic overactivity markers
+
+*Treatment implications:* Stellate ganglion block could serve both diagnostic (improvement confirms sympathetic contribution) and therapeutic (providing symptom relief) purposes. Cervical stabilization (collar, physical therapy, potentially surgery) addresses the root mechanical cause rather than just modulating sympathetic output.
+] <spec:ch08-sympathetic-ganglion-compression>

@@ -1154,3 +1154,123 @@ EV cargo changes with PEM severity. Multi-analyte EV panels (miRNA, protein, mtD
 If SMPDL3B coordinates lipid raft-mitochondria crosstalk, variation in SMPDL3B expression may define ME/CFS subtypes: low-SMPDL3B patients may have dominant lipid raft dysfunction (TRPM3/GPCR autoantibody profiles), while high-SMPDL3B patients may have dominant mitochondrial/mitophagy pathology. Falsifiable: stratifying by SMPDL3B expression will reveal differential correlations with TRPM3 autoantibodies, mitochondrial morphology, and response to membrane-stabilising vs mitophagy-enhancing interventions. Probability of yielding clinically useful subtypes: 0.06. @Watton2026unified
 ] <oq:smpdl3b-stratification>
 
+#hypothesis(title: [Post-Exertional MMP Surge as PEM Amplifier])[
+*Certainty: 0.50.* Post-exertional malaise (PEM) involves exaggerated matrix metalloproteinase (MMP) release 24–48 hours post-exertion, producing transient connective tissue weakening that amplifies symptom worsening. This explains why PEM feels qualitatively different from fatigue—PEM involves actual tissue destabilization, while fatigue reflects energy depletion alone.
+
+*Evidence base:*
+Moschini et al. (2026) documented that high-intensity functional training (HIFT) triggers tendinopathy through MMP-3 pathway activation, with MMP-3 release peaking 24–48 hours post-exertion @Moschini2026HIFTendinopathy. MMP-3 degrades extracellular matrix components (collagen, proteoglycans), weakening tissue integrity during the recovery window.
+
+*Proposed mechanism in ME/CFS:*
+Physical or cognitive exertion in ME/CFS triggers exaggerated MMP-3 and MMP-9 release from:
+- Mitochondrial stress responses (ROS signaling to MMP transcription)
+- Mast cell degranulation (tryptase activates pro-MMPs)
+- Fibroblast activation (TGF-$beta$ signaling to MMP production)
+- Inflammatory cytokine signaling (IL-1$beta$, TNF-$alpha$ upregulate MMP expression)
+
+MMP surge 24–48h post-exertion degrades capillary basement membranes, weakens tendinous attachments, and disrupts tissue architecture. This transient weakening produces:
+- Increased cerebral blood flow variability (worsening brain fog)
+- Worsened orthostatic symptoms (reduced vascular integrity)
+- Tendon and joint pain (tissue destabilization)
+- Generalized symptom amplification across systems
+
+*Connection to connective tissue chapter:*
+This mechanism links to basement membrane thickening documented by Wüst et al. (2024) @Wust2024capillary and connective tissue disorder hypotheses (Chapter @ch:energy-metabolism, Hypothesis @hyp:hif1alpha-mito-ecm-triad). Chronic MMP surges may trigger compensatory basement membrane thickening, creating a cycle: MMP surge → tissue weakening → compensatory BM thickening → impaired perfusion → more stress → more MMP.
+
+*Testable predictions:*
+- ME/CFS patients will show exaggerated MMP-3/MMP-9 elevation at 24–48h post-exertion compared to healthy controls
+- Peak MMP levels will correlate with PEM severity (fatigue, brain fog, orthostatic symptoms)
+- MMP inhibitors (doxycycline at sub-antibiotic doses) will attenuate PEM severity in controlled trials
+- Patients with connective tissue disorders (hEDS) will show greater MMP surge magnitude than non-hypermobile patients
+
+*Treatment implications:* Low-dose doxycycline (40 mg daily) inhibits MMP activity without antibiotic effects and is FDA-approved for periodontal disease. Could be tested as PEM prophylaxis when taken before planned exertion. Mast cell stabilizers may reduce MMP activation upstream by preventing mast cell degranulation.
+] <hyp:ch15-mmp-surge-pem>
+
+#speculation(title: [Piezo Channel-Mediated Mast Cell Mechanosensing in Hypermobility])[
+*Certainty: 0.30.* Mast cells express Piezo1 and Piezo2 mechanosensitive ion channels that respond to mechanical force with calcium influx and downstream degranulation. In hypermobile ME/CFS patients (hEDS overlap), abnormal connective tissue compliance produces pathological mechanical forces on mast cells, triggering chronic low-grade Piezo activation and mast cell degranulation independent of traditional IgE-mediated triggers.
+
+*Evidence base:*
+Piezo channels are expressed on mast cells and mediate mechanically-induced degranulation (environmental stretching, tissue compression). Hypermobility produces excessive tissue deformation during normal movements, creating abnormal mechanical stress on embedded mast cells. No ME/CFS-specific Piezo studies exist; this is a novel synthesis of established mast cell biology and connective tissue disorder physiology.
+
+*Proposed mechanism:*
+Normal connective tissue limits mechanical deformation, protecting mast cells from excessive force. In hEDS and hypermobile phenotypes, lax connective tissue allows excessive movement and deformation. Mast cells embedded in this tissue experience:
+- Abnormal stretching forces during routine activities
+- Compression from nearby structures due to joint hypermobility
+- Shear forces from reduced tissue support
+
+These forces activate Piezo channels → calcium influx → degranulation → histamine, tryptase, cytokine release → symptom generation (flushing, brain fog, orthostatic symptoms). This mechanism operates independently of allergens or other traditional mast cell triggers, explaining the "spontaneous" degranulation pattern in some MCAS patients.
+
+*Testable predictions:*
+- Hypermobile ME/CFS patients will show higher baseline urinary N-methylhistamine (mast cell activation marker) than non-hypermobile patients
+- Mast cells from hypermobile patients (if obtainable via skin biopsy) will show heightened calcium response to mechanical stimulation in vitro
+- Stretching exercises (which increase mechanical force on tissues) will temporarily increase mast cell mediators in hypermobile patients but not controls
+- Piezo channel antagonists (GsMTx4 peptide, currently experimental) will reduce mast cell degranulation in hypermobile patient-derived mast cells
+
+*Clinical implications:* Recognizing Piezo-mediated mast cell activation as a mechanism in hypermobile ME/CFS reframes "exercise intolerance" as potentially being partially driven by mechanically-induced mast cell degranulation. This suggests: (1) low-impact activities with controlled joint range may reduce mast cell activation compared to high-impact exercise, (2) compression garments may stabilize tissues and reduce mechanical mast cell activation, (3) mast cell stabilizers may be particularly important in hypermobile patients. Future Piezo antagonists could provide targeted treatment.
+] <spec:ch15-piezo-mast-mechanosensing>
+
+#speculation(title: [Autonomic Nerve-ECM Bidirectional Signaling Dysregulation])[
+*Certainty: 0.30.* Autonomic nerves are embedded within extracellular matrix (ECM), which provides structural support and bi-directional signaling cues. Neuropeptides released by autonomic nerves modulate fibroblast ECM production. Conversely, ECM composition influences nerve growth and function. Dysautonomia in ME/CFS may directly cause ECM abnormalities through abnormal neural-fibroblast signaling, and ECM pathology may perpetuate dysautonomia—a bidirectional dysfunction loop.
+
+*Evidence base:*
+Neuro-ECM interactions are established in autonomic physiology: sympathetic and parasympathetic fibers release neuropeptides (substance P, CGRP, neuropeptide Y) that modulate fibroblast activity. Fibroblasts produce ECM components that guide nerve growth and provide substrate for signaling. In ME/CFS, both dysautonomia (Chapter @ch:cardiovascular) and ECM pathology (basement membrane thickening @Wust2024capillary) are documented, but their interaction has not been investigated.
+
+*Proposed mechanism:*
+Autonomic dysregulation in ME/CFS produces abnormal neuropeptide release patterns:
+- Sympathetic overdrive → excessive norepinephrine and neuropeptide Y → fibroblast activation → collagen IV overproduction → basement membrane thickening
+- Parasympathetic withdrawal → reduced acetylcholine signaling → impaired ECM remodeling regulation
+- Abnormal substance P/CGRP balance → mast cell activation → inflammatory ECM degradation
+
+Conversely, ECM abnormalities perpetuate dysautonomia:
+- Thickened basement membranes impair nerve-ECM signaling
+- Reduced ECM compliance produces abnormal mechanical forces on autonomic ganglia
+- Altered ECM composition changes guidance cues for nerve growth
+
+*Testable predictions:*
+- ME/CFS patients will show correlation between autonomic measures (HRV, standing norepinephrine) and ECM markers (circulating collagen IV fragments, basement membrane degradation products)
+- Peripheral nerve biopsies will show ECM abnormalities surrounding autonomic fibers correlating with functional dysautonomia
+- Interventions that normalize autonomic signaling (beta-blockers, clonidine) will reduce ECM turnover markers over time
+
+*Treatment implications:* This bidirectional model suggests that treating dysautonomia may also improve ECM pathology, and vice versa. Combination approaches targeting both arms (autonomic stabilizers + ECM-modulating agents like MMP inhibitors) may be more effective than single-target interventions.
+] <spec:ch15-autonomic-ecm-signaling>
+
+#speculation(title: [Widespread Subclinical Tendinopathy as ME/CFS Phenotype])[
+*Certainty: 0.40.* HIF-1$alpha$ drives tendinopathy development (Moschini 2026 @Moschini2026HIFTendinopathy). ME/CFS patients may have a "tendon phenotype" characterized by widespread subclinical tendinopathy—tendon pathology insufficient for clinical tendinopathy diagnosis but sufficient to cause tendon pain and reduce exercise tolerance. This phenotype contributes to exercise intolerance via tendon-specific mechanisms distinct from mitochondrial dysfunction.
+
+*Evidence base:*
+Moschini et al. (2026) identified HIF-1$alpha$ as the master regulator of tendinopathy development in high-intensity functional training, with MMP-3 activation producing ECM degradation @Moschini2026HIFTendinopathy. ME/CFS involves chronic tissue hypoxia (reduced cerebral blood flow, capillary basement membrane thickening) which should elevate HIF-1$alpha$ levels. Many ME/CFS patients report tendon/joint pain out of proportion to exercise intensity.
+
+*Proposed mechanism:*
+Chronic tissue hypoxia in ME/CFS (from vascular dysfunction, reduced capillary density, basement membrane thickening) chronically elevates HIF-1$alpha$ in tendon fibroblasts. HIF-1$alpha$ activation drives:
+- MMP-3 production → ECM degradation → tendon weakening
+- VEGF production → neovascularization (abnormal blood vessel growth in tendon)
+- Glycolytic shift → lactate accumulation → inflammatory environment
+
+This produces subclinical tendinopathy across multiple tendon groups, particularly load-bearing tendons (Achilles, patellar, rotator cuff). Patients experience:
+- Tendon pain after minimal exertion
+- Reduced exercise tolerance due to tendon pain rather than muscle fatigue
+- Tissue stiffness in mornings (ECM edema from overnight inflammation)
+- Bidirectional connection with PEM: exercise worsens tendinopathy (more MMP release), and existing tendinopathy worsens PEM response (more inflammation amplification)
+
+*Testable predictions:*
+- ME/CFS patients will show ultrasound evidence of subclinical tendinopathy (tendon thickening, hypoechoic areas) in multiple tendon groups compared to healthy controls
+- Tendon HIF-1$alpha$ expression (measurable via biopsy if ethically obtainable) will correlate with exercise intolerance severity
+- Patients reporting tendon pain as a prominent symptom will show greater response to tendon-targeted interventions (eccentric loading protocols, MMP inhibitors) than to mitochondrial cofactors alone
+
+*Clinical implications:* Recognizing a tendon phenotype in ME/CFS reframes some exercise intolerance as tendon-limited rather than energy-limited. Treatment should include:
+- Eccentric loading protocols to strengthen tendons (adapted for energy tolerance)
+- MMP inhibitors (low-dose doxycycline) to reduce ECM degradation
+- Compression to stabilize tendons during activity
+- Activity modification to reduce tendon-specific loading while maintaining overall deconditioning prevention
+
+*Cross-reference:* See Chapter @ch:energy-metabolism for the HIF-1alpha-Mitochondria-ECM Triad (Hypothesis @hyp:hif1alpha-mito-ecm-triad) and Chapter @ch:energy-metabolism for mitochondrial contributions to exercise intolerance. The tendon phenotype operates in parallel to, not instead of, these other mechanisms.
+] <spec:ch15-tendon-phenotype>
+
+#speculation(title: [Autonomic-Vasomotor ECM Dysregulation])[
+*Certainty: 0.40.* (cross-reference to Chapter @ch:energy-metabolism and Chapter @ch:immune-dysfunction) Autonomic nerves regulate vascular tone, and vascular ECM provides the structural substrate for vasomotion. In ME/CFS, bidirectional dysregulation between autonomic signaling and vascular ECM may contribute to orthostatic intolerance and microcirculatory dysfunction.
+
+*Evidence base:*
+See Chapter @ch:energy-metabolism, Hypothesis @hyp:hif1alpha-mito-ecm-triad for detailed mechanism. In brief: autonomic dysregulation produces abnormal neuropeptide release → fibroblast activation → ECM overproduction (collagen IV) → basement membrane thickening → impaired vasomotion → worsened perfusion → more autonomic stress.
+
+*Clinical implications:* This mechanism connects cardiovascular symptoms (POTS, orthostatic intolerance) with connective tissue pathology in a bidirectional loop. Treatment may benefit from targeting both autonomic function and ECM remodeling simultaneously.
+] <spec:ch15-autonomic-vasomotor-ecm>
+

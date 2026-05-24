@@ -598,8 +598,7 @@ The higher prevalence but better reversibility of orthostatic intolerance in
 pediatric ME/CFS (70–90% prevalence with high response to treatment @Ojha2024pediatricPOTS @Heine2019pediatricCFS) compared
 to adult disease suggests qualitatively different mechanisms. We speculate that
 pediatric OI may primarily represent functional miscalibration of an autonomic
-system still undergoing developmental tuning, while adult OI may involve
-structural damage (small fiber neuropathy, receptor autoantibody-mediated
+system still undergoing developmental tuning, while adult OI may involve structural damage (small fiber neuropathy, receptor autoantibody-mediated
 damage) accumulated over illness duration. This distinction would explain why
 OI treatment in children often produces multi-domain improvement (fatigue,
 cognition, wellbeing) while adult responses may be more limited. If correct,
@@ -608,6 +607,57 @@ functional miscalibration from progressing to structural damage.
 
 *Certainty: 0.35* (prevalence and prognosis data documented @Ojha2024pediatricPOTS @Heine2019pediatricCFS; functional vs.\ structural mechanism distinction is speculative and untested)
 ] <spec:oi-distinction>
+
+#hypothesis(title: [Structural vs Functional Orthostatic Intolerance Stratification])[
+*Certainty: 0.60.* Bragee et al. (2020) documented that ME/CFS patients with craniocervical instability (CCI) show strong correlation between CCI severity and orthostatic intolerance symptoms (r=0.42) @Bragee2020. This suggests that CCI-mediated autonomic dysfunction represents a *structural* form of orthostatic intolerance distinct from *functional* POTS (pure autonomic dysregulation without mechanical compression). Structural OI (CCI-mediated) and functional OI (standard POTS) require different treatment profiles and should be stratified in clinical practice.
+
+*Two distinct pathophysiologies:*
+
+*Structural OI (CCI-mediated):*
+- Mechanism: Cervical instability compresses sympathetic ganglia (superior cervical ganglion, stellate ganglion) and brainstem autonomic nuclei, producing mechanical irritation of sympathetic outflow
+- Treatment profile: Responds to structural interventions—cervical stabilization (collar, physical therapy targeting deep cervical flexors), potentially surgical decompression in refractory cases
+- Supporting evidence: Bragee 2020 showed r=0.42 CCI-orthostatic correlation; Ramirez-Paesano 2023 demonstrated symptom improvement with CCI treatment @Ramirez-Paesano2023CCI
+
+*Functional OI (standard POTS):*
+- Mechanism: Autonomic dysregulation without structural compression—involves hypovolemia, beta-adrenergic receptor autoantibodies, peripheral denervation
+- Treatment profile: Responds to volume expansion (fludrocortisone, increased salt/water), autonomic medications (midodrine, ivabradine), immunomodulation (autoantibody reduction)
+- Supporting evidence: Established POTS literature; Ryabkova 2024 showed HRV abnormalities in ME/CFS @Ryabkova2024dysautonomia
+
+*Clinical stratification test:*
+Upright cervical MRI (performed during active symptoms) can identify CCI+ vs. CCI- patients:
+- CCI+: Cervical tonsillar descent >5 mm, reduced craniocervical junction space, dural thickening
+- CCI-: Normal cervical anatomy
+
+*Falsifiable predictions:*
+- Upright MRI CCI+ patients will show better response to cervical stabilization (collar, PT) than to standard POTS medications (midodrine, fludrocortisone)
+- Upright MRI CCI- patients will show better response to volume expansion and autonomic meds than to cervical interventions
+- CCI+ patients will have elevated standing norepinephrine and abnormal sympathetic testing disproportionate to other autonomic measures
+
+*Treatment implications:* Pre-treatment upright cervical MRI or careful clinical CCI assessment should guide first-line therapy. Structural OI patients receive cervical stabilization first; functional OI patients receive standard POTS treatment. This stratification may improve treatment response rates by matching mechanism to intervention.
+] <hyp:ch10-structural-functional-oi>
+
+#speculation(title: [tVNS for Structural-Autonomic Dysfunction in Hypermobile ME/CFS])[
+*Certainty: 0.40.* Transcutaneous vagus nerve stimulation (tVNS) at the tragus (25 Hz, below sensory threshold) may provide dual benefit in hypermobile ME/CFS patients with concurrent autonomic instability and mast cell activation syndrome (MCAS): (1) enhances parasympathetic tone to counter sympathetic overdrive in POTS/dysautonomia; (2) suppresses mast cell degranulation via alpha7-nicotinic acetylcholine receptor (alpha7-nAChR) activation on mast cells.
+
+*Dual mechanism in hypermobile ME/CFS:*
+Hypermobile Ehlers-Danlos syndrome (hEDS) co-occurs with ME/CFS in the Septad framework (Section @sec:septad). hEDS patients frequently have both autonomic dysfunction (POTS prevalence 80% @Miller2020arterial) and MCAS (prevalence 33–50% in connective tissue disorder clinics). These conditions interact: mast cell histamine release exacerbates orthostatic symptoms via vasodilation; sympathetic overdrive increases mast cell activation. tVNS addresses both arms simultaneously.
+
+*Alpha7-nAChR anti-inflammatory pathway:*
+The alpha7-nAChR on mast cells is activated by acetylcholine release from vagus nerve endings. When stimulated, this receptor suppresses mast cell degranulation and reduces release of histamine, tryptase, and pro-inflammatory cytokines. tVNS provides controlled acetylcholine release at the target tissue level without systemic effects, potentially stabilizing mast cells in MCAS-positive ME/CFS patients.
+
+*Autonomic stabilization:*
+tVNS enhances parasympathetic vagal tone, which: (1) reduces sympathetic overactivity (improving HRV and baroreflex sensitivity), (2) normalizes heart rate response to orthostatic challenge, (3) improves cerebral blood flow regulation via brainstem autonomic nuclei modulation.
+
+*Testable predictions:*
+- Hypermobile ME/CFS patients with MCAS+POTS will show greater symptom reduction from tVNS than non-hypermobile patients, reflecting dual mechanism benefit
+- tVNS will reduce urinary N-methylhistamine (mast cell activation marker) in MCAS+ ME/CFS patients, confirming alpha7-nAChR effect
+- HRV parameters (RMSSD, HF power) will improve after 4 weeks of tVNS treatment, correlating with orthostatic symptom improvement
+
+*Clinical considerations:*
+tVNS devices are available as prescription medical devices (gammaCore, Nemos) and consumer devices (Sensate). Dosing protocols vary: typical regimens involve 1–3 sessions daily of 2–5 minutes each at sub-threshold intensity. Side effects are generally mild (local skin irritation, mild throat discomfort at onset). Contraindications include active vagotomy, implanted vagus nerve stimulators, and certain cardiac arrhythmias.
+
+*Limitations:* No ME/CFS-specific tVNS trials have been published. Evidence comes from extrapolation from POTS studies (small case series) and alpha7-nAChR biology (established in other inflammatory conditions). The dual benefit hypothesis has not been tested directly.
+] <spec:ch10-tvns-hypermobile>
 
 === Hypertension in ME/CFS
 <sec:hypertension>
