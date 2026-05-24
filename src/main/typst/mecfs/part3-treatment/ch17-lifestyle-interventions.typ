@@ -1730,3 +1730,92 @@ PEM management requires immediate, consistent response within the critical 24--4
 #open-question(title: [Controlled Hyperthermia for Immunological Reset in Autoantibody-Mediated Disease])[
 Controlled hyperthermia (whole-body heating to 40 °C) induces heat shock protein expression, mobilises lymphocytes from lymphoid tissues into circulation, and has shown transient benefit in autoimmune conditions. The theoretical application in ME/CFS: hyperthermia-triggered lymphocyte mobilisation could make tissue-resident autoreactive plasmablasts accessible to immunoadsorption or pharmacological depletion — addressing the sanctuary hypothesis (@hyp:extrafollicular-sanctuary). However, this is highly speculative: heat stress alone can trigger PEM in ME/CFS patients, the pro-inflammatory effects of hyperthermia (IL-6 spike) could worsen symptoms, and the duration of mobilisation is minutes to hours — insufficient for a multi-day IA protocol. (Certainty: 0.15.) @Tatai2026TSAutoantibodies.
 ] <oq:hyperthermia-immunoreset>
+
+== Connective Tissue and Structural Interventions
+<sec:connective-tissue-interventions>
+
+ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cervical craniocervical instability (CCI) require specialized approaches that respect PEM constraints while addressing connective tissue weakness. These interventions target glymphatic clearance, circadian biology, and cervical stability with PEM-safe protocols.
+
+#hypothesis(title: [Slow-Paced Breathing + Elevated Head Position for Glymphatic-Capillary Clearance])[
+*Certainty: 0.55.* 6 breaths/min slow breathing enhances arterial pulsation; elevated head during sleep promotes CSF outflow. Addresses BM thickening + glymphatic dysfunction. Non-invasive, multi-mechanism. Certainty 0.55.
+
+*Mechanistic Rationale.* The glymphatic system—brain's waste clearance pathway—relies on arterial pulsation and CSF pressure gradients. Slow-paced breathing (6 breaths/minute) enhances arterial pulsation amplitude, driving glymphatic convective flow. Elevated head position during sleep promotes CSF outflow via cranial venous drainage. In ME/CFS with basement membrane thickening and impaired glymphatic clearance (Chapter:neurological), these combined approaches may reduce waste accumulation and improve glymphatic function.
+
+*Evidence Base.* Slow breathing increases arterial pulsatility and cerebral blood flow in healthy controls. Elevated head position improves CSF dynamics in hydrocephalus patients. Glymphatic enhancement improves clearance in sleep deprivation models. No ME/CFS-specific trials, but components are low-risk and physiologically grounded.
+
+*Clinical Implementation.* Slow-paced breathing: 6 breaths/minute (10-second cycle: 5-second inhale, 5-second exhale) for 10–15 minutes daily, ideally before sleep. Elevated head position: sleep with head elevated 20–30 degrees using wedge pillow or adjustable bed. Combine with consistent sleep schedule for maximal glymphatic benefit.
+
+*Monitoring Parameters.* Subjective brain fog, cognitive clarity, headache frequency. Objective markers if available: CSF clearance studies, glymphatic MRI (DTI-ALPS index), EEG slow-wave activity.
+
+*Limitations.* No ME/CFS outcome data. Individual variation in optimal breathing rate. Elevated sleep position may be uncomfortable initially; requires adaptation period. Glymphatic enhancement may be subtle and require longer duration (12+ weeks) for perceptible benefit.
+]
+
+#hypothesis(title: [Circadian Entrainment for Collagen Synthesis and Mast Cell Regulation])[
+*Certainty: 0.50.* Collagen synthesis peaks during sleep; mast cells have circadian clocks (Nakamura2014). Time-restricted feeding (10h daytime window) + morning light + strict sleep schedule could resynchronize both. Certainty 0.50 (biologically sound, non-invasive).
+
+*Mechanistic Rationale.* Collagen synthesis exhibits circadian rhythmicity with peak activity during nocturnal sleep. Mast cells also have intrinsic circadian clocks regulating degranulation and mediator release. ME/CFS involves disrupted circadian biology. Time-restricted feeding (10-hour daytime window), morning bright light exposure, and strict sleep schedule may resynchronize both collagen synthesis and mast cell regulation, reducing connective tissue symptoms and mast-cell-mediated inflammation.
+
+*Evidence Base.* Circadian regulation of collagen synthesis is documented in fibroblasts. Mast cell circadian clocks regulate histamine release and reactivity (Nakamura2014). Time-restricted feeding improves circadian entrainment in metabolic disorders. No ME/CFS-specific trials combining collagen and mast cell entrainment.
+
+*Clinical Implementation.* Time-restricted feeding: 10-hour eating window (e.g., 8 AM–6 PM), no caloric intake outside window. Morning light: 10,000 lux light box or natural daylight within 30 minutes of waking for 20–30 minutes. Strict sleep schedule: consistent bedtime and wake time within 30-minute window, weekend variation minimized.
+
+*Monitoring Parameters.* Collagen synthesis markers (PINP, PIIIINP) if available. Mast cell markers (serum tryptase, urinary histamine metabolites). Subjective: joint symptoms, Beighton score, flushing, GI symptoms.
+
+*Limitations.* No ME/CFS outcome data. Time-restricted feeding may be challenging for patients with glucose instability or nausea. Individual variation in circadian phase may require personalized timing. Requires consistent adherence for circadian effects.
+]
+
+#speculation(title: [Individualized 'Neutral Zone' Cervical Positioning Protocol])[
+*Certainty: 0.40.* Cervical ligaments have optimal length-tension relationship. Finding each patient's optimal position + ergonomic support → reduced CCI symptoms. Certainty 0.40.
+
+*Mechanistic Rationale.* Cervical ligaments have an optimal length-tension relationship where mechanical stress on lax ligaments is minimized. For hypermobile patients with CCI, finding each patient's "neutral zone"—the cervical position that minimizes ligamentous strain—may reduce symptoms. Individualized positioning + ergonomic support during sleep and activity may reduce mechanical stress on vulnerable cervical structures.
+
+*Evidence Base.* Length-tension relationship is established in biomechanics. Neutral zone concept used in spinal rehabilitation. Cervical positioning affects symptoms in CCI patients. No ME/CFS-specific neutral zone protocols; rationale extrapolated from orthopedic and rehabilitation literature.
+
+*Clinical Implementation.* Neutral zone identification: working with physical therapist, find cervical position that minimizes symptoms (typically slight flexion or neutral, varies individually). Use measurement tools (goniometer) to document optimal angle. Ergonomic support: custom pillow or cervical collar to maintain neutral zone during sleep. Daytime positioning: neck posture awareness during activity; ergonomic work station setup.
+
+*Monitoring Parameters.* Subjective: cervical pain, headache frequency, occipital neuralgia symptoms. Objective: cervical range of motion, Beighton score stability. Imaging (upright MRI or flexion/extension X-rays) if available to assess cervical alignment.
+
+*Limitations.* No ME/CFS trials. Requires physical therapist expertise in cervical biomechanics. Individual variation in neutral zone; may change over time. Equipment cost (custom pillows) may be barrier. PEM risk from positioning sessions must be monitored.
+]
+
+#hypothesis(title: [Endurance-Focused Isometric Cervical Training for CCI in ME/CFS])[
+*Certainty: 0.50.* Current PT focuses on strength; ME/CFS has endurance deficit. Low-resistance, high-repetition isometric training better suited for ME/CFS cervical stabilization. Matches ME/CFS physiology, PEM-safe. Certainty 0.50.
+
+*Mechanistic Rationale.* Cervical instability in hypermobile ME/CFS patients is typically managed with strengthening exercises. However, ME/CFS physiology involves endurance deficit more than strength deficit. Low-resistance, high-repetition isometric cervical training targets deep cervical stabilizer endurance—improving sustained postural control without triggering PEM. This approach matches ME/CFS pathophysiology and is PEM-safe.
+
+*Evidence Base.* Endurance-focused isometric training improves cervical stability in other populations (whiplash, cervical radiculopathy). ME/CFS shows endurance deficit on two-day CPET. Isometric training has lower cardiovascular demand than dynamic exercises. No ME/CFS-specific cervical endurance trials.
+
+*Clinical Implementation.* Low-resistance isometric holds: cervical flexor, extensor, and lateral flexor holds at 10–20% maximal effort. Duration: start with 10-second holds, progress to 30–60 seconds. Repetitions: 5–10 repetitions, 2–3 sets daily. Supine position initially to reduce orthostatic demand. Progress to seated as tolerated. Monitor HR to stay below anaerobic threshold.
+
+*Monitoring Parameters.* Subjective: cervical pain, headache frequency, cervical stability (sense of "giving way"). Objective: isometric hold endurance time, cervical range of motion. HR monitoring to ensure PEM-safe intensity.
+
+*Limitations.* No ME/CFS-specific protocols. Individual variation in tolerance. Requires supervision by PT familiar with ME/CFS. PEM risk if intensity not carefully calibrated. Progression must be very gradual.
+]
+
+#hypothesis(title: [Optimal Sleep Positioning for Cervical Loading and ECM Remodeling])[
+*Certainty: 0.55.* Neutral cervical spine support during sleep reduces mechanical stress on lax ligaments during ECM remodeling window. May also improve glymphatic flow. Certainty 0.55 (low-risk, multi-mechanism).
+
+*Mechanistic Rationale.* Collagen synthesis and ECM remodeling peak during sleep. Neutral cervical spine support during sleep reduces mechanical stress on lax ligaments during this critical remodeling window. Proper cervical alignment also facilitates glymphatic flow (impaired with cervical misalignment). For hypermobile ME/CFS patients, optimal sleep positioning may reduce cervical symptoms and support connective tissue remodeling.
+
+*Evidence Base.* Sleep is peak collagen synthesis period. Neutral spine alignment reduces ligamentous strain. Cervical positioning affects glymphatic CSF flow. Sleep posture affects symptoms in CCI patients. No ME/CFS-specific sleep positioning protocols, but components are physiologically grounded.
+
+*Clinical Implementation.* Neutral cervical support: contoured cervical pillow maintaining neutral alignment (slight lordosis, no excessive flexion/extension). Head elevation: 20–30 degrees to promote CSF drainage. Avoid stomach sleeping (rotates cervical spine). Back or side sleeping with pillow between knees for spinal alignment. Consider adjustable bed base for optimal positioning.
+
+*Monitoring Parameters.* Subjective: morning cervical pain, headache frequency, sleep quality. Objective: cervical range of motion upon waking. Sleep position adherence (can be monitored with sleep tracker or sleep diary).
+
+*Limitations.* No ME/CFS trials. Individual variation in optimal sleep position. Equipment cost (contoured pillow, adjustable bed). May require adaptation period. Sleep position adherence may be challenging.
+]
+
+#hypothesis(title: [Pacing-Integrated Progressive Cervical Overload for Ligament Adaptation])[
+*Certainty: 0.50.* Very gradual progressive overload with PEM monitoring — "pacing applied to connective tissue." Standard progression may trigger crashes; very slow progression may strengthen tissue without PEM. Certainty 0.50.
+
+*Mechanistic Rationale.* Connective tissue adaptation requires progressive mechanical overload to stimulate collagen synthesis and crosslinking. However, standard progressive overload protocols may trigger PEM in ME/CFS patients. A pacing-integrated approach—very gradual progression with continuous PEM monitoring—may provide sufficient stimulus for connective tissue adaptation without triggering crashes. This applies pacing principles to connective tissue loading.
+
+*Evidence Base.* Progressive overload drives connective tissue adaptation in athletes. PEM imposes stricter loading constraints in ME/CFS. Two-day CPET demonstrates impaired adaptation. No ME/CFS-specific progressive overload protocols. Rationale extrapolated from pacing and connective tissue biology.
+
+*Clinical Implementation.* Baseline establishment: determine baseline cervical loading tolerance (isometric hold duration at symptom onset). Progressive overload: increase load by 5–10% every 2–4 weeks only if no PEM triggered. PEM monitoring: track symptoms 24–72 hours after loading sessions; hold progression if PEM occurs. Loading types: isometric holds, light resistance band work, postural endurance.
+
+*Monitoring Parameters.* PEM tracking (delayed symptom onset). Cervical strength/endurance measures (isometric hold duration). Cervical symptoms (pain, stability). Collagen synthesis markers if available (PINP, PIIIINP).
+
+*Limitations.* No ME/CFS trials. Individual variation in PEM threshold. Requires patient education on PEM recognition and tracking. Progression may be very slow (months to years). Risk of PEM if progression not conservative enough.
+]

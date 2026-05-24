@@ -2197,3 +2197,104 @@ Work with a knowledgeable healthcare provider when possible, especially for high
 
 *Limitations:* The lipid-raft-to-autoantibody pathway is mechanistic reasoning with no human validation. Effect size on autoantibody titers is unknown and likely small. Not tested in ME/CFS. @Tatai2026TSAutoantibodies.
 ] <spec:omega3-lipid-rafts>
+
+== Connective Tissue Support Supplements
+<sec:connective-tissue-supplements>
+
+ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cervical craniocervical instability (CCI) may benefit from targeted nutritional support for connective tissue synthesis and extracellular matrix (ECM) homeostasis. The following supplements provide substrates and cofactors for collagen production, crosslinking, and tissue maintenance.
+
+#proposal(title: [Hydrolyzed Collagen Peptides + Vitamin C for Connective Tissue Support])[
+*Certainty: 0.50.* Collagen peptides (glycine-proline dipeptides) + vitamin C (cofactor for prolyl/lysyl hydroxylation). Rationale: provides substrates and cofactors for collagen synthesis. Dose: 10g hydrolyzed collagen peptides + 500mg vitamin C daily. Certainty 0.50 (well-established safety, mechanistic rationale, clinical precedent in athletes). No ME/CFS-specific data. Falsifiable: 12 weeks supplementation → increased PINP/PIIINP collagen synthesis markers in hypermobile ME/CFS.
+
+*Mechanistic Rationale.* Collagen peptides provide bioavailable glycine and proline-rich substrates that bypass the rate-limiting steps in collagen synthesis. Vitamin C is an essential cofactor for prolyl hydroxylase and lysyl hydroxylase, enzymes required for hydroxyproline and hydroxylysine formation—critical for triple-helix stability and crosslinking. Together, these substrates support de novo collagen production in hypermobile connective tissues.
+
+*Evidence Base.* Collagen peptide supplementation improves joint pain and collagen synthesis markers in athletes and osteoarthritis populations. Vitamin C deficiency impairs collagen wound healing. No ME/CFS-specific trials exist.
+
+*Clinical Implementation.* Hydrolyzed collagen peptides 10g daily (split dose: 5g twice daily) + vitamin C 500mg with collagen dose. Take on empty stomach or between meals for optimal absorption. Monitor collagen synthesis markers (PINP, PIIIINP) and joint stability (Beighton scores) at baseline and 12 weeks.
+
+*Limitations.* No ME/CFS data; individual variation in collagen response; requires long-term commitment for tissue remodeling; potential GI intolerance at higher collagen doses.
+]
+
+#speculation(title: [Copper Bisglycinate + Pyridoxal-5-Phosphate for Collagen Crosslinking])[
+*Certainty: 0.40.* Copper (LOX cofactor) + P5P (LOX activation) → enhanced collagen crosslinking. Copper bisglycinate 2mg + P5P 25mg daily. Certainty 0.40 (biochemical basis sound, clinical uncertain). Falsifiable: increases LOX activity and improves Beighton scores at 6 months.
+
+*Mechanistic Rationale.* Lysyl oxidase (LOX) is the enzyme responsible for collagen and elastin crosslinking, providing tensile strength to connective tissues. Copper is an essential LOX cofactor, and pyridoxal-5-phosphate (active vitamin B6) is required for LOX activation. ME/CFS patients may have functional copper deficiency (even with normal serum levels) impairing LOX activity, leading to connective tissue weakness and vascular fragility.
+
+*Evidence Base.* LOX copper dependence is well-established. Copper deficiency causes connective tissue abnormalities. ME/CFS-specific LOX activity data are absent. No clinical trials of this combination in ME/CFS.
+
+*Clinical Implementation.* Copper bisglycinate 2mg daily + pyridoxal-5-phosphate (P5P) 25mg daily. Monitor serum copper, ceruloplasmin, and zinc status (zinc:copper ratio should remain balanced, ideally below 15:1). Assess LOX activity and collagen crosslinking markers (pyridinoline, desmosine) if available.
+
+*Safety Considerations.* Copper excess is toxic; avoid exceeding 10mg daily without medical supervision. P5P at 25mg daily is within safe range; avoid chronic doses >50mg daily due to neuropathy risk.
+
+*Limitations.* High certainty ceiling due to lack of direct ME/CFS data; individual variation in copper metabolism; may only benefit subset with documented LOX impairment; requires monitoring for copper accumulation.
+]
+
+#hypothesis(title: [Vitamin D for ECM Homeostasis via VDR-Mediated MMP/TIMP Regulation])[
+*Certainty: 0.50.* Vitamin D regulates MMPs, TIMPs, and collagen via VDR. ME/CFS patients often deficient. VDR activation → reduced MMP, increased TIMP, promoted collagen synthesis. Dose: target 25(OH)D 40–60 ng/mL. Certainty 0.50 (well-established biology, low-risk).
+
+*Mechanistic Rationale.* Vitamin D receptor (VDR) activation downregulates matrix metalloproteinases (MMPs)—enzymes that degrade ECM—and upregulates tissue inhibitors of metalloproteinases (TIMPs). VDR signaling also promotes collagen synthesis in fibroblasts. ME/CFS patients show high rates of vitamin D deficiency, which may contribute to ECM dysregulation and connective tissue fragility.
+
+*Evidence Base.* Vitamin D regulates MMP-9, TIMP-1, and collagen type I expression in vitro. Vitamin D deficiency correlates with increased MMP activity in other conditions. Vitamin D repletion reduces MMP-9 in deficiency states. ME/CFS vitamin D deficiency prevalence is documented, but ECM-specific effects are unstudied.
+
+*Clinical Implementation.* Test baseline 25(OH)D. Target 40–60 ng/mL for immune and ECM effects. Dosing: 2000–5000 IU daily of vitamin D3 (cholecalciferol) with fat-containing meal. Recheck 25(OH)D at 8–12 weeks. Monitor MMP-9/TIMP-1 ratio and collagen turnover markers if available.
+
+*Safety Considerations.* Vitamin D is generally safe at recommended doses. Monitor serum calcium and 25(OH)D to avoid hypercalcemia. Avoid doses >10,000 IU daily without medical supervision.
+
+*Limitations.* No ME/CFS-specific ECM endpoint data. Individual variation in VDR polymorphisms may affect response. Target 25(OH)D range for ECM effects is extrapolated from other conditions.
+]
+
+#speculation(title: [Benfotiamine for AGE-Mediated Collagen Crosslinking Reduction])[
+*Certainty: 0.35.* Advanced glycation end products cause pathological collagen crosslinking → tissue stiffness. Benfotiamine reduces AGE formation. Certainty 0.35 (plausible, low-risk, uncertain ME/CFS relevance). Dose: 300mg BID.
+
+*Mechanistic Rationale.* Advanced glycation end products (AGEs) form non-enzymatic crosslinks between collagen fibers, increasing tissue stiffness and impairing function. Benfotiamine, a fat-soluble thiamine derivative, activates transketolase and reduces AGE formation by diverting glycolytic intermediates away from AGE-producing pathways. This may reduce pathological collagen crosslinking in hypermobile tissues.
+
+*Evidence Base.* Benfotiamine reduces AGE formation and diabetic complications. AGE-mediated collagen crosslinking is well-documented in aging and diabetes. No ME/CFS-specific data on AGE burden or benfotiamine effects.
+
+*Clinical Implementation.* Benfotiamine 300mg twice daily (600mg total) for 12–24 weeks. Monitor AGE markers (pentosidine, carboxymethyllysine) and tissue stiffness measures if available. Assess joint symptoms and Beighton scores.
+
+*Safety Considerations.* Benfotiamine is generally well-tolerated. High doses may cause mild GI upset. Thiamine supplementation is low-risk even at high doses.
+
+*Limitations.* Uncertain whether AGE-mediated crosslinking contributes to ME/CFS connective tissue pathology. No biomarker data in ME/CFS populations. Individual variation in AGE accumulation.
+]
+
+#speculation(title: [Vitamin K2 (MK-7) for Matrix Gla Protein Activation and ECM Health])[
+*Certainty: 0.35.* MGP inhibits soft tissue calcification; requires vitamin K2 for activation. K2 deficiency may impair ECM. Dose: MK-7 180mcg daily. Certainty 0.35.
+
+*Mechanistic Rationale.* Matrix Gla protein (MGP) is a potent inhibitor of soft tissue calcification and may regulate ECM organization. MGP requires vitamin K2-dependent gamma-carboxylation for activation. Vitamin K2 deficiency, common in ME/CFS due to dietary restrictions and malabsorption, may impair MGP function, contributing to ECM dysregulation.
+
+*Evidence Base.* MGP vitamin K dependence is well-established. Vitamin K2 deficiency correlates with vascular calcification in other populations. MK-7 supplementation activates MGP and reduces calcification markers. No ME/CFS-specific data.
+
+*Clinical Implementation.* Vitamin K2 (menaquinone-7) 180mcg daily with fat-containing meal. Monitor uncarboxylated MGP (ucMCP) levels if available. Assess vascular calcification markers (coronary artery calcium score not recommended for routine monitoring).
+
+*Safety Considerations.* Vitamin K2 is generally safe. Caution with warfarin and other anticoagulants—vitamin K2 may reduce warfarin efficacy. No significant toxicity at recommended doses.
+
+*Limitations.* Uncertain whether MGP deficiency contributes to ME/CFS connective tissue pathology. No ME/CFS biomarker data. MK-7 supplementation effects on ECM quality are extrapolated from vascular health literature.
+]
+
+#speculation(title: [Oral Hyaluronan for Tissue Hydration and Joint Symptoms])[
+*Certainty: 0.40.* HA provides ECM hydration. Oral HA 200mg daily may improve tissue hydration and joint symptoms. Certainty 0.40 (biochemical basis, clinical precedent in arthritis).
+
+*Mechanistic Rationale.* Hyaluronan (HA) is a glycosaminoglycan critical for tissue hydration, joint lubrication, and ECM structure. Oral HA supplementation increases systemic HA levels, may improve tissue hydration, and reduce joint pain. In ME/CFS with connective tissue dysfunction, HA depletion may contribute to joint symptoms and tissue fragility.
+
+*Evidence Base.* Oral HA improves osteoarthritis symptoms in multiple RCTs. HA supplementation increases serum HA levels and tissue hydration. No ME/CFS-specific trials. HA absorption mechanisms (lymphatic uptake) are established.
+
+*Clinical Implementation.* Oral hyaluronan 200mg daily for 12 weeks. Monitor joint symptoms (pain scores, stiffness), Beighton scores, and serum HA levels if available. Assess tissue hydration measures (skin turgor, elastometry) if feasible.
+
+*Safety Considerations.* HA is generally safe with minimal side effects. Rare allergic reactions reported. Low-risk supplement with established safety profile in other conditions.
+
+*Limitations.* No ME/CFS data. Individual variation in HA absorption and response. HA effects on connective tissue integrity beyond joint symptoms are untested in ME/CFS.
+]
+
+#speculation(title: [Circadian-Timed Ascorbic Acid + Alpha-Ketoglutarate for Collagen Crosslinking])[
+*Certainty: 0.40.* Prolyl hydroxylases have circadian rhythm. ROS inhibits them in ME/CFS. Timed ascorbic acid (1g at sleep onset) + alpha-ketoglutarate (200mg) to match peak enzyme activity. Certainty 0.40.
+
+*Mechanistic Rationale.* Prolyl hydroxylases—the enzymes that hydroxylate proline in collagen synthesis—exhibit circadian rhythmicity with peak activity during nighttime hours. In ME/CFS, elevated ROS may inhibit these enzymes, impairing collagen crosslinking. Circadian-timed ascorbic acid (a reducing agent and prolyl hydroxylase cofactor) + alpha-ketoglutarate (prolyl hydroxylase co-substrate) may enhance crosslinking during the enzyme's peak activity window.
+
+*Evidence Base.* Prolyl hydroxylase circadian regulation is documented in animal models. Ascorbic acid deficiency causes scurvy (impaired collagen crosslinking). Alpha-ketoglutarate supplementation increases collagen synthesis in vitro. No ME/CFS chronobiology data for collagen synthesis.
+
+*Clinical Implementation.* Ascorbic acid 1g + alpha-ketoglutarate 200mg at sleep onset (consistent bedtime) for 12–24 weeks. Monitor collagen synthesis markers (PINP, PIIIINP) and crosslinking markers (pyridinoline). Time doses to match individual circadian rhythm (may require actigraphy confirmation).
+
+*Safety Considerations.* Ascorbic acid 1g is safe for most patients; may cause GI upset in sensitive individuals. Alpha-ketoglutarate is generally safe at 200mg. Timing is critical for hypothesis testing—consistent sleep schedule required.
+
+*Limitations.* Highly speculative; no direct evidence linking circadian prolyl hydroxylase timing to ME/CFS collagen pathology. Requires strict adherence to timing and sleep schedule. Individual circadian variation may affect optimal timing.
+]

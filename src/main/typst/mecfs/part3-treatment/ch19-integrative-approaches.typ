@@ -3051,3 +3051,56 @@ Pacing requires real-time feedback and expert guidance. Could a telehealth platf
 #open-question(title: [Community-Based Support with Biological Monitoring Integration])[
 Community-based support groups provide psychosocial benefits but lack biological rigour. Integrating symptom tracking and basic physiological monitoring into community protocols could identify effective pacing strategies while preserving peer support — generating real-world evidence in parallel. Falsifiable: integrated community protocols will improve pacing adherence compared to unmonitored support and produce reproducible pacing templates that generalise across individuals. Probability of generating useful real-world data: 0.25. @Watton2026unified
 ] <oq:community-biological-integration>
+
+== Connective Tissue Preservation Strategies
+<sec:connective-tissue-preservation>
+
+ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cervical craniocervical instability (CCI) benefit from integrated approaches that target connective tissue through multiple mechanisms. These strategies combine supplements, positioning, and pacing to preserve and strengthen connective tissue while respecting PEM constraints.
+
+#speculation(title: [Dual Mast Cell-MMP Inhibition Protocol for Connective Tissue Preservation])[
+*Certainty: 0.45.* Cromolyn 10mg TID (mast cell stabilizer) + doxycycline 20mg BID (MMP-9 inhibition, subantimicrobial). Targets both upstream activation and downstream degradation. Monitoring: mast cell markers (tryptase, histamine), MMP levels. Certainty 0.45. Cross-disease evidence from rosacea/peridontal disease.
+
+*Mechanistic Rationale.* Mast cell degranulation releases tryptase and MMP-9, which degrade connective tissue ECM. Cromolyn sodium stabilizes mast cells, reducing degranulation frequency. Subantimicrobial doxycycline (20mg twice daily) inhibits MMP-9 activity without antibiotic effects. The combination targets both upstream activation (mast cells) and downstream degradation (MMP-9), preserving connective tissue integrity in hypermobile ME/CFS patients.
+
+*Evidence Base.* Cromolyn is established mast cell stabilizer with evidence in MCAS. Subantimicrobial doxycycline inhibits MMP-9 in rosacea and periodontal disease. Dual approach targets complementary pathways. No ME/CFS connective tissue outcome data. Mast cell-MMP linkage established in other conditions.
+
+*Clinical Implementation.* Cromolyn sodium 10mg orally three times daily (TID) 30 minutes before meals. Doxycycline hyclate 20mg twice daily (BID) with food (to reduce GI upset). Duration: 12–24 weeks for connective tissue endpoint assessment. Monitor mast cell symptoms and connective tissue stability.
+
+*Monitoring Parameters.* Mast cell markers: serum tryptase, urinary histamine metabolites. MMP levels: MMP-9, TIMP-1 ratio. Collagen synthesis markers: PINP, PIIIINP if available. Subjective: flushing, GI symptoms, joint stability, Beighton score.
+
+*Safety Considerations.* Cromolyn generally safe; may cause GI upset. Doxycycline at subantimicrobial dose has lower risk than antimicrobial doses. Photosensitivity risk—use sun protection. Avoid in pregnancy. Monitor for rare allergic reactions to cromolyn.
+
+*Limitations.* No ME/CFS outcome data. Individual variation in mast cell and MMP responses. Doxycycline may affect gut microbiome even at low doses. Requires 12+ weeks for connective tissue effects. Cost may be barrier.
+]
+
+#speculation(title: [Timed Collagen Cofactor Protocol])[
+*Certainty: 0.35.* Ascorbic acid 1g + alpha-ketoglutarate 200mg at sleep onset + collagen peptides 10g before bed. Addresses circadian enzyme peak timing + substrate availability. Certainty 0.35.
+
+*Mechanistic Rationale.* Prolyl hydroxylases—enzymes critical for collagen crosslinking—exhibit circadian rhythmicity with peak activity during sleep. Timed supplementation provides cofactors (ascorbic acid) and co-substrates (alpha-ketoglutarate) during this peak activity window. Collagen peptides provide substrate availability. The circadian-timed protocol maximizes collagen synthesis during the physiologic peak of enzyme activity.
+
+*Evidence Base.* Prolyl hydroxylase circadian regulation documented in animal models. Collagen peptide supplementation improves synthesis markers. Vitamin C deficiency impairs collagen crosslinking. No ME/CFS chronobiology data for collagen synthesis or timed supplementation protocols.
+
+*Clinical Implementation.* Ascorbic acid 1g + alpha-ketoglutarate 200mg at sleep onset (consistent bedtime). Hydrolyzed collagen peptides 10g 30–60 minutes before sleep. Maintain consistent sleep schedule for optimal timing. Duration: 12–24 weeks. Monitor collagen synthesis markers and joint stability.
+
+*Monitoring Parameters.* Collagen synthesis markers: PINP, PIIIINP. Collagen crosslinking markers: pyridinoline if available. Subjective: joint symptoms, Beighton score, tissue fragility symptoms. Adherence to timing protocol.
+
+*Safety Considerations.* Ascorbic acid 1g safe for most; may cause GI upset. Alpha-ketoglutarate 200mg is safe. Collagen peptides generally safe; rare GI intolerance. Timing adherence critical for hypothesis testing. Consistent sleep schedule required.
+
+*Limitations.* No ME/CFS outcome data. Chronobiology extrapolated from animal models. Requires strict adherence to timing. Individual variation in circadian phase. Collagen synthesis effects may be subtle.
+]
+
+#speculation(title: [CCI Multi-Modal Conservative Management Protocol])[
+*Certainty: 0.40.* Optimal sleep position (neutral spine support) + endurance-focused isometrics (low-resistance, high-rep) + progressive overload pacing + slow-paced breathing (6/min). Integrated non-pharm approach for hypermobile ME/CFS with CCI symptoms. Certainty 0.40.
+
+*Mechanistic Rationale.* Cervical craniocervical instability (CCI) in hypermobile ME/CFS requires multi-modal management: (1) optimal sleep positioning reduces ligamentous strain during ECM remodeling window; (2) endurance-focused isometrics build deep cervical stabilizer endurance (PEM-safe); (3) progressive overload with pacing ensures tissue adaptation without PEM; (4) slow-paced breathing enhances glymphatic clearance and may reduce cervical symptoms. The integrated protocol addresses structural, muscular, and autonomic components.
+
+*Evidence Base.* Individual components have physiologic rationale and limited evidence. Sleep positioning affects cervical symptoms. Isometric training improves cervical stability. Pacing prevents PEM. Slow breathing improves cerebral perfusion. No ME/CFS-specific integrated protocols. Rationale extrapolated from rehabilitation and orthopedic literature.
+
+*Clinical Implementation.* Sleep positioning: neutral cervical spine with contoured pillow, head elevated 20–30 degrees. Isometric training: low-resistance (10–20% max), high-repetition cervical holds, 10–60 seconds, 2–3 sets daily. Progressive overload: increase duration by 5–10% every 2–4 weeks only if no PEM. Slow breathing: 6 breaths/minute for 10–15 minutes daily. All components integrated with continuous PEM monitoring.
+
+*Monitoring Parameters.* PEM tracking (delayed symptoms 24–72 hours). Cervical symptoms: pain, headache frequency, cervical stability. Objective measures: cervical range of motion, isometric hold endurance. Glymphatic markers if available (subjective brain fog, cognitive clarity).
+
+*Safety Considerations.* PEM risk requires conservative progression. Isometric training may trigger cervical symptoms if intensity excessive. Sleep positioning adaptation period may be uncomfortable. Requires patient education on PEM recognition. Physical therapist supervision recommended for isometric component.
+
+*Limitations.* No ME/CFS trials. Individual variation in optimal protocols. Requires significant patient effort and adherence. PEM monitoring essential. Progression may be very slow (months to years). Equipment cost (custom pillow) may be barrier.
+]

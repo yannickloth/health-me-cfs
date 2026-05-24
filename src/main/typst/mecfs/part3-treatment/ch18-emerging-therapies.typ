@@ -319,3 +319,56 @@ Recent evidence from COVID-19 and long COVID research implicates neutrophil extr
 
 *Limitation:* Microclot measurement is non-standardised; clinical significance unknown; no ME/CFS microclot-NET colocalisation data exist.
 ] <spec:microclot-net-dnase>
+
+== Connective Tissue Targeted Emerging Therapies
+<sec:connective-tissue-emerging>
+
+Emerging therapies targeting connective tissue pathology in ME/CFS address extracellular matrix dysregulation, mast cell-mediated degradation, and growth factor imbalance. These approaches are investigational and require careful stratification for comorbid hypermobility and cervical instability.
+
+#speculation(title: [Transcutaneous Vagal Nerve Stimulation for Mast Cell-ECM-Vascular Modulation])[
+*(Certainty: 0.40.)* tVNS via left ear concha (5 min, 1-2x daily). Addresses autonomic dysfunction AND mast cell-mediated ECM degradation. Early ME/CFS data (Yu2022, Natelson2022). Certainty 0.40.
+
+*Mechanistic Rationale.* Transcutaneous vagus nerve stimulation (tVNS) activates the cholinergic anti-inflammatory pathway, reducing mast cell degranulation and pro-inflammatory cytokine release. In ME/CFS with connective tissue pathology, mast cell-mediated ECM degradation (via MMP-9 and tryptase) contributes to ligamentous weakness and vascular fragility. tVNS may simultaneously address autonomic dysfunction and reduce mast cell-driven ECM degradation.
+
+*Evidence Base.* tVNS reduces inflammatory cytokines and mast cell activation in controlled trials. Small ME/CFS open-label studies show symptom improvement (Yu2022, Natelson2022). Mast cell-ECM degradation pathway is established in other conditions. No ME/CFS-specific connective tissue endpoint data.
+
+*Clinical Implementation.* tVNS device applied to left ear concha (cymba conchae). Stimulation parameters: 25 Hz, 200–300 μs pulse width, 5 minutes once or twice daily. Start with 5 minutes daily, increase to twice daily if tolerated. Monitor mast cell symptoms (flushing, GI symptoms) and cervical symptoms.
+
+*Monitoring Parameters.* Mast cell markers (serum tryptase, urinary histamine). Autonomic measures (HRV, blood pressure variability). Subjective: connective tissue symptoms, Beighton score stability. Vagus nerve tone (calf brachial index, respiratory sinus arrhythmia).
+
+*Safety Considerations.* tVNS is generally safe with minimal side effects. Contra-indicated in active cardiac arrhythmias. Mild skin irritation at electrode site possible. Requires consistent device use for benefit.
+
+*Limitations.* Small ME/CFS datasets. Uncertain effect on connective tissue endpoints. Individual variation in tVNS response. Device quality varies; requires FDA-cleared or CE-marked device. Cost may be barrier.
+]
+
+#speculation(title: [HIF-1alpha/HIF-2alpha Isoform Rebalancing for ECM Pathology])[
+*(Certainty: 0.35.)* HIF-1alpha drives ECM pathology; HIF-2alpha may be protective. Isoform-specific inhibition (PT2385 for HIF-2alpha) could rebalance. Certainty 0.35 (highly specific, requires validation).
+
+*Mechanistic Rationale.* Hypoxia-inducible factor (HIF) isoforms have opposing effects on ECM. HIF-1alpha drives pro-fibrotic ECM remodeling and basement membrane thickening via TGF-beta and MMP induction. HIF-2alpha may be protective, promoting angiogenesis without fibrosis. ME/CFS shows basement membrane thickening and ECM dysregulation. Isoform-specific inhibition—targeting HIF-1alpha or enhancing HIF-2alpha—could rebalance ECM pathology.
+
+*Evidence Base.* HIF-1alpha/HIF-2alpha opposing roles are established in fibrosis models. PT2385 (HIF-2alpha inhibitor) is in clinical trials for cancer; paradoxically, HIF-2alpha inhibition may increase HIF-1alpha activity. Basement membrane thickening documented in ME/CFS. No ME/CFS HIF isoform data or targeted interventions.
+
+*Clinical Implementation.* Requires specialized compounds in clinical trial setting only. Isoform-specific inhibitors (PT2385, PT2977) or HIF-1alpha modulators. Biomarker-guided: assess HIF-1alpha/HIF-2alpha balance in tissue or serum before intervention. Monitor ECM markers (collagen synthesis, MMP/TIMP ratio).
+
+*Monitoring Parameters.* HIF-1alpha and HIF-2alpha targets (VEGF, GLUT1). ECM remodeling markers (PINP, PIIIINP, MMP-9, TIMP-1). Basement membrane thickness (skin biopsy, if feasible). Symptom tracking.
+
+*Safety Considerations.* HIF inhibitors have significant toxicity profile in oncology trials. Not for clinical use outside trials. Requires intensive monitoring. Off-target effects on multiple HIF-dependent pathways.
+
+*Limitations.* No ME/CFS data. Uncertain whether HIF imbalance drives ECM pathology in ME/CFS. Isoform-specific compounds are investigational only. Risk-benefit unfavorable for non-fatal condition at this stage.
+]
+
+#speculation(title: [TGF-beta1-Specific Blockade for Basement Membrane Thickening])[
+*(Certainty: 0.30.)* TGF-beta1 profibrotic drives BM thickening; TGF-beta3 anti-fibrotic. Fresolimumab (anti-TGF-beta1) could address BM pathology. Certainty 0.30 (highly specific, no ME/CFS data).
+
+*Mechanistic Rationale.* Transforming growth factor-beta (TGF-beta) isoforms have opposing effects on ECM. TGF-beta1 is profibrotic, driving basement membrane thickening, collagen deposition, and fibrosis. TGF-beta3 is anti-fibrotic, promoting normal ECM remodeling. ME/CFS shows basement membrane thickening. Fresolimumab (anti-TGF-beta1 monoclonal antibody) could address BM pathology by selective TGF-beta1 blockade.
+
+*Evidence Base.* TGF-beta1/fibrosis relationship is well-established. TGF-beta3 anti-fibrotic effects documented in wound healing models. Basement membrane thickening documented in ME/CFS muscle biopsies. Fresolimumab has shown efficacy in other fibrotic diseases. No ME/CFS TGF-beta data or trials.
+
+*Clinical Implementation.* Requires clinical trial setting only. Fresolimumab intravenous infusion per trial protocol. Biomarker-guided: assess TGF-beta1/beta3 balance and basement membrane thickness before intervention. Monitor ECM and renal parameters.
+
+*Monitoring Parameters.* TGF-beta1/beta3 levels. Basement membrane markers (laminin, collagen IV). Skin biopsy for basement membrane thickness. Renal function (TGF-beta blockade affects kidney). Symptom tracking.
+
+*Safety Considerations.* TGF-beta blockade has significant toxicity: skin lesions, bleeding risk, potential carcinogenesis (TGF-beta is tumor suppressor). Not for clinical use outside trials. Requires intensive monitoring. Long-term effects unknown.
+
+*Limitations.* No ME/CFS data. Uncertain whether TGF-beta1 drives BM pathology in ME/CFS. Fresolimumab is expensive and investigational. Risk-benefit unfavorable for non-fatal condition at this stage.
+]
