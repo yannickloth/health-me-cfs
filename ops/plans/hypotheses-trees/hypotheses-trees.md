@@ -153,7 +153,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | new-contents-gut-brain | [subtrees/new-contents-gut-brain.md](subtrees/new-contents-gut-brain.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-economic-burden | [subtrees/new-contents-economic-burden.md](subtrees/new-contents-economic-burden.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-endometriosis | [subtrees/new-contents-endometriosis.md](subtrees/new-contents-endometriosis.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
-| new-contents-connective-tissue | [subtrees/new-contents-connective-tissue.md](subtrees/new-contents-connective-tissue.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
+| new-contents-connective-tissue | [subtrees/new-contents-connective-tissue.md](subtrees/new-contents-connective-tissue.md) | 2026-05-13 | 60 | 2 | 🔵 in progress |
 | new-contents-sars-persistence | [subtrees/new-contents-sars-persistence.md](subtrees/new-contents-sars-persistence.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | new-contents-cfrna    | [subtrees/new-contents-cfrna.md](subtrees/new-contents-cfrna.md)      | 2026-05-03      | 0          | 0          | ⬜ stub        |
 | new-contents-trp-kyn-gut | [subtrees/new-contents-trp-kyn-gut.md](subtrees/new-contents-trp-kyn-gut.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
