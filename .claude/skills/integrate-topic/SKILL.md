@@ -37,7 +37,9 @@ Before starting any other phase:
    - Phase 3 → brainstorm file path, idea count (handled in Phase 3 plan update above)
    - Phase 3a → subtree file path, N nodes written, root index updated
    - Phase 4 → ideas integrated; queued topics from Gates A/B with one-line rationale
+   - Phase 4a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
    - Phase 4b → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred)
+   - Phase 4c → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged
    - Phase 5 → build status
    - Phase 6 → review convergence status per pass
    - Phase 7 → changelog entry summary
@@ -263,6 +265,23 @@ Read Phase 3 output. Per idea, map certainty → environment:
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 2 rules
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
+### Phase 4a — Falsifiability Gate (MANDATORY)
+
+**Agent:** `falsifiability-auditor` | **Model:** sonnet | **Execution:** foreground (report → main session fixes)
+
+**Run after all Phase 4 integration is complete, before Phase 4b.** Scope: only the `.typ` files modified/created in Phase 4.
+
+1. Invoke `falsifiability-auditor` on the changed files collected by Phase 6's git-diff protocol.
+2. **Gate:** Every `#hypothesis()`, `#fhypothesis()`, `#speculation()`, and `#prediction()` that was newly integrated must have at least one falsifiable prediction.
+3. Fix any non-falsifiable hypothesis before proceeding:
+   - Criterion: "weakly" or missing falsifiability → add a specific, testable prediction (what observation would refute the hypothesis)
+   - If a hypothesis is structurally unfalsifiable (accommodates any outcome) → reclassify as `#speculation` with `falsifiability: [none]` and explicit note: "Critique: structurally unfalsifiable."
+   - If unsure how to falsify → pause and ask user before proceeding.
+
+**Gate:** ALL new hypotheses/speculations must be falsifiable or explicitly flagged as structurally unfalsifiable before Phase 4b begins. No hypothesis ships to review without a falsifiability check.
+
+**Report:** "Phase 4a complete: N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)."
+
 **Gate B — Sub-research surfaces new topic:** If a Tier 1 `literature-integrator` sub-run surfaces papers pointing to a distinct ME/CFS-relevant topic not covered by the parent topic or any Phase 3 idea → check auto-escalation rule first. If immune/inflammatory → queue automatically. Otherwise → pause and ask the user: "Sub-research found a potentially distinct topic (`<new-topic>`). Integrate inline, queue as `/integrate-topic <new-topic>`, or ignore?" Wait for answer before continuing.
 
 **Integration threshold:** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. No idea is "too speculative to integrate" — speculative ideas belong in `#speculation` environments with low certainty ratings.
@@ -278,11 +297,11 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 ---
 
-## Phase 4b — Retrospective Adaptation
+## Phase 4b — Retrospective Adaptation (Evidence → Claim)
 
 **Agent:** main session | **Model:** current
 
-**Purpose:** New evidence doesn't only add new content — it changes what the paper already says. Phase 4b sweeps pre-existing content for claims that overlap with the new evidence and adapts them: reinforced if aligned, corrected if contradicted, left unchanged if the new evidence is too weak/indirect to justify any change.
+**Purpose:** New evidence doesn't only add new content — it changes what the paper already says. Phase 4b sweeps pre-existing content for claims that overlap with the new *evidence* and adapts them: reinforced if aligned, corrected if contradicted, left unchanged if the new evidence is too weak/indirect to justify any change. **Scope: evidence→claim only.** Hypothesis→hypothesis relationships are handled in Phase 4c.
 
 ### Evidence Quality Floor
 
@@ -394,6 +413,84 @@ Add to Phase 0 tracking: `4b | M matches examined, N adapted (R reinforced, T co
 
 ---
 
+## Phase 4c — Cross-Hypothesis Compatibility
+
+**Purpose:** New hypotheses don't only interact with evidence — they interact with *each other*. Phase 4c maps how each newly integrated hypothesis relates to every existing hypothesis in the registry: which reinforce (mutually increase plausibility), which feed into (one supplies mechanism input to another), which conflict (cannot both be true), and which are independent. Output: compatibility matrix + reinforcement chains + conflict clusters + certainty adjustment proposals.
+
+### Step 1 — Compatibility Audit
+
+**Agent:** `hypothesis-compatibility-auditor` | **Model:** sonnet
+
+Input:
+- Labels/titles of all newly integrated hypotheses from Phase 4
+- Modified `.typ` files from Phase 4
+- Registry path: `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
+
+Output: `content-staging/compat-audit-<topic-slug>-<date>.md`
+
+The agent:
+1. Extracts mechanism terms from each new hypothesis
+2. Greps all `.typ` files for those terms + reads 20 lines of context per match
+3. Cross-references against the full registry entries for existing hypotheses
+4. Classifies each pairwise relationship (reinforcement / feed-into / conflict / independent) with a relationship certainty (0.1–1.0)
+5. Searches external literature for confirmatory/conflicting evidence (max 3 WebSearch calls per pair)
+6. Writes the full pairwise matrix
+
+**Guard:** If compatibility audit finds zero overlapping mechanism pairs (all new hypotheses are in systems with zero existing hypotheses in the registry) → skip Step 2; report "Phase 4c: zero mechanism overlap — no reinforcement/conflict pairs found." Still update the plan file with a `## Phase 4c` section noting this.
+
+### Step 2 — Reinforcement Chains & Adjustments
+
+**Agent:** `hypothesis-reinforcement-builder` | **Model:** sonnet
+
+Input:
+- Compatibility audit file from Step 1
+- Plan file: `ops/plans/<topic-slug>-integration-plan.md`
+- Topic slug
+
+The agent:
+1. Builds feed-into chains (H1→H2→H3) and reinforcement clusters (H4, H7, H12 all converge)
+2. Identifies conflict clusters (mutually exclusive groups, overlapping-but-distinct tensions)
+3. Proposes certainty adjustments per reinforcement/conflict rules (see below)
+4. Writes all artifacts into the plan file (`## Phase 4c — Cross-Hypothesis Compatibility` section)
+
+### Certainty Adjustment Rules
+
+| Trigger | Adjustment | Guard |
+|---------|------------|-------|
+| Two independent lines converge on the same mechanism endpoint (different labs, different methods) | +0.05 to both | Both hypothesis certainties ≥ 0.20; at most one +0.05 per hypothesis per Phase 4c cycle |
+| Feed-into chain: upstream H_a is well-established (cert ≥ 0.50) and downstream H_b's plausibility depends on the link | +0.05 to H_b | Link relationship certainty ≥ 0.50 |
+| Reinforcement between two speculative hypotheses (both < 0.30) | No bump | Mutual reinforcement is itself speculative |
+| Conflict with substantially higher-certainty hypothesis (cert diff ≥ 0.20) | −0.05 to the weaker | Flag for human review before application |
+| Conflict between comparably-certain hypotheses (cert diff ≤ 0.10) | No change | Flag as "unresolved tension" |
+| Any hypothesis already bumped 3+ times across prior cycles | +0.10 bump requires ≥ 0.70 incoming certainty | Diminishing returns guard |
+
+**Never exceed certainty 0.95.** Document every adjustment: "0.XX→0.YY: [reason] — [mechanism link]." Main session reviews all proposed adjustments from Step 2 before applying them via `hypothesis-registry-updater`.
+
+### Step 3 — Apply Adjustments
+
+**Agent:** main session | **Model:** current
+
+Review the reinforcement builder's proposals. For each approved adjustment:
+- Invoke `hypothesis-registry-updater` with action: update, label, new certainty, and reason
+- If a bump crosses an environment threshold (speculation 0.45 → hypothesis), reclassify the environment in the chapter text (e.g., `#speculation` → `#hypothesis`) and update the registry type column
+
+**Gate:** All proposed certainty reductions must be explicitly approved by the main session before application. Do not silently lower.
+
+**Report:**
+```
+Phase 4c complete: N pairs audited
+  Reinforcement:  R pairs (C chains built: longest K hops)
+  Feed-into:      F pairs
+  Conflict:       T pairs (X mutually exclusive groups, Y overlapping tensions)
+  Independent:    I pairs
+  Certainty adjusted: J bumps, K reductions, L tensions flagged (no change)
+  Plan file updated: ops/plans/<topic-slug>-integration-plan.md
+```
+
+Add to Phase 0 tracking: `4c | R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged`
+
+---
+
 ## Phase 5 — Build Verification
 
 **Agent:** `test-runner` | **Model:** haiku
@@ -479,7 +576,11 @@ Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit
 | 3a | main session | current | Mechanical tree write |
 | 4 | `literature-integrator` (sub) | sonnet | Per-idea research |
 | 4 | main session | current | Development + integration |
-| 4b | main session | current | Retrospective adaptation (no new literature) |
+| 4a | `falsifiability-auditor` | sonnet | Structural rigor check before review |
+| 4b | main session | current | Evidence→claim retrospective adaptation |
+| 4c Step 1 | `hypothesis-compatibility-auditor` | sonnet | Pairwise mechanism search + classification |
+| 4c Step 2 | `hypothesis-reinforcement-builder` | sonnet | Chain/cluster construction + certainty proposals |
+| 4c Step 3 | main session | current | Review proposals, invoke registry updater |
 | 5 | `test-runner` | haiku | Mechanical build check |
 | 6a | review-convergence agents | sonnet | Consistency/logic checking |
 | 6b | review-adversarial agents | opus | Adversarial personas need deep reasoning |
@@ -492,6 +593,8 @@ Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit
 ## Invariants (Never Violate)
 
 - Pre-existing content must be retroactively adapted — new evidence changes old claims; add cites, adjust certainties, flag contradictions (Phase 4b)
+- Cross-hypothesis compatibility must be audited — new hypotheses checked for reinforcement/feed-into/conflict against full registry (Phase 4c)
+- No hypothesis ships without a falsifiability check — Phase 4a gate before Phase 4b (Phase 4a)
 - No fabrication — every claim traces to verified source
 - No hypothesis-as-recommendation — mechanistic rationales ≠ clinical advice
 - Certainty always explicit in every environment
