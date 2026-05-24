@@ -16767,3 +16767,75 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations*: Disease prediction not tested; ME/CFS not studied; performance varies across datasets.
     *ME/CFS Relevance*: Demonstrates value of multi-modal physiological signal analysis in sleep. SleepFM extends this to cross-modal coupling detection and health prediction. Multi-modal approach is critical for ME/CFS where decoupling between systems is pathognomonic.
 
+
+// =============================================================================
+
+== pDC Dysfunction and Post-Viral Biology
+<sec:bib-pdc-postviral>
+// =============================================================================
+
+=== Van der Sluis et al.\ 2022 — pDCs During COVID-19: Ally or Adversary?
+
+    *Full Citation:*: Van der Sluis RM, Holm CK, Jakobsen MR.\ Plasmacytoid dendritic cells during COVID-19: Ally or adversary? _Cell Reports_. 2022;40(4):111148. @VanderSluis2022pDCcovid
+    *DOI:*: #link("https://doi.org/10.1016/j.celrep.2022.111148")[10.1016/j.celrep.2022.111148]
+    *PMID:*: 35858624
+    *Study Design:*: Comprehensive narrative review
+    *Key Findings:*:
+    
+        - 19 of 23 studies identified significant reduction of circulating pDCs during COVID-19; 10 of 13 found pDC decline proportional to disease severity ("pDC desert" phenomenon)
+        - pDCs sense SARS-CoV-2 via TLR7$arrow.r$MyD88$arrow.r$IRF7$arrow.r$IFN-alpha independently of ACE2/TMPRSS2 (not productively infected)
+        - SARS-CoV-2 exploits NRP1/CD304 expressed on pDCs to suppress IFN production — a virus-specific immune evasion strategy
+        - pDCs diversify into three functional populations: P1 (IFN-alpha-producing, PD-L1#super[high]CD80#super[low]), P2 (dual), P3 (antigen-presenting, PD-L1#super[low]CD80#super[high])
+        - The "pDC desert" is documented across multiple RNA viruses (HIV, HCV, HBV) — not COVID-19-specific
+    
+    *Relevance:*: Establishes blood pDC depletion as a consistent, severity-associated finding across respiratory viral infections. The "pDC desert" concept unifies Garcia 2024's pDC depletion finding with a broader post-viral immunological pattern. The NRP1/CD304 immune evasion mechanism suggests SARS-CoV-2 actively impairs pDC IFN production — a mechanism that could contribute to impaired antiviral defense and failed viral clearance in post-viral ME/CFS.
+    *Certainty Assessment:*:
+    
+        - *Quality:* High (Cell Reports; synthesises 23 independent studies)
+        - *Certainty:* 0.70
+        - *Limitation:* Review article — no original data; "pDC desert" concept is aggregative, not experimentally validated as a unified phenomenon
+    
+
+=== Li et al.\ 2017 — Disease-Associated Plasmacytoid Dendritic Cells
+
+    *Full Citation:*: Li S, Wu J, Zhu S, Liu YJ, Chen J.\ Disease-associated plasmacytoid dendritic cells. _Frontiers in Immunology_. 2017;8:1268. @Li2017pDCdisease
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2017.01268")[10.3389/fimmu.2017.01268]
+    *PMID:*: 29085364
+    *Study Design:*: Comprehensive systematic review with disease comparison table
+    *Key Findings:*:
+    
+        - Universal pattern across autoimmune and neoplastic diseases: blood pDCs DECREASED, tissue pDCs INCREASED
+        - Chemokine axes driving blood→tissue migration: CXCR3/CXCL9-11, CXCR4/CXCL12, chemerin/ChemR23, CCR7/CCL19-21
+        - In SLE: pDCs produce excessive IFN-I via HMGB1-TLR9-MyD88 pathway; pDCs are primary source of pathogenic IFN-I signature
+        - Tolerogenic pDC functions documented: IDO expression (TGF-beta-induced), granzyme B secretion (IL-3/IL-10-dependent), Treg induction via ICOSL
+        - pDC dysfunction patterns disease-specific: IFN-I overproduction in SLE; IFN-I suppression in cancer; IDO-mediated tolerance across multiple contexts
+    
+    *Relevance:*: Provides the mechanistic framework for resolving the Garcia-Augustin pDC directionality contradiction: blood→tissue migration via specific chemokine axes. The documented pattern across SLE, RA, psoriasis, and cancers establishes that pDC depletion in blood with tissue expansion is an established immunological phenomenon, not a disease-specific anomaly. The CXCR3/CXCL9-11 axis is testable in ME/CFS and Long COVID.
+    *Certainty Assessment:*:
+    
+        - *Quality:* Medium-High (Frontiers in Immunology; comprehensive review with detailed disease comparison table; well-cited)
+        - *Certainty:* 0.65
+        - *Limitation:* 2017 publication predates COVID-19 era; chemokine mechanisms confirmed in autoimmune diseases but not in post-viral conditions
+    
+
+=== Pérez-Gómez et al.\ 2021 — DC Deficiencies Persist 7 Months After SARS-CoV-2
+
+    *Full Citation:*: Pérez-Gómez A, Vitallé J, Gasca-Capote C, et al.\ Dendritic cell deficiencies persist seven months after SARS-CoV-2 infection. _Cellular \& Molecular Immunology_. 2021;18:2128–2139. @PerezGomez2021pDCpersist
+    *DOI:*: #link("https://doi.org/10.1038/s41423-021-00728-2")[10.1038/s41423-021-00728-2]
+    *PMID:*: 34290398
+    *Study Design:*: Longitudinal cohort study
+    *Key Findings:*:
+    
+        - CD1c#super[+] myeloid DCs AND pDCs remained significantly decreased 7 months post-SARS-CoV-2 infection
+        - Deficit present in both previously-hospitalised AND non-hospitalised patients — severity-independent persistence
+        - DC activation and homing markers (CCR7, CD86) altered during acute phase
+        - Demonstrates that pDC depletion is persistent, not a transient acute-phase phenomenon
+    
+    *Relevance:*: Critical for temporal framing of pDC dysfunction: blood pDC depletion persists into chronic post-COVID phase, arguing against simple temporal recovery. Contradicts Augustin 2026's tissue pDC expansion finding UNLESS migration (blood→tissue) is the primary mechanism — i.e., pDCs are persistently sequestered in tissues rather than numerically recovered. Supports the "migration hijack" model as most parsimonious explanation for the Garcia-Augustin contradiction.
+    *Certainty Assessment:*:
+    
+        - *Quality:* High (Cellular \& Molecular Immunology, Nature portfolio; longitudinal design; peer-reviewed)
+        - *Certainty:* 0.65
+        - *Limitation:* Sample size for pDC-specific analysis not retrieved; DNase1L3 and pDC functional data not reported; single timepoint follow-up (7 months)
+    
+
