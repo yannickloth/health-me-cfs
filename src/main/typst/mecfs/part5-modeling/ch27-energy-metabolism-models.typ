@@ -522,3 +522,32 @@ In health, Complex I runs at ~95% capacity: ROS factor $= 1 - 0.95 = 0.05$. At $
 #limitation(title: [Cascade Example Assumptions])[
 This example treats the three effects as independent multiplicative factors. In the full coupled ODE system (@ch:integrated-systems), the interactions are more complex: ROS-mediated damage reduces $alpha_(upright("CI"))$ over time, $"NAD"^"+"$ depletion affects both Krebs and ETC flux, and the membrane potential depends on all proton-pumping complexes, not just Complex I. The multiplicative approximation is a pedagogical simplification; the true cascade dynamics require numerical simulation of the coupled system.
 ]
+
+== Connective Tissue and Metabolic Coupling Models
+
+#proposal(title: [HIF-1alpha-ECM Coupled Model Extension])[
+The energy metabolism model can be extended to incorporate hypoxia-inducible factor-1$alpha$ (HIF-1$alpha$) and extracellular matrix (ECM) dynamics, providing a mechanistic link between metabolic stress and connective tissue degradation observed in ME/CFS patients with comorbid hypermobile Ehlers-Danlos syndrome. Three new state variables extend the model: $[upright("HIF1")]$ (HIF-1$alpha$ concentration), $[upright("ECM")_q]$ (ECM quality/crosslinking), and $[upright("MMP")]$ (matrix metalloproteinase activity).
+
+$
+frac(d [upright("HIF1")], d t) &= k_(upright("HIF1"))^(upright("ROS")) dot.op [upright("ROS")] - k_(upright("HIF1"))^(upright("deg")) dot.op frac([upright("HIF1")], K_(upright("O2")) + [upright("O2")]) \
+frac(d [upright("ECM")_q], d t) &= k_(upright("ECM"))^(upright("synth")) dot.op f_(upright("HIF1"))([upright("HIF1")]) - k_(upright("ECM"))^(upright("deg")) dot.op [upright("MMP")] dot.op [upright("ECM")_q] \
+frac(d [upright("MMP")], d t) &= k_(upright("MMP"))^(upright("HIF1")) dot.op [upright("HIF1")] + k_(upright("MMP"))^(upright("inf")) dot.op [upright("IL-6")] - k_(upright("MMP"))^(upright("clear")) dot.op [upright("MMP")]
+$
+
+where $k_("HIF1")^("ROS")$ is ROS-mediated HIF-1α induction (normally inhibited by prolyl hydroxylase), the degradation term captures oxygen-dependent proteasomal degradation, ECM synthesis is upregulated by HIF-1α, and MMP induction responds to both HIF-1α and inflammatory cytokines. The ECM quality variable $["ECM_q"]$ couples back to the energy model through the oxygen delivery equation: reduced vascular compliance from degraded ECM impairs tissue perfusion, lowering effective DO₂. This creates a positive feedback loop: energy deficit → ROS → HIF-1α → MMP → ECM degradation → reduced perfusion → exacerbated energy deficit. The model predicts specific temporal patterns of HIF-1α, MMP, and ECM markers (e.g., collagen turnover fragments) after exercise that match ME/CFS patient data and distinguish ME/CFS from healthy responses.
+
+*Certainty: 0.55.* The HIF-1α-ECM coupling is well-established in tendinopathy @Moschini2026HIFTendinopathy, and the ROS-mediated HIF-1α stabilization mechanism is biochemically validated. The application to ME/CFS connective tissue comorbidity requires confirmation that ECM degradation contributes substantively to symptom burden, and that the temporal signatures (post-exertional MMP spikes) are present in ME/CFS with the predicted delay relative to ROS.
+]
+
+#proposal(title: [Connective Tissue Cumulative Strain and PEM Threshold Model])[
+Connective tissue dysfunction in ME/CFS with hypermobility can be modeled through cumulative strain accumulation, providing a quantitative framework for why minor activities cause crashes. Define $[upright("strain")](t)$ as the cumulative connective tissue strain load and $theta_(upright("PEM"))$ as the PEM activation threshold:
+
+$
+frac(d [upright("strain")], d t) &= sigma(t) - k_(upright("repair")} dot.op [upright("strain")} \
+upright("PEM")(t) &= bb(1)_([upright("strain")](t) > theta_(upright("PEM"))})
+$
+
+where $sigma(t)$ is time-varying mechanical stress from activity, $k_("repair")$ is tissue repair rate, and the indicator function triggers PEM when strain exceeds threshold. In healthy connective tissue, $k_("repair")$ maintains strain within safe bounds; in ME/CFS with hEDS, $k_("repair")$ is reduced due to collagen synthesis defects, impaired fibroblast function, and reduced ATP availability for matrix synthesis. This reduction shifts the equilibrium $S^* = sigma_0 / k_("repair")$ upward, making it easier to cross $theta_("PEM")$. The model explains why minor activities that are individually below threshold can trigger PEM when accumulated rapidly (inter-event interval less than $tau_("repair") = 1/k_("repair")$). The threshold phenomenon also accounts for the observation that seemingly trivial activities (sitting upright, light walking) can cause crashes in severe patients: their repair capacity is so depleted that even low $sigma(t)$ produces net strain accumulation.
+
+*Certainty: 0.55.* The strain-accumulation framework is standard in biomechanics and tissue engineering. The novel application to ME/CFS-PEM coupling requires validation that: (1) PEM onset correlates with strain accumulation patterns rather than immediate metabolic markers alone; (2) connective tissue repair rates are measurably reduced in ME/CFS (via collagen turnover markers); and (3) interventions that enhance repair (specific collagen support, improved substrate availability) raise $k_("repair")$ and thereby widen the PEM threshold.
+]

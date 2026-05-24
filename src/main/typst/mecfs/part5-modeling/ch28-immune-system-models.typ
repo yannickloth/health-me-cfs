@@ -399,3 +399,20 @@ The model predicts multiplicative VO₂ impairment from coagulation $times$ card
 
 *Clinical implications.*
 *Whom to treat*: patients with elevated D-dimer, visible microclots on amyloid microscopy, or elevated PAI-1. *How*: the model predicts that fibrinolytic agents (nattokinase, lumbrokinase) address the microclot burden while anti-inflammatory treatment addresses the upstream driver. The model further predicts that BH₄ depletion impairs eNOS, reducing NO and promoting coagulation---so BH₄ supplementation (sapropterin) or anti-inflammatory therapy (reducing iNOS-mediated BH₄ consumption) should have anticoagulant effects as a secondary benefit. Isolated anticoagulation without addressing inflammation is predicted to require indefinite treatment, as microclots re-accumulate when therapy stops.
+
+== Mast Cell-ECM Feedback Loop Extension
+
+#proposal(title: [Mast Cell-ECM Positive Feedback Bistable Model])[
+The mast cell model (Section @sec:mast-cell-model) can be extended to incorporate extracellular matrix (ECM) degradation and fragment generation, creating a positive feedback loop that produces bistability between healthy and degraded connective tissue states. This extension is motivated by the overrepresentation of hypermobile Ehlers-Danlos syndrome in ME/CFS and the role of ECM fragments as mast cell activators. Four coupled ODEs capture the dynamics:
+
+$
+(d["MC_act"])/(d t) &= k_"MC,0" + k_"MC,ECM" dot.op (["ECMfrag"]^2) / (K_"ECMfrag"^2 + ["ECMfrag"]^2) - k_"MC,stab" dot.op ["MC_act"] \
+(d["ECM_q"])/(d t) &= k_"ECM,synth" - k_"ECM,deg" dot.op ["MMP"] dot.op ["ECM_q"] \
+(d["MMP"])/(d t) &= k_"MMP,MC" dot.op ["MC_act"] + k_"MMP,inf" dot.op ["IL-6"] - k_"MMP,clear" dot.op ["MMP"] \
+(d["ECMfrag"])/(d t) &= k_"ECM,frag" dot.op ["MMP"] dot.op ["ECM_q"] - k_"ECM,frag,clear" dot.op ["ECMfrag"]
+$
+
+where $["MC_act"]$ is activated mast cell density, $["ECM_q"]$ is ECM quality (normalized to healthy baseline), $["MMP"]$ is matrix metalloproteinase activity, and $["ECMfrag"]$ is ECM fragment concentration. The mast cell activation term includes ECM fragment stimulation with squared dependence (cooperative binding to pattern recognition receptors) and stabilization ($-k_"MC,stab"$). ECM degradation is MMP-dependent with synthesis constant. MMP induction responds to mast cell activation and IL-6. ECM fragments are generated from MMP-mediated ECM cleavage and cleared at constant rate. The key nonlinearity is the ECM fragment → mast cell activation term: as ECM degrades, fragment concentration rises, activating more mast cells, which release histamine, tryptase, and cytokines (including MMP-9 from mast cells), further degrading ECM. This creates a positive feedback loop that, when loop gain exceeds unity, produces bistability: a low-activation healthy state (low $["MC_act"]$, high $["ECM_q"]$, low $["ECMfrag"]$) and a high-activation degraded state (elevated $["MC_act"]$, low $["ECM_q"]$, high $["ECMfrag"]$). The saddle point defines intervention thresholds: small perturbations near the separatrix can switch the system between states, explaining the dramatic symptom flares observed in MCAS patients with connective tissue comorbidity. The model predicts that treatments reducing mast cell activation (cromolyn, antihistamines) or increasing ECM synthesis (specific collagen support, vitamin C) must push the system below the separatrix to achieve durable remission.
+
+*Certainty: 0.50.* The biochemical links are established: ECM fragments activate mast cells via TLR2/TLR4 @Magadmi2019, mast cells release MMP-9 and tryptase that degrade ECM, and histamine/tryptase modulate fibroblast ECM synthesis. The bistability prediction requires verification that loop gain in ME/CFS patients exceeds unity, producing distinct attractor basins. The hysteresis width (magnitude of perturbation required to switch states) is patient-specific and depends on baseline repair capacity ($k_"ECM,synth"$) and fragment clearance rates. Measurement of ECM fragments (e.g., collagen degradation markers), mast cell activation (serum tryptase), and MMP activity in ME/CFS with and without hEDS can calibrate and validate the model.
+]
