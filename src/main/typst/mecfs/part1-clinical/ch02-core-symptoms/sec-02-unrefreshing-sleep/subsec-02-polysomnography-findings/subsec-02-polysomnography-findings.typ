@@ -33,5 +33,6 @@ Standard sleep studies may appear "normal" in ME/CFS because:
     - Microarousals shorter than 3 seconds are not scored
     - Alpha-delta intrusion requires specialized analysis
     - Restorative quality cannot be directly measured
+    - Cross-modal physiological coupling (the coordination between brain, heart, vascular, and respiratory systems during sleep) is not assessed, yet SleepFM (Thapa et al. 2026, Nature Medicine, n=65,000) has shown that this coupling integrity is the strongest predictor of disease onset across 130+ conditions @Thapa2026sleepfm
 
-Patients often report polysomnography results labeled "normal sleep" despite severe subjective non-refreshment, leading to gaslighting. More detailed spectral analysis or multi-night home monitoring may reveal abnormalities missed by single-night laboratory studies.
+Patients often report polysomnography results labeled "normal sleep" despite severe subjective non-refreshment, leading to gaslighting. More detailed spectral analysis or multi-night home monitoring may reveal abnormalities missed by single-night laboratory studies. Cross-reference to Section @sec:ch15-cross-modal-decoupling for the SleepFM framework explaining why conventional staging fails to capture the pathological mechanism.

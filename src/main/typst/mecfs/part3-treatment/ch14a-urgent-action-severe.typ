@@ -2333,7 +2333,7 @@ Before pursuing stratified treatment, establish the patient's phenotype using th
     / *$square.stroked$*: Obtain heart rate monitor
     / *$square.stroked$*: Begin strict pacing (stay below anaerobic threshold)
     / *$square.stroked$*: Start pain management (ibuprofen or naproxen + topicals if available)
-    / *$square.stroked$*: Call physician: Request trazodone or mirtazapine for sleep
+     / *$square.stroked$*: Call physician: Request trazodone or mirtazapine for sleep (prefer trazodone 25-50 mg as it enhances SWS without suppressing NE oscillations that drive glymphatic clearance; SleepFM validates coupling-preserving approaches @Thapa2026sleepfm)
 
 *Days 2–3:*
 

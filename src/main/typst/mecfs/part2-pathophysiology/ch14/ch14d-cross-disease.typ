@@ -14,8 +14,9 @@ ME/CFS belongs to a family of post-infectious chronic conditions that may share 
     - Nearly identical symptom profile in many patients
     - Similar post-exertional malaise pattern
     - Common autonomic dysfunction
-    - Suggests SARS-CoV-2 triggers the same “trap” as other pathogens
+    - Suggests SARS-CoV-2 triggers the same "trap" as other pathogens
     - _Speculative link:_ Both may involve spike protein persistence or viral reservoir maintaining immune activation
+    - _Sleep physiology parallel:_ SleepFM (Thapa et al. 2026, Nature Medicine, n=65,000) demonstrates that cross-modal physiological decoupling during sleep predicts disease onset across 130+ conditions @Thapa2026sleepfm, suggesting that ME/CFS and Long COVID may share sleep-coupling disruption as a common pathophysiological mechanism; both conditions show glymphatic dysfunction (Long COVID: Chaganti 2025, Tang 2025; ME/CFS: alpha-delta sleep, LC-NE dysfunction)
 
 *Cognitive overlap: quantitative evidence.*
 The cognitive profiles of ME/CFS and Long COVID show striking similarity. In a direct head-to-head comparison ($n = 42$ ME/CFS, $n = 73$ post-COVID), Azcue et al.  found both conditions share a core pattern of impaired attention and slowed processing, but ME/CFS patients exhibited significantly worse sustained attention (83.3% vs.\ 56.2% impaired) and visuospatial ability. The authors concluded that the conditions share overlapping pathology with different precipitating triggers.
