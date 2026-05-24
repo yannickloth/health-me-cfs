@@ -542,7 +542,7 @@ meaning that Complex I activity must be restored to a level _above_ the value at
 
 === Parametric Hysteresis and the Intervention Window
 
-Epigenetic consolidation (Section @sec:epigenetic-dynamics) adds a second layer of hysteresis that increases over time. The methylation index $cal(M)$ evolves toward values that stabilize the disease attractor, progressively widening the hysteresis loop. This predicts an *intervention window*: the period after disease onset during which the epigenetic contribution to hysteresis is still small, and recovery requires only modest intervention above the structural hysteresis threshold.
+Epigenetic consolidation (Section @sec:epigenetic-dynamics) adds a second layer of hysteresis that increases over time. The methylation index $cal(M)$ evolves toward values that stabilize the disease attractor, progressively widening the hysteresis loop. (The direction of this epigenetic change---gain or loss of methylation---may depend on the loci involved; see Speculation @spec:methylation-loss-consolidation in Chapter @ch:causal-hierarchy.) This predicts an *intervention window*: the period after disease onset during which the epigenetic contribution to hysteresis is still small, and recovery requires only modest intervention above the structural hysteresis threshold.
 
 The model estimates the intervention window duration as the time required for $cal(M)$ to reach half its equilibrium disease value:
 

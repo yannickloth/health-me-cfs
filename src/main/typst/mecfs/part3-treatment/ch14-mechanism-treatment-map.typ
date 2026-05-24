@@ -355,7 +355,15 @@ DNA methylation changes and histone modifications observed in ME/CFS patients ma
 ) <tab:map-epigenetic>
 
 #open-question(title: [Epigenetic Consolidation: A Major Therapeutic Gap])[
-Of all documented ME/CFS mechanisms, epigenetic consolidation has the fewest targeted treatment options. No approved therapy has been tested for its epigenetic effects in ME/CFS. Rapamycin and spermidine have relevant mechanisms but have not been studied in this context. The causal role of epigenetic changes in ME/CFS remains unproven — observed methylation differences @Trivedi2018methylation are cross-sectional and could be consequences rather than causes of disease. If the causal direction were confirmed, epigenetic modifiers (HDAC inhibitors, DNMT inhibitors, dietary polyamines) would become testable candidates. The key open question: are the methylation signatures observed in ME/CFS driving disease persistence, or reflecting it?
+Of all documented ME/CFS mechanisms, epigenetic consolidation has the fewest targeted treatment options. No approved therapy has been tested for its epigenetic effects in ME/CFS. Rapamycin and spermidine have relevant mechanisms but have not been studied in this context. The causal role of epigenetic changes in ME/CFS remains unproven — observed methylation differences @Trivedi2018methylation are cross-sectional and could be consequences rather than causes of disease.
+
+A fundamental unresolved question is the directionality of pathogenic methylation change. ME/CFS shows bidirectional methylation alterations: some loci hypermethylated, others hypomethylated. EWAS studies document global methylation loss in some cohorts @deVega2014methylation @Helliwell2020methylation, while RRBS analysis of PBMCs found hypermethylation predominant (145 hypermethylated vs 69 hypomethylated sites in n=5 ME/CFS) @Peppercorn2025methylation. PTPRN2 hypomethylation distinguishes patient subgroups and correlates with symptoms @ChalderMoreau2026ptprn2. Until longitudinal methylation trajectory data resolve the dominant directionality, the therapeutic strategy branches:
+
+- *If gain-dominant:* the current model (demethylation via HDAC inhibitors, TET activation) applies, but risks worsening disease at hypomethylated loci.
+- *If loss-dominant:* remethylation strategies (DNMT3A activators, methyl donor support with SAMe, methyl-folate, methyl-B12, betaine) become the appropriate target, because restoring methylation at lost loci would silence derepressed pathological programs (see Speculation @spec:methylation-loss-consolidation, Chapter @ch:causal-hierarchy).
+- *Most likely:* the mechanistic therapeutic strategy is bidirectional---demethylating hypermethylated loci while remethylating hypomethylated ones---which current epigenetic drugs (global-acting HDAC inhibitors, DNMT inhibitors) cannot achieve and would require locus-specific targeting currently unavailable.
+
+Given the therapeutic asymmetry (methyl-donor support is low-risk regardless of directionality, whereas demethylating agents risk worsening existing hypomethylation), methyl-donor support (SAMe, methyl-folate, methyl-B12, betaine) represents the safer default strategy pending resolution of the directionality question, though efficacy for ME/CFS symptoms remains unproven.
 ] <oq:epigenetic-gap>
 
 == Cross-Tier and Mechanism-Agnostic Interventions
