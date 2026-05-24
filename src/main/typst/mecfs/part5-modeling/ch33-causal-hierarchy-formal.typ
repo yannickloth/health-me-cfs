@@ -23,7 +23,7 @@ We model the ME/CFS disease state as a system of coupled ordinary differential e
 - $C_"pro"$: Pro-inflammatory cytokine burden
 - $V$: Viral reactivation load
 - $cal(T)$: Composite threat signal driving safe mode engagement
-- $cal(M)$: Epigenetic consolidation depth, $cal(M) in [0, 1]$
+- $cal(M)$: Epigenetic consolidation depth, $cal(M) in [0, 1]$ (gain-model: 0 = healthy, 1 = fully consolidated; note: the competing loss-model (Speculation @spec:methylation-loss-consolidation) defines $cal(L)$ with opposite directionality—1 = healthy, 0 = consolidated. The current ODE system uses the gain-model formulation. See Open-Question @oq:consolidation-directionality for the unresolved tension.)
 
 === Threat Signal Composition
 
@@ -51,7 +51,7 @@ A critical structural feature of the ODE system is the separation of timescales 
     [Safe mode ($S$)], [Days--weeks], [Hypothalamic setpoint adjustment, cytokine clearance],
     [Cytokines ($C_"pro"$)], [Weeks--months], [Immune cell reprogramming, clonal expansion/contraction],
     [Autoantibodies], [Months], [Plasma cell lifespan, IgG half-life ($approx$21 days)],
-    [Epigenetic consolidation ($cal(M)$)], [Months--years], [DNMT3A/B activity, passive demethylation rate],
+    [Epigenetic consolidation ($cal(M)$)], [Months--years], [DNMT3A/B activity, passive demethylation rate; note: if consolidation is loss (Speculation @spec:methylation-loss-consolidation), the relevant parameters are DNMT3B redistribution and TET demethylation rate],
   ),
   caption: [Response timescales of key disease state variables.],
 ) <tab:response-timescales>
@@ -68,11 +68,25 @@ This timescale separation has profound implications for both disease dynamics an
 The consolidation variable $cal(M)(t)$ in the ODE system represents the cumulative epigenetic inscription of the disease state. We propose that this variable is directly measurable using DNA methylation profiling of peripheral immune cells---operationalizing $cal(M)$ as the deviation between disease-specific methylation patterns and healthy-baseline methylation at the same CpG sites.
 
 #open-question(title: [Directionality of $cal(M)$: Gain, Loss, or Bidirectional?])[
-The current ODE formulation models $cal(M)$ as a scalar driven upward by DNMT3A/B activity (methylation gain), with passive demethylation as reversal. However, this single-direction representation may oversimplify the biology. ME/CFS methylation changes are bidirectional---both hypermethylation and hypomethylation at different loci---and the dominant direction may vary by tissue, cell type, and assay platform @Peppercorn2025methylation @ChalderMoreau2026ptprn2 @deVega2014methylation. PTPRN2 hypomethylation survives rigorous correction and correlates with cognitive symptoms, while pericentromeric hypomethylation could derepress HSAT2 satellite repeats driving immune exhaustion (Chapter @ch:causal-hierarchy, Speculation @spec:methylation-loss-consolidation).
+The current ODE formulation models $cal(M)$ as a scalar driven upward by DNMT3A/B activity (methylation gain), with passive demethylation as reversal. However, ME/CFS methylation changes are bidirectional---both hypermethylation and hypomethylation at different loci---and the dominant direction may vary by tissue, cell type, and assay platform @Peppercorn2025methylation @ChalderMoreau2026ptprn2 @deVega2014methylation. PTPRN2 hypomethylation survives rigorous correction and correlates with cognitive symptoms, while pericentromeric hypomethylation could derepress HSAT2 satellite repeats driving immune exhaustion (Chapter @ch:causal-hierarchy, Speculation @spec:methylation-loss-consolidation).
 
-A more faithful representation would replace the scalar $cal(M)$ with a vector $vec(M) = (m_1, m_2, ..., m_n)$ tracking methylation at individual loci, where $m_i$ can be above or below the healthy baseline. Consolidation depth would then be $||vec(M) - vec(M)_"baseline"||$, capturing deviation in *either* direction. Resolving this directionality question is critical because therapeutic strategy inverts: demethylating hypermethylated loci vs remethylating hypomethylated loci require opposite epigenetic interventions, and global-acting epigenetic drugs (HDAC inhibitors, DNMT inhibitors) cannot distinguish the two.
+*Two competing formulations of the consolidation variable.* The paper's current formulation (Equation consolidation-curve, Section @sec:lock-sequence) models consolidation as methylation *gain*:
 
-*Certainty:* 0.55 for bidirectional pattern (documented across multiple studies; Peppercorn 2025 RRBS found 67.8% hypermethylated, 32.2% hypomethylated in ME/CFS PBMCs; EWAS arrays show global hypomethylation). 0.30 for vector model necessity (scalar approximation may be adequate for the model's purpose as a qualitative tool).
+$ (d cal(M)) / (d t) = k_"meth" dot f(C_"pro", cal(T)) - k_"demeth" dot (1 - cal(M)) quad" [Gain Model]" $
+
+where $cal(M) = 0$ is healthy, $cal(M) = 1$ is fully consolidated, and disease-state signals $C_"pro"$ drive $cal(M)$ *upward*. This makes three commitments: (1) $cal(M)$ rises over disease duration, (2) recovery requires *demethylation*, (3) the therapeutic agent class is demethylating drugs (5-azacitidine, HDAC inhibitors). The predicted treatment order (energy restoration before epigenetics, Hypothesis @hyp:lock-sequence) follows directly from this formulation: inflamatory signals must be reduced first to stop DNMT drive, then demethylating agents can lower $cal(M)$.
+
+A competing formulation, motivated by the ProB repeat erosion framework (Bonnet, Hulo, Fourel et al.\ @BonnetFourel2026ProAB; Speculation @spec:methylation-loss-consolidation), models consolidation as methylation *loss*:
+
+$ (d cal(L)) / (d t) = -k_"erosion" dot g(C_"pro", cal(T)) + k_"remeth" dot (1 - cal(L)) quad" [Loss Model]" $
+
+where $cal(L) = 1$ is healthy (fully methylated at ProB repeats), $cal(L) = 0$ is fully consolidated (complete erosion), and disease-state signals $C_"pro"$ drive $cal(L)$ *downward* through DNMT3B redistribution away from heterochromatin. This makes three opposite commitments: (1) $cal(L)$ *falls* over disease duration, (2) recovery requires *remethylation*, (3) the therapeutic agent class is methyl donors and DNMT3B activators. The predicted treatment order would likely invert: remethylation must *precede* energy restoration, because restoring heterochromatin silencing at ProB repeats may itself reduce the inflammatory signals ($C_"pro"$) that drive energy dysfunction.
+
+*These formulations are genuinely competing, not complementary.* They cannot both be correct simultaneously for the dominant epigenetic lock. If the gain model holds, demethylating drugs are therapeutic and methyl donors are neutral or may worsen hypermethylation. If the loss model holds, demethylating drugs worsen the disease and methyl donors are therapeutic. The current paper retains both formulations without reconciliation: the ODE system (@sec:ode-system), the reverse-cascade recovery prediction (Hypothesis @hyp:reverse-cascade), and the treatment-order hypothesis (Hypothesis @hyp:lock-sequence) all embed the gain model; Speculation @spec:methylation-loss-consolidation embeds the loss model. This is an unreconciled tension in the paper's theoretical architecture and should be resolved by longitudinal methylation trajectory data before clinical recommendations derived from either model are applied to patients.
+
+A more faithful representation would replace either scalar with a vector $vec(M) = (m_1, m_2, ..., m_n)$ tracking methylation at individual loci, where $m_i$ can be above or below the healthy baseline. Consolidation depth would then be $||vec(M) - vec(M)_"baseline"||$, capturing deviation in *either* direction. This vector formulation would contain both the gain and loss models as special cases (gain-dominant and loss-dominant subsets of the locus vector) and would unify the paper's competing formulations under a single mathematical object.
+
+*Certainty and probability.* 0.55 for bidirectional pattern (documented across multiple studies; Peppercorn 2025 RRBS found 67.8% hypermethylated, 32.2% hypomethylated in ME/CFS PBMCs; EWAS arrays show global hypomethylation). 0.30 for vector model necessity (scalar approximation may be adequate for the model's purpose as a qualitative tool). 0.25--0.30 that the loss-model is substantially correct for ME/CFS (the ProA/ProB framework is a preprint, unvalidated in ME/CFS; Peppercorn 2025 directly challenges the loss narrative). No numeric probability for the gain-model vs loss-model can be assigned absent longitudinal data.
 ] <oq:consolidation-directionality>
 
 The Horvath epigenetic clock @Horvath2013clock demonstrates that DNA methylation age can be precisely quantified from tissue samples. ME/CFS-specific methylation changes have been documented in multiple studies: de Vega et al.\ identified 1,192 differentially methylated CpG sites in ME/CFS PBMCs @deVega2014methylation, with subsequent work confirming glucocorticoid sensitivity-related methylation changes @deVega2021dna_methylation. Trivedi et al.\ identified additional methylation patterns with potential transposable element involvement @Trivedi2018methylation. Helliwell et al.\ confirmed that methylation changes in ME/CFS reflect systemic rather than tissue-specific dysfunction @Helliwell2020methylation. The GrimAge clock @Lu2019GrimAge, which predicts mortality and morbidity from methylation data, could be adapted to predict ME/CFS disease trajectory specifically.
@@ -104,7 +118,7 @@ The predicted recovery sequence, derived directly from @tab:response-timescales:
 
 $ "Ca"^(2+) "signaling" &arrow.r "ATP/Complex I" arrow.r "Safe mode" arrow.r "Immune markers" \ &arrow.r "Autoantibodies" arrow.r "Epigenetic marks" $
 
-with each step requiring the timescale $tau$ of the corresponding variable for substantial normalization.
+with each step requiring the timescale $tau$ of the corresponding variable for substantial normalization. This sequence assumes the gain-model formulation of epigenetic consolidation (epigenetic marks = hypermethylation, removed by passive demethylation). If the loss-model is correct (Speculation @spec:methylation-loss-consolidation), epigenetic normalization (remethylation at ProB repeats) may need to occur *earlier* in the recovery sequence, because restoring heterochromatin silencing at ProB repeats would itself reduce the inflammatory signals that drive energy dysfunction, accelerating the energy-recovery step rather than being its terminal beneficiary. The paper's commitment to "epigenetic marks come last" is contingent on the gain-model, which is unresolved (see Open-Question @oq:consolidation-directionality).
 
 This prediction is non-trivial. Nonlinear dynamics can in principle disrupt simple timescale ordering---if the system has strong coupling between fast and slow variables, recovery order might not follow the onset order in reverse. The prediction is therefore a test of whether the timescale separation is clean enough to dominate over nonlinear coupling effects.
 
@@ -119,7 +133,7 @@ In patients responding to effective treatment, biomarker normalization follows t
     + Recovery "stalls" (plateau without further improvement) occur when the next-in-sequence parameter is a load-bearing lock that is not being addressed by the current treatment.
     + Deviation from predicted order---e.g., energy markers improving before immune markers---indicates the treatment acts directly on the energy subsystem rather than through immune normalization.
 
-*Limitations:* Testing requires longitudinal multi-biomarker monitoring during treatment, which is expensive and not standard in current ME/CFS trials. The prediction assumes relatively clean timescale separation; if the ODE system has strong fast--slow coupling, the simple reversal may not hold. The Rekeland et al.\ cyclophosphamide trial @Rekeland2020rituximab tracked some longitudinal biomarkers but not with the temporal resolution needed to test recovery ordering.
+*Limitations:* Testing requires longitudinal multi-biomarker monitoring during treatment, which is expensive and not standard in current ME/CFS trials. The prediction assumes relatively clean timescale separation; if the ODE system has strong fast--slow coupling, the simple reversal may not hold. The prediction also assumes the gain-model formulation of $cal(M)$; the competing loss-model (Speculation @spec:methylation-loss-consolidation) would predict a different recovery order with epigenetic normalization occurring earlier. The Rekeland et al.\ cyclophosphamide trial @Rekeland2020rituximab tracked some longitudinal biomarkers but not with the temporal resolution needed to test recovery ordering.
 ] <hyp:reverse-cascade>
 
 // =============================================================================
@@ -139,19 +153,21 @@ If $C_"pro"$ remains elevated (because energy metabolism has not been restored, 
 
 This has a direct clinical implication: energy restoration must precede or be concurrent with epigenetic intervention.
 
-#hypothesis(title: [Treatment Order Dependence: Energy Before Epigenetics])[
-The nonlinear ODE dynamics predict that the order of multi-target intervention matters. Specifically: reversing epigenetic consolidation without first restoring energy metabolism leads to transient benefit followed by re-consolidation, because disease-state signals persist and re-drive DNMT activity. Energy restoration (targeting $alpha_"CI"$) must precede or accompany epigenetic intervention (targeting $cal(M)$) for durable benefit.
+*Competing-model caveat.* This prediction depends on the gain-model formulation of $cal(M)$ (Equation [Gain Model] in @oq:consolidation-directionality). If the loss-model formulation (Equation [Loss Model], @oq:consolidation-directionality) is correct, the treatment order inverts: $cal(L)$ restoration (remethylation) must *precede* energy restoration, because restoring heterochromatin silencing at ProB repeats reduces the inflammatory signals $C_"pro"$ that drive energy dysfunction. The recommended agents would also invert---from 5-azacitidine and HDAC inhibitors (gain-model) to SAMe, methyl-folate, and DNMT3B activators (loss-model). The paper's commitment to this treatment-order hypothesis is contingent on the gain-model being correct, a question unresolved by existing data.
 
-*Certainty:* 0.40. The prediction is directly derivable from the ODE structure and the DNMT regulation by inflammatory signals. Analogous order-dependent effects are documented in oncology, where sequential therapy produces different outcomes than concurrent administration @Tsai2012azacitidine. However, the specific prediction for ME/CFS has not been tested.
+#hypothesis(title: [Treatment Order Dependence: Energy Before Epigenetics (Gain-Model Formulation)])[
+The nonlinear ODE dynamics predict that the order of multi-target intervention matters. Specifically: reversing epigenetic consolidation without first restoring energy metabolism leads to transient benefit followed by re-consolidation, because disease-state signals persist and re-drive DNMT activity. Energy restoration (targeting $alpha_"CI"$) must precede or accompany epigenetic intervention (targeting $cal(M)$) for durable benefit. This prediction is conditional on the gain-model formulation of $cal(M)$ (Equation [Gain Model], @oq:consolidation-directionality); the loss-model formulation would invert the recommended order and the recommended agents.
 
-*Testable predictions:*
+*Certainty:* 0.40 for the gain-model prediction (derivable from the ODE structure and DNMT regulation by inflammatory signals; oncology sequential therapy provides analogy @Tsai2012azacitidine). No certainty attributable to the loss-model inversion (no data; entirely speculative). The hypothesis cannot be tested until the directionality of pathogenic methylation change in ME/CFS is resolved by longitudinal data.
+
+*Testable predictions (gain-model):*
 
     + Epigenetic modifiers (e.g., low-dose 5-azacitidine, HDAC inhibitors) administered alone show transient benefit followed by relapse within 3--6 months (re-consolidation at timescale $tau_"epi"$).
     + Energy restoration (CoQ10 + NR/NMN targeting $alpha_"CI"$) followed by epigenetic modifiers shows sustained improvement; the reverse order does not.
     + Simultaneous administration shows equivalent or better outcomes compared to energy-first sequential therapy.
     + The re-consolidation timescale after failed isolated epigenetic intervention should match $tau_"epi"$ from @tab:response-timescales.
 
-*Limitations:* No ME/CFS-specific epigenetic modifier trials exist to test against. The analogy to oncology sequential therapy @Tao2019sequential is suggestive but not directly transferable. The ODE model simplifies the complex relationship between inflammation and DNMT regulation.
+*Limitations:* No ME/CFS-specific epigenetic modifier trials exist to test against. The analogy to oncology sequential therapy @Tao2019sequential is suggestive but not directly transferable. The ODE model simplifies the complex relationship between inflammation and DNMT regulation. The loss-model (Speculation @spec:methylation-loss-consolidation) would predict opposite treatment order with opposite agents and is untested. The gain-model and loss-model cannot both be correct simultaneously for the dominant epigenetic lock, and therapeutic recommendations derived from either should not be applied to patients until this tension is resolved.
 ] <hyp:lock-sequence>
 
 // =============================================================================
