@@ -213,3 +213,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | watton2026-unified-mechanistic-model | [subtrees/watton2026-unified-mechanistic-model.md](subtrees/watton2026-unified-mechanistic-model.md) | 2026-05-23 | 52 | 0 | 🔵 in progress | —
 | sleepfm-ai-sleep-prediction | [subtrees/sleepfm-ai-sleep-prediction.md](subtrees/sleepfm-ai-sleep-prediction.md) | 2026-05-24 | 31 | 31 | ✅ done | —
 | tissue-specific-autoantibodies-long-covid | [subtrees/tissue-specific-autoantibodies-long-covid.md](subtrees/tissue-specific-autoantibodies-long-covid.md) | 2026-05-24 | 36 | 0 | 🔵 in progress | —
+| nets-dnase-covid19 | [subtrees/nets-dnase-covid19.md](subtrees/nets-dnase-covid19.md) | 2026-05-24 | 40 | 0 | 🔵 in progress | —
