@@ -337,6 +337,22 @@ First official institutional medication list for ME/CFS with insurance coverage 
     *Relevance:*: Extends GPCR autoantibody hypothesis beyond autonomic/vascular effects to include immune cell reprogramming. Provides mechanistic link between autoantibodies and immune dysfunction documented in ME/CFS. Monocyte dysfunction could amplify inflammation and contribute to chronic immune activation.
     *Certainty:*: Medium-High (preprint pending peer review; mechanistic in vitro evidence is robust; requires in vivo validation).
 
+=== Tatai2026 --- Tissue-Specific Autoantibodies in Long COVID
+<sec:bib-tatai2026-autoantibodies>
+
+    / *Full Citation:*: Tatai O, Nagy S, Nguyen THT, et al. Tissue-specific autoantibody signatures reveal immune alterations undetected by routine serology in long COVID. _GeroScience_. 2026.
+    / *DOI:*: https://doi.org/10.1007/s11357-026-02286-9
+    / *Key Findings:*:
+        - Tissue-specific autoantibodies: cardiac 54%, vascular 34%, pulmonary 34% in long COVID patients (n=114 long COVID, n=36 controls)
+        - IgM-dominated (60 pct vs 36 pct in controls, p $lt.eq 0.05$)
+        - NOT detected by routine ANA HEp-2 testing (83% seropositive on Western blot vs.\ no discriminatory value on ANA)
+        - Associated with neurovascular manifestations: hypertension, headache, anosmia, ageusia
+        - CRP only marginally elevated in seropositive individuals
+        - Polyreactive pattern (up to 8 distinct bands per patient)
+        - Follow-up (n=30, 141 days): persistent IgM and emergence of new autoantibodies
+    / *Conclusion:*: IgM-dominant tissue-specific autoantibodies are prevalent in long COVID, invisible to standard ANA screening, and associated with neurovascular symptoms. Suggests ongoing immune dysregulation with failed/atypical class switching.
+    / *Limitations:*: Single study, moderate sample size, not yet independently replicated. Western blot uses denatured antigens (may detect linear epitopes not relevant in vivo). Control group small (n=36).
+
 === TRPM3 Ion Channel Dysfunction
 
     *Full Citation:*: Sasso E, Smith P, Marshall-Gradisnik S, et al.\ Multi-site validation of TRPM3 ion channel dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Frontiers in Medicine_. 2026.

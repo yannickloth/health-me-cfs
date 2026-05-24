@@ -442,3 +442,4 @@ Prevents re-processing of already-integrated content.
 | https://www.mdpi.com/2077-0383/10/21/5077 | mdpi | 2026-05-20 | 2026-05-20 | bib/appendix-h — Varesi2021microbiota — Gut microbiota ME/CFS review |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10512706/ | pubmed/pmc | 2026-05-20 | 2026-05-20 | bib/appendix-h — Martin2023permeability — Gut permeability bacterial translocation |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10183837/ | pubmed/pmc | 2026-05-20 | 2026-05-20 | bib/appendix-h — Guo2023butyrate — Deficient butyrate-producing capacity |
+| https://link.springer.com/article/10.1007/s11357-026-02286-9 | springer | 2026-05-24 | — | bib/appendix-h — Tatai2026TSAutoantibodies — Tissue-specific autoantibodies in long COVID |

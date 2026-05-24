@@ -63,6 +63,28 @@ The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted ca
 *Clinical note:* ccf-mtDNA measurement is a research-only assay. Until head-to-head studies exist, clinicians should distinguish Long COVID from ME/CFS using established clinical criteria (symptom duration, PEM pattern, exclusion criteria); ccf-mtDNA adds nothing to current diagnostic practice.
 ] <spec:cfmtdna-distinguish>
 
+=== Autoantibody Convergence: GPCR and Tissue-Specific Mechanisms
+
+#hypothesis(title: [Long COVID and ME/CFS Share Two Distinct Autoantibody Pathways])[
+*(Certainty: 0.50.)* Long COVID and ME/CFS may share converging autoantibody mechanisms: GPCR autoantibodies (predominantly IgG, targeting functional receptors) and tissue-specific structural autoantibodies (predominantly IgM, targeting organ-restricted proteins). Evidence:
+
+    - *GPCR autoantibodies in both conditions:* @Wallukat2021gpcr_mechanisms detected functional autoantibodies against GPCRs in long COVID---a pattern similar to ME/CFS @Sotzny2021. This convergence supports a shared autoimmune pathway.
+    - *Tissue-specific antibodies in long COVID:* @Tatai2026TSAutoantibodies (n=114) identified cardiac (54%), vascular (34%), and pulmonary (34%) autoantibodies---predominantly IgM, undetected by routine ANA HEp-2. ME/CFS data on tissue-specific structural autoantibodies are absent.
+    - *Pathogenic complementarity:* GPCR autoantibodies may cause autonomic dysfunction (vascular dysregulation, orthostatic intolerance); tissue-structural autoantibodies may cause organ-specific manifestations (cardiac dysfunction, vascular pathology, pulmonary involvement). Co-occurrence is predicted to produce more severe disease.
+
+*Certainty basis:* GPCR overlap is supported by two independent studies across two conditions (Wallukat 2021 for long COVID; multiple Charité cohort studies for ME/CFS). Tissue-specific overlap is inferred from long COVID only---no ME/CFS tissue-specific autoantibody data exist. The dual-pathway framework is a mechanistic synthesis; certainty 0.50.
+
+*Testable prediction:* Head-to-head comparison of ME/CFS and long COVID patients using both CellTrend GPCR ELISA and multi-tissue Western blot will show: (a) both populations have elevated GPCR autoantibodies compared to recovered and healthy controls; (b) both have elevated tissue-specific structural autoantibodies; (c) the autoantibody profile of post-COVID ME/CFS will be indistinguishable from infection-triggered non-COVID ME/CFS---supporting a shared post-infectious mechanism independent of trigger identity. Falsified if GPCR autoantibody profiles differ significantly between the two conditions.
+
+*Cross-reference:* Section @sec:tissue-specific-autoantibodies for the detailed tissue-specific autoantibody evidence; Section @sec:gpcr-autoantibodies for the GPCR autoantibody evidence.
+] <hyp:lc-mecfs-autoantibody-convergence>
+
+#open-question(title: [Is the IgM-dominant autoantibody profile in long COVID transient or stable?])[
+@Tatai2026TSAutoantibodies found persistent IgM autoantibodies and *de novo* emergence at 141-day follow-up, suggesting ongoing immune dysregulation rather than resolution. Without longer follow-up (over 2 years), it is unknown whether IgM dominance represents: (a) a stable chronic state of failed class switching; (b) a prodromal phase that transitions to IgG dominance over time; or (c) transient extrafollicular activation that resolves within 1--2 years. Natural history data in ME/CFS would distinguish whether the IgM-to-IgG transition timeline differs between patients who recover and those who remain ill. No longitudinal ME/CFS data exist.
+
+*Direct measurement:* Serum IgM and IgG autoantibody titers against tissue homogenates at diagnosis and at 6, 12, and 24 months in a prospective post-infectious cohort would establish trajectory. If IgG antibodies emerge over time as IgM wanes (class switching), this supports a maturing autoimmune response. If IgM persists without IgG emergence, this supports chronic extrafollicular activation with class-switch failure.
+] <oq:igm-dominance-trajectory>
+
 #limitation(title: [HSAT2 Cluster: Single-Anchor Architecture Risk])[
 All environments in the HSAT2 hypothesis cluster — across Chapters 14a, 14d, 16, 17, 18, and 20 — share a single foundational mechanistic anchor: Evdokimova et al.\ 2019 (bioRxiv, Ewing sarcoma, unpublished). If this anchor fails to replicate in non-cancer biology, the downstream speculations (exosomal propagation, MDSC expansion, NK suppression, epigenetic combination strategies) are individually unmotivated. The certainty values assigned to each environment are conditional on the anchor's plausibility; readers should weight them accordingly.
 ]
@@ -2069,3 +2091,9 @@ Autoimmune autonomic ganglionopathy (AAG) involves GPCR autoantibodies ($beta$-a
 #speculation(title: [Mast Cell Activation Syndrome SMPDL3B-Lipid Overlap])[
 *Certainty: 0.40. Probability of shared mechanism: 0.04.* MCAS shares autonomic, inflammatory, and endothelial features with ME/CFS. SMPDL3B-mediated lipid raft dysfunction could underlie mast cell dysregulation in both conditions — lipid raft organisation governs IgE receptor (Fc$epsilon$RI) clustering and activation thresholds, directly controlling mast cell degranulation. If SMPDL3B dysregulation is present in MCAS patients, lipid-targeted interventions (sphingolipid modulators, membrane stabilisers) could address both conditions simultaneously. However, MCAS SMPDL3B has never been measured. Falsifiable: MCAS patients will show altered SMPDL3B expression and exaggerated mast cell degranulation in response to lipid raft stressors.
 ] <spec:mcas-smpdl3b>
+
+=== IgM-Mediated Neuropathy Parallels
+
+#speculation(title: [CIDP IgM Paraproteinemic Neuropathy as a Model for ME/CFS Microvascular Neuropathy])[
+*(Certainty: 0.35.)* Chronic inflammatory demyelinating polyneuropathy with IgM paraprotein targets myelin-associated glycoprotein causing complement-mediated nerve damage. The IgM-dominant autoantibody profile in long COVID @Tatai2026TSAutoantibodies suggests a potentially analogous mechanism: IgM binding to neural or microvascular endothelial antigens triggers classical complement activation, causing small fibre nerve or microvascular endothelial injury. Small fibre neuropathy is documented in a subset of ME/CFS patients. IgM paraproteinemic neuropathy treatments (rituximab, complement inhibition) show efficacy in CIDP---the same mechanisms under investigation for ME/CFS. Key prediction: ME/CFS patients with IgM-dominant profiles and small fibre neuropathy will show IgM binding to MAG and sulfatide in ELISA at higher rates than ME/CFS patients without neuropathy. Falsified if no MAG/sulfatide binding is detected. @Tatai2026TSAutoantibodies.
+] <spec:cidan-igm-parallel>

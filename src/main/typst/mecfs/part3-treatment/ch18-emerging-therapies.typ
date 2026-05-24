@@ -200,3 +200,62 @@ Petrov et al.\ achieved only moderate discrimination between ME/CFS and long COV
 #open-question(title: [Is ME/CFS Immune Suppression Adaptive or Maladaptive?])[
 Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a) an adaptive protective mechanism preventing chronic immune hyperactivation that would otherwise cause tissue damage, or (b) a maladaptive tolerance state that prevents viral clearance and perpetuates immune dysfunction. The distinction has profound therapeutic implications: breaking adaptive tolerance could trigger autoimmunity; failing to break maladaptive tolerance could permit ongoing pathology. Longitudinal studies tracking CD80 dynamics from acute infection through ME/CFS development are needed to resolve this question.
 ] <oq:cd80-adaptive-vs-maladaptive>
+
+== B Cell-Targeted and Autoantibody-Modulating Strategies
+
+=== Bruton's Tyrosine Kinase (BTK) Inhibition
+
+#speculation(title: [BTK Inhibitors for IgM-Dominant Extrafollicular Autoantibody Production])[
+*(Certainty: 0.35.)* If IgM-dominant tissue-specific autoantibodies arise from ongoing extrafollicular BCR signalling — as suggested by the IgM persistence (60% vs 36% in controls, 141-day follow-up) in long COVID @Tatai2026TSAutoantibodies — BTK inhibition could suppress new autoantibody production. BTK (Bruton's tyrosine kinase) is critical for BCR signal transduction; BTK inhibitors (ibrutinib, acalabrutinib) are approved for B cell malignancies with demonstrated autoantibody reduction in rheumatoid arthritis and lupus.
+
+*Combination rationale:* BTK inhibition suppresses new autoantibody production; immunoadsorption clears existing circulating antibodies. The combination targets both production and removal — BTK inhibitor stops new IgM synthesis, while IA clears the existing pool. This is mechanistically analogous to "induction + maintenance" in oncology.
+
+*Safety:* BTK inhibitors carry infection risk (sinopulmonary) and cardiac toxicity (atrial fibrillation, hypertension). Risk-benefit for a non-malignant indication requires careful evaluation in trials with prespecified safety endpoints. No human data in ME/CFS.
+
+*Falsifiable prediction:* Acalabrutinib 100 mg daily for 12 weeks reduces total IgM and tissue-specific IgM autoantibody titers by $gt.eq 30%$ in ME/CFS patients with IgM-dominant profiles. Combined BTK inhibition + IA produces greater and more sustained autoantibody reduction than IA alone ($gt.eq 60%$ vs $tilde 30%$ at 6 months). @Tatai2026TSAutoantibodies.
+] <spec:btk-inhibition-emerging>
+
+=== BAFF Inhibition (Belimumab)
+
+#speculation(title: [Belimumab for BAFF-Driven Autoantibody Persistence])[
+*(Certainty: 0.30.)* BAFF (B-cell activating factor) promotes B cell survival and is required for extrafollicular plasmablast differentiation. Belimumab (anti-BAFF monoclonal antibody, approved for SLE) reduces autoantibody production by depleting BAFF-dependent transitional and naive B cells. If ME/CFS involves BAFF-driven autoantibody persistence — supported by elevated BAFF in some ME/CFS studies — belimumab could reduce autoantibody titers without the broad B cell depletion of rituximab.
+
+*Key prediction:* ME/CFS patients with elevated serum BAFF ($>$1 ng/mL) receiving belimumab 10 mg/kg IV for 24 weeks show $gt.eq 25%$ reduction in autoantibody titers and $gt.eq 20%$ improvement in fatigue severity. Falsified if BAFF-normal ME/CFS patients show equivalent or superior response to BAFF-high patients (mechanism would be non-BAFF-mediated).
+
+*Limitation:* BAFF elevation in ME/CFS is inconsistently reported. Belimumab has not been tested in ME/CFS. Infection risk (opportunistic infections, progressive multifocal leukoencephalopathy risk carries a black box warning). No ME/CFS trial data.
+] <spec:baft-inhibition>
+
+=== Complement C1s Inhibition (Sutimlimab)
+
+#speculation(title: [Sutimlimab to Block IgM-Mediated Classical Complement Activation])[
+*(Certainty: 0.35.)* IgM is the most potent activator of the classical complement pathway. If IgM-dominant autoantibodies are pathogenic — and complement activation products are documented in ME/CFS — C1s inhibition would prevent complement-mediated tissue injury. Sutimlimab (anti-C1s monoclonal antibody, FDA-approved for cold agglutinin disease — an IgM-mediated condition) blocks C1s proximal to C3 cleavage, preserving alternative and lectin pathway function.
+
+*Key prediction:* ME/CFS patients with IgM-dominant profiles show elevated classical pathway markers (C4d, sC5b-9) that fall with C1s inhibition, accompanied by improved microvascular function (laser Doppler flowmetry) and reduced orthostatic intolerance. Falsified if complement markers are normal at baseline.
+
+*Limitation:* Cold agglutinin disease involves a well-defined, single-specificity IgM paraprotein — ME/CFS IgM is polyreactive and its pathogenic role is unproven. No data in ME/CFS. Infection risk from classical pathway blockade (encapsulated bacteria, particularly *Neisseria* species carry a black box warning). @Tatai2026TSAutoantibodies.
+] <spec:c1s-inhibition-emerging>
+
+=== Low-Dose IL-2 Therapy
+
+#speculation(title: [Low-Dose IL-2 to Restore Regulatory T Cell Control of Autoreactive B Cells])[
+*(Certainty: 0.30.)* Treg dysfunction is documented in ME/CFS. Low-dose IL-2 selectively expands CD4$""^+$CD25#super[hi]FoxP3#super[+] Tregs without activating effector T cells and has shown efficacy in type 1 diabetes and alopecia areata. By restoring Treg-mediated B cell tolerance, low-dose IL-2 could suppress autoantibody production at its regulatory source rather than at downstream effector stages (antibody removal, B cell depletion).
+
+*Key prediction:* ME/CFS patients with baseline Treg deficiency (less than 5 percent of CD4$""^+$ T cells) receiving low-dose IL-2 (1 million IU subcutaneously, 5-day cycles) show no less than 50 percent Treg expansion and no less than 15 percent autoantibody reduction at 6 months. Falsified if Treg expansion occurs without autoantibody reduction --- suggesting autoantibody production is Treg-independent.
+
+*Limitation:* No data in ME/CFS. Treg expansion does not guarantee functional restoration (expanded Tregs may be exhausted or incapable of suppressing in an inflammatory milieu). Fever, injection-site reactions.
+] <spec:low-dose-il2-emerging>
+
+=== Severity-Stratified Immunomodulatory Protocols
+
+#hypothesis(title: [Autoantibody Profile-Guided Severity Stratification])[
+*(Certainty: 0.35.)* Treatment response heterogeneity in ME/CFS immunomodulation trials — open-label response rates of 47–70% but sham-controlled null results — may reflect unselected patient cohorts with different underlying mechanisms. A severity-stratified and autoantibody-profile-guided treatment algorithm could match patients to interventions:
+
+    - *Mild–moderate, antibody-positive:* Home-based protocol (quercetin, omega-3, vitamin D3, tVNS) — low risk, accessible
+    - *Moderate–severe, IgM-dominant:* BTK inhibitor trial enrolment — targets production
+    - *Moderate–severe, IgG-dominant:* Immunoadsorption or daratumumab trial enrolment — targets existing antibodies and plasma cells
+    - *Severe–very severe, dual-positive:* Combined immunoadsorption + anti-plasma-cell therapy + intensive monitoring — addresses both populations
+
+*Rationale for stratification:* Different autoantibody profiles predict different dominant antibody production pathways (extrafollicular for IgM, germinal-centre-derived for IgG), requiring different therapeutic strategies. Treating all patients with the same protocol — as was done in IA-PACS-CFS @Pressler2024IAPACSCFSprotocol — dilutes treatment effects within responsive subgroups.
+
+*Implementation requirement:* A validated autoantibody panel measuring both GPCR and tissue-specific antibodies (see Section @sec:immunological-biomarkers for the multi-tissue panel proposal) is a prerequisite for stratification. Without such a panel, stratification is speculative. @Tatai2026TSAutoantibodies.
+] <hyp:severity-stratified-immunomodulation>

@@ -1704,3 +1704,29 @@ Cognitive exertion triggers PEM in many patients, but cognitive thresholds are p
 #open-question(title: [Caregiver-Implemented Post-Exertion Recovery Protocol])[
 PEM management requires immediate, consistent response within the critical 24--48h window after exertion. Can training caregivers to implement standardised post-exertion recovery protocols (temperature control, hydration, rest positioning, symptom monitoring) reduce PEM severity and duration? The intervention is low-risk, low-cost, and caregiver-implemented protocols are established in stroke and TBI rehabilitation. Falsifiable: caregiver-implemented protocols will reduce PEM severity by $≥$30% and shorten PEM duration by $≥$24h compared to standard self-management. Probability of efficacy: 0.18. @Watton2026unified
 ] <oq:caregiver-pem-protocol>
+
+=== Autonomic and Immune-Targeted Non-Pharmacological Strategies
+
+*Context.* Tissue-specific IgM autoantibody persistence in post-infectious conditions @Tatai2026TSAutoantibodies suggests ongoing immune dysregulation that may be modifiable by non-pharmacological autonomic and metabolic interventions. These are mechanistically motivated adjunctive strategies, not replacements for medical care.
+
+#speculation(title: [Transcutaneous Vagus Nerve Stimulation (tVNS) for Cholinergic Immunomodulation])[
+*(Certainty: 0.25.)* The vagus nerve innervates the spleen via the cholinergic anti-inflammatory pathway: efferent vagal signals release acetylcholine, which binds $alpha$7 nicotinic receptors on splenic macrophages, suppressing TNF-$alpha$ and other pro-inflammatory cytokine production. tVNS (auricular branch stimulation, 25 Hz, 30 min daily) is CE-marked for epilepsy and depression and has shown reduced disease activity in rheumatoid arthritis — a B-cell-driven autoimmune condition.
+
+*Rationale for ME/CFS:* If the inflammatory milieu promotes ongoing extrafollicular B cell activation @Tatai2026TSAutoantibodies, reducing that milieu through non-invasive vagal stimulation could reduce the drive for autoantibody production. Additionally, tVNS may improve the autonomic dysfunction (reduced HRV, sympathetic overdrive) that is near-universal in ME/CFS.
+
+*Evidence level:* tVNS reduces inflammatory cytokines in controlled trials; ME/CFS-specific evidence is absent. One small fibromyalgia trial showed pain reduction. Not tested for autoantibody reduction.
+
+*Limitations:* Effect size on B cell function and autoantibody titers is unknown. Auricular tVNS devices are commercially available but quality varies. Optimal stimulation parameters for immunomodulation (frequency, duration, ear location) are not standardised. @Tatai2026TSAutoantibodies.
+] <spec:tvns-immunomodulation>
+
+#speculation(title: [Intermittent Fasting for B Cell Homeostasis and Autophagy])[
+*(Certainty: 0.15.)* Prolonged fasting ($gt.eq 16$ hours) promotes autophagy, reduces mTOR signalling, and in animal models reduces autoantibody production and depletes autoreactive B cells. The metabolic switch from glucose to ketone-body utilisation also reduces NLRP3 inflammasome activation — a source of IL-1$beta$ that promotes B cell activation. A 16:8 intermittent fasting protocol (16-hour daily fast) is the safest protocol for non-diabetic adults.
+
+*Safety in ME/CFS:* Intermittent fasting has NOT been tested in ME/CFS. Several theoretical concerns exist: (1) extended fasting can trigger hypoglycaemic stress in energy-compromised patients; (2) fasting increases cortisol, which may worsen HPA axis dysfunction; (3) caloric deficit risks worsening baseline energy deficit. Severe and very-severe patients should NOT attempt fasting without medical supervision.
+
+*Limitations:* All autoantibody data are from animal models. Human intermittent fasting studies show metabolic benefits but no autoantibody-specific data. Effect size on B cell homeostasis in humans is unknown. Not tested in ME/CFS — safety profile in this population is uncharacterised. @Tatai2026TSAutoantibodies.
+] <spec:intermittent-fasting-bcell>
+
+#open-question(title: [Controlled Hyperthermia for Immunological Reset in Autoantibody-Mediated Disease])[
+Controlled hyperthermia (whole-body heating to 40 °C) induces heat shock protein expression, mobilises lymphocytes from lymphoid tissues into circulation, and has shown transient benefit in autoimmune conditions. The theoretical application in ME/CFS: hyperthermia-triggered lymphocyte mobilisation could make tissue-resident autoreactive plasmablasts accessible to immunoadsorption or pharmacological depletion — addressing the sanctuary hypothesis (@hyp:extrafollicular-sanctuary). However, this is highly speculative: heat stress alone can trigger PEM in ME/CFS patients, the pro-inflammatory effects of hyperthermia (IL-6 spike) could worsen symptoms, and the duration of mobilisation is minutes to hours — insufficient for a multi-day IA protocol. (Certainty: 0.15.) @Tatai2026TSAutoantibodies.
+] <oq:hyperthermia-immunoreset>

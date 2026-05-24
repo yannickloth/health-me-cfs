@@ -360,3 +360,176 @@ This “edge of ferroptosis” state would:
     - Ferroptosis inhibitors might provide benefit
     - Iron supplementation should be risky, especially during crashes
     - The tissues most affected should be those most vulnerable to ferroptosis
+
+=== Tissue-Specific Structural Autoantibodies: A Complementary Pathogenic Mechanism
+<sec:tissue-specific-autoantibodies>
+
+This section is motivated by the first systematic study applying simultaneous multi-tissue autoantibody screening to long COVID @Tatai2026TSAutoantibodies. The findings extend the autoantibody landscape beyond GPCR targets to include tissue-derived structural antigens — and reveal a diagnostic gap with direct relevance to ME/CFS.
+
+==== Key Findings from Long COVID
+
+#achievement(title: [Tissue-specific autoantibodies in long COVID: first multi-tissue screening])[
+The Tatai et al.\ (2026) study @Tatai2026TSAutoantibodies screened long COVID patients (n=114) and controls (n=36) for autoantibodies against three human tissue homogenates — heart, internal mammary artery, and lung — using Western blot. Key findings:
+
+    - *Cardiac autoantibodies:* 54% of long COVID patients vs.\ 33% of controls (p=0.16)
+    - *Vascular autoantibodies:* 34% vs.\ 8% (p $<$ 0.05) — the only tissue with a statistically significant difference
+    - *Pulmonary autoantibodies:* 34% vs.\ 31% (p=0.51)
+    - *IgM-dominated:* The majority of detected autoantibodies were IgM (60% vs.\ 36% in controls, p $<$ 0.05)
+    - *Polyreactivity:* Approximately half of autoantibody-positive patients showed broad responses (up to 8 distinct bands per patient)
+    - *Longitudinal persistence:* At follow-up (n=30, median 141 days), IgM autoantibodies persisted and new autoantibodies emerged
+
+*Certainty: 0.65.* (Peer-reviewed, n=114, single study; not yet independently replicated. Western blot uses denatured antigens — may detect linear epitopes not relevant in vivo.)
+
+*Replication status:* Not yet replicated. First study of its kind applying simultaneous multi-tissue screening to long COVID.
+
+*Relevance for ME/CFS:* These findings are directly relevant to ME/CFS given the established post-infectious pathogenesis, the documentation of GPCR autoantibodies in ME/CFS @Sotzny2021, and the shared symptom profile with long COVID. Tissue-specific structural autoantibodies — distinct from GPCR-targeting autoantibodies — may represent a second, complementary autoimmune pathway in post-infectious chronic disease.
+]
+
+==== The ANA HEp-2 Diagnostic Gap
+
+#hypothesis(title: [Standard ANA screening misses tissue-specific autoantibody signatures])[
+A critical finding from Tatai et al.\ (2026) @Tatai2026TSAutoantibodies is that routine ANA HEp-2 testing *failed to detect* tissue-specific autoantibodies. In a parallel analysis (n=137 long COVID, n=81 controls), ANA HEp-2 immunofluorescence showed *no discriminatory value* between long COVID and controls — while 83% of the tissue-specific Western blot cohort were seropositive.
+
+*Certainty: 0.65.* (Directly demonstrated in a single study; needs independent replication across multiple ANA testing platforms and in an ME/CFS cohort.)
+
+*Mechanism:* ANA HEp-2 tests use a single human epithelial cell line and are designed to detect nuclear and cytoplasmic antigens. Tissue-specific autoantibodies target organ-restricted proteins (cardiac, vascular, pulmonary) not expressed at sufficient levels in HEp-2 cells.
+
+*Implication for ME/CFS:* If ME/CFS involves tissue-specific structural autoantibodies analogous to those found in long COVID, standard ANA screening — the most common autoimmune workup in clinical practice — would produce false negatives. This would explain why most ME/CFS patients screen negative on standard autoimmune panels despite evidence of immune dysfunction. Tissue-specific autoantibody testing requires direct exposure of patient serum to relevant tissue homogenates, a method not available in clinical laboratories.
+
+*Falsifiable prediction:* ME/CFS patients with infection-triggered onset will show elevated tissue-specific autoantibodies (cardiac, vascular, skeletal muscle) on Western blot compared to both healthy controls and depression-only fatigued controls, while remaining ANA-negative on standard HEp-2 testing. Falsified if ME/CFS patients show no tissue-specific autoantibody elevation, or if ANA HEp-2 testing is equivalently positive. (Certainty: 0.50 — based on long COVID data, extrapolated to ME/CFS.)
+] <hyp:tissue-autoantibody-ana-gap>
+
+==== IgM Dominance and Failed Class Switching: A Marker of Ongoing Immune Dysregulation
+
+#speculation(title: [Persistent IgM autoantibodies indicate failed or incomplete immunoglobulin class switching])[
+The IgM dominance observed by @Tatai2026TSAutoantibodies has mechanistic implications for pathogenesis:
+
+    - *IgM is the first antibody isotype produced in an immune response.* Its persistence suggests ongoing antigenic stimulation — continuous production of new IgM-secreting cells rather than a resolved response with IgG memory.
+    - *Class switching (IgM $arrow.r$ IgG/IgA) requires T cell help via CD40-CD40L interaction.* Persistent IgM dominance implies failed or incomplete class switching, possibly due to T cell dysfunction — consistent with the T cell exhaustion documented in ME/CFS.
+    - *Atypical extrafollicular response:* The authors suggest autoantibodies may be generated through an extrafollicular pathway independent of germinal centres, producing short-lived IgM plasmablasts rather than affinity-matured IgG-secreting plasma cells.
+    - *Implication:* This pattern is more consistent with an *ongoing* autoimmune process than a *resolved* one. It predicts that autoantibody titers should fluctuate with disease activity — waxing during crashes and waning during remission.
+
+*Certainty: 0.40.* (IgM dominance is directly observed; class-switching failure is a mechanistic interpretation based on single-study data. No direct T cell functional data in the same cohort. Longitudinally, IgM persistence was confirmed at follow-up, but class-switching markers (AID expression, T follicular helper cell frequency) were not measured.)
+
+*Replication status:* Not yet replicated.
+
+*Cross-reference:* See Section @sec:gpcr-autoantibodies for the GPCR autoantibody evidence, which may represent a parallel but mechanistically distinct autoantibody population. GPCR autoantibodies (predominantly IgG) likely arise through a separate pathway — possibly germinal-centre-mediated affinity maturation — while tissue-specific structural autoantibodies (predominantly IgM) may reflect ongoing extrafollicular activation. This dual-pathway model reconciles the apparent discrepancy in isotype dominance.
+] <spec:igm-class-switching-failure>
+
+==== Complementarity with GPCR Autoantibody Evidence
+
+#hypothesis(title: [Dual autoantibody populations in post-infectious chronic disease: GPCR-targeting vs.\ tissue-structural])[
+The emerging evidence supports two mechanistically distinct autoantibody populations:
+
+    *GPCR autoantibodies* (predominantly IgG):
+    
+        - Target functional receptors ($beta$1/$beta$2-adrenergic, M3/M4 muscarinic, AT1, ETA/B)
+        - Detected by CellTrend ELISA or functional bioassays (not by tissue Western blot)
+        - IgG-dominant, suggesting germinal-centre-mediated class switching and affinity maturation
+        - Produced by long-lived plasma cells — hence immunoadsorption provides temporary relief but antibody rebound occurs (@Tolle2020immunoadsorption; @Anft2025immunoadsorption)
+        - Supported by clinical response to immunoadsorption and daratumumab (@Stein2024immunoadsorption; @Fluge2025daratumumab)
+    
+    *Tissue-structural autoantibodies* (predominantly IgM):
+    
+        - Target organ-specific structural proteins (cardiac, vascular, pulmonary)
+        - Detected by tissue Western blot — NOT by CellTrend ELISA or ANA HEp-2
+        - IgM-dominant, suggesting extrafollicular B cell activation and failed class switching
+        - May be produced by short-lived plasmablasts requiring ongoing stimulation
+        - No treatment trial data yet; experimental implications differ from GPCR autoantibodies
+
+*Certainty: 0.45.* (GPCR arm is supported by multiple studies and treatment trials; tissue-structural arm is supported by a single study. The dual-population framework is a synthesis that has not been tested within a single cohort.)
+
+*Why both populations matter:*
+    - A patient could be positive for GPCR autoantibodies, tissue-structural antibodies, both, or neither — defining four pathophysiological subgroups
+    - GPCR autoantibodies explain autonomic dysfunction, while tissue-structural autoantibodies might explain organ-specific manifestations (cardiac symptoms, vascular dysfunction, pulmonary involvement)
+    - The subgroup with both populations might have the most severe disease
+    - Treatment strategies differ: immunoadsorption and anti-plasma-cell therapy for GPCR autoantibodies; no established strategy for tissue-structural IgM antibodies
+
+*Falsifiable prediction:* In an ME/CFS cohort tested with both CellTrend GPCR ELISA and multi-tissue Western blot, the two autoantibody populations will be *uncorrelated* within individual patients (Spearman $rho < 0.30$), consistent with independent B cell activation pathways. A subset of patients (predicted: 20–30%) will be positive for both, and this group will show the highest symptom severity scores. Falsified if the populations are strongly correlated ($rho > 0.70$), which would suggest a single upstream driver producing both.
+] <hyp:dual-autoantibody-populations>
+
+#open-question(title: [Is tissue-specific IgM autoantibody production driven by persistent antigen or molecular mimicry?])[
+The mechanism sustaining tissue-specific IgM autoantibody production is unknown. Two candidate mechanisms:
+
+    1. *Persistent antigen:* Ongoing infection (e.g., viral persistence, viral protein reservoirs) continuously stimulates new B cell responses. The detected anti-spike protein antibodies in @Anft2025immunoadsorption and the reduction of soluble spike post-immunoadsorption support this possibility.
+    2. *Molecular mimicry:* Initial infection triggers antibodies cross-reactive with self-antigens; the autoimmune response becomes self-sustaining through epitope spreading — even if the original pathogen is cleared.
+
+Distinguishing between these mechanisms is critical for treatment strategy: persistent antigen calls for antiviral therapy; molecular mimicry calls for immunomodulation.
+] <oq:tissue-ab-mechanism>
+
+=== Extrafollicular B Cell Activation and Sanctuary Plasma Cells
+<sec:extrafollicular-b-cell>
+
+The IgM dominance observed in tissue-specific autoantibodies @Tatai2026TSAutoantibodies raises a critical mechanistic question: why does class switching fail, and where does the autoantibody production originate?
+
+#hypothesis(title: [The Extrafollicular B Cell Sanctuary])[
+*(Certainty: 0.45.)* IgM-dominant, polyreactive autoantibodies — the profile documented in long COVID @Tatai2026TSAutoantibodies — are consistent with an extrafollicular (EF) B cell activation pathway: antigen-driven activation outside germinal centres, producing short-lived IgM plasmablasts without affinity maturation or class switching. If activated EF plasmablasts migrate to tissue sanctuaries (bone marrow, gut-associated lymphoid tissue, vascular adventitia), they may escape conventional immunoadsorption and daratumumab.
+
+*Evidence:*
+    - IgM dominance (60% vs 36% in controls) is a hallmark of EF responses
+    - Polyreactivity (up to 8 bands per patient) and IgM persistence at 141-day follow-up are consistent with ongoing EF activation, not memory-derived IgG recall
+    - Germinal-centre-independent responses may evade CD20-targeted B cell depletion (rituximab), while CD38-targeted plasma cell depletion (daratumumab) may succeed only if CD38#super[+] plasmablasts are accessible — tissue-resident cells may be CD38#super[lo] or protected by niche factors
+    - The discrepancy between the open-label daratumumab signal (@Fluge2025daratumumab, 60% response) and the IA-PACS-CFS sham-controlled null (@Rucker2026WirthScheibenbogen) could be explained if daratumumab depletes tissue-resident EF plasmablasts inaccessible to plasmapheresis
+
+*Falsifiable prediction:* Single-cell RNA-seq of bone marrow aspirates from ME/CFS patients will show enrichment of CD11c#super[+] T-bet#super[+] EF plasmablasts with tissue-residency markers (CD69, CXR6) correlating with IgM autoantibody titers. Falsified if ME/CFS bone marrow shows germinal-centre-derived plasma cells without EF markers, or if no tissue-residency signature is present. (Certainty: 0.45.)
+] <hyp:extrafollicular-sanctuary>
+
+#speculation(title: [BCR Intrinsic Signaling Hyperactivity as a Driver of Persistent EF Activation])[
+*(Certainty: 0.30.)* The polyreactive, IgM-dominant autoantibody pattern could be driven by B-cell-receptor (BCR) hyperresponsiveness rather than — or in addition to — persistent antigen. Gain-of-function variants in BCR signalling components (SYK, BTK, BLNK) or impaired negative regulation (CD22, Fc$gamma$RIIB) would lower the threshold for autoreactive B cell activation, enabling continuous EF activation independent of ongoing T cell help.
+
+*Evidence gap:* No BCR signalling studies have been performed in ME/CFS. This is entirely speculative, motivated solely by the IgM-dominant, polyreactive pattern in a single long-COVID study @Tatai2026TSAutoantibodies. Comparable BCR signalling hyperactivity is documented in systemic lupus erythematosus and other B-cell-driven autoimmune diseases, but the relevance to ME/CFS is unknown.
+
+*Falsifiable prediction:* Phospho-flow cytometry of ME/CFS B cells stimulated with anti-IgM will show enhanced and prolonged phosphorylation of SYK/PLC$gamma$2 versus controls. Falsified if phosphorylation kinetics are equivalent or reduced.
+] <spec:bcr-signaling-hyperactivity>
+
+=== Novel Treatment Candidate Mechanisms
+
+#speculation(title: [BTK Inhibition as a Strategy for IgM-Dominant Extrafollicular Activation])[
+*(Certainty: 0.35.)* If IgM-dominant tissue-specific autoantibodies arise from ongoing extrafollicular BCR signalling, BTK (Bruton's tyrosine kinase) inhibition could suppress new autoantibody production. BTK is critical for BCR signal transduction; BTK inhibitors (ibrutinib, acalabrutinib) are approved for B cell malignancies and show efficacy in rheumatoid arthritis and lupus through reduction of autoantibody production.
+
+*Rationale for ME/CFS:* BTK inhibition would suppress ongoing EF autoantibody production without depleting long-lived plasma cells — a mechanism complementary to, and potentially synergistic with, immunoadsorption (which removes existing antibodies but does not stop new production). The combination of BTK inhibition + immunoadsorption targets both production and removal: BTK inhibitor stops new IgM synthesis; immunoadsorption clears the existing circulating pool.
+
+*Safety concern:* BTK inhibitors carry infection risk (particularly sinopulmonary) and cardiac toxicity (atrial fibrillation, hypertension). Risk-benefit for a non-malignant indication requires careful evaluation. No human data in ME/CFS.
+
+*Falsifiable prediction:* Acalabrutinib 100 mg daily for 12 weeks would reduce total IgM and tissue-specific IgM autoantibody titers by $gt.eq 30%$ in ME/CFS patients with IgM-dominant profiles. Falsified if no IgM reduction occurs or if change is equivalent to natural fluctuation.
+] <spec:btk-inhibition>
+
+#speculation(title: [Complement C1s Inhibition for IgM-Mediated Tissue Injury])[
+*(Certainty: 0.35.)* IgM is the most potent activator of the classical complement pathway due to its pentameric structure. If IgM-dominant tissue-specific autoantibodies are pathogenic, their mechanism of tissue injury is likely complement-mediated — C1q binding to IgM-antigen complexes triggers the classical cascade, generating C5b-9 membrane attack complex and anaphylatoxins (C3a, C5a). Complement activation products are documented in ME/CFS.
+
+*Sutimlimab (anti-C1s monoclonal antibody)* blocks the classical pathway at C1s — proximal to C3 cleavage — and is FDA-approved for cold agglutinin disease (an IgM-mediated condition). It would prevent complement-mediated tissue damage without affecting alternative or lectin pathways, preserving host defence against encapsulated bacteria.
+
+*Key prediction:* ME/CFS patients with IgM-dominant profiles would show elevated classical pathway activation markers (C4d, sC5b-9) and respond to C1s inhibition with reduced endothelial injury markers and improved microvascular function. Falsified if complement markers are normal or if complement inhibition has no clinical effect despite biological target engagement.
+
+*Cross-reference:* Complement activation is discussed in the unified mechanistic model @Watton2026unified and the glycocalyx disruption context in the cardiovascular chapter. (Certainty: 0.35.)
+] <spec:c1s-inhibition>
+
+#speculation(title: [Low-Dose IL-2 to Restore Treg-Mediated B Cell Tolerance])[
+*(Certainty: 0.30.)* If persistent autoantibody production reflects impaired regulatory T cell (Treg) control of autoreactive B cells — and Treg dysfunction is documented in ME/CFS — low-dose IL-2 therapy could restore tolerance. Low-dose IL-2 selectively expands Tregs (CD4#super[+]CD25#super[hi]FoxP3#super[+]) without activating effector T cells, and has shown efficacy in type 1 diabetes and alopecia areata.
+
+*Key uncertainty:* Whether Treg dysfunction is a cause or consequence of the ME/CFS immune state. Expanding Tregs may restore tolerance if the driver is Treg insufficiency; but if the driver is intrinsic B cell hyperactivity or persistent viral antigen, Treg expansion alone may be insufficient. No human data in ME/CFS.
+
+*Falsifiable prediction:* ME/CFS patients with baseline Treg deficiency ($lt.eq 5 #sym.percent$ of CD4#super[+] T cells) receiving low-dose IL-2 would show increased Treg frequency by $gt.eq 50 #sym.percent$ and reduced autoantibody titers by $gt.eq 15 #sym.percent$. Falsified if Treg expansion occurs without autoantibody reduction — suggesting the autoantibody production is Treg-independent.
+] <spec:low-dose-il2-treg>
+
+=== IgM-Mediated Endothelial and Microvascular Pathology
+
+#speculation(title: [IgM Autoantibodies Target the Endothelial Glycocalyx])[
+*(Certainty: 0.30.)* If IgM-dominant autoantibodies are pathogenic, their pentameric structure makes them highly efficient complement activators. The endothelial glycocalyx — a heparan sulfate/hyaluronic acid meshwork lining all blood vessels — is a plausible target because: (a) it is directly exposed to blood-borne antibodies; (b) glycocalyx damage impairs microvascular flow regulation, a documented feature of ME/CFS; and (c) glycocalyx components (heparan sulfate, hyaluronan) are known autoantigen targets in other autoimmune conditions.
+
+*Proposed mechanism:* IgM binding to glycocalyx components triggers classical complement activation → C5b-9 deposition → glycocalyx shedding (syndecan-1 release) → increased vascular permeability → impaired nitric oxide signalling → microvascular dysfunction. This would explain orthostatic intolerance (microvascular pooling), cerebral hypoperfusion (glycocalyx-dependent flow regulation in brain microvessels), and the CRP-discordant inflammation pattern (localised microvascular complement activation without systemic acute-phase response).
+
+*Evidence:* Syndecan-1 and hyaluronan fragments are elevated in long COVID. Complement activation products (C4d, sC5b-9) are documented in ME/CFS. CRP is only marginally elevated in seropositive long COVID patients @Tatai2026TSAutoantibodies — consistent with microvascular-localised rather than systemic inflammation.
+
+*Falsifiable prediction:* ME/CFS patients with IgM-dominant autoantibody profiles show elevated plasma syndecan-1 and hyaluronan fragments, and their IgM binds purified glycocalyx components in ELISA. Glycocalyx degradation markers correlate with orthostatic intolerance severity (COMPASS-31 score) and cerebral blood flow dysregulation (transcranial Doppler). Falsified if glycocalyx marker elevation is absent or if IgM does not bind glycocalyx components. @Tatai2026TSAutoantibodies.
+] <spec:igm-glycocalyx>
+
+#speculation(title: [Viral-GPCR Molecular Mimicry as a Trigger for Dual Autoantibody Populations])[
+*(Certainty: 0.35.)* SARS-CoV-2 spike protein shares sequence similarity with $beta$2-adrenergic receptor extracellular loops. If initial tissue-specific autoantibodies arise from viral protein mimicry of GPCR domains, epitope spreading could expand the response to include both GPCR targets and structural tissue antigens — producing the dual-population pattern discussed in @hyp:dual-autoantibody-populations.
+
+*Proposed mechanism:* Initial anti-spike antibodies cross-react with $beta$2-AR → GPCR autoantibody production → tissue inflammation and damage → release of tissue-specific structural antigens → extrafollicular B cell activation → IgM tissue-specific autoantibodies → chronic dual-pathway autoimmunity maintained by both germinal-centre-derived IgG (GPCR) and extrafollicular IgM (tissue-structural).
+
+*Evidence:* Wallukat et al. @Wallukat2021gpcr_mechanisms documented GPCR autoantibodies in long COVID. Tatai et al. @Tatai2026TSAutoantibodies documented tissue-specific antibodies in the same condition — but from different cohorts. No study has tested both GPCR and tissue-specific antibodies in the same patients. The molecular mimicry mechanism is a hypothesis with direct testability via peptide array screening.
+
+*Falsifiable prediction:* Peptide array screening with SARS-CoV-2 spike fragments and GPCR extracellular domains will identify cross-reactive IgG/IgM antibodies binding both viral and GPCR epitopes. The cross-reactivity frequency will be higher in long COVID patients with both GPCR and tissue-specific antibodies than in patients with only one autoantibody population. Falsified if no cross-reactive antibodies are detected or if frequency is equivalent across patient subgroups. @Tatai2026TSAutoantibodies; @Wallukat2021gpcr_mechanisms.
+] <spec:viral-gpcr-mimicry>
