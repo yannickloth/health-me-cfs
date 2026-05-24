@@ -5,7 +5,7 @@
 **Plan file:** `ops/plans/nets-dnase-covid19-integration-plan.md`
 **Date:** 2026-05-24
 **Parent topic:** root
-**Child subtrees:** (none yet)
+**Child subtrees:** pdc-postviral (16 nodes, 🔵 in progress)
 
 ## Nodes
 
@@ -13,10 +13,8 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| 1.1 | pDC Migration Hijack: Tissue Sequestration → Circulatory Depletion | hypothesis | 0.65 | 5 | 2 | 3 | 3 | 1 | ⬜ | — |
-| 1.2 | NET-Mediated Glymphatic Impairment | hypothesis | 0.55 | 4 | 1 | 4 | 3 | 1 | ⬜ | — |
-| 1.3 | Insulin-NETosis Feed-Forward Loop | hypothesis | 0.60 | 4 | 5 | 4 | 4 | 3 | ⬜ | — |
-| 1.4 | pDC-Microglia Crosstalk: Missing Link in Neuroinflammation | hypothesis | 0.50 | 4 | 1 | 3 | 2 | 1 | ⬜ | — |
+| 1.1 | pDC Migration Hijack: Tissue Sequestration → Circulatory Depletion | hypothesis | 0.65 | 5 | 2 | 3 | 3 | 1 | ⏭️ | subtrees/pdc-postviral.md |
+| 1.4 | pDC-Microglia Crosstalk: Missing Link in Neuroinflammation | hypothesis | 0.50 | 4 | 1 | 3 | 2 | 1 | ⏭️ | subtrees/pdc-postviral.md |
 | 1.5 | DNase Deficiency as Hidden Autoimmune Trigger | hypothesis | 0.45 | 3 | 1 | 2 | 2 | 2 | ⬜ | — |
 | 1.6 | Mitochondrial-NETosis Cross-Talk: Energy Crisis | hypothesis | 0.55 | 4 | 2 | 3 | 3 | 1 | ⬜ | — |
 | 1.7 | NET-Induced Endothelial Glycocalyx Degradation | hypothesis | 0.60 | 5 | 2 | 4 | 3 | 1 | ⬜ | — |
