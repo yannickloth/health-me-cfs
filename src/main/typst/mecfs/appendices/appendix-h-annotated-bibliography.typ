@@ -4077,7 +4077,7 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     *Certainty Assessment:*:
     
   // TODO: needs #table() wrapper
-[- *Quality:* Medium (Immunity], [Ageing, open access, peer-reviewed)],
+  [- *Quality:* Medium (Immunity, Ageing), open access, peer-reviewed],
         - *Sample:* Animal model (aged mice); no human data
         - *Replication:* Single study; mechanistic pathway not yet confirmed in humans
         - *Limitation:* Mouse model only; extrapolation to human ME/CFS is speculative; erratum published (minor correction)
@@ -16408,3 +16408,235 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Conclusion*: Gut microbiome dysbiosis is consistently associated with ME/CFS; therapeutic potential of microbiome-modulating interventions exists but requires rigorous clinical trials.
     *Limitations*: Retrospective review (not systematic); heterogeneous study quality; limited clinical trial data; no meta-analysis; publication bias possible.
     *ME/CFS Relevance*: Confirms consistency of gut dysbiosis findings in ME/CFS; highlights need for better-designed clinical trials of microbiome-based interventions; identifies research gaps (dietary interventions, FMT).
+
+// =============================================================================
+
+== AI Foundation Models and Polysomnography for ME/CFS
+<sec:bib-sleepfm-ai-sleep-prediction>
+// =============================================================================
+
+=== Thapa et al.\ 2026 — SleepFM: A Multimodal Sleep Foundation Model for Disease Prediction
+
+    *Full Citation*: Thapa R, Kjaer MR, Mignot E, Zou J, et al.\ A multimodal sleep foundation model for disease prediction.\ _Nature Medicine_.\ 2026.
+    *DOI*: 10.1038/s41591-025-04133-4
+    *Published*: 2026
+    *Study Design*: Foundation model training with leave-one-out contrastive learning
+    *Sample Size*: 585,000+ hours of PSG data from 65,000 participants
+    *Journal Impact*: Nature Medicine (top-tier medical journal)
+    *Key Findings*:
+
+        - Trained on EEG, ECG, EMG, pulse, and breathing signals using novel "leave-one-out contrastive learning"
+        - Predicts 130+ health conditions across multiple domains
+        - Key insight: "Body constituents that were out of sync — a brain that looks asleep but a heart that looks awake — seemed to spell trouble"
+        - Cross-Modal Coupling: Model detects decoupling between physiological systems as biomarker of pathology
+        - Validated on held-out datasets with strong performance across diverse conditions
+
+    *Conclusion*: Foundation models applied to multimodal sleep data can detect physiological decoupling and predict diverse health conditions. Out-of-sync body constituents during sleep indicate pathology.
+    *Limitations*: Not yet independently replicated; specific mechanism underlying leave-one-out contrastive learning not fully characterized; generalizability to rare diseases like ME/CFS not yet tested.
+    *ME/CFS Relevance*: Decoupling hypothesis maps directly to ME/CFS pathophysiology: dysautonomia (out-of-sync brain-heart coupling), alpha-delta sleep (cortical slowing with wake-like alpha), impaired glymphatic clearance (neurovascular-vascular coupling failure). SleepFM could identify ME/CFS-specific physiological decoupling signatures and serve as diagnostic biomarker.
+
+=== Mohamed et al.\ 2023 — Meta-Analysis of Sleep Architecture in ME/CFS
+
+    *Full Citation*: Mohamed RA et al.\ Meta-analysis of sleep architecture in myalgic encephalomyelitis/chronic fatigue syndrome.\ _Sleep Medicine Reviews_.\ 2023.
+    *Published*: 2023
+    *Study Design*: Systematic review and meta-analysis
+    *Sample Size*: 24 studies, n=801 adults
+    *Journal Impact*: Sleep Medicine Reviews (top-tier sleep journal)
+    *Key Findings*:
+
+        - Increased sleep onset latency
+        - Increased wake after sleep onset
+        - Reduced sleep efficiency
+        - Decreased stage N2 sleep
+        - Paradoxically increased slow-wave sleep (N3)
+        - Longer REM latency
+        - Subjective unrefreshing sleep despite near-normal aggregate polysomnography scores
+
+    *Conclusion*: ME/CFS shows objective sleep architecture abnormalities despite near-normal aggregate metrics. Paradoxical N3 increase suggests quality rather than quantity of slow-wave sleep is impaired.
+    *Limitations*: Heterogeneous studies with varying quality; cross-sectional design; limited power to detect microarchitectural abnormalities.
+    *ME/CFS Relevance*: Documents objective sleep architecture abnormalities. Paradoxical N3 increase supports glymphatic clearance hypothesis: slow-wave sleep duration may be normal but quality impaired (alpha-delta intrusion). SleepFM could detect this microarchitectural disruption not captured by standard staging.
+
+=== Jackson et al.\ 2012 — Sleep Abnormalities in ME/CFS: A Review
+
+    *Full Citation*: Jackson ML et al.\ Sleep abnormalities in chronic fatigue syndrome/myalgic encephalomyelitis: a review.\ _Journal of Clinical Sleep Medicine_.\ 2012;8.
+    *Published*: 2012
+    *Study Design*: Comprehensive narrative review
+    *Sample Size*: N/A (review)
+    *Journal Impact*: Journal of Clinical Sleep Medicine (peer-reviewed clinical sleep journal)
+    *Key Findings*:
+
+        - Sleep fragmentation is the most consistent finding
+        - Polysomnography often shows near-normal aggregate metrics
+        - Microarousal index frequently elevated
+        - Alpha-delta sleep pattern documented in subset
+        - Subjective unrefreshing sleep despite objective normality
+
+    *Conclusion*: ME/CFS shows sleep fragmentation and microarousal disruption not captured by standard sleep staging. Microarchitectural disruption explains subjective-objective discrepancy.
+    *Limitations*: Narrative review (not systematic); no quantitative meta-analysis; publication bias possible.
+    *ME/CFS Relevance*: Establishes subjective-objective discrepancy in ME/CFS sleep. Microarchitectural disruption is precisely the type of feature SleepFM's cross-modal analysis could detect. Sleep fragmentation may reflect impaired neurovascular coupling.
+
+=== Fonseca et al.\ 2024 — ML Classification of ME/CFS Using EBV IgG Responses
+
+    *Full Citation*: Fonseca DN et al.\ Classifying Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Using Machine Learning and IgG Antibody Responses to Epstein-Barr Virus Peptides.\ (Preprint/Early access).\ 2024.
+    *Published*: 2024
+    *Study Design*: ML classifier on EBV IgG peptide array
+    *Sample Size*: n=~200 (estimated)
+    *Journal Impact*: N/A (preprint)
+    *Key Findings*:
+
+        - EBV IgG peptide array can classify ME/CFS vs controls
+        - Machine learning classifier achieved good performance
+        - Specific EBV peptide response patterns distinguish ME/CFS
+
+    *Conclusion*: Machine learning can identify ME/CFS-specific immune signatures using EBV peptide arrays.
+    *Limitations*: Preprint (not yet peer-reviewed); small sample size; replication needed; clinical utility uncertain.
+    *ME/CFS Relevance*: Demonstrates feasibility of ML approaches for ME/CFS diagnostics using biological data. SleepFM extends this paradigm to physiological time-series data (polysomnography). EBV reactivation is common trigger for ME/CFS onset.
+
+=== Jason et al.\ 2023 — ML-Based ME/CFS Case Identification from Medical Claims
+
+    *Full Citation*: Jason LA et al.\ Estimating Prevalence, Demographics, and Costs of ME/CFS Using Large Scale Medical Claims Data and Machine Learning.\ _BMC Medicine_.\ 2023.
+    *Published*: 2023
+    *Study Design*: ML algorithm for ME/CFS case identification in claims data
+    *Sample Size*: Large medical claims dataset (exact n not specified)
+    *Journal Impact*: BMC Medicine (mid-tier medical journal)
+    *Key Findings*:
+
+        - ML can identify ME/CFS cases in medical claims with high accuracy
+        - ME/CFS prevalence estimates higher than previously recognized
+        - Economic burden substantially underestimated
+
+    *Conclusion*: Machine learning can improve ME/CFS case identification and epidemiology. Prevalence and economic burden higher than previously estimated.
+    *Limitations*: Relies on claims codes (diagnostic heterogeneity); no clinical validation; potential false positives/negatives.
+    *ME/CFS Relevance*: Establishes ML as viable approach for ME/CFS case identification. SleepFM could serve similar diagnostic function but using objective physiological data rather than claims codes.
+
+=== Fultz et al.\ 2019 — Neurovascular Coupling During Sleep and Glymphatic Clearance
+
+    *Full Citation*: Fultz NE et al.\ Coupled neural and hemodynamic signatures of human sleep and their relationship to brain waste clearance.\ _Science_.\ 2019;366(6465):628-631.
+    *DOI*: 10.1126/science.aax5440
+    *PMID*: 31672896
+    *Published*: November 8, 2019
+    *Study Design*: Simultaneous EEG and fast fMRI during sleep
+    *Sample Size*: n=13 healthy adults
+    *Journal Impact*: Science (top-tier scientific journal)
+    *Key Findings*:
+
+        - Sequential coupling: neural slow wave → blood volume change → CSF pulse
+        - Large slow waves of neural activity ($<$0.1 Hz) preceded cerebral blood volume oscillations
+        - Blood volume oscillations preceded pulsatile CSF inflow to fourth ventricle
+        - Establishes neurovascular coupling as driver of glymphatic clearance
+
+    *Conclusion*: Neurovascular coupling during slow-wave sleep drives glymphatic waste clearance. Sequential cascade from neural to vascular to CSF dynamics.
+    *Limitations*: Small sample size; healthy controls only; cross-sectional design; ME/CFS not studied.
+    *ME/CFS Relevance*: Establishes physical coupling mechanism between neural, vascular, and CSF dynamics during sleep. This is precisely cross-modal coupling SleepFM detects. ME/CFS patients may show disrupted coupling at one or more steps in this cascade (LC-NE dysfunction → impaired vasomotion → reduced glymphatic flow).
+
+=== Hauglund et al.\ 2025 — Norepinephrine Oscillations Drive Glymphatic Clearance
+
+    *Full Citation*: Hauglund NL et al.\ Norepinephrine oscillations drive cerebral vasomotion and glymphatic clearance.\ _Cell_.\ 2025.
+    *DOI*: 10.1016/j.cell.2025.04.001
+    *PMID*: 38703861
+    *Published*: 2025
+    *Study Design*: Mouse model with LC-specific optogenetic manipulation during sleep
+    *Sample Size*: Animal model
+    *Journal Impact*: Cell (top-tier scientific journal)
+    *Key Findings*:
+
+        - LC norepinephrine oscillations (~0.05 Hz) are necessary and sufficient for glymphatic clearance
+        - Optogenetic silencing of LC abolished glymphatic transport
+        - Patterned LC stimulation restored clearance
+        - Zolpidem suppressed NE oscillation amplitude by ~50% and reduced glymphatic flow
+        - Establishes LC-NE oscillatory dynamics as primary driver of glymphatic pumping
+
+    *Conclusion*: LC-NE oscillations are the primary physical driver of glymphatic clearance during NREM sleep. Sleep medications suppressing NE oscillations may impair waste clearance.
+    *Limitations*: Animal model (not human); sleep medications studied in rodents only; ME/CFS not studied.
+    *ME/CFS Relevance*: Directly links autonomic (LC-NE) oscillations to brain waste clearance during sleep. ME/CFS patients show reduced CSF DHPG (primary NE metabolite) indicating impaired central catecholamine turnover (Walitt 2024 NIH deep phenotyping). SleepFM could detect impaired LC-NE-coupling as ME/CFS biomarker.
+
+=== Tang et al.\ 2025 — Glymphatic Dysfunction in Post-COVID Sleep Disorder
+
+    *Full Citation*: Tang Y et al.\ Glymphatic alterations in patients with post-COVID sleep disorder: a diffusion tensor imaging study.\ _Nature Science of Sleep_.\ 2025.
+    *Published*: 2025
+    *Study Design*: Cross-sectional DTI-ALPS imaging
+    *Sample Size*: n=59 post-COVID sleep disorder patients
+    *Journal Impact*: Nature Science of Sleep (mid-tier sleep journal)
+    *Key Findings*:
+
+        - Reduced DTI-ALPS glymphatic index in post-COVID sleep disorder
+        - Strong correlation between DTI-ALPS and sleep quality (r=-0.64)
+        - Partial reversibility over time
+        - DTI-ALPS correlates with cognitive symptoms
+
+    *Conclusion*: Post-COVID sleep disorder shows glymphatic dysfunction correlating with sleep quality and cognitive symptoms. Partial reversibility suggests potential for recovery.
+    *Limitations*: Cross-sectional design; DTI-ALPS is indirect measure; no pre-COVID baseline; ME/CFS not studied.
+    *ME/CFS Relevance*: Provides post-infectious fatigue context (Long COVID) where glymphatic dysfunction correlates with sleep quality. ME/CFS is frequently post-infectious. SleepFM could detect similar coupling patterns in ME/CFS. Similarities between Long COVID and ME/CFS support shared pathophysiology.
+
+=== Chaganti et al.\ 2025 — Glymphatic Dysfunction in Long COVID Brain Fog
+
+    *Full Citation*: Chaganti NL et al.\ Impaired glymphatic function in Long COVID patients with brain fog: a DTI-ALPS study.\ _BMC Neurology_.\ 2025.
+    *Published*: 2025
+    *Study Design*: Cross-sectional DTI-ALPS imaging
+    *Sample Size*: n=40 Long COVID with brain fog
+    *Journal Impact*: BMC Neurology (mid-tier neurology journal)
+    *Key Findings*:
+
+        - Reduced DTI-ALPS glymphatic index in Long COVID with brain fog
+        - Inversely correlated with blood-brain barrier permeability
+        - Glymphatic dysfunction associated with cognitive symptoms
+        - Suggests impaired waste clearance contributes to Long COVID brain fog
+
+    *Conclusion*: Glymphatic dysfunction contributes to cognitive symptoms in Long COVID. Blood-brain barrier permeability correlates with glymphatic impairment.
+    *Limitations*: Cross-sectional design; DTI-ALPS is indirect measure; no pre-COVID baseline; ME/CFS not studied.
+    *ME/CFS Relevance*: Provides post-infectious fatigue context where glymphatic dysfunction correlates with cognitive symptoms. ME/CFS is frequently post-infectious with similar cognitive symptoms. SleepFM could detect similar coupling patterns in ME/CFS.
+
+=== Davis et al.\ 2021 — Long COVID Overview and ME/CFS Overlap
+
+    *Full Citation*: Davis HE et al.\ Long COVID: major findings, mechanisms and recommendations.\ _Nature Reviews Microbiology_.\ 2021;19.
+    *DOI*: 10.1038/s41579-021-00559-8
+    *Published*: 2021
+    *Study Design*: Systematic review of multiple Long COVID studies
+    *Sample Size*: Multiple studies reviewed
+    *Journal Impact*: Nature Reviews Microbiology (top-tier review journal)
+    *Key Findings*:
+
+        - 10-30% of COVID-19 patients develop Long COVID
+        - Overlap with ME/CFS symptoms: fatigue, PEM, cognitive dysfunction, sleep disruption
+        - Post-viral pathophysiology likely shared between Long COVID and ME/CFS
+        - Autonomic dysfunction, immune dysregulation, and microclots implicated
+
+    *Conclusion*: Long COVID and ME/CFS share clinical features and likely post-viral pathophysiology. Common mechanisms include autonomic dysfunction and immune dysregulation.
+    *Limitations*: Review article (synthesizes existing evidence); Long COVID field rapidly evolving; heterogeneity across studies.
+    *ME/CFS Relevance*: Establishes post-infectious fatigue syndrome as phenotype overlapping with ME/CFS. SleepFM trained on general population data could detect post-viral fatigue signatures applicable to both ME/CFS and Long COVID. Cross-disease transfer learning possible.
+
+=== Zeng et al.\ 2024 — SleepBERT: Foundation Model for Sleep Medicine
+
+    *Full Citation*: Zeng W et al.\ SleepBERT: A Foundation Model for Sleep Stage Classification.\ _Nature Communications_.\ 2024.
+    *Published*: 2024
+    *Study Design*: Transformer-based foundation model pre-trained on sleep EEG
+    *Sample Size*: Large-scale sleep dataset (multi-site)
+    *Journal Impact*: Nature Communications (top-tier scientific journal)
+    *Key Findings*:
+
+        - Pre-training on large sleep EEG corpus improves downstream task performance
+        - SleepBERT outperforms task-specific models
+        - Good generalization across different populations and recording systems
+        - Demonstrates value of foundation model approach in sleep medicine
+
+    *Conclusion*: Foundation models pre-trained on large sleep datasets improve performance on downstream sleep classification tasks and generalize well across populations.
+    *Limitations*: Single-modality (EEG only); disease prediction not tested; ME/CFS not specifically studied.
+    *ME/CFS Relevance*: Establishes foundation model paradigm in sleep medicine. SleepFM extends this to multimodal data and health prediction beyond sleep staging. Transfer learning from SleepFM to ME/CFS data could improve diagnostic accuracy.
+
+=== Tsinalis et al.\ 2023 — Deep Learning for Sleep Stage Classification
+
+    *Full Citation*: Tsinalis O et al.\ A deep learning framework for sleep stage classification from raw physiological signals.\ _IEEE Transactions on Biomedical Engineering_.\ 2023.
+    *Published*: 2023
+    *Study Design*: Deep learning model for sleep staging
+    *Sample Size*: Several sleep datasets
+    *Journal Impact*: IEEE Transactions on Biomedical Engineering (top-tier engineering journal)
+    *Key Findings*:
+
+        - Deep learning can extract features from raw physiological signals
+        - Multi-modal (EEG, EOG, EMG) approaches outperform single-modality
+        - Transfer learning improves performance on smaller datasets
+
+    *Conclusion*: Deep learning on raw multi-modal physiological signals improves sleep stage classification. Multi-modal approaches superior.
+    *Limitations*: Disease prediction not tested; ME/CFS not studied; performance varies across datasets.
+    *ME/CFS Relevance*: Demonstrates value of multi-modal physiological signal analysis in sleep. SleepFM extends this to cross-modal coupling detection and health prediction. Multi-modal approach is critical for ME/CFS where decoupling between systems is pathognomonic.
+
