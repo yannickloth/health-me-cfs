@@ -37,7 +37,7 @@ Before starting any other phase:
    - Phase 3 → brainstorm file path, idea count (handled in Phase 3 plan update above)
    - Phase 3a → subtree file path, N nodes written, root index updated
    - Phase 4 → ideas integrated; queued topics from Gates A/B with one-line rationale
-   - Phase 4b → N pre-existing claims adapted (R reinforced, T corrected, A ambiguous)
+   - Phase 4b → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred)
    - Phase 5 → build status
    - Phase 6 → review convergence status per pass
    - Phase 7 → changelog entry summary
@@ -290,7 +290,8 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 | Incoming certainty | Permitted action |
 |--------------------|-----------------|
-| ≥ 0.60 | Full adaptation (reinforcement, contradiction, ambiguity) — at most one +0.05 bump per paper |
+| ≥ 0.70 | Full adaptation including +0.10 bumps per the Certainty Adjustment Table; at most one adjustment per paper |
+| 0.60–0.69 | Full adaptation; at most one +0.05 bump per paper; **no** +0.10 bumps |
 | 0.40–0.59 | Citation insertions only; **no** certainty bumps; contradiction → flag as tension, do not lower certainty |
 | < 0.40 | Overlap noted in report only; **do not edit** pre-existing content. Record as "overlap deferred — incoming certainty too low." |
 
@@ -301,22 +302,21 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 1. Generate search terms from Phase 1–2: key mechanism names, drug names, symptom domains, author last names.
 2. `grep` across all `.typ` files for each term.
 3. For each match: read ≥ 10 lines of context; determine if the pre-existing claim engages with the same mechanism.
-4. **If uncertain whether this is reinforcement or contradiction → default to ambiguous.** Classification errors toward false contradiction (adding an unnecessary caveat) are safer than toward false reinforcement (leaving an incorrect claim uncorrected).
-5. **After adapting all matches:** run a second pass with semantically related synonyms (not just Phase 1–2 terms) to catch wording mismatches.
-6. **Coverage check:** report total matches examined vs. total matches found.
+4. **After adapting all matches:** run a second pass with semantically related synonyms (not just Phase 1–2 terms) to catch wording mismatches.
+5. **Coverage check:** report total matches examined vs. total matches found.
 
-**Budget:** If > 30 candidate matches → prioritize in this order: hypothesis environments > treatment recommendations > biomarker discussions > drug warnings > phenotype descriptions > cross-disease > research gaps > ch02 sleep findings. Stop at 30; record remaining as "sweep truncated — N matches unexamined."
+**Budget:** If > 30 candidate matches → prioritize in this order: hypothesis environments > treatment recommendations > biomarker discussions > drug warnings > phenotype descriptions > cross-disease comparisons > research gap statements. Stop at 30; record remaining as "sweep truncated — N matches unexamined."
 
 ### Adaptation Rules
 
-For each overlap, classify the relationship and apply **one** primary action. Categories are exhaustive and mutually exclusive; if evidence falls on the boundary, default to the more conservative category (Ambiguous over Reinforcement, Ambiguous over Contradiction).
+For each overlap, classify the relationship and apply **one** primary action. Categories are exhaustive and mutually exclusive; if evidence falls on a boundary, default to the more conservative category (ambiguous > reinforcement, no action > ambiguous). **Classification errors toward false contradiction are safer than toward false reinforcement.**
 
 #### 1. Reinforcement (evidence aligns with pre-existing claim)
 
 | Action | When |
 |--------|------|
 | Add cite `@NewCiteKey` | New evidence supports an existing mechanistic claim |
-| Raise certainty +0.05 (only if incoming certainty ≥ 0.60) | External validation strengthens a pre-existing hypothesis. State reason: "0.XX→0.YY: externally validated by [source]" |
+| Raise certainty +0.05 (only if incoming certainty ≥ 0.60; see Certainty Adjustment Table below for +0.10 conditions) | External validation strengthens a pre-existing hypothesis. State reason: "0.XX→0.YY: externally validated by [source]" |
 | Add cross-ref `@sec:new-section` | New section provides deeper treatment of the same mechanism |
 | Update "no data exist in ME/CFS" → "no ME/CFS-specific data; mechanism validated in general population by [source]" | New evidence provides relevant non-ME/CFS data. Never say "partially validated" without the qualifier |
 | Add treatment-mechanism cite, labelled as mechanistic | New evidence supports an intervention's mechanism. Format: `@CiteKey` preceded by "mechanistic rationale:" to distinguish from clinical outcome evidence |
@@ -332,12 +332,14 @@ For each overlap, classify the relationship and apply **one** primary action. Ca
 | Add `#limitation` or inline caveat with `@NewCiteKey` | New evidence weakens a prediction or suggests a different mechanism |
 | Lower certainty (see table below) | External contradiction weakens a hypothesis. Only if incoming certainty ≥ 0.60 |
 | Add competing-mechanism note | New evidence supports an alternative explanation |
-| Flag as unresolved tension | Both pre-existing claim and new evidence have comparable-quality supporting data |
+| Flag as unresolved tension | Both pre-existing claim and new evidence have comparable-quality supporting data (both ≥ 0.60 certainty, similar n, similar journal tier) |
 | Queue for dedicated `/integrate-topic` | Contradiction is a substantive topic needing its own literature review |
 | **Remove or rewrite the claim** (with documented rationale) | **Direct refutation by superior evidence** — new study is larger, better-designed, and published in a higher-tier journal. Delete the refuted claim; do not merely annotate. Leave a one-line note: "[Claim] removed — refuted by [source, n=X, journal]." |
-| **Never silently delete** without documenting the change | All other deletions must be recorded |
+| **Never silently delete** — all deletions outside the removal row above must be recorded with file, line, and rationale | Deletions not covered by the removal row above (e.g., trimming redundant text, removing outdated data) |
 
-**Guard — Certainty reduction limits:** A single integration cycle cannot reduce a claim's certainty below 0.10. If the evidence warrants a larger reduction, flag for human review.
+**Guard — Certainty reduction limits:** A single integration cycle cannot reduce a claim's certainty below 0.10 via Phase 4b adjustments alone. If the evidence warrants a larger reduction, flag for human review.
+
+**Escalation:** If a contradiction reveals a gap large enough that the pre-existing section needs substantial rewriting (not just annotation), or if the contradiction itself is a distinct topic with its own literature base, queue as `/integrate-topic`. If the removal row (above) deletes a claim that other sections depend on, those dependent sections must be updated or flagged as needing review.
 
 #### 3. Ambiguous (evidence partially aligns, partially diverges)
 
@@ -356,11 +358,11 @@ For each overlap, classify the relationship and apply **one** primary action. Ca
 
 ### Certainty Adjustment Table
 
-**All adjustments gated on incoming evidence certainty ≥ 0.60.** Adjustments are per-cycle; cumulative totals tracked in the planning file.
+**All adjustments gated on incoming evidence certainty (per the Evidence Quality Floor above).** Adjustments are per-cycle. Each edit must record the new certainty value directly in the claim's text (e.g., `*Certainty: 0.45.* (0.40→0.45: externally validated by [source])`) so that cumulative history is self-documenting in the claim itself.
 
 | Adj | Condition | Incoming evidence must be |
 |-----|-----------|--------------------------|
-| +0.10 | Direct ME/CFS replication of exact mechanism (n ≥ 50, pre-registered or independent lab) | certainty ≥ 0.70 |
+| +0.10 | Direct ME/CFS replication of exact mechanism (n ≥ 50, pre-registered, AND conducted by an independent lab) | certainty ≥ 0.70 |
 | +0.05 | External validation of the general principle (large-scale, different lab, top journal; non-ME/CFS population acceptable) | certainty ≥ 0.60 |
 | +0.05 | Multiple independent lines now converge — at least one must be human data, at least two must be from different labs | certainty ≥ 0.60 per line |
 | 0 | New evidence is consistent but adds no independent validation (same lab, same cohort, re-analysis, or incoming certainty < 0.40) | — |
@@ -370,8 +372,8 @@ For each overlap, classify the relationship and apply **one** primary action. Ca
 
 **Cumulative guards:**
 - No claim exceeds certainty 0.95, regardless of supporting evidence.
-- No claim drops below 0.10 in a single cycle from Phase 4b adjustments alone.
 - If a claim has been bumped 3+ times across prior cycles, each subsequent +0.05 bump requires ≥ 0.70 incoming certainty (diminishing returns).
+- The per-cycle reduction floor is stated in Contradiction guards above.
 
 ### Report
 
@@ -380,10 +382,12 @@ Phase 4b complete: M matches examined, N adapted
   Reinforcement:  R edits (C certainty bumps — specify ME/CFS vs general-population source)
   Contradiction:  T edits (Q reductions, L removals, U tensions flagged)
   Ambiguous:      A edits
-  No action:      S overlaps deferred (reasons summarized)
+  No action:      S overlaps deferred (D below quality floor, P too tangential/weak/preliminary)
   Truncated:      K matches unexamined (if budget exceeded)
+  Skipped:        X matches had zero overlap (keyword hit, unrelated mechanism)
 
-Coverage: N adapted / M examined (if M < total grep hits, note remaining)
+Coverage: N adapted + S deferred / M examined (if M < total grep hits, note remaining)
+Zero-overlap case: if M=0 after deduplication, report "Phase 4b: no overlapping pre-existing content found for search terms [list]."
 ```
 
 Add to Phase 0 tracking: `4b | M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred)`
