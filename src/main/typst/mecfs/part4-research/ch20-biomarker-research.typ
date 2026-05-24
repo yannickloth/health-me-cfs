@@ -103,6 +103,46 @@ The trigger-specificity of this classifier has two implications: diagnostically,
 The Fonseca study used a single cohort without external validation. The 26-antibody panel has not been tested in an independent population, and the high training accuracy (100%) raises concern about overfitting despite the ensemble approach. EBV seropositivity is nearly universal in adults (>95%), so the classifier must distinguish _patterns_ of anti-EBV antibodies rather than simple presence/absence---a more nuanced signal that may not replicate across laboratories using different peptide arrays.
 ]
 
+=== AI-Based Approaches Using Sleep Physiology
+<sec:sleep-ai-biomarkers>
+
+Machine learning applied to sleep data represents a distinct biomarker category that exploits physiological time-series rather than molecular analytes. The conceptual basis is that polysomnography (PSG) captures multiple physiological systems simultaneously --- brain activity (EEG), cardiac function (ECG), muscle tone (EMG), respiration, and pulse oximetry --- and that the _relationships between_ these systems, not just each in isolation, carry diagnostic information.
+
+==== Multimodal Foundation Models for Sleep-Based Disease Prediction
+<sec:sleepfm-biomarker>
+
+SleepFM (Thapa et al., 2026), published in _Nature Medicine_, is the first large-scale multimodal sleep foundation model trained on 585,000+ hours of PSG data from 65,000 participants @Thapa2026sleepfm. Using a novel leave-one-out contrastive learning approach, the model predicts the future onset of 130+ health conditions from one night of sleep data, achieving C-indices $>$ 0.80 for Parkinson's disease (0.89), dementia (0.85), hypertensive heart disease (0.84), myocardial infarction (0.81), prostate cancer (0.89), breast cancer (0.87), and all-cause mortality (0.84).
+
+The model's architectural innovation is directly relevant to ME/CFS biomarker strategy. By training to reconstruct a hidden modality from the remaining signals, SleepFM learns a latent representation of _physiological coupling integrity_ --- how well brain, heart, muscle, and respiratory systems coordinate. The key finding is that _decoupling_ between systems (e.g., "a brain that looks asleep but a heart that looks awake") is a stronger disease predictor than any single modality @Thapa2026sleepfm.
+
+#speculation(title: [SleepFM as a Candidate ME/CFS Diagnostic Biomarker Platform])[
+The architecture and training scale of SleepFM make it a plausible candidate platform for ME/CFS biomarker development, though this application has not been attempted. Specific arguments:
+
+    - *Unsupervised feature discovery:* The leave-one-out contrastive learning approach discovers patterns without requiring manual feature engineering --- potentially identifying ME/CFS-specific decoupling signatures that conventional PSG scoring misses (Section @sec:ch15-cross-modal-decoupling).
+
+    - *Multi-modal integration:* ME/CFS pathology crosses systems (autonomic, metabolic, immune, neurological). A model that natively integrates EEG, ECG, EMG, and respiratory signals is matched to the multi-system nature of the disease.
+
+    - *Normative reference:* Trained on 65,000 individuals spanning ages 2--96, the model provides a large normative baseline against which ME/CFS deviation can be measured. The Stanford Sleep Medicine Center cohort (35,000 patients, 1999--2024), which formed part of the training data, includes decades of follow-up health records --- a framework for temporal validation @Thapa2026sleepfm.
+
+    - *Scalability:* PSG is a standard clinical procedure with consistent protocols across centres. A validated sleep-based biomarker would be deployable in any accredited sleep laboratory.
+
+    - *Precedent in related conditions:* SleepFM's strong predictions for dementia (C-index 0.85) and Parkinson's (C-index 0.89) demonstrate that sleep physiology carries diagnostic information for neurological conditions --- a domain overlapping with ME/CFS cognitive and autonomic symptoms.
+
+*Certainty: 0.25.* The underlying model is validated (Nature Medicine, C-index $>$ 0.80 for multiple conditions), but zero ME/CFS-specific data exist. Translating SleepFM to ME/CFS diagnosis would require: (a) fine-tuning on labelled ME/CFS PSG data; (b) independent validation in a separate cohort; (c) demonstration of adequate sensitivity and specificity against clinically relevant comparators (healthy, fibromyalgia, Long COVID, idiopathic hypersomnia, major depression).
+
+*Limitations:* The model architecture and weights are not publicly available, limiting independent replication. PSG is expensive and requires overnight laboratory attendance, barriers for severe ME/CFS patients. The model's feature interpretability is limited --- it can predict disease but cannot explain which specific physiological patterns drove the prediction, a limitation for clinical adoption. The training population was clinical PSG referrals, not general-population screening, introducing potential spectrum bias. (Not yet replicated in independent cohorts.)
+] <spec:sleepfm-biomarker>
+
+#open-question(title: [Can Multimodal Sleep Foundation Models Stratify ME/CFS Subtypes?])[
+Beyond binary diagnosis (ME/CFS vs. healthy), a sleep foundation model may identify physiological endotypes within the ME/CFS population. The distinct phenotypic clusters (sleep-predominant, brain fog-predominant, PEM-predominant --- Section @sec:ch15-phenotypes) may correspond to different decoupling patterns: a sleep-predominant patient may show high EEG-ECG decoupling (autonomic-sleep dissociation), while a brain fog-predominant patient may show disrupted EEG-vascular coupling (impaired neurovascular cascade). Subtype-specific decoupling signatures would enable treatment-matching: e.g., patients with high EEG-ECG decoupling may respond preferentially to autonomic interventions (clonidine, beta-blockers), while those with vascular decoupling may benefit from volume expansion and compression strategies. This hypothesis is testable with existing ME/CFS PSG data and requires no new data collection --- only model application. A proposed study protocol is detailed in Section @sec:ch25b-sleepfm-proposed.
+] <open:sleepfm-subtyping>
+
+==== Other AI Approaches to Sleep-Based ME/CFS Classification
+
+The broader AI-in-sleep-medicine literature provides a methodological framework that predates and contextualises SleepFM. SleepBERT (Zeng et al., 2024), a transformer-based foundation model pre-trained on large-scale sleep EEG, demonstrated that pre-training on sleep data corpora substantially improves downstream task performance compared to task-specific models @Zeng2024SleepBERT. Tsinalis et al. (2023) showed that multi-modal deep learning approaches (EEG + EOG + EMG) systematically outperform single-modality approaches for sleep staging --- a finding that generalises to the diagnostic domain: combining physiological signals should outperform any single channel for disease classification @Tsinalis2023deeplearningsleep.
+
+In ME/CFS specifically, machine learning has been applied to administrative (Jason et al., 2023 @Jason2023MLMECFSprevalence --- ML case identification from medical claims) and molecular data (Fonseca et al., 2024 --- EBV IgG peptide array classification, Section @sec:ebv-ml-diagnosis), demonstrating feasibility but limited by the input data type. Claims-based ML suffers from diagnostic coding inconsistency; molecular ML requires blood draws and specialised assays. Physiological ML from sleep data offers a complementary third route: objective, multi-system, standardised, and collected during a naturally occurring physiological state rather than an artificial challenge.
+
 == Key Biomarkers from the NIH Deep Phenotyping Study
 <sec:nih-biomarkers>
 

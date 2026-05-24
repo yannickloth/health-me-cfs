@@ -502,6 +502,45 @@ In humans, Fultz et al.\ (2019) provided the first direct evidence of this casca
 
 Arterial pulsatility provides an independent contributor to glymphatic flow. Hablitz and Nedergaard (2021) showed that reduced arterial pulsatility --- from cardiovascular deconditioning, low blood pressure, or reduced cardiac output --- can decrease glymphatic transport by up to 50% @HablitzNedergaard2021glymphatic. ME/CFS patients with orthostatic intolerance (OI) and POTS exhibit precisely this pattern: reduced cerebral perfusion pressure during upright posture and, potentially, reduced nocturnal arterial pulsatility from autonomic dysfunction. The convergence of LC-NE dysfunction, reduced arterial pulsatility, and impaired SWS architecture represents a triple hit on glymphatic clearance.
 
+=== Cross-Modal Physiological Decoupling as a Unifying Framework
+<sec:ch15-cross-modal-decoupling>
+
+A recent advance from outside ME/CFS research provides large-scale validation of the decoupling principle that unifies these mechanisms. SleepFM (Thapa et al., 2026) is a multimodal AI foundation model trained on 585,000+ hours of polysomnography data from 65,000 participants, using a novel leave-one-out contrastive learning approach that simultaneously analyses EEG, ECG, EMG, pulse, and respiratory signals @Thapa2026sleepfm. Published in _Nature Medicine_, SleepFM predicts the future onset of 130+ health conditions from a single night's sleep data.
+
+The model's central finding is directly relevant to ME/CFS pathophysiology: the most informative signal for disease prediction is not any single modality in isolation, but the _degree to which biological systems are out of sync with each other_. The researchers observed that body constituents operating in decoupled states --- "a brain that looks asleep but a heart that looks awake" --- carried the strongest predictive weight for developing multiple diseases @Thapa2026sleepfm. This is precisely the pattern that ME/CFS sleep research has described piecemeal for decades.
+
+#achievement(title: [Cross-Modal Decoupling as a Validated Disease-Predictive Principle])[
+SleepFM demonstrates at scale ($n=65,000$) that cross-modal physiological decoupling is a generalisable biomarker of pathology, not a method-specific artefact. The model achieved particularly strong predictions for conditions overlapping with ME/CFS domains: Parkinson's disease (C-index 0.89), dementia (0.85), hypertensive heart disease (0.84), and myocardial infarction (0.81) @Thapa2026sleepfm. The leave-one-out contrastive learning approach --- which masks one modality and challenges the model to reconstruct it from the others --- is operationally identical to quantifying physiological coupling integrity, a concept central to the autonomic and sleep-architecture research reviewed in this chapter.
+
+(Certainty: 0.80 for SleepFM findings; from Nature Medicine, $n=65,000$, rigorous methodology, not yet independently replicated. Certainty for ME/CFS-specific application: 0.25 --- the model has never been applied to ME/CFS polysomnography data, and its training set likely did not include ME/CFS-labelled patients.)
+] <ach:cross-modal-decoupling-sleepfm>
+
+The decoupling framework maps directly onto each ME/CFS sleep domain described above:
+
+    - *Alpha-delta sleep (Section @sec:thalamic-calcium-sleep):* Cortical delta oscillations (asleep brain) contaminated by wake-like alpha activity (awake brain) --- an intra-modality decoupling within a single EEG channel that SleepFM's architecture could quantify as reduced self-consistency.
+
+    - *LC-NE oscillatory dysfunction (Section @sec:ch15-ne-vasomotion):* Impaired coupling between neural norepinephrine oscillations ($tilde$0.05 Hz) and cerebral arterial vasomotion --- a cross-modal decoupling between EEG and cardiovascular signals of the type SleepFM explicitly detects.
+
+    - *Autonomic-sleep decoupling:* Failure of parasympathetic activation to accompany NREM sleep onset, producing elevated nocturnal heart rate that is discordant with EEG sleep staging --- precisely the "brain asleep, heart awake" phenomenon @Thapa2026sleepfm.
+
+    - *Glymphatic cascade decoupling (Section @sec:ch15-glymphatic):* The sequential neural $arrow.r$ vascular $arrow.r$ CSF coupling cascade @Fultz2019csfOscillations may be disrupted at any step, producing an incoherent oscillatory pattern that cannot drive coordinated fluid clearance (Section @sec:ch15-neurodegeneration-risk).
+
+    - *Circadian decoupling (Section @sec:ch15-melatonin):* Loss of normal phase synchrony between melatonin onset, cortisol rhythm, core body temperature, and activity cycles --- a temporal decoupling of multiple physiological rhythms @McCarthy2022circadian.
+
+Each of these decoupling patterns contributes to the central ME/CFS complaint of unrefreshing sleep: restorative sleep requires coordinated _synchronisation_ of brain, autonomic, vascular, respiratory, and circadian systems. When these systems are out of phase, the patient may sleep for adequate duration yet achieve none of the physiological benefits that sleep is supposed to provide.
+
+#speculation(title: [SleepFM as ME/CFS Decoupling Quantification Tool])[
+SleepFM or an equivalent multimodal sleep foundation model, applied to existing ME/CFS polysomnography datasets, could quantify the degree of cross-modal decoupling in patients versus matched controls. Because the model was trained on 65,000 individuals without ME/CFS-specific labels, its learned representation of "normal" physiological coupling provides a normative reference against which ME/CFS decoupling can be measured. Key predictions: (a) ME/CFS patients will show significantly higher multimodal reconstruction error (indicating greater cross-modal decoupling) than healthy controls. (b) Decoupling magnitude will correlate with symptom severity (fatigue, unrefreshing sleep, cognitive dysfunction). (c) Specific decoupling patterns may distinguish ME/CFS subtypes (sleep-predominant, brain fog-predominant, PEM-predominant --- Section @sec:ch15-phenotypes). (d) Post-exertional worsening on Day 2 post-CPET will be reflected in increased decoupling magnitude in the intervening night's sleep data. (e) Decoupling indices may respond to treatment more sensitively than sleep staging metrics, providing a treatment-response biomarker.
+
+*Certainty: 0.25.* The model architecture is validated (Nature Medicine, $n=65,000$), but SleepFM has not been applied to ME/CFS data; the predictions above are mechanistically grounded but entirely untested. The existence of large-scale PSG datasets at established ME/CFS research centres (Stanford Sleep Medicine Center cohort, Bateman Horne Center) makes this a feasible near-term study. Cross-reference to @sec:ch25b-sleepfm-proposed for a detailed study protocol.
+
+*Limitations:* SleepFM was trained on clinical PSG populations (patients referred for sleep assessment), not general-population screening, which may introduce referral bias. PSG hardware, electrode montages, and scoring conventions vary between centres, potentially limiting transferability. The model's original training data and weights are not publicly available as of 2026, and the interpretability of its learned features is limited by the black-box nature of foundation models. No ME/CFS-specific data exist.
+] <spec:ch15-sleepfm-decoupling>
+
+#open-question(title: [Is Cross-Modal Physiological Decoupling a Core Pathophysiological Mechanism or an Epiphenomenon?])[
+SleepFM establishes that decoupling predicts disease, but does the decoupling contribute causally to symptoms, or is it a harmless byproduct of genuine pathophysiological processes (e.g., neuroinflammation, metabolic dysfunction)? This distinction matters clinically: if decoupling is causal, interventions that improve coupling (circadian resynchronisation, autonomic training, slow-wave sleep enhancement) should improve symptoms; if epiphenomenal, such interventions would be cosmetic. The causal question can be tested: does pharmacologically enhancing NE oscillatory amplitude (via trazodone, Section @sec:ch15-therapeutic-implications) reduce decoupling indices and simultaneously improve next-day symptoms? Does targeted SWS enhancement normalise cross-modal coupling, and does the coupling improvement mediate the symptomatic benefit? These experiments require a multimodal sleep foundation model or equivalent coupling quantification tool and are not currently feasible without access to SleepFM or a comparable system.
+] <open:ch15-decoupling-causal>
+
 #hypothesis(title: [Glymphatic Failure as Driver of Cognitive Symptoms and Unrefreshing Sleep])[
 The glymphatic system — a brain-wide CSF/ISF exchange network driven by astrocytic aquaporin-4 (AQP4) water channels and perivascular fluid dynamics — clears metabolic waste, tau, and amyloid-$beta$ primarily during slow-wave sleep @Xie2013glymphatic. In ME/CFS, multiple factors converge to impair this system: (1) reduced SWS content from alpha-delta sleep intrusion, (2) chronic adrenergic dysregulation (elevated norepinephrine) inhibiting AQP4 polarization at astrocytic endfeet, and (3) pre-existing neuroinflammation disrupting perivascular flow dynamics @NematGorgani2025glymphatic. Waste accumulation then activates the NLRP3 inflammasome in microglia, producing IL-1$beta$ and IL-18 that further disrupt sleep architecture @NematGorgani2025glymphatic @Ding2025glymphaticAD. The resulting vicious cycle — impaired glymphatic clearance $\to$ waste accumulation $\to$ neuroinflammation $\to$ worse sleep — may explain why ME/CFS patients report unrefreshing sleep despite adequate total sleep duration @Wostyn2018glymphatic @NematGorgani2025glymphatic.
 (Certainty: Low-Medium for the ME/CFS-specific application; the glymphatic mechanism itself is High certainty. Direct glymphatic imaging studies in ME/CFS are lacking as of 2025.)
@@ -519,6 +558,71 @@ Several drug classes used for ME/CFS sleep management may suppress the norepinep
 
 This evidence is from animal models; clinical magnitude in humans is unknown. This does _not_ constitute a recommendation to discontinue these medications. The trade-off between improved subjective sleep (which may itself enhance glymphatic function via SWS consolidation) and potential impairment of NE-driven clearance has not been quantified. Clinicians should be aware of this emerging mechanistic concern. No ME/CFS-specific data exist.
 ] <warn:ch15-glymphatic-medications>
+
+=== Decoupling-Targeted Interventions
+
+The cross-modal decoupling framework (Section @sec:ch15-cross-modal-decoupling) suggests therapeutic strategies organised by the specific coupling deficit rather than by drug class. Because decoupling may contribute causally to unrefreshing sleep rather than being merely an epiphenomenon, interventions that restore physiological coordination during sleep may produce symptomatic benefit beyond what sleep-stage metrics alone predict @Thapa2026sleepfm.
+
+#speculation(title: [Pharmacological Coupling Restoration Strategies])[
+Several existing drug classes may improve cross-modal coupling during sleep through distinct mechanisms, though none has been formally tested in ME/CFS for this indication:
+
+    - *Autonomic coupling:* Low-dose propranolol (10--20 mg at bedtime) may reduce nocturnal sympathetic tone, improving EEG--ECG coherence by dampening excessive cardiac responsiveness to cortical arousals. Clonidine (0.05--0.1 mg at bedtime) may stabilise LC-NE oscillatory amplitude without suppressing it, distinct from Z-drugs which suppress oscillation amplitude by $tilde$50% @Hauglund2025neVasomotion.
+
+    - *Thalamocortical coupling:* Pregabalin (25--75 mg at bedtime) modulates CaV$alpha$2$delta$ calcium channel subunits and may reduce alpha intrusion into delta sleep, though gabapentinoid sleep architecture effects in ME/CFS are documented as adverse and the coupling hypothesis does not override established safety warnings.
+
+    - *Metabolic coupling:* Adenosine homeostasis may be modifiable through caffeine ablation protocols (4--8 weeks complete elimination) combined with S-adenosylmethionine (SAMe, 200--400 mg BID) to support methylation-dependent adenosine clearance pathways. This strategy remains entirely speculative; no controlled trial of adenosine modulation for sleep coupling exists.
+
+    - *Orexin-mediated coupling:* Timing of orexin antagonists (suvorexant, lemborexant) to the individual's DLMO window may improve state-transition coupling (wake $arrow.r$ sleep) without impairing LC-NE oscillatory dynamics. Administering at habitual bedtime rather than 2--3 hours before DLMO may miss the physiological coupling window for the sleep-onset transition.
+
+*Certainty: 0.20--0.30 across agents.* Each intervention has mechanistic plausibility derived from the decoupling framework but zero direct evidence in ME/CFS for coupling-specific endpoints. Human dosing data for propranolol (autonomic), clonidine (noradrenergic), pregabalin (thalamic), and SAMe (methylation) exist for other indications but not for ME/CFS sleep coupling. The coupling endpoints themselves (EEG--ECG coherence, phase-amplitude coupling at $<$0.1 Hz) are research measurements not validated as clinical outcomes.
+
+*Contraindications and interactions:* Propranolol may worsen orthostatic intolerance in POTS patients (hypotension exacerbation). Clonidine may cause morning sedation in sensitive patients; start at 0.025 mg and titrate over weeks. Pregabalin carries dependency risk and withdrawal syndrome; reserve for patients with documented alpha-delta phenotype who have failed non-pharmacological approaches. SAMe may trigger mania in bipolar spectrum patients. All medications above must be screened against common ME/CFS co-prescriptions: fludrocortisone (additive hypotension risk with propranolol), midodrine (opposing mechanisms with clonidine), and LDN (unknown interaction). For bedbound patients, see Chapter @ch:urgent-action-severe. No human ME/CFS dosing data exist for any of these agents used for coupling-specific endpoints.
+
+*Falsifiable prediction:* Patients selected by decoupling phenotype (high EEG--ECG coherence deficit → propranolol; high alpha-delta intrusion → pregabalin) will show greater symptomatic improvement than unselected patients receiving the same agent. Coupling-matched treatment should outperform coupling-mismatched treatment by $>$30% on sleep refreshment scores.
+] <spec:ch15-decoupling-pharmacological>
+
+#speculation(title: [Non-Pharmacological Coupling Enhancement Strategies])[
+Physiological interventions may improve coupling integrity with lower risk profiles than pharmacological approaches:
+
+    - *Slow-paced breathing (6 breaths/min, 15 minutes before bedtime):* Enhances cardiorespiratory coupling and increases vagal tone via the baroreflex arc. Practising immediately before sleep onset may prime the cardiorespiratory coupling mechanism to persist into early NREM sleep @Zuraikat2021sleepRegularity. This is low-risk, zero-cost, and caregiver-implementable for moderate patients; bedbound/severe patients may lack the respiratory muscle endurance for sustained paced breathing.
+
+    - *Core temperature modulation:* A warm bath or shower (40°C, 15--20 minutes) 90 minutes before bedtime triggers peripheral vasodilation and a subsequent core temperature drop that facilitates the wake-to-sleep autonomic transition. This may improve brain--autonomic coupling at the sleep-onset transition, where decoupling is often maximal. Not suitable for patients with POTS (heat exacerbates vasodilation-mediated hypotension) or MCAS (heat may trigger degranulation).
+
+    - *Transcutaneous vagal nerve stimulation (tVNS):* Low-intensity stimulation (tragus or cymba conchae, 25 Hz, below sensory threshold) during the first NREM cycle may enhance parasympathetic tone and stabilise autonomic oscillations without disrupting sleep architecture. Experimental; no ME/CFS tVNS-sleep data exist.
+
+    - *Lateral sleeping position:* Left lateral decubitus position enhances glymphatic transport geometry versus supine or prone, and may optimise CSF flow even when neurovascular coupling is impaired @Lee2015sleepPosition. Already recommended for severe patients in Chapter @ch:urgent-action-severe. Zero cost.
+
+*Certainty: 0.15--0.25.* The mechanisms are physiologically grounded (respiratory-cardiac coupling, thermoregulatory sleep facilitation) but no ME/CFS-specific coupling outcome data exist. These interventions are low-risk and may be trialled without prescription or specialist equipment, making them accessible even to patients without sleep laboratory access.
+
+*Falsifiable prediction:* A 4-week protocol combining slow-paced breathing (pre-bedtime) + temperature modulation (90 min pre-bedtime) will improve EEG--ECG coherence during the first NREM cycle by $>$20% and increase subjective sleep refreshment scores by $>$30% versus sleep hygiene alone.
+] <spec:ch15-decoupling-nonpharmacological>
+
+#speculation(title: [Home-Based Decoupling Monitoring for Severe Patients])[
+Consumer-grade wearables (chest-strap ECG monitors, consumer EEG headbands, pulse oximeters) can approximate some SleepFM decoupling metrics at home. A simplified coupling index derived from ECG (R-R interval variability at $<$0.1 Hz during estimated NREM sleep) and respiratory rate variability may serve as a proxy for full PSG-based decoupling scores. For severe ME/CFS patients (bedbound, unable to attend sleep laboratories), caregiver-administered nocturnal recordings using a single-lead ECG patch and respiratory band could enable coupling-trend monitoring to guide treatment timing (e.g., detecting worsening coupling → adjusting medication schedule, increasing rest). The Bayesian coupling inference model (Section @sec:ch15-math-decoupling) may enable estimation of full decoupling scores from reduced-modality data.
+
+*Certainty: 0.20.* The concept of reduced-modality coupling inference is plausible given SleepFM's leave-one-out architecture, but has not been validated for home use, consumer-grade hardware, or severe ME/CFS populations. Signal quality and artefact rejection from movement are significant practical barriers in bedbound patients with positional restrictions.
+
+*Falsifiable prediction:* A home ECG-based coupling index will correlate with laboratory PSG-based decoupling scores with $r > 0.70$ and will detect PEM-predictive worsening trends with $>$72 hours lead time.
+] <spec:ch15-home-coupling-monitoring>
+
+=== Mathematical Models of Physiological Decoupling
+<sec:ch15-math-decoupling>
+
+The cross-modal decoupling framework can be formalised mathematically, enabling quantitative predictions and model-guided experimental design.
+
+#speculation(title: [Multi-Oscillator Phase-Lock Model of Sleep Physiology])[
+The interactions among brain (delta/alpha EEG oscillators), autonomic (R-R interval oscillations), vascular (vasomotion oscillations), and respiratory (breathing rate oscillations) systems during sleep can be modelled as coupled oscillators in the Kuramoto framework, where each system $i$ has a natural frequency $omega_i$, and coupling strength $K_{i,j}$ determines how strongly system $i$ entrains to system $j$. In health, coupling strengths are high enough to maintain phase synchrony across systems at the infraslow ($<$0.1 Hz) range critical for glymphatic pumping. In ME/CFS, one or more coupling constants are pathologically reduced, causing partial or complete desynchronisation.
+
+The model predicts: (a) system-level coupling loss propagates nonlinearly --- a 20% reduction in neural--vascular coupling $K_"nv"$ may reduce overall glymphatic clearance by >50% because the sequential coupling cascade (neural $arrow.r$ vascular $arrow.r$ CSF) amplifies upstream deficits; (b) partial restoration of any single coupling pathway (e.g., autonomic--neural via propranolol) will improve overall synchrony by less than the deficit implies, because phase coherence requires sufficient coupling strength across all connected pairs; (c) the most efficient coupling-restoration target depends on the specific decoupling phenotype: autonomic-decoupled patients require autonomic-targeted interventions, thalamocortical-decoupled patients require calcium-modulating interventions.
+
+*Certainty: 0.20.* The Kuramoto framework is well-established for biological oscillator systems (circadian biology, neural synchronisation), but has not been applied to multi-system sleep physiology in ME/CFS. Coupling constants for healthy sleep systems are not empirically characterised. The nonlinear clearance prediction is consistent with the Hauglund et al.\ demonstration that 50% NE oscillation suppression reduces glymphatic clearance proportionally @Hauglund2025neVasomotion.
+
+*Falsifiable prediction:* A Kuramoto model with coupling constants fit to healthy control PSG data will reproduce ME/CFS decoupling patterns when coupling constants are reduced by 30--50%. The model will predict that a 20% increase in any single coupling constant improves overall phase coherence by $<$12%, but 20% increases across two coupled pathways produce $>$35% improvement.
+] <spec:ch15-kuramoto-decoupling>
+
+#open-question(title: [Can Coupling Strength Be Estimated from Reduced-Modality Data?])[
+SleepFM's leave-one-out contrastive learning architecture demonstrates that one modality can be reconstructed from the others. Bayesian inference, with SleepFM-derived prior distributions over physiological coupling patterns, may enable estimation of full five-modality decoupling scores from two or three consumer-accessible signals (ECG + respiratory band + pulse oximeter). This would make decoupling quantification feasible outside sleep laboratories, transforming a research tool into a deployable clinical metric. The key uncertainty is whether the information loss from reduced modalities degrades the coupling signal below clinical utility thresholds. Cross-reference to proposed study in Section @sec:ch25b-sleepfm-proposed.
+]
 
 === Long-Term Consequences: Neurodegeneration Risk from Chronic Glymphatic Impairment
 <sec:ch15-neurodegeneration-risk>

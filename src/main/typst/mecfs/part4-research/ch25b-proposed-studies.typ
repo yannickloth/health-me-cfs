@@ -2715,3 +2715,59 @@ Patients who progress to ME/CFS will show a temporal transition from immune acti
 
 // === Cross-Document Hypothesis Registry (A6, V5) ===
 #include "hypothesis-registry.typ"
+
+// ============================================================================
+// SECTION: SleepFM Cross-Modal Decoupling Validation in ME/CFS
+// ============================================================================
+
+== SleepFM Cross-Modal Decoupling Validation in ME/CFS
+<sec:ch25b-sleepfm-proposed>
+
+=== Background and Rationale
+
+SleepFM (Thapa et al., 2026, Nature Medicine) is a multimodal AI foundation model trained on 585,000+ hours of polysomnography from 65,000 participants that predicts 130+ future health conditions from one night's sleep data @Thapa2026sleepfm. The model's core finding --- that cross-modal physiological decoupling ("a brain that looks asleep but a heart that looks awake") is the strongest disease predictor --- maps directly onto the constellation of sleep architecture abnormalities documented in ME/CFS (Section @sec:ch15-cross-modal-decoupling).
+
+No study has applied SleepFM or any equivalent multimodal sleep foundation model to ME/CFS polysomnography data. This proposed study would be the first to test whether cross-modal decoupling signatures can distinguish ME/CFS from healthy controls and from clinically relevant comparator conditions (fibromyalgia, Long COVID brain fog, idiopathic hypersomnia, major depression).
+
+=== Study Design
+
+*Design:* Retrospective case-control analysis of existing polysomnography datasets, followed by prospective validation.
+
+*Phase 1 — Retrospective Discovery:*
+- *Cohort:* Aggregate existing ME/CFS PSG datasets: Mohamed et al. 2023 meta-analysis dataset (24 studies, n=801 adults) @Mohamed2023sleep, Bateman Horne Center clinical PSG archive, NIH deep phenotyping study PSG subset @Walitt2024NIH, and the Stanford Sleep Medicine Center cohort (35,000 patients, 1999--2024, with linked electronic health records) @Thapa2026sleepfm.
+- *Analysis:* Apply SleepFM or a comparable leave-one-out contrastive learning architecture to raw PSG signals. Extract multimodal reconstruction error (decoupling score) for each recording. Compare decoupling scores between ME/CFS patients and age-/sex-matched controls.
+- *Primary endpoint:* AUC for ME/CFS vs. healthy control discrimination using decoupling score alone, independent of standard sleep staging metrics.
+- *Secondary endpoints:* (a) Decoupling score correlation with symptom severity (fatigue, unrefreshing sleep, cognitive dysfunction). (b) Comparison of decoupling patterns across ME/CFS subtypes (sleep-predominant, brain fog-predominant, PEM-predominant). (c) Decoupling scores in ME/CFS vs. fibromyalgia vs. Long COVID brain fog to assess disease specificity.
+
+*Phase 2 — Prospective Validation:*
+- *Cohort:* De novo recruitment of 100 ME/CFS (Fukuda + CCC criteria), 100 age-/sex-matched healthy controls, 50 fibromyalgia (ACR criteria), 50 Long COVID with brain fog, and 50 idiopathic hypersomnia.
+- *Procedure:* One-night attended PSG with standard clinical montage (EEG, EOG, EMG, ECG, respiratory inductance plethysmography, pulse oximetry). Morning symptom questionnaires. SleepFM decoupling analysis.
+- *Primary endpoint:* Sensitivity >0.85, specificity >0.90 for ME/CFS vs healthy controls using a pre-registered decoupling threshold from Phase 1.
+- *Secondary endpoints:* Subtype classification accuracy. Treatment-response prediction (baseline decoupling score predicts response to 4-week trazodone 25--50 mg at bedtime).
+
+*Phase 3 — Longitudinal PEM Prediction:*
+- *Subset:* 50 ME/CFS patients from Phase 2 undergo 7-night home PSG (simplified montage: EEG lead, ECG patch, respiratory band, pulse oximeter) with daily symptom diaries and activity monitoring.
+- *Primary endpoint:* Within-subject worsening of decoupling score (>25% increase from individual baseline over 3 nights) predicts PEM onset within 48 hours with positive predictive value >0.75.
+- *Secondary endpoint:* Day 2 post-CPET decoupling score vs. Day 1 pre-CPET score.
+
+=== Feasibility Assessment
+
+*Strengths:*
+- Most data already exist (Mohamed 2023 meta-analysis, Stanford cohort, Bateman Horne Center archive) --- Phase 1 is computationally inexpensive and requires no new data collection.
+- Analysis methods are published (leave-one-out contrastive learning, multimodal reconstruction error).
+- Comparator conditions are clinically relevant and address differential diagnosis needs.
+- Home monitoring extension (Phase 3) uses consumer-accessible hardware.
+
+*Limitations:*
+- SleepFM model weights and architecture are not publicly available as of 2026; the study requires either collaboration with the Zou/Mignot lab or independent reimplementation of the leave-one-out contrastive learning architecture.
+- PSG montages, hardware, and scoring conventions vary between historical datasets, introducing systematic variance that may mask biological signal.
+- Severe/bedbound ME/CFS patients cannot attend sleep laboratories; Phase 3 home monitoring partially addresses this but with reduced signal quality.
+- The training dataset (clinical PSG referrals) may differ systematically from ME/CFS research cohorts in demographic and comorbidity profiles.
+
+=== Expected Impact
+
+*Scientific Impact:* First quantitative test of the cross-modal decoupling hypothesis in ME/CFS. If confirmed, decoupling becomes a candidate mechanistic biomarker bridging autonomic, sleep, and glymphatic research domains. The subtype analysis may identify distinct decoupling endotypes that explain heterogeneous treatment responses.
+
+*Clinical Impact:* An objective sleep-based diagnostic biomarker would reduce the 5-year average diagnostic delay for ME/CFS. PSG is a standardised, reimbursed clinical procedure available in any accredited sleep laboratory. A validated software-based biomarker eliminates reagent costs and inter-laboratory assay variability.
+
+*Patient Community Impact:* Provides an objective measure of the unrefreshing sleep that patients consistently report but that conventional sleep staging dismisses as "normal PSG." Quantifies the physiological toll of PEM through sleep-based metrics.
