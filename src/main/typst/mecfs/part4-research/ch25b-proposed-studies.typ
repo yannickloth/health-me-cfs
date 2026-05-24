@@ -2770,3 +2770,17 @@ No study has applied SleepFM or any equivalent multimodal sleep foundation model
 *Clinical Impact:* An objective sleep-based diagnostic biomarker would reduce the 5-year average diagnostic delay for ME/CFS. PSG is a standardised, reimbursed clinical procedure available in any accredited sleep laboratory. A validated software-based biomarker eliminates reagent costs and inter-laboratory assay variability.
 
 *Patient Community Impact:* Provides an objective measure of the unrefreshing sleep that patients consistently report but that conventional sleep staging dismisses as "normal PSG." Quantifies the physiological toll of PEM through sleep-based metrics.
+
+== Connective Tissue Research Proposals
+
+=== Study C-1: HIF-1alpha-ECM Dynamics in ME/CFS
+Longitudinal study measuring HIF-1alpha, MMP-3, MMP-9, and collagen degradation markers (CTX, NTx) at rest, immediately post-exertion, and 24/48/72h post-CPET in ME/CFS vs controls. Hypothesis: ME/CFS will show delayed HIF-1alpha elevation and prolonged MMP elevation correlating with PEM timing.
+
+=== Study C-2: Connective Tissue Stratification by Upright MRI
+Cross-sectional (n=200 ME/CFS) with upright MRI to assess CCI prevalence in unselected cohort. Stratify by Beighton score and orthostatic symptoms. Hypothesis: CCI prevalence lower than Bragee2020 (80%) but higher than general population, with association to hypermobility and orthostatic symptoms.
+
+=== Study C-3: Mast Cell Stabilizer + Low-Dose Doxycycline Trial
+RCT (n=80, 4 arms: placebo, mast cell stabilizer alone, doxycycline alone, combination). Outcome: mast cell markers, MMP levels, connective tissue symptoms. Hypothesis: combination therapy shows synergistic benefit.
+
+=== Study C-4: Circadian Collagen Synthesis Optimization
+Pilot testing timed vitamin C and proline supplementation (circadian-appropriate dosing) vs uncontrolled supplementation in hypermobile ME/CFS. Measure collagen synthesis markers (PINP, PIIINP) at multiple timepoints.

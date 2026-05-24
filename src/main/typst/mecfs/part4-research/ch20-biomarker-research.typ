@@ -1558,3 +1558,56 @@ In ME/CFS patients with concurrent MCAS (~25% of the population), skin mast cell
 
 *Limitation:* ATF4 antibody validation in normal dermal mast cells is required before this assay is interpretable. Skin mast cell ISR may not reflect muscle or CNS ISR given different kinase activation patterns. Certainty: 0.20 — mechanistic rationale present; no direct pilot data in ME/CFS skin mast cells.
 ] <oq:mast-cell-atf4-biopsy>
+
+== Connective Tissue and ECM Biomarkers
+
+#hypothesis(title: [MMP/TIMP Ratio Signatures for ME/CFS Subtype Stratification])[
+*Certainty: 0.45.* Different ME/CFS subtypes may have distinct MMP profiles: MMP-9 dominant in vascular phenotype, MMP-3 dominant in hypermobile phenotype. Serum MMP/TIMP ratio could serve as a mechanistic biomarker for distinguishing these subtypes. MMP/TIMP ratios determine net ECM degradation and are clinically accessible (ELISA). Subtype-specific profiles could guide treatment selection: MMP-9 dominant patients may benefit from targeting vascular ECM, while MMP-3 dominant patients may benefit from targeting ligament ECM.
+
+*Testable prediction.* ME/CFS patients will show characteristic MMP/TIMP ratio patterns that distinguish them from healthy controls and fibromyalgia patients, and these patterns will correlate with specific symptom domains (vascular vs. hypermobile vs. cognitive).
+
+*Limitations.* MMPs are stress-responsive and have high day-to-day variability; single measurements may be unreliable. Population-level discrimination requires large cohorts for validation.
+] <hyp:ct-mmp-timp-biomarker>
+
+#speculation(title: [Mass Spectrometry-Based Circulating ECM Fragment Diagnostic Signature])[
+*Certainty: 0.40.* Different tissues produce characteristic ECM proteins with specific fragment patterns when degraded. ME/CFS may have a unique pattern of circulating ECM fragments reflecting the specific tissues affected (vascular basement membrane, cervical ligaments, GI basement membrane). Mass spectrometry-based peptidomics could identify this "ECM signature" as a diagnostic biomarker. This approach has precedent in osteoarthritis and liver fibrosis.
+
+*Testable prediction.* ME/CFS patients will have a distinct circulating ECM fragment profile (identified by mass spectrometry) that differentiates them from healthy controls, fibromyalgia patients, and Long COVID patients with fatigue but without ME/CFS.
+
+*Limitations.* Mass spectrometry peptidomics is technically demanding, requires specialized equipment, and reference databases for ECM peptides are incomplete. The ECM signature may reflect nonspecific systemic illness rather than ME/CFS-specific pathology.
+] <spec:ct-ecm-fragment-signature>
+
+#speculation(title: [Position-Dependent ECM Biomarker Variability as CCI Diagnostic])[
+*Certainty: 0.40.* Gravity-dependent loading affects ECM composition and release kinetics. ME/CFS patients with CCI may show exaggerated differences in ECM biomarkers (collagen fragments, MMPs) when measured upright vs.\ supine, reflecting abnormal gravitational stress responses at the craniocervical junction. This "positional ECM variability" would be a unique objective diagnostic feature for CCI-mediated symptoms, analogous to orthostatic vital signs for POTS.
+
+*Testable prediction.* ME/CFS CCI patients will show greater variation in serum collagen fragments and MMP levels between upright and supine positions compared to ME/CFS without CCI and healthy controls, and this variability will correlate with symptom severity and upright MRI findings.
+
+*Limitations.* Requires controlled positional testing protocols; ECM biomarker half-lives may not be short enough to respond to position changes within a clinically feasible timeframe (hours vs.\ days).
+] <spec:ct-positional-ecm>
+
+#speculation(title: [Circulating ECM-Targeting miRNA Panel for ME/CFS])[
+*Certainty: 0.40.* MicroRNAs (miRNAs) regulate collagen, elastin, and MMP gene expression. Specific miRNAs (miR-29, miR-196, miR-140) are known regulators of ECM homeostasis. ME/CFS miRNA dysregulation is established; a panel of ECM-targeting miRNAs could serve as minimally invasive biomarkers reflecting connective tissue pathology. Circulating miRNAs are stable in blood and technically accessible via qPCR arrays.
+
+*Testable prediction.* ME/CFS patients will show distinct circulating miRNA profiles targeting ECM-related pathways (collagen synthesis, MMP regulation, elastin maintenance), and modulating these miRNAs in fibroblast cell culture will normalize ECM production from patient-derived cells.
+
+*Limitations.* miRNA expression is influenced by many factors (exercise, time of day, medications); ECM-specific miRNA contributions must be distinguishable from broader miRNA dysregulation. Therapeutic miRNA modulation remains in preclinical stages.
+] <spec:ct-mirna-ecm>
+
+#speculation(title: [Connective Tissue Epigenetic Aging Clock in ME/CFS])[
+*Certainty: 0.35.* Connective tissue has measurable epigenetic aging markers (DNA methylation clocks, advanced glycation end products, crosslink patterns). ME/CFS may show accelerated connective tissue aging that differs from chronological age and from blood-based epigenetic clocks. A "CTD aging clock" derived from skin biopsy methylation arrays could quantify this acceleration and serve as both a severity biomarker and an outcome measure for interventions targeting connective tissue health.
+
+*Testable prediction.* ME/CFS skin biopsy samples will show epigenetic age acceleration (compared to chronological age) specifically in fibroblasts, and this acceleration will correlate with disease severity, Beighton hypermobility scores, and serum ECM degradation markers.
+
+*Limitations.* Skin biopsy is invasive; tissue-specific epigenetic clocks for connective tissue are not yet well-validated; reference datasets for different age groups and disease states are limited. The clock may reflect systemic illness rather than connective-tissue-specific pathology.
+] <spec:ct-aging-clock>
+
+#hypothesis(title: [Exercise-Challenge Dynamic ECM Remodeling Test])[
+*Certainty: 0.50.* Static biomarker measurements may miss dynamic ECM dysfunction. A "dynamic ECM test" measuring MMP and ECM fragment responses to controlled mechanical stress (e.g., standardized submaximal exercise) could reveal abnormal ECM remodeling kinetics in ME/CFS. This would be conceptually analogous to the 2-day CPET for metabolic response but applied to connective tissue: exaggerated or delayed MMP surges at 24--72h post-exertion would reflect dysregulated ECM remodeling and correlate with PEM severity.
+
+*Testable prediction.* ME/CFS patients will show abnormal temporal patterns of MMP-3, MMP-9, and collagen degradation markers (CTX, NTx) after controlled submaximal exercise, with exaggerated or delayed responses compared to sedentary controls and fibromyalgia patients, and these patterns will correlate with PEM severity scores.
+
+*Protocol.* Baseline blood draw → standardized submaximal exercise (e.g., 6-minute walk) → serial blood draws at 0, 24, 48, and 72h post-exertion → ELISA for MMP-3, MMP-9, TIMP-1, TIMP-2, CTX, NTx, and elastin fragments.
+
+*Limitations.* Exercise challenge carries PEM risk even at submaximal levels; requires careful participant selection and safety monitoring. Multiple venipunctures over 72h increase participant burden. Optimal exercise type and intensity for revealing ECM dynamics are unknown.
+] <hyp:ct-dynamic-ecm-test>
+
