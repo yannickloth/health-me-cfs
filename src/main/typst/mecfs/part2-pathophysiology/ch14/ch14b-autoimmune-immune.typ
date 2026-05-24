@@ -165,7 +165,6 @@ Based on the GPCR autoantibody literature, several biological phenomena have nev
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{6cm}}
 
     [*Finding*], [*Evidence Level*], [*Notes*],
 

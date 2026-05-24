@@ -1617,7 +1617,6 @@ In severe ME/CFS, CNS energy is so limited that only Tier 1–3 activities (brai
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columns
   
   [*Symptom Domain*], [*Expected Improvement*], [*Timeline*],
   
@@ -2333,7 +2332,7 @@ Before pursuing stratified treatment, establish the patient's phenotype using th
     / *$square.stroked$*: Obtain heart rate monitor
     / *$square.stroked$*: Begin strict pacing (stay below anaerobic threshold)
     / *$square.stroked$*: Start pain management (ibuprofen or naproxen + topicals if available)
-     / *$square.stroked$*: Call physician: Request trazodone or mirtazapine for sleep (prefer trazodone 25-50 mg as it enhances SWS without suppressing NE oscillations that drive glymphatic clearance; SleepFM validates coupling-preserving approaches @Thapa2026sleepfm)
+     / *$square.stroked$*: Call physician: Request trazodone or mirtazapine for sleep (prefer trazodone 25-50 mg as it enhances SWS without suppressing NE oscillations that drive glymphatic clearance; SleepFM demonstrates that cross-modal decoupling during sleep predicts disease onset across 130+ conditions @Thapa2026sleepfm, providing indirect support for coupling-preserving sleep aids, though no interventional data exist)
 
 *Days 2–3:*
 

@@ -683,7 +683,6 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *DOI:*: #link("https://doi.org/10.3390/pathophysiology31010001")[10.3390/pathophysiology31010001]
     *PMCID:*: PMC10801610
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Wells R, Spurrier AJ, Linz D, et al.\ Is postural orthostatic tachycardia syndrome (POTS) a central nervous system disorder? _Journal of Neurology, Neurosurgery & Psychiatry_. 2021;92(11):1196–1207.],
     *DOI:*: #link("https://doi.org/10.1136/jnnp-2020-325932")[10.1136/jnnp-2020-325932]
     *PMCID:*: PMC7936931
@@ -1926,7 +1925,6 @@ Provides mechanistic validation for Goldstein's clinical observations with moder
 
 *Polo et al.\ 2019 — Retrospective Observational Study*
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Polo O, Pesonen P, Tuominen E. Low-dose naltrexone in the treatment of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). _Fatigue: Biomedicine, Health & Behavior_. 2019;7(4):207–217.],
     *DOI:*: #link("https://doi.org/10.1080/21641846.2019.1692770")[10.1080/21641846.2019.1692770]
     *Published:*: November 19, 2019
@@ -2010,7 +2008,6 @@ DORAs represent a mechanistically-informed treatment option for ME/CFS sleep dis
 #align(center)[
 #table(
   columns: (auto, auto, auto),
-  // TODO: fix columns
 
 [*Issue*], [*Traditional Sedatives*], [*DORAs (Daridorexant)*],
 
@@ -2662,7 +2659,6 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     *DOI:*: #link("https://doi.org/10.1186/s12967-023-04586-6")[10.1186/s12967-023-04586-6]
     *PMCID:*: PMC10576275
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Jason LA, Brown M, Brown A, et al.\ Energy Conservation/Envelope Theory Interventions to Help Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Fatigue: Biomedicine, Health & Behavior_. 2013;1(1–2):65–78.],
     *DOI:*: #link("https://doi.org/10.1080/21641846.2012.733602")[10.1080/21641846.2012.733602]
     *PMCID:*: PMC3596172
@@ -2707,7 +2703,6 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     *PMID:*: 33375343
     *Key Findings:*: First-hand accounts confirm organic infectious disease, not hysteria.
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Jason LA, Lapp CW, Engel S, et al.\ Myalgic Encephalomyelitis (ME) outbreaks can be modeled as an infectious disease: a mathematical reconsideration of the Royal Free Epidemic of 1955. _Fatigue: Biomedicine, Health & Behavior_. 2020;8(2):99–109.],
     *DOI:*: #link("https://doi.org/10.1080/21641846.2020.1793058")[10.1080/21641846.2020.1793058]
 
@@ -2781,7 +2776,6 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
     *Certainty:*: High (well-designed study, statistically significant findings)
     *Clinical Relevance:*: Provides biological basis for mast cell involvement in ME/CFS; supports rationale for mast cell-targeted therapies
 
-  // TODO: needs #table() wrapper
 [=== Wirth], [Scheibenbogen 2023 — Mast Cell Activation and Vascular Pathomechanisms],
 
     *Full Citation:*: Wirth K, Scheibenbogen C. Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Comorbidities: Linked by Vascular Pathomechanisms and Vasoactive Mediators? _Healthcare_. 2023;11(7):978.
@@ -3130,7 +3124,6 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
 
 Chronic hypovolemia (reduced blood volume) is a well-documented feature of ME/CFS, with direct consequences for oxygen delivery, exercise capacity, and orthostatic symptoms. Paradoxically, the renin-angiotensin-aldosterone system (RAAS) and antidiuretic hormone (ADH) — which normally activate in response to low blood volume — show suppression in ME/CFS patients.
 
-  // TODO: needs #table() wrapper
 [*Miwa, Fujita 2017 @Miwa2017*:],
 This study identified paradoxical down-regulation of volume-regulatory hormones in ME/CFS. Despite documented hypovolemia and reduced cardiac output, plasma aldosterone was 33% lower (104±37 vs 157±67 pg/ml, $p$=0.004) and ADH was 33% lower (2.2±1.0 vs 3.3±1.5 pg/ml, $p$=0.02) compared to healthy controls (n=14 patients, n=13 controls). Treatment trial: desmopressin (ADH analog) improved orthostatic symptoms in 50% of patients. *Certainty:* Medium (peer-reviewed, significant findings, but small sample awaiting replication). *Implication:* Hypovolemia results from central dysregulation of volume-regulatory systems, not excessive fluid loss.
 
@@ -3443,7 +3436,6 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     *Key Findings:*: CFS patients had significantly higher resting motor thresholds (reduced cortical excitability) and absent post-exercise MEP facilitation, confirming and extending Samii et al.\ 1996. The motor cortex in CFS requires stronger stimulation to produce a response and fails to upregulate after physical exertion.
     *Relevance:*: Independent replication of motor cortex hypoexcitability in CFS. Together with Samii 1996 and Davey 2003, establishes a consistent neurophysiological phenotype that rTMS could theoretically correct.
 
-  // TODO: needs #table() wrapper
 [*Miwa, Inoue 2023 — Dual-Target rTMS Ameliorates ME Symptoms*],
 
     *Full Citation:*: Miwa K, Inoue Y\@. Repetitive transcranial magnetic stimulation ameliorates symptoms in patients with myalgic encephalomyelitis (chronic fatigue syndrome). _IBRO Neuroscience Reports_. 2023;15:335–341.
@@ -3573,7 +3565,6 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
 
 === Ret\'{ey et al.\ 2007 — ADORA2A Genotype and Caffeine Sensitivity}
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: R\'{e}tey JV, Adam M, Khatami R, Luhmann UFO, Jung HH, Berger W, Landolt HP\@. A genetic variation in the adenosine A2A receptor gene (ADORA2A) contributes to individual sensitivity to caffeine effects on sleep. _Clinical Pharmacology & Therapeutics_. 2007;81(5):692–698. DOI: 10.1038/sj.clpt.6100102.],
     *Key Findings:*:
     
@@ -3584,7 +3575,6 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     *Relevance:*: Provides the pharmacogenetic basis for understanding ME/CFS patients' variable caffeine responses as a potential marker of A2A receptor function. Supports the speculation that ME/CFS-associated A2A upregulation could alter caffeine pharmacodynamics.
     *Certainty Assessment:*:
     
-  // TODO: needs #table() wrapper
 [- *Quality:* High (Clinical Pharmacology & Therapeutics, primary human study)],
         - *ME/CFS specificity:* None — general population caffeine-sleep study
         - *Limitation:* No ME/CFS cohort; ME/CFS-specific caffeine-ADORA2A study remains unpublished
@@ -4092,14 +4082,12 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
     *Relevance:*: NK cell cytotoxicity is consistently reduced in ME/CFS. This paper provides a mechanistic explanation for how circadian disruption and melatonin deficiency could contribute to NK dysfunction: loss of melatonin-driven JAK3/STAT5/T-bet signaling. Directly supports the melatonin–immune axis discussion in Section 15.6.
     *Certainty Assessment:*:
     
-  // TODO: needs #table() wrapper
   [- *Quality:* Medium (Immunity, Ageing), open access, peer-reviewed],
         - *Sample:* Animal model (aged mice); no human data
         - *Replication:* Single study; mechanistic pathway not yet confirmed in humans
         - *Limitation:* Mouse model only; extrapolation to human ME/CFS is speculative; erratum published (minor correction)
     
 
-  // TODO: needs #table() wrapper
 [==== Anderson], [Maes 2020 — Mitochondria and Immunity in ME/CFS],
 
 @Anderson2020mitochondriaMECFS
@@ -4125,7 +4113,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
 
 === Section 15.7: Microglia Activation and Neuroinflammatory Fatigue
 
-  // TODO: needs #table() wrapper
 [==== VanElzakker, Brumfield], [Lara Mejia 2019 — Critical Review of Neuroinflammation Methods in ME/CFS],
 
 @VanElzakker2019
@@ -4145,7 +4132,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Limitation:* Cannot resolve empirical contradictions in the primary literature; advocates for better methods rather than providing them
     
 
-  // TODO: needs #table() wrapper
 [==== Renz-Polster, Tremblay, Bienzle], [Fischer 2022 — Neuroglial Failure Hypothesis],
 
 @RenzPolster2022
@@ -4166,7 +4152,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Limitation:* Theoretical synthesis; individual component mechanisms extrapolated from other diseases (Alzheimer's, MS, viral encephalitis); not yet tested as a unified hypothesis in ME/CFS specifically
     
 
-  // TODO: needs #table() wrapper
 [==== Gottschalk, Peterson, Knox, Maynard], [Whelan 2022 — ATG13 Drives Microglial Oxidative Stress via RAGE],
 
 @Gottschalk2022ATG13
@@ -4304,7 +4289,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
 <sec:bib-developmental-immunology>
 // =============================================================================
 
-  // TODO: needs #table() wrapper
 [=== Mohtashami], [Zúñiga-Pflücker 2024 — Thymic Homeostasis and Immune Tolerance],
 
     *Full Citation:*: Mohtashami M, Zúñiga-Pflücker JC. Immune tolerance and the prevention of autoimmune diseases essentially depend on thymic tissue homeostasis. _Frontiers in Immunology_. 2024;15:1339714.
@@ -4326,11 +4310,9 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Quality:* Medium-High (Frontiers in Immunology; Zúñiga-Pflücker is a leading T cell development researcher)
         - *Study type:* Mechanistic review; thymic involution is a well-characterized phenomenon
         - *Limitations:* Thymic output is relevant primarily for T cell tolerance; application to B cell-mediated GPCR autoantibody clearance requires additional inferential steps
-  // TODO: needs #table() wrapper
 [- *Convergence:* Consistent with Meffre], [O'Connor 2024; together describe a developmental quality-control system that operates more actively in youth],
     
 
-  // TODO: needs #table() wrapper
 [=== Meffre], [O'Connor 2024 — B Cell Tolerance and Autoimmune Repertoires],
 
     *Full Citation:*: Meffre E, O'Connor KC. B cell tolerance and autoimmunity: Lessons from repertoires. _Journal of Experimental Medicine_. 2024;221(9):e20231314.
@@ -4353,7 +4335,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Limitations:* ME/CFS-specific B cell tolerance data are limited; application to GPCR autoantibody persistence is inferential
     
 
-  // TODO: needs #table() wrapper
 [=== Wirth], [Scheibenbogen 2025 — Neurotransmitter Imbalance in ME/CFS and Long COVID],
 
     *Full Citation:*: Wirth KJ, Scheibenbogen C. Imbalance of Excitatory and Inhibitory Neurotransmitter Pathways in ME/CFS and Long COVID. _Preprints.org_ (preprint, not peer-reviewed). 2025.
@@ -4476,7 +4457,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
 <sec:bib-microglial-development>
 // =============================================================================
 
-  // TODO: needs #table() wrapper
 [=== Dziabis], [Bilbo 2022 — Microglia and Sensitive Periods in Brain Development],
 
     *Full Citation:*: Dziabis JE, Bilbo SD. Microglia and Sensitive Periods in Brain Development. _Current Topics in Behavioral Neurosciences_. 2022;53:55–78.
@@ -4620,7 +4600,6 @@ The central clinical challenge for meditation/mindfulness in ME/CFS is that cogn
         - *Limitations:* Inflammation-to-HSC-exhaustion pathway is well-established in ageing and sepsis models but not yet studied specifically in ME/CFS; direct measurement of HSC function in ME/CFS patients is absent
     
 
-  // TODO: needs #table() wrapper
 [=== Morrison], [Scadden 2025 — The Aging Hematopoietic Stem Cell Niche],
 
     *Full Citation:*: Morrison SJ, Scadden DT. The aging hematopoietic stem cell niche: a mini review. _Frontiers in Hematology_. 2025.
@@ -5293,7 +5272,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Jason et al.\ 2012 — Energy Envelope Theory Interventions
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Jason LA, Brown M, Brown A, et al.\ Energy Conservation/Envelope Theory Interventions to Help Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Fatigue: Biomedicine, Health & Behavior_. 2012;1(1–2):27–42. @jason2012energy],
     *DOI:*: #link("https://doi.org/10.1080/21641846.2012.733602")[10.1080/21641846.2012.733602]
     *Key Findings:*:
@@ -5322,7 +5300,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Bynke et al.\ 2020 — GPCR Autoantibodies: Swedish Validation
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Bynke A, Julin P, Gottfries C-G, Heidecke H, Scheibenbogen C, Bergquist J. Autoantibodies to beta-adrenergic and muscarinic cholinergic receptors in Myalgic Encephalomyelitis (ME) patients—A validation study in plasma and cerebrospinal fluid from two Swedish cohorts. _Brain, Behavior, & Immunity – Health_. 2020;7:100107. @Bynke2020],
     *DOI:*: #link("https://doi.org/10.1016/j.bbih.2020.100107")[10.1016/j.bbih.2020.100107]
     *Key Findings:*:
@@ -5417,7 +5394,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Dantzer 2007 — Cytokine-Induced Sickness Behaviour
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Dantzer R. Twenty years of research on cytokine-induced sickness behavior. _Neuroscience & Biobehavioral Reviews_. 2008;32(1):220–224. @Dantzer2007twenty],
     *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2007.07.014")[10.1016/j.neubiorev.2007.07.014]
     *Key Findings:*:
@@ -5471,7 +5447,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
     
     *Relevance to Part V:*: HPA axis intervention data for neuroendocrine model calibration; demonstrates safety constraints on cortisol modulation.
 
-  // TODO: needs #table() wrapper
 [=== Geraghty], [Blease 2019 — Cognitive Dysfunction Review],
 
     *Full Citation:*: Geraghty KJ, Blease C. Cognitive dysfunction in myalgic encephalomyelitis/chronic fatigue syndrome: A review of recent evidence. _Current Rheumatology Reports_. 2019;21(9):48. @geraghty2019cognitive
@@ -5873,7 +5848,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Xiong et al.\ 2023 — Multi-Omics of Gut Microbiome in ME/CFS
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Xiong R, Gunter C, Fleming E, Vernon SD, Bateman L, Unutmaz D, Oh J. Multi-'omics of gut microbiome-host interactions in short- and long-term myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) patients. _Cell Host & Microbe_. 2023;31(2):273–287.e5. @Xiong2023multiomics],
     *DOI:*: #link("https://doi.org/10.1016/j.chom.2023.01.001")[10.1016/j.chom.2023.01.001]
     *Key Findings:*:
@@ -5953,7 +5927,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Polo et al.\ 2019 — Low Dose Naltrexone for Fibromyalgia
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: Polo O, Smith S, Jones DE, Newton JL. Low dose naltrexone for the treatment of fibromyalgia: Findings of a small, randomized, double-blind, placebo-controlled, counterbalanced, crossover trial assessing daily pain levels. _Arthritis & Rheumatology_. 2019;71(10):1691–1699. @Polo2019LDN],
     *DOI:*: #link("https://doi.org/10.1002/art.40900")[10.1002/art.40900]
     *Key Findings:*:
@@ -6029,7 +6002,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Certainty:* 0.70
     
 
-  // TODO: needs #table() wrapper
 [=== Schonrich], [Raftery 2016 — Neutrophil Extracellular Traps Go Viral],
 
     *Full Citation:*: Sch\"onrich G, Raftery MJ.\ Neutrophil Extracellular Traps Go Viral. _Frontiers in Immunology_. 2016;7:366. @Schonrich2016
@@ -6253,10 +6225,8 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 <sec:bib-neuroinflammation-projects-2026>
 // =============================================================================
 
-  // TODO: needs #table() wrapper
 [=== VanElzakker et al.\ 2024 — Neuroinflammation and Brain Fog in Long COVID], [ME/CFS: PET-MRI Project],
 
-  // TODO: needs #table() wrapper
 [/ *Full Citation:*: VanElzakker MB, Loggia M, Ratai E.\ Neuroinflammation and “Brain Fog” in Long COVID], [ME/CFS: PET-MRI neuroimaging project. PolyBio Research Foundation, Project 5272. 2024. #link("https://polybio.org/projects/5272/") @VanElzakker2024NeuroinflammationProject],
     *Type:*: Ongoing research project (no peer-reviewed publications from this project at time of writing)
     *Investigators:*: Michael B. VanElzakker (Harvard), Marco Loggia, Eva Ratai
@@ -6473,7 +6443,6 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Limitation:* Hospitalised cohort; ACE2 tropism specific to coronaviruses; generalisability to EBV/enterovirus triggers undemonstrated
     
 
-  // TODO: needs #table() wrapper
 [=== Ruiz-Pablos, Paiva], [Zabaleta 2024 — Hypocortisolemic ASIA in Long COVID and ME/CFS],
 
     *Full Citation:*: Ruiz-Pablos M, Paiva B, Zabaleta A. Hypocortisolemic ASIA: a vaccine- and chronic infection-induced syndrome behind the origin of long COVID and myalgic encephalomyelitis. _Frontiers in Immunology_. 2024;15:1422940. @Ruiz2024hpa

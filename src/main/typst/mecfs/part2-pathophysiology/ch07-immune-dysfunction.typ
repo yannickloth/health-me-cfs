@@ -1251,19 +1251,19 @@ Studies have demonstrated:
     - Persistence of neuroinflammation
 
 #limitation(title: [Neuroinflammation Measurement Challenges])[
-The single published TSPO PET study in ME/CFS (n=9 patients, n=10 controls) found no significant difference in TSPO binding between groups \cite{Raijmakers2021TSPOCFS}, contrary to neuroinflammation hypotheses.
+The single published TSPO PET study in ME/CFS (n=9 patients, n=10 controls) found no significant difference in TSPO binding between groups @Raijmakers2021TSPOCFS, contrary to neuroinflammation hypotheses.
 However, this null finding may be confounded by multiple methodological limitations:
 - First-generation tracer [11C]-PK11195 has poor signal-to-noise compared to modern second- and third-generation tracers (PBR28, DPA-714, LW223)
 - Small sample size (n=9) provides limited statistical power
 - Brain-only imaging cannot assess peripheral inflammation contribution
-- *BBB transport confounding*: Peripheral inflammation (common in ME/CFS) reduces TSPO tracer brain influx rate \cite{Barzon2026TSPOBBB}, potentially masking central microglial activation
+- *BBB transport confounding*: Peripheral inflammation (common in ME/CFS) reduces TSPO tracer brain influx rate @Barzon2026TSPOBBB, potentially masking central microglial activation
 
 The BBB transport limitation is particularly relevant for ME/CFS interpretation:
 Barzon et al.\ (2026) analyzed 358 TSPO PET scans across multiple tracers and demonstrated that peripheral inflammation (elevated CRP) correlates with reduced tracer brain influx (K1).
 If ME/CFS involves systemic inflammation as suggested by plasma proteomics data, normal brain TSPO binding may reflect BBB dysfunction rather than absence of neuroinflammation.
 
 *Clinical implications:* Negative TSPO PET results in ME/CFS cannot be interpreted as definitive evidence against neuroinflammation without measuring BBB permeability or controlling for peripheral inflammation.
-*Replication status:* Single ME/CFS study \cite{Raijmakers2021TSPOCFS}, not replicated. BBB transport mechanism \cite{Barzon2026TSPOBBB} demonstrated in depression and schizophrenia, not yet tested in ME/CFS.
+*Replication status:* Single ME/CFS study @Raijmakers2021TSPOCFS, not replicated. BBB transport mechanism @Barzon2026TSPOBBB demonstrated in depression and schizophrenia, not yet tested in ME/CFS.
 ] <lim:neuroinflammation-measurement-challenges>
 
 === Immune Cell Displacement from Tissue Niches
@@ -3270,7 +3270,6 @@ Observational + mechanistic studies: 18–24 months; statin pilot: 12–18 month
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{2cm}p{2cm}p{2.5cm}}
 
     [*Research Direction*], [*Severe Case Benefit*], [*Timeline to Results*], [*Feasibility*], [*Priority Rank*],
 
