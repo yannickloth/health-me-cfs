@@ -6,7 +6,7 @@ argument-hint: <topic description>
 
 # Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → develop → integrate → brainstorm → develop best ideas → review to zero findings → changelog → commit.
+End-to-end: research → develop → integrate → brainstorm → develop best ideas → retroactively adapt pre-existing content → review to zero findings → changelog → commit.
 
 **Topic**: $ARGUMENTS
 
@@ -37,6 +37,7 @@ Before starting any other phase:
    - Phase 3 → brainstorm file path, idea count (handled in Phase 3 plan update above)
    - Phase 3a → subtree file path, N nodes written, root index updated
    - Phase 4 → ideas integrated; queued topics from Gates A/B with one-line rationale
+   - Phase 4b → N pre-existing claims adapted (R reinforced, T corrected, A ambiguous)
    - Phase 5 → build status
    - Phase 6 → review convergence status per pass
    - Phase 7 → changelog entry summary
@@ -277,6 +278,118 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 ---
 
+## Phase 4b — Retrospective Adaptation
+
+**Agent:** main session | **Model:** current
+
+**Purpose:** New evidence doesn't only add new content — it changes what the paper already says. Phase 4b sweeps pre-existing environments, treatment recommendations, biomarker discussions, drug warnings, phenotype descriptions, and research gap statements for any claim that overlaps with the new evidence. Every overlap must be addressed — reinforced if aligned, corrected if contradicted.
+
+**MANDATORY: Sweep ALL pre-existing content that overlaps with the new evidence.** Do not skip sections that "look fine." The paper must reflect the new evidence everywhere it touches, not just in the new sections.
+
+### Sweep Scope
+
+Search across all chapters (`src/main/typst/mecfs/`) for pre-existing content in these categories:
+
+| Category | Search targets |
+|----------|---------------|
+| Environments | `#hypothesis`, `#speculation`, `#open-question`, `#achievement`, `#limitation`, `#prediction`, `#warning-box`, `#practical-warning` |
+| Phenotype descriptions | Sections mapping symptoms to mechanisms, subtyping discussions |
+| Treatment recommendations | Drug mentions, intervention tables, dosing guidance, contraindication lists |
+| Biomarker discussions | "no validated biomarker," "objective measure lacking," ML/AI discussions |
+| Drug safety warnings | Warnings about sleep medications, autonomic effects, contraindications |
+| Cross-disease comparisons | ME/CFS vs fibromyalgia, Long COVID, POTS, neurodegenerative disease |
+| Research gap statements | "not yet studied," "no data exist," "untested in ME/CFS" |
+| Hypothesis registry | Pre-existing entries that overlap with the new evidence's domain |
+| PSG/sleep findings | ch02 unrefreshing sleep sections, polysomnography discussions |
+| Autonomic sections | HRV, POTS, orthostatic intolerance, sympathetic tone discussions |
+
+### Per-Overlap Adaptation Rules
+
+For each overlapping claim found, apply the appropriate transformation:
+
+#### 1. Reinforcement (evidence aligns with pre-existing claim)
+
+| Action | When |
+|--------|------|
+| Add `@NewCiteKey` citation | New evidence supports an existing mechanistic claim |
+| Raise certainty 0.05–0.10 | External validation strengthens a pre-existing hypothesis (state reason: "0.XX→0.YY: externally validated by [source]") |
+| Add cross-reference `@sec:new-section` | New section provides deeper treatment of the same mechanism |
+| Update "no data exist" / "untested" → "partially validated" | New evidence provides relevant data (even if not ME/CFS-specific) |
+| Add treatment rationale cite | New evidence supports a recommended intervention's mechanism |
+
+#### 2. Contradiction (evidence conflicts with pre-existing claim)
+
+| Action | When |
+|--------|------|
+| Add `#limitation` or inline caveat with `@NewCiteKey` | New evidence suggests a different mechanism or nullifies a prediction |
+| Lower certainty 0.05–0.20 | External contradiction weakens a hypothesis (state reason) |
+| Add competing-mechanism note | New evidence supports an alternative explanation |
+| Flag as unresolved tension | Both pre-existing claim and new evidence have supporting data |
+| Queue for dedicated `/integrate-topic` | Contradiction is a substantive topic needing its own literature review |
+| **NEVER silently delete** | Contradiction must be documented, not erased |
+
+#### 3. Ambiguous (evidence partially aligns, partially diverges)
+
+| Action | When |
+|--------|------|
+| Add qualified cite: "consistent with [source] in [domain], but [source] also found [divergent result]" | Evidence supports one aspect but contradicts another |
+| Add `#open-question` | Evidence changes the question but doesn't resolve it |
+| Split the pre-existing claim | New evidence shows it conflates two separate mechanisms |
+
+#### 4. Pre-existing content that the new evidence makes redundant
+
+| Action | When |
+|--------|------|
+| Consolidate | New section obsoletes scattered pre-existing discussion — add cross-references and trim |
+
+### Certainty Adjustment Guidelines
+
+| Bump | Condition |
+|------|-----------|
+| +0.10 | Direct ME/CFS replication of the exact mechanism |
+| +0.05 | External validation of the general principle (large-scale, different lab, top journal) |
+| +0.05 | Multiple independent lines of evidence now converge |
+| 0 (no change) | New evidence is consistent but adds no independent validation (same lab, same cohort, re-analysis) |
+| −0.05 | New evidence partially contradicts (different direction, smaller effect) |
+| −0.10 | New evidence directly contradicts (null replication, opposite finding) |
+| −0.15+ | New evidence refutes the mechanism (failed replication in larger/better study) |
+
+### Specific Targets (non-exhaustive checklist)
+
+- [ ] Pre-existing hypothesis environments touching the same mechanism → add cite, re-evaluate certainty
+- [ ] Pre-existing speculation environments → add cite, re-evaluate speculative → hypothesis threshold (0.45)
+- [ ] Pre-existing open-question environments → update if new evidence partially answers
+- [ ] Pre-existing limitation environments → update if new evidence addresses the limitation
+- [ ] Drug mentions in the same domain → add mechanistic rationale citation
+- [ ] "No data exist" / "untested" statements → update if new evidence is relevant (even partial)
+- [ ] Biomarker "no validated marker" laments → note if new evidence provides a candidate pathway
+- [ ] ch02 PSG discrepancy discussion → reference cross-modal coupling if new evidence explains the gap
+- [ ] Hypothesis registry entries in overlapping domain → add cite, re-evaluate certainty, update status
+- [ ] Treatment tables / intervention recommendations → add coupling-matched or contraindication notes
+
+### Execution Protocol
+
+1. **Generate search terms** from Phase 1–2 findings — key mechanism names, drug names, symptom domains
+2. **Search** with `grep` across all `.typ` files for each term
+3. **Read context** around each match (at least 10 lines before/after)
+4. **Determine overlap** — does the pre-existing claim engage with the same mechanism/domain?
+5. **Apply adaptation** per the rules above — minimal, surgical edits
+6. **Record every change** with file, line, what changed, and why
+
+### Report
+
+```
+Phase 4b complete: N pre-existing environments adapted
+  Reinforcement: R edits (C certainty bumps, K citation inserts, X cross-refs, D "no data" updates)
+  Contradiction: T edits (Q certainty reductions, P competing notes, U unresolved tensions flagged)
+  Ambiguous: A edits
+  Redundancy: Z consolidations
+```
+
+Add a row to the Phase 0 tracking table: `4b | N pre-existing claims adapted (R reinforced, T corrected, A ambiguous)`
+
+---
+
 ## Phase 5 — Build Verification
 
 **Agent:** `test-runner` | **Model:** haiku
@@ -362,6 +475,7 @@ Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit
 | 3a | main session | current | Mechanical tree write |
 | 4 | `literature-integrator` (sub) | sonnet | Per-idea research |
 | 4 | main session | current | Development + integration |
+| 4b | main session | current | Retrospective adaptation (no new literature) |
 | 5 | `test-runner` | haiku | Mechanical build check |
 | 6a | review-convergence agents | sonnet | Consistency/logic checking |
 | 6b | review-adversarial agents | opus | Adversarial personas need deep reasoning |
@@ -373,6 +487,7 @@ Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit
 
 ## Invariants (Never Violate)
 
+- Pre-existing content must be retroactively adapted — new evidence changes old claims; add cites, adjust certainties, flag contradictions (Phase 4b)
 - No fabrication — every claim traces to verified source
 - No hypothesis-as-recommendation — mechanistic rationales ≠ clinical advice
 - Certainty always explicit in every environment
