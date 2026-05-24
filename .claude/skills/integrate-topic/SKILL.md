@@ -282,111 +282,111 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 **Agent:** main session | **Model:** current
 
-**Purpose:** New evidence doesn't only add new content — it changes what the paper already says. Phase 4b sweeps pre-existing environments, treatment recommendations, biomarker discussions, drug warnings, phenotype descriptions, and research gap statements for any claim that overlaps with the new evidence. Every overlap must be addressed — reinforced if aligned, corrected if contradicted.
+**Purpose:** New evidence doesn't only add new content — it changes what the paper already says. Phase 4b sweeps pre-existing content for claims that overlap with the new evidence and adapts them: reinforced if aligned, corrected if contradicted, left unchanged if the new evidence is too weak/indirect to justify any change.
 
-**MANDATORY: Sweep ALL pre-existing content that overlaps with the new evidence.** Do not skip sections that "look fine." The paper must reflect the new evidence everywhere it touches, not just in the new sections.
+### Evidence Quality Floor
 
-### Sweep Scope
+**Before any adaptation**, check the Phase 1 certainty of each paper driving the new evidence:
 
-Search across all chapters (`src/main/typst/mecfs/`) for pre-existing content in these categories:
+| Incoming certainty | Permitted action |
+|--------------------|-----------------|
+| ≥ 0.60 | Full adaptation (reinforcement, contradiction, ambiguity) — at most one +0.05 bump per paper |
+| 0.40–0.59 | Citation insertions only; **no** certainty bumps; contradiction → flag as tension, do not lower certainty |
+| < 0.40 | Overlap noted in report only; **do not edit** pre-existing content. Record as "overlap deferred — incoming certainty too low." |
 
-| Category | Search targets |
-|----------|---------------|
-| Environments | `#hypothesis`, `#speculation`, `#open-question`, `#achievement`, `#limitation`, `#prediction`, `#warning-box`, `#practical-warning` |
-| Phenotype descriptions | Sections mapping symptoms to mechanisms, subtyping discussions |
-| Treatment recommendations | Drug mentions, intervention tables, dosing guidance, contraindication lists |
-| Biomarker discussions | "no validated biomarker," "objective measure lacking," ML/AI discussions |
-| Drug safety warnings | Warnings about sleep medications, autonomic effects, contraindications |
-| Cross-disease comparisons | ME/CFS vs fibromyalgia, Long COVID, POTS, neurodegenerative disease |
-| Research gap statements | "not yet studied," "no data exist," "untested in ME/CFS" |
-| Hypothesis registry | Pre-existing entries that overlap with the new evidence's domain |
-| PSG/sleep findings | ch02 unrefreshing sleep sections, polysomnography discussions |
-| Autonomic sections | HRV, POTS, orthostatic intolerance, sympathetic tone discussions |
+**Only** the core paper(s) with certainty ≥ 0.60 drive certainty adjustments. Supporting papers (certainty < 0.60) may be cited but do not change certainties.
 
-### Per-Overlap Adaptation Rules
+### Search Protocol
 
-For each overlapping claim found, apply the appropriate transformation:
+1. Generate search terms from Phase 1–2: key mechanism names, drug names, symptom domains, author last names.
+2. `grep` across all `.typ` files for each term.
+3. For each match: read ≥ 10 lines of context; determine if the pre-existing claim engages with the same mechanism.
+4. **If uncertain whether this is reinforcement or contradiction → default to ambiguous.** Classification errors toward false contradiction (adding an unnecessary caveat) are safer than toward false reinforcement (leaving an incorrect claim uncorrected).
+5. **After adapting all matches:** run a second pass with semantically related synonyms (not just Phase 1–2 terms) to catch wording mismatches.
+6. **Coverage check:** report total matches examined vs. total matches found.
+
+**Budget:** If > 30 candidate matches → prioritize in this order: hypothesis environments > treatment recommendations > biomarker discussions > drug warnings > phenotype descriptions > cross-disease > research gaps > ch02 sleep findings. Stop at 30; record remaining as "sweep truncated — N matches unexamined."
+
+### Adaptation Rules
+
+For each overlap, classify the relationship and apply **one** primary action. Categories are exhaustive and mutually exclusive; if evidence falls on the boundary, default to the more conservative category (Ambiguous over Reinforcement, Ambiguous over Contradiction).
 
 #### 1. Reinforcement (evidence aligns with pre-existing claim)
 
 | Action | When |
 |--------|------|
-| Add `@NewCiteKey` citation | New evidence supports an existing mechanistic claim |
-| Raise certainty 0.05–0.10 | External validation strengthens a pre-existing hypothesis (state reason: "0.XX→0.YY: externally validated by [source]") |
-| Add cross-reference `@sec:new-section` | New section provides deeper treatment of the same mechanism |
-| Update "no data exist" / "untested" → "partially validated" | New evidence provides relevant data (even if not ME/CFS-specific) |
-| Add treatment rationale cite | New evidence supports a recommended intervention's mechanism |
+| Add cite `@NewCiteKey` | New evidence supports an existing mechanistic claim |
+| Raise certainty +0.05 (only if incoming certainty ≥ 0.60) | External validation strengthens a pre-existing hypothesis. State reason: "0.XX→0.YY: externally validated by [source]" |
+| Add cross-ref `@sec:new-section` | New section provides deeper treatment of the same mechanism |
+| Update "no data exist in ME/CFS" → "no ME/CFS-specific data; mechanism validated in general population by [source]" | New evidence provides relevant non-ME/CFS data. Never say "partially validated" without the qualifier |
+| Add treatment-mechanism cite, labelled as mechanistic | New evidence supports an intervention's mechanism. Format: `@CiteKey` preceded by "mechanistic rationale:" to distinguish from clinical outcome evidence |
+
+**Guard — "Never silently inflate":** A reinforcement action that changes certainty OR crosses a threshold (speculation 0.45 → hypothesis) must document: (a) whether the new evidence is ME/CFS-specific or general-population, (b) whether it's mechanistic or clinical, (c) the incoming certainty of the paper driving the bump.
+
+**Escalation:** If reinforcement pushes certainty across a threshold (≥ 0.45, ≥ 0.70), consider: should this claim be promoted to a dedicated section, or should the environment be reclassified (`#speculation` → `#hypothesis`)?
 
 #### 2. Contradiction (evidence conflicts with pre-existing claim)
 
 | Action | When |
 |--------|------|
-| Add `#limitation` or inline caveat with `@NewCiteKey` | New evidence suggests a different mechanism or nullifies a prediction |
-| Lower certainty 0.05–0.20 | External contradiction weakens a hypothesis (state reason) |
+| Add `#limitation` or inline caveat with `@NewCiteKey` | New evidence weakens a prediction or suggests a different mechanism |
+| Lower certainty (see table below) | External contradiction weakens a hypothesis. Only if incoming certainty ≥ 0.60 |
 | Add competing-mechanism note | New evidence supports an alternative explanation |
-| Flag as unresolved tension | Both pre-existing claim and new evidence have supporting data |
+| Flag as unresolved tension | Both pre-existing claim and new evidence have comparable-quality supporting data |
 | Queue for dedicated `/integrate-topic` | Contradiction is a substantive topic needing its own literature review |
-| **NEVER silently delete** | Contradiction must be documented, not erased |
+| **Remove or rewrite the claim** (with documented rationale) | **Direct refutation by superior evidence** — new study is larger, better-designed, and published in a higher-tier journal. Delete the refuted claim; do not merely annotate. Leave a one-line note: "[Claim] removed — refuted by [source, n=X, journal]." |
+| **Never silently delete** without documenting the change | All other deletions must be recorded |
+
+**Guard — Certainty reduction limits:** A single integration cycle cannot reduce a claim's certainty below 0.10. If the evidence warrants a larger reduction, flag for human review.
 
 #### 3. Ambiguous (evidence partially aligns, partially diverges)
 
 | Action | When |
 |--------|------|
-| Add qualified cite: "consistent with [source] in [domain], but [source] also found [divergent result]" | Evidence supports one aspect but contradicts another |
+| Add qualified cite with both the supporting AND diverging finding | Evidence supports one aspect but contradicts another |
 | Add `#open-question` | Evidence changes the question but doesn't resolve it |
-| Split the pre-existing claim | New evidence shows it conflates two separate mechanisms |
+| Split the pre-existing claim into two | New evidence shows it conflates two separate mechanisms |
 
-#### 4. Pre-existing content that the new evidence makes redundant
+#### 4. No Action (overlap exists, but adaptation not warranted)
 
 | Action | When |
 |--------|------|
-| Consolidate | New section obsoletes scattered pre-existing discussion — add cross-references and trim |
+| Record in report as "overlap noted, no action" | Evidence is too tangential, too weak, or too preliminary to justify any edit |
+| Explicit reason required | e.g., "mechanism overlap is lexical only (same gene name, unrelated pathway)," "incoming certainty 0.20 — below edit threshold," "pre-existing claim already cites stronger evidence" |
 
-### Certainty Adjustment Guidelines
+### Certainty Adjustment Table
 
-| Bump | Condition |
-|------|-----------|
-| +0.10 | Direct ME/CFS replication of the exact mechanism |
-| +0.05 | External validation of the general principle (large-scale, different lab, top journal) |
-| +0.05 | Multiple independent lines of evidence now converge |
-| 0 (no change) | New evidence is consistent but adds no independent validation (same lab, same cohort, re-analysis) |
-| −0.05 | New evidence partially contradicts (different direction, smaller effect) |
-| −0.10 | New evidence directly contradicts (null replication, opposite finding) |
-| −0.15+ | New evidence refutes the mechanism (failed replication in larger/better study) |
+**All adjustments gated on incoming evidence certainty ≥ 0.60.** Adjustments are per-cycle; cumulative totals tracked in the planning file.
 
-### Specific Targets (non-exhaustive checklist)
+| Adj | Condition | Incoming evidence must be |
+|-----|-----------|--------------------------|
+| +0.10 | Direct ME/CFS replication of exact mechanism (n ≥ 50, pre-registered or independent lab) | certainty ≥ 0.70 |
+| +0.05 | External validation of the general principle (large-scale, different lab, top journal; non-ME/CFS population acceptable) | certainty ≥ 0.60 |
+| +0.05 | Multiple independent lines now converge — at least one must be human data, at least two must be from different labs | certainty ≥ 0.60 per line |
+| 0 | New evidence is consistent but adds no independent validation (same lab, same cohort, re-analysis, or incoming certainty < 0.40) | — |
+| −0.05 | Partial contradiction (different direction, smaller effect, or cross-disease mismatch) | certainty ≥ 0.60 |
+| −0.10 | Direct contradiction (null replication, opposite finding, comparable sample size) | certainty ≥ 0.60 |
+| −0.15+ | Refutation by superior study (larger n, better design, higher-tier journal) | certainty ≥ 0.70 |
 
-- [ ] Pre-existing hypothesis environments touching the same mechanism → add cite, re-evaluate certainty
-- [ ] Pre-existing speculation environments → add cite, re-evaluate speculative → hypothesis threshold (0.45)
-- [ ] Pre-existing open-question environments → update if new evidence partially answers
-- [ ] Pre-existing limitation environments → update if new evidence addresses the limitation
-- [ ] Drug mentions in the same domain → add mechanistic rationale citation
-- [ ] "No data exist" / "untested" statements → update if new evidence is relevant (even partial)
-- [ ] Biomarker "no validated marker" laments → note if new evidence provides a candidate pathway
-- [ ] ch02 PSG discrepancy discussion → reference cross-modal coupling if new evidence explains the gap
-- [ ] Hypothesis registry entries in overlapping domain → add cite, re-evaluate certainty, update status
-- [ ] Treatment tables / intervention recommendations → add coupling-matched or contraindication notes
-
-### Execution Protocol
-
-1. **Generate search terms** from Phase 1–2 findings — key mechanism names, drug names, symptom domains
-2. **Search** with `grep` across all `.typ` files for each term
-3. **Read context** around each match (at least 10 lines before/after)
-4. **Determine overlap** — does the pre-existing claim engage with the same mechanism/domain?
-5. **Apply adaptation** per the rules above — minimal, surgical edits
-6. **Record every change** with file, line, what changed, and why
+**Cumulative guards:**
+- No claim exceeds certainty 0.95, regardless of supporting evidence.
+- No claim drops below 0.10 in a single cycle from Phase 4b adjustments alone.
+- If a claim has been bumped 3+ times across prior cycles, each subsequent +0.05 bump requires ≥ 0.70 incoming certainty (diminishing returns).
 
 ### Report
 
 ```
-Phase 4b complete: N pre-existing environments adapted
-  Reinforcement: R edits (C certainty bumps, K citation inserts, X cross-refs, D "no data" updates)
-  Contradiction: T edits (Q certainty reductions, P competing notes, U unresolved tensions flagged)
-  Ambiguous: A edits
-  Redundancy: Z consolidations
+Phase 4b complete: M matches examined, N adapted
+  Reinforcement:  R edits (C certainty bumps — specify ME/CFS vs general-population source)
+  Contradiction:  T edits (Q reductions, L removals, U tensions flagged)
+  Ambiguous:      A edits
+  No action:      S overlaps deferred (reasons summarized)
+  Truncated:      K matches unexamined (if budget exceeded)
+
+Coverage: N adapted / M examined (if M < total grep hits, note remaining)
 ```
 
-Add a row to the Phase 0 tracking table: `4b | N pre-existing claims adapted (R reinforced, T corrected, A ambiguous)`
+Add to Phase 0 tracking: `4b | M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred)`
 
 ---
 
