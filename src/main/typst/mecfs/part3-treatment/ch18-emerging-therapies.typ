@@ -259,3 +259,63 @@ Petrov's finding of reduced CD80 on M1-like monocytes could represent either: (a
 
 *Implementation requirement:* A validated autoantibody panel measuring both GPCR and tissue-specific antibodies (see Section @sec:immunological-biomarkers for the multi-tissue panel proposal) is a prerequisite for stratification. Without such a panel, stratification is speculative. @Tatai2026TSAutoantibodies.
 ] <hyp:severity-stratified-immunomodulation>
+
+== NET-Targeting Therapies
+
+Recent evidence from COVID-19 and long COVID research implicates neutrophil extracellular trap (NET) dysregulation as a post-viral thrombo-inflammatory mechanism with potential therapeutic implications for ME/CFS (Chapter @ch:immune-dysfunction). The core pathology—impaired NET degradation due to reduced DNase activity, pDC deficiency, and/or genetic susceptibility—suggests two complementary therapeutic strategies: enhancing NET clearance and inhibiting excessive NET formation. All approaches described below are investigational; none have been tested in ME/CFS or long COVID.
+
+=== Recombinant DNase I (Dornase Alfa)
+
+#speculation(title: [Recombinant DNase I to Restore NET/DNase Balance])[
+*(Certainty: 0.20.)* Recombinant human DNase I (dornase alfa, Pulmozyme) is FDA-approved for cystic fibrosis, where it cleaves extracellular DNA in airway mucus to reduce viscosity. Its mechanism—cleaving the DNA backbone of NETs to promote their clearance—is directly applicable to the NET/DNase imbalance identified in severe COVID-19 by Garcia et al. @GarciaLabroucheColomer2024, where functional DNase deficiency drives NET accumulation and thrombo-inflammation. Preclinical support: DNase I treatment reduced multi-organ injury in SARS-CoV-2-infected mice @Veras2023. However, NET degradation releases DAMPs (histones, MPO, proteases) that are themselves pro-inflammatory, and systemic DNase administration in non-CF populations has not been studied for safety or efficacy.
+
+*Expected time to response:* Hours–days (pharmacokinetic clearance of circulating NETs). The CF experience suggests onset within 2 weeks for mucus effects; systemic NET clearance time course is unknown.
+
+*Monitoring parameters:* NET remnant levels (MPO-DNA, H3cit), D-dimer, calprotectin, inflammatory markers (CRP, IL-6), DNase activity assay.
+
+*Stopping criteria:* Anaphylaxis, haemoptysis (CF warning), paradoxical inflammatory flare (NET degradation releasing DAMPs), no NET marker reduction after 4 weeks.
+
+*Drug interactions (ME/CFS co-prescriptions):* No known interactions with fludrocortisone, midodrine, LDN, mestinon, beta-blockers, or antihistamines, but systemic use in non-CF populations is entirely novel. Nebulised formulation may not achieve adequate systemic bioavailability for vascular NET clearance; IV/inhaled comparative PK data needed.
+
+*Severe/very-severe patients:* No data. CF safety data from chronic use are reassuring but patients have normal (not depleted) DNase physiology. Risk of paradoxical inflammation in already-symptomatic patients is unknown.
+
+*Key prediction:* ME/CFS patients with documented NET/DNase imbalance (elevated NET/DNase ratio) receiving dornase alfa show reduced circulating NET markers at 4 weeks compared to baseline. Falsified if NET markers unchanged despite confirmed DNase deficiency—suggesting NETs are tissue-sequestered (microclots, endothelium) and inaccessible to circulating enzyme.
+] <spec:dnase-i-therapy>
+
+=== PAD4 Inhibition
+
+#speculation(title: [Disulfiram as PAD4 Inhibitor to Suppress NET Formation])[
+*(Certainty: 0.15.)* Disulfiram, FDA-approved for alcohol use disorder, inhibits peptidyl arginine deiminase 4 (PAD4), the enzyme required for histone citrullination during NETosis. By blocking PAD4, disulfiram could prevent new NET formation, complementing DNase-mediated clearance of existing NETs. However, disulfiram has significant toxicity (hepatotoxicity, peripheral neuropathy) and NET inhibition may impair anti-pathogen immunity—a particular concern in ME/CFS where innate immune function is already suppressed. The risk-benefit profile is unfavourable for a mechanism with only indirect relevance to ME/CFS.
+
+*Contraindications for bedbound patients:* Hepatotoxicity risk is unacceptable for patients who cannot be easily monitored with regular LFTs.
+
+*Key prediction:* PAD4 inhibition should reduce H3cit formation ex vivo in ME/CFS neutrophils. Falsified if disulfiram does not reduce NET-specific markers despite confirmed PAD4 binding.
+
+*Limitation:* Disulfiram is not a selective PAD4 inhibitor (off-target effects abundant). No human NETosis prevention data exist.
+] <spec:pad4-inhibition-netosis>
+
+=== Metabolic NETosis Modulation
+
+#speculation(title: [Metformin for Insulin-Driven NETosis Reduction])[
+*(Certainty: 0.20.)* Sanhueza et al. @Sanhueza2026NETosisIR demonstrated that post-infectious insulin resistance drives NETosis independently of glucose in long COVID (n=60 prospective cohort). Metformin activates AMPK, inhibiting mTOR—a pathway required for NETosis—while simultaneously improving insulin sensitivity. This dual mechanism (insulin sensitization + direct AMPK-mediated NET suppression) makes metformin a candidate for reducing metabolic-NETosis in ME/CFS, though no ME/CFS data exist.
+
+*Expected time to response:* Weeks (metabolic remodelling + insulin sensitization requires sustained AMPK activation).
+
+*Starting dose for severe patients:* 250 mg once daily (well below standard 500–850 mg BID; ME/CFS GI sensitivity common).
+
+*Monitoring parameters:* HOMA-IR, fasting insulin, NET markers, GI tolerability, B12 (metformin depletes).
+
+*Stopping criteria:* Intolerable GI symptoms, no change in HOMA-IR after 12 weeks, lactic acidosis (rare, less than 10 per 100,000 patient-years).
+
+*Contraindications for bedbound patients:* GI side effects may be intolerable in patients with pre-existing nausea. Lactic acidosis risk theoretical but severe.
+] <spec:metformin-netosis>
+
+== Microclot and NET Structural Interventions
+
+#speculation(title: [Targeting NET-Stabilised Microclots])[
+*(Certainty: 0.25.)* Thierry et al. @Thierry2025MicroclotsNETs demonstrated that NETs are structurally incorporated into microclots in long COVID, with NET markers (MPO, NE, cfDNA) colocalising with microclot cores. This suggests NET scaffolding stabilises microclots—a mechanism that would make microclots resistant to standard anticoagulants (heparin, DOACs) that target fibrin but not extracellular DNA. DNase I, by degrading the NET scaffold, could destabilise microclots without anticoagulant-associated bleeding risk—an attractive safety profile for ME/CFS patients with concurrent dysautonomia and fall risk. However, clinical microclot effects are unproven in ME/CFS, and the functional significance of microclots for symptoms is debated.
+
+*Key prediction:* In vitro incubation of ME/CFS microclots with DNase I should reduce clot size and structural integrity. Falsified if microclots are DNase-resistant (suggesting fibrin-dominant composition without NET scaffolding).
+
+*Limitation:* Microclot measurement is non-standardised; clinical significance unknown; no ME/CFS microclot-NET colocalisation data exist.
+] <spec:microclot-net-dnase>

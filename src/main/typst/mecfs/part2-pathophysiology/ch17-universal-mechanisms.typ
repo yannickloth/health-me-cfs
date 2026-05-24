@@ -141,7 +141,7 @@ Full discussion: Chapter @ch:speculative-hypotheses.
 
 - *Dendritic cell and monocyte dysfunction.* Reduced conventional and plasmacytoid DCs; altered monocyte metabolic state; impaired antigen presentation capacity.
 
-- *Neutrophil dysfunction.* Elevated neutrophil apoptosis; potential impairment of neutrophil extracellular trap (NET) formation and pathogen clearance.
+- *Neutrophil dysfunction.* Elevated neutrophil apoptosis; potential impairment of neutrophil extracellular trap (NET) formation and pathogen clearance. In post-viral contexts, imbalance between NET production and DNase-mediated NET degradation (NET/DNase dysregulation) may drive thrombo-inflammation and autoantigen generation across conditions @GarciaLabroucheColomer2024.
 
 Full discussion: @ch:immune-dysfunction.
 

@@ -2167,6 +2167,22 @@ drive further inflammation, and inflammation increases energy demand.
 Study: (mechanistic reasoning, certainty: 0.30, untested).
 ] <spec:netosis-metabolic-sink>
 
+#speculation(title: [Insulin Resistance as Bidirectional Metabolic-NETosis Driver])[
+Sanhueza et al. @Sanhueza2026NETosisIR demonstrated that 67% of patients without pre-existing glucose disorders developed _de novo_ insulin resistance (IR) at 4 months post-COVID-19, and that insulin enhances NETosis independently of glucose concentrations in vitro. This establishes a direct metabolic-immune link: post-infectious IR drives neutrophil metabolic reprogramming toward sustained NET production through glycolysis-dependent pathways. In ME/CFS, where metabolic dysfunction including impaired glucose metabolism is documented (see sections above), IR could create a self-reinforcing loop: metabolic dysfunction → IR → enhanced NETosis → thrombo-inflammation → microvascular impairment → tissue hypoxia → worsened mitochondrial function → deeper metabolic dysfunction. This loop would be distinct from—and additive to—the ATP-depletion NETosis cycle described above, as IR-driven NETosis operates through Akt/mTOR signalling rather than energy substrate depletion per se, and may persist even when cellular ATP is adequate.
+
+*Certainty: 0.35.* ME/CFS-extrapolation from COVID-19 data. Insulin resistance has been reported in ME/CFS but the causal relationship with NETosis is untested in this population.
+
+*Testable prediction:* ME/CFS patients should show IR (HOMA-IR) correlating with NET remnant levels; metformin or insulin-sensitising interventions should reduce NET markers independently of glucose changes.
+] <spec:ir-netosis-bidirectional>
+
+#speculation(title: [Exercise-Induced NETosis as PEM Amplifier])[
+Exercise increases gut permeability (translocation of LPS and bacterial products into circulation) and sympathetic activation—both potent NETosis triggers. In individuals with underlying NET/DNase imbalance (reduced DNase activity, primed neutrophils), the post-exercise NET burden may exceed degradation capacity, producing a thrombo-inflammatory surge that amplifies and prolongs post-exertional malaise beyond the direct metabolic cost of the exercise itself. This "NET amplification" model of PEM explains why brief, low-intensity exertion can produce multi-day symptom exacerbations: the NET burden is not proportional to exercise duration (minutes of exertion → hours of NETosis → days of clearance). The model also predicts delayed-onset PEM: NET formation peaks 2–4 hours after stimulation, consistent with the PEM latency documented in ME/CFS.
+
+*Certainty: 0.25.* No exercise-NETosis data exist in ME/CFS. Exercise-induced NETosis is well-documented in healthy populations but the PEM amplification hypothesis is untested.
+
+*Testable prediction:* ME/CFS patients should show elevated NET markers (MPO-DNA, H3cit) at 4–24h post-CPET, correlating with PEM severity; healthy controls should show minimal or no NET elevation.
+] <spec:exercise-pem-netosis>
+
 #limitation(title: [Selective Energy Dysfunction: Preserved Processes Not Formally Documented])[
 The “selective vs.\ global” energy dysfunction distinction rests on clinical observation that hair growth, nail growth, and other autonomous processes are preserved in ME/CFS. Formal documentation of these preserved processes is lacking — the claim derives from patient self-reports and clinical impression, not from controlled measurement. Processes classified as “preserved” also have much lower absolute energy demands than those classified as “impaired,” meaning a moderate global energy deficit could produce the same clinical pattern without any selectivity mechanism.
 

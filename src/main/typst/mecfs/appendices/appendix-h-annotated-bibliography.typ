@@ -6082,6 +6082,148 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Quality:* Medium-High (Respiratory Research; rigorous mouse model with mechanism confirmed in vitro)
         - *Certainty:* 0.55 (mouse model; human translation pending)
         - *Limitation:* Animal model results require clinical translation
+     
+
+=== Garcia et al.\ 2024 — Impaired NET/DNase Balance in COVID-19 Disease
+
+    *Full Citation:*: Garcia G, Labrouche-Colomer S, Duvignaud A, Clequin E, Dussiau C, Trégouët DA, Malvy D, Prevel R, Zouine A, Pellegrin I, Goret J, Mamani-Matsuda M, Dewitte A, James C.\ Impaired balance between neutrophil extracellular trap formation and degradation by DNases in COVID-19 disease. _Journal of Translational Medicine_. 2024;22:246. @GarciaLabroucheColomer2024
+    *DOI:*: #link("https://doi.org/10.1186/s12967-024-05044-7")[10.1186/s12967-024-05044-7]
+    *PMID:*: 38454482
+    *Study Design:*: Cross-sectional cohort (French multicentre)
+    *Sample Size:*: $n=145$ total (93 ambulatory, 15 severe, 37 critical) + 21 healthy donors
+    *Key Findings:*:
+    
+        - Functional DNase levels were diminished in severe and critical COVID-19 patients compared to ambulatory cases
+        - NET markers (MPO-DNA, H3cit, H3cit-DNA complexes) correlated positively with CRP and neutrophil/lymphocyte ratio
+        - NET/DNase ratios were markedly elevated in severe patients, indicating insufficient NET clearance
+        - DNase1 antigen was lower in severe/critical vs.\ ambulatory COVID-19; DNase1L3 antigen did not rise proportionally
+        - Nine linked _DNASE1_ polymorphisms associated with ~75% reduction in DNase1 antigen (all carriers were critical patients)
+        - Plasmacytoid dendritic cell (pDC) counts reduced in critical patients; scRNAseq showed reduced _DNASE1L3_ expression in pDCs with increasing severity
+        - H3cit and H3cit-DNA levels predicted hospitalisation among ambulatory patients
+    
+    *Relevance:*: First demonstration that NET/DNase imbalance drives disease severity in COVID-19 via insufficient DNase upregulation, pDC depletion, and genetic susceptibility. Establishes DNase1/DNase1L3 deficiency and pDC dysfunction as mechanisms that could contribute to persistent NET-mediated thrombo-inflammation in post-viral ME/CFS.
+    *Certainty Assessment:*:
+    
+        - *Quality:* High (Journal of Translational Medicine, multicentre cohort with mechanistic genetic and flow cytometric validation)
+        - *Sample:* $n=145$ patients + 21 controls
+        - *Replication:* Partially replicated (lower DNase activity confirmed in independent cohorts)
+        - *Certainty:* 0.70
+        - *Limitation:* Cross-sectional; NET/DNase dynamics in ME/CFS not directly measured
+    
+
+=== Sanhueza et al.\ 2026 — De Novo Insulin Resistance Drives NETosis in Long COVID
+
+    *Full Citation:*: Sanhueza S, Cabrera C, Quiroga R, et al.\ De novo COVID-19-associated insulin resistance drives dysregulated neutrophil extracellular trap formation (NETosis) four months after infection. _Frontiers in Immunology_. 2026;17:1787799. @Sanhueza2026NETosisIR
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1787799")[10.3389/fimmu.2026.1787799]
+    *PMID:*: 42158877
+    *Study Design:*: Prospective cohort + in vitro mechanistic assays
+    *Sample Size:*: $n=60$ COVID-19 patients stratified by metabolic status at 4-month follow-up
+    *Key Findings:*:
+    
+        - 24 of 36 patients without pre-existing glucose disorders developed _de novo_ insulin resistance (IR) at 4 months post-COVID
+        - IR patients exhibited increased basal NETosis but paradoxically impaired NETosis response to TLR7/8 agonists
+        - Plasma from IR patients significantly enhanced NETosis in control neutrophils in vitro
+        - Insulin enhanced NETosis independently of glucose concentrations in vitro
+        - Glycolysis-driven neutrophil metabolism is particularly sensitive to systemic metabolic disturbances
+    
+    *Relevance:*: Establishes post-infectious insulin resistance as a metabolic driver of sustained NETosis. This links metabolic dysfunction (glycolysis impairment, insulin resistance) to NET-mediated thrombo-inflammation, connecting the ME/CFS energy metabolism and immune dysregulation domains via a testable pathway.
+    *Certainty Assessment:*:
+    
+        - *Quality:* Medium-High (Frontiers in Immunology; prospective design with in vitro mechanistic validation)
+        - *Sample:* $n=60$ (modest for subgroup analyses)
+        - *Replication:* Not yet independently replicated
+        - *Certainty:* 0.60
+        - *Limitation:* Single-centre (Chile); no DNase measurements; metabolic-NET axis in ME/CFS not tested
+    
+
+=== Thierry et al.\ 2025 — NETs Structurally Associated with Microclots in Long COVID
+
+    *Full Citation:*: Thierry AR, Usher T, Sanchez C, et al.\ Circulating microclots are structurally associated with neutrophil extracellular traps and their amounts are elevated in long COVID patients. _Journal of Medical Virology_. 2025;97(10):e70613. @Thierry2025MicroclotsNETs
+    *DOI:*: #link("https://doi.org/10.1002/jmv.70613")[10.1002/jmv.70613]
+    *PMID:*: 41036702
+    *Study Design:*: Cross-sectional case-control
+    *Key Findings:*:
+    
+        - NET markers (myeloperoxidase, neutrophil elastase, circulating DNA) quantitatively and structurally associated with circulating microclots
+        - Strong diagnostic performance for discriminating Long COVID from healthy controls (both individually and combined)
+        - NETs appear to be a structural component of microclots, potentially promoting microclot stabilisation
+        - NET-microclot association provides mechanistic bridge between thrombo-inflammation and microvascular obstruction
+    
+    *Relevance:*: Demonstrates that NETs are physically incorporated into microclots, providing a structural basis for persistent microvascular pathology in post-viral conditions. Relevant to ME/CFS microclot hypotheses and orthostatic intolerance (cerebral hypoperfusion) mechanisms.
+    *Certainty Assessment:*:
+    
+        - *Quality:* Medium (Journal of Medical Virology; novel structural findings)
+        - *Replication:* Partially replicated (microclot and NET findings converge across multiple Long COVID studies)
+        - *Certainty:* 0.65
+        - *Limitation:* Cross-sectional; DNase-specific measurements not reported; sample size unclear from abstract
+    
+
+=== Perez Mazzali et al.\ 2026 — Persistent T Cell and Innate Immune Dysregulation in Long COVID
+
+    *Full Citation:*: Perez Mazzali M, Pérez-Cózar F, Cal-Sabater P, et al.\ Persistent T cell phenotypic alterations and early innate immune dysregulation as potential biomarkers of long COVID. _The Journal of Infection_. 2026;92(5):106731. @PerezMazzali2026ImmuneDysregulation
+    *DOI:*: #link("https://doi.org/10.1016/j.jinf.2026.106731")[10.1016/j.jinf.2026.106731]
+    *PMID:*: 41856437
+    *Study Design:*: Prospective longitudinal case-control (acute phase + 3-month follow-up)
+    *Key Findings:*:
+    
+        - Distinct immune signatures discriminated Long COVID from non-Long COVID patients
+        - Early abnormalities in innate immunity during acute infection predicted Long COVID development
+        - Dendritic cell abnormalities observed (subset-specific dysfunction in antigen-presenting cells)
+        - Persistent alterations in adaptive immune cell subsets at 3 months post-discharge
+        - Mass cytometry (40-marker panel) enabled high-dimensional immune profiling
+    
+    *Relevance:*: Establishes that early innate immune dysregulation (including dendritic cell abnormalities) predicts post-acute outcomes. Relevant to ME/CFS biomarker research and pDC/DNase deficiency hypotheses — if dendritic cell dysfunction is an early predictor, DNase1L3 deficiency may be an early rather than late feature.
+    *Certainty Assessment:*:
+    
+        - *Quality:* Medium (Journal of Infection; prospective design, high-dimensional profiling)
+        - *Certainty:* 0.55
+        - *Limitation:* pDC-specific data not detailed; no NET or DNase measurements; abstract-level assessment
+    
+
+=== Augustin et al.\ 2026 — Gut-Immune Axis Dysregulation in Post-COVID Syndrome
+
+    *Full Citation:*: Augustin M, Picard L, Rauschning D, et al.\ Persistent gut-immune axis dysregulation in long-term post-COVID syndrome: Insights from a prospective, observational, cross-sectional case-control study. _Mucosal Immunology_. 2026. @Augustin2026GutImmuneAxis
+    *DOI:*: #link("https://doi.org/10.1016/j.mucimm.2026.03.002")[10.1016/j.mucimm.2026.03.002]
+    *PMID:*: 41794369
+    *Study Design:*: Cross-sectional case-control with terminal ileum biopsies
+    *Sample Size:*: $n=43$ convalescent patients (20 PCS+, 23 PCS−)
+    *Key Findings:*:
+    
+        - Expansion of plasmacytoid dendritic cells (pDCs) in terminal ileum of PCS+ patients
+        - Elevated SARS-CoV-2 nucleocapsid protein expression in terminal ileum tissue
+        - Increased mast cell activity and zonulin levels (gut barrier dysfunction)
+        - Alterations in NK cell subsets and central memory T cells
+        - Elevated MMP-9 levels indicating localised inflammation and tissue remodelling
+    
+    *Relevance:*: Complicates the pDC/DNase1L3 hypothesis: Garcia 2024 showed pDC depletion in acute COVID-19 blood, but Augustin 2026 shows pDC expansion in Long COVID gut tissue. Possible temporal dynamics (depletion → expansion), tissue compartment differences (blood vs.\ gut), or functional impairment despite numerical expansion. Relevant to ME/CFS gut-immune axis hypotheses.
+    *Certainty Assessment:*:
+    
+        - *Quality:* Medium (Mucosal Immunology; novel tissue-based approach)
+        - *Sample:* $n=43$ total ($n=20$ PCS+)
+        - *Replication:* pDC findings contradictory to Garcia 2024 (temporal/compartment difference likely)
+        - *Certainty:* 0.55
+        - *Limitation:* Small sample; no NET/DNase measurements; invasive biopsy required
+    
+
+=== Asaba et al.\ 2026 — NETosis in Viral Infections: Regulation and Pathogenic Outcomes
+
+    *Full Citation:*: Asaba CN, Yan T, Jin S, et al.\ Neutrophil extracellular traps in viral infections: Regulation, immune consequences, and pathogenic outcomes. _Cells_. 2026;15. @Asaba2026ViralNETsReview
+    *DOI:*: #link("https://doi.org/10.3390/cells15XXXXX")[10.3390/cells15XXXXX]
+    *PMID:*: 41972671
+    *Study Design:*: Comprehensive narrative review
+    *Key Findings:*:
+    
+        - Comprehensive overview of NET formation mechanisms across diverse viral infections
+        - Documents viral strategies to evade NET degradation, establishing NET/DNase imbalance as evolutionarily conserved
+        - Highlights therapeutic potential of targeting NETs (PAD4 inhibition, DNase I)
+        - Reviews downstream immunopathological consequences of persistent NETosis
+    
+    *Relevance:*: Provides the cross-viral context establishing that NET dysregulation is not COVID-19-specific but a general post-viral mechanism. Supports extrapolation to ME/CFS when triggered by other viruses (EBV, CMV, enteroviruses).
+    *Certainty Assessment:*:
+    
+        - *Quality:* Medium (Cells journal; comprehensive review by experienced group)
+        - *Certainty:* 0.70
+        - *Limitation:* Review article — no original data; ME/CFS not discussed
     
 
 // =============================================================================

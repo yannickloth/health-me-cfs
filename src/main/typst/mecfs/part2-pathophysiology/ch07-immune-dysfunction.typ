@@ -232,7 +232,7 @@ Neutrophils in ME/CFS demonstrate reduced migration toward chemoattractants, wit
 
 NETs are web-like chromatin structures extruded by neutrophils to trap and kill pathogens; their formation is termed NETosis. While NETs serve an antimicrobial function, excessive or dysregulated NETosis drives thrombo-inflammation, coagulopathy, and autoimmunity. ME/CFS patients show altered NET formation, which may contribute to the chronic inflammatory state and autoimmune features of the condition .
 
-Recent evidence from COVID-19 and long COVID research reveals a specific dysregulation: impaired _NET degradation_ rather than (or in addition to) excessive NET formation. In severe COVID-19, neutrophil-derived protease inhibitors and reduced plasmacytoid dendritic cell (pDC) counts diminish circulating DNase1L3, a serum enzyme that degrades NETs @GarciaLabroucheColomer2024. This creates an imbalance: “Elevated NET markers and reduced functional DNases are risk factors for COVID-19 severity,” and genetic polymorphisms in _DNASE1_ limit DNase production, perpetuating NET accumulation @GarciaLabroucheColomer2024. The consequence is persistent NET-mediated thrombo-inflammation: in vitro, sera from severe COVID-19 patients induced elevated NET formation in control neutrophils, positively associated with IL-1$beta$, IFN-$gamma$, and IL-6 @Romano2022. Remarkably, breakthrough infections (in vaccinated individuals) also showed elevated NETosis despite mild clinical disease, indicating “dysregulated immune response decoupled from pathogen load” @Romano2022—a pattern that parallels the immune activation seen in ME/CFS despite minimal ongoing infection.
+Recent evidence from COVID-19 and long COVID research reveals a specific dysregulation: impaired _NET degradation_ rather than (or in addition to) excessive NET formation. Garcia et al. @GarciaLabroucheColomer2024 demonstrated that in severe and critical COVID-19, functional DNase levels—the enzymatic activity that degrades NETs—were significantly diminished compared to ambulatory patients ($n=145$, multicentre French cohort), while NET markers (MPO-DNA, H3cit, H3cit-DNA complexes) rose proportionally with disease severity. The NET/DNase ratio was markedly elevated in the most severe patients and correlated with CRP and neutrophil/lymphocyte ratio—indicating that the imbalance itself, rather than NET production alone, drives clinical deterioration. This imbalance has two upstream mechanisms: (1) reduced plasmacytoid dendritic cell (pDC) counts in critical patients, which impair production of DNase1L3 (the primary serum NET-degrading enzyme expressed predominantly by pDCs), with single-cell RNAseq confirming reduced _DNASE1L3_ expression per pDC with increasing severity; and (2) genetic polymorphisms—nine linked _DNASE1_ variants associated with ~75% reduction in DNase1 antigen in carriers, all three of whom were critical patients—that constitutionally limit DNase production, perpetuating NET accumulation @GarciaLabroucheColomer2024. The consequence is persistent NET-mediated thrombo-inflammation: in vitro, sera from severe COVID-19 patients induced elevated NET formation in control neutrophils, positively associated with IL-1$beta$, IFN-$gamma$, and IL-6 @Romano2022. Remarkably, breakthrough infections (in vaccinated individuals) also showed elevated NETosis despite mild clinical disease, indicating “dysregulated immune response decoupled from pathogen load” @Romano2022—a pattern that parallels the immune activation seen in ME/CFS despite minimal ongoing infection. Certainty: 0.70 (multicentre cohort, robust mechanistic design; not yet ME/CFS-specific).
 
 The thrombo-inflammatory consequences are substantial: NET-elevated patients showed elevated D-dimer (coagulation activation marker; mean 503 ng/mL in severe cases) and lactate dehydrogenase, indicating tissue damage and microthrombi formation @Romano2022. This NET-driven coagulation dysregulation may explain ME/CFS features such as orthostatic intolerance (if microthrombi reduce cerebral perfusion), post-exertional malaise (reduced microvascular oxygen delivery), and cognitive dysfunction. Furthermore, NETosis-mediated mechanisms persist in long COVID, where substantial organ damage occurs in over 70% of infected individuals, with lasting structural remodeling (e.g., pulmonary scarring, fibrosis) rather than reversible functional impairment @Ewing2024.
 
@@ -247,7 +247,15 @@ Krinsky et al. @Krinsky2023 measured NETosis induction capacity across 177 COVI
 Study: ($n=177$ + 54 controls, two-centre cohort, Journal of Thrombosis and Haemostasis, certainty: 0.75, partially replicated).
 ] <ach:krinsky2023-netosis-long-covid>
 
-Neutrophil extracellular trap formation is directly triggered by viral infections through both pattern-recognition receptor activation and cytokine-mediated pathways @Schonrich2016, providing a mechanistic bridge between acute viral illness and the sustained neutrophil dysfunction observed in ME/CFS @Romano2022 @Krinsky2023 @Monsalve2025. Notably, herpesviruses implicated in ME/CFS triggering (EBV, CMV) are among the established viral NETosis inducers @Schonrich2016.
+Neutrophil extracellular trap formation is directly triggered by viral infections through both pattern-recognition receptor activation and cytokine-mediated pathways @Schonrich2016, providing a mechanistic bridge between acute viral illness and the sustained neutrophil dysfunction observed in ME/CFS @Romano2022 @Krinsky2023 @Monsalve2025. Notably, herpesviruses implicated in ME/CFS triggering (EBV, CMV) are among the established viral NETosis inducers @Schonrich2016. A recent comprehensive review confirms that NET dysregulation is not COVID-19-specific but a general post-viral mechanism, with conserved viral strategies to evade NET degradation across multiple viral families @Asaba2026ViralNETsReview, supporting extrapolation to ME/CFS regardless of triggering pathogen.
+
+#speculation(title: [NET-Microclot Structural Association as Persistence Mechanism])[
+NETs are not merely soluble thrombo-inflammatory mediators—they are physically incorporated into circulating microclots. Thierry et al. @Thierry2025MicroclotsNETs demonstrated that NET markers (myeloperoxidase, neutrophil elastase, circulating DNA) are quantitatively and structurally associated with microclots in long COVID patients, with strong diagnostic performance for discriminating patients from controls. NETs appear to be a structural component promoting microclot stabilisation, providing a mechanistic bridge between thrombo-inflammation and persistent microvascular obstruction.
+
+*Certainty: 0.30 (ME/CFS extrapolation).* Microclots have been reported in ME/CFS (Chapter @ch:cardiovascular) but their structural composition (including NET content) has not been directly examined. If NETs stabilise microclots, DNase I therapy could degrade the NET scaffold and destabilise microclots—a mechanism distinct from anticoagulation that would not increase bleeding risk.
+
+*Testable prediction:* ME/CFS microclots should contain MPO and NE by immunofluorescence; DNase I treatment should reduce microclot stability in vitro.
+] <spec:net-microclot-association>
 
 #hypothesis(title: [NETosis as Bridge from Acute Viral Infection to Chronic Autoimmunity])[
 Monsalve et al. @Monsalve2025 propose that excessive NETosis following SARS-CoV-2 infection generates persistent autoantigenic stimuli—citrullinated histones, extracellular DNA, and NET-associated proteins—that activate NLRP3 inflammasome pathways and sustain IL-1$beta$/IL-18 release characteristic of long COVID. Under this model, impaired NET clearance (reduced DNase activity or persistent neutrophil priming) creates a self-amplifying loop linking the acute viral trigger to chronic autoimmune-like pathology indistinguishable from primary autoimmune disease.
@@ -257,6 +265,32 @@ Monsalve et al. @Monsalve2025 propose that excessive NETosis following SARS-CoV
 *Treatment implication:* PAD4 inhibitors (reducing NET citrullination) and recombinant DNase I (enhancing NET clearance) represent mechanistically grounded therapeutic targets that could be tested in ME/CFS NETosis-positive subgroups.
 Study: (systematic review, certainty: 0.70, synthesises findings across multiple groups).
 ] <hyp:monsalve2025-nets-autoimmunity>
+
+#speculation(title: [Insulin Resistance as a Metabolic Driver of Persistent NETosis])[
+Sanhueza et al. @Sanhueza2026NETosisIR demonstrated that 24 of 36 (67%) patients without pre-existing glucose disorders developed _de novo_ insulin resistance at 4 months post-COVID. Insulin-resistant patients exhibited increased basal NETosis, and their plasma significantly enhanced NETosis in control neutrophils in vitro. Insulin enhanced NETosis independently of glucose concentrations, establishing a direct metabolic-immune mechanism: post-infectious insulin resistance drives neutrophil metabolic reprogramming toward sustained NET production through glycolysis-dependent pathways.
+
+*Certainty: 0.35 (ME/CFS extrapolation).* ME/CFS patients have documented metabolic disturbances including impaired glucose metabolism and mitochondrial dysfunction (Chapter @ch:energy-metabolism). Post-infectious insulin resistance could create a self-reinforcing loop: metabolic dysfunction → enhanced NETosis → thrombo-inflammation → microvascular impairment → worsened tissue hypoxia → deeper metabolic dysfunction. This connects the energy metabolism and immune dysregulation domains via a testable pathway that has not been examined in ME/CFS.
+
+*Testable prediction:* ME/CFS patients should show insulin resistance correlating with NET remnant levels; metformin or insulin-sensitising interventions should reduce NET markers.
+Study: ($n=60$, prospective cohort, Frontiers in Immunology, certainty: 0.60, not yet independently replicated).
+] <spec:insulin-resistance-netosis>
+
+#speculation(title: [pDC Temporal Dynamics: Acute Depletion, Chronic Expansion])[
+A critical unresolved tension exists in the pDC/NET literature: Garcia et al. @GarciaLabroucheColomer2024 showed pDC depletion in acute severe COVID-19 blood associated with reduced DNase1L3, while Augustin et al. @Augustin2026GutImmuneAxis demonstrated pDC expansion in terminal ileum tissue of patients with post-COVID syndrome (PCS), alongside elevated SARS-CoV-2 nucleocapsid protein and gut barrier dysfunction. This contradiction may reflect temporal dynamics (acute depletion → chronic compensatory expansion), tissue compartment differences (blood vs. gut), or numerical expansion with functional impairment (pDCs present but not producing sufficient DNase1L3). Without longitudinal pDC data spanning acute to chronic phases, and without functional DNase1L3 activity measurements in pDCs from both compartments, the precise role of pDC dysfunction in post-viral pathology remains unclear—yet the converging evidence that DNase deficiency drives NET accumulation is consistent across both acute and chronic settings.
+
+*Certainty: 0.20.* The direction of pDC change is unresolved; the DNase deficiency conclusion is better supported.
+
+*Testable prediction:* Longitudinal tracking of blood and gut pDCs from acute COVID-19 to PCS development should show an initial blood pDC nadir followed by tissue pDC expansion, with functional DNase1L3 assays clarifying whether expanded pDCs actually produce sufficient NET-degrading enzyme.
+] <spec:pdc-temporal-dynamics>
+
+#hypothesis(title: [Early Innate Immune Dysregulation Predicts Post-Viral Outcomes])[
+Perez Mazzali et al. @PerezMazzali2026ImmuneDysregulation used mass cytometry (40-marker panel) to longitudinally profile immune cells from acute COVID-19 to 3-month follow-up, demonstrating that early abnormalities in innate immunity—including dendritic cell subset alterations—predicted which patients developed long COVID. Distinct immune signatures discriminated long COVID from recovered patients, with persistent adaptive immune cell subset alterations at follow-up. If dendritic cell dysfunction (including pDC deficits) is an early predictor of post-acute outcomes, then DNase1L3 deficiency may be an early feature rather than a late consequence of severe disease—a hypothesis that changes the temporal framing of the NET/DNase imbalance from "damage accumulates over time" to "clearance failure is established early and perpetuates damage."
+
+*Certainty: 0.35.* pDC-specific findings not detailed in this study; direct DNase measurements were not performed; abstract-level assessment.
+
+*Testable prediction:* Early pDC count and serum DNase activity at acute COVID-19 presentation should predict long COVID development at 6-month follow-up.
+Study: (prospective longitudinal, Journal of Infection, certainty: 0.55).
+] <hyp:early-immune-prediction>
 
 Aging-associated contraction of the naive lymphocyte pool specifically impairs
 SARS-CoV-2-specific CD8#super[+] T cell induction in severe COVID-19, while antibody
@@ -2063,9 +2097,8 @@ thrombo-inflammation @Krinsky2023 @Romano2022.
 show reduced NET completion rates (lower percentage of fully extruded NETs) but
 equivalent or elevated citrullinated histone release compared to healthy controls.
 
-*Treatment implication:* If confirmed, DNase I therapy @Veras2023
-would be particularly important for clearing incompletely formed NETs that the
-body cannot resolve normally.
+*Treatment implication:* If confirmed, DNase I therapy @Veras2023 would be particularly important for clearing incompletely formed NETs that the
+body cannot resolve normally; DNase deficiency documented in severe post-viral states by Garcia et al. @GarciaLabroucheColomer2024 provides mechanistic rationale for this approach.
 
 Study: (cross-paper synthesis, certainty: 0.35, untested).
 ] <hyp:frustrated-netosis>
