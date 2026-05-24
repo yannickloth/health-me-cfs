@@ -442,4 +442,9 @@ Prevents re-processing of already-integrated content.
 | https://www.mdpi.com/2077-0383/10/21/5077 | mdpi | 2026-05-20 | 2026-05-20 | bib/appendix-h — Varesi2021microbiota — Gut microbiota ME/CFS review |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10512706/ | pubmed/pmc | 2026-05-20 | 2026-05-20 | bib/appendix-h — Martin2023permeability — Gut permeability bacterial translocation |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10183837/ | pubmed/pmc | 2026-05-20 | 2026-05-20 | bib/appendix-h — Guo2023butyrate — Deficient butyrate-producing capacity |
-| https://link.springer.com/article/10.1007/s11357-026-02286-9 | springer | 2026-05-24 | — | bib/appendix-h — Tatai2026TSAutoantibodies — Tissue-specific autoantibodies in long COVID |
+| https://link.springer.com/article/10.1007/s11357-026-02286-9 | springer | 2026-05-24 | — | bib/appendix-h — Tatai2026TSAutoantibodies — Tissue-specific autoantibodies in long COVID
+| https://pubmed.ncbi.nlm.nih.gov/42158877/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — Sanhueza2026NETosisIR — NETosis insulin resistance Long COVID |
+| https://pubmed.ncbi.nlm.nih.gov/41036702/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — Thierry2025MicroclotsNETs — microclots NETs Long COVID |
+| https://pubmed.ncbi.nlm.nih.gov/41856437/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — PerezMazzali2026ImmuneDysregulation — immune dysregulation biomarkers Long COVID |
+| https://pubmed.ncbi.nlm.nih.gov/41794369/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — Augustin2026GutImmuneAxis — gut immune axis pDC Long COVID |
+| https://pubmed.ncbi.nlm.nih.gov/41972671/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — Asaba2026ViralNETsReview — NETs viral infections review |
