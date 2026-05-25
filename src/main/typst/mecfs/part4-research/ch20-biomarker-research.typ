@@ -379,7 +379,7 @@ The urinary collection window extends to 5 hours post-symptom onset (versus 1–
 
 ==== Application to Food-Triggered Mast Cell Activation
 
-For ME/CFS patients with suspected food-triggered mast cell activation (see Section [NO SUBSECTION]), paired urinary mediator testing during elimination-rechallenge protocols represents a potential diagnostic approach: collect baseline urine on a neutral day, then repeat collection 4–6 hours after a controlled food challenge. Elevated ratios in one or more mediators would support mast cell activation by the specific food. This protocol has not been prospectively validated in ME/CFS or MCAS populations, but the underlying mediator assays are clinically validated and the paired design controls for inter-individual variability @Voelker2025biomarkersmast.
+For ME/CFS patients with suspected food-triggered mast cell activation (see Section @subsec:mast-cell-biomarkers), paired urinary mediator testing during elimination-rechallenge protocols represents a potential diagnostic approach: collect baseline urine on a neutral day, then repeat collection 4–6 hours after a controlled food challenge. Elevated ratios in one or more mediators would support mast cell activation by the specific food. This protocol has not been prospectively validated in ME/CFS or MCAS populations, but the underlying mediator assays are clinically validated and the paired design controls for inter-individual variability @Voelker2025biomarkersmast.
 
 #limitation(title: [Mast Cell Mediator Biomarkers: Current Limitations])[
 Urinary mast cell mediators (NMH, LTE4, PGD#sub[2] metabolite) are not diagnostic of MCAS in isolation—they require concurrent clinical symptoms across $gt.eq$2 organ systems and treatment response for a complete MCAS diagnosis @Gulen2024mcascriteria LTE4 and PGD#sub[2] metabolites are produced by multiple immune cell types, limiting mast-cell specificity. Normal reference ranges have not been independently validated in ME/CFS populations. The paired food challenge mediator protocol described above is a proposed diagnostic approach based on established mediator assays; it has not been validated as a standalone diagnostic test for food-triggered MCAS.
@@ -1249,7 +1249,7 @@ Neopterin is produced when GTP cyclohydrolase I activity is diverted toward immu
 
 *Current limitations:* No validated clinical reference range exists for ME/CFS populations; HPLC pteridine measurement has no CPT/INAMI billing code in most countries; and elevated neopterin also occurs in renal failure, HIV, and active malignancy, creating false-positive risk in patients with these comorbidities.
 
-*Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support ([NO SUBSECTION],:bh4-recycling-support).
+*Interpretation:* High ratio = high immune activation + low BH4 = low metabolic reserve = candidate for BH4 support (Chapter @ch:supplements, Section @subsubsec:bh4-recycling-support).
 
 #speculation(title: [Neopterin:Biopterin Ratio as Architecture C Screening Biomarker])[
   *Certainty: 0.40.* If the BH4 convergent bottleneck hypothesis is correct ([NO SPECULATION]), the urinary neopterin:biopterin ratio should be elevated across ALL predisposing conditions (ADHD, ASD, hEDS, migraine), not just post-infection. This would make it a universal Architecture C screening biomarker available at ~\$30--50 per test. Biochemistry well-established; whether this ratio predicts ME/CFS risk or treatment response is untested. Not yet replicated.

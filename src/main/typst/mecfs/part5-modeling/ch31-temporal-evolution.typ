@@ -724,13 +724,13 @@ The chapter does not model _every_ temporal phenomenon in ME/CFS. Notably absent
 The connective tissue strain accumulation model (Chapter @ch:energy-metabolism-models) treats repair rate $k_"repair"$ as a constant parameter. A more realistic model recognizes that $k_"repair"$ itself degrades over time in ME/CFS, particularly in patients with connective tissue disorders, creating a slow variable that drives disease progression on timescales of years. The repair degradation follows a cumulative exposure model:
 
 $
-(d k_"repair")/(d t) = -eta dot.op ["ROS"](t) - zeta dot.op bold(C)_"pro"(t), quad k_"repair"(0) = k_"repair,0"
+frac(d k_"repair", d t) = -eta dot.op ["ROS"](t) - zeta dot.op bold(C)_"pro"(t), quad k_"repair"(0) = k_"repair,0"
 $
 
 where $eta$ is ROS-mediated repair impairment (oxidative damage to fibroblasts, mitochondrial dysfunction in connective tissue cells) and $zeta$ is inflammation-mediated repair impairment (cytokine-mediated inhibition of collagen synthesis, increased collagen degradation). Both processes reduce the capacity to repair cumulative strain, shifting the PEM activation threshold $theta_"PEM"$ downward over time:
 
 $
-(d theta_"PEM")/(d t) = -xi dot.op (k_"repair,0" - k_"repair"(t))
+frac(d theta_"PEM", d t) = -xi dot.op (k_"repair,0" - k_"repair"(t))
 $
 
 where $xi$ quantifies how repair capacity loss translates to threshold reduction. This dynamic threshold explains why ME/CFS becomes more severe with longer disease duration: the same cumulative strain that was below threshold at year 1 exceeds threshold at year 5 because $k_"repair"$ has degraded and $theta_"PEM"$ has dropped. The model predicts a characteristic trajectory: early disease (months 1--2) shows relatively stable thresholds with occasional PEM crashes triggered by large stressors; intermediate disease (years 2--5) shows gradual threshold decline with increasing crash frequency; late disease (years 5+) shows very low thresholds where even minor activities trigger crashes, consistent with the clinical observation that "everything seems to trigger me now" in long-term patients. Coupling this ECM trajectory with the consolidation model (Chapter @ch:integrated-systems, Section @sec:epigenetic-dynamics) creates a two-stage progression model: early stage dominated by reversible damage accumulation (repair capacity still adequate), late stage dominated by structural consolidation (irreversible threshold reduction). This transition point occurs when $k_"repair"$ falls below a critical fraction (~0.4) of initial capacity, beyond which the system cannot maintain equilibrium even under low stress.

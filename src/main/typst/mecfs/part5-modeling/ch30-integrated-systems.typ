@@ -701,7 +701,7 @@ All parameters in the neuroplasticity attractor model (@eq:neuroplasticity-attra
 The integrated model treats connective tissue as a single uniform compartment, yet clinical observations in ME/CFS with hEDS show differential symptom patterns across tissue types (vascular fragility, cervical ligament instability, joint hypermobility, skin extensibility). A multi-compartment ECM model captures this heterogeneity by assigning tissue-specific turnover rates and coupling strengths to four key compartments: vascular ($"ECM_vas"$), cervical ligament ($"ECM_cerv"$), tendon ($"ECM_tend"$), and dermal ($"ECM_derm"$). Each compartment follows coupled dynamics:
 
 $
-(d["ECM_i"])/(d t) = k_"ECM,synth"^i - k_"ECM,deg"^i dot.op ["MMP_i"] dot.op ["ECM_i"], quad i in {"vas", "cerv", "tend", "derm"}
+frac(d ["ECM_i"], d t) = k_"ECM,synth"^i - k_"ECM,deg"^i dot.op ["MMP_i"] dot.op ["ECM_i"], quad i in {"vas", "cerv", "tend", "derm"}
 $
 
 where synthesis rates $k_"ECM,synth"^i$ and MMP-dependent degradation rates $k_"ECM,deg"^i$ vary by tissue. Vascular ECM has the fastest turnover (hours to days) and is most sensitive to inflammatory MMP induction; cervical ligaments have the slowest turnover (months to years) and are most vulnerable to cumulative strain accumulation; tendons have intermediate turnover; dermal ECM is moderately fast with distinct collagen type ratios. The MMP activity $"MMP_i"$ in each compartment responds to both systemic signals (IL-6, TNF-α from the cytokine network) and local stimuli (mechanical strain $sigma_i$, mast cell activation $"MC_d"$):
