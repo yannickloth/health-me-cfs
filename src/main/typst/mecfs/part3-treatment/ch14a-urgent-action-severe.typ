@@ -1419,50 +1419,27 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 === Passive Neuromuscular Electrical Stimulation (NMES) for CNS Bypass
 <subsec:nmes-cns-bypass>
 
-#hypothesis(title: [Pharmacological Bypass of CNS Motor Coordination Failure])[
-The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction, lines 376–391, 500–509) proposes that peripheral muscle remains capable but CNS motor coordination fails. Direct electrical stimulation bypasses CNS coordination entirely, activating muscle without requiring CNS drive. This may preserve muscle function and prevent deconditioning in severely immobilized patients.
-
-*Certainty: 0.35* (0.30→0.35: NMES muscle atrophy prevention validated in ICU bed rest — general-population, mechanistic, incoming certainty 0.50–0.52). CNS-peripheral dissociation is mechanistically plausible within the selective dysfunction framework; NMES is well-established for deconditioning prevention in ICU patients, with evidence from fully sedated patients showing complete muscle atrophy prevention @Dirks2015NMES and RCT data showing NMES + PROM attenuates atrophy compared to PROM alone @Bao2022NMESICU; no direct evidence for CNS bypass mechanism in ME/CFS; extension of theoretical framework
+#limitation(title: [NMES Safety Not Established in ME/CFS — NOT a Clinical Recommendation])[
+NMES is presented here as a *hypothetical* countermeasure only. No ME/CFS-specific NMES safety or efficacy trial exists. The critical unanswered question is whether electrically-induced muscle contractions trigger PEM: if the metabolic cost of muscle activation is the PEM trigger, NMES contractions — which are metabolically indistinguishable from voluntary contractions — could trigger PEM identically to volitional exercise. Ch17 @oq:bedbound-nmes articulates this: whether even 5 minutes at the lowest visible contraction intensity in a single muscle group is tolerated is completely unknown. The protocol below reflects ICU rehabilitation parameters @Dirks2015NMES (n=6, within-subject crossover, 7 days, fully sedated patients); ME/CFS-appropriate parameters, if any exist, would need to be far lower. Contraindicated in patients with pacemakers or implanted electrical devices.
 ]
 
-#recommendation(title: [Passive NMES Protocol for Deconditioning Prevention in Severe Cases])[
+#speculation(title: [NMES as Hypothetical CNS Bypass for Muscle Preservation in Severe ME/CFS])[
 
-*Mechanism:* Neuromuscular electrical stimulation (NMES) produces muscle contractions without voluntary effort or CNS coordination. Applied passively (patient rests, device stimulates), this provides:
+*Certainty: 0.35.* (0.30→0.35). NOTE: The fundamental safety question (does NMES trigger PEM?) has not been answered — see @oq:bedbound-nmes. Any NMES use in ME/CFS is research-stage only.
 
-    - Muscle fiber recruitment without CNS energy expenditure
-    - Prevention of atrophy during extended bedrest
-    - Maintenance of mitochondrial function in muscle tissue
-    - Potential maintenance of motor unit recruitment patterns
+*Proposed rationale:* NMES produces muscle contractions without voluntary CNS coordination. In fully sedated ICU patients (n=6, within-subject crossover, 7 days), twice-daily NMES prevented quadriceps atrophy (control leg: type I --16 percent, type II --24 percent; stimulated leg: no atrophy) @Dirks2015NMES. An RCT in non-sedated ICU patients showed NMES + passive activity training attenuated atrophy more than passive training alone @Bao2022NMESICU. The selective dysfunction hypothesis (peripheral muscle capable, CNS coordination fails) provides mechanistic rationale but is unproven.
 
-*Indications:* Severe cases with extended bedrest (\>2 weeks immobilized) at risk of deconditioning and contracture.
+*Proposed protocol (research parameters only):*
+    - *Position:* Supine only. Single quadriceps group initially
+    - *Duration:* Start at 5 minutes at lowest visible contraction intensity. Escalate duration only if zero PEM at 24h and 48h post-session
+    - *Frequency:* 50 Hz
+    - *Safety:* Monitor HR during and for 1h post. Pause at any increase in orthostatic symptoms
+    - *Contraindications:* Pacemakers/implanted devices (absolute). Active PEM. Autonomic instability
+    - *Monitoring:* Symptom tracking at 24h, 48h post-session. Discontinue if PEM frequency increases
 
-*Protocol:*
+*Falsifiable prediction:* A dose-escalation pilot (n=6--10 moderate-to-severe ME/CFS) starting at 5 min NMES single quadriceps will identify a dose-response curve establishing either a therapeutic window or a universal PEM contraindication.
 
-    - *Equipment:* Seek qualified physical therapist familiar with NMES. Commercial NMES devices (Compex, BioMed) cost \$200–600. Medicare may cover if prescribed by physician for deconditioning prevention.
-
-    - *Application:* Supine position (no standing required)
-    
-        - Electrode placement: Large muscle groups (quadriceps, gluteus maximus, gastrocnemius)
-        - Frequency: 20–30 minutes daily
-        - Intensity: Submaximal (visible muscle contraction without pain)
-        - Frequency (Hz): 50 Hz optimal for endurance recruitment
-    
-
-    - *Safety monitoring:*
-    
-        - Monitor heart rate (electrical stimulation can affect autonomic tone)
-        - Avoid over-stimulation (can trigger metabolic demand and PEM)
-        - Stop if orthostatic symptoms increase following session
-        - One 20–30 min session daily; do NOT exceed without supervision
-    
-
-    - *Integration with pacing:* NMES does not ”count” as activity if passive (patient rests while stimulated). However, metabolic demand may increase. Track symptoms day-of and 24–48h post-treatment for delayed PEM.
-
-*Evidence level:* Plausible (extends midodrine bypass principle from Ch14j lines 500–509; no ME/CFS-specific NMES trials exist). NMES is well-established for deconditioning prevention in ICU and spinal injury patients.
-
-*Dosing note:* Verify with qualified physical therapist. Medical supervision recommended given autonomic vulnerability.
-
-*Falsifiable prediction:* Severe bedbound ME/CFS patients receiving passive NMES (20--30 min daily, 50 Hz, submaximal intensity, single quadriceps) for 12 weeks will show less quadriceps CSA decline (ultrasound) compared to matched bedbound controls without NMES, without PEM frequency increase.
+*Limitations:* Dirks 2015 n=6, 7 days, fully sedated — not generalizable to chronic ME/CFS. If ME/CFS muscle is intrinsically impaired via mitochondrial dysfunction independent of CNS status, NMES provides no advantage. ICU NMES evidence uses doses (twice daily, 30 min, visible contraction) that are likely excessive for any ME/CFS patient.
 
 ] <rec:nmes-severe>
 
