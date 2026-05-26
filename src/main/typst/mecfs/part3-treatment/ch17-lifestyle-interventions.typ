@@ -1283,7 +1283,7 @@ This reframing has practical clinical consequences:
     - A patient whose FUNCAP scores are declining should be assessed for *remediable causes of envelope shrinkage* (new comorbidities, medication side effects, life stressors, overexertion pattern) rather than prescribed "more exercise to build capacity."
     - A patient whose FUNCAP scores are improving should be monitored to distinguish *true envelope expansion* (sustained improvement with no PEM) from *temporary fluctuation* (good week followed by crash). Improvement that is not sustained over 2 consecutive 3-month assessments is not envelope expansion.
 
-*Falsifiable prediction:* A cohort study measuring serial FUNCAP-27 at 3-month intervals over 24 months should show that patients receiving fitness-maintenance-targeted counseling (explicit expectation of ADL stability as primary outcome) have equivalent or better 24-month FUNCAP trajectory compared to patients receiving standard pacing advice, with lower rates of "boom-bust" fluctuation pattern.
+*Falsifiable prediction:* A cohort study measuring serial FUNCAP-27 at 3-month intervals over 24 months should show that patients receiving fitness-maintenance-targeted counseling (explicit expectation of ADL stability as primary outcome) have non-inferior 24-month FUNCAP trajectory (difference ≤3 points, pre-specified non-inferiority margin) compared to patients receiving standard pacing advice, with lower rates of "boom-bust" fluctuation (operationally defined as ≥3 excursions of >10% from the patient's baseline FUNCAP score within a 12-month period). If the stability-targeted group shows worse FUNCAP trajectory (>3 points below control) or equal/higher boom-bust rate, the hypothesis is refuted.
 
 *Limitations:* FUNCAP-27 sensitivity to detect meaningful within-patient change over 3-month intervals is not established. Stability may reflect the measure's insensitivity rather than true functional stability. The approach requires a conceptual shift from "improvement" to "stability" that patients, clinicians, and outcome researchers may resist. No trial data exists for this specific reframing.
 
@@ -1303,11 +1303,68 @@ Protocol components:
     - *Monitoring for goal-behavior mismatch:* If the patient reports "trying harder" or "wanting to break through," assess whether this is driving envelope overshoot.
     - *Integration with ACT:* Acceptance and commitment therapy provides frameworks for living meaningfully within limitation, directly applicable to the fitness-maintenance acceptance challenge.
 
-*Falsifiable prediction:* Patients randomized to fitness-maintenance goal-setting (explicit stability-as-success messaging) vs. standard pacing counseling will show lower exercise-related distress (measured by a validated exercise-avoidance/anxiety scale) at 12 weeks, with equivalent or better PEM frequency.
+*Falsifiable prediction (hierarchical):* Patients randomized to fitness-maintenance goal-setting (explicit stability-as-success messaging) vs. standard pacing counseling will show: (1) primary endpoint — lower exercise-related distress at 12 weeks (measured by a validated exercise-avoidance/anxiety scale, ≥0.3 SD effect size); (2) secondary gate — PEM frequency must not increase by >20% vs. control (non-inferiority). If primary endpoint not met, hypothesis refuted regardless of secondary outcome. If primary met but PEM frequency increases >20%, hypothesis is refuted on safety grounds.
 
 *Limitations:* This is an untested psychological intervention frame. Some patients may find "acceptance of limitation" more distressing than the pursuit of improvement, even if the pursuit is futile. Cultural context matters — the fitness-improvement narrative may be more or less dominant in different healthcare systems. No ME/CFS-specific trial of this framing exists.
 
 ] <spec:fitness-acceptance>
+
+===== Cross-Disease Maintenance Protocols: Lessons from COPD and Heart Failure
+
+#speculation(title: [COPD and Heart Failure Maintenance Protocols Provide a Transferable Framework for ME/CFS Activity Management])[
+
+*Certainty: 0.50.* Cross-disease analogy is strong: both COPD and HF feature pathophysiological exercise intolerance (ventilatory limitation in COPD, cardiac output limitation in HF), and both have developed explicit maintenance-phase protocols distinct from conditioning phases. No ME/CFS-adapted protocol exists.
+
+*Rationale.* COPD pulmonary rehabilitation and heart failure exercise programs share a critical feature with ME/CFS that is absent in healthy-person exercise: exercise intolerance is *pathophysiological*, not behavioral. In COPD, ventilatory limitation prevents sustained high-intensity work; in HF, reduced cardiac output caps systemic oxygen delivery. In both fields, the recognition that capacity cannot always be increased has led to standardized maintenance protocols:
+
+- *COPD:* Puhan et al.\ (2011) demonstrated that a 12-month maintenance program (unsupervised home-based interval training at 60% peak work rate, with monthly phone coaching) preserved the gains from initial pulmonary rehabilitation better than standard care. The protocol explicitly framed maintenance — not further improvement — as the target.
+- *Heart Failure:* The HF-ACTION trial (O'Connor et al.\ 2009, n=2331) established that symptom-limited steady-state exercise — not progressive overload — stabilizes functional capacity in HFrEF, with maintenance sustained at 3-year follow-up regardless of whether patients increased training volume. The Taylor et al.\ (2014) Cochrane review of exercise-based cardiac rehabilitation confirmed that maintenance-phase programs preserve functional gains without requiring intensity progression.
+- *ICU/Acute Illness Recovery:* Post-ICU recovery protocols explicitly distinguish the *stabilization phase* (maintaining function gained during inpatient rehab) from the *recovery phase* (active improvement), recognizing that many patients plateau at a level below their pre-illness baseline.
+
+The structural elements of these protocols — interval-based rather than continuous exertion, submaximal rather than progressive intensity, scheduled rather than responsive rest, and maintenance-explicit rather than improvement-implicit framing — are directly transferable to ME/CFS, with the substitution of ME/CFS-specific limits (HR below AT, PEM tracking as the primary safety endpoint, severity-adjusted starting intensity).
+
+*Adaptation for ME/CFS.* The protocol transfer is structural, not prescriptive: adopt the protocol *architecture* of COPD/HF maintenance (interval structure, submaximal ceiling, maintenance framing, objective monitoring) and calibrate the *parameters* to ME/CFS physiology:
+- *Interval structure:* Activity bouts of 1--3 minutes followed by 3--5 minutes of rest (recumbent), substituting the COPD work/rest ratio (1:2 to 1:3) for ME/CFS-specific limits
+- *Submaximal ceiling:* Heart rate strictly below AT --10 bpm (rather than %peak work rate as used in COPD), with PEM tracking as the primary safety signal
+- *Maintenance framing:* Explicit expectation-setting that the goal is functional stability, not capacity gain — borrowed directly from COPD/HF maintenance-phase communication strategies
+- *Objective monitoring:* Continuous HR monitoring (wearable) + symptom logging at 6h, 24h, 48h post-session, analogous to the monitoring protocols used in post-ICU rehabilitation
+
+*Falsifiable prediction.* ME/CFS patients randomized to a COPD-adapted maintenance protocol (interval-based, HR-monitored, maintenance-framed) vs. standard pacing will show: (1) primary — non-inferior 12-month FUNCAP stability (difference ≤3 points); (2) secondary — ≥30% reduction in PEM frequency vs. control. The hypothesis is refuted if the protocol group shows ≥5-point FUNCAP decline vs. control, or if PEM frequency is not significantly different (regardless of FUNCAP outcome). Two mechanistic endpoints distinguish the components: % of monitored time spent above AT tests the interval-mechanism hypothesis; self-reported envelope-overshoot episodes test the framing-mechanism hypothesis.
+
+*Limitations.* The cross-disease analogy is not validated for ME/CFS. COPD and HF pathophysiology differs fundamentally from ME/CFS — the transferability of protocol architecture does not guarantee transferability of benefit. The protocol still represents active exertion that may exceed capacity in moderate-to-severe patients. No ME/CFS-adapted protocol has been trialed. The maintenance protocols in COPD/HF research still include moderate exertion levels (60--70% peak work rate) that substantially exceed safe ME/CFS thresholds — the parameters must be calibrated downward, potentially to the point where the protocol is indistinguishable from standard pacing.
+
+] <spec:cross-disease-maintenance>
+
+===== Bifurcation Model of Exercise Dose-Response in ME/CFS
+
+#speculation(title: [Exercise Dose-Response in ME/CFS Is Bifurcated: Maintenance Below Threshold, Deterioration Above])[
+
+*Certainty: 0.40.* The concept of a bifurcated dose-response curve is grounded in two-day CPET evidence but no formal mathematical model exists for this pattern in ME/CFS. Not yet replicated as a testable model.
+
+*Rationale.* Standard exercise physiology assumes a monotonic dose-response curve: more exercise → more adaptation, with a saturation plateau at high doses. The GET model was built on this assumption. Two-day CPET evidence demonstrates that this assumption is *inverted* in ME/CFS: exercise above a threshold level does not produce adaptation — it produces deterioration (5--8% declines in VO₂peak, doubling of severe impairment classification, 13+ day recovery @keller2024cpet).
+
+This can be formalized as a piecewise function where the sign of the rate of functional capacity change ($d F"/"d t$) depends on exertion level relative to the individual's PEM threshold:
+
+#pad(x: 1em)[
+- $d F"/"d t approx "maintenance\_rate"$, when exertion $lt.eq$ threshold (net benefit: movement prevents atrophy)
+- $d F"/"d t approx "deterioration\_rate"$, when exertion $>$ threshold (net harm: PEM produces functional loss)
+]
+where F = functional capacity, threshold = the individual's PEM-triggering exertion level (approximated by anaerobic threshold), maintenance_rate is preventing deconditioning loss (slow decline), and deterioration_rate reflects PEM-induced damage (rapid decline).
+
+- *Below threshold:* Movement prevents atrophy, maintains joint mobility, preserves orthostatic tolerance — the maintenance_rate is small but positive, reflecting the prevention of disuse loss. The dose-response slope is shallow and net-positive.
+- *Above threshold:* Movement triggers PEM — the deterioration_rate is larger in magnitude and net-negative, because PEM produces more functional loss than the movement prevents. The dose-response slope *flips sign*.
+- *The bifurcation point:* The AT (or PEM threshold) is the critical value where dF/dt changes sign. This is not a saturation plateau (as in healthy exercise) — it is a structural regime change from maintenance to damage.
+
+*Why this matters.* The bifurcation model explains why GET fails — it was built on a monotonic positive dose-response assumption that does not hold above the PEM threshold. It explains why pacing works — it keeps exertion below the bifurcation point, in the net-positive maintenance regime. It provides a mathematical justification for HR-based pacing thresholds. And it suggests a clinical protocol: identify the individual bifurcation point (ideally via CPET-derived AT, or via week-by-week PEM threshold tracking) and calibrate all activity to remain below it.
+
+*Relationship to existing frameworks.* This model is a mathematical formalization of the energy envelope theory @Jason2008EnergyEnvelope: the envelope is the region below the bifurcation point. The "deconditioning prevention floor" vs.\ "PEM ceiling" distinction described in the fitness-maintenance hypothesis @hyp:fitness-maintenance-distinction maps directly to the two regimes. The model does not add new physiology — it formalizes existing clinical knowledge in a testable mathematical structure.
+
+*Testable predictions.*
+1. A piecewise model (maintenance below AT, deterioration above AT) will better fit longitudinal FUNCAP-27 trajectories (R² improvement ≥0.10) than a linear dose-response model, when tested with continuous wearable HR + activity data over 24 weeks in n≥30 ME/CFS patients.
+2. The individually calibrated bifurcation point (AT or PEM threshold) will predict change in FUNCAP score at 6-month follow-up: patients spending >5% of monitored time above threshold will show significant FUNCAP decline.
+3. The bifurcation point is lower (more restrictive) in severe vs. mild patients, consistent with 2-day CPET severity-stratification data.
+
+*Limitations.* The model is conceptual. AT as the bifurcation point is an approximation — PEM may have additional determinants (cognitive load, emotional stress, cumulative sub-threshold overexertion) not captured by a single HR threshold. The piecewise function assumes a sharp bifurcation, but the transition from maintenance to deterioration may be gradual (a sigmoid rather than a step function). Individual calibration requires CPET, which many patients cannot access or tolerate. The model has not been fit to longitudinal data. $d F"/"d t$ magnitudes are unknown for any severity level.] <spec:bifurcation-model>
 
 ===== Muscle Mass and Joint Preservation in Severe/Bedbound Patients
 <subsec:muscle-preservation-bedbound>
