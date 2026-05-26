@@ -934,7 +934,7 @@ Despite exercise intolerance, complete immobility causes problems (muscle atroph
 
 *Mechanistic Rationale:* Constant body position eliminates the orthostatic demand fluctuations that drive autonomic compensation in ME/CFS/POTS. Upright-to-supine transitions require rapid blood redistribution (venous return adjustment, baroreflex-mediated HR changes), which exhausts autonomic reserve and depletes metabolic resources. Sports where body position remains constant throughout — swimming (horizontal), rowing (seated), recumbent cycling (reclined), and resistance band work (seated/supine) — reduce autonomic demand by maintaining stable hemodynamic parameters, thereby raising PEM threshold.
 
-*Cross-disease resonance:* The Leeds POTS exercise protocol (Fu et al. 2010) begins patients in recumbent positions (rowing, cycling) precisely because constant position reduces orthostatic stress, only progressing to upright activity after 12--16 weeks of recumbent training. This is not merely "resting" but actively avoiding a class of autonomic challenge that POTS patients cannot compensate for.
+*Cross-disease resonance:* The Leeds POTS exercise protocol (Fu et al. 2010 @Fu2010DallasProtocol, reviewed in @Fu2018ExercisePOTS) begins patients in recumbent positions (rowing, cycling) precisely because constant position reduces orthostatic stress, only progressing to upright activity after 12--16 weeks of recumbent training. Rowing is the protocol's starting modality alongside recumbent cycling and swimming, with 76 percent research completion and documented outcomes of +8 percent peak VO2, +12 percent cardiac size, and +7 percent blood volume — dropping to 41 percent in community settings. This is not merely "resting" but actively avoiding a class of autonomic challenge that POTS patients cannot compensate for. See also Section @subsec:land-rowing for land-based rowing as a home-accessible Tier 2 modality.
 
 *Practical application:* The constant-position principle provides a simple filtering rule for patients and clinicians: *If an activity requires getting up from the floor, transitioning from lying to standing or vice versa, or involves repeated start-stop positional changes, it carries elevated PEM risk for POTS+ME/CFS patients.* Activities to prefer include:
 
@@ -1037,6 +1037,38 @@ Unlike swimming, water rowing keeps the face above water, avoiding the breath-ho
 *Limitations:* Zero ME/CFS water rowing data — this protocol is constructed entirely from physiological first principles. Water rowing ergometers are rare outside specialized rehabilitation facilities. Transport to pool facilities may itself trigger PEM for moderate-to-severe patients. The compound metabolic demand of rowing may exceed some patients' capacity even at minimal intensity. Rowing is a learned motor skill; technique errors could increase workload beyond intended intensity. Completely untested in ME/CFS.
 
 ] <spec:water-rowing>
+
+===== Land-Based Rowing: Seated Constant-Position Compound Movement Without Water Access
+<subsec:land-rowing>
+
+#speculation(title: [Land-Based Rowing as a Tier 2 Safe Modality for POTS+ME/CFS — Leeds Protocol Precedent, No Hydrostatic Component])[
+
+*Certainty: 0.45.* Leeds/Dallas POTS protocol explicitly uses seated rowing as a starting modality @Fu2010DallasProtocol; no ME/CFS-specific rowing trial exists. Extrapolation from POTS exercise protocol evidence + constant-body-position principle. Not yet replicated in ME/CFS.
+
+Land-based rowing on an indoor water-resistance rowing machine retains the seated constant body position and compound movement distribution of water rowing while losing the hydrostatic pressure benefit. It gains home accessibility — eliminating the pool transport barrier that consumes energy envelope. The Dallas POTS protocol uses seated rowing alongside recumbent cycling and swimming as a starting modality, with documented outcomes of +8 percent peak VO2, +12 percent cardiac size, and +7 percent blood volume (76 percent research completion, 41 percent community completion @Fu2018ExercisePOTS). In the ME/CFS adaptation, the protocol's structure validates rowing as the starting tier; the ME/CFS adaptation retains rowing as the maintenance tier permanently.
+
+*Protocol:* 5--10 strokes/min, minimum water resistance, 2 min/session start, HR below 85 percent estimated AT, mandatory 5 min supine rest post-session, rollback on PEM. Water-resistance machines (WaterRower) may offer advantages over air flywheels — smoother force curve, reduced explosive motor unit recruitment, less sensory noise — but no comparative trial exists, making these theoretical inferences only.
+
+*Falsifiable prediction:* Land rowing (home-based, water-resistance, sub-AT) will show PEM incidence below 30 percent in mild-to-moderate POTS+ME/CFS over 8 weeks, non-inferior to recumbent cycling and substantially better than upright walking. If PEM exceeds 50 percent, land rowing is contraindicated at that severity.
+
+*Limitations:* Zero ME/CFS rowing data. Economic access barrier (800--1500 euros). Rowing is a learned motor skill; technique errors can increase workload without patient awareness. Intensity floor may exceed capacity for severe patients. Water-vs-air resistance advantages are theoretical only.
+
+] <spec:land-rowing>
+
+===== Land Rowing: Stroke Rate as Continuous PEM-Threshold Calibration Dial
+<subsec:rowing-stroke-rate-dial>
+
+#speculation(title: [Rowing Stroke Rate as Precision Calibration Dial for Individual PEM Threshold])[
+
+*Certainty: 0.50.* Rowing power-stroke rate kinetics well-characterized @Kleshnev2004; therapeutic window application to ME/CFS is novel inference. Not yet replicated.
+
+Rowing allows precise incremental intensity adjustment via stroke rate alone. At fixed water resistance, a 1 stroke/min change represents approximately 15--20 percent power adjustment — resolution unavailable in cycling, walking, or resistance bands. This enables a therapeutic strategy: treating stroke rate as a continuous dial to locate the individual PEM threshold from below, approaching at 1 stroke/min resolution without crossing into the deterioration regime. The optimal strategy: operate at threshold minus 1 stroke/min as the maintenance rate.
+
+*Falsifiable prediction:* Patients at calibrated threshold minus 1 stroke/min will show detectable p-AMPK activation in PBMCs 2h post-session (mitochondrial quality control signal), PEM incidence below 15 percent, and stable FUNCAP-27 at 12 weeks.
+
+*Limitations:* Zero ME/CFS titration data. Threshold may vary day-to-day with sleep, cycle, and illness. Technique errors introduce nonlinearity. One-stroke/min resolution may be insufficient if therapeutic window is narrower than this.
+
+] <spec:rowing-stroke-rate-dial>
 
 ===== Adapted Swimming for ME/CFS
 <subsec:adapted-swimming>
