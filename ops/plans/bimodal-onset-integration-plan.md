@@ -24,9 +24,9 @@
 | 3.2 | Prolactin elevation therapy | 3 | 0.15 | 🚫 | Extremely speculative; oncogenic risk; skip |
 | 3.3 | EBV vaccine precision prevention | 1 | 0.55 | ✅ | ch05-onset-patterns + ch25b |
 | 3.4 | IL-7 naive T cell replenishment | 2 | 0.20 | ✅ | ch18-experimental |
-| 4.1 | Zinc + thymulin combination | 2 | 0.25 | ✅ | ch16-supplements |
-| 4.2 | NAD+ precursors for late onset | 2 | 0.25 | ✅ | ch16-supplements |
-| 4.3 | Melatonin for thymic support | 2 | 0.25 | ✅ | ch16-supplements |
+| 4.1 | Zinc + thymulin combination | 2 | 0.30 | ✅ | ch16-supplements; cert bumped 0.25→0.30 (Phase 4c: 3 lines converge on pubertal thymic window) |
+| 4.2 | NAD+ precursors for late onset | 2 | 0.25 | ✅ | ch16-supplements; feed-into from mitochondrial reserve exhaustion |
+| 4.3 | Melatonin for thymic support | 2 | 0.30 | ✅ | ch16-supplements; cert bumped 0.25→0.30 (Phase 4c: 3 lines converge) |
 | 5.1 | Age-stratified pacing | 2 | 0.30 | ✅ | ch17-lifestyle |
 | 5.2 | Adolescent sleep optimization | 2 | 0.25 | 🚫 | Merged into 5.1 pacing concept |
 | 6.1 | Early-onset protocol | 2 | 0.20 | ✅ | ch19-integrative |
@@ -42,8 +42,13 @@
 | 9.3 | Thymic Output Index | 2 | n/a | ✅ | ch20-biomarkers |
 | 9.4 | XCI escape skewness index | 3 | n/a | 🚫 | Too speculative without validation data; merged into 1.4 |
 
-**Notes:** Core paper: McGrath2026bimodalOnset (PMID 41983041). Already in bibliography. Pre-existing integration (2026-04-16) covered achievement, clinical-finding, hypothesis, and 2 speculations in ch05 + ch14d. This cycle adds registry entries, 20 brainstorm integrations, and all validation phases.
+**Notes:** Core paper: McGrath2026bimodalOnset (PMID 41983041). Already in bibliography. Pre-existing integration (2026-04-16) covered achievement, clinical-finding, hypothesis, and 2 speculations in ch05 + ch14d. This cycle added registry entries, 20 brainstorm integrations, and all validation phases.
+
+## Phase 4a
+7 hypotheses/speculations audited (3 fully falsifiable, 2 weakly, 2 unfalsifiable). All 4 fixed with concrete predictions.
 
 ## Phase 4b
+10+ matches examined, 2 adapted (ch01 reinforcement citations). No contradictions.
 
 ## Phase 4c
+55 pairs audited. 7 reinforcement, 11 feed-into, 0 conflict, 37 independent. 2 certainty bumps: H5 0.25→0.30, H7 0.25→0.30 (three independent lines converge on pubertal thymic window).
