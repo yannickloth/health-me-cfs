@@ -605,7 +605,7 @@ ME/CFS patients instead experience:
 
     - Worsening symptoms following exertion (PEM)
     - No adaptive improvement with repeated exercise
-    - Measurable physiological deterioration (documented by two-day CPET)
+    - Measurable physiological deterioration (documented by two-day CPET—though group-average decline is contested; see Section @subsec:fitness-maintenance)
     - Cumulative functional decline with sustained exercise programs
     - Prolonged recovery periods (days to weeks) after single exertional episodes
 
@@ -1069,6 +1069,68 @@ Rowing allows incremental intensity adjustment via stroke rate — approximately
 *Limitations:* Zero ME/CFS titration data. Threshold day-to-day variability is clinically documented but not quantitatively characterized in ME/CFS. Kleshnev kinetics were measured in competitive rowers at 18--36 spm — the relationship at 5--10 spm may be nonlinear or discontinuous. Technique errors introduce further nonlinearity. The stability assumption underlying any calibration approach is clinically dubious.
 
 ] <spec:rowing-stroke-rate-dial>
+
+===== Rowing + Isometric Yoga Hybrid Protocol: Alternating Active and Recovery Modalities
+<subsec:rowing-isometric-hybrid>
+
+#speculation(title: [Hybrid Rowing-Isometric Protocol Permits Longer Session Duration Without PEM Than Either Modality Alone])[
+
+*Certainty: 0.40.* Individual modality safety established (isometric yoga @Oka2014isometricYoga cert 0.50, land rowing @spec:land-rowing cert 0.40); zero hybrid protocol data in any clinical population. Concept from athletic active-recovery training: low-intensity activity between work bouts clears metabolites faster than passive rest.
+
+*Rationale.* A rowing-only session concentrates metabolic demand in one movement pattern for the entire duration, potentially accumulating fatigue metabolites in specific muscle groups. Supine rest between bouts is effective but passive — it restores blood redistribution but does not actively clear local metabolites. Isometric yoga @Oka2014isometricYoga engages different muscle groups at substantially lower intensity (20--30 percent perceived effort, no HR elevation >10 bpm above baseline), providing a different metabolic signal — one that has been shown to produce a parasympathetic-shift and anti-inflammatory profile (decreased cortisol, decreased TNF-alpha, increased DHEA-S, enhanced vagal tone, reduced HR) — without adding cardiovascular demand.
+
+A hybrid protocol that alternates rowing (compound, cardiovascular, continuous) with isometric yoga (localized, isometric, parasympathetic) may distribute metabolic stress across different tissue compartments, prevent local metabolite accumulation in rowing-specific muscles, and use the isometric phases as active recovery that maintains muscle engagement and vagal tone. The total session can extend without PEM because no single metabolic pathway is continuously stressed.
+
+*Protocol outline:*
+- *Session structure:* 15 min total, three 5-min segments alternating: rowing → isometric yoga → rowing
+- *Rowing segments:* 5--10 strokes/min, HR ≤85 percent estimated AT, minimum water resistance, 1 min supine rest between segments
+- *Isometric yoga segment (5 min):* Seated or supine poses only. Gentle contraction at 20--30 percent perceived effort. No HR elevation >10 bpm above resting baseline. Example sequence: seated spinal twist (gentle, 30s hold alternating sides), supine bridge (modified, knees bent, 20s hold ×2), seated wall push-press (isometric, 20s hold), supine diaphragmatic breathing (remainder of segment)
+- *Transition:* Rowing → isometric yoga within 60 seconds (rower to adjacent mat or chair). Isometric yoga → rowing within 60 seconds
+- *Progression:* Increase rowing stroke rate OR isometric hold duration, never both simultaneously. Increase by +1 stroke/min or +5s hold every 2--3 weeks only if zero PEM for 2 consecutive sessions
+- *Post-session:* Mandatory 5-min supine rest (Section @subsec:post-exercise-horizontal-rest)
+
+*Falsifiable prediction:* In a three-arm trial (n=60 ME/CFS, 8 weeks, 3 sessions/week, all 15 min total), hybrid protocol vs. rowing-only vs. isometric-only will show: (a) hybrid produces lowest PEM incidence (primary endpoint: below 15 percent vs. 25--30 percent for single-modality arms), (b) hybrid permits highest total session duration before PEM-triggered termination, (c) hybrid shows superior 8-week FUNCAP-27 stability. Refuted if hybrid shows no PEM advantage over rowing-only (isometric yoga adds no synergistic benefit, hypothesis rejected regardless of isometric-only arm outcome). Also refuted if hybrid shows worse PEM than rowing-only (the isometric segment adds net metabolic cost without providing recovery benefit — active recovery hypothesis is contradicted by data).
+
+*Clinical significance.* If validated, this protocol would be immediately actionable for patients who already have access to a rowing machine. No additional equipment is needed — a mat or adjacent chair for the isometric segment is sufficient. The cognitive load is manageable: the session has a fixed structure (row → isometric → row → rest) that does not require real-time decisions during exertion.
+
+*Limitations:* Zero data on hybrid protocols in any clinical population. Active recovery is superior to passive recovery in trained athletes — the adaptation to ME/CFS, where the metabolic defect may prevent effective clearance regardless of recovery type, is untested. The protocol adds a modality transition (stand from rower, move to mat, return to rower) that introduces brief orthostatic demand — this may offset the isometric recovery benefit for POTS patients. The 5-min isometric segment may be insufficient duration for metabolite clearance or vagal recovery (mechanism unknown). Cognitive load of sequencing may exceed capacity for patients with cognitive PEM. Completely untested in ME/CFS.
+
+] <spec:hybrid-rowing-isometric>
+
+===== Severity-Stratified Rowing Protocol: Matching Modality Intensity to Functional Capacity
+
+#speculation(title: [Severity-Stratified Starting Parameters Improve Tolerability Over Uniform Rowing Protocol])[
+
+*Certainty: 0.50.* Severity variability is well-documented; the Leeds POTS protocol was not severity-stratified and produced 59 percent community attrition, suggesting uniform protocols fail across the functional spectrum. Zero ME/CFS severity-stratified exercise trial data.
+
+*Rationale.* ME/CFS severity spans from mild (can work part-time) to very severe (bedbound, tube-fed). A uniform rowing protocol — the same starting stroke rate, session duration, and progression speed for all patients — will simultaneously under-stimulate mild patients (who could tolerate faster progression and would benefit from more conditioning) and over-stress severe patients (whose metabolic floor may be above even 5 strokes/min at minimum resistance). The same approach that the paper criticizes in GET — applying one protocol to a heterogeneous population — is replicated in rowing guidance.
+
+A severity-stratified protocol matches four parameters to baseline functional capacity: (a) whether rowing is the primary modality or contraindicated, (b) starting stroke rate and session duration, (c) progression speed, and (d) session duration ceiling. The stratification uses consensus severity categories adapted from the paper's existing severity framework.
+
+*Stratification table:*
+
+#table(
+    columns: (auto, auto, auto, auto, auto),
+    [*Severity*], [*Modality*], [*Start*], [*Progression*], [*Ceiling*],
+    [*Mild* (part-time work)], [Rowing primary], [8--10 spm, 3 min], [Weekly (+1 spm OR +1 min)], [30 min/session],
+    [*Moderate* (homebound)], [Rowing only], [5--8 spm, 2 min], [Biweekly (+1 every 2 wks)], [15 min/session],
+    [*Severe* (room-bound)], [Isometric primary; rowing trial], [5 spm, 1 min], [Monthly (+1 every 4 wks)], [5 min/session],
+    [*Very severe* (bedbound)], [Passive ROM only; rowing contraindicated], [N/A], [N/A], [N/A]
+)
+
+*Application rules:*
+- Severity classification should use existing functional scales (FUNCAP-27, Bell Disability Scale) — not self-reported category alone
+- The first rowing session at any severity level is a trial session: if PEM occurs at the starting intensity, the patient is reclassified one severity level down for rowing protocol purposes (regardless of global severity classification)
+- Progression rules are identical to the general protocol: increase only one parameter per cycle, only if zero PEM for 2 consecutive sessions, roll back on any PEM
+- A patient who stabilizes at a progression level for ≥6 months without PEM and with stable FUNCAP-27 scores is succeeding at fitness maintenance; further progression should not be attempted without objective evidence of envelope expansion
+
+*Falsifiable prediction:* In a stratified implementation study (n=120 ME/CFS, 12 weeks), severity-stratified starting parameters vs. uniform protocol (all start at 5 spm, 2 min, biweekly progression) will show: (a) lower PEM incidence in moderate and severe arms (stratified advantage — severe/moderate patients start at appropriate intensity rather than uniform protocol's over-stress), (b) higher session duration ceiling achieved in mild arm (stratified advantage — mild patients are not under-stimulated to the point of dropping out). The hypothesis is refuted if the stratified protocol shows no PEM advantage in any severity tier over uniform, or if the mild arm shows no higher ceiling (the mild-arm prediction is secondary; the moderate/severe PEM advantage is the primary refutation criterion).
+
+*Clinical significance.* If validated, this protocol converts rowing from a single recommendation ("try 5 spm, 2 min") into a decision support tool that patients and clinicians can use to match the intervention to the patient. The stratification table is designed to be printable in a form suitable for both home logs and clinic charts.
+
+*Limitations:* The severity bins (mild, moderate, severe, very severe) are consensus categories, not empirically derived thresholds for rowing tolerance. The specific starting parameters (3 min vs. 2 min vs. 1 min) are reasoned estimates, not calibrated from patient data. The severity-to-modality mapping may misclassify patients whose rowing tolerance differs from their global severity (e.g., a moderate-severity patient with excellent seated orthostatic tolerance but severe cognitive PEM). The progression speeds (weekly/biweekly/monthly) assume linear tolerance accumulation, which is unvalidated. Zero ME/CFS severity-stratified exercise trial data.
+
+] <spec:severity-stratified-rowing>
 
 ===== Adapted Swimming for ME/CFS
 <subsec:adapted-swimming>

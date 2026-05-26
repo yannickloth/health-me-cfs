@@ -31,9 +31,9 @@
 | N2 | Video feedback form optimization system | speculation | 0.50 | 3 | 2 | 2 | 2 | 1 | ⬜ | — |
 | N3 | Metronome-guided rhythm entrainment rowing | speculation | 0.45 | 3 | 2 | 2 | 2 | 1 | ⬜ | — |
 | N4 | Temperature management cooling protocol | speculation | 0.40 | 2 | 2 | 2 | 1 | 1 | ⬜ | — |
-| C1 | Rowing + isometric yoga hybrid protocol | speculation | 0.55 | 4 | 4 | 3 | 3 | 2 | ⬜ | — |
+| C1 | Rowing + isometric yoga hybrid protocol | speculation | 0.40 | 4 | 4 | 3 | 3 | 2 | ✅ | — |
 | C2 | Community implementation overcoming 76→41% gap | speculation | 0.70 | 2 | 4 | 2 | 2 | 2 | ⬜ | — |
-| C3 | Severity-stratified rowing access protocol | speculation | 0.60 | 3 | 4 | 3 | 3 | 3 | ⬜ | — |
+| C3 | Severity-stratified rowing access protocol | speculation | 0.50 | 3 | 4 | 3 | 3 | 3 | ✅ | — |
 | C4 | Insurance coverage advocacy package | speculation | 0.35 | 1 | 2 | 1 | 1 | 1 | ⬜ | — |
 | M1 | Bifurcation model: SR as continuous control | speculation | 0.55 | 4 | 2 | 3 | 5 | 2 | ⬜ | — |
 | M2 | Causal DAG: rowing-specific nodes | speculation | 0.40 | 3 | 2 | 2 | 5 | 2 | ⬜ | — |
