@@ -82,7 +82,7 @@ Two-day CPET is the gold-standard objective test for demonstrating PEM and is th
     - Anaerobic threshold decreases, indicating earlier metabolic shift to glycolysis
     - Peak workload and exercise duration decrease
 
-/ *Clinical significance*: The day-2 decrement is objective, reproducible, and specific to ME/CFS among studied conditions. Provides strong evidence for PEM in disability evaluations.
+/ *Clinical significance*: The day-2 decrement is objective when present and specific to ME/CFS among studied conditions—however, the group-average decline finding is contested (Keller 2024 positive vs Mancini/Natelson 2026 null @Mancini2026CPET). Elevated RPE and chronotropic incompetence are consistent across all CPET studies but are not disease-specific metabolic biomarkers. May provide supporting evidence for PEM in disability evaluations alongside other clinical data.
 / *Limitations*: Maximal exercise testing is contraindicated in some severely affected patients; provokes PEM lasting days to weeks; limited availability; requires specialized equipment and trained personnel. Not suitable for serial monitoring due to the PEM it induces.
 
 === Home-Based Assessment Protocols for Severe ME/CFS

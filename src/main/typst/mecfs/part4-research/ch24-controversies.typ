@@ -168,7 +168,7 @@ Multiple lines of evidence demonstrate that deconditioning cannot account for th
 
     - *Metabolic dysfunction is cellular, not peripheral.* Impaired mitochondrial function in immune cells @Mandarano2020 and abnormal metabolite profiles persist independently of activity levels (Chapter @ch:energy-metabolism).
 
-    - *Autonomic and immune abnormalities are independent of fitness.* Chronotropic incompetence, catecholamine deficiency @walitt2024deep, T cell exhaustion, and NK cell dysfunction are not features of deconditioning.
+    - *Autonomic and immune abnormalities are independent of fitness.* Chronotropic incompetence, catecholamine deficiency @walitt2024deep, T cell exhaustion, and NK cell dysfunction are documented in ME/CFS. Chronotropic incompetence can also result from deconditioning — its presence does not discriminate between the two models — but its co-occurrence with catecholamine deficiency and immune abnormalities supports a multisystem pathology beyond deconditioning alone.
 
     - *GET produces harm, not recovery.* Large self-reported patient surveys report that 51% of ME/CFS patients worsened with GET @Kindlon2011GET. NICE withdrew GET from its 2021 guidelines, declaring it potentially harmful @NICE2021mecfs.
 
