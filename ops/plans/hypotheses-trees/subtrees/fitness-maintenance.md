@@ -11,7 +11,7 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Notes |
 |----|-------|-----|------|------|----|------|------|----|--------|-------|
-| 0.1 | Fitness maintenance vs. improvement distinction | hypothesis | 0.60 | 4 | 0 | 5 | 3 | 2 | ✅ | `@hyp:fitness-maintenance-distinction` in ch17 |
+| 0.1 | Fitness maintenance vs. improvement distinction | hypothesis | 0.55 | 4 | 0 | 5 | 3 | 2 | ✅ | `@hyp:fitness-maintenance-distinction`. 0.60→0.55: Mancini/Natelson 2026 CPET null replication reduces CPET-specific certainty; framework re-anchored to energy envelope + GET harms + elevated RPE |
 | 0.2 | Redefining fitness for ME/CFS | speculation | 0.40 | 3 | 0 | 4 | 2 | 3 | ✅ | Embedded in hypothesis #0.1 body |
 | 0.3 | Energy envelope expansion through pacing | hypothesis | 0.35 | 3 | 2 | 4 | 2 | 1 | ✅ | Paragraph in hypothesis #0.1 body |
 | 0.4 | Deconditioning prevention as fitness ceiling | hypothesis | 0.55 | 4 | 1 | 5 | 2 | 1 | ✅ | Paragraph in hypothesis #0.1 body |

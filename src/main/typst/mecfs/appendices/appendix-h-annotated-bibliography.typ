@@ -17254,3 +17254,16 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Certainty:*: 0.75
     / *Limitations:*: In vitro biochemistry and cultured cells; does not directly measure compartment transitions in tissue. HP1α phase separation at endogenous expression levels not verified.
 
+=== Mancini2026CPET — Null Replication of 2-Day CPET in ME/CFS
+    / *Full Citation:*: Mancini DM, Cook DB, Brunjes DL, Soto T, Blate M, Quan P, Yamazaki T, Norweg A, Natelson BH. Cardiopulmonary exercise test results do not change over two sequential days in patients with chronic fatigue syndrome. _Frontiers in Physiology_. 2026;17:1816082.
+    / *DOI:*: 10.3389/fphys.2026.1816082
+    / *Key Findings:*:
+        - No significant Day 1→Day 2 change in peak VO₂ or VO₂ at VT in 58 ME/CFS (Fukuda criteria + PEM requirement) vs 25 sedentary controls
+        - ME/CFS had significantly higher Borg RPE at all workloads (p < 0.001)
+        - Lower maximal HR in ME/CFS (chronotropic incompetence in 9/58 vs 1/25 controls)
+        - 13/58 ME/CFS (22%) had ≥1 mL/kg/min VO₂ decline on Day 2 vs 8/25 controls (33%) — NS
+    / *Conclusion:*: The data do not support using the 2-day CPET protocol to define PEM or disability. Changes in peak VO₂ or VO₂ at VT on 2-day CPET do not appear to be a good marker for PEM; subjective symptom monitoring post-exercise may be more sensitive.
+    / *Quality:*: Medium (peer-reviewed, decent n, controlled; Fukuda criteria less selective than CCC; single study; control group small at n=25)
+    / *Certainty:*: 0.60
+    / *Limitations:*: Fukuda criteria (broader than CCC used in Keller 2024); single study not yet independently replicated; max-effort enforcement excludes patients who fail ACSM criteria on Day 2, which Keller argued is part of the PEM phenotype; abstract-only at time of initial discussion.
+
