@@ -17167,3 +17167,90 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Certainty:* 0.50
         - *Limitation:* Very small sample; short duration; no PEM assessment
 
+=== Tiedemann2024 — UHRF1 Ubiquitin Ligase Supports Low-Density CpG Maintenance
+    / *Full Citation:*: Tiedemann RL, Hrit J, Du Q, Wiseman AK, Kong NR, Eames H, Dickson BM, Rothbart SB. UHRF1 ubiquitin ligase activity supports the maintenance of low-density CpG methylation. _Nucleic Acids Research_. 2024;52(22):13733-13751.
+    / *DOI:*: 10.1093/nar/gkae1125
+    / *PMID:*: 39607687
+    / *Key Findings:*:
+        - DNA methylation maintenance at low-density CpG regions is particularly vulnerable to disruption of UHRF1 ubiquitin ligase activity and DNMT1 ubiquitin reading activity.
+        - Low-CpG-density regions require UHRF1 ubiquitin ligase activity more than high-density regions for stable maintenance.
+        - Provides direct experimental support for a methylation density threshold below which maintenance fidelity degrades.
+    / *Conclusion:*: The UHRF1-DNMT1 ubiquitin axis is the main protection mechanism for low-density CpG methylation. Disruption creates differential vulnerability based on local CpG density.
+    / *Relevance:*: Direct experimental support for the irreversibility threshold $m_i^\\"crit\\"$ in the methylation vector model (Chapter @ch:causal-hierarchy-formal, @oq:consolidation-directionality). Validates the concept that loci with sparse CpG methylation are harder to maintain.
+    / *Quality:*: High (Nucleic Acids Research; peer-reviewed; mechanistic with biochemical validation)
+    / *Certainty:*: 0.70
+    / *Limitations:*: Cancer cell lines (HCT116, RKO); may not generalize to all genomic contexts. Single study; independent replication pending.
+
+=== Crider2012 — Folate and DNA Methylation Review
+    / *Full Citation:*: Crider KS, Yang TP, Berry RJ, Bailey LB. Folate and DNA Methylation: A Review of Molecular Mechanisms and the Evidence for Folate's Role. _Advances in Nutrition_. 2012;3(1):21-38.
+    / *DOI:*: 10.3945/an.111.000992
+    / *PMID:*: 22332098
+    / *Key Findings:*:
+        - Folate, choline, betaine, vitamin B12, and other B vitamins serve as methyl donors and co-factors in one-carbon metabolism.
+        - SAM (S-adenosylmethionine) is the universal methyl donor for DNA methyltransferases.
+        - Three clinical trials examined impact of folic acid supplementation (0.4--10 mg/d) on global DNA methylation — results were mixed and context-dependent.
+        - Methyl-donor supplementation can affect DNA methylation levels but effect sizes are modest and depend on baseline methylation and genetic background.
+    / *Conclusion:*: Methyl-donor supplementation has a plausible mechanistic basis for affecting DNA methylation but efficacy is not uniform. Baseline methylation status, genetic polymorphisms (MTHFR), and tissue type moderate response.
+    / *Relevance:*: General-population evidence cited to support methyl-donor support as the safe default strategy in the methylation vector model (Chapter @ch:causal-hierarchy, Speculation @spec:methylation-loss-consolidation). No ME/CFS-specific data.
+    / *Quality:*: Medium-High (well-cited review summarizing multiple clinical trials)
+    / *Certainty:*: 0.60
+    / *Limitations:*: Review paper, not a meta-analysis. Trials summarized are heterogeneous (different populations, doses, outcomes). No ME/CFS data.
+
+=== Kok2015 — Long-Term Folic Acid and B12 Supplementation and DNA Methylation
+    / *Full Citation:*: Kok DEG, Dhonukshe-Rutten RAM, Lute C, Heil SG, Uitterlinden AG, van der Velde N, et al. The effects of long-term daily folic acid and vitamin B12 supplementation on genome-wide DNA methylation in elderly subjects. _Clinical Epigenetics_. 2015;7:113.
+    / *DOI:*: 10.1186/s13148-015-0154-5
+    / *PMID:*: 26500703
+    / *Key Findings:*:
+        - Randomized controlled trial (n=87) of folic acid (400 μg/day) + vitamin B12 (500 μg/day) vs placebo for 2 years in elderly subjects.
+        - Genome-wide methylation profiling (Illumina 450K array) identified differentially methylated positions.
+        - Effect sizes were modest; methylation changes primarily in genes related to development and cellular processes.
+    / *Conclusion:*: Long-term methyl-donor supplementation at moderate doses can produce measurable changes in DNA methylation profiles in humans. Effects are locus-specific and modest in magnitude.
+    / *Relevance:*: Demonstrates that methyl-donor supplementation is capable of modifying the methylation vector $bold(cal(M))$ in vivo — the premise underlying methyl-donor support as therapeutic strategy. General-population evidence; no ME/CFS data.
+    / *Quality:*: High (RCT design; peer-reviewed; genome-wide methylation measurement)
+    / *Certainty:*: 0.65
+    / *Limitations:*: Elderly population (not ME/CFS); small sample size (n=87); 450K array limited CpG coverage; did not specifically assess repetitive element methylation.
+
+=== Kimura2012 — DNMT1 Regulatory Mechanisms Review (Allosteric Switch)
+    / *Full Citation:*: Kimura M, Sasaki H. An insight into the various regulatory mechanisms modulating human DNA methyltransferase 1 stability and function. _Epigenetics_. 2012;7(7):686-696.
+    / *DOI:*: 10.4161/epi.20157
+    / *PMID:*: 22647247
+    / *Key Findings:*:
+        - DNMT1 operates via an allosteric binary switch — processive on highly methylated DNA, inactivated on poorly methylated/unmethylated sites.
+        - MeCP2 interacts directly with DNMT1 via the TRD domain, recruiting DNMT1 to methylated regions.
+        - UHRF1 recognizes hemimethylated CpGs and guides DNMT1; PCNA binding enhances processivity ~2-fold.
+        - This biphasic behavior creates stable methylation maintenance at high-density regions while preserving unmethylated regions — density-dependent maintenance fidelity.
+    / *Conclusion:*: DNMT1 maintenance fidelity is not uniform across the genome. Methylation density determines maintenance robustness, with low-density CpG regions at higher risk of maintenance failure.
+    / *Relevance:*: Provides mechanistic foundation for the irreversibility threshold in the methylation vector model.
+    / *Quality:*: Medium-High (well-established review summarizing multiple mechanistic studies)
+    / *Certainty:*: 0.65
+    / *Limitations:*: Review paper; mechanisms described at protein biochemistry level but critical threshold values for specific loci not quantified. No genome-wide locus-level resolution of density thresholds.
+
+=== Strom2017 — Phase Separation Drives Heterochromatin Domain Formation
+    / *Full Citation:*: Strom AR, Emelyanov AV, Mir M, Fyodorov DV, Darzacq X, Karpen GH. Phase separation drives heterochromatin domain formation. _Nature_. 2017;547:241-245.
+    / *DOI:*: 10.1038/nature22989
+    / *Key Findings:*:
+        - HP1a protein undergoes liquid-liquid phase separation (demixing) in vitro and nucleates into foci with liquid properties during early heterochromatin domain formation in Drosophila embryos.
+        - Heterochromatin domains exhibit dynamics characteristic of phase separation: sensitivity to hydrophobic disruption (1,6-hexanediol), reduced probe diffusion, increased coordinated movement, and inert probe exclusion at domain boundaries.
+        - Mature heterochromatin domains are not pure liquid — they solidify into stable compartments while retaining some liquid properties.
+        - Phase separation provides a nucleation threshold model: below a critical HP1 concentration/density, droplets cannot nucleate.
+    / *Conclusion:*: Heterochromatin domains form via liquid-liquid phase separation driven by HP1a, maturing into structures with both liquid and solid properties. Domain formation requires a nucleation threshold.
+    / *Relevance:*: Supports the sigmoidal functional form for B-strength in the methylation vector model (Chapter @ch:causal-hierarchy-formal). Below a critical HP1/H3K9me3 density at ProB repeats, liquid domain nucleation fails → compartment identity lost → genome unfolds. The phase-separation mechanism provides biophysical plausibility for a nonlinear (threshold) relationship between ProB methylation and B compartment integrity.
+    / *Quality:*: Very High (Nature; two-lab independent validation; Drosophila + mammalian cells; companion to Larson 2017)
+    / *Certainty:*: 0.75
+    / *Limitations:*: Drosophila embryonic system and cultured cells; threshold values not quantified for specific genomic loci. Does not directly measure A/B compartment transitions in human cells.
+
+=== Larson2017 — HP1α Liquid Droplet Formation and Phase Separation
+    / *Full Citation:*: Larson AG, Elnatan D, Keenen MM, Trnka MJ, Johnston JB, Burlingame AL, Agard DA, Redding S, Narlikar GJ. Liquid droplet formation by HP1α suggests a role for phase separation in heterochromatin. _Nature_. 2017;547:236-240.
+    / *DOI:*: 10.1038/nature22822
+    / *Key Findings:*:
+        - Human HP1α protein forms phase-separated droplets in vitro; unmodified HP1α is soluble; phosphorylation or DNA binding promotes droplet formation.
+        - HP1α phase separation is reversible — specific ligands can dissolve droplets.
+        - Nucleosomes and DNA preferentially partition into HP1α droplets; transcription factors do not.
+        - HP1α phase-separation mutant (W200A) forms fewer and smaller nuclear puncta in mammalian cells — direct functional confirmation.
+        - Establishes concentration-dependent nucleation: below a critical HP1α concentration, no droplets form.
+    / *Conclusion:*: Phase separation is an intrinsic biophysical property of HP1α protein, suggestible for heterochromatin assembly and gene silencing through physical sequestration of chromatin.
+    / *Relevance:*: Independent confirmation (different lab, human protein) that HP1-driven phase separation requires a concentration threshold. Supports the B-strength nucleation model — ProB repeat methylation loss reduces H3K9me3 → reduces HP1 binding → drops below nucleation threshold → heterochromatin domain dissolves. Companion to Strom 2017.
+    / *Quality:*: Very High (Nature; independent lab from Strom 2017; human protein; in vitro + cell-based validation)
+    / *Certainty:*: 0.75
+    / *Limitations:*: In vitro biochemistry and cultured cells; does not directly measure compartment transitions in tissue. HP1α phase separation at endogenous expression levels not verified.
+
