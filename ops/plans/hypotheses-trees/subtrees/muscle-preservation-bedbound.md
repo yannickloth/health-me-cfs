@@ -5,7 +5,7 @@
 **Plan file:** `ops/plans/muscle-preservation-bedbound-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** exercise-modality-expansion
-**Child subtrees:** (none yet)
+**Child subtrees:** pediatric-prom-bedbound, vns-anti-catabolic, myostatin-inhibition-mecfs
 
 ## Nodes
 
@@ -20,7 +20,7 @@
 | B1 | NMES PEM risk stratification protocol | proposal | 0.45 | 4 | 4 | 2 | 3 | 3 | ✅ | — |
 | B2 | HMB dose optimization for ME/CFS | speculation | 0.45 | 3 | 4 | 1 | 1 | 1 | ✅ | — |
 | B3 | PROM + positioning synergy protocol | speculation | 0.48 | 3 | 3 | 2 | 1 | 1 | ✅ | — |
-| B4 | Pediatric-adapted PROM growth | speculation | 0.42 | 2 | 2 | 1 | 1 | 1 | ⏭️ | — |
+| B4 | Pediatric-adapted PROM growth | speculation | 0.42 | 2 | 2 | 1 | 1 | 1 | ⏭️ | subtrees/pediatric-prom-bedbound.md |
 | B5 | Ultrasound muscle CSA monitoring | proposal | 0.50 | 2 | 1 | 1 | 2 | 5 | ✅ | — |
 | B6 | Micro-current NMES sub-PEM threshold | speculation | 0.28 | 4 | 3 | 1 | 2 | 2 | ✅ | — |
 | B7 | Creatine + leucine synergy | speculation | 0.32 | 3 | 3 | 1 | 1 | 1 | ✅ | — |
@@ -30,12 +30,12 @@
 | B11 | Blood flow restriction at rest | speculation | 0.30 | 3 | 2 | 1 | 2 | 2 | 🚫 | no ME/CFS safety data; autonomic risk |
 | B12 | Gentle PNF stretching caregiver | speculation | 0.32 | 2 | 2 | 1 | 1 | 1 | 🚫 | overlaps with PROM; not distinct |
 | B13 | Acupressure for microcirculation | speculation | 0.22 | 2 | 1 | 1 | 1 | 1 | 🚫 | no ME/CFS data; tangential |
-| B14 | Vagus nerve stimulation anti-catabolic | speculation | 0.25 | 3 | 2 | 2 | 1 | 1 | ⏭️ | — |
+| B14 | Vagus nerve stimulation anti-catabolic | speculation | 0.25 | 3 | 2 | 2 | 1 | 1 | ⏭️ | subtrees/vns-anti-catabolic.md |
 | B15 | NMES + HMB synergy protocol | speculation | 0.35 | 4 | 4 | 2 | 2 | 2 | ✅ | — |
 | B16 | Caregiver training multi-component | speculation | 0.40 | 1 | 3 | 1 | 1 | 1 | ✅ | — |
 | B17 | Severity-stratified preservation protocol | speculation | 0.35 | 3 | 4 | 3 | 2 | 3 | ✅ | — |
 | B18 | ME/CFS atrophy distinct from disuse | hypothesis | 0.15 | 5 | 2 | 4 | 3 | 2 | ✅ | — |
-| B19 | Myostatin inhibition repurposed drugs | speculation | 0.12 | 3 | 3 | 1 | 1 | 1 | ⏭️ | — |
+| B19 | Myostatin inhibition repurposed drugs | speculation | 0.12 | 3 | 3 | 1 | 1 | 1 | ⏭️ | subtrees/myostatin-inhibition-mecfs.md |
 | B20 | Peptide supplements bioavailability | speculation | 0.18 | 2 | 2 | 1 | 1 | 1 | ✅ | — |
 | B21 | Low-dose mifepristone glucocorticoid | speculation | 0.08 | 3 | 1 | 1 | 1 | 1 | ✅ | — |
 | B22 | Sub-threshold vibration bone formation | speculation | 0.18 | 3 | 2 | 1 | 2 | 1 | ✅ | — |

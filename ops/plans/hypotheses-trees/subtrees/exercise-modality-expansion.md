@@ -5,7 +5,7 @@
 **Plan file:** `ops/plans/exercise-modality-expansion-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** root (user request)
-**Child subtrees:** (none yet)
+**Child subtrees:** muscle-preservation-bedbound, pediatric-prom-bedbound, vns-anti-catabolic, myostatin-inhibition-mecfs
 
 ## Nodes
 

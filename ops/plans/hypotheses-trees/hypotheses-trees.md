@@ -98,6 +98,9 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | epigenetics           | [subtrees/epigenetics.md](subtrees/epigenetics.md)                    | 2026-04-26      | 27         | 0          | ⬜ stub        |
 | exercise-modality-expansion | [subtrees/exercise-modality-expansion.md](subtrees/exercise-modality-expansion.md) | 2026-05-26     | 45         | 0          | 🔵 in progress |
 | muscle-preservation-bedbound | [subtrees/muscle-preservation-bedbound.md](subtrees/muscle-preservation-bedbound.md) | 2026-05-26 | 43 | 34 | ✅ done |
+| pediatric-prom-bedbound | [subtrees/pediatric-prom-bedbound.md](subtrees/pediatric-prom-bedbound.md) | 2026-05-26 | 1 | 0 | ⬜ stub |
+| vns-anti-catabolic | [subtrees/vns-anti-catabolic.md](subtrees/vns-anti-catabolic.md) | 2026-05-26 | 1 | 0 | ⬜ stub |
+| myostatin-inhibition-mecfs | [subtrees/myostatin-inhibition-mecfs.md](subtrees/myostatin-inhibition-mecfs.md) | 2026-05-26 | 1 | 0 | ⬜ stub |
 | exercise-recovery-pem  | [subtrees/exercise-recovery-pem.md](subtrees/exercise-recovery-pem.md)  | 2026-05-07      | 21         | 21         | ✅ done        |
 | exercise-blinding     | [subtrees/exercise-blinding.md](subtrees/exercise-blinding.md)        | 2026-04-21      | 20         | 0          | ⬜ stub        |
 | funcap                | [subtrees/funcap.md](subtrees/funcap.md)                              | 2026-04-23      | 36         | 0          | ⬜ stub        |
@@ -126,6 +129,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | mecfsmed-de           | [subtrees/mecfsmed-de.md](subtrees/mecfsmed-de.md)                    | 2026-03-28      | 0          | 0          | ⬜ stub        |
 | metabolic-reserve     | [subtrees/metabolic-reserve.md](subtrees/metabolic-reserve.md)        | 2026-04-20      | 34         | 0          | ⬜ stub        |
 | neuroplasticity       | [subtrees/neuroplasticity.md](subtrees/neuroplasticity.md)            | 2026-03-27      | 16         | 0          | ⬜ stub        |
+| fitness-maintenance   | [subtrees/fitness-maintenance.md](subtrees/fitness-maintenance.md)    | 2026-05-26      | 18         | 6          | 🔵 in progress |
 | pregnancy-repro       | [subtrees/pregnancy-repro.md](subtrees/pregnancy-repro.md)            | 2026-04-25      | 35         | 0          | ⬜ stub        |
 | prodromal-signs       | [subtrees/prodromal-signs.md](subtrees/prodromal-signs.md)            | 2026-04-20      | 25         | 0          | ⬜ stub        |
 | progesterone          | [subtrees/progesterone.md](subtrees/progesterone.md)                  | 2026-04-25      | 31         | 0          | ⬜ stub        |
