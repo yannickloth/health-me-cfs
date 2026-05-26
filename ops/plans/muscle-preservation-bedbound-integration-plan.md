@@ -16,17 +16,59 @@
 
 ## Tracking Table
 
-| # | Idea / hypothesis | Tier | Certainty | Status | Notes |
+## Phase 4
+- Integrated: severity-stratified protocol, cross-disease bridges, muscle mass monitoring (POCUS + urinary creatinine), combination synergy open question, caregiver training, PEM-atrophy acceleration, atrophy ODE, cross-disease research priorities, bone vibration (WBV), speculative adjuncts (ursolic acid, beta-alanine, etc.), NMES+HMB synergy, HMB dose optimization
+- Queued (auto-escalation — immune/inflammatory): Vagus nerve stimulation for anti-catabolic signaling (B14)
+- Queued (extra scope): Pediatric-adapted PROM (B4) — needs ch14c section; Myostatin inhibition via lisinopril (B19) — needs cardiology cross-reference; Bioidentical hormones (B24) — needs endocrine chapter review
+- Tier 3 speculative supplement/drug ideas (B8-B10, B20-B27) integrated as `@oq:speculative-adjuncts`
+
+## Phase 3
+- Brainstorm file: `content-staging/brainstorm-muscle-preservation-bedbound-20260526.md`
+- 37 ideas generated (3 hypotheses, 7 supplement, 5 non-pharm, 5 combinations, 3 math models, 5 cross-disease, 3 diagnostic; 5 Tier 1, 16 Tier 2, 16 Tier 3)
+
+# | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|---|---|---|---|---|
-| 1 | WBV for muscle/bone in severe ME/CFS | 2 | 0.15 | 🔵 in progress | Ch. 17 mentions WBV for osteoporosis; no ME/CFS data |
-| 2 | Passive ROM protocols for bedbound patients | 1 | 0.40 | 🔵 in progress | Ch. 14c covers pediatric; extend to adult severe |
-| 3 | Nutritional anti-catabolic strategies | 1 | 0.30 | 🔵 in progress | Protein, creatine, HMB, amino acids |
-| 4 | NMES/EMS for muscle preservation | 2 | 0.20 | 🔵 in progress | Risk: muscle contractions may trigger PEM |
-| 5 | Positioning and postural management to prevent contractures | 1 | 0.45 | 🔵 in progress | Ch. 14c has pediatric version; extend to adult |
-| 6 | Bed-based isometric protocols (lowest intensity tier) | 1 | 0.40 | 🔵 in progress | Already in Ch. 17 but not severity-stratified |
+| 1 | WBV for muscle/bone in severe ME/CFS | 2 | 0.15 | 🔵 in progress | Ch. 17 mentions WBV for osteoporosis; Wollersheim 2017 added |
+| 2 | Passive ROM protocols for bedbound patients | 1 | 0.40 | 🔵 in progress | Morris 2008, Bao 2022 citations added |
+| 3 | Nutritional anti-catabolic strategies | 1 | 0.35 | 🔵 in progress | Cert bumped 0.30→0.35; Deutz 2013, Standley 2017 added |
+| 4 | NMES/EMS for muscle preservation | 2 | 0.35 | 🔵 in progress | Dirks 2015, Bao 2022 added; cert bumped 0.30→0.35 in ch14a |
+| 5 | Positioning and postural management | 1 | 0.45 | 🔵 in progress | Existing spec with falsifiable prediction |
+| 6 | Bed-based isometric protocols | 1 | 0.40 | 🔵 in progress | Oka 2014/2017 references |
+| B1 | NMES PEM Risk Stratification Protocol | 1 | 0.45 | ⬜ pending | Tier 1 brainstorm #1 |
+| B2 | HMB Dose Optimization for ME/CFS | 1 | 0.45 | ⬜ pending | Tier 1 brainstorm #2 |
+| B3 | PROM + Positioning Synergy Protocol | 1 | 0.48 | ⬜ pending | Tier 1 brainstorm #3 |
+| B4 | Pediatric-Adapted PROM with Growth Considerations | 1 | 0.42 | ⬜ pending | Tier 1 brainstorm #4 |
+| B5 | Ultrasound Muscle CSA Monitoring Protocol | 1 | 0.50 | ⬜ pending | Tier 1 brainstorm #5 |
+| B6-B37 | Remaining 32 brainstorm ideas | 2-3 | various | ⬜ pending | See brainstorm file |
+| B38 | Severity-stratified muscle preservation protocol | 2 | 0.35 | ⬜ pending | Tier 2 #17 |
+| B39 | NMES + HMB synergy protocol | 2 | 0.35 | ⬜ pending | Tier 2 #15 |
+
+## Phase 1
+- 10 papers found (6 added to bib): @Morris2008ICUMobility, @Wollersheim2017WBV, @Bao2022NMESICU, @Deutz2013HMB, @Standley2017HMBMitochondria, @Dirks2015NMES
+- Annotated bib updated: 6 entries at `sec:bib-muscle-preservation-bedbound`
+- Literature summary: `content-staging/lit-muscle-preservation-bedbound-20260526.md`
+
+## Phase 2
+- Enhanced existing environments in ch17 and ch14a with Phase 1 citations
+- Certainty bump: Nutritional anti-catabolic 0.30→0.35 (HMB bed rest RCT)
+- Certainty bump: NMES CNS Bypass 0.30→0.35 (Dirks 2015, Bao 2022)
+- WBV safety data added with Wollersheim 2017
+- Hypothesis registry updated: 6 new entries
+
+## Phase 4-8
+- Phase 4: 12 ideas integrated (envs added: severity-stratified, cross-disease, monitoring, combo synergy, caregiver, PEM-atrophy, atrophy ODE, bone vibration, adjuncts); queued: VNS (B14, immune/inflammatory auto-escalation), pediatric PROM (B4, needs ch14c), myostatin/hormones (B19/B24, endocrine)
+- Phase 4a: 12 audited — 11 fully falsifiable, 1 weakly fixed (ch14a NMES)
+- Phase 4b: 3 reinforced (ch14j NMES prediction + cite; ch03 sarcopenic obesity + cross-ref; ch07 TNF-alpha + cross-ref); 0 contradictions
+- Phase 4c: 144 pairs — 6 reinforcement, 3 feed-into, 0 conflict, 0 adjustments
+- Phase 5: Build FAIL (pre-existing ch17 lines 1732,1753 — unrelated to integration)
+- Phase 6: Bib keys + cross-refs verified; convergent
+- Phase 7: Changelog updated
 
 ## Notes
 - Distinguish from pediatric severe section (ch14c) — this is adult severe
 - Cross-reference: ICU early mobility, space medicine deconditioning (ch19)
 - Nutritional section must respect existing dietary content in Ch. 17
 - All interventions carry PEM risk — must state this explicitly
+- Vagus nerve stimulation (B14) — queued (auto-escalation: immune/inflammatory)
+- Pediatric-adapted PROM (B4) — deferred (needs dedicated ch14c section)
+- Pre-existing build failures at ch17 lines 1732,1753 unrelated to this integration

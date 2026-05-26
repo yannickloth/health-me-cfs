@@ -18,12 +18,16 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|---|---|---|---|---|
-| 1 | Constant body position as POTS/ME/CFS safety criterion | 1 | 0.50 | ✅ integrated | Hypothesis @hyp:constant-body-position in ch17 |
-| 2 | Water rowing modality assessment | 1 | 0.30 | ✅ integrated | Speculation @spec:water-rowing in ch17 |
-| 3 | Swimming/aquatic exercise as ME/CFS-safe modality | 1 | 0.35 | ✅ integrated | Speculation @spec:adapted-swimming in ch17 |
-| 4 | Modality safety classification framework (body position + orthostatic demand) | 1 | 0.55 | ✅ integrated | Speculation @spec:modality-classification in ch17 |
-| 5 | Heart rate response by modality (compound vs. isolated movement) | 2 | 0.40 | ✅ integrated | Speculation @hyp:compound-vs-isolated-hr in ch17 |
-| 6 | Practical protocol for introducing water rowing | 2 | 0.25 | ✅ integrated | Embedded in @spec:water-rowing protocol outline |
+| 1 | Constant body position as POTS/ME/CFS safety criterion | 1 | 0.50 | ✅ done | Hypothesis @hyp:constant-body-position in ch17 |
+| 2 | Water rowing modality assessment | 1 | 0.30 | ✅ done | Speculation @spec:water-rowing in ch17 |
+| 3 | Swimming/aquatic exercise as ME/CFS-safe modality | 1 | 0.35 | ✅ done | Speculation @spec:adapted-swimming in ch17 |
+| 4 | Modality safety classification framework (body position + orthostatic demand) | 1 | 0.55 | ✅ done | Speculation @spec:modality-classification in ch17 |
+| 5 | Heart rate response by modality (compound vs. isolated movement) | 2 | 0.40 | ✅ done | Speculation @hyp:compound-vs-isolated-hr in ch17 |
+| 6 | Practical protocol for introducing water rowing | 2 | 0.25 | ✅ done | Embedded in @spec:water-rowing protocol outline |
+
+## Commit history
+- `ff11566` content(ch17): integrate exercise modality expansion with 9 new environments
+- `d79b683` docs(plans): add exercise modality expansion plan and hypothesis subtree
 
 ## Phase 1 — Literature Research
 - 2 papers found, 2 added to references.bib (Schmid2007WaterImmersion, Hanna1993WaterImmersion)
