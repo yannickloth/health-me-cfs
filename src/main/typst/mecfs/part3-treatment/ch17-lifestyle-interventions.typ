@@ -1477,7 +1477,7 @@ Multiple fields with extreme immobilization have developed countermeasure progra
 
 *Certainty: 0.40.* Well-validated in ICU/geriatric populations for muscle mass estimation; not yet validated specifically for ME/CFS bedbound monitoring.
 
-Point-of-care ultrasound (POCUS) of quadriceps cross-sectional area and 24-hour urinary creatinine excretion offer two low-cost, bedside methods for monitoring muscle mass in patients who cannot travel for DXA or CT. POCUS requires a handheld ultrasound device ($2,000--6,000), 5-minute scan, zero radiation, performed supine with no patient movement. Validated against DXA/CT in ICU populations. Urinary creatinine requires accurate 24-hour collection (caregiver-assist needed) and is confounded by diet, renal function, and collection completeness, but serial measurements within the same patient track muscle mass trends.
+Point-of-care ultrasound (POCUS) of quadriceps cross-sectional area and 24-hour urinary creatinine excretion offer two low-cost, bedside methods for monitoring muscle mass in patients who cannot travel for DXA or CT. POCUS requires a handheld ultrasound device (approximately 2000--6000 USD), 5-minute scan, zero radiation, performed supine with no patient movement. Validated against DXA/CT in ICU populations. Urinary creatinine requires accurate 24-hour collection (caregiver-assist needed) and is confounded by diet, renal function, and collection completeness, but serial measurements within the same patient track muscle mass trends.
 
 *Falsifiable prediction:* Ultrasound quadriceps CSA decline rate will correlate with functional decline (Bell Disability Scale change) over 24 weeks in bedbound ME/CFS, and will detect intervention effects with sensitivity comparable to DXA-measured lean mass.
 
@@ -1729,7 +1729,7 @@ Hip-high stockings would likely show greater benefit but have not been studied. 
 === Cerebral Perfusion Optimization as Metabolic Reserve Intervention
 <subsec:perfusion-optimization-reserve>
 
-In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/POTS reduces metabolic reserve via cerebral hypoperfusion — an energy delivery deficit rather than a production deficit. Interventions that improve cerebral blood flow directly increase $R_headroom$. These interventions are standard POTS management but are rarely framed as metabolic reserve interventions — in Architecture C, they do not just treat orthostatic symptoms but directly increase the energy available for cognitive work.
+In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/POTS reduces metabolic reserve via cerebral hypoperfusion — an energy delivery deficit rather than a production deficit. Interventions that improve cerebral blood flow directly increase R_headroom. These interventions are standard POTS management but are rarely framed as metabolic reserve interventions — in Architecture C, they do not just treat orthostatic symptoms but directly increase the energy available for cognitive work.
 
     + *Head-of-bed elevation (10–15 degrees).* Improves cerebral venous drainage during sleep, enhancing glymphatic clearance and reducing morning brain fog.
     + *Graduated compression (abdominal binder + thigh-high stockings, 30–40 mmHg).* Reduces venous pooling, improves venous return and cardiac output, increases cerebral blood flow. Abdominal binder particularly relevant for reclined/bedbound patients.
@@ -1750,7 +1750,7 @@ The Perrin Technique, developed by British osteopath Dr. Raymond Perrin from 198
 
 *Theoretical basis:* Thoracic spine rigidity impairs lymphatic drainage from the brain (the brain's glymphatic/lymphatic system was only recently confirmed, though no study has directly demonstrated that Perrin's technique affects glymphatic clearance). Stagnant lymphatic fluid allows toxin and metabolic waste accumulation in the central nervous system, potentially contributing to autonomic dysregulation. A sympathetic-dominant nervous system further slows lymphatic flow, creating a vicious cycle.
 
-*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls). The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple (Perrin\s point), tender solar plexus, and reduced cranio-sacral rhythm.
+*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls). The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple (the Perrin point), tender solar plexus, and reduced cranio-sacral rhythm.
 
 *Efficacy evidence:* Perrin et al. (2022) treated 20 Long~COVID patients with an average of 9 weekly sessions and measured improvement on a 54-item fatigue scale: 41.8% improvement in men, 60.5% improvement in women, with most scale items improving approximately 50%
 

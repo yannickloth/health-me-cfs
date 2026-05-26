@@ -16908,15 +16908,15 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Sample Size:*: Not specified in abstract (mice)
     *Key Findings:*
         
-        - Engineered HEK293T cells stably expressing HSP70 mRNA and brain-targeting RVG-Lamp2b fusion protein generated HSP70@ExoRVG exosomes
-        - HSP70@ExoRVG exosomes efficiently delivered HSP70 mRNA to neural progenitor cells (NPCs), increasing intracellular HSP70 protein
+        - Engineered HEK293T cells stably expressing HSP70 mRNA and brain-targeting RVG-Lamp2b fusion protein generated HSP70-ExoRVG exosomes
+        - HSP70-ExoRVG exosomes efficiently delivered HSP70 mRNA to neural progenitor cells (NPCs), increasing intracellular HSP70 protein
         - In vivo systemic administration restored memory performance in sleep-deprived mice
         - Treatment reduced hippocampal pro-inflammatory cytokines: TNF-α, IL-6, IL-1β
         - Treatment increased anti-inflammatory IL-10
         - Elevated brain-derived neurotrophic factor (BDNF) and phosphorylated CREB, indicating enhanced neurotrophic signaling
         - Effects surpassed those of non-targeted exosomes or empty exosomes
         - First demonstration of RVG-modified exosomes successfully delivering mRNA (rather than siRNA or miRNA) for treating sleep deprivation-induced deficits
-        - HSP70@ExoRVG offers promising noninvasive therapeutic strategy for sleep-related neurodegenerative conditions
+        - HSP70-ExoRVG offers promising noninvasive therapeutic strategy for sleep-related neurodegenerative conditions
     
     *Relevance:*
     First study to demonstrate engineered exosomes can deliver therapeutic mRNA across the BBB to reverse cognitive and inflammatory consequences of sleep deprivation. The RVG targeting strategy enables brain-specific delivery without invasive procedures. Reduction of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β) and enhancement of neurotrophic signaling (BDNF, pCREB) address core pathophysiological processes that may overlap with ME/CFS: sleep disturbance, cognitive impairment, and neuroinflammation. Provides proof-of-concept for exosome-based mRNA delivery as a potential ME/CFS therapeutic approach, though direct ME/CFS data is absent.
