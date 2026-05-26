@@ -440,3 +440,23 @@ Engineered extracellular vesicles represent an emerging therapeutic delivery pla
 
 *Research priority.* Low for clinical translation (no near-term path to human trials), high for mechanistic understanding (characterising endogenous EV trafficking in ME/CFS would illuminate inter-compartment signalling regardless of whether therapeutic exosomes ever reach the clinic).
 ]
+
+#speculation(title: [Alternative BBB Targeting Ligands Beyond RVG])[
+*Certainty: 0.20.* RVG targets neuronal nicotinic acetylcholine receptors — alternative ligands (ApoE, transferrin receptor antibodies, RVG-9R) may have superior pharmacokinetics or regional specificity for ME/CFS-relevant brain regions @Sanadgol2025ExosomeNABrainDelivery. No comparative CNS exosome targeting data exist. This is a platform engineering question, not a clinical proposal.
+] <spec:alternative-exosome-targeting>
+
+#speculation(title: [Ultrasound-Mediated BBB Opening for Spatially Targeted Exosome Delivery])[
+*Certainty: 0.15.* Focused ultrasound transiently opens BBB at precise locations; combining with systemically administered therapeutic exosomes could increase CNS accumulation 5--10 fold at targeted regions while minimising systemic exposure. FDA-approved for drug delivery in trials but never combined with exosomes. Completely untested in any model.
+] <spec:ultrasound-exosome-delivery>
+
+#speculation(title: [Exosome-Mediated siRNA Delivery for Viral Clearance in CNS Reservoirs])[
+*Certainty: 0.15.* If latent herpesviruses (EBV, HHV-6) persist in CNS reservoirs contributing to ME/CFS symptoms, exosomes engineered to deliver antiviral siRNA or CRISPR cargo could theoretically target these reservoirs. Exosome-mediated siRNA delivery is established in cancer models; CNS antiviral delivery is entirely speculative. Research curiosity only.
+] <spec:exosome-antiviral-cns>
+
+#speculation(title: [Exosome-Mediated BDNF Gene Therapy for Sustained Neuroplasticity])[
+*Certainty: 0.15.* Kang et al.@Kang2026ExosomeHSP70Sleep demonstrated mRNA delivery; BDNF upregulation was observed as a secondary effect. Engineering exosomes to deliver BDNF gene (not mRNA) could produce sustained BDNF overexpression in hippocampal neurons with single administration — bypassing the need for repeated dosing. Gene therapy via viral vectors raises safety concerns; exosome-mediated delivery could address these. No gene-therapy exosome exists; this is a conceptual future direction only.
+] <spec:exosome-bdnf-gene-therapy>
+
+#speculation(title: [Exosomes + Mitochondrial Biogenesis Agents as Multi-Axis Combination Therapy])[
+*Certainty: 0.25.* ME/CFS involves both neuroinflammation and mitochondrial dysfunction. Combining exosome-delivered HSP70 (reducing neuroinflammation) with mitochondrial biogenesis enhancers (nicotinamide riboside, urolithin A) could address two pathophysiological axes simultaneously. HSP70 also supports mitochondrial protein import, suggesting mechanistic synergy beyond simple additivity. Entirely untested — no combination exosome + supplement study exists.
+] <spec:exosome-mitochondrial-combo>
