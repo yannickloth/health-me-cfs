@@ -1,52 +1,12 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "zai-coding-plan/glm-4.7",
+  "model": "deepseek/deepseek-v4-pro",
+  "small_model": "deepseek/deepseek-v4-flash",
   "instructions": [
     "Read CLAUDE.md for project context.",
     "Read .claude/agents/*.md for agent definitions.",
     "4 tiers: glm-4.7-flash no-think (mechanical), glm-4.7+think (moderate reasoning), glm-5-turbo+think (fast capable), glm-5.1+think (deep reasoning). Default: glm-4.7."
   ],
-  "provider": {
-    "zai-coding-plan": {
-      "models": {
-        "glm-4.7": {
-          "name": "GLM-4.7",
-          "options": {
-            "thinking": {
-              "type": "enabled",
-              "clear_thinking": false
-            }
-          }
-        },
-        "glm-5-turbo": {
-          "name": "GLM-5-Turbo",
-          "options": {
-            "thinking": {
-              "type": "enabled",
-              "clear_thinking": false
-            }
-          }
-        },
-        "glm-5.1": {
-          "name": "GLM-5.1",
-          "options": {
-            "thinking": {
-              "type": "enabled",
-              "clear_thinking": false
-            }
-          }
-        },
-        "glm-4.7-flash": {
-          "name": "GLM-4.7-Flash",
-          "options": {
-            "thinking": {
-              "type": "disabled"
-            }
-          }
-        }
-      }
-    }
-  },
   "agent": {
     "haiku-general": {
       "model": "zai-coding-plan/glm-4.7-flash"
