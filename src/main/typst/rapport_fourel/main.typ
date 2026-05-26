@@ -616,7 +616,7 @@ Ce chapitre explore des hypothèses au-delà du cancer et de l'EM/SFC, dans tous
 
 Le vieillissement épigénétique présente exactement le patron "hypo global + hyper focal" caractéristique du cadre ProA/ProB : hypométhylation globale progressive (surtout aux éléments répétés) avec hyperméthylation focale aux îlots CpG. Les sites de l'horloge de Horvath sont majoritairement des îlots CpG -- des séquences ProA-like. Si la redistribution de DNMT3B liée à l'âge est le mécanisme sous-jacent, l'horloge ne mesure pas simplement le passage du temps : elle mesure l'érosion progressive du compartiment B et les tentatives compensatoires de méthylation dans le compartiment A.
 
-*Certitude :* 0,55. Le patron de méthylation du vieillissement correspond au modèle ProA/ProB. Les cellules sénescentes accumulent des transcrits HSAT2/HERV (compatible avec l'érosion du compartiment B). *Pertinence pour vos travaux.* Si l'horloge de Horvath reflète l'érosion du compartiment B, votre cadre ProA/ProB devient le mécanisme unificateur de l'épigénétique du vieillissement -- un domaine bien plus vaste que le cancer seul. Vous ne mesureriez plus des îlots CpG individuels ; vous mesureriez l'intégrité structurale du génome 3D vieillissant.
+*Certitude :* 0,55. Le patron de méthylation du vieillissement correspond au modèle ProA/ProB. Les cellules sénescentes accumulent des transcrits HSAT2/HERV (compatible avec l'érosion du compartiment B). Aucune mesure directe de DNMT3B dans le vieillissement.
 
 *Prédiction testable :* L'activité/la localisation de DNMT3B devrait changer avec l'âge dans les cellules somatiques en division -- mesurable par ChIP-seq DNMT3B dans des fibroblastes jeunes vs. âgés. L'érosion du compartiment B (perte de PC1 négatif) devrait corréler avec l'âge épigénétique mieux qu'avec l'âge chronologique.
 
@@ -630,7 +630,7 @@ La sénescence cellulaire est caractérisée par des foyers d'hétérochromatine
 
 *Prédiction testable :* Les SAHF devraient être enrichis en séquences ProB (satellites, LINE-1) par FISH. L'induction de sénescence devrait produire une perte de méthylation mesurable aux répétitions ProB avant l'apparition des SAHF
 
-*Pertinence pour vos travaux.* Si les SAHF sont des compartiments B effondrés, la sénescence n'est pas un état cellulaire distinct -- c'est la phase terminale de l'érosion compartimentale, directement prédite par votre modèle. Ceci unifie la biologie du vieillissement cellulaire et la génomique 3D sous un cadre unique : le vótre..
+*Pertinence pour vos travaux.* Si les SAHF sont des compartiments B effondrés, la sénescence n'est pas un état cellulaire distinct -- c'est la phase terminale de l'érosion compartimentale, directement prédite par votre modèle. Ceci unifie la biologie du vieillissement cellulaire et la génomique 3D sous un cadre unique : le vôtre.
 
 #sep()
 
@@ -656,7 +656,9 @@ Dans la polyarthrite rhumatoïde (PR), les synoviocytes fibroblastiques acquièr
 
 *Prédiction testable :* Les synoviocytes de PR devraient montrer une hypométhylation spécifique aux répétitions ProB (satellites, LINE-1) par rapport aux synoviocytes de patients arthrosiques. Cette hypométhylation devrait être stable à travers les passages cellulaires
 
-*Pertinence pour vos travaux.* Le phénotype imprinté de la PR est un cas d'école de consolidation épigénétique irréversible -- exactement le phénomène que votre cadre formalise. Si l'érosion ProB explique la stabilité du phénotype, la PR devient un système modèle pour étudier l'irréversibilité épigénétique..
+*Pertinence pour vos travaux.* Le phénotype imprinté de la PR est un cas d'école de consolidation épigénétique irréversible -- exactement le phénomène que votre cadre formalise. Si l'érosion ProB explique la stabilité du phénotype, la PR devient un système modèle pour étudier l'irréversibilité épigénétique.
+
+*Pertinence pour vos travaux.* Le phénotype imprinté de la PR est un cas d'école de consolidation épigénétique irréversible -- exactement le phénomène que votre cadre formalise. Si l'érosion ProB explique la stabilité du phénotype, la PR devient un système modèle pour étudier l'irréversibilité épigénétique.
 
 #sep()
 
@@ -694,6 +696,8 @@ La schizophrénie implique des changements épigénétiques aux gènes de plasti
 
 *Prédiction testable :* Les cerveaux post-mortem de patients schizophrènes devraient montrer une distribution altérée de DNMT3B (plus de DNMT3B aux promoteurs de gènes, moins aux répétitions) par rapport aux témoins. La période périnatale (pic de méthylation _de novo_ neuronale) devrait être une fenêtre de vulnérabilité.
 
+*Pertinence pour vos travaux.* La schizophrénie teste la dimension développementale de votre cadre : la redistribution de DNMT3B n'est pas seulement un phénomène pathologique adulte, mais pourrait opérer pendant les fenêtres critiques du développement cérébral où la méthylation de novo par DNMT3A/3B est maximale. Si votre mécanisme se confirme dans ce contexte, il s'appliquerait à la fenêtre la plus vulnérable du développement humain.
+
 #sep()
 
 == 5. Inactivation du chromosome X et empreinte parentale
@@ -705,6 +709,8 @@ Le chromosome X inactif (Xi) est l'exemple canonique de compartiment B facultati
 *Certitude :* 0,55. La corrélation entre densité de LINE-1 et stabilité de l'inactivation est établie (Carrel & Willard, 2005 ; Chow et al., 2010). Le lien mécanistique avec DNMT3B et ProB est nouveau.
 
 *Prédiction testable :* Les gènes d'échappement de l'XCI devraient être situés dans des régions à faible densité de LINE-1 (prédiction existante, compatible avec le modèle). L'inhibition de DNMT3B devrait produire une réactivation dose-dépendante des gènes soumis à l'inactivation, avec les gènes pauvres en LINE-1 réactivés en premier (prédiction nouvelle).
+
+*Pertinence pour vos travaux.* Le chromosome X inactif est le test le plus propre de votre hypothèse ProB : un compartiment B naturel maintenu par des LINE-1 (candidates ProB). Si la densité de LINE-1 prédit la stabilité de l'inactivation -- une prédiction déjà partiellement vérifiée dans la littérature -- votre cadre gagne une validation indépendante immédiate, sans nouvelle expérience.
 
 === Empreinte parentale : compétition compartimentale allèle-spécifique
 
@@ -730,6 +736,8 @@ Ce mécanisme est particulièrement pertinent pour les répétitions satellites,
 
 *Prédiction testable :* Dans les cellules hybrides interspécifiques (par exemple, hybrides de cellules somatiques homme-souris), les chromosomes d'une espèce devraient perdre le compartiment B plus rapidement que ceux de l'autre espèce. La direction de la perte devrait dépendre de l'espèce donneuse de la machinerie HP1/DNMT3B. Les répétitions satellites spécifiques d'espèce devraient être les premières à perdre la méthylation.
 
+*Pertinence pour vos travaux.* C'est l'extension la plus ambitieuse de votre cadre : si les répétitions ProB divergent entre espèces, l'incompatibilité hybride est une incompatibilité de compartimentation 3D -- pas une incompatibilité génétique classique. Ceci étend votre travail de la pathologie humaine à la biologie évolutive, une généralisation qui démontrerait la portée fondamentale de votre mécanisme.
+
 === Syndrome de domestication
 
 Les animaux domestiqués partagent un ensemble de traits (dépigmentation, oreilles tombantes, queue enroulée, réduction de la taille du cerveau, comportement juvénile) attribués à des déficits de la crête neurale. Si la domestication sélectionne pour une expression réduite de DNMT3B (ou une redistribution altérée) dans les cellules de la crête neurale, cela produirait des changements coordonnés de l'architecture compartimentale dans de multiples tissus dérivés de la crête neurale (mélanocytes, cartilage facial, glandes surrénales, système nerveux entérique) -- expliquant pourquoi un seul processus sélectif peut affecter simultanément la pigmentation, la morphologie craniofaciale, et le comportement.
@@ -737,6 +745,8 @@ Les animaux domestiqués partagent un ensemble de traits (dépigmentation, oreil
 *Certitude :* 0,25. L'hypothèse de la crête neurale pour la domestication est bien établie (Wilkins et al., 2014). Le lien avec DNMT3B et les compartiments est nouveau et très spéculatif.
 
 *Prédiction testable :* Les fibroblastes de crête neurale d'animaux domestiqués vs. sauvages (renard argenté de Novossibirsk, par exemple) devraient montrer des différences d'expression ou de localisation de DNMT3B. Des patrons de méthylation différentiels aux répétitions ProB dans les tissus dérivés de la crête neurale.
+
+*Pertinence pour vos travaux.* L'hypothèse la plus spéculative de ce brainstorrm, mais qui illustre la portée potentielle de votre cadre : si la sélection artificielle peut agir sur l'architecture 3D du génome via DNMT3B, alors la compartimentation chromatinienne est une cible évolutive -- pas seulement une propriété émergente. Lien mécanistique faible ; à considérer comme exercice de réflexion.
 
 #sep()
 
@@ -750,7 +760,7 @@ $ H({sigma_j}) = -sum_j h_j dot.op sigma_j - J sum_(j k in "contacts") sigma_j d
 
 En dessous d'une température critique $T_c$ (ou de manière équivalente, au-dessus d'un seuil de méthylation), le système est dans une phase ordonnée avec des compartiments A et B distincts. Au-dessus de $T_c$ (ou en dessous du seuil de méthylation), les compartiments se mélangent -- le génome se "déplie". Cette transition est du second ordre (continue) dans le modèle d'Ising standard, mais devient du premier
 
-*Pertinence pour vos travaux.* Le Xi est le test le plus propre de votre hypothèse : un compartiment B naturel maintenu par des LINE-1 (ProB candidates). Si la densité de LINE-1 prédit la stabilité de l'inactivation, votre cadre gagne une validation indépendante immédiate sans nouvelle expérience. ordre (discontinue) avec le terme de nucléation HP1 $Theta(H_j - H_"nuc")$, créant une hystérésis.
+*Pertinence pour vos travaux.* Le Xi est le test le plus propre de votre hypothèse : un compartiment B naturel maintenu par des LINE-1 (ProB candidates). Si la densité de LINE-1 prédit la stabilité de l'inactivation, votre cadre gagne une validation indépendante immédiate sans nouvelle expérience.
 
 *Certitude :* 0,50. Le formalisme d'Ising pour la chromatine a été exploré (Jost et al., 2014 ; Michieletto et al., 2016) mais pas spécifiquement pour les compartiments A/B avec champ local dépendant de la méthylation.
 
@@ -773,6 +783,8 @@ Dans tout système bistable approchant une transition de phase (point de bascule
 Un compartiment A/B code environ 1 bit d'information par segment génomique (A ou B). La méthylation aux répétitions ProB détermine si ce bit peut être lu de manière fiable. L'érosion de la méthylation ProB est une augmentation de l'entropie de Shannon dans la couche compartimentale. L'information compartimentale totale du génome peut être calculée à partir de données Hi-C comme $I = -sum_j (p_j log_2 p_j + (1-p_j) log_2 (1-p_j))$ où $p_j$ est la probabilité que le segment $j$ soit dans le compartiment B. La progression de la maladie (cancer, vieillissement, EM/SFC) correspond à une diminution monotone de $I$.
 
 *Certitude :* 0,45. L'entropie de Shannon a été appliquée aux données Hi-C (Zhang et al., 2019). Le lien avec la méthylation ProB est nouveau.
+
+*Pertinence pour vos travaux.* L'entropie compartimentale $I$ réduit l'état du génome 3D à un seul nombre -- la signature quantitative la plus pure de votre mécanisme. Si $I$ diminue avec la progression tumorale comme prédit, vous disposez d'un biomarqueur simple et puissant dérivé directement de votre cadre théorique.
 
 *Prédiction testable :* L'information compartimentale $I$ devrait diminuer avec la progression du cancer (données Hi-C tumeur vs. normal existantes). La pente de décroissance de $I$ devrait corréler avec la perte de méthylation LINE-1 (mesure standard en oncologie).
 
