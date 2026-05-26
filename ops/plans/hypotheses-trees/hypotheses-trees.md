@@ -89,13 +89,14 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | beyond-aces-hpa       | [subtrees/beyond-aces-hpa.md](subtrees/beyond-aces-hpa.md)            | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | beyond-post-sepsis    | [subtrees/beyond-post-sepsis.md](subtrees/beyond-post-sepsis.md)      | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | ant-autoantibodies    | [subtrees/ant-autoantibodies.md](subtrees/ant-autoantibodies.md)      | 2026-04-12      | 24         | 0          | ⬜ stub        |
-| bimodal-onset         | [subtrees/bimodal-onset.md](subtrees/bimodal-onset.md)                | 2026-04-16      | 27         | 20         | 🔵 in progress |
+| bimodal-onset         | [subtrees/bimodal-onset.md](subtrees/bimodal-onset.md)                | 2026-04-16      | 27         | 20         | ✅ done        |
 | blood-immune          | [subtrees/blood-immune.md](subtrees/blood-immune.md)                  | 2026-04-16      | 25         | 0          | ⬜ stub        |
 | calcium               | [subtrees/calcium.md](subtrees/calcium.md)                            | 2026-04-18      | 25         | 0          | ⬜ stub        |
 | causal-hierarchy      | [subtrees/causal-hierarchy.md](subtrees/causal-hierarchy.md)          | (no date)       | 2          | 0          | ⬜ stub        |
 | csf-drainage          | [subtrees/csf-drainage.md](subtrees/csf-drainage.md)                  | 2026-04-14      | 27         | 0          | ⬜ stub        |
 | energy-cartography    | [subtrees/energy-cartography.md](subtrees/energy-cartography.md)      | 2026-04-11      | 20         | 0          | ⬜ stub        |
 | epigenetics           | [subtrees/epigenetics.md](subtrees/epigenetics.md)                    | 2026-04-26      | 27         | 0          | ⬜ stub        |
+| exercise-modality-expansion | [subtrees/exercise-modality-expansion.md](subtrees/exercise-modality-expansion.md) | 2026-05-26     | 45         | 0          | 🔵 in progress |
 | exercise-recovery-pem  | [subtrees/exercise-recovery-pem.md](subtrees/exercise-recovery-pem.md)  | 2026-05-07      | 21         | 21         | ✅ done        |
 | exercise-blinding     | [subtrees/exercise-blinding.md](subtrees/exercise-blinding.md)        | 2026-04-21      | 20         | 0          | ⬜ stub        |
 | funcap                | [subtrees/funcap.md](subtrees/funcap.md)                              | 2026-04-23      | 36         | 0          | ⬜ stub        |

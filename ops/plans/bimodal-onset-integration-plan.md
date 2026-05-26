@@ -1,6 +1,7 @@
 # Bimodal Onset Age in ME/CFS — Integration Plan
 
 **Purpose:** Integrate McGrath et al. 2026 bimodal onset age findings — two peaks at ~16 and ~37 with clinical differences between peaks — and extend with 31 brainstorm ideas spanning hypotheses, treatment, diagnostics, and mathematical models.
+**Status:** ✅ done — 2026-05-26, commits fd0bced..4c83b2f
 
 **Target chapters:** ch05-onset-patterns, ch05-subgroups, ch14d-cross-disease, ch07-immune, ch08-neurological, ch16-supplements, ch17-lifestyle, ch18-experimental, ch19-integrative, ch20-biomarkers, ch25b-proposed-studies, ch30-integrated-systems, ch31-temporal-evolution
 
