@@ -23,7 +23,8 @@ We model the ME/CFS disease state as a system of coupled ordinary differential e
 - $C_"pro"$: Pro-inflammatory cytokine burden
 - $V$: Viral reactivation load
 - $cal(T)$: Composite threat signal driving safe mode engagement
-- $cal(M)$: Epigenetic consolidation depth, $cal(M) in [0, 1]$ (gain-model: 0 = healthy, 1 = fully consolidated; note: the competing loss-model (Speculation @spec:methylation-loss-consolidation) defines $cal(L)$ with opposite directionality—1 = healthy, 0 = consolidated. The current ODE system uses the gain-model formulation. See Open-Question @oq:consolidation-directionality for the unresolved tension.)
+- $cal(M)$: Epigenetic consolidation depth, $cal(M) in [0, 1]$ (gain-model: 0 = healthy, 1 = fully consolidated) (DNS-mediated DNA methylation; specificity: CpG dinucleotides, with DNMT3B additionally active at CAG trinucleotides in neurons and early development)
+- $cal(L)$: Alternate consolidation index for the loss-model, $cal(L) in [0, 1]$ (1 = healthy, fully methylated at ProB repeats; 0 = consolidated, complete erosion). See Open-Question @oq:consolidation-directionality for the unresolved gain-vs-loss tension.
 
 === Threat Signal Composition
 
@@ -51,7 +52,7 @@ A critical structural feature of the ODE system is the separation of timescales 
     [Safe mode ($S$)], [Days--weeks], [Hypothalamic setpoint adjustment, cytokine clearance],
     [Cytokines ($C_"pro"$)], [Weeks--months], [Immune cell reprogramming, clonal expansion/contraction],
     [Autoantibodies], [Months], [Plasma cell lifespan, IgG half-life ($approx$21 days)],
-    [Epigenetic consolidation ($cal(M)$)], [Months--years], [DNMT3A/B activity, passive demethylation rate; note: if consolidation is loss (Speculation @spec:methylation-loss-consolidation), the relevant parameters are DNMT3B redistribution and TET demethylation rate],
+    [Epigenetic consolidation ($cal(M)$ ~or~ $cal(L)$)], [Months--years], [Gain-model: DNMT3A/B-driven methylation; passive demethylation rate. Loss-model ($cal(L)$): DNMT3B redistribution away from ProB repeats, TET-mediated erosion, remethylation rate. DNMT3B specificity: CpG + CAG trinucleotides (neurons, development).],
   ),
   caption: [Response timescales of key disease state variables.],
 ) <tab:response-timescales>

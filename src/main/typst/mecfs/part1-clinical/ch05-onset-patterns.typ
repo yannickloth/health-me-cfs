@@ -336,6 +336,7 @@ The bimodal pattern has direct implications for ME/CFS research design:
     - *Genetic analysis*: The vitiligo precedent demonstrates that bimodal onset can reveal distinct genetic architectures---early-onset vitiligo has an MHC class II haplotype with OR > 8 @Jin2019vitiligoBimodal. No GWAS has yet stratified ME/CFS by onset age
     - *Mechanistic investigation*: The specific ages (~16 and ~37) may correspond to windows of biological vulnerability (pubertal immune changes, hormonal transitions, cumulative exposures)
     - *Infection prevention*: Vaccination against EBV and other common triggers could preferentially reduce the early-onset peak, as EBV vaccines are in development. Post-licensure surveillance should test whether the early peak (~16) flattens while the late peak (~37) remains unchanged---a differential pattern that would confirm EBV as the primary driver of early-onset disease
+    - *Female predominance parity*: The ~80% female ratio is identical between peaks despite divergent hormonal contexts (puberty vs.\ perimenopause). Investigating non-hormonal female susceptibility mechanisms---such as X chromosome immune-gene dosage effects (Section @sec:bimodal-cross-disease)---could reveal universal ME/CFS risk architecture independent of age and reproductive stage
 
 The cross-disease precedent is examined in Section @sec:bimodal-cross-disease.
 

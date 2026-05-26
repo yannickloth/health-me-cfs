@@ -2298,3 +2298,22 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 
 *Limitations.* Highly speculative; no direct evidence linking circadian prolyl hydroxylase timing to ME/CFS collagen pathology. Requires strict adherence to timing and sleep schedule. Individual circadian variation may affect optimal timing.
 ]
+
+=== Onset-Age-Stratified Supplement Strategies
+
+The bimodal onset age distribution of ME/CFS @McGrath2026bimodalOnset, together with clinically meaningful differences between early- and late-onset disease, motivates the question of whether supplement strategies should differ by age at onset.
+
+#speculation(title: [Zinc-Thymulin Support for Early-Onset ME/CFS])[
+Zinc is essential for thymic hormone production---thymulin is zinc-dependent---and zinc deficiency impairs thymic output and naive T cell survival (for review of zinc-thymulin axis, see Dardenne 2002). Many adolescents have suboptimal zinc status during puberty when zinc requirements increase, coinciding with the early ME/CFS onset peak at age ~16 @McGrath2026bimodalOnset. Zinc supplementation (30 mg/day elemental zinc with 2 mg copper to prevent copper depletion) could theoretically support residual thymic function in early-onset patients via the zinc-thymulin axis. Zinc supplementation would be expected to be more effective in early-onset than late-onset patients because residual thymic tissue in younger patients is more responsive to thymic hormone support.
+*Certainty: 0.25* (zinc-thymulin axis well-established in immunology; no ME/CFS-specific zinc-thymic outcome studies). *Not yet tested in ME/CFS.*
+] <spec:zinc-thymulin-early-onset>
+
+#speculation(title: [NAD+ Precursor Supplementation Preferentially Benefits Late-Onset ME/CFS])[
+NAD+ levels decline measurably from age 30 (Massudi et al. 2012), with consequences for mitochondrial function, sirtuin activity, and DNA repair. The late ME/CFS onset peak (~37) coincides with this decline. If late-onset ME/CFS involves cumulative mitochondrial reserve exhaustion, NAD+ precursor supplementation (nicotinamide mononucleotide NMN 500--1000 mg/day or nicotinamide riboside NR 300--500 mg/day) could preferentially benefit this subgroup. Response would correlate with baseline NAD+ levels, and late-onset patients would show larger increases in mitochondrial respiratory capacity than early-onset patients because their pathophysiology involves cumulative metabolic decline rather than acute immune catastrophe.
+*Certainty: 0.25* (NAD+ decline from 30s well-established in general-population studies; NMN/NR safety profiles established; no ME/CFS-specific NAD+ precursor trial data stratified by onset age). *Not yet tested in ME/CFS with onset-age stratification.*
+] <spec:nad-precursors-late-onset>
+
+#speculation(title: [Physiological-Dose Melatonin as Thymic Protectant in Early-Onset ME/CFS])[
+Melatonin is produced by the pineal gland and by thymic epithelial cells, where it regulates thymic hormone production, T cell maturation, and protects thymocytes from apoptosis (Carrillo-Vico et al. 2005). Melatonin levels decline during puberty, coinciding with thymic involution and the early ME/CFS onset peak. Physiological-dose melatonin (0.3--0.5 mg, matching endogenous production levels) could theoretically provide direct intrathymic support in early-onset patients, in contrast to the supraphysiological doses (3--10 mg) commonly used for sleep induction. Higher-dose melatonin may produce a U-shaped response---supraphysiological doses could suppress thymic function via MT1 receptor desensitisation. Melatonin also has direct antiviral activity against EBV in vitro, providing a secondary mechanistic rationale for early-onset patients where EBV/IM is disproportionately involved.
+*Certainty: 0.25* (intrathymic melatonin biology well-established in animal models; puberty-related melatonin decline documented; no ME/CFS melatonin-thymic outcome studies). *Not yet tested in ME/CFS.*
+] <spec:melatonin-thymic-early-onset>

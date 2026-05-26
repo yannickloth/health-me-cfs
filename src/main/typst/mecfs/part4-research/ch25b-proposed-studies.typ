@@ -2784,3 +2784,12 @@ RCT (n=80, 4 arms: placebo, mast cell stabilizer alone, doxycycline alone, combi
 
 === Study C-4: Circadian Collagen Synthesis Optimization
 Pilot testing timed vitamin C and proline supplementation (circadian-appropriate dosing) vs uncontrolled supplementation in hypermobile ME/CFS. Measure collagen synthesis markers (PINP, PIIINP) at multiple timepoints.
+
+=== Study D-1: DecodeME Stratified GWAS by Onset Age
+
+*Background.* The DecodeME dataset contains genetic data for over 17,000 ME/CFS participants, but no GWAS has yet stratified by age at onset. The vitiligo precedent demonstrates that bimodal-onset analysis can reveal fundamentally distinct genetic architectures: early-onset vitiligo harbours an MHC class II haplotype with OR > 8 that is entirely absent from late-onset disease @Jin2019vitiligoBimodal. ME/CFS shows clinically meaningful differences between early and late onset: greater severity (OR 2.15), more infectious mononucleosis triggers (OR 2.32), and increased familial clustering (OR 1.43) in the early peak @McGrath2026bimodalOnset.
+
+#open-question(title: [Does Early-Onset ME/CFS Have a Distinct Genetic Architecture?])[
+GWAS of DecodeME participants stratified by onset age (early: ≤20 years vs.\ late: ≥30 years, with sensitivity analyses excluding the 20--30 transition zone) would test whether at least one locus shows significantly different allele frequency between subgroups. The HLA region is the primary candidate based on vitiligo precedent and existing ME/CFS HLA associations. A secondary hypothesis: polygenic risk scores will explain more variance in early-onset than late-onset disease, reflecting stronger genetic loading. Pre-licensure surveillance of EBV vaccine efficacy should test whether the early onset peak flattens while the late peak remains unchanged---a differential result that would confirm distinct aetiologies. This analysis is technically feasible with existing data and requires only standard GWAS methodology; no new data collection is needed.
+*Certainty: n/a.* DecodeME onset-age data are approximated from illness duration bins (maximum error ~2.5 years), which adds noise but is unlikely to obscure effect sizes of the magnitude seen in vitiligo (OR > 8).
+]

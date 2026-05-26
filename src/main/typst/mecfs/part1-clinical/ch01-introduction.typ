@@ -240,7 +240,7 @@ A systematic review and meta\-analysis of 45 studies found a pooled prevalence o
 The CDC reported in December 2023 that 1.3% of U.S.\ adults (approximately 3.3 million Americans) have ME/CFS based on National Health Interview Survey data from 2021–2022 @CDC2023prevalence. This represents the first official national prevalence estimate using validated survey methodology.
 
 *Incidence Rates.*
-Population-based studies estimate incidence at 13.16 per 100,000 person-years in the United States @Vincent2012incidence. Norwegian registry data demonstrate a bimodal age distribution of new diagnoses, with peaks at 10–19 years and 30–39 years @Bakken2014incidence.
+Population-based studies estimate incidence at 13.16 per 100,000 person-years in the United States @Vincent2012incidence. Norwegian registry data demonstrate a bimodal age distribution of new diagnoses, with peaks at 10–19 years and 30–39 years @Bakken2014incidence, subsequently confirmed in European survey ($n = 9{,}380$) and DecodeME ($n = 6{,}455$) data @McGrath2026bimodalOnset.
 
 *Post-COVID Prevalence Surge.*
 The RECOVER-Adult Study (2025) found that 4.5% of SARS-CoV-2 infected individuals developed ME/CFS meeting diagnostic criteria, compared to 0.6% in uninfected controls @RECOVER2025. The hazard ratio of 4.93 indicates nearly five-fold increased risk following COVID-19 infection. Updated estimates suggest the post-COVID era has increased U.S.\ ME/CFS cases from 1.5 million to 5–9 million, with annual economic impact rising from \$36–51 billion to \$149–362 billion @Jason2022prevalence.
@@ -252,7 +252,7 @@ The RECOVER-Adult Study (2025) found that 4.5% of SARS-CoV-2 infected individual
 ME/CFS demonstrates a female predominance with a 3:1 to 4:1 female-to-male ratio across most studies @Bakken2014incidence @Lim2020prevalence. However, 35–40% of diagnosed patients are male, representing a substantial burden. The female predominance suggests potential hormonal or immunological factors, though diagnostic bias (dismissing male presentations) may contribute to apparent sex ratios.
 
 *Age Patterns.*
-CDC data show prevalence increases with age, peaking at 2.1% among adults aged 60–69 years before declining in older age groups @CDC2023prevalence. However, disease onset follows a bimodal distribution with peaks in adolescence (10–19 years) and early middle age (30–39 years), with mean onset age of approximately 31.6 years @Bakken2014incidence. Approximately 15% of patients become symptomatic before age 18.
+CDC data show prevalence increases with age, peaking at 2.1% among adults aged 60–69 years before declining in older age groups @CDC2023prevalence. However, disease onset follows a bimodal distribution with peaks in adolescence (10–19 years) and early middle age (30–39 years), with mean onset age of approximately 31.6 years @Bakken2014incidence @McGrath2026bimodalOnset. Approximately 15% of patients become symptomatic before age 18.
 
 *Racial and Ethnic Distribution.*
 CDC data show prevalence of 1.5% in White non-Hispanic individuals, 0.8% in Hispanic individuals, and 0.7% in Asian non-Hispanic individuals @CDC2023prevalence. However, these data likely reflect diagnostic disparities rather than true prevalence differences—White respondents have 2.94 greater odds of receiving an ME/CFS diagnosis than non-White respondents after controlling for symptom severity @Dimmock2024disparities. Population-based studies suggest equal or higher risk in ethnic minorities when diagnostic access is controlled.
