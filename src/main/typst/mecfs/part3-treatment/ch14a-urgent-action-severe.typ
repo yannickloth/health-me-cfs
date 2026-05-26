@@ -1422,7 +1422,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 #hypothesis(title: [Pharmacological Bypass of CNS Motor Coordination Failure])[
 The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction, lines 376–391, 500–509) proposes that peripheral muscle remains capable but CNS motor coordination fails. Direct electrical stimulation bypasses CNS coordination entirely, activating muscle without requiring CNS drive. This may preserve muscle function and prevent deconditioning in severely immobilized patients.
 
-*Certainty: 0.30* (CNS-peripheral dissociation is mechanistically plausible within the selective dysfunction framework; NMES is well-established for deconditioning prevention in ICU patients @Wirth2023; no direct evidence for CNS bypass mechanism in ME/CFS; extension of theoretical framework)
+*Certainty: 0.35* (0.30→0.35: NMES muscle atrophy prevention validated in ICU bed rest — general-population, mechanistic, incoming certainty 0.50–0.52). CNS-peripheral dissociation is mechanistically plausible within the selective dysfunction framework; NMES is well-established for deconditioning prevention in ICU patients, with evidence from fully sedated patients showing complete muscle atrophy prevention @Dirks2015NMES and RCT data showing NMES + PROM attenuates atrophy compared to PROM alone @Bao2022NMESICU; no direct evidence for CNS bypass mechanism in ME/CFS; extension of theoretical framework
 ]
 
 #recommendation(title: [Passive NMES Protocol for Deconditioning Prevention in Severe Cases])[
@@ -1462,7 +1462,7 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
 
 *Dosing note:* Verify with qualified physical therapist. Medical supervision recommended given autonomic vulnerability.
 
-*Expected outcome:* Prevention of rapid muscle atrophy during extended immobility; potential maintenance of motor recruitment capacity. NOT expected to produce functional improvement or increase activity tolerance—purely preventive.
+*Falsifiable prediction:* Severe bedbound ME/CFS patients receiving passive NMES (20--30 min daily, 50 Hz, submaximal intensity, single quadriceps) for 12 weeks will show less quadriceps CSA decline (ultrasound) compared to matched bedbound controls without NMES, without PEM frequency increase.
 
 ] <rec:nmes-severe>
 

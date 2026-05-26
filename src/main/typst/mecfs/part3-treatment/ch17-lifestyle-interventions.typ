@@ -729,8 +729,11 @@ The following comorbidities illustrate the tension:
       immobility itself accelerates bone loss, creating a vicious cycle.
       Whole-body vibration (WBV) has been proposed as a potential alternative
       in the general osteoporosis literature because it can be applied without
-      ambulation, but no ME/CFS-specific trials exist; this remains an
-      unaddressed evidence gap.
+      ambulation, but no ME/CFS-specific trials exist; a small pilot in mechanically
+      ventilated ICU patients (n=19) demonstrated safety in a supine application
+      but found significant increases in energy expenditure during WBV, which is
+      concerning for ME/CFS patients with metabolic dysfunction @Wollersheim2017WBV;
+      this remains an unaddressed evidence gap.
 
     - *Depression.* Exercise is a first-line non-pharmacological
       treatment for depression. However, in ME/CFS, exercise-based
@@ -1315,7 +1318,7 @@ For severe and bedbound ME/CFS patients, the safe movement approaches described 
 
 *Certainty: 0.40.* Mechanistic inference from ICU/space medicine deconditioning literature; no ME/CFS-specific trial. Not yet replicated.
 
-In ICU patients immobilized for >7 days and in astronauts during microgravity exposure, passive range-of-motion (PROM) exercises performed by a caregiver demonstrably reduce joint contracture development and muscle atrophy compared to no intervention. The energy expenditure cost of PROM is borne by the caregiver, not the patient — the patient's muscles are not actively contracting, so the metabolic demand that triggers PEM is absent. The risk is not metabolic but positional: incorrect positioning, excessive range, or overly rapid movement can cause pain, subluxation (in hypermobile patients), or autonomic activation.
+In ICU patients immobilized for >7 days and in astronauts during microgravity exposure, passive range-of-motion (PROM) exercises performed by a caregiver demonstrably reduce joint contracture development and muscle atrophy compared to no intervention @Morris2008ICUMobility @Bao2022NMESICU. Large ICU studies confirm that protocolized PROM and early mobility are safe and feasible even in mechanically ventilated patients, with no increase in adverse events @Morris2008ICUMobility. The energy expenditure cost of PROM is borne by the caregiver, not the patient — the patient's muscles are not actively contracting, so the metabolic demand that triggers PEM is absent. The risk is not metabolic but positional: incorrect positioning, excessive range, or overly rapid movement can cause pain, subluxation (in hypermobile patients), or autonomic activation.
 
 *Protocol for severe/bedbound ME/CFS:*
     - *Caregiver-administered only.* Patient remains fully passive
@@ -1335,14 +1338,14 @@ In ICU patients immobilized for >7 days and in astronauts during microgravity ex
 
 #speculation(title: [Nutritional Anti-Catabolic Strategies Slow Muscle Wasting in Bedbound ME/CFS])[
 
-*Certainty: 0.30.* Mechanistic inference from sarcopenia, ICU, and space medicine literature; no ME/CFS-specific trial. Not yet replicated.
+*Certainty: 0.35.* (0.30→0.35: HMB bed rest RCT externally validates the anti-catabolic principle; general-population evidence, mechanistic, incoming certainty 0.60). Mechanistic inference from sarcopenia, ICU, and space medicine literature; no ME/CFS-specific trial. Not yet replicated in ME/CFS.
 
 When the musculoskeletal system receives no loading stimulus (complete bed rest), muscle protein breakdown exceeds synthesis within days, producing measurable atrophy. Nutritional strategies that have shown benefit in other immobilization contexts — ICU early nutrition, spaceflight countermeasure programs, sarcopenia management — may partially offset this catabolic drive in bedbound ME/CFS. The following strategies are low-risk, do not require patient exertion, and have mechanistic rationale:
 
     - *Protein adequacy.* 1.2--1.5 g/kg/day protein, distributed across 3--4 small meals/snacks to maximize muscle protein synthesis signaling. For a 60 kg patient: 72--90 g/day. Whey protein isolate (if dairy-tolerant) provides highest leucine content per gram. Plant-based alternatives: pea protein + rice protein blend for complementary amino acid profile
     - *Leucine threshold.* 2.5--3.0 g leucine per meal is the threshold for mTOR-mediated muscle protein synthesis activation. This can be achieved with 25--30 g whey protein or 35--40 g soy protein. Timing: with each meal; supplemental free leucine (2 g) can be added to meals that fall below the threshold
     - *Creatine monohydrate.* 3--5 g/day. Increases intramuscular phosphocreatine, which buffers ATP depletion and may slow muscle wasting by maintaining cellular energy status. Well-established safety profile. Contraindicated in renal impairment
-    - *HMB (beta-hydroxy-beta-methylbutyrate).* 3 g/day, divided into 3 doses. HMB is a leucine metabolite that specifically inhibits muscle protein breakdown via the ubiquitin-proteasome pathway. Meta-analyses in elderly and ICU populations show modest preservation of lean mass. Evidence in complete bed rest is limited. Do not combine with high-dose leucine (redundant pathway)
+    - *HMB (beta-hydroxy-beta-methylbutyrate).* 3 g/day, divided into 3 doses. HMB is a leucine metabolite that specifically inhibits muscle protein breakdown via the ubiquitin-proteasome pathway. An RCT in healthy older adults during 10 days of complete bed rest showed HMB (1.5 g twice daily) significantly preserved lean body mass compared to placebo (--2.05 ± 0.66 kg vs. --0.17 ± 0.19 kg, p = 0.02) @Deutz2013HMB. A follow-up mechanistic study from the same cohort found HMB maintained mitochondrial OXPHOS complex II protein and preserved mitochondrial dynamics (fission/fusion balance) during rehabilitation, suggesting anti-catabolic effects extend to mitochondrial protection @Standley2017HMBMitochondria. Evidence in extended complete bed rest (>10 days) is limited. Do not combine with high-dose leucine (redundant pathway). For severe ME/CFS patients with GI sensitivity or impaired absorption, start at 1 g/day with weekly escalation to 3 g/day as tolerated — the Deutz 2013 efficacious dose may not be tolerable in this population
     - *Vitamin D3 + calcium.* 2,000--4,000 IU/day vitamin D3 + 1,000--1,200 mg/day calcium for bone density preservation. Bedbound patients lose bone density rapidly (1--2% per month in weight-bearing sites). Vitamin D also has muscle function effects independent of calcium. Monitor serum 25(OH)D quarterly; target 50--80 nmol/L
     - *Omega-3 fatty acids.* 2--3 g/day EPA+DHA. Anti-inflammatory effect may reduce catabolic cytokine signaling (TNF-alpha, IL-6) that drives muscle wasting in chronic illness. Fish oil or algal oil source
 
@@ -1400,17 +1403,167 @@ The isometric exercises listed in the general safe movement section — wall sit
 
 *Certainty: Not applicable — safety threshold unknown.*
 
-Neuromuscular electrical stimulation (NMES/EMS) has demonstrated muscle mass preservation in ICU-immobilized patients, spinal cord injury, and prolonged bed rest in healthy volunteers. By activating motor units electrically rather than via voluntary neural drive, NMES can produce muscle contractions that maintain protein synthesis signaling and slow atrophy without requiring patient volitional effort.
+Neuromuscular electrical stimulation (NMES/EMS) has demonstrated muscle mass preservation in ICU-immobilized patients, spinal cord injury, and prolonged bed rest in healthy volunteers. By activating motor units electrically rather than via voluntary neural drive, NMES can produce muscle contractions that maintain protein synthesis signaling and slow atrophy without requiring patient volitional effort. In fully sedated ICU patients, twice-daily NMES of quadriceps for 7 days prevented muscle atrophy entirely (control leg: type I fibers --16%, type II --24%; stimulated leg: no atrophy, mTOR phosphorylation +19%) @Dirks2015NMES.
 
 The risk in ME/CFS is that the electrically-induced contractions are metabolically indistinguishable from voluntary contractions — if the metabolic cost of muscle activation is the PEM trigger (rather than the cognitive effort of voluntary movement), then NMES could trigger PEM identically to volitional exercise. In ICU patients, 30--60 minutes of quadriceps NMES at visible-contraction-threshold intensity can produce measurable muscle preservation. Whether ME/CFS patients can tolerate even minimal NMES parameters (5 minutes, lowest visible contraction intensity, single muscle group) is completely unknown.
 
-No ME/CFS NMES trial exists. The safety question — *does NMES trigger PEM?* — must be answered before any efficacy question can be asked. If future research determines that sub-PEM-threshold NMES parameters exist, this could become a valuable atrophy countermeasure for the most vulnerable patients.
+No ME/CFS NMES trial exists. The safety question — *does NMES trigger PEM?* — must be answered before any efficacy question can be asked. A tiered protocol starting from sub-contraction-threshold micro-current stimulation (below visible contraction, to modulate mTOR signaling without metabolic cost) and escalating to minimal visible-contraction NMES only if tolerated, with continuous PEM monitoring, could identify safe thresholds. If future research determines that sub-PEM-threshold NMES parameters exist, this could become a valuable atrophy countermeasure for the most vulnerable patients. Combining NMES with HMB (simultaneously activating mTOR protein synthesis and inhibiting ubiquitin-proteasome breakdown) is mechanistically plausible but completely untested in ME/CFS — PEM risk from the combination is unknown.
 
 ] <oq:bedbound-nmes>
 
 #warning-env(title: [Exercise Precautions])[
 Patients with severe ME/CFS (housebound or bedbound) should consult physicians before attempting any structured movement program. Even minimal exertion may trigger severe crashes in this population. For these patients, activities of daily living (personal hygiene, eating) may constitute maximal tolerable exertion, leaving no additional capacity for exercise.
 ]
+
+==== Severity-Stratified Muscle Preservation Protocol
+<subsubsec:severity-stratified-preservation>
+
+#speculation(title: [Severity-Stratified Muscle Preservation Preserves Function While Minimizing PEM Risk])[
+
+*Certainty: 0.35.* Mechanistic inference from energy envelope theory combined with existing individual intervention evidence; no combined protocol tested in ME/CFS. Not yet replicated.
+
+Not all bedbound ME/CFS patients have identical severity or metabolic reserve. A severity-stratified protocol matches intervention intensity to individual capacity:
+
+*Tier A — Very Severe (cannot tolerate any movement):*
+    - *Positioning only:* Every-2-hour repositioning + joint neutral positioning + pressure relief (zero patient metabolic cost)
+    - *Nutrition only:* Protein adequacy (1.0--1.2 g/kg/day), vitamin D (2,000--4,000 IU/day), calcium (1,000--1,200 mg/day)
+    - *No isometrics, PROM, NMES.* Even passive movement may trigger PEM
+
+*Tier B — Severe (can tolerate minimal passive contact):*
+    - *All Tier A interventions plus:* Caregiver-administered PROM (1 session/week, 3--5 min initially)
+    - *Nutrition:* HMB 3 g/day, creatine 3--5 g/day added if GI-tolerated
+    - *Isometrics:* Single-muscle 3-second holds only if 2 weeks of PROM produces zero PEM
+
+*Tier C — Moderate-Severe (can tolerate minimal voluntary contraction):*
+    - *All Tier B interventions plus:* Bed-based isometric protocol (2--3 min/day)
+    - *Nutrition:* Full anti-catabolic protocol (protein 1.2--1.5 g/kg/day, HMB, creatine, omega-3)
+    - *NMES consideration:* Only if 4+ weeks of Tier B+C interventions produce zero PEM; start at 5 min minimal intensity single muscle
+
+*Progression and regression rules:* Advancement requires ≥4 consecutive weeks at current tier with zero PEM attributable to the intervention. Any PEM episode → regress to prior tier; wait ≥2 weeks before retrying. Two PEM episodes from same tier → that tier is the individual ceiling.
+
+*Falsifiable prediction:* Bedbound ME/CFS patients managed with severity-stratified protocol will show lower PEM frequency and comparable muscle preservation (CSA decline rate) vs. one-size-fits-all protocol over 24 weeks.
+
+*Limitations:* Tier definitions based on clinician-estimated capacity thresholds, not empirically derived. Individual PEM sensitivity variation may exceed tier granularity. Protocol complexity increases caregiver burden. The boundary between "passive contact tolerated" (Tier B) and "minimal contraction tolerated" (Tier C) is subjective without objective biomarkers.
+
+] <spec:severity-stratified-preservation>
+
+==== Cross-Disease Bridges for Bedbound Muscle Preservation
+
+#speculation(title: [Space Medicine and ICU Countermeasure Programs Offer Partially Translatable Frameworks for Bedbound ME/CFS])[
+
+*Certainty: 0.32.* Cross-disease analogy — established in disuse atrophy models; no ME/CFS-specific adaptation tested. Not yet replicated in ME/CFS.
+
+Multiple fields with extreme immobilization have developed countermeasure programs that partially translate, provided high-exertion components are removed:
+
+*Space medicine (NASA countermeasure program):* Nutritional strategies (high protein, vitamin D, calcium), vibration platforms for bone, and resistance exercise principles are translatable; high-intensity resistive exercise (ARED device at 300+ lbs, treadmill with harness, 2+ hours/day) is not. Adaptation: HMB + creatine + vitamin D3 as nutritional analog; recumbent isometric holds (2--3 min/day) as near-zero exercise analog. Astronauts lose 1--2% bone density per month in microgravity — comparable to bedbound patients.
+
+*ICU early mobility (Morris 2008 n=330):* PROM safety/feasibility framework, structured positioning protocols, and caregiver-administered monitored protocols translate; active mobility progression (sitting → standing → ambulation), twice-daily 30-min NMES do not. Adaptation: PROM protocol structure without the active progression ladder; ICU-style repositioning every 2h for contracture prevention @Morris2008ICUMobility.
+
+*Sarcopenia/frailty in elderly:* Protein adequacy, HMB 3 g/day, vitamin D, and leucine threshold translate; progressive resistance training and upright mobility do not. Adaptation: full nutritional protocol; no active exercise beyond isometric tier @Deutz2013HMB.
+
+*Spinal cord injury NMES:* NMES prevents atrophy when voluntary movement is absent; FES cycling preserves muscle CSA. Translates conceptually but parameters must be titrated to PEM tolerance (see Section @oq:bedbound-nmes) @Dirks2015NMES.
+
+*ALS/neuromuscular disease:* Positioning protocols, splinting, PROM routines for progressive weakness translate with the caveat that ALS pathophysiology (motor neuron degeneration) is distinct from ME/CFS (metabolic/immune/neuroimmune); ALS patients may tolerate active PROM where ME/CFS patients require passive-only.
+
+*Falsifiable prediction:* Bedbound ME/CFS patients receiving adapted countermeasure protocol (nutritional + PROM + positioning, no active components) will show muscle CSA decline rates comparable to the lower end of ICU/space medicine countermeasure efficacy range (--0.3 to --0.5% per week CSA), significantly slower than untreated bed rest (--7 to --10% per week), without PEM induction.
+
+*Limitations:* All analogies extrapolated from populations with fundamentally different pathophysiology. The "remove active components" strategy may render countermeasures ineffective — efficacy data exist only for protocols that include active components. No ME/CFS-specific adaptation study exists.
+
+] <spec:cross-disease-bridges>
+
+==== Muscle Mass Monitoring in Bedbound Patients
+
+#speculation(title: [Point-of-Care Ultrasound and Urinary Creatinine as Bedside Muscle Monitoring Tools])[
+
+*Certainty: 0.40.* Well-validated in ICU/geriatric populations for muscle mass estimation; not yet validated specifically for ME/CFS bedbound monitoring.
+
+Point-of-care ultrasound (POCUS) of quadriceps cross-sectional area and 24-hour urinary creatinine excretion offer two low-cost, bedside methods for monitoring muscle mass in patients who cannot travel for DXA or CT. POCUS requires a handheld ultrasound device ($2,000--6,000), 5-minute scan, zero radiation, performed supine with no patient movement. Validated against DXA/CT in ICU populations. Urinary creatinine requires accurate 24-hour collection (caregiver-assist needed) and is confounded by diet, renal function, and collection completeness, but serial measurements within the same patient track muscle mass trends.
+
+*Falsifiable prediction:* Ultrasound quadriceps CSA decline rate will correlate with functional decline (Bell Disability Scale change) over 24 weeks in bedbound ME/CFS, and will detect intervention effects with sensitivity comparable to DXA-measured lean mass.
+
+*Limitations:* Non-ME/CFS validation only. Neither method measures bone density. Urinary creatinine floor effects possible at low muscle mass. Reliable 24h urine collection challenging in severe patients.
+
+] <spec:muscle-mass-monitoring>
+
+#open-question(title: [Optimal Intervention Combinations for Synergistic Muscle Preservation])[
+
+The individual interventions — nutritional anti-catabolic support, PROM, positioning, isometric holds — address complementary pathways: nutrition provides substrate, PROM maintains joint range, positioning prevents contractures, isometrics provide minimal loading stimulus. Whether combining these produces additive or synergistic muscle preservation in bedbound ME/CFS is unknown.
+
+Key open questions: (a) NMES + HMB synergy — one activates mTOR, the other inhibits ubiquitin-proteasome; mechanistically complementary but both introduce PEM risk; (b) PROM + positioning interaction — do both together reduce contracture incidence more than either alone? (c) Nutritional + mechanical synergy — does intact muscle protein synthesis machinery (maintained by nutrition) enable mechanical stimuli to produce an anabolic response? (d) Intervention ceiling — is there a maximum tolerable total intervention intensity beyond which even passive components trigger PEM?
+
+] <oq:combination-synergy>
+
+#speculation(title: [Caregiver Training and Protocol Fidelity Improves Muscle Preservation Outcomes])[
+
+*Certainty: 0.40.* Established in chronic disease management for other conditions; extrapolated to ME/CFS by analogy. Not yet replicated in ME/CFS.
+
+All bedbound muscle preservation interventions depend on caregiver execution. Standardized caregiver training — including PROM technique, repositioning procedure, nutritional preparation, and PEM recognition — may improve protocol fidelity and reduce adverse events. Training elements: correct joint positioning and range limits for PROM, safe position transitions and pressure point inspection for repositioning, small frequent meals and GI intolerance monitoring for nutrition, and standardized symptom logs to distinguish intervention-related PEM from background disease fluctuations.
+
+*Falsifiable prediction:* Caregivers receiving structured training will achieve higher protocol adherence (validated by observation) and their patients will show better muscle preservation outcomes vs. untrained caregivers following written instructions alone, over 12 weeks.
+
+*Limitations:* No ME/CFS caregiver-training trial exists. Caregiver burden may increase with training requirements. Training availability is a socioeconomic access barrier. Protocol fidelity measurement is inherently intrusive — may not be acceptable to severely ill patients.
+
+] <spec:caregiver-training>
+
+#speculation(title: [PEM Frequency May Accelerate Muscle Atrophy Independently of Disuse in ME/CFS])[
+
+*Certainty: 0.15.* Theoretical inference only; no direct evidence for PEM-specific atrophy acceleration.
+
+If PEM episodes involve systemic inflammatory activation, oxidative stress, and metabolic crisis — all catabolic stimuli — then repeated PEM may accelerate muscle protein breakdown beyond the rate expected from disuse alone. In this model, muscle CSA decline rate = f(disuse duration, PEM frequency, PEM severity, nutritional status), where frequent PEM increases the slope of atrophy. This would imply that PEM prevention (via aggressive pacing) is itself a muscle preservation intervention.
+
+*Falsifiable prediction:* In bedbound ME/CFS patients matched for immobility duration, those with higher PEM frequency (≥2 episodes/month) will show faster muscle CSA decline than matched low-PEM patients (≤0.5 episodes/month), independent of nutritional status and positioning adherence.
+
+*Limitations:* Purely theoretical. No data correlating PEM frequency with muscle mass change. Disuse duration and PEM frequency are likely confounded (patients with more PEM may be more severe and have longer immobility). PEM-specific atrophy beyond standard inflammatory catabolism not established.
+
+] <spec:pem-atrophy-acceleration>
+
+#speculation(title: [Nutritional Status Modulates Atrophy Rate — A Multi-Variable ODE Extension])[
+
+*Certainty: 0.25.* Mathematical induction from established atrophy kinetics × nutritional intervention data; no model validated against ME/CFS data.
+
+A multi-variable ODE extension could model muscle mass decline as a function of immobility time, nutritional status, and PEM frequency: dM/dt = --αD -- β(1 -- S) + γP, where M = muscle CSA, D = disuse duration, S = nutritional status (protein adequacy, HMB, leucine, normalized 0--1), P = PEM frequency, and α, β, γ are patient-specific parameters. Deutz 2013 provides a potential α estimate (--2.05 kg / 10 days) but ME/CFS α may differ substantially @Deutz2013HMB.
+
+*Falsifiable prediction:* The multi-variable model will predict muscle CSA decline more accurately (R#super[2] improvement ≥0.10) than the disuse-only model when tested against longitudinal ultrasound data from bedbound ME/CFS (n ≥ 15), over 12--24 weeks.
+
+*Limitations:* No ME/CFS validation data. Parameters unknown for ME/CFS. Model assumes linear additivity of disuse, nutrition, and PEM effects — likely interacting and nonlinear. γ parameter (PEM effect) is purely hypothetical.
+
+] <spec:atrophy-ode>
+
+#open-question(title: [Cross-Disease Research Priorities for Bedbound Muscle Preservation in ME/CFS])[
+
+The following research directions represent the most actionable translational investigations from cross-disease analogies: (a) NASA nutritional countermeasure trial — HMB + creatine + vitamin D3 + omega-3 adapted to bedbound ME/CFS, 12-week pilot (n=10--15), primary outcome ultrasound quadriceps CSA @Deutz2013HMB; (b) NMES PEM threshold determination — single-arm dose-escalation pilot starting at 1 min lowest-visible-contraction NMES, establishing the fundamental safety question before any efficacy question @Dirks2015NMES; (c) HMB dose-finding in ME/CFS — pilot (n=10--15) starting at 1 g/day with weekly escalation to 3 g/day, determining whether ME/CFS patients tolerate the Deutz 2013 efficacious dose; (d) PROM safety in ME/CFS — observational cohort (n=20), caregiver-administered PROM 1x/week, establishing safety before larger efficacy trial @Morris2008ICUMobility; (e) Positioning protocol validation — cohort (n=15) with structured 2-hour repositioning, providing ME/CFS-specific data on an intervention whose safety is well-established in other populations.
+
+] <oq:cross-disease-research-priorities>
+
+#speculation(title: [Mechanical Vibration for Bone Density Preservation in Bedbound ME/CFS — Risk-Benefit Uncertain])[
+
+*Certainty: 0.15.* Extrapolation from general osteoporosis WBV literature; Wollersheim 2017 ICU pilot (n=19) confirms safety and feasibility of supine WBV but demonstrated significant energy expenditure increase — the parameter most concerning for ME/CFS. No ME/CFS trial.
+
+Whole-body vibration (WBV) is proposed for bone density preservation in non-ambulatory populations because mechanical loading stimulates osteocyte Wnt signaling without weight-bearing. However, Wollersheim 2017 found that supine WBV in ventilated ICU patients significantly increased energy expenditure @Wollersheim2017WBV — the metabolic cost that ME/CFS patients cannot afford. Very low-intensity mechanical vibration below the threshold that measurably increases energy expenditure remains theoretically possible but has not been tested in any population. Sub-metabolic-threshold vibration is a concept only — no device protocol exists, and whether vibration below the metabolic-threshold-for-non-ME/CFS still triggers PEM in ME/CFS is completely unknown.
+
+For bone preservation in bedbound patients, vitamin D3 + calcium + protein adequacy remain the safest, most evidence-supported strategies. WBV represents an evidence gap; it should not be attempted outside research settings until ME/CFS-specific safety and dosing data exist, and then only in supine application at the lowest parameters tested. Bedbound or severe patients should never use standing WBV platforms.
+
+*Falsifiable prediction:* Sub-metabolic-threshold supine vibration (parameters below those shown to increase energy expenditure in Wollersheim 2017) applied 10 min/day will increase bone formation marker P1NP without increasing HR, VO2, or PEM frequency in bedbound ME/CFS patients.
+
+*Limitations:* No ME/CFS WBV trial. Wollersheim 2017 n=19, single-session, no bone outcomes. "Sub-metabolic-threshold" vibration is hypothetical — no device exists. Sensory sensitivities common in ME/CFS may prevent vibration tolerance. Even minimal vibration could trigger autonomic activation or sensory PEM.
+
+] <spec:bone-vibration-bedbound>
+
+#open-question(title: [Speculative Nutritional and Pharmacological Adjuncts for Muscle Preservation])[
+
+Several nutritional compounds and repurposed drugs with mechanistic rationale for anti-catabolic or muscle-preserving effects have not been tested in ME/CFS:
+
+*Supplement candidates (no ME/CFS data):* Ursolic acid (apple peel component, inhibits atrophy via IGF-1 upregulation; preclinical data only), beta-alanine (intramuscular carnosine for pH buffering; athletic performance data only), phosphatidic acid (direct mTOR activation independent of leucine; limited human data), resveratrol (SIRT1/PGC-1alpha mitochondrial biogenesis; mixed human trial results), glycine (rate-limiting for collagen synthesis; connective tissue rationale in EDS+ME/CFS). All are mechanistically speculative with zero ME/CFS evidence. Do not prioritize any of these over the evidence-supported interventions (HMB, creatine, protein, vitamin D).
+
+*Repurposed drug candidates (speculative, research-stage only):* Myostatin inhibitors (ACE inhibitors like lisinopril have weak myostatin-inhibiting effects — would require prospective study in POTS patients already prescribed lisinopril vs. other POTS medications), low-dose mifepristone (glucocorticoid receptor antagonist; documented HPA dysfunction in ME/CFS but no muscle-specific data; tested in other glucocorticoid-dysfunction conditions), bioidentical hormone replacement (testosterone, DHEA — only if documented deficiency; risks include cancer, cardiovascular, and unknown ME/CFS-specific adverse effects). These are clinical research questions only; no recommendation for clinical use without trial data.
+
+*Peptide vs. free-form amino acids:* Some ME/CFS patients report improved GI tolerance of peptide supplements compared to free-form amino acids, but no ME/CFS absorption study exists comparing bioavailability. If free-form supplements are poorly tolerated (GI PEM trigger), peptide forms may be trialed with monitoring — but no recommendation can be made on current evidence.
+
+#practical-warning(title: [Speculative Supplements Not Tested in ME/CFS])[
+None of the above compounds have been tested in ME/CFS. They are listed for research prioritization, not clinical recommendation. Any trial in severe/bedbound patients should follow the micro-dosing imperative (1/10 standard dose start, single agent only, 2-week monitoring), carry explicit "uncertainty: untested" labeling, and be discontinued immediately if PEM frequency increases.
+]
+
+] <oq:speculative-adjuncts>
 
 == Stress Management
 <sec:stress-management>
@@ -1576,7 +1729,7 @@ Hip-high stockings would likely show greater benefit but have not been studied. 
 === Cerebral Perfusion Optimization as Metabolic Reserve Intervention
 <subsec:perfusion-optimization-reserve>
 
-In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/POTS reduces metabolic reserve via cerebral hypoperfusion — an energy _delivery_ deficit rather than a _production_ deficit. Interventions that improve cerebral blood flow directly increase $R_"headroom"$. These interventions are standard POTS management but are rarely framed as metabolic reserve interventions — in Architecture C, they do not just treat orthostatic symptoms but directly increase the energy available for cognitive work.
+In the Architecture C framework (@sec:architecture-c-metabolic-reserve), hEDS/POTS reduces metabolic reserve via cerebral hypoperfusion — an energy delivery deficit rather than a production deficit. Interventions that improve cerebral blood flow directly increase $R_headroom$. These interventions are standard POTS management but are rarely framed as metabolic reserve interventions — in Architecture C, they do not just treat orthostatic symptoms but directly increase the energy available for cognitive work.
 
     + *Head-of-bed elevation (10–15 degrees).* Improves cerebral venous drainage during sleep, enhancing glymphatic clearance and reducing morning brain fog.
     + *Graduated compression (abdominal binder + thigh-high stockings, 30–40 mmHg).* Reduces venous pooling, improves venous return and cardiac output, increases cerebral blood flow. Abdominal binder particularly relevant for reclined/bedbound patients.
@@ -1597,7 +1750,7 @@ The Perrin Technique, developed by British osteopath Dr. Raymond Perrin from 198
 
 *Theoretical basis:* Thoracic spine rigidity impairs lymphatic drainage from the brain (the brain's glymphatic/lymphatic system was only recently confirmed, though no study has directly demonstrated that Perrin's technique affects glymphatic clearance). Stagnant lymphatic fluid allows toxin and metabolic waste accumulation in the central nervous system, potentially contributing to autonomic dysregulation. A sympathetic-dominant nervous system further slows lymphatic flow, creating a vicious cycle.
 
-*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls) The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple ("Perrin's point"), tender solar plexus, and reduced cranio-sacral rhythm.
+*Diagnostic utility:* Perrin et al. (2017, BMJ Open) identified five physical signs with 86% diagnostic accuracy in an experienced practitioner and 77% in a recently trained one ($n = 52$ ME/CFS, 42 controls). The five signs include tender rigid thoracic spine, varicose lymphatics in the chest, a characteristic tender point above the left nipple (Perrin\s point), tender solar plexus, and reduced cranio-sacral rhythm.
 
 *Efficacy evidence:* Perrin et al. (2022) treated 20 Long~COVID patients with an average of 9 weekly sessions and measured improvement on a 54-item fatigue scale: 41.8% improvement in men, 60.5% improvement in women, with most scale items improving approximately 50%
 
