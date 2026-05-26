@@ -16893,3 +16893,277 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Certainty:* 0.55
         - *Limitations:* Wrong patient population (healed myocardial infarction, not ME/CFS); all male; upright cycling in water (not swimming); no assessment of symptoms or perceived exertion; acute exercise only
 
+// =============================================================================
+
+== Exosome-Mediated Sleep Deprivation Reversal
+<sec:bib-exosome-sleep-reversal>
+// =============================================================================
+
+=== Kang et al.\ 2026 — HSP70 mRNA-Loaded Exosomes Reverse Sleep Deprivation Brain Damage
+
+    *Full Citation:*: Kang Z, Zhu G, Su C, Zhong X, Lin J, Lin Y. Delivery of HSP70 mRNA via exosomes ameliorates sleep deprivation-induced cognitive impairments in mice. _Translational Psychiatry_. 2026. https://doi.org/10.1038/s41398-026-04044-z
+    *DOI:*: #link("https://doi.org/10.1038/s41398-026-04044-z")[10.1038/s41398-026-04044-z]
+    *Published:*: April 24, 2026
+    *Study Design:*: Preclinical mouse model with engineered exosomes
+    *Sample Size:*: Not specified in abstract (mice)
+    *Key Findings:*
+        
+        - Engineered HEK293T cells stably expressing HSP70 mRNA and brain-targeting RVG-Lamp2b fusion protein generated HSP70@ExoRVG exosomes
+        - HSP70@ExoRVG exosomes efficiently delivered HSP70 mRNA to neural progenitor cells (NPCs), increasing intracellular HSP70 protein
+        - In vivo systemic administration restored memory performance in sleep-deprived mice
+        - Treatment reduced hippocampal pro-inflammatory cytokines: TNF-α, IL-6, IL-1β
+        - Treatment increased anti-inflammatory IL-10
+        - Elevated brain-derived neurotrophic factor (BDNF) and phosphorylated CREB, indicating enhanced neurotrophic signaling
+        - Effects surpassed those of non-targeted exosomes or empty exosomes
+        - First demonstration of RVG-modified exosomes successfully delivering mRNA (rather than siRNA or miRNA) for treating sleep deprivation-induced deficits
+        - HSP70@ExoRVG offers promising noninvasive therapeutic strategy for sleep-related neurodegenerative conditions
+    
+    *Relevance:*
+    First study to demonstrate engineered exosomes can deliver therapeutic mRNA across the BBB to reverse cognitive and inflammatory consequences of sleep deprivation. The RVG targeting strategy enables brain-specific delivery without invasive procedures. Reduction of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β) and enhancement of neurotrophic signaling (BDNF, pCREB) address core pathophysiological processes that may overlap with ME/CFS: sleep disturbance, cognitive impairment, and neuroinflammation. Provides proof-of-concept for exosome-based mRNA delivery as a potential ME/CFS therapeutic approach, though direct ME/CFS data is absent.
+    
+    *Certainty Assessment:*
+        
+        - *Quality:* Medium (published in _Translational Psychiatry_ [Nature portfolio], peer-reviewed)
+        - *Sample:* Preclinical mice model; sample size not specified
+        - *Replication:* None yet (published April 2026)
+        - *Methodology:* Engineered exosomes characterized via TEM, NTA, Western blot; behavioral tests; molecular analyses of inflammatory and neurotrophic markers — standard preclinical methods
+        - *Limitations:* Single preclinical study; animal model only; no replication; no direct ME/CFS relevance; chronic ME/CFS pathology differs from acute sleep deprivation model; safety and scalability for clinical translation unknown; long-term effects of repeated exosome administration not studied
+    
+    === Ramos-Zald{\'i}var et al.\ 2022 — Extracellular Vesicles BBB Crossing Mechanisms
+
+    *Full Citation:*: Ramos-Zald{\'i}var HM, Polakovicova I, Salas-Huenuleo E, Corval{\'a}n AH, Kogan MJ, Yefi CP, Andia ME. Extracellular vesicles through the blood–brain barrier: a review. _Fluids and Barriers of the CNS_. 2022;19(1):60.
+    *DOI:*: #link("https://doi.org/10.1186/s12987-022-00359-3")[10.1186/s12987-022-00359-3]
+    *PMID:*: 35853456
+    *PMCID:*: PMC9331269
+    *Published:*: July 25, 2022
+    *Study Design:*: Systematic review
+    *Sample Size:*: N/A (review paper with 268 citations)
+    *Key Findings:*
+        
+        - Bidirectional EV transport across BBB remains poorly understood
+        - Most evidence from in vitro models: monolayer transwell assays, microfluidic organ-on-a-chip techniques
+        - No direct transcytosis visualization through BBB in mammals in vivo
+        - Evidence comes from in vivo experiments in zebrafish
+        - Multiple proposed EV crossing mechanisms identified: macropinocytosis, clathrin-mediated endocytosis, caveolae-mediated endocytosis, adsorptive-mediated endocytosis
+        - Inflammation enhances EV permeability: TNF-α and LPS treatment increases EV crossing in transwell models
+        - EVs can cross intact BBB or disrupt BBB integrity depending on EV origin and experimental conditions
+        - BBB models vary in complexity: monolayer (most common), bilayer (endothelium + pericytes), tri-layer (endothelium + pericytes + astrocytes)
+        - EVs from breast cancer cells show internalization in endothelial cells but limited crossing beyond endothelium in multi-layer models
+        - EVs from HEK 293T cells and erythrocytes cross BBB monolayers only when inflammation is simulated
+    
+    *Relevance:*
+    Systematic review of BBB crossing mechanisms provides foundational understanding for exosome-based drug delivery to brain. Identifies multiple active transport pathways (endocytosis, transcytosis) rather than passive diffusion, suggesting engineering strategies can enhance BBB crossing. Inflammation-enhanced permeability may be relevant to ME/CFS if neuroinflammation or systemic inflammation increases BBB EV transport, potentially facilitating therapeutic delivery but also permitting pathological EV communication. Highlights methodological limitations: most data from in vitro models, limited in vivo mammalian evidence, zebrafish data may not translate to mammals. Critical for evaluating translational potential of exosome therapies for ME/CFS CNS targets.
+    
+    *Certainty Assessment:*
+        
+        - *Quality:* High (systematic review in _Fluids and Barriers of the CNS_, BMC journal, 268 citations)
+        - *Sample:* N/A (review synthesizes multiple studies)
+        - *Replication:* N/A (review paper)
+        - *Limitations:* Limited primary data on mammalian in vivo BBB transcytosis; focuses on EV transport mechanisms generally rather than mRNA cargo delivery specifically; heterogeneity across studies in EV origin, isolation methods, and BBB models complicates generalizability
+    
+    === Sanadgol et al.\ 2025 — Exosomes as Brain-Targeted NA-BT Nanocarriers
+
+    *Full Citation:*: Sanadgol N, Abedi M, Hashemzaei M, Kamran Z, Khalseh R, Beyer C, Voelz C. Exosomes as nanocarriers for brain-targeted delivery of therapeutic nucleic acids: advances and challenges. _Journal of Nanobiotechnology_. 2025;23:453.
+    *DOI:*: #link("https://doi.org/10.1186/s12951-025-03528-2")[10.1186/s12951-025-03528-2]
+    *PMID:*: 40533746
+    *PMCID:*: PMC12178025
+    *Published:*: June 18, 2025
+    *Study Design:*: Comprehensive review
+    *Sample Size:*: N/A (review paper)
+    *Key Findings:*
+        
+        - Comprehensive overview of nucleic acid-based therapies (NA-BTs) for CNS disorders
+        - NA-BT types covered: siRNAs, miRNAs, antisense oligonucleotides (ASOs), mRNAs, aptamers, peptide nucleic acids (PNAs), DNAs, DNAzymes, CRISPR/Cas systems
+        - BBB structure and function overview: endothelial cells, pericytes, astrocytes, neurons (neurovascular unit)
+        - Exosome advantages: biocompatibility, capacity to cross biological barriers, protection of nucleic acid cargo, lower immunogenicity than viral vectors
+        - Exosome engineering strategies for brain targeting: surface modification (e.g., RVG peptide), cargo loading (electroporation, incubation, transfection), donor cell engineering
+        - Comparison with conventional nanocarriers: exosomes show advantages over lipid nanoparticles (LNPs) for brain delivery but face scalability challenges
+        - Comparison with cell-based therapies: exosomes avoid cell transplantation risks but have limited cargo capacity
+        - Methodological limitations identified: cargo variability between batches, heterogeneity in isolation techniques, lack of standardization, safety concerns (off-target effects, immunogenicity)
+        - Clinical translation challenges: manufacturing scalability, quality control, regulatory pathways
+        - Applications discussed for neurodegenerative diseases (Alzheimer's, Parkinson's), stroke, traumatic brain injury, multiple sclerosis, brain tumors
+    
+    *Relevance:*
+    Most comprehensive recent review on exosomes as nucleic acid delivery vehicles to brain. Establishes the conceptual and technical framework for understanding Kang 2026's HSP70 mRNA delivery approach. Provides mechanistic rationale for why exosomes may be superior to LNPs for CNS delivery: natural BBB-crossing capability, lower immunogenicity, biocompatibility. Identifies key challenges that directly inform translational potential for ME/CFS: cargo variability (may affect dosing consistency), scalability (may limit accessibility), safety (concern for ME/CFS patients with immune dysregulation). Comparison with cell-based therapies and LNPs helps contextualize exosomes within broader therapeutic landscape. Discussion of neurodegenerative disease applications provides cross-disease parallels, though ME/CFS-specific data absent.
+    
+    *Certainty Assessment:*
+        
+        - *Quality:* High (comprehensive review in _Journal of Nanobiotechnology_, recent 2025 publication, extensive referencing)
+        - *Sample:* N/A (review paper)
+        - *Replication:* N/A (review paper)
+        - *Limitations:* Review format synthesizes existing literature rather than providing primary data; limited discussion of negative results or failed clinical trials; ME/CFS not specifically addressed; therapeutic optimism not balanced with safety data from human trials
+
+// =============================================================================
+
+== Muscle Preservation in Severe/Bedbound — Relevance to ME/CFS
+<sec:bib-muscle-preservation-bedbound>
+// =============================================================================
+
+=== Morris et al.\ 2008 — Early ICU Mobility Therapy
+
+    *Full Citation:*: Morris PE, Goad A, Thompson C, Taylor K, Harry B, Passmore L, Ross A, Anderson L, Baker S, Sanchez M, Penley L, Howard A, Dixon L, Leach S, Small R, Hite RD, Haponik E.\ Early intensive care unit mobility therapy in the treatment of acute respiratory failure.\ _Critical Care Medicine_.\ 2008;36(8):2238–2243. @Morris2008ICUMobility
+    *DOI:*: #link("https://doi.org/10.1097/CCM.0b013e318180b90e")[10.1097/CCM.0b013e318180b90e]
+    *PMID:*: 18596631
+    *Published:*: August 2008
+    *Study Design:*: Prospective cohort study
+    *Sample Size:*: n=330 (165 protocol, 165 usual care)
+    *Key Findings:*:
+
+        - Protocol group: 80% received physical therapy vs. 47% usual care (p ≤ 0.001)
+        - Earlier mobilization: 5 vs. 11 days to out-of-bed (p ≤ 0.001)
+        - Reduced ICU LOS: 5.5 vs. 6.9 days (p = 0.025)
+        - Reduced hospital LOS: 11.2 vs. 14.5 days (p = 0.006)
+        - Similar low complication rates between groups
+        - No untoward events during mobility sessions
+        - No cost difference between arms
+
+    *Conclusion:*: A Mobility Team using a mobility protocol initiated earlier physical therapy that was feasible, safe, did not increase costs, and was associated with decreased ICU and hospital length of stay.
+    *Limitations:*: Wrong patient population (acute ICU vs. chronic ME/CFS); no assessment of fatigue or post-exertional symptoms; relatively short ICU stay timeframe; protocol includes active mobility beyond pure PROM.
+    *ME/CFS Relevance:*: Establishes safety and feasibility of early, protocolized PROM and mobility in ventilated ICU patients. Provides precedent for structured positioning protocols in bedbound populations. However, ME/CFS patients differ fundamentally: ICU protocols involve active participation and physiological reserves absent in severe ME/CFS. PEM risk: HIGH if activity intensity or duration exceeds tolerance.
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium (Critical Care Medicine; moderate sample size; single study)
+        - *Certainty:* 0.55
+        - *Limitation:* ICU population not directly translatable; no PEM assessment
+
+=== Wollersheim et al.\ 2017 — Whole-Body Vibration with PROM in ICU
+
+    *Full Citation:*: Wollersheim T, Haas K, Wolf S, Mai K, Spies C, Steinhagen-Thiessen E, Wernecke KD, Spranger J, Weber-Carstens S.\ Whole-body vibration to prevent intensive care unit-acquired weakness: safety, feasibility, and metabolic response.\ _Critical Care_.\ 2017;21(1):9. @Wollersheim2017WBV
+    *DOI:*: #link("https://doi.org/10.1186/s13054-016-1576-y")[10.1186/s13054-016-1576-y]
+    *PMID:*: 28065165
+    *Published:*: January 9, 2017
+    *Study Design:*: Clinical trial
+    *Sample Size:*: n=19 mechanically ventilated ICU patients
+    *Key Findings:*:
+
+        - PROM performed prior to WBV therapy (6 minutes)
+        - WBV applied in supine position for 15 minutes
+        - Vital signs and hemodynamic parameters remained stable
+        - No adverse events observed
+        - No application interruptions required
+        - Significant increase in energy expenditure during WBV
+        - Protocol: baseline (10 min rest) → physiotherapy (6 min PROM) → short rest → WBV (15 min) → post-rest
+
+    *Conclusion:*: The application of whole-body vibration was safe and feasible. The technique leads to increased energy expenditure.
+    *Limitations:*: Small sample size; no control group; short intervention period; no long-term outcomes; no assessment of muscle strength, bone density, or functional outcomes.
+    *ME/CFS Relevance:*: Demonstrates safety of PROM combined with low-intensity mechanical stimulation (WBV) in immobilized, critically ill patients. The supine positioning and passive nature of initial phase is potentially translatable. However, WBV increased energy expenditure, which is concerning for ME/CFS patients with metabolic dysfunction. PEM risk: MODERATE-HIGH due to increased metabolic demand from WBV component.
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium-Low (Critical Care; small sample; safety-focused; no control group)
+        - *Certainty:* 0.48
+        - *Limitation:* Increased energy expenditure concerning for ME/CFS
+
+=== Bao et al.\ 2022 — NMES with PROM Component in ICU
+
+    *Full Citation:*: Bao W, Yang J, Li M, Chen K, Ma Z, Bai Y, Xu Y.\ Prevention of muscle atrophy in ICU patients without nerve injury by neuromuscular electrical stimulation: a randomized controlled study.\ _BMC Musculoskeletal Disorders_.\ 2022;23(1):780. @Bao2022NMESICU
+    *DOI:*: #link("https://doi.org/10.1186/s12891-022-05739-2")[10.1186/s12891-022-05739-2]
+    *PMID:*: 35974369
+    *Published:*: August 16, 2022
+    *Study Design:*: Randomized controlled trial (3 arms)
+    *Sample Size:*: n=? (RCT with 3 arms)
+    *Key Findings:*:
+
+        - Groups: Exp I (APAT + NMES gastrocnemius + tibialis anterior), Exp II (APAT + NMES gastrocnemius alone), Control (APAT alone)
+        - APAT = active and passive activity training (includes PROM)
+        - All groups showed downward trend in muscle strength, ROM, CSA (atrophy irreversible overall)
+        - Decrease in gastrocnemius strength smaller in Exp I and II vs. control (p < 0.05)
+        - Decrease in active ankle ROM smaller in Exp I and II vs. control (p < 0.05)
+        - Decrease in muscle CSA smaller in Exp I and II vs. control (p < 0.05)
+        - Exp I (dual-muscle NMES) performed better than Exp II (single-muscle NMES)
+        - No significant differences in CRP, lactic acid, PT during treatment
+
+    *Conclusion:*: In addition to early exercise training, NMES should be applied to prevent muscle atrophy for patients without nerve injury in ICU. Also, simultaneous NMES treatment on agonist/antagonist muscle can enhance the effect.
+    *Limitations:*: Sample size not fully specified; ICU population; APAT includes active training not translatable to severe ME/CFS; all groups still experienced muscle loss (only rate reduced); no PEM or fatigue assessment.
+    *ME/CFS Relevance:*: Incorporates PROM as part of APAT protocol. Demonstrates that combining PROM with low-intensity stimulation (NMES) may mitigate atrophy more effectively than PROM alone. However, APAT includes "active" training component that is likely inappropriate for severe ME/CFS. PEM risk: HIGH if APAT's active component is used; MODERATE if only PROM + NMES applied cautiously.
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium (BMC Musculoskeletal Disorders; RCT; peer-reviewed)
+        - *Certainty:* 0.52
+        - *Limitation:* APAT includes active component; sample size not fully specified
+
+=== Deutz et al.\ 2013 — HMB for Lean Body Mass Preservation During Bed Rest
+
+    *Full Citation:*: Deutz NE, Pereira SL, Hays NP, Oliver JS, Edens NK, Evans CM, Wolfe RR.\ Effect of {${\beta}$}-hydroxy-{${\beta}$}-methylbutyrate (HMB) on lean body mass during 10 days of bed rest in older adults.\ _Clinical Nutrition_.\ 2013;32(5):704–712. @Deutz2013HMB
+    *DOI:*: #link("https://doi.org/10.1016/j.clnu.2013.02.011")[10.1016/j.clnu.2013.02.011]
+    *PMID:*: 23514626
+    *Published:*: October 2013
+    *Study Design:*: Randomized, controlled, double-blinded, parallel-group
+    *Sample Size:*: n=19 evaluable (Control=8, HMB=11) from n=24 enrolled
+    *Key Findings:*:
+
+        - Participants: 20 women, 4 men, age 60-76 years, SPPB ≥ 9 (healthy function at baseline)
+        - Intervention: HMB (calcium salt) 1.5 g twice daily (3 g/day total)
+        - Treatment timeline: 5 days pre-bed rest → 10 days complete bed rest → 8 weeks resistance training rehabilitation
+        - **Control group:** Significant LBM decrease after bed rest (-2.05 ± 0.66 kg; p = 0.02)
+        - **HMB group:** No significant LBM decrease after bed rest (-0.17 ± 0.19 kg; p = 0.23)
+        - **Between-group difference:** Significant (p = 0.02, ANOVA)
+        - **Female sub-analysis:** Significant difference in LBM change between groups (p = 0.04)
+        - No differences in function parameters observed (likely due to small sample size)
+
+    *Conclusion:*: In healthy older adults, HMB supplementation preserves muscle mass during 10 days of bed rest. These results need to be confirmed in a larger trial.
+    *Limitations:*: Small sample size; healthy older adults not chronically ill; short bed rest duration (10 days) vs. ME/CFS chronicity; no PEM or fatigue assessment; HMB safety profile in ME/CFS unknown.
+    *ME/CFS Relevance:*: Directly addresses muscle mass preservation during complete bed rest in older adults—a population with some parallels to severe ME/CFS. HMB is a leucine metabolite with anti-catabolic properties. The protocol (oral supplementation) is minimally invasive and suitable for bedbound patients. No active exercise required. PEM risk: LOW (nutritional intervention; does not increase physical or cognitive load).
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium-High (Clinical Nutrition; RCT; double-blind; peer-reviewed)
+        - *Certainty:* 0.60
+        - *Limitation:* Healthy older adults; short bed rest; no PEM assessment
+
+=== Standley et al.\ 2017 — HMB Effects on Mitochondria During Bed Rest
+
+    *Full Citation:*: Standley RA, Distefano G, Pereira SL, Tian M, Kelly OJ, Coen PM, Deutz NEP, Wolfe RR, Goodpaster BH.\ Effects of {${\beta}$}-hydroxy-{${\beta}$}-methylbutyrate on skeletal muscle mitochondrial content and dynamics, and lipids after 10 days of bed rest in older adults.\ _Journal of Applied Physiology_.\ 2017;123(5):1092–1100. @Standley2017HMBMitochondria
+    *DOI:*: #link("https://doi.org/10.1152/japplphysiol.00192.2017")[10.1152/japplphysiol.00192.2017]
+    *PMID:*: 28705993
+    *Published:*: November 1, 2017
+    *Study Design:*: Randomized Controlled Trial
+    *Sample Size:*: n=19 (60-76 yr), HMB=11, Control=8
+    *Key Findings:*:
+
+        - Same cohort as Deutz 2013 (10 days bed rest + 8 weeks rehab)
+        - HMB: 3 g/day
+        - **Mitochondrial content and dynamics:**
+            - No change in OXPHOS or mitochondrial dynamics after 10 days bed rest in either group
+            - HMB maintained higher OXPHOS complex II protein after 8-week rehab (p < 0.05)
+            - HMB maintained higher levels of DRP1 (fission) and MFN2 (fusion) after rehab (p < 0.05)
+        - **Autophagy and atrophy markers:**
+            - Poly-ubiquitinated proteins increased after bed rest in both groups (main effect for time, p < 0.05)
+            - BNIP3 and poly-ub proteins decreased after rehab in both groups (p < 0.05)
+        - **Lipids:**
+            - Muscle triglyceride content tended to increase after bed rest in HMB group (p = 0.055)
+
+    *Conclusion:*: HMB influences mitochondrial dynamics and lipid metabolism during disuse atrophy and rehabilitation; maintains mitochondrial OXPHOS content and dynamics during rehabilitation.
+    *Limitations:*: Small sample size; healthy older adults; short bed rest period; resistance training rehab not translatable; no assessment of symptom exacerbation or fatigue.
+    *ME/CFS Relevance:*: Provides mechanistic data supporting HMB's effects on mitochondrial health during disuse—directly relevant to ME/CFS mitochondrial dysfunction hypotheses. The maintenance of mitochondrial dynamics (fission/fusion balance) during rehabilitation suggests HMB may support mitochondrial recovery after periods of reduced activity. PEM risk: LOW (same as Deutz 2013; nutritional intervention).
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium-High (Journal of Applied Physiology; RCT; mechanistic data)
+        - *Certainty:* 0.58
+        - *Limitation:* Healthy older adults; rehab not translatable; no PEM assessment
+
+=== Dirks et al.\ 2015 — NMES Prevents Muscle Wasting in Comatose ICU Patients
+
+    *Full Citation:*: Dirks ML, Hansen D, Van Assche A, Dendale P, Van Loon LJ.\ Neuromuscular electrical stimulation prevents muscle wasting in critically ill comatose patients.\ _Clinical Science_.\ 2015;128(6):357–365. @Dirks2015NMES
+    *DOI:*: #link("https://doi.org/10.1042/CS20140447")[10.1042/CS20140447]
+    *PMID:*: 25296344
+    *Published:*: March 2015
+    *Study Design:*: Clinical trial (within-subject crossover)
+    *Sample Size:*: n=6 fully sedated ICU patients (3 males, 3 females)
+    *Key Findings:*:
+
+        - **Population:** Fully sedated ICU patients, age 63 ± 6 y, APACHE II: 29 ± 2 (high severity)
+        - **Protocol:** One leg received twice-daily NMES of quadriceps for 7 ± 1 days; other leg as non-stimulated control
+        - **Muscle fiber CSA:**
+            - **Control leg:** Type I fibers decreased 16 ± 9% (p < 0.05); Type II fibers decreased 24 ± 7% (p < 0.05)
+            - **Stimulated leg:** **No muscle atrophy observed**
+        - **mTOR pathway:** NMES increased mTOR phosphorylation by 19 ± 5% vs. baseline (p < 0.05); no change in control leg
+        - **Atrophy genes:** mRNA expression of FOXO1 declined (p < 0.05); MAFBx and MuRF1 unchanged; no differences between legs
+
+    *Conclusion:*: NMES represents an effective and feasible interventional strategy to prevent skeletal muscle atrophy in critically ill comatose patients.
+    *Limitations:*: Very small sample size (n=6); short intervention period (7 days); ICU population with different pathophysiology; high severity of illness (APACHE II 29); no assessment of functional outcomes; no long-term follow-up.
+    *ME/CFS Relevance:*: Directly addresses muscle atrophy prevention in fully sedated, immobilized patients—the closest physiological analog to severe/bedbound ME/CFS in the ICU literature. The within-subject design controls for individual variation. Mechanistic data (mTOR activation, atrophy gene suppression) provides biological plausibility. NMES is fully passive (requires no patient effort). PEM risk: LOW-MODERATE. NMES bypasses volitional activation and central fatigue, but may still trigger autonomic or metabolic responses.
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium (Clinical Science; within-subject design; mechanistic data)
+        - *Certainty:* 0.50
+        - *Limitation:* Very small sample; short duration; no PEM assessment
+

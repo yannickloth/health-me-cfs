@@ -448,3 +448,9 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/41856437/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — PerezMazzali2026ImmuneDysregulation — immune dysregulation biomarkers Long COVID |
 | https://pubmed.ncbi.nlm.nih.gov/41794369/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — Augustin2026GutImmuneAxis — gut immune axis pDC Long COVID |
 | https://pubmed.ncbi.nlm.nih.gov/41972671/ | pubmed | 2026-05-24 | 2026-05-24 | bib/appendix-h — Asaba2026ViralNETsReview — NETs viral infections review |
+| https://pubmed.ncbi.nlm.nih.gov/18596631/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Morris2008ICUMobility — early ICU mobility therapy PROM safety effectiveness |
+| https://pubmed.ncbi.nlm.nih.gov/28065165/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Wollersheim2017WBV — whole-body vibration safety feasibility metabolic response ICU |
+| https://pubmed.ncbi.nlm.nih.gov/35974369/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Bao2022NMESICU — NMES prevents muscle atrophy ICU RCT |
+| https://pubmed.ncbi.nlm.nih.gov/23514626/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Deutz2013HMB — HMB preserves lean mass bed rest older adults RCT |
+| https://pubmed.ncbi.nlm.nih.gov/28705993/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Standley2017HMBMitochondria — HMB effects mitochondria bed rest |
+| https://pubmed.ncbi.nlm.nih.gov/25296344/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Dirks2015NMES — NMES prevents muscle wasting comatose ICU patients |
