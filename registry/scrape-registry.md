@@ -454,3 +454,13 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/23514626/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Deutz2013HMB — HMB preserves lean mass bed rest older adults RCT |
 | https://pubmed.ncbi.nlm.nih.gov/28705993/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Standley2017HMBMitochondria — HMB effects mitochondria bed rest |
 | https://pubmed.ncbi.nlm.nih.gov/25296344/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Dirks2015NMES — NMES prevents muscle wasting comatose ICU patients |
+
+## CPET Null Replication Literature Search (2026-05-26)
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/32147947/ | pubmed | 2026-05-26 | — | Search for Davenport 2020 CPET (incorrect PMID) |
+| https://pubmed.ncbi.nlm.nih.gov/32689423/ | pubmed | 2026-05-26 | — | Search for Davenport 2020 CPET (incorrect PMID) |
+| https://pubmed.ncbi.nlm.nih.gov/17484316/ | pubmed | 2026-05-26 | — | Search for VanNess 2007 CPET (incorrect PMID) |
+| https://pubmed.ncbi.nlm.nih.gov/29475645/ | pubmed | 2026-05-26 | — | Search for Davenport paper (incorrect PMID) |
+| https://pubmed.ncbi.nlm.nih.gov/20095905/ | pubmed | 2026-05-26 | — | VanNess2010PEM (already in bibliography) |
