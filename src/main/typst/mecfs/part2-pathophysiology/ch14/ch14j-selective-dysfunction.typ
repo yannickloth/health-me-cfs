@@ -387,7 +387,7 @@ The selective dysfunction hypothesis generates specific, falsifiable predictions
 #prediction(title: [Direct Stimulation vs. Voluntary Contraction])[
 *Hypothesis:* Direct electrical stimulation of muscles produces greater force than voluntary contraction in ME/CFS patients.
 
-*Rationale:* If dysfunction is CNS coordination failure, bypassing CNS via direct stimulation should restore output.
+*Rationale:* If dysfunction is CNS coordination failure, bypassing CNS via direct stimulation should restore output. Consistent with this prediction, neuromuscular electrical stimulation (NMES) in fully sedated ICU patients — a model of absent CNS motor drive — completely prevented muscle atrophy, confirming that electrically stimulated muscle can be preserved without CNS input @Dirks2015NMES. An RCT in ICU showed NMES + passive activity training attenuated atrophy more than passive training alone @Bao2022NMESICU. Whether NMES is safe in ME/CFS (does electrically-induced contraction trigger PEM?) is the critical unanswered question — see Section @oq:bedbound-nmes and @rec:nmes-severe for the clinical research gap.
 
 *Measurement:* Compare force production: voluntary maximal contraction vs. electrical stimulation.
 

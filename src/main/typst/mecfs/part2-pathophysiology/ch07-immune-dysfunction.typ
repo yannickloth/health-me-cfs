@@ -1048,7 +1048,7 @@ IL-6 has both pro- and anti-inflammatory effects and is frequently elevated in M
 
 ==== Tumor Necrosis Factor-Alpha (TNF-$alpha$)
 
-TNF-$alpha$ is a central inflammatory cytokine elevated in some ME/CFS studies. It causes fatigue, malaise, and cognitive dysfunction while also affecting mitochondrial function and promoting muscle wasting (cachexia). Variable findings across studies may reflect patient heterogeneity within the ME/CFS population.
+TNF-$alpha$ is a central inflammatory cytokine elevated in some ME/CFS studies. It causes fatigue, malaise, and cognitive dysfunction while also affecting mitochondrial function and promoting muscle wasting (cachexia) via ubiquitin-proteasome pathway activation. Variable findings across studies may reflect patient heterogeneity within the ME/CFS population. Nutritional anti-catabolic strategies that inhibit the ubiquitin-proteasome pathway — such as HMB, a leucine metabolite that preserved lean mass in a bed rest RCT — may partially offset TNF-$alpha$-driven muscle catabolism in immobilized patients; this is discussed in Section @subsec:muscle-preservation-bedbound @Deutz2013HMB.
 
 ==== Interferons
 
@@ -2845,6 +2845,23 @@ The exosomal propagation loop would be self-sustaining: once established post-in
 
 *Limitations:* All supporting evidence for the HSAT2 exosomal mechanism is from Ewing sarcoma (aggressive paediatric cancer), a context with far higher transcript levels than chronic infection. Post-viral MDSC persistence (Beliakova-Bethell 2022) was demonstrated for T-cell suppression; NK assays were not performed. The folate-MTHFR-H3K9me3 link (Zhu 2014) used extreme siRNA knockdown in cell lines — partial dietary/genetic depletion may not reach the same threshold. Not yet replicated in ME/CFS or any post-viral chronic disease context.
 ] <spec:hsat2-exosome-mdsc>
+
+#speculation(title: [Impaired Exosome Biogenesis as Contributor to ME/CFS Chronicity])[
+*Certainty: 0.25.* No direct ME/CFS exosome biogenesis data; mechanistic inference from fatigue syndromes and viral interference with ESCRT pathways.
+
+The HSAT2 exosome pathway above addresses pathological cargo — retroelement RNAs that exosomes carry. An orthogonal question is whether the exosome production machinery itself is impaired in ME/CFS, independent of cargo content. Two lines of reasoning suggest this may be relevant:
+
+*Evidence for impaired EV biogenesis.* (1) Chronic viral proteins (EBV LMP1, HHV-6) interfere with ESCRT complex function — the same machinery required for exosome biogenesis — documented in latent herpesvirus infection. (2) Mitochondrial dysfunction reduces ATP available for the energy-intensive processes of vesicle budding, cargo sorting, and membrane fusion. (3) The cellular fog hypothesis (Speculation @spec:cellular-fog) predicts functional impairment of intracellular machinery across cell types — exosome biogenesis pathways would be affected like any other ATP- and calcium-dependent process.
+
+*Consequence of exosome insufficiency.* If ME/CFS cells produce fewer exosomes or exosomes with altered cargo-sorting fidelity, two consequences follow: (1) the normal intercellular signalling functions of exosomes — tissue repair signalling, immune modulation, metabolic coordination — are impaired, and (2) therapeutic exosome delivery (Speculation @spec:engineered-exosome-bbb-mrna) faces an additional obstacle: even if engineered exosomes reach CNS targets, endogenous uptake and processing machinery may be dysfunctional in chronic disease.
+
+*Severity-layering.* If exosome biogenesis impairment worsens with disease duration (as viral protein accumulation, mitochondrial decline, and epigenetic locking progress), this would predict that late-stage, severe ME/CFS patients are poorer candidates for exosome-based therapies than early-stage patients — not because the therapy is ineffective but because the recipient's cellular machinery for processing exosome-delivered cargo is degraded. This is the "exosome resistance" hypothesis: therapeutic exosomes may be less effective in patients with the longest disease duration and highest severity, independent of BBB permeability or CNS target engagement.
+
+*Testable prediction.* ME/CFS patients should show reduced total circulating exosome concentration (by NTA) and altered ESCRT protein expression (TSG101, Alix, CD63, CD81) in PBMCs compared to healthy controls, with deficits proportional to disease duration and severity. If this prediction holds, exosome insufficiency would represent both a pathomechanism (impaired endogenous intercellular signalling) and a barrier to exosome-based therapeutics.
+
+*Limitations.* Certainty 0.25. No study has directly measured exosome concentration, biogenesis markers, or ESCRT pathway function in ME/CFS. Viral interference with ESCRT is documented for EBV/HHV-6 in vitro but not in ME/CFS patients. The parallel between cellular fog and exosome failure is speculative — some intracellular pathways may be preserved while others degrade. The Kang et al.@Kang2026ExosomeHSP70Sleep finding that exosome-delivered mRNA is functional in CNS cells suggests that recipient machinery can be intact even if donor machinery is impaired, but this was in healthy (sleep-deprived) mice, not chronically ill animals.
+] <spec:exosome-biogenesis-impairment>
+
 == Summary: Integrated Model of Immune Dysfunction
 <sec:immune-summary>
 
