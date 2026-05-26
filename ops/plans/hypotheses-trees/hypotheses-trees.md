@@ -97,7 +97,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | energy-cartography    | [subtrees/energy-cartography.md](subtrees/energy-cartography.md)      | 2026-04-11      | 20         | 0          | ⬜ stub        |
 | epigenetics           | [subtrees/epigenetics.md](subtrees/epigenetics.md)                    | 2026-04-26      | 27         | 0          | ⬜ stub        |
 | exercise-modality-expansion | [subtrees/exercise-modality-expansion.md](subtrees/exercise-modality-expansion.md) | 2026-05-26     | 45         | 0          | 🔵 in progress |
-| muscle-preservation-bedbound | [subtrees/muscle-preservation-bedbound.md](subtrees/muscle-preservation-bedbound.md) | 2026-05-26 | 43 | 6 | 🔵 in progress |
+| muscle-preservation-bedbound | [subtrees/muscle-preservation-bedbound.md](subtrees/muscle-preservation-bedbound.md) | 2026-05-26 | 43 | 34 | ✅ done |
 | exercise-recovery-pem  | [subtrees/exercise-recovery-pem.md](subtrees/exercise-recovery-pem.md)  | 2026-05-07      | 21         | 21         | ✅ done        |
 | exercise-blinding     | [subtrees/exercise-blinding.md](subtrees/exercise-blinding.md)        | 2026-04-21      | 20         | 0          | ⬜ stub        |
 | funcap                | [subtrees/funcap.md](subtrees/funcap.md)                              | 2026-04-23      | 36         | 0          | ⬜ stub        |
