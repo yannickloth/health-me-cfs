@@ -23,7 +23,7 @@ emotional exertion, typically delayed by 12–72 hours and lasting days to weeks
 PEM distinguishes ME/CFS from other fatigue conditions. Two-day
 cardiopulmonary exercise testing has objectively demonstrated that ME/CFS
 patients show significant declines in exercise capacity on the second
-day @keller2024cpet, while healthy controls do not.
+day @keller2024cpet, while healthy controls do not. A 2026 replication study did not find group-average VO₂ decline @Mancini2026CPET, though both studies concur on elevated RPE and chronotropic incompetence.
 See Section @sec:pem for the full evidence.
 
 / *Is ME/CFS psychological?*:

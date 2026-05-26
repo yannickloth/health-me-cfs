@@ -1936,7 +1936,7 @@ This vulnerability is not imagined or exaggerated—it is a direct consequence o
 
 === Exercise-Induced Metabolic Failure: Two-Day CPET Evidence
 
-The most compelling objective evidence for exercise-induced metabolic failure comes from two-day cardiopulmonary exercise testing (CPET) protocols. Unlike single-day assessments that may be confounded by deconditioning or effort, the two-day protocol documents the failure to reproduce initial performance after 24 hours—a hallmark of post-exertional malaise @keller2024cpet.
+The most compelling objective evidence for exercise-induced metabolic failure comes from two-day cardiopulmonary exercise testing (CPET) protocols. Unlike single-day assessments that may be confounded by deconditioning or effort, the two-day protocol documents the failure to reproduce initial performance after 24 hours—a hallmark of post-exertional malaise @keller2024cpet. A 2026 null replication found no significant group-average Day 2 VO₂ decline (@Mancini2026CPET), though both studies concur on elevated perceived exertion and chronotropic incompetence—consistent signals of exercise-imposed physiological burden regardless of the group-average VO₂ result.
 
 *Two-Day CPET Protocol and Rationale*
 

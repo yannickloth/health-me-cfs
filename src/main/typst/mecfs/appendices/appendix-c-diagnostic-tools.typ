@@ -68,7 +68,7 @@ The Chalder Fatigue Scale is an 11-item self-report measure of fatigue severity.
 
 === Two-Day Cardiopulmonary Exercise Testing (2-Day CPET)
 
-Two-day CPET is the gold-standard objective test for demonstrating PEM and is the only test that can objectively quantify the exercise intolerance characteristic of ME/CFS @keller2024cpet.
+Two-day CPET is the gold-standard objective test for demonstrating PEM and is the only test that can objectively quantify the exercise intolerance characteristic of ME/CFS @keller2024cpet. However, a 2026 replication study did not find group-average Day 2 VO₂ decline @Mancini2026CPET, though both studies concur on elevated RPE and chronotropic incompetence. The CPET decline finding is contested; elevated RPE and chronotropic incompetence are consistent findings across studies.
 
 / *Purpose*: Objective demonstration of post-exertional physiological impairment; documentation of reduced exercise capacity for disability evaluation; research quantification of metabolic dysfunction.
 / *Protocol*: Two maximal graded exercise tests on consecutive days, typically on a cycle ergometer:

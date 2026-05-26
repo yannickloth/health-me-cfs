@@ -118,7 +118,7 @@ The study achieved only 42% of its enrollment target (17 vs.\ planned 40 patient
 The exclusion of severely affected patients (approximately 25% of the ME/CFS population who are homebound or bedbound @Pendergrast2020housebound) means findings may not generalize to those most disabled by the illness and most in need of research attention.
 
 ==== Single-Day CPET Protocol
-The study used single-day cardiopulmonary exercise testing rather than the gold-standard two-day protocol that documents post-exertional malaise. The two-day protocol consistently shows Day 2 VO#sub[2]peak decline of approximately 13.8% and work capacity decline of approximately 12.5% in ME/CFS patients, while controls show stable or improved performance @keller2024cpet. By using only single-day testing, the study failed to objectively document PEM, the defining feature of ME/CFS.
+The study used single-day cardiopulmonary exercise testing rather than the gold-standard two-day protocol that documents post-exertional malaise. The two-day protocol, in positive studies, consistently shows Day 2 VO#sub[2]peak decline of approximately 13.8% and work capacity decline of approximately 12.5% in ME/CFS patients, while controls show stable or improved performance @keller2024cpet. A 2026 null replication did not find group-average VO₂ decline @Mancini2026CPET. By using only single-day testing, the study failed to objectively document PEM, the defining feature of ME/CFS.
 
 ==== Post-Exertional Malaise Assessment
 PEM is mentioned only three times in the entire paper despite being the hallmark symptom of ME/CFS. The study design did not systematically assess or document PEM.

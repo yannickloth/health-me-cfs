@@ -99,7 +99,7 @@ The accumulated biological evidence against a psychogenic model is now overwhelm
     - *Autonomic dysfunction*: Objective documentation of POTS, orthostatic hypotension, and impaired heart rate variability @Hoad2008pots @Newton2007autonomicDysfunction
     - *Neuroinflammation*: PET imaging demonstrating microglial activation @Raijmakers2021Neuroinflammation
     - *Neurotransmitter deficiency*: CSF catecholamine deficiency documented by the NIH study @walitt2024deep
-    - *Objective exercise intolerance*: Two-day CPET demonstrating measurable physiological deterioration after exertion—impossible to produce through psychological mechanisms @keller2024cpet
+    - *Objective exercise intolerance*: Two-day CPET demonstrating measurable physiological deterioration after exertion—impossible to produce through psychological mechanisms—though group-average VO₂ decline is contested (positive studies @keller2024cpet vs null replication @Mancini2026CPET); elevated RPE and chronotropic incompetence are consistent findings across studies
 
 === The Role of Psychological Factors
 
@@ -135,7 +135,7 @@ The theoretical basis rested on the observation that deconditioning produces sym
 The evidence against GET in ME/CFS is now extensive:
 
     - *Patient surveys*: 51% of ME/CFS patients report GET worsened their condition across surveys in four countries @Kindlon2011GET
-    - *Physiological evidence*: Two-day CPET demonstrates that exertion produces measurable metabolic failure, not psychological fear @keller2024cpet @Lim2020
+    - *Physiological evidence*: Two-day CPET demonstrates that exertion produces measurable metabolic failure, not psychological fear—though group-average VO₂ decline is contested (positive studies @keller2024cpet @Lim2020 vs null replication @Mancini2026CPET); elevated RPE and chronotropic incompetence are consistent findings
     - *Guideline withdrawals*: NICE (2021) withdrew GET, CDC (2022) removed exercise recommendations, and multiple national guidelines now explicitly warn against GET @NICE2021mecfs
     - *Long COVID confirmation*: A _Nature Reviews Cardiology_ commentary reported that 75% of 477 Long COVID patients experienced worsening symptoms and function after following exercise recommendations, with 85% showing PEM combined with cardiovascular autonomic dysfunction @vanRhijnBrouwer2024GETharm
     - *Deconditioning refutation*: The NIH study documented that exercise impairment exceeds what deconditioning predicts, and equal maximum grip strength argues against deconditioning as the primary mechanism @walitt2024deep
@@ -162,7 +162,7 @@ ME/CFS patients do show objective markers consistent with deconditioning: reduce
 
 Multiple lines of evidence demonstrate that deconditioning cannot account for the core pathophysiology of ME/CFS:
 
-    - *Post-exertional malaise is the hallmark feature.* Deconditioned individuals improve with progressive exercise; ME/CFS patients deteriorate. Two-day CPET protocols show reproducible day-2 performance decline in ME/CFS but not in sedentary controls or patients with other fatiguing conditions @keller2024cpet @Lim2020.
+    - *Post-exertional malaise is the hallmark feature.* Deconditioned individuals improve with progressive exercise; ME/CFS patients deteriorate. Two-day CPET protocols show reproducible day-2 performance decline in ME/CFS but not in sedentary controls or patients with other fatiguing conditions in positive studies @keller2024cpet @Lim2020, though a 2026 null replication did not find group-average VO₂ decline @Mancini2026CPET; elevated RPE and chronotropic incompetence are consistent findings across studies.
 
     - *VO#sub[2]peak reduction exceeds deconditioning predictions.* The NIH deep phenotyping study documented exercise impairment beyond what inactivity alone would produce, even in patients with relatively preserved activity levels @walitt2024deep. Walitt et al.\ themselves acknowledged that deconditioning is a consequence, not a cause, and that equal maximum grip strength argues against pure deconditioning.
 
@@ -337,7 +337,7 @@ ME/CFS research has generated diagnostic and therapeutic insights with broader a
 
 ==== Two-Day Cardiopulmonary Exercise Testing
 
-The two-day CPET protocol, which objectively quantifies post-exertional malaise through measurement of performance decline between testing days @Lim2020, has utility beyond ME/CFS diagnosis:
+The two-day CPET protocol, which objectively quantifies post-exertional malaise through measurement of performance decline between testing days in positive studies @Lim2020 (contested by null replication @Mancini2026CPET), has utility beyond ME/CFS diagnosis:
 
     - *Distinguishing deconditioning from pathology*: In disability evaluations, malingering concerns, or contested diagnoses, day-2 performance decline provides objective biomarker
     - *Post-viral assessment*: Identifying which respiratory infection survivors require specialized chronic illness management vs.\ standard recovery
