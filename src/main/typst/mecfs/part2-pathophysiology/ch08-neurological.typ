@@ -1351,7 +1351,7 @@ Direct measurement of neuroinflammatory activity in ME/CFS and Long COVID via du
 While the preceding subsections address BBB permeability and transport dysfunction from the perspective of what enters or exits the CNS, the BBB may create _unique vulnerability_ for CNS tissues in ME/CFS through mechanisms that paradoxically stem from the barrier's protective function.
 
 #speculation(title: [Blood-Brain Barrier Vulnerability Hypothesis])[
-*Certainty: 0.35.*
+*Certainty: 0.40.* (0.35→0.40: independent validation of BBB tractability by Kang et al.@Kang2026ExosomeHSP70Sleep — demonstration that engineered EVs can deliver functional cargo across the BBB provides convergent evidence that the BBB is a critical CNS interface, strengthening the premise that its dysfunction creates vulnerability.)
 
 The blood-brain barrier creates CNS-specific vulnerability in ME/CFS through three converging mechanisms: (1) trapping damage signals that trigger persistent neuroinflammation, (2) limiting access to mitochondrial cofactors needed for repair, and (3) preventing the rapid mitochondrial turnover possible in peripheral dividing cells.
 
@@ -1383,7 +1383,7 @@ This hypothesis has certainty 0.35. It synthesizes mechanisms documented in neur
 ] <spec:bbb-vulnerability>
 
 #speculation(title: [Endothelial Apoptosis-Derived Extracellular Vesicles as Peripheral-to-Central Immune Signal Transducers])[
-*Certainty: 0.35.*
+*Certainty: 0.40.* (0.35→0.40: Kang et al.@Kang2026ExosomeHSP70Sleep provide independent evidence that exosomes can deliver functional cargo across the BBB, strengthening the core premise that EV-mediated peripheral-to-CNS signalling is biologically plausible.)
 
 If ME/CFS involves endothelial apoptosis (e.g., via oxidative stress, viral infection, microvascular injury), then apoptotic endothelial cell-derived extracellular vesicles (ApoExos) may serve as vehicles for delivering immunostimulatory RNAs to the CNS, bridging peripheral vascular pathology and central neuroinflammation.
 
@@ -1414,6 +1414,33 @@ This speculation has certainty 0.35. No studies have directly measured endotheli
 *Treatment implications.*
 If validated, therapeutic strategies could include: (1) reducing endothelial apoptosis (antioxidants, vasodilators, viral suppression); (2) blocking EV uptake (heparin derivatives, anti-integrin antibodies); (3) inhibiting retroelement RNA sensing (TLR7/8 antagonists, RIG-I inhibitors); (4) removing circulating EVs (apheresis, immunoadsorption).
 ] <spec:endothelial-apoexos-neuroinflammation>
+
+#speculation(title: [Engineered Exosome-Mediated HSP70 mRNA Delivery as Proof-of-Principle for CNS mRNA Therapy])[
+*Certainty: 0.55.* Preclinical demonstration in sleep-deprived mice; BBB crossing mechanisms documented by Ramos-Zaldívar et al.\ 2022 review @RamosZaldivar2022EVBBBReview; engineering platform context from Sanadgol et al.\ 2025 review @Sanadgol2025ExosomeNABrainDelivery; intersects with kynurenine-sleep-neuroinflammation feedback loop (Hypothesis @hyp:kynurenine-sleep-mitochondria-excitotoxicity-loop) providing independent biological rationale. (0.50→0.55: validated BBB tractability + feedback-loop intersection.)
+
+The endogenous EV speculation above (Speculation @spec:endothelial-apoexos-neuroinflammation) considers extracellular vesicles as vectors of pathology — carriers of immunostimulatory RNAs from the periphery into the CNS. A recent preclinical study demonstrates the therapeutic converse: engineered exosomes can be programmed as _protective_ delivery vehicles for CNS-targeted mRNA therapy, establishing proof-of-principle that the blood-brain barrier is tractable to engineered EV delivery.
+
+Kang et al.@Kang2026ExosomeHSP70Sleep engineered HEK293T cells to produce exosomes co-expressing HSP70 mRNA and a brain-targeting RVG-Lamp2b fusion protein. Systemic administration of these HSP70@ExoRVG exosomes to sleep-deprived mice:
+    - Restored memory and learning performance to levels comparable with non-sleep-deprived controls
+    - Reduced hippocampal neuroinflammation: TNF-α, IL-6, and IL-1β decreased; anti-inflammatory IL-10 increased
+    - Elevated BDNF (brain-derived neurotrophic factor) and phosphorylated CREB — proteins essential for synaptic plasticity and neuronal health
+    - Outperformed non-targeted and empty exosomes, demonstrating that both cargo (HSP70 mRNA) and targeting (RVG) contributed to efficacy
+
+*Relevance to the endogenous EV speculation.* The Kang et al. finding operates in the opposite direction — engineering exosomes to _treat_ rather than transmit neuroinflammation — but confirms three principles directly relevant to the ApoExos pathway: (1) extracellular vesicles can carry functional mRNA cargo across the BBB into CNS tissue, (2) EV cargo is biologically active in recipient CNS cells, and (3) EV-delivered signals can shift the neuroinflammatory environment (in this case, from pro-inflammatory to neuroprotective). If endogenous ApoExos carrying retroelement RNAs can drive neuroinflammation, therapeutic exosomes carrying anti-inflammatory or neuroprotective mRNAs could potentially reverse it.
+
+*Gap between proof-of-principle and clinical translation.* The Kang et al. study is a single preclinical report in mice (certainty 0.55 for the primary finding). Key gaps include: (1) HSP70 is a broad-spectrum chaperone and anti-inflammatory protein — optimal cargo for ME/CFS neuroinflammation (specific anti-cytokine mRNAs, neurotrophic factor combinations, or mitophagy enhancers) is unknown; (2) RVG targeting exploits nicotinic acetylcholine receptor expression on neuronal cells — expression patterns in ME/CFS, particularly under chronic neuroinflammatory conditions, are uncharacterised; (3) repeated dosing safety, immunogenicity of engineered exosomes, and long-term effects of exogenous mRNA delivery are unknown; (4) the study addresses acute sleep deprivation over days, not chronic neuroinflammation sustained over years — chronic CNS inflammation may alter BBB EV trafficking dynamics in ways that reduce or enhance therapeutic delivery.
+
+*Testable predictions.*
+    - ME/CFS patient-derived induced pluripotent stem cell (iPSC) neurons and microglia should show reduced inflammatory cytokine production and improved metabolic function when treated with HSP70@ExoRVG exosomes in vitro
+    - CSF from ME/CFS patients should contain endogenous EV subpopulations with cargo profiles distinct from healthy controls — if endogenous EV trafficking is pathologically altered, therapeutic EV delivery may face different pharmacokinetics
+    - ME/CFS patients with higher CSF/serum albumin ratios (more permeable BBB) should show greater EV uptake in CNS imaging studies — the same BBB permeability that permits ApoExo entry may also permit therapeutic EV entry
+
+*Limitations.*
+This speculation has certainty 0.45. The Kang et al. study is a single preclinical report (n not specified in abstract; mouse model only; published April 2026, not yet replicated). All three BBB crossing studies that support the mechanism are reviews — primary in vivo mammalian EV transcytosis data remain sparse @RamosZaldivar2022EVBBBReview. Exosome engineering faces substantial standardisation and scalability challenges @Sanadgol2025ExosomeNABrainDelivery. The RVG targeting strategy has not been tested in the context of chronic neuroinflammation. Nevertheless, the demonstration that exosome-mediated mRNA delivery across the BBB can reverse cognitive deficits and neuroinflammation establishes a therapeutic principle that was speculative before 2026.
+
+*Treatment implication.*
+If validated and translated to human application, engineered exosomes could deliver anti-inflammatory or neuroprotective mRNA cargo directly to CNS targets — addressing the BBB delivery bottleneck that limits most pharmacological approaches to ME/CFS neuroinflammation (Section @sec:bbb-vulnerability). This is a research-stage concept only; no engineered exosome therapy has entered human trials for any neuroinflammatory condition.
+] <spec:engineered-exosome-bbb-mrna>
 
 === Meningitis as a Model for Acute BBB-Neuroinflammatory Injury in ME/CFS
 <sec:meningitis-bbb>

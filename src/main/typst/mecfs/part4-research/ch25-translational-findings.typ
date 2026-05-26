@@ -1096,6 +1096,10 @@ The glymphatic system is the brain's waste clearance system, active primarily du
 
 *Research priority*: High. Sleep optimization is low-risk, low-cost, and has strong biological rationale for neuroprotection.
 
+==== Reversibility of Sleep-Deprivation-Induced Neuroinflammation: Lessons from Engineered Exosomes
+
+A 2026 preclinical study provides proof-of-principle that the neuroinflammatory damage caused by chronic sleep deprivation is not necessarily permanent. Kang et al.@Kang2026ExosomeHSP70Sleep demonstrated that engineered exosomes carrying HSP70 mRNA can cross the BBB and reverse cognitive deficits and neuroinflammation in sleep-deprived mice. While this is a therapeutic delivery study rather than a demonstration of endogenous repair, it establishes an important principle: the neuroinflammatory cascade triggered by sleep loss — hippocampal TNF-α, IL-6, and IL-1β elevation; BDNF and pCREB suppression — can be pharmacologically reversed, at least in the acute-to-subacute setting. Whether chronic sleep disruption in ME/CFS (years to decades of unrefreshing sleep) produces neuroinflammatory changes of similar reversibility is unknown. The same engineered exosome platform faces substantial barriers to clinical translation (Section @spec:engineered-exosome-bbb-mrna), including BBB trafficking in chronic inflammation, immunogenicity, and manufacturing standardisation @Sanadgol2025ExosomeNABrainDelivery. However, the finding reinforces a core therapeutic principle: optimising sleep architecture and glymphatic clearance in ME/CFS is not merely symptom management — it may be *neuroprotective*, preventing accumulation of damage that, while reversible in mice, may become progressively less reversible in humans after decades of impaired clearance. Every unit of improved slow-wave sleep is a unit of glymphatic clearance the brain would otherwise miss.
+
 == Research Priorities and Future Directions
 <sec:translational-research-priorities>
 

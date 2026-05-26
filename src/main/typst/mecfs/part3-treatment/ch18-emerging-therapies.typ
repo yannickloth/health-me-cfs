@@ -372,3 +372,71 @@ Emerging therapies targeting connective tissue pathology in ME/CFS address extra
 
 *Limitations.* No ME/CFS data. Uncertain whether TGF-beta1 drives BM pathology in ME/CFS. Fresolimumab is expensive and investigational. Risk-benefit unfavorable for non-fatal condition at this stage.
 ]
+
+== HSP70 Pathway Enhancement for Neuroprotection
+
+The Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosome-delivered HSP70 mRNA reverses neuroinflammation raises the question of whether endogenous HSP70 enhancement — without engineered exosomes — could provide partial neuroprotection in ME/CFS. Several pharmacological and non-pharmacological approaches upregulate HSP70 expression.
+
+#speculation(title: [HSP70-Inducing Pharmacological Agents as Neuroprotective Adjuncts in ME/CFS])[
+*Certainty: 0.45.* HSP70 inducers are clinically available for other indications; neuroprotective effect in ME/CFS is inferred from Kang et al. and general HSP70 biology; BBB crossing mechanisms documented by Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview; brain-targeted engineering platforms reviewed by Sanadgol et al.@Sanadgol2025ExosomeNABrainDelivery. (0.40→0.45: independent convergence with heat therapy as HSP70 induction strategy strengthens mechanistic rationale.) No ME/CFS-specific data.
+
+*Candidate agents with existing human safety data:*
+    - *Arimoclomol*: Co-inducer of the heat shock response; prolongs HSF1 activation; crosses BBB; Phase III completed for ALS (orphan drug status in EU). No ME/CFS data.
+    - *Geranylgeranylacetone (GGA)*: Gastric mucosal protectant used in Japan for decades; induces HSP70 in CNS at standard doses. Low cost, favourable safety profile, but CNS penetration modest.
+    - *BGP-15*: Hydroxylamine derivative; insulin sensitiser + HSP70 co-inducer; Phase II completed for diabetes. CNS penetration data limited.
+
+*Mechanistic rationale.* Kang et al.@Kang2026ExosomeHSP70Sleep showed that HSP70 in CNS cells reduces TNF-α, IL-6, and IL-1β while increasing IL-10, BDNF, and pCREB. Pharmacological HSP70 induction would not replicate the spatial targeting of RVG-exosomes but would provide systemic HSP70 elevation, potentially crossing the BBB in regions where permeability is already increased (Section @sec:bbb). The HSP70 pathway is already relevant to ME/CFS via the HSF1-HSAT2 axis — heat therapy recommendations exist for ME/CFS (Section @sec:heat-therapy) — but the HSAT2 activation concern (pericentromeric satellite repeat transcription under HSF1) must be weighed against HSP70's anti-inflammatory benefits.
+
+*Synergy with exosome delivery.* Idea 1.5 from brainstorm: HSP70-inducing drugs could provide sustained chaperone capacity while exosome-delivered HSP70 mRNA provides immediate peak levels. The combination would address the delay between drug administration and transcriptional HSP70 induction (hours to days).
+
+*Safety.* Arimoclomol: generally well-tolerated (GI disturbance most common AE). BGP-15: limited long-term data. Heat therapy: already in the paper with explicit HSAT2 cautions. All pharmacological HSP70 inducers are contraindicated in active infection (HSP70 supports viral replication in some contexts).
+
+*Testable prediction.* ME/CFS patients receiving HSP70-inducing agents (arimoclomol or GGA, 8 weeks) will show increased peripheral blood mononuclear cell HSP70 levels by ≥30% from baseline and corresponding reduction in serum inflammatory biomarkers (IL-6, TNF-α) compared to placebo. Falsified if HSP70 induction occurs without neuroinflammatory biomarker improvement, or if HSAT2 retroelement RNA increases in plasma EVs proportionally with HSP70 elevation (indicating HSF1-mediated retroelement activation outweighs anti-inflammatory benefit).
+
+*Limitations.* Certainty 0.35. No ME/CFS data for any HSP70 inducer. The optimal agent, dose, and duration for CNS HSP70 elevation are unknown. The HSAT2 transcription risk under sustained HSF1 activation has not been quantified in ME/CFS patients — this could be a net-harm scenario if retroelement activation outweighs anti-inflammatory benefit. This is a research direction, not a treatment recommendation.
+] <spec:hsp70-inducers>
+
+#speculation(title: [PPARγ Agonists as Exosome Uptake Enhancers])[
+*Certainty: 0.20.* Macropinocytosis enhancement documented for pioglitazone in cancer cell lines; no CNS exosome uptake data; no ME/CFS data.
+
+Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview identified macropinocytosis as one of several mechanisms by which EVs cross the BBB. PPARγ agonists (pioglitazone, rosiglitazone) upregulate macropinocytosis pathway components and have been shown to enhance nanoparticle uptake in some experimental systems. If PPARγ agonism increases exosome internalisation by CNS target cells, it could lower the required therapeutic exosome dose — addressing the very low (less than 1 percent) CNS delivery fraction limitation of systemic administration.
+
+*ME/CFS-specific considerations.* Pioglitazone has anti-inflammatory effects independent of exosome uptake enhancement (PPARγ activation suppresses NF-κB, reduces microglial activation) — these may provide independent benefit in ME/CFS neuroinflammation. However, pioglitazone carries FDA black-box warnings for congestive heart failure and is associated with weight gain, fluid retention, and bone fracture risk — all problematic in a bedbound/severe population with pre-existing orthostatic intolerance and potential cardiac dysfunction.
+
+*Testable prediction.* Pioglitazone pretreatment will increase exosome uptake in primary hippocampal neurons by ≥1.5-fold in vitro, measured by flow cytometry or fluorescence microscopy; this effect will be abolished by the macropinocytosis inhibitor EIPA.
+
+*Limitations.* Certainty 0.20. No CNS exosome uptake data exist for any PPARγ agonist. The macropinocytosis-to-exosome-uptake pathway is documented for some cell types but not neurons or microglia. Pioglitazone safety profile is unfavourable for a non-life-threatening condition; even if effective, the risk-benefit ratio would be challenging. This is a mechanistic probe, not a treatment proposal.
+] <spec:pparg-exosome-uptake>
+
+#open-question(title: [Can Transcutaneous Vagus Nerve Stimulation Enhance Therapeutic Exosome CNS Delivery?])[
+Vagus nerve stimulation transiently increases BBB permeability via cholinergic anti-inflammatory pathway activation. If tVNS applied 30 minutes before exosome administration increases CNS exosome accumulation — as hypothesised from the inflammation-enhanced EV permeability documented by Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview — it could provide a non-pharmacological method to boost therapeutic delivery. This is completely untested. The risk is that tVNS-mediated BBB opening is non-selective, potentially allowing entry of peripheral inflammatory mediators alongside therapeutic exosomes. Pilot biodistribution studies in animal models would be required before any human application.
+]
+
+== Engineered Exosome-Mediated mRNA Delivery to the CNS
+
+Engineered extracellular vesicles represent an emerging therapeutic delivery platform that may address a central obstacle in ME/CFS treatment: the blood-brain barrier's restriction of most pharmacological agents from reaching CNS targets (Section @sec:bbb-vulnerability).
+
+#speculation(title: [Engineered Exosomes as CNS-Targeted Therapeutic Delivery Vehicles for ME/CFS Neuroinflammation])[
+*Certainty: 0.30.* Preclinical proof-of-principle in mouse sleep deprivation; no human or ME/CFS data; manufacturing and targeting challenges substantial.
+
+*Mechanistic rationale.* Endogenous extracellular vesicles already traffic bidirectionally across the BBB in ME/CFS and related conditions (Section @sec:bbb), carrying both pathological cargo (retroelement RNAs, inflammatory signals) and potentially regulatory signals. Engineering exosomes to carry therapeutic mRNA — anti-inflammatory cytokines, neurotrophic factors, mitophagy enhancers, or TRPM3 normalisers — exploits this existing trafficking pathway for therapeutic gain. The Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that RVG-targeted exosomes carrying HSP70 mRNA reverse cognitive deficits and reduce hippocampal neuroinflammation in sleep-deprived mice establishes that: (1) engineered EV mRNA cargo is functional in CNS recipient cells, (2) systemic administration achieves CNS delivery, and (3) a single neuroprotective mRNA can shift the neuroinflammatory environment from pro-inflammatory to restorative.
+
+*Engineering platform.* Current strategies for brain-targeted exosome delivery include: RVG peptide targeting (exploits nicotinic acetylcholine receptor expression on neurons), Lamp2b fusion proteins, CD63-based cargo loading, and electroporation-mediated mRNA loading @Sanadgol2025ExosomeNABrainDelivery. Source cell engineering (HEK293T, mesenchymal stem cells, or autologous patient-derived cells) determines exosome surface protein composition and immunogenicity. Each variable — source cell type, targeting ligand, cargo type (mRNA vs siRNA vs miRNA vs protein), and loading method — affects CNS delivery efficiency and off-target distribution.
+
+*ME/CFS-specific considerations.* Several features of ME/CFS may alter EV trafficking dynamics in ways that either help or hinder therapeutic delivery:
+    - Increased BBB permeability in a subset of patients (elevated CSF/serum albumin ratio) may enhance EV CNS entry — the same permeability that permits pathological EV entry could facilitate therapeutic EV entry
+    - Chronic neuroinflammation may upregulate adhesion molecules and alter transcytosis rates — preclinical studies show that TNF-α and LPS increase BBB EV permeability @RamosZaldivar2022EVBBBReview, but whether this applies to engineered EVs carrying specific targeting ligands is unknown
+    - Autonomic dysfunction and reduced cardiac output may alter EV biodistribution — systemically administered exosomes distribute primarily to liver, spleen, and lungs; the fraction reaching the brain is typically less than 1 percent of the injected dose, and this fraction may be further reduced in ME/CFS with global hypoperfusion
+    - Repeated dosing immunogenicity is a concern in a condition already characterised by immune dysregulation and autoantibody production — patient-derived autologous exosomes would minimise immunogenicity but introduce manufacturing complexity
+
+*Safety.* No engineered exosome therapy has entered human clinical trials for any CNS indication as of 2026. Key unknowns: (1) off-target mRNA expression in non-CNS tissues (liver, spleen, bone marrow), (2) immunogenicity of exosome surface proteins (particularly if sourced from xenogeneic cell lines), (3) horizontal transfer of engineered genetic material to unintended cell types, (4) long-term effects of repeated exogenous mRNA delivery on endogenous gene regulation. These concerns are theoretical — the Kang et al. study reported no adverse effects, but this was a single-administration study in immunocompetent mice. ME/CFS patients with documented autoantibodies, MCAS, or prior immunoadsorption therapy may have altered responses that are entirely uncharted.
+
+*Testable predictions.*
+    - ME/CFS patient-derived CSF should show EV subpopulations with cargo profiles (miRNA, protein, lipid) distinct from healthy controls — characterising these endogenous subpopulations would inform the design of therapeutic exosomes
+    - In vitro, iPSC-derived ME/CFS neurons and microglia treated with anti-inflammatory mRNA-loaded exosomes should show reduced cytokine production and improved mitochondrial respiration compared to untreated cells
+    - In vivo, radiolabelled or fluorescently tagged engineered exosomes should show measurable CNS uptake in ME/CFS animal models — if they do not, the entire therapeutic concept is moot
+
+*Limitations.* Certainty 0.30. Single preclinical study; no ME/CFS data of any kind; manufacturing standardisation, scalability, and regulatory pathways for mRNA-loaded exosomes do not exist; CNS delivery fraction is typically less than one percent of injected dose, and whether ME/CFS-specific physiology alters this fraction is unknown; cost and complexity place this in the research-only category for the foreseeable future. This is a research direction, not a therapeutic proposal.
+
+*Research priority.* Low for clinical translation (no near-term path to human trials), high for mechanistic understanding (characterising endogenous EV trafficking in ME/CFS would illuminate inter-compartment signalling regardless of whether therapeutic exosomes ever reach the clinic).
+]

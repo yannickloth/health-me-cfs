@@ -262,10 +262,9 @@ The Sigma-1 fluvoxamine approach has additional theoretical benefits:
 
 *ME/CFS candidates for molecular switch:* Three potential mechanisms may maintain ME/CFS independently of original trigger:
 1. TRPM3 ion channel dysfunction affecting calcium signalling across immune, neuronal, and metabolic cells.
-2. Epigenetic methylation locks at autonomic regulatory genes that persist after triggering infection resolves.
-3. Genetic bottleneck in mitophagy capacity (FBXL4, CCPG1 genes from DecodeME).
+2. Epigenetic methylation changes at regulatory genes (gain at some loci, loss at others via DNMT3B redistribution) that persist after the triggering infection resolves (see the unified vector model, Chapter @ch:causal-hierarchy-formal @oq:consolidation-directionality).
 
-*Clinical implication:* Each candidate predicts a different "eradication therapy": TRPM3-restoring drugs, targeted demethylation agents, or mitophagy enhancers. All share peptic ulcer pattern: simple persistent factor maintaining complex disease.
+*Clinical implication:* Each candidate predicts a different "eradication therapy": TRPM3-restoring drugs, methylation restoration strategies (methyl-donor support for loss-dominant patients, passive demethylation for gain-dominant patients — direction-dependent, not unidirectional targeting), or mitophagy enhancers. All share peptic ulcer pattern: simple persistent factor maintaining complex disease.
 
 *Research priority:* Identifying which molecular switch is operative in individual patients could enable precision medicine approaches.
 

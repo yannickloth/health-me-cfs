@@ -2793,3 +2793,38 @@ Pilot testing timed vitamin C and proline supplementation (circadian-appropriate
 GWAS of DecodeME participants stratified by onset age (early: ≤20 years vs.\ late: ≥30 years, with sensitivity analyses excluding the 20--30 transition zone) would test whether at least one locus shows significantly different allele frequency between subgroups. The HLA region is the primary candidate based on vitiligo precedent and existing ME/CFS HLA associations. A secondary hypothesis: polygenic risk scores will explain more variance in early-onset than late-onset disease, reflecting stronger genetic loading. Pre-licensure surveillance of EBV vaccine efficacy should test whether the early onset peak flattens while the late peak remains unchanged---a differential result that would confirm distinct aetiologies. This analysis is technically feasible with existing data and requires only standard GWAS methodology; no new data collection is needed.
 *Certainty: n/a.* DecodeME onset-age data are approximated from illness duration bins (maximum error ~2.5 years), which adds noise but is unlikely to obscure effect sizes of the magnitude seen in vitiligo (OR > 8).
 ]
+
+== Engineered Exosome-Mediated CNS mRNA Delivery: Preclinical Validation for ME/CFS
+<sec:exosome-preclinical-study>
+
+=== Background and Rationale
+
+Kang et al.@Kang2026ExosomeHSP70Sleep demonstrated that RVG-targeted exosomes carrying HSP70 mRNA can cross the BBB and reverse cognitive deficits and hippocampal neuroinflammation in sleep-deprived mice. While the study establishes proof-of-principle for engineered exosome-mediated CNS mRNA delivery, several gaps separate this finding from any ME/CFS application: (1) the cargo (HSP70) was selected for acute sleep-deprivation neuroinflammation, not chronic neuroinflammation; (2) BBB trafficking kinetics in the setting of chronic inflammation are unknown; (3) repeated-dosing safety and immunogenicity are uncharacterised; (4) ME/CFS-specific cargo candidates have not been evaluated. This preclinical study programme addresses these gaps in a staged sequence.
+
+=== Study E-1: ME/CFS-Relevant Cargo Screening in iPSC Models
+
+*Design.* Derive induced pluripotent stem cell (iPSC) neurons, astrocytes, and microglia from ME/CFS patients (n=15) and matched healthy controls (n=15). Treat with engineered exosomes carrying candidate therapeutic mRNAs (HSP70, BDNF, IL-10, GDNF, NRF2, and TRPM3 normaliser sequences). Measure: (a) cytokine production (IL-6, TNF-α, IL-1β, IL-10 multiplex), (b) mitochondrial respiration (Seahorse), (c) neurite outgrowth and synaptic protein expression, (d) microglial activation markers (TSPO, CD68).
+
+*Hypothesis.* ME/CFS-derived cells will show greater responsiveness to exosome-delivered cargo than healthy control cells (higher baseline neuroinflammation creating larger therapeutic window), and the optimal cargo will differ for neuroinflammatory-dominant vs metabolic-dominant patient subgroups.
+
+=== Study E-2: BBB Trafficking in Chronic Neuroinflammation
+
+*Design.* Utilise a mouse model of chronic low-grade neuroinflammation (low-dose LPS or poly(I:C) over 8 weeks). Administer fluorescently labelled RVG-exosomes (with and without cargo) at weeks 2, 4, and 8. Quantify exosome biodistribution by IVIS imaging and brain region dissection. Compare BBB permeability (Evans blue, CSF/serum albumin ratio) with exosome CNS accumulation.
+
+*Hypothesis.* Chronic neuroinflammation will increase exosome BBB crossing at early timepoints (weeks 2--4, via inflammation-enhanced permeability) but may reduce crossing at later timepoints (week 8, via fibrosis, astrogliosis, or receptor downregulation) — predicting a therapeutic window that narrows with disease chronicity.
+
+=== Study E-3: Repeated-Dosing Safety and Immunogenicity
+
+*Design.* Administer RVG-HSP70 exosomes to immunocompetent mice thrice weekly for 12 weeks. Monitor: (a) anti-exosome antibody development (ELISA against exosome surface proteins), (b) liver and kidney function, (c) cytokine panels, (d) behavioural and cognitive assessments. Compare exosomes from HEK293T (xenogeneic), MSC (allogeneic), and autologous (syngeneic) sources.
+
+*Hypothesis.* Autologous exosomes will produce the lowest immunogenicity; xenogeneic (HEK293T) exosomes will provoke neutralising antibody responses by week 4--6, reducing therapeutic efficacy; MSC-derived exosomes will show intermediate immunogenicity.
+
+=== Study E-4: Circadian Timing of Exosome Administration
+
+*Design.* Administer identical doses of fluorescently labelled RVG-exosomes to mice at 4 timepoints across the circadian cycle (ZT0, ZT6, ZT12, ZT18, where ZT0 = lights on). Quantify CNS accumulation at 2, 6, and 24 hours post-administration. Correlate with circadian expression of BBB transporters, endocytic machinery, and nicotinic acetylcholine receptors (the RVG target).
+
+*Hypothesis.* Exosome CNS accumulation will show circadian variation, with peak uptake during the dark (active) phase when BBB transporter expression and endocytic activity are highest. This would identify an optimal dosing window that could improve therapeutic index without changing the exosome dose.
+
+#limitation(title: [Engineered Exosome Studies — Research Protocol Only])[
+These are proposed preclinical studies. No ME/CFS patient-derived iPSC lines have been established with characterised neuroinflammatory phenotypes. The RVG-exosome platform is from a single laboratory (Kang 2026) and has not been independently replicated. GMP-grade exosome manufacturing for any CNS indication does not exist. The sequence E-1 → E-2 → E-3 → E-4 represents a multi-year preclinical programme; clinical translation, if any, is a decade away. These protocols should not be interpreted as imminent therapeutic proposals.
+]
