@@ -89,7 +89,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | beyond-aces-hpa       | [subtrees/beyond-aces-hpa.md](subtrees/beyond-aces-hpa.md)            | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | beyond-post-sepsis    | [subtrees/beyond-post-sepsis.md](subtrees/beyond-post-sepsis.md)      | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | ant-autoantibodies    | [subtrees/ant-autoantibodies.md](subtrees/ant-autoantibodies.md)      | 2026-04-12      | 24         | 0          | ⬜ stub        |
-| bimodal-onset         | [subtrees/bimodal-onset.md](subtrees/bimodal-onset.md)                | 2026-04-16      | 31         | 0          | ⬜ stub        |
+| bimodal-onset         | [subtrees/bimodal-onset.md](subtrees/bimodal-onset.md)                | 2026-04-16      | 27         | 20         | 🔵 in progress |
 | blood-immune          | [subtrees/blood-immune.md](subtrees/blood-immune.md)                  | 2026-04-16      | 25         | 0          | ⬜ stub        |
 | calcium               | [subtrees/calcium.md](subtrees/calcium.md)                            | 2026-04-18      | 25         | 0          | ⬜ stub        |
 | causal-hierarchy      | [subtrees/causal-hierarchy.md](subtrees/causal-hierarchy.md)          | (no date)       | 2          | 0          | ⬜ stub        |
