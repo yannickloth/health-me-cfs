@@ -912,10 +912,257 @@ Despite exercise intolerance, complete immobility causes problems (muscle atroph
 
     - *Stay below anaerobic threshold*: Use heart rate monitoring (AT $-$10-15 bpm)
     - *Horizontal postures*: Recumbent or supine exercise reduces orthostatic demand
+    - *Constant body position*: Avoid activities requiring positional transitions (standing → supine, turning, starting/stopping) — these transitions exhaust autonomic reserve in POTS+ME/CFS patients
     - *Short duration*: 5–10 minute sessions may be tolerable where 20–30 minutes would crash
     - *Consistency over intensity*: Very gentle daily movement better than intermittent harder sessions
     - *Immediate cessation*: Stop at first signs of excessive exertion (heart rate elevation, breathlessness, fatigue)
     - *Monitor delayed effects*: Track PEM onset 12–72 hours post-activity to calibrate appropriately
+
+===== Constant Body Position as Primary PEM-Safety Criterion
+<subsec:constant-body-position>
+
+#hypothesis(title: [Constant Body Position as Primary PEM-Safety Criterion for POTS+ME/CFS])[
+
+*Certainty: 0.50.* Mechanistically grounded in orthostatic intolerance pathophysiology; not ME/CFS-validated by controlled trial.
+
+*Mechanistic Rationale:* Constant body position eliminates the orthostatic demand fluctuations that drive autonomic compensation in ME/CFS/POTS. Upright-to-supine transitions require rapid blood redistribution (venous return adjustment, baroreflex-mediated HR changes), which exhausts autonomic reserve and depletes metabolic resources. Sports where body position remains constant throughout — swimming (horizontal), rowing (seated), recumbent cycling (reclined), and resistance band work (seated/supine) — reduce autonomic demand by maintaining stable hemodynamic parameters, thereby raising PEM threshold.
+
+*Cross-disease resonance:* The Leeds POTS exercise protocol (Fu et al. 2010) begins patients in recumbent positions (rowing, cycling) precisely because constant position reduces orthostatic stress, only progressing to upright activity after 12--16 weeks of recumbent training. This is not merely "resting" but actively avoiding a class of autonomic challenge that POTS patients cannot compensate for.
+
+*Practical application:* The constant-position principle provides a simple filtering rule for patients and clinicians: *If an activity requires getting up from the floor, transitioning from lying to standing or vice versa, or involves repeated start-stop positional changes, it carries elevated PEM risk for POTS+ME/CFS patients.* Activities to prefer include:
+
+    - *Stable supine:* Isometric yoga, passive stretching, bed-based micro-movements
+    - *Stable seated:* Recumbent bike, seated rowing ergometer (land or water), resistance band exercises
+    - *Stable horizontal in water:* Swimming (backstroke), water rowing, water walking at constant depth
+
+Activities where body position varies frequently — walking with stops/starts, circuit training, standard yoga with standing-to-floor transitions — impose orthostatic demand spikes that should be avoided in moderate-to-severe patients.
+
+*Evidence Link:*
+- Schmid et al. (2007): Water immersion decreased HR (vagal activation) while maintaining cardiac output @Schmid2007WaterImmersion — demonstrating hydrostatic preload benefit without positional change stress
+- Oka et al. (2014, 2017): Seated and recumbent isometric formats were PEM-safe in CFS and feasible in severe ME/CFS @Oka2017recumbentYoga — no positional transitions during sessions
+- Leeds POTS protocol: Recumbent-to-upright progression strategy validates positioning as exercise safety variable (Fu et al. 2010)
+- Physiological rationale: Autonomic instability during orthostatic transitions is documented in 60--80% of ME/CFS patients (Section @sec:pots)
+
+*Testable Prediction:* In a crossover study comparing constant-position vs. varying-position activities at matched metabolic intensity (VO2, HR), ME/CFS patients will show: (a) lower PEM incidence (OR below 0.5) after constant-position activities; (b) reduced autonomic stress markers (catecholamines, HRV turbulence) during constant-position activities; (c) shorter recovery time to baseline biomarkers after constant-position activities.
+
+*Limitations:*
+- No randomized controlled trial directly testing constant-vs-varying position exercise in ME/CFS
+- Individual variability in orthostatic tolerance means the constant-position benefit varies by patient severity
+- Some aquatic activities (swimming turns, changes in stroke position) violate constant-position principle even in water
+- Recommended activities are user-intuited from physiological rationale, not empirically validated in ME/CFS
+
+] <hyp:constant-body-position>
+
+===== Aquatic Exercise: Hydrostatic Pressure and Autonomic Modulation
+<subsec:aquatic-exercise>
+
+Aquatic exercise occupies a unique position in ME/CFS movement planning because it combines several physiologically protective mechanisms in a single modality. The buoyancy of water reduces gravitational load to a fraction of body weight, seated or horizontal positions minimize orthostatic demand, and — most distinctively — hydrostatic pressure from water immersion produces autonomic shifts that may directly address the sympathovagal imbalance characterizing ME/CFS/POTS.
+
+#speculation(title: [Hydrostatic Pressure Augments Orthostatic Reserve via Parasympathetic Shift])[
+
+*Certainty: 0.68 — mechanism validated in cardiac populations (Schmid 2007, certainty 0.68); not yet tested as ME/CFS therapeutic mechanism.*
+
+Water immersion increases central venous pressure via hydrostatic compression of peripheral veins, shifting autonomic balance toward parasympathetic dominance (vagal activation overriding the Bainbridge reflex) @Schmid2007WaterImmersion. In healthy and cardiac-impaired subjects, chest-deep thermoneutral water immersion produces:
+
+    - Increased central venous pressure → increased preload → increased stroke volume
+    - Decreased heart rate (vagal activation) of approximately 10 bpm
+    - Decreased peripheral vascular resistance (21--30%) — a sympatholytic effect
+    - Maintained or increased cardiac output despite bradycardia
+
+For ME/CFS patients with documented sympathetic dominance, reduced vagal tone, and orthostatic intolerance (Section @sec:pots), this parasympathetic shift during water immersion represents a potential therapeutic mechanism beyond simple buoyancy: the water itself may temporarily "recharge" autonomic capacity by augmenting preload and reducing compensatory sympathetic drive.
+
+However, Hanna et al. (1993) demonstrated that populations with impaired cardiac/autonomic function may fail to fully utilize hydrostatic preload during upright exercise — in post-MI patients, cardiac output and stroke volume during upright cycling were no different in water vs. land despite enhanced resting preload @Hanna1993WaterImmersion. This suggests that the hydrostatic benefit may be most reliable in *horizontal* positions (swimming supine, backstroke, supine floating) rather than upright exercise in water, consistent with the constant-body-position principle (Hypothesis @hyp:constant-body-position). Simply being in water is insufficient; the *combination* of water immersion + horizontal posture maximizes the benefit.
+
+*Falsifiable prediction:* ME/CFS patients performing chest-deep aquatic exercise (thermoneutral 32°C, 10 minutes, gentle movement) should show: (a) immediate reduction in standing HR by ≥5 bpm post-immersion vs. no change after land exercise; (b) increased HF-HRV during and for ≥30 minutes after immersion; (c) reduced orthostatic symptoms on stand-test 1 hour post-aquatic exercise vs. post-land exercise.
+
+*Limitations:* Testing is in cardiac populations, not ME/CFS. The autonomic physiology of ME/CFS differs from heart failure/MI. Some patients report subjective worsening during pool exercise — possibly due to temperature sensitivity, chlorine exposure, or the metabolic demand of moving against water resistance exceeding the hydrostatic benefit. The mechanism rests on a single direct study (Schmid 2007, n=30, cardiac populations) plus Hanna 1993 (n=15, post-MI). Not yet replicated in ME/CFS.
+
+] <spec:aquatic-hydrostatic>
+
+===== Thermoneutral Water Temperature Is Critical
+<subsec:thermoneutral-water>
+
+#speculation(title: [Thermoneutral Water Temperature (31--32°C) as Prerequisite for Safe Aquatic Exercise in ME/CFS])[
+
+*Certainty: 0.55.* Mechanistic inference from Schmid et al. (2007) and thermoregulatory dysfunction literature; no ME/CFS temperature-comparison trial.
+
+ME/CFS patients exhibit impaired thermoregulation and heightened sympathetic response to temperature stress (Section @sec:pots). Water immersion below thermoneutral (28°C) triggers vasoconstriction and sympathetic activation to conserve heat, counteracting the beneficial parasympathetic shift from hydrostatic pressure. Water above thermoneutral (35°C+) triggers vasodilation that can produce hypotension in dysautonomic patients, especially those with POTS.
+
+Schmid et al. (2007) conducted all aquatic testing at thermoneutral 32°C, explicitly citing the importance of avoiding thermal autonomic stress in compromised patients @Schmid2007WaterImmersion. This is consistent with cardiac rehabilitation guidelines specifying 31--33°C water for patients with cardiovascular impairment. The same principle applies to ME/CFS patients whose autonomic systems are already operating at their compensation limit.
+
+*Practical guidance:*
+- *Target pool temperature:* 31--32°C (thermoneutral). Verify with personal pool thermometer before entry
+- *Cold pools (below 29°C):* Likely to induce vasoconstriction, tachycardia, and sympathetic activation — counterproductive
+- *Warm pools (>34°C):* May induce vasodilation, hypotension, lightheadedness, and post-exercise orthostatic intolerance
+- *If only non-thermoneutral pools are available:* Restrict sessions to 5--8 minutes and monitor orthostatic symptoms vigilantly; brief exposure may be tolerable where extended sessions are not
+- *Post-pool warming:* Have towels, warm clothing, and a dry robe ready to prevent post-swim chill, which triggers vasoconstriction and may prolong post-exercise sympathetic activation
+
+*Falsifiable prediction:* In ME/CFS/POTS patients performing aquatic exercise at matched sub-AT intensity: cold water (28°C) will show increased HR and catecholamines; warm water (35°C) will show increased lightheadedness and orthostatic symptoms; thermoneutral (32°C) will show optimal parasympathetic shift and lowest PEM incidence (crossover design, n≥20).
+
+*Limitations:* No ME/CFS-specific temperature-comparison data. Individual temperature sensitivity varies widely. The optimal temperature window may be narrower for some patients. Some patients with predominant heat intolerance may prefer water slightly below thermoneutral, while cold-intolerant patients may prefer slightly above — the 31--32°C range is a starting recommendation, not a rigid absolute.
+
+] <spec:thermoneutral-water>
+
+===== Water Rowing: Constant-Position Compound Movement with Hydrostatic Benefit
+<subsec:water-rowing>
+
+#speculation(title: [Water Rowing as a POTS/ME/CFS-Tolerable Modality — Constant Position + Hydrostatic Pressure + Compound Distribution])[
+
+*Certainty: 0.30.* Mechanistic inference from component physiology; zero ME/CFS trial data. Extrapolation from constant-position principle + Schmid 2007 hydrostatic evidence + Oka 2014 isometric safety data. Not yet replicated.
+
+Water rowing on a seated ergometer (Concept2-style rowing machine adapted for pool use, or a rowing shell in water) combines three protective mechanisms in a single activity: (1) *seated constant body position* — no positional transitions, no orthostatic demand spikes; (2) *hydrostatic pressure* — augmented venous return and parasympathetic tone from chest-deep immersion; (3) *compound upper+lower body movement* — the metabolic load is distributed across large muscle groups, potentially reducing peak local demand and regional ischemia risk compared to isolated movements (see Hypothesis @hyp:compound-vs-isolated-hr). Rowing's rhythmic, reciprocal pattern (pull–recovery cycle) may additionally entrain breathing and HRV.
+
+Unlike swimming, water rowing keeps the face above water, avoiding the breath-holding demands and cervical stress that some ME/CFS patients cannot tolerate. The seated position also accommodates patients with hypermobility whose shoulders may be unstable in overhead swimming strokes.
+
+*Practical protocol outline:*
+    - *Intensity:* 5--10 strokes/minute (ultra-low), RPE ≤10, HR ≤85% estimated AT
+    - *Duration start:* 2 minutes/session, 2 sessions/week
+    - *Progression:* Increase by 1 stroke/minute or 1 minute every 2--3 weeks, only if zero PEM for 2 consecutive sessions
+    - *Form:* Gentle pull with focus on smooth technique, not power. Recover slowly (3--4 second recovery). Avoid explosive drive phase
+    - *Water temperature:* Thermoneutral (31--32°C); see Section @subsec:thermoneutral-water
+    - *Monitoring:* Continuous HR, symptom tracking at 6h, 24h, 48h post-session
+    - *Post-rowing rest:* 5 minutes supine rest for blood redistribution (Section @subsec:post-exercise-horizontal-rest)
+    - *Rollback rule:* If PEM occurs at any stage, return to previous level for 2 weeks before re-attempting progression
+    - *Equipment:* Standard water rowing ergometer or pool rowing machine; resistance provided by water drag rather than air flywheel, creating smooth accommodating resistance
+
+*Falsifiable prediction:* In ME/CFS patients, low-intensity water rowing (≤10 strokes/min, RPE ≤10, HR ≤85% AT) will show: lower HR response per watt of power output vs. land rowing (hydrostatic preload effect); lower PEM incidence (OR below 0.7) vs. matched-intensity land cycling over 4 weeks; improved orthostatic tolerance on stand-test 24h post-rowing vs. baseline.
+
+*Limitations:* Zero ME/CFS water rowing data — this protocol is constructed entirely from physiological first principles. Water rowing ergometers are rare outside specialized rehabilitation facilities. Transport to pool facilities may itself trigger PEM for moderate-to-severe patients. The compound metabolic demand of rowing may exceed some patients' capacity even at minimal intensity. Rowing is a learned motor skill; technique errors could increase workload beyond intended intensity. Completely untested in ME/CFS.
+
+] <spec:water-rowing>
+
+===== Adapted Swimming for ME/CFS
+<subsec:adapted-swimming>
+
+#speculation(title: [Adapted Swimming Protocol for ME/CFS — Backstroke, Thermoneutral, No Turns])[
+
+*Certainty: 0.35.* Clinical trial registered (NCT07454395) — no results yet. Extrapolation from Schmid 2007 hydrostatic evidence + adapted protocol rationale. Not yet replicated.
+
+Swimming provides best-in-class constant body position (horizontal, supine in backstroke) combined with hydrostatic pressure benefit. However, standard lap swimming introduces PEM risks: breath-holding during face-down strokes (Valsalva, CO2 swings), cervical stress from head-turning to breathe, and positional transitions at wall turns. An adapted protocol eliminates these triggers:
+
+    - *Stroke selection:* Backstroke only — face always out of water, eliminates breath-holding, cervical spine supported by water, minimal head movement
+    - *No turns:* Use pool width (not length) or walk-turns at wall; avoid flip turns and push-offs that involve rapid positional change
+    - *Flotation support:* Pool noodle or kickboard under the head/neck for patients with cervical instability or hypermobility (see Section:comorbidity-exercise-conflict for hEDS considerations)
+    - *Intensity:* RPE 9--11, continuous HR monitoring (target below 85% estimated AT)
+    - *Duration:* 5--10 minutes maximum initially; 30-second supine rest at wall every 2--3 minutes
+    - *Water temperature:* 31--32°C thermoneutral (see Section @subsec:thermoneutral-water)
+    - *Environment:* Quiet pool, minimal crowding, consistent depth. No lap swimming crowds or noisy environments
+    - *Post-swim:* Mandatory 5 minutes supine rest for blood redistribution (Section @subsec:post-exercise-horizontal-rest)
+
+*Progressive protocol outline:*
+    - *Baseline (Weeks 1--2):* Backstroke, 5 min/session, 2 sessions/week, pool noodle support, technique focus
+    - *Build (Weeks 3--6):* Backstroke, 8--10 min/session, 2--3 sessions/week, introduce 30-second rest intervals every 2 min
+    - *Maintenance (Weeks 7--12):* Backstroke, 10--15 min/session, 3 sessions/week maximum; do not increase beyond this without CPET confirmation
+
+*Falsifiable prediction:* Backstroke at matched RPE will show lower HR response than freestyle swimming due to reduced Valsalva and cervical stress; adapted protocol will show PEM incidence below 20% in mild-to-moderate POTS+ME/CFS patients over 8 weeks.
+
+*Limitations:* Zero published data on this adapted swimming protocol in ME/CFS. NCT07454395 pending results. Backstroke may be technically challenging for non-swimmers. Pool access is a significant socioeconomic and geographical barrier. Chlorine exposure may trigger mast cell-mediated symptoms in some patients (Section:MCAS). Swimming competence is a prerequisite; non-swimmers should not attempt even adapted swimming without qualified instruction and supervision.
+
+] <spec:adapted-swimming>
+
+===== Resistance Bands: Controlled-Load Strengthening with PEM-Safe Characteristics
+<subsec:resistance-bands>
+
+Resistance band exercises performed in seated or supine positions share PEM-protective properties with isometric training @Oka2014isometricYoga: submaximal intensity is tightly controlled via band resistance selection; concentric-eccentric phases are slow and controlled, avoiding explosive power demands; and bands provide accommodating resistance (increasing force at end-range) that matches natural strength curves, reducing excessive demand at vulnerable joint angles. Unlike free weights, bands eliminate gravitational stabilization demands that require additional energy expenditure.
+
+For patients with hypermobility spectrum disorders (hEDS/HSD) who require muscle strengthening for joint stabilization (see Section @sec:comorbidity-exercise-conflict), resistance bands are a particularly suitable modality because they allow targeted strength work in mid-range positions without end-range loading that risks subluxation.
+
+    - *Position.* Seated or supine only. No standing exercises. Chair with back support.
+    - *Intensity.* 30% estimated 1RM. Resistance estimated by band color/cross-section and stretch distance. Start with lightest band; increase only if zero PEM for 4 consecutive sessions.
+    - *Tempo.* Very slow: 5-second concentric, 2-second hold, 5-second eccentric (5-2-5). The slow tempo avoids explosive power demands and allows continuous form monitoring.
+    - *Volume.* 2 sets × 8 reps for compound movements (seated chest press, seated row, overhead press). 3 sessions/week maximum, 10--15 minutes/session.
+    - *Rest between sets.* Mandatory 30 seconds supine rest for blood redistribution.
+    - *Monitored HR.* Target below 85% estimated AT during contractions.
+    - *Compound preference.* Prefer compound movements over isolation to distribute metabolic load across larger muscle mass.
+
+#speculation(title: [Resistance Bands Produce Lower HR Response Than Equivalent-Load Free Weights in ME/CFS])[
+
+*Certainty: 0.40.* Mechanistic inference from reduced stabilization demand + slow-tempo physiology; no ME/CFS comparative trial. Not yet replicated.
+
+Because resistance bands eliminate the gravitational stabilization demands that free-weight exercises impose (stabilizing a dumbbell against gravity while moving it through space requires continuous muscle co-contraction), band exercises should produce lower HR response and lower PEM incidence at equivalent external load. The very slow tempo (5-2-5) further reduces HR response vs. standard tempo (1-0-1, 2-0-2) by preventing rapid force development that necessitates explosive motor unit recruitment. This makes resistance bands the preferred loading modality for ME/CFS patients who need strength maintenance but cannot tolerate free-weight protocols.
+
+*Falsifiable prediction:* Seated resistance band exercises (2 × 8 reps, 30% 1RM, 5-2-5 tempo) will show ≥5 bpm lower peak HR vs. equivalent-load free-weight exercises (match movement pattern, reps, and external load) in ME/CFS patients.
+
+*Limitations:* No ME/CFS band vs. free-weight trial. Maximum resistance is limited by band availability; patients needing higher loads for progression may eventually require free weights or cable machines. Band tension is non-linear, making precise progressive overload more difficult to quantify than plate-loaded equipment. Movement pattern limitations — compound rowing and pressing are feasible with bands but some movements (squats, deadlift patterns) are difficult to replicate safely. Not yet replicated.
+
+] <spec:resistance-band-hr>
+
+===== Modality Safety Classification by Orthostatic Demand
+<subsec:modality-classification>
+
+The combination of body position, hydrostatic pressure exposure, and compound vs. isolated movement pattern determines a modality's orthostatic demand profile. The following taxonomy integrates these factors into a practical decision tool for clinicians and patients:
+
+#speculation(title: [Orthostatic-Demand-Based Exercise Modality Classification for ME/CFS/POTS])[
+
+*Certainty: 0.55.* Mechanistic taxonomy anchored in POTS/orthostatic intolerance physiology; no validation study. Only the "recommended" tier has any ME/CFS evidence (isometric yoga, recumbent bike from Oka et al.).
+
+*Tier 1 — Lowest orthostatic demand (recommended for all severity levels):*
+    - Isometric yoga (seated/supine) @Oka2014isometricYoga
+    - Bed-based passive range-of-motion (caregiver-assisted) @Oka2017recumbentYoga
+    - Supine gentle stretching
+    - Supine diaphragmatic breathing
+
+*Tier 2 — Low orthostatic demand (constant position; no transitions):*
+    - Recumbent bike (seated constant position)
+    - Water rowing (chest-deep, thermoneutral, seated) (see Section @subsec:water-rowing)
+    - Resistance bands (seated/supine, slow tempo) (see Section @subsec:resistance-bands)
+    - Adapted backstroke swimming (horizontal, no turns) (see Section @subsec:adapted-swimming)
+
+*Tier 3 — Moderate orthostatic demand (constant position but upright):*
+    - Upright cycling (seated constant position, orthostatic demand of upright posture)
+    - Seated walking (chair-based stepping)
+    - Supine-to-seated transitions during mat-based exercises
+
+*Tier 4 — High orthostatic demand (positional transitions):*
+    - Walking (upright with movement, frequent start/stop at intersections, stairs)
+    - Standard yoga (standing-to-floor transitions, balance poses)
+    - Circuit training (positional changes between stations)
+    - Swimming with flip turns (rapid rotational movement, breath-holding)
+
+*Tier 5 — Contraindicated (PEM-incompatible):*
+    - Graded exercise therapy protocols with progressive overload without continuous PEM monitoring
+    - Any activity exceeding individual anaerobic threshold
+    - Any activity producing PEM within 72 hours at any dosage level
+
+*Application rules:*
+    - Patients select from their matching severity tier or below
+    - If a Tier 1 activity produces PEM, the patient should not progress to Tier 2
+    - Progression to next tier requires: ≥4 weeks tolerance of current tier, zero PEM for 2 consecutive weeks, documented functional stability
+    - POTS comorbidity: prefer Tier 1--2 (horizontal/constant position). POTS patients should avoid Tier 4 modalities without prior recumbent conditioning (analogous to the Leeds recumbent-to-upright progression, Fu et al. 2010)
+    - hEDS/HSD comorbidity: add isometric component emphasis within chosen tier; avoid end-range loading
+
+*Falsifiable prediction:* Patients selecting modalities from their matched severity tier will show ≥50% lower PEM incidence vs. patients selecting modalities above their tier (trial: 12-week observational comparison, N=60).
+
+*Limitations:* Tier boundaries are theoretically derived, not empirically calibrated. The taxonomy conflates orthostatic demand (physiological) with fall/intensity risk (safety) — these are separate dimensions that may not co-vary perfectly. No validation study exists. Individual variation in tolerance means some patients may exceed or be unable to reach the predicted tier. The taxonomy is a hypothesis, not a validated clinical tool.
+
+] <spec:modality-classification>
+
+===== Post-Exercise Horizontal Rest for Autonomic Recovery
+<subsec:post-exercise-horizontal-rest>
+
+#speculation(title: [Mandatory Post-Exercise Horizontal Rest Reduces Delayed PEM via Blood Redistribution and Autonomic Stabilization])[
+
+*Certainty: 0.55.* Extends the Klimas program's supine-rest concept (Section @sec:klimas-program) to all exercise modalities. Mechanistically grounded in orthostatic physiology; no controlled trial of post-exercise rest as an independent intervention variable.
+
+Exercise, even at sub-AT intensity, produces transient blood redistribution away from splanchnic circulation and toward working muscles. In ME/CFS patients with global hypoperfusion and orthostatic intolerance, this redistribution may exceed compensatory capacity, contributing to PEM. Post-exercise horizontal rest (supine or semi-recumbent) maximizes blood return to splanchnic circulation and brain, accelerating recovery of perfusion balance and reducing the risk of delayed PEM.
+
+The Klimas program @Ussher2025 already embeds supine rest between activity bouts. This principle extends to all modalities: *every exercise session should conclude with a mandatory 5--10 minute horizontal rest period*, independent of whether the patient "feels recovered." The rest is physiological protection, not symptom palliation.
+
+*Protocol:*
+    - *Timing:* Immediately after any exercise session, transition to supine position within 1 minute
+    - *Position:* Supine, legs elevated 15--30 degrees (pillow under calves) to enhance venous return
+    - *Duration:* 5 minutes for sessions ≤10 minutes; 10 minutes for sessions 10--20 minutes
+    - *During rest:* Diaphragmatic breathing (6 breaths/min) to enhance parasympathetic activation
+    - *Environment:* Quiet, darkened room, minimal stimulation
+    - *Completion criteria:* HR within 5 bpm of baseline; no orthostatic symptoms; subjective "settled" sensation
+    - *If criteria not met after 10 minutes:* Extend rest by 5-minute increments to max 30 minutes. If criteria remain unmet, exercise intensity was too high for that session
+    - *Documentation:* Record rest duration needed to meet criteria — serves as an intensity calibration metric for subsequent sessions
+
+*Falsifiable prediction:* Post-exercise horizontal rest will reduce time to HR baseline (≤5 min vs. 10--15 min without rest), reduce orthostatic symptom duration post-exercise, and reduce PEM incidence (OR below 0.5) in a within-subject crossover (4-week phases, N≥20).
+
+*Limitations:* The post-exercise rest concept has not been isolated as an independent intervention variable. Benefit may derive from any rest (not specifically horizontal rest). Extending exercise sessions with mandatory rest components increases total time commitment, which may reduce adherence. No ME/CFS-specific trial of post-exercise rest as an independent PEM prevention strategy.
+
+] <spec:post-exercise-horizontal-rest>
 
 ==== Gentle Stretching
 
@@ -941,8 +1188,27 @@ Horizontal or semi-reclined positions reduce orthostatic stress:
 
     - *Recumbent bike*: Allows cardiovascular activity with lower orthostatic demand
     - *Supine leg movements*: Gentle cycling motions while lying down
-    - *Pool exercises*: Buoyancy reduces gravitational stress (if tolerated; some patients worsen in water)
+    - *Pool exercises*: Buoyancy reduces gravitational stress; hydrostatic pressure augments venous return and parasympathetic tone @Schmid2007WaterImmersion (if tolerated; some patients worsen in water — see Section @subsec:aquatic-exercise for detailed protocol guidance and temperature requirements)
     - *Resistance bands while seated*: Low-impact strength maintenance
+
+===== Compound vs. Isolated Movement: HR Response in ME/CFS
+<subsec:compound-vs-isolated>
+
+#speculation(title: [Compound Movements May Produce Lower HR Response Than Isolated Movements at Equivalent Perceived Exertion in ME/CFS])[
+
+*Certainty: 0.40.* Novel extrapolation from global hypoperfusion and cardiac output limitation documented in ME/CFS; zero direct comparative data. Not yet replicated.
+
+In healthy individuals, compound movements (multi-joint, multi-muscle) elicit higher HR than isolated movements because they recruit more total muscle mass. However, in ME/CFS patients with impaired perfusion redistribution and reduced cardiac output, this relationship may reverse: compound movements distribute metabolic load across larger muscle mass, reducing peak local demand and ischemic stress, while isolated movements (e.g., bicep curl) concentrate metabolic demand in small muscle groups, potentially exceeding local perfusion capacity and triggering compensatory sympathetic activation and disproportionate HR elevation.
+
+This hypothesis challenges the intuitive assumption that isolation exercises are "easier" or "safer." If correct, a seated row (compound: back, biceps, shoulders) may be physiologically less stressful at matched perceived exertion than a bicep curl (isolated: biceps only), because the metabolic demand per gram of active muscle tissue is lower in the compound movement, reducing regional ischemia and the sympathetic HR response that ischemia triggers.
+
+*Practical application:* When prescribing resistance exercises for ME/CFS patients, prioritize compound movements (seated row, seated chest press, leg press) over isolation movements (bicep curl, tricep extension, leg curl) at equivalent intensity. This applies to resistance band, free-weight, and machine-based exercises alike.
+
+*Falsifiable prediction:* In ME/CFS patients performing matched-RPE exercises: compound movement (seated row) will show ≥5 bpm lower HR vs. isolated movement (bicep curl); isolated movement will show greater regional deoxygenation on NIRS; compound movement will show lower PEM incidence over 4-week trial.
+
+*Limitations:* Completely untested in ME/CFS — this is theoretical physiology applied to a novel population. The full hypothesis requires validation of the assumption that local perfusion failure, rather than total metabolic demand, is the dominant HR driver in ME/CFS. Compound movements require more motor coordination, increasing cognitive demand during exercise — this may offset the hypothesized perfusion benefit in patients with cognitive PEM sensitivity. Individual perfusion reserve varies, making individual response unpredictable without NIRS or invasive measurement.
+
+] <hyp:compound-vs-isolated-hr>
 
 ==== Monitoring for PEM
 

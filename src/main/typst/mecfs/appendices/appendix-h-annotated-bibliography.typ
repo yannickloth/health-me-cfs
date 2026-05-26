@@ -16838,4 +16838,58 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Certainty:* 0.65
         - *Limitation:* Sample size for pDC-specific analysis not retrieved; DNase1L3 and pDC functional data not reported; single timepoint follow-up (7 months)
     
+=== Schmid et al.\ 2007 — Water Immersion, Swimming, and Cardiac Output in Heart Failure
+
+    *Full Citation:*: Schmid JP, Noveanu M, Morger C, Gaillet R, Capoferri M, Anderegg M, Saner H.\ Influence of water immersion, water gymnastics and swimming on cardiac output in patients with heart failure.\ _Heart_.\ 2007;93(6):722–727. @Schmid2007WaterImmersion
+    *DOI:*: #link("https://doi.org/10.1136/hrt.2006.094870")[10.1136/hrt.2006.094870]
+    *PMID:*: 17164483
+    *PMCID:*: PMC1955189
+    *Study Design:*: Controlled physiological study (three parallel groups)
+    *Sample Size:*: n=30 (10 CHF patients, 10 CAD patients with preserved LV function, 10 healthy controls)
+    *Key Findings:*
+
+        - Water immersion to chest increased cardiac index: 19% (controls), 21% (CAD patients), 16% (CHF patients)
+        - All groups could increase cardiac index during swimming: 87% (controls), 77% (CAD), 53% (CHF)
+        - Water immersion decreased heart rate in all groups (vagal activation overriding Bainbridge reflex)
+        - Oxygen uptake during swimming: 9.7 (3.3) ml/kg/min (CHF), 12.4 (3.5) ml/kg/min (CAD), 13.9 (4.0) ml/kg/min (controls)
+        - Swimming intensity below anaerobic threshold for all groups including CHF
+        - Peripheral vascular resistance decreased: 21% (CHF), 30% (CAD), 28% (controls) during immersion; further decrease during exercise
+        - Hydrostatic pressure increases central venous pressure and venous return via compression of peripheral veins
+
+    *Relevance:*: **High relevance for ME/CFS exercise modality optimization**. Demonstrates hydrostatic pressure effects on hemodynamics during aquatic exercise with key autonomic implications:
+        - Vagal activation (decreased HR) while maintaining or increasing stroke volume — potentially beneficial for POTS/orthostatic intolerance
+        - Horizontal posture in water reduces gravitational stress — may improve orthostatic tolerance during exercise
+        - Thermoneutral water (32°C) reduces thermal stress — important for ME/CFS patients with thermoregulatory dysfunction
+        - Swimming at tested intensity (~4 METs or 14 ml/kg/min VO2) below anaerobic threshold even in reduced cardiac function patients
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium-High (Heart/BMJ; controlled design; validated non-invasive cardiac output measurement; thermoneutral water)
+        - *Certainty:* 0.68
+        - *Limitations:* Wrong patient population (heart failure/CAD, not ME/CFS); cardiac dysfunction mechanisms differ from ME/CFS; excluded severely impaired CHF patients; acute hemodynamic response only; no long-term training outcomes; all participants were swimmers pre-study
+
+=== Hanna et al.\ 1993 — Water Immersion and Exercise Response After Myocardial Infarction
+
+    *Full Citation:*: Hanna RD, Sheldahl LM, Tristani FE.\ Effect of enhanced preload with head-out water immersion on exercise response in men with healed myocardial infarction.\ _American Journal of Cardiology_.\ 1993;71(12):1041–1044. @Hanna1993WaterImmersion
+    *DOI:*: #link("https://doi.org/10.1016/0002-9149(93)90570-3")[10.1016/0002-9149(93)90570-3]
+    *PMID:*: 8475866
+    *Study Design:*: Crossover controlled study (water vs land, same subjects)
+    *Sample Size:*: n=15 men with healed myocardial infarction
+    *Key Findings:*
+
+        - At rest in water: Cardiac output and stroke volume elevated (p < 0.05) vs land
+        - During exercise (upright cycle ergometer, 40–75% peak VO2): No difference in heart rate, cardiac output, or stroke volume between water and land
+        - Contrast with healthy subjects: In healthy men, cardiac output and stroke volume are greater in water than on land during upright cycling; heart rate similar at below 50% peak VO2 but decreased in water at higher intensities
+        - Findings unchanged when excluding beta-blocker users (n=8) or subjects with ST-segment depression (n=5)
+        - Conclusion: MI alters normal cardiac response to increased preload during exercise; mechanism may involve reduced myocardial compliance or near-complete use of Frank-Starling reserve during land exercise
+
+    *Relevance:*: **Medium-high relevance for ME/CFS exercise physiology**. Demonstrates that altered autonomic/cardiac physiology changes response to hydrostatic preload:
+        - Normal subjects use enhanced preload to increase stroke volume during water exercise; compromised physiology (MI, potentially ME/CFS autonomic dysfunction) fails to utilize this reserve
+        - Upright cycling during immersion still did not benefit from hydrostatic preload — suggests simply being in water is insufficient if autonomic/cardiac adaptation is impaired
+        - ME/CFS/POTS patients may similarly have reduced ability to utilize preload augmentation, potentially limiting aquatic exercise benefit
+        - Safety implication: Water immersion did not worsen exercise response even in compromised physiology — supports aquatic exercise as safe option if tolerance established
+    *Certainty Assessment:*:
+
+        - *Quality:* Medium (American Journal of Cardiology; crossover design; validated cardiac output measurement)
+        - *Certainty:* 0.55
+        - *Limitations:* Wrong patient population (healed myocardial infarction, not ME/CFS); all male; upright cycling in water (not swimming); no assessment of symptoms or perceived exertion; acute exercise only
 
