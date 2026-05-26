@@ -605,7 +605,7 @@ Ce chapitre explore des hypothèses au-delà du cancer et de l'EM/SFC, dans tous
 #v(0.5em)
 
 #callout(fill: rgb("#FFF8F4"), border: rgb("#D45B12"))[
-*Note.* Ces hypothèses sont générées par IA (Claude Sonnet 4.6, Anthropic) dans un cadre de brainstorming créatif. Elles n'ont pas été vérifiées contre la littérature scientifique. Certaines sont spéculatives. Chacune porte une certitude estimée. Elles sont destinées à stimuler la réflexion, pas à être citées comme des conclusions.
+*Note.* Ces hypothèses sont générées par IA (DeepSeek V4 Pro) dans un cadre de brainstorming créatif. Elles n'ont pas été vérifiées contre la littérature scientifique. Certaines sont spéculatives. Chacune porte une certitude estimée. Elles sont destinées à stimuler la réflexion, pas à être citées comme des conclusions.
 ]
 
 #pagebreak()
@@ -876,7 +876,7 @@ Le même cadre ProA/ProB explique simultanément des observations dans le cancer
 
 = Notes de transparence
 
-Ce document a été généré le 26 mai 2026 à partir du document ME/CFS (Loth, Version 7) avec l'assistance d'un modèle d'IA (Claude Sonnet 4.6, Anthropic). Toutes les citations ont été vérifiées contre le fichier `references.bib` du document principal.
+Ce document a été généré le 26 mai 2026 à partir du document ME/CFS (Loth, Version 7) avec l'assistance d'un modèle d'IA (DeepSeek V4 Pro). Toutes les citations ont été vérifiées contre le fichier `references.bib` du document principal.
 
 Les extraits du document principal sont reproduits en anglais (langue originale du document). Les commentaires et le texte de liaison sont en français.
 
