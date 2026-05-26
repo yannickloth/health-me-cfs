@@ -1234,6 +1234,184 @@ For patients with stable mild-to-moderate ME/CFS who tolerate current activity l
 Patients with severe ME/CFS (housebound or bedbound) should consult physicians before attempting any structured movement program. Even minimal exertion may trigger severe crashes in this population. For these patients, activities of daily living (personal hygiene, eating) may constitute maximal tolerable exertion, leaving no additional capacity for exercise.
 ]
 
+===== Conceptual Framework: Fitness Maintenance vs. Fitness Improvement
+<subsec:fitness-maintenance>
+
+#hypothesis(title: [Fitness Maintenance as a Distinct Goal from Fitness Improvement in ME/CFS])[
+
+*Certainty: 0.60.* Strongly grounded in energy envelope theory and two-day CPET evidence; frame is conceptual, not a testable mechanism.
+
+*Framework.* Exercise physiology distinguishes two fundamental goals: *fitness maintenance* (preventing further loss from current baseline) and *fitness improvement* (building capacity above baseline). In healthy populations, these goals coexist — training produces both maintenance and improvement. In ME/CFS, they are *fundamentally decoupled.* The metabolic dysfunction that underlies PEM @keller2024cpet means that any exercise protocol intended to produce adaptation (fitness improvement) instead produces physiological deterioration — the inverse of the intended effect. The only achievable goal is fitness maintenance: using carefully calibrated movement to prevent the deconditioning, atrophy, joint stiffness, and orthostatic deterioration that complete immobility would cause, without triggering the PEM cascade that would worsen the baseline.
+
+*Why "fitness improvement" is contraindicated.* Two-day CPET evidence demonstrates that a single maximal exertion produces 5--8% declines in VO2peak, work output, and ventilation in ME/CFS, with recovery requiring 13+ days @keller2024cpet. This is the *opposite* of a training adaptation — it is training *de*-adaptation. Every attempt to "increase fitness" through progressive overload instead *decreases* functional capacity. Graded exercise therapy (GET) programs, built on the assumption that fitness improvement is possible and desirable, produced 51% harm rates in patient surveys precisely because they applied a fitness-improvement model to a physiology that cannot accommodate it @Kindlon2011GET.
+
+*What "fitness" means in ME/CFS.* In the energy envelope framework @Jason2008EnergyEnvelope, fitness must be redefined as *functional capacity within the envelope* — not absolute VO2max, not maximal strength, not cardiovascular endurance in the conventional sense. The relevant metrics are:
+    - *Activities of daily living (ADL) capacity:* Can the patient shower, prepare meals, perform basic hygiene without PEM?
+    - *Baseline function stability:* Is the patient's functional level stable over months, or declining?
+    - *PEM threshold:* At what exertion level does PEM onset occur, and is this threshold stable or rising?
+    - *Deconditioning prevention:* Are joint mobility, muscle mass, and orthostatic tolerance maintained without being actively increased?
+
+A patient whose ADL capacity is steady over 6 months, whose PEM threshold is not declining, and who has not developed contractures or orthostatic worsening is *succeeding at fitness maintenance* — the highest achievable goal in ME/CFS. This is not "giving up" or "accepting illness limitation." It is recognizing physiological reality and targeting the intervention to the achievable outcome.
+
+*Distinction from deconditioning prevention.* Deconditioning prevention is the physical floor — the minimum movement needed to prevent joint contractures, muscle atrophy, and orthostatic deterioration. Fitness maintenance is the operational ceiling — the maximum sustainable activity level within the energy envelope that stabilizes function without triggering PEM. Movement above the envelope produces deterioration (PEM); movement below the deconditioning prevention floor produces gradual iatrogenic loss from immobility. The safe zone between them is narrow and individually calibrated.
+
+*Energy envelope expansion through pacing.* Anecdotal patient reports describe that months of strict pacing can *expand* the energy envelope — not through training adaptation, but through removal of the repeated PEM insults that were cumulatively eroding baseline function. This is *recovery of latent capacity* (unmasking function that was there but suppressed by PEM-induced damage), not *acquisition of new capacity* (building fitness through training). The distinction is clinically important: a patient whose envelope expands through pacing should not interpret this as evidence that exercise training works. The causal mechanism is cessation of harm, not loading-induced adaptation.
+
+*Psychological dimension.* The fitness-improvement paradigm is deeply embedded in sports culture, clinical rehabilitation, and the messages ME/CFS patients receive from providers, family, and their own internalized expectations. Accepting that fitness maintenance — not improvement — is the ceiling requires psychological adjustment. Acceptance and commitment therapy (ACT) frameworks that focus on living meaningfully within limitation rather than striving to overcome it are directly applicable to this reframing.
+
+*Testable prediction:* A 12-week trial randomizing ME/CFS patients to (a) fitness-maintenance-targeted activity (pacing + deconditioning-prevention movement, with explicit expectation-setting that fitness improvement is not a goal) vs. (b) standard pacing advice should show equivalent or better functional stability in the fitness-maintenance group, reduced PEM episode frequency (because patients are not testing the improvement ceiling), and reduced psychological distress (because goal-behavior alignment reduces frustration). The mechanistic prediction is that the fitness-maintenance group experiences fewer PEM events, not that fitness improves.
+
+*Limitations:* This is a conceptual framework, not an empirically tested model. The distinction between "recovery of latent capacity" and "acquisition of new capacity" cannot be experimentally distinguished in an individual patient without knowing their hypothetical pre-illness ceiling. "Fitness" redefinition is semantic/philosophical — useful for clinical communication but not subject to hypothesis testing. ACT acceptance approaches may not suit all patients; some find the framing of "accepting limitation" demoralizing rather than empowering. Not yet replicated as a structured protocol.
+
+] <hyp:fitness-maintenance-distinction>
+
+
+
+===== Fitness Maintenance Framework: Activities of Daily Living Capacity as Primary Outcome Metric
+
+#speculation(title: [ADL Capacity Stability as the Primary Fitness Outcome in ME/CFS])[
+
+*Certainty: 0.35.* Extrapolation from existing energy envelope theory and FUNCAP validation; no prospective trial using ADL stability as primary endpoint. Not yet replicated.
+
+If fitness improvement cannot be achieved and fitness maintenance is the ceiling, the natural outcome metric is *ADL capacity stability* — measured over months to years — rather than conventional fitness metrics (VO2max, strength, endurance). The FUNCAP-27 @Sommerfelt2024FUNCAP already provides an 8-domain functional capacity assessment validated in ME/CFS. Serial FUNCAP-27 assessments at 3-month intervals can track whether a patient's ADL capacity is stable, declining, or (in the rare patient whose latent capacity is recovering through pacing) slowly improving.
+
+This reframing has practical clinical consequences:
+    - A patient whose FUNCAP scores are stable should be *congratulated* — they are succeeding at the highest achievable goal. Conventional rehab framing interprets stability as "no progress," leading to frustration and potentially harmful attempts to "break through the plateau."
+    - A patient whose FUNCAP scores are declining should be assessed for *remediable causes of envelope shrinkage* (new comorbidities, medication side effects, life stressors, overexertion pattern) rather than prescribed "more exercise to build capacity."
+    - A patient whose FUNCAP scores are improving should be monitored to distinguish *true envelope expansion* (sustained improvement with no PEM) from *temporary fluctuation* (good week followed by crash). Improvement that is not sustained over 2 consecutive 3-month assessments is not envelope expansion.
+
+*Falsifiable prediction:* A cohort study measuring serial FUNCAP-27 at 3-month intervals over 24 months should show that patients receiving fitness-maintenance-targeted counseling (explicit expectation of ADL stability as primary outcome) have equivalent or better 24-month FUNCAP trajectory compared to patients receiving standard pacing advice, with lower rates of "boom-bust" fluctuation pattern.
+
+*Limitations:* FUNCAP-27 sensitivity to detect meaningful within-patient change over 3-month intervals is not established. Stability may reflect the measure's insensitivity rather than true functional stability. The approach requires a conceptual shift from "improvement" to "stability" that patients, clinicians, and outcome researchers may resist. No trial data exists for this specific reframing.
+
+] <spec:adl-stability-metric>
+
+===== Psychological Reframing: Acceptance of the Fitness-Maintenance Ceiling
+
+#speculation(title: [Explicit Fitness-Maintenance Goal-Setting Reduces Exercise-Related Psychological Distress in ME/CFS])[
+
+*Certainty: 0.20.* Extrapolation from ACT literature and motivational psychology; no ME/CFS-specific trial. The mechanism is goal-behavior alignment — when achievable goals match prescribed behavior, distress is lower than when unachievable goals are pursued.
+
+ME/CFS patients exist in a rehabilitation culture that equates "progress" with "improvement." Physiotherapists chart progress toward increased capacity. Patients expect to "get stronger." Family members ask "are you getting better?" When the achievable ceiling is stability, this mismatch between expectation and reality generates frustration, demoralization, and — importantly — may drive patients to exceed their energy envelope in pursuit of a progress that physiology cannot deliver. Explicitly naming "fitness maintenance" as the goal removes this conflict.
+
+Protocol components:
+    - *Expectation-setting at treatment initiation:* "The goal of this movement program is to maintain your current level of function and prevent deconditioning complications. It cannot and should not attempt to build fitness."
+    - *Outcome reframing:* "Stability is success. A flat FUNCAP trajectory is a good result."
+    - *Monitoring for goal-behavior mismatch:* If the patient reports "trying harder" or "wanting to break through," assess whether this is driving envelope overshoot.
+    - *Integration with ACT:* Acceptance and commitment therapy provides frameworks for living meaningfully within limitation, directly applicable to the fitness-maintenance acceptance challenge.
+
+*Falsifiable prediction:* Patients randomized to fitness-maintenance goal-setting (explicit stability-as-success messaging) vs. standard pacing counseling will show lower exercise-related distress (measured by a validated exercise-avoidance/anxiety scale) at 12 weeks, with equivalent or better PEM frequency.
+
+*Limitations:* This is an untested psychological intervention frame. Some patients may find "acceptance of limitation" more distressing than the pursuit of improvement, even if the pursuit is futile. Cultural context matters — the fitness-improvement narrative may be more or less dominant in different healthcare systems. No ME/CFS-specific trial of this framing exists.
+
+] <spec:fitness-acceptance>
+
+===== Muscle Mass and Joint Preservation in Severe/Bedbound Patients
+<subsec:muscle-preservation-bedbound>
+
+For severe and bedbound ME/CFS patients, the safe movement approaches described above — even recumbent or aquatic activities — may exceed capacity. In this population, the goal is not movement for deconditioning prevention but *passive preservation*: preventing the muscle atrophy, bone density loss, contractures, and skin breakdown that prolonged immobility causes, using interventions that consume minimal or zero patient metabolic effort.
+
+#speculation(title: [Passive Range-of-Motion Protocols Prevent Contractures Without Triggering PEM])[
+
+*Certainty: 0.40.* Mechanistic inference from ICU/space medicine deconditioning literature; no ME/CFS-specific trial. Not yet replicated.
+
+In ICU patients immobilized for >7 days and in astronauts during microgravity exposure, passive range-of-motion (PROM) exercises performed by a caregiver demonstrably reduce joint contracture development and muscle atrophy compared to no intervention. The energy expenditure cost of PROM is borne by the caregiver, not the patient — the patient's muscles are not actively contracting, so the metabolic demand that triggers PEM is absent. The risk is not metabolic but positional: incorrect positioning, excessive range, or overly rapid movement can cause pain, subluxation (in hypermobile patients), or autonomic activation.
+
+*Protocol for severe/bedbound ME/CFS:*
+    - *Caregiver-administered only.* Patient remains fully passive
+    - *Position.* Supine throughout. No head-of-bed elevation during PROM unless patient already tolerates that position
+    - *Joints targeted.* Shoulders, elbows, wrists, hips, knees, ankles — one joint at a time, one limb at a time, 5 repetitions per joint
+    - *Range.* Pain-free range only. Never stretch into discomfort. For hypermobile patients: mid-range only, avoid end-range loading
+    - *Tempo.* Very slow: 5-second movement through range, brief pause at endpoint
+    - *Duration.* 5--8 minutes per session, 2--3 times per week initially
+    - *Monitoring.* Symptom tracking at 6h, 24h, 48h post-session. If PEM occurs, reduce to 1 session/week with half the repetitions
+    - *Contraindications.* Active PEM, acute pain episode, suspected joint subluxation, elevated resting HR above individual baseline
+
+*Falsifiable prediction:* Severe/bedbound ME/CFS patients receiving caregiver-administered PROM (2--3 sessions/week for 12 weeks) will show slower joint range-of-motion decline (goniometry) and lower contracture incidence compared to matched bedbound controls without PROM, without increase in PEM frequency.
+
+*Limitations:* Not tested in ME/CFS; extrapolation from critical care and space medicine populations. Even passive movement may trigger PEM in very severe patients if the proprioceptive input or autonomic response to limb manipulation exceeds tolerance. Caregiver availability is a significant access barrier. Individual baseline flexibility and hypermobility status must guide range limits.
+
+] <spec:bedbound-passive-rom>
+
+#speculation(title: [Nutritional Anti-Catabolic Strategies Slow Muscle Wasting in Bedbound ME/CFS])[
+
+*Certainty: 0.30.* Mechanistic inference from sarcopenia, ICU, and space medicine literature; no ME/CFS-specific trial. Not yet replicated.
+
+When the musculoskeletal system receives no loading stimulus (complete bed rest), muscle protein breakdown exceeds synthesis within days, producing measurable atrophy. Nutritional strategies that have shown benefit in other immobilization contexts — ICU early nutrition, spaceflight countermeasure programs, sarcopenia management — may partially offset this catabolic drive in bedbound ME/CFS. The following strategies are low-risk, do not require patient exertion, and have mechanistic rationale:
+
+    - *Protein adequacy.* 1.2--1.5 g/kg/day protein, distributed across 3--4 small meals/snacks to maximize muscle protein synthesis signaling. For a 60 kg patient: 72--90 g/day. Whey protein isolate (if dairy-tolerant) provides highest leucine content per gram. Plant-based alternatives: pea protein + rice protein blend for complementary amino acid profile
+    - *Leucine threshold.* 2.5--3.0 g leucine per meal is the threshold for mTOR-mediated muscle protein synthesis activation. This can be achieved with 25--30 g whey protein or 35--40 g soy protein. Timing: with each meal; supplemental free leucine (2 g) can be added to meals that fall below the threshold
+    - *Creatine monohydrate.* 3--5 g/day. Increases intramuscular phosphocreatine, which buffers ATP depletion and may slow muscle wasting by maintaining cellular energy status. Well-established safety profile. Contraindicated in renal impairment
+    - *HMB (beta-hydroxy-beta-methylbutyrate).* 3 g/day, divided into 3 doses. HMB is a leucine metabolite that specifically inhibits muscle protein breakdown via the ubiquitin-proteasome pathway. Meta-analyses in elderly and ICU populations show modest preservation of lean mass. Evidence in complete bed rest is limited. Do not combine with high-dose leucine (redundant pathway)
+    - *Vitamin D3 + calcium.* 2,000--4,000 IU/day vitamin D3 + 1,000--1,200 mg/day calcium for bone density preservation. Bedbound patients lose bone density rapidly (1--2% per month in weight-bearing sites). Vitamin D also has muscle function effects independent of calcium. Monitor serum 25(OH)D quarterly; target 50--80 nmol/L
+    - *Omega-3 fatty acids.* 2--3 g/day EPA+DHA. Anti-inflammatory effect may reduce catabolic cytokine signaling (TNF-alpha, IL-6) that drives muscle wasting in chronic illness. Fish oil or algal oil source
+
+*Safety interactions (check before initiating any supplement in patients already on):* Creatine: avoid in renal impairment, monitor creatinine. HMB: no significant interactions known; limited safety data beyond 12 months. Omega-3: potentiates anticoagulant/antiplatelet effect — caution with warfarin, clopidogrel, aspirin, high-dose fish oil. Vitamin D: calcium co-administration may increase risk of hypercalcemia in immobility — monitor serum calcium if both are taken.
+
+*Falsifiable prediction:* Bedbound ME/CFS patients receiving combined nutritional anti-catabolic protocol (protein 1.5 g/kg/day + leucine threshold + creatine 5 g/day) for 12 weeks will show slower mid-thigh muscle cross-sectional area decline (ultrasound or DXA) compared to bedbound controls receiving standard nutrition, without increase in gastrointestinal PEM triggers.
+
+*Limitations:* No ME/CFS trial. Nutritional interventions in bedbound patients carry aspiration risk for those with severe dysphagia or impaired consciousness (rare in ME/CFS). Gastric emptying may be slowed in severe patients, making large protein doses poorly tolerated — small, frequent servings are essential. Creatine may cause mild GI upset. HMB evidence is modest and primarily from non-ME/CFS populations. Compliance requires caregiver assistance.
+
+] <spec:nutritional-anti-catabolic>
+
+#speculation(title: [Positioning and Postural Management Prevents Contractures and Pressure Injuries in Bedbound ME/CFS])[
+
+*Certainty: 0.45.* Well-established in ICU nursing, palliative care, and spinal cord injury rehabilitation; extrapolated to ME/CFS severe/bedbound by analogy. Not yet replicated in ME/CFS specifically.
+
+Prolonged immobility in a single position causes: (a) muscle shortening → contractures (especially hip flexors, knee flexors, ankle plantarflexors); (b) sustained pressure over bony prominences → pressure injuries (sacrum, heels, elbows, occiput); (c) dependent edema in immobile limbs; (d) chest wall restriction from prolonged supine positioning → reduced lung expansion. A structured positioning protocol prevents these complications without metabolic cost to the patient.
+
+*Protocol:*
+    - *Repositioning schedule.* Every 2 hours during waking hours, every 3--4 hours during sleep. A caregiver is required; the patient does not expend energy on repositioning
+    - *Position rotation.* Alternate between: supine (default), left side-lying (pillow between knees, pillow behind back), right side-lying (same supports), semi-recumbent (head-of-bed 30 degrees, if orthostatically tolerated — many severe patients may not tolerate this)
+    - *Joint positioning.* Hips: neutral rotation, slight abduction (pillow between knees in side-lying, small roll under knees in supine to prevent hyperextension). Knees: slight flexion (10--15 degrees) to avoid hyperextension and posterior capsule stretch. Ankles: neutral (90 degrees) to prevent plantarflexion contracture — use footboard, heel protector boots, or multi-podus boots if the patient tolerates foot contact. Shoulders: slight abduction (pillow under each arm in supine), neutral rotation. Elbows: slight flexion. Wrists: neutral; hand splints if finger flexion contractures are developing
+    - *Pressure relief.* Pressure-relieving mattress (alternating air or high-density foam). Heel protectors. Regular skin inspection by caregiver at repositioning times for early signs of pressure injury
+    - *Micro-movement within tolerance.* Where possible, encourage the patient to make tiny voluntary position adjustments (finger wiggles, toe curls, gentle head rotation) at each repositioning, provided these do not approach their energy envelope limit
+    - *Contraindications.* Active PEM episode → reduce repositioning frequency to essential position changes only (every 4 hours) as tolerated. Positions that worsen orthostatic symptoms (head-of-bed elevation in some POTS patients) → avoid. Pain with specific positions → modify or avoid
+
+*Falsifiable prediction:* Bedbound ME/CFS patients receiving structured repositioning protocol (every-2-hour rotation + joint positioning) will show lower contracture incidence (goniometry at 12 weeks) and lower pressure injury rate compared to bedbound patients without structured positioning, without PEM frequency increase.
+
+*Limitations:* Every-2-hour repositioning requires a caregiver present — a significant access barrier for patients living alone or without 24-hour care. Repositioning itself may trigger autonomic symptoms in very sensitive patients (the brief orthostatic stress of side-lying transition). No ME/CFS position-management trial exists. Extrapolation from ICU/Palliative care; applicability to ME/CFS-specific pathophysiology unverified.
+
+] <spec:bedbound-positioning>
+
+===== Bed-Based Isometric Protocols for Severe Patients
+
+#speculation(title: [Bed-Based Isometric Holds as the Lowest-Intensity Tier of Safe Movement])[
+
+*Certainty: 0.40.* Already partially in Ch. 17 (isometric exercises listed, bed-based micro-movement N3 exists); this extends to explicit severity stratification. Not yet replicated as a structured severity-tiered protocol.
+
+The isometric exercises listed in the general safe movement section — wall sits, plank holds, leg presses against bed — are appropriate for mild-to-moderate patients. For severe/bedbound patients, these must be scaled to the lowest possible intensity tier: holds performed entirely supine, targeting only those muscle groups the patient can voluntarily contract without increasing respiratory rate, without exceeding resting HR by more than 5 bpm, and without producing any sensation of effort.
+
+*Severe patient protocol:*
+    - *Muscle groups.* Start with single-muscle, unilateral holds: one quadriceps (press knee into bed, 3-second hold), one gluteal (squeeze, 3-second hold), one bicep (press forearm into bed, 3-second hold). No compound movements. Progress to bilateral only if single-muscle tolerated without PEM for 2 weeks
+    - *Intensity.* Submaximal — the patient should be able to talk normally during contraction. If breathing deepens, intensity is too high
+    - *Hold duration.* 3 seconds initially; progress to 5 seconds over 4 weeks if tolerated; 10 seconds maximum. Longer holds recruit a progressively larger fraction of muscle mass as slow-twitch fibers fatigue and fast-twitch fibers are recruited
+    - *Frequency.* 1 session/day, 2--3 minutes total contraction time. Rest 30 seconds between holds. Do not attempt on days with active PEM
+    - *Monitoring.* HR must remain within 5 bpm of resting HR. If HR increases > 5 bpm, the contraction intensity is too high. Symptom tracking at 6h, 24h, 48h post-session
+    - *Environmental conditions.* Quiet, darkened room. Supine position with head supported. Temperature comfortable (not cold, which increases muscle tension). Do not perform isometrics during or immediately after meals or cognitive exertion
+
+*Falsifiable prediction:* Bedbound ME/CFS patients performing supine single-muscle 3-second isometric holds (2--3 min/day total contraction time) will show slower quadriceps cross-sectional area decline (ultrasound at 12 weeks) vs. bedbound controls, without PEM frequency increase.
+
+*Limitations:* Even minimal isometric contractions may trigger PEM in very severe patients — this protocol is not guaranteed safe for all bedbound patients. The 3-second, single-muscle, sub-5-bpm-HR-increase parameters are clinician-estimated thresholds, not empirically validated. The protocol may be too minimal to produce measurable muscle preservation in bedbound patients who are already severely atrophied. Oka 2017 recumbent isometric yoga was for severe ME/CFS (n=12, pilot) — closer to this severity tier but not bedbound-severe.
+
+] <spec:bedbound-isometric>
+
+#open-question(title: [NMES/EMS for Muscle Preservation in Bedbound ME/CFS — Unknown PEM Risk])[
+
+*Certainty: Not applicable — safety threshold unknown.*
+
+Neuromuscular electrical stimulation (NMES/EMS) has demonstrated muscle mass preservation in ICU-immobilized patients, spinal cord injury, and prolonged bed rest in healthy volunteers. By activating motor units electrically rather than via voluntary neural drive, NMES can produce muscle contractions that maintain protein synthesis signaling and slow atrophy without requiring patient volitional effort.
+
+The risk in ME/CFS is that the electrically-induced contractions are metabolically indistinguishable from voluntary contractions — if the metabolic cost of muscle activation is the PEM trigger (rather than the cognitive effort of voluntary movement), then NMES could trigger PEM identically to volitional exercise. In ICU patients, 30--60 minutes of quadriceps NMES at visible-contraction-threshold intensity can produce measurable muscle preservation. Whether ME/CFS patients can tolerate even minimal NMES parameters (5 minutes, lowest visible contraction intensity, single muscle group) is completely unknown.
+
+No ME/CFS NMES trial exists. The safety question — *does NMES trigger PEM?* — must be answered before any efficacy question can be asked. If future research determines that sub-PEM-threshold NMES parameters exist, this could become a valuable atrophy countermeasure for the most vulnerable patients.
+
+] <oq:bedbound-nmes>
+
+#warning-env(title: [Exercise Precautions])[
+Patients with severe ME/CFS (housebound or bedbound) should consult physicians before attempting any structured movement program. Even minimal exertion may trigger severe crashes in this population. For these patients, activities of daily living (personal hygiene, eating) may constitute maximal tolerable exertion, leaving no additional capacity for exercise.
+]
+
 == Stress Management
 <sec:stress-management>
 
