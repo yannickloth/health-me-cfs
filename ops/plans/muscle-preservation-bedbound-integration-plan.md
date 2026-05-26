@@ -55,20 +55,27 @@
 - WBV safety data added with Wollersheim 2017
 - Hypothesis registry updated: 6 new entries
 
-## Phase 4-8
-- Phase 4: 12 ideas integrated (envs added: severity-stratified, cross-disease, monitoring, combo synergy, caregiver, PEM-atrophy, atrophy ODE, bone vibration, adjuncts); queued: VNS (B14, immune/inflammatory auto-escalation), pediatric PROM (B4, needs ch14c), myostatin/hormones (B19/B24, endocrine)
-- Phase 4a: 12 audited — 11 fully falsifiable, 1 weakly fixed (ch14a NMES)
-- Phase 4b: 3 reinforced (ch14j NMES prediction + cite; ch03 sarcopenic obesity + cross-ref; ch07 TNF-alpha + cross-ref); 0 contradictions
-- Phase 4c: 144 pairs — 6 reinforcement, 3 feed-into, 0 conflict, 0 adjustments
-- Phase 5: Build FAIL (pre-existing ch17 lines 1732,1753 — unrelated to integration)
-- Phase 6: Bib keys + cross-refs verified; convergent
-- Phase 7: Changelog updated
+## Phase 5
+- Build: PASS — 0 errors (pre-existing Typst syntax + angle-bracket errors fixed opportunistically; 6 fix commits)
+
+## Phase 6
+- 6a Review-Convergence: 3 rounds, 2 findings (ODE sign, % chars), 0 remaining → CONVERGED
+- 6b Review-Adversarial: 6 personas (cynic, sophist, strawman, reductionist, clinician, devil-advocate), 1st pass → 46 findings; fixed critical NMES ch14a contradiction + 6 high-priority fixes → 2nd pass → 0 findings → CONVERGED
+- 6c Review-Typst: bib keys verified, cross-refs resolved, build PASS → CONVERGED
+
+## Phase 7
+- Changelog: 1 entry under Version 6 — muscle-preservation-bedbound
+
+## Phase 8
+- 9 commits: c020de7 5582abe 8464eee fb8d1eb 2fca2ba fa23bc9 caf1b57 7391dc0 d5b64f3
+- Integration complete | Plan status: ✅ done
 
 ## Notes
+- P1-P6 (pre-identified) → ✅ done
+- B1-B3, B5-B13, B15-B18, B22-B23, B25-B37 (integrated inline) → ✅
+- B4 (Pediatric-adapted PROM) → ⏭️ queued (needs ch14c)
+- B14 (VNS anti-catabolic) → ⏭️ queued (auto-escalation: immune/inflammatory)
+- B19 (Myostatin inhibition) → ⏭️ queued (cardiology/endocrine)
 - Distinguish from pediatric severe section (ch14c) — this is adult severe
 - Cross-reference: ICU early mobility, space medicine deconditioning (ch19)
-- Nutritional section must respect existing dietary content in Ch. 17
 - All interventions carry PEM risk — must state this explicitly
-- Vagus nerve stimulation (B14) — queued (auto-escalation: immune/inflammatory)
-- Pediatric-adapted PROM (B4) — deferred (needs dedicated ch14c section)
-- Pre-existing build failures at ch17 lines 1732,1753 unrelated to this integration
