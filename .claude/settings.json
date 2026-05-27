@@ -81,7 +81,10 @@
       "Edit(/.claude/skills/commit/**)",
       "Edit(/.claude/skills/review-convergence/**)",
       "mcp__web-search-prime__web_search_prime",
-      "mcp__web-reader__webReader"
+      "mcp__web-reader__webReader",
+      "Bash(opencode --version)",
+      "Bash(opencode agent *)",
+      "Bash(opencode run *)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
