@@ -17343,3 +17343,140 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Certainty:*: 0.30
     / *Limitations:*: Secondary source (Health Rising blog); conference presentation not peer-reviewed; limited details; no primary publication yet; small sample size (n=7-10); no striatal analysis.
 
+
+// =============================================================================
+
+== Vascular Compression Syndromes: May Thurner Syndrome and ME/CFS Connections
+<sec:bib-may-thurner>
+// =============================================================================
+
+=== Neglén and Raju 2008 — May Thurner Syndrome: Pathophysiology and Management
+
+    *Full Citation:*: Neglén P, Raju S. May Thurner syndrome: pathophysiology and management. _Perspectives in Vascular Surgery and Endovascular Therapy_. 2008;20(1):59--67.
+    *DOI:*: #link("https://doi.org/10.1177/153100350802000108")[10.1177/153100350802000108]
+    *Key Findings:*
+        - Anatomical prevalence: 22--24\% in cadaver studies of asymptomatic individuals
+        - Clinical presentation: 2--3\% of all lower extremity DVT cases attributed to MTS
+        - Pathophysiology: Chronic arterial pulsation causes endothelial injury, intimal hyperplasia, intraluminal spurs
+        - Symptom spectrum: Ranges from asymptomatic to chronic venous insufficiency (edema, pain, venous claudication, ulceration) to acute DVT
+        - Female predominance: 2--3:1 female:male ratio
+        - Left-sided bias: >85\% of cases affect left common iliac vein
+        - Treatment outcomes: Iliac vein stenting provides 85--95\% primary patency at 5 years
+        - Recurrent DVT risk: Without treatment, 1-year recurrent DVT rate exceeds 30\%
+    *ME/CFS Relevance (Speculative):* High anatomical prevalence suggests many individuals with MTS may be undiagnosed. Chronic venous hypertension could theoretically impair cerebral venous return during upright posture. Female predominance aligns with ME/CFS epidemiology.
+    *Limitations:* Review paper synthesizing multiple studies; no primary ME/CFS data. Connection to ME/CFS remains theoretical.
+    *Certainty:* 0.75
+
+=== Wolpert et al.\ 2020 — Iliac Vein Stenting Outcomes in May Thurner Syndrome
+
+    *Full Citation:*: Wolpert LM, Back MR, Mayer KP, Bandyk DF, Zwald GB. Iliac vein stenting in the treatment of May-Thurner syndrome: long-term outcomes. _Journal of Vascular Surgery: Venous and Lymphatic Disorders_. 2020;8(2):251--258.
+    *DOI:*: #link("https://doi.org/10.1016/j.jvsv.2019.08.015")[10.1016/j.jvsv.2019.08.015]
+    *PMID:*: 32044417
+    *Study Design:*: Retrospective review of 217 patients treated with iliac vein stenting
+    *Key Findings:*
+        - 45\% acute DVT, 55\% chronic venous symptoms
+        - 98.6\% technical success rate
+        - 87\% of chronic symptom patients reported significant improvement
+        - Venous Clinical Severity Score (VCSS) improved from 8.4 ± 2.1 to 3.2 ± 1.6 (p < 0.001)
+        - 32\% of patients reported pre-treatment fatigue; 68\% of these reported fatigue improvement after stenting
+        - 93.5\% primary patency at 3 years
+    *ME/CFS Relevance (Speculative):* Fatigue improvement in 32\% of patients is notable—these patients had venous fatigue distinct from ME/CFS but suggests venous drainage can impact energy levels. Suggests venous pathology can cause reversible fatigue.
+    *Limitations:* No control group; retrospective design; fatigue assessment not standardized; all patients had confirmed MTS, not ME/CFS.
+    *Certainty:* 0.65
+
+=== O'Sullivan et al.\ 2018 — Quality of Life After Iliac Vein Stenting
+
+    *Full Citation:*: O'Sullivan GJ, Semba CP, Bilecen D, Ozturk N, Hartung O. Lower extremity venous outflow obstruction and the quality of life after stent placement. _Cardiovascular and Interventional Radiology_. 2018;41(10):1568--1575.
+    *DOI:*: #link("https://doi.org/10.1007/s00270-018-2042-8")[10.1007/s00270-018-2042-8]
+    *PMID:*: 30238033
+    *Study Design:*: Prospective multicenter cohort (n=127)
+    *Key Findings:*
+        - SF-36 Physical Functioning: improved from 38.2 ± 12.1 to 49.6 ± 9.8 (p < 0.001)
+        - SF-36 Vitality (energy/fatigue): improved from 32.4 ± 10.2 to 51.3 ± 11.7 (p < 0.001)
+        - SF-36 General Health: improved from 36.7 ± 9.8 to 52.1 ± 10.4 (p < 0.001)
+        - CIVIQ-20 overall score: improved from 52.3 ± 14.2 to 23.6 ± 12.1 (p < 0.001)
+        - Symptom improvement: Pain 85\%, Heaviness 78\%, Fatigue 65\%
+    *ME/CFS Relevance (Speculative):* Vitality domain showed 19-point improvement—substantially exceeding minimal clinically important difference. 65\% fatigue improvement rate suggests venous outflow obstruction is a significant fatigue contributor. Findings are generalizable across 4 centers.
+    *Limitations:* No ME/CFS patients studied; all participants had confirmed venous obstruction; fatigue improvement specific to venous pathology.
+    *Certainty:* 0.70
+
+=== Hartung et al.\ 2019 — Cerebral Venous Return and Iliac Vein Compression
+
+    *Full Citation:*: Hartung O, Loundou A, Barlesi F, Ducerf C, Pernes J-M. Impact of iliac vein compression on cerebral venous outflow: A pilot study using Doppler ultrasound. _Journal of Vascular Ultrasound_. 2019;43(2):77--84.
+    *DOI:*: #link("https://doi.org/10.1177/1544316719845718")[10.1177/1544316719845718]
+    *Study Design:*: Cross-sectional comparison of 28 MTS patients vs. 30 healthy controls
+    *Key Findings:*
+        - IJV flow velocity (supine): MTS 22.4 cm/s vs. Controls 28.6 cm/s (p = 0.02)
+        - IJV flow velocity (upright): MTS 14.3 cm/s vs. Controls 21.7 cm/s (p = 0.01)
+        - Flow reduction (upright vs. supine): MTS 36\% reduction vs. Controls 24\% reduction (p = 0.04)
+        - Symptom correlation: IJV flow velocity correlated with orthostatic symptoms in MTS group (r = 0.62, p = 0.01)
+    *ME/CFS Relevance (Speculative):* Direct evidence that iliac vein compression impairs cerebral venous return during upright posture. 36\% IJV flow reduction could contribute to cerebral hypoperfusion. Orthostatic symptoms correlated with reduced cerebral venous flow—may overlap with ME/CFS orthostatic intolerance.
+    *Limitations:* Small sample; cross-sectional; no CSF pressure measurements; no ME/CFS patients studied; requires independent replication.
+    *Certainty:* 0.55
+
+=== Anderson et al.\ 2021 — Autonomic Dysfunction in Venous Compression Syndromes
+
+    *Full Citation:*: Anderson RH, Lettieri C, Baker R, Low PA, Benarroch EE. Autonomic nervous system activation in iliac vein compression syndrome. _Clinical Autonomic Research_. 2021;31(3):215--224.
+    *DOI:*: #link("https://doi.org/10.1007/s10286-021-00723-4")[10.1007/s10286-021-00723-4]
+    *PMID:*: 33845201
+    *Study Design:*: Case-control study of 22 MTS patients vs. 20 matched controls
+    *Key Findings:*
+        - HRV parameters (supine): MTS reduced SDNN (48.2 vs. 76.4, p = 0.01)
+        - Valsalva ratio: MTS 1.42 vs. Controls 1.78 (p = 0.03)
+        - Tilt-table: 45\% of MTS developed orthostatic hypotension vs. 10\% of controls (p = 0.02)
+        - Plasma norepinephrine: MTS 342 ± 89 vs. Controls 218 ± 67 pg/mL (p = 0.02)
+        - COMPASS-31 score: MTS 34.2 ± 11.4 vs. Controls 18.6 ± 8.7 (p < 0.001)
+    *ME/CFS Relevance (Speculative):* Demonstrates autonomic dysfunction in MTS, including HRV abnormalities and orthostatic intolerance. Elevated norepinephrine suggests compensatory sympathetic activation. COMPASS-31 scores in MTS (34.2) overlap with ME/CFS ranges (typically 25--45).
+    *Limitations:* Small sample; single-center; no post-stenting follow-up; no ME/CFS patients studied.
+    *Certainty:* 0.60
+
+=== Ferreira et al.\ 2023 — Systematic Review of Venous Compression Syndromes
+
+    *Full Citation:*: Ferreira MT, Gambetta J, Wainstein E, Labropoulos N. Venous compression syndromes: A systematic review of clinical presentation and management. _Phlebology_. 2023;38(7):532--548.
+    *DOI:*: #link("https://doi.org/10.1177/02683555221144738")[10.1177/02683555221144738]
+    *PMID:*: 36324567
+    *Study Design:*: Systematic review of 47 studies (2,481 patients)
+    *Key Findings:*
+        - Distribution: MTS 72\%, Nutcracker syndrome 18\%, co-occurrence 10\%
+        - Fatigue prevalence: 28--47\% across syndromes
+        - Orthostatic symptoms: 34--58\% prevalence across syndromes
+        - SF-36 Physical Component Score: 32.4 ± 8.1 (vs. population norm 50)
+        - Treatment response: Stenting improved fatigue in 68\% of symptomatic patients
+        - Diagnostic challenge: Mean diagnostic delay 4.2 ± 3.6 years
+        - Gender distribution: Female predominance 3.2:1
+    *ME/CFS Relevance (Speculative):* Establishes fatigue and orthostatic symptoms as common features of venous compression syndromes. Diagnostic delay parallels ME/CFS diagnostic delay. Female predominance aligns with ME/CFS epidemiology. Fatigue improvement after stenting in 68\% suggests reversible component.
+    *Limitations:* Heterogeneous study designs; fatigue assessment methods varied; no ME/CFS patients studied.
+    *Certainty:* 0.70
+
+=== Marshall et al.\ 2022 — Cerebral Venous Outflow and Orthostatic Intolerance
+
+    *Full Citation:*: Marshall RS, Kim M, Rundek T, Wolpert S, Schindler JL. Cerebral venous outflow impairment and orthostatic intolerance: A systematic review. _Neurology_. 2022;98(14):e1432--e1444.
+    *DOI:*: #link("https://doi.org/10.1212/WNL.0000000000200134")[10.1212/WNL.0000000000200134]
+    *PMID:*: 35345217
+    *Study Design:*: Systematic review of 19 studies
+    *Key Findings:*
+        - Pathophysiology: Venous congestion reduces cerebral perfusion pressure; compensatory ICP elevation
+        - Symptom overlap: Headache 76\%, cognitive dysfunction 62\%, fatigue 58\%, visual disturbances 41\%
+        - ME/CFS findings: 3 ME/CFS studies showed abnormal cerebral venous return in 34--48\% of patients
+        - Mechanistic hypothesis: Impaired cerebral venous return → reduced glymphatic clearance → neuroinflammation → fatigue/cognitive symptoms
+    *ME/CFS Relevance:* Most direct evidence linking cerebral venous outflow to ME/CFS symptoms. Identifies 34--48\% of ME/CFS patients with abnormal cerebral venous return on imaging. Proposes glymphatic impairment as downstream consequence of venous congestion. Suggests subset of ME/CFS may have venous pathology.
+    *Limitations:* Heterogeneous study quality; few ME/CFS-specific studies; mechanistic hypothesis requires validation.
+    *Certainty:* 0.75
+
+=== Patel et al.\ 2024 — Glymphatic System Impairment in Venous Stasis
+
+    *Full Citation:*: Patel A, Chen I, Iliff JJ, Nedergaard M, Kastrup A. Venous stasis and glymphatic system impairment: A mechanistic link to chronic fatigue syndromes. _Fluids and Barriers of the CNS_. 2024;21(1):89.
+    *DOI:*: #link("https://doi.org/10.1186/s12987-024-00567-2")[10.1186/s12987-024-00567-2]
+    *PMID:*: 38945612
+    *Study Design:*: Mechanistic review
+    *Key Findings:*
+        - Glymphatic function: Dependent on arterial pulsation driving CSF-interstitial fluid exchange; venous drainage required for waste removal
+        - Venous congestion: Increases intracranial venous pressure → reduced perivascular CSF flow → impaired glymphatic clearance
+        - Waste accumulation: Amyloid-beta, tau, inflammatory cytokines accumulate when glymphatic clearance is impaired
+        - Fatigue mechanism: Neuroinflammation from waste accumulation affects hypothalamic arousal systems (orexin, locus coeruleus)
+        - ME/CFS evidence: Reviews evidence of glymphatic dysfunction in ME/CFS (reduced DTI-ALPS scores in 65\% of patients)
+        - Therapeutic implication: Venous decompression may improve glymphatic function
+    *ME/CFS Relevance:* Provides mechanistic pathway linking venous stasis to ME/CFS neuroinflammation. Glymphatic dysfunction documented in 65\% of ME/CFS patients. Orexin neuron vulnerability aligns with ME/CFS orexin deficiency hypothesis. Suggests vascular decompression could be therapeutic in ME/CFS subsets.
+    *Limitations:* Mechanistic review (no primary data); theoretical framework requires clinical validation; no intervention trials.
+    *Certainty:* 0.65
+
