@@ -1,0 +1,4 @@
+Maccallini, P. (2025). Toward a Disease Module for ME/CFS: A Network-Based Gene Prioritization. medRxiv preprint. DOI: 10.1101/2025.04.13.25325733.
+
+Abstract:
+Network-based analysis of 22 seed genes from ME/CFS literature using STRING database and Random Walk with Restart algorithm. Identified 272-gene ME/CFS module enriched in sphingolipid metabolism, energy-related pathways (oxidative phosphorylation, TP53-regulated metabolic genes), heme degradation, and thermogenesis. Overlap with neurodegenerative diseases (Parkinson's, Alzheimer's) noted. No eMSN or striatum-specific findings reported. Provides computational framework for candidate gene prioritization.

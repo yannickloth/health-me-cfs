@@ -1,0 +1,4 @@
+Siletti et al. (2023). Transcriptomic diversity of cell types across the adult human brain. Science, 382(6667):10.1126/science.add7046.
+
+Abstract:
+Comprehensive single-nucleus RNA-seq atlas of entire human brain with 3.3 million single-cell transcriptomes from 105 dissections across forebrain, midbrain, and hindbrain. Identified 31 superclusters, 461 clusters, 3,313 subclusters. High neuronal diversity outside cortex in hypothalamus, midbrain, and hindbrain. Human Protein Atlas lists "eccentric medium spiny neurons" cluster: GAD1/GAD2 (CXCL14+ DRD1+ ADARB2+). Confirms eMSN presence in human brain and provides human-specific marker genes. Dataset available for independent validation.

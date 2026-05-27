@@ -1,0 +1,4 @@
+DecodeME Genetics Consortium (2025). Initial findings from the DecodeME genome-wide association study of myalgic encephalomyelitis/chronic fatigue syndrome. medRxiv preprint. DOI: 10.1101/2025.08.06.25333109.
+
+Abstract:
+Largest ME/CFS GWAS to date comparing 15,579 cases with 259,909 controls. Identified eight genome-wide significant loci associated with ME/CFS. MAGMA analysis revealed significant enrichment of ME/CFS-related genes in all 13 brain tissues examined, indicating neurological involvement. Genes implicated in immune function (BTN2A2, OLFM4, RABGAP1L) and neurological processes (CA10, ARFGEF2). No eMSN-specific findings reported. Four loci replicated in external biobank analyses.

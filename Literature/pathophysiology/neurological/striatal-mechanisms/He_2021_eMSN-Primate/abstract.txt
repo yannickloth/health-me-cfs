@@ -1,0 +1,4 @@
+He et al. (2021). Transcriptional and Anatomical Diversity of Medium Spiny Neurons in the Primate Striatum. Current Biology, 31(24), 5473-5486.
+
+Abstract:
+Single-nucleus RNA-seq of rhesus macaque striatum identified nine distinct MSN subtypes, including D1/D2 hybrid neurons (eMSN). Marker genes: RXFP1 (highly specific for D1/D2 hybrid), expresses both DRD1 and DRD2. D1-NUDAP cells express RXFP1, CPNE4, enriched in μ-opioid receptor. Striosome cells express KCNIP1, BACH2, KCNT1. Matrix cells express STXBP6, GDA, SEMA3E. eMSN constitute ~10% of MSNs, uniformly distributed in dorsal striatum, express high DRD1 and low DRD2 compared to D2-MSNs. Tissue-specific subtypes identified in ventral striatum (NAc shell, OT, interface islands).
