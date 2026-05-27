@@ -318,7 +318,7 @@ Une fois activé, l'ARN HSAT2 peut être empaqueté dans des vésicules extracel
 
 === NOUVEAU — Mécanisme de Lomonte : remaniement centromérique viral comme déclencheur proximal de HSAT2
 
-La publication récente de Lahaye, Lomonte, Manel et al. dans _Cell_ (2025) @Lahaye2025centromere fournit le mécanisme manquant entre l'infection herpétique et la transcription HSAT2. Les auteurs démontrent que les protéines des Herpesviridae induisent un remaniement des centromères (séquences alpha-SAT), notamment une amplification de ces séquences, durant leur cycle de réplication. Ce processus, nommé VICAR (viral-induced centromeric DNA amplification and recognition), active le senseur immunitaire nucléaire cGAS au niveau des centromères. Le lien mécanistique proposé par Patrick Lomonte (communication personnelle, mai 2026) est le suivant :
+La publication récente de Lahaye, Lomonte, Manel et al. dans _Cell_ (2025, DOI: 10.1016/j.cell.2025.05.008) fournit le mécanisme manquant entre l'infection herpétique et la transcription HSAT2. Les auteurs démontrent que les protéines des Herpesviridae induisent un remaniement des centromères (séquences alpha-SAT), notamment une amplification de ces séquences, durant leur cycle de réplication. Ce processus, nommé VICAR (viral-induced centromeric DNA amplification and recognition), active le senseur immunitaire nucléaire cGAS au niveau des centromères. Le lien mécanistique proposé par Patrick Lomonte (communication personnelle, mai 2026) est le suivant :
 
 1. Infection par Herpesviridae $arrow.r$ protéines virales (ICP0 pour HSV-1, IE1/IE2 pour HCMV, K8 pour KSHV) $arrow.r$ remaniement et amplification de l'ADN centromérique (alpha-SAT)
 2. Ce remaniement centromérique $arrow.r$ déstabilisation de l'hétérochromatine péricentromérique $arrow.r$ transcription des satellites péricentromériques HSAT2 (et possiblement HSAT3) dans les cellules infectées
@@ -347,6 +347,24 @@ Les zones cérébrales préférentiellement infectées par HSV-1, HHV-6 et SARS-
 === NOUVEAU — Relation endothéliale-immunitaire
 
 Il existe des relations étroites entre cellules endothéliales et système immunitaire, documentées notamment par l'article « SPI1-KLF1/LYL1 axis regulates lineage commitment during endothelial-to-hematopoietic transition from human pluripotent stem cells ». Cette connexion développementale entre endothélium et hématopoïèse — partageant le facteur de transcription SPI1/PU.1 — fournit un substrat mécanistique pour comprendre comment une perturbation de la signalisation endothéliale (par exemple via l'infection ou l'inflammation) pourrait avoir des répercussions immunitaires via la dérégulation de SPI1 par l'ARN HSAT2.
+
+=== NOUVEAU — Projets expérimentaux
+
+*Task force HSAT2/EM — Claire Vourc'h (IAB Grenoble).* Geneviève Fourel a convaincu Claire Vourc'h (spécialiste HSAT3, collaboratrice depuis 25 ans) de monter une task force sur le sujet « Hypothèse HSAT2 / EM ». L'institut IAB à Grenoble disposerait a priori de financements suffisants pour démarrer un projet expérimental en attendant des fonds dédiés. *Statut :* rien n'est acté pour l'instant ; en discussion.
+
+*Biomarqueurs EV — Martina Seifert (2026).* L'article « Extracellular Vesicle Protein and MiRNA Signatures as Biomarkers for Post-Infectious ME/CFS Patients » (Seifert et al., 2026) a été publié. Les auteurs ont séquencé tous les ARN contenus dans les EV de patients EM (>17 nt), disposant donc à la fois des données miRNA et des autres ARN. Martina Seifert souhaite se cantonner à l'analyse des miRNA. Geneviève Fourel va lui demander l'accès aux résultats de séquences totales (incluant potentiellement HSAT2 et autres ARN satellites). *Statut :* demande d'accès en cours.
+
+=== Note sur la simplification des modèles
+
+Geneviève Fourel a exprimé une réserve importante sur notre approche de modélisation (pers. comm., mai 2026) : « Tout est beaucoup trop simplifié — ça me rappelle le type de modélisation faite par mes collègues physiciens : il manque plein d'acteurs dans le système, et à force de simplifier ça ne veut plus rien dire. »
+
+Elle prépare deux revues longues (BOOK1.1 et BOOK1.2, écrites principalement en 2022) détaillant l'organisation fonctionnelle du génome dans son ensemble. Ces documents, qu'elle désespère de publier « tant la communauté scientifique est en retard en terme de compréhension globale de comment l'organisation du génome fonctionne », seront transmis prochainement et devront être intégrés pour enrichir le modèle.
+
+*Exemple concret.* La méthylation contribue à la fonction ProB des séquences ProB, mais lorsqu'elles ne sont pas méthylées, d'autres mécanismes peuvent, dans une certaine mesure, prendre le relai. Ceci rend la Prédiction 3 (transition discontinue sigmoïdale du compartiment B quand la méthylation ProB diminue) partiellement fausse dans certaines conditions — la perte de méthylation ne garantit pas l'effondrement du compartiment car des mécanismes de silencing compensateurs (H1, HP1, repositionnement nucléosomique) assurent une redondance partielle. Les quatre prédictions du cadre ProA/ProB sont globalement déjà vérifiées (cf. le preprint), mais la Prédiction 3 nécessite ce caveat.
+
+=== Correction — Causalité ICF/EM
+
+Dans le document principal, nous avions présenté l'analogie ICF comme une preuve de concept que la perte de méthylation péricentromérique cause une pathologie immunitaire, avec l'EM comme version atténuée. Geneviève Fourel précise : « Dans l'E.M., la perte d'activité DNMT3B à HSAT2 serait une *conséquence* de l'activation HSAT2, pas une cause initiale. » Ceci distingue fondamentalement l'EM du syndrome ICF : dans l'ICF, la mutation DNMT3B est la cause initiale de l'hypométhylation ; dans l'EM, l'activation transcriptionnelle de HSAT2 (déclenchée par le remaniement centromérique viral) précède et cause la perte de DNMT3B au locus — et non l'inverse. Le parallèle ICF-EM partage le point d'arrivée (hypométhylation péricentromérique → pathologie immunitaire) mais diffère radicalement dans le mécanisme initiateur.
 
 Votre Supplementary Data Figure 17 (perte de méthylation de GSATII/HSAT2 dans le cancer du foie) est citée comme validation expérimentale directe que la perte de méthylation des répétitions satellites est un événement mesurable et spécifique associé à la maladie. Cette validation est référencée à deux emplacements dans le document principal (Chapitre 16, spéculation `spec:methylation-loss-consolidation`, et Chapitre 12, hypothèse `hyp:HSAT2-activation-pathways`).
 
@@ -405,9 +423,13 @@ _Certitude._ 0,30 pour le modèle vectoriel intra-cellulaire vs 0,40 pour l'hét
 
 == Contrainte de somme nulle de DNMT3B
 
-L'activité méthyltransférase _de novo_ est finie par cellule. La redistribution de DNMT3B des répétitions ProB vers les régions ProA/géniques produit un changement couplé : $sum_i Delta m_i = 0$ au niveau de l'allocation enzymatique. La perte aux répétitions ProB et le gain aux promoteurs de gènes ne sont pas indépendants -- ils représentent un seul mécanisme avec deux manifestations.
+L'activité méthyltransférase _de novo_ est finie par cellule. Dans le modèle *cancer* de Bonnet, Hulo, Fourel et al. (2026), la redistribution globale de DNMT3B des répétitions ProB vers les régions ProA/géniques produit un changement couplé : $sum_i Delta m_i = 0$ au niveau de l'allocation enzymatique. La perte aux répétitions ProB et le gain aux promoteurs de gènes (et aux séquences Alu) ne sont pas indépendants -- ils représentent un seul mécanisme avec deux manifestations.
 
-Cette contrainte a des implications thérapeutiques directes : la thérapie systémique par donneurs de méthyle soutient la reméthylation aux loci ProB mais ne peut pas déméthyler les loci ProA simultanément. La thérapie idéale -- restauration direction-correcte à chaque locus -- nécessite des outils pharmacologiques de ciblage locus-spécifique qui n'existent pas encore.
+#callout(title: "CORRECTION — Applicabilité à l'EM", fill: rgb("#FFF8F4"), border: rgb("#D45B12"))[
+La contrainte de somme nulle est une propriété du modèle de redistribution *globale* de DNMT3B, applicable au cancer et potentiellement aux stimulations chroniques. Pour l'EM, le mécanisme proposé par Geneviève Fourel est plus ciblé (loss-meCpG spécifique à HSAT2 dans certaines cellules cérébrales, avec propagation ultérieure). L'applicabilité de la contrainte de somme nulle à ce mécanisme EM locus-spécifique n'a pas été établie — elle est conservée dans le modèle formel comme hypothèse structurelle non validée pour l'EM.
+]
+
+Dans le cas du cancer, cette contrainte a des implications thérapeutiques directes : la thérapie systémique par donneurs de méthyle soutient la reméthylation aux loci ProB mais ne peut pas déméthyler les loci ProA simultanément. La thérapie idéale -- restauration direction-correcte à chaque locus -- nécessite des outils pharmacologiques de ciblage locus-spécifique qui n'existent pas encore.
 
 == Seuil d'irréversibilité $m_i^"crit"$
 
