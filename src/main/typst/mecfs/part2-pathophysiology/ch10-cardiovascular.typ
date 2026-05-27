@@ -152,6 +152,30 @@ Excessive venous pooling in dependent body parts reduces venous return:
     - *Impaired venoconstriction*: Venous tone fails to increase appropriately
     - *Consequences*: Reduced cardiac preload, orthostatic symptoms
 
+==== Anatomical Venous Compression: May Thurner Syndrome as a Potential Contributor
+
+#speculation(title: [May Thurner Syndrome as a Contributor to Venous Return Impairment in ME/CFS])[
+*Certainty: 0.25.* May Thurner syndrome (MTS)---anatomical compression of the left common iliac vein between the right common iliac artery and lumbar vertebra---may contribute to venous return impairment in a subset of ME/CFS patients through direct mechanical obstruction. No peer-reviewed literature directly links MTS to ME/CFS; the connection is inferred from shared pathophysiology.
+
+*Epidemiological overlap.* MTS has an anatomical prevalence of 22--24% in cadaver studies, with female predominance (2--3:1) and a mean diagnostic delay of 4.2 years from symptom onset @Neglen2008MayThurnerReview @Ferreira2023VenousCompressionReview. These figures loosely parallel ME/CFS demographics (female predominance, long diagnostic delays), raising the possibility of undiagnosed MTS in ME/CFS cohorts. However, no study has systematically screened ME/CFS patients for iliac vein compression.
+
+*Mechanistic pathways.*
+- *Impaired venous return during upright posture.* Hartung et al. (2019) used transcranial Doppler to demonstrate a 36% reduction in internal jugular vein flow velocity from supine to upright posture in MTS patients, versus 24% in controls @Hartung2019CerebralVenousReturn. The upright flow velocity correlated with orthostatic symptoms (r = 0.62). If this mechanism operates in ME/CFS patients with undiagnosed MTS, venous compression could compound the pre-existing preload failure, blood volume deficits, and orthostatic intolerance discussed above.
+- *Autonomic dysfunction from venous compression.* Anderson et al. (2021) documented reduced heart rate variability (SDNN), impaired Valsalva response, and elevated plasma norepinephrine in MTS patients versus controls @Anderson2021AutonomicDysfunction. The COMPASS-31 autonomic symptom score in MTS (34.2) overlaps with ME/CFS ranges, and 45% of MTS patients developed orthostatic hypotension on tilt-table testing.
+- *Venous stasis and systemic inflammation.* Chronic iliac vein compression produces venous hypertension, endothelial activation, and localized inflammation---mechanisms overlapping with the endothelial dysfunction documented in ME/CFS (Section @sec:endothelial).
+
+*Treatment response as circumstantial evidence.* Fatigue improved in 32--68% of MTS patients after iliac vein stenting, with SF-36 vitality domain gains of 19 points (far exceeding the minimal clinically important difference of 3--5 points) @Wolpert2020IliacStentingOutcomes @OSullivan2018StentingQoL @Ferreira2023VenousCompressionReview. While this venous fatigue is distinct from ME/CFS, the magnitude of improvement suggests venous drainage can be a reversible contributor to fatigue in at least some patients. However, MTS stenting literature may be affected by publication bias (positive series preferentially published), and stenting carries neurovascular risks not discussed in the fatigue outcome literature (stent thrombosis, distal embolisation).
+
+*Critical counter-argument.* If MTS contributes to ME/CFS, why don't the 22--24% of the general population with anatomical MTS have ME/CFS rates anywhere near that proportion? The answer must be that MTS is neither necessary nor sufficient---it acts as a co-factor, compounding pre-existing ME/CFS pathology (blood volume deficits, autonomic dysfunction, cerebral hypoperfusion) rather than causing it de novo. Whether this co-factor effect is large enough to detect in a cohort study remains entirely untested.
+
+*Falsifiable predictions:*
+- Iliac vein compression severity on CT venography or MRV should correlate with orthostatic symptom severity in ME/CFS patients
+- ME/CFS patients with confirmed MTS who undergo iliac vein stenting should show improvement in orthostatic intolerance and fatigue beyond that expected from non-specific procedural effects
+- Internal jugular vein flow velocity during upright posture (measured by TCD) should be lower in ME/CFS patients with than without MTS
+
+*Critical gap.* No study has screened an ME/CFS cohort for May Thurner syndrome. The 22--24% anatomical prevalence means MTS could potentially affect a substantial subset, but this remains entirely untested. Not yet replicated in any ME/CFS context.
+] <spec:mts-venous-return>
+
 === Cardiac Biomarkers
 <sec:cardiac-biomarkers>
 

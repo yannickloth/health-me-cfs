@@ -124,6 +124,10 @@ Discovered relatively recently (2012), the glymphatic system is the brain's wast
 
 *Intracranial Pressure Dysregulation.* Both elevated and reduced intracranial pressure could impair CSF dynamics. The orthostatic symptoms in ME/CFS might relate to pressure dysregulation that worsens glymphatic function.
 
+*Venous Outflow Obstruction.* Impaired cerebral venous return from extracranial venous compression (e.g., May Thurner syndrome, internal jugular vein stenosis, craniocervical junction obstruction) increases intracranial venous pressure, slowing the perivenous drainage arm of glymphatic clearance @Marshall2022CerebralVenousOI @Patel2024GlymphaticVenousStasis. Marshall et al. (2022) reviewed 3 ME/CFS studies showing abnormal cerebral venous return in 34--48% of patients, proposing the chain: impaired cerebral venous return → reduced glymphatic clearance → neuroinflammation → fatigue/cognitive symptoms @Marshall2022CerebralVenousOI. Patel et al. (2024) elaborated the mechanism: venous congestion increases intracranial venous pressure, reduces perivascular CSF flow, and impairs waste clearance, with glymphatic dysfunction documented in 65% of ME/CFS patients via DTI-ALPS imaging @Patel2024GlymphaticVenousStasis. This mechanism adds a structural/vascular dimension to the glymphatic hypothesis: in some ME/CFS patients, impaired clearance may result from mechanical venous obstruction rather than (or in addition to) autonomic or sleep-architecture causes. If confirmed, this subset could be screened by MRV or CT venography and potentially treated with venous decompression (Section @spec:mts-venous-return). See Section @sec:glymphatic-venous for further elaboration.
+
+*Certainty: 0.35.* Cerebral venous return impairment is documented in a minority of ME/CFS patients; the causal link to glymphatic dysfunction is mechanistically plausible but not directly measured. Glymphatic dysfunction in 65% of ME/CFS (via DTI-ALPS) is documented but its downstream consequences for symptom generation remain to be demonstrated in interventional studies. Replication status: cerebral venous abnormalities replicated across 3 ME/CFS studies; glymphatic-to-symptom causal chain not yet replicated in a ME/CFS-specific interventional trial.
+
 === Connections to ME/CFS Features
 
 This hypothesis provides explanations for:
@@ -142,6 +146,29 @@ This hypothesis provides explanations for:
     - Sleep interventions specifically targeting slow-wave sleep enhancement might provide benefit
     - Treatments that improve CSF dynamics (addressing craniocervical issues, improving cardiovascular function) might help subsets of patients
     - Symptom severity might correlate with measures of glymphatic function
+
+=== Venous Outflow Obstruction and Glymphatic Impairment
+<sec:glymphatic-venous>
+
+#speculation(title: [Extracranial Venous Compression Impairs Glymphatic Clearance])[
+*Certainty: 0.35.* Venous outflow obstruction---from May Thurner syndrome (iliac vein compression), internal jugular vein stenosis, or craniocervical junction compression---may impair glymphatic clearance by elevating intracranial venous pressure and slowing perivenous CSF drainage.
+
+*Mechanistic chain.* The glymphatic system requires an unobstructed venous outflow path: CSF enters the brain along periarterial spaces and exits along perivenous channels into the dural venous sinuses. If the internal jugular veins or upstream iliac veins are compressed, backpressure propagates to the dural sinuses, reducing the pressure gradient driving perivenous drainage @Patel2024GlymphaticVenousStasis. Stagnated CSF accumulates inflammatory cytokines, amyloid-beta, and tau---waste products that activate microglia, sustain neuroinflammation, and disrupt sleep-regulating hypothalamic circuits @Patel2024GlymphaticVenousStasis.
+
+*Empirical support.*
+- Three ME/CFS studies reviewed by Marshall et al. (2022) found abnormal cerebral venous return in 34--48% of patients @Marshall2022CerebralVenousOI
+- Glymphatic dysfunction (reduced DTI-ALPS index) is documented in 65% of ME/CFS patients @Patel2024GlymphaticVenousStasis
+- Hartung et al. (2019) demonstrated a 36% reduction in internal jugular vein flow velocity from supine to upright posture in MTS patients, with upright flow correlating with orthostatic symptoms (r = 0.62) @Hartung2019CerebralVenousReturn
+
+*Clinical implication.* If venous compression contributes to glymphatic impairment in a subset of ME/CFS patients, screening with MRV or CT venography could identify candidates for venous decompression (iliac vein stenting for MTS, or internal jugular vein procedures for stenosis). Stenting improves fatigue in 32--68% of MTS patients @Wolpert2020IliacStentingOutcomes @OSullivan2018StentingQoL @Ferreira2023VenousCompressionReview, though these patients did not have ME/CFS. The glymphatic hypothesis predicts that cognitive symptoms should improve before fatigue, since improved clearance would reduce neuroinflammatory burden before systemic fatigue pathways reset.
+
+*Falsifiable predictions:*
+- DTI-ALPS glymphatic index should correlate inversely with iliac vein compression severity on CT venography in ME/CFS patients
+- Patients with compromised cerebral venous return on MRV should show higher CSF concentrations of inflammatory cytokines and amyloid-beta
+- Iliac vein stenting in ME/CFS patients with confirmed MTS should improve DTI-ALPS index at 6 months post-procedure
+
+*Limitations.* All evidence is indirect---no study has directly measured the MTS-to-glymphatic chain in ME/CFS patients. Stenting outcomes in MTS general populations cannot be assumed to generalize to ME/CFS, where multiple comorbidities may prevent symptom improvement even if flow is restored. Not yet replicated in any ME/CFS-specific interventional study.
+] <spec:venous-stasis-glymphatic>
 
 == Synergistic CSF Volume Reduction and Neurolymphatic Drainage
 <sec:csf-drainage-synergy>
@@ -294,6 +321,18 @@ This mechanism reinterprets the finding by Nogalski et al. (2019) @Nogalski2019H
 - In ME/CFS patients with documented herpesvirus seropositivity, PBMCs or CSF-derived cells should show detectable alpha-satellite DNA amplification (qPCR or FISH) above healthy seropositive controls, indicating that centromere disruption persists beyond the acute infection phase.
 
 *Falsification criteria.* The mechanism is falsified if: (1) HSAT2 induction by herpesviruses is independent of centromere integrity (i.e., ICP0-deleted HSV-1 still induces HSAT2 at wild-type levels); (2) alpha-satellite amplification does not temporally precede HSAT2 transcription in time-course experiments; (3) ME/CFS patients show no detectable centromere amplification despite active HSAT2 expression.
+
+#limitation(title: [Composite certainty — multi-step inferential chain])[
+The HSAT2→ME/CFS pathway involves at least 5 dependent inferential steps, each with its own certainty:
+
+    - Herpesvirus centromere amplification (VICAR): 0.50
+    - Centromere disruption → HSAT2 transcription: 0.35
+    - HSAT2 packaging into EVs at sufficient in vivo concentrations: 0.25
+    - EV-mediated MDSC expansion and T-cell exhaustion in non-cancer context: 0.25
+    - Self-sustaining exosomal loop independent of ongoing viral replication in ME/CFS: 0.25
+
+The composite certainty of the full pathway as a complete causal chain is $approx$0.50 × 0.35 × 0.25 × 0.25 × 0.25 = 0.01 (1%). Individual components may contribute to ME/CFS pathology without the full chain operating; for example, centromere disruption may trigger HSAT2 in infected cells without the exosomal propagation step being ME/CFS-relevant. The per-component certainties should not be mistaken for the certainty of the assembled pathway. No step in this chain has been verified in ME/CFS tissue.
+]
 
 === Cell-Type Specificity: Herpesvirus Neurotropism
 

@@ -331,3 +331,25 @@ The following priorities are ranked by mechanistic novelty $times$ clinical impa
     + *PS externalisation on ME/CFS RBCs*: Annexin-V flow cytometry — 2~h assay from standard blood draw, links RBC oxidative damage to microclot nucleation
     + *Longitudinal post-COVID biopsy series*: Serial muscle biopsy at 3, 6, 12~months post-infection stratified by ME/CFS development — the definitive test of vascular-primary temporal model; invasive but scientifically decisive
     + *D+Q pilot senolytic trial*: 30~patients, 3~months, primary endpoint SASP markers — feasibility trial that could be initiated rapidly
+
+
+
+=== May Thurner Syndrome: Venous Compression as a Vascular Substrate
+
+#speculation(title: [May Thurner Syndrome as an Anatomical Substrate for ME/CFS Cardiovascular Pathology])[
+*Certainty: 0.25.* May Thurner syndrome (MTS)—compression of the left common iliac vein by the overlying right common iliac artery—warrants investigation as a mechanical contributor to ME/CFS cardiovascular pathology. No direct MTS-ME/CFS evidence exists; the connection is inferred from overlapping pathophysiology.
+
+*Pathways from iliac compression to ME/CFS.*
+- *Asymmetric preload failure.* MTS sequesters ~5--10% of effective blood volume in the left lower extremity, compounding the 10--15% total blood volume deficit documented in ME/CFS @Newton2016. Unlike de novo hypovolemia, MTS-driven preload failure is mechanically asymmetric and gravity-dependent—worsening specifically during upright posture. This could explain why some ME/CFS patients show left-leg-predominant edema and disproportionate orthostatic symptoms.
+- *IJV flow amplification.* Hartung et al. demonstrated that MTS patients lose 36% of internal jugular vein flow velocity on moving from supine to upright, versus 24% in controls @Hartung2019CerebralVenousReturn. If an ME/CFS patient with pre-existing cerebral hypoperfusion also has MTS, the upright IJV flow reduction is predicted to be synergistic (interaction effect, not merely additive), potentially driving greater cognitive symptoms and PEM than either condition alone. Note that "synergistic" is a structural prediction from cerebrovascular physiology, not an empirically observed effect---the specific magnitude of interaction is unknown.
+- *Glycocalyx shedding feedback loop.* Sustained venous hypertension from MTS damages the endothelial glycocalyx, increasing capillary permeability and plasma extravasation—which further depletes circulating volume, increases orthostatic intolerance, and triggers compensatory sympathetic activation. The cycle is: MTS → venous hypertension → glycocalyx shedding → capillary leak → worsened hypovolemia → worse orthostasis → more sympathetic activation → venous pooling → back to MTS (Section @spec:venous-stasis-glymphatic).
+- *Autonomic remodeling.* Anderson et al. found reduced HRV, impaired Valsalva response, elevated plasma norepinephrine, and 45% orthostatic hypotension prevalence in MTS patients @Anderson2021AutonomicDysfunction. The COMPASS-31 autonomic score in MTS (34.2) overlaps with ME/CFS ranges, suggesting MTS alone can produce autonomic dysfunction resembling ME/CFS—and when both are present, autonomic pathology may be amplified.
+
+*Treatment evidence as indirect validation.* Iliac vein stenting improves fatigue in 32--68% of MTS patients, with SF-36 vitality gains of 19 points @Wolpert2020IliacStentingOutcomes @OSullivan2018StentingQoL @Ferreira2023VenousCompressionReview. While these patients did not have ME/CFS, the magnitude of improvement exceeds what would be expected from regression to the mean or placebo, suggesting venous drainage can be a reversible fatigue contributor.
+
+*Falsifiable predictions.* At least two of these must be confirmed for the MTS-ME/CFS link to merit clinical investigation: MTS prevalence on CT venography >35% in ME/CFS (vs. 22--24% general population); upright IJV flow velocity lower in MTS+ vs. MTS− ME/CFS, controlling for orthostatic severity; DTI-ALPS glymphatic index inversely correlated with iliac vein compression severity; stenting improves SF-36 vitality ≥10 points in MTS+ ME/CFS vs. sham or medical management.
+
+*Limitations.* Anatomical MTS may be incidental. Reversible venous fatigue is distinct from ME/CFS fatigue. No study has screened an ME/CFS cohort for MTS. Stenting carries procedural risks (thrombosis, stent migration, bleeding). Causal counter-argument: if MTS is causal, why don't 22--24% of the general population with anatomical MTS have ME/CFS? MTS must be a co-factor, not a cause, amplifying existing ME/CFS pathology rather than generating it de novo. Screening carries radiation burden (CT venography), overdiagnosis risk, and is not feasible for bedbound patients. No validated cutoff for what degree of compression is clinically significant in ME/CFS exists; the >50% stenosis threshold used in interventional MTS literature may not apply to orthostatic/neurocognitive outcomes.
+
+*Research priority.* Systematic CT venography or MRV screening of an ME/CFS cohort (n ≥ 200), stratified by orthostatic severity.
+] <spec:mts-vascular-substrate>
