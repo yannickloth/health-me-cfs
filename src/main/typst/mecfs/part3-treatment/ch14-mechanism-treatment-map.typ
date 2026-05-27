@@ -64,7 +64,7 @@ These are the mechanisms for which there is evidence of independent disease-init
 === GPCR Autoantibody Cascade
 <sec:map-gpcr>
 
-Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors are hypothesised to drive endothelial dysfunction, autonomic dysregulation, and neuroinflammation. Prevalence estimates range 29–91% across studies — a spread reflecting assay heterogeneity and varying cut-offs rather than a stable biomarker @Scheibenbogen2018immunoadsorption @Loebel2016. Uncontrolled immunoadsorption series show high response rates (~70%), but controlled RCTs of rituximab, efgartigimod, and plasma exchange targeting the same mechanism have all returned negative primary endpoints. The mechanistic hypothesis remains plausible and clinically important; it has not yet been confirmed by a positive sham-controlled trial.
+Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors are hypothesised to drive endothelial dysfunction, autonomic dysregulation, and neuroinflammation. Prevalence estimates range 29–91% across studies — a spread reflecting assay heterogeneity and varying cut-offs rather than a stable biomarker @Scheibenbogen2018immunoadsorption; @Loebel2016. Uncontrolled immunoadsorption series show high response rates (~70%), but controlled RCTs of rituximab, efgartigimod, and plasma exchange targeting the same mechanism have all returned negative primary endpoints. The mechanistic hypothesis remains plausible and clinically important; it has not yet been confirmed by a positive sham-controlled trial.
 
 #figure(
   table(
@@ -368,7 +368,7 @@ The gain-vs-loss tension that previously divided the paper's model has been reso
 - *Gain-dominant patients* ($||bold(cal(M))_"ProA" - bold(cal(M))_"ProA"^"baseline"||$ dominant): Energy restoration → passive demethylation after inflammation resolves.
 - *Mixed* (most typical): Methyl-donor support (low-risk default) plus energy restoration. Locus-specific targeting (remethylation at ProB repeats + demethylation at hypermethylated promoters) is the principled ideal but requires pharmacological tools that do not yet exist.
 
-Methyl-donor support (SAMe, methyl-folate, methyl-B12, betaine) represents the safest default strategy for all patients pending per-locus methylation profiling, since methyl donors support both methylation maintenance (preventing further ProB erosion, no harm at hypermethylated loci) and de novo remethylation at hypomethylated loci (potential benefit). Efficacy for ME/CFS symptoms remains unproven. For the full formal treatment including the DNMT3B zero-sum constraint ($sum_i Delta m_i = 0$), the irreversibility threshold $m_i^"crit"$, the $B_"strength"$ derived variable, and tissue/cell-type considerations, see @oq:consolidation-directionality.
+Methyl-donor support (SAMe, methyl-folate, methyl-B12, betaine) represents the safest default strategy for all patients pending per-locus methylation profiling, since methyl donors support both methylation maintenance (preventing further ProB erosion, no harm at hypermethylated loci) and de novo remethylation at hypomethylated loci (potential benefit). Efficacy for ME/CFS symptoms remains unproven. For the full formal treatment including the DNMT3B zero-sum constraint ($sum_i Delta m_i = 0$), the irreversibility threshold $m_i^"crit"$, the $B_"strength"$ derived variable, and tissue/cell-type considerations, see Chapter @ch:causal-hierarchy-formal @oq:consolidation-directionality.
 
 *Provisionality.* The ProA/ProB repeat framework @BonnetFourel2026ProAB is a preprint, developed in cancer, not peer-reviewed. Its extension to ME/CFS is our extrapolation, not endorsed by those authors.
 ] <oq:epigenetic-gap>
@@ -393,7 +393,7 @@ Some interventions target multiple mechanisms simultaneously, or address disease
     [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone], [B/C], [Experimental; Long COVID signal],
     [LOLA (L-ornithine L-aspartate)], [Ammonia detoxification + mitochondrial substrate], [A/B], [Experimental],
     [Perrin technique (lymphatic drainage)], [Glymphatic clearance of CNS neurotoxins; ANS normalisation], [A], [Very low evidence; mechanistically plausible],
-    [CA inhibitors (acetazolamide / topiramate)], [CSF volume reduction / intracranial pressure normalisation; topiramate adds TRPV1–mast cell modulation], [B/C], [IIH Class I evidence (acetazolamide); no ME/CFS trial; cognitive worsening concern @Mitchell2025drugComparison @Medow2024acetazolamideMECFS; see @sec:csf-drainage-synergy],
+    [CA inhibitors (acetazolamide / topiramate)], [CSF volume reduction / intracranial pressure normalisation; topiramate adds TRPV1–mast cell modulation], [B/C], [IIH Class I evidence (acetazolamide); no ME/CFS trial; cognitive worsening concern @Mitchell2025drugComparison; @Medow2024acetazolamideMECFS; see @sec:csf-drainage-synergy],
     [Acupuncture], [ANS, neuroinflammation, pain; see @sec:map-dysautonomia], [A/B], [Pilot RCTs],
     [Melatonin], [Sleep + antioxidant + immune modulation; start 0.5 mg — higher doses may worsen sleep], [A/B], [Clinical use],
     [B-vitamin complex (B1, B2, B6, B9, B12)], [Methylation; mitochondrial cofactors; neurotransmitter synthesis], [A], [Clinical use; MTHFR genotype relevant for B9/B12],
