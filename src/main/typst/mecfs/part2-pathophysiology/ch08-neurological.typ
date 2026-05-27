@@ -273,7 +273,75 @@ A preclinical model by Lee et al. (2024) provides complementary evidence from th
 ==== Dopaminergic Dysfunction
 
 <obs:dopamine>
-Dopamine abnormalities extend beyond the CSF catecholamine findings to include measurably reduced basal ganglia activation during reward-processing tasks @Miller2014dopamine. Functional MRI shows that reduced activation of the right caudate nucleus and globus pallidus correlates significantly with mental fatigue severity ($r^2 = 0.49$, $p = 0.001$). The overlap between ME/CFS fatigue and the motivational symptoms observed in dopaminergic disorders (Parkinson's disease, interferon-induced fatigue) supports a shared mechanism of inflammatory cytokine-mediated disruption of basal ganglia dopamine availability.
+Dopamine abnormalities extend beyond the CSF catecholamine findings to include measurably reduced basal ganglia activation during reward-processing tasks @Miller2014dopamine. Functional MRI shows that reduced activation of the right caudate nucleus and globus pallidus correlates significantly with mental fatigue severity ($r^2 = 0.49$, $p = 0.001$). The overlap between ME/CFS fatigue and the motivational symptoms observed in dopaminergic disorders (Parkinson’s disease, interferon-induced fatigue) supports a shared mechanism of inflammatory cytokine-mediated disruption of basal ganglia dopamine availability. Section "Striatal Neuron Diversity: Eccentric Medium Spiny Neurons" (below) examines cellular diversity within the striatum, including eccentric medium spiny neurons (eMSN) that integrate D1/D2 dopamine signaling—a cell type potentially relevant to this dopaminergic dysfunction.
+
+==== Striatal Neuron Diversity: Eccentric Medium Spiny Neurons
+<sec:striatal-emsn>
+
+Medium spiny neurons (MSNs) are the dominant neuronal population in the striatum (caudate nucleus, putamen, and nucleus accumbens) and are critical for basal ganglia function in motor control, reward processing, and effort allocation decisions. MSNs are classically divided into D1 receptor-expressing (direct pathway) and D2 receptor-expressing (indirect pathway) subtypes, but recent discoveries have revealed unexpected cellular diversity within this system.
+
+#achievement(title: [Eccentric Medium Spiny Neurons Identified in Primates])[
+*Certainty: 0.85.* He et al.\ (2021) identified nine distinct MSN subtypes in rhesus macaque striatum through single-nucleus RNA-seq, including a previously overlooked D1/D2 hybrid population termed “eccentric” medium spiny neurons (eMSN) @He2021. These hybrid neurons express both DRD1 and DRD2 dopamine receptors, are marked by high RXFP1 expression, constitute approximately 10% of MSNs in the dorsal striatum, and are uniformly distributed throughout this region. The eMSN represent a distinct supercluster with a unique genetic profile differentiating them from classical D1- and D2-MSNs. This discovery was validated by fluorescence in situ hybridization (FISH) confirming co-expression of DRD1, DRD2, and RXFP1 in individual neurons.
+Study: (n=4 rhesus macaques, snRNA-seq + FISH validation, Current Biology, certainty: High, replicated in mice, human data emerging).
+] <ach:emsn-primate-discovery>
+
+#achievement(title: [Human Brain Cell Atlas Confirms eMSN Presence])[
+*Certainty: 0.95.* Siletti et al.\ (2023) generated a comprehensive single-nucleus RNA-seq atlas of the entire human brain (3.3 million cells from 105 dissections across 3 donors) and confirmed eMSN as a distinct human cell type @Siletti2023. The Human Protein Atlas lists “eccentric medium spiny neurons” as a cluster with marker genes GAD1, GAD2, CXCL14, DRD1, and ADARB2, establishing eMSN as a validated component of human striatal circuitry. This landmark Science publication provides the definitive reference for human brain cell-type diversity.
+Study: (n=3 donors, 3.3M cells, snRNA-seq, Science, certainty: Very High, dataset publicly available for validation).
+] <ach:emsn-human-atlas>
+
+*Functional implications of striatal neuron diversity.*
+
+The existence of eMSN with hybrid D1/D2 receptor expression challenges the classical direct/indirect pathway dichotomy. By integrating both dopamine receptor types, eMSN may serve a unique integrative function in basal ganglia circuitry—potentially modulating conflict resolution, effort-based decision-making, or motivational state evaluation. Their uniform distribution in the dorsal striatum suggests a broad role in motor and cognitive functions rather than a region-specific specialization.
+
+The dopamine receptor hybridity and RXFP1 expression (RXFP1 encodes relaxin-family peptide receptor 1, linked to neuroprotection and neuroinflammation modulation) raise the possibility that eMSN have distinct physiological properties affecting stress responses, neuroinflammation, or metabolic regulation. However, the specific functional role of eMSN in human brain physiology remains largely unknown, and no studies have examined eMSN in disease states including ME/CFS.
+
+#limitation(title: [No Direct Genetic Evidence Links eMSN to ME/CFS])[
+*Certainty: 0.80.* Despite compelling anatomical and functional reasons to investigate striatal involvement in ME/CFS (see reduced basal ganglia activation above), the largest ME/CFS genetic studies have not identified eMSN-specific associations. The DecodeME GWAS (n=15,579 cases, n=259,909 controls) found significant enrichment of ME/CFS-related genes in all 13 brain tissues examined but did not perform cell-type specific analysis @DecodeME2025. MAGMA gene-tissue analysis implicated immune and neurological genes broadly but did not identify eMSN-specific markers. Similarly, Maccallini’s network analysis identified a 272-gene ME/CFS module enriched in metabolic pathways but found no striatal or eMSN-specific genes @Maccallini2025.
+These are negative results for the eMSN hypothesis but do not constitute refutations: cell-type specific genetic analysis (required to test eMSN involvement directly) was not performed in either study. Brain tissue enrichment in DecodeME is consistent with striatal involvement but insufficient to implicate specific cell types.
+Study: (GWAS and network analysis, preprint status, certainty: High for brain tissue enrichment, no eMSN-specific findings documented).
+] <lim:emsn-no-genetic-evidence>
+
+#open-question(title: [Are eMSN Dysregulated in ME/CFS?])[
+No published studies have examined eMSN populations, gene expression, or functional activity in ME/CFS patients. The absence of direct genetic evidence does not exclude eMSN involvement, as neither DecodeME nor Maccallini performed cell-type specific analysis. Post-mortem ME/CFS brain tissue studies (including the Dutch autopsy findings described below) could examine eMSN markers (RXFP1, CXCL14, ADARB2) via immunohistochemistry or single-nucleus RNA-seq to determine whether eMSN density, distribution, or gene expression differs from healthy controls. Alternatively, functional MRI studies with eMSN-informed computational modeling could test whether eMSN-related circuit patterns predict symptom severity.
+
+*Testable predictions.* Falsified if post-mortem brain tissue studies show normal eMSN density, distribution, and gene expression in ME/CFS patients compared to healthy controls. Falsified if fMRI studies with eMSN-informed computational modeling show no correlation between eMSN-related circuit patterns and ME/CFS symptom severity.
+] <oq:emsn-mecfs-study-needed>
+
+#open-question(title: [Cell-Type Specific GWAS Analysis of DecodeME Data])[
+The DecodeME GWAS revealed significant brain tissue enrichment but performed tissue-level analysis rather than cell-type specific analysis. MAGMA or similar tools could be applied to DecodeME summary statistics using eMSN-specific gene sets (RXFP1, GAD1, GAD2, CXCL14, DRD1, ADARB2) to test whether eMSN genes show ME/CFS enrichment. This analysis could either (a) identify eMSN-specific genetic enrichment supporting the hypothesis or (b) definitively rule out strong genetic contribution, clarifying the current null result. The required data (DecodeME summary statistics, Siletti 2023 human brain atlas) are publicly available, making this a feasible 3–6 month bioinformatics project.
+
+*Testable predictions.* Falsified if MAGMA analysis using eMSN-specific gene sets shows no ME/CFS enrichment beyond genome-wide background. Falsified if cell-type specific analysis reveals enrichment in non-eMSN brain cell types but not in eMSN populations.
+] <oq:cell-type-specific-gwas>
+
+#speculation(title: [Basal Ganglia "Effort Cost" Miscalibration Hypothesis])[
+*Certainty: 0.40.* The striatum assigns effort cost to planned actions through basal ganglia circuitry that evaluates reward versus effort tradeoffs. In ME/CFS, basal ganglia circuits (potentially involving eMSN integration of D1/D2 signaling) may systematically overestimate physiological cost, leading to pre-emptive inhibition of motor activity and exaggerated subjective fatigue perception. This is not "laziness" or deconditioning but a miscalibrated cost-benefit computation at the neural circuit level.
+
+*Mechanistic rationale.* Basal ganglia dysfunction correlates with mental fatigue severity (r²=0.49, p=0.001) @Miller2014dopamine. The striatum encodes effort-cost calculations via dopaminergic modulation: D1 receptor activation promotes "go" signals for high-effort/high-reward actions, while D2 receptor activation promotes "no-go" signaling for low-reward actions. eMSN with hybrid D1/D2 expression may normally provide nuanced integration of competing signals, but dysfunction could create pathological cost inflation—every action is perceived as excessively costly.
+
+*Testable predictions.* ME/CFS patients will show abnormal striatal activation during effort-cost decision tasks (fMRI), overvaluing physiological costs relative to rewards. Computational modeling will reveal elevated cost-sensitivity parameters in patient decision-making. Dopaminergic agents that modulate striatal output will preferentially improve patients with prominent effort-initiation difficulty.
+
+*Falsified if:* ME/CFS patients show normal striatal activation patterns during effort-cost decision tasks; computational modeling reveals cost-sensitivity parameters comparable to healthy controls; dopaminergic agents fail to preferentially improve patients with effort-initiation difficulty.
+
+*Treatment implications.* Cognitive approaches targeting effort perception recalibration; dopaminergic agents that rebalance D1/D2 signaling; non-pharmacological effort-cost retraining protocols.
+
+*Limitations.* No direct evidence linking eMSN to effort-cost computation; dopamine system dysregulation in ME/CFS is complex (both reduced central catecholamines and potential peripheral hyperactivity); effort-cost miscalibration may be epiphenomenon rather than cause.
+] <spec:basal-ganglia-effort-cost>
+
+#speculation(title: [Striatal Autonomic Integration Failure Hypothesis])[
+*Certainty: 0.35.* The striatum integrates autonomic status with motor planning through basal ganglia-thalamus-cortex loops. In ME/CFS, eMSN dysfunction or broader striatal pathology may create a disconnect between autonomic state and motor command generation, leading to inappropriate activity initiation despite inadequate autonomic preparation (causing crashes) or excessive inhibition despite sufficient resources (contributing to disability).
+
+*Mechanistic rationale.* Autonomic dysfunction is a primary driver of post-exertional malaise (PEM) in ME/CFS @Keller2024CPET. Striatum modulates autonomic output via projections to brainstem nuclei controlling heart rate, blood pressure, and respiratory patterns. The temporal-parietal junction dysfunction documented in ME/CFS @walitt2024deep may impair integration of interoceptive signals (autonomic state) with striatal motor planning, creating a mismatch where motor commands proceed without autonomic preparation or resources are conserved despite adequate physiological capacity.
+
+*Testable predictions.* ME/CFS patients will show abnormal striatal-heart rate variability coupling during postural changes. Striatal activity measured via fMRI will predict autonomic collapse events before they occur, providing a potential early warning biomarker. Patients with pronounced striatal-autonomic decoupling will experience more frequent and severe PEM episodes.
+
+*Falsified if:* ME/CFS patients show normal striatal-heart rate variability coupling during postural changes; striatal fMRI activity does not predict autonomic collapse events; striatal-autonomic decoupling severity does not correlate with PEM episode frequency or severity.
+
+*Treatment implications.* Autonomic biofeedback combined with striatal-targeted cognitive training; interventions that enhance interoceptive awareness and striatal-autonomic coupling; graded approaches that ensure autonomic readiness before motor activation.
+
+*Limitations.* No direct evidence measuring striatal-autonomic coupling in ME/CFS; autonomic dysfunction has multiple potential drivers (peripheral, central, vascular); isolating striatal contribution to autonomic dysregulation experimentally is challenging.
+] <spec:striatal-autonomic-integration>
+
 ==== Norepinephrine and the Locus Coeruleus
 
 The locus coeruleus (LC), the primary source of brain norepinephrine, plays critical roles in arousal and sleep-wake regulation, attention and cognitive flexibility, stress responses, and autonomic nervous system modulation.

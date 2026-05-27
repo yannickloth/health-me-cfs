@@ -170,6 +170,11 @@ A critical interpretive point: small GWAS effect sizes do not predict therapeuti
 
 Most GWAS signals lie in non-coding regions, necessitating gene prioritisation through expression quantitative trait locus (eQTL) mapping, tissue expression analysis, and proximity-based inference @MECFSScience2025decodeme2. DecodeME used Genotype-Tissue Expression (GTEx) project data to correlate lead SNPs with gene expression across tissues. A key limitation is that only approximately 40% of GWAS signals can be matched to specific genes via eQTL approaches.
 
+#achievement(title: [DecodeME Brain Tissue Enrichment])[
+*Certainty: 0.80.* DecodeME's MAGMA gene-tissue analysis revealed significant enrichment of ME/CFS-related genes in all 13 brain tissues examined, providing the first genetic evidence for central nervous system involvement in ME/CFS @DecodeME2025. This brain-wide enrichment pattern suggests that ME/CFS genetic susceptibility operates through neural pathways rather than peripheral immune or metabolic mechanisms alone. implicated genes include CA10 (CNS development, chronic pain), ARFGEF2 (vesicle trafficking, neuronal function), and UNC13C (glutamatergic synaptic transmission). The brain tissue enrichment finding is consistent with the neuroimaging abnormalities, neurochemical dysregulation, and HPA axis dysfunction documented in ME/CFS (Chapters @ch:neurological and @ch:endocrine).
+Study: (n=15,579 cases, n=259,909 controls, MAGMA analysis, 13 brain tissues, certainty: High, preprint status).
+] <ach:decodeme-brain-enrichment>
+
 Fine-mapping of the eight significant loci plus sub-threshold hits ($p < 5 times 10^(-7)$) identifies three convergent biological themes @MECFSScience2025decodeme2:
 
 *Neuronal development and synaptic function.* The clearest and most consistent signal across DecodeME loci points to the brain. MAGMA gene-set analysis found that all significantly enriched tissues were brain regions @MECFSScience2025decodeme. Specific genes include:

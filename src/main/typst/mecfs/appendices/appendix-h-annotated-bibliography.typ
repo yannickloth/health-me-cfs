@@ -17267,3 +17267,79 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     / *Certainty:*: 0.60
     / *Limitations:*: Fukuda criteria (broader than CCC used in Keller 2024); single study not yet independently replicated; max-effort enforcement excludes patients who fail ACSM criteria on Day 2, which Keller argued is part of the PEM phenotype; abstract-only at time of initial discussion.
 
+=== He2021 — eMSN in Primate Striatum
+    / *Full Citation:*: He J, Kleyman M, Chen J, et al. Transcriptional and Anatomical Diversity of Medium Spiny Neurons in the Primate Striatum. _Current Biology_. 2021;31(24):5473-5486.
+    / *DOI:*: 10.1016/j.cub.2021.10.015
+    / *Key Findings:*:
+        - Identified nine distinct MSN subtypes in rhesus macaque striatum
+        - Confirmed D1/D2 hybrid neurons (eMSN) in primate striatum
+        - eMSN marker gene: RXFP1 (highly specific)
+        - eMSN express both DRD1 and DRD2 dopamine receptors
+        - eMSN constitute ~10% of MSNs in dorsal striatum
+        - Uniformly distributed throughout dorsal striatum
+        - Express high DRD1, low DRD2 compared to D2-MSNs
+    / *Conclusion:*: eMSN are distinct MSN subtype with hybrid D1/D2 receptor expression, potentially integrating both direct and indirect basal ganglia pathways.
+    / *Relevance:*: Primary source for eMSN discovery and characterization in primates. Provides marker genes (RXFP1) for eMSN identification. Critical for eMSN biology but does not address ME/CFS.
+    / *Quality:*: High (peer-reviewed, Current Biology, rigorous methodology, FISH validation)
+    / *Certainty:*: 0.85
+    / *Limitations:*: Primate model, not human; small N for tissue validation (n=2 for FISH); does not address ME/CFS or disease associations.
+
+=== Siletti2023 — Human Brain Cell Atlas
+    / *Full Citation:*: Siletti K, Hodge RD, Mossi Albiach A, et al. Transcriptomic diversity of cell types across the adult human brain. _Science_. 2023;382(6667).
+    / *DOI:*: 10.1126/science.add7046
+    / *Key Findings:*:
+        - Comprehensive single-nucleus RNA-seq atlas of entire human brain (3.3 million cells, 105 dissections)
+        - Identified 31 superclusters, 461 clusters, 3,313 subclusters
+        - High neuronal diversity outside cortex (hypothalamus, midbrain, hindbrain)
+        - eMSN confirmed in human brain: GAD1/GAD2 (CXCL14+ DRD1+ ADARB2+)
+        - Dataset publicly available for validation
+    / *Conclusion:*: Unprecedented resolution of human brain cell types confirms eMSN as distinct cell type.
+    / *Relevance:*: Confirms eMSN presence in human brain and provides human-specific marker genes for identification. Establishes eMSN as validated human cell type. Essential reference for human eMSN biology but does not address ME/CFS.
+    / *Quality:*: Very High (landmark study, Science journal, peer-reviewed)
+    / *Certainty:*: 0.95
+    / *Limitations:*: Postmortem tissue quality; limited donors (n=3); does not address ME/CFS or disease associations.
+
+=== DecodeME2025 — ME/CFS GWAS (Brain Tissue Enrichment, No eMSN)
+    / *Full Citation:*: DecodeME Genetics Consortium, Bretherick AD, Boutin T, Dibble JJ, et al. Initial findings from the DecodeME genome-wide association study of myalgic encephalomyelitis/chronic fatigue syndrome. _medRxiv_. 2025.
+    / *DOI:*: 10.1101/2025.08.06.25333109
+    / *Key Findings:*:
+        - Largest ME/CFS GWAS: 15,579 cases vs 259,909 controls
+        - 8 genome-wide significant loci identified
+        - MAGMA analysis showed brain tissue enrichment in all 13 brain tissues
+        - Genes implicated in immune function (BTN2A2, OLFM4, RABGAP1L) and neurological processes (CA10, ARFGEF2)
+        - NO eMSN-specific findings reported (analysis was tissue-level, not cell-type specific)
+    / *Conclusion:*: ME/CFS has genetic component with both immunological and neurological involvement. Brain tissue enrichment suggests striatal/basal ganglia relevance but eMSN not identified.
+    / *Relevance:*: First large-scale genetic evidence for ME/CFS. Brain tissue enrichment is significant but broad. Critical null result: no eMSN-specific genes despite brain enrichment (tissue-level analysis, not cell-type specific). Not a refutation of eMSN hypothesis but indicates cell-type specific analysis required.
+    / *Quality:*: High (large sample, rigorous methods, preprint)
+    / *Certainty:*: 0.80
+    / *Limitations:*: Preprint (not peer-reviewed); limited to European ancestry; case definition challenges; no cell-type specific analysis.
+
+=== Maccallini2025 — ME/CFS Disease Module (Metabolic Focus)
+    / *Full Citation:*: Maccallini P. Toward a Disease Module for ME/CFS: A Network-Based Gene Prioritization. _medRxiv_. 2025.
+    / *DOI:*: 10.1101/2025.04.13.25325733
+    / *Key Findings:*:
+        - Network analysis of 22 seed genes from ME/CFS literature
+        - 272-gene ME/CFS module identified via STRING PPI + Random Walk with Restart
+        - Module enriched in: sphingolipid metabolism, energy-related pathways (oxidative phosphorylation, TP53-regulated genes), heme degradation, thermogenesis
+        - Overlap with neurodegenerative diseases (Parkinson's, Alzheimer's)
+        - NO eMSN or striatum-specific findings
+    / *Conclusion:*: ME/CFS as metabolic network disorder with candidate genes for therapeutic targeting.
+    / *Relevance:*: Proposes ME/CFS disease module focusing on metabolic dysfunction. Does not support or refute eMSN hypothesis (different focus). Complementary to DecodeME: both find no eMSN but via different methods.
+    / *Quality:*: Medium (computational analysis, single author, preprint)
+    / *Certainty:*: 0.60
+    / *Limitations:*: Preprint (not peer-reviewed); computational analysis only, no experimental validation; pseudogene substitution may introduce error; no cell-type specific analysis.
+
+=== HealthRising2025 — ME/CFS Autopsy (CRH Depletion)
+    / *Full Citation:*: Health Rising. ME/CFS Autopsy Study Finds a Wrecked HPA Axis: The 2025 IACFS Conference. 2025.
+    / *URL:*: https://www.healthrising.org/blog/2025/12/04/chronic-fatigue-hpa-axis-autopsy/
+    / *Key Findings:*:
+        - University of Amsterdam autopsy study of 7-10 ME/CFS patients
+        - Very low levels of CRH-producing neurons in hypothalamus
+        - Dramatic CRH depletion indicates HPA axis dysfunction
+        - No mention of striatum, eMSN, or basal ganglia findings
+    / *Conclusion:*: Preliminary evidence for hypothalamic CRH depletion in ME/CFS supporting HPA axis dysfunction.
+    / *Relevance:*: Provides preliminary evidence for HPA axis dysfunction via CRH depletion. Critical: study focused on hypothalamus, not striatum; does not address eMSN. CRH is present in striatum but eMSN-specific CRH production unknown.
+    / *Quality:*: Low (secondary source, conference presentation, not peer-reviewed)
+    / *Certainty:*: 0.30
+    / *Limitations:*: Secondary source (Health Rising blog); conference presentation not peer-reviewed; limited details; no primary publication yet; small sample size (n=7-10); no striatal analysis.
+

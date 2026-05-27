@@ -225,3 +225,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | tissue-specific-autoantibodies-long-covid | [subtrees/tissue-specific-autoantibodies-long-covid.md](subtrees/tissue-specific-autoantibodies-long-covid.md) | 2026-05-24 | 36 | 0 | 🔵 in progress | —
 | nets-dnase-covid19 | [subtrees/nets-dnase-covid19.md](subtrees/nets-dnase-covid19.md) | 2026-05-24 | 40 | 0 | 🔵 in progress | —
 | pdc-postviral | [subtrees/pdc-postviral.md](subtrees/pdc-postviral.md) | 2026-05-24 | 16 | 0 | 🔵 in progress | —
+| striatal-emsn-mecfs | [subtrees/striatal-emsn-mecfs.md](subtrees/striatal-emsn-mecfs.md) | 2026-05-27 | 50 | 0 | ⬜ pending | —
