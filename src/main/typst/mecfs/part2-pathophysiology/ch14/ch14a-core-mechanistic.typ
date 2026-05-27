@@ -288,6 +288,13 @@ This mechanism reinterprets the finding by Nogalski et al. (2019) @Nogalski2019H
 
 *Certainty.* 0.50 for the centromere amplification mechanism (Cell 2025, top journal, multiple viral systems, mechanistic detail). 0.35 for the specific HSAT2 activation by this mechanism (inferred from the coupling of centromere and pericentromeric regions; HSAT2 transcription after centromere disruption has not been directly measured in the Cell 2025 study).
 
+*Falsifiable predictions:*
+- In HSV-1 or HCMV-infected cells, pharmacological or genetic inhibition of centromere amplification (e.g., ICP0 deletion, USP7 inhibition) should abolish the HSAT2 transcriptional induction documented by Nogalski et al. (2019), while leaving general viral stress responses intact.
+- Centromere alpha-satellite DNA copy number (measured by qPCR) should increase *before* HSAT2 RNA levels rise in a time-course infection experiment, establishing temporal precedence.
+- In ME/CFS patients with documented herpesvirus seropositivity, PBMCs or CSF-derived cells should show detectable alpha-satellite DNA amplification (qPCR or FISH) above healthy seropositive controls, indicating that centromere disruption persists beyond the acute infection phase.
+
+*Falsification criteria.* The mechanism is falsified if: (1) HSAT2 induction by herpesviruses is independent of centromere integrity (i.e., ICP0-deleted HSV-1 still induces HSAT2 at wild-type levels); (2) alpha-satellite amplification does not temporally precede HSAT2 transcription in time-course experiments; (3) ME/CFS patients show no detectable centromere amplification despite active HSAT2 expression.
+
 === Cell-Type Specificity: Herpesvirus Neurotropism
 
 Geneviève Fourel (pers. comm. May 2026) proposes that loss-meCpG at HSAT2 initially occurs in specific brain cell types before propagating to other cells. The herpesviruses with the strongest evidence for neuroglial/neurovascular involvement are:
@@ -302,6 +309,13 @@ Their documented partial tropisms include astrocytes, microglia, brain endotheli
 A potential cooperative interaction exists between cell types infected by SARS-CoV-2 and Herpesviridae — this could explain the clinical observation of herpesvirus reactivation during or after SARS-CoV-2 infection (including Geneviève Fourel's own experience in summer 2024). The convergence of multiple viral triggers on the same centromere-HSAT2 pathway may lower the threshold for disease initiation.
 
 *Certainty.* 0.45 for herpesvirus neuroglial tropism (well-established virology). 0.30 for the HSAT2 activation specifically in these brain cell types prior to propagation (not tested experimentally).
+
+*Falsifiable predictions:*
+- In vitro infection of primary human astrocytes, microglia, brain endothelial cells, and neurons with HSV-1, HHV-6A, or HCMV should reveal cell-type-specific differences in HSAT2 induction efficiency, centromere amplification, and cGAS activation — identifying which cell types are permissive for the VICAR→HSAT2 cascade.
+- Post-mortem brain tissue from ME/CFS patients should show cell-type-specific HSAT2 expression (RNA-FISH) and centromere alpha-satellite amplification (DNA-FISH) co-localizing in astrocytes or brain endothelial cells, with the spatial distribution suggesting a propagation pattern from initial foci.
+- In an in vitro propagation model, HSAT2-containing EVs from infected astrocytes should induce HSAT2 expression in recipient uninfected microglia or endothelial cells, demonstrating cell-to-cell propagation without ongoing viral replication.
+
+*Falsification criteria.* The cell-type specificity model is falsified if: (1) HSAT2 induction is uniform across all tested brain cell types rather than cell-type-specific; (2) post-mortem ME/CFS brain tissue shows no HSAT2 expression above controls in any brain cell type; (3) EV-mediated HSAT2 propagation between cell types cannot be demonstrated in vitro.
 
 #limitation(title: [Evidence Base: Preprint + Cancer Biology Extrapolation])[
 The mechanistic hypotheses in this section derive principally from a single bioRxiv preprint (Evdokimova et al.\ 2019 @Evdokimova2019HSAT2exosome) that has not been peer-reviewed and has remained unpublished for seven years. All experimental data originate from Ewing sarcoma — a high-mitotic-index malignancy with EWS-FLI1 fusion-driven constitutive HSAT2 transcription. Every extrapolation to ME/CFS (a non-malignant chronic disease) involves unknown scaling of exosomal HSAT2 concentrations, loop kinetics, and phenotype-induction thresholds from a tumor-microenvironment context to a systemic chronic-disease context. No HSAT2 measurement in ME/CFS plasma has been published. These speculations are included as research directions; they are not candidate treatments.
