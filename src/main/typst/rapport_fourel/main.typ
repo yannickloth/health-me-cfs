@@ -155,9 +155,15 @@ Ce cadre est la pierre angulaire de notre modèle épigénétique, cité dans 15
 À la base du cadre ProA/ProB se trouve une hypothèse mécanistique : la redistribution de DNMT3B. Selon cette hypothèse, l'enzyme de méthylation _de novo_ DNMT3B, en quantité finie par cellule, serait redistribuée du compartiment B (hétérochromatine) vers le compartiment A (euchromatine) sous l'effet d'infections virales, d'inflammation chronique ou de stress oxydatif. Cette redistribution produirait simultanément :
 
 - Une _perte_ de méthylation aux répétitions ProB (satellites, LINE-1, ERV)
-- Un _gain_ de méthylation aux promoteurs de gènes dans le compartiment A
+- Un _gain_ de méthylation aux promoteurs de gènes et aux séquences Alu dans le compartiment A
 
 Le patron "hypo global + hyper focal" caractéristique du cancer -- et observé également dans l'EM/SFC -- pourrait donc ne pas être le résultat de deux processus indépendants, mais d'un seul : la redistribution d'une enzyme entre deux compartiments. Cette hypothèse n'est pas encore validée expérimentalement : aucune donnée ChIP-seq DNMT3B n'existe pour confirmer la redistribution dans les cellules stressées.
+
+#callout(title: "CORRECTION — 27 mai 2026", fill: rgb("#FFF8F4"), border: rgb("#D45B12"))[
+*Note de Geneviève Fourel.* « Je n'ai jamais dit que le modèle de "remaniement global de la chromatine par transfert de DNMT3B du compartiment B vers A" était applicable à l'EM. Au contraire, je pense qu'il est applicable essentiellement dans le cadre du cancer, et sans doute aussi de stimulations chroniques. Ce que je propose pour EM : loss-meCpG spécifiquement à HSAT2 (et 3?) dans certaines cellules du cerveau au départ, et ensuite cet état pourrait se "propager" à d'autres cellules. »
+
+Cette correction est fondamentale. Le modèle de redistribution *globale* de DNMT3B (du compartiment B vers A) s'applique au cancer et potentiellement aux stimulations chroniques, mais PAS à l'EM tel que proposé par Geneviève. Pour l'EM, le mécanisme proposé est ciblé : perte de méthylation spécifiquement à HSAT2 (et possiblement HSAT3), initialement dans certaines cellules cérébrales, avec propagation ultérieure. Dans ce modèle EM, la perte d'activité DNMT3B à HSAT2 est une *conséquence* de l'activation transcriptionnelle de HSAT2, pas la cause initiale — une inversion du sens causal par rapport au modèle cancer.
+]
 
 #callout(title: "Chapitre 33, Section sec:ode-system (Document principal)")[
 _Contrainte de somme nulle._ "De novo methyltransferase activity is finite per cell. Redistribution of DNMT3B away from ProB repeats toward ProA/gene regions -- driven by viral infection, chronic inflammation, or oxidative stress -- produces a coupled change : $sum_i Delta m_i = 0$ at the enzyme-allocation level. Loss at ProB repeats and gain at gene promoters are not independent observations ; they represent one mechanism (enzyme redistribution) with two manifestations."
@@ -307,9 +313,40 @@ HSAT2 (Human Satellite II, également appelé GSATII dans la nomenclature histor
 - Infection virale $arrow.r$ activation de HSF1 $arrow.r$ transcription péricentromérique de HSAT2
 - Stress oxydatif/sénescence $arrow.r$ perte de CTCF $arrow.r$ perte de silencing péricentromérique
 - Hypométhylation globale de l'ADN $arrow.r$ déméthylation du promoteur de HSAT2
-- Redistribution de DNMT3B $arrow.r$ perte de méthylation aux répétitions ProB $arrow.r$ dérépression de HSAT2
 
 Une fois activé, l'ARN HSAT2 peut être empaqueté dans des vésicules extracellulaires et capté par les cellules myéloïdes, entraînant une expansion des MDSC (myeloid-derived suppressor cells) et un épuisement des lymphocytes T CD8+ (Evdokimova et al., 2019).
+
+=== NOUVEAU — Mécanisme de Lomonte : remaniement centromérique viral comme déclencheur proximal de HSAT2
+
+La publication récente de Lahaye, Lomonte, Manel et al. dans _Cell_ (2025) @Lahaye2025centromere fournit le mécanisme manquant entre l'infection herpétique et la transcription HSAT2. Les auteurs démontrent que les protéines des Herpesviridae induisent un remaniement des centromères (séquences alpha-SAT), notamment une amplification de ces séquences, durant leur cycle de réplication. Ce processus, nommé VICAR (viral-induced centromeric DNA amplification and recognition), active le senseur immunitaire nucléaire cGAS au niveau des centromères. Le lien mécanistique proposé par Patrick Lomonte (communication personnelle, mai 2026) est le suivant :
+
+1. Infection par Herpesviridae $arrow.r$ protéines virales (ICP0 pour HSV-1, IE1/IE2 pour HCMV, K8 pour KSHV) $arrow.r$ remaniement et amplification de l'ADN centromérique (alpha-SAT)
+2. Ce remaniement centromérique $arrow.r$ déstabilisation de l'hétérochromatine péricentromérique $arrow.r$ transcription des satellites péricentromériques HSAT2 (et possiblement HSAT3) dans les cellules infectées
+3. L'ARN HSAT2 transcrit peut ensuite être empaqueté dans des vésicules extracellulaires $arrow.r$ propagation à d'autres types cellulaires $arrow.r$ expansion des MDSC et épuisement immunitaire
+
+Cette séquence réinterprète l'observation de Nogalski et al. (2019) que les protéines IE1 et IE2 de HCMV sont requises pour la transcription HSAT2 : IE1/IE2 sont requises pour le *remaniement centromérique*, lequel déclenche la transcription HSAT2 — et non pour une transactivation directe de HSAT2. La figure conclusion de Lahaye et al. (Cell 2025) montre cette correspondance pour plusieurs virus herpétiques.
+
+*Nouvelle prédiction.* Les cellules infectées par HSV-1, HHV-6 ou HCMV devraient montrer à la fois une amplification de l'ADN alpha-satellite centromérique ET une transcription HSAT2 — les deux phénomènes étant liés causalement (l'amplification → la transcription). Ce lien est testable par FISH ADN + RNA-seq en cellules infectées.
+
+=== NOUVEAU — HSAT2 et reprogrammation immunitaire via les facteurs de transcription ETS
+
+L'ARN HSAT2 contient des répétitions du motif GGAA, le site de liaison canonique des facteurs de transcription de la famille ETS. Plusieurs observations convergent vers un mécanisme de « sponging » (séquestration) des TF ETS par l'ARN HSAT2 :
+
+- *SPI1 (PU.1).* Le facteur de transcription SPI1, aussi appelé PU.1, appartient à la famille ETS — il est fondamental pour toute l'hématopoïèse et la différenciation myéloïde/lymphoïde. SPI1 lie typiquement les répétitions GGAA de l'ADN (et potentiellement de l'ARN) HSAT2.
+- *Précédent Ewing.* Le siphoning/piégeage par l'ARN HSAT2 a été démontré pour les TF de la même famille ETS — ERG et FLI1 — dans le sarcome d'Ewing (article : « Oncogenic ETS fusions promote DNA damage and proinflammatory responses via pericentromeric RNAs in extracellular vesicles »).
+- *Mécanisme proposé pour l'EM.* L'activation transcriptionnelle de HSAT2 dans les cellules infectées $arrow.r$ accumulation d'ARN HSAT2 $arrow.r$ séquestration de SPI1/PU.1 par les répétitions GGAA de l'ARN HSAT2 $arrow.r$ déficit fonctionnel de SPI1 $arrow.r$ dérégulation de l'hématopoïèse et de la différenciation immunitaire $arrow.r$ reprogrammation du système immunitaire (expansion MDSC, épuisement NK et CD8+).
+
+*Certitude.* 0,35 — le mécanisme de sponging ETS/HSAT2 est démontré pour ERG/FLI1 dans le sarcome d'Ewing mais pas pour SPI1/PU.1 spécifiquement ; l'extension à l'EM/SFC est hypothétique et non testée.
+
+=== NOUVEAU — Tropisme neuroglial/neurovasculaire des Herpesviridae
+
+Les Herpesviridae ayant les arguments les plus solides pour une implication neurogliale/neurovasculaire sont : HSV-1, HHV-6A/B, HCMV, et VZV. Leurs tropismes partiels incluent : astrocytes, microglie, endothélium cérébral, cellules périvasculaires, et neurones. Ce tropisme cellulaire est cohérent avec l'hypothèse d'une activation initiale de HSAT2 dans des types cellulaires cérébraux spécifiques (astrocytes, microglie, endothélium), suivie d'une propagation à d'autres cellules.
+
+Les zones cérébrales préférentiellement infectées par HSV-1, HHV-6 et SARS-CoV-2 ne sont pas exactement identiques mais sont assez proches (Patrick Lomonte, communication personnelle, mai 2026). Cette proximité anatomique suggère une possible coopération entre types cellulaires infectés par SARS-CoV-2 et Herpesviridae — pouvant également expliquer la réactivation des Herpesviridae observée cliniquement (y compris vécue par Geneviève Fourel à l'été 2024).
+
+=== NOUVEAU — Relation endothéliale-immunitaire
+
+Il existe des relations étroites entre cellules endothéliales et système immunitaire, documentées notamment par l'article « SPI1-KLF1/LYL1 axis regulates lineage commitment during endothelial-to-hematopoietic transition from human pluripotent stem cells ». Cette connexion développementale entre endothélium et hématopoïèse — partageant le facteur de transcription SPI1/PU.1 — fournit un substrat mécanistique pour comprendre comment une perturbation de la signalisation endothéliale (par exemple via l'infection ou l'inflammation) pourrait avoir des répercussions immunitaires via la dérégulation de SPI1 par l'ARN HSAT2.
 
 Votre Supplementary Data Figure 17 (perte de méthylation de GSATII/HSAT2 dans le cancer du foie) est citée comme validation expérimentale directe que la perte de méthylation des répétitions satellites est un événement mesurable et spécifique associé à la maladie. Cette validation est référencée à deux emplacements dans le document principal (Chapitre 16, spéculation `spec:methylation-loss-consolidation`, et Chapitre 12, hypothèse `hyp:HSAT2-activation-pathways`).
 

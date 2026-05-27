@@ -269,6 +269,40 @@ The hypotheses in this chapter—metabolic "safe mode," glymphatic impairment, s
 
 The hypothesis that HSAT2 pericentromeric repeat RNA and the exosomal propagation mechanism described in this section are involved in the early stages of ME/CFS was proposed by Geneviève Fourel (personal communication, 2026). The mechanistic extrapolation from Evdokimova et al.\ (2019) @Evdokimova2019HSAT2exosome to ME/CFS, and the identification of the exosomal loop as a candidate driver of chronic immune suppression in post-viral disease, originate from her research intuition.
 
+=== Proximal Trigger: Viral Centromere Disruption
+
+A recently identified mechanism provides the missing link between herpesvirus infection and HSAT2 transcriptional activation. Lahaye, Lomonte, Manel et al. (Cell 2025) demonstrated that herpesvirus proteins disrupt centromeres, triggering centromeric DNA amplification — a pathway termed VICAR (viral-induced centromeric DNA amplification and recognition) @Lahaye2025centromere. Key findings:
+
+    - HSV-1 ICP0 protein targets centromeric proteins via its USP7-binding domain, inducing amplification of alpha-satellite DNA
+    - HCMV IE1/IE2, KSHV K8, and BHV-1 BICP0 also trigger centromere disruption
+    - The centromere amplification occurs in the absence of mitosis — a non-mitotic DNA amplification process
+    - Nuclear cGAS is activated locally at centromeres, producing cGAMP and triggering innate immune responses
+
+Patrick Lomonte (pers. comm. May 2026) has proposed that this centromere rearrangement is the *proximate trigger* for pericentromeric satellite (HSAT2, and possibly HSAT3) transcription in herpesvirus-infected cells. The causal sequence is:
+
+#figure([#pad(x: 2em)[
+Infection $arrow.r$ viral proteins (ICP0, IE1/IE2) $arrow.r$ centromere alpha-SAT amplification $arrow.r$ pericentromeric chromatin destabilization $arrow.r$ HSAT2/HSAT3 transcription $arrow.r$ HSAT2 RNA packaging into EVs $arrow.r$ propagation to uninfected cells
+]], kind: image, caption: [Proximal trigger sequence linking herpesvirus infection to HSAT2 activation, per Lomonte hypothesis (May 2026)])
+
+This mechanism reinterprets the finding by Nogalski et al. (2019) @Nogalski2019HSATII that HCMV IE1 and IE2 proteins are required for HSAT2 transcription: IE1/IE2 are required for the centromere rearrangement, which then secondarily triggers HSAT2 transcription — rather than directly transactivating the HSAT2 locus. The Cell 2025 conclusion figure maps different herpesvirus proteins to centromere disruption across multiple viral species (HSV-1, HCMV, KSHV, BHV-1), establishing this as a general herpesvirus mechanism rather than a virus-specific peculiarity.
+
+*Certainty.* 0.50 for the centromere amplification mechanism (Cell 2025, top journal, multiple viral systems, mechanistic detail). 0.35 for the specific HSAT2 activation by this mechanism (inferred from the coupling of centromere and pericentromeric regions; HSAT2 transcription after centromere disruption has not been directly measured in the Cell 2025 study).
+
+=== Cell-Type Specificity: Herpesvirus Neurotropism
+
+Geneviève Fourel (pers. comm. May 2026) proposes that loss-meCpG at HSAT2 initially occurs in specific brain cell types before propagating to other cells. The herpesviruses with the strongest evidence for neuroglial/neurovascular involvement are:
+
+    - HSV-1
+    - HHV-6A/B
+    - HCMV
+    - VZV
+
+Their documented partial tropisms include astrocytes, microglia, brain endothelium, perivascular cells, and neurons. The brain regions preferentially infected by HSV-1, HHV-6, and SARS-CoV-2 are closely adjacent but not identical (Patrick Lomonte, pers. comm. May 2026). This cell-type and regional specificity may explain why HSAT2 activation begins in a limited subset of central nervous system cells in ME/CFS, with subsequent propagation to peripheral immune cells via exosomal transmission.
+
+A potential cooperative interaction exists between cell types infected by SARS-CoV-2 and Herpesviridae — this could explain the clinical observation of herpesvirus reactivation during or after SARS-CoV-2 infection (including Geneviève Fourel's own experience in summer 2024). The convergence of multiple viral triggers on the same centromere-HSAT2 pathway may lower the threshold for disease initiation.
+
+*Certainty.* 0.45 for herpesvirus neuroglial tropism (well-established virology). 0.30 for the HSAT2 activation specifically in these brain cell types prior to propagation (not tested experimentally).
+
 #limitation(title: [Evidence Base: Preprint + Cancer Biology Extrapolation])[
 The mechanistic hypotheses in this section derive principally from a single bioRxiv preprint (Evdokimova et al.\ 2019 @Evdokimova2019HSAT2exosome) that has not been peer-reviewed and has remained unpublished for seven years. All experimental data originate from Ewing sarcoma — a high-mitotic-index malignancy with EWS-FLI1 fusion-driven constitutive HSAT2 transcription. Every extrapolation to ME/CFS (a non-malignant chronic disease) involves unknown scaling of exosomal HSAT2 concentrations, loop kinetics, and phenotype-induction thresholds from a tumor-microenvironment context to a systemic chronic-disease context. No HSAT2 measurement in ME/CFS plasma has been published. These speculations are included as research directions; they are not candidate treatments.
 ]

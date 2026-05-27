@@ -2846,6 +2846,21 @@ The exosomal propagation loop would be self-sustaining: once established post-in
 *Limitations:* All supporting evidence for the HSAT2 exosomal mechanism is from Ewing sarcoma (aggressive paediatric cancer), a context with far higher transcript levels than chronic infection. Post-viral MDSC persistence (Beliakova-Bethell 2022) was demonstrated for T-cell suppression; NK assays were not performed. The folate-MTHFR-H3K9me3 link (Zhu 2014) used extreme siRNA knockdown in cell lines — partial dietary/genetic depletion may not reach the same threshold. Not yet replicated in ME/CFS or any post-viral chronic disease context.
 ] <spec:hsat2-exosome-mdsc>
 
+#speculation(title: [HSAT2 RNA as ETS Transcription Factor Sponge: Immune Reprogramming via SPI1/PU.1])[
+*Certainty: 0.35.*
+
+HSAT2 RNA contains tandem GGAA repeats — the canonical binding motif for the ETS family of transcription factors. This structural feature suggests that HSAT2 RNA may function as a molecular sponge, sequestering ETS family TFs and reducing their availability for normal genomic target binding. In Ewing sarcoma, pericentromeric HSAT2 RNA has been shown to siphon the ETS family TFs ERG and FLI1, contributing to oncogenic reprogramming (Evdokimova et al., "Oncogenic ETS fusions promote DNA damage and proinflammatory responses via pericentromeric RNAs in extracellular vesicles"). For ME/CFS, the most consequential target may be SPI1 (also called PU.1):
+
+- *SPI1 biology.* SPI1 is a master transcription factor of the ETS family, fundamental for all hematopoiesis — from hematopoietic stem cell maintenance through myeloid and lymphoid lineage commitment. SPI1 binds GGAA DNA motifs to activate lineage-specific gene programs. Its expression level determines cell fate: high SPI1 → myeloid differentiation; low SPI1 → lymphoid differentiation.
+- *HSAT2 GGAA repeats.* HSAT2 RNA contains hundreds of GGAA tandem repeats, creating a high-capacity decoy sink for ETS family TFs. If HSAT2 RNA is elevated in ME/CFS immune cells, it could reduce the effective nuclear concentration of SPI1.
+- *Consequence: immune reprogramming.* Reduced functional SPI1 would impair normal hematopoiesis and immune cell differentiation. In the hematopoietic stem and progenitor cell (HSPC) compartment, SPI1 insufficiency biases differentiation away from lymphoid lineages toward myeloid output — mechanistically consistent with the MDSC expansion and NK/T-cell deficits observed in ME/CFS.
+- *Endothelial-immune developmental link.* SPI1 also operates in the endothelial-to-hematopoietic transition during embryonic development (SPI1-KLF1/LYL1 axis), establishing the close developmental relationship between endothelial cells and the immune system. The shared reliance on SPI1 creates a mechanistic bridge between endothelial dysfunction and immune dysregulation — both prominent in ME/CFS.
+
+This hypothesis predicts: (1) HSAT2 RNA in ME/CFS immune cells co-immunoprecipitates with SPI1 protein (RNA-IP); (2) SPI1 ChIP-seq in ME/CFS PBMCs shows reduced genome-wide binding at canonical target genes compared to healthy controls; (3) the expression of SPI1 target genes involved in lymphoid differentiation is reduced in ME/CFS, while myeloid gene programs are relatively preserved or expanded.
+
+*Limitations.* Certainty 0.35. HSAT2 RNA sponging of ERG/FLI1 is demonstrated in Ewing sarcoma but has not been measured for SPI1 specifically. No HSAT2-SPI1 interaction has been tested in any disease context. HSAT2 RNA expression levels in ME/CFS immune cells are unknown. The GGAA motif is recognized by >25 human ETS TFs — HSAT2 sponging may affect multiple family members, creating complex combinatorial effects that are difficult to deconvolute. The endothelial-immune SPI1 developmental link is well-established in developmental biology but has not been measured in ME/CFS.
+] <spec:hsat2-ets-spi1-sponge>
+
 #speculation(title: [Impaired Exosome Biogenesis as Contributor to ME/CFS Chronicity])[
 *Certainty: 0.25.* No direct ME/CFS exosome biogenesis data; mechanistic inference from fatigue syndromes and viral interference with ESCRT pathways.
 
