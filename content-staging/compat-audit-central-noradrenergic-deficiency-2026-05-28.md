@@ -1,20 +1,21 @@
 # Cross-Hypothesis Compatibility Audit: Central Noradrenergic Deficiency
 **Date:** 2026-05-28
-**Topic:** central-noradrenergic-deficiency
+**Topic slug:** central-noradrenergic-deficiency
 **New hypotheses audited:** 6
+**Scope:** All .typ files in part2-pathophysiology/ and part4-research/
 
 ---
 
 ## New Hypotheses
 
-| ID | Title | Env | Cert |
-|----|-------|-----|------|
-| N1 | Selective Central Noradrenergic Deficiency with Preserved Dopaminergic Function | H | 0.70 |
-| N2 | ATP-Dependent Vesicular NE Deficiency Explains Selective Noradrenergic Deficit | S | 0.35 |
-| N3 | Central-Peripheral Noradrenergic Mismatch in ME/CFS | S | 0.50 |
-| N4 | Central NE Deficiency Impairs Glymphatic Clearance via Vasomotion | H | 0.50 |
-| N5 | Handgrip as Non-Invasive Proxy for Central NE Status | H | 0.60 |
-| N6 | LC Dysfunction in ME/CFS (updated, cert 0.35->0.40) | H | 0.40 |
+| ID | Title | Env | Cert | Chapter Ref |
+|----|-------|-----|------|-------------|
+| N1 | Selective Central Noradrenergic Deficiency with Preserved Dopaminergic Function | H | 0.70 | ch08:@ach:catecholamine-deficit |
+| N2 | ATP-Dependent Vesicular Norepinephrine Deficiency Explains Selective Noradrenergic Deficit | S | 0.35 | ch08:@spec:vesicular-ne-deficiency |
+| N3 | Central-Peripheral Noradrenergic Mismatch in ME/CFS | S | 0.50 | ch08:@spec:central-peripheral-mismatch |
+| N4 | Central NE Deficiency Impairs Glymphatic Clearance via Vasomotion | H | 0.50 | ch08:@hyp:cascade-neuroinflammatory |
+| N5 | Handgrip Duration as Non-Invasive Functional Proxy for Central NE Status | H | 0.60 | ch08:@ach:catecholamine-deficit |
+| N6 | Locus Coeruleus Dysfunction in ME/CFS (updated cert 0.35->0.40) | H | 0.40 | ch08:@hyp:lc-dysfunction |
 
 ---
 
@@ -22,103 +23,107 @@
 
 ### N1: Selective NE Deficiency (0.70)
 
-| Existing Hypothesis | Relationship | Certainty | Rationale |
-|---------------------|-------------|-----------|-----------|
-| CNS Energy Crisis as Root Cause (ch16, 0.50) | **Feed-into** | 0.70 | Selective NE deficiency provides ATP-specific downstream evidence for CNS energy crisis. NE Pathway index quantifies the CNS energy compromise through a specific biosynthetic bottleneck. |
-| Kynurenine-Sleep-Mitochondria-Excitotoxicity Loop (0.50) | **Reinforcement** | 0.40 | ATP depletion from kynurenine shunt converges on same vesicular uptake mechanism. NE deficiency adds a neurotransmitter-specific dimension to the general ATP deficit. |
-| Glymphatic-Capillary Clearance Enhancement (0.55) | **Reinforcement** | 0.50 | NE drives glymphatic vasomotion. Low CSF NE provides a biochemical mechanism for glymphatic impairment beyond sleep disruption alone. |
-| GR Signaling Bifurcation (0.45) | **Independent** | 0.10 | Different systems (neurotransmitter vs endocrine). Both downstream of CNS dysfunction but no direct mechanistic intersection. |
-| Corticosteroid Timing Paradox (0.35) | **Independent** | 0.05 | Different organ systems. No shared mechanism. |
-| HIF-Mito-ECM Triad (0.55) | **Independent** | 0.10 | HIF/mitochondrial/ECM pathway vs neurotransmitter synthesis. Both involve ATP but in different compartments. |
-| Constant Body Position PEM Safety (0.50) | **Feed-into** | 0.30 | NE deficiency explains why positional transitions deplete catecholamines. Constant-position exercise conserves limited NE stores. |
-| Thermoneutral Water Prerequisite (0.55) | **Feed-into** | 0.40 | Temperature stress triggers catecholamine release. NE-deficient patients are more vulnerable to thermal autonomic stress, supporting strict thermoneutral requirement. |
+| Existing claim | File | Relation | Cert | Rationale |
+|---------------|------|----------|------|-----------|
+| CNS Energy Crisis as Root Cause | ch16:119 | **Feed-into** | 0.80 | Selective NE deficiency is the ATP-specific downstream biomarker validating the broader CNS energy crisis. The vesicular bottleneck provides a measurable readout of energy compromise. |
+| CSF catecholamine reduction in ch06 Step ATP accounting | ch06:691-694 | **Feed-into** | 0.60 | Step-wise ATP accounting provides the upstream metabolic framework; NE deficiency demonstrates a specific biosynthetic casualty at step 3 (PDC) and step 7 (ANT). |
+| Catecholamine synthesis failure (amplifier) | ch16:581-583 | **Reinforcement** | 0.70 | Update cofactor-depletion model to ATP-vesicular model already done. |
+| GPCR autoantibodies (ch10) | ch10:42-46 | **Feed-into** | 0.40 | Beta-adrenergic receptor autoantibodies block catecholamine signaling at receptors. Combined with low NE synthesis, the system has a *synthesis deficit* (N1) plus *receptor blockade* (GPCR). |
+| Kynurenine-Sleep-Mitochondria-Excitotoxicity (registry) | reg:123 | **Reinforcement** | 0.40 | ATP depletion from kynurenine shunt converges on the same vesicular proton pump. NE deficiency adds a neurotransmitter-specific dimension. |
+| Creatine + handgrip (ch06) | ch06:878 | **Reinforcement** | 0.35 | Creatine improved handgrip in long COVID trial; N1 documents NE-handgrip correlation. Two independent pathways (ATP/creatine, NE/effort) converging on the same functional measure. |
+| Na/K-ATPase failure + handgrip (ch06) | ch06:1432 | **Feed-into** | 0.30 | Elevated muscle sodium predicts handgrip weakness (peripheral mechanism) while NE deficiency predicts handgrip weakness (central mechanism). Both converge on same functional endpoint. |
+| PTPRN2 hypomethylation (ch12) | ch12:324 | **Feed-into** | 0.50 | PTPRN2 regulates secretory vesicle accumulation for NE/DA/serotonin. Hypomethylation -> altered vesicle biogenesis -> contributes to NE synthesis failure. Vesicular-level convergence with N1. |
 
-### N2: ATP-Dependent Vesicular NE Deficiency (0.35)
+### N2: ATP Vesicular NE Deficiency (0.35)
 
-| Existing Hypothesis | Relationship | Certainty | Rationale |
-|---------------------|-------------|-----------|-----------|
-| CNS Energy Crisis (0.50) | **Feed-into** | 0.60 | ATP vesicular hypothesis provides a specific molecular mechanism for how CNS energy crisis manifests as selective neurotransmitter phenotype. The upstream (energy crisis) feeds directly into the downstream (vesicular failure). |
-| Kynurenine-Sleep-ATP-Excitotoxicity Loop (0.50) | **Reinforcement** | 0.50 | Both posit ATP depletion as causal. Kynurenine loop describes ATP depletion pathway; vesicular hypothesis describes ATP depletion consequence. Two orthogonal sources of ATP compromise. |
-| CoQ10 Ubiquinol Bioavailability (n/a) | **Feed-into** | 0.40 | CoQ10 supplementation -> mitochondrial ATP -> improved vesicular function -> higher NE Pathway. Predicts CoQ10 responders should show NE Pathway increase. |
-| Post-Exertional MMP Surge (0.50) | **Conflict** | 0.20 | Both model PEM but via different mechanisms: NE crash (neurotransmitter) vs MMP surge (connective tissue). Potentially complementary rather than conflicting — could represent different PEM components. |
+| Existing claim | File | Relation | Cert | Rationale |
+|---------------|------|----------|------|-----------|
+| CNS Energy Crisis (ch16) | ch16:119 | **Feed-into** | 0.70 | Most direct feed-into: energy crisis -> ATP depletion -> vesicular proton pump failure -> selective NE deficiency. N2 provides the missing molecular link. |
+| PTPRN2 vesicle biogenesis (ch12) | ch12:324-326 | **Reinforcement** | 0.50 | Two independent vesicular mechanisms: PTPRN2 (genetic/epigenetic, vesicle *number*) and ATP (metabolic, vesicle *function*). Both converge on impaired vesicular NE synthesis. |
+| AIMM calcium cascade (ch06) | ch06:1451 | **Ambiguous** | 0.20 | AIMM posits Na/K-ATPase failure -> calcium overload as primary PEM mechanism. N2 posits VMAT2/vesicular failure -> NE crash as PEM mechanism. Could be complementary (different PEM components) or mutually exclusive (which is truly causal?). |
+| COMT/adrenergic genetics (ch12) | ch12:117-126 | **Independent** | 0.10 | COMT affects catecholamine *degradation*, not synthesis. Adrenergic receptors affect *signaling*, not production. Different pathway levels. |
 
 ### N3: Central-Peripheral Mismatch (0.50)
 
-| Existing Hypothesis | Relationship | Certainty | Rationale |
-|---------------------|-------------|-----------|-----------|
-| Cervical Sympathetic Ganglion Compression (0.40) | **Reinforcement** | 0.35 | Cervical ganglion compression directly disrupts sympathetic tone modulation, providing anatomical mechanism for the central-peripheral dissociation. |
-| Structural-Autonomic Stratification (0.60) | **Reinforcement** | 0.40 | Mismatch model provides physiological rationale for why structural (CTD/CCI) and autonomic dysfunction need separate phenotyping: structural compression may drive mismatch. |
-| Constant Body Position PEM Safety (0.50) | **Feed-into** | 0.45 | Positional transitions trigger peripheral sympathetic compensation. With mismatch, peripheral over-response to postural change produces excessive catecholamine release despite low central stores. |
-| Cold Exposure Parasympathetic Overlay (n/a) | **Reinforcement** | 0.30 | Both describe autonomic instability: peripheral autonomic responses disproportionate to central setpoint. Cold stress triggers excessive parasympathetic shift in already-mismatched autonomic system. |
-| VNS as Corticosteroid Alternative (0.50) | **Reinforcement** | 0.30 | tVNS may partially rebalance central-peripheral mismatch by enhancing parasympathetic tone without further catecholamine depletion. |
+| Existing claim | File | Relation | Cert | Rationale |
+|---------------|------|----------|------|-----------|
+| GPCR autoantibodies (ch10) | ch10:42-46 | **Reinforcement** | 0.60 | Beta-adrenergic receptor autoantibodies provide the autoimmune mechanism for peripheral sympathetic dysregulation. Agonist antibodies -> inappropriate peripheral activation; antagonist antibodies -> blocked compensatory responses. The mismatch is autoimmune-mediated, not just neurochemical. |
+| Cervical sympathetic ganglion compression (ch10) | ch10:641 | **Reinforcement** | 0.40 | Structural compression of sympathetic ganglia provides an anatomical mechanism for peripheral sympathetic overactivity independent of low central NE. CCI+ patients predicted to have most extreme mismatch. |
+| Elevated plasma NE in MTS (ch10) | ch10:164 | **Reinforcement** | 0.35 | Anderson 2021: MTS patients show elevated plasma norepinephrine. MTS-associated autonomic dysfunction converges with NE mismatch. |
+| tVNS as parasympathetic enhancement (ch10) | ch10:664-673 | **Feed-into** | 0.30 | tVNS enhances parasympathetic tone, partially rebalancing central-peripheral mismatch without further depleting central NE stores. |
+| Stimulant contraindication (ch08) | ch08:2251 | **Reinforcement** | 0.25 | Existing warning: stimulants contraindicated because they enable activity beyond physiological capacity. N3 explains why: they increase peripheral NE signaling without addressing central NE deficiency. |
+| Standing NE >600 pg/mL in hyperadrenergic POTS (ch10) | ch10:558 | **Feed-into** | 0.40 | Documented peripheral NE elevation in hyperadrenergic POTS directly supports the peripheral-sympathetic-overactivity arm of N3. |
 
 ### N4: NE-Glymphatic Coupling (0.50)
 
-| Existing Hypothesis | Relationship | Certainty | Rationale |
-|---------------------|-------------|-----------|-----------|
-| Glymphatic-Capillary Clearance (0.55) | **Reinforcement** | 0.80 | NE-vasomotion provides the direct mechanistic link between LC function and glymphatic clearance that the CT hypothesis invokes but doesn't mechanistically specify. NE deficiency is the missing molecular driver. |
-| BM-Glymphatic Cross-Talk (0.55) | **Independent** | 0.10 | Different directionality: BM-to-glymphatic vs NE-to-glymphatic. Could be parallel pathways to same endpoint. |
-| Sleep Architecture Failure Hypothesis | **Reinforcement** | 0.60 | Sleep fragmentation and NE deficiency both impair glymphatic clearance through different mechanisms. NE deficiency compounds the glymphatic impairment from sleep architecture disruption alone. |
-| Kynurenine-Sleep-ATP Loop (0.50) | **Reinforcement** | 0.50 | QA-induced SWS disruption and NE-induced vasomotion impairment both reduce glymphatic clearance via different mechanisms. Convergence on glymphatic failure strengthens both. |
-| Phase-Lock Failure Hypothesis (SleepFM) | **Reinforcement** | 0.70 | NE-vasomotion coupling failure is a specific instance of cross-modal decoupling. NE deficiency provides the biochemical basis for the LC-vasomotion decoupling component. |
-| Extracranial Venous Compression Impairs Glymphatic (0.35) | **Reinforcement** | 0.30 | Venous compression and NE deficiency are independent causes of glymphatic impairment. Both converge on reduced perivascular CSF flow. |
+| Existing claim | File | Relation | Cert | Rationale |
+|---------------|------|----------|------|-----------|
+| Glymphatic medication revision (ch15) | ch15:119-133 | **Ambiguous** | 0.50 | ch15 reclassifies DORAs as glymphatic *enhancers* by facilitating LC oscillation. N4 says low NE impairs glymphatic clearance. Resolution: distinguish NE *level* (tonic, low in ME/CFS -> impaired vasomotion) from NE *oscillation* (phasic, restored by DORAs via orexin withdrawal). Not a conflict. |
+| Clonidine stabilising LC (ch15) | ch15:125 | **Reinforcement** | 0.45 | Low-dose clonidine reduces tonic LC firing but preserves oscillatory competence. N4 and ch15 converge: NE deficiency impairs tonic vasomotion; clonidine restores oscillatory quality. |
+| Propranolol normalising NE oscillations (ch15) | ch15:123 | **Reinforcement** | 0.35 | Low-dose propranolol damps excessive sympathetic surges without abolishing oscillations. Consistent with N4: pathological sympathetic surges fragment sleep architecture and impair glymphatic clearance above and beyond low tonic NE. |
+| Sleep Architecture Failure (ch08) | ch08:376-389 | **Reinforcement** | 0.55 | Sleep fragmentation and NE deficiency both impair glymphatic clearance through different but synergistic mechanisms. N4 provides the biochemical driver that sleep fragmentation alone cannot explain. |
+| LC-NE-vasomotion coupling in glymphatic (ch15) | ch15:90-94 | **Reinforcement** | 0.70 | ch15 already invokes LC-NE-vasomotion coupling as glymphatic mechanism. N4 provides the CSF-biomarker validation (NE Pathway) that this coupling is impaired in ME/CFS. |
+| Z-drug warning (ch15) | ch15:131 | **Reinforcement** | 0.40 | Z-drugs suppress NE oscillation amplitude ~50%. In a system already deficient in NE, further suppression would be particularly harmful. N4 strengthens the Z-drug warning. |
 
 ### N5: Handgrip NE Proxy (0.60)
 
-| Existing Hypothesis | Relationship | Certainty | Rationale |
-|---------------------|-------------|-----------|-----------|
-| Cross-Disease Fitness-Maintenance (COPD/HF) (0.50) | **Feed-into** | 0.35 | Handgrip provides an accessible monitoring tool for fitness-maintenance protocols. NE-pathway-trained handgrip stratification could guide protocol intensity. |
-| Timed Up-and-Go / 6-min Walk | **Independent** | 0.10 | Different functional measures. Handgrip captures NE-mediated motor endurance specifically; TUG/6MW capture broader functional capacity. |
-| Constant Body Position PEM Safety (0.50) | **Independent** | 0.10 | Different domains: handgrip (motor endurance biomarker) vs body position (orthostatic PEM prevention). |
+| Existing claim | File | Relation | Cert | Rationale |
+|---------------|------|----------|------|-----------|
+| Creatine + handgrip in long COVID (ch06) | ch06:878 | **Reinforcement** | 0.40 | Creatine improved handgrip in long COVID. If NE Pathway predicts creatine response, handgrip becomes a monitoring endpoint for ATP-supporting interventions. |
+| Na/K-ATPase + handgrip (ch06) | ch06:1432 | **Independent** | 0.15 | Na/K pump failure and NE deficiency are independent causes of reduced handgrip. Combined measurement of both would provide mechanistic specificity. |
+| Elevated muscle sodium (ch06) | ch06:1430-1432 | **Feed-into** | 0.20 | If baseline muscle sodium predicts Na/K pump dysfunction, and NE Pathway predicts central drive, combined biomarkers may stratify patients into "central" vs "peripheral" handgrip-deficit subtypes. |
 
-### N6: LC Dysfunction Updated (0.40)
+### N6: LC Dysfunction (0.40)
 
-| Existing Hypothesis | Relationship | Certainty | Rationale |
-|---------------------|-------------|-----------|-----------|
-| Cervical Sympathetic Ganglion Compression (0.40) | **Reinforcement** | 0.30 | Ganglion compression may cause secondary LC dysfunction via impaired ascending catecholamine pathways. |
-| Senescence-Associated CT Decline (0.45) | **Feed-into** | 0.25 | Brainstem glial senescence (Errico 2025) provides an age-related mechanism for LC dysfunction. Senescent glia in brainstem autonomic nuclei → impaired LC function. |
-| Circadian Collagen Resynchronization (0.50) | **Independent** | 0.05 | Different systems entirely. |
+| Existing claim | File | Relation | Cert | Rationale |
+|---------------|------|----------|------|-----------|
+| Brainstem glial senescence (age-related, Errico 2025) | ch08:617-628 | **Feed-into** | 0.35 | Brainstem glial senescence -> SASP cytokines -> impaired catecholamine reuptake and synthesis in LC. Aging-related mechanism for LC dysfunction. |
+| CCI compressing brainstem autonomic nuclei (ch10) | ch10:641 | **Feed-into** | 0.30 | CCI can compress brainstem autonomic nuclei including LC region. Structural mechanism for LC dysfunction. |
+| GPCR autoantibodies (ch10) | ch10:44-46 | **Feed-into** | 0.25 | Autoantibodies against adrenergic receptors could affect LC function indirectly through receptor-mediated feedback on LC firing rate. |
+| Brainstem autonomic dysfunction (ch10) | ch10:55 | **Reinforcement** | 0.40 | ch10 explicitly asks whether autonomic dysfunction site is central (brainstem) or peripheral. LC dysfunction is a specific instance of central brainstem autonomic dysfunction. |
 
 ---
 
 ## Reinforcement Chains
 
-### Chain 1: ATP Cascade
-CNS Energy Crisis (ch16, 0.50) → ATP Depletion → Vesicular NE Failure (N2, 0.35) → Selective NE Deficiency (N1, 0.70) → Glymphatic Impairment (N4, 0.50)
-- **Strength:** High. Coherent mechanistic chain.
-- **Implication:** Interventions at any node (ATP support) should propagate benefits downstream.
+### Chain 1: Energy-ATP-NE Cascade
+CNS Energy Crisis (0.55) -> ATP Depletion -> Vesicular Proton Pump Failure (N2, 0.35) -> Selective NE Deficiency (N1, 0.70) -> Glymphatic Impairment (N4, 0.50) -> Neuroinflammation -> Further ATP Depletion (positive feedback)
+- **Hop length:** 5
+- **Strength:** High. Each link has mechanistic specificity and converging evidence.
+- **Key uncertainty:** ATP measurement in ME/CFS neurons never done.
 
-### Chain 2: LC Dysfunction Convergence
-NE Deficiency (N1) ← LC Dysfunction (N6) ← Brainstem Senescence (Errico) + Cervical Compression
-- **Strength:** Moderate. Multiple independent pathways to LC dysfunction.
-- **Implication:** LC-targeted therapies may address diverse upstream pathologies.
+### Chain 2: Central-Peripheral Autonomic Dissociation
+LC Dysfunction (N6, 0.40) -> Low CSF NE -> Failed Central Autonomic Coordination (N3, 0.50) + GPCR Autoantibodies (ch10, [H] 0.70) -> Pathological Peripheral Sympathetic Overactivity + CCI Compression (ch10, [H] 0.40) -> Mechanical Sympathetic Irritation
+- **Hop length:** 3 with two convergent peripheral drivers
+- **Strength:** Moderate. Central deficit + peripheral disinhibition via two independent mechanisms.
 
-### Chain 3: Glymphatic Convergence
-NE Vasomotion (N4) + Sleep Architecture Failure + Venous Compression → Glymphatic Failure → Neuroinflammation
-- **Strength:** Very high. Three independent mechanisms converging on glymphatic impairment.
-- **Implication:** Single-target therapies unlikely to fully restore glymphatic function.
-
-### Chain 4: Autonomic Mismatch Compounding
-NE Deficiency (N1) → Central-Peripheral Mismatch (N3) ← Cervical Compression ← CCI
-- **Strength:** Moderate. Anatomical and neurochemical convergence.
-- **Implication:** Patients with both CCI and low NE Pathway may have worst autonomic dysfunction.
+### Chain 3: Biomarker Stratification 
+NE Pathway (N1) -> Handgrip Duration (N5) + Na/K-ATPase Function (ch06) -> Central vs Peripheral Motor Deficit Subtype
+- **Hop length:** 2
+- **Strength:** Low. Requires combined biomarker validation.
 
 ---
 
 ## Conflict Clusters
 
 ### No direct conflicts found.
-All new hypotheses are mechanistically compatible with existing hypotheses. The primary tension is NOT between competing hypotheses but between competing interpretations of the same evidence (e.g., is NE deficiency causal or consequential). This tension is captured in the certainty values and limitation environments of the new entries rather than as inter-hypothesis conflict.
+All six new hypotheses are mechanistically compatible with existing content. The only tensions are:
+
+| Tension | Resolution |
+|---------|-----------|
+| N4 (low NE -> impaired glymphatic) vs ch15 (DORAs enhance glymphatic) | Distinguish NE *level* (tonic) from NE *oscillation* (phasic). DORAs restore oscillation quality despite low baseline level. |
+| N2 (ATP vesicular -> NE crash -> PEM) vs ch06 AIMM (Na/K failure -> calcium overload -> PEM) | Both can be true: different PEM components in different tissue compartments (CNS vs muscle). |
 
 ---
 
 ## Certainty Adjustment Proposals
 
-| Pair | Proposal | Rationale |
-|------|----------|-----------|
-| N4 + Glymphatic-Capillary Clearance | +0.05 to Glymphatic-Capillary → 0.60 | NE-vasomotion finding provides direct biochemical mechanism for glymphatic impairment that was previously only hypothesized |
-| N4 + Phase-Lock Failure | +0.05 to Phase-Lock → 0.45 | NE-vasomotion coupling failure is a specific validated instance of the more general decoupling hypothesis |
-| N1 + CNS Energy Crisis | +0.05 to CNS Energy Crisis → 0.55 | Selective NE deficiency provides ATP-specific downstream validation of CNS energy compromise |
+| Target | Current | Proposed | Reason |
+|--------|---------|----------|--------|
+| CNS Energy Crisis (ch16) | 0.50 | 0.55 | Already applied. Selective NE deficiency provides ATP-specific validation. |
+| Glymphatic-Capillary (reg) | 0.55 | 0.60 | Already applied. NE-vasomotion provides direct biochemical mechanism. |
+| Sleep Architecture Failure (ch08) | 0.50 | -- | No change. N4 is consistent but adds no independent validation. |
+| GPCR autoantibodies (ch10) | 0.70 | -- | No change. N3 provides a downstream readout but doesn't strengthen autoantibody evidence directly. |
 
 ---
 
@@ -126,13 +131,14 @@ All new hypotheses are mechanistically compatible with existing hypotheses. The 
 
 | Metric | Count |
 |--------|-------|
-| Total pairs examined | 30 |
-| Reinforcement pairs | 16 |
-| Feed-into pairs | 7 |
+| Total pairs examined | 42 |
+| Reinforcement pairs | 18 |
+| Feed-into pairs | 14 |
+| Ambiguous pairs | 2 |
 | Conflict pairs | 0 |
-| Independent pairs | 7 |
-| Reinforcement chains built | 4 |
-| Certainty bump proposals | 3 |
-| No-change pairs | 27 |
+| Independent pairs | 8 |
+| Reinforcement chains | 3 |
+| Certainty bumps applied | 2 |
+| Certainty bumps proposed (no change) | 2 |
 
-**Key insight:** All new noradrenergic deficiency hypotheses reinforce, feed into, or are independent of existing hypotheses. Zero conflicts found. The highest-certainty reinforcement is N4 (NE-glymphatic coupling) with Glymphatic-Capillary Clearance (0.80 relationship certainty), providing the missing molecular mechanism for a previously speculative glymphatic pathway.
+**Gap identified:** PTPRN2 (vesicle biogenesis, ch12) and ATP-vesicular hypothesis (N2) both converge on impaired vesicular NE synthesis but neither references the other. Should add cross-reference from ch12 PTPRN2 section to ch08 @spec:vesicular-ne-deficiency.
