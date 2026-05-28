@@ -105,7 +105,7 @@ Post-viral dysfunction of the TRPM3 calcium channel impairs NK cell function, ne
 === CNS Energy Crisis
 <sec:map-cns-energy>
 
-Central nervous system hypometabolism driven by neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction. Supported by PET/SPECT hypometabolism studies and CSF catecholamine precursor deficits @Walitt2024NIH. Note: that study's authors interpret the findings in terms of altered effort signalling rather than primary metabolic pathology; the "energy crisis" framing is one valid reading of the data, not the only one. The CNS energy crisis produces downstream autonomic dysfunction, immune dyscoordination, endocrine disruption, and sleep fragmentation.
+Central nervous system hypometabolism driven by neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction. Supported by PET/SPECT hypometabolism studies and CSF catecholamine precursor deficits @Walitt2024NIH, with follow-up demonstrating selective central noradrenergic (not dopaminergic) deficiency @Aregawi2026Noradrenergic. Note: that study's authors interpret the findings in terms of altered effort signalling rather than primary metabolic pathology; the "energy crisis" framing is one valid reading of the data, not the only one. The CNS energy crisis produces downstream autonomic dysfunction, immune dyscoordination, endocrine disruption, and sleep fragmentation.
 
 #figure(
   table(
