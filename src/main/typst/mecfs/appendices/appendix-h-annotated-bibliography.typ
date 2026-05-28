@@ -17480,3 +17480,61 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:* Mechanistic review (no primary data); theoretical framework requires clinical validation; no intervention trials.
     *Certainty:* 0.65
 
+
+// =============================================================================
+// Lemborexant/DORA Tau Neuroprotection Research Stream
+// =============================================================================
+
+<sec:bib-lemborexant-dora-tau>
+
+=== Parhizkar et al.\ 2025 — Lemborexant Ameliorates Tau-Mediated Sleep Loss and Neurodegeneration
+
+    *Full Citation:*: Parhizkar S, Bao X, Chen W, Rensing N, Chen Y, Kipnis M, Song S, Gent G, Tycksen E, Manis M, Lee C, Remolina Serrano J, Bosch ME, Franke E, Yuede CM, Landsness EC, Wong M, Holtzman DM. Lemborexant ameliorates tau-mediated sleep loss and neurodegeneration in males in a mouse model of tauopathy. _Nature Neuroscience_. 2025;28(7):1460--1472. @Parhizkar2025LemborexantTau
+    *DOI:*: #link("https://doi.org/10.1038/s41593-025-01966-7")[10.1038/s41593-025-01966-7]
+    *PMID:*: 40425791
+    *Study Design:*: Preclinical (P301S/E4 tauopathy mouse model)
+    *Key Findings:*
+        - Lemborexant (DORA) reduced tau phosphorylation via PKA pathway inhibition (orexin receptor blockade → reduced cAMP → reduced PKA → reduced tau p at Ser202, Ser409, Thr205)
+        - Prevented neurodegeneration: 30--40\% larger hippocampal volume in treated vs untreated mice, reduced microglial reactivity (Clec7a, CD68), preserved phagocytic marker Tmem119
+        - Male-only protection (females not responsive — baseline neurodegeneration milder)
+        - Active-phase dosing (lights-off, when orexin is high) more effective than inactive-phase (lights-on)
+        - CRITICAL CONTROL: zolpidem increased sleep but provided NO neuroprotection — proving orexin signaling (not sleep duration) is the mechanistic key
+    *Conclusion:*: DORAs may prevent tau-mediated neurodegeneration by reducing PKA-dependent tau phosphorylation, independent of sleep promotion. Orexin tone directly modulates phosphorylation pathways beyond its role in arousal.
+    *Limitations:*: Preclinical only; single DORA tested; no replication; male-only protection limits generalizability; no chronic treatment data; no cognitive outcomes beyond structural neuroprotection.
+    *ME/CFS Relevance:*: HIGH relevance for three reasons: (1) ME/CFS involves orexin pathway dysfunction (Section \@sec:ch15-orexin), and this paper demonstrates orexin signaling modulates intracellular pathways beyond arousal; (2) existing DORA coverage in ME/CFS treatment chapters (for sleep) is strengthened by evidence of potential neuroprotective effects; (3) the finding that zolpidem (GABA-A agonist) failed to protect while lemborexant (DORA) succeeded reinforces existing ME/CFS warnings about zolpidem impairing glymphatic function via NE oscillation suppression.
+    *Certainty:* 0.85
+
+=== Lucey et al.\ 2023 — Suvorexant Acutely Decreases Tau Phosphorylation in Human CNS
+
+    *Full Citation:*: Lucey BP, Liu H, Toedebusch CD, Freund D, Redrick T, Chahin SL, Mawuenyega KG, Bollinger JG, Ovod V, Barthélemy NR, Bateman RJ. Suvorexant acutely decreases tau phosphorylation and Aβ in the human CNS. _Annals of Neurology_. 2023;94(1):27--40. @Lucey2023SuvorexantTau
+    *DOI:*: #link("https://doi.org/10.1002/ana.26641")[10.1002/ana.26641]
+    *PMID:*: 36897120
+    *Study Design:*: Randomized controlled trial (single-dose, acute)
+    *Sample Size:*: n=38 cognitively unimpaired adults (45--65 yr); placebo n=13, suvorexant 10 mg n=13, suvorexant 20 mg n=12
+    *Key Findings:*
+        - Suvorexant 20 mg decreased p-tau181/T181 ratio ~10--15\% vs placebo (p $<$ 0.05)
+        - Aβ decreased ~10--20\% starting 5 hours post-dose
+        - Site-specific effect: phosphorylation at S202 and T217 NOT decreased (only T181 affected)
+        - Effects apparent 5--10 hours post-dose, consistent with drug PK
+        - 10 mg dose: effects unclear (possibly subtherapeutic for acute dosing)
+    *Conclusion:*: First human evidence that DORAs acutely reduce tau phosphorylation and Aβ in CSF. Establishes that orexin signaling modulates tau phosphorylation even in cognitively normal brains (basal regulatory pathway, not disease-specific).
+    *Limitations:*: Acute single dose only; no chronic data; participants cognitively unimpaired (no tau pathology at baseline); no cognitive or functional outcomes; no follow-up beyond 36 hours.
+    *ME/CFS Relevance:*: MODERATE relevance as supporting evidence: (1) human validation of orexin→tau link from mouse to human; (2) DORA safety data strengthens existing ME/CFS treatment coverage; (3) site-specificity of effect (only T181, not S202/T217) may inform mechanistic hypotheses if tau phosphorylation is relevant to ME/CFS neurocognitive symptoms.
+    *Certainty:* 0.75
+
+=== Kang et al.\ 2009 — Amyloid-β Dynamics Regulated by Orexin and Sleep-Wake Cycle
+
+    *Full Citation:*: Kang J-E, Lim MM, Bateman RJ, Lee JJ, Smyth LP, Cirrito JR, Fujiki N, Nishino S, Holtzman DM. Amyloid-β dynamics are regulated by orexin and the sleep-wake cycle. _Science_. 2009;326(5955):1005--1007. @Kang2009OrexinAmyloid
+    *DOI:*: #link("https://doi.org/10.1126/science.1180962")[10.1126/science.1180962]
+    *PMID:*: 19779148
+    *Study Design:*: Preclinical (APP transgenic mouse model)
+    *Key Findings:*
+        - ISF Aβ levels correlated with wakefulness (higher during wake, lower during sleep)
+        - Acute sleep deprivation increased ISF Aβ significantly
+        - Orexin-A infusion increased ISF Aβ (mimicking wake state)
+        - Chronic DORA treatment decreased Aβ plaque formation ~25\%
+    *Conclusion:*: Seminal paper establishing orexin as the mechanistic link between sleep-wake state and protein aggregation. Foundation for subsequent work (Holth 2019, Lucey 2023, Parhizkar 2025) extending the principle to tau.
+    *Limitations:*: Preclinical only; Aβ focus (not tau); methods dated (2009); single APP model.
+    *ME/CFS Relevance:*: MEDIUM-HIGH relevance: (1) established that orexin tone modulates protein aggregation pathways (general principle, not Aβ-specific); (2) DORA precedent for reducing protein aggregation pathology; (3) orexin signaling→intracellular pathways (cAMP/PKA)→protein phosphorylation/aggregation is a convergent mechanism across subsequent papers; (4) cross-disease relevance if ME/CFS involves protein aggregation or neuronal stress pathways. However, ME/CFS orexin deficiency (lower-than-normal) may have opposite effects from orexin elevation.
+    *Certainty:* 0.95
+

@@ -1174,6 +1174,8 @@ Unlike Z-drugs and benzodiazepines, DORAs consolidate sleep by reducing _long_ w
 
 *Limitations*: No ME/CFS-specific RCTs exist. Prescription required; cost may be barrier. Alternative DORAs (suvorexant, lemborexant) have similar efficacy if daridorexant unavailable.
 
+*Emerging mechanistic note (certainty 0.25):* Preclinical evidence suggests DORAs may have neuroprotective effects beyond sleep promotion. Parhizkar et al.\ (2025) demonstrated that lemborexant reduces tau phosphorylation via PKA pathway inhibition, preserving hippocampal volume by 30--40% in tauopathy mice @Parhizkar2025LemborexantTau, while the Z-drug zolpidem increased sleep but provided no protection. Lucey et al.\ (2023) showed acute suvorexant reduced CSF p-tau181 by ~10--15% in cognitively unimpaired adults @Lucey2023SuvorexantTau. Whether DORAs provide any neuroprotection in ME/CFS (where tau pathology is unestablished) or whether partial endogenous orexin deficiency already confers this protection is unknown. These findings do not change the clinical recommendation above; they reinforce the mechanistic distinction between DORAs and GABA-A hypnotics.
+
 *Circadian Light Therapy for Sleep-Energy Alignment*
 
 #key-point(title: [Circadian Energy Misallocation in ME/CFS])[
