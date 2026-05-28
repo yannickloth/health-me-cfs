@@ -118,7 +118,7 @@ The cascade's reach is limited only by the brain's reach—which is to say, not 
 #hypothesis(title: [CNS Energy Crisis as Trigger-Capable Root Cause])[
 Central nervous system hypometabolism, arising from neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction in neural tissue, is sufficient to generate the full ME/CFS syndrome through failed central coordination of autonomic, immune, endocrine, and metabolic responses. The brain's role as master coordinator means that its energy failure cascades to all dependent systems. The CNS energy crisis is the only trigger-capable mechanism whose multi-system reach is anatomically guaranteed rather than dependent on molecular distribution.
 
-*Certainty:* 0.50. PET/SPECT evidence for CNS hypometabolism is replicated across multiple studies, and the Walitt 2024 CSF findings provide direct neurochemical evidence of biosynthetic failure. The cascade logic is biologically sound and consistent with known neuroanatomy. However, it remains unproven that CNS dysfunction is _primary_ rather than secondary to peripheral immune activation, and animal models that would establish directionality are lacking. The Nakatomi PET study, while influential, used a relatively small sample and a first-generation TSPO ligand with known limitations.
+*Certainty:* 0.55. (0.50 to 0.55: Aregawi 2026 selective NE deficiency provides ATP-specific downstream validation of CNS energy compromise via a measurable biosynthetic bottleneck.) PET/SPECT evidence for CNS hypometabolism is replicated across multiple studies, and the Walitt 2024 and Aregawi 2026 CSF findings provide direct neurochemical evidence of selectively noradrenergic biosynthetic failure linked to ATP-dependent vesicular function @Aregawi2026Noradrenergic. The cascade logic is biologically sound and consistent with known neuroanatomy. However, it remains unproven that CNS dysfunction is _primary_ rather than secondary to peripheral immune activation, and animal models that would establish directionality are lacking. The Nakatomi PET study, while influential, used a relatively small sample and a first-generation TSPO ligand with known limitations.
 
 *Testable predictions:*
 
@@ -600,7 +600,7 @@ The distinction between amplifiers and consequences is sometimes blurry. The key
 
 table.cell(colspan: 6)[*Trigger-Capable Root Causes*],
 
-[CNS energy crisis], [Root cause], [0.50], [PET/SPECT hypometabolism; CSF catecholamine deficit (Walitt 2024)], [Passes all 4], [Low],
+[CNS energy crisis], [Root cause], [0.55], [PET/SPECT hypometabolism; CSF catecholamine deficit (Walitt 2024)], [Passes all 4], [Low],
 
 
 [Metabolic safe mode lock], [Root cause], [0.45], [Itaconate/IDO upregulation; coordinated metabolic suppression pattern], [Passes all 4], [Low–Moderate],
