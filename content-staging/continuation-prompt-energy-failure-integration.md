@@ -7,7 +7,7 @@
 
 ## What Was Completed
 
-### Articles Written (10/34, in `published/`)
+### Articles Written (10/34, in `publications/`)
 1. `20260612_linkedin-four-flavors-of-fatigue` (.article.md + .article.post.md)
 2. `20260615_linkedin-normal-blood-tests` (.article.md + .article.post.md)
 3. `20260618_linkedin-cell-power-plant` (.article.md + .article.post.md)

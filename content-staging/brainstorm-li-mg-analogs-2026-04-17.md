@@ -95,7 +95,7 @@ Five relationship types identified between Li and Mg that may generalize to othe
 **Integration targets:**
 - ch14a Li monitoring protocol: add Se assessment and repletion as part of Li safety protocol (not currently mentioned)
 - ch16-supplements: Se section (if absent) — add deiodinase mechanism explicitly in ME/CFS context
-- published/Li-SAMA letter: add Se as thyroid axis protectant when starting Li
+- publications/Li-SAMA letter: add Se as thyroid axis protectant when starting Li
 
 ---
 
