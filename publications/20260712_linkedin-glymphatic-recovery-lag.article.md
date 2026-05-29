@@ -1,0 +1,73 @@
+# Why Your Sleep Meds Aren't Fixing Your Unrefreshing Sleep
+
+You started trazodone. Your sleep tracker shows more deep sleep. You're sleeping through the night for the first time in years. And you still wake up exhausted.
+
+This isn't treatment failure. This is biology.
+
+---
+
+## The Pump vs. The Pipes
+
+Your brain has a waste-clearance system — the glymphatic system — that operates during slow-wave sleep. Think of it as a pump-and-pipe network: norepinephrine oscillations drive cerebral vasomotion (the pump), which pushes CSF through perivascular spaces surrounded by astrocytic endfeet (the pipes), clearing metabolic waste — tau, amyloid, inflammatory mediators.
+
+Sleep medications like trazodone and DORAs can restore the pump within days. They increase slow-wave sleep duration, normalize delta power, and consolidate sleep architecture. Measurable on EEG night one.
+
+But the pipes? After years of non-restorative sleep, they're not the pipes you started with.
+
+---
+
+## What Years of Bad Sleep Do to the Pipes
+
+Chronic glymphatic impairment causes structural damage at three sites, and each repairs on a different clock:
+
+| Component | What's damaged | Structural repair time | Ratio to pump |
+|-----------|----------------|----------------------|---------------|
+| AQP4 water channels | Mislocalized from endfeet to cell body — pump runs but water can't flow through | 2–4 months | ~20× |
+| Astrocytic endfeet | Retracted from vessel walls — reduced contact area for fluid exchange | 3–6 months | ~40× |
+| Perivascular basement membrane | Thickened and fibrotic — collagen IV half-life is 120–300 days | 6–18 months | ~100× |
+
+The pump (sleep architecture) normalizes in ~5 days. Full structural recovery of the pipes takes ~12 months. **Weighted composite: ~70× the restoration timescale.**
+
+This is not a precise number. It's an order-of-magnitude estimate from the biology of protein trafficking, cytoskeletal reorganization, and extracellular matrix turnover. But the message is the same: your sleep medication solved the acute problem in a week. The chronic problem is going to take most of a year.
+
+---
+
+## The Month-by-Month Trajectory
+
+**Week 1:** Sleep architecture normalizes. You sleep through the night. You wake up still tired. This is expected — the pump is running, the pipes are still wrecked.
+
+**Weeks 2–8:** DTI-ALPS imaging shows glymphatic function improving by maybe 10–15% of the deficit. AQP4 channels are slowly redistributing to endfeet. You feel no different. The brain is paying down its waste debt before the balance sheet shows positive clearance.
+
+**Month 3:** AQP4 fully repolarized. Endfeet partially re-extended. Accumulated waste substantially cleared. **This is the threshold.** This is where patients start noticing less brain fog, reduced PEM trigger sensitivity, more consistent cognitive stamina. This is why people say it "finally started working" after 8–12 weeks.
+
+**Month 6:** Endfeet largely restored. DTI-ALPS approaches ~50–60% of deficit recovery. Significant symptomatic benefit — but still not 100%.
+
+**Month 12+:** Perivascular basement membrane remodeling approaches completion. This is the ceiling of structural recovery. If you're not meaningfully better at 12 months, the remaining impairment is not glymphatic — you need a different intervention class.
+
+---
+
+## The Falsifiable Prediction
+
+This model makes a specific, testable claim: ME/CFS patients with >5 years of non-restorative sleep who achieve objectively normal sleep architecture (delta power, SWS %, spindle density on PSG) after 4 weeks of trazodone + DORA will **still** show reduced DTI-ALPS glymphatic index compared to age-matched controls. The same patients treated for >6 months will show progressive DTI-ALPS improvement.
+
+A null result — DTI-ALPS normalization within 4 weeks of sleep architecture restoration — would refute the structural degradation model and support a purely functional (reversible) model. No one has run this study.
+
+---
+
+## What This Means If You're a Patient
+
+1. **Patience is physiology, not personal failure.** If you're sleeping better and still not recovering, you are not doing something wrong. The recovery timescale is 70× the sleep-restoration timescale. The biology predicts this lag.
+
+2. **Stopping at 4 weeks guarantees no benefit.** If you quit your sleep protocol after a month because "it's not working," the data says you're right — but only because you stopped before the pipes started to heal.
+
+3. **The ceiling at 12 months is real.** If you've maintained consistent restorative sleep for a year and plateaued, you've extracted everything the glymphatic axis can give you. Further improvement requires targeting other mechanisms — mitochondrial support, pacing, anti-inflammatory strategies, and potentially addressing upstream locks like autoimmune persistence.
+
+4. **Sleep quality matters more than sleep duration.** The pump runs on delta oscillations, not minutes in bed. DORAs and trazodone improve the signal that drives clearance. Z-drugs like zolpidem increase sleep duration but suppress the NE oscillations that drive the pump — and provide zero tau neuroprotection. The medication class matters.
+
+---
+
+Based on data from our open-access ME/CFS documentation (CC-BY 4.0): https://zenodo.org/records/18905326
+
+Sources: Parhizkar et al. 2025 (Nature Neuroscience), Lucey et al. 2023 (Annals of Neurology), Hauglund et al. 2025 (Cell), Holth et al. 2019 (Science), NematGorgani et al. 2025, Ding et al. 2025, and foundational glymphatic biology (Xie et al. 2013, Fultz et al. 2019).
+
+#MECFS #MyalgicEncephalomyelitis #ChronicFatigueSyndrome #Sleep #GlymphaticSystem #UnrefreshingSleep #Neuroinflammation #LongCOVID #OpenAccess #OpenScience
