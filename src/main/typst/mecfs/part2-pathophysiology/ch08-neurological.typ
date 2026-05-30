@@ -1565,7 +1565,7 @@ Meningococcal sepsis causes endotheliopathy with microthrombi formation through 
 ==== Glymphatic System: The Mast Cell–CSF Flow Axis
 <sec:glymphatic-meningitis>
 
-The glymphatic system—the brain's waste clearance pathway, dependent on perivascular CSF flow driven by AQP4-rich astrocytic endfeet—is disrupted in both conditions through distinct but converging mechanisms.
+The glymphatic system—the brain's waste clearance pathway, dependent on perivascular CSF flow driven by AQP4-rich astrocytic endfeet—is disrupted in both conditions through distinct but converging mechanisms. Recent evidence from Chayama et al.\ (2026) refines this model: neuron-derived proteins clear through dura, skull, and nasal cavity --- not primarily through cervical lymphatics, as CSF tracer studies had suggested @Chayama2026BrainClearance. This means meningitis-induced damage to dural and skull border compartments (the physiological clearance routes) may have different consequences than damage to the cervical lymphatic pathway (the CSF tracer route).
 
 *Meningitis-induced glymphatic failure.*
 Pneumococcal meningitis causes progressive retraction of astrocytic endfeet from the vascular endothelium and misplacement of AQP4 water channels, preventing CSF-interstitial fluid exchange @Pinas2022glymphatic. This leads to accumulation of bacterial toxins and metabolic waste in CSF compartments, with downstream microglial activation, brain damage, and memory impairment. The authors proposed glymphatic dysfunction as “a new pathomechanism in pneumococcal meningitis” explaining long-term neurological sequelae.
