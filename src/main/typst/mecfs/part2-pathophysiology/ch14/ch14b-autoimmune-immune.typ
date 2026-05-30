@@ -137,7 +137,7 @@ The causal link between circulating IgG and neurological symptoms has been estab
 
 This convergence — four independent labs, two disease contexts (fibromyalgia and long COVID), peer-reviewed publication in top-tier journals — establishes IgG pathogenicity with high confidence. The findings provide indirect support for the GPCR autoantibody hypothesis in ME/CFS, since the same methodological principium (pathogenic circulating IgG) has been demonstrated in related post-viral conditions. The key gap is the absence of direct passive transfer experiments using ME/CFS patient-derived IgG, rather than fibromyalgia or long COVID IgG.
 
-Study: (synthesis across four passive transfer studies; certainty: 0.75, four independent groups, top-tier peer review, convergent behavioural + histological + proteomic evidence; but ME/CFS-specific passive transfer not yet performed).
+Study: (synthesis across four passive transfer studies; certainty: 0.65, four independent groups, top-tier peer review, convergent behavioural + histological + proteomic evidence; but declining from 0.75 after adversarial review because: zero studies used ME/CFS IgG, Germain 2025 null is a serious counterweight, CNS findings from Santos Guedes only; ME/CFS-specific passive transfer not yet performed).
 ] <ach:passive-transfer-four-groups>
 
 === Competing Hypotheses for Immunoadsorption Mechanism
