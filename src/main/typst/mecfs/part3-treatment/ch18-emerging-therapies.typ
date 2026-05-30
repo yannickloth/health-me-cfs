@@ -460,3 +460,5 @@ Engineered extracellular vesicles represent an emerging therapeutic delivery pla
 #speculation(title: [Exosomes + Mitochondrial Biogenesis Agents as Multi-Axis Combination Therapy])[
 *Certainty: 0.25.* ME/CFS involves both neuroinflammation and mitochondrial dysfunction. Combining exosome-delivered HSP70 (reducing neuroinflammation) with mitochondrial biogenesis enhancers (nicotinamide riboside, urolithin A) could address two pathophysiological axes simultaneously. HSP70 also supports mitochondrial protein import, suggesting mechanistic synergy beyond simple additivity. Entirely untested — no combination exosome + supplement study exists.
 ] <spec:exosome-mitochondrial-combo>
+
+#include "ch18-brain-clearance-drugs.typ"

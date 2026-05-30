@@ -2329,3 +2329,5 @@ Melatonin is produced by the pineal gland and by thymic epithelial cells, where 
 #speculation(title: [Omega-3 Fatty Acids Enhance Exosome Membrane Fluidity and Cargo Delivery])[
 *Certainty: 0.20.* Omega-3 fatty acids (DHA, EPA) incorporate into exosome lipid bilayers, increasing membrane fluidity and fusogenicity — potentially enhancing cargo release into target cells. Exosomes from omega-3-supplemented donors may deliver cargo more efficiently. Dietary omega-3 levels in ME/CFS patients are not characterised relative to exosome function.
 ] <spec:omega3-exosome-fluidity>
+
+#include "ch16-brain-clearance-supplements.typ"

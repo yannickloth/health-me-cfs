@@ -11923,24 +11923,46 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Limitations:*: Full author list and full methodological details not available from search; patient sample sizes not confirmed; IgG antigens not characterized in summary available.
     *Certainty:*: 0.60
 
-=== Santos Guedes de Sa et al.\ 2024 --- Causal Link Between Autoantibodies and Neurological Symptoms in Long COVID (Preprint)
+=== Santos Guedes de Sa et al.\ 2026 --- Causal Link Between Autoantibodies and Neurological Symptoms in Long COVID
 
     @SantosGuedes2024autoantibodiesLC
 
-    *Full Citation:*: Santos Guedes de Sa K, Silva J, Bayarri-Olmos R, Brinda R, Constable RAR, Colom Diaz PA, Kwon D, Rodrigues G, Wenxue L, Baker C, Bhattacharjee B, Wood J, Tabacof L, Liu Y, Putrino D, Horvath TL, Iwasaki A. "A causal link between autoantibodies and neurological symptoms in long COVID." _medRxiv_. 2024. doi:10.1101/2024.06.18.24309100.
-    *DOI:*: #link("https://doi.org/10.1101/2024.06.18.24309100")[10.1101/2024.06.18.24309100]
-    *PMID:*: 38947091
-    *Study Design:*: Preprint (not peer-reviewed). Cross-sectional autoantibody profiling + passive transfer. n=55 LC (high neurological symptom burden) + n=42 convalescent + n=39 healthy controls; MY-LC cohort (Mount Sinai--Yale). 21,000-protein array; mass spectrometry confirmation; passive transfer into mice.
+    *Full Citation:*: Santos Guedes de Sa K, Silva J, Bayarri-Olmos R, Brinda R, Constable RAR, Colom Diaz PA, Kwon D, Rodrigues G, Wenxue L, Baker C, Bhattacharjee B, Wood J, Tabacof L, Liu Y, Putrino D, Horvath TL, Iwasaki A. "A causal link between autoantibodies and neurological symptoms in long COVID." _Cell_. 2026;189(11):3214-3235.e37. doi:10.1016/j.cell.2026.04.044.
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2026.04.044")[10.1016/j.cell.2026.04.044]
+    *Study Design:*: Landmark peer-reviewed Cell paper. Cross-sectional autoantibody profiling + passive transfer. n=55 LC (high neurological symptom burden) + n=42 convalescent + n=39 healthy controls; MY-LC cohort (Mount Sinai--Yale). >21,000 human protein array; mass spectrometry confirmation; passive IgG transfer into mice (n=10 donors → 100 mice).
     *Key Findings:*:
-        - LC IgG reactive against nervous system proteins; cross-reacts with sciatic nerve, spinal cord, meninges
-        - Proteomics confirmed MED20 and USP5 as top autoantigen targets
-        - Passive transfer: pain (thermal), balance/coordination loss, muscle weakness mirroring donor symptoms
+        - Acute SARS-CoV-2 infection triggers de novo production of diverse, functional autoantibodies that remain elevated in long COVID
+        - LC IgG reactive against >70 nervous system proteins; cross-reacts with sciatic nerve, spinal cord, meninges
+        - Proteomics confirmed MED20 (chromatin remodeling) and USP5 (deubiquitinating enzyme) as top autoantigen targets
+        - Passive transfer: fatigue-like behavior, balance/coordination loss, thermal hyperalgesia, muscle weakness mirroring donor symptoms
         - 85% of pain-phenotype mice received IgG from pain-reporting LC patients (symptom-symptom correlation)
         - IgG crossed blood-brain barrier (5% at day 5 post-injection)
         - Reduced intraepidermal nerve fibers consistent with small fiber neuropathy
-    *Conclusion:*: Broad nervous system autoantibody profile in LC correlates with neurological symptom heterogeneity. IgG pathogenicity established by passive transfer. Complement to Mignolet 2026 (which focused on DRG/pain) by adding CNS reactivity and balance/coordination phenotypes.
-    *Limitations:*: Preprint: not peer-reviewed. Patient cohort predominantly female. IgG-BBB crossing at only 5% may be insufficient to explain CNS symptoms. MED20/USP5 targets require independent validation. Cognitive outcomes not assessed separately from motor coordination.
-    *Certainty:*: 0.50
+        - Patient subgroups identified based on neurocognitive vs other symptom profiles
+        - Autoantibodies persisted long-term (>1 year post-infection)
+        - Abnormal neuronal activation in brain regions for pain, fatigue, memory, emotional regulation
+        - Three independent groups reported similar findings
+    *Conclusion:*: Broad nervous system autoantibody profile in LC correlates with neurological symptom heterogeneity. IgG pathogenicity established by passive transfer. Independent replication by Chen et al. 2026 (Cell Reports Medicine) strengthens causal claim. Provides mechanistic bridge to ME/CFS: autoantibody-driven subset with neurological symptoms.
+    *Limitations:*: Patient cohort predominantly female. IgG-BBB crossing at only 5% may be insufficient to explain CNS symptoms; alternate mechanisms possible. MED20/USP5 targets require independent validation. Cognitive outcomes not assessed separately from motor coordination. Translatability to non-viral ME/CFS not established.
+    *Certainty:*: 0.80 (upgraded from 0.55 preprint; Cell peer review + independent replication = high confidence)
+
+=== Wilhelm et al.\ 2025 --- Autoantibodies in Long COVID: A Systematic Review
+
+    @Wilhelm2025AutoantibodySysRev
+
+    *Full Citation:*: Wilhelm F, Cadamuro J, Mink S. "Autoantibodies in long COVID: a systematic review." _The Lancet Infectious Diseases_. 2025;S1473-3099(25)00411-6. doi:10.1016/S1473-3099(25)00411-6.
+    *DOI:*: #link("https://doi.org/10.1016/S1473-3099(25)00411-6")[10.1016/S1473-3099(25)00411-6]
+    *PMID:*: 40934937
+    *Study Design:*: Systematic review of PubMed/MEDLINE (Jan 1, 2020 – June 10, 2025). 44 studies with n=7571 total participants (n=3372 long COVID). Independent quality assessment by 2 researchers.
+    *Key Findings:*:
+        - 31/44 studies (71%) reported association between autoantibodies and long COVID
+        - Substantial heterogeneity in study design, timing, definitions
+        - Key autoantibody types: antinuclear antibodies (ANA), G protein-coupled receptor (GPCR) autoantibodies, chemokine-targeting autoantibodies
+        - Potential biomarkers for diagnosis, prognosis, severity assessment
+        - Larger studies needed to confirm diagnostic/prognostic utility
+    *Conclusion:*: Majority of evidence supports autoantibody involvement in long COVID. Provides comprehensive synthesis of field to date. Identifies most promising biomarker candidates. Highlights heterogeneity as challenge.
+    *Limitations:*: Review only (no primary data). Substantial methodological heterogeneity limits meta-analysis. Does not assess causality (observational studies included). Publication bias possible.
+    *Certainty:*: 0.75 (top-tier journal systematic review + large pooled sample + independent quality assessment)
 
 === McAlpine et al.\ 2024 --- Case-Control Study of Small Fiber Neuropathy After COVID-19
 

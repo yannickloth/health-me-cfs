@@ -2571,3 +2571,5 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 
 *Limitations.* No ME/CFS trials. Individual variation in PEM threshold. Requires patient education on PEM recognition and tracking. Progression may be very slow (months to years). Risk of PEM if progression not conservative enough.
 ]
+
+#include "ch17-brain-clearance-lifestyle.typ"
