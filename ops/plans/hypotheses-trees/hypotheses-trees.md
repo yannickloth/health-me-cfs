@@ -206,6 +206,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | methylprednisolone-long-covid | [subtrees/methylprednisolone-long-covid.md](subtrees/methylprednisolone-long-covid.md) | 2026-05-09 | 30 | 8 | 🔵 in progress |
 | methylation-loss-consolidation | [subtrees/methylation-loss-consolidation.md](subtrees/methylation-loss-consolidation.md) | 2026-05-24 | 24 | 0 | ⬜ pending |
 | corticosteroid-mechanisms-postviral | [subtrees/corticosteroid-mechanisms-postviral.md](subtrees/corticosteroid-mechanisms-postviral.md) | 2026-05-14 | 36 | 9 | 🔵 in progress |
+| lc-autoantibodies-cell2026 | [subtrees/lc-autoantibodies-cell2026.md](subtrees/lc-autoantibodies-cell2026.md) | 2026-05-30 | 28 | 3 | ✅ done |
 
 ---
 

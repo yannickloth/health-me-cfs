@@ -140,6 +140,8 @@ This convergence — four independent labs, two disease contexts (fibromyalgia a
 Study: (synthesis across four passive transfer studies; certainty: 0.75, four independent groups, top-tier peer review, convergent behavioural + histological + proteomic evidence; but ME/CFS-specific passive transfer not yet performed).
 ] <ach:passive-transfer-four-groups>
 
+=== Competing Hypotheses for Immunoadsorption Mechanism
+
 The Anft et al. (2025) discordance—autoantibodies eliminated but symptoms unchanged—combined with the BC007 Phase II failure and Germain 2025 comprehensive null, demands consideration of alternative mechanisms by which immunoadsorption might produce the 70% open-label response rate observed at Charité.
 
 #speculation(title: [Bystander Clearance: IA Works by Removing Non-Autoantibody IgG])[

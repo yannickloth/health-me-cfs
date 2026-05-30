@@ -813,7 +813,7 @@ While correlational and early therapeutic evidence supports a role for GPCR auto
 ==== Passive Transfer Evidence: IgG Pathogenicity Established in Animal Models
 <sec:passive-transfer-igg>
 
-The causal question—do autoantibodies actually cause symptoms, or are they bystander products of immune dysregulation?—has been partially answered by passive transfer experiments in three independent research groups.
+The causal question—do autoantibodies actually cause symptoms, or are they bystander products of immune dysregulation?—has been partially answered by passive transfer experiments in four independent research groups.
 
 #achievement(title: [IgG Passive Transfer Reproduces Symptomatology: Four Independent Groups])[
 Four independent groups (2021--2026) have demonstrated that purified IgG from patients with fibromyalgia or long COVID reproduces symptomatology when transferred to mice, establishing that circulating IgG is sufficient to cause multiple symptom domains:
@@ -829,7 +829,7 @@ Study: (four independent passive transfer studies, 2021--2026, three post-viral 
 ] <ach:passive-transfer-pain>
 
 #hypothesis(title: [Peripheral IgG--DRG Axis: Pain Without Neuroinflammation])[
-The passive transfer triad supports a peripheral mechanism for IgG-mediated pain: circulating IgG accesses dorsal root ganglia, binds nociceptive and proprioceptive neuron somata, and sensitises peripheral afferents without requiring central neuroinflammation or gliosis.
+The passive transfer studies support a peripheral mechanism for IgG-mediated pain: circulating IgG accesses dorsal root ganglia, binds nociceptive and proprioceptive neuron somata, and sensitises peripheral afferents without requiring central neuroinflammation or gliosis.
 
 This model provides a mechanistic account of pain hypersensitivity in long COVID and potentially ME/CFS that is:
 
@@ -844,9 +844,9 @@ The dissociation between pain transfer (consistent across all four studies) and 
 
 *Treatment implication:* If pain is IgG-mediated via DRG targeting, therapies removing or neutralising IgG (immunoadsorption, IVIG, plasmapheresis) should preferentially benefit pain-predominant ME/CFS patients. Single-course apheresis may not suffice given 2-year IgG persistence (Chen 2026).
 
-*Limitation:* Primary antibody targets in DRG remain uncharacterized in all three studies. The Germain 2025 null finding (n=172; no autoantibody signal on 7,542-antigen REAP+Luminex panel)  may indicate that DRG-binding IgG targets conformational or intracellular epitopes not captured by standard antigen arrays. Subgroup heterogeneity is expected: not all ME/CFS patients necessarily carry DRG-binding IgG.
+*Limitation:* Primary antibody targets in DRG remain uncharacterized in all four studies. The Germain 2025 null finding (n=172; no autoantibody signal on 7,542-antigen REAP+Luminex panel)  may indicate that DRG-binding IgG targets conformational or intracellular epitopes not captured by standard antigen arrays. Subgroup heterogeneity is expected: not all ME/CFS patients necessarily carry DRG-binding IgG.
 
-Study: (mechanistic synthesis across three passive transfer studies; certainty: 0.45, peripheral targeting established, antigen identity unknown, ME/CFS-specific evidence indirect).
+Study: (mechanistic synthesis across four passive transfer studies; certainty: 0.55, peripheral targeting established by four groups plus CNS targeting in Santos Guedes 2026; antigen identity partially known [MED20, USP5, GPCRs]; ME/CFS-specific evidence indirect).
 ] <hyp:drg-igg-pain-axis>
 
 #hypothesis(title: [DRG-IgG as Afferent-Gain Amplifier: A Peripheral Mechanism for PEM])[
@@ -931,6 +931,46 @@ Relevant open questions:
 These questions are resolvable by stratified clinical trials in IgG-DRG-positive ME/CFS patients. All FcRn antagonists currently approved for neuromuscular autoimmune disease carry infection risk and require immunological monitoring; they are not appropriate outside trial settings.
 ] <q:fcrn-antagonists-mecfs>
 
+#speculation(title: [FcRn-Mediated IgG Recycling Amplifies CNS Autoantibody Exposure Beyond Initial 5% BBB Crossing])[
+Santos Guedes 2026 @SantosGuedes2024autoantibodiesLC demonstrated that 5% of systemically injected patient IgG crossed the blood-brain barrier by day 5 post-injection — sufficient to produce balance/coordination loss and fatigue-like behaviour. This single-pass estimate may substantially underestimate cumulative CNS exposure. The neonatal Fc receptor (FcRn) is expressed on brain endothelial cells and actively recycles IgG across the BBB, protecting it from lysosomal degradation and shuttling it bidirectionally across the endothelium. If pathogenic IgG enters the CNS at 5% per pass but undergoes FcRn-mediated recycling at each transit, the steady-state CNS concentration could be 3--10× higher than a single-pass estimate would predict, progressively accumulating over months to reach functionally significant concentrations. This mechanism provides a testable explanation for why low single-pass BBB permeability is nonetheless sufficient to produce CNS symptoms: FcRn amplifies the effective dose.
+
+*Testable prediction:* FcRn blockade (efgartigimod or rozanolixizumab) should reduce CNS IgG levels by >70% in passive-transfer mice beyond what serum IgG reduction alone would predict, since blockade collapses the recycling amplification loop. CSF:serum IgG ratio should drop disproportionately to total IgG reduction.
+
+*Treatment implication:* FcRn antagonists may provide CNS protection beyond simple IgG reduction — by dismantling the recycling amplifier, they could protect the CNS compartment even when serum IgG is only partially reduced. This distinguishes FcRn blockade from immunoadsorption, which only transiently lowers serum IgG without altering CNS recycling kinetics.
+
+*Limitation:* FcRn expression and kinetics at the human BBB are poorly characterised; recycling amplification has been demonstrated primarily at the blood-placenta and gut barriers. CNS FcRn may serve protective functions (e.g., clearing immune complexes from the brain); blocking it could have unanticipated consequences. The concept is supported by FcRn blockade efficacy in CNS-autoantibody diseases (myasthenia gravis, NMDAR encephalitis) but CNS-specific kinetic data are absent.
+
+Study: (mechanistic inference from Santos Guedes 2026 BBB crossing data + FcRn biology; certainty: 0.45, FcRn amplification plausible but CNS-specific kinetics untested; speculative).
+] <spec:fcrn-bbb-amplification>
+
+#hypothesis(title: [MED20 Autoantibodies Disrupt Neuronal Transcriptional Programs Producing Central Fatigue])[
+Santos Guedes 2026 @SantosGuedes2024autoantibodiesLC identified MED20 — a subunit of the Mediator complex that links transcription factors to RNA polymerase II — as one of the most highly ranked CNS autoantigens, confirmed by proteomics. MED20 is a nuclear protein not normally exposed on the neuronal surface, suggesting that autoantibodies may access it via neuronal injury, BBB breakdown, or aberrant surface expression during stress. If anti-MED20 IgG enters neurons (via FcRn-mediated transcytosis or injury-induced entry), it could physically disrupt the Mediator complex, impairing transcription of energy-metabolism and synaptic plasticity genes — producing a transcriptional "energy crisis" manifesting as the central fatigue observed in passive-transfer mice.
+
+This hypothesis links autoantibody CNS targeting directly to the transcriptional dysregulation documented in ME/CFS peripheral blood cells (PBMCs) and provides a molecular mechanism for the fatigue-like behaviour observed in Santos Guedes 2026 passive transfer — distinct from the peripheral DRG-pain mechanism demonstrated by Mignolet 2026 and Goebel 2021.
+
+*Testable prediction:* Anti-MED20 IgG applied to iPSC-derived cortical neurons should reduce transcription of PGC-1α-regulated mitochondrial biogenesis genes and synaptic plasticity genes (BDNF, Arc) within 24 hours. MED20-positive LC/ME/CFS patients should show distinct transcriptional signatures in PBMCs compared to MED20-negative patients.
+
+*Treatment implication:* MED20 is a novel therapeutic target — unlike GPCR antibodies (extracellular, receptor-blocking), MED20 antibodies require intracellular access for pathogenicity. This suggests two therapeutic strategies: (a) prevent IgG entry into neurons (FcRn blockade, BBB stabilisation), or (b) remove MED20-specific IgG via antigen-specific immunoadsorption columns functionalised with recombinant MED20.
+
+*Limitation:* MED20 is a nuclear protein; the mechanism by which circulating IgG accesses intranuclear targets is non-canonical and unestablished. Neuronal uptake of IgG has been documented in some models but is not a well-characterised pathway. The finding rests on proteomic confirmation of MED20 binding, not functional demonstration of transcriptional disruption. Single target identification; MED20 may be one of many convergent transcriptional disruptors.
+
+Study: (mechanistic inference from Santos Guedes 2026 proteomics + Mediator complex biology; certainty: 0.45, target validated by proteomics, functional disruption untested; speculative).
+] <hyp:med20-transcriptional-disruption>
+
+#speculation(title: [Symptom-Symptom Autoantibody Correspondence Defines Clinical Endotypes])[
+The 85% symptom-symptom correspondence in Santos Guedes 2026 @SantosGuedes2024autoantibodiesLC — where pain-phenotype mice predominantly received IgG from pain-reporting donors — suggests that autoantibody profiles are not random but correspond to distinct clinical phenotypes. Rather than a single pathogenic autoantibody, each patient carries a unique "autoantibody fingerprint" targeting complementary CNS and peripheral circuits: pain-dominant patients may have IgG predominantly targeting DRG nociceptors (low MED20, high DRG-binding IgG), while fatigue/balance-dominant patients carry IgG targeting CNS proteins (high MED20/USP5, low DRG-binding IgG), and mixed-phenotype patients carry both.
+
+This model explains the clinical heterogeneity of post-viral syndromes without invoking separate disease entities: the same mechanism (pathogenic IgG) produces different phenotypes depending on which tissue compartment and which antigen targets are involved. If validated, unsupervised clustering of >70 CNS/PNS autoantigen reactivities should identify 3--5 distinct endotypes that map to clinical clusters with at least 75% accuracy.
+
+*Testable prediction:* In an independent validation cohort (n≥100 LC patients), autoantibody reactivity profiles cluster into at least three groups (DRG-dominant pain, CNS-dominant fatigue/balance, and mixed) that predict phenotype with >75% accuracy. Each cluster shows distinct treatment response patterns: DRG-dominant responds to peripheral IgG reduction; CNS-dominant requires CNS-penetrant therapies.
+
+*Treatment implication:* Autoantibody endotyping could guide therapeutic selection — IgG removal alone (immunoadsorption) for DRG-pain patients; FcRn blockade or antigen-specific immunoadsorption for CNS-fatigue patients; combination for mixed phenotypes. This moves beyond binary "autoantibody-positive" stratification to precision medicine.
+
+*Limitation:* Endotypes are inferred from 85% pain correlation in one study; multi-phenotype clustering not yet demonstrated. Antigen targets for most of the >70 CNS/PNS autoantibodies remain unvalidated beyond MED20 and USP5. Small subgroups may be unstable in clustering analyses. Requires large independent cohorts to validate.
+
+Study: (mechanistic inference from symptom-symptom correspondence + endotype clustering hypothesis; certainty: 0.50, 85% correspondence robust, clustering prediction untested; partially supported).
+] <spec:autoantibody-endotype-clusters>
+
 #open-question(title: [DRG-IgG Immunohistochemistry as a Stratification Biomarker])[
 A practical near-term research priority is to develop and validate a DRG-IgG immunohistochemistry (IHC) assay: patient serum or IgG fraction applied to fixed rodent DRG sections, stained with fluorescent anti-human IgG, and scored for binding intensity, spatial pattern (neuronal soma vs satellite glial cells), and co-localization with neuronal markers (CGRP for peptidergic C-fibers, IB4 for non-peptidergic C-fibers, NF200 for Aδ fibers).
 
@@ -940,7 +980,7 @@ Such an assay, if standardized, could:
     - Serve as a pharmacodynamic biomarker: change in IgG-DRG intensity before/after immunoadsorption or FcRn antagonism
     - Provide retrospective stratification of existing trial datasets (Stein 2025, Fluge 2025, EXTINCT)
 
-The passive transfer triad (Goebel 2021, Mignolet 2026, Chen 2026) already uses this methodology; translation to a clinical biomarker assay requires standardization and validation in a prospective cohort.
+The passive transfer studies (Goebel 2021, Mignolet 2026, Chen 2026) already use this methodology; translation to a clinical biomarker assay requires standardization and validation in a prospective cohort.
 ] <q:drg-igg-biomarker>
 
 *Other Receptor Autoantibodies*

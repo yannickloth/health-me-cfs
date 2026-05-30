@@ -222,7 +222,7 @@ This mechanism explains why cognitive PEM can occur independently of muscular PE
 
     - (a) Cognitive PEM severity should correlate with objective sleep quality (delta power) from the preceding night
     - (b) Plasma NfL or p-tau should show transient increases after cognitive exertion in ME/CFS patients but not controls
-    - (c) Interventions improving SWS quality should selectively improve cognitive PEM recovery more than muscular PEM recovery
+    - (c) Interventions improving SWS quality should improve cognitive PEM recovery (processing speed at 48h post-exertion, greater than 50 percent return to baseline) more than muscular PEM recovery (handgrip endurance at 48h post-exertion, less than 20 percent return to baseline). A null result — equivalent or reversed cognitive-muscular recovery — refutes selective cognitive benefit.
 ] <spec:ch15-glymphatic-pem-ratchet>
 
 #speculation(title: [Orexin--Autonomic--Vascular Convergence: Dual-Route Glymphatic Impairment])[
@@ -231,7 +231,7 @@ This mechanism explains why cognitive PEM can occur independently of muscular PE
 *Testable predictions:*
 
     - (a) ME/CFS patients with documented OI (POTS/NMH) should show worse DTI-ALPS glymphatic index than ME/CFS patients without OI, independent of sleep quality measures
-    - (b) The subgroup with both low CSF orexin-A and severe autonomic dysfunction should have the most profound glymphatic impairment of any ME/CFS stratum
+    - (b) The subgroup with both low CSF orexin-A (less than 200 pg/mL) and severe autonomic dysfunction (COMPASS-31 greater than 40) should show DTI-ALPS index less than 0.25 — lower than any subgroup with only one of these features (DTI-ALPS 0.25--0.35) and lower than ME/CFS patients with neither feature (DTI-ALPS greater than 0.30). A null result — no significant DTI-ALPS difference between the orexin-low+OI subgroup and the orexin-normal+no-OI subgroup — refutes the combined predictor claim.
 ] <spec:ch15-orexin-autonomic-vascular>
 
 #speculation(title: [Chronobiological Phase Separation: Internal Desynchrony Between Orexin and Cortisol Rhythms])[
