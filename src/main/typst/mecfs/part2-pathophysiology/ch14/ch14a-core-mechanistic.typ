@@ -141,7 +141,7 @@ This hypothesis provides explanations for:
 
 === Testable Predictions
 
-    - Advanced MRI techniques (e.g., diffusion tensor imaging along perivascular spaces) should reveal altered glymphatic flow in ME/CFS patients
+    - Advanced MRI techniques --- diffusion tensor imaging along perivascular spaces (DTI-ALPS) and MR-AIV velocimetry (Toscano et al., 2026, Section @sec:ch15-dual-speed) --- should reveal altered glymphatic flow in ME/CFS patients. Note: Chayama et al. (2026) demonstrated that CSF-injected tracer methods (including DTI-ALPS proxy signal) may not capture the actual clearance routes used by brain-derived proteins, limiting interpretability of standard glymphatic imaging @Chayama2026BrainClearance @Toscano2026MRAIV
     - CSF biomarkers of waste accumulation (amyloid-$beta$, tau, neurofilament light) might be elevated
     - Sleep interventions specifically targeting slow-wave sleep enhancement might provide benefit
     - Treatments that improve CSF dynamics (addressing craniocervical issues, improving cardiovascular function) might help subsets of patients
