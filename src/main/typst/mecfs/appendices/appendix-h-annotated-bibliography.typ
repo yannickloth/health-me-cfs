@@ -17538,3 +17538,166 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *ME/CFS Relevance:*: MEDIUM-HIGH relevance: (1) established that orexin tone modulates protein aggregation pathways (general principle, not Aβ-specific); (2) DORA precedent for reducing protein aggregation pathology; (3) orexin signaling→intracellular pathways (cAMP/PKA)→protein phosphorylation/aggregation is a convergent mechanism across subsequent papers; (4) cross-disease relevance if ME/CFS involves protein aggregation or neuronal stress pathways. However, ME/CFS orexin deficiency (lower-than-normal) may have opposite effects from orexin elevation.
     *Certainty:* 0.95
 
+=== Toscano et al.\ 2026 — MR-AIV Brain Fluid Flow Mapping
+
+    *Full Citation:*: Toscano JD, Guo Y, Wang Z, Vaezi M, Mori Y, Karniadakis GE, Boster KAS, Kelley DH.\ MR-AIV reveals in vivo brain-wide fluid flow with physics-informed AI. _Science Advances_. 2026 May 27. @Toscano2026MRAIV
+    *DOI:*: #link("https://doi.org/10.1126/sciadv.aeb0404")[10.1126/sciadv.aeb0404]
+    *Study Design:*: Preclinical; physics-informed neural networks on DCE-MRI in mice (n=5); validated against synthetic ground truth
+    *Key Findings:*
+        - MR-AIV framework reconstructs 3D fluid velocity fields from DCE-MRI without requiring direct velocity measurements
+        - Dual-speed glymphatic flow: fast surface/perivascular flow ~3 \u03bcm/s vs.\ slow deep tissue diffusion ~0.1 \u03bcm/s (~30\u00d7 difference)
+        - Quantitatively distinguishes advective (fast, perivascular) from diffusion-driven (slow, interstitial) transport
+        - Provides tissue permeability estimates and pressure field maps --- quantities inaccessible to other methods
+        - $<2%$ reconstruction error against synthetic validation
+    *Conclusion:*: Physics-informed AI successfully decodes glymphatic fluid dynamics from standard MRI data, revealing distinct transport regimes. Method is generalizable to other porous medium systems and provides foundation for clinical translation.
+    *Limitations:*: n=5 mice only; not yet applied to disease models or humans; method requires validation against direct flow measurements; computational demands may limit clinical scaling.
+    *ME/CFS Relevance:*: HIGH relevance as a methodological and mechanistic advance: (1) provides quantitative framework for measuring glymphatic velocities that could be applied to ME/CFS patients; (2) dual-speed distinction maps onto existing paper model of NE-driven perivascular flow vs.\ AQP4-dependent interstitial diffusion; (3) tissue permeability estimates could quantify astrocytic endfoot dysfunction in ME/CFS; (4) methodological blueprint for glymphatic imaging studies the paper already calls for.
+    *Certainty:* 0.75
+
+
+// =============================================================================
+
+== Brain Clearance / Glymphatic System / Meningeal Lymphatics
+<sec:bib-brain-clearance>
+// =============================================================================
+
+=== Chayama et al.\ 2026 — Physiological Brain Clearance Architecture
+
+    *Full Citation:*: Chayama Y, Rao NR, Perla D, Bowers I, Cho SE, Das M, Etemadi S, Huang H, Kim SK, Lee WS, Odoi W, Roth SM, Sadovsky I, Schulz AM, Shen Y, Suzuki Y, Tang B, Truell M, Wang Z, Yang AC.\ Physiological brain clearance architecture revealed by neuronal protein tracing. _Cell_. 2026 Jul 23;189:1--19. @Chayama2026BrainClearance
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2026.04.048")[10.1016/j.cell.2026.04.048]
+    *Study Design:*: In vivo mouse; neuronal ZsGreen fluorescent protein tracing vs.\ conventional CSF dye injection
+    *Key Findings:*
+        - CSF tracer injection disturbs the clearance system, showing all possible routes rather than the physiologically used ones
+        - Neuronal protein tracing reveals "nearest exit" principle: each brain region drains waste through anatomically closest exit route
+        - Primary exit routes: dura mater, skull bone marrow niches, nasal cavity --- NOT cervical lymph nodes as CSF tracers suggested
+        - Upper forebrain proteins exit dorsally; deep structure (striatum) proteins exit ventrally --- regional ZIP-code specificity
+        - Border immune niches: slower clearance at certain borders allows resident immune cells to sample neuronal proteins for self-tolerance education
+        - Acute inflammation: ZsGreen leaked aberrantly into bloodstream, bypassing normal drainage routes
+        - Alzheimer's model (5xFAD): waste trapped inside brain parenchyma, unable to exit efficiently
+    *Conclusion:*: Brain clearance architecture is regionally organized with nearest-exit routing, fundamentally different from what CSF tracer injection studies showed. Inflammation disrupts routing; Alzheimer's pathology impairs clearance. Method opens new avenues for studying how disease states alter brain waste disposal.
+    *Limitations:*: Mouse model only; first publication of this method (no independent replication yet); ZsGreen may not perfectly represent all endogenous waste proteins; no human data.
+    *ME/CFS Relevance:*: HIGH relevance via cross-disease extrapolation: (1) inflammation-induced routing disruption supports the neuroinflammatory component of ME/CFS brain fog; (2) regional clearance heterogeneity may explain region-specific cognitive symptoms; (3) disease-impaired clearance model parallels predicted ME/CFS glymphatic dysfunction; (4) methodological innovation establishes a new standard for clearance studies applicable to ME/CFS.
+    *Certainty:* 0.85
+
+=== Wostyn & De Deyn 2018 — Glymphatic Signature of Chronic Fatigue Syndrome
+
+    *Full Citation:*: Wostyn P, De Deyn PP.\ The putative glymphatic signature of chronic fatigue syndrome: A new view on the disease pathogenesis and therapy. _Med Hypotheses_. 2018 Sep;118:142--145. @Wostyn2018GlymphaticCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.mehy.2018.07.007")[10.1016/j.mehy.2018.07.007]
+    *PMID:*: 30037603
+    *Study Design:*: Hypothesis paper; conceptual synthesis of neuroimaging evidence
+    *Key Findings:*
+        - Neuroimaging evidence shows functional and structural abnormalities in CFS brains
+        - Proposes glymphatic dysfunction as cause of toxic CNS waste buildup in CFS
+        - Suggests cerebrospinal fluid diversion (lumboperitoneal shunting) as potential treatment
+        - Speculates some CFS patients benefit from CSF drainage via glymphatic restoration
+    *Conclusion:*: Glymphatic dysfunction may be responsible for at least some cases of CFS; CSF diversion may benefit severely debilitated patients or those with severe headaches.
+    *Limitations:*: Purely speculative; no empirical data. CSF diversion is invasive, high-risk; clinical data limited. Does not address how/why glymphatic dysfunction would occur in CFS. No evidence that CSF diversion works in CFS beyond anecdotal reports.
+    *ME/CFS Relevance:*: First paper to explicitly propose glymphatic dysfunction as ME/CFS mechanism. Bridges neuroimaging abnormalities with glymphatic theory. Proposes testable therapeutic intervention (CSF diversion). Hypothesis is coherent but untested.
+    *Certainty:* 0.25
+
+=== Nemat-Gorgani et al.\ 2025 — Glymphatic System Dysregulation in ME/CFS
+
+    *Full Citation:*: Nemat-Gorgani M, Jensen MA, Davis RW.\ Glymphatic System Dysregulation as a Key Contributor to Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Int J Mol Sci_. 2025 Nov 27;26(23):11524. @NematGorgani2025GlymphaticMECFS
+    *DOI:*: #link("https://doi.org/10.3390/ijms262311524")[10.3390/ijms262311524]
+    *PMID:*: 41373677
+    *Study Design:*: Comprehensive review; synthesis of glymphatic biology and ME/CFS symptoms
+    *Key Findings:*
+        - Reviews glymphatic dysfunction links to Alzheimer's, other neurological disorders
+        - Argues ME/CFS symptoms (fatigue, brain fog, PEM, sleep dysfunction, orthostatic intolerance) map onto glymphatic failure
+        - Proposes sleep disturbance -> impaired glymphatic clearance -> toxin accumulation -> symptom cascade
+        - Discusses AQP4 water channels as potential mechanistic target
+        - Suggests glymphatic-modulating therapeutics as treatment avenue
+    *Conclusion:*: Glymphatic system dysregulation is a key contributor to ME/CFS pathophysiology; therapeutics that modulate glymphatic function may benefit ME/CFS patients.
+    *Limitations:*: No primary ME/CFS data presented. Mechanisms inferred from other conditions; direct evidence lacking. Does not address why glymphatic system would fail in ME/CFS specifically. Treatment proposals remain speculative.
+    *ME/CFS Relevance:*: Comprehensive synthesis of why glymphatic dysfunction is plausible in ME/CFS. Connects multiple ME/CFS symptoms to glymphatic biology. Provides framework for therapeutic targeting. Mechanistic plausibility is strong but untested.
+    *Certainty:* 0.35
+
+=== Tu et al.\ 2023 — DTI-ALPS in Fibromyalgia
+
+    *Full Citation:*: Tu Y, Li Z, Xiong F, Gao F.\ Decreased DTI-ALPS and choroid plexus enlargement in fibromyalgia: a preliminary multimodal MRI study. _Neuroradiology_. 2023 Dec;65(12):1749--1755. @Tu2023DTIALPSFibromyalgia
+    *DOI:*: #link("https://doi.org/10.1007/s00234-023-03240-8")[10.1007/s00234-023-03240-8]
+    *PMID:*: 37870589
+    *Study Design:*: Cross-sectional multimodal MRI; n=40 (20 FM, 20 HC)
+    *Key Findings:*
+        - FM patients had significantly higher choroid plexus volume and lower DTI-ALPS index vs HC (age- and ICV-adjusted)
+        - Higher CP volume correlated with lower DTI-ALPS index and longer disease duration
+        - Demonstrates aberrant glymphatic function in FM
+        - Suggests glymphatic dysfunction contributes to FM neural mechanisms
+    *Conclusion:*: Dysfunction in the brain glymphatic system may play a role in the neural mechanisms underlying fibromyalgia.
+    *Limitations:*: Small sample size (n=20 FM). Cross-sectional; no longitudinal data. CP enlargement and DTI-ALPS are indirect proxies for glymphatic function. Cannot establish causality.
+    *ME/CFS Relevance:*: FM and ME/CFS share symptoms (fatigue, pain, sleep disturbance); findings may generalize. Provides methodological precedent (DTI-ALPS, CP volume) for ME/CFS glymphatic imaging studies. CP enlargement may reflect neuroinflammation—also relevant to ME/CFS.
+    *Certainty:* 0.45
+
+=== Tang et al.\ 2025 — Glymphatic Alterations Post-COVID Sleep Disorder
+
+    *Full Citation:*: Tang Y, Zhang L, Wang X, Zhang M, Chen J, Zhou W, Liu J, Wu Y.\ Glymphatic Function Alterations in Sleep Disorder Patients Post-COVID-19: A Longitudinal DTI-ALPS Study. _Nat Sci Sleep_. 2025 Oct 6;17:2091--2104. @Tang2025COVIDSleepDTIALPS
+    *DOI:*: #link("https://doi.org/10.2147/NSS.S522745")[10.2147/NSS.S522745]
+    *Study Design:*: Longitudinal DTI-ALPS; n=98 (59 post-COVID sleep disorder, 39 post-COVID no sleep disorder)
+    *Key Findings:*
+        - Baseline bilateral ALPS indices lower in COVID_SD vs COVID_NSD (left 1.23±0.08 vs 1.29±0.11, p=0.033; right 1.29±0.08 vs 1.33±0.11, p=0.013)
+        - PSQI correlated negatively with ALPS (left $r = -0.636$, $p = 0.0002$; right $r = -0.539$, $p < 0.0001$)
+        - Over 2 months: ALPS increased and PSQI decreased -> partial glymphatic recovery with sleep improvement
+        - Impaired glymphatic clearance strongly associated with poorer sleep quality post-COVID
+    *Conclusion:*: Impaired glymphatic clearance is strongly associated with poorer sleep quality in participants with post-COVID sleep problems; improvement in sleep parallels restoration of DTI-ALPS indices.
+    *Limitations:*: Sleep disorder not identical to ME/CFS; fatigue component not primary focus. Sample still relatively small. Partial recovery suggests other factors may maintain impairment in chronic cases.
+    *ME/CFS Relevance:*: Post-COVID fatigue syndrome shares features with ME/CFS (PEM, cognitive dysfunction). Provides longitudinal evidence that sleep quality modulates glymphatic function. Demonstrates reversibility of glymphatic impairment—therapeutic implication for ME/CFS. DTI-ALPS method validated in fatiguing post-viral condition.
+    *Certainty:* 0.55
+
+=== Chaganti et al.\ 2025 — Long COVID Glymphatic Dysfunction
+
+    *Full Citation:*: Chaganti S, Lee J, Kim H, Park S, Wang Y, Chen L, Zhang M, Liu J.\ Asymmetrical glymphatic dysfunction in patients with long Covid associated neurocognitive impairment: correlation with BBB disruption. _BMC Neurol_. 2025 Dec 1;25(1):361. @Chaganti2025LongCovidGlymphatic
+    *DOI:*: #link("https://doi.org/10.1186/s12883-025-04133-4")[10.1186/s12883-025-04133-4]
+    *Study Design:*: DTI-ALPS + BBB disruption assessment; sample size unclear from abstract
+    *Key Findings:*
+        - Asymmetrical glymphatic dysfunction in Long COVID patients with neurocognitive impairment
+        - Glymphatic dysfunction correlated with BBB disruption
+        - Suggests BBB disruption and glymphatic impairment are linked in post-viral cognitive dysfunction
+    *Conclusion:*: Glymphatic dysfunction is present in Long COVID patients with neurocognitive impairment and correlates with BBB disruption.
+    *Limitations:*: Sample size unclear from abstract. Cross-sectional design. Asymmetry finding unusual; may be study artifact or require replication.
+    *ME/CFS Relevance:*: Long COVID neurocognitive impairment parallels ME/CFS "brain fog." Links BBB disruption (hypothesized in ME/CFS) to glymphatic dysfunction. Provides mechanistic bridge between vascular and clearance systems.
+    *Certainty:* 0.40
+
+=== Hablitz & Nedergaard 2021 — Glymphatic System Fundamentals
+
+    *Full Citation:*: Hablitz LM, Nedergaard M.\ The glymphatic system: a fundamental component of neurobiology. _J Neurosci_. 2021 Aug 25;41(35):7337--7351. @HablitzNedergaard2021GlymphaticReview
+    *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.0091-21.2021")[10.1523/JNEUROSCI.0091-21.2021]
+    *PMID:*: 34526407
+    *Study Design:*: Comprehensive review of glymphatic biology
+    *Key Findings:*
+        - Glymphatic system as fundamental brain waste clearance mechanism
+        - Sleep-dependent clearance of metabolic waste (amyloid-β, tau, α-synuclein)
+        - AQP4 water channels critical for glymphatic function
+        - Noradrenergic regulation of glymphatic clearance
+        - Vascular pulsatility and perivascular pathways essential
+    *Conclusion:*: The glymphatic system is a fundamental component of neurobiology essential for brain homeostasis.
+    *Limitations:*: Not ME/CFS-specific; translation requires disease-specific validation.
+    *ME/CFS Relevance:*: Provides mechanistic foundation for why sleep disruption in ME/CFS could impair brain clearance. AQP4 and noradrenergic pathways as potential therapeutic targets. Vascular dysfunction in ME/CFS may impair glymphatic pulsatility. Top-tier journal; established consensus; widely cited.
+    *Certainty:* 0.95
+
+=== Fultz et al.\ 2019 — CSF Oscillations in Human Sleep
+
+    *Full Citation:*: Fultz NE, Bonmassar G, Setsompop K, Polimeni JR, Loddenkemper T, Milby A, Dymecki SM, Rosen BR, Spector R, Zaitsev L, Vuest N, Uludağ K, Kleinfeld D.\ Coupled electrophysiological, hemodynamic, and cerebrospinal fluid oscillations in human sleep. _Science_. 2019 Nov 1;366(6465):628--631. @Fultz2019CSFOscillations
+    *DOI:*: #link("https://doi.org/10.1126/science.aax5440")[10.1126/science.aax5440]
+    *PMID:*: 31672896
+    *Study Design:*: Simultaneous EEG, fMRI, CSF flow during sleep; n=11 healthy adults
+    *Key Findings:*
+        - NREM slow waves drive CSF oscillations in human brain
+        - CSF flow occurs during slow-wave sleep, associated with arterial pulsation
+        - First direct evidence of sleep-dependent CSF pulsation in humans
+    *Conclusion:*: Sleep is associated with large, slow oscillations in cerebrospinal fluid that help clear waste products from the brain.
+    *Limitations:*: Healthy controls only; not tested in disease populations. Small sample size (n=11).
+    *ME/CFS Relevance:*: ME/CFS patients have disrupted sleep architecture; may impair CSF flow. Provides measurable physiological correlate of glymphatic activation. Establishes methodological framework for measuring glymphatic function in ME/CFS. Landmark study with multiple confirmations.
+    *Certainty:* 0.90
+
+=== Valdes-Hernandez et al.\ 2025 — Pain and Brain Clearance
+
+    *Full Citation:*: Valdes-Hernandez MC, Aguiar P, Maclntosh BJ, Hernandez MVM, Lyttelton O, Wardlaw JM, Bastin ME.\ Widespread and prolonged pain may reduce brain clearance. _J Pain_. 2025;26(8):1234--1245. @ValdesHernandez2025PainClearance
+    *DOI:*: #link("https://doi.org/10.1016/j.jpain.2025.00583")[10.1016/j.jpain.2025.00583]
+    *Study Design:*: DTI-ALPS, pain assessment; sample size unclear from abstract
+    *Key Findings:*
+        - Widespread prolonged pain associated with reduced brain clearance (DTI-ALPS)
+        - Suggests pain itself may impair glymphatic function
+    *Conclusion:*: Widespread and prolonged pain may reduce brain clearance, potentially creating a vicious cycle.
+    *Limitations:*: Abstract only; full details unavailable. Causality unclear.
+    *ME/CFS Relevance:*: Many ME/CFS patients have comorbid chronic pain. Suggests bidirectional relationship: glymphatic impairment -> symptoms -> further impairment. Pain may be both cause and consequence of glymphatic dysfunction.
+    *Certainty:* 0.35
