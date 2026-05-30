@@ -825,7 +825,7 @@ Four independent groups (2021--2026) have demonstrated that purified IgG from pa
 
 Effect was abolished by IgG depletion in all studies; Fc-fragment digestion (papain) further confirmed Fc-region-dependent effector function in Mignolet 2026 @Mignolet2026passiveTransferLC. These controls confirm that the immunoglobulin fraction is the active component. The target tissue across studies includes DRG (all four), with Santos Guedes additionally demonstrating CNS protein targeting (MED20, USP5) and BBB crossing (5%), expanding the anatomical scope beyond the peripheral compartment.
 
-Study: (four independent passive transfer studies, 2021--2026, three post-viral cohorts + one fibromyalgia; certainty: 0.75, partially replicated across four independent groups, peer-reviewed Cell publication, convergent behavioural + histological + proteomic evidence).
+Study: (four independent passive transfer studies, 2021--2026, three post-viral cohorts + one fibromyalgia; certainty: 0.65, convergent behavioural + histological + proteomic evidence, but declining to 0.65 from 0.75 after adversarial review because: (a) zero studies used ME/CFS IgG — all evidence is indirect via FM/LC extrapolation, (b) the Germain 2025 comprehensive autoantibody null in n=172 ME/CFS patients is a serious counterweight, (c) the four groups converge on peripheral DRG pain transfer but CNS findings (balance/fatigue, BBB crossing) come from only Santos Guedes 2026 and require independent replication. Downgraded 0.75→0.65.)
 ] <ach:passive-transfer-pain>
 
 #hypothesis(title: [Peripheral IgG--DRG Axis: Pain Without Neuroinflammation])[
@@ -954,7 +954,7 @@ This hypothesis links autoantibody CNS targeting directly to the transcriptional
 
 *Limitation:* MED20 is a nuclear protein; the mechanism by which circulating IgG accesses intranuclear targets is non-canonical and unestablished. Neuronal uptake of IgG has been documented in some models but is not a well-characterised pathway. The finding rests on proteomic confirmation of MED20 binding, not functional demonstration of transcriptional disruption. Single target identification; MED20 may be one of many convergent transcriptional disruptors.
 
-Study: (mechanistic inference from Santos Guedes 2026 proteomics + Mediator complex biology; certainty: 0.45, target validated by proteomics, functional disruption untested; speculative).
+Study: (mechanistic inference from Santos Guedes 2026 proteomics + Mediator complex biology; certainty: 0.30, downgraded from 0.45 after adversarial review because: MED20 is a nuclear protein requiring four-barrier intracellular access (BBB crossing, neuronal entry, cytoplasmic trafficking, nuclear entry) — each step unestablished. MED20 was identified by binding to a protein array, not by functional demonstration of transcriptional disruption. A parsimonious alternative: surface receptor binding in CNS circuits (already demonstrated by Santos Guedes' neuronal activation data) produces the observed effects without intracellular access. Surface-IgG vs nuclear-IgG pathogenicity must be distinguished experimentally before certainty can be raised.).
 ] <hyp:med20-transcriptional-disruption>
 
 #speculation(title: [Symptom-Symptom Autoantibody Correspondence Defines Clinical Endotypes])[
@@ -970,6 +970,10 @@ This model explains the clinical heterogeneity of post-viral syndromes without i
 
 Study: (mechanistic inference from symptom-symptom correspondence + endotype clustering hypothesis; certainty: 0.50, 85% correspondence robust, clustering prediction untested; partially supported).
 ] <spec:autoantibody-endotype-clusters>
+
+#limitation(title: [Clinical Actionability: Research-Stage, Not Clinical Practice])[
+*Certainty: n/a.* None of the IgG-targeted therapies discussed in this section — immunoadsorption, FcRn antagonists (efgartigimod, rozanolixizumab), IVIG, plasmapheresis, or antigen-specific immunoadsorption columns — are approved or clinically established for ME/CFS. FcRn antagonists are FDA-approved for myasthenia gravis and CIDP only; immunoadsorption is available only at a few research centres; antigen-specific columns functionalised with recombinant MED20 do not exist clinically. All treatment implications in this section are mechanistic hypotheses intended to guide trial design, not clinical recommendations. The IA-PACS-CFS sham-controlled RCT (n=65) found no statistically significant difference between immunoadsorption and sham on the Chalder Fatigue Scale @Pressler2024IAPACSCFSprotocol @Rucker2026WirthScheibenbogen; the Anft 2025 independent-centre study (n=12) eliminated autoantibodies without significant symptom improvement @Anft2025immunoadsorption; and the BC007 Phase II trial failed to show superiority over placebo. These negative results in ME/CFS-relevant populations must be weighed against the cross-condition passive transfer evidence from long COVID and fibromyalgia. No physician should prescribe these interventions for ME/CFS outside a registered clinical trial.
+] <lim:igg-therapy-not-clinical>
 
 #open-question(title: [DRG-IgG Immunohistochemistry as a Stratification Biomarker])[
 A practical near-term research priority is to develop and validate a DRG-IgG immunohistochemistry (IHC) assay: patient serum or IgG fraction applied to fixed rodent DRG sections, stained with fluorescent anti-human IgG, and scored for binding intensity, spatial pattern (neuronal soma vs satellite glial cells), and co-localization with neuronal markers (CGRP for peptidergic C-fibers, IB4 for non-peptidergic C-fibers, NF200 for Aδ fibers).
