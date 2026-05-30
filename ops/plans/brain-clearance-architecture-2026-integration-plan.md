@@ -29,8 +29,8 @@
 **Phase 4c:** 22 pairs: 13 reinforcement, 5 feed-into, 3 ambiguous, 0 conflict, 1 independent. Audit: `content-staging/compat-audit-brain-clearance-2026-05-30.md`. No adjustments.
 **Phase 5:** Build PASS (3 fix cycles).
 **Phase 6a:** Review convergence: 2 rounds, CONVERGED (1 finding).
-**Phase 6b:** Review adversarial: pending.
-**Phase 6c:** Review typst: pending.
+**Phase 6b (adversarial): 6 personas, 55 findings. Applied DTI-ALPS inline caveats. Report: `/tmp/review-adversarial-brain-clearance-2026-05-30.md`.
+**Phase 6c (typst): 2 rounds, CONVERGED. 1 finding: UK→US English fix in skull B cell section. Build PASS. Report: `/tmp/typst-review-brain-clearance-2026-05-30.md`.
 **Phase 7:** Changelog written (Version 8).
 **Phase 8:** Committed (e73220e).
 
