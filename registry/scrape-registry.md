@@ -455,6 +455,17 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/28705993/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Standley2017HMBMitochondria — HMB effects mitochondria bed rest |
 | https://pubmed.ncbi.nlm.nih.gov/25296344/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Dirks2015NMES — NMES prevents muscle wasting comatose ICU patients |
 
+## Brain Clearance Architecture 2026 Literature (2026-05-30)
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://www.genengnews.com/topics/translational-medicine/neuronal-protein-tracing-reveals-how-the-brain-routes-its-waste/ | GEN | 2026-05-30 | — | Yang 2026 Cell news coverage |
+| https://bioengineer.org/charting-the-brains-waste-removal-system/ | Bioengineer | 2026-05-30 | — | Yang 2026 Cell news coverage |
+| https://neurosciencenews.com/glymphatic-brain-waste-clearance-30785/ | Neuroscience News | 2026-05-30 | — | Yang 2026 Cell news coverage |
+| https://medicalxpress.com/news/2026-05-brain-reveal-nearest-exit-routes.html | MedicalXpress | 2026-05-30 | — | Yang 2026 Cell news coverage |
+| https://www.rochester.edu/newscenter/physics-informed-ai-mri-glymphatic-fluid-flow-velocity-699862/ | URochester | 2026-05-30 | — | Toscano 2026 Sci Adv press release |
+| https://neurosciencenews.com/ai-glymphatic-fluid-velocity-30772/ | Neuroscience News | 2026-05-30 | — | Toscano 2026 Sci Adv news coverage |
+
 ## CPET Null Replication Literature Search (2026-05-26)
 
 | URL | Source | Scraped | Integrated | Target |
@@ -464,3 +475,12 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/17484316/ | pubmed | 2026-05-26 | — | Search for VanNess 2007 CPET (incorrect PMID) |
 | https://pubmed.ncbi.nlm.nih.gov/29475645/ | pubmed | 2026-05-26 | — | Search for Davenport paper (incorrect PMID) |
 | https://pubmed.ncbi.nlm.nih.gov/20095905/ | pubmed | 2026-05-26 | — | VanNess2010PEM (already in bibliography) |
+| https://doi.org/10.1016/j.cell.2026.04.048 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Chayama2026BrainClearance — Physiological brain clearance architecture revealed by neuronal protein tracing
+| https://doi.org/10.1016/j.mehy.2018.07.007 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Wostyn2018GlymphaticCFS — Glymphatic signature of chronic fatigue syndrome hypothesis
+| https://doi.org/10.3390/ijms262311524 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — NematGorgani2025GlymphaticMECFS — Glymphatic system dysregulation in ME/CFS review
+| https://doi.org/10.1007/s00234-023-03240-8 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Tu2023DTIALPSFibromyalgia — DTI-ALPS in fibromyalgia
+| https://doi.org/10.2147/NSS.S522745 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Tang2025COVIDSleepDTIALPS — Glymphatic alterations post-COVID sleep disorder
+| https://doi.org/10.1186/s12883-025-04133-4 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Chaganti2025LongCovidGlymphatic — Asymmetrical glymphatic dysfunction Long COVID
+| https://doi.org/10.1523/JNEUROSCI.0091-21.2021 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — HablitzNedergaard2021GlymphaticReview — Glymphatic system fundamental neurobiology review
+| https://doi.org/10.1126/science.aax5440 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Fultz2019CSFOscillations — CSF oscillations in human sleep
+| https://doi.org/10.1016/j.jpain.2025.00583 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — ValdesHernandez2025PainClearance — Pain and brain clearance
