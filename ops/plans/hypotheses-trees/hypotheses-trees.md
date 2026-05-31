@@ -230,4 +230,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | pdc-postviral | [subtrees/pdc-postviral.md](subtrees/pdc-postviral.md) | 2026-05-24 | 16 | 0 | 🔵 in progress | —
 | striatal-emsn-mecfs | [subtrees/striatal-emsn-mecfs.md](subtrees/striatal-emsn-mecfs.md) | 2026-05-27 | 50 | 0 | ⬜ pending | —
 | brain-clearance-architecture-2026 | [subtrees/brain-clearance-architecture-2026.md](subtrees/brain-clearance-architecture-2026.md) | 2026-05-30 | 63 | 2 | 🔵 in progress | —
+| gpcr-autoantibodies-azcue2026 | [subtrees/gpcr-autoantibodies-azcue2026.md](subtrees/gpcr-autoantibodies-azcue2026.md) | 2026-06-01 | 50 | 3 | 🔵 in progress | —
 | heat-cold-thermoregulation | [subtrees/heat-cold-thermoregulation.md](subtrees/heat-cold-thermoregulation.md) | 2026-05-31 | 90 | 45 | ✅ done | —
+| myboussole-fr-veille-2026 | [subtrees/myboussole-fr-veille-2026.md](subtrees/myboussole-fr-veille-2026.md) | 2026-06-01 | 17 | 0 | ⬜ pending | —
