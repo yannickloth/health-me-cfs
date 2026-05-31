@@ -1255,8 +1255,18 @@ Neopterin is produced when GTP cyclohydrolase I activity is diverted toward immu
   *Certainty: 0.40.* If the BH4 convergent bottleneck hypothesis is correct ([NO SPECULATION]), the urinary neopterin:biopterin ratio should be elevated across ALL predisposing conditions (ADHD, ASD, hEDS, migraine), not just post-infection. This would make it a universal Architecture C screening biomarker available at ~\$30--50 per test. Biochemistry well-established; whether this ratio predicts ME/CFS risk or treatment response is untested. Not yet replicated.
 ] <spec:neopterin-biopterin-screen>
 
+=== Thermoregulatory Function Biomarkers
+<subsec:thermoreg-biomarkers>
+
+#open-question(title: [Composite Thermoregulatory Dysfunction Index: ET-1 + Skin Temperature Rhythm + Mitochondrial Reserve])[
+ME/CFS thermoregulatory dysfunction is multifactorial: ET-1-driven vascular tone dysregulation @Cambras2023SkinTemperatureEndothelin, disrupted skin temperature circadian rhythm amplitude @Cambras2023SkinTemperatureEndothelin, and reduced mitochondrial spare respiratory capacity limiting thermoregulatory work @Hochecker2025HyperthermiaMECFS. A composite index combining these three measurements — serum ET-1, 24-hour skin temperature monitoring (wearable), and PBMC spare respiratory capacity (Seahorse) — could provide an objective, multi-dimensional measure of thermoregulatory impairment. This index would have immediate clinical value: predicting which patients are at risk during heat waves, monitoring treatment response (e.g., ET-1 antagonists, Waon therapy), and identifying patients whose heat/cold intolerance has a specific treatable mechanism rather than being a generic ME/CFS feature. Falsifiable: the composite index will predict heat tolerance (r > 0.7 with controlled environmental heat challenge) and distinguish ET-1-dominant, mitochondria-dominant, and mixed thermoregulatory failure subtypes.
+] <oq:thermoreg-composite-biomarker>
+
+#speculation(title: [WBH-Induced Mitochondrial Reserve Change as Thermoregulatory Treatment-Response Biomarker])[
+*Certainty: 0.35.* Hochecker et al. demonstrated that WBH induces substantial, measurable changes in ME/CFS PBMC mitochondrial respiration — spare respiratory capacity increased 112.35% @Hochecker2025HyperthermiaMECFS. If mitochondrial reserve is the bottleneck for thermoregulatory capacity (ch06:@spec:mitochondrial-reserve-thermoreg), then the magnitude of WBH-induced mitochondrial improvement could serve as a treatment-response biomarker: patients whose reserve increases most after WBH would be predicted to gain the most thermoregulatory benefit (improved heat/cold tolerance). This biomarker is directly testable: serial PBMC respirometry before/after a standardized thermal challenge. Falsifiable: the delta-spare capacity after WBH will correlate positively (r > 0.5) with improvement in thermoneutral comfort window width and controlled environmental heat challenge time; a null correlation would refute the biomarker's predictive value.
+] <spec:wbh-biomarker>
+
 === Pre-Infection Risk Screening Protocol for Neurodivergent Patients
-<subsec:pre-infection-screening>
 
 For patients with known neurodivergent diagnoses, a tiered screening protocol could identify those at highest metabolic reserve risk:
 

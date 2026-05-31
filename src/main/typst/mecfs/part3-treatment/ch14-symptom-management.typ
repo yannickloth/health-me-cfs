@@ -475,11 +475,21 @@ Beyond orthostatic intolerance, autonomic dysfunction in ME/CFS produces a range
 
 === Temperature Dysregulation
 
-Many ME/CFS patients experience impaired thermoregulation, including subjective fevers, chills, heat and cold intolerance, and inappropriate sweating:
+Many ME/CFS patients experience impaired thermoregulation, including subjective fevers, chills, heat and cold intolerance, and inappropriate sweating. Thermoregulatory dysfunction is multifactorial: central hypothalamic autonomic disruption, peripheral vascular tone dysregulation mediated by endothelin-1 (ET-1) @Cambras2023SkinTemperatureEndothelin, and shared pathways with heat stroke (gut permeability, endotoxemia, endothelial dysfunction) that make patients vulnerable to thermal stress @Stanculescu2021HeatStrokeMECFS.
 
     - *Environmental control*: Maintain ambient temperature at 20–22\textdegree C where possible. Layered clothing allows rapid adjustment. Cooling vests for heat intolerance; heated blankets for cold intolerance
     - *Avoid triggers*: Hot baths and showers can cause vasodilation and worsen orthostatic intolerance. Lukewarm showers with a shower chair are safer. Avoid prolonged sun exposure
     - *Pharmacological options*: If subjective fevers are distressing, low-dose acetaminophen may help. For hyperhidrosis, topical antiperspirants or low-dose glycopyrrolate (0.5–1 mg) can be tried
+
+#speculation(title: [Paradoxical Benefit of Controlled Heat Therapy Despite Heat Intolerance])[
+*(Certainty: 0.50.)* A paradoxical clinical observation: despite near-universal heat intolerance, controlled passive heat therapy (far-infrared sauna / Waon therapy, 60°C for 15 min, followed by 30 min rest) produced significant reductions in fatigue (p < 0.05), improvement in negative mood (anxiety, depression), and improved performance status in CFS patients (n=10, 5×/week × 4 weeks), with zero adverse events @Soejima2015WaonTherapyCFS. Hochecker et al. (2025) provided a cellular mechanism: whole-body hyperthermia (WBH, core temperature 39°C) in ME/CFS patients (n=9) reduced autophagy marker LC3-II by 17.84% (p=0.0065) and increased mitochondrial respiration across all parameters — basal (+66.60%, p=0.0040), ATP production (+61.41%, p=0.0023), maximal (+97.88%, p=0.0071), and spare capacity (+112.35%, p=0.0086) — consistent with improved tissue perfusion and oxygen availability @Hochecker2025HyperthermiaMECFS.
+
+*Critical caveat:* Both studies are small (n=9–10), uncontrolled pilots. Some patients in the Hochecker study could not tolerate the full WBH protocol, confirming that heat intolerance limits feasibility. The therapeutic window — warm enough to improve perfusion and mitochondrial function, not so warm as to trigger PEM or MCAS degranulation — is not established. Heat therapy is NOT a clinical recommendation; it is a research direction. Any thermal protocol must be individually titrated, beginning with brief partial-body exposures, and immediately discontinued at any PEM signal.
+
+*Falsifiable prediction:* A controlled crossover trial of Waon therapy (15 min, 60°C, 3×/week × 4 weeks) vs. thermoneutral rest in ME/CFS patients (n ≥ 30) will show significant improvement in fatigue (FSS) and mitochondrial respiration (Seahorse) with no increase in PEM incidence vs control.
+
+*Limitations:* Both studies uncontrolled, unblinded, small samples. Hochecker measured only immediate cellular effects, no clinical outcomes. Soejima showed clinical benefit but had no control group. Not replicated. HSAT2 caution applies (ch17:@spec:heat-hsat2-caution): heat-shock factor 1 (HSF1) activation may amplify exosomal HSAT2 in susceptible patients.
+] <spec:controlled-heat-paradox>
 
 === Gastrointestinal Autonomic Symptoms
 

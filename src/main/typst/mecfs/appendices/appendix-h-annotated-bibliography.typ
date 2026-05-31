@@ -17579,6 +17579,88 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
 // =============================================================================
 
+== Thermoregulation: Heat and Cold Effects in ME/CFS
+<sec:bib-heat-cold-thermoregulation>
+// =============================================================================
+
+=== Hochecker et al.\ 2025 — Whole-Body Hyperthermia Treatment in ME/CFS (0.55)
+
+    *Full Citation:*: Hochecker B, Matt K, Scherer M, Meßmer A, von Ardenne A, Bergemann J. Heat vs. Fatigue: Hyperthermia as a Possible Treatment Option for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Int J Mol Sci_. 2025 Jun 1;26(11):5339. @Hochecker2025HyperthermiaMECFS
+    *DOI:*: #link("https://doi.org/10.3390/ijms26115339")[10.3390/ijms26115339]
+    *PMID:*: 40508148
+    *PMCID:*: PMC12154023
+    *Published:*: 2025
+    *Study Design:*: Pilot study, within-subject pre-post design
+    *Sample Size:*: n=9 ME/CFS patients (38±10 years; 7F, 2M); n=6-9 healthy controls for comparison
+    *Key Findings:*
+        - Autophagy: LC3-II levels decreased by 17.84% after WBH (p=0.0065); ME/CFS basal levels 20.01% higher than healthy controls
+        - Mitochondrial respiration increased significantly: basal +66.60% (p=0.0040), ATP production +61.41% (p=0.0023), maximal +97.88% (p=0.0071), spare capacity +112.35% (p=0.0086)
+        - mRNA: HSPA5 (HSP70) increased 48.33%; IL-10 increased 37.33%
+        - Hypothesis: WBH restores oxygen supply via improved blood flow, reducing hypoxia-induced autophagy and enhancing mitochondrial function
+        - All 9 participants showed response
+    *Conclusion:*: Whole-body hyperthermia improves cellular autophagy and mitochondrial function in ME/CFS patients, possibly by restoring oxygenation via improved blood flow. Thermal therapy may benefit ME/CFS without triggering PEM.
+    *Limitations:*: Very small sample (n=9); no standardized symptom measures; treatment conditions not fully standardized (some patients couldn't tolerate full protocol); only immediate effects measured (no follow-up).
+    *Certainty:* 0.55
+
+=== Stanculescu et al.\ 2021 — Heat Stroke Mechanisms Comparison with ME/CFS (0.65)
+
+    *Full Citation:*: Stanculescu D, Sepúlveda N, Lim CL, Bergquist J. Lessons From Heat Stroke for Understanding Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Front Neurol_. 2021 Dec 13;12:789784. @Stanculescu2021HeatStrokeMECFS
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2021.789784")[10.3389/fneur.2021.789784]
+    *PMID:*: 34966354
+    *PMCID:*: PMC8710546
+    *Published:*: 2021
+    *Study Design:*: Narrative review
+    *Key Findings:*
+        - Shared mechanisms between heat stroke and ME/CFS: splanchnic vasoconstriction/hypoxia, gut permeability/leaky gut (40-67% ME/CFS with elevated LPS antibodies), endotoxemia, systemic inflammation (IL-6, TNF-α, NLRP3 inflammasomes), CNS dysfunction/neuroinflammation, endothelial-cell injury, mitochondrial dysfunction, heat shock protein deficiency
+        - Transcriptomic overlaps: heat stress downregulates respiratory chain genes, switches to glycolysis, reduces ATP production, increases oxidative stress—similar patterns in ME/CFS PBMCs
+        - Predisposing factor overlaps: pre-existing inflammation/infection, viral reactivation (EBV, CMV), immune suppression, cumulative stress, microbiome disturbances, female predominance
+        - Suggests therapeutic opportunities from heat stroke research: gut barrier repair, anti-inflammatories, anticoagulation, HSP induction
+    *Conclusion:*: Heat stroke and ME/CFS share multiple pathophysiological mechanisms involving gut permeability, endotoxemia, systemic inflammation, and vascular dysfunction. Lessons from heat stroke research may inform ME/CFS understanding and treatment.
+    *Limitations:*: Narrative review (no systematic methodology); no new primary data; speculative connections.
+    *Certainty:* 0.65
+
+=== Cambras et al.\ 2023 — Skin Temperature Circadian Rhythms and Endothelin-1 (0.60)
+
+    *Full Citation:*: Cambras T, Castro-Marrero J, Zaragoza MC, Díez-Noguera A, Alegre J. Skin Temperature Circadian Rhythms and Dysautonomia in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: The Role of Endothelin-1 in the Vascular Tone Dysregulation. _Int J Mol Sci_. 2023;24(5):4835. @Cambras2023SkinTemperatureEndothelin
+    *DOI:*: #link("https://doi.org/10.3390/ijms24054835")[10.3390/ijms24054835]
+    *PMID:*: 36902264
+    *Published:*: 2023
+    *Study Design:*: Case-control study
+    *Key Findings:*
+        - ME/CFS patients exhibit modifications in circadian rhythm of skin temperature
+        - Circadian rhythm alterations associated with endothelin-1 levels (p < 0.01)
+        - ET-1 levels associated with temperature rhythm stability and amplitude
+        - Self-reported symptom questionnaires correlated with ET-1 and temperature rhythm disruptions
+        - Suggests vascular tone dysregulation mediated by ET-1 underlies thermoregulatory abnormalities
+    *Conclusion:*: ME/CFS patients have disrupted circadian skin temperature rhythms linked to endothelin-1 levels and vascular tone dysregulation, providing a potential biomarker for thermoregulatory impairment.
+    *Limitations:*: Sample size not clear in available information; causality not established (ET-1 as marker vs. driver).
+    *Certainty:* 0.60
+
+=== Soejima et al.\ 2015 — Waon Therapy (Infrared Sauna) for CFS (0.50)
+
+    *Full Citation:*: Soejima Y, Munemoto T, Masuda A, Uwatoko Y, Miyata M, Tei C. Effects of Waon therapy on chronic fatigue syndrome: a pilot study. _Intern Med_. 2015;54(3):333-338. @Soejima2015WaonTherapyCFS
+    *DOI:*: #link("https://doi.org/10.2169/internalmedicine.54.3042")[10.2169/internalmedicine.54.3042]
+    *PMID:*: 25748743
+    *Published:*: 2015
+    *Study Design:*: Pilot clinical trial, pre-post design
+    *Sample Size:*: n=10 consecutive inpatients with CFS
+    *Intervention:*:
+        - Waon therapy (far-infrared dry sauna at 60°C for 15 minutes)
+        - Followed by 30 minutes rest under blanket outside sauna
+        - Frequency: once daily, 5 days/week for 4 weeks (20 sessions total)
+    *Key Findings:*
+        - Perceived fatigue significantly decreased after therapy (not at 2 weeks)
+        - Negative mood (anxiety, depression, fatigue) significantly improved after therapy
+        - Performance status significantly improved after therapy
+        - Pain levels and vigor did not change significantly
+        - No adverse effects reported during therapy
+    *Conclusion:*: Waon therapy may be a useful and safe treatment for CFS, improving fatigue, mood, and performance status without triggering PEM.
+    *Limitations:*: Very small sample (n=10); no control group; open-label; no blinding; short duration (4 weeks); no follow-up after treatment.
+    *Certainty:* 0.50
+
+
+// =============================================================================
+
 == Brain Clearance / Glymphatic System / Meningeal Lymphatics
 <sec:bib-brain-clearance>
 // =============================================================================

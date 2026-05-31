@@ -10,10 +10,12 @@ Impaired thermoregulation manifests as:
 
     - *Subnormal body temperature*: Chronic low-grade hypothermia (96–97°F / 35.5–36°C)
     - *Temperature instability*: Fluctuations throughout day without infection
-    - *Heat intolerance*: Severe symptom exacerbation in warm environments
+    - *Heat intolerance*: Severe symptom exacerbation in warm environments; heat stress can precipitate PEM through circulatory demands and metabolic stress
     - *Cold intolerance*: Inability to warm up, cold extremities even in warm rooms
     - *Inappropriate sweating*: Night sweats, profuse sweating with minimal exertion
     - *Lack of sweating*: Some patients lose ability to sweat (anhidrosis)
+
+*Mechanism.* Thermoregulatory dysfunction reflects hypothalamic autonomic pathway disruption plus peripheral vascular dysregulation. Cambras et al. (2023) demonstrated that skin temperature circadian rhythm alterations in ME/CFS are associated with elevated endothelin-1 (ET-1) levels ($p < 0.01$), linking vascular tone dysregulation directly to thermoregulatory failure @Cambras2023SkinTemperatureEndothelin. Stanculescu et al. (2021) identified that ME/CFS and heat stroke share at least 9 pathophysiological mechanisms (gut permeability, endotoxemia, endothelial dysfunction, mitochondrial impairment, HSP deficiency), suggesting that heat intolerance in ME/CFS reflects a pre-existing vulnerability to thermal stress rather than a simple perception abnormality @Stanculescu2021HeatStrokeMECFS.
 
 ==== Sweating Abnormalities
 
