@@ -38,7 +38,7 @@ NK cells kill targets by releasing cytotoxic granules containing perforin (which
 NK cell activation is regulated by a balance between activating and inhibitory receptors. ME/CFS patients show altered expression of activating receptors (NKG2D, NKp46, NKp30) along with changed inhibitory receptor profiles @Brenu2011 . Additionally, signaling downstream of activating receptors is impaired, and calcium flux following receptor engagement is disrupted .
 
 *Metabolic Dysfunction*
-NK cells require substantial energy for cytotoxic function. ME/CFS NK cells exhibit impaired glycolytic metabolism and mitochondrial dysfunction affecting ATP production @Brenu2011. This reduced metabolic reserve limits their capacity for sustained activity.
+NK cells require substantial energy for cytotoxic function. ME/CFS NK cells exhibit impaired glycolytic metabolism and mitochondrial dysfunction affecting ATP production @Brenu2011. This reduced metabolic reserve limits their capacity for sustained activity. The concept of mitochondrial reserve as a functional bottleneck extends beyond immune cells: spare respiratory capacity may also limit thermoregulatory work (ch06:@spec:mitochondrial-reserve-thermoreg), illustrating how the same cellular energetic deficit manifests across multiple physiological systems.
 
 ==== NK Cell Subsets
 
@@ -2755,7 +2755,7 @@ Acute viral infection — including SARS-CoV-2, EBV, and HHV-6, all documented t
     - *Proinflammatory*: SASP includes IL-6, IL-8, TNF-$alpha$, and other cytokines that sustain chronic inflammation
     - *Pro-oxidative*: Elevated reactive oxygen species from senescent cells damage adjacent endothelium
     - *Procoagulant*: Upregulation of PAI-1 and tissue factor shifts the local coagulation balance toward thrombosis and fibrin microclot formation
-    - *Vasoconstrictive*: Reduced nitric oxide production and elevated endothelin-1 shift vascular tone toward constriction, impairing tissue perfusion
+    - *Vasoconstrictive*: Reduced nitric oxide production and elevated endothelin-1 shift vascular tone toward constriction, impairing tissue perfusion. This vasoconstrictive bias may also contribute to thermoregulatory failure via tonic cutaneous vasoconstriction (ch10:@spec:vasomotor-constriction-bias)
     - *Adhesion-promoting*: Upregulation of ICAM-1, VCAM-1, and E-selectin promotes leukocyte adhesion and further endothelial activation
 
 === The Immune Clearance Failure
