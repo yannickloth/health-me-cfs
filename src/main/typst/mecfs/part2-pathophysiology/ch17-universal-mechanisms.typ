@@ -342,7 +342,7 @@ Full discussion: @ch:genetics-epigenetics.
 
 *Concrete mechanisms and ME/CFS evidence:*
 
-- *Heat shock protein (HSP) dysregulation.* Abnormal HSP70 and HSP90 expression in ME/CFS samples; HSPs normally prevent protein misfolding, support immune cell function, and facilitate recovery from stress @nijs2014hsp.
+- *Heat shock protein (HSP) dysregulation.* Abnormal HSP70 and HSP90 expression in ME/CFS samples; HSPs normally prevent protein misfolding, support immune cell function, and facilitate recovery from stress @nijs2014hsp. Hochecker et al. (2025) demonstrated that HSP70 (HSPA5) can be acutely upregulated (48.33% increase) in ME/CFS PBMCs via whole-body hyperthermia, and that this induction correlates with mitochondrial respiratory improvement — suggesting that HSP deficiency is dynamically modifiable rather than a fixed deficit @Hochecker2025HyperthermiaMECFS.
 
 - *Autophagy block — ATG13 elevation.* ATG13 (autophagy-initiating protein) is significantly elevated in ME/CFS patient serum, indicating autophagy has been initiated but aborted. Phosphorylated ATG13 escaping into serum signals failed autophagic flux. This serum ATG13 stimulates ROS and nitric oxide production in microglial cells via RAGE receptor, directly linking failed autophagy to neuroinflammation @wallis2022atg13.
 

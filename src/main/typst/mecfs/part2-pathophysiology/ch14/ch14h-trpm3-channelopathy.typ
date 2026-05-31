@@ -77,7 +77,7 @@ What if TRPM3 dysfunction in ME/CFS is _systemic_—affecting all tissues where 
 *Sensory neurons:*
 
     - TRPM3 is a heat and pain sensor
-    - Dysfunction could cause: altered temperature perception, cold intolerance, heat intolerance, hyperalgesia, allodynia
+    - Dysfunction could cause: altered temperature perception, cold intolerance, heat intolerance, hyperalgesia, allodynia. ET-1-mediated tonic vasoconstriction (ch10:@spec:vasomotor-constriction-bias) and impaired mitochondrial reserve for thermoregulatory work (ch06:@spec:mitochondrial-reserve-thermoreg) may amplify these symptoms downstream of TRPM3 dysfunction.
     - The characteristic sensory hypersensitivities of ME/CFS might be direct TRPM3 effects
 
 *Pancreatic $beta$-cells:*
