@@ -860,7 +860,7 @@ Under this model, the hallmark ME/CFS feature of post-exertional malaise (PEM) r
 
 *Limitation:* Mice cannot report fatigue verbally; whether the passive-transfer model produces PEM-equivalent energy limitation is unknown and requires specialized behavioral assays (forced swim, running wheel after standardized exertion). The ME/CFS-specific applicability of the long COVID passive transfer model remains to be established by direct experiments in ME/CFS-derived IgG.
 
-Study: (cross-paper synthesis, Mignolet 2026 + McAlpine 2024 + interoception literature; certainty: 0.45, coherent mechanistic hypothesis but untested in ME/CFS-specific passive transfer; partially supported).
+Study: (cross-paper synthesis, Mignolet 2026 + McAlpine 2024 + interoception literature; certainty: 0.45, coherent mechanistic hypothesis but untested in ME/CFS-specific passive transfer; partially supported. Falsification condition: hypothesis refuted if QST threshold drop after standardized exertion is NOT greater in IgG-DRG-positive than IgG-DRG-negative ME/CFS patients, or if C-fiber discharge frequency does NOT correlate with PEM severity. No escape hatch — if both predictions fail, the amplifier model is wrong.).
 ] <hyp:drg-igg-pem-amplifier>
 
 #speculation(title: [Revised Two-Compartment Model: DRG-Dominated Pain vs CNS-Mediated Balance/Fatigue])[
@@ -874,7 +874,7 @@ Under this revised model, the peripheral DRG and nodose ganglia (fenestrated cap
 
 *Limitation:* The parsimony of the revised model depends on CNS-targeting IgG being a minority of total pathogenic IgG (consistent with 5% BBB crossing and pain being the most replicated transfer finding). This is speculative; direct ME/CFS passive transfer experiments with CNS behavioral outcomes are needed.
 
-Study: (revised two-compartment model incorporating Cell-published Santos Guedes 2026 CNS findings; certainty: 0.55, strengthened by CNS targeting evidence but CNS symptom transfer requires replication beyond Santos Guedes; peripheral DRG compartment now supported by four independent groups).
+Study: (revised two-compartment model incorporating Cell-published Santos Guedes 2026 CNS findings; certainty: 0.55, strengthened by CNS targeting evidence but CNS symptom transfer requires replication beyond Santos Guedes; peripheral DRG compartment now supported by four independent groups. Falsification condition: model refuted if CNS-autoantibody-positive ME/CFS patients do NOT show greater balance/coordination/fatigue improvement after IgG depletion compared to CNS-negative patients. If CNS-positive and CNS-negative patients improve equally on all measures, the compartment distinction is clinically meaningless and the model is wrong — the "speculative" qualifier expires at CNS symptom transfer replication.).
 ] <hyp:two-compartment-mecfs>
 
 #speculation(title: [Fc-Glycosylation Profile Gates IgG Pathogenicity at the DRG])[
@@ -968,7 +968,7 @@ This model explains the clinical heterogeneity of post-viral syndromes without i
 
 *Limitation:* Endotypes are inferred from 85% pain correlation in one study; multi-phenotype clustering not yet demonstrated. Antigen targets for most of the >70 CNS/PNS autoantibodies remain unvalidated beyond MED20 and USP5. Small subgroups may be unstable in clustering analyses. Requires large independent cohorts to validate.
 
-Study: (mechanistic inference from symptom-symptom correspondence + endotype clustering hypothesis; certainty: 0.50, 85% correspondence robust, clustering prediction untested; partially supported).
+Study: (mechanistic inference from symptom-symptom correspondence + endotype clustering hypothesis; certainty: 0.50, 85% correspondence robust, clustering prediction untested; partially supported. Falsification condition: hypothesis refuted if unsupervised clustering of ≥70 autoantigen reactivities in n≥100 LC patients does NOT identify ≥3 clusters with ≥75% phenotype prediction accuracy, or if treatment response does NOT differ between clusters. The "unvalidated antigen targets" caveat expires when independent replication of MED20 and USP5 targets is performed. If clustering fails despite validated targets, the endotype model is wrong.).
 ] <spec:autoantibody-endotype-clusters>
 
 #limitation(title: [Clinical Actionability: Research-Stage, Not Clinical Practice])[
