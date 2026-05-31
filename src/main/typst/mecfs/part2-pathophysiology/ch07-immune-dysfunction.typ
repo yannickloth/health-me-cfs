@@ -810,7 +810,36 @@ The REAP platform displays extracellular protein domains on yeast surfaces. GPCR
 
 #open-question(title: [GPCR Autoantibody Pathogenicity])[
 While correlational and early therapeutic evidence supports a role for GPCR autoantibodies in ME/CFS, definitive proof of causality remains elusive. The Vernino et al.\ failed replication in POTS raises important questions: Are the autoantibodies detected by current assays the same as those causing symptoms? Do healthy individuals harbor similar autoantibodies that only become pathogenic under certain conditions (e.g., infection, inflammation)? Would more specific functional assays—measuring receptor activation or internalization rather than mere binding—better identify pathogenic autoantibodies? Resolution of these questions will determine whether autoantibody-targeted therapies become a mainstay of ME/CFS treatment.
+
+*Key methodological gap:* No study has run the same ME/CFS samples through CellTrend ELISA and REAP/Luminex platforms in parallel. If ELISA detects IgG1-dominant autoantibodies while REAP favors IgG4 epitopes (or vice versa), the discrepancy between Azcue/Loebel/Sotzny positive results and Germain 2025 null results would be explained by isotype specificity rather than assay unreliability. A single head-to-head study with isotype subclass discrimination could resolve this conflict and determine whether GPCR autoantibodies are pathogenic variables or measurement artifacts.
 ]
+
+#open-question(title: [IgG4-to-IgG1 Isotype Shift as Disease Progression Marker])[
+The methodological conflict between ELISA-based GPCR autoantibody studies (positive: Loebel 2016, Sotzny 2021, Azcue 2026) and high-throughput platforms (null: Germain 2025 REAP/Luminex, Vernino 2022 standard ELISA) has at least four explanations:
+- ELISA detects non-specific low-affinity binding not captured by higher-stringency platforms (assay artifact)
+- REAP misses conformational epitopes requiring native GPCR structure (platform limitation)
+- Cohort differences: Germain studied long-duration chronic ME/CFS (11--14 years) in which autoantibodies may have naturally resolved (natural history)
+- Isotype subclass differences: ELISA captures total IgG (including both IgG4 and IgG1) while REAP may favor one subclass over another (biological signal)
+
+This open question focuses on the fourth possibility, which is the least tested and most novel. If GPCR autoantibodies begin as IgG4 (low-affinity, anti-inflammatory, early post-infectious) and undergo class switching to IgG1 (high-affinity, pro-inflammatory, Fc$gamma$R-activating) as disease progresses, then isotype-subclass ELISA (IgG1 vs IgG4 for $beta_2$, M1, M3, M4) would reveal a decreasing IgG4/IgG1 ratio as ME/CFS progresses, and the ratio might predict conversion from PCC to ME/CFS.
+
+*Certainty: 0.22.* No existing IgG subclass data for GPCR autoantibodies in ME/CFS. The REAP bias toward IgG4 is speculative (not formally tested). IgG4 dominance in early post-infectious autoimmunity has precedent in pemphigus and myasthenia gravis but not ME/CFS. This is one of several possible resolutions to the ELISA/REAP discrepancy, not a uniquely favored explanation.
+] <oq:igg4-igg1-isotype-shift>
+
+#hypothesis(title: [GPCR Autoantibody-Based Autonomic Phenotyping Defines Treatable ME/CFS Subtypes])[
+*Certainty: 0.40.*
+The combination of GPCR autoantibody profiles ($beta_2$, M1, M3, M4 titers) with autonomic testing (HRV, tilt-table, COMPASS-31) may define biologically distinct ME/CFS subtypes with differential treatment responses @Azcue2026gpcr @Sotzny2021:
+- *$beta_2$-dominant:* High $beta_2$-adrenergic AAbs, reduced HRV, POTS phenotype → candidates for beta-blocker trials or immunoadsorption
+- *M3-dominant:* High M3 muscarinic AAbs, orthostatic intolerance, vagal dysfunction → candidates for vagal stimulation (tVNS) or anticholinergic modulation
+- *M1/M4-low cognitive:* Low M1/M4 AAbs, significant cognitive impairment → candidates for cognitive remediation (AAb-mediated cognitive protection absent)
+- *Autoantibody-negative:* No elevated GPCR AAbs → alternative pathophysiology (metabolic, viral persistence, neuroinflammatory)
+
+The therapeutic implication is that autoantibody-based stratification may improve treatment response rates compared to unselected ME/CFS cohorts, though this has not been tested: Stein 2025 immunoadsorption enrolled only $beta_2$-AAb-positive patients (70% responded in that pre-selected cohort) and Fluge 2025 daratumumab enrolled unselected patients (60% responded, with NK-cell count predicting response rather than AAb status). Neither study tested whether AAb-based stratification adds predictive value beyond what unselected treatment achieves.
+
+*Falsifiable prediction:* A prospective stratified trial ($n >= 150$) comparing autoantibody-matched vs mismatched treatments will show higher response rates in matched arms ($beta_2$-dominant → immunoadsorption > tVNS; M3-dominant → tVNS > immunoadsorption).
+
+*Limitations:* Single GPCR AAb measurement paper with comprehensive autonomic phenotyping (Azcue 2026, $n=59$). Subtype definitions provisional — cluster analysis not yet performed on AAb + autonomic + cognitive data. Certainty lowered to 0.40 (from initial draft 0.50) because: (a) the four-subtype taxonomy is constructed from a single dataset without formal clustering, (b) no treatment-response data exist for any of the proposed stratified indications, (c) Germain 2025 null raises fundamental questions about which detection platform defines "autoantibody-positive," and (d) CellTrend ELISA specificity concerns unresolved. The hypothesis is testable but currently rests on a single correlation study.
+] <hyp:gpcr-aab-autonomic-phenotyping>
 
 ==== Passive Transfer Evidence: IgG Pathogenicity Established in Animal Models
 <sec:passive-transfer-igg>
