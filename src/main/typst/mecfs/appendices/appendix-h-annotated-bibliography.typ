@@ -17803,5 +17803,54 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Suggests pain itself may impair glymphatic function
     *Conclusion:*: Widespread and prolonged pain may reduce brain clearance, potentially creating a vicious cycle.
     *Limitations:*: Abstract only; full details unavailable. Causality unclear.
-    *ME/CFS Relevance:*: Many ME/CFS patients have comorbid chronic pain. Suggests bidirectional relationship: glymphatic impairment -> symptoms -> further impairment. Pain may be both cause and consequence of glymphatic dysfunction.
     *Certainty:* 0.35
+
+=== Azcue et al.\ 2026 — GPCR Autoantibodies, Autonomic Dysfunction, and Cognition (0.55)
+    *Full Citation:*: Azcue N, Prada A, Del Pino R, et al. Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and Chronic Fatigue Syndrome. _Sci Rep_. 2026;16. DOI: 10.1038/s41598-026-49131-9.
+    *DOI:*: #link("https://doi.org/10.1038/s41598-026-49131-9")[10.1038/s41598-026-49131-9]
+    *Published:*: 2026-05-05
+    *Study Design:*: Case-control with comprehensive autonomic and cognitive testing
+    *Sample Size:*: 59 ME/CFS, 96 PCC, 36 healthy controls
+    *Key Findings:*:
+        - ME/CFS patients had significantly higher beta2-adrenergic AAb titers vs PCC and HCs (F2,186=3.15, p=0.046)
+        - beta2 AAb correlated with sympathovagal imbalance in ME/CFS (r=0.45, p=0.001)
+        - M1, M3, M4 AAb titers positively correlated with verbal and working memory in ME/CFS
+        - PCC patients showed more borderline/pathological M3 muscarinic AAb results vs HCs
+        - beta2 AAb correlated with autonomic symptoms in PCC (r=0.27, p=0.048)
+        - Distinct AAb profiles suggest different immunological mechanisms between PCC and ME/CFS
+    *Conclusion:*: GPCR autoantibodies, particularly beta2-adrenergic and muscarinic receptor subtypes, are associated with autonomic dysfunction and cognitive performance in ME/CFS. Distinct profiles between PCC and ME/CFS suggest trigger-specific immunological trajectories.
+    *Limitations:*: Moderate sample size. CellTrend ELISA specificity concerns (Vernino 2022 POTS null, Germain 2025 REAP/Luminex null). Cross-sectional design. Positive muscarinic-cognition correlation direction is counterintuitive. No functional validation of antibody activity. Not yet replicated.
+    *Certainty:* 0.55
+    *Research Stream:*: gpcr-autoantibodies-azcue2026
+
+=== Blaes et al.\ 2011 — GPCR Autoantibodies in Complex Regional Pain Syndrome (0.65)
+    *Full Citation:*: Blaes F, Wallukat G, et al. Autoimmunity against the beta2 adrenergic receptor and muscarinic-2 receptor in complex regional pain syndrome. _PAIN_. 2011;152(12):2690-2700.
+    *DOI:*: #link("https://doi.org/10.1016/j.pain.2011.06.012")[10.1016/j.pain.2011.06.012]
+    *PMID:*: 21816540
+    *Published:*: 2011
+    *Study Design:*: Case-control with functional cardiomyocyte bioassay
+    *Sample Size:*: 20 CRPS patients, 10 healthy controls
+    *Key Findings:*:
+        - Functionally active autoantibodies against beta2-adrenergic and M2 muscarinic receptors identified in CRPS
+        - Antibodies show agonistic-like properties
+        - Bind to second extracellular loop of receptors
+        - Demonstrated functional activity in cellular assays
+    *Conclusion:*: GPCR autoantibodies are functionally pathogenic in CRPS, providing mechanistic evidence that receptor-targeting autoantibodies can cause autonomic and sensory dysfunction. Relevant to ME/CFS as a parallel post-infectious/dysautonomic condition.
+    *Limitations:*: Small sample size (n=20). CRPS not identical to ME/CFS — extrapolation requires caution. Functional assay limited to cardiovascular readout; CNS or cognitive effects not tested.
+    *Certainty:* 0.65
+    *Research Stream:*: gpcr-autoantibodies-azcue2026
+
+=== Sotzny et al.\ 2022 — GPCR Autoantibodies in Post-COVID Syndrome (0.60)
+    *Full Citation:*: Sotzny F, Filgueiras I, Kedor C, et al. Dysregulated Autoantibodies Targeting Vaso- and Immunoregulatory Receptors in Post Covid Syndrome Correlate with Symptom Severity. _Front Immunol_. 2022;13:981532.
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.981532")[10.3389/fimmu.2022.981532]
+    *Published:*: 2022
+    *Study Design:*: Observational case-control
+    *Sample Size:*: Post-COVID syndrome patients (exact n not confirmed)
+    *Key Findings:*:
+        - Dysregulated autoantibodies targeting vaso- and immunoregulatory receptors in post-COVID syndrome
+        - Correlated with symptom severity
+        - Used CellTrend ELISA methodology
+    *Conclusion:*: GPCR autoantibodies are present in post-COVID syndrome and correlate with symptom severity, extending the autoantibody hypothesis beyond classic ME/CFS to pandemic-associated post-infectious disease.
+    *Limitations:*: CellTrend ELISA specificity concerns. Sample size unclear from available abstract data. Post-COVID syndrome heterogeneity.
+    *Certainty:* 0.60
+    *Research Stream:*: gpcr-autoantibodies-azcue2026

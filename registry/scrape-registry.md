@@ -484,3 +484,4 @@ Prevents re-processing of already-integrated content.
 | https://doi.org/10.1523/JNEUROSCI.0091-21.2021 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — HablitzNedergaard2021GlymphaticReview — Glymphatic system fundamental neurobiology review
 | https://doi.org/10.1126/science.aax5440 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Fultz2019CSFOscillations — CSF oscillations in human sleep
 | https://doi.org/10.1016/j.jpain.2025.00583 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — ValdesHernandez2025PainClearance — Pain and brain clearance
+| https://doi.org/10.1038/s41598-026-49131-9 | nature.com | 2026-06-01 | — | bib/appendix-h/ch07/ch08/ch10/ch14d — Azcue2026gpcr — GPCR autoantibodies (beta2 adrenergic, M1-M4 muscarinic) linked to autonomic dysfunction and cognitive performance in ME/CFS vs PCC; Sci Rep 2026 |

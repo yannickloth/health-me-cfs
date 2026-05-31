@@ -11,19 +11,19 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| H1 | Mitochondrial-Autophagy Reset via HSP70 | hypothesis | 0.72 | 5 | 4 | 4 | 3 | 3 | ⬜ | — |
-| H2 | ET-1-TRPM3 Thermosensor Crosstalk | speculation | 0.68 | 5 | 4 | 4 | 3 | 3 | ⬜ | — |
-| H3 | HSP Deficiency as Mitochondrial ROS Consequence | hypothesis | 0.65 | 4 | 3 | 3 | 2 | 1 | ⬜ | — |
-| H4 | Dual Oscillator Circadian Thermoregulatory Collapse | hypothesis | 0.71 | 5 | 2 | 4 | 4 | 2 | ⬜ | — |
-| H5 | Cold Intolerance from Failed BAT Activation | speculation | 0.66 | 4 | 3 | 4 | 2 | 2 | ⬜ | — |
-| H6 | Vasomotor Flip-Flop Tonic Constriction Bias | speculation | 0.64 | 4 | 3 | 5 | 3 | 2 | ⬜ | — |
-| H7 | Waon via HSP70-Mediated PERK/ISR Attenuation | hypothesis | 0.69 | 4 | 4 | 3 | 3 | 1 | ⬜ | — |
-| H8 | TRPM3-TRPV1 Functional Antagonism | speculation | 0.63 | 4 | 3 | 3 | 2 | 1 | ⬜ | — |
-| H9 | Mitochondrial Reserve as Thermoregulatory Capacity | hypothesis | 0.74 | 5 | 3 | 4 | 4 | 4 | ⬜ | — |
-| H10 | Heat-Induced Selective-to-Bulk Autophagy Switch | speculation | 0.60 | 3 | 2 | 2 | 2 | 1 | ⬜ | — |
-| R1 | Precision Thermal Dose-Response | open-question | 0.85 | 3 | 4 | 2 | 2 | 2 | ⬜ | — |
-| R2 | Cold Tolerance Phenotyping | open-question | 0.78 | 3 | 2 | 3 | 1 | 3 | ⬜ | — |
-| R3 | HSP70 Pharmacological vs Thermal Induction | open-question | 0.82 | 3 | 4 | 2 | 2 | 1 | ⬜ | — |
+| H1 | Mitochondrial-Autophagy Reset via HSP70 | hypothesis | 0.72 | 5 | 4 | 4 | 3 | 3 | ✅ | — |
+| H2 | ET-1-TRPM3 Thermosensor Crosstalk | speculation | 0.68 | 5 | 4 | 4 | 3 | 3 | ✅ | — |
+| H3 | HSP Deficiency as Mitochondrial ROS Consequence | hypothesis | 0.65 | 4 | 3 | 3 | 2 | 1 | ✅ | — |
+| H4 | Dual Oscillator Circadian Thermoregulatory Collapse | hypothesis | 0.71 | 5 | 2 | 4 | 4 | 2 | ✅ | — |
+| H5 | Cold Intolerance from Failed BAT Activation | speculation | 0.66 | 4 | 3 | 4 | 2 | 2 | ✅ | — |
+| H6 | Vasomotor Flip-Flop Tonic Constriction Bias | speculation | 0.64 | 4 | 3 | 5 | 3 | 2 | ✅ | — |
+| H7 | Waon via HSP70-Mediated PERK/ISR Attenuation | hypothesis | 0.69 | 4 | 4 | 3 | 3 | 1 | ✅ | — |
+| H8 | TRPM3-TRPV1 Functional Antagonism | speculation | 0.63 | 4 | 3 | 3 | 2 | 1 | ✅ | — |
+| H9 | Mitochondrial Reserve as Thermoregulatory Capacity | hypothesis | 0.74 | 5 | 3 | 4 | 4 | 4 | ✅ | — |
+| H10 | Heat-Induced Selective-to-Bulk Autophagy Switch | speculation | 0.60 | 3 | 2 | 2 | 2 | 1 | ✅ | — |
+| R1 | Precision Thermal Dose-Response | open-question | 0.85 | 3 | 4 | 2 | 2 | 2 | ✅ | — |
+| R2 | Cold Tolerance Phenotyping | open-question | 0.78 | 3 | 2 | 3 | 1 | 3 | ✅ | — |
+| R3 | HSP70 Pharmacological vs Thermal Induction | open-question | 0.82 | 3 | 4 | 2 | 2 | 1 | ✅ | — |
 | R4 | ET-1 Modulation Trial | open-question | 0.76 | 3 | 4 | 2 | 2 | 2 | ⬜ | — |
 | R5 | TRPM3-TRPV1 Rescue in Patient Neurons | open-question | 0.71 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
 | R6 | Waon Therapy Optimization Trial | open-question | 0.84 | 2 | 4 | 1 | 1 | 1 | ⬜ | — |

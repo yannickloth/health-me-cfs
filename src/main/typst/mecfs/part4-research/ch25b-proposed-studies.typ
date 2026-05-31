@@ -2367,7 +2367,7 @@ ME/CFS clinical trials for ISR-modulating interventions will inevitably show het
 
 *Predicted consequence for trial design:* A mixed-subgroup trial of any ISR-modulating agent will have expected effect $approx p_A dot.op "harm"(A) + (1 - p_A) dot.op "benefit"(B) approx 0$ for most agents, mimicking a null result. Stratification by ISR subtype (HHV-6 serology + PERK muscle signature + SARS-CoV-2 trigger) is mandatory for trial success.
 
-*Falsifiable:* Fit $p_A$ from epidemiological data (HHV-6 seroprevalence × reactivation fraction × ME/CFS post-HHV6 fraction). If model-predicted mixed-trial null result is confirmed in historical data, this supports subpopulation stratification as the primary design requirement.
+*Falsifiable:* Fit $p_A$ from epidemiological data (HHV-6 seroprevalence x reactivation fraction x ME/CFS post-HHV6 fraction). If model-predicted mixed-trial null result is confirmed in historical data, this supports subpopulation stratification as the primary design requirement.
 
 *Certainty:* 0.40 — the qualitative heterogeneity argument is well-supported; quantitative parameter estimation requires ISR-subtype prevalence data not yet available.
 ] <oq:isr-two-population-model>
@@ -2828,3 +2828,18 @@ Kang et al.@Kang2026ExosomeHSP70Sleep demonstrated that RVG-targeted exosomes ca
 #limitation(title: [Engineered Exosome Studies — Research Protocol Only])[
 These are proposed preclinical studies. No ME/CFS patient-derived iPSC lines have been established with characterised neuroinflammatory phenotypes. The RVG-exosome platform is from a single laboratory (Kang 2026) and has not been independently replicated. GMP-grade exosome manufacturing for any CNS indication does not exist. The sequence E-1 → E-2 → E-3 → E-4 represents a multi-year preclinical programme; clinical translation, if any, is a decade away. These protocols should not be interpreted as imminent therapeutic proposals.
 ]
+
+== Thermoregulatory Research Protocols
+
+#open-question(title: [Precision Thermal Dose-Response: Mapping Temperature x Duration x Frequency in ME/CFS])[
+Hochecker et al. (2025) demonstrated acute cellular benefit from WBH at 39°C core temperature; Soejima et al. (2015) reported clinical improvement with Waon therapy at 60°C ambient. Neither study establishes the minimal effective thermal dose, optimal frequency, or severity-stratified protocol. A systematic four-arm dose-finding trial (40°C, 45°C, 52°C, 60°C x 10 vs 15 vs 20 min x 2 vs 3 vs 5x/week) with PBMC respirometry, HSP70, and clinical fatigue outcomes is needed. Severity-stratified arms would determine whether moderate and severe patients require lower temperatures or shorter durations. Falsifiable: a U-shaped thermal dose-response curve will emerge with 52°C/15 min/3x/week as the optimal trade-off between HSP70 induction (more than 2-fold increase) and PEM incidence (below 10%). @Hochecker2025HyperthermiaMECFS @Soejima2015WaonTherapyCFS
+] <oq:thermal-dose-response>
+
+#open-question(title: [Cold Tolerance Phenotyping: Mechanistic Subtyping via Thermography and BAT Imaging])[
+Cold intolerance in ME/CFS could reflect: (a) failed BAT activation via sympathetic dysfunction, (b) tonic vasoconstriction bias preventing perfusion recruitment, (c) central hypothalamic set-point error, or (d) SFN-mediated thermal afferent loss. Mechanistic phenotyping using thermography (cutaneous perfusion mapping), ^18F-FDG PET-CT (BAT activation), shivering EMG, and plasma catecholamines during standardized cold challenge (16°C, 2 h) would identify distinct subtypes with different treatment targets. Falsifiable: cluster analysis of cold challenge responses will identify 3--4 distinct phenotypes that predict differential response to BAT-targeted (mirabegron), vasodilatory (citrulline), and neural (clonidine) interventions. No cold challenge study has ever been conducted in ME/CFS.
+] <oq:cold-tolerance-phenotyping>
+
+#open-question(title: [Head-to-Head: Pharmacological vs Thermal HSP70 Induction in ME/CFS])[
+Hochecker et al. demonstrated that WBH induces HSP70 mRNA 48.33% in ME/CFS PBMCs, correlating with mitochondrial respiratory improvement @Hochecker2025HyperthermiaMECFS. Pharmacological HSP70 inducers (arimoclomol, celastrol, geranylgeranylacetone) exist but have never been compared to thermal induction in ME/CFS. A head-to-head three-arm trial (WBH vs arimoclomol vs combined) with HSP70 protein, ISR biomarkers, and mitochondrial respirometry endpoints would determine whether pharmacological induction replicates thermal benefit and whether combination produces synergy (different induction pathways) or ceiling effects (same pathway saturation). Falsifiable: arimoclomol will reproduce ≥80% of WBH's mitochondrial benefit; combined will not be synergistic (shared HSP70 pathway ceiling). Zero ME/CFS data for any pharmacological HSP70 inducer.
+] <oq:hsp70-pharmacological-vs-thermal>
+
