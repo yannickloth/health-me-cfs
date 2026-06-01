@@ -231,5 +231,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | striatal-emsn-mecfs | [subtrees/striatal-emsn-mecfs.md](subtrees/striatal-emsn-mecfs.md) | 2026-05-27 | 50 | 0 | ⬜ pending | —
 | brain-clearance-architecture-2026 | [subtrees/brain-clearance-architecture-2026.md](subtrees/brain-clearance-architecture-2026.md) | 2026-05-30 | 63 | 2 | 🔵 in progress | —
 | gpcr-autoantibodies-azcue2026 | [subtrees/gpcr-autoantibodies-azcue2026.md](subtrees/gpcr-autoantibodies-azcue2026.md) | 2026-06-01 | 50 | 3 | 🔵 in progress | —
-| heat-cold-thermoregulation | [subtrees/heat-cold-thermoregulation.md](subtrees/heat-cold-thermoregulation.md) | 2026-05-31 | 90 | 45 | ✅ done | —
+| heat-cold-thermoregulation | [subtrees/heat-cold-thermoregulation.md](subtrees/heat-cold-thermoregulation.md) | 2026-05-31 | | 90 | 65 | ✅ done | —
 | myboussole-fr-veille-2026 | [subtrees/myboussole-fr-veille-2026.md](subtrees/myboussole-fr-veille-2026.md) | 2026-06-01 | 17 | 0 | ⬜ pending | —
+| fatigue-no-inflammation-omdal-2026 | [subtrees/fatigue-no-inflammation-omdal-2026.md](subtrees/fatigue-no-inflammation-omdal-2026.md) | 2026-06-01 | 5 | 1 | 🔵 in progress | —

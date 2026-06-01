@@ -475,4 +475,56 @@ Engineered extracellular vesicles represent an emerging therapeutic delivery pla
 *Certainty: 0.25.* Hypothesis H3 (brainstorm) proposes that mitochondrial ROS overload prevents adequate HSP70 induction in ME/CFS, creating a self-reinforcing loop: ROS → proteotoxic stress → HSP70 sequestration → worse mitochondrial quality → more ROS. MitoQ (mitochondria-targeted ubiquinone) concentrates at the inner mitochondrial membrane and reduces superoxide production at source. By lowering mitochondrial ROS burden, MitoQ could restore HSP70 inducibility and break the ROS-HSP70 feedback loop — independently of any thermal stimulus. Falsifiable: MitoQ vs placebo x 8 weeks reduces PBMC mitochondrial ROS (MitoSOX) by >30% and restores thermal-HSP70 inducibility to >80% of healthy control levels. No ME/CFS MitoQ data; human safety established in Parkinson's and NAFLD trials.
 ] <spec:mitoq-ros-hsp70>
 
+#speculation(title: [Pregnenolone Sulfate — TRPM3 Agonist for Calcium Signaling and TRPV1 Inhibition])[
+*Certainty: 0.20.* Pregnenolone sulfate is an endogenous neurosteroid and TRPM3 agonist. If TRPM3 channelopathy impairs calcium signaling in ME/CFS immune cells, and if TRPM3 agonism functionally inhibits TRPV1-mediated heat hyperresponsiveness (brainstorm Hypothesis H8), pregnanolone sulfate could simultaneously restore TRPM3-dependent calcium flux and reduce heat-triggered MCAS symptoms. The dual mechanism — calcium rescue + TRPV1 suppression — makes it mechanistically distinct from purely thermal TRPM3 activation. Falsifiable: pregnanolone sulfate normalizes TRPM3 calcium influx in ME/CFS PBMCs and reduces heat-triggered CGRP release by 40% within 4 weeks. No ME/CFS data; TRPM3 agonism is established in vitro only; TRPM3-TRPV1 antagonism demonstrated in sensory neurons, not immune cells.
+] <spec:pregnenolone-trpm3>
+
+#speculation(title: [Clonidine Patch — α2-Adrenergic Agonist for Vasomotor Bias Correction])[
+*Certainty: 0.25.* Clonidine (α2-agonist, 0.1 mg/24h patch) reduces central sympathetic outflow, which could counteract the tonic vasoconstriction bias proposed to underlie dual heat+cold intolerance (ch10:@spec:vasomotor-constriction-bias). Reduced sympathetic tone would permit cutaneous vasodilation during heat stress and allow perfusion recruitment for thermogenesis during cold stress — restoring vasomotor dynamic range from the neural side rather than the vascular (ET-1) side. However, clonidine can worsen orthostatic hypotension in POTS patients, making it contraindicated in the dysautonomic ME/CFS majority. Falsifiable: clonidine patch over 4 weeks increases baseline cutaneous perfusion by 25% and restores vasomotor responses to both heat and cold challenge; orthostatic symptoms do not worsen in patients without pre-existing hypotension. No ME/CFS clonidine thermoregulation data; safety concern in dysautonomia is well-documented.
+] <spec:clonidine-vasomotor>
+
+#open-question(title: [Could Low-Dose Naltrexone Improve Thermoregulation via Microglial TRPM3 Modulation?])[
+LDN (1--4.5 mg nightly) modulates microglial activation via toll-like receptor 4 antagonism and has documented effects on TRPM3 calcium channel function in ME/CFS NK cells @Cabanas2021. If central thermoregulatory centers (hypothalamus, brainstem) are under chronic microglial-mediated inflammatory tone, LDN could improve thermoregulation indirectly by reducing neuroinflammation, independently of its TRPM3 effects. The dual mechanism — peripheral TRPM3 normalization + central glial modulation — would predict thermoregulatory benefit as a secondary outcome. Falsifiable: LDN over 12 weeks improves TRPM3 calcium influx by 25% and reduces heat intolerance symptoms by 30%; improvement correlates with baseline inflammatory markers. No ME/CFS LDN thermoregulation data; LDN evidence in ME/CFS is from small open-label studies.
+] <oq:ldn-thermoreg>
+
+=== GPCR Autoantibody-Targeted Pharmacological Strategies
+
+All below are research-stage only; no ME/CFS human dosing data exists for any. @Azcue2026gpcr.
+
+#speculation(title: [Low-Dose Propranolol for $beta_2$-AAb-Positive ME/CFS])[
+*Certainty: 0.50.* Low-dose propranolol (5mg BID, titrated to max 40mg BID) as competitive antagonist blocking $beta_2$-AAb binding, allowing receptor resensitization. Titration based on HRV response and orthostatic BP. Prediction: $beta_2$-AAb-positive patients show greater HRV improvement on propranolol vs $beta_2$-AAb-negative. Contraindicated in asthma, bradycardia, hypotension. Not a clinical recommendation — research-stage. @Azcue2026gpcr @Stein2024immunoadsorption.
+] <spec:low-dose-propranolol-beta2-aab>
+
+#open-question(title: [M1/M4 Positive Allosteric Modulators for Muscarinic-Cognitive Enhancement])[
+Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signaling without direct agonism, potentially synergizing with moderate M1/M4-AAb-mediated cognitive protection. Could benefit M1/M4-AAb-low ME/CFS with cognitive impairment. No approved M1/M4 PAMs exist; all are experimental compounds. Prediction: greater cognitive improvement in moderate-AAb vs low-AAb patients on PAM. Safety: cholinergic excess (bradycardia, GI upset) at high doses. @Azcue2026gpcr.
+] <oq:m1-m4-pam-muscarinic-cognition>
+
+#speculation(title: [Fc$gamma$R Blockade with Fc(ab')$""_2$ Fragments])[
+*Certainty: 0.45.* If $beta_2$-AAbs are pathogenic via Fc$gamma$R engagement (not direct receptor agonism), Fc(ab')$""_2$ fragments (IVIG digested, Fc removed) would block Fc$gamma$R-mediated monocyte activation without removing antibodies. Requires experimental compounding. Prediction: Fc$gamma$R blockade reduces IL-6 and TNF$alpha$ in $beta_2$-AAb-positive patients vs placebo. High cost. @Hackel2025monocyte @Azcue2026gpcr.
+] <spec:fcgr-blockade-ivig-fragment>
+
+#speculation(title: [Raloxifene for $beta_2$-AAb Reduction in Postmenopausal Females])[
+*Certainty: 0.35.* Raloxifene 60mg daily (FDA-approved SERM for osteoporosis), ER$alpha$ antagonist, may reduce $beta_2$-AR expression on B cells and thus $beta_2$-AAb antigenicity in postmenopausal females. Prediction: $beta_2$-AAb titer reduction at 6 months vs placebo. Contraindicated in premenopausal women; thrombosis risk. Purely mechanistic — no AAb-specific data. @Azcue2026gpcr.
+] <spec:raloxifene-serm-female-beta2-aab>
+
+#speculation(title: [Low-Dose Dronabinol for CB1-Mediated Cognitive Protection])[
+*Certainty: 0.30.* Dronabinol 2.5mg BID as partial CB1 agonist to amplify muscarinic-AAb-mediated cognitive protection (via CB1-mAChR heterodimer cross-activation) in M1/M4-AAb-low ME/CFS. Prediction: cognitive improvement greater in low-AAb vs high-AAb patients (ceiling effect). Psychoactive side effects limit tolerability. @Azcue2026gpcr.
+] <spec:low-dose-dronabinol-cb1-cognition>
+
+#speculation(title: [Quercetin for $beta_2$-AR Resensitization])[
+*Certainty: 0.40.* Quercetin 500mg phytosome BID upregulates $beta_2$-AR expression via CREB pathway, potentially resensitizing receptors desensitized by chronic $beta_2$-AAb binding. Prediction: HRV improvement in $beta_2$-AAb-positive vs negative patients at 12 weeks. Caution: quinolone antibiotic interaction reduces absorption. @Azcue2026gpcr.
+] <spec:quercetin-beta2-ar-resensitization>
+
+#speculation(title: [Omega-3 (EPA/DHA) for Fc$gamma$R Modulation])[
+*Certainty: 0.45.* EPA 2g + DHA 1g daily incorporates into immune cell membranes, altering lipid raft composition and reducing Fc$gamma$R signaling affinity. May dampen Fc$gamma$R-mediated cytokine production triggered by GPCR-IgG1 AAbs. Prediction: IL-6 reduction correlates with omega-3 index >8% at 24 weeks. Well-tolerated; low risk. @Hackel2025monocyte @Azcue2026gpcr.
+] <spec:omega3-fcgr-modulation>
+
+#speculation(title: [NAC for GPCR AAb Bystander Suppression])[
+*Certainty: 0.38.* NAC 600mg TID increases glutathione, shifting redox balance toward reduced state. Oxidative stress promotes B cell activation; NAC may suppress aberrant B cell activity and reduce GPCR AAb production. Prediction: GPCR AAb titer reduction correlates with glutathione increase at 16 weeks. Caution: rare paradoxical bronchospasm. @Azcue2026gpcr.
+] <spec:nac-gpcr-aab-bystander-suppression>
+
+#speculation(title: [Vitamin D Repletion for GPCR AAb Immune Tolerance])[
+*Certainty: 0.42.* Vitamin D3 5,000 IU daily to 25-OH-D 50--80 ng/mL induces Tregs and promotes B cell tolerance. Repletion may reduce GPCR AAb production by restoring immune regulation. Prediction: AAb reduction correlates with CD4#super[+]CD25#super[+]FoxP3#super[+] Treg increase at 6 months. Low risk; vitamin D deficiency common in ME/CFS. @Azcue2026gpcr.
+] <spec:vitamin-d-gpcr-aab-immune-tolerance>
+
 #include "ch18-brain-clearance-drugs.typ"

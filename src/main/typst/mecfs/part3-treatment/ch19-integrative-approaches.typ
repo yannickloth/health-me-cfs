@@ -3104,3 +3104,18 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 
 *Limitations.* No ME/CFS trials. Individual variation in optimal protocols. Requires significant patient effort and adherence. PEM monitoring essential. Progression may be very slow (months to years). Equipment cost (custom pillow) may be barrier.
 ]
+
+== Thermal Combination Protocols
+
+#speculation(title: [Low-Resource Thermal Protocol: Tepid Bath + Slow Breathing + Glycine])[
+*Certainty: 0.30.* Sauna (Waon) therapy is inaccessible for many patients due to cost, geography, or severity. A low-resource alternative combining tepid bath (32--34°C, 15 min, 2x/week), slow diaphragmatic breathing (6 breaths/min, 10 min, 2x/day), and oral glycine (3 g/day) provides vasodilation, vagal activation, and ET-1 reduction at minimal cost (below \$50 per month). This combination targets three thermoregulatory mechanisms — vascular tone, autonomic balance, and endothelial signaling — simultaneously. Falsifiable: low-resource protocol over 8 weeks produces 70--80% of the symptom improvement of Waon therapy; adherence above 80%. No ME/CFS combination data; individual components have weak mechanistic support.
+] <spec:low-resource-thermal>
+
+#speculation(title: [Severe Bedbound Protocol: Localized Heat + Glycine + Pacing Education])[
+*Certainty: 0.25.* Bedbound patients cannot access pool or sauna facilities. Localized heat (heating pad at 40--42°C on hands/feet, 10 min, 2x/day) may induce peripheral HSP70 without systemic thermal stress. Combined with glycine (3 g/day, mixed in food/beverage) and pacing education for thermal activity management, this protocol provides accessible thermoregulatory support for the most severely affected. Falsifiable: bedbound protocol over 8 weeks improves peripheral skin temperature by 2°C and reduces fatigue by 20% without triggering PEM. No data in severe ME/CFS; localized HSP70 induction demonstrated in healthy skin but not in ME/CFS.
+] <spec:bedbound-thermal>
+
+#speculation(title: [Caregiver-Implemented Thermal Protocol for Severe Patients])[
+*Certainty: 0.30.* Severe ME/CFS patients depend on caregivers for basic activities. A caregiver-implemented protocol — preparing tepid baths, timing breathing sessions, mixing glycine supplements — requires minimal technical skill (1 hour training) but provides daily thermal support that would otherwise be inaccessible. Caregiver burden may paradoxically decrease if the protocol improves patient symptoms and reduces crisis events. Falsifiable: caregiver-implemented protocol over 8 weeks improves patient-reported symptom scores by 25% and reduces caregiver burden (Zarit scale) by 20%. No caregiver-implemented thermal protocol data.
+] <spec:caregiver-thermal>
+

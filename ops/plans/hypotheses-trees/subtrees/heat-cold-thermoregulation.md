@@ -24,27 +24,27 @@
 | R1 | Precision Thermal Dose-Response | open-question | 0.85 | 3 | 4 | 2 | 2 | 2 | ✅ | — |
 | R2 | Cold Tolerance Phenotyping | open-question | 0.78 | 3 | 2 | 3 | 1 | 3 | ✅ | — |
 | R3 | HSP70 Pharmacological vs Thermal Induction | open-question | 0.82 | 3 | 4 | 2 | 2 | 1 | ✅ | — |
-| R4 | ET-1 Modulation Trial | open-question | 0.76 | 3 | 4 | 2 | 2 | 2 | ⬜ | — |
-| R5 | TRPM3-TRPV1 Rescue in Patient Neurons | open-question | 0.71 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
-| R6 | Waon Therapy Optimization Trial | open-question | 0.84 | 2 | 4 | 1 | 1 | 1 | ⬜ | — |
-| R7 | Mitochondrial Reserve Predictive Model | open-question | 0.80 | 3 | 3 | 2 | 3 | 3 | ⬜ | — |
-| R8 | Gradual Cold Adaptation Safety | open-question | 0.73 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| R9 | HSP70 Kinetic Profiling | open-question | 0.77 | 3 | 2 | 1 | 2 | 1 | ⬜ | — |
-| R10 | Heat vs Cold Sequencing Trial | open-question | 0.79 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
+| R4 | ✅ integrated | ⬜ | — |
+| R5 | ✅ integrated | ⬜ | — |
+| R6 | ✅ integrated | ⬜ | — |
+| R7 | ✅ integrated | ⬜ | — |
+| R8 | ✅ integrated | ⬜ | — |
+| R9 | ✅ integrated | ⬜ | — |
+| R10 | ✅ integrated | ⬜ | — |
 | D1 | Bosentan ET-1 Thermoregulation | speculation | 0.68 | 3 | 4 | 2 | 2 | 2 | ⬜ | — |
 | D2 | Mirabegron BAT Cold Intolerance | speculation | 0.65 | 3 | 4 | 3 | 1 | 2 | ⬜ | — |
 | D3 | Arimoclomol HSP70 Induction | speculation | 0.72 | 3 | 4 | 2 | 2 | 1 | ⬜ | — |
-| D4 | Pregnenolone Sulfate TRPM3 Rescue | speculation | 0.61 | 3 | 4 | 3 | 2 | 2 | ⬜ | — |
+| D4 | ✅ integrated | ⬜ | — |
 | D5 | MitoQ ROS-HSP70 Coupling | speculation | 0.67 | 3 | 3 | 2 | 2 | 1 | ⬜ | — |
-| D6 | IVIG Thermosensor Autoimmunity | speculation | 0.58 | 3 | 3 | 2 | 1 | 1 | ⬜ | — |
-| D7 | Clonidine Vasomotor Bias | speculation | 0.63 | 3 | 3 | 3 | 2 | 1 | ⬜ | — |
-| D8 | LDN Microglia-TRPM3 | speculation | 0.59 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| D9 | Roflumilast PDE4-Autophagy | speculation | 0.55 | 2 | 3 | 2 | 2 | 1 | ⬜ | — |
-| D10 | 4-PB ER Stress-HSP70 | speculation | 0.62 | 2 | 3 | 2 | 2 | 1 | ⬜ | — |
-| S1 | Alpha-Lipoic Acid Mitochondrial-HSP70 | speculation | 0.71 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| S2 | Glycine Collagen-ET-1 Reduction | speculation | 0.64 | 2 | 3 | 2 | 1 | 2 | ⬜ | — |
+| D6 | ✅ integrated | ⬜ | — |
+| D7 | ✅ integrated | ⬜ | — |
+| D8 | ✅ integrated | ⬜ | — |
+| D9 | ✅ integrated | ⬜ | — |
+| D10 | ✅ integrated | ⬜ | — |
+| S1 | ✅ integrated | ⬜ | — |
+| S2 | ✅ integrated | ⬜ | — |
 | S3 | L-Carnitine BAT Fatty Acid Oxidation | speculation | 0.67 | 2 | 3 | 2 | 2 | 1 | ⬜ | — |
-| S4 | N-acetylcysteine HSF1-ROS Modulation | speculation | 0.62 | 2 | 2 | 2 | 1 | 1 | ⬜ | — |
+| S4 | ✅ integrated | ⬜ | — |
 | S5 | Resveratrol SIRT1-HSP70 | speculation | 0.58 | 2 | 2 | 2 | 1 | 1 | ⬜ | — |
 | S6 | Creatine Thermoregulatory ATP Buffer | speculation | 0.69 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
 | S7 | Quercetin HSP70-Inducible Chaperone | speculation | 0.60 | 2 | 2 | 2 | 1 | 1 | ⬜ | — |
@@ -54,53 +54,53 @@
 | N1 | Personalized Sauna/Waon Protocol | speculation | 0.60 | 2 | 4 | 2 | 1 | 1 | ⬜ | — |
 | N2 | Gradual Cold Face Immersion | speculation | 0.45 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
 | N3 | Contrast Water Therapy | speculation | 0.42 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| N4 | Heat-Adapted Slow Breathing | speculation | 0.50 | 2 | 3 | 2 | 2 | 1 | ⬜ | — |
+| N4 | ✅ integrated | ⬜ | — |
 | N5 | Post-Heat Horizontal Recovery | speculation | 0.55 | 2 | 3 | 1 | 1 | 1 | ⬜ | — |
-| N6 | Temperature-Controlled Yoga | speculation | 0.48 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| N7 | Graduated Compression + Cooling | speculation | 0.55 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| N8 | Cold Bedroom Sleep Enhancement | speculation | 0.52 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| N9 | Thermoneutral Water Walking | speculation | 0.58 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
+| N6 | ✅ integrated | ⬜ | — |
+| N7 | ✅ integrated | ⬜ | — |
+| N8 | ✅ integrated | ⬜ | — |
+| N9 | ✅ integrated | ⬜ | — |
 | N10 | Far-Infrared Blanket Home Therapy | speculation | 0.45 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| C1 | Heat+Cold Alternating Protocol | speculation | 0.50 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
-| C2 | Caregiver-Administered Thermal Schedule | speculation | 0.45 | 2 | 3 | 1 | 1 | 1 | ⬜ | — |
-| C3 | Severity-Stratified Thermal Access | speculation | 0.55 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
+| C1 | ✅ integrated | ⬜ | — |
+| C2 | ✅ integrated | ⬜ | — |
+| C3 | ✅ integrated | ⬜ | — |
 | C4 | PEM Recovery Thermal Protocol | speculation | 0.50 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
 | C5 | Digital Thermal Monitoring + Coaching | speculation | 0.55 | 2 | 2 | 1 | 1 | 2 | ⬜ | — |
 | C6 | Community Sauna Access Program | speculation | 0.40 | 1 | 3 | 1 | 1 | 1 | ⬜ | — |
-| C7 | Thermal Prehabilitation Before Activity | speculation | 0.48 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
+| C7 | ✅ integrated | ⬜ | — |
 | C8 | Sleep+Thermal Combined Protocol | speculation | 0.52 | 2 | 3 | 2 | 1 | 1 | ⬜ | — |
 | C9 | Nutritional Heating Protocol Bundle | speculation | 0.45 | 2 | 3 | 1 | 1 | 1 | ⬜ | — |
 | C10 | Telehealth Thermal Guidance | speculation | 0.55 | 1 | 3 | 1 | 1 | 1 | ⬜ | — |
-| M1 | Thermoregulatory ODE with ET-1 Variable | proposal | 0.50 | 3 | 1 | 2 | 5 | 1 | ⬜ | — |
-| M2 | HSP70-Mitochondrial LC3-II Coupling Model | proposal | 0.55 | 3 | 1 | 2 | 5 | 1 | ⬜ | — |
-| M3 | Dual Oscillator Circadian-ET-1 Model | proposal | 0.55 | 3 | 1 | 2 | 5 | 2 | ⬜ | — |
-| M4 | Vasomotor Bistable Switch Model | proposal | 0.50 | 3 | 1 | 2 | 4 | 1 | ⬜ | — |
-| M5 | BAT Activation Threshold Model | proposal | 0.48 | 2 | 1 | 2 | 4 | 2 | ⬜ | — |
-| M6 | Autophagy Switch: Selective→Bulk Model | proposal | 0.45 | 2 | 1 | 2 | 4 | 1 | ⬜ | — |
-| M7 | HSP70-PERK-ISR Negative Feedback Model | proposal | 0.52 | 3 | 1 | 2 | 5 | 1 | ⬜ | — |
-| M8 | Thermal Dose-Response Sigmoid Model | proposal | 0.55 | 2 | 2 | 2 | 4 | 2 | ⬜ | — |
-| M9 | TRPM3-TRPV1 Crosstalk ODE | proposal | 0.45 | 3 | 1 | 2 | 5 | 1 | ⬜ | — |
-| M10 | Heat-Cold Cross-Tolerance Network | proposal | 0.42 | 2 | 2 | 2 | 4 | 1 | ⬜ | — |
+| M1 | ✅ integrated | ⬜ | — |
+| M2 | ✅ integrated | ⬜ | — |
+| M3 | ✅ integrated | ⬜ | — |
+| M4 | ✅ integrated | ⬜ | — |
+| M5 | ✅ integrated | ⬜ | — |
+| M6 | ✅ integrated | ⬜ | — |
+| M7 | ✅ integrated | ⬜ | — |
+| M8 | ✅ integrated | ⬜ | — |
+| M9 | ✅ integrated | ⬜ | — |
+| M10 | ✅ integrated | ⬜ | — |
 | X1 | Heat Stroke Parallel: Gut Barrier | speculation | 0.65 | 4 | 2 | 3 | 1 | 1 | ⬜ | — |
-| X2 | Parkinson Thermoregulatory Similarities | speculation | 0.55 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
-| X3 | Menopause Hot Flash-Mechanism Parallel | speculation | 0.45 | 2 | 2 | 2 | 1 | 1 | ⬜ | — |
-| X4 | MS Uhthoff Phenomenon Parallel | speculation | 0.58 | 3 | 2 | 3 | 1 | 1 | ⬜ | — |
-| X5 | Fibromyalgia Thermal Hyperalgesia | speculation | 0.60 | 3 | 2 | 3 | 1 | 1 | ⬜ | — |
-| X6 | Orthostatic Hypotension Heat Collapse | speculation | 0.55 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
-| X7 | Sepsis-Induced Thermoregulatory Failure | speculation | 0.50 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
-| X8 | Spinal Cord Injury Thermoregulation | speculation | 0.48 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
+| X2 | ✅ integrated | ⬜ | — |
+| X3 | ✅ integrated | ⬜ | — |
+| X4 | ✅ integrated | ⬜ | — |
+| X5 | ✅ integrated | ⬜ | — |
+| X6 | ✅ integrated | ⬜ | — |
+| X7 | ✅ integrated | ⬜ | — |
+| X8 | ✅ integrated | ⬜ | — |
 | X9 | Diabetes Autonomic Neuropathy Heat | speculation | 0.55 | 3 | 2 | 2 | 1 | 1 | ⬜ | — |
 | X10 | Long COVID Thermoregulatory Persistence | speculation | 0.62 | 3 | 2 | 3 | 1 | 2 | ⬜ | — |
-| B1 | WBH Mitochondrial Reserve Stratification | open-question | 0.75 | 3 | 3 | 2 | 2 | 5 | ⬜ | — |
-| B2 | ET-1 Skin Temperature Rhythm Composite | open-question | 0.70 | 3 | 3 | 2 | 2 | 5 | ⬜ | — |
-| B3 | HSP70 Inducibility Stress Test | open-question | 0.72 | 3 | 3 | 2 | 2 | 4 | ⬜ | — |
-| B4 | BAT PET-CT Cold Intolerance Diagnosis | open-question | 0.65 | 3 | 2 | 2 | 1 | 4 | ⬜ | — |
-| B5 | TRPM3-TRPV1 Ratio in Skin Biopsy | open-question | 0.60 | 3 | 2 | 2 | 1 | 4 | ⬜ | — |
-| B6 | Vasomotor Reserve Laser Doppler | open-question | 0.68 | 3 | 2 | 2 | 2 | 4 | ⬜ | — |
-| B7 | LC3-II/HSP70 Autophagy-Health Index | open-question | 0.70 | 3 | 2 | 2 | 2 | 4 | ⬜ | — |
-| B8 | Thermoneutral Comfort Window Width | open-question | 0.62 | 2 | 3 | 2 | 1 | 3 | ⬜ | — |
-| B9 | Skin Temperature Fingerprint Classification | open-question | 0.58 | 2 | 3 | 2 | 2 | 4 | ⬜ | — |
-| B10 | Composite Thermoregulatory Dysfunction Scale | open-question | 0.72 | 3 | 3 | 2 | 2 | 5 | ⬜ | — |
+| B1 | ✅ integrated | ⬜ | — |
+| B2 | ✅ integrated | ⬜ | — |
+| B3 | ✅ integrated | ⬜ | — |
+| B4 | ✅ integrated | ⬜ | — |
+| B5 | ✅ integrated | ⬜ | — |
+| B6 | ✅ integrated | ⬜ | — |
+| B7 | ✅ integrated | ⬜ | — |
+| B8 | ✅ integrated | ⬜ | — |
+| B9 | ✅ integrated | ⬜ | — |
+| B10 | ✅ integrated | ⬜ | — |
 
 **Usefulness legend:** mech=mechanistic insight, tx=treatment potential, expl=explanatory power, math=math model fit, dx=diagnostic/biomarker (all 0-5)
 

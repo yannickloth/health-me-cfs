@@ -2586,4 +2586,62 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 *Certainty: 0.35.* Slow diaphragmatic breathing (6 breaths/min) increases vagal tone, which modulates vascular tone through the cholinergic anti-inflammatory pathway and may reduce ET-1 via parasympathetic bias. Improved vagal-vascular coupling could restore vasomotor flexibility, complementing thermal interventions. This is the same breathing protocol already discussed for glymphatic enhancement (Section @sec:connective-tissue-interventions) and ISR attenuation (Section @sec:isr-lifestyle-misc) — thermoregulatory benefit would be an additional, non-exclusive outcome. Falsifiable: slow-paced breathing over 12 weeks increases RMSSD by >25% and correlates (r > 0.4) with skin temperature rhythm amplitude improvement. No ME/CFS vagal-thermoregulation data.
 ] <spec:breathing-vagal-thermoreg>
 
+#speculation(title: [Gradual Cold Adaptation for Cold Tolerance Desensitization])[
+*Certainty: 0.25.* If cold intolerance reflects failed sympathetic activation of brown adipose tissue (ch10:@oq:bat-cold-intolerance) plus tonic vasoconstriction bias (ch10:@spec:vasomotor-constriction-bias), gradual cold exposure may recruit BAT and train vasomotor flexibility simultaneously. A stepped protocol starting at 20°C ambient (15 min, 3x/week), decreasing 2°C every 2 weeks, with strict orthostatic monitoring, may build cold tolerance without triggering PEM. The protocol mirrors cold adaptation in healthy populations but must respect the narrower tolerance window in ME/CFS. Falsifiable: gradual cold adaptation over 8 weeks increases cold tolerance by Δ4°C with dropout below 15%. No ME/CFS cold adaptation data; 45% dropout in the only CFS cryotherapy study signals poor tolerability.
+] <spec:cold-adaptation>
+
+#speculation(title: [Sleep Temperature Optimization for Peripheral Circadian Entrainment])[
+*Certainty: 0.30.* If ME/CFS involves dual-oscillator circadian decoupling (ch09:@spec:dual-oscillator-thermoreg), the sleep environment temperature — which directly entrains the peripheral vascular oscillator via skin thermoreceptors — is a modifiable intervention. Maintaining bedroom temperature at a consistent 18--20°C with breathable bedding may re-entrain the peripheral oscillator independently of central SCN entrainment. This extends the existing sleep hygiene recommendation (Section @sec:sleep-management) with a mechanistic rationale specific to thermoregulatory circadian disruption. Falsifiable: optimized sleep temperature protocols over 6 weeks re-synchronize skin temperature rhythm (amplitude increased by 25%) independently of central melatonin rhythm. No ME/CFS sleep-temperature entrainment data.
+] <spec:sleep-temp-circadian>
+
+#open-question(title: [Could Mindful Body Scan Training Improve Interoceptive-Thermoregulatory Awareness?])[
+Impaired interoception — awareness of internal body signals — has been documented in chronic fatigue conditions. If ME/CFS patients have reduced awareness of thermal state (delayed detection of overheating or chilling), mindful body scan practice (10--15 min daily, focused on temperature sensations) could improve early detection of thermal stress, enabling proactive environmental modification before symptom exacerbation. This is a low-risk, zero-cost adjunct. Falsifiable: 8 weeks of daily body scan improves interoceptive accuracy (heartbeat detection task) by 20% and reduces heat-triggered symptom severity by 25%. No ME/CFS interoceptive training data.
+] <oq:interoceptive-thermoreg>
+
+=== GPCR Autoantibody-Stratified Non-Pharmacological Interventions
+
+All below are speculative; none tested in ME/CFS with GPCR AAb stratification. @Azcue2026gpcr.
+
+#speculation(title: [HRV-Biofeedback for $beta_2$-AAb-Positive Sympathovagal Imbalance])[
+*Certainty: 0.55.* Resonant frequency breathing (5.5--6.5 breaths/min, 10 min BID, 12 weeks) trains parasympathetic tone to counterbalance $beta_2$-AAb-mediated sympathetic dominance. Prediction: greater RMSSD improvement in $beta_2$-AAb-positive vs negative patients. Smartphone-based HRV-biofeedback apps (Elite HRV) make this low-cost and home-accessible. @Azcue2026gpcr.
+] <spec:hrv-biofeedback-beta2-aab>
+
+#speculation(title: [Transcutaneous Vagus Nerve Stimulation for M3 Vagal Blind Spot])[
+*Certainty: 0.50.* Auricular tVNS (25 Hz, 250 $mu$s, 5 min/day, 8 weeks) directly activates vagal afferents, bypassing M3-AAb-desensitized receptors. May restore parasympathetic signaling from brainstem to periphery in M3-AAb-positive patients. FDA-cleared devices exist (gammaCore, Nemos). Prediction: M3-AAb-positive patients show greater orthostatic tolerance improvement than M3-AAb-negative. Contraindicated in vagotomy, cardiac pacemaker, carotid sinus hypersensitivity. @Azcue2026gpcr.
+] <spec:tvns-m3-vagal-blind-spot>
+
+#speculation(title: [Isometric Handgrip for Sympathetic Resensitization])[
+*Certainty: 0.40.* Isometric handgrip at 30% MVC (2 min x 4 sets, 3x/week, 12 weeks) activates muscle metaboreflex, potentially resensitizing $beta_2$-AR after AAb-induced desensitization. Prediction: chronotropic response improvement greater in $beta_2$-AAb-positive patients. Contraindicated in uncontrolled hypertension, recent MI. @Azcue2026gpcr.
+] <spec:isometric-handgrip-sympathetic-resens>
+
+#speculation(title: [Cognitive Remediation Stratified by M1/M4 AAb Status])[
+*Certainty: 0.42.* Computerized working memory training (n-back, 30 min/day, 5x/week, 12 weeks) stratified by M1/M4 AAb titers. Low-AAb patients (lacking AAb-mediated cognitive protection) predicted to benefit most. Prediction: greater cognitive gain in low-AAb vs high-AAb patients; high-AAb show ceiling effect. @Azcue2026gpcr.
+] <spec:cognitive-remediation-m1m4-stratified>
+
+#speculation(title: [Cold Water Face Immersion for Vagal Tone])[
+*Certainty: 0.30.* Cold water face immersion (10--15$deg$C, 30 sec, 2x/day, 8 weeks) activates mammalian dive reflex, increasing vagal tone. For $beta_2$-AAb-positive patients with sympathovagal imbalance. Prediction: RMSSD increase greater in $beta_2$-AAb-positive patients. Contraindicated in cold urticaria, arrhythmias, uncontrolled hypertension. @Azcue2026gpcr.
+] <spec:cold-water-face-immersion-vagal>
+
+== GPCR Autoantibody-Stratified Combination Protocols
+
+#speculation(title: [Autonomic Resilience Protocol — Low-Resource, Caregiver-Implementable])[
+*Certainty: 0.52.* Combined low-cost protocol for low-resource/homebound settings: HRV-biofeedback (6 breaths/min, 10 min BID) + omega-3 (2g EPA/1g DHA daily) + quercetin (500mg BID) + sleep hygiene (7--8h consistent schedule). Caregiver-implementable with smartphone HRV app + symptom diary. Prediction: combined protocol improves HRV (RMSSD) >30% vs single-component protocols; greater benefit in $beta_2$-AAb-positive patients. Escalation: add low-dose propranolol if no HRV improvement at 8 weeks. @Azcue2026gpcr.
+] <spec:autonomic-resilience-low-resource-protocol>
+
+#speculation(title: [PEM Prevention Bundle — Severity and AAb Stratified])[
+*Certainty: 0.50.* Severity-AAb-stratified PEM prevention: severe/bedbound → HRV-biofeedback + vitamin D + NAC, fully home-based; moderate/ambulatory → HRV-biofeedback + isometric handgrip + omega-3 + quercetin; mild → all above + graded exercise. AAb stratification: $beta_2$-positive → add low-dose propranolol; M3-positive → add tVNS; M1/M4-AAb-low → add cognitive remediation. Prediction: severity-AAb-matched protocols reduce PEM frequency vs uniform protocols; dropout lower in fully home-based severe protocol. @Azcue2026gpcr.
+] <spec:pem-prevention-bundle-severity-stratified>
+
+#speculation(title: [Immunoadsorption + Autonomic Retraining Sequential Protocol])[
+*Certainty: 0.45.* Sequential: immunoadsorption (5 sessions, weeks 0--2) → HRV-biofeedback initiation (weeks 2--4) → isometric handgrip (weeks 4--8) → graded exercise at 50% CPET-determined threshold (weeks 8--12). Autonomic retraining prevents rebound sympathetic dominance after AAb clearance. Maintenance: HRV-biofeedback + omega-3 + vitamin D. Prediction: lower relapse rate vs immunoadsorption alone; HRV improvement predicts exercise tolerance gain. @Stein2024immunoadsorption @Azcue2026gpcr.
+] <spec:immunoadsorption-autonomic-retraining>
+
+#speculation(title: [Cognitive-Autonomic Dual-Task Cross-Training])[
+*Certainty: 0.40.* Combined n-back working memory training while maintaining target HRV via resonant-frequency breathing. Progressive difficulty: increase n-back level while sustaining RMSSD >50 ms. 20 min/day, 5x/week, 12 weeks. $beta_2$-AAb-positive → emphasize autonomic target; M1/M4-AAb-low → emphasize cognitive target. Prediction: dual-task training improves both working memory and HRV more than single-task protocols; transfer to SF-36 correlates with both cognitive and autonomic gains. @Azcue2026gpcr.
+] <spec:cognitive-autonomic-dual-task-training>
+
+#speculation(title: [Community Clinic Implementation Protocol — Low-Tech, Scalable])[
+*Certainty: 0.42.* Primary care/community clinic without specialist access: ELISA $beta_2$/M1/M3/M4 (outsource) + smartphone HRV + symptom screen → treatment algorithm: $beta_2$-positive → HRV-biofeedback + omega-3 + quercetin; M3-positive → tVNS if available or cold water face immersion; M1/M4-AAb-low → web-based cognitive remediation; all → vitamin D repletion if deficient. Monthly telehealth check-ins; HRV every 2 weeks (home). Escalation: refer for immunoadsorption if no improvement at 3 months. Prediction: >20% symptom improvement vs usual care with adherence higher for home-based vs clinic-based monitoring. @Azcue2026gpcr.
+] <spec:community-clinic-aab-algorithm>
+
 #include "ch17-brain-clearance-lifestyle.typ"
