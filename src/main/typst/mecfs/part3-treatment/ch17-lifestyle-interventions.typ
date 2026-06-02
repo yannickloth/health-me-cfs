@@ -2595,7 +2595,7 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 ] <spec:sleep-temp-circadian>
 
 #open-question(title: [Could Mindful Body Scan Training Improve Interoceptive-Thermoregulatory Awareness?])[
-Impaired interoception — awareness of internal body signals — has been documented in chronic fatigue conditions. If ME/CFS patients have reduced awareness of thermal state (delayed detection of overheating or chilling), mindful body scan practice (10--15 min daily, focused on temperature sensations) could improve early detection of thermal stress, enabling proactive environmental modification before symptom exacerbation. This is a low-risk, zero-cost adjunct. Falsifiable: 8 weeks of daily body scan improves interoceptive accuracy (heartbeat detection task) by 20% and reduces heat-triggered symptom severity by 25%. No ME/CFS interoceptive training data.
+Impaired interoception — awareness of internal body signals — has been documented in chronic fatigue conditions. If ME/CFS patients have reduced awareness of thermal state (delayed detection of overheating or chilling), mindful body scan practice (10--15 min daily, focused on temperature sensations) could improve early detection of thermal stress, enabling proactive environmental modification before symptom exacerbation. This is a low-risk, zero-cost adjunct. Falsifiable: 8 weeks of daily body scan improves interoceptive accuracy (heartbeat detection task) by 20% and reduces heat-triggered symptom severity by 25%. No ME/CFS interoceptive training data. Falsified if body scan fails to produce at least 20% improvement in interoceptive accuracy AND fails to reduce heat-triggered symptom severity by at least 25% versus control, indicating interoceptive deficits are either not modifiable or not causal for thermal symptoms.
 ] <oq:interoceptive-thermoreg>
 
 #speculation(title: [Gentle Restorative Yoga for Vasomotor Flexibility and Autonomic Balance])[
@@ -2605,5 +2605,49 @@ Impaired interoception — awareness of internal body signals — has been docum
 #speculation(title: [Pacing Education for Thermoregulatory Activity Management])[
 *Certainty: 0.25.* Thermal stress is energy-expensive and can precipitate PEM. Pacing education specifically for thermal activities — logging thermal exposures, grading activity by exertion level, and planning within the energy envelope — may prevent heat-triggered crashes while enabling gradual thermotolerance building. This extends existing pacing education (Section @sec:pacing) to the thermal domain. Falsifiable: thermal pacing education over 8 weeks reduces PEM frequency by 35% and increases thermal tolerance time by 25%. No ME/CFS thermal-pacing data.
 ] <spec:thermal-pacing>
+
+=== GPCR Autoantibody-Stratified Non-Pharm Interventions (Provisional)
+
+{No clinical GPCR autoantibody test exists — CellTrend ELISA is research-only with contested specificity (Germain 2025 null, Vernino 2022 100% control positivity). These protocols cannot be implemented in routine care. Included for research completeness; not clinical guidance. @Azcue2026gpcr.}
+
+#speculation(title: [HRV-Biofeedback for beta2-AAb-Positive Sympathovagal Imbalance])[
+*Certainty: 0.55.* Resonant frequency breathing (5.5-6.5 breaths/min, 10 min BID, 12 weeks) trains parasympathetic tone to counterbalance beta2-AAb-mediated sympathetic dominance. Contingent on validated GPCR AAb measurement. Prediction: greater RMSSD improvement in beta2-AAb-positive vs negative patients. @Azcue2026gpcr.
+] <spec:hrv-biofeedback-beta2-aab>
+
+#speculation(title: [Transcutaneous Vagus Nerve Stimulation for M3 Vagal Blind Spot])[
+*Certainty: 0.50.* Auricular tVNS (25 Hz, 250 mus, 5 min/day, 8 weeks) activates vagal afferents, bypassing M3-AAb-desensitized receptors. FDA-cleared devices exist (gammaCore, Nemos). Contingent on validated GPCR AAb measurement. Contraindicated: vagotomy, cardiac pacemaker. @Azcue2026gpcr.
+] <spec:tvns-m3-vagal-blind-spot>
+
+#speculation(title: [Isometric Handgrip for Sympathetic Resensitization])[
+*Certainty: 0.40.* Isometric handgrip at 30% MVC (2 min x 4 sets, 3x/week, 12 weeks) activates metaboreflex, potentially resensitizing beta2-AR after AAb-induced desensitization. Contingent on validated GPCR AAb measurement and causality. Contraindicated: uncontrolled hypertension, recent MI. @Azcue2026gpcr.
+] <spec:isometric-handgrip-sympathetic-resens>
+
+#speculation(title: [Cognitive Remediation Stratified by M1/M4 AAb Status])[
+*Certainty: 0.42.* Computerized working memory training (n-back, 30 min/day, 5x/week, 12 weeks) stratified by M1/M4 AAb titers. Low-AAb patients predicted to benefit most. Contingent on muscarinic-AAb--cognition correlation being causal (vs survivorship bias). @Azcue2026gpcr.
+] <spec:cognitive-remediation-m1m4-stratified>
+
+#speculation(title: [Cold Water Face Immersion for Vagal Tone])[
+*Certainty: 0.30.* Face immersion (10--15C, 30 sec, 2x/day, 8 weeks) activates mammalian dive reflex. Contraindicated: cold urticaria, arrhythmias. @Azcue2026gpcr.
+] <spec:cold-water-face-immersion-vagal>
+
+#speculation(title: [Autonomic Resilience Protocol — Low-Resource, Caregiver-Implementable])[
+*Certainty: 0.52.* Combined: HRV-biofeedback + omega-3 (2g EPA/1g DHA) + quercetin (500mg BID) + sleep hygiene. Caregiver-implementable with smartphone HRV app. Contingent on GPCR AAb clinical test availability. @Azcue2026gpcr.
+] <spec:autonomic-resilience-low-resource-protocol>
+
+#speculation(title: [PEM Prevention Bundle — Severity and AAb Stratified])[
+*Certainty: 0.50.* Severity-stratified: severe (bedbound) = HRV-biofeedback + vitamin D + NAC, fully home-based; moderate = HRV-biofeedback + isometric handgrip + omega-3 + quercetin; mild = all above + graded exercise. AAb-stratification: beta2-positive add propranolol; M3-positive add tVNS. Contingent on clinical AAb test. @Azcue2026gpcr.
+] <spec:pem-prevention-bundle-severity-stratified>
+
+#speculation(title: [Immunoadsorption + Autonomic Retraining Sequential Protocol])[
+*Certainty: 0.45.* Sequential: immunoadsorption (5 sessions, weeks 0--2) then HRV-biofeedback (weeks 2--4) then isometric handgrip (weeks 4--8) then graded exercise at 50% CPET threshold (weeks 8--12). Maintenance: HRV-biofeedback + omega-3 + vitamin D. Prediction: lower relapse rate vs IA alone. @Stein2024immunoadsorption @Azcue2026gpcr.
+] <spec:immunoadsorption-autonomic-retraining>
+
+#speculation(title: [Cognitive-Autonomic Dual-Task Cross-Training])[
+*Certainty: 0.40.* Combined n-back working memory while maintaining target HRV. Progressive: increase n-back level while sustaining RMSSD >50 ms. 20 min/day, 5x/week. @Azcue2026gpcr.
+] <spec:cognitive-autonomic-dual-task-training>
+
+#open-question(title: [Could Community Clinics Implement GPCR AAb-Guided Treatment Algorithms?])[
+Not a clinical recommendation. No clinical GPCR autoantibody test exists. The concept of ELISA-based community stratification (beta2-positive → HRV-biofeedback; M3-positive → tVNS) is hypothetical — both the diagnostic and predicted treatment responses are unvalidated. Included as research direction, not actionable protocol. Prediction: a validated clinical platform with independent replication in n >= 300 would be required before any treatment algorithm could be tested. @Azcue2026gpcr.
+] <oq:community-clinic-aab-algorithm>
 
 #include "ch17-brain-clearance-lifestyle.typ"

@@ -416,3 +416,27 @@ where $["MC_act"]$ is activated mast cell density, $["ECM_q"]$ is ECM quality (n
 
 *Certainty: 0.50.* The biochemical links are established: ECM fragments activate mast cells via TLR2/TLR4 @Magadmi2019, mast cells release MMP-9 and tryptase that degrade ECM, and histamine/tryptase modulate fibroblast ECM synthesis. The bistability prediction requires verification that loop gain in ME/CFS patients exceeds unity, producing distinct attractor basins. The hysteresis width (magnitude of perturbation required to switch states) is patient-specific and depends on baseline repair capacity ($k_"ECM,synth"$) and fragment clearance rates. Measurement of ECM fragments (e.g., collagen degradation markers), mast cell activation (serum tryptase), and MMP activity in ME/CFS with and without hEDS can calibrate and validate the model.
 ]
+
+== Provisional GPCR Autoantibody Model Extensions (Azcue 2026)
+
+{Contingent: if CellTrend ELISA signal is non-specific binding, all models below collapse. Included for research completeness; not validated. @Azcue2026gpcr.}
+
+#speculation(title: [GPCR Autoantibody and Receptor Dynamics ODE System])[
+*Certainty: 0.55.* Five-equation ODE with variables A_ab(t) (AAb concentration), R_sens(t)/R_desens(t) (sensitive/desensitized receptor fractions), HRV(t), C(t) (cognitive performance). Key dynamics: receptor desensitization by AAb binding vs resensitization; HRV as function of receptor ratio; cognitive performance via inverted-U muscarinic AAb effect. Prediction: HRV shows hysteresis after AAb clearance (tau approx 1/kappa_resens); cognitive performance shows bistability. Contingent on GPCR AAb pathogenicity. @Azcue2026gpcr @Stein2024immunoadsorption.
+] <spec:gpcr-aab-ode-dynamics>
+
+#speculation(title: [Causal DAG Extension with GPCR Autoantibody Nodes])[
+*Certainty: 0.60.* Seven new DAG nodes: GPCR_AAb, AAb_IgG1, AAb_IgG4, FcgammaR_Immune, Receptor_Desens, Vagal_Blind, Estrogen_Level. Edges: GPCR_AAb to Receptor_Desens; Estrogen_Level to GPCR_AAb (female bias mediation); AAb_IgG1 to FcgammaR_Immune (pro-inflammatory pathway). Prediction: 40--60% of sex effect on autonomic dysfunction mediated by GPCR_AAb pathway. Contingent on validated GPCR AAb measurement. @Azcue2026gpcr.
+] <spec:causal-dag-gpcr-aab-nodes>
+
+#speculation(title: [Inverted-U Cognitive Function Model for Muscarinic AAbs])[
+*Certainty: 0.50.* C(M) = C0 + DeltaC_max * M/(M+M_half) * (1 - M/M_toxic). Captures Azcue2026 counterintuitive positive correlation: low-moderate titers enhance cognition; high titers become toxic. M_half approx 30--40th percentile, M_optimal approx 60--70th percentile, M_toxic approx 90th percentile. Prediction: quadratic R2 exceeds linear R2. Contingent on correlation being causal, not survivorship bias. @Azcue2026gpcr.
+] <spec:inverted-u-cognitive-function-model>
+
+#speculation(title: [IgG4-to-IgG1 Isotype Switch ODE Model])[
+*Certainty: 0.42.* dA_IgG4/dt and dA_IgG1/dt with IL-21-driven IgG4 and IFN-gamma-driven IgG1 switching plus IgG4-to-IgG1 conversion. Total AAb (CellTrend) = A_IgG4 + A_IgG1. REAP/Luminex detection = eta_IgG4*A_IgG4 + eta_IgG1*A_IgG1 where eta_IgG1 much-less-than eta_IgG4. Prediction: A_IgG4/A_IgG1 ratio decreases over time; REAP null explained by eta_IgG1 less than 0.2*eta_IgG4. Least parsimonious of four explanations; assumes isotype bias in platform detection. @Azcue2026gpcr @Germain2025autoantibody.
+] <spec:igg4-igg1-isotype-switch-model>
+
+#speculation(title: [PEM Trigger Model with GPCR AAb Threshold])[
+*Certainty: 0.50.* PEM_state = 1 if Demand greater-than R_reserve * theta_threshold. dR_reserve/dt = kappa_prod - kappa_AAb*A_ab*R_reserve - kappa_desens*Demand*R_reserve. Recovery: dRecovery/dt = kappa_rec*(1 - PEM_state) - kappa_trigger*PEM_state with hysteresis (kappa_rec less-than kappa_trigger). Prediction: beta2-AAb-positive patients have lower theta_threshold; immunoadsorption increases it; pacing keeps Demand below R_reserve*theta_threshold. Contingent on GPCR AAb causality (r^2=0.20, 80% unexplained). @Azcue2026gpcr.
+] <spec:pem-trigger-model-aab-threshold>

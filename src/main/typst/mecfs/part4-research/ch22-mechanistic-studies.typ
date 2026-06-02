@@ -431,6 +431,10 @@ Ex vivo PBMC assay: purified ME/CFS IgG incubated with monocytes; FcgammaR engag
 RCT n=60 beta2-AAb-positive ME/CFS: 5 sessions IA vs sham. Primary: HRV change. Only interpretable if beta2-AAb positivity is defined by a validated assay. If CellTrend signal is non-specific → no difference between active and sham expected regardless of AAb status. @Stein2024immunoadsorption @Azcue2026gpcr.
 ] <oq:beta2-aab-ia-rct-autonomic-endpoints>
 
+#open-question(title: [Muscarinic AAb Cognitive Neuroimaging Substudy])[
+Cross-sectional n=40 ME/CFS (20 M-AAb-high, 20 M-AAb-low) + 20 HCs: fMRI resting-state DMN/frontoparietal connectivity + PET muscarinic receptor availability + 7-domain cognitive testing + plasma M1/M3/M4 AAb titers. Contingent on Azcue2026 muscarinic-cognition correlation being causal, not survivorship bias. Only interpretable with validated (not CellTrend) assay. @Azcue2026gpcr.
+] <oq:muscarinic-cognition-neuroimaging>
+
 == Integrative Multi-Omics Studies
 <sec:multi-omics-integration>
 
