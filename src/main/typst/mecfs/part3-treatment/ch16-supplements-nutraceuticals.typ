@@ -2356,4 +2356,16 @@ Melatonin is produced by the pineal gland and by thymic epithelial cells, where 
 Quercetin (500 mg BID) stabilizes mast cells and desensitizes TRPV1 receptors in preclinical models — the same TRPV1-mast cell axis implicated in heat-triggered MCAS exacerbation in ME/CFS (Section @sec:ch15-mast-cells). If heat-triggered flushing, gastrointestinal symptoms, and orthostatic worsening are TRPV1-mediated in MCAS+ ME/CFS patients, quercetin could reduce heat-triggered symptom burden without requiring thermal avoidance. Falsifiable: quercetin vs placebo x 8 weeks in MCAS+ ME/CFS reduces heat-triggered symptom severity by >40% (validated MCAS symptom diary during standardized heat challenge). No ME/CFS quercetin thermoregulation data; MCAS literature is from general population.
 ] <oq:quercetin-trpv1-heat>
 
+#speculation(title: [Alpha-Lipoic Acid for Nrf2-Mediated HSP70 Upregulation])[
+*Certainty: 0.30.* Alpha-lipoic acid (ALA, 600 mg/day) is a mitochondrial cofactor and antioxidant that upregulates HSP70 via Nrf2 pathway activation. By providing both mitochondrial protection (antioxidant) and HSP70 induction (via Nrf2), ALA may deliver dual thermoregulatory benefit without requiring thermal stress — particularly relevant for heat-intolerant patients who cannot use sauna. Falsifiable: ALA over 8 weeks increases HSP70 protein by 1.5-fold and improves spare respiratory capacity by 30%, with GI effects below 15%. No ME/CFS ALA thermoregulation data.
+] <spec:ala-hsp70>
+
+#speculation(title: [Glycine for Collagen-Vascular Stabilization and ET-1 Reduction])[
+*Certainty: 0.30.* Glycine (3 g/day) is a collagen component and acts as a vasodilator via glycine receptors on endothelial cells. It may reduce ET-1 production and improve vascular tone, supporting vasomotor flexibility. Glycine is already discussed for sleep thermoregulation (Section @sec:sleep-management) — thermoregulatory vascular benefit during waking hours would extend its utility. Falsifiable: glycine over 8 weeks reduces ET-1 by 15% and improves skin temperature rhythm amplitude by 20%. No ME/CFS glycine-vascular data; sleep benefit supported by one RCT.
+] <spec:glycine-vascular-thermoreg>
+
+#speculation(title: [Sulforaphane for Nrf2-HSP70 Dual Pathway Activation])[
+*Certainty: 0.25.* Sulforaphane (broccoli sprout extract, 30--60 mg/day) activates Nrf2 and upregulates HSP70 simultaneously, providing antioxidant defense plus molecular chaperone support. The dual pathway may be synergistic: Nrf2 reduces oxidative stress that sequesters HSP70, while HSP70 induction supports mitochondrial protein import. Falsifiable: sulforaphane over 8 weeks activates Nrf2 targets more than 3-fold and increases HSP70 protein more than 2-fold, with GI effects below 20%. No ME/CFS sulforaphane data.
+] <spec:sulforaphane-hsp70>
+
 #include "ch16-brain-clearance-supplements.typ"

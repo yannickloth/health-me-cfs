@@ -234,3 +234,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | heat-cold-thermoregulation | [subtrees/heat-cold-thermoregulation.md](subtrees/heat-cold-thermoregulation.md) | 2026-05-31 | | 90 | 65 | ✅ done | —
 | myboussole-fr-veille-2026 | [subtrees/myboussole-fr-veille-2026.md](subtrees/myboussole-fr-veille-2026.md) | 2026-06-01 | 17 | 0 | ⬜ pending | —
 | fatigue-no-inflammation-omdal-2026 | [subtrees/fatigue-no-inflammation-omdal-2026.md](subtrees/fatigue-no-inflammation-omdal-2026.md) | 2026-06-01 | 5 | 1 | 🔵 in progress | —
+| mast-cell-theoharides-2026 | [subtrees/mast-cell-theoharides-2026.md](subtrees/mast-cell-theoharides-2026.md) | 2026-06-01 | 2 | 2 | ✅ done | —

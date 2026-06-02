@@ -3119,3 +3119,12 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 *Certainty: 0.30.* Severe ME/CFS patients depend on caregivers for basic activities. A caregiver-implemented protocol — preparing tepid baths, timing breathing sessions, mixing glycine supplements — requires minimal technical skill (1 hour training) but provides daily thermal support that would otherwise be inaccessible. Caregiver burden may paradoxically decrease if the protocol improves patient symptoms and reduces crisis events. Falsifiable: caregiver-implemented protocol over 8 weeks improves patient-reported symptom scores by 25% and reduces caregiver burden (Zarit scale) by 20%. No caregiver-implemented thermal protocol data.
 ] <spec:caregiver-thermal>
 
+== Math Model Extensions for Thermoregulation
+
+#speculation(title: [Circadian Thermoregulatory Decoupling Model: Dual Oscillator with ET-1 Mediator])[
+*Certainty: 0.30.* The dual-oscillator model (ch09:@spec:dual-oscillator-thermoreg) can be formalized as a coupled ODE system with central SCN oscillator phase M_s(t) and peripheral vascular oscillator phase M_p(t) linked via endothelin-1 concentration ET(t). The internal phase error Δφ = |M_p - M_s| determines the degree of hypothalamic error correction demand, driving fatigue accumulation. Key prediction: reducing ET-1 (via bosentan or glycine) re-synchronizes oscillators and reduces Δφ from above 6h (ME/CFS) to below 2h. No ME/CFS ET-1-oscillator coupling data; model is speculative.
+] <spec:circadian-ode-thermoreg>
+
+#speculation(title: [Vasomotor Bistable Switch Model: Tonic Constriction Bias])[
+*Certainty: 0.25.* The vasomotor constriction bias hypothesis (ch10:@spec:vasomotor-constriction-bias) can be modeled as a bistable perfusion system where constriction state C(t) and dilation state D(t) compete, with a bias parameter shifting equilibrium toward constriction. In ME/CFS (bias = +0.4), the model predicts blunted perfusion responses to both heat (ΔP decreased 70%) and cold (decreased 60%). Bias reduction via clonidine or ET-1 antagonism restores vasomotor dynamic range. No ME/CFS vasomotor modeling data.
+] <spec:vasomotor-bistable-model>

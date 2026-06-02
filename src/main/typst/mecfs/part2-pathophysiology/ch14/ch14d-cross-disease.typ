@@ -2161,4 +2161,16 @@ Autoimmune autonomic ganglionopathy (AAG) involves GPCR autoantibodies ($beta$-a
 *Certainty: 0.52.* Vernino 2022 (n=116 POTS, standard ELISA) failed to replicate GPCR AAbs while Loebel/Sotzny/Azcue find positives using CellTrend ELISA. Conflict likely reflects both assay sensitivity differences (CellTrend more sensitive to low-titer/low-affinity binding) and genuine POTS/ME/CFS subtype heterogeneity — some patients have GPCR AAbs, others do not. Prediction: $beta_2$-AAb-positive ME/CFS patients have higher POTS prevalence (orthostatic HR increase >30 bpm) than $beta_2$-AAb-negative; immunoadsorption improves POTS symptoms only in $beta_2$-AAb-positive subgroup; same samples analyzed by Vernino's vs Azcue's methods show different positivity rates. @Azcue2026gpcr @Stein2024immunoadsorption.
 ] <spec:pots-gpcr-aab-heterogeneity>
 
+#speculation(title: [Heat Stroke Endotoxin-HSP70 Depletion as a Model for ME/CFS])[
+*(Certainty: 0.30.)* Heat stroke involves gut-derived endotoxin translocation triggering systemic inflammation and HSP70 depletion — both documented features of ME/CFS pathophysiology. Stanculescu et al. (2021) identified 9 shared mechanisms; the HSP70-endotoxin axis may be the most tractable therapeutic target. If ME/CFS involves chronic low-grade endotoxemia perpetuating HSP70 deficiency, pre-treatment with gut barrier support before HSP70 induction could amplify thermal therapy benefit. Falsifiable: ME/CFS patients with elevated LPS (above 0.2 EU/mL) show blunted HSP70 induction (below 30% of healthy response); endotoxin binders restore inducibility. No ME/CFS endotoxin-HSP70 data @Stanculescu2021HeatStrokeMECFS.
+] <spec:heat-stroke-endotoxin>
+
+#speculation(title: [Post-ICU Thermoregulatory Dysautonomia — Persistent HSP70 Depletion Model])[
+*(Certainty: 0.25.)* ICU survivors often develop persistent thermoregulatory dysautonomia with documented HSP70 depletion from critical illness. ME/CFS may follow an analogous trajectory: post-infectious HSP70 depletion that fails to recover spontaneously. The ICU literature provides HSP70 repletion protocols (gradual thermal conditioning) that could inform ME/CFS treatment, though the chronicity differs (ICU: weeks to recovery; ME/CFS: years of depletion). Falsifiable: ME/CFS patients with post-infectious onset show greater HSP70 deficit (below 50% of control) than gradual-onset patients; recovery rate is slower (12 vs 4 weeks) compared to post-ICU patients. No ME/CFS post-infectious HSP70 trajectory data.
+] <spec:post-icu-hsp70>
+
+#speculation(title: [Sickle Cell Disease ET-1 Vasoconstriction — Dosing Precedent for Bosentan in ME/CFS])[
+*(Certainty: 0.20.)* Sickle cell disease involves ET-1-mediated vasoconstriction contributing to vaso-occlusive crises; bosentan has been trialed for this indication at the same PAH dose (125 mg BID). If ME/CFS ET-1 elevation produces analogous vasomotor dysfunction, sickle cell dosing and safety data provide a precedent. However, risk-benefit for non-life-threatening thermoregulatory symptoms is substantially less favorable than for vaso-occlusive crisis prevention. Falsifiable: ME/CFS patients with elevated ET-1 show microvascular rarefaction on nailfold capillaroscopy proportional to ET-1 level. No ME/CFS ET-1 antagonist data.
+] <spec:sickle-cell-et1>
+
 #include "ch14d-brain-clearance-bridges.typ"
