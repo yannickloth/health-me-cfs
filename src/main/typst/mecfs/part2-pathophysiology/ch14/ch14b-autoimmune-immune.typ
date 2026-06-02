@@ -12,8 +12,9 @@ This section has moved from purely speculative to evidence-supported. Multiple s
 The Charité Berlin group established GPCR autoantibodies as a significant finding in ME/CFS:
 
     - *Loebel et al.\ 2016* @Loebel2016: In 268 ME/CFS patients vs.\ 108 controls, 29.5% of patients had elevated antibodies against $gt.eq$1 muscarinic (M) or $beta$-adrenergic receptor. Antibodies against $beta_2$, M3, and M4 receptors were significantly elevated vs.\ controls.
-    - *Sotzny/Freitag et al.\ 2021* @Sotzny2021: Autoantibody levels correlated with symptom severity—fatigue, muscle pain, cognitive impairment, and GI symptoms in infection-triggered ME/CFS. First demonstration of dose-response relationship.
-    - *Bynke et al.\ 2020* @Bynke2020: Swedish validation in two independent cohorts found 79–91% of ME patients had $gt.eq$1 elevated antibody vs.\ 25% of controls. Critically: *no autoantibodies detected in CSF*, suggesting peripheral origin rather than intrathecal production.
+    - *Sotzny/Freitag et al.\ 2021* @Sotzny2021: Autoantibody levels correlated with symptom severity---fatigue, muscle pain, cognitive impairment, and GI symptoms in infection-triggered ME/CFS. First demonstration of dose-response relationship.
+    - *Bynke et al.\ 2020* @Bynke2020: Swedish validation in two independent cohorts found 79--91% of ME patients had >=1 elevated antibody vs.\ 25% of controls. Critically: *no autoantibodies detected in CSF*, suggesting peripheral origin rather than intrathecal production.
+    - *Azcue et al.\ 2026* @Azcue2026gpcr ($n=59$ ME/CFS, $n=96$ PCC): Combined GPCR AAb profiling with comprehensive autonomic and cognitive testing. Confirmed $beta_2$-adrenergic AAb elevation in ME/CFS vs PCC and HCs ($F_{2,186}=3.15$, $p=0.046$). Strongest quantitative $beta_2$-AAb--autonomic correlation to date ($r=0.45$, $p=0.001$). Novel finding: M1, M3, M4 AAbs positively correlated with verbal/working memory. Distinct PCC vs ME/CFS profiles suggest trigger-specific immunological trajectories.
 
 ==== Treatment Trial Evidence
 

@@ -1657,3 +1657,31 @@ HSP70 acts as both an intracellular chaperone maintaining proteostasis and an ex
 *Limitations.* Certainty 0.30. No data on neuronal exosomal HSP70 in any human population. HSP70 is ubiquitously expressed — distinguishing CNS-derived from peripheral exosomal HSP70 requires cell-type-specific capture. The causal direction is unclear: does low HSP70 cause poor sleep quality, or does poor sleep deplete HSP70? Longitudinal studies would be needed to disentangle this.
 ] <spec:exosomal-hsp70-biomarker>
 
+=== GPCR Autoantibody-Based Diagnostic and Prognostic Biomarkers
+
+All below are research-stage; none validated in independent cohort. @Azcue2026gpcr.
+
+#speculation(title: [GPCR AAb IgG1/IgG4 Ratio as Disease Progression Marker])[
+*Certainty: 0.55.* Isotype-subclass ELISA measuring IgG1 and IgG4 fractions for beta2, M1, M3, M4 AAbs. Ratio R = AAb_IgG1 / AAb_IgG4. Interpretation: R < 0.5 = early/post-infectious (IgG4-dominant, e.g., PCC, recent-onset ME/CFS); 0.5--2 = transition; R > 2 = established ME/CFS (IgG1-dominant, pro-inflammatory). Prediction: R increases in PCC to ME/CFS converters at 3 months; immunoadsorption reduces R >50% in responders. Clinical utility: identifies PCC patients at risk of ME/CFS conversion; guides treatment intensity. Requires isotype-subclass ELISA; not currently clinical. @Azcue2026gpcr @Germain2025autoantibody.
+] <spec:gpcr-aab-isotype-ratio-progression>
+
+#speculation(title: [Composite Autonomic-Immune Score for Severity Tracking])[
+*Certainty: 0.58.* CAIS = w1*Z(AAb_total) + w2*Z(1/HRV_RMSSD) + w3*Z(IL6/TNFalpha) where Z = z-score normalized to HC. Weights via regression to symptom severity in training cohort. Interpretation: CAIS < 0 = mild; 0--1 = moderate; >1 = severe. Prediction: CAIS correlates with SF-36 r > 0.7; CAIS reduction >0.3 = clinical response; longitudinal CAIS tracks symptom trajectory. @Azcue2026gpcr.
+] <spec:composite-autonomic-immune-score-cais>
+
+#open-question(title: [Machine Learning GPCR AAb Pattern Classification])[
+Can ML (random forest) on beta2/M1/M3/M4 titers + isotype fractions + demographics distinguish ME/CFS from PCC, FM, MS, and HC? Requires training set n=300 (100 ME/CFS, 100 PCC, 50 FM, 50 MS, 50 HC) + independent validation n=150. Prediction: AUROC >0.85 for ME/CFS vs PCC; beta2_IgG1/IgG4 ratio top predictor. @Azcue2026gpcr.
+] <oq:ml-gpcr-aab-pattern-classification>
+
+#speculation(title: [FcgammaR Activation Assay as GPCR AAb Pathogenicity Marker])[
+*Certainty: 0.52.* Patient IgG on THP-1 monocytes; measure CD64/CD32/CD16 binding and TNFalpha/IL-6 production with/without IV.3 anti-FcgammaR blockade. Pathogenic if FcgammaR activation >2x HC and blocked by IV.3. Distinguishes pathogenic (FcgammaR-activating) from non-pathogenic (binding-only) AAbs. Prediction: FcgammaR activation score correlates with symptom severity r > 0.5; resolves ELISA vs Luminex conflict. @Hackel2025monocyte @Azcue2026gpcr.
+] <spec:fcgr-activation-assay-pathogenicity>
+
+#speculation(title: [HRV-Resensitization Lag as Post-Treatment Marker])[
+*Certainty: 0.42.* Time from beta2-AAb clearance (immunoadsorption day 0) to HRV reaching 80% target RMSSD. Lag < 2 weeks = fast responders; 2--4 weeks = moderate; >4 weeks = slow (needs intensive retraining). Prediction: lag correlates with baseline beta2-AAb titer; slow responders benefit more from intensive autonomic retraining. @Azcue2026gpcr @Stein2024immunoadsorption.
+] <spec:hrv-resensitization-lag-marker>
+
+#speculation(title: [Cognitive-Muscarinic Threshold Zones for Treatment Selection])[
+*Certainty: 0.45.* 2D grid: M1/M4 AAb titer (x-axis) vs working memory score (y-axis). Zone 1 (low AAb, low cognition) → cognitive remediation; Zones 2--3 (moderate-high AAb) → observation (AAb protective); Zone 4 (high AAb, low cognition) → inverted-U toxic → CB1 agonist/PAM. Prediction: Zone 1 improves >30% with remediation; Zones 2--3 show no benefit. @Azcue2026gpcr.
+] <spec:cognitive-muscarinic-threshold-zones>
+

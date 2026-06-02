@@ -409,7 +409,27 @@ Gut microbiome studies have documented consistent alterations in ME/CFS (see als
 
     - *16S rRNA sequencing*: Reduced microbial diversity and altered community composition, including reduced butyrate-producing bacteria (_Faecalibacterium prausnitzii_, _Roseburia_) and increased pro-inflammatory species. These changes are consistent with the gut barrier dysfunction and immune activation documented in ME/CFS
     - *Shotgun metagenomics*: Functional profiling reveals altered metabolic capacity of the ME/CFS microbiome, including reduced short-chain fatty acid production and altered tryptophan metabolism—linking gut microbial changes to the systemic metabolic abnormalities detected by metabolomics
-    - *Gut–brain axis*: Microbial metabolites (short-chain fatty acids, tryptophan derivatives) directly influence CNS function through vagal signaling and systemic circulation, providing a mechanistic link between gut dysbiosis and neurological symptoms
+    - *Gut--brain axis*: Microbial metabolites (short-chain fatty acids, tryptophan derivatives) directly influence CNS function through vagal signaling and systemic circulation, providing a mechanistic link between gut dysbiosis and neurological symptoms
+
+== Priority GPCR Autoantibody Research Directions
+
+{These research questions are contingent on resolving the fundamental CellTrend ELISA specificity dispute (Germain 2025 null, Vernino 2022 100% control positivity). If non-specific binding is confirmed, most questions below become irrelevant. @Azcue2026gpcr.}
+
+#open-question(title: [Head-to-Head ELISA vs REAP/Luminex Methodological Resolution])[
+Parallel analysis of n=100 ME/CFS + n=50 HC by CellTrend ELISA + REAP/Luminex + functional receptor assays (calcium flux, beta-arrestin) with IgG subclass discrimination. Resolves whether ELISA-positive, REAP-negative discrepancy is: non-specific binding (most parsimonious, consistent with Vernino 100% control positivity), conformational epitope mismatch (platform limitation), cohort composition (Germain 11--14 yr chronic vs Azcue shorter-duration), or isotype biology. Highest-priority research gap — outcome determines whether GPCR AAb field has a measurement platform at all. @Germain2025autoantibody @Azcue2026gpcr.
+] <oq:elisa-vs-reap-head-to-head>
+
+#open-question(title: [Longitudinal GPCR AAb Trajectories from Acute COVID to ME/CFS])[
+Prospective n=200 acute COVID-19 → 1/3/6/12 month follow-up with validated (not CellTrend) GPCR AAb assay + autonomic + cognitive testing. Do AAbs precede, accompany, or follow symptom onset? Contingent on validated assay availability. @Azcue2026gpcr.
+] <oq:longitudinal-aab-trajectory>
+
+#open-question(title: [FcgammaR-Mediated Immune Activation — Distinguishing Pathogenic from Binding GPCR AAbs])[
+Ex vivo PBMC assay: purified ME/CFS IgG incubated with monocytes; FcgammaR engagement + cytokine induction with/without IV.3 blockade. Only interpretable if GPCR AAbs are first shown to be specific (not non-specific ELISA binding). If ELISA signal is non-specific, no FcgammaR activation expected. @Hackel2025monocyte @Azcue2026gpcr.
+] <oq:fcgr-immune-activation-gpcr-aab>
+
+#open-question(title: [beta2-AAb Immunoadsorption Sham-Controlled RCT])[
+RCT n=60 beta2-AAb-positive ME/CFS: 5 sessions IA vs sham. Primary: HRV change. Only interpretable if beta2-AAb positivity is defined by a validated assay. If CellTrend signal is non-specific → no difference between active and sham expected regardless of AAb status. @Stein2024immunoadsorption @Azcue2026gpcr.
+] <oq:beta2-aab-ia-rct-autonomic-endpoints>
 
 == Integrative Multi-Omics Studies
 <sec:multi-omics-integration>

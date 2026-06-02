@@ -489,7 +489,7 @@ LDN (1--4.5 mg nightly) modulates microglial activation via toll-like receptor 4
 
 === GPCR Autoantibody-Targeted Pharmacological Strategies
 
-All below are research-stage only; no ME/CFS human dosing data exists for any. @Azcue2026gpcr.
+All below are research-stage only; no ME/CFS human dosing data exists for any. No clinical GPCR autoantibody test is available — CellTrend ELISA is research-only; these stratifications cannot be implemented in routine care. No stopping criteria, monitoring parameters, or drug-interaction data specific to ME/CFS exist for any proposal below. @Azcue2026gpcr.
 
 #speculation(title: [Low-Dose Propranolol for $beta_2$-AAb-Positive ME/CFS])[
 *Certainty: 0.50.* Low-dose propranolol (5mg BID, titrated to max 40mg BID) as competitive antagonist blocking $beta_2$-AAb binding, allowing receptor resensitization. Titration based on HRV response and orthostatic BP. Prediction: $beta_2$-AAb-positive patients show greater HRV improvement on propranolol vs $beta_2$-AAb-negative. Contraindicated in asthma, bradycardia, hypotension. Not a clinical recommendation — research-stage. @Azcue2026gpcr @Stein2024immunoadsorption.
@@ -526,5 +526,13 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 #speculation(title: [Vitamin D Repletion for GPCR AAb Immune Tolerance])[
 *Certainty: 0.42.* Vitamin D3 5,000 IU daily to 25-OH-D 50--80 ng/mL induces Tregs and promotes B cell tolerance. Repletion may reduce GPCR AAb production by restoring immune regulation. Prediction: AAb reduction correlates with CD4#super[+]CD25#super[+]FoxP3#super[+] Treg increase at 6 months. Low risk; vitamin D deficiency common in ME/CFS. @Azcue2026gpcr.
 ] <spec:vitamin-d-gpcr-aab-immune-tolerance>
+
+#speculation(title: [Roflumilast — PDE4 Inhibition for cAMP-Mediated Autophagy Regulation])[
+*Certainty: 0.20.* PDE4 inhibitors increase intracellular cAMP, which modulates autophagy via AMPK and mTOR pathways. In ME/CFS, where autophagy is dysregulated (elevated ATG13, elevated LC3-II), roflumilast (PDE4 inhibitor, approved for COPD, 500 µg/day) could shift autophagy balance from chronic selective overload toward bulk degradation — complementing the WBH-induced autophagy switch proposed at ch06:@spec:autophagy-switch-heat. Falsifiable: roflumilast over 4 weeks reduces LC3-II/p62 ratio toward control levels and improves mitochondrial spare capacity by 30%. No ME/CFS PDE4 data; gastrointestinal side effects in 20% at COPD dose.
+] <spec:roflumilast-autophagy>
+
+#speculation(title: [4-Phenylbutyrate — Chemical Chaperone for ER Stress-HSP70 Coupling])[
+*Certainty: 0.20.* 4-Phenylbutyrate (4-PB, chemical chaperone approved for urea cycle disorders, 9 g/day TID) reduces ER stress by stabilizing protein folding, potentially freeing HSP70 from ER chaperone duty for mitochondrial protein import support. If ER stress contributes to functional HSP70 deficiency in ME/CFS, 4-PB could restore HSP70 availability independently of thermal induction. Falsifiable: 4-PB over 4 weeks reduces ER stress markers (GRP78, CHOP) by 30% and increases available HSP70 by 25%. No ME/CFS data; taste disturbance in 20% at therapeutic dose.
+] <spec:4pb-er-stress-hsp70>
 
 #include "ch18-brain-clearance-drugs.typ"
