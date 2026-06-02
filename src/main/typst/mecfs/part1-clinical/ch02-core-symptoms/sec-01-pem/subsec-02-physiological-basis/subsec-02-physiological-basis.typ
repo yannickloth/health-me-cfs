@@ -505,7 +505,7 @@ A patient does not necessarily enter all pathological cycles simultaneously. *Hy
 
     - *Stage 3: Mitochondrial + Immune + Autonomic cycles (years 1–3)*
 
-        - *Trigger for entry*: Chronic hypoperfusion from reduced activity; blood volume depletion; potential GPCR autoantibodies affecting $beta_2$-adrenergic receptors @Loebel2016 @Bynke2020
+        - *Trigger for entry*: Chronic hypoperfusion from reduced activity; blood volume depletion; potential GPCR autoantibodies affecting $beta_2$-adrenergic receptors @Loebel2016 @Bynke2020. Azcue et al.\ (2026) provide the strongest quantitative autonomic--autoantibody correlation to date: $beta_2$-adrenergic AAb titers correlate with sympathovagal imbalance ($r=0.45$, $p=0.001$, $n=59$) @Azcue2026gpcr.
         - *New cycle*: Autonomic dysfunction $arrow.l.r$ Orthostatic intolerance $arrow.l.r$ Cerebral hypoperfusion $arrow.l.r$ Reduced activity capacity
         - *Symptoms*: POTS develops; orthostatic intolerance limits upright time; brain fog worsens significantly
         - *Severity*: Moderate to severe ME/CFS; bedbound significant hours daily
