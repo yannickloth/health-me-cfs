@@ -532,7 +532,7 @@ The POTS diagnosis in the ME/CFS context should be interpreted cautiously. The d
 
 ==== Prevalence in ME/CFS
 
-    - Estimated 25–50% of ME/CFS patients meet POTS criteria @Newton2008POTSprevalence
+    - Estimated 25--50% of ME/CFS patients meet POTS criteria @Newton2008POTSprevalence. A systematic review and meta-analysis (n=21 studies) found pooled POTS prevalence of 36.2% in post-acute sequelae of COVID-19, with higher incidence in mild vs severe acute cases and younger populations @Wang2026POTS36prevalence
     - Substantial symptom overlap between conditions
     - May represent overlapping or related conditions
     - Similar pathophysiological mechanisms
