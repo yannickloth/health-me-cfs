@@ -12639,6 +12639,23 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Limitations:*: Review only; no original clinical data; mechanisms largely inferred from animal models and non-ME/CFS contexts; direct proof of causal direction in ME/CFS patients lacking.
     *Certainty:*: 0.62 (peer-reviewed, AAAAI journal; mechanistic plausibility strong; causal evidence in ME/CFS indirect)
 
+=== Morcos & Theoharides 2026 --- Long COVID Neuropathy: The Role of Mast Cells [REVIEW]
+
+    @Morcos2026MastCellNeuropathy
+
+    *Full Citation:*: Morcos ZL, Theoharides TC. "Long COVID neuropathy: The role of mast cells." _Journal of Neuropathology & Experimental Neurology_. 2026;85(5):413--424.
+    *DOI:*: #link("https://doi.org/10.1093/jnen/nlag016")[10.1093/jnen/nlag016]
+    *PMID:*: 41790576
+    *Study Design:*: Narrative review covering mast cell-neuropathy connection in Long COVID/PASC, with relevance to small-fiber neuropathy and ME/CFS.
+    *Key Findings:*:
+        - SARS-CoV-2 spike protein activates mast cells via ACE2 and TLR4, triggering release of IL-1β, IL-6, TNF-α, histamine, tryptase
+        - Mast cell activation mirrors patterns seen in small-fiber neuropathy and ME/CFS
+        - Mediators sensitize peripheral nerves, disrupt BBB, recruit microglia → small-fiber injury, neuroinflammation, dysautonomia
+        - MC-directed treatments show variable response; flavonoids (luteolin, quercetin) and mast cell stabilizers mentioned
+    *Conclusion:*: Mast cells are a central contributor to neuropathic manifestations in PASC, with shared immune-mediated etiology between LC neuropathy, small-fiber neuropathy, and ME/CFS. MC-directed therapies warrant further investigation.
+    *Limitations:*: Narrative review; no systematic methodology; no original data; therapeutic recommendations based on case reports and mechanistic inference.
+    *Certainty:*: 0.55 (narrative review; mechanistic plausibility strong; clinical response data from case series only)
+
 === Valent et al.\ 2021 --- Updated Diagnostic Criteria and Classification of Mast Cell Disorders [CONSENSUS]
 
     @Valent2021criteria

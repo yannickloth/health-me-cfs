@@ -2170,7 +2170,7 @@ Autoimmune autonomic ganglionopathy (AAG) involves GPCR autoantibodies ($beta$-a
 ] <spec:post-icu-hsp70>
 
 #speculation(title: [Sickle Cell Disease ET-1 Vasoconstriction — Dosing Precedent for Bosentan in ME/CFS])[
-*(Certainty: 0.20.)* Sickle cell disease involves ET-1-mediated vasoconstriction contributing to vaso-occlusive crises; bosentan has been trialed for this indication at the same PAH dose (125 mg BID). If ME/CFS ET-1 elevation produces analogous vasomotor dysfunction, sickle cell dosing and safety data provide a precedent. However, risk-benefit for non-life-threatening thermoregulatory symptoms is substantially less favorable than for vaso-occlusive crisis prevention. Falsifiable: ME/CFS patients with elevated ET-1 show microvascular rarefaction on nailfold capillaroscopy proportional to ET-1 level. No ME/CFS ET-1 antagonist data.
+*(Certainty: 0.20.)* Sickle cell disease involves ET-1-mediated vasoconstriction contributing to vaso-occlusive crises; bosentan has been trialed for this indication at the same PAH dose (125 mg BID). If ME/CFS ET-1 elevation produces analogous vasomotor dysfunction, sickle cell dosing and safety data provide a precedent. However, risk-benefit for non-life-threatening thermoregulatory symptoms is substantially less favorable than for vaso-occlusive crisis prevention. Falsifiable: ME/CFS patients with elevated ET-1 show microvascular rarefaction on nailfold capillaroscopy proportional to ET-1 level. No ME/CFS ET-1 antagonist data. Falsified if nailfold capillaroscopy shows no correlation (r below 0.3) between ET-1 levels and microvascular density in ME/CFS, indicating ET-1 elevation is not the primary driver of microvascular pathology.
 ] <spec:sickle-cell-et1>
 
 #include "ch14d-brain-clearance-bridges.typ"
