@@ -58,3 +58,62 @@
 - Immune/inflammatory topics (MCAS, TRPM3 autoimmunity) that are standalone → auto-escalate per pipeline rules
 - Many drug/supplement ideas are cross-disease → ch18 or ch06 as open-questions
 - Phase 4a falsifiability gate applies before Phase 4b
+
+## Phase 4c — Cross-Hypothesis Compatibility
+
+### Reinforcement Chains
+
+**Chain 1 — HSP70 Induction Cascade (5 hops):**
+```
+ATG13 autophagy impairment → WBH reduces LC3-II (ch06:@spec:mitochondrial-reserve-thermoreg)
+  → HSP70 mediates mitochondrial protein import (ch06:@spec:autophagy-switch-heat)
+  → Improved spare respiratory capacity (ch06:@spec:mitochondrial-reserve-thermoreg)
+  → Clinical fatigue reduction (ch14:@spec:controlled-heat-paradox)
+  → Treatment-response biomarker (ch20:@spec:wbh-biomarker)
+```
+
+**Chain 2 — ET-1 Vasomotor Cascade (3 hops):**
+```
+ET-1 elevation correlates with skin temperature disruption (@Cambras2023SkinTemperatureEndothelin)
+  → Tonic vasoconstriction bias (ch10:@spec:vasomotor-constriction-bias)
+  → Explains dual heat+cold intolerance
+  → Pharmacological ET-1 antagonism restores vasomotor flexibility (ch18:@spec:bosentan-thermoreg)
+```
+
+**Chain 3 — Circadian Thermoregulatory Decoupling (2 hops):**
+```
+SCN oscillator preserved, peripheral oscillator dysregulated
+  → Dual-oscillator phase misalignment (ch09:@spec:dual-oscillator-thermoreg)
+  → Sleep temperature optimization re-entrains peripheral oscillator (ch17:@spec:sleep-temp-circadian)
+```
+
+### Reinforcement Pairs
+
+| New | Existing | Type | Relationship |
+|-----|----------|------|-------------|
+| spec:carnitine-bat-cold (0.30) | oq:bat-cold-intolerance | Reinforcement | BAT mechanism for cold intolerance |
+| spec:magnesium-glycinate-thermoreg (0.35) | spec:vasomotor-constriction-bias (0.40) | Feed-into | Magnesium antagonizes ET-1 vasoconstriction |
+| spec:citrulline-no-vasodilation (0.30) | spec:vasomotor-constriction-bias (0.40) | Feed-into | NO counteracts ET-1 constriction |
+| spec:heat-stroke-endotoxin (0.30) | ME/CFS-heat stroke shared pathways (registry 0.55) | Reinforcement | Endotoxin-HSP70 axis as most tractable shared mechanism |
+| spec:post-icu-hsp70 (0.25) | spec:hyperthermia-protocol (0.52) | Feed-into | ICU HSP70 repletion protocols inform ME/CFS dosing |
+| spec:vasomotor-bistable-model (0.25) | spec:vasomotor-constriction-bias (0.40) | Reinforcement | Formal ODE formalization of same mechanism |
+| spec:circadian-ode-thermoreg (0.30) | spec:dual-oscillator-thermoreg (0.40) | Reinforcement | Formal ODE formalization of same mechanism |
+
+### Conflict / Tension
+
+| Pair | Nature | Resolution |
+|------|--------|------------|
+| HSF1 activates HSP70 AND HSAT2 | Internal tension | spec:heat-hsat2-caution (0.25) vs all HSP70-induction proposals. No resolution framework. Flagged by sophist, devil-advocate. |
+| Heat therapy benefit vs HSAT2 harm | Apparent contradiction | Three thermal therapy studies show benefit with zero adverse events. HSAT2 harm is theoretical only. Tension is between evidence and mechanistic hypothesis, not between two bodies of evidence. |
+| Cold intolerance mechanisms | Multiple, non-exclusive | BAT failure (ch10), vasoconstriction bias (ch10), TRPM8 dysfunction (cross-disease), SFN (ch10). Not contradictory — all could co-exist. |
+
+### Certainty Adjustments
+
+**None applied in Phase 4c.** Rationale:
+- All new environments have certainty 0.20-0.35 — below the feed-into threshold for bumps
+- Reinforced existing entries (cert 0.40-0.55) receive reinforcement from lower-certainty sources
+- The Evidence Quality Floor (Phase 4b) gates bumps at incoming cert ≥ 0.60 — no new paper meets this
+- The cumulative guard (3+ prior bumps) is not triggered by any entry in this cycle
+
+**Flagged for future**: If Hochecker 2025 is independently replicated (n ≥ 50, different lab), spec:mitochondrial-reserve-thermoreg (currently 0.30) could bump to 0.40.
+
