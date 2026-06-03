@@ -2368,4 +2368,8 @@ Quercetin (500 mg BID) stabilizes mast cells and desensitizes TRPV1 receptors in
 *Certainty: 0.20.* Sulforaphane (broccoli sprout extract, 30--60 mg/day) is a potent Nrf2 activator that upregulates antioxidant enzymes (HO-1, NQO1, glutathione synthesis). It does NOT directly upregulate HSP70 — HSP70 transcription is driven by HSF1, not Nrf2. Any HSP70 benefit would be indirect: reduced oxidative stress lowers the threshold for HSF1-dependent HSP70 induction during subsequent thermal challenge. Sulforaphane also exhibits hormetic properties (inducing oxidative stress at high doses), potentially worsening oxidative burden — a caution for already-stressed ME/CFS patients. Falsifiable: sulforaphane over 8 weeks activates Nrf2 targets more than 3-fold and indirectly improves thermal-HSP70 inducibility by 20%. No ME/CFS sulforaphane data.
 ] <spec:sulforaphane-hsp70>
 
+#speculation(title: [Taurine for Mitochondrial Membrane Stabilization Under Thermal Stress])[
+*Certainty: 0.25.* Taurine (1--3 g/day) stabilizes mitochondrial membranes, reduces oxidative stress, and modulates calcium handling — all processes stressed during thermoregulatory work. While taurine's mitochondrial-protective and calcium-modulating effects are well-characterized, no ME/CFS thermoregulation-specific data exist. Falsifiable: taurine over 12 weeks increases mitochondrial membrane potential stability during controlled heat challenge by >25%. Taurine is generally safe and inexpensive, making it a low-risk adjunct.
+] <spec:taurine-thermoreg>
+
 #include "ch16-brain-clearance-supplements.typ"

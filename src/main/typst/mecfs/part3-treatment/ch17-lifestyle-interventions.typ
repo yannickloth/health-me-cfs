@@ -2650,4 +2650,8 @@ Impaired interoception — awareness of internal body signals — has been docum
 Not a clinical recommendation. No clinical GPCR autoantibody test exists. The concept of ELISA-based community stratification (beta2-positive → HRV-biofeedback; M3-positive → tVNS) is hypothetical — both the diagnostic and predicted treatment responses are unvalidated. Included as research direction, not actionable protocol. Prediction: a validated clinical platform with independent replication in n >= 300 would be required before any treatment algorithm could be tested. @Azcue2026gpcr.
 ] <oq:community-clinic-aab-algorithm>
 
+#speculation(title: [Acupressure for Modulation of Thermosensory Autonomic Pathways])[
+*Certainty: 0.15.* Acupressure at GV14 and BL12 points (upper back/neck) may modulate sympathetic tone via spinal reflex arcs involving thermosensory afferents. Non-invasive, zero-cost, and can be self-administered or caregiver-delivered. Any thermoregulatory benefit would be autonomic (reduced sympathetic bias → improved vasomotor flexibility) rather than thermal (no HSP70 induction). Falsifiable: acupressure (2x/day, 8 weeks) reduces thermoregulatory symptom frequency by >20% in an adequately powered trial. No ME/CFS acupressure data; high placebo-response rate in manual therapies limits interpretability of open-label designs.
+] <spec:acupressure-thermoreg>
+
 #include "ch17-brain-clearance-lifestyle.typ"

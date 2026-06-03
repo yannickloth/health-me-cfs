@@ -1266,6 +1266,34 @@ ME/CFS thermoregulatory dysfunction is multifactorial: ET-1-driven vascular tone
 *Certainty: 0.35.* Hochecker et al. demonstrated that WBH induces substantial, measurable changes in ME/CFS PBMC mitochondrial respiration — spare respiratory capacity increased 112.35% @Hochecker2025HyperthermiaMECFS. If mitochondrial reserve is the bottleneck for thermoregulatory capacity (ch06:@spec:mitochondrial-reserve-thermoreg), then the magnitude of WBH-induced mitochondrial improvement could serve as a treatment-response biomarker: patients whose reserve increases most after WBH would be predicted to gain the most thermoregulatory benefit (improved heat/cold tolerance). This biomarker is directly testable: serial PBMC respirometry before/after a standardized thermal challenge. Falsifiable: the delta-spare capacity after WBH will correlate positively (r > 0.5) with improvement in thermoneutral comfort window width and controlled environmental heat challenge time; a null correlation would refute the biomarker's predictive value.
 ] <spec:wbh-biomarker>
 
+#open-question(title: [ET-1 Serum ELISA as Peripheral Oscillator Dysfunction Marker])[
+Cambras et al. linked ET-1 levels to skin temperature circadian disruption @Cambras2023SkinTemperatureEndothelin. ET-1 ELISA is commercially available and could serve as a thermoregulatory biomarker if validated against gold-standard 24-hour skin temperature monitoring. Falsifiable: ET-1 levels above 2.5 pg/mL predict skin temperature rhythm amplitude below 1.5°C with r above 0.6; treatment-induced ET-1 reduction correlates with rhythm normalization. Single study; ET-1 is nonspecific (elevated in heart failure, CKD, atherosclerosis).
+] <oq:et1-biomarker>
+
+#open-question(title: [TRPM3 Calcium Influx Assay for Thermosensor Dysfunction Stratification])[
+TRPM3 channelopathy is documented in ME/CFS NK cells. A standardized calcium influx assay (Fluo-4 AM, pregnenolone sulfate stimulation) could quantify thermosensor dysfunction and predict heat intolerance severity. Falsifiable: TRPM3 calcium flux ratio below 1.2 (severe dysfunction) correlates with heat intolerance severity r above 0.6 and heat-triggered MCAS symptoms r above 0.7. Research assay only; single research group (NCNED); not independently replicated.
+] <oq:trpm3-calcium-assay>
+
+#open-question(title: [HSP70 Induction Kinetics Assay for Heat-Shock Competence Profiling])[
+Hochecker et al. demonstrated that WBH increases HSPA5 mRNA 48.33% but HSP70 protein induction kinetics vary between patients @Hochecker2025HyperthermiaMECFS. A standardized heat-shock challenge (42°C, 30 min, PBMC culture) with serial sampling at 0, 2, 4, 8, 12, 24, 48, 72 hours and HSP70 protein quantification would identify patients with blunted induction (peak below 1.5x baseline) who are unlikely to benefit from thermal therapy and should be directed to pharmacological HSP70 inducers. Falsifiable: blunted HSP70 induction predicts less than 20% fatigue reduction with Waon therapy. Research assay only.
+] <oq:hsp70-kinetics-assay>
+
+#open-question(title: [Laser Doppler Vasomotor Challenge for Vasomotor Bias Quantification])[
+If ME/CFS involves tonic vasoconstriction bias (ch10:@spec:vasomotor-constriction-bias), laser Doppler flowmetry during standardized heat (43°C local) and cold (15°C local) challenge would quantify vasomotor dynamic range. A compressed range (below 2.0 vs above 4.0 healthy) would identify patients likely to benefit from vasodilator or vasomotor training interventions. Falsifiable: vasomotor range below 2.0 predicts improvement above 40% with contrast hydrotherapy or clonidine. No ME/CFS laser Doppler vasomotor data.
+] <oq:laser-doppler-vasomotor>
+
+#open-question(title: [Circadian Phase Shift Assay for Internal Desynchronization Diagnosis])[
+Dual-oscillator circadian decoupling (ch09:@spec:dual-oscillator-thermoreg) predicts a phase shift above 4h between central melatonin DLMO and peripheral skin temperature peak. Comparing 24-hour saliva melatonin ELISA with continuous skin temperature monitoring (wearable) would quantify internal desynchronization and identify patients whose thermoregulatory symptoms are circadian-driven rather than vascular or mitochondrial. Falsifiable: phase shift above 6h correlates with elevated ET-1 r above 0.7 and predicts response to ET-1-targeted interventions. No ME/CFS dual-oscillator measurement data.
+] <oq:circadian-phase-shift-assay>
+
+#open-question(title: [Autophagy Flux Marker Panel for Proteostasis Stratification])[
+Hochecker et al. showed LC3-II decreases after WBH @Hochecker2025HyperthermiaMECFS but did not measure autophagic flux (requires bafilomycin clamp). A complete panel — LC3-II, p62, Parkin, BNIP3, and flux measurement — would distinguish patients with selective autophagy overload (LC3-II/p62 ratio above 2.0) from those with suppressed bulk autophagy, guiding autophagy-targeted interventions. Falsifiable: LC3-II/p62 above 2.0 correlates with reduced spare respiratory capacity r below negative 0.6 and predicts response to autophagy-modulating interventions. Research assay only.
+] <oq:autophagy-flux-panel>
+
+#open-question(title: [Thermoregulatory Symptom Severity Scale — Clinical Phenotyping Instrument])[
+No validated instrument exists to quantify heat/cold intolerance severity in ME/CFS. A 10-item scale (heat intolerance frequency/severity, cold intolerance frequency/severity, thermoregulatory fatigue, functional impact, skin temperature awareness, sweating abnormalities, vasomotor symptoms, seasonal exacerbation) scored 0 to 30 would enable standardized phenotyping and treatment-response monitoring. Based on brainstorm diagnostic section (B10, brainstorm §9). Falsifiable: TSSS score correlates with skin temperature amplitude r below negative 0.7, ET-1 level r above 0.6, and spare respiratory capacity r below negative 0.6; treatment-induced TSSS reduction above 5 points correlates with objective biomarker improvement. Requires validation in an independent cohort.
+] <oq:tsss-scale>
+
 === Pre-Infection Risk Screening Protocol for Neurodivergent Patients
 
 For patients with known neurodivergent diagnoses, a tiered screening protocol could identify those at highest metabolic reserve risk:

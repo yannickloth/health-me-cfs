@@ -535,4 +535,8 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Certainty: 0.20.* 4-Phenylbutyrate (4-PB, chemical chaperone approved for urea cycle disorders, 9 g/day TID) reduces ER stress by stabilizing protein folding, potentially freeing HSP70 from ER chaperone duty for mitochondrial protein import support. If ER stress contributes to functional HSP70 deficiency in ME/CFS, 4-PB could restore HSP70 availability independently of thermal induction. Falsifiable: 4-PB over 4 weeks reduces ER stress markers (GRP78, CHOP) by 30% and increases available HSP70 by 25%. No ME/CFS data; taste disturbance in 20% at therapeutic dose.
 ] <spec:4pb-er-stress-hsp70>
 
+#speculation(title: [Mirabegron — Beta3-Adrenergic Agonist for BAT-Mediated Cold Intolerance])[
+*Certainty: 0.20.* Mirabegron (beta3-adrenergic agonist, 50 mg/day, approved for overactive bladder) activates brown adipose tissue via UCP1-dependent thermogenesis. If ME/CFS cold intolerance reflects failed BAT activation from sympathetic dysregulation (ch10:@oq:bat-cold-intolerance), mirabegron could bypass the sympathetic deficit and restore cold thermogenesis directly at the adipocyte beta3 receptor. However, active BAT is minimal in adults over 40 — the typical ME/CFS demographic — and tachycardia is a known side effect that could worsen POTS symptoms. Falsifiable: mirabegron over 4 weeks increases BAT ^18F-FDG uptake by >50% in ME/CFS patients under 40 with detectable baseline BAT. No ME/CFS data; BAT activation demonstrated in healthy young adults only. Pre-existing POTS is a relative contraindication.
+] <spec:mirabegron-bat>
+
 #include "ch18-brain-clearance-drugs.typ"

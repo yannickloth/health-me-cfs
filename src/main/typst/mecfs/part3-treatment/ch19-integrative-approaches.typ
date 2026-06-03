@@ -3128,3 +3128,61 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 #speculation(title: [Vasomotor Bistable Switch Model: Tonic Constriction Bias])[
 *Certainty: 0.25.* The vasomotor constriction bias hypothesis (ch10:@spec:vasomotor-constriction-bias) can be modeled as a bistable perfusion system where constriction state C(t) and dilation state D(t) compete, with a bias parameter shifting equilibrium toward constriction. In ME/CFS (bias = +0.4), the model predicts blunted perfusion responses to both heat (ΔP decreased 70%) and cold (decreased 60%). Bias reduction via clonidine or ET-1 antagonism restores vasomotor dynamic range. No ME/CFS vasomotor modeling data. Falsified if measured laser Doppler perfusion responses in ME/CFS deviate from model predictions by more than 25% for both heat and cold challenges, indicating the bistable bias model does not capture the underlying vascular physiology.
 ] <spec:vasomotor-bistable-model>
+
+#speculation(title: [Summer-Intolerant Protocol: ET-1 Targeting + Breathing + Temperature Pacing])[
+*Certainty: 0.25.* For patients whose heat intolerance is predominantly seasonal (summer), a pre-season protocol combining ET-1 reduction (glycine 3 g/day + magnesium glycinate 400 mg/day), slow-paced breathing (6 breaths/min, 10 min, 3x/day), and thermal pacing education (log exposures, grade activity) may reduce heat-triggered PEM without requiring sauna access. The breathing component provides vagal tone support; the supplements address ET-1-mediated vasoconstriction; pacing prevents overload. Falsifiable: summer-intolerant protocol over 3 months reduces heat-triggered PEM episodes by >50% compared to the previous summer. No ME/CFS seasonal protocol data.
+] <spec:summer-intolerant-protocol>
+
+#speculation(title: [Winter-Intolerant Protocol: Cold Adaptation + Carnitine + Magnesium])[
+*Certainty: 0.25.* For patients with predominant winter cold intolerance, graded cold adaptation (20°C → 16°C ambient over 8 weeks, 3x/week), L-carnitine (2 g/day for BAT fatty acid oxidation), and magnesium glycinate (400 mg/day for vascular tone) may improve cold tolerance. Falsifiable: winter-tolerant protocol over 8 weeks increases cold tolerance by Δ3°C and reduces winter PEM frequency by >30%. No ME/CFS winter-specific protocol data; BAT activity declines with age regardless of supplementation.
+] <spec:winter-intolerant-protocol>
+
+#speculation(title: [Telehealth Thermal Protocol: Breathing Education + Sleep Temperature + Glycine])[
+*Certainty: 0.30.* Rural or mobility-limited patients lack access to sauna or pool facilities. A fully remote protocol — video-guided slow breathing education (10 min, 2x/day), sleep temperature optimization guidance (18--20°C bedroom), and mail-order glycine (3 g/day) — provides three thermoregulatory support mechanisms at minimal cost with no facility requirement. Weekly 15-minute telehealth check-ins support adherence. Falsifiable: telehealth protocol over 8 weeks produces >70% of in-person Waon therapy benefit with >80% adherence. No ME/CFS telehealth thermal protocol data.
+] <spec:telehealth-thermal>
+
+#speculation(title: [Pregnancy-Safe Thermal Protocol: Breathing + Tepid Bath + Magnesium + Glycine])[
+*Certainty: 0.25.* Pregnant ME/CFS patients are excluded from pharmacological thermal interventions (bosentan teratogenic, clonidine safety unestablished). A pregnancy-safe combination of slow breathing (safe throughout pregnancy), tepid bath (35--36°C, avoiding core temperature rise above 37.5°C), magnesium glycinate (200--300 mg/day), and glycine (2--3 g/day) provides thermoregulatory support using interventions with established pregnancy safety profiles. Falsifiable: pregnancy-safe protocol over 2nd and 3rd trimesters reduces thermoregulatory symptom exacerbation by >25% versus standard care. No ME/CFS pregnancy thermal data; individual components have pregnancy safety evidence.
+] <spec:pregnancy-thermal>
+
+#speculation(title: [Pediatric Thermal Protocol: Low-Intensity Waon + Breathing + Magnesium + Parent Education])[
+*Certainty: 0.30.* Pediatric ME/CFS requires age-appropriate thermal protocols. Low-intensity Waon (55--58°C, 10 min, 2x/week, parent-supervised), child-friendly "balloon breathing" (5 min, 2x/day), age-adjusted magnesium glycinate (4--6 mg/kg/day), and parent pacing education provide accessible thermal support for the younger demographic where BAT is more likely to be active and autonomic recovery potential is higher. Falsifiable: pediatric protocol over 8 weeks improves school attendance by >20% and reduces thermoregulatory symptom frequency by >30%. No pediatric ME/CFS thermal data.
+] <spec:pediatric-thermal>
+
+#open-question(title: [ME/CFS vs POTS: Two-Component Thermoregulatory Failure — Single Therapy Inadequate?])[
+ME/CFS and POTS have >80% comorbidity, but their thermoregulatory failure mechanisms may differ: POTS involves microvascular denervation (reduced perivascular sympathetic innervation) while ME/CFS adds mitochondrial reserve deficit, HSP70 depletion, and ET-1 elevation. If both components contribute, single-mechanism therapy (e.g., Waon alone or citrulline alone) should achieve only partial symptom improvement (40--50%), while combined therapy (Waon + citrulline + breathing) should achieve >70%. Falsifiable: ME/CFS-POTS patients show additive benefit from dual-component therapy versus single-component; isolated POTS patients respond fully to vasodilator support alone. No comparative ME/CFS vs POTS thermal phenotyping data.
+] <oq:mecfs-pots-thermal-components>
+
+== Additional Math Model Extensions for Thermoregulation
+
+#speculation(title: [M3 -- Mitochondrial Reserve-Thermoregulatory Coupling: Spare Capacity as Thermal Budget])[
+*Certainty: 0.25.* The spare respiratory capacity model (ch06:@spec:mitochondrial-reserve-thermoreg) can be formalized as an ODE where thermoregulatory work demand W_th (sum of sweating, shivering, and vasomotor ATP costs) depletes mitochondrial reserve R_s(t). When W_th exceeds R_s, fatigue accumulates at rate proportional to the deficit. The model predicts that ME/CFS patients (R_s reduced ~50%) accumulate fatigue 3x faster under thermal stress; pre-conditioning via WBH extends tolerance linearly with R_s improvement. No ME/CFS mitochondrial-reserve coupling data.
+] <spec:m3-mito-reserve-ode>
+
+#speculation(title: [M4 -- TRPM3-TRPV1 Antagonism Model with Autoantibody Inhibition])[
+*Certainty: 0.20.* TRPM3-TRPV1 functional antagonism can be modeled as coupled channel activities where TRPM3 tonically inhibits TRPV1, and TRPM3 autoantibody concentration A_ab modulates the inhibition strength. In ME/CFS (A_ab elevated), TRPM3-mediated TRPV1 suppression is weakened, causing TRPV1 hyperresponsiveness to heat — producing global thermosensing failure plus paradoxical heat hyperexcitability. Falsifiable: TRPM3 calcium influx correlates inversely with TRPV1 CGRP release r below -0.5 in ME/CFS sensory neurons. No ME/CFS TRPM3-TRPV1 modeling data.
+] <spec:m4-trpm3-trpv1-ode>
+
+#speculation(title: [M5 -- HSP70-ISR Attenuation: PERK Inhibition Threshold and Therapeutic Window])[
+*Certainty: 0.25.* HSP70 binds and inhibits PERK kinase, attenuating the integrated stress response (ISR). An ODE coupling HSP70 concentration H70(t) to PERK activity P(t) via reversible binding predicts that ME/CFS (basal H70 reduced) operates with chronically elevated ISR. Thermal or pharmacological HSP70 induction above a threshold (H70 > 0.5 normalized) reduces ISR; excessive HSP70 (>2x baseline) may cause ISR overshoot. This defines a therapeutic window for HSP70-targeted interventions. No ME/CFS HSP70-PERK coupling data.
+] <spec:m5-hsp70-isr-ode>
+
+#speculation(title: [M6 -- BAT Activation Threshold Model: Sympathetic Drive Failure])[
+*Certainty: 0.20.* Cold intolerance via failed BAT activation (ch10:@oq:bat-cold-intolerance) can be modeled as a threshold phenomenon: sympathetic drive S_d must exceed BAT activation threshold B_th for UCP1-dependent thermogenesis to initiate. ME/CFS (B_th elevated from sympathetic desensitization) shows absent BAT activation at moderate cold stress where healthy controls activate normally. Beta3-agonists (mirabegron) lower B_th, restoring BAT activation at lower sympathetic drive. No ME/CFS BAT threshold data.
+] <spec:m6-bat-threshold-ode>
+
+#speculation(title: [M7 -- Thermal Dose-Response: U-Shaped Curve with Severity Stratification])[
+*Certainty: 0.25.* Thermal therapy response R(T_dose, S) as a function of thermal dose T_dose and disease severity S can be modeled as a U-shaped curve where the optimal dose T_opt(S) = T_healthy x (1 - beta x S) decreases with severity. Mild patients benefit from higher doses (~80% of healthy optimum); severe patients require much lower doses (~50% of healthy optimum) due to narrower tolerance window. Falsifiable: severe ME/CFS patients show better response at lower thermal doses than mild patients in a dose-finding crossover trial. No ME/CFS thermal dose-response data.
+] <spec:m7-dose-response-model>
+
+#speculation(title: [M8 -- Autophagy Switch: Selective vs Bulk Competition for HSP70])[
+*Certainty: 0.20.* The autophagy switch hypothesis (ch06:@spec:autophagy-switch-heat) can be formalized as HSP70 chaperone allocation between selective autophagy A_s and bulk autophagy A_b, where A_s is HSP70-dependent and A_b is HSP70-inhibited. ME/CFS simulation (HSP70 chronic low) shows A_s up, A_b suppression, mitochondrial health decline. WBH increases HSP70, reversing the allocation: A_s down, A_b up, mitochondrial health improves. The switch triggers at a critical HSP70 threshold. No ME/CFS autophagy-switch data.
+] <spec:m8-autophagy-switch-ode>
+
+#speculation(title: [M9 -- Multi-Scale Integration: From Molecular HSP70 to Clinical Thermoregulation])[
+*Certainty: 0.20.* The molecular (HSP70, ET-1), cellular (mitochondrial reserve, autophagy), organ (circadian oscillators, vasomotor), and clinical (fatigue, thermal tolerance) layers can be integrated into a multi-scale ODE framework. Cross-layer coupling reveals intervention cross-effects: ET-1 reduction improves both circadian (organ) and vasomotor (organ) function; HSP70 induction benefits mitochondria (cellular), autophagy (cellular), and fatigue (clinical). Falsifiable: the model predicts at least one non-obvious cross-effect (e.g., ET-1 antagonist improves mitochondrial function) that is verified in linked clinical measurements. No ME/CFS multi-scale model data.
+] <spec:m9-multiscale-model>
+
+#speculation(title: [M10 -- Stochastic Resilience Model: Heterogeneity in Thermal Vulnerability])[
+*Certainty: 0.20.* ME/CFS thermoregulatory heterogeneity — some patients tolerate heat but not cold, others neither — can be captured by sampling individual resilience parameters (HSP70 sensitivity, ET-1 baseline, spare respiratory capacity, BAT threshold, vasomotor bias) from population distributions. Stochastic simulation predicts three responder clusters: heat-tolerant (30%), cold-tolerant (25%), and mixed-intolerant (45% non-responders requiring combination therapy). Falsifiable: cluster analysis of thermal challenge responses in n >= 50 ME/CFS patients identifies the predicted proportions. No ME/CFS stochastic modeling data.
+] <spec:m10-stochastic-model>
