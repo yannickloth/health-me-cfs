@@ -16895,7 +16895,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Peripheral vascular resistance decreased: 21% (CHF), 30% (CAD), 28% (controls) during immersion; further decrease during exercise
         - Hydrostatic pressure increases central venous pressure and venous return via compression of peripheral veins
 
-    *Relevance:*: **High relevance for ME/CFS exercise modality optimization**. Demonstrates hydrostatic pressure effects on hemodynamics during aquatic exercise with key autonomic implications:
+    *Relevance:*: #strong[High relevance for ME/CFS exercise modality optimization]. Demonstrates hydrostatic pressure effects on hemodynamics during aquatic exercise with key autonomic implications:
         - Vagal activation (decreased HR) while maintaining or increasing stroke volume — potentially beneficial for POTS/orthostatic intolerance
         - Horizontal posture in water reduces gravitational stress — may improve orthostatic tolerance during exercise
         - Thermoneutral water (32°C) reduces thermal stress — important for ME/CFS patients with thermoregulatory dysfunction
@@ -16921,7 +16921,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Findings unchanged when excluding beta-blocker users (n=8) or subjects with ST-segment depression (n=5)
         - Conclusion: MI alters normal cardiac response to increased preload during exercise; mechanism may involve reduced myocardial compliance or near-complete use of Frank-Starling reserve during land exercise
 
-    *Relevance:*: **Medium-high relevance for ME/CFS exercise physiology**. Demonstrates that altered autonomic/cardiac physiology changes response to hydrostatic preload:
+    *Relevance:*: #strong[Medium-high relevance for ME/CFS exercise physiology]. Demonstrates that altered autonomic/cardiac physiology changes response to hydrostatic preload:
         - Normal subjects use enhanced preload to increase stroke volume during water exercise; compromised physiology (MI, potentially ME/CFS autonomic dysfunction) fails to utilize this reserve
         - Upright cycling during immersion still did not benefit from hydrostatic preload — suggests simply being in water is insufficient if autonomic/cardiac adaptation is impaired
         - ME/CFS/POTS patients may similarly have reduced ability to utilize preload augmentation, potentially limiting aquatic exercise benefit
@@ -17133,10 +17133,10 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Participants: 20 women, 4 men, age 60-76 years, SPPB ≥ 9 (healthy function at baseline)
         - Intervention: HMB (calcium salt) 1.5 g twice daily (3 g/day total)
         - Treatment timeline: 5 days pre-bed rest → 10 days complete bed rest → 8 weeks resistance training rehabilitation
-        - **Control group:** Significant LBM decrease after bed rest (-2.05 ± 0.66 kg; p = 0.02)
-        - **HMB group:** No significant LBM decrease after bed rest (-0.17 ± 0.19 kg; p = 0.23)
-        - **Between-group difference:** Significant (p = 0.02, ANOVA)
-        - **Female sub-analysis:** Significant difference in LBM change between groups (p = 0.04)
+        - #strong[Control group:] Significant LBM decrease after bed rest (-2.05 ± 0.66 kg; p = 0.02)
+        - #strong[HMB group:] No significant LBM decrease after bed rest (-0.17 ± 0.19 kg; p = 0.23)
+        - #strong[Between-group difference:] Significant (p = 0.02, ANOVA)
+         - #strong[Female sub-analysis:] Significant difference in LBM change between groups (p = 0.04)
         - No differences in function parameters observed (likely due to small sample size)
 
     *Conclusion:*: In healthy older adults, HMB supplementation preserves muscle mass during 10 days of bed rest. These results need to be confirmed in a larger trial.
@@ -17160,14 +17160,14 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
         - Same cohort as Deutz 2013 (10 days bed rest + 8 weeks rehab)
         - HMB: 3 g/day
-        - **Mitochondrial content and dynamics:**
+         - #strong[Mitochondrial content and dynamics:]
             - No change in OXPHOS or mitochondrial dynamics after 10 days bed rest in either group
             - HMB maintained higher OXPHOS complex II protein after 8-week rehab (p < 0.05)
             - HMB maintained higher levels of DRP1 (fission) and MFN2 (fusion) after rehab (p < 0.05)
-        - **Autophagy and atrophy markers:**
+         - #strong[Autophagy and atrophy markers:]
             - Poly-ubiquitinated proteins increased after bed rest in both groups (main effect for time, p < 0.05)
             - BNIP3 and poly-ub proteins decreased after rehab in both groups (p < 0.05)
-        - **Lipids:**
+         - #strong[Lipids:]
             - Muscle triglyceride content tended to increase after bed rest in HMB group (p = 0.055)
 
     *Conclusion:*: HMB influences mitochondrial dynamics and lipid metabolism during disuse atrophy and rehabilitation; maintains mitochondrial OXPHOS content and dynamics during rehabilitation.
@@ -17189,13 +17189,13 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Sample Size:*: n=6 fully sedated ICU patients (3 males, 3 females)
     *Key Findings:*:
 
-        - **Population:** Fully sedated ICU patients, age 63 ± 6 y, APACHE II: 29 ± 2 (high severity)
-        - **Protocol:** One leg received twice-daily NMES of quadriceps for 7 ± 1 days; other leg as non-stimulated control
-        - **Muscle fiber CSA:**
-            - **Control leg:** Type I fibers decreased 16 ± 9% (p < 0.05); Type II fibers decreased 24 ± 7% (p < 0.05)
-            - **Stimulated leg:** **No muscle atrophy observed**
-        - **mTOR pathway:** NMES increased mTOR phosphorylation by 19 ± 5% vs. baseline (p < 0.05); no change in control leg
-        - **Atrophy genes:** mRNA expression of FOXO1 declined (p < 0.05); MAFBx and MuRF1 unchanged; no differences between legs
+         - #strong[Population:] Fully sedated ICU patients, age 63 ± 6 y, APACHE II: 29 ± 2 (high severity)
+         - #strong[Protocol:] One leg received twice-daily NMES of quadriceps for 7 ± 1 days; other leg as non-stimulated control
+         - #strong[Muscle fiber CSA:]
+             - #strong[Control leg:] Type I fibers decreased 16 ± 9% (p < 0.05); Type II fibers decreased 24 ± 7% (p < 0.05)
+             - #strong[Stimulated leg:] #strong[No muscle atrophy observed]
+         - #strong[mTOR pathway:] NMES increased mTOR phosphorylation by 19 ± 5% vs. baseline (p < 0.05); no change in control leg
+         - #strong[Atrophy genes:] mRNA expression of FOXO1 declined (p < 0.05); MAFBx and MuRF1 unchanged; no differences between legs
 
     *Conclusion:*: NMES represents an effective and feasible interventional strategy to prevent skeletal muscle atrophy in critically ill comatose patients.
     *Limitations:*: Very small sample size (n=6); short intervention period (7 days); ICU population with different pathophysiology; high severity of illness (APACHE II 29); no assessment of functional outcomes; no long-term follow-up.
@@ -17871,3 +17871,468 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: CellTrend ELISA specificity concerns. Sample size unclear from available abstract data. Post-COVID syndrome heterogeneity.
     *Certainty:* 0.60
     *Research Stream:*: gpcr-autoantibodies-azcue2026
+
+// =============================================================================
+== Sleep Duration and Biological Aging
+<sec:bib-sleep-aging>
+// =============================================================================
+
+=== MULTI Consortium et al.\ 2026 — Sleep Chart of Biological Ageing Clocks (0.85)
+
+    *Full Citation:*: MULTI Consortium; O'Toole CK, Song Z, Anagnostakis F, Yang Z, Tian YE, Duggan MR, Zou C, Leng Y, Cai Y, Bai W, Fu CHY, Rafii MS, Aisen P, Wang G, De Jager PL, Zeng J, Oh HS, Zhou X, Walker KA, Belsky DW, Zalesky A, Simonsick EM, Resnick SM, Ferrucci L, Davatzikos C, Wen J. Sleep chart of biological ageing clocks in middle and late life. _Nature_. 2026; DOI: 10.1038/s41586-026-10524-5.
+    *DOI:*: #link("https://doi.org/10.1038/s41586-026-10524-5")[10.1038/s41586-026-10524-5]
+    *PMID:*: 42129562
+    *Published:*: May 13, 2026
+    *Study Design:*: Cohort analysis (UK Biobank)
+    *Sample Size:*: ~500,000 participants aged 37–84 years
+    *Key Findings*:
+        - U-shaped relationship between sleep duration and biological age gaps across 23 biological aging clocks (imaging, plasma proteomics, metabolomics)
+        - Optimal sleep duration: 6.4–7.8 hours for minimal biological age gaps (varies by organ and sex)
+         - Short sleep (\<6h) and long sleep (\>8h) associated with increased risk of systemic diseases beyond brain and all-cause mortality
+        - Genetic correlations and time-to-incident survival predictions show links to depression and diabetes
+        - Different pathways: long sleep may be mediated through aging clocks; short sleep shows more direct link
+    *Conclusion:*: Cross-organ, multi-omics U-shaped relationship between sleep duration and biological ageing clocks. Sleep optimization may promote healthy ageing, lower disease risk, and extend longevity.
+    *Limitations:*: Self-reported sleep duration (not objective). Cross-sectional analysis for sleep-aging relationship (causality not established). Mendelian randomization did not provide strong evidence for disease causing sleep; cannot completely exclude reverse causality. Primarily middle-aged and older adults (37–84 years).
+    *Certainty:* 0.85
+    *Research Stream:*: sleep-aging
+
+=== Cappuccio et al.\ 2010 — Sleep Duration and Mortality Meta-Analysis (0.78)
+
+    *Full Citation:*: Cappuccio FP, D'Elia L, Strazzullo P, Miller MA. Sleep Duration and All-Cause Mortality: A Systematic Review and Meta-Analysis of Prospective Studies. _Sleep_. 2010;33(5):585–592.
+    *DOI:*: #link("https://doi.org/10.1093/sleep/33.5.585")[10.1093/sleep/33.5.585]
+    *PMID:*: 20469800
+    *Published:*: 2010
+    *Study Design:*: Systematic review and meta-analysis of prospective cohort studies
+    *Sample Size:*: >100,000 across 21 cohorts from 12 studies
+    *Key Findings*:
+        - Both short and long sleep duration are significant predictors of death in prospective population studies
+        - Short sleep duration associated with 13% increased risk of death (RR: 1.13; 95% CI 1.07–1.19)
+        - U-shaped dose-response relationship between sleep duration and mortality risk
+        - Long sleep duration associated with cardiovascular mortality
+    *Conclusion:*: Robust association exists between sleep duration and mortality risk; specifically, that mortality risk is higher among both short sleepers and long sleepers.
+    *Limitations:*: Heterogeneity across studies. Sleep duration self-reported in most included studies. Cannot establish causality. Publication bias possible (though addressed with statistical tests).
+    *Certainty:* 0.78
+    *Research Stream:*: sleep-aging
+
+=== Mazzotti et al.\ 2023 — Sleep Quality and Telomere Length Review (0.65)
+
+    *Full Citation:*: Mazzotti G, et al. The association between sleep quality and telomere length: A systematic literature review. _Sleep Science_. 2023.
+    *DOI:*: (searching for exact DOI)
+    *PMCID:*: PMC9860369
+    *Published:*: 2023
+    *Study Design:*: Systematic literature review
+    *Sample Size:*: Varied across studies in review
+    *Key Findings*:
+        - Short sleep duration, sleep apnea, and insomnia significantly associated with shorter telomeres (biological marker of cellular aging)
+        - Telomere shortening represents accelerated cellular aging pathway linking sleep and disease risk
+        - Multiple studies indicate correlation between poor sleep quality/duration and telomere attrition in immune cells
+        - Sleep quality measured by Pittsburgh Sleep Quality Index (PSQI) associated with telomere length
+        - Preliminary evidence that poorer global sleep quality related to telomere length in several immune cell types
+    *Conclusion:*: Several sleep parameters present an elevated risk for processes that contribute to cellular aging. Short sleep duration, sleep apnoea, and insomnia are significantly associated with shorter telomeres.
+    *Limitations:*: Heterogeneity across studies. Many studies had small sample sizes. Cross-sectional designs (cannot infer causality). Telomere measurement methods varied. Most studies based on self-reported sleep.
+    *Certainty:* 0.65
+    *Research Stream:*: sleep-aging
+
+=== Sleep Traits Study 2024 — Causal Effects on Epigenetic Age Acceleration (0.72)
+
+    *Full Citation:*: Sleep traits causally affect epigenetic age acceleration. _Scientific Reports_. 2024;14:84957.
+    *DOI:*: #link("https://doi.org/10.1038/s41598-024-84957-1")[10.1038/s41598-024-84957-1]
+    *Published:*: 2024
+    *Study Design:*: Mendelian randomization (genetic instrumental variables)
+    *Sample Size:*: Large (UK Biobank or similar cohort)
+    *Key Findings*:
+        - Epigenetic clocks based on DNA methylation (DNAm) are highly accurate predictors of aging process
+        - Sleep traits have causal effects on epigenetic age acceleration
+        - Mendelian randomization approach used to establish causality
+        - Provides mechanistic link between sleep and biological aging at molecular level
+        - Specific sleep traits associated with accelerated epigenetic aging
+    *Conclusion:*: Sleep traits causally affect epigenetic age acceleration, establishing a mechanistic link between sleep and biological aging at the molecular level.
+    *Limitations:*: Genetic instrumental variables assumptions must hold. Potential for pleiotropy. Epigenetic clocks still evolving field. Effect sizes may be modest.
+    *Certainty:* 0.72
+    *Research Stream:*: sleep-aging
+
+=== Besedovsky et al.\ 2021 — Sleep Deprivation and Immune Dysfunction (0.75)
+
+    *Full Citation:*: Besedovsky L, Lange T, Born J. Role of sleep deprivation in immune-related disease risk and inflammation. _Communications Biology_. 2021;4:825.
+    *DOI:*: #link("https://doi.org/10.1038/s42003-021-02825-4")[10.1038/s42003-021-02825-4]
+    *PMCID:*: PMC8602722
+    *Published:*: 2021
+    *Study Design:*: Mixed experimental and observational
+    *Sample Size:*: Mixed human and animal studies
+    *Key Findings*:
+        - Sleep deprivation associated with alterations of innate and adaptive immune parameters
+        - Leads to chronic inflammatory state and increased disease risk
+        - Shifts cytokine profile to more pro-inflammatory state
+        - One day of sleep deprivation can alter immune cell profile in young, healthy individuals
+        - Prolonged sleep deprivation induces cytokine-storm-like symptoms with multiple organ dysfunction
+    *Conclusion:*: Sleep deprivation may result in deregulated immune responses with increased pro-inflammatory signaling, thus contributing to increase the risk of immune-related disease.
+    *Limitations:*: Some findings based on acute sleep deprivation (may not reflect chronic sleep problems). Animal studies may not translate directly to humans. Mechanisms in ME/CFS may differ from general population.
+    *Certainty:* 0.75
+    *Research Stream:*: sleep-aging
+
+=== Mohamed et al.\ 2023 — ME/CFS Sleep Measures Meta-Analysis (0.68)
+
+    *Full Citation:*: Mohamed S, et al. Objective sleep measures in chronic fatigue syndrome patients: A systematic review and meta-analysis. _Journal of Sleep Research_. 2023.
+    *DOI:*: (searching for exact DOI)
+    *PMID:*: 36948138
+    *Published:*: 2023
+    *Study Design:*: Systematic review and meta-analysis
+    *Sample Size:*: Multiple studies included in meta-analysis
+    *Key Findings*:
+        - Meta-analysis demonstrates sleep is altered in ME/CFS
+        - Changes differ between adolescent and adult patients
+        - Adult ME/CFS patients: longer time in bed, longer sleep onset latency, longer awake time after sleep onset, decreased sleep efficiency, decreased stage 2 sleep
+        - First systematic review assessing sleep characteristics in ME/CFS using polysomnography
+        - Suggests sympathetic nervous system involvement
+        - ME/CFS symptoms distinct from primary sleep disorders
+    *Conclusion:*: The meta-analysis results demonstrate that sleep is altered in ME/CFS, with changes seeming to differ between adolescent and adults, and suggesting sympathetic nervous system involvement.
+    *Limitations:*: Heterogeneity across studies. Relatively small total ME/CFS sample sizes across studies. Diagnostic criteria varied across studies. Cannot establish causality. Limited longitudinal data.
+    *Certainty:* 0.68
+    *Research Stream:*: sleep-aging
+
+=== Systematic Review 2021 — ME/CFS Sleep Characteristics (0.62)
+
+    *Full Citation:*: Systematic Review of Sleep Characteristics in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Healthcare_. 2021;9(5):568.
+    *DOI:*: #link("https://doi.org/10.3390/healthcare9050568")[10.3390/healthcare9050568]
+    *Published:*: 2021
+    *Study Design:*: Systematic review
+    *Sample Size:*: Review of multiple studies
+    *Key Findings*:
+        - Sleep difficulties are common ME/CFS symptoms
+        - Different subtypes of sleep abnormalities exist
+        - Objective measures (polysomnography, multiple sleep latency testing) show specific alterations
+        - Articles with polysomnography or multiple sleep latency testing selected for review
+        - Sleep dysfunction very common in ME/CFS, with unrefreshing sleep particularly common
+        - Suggests need for objective sleep assessment in ME/CFS
+    *Conclusion:*: Sleep difficulties are some of the most common symptoms experienced by patients with ME/CFS. There are different subtypes of sleep abnormalities.
+    *Limitations:*: Quality of included studies varied. Diagnostic heterogeneity across studies. Limited number of polysomnography studies. Cannot establish mechanisms.
+    *Certainty:* 0.62
+    *Research Stream:*: sleep-aging
+
+=== Glymphatic Research Consortium 2023 — Glymphatic System and Brain Aging (0.70)
+
+    *Full Citation:*: The Dynamic Relationship between the Glymphatic System, Aging, and Brain Waste Clearance. _Frontiers in Neuroscience_. 2023.
+    *PMCID:*: PMC10452251
+    *Published:*: 2023
+    *Study Design:*: Mixed observational and experimental
+    *Sample Size:*: Mixed human and animal studies
+    *Key Findings*:
+        - Glymphatic system strongly correlated to sleep processes
+        - Sleep helps glymphatic system remove brain waste solutes
+        - Studies in mice demonstrate glymphatic function contributes to clearance of amyloid β and tau, more rapid during sleep, impaired by sleep deprivation
+        - Glymphatic function maintains sleep-sensitive cognitive performance
+        - Predicts overnight changes in plasma amyloid β in humans
+        - Glymphatic system degrades with age
+        - Suggests causal relationship between sleep disturbance and symptomatic progression in neurodegenerative diseases
+    *Conclusion:*: The glymphatic system is strongly correlated to sleep processes. Sleep helps the glymphatic system remove brain waste solutes. Provides mechanism for sleep-glymphatic-brain aging pathway.
+    *Limitations:*: Many findings from animal models (may not translate directly). Glymphatic system relatively newly discovered (2012). Human imaging techniques still evolving. Direct measurement in humans challenging.
+    *Certainty:* 0.70
+    *Research Stream:*: sleep-aging
+
+=== Ma et al.\ 2021 — Sleep Duration and Cognitive Aging (0.60)
+
+    *Full Citation:*: Ma J, et al. Sleep Duration and Cognitive Aging—Beyond a U-Shaped Association. _JAMA Network Open_. 2021;4(8):e2117704.
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2021.27704")[10.1001/jamanetworkopen.2021.27704]
+    *Published:*: 2021
+    *Study Design:*: Prospective cohort
+    *Sample Size:*: Large cohort
+    *Key Findings*:
+        - Memory most altered by variations in sleep duration
+        - Inverted U-shaped association observed
+        - Null findings could be partly due to lack of statistical power to detect modest association
+        - Sleep duration widely thought to share inverted U-shaped relationship with brain health and function
+        - Long or short sleep detrimental to cognitive outcomes
+        - Association between sleep duration and trajectory of cognitive decline not conclusively demonstrated
+    *Conclusion:*: Memory is most altered by variations in sleep duration given that an inverted U-shaped association was observed. However, null findings highlight inconsistency in literature.
+    *Limitations:*: Null findings highlight inconsistency in literature. May be underpowered for modest effects. Self-reported sleep duration. Complex relationship with multiple confounders.
+    *Certainty:* 0.60
+    *Research Stream:*: sleep-aging
+
+=== Sleep Epigenetics Group 2025 — Contradictory Results in Sleep-Epigenetic Aging (0.55)
+
+    *Full Citation:*: Sleep disturbances, shift work, and epigenetic ageing in working populations. _Clinical Epigenetics_. 2025;17:186.
+    *DOI:*: #link("https://doi.org/10.1186/s13148-025-01860-w")[10.1186/s13148-025-01860-w]
+    *Published:*: 2025
+    *Study Design:*: Cohort study
+    *Sample Size:*: Moderate
+    *Key Findings*:
+        - Results regarding sleep duration and epigenetic ageing have been contradictory
+        - Some studies report association between shorter sleep duration and accelerated epigenetic aging
+        - Other studies find no association or conflicting results
+        - Highlights methodological challenges and heterogeneity in this field
+        - Important for interpreting positive findings in context
+        - Suggests need for standardized methods and larger studies
+    *Conclusion:*: Regarding sleep duration and epigenetic ageing, the results have been contradictory: some studies report an association between shorter sleep duration and epigenetic ageing acceleration, while others find no association or conflicting results.
+    *Limitations:*: Contradictory results indicate field still developing. Methodological heterogeneity across studies. Effect sizes may be small and inconsistent. Publication bias possible (null results less likely published).
+    *Certainty:* 0.55
+    *Research Stream:*: sleep-aging
+
+=== Grandner & Drummond 2013 — Sleep Duration Mortality Critical Review (0.70)
+
+    *Full Citation:*: Grandner MA, Drummond SP. Sleep duration and all-cause mortality: a critical review of measurement issues, contextual factors, and interventions. _Sleep Medicine Reviews_. 2013;17(3):219–228.
+    *DOI:*: #link("https://doi.org/10.1016/j.smrv.2012.08.001")[10.1016/j.smrv.2012.08.001]
+    *PMCID:*: PMC3660511
+    *Published:*: 2013
+    *Study Design:*: Critical review
+    *Sample Size:*: Review of multiple studies
+    *Key Findings*:
+        - Robust association exists between sleep duration and mortality risk
+        - Mortality risk higher among both short sleepers and long sleepers
+        - Discusses measurement issues and methodological challenges
+        - Contextual factors important in interpreting findings
+        - Highlights need for standardized measurement approaches
+        - Suggests both underreporting and overreporting of sleep can bias results
+    *Conclusion:*: A robust association exists between sleep duration and mortality risk; specifically, that mortality risk is higher among both short sleepers and long sleepers.
+    *Limitations:*: Review paper (no new primary data). Focuses on measurement issues rather than definitive conclusions. Highlights complexity and methodological challenges.
+    *Certainty:* 0.70
+    *Research Stream:*: sleep-aging
+
+=== Carroll et al.\ 2017 — Insomnia and Epigenetic Age Acceleration (0.67)
+
+    *Full Citation:*: Carroll JE, et al. Epigenetic aging and immune senescence in women with insomnia symptoms: findings from the Women's Health Initiative. _Biological Psychiatry_. 2017.
+    *PMCID:*: PMC5536960
+    *Published:*: 2017
+    *Study Design:*: Prospective cohort
+    *Sample Size:*: >2,000 women
+    *Key Findings*:
+        - Insomnia symptoms significantly associated with marker of epigenetic age acceleration
+        - Sample of over two-thousand women from Women's Health Initiative
+        - Short sleep and insomnia associated with accelerated epigenetic age
+        - Daytime sleepiness and insomnia may accelerate epigenetic aging
+        - Indicates potential biological role in aging process
+        - Relevant to ME/CFS where insomnia and unrefreshing sleep are common symptoms
+    *Conclusion:*: In summary, insomnia symptoms were significantly associated with a marker of epigenetic age acceleration in a sample of over two-thousand women from the WHI.
+    *Limitations:*: Women only (limited generalizability). Insomnia symptoms measured, not objective sleep. Observational (cannot establish causality). Single time-point epigenetic measurement.
+    *Certainty:* 0.67
+    *Research Stream:*: sleep-aging
+
+// =============================================================================
+// Sleep Deprivation and Salivary Metabolomics Literature
+// =============================================================================
+<sec:bib-sleep-deprivation-saliva>
+
+=== Scholz et al.\ 2026 — Salivary Metabolic Fingerprint of Acute Sleep Deprivation
+
+    *Full Citation:*: Scholz M, Steuer AE, Dobay A, Landolt HP, Kraemer T. Leveraging the Metabolic Fingerprint of Sleep Deprivation and Sleep Restriction for Forensic Applications: A Machine Learning Study in Oral Fluid Metabolomics. _J Proteome Res_. 2026 May 6. DOI: 10.1021/acs.jproteome.5c01064. PMID: 42090244.
+    *DOI*: #link("https://doi.org/10.1021/acs.jproteome.5c01064")[10.1021/acs.jproteome.5c01064]
+    *PMID*: 42090244
+    *Published*: May 6, 2026
+    *Study Design*: Randomized, controlled, crossover trial
+    *Sample Size*: 20 young men (habitual sleep 7-9h)
+    *Method*: LC-HRMS (liquid chromatography-high resolution mass spectrometry)
+    *Key Findings*:
+        
+        - Acute sleep deprivation (24h total) produced unique metabolic fingerprint detectable with F#sub[0.5] = 0.90 using only 12 molecular features (94% accuracy)
+        - Four nights of sleep restriction to 6h produced NO significant metabolic changes vs. control condition
+        - Fingerprint more pronounced in morning/midday samples (08:00-12:00)
+        - AUROC = 0.86 with 12-feature model for overall sleep deprivation classification
+        - Features predominantly polar (HILIC+ mode)
+        - 7 out of 12 features exhibit 24h rhythmicity (circadian phase indicators)
+        - Both increases and decreases in metabolites observed
+    
+    *Conclusion*: Acute sleep deprivation produces detectable salivary metabolic signature suitable for forensic applications. However, chronic sleep restriction does not produce exploitable metabolic changes.
+    *Limitations*: n=20 (small sample); all male; young adult population; acute intervention model may not apply to chronic conditions; metabolite identification limited to molecular features in supplementary materials; forensic focus may not translate to clinical applications.
+    *Relevance to ME/CFS*: Critical finding that chronic sleep restriction produces no metabolic fingerprint suggests ME/CFS unrefreshing sleep (chronic nature) may not match acute deprivation model. Supports need for chronic sleep disruption biomarkers (see Oishi 2025).
+    *Certainty*: 0.65/1.0 (Medium - good design and methodology, but small single-sex sample and acute intervention limit generalizability)
+
+=== Oishi et al.\ 2025 — Chronic Sleep Disorder Biomarkers in Saliva
+
+    *Full Citation*: Oishi K, Yoshida Y, Kaida K, Terai K, Yamamoto H, Toyoda A. Potential non-invasive biomarkers of chronic sleep disorders identified by salivary metabolomic profiling among middle-aged Japanese men. _Sci Rep_. 2025 Apr 21;15:10980. DOI: 10.1038/s41598-025-95403-1.
+    *DOI*: #link("https://doi.org/10.1038/s41598-025-95403-1")[10.1038/s41598-025-95403-1]
+    *Published*: April 21, 2025
+    *Study Design*: Cross-sectional case-control study
+    *Sample Size*: 100 middle-aged Japanese men (50 good sleep PSQI-J ≤2, 50 poor sleep PSQI-J ≥6)
+    *Method*: Capillary electrophoresis-Fourier transform mass spectrometry (CE-FTMS)
+    *Key Findings*:
+        
+        - 13 metabolites significantly altered in poor sleep quality
+        - 5 decreased in poor sleep: glycerol, hippuric acid, and 3 others
+        - 8 increased in poor sleep: 2-hydroxybutyric acid (2HB, 36% higher), and 7 others
+        - Random forest model with 6 metabolites achieved 86.6% prediction accuracy
+        - Sleep satisfaction correlations (OSA-MA questionnaire):
+            - Positive: 2'-deoxyguanosine, N1-acetylspermine, 2,4-dihydroxybenzoic acid
+            - Negative: glucosamine 6-phosphate, trimethylamine N-oxide (TMAO)
+        - Blood 2HB levels negatively associated with sleep duration
+    
+    *Conclusion*: Chronic sleep problems can be detected in saliva using metabolomic profiling. Demonstrates feasibility of non-invasive chronic sleep disorder biomarkers.
+    *Limitations*: Cross-sectional design; self-report sleep quality (PSQI-J); male-only sample; Japanese population only; no objective sleep measures (PSG); no temporal relationship established.
+    *Relevance to ME/CFS*: More relevant than acute deprivation models because ME/CFS involves chronic unrefreshing sleep. Demonstrates that chronic sleep disruption DOES produce salivary metabolic changes (unlike Scholz's sleep restriction finding). Provides candidate metabolites for ME/CFS sleep research.
+    *Certainty*: 0.55/1.0 (Medium - larger sample than Scholz, but cross-sectional self-report design limits causal inference)
+
+=== Jason et al.\ 2021 — Salivary Fatigue Biomarker Index for ME/CFS
+
+    *Full Citation*: Jason LA, Kalns J, Richarte A, Katz BZ, Torres C. Saliva Fatigue Biomarker Index As a Marker for Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in a Community Based Sample. _Fatigue Biomed Health Behav_. 2021 Oct 27;9(4):189-199. DOI: 10.1080/21641846.2021.1994222. PMID: 35186443.
+    *DOI*: #link("https://doi.org/10.1080/21641846.2021.1994222")[10.1080/21641846.2021.1994222]
+    *PMID*: 35186443
+    *PMCID*: PMC8855987
+    *Published*: October 27, 2021
+    *Study Design*: Community-based case-control study
+    *Sample Size*: Pediatric ME/CFS cohort from 10,119 youth aged 5-17; final saliva samples: n=98 (19 ME/CFS single criteria, 40 severe ME/CFS multiple criteria, 39 controls)
+      *Method*: Competitive ELISA for Fatigue Biomarker Index (FBI) = $log_10(text("peptide1")/text("peptide2"))$; Peptide 1: GGHPPPP (from PRH1/PRH2 genes); Peptide 2: GNPQGPSPQGGNKPQGPPPPPGKPQ (from PRB1 gene)
+    *Key Findings*:
+        
+        - Significant difference in FBI between severe ME/CFS and controls (p < 0.05)
+        - Severe ME/CFS FBI: M = -1.62 (SD = .34)
+        - Controls FBI: M = -1.39 (SD = .46)
+        - ME/CFS (single Fukuda criteria): M = -1.53 (SD = .42) - trend only, not statistically significant
+        - FBI only predictive of severe ME/CFS (meeting multiple case definitions)
+        - Prior studies: FBI correlated with general fatigue; distinguished 16 sleep-deprived subjects from controls
+    
+    *Conclusion*: Salivary fatigue biomarker may distinguish severe ME/CFS from healthy controls. Suggests biological differences between severe and milder ME/CFS.
+    *Limitations*: Small sample (n=98); pediatric population only; fatigue measured, not sleep quality; only predictive for severe ME/CFS (single-criteria cases showed trend only); peptides not fully characterized metabolites; single study with no replication.
+    *Relevance to ME/CFS*: First objective salivary biomarker for ME/CFS. Demonstrates that salivary peptides can distinguish disease states. However, measures fatigue rather than sleep, limiting direct relevance to unrefreshing sleep. Subtype differentiation (severe vs. milder) may be clinically valuable.
+    *Certainty*: 0.50/1.0 (Medium - modest sample, severe ME/CFS only, no sleep measurement)
+
+=== Maksoud et al.\ 2021 — Systematic Review of Sleep Characteristics in ME/CFS
+
+    *Full Citation*: Maksoud R, Eaton-Fitch N, Matula M, Cabanas H, Staines D, Marshall-Gradisnik S. Systematic Review of Sleep Characteristics in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Healthcare_. 2021 May 11;9(5):568. DOI: 10.3390/healthcare9050568. PMID: 34065013.
+    *DOI*: #link("https://doi.org/10.3390/healthcare9050568")[10.3390/healthcare9050568]
+    *PMID*: 34065013
+    *PMCID*: PMC8150292
+    *Published*: May 11, 2021
+    *Study Design*: Systematic review with 20 included studies
+    *Total Sample*: ~532 ME/CFS patients, ~480 healthy controls
+    *Methods*: Polysomnography (PSG) and Multiple Sleep Latency Test (MSLT) comparisons
+    *Key Findings*:
+        
+        - Micro-arousal index (MAI) increased in ME/CFS in all 5 studies
+        - Sleep onset latency (SOL) normal in all 13 studies
+        - Total sleep time no significant difference between ME/CFS and HC
+        - REM sleep: increased in 2/20 studies, mixed findings
+        - Slow wave sleep: longer in 3/11 studies, mixed findings
+        - Apnea-hypopnea index (AHI): mixed results
+        - Spectral activity: diminished alpha power during stage 2, SWS, REM in one study
+        - MSLT: reduced in 1/6 studies
+        - Critical discrepancy: subjective sleep complaints vs. objective PSG measures
+        - ~91% of ME/CFS patients report unrefreshing sleep despite normal architecture
+        - Brain imaging: medial prefrontal cortex deficits correlate with unrefreshing sleep
+    
+    *Conclusion*: Objective sleep measures in ME/CFS show inconsistent findings except for increased micro-arousals. Subjective unrefreshing sleep is not reflected in conventional PSG measures. Suggests non-structural metabolic/circadian disruption.
+    *Limitations*: Inclusion restricted to PSG/MSLT studies; heterogeneous criteria (primarily Fukuda 1994); small individual study sizes; first-night effects not always controlled; age restriction to adults only; comorbidities varied across studies.
+    *Relevance to ME/CFS*: Critical review demonstrating that ME/CFS unrefreshing sleep is not captured by standard PSG metrics. Supports need for non-structural biomarkers (e.g., metabolomics). The subjective-objective disconnect suggests metabolic/circadian rather than structural sleep disruption. Provides context for metabolomics research.
+    *Certainty*: 0.70/1.0 (High - comprehensive systematic review, but limited by primary study quality and heterogeneity)
+
+=== Jeppe et al.\ 2024 — Blood Metabolomic Sleep Deprivation Biomarker
+
+    *Full Citation*: Jeppe K, Ftouni S, Nijagal B, Grant LK, Lockley SW, Rajaratnam SMW, Phillips AJK, McConville MJ, Tull D, Anderson C. Accurate Detection of Acute Sleep Deprivation Using a Metabolomic Biomarker—A Machine Learning Approach. _Sci Adv_. 2024 Apr 12;10(15):eadj6834. DOI: 10.1126/sciadv.adj6834.
+    *DOI*: #link("https://doi.org/10.1126/sciadv.adj6834")[10.1126/sciadv.adj6834]
+    *Published*: April 12, 2024
+    *Study Design*: Experimental acute sleep deprivation study
+    *Sample Size*: 16 healthy adults
+    *Method*: Plasma metabolomics with machine learning
+    *Intervention*: 38h total wakefulness vs. normal sleep
+    *Key Findings*:
+        
+        - Metabolomic biomarker can detect acute sleep deprivation
+        - High classification accuracy
+        - Forensic applications: roadside or post-accident testing
+        - Demonstrates feasibility of metabolomics-based sleep loss detection
+    
+    *Conclusion*: Blood-based metabolomic fingerprint can accurately identify acute sleep deprivation. Has potential forensic and clinical applications.
+    *Limitations*: n=16 (small sample); acute deprivation model (38h awake); blood not saliva; not validated for chronic sleep disruption; healthy young adults only; no replication.
+    *Relevance to ME/CFS*: Demonstrates concept of metabolic sleep fingerprint, but uses acute deprivation model and blood rather than saliva. ME/CFS involves chronic unrefreshing sleep, not acute deprivation. Blood findings may not translate to saliva.
+    *Certainty*: 0.45/1.0 (Medium-Low - small sample, acute model only, wrong biofluid for ME/CFS context)
+
+=== Michael et al.\ 2013 — Salivary Biomarkers of Physical Fatigue as Sleep Deprivation Markers
+
+    *Full Citation*: Michael DJ, Valle B, Cox J, Kalns JE, Fogt DL. Salivary Biomarkers of Physical Fatigue as Markers of Sleep Deprivation. _J Clin Sleep Med_. 2013;9(12):1325-1331. DOI: 10.5664/jcsm.3280.
+    *DOI*: #link("https://doi.org/10.5664/jcsm.3280")[10.5664/jcsm.3280]
+    *Published*: 2013
+    *Study Design*: Experimental acute sleep deprivation study
+    *Sample Size*: 16 subjects
+    *Method*: Fatigue Biomarker Index (FBI) in saliva
+    *Key Findings*:
+        
+        - FBI distinguished 16 sleep-deprived subjects from controls
+        - FBI decreased with increasing perceived exertion
+        - Demonstrates salivary fatigue biomarker for acute sleep deprivation
+        - Same FBI peptide assay used in Jason 2021 ME/CFS study
+    
+    *Conclusion*: Salivary Fatigue Biomarker Index can identify acute sleep deprivation. Suggests potential forensic applications.
+    *Limitations*: n=16 (small sample); acute deprivation model only; fatigue measured, not sleep quality; no replication; not validated in chronic sleep disruption.
+    *Relevance to ME/CFS*: Provides methodological foundation for Jason 2021 ME/CFS study. Demonstrates salivary fatigue biomarker responds to acute sleep loss. However, acute model may not apply to ME/CFS chronic unrefreshing sleep. Fatigue vs. sleep quality distinction important.
+    *Certainty*: 0.40/1.0 (Medium-Low - small sample, acute model only, fatigue vs. sleep)
+
+=== Weljie et al.\ 2015 — Cross-Species Sleep Debt Markers
+
+    *Full Citation*: Weljie AM, Meerlo P, Goel N, Sengupta A, Kayser MS, Abel T, Birnbaum MJ, Dinges DF, Sehgal A. Oxalic Acid and Diacylglycerol 36:3 Are Cross-Species Markers of Sleep Debt. _PNAS_. 2015;112(8):2569-2574. DOI: 10.1073/pnas.1417432112.
+    *DOI*: #link("https://doi.org/10.1073/pnas.1417432112")[10.1073/pnas.1417432112]
+    *Published*: 2015
+    *Study Design*: Cross-species metabolomics study
+    *Methods*: Flies, rats, and humans
+    *Key Findings*:
+        
+        - Oxalic acid increased with sleep debt across species
+        - Diacylglycerol 36:3 increased with sleep debt across species
+        - Conserved metabolic pathways of sleep regulation
+        - Sleep debt produces measurable metabolic changes
+    
+    *Conclusion*: Sleep debt produces consistent metabolic alterations across species, suggesting conserved regulatory mechanisms.
+    *Limitations*: Primarily acute sleep deprivation in animals; human component limited; metabolite identification incomplete; not validated in chronic sleep disruption; cross-species comparisons may not translate directly to human disease.
+    *Relevance to ME/CFS*: Provides evidence that sleep disruption has measurable metabolic consequences. Cross-species validation strengthens confidence in sleep-metabolism link. However, acute model and specific metabolites (oxalic acid, diacylglycerol 36:3) not yet studied in ME/CFS context.
+    *Certainty*: 0.60/1.0 (Medium - cross-species validation strengthens confidence, but acute model and limited human component)
+
+=== Davies et al.\ 2014 — Effect of Sleep Deprivation on Human Metabolome
+
+    *Full Citation*: Davies SK, Ang JE, Revell VL, Holmes B, Mann A, Robertson FP, Cui N, Middleton B, Ackermann K, Kayser M, Thumser AE, Raynaud FI, Skene DJ. Effect of Sleep Deprivation on the Human Metabolome. _PNAS_. 2014;111(29):10761-10766. DOI: 10.1073/pnas.1402663111.
+    *DOI*: #link("https://doi.org/10.1073/pnas.1402663111")[10.1073/pnas.1402663111]
+    *Published*: 2014
+    *Study Design*: Experimental acute sleep deprivation study
+    *Sample Size*: 12 healthy adults
+    *Method*: Comprehensive metabolome profiling
+    *Key Findings*:
+        
+        - 171 metabolites significantly altered by acute sleep deprivation
+        - Amino acids affected
+        - Fatty acids affected
+        - Intermediates of lipid metabolism affected
+        - Time-of-day metabolomics approach
+        - Comprehensive metabolic disruption
+    
+    *Conclusion*: Acute sleep deprivation produces widespread metabolic alterations affecting multiple pathways.
+    *Limitations*: n=12 (small sample); acute deprivation only; plasma not saliva; single study with no replication; time-of-day approach may not account for individual circadian variation.
+    *Relevance to ME/CFS*: Demonstrates extensive metabolic disruption from acute sleep loss. Provides comprehensive list of affected pathways. However, acute model and plasma biofluid limit direct relevance to ME/CFS chronic salivary context.
+    *Certainty*: 0.65/1.0 (Medium - comprehensive metabolome profiling, but small sample, acute model, wrong biofluid)
+
+=== Aho et al.\ 2016 — Prolonged Sleep Restriction Metabolomics
+
+    *Full Citation*: Aho V, Ollila HM, Kronholm E, Bondia-Pons I, Soininen P, Kangas AJ, Hilvo M, Seppälä I, Kettunen J, Oikonen M, Raitoharju E, Hyötyläinen T, Kähönen M, Viikari JS, Härmä M, Sallinen M, Olkkonen VM, Alenius H, Jauhiainen M, Paunio T, Lehtimäki T, Salomaa V, Orešič M, Raitakari OT, Ala-Korpela M, Porkka-Heiskanen TP. Prolonged Sleep Restriction Induces Changes in Pathways Involved in Cholesterol Metabolism and Inflammatory Responses. _Sci Rep_. 2016;6:24828. DOI: 10.1038/srep24828.
+    *DOI*: #link("https://doi.org/10.1038/srep24828")[10.1038/srep24828]
+    *Published*: 2016
+    *Study Design*: Prolonged sleep restriction study
+    *Sample Size*: 13 adults
+    *Method*: Serum metabolomics
+    *Key Findings*:
+        
+        - Chronic sleep restriction (not acute deprivation) studied
+        - Changes in cholesterol metabolism pathways
+        - Changes in inflammatory response pathways
+        - Different metabolic signature from acute deprivation
+        - Suggests chronic vs. acute sleep loss have different metabolic signatures
+    
+    *Conclusion*: Chronic sleep restriction produces metabolic alterations distinct from acute deprivation, involving cholesterol and inflammatory pathways.
+    *Limitations*: n=13 (small sample); serum not saliva; single study with no replication; specific duration/intensity not detailed; cholesterol metabolism may be confounded by diet.
+    *Relevance to ME/CFS*: Most relevant to ME/CFS because studies chronic sleep restriction rather than acute deprivation. Demonstrates that chronic sleep disruption DOES produce metabolic changes (contrary to Scholz's sleep restriction finding). Provides candidate pathways (cholesterol, inflammation) for ME/CFS research.
+    *Certainty*: 0.60/1.0 (Medium - chronic model is relevant, but small sample, serum not saliva, no replication)
+
+=== Neu et al.\ Series (2004-2015) — ME/CFS Sleep Characteristics
+
+    *Full Citation*: Multiple studies by Neu D, Mairesse O, Verbanck P, Linkowski P, Le Bon O. J Sleep Res. 2008;17(4):427-431. DOI: 10.1111/j.1365-2869.2008.00679.x. J Psychosom Res. 2014;76(3):286-291. DOI: 10.1016/j.jpsychores.2014.02.002. Clin Neurophysiol. 2015;126(10):1926-1933. DOI: 10.1016/j.clinph.2014.12.016.
+    *DOI*: Various
+    *Published*: 2008-2015
+    *Study Design*: Multiple case-control studies
+    *Methods*: Polysomnography (PSG), Multiple Sleep Latency Test (MSLT), EEG spectral analysis
+    *Key Findings*:
+        
+        - MSLT: reduced mean sleep latency in CFS patients vs. HC in 1 study
+        - EEG spectral power: differences in power distribution during non-REM sleep
+        - Slow wave sleep: power spectra distribution patterns differ from primary insomnia and HC
+        - Inconsistent findings across studies
+        - Subtle sleep alterations not captured by conventional staging
+        - Suggested comorbid sleep disorders may contribute to daytime sleepiness
+    
+    *Conclusion*: ME/CFS shows subtle but detectable sleep alterations, particularly in spectral power and micro-arousals. Findings inconsistent across studies.
+    *Limitations*: Small samples; heterogeneous CFS criteria; first-night effects; inconsistent methodology; primarily objective measures without subjective correlation.
+    *Relevance to ME/CFS*: Part of the literature reviewed by Maksoud 2021. Demonstrates that subtle sleep alterations exist but are inconsistent. Supports need for alternative biomarker approaches (e.g., metabolomics) given PSG limitations.
+    *Certainty*: 0.55/1.0 (Medium - multiple studies by same group, but inconsistent findings and methodology limitations)
+
