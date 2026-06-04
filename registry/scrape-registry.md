@@ -485,3 +485,17 @@ Prevents re-processing of already-integrated content.
 | https://doi.org/10.1126/science.aax5440 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Fultz2019CSFOscillations — CSF oscillations in human sleep
 | https://doi.org/10.1016/j.jpain.2025.00583 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — ValdesHernandez2025PainClearance — Pain and brain clearance
 | https://doi.org/10.1038/s41598-026-49131-9 | nature.com | 2026-06-01 | — | bib/appendix-h/ch07/ch08/ch10/ch14d — Azcue2026gpcr — GPCR autoantibodies (beta2 adrenergic, M1-M4 muscarinic) linked to autonomic dysfunction and cognitive performance in ME/CFS vs PCC; Sci Rep 2026 |
+
+| https://www.nature.com/articles/s41598-026-49131-9 | nature.com | 2026-06-01 | — | bib/appendix-h/ch07/ch08/ch10/ch14d — Azcue2026gpcr — GPCR autoantibodies (beta2 adrenergic, M1-M4 muscarinic) linked to autonomic dysfunction and cognitive performance in ME/CFS vs PCC; Sci Rep 2026 |
+
+## Sleep Deprivation Salivary Metabolomics Literature Search (2026-06-04)
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://medicalxpress.com/news/2026-06-deprived.html | medicalxpress | 2026-06-04 | — | Scholz2026SleepMetabolome — News coverage of salivary metabolomics sleep deprivation study |
+| https://pubmed.ncbi.nlm.nih.gov/42090244/ | pubmed | 2026-06-04 | — | Scholz2026SleepMetabolome — Primary source: salivary metabolomic fingerprint sleep deprivation |
+| https://pubs.acs.org/doi/10.1021/acs.jproteome.5c01064 | acs.org | 2026-06-04 | — | Scholz2026SleepMetabolome — Full text J Proteome Res paper |
+| https://www.nature.com/articles/s41598-025-95403-1 | nature.com | 2026-06-04 | — | Oishi2025ChronicSleepSaliva — Chronic sleep disorder salivary biomarkers |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC8855987/ | pubmed/pmc | 2026-06-04 | — | Jason2021SalivaFBIMECFS — Salivary fatigue biomarker index ME/CFS |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC8150292/ | pubmed/pmc | 2026-06-04 | — | Maksoud2021MECFSSleepReview — Systematic review ME/CFS sleep characteristics |
+| https://www.science.org/doi/10.1126/sciadv.adj6834 | science.org | 2026-06-04 | — | Jeppe2024SleepMetabolomeBlood — Blood metabolomic sleep deprivation biomarker |
